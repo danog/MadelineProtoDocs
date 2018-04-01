@@ -62,6 +62,7 @@ Config = help.getConfig({})
 
 | Error    | Description   |
 |----------|---------------|
+|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |Timeout|A timeout occurred while fetching data from the bot|
 
 

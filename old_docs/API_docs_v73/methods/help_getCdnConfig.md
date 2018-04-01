@@ -62,6 +62,7 @@ CdnConfig = help.getCdnConfig({})
 
 | Error    | Description   |
 |----------|---------------|
+|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
 |Timeout|A timeout occurred while fetching data from the bot|
 
 
