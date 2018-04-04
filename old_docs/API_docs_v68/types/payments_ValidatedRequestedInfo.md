@@ -1,6 +1,7 @@
 ---
 title: payments_ValidatedRequestedInfo
 description: constructors and methods of type payments_ValidatedRequestedInfo
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: payments\_ValidatedRequestedInfo  
 [Back to types index](index.md)

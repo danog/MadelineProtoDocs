@@ -1,6 +1,7 @@
 ---
 title: rpc_drop_answer
 description: Do not send answer to provided request
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: rpc\_drop\_answer  
 [Back to methods index](index.md)

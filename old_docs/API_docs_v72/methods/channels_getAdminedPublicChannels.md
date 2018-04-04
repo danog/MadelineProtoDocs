@@ -1,6 +1,7 @@
 ---
 title: channels.getAdminedPublicChannels
 description: Get all supergroups/channels where you're admin
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: channels.getAdminedPublicChannels  
 [Back to methods index](index.md)

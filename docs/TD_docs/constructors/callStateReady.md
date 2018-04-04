@@ -1,6 +1,7 @@
 ---
 title: callStateReady
 description: Call is ready to use
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: callStateReady  
 [Back to constructors index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: chatEventLogFilters
 description: Represents a set of filters used to obtain a chat event log
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: chatEventLogFilters  
 [Back to constructors index](index.md)

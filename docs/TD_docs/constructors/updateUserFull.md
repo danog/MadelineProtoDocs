@@ -1,6 +1,7 @@
 ---
 title: updateUserFull
 description: Some data from userFull has been changed
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: updateUserFull  
 [Back to constructors index](index.md)

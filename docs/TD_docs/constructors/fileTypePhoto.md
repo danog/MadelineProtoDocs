@@ -1,6 +1,7 @@
 ---
 title: fileTypePhoto
 description: File is a photo
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: fileTypePhoto  
 [Back to constructors index](index.md)

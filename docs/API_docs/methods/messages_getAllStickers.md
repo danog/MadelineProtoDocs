@@ -1,6 +1,7 @@
 ---
 title: messages.getAllStickers
 description: Get all stickerpacks
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.getAllStickers  
 [Back to methods index](index.md)

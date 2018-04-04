@@ -1,6 +1,7 @@
 ---
 title: addNetworkStatistics
 description: Adds specified data to data usage statistics. Can be called before authorization
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: addNetworkStatistics  
 [Back to methods index](index.md)

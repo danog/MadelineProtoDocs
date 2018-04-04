@@ -1,6 +1,7 @@
 ---
 title: PaymentRequestedInfo
 description: constructors and methods of type PaymentRequestedInfo
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: PaymentRequestedInfo  
 [Back to types index](index.md)

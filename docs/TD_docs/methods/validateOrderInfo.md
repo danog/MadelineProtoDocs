@@ -1,6 +1,7 @@
 ---
 title: validateOrderInfo
 description: Validates order information provided by the user and returns available shipping options for flexible invoice
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: validateOrderInfo  
 [Back to methods index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: contact
 description: Describes user contact
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: contact  
 [Back to constructors index](index.md)

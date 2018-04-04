@@ -1,6 +1,7 @@
 ---
 title: error
 description: Object of this type may be returned on every function call in case of the error
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: error  
 [Back to constructors index](index.md)

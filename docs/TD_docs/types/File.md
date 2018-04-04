@@ -1,6 +1,7 @@
 ---
 title: File
 description: constructors and methods of type File
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: File  
 [Back to types index](index.md)

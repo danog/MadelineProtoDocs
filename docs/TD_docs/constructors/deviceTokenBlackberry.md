@@ -1,6 +1,7 @@
 ---
 title: deviceTokenBlackberry
 description: Token for Blackberry Push Service
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: deviceTokenBlackberry  
 [Back to constructors index](index.md)

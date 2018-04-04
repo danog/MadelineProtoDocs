@@ -1,6 +1,7 @@
 ---
 title: updateNewCallbackQuery
 description: Bots only. New incoming callback query
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: updateNewCallbackQuery  
 [Back to constructors index](index.md)

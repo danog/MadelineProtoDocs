@@ -1,6 +1,7 @@
 ---
 title: chatMemberStatusRestricted
 description: User has some additional restrictions in the chat. Unsupported in group chats and broadcast channels
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: chatMemberStatusRestricted  
 [Back to constructors index](index.md)

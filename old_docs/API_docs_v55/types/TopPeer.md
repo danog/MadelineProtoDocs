@@ -1,6 +1,7 @@
 ---
 title: TopPeer
 description: constructors and methods of type TopPeer
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: TopPeer  
 [Back to types index](index.md)

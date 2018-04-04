@@ -1,6 +1,7 @@
 ---
 title: messages.sendInlineBotResult
 description: Send inline bot result obtained with messages.getInlineBotResults to the chat
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.sendInlineBotResult  
 [Back to methods index](index.md)

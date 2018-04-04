@@ -1,6 +1,7 @@
 ---
 title: updates_Difference
 description: constructors and methods of type updates_Difference
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: updates\_Difference  
 [Back to types index](index.md)

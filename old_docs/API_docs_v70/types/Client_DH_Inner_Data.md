@@ -1,6 +1,7 @@
 ---
 title: Client_DH_Inner_Data
 description: constructors and methods of type Client_DH_Inner_Data
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: Client\_DH\_Inner\_Data  
 [Back to types index](index.md)

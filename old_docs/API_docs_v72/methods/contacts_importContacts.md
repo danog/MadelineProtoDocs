@@ -1,6 +1,7 @@
 ---
 title: contacts.importContacts
 description: Add phone number as contact
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: contacts.importContacts  
 [Back to methods index](index.md)

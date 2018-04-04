@@ -1,6 +1,7 @@
 ---
 title: replyMarkupForceReply
 description: Instruct clients to force reply to this message
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: replyMarkupForceReply  
 [Back to constructors index](index.md)

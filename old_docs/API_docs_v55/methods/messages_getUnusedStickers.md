@@ -1,6 +1,7 @@
 ---
 title: messages.getUnusedStickers
 description: Get unused stickers
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.getUnusedStickers  
 [Back to methods index](index.md)

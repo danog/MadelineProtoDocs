@@ -1,6 +1,7 @@
 ---
 title: messages.readMentions
 description: Mark mentions as read
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.readMentions  
 [Back to methods index](index.md)

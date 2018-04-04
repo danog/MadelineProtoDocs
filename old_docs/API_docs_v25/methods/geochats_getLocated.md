@@ -1,6 +1,7 @@
 ---
 title: geochats.getLocated
 description: Get nearby geochats
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: geochats.getLocated  
 [Back to methods index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: Methods
 description: What do you want to do?
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # What do you want to do?  
 [Go back to API documentation index](..)  

@@ -1,6 +1,7 @@
 ---
 title: cdnConfig
 description: cdnConfig attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: cdnConfig  
 [Back to constructors index](index.md)

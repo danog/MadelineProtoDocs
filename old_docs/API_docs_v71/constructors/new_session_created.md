@@ -1,6 +1,7 @@
 ---
 title: new_session_created
 description: new_session_created attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: new\_session\_created  
 [Back to constructors index](index.md)

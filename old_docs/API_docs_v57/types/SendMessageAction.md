@@ -1,6 +1,7 @@
 ---
 title: SendMessageAction
 description: constructors and methods of type SendMessageAction
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: SendMessageAction  
 [Back to types index](index.md)

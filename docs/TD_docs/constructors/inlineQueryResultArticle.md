@@ -1,6 +1,7 @@
 ---
 title: inlineQueryResultArticle
 description: Represents link to an article or web page
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inlineQueryResultArticle  
 [Back to constructors index](index.md)

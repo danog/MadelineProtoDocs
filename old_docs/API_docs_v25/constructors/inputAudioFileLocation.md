@@ -1,6 +1,7 @@
 ---
 title: inputAudioFileLocation
 description: inputAudioFileLocation attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inputAudioFileLocation  
 [Back to constructors index](index.md)

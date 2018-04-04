@@ -1,6 +1,7 @@
 ---
 title: inputDocumentFileLocation
 description: inputDocumentFileLocation attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inputDocumentFileLocation  
 [Back to constructors index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: getTemporaryPasswordState
 description: Returns information about current temporary password
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: getTemporaryPasswordState  
 [Back to methods index](index.md)

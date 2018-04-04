@@ -1,6 +1,7 @@
 ---
 title: messages.setInlineBotResults
 description: Bots only: set the results of an inline query
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.setInlineBotResults  
 [Back to methods index](index.md)

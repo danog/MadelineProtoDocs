@@ -1,6 +1,7 @@
 ---
 title: pageBlockEmbedded
 description: Embedded web page
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: pageBlockEmbedded  
 [Back to constructors index](index.md)

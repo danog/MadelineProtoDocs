@@ -1,6 +1,7 @@
 ---
 title: paymentReceipt
 description: Contains information about successful payment
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: paymentReceipt  
 [Back to constructors index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: WebAuthorization
 description: constructors and methods of type WebAuthorization
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: WebAuthorization  
 [Back to types index](index.md)

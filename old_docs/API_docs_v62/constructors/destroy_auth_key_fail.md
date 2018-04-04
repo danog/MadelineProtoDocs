@@ -1,6 +1,7 @@
 ---
 title: destroy_auth_key_fail
 description: destroy_auth_key_fail attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: destroy\_auth\_key\_fail  
 [Back to constructors index](index.md)

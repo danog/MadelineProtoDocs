@@ -1,6 +1,7 @@
 ---
 title: auth.sendCall
 description: Send verification phone call
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: auth.sendCall  
 [Back to methods index](index.md)

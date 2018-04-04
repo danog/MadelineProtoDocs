@@ -1,6 +1,7 @@
 ---
 title: RpcDropAnswer
 description: constructors and methods of type RpcDropAnswer
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: RpcDropAnswer  
 [Back to types index](index.md)

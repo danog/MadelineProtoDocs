@@ -1,6 +1,7 @@
 ---
 title: setGameScore
 description: Bots only. Updates game score of the specified user in the game
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: setGameScore  
 [Back to methods index](index.md)

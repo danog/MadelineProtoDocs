@@ -1,6 +1,7 @@
 ---
 title: account.updatePasswordSettings
 description: Update the 2FA password settings
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: account.updatePasswordSettings  
 [Back to methods index](index.md)

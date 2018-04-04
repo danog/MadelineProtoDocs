@@ -1,6 +1,7 @@
 ---
 title: messages.receivedMessages
 description: Mark messages as read
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.receivedMessages  
 [Back to methods index](index.md)

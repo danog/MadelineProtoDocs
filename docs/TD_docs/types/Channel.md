@@ -1,6 +1,7 @@
 ---
 title: Channel
 description: constructors and methods of type Channel
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: Channel  
 [Back to types index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: inlineQueryResultAudio
 description: Represents an audio cached on the telegram server
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inlineQueryResultAudio  
 [Back to constructors index](index.md)

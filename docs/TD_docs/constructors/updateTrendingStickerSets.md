@@ -1,6 +1,7 @@
 ---
 title: updateTrendingStickerSets
 description: List of trending sticker sets was updated or some of them was viewed
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: updateTrendingStickerSets  
 [Back to constructors index](index.md)

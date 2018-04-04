@@ -1,6 +1,7 @@
 ---
 title: TestInt
 description: constructors and methods of type TestInt
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: TestInt  
 [Back to types index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: Wallpaper
 description: constructors and methods of type Wallpaper
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: Wallpaper  
 [Back to types index](index.md)

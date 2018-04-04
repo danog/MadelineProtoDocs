@@ -1,6 +1,7 @@
 ---
 title: notificationSettings
 description: Contains information about notification settings for chat or chats
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: notificationSettings  
 [Back to constructors index](index.md)

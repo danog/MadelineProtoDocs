@@ -1,6 +1,7 @@
 ---
 title: callbackQueryAnswer
 description: Contains answer of a bot to a callback query
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: callbackQueryAnswer  
 [Back to constructors index](index.md)

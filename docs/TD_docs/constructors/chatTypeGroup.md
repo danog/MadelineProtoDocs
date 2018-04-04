@@ -1,6 +1,7 @@
 ---
 title: chatTypeGroup
 description: Chat with zero or more other users
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: chatTypeGroup  
 [Back to constructors index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: CustomRequestResult
 description: constructors and methods of type CustomRequestResult
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: CustomRequestResult  
 [Back to types index](index.md)

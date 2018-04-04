@@ -1,6 +1,7 @@
 ---
 title: linkStateKnowsPhoneNumber
 description: Other user's phone number is known but user not in contacts list
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: linkStateKnowsPhoneNumber  
 [Back to constructors index](index.md)

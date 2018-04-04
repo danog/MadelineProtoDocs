@@ -1,6 +1,7 @@
 ---
 title: draftMessage
 description: Contains information about draft of a message
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: draftMessage  
 [Back to constructors index](index.md)

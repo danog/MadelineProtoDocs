@@ -1,6 +1,7 @@
 ---
 title: ChannelFull
 description: constructors and methods of type ChannelFull
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: ChannelFull  
 [Back to types index](index.md)

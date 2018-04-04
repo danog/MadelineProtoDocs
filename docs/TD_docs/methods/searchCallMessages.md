@@ -1,6 +1,7 @@
 ---
 title: searchCallMessages
 description: Searches for call messages. Returns result in reverse chronological order, i. e. in order of decreasing message_id
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: searchCallMessages  
 [Back to methods index](index.md)

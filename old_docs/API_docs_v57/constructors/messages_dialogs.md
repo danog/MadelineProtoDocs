@@ -1,6 +1,7 @@
 ---
 title: messages.dialogs
 description: messages_dialogs attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: messages.dialogs  
 [Back to constructors index](index.md)

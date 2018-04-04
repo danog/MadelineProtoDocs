@@ -1,6 +1,7 @@
 ---
 title: videoNote
 description: Describes video note. Video must have equal width and height, cropped to circle and stored in mpeg4 format
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: videoNote  
 [Back to constructors index](index.md)

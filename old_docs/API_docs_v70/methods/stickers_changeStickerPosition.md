@@ -1,6 +1,7 @@
 ---
 title: stickers.changeStickerPosition
 description: Change sticker position in photo
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: stickers.changeStickerPosition  
 [Back to methods index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: createNewChannelChat
 description: Creates new channel chat and send corresponding messageChannelChatCreate, returns created chat
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: createNewChannelChat  
 [Back to methods index](index.md)

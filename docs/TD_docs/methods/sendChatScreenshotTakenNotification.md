@@ -1,6 +1,7 @@
 ---
 title: sendChatScreenshotTakenNotification
 description: Sends notification about screenshot taken in a chat. Works only in private and secret chats
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: sendChatScreenshotTakenNotification  
 [Back to methods index](index.md)

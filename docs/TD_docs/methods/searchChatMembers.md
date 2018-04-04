@@ -1,6 +1,7 @@
 ---
 title: searchChatMembers
 description: Searches for the specified query in the first name, last name and username among members of the specified chat. Requires administrator rights in broadcast channels
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: searchChatMembers  
 [Back to methods index](index.md)

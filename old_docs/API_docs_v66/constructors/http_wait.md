@@ -1,6 +1,7 @@
 ---
 title: http_wait
 description: http_wait attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: http\_wait  
 [Back to constructors index](index.md)

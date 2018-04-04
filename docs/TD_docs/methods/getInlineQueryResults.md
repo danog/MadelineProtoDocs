@@ -1,6 +1,7 @@
 ---
 title: getInlineQueryResults
 description: Sends inline query to a bot and returns its results. Returns error with code 502 if bot fails to answer the query before query timeout expires. Unavailable for bots
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: getInlineQueryResults  
 [Back to methods index](index.md)

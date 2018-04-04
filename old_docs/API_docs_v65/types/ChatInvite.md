@@ -1,6 +1,7 @@
 ---
 title: ChatInvite
 description: constructors and methods of type ChatInvite
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: ChatInvite  
 [Back to types index](index.md)

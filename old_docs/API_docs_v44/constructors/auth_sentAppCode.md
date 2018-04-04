@@ -1,6 +1,7 @@
 ---
 title: auth.sentAppCode
 description: auth_sentAppCode attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: auth.sentAppCode  
 [Back to constructors index](index.md)

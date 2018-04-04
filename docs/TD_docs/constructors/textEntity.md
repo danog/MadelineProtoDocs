@@ -1,6 +1,7 @@
 ---
 title: textEntity
 description: Represent part of the text which needs to be formatted in some unusual way
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: textEntity  
 [Back to constructors index](index.md)

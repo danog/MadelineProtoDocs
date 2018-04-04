@@ -1,6 +1,7 @@
 ---
 title: Message
 description: constructors and methods of type Message
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: Message  
 [Back to types index](index.md)

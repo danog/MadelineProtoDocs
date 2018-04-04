@@ -1,6 +1,7 @@
 ---
 title: editInlineMessageText
 description: Bots only. Edits text of an inline text or game message sent via bot
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: editInlineMessageText  
 [Back to methods index](index.md)

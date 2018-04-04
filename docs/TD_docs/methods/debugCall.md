@@ -1,6 +1,7 @@
 ---
 title: debugCall
 description: Sends call debug information
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: debugCall  
 [Back to methods index](index.md)

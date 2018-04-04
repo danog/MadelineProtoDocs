@@ -1,6 +1,7 @@
 ---
 title: contacts.suggested
 description: contacts_suggested attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: contacts.suggested  
 [Back to constructors index](index.md)

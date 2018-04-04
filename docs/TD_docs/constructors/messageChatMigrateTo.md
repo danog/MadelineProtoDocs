@@ -1,6 +1,7 @@
 ---
 title: messageChatMigrateTo
 description: Group chat is migrated to supergroup channel and deactivated
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: messageChatMigrateTo  
 [Back to constructors index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: auth.recoverPassword
 description: Use the code that was emailed to you after running $MadelineProto->auth->requestPasswordRecovery to login to your account
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: auth.recoverPassword  
 [Back to methods index](index.md)

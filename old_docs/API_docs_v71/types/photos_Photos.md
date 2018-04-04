@@ -1,6 +1,7 @@
 ---
 title: photos_Photos
 description: constructors and methods of type photos_Photos
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: photos\_Photos  
 [Back to types index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: inputBotInlineMessageMediaGeo
 description: inputBotInlineMessageMediaGeo attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inputBotInlineMessageMediaGeo  
 [Back to constructors index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: inputBotInlineMessageGame
 description: inputBotInlineMessageGame attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inputBotInlineMessageGame  
 [Back to constructors index](index.md)

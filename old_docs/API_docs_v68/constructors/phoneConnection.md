@@ -1,6 +1,7 @@
 ---
 title: phoneConnection
 description: phoneConnection attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: phoneConnection  
 [Back to constructors index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: dh_gen_ok
 description: dh_gen_ok attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: dh\_gen\_ok  
 [Back to constructors index](index.md)

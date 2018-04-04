@@ -1,6 +1,7 @@
 ---
 title: inputChannelEmpty
 description: inputChannelEmpty attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inputChannelEmpty  
 [Back to constructors index](index.md)

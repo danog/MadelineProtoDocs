@@ -1,6 +1,7 @@
 ---
 title: chatActionUploadingVideoNote
 description: User uploads a video note
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: chatActionUploadingVideoNote  
 [Back to constructors index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: document
 description: Describes document of any type
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: document  
 [Back to constructors index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: messages.hideReportSpam
 description: Hide report spam popup
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.hideReportSpam  
 [Back to methods index](index.md)

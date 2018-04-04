@@ -1,6 +1,7 @@
 ---
 title: ChatMemberStatus
 description: constructors and methods of type ChatMemberStatus
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: ChatMemberStatus  
 [Back to types index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: GeoChatMessage
 description: constructors and methods of type GeoChatMessage
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: GeoChatMessage  
 [Back to types index](index.md)

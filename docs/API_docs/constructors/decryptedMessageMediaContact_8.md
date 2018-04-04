@@ -1,6 +1,7 @@
 ---
 title: decryptedMessageMediaContact
 description: decryptedMessageMediaContact attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: decryptedMessageMediaContact\_8  
 [Back to constructors index](index.md)

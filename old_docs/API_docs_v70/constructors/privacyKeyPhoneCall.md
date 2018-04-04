@@ -1,6 +1,7 @@
 ---
 title: privacyKeyPhoneCall
 description: privacyKeyPhoneCall attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: privacyKeyPhoneCall  
 [Back to constructors index](index.md)

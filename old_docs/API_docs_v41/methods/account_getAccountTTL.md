@@ -1,6 +1,7 @@
 ---
 title: account.getAccountTTL
 description: Get account TTL
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: account.getAccountTTL  
 [Back to methods index](index.md)

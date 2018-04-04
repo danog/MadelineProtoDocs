@@ -1,6 +1,7 @@
 ---
 title: inputPhotoCrop
 description: inputPhotoCrop attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inputPhotoCrop  
 [Back to constructors index](index.md)

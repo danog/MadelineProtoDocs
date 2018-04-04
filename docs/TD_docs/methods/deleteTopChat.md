@@ -1,6 +1,7 @@
 ---
 title: deleteTopChat
 description: Delete a chat from a list of frequently used chats. Supported only if chat info database is enabled
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: deleteTopChat  
 [Back to methods index](index.md)

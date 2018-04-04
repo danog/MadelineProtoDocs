@@ -1,6 +1,7 @@
 ---
 title: messageInvoice
 description: Message with an invoice from a bot
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: messageInvoice  
 [Back to constructors index](index.md)

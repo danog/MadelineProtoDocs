@@ -1,6 +1,7 @@
 ---
 title: optionValueBoolean
 description: Boolean option
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: optionValueBoolean  
 [Back to constructors index](index.md)

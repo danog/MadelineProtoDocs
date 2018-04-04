@@ -1,6 +1,7 @@
 ---
 title: chatEmpty
 description: chatEmpty attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: chatEmpty  
 [Back to constructors index](index.md)

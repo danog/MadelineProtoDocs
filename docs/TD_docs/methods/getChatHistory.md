@@ -1,6 +1,7 @@
 ---
 title: getChatHistory
 description: Returns messages in a chat. Returns result in reverse chronological order, i.e. in order of decreasing message.message_id. Offline request if only_local is true
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: getChatHistory  
 [Back to methods index](index.md)

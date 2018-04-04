@@ -1,6 +1,7 @@
 ---
 title: account.updateProfile
 description: Update profile info
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: account.updateProfile  
 [Back to methods index](index.md)

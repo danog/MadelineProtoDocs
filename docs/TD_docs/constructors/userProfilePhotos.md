@@ -1,6 +1,7 @@
 ---
 title: userProfilePhotos
 description: Contains part of the list of user photos
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: userProfilePhotos  
 [Back to constructors index](index.md)

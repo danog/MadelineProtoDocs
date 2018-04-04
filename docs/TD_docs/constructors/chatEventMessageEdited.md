@@ -1,6 +1,7 @@
 ---
 title: chatEventMessageEdited
 description: A message was edited
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: chatEventMessageEdited  
 [Back to constructors index](index.md)

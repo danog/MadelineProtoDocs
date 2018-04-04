@@ -1,6 +1,7 @@
 ---
 title: createPrivateChat
 description: Returns existing chat corresponding to the given user
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: createPrivateChat  
 [Back to methods index](index.md)

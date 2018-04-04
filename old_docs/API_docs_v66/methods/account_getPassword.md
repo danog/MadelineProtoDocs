@@ -1,6 +1,7 @@
 ---
 title: account.getPassword
 description: Get the current password
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: account.getPassword  
 [Back to methods index](index.md)

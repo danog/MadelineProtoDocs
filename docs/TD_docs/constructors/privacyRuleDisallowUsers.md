@@ -1,6 +1,7 @@
 ---
 title: privacyRuleDisallowUsers
 description: Rule to disallow all specified users
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: privacyRuleDisallowUsers  
 [Back to constructors index](index.md)

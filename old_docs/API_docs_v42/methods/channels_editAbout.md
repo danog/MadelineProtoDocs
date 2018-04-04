@@ -1,6 +1,7 @@
 ---
 title: channels.editAbout
 description: Edit the about text of a channel/supergroup
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: channels.editAbout  
 [Back to methods index](index.md)

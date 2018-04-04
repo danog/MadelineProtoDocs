@@ -1,6 +1,7 @@
 ---
 title: ChatAction
 description: constructors and methods of type ChatAction
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: ChatAction  
 [Back to types index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: setChannelStickerSet
 description: Changes sticker set of the channel. Needs appropriate rights in the channel
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: setChannelStickerSet  
 [Back to methods index](index.md)

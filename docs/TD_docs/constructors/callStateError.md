@@ -1,6 +1,7 @@
 ---
 title: callStateError
 description: Call has ended with an error
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: callStateError  
 [Back to constructors index](index.md)

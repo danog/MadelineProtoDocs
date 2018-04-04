@@ -1,6 +1,7 @@
 ---
 title: getAuthState
 description: Returns current authorization state, offline request
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: getAuthState  
 [Back to methods index](index.md)

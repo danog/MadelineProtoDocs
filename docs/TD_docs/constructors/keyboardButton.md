@@ -1,6 +1,7 @@
 ---
 title: keyboardButton
 description: Represents one button of the bot keyboard
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: keyboardButton  
 [Back to constructors index](index.md)

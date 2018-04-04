@@ -1,6 +1,7 @@
 ---
 title: contacts.getContacts
 description: Get info about a certain contact
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: contacts.getContacts  
 [Back to methods index](index.md)

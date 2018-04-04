@@ -1,6 +1,7 @@
 ---
 title: messages.stickerSetInstallResultSuccess
 description: messages_stickerSetInstallResultSuccess attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: messages.stickerSetInstallResultSuccess  
 [Back to constructors index](index.md)

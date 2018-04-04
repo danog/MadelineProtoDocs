@@ -1,6 +1,7 @@
 ---
 title: storageStatistics
 description: Contains exact storage usage statistics splitted by chats and file types
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: storageStatistics  
 [Back to constructors index](index.md)

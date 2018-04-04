@@ -1,6 +1,7 @@
 ---
 title: geochats.setTyping
 description: Send typing notification to geochat
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: geochats.setTyping  
 [Back to methods index](index.md)

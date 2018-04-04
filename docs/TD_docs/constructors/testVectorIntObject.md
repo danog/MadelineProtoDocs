@@ -1,6 +1,7 @@
 ---
 title: testVectorIntObject
 description: Tests only. A simple object containing just a vector of objects containing a number
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: testVectorIntObject  
 [Back to constructors index](index.md)

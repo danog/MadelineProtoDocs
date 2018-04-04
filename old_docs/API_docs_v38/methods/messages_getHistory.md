@@ -1,6 +1,7 @@
 ---
 title: messages.getHistory
 description: Get previous messages of a group
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.getHistory  
 [Back to methods index](index.md)
@@ -79,6 +80,7 @@ messages_Messages = messages.getHistory({peer=InputPeer, offset_id=int, add_offs
 |CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |CHAT_ID_INVALID|The provided chat id is invalid|
 |PEER_ID_INVALID|The provided peer id is invalid|
+|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
 |Timeout|A timeout occurred while fetching data from the bot|
 

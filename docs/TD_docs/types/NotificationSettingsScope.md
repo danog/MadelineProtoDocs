@@ -1,6 +1,7 @@
 ---
 title: NotificationSettingsScope
 description: constructors and methods of type NotificationSettingsScope
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: NotificationSettingsScope  
 [Back to types index](index.md)

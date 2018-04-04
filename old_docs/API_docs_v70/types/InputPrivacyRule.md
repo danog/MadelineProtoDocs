@@ -1,6 +1,7 @@
 ---
 title: InputPrivacyRule
 description: constructors and methods of type InputPrivacyRule
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: InputPrivacyRule  
 [Back to types index](index.md)

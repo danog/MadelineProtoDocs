@@ -1,6 +1,7 @@
 ---
 title: help.getNearestDc
 description: Get nearest datacenter
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: help.getNearestDc  
 [Back to methods index](index.md)

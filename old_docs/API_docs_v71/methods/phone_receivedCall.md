@@ -1,6 +1,7 @@
 ---
 title: phone.receivedCall
 description: Notify server that you received a call (server will refuse all incoming calls until the current call is over)
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: phone.receivedCall  
 [Back to methods index](index.md)

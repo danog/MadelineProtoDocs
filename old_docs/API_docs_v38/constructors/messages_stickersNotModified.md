@@ -1,6 +1,7 @@
 ---
 title: messages.stickersNotModified
 description: messages_stickersNotModified attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: messages.stickersNotModified  
 [Back to constructors index](index.md)

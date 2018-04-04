@@ -1,6 +1,7 @@
 ---
 title: messages.reportSpam
 description: Report a peer for spam
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.reportSpam  
 [Back to methods index](index.md)

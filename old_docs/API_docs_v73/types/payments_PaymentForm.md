@@ -1,6 +1,7 @@
 ---
 title: payments_PaymentForm
 description: constructors and methods of type payments_PaymentForm
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: payments\_PaymentForm  
 [Back to types index](index.md)

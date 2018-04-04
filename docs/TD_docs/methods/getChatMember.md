@@ -1,6 +1,7 @@
 ---
 title: getChatMember
 description: Returns information about one participant of the chat
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: getChatMember  
 [Back to methods index](index.md)

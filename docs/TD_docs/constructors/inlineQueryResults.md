@@ -1,6 +1,7 @@
 ---
 title: inlineQueryResults
 description: Represents results of the inline query. Use sendInlineQueryResultMessage to send the result of the query
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inlineQueryResults  
 [Back to constructors index](index.md)

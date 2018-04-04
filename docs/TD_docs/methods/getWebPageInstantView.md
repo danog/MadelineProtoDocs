@@ -1,6 +1,7 @@
 ---
 title: getWebPageInstantView
 description: Returns web page instant view if available. Returns error 404 if web page has no instant view
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: getWebPageInstantView  
 [Back to methods index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: sendChatAction
 description: Sends notification about user activity in a chat
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: sendChatAction  
 [Back to methods index](index.md)

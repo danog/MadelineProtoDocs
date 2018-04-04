@@ -1,6 +1,7 @@
 ---
 title: setChatClientData
 description: Changes client data associated with a chat
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: setChatClientData  
 [Back to methods index](index.md)

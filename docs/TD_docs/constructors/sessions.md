@@ -1,6 +1,7 @@
 ---
 title: sessions
 description: Contains list of sessions
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: sessions  
 [Back to constructors index](index.md)

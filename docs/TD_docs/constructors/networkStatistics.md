@@ -1,6 +1,7 @@
 ---
 title: networkStatistics
 description: Full list of available network statistics entries
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: networkStatistics  
 [Back to constructors index](index.md)

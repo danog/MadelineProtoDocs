@@ -1,6 +1,7 @@
 ---
 title: phoneCallEmpty
 description: phoneCallEmpty attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: phoneCallEmpty  
 [Back to constructors index](index.md)

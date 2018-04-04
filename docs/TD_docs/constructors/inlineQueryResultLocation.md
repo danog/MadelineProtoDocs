@@ -1,6 +1,7 @@
 ---
 title: inlineQueryResultLocation
 description: Represents a point on the map
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inlineQueryResultLocation  
 [Back to constructors index](index.md)

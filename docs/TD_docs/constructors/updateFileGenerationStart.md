@@ -1,6 +1,7 @@
 ---
 title: updateFileGenerationStart
 description: File generation process need to be started by the client
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: updateFileGenerationStart  
 [Back to constructors index](index.md)

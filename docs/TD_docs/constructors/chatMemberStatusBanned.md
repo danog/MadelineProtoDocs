@@ -1,6 +1,7 @@
 ---
 title: chatMemberStatusBanned
 description: User was banned (and obviously is not a chat member) and can't return to the chat or view messages
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: chatMemberStatusBanned  
 [Back to constructors index](index.md)

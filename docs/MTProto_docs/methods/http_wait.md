@@ -1,6 +1,7 @@
 ---
 title: http_wait
 description: Makes the server send messages waiting in the buffer
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: http\_wait  
 [Back to methods index](index.md)

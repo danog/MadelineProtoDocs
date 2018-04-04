@@ -1,6 +1,7 @@
 ---
 title: photoSize
 description: Photo description
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: photoSize  
 [Back to constructors index](index.md)

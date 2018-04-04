@@ -1,6 +1,7 @@
 ---
 title: searchStickerSet
 description: Searches sticker set by its short name
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: searchStickerSet  
 [Back to methods index](index.md)

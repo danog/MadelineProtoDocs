@@ -1,6 +1,7 @@
 ---
 title: checkChangePhoneNumberCode
 description: Checks authentication code sent to change user's phone number. Returns authStateOk on success
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: checkChangePhoneNumberCode  
 [Back to methods index](index.md)

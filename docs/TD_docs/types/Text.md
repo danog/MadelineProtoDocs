@@ -1,6 +1,7 @@
 ---
 title: Text
 description: constructors and methods of type Text
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: Text  
 [Back to types index](index.md)

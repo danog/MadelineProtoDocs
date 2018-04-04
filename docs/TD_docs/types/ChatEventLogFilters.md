@@ -1,6 +1,7 @@
 ---
 title: ChatEventLogFilters
 description: constructors and methods of type ChatEventLogFilters
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: ChatEventLogFilters  
 [Back to types index](index.md)

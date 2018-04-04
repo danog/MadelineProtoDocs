@@ -1,6 +1,7 @@
 ---
 title: updateNotificationSettings
 description: Notification settings for some chats was updated
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: updateNotificationSettings  
 [Back to constructors index](index.md)

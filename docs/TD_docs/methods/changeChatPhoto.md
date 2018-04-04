@@ -1,6 +1,7 @@
 ---
 title: changeChatPhoto
 description: Changes chat photo. Works only for group and channel chats. Requires administrator rights in groups and appropriate administrator right in channels. Photo will not change before request to the server completes
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: changeChatPhoto  
 [Back to methods index](index.md)

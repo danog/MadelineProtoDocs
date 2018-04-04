@@ -1,6 +1,7 @@
 ---
 title: auth.cancelCode
 description: Invalidate sent phone code
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: auth.cancelCode  
 [Back to methods index](index.md)

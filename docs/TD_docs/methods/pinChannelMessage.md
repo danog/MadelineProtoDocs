@@ -1,6 +1,7 @@
 ---
 title: pinChannelMessage
 description: Pins a message in a supergroup channel chat. Needs appropriate rights in the channel
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: pinChannelMessage  
 [Back to methods index](index.md)

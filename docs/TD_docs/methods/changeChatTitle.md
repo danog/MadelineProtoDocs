@@ -1,6 +1,7 @@
 ---
 title: changeChatTitle
 description: Changes chat title. Works only for group and channel chats. Requires administrator rights in groups and appropriate administrator right in channels. Title will not change before request to the server completes
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: changeChatTitle  
 [Back to methods index](index.md)

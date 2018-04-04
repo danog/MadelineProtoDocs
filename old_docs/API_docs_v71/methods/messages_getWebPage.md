@@ -1,6 +1,7 @@
 ---
 title: messages.getWebPage
 description: Get webpage preview
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.getWebPage  
 [Back to methods index](index.md)

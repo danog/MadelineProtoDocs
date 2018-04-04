@@ -1,6 +1,7 @@
 ---
 title: channelMembersFilterSearch
 description: Searches for channel members using specified query
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: channelMembersFilterSearch  
 [Back to constructors index](index.md)

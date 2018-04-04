@@ -1,6 +1,7 @@
 ---
 title: getCommonChats
 description: Returns list of common chats with an other given user. Chats are sorted by their type and creation date
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: getCommonChats  
 [Back to methods index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: MadelineProto documentation
-description: PHP implementation of telegram's MTProto protocol
+description: PHP client/server for the telegram MTProto protocol (a better tg-cli)
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # MadelineProto, a PHP MTProto telegram client
 

@@ -1,6 +1,7 @@
 ---
 title: auth.requestPasswordRecovery
 description: Send an email to recover the 2FA password
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: auth.requestPasswordRecovery  
 [Back to methods index](index.md)

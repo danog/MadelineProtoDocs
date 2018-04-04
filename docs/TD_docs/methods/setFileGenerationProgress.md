@@ -1,6 +1,7 @@
 ---
 title: setFileGenerationProgress
 description: Next part of a file was generated
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: setFileGenerationProgress  
 [Back to methods index](index.md)

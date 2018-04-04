@@ -1,6 +1,7 @@
 ---
 title: session
 description: Contains information about one session in some application used by the user
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: session  
 [Back to constructors index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: auth_CodeType
 description: constructors and methods of type auth_CodeType
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: auth\_CodeType  
 [Back to types index](index.md)

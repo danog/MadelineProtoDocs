@@ -1,6 +1,7 @@
 ---
 title: channelFull
 description: Gives full information about a channel
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: channelFull  
 [Back to constructors index](index.md)

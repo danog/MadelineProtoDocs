@@ -1,6 +1,7 @@
 ---
 title: inlineKeyboardButtonTypeSwitchInline
 description: A button which forces inline query to the bot to be substitued in the input field
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inlineKeyboardButtonTypeSwitchInline  
 [Back to constructors index](index.md)

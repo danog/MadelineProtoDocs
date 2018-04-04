@@ -1,6 +1,7 @@
 ---
 title: auth.dropTempAuthKeys
 description: Delete all temporary authorization keys except the ones provided
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: auth.dropTempAuthKeys  
 [Back to methods index](index.md)

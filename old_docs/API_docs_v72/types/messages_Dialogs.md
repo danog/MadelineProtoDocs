@@ -1,6 +1,7 @@
 ---
 title: messages_Dialogs
 description: constructors and methods of type messages_Dialogs
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: messages\_Dialogs  
 [Back to types index](index.md)

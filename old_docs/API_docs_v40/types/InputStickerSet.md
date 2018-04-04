@@ -1,6 +1,7 @@
 ---
 title: InputStickerSet
 description: constructors and methods of type InputStickerSet
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: InputStickerSet  
 [Back to types index](index.md)

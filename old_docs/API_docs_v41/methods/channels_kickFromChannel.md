@@ -1,6 +1,7 @@
 ---
 title: channels.kickFromChannel
 description: Kick user from channel
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: channels.kickFromChannel  
 [Back to methods index](index.md)

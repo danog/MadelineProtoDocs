@@ -1,6 +1,7 @@
 ---
 title: PhoneCall
 description: constructors and methods of type PhoneCall
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: PhoneCall  
 [Back to types index](index.md)

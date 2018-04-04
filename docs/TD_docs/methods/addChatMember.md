@@ -1,6 +1,7 @@
 ---
 title: addChatMember
 description: Adds new member to chat. Members can't be added to private or secret chats. Member will not be added until chat state will be synchronized with the server
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: addChatMember  
 [Back to methods index](index.md)

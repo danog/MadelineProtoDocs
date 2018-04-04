@@ -1,6 +1,7 @@
 ---
 title: validatedOrderInfo
 description: Contains temporary identifier of validated order information stored for an hour and available shipping options
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: validatedOrderInfo  
 [Back to constructors index](index.md)

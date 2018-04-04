@@ -1,6 +1,7 @@
 ---
 title: callProtocol
 description: Specifies supported call protocols
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: callProtocol  
 [Back to constructors index](index.md)

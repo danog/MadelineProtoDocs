@@ -1,6 +1,7 @@
 ---
 title: userStatusOffline
 description: User is offline
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: userStatusOffline  
 [Back to constructors index](index.md)

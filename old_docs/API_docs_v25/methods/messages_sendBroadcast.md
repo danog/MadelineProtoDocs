@@ -1,6 +1,7 @@
 ---
 title: messages.sendBroadcast
 description: Send a message to all users in the chat list
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.sendBroadcast  
 [Back to methods index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: stickerSet
 description: Represents sticker set
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: stickerSet  
 [Back to constructors index](index.md)

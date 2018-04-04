@@ -1,6 +1,7 @@
 ---
 title: closeSecretChat
 description: Closes secret chat, effectively transfering its state to "Closed"
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: closeSecretChat  
 [Back to methods index](index.md)

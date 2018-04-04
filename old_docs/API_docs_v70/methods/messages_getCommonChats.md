@@ -1,6 +1,7 @@
 ---
 title: messages.getCommonChats
 description: Get chats in common with a user
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.getCommonChats  
 [Back to methods index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: editInlineMessageReplyMarkup
 description: Bots only. Edits reply markup of an inline message sent via bot
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: editInlineMessageReplyMarkup  
 [Back to methods index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: messages.getMaskStickers
 description: Get masks
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.getMaskStickers  
 [Back to methods index](index.md)

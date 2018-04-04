@@ -1,6 +1,7 @@
 ---
 title: messages.editChatTitle
 description: Edit the title of a normal chat (not supergroup)
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.editChatTitle  
 [Back to methods index](index.md)

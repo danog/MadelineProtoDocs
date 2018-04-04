@@ -1,6 +1,7 @@
 ---
 title: storage_FileType
 description: constructors and methods of type storage_FileType
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: storage\_FileType  
 [Back to types index](index.md)

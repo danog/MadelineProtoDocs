@@ -1,6 +1,7 @@
 ---
 title: video
 description: Describes video file
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: video  
 [Back to constructors index](index.md)

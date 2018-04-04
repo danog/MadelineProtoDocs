@@ -1,6 +1,7 @@
 ---
 title: inputInlineQueryResultPhoto
 description: Represents link to a jpeg photo
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inputInlineQueryResultPhoto  
 [Back to constructors index](index.md)

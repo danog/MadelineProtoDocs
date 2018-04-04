@@ -1,6 +1,7 @@
 ---
 title: Methods
 description: List of methods
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Methods  
 [Back to API documentation index](..)

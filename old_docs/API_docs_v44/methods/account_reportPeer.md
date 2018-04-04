@@ -1,6 +1,7 @@
 ---
 title: account.reportPeer
 description: Report for spam
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: account.reportPeer  
 [Back to methods index](index.md)

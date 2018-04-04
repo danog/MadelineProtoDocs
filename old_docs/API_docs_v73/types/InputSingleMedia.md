@@ -1,6 +1,7 @@
 ---
 title: InputSingleMedia
 description: constructors and methods of type InputSingleMedia
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: InputSingleMedia  
 [Back to types index](index.md)

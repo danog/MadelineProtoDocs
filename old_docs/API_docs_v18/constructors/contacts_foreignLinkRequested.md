@@ -1,6 +1,7 @@
 ---
 title: contacts.foreignLinkRequested
 description: contacts_foreignLinkRequested attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: contacts.foreignLinkRequested  
 [Back to constructors index](index.md)

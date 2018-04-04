@@ -1,6 +1,7 @@
 ---
 title: updateMessageSendFailed
 description: Message fails to send. Be aware that some being sent messages can be irrecoverably deleted and updateDeleteMessages will come instead of this update
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: updateMessageSendFailed  
 [Back to constructors index](index.md)

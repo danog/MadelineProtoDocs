@@ -1,6 +1,7 @@
 ---
 title: auth.checkPhone
 description: Check if this phone number is registered on telegram
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: auth.checkPhone  
 [Back to methods index](index.md)

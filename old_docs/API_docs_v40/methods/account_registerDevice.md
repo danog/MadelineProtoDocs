@@ -1,6 +1,7 @@
 ---
 title: account.registerDevice
 description: Register device for push notifications
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: account.registerDevice  
 [Back to methods index](index.md)

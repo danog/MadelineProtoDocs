@@ -1,6 +1,7 @@
 ---
 title: ChatMembers
 description: constructors and methods of type ChatMembers
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: ChatMembers  
 [Back to types index](index.md)

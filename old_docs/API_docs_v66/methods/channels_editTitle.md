@@ -1,6 +1,7 @@
 ---
 title: channels.editTitle
 description: Edit the title of a supergroup/channel
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: channels.editTitle  
 [Back to methods index](index.md)

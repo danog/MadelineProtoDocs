@@ -1,6 +1,7 @@
 ---
 title: chatEventMemberPromoted
 description: A chat member promoted to/demoted from administrators
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: chatEventMemberPromoted  
 [Back to constructors index](index.md)

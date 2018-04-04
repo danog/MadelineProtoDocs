@@ -1,6 +1,7 @@
 ---
 title: contacts.getStatuses
 description: Get online status of all users
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: contacts.getStatuses  
 [Back to methods index](index.md)

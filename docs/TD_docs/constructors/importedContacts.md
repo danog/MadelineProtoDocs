@@ -1,6 +1,7 @@
 ---
 title: importedContacts
 description: Represent result for ImportContacts request
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: importedContacts  
 [Back to constructors index](index.md)

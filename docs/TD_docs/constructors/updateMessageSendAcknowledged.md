@@ -1,6 +1,7 @@
 ---
 title: updateMessageSendAcknowledged
 description: Message send request has reached Telegram server. It doesn't mean that message send will be successful or even that message send request will be processed. Update will not come, unless option "use_quick_ack" is set to true. The update may come many times for the same message
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: updateMessageSendAcknowledged  
 [Back to constructors index](index.md)

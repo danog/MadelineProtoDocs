@@ -1,6 +1,7 @@
 ---
 title: OptionValue
 description: constructors and methods of type OptionValue
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: OptionValue  
 [Back to types index](index.md)

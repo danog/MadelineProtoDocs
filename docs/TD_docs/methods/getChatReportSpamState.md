@@ -1,6 +1,7 @@
 ---
 title: getChatReportSpamState
 description: Returns current chat report spam state
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: getChatReportSpamState  
 [Back to methods index](index.md)

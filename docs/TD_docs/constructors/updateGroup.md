@@ -1,6 +1,7 @@
 ---
 title: updateGroup
 description: Some data about a group has been changed. This update is guaranteed to come before group identifier is returned to the client, if library knows anything about the group
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: updateGroup  
 [Back to constructors index](index.md)

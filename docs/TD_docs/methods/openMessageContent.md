@@ -1,6 +1,7 @@
 ---
 title: openMessageContent
 description: Message content is opened, for example the user has opened a photo, a video, a document, a location or a venue or have listened to an audio or a voice message. You will receive updateOpenMessageContent if something has changed
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: openMessageContent  
 [Back to methods index](index.md)

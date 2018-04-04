@@ -1,6 +1,7 @@
 ---
 title: InputVideo
 description: constructors and methods of type InputVideo
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: InputVideo  
 [Back to types index](index.md)

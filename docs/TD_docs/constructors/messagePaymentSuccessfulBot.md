@@ -1,6 +1,7 @@
 ---
 title: messagePaymentSuccessfulBot
 description: Bots only. Payment completed
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: messagePaymentSuccessfulBot  
 [Back to constructors index](index.md)

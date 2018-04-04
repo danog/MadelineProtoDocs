@@ -1,6 +1,7 @@
 ---
 title: updates_ChannelDifference
 description: constructors and methods of type updates_ChannelDifference
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: updates\_ChannelDifference  
 [Back to types index](index.md)

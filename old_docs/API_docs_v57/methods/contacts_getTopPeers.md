@@ -1,6 +1,7 @@
 ---
 title: contacts.getTopPeers
 description: Get most used chats
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: contacts.getTopPeers  
 [Back to methods index](index.md)

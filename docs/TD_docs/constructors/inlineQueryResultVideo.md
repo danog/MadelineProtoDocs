@@ -1,6 +1,7 @@
 ---
 title: inlineQueryResultVideo
 description: Represents a video cached on the telegram server
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inlineQueryResultVideo  
 [Back to constructors index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: MTmessage
 description: MTmessage attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: MTmessage  
 [Back to constructors index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: networkStatisticsEntryCall
 description: Contains information about total received and sent calls data
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: networkStatisticsEntryCall  
 [Back to constructors index](index.md)

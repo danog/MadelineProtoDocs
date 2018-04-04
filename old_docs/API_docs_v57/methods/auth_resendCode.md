@@ -1,6 +1,7 @@
 ---
 title: auth.resendCode
 description: Resend the SMS verification code
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: auth.resendCode  
 [Back to methods index](index.md)

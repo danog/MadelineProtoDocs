@@ -1,6 +1,7 @@
 ---
 title: storage.fileMp3
 description: storage_fileMp3 attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: storage.fileMp3  
 [Back to constructors index](index.md)

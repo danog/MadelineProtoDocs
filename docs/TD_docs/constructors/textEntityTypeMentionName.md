@@ -1,6 +1,7 @@
 ---
 title: textEntityTypeMentionName
 description: Mention of the user by some text
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: textEntityTypeMentionName  
 [Back to constructors index](index.md)

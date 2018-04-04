@@ -1,6 +1,7 @@
 ---
 title: messageChannelChatCreate
 description: New channel chat created
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: messageChannelChatCreate  
 [Back to constructors index](index.md)

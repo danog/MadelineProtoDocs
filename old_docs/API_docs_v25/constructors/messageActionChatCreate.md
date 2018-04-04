@@ -1,6 +1,7 @@
 ---
 title: messageActionChatCreate
 description: messageActionChatCreate attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: messageActionChatCreate  
 [Back to constructors index](index.md)

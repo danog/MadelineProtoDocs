@@ -1,6 +1,7 @@
 ---
 title: editMessageText
 description: Edits text of text or game message. Non-bots can edit message in a limited period of time. Returns edited message after edit is complete server side
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: editMessageText  
 [Back to methods index](index.md)

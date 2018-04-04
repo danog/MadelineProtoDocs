@@ -1,6 +1,7 @@
 ---
 title: Animations
 description: constructors and methods of type Animations
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: Animations  
 [Back to types index](index.md)

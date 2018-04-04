@@ -1,6 +1,7 @@
 ---
 title: channelParticipant
 description: channelParticipant attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: channelParticipant  
 [Back to constructors index](index.md)

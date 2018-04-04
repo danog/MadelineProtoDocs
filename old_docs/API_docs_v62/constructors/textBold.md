@@ -1,6 +1,7 @@
 ---
 title: textBold
 description: textBold attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: textBold  
 [Back to constructors index](index.md)

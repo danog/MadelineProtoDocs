@@ -1,6 +1,7 @@
 ---
 title: chatEventInvitesToggled
 description: Supergroup channel chat anyone_can_invite setting was toggled
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: chatEventInvitesToggled  
 [Back to constructors index](index.md)

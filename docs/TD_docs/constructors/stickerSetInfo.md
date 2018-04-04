@@ -1,6 +1,7 @@
 ---
 title: stickerSetInfo
 description: Represents short information about sticker set
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: stickerSetInfo  
 [Back to constructors index](index.md)

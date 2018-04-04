@@ -1,6 +1,7 @@
 ---
 title: setAuthPhoneNumber
 description: Sets user's phone number and sends authentication code to the user. Works only when getAuthState returns authStateWaitPhoneNumber. If phone number is not recognized or another error has happened, returns an error. Otherwise returns authStateWaitCode
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: setAuthPhoneNumber  
 [Back to methods index](index.md)

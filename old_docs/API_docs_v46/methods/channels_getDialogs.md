@@ -1,6 +1,7 @@
 ---
 title: channels.getDialogs
 description: Get channel dialogs
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: channels.getDialogs  
 [Back to methods index](index.md)

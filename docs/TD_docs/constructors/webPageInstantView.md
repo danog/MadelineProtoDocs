@@ -1,6 +1,7 @@
 ---
 title: webPageInstantView
 description: Describes instant view of a web page
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: webPageInstantView  
 [Back to constructors index](index.md)

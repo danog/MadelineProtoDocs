@@ -1,6 +1,7 @@
 ---
 title: InputChat
 description: constructors and methods of type InputChat
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: InputChat  
 [Back to types index](index.md)

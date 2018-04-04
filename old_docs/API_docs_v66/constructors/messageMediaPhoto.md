@@ -1,6 +1,7 @@
 ---
 title: messageMediaPhoto
 description: messageMediaPhoto attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: messageMediaPhoto  
 [Back to constructors index](index.md)

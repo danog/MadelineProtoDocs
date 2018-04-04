@@ -1,6 +1,7 @@
 ---
 title: changeUsername
 description: Changes username of logged in user. If something changes, updateUser will be sent
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: changeUsername  
 [Back to methods index](index.md)

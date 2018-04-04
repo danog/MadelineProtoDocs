@@ -1,6 +1,7 @@
 ---
 title: paymentResult
 description: Contains result of a payment query
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: paymentResult  
 [Back to constructors index](index.md)

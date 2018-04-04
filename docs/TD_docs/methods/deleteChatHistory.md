@@ -1,6 +1,7 @@
 ---
 title: deleteChatHistory
 description: Deletes all messages in the chat. Can't be used for channel chats
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: deleteChatHistory  
 [Back to methods index](index.md)

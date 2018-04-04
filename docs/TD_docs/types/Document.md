@@ -1,6 +1,7 @@
 ---
 title: Document
 description: constructors and methods of type Document
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: Document  
 [Back to types index](index.md)

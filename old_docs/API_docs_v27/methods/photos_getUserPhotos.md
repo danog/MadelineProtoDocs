@@ -1,6 +1,7 @@
 ---
 title: photos.getUserPhotos
 description: Get the profile photos of a user
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: photos.getUserPhotos  
 [Back to methods index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: downloadFile
 description: Asynchronously downloads file from cloud. Updates updateFile will notify about download progress and successful download
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: downloadFile  
 [Back to methods index](index.md)

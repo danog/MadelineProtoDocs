@@ -1,6 +1,7 @@
 ---
 title: deleteFile
 description: Deletes a file from TDLib file cache
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: deleteFile  
 [Back to methods index](index.md)

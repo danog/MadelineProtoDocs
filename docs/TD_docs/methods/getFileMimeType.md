@@ -1,6 +1,7 @@
 ---
 title: getFileMimeType
 description: Returns file's mime type guessing only by its extension. Returns empty string on failure. Offline method. Can be called before authorization. Can be called synchronously
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: getFileMimeType  
 [Back to methods index](index.md)

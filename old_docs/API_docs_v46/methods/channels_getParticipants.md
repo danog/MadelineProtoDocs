@@ -1,6 +1,7 @@
 ---
 title: channels.getParticipants
 description: Get channel/supergroup participants (you should use `$MadelineProto->get_pwr_chat($id)` instead)
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: channels.getParticipants  
 [Back to methods index](index.md)

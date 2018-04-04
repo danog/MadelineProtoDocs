@@ -1,6 +1,7 @@
 ---
 title: msgs_state_req
 description: msgs_state_req attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: msgs\_state\_req  
 [Back to constructors index](index.md)

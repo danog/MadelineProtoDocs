@@ -1,6 +1,7 @@
 ---
 title: optimizeStorage
 description: Optimizes storage usage, i.e. deletes some files and return new storage usage statistics. Secret thumbnails can't be deleted
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: optimizeStorage  
 [Back to methods index](index.md)

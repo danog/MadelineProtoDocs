@@ -1,6 +1,7 @@
 ---
 title: updateAuthState
 description: User authorization state has changed
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: updateAuthState  
 [Back to constructors index](index.md)

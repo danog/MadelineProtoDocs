@@ -1,6 +1,7 @@
 ---
 title: updateGroupFull
 description: Some data from groupFull has been changed
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: updateGroupFull  
 [Back to constructors index](index.md)

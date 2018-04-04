@@ -1,6 +1,7 @@
 ---
 title: PaymentReceipt
 description: constructors and methods of type PaymentReceipt
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: PaymentReceipt  
 [Back to types index](index.md)

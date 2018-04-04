@@ -1,6 +1,7 @@
 ---
 title: messages.setBotCallbackAnswer
 description: Bots only: set the callback answer (after a button was clicked)
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.setBotCallbackAnswer  
 [Back to methods index](index.md)

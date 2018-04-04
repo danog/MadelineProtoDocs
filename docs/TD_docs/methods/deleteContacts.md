@@ -1,6 +1,7 @@
 ---
 title: deleteContacts
 description: Deletes users from contacts list
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: deleteContacts  
 [Back to methods index](index.md)

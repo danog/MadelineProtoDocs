@@ -1,6 +1,7 @@
 ---
 title: sendMessageUploadRoundAction
 description: sendMessageUploadRoundAction attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: sendMessageUploadRoundAction  
 [Back to constructors index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: messages.sendEncryptedFile
 description: Send a file to a secret chat
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.sendEncryptedFile  
 [Back to methods index](index.md)

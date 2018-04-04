@@ -1,6 +1,7 @@
 ---
 title: inputMessageDocument
 description: Document message
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inputMessageDocument  
 [Back to constructors index](index.md)

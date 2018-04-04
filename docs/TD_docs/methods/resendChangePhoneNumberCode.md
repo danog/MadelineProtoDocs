@@ -1,6 +1,7 @@
 ---
 title: resendChangePhoneNumberCode
 description: Resends authentication code sent to change user's phone number. Wotks only if in previously received authStateWaitCode next_code_type was not null. Returns authStateWaitCode on success
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: resendChangePhoneNumberCode  
 [Back to methods index](index.md)

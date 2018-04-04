@@ -1,6 +1,7 @@
 ---
 title: getWebPagePreview
 description: Returns web page preview by text of the message. Do not call this function to often. Returns error 404 if web page has no preview
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: getWebPagePreview  
 [Back to methods index](index.md)

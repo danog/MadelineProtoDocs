@@ -1,6 +1,7 @@
 ---
 title: contacts.resetTopPeerRating
 description: Reset top peer rating for a certain category/peer
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: contacts.resetTopPeerRating  
 [Back to methods index](index.md)

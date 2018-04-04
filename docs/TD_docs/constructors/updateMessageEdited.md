@@ -1,6 +1,7 @@
 ---
 title: updateMessageEdited
 description: Message was edited. Changes in the message content will come in a separate updateMessageContent
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: updateMessageEdited  
 [Back to constructors index](index.md)

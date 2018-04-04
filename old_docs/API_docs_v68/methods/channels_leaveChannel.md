@@ -1,6 +1,7 @@
 ---
 title: channels.leaveChannel
 description: Leave a channel/supergroup
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: channels.leaveChannel  
 [Back to methods index](index.md)

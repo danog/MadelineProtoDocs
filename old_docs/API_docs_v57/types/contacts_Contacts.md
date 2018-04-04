@@ -1,6 +1,7 @@
 ---
 title: contacts_Contacts
 description: constructors and methods of type contacts_Contacts
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: contacts\_Contacts  
 [Back to types index](index.md)

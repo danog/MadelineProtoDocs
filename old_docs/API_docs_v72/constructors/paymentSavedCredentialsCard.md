@@ -1,6 +1,7 @@
 ---
 title: paymentSavedCredentialsCard
 description: paymentSavedCredentialsCard attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: paymentSavedCredentialsCard  
 [Back to constructors index](index.md)

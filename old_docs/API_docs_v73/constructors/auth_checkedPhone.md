@@ -1,6 +1,7 @@
 ---
 title: auth.checkedPhone
 description: auth_checkedPhone attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: auth.checkedPhone  
 [Back to constructors index](index.md)

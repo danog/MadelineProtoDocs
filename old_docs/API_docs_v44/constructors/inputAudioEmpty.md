@@ -1,6 +1,7 @@
 ---
 title: inputAudioEmpty
 description: inputAudioEmpty attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inputAudioEmpty  
 [Back to constructors index](index.md)

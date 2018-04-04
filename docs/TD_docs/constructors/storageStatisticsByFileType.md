@@ -1,6 +1,7 @@
 ---
 title: storageStatisticsByFileType
 description: Contains storage usage statistics for the specific file type
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: storageStatisticsByFileType  
 [Back to constructors index](index.md)

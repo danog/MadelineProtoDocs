@@ -1,6 +1,7 @@
 ---
 title: contacts_MyLink
 description: constructors and methods of type contacts_MyLink
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: contacts\_MyLink  
 [Back to types index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: langpack.getLanguages
 description: Get available languages
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: langpack.getLanguages  
 [Back to methods index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: account_WebAuthorizations
 description: constructors and methods of type account_WebAuthorizations
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: account\_WebAuthorizations  
 [Back to types index](index.md)

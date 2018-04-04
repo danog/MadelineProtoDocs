@@ -1,6 +1,7 @@
 ---
 title: updateChatIsPinned
 description: Chat was pinned or unpinned
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: updateChatIsPinned  
 [Back to constructors index](index.md)

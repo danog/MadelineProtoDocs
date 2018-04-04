@@ -1,6 +1,7 @@
 ---
 title: messages.forwardMessages
 description: Forward messages
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.forwardMessages  
 [Back to methods index](index.md)

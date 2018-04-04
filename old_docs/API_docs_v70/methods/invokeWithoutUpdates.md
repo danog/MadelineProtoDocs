@@ -1,6 +1,7 @@
 ---
 title: invokeWithoutUpdates
 description: Invoke with method without returning updates in the socket
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: invokeWithoutUpdates  
 [Back to methods index](index.md)

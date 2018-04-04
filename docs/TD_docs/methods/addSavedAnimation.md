@@ -1,6 +1,7 @@
 ---
 title: addSavedAnimation
 description: Manually adds new animation to the list of saved animations. New animation is added to the beginning of the list. If the animation is already in the list, at first it is removed from the list. Only non-secret video animations with MIME type "video/mp4" can be added to the list
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: addSavedAnimation  
 [Back to methods index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: inputThumb
 description: Thumb to send along with a file, should be in jpeg format or webp format for stickers and less than 200KB in size
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inputThumb  
 [Back to constructors index](index.md)

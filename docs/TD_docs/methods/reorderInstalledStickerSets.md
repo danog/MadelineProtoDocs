@@ -1,6 +1,7 @@
 ---
 title: reorderInstalledStickerSets
 description: Changes the order of installed sticker sets
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: reorderInstalledStickerSets  
 [Back to methods index](index.md)

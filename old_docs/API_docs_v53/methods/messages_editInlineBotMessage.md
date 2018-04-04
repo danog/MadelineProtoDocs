@@ -1,6 +1,7 @@
 ---
 title: messages.editInlineBotMessage
 description: Edit a sent inline message
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.editInlineBotMessage  
 [Back to methods index](index.md)

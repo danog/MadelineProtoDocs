@@ -1,6 +1,7 @@
 ---
 title: messages_ChatFull
 description: constructors and methods of type messages_ChatFull
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: messages\_ChatFull  
 [Back to types index](index.md)

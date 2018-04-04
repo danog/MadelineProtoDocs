@@ -1,6 +1,7 @@
 ---
 title: chatTypePrivate
 description: Ordinary chat with a user
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: chatTypePrivate  
 [Back to constructors index](index.md)

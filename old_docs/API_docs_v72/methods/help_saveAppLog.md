@@ -1,6 +1,7 @@
 ---
 title: help.saveAppLog
 description: Log data for developer of this app
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: help.saveAppLog  
 [Back to methods index](index.md)

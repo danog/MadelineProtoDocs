@@ -1,6 +1,7 @@
 ---
 title: storageStatisticsFast
 description: Contains approximate storage usage statistics, not containing files of Unknown type
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: storageStatisticsFast  
 [Back to constructors index](index.md)

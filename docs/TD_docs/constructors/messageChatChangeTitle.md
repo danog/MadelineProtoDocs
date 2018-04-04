@@ -1,6 +1,7 @@
 ---
 title: messageChatChangeTitle
 description: Chat title changed
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: messageChatChangeTitle  
 [Back to constructors index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: inputFilePersistentId
 description: File defined by its persistent id
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inputFilePersistentId  
 [Back to constructors index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: inlineQueryResultAnimation
 description: Represents an animation cached on the telegram server
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inlineQueryResultAnimation  
 [Back to constructors index](index.md)

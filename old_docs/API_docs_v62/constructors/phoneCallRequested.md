@@ -1,6 +1,7 @@
 ---
 title: phoneCallRequested
 description: phoneCallRequested attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: phoneCallRequested  
 [Back to constructors index](index.md)

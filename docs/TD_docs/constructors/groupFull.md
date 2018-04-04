@@ -1,6 +1,7 @@
 ---
 title: groupFull
 description: Gives full information about a group
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: groupFull  
 [Back to constructors index](index.md)

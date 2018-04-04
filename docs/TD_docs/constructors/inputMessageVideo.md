@@ -1,6 +1,7 @@
 ---
 title: inputMessageVideo
 description: Video message
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inputMessageVideo  
 [Back to constructors index](index.md)

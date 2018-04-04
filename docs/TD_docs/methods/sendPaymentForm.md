@@ -1,6 +1,7 @@
 ---
 title: sendPaymentForm
 description: Sends filled payment form to the bot for the final verification
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: sendPaymentForm  
 [Back to methods index](index.md)

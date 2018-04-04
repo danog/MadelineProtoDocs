@@ -1,6 +1,7 @@
 ---
 title: inlineKeyboardButtonTypeUrl
 description: A button which opens the specified URL
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inlineKeyboardButtonTypeUrl  
 [Back to constructors index](index.md)

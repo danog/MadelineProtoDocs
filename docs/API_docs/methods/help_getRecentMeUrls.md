@@ -1,6 +1,7 @@
 ---
 title: help.getRecentMeUrls
 description: Get recent t.me URLs
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: help.getRecentMeUrls  
 [Back to methods index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: messages.recentStickers
 description: messages_recentStickers attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: messages.recentStickers  
 [Back to constructors index](index.md)

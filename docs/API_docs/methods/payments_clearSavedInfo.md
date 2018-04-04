@@ -1,6 +1,7 @@
 ---
 title: payments.clearSavedInfo
 description: Clear saved payments info
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: payments.clearSavedInfo  
 [Back to methods index](index.md)

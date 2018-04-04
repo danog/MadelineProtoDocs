@@ -1,6 +1,7 @@
 ---
 title: messages.getChats
 description: Get info about chats
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.getChats  
 [Back to methods index](index.md)

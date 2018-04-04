@@ -1,6 +1,7 @@
 ---
 title: messages.saveRecentSticker
 description: Add a sticker to recent stickers
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.saveRecentSticker  
 [Back to methods index](index.md)

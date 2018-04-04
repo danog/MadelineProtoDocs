@@ -1,6 +1,7 @@
 ---
 title: sticker
 description: Describes sticker
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: sticker  
 [Back to constructors index](index.md)

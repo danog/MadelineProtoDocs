@@ -1,6 +1,7 @@
 ---
 title: PeerNotifySettings
 description: constructors and methods of type PeerNotifySettings
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: PeerNotifySettings  
 [Back to types index](index.md)

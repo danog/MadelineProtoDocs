@@ -1,6 +1,7 @@
 ---
 title: getFavoriteStickers
 description: Returns favorite stickers
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: getFavoriteStickers  
 [Back to methods index](index.md)

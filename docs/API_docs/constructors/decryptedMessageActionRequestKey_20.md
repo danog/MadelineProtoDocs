@@ -1,6 +1,7 @@
 ---
 title: decryptedMessageActionRequestKey
 description: decryptedMessageActionRequestKey attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: decryptedMessageActionRequestKey\_20  
 [Back to constructors index](index.md)

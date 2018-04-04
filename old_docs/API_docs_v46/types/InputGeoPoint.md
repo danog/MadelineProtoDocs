@@ -1,6 +1,7 @@
 ---
 title: InputGeoPoint
 description: constructors and methods of type InputGeoPoint
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: InputGeoPoint  
 [Back to types index](index.md)

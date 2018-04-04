@@ -1,6 +1,7 @@
 ---
 title: messages.getMessagesViews
 description: Get and increase message views
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.getMessagesViews  
 [Back to methods index](index.md)

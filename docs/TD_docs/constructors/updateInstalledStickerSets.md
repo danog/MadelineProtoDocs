@@ -1,6 +1,7 @@
 ---
 title: updateInstalledStickerSets
 description: List of installed sticker sets was updated
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: updateInstalledStickerSets  
 [Back to constructors index](index.md)

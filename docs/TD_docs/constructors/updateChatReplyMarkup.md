@@ -1,6 +1,7 @@
 ---
 title: updateChatReplyMarkup
 description: Default chat reply markup has changed. It can happen because new message with reply markup has come or old reply markup was hidden by user
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: updateChatReplyMarkup  
 [Back to constructors index](index.md)

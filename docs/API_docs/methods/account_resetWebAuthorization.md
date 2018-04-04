@@ -1,6 +1,7 @@
 ---
 title: account.resetWebAuthorization
 description: Delete a certain telegram web login authorization
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: account.resetWebAuthorization  
 [Back to methods index](index.md)

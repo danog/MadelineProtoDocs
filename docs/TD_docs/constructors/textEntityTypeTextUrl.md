@@ -1,6 +1,7 @@
 ---
 title: textEntityTypeTextUrl
 description: Text description showed instead of the url
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: textEntityTypeTextUrl  
 [Back to constructors index](index.md)

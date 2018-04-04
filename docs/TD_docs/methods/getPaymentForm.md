@@ -1,6 +1,7 @@
 ---
 title: getPaymentForm
 description: Returns invoice payment form. The method should be called when user presses inlineKeyboardButtonBuy
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: getPaymentForm  
 [Back to methods index](index.md)

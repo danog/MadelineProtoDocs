@@ -1,6 +1,7 @@
 ---
 title: createSecretChat
 description: Returns existing chat corresponding to the known secret chat
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: createSecretChat  
 [Back to methods index](index.md)

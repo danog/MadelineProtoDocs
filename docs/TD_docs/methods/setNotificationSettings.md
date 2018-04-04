@@ -1,6 +1,7 @@
 ---
 title: setNotificationSettings
 description: Changes notification settings for a given scope
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: setNotificationSettings  
 [Back to methods index](index.md)

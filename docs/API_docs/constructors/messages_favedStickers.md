@@ -1,6 +1,7 @@
 ---
 title: messages.favedStickers
 description: messages_favedStickers attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: messages.favedStickers  
 [Back to constructors index](index.md)

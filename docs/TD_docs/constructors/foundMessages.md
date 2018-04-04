@@ -1,6 +1,7 @@
 ---
 title: foundMessages
 description: Contains list of found by search messages
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: foundMessages  
 [Back to constructors index](index.md)

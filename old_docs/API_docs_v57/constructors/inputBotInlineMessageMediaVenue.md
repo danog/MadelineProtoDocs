@@ -1,6 +1,7 @@
 ---
 title: inputBotInlineMessageMediaVenue
 description: inputBotInlineMessageMediaVenue attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inputBotInlineMessageMediaVenue  
 [Back to constructors index](index.md)

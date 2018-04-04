@@ -1,6 +1,7 @@
 ---
 title: changeChatMemberStatus
 description: Changes status of the chat member, need appropriate privileges. This function is currently not suitable for adding new members to the chat, use addChatMember instead. Status will not be changed until chat state will be synchronized with the server
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: changeChatMemberStatus  
 [Back to methods index](index.md)

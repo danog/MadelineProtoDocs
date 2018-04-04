@@ -1,6 +1,7 @@
 ---
 title: venue
 description: Describes venue
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: venue  
 [Back to constructors index](index.md)

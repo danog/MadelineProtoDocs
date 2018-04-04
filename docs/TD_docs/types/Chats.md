@@ -1,6 +1,7 @@
 ---
 title: Chats
 description: constructors and methods of type Chats
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: Chats  
 [Back to types index](index.md)

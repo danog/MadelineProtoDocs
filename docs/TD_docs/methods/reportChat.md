@@ -1,6 +1,7 @@
 ---
 title: reportChat
 description: Reports chat to Telegram moderators. Can be used only for a channel chat or a private chat with a bot, because all other chats can't be checked by moderators
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: reportChat  
 [Back to methods index](index.md)

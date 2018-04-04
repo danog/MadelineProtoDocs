@@ -1,6 +1,7 @@
 ---
 title: messages.uploadMedia
 description: Upload a file without sending it to anyone
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.uploadMedia  
 [Back to methods index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: account.confirmPhone
 description: Confirm this phone number is associated to this account, obtain phone_code_hash from sendConfirmPhoneCode
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: account.confirmPhone  
 [Back to methods index](index.md)

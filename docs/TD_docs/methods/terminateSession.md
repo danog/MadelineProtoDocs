@@ -1,6 +1,7 @@
 ---
 title: terminateSession
 description: Terminates another session of logged in user
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: terminateSession  
 [Back to methods index](index.md)

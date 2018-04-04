@@ -1,6 +1,7 @@
 ---
 title: help_InviteText
 description: constructors and methods of type help_InviteText
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: help\_InviteText  
 [Back to types index](index.md)

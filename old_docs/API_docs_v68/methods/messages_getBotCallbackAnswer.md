@@ -1,6 +1,7 @@
 ---
 title: messages.getBotCallbackAnswer
 description: Get the callback answer of a bot (after clicking a button)
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.getBotCallbackAnswer  
 [Back to methods index](index.md)

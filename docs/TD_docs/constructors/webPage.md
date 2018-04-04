@@ -1,6 +1,7 @@
 ---
 title: webPage
 description: Describes web page preview
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: webPage  
 [Back to constructors index](index.md)

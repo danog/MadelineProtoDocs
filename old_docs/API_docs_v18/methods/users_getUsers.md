@@ -1,6 +1,7 @@
 ---
 title: users.getUsers
 description: Get info about users
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: users.getUsers  
 [Back to methods index](index.md)

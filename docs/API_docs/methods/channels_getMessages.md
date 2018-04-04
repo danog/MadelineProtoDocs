@@ -1,6 +1,7 @@
 ---
 title: channels.getMessages
 description: Get channel/supergroup messages
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: channels.getMessages  
 [Back to methods index](index.md)

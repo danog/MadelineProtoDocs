@@ -1,6 +1,7 @@
 ---
 title: Server_DH_Params
 description: constructors and methods of type Server_DH_Params
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: Server\_DH\_Params  
 [Back to types index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: updateFileGenerationProgress
 description: Informs that a file is being generated
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: updateFileGenerationProgress  
 [Back to constructors index](index.md)

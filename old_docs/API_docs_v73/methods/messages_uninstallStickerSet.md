@@ -1,6 +1,7 @@
 ---
 title: messages.uninstallStickerSet
 description: Remove a sticker set
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.uninstallStickerSet  
 [Back to methods index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: get_future_salts
 description: Get future salts
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: get\_future\_salts  
 [Back to methods index](index.md)

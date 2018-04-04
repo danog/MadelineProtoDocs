@@ -1,6 +1,7 @@
 ---
 title: searchSecretMessages
 description: Searches for messages in secret chats. Returns result in reverse chronological order
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: searchSecretMessages  
 [Back to methods index](index.md)

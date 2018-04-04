@@ -1,6 +1,7 @@
 ---
 title: storage.filePng
 description: storage_filePng attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: storage.filePng  
 [Back to constructors index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: StickerEmojis
 description: constructors and methods of type StickerEmojis
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: StickerEmojis  
 [Back to types index](index.md)

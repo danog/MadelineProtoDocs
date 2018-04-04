@@ -1,6 +1,7 @@
 ---
 title: Object
 description: constructors and methods of type Object
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: Object  
 [Back to types index](index.md)

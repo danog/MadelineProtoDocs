@@ -1,6 +1,7 @@
 ---
 title: inlineQueryResultSticker
 description: Represents a sticker cached on the telegram server
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inlineQueryResultSticker  
 [Back to constructors index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: updatePrivacy
 description: Some privacy settings has changed
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: updatePrivacy  
 [Back to constructors index](index.md)

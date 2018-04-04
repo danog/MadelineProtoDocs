@@ -1,6 +1,7 @@
 ---
 title: pageBlockList
 description: List of texts
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: pageBlockList  
 [Back to constructors index](index.md)

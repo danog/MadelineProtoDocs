@@ -1,6 +1,7 @@
 ---
 title: InputFile
 description: constructors and methods of type InputFile
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: InputFile  
 [Back to types index](index.md)

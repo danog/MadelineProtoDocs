@@ -1,6 +1,7 @@
 ---
 title: messages.editChatPhoto
 description: Edit the photo of a normal chat (not supergroup)
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.editChatPhoto  
 [Back to methods index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: cancelUploadFile
 description: Stops file uploading. Works only for files uploaded using uploadFile. For other files the behavior is undefined
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: cancelUploadFile  
 [Back to methods index](index.md)

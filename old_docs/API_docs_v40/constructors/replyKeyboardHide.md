@@ -1,6 +1,7 @@
 ---
 title: replyKeyboardHide
 description: replyKeyboardHide attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: replyKeyboardHide  
 [Back to constructors index](index.md)

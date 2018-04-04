@@ -1,6 +1,7 @@
 ---
 title: authStateWaitPassword
 description: User is authorized but he needs to enter its password to begin to use application
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: authStateWaitPassword  
 [Back to constructors index](index.md)

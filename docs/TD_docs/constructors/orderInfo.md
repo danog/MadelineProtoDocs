@@ -1,6 +1,7 @@
 ---
 title: orderInfo
 description: Order information
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: orderInfo  
 [Back to constructors index](index.md)

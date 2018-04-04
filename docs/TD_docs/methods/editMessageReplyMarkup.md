@@ -1,6 +1,7 @@
 ---
 title: editMessageReplyMarkup
 description: Bots only. Edits message reply markup. Returns edited message after edit is complete server side
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: editMessageReplyMarkup  
 [Back to methods index](index.md)

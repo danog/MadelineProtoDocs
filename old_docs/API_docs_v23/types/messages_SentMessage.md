@@ -1,6 +1,7 @@
 ---
 title: messages_SentMessage
 description: constructors and methods of type messages_SentMessage
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: messages\_SentMessage  
 [Back to types index](index.md)

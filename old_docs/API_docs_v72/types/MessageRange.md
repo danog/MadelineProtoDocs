@@ -1,6 +1,7 @@
 ---
 title: MessageRange
 description: constructors and methods of type MessageRange
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: MessageRange  
 [Back to types index](index.md)

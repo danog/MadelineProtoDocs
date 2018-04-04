@@ -1,6 +1,7 @@
 ---
 title: accountTtl
 description: Contains information about period of inactivity, after which the account of currently logged in user will be automatically deleted
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: accountTtl  
 [Back to constructors index](index.md)

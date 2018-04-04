@@ -1,6 +1,7 @@
 ---
 title: account.checkUsername
 description: Check if this username is available
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: account.checkUsername  
 [Back to methods index](index.md)

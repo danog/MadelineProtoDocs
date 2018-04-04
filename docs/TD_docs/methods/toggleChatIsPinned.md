@@ -1,6 +1,7 @@
 ---
 title: toggleChatIsPinned
 description: Changes chat pinned state. You can pin up to getOption("pinned_chat_count_max") non-secret chats and the same number of secret chats
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: toggleChatIsPinned  
 [Back to methods index](index.md)

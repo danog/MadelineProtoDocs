@@ -1,6 +1,7 @@
 ---
 title: geochats.checkin
 description: Join a geochat
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: geochats.checkin  
 [Back to methods index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: account.getPrivacy
 description: Get privacy settings
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: account.getPrivacy  
 [Back to methods index](index.md)

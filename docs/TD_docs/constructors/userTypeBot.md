@@ -1,6 +1,7 @@
 ---
 title: userTypeBot
 description: Bot (see https: core.telegram.org/bots)
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: userTypeBot  
 [Back to constructors index](index.md)

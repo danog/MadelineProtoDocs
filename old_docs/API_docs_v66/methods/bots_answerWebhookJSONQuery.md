@@ -1,6 +1,7 @@
 ---
 title: bots.answerWebhookJSONQuery
 description: Send webhook request via bot API
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: bots.answerWebhookJSONQuery  
 [Back to methods index](index.md)

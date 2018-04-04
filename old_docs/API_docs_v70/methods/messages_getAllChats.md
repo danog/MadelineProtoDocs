@@ -1,6 +1,7 @@
 ---
 title: messages.getAllChats
 description: Get all chats (not supergroups or channels)
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.getAllChats  
 [Back to methods index](index.md)

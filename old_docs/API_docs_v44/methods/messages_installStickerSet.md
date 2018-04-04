@@ -1,6 +1,7 @@
 ---
 title: messages.installStickerSet
 description: Add a sticker set
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.installStickerSet  
 [Back to methods index](index.md)

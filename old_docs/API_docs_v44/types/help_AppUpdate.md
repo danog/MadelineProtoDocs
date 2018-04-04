@@ -1,6 +1,7 @@
 ---
 title: help_AppUpdate
 description: constructors and methods of type help_AppUpdate
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: help\_AppUpdate  
 [Back to types index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: contacts.importCard
 description: Import card as contact
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: contacts.importCard  
 [Back to methods index](index.md)

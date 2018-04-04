@@ -1,6 +1,7 @@
 ---
 title: messages.archivedStickers
 description: messages_archivedStickers attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: messages.archivedStickers  
 [Back to constructors index](index.md)

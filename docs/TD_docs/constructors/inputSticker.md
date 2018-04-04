@@ -1,6 +1,7 @@
 ---
 title: inputSticker
 description: Description of a sticker which should be added to a sticker set
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inputSticker  
 [Back to constructors index](index.md)

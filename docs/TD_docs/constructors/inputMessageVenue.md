@@ -1,6 +1,7 @@
 ---
 title: inputMessageVenue
 description: Message with information about venue
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inputMessageVenue  
 [Back to constructors index](index.md)

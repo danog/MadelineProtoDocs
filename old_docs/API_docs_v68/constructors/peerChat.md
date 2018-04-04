@@ -1,6 +1,7 @@
 ---
 title: peerChat
 description: peerChat attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: peerChat  
 [Back to constructors index](index.md)

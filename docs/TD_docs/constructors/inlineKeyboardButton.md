@@ -1,6 +1,7 @@
 ---
 title: inlineKeyboardButton
 description: Represents one button of the inline keyboard
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: inlineKeyboardButton  
 [Back to constructors index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: channelAdminLogEventActionDeleteMessage
 description: channelAdminLogEventActionDeleteMessage attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: channelAdminLogEventActionDeleteMessage  
 [Back to constructors index](index.md)

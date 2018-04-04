@@ -1,6 +1,7 @@
 ---
 title: CallState
 description: constructors and methods of type CallState
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: CallState  
 [Back to types index](index.md)

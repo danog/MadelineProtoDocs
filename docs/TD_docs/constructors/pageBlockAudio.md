@@ -1,6 +1,7 @@
 ---
 title: pageBlockAudio
 description: An audio
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: pageBlockAudio  
 [Back to constructors index](index.md)

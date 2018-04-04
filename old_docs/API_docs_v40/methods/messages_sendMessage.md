@@ -1,6 +1,7 @@
 ---
 title: messages.sendMessage
 description: Send a message
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.sendMessage  
 [Back to methods index](index.md)
@@ -133,6 +134,7 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 |USER_IS_BLOCKED|User is blocked|
 |USER_IS_BOT|Bots can't send messages to other bots|
 |YOU_BLOCKED_USER|You blocked this user|
+|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |RANDOM_ID_DUPLICATE|You provided a random ID that was already used|
 |CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 |tanti SALUTI da peppe lg .|Ciao da un pony|

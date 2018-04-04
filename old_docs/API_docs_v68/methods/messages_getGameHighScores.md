@@ -1,6 +1,7 @@
 ---
 title: messages.getGameHighScores
 description: Get high scores of a game
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.getGameHighScores  
 [Back to methods index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: p_q_inner_data_temp
 description: p_q_inner_data_temp attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: p\_q\_inner\_data\_temp  
 [Back to constructors index](index.md)

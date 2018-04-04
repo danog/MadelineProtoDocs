@@ -1,6 +1,7 @@
 ---
 title: messages.chatFull
 description: messages_chatFull attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: messages.chatFull  
 [Back to constructors index](index.md)

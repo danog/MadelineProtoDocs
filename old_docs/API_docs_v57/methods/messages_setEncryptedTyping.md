@@ -1,6 +1,7 @@
 ---
 title: messages.setEncryptedTyping
 description: Send typing notification to secret chat
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.setEncryptedTyping  
 [Back to methods index](index.md)

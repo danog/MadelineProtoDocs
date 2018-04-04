@@ -1,6 +1,7 @@
 ---
 title: account.getWallPapers
 description: Returns a list of available wallpapers.
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: account.getWallPapers  
 [Back to methods index](index.md)

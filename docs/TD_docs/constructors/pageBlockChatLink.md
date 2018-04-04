@@ -1,6 +1,7 @@
 ---
 title: pageBlockChatLink
 description: A link to a chat
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: pageBlockChatLink  
 [Back to constructors index](index.md)

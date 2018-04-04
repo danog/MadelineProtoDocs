@@ -1,6 +1,7 @@
 ---
 title: chatEventSignMessagesToggled
 description: Broadcast channel chat sign_messages setting was toggled
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: chatEventSignMessagesToggled  
 [Back to constructors index](index.md)

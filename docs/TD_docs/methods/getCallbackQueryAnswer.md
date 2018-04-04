@@ -1,6 +1,7 @@
 ---
 title: getCallbackQueryAnswer
 description: Sends callback query to a bot and returns answer to it. Returns error with code 502 if bot fails to answer the query before query timeout expires. Unavailable for bots
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: getCallbackQueryAnswer  
 [Back to methods index](index.md)

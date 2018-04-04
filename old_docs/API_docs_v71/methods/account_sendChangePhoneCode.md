@@ -1,6 +1,7 @@
 ---
 title: account.sendChangePhoneCode
 description: Change the phone number
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: account.sendChangePhoneCode  
 [Back to methods index](index.md)

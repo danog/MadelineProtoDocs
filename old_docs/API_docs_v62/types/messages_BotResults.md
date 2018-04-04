@@ -1,6 +1,7 @@
 ---
 title: messages_BotResults
 description: constructors and methods of type messages_BotResults
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: messages\_BotResults  
 [Back to types index](index.md)

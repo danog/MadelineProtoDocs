@@ -1,6 +1,7 @@
 ---
 title: updateNewMessage
 description: New message received, maybe outcoming message sent from other device
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: updateNewMessage  
 [Back to constructors index](index.md)

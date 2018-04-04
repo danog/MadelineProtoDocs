@@ -1,6 +1,7 @@
 ---
 title: messages.setTyping
 description: Change typing status
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: messages.setTyping  
 [Back to methods index](index.md)

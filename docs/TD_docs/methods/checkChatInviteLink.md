@@ -1,6 +1,7 @@
 ---
 title: checkChatInviteLink
 description: Checks chat invite link for validness and returns information about the corresponding chat
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: checkChatInviteLink  
 [Back to methods index](index.md)

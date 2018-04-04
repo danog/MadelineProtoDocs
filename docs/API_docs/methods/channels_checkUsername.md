@@ -1,6 +1,7 @@
 ---
 title: channels.checkUsername
 description: Check if this username is free and can be assigned to a channel/supergroup
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: channels.checkUsername  
 [Back to methods index](index.md)

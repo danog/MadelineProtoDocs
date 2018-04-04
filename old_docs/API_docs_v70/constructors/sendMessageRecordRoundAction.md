@@ -1,6 +1,7 @@
 ---
 title: sendMessageRecordRoundAction
 description: sendMessageRecordRoundAction attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: sendMessageRecordRoundAction  
 [Back to constructors index](index.md)

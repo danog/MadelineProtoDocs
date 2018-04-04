@@ -1,6 +1,7 @@
 ---
 title: updateSavedAnimations
 description: List of saved animations was updated
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: updateSavedAnimations  
 [Back to constructors index](index.md)

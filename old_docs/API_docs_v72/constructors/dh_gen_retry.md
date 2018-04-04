@@ -1,6 +1,7 @@
 ---
 title: dh_gen_retry
 description: dh_gen_retry attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Constructor: dh\_gen\_retry  
 [Back to constructors index](index.md)

@@ -1,6 +1,7 @@
 ---
 title: MessagesFilter
 description: constructors and methods of type MessagesFilter
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: MessagesFilter  
 [Back to types index](index.md)

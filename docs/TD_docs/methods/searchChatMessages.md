@@ -1,6 +1,7 @@
 ---
 title: searchChatMessages
 description: Searches for messages with given words in the chat. Returns result in reverse chronological order, i. e. in order of decreasing message_id. Doesn't work in secret chats with non-empty query (searchSecretMessages should be used instead) or without enabled message database
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: searchChatMessages  
 [Back to methods index](index.md)

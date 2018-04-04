@@ -1,6 +1,7 @@
 ---
 title: channels.editPhoto
 description: Edit the photo of a supergroup/channel
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: channels.editPhoto  
 [Back to methods index](index.md)

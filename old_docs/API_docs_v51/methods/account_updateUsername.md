@@ -1,6 +1,7 @@
 ---
 title: account.updateUsername
 description: Update this user's username
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Method: account.updateUsername  
 [Back to methods index](index.md)
