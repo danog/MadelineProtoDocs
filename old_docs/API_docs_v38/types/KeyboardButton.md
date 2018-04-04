@@ -3,7 +3,7 @@ title: KeyboardButton
 description: constructors and methods of type KeyboardButton
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: KeyboardButton  
+# Type: KeyboardButton  
 [Back to types index](index.md)
 
 

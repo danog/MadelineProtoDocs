@@ -3,7 +3,7 @@ title: MaskCoords
 description: constructors and methods of type MaskCoords
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: MaskCoords  
+# Type: MaskCoords  
 [Back to types index](index.md)
 
 

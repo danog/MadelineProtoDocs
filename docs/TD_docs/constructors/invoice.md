@@ -3,7 +3,7 @@ title: invoice
 description: Goods invoice
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: invoice  
+# Constructor: invoice  
 [Back to constructors index](index.md)
 
 

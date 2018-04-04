@@ -3,7 +3,7 @@ title: foundGifCached
 description: foundGifCached attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: foundGifCached  
+# Constructor: foundGifCached  
 [Back to constructors index](index.md)
 
 

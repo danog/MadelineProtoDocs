@@ -3,7 +3,7 @@ title: storage.filePartial
 description: storage_filePartial attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: storage.filePartial  
+# Constructor: storage.filePartial  
 [Back to constructors index](index.md)
 
 

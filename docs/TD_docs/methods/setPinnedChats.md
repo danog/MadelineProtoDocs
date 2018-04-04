@@ -3,7 +3,7 @@ title: setPinnedChats
 description: Changes list or order of pinned chats
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: setPinnedChats  
+# Method: setPinnedChats  
 [Back to methods index](index.md)
 
 

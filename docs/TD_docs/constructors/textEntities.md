@@ -3,7 +3,7 @@ title: textEntities
 description: Contains a list ot text entities
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: textEntities  
+# Constructor: textEntities  
 [Back to constructors index](index.md)
 
 

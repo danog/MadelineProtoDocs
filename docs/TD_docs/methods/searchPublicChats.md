@@ -3,7 +3,7 @@ title: searchPublicChats
 description: Searches public chats by prefix of their username. Currently only private and channel (including supergroup) chats can be public. Returns meaningful number of results. Returns nothing if length of the searched username prefix is less than 5. Excludes private chats with contacts from the results
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: searchPublicChats  
+# Method: searchPublicChats  
 [Back to methods index](index.md)
 
 

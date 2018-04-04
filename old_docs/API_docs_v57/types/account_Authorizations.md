@@ -3,7 +3,7 @@ title: account_Authorizations
 description: constructors and methods of type account_Authorizations
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: account\_Authorizations  
+# Type: account\_Authorizations  
 [Back to types index](index.md)
 
 

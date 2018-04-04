@@ -3,7 +3,7 @@ title: photos.uploadProfilePhoto
 description: Upload profile photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: photos.uploadProfilePhoto  
+# Method: photos.uploadProfilePhoto  
 [Back to methods index](index.md)
 
 

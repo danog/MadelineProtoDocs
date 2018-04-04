@@ -3,7 +3,7 @@ title: botInlineMessageMediaAuto
 description: botInlineMessageMediaAuto attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: botInlineMessageMediaAuto  
+# Constructor: botInlineMessageMediaAuto  
 [Back to constructors index](index.md)
 
 

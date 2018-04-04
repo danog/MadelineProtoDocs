@@ -3,7 +3,7 @@ title: changeChannelUsername
 description: Changes username of the channel. Needs creator privileges in the channel
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: changeChannelUsername  
+# Method: changeChannelUsername  
 [Back to methods index](index.md)
 
 

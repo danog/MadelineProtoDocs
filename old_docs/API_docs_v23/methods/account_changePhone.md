@@ -3,7 +3,7 @@ title: account.changePhone
 description: Change the phone number associated to this account
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: account.changePhone  
+# Method: account.changePhone  
 [Back to methods index](index.md)
 
 

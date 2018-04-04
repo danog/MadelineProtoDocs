@@ -3,7 +3,7 @@ title: set_client_DH_params
 description: Sets client diffie-hellman parameters
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: set\_client\_DH\_params  
+# Method: set\_client\_DH\_params  
 [Back to methods index](index.md)
 
 

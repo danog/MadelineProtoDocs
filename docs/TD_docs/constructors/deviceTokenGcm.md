@@ -3,7 +3,7 @@ title: deviceTokenGcm
 description: Token for GCM
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: deviceTokenGcm  
+# Constructor: deviceTokenGcm  
 [Back to constructors index](index.md)
 
 

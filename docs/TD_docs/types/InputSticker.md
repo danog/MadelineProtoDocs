@@ -3,7 +3,7 @@ title: InputSticker
 description: constructors and methods of type InputSticker
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: InputSticker  
+# Type: InputSticker  
 [Back to types index](index.md)
 
 

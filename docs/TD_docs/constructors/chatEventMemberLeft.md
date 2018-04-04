@@ -3,7 +3,7 @@ title: chatEventMemberLeft
 description: A chat member left
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: chatEventMemberLeft  
+# Constructor: chatEventMemberLeft  
 [Back to constructors index](index.md)
 
 

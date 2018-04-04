@@ -3,7 +3,7 @@ title: getPublicMessageLink
 description: Returns public HTTPS link to a message. Available only for messages in public channels
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: getPublicMessageLink  
+# Method: getPublicMessageLink  
 [Back to methods index](index.md)
 
 

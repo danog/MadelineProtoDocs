@@ -3,7 +3,7 @@ title: chatLocated
 description: chatLocated attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: chatLocated  
+# Constructor: chatLocated  
 [Back to constructors index](index.md)
 
 

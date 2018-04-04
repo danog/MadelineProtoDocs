@@ -3,7 +3,7 @@ title: Dialog
 description: constructors and methods of type Dialog
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: Dialog  
+# Type: Dialog  
 [Back to types index](index.md)
 
 

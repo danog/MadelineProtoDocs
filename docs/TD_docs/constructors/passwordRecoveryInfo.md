@@ -3,7 +3,7 @@ title: passwordRecoveryInfo
 description: Contains information available to the user after requesting password recovery
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: passwordRecoveryInfo  
+# Constructor: passwordRecoveryInfo  
 [Back to constructors index](index.md)
 
 

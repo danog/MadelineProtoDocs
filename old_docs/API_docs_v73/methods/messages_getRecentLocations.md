@@ -3,7 +3,7 @@ title: messages.getRecentLocations
 description: Get recent locations
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.getRecentLocations  
+# Method: messages.getRecentLocations  
 [Back to methods index](index.md)
 
 

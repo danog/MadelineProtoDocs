@@ -3,7 +3,7 @@ title: ResPQ
 description: constructors and methods of type ResPQ
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: ResPQ  
+# Type: ResPQ  
 [Back to types index](index.md)
 
 

@@ -3,7 +3,7 @@ title: updateChatTopMessage
 description: Top message of the chat has changed. If top_message is null then top message in the chat became unknown. Some new unknown messages might be added to the chat in that case
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateChatTopMessage  
+# Constructor: updateChatTopMessage  
 [Back to constructors index](index.md)
 
 

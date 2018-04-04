@@ -3,7 +3,7 @@ title: testCallVectorString
 description: Test request. Returns back received vector of strings
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: testCallVectorString  
+# Method: testCallVectorString  
 [Back to methods index](index.md)
 
 

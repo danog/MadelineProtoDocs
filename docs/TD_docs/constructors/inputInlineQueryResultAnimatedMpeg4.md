@@ -3,7 +3,7 @@ title: inputInlineQueryResultAnimatedMpeg4
 description: Represents link to an animated (i.e. without sound) H.264/MPEG-4 AVC video
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputInlineQueryResultAnimatedMpeg4  
+# Constructor: inputInlineQueryResultAnimatedMpeg4  
 [Back to constructors index](index.md)
 
 

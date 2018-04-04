@@ -3,7 +3,7 @@ title: authCodeTypeFlashCall
 description: Code is delivered by the immediately cancelled call to the specified phone number. Number from which the call was done is the code
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: authCodeTypeFlashCall  
+# Constructor: authCodeTypeFlashCall  
 [Back to constructors index](index.md)
 
 

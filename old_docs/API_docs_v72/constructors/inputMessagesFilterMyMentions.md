@@ -3,7 +3,7 @@ title: inputMessagesFilterMyMentions
 description: inputMessagesFilterMyMentions attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputMessagesFilterMyMentions  
+# Constructor: inputMessagesFilterMyMentions  
 [Back to constructors index](index.md)
 
 

@@ -3,7 +3,7 @@ title: messages_SentEncryptedMessage
 description: constructors and methods of type messages_SentEncryptedMessage
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: messages\_SentEncryptedMessage  
+# Type: messages\_SentEncryptedMessage  
 [Back to types index](index.md)
 
 

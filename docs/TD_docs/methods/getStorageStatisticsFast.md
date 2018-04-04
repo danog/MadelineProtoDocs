@@ -3,7 +3,7 @@ title: getStorageStatisticsFast
 description: Quickly returns approximate storage usage statistics
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: getStorageStatisticsFast  
+# Method: getStorageStatisticsFast  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: inlineQueryResultVenue
 description: Represents information about a venue
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inlineQueryResultVenue  
+# Constructor: inlineQueryResultVenue  
 [Back to constructors index](index.md)
 
 

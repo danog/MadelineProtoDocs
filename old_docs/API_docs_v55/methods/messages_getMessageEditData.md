@@ -3,7 +3,7 @@ title: messages.getMessageEditData
 description: Check if about to edit a message or a media caption
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.getMessageEditData  
+# Method: messages.getMessageEditData  
 [Back to methods index](index.md)
 
 

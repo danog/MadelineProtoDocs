@@ -3,7 +3,7 @@ title: editMessageCaption
 description: Edits message content caption. Non-bots can edit message in a limited period of time. Returns edited message after edit is complete server side
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: editMessageCaption  
+# Method: editMessageCaption  
 [Back to methods index](index.md)
 
 

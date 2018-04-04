@@ -3,7 +3,7 @@ title: InlineKeyboardButtonType
 description: constructors and methods of type InlineKeyboardButtonType
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: InlineKeyboardButtonType  
+# Type: InlineKeyboardButtonType  
 [Back to types index](index.md)
 
 

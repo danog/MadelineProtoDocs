@@ -3,7 +3,7 @@ title: changePhoneNumber
 description: Changes user's phone number and sends authentication code to the new user's phone number. Returns authStateWaitCode with information about sent code on success
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: changePhoneNumber  
+# Method: changePhoneNumber  
 [Back to methods index](index.md)
 
 

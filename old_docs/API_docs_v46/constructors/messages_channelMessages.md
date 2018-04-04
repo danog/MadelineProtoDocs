@@ -3,7 +3,7 @@ title: messages.channelMessages
 description: messages_channelMessages attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messages.channelMessages  
+# Constructor: messages.channelMessages  
 [Back to constructors index](index.md)
 
 

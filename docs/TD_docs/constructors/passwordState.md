@@ -3,7 +3,7 @@ title: passwordState
 description: Represents current state of the two-step verification
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: passwordState  
+# Constructor: passwordState  
 [Back to constructors index](index.md)
 
 

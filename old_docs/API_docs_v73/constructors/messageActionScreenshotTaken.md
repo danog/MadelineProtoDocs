@@ -3,7 +3,7 @@ title: messageActionScreenshotTaken
 description: messageActionScreenshotTaken attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messageActionScreenshotTaken  
+# Constructor: messageActionScreenshotTaken  
 [Back to constructors index](index.md)
 
 

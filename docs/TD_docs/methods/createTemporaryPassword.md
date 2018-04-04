@@ -3,7 +3,7 @@ title: createTemporaryPassword
 description: Creates new temporary password for payments processing
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: createTemporaryPassword  
+# Method: createTemporaryPassword  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: updateConnectionState
 description: Connection state has changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateConnectionState  
+# Constructor: updateConnectionState  
 [Back to constructors index](index.md)
 
 

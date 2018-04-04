@@ -3,7 +3,7 @@ title: recoverPassword
 description: Recovers password with recovery code sent to email
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: recoverPassword  
+# Method: recoverPassword  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: phone.setCallRating
 description: Set phone call rating
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: phone.setCallRating  
+# Method: phone.setCallRating  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: inputInlineQueryResultSticker
 description: Represents link to a webp sticker
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputInlineQueryResultSticker  
+# Constructor: inputInlineQueryResultSticker  
 [Back to constructors index](index.md)
 
 

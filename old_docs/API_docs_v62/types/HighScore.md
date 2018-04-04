@@ -3,7 +3,7 @@ title: HighScore
 description: constructors and methods of type HighScore
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: HighScore  
+# Type: HighScore  
 [Back to types index](index.md)
 
 

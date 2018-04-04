@@ -3,7 +3,7 @@ title: inputCredentialsNew
 description: User enters new credentials on payment provider web site
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputCredentialsNew  
+# Constructor: inputCredentialsNew  
 [Back to constructors index](index.md)
 
 

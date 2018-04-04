@@ -3,7 +3,7 @@ title: ChatParticipant
 description: constructors and methods of type ChatParticipant
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: ChatParticipant  
+# Type: ChatParticipant  
 [Back to types index](index.md)
 
 

@@ -3,7 +3,7 @@ title: getChats
 description: Returns list of chats in the right order, chats are sorted by (order, chat_id) in decreasing order. For example, to get list of chats from the beginning, the offset_order should be equal 2^63 - 1
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: getChats  
+# Method: getChats  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: PasswordState
 description: constructors and methods of type PasswordState
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: PasswordState  
+# Type: PasswordState  
 [Back to types index](index.md)
 
 

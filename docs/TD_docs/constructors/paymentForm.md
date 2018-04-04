@@ -3,7 +3,7 @@ title: paymentForm
 description: Information about invoice payment form
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: paymentForm  
+# Constructor: paymentForm  
 [Back to constructors index](index.md)
 
 

@@ -3,7 +3,7 @@ title: deleteRecentlyFoundChat
 description: Deletes chat from the list of recently found chats
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: deleteRecentlyFoundChat  
+# Method: deleteRecentlyFoundChat  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: TestBytes
 description: constructors and methods of type TestBytes
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: TestBytes  
+# Type: TestBytes  
 [Back to types index](index.md)
 
 

@@ -3,7 +3,7 @@ title: ChatInviteLinkInfo
 description: constructors and methods of type ChatInviteLinkInfo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: ChatInviteLinkInfo  
+# Type: ChatInviteLinkInfo  
 [Back to types index](index.md)
 
 

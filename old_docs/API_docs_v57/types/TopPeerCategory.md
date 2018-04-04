@@ -3,7 +3,7 @@ title: TopPeerCategory
 description: constructors and methods of type TopPeerCategory
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: TopPeerCategory  
+# Type: TopPeerCategory  
 [Back to types index](index.md)
 
 

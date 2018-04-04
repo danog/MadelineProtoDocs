@@ -3,7 +3,7 @@ title: getFileExtension
 description: Returns file's extension guessing only by its mime type. Returns empty string on failure. Offline method. Can be called before authorization. Can be called synchronously
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: getFileExtension  
+# Method: getFileExtension  
 [Back to methods index](index.md)
 
 

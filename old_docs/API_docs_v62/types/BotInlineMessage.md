@@ -3,7 +3,7 @@ title: BotInlineMessage
 description: constructors and methods of type BotInlineMessage
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: BotInlineMessage  
+# Type: BotInlineMessage  
 [Back to types index](index.md)
 
 

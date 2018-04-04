@@ -3,7 +3,7 @@ title: ChannelMessagesFilter
 description: constructors and methods of type ChannelMessagesFilter
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: ChannelMessagesFilter  
+# Type: ChannelMessagesFilter  
 [Back to types index](index.md)
 
 

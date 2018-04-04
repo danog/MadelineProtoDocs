@@ -3,7 +3,7 @@ title: peerChannel
 description: peerChannel attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: peerChannel  
+# Constructor: peerChannel  
 [Back to constructors index](index.md)
 
 

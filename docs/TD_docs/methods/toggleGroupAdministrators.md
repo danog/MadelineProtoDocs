@@ -3,7 +3,7 @@ title: toggleGroupAdministrators
 description: Gives or revokes all members of the group administrator rights. Needs creator privileges in the group
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: toggleGroupAdministrators  
+# Method: toggleGroupAdministrators  
 [Back to methods index](index.md)
 
 

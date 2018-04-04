@@ -3,7 +3,7 @@ title: messages.addChatUser
 description: Add a user to a normal chat (use channels->inviteToChannel for supergroups)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.addChatUser  
+# Method: messages.addChatUser  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: updateContactsReset
 description: updateContactsReset attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateContactsReset  
+# Constructor: updateContactsReset  
 [Back to constructors index](index.md)
 
 

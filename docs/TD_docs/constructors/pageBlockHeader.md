@@ -3,7 +3,7 @@ title: pageBlockHeader
 description: A header
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: pageBlockHeader  
+# Constructor: pageBlockHeader  
 [Back to constructors index](index.md)
 
 

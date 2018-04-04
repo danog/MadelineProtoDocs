@@ -3,7 +3,7 @@ title: updateChannelFull
 description: Some data from channelFull has been changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateChannelFull  
+# Constructor: updateChannelFull  
 [Back to constructors index](index.md)
 
 

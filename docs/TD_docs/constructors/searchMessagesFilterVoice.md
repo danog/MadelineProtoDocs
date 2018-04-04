@@ -3,7 +3,7 @@ title: searchMessagesFilterVoice
 description: Return only voice messages
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: searchMessagesFilterVoice  
+# Constructor: searchMessagesFilterVoice  
 [Back to constructors index](index.md)
 
 

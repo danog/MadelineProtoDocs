@@ -3,7 +3,7 @@ title: rpc_result
 description: rpc_result attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: rpc\_result  
+# Constructor: rpc\_result  
 [Back to constructors index](index.md)
 
 

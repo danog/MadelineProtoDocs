@@ -3,7 +3,7 @@ title: fileTypeUnknown
 description: File type is yet unknown
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: fileTypeUnknown  
+# Constructor: fileTypeUnknown  
 [Back to constructors index](index.md)
 
 

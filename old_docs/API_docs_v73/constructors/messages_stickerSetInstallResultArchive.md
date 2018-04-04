@@ -3,7 +3,7 @@ title: messages.stickerSetInstallResultArchive
 description: messages_stickerSetInstallResultArchive attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messages.stickerSetInstallResultArchive  
+# Constructor: messages.stickerSetInstallResultArchive  
 [Back to constructors index](index.md)
 
 

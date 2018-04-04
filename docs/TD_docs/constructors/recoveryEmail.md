@@ -3,7 +3,7 @@ title: recoveryEmail
 description: Contains information about set up recovery email
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: recoveryEmail  
+# Constructor: recoveryEmail  
 [Back to constructors index](index.md)
 
 

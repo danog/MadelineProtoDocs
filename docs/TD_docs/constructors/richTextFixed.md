@@ -3,7 +3,7 @@ title: richTextFixed
 description: Fixed width rich text
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: richTextFixed  
+# Constructor: richTextFixed  
 [Back to constructors index](index.md)
 
 

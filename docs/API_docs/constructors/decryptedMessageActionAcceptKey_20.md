@@ -3,7 +3,7 @@ title: decryptedMessageActionAcceptKey
 description: decryptedMessageActionAcceptKey attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: decryptedMessageActionAcceptKey\_20  
+# Constructor: decryptedMessageActionAcceptKey\_20  
 [Back to constructors index](index.md)
 
 

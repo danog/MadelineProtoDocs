@@ -3,7 +3,7 @@ title: updateDeleteMessages
 description: Some messages was deleted
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateDeleteMessages  
+# Constructor: updateDeleteMessages  
 [Back to constructors index](index.md)
 
 

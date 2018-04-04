@@ -3,7 +3,7 @@ title: updateNewAuthorization
 description: updateNewAuthorization attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateNewAuthorization  
+# Constructor: updateNewAuthorization  
 [Back to constructors index](index.md)
 
 

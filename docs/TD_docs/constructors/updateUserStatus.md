@@ -3,7 +3,7 @@ title: updateUserStatus
 description: User went online/offline
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateUserStatus  
+# Constructor: updateUserStatus  
 [Back to constructors index](index.md)
 
 

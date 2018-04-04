@@ -3,7 +3,7 @@ title: payments.paymentVerficationNeeded
 description: payments_paymentVerficationNeeded attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: payments.paymentVerficationNeeded  
+# Constructor: payments.paymentVerficationNeeded  
 [Back to constructors index](index.md)
 
 

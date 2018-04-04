@@ -3,7 +3,7 @@ title: messagePaymentSuccessful
 description: Payment completed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messagePaymentSuccessful  
+# Constructor: messagePaymentSuccessful  
 [Back to constructors index](index.md)
 
 

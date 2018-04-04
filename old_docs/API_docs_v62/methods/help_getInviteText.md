@@ -3,7 +3,7 @@ title: help.getInviteText
 description: Get invitation text
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: help.getInviteText  
+# Method: help.getInviteText  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: inputInlineQueryResultVoice
 description: Represents link to a opus encoded audio file in ogg container
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputInlineQueryResultVoice  
+# Constructor: inputInlineQueryResultVoice  
 [Back to constructors index](index.md)
 
 

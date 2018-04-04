@@ -3,7 +3,7 @@ title: chats
 description: Represents list of chats
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: chats  
+# Constructor: chats  
 [Back to constructors index](index.md)
 
 

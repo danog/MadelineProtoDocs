@@ -3,7 +3,7 @@ title: CallbackQueryAnswer
 description: constructors and methods of type CallbackQueryAnswer
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: CallbackQueryAnswer  
+# Type: CallbackQueryAnswer  
 [Back to types index](index.md)
 
 

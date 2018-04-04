@@ -3,7 +3,7 @@ title: messages.setInlineGameScore
 description: Set the game score of an inline message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.setInlineGameScore  
+# Method: messages.setInlineGameScore  
 [Back to methods index](index.md)
 
 

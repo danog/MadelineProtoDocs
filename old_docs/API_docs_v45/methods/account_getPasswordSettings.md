@@ -3,7 +3,7 @@ title: account.getPasswordSettings
 description: Get the current 2FA settings
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: account.getPasswordSettings  
+# Method: account.getPasswordSettings  
 [Back to methods index](index.md)
 
 

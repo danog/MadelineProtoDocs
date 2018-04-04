@@ -3,7 +3,7 @@ title: secretChat
 description: Represents a secret chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: secretChat  
+# Constructor: secretChat  
 [Back to constructors index](index.md)
 
 

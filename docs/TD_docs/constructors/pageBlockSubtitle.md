@@ -3,7 +3,7 @@ title: pageBlockSubtitle
 description: Subtitle of a page
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: pageBlockSubtitle  
+# Constructor: pageBlockSubtitle  
 [Back to constructors index](index.md)
 
 

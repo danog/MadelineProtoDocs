@@ -3,7 +3,7 @@ title: MessageForwardInfo
 description: constructors and methods of type MessageForwardInfo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: MessageForwardInfo  
+# Type: MessageForwardInfo  
 [Back to types index](index.md)
 
 

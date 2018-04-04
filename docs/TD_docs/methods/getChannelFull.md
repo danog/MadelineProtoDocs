@@ -3,7 +3,7 @@ title: getChannelFull
 description: Returns full information about a channel by its identifier, cached for at most 1 minute
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: getChannelFull  
+# Method: getChannelFull  
 [Back to methods index](index.md)
 
 

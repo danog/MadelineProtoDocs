@@ -3,7 +3,7 @@ title: PhoneCallProtocol
 description: constructors and methods of type PhoneCallProtocol
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: PhoneCallProtocol  
+# Type: PhoneCallProtocol  
 [Back to types index](index.md)
 
 

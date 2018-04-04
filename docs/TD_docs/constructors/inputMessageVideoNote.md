@@ -3,7 +3,7 @@ title: inputMessageVideoNote
 description: Video note message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputMessageVideoNote  
+# Constructor: inputMessageVideoNote  
 [Back to constructors index](index.md)
 
 

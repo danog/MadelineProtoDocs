@@ -3,7 +3,7 @@ title: getProxy
 description: Returns current set up proxy. Can be called before authorization
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: getProxy  
+# Method: getProxy  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: msg_detailed_info
 description: msg_detailed_info attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: msg\_detailed\_info  
+# Constructor: msg\_detailed\_info  
 [Back to constructors index](index.md)
 
 

@@ -3,7 +3,7 @@ title: account.passwordSettings
 description: account_passwordSettings attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: account.passwordSettings  
+# Constructor: account.passwordSettings  
 [Back to constructors index](index.md)
 
 

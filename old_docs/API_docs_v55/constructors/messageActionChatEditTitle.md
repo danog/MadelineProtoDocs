@@ -3,7 +3,7 @@ title: messageActionChatEditTitle
 description: messageActionChatEditTitle attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messageActionChatEditTitle  
+# Constructor: messageActionChatEditTitle  
 [Back to constructors index](index.md)
 
 

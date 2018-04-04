@@ -3,7 +3,7 @@ title: TestVectorIntObject
 description: constructors and methods of type TestVectorIntObject
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: TestVectorIntObject  
+# Type: TestVectorIntObject  
 [Back to types index](index.md)
 
 

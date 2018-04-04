@@ -3,7 +3,7 @@ title: messages.stickerSet
 description: messages_stickerSet attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messages.stickerSet  
+# Constructor: messages.stickerSet  
 [Back to constructors index](index.md)
 
 

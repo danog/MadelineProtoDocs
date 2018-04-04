@@ -3,7 +3,7 @@ title: messageActionPaymentSent
 description: messageActionPaymentSent attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messageActionPaymentSent  
+# Constructor: messageActionPaymentSent  
 [Back to constructors index](index.md)
 
 

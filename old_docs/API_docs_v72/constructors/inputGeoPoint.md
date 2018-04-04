@@ -3,7 +3,7 @@ title: inputGeoPoint
 description: inputGeoPoint attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputGeoPoint  
+# Constructor: inputGeoPoint  
 [Back to constructors index](index.md)
 
 

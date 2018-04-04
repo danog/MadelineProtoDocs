@@ -3,7 +3,7 @@ title: terminateAllOtherSessions
 description: Terminates all other sessions of logged in user
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: terminateAllOtherSessions  
+# Method: terminateAllOtherSessions  
 [Back to methods index](index.md)
 
 

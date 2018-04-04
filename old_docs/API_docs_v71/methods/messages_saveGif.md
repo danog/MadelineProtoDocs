@@ -3,7 +3,7 @@ title: messages.saveGif
 description: Save a GIF
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.saveGif  
+# Method: messages.saveGif  
 [Back to methods index](index.md)
 
 

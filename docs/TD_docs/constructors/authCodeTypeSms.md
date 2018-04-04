@@ -3,7 +3,7 @@ title: authCodeTypeSms
 description: Code is delivered by SMS to the specified phone number
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: authCodeTypeSms  
+# Constructor: authCodeTypeSms  
 [Back to constructors index](index.md)
 
 

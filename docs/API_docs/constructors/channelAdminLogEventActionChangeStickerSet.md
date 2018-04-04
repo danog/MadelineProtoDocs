@@ -3,7 +3,7 @@ title: channelAdminLogEventActionChangeStickerSet
 description: channelAdminLogEventActionChangeStickerSet attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: channelAdminLogEventActionChangeStickerSet  
+# Constructor: channelAdminLogEventActionChangeStickerSet  
 [Back to constructors index](index.md)
 
 

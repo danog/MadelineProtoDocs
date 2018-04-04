@@ -3,7 +3,7 @@ title: updateChatParticipantDelete
 description: updateChatParticipantDelete attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateChatParticipantDelete  
+# Constructor: updateChatParticipantDelete  
 [Back to constructors index](index.md)
 
 

@@ -3,7 +3,7 @@ title: textUnderline
 description: textUnderline attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: textUnderline  
+# Constructor: textUnderline  
 [Back to constructors index](index.md)
 
 

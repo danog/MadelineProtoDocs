@@ -3,7 +3,7 @@ title: setStickerPositionInSet
 description: Bots only. Changes position of a sticker in the set it belongs to. Sticker set should be created by the bot
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: setStickerPositionInSet  
+# Method: setStickerPositionInSet  
 [Back to methods index](index.md)
 
 

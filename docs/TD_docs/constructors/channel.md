@@ -3,7 +3,7 @@ title: channel
 description: Represents a channel with zero or more subscribers. There two different kinds of channels: supergroups and broadcast channels
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: channel  
+# Constructor: channel  
 [Back to constructors index](index.md)
 
 

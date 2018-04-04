@@ -3,7 +3,7 @@ title: callStateDiscarded
 description: Call has ended successfully
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: callStateDiscarded  
+# Constructor: callStateDiscarded  
 [Back to constructors index](index.md)
 
 

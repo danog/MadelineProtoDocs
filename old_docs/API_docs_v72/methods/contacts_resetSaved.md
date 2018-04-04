@@ -3,7 +3,7 @@ title: contacts.resetSaved
 description: Reset saved contacts
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: contacts.resetSaved  
+# Method: contacts.resetSaved  
 [Back to methods index](index.md)
 
 

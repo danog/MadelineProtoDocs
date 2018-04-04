@@ -3,7 +3,7 @@ title: userStatusLastWeek
 description: User is offline, but was online last week
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: userStatusLastWeek  
+# Constructor: userStatusLastWeek  
 [Back to constructors index](index.md)
 
 

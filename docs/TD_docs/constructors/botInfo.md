@@ -3,7 +3,7 @@ title: botInfo
 description: Provides information about bot and command supported by him
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: botInfo  
+# Constructor: botInfo  
 [Back to constructors index](index.md)
 
 

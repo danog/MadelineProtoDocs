@@ -3,7 +3,7 @@ title: messages.deleteChatUser
 description: Delete a user from a chat (not supergroup)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.deleteChatUser  
+# Method: messages.deleteChatUser  
 [Back to methods index](index.md)
 
 

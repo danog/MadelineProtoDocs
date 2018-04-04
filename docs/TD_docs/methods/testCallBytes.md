@@ -3,7 +3,7 @@ title: testCallBytes
 description: Test request. Returns back received bytes
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: testCallBytes  
+# Method: testCallBytes  
 [Back to methods index](index.md)
 
 

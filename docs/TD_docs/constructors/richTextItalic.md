@@ -3,7 +3,7 @@ title: richTextItalic
 description: Italicized rich text
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: richTextItalic  
+# Constructor: richTextItalic  
 [Back to constructors index](index.md)
 
 

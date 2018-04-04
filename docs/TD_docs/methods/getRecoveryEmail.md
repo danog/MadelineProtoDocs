@@ -3,7 +3,7 @@ title: getRecoveryEmail
 description: Returns set up recovery email. This method can be used to verify a password provided by the user
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: getRecoveryEmail  
+# Method: getRecoveryEmail  
 [Back to methods index](index.md)
 
 

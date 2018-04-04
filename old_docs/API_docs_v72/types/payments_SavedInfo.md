@@ -3,7 +3,7 @@ title: payments_SavedInfo
 description: constructors and methods of type payments_SavedInfo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: payments\_SavedInfo  
+# Type: payments\_SavedInfo  
 [Back to types index](index.md)
 
 

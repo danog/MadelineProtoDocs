@@ -3,7 +3,7 @@ title: Wallpapers
 description: constructors and methods of type Wallpapers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: Wallpapers  
+# Type: Wallpapers  
 [Back to types index](index.md)
 
 

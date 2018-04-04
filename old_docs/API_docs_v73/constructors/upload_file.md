@@ -3,7 +3,7 @@ title: upload.file
 description: upload_file attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: upload.file  
+# Constructor: upload.file  
 [Back to constructors index](index.md)
 
 

@@ -3,7 +3,7 @@ title: messagePhoto
 description: Photo message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messagePhoto  
+# Constructor: messagePhoto  
 [Back to constructors index](index.md)
 
 

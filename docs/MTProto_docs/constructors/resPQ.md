@@ -3,7 +3,7 @@ title: resPQ
 description: Contains pq to factorize
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: resPQ  
+# Constructor: resPQ  
 [Back to constructors index](index.md)
 
 

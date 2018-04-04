@@ -3,7 +3,7 @@ title: InputPaymentCredentials
 description: constructors and methods of type InputPaymentCredentials
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: InputPaymentCredentials  
+# Type: InputPaymentCredentials  
 [Back to types index](index.md)
 
 

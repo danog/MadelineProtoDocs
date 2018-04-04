@@ -3,7 +3,7 @@ title: richTextBold
 description: Bold rich text
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: richTextBold  
+# Constructor: richTextBold  
 [Back to constructors index](index.md)
 
 

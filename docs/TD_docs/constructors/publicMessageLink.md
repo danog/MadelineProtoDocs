@@ -3,7 +3,7 @@ title: publicMessageLink
 description: Contains public HTTPS link to a message in a public channel
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: publicMessageLink  
+# Constructor: publicMessageLink  
 [Back to constructors index](index.md)
 
 

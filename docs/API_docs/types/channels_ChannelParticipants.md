@@ -3,7 +3,7 @@ title: channels_ChannelParticipants
 description: constructors and methods of type channels_ChannelParticipants
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: channels\_ChannelParticipants  
+# Type: channels\_ChannelParticipants  
 [Back to types index](index.md)
 
 

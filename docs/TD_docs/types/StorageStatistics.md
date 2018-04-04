@@ -3,7 +3,7 @@ title: StorageStatistics
 description: constructors and methods of type StorageStatistics
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: StorageStatistics  
+# Type: StorageStatistics  
 [Back to types index](index.md)
 
 

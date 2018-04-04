@@ -3,7 +3,7 @@ title: messages.statedMessageLink
 description: messages_statedMessageLink attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messages.statedMessageLink  
+# Constructor: messages.statedMessageLink  
 [Back to constructors index](index.md)
 
 

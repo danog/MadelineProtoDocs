@@ -3,7 +3,7 @@ title: ExportedMessageLink
 description: constructors and methods of type ExportedMessageLink
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: ExportedMessageLink  
+# Type: ExportedMessageLink  
 [Back to types index](index.md)
 
 

@@ -3,7 +3,7 @@ title: messages_Messages
 description: constructors and methods of type messages_Messages
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: messages\_Messages  
+# Type: messages\_Messages  
 [Back to types index](index.md)
 
 

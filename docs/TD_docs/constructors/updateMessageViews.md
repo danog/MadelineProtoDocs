@@ -3,7 +3,7 @@ title: updateMessageViews
 description: View count of the message has changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateMessageViews  
+# Constructor: updateMessageViews  
 [Back to constructors index](index.md)
 
 

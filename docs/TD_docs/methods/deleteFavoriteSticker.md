@@ -3,7 +3,7 @@ title: deleteFavoriteSticker
 description: Removes a sticker from the list of favorite stickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: deleteFavoriteSticker  
+# Method: deleteFavoriteSticker  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: contacts.deleteContact
 description: Delete a contact
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: contacts.deleteContact  
+# Method: contacts.deleteContact  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: inputPeerNotifySettings
 description: inputPeerNotifySettings attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputPeerNotifySettings  
+# Constructor: inputPeerNotifySettings  
 [Back to constructors index](index.md)
 
 

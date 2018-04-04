@@ -3,7 +3,7 @@ title: payments.paymentForm
 description: payments_paymentForm attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: payments.paymentForm  
+# Constructor: payments.paymentForm  
 [Back to constructors index](index.md)
 
 

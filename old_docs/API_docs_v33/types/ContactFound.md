@@ -3,7 +3,7 @@ title: ContactFound
 description: constructors and methods of type ContactFound
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: ContactFound  
+# Type: ContactFound  
 [Back to types index](index.md)
 
 

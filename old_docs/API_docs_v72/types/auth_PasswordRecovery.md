@@ -3,7 +3,7 @@ title: auth_PasswordRecovery
 description: constructors and methods of type auth_PasswordRecovery
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: auth\_PasswordRecovery  
+# Type: auth\_PasswordRecovery  
 [Back to types index](index.md)
 
 

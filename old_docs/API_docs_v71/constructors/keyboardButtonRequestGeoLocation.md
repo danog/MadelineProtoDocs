@@ -3,7 +3,7 @@ title: keyboardButtonRequestGeoLocation
 description: keyboardButtonRequestGeoLocation attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: keyboardButtonRequestGeoLocation  
+# Constructor: keyboardButtonRequestGeoLocation  
 [Back to constructors index](index.md)
 
 

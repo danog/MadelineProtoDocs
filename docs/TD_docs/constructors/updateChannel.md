@@ -3,7 +3,7 @@ title: updateChannel
 description: Some data about a channel has been changed. This update is guaranteed to come before channel identifier is returned to the client, if library knows anything about the channel
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateChannel  
+# Constructor: updateChannel  
 [Back to constructors index](index.md)
 
 

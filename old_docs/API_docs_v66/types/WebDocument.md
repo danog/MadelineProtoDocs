@@ -3,7 +3,7 @@ title: WebDocument
 description: constructors and methods of type WebDocument
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: WebDocument  
+# Type: WebDocument  
 [Back to types index](index.md)
 
 

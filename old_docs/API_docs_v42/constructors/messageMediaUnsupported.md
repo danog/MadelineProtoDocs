@@ -3,7 +3,7 @@ title: messageMediaUnsupported
 description: messageMediaUnsupported attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messageMediaUnsupported  
+# Constructor: messageMediaUnsupported  
 [Back to constructors index](index.md)
 
 

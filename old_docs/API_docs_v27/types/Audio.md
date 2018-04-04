@@ -3,7 +3,7 @@ title: Audio
 description: constructors and methods of type Audio
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: Audio  
+# Type: Audio  
 [Back to types index](index.md)
 
 

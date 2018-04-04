@@ -3,7 +3,7 @@ title: savedCredentials
 description: Information about saved card credentials
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: savedCredentials  
+# Constructor: savedCredentials  
 [Back to constructors index](index.md)
 
 

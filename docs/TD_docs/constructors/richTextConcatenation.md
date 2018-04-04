@@ -3,7 +3,7 @@ title: richTextConcatenation
 description: Concatenation of rich texts
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: richTextConcatenation  
+# Constructor: richTextConcatenation  
 [Back to constructors index](index.md)
 
 

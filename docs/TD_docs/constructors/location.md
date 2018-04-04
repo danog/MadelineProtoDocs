@@ -3,7 +3,7 @@ title: location
 description: Describes location on Earth
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: location  
+# Constructor: location  
 [Back to constructors index](index.md)
 
 

@@ -3,7 +3,7 @@ title: richTextUrl
 description: Rich text URL link
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: richTextUrl  
+# Constructor: richTextUrl  
 [Back to constructors index](index.md)
 
 

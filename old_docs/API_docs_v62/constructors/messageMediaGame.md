@@ -3,7 +3,7 @@ title: messageMediaGame
 description: messageMediaGame attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messageMediaGame  
+# Constructor: messageMediaGame  
 [Back to constructors index](index.md)
 
 

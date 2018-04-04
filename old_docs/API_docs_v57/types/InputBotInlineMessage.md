@@ -3,7 +3,7 @@ title: InputBotInlineMessage
 description: constructors and methods of type InputBotInlineMessage
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: InputBotInlineMessage  
+# Type: InputBotInlineMessage  
 [Back to types index](index.md)
 
 

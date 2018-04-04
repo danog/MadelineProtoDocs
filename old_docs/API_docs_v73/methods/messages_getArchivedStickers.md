@@ -3,7 +3,7 @@ title: messages.getArchivedStickers
 description: Get all archived stickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.getArchivedStickers  
+# Method: messages.getArchivedStickers  
 [Back to methods index](index.md)
 
 

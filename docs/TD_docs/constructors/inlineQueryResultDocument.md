@@ -3,7 +3,7 @@ title: inlineQueryResultDocument
 description: Represents a document cached on the telegram server
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inlineQueryResultDocument  
+# Constructor: inlineQueryResultDocument  
 [Back to constructors index](index.md)
 
 

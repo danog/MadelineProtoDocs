@@ -3,7 +3,7 @@ title: Proxy
 description: constructors and methods of type Proxy
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: Proxy  
+# Type: Proxy  
 [Back to types index](index.md)
 
 

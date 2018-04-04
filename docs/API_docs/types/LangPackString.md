@@ -3,7 +3,7 @@ title: LangPackString
 description: constructors and methods of type LangPackString
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: LangPackString  
+# Type: LangPackString  
 [Back to types index](index.md)
 
 

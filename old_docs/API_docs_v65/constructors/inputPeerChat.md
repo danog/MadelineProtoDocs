@@ -3,7 +3,7 @@ title: inputPeerChat
 description: inputPeerChat attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputPeerChat  
+# Constructor: inputPeerChat  
 [Back to constructors index](index.md)
 
 

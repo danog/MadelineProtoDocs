@@ -3,7 +3,7 @@ title: DestroySessionRes
 description: constructors and methods of type DestroySessionRes
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: DestroySessionRes  
+# Type: DestroySessionRes  
 [Back to types index](index.md)
 
 

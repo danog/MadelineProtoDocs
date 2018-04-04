@@ -3,7 +3,7 @@ title: documentAttributeSticker
 description: documentAttributeSticker attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: documentAttributeSticker\_23  
+# Constructor: documentAttributeSticker\_23  
 [Back to constructors index](index.md)
 
 

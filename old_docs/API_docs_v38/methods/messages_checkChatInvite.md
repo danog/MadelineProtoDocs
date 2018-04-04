@@ -3,7 +3,7 @@ title: messages.checkChatInvite
 description: Check if an invitation link is valid
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.checkChatInvite  
+# Method: messages.checkChatInvite  
 [Back to methods index](index.md)
 
 

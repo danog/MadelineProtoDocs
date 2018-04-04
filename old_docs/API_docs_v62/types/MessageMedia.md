@@ -3,7 +3,7 @@ title: MessageMedia
 description: constructors and methods of type MessageMedia
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: MessageMedia  
+# Type: MessageMedia  
 [Back to types index](index.md)
 
 

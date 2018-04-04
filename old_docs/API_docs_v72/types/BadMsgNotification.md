@@ -3,7 +3,7 @@ title: BadMsgNotification
 description: constructors and methods of type BadMsgNotification
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: BadMsgNotification  
+# Type: BadMsgNotification  
 [Back to types index](index.md)
 
 

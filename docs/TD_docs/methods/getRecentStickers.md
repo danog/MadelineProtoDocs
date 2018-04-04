@@ -3,7 +3,7 @@ title: getRecentStickers
 description: Returns list of recently used stickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: getRecentStickers  
+# Method: getRecentStickers  
 [Back to methods index](index.md)
 
 

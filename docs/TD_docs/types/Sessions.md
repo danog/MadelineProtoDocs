@@ -3,7 +3,7 @@ title: Sessions
 description: constructors and methods of type Sessions
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: Sessions  
+# Type: Sessions  
 [Back to types index](index.md)
 
 

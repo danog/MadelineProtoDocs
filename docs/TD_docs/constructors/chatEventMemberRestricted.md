@@ -3,7 +3,7 @@ title: chatEventMemberRestricted
 description: A chat member restricted/unrestircted or banned/unbanned
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: chatEventMemberRestricted  
+# Constructor: chatEventMemberRestricted  
 [Back to constructors index](index.md)
 
 

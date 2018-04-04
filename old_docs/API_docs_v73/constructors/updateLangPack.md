@@ -3,7 +3,7 @@ title: updateLangPack
 description: updateLangPack attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateLangPack  
+# Constructor: updateLangPack  
 [Back to constructors index](index.md)
 
 

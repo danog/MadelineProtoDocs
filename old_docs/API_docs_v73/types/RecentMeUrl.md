@@ -3,7 +3,7 @@ title: RecentMeUrl
 description: constructors and methods of type RecentMeUrl
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: RecentMeUrl  
+# Type: RecentMeUrl  
 [Back to types index](index.md)
 
 

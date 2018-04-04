@@ -3,7 +3,7 @@ title: replyMarkupShowKeyboard
 description: Contains custom keyboard layout for fast reply to bot
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: replyMarkupShowKeyboard  
+# Constructor: replyMarkupShowKeyboard  
 [Back to constructors index](index.md)
 
 

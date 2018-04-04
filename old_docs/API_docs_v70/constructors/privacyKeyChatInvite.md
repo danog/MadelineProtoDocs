@@ -3,7 +3,7 @@ title: privacyKeyChatInvite
 description: privacyKeyChatInvite attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: privacyKeyChatInvite  
+# Constructor: privacyKeyChatInvite  
 [Back to constructors index](index.md)
 
 

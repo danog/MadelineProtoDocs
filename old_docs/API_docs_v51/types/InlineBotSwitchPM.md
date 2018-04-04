@@ -3,7 +3,7 @@ title: InlineBotSwitchPM
 description: constructors and methods of type InlineBotSwitchPM
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: InlineBotSwitchPM  
+# Type: InlineBotSwitchPM  
 [Back to types index](index.md)
 
 

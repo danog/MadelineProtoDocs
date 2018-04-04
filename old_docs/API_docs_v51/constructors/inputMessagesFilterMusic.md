@@ -3,7 +3,7 @@ title: inputMessagesFilterMusic
 description: inputMessagesFilterMusic attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputMessagesFilterMusic  
+# Constructor: inputMessagesFilterMusic  
 [Back to constructors index](index.md)
 
 

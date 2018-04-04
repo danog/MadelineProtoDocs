@@ -3,7 +3,7 @@ title: CallbackQueryPayload
 description: constructors and methods of type CallbackQueryPayload
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: CallbackQueryPayload  
+# Type: CallbackQueryPayload  
 [Back to types index](index.md)
 
 

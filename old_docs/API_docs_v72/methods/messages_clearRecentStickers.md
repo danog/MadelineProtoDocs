@@ -3,7 +3,7 @@ title: messages.clearRecentStickers
 description: Clear all recent stickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.clearRecentStickers  
+# Method: messages.clearRecentStickers  
 [Back to methods index](index.md)
 
 

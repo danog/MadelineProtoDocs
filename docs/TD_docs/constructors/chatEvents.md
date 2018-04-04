@@ -3,7 +3,7 @@ title: chatEvents
 description: Contains list of chat events
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: chatEvents  
+# Constructor: chatEvents  
 [Back to constructors index](index.md)
 
 

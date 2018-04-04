@@ -3,7 +3,7 @@ title: messages.savedGifs
 description: messages_savedGifs attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messages.savedGifs  
+# Constructor: messages.savedGifs  
 [Back to constructors index](index.md)
 
 

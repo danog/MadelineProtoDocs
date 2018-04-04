@@ -3,7 +3,7 @@ title: updateContactLink
 description: updateContactLink attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateContactLink  
+# Constructor: updateContactLink  
 [Back to constructors index](index.md)
 
 

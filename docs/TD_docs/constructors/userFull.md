@@ -3,7 +3,7 @@ title: userFull
 description: Gives full information about a user (except full list of profile photos)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: userFull  
+# Constructor: userFull  
 [Back to constructors index](index.md)
 
 

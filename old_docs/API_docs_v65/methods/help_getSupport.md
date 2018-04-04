@@ -3,7 +3,7 @@ title: help.getSupport
 description: Get info of support user
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: help.getSupport  
+# Method: help.getSupport  
 [Back to methods index](index.md)
 
 

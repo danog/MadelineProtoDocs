@@ -3,7 +3,7 @@ title: channelParticipantSelf
 description: channelParticipantSelf attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: channelParticipantSelf  
+# Constructor: channelParticipantSelf  
 [Back to constructors index](index.md)
 
 

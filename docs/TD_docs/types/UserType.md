@@ -3,7 +3,7 @@ title: UserType
 description: constructors and methods of type UserType
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: UserType  
+# Type: UserType  
 [Back to types index](index.md)
 
 

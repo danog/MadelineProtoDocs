@@ -3,7 +3,7 @@ title: updateChatUnreadMentionCount
 description: Chat unread_mention_count has changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateChatUnreadMentionCount  
+# Constructor: updateChatUnreadMentionCount  
 [Back to constructors index](index.md)
 
 

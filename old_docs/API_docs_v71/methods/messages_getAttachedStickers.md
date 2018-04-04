@@ -3,7 +3,7 @@ title: messages.getAttachedStickers
 description: Get stickers attachable to images
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.getAttachedStickers  
+# Method: messages.getAttachedStickers  
 [Back to methods index](index.md)
 
 

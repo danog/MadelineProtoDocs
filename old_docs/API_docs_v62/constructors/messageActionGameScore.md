@@ -3,7 +3,7 @@ title: messageActionGameScore
 description: messageActionGameScore attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messageActionGameScore  
+# Constructor: messageActionGameScore  
 [Back to constructors index](index.md)
 
 

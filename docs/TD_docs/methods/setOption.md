@@ -3,7 +3,7 @@ title: setOption
 description: Sets value of an option. See list of available options on https: core.telegram.org/tdlib/options. Only writable options can be set. Can be called before authorization
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: setOption  
+# Method: setOption  
 [Back to methods index](index.md)
 
 

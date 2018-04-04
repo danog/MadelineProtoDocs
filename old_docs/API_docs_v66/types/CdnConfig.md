@@ -3,7 +3,7 @@ title: CdnConfig
 description: constructors and methods of type CdnConfig
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: CdnConfig  
+# Type: CdnConfig  
 [Back to types index](index.md)
 
 

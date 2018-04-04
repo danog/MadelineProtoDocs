@@ -3,7 +3,7 @@ title: TemporaryPasswordState
 description: constructors and methods of type TemporaryPasswordState
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: TemporaryPasswordState  
+# Type: TemporaryPasswordState  
 [Back to types index](index.md)
 
 

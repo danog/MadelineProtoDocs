@@ -3,7 +3,7 @@ title: NetworkStatisticsEntry
 description: constructors and methods of type NetworkStatisticsEntry
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: NetworkStatisticsEntry  
+# Type: NetworkStatisticsEntry  
 [Back to types index](index.md)
 
 

@@ -3,7 +3,7 @@ title: upload.getWebFile
 description: Download a file through telegram
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: upload.getWebFile  
+# Method: upload.getWebFile  
 [Back to methods index](index.md)
 
 

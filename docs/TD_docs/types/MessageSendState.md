@@ -3,7 +3,7 @@ title: MessageSendState
 description: constructors and methods of type MessageSendState
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: MessageSendState  
+# Type: MessageSendState  
 [Back to types index](index.md)
 
 

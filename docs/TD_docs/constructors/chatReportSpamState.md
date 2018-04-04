@@ -3,7 +3,7 @@ title: chatReportSpamState
 description: Contains information about chat report spam state
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: chatReportSpamState  
+# Constructor: chatReportSpamState  
 [Back to constructors index](index.md)
 
 

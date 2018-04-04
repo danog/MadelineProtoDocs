@@ -3,7 +3,7 @@ title: PasswordRecoveryInfo
 description: constructors and methods of type PasswordRecoveryInfo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: PasswordRecoveryInfo  
+# Type: PasswordRecoveryInfo  
 [Back to types index](index.md)
 
 

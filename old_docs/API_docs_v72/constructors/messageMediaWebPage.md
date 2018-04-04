@@ -3,7 +3,7 @@ title: messageMediaWebPage
 description: messageMediaWebPage attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messageMediaWebPage  
+# Constructor: messageMediaWebPage  
 [Back to constructors index](index.md)
 
 

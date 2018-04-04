@@ -3,7 +3,7 @@ title: messageChatDeleteMember
 description: Chat member deleted
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messageChatDeleteMember  
+# Constructor: messageChatDeleteMember  
 [Back to constructors index](index.md)
 
 

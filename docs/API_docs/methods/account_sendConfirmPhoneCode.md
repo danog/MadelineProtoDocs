@@ -3,7 +3,7 @@ title: account.sendConfirmPhoneCode
 description: Send confirmation phone code
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: account.sendConfirmPhoneCode  
+# Method: account.sendConfirmPhoneCode  
 [Back to methods index](index.md)
 
 

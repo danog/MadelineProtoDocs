@@ -3,7 +3,7 @@ title: updateChatDraftMessage
 description: Chat draft has changed. Be aware that the update may come in the currently open chat with the old content of the draft. If the user has changed the content of the draft, the update shouldn't be applied
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateChatDraftMessage  
+# Constructor: updateChatDraftMessage  
 [Back to constructors index](index.md)
 
 

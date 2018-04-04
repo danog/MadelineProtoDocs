@@ -3,7 +3,7 @@ title: updateFavoriteStickers
 description: List of favorite stickers was updated
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateFavoriteStickers  
+# Constructor: updateFavoriteStickers  
 [Back to constructors index](index.md)
 
 

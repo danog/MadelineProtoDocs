@@ -3,7 +3,7 @@ title: TextEntities
 description: constructors and methods of type TextEntities
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: TextEntities  
+# Type: TextEntities  
 [Back to types index](index.md)
 
 

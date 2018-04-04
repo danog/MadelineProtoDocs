@@ -3,7 +3,7 @@ title: Stickers
 description: constructors and methods of type Stickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: Stickers  
+# Type: Stickers  
 [Back to types index](index.md)
 
 

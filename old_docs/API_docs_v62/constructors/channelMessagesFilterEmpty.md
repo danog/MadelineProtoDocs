@@ -3,7 +3,7 @@ title: channelMessagesFilterEmpty
 description: channelMessagesFilterEmpty attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: channelMessagesFilterEmpty  
+# Constructor: channelMessagesFilterEmpty  
 [Back to constructors index](index.md)
 
 

@@ -3,7 +3,7 @@ title: messages.search
 description: Search peers or messages
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.search  
+# Method: messages.search  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: destroy_session
 description: Destroy the current MTProto session
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: destroy\_session  
+# Method: destroy\_session  
 [Back to methods index](index.md)
 
 

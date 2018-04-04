@@ -3,7 +3,7 @@ title: getTermsOfService
 description: Returns terms of service. Can be called before authorization
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: getTermsOfService  
+# Method: getTermsOfService  
 [Back to methods index](index.md)
 
 

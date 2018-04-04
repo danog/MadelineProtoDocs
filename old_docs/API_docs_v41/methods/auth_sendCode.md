@@ -3,7 +3,7 @@ title: auth.sendCode
 description: Use phone_login instead
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: auth.sendCode  
+# Method: auth.sendCode  
 [Back to methods index](index.md)
 
 

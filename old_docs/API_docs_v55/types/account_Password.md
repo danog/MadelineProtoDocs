@@ -3,7 +3,7 @@ title: account_Password
 description: constructors and methods of type account_Password
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: account\_Password  
+# Type: account\_Password  
 [Back to types index](index.md)
 
 

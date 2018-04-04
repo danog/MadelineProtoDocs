@@ -3,7 +3,7 @@ title: contacts_Blocked
 description: constructors and methods of type contacts_Blocked
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: contacts\_Blocked  
+# Type: contacts\_Blocked  
 [Back to types index](index.md)
 
 

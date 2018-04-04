@@ -3,7 +3,7 @@ title: sendMessageUploadAudioAction
 description: sendMessageUploadAudioAction attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: sendMessageUploadAudioAction\_17  
+# Constructor: sendMessageUploadAudioAction\_17  
 [Back to constructors index](index.md)
 
 

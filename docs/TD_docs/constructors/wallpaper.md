@@ -3,7 +3,7 @@ title: wallpaper
 description: Contains information about one wallpaper
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: wallpaper  
+# Constructor: wallpaper  
 [Back to constructors index](index.md)
 
 

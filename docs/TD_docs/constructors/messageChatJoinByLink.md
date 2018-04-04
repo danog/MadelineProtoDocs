@@ -3,7 +3,7 @@ title: messageChatJoinByLink
 description: Chat member joined by invite link
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messageChatJoinByLink  
+# Constructor: messageChatJoinByLink  
 [Back to constructors index](index.md)
 
 

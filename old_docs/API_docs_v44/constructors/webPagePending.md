@@ -3,7 +3,7 @@ title: webPagePending
 description: webPagePending attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: webPagePending  
+# Constructor: webPagePending  
 [Back to constructors index](index.md)
 
 

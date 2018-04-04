@@ -3,7 +3,7 @@ title: updateFileProgress
 description: DEPRECATED. Use updateFile instead. File is partly downloaded/uploaded
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateFileProgress  
+# Constructor: updateFileProgress  
 [Back to constructors index](index.md)
 
 

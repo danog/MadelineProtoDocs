@@ -3,7 +3,7 @@ title: inputReportReasonSpam
 description: inputReportReasonSpam attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputReportReasonSpam  
+# Constructor: inputReportReasonSpam  
 [Back to constructors index](index.md)
 
 

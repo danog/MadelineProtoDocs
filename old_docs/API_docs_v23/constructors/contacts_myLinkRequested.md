@@ -3,7 +3,7 @@ title: contacts.myLinkRequested
 description: contacts_myLinkRequested attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: contacts.myLinkRequested  
+# Constructor: contacts.myLinkRequested  
 [Back to constructors index](index.md)
 
 

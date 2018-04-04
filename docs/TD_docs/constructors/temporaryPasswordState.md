@@ -3,7 +3,7 @@ title: temporaryPasswordState
 description: Returns information about availability of temporary password, which should be used for payments
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: temporaryPasswordState  
+# Constructor: temporaryPasswordState  
 [Back to constructors index](index.md)
 
 

@@ -3,7 +3,7 @@ title: langpack.getDifference
 description: Get language pack updates
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: langpack.getDifference  
+# Method: langpack.getDifference  
 [Back to methods index](index.md)
 
 

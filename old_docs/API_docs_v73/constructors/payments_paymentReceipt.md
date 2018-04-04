@@ -3,7 +3,7 @@ title: payments.paymentReceipt
 description: payments_paymentReceipt attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: payments.paymentReceipt  
+# Constructor: payments.paymentReceipt  
 [Back to constructors index](index.md)
 
 

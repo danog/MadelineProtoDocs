@@ -3,7 +3,7 @@ title: messages.sendScreenshotNotification
 description: Send screenshot notification
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.sendScreenshotNotification  
+# Method: messages.sendScreenshotNotification  
 [Back to methods index](index.md)
 
 

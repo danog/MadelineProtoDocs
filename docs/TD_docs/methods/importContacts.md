@@ -3,7 +3,7 @@ title: importContacts
 description: Adds new contacts/edits existing contacts, contacts user identifiers are ignored
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: importContacts  
+# Method: importContacts  
 [Back to methods index](index.md)
 
 

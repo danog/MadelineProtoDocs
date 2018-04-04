@@ -3,7 +3,7 @@ title: help.setBotUpdatesStatus
 description: Set the update status of webhook
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: help.setBotUpdatesStatus  
+# Method: help.setBotUpdatesStatus  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: getFile
 description: Returns information about a file, offline request
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: getFile  
+# Method: getFile  
 [Back to methods index](index.md)
 
 

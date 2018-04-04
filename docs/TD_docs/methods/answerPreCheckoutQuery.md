@@ -3,7 +3,7 @@ title: answerPreCheckoutQuery
 description: Bots only. Sets result of a pre checkout query
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: answerPreCheckoutQuery  
+# Method: answerPreCheckoutQuery  
 [Back to methods index](index.md)
 
 

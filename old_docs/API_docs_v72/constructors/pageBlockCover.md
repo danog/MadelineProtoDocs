@@ -3,7 +3,7 @@ title: pageBlockCover
 description: pageBlockCover attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: pageBlockCover  
+# Constructor: pageBlockCover  
 [Back to constructors index](index.md)
 
 

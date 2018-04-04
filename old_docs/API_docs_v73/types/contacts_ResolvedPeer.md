@@ -3,7 +3,7 @@ title: contacts_ResolvedPeer
 description: constructors and methods of type contacts_ResolvedPeer
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: contacts\_ResolvedPeer  
+# Type: contacts\_ResolvedPeer  
 [Back to types index](index.md)
 
 

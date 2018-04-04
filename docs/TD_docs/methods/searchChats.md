@@ -3,7 +3,7 @@ title: searchChats
 description: Searches for specified query in the title and username of known chats, offline request. Returns chats in the order of them in the chat list
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: searchChats  
+# Method: searchChats  
 [Back to methods index](index.md)
 
 

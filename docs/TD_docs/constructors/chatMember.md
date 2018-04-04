@@ -3,7 +3,7 @@ title: chatMember
 description: User with information about its chat joining/leaving
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: chatMember  
+# Constructor: chatMember  
 [Back to constructors index](index.md)
 
 

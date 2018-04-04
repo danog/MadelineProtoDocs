@@ -3,7 +3,7 @@ title: topPeer
 description: topPeer attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: topPeer  
+# Constructor: topPeer  
 [Back to constructors index](index.md)
 
 

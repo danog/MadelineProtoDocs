@@ -3,7 +3,7 @@ title: channels.deleteMessages
 description: Delete channel/supergroup messages
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: channels.deleteMessages  
+# Method: channels.deleteMessages  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: updateChannelTooLong
 description: updateChannelTooLong attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateChannelTooLong  
+# Constructor: updateChannelTooLong  
 [Back to constructors index](index.md)
 
 

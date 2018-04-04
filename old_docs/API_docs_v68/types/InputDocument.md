@@ -3,7 +3,7 @@ title: InputDocument
 description: constructors and methods of type InputDocument
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: InputDocument  
+# Type: InputDocument  
 [Back to types index](index.md)
 
 

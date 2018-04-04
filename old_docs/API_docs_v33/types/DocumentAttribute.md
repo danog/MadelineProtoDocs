@@ -3,7 +3,7 @@ title: DocumentAttribute
 description: constructors and methods of type DocumentAttribute
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: DocumentAttribute  
+# Type: DocumentAttribute  
 [Back to types index](index.md)
 
 

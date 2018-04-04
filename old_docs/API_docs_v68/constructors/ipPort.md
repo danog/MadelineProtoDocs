@@ -3,7 +3,7 @@ title: ipPort
 description: ipPort attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: ipPort  
+# Constructor: ipPort  
 [Back to constructors index](index.md)
 
 

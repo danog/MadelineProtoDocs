@@ -3,7 +3,7 @@ title: viewTrendingStickerSets
 description: Informs that some trending sticker sets are viewed by the user
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: viewTrendingStickerSets  
+# Method: viewTrendingStickerSets  
 [Back to methods index](index.md)
 
 

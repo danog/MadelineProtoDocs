@@ -3,7 +3,7 @@ title: getStickers
 description: Returns stickers from installed ordinary sticker sets corresponding to the given emoji. If emoji is not empty, elso favorite and recently used stickers may be returned
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: getStickers  
+# Method: getStickers  
 [Back to methods index](index.md)
 
 

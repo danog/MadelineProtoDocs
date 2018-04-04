@@ -3,7 +3,7 @@ title: inputFileLocal
 description: File deifned by local path
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputFileLocal  
+# Constructor: inputFileLocal  
 [Back to constructors index](index.md)
 
 

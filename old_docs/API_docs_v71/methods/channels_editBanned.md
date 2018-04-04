@@ -3,7 +3,7 @@ title: channels.editBanned
 description: Kick or ban a user from a channel/supergroup
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: channels.editBanned  
+# Method: channels.editBanned  
 [Back to methods index](index.md)
 
 

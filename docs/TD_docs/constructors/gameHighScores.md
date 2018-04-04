@@ -3,7 +3,7 @@ title: gameHighScores
 description: Contains list of game high scores
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: gameHighScores  
+# Constructor: gameHighScores  
 [Back to constructors index](index.md)
 
 

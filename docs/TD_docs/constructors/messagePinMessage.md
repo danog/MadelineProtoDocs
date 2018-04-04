@@ -3,7 +3,7 @@ title: messagePinMessage
 description: Some message was pinned
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messagePinMessage  
+# Constructor: messagePinMessage  
 [Back to constructors index](index.md)
 
 

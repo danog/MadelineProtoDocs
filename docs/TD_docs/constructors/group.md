@@ -3,7 +3,7 @@ title: group
 description: Represents a group of zero or more other users
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: group  
+# Constructor: group  
 [Back to constructors index](index.md)
 
 

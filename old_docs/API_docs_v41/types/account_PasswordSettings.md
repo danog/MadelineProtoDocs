@@ -3,7 +3,7 @@ title: account_PasswordSettings
 description: constructors and methods of type account_PasswordSettings
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: account\_PasswordSettings  
+# Type: account\_PasswordSettings  
 [Back to types index](index.md)
 
 

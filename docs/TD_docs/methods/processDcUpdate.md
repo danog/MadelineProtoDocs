@@ -3,7 +3,7 @@ title: processDcUpdate
 description: Handles DC_UPDATE push service notification. Can be called before authorization
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: processDcUpdate  
+# Method: processDcUpdate  
 [Back to methods index](index.md)
 
 

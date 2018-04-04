@@ -3,7 +3,7 @@ title: createChannelChat
 description: Returns existing chat corresponding to the known channel
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: createChannelChat  
+# Method: createChannelChat  
 [Back to methods index](index.md)
 
 

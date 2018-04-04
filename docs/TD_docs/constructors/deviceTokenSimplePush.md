@@ -3,7 +3,7 @@ title: deviceTokenSimplePush
 description: Token for simple push
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: deviceTokenSimplePush  
+# Constructor: deviceTokenSimplePush  
 [Back to constructors index](index.md)
 
 

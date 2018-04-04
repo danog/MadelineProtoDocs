@@ -3,7 +3,7 @@ title: editInlineMessageCaption
 description: Bots only. Edits caption of an inline message content sent via bot
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: editInlineMessageCaption  
+# Method: editInlineMessageCaption  
 [Back to methods index](index.md)
 
 

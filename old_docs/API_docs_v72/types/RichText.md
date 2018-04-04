@@ -3,7 +3,7 @@ title: RichText
 description: constructors and methods of type RichText
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: RichText  
+# Type: RichText  
 [Back to types index](index.md)
 
 

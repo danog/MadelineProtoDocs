@@ -3,7 +3,7 @@ title: messageForwardedPost
 description: Message is orifinally a channel post
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messageForwardedPost  
+# Constructor: messageForwardedPost  
 [Back to constructors index](index.md)
 
 

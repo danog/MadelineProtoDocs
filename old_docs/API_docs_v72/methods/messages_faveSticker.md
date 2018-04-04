@@ -3,7 +3,7 @@ title: messages.faveSticker
 description: Add a sticker to favorites
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.faveSticker  
+# Method: messages.faveSticker  
 [Back to methods index](index.md)
 
 

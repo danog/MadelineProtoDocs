@@ -3,7 +3,7 @@ title: addStickerToSet
 description: Bots only. Adds new sticker to a set. Returns the sticker set
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: addStickerToSet  
+# Method: addStickerToSet  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: messages.deleteHistory
 description: Delete chat history
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.deleteHistory  
+# Method: messages.deleteHistory  
 [Back to methods index](index.md)
 
 

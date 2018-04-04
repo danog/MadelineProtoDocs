@@ -3,7 +3,7 @@ title: replyMarkupInlineKeyboard
 description: Contains inline keyboard layout
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: replyMarkupInlineKeyboard  
+# Constructor: replyMarkupInlineKeyboard  
 [Back to constructors index](index.md)
 
 

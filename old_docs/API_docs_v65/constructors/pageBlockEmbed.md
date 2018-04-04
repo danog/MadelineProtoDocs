@@ -3,7 +3,7 @@ title: pageBlockEmbed
 description: pageBlockEmbed attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: pageBlockEmbed  
+# Constructor: pageBlockEmbed  
 [Back to constructors index](index.md)
 
 

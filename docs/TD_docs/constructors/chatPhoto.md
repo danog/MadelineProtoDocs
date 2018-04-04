@@ -3,7 +3,7 @@ title: chatPhoto
 description: Describes chat photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: chatPhoto  
+# Constructor: chatPhoto  
 [Back to constructors index](index.md)
 
 

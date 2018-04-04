@@ -3,7 +3,7 @@ title: messages_FoundGifs
 description: constructors and methods of type messages_FoundGifs
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: messages\_FoundGifs  
+# Type: messages\_FoundGifs  
 [Back to types index](index.md)
 
 

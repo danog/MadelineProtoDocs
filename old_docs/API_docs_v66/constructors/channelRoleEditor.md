@@ -3,7 +3,7 @@ title: channelRoleEditor
 description: channelRoleEditor attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: channelRoleEditor  
+# Constructor: channelRoleEditor  
 [Back to constructors index](index.md)
 
 

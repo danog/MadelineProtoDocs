@@ -3,7 +3,7 @@ title: StorageStatisticsByChat
 description: constructors and methods of type StorageStatisticsByChat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: StorageStatisticsByChat  
+# Type: StorageStatisticsByChat  
 [Back to types index](index.md)
 
 

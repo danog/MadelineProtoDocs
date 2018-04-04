@@ -3,7 +3,7 @@ title: inputInlineQueryResultAnimatedGif
 description: Represents link to an animated gif
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputInlineQueryResultAnimatedGif  
+# Constructor: inputInlineQueryResultAnimatedGif  
 [Back to constructors index](index.md)
 
 

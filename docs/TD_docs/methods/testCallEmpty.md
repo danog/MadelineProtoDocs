@@ -3,7 +3,7 @@ title: testCallEmpty
 description: Test request. Does nothing
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: testCallEmpty  
+# Method: testCallEmpty  
 [Back to methods index](index.md)
 
 

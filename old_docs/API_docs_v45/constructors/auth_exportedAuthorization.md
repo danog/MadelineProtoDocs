@@ -3,7 +3,7 @@ title: auth.exportedAuthorization
 description: auth_exportedAuthorization attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: auth.exportedAuthorization  
+# Constructor: auth.exportedAuthorization  
 [Back to constructors index](index.md)
 
 

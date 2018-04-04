@@ -3,7 +3,7 @@ title: inputBotInlineResultDocument
 description: inputBotInlineResultDocument attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputBotInlineResultDocument  
+# Constructor: inputBotInlineResultDocument  
 [Back to constructors index](index.md)
 
 

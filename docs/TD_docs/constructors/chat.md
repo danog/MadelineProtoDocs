@@ -3,7 +3,7 @@ title: chat
 description: Chat (private chat or group chat or channel chat)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: chat  
+# Constructor: chat  
 [Back to constructors index](index.md)
 
 

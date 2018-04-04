@@ -3,7 +3,7 @@ title: updateNewInlineCallbackQuery
 description: Bots only. New incoming callback query from message sent via bot
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateNewInlineCallbackQuery  
+# Constructor: updateNewInlineCallbackQuery  
 [Back to constructors index](index.md)
 
 

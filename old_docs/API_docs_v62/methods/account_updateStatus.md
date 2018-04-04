@@ -3,7 +3,7 @@ title: account.updateStatus
 description: Update online status
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: account.updateStatus  
+# Method: account.updateStatus  
 [Back to methods index](index.md)
 
 

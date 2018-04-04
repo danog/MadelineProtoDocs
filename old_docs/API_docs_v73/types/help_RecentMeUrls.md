@@ -3,7 +3,7 @@ title: help_RecentMeUrls
 description: constructors and methods of type help_RecentMeUrls
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: help\_RecentMeUrls  
+# Type: help\_RecentMeUrls  
 [Back to types index](index.md)
 
 

@@ -3,7 +3,7 @@ title: getUser
 description: Returns information about a user by its identifier, offline request if current user is not a bot
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: getUser  
+# Method: getUser  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: storageStatisticsByChat
 description: Contains storage usage statistics for the specific chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: storageStatisticsByChat  
+# Constructor: storageStatisticsByChat  
 [Back to constructors index](index.md)
 
 

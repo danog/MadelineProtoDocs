@@ -3,7 +3,7 @@ title: MsgsStateInfo
 description: constructors and methods of type MsgsStateInfo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: MsgsStateInfo  
+# Type: MsgsStateInfo  
 [Back to types index](index.md)
 
 

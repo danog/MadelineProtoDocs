@@ -3,7 +3,7 @@ title: dcOption
 description: dcOption attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: dcOption  
+# Constructor: dcOption  
 [Back to constructors index](index.md)
 
 

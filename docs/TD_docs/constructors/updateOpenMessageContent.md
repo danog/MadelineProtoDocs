@@ -3,7 +3,7 @@ title: updateOpenMessageContent
 description: Message content was opened. It makes voice messages listened, video note messages viewed and runs ttl timer
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateOpenMessageContent  
+# Constructor: updateOpenMessageContent  
 [Back to constructors index](index.md)
 
 

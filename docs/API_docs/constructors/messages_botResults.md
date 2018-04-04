@@ -3,7 +3,7 @@ title: messages.botResults
 description: messages_botResults attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messages.botResults  
+# Constructor: messages.botResults  
 [Back to constructors index](index.md)
 
 

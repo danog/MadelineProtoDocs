@@ -3,7 +3,7 @@ title: auth.sentCodeTypeCall
 description: auth_sentCodeTypeCall attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: auth.sentCodeTypeCall  
+# Constructor: auth.sentCodeTypeCall  
 [Back to constructors index](index.md)
 
 

@@ -3,7 +3,7 @@ title: inlineQueryResultContact
 description: Represents user contact
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inlineQueryResultContact  
+# Constructor: inlineQueryResultContact  
 [Back to constructors index](index.md)
 
 

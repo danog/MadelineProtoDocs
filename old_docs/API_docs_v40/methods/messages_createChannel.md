@@ -3,7 +3,7 @@ title: messages.createChannel
 description: Create channel
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.createChannel  
+# Method: messages.createChannel  
 [Back to methods index](index.md)
 
 

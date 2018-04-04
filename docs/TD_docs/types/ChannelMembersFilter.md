@@ -3,7 +3,7 @@ title: ChannelMembersFilter
 description: constructors and methods of type ChannelMembersFilter
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: ChannelMembersFilter  
+# Type: ChannelMembersFilter  
 [Back to types index](index.md)
 
 

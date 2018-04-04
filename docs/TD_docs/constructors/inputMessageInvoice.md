@@ -3,7 +3,7 @@ title: inputMessageInvoice
 description: Message with an invoice, can be used only by bots and in private chats only
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputMessageInvoice  
+# Constructor: inputMessageInvoice  
 [Back to constructors index](index.md)
 
 

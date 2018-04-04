@@ -3,7 +3,7 @@ title: searchPublicChat
 description: Searches public chat by its username. Currently only private and channel chats can be public. Returns chat if found, otherwise some error is returned
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: searchPublicChat  
+# Method: searchPublicChat  
 [Back to methods index](index.md)
 
 

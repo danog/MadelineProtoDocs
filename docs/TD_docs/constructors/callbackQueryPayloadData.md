@@ -3,7 +3,7 @@ title: callbackQueryPayloadData
 description: Payload from a general callback button
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: callbackQueryPayloadData  
+# Constructor: callbackQueryPayloadData  
 [Back to constructors index](index.md)
 
 

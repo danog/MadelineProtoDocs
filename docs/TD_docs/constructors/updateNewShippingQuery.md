@@ -3,7 +3,7 @@ title: updateNewShippingQuery
 description: Bots only. New incoming shipping query. Only for invoices with flexible price
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateNewShippingQuery  
+# Constructor: updateNewShippingQuery  
 [Back to constructors index](index.md)
 
 

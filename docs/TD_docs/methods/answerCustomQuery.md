@@ -3,7 +3,7 @@ title: answerCustomQuery
 description: Bots only. Answers a custom query
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: answerCustomQuery  
+# Method: answerCustomQuery  
 [Back to methods index](index.md)
 
 

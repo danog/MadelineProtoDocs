@@ -3,7 +3,7 @@ title: count
 description: Contains some count
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: count  
+# Constructor: count  
 [Back to constructors index](index.md)
 
 

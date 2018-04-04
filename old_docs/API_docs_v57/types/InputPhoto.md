@@ -3,7 +3,7 @@ title: InputPhoto
 description: constructors and methods of type InputPhoto
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: InputPhoto  
+# Type: InputPhoto  
 [Back to types index](index.md)
 
 

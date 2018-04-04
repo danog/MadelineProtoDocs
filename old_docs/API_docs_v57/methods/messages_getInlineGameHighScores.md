@@ -3,7 +3,7 @@ title: messages.getInlineGameHighScores
 description: Get high scores of a game sent in an inline message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.getInlineGameHighScores  
+# Method: messages.getInlineGameHighScores  
 [Back to methods index](index.md)
 
 

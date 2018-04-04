@@ -3,7 +3,7 @@ title: NewSession
 description: constructors and methods of type NewSession
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: NewSession  
+# Type: NewSession  
 [Back to types index](index.md)
 
 

@@ -3,7 +3,7 @@ title: messageVideo
 description: Video message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messageVideo  
+# Constructor: messageVideo  
 [Back to constructors index](index.md)
 
 

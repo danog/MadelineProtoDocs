@@ -3,7 +3,7 @@ title: InputUser
 description: constructors and methods of type InputUser
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: InputUser  
+# Type: InputUser  
 [Back to types index](index.md)
 
 

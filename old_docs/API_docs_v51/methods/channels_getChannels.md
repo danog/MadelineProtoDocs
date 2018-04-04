@@ -3,7 +3,7 @@ title: channels.getChannels
 description: Get info about multiple channels/supergroups
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: channels.getChannels  
+# Method: channels.getChannels  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: getAccountTtl
 description: Returns period of inactivity, after which the account of currently logged in user will be automatically deleted
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: getAccountTtl  
+# Method: getAccountTtl  
 [Back to methods index](index.md)
 
 

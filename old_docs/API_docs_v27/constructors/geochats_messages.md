@@ -3,7 +3,7 @@ title: geochats.messages
 description: geochats_messages attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: geochats.messages  
+# Constructor: geochats.messages  
 [Back to constructors index](index.md)
 
 

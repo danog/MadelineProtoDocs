@@ -3,7 +3,7 @@ title: UserFull
 description: constructors and methods of type UserFull
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: UserFull  
+# Type: UserFull  
 [Back to types index](index.md)
 
 

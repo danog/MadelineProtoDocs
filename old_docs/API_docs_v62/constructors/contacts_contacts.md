@@ -3,7 +3,7 @@ title: contacts.contacts
 description: contacts_contacts attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: contacts.contacts  
+# Constructor: contacts.contacts  
 [Back to constructors index](index.md)
 
 

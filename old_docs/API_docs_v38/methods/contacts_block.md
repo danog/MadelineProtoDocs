@@ -3,7 +3,7 @@ title: contacts.block
 description: Block a user
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: contacts.block  
+# Method: contacts.block  
 [Back to methods index](index.md)
 
 

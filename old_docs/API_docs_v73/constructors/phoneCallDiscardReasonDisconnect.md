@@ -3,7 +3,7 @@ title: phoneCallDiscardReasonDisconnect
 description: phoneCallDiscardReasonDisconnect attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: phoneCallDiscardReasonDisconnect  
+# Constructor: phoneCallDiscardReasonDisconnect  
 [Back to constructors index](index.md)
 
 

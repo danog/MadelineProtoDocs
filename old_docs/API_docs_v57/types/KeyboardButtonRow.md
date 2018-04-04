@@ -3,7 +3,7 @@ title: KeyboardButtonRow
 description: constructors and methods of type KeyboardButtonRow
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: KeyboardButtonRow  
+# Type: KeyboardButtonRow  
 [Back to types index](index.md)
 
 

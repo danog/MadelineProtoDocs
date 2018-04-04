@@ -3,7 +3,7 @@ title: messages.editMessage
 description: Edit a message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.editMessage  
+# Method: messages.editMessage  
 [Back to methods index](index.md)
 
 

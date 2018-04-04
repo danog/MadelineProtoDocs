@@ -3,7 +3,7 @@ title: updateChatReadOutbox
 description: Some outcoming messages was read
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateChatReadOutbox  
+# Constructor: updateChatReadOutbox  
 [Back to constructors index](index.md)
 
 

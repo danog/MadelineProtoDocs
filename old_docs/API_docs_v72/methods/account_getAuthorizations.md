@@ -3,7 +3,7 @@ title: account.getAuthorizations
 description: Get all logged-in authorizations
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: account.getAuthorizations  
+# Method: account.getAuthorizations  
 [Back to methods index](index.md)
 
 

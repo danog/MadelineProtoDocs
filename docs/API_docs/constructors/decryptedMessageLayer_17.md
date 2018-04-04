@@ -3,7 +3,7 @@ title: decryptedMessageLayer
 description: decryptedMessageLayer attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: decryptedMessageLayer\_17  
+# Constructor: decryptedMessageLayer\_17  
 [Back to constructors index](index.md)
 
 

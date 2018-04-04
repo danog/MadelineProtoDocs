@@ -3,7 +3,7 @@ title: chatInviteLinkInfo
 description: Contains information about chat invite link
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: chatInviteLinkInfo  
+# Constructor: chatInviteLinkInfo  
 [Back to constructors index](index.md)
 
 

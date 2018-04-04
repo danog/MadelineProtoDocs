@@ -3,7 +3,7 @@ title: messageGameScore
 description: New high score was achieved in a game
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messageGameScore  
+# Constructor: messageGameScore  
 [Back to constructors index](index.md)
 
 

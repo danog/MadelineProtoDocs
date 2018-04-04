@@ -3,7 +3,7 @@ title: updateReadChannelOutbox
 description: updateReadChannelOutbox attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateReadChannelOutbox  
+# Constructor: updateReadChannelOutbox  
 [Back to constructors index](index.md)
 
 

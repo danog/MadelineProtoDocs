@@ -3,7 +3,7 @@ title: messageChatAddMembers
 description: Chat members added
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messageChatAddMembers  
+# Constructor: messageChatAddMembers  
 [Back to constructors index](index.md)
 
 

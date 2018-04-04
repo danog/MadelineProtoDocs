@@ -3,7 +3,7 @@ title: updateMessageContent
 description: Message content has changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateMessageContent  
+# Constructor: updateMessageContent  
 [Back to constructors index](index.md)
 
 

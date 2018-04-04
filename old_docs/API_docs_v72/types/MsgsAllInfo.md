@@ -3,7 +3,7 @@ title: MsgsAllInfo
 description: constructors and methods of type MsgsAllInfo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: MsgsAllInfo  
+# Type: MsgsAllInfo  
 [Back to types index](index.md)
 
 

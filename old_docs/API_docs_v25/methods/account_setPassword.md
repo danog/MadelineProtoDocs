@@ -3,7 +3,7 @@ title: account.setPassword
 description: Set 2FA password
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: account.setPassword  
+# Method: account.setPassword  
 [Back to methods index](index.md)
 
 

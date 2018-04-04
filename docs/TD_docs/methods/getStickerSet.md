@@ -3,7 +3,7 @@ title: getStickerSet
 description: Returns information about sticker set by its identifier
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: getStickerSet  
+# Method: getStickerSet  
 [Back to methods index](index.md)
 
 

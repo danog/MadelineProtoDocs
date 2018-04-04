@@ -3,7 +3,7 @@ title: inputMessageGame
 description: Message with a game, can't be used in broadcast channels and secret chats
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputMessageGame  
+# Constructor: inputMessageGame  
 [Back to constructors index](index.md)
 
 

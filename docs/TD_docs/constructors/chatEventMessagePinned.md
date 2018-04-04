@@ -3,7 +3,7 @@ title: chatEventMessagePinned
 description: A message was pinned
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: chatEventMessagePinned  
+# Constructor: chatEventMessagePinned  
 [Back to constructors index](index.md)
 
 

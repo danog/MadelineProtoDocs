@@ -3,7 +3,7 @@ title: messageSticker
 description: Sticker message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messageSticker  
+# Constructor: messageSticker  
 [Back to constructors index](index.md)
 
 

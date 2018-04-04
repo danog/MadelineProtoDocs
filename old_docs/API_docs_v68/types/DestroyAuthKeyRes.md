@@ -3,7 +3,7 @@ title: DestroyAuthKeyRes
 description: constructors and methods of type DestroyAuthKeyRes
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: DestroyAuthKeyRes  
+# Type: DestroyAuthKeyRes  
 [Back to types index](index.md)
 
 

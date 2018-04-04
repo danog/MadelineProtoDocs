@@ -3,7 +3,7 @@ title: messageChatChangePhoto
 description: Chat photo changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messageChatChangePhoto  
+# Constructor: messageChatChangePhoto  
 [Back to constructors index](index.md)
 
 

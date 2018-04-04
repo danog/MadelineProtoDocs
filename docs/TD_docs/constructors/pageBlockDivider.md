@@ -3,7 +3,7 @@ title: pageBlockDivider
 description: An empty block separating parts of a page
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: pageBlockDivider  
+# Constructor: pageBlockDivider  
 [Back to constructors index](index.md)
 
 

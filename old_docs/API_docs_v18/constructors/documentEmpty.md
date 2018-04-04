@@ -3,7 +3,7 @@ title: documentEmpty
 description: documentEmpty attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: documentEmpty  
+# Constructor: documentEmpty  
 [Back to constructors index](index.md)
 
 

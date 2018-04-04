@@ -3,7 +3,7 @@ title: CallProtocol
 description: constructors and methods of type CallProtocol
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: CallProtocol  
+# Type: CallProtocol  
 [Back to types index](index.md)
 
 

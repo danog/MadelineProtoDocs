@@ -3,7 +3,7 @@ title: StorageStatisticsByFileType
 description: constructors and methods of type StorageStatisticsByFileType
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: StorageStatisticsByFileType  
+# Type: StorageStatisticsByFileType  
 [Back to types index](index.md)
 
 

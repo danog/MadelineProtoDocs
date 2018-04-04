@@ -3,7 +3,7 @@ title: phone.saveCallDebug
 description: Save call debugging info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: phone.saveCallDebug  
+# Method: phone.saveCallDebug  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: upload_File
 description: constructors and methods of type upload_File
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: upload\_File  
+# Type: upload\_File  
 [Back to types index](index.md)
 
 

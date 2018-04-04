@@ -3,7 +3,7 @@ title: EncryptedMessage
 description: constructors and methods of type EncryptedMessage
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: EncryptedMessage  
+# Type: EncryptedMessage  
 [Back to types index](index.md)
 
 

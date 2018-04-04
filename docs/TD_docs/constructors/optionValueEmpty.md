@@ -3,7 +3,7 @@ title: optionValueEmpty
 description: Unknown option or option having default value
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: optionValueEmpty  
+# Constructor: optionValueEmpty  
 [Back to constructors index](index.md)
 
 

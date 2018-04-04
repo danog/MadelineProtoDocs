@@ -3,7 +3,7 @@ title: messages_Chats
 description: constructors and methods of type messages_Chats
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: messages\_Chats  
+# Type: messages\_Chats  
 [Back to types index](index.md)
 
 

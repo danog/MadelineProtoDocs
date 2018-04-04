@@ -3,7 +3,7 @@ title: getFilePersistent
 description: Returns information about a file by its persistent id, offline request. May be used to register a URL as a file for further uploading or sending as message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: getFilePersistent  
+# Method: getFilePersistent  
 [Back to methods index](index.md)
 
 

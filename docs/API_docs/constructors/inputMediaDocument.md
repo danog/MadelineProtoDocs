@@ -3,7 +3,7 @@ title: inputMediaDocument
 description: inputMediaDocument attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputMediaDocument  
+# Constructor: inputMediaDocument  
 [Back to constructors index](index.md)
 
 

@@ -3,7 +3,7 @@ title: foundGif
 description: foundGif attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: foundGif  
+# Constructor: foundGif  
 [Back to constructors index](index.md)
 
 

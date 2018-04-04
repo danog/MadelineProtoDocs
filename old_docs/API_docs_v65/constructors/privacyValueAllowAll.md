@@ -3,7 +3,7 @@ title: privacyValueAllowAll
 description: privacyValueAllowAll attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: privacyValueAllowAll  
+# Constructor: privacyValueAllowAll  
 [Back to constructors index](index.md)
 
 

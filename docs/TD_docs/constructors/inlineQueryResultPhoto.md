@@ -3,7 +3,7 @@ title: inlineQueryResultPhoto
 description: Represents a photo cached on the telegram server
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inlineQueryResultPhoto  
+# Constructor: inlineQueryResultPhoto  
 [Back to constructors index](index.md)
 
 

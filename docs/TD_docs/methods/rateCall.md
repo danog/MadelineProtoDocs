@@ -3,7 +3,7 @@ title: rateCall
 description: Sends call rating
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: rateCall  
+# Method: rateCall  
 [Back to methods index](index.md)
 
 

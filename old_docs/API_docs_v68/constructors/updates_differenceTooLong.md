@@ -3,7 +3,7 @@ title: updates.differenceTooLong
 description: updates_differenceTooLong attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updates.differenceTooLong  
+# Constructor: updates.differenceTooLong  
 [Back to constructors index](index.md)
 
 

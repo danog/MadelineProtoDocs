@@ -3,7 +3,7 @@ title: deleteMessagesFromUser
 description: Deletes all messages in the chat sent by the specified user. Works only in supergroup channel chats, needs can_delete_messages administrator privileges
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: deleteMessagesFromUser  
+# Method: deleteMessagesFromUser  
 [Back to methods index](index.md)
 
 

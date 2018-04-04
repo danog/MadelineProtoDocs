@@ -3,7 +3,7 @@ title: channelMembersFilterBanned
 description: Return banned from the channel users, administrators only
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: channelMembersFilterBanned  
+# Constructor: channelMembersFilterBanned  
 [Back to constructors index](index.md)
 
 

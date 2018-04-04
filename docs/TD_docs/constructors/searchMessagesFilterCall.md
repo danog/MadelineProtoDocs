@@ -3,7 +3,7 @@ title: searchMessagesFilterCall
 description: Return only call messages
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: searchMessagesFilterCall  
+# Constructor: searchMessagesFilterCall  
 [Back to constructors index](index.md)
 
 

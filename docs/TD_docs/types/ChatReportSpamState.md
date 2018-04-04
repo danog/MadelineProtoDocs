@@ -3,7 +3,7 @@ title: ChatReportSpamState
 description: constructors and methods of type ChatReportSpamState
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: ChatReportSpamState  
+# Type: ChatReportSpamState  
 [Back to types index](index.md)
 
 

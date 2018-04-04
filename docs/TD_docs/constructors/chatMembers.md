@@ -3,7 +3,7 @@ title: chatMembers
 description: Contains list of chat members
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: chatMembers  
+# Constructor: chatMembers  
 [Back to constructors index](index.md)
 
 

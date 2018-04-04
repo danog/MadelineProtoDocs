@@ -3,7 +3,7 @@ title: photos.photos
 description: photos_photos attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: photos.photos  
+# Constructor: photos.photos  
 [Back to constructors index](index.md)
 
 

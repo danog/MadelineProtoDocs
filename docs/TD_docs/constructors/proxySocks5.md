@@ -3,7 +3,7 @@ title: proxySocks5
 description: A SOCKS5 proxy
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: proxySocks5  
+# Constructor: proxySocks5  
 [Back to constructors index](index.md)
 
 

@@ -3,7 +3,7 @@ title: DecryptedMessage
 description: constructors and methods of type DecryptedMessage
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: DecryptedMessage  
+# Type: DecryptedMessage  
 [Back to types index](index.md)
 
 

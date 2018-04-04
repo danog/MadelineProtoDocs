@@ -3,7 +3,7 @@ title: ChatType
 description: constructors and methods of type ChatType
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: ChatType  
+# Type: ChatType  
 [Back to types index](index.md)
 
 

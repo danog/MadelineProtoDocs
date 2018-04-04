@@ -3,7 +3,7 @@ title: messages.readEncryptedHistory
 description: Mark messages as read in secret chats
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.readEncryptedHistory  
+# Method: messages.readEncryptedHistory  
 [Back to methods index](index.md)
 
 

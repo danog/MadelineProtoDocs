@@ -3,7 +3,7 @@ title: searchMessagesFilterDocument
 description: Return only document messages
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: searchMessagesFilterDocument  
+# Constructor: searchMessagesFilterDocument  
 [Back to constructors index](index.md)
 
 

@@ -3,7 +3,7 @@ title: updateChatAdmins
 description: updateChatAdmins attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateChatAdmins  
+# Constructor: updateChatAdmins  
 [Back to constructors index](index.md)
 
 

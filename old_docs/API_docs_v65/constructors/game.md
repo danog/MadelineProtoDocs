@@ -3,7 +3,7 @@ title: game
 description: game attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: game  
+# Constructor: game  
 [Back to constructors index](index.md)
 
 

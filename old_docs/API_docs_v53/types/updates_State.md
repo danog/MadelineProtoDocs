@@ -3,7 +3,7 @@ title: updates_State
 description: constructors and methods of type updates_State
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: updates\_State  
+# Type: updates\_State  
 [Back to types index](index.md)
 
 

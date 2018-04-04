@@ -3,7 +3,7 @@ title: getGameHighScores
 description: Bots only. Returns game high scores and some part of the score table around of the specified user in the game
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: getGameHighScores  
+# Method: getGameHighScores  
 [Back to methods index](index.md)
 
 

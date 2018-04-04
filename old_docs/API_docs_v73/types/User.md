@@ -3,7 +3,7 @@ title: User
 description: constructors and methods of type User
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: User  
+# Type: User  
 [Back to types index](index.md)
 
 

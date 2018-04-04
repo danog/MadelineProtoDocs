@@ -3,7 +3,7 @@ title: auth.sendSms
 description: Send SMS verification code
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: auth.sendSms  
+# Method: auth.sendSms  
 [Back to methods index](index.md)
 
 

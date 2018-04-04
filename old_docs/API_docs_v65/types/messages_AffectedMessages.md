@@ -3,7 +3,7 @@ title: messages_AffectedMessages
 description: constructors and methods of type messages_AffectedMessages
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: messages\_AffectedMessages  
+# Type: messages\_AffectedMessages  
 [Back to types index](index.md)
 
 

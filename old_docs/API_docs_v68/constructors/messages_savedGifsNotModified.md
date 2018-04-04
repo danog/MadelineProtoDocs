@@ -3,7 +3,7 @@ title: messages.savedGifsNotModified
 description: messages_savedGifsNotModified attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messages.savedGifsNotModified  
+# Constructor: messages.savedGifsNotModified  
 [Back to constructors index](index.md)
 
 

@@ -3,7 +3,7 @@ title: messageEntityItalic
 description: messageEntityItalic attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messageEntityItalic  
+# Constructor: messageEntityItalic  
 [Back to constructors index](index.md)
 
 

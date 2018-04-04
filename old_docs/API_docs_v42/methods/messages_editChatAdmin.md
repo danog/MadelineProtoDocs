@@ -3,7 +3,7 @@ title: messages.editChatAdmin
 description: Edit admin permissions
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.editChatAdmin  
+# Method: messages.editChatAdmin  
 [Back to methods index](index.md)
 
 

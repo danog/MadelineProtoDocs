@@ -3,7 +3,7 @@ title: bots.sendCustomRequest
 description: Send a custom request to the bot API
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: bots.sendCustomRequest  
+# Method: bots.sendCustomRequest  
 [Back to methods index](index.md)
 
 

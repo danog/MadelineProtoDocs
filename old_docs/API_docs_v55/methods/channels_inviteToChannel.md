@@ -3,7 +3,7 @@ title: channels.inviteToChannel
 description: Add users to channel/supergroup
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: channels.inviteToChannel  
+# Method: channels.inviteToChannel  
 [Back to methods index](index.md)
 
 

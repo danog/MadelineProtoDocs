@@ -3,7 +3,7 @@ title: documentAttributeAudio
 description: documentAttributeAudio attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: documentAttributeAudio\_46  
+# Constructor: documentAttributeAudio\_46  
 [Back to constructors index](index.md)
 
 

@@ -3,7 +3,7 @@ title: chat
 description: chat attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: chat  
+# Constructor: chat  
 [Back to constructors index](index.md)
 
 

@@ -3,7 +3,7 @@ title: FoundMessages
 description: constructors and methods of type FoundMessages
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: FoundMessages  
+# Type: FoundMessages  
 [Back to types index](index.md)
 
 

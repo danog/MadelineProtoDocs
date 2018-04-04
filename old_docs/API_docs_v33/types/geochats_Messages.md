@@ -3,7 +3,7 @@ title: geochats_Messages
 description: constructors and methods of type geochats_Messages
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: geochats\_Messages  
+# Type: geochats\_Messages  
 [Back to types index](index.md)
 
 

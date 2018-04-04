@@ -3,7 +3,7 @@ title: account.getTmpPassword
 description: Get temporary password for buying products through bots
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: account.getTmpPassword  
+# Method: account.getTmpPassword  
 [Back to methods index](index.md)
 
 

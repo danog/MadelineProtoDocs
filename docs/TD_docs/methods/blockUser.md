@@ -3,7 +3,7 @@ title: blockUser
 description: Adds user to black list
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: blockUser  
+# Method: blockUser  
 [Back to methods index](index.md)
 
 

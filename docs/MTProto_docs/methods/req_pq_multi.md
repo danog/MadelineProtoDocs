@@ -3,7 +3,7 @@ title: req_pq_multi
 description: Requests PQ for factorization (new version)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: req\_pq\_multi  
+# Method: req\_pq\_multi  
 [Back to methods index](index.md)
 
 

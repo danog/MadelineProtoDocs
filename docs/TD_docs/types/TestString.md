@@ -3,7 +3,7 @@ title: TestString
 description: constructors and methods of type TestString
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: TestString  
+# Type: TestString  
 [Back to types index](index.md)
 
 

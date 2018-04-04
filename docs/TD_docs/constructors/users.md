@@ -3,7 +3,7 @@ title: users
 description: Represents list of users
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: users  
+# Constructor: users  
 [Back to constructors index](index.md)
 
 

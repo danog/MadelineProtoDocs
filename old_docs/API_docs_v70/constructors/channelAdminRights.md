@@ -3,7 +3,7 @@ title: channelAdminRights
 description: channelAdminRights attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: channelAdminRights  
+# Constructor: channelAdminRights  
 [Back to constructors index](index.md)
 
 

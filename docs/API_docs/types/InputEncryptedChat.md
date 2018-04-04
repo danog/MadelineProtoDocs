@@ -3,7 +3,7 @@ title: InputEncryptedChat
 description: constructors and methods of type InputEncryptedChat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: InputEncryptedChat  
+# Type: InputEncryptedChat  
 [Back to types index](index.md)
 
 

@@ -3,7 +3,7 @@ title: voice
 description: Describes voice note. Voice must be encoded with Opus codec and must be stored inside Ogg container
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: voice  
+# Constructor: voice  
 [Back to constructors index](index.md)
 
 

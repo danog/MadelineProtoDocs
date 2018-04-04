@@ -3,7 +3,7 @@ title: updateNewPreCheckoutQuery
 description: Bots only. New incoming pre-checkout query. Contains full information about checkout
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateNewPreCheckoutQuery  
+# Constructor: updateNewPreCheckoutQuery  
 [Back to constructors index](index.md)
 
 

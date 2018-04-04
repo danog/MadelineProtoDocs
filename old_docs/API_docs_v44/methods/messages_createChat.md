@@ -3,7 +3,7 @@ title: messages.createChat
 description: Create a chat (not supergroup)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.createChat  
+# Method: messages.createChat  
 [Back to methods index](index.md)
 
 

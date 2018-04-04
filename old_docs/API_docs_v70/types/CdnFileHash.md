@@ -3,7 +3,7 @@ title: CdnFileHash
 description: constructors and methods of type CdnFileHash
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: CdnFileHash  
+# Type: CdnFileHash  
 [Back to types index](index.md)
 
 

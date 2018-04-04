@@ -3,7 +3,7 @@ title: openChat
 description: Chat is opened by the user. Many useful activities depends on chat being opened or closed. For example, in channels all updates are received only for opened chats
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: openChat  
+# Method: openChat  
 [Back to methods index](index.md)
 
 

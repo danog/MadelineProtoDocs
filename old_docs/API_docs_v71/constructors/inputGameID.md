@@ -3,7 +3,7 @@ title: inputGameID
 description: inputGameID attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputGameID  
+# Constructor: inputGameID  
 [Back to constructors index](index.md)
 
 

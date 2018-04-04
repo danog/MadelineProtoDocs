@@ -3,7 +3,7 @@ title: updateNewInlineQuery
 description: Bots only. New incoming inline query
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateNewInlineQuery  
+# Constructor: updateNewInlineQuery  
 [Back to constructors index](index.md)
 
 

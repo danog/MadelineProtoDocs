@@ -3,7 +3,7 @@ title: searchHashtags
 description: Searches for recently used hashtags by their prefix
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: searchHashtags  
+# Method: searchHashtags  
 [Back to methods index](index.md)
 
 

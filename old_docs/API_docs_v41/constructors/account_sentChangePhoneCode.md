@@ -3,7 +3,7 @@ title: account.sentChangePhoneCode
 description: account_sentChangePhoneCode attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: account.sentChangePhoneCode  
+# Constructor: account.sentChangePhoneCode  
 [Back to constructors index](index.md)
 
 

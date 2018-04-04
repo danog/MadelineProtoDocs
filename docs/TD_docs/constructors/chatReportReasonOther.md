@@ -3,7 +3,7 @@ title: chatReportReasonOther
 description: Other reason provided by the user
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: chatReportReasonOther  
+# Constructor: chatReportReasonOther  
 [Back to constructors index](index.md)
 
 

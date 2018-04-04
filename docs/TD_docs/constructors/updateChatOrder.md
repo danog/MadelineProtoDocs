@@ -3,7 +3,7 @@ title: updateChatOrder
 description: Order of the chat in the chat list has changed. Instead of that update updateChatTopMessage, updateChatIsPinned or updateChatDraftMessage may be sent
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateChatOrder  
+# Constructor: updateChatOrder  
 [Back to constructors index](index.md)
 
 

@@ -3,7 +3,7 @@ title: PopularContact
 description: constructors and methods of type PopularContact
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: PopularContact  
+# Type: PopularContact  
 [Back to types index](index.md)
 
 

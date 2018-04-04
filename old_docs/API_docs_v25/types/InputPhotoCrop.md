@@ -3,7 +3,7 @@ title: InputPhotoCrop
 description: constructors and methods of type InputPhotoCrop
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: InputPhotoCrop  
+# Type: InputPhotoCrop  
 [Back to types index](index.md)
 
 

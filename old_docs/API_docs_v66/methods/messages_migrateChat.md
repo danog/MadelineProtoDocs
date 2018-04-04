@@ -3,7 +3,7 @@ title: messages.migrateChat
 description: Convert chat to supergroup
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.migrateChat  
+# Method: messages.migrateChat  
 [Back to methods index](index.md)
 
 

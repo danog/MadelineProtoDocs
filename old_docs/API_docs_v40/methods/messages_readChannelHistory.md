@@ -3,7 +3,7 @@ title: messages.readChannelHistory
 description: Mark channel/supergroup history as read
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.readChannelHistory  
+# Method: messages.readChannelHistory  
 [Back to methods index](index.md)
 
 

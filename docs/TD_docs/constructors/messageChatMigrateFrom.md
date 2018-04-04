@@ -3,7 +3,7 @@ title: messageChatMigrateFrom
 description: Supergroup channel is created from group chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messageChatMigrateFrom  
+# Constructor: messageChatMigrateFrom  
 [Back to constructors index](index.md)
 
 

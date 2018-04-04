@@ -3,7 +3,7 @@ title: messages.messages
 description: messages_messages attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messages.messages  
+# Constructor: messages.messages  
 [Back to constructors index](index.md)
 
 

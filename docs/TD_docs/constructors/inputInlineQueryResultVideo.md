@@ -3,7 +3,7 @@ title: inputInlineQueryResultVideo
 description: Represents link to a page containing an embedded video player or a video file
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputInlineQueryResultVideo  
+# Constructor: inputInlineQueryResultVideo  
 [Back to constructors index](index.md)
 
 

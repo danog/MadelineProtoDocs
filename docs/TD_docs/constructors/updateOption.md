@@ -3,7 +3,7 @@ title: updateOption
 description: Some option changed its value
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateOption  
+# Constructor: updateOption  
 [Back to constructors index](index.md)
 
 

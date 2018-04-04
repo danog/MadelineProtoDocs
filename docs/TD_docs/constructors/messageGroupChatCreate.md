@@ -3,7 +3,7 @@ title: messageGroupChatCreate
 description: New group chat created
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messageGroupChatCreate  
+# Constructor: messageGroupChatCreate  
 [Back to constructors index](index.md)
 
 

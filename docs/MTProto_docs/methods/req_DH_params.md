@@ -3,7 +3,7 @@ title: req_DH_params
 description: Requests Diffie-hellman parameters for key exchange
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: req\_DH\_params  
+# Method: req\_DH\_params  
 [Back to methods index](index.md)
 
 

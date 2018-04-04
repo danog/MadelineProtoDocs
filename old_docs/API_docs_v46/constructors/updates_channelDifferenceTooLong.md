@@ -3,7 +3,7 @@ title: updates.channelDifferenceTooLong
 description: updates_channelDifferenceTooLong attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updates.channelDifferenceTooLong  
+# Constructor: updates.channelDifferenceTooLong  
 [Back to constructors index](index.md)
 
 

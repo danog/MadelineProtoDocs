@@ -3,7 +3,7 @@ title: textConcat
 description: textConcat attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: textConcat  
+# Constructor: textConcat  
 [Back to constructors index](index.md)
 
 

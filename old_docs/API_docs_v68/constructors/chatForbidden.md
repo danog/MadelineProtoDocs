@@ -3,7 +3,7 @@ title: chatForbidden
 description: chatForbidden attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: chatForbidden  
+# Constructor: chatForbidden  
 [Back to constructors index](index.md)
 
 

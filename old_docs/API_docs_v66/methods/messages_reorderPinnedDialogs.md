@@ -3,7 +3,7 @@ title: messages.reorderPinnedDialogs
 description: Reorder pinned dialogs
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.reorderPinnedDialogs  
+# Method: messages.reorderPinnedDialogs  
 [Back to methods index](index.md)
 
 

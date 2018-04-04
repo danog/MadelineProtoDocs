@@ -3,7 +3,7 @@ title: messageVoice
 description: Voice message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messageVoice  
+# Constructor: messageVoice  
 [Back to constructors index](index.md)
 
 

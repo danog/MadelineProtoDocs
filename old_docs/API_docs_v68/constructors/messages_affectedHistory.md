@@ -3,7 +3,7 @@ title: messages.affectedHistory
 description: messages_affectedHistory attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messages.affectedHistory  
+# Constructor: messages.affectedHistory  
 [Back to constructors index](index.md)
 
 

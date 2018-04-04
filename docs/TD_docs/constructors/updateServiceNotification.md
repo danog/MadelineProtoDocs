@@ -3,7 +3,7 @@ title: updateServiceNotification
 description: Service notification from the server. Upon receiving client should show popup with content of the notification
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateServiceNotification  
+# Constructor: updateServiceNotification  
 [Back to constructors index](index.md)
 
 

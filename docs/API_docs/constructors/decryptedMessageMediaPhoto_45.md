@@ -3,7 +3,7 @@ title: decryptedMessageMediaPhoto
 description: decryptedMessageMediaPhoto attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: decryptedMessageMediaPhoto\_45  
+# Constructor: decryptedMessageMediaPhoto\_45  
 [Back to constructors index](index.md)
 
 

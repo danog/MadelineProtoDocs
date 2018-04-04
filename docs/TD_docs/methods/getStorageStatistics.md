@@ -3,7 +3,7 @@ title: getStorageStatistics
 description: Returns storage usage statistics
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: getStorageStatistics  
+# Method: getStorageStatistics  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: inputUserContact
 description: inputUserContact attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputUserContact  
+# Constructor: inputUserContact  
 [Back to constructors index](index.md)
 
 

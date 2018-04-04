@@ -3,7 +3,7 @@ title: optionValueString
 description: String option
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: optionValueString  
+# Constructor: optionValueString  
 [Back to constructors index](index.md)
 
 

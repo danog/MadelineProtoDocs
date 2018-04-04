@@ -3,7 +3,7 @@ title: initConnection
 description: Initializes connection and save information on the user's device and application.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: initConnection  
+# Method: initConnection  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: messages.sendMessage
 description: Send a message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.sendMessage  
+# Method: messages.sendMessage  
 [Back to methods index](index.md)
 
 

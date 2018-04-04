@@ -3,7 +3,7 @@ title: chatMemberStatusAdministrator
 description: User is a chat member with some additional priviledges. In groups, administrators can edit and delete other messages, add new members and ban unpriviledged members
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: chatMemberStatusAdministrator  
+# Constructor: chatMemberStatusAdministrator  
 [Back to constructors index](index.md)
 
 

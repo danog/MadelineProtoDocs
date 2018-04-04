@@ -3,7 +3,7 @@ title: chatActionTyping
 description: User typing a message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: chatActionTyping  
+# Constructor: chatActionTyping  
 [Back to constructors index](index.md)
 
 

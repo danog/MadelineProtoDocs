@@ -3,7 +3,7 @@ title: shippingOption
 description: One shipping option
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: shippingOption  
+# Constructor: shippingOption  
 [Back to constructors index](index.md)
 
 

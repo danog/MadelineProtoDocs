@@ -3,7 +3,7 @@ title: contacts.unblock
 description: Unblock a user
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: contacts.unblock  
+# Method: contacts.unblock  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: updateUserChatAction
 description: User activity in the chat has changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateUserChatAction  
+# Constructor: updateUserChatAction  
 [Back to constructors index](index.md)
 
 

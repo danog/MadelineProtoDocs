@@ -3,7 +3,7 @@ title: MessageAction
 description: constructors and methods of type MessageAction
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: MessageAction  
+# Type: MessageAction  
 [Back to types index](index.md)
 
 

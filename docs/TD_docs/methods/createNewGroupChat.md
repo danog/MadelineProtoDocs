@@ -3,7 +3,7 @@ title: createNewGroupChat
 description: Creates new group chat and send corresponding messageGroupChatCreate, returns created chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: createNewGroupChat  
+# Method: createNewGroupChat  
 [Back to methods index](index.md)
 
 

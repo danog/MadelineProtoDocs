@@ -3,7 +3,7 @@ title: messages.recentStickersNotModified
 description: messages_recentStickersNotModified attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messages.recentStickersNotModified  
+# Constructor: messages.recentStickersNotModified  
 [Back to constructors index](index.md)
 
 

@@ -3,7 +3,7 @@ title: animation
 description: Describes animation file. Animation should be encoded in gif or mp4 format
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: animation  
+# Constructor: animation  
 [Back to constructors index](index.md)
 
 

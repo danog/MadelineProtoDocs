@@ -3,7 +3,7 @@ title: privacyRuleAllowUsers
 description: Rule to allow specified users
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: privacyRuleAllowUsers  
+# Constructor: privacyRuleAllowUsers  
 [Back to constructors index](index.md)
 
 

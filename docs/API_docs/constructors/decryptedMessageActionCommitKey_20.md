@@ -3,7 +3,7 @@ title: decryptedMessageActionCommitKey
 description: decryptedMessageActionCommitKey attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: decryptedMessageActionCommitKey\_20  
+# Constructor: decryptedMessageActionCommitKey\_20  
 [Back to constructors index](index.md)
 
 

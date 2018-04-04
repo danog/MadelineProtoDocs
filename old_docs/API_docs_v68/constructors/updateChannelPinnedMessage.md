@@ -3,7 +3,7 @@ title: updateChannelPinnedMessage
 description: updateChannelPinnedMessage attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateChannelPinnedMessage  
+# Constructor: updateChannelPinnedMessage  
 [Back to constructors index](index.md)
 
 

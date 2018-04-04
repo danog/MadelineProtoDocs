@@ -3,7 +3,7 @@ title: messages.deleteMessages
 description: Delete messages
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.deleteMessages  
+# Method: messages.deleteMessages  
 [Back to methods index](index.md)
 
 

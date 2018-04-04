@@ -3,7 +3,7 @@ title: testVectorInt
 description: Tests only. A simple object containing just a vector of numbers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: testVectorInt  
+# Constructor: testVectorInt  
 [Back to constructors index](index.md)
 
 

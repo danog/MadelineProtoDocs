@@ -3,7 +3,7 @@ title: account_PrivacyRules
 description: constructors and methods of type account_PrivacyRules
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: account\_PrivacyRules  
+# Type: account\_PrivacyRules  
 [Back to types index](index.md)
 
 

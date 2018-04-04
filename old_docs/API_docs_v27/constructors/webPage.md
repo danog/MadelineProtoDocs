@@ -3,7 +3,7 @@ title: webPage
 description: webPage attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: webPage  
+# Constructor: webPage  
 [Back to constructors index](index.md)
 
 

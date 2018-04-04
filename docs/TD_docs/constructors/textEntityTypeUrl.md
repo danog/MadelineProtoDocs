@@ -3,7 +3,7 @@ title: textEntityTypeUrl
 description: Url beginning with http
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: textEntityTypeUrl  
+# Constructor: textEntityTypeUrl  
 [Back to constructors index](index.md)
 
 

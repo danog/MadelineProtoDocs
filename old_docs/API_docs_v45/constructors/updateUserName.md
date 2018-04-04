@@ -3,7 +3,7 @@ title: updateUserName
 description: updateUserName attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateUserName  
+# Constructor: updateUserName  
 [Back to constructors index](index.md)
 
 

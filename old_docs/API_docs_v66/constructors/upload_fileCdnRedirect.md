@@ -3,7 +3,7 @@ title: upload.fileCdnRedirect
 description: upload_fileCdnRedirect attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: upload.fileCdnRedirect  
+# Constructor: upload.fileCdnRedirect  
 [Back to constructors index](index.md)
 
 

@@ -3,7 +3,7 @@ title: contacts_ForeignLink
 description: constructors and methods of type contacts_ForeignLink
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: contacts\_ForeignLink  
+# Type: contacts\_ForeignLink  
 [Back to types index](index.md)
 
 

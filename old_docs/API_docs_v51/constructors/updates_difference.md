@@ -3,7 +3,7 @@ title: updates.difference
 description: updates_difference attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updates.difference  
+# Constructor: updates.difference  
 [Back to constructors index](index.md)
 
 

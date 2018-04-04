@@ -3,7 +3,7 @@ title: req_pq
 description: Requests PQ for factorization
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: req\_pq  
+# Method: req\_pq  
 [Back to methods index](index.md)
 
 

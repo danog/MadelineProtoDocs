@@ -3,7 +3,7 @@ title: Error
 description: constructors and methods of type Error
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: Error  
+# Type: Error  
 [Back to types index](index.md)
 
 

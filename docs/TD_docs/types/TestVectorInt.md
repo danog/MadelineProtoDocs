@@ -3,7 +3,7 @@ title: TestVectorInt
 description: constructors and methods of type TestVectorInt
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: TestVectorInt  
+# Type: TestVectorInt  
 [Back to types index](index.md)
 
 

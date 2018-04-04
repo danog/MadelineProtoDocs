@@ -3,7 +3,7 @@ title: payments.savedInfo
 description: payments_savedInfo attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: payments.savedInfo  
+# Constructor: payments.savedInfo  
 [Back to constructors index](index.md)
 
 

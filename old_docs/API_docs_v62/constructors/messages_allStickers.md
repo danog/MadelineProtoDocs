@@ -3,7 +3,7 @@ title: messages.allStickers
 description: messages_allStickers attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messages.allStickers  
+# Constructor: messages.allStickers  
 [Back to constructors index](index.md)
 
 

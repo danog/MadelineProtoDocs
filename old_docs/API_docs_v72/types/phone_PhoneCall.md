@@ -3,7 +3,7 @@ title: phone_PhoneCall
 description: constructors and methods of type phone_PhoneCall
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: phone\_PhoneCall  
+# Type: phone\_PhoneCall  
 [Back to types index](index.md)
 
 

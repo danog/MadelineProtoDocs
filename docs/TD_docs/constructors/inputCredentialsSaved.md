@@ -3,7 +3,7 @@ title: inputCredentialsSaved
 description: User chooses previosly saved payment credentials. To use previously saved credentials user should have valid temporary password
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputCredentialsSaved  
+# Constructor: inputCredentialsSaved  
 [Back to constructors index](index.md)
 
 

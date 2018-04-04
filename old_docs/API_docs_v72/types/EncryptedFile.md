@@ -3,7 +3,7 @@ title: EncryptedFile
 description: constructors and methods of type EncryptedFile
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: EncryptedFile  
+# Type: EncryptedFile  
 [Back to types index](index.md)
 
 

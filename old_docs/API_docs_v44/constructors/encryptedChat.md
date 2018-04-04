@@ -3,7 +3,7 @@ title: encryptedChat
 description: encryptedChat attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: encryptedChat  
+# Constructor: encryptedChat  
 [Back to constructors index](index.md)
 
 

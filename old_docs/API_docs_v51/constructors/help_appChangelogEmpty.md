@@ -3,7 +3,7 @@ title: help.appChangelogEmpty
 description: help_appChangelogEmpty attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: help.appChangelogEmpty  
+# Constructor: help.appChangelogEmpty  
 [Back to constructors index](index.md)
 
 

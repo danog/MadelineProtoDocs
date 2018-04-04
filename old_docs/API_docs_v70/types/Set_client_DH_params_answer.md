@@ -3,7 +3,7 @@ title: Set_client_DH_params_answer
 description: constructors and methods of type Set_client_DH_params_answer
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: Set\_client\_DH\_params\_answer  
+# Type: Set\_client\_DH\_params\_answer  
 [Back to types index](index.md)
 
 

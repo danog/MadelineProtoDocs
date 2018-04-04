@@ -3,7 +3,7 @@ title: updateNewGeoChatMessage
 description: updateNewGeoChatMessage attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateNewGeoChatMessage  
+# Constructor: updateNewGeoChatMessage  
 [Back to constructors index](index.md)
 
 

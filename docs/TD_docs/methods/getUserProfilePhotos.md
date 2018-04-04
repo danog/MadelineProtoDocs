@@ -3,7 +3,7 @@ title: getUserProfilePhotos
 description: Returns profile photos of the user. Result of this query may be outdated: some photos may be already deleted
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: getUserProfilePhotos  
+# Method: getUserProfilePhotos  
 [Back to methods index](index.md)
 
 

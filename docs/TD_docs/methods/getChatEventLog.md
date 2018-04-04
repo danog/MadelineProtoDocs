@@ -3,7 +3,7 @@ title: getChatEventLog
 description: Returns list of service actions taken by chat members and administrators in the last 48 hours, available only in channels. Requires administrator rights. Returns result in reverse chronological order, i. e. in order of decreasing event_id
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: getChatEventLog  
+# Method: getChatEventLog  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: RpcError
 description: constructors and methods of type RpcError
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: RpcError  
+# Type: RpcError  
 [Back to types index](index.md)
 
 

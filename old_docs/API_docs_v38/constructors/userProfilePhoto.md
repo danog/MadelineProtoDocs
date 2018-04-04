@@ -3,7 +3,7 @@ title: userProfilePhoto
 description: userProfilePhoto attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: userProfilePhoto  
+# Constructor: userProfilePhoto  
 [Back to constructors index](index.md)
 
 

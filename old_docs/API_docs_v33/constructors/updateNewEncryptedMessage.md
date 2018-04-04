@@ -3,7 +3,7 @@ title: updateNewEncryptedMessage
 description: updateNewEncryptedMessage attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateNewEncryptedMessage  
+# Constructor: updateNewEncryptedMessage  
 [Back to constructors index](index.md)
 
 

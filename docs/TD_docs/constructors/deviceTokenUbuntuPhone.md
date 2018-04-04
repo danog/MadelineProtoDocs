@@ -3,7 +3,7 @@ title: deviceTokenUbuntuPhone
 description: Token for Ubuntu Push Service
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: deviceTokenUbuntuPhone  
+# Constructor: deviceTokenUbuntuPhone  
 [Back to constructors index](index.md)
 
 

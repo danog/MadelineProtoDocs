@@ -3,7 +3,7 @@ title: forwardMessages
 description: Forwards previously sent messages. Returns forwarded messages in the same order as message identifiers passed in message_ids. If message can't be forwarded, null will be returned instead of the message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: forwardMessages  
+# Method: forwardMessages  
 [Back to methods index](index.md)
 
 

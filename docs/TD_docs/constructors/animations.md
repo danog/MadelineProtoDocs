@@ -3,7 +3,7 @@ title: animations
 description: Represents list of animations
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: animations  
+# Constructor: animations  
 [Back to constructors index](index.md)
 
 

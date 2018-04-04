@@ -3,7 +3,7 @@ title: messages.saveDraft
 description: Save a message draft
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.saveDraft  
+# Method: messages.saveDraft  
 [Back to methods index](index.md)
 
 

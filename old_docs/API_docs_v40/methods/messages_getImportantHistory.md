@@ -3,7 +3,7 @@ title: messages.getImportantHistory
 description: Get important message history
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.getImportantHistory  
+# Method: messages.getImportantHistory  
 [Back to methods index](index.md)
 
 

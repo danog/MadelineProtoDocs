@@ -3,7 +3,7 @@ title: textItalic
 description: textItalic attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: textItalic  
+# Constructor: textItalic  
 [Back to constructors index](index.md)
 
 

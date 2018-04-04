@@ -3,7 +3,7 @@ title: callbackQueryPayloadGame
 description: Payload from a game callback button
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: callbackQueryPayloadGame  
+# Constructor: callbackQueryPayloadGame  
 [Back to constructors index](index.md)
 
 

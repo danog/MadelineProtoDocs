@@ -3,7 +3,7 @@ title: InputCredentials
 description: constructors and methods of type InputCredentials
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: InputCredentials  
+# Type: InputCredentials  
 [Back to types index](index.md)
 
 

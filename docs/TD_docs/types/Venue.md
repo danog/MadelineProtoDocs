@@ -3,7 +3,7 @@ title: Venue
 description: constructors and methods of type Venue
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: Venue  
+# Type: Venue  
 [Back to types index](index.md)
 
 

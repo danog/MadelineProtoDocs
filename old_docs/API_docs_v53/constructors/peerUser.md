@@ -3,7 +3,7 @@ title: peerUser
 description: peerUser attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: peerUser  
+# Constructor: peerUser  
 [Back to constructors index](index.md)
 
 

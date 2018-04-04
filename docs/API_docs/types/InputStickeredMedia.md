@@ -3,7 +3,7 @@ title: InputStickeredMedia
 description: constructors and methods of type InputStickeredMedia
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: InputStickeredMedia  
+# Type: InputStickeredMedia  
 [Back to types index](index.md)
 
 

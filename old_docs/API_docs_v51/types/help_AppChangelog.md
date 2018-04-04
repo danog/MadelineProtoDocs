@@ -3,7 +3,7 @@ title: help_AppChangelog
 description: constructors and methods of type help_AppChangelog
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: help\_AppChangelog  
+# Type: help\_AppChangelog  
 [Back to types index](index.md)
 
 

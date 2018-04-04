@@ -3,7 +3,7 @@ title: updateChannel
 description: updateChannel attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateChannel  
+# Constructor: updateChannel  
 [Back to constructors index](index.md)
 
 

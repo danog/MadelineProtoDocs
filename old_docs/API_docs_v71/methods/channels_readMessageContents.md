@@ -3,7 +3,7 @@ title: channels.readMessageContents
 description: Mark channel/supergroup messages as read
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: channels.readMessageContents  
+# Method: channels.readMessageContents  
 [Back to methods index](index.md)
 
 

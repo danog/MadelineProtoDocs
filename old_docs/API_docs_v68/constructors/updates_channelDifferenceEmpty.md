@@ -3,7 +3,7 @@ title: updates.channelDifferenceEmpty
 description: updates_channelDifferenceEmpty attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updates.channelDifferenceEmpty  
+# Constructor: updates.channelDifferenceEmpty  
 [Back to constructors index](index.md)
 
 

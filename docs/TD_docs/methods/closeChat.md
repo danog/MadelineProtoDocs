@@ -3,7 +3,7 @@ title: closeChat
 description: Chat is closed by the user. Many useful activities depends on chat being opened or closed.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: closeChat  
+# Method: closeChat  
 [Back to methods index](index.md)
 
 

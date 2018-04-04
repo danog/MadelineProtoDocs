@@ -3,7 +3,7 @@ title: updates.differenceSlice
 description: updates_differenceSlice attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updates.differenceSlice  
+# Constructor: updates.differenceSlice  
 [Back to constructors index](index.md)
 
 

@@ -3,7 +3,7 @@ title: fileTypeVideoNote
 description: File is a video note
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: fileTypeVideoNote  
+# Constructor: fileTypeVideoNote  
 [Back to constructors index](index.md)
 
 

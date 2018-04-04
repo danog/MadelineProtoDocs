@@ -3,7 +3,7 @@ title: shippingAddress
 description: Describes shipping address
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: shippingAddress  
+# Constructor: shippingAddress  
 [Back to constructors index](index.md)
 
 

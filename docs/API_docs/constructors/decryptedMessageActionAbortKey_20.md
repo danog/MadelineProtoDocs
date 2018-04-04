@@ -3,7 +3,7 @@ title: decryptedMessageActionAbortKey
 description: decryptedMessageActionAbortKey attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: decryptedMessageActionAbortKey\_20  
+# Constructor: decryptedMessageActionAbortKey\_20  
 [Back to constructors index](index.md)
 
 

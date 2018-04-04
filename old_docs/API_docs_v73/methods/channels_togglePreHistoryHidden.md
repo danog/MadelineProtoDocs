@@ -3,7 +3,7 @@ title: channels.togglePreHistoryHidden
 description: Enable or disable hidden history for new channel/supergroup users
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: channels.togglePreHistoryHidden  
+# Method: channels.togglePreHistoryHidden  
 [Back to methods index](index.md)
 
 

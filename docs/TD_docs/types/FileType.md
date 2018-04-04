@@ -3,7 +3,7 @@ title: FileType
 description: constructors and methods of type FileType
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: FileType  
+# Type: FileType  
 [Back to types index](index.md)
 
 

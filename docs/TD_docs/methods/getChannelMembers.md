@@ -3,7 +3,7 @@ title: getChannelMembers
 description: Returns information about channel members or banned users. Can be used only if channel_full->can_get_members == true. Administrator privileges may be additionally needed for some filters
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: getChannelMembers  
+# Method: getChannelMembers  
 [Back to methods index](index.md)
 
 

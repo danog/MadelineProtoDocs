@@ -3,7 +3,7 @@ title: messages_StatedMessages
 description: constructors and methods of type messages_StatedMessages
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: messages\_StatedMessages  
+# Type: messages\_StatedMessages  
 [Back to types index](index.md)
 
 

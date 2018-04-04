@@ -3,7 +3,7 @@ title: inputStickerSetEmpty
 description: inputStickerSetEmpty attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputStickerSetEmpty  
+# Constructor: inputStickerSetEmpty  
 [Back to constructors index](index.md)
 
 

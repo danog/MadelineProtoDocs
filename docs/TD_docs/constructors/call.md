@@ -3,7 +3,7 @@ title: call
 description: Describes a call
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: call  
+# Constructor: call  
 [Back to constructors index](index.md)
 
 

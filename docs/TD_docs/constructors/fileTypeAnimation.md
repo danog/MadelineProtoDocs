@@ -3,7 +3,7 @@ title: fileTypeAnimation
 description: File is an animation
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: fileTypeAnimation  
+# Constructor: fileTypeAnimation  
 [Back to constructors index](index.md)
 
 

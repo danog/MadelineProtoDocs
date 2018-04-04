@@ -3,7 +3,7 @@ title: changeStickerSet
 description: Installs/uninstalls or enables/archives sticker set
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: changeStickerSet  
+# Method: changeStickerSet  
 [Back to methods index](index.md)
 
 

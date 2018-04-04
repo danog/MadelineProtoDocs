@@ -3,7 +3,7 @@ title: setAlarm
 description: Returns Ok after specified amount of the time passed. Can be called before authorization
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: setAlarm  
+# Method: setAlarm  
 [Back to methods index](index.md)
 
 

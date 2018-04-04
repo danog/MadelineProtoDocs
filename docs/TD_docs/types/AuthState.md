@@ -3,7 +3,7 @@ title: AuthState
 description: constructors and methods of type AuthState
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: AuthState  
+# Type: AuthState  
 [Back to types index](index.md)
 
 

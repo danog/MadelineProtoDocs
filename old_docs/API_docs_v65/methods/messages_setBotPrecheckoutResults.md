@@ -3,7 +3,7 @@ title: messages.setBotPrecheckoutResults
 description: Bots only: set precheckout results
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.setBotPrecheckoutResults  
+# Method: messages.setBotPrecheckoutResults  
 [Back to methods index](index.md)
 
 

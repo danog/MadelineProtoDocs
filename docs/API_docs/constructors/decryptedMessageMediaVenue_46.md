@@ -3,7 +3,7 @@ title: decryptedMessageMediaVenue
 description: decryptedMessageMediaVenue attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: decryptedMessageMediaVenue\_46  
+# Constructor: decryptedMessageMediaVenue\_46  
 [Back to constructors index](index.md)
 
 

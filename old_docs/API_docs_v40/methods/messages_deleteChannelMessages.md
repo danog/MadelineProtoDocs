@@ -3,7 +3,7 @@ title: messages.deleteChannelMessages
 description: Delete channel messages
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.deleteChannelMessages  
+# Method: messages.deleteChannelMessages  
 [Back to methods index](index.md)
 
 

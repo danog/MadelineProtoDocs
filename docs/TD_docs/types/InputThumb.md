@@ -3,7 +3,7 @@ title: InputThumb
 description: constructors and methods of type InputThumb
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: InputThumb  
+# Type: InputThumb  
 [Back to types index](index.md)
 
 

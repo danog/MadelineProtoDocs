@@ -3,7 +3,7 @@ title: Call
 description: constructors and methods of type Call
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: Call  
+# Type: Call  
 [Back to types index](index.md)
 
 

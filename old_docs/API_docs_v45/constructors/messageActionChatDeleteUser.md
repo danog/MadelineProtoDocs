@@ -3,7 +3,7 @@ title: messageActionChatDeleteUser
 description: messageActionChatDeleteUser attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messageActionChatDeleteUser  
+# Constructor: messageActionChatDeleteUser  
 [Back to constructors index](index.md)
 
 

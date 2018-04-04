@@ -3,7 +3,7 @@ title: encryptedChatDiscarded
 description: encryptedChatDiscarded attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: encryptedChatDiscarded  
+# Constructor: encryptedChatDiscarded  
 [Back to constructors index](index.md)
 
 

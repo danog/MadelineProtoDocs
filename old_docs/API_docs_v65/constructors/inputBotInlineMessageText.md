@@ -3,7 +3,7 @@ title: inputBotInlineMessageText
 description: inputBotInlineMessageText attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputBotInlineMessageText  
+# Constructor: inputBotInlineMessageText  
 [Back to constructors index](index.md)
 
 

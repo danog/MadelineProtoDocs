@@ -3,7 +3,7 @@ title: uploadStickerFile
 description: Bots only. Uploads a png image with a sticker. Returns uploaded file
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: uploadStickerFile  
+# Method: uploadStickerFile  
 [Back to methods index](index.md)
 
 

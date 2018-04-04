@@ -3,7 +3,7 @@ title: chatEventUsernameChanged
 description: Chat username was changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: chatEventUsernameChanged  
+# Constructor: chatEventUsernameChanged  
 [Back to constructors index](index.md)
 
 

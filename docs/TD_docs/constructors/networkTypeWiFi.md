@@ -3,7 +3,7 @@ title: networkTypeWiFi
 description: Wi-Fi network
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: networkTypeWiFi  
+# Constructor: networkTypeWiFi  
 [Back to constructors index](index.md)
 
 

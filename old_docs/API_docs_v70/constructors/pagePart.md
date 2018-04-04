@@ -3,7 +3,7 @@ title: pagePart
 description: pagePart attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: pagePart  
+# Constructor: pagePart  
 [Back to constructors index](index.md)
 
 

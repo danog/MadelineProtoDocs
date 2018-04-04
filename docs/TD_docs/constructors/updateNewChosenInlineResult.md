@@ -3,7 +3,7 @@ title: updateNewChosenInlineResult
 description: Bots only. User has chosen a result of the inline query
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateNewChosenInlineResult  
+# Constructor: updateNewChosenInlineResult  
 [Back to constructors index](index.md)
 
 

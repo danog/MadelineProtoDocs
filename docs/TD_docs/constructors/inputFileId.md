@@ -3,7 +3,7 @@ title: inputFileId
 description: File defined by its id
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputFileId  
+# Constructor: inputFileId  
 [Back to constructors index](index.md)
 
 

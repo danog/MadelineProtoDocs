@@ -3,7 +3,7 @@ title: ping_delay_disconnect
 description: Pings the server and causes disconection if the same method is not called within ping_disconnect_delay
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: ping\_delay\_disconnect  
+# Method: ping\_delay\_disconnect  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: messages.featuredStickersNotModified
 description: messages_featuredStickersNotModified attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messages.featuredStickersNotModified  
+# Constructor: messages.featuredStickersNotModified  
 [Back to constructors index](index.md)
 
 

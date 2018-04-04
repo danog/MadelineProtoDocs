@@ -3,7 +3,7 @@ title: GameHighScores
 description: constructors and methods of type GameHighScores
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: GameHighScores  
+# Type: GameHighScores  
 [Back to types index](index.md)
 
 

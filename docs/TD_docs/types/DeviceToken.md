@@ -3,7 +3,7 @@ title: DeviceToken
 description: constructors and methods of type DeviceToken
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: DeviceToken  
+# Type: DeviceToken  
 [Back to types index](index.md)
 
 

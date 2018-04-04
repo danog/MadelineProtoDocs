@@ -3,7 +3,7 @@ title: botCommand
 description: botCommand attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: botCommand  
+# Constructor: botCommand  
 [Back to constructors index](index.md)
 
 

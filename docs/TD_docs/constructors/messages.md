@@ -3,7 +3,7 @@ title: messages
 description: Contains list of messages
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messages  
+# Constructor: messages  
 [Back to constructors index](index.md)
 
 

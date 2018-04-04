@@ -3,7 +3,7 @@ title: messages.toggleDialogPin
 description: Pin or unpin dialog
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.toggleDialogPin  
+# Method: messages.toggleDialogPin  
 [Back to methods index](index.md)
 
 

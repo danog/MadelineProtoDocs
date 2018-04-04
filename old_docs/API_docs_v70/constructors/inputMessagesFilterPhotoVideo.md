@@ -3,7 +3,7 @@ title: inputMessagesFilterPhotoVideo
 description: inputMessagesFilterPhotoVideo attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputMessagesFilterPhotoVideo  
+# Constructor: inputMessagesFilterPhotoVideo  
 [Back to constructors index](index.md)
 
 

@@ -3,7 +3,7 @@ title: inputAppEvent
 description: inputAppEvent attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputAppEvent  
+# Constructor: inputAppEvent  
 [Back to constructors index](index.md)
 
 

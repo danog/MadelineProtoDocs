@@ -3,7 +3,7 @@ title: messages.getHistory
 description: Get previous messages of a group
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.getHistory  
+# Method: messages.getHistory  
 [Back to methods index](index.md)
 
 

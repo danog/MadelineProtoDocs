@@ -3,7 +3,7 @@ title: botInlineMessageMediaVenue
 description: botInlineMessageMediaVenue attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: botInlineMessageMediaVenue  
+# Constructor: botInlineMessageMediaVenue  
 [Back to constructors index](index.md)
 
 

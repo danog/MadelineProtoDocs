@@ -3,7 +3,7 @@ title: UserStatus
 description: constructors and methods of type UserStatus
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: UserStatus  
+# Type: UserStatus  
 [Back to types index](index.md)
 
 

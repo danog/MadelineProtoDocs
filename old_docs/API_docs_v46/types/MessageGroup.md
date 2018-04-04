@@ -3,7 +3,7 @@ title: MessageGroup
 description: constructors and methods of type MessageGroup
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: MessageGroup  
+# Type: MessageGroup  
 [Back to types index](index.md)
 
 

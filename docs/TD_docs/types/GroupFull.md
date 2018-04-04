@@ -3,7 +3,7 @@ title: GroupFull
 description: constructors and methods of type GroupFull
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Type: GroupFull  
+# Type: GroupFull  
 [Back to types index](index.md)
 
 

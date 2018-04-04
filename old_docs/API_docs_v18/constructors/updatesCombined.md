@@ -3,7 +3,7 @@ title: updatesCombined
 description: updatesCombined attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updatesCombined  
+# Constructor: updatesCombined  
 [Back to constructors index](index.md)
 
 

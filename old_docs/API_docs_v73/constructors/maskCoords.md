@@ -3,7 +3,7 @@ title: maskCoords
 description: maskCoords attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: maskCoords  
+# Constructor: maskCoords  
 [Back to constructors index](index.md)
 
 

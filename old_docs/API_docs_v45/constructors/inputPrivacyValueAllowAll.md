@@ -3,7 +3,7 @@ title: inputPrivacyValueAllowAll
 description: inputPrivacyValueAllowAll attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: inputPrivacyValueAllowAll  
+# Constructor: inputPrivacyValueAllowAll  
 [Back to constructors index](index.md)
 
 

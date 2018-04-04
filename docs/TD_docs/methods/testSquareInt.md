@@ -3,7 +3,7 @@ title: testSquareInt
 description: Test request. Returns squared received number
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: testSquareInt  
+# Method: testSquareInt  
 [Back to methods index](index.md)
 
 

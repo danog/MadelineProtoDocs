@@ -3,7 +3,7 @@ title: messageContact
 description: User contact message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messageContact  
+# Constructor: messageContact  
 [Back to constructors index](index.md)
 
 

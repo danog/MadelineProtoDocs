@@ -3,7 +3,7 @@ title: reportChannelSpam
 description: Reports some supergroup channel messages from a user as spam messages
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: reportChannelSpam  
+# Method: reportChannelSpam  
 [Back to methods index](index.md)
 
 

@@ -3,7 +3,7 @@ title: updateMessageMentionRead
 description: Message with an unread mention was read
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: updateMessageMentionRead  
+# Constructor: updateMessageMentionRead  
 [Back to constructors index](index.md)
 
 

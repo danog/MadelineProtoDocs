@@ -3,7 +3,7 @@ title: testUseError
 description: Test request. Does nothing, ensures that the Error object is used
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: testUseError  
+# Method: testUseError  
 [Back to methods index](index.md)
 
 

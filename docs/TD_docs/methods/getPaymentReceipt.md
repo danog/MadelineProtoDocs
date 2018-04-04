@@ -3,7 +3,7 @@ title: getPaymentReceipt
 description: Returns information about successful payment
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: getPaymentReceipt  
+# Method: getPaymentReceipt  
 [Back to methods index](index.md)
 
 

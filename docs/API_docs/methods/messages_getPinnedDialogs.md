@@ -3,7 +3,7 @@ title: messages.getPinnedDialogs
 description: Get pinned dialogs
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: messages.getPinnedDialogs  
+# Method: messages.getPinnedDialogs  
 [Back to methods index](index.md)
 
 

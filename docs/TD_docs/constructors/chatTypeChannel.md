@@ -3,7 +3,7 @@ title: chatTypeChannel
 description: Chat with unlimited number of members
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: chatTypeChannel  
+# Constructor: chatTypeChannel  
 [Back to constructors index](index.md)
 
 

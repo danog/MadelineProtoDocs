@@ -3,7 +3,7 @@ title: msgs_all_info
 description: msgs_all_info attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: msgs\_all\_info  
+# Constructor: msgs\_all\_info  
 [Back to constructors index](index.md)
 
 

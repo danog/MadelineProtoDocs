@@ -3,7 +3,7 @@ title: richTextUnderline
 description: Underlined rich text
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: richTextUnderline  
+# Constructor: richTextUnderline  
 [Back to constructors index](index.md)
 
 

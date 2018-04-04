@@ -3,7 +3,7 @@ title: discardCall
 description: Discards a call
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Method: discardCall  
+# Method: discardCall  
 [Back to methods index](index.md)
 
 

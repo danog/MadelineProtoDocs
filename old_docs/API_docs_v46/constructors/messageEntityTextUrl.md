@@ -3,7 +3,7 @@ title: messageEntityTextUrl
 description: messageEntityTextUrl attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: messageEntityTextUrl  
+# Constructor: messageEntityTextUrl  
 [Back to constructors index](index.md)
 
 

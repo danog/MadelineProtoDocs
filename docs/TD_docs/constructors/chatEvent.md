@@ -3,7 +3,7 @@ title: chatEvent
 description: Represents a chat event
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: chatEvent  
+# Constructor: chatEvent  
 [Back to constructors index](index.md)
 
 

@@ -3,7 +3,7 @@ title: replyKeyboardForceReply
 description: replyKeyboardForceReply attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-## Constructor: replyKeyboardForceReply  
+# Constructor: replyKeyboardForceReply  
 [Back to constructors index](index.md)
 
 
