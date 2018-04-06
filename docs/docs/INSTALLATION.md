@@ -6,7 +6,6 @@ There are various ways to install MadelineProto:
 * [Simple (manual)](#simple-manual)
 * [Composer from scratch](#composer-from-scratch)
 * [Composer from existing project](#composer-from-existing-project)
-* [Git](#git)
 
 
 ## Simple
@@ -98,24 +97,5 @@ Then you can require the package by addding the following line to the require se
 ```json
 "danog/madelineproto":"dev-master"
 ```
-
-
-
-## git
-
-Run the following commands in a console:
-
-```bash
-mkdir MadelineProtoBot
-cd MadelineProtoBot
-git init .
-git submodule add https://github.com/danog/MadelineProto
-cd MadelineProto
-composer update
-cp .env.example .env
-cp -a *php tests userbots .env* ..
-```
-
-Now open `.env` and edit its values as needed.
 
 <a href="https://docs.madelineproto.xyz/docs/UPDATES.html">Next section</a>
