@@ -1,4 +1,11 @@
+---
+title: Exceptions
+description: MadelineProto can throw lots of different exceptions.  
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+---
 # Exceptions
+
+MadelineProto can throw lots of different exceptions.  
 
 ```php
 try {
@@ -11,8 +18,6 @@ try {
     }
 }
 ```
-
-MadelineProto can throw lots of different exceptions.  
 
 * [List of exception types](#list-of-exception-types)
 * [Pretty TL trace](#pretty-tl-trace)

@@ -1,3 +1,8 @@
+---
+title: Uploading and downloading files
+description: MadelineProto provides wrapper methods to upload and download files that support bot API file ids.
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+---
 # Uploading and downloading files
 
 MadelineProto provides wrapper methods to upload and download files that support bot API file ids.

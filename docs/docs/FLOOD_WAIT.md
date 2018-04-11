@@ -1,7 +1,11 @@
+---
+title: Avoiding FLOOD_WAITs
+description: If you make too many requests to telegram, you might get FLOOD_WAITed for a while. To avoid these flood waits, you must calculate the flood wait rate.  
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+---
 # Avoiding FLOOD_WAITs
 
-If you make too many requests to telegram, you might get FLOOD_WAITed for a while.  
-To avoid these flood waits, you must calculate the flood wait rate.  
+If you make too many requests to telegram, you might get FLOOD_WAITed for a while. To avoid these flood waits, you must calculate the flood wait rate.  
 
 Calculate it by making N of method calls until you get a FLOOD_WAIT_X   
  

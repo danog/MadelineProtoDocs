@@ -1,11 +1,17 @@
+---
+title: Using methods
+description: There are simplifications for many, if not all of, these methods.
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+---
 # Using methods
-
-A list of all of the methods that can be called with MadelineProto can be found here: [here (layer 75)](https://docs.madelineproto.xyz/API_docs/).
 
 There are simplifications for many, if not all of, these methods.
 
+A list of all of the methods that can be called with MadelineProto can be found here: [here (layer 75)](https://docs.madelineproto.xyz/API_docs/).
+
+* [FULL API Documentation with descriptions](https://docs.madelineproto.xyz/API_docs/methods)
 * [Peers](#peers)
-* [Files](FILES.html)
+* [Files](https://docs.madelineproto.xyz/docs/FILES.html)
 * [Secret chats](#secret-chats)
 * [Entities (Markdown & HTML)](#entities)
 * [reply_markup (keyboards & inline keyboards)](#reply_markup)

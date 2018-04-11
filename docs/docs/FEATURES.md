@@ -1,4 +1,11 @@
+---
+title: Features
+description: MadelineProto can do everything official clients can do, and more!
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+---
 # Features
+
+MadelineProto can do everything official clients can do, and more!
 
 * It allows you to do everything official clients can do, programmatically!
 

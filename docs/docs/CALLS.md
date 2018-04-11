@@ -1,4 +1,12 @@
+---
+title: Calls
+description: MadelineProto provides an easy wrapper to work with phone calls.
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+---
 # Calls
+
+MadelineProto provides an easy wrapper to work with phone calls.
+
 
 ```php
 if (!file_exists('input.raw')) {
@@ -7,8 +15,6 @@ if (!file_exists('input.raw')) {
 }
 $call = $MadelineProto->request_call('@danogentili')->play('input.raw')->then('input.raw')->playOnHold(['input.raw'])->setOutputFile('output.raw');
 ```
-
-MadelineProto provides an easy wrapper to work with phone calls.
 
 The wrapper consists in the `\danog\MadelineProto\VoIP` class, that can be installed by compiling the [php-libtgvoip](https://voip.madelineproto.xyz) extension.
 

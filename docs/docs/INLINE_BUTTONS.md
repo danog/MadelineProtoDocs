@@ -1,3 +1,8 @@
+---
+title: Inline buttons
+description: You can easily click inline buttons using MadelineProto, just access the correct button:
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+---
 # Inline buttons
 
 You can easily click inline buttons using MadelineProto, just access the correct button:

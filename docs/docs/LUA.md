@@ -1,8 +1,14 @@
+---
+title: Lua binding
+description: The lua binding makes use of the Lua php extension.
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+---
 # Lua binding
+
+The lua binding makes use of the Lua php extension.
 
 [Examples](https://github.com/danog/MadelineProto/tree/master/lua)  
 
-The lua binding makes use of the Lua php extension.
 
 When istantiating the `\danog\MadelineProto\Lua` class, the first parameter provided to the constructor must be the path to the lua script, and the second parameter a logged in instance of MadelineProto.
 

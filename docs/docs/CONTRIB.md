@@ -1,3 +1,8 @@
+---
+title: Contributing
+description: You can contribute in various ways.  
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+---
 # Contributing
 
 You can contribute in various ways.  
@@ -78,13 +83,13 @@ Created by [Daniil Gentili](https://daniil.it), licensed under AGPLv3, based on 
 
 While writing this client, I looked at many projects for inspiration and help. Here's the full list:
 
-* [tgl](https://github.com/vysheng/tgl)
+[tgl](https://github.com/vysheng/tgl)
 
-* [Kotlogram](https://github.com/badoualy/kotlogram)
+[Kotlogram](https://github.com/badoualy/kotlogram)
 
-* [Webogram](https://github.com/zhukov/webogram)
+[Webogram](https://github.com/zhukov/webogram)
 
-* [Telethon](https://github.com/LonamiWebs/Telethon/)
+[Telethon](https://github.com/LonamiWebs/Telethon/)
 
 Thanks to the devs that contributed to these projects, MadelineProto is now an easy, well-written and complete MTProto client.  
 

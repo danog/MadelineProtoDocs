@@ -1,3 +1,8 @@
+---
+title: Creating a client
+description: To store information about an account session and avoid re-logging in, serialization must be done.
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+---
 # Creating a client
 
 To store information about an account session and avoid re-logging in, serialization must be done.

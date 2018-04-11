@@ -1,4 +1,11 @@
+---
+title: Settings
+description: MadelineProto has lots of settings that can be used to modify the behaviour of the library.
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+---
 # Settings
+
+MadelineProto has lots of settings that can be used to modify the behaviour of the library.
 
 ```php
 $MadelineProto = new \danog\MadelineProto\API('session.madeline', $settings);

@@ -1,3 +1,8 @@
+---
+title: Secret chats
+description: MadelineProto provides wrappers to work with secret chats.
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+---
 # Secret chats
 
 MadelineProto provides wrappers to work with secret chats.

@@ -1,3 +1,8 @@
+---
+title: Handling updates
+description: Update handling can be done in different ways: 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+---
 # Handling updates
 
 Update handling can be done in different ways: 
