@@ -7,15 +7,57 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 You can use a proxy with MadelineProto.
 
-There are two ways to do this: either buy a pre-made Socks5 or HTTP proxy for 10$, or build your own proxy.
+There are three ways to do this:
+
+* [Use pre-built Socks5 proxy](#socks5-proxy)
+* [Use pre-built HTTP proxy](#http-proxy)
+* [Build your own proxy](#build-your-proxy)
 
 
-## Buying a proxy class
+## Socks5 proxy
 
-Just send 10$ to paypal.me/danog, specifying the the proxy you wish to receive and your telegram username.
+No password:
+
+```
+$settings['connection_settings']['all']['proxy'] = '\SocksProxy';
+$settings['connection_settings']['all']['proxy_extra'] = ['address' => $proxy_address, 'port' => $proxy_port];
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline', $settings);
+```
 
 
-## Building a proxy class
+With password:
+
+```
+$settings['connection_settings']['all']['proxy'] = '\SocksProxy';
+$settings['connection_settings']['all']['proxy_extra'] = ['address' => $proxy_address, 'port' => $proxy_port, 'username' => 'user', 'password' => 'afnjasf'];
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline', $settings);
+```
+
+## HTTP proxy
+
+No password:
+
+```
+$settings['connection_settings']['all']['proxy'] = '\HttpProxy';
+$settings['connection_settings']['all']['proxy_extra'] = ['address' => $proxy_address, 'port' => $proxy_port];
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline', $settings);
+```
+
+
+With password:
+
+```
+$settings['connection_settings']['all']['proxy'] = '\HttpProxy';
+$settings['connection_settings']['all']['proxy_extra'] = ['address' => $proxy_address, 'port' => $proxy_port, 'username' => 'user', 'password' => 'afnjasf'];
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline', $settings);
+```
+
+
+## Build your proxy
 
 ```php
 class MyProxy implements \danog\MadelineProto\Proxy
