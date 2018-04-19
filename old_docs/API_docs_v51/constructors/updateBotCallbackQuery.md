@@ -32,7 +32,7 @@ $updateBotCallbackQuery = ['_' => 'updateBotCallbackQuery', 'query_id' => long, 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "updateBotCallbackQuery", "query_id": long, "user_id": int, "peer": Peer, "msg_id": int, "data": "bytes"}
+{"_": "updateBotCallbackQuery", "query_id": long, "user_id": int, "peer": Peer, "msg_id": int, "data": {"_": "bytes", "bytes":"base64 encoded bytes"}}
 ```
 
 

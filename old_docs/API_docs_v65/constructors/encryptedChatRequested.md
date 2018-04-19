@@ -33,7 +33,7 @@ $encryptedChatRequested = ['_' => 'encryptedChatRequested', 'id' => int, 'access
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "encryptedChatRequested", "id": int, "access_hash": long, "date": int, "admin_id": int, "participant_id": int, "g_a": "bytes"}
+{"_": "encryptedChatRequested", "id": int, "access_hash": long, "date": int, "admin_id": int, "participant_id": int, "g_a": {"_": "bytes", "bytes":"base64 encoded bytes"}}
 ```
 
 

@@ -28,7 +28,7 @@ $gzip_packed = ['_' => 'gzip_packed', 'packed_data' => 'bytes'];
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "gzip_packed", "packed_data": "bytes"}
+{"_": "gzip_packed", "packed_data": {"_": "bytes", "bytes":"base64 encoded bytes"}}
 ```
 
 

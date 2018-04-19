@@ -33,7 +33,7 @@ $server_DH_inner_data = ['_' => 'server_DH_inner_data', 'nonce' => int128, 'serv
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "server_DH_inner_data", "nonce": int128, "server_nonce": int128, "g": int, "dh_prime": "bytes", "g_a": "bytes", "server_time": int}
+{"_": "server_DH_inner_data", "nonce": int128, "server_nonce": int128, "g": int, "dh_prime": {"_": "bytes", "bytes":"base64 encoded bytes"}, "g_a": {"_": "bytes", "bytes":"base64 encoded bytes"}, "server_time": int}
 ```
 
 

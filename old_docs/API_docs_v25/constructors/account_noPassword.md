@@ -28,7 +28,7 @@ $account_noPassword = ['_' => 'account.noPassword', 'new_salt' => 'bytes'];
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "account.noPassword", "new_salt": "bytes"}
+{"_": "account.noPassword", "new_salt": {"_": "bytes", "bytes":"base64 encoded bytes"}}
 ```
 
 

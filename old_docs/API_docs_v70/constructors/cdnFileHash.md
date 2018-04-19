@@ -30,7 +30,7 @@ $cdnFileHash = ['_' => 'cdnFileHash', 'offset' => int, 'limit' => int, 'hash' =>
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "cdnFileHash", "offset": int, "limit": int, "hash": "bytes"}
+{"_": "cdnFileHash", "offset": int, "limit": int, "hash": {"_": "bytes", "bytes":"base64 encoded bytes"}}
 ```
 
 

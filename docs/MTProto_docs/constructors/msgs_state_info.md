@@ -29,7 +29,7 @@ $msgs_state_info = ['_' => 'msgs_state_info', 'req_msg_id' => long, 'info' => 'b
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "msgs_state_info", "req_msg_id": long, "info": "bytes"}
+{"_": "msgs_state_info", "req_msg_id": long, "info": {"_": "bytes", "bytes":"base64 encoded bytes"}}
 ```
 
 

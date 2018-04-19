@@ -29,7 +29,7 @@ $account_tmpPassword = ['_' => 'account.tmpPassword', 'tmp_password' => 'bytes',
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "account.tmpPassword", "tmp_password": "bytes", "valid_until": int}
+{"_": "account.tmpPassword", "tmp_password": {"_": "bytes", "bytes":"base64 encoded bytes"}, "valid_until": int}
 ```
 
 

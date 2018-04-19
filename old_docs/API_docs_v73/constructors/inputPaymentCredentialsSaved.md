@@ -29,7 +29,7 @@ $inputPaymentCredentialsSaved = ['_' => 'inputPaymentCredentialsSaved', 'id' => 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "inputPaymentCredentialsSaved", "id": "string", "tmp_password": "bytes"}
+{"_": "inputPaymentCredentialsSaved", "id": "string", "tmp_password": {"_": "bytes", "bytes":"base64 encoded bytes"}}
 ```
 
 

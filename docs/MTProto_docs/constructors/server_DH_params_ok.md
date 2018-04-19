@@ -30,7 +30,7 @@ $server_DH_params_ok = ['_' => 'server_DH_params_ok', 'nonce' => int128, 'server
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "server_DH_params_ok", "nonce": int128, "server_nonce": int128, "encrypted_answer": "bytes"}
+{"_": "server_DH_params_ok", "nonce": int128, "server_nonce": int128, "encrypted_answer": {"_": "bytes", "bytes":"base64 encoded bytes"}}
 ```
 
 

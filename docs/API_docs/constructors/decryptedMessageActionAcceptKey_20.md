@@ -30,7 +30,7 @@ $decryptedMessageActionAcceptKey_20 = ['_' => 'decryptedMessageActionAcceptKey',
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "decryptedMessageActionAcceptKey", "exchange_id": long, "g_b": "bytes", "key_fingerprint": long}
+{"_": "decryptedMessageActionAcceptKey", "exchange_id": long, "g_b": {"_": "bytes", "bytes":"base64 encoded bytes"}, "key_fingerprint": long}
 ```
 
 

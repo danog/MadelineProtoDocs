@@ -33,7 +33,7 @@ $messageActionPaymentSentMe = ['_' => 'messageActionPaymentSentMe', 'currency' =
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "messageActionPaymentSentMe", "currency": "string", "total_amount": long, "payload": "bytes", "info": PaymentRequestedInfo, "shipping_option_id": "string", "charge": PaymentCharge}
+{"_": "messageActionPaymentSentMe", "currency": "string", "total_amount": long, "payload": {"_": "bytes", "bytes":"base64 encoded bytes"}, "info": PaymentRequestedInfo, "shipping_option_id": "string", "charge": PaymentCharge}
 ```
 
 

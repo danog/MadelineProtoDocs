@@ -31,7 +31,7 @@ $updateInlineBotCallbackQuery = ['_' => 'updateInlineBotCallbackQuery', 'query_i
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "updateInlineBotCallbackQuery", "query_id": long, "user_id": int, "msg_id": InputBotInlineMessageID, "data": "bytes"}
+{"_": "updateInlineBotCallbackQuery", "query_id": long, "user_id": int, "msg_id": InputBotInlineMessageID, "data": {"_": "bytes", "bytes":"base64 encoded bytes"}}
 ```
 
 

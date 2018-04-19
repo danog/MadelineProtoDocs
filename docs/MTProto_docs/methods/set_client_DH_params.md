@@ -47,7 +47,7 @@ POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
 Parameters:
 
 * method - set_client_DH_params
-* params - `{"nonce": int128, "server_nonce": int128, "encrypted_data": "bytes", }`
+* params - `{"nonce": int128, "server_nonce": int128, "encrypted_data": {"_": "bytes", "bytes":"base64 encoded bytes"}, }`
 
 
 

@@ -29,7 +29,7 @@ $auth_exportedAuthorization = ['_' => 'auth.exportedAuthorization', 'id' => int,
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "auth.exportedAuthorization", "id": int, "bytes": "bytes"}
+{"_": "auth.exportedAuthorization", "id": int, "bytes": {"_": "bytes", "bytes":"base64 encoded bytes"}}
 ```
 
 

@@ -32,7 +32,7 @@ $upload_webFile = ['_' => 'upload.webFile', 'size' => int, 'mime_type' => 'strin
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "upload.webFile", "size": int, "mime_type": "string", "file_type": storage_FileType, "mtime": int, "bytes": "bytes"}
+{"_": "upload.webFile", "size": int, "mime_type": "string", "file_type": storage_FileType, "mtime": int, "bytes": {"_": "bytes", "bytes":"base64 encoded bytes"}}
 ```
 
 

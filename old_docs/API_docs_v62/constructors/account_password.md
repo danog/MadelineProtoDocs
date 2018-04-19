@@ -32,7 +32,7 @@ $account_password = ['_' => 'account.password', 'current_salt' => 'bytes', 'new_
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "account.password", "current_salt": "bytes", "new_salt": "bytes", "hint": "string", "has_recovery": Bool, "email_unconfirmed_pattern": "string"}
+{"_": "account.password", "current_salt": {"_": "bytes", "bytes":"base64 encoded bytes"}, "new_salt": {"_": "bytes", "bytes":"base64 encoded bytes"}, "hint": "string", "has_recovery": Bool, "email_unconfirmed_pattern": "string"}
 ```
 
 

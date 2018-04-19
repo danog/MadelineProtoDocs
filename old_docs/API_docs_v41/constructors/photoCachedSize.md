@@ -32,7 +32,7 @@ $photoCachedSize = ['_' => 'photoCachedSize', 'type' => 'string', 'location' => 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "photoCachedSize", "type": "string", "location": FileLocation, "w": int, "h": int, "bytes": "bytes"}
+{"_": "photoCachedSize", "type": "string", "location": FileLocation, "w": int, "h": int, "bytes": {"_": "bytes", "bytes":"base64 encoded bytes"}}
 ```
 
 

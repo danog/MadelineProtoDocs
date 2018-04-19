@@ -47,7 +47,7 @@ POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
 Parameters:
 
 * method - messages.getDocumentByHash
-* params - `{"sha256": "bytes", "size": int, "mime_type": "string", }`
+* params - `{"sha256": {"_": "bytes", "bytes":"base64 encoded bytes"}, "size": int, "mime_type": "string", }`
 
 
 

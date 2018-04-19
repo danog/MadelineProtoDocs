@@ -50,7 +50,7 @@ POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
 Parameters:
 
 * method - req_DH_params
-* params - `{"nonce": int128, "server_nonce": int128, "p": "bytes", "q": "bytes", "public_key_fingerprint": long, "encrypted_data": "bytes", }`
+* params - `{"nonce": int128, "server_nonce": int128, "p": {"_": "bytes", "bytes":"base64 encoded bytes"}, "q": {"_": "bytes", "bytes":"base64 encoded bytes"}, "public_key_fingerprint": long, "encrypted_data": {"_": "bytes", "bytes":"base64 encoded bytes"}, }`
 
 
 

@@ -31,7 +31,7 @@ $updateBotShippingQuery = ['_' => 'updateBotShippingQuery', 'query_id' => long, 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "updateBotShippingQuery", "query_id": long, "user_id": int, "payload": "bytes", "shipping_address": PostAddress}
+{"_": "updateBotShippingQuery", "query_id": long, "user_id": int, "payload": {"_": "bytes", "bytes":"base64 encoded bytes"}, "shipping_address": PostAddress}
 ```
 
 

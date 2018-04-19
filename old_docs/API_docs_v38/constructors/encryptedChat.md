@@ -34,7 +34,7 @@ $encryptedChat = ['_' => 'encryptedChat', 'id' => int, 'access_hash' => long, 'd
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "encryptedChat", "id": int, "access_hash": long, "date": int, "admin_id": int, "participant_id": int, "g_a_or_b": "bytes", "key_fingerprint": long}
+{"_": "encryptedChat", "id": int, "access_hash": long, "date": int, "admin_id": int, "participant_id": int, "g_a_or_b": {"_": "bytes", "bytes":"base64 encoded bytes"}, "key_fingerprint": long}
 ```
 
 

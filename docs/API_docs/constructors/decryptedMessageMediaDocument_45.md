@@ -34,7 +34,7 @@ $decryptedMessageMediaDocument_45 = ['_' => 'decryptedMessageMediaDocument', 'th
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "decryptedMessageMediaDocument", "thumb": "bytes", "thumb_w": int, "thumb_h": int, "mime_type": "string", "size": int, "attributes": [DocumentAttribute], "caption": "string"}
+{"_": "decryptedMessageMediaDocument", "thumb": {"_": "bytes", "bytes":"base64 encoded bytes"}, "thumb_w": int, "thumb_h": int, "mime_type": "string", "size": int, "attributes": [DocumentAttribute], "caption": "string"}
 ```
 
 

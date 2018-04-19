@@ -34,7 +34,7 @@ $p_q_inner_data_temp = ['_' => 'p_q_inner_data_temp', 'pq' => 'bytes', 'p' => 'b
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "p_q_inner_data_temp", "pq": "bytes", "p": "bytes", "q": "bytes", "nonce": int128, "server_nonce": int128, "new_nonce": int256, "expires_in": int}
+{"_": "p_q_inner_data_temp", "pq": {"_": "bytes", "bytes":"base64 encoded bytes"}, "p": {"_": "bytes", "bytes":"base64 encoded bytes"}, "q": {"_": "bytes", "bytes":"base64 encoded bytes"}, "nonce": int128, "server_nonce": int128, "new_nonce": int256, "expires_in": int}
 ```
 
 

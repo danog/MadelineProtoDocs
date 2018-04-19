@@ -28,7 +28,7 @@ $upload_cdnFileReuploadNeeded = ['_' => 'upload.cdnFileReuploadNeeded', 'request
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "upload.cdnFileReuploadNeeded", "request_token": "bytes"}
+{"_": "upload.cdnFileReuploadNeeded", "request_token": {"_": "bytes", "bytes":"base64 encoded bytes"}}
 ```
 
 

@@ -29,7 +29,7 @@ $msgs_all_info = ['_' => 'msgs_all_info', 'msg_ids' => [long, long], 'info' => '
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "msgs_all_info", "msg_ids": [long], "info": "bytes"}
+{"_": "msgs_all_info", "msg_ids": [long], "info": {"_": "bytes", "bytes":"base64 encoded bytes"}}
 ```
 
 

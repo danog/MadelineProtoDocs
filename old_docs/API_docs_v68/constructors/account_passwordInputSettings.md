@@ -33,7 +33,7 @@ $account_passwordInputSettings = ['_' => 'account.passwordInputSettings', 'new_s
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "account.passwordInputSettings", "new_salt": "bytes", "new_password_hash": "bytes", "hint": "string", "email": "string"}
+{"_": "account.passwordInputSettings", "new_salt": {"_": "bytes", "bytes":"base64 encoded bytes"}, "new_password_hash": {"_": "bytes", "bytes":"base64 encoded bytes"}, "hint": "string", "email": "string"}
 ```
 
 
