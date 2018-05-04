@@ -70,6 +70,7 @@ Vector_of_User = users.getUsers({id={InputUser}, })
 
 | Error    | Description   |
 |----------|---------------|
+|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
 |SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
 |MEMBER_NO_LOCATION|An internal failure occurred while fetching user info (couldn't find location)|
 |NEED_MEMBER_INVALID|The provided member is invalid|

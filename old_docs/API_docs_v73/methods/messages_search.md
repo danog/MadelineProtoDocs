@@ -19,7 +19,7 @@ Search peers or messages
 |filter|[MessagesFilter](../types/MessagesFilter.md) | Yes|Message filter|
 |min\_date|[int](../types/int.md) | Yes|Minumum date of results to fetch|
 |max\_date|[int](../types/int.md) | Yes|Maximum date of results to fetch|
-|offset\_id|[int](../types/int.md) | Yes|Offset |
+|offset\_id|[int](../types/int.md) | Yes|Message ID offset|
 |add\_offset|[int](../types/int.md) | Yes|Additional offset, can be 0|
 |limit|[int](../types/int.md) | Yes|Number of results to return|
 |max\_id|[int](../types/int.md) | Yes|Maximum message id to return|
