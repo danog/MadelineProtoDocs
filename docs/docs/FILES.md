@@ -385,7 +385,7 @@ $output_file_name = $MadelineProto->download_to_file(
 );
 ```
 
-This will send the file `video.mp4` to [@danogentili](https://t.me/danogentili): while uploading, he will receive progress messages `Upload progress: 24%` until the upload is complete; while uploading, he will receive progress messages `Download progress: 34%` until the download is complete.
+This will send the file `video.mp4` to [@danogentili](https://t.me/danogentili): while uploading, he will receive progress messages `Upload progress: 24%` until the upload is complete; while downloading, he will receive progress messages `Download progress: 34%` until the download is complete.
 
 A FileCallback object can be provided to `uploadMedia`, `sendMedia`, `uploadProfilePicture`, `upload`, `upload_encrypted`, `download_to_*`: the first parameter to its constructor must be the file path/object that is usually accepted by the function, the second must be a callable function or object.
 
