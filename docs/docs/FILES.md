@@ -375,13 +375,13 @@ $sentMessage = $MadelineProto->messages->sendMedia([
 ]);
 
 $output_file_name = $MadelineProto->download_to_file(
+    $sentMessage,
     new \danog\MadelineProto\FileCallback(
-        $sentMessage,
+        '/tmp/myname.mp4'
         function ($progress) use ($MadelineProto, $peer) {
             $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => 'Download progress: '.$progress.'%']);
         }
     ),
-    '/tmp/myname.mp4'
 );
 ```
 
@@ -426,8 +426,8 @@ $sentMessage = $MadelineProto->messages->sendMedia([
 ]);
 
 $output_file_name = $MadelineProto->download_to_file(
-    new MyCallback($sentMessage, $peer, $MadelineProto),
-    '/tmp/myname.mp4'
+    $sentMessage,
+    new MyCallback('/tmp/myname.mp4', $peer, $MadelineProto)
 );
 ```
 
