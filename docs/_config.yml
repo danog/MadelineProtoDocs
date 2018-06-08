@@ -2,3 +2,13 @@ theme: jekyll-theme-cayman
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
+url: https://docs.madelineproto.xyz
+logo: https://docs.madelineproto.xyz/logo.png
+
+twitter:
+  username: DaniilGentili
+  card: summary
+  
+author:
+  twitter: DaniilGentili
+  
