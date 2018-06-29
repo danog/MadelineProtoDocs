@@ -208,6 +208,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages_getPeerDialogs.html" name="messages_getPeerDialogs">Get dialog info of peers: messages.getPeerDialogs</a>  
 
+* <a href="messages_getDialogUnreadMarks.html" name="messages_getDialogUnreadMarks">Get dialogs marked as unread manually: messages.getDialogUnreadMarks</a>  
+
 * <a href="messages_getDocumentByHash.html" name="messages_getDocumentByHash">Get document by SHA256 hash: messages.getDocumentByHash</a>  
 
 * <a href="messages_getFavedStickers.html" name="messages_getFavedStickers">Get favorite stickers: messages.getFavedStickers</a>  
@@ -350,6 +352,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels_readMessageContents.html" name="channels_readMessageContents">Mark channel/supergroup messages as read: channels.readMessageContents</a>  
 
+* <a href="messages_markDialogUnread.html" name="messages_markDialogUnread">Mark dialog as unread : messages.markDialogUnread</a>  
+
 * <a href="messages_readMentions.html" name="messages_readMentions">Mark mentions as read: messages.readMentions</a>  
 
 * <a href="messages_readMessageContents.html" name="messages_readMessageContents">Mark message as read: messages.readMessageContents</a>  
@@ -469,6 +473,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="account_unregisterDevice.html" name="account_unregisterDevice">Stop sending PUSH notifications to app: account.unregisterDevice</a>  
 
 * <a href="channels_toggleSignatures.html" name="channels_toggleSignatures">Toggle channel signatures: channels.toggleSignatures</a>  
+
+* <a href="contacts_toggleTopPeers.html" name="contacts_toggleTopPeers">Toggle top peers: contacts.toggleTopPeers</a>  
 
 * <a href="contacts_unblock.html" name="contacts_unblock">Unblock a user: contacts.unblock</a>  
 

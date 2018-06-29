@@ -8,6 +8,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+### Attributes:
+
+| Name     |    Type       | Required |
+|----------|---------------|----------|
+|date|[int](../types/int.md) | Optional|
 
 
 
@@ -17,13 +22,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$draftMessageEmpty = ['_' => 'draftMessageEmpty'];
+$draftMessageEmpty = ['_' => 'draftMessageEmpty', 'date' => int];
 ```  
 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "draftMessageEmpty"}
+{"_": "draftMessageEmpty", "date": int}
 ```
 
 
@@ -31,7 +36,7 @@ Or, if you're into Lua:
 
 
 ```
-draftMessageEmpty={_='draftMessageEmpty'}
+draftMessageEmpty={_='draftMessageEmpty', date=int}
 
 ```
 

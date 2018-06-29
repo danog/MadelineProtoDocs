@@ -15,6 +15,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |phone\_number|[string](../types/string.md) | Yes|
 |first\_name|[string](../types/string.md) | Yes|
 |last\_name|[string](../types/string.md) | Yes|
+|vcard|[string](../types/string.md) | Yes|
 
 
 
@@ -24,13 +25,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$inputMediaContact = ['_' => 'inputMediaContact', 'phone_number' => 'string', 'first_name' => 'string', 'last_name' => 'string'];
+$inputMediaContact = ['_' => 'inputMediaContact', 'phone_number' => 'string', 'first_name' => 'string', 'last_name' => 'string', 'vcard' => 'string'];
 ```  
 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "inputMediaContact", "phone_number": "string", "first_name": "string", "last_name": "string"}
+{"_": "inputMediaContact", "phone_number": "string", "first_name": "string", "last_name": "string", "vcard": "string"}
 ```
 
 
@@ -38,7 +39,7 @@ Or, if you're into Lua:
 
 
 ```
-inputMediaContact={_='inputMediaContact', phone_number='string', first_name='string', last_name='string'}
+inputMediaContact={_='inputMediaContact', phone_number='string', first_name='string', last_name='string', vcard='string'}
 
 ```
 

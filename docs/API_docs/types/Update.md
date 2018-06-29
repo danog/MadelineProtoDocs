@@ -144,6 +144,8 @@ Contains notifications about data changes
 
 [updateChannelAvailableMessages](../constructors/updateChannelAvailableMessages.md)  
 
+[updateDialogUnreadMark](../constructors/updateDialogUnreadMark.md)  
+
 
 
 ### Methods that return an object of this type (methods):

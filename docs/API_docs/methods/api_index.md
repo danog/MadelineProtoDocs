@@ -258,6 +258,8 @@ $MadelineProto->[contacts->resolveUsername](contacts_resolveUsername.md)(\['user
 
 $MadelineProto->[contacts->search](contacts_search.md)(\['q' => [string](../types/string.md), 'limit' => [int](../types/int.md), \]) === [$contacts\_Found](../types/contacts_Found.md)<a name="contacts_search"></a>  
 
+$MadelineProto->[contacts->toggleTopPeers](contacts_toggleTopPeers.md)(\['enabled' => [Bool](../types/Bool.md), \]) === [$Bool](../types/Bool.md)<a name="contacts_toggleTopPeers"></a>  
+
 $MadelineProto->[contacts->unblock](contacts_unblock.md)(\['id' => [InputUser](../types/InputUser.md), \]) === [$Bool](../types/Bool.md)<a name="contacts_unblock"></a>  
 
 ***
@@ -382,7 +384,9 @@ $MadelineProto->[messages->getCommonChats](messages_getCommonChats.md)(\['user_i
 
 $MadelineProto->[messages->getDhConfig](messages_getDhConfig.md)(\['version' => [int](../types/int.md), 'random_length' => [int](../types/int.md), \]) === [$messages\_DhConfig](../types/messages_DhConfig.md)<a name="messages_getDhConfig"></a>  
 
-$MadelineProto->[messages->getDialogs](messages_getDialogs.md)(\['exclude_pinned' => [Bool](../types/Bool.md), 'offset_date' => [int](../types/int.md), 'offset_id' => [int](../types/int.md), 'offset_peer' => [InputPeer](../types/InputPeer.md), 'limit' => [int](../types/int.md), \]) === [$messages\_Dialogs](../types/messages_Dialogs.md)<a name="messages_getDialogs"></a>  
+$MadelineProto->[messages->getDialogUnreadMarks](messages_getDialogUnreadMarks.md)(\[\]) === [$Vector\_of\_DialogPeer](../types/DialogPeer.md)<a name="messages_getDialogUnreadMarks"></a>  
+
+$MadelineProto->[messages->getDialogs](messages_getDialogs.md)(\['exclude_pinned' => [Bool](../types/Bool.md), 'offset_date' => [int](../types/int.md), 'offset_id' => [int](../types/int.md), 'offset_peer' => [InputPeer](../types/InputPeer.md), 'limit' => [int](../types/int.md), 'hash' => [int](../types/int.md), \]) === [$messages\_Dialogs](../types/messages_Dialogs.md)<a name="messages_getDialogs"></a>  
 
 $MadelineProto->[messages->getDocumentByHash](messages_getDocumentByHash.md)(\['sha256' => [bytes](../types/bytes.md), 'size' => [int](../types/int.md), 'mime_type' => [string](../types/string.md), \]) === [$Document](../types/Document.md)<a name="messages_getDocumentByHash"></a>  
 
@@ -437,6 +441,8 @@ $MadelineProto->[messages->hideReportSpam](messages_hideReportSpam.md)(\['peer' 
 $MadelineProto->[messages->importChatInvite](messages_importChatInvite.md)(\['hash' => [string](../types/string.md), \]) === [$Updates](../types/Updates.md)<a name="messages_importChatInvite"></a>  
 
 $MadelineProto->[messages->installStickerSet](messages_installStickerSet.md)(\['stickerset' => [InputStickerSet](../types/InputStickerSet.md), 'archived' => [Bool](../types/Bool.md), \]) === [$messages\_StickerSetInstallResult](../types/messages_StickerSetInstallResult.md)<a name="messages_installStickerSet"></a>  
+
+$MadelineProto->[messages->markDialogUnread](messages_markDialogUnread.md)(\['unread' => [Bool](../types/Bool.md), 'peer' => [InputDialogPeer](../types/InputDialogPeer.md), \]) === [$Bool](../types/Bool.md)<a name="messages_markDialogUnread"></a>  
 
 $MadelineProto->[messages->migrateChat](messages_migrateChat.md)(\['chat_id' => [InputPeer](../types/InputPeer.md), \]) === [$Updates](../types/Updates.md)<a name="messages_migrateChat"></a>  
 

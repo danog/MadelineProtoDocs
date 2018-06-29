@@ -14,6 +14,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |----------|---------------|----------|
 |long|[double](../types/double.md) | Yes|
 |lat|[double](../types/double.md) | Yes|
+|access\_hash|[long](../types/long.md) | Yes|
 
 
 
@@ -23,13 +24,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$geoPoint = ['_' => 'geoPoint', 'long' => double, 'lat' => double];
+$geoPoint = ['_' => 'geoPoint', 'long' => double, 'lat' => double, 'access_hash' => long];
 ```  
 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "geoPoint", "long": double, "lat": double}
+{"_": "geoPoint", "long": double, "lat": double, "access_hash": long}
 ```
 
 
@@ -37,7 +38,7 @@ Or, if you're into Lua:
 
 
 ```
-geoPoint={_='geoPoint', long=double, lat=double}
+geoPoint={_='geoPoint', long=double, lat=double, access_hash=long}
 
 ```
 

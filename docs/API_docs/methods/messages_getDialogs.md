@@ -18,6 +18,7 @@ Gets list of chats: you should use $MadelineProto->get_dialogs() instead: https:
 |offset\_id|[int](../types/int.md) | Yes|end($res['messages'])['id'];|
 |offset\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|end($res['dialogs'])['peer'];|
 |limit|[int](../types/int.md) | Yes|Number of dialogs to fetch|
+|hash|[int](../types/int.md) | Yes|$MadelineProto->gen_vector_hash(ids of previously fetched dialogs or [])|
 
 
 ### Return type: [messages\_Dialogs](../types/messages_Dialogs.md)
@@ -37,7 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Dialogs = $MadelineProto->messages->getDialogs(['exclude_pinned' => Bool, 'offset_date' => int, 'offset_id' => int, 'offset_peer' => InputPeer, 'limit' => int, ]);
+$messages_Dialogs = $MadelineProto->messages->getDialogs(['exclude_pinned' => Bool, 'offset_date' => int, 'offset_id' => int, 'offset_peer' => InputPeer, 'limit' => int, 'hash' => int, ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -60,13 +61,15 @@ offset_peer - Json encoded InputPeer
 
 limit - Json encoded int
 
+hash - Json encoded int
+
 
 
 
 Or, if you're into Lua:
 
 ```
-messages_Dialogs = messages.getDialogs({exclude_pinned=Bool, offset_date=int, offset_id=int, offset_peer=InputPeer, limit=int, })
+messages_Dialogs = messages.getDialogs({exclude_pinned=Bool, offset_date=int, offset_id=int, offset_peer=InputPeer, limit=int, hash=int, })
 ```
 
 ### Errors this method can return:

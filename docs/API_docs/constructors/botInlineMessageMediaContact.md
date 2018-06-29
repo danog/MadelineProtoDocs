@@ -15,6 +15,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |phone\_number|[string](../types/string.md) | Yes|
 |first\_name|[string](../types/string.md) | Yes|
 |last\_name|[string](../types/string.md) | Yes|
+|vcard|[string](../types/string.md) | Yes|
 |reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|
 
 
@@ -25,13 +26,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$botInlineMessageMediaContact = ['_' => 'botInlineMessageMediaContact', 'phone_number' => 'string', 'first_name' => 'string', 'last_name' => 'string', 'reply_markup' => ReplyMarkup];
+$botInlineMessageMediaContact = ['_' => 'botInlineMessageMediaContact', 'phone_number' => 'string', 'first_name' => 'string', 'last_name' => 'string', 'vcard' => 'string', 'reply_markup' => ReplyMarkup];
 ```  
 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "botInlineMessageMediaContact", "phone_number": "string", "first_name": "string", "last_name": "string", "reply_markup": ReplyMarkup}
+{"_": "botInlineMessageMediaContact", "phone_number": "string", "first_name": "string", "last_name": "string", "vcard": "string", "reply_markup": ReplyMarkup}
 ```
 
 
@@ -39,7 +40,7 @@ Or, if you're into Lua:
 
 
 ```
-botInlineMessageMediaContact={_='botInlineMessageMediaContact', phone_number='string', first_name='string', last_name='string', reply_markup=ReplyMarkup}
+botInlineMessageMediaContact={_='botInlineMessageMediaContact', phone_number='string', first_name='string', last_name='string', vcard='string', reply_markup=ReplyMarkup}
 
 ```
 

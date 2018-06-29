@@ -14,6 +14,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [contacts\_topPeers](../constructors/contacts_topPeers.md)  
 
+[contacts\_topPeersDisabled](../constructors/contacts_topPeersDisabled.md)  
+
 
 
 ### Methods that return an object of this type (methods):
