@@ -7,6 +7,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Back to API documentation index](..)
 
 
+[AccessPointRule](AccessPointRule.md)<a name="AccessPointRule"></a>  
+
 [AccountDaysTTL](AccountDaysTTL.md)<a name="AccountDaysTTL"></a>  
 
 [Authorization](Authorization.md)<a name="Authorization"></a>  
@@ -22,8 +24,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [BotInlineResult](BotInlineResult.md)<a name="BotInlineResult"></a>  
 
 [CdnConfig](CdnConfig.md)<a name="CdnConfig"></a>  
-
-[CdnFileHash](CdnFileHash.md)<a name="CdnFileHash"></a>  
 
 [CdnPublicKey](CdnPublicKey.md)<a name="CdnPublicKey"></a>  
 
@@ -81,7 +81,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [Dialog](Dialog.md)<a name="Dialog"></a>  
 
-[DisabledFeature](DisabledFeature.md)<a name="DisabledFeature"></a>  
+[DialogPeer](DialogPeer.md)<a name="DialogPeer"></a>  
 
 [Document](Document.md)<a name="Document"></a>  
 
@@ -100,6 +100,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [ExportedChatInvite](ExportedChatInvite.md)<a name="ExportedChatInvite"></a>  
 
 [ExportedMessageLink](ExportedMessageLink.md)<a name="ExportedMessageLink"></a>  
+
+[FileHash](FileHash.md)<a name="FileHash"></a>  
 
 [FileLocation](FileLocation.md)<a name="FileLocation"></a>  
 
@@ -127,7 +129,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [InputChatPhoto](InputChatPhoto.md)<a name="InputChatPhoto"></a>  
 
+[InputClientProxy](InputClientProxy.md)<a name="InputClientProxy"></a>  
+
 [InputContact](InputContact.md)<a name="InputContact"></a>  
+
+[InputDialogPeer](InputDialogPeer.md)<a name="InputDialogPeer"></a>  
 
 [InputDocument](InputDocument.md)<a name="InputDocument"></a>  
 
@@ -153,8 +159,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [InputPeer](InputPeer.md)<a name="InputPeer"></a>  
 
-[InputPeerNotifyEvents](InputPeerNotifyEvents.md)<a name="InputPeerNotifyEvents"></a>  
-
 [InputPeerNotifySettings](InputPeerNotifySettings.md)<a name="InputPeerNotifySettings"></a>  
 
 [InputPhoneCall](InputPhoneCall.md)<a name="InputPhoneCall"></a>  
@@ -164,6 +168,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [InputPrivacyKey](InputPrivacyKey.md)<a name="InputPrivacyKey"></a>  
 
 [InputPrivacyRule](InputPrivacyRule.md)<a name="InputPrivacyRule"></a>  
+
+[InputSecureFile](InputSecureFile.md)<a name="InputSecureFile"></a>  
+
+[InputSecureValue](InputSecureValue.md)<a name="InputSecureValue"></a>  
 
 [InputSingleMedia](InputSingleMedia.md)<a name="InputSingleMedia"></a>  
 
@@ -180,6 +188,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [InputWebFileLocation](InputWebFileLocation.md)<a name="InputWebFileLocation"></a>  
 
 [Invoice](Invoice.md)<a name="Invoice"></a>  
+
+[IpPort](IpPort.md)<a name="IpPort"></a>  
 
 [KeyboardButton](KeyboardButton.md)<a name="KeyboardButton"></a>  
 
@@ -227,8 +237,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [Peer](Peer.md)<a name="Peer"></a>  
 
-[PeerNotifyEvents](PeerNotifyEvents.md)<a name="PeerNotifyEvents"></a>  
-
 [PeerNotifySettings](PeerNotifySettings.md)<a name="PeerNotifySettings"></a>  
 
 [PeerSettings](PeerSettings.md)<a name="PeerSettings"></a>  
@@ -262,6 +270,24 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [ReportReason](ReportReason.md)<a name="ReportReason"></a>  
 
 [RichText](RichText.md)<a name="RichText"></a>  
+
+[SavedContact](SavedContact.md)<a name="SavedContact"></a>  
+
+[SecureCredentialsEncrypted](SecureCredentialsEncrypted.md)<a name="SecureCredentialsEncrypted"></a>  
+
+[SecureData](SecureData.md)<a name="SecureData"></a>  
+
+[SecureFile](SecureFile.md)<a name="SecureFile"></a>  
+
+[SecurePlainData](SecurePlainData.md)<a name="SecurePlainData"></a>  
+
+[SecureValue](SecureValue.md)<a name="SecureValue"></a>  
+
+[SecureValueError](SecureValueError.md)<a name="SecureValueError"></a>  
+
+[SecureValueHash](SecureValueHash.md)<a name="SecureValueHash"></a>  
+
+[SecureValueType](SecureValueType.md)<a name="SecureValueType"></a>  
 
 [SendMessageAction](SendMessageAction.md)<a name="SendMessageAction"></a>  
 
@@ -303,6 +329,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [X](X.md)<a name="X"></a>  
 
+[account\_AuthorizationForm](account_AuthorizationForm.md)<a name="account_AuthorizationForm"></a>  
+
 [account\_Authorizations](account_Authorizations.md)<a name="account_Authorizations"></a>  
 
 [account\_Password](account_Password.md)<a name="account_Password"></a>  
@@ -312,6 +340,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [account\_PasswordSettings](account_PasswordSettings.md)<a name="account_PasswordSettings"></a>  
 
 [account\_PrivacyRules](account_PrivacyRules.md)<a name="account_PrivacyRules"></a>  
+
+[account\_SentEmailCode](account_SentEmailCode.md)<a name="account_SentEmailCode"></a>  
+
+[account\_Takeout](account_Takeout.md)<a name="account_Takeout"></a>  
 
 [account\_TmpPassword](account_TmpPassword.md)<a name="account_TmpPassword"></a>  
 
@@ -353,13 +385,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [help\_AppUpdate](help_AppUpdate.md)<a name="help_AppUpdate"></a>  
 
+[help\_ConfigSimple](help_ConfigSimple.md)<a name="help_ConfigSimple"></a>  
+
+[help\_DeepLinkInfo](help_DeepLinkInfo.md)<a name="help_DeepLinkInfo"></a>  
+
 [help\_InviteText](help_InviteText.md)<a name="help_InviteText"></a>  
+
+[help\_ProxyData](help_ProxyData.md)<a name="help_ProxyData"></a>  
 
 [help\_RecentMeUrls](help_RecentMeUrls.md)<a name="help_RecentMeUrls"></a>  
 
 [help\_Support](help_Support.md)<a name="help_Support"></a>  
 
 [help\_TermsOfService](help_TermsOfService.md)<a name="help_TermsOfService"></a>  
+
+[help\_TermsOfServiceUpdate](help_TermsOfServiceUpdate.md)<a name="help_TermsOfServiceUpdate"></a>  
 
 [int](int.md)<a name="int"></a>  
 
@@ -390,6 +430,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [messages\_FeaturedStickers](messages_FeaturedStickers.md)<a name="messages_FeaturedStickers"></a>  
 
 [messages\_FoundGifs](messages_FoundGifs.md)<a name="messages_FoundGifs"></a>  
+
+[messages\_FoundStickerSets](messages_FoundStickerSets.md)<a name="messages_FoundStickerSets"></a>  
 
 [messages\_HighScores](messages_HighScores.md)<a name="messages_HighScores"></a>  
 

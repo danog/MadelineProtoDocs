@@ -17,6 +17,7 @@ Edit a sent inline message
 |stop\_geo\_live|[Bool](../types/Bool.md) | Optional|Stop live location|
 |id|[InputBotInlineMessageID](../types/InputBotInlineMessageID.md) | Yes|The message ID|
 |message|[string](../types/string.md) | Optional|The new message|
+|media|[MessageMedia, Update, Message or InputMedia](../types/InputMedia.md) | Optional|The media to substitute|
 |reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|The new keyboard|
 |entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|The new entities (for styled text)|
 |parse\_mode| [string](../types/string.md) | Optional |Whether to parse HTML or Markdown markup in the message|
@@ -40,7 +41,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->editInlineBotMessage(['no_webpage' => Bool, 'stop_geo_live' => Bool, 'id' => InputBotInlineMessageID, 'message' => 'string', 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', 'geo_point' => InputGeoPoint, ]);
+$Bool = $MadelineProto->messages->editInlineBotMessage(['no_webpage' => Bool, 'stop_geo_live' => Bool, 'id' => InputBotInlineMessageID, 'message' => 'string', 'media' => InputMedia, 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', 'geo_point' => InputGeoPoint, ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -52,7 +53,7 @@ POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
 Parameters:
 
 * method - messages.editInlineBotMessage
-* params - `{"no_webpage": Bool, "stop_geo_live": Bool, "id": InputBotInlineMessageID, "message": "string", "reply_markup": ReplyMarkup, "entities": [MessageEntity], "parse_mode": "string""geo_point": InputGeoPoint, }`
+* params - `{"no_webpage": Bool, "stop_geo_live": Bool, "id": InputBotInlineMessageID, "message": "string", "media": InputMedia, "reply_markup": ReplyMarkup, "entities": [MessageEntity], "parse_mode": "string""geo_point": InputGeoPoint, }`
 
 
 
@@ -71,7 +72,7 @@ geo_point - Json encoded InputGeoPoint
 Or, if you're into Lua:
 
 ```
-Bool = messages.editInlineBotMessage({no_webpage=Bool, stop_geo_live=Bool, id=InputBotInlineMessageID, message='string', reply_markup=ReplyMarkup, entities={MessageEntity}, parse_mode='string', geo_point=InputGeoPoint, })
+Bool = messages.editInlineBotMessage({no_webpage=Bool, stop_geo_live=Bool, id=InputBotInlineMessageID, message='string', media=InputMedia, reply_markup=ReplyMarkup, entities={MessageEntity}, parse_mode='string', geo_point=InputGeoPoint, })
 ```
 
 

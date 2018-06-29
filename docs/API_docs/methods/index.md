@@ -28,6 +28,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * [Create a secret chat bot](https://docs.madelineproto.xyz/docs/SECRET_CHATS.html)
 
+* <a href="account_acceptAuthorization.html" name="account_acceptAuthorization">Accept telegram password authorization: account.acceptAuthorization</a>  
+
+* <a href="help_acceptTermsOfService.html" name="help_acceptTermsOfService">Accept telegram's TOS: help.acceptTermsOfService</a>  
+
 * <a href="messages_installStickerSet.html" name="messages_installStickerSet">Add a sticker set: messages.installStickerSet</a>  
 
 * <a href="messages_faveSticker.html" name="messages_faveSticker">Add a sticker to favorites: messages.faveSticker</a>  
@@ -45,6 +49,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="channels_toggleInvites.html" name="channels_toggleInvites">Allow or disallow any user to invite users to this channel/supergroup: channels.toggleInvites</a>  
 
 * <a href="contacts_block.html" name="contacts_block">Block a user: contacts.block</a>  
+
+* <a href="account_getAuthorizationForm.html" name="account_getAuthorizationForm">Bots only: get telegram passport authorization form: account.getAuthorizationForm</a>  
 
 * <a href="payments_sendPaymentForm.html" name="payments_sendPaymentForm">Bots only: send payment form: payments.sendPaymentForm</a>  
 
@@ -71,8 +77,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages_getMessageEditData.html" name="messages_getMessageEditData">Check if about to edit a message or a media caption: messages.getMessageEditData</a>  
 
 * <a href="messages_checkChatInvite.html" name="messages_checkChatInvite">Check if an invitation link is valid: messages.checkChatInvite</a>  
-
-* <a href="auth_checkPhone.html" name="auth_checkPhone">Check if this phone number is registered on telegram: auth.checkPhone</a>  
 
 * <a href="account_checkUsername.html" name="account_checkUsername">Check if this username is available: account.checkUsername</a>  
 
@@ -118,6 +122,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="photos_deletePhotos.html" name="photos_deletePhotos">Delete profile photos: photos.deletePhotos</a>  
 
+* <a href="account_deleteSecureValue.html" name="account_deleteSecureValue">Delete secure telegram passport value: account.deleteSecureValue</a>  
+
 * <a href="channels_deleteHistory.html" name="channels_deleteHistory">Delete the history of a supergroup/channel: channels.deleteHistory</a>  
 
 * <a href="account_deleteAccount.html" name="account_deleteAccount">Delete this account: account.deleteAccount</a>  
@@ -154,6 +160,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels_exportInvite.html" name="channels_exportInvite">Export the invite link of a channel: channels.exportInvite</a>  
 
+* <a href="messages_searchStickerSets.html" name="messages_searchStickerSets">Find a sticker set: messages.searchStickerSets</a>  
+
+* <a href="account_finishTakeoutSession.html" name="account_finishTakeoutSession">Finish account exporting session: account.finishTakeoutSession</a>  
+
 * <a href="messages_forwardMessages.html" name="messages_forwardMessages">Forward messages: messages.forwardMessages</a>  
 
 * <a href="help_getCdnConfig.html" name="help_getCdnConfig">Get CDN configuration: help.getCdnConfig</a>  
@@ -166,11 +176,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages_getArchivedStickers.html" name="messages_getArchivedStickers">Get all archived stickers: messages.getArchivedStickers</a>  
 
+* <a href="channels_getLeftChannels.html" name="channels_getLeftChannels">Get all channels you left: channels.getLeftChannels</a>  
+
 * <a href="messages_getAllChats.html" name="messages_getAllChats">Get all chats (not supergroups or channels): messages.getAllChats</a>  
 
 * <a href="account_getAuthorizations.html" name="account_getAuthorizations">Get all logged-in authorizations: account.getAuthorizations</a>  
 
 * <a href="messages_getAllDrafts.html" name="messages_getAllDrafts">Get all message drafts: messages.getAllDrafts</a>  
+
+* <a href="account_getAllSecureValues.html" name="account_getAllSecureValues">Get all secure telegram passport values: account.getAllSecureValues</a>  
 
 * <a href="messages_getAllStickers.html" name="messages_getAllStickers">Get all stickerpacks: messages.getAllStickers</a>  
 
@@ -190,6 +204,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages_getCommonChats.html" name="messages_getCommonChats">Get chats in common with a user: messages.getCommonChats</a>  
 
+* <a href="help_getDeepLinkInfo.html" name="help_getDeepLinkInfo">Get deep link info: help.getDeepLinkInfo</a>  
+
 * <a href="messages_getPeerDialogs.html" name="messages_getPeerDialogs">Get dialog info of peers: messages.getPeerDialogs</a>  
 
 * <a href="messages_getDocumentByHash.html" name="messages_getDocumentByHash">Get document by SHA256 hash: messages.getDocumentByHash</a>  
@@ -197,6 +213,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages_getFavedStickers.html" name="messages_getFavedStickers">Get favorite stickers: messages.getFavedStickers</a>  
 
 * <a href="messages_getFeaturedStickers.html" name="messages_getFeaturedStickers">Get featured stickers: messages.getFeaturedStickers</a>  
+
+* <a href="upload_getFileHashes.html" name="upload_getFileHashes">Get file hashes: upload.getFileHashes</a>  
 
 * <a href="messages_getInlineGameHighScores.html" name="messages_getInlineGameHighScores">Get high scores of a game sent in an inline message: messages.getInlineGameHighScores</a>  
 
@@ -216,6 +234,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="help_getSupport.html" name="help_getSupport">Get info of support user: help.getSupport</a>  
 
+* <a href="help_getProxyData.html" name="help_getProxyData">Get information about the current proxy: help.getProxyData</a>  
+
 * <a href="help_getInviteText.html" name="help_getInviteText">Get invitation text: help.getInviteText</a>  
 
 * <a href="langpack_getStrings.html" name="langpack_getStrings">Get language pack strings: langpack.getStrings</a>  
@@ -225,6 +245,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="langpack_getLangPack.html" name="langpack_getLangPack">Get language pack: langpack.getLangPack</a>  
 
 * <a href="messages_getMaskStickers.html" name="messages_getMaskStickers">Get masks: messages.getMaskStickers</a>  
+
+* <a href="messages_getSplitRanges.html" name="messages_getSplitRanges">Get message ranges to fetch: messages.getSplitRanges</a>  
 
 * <a href="messages_getMessages.html" name="messages_getMessages">Get messages: messages.getMessages</a>  
 
@@ -252,9 +274,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="help_getRecentMeUrls.html" name="help_getRecentMeUrls">Get recent t.me URLs: help.getRecentMeUrls</a>  
 
+* <a href="contacts_getSaved.html" name="contacts_getSaved">Get saved contacts: contacts.getSaved</a>  
+
 * <a href="messages_getSavedGifs.html" name="messages_getSavedGifs">Get saved gifs: messages.getSavedGifs</a>  
 
 * <a href="payments_getSavedInfo.html" name="payments_getSavedInfo">Get saved payments info: payments.getSavedInfo</a>  
+
+* <a href="account_getSecureValue.html" name="account_getSecureValue">Get secure value for telegram passport: account.getSecureValue</a>  
 
 * <a href="help_getConfig.html" name="help_getConfig">Get server configuration: help.getConfig</a>  
 
@@ -265,8 +291,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="account_getWebAuthorizations.html" name="account_getWebAuthorizations">Get telegram web login authorizations: account.getWebAuthorizations</a>  
 
 * <a href="account_getTmpPassword.html" name="account_getTmpPassword">Get temporary password for buying products through bots: account.getTmpPassword</a>  
-
-* <a href="help_getTermsOfService.html" name="help_getTermsOfService">Get terms of service: help.getTermsOfService</a>  
 
 * <a href="messages_getBotCallbackAnswer.html" name="messages_getBotCallbackAnswer">Get the callback answer of a bot (after clicking a button): messages.getBotCallbackAnswer</a>  
 
@@ -283,6 +307,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages_getPeerSettings.html" name="messages_getPeerSettings">Get the settings of  apeer: messages.getPeerSettings</a>  
 
 * <a href="messages_getUnreadMentions.html" name="messages_getUnreadMentions">Get unread mentions: messages.getUnreadMentions</a>  
+
+* <a href="help_getTermsOfServiceUpdate.html" name="help_getTermsOfServiceUpdate">Get updated TOS: help.getTermsOfServiceUpdate</a>  
 
 * <a href="messages_getWebPage.html" name="messages_getWebPage">Get webpage preview: messages.getWebPage</a>  
 
@@ -302,9 +328,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="auth_cancelCode.html" name="auth_cancelCode">Invalidate sent phone code: auth.cancelCode</a>  
 
-* <a href="auth_sendInvites.html" name="auth_sendInvites">Invite friends to telegram!: auth.sendInvites</a>  
+* <a href="invokeWithTakeout.html" name="invokeWithTakeout">Invoke method from takeout session: invokeWithTakeout</a>  
 
 * <a href="invokeWithLayer.html" name="invokeWithLayer">Invoke this method with layer X: invokeWithLayer</a>  
+
+* <a href="invokeWithMessagesRange.html" name="invokeWithMessagesRange">Invoke with messages range: invokeWithMessagesRange</a>  
 
 * <a href="invokeWithoutUpdates.html" name="invokeWithoutUpdates">Invoke with method without returning updates in the socket: invokeWithoutUpdates</a>  
 
@@ -350,6 +378,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels_reportSpam.html" name="channels_reportSpam">Report a message in a supergroup/channel for spam: channels.reportSpam</a>  
 
+* <a href="messages_report.html" name="messages_report">Report a message: messages.report</a>  
+
 * <a href="messages_reportSpam.html" name="messages_reportSpam">Report a peer for spam: messages.reportSpam</a>  
 
 * <a href="messages_reportEncryptedSpam.html" name="messages_reportEncryptedSpam">Report for spam a secret chat: messages.reportEncryptedSpam</a>  
@@ -376,6 +406,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="phone_saveCallDebug.html" name="phone_saveCallDebug">Save call debugging info: phone.saveCallDebug</a>  
 
+* <a href="account_saveSecureValue.html" name="account_saveSecureValue">Save telegram passport secure value: account.saveSecureValue</a>  
+
 * <a href="contacts_search.html" name="contacts_search">Search contacts: contacts.search</a>  
 
 * <a href="messages_searchGifs.html" name="messages_searchGifs">Search gifs: messages.searchGifs</a>  
@@ -398,9 +430,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account_sendConfirmPhoneCode.html" name="account_sendConfirmPhoneCode">Send confirmation phone code: account.sendConfirmPhoneCode</a>  
 
+* <a href="account_sendVerifyEmailCode.html" name="account_sendVerifyEmailCode">Send email verification code: account.sendVerifyEmailCode</a>  
+
 * <a href="messages_sendInlineBotResult.html" name="messages_sendInlineBotResult">Send inline bot result obtained with messages.getInlineBotResults to the chat: messages.sendInlineBotResult</a>  
 
 * <a href="messages_sendEncrypted.html" name="messages_sendEncrypted">Send message to secret chat: messages.sendEncrypted</a>  
+
+* <a href="account_sendVerifyPhoneCode.html" name="account_sendVerifyPhoneCode">Send phone verification code: account.sendVerifyPhoneCode</a>  
 
 * <a href="messages_sendScreenshotNotification.html" name="messages_sendScreenshotNotification">Send screenshot notification: messages.sendScreenshotNotification</a>  
 
@@ -414,6 +450,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account_setPrivacy.html" name="account_setPrivacy">Set privacy settings: account.setPrivacy</a>  
 
+* <a href="users_setSecureValueErrors.html" name="users_setSecureValueErrors">Set secure value error for telegram passport: users.setSecureValueErrors</a>  
+
 * <a href="messages_setInlineGameScore.html" name="messages_setInlineGameScore">Set the game score of an inline message: messages.setInlineGameScore</a>  
 
 * <a href="messages_setGameScore.html" name="messages_setGameScore">Set the game score: messages.setGameScore</a>  
@@ -425,6 +463,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="help_setBotUpdatesStatus.html" name="help_setBotUpdatesStatus">Set the update status of webhook: help.setBotUpdatesStatus</a>  
 
 * <a href="messages_startBot.html" name="messages_startBot">Start a bot: messages.startBot</a>  
+
+* <a href="account_initTakeoutSession.html" name="account_initTakeoutSession">Start account exporting session: account.initTakeoutSession</a>  
 
 * <a href="account_unregisterDevice.html" name="account_unregisterDevice">Stop sending PUSH notifications to app: account.unregisterDevice</a>  
 
@@ -453,4 +493,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="auth_recoverPassword.html" name="auth_recoverPassword">Use the code that was emailed to you after running $MadelineProto->auth->requestPasswordRecovery to login to your account: auth.recoverPassword</a>  
 
 * <a href="payments_validateRequestedInfo.html" name="payments_validateRequestedInfo">Validate requested payment info: payments.validateRequestedInfo</a>  
+
+* <a href="account_verifyEmail.html" name="account_verifyEmail">Verify email address: account.verifyEmail</a>  
+
+* <a href="account_verifyPhone.html" name="account_verifyPhone">Verify phone number: account.verifyPhone</a>  
 

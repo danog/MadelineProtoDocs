@@ -14,7 +14,7 @@ Pin or unpin dialog
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |pinned|[Bool](../types/Bool.md) | Optional|Pin or unpin the dialog?|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The peer to pin|
+|peer|[InputDialogPeer](../types/InputDialogPeer.md) | Yes|The dialog to pin|
 
 
 ### Return type: [Bool](../types/Bool.md)
@@ -34,7 +34,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->toggleDialogPin(['pinned' => Bool, 'peer' => InputPeer, ]);
+$Bool = $MadelineProto->messages->toggleDialogPin(['pinned' => Bool, 'peer' => InputDialogPeer, ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -49,7 +49,7 @@ Parameters:
 
 pinned - Json encoded Bool
 
-peer - Json encoded InputPeer
+peer - Json encoded InputDialogPeer
 
 
 
@@ -57,7 +57,7 @@ peer - Json encoded InputPeer
 Or, if you're into Lua:
 
 ```
-Bool = messages.toggleDialogPin({pinned=Bool, peer=InputPeer, })
+Bool = messages.toggleDialogPin({pinned=Bool, peer=InputDialogPeer, })
 ```
 
 ### Errors this method can return:

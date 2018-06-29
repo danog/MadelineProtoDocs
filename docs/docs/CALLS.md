@@ -91,7 +91,7 @@ $controller = $MadelineProto->request_call('@danogentili')->play('input.raw')->t
 $controller->configuration['log_file_path'] = $controller->getOtherID().'.log';
 
 // We need to receive updates in order to know that the other use accepted the call
-while ($controller->getCallState() < \danog\MadelineProto\VoIP::CALL_STATE_READY) {
+while ($controller->getCallState() < \danog\MadelineProto\VoIP::CALL_STATE_ENDED) {
     $MadelineProto->get_updates();
 }
 

@@ -12,10 +12,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|installed|[Bool](../types/Bool.md) | Optional|
 |archived|[Bool](../types/Bool.md) | Optional|
 |official|[Bool](../types/Bool.md) | Optional|
 |masks|[Bool](../types/Bool.md) | Optional|
+|installed\_date|[int](../types/int.md) | Optional|
 |id|[long](../types/long.md) | Yes|
 |access\_hash|[long](../types/long.md) | Yes|
 |title|[string](../types/string.md) | Yes|
@@ -31,13 +31,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$stickerSet = ['_' => 'stickerSet', 'installed' => Bool, 'archived' => Bool, 'official' => Bool, 'masks' => Bool, 'id' => long, 'access_hash' => long, 'title' => 'string', 'short_name' => 'string', 'count' => int, 'hash' => int];
+$stickerSet = ['_' => 'stickerSet', 'archived' => Bool, 'official' => Bool, 'masks' => Bool, 'installed_date' => int, 'id' => long, 'access_hash' => long, 'title' => 'string', 'short_name' => 'string', 'count' => int, 'hash' => int];
 ```  
 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "stickerSet", "installed": Bool, "archived": Bool, "official": Bool, "masks": Bool, "id": long, "access_hash": long, "title": "string", "short_name": "string", "count": int, "hash": int}
+{"_": "stickerSet", "archived": Bool, "official": Bool, "masks": Bool, "installed_date": int, "id": long, "access_hash": long, "title": "string", "short_name": "string", "count": int, "hash": int}
 ```
 
 
@@ -45,7 +45,7 @@ Or, if you're into Lua:
 
 
 ```
-stickerSet={_='stickerSet', installed=Bool, archived=Bool, official=Bool, masks=Bool, id=long, access_hash=long, title='string', short_name='string', count=int, hash=int}
+stickerSet={_='stickerSet', archived=Bool, official=Bool, masks=Bool, installed_date=int, id=long, access_hash=long, title='string', short_name='string', count=int, hash=int}
 
 ```
 

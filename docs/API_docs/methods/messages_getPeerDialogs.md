@@ -13,7 +13,7 @@ Get dialog info of peers
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peers|Array of [Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Yes|The peers|
+|peers|Array of [InputDialogPeer](../types/InputDialogPeer.md) | Yes|The peers|
 
 
 ### Return type: [messages\_PeerDialogs](../types/messages_PeerDialogs.md)
@@ -33,7 +33,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_PeerDialogs = $MadelineProto->messages->getPeerDialogs(['peers' => [InputPeer, InputPeer], ]);
+$messages_PeerDialogs = $MadelineProto->messages->getPeerDialogs(['peers' => [InputDialogPeer, InputDialogPeer], ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -46,7 +46,7 @@ POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.getPeerDialogs`
 
 Parameters:
 
-peers - Json encoded  array of InputPeer
+peers - Json encoded  array of InputDialogPeer
 
 
 
@@ -54,7 +54,7 @@ peers - Json encoded  array of InputPeer
 Or, if you're into Lua:
 
 ```
-messages_PeerDialogs = messages.getPeerDialogs({peers={InputPeer}, })
+messages_PeerDialogs = messages.getPeerDialogs({peers={InputDialogPeer}, })
 ```
 
 ### Errors this method can return:

@@ -16,6 +16,7 @@ Register device for push notifications
 |token\_type|[int](../types/int.md) | Yes|Device token type. Possible values: 1 - APNS, 2 - GCM, 3 - MPNS, 4 - Simple Push, 5 - Ubuntu Phone, 6 - Blackberry, and other, see source code of official apps for more info|
 |token|[string](../types/string.md) | Yes|Device token type. Possible values: 1 - APNS, 2 - GCM, 3 - MPNS, 4 - Simple Push, 5 - Ubuntu Phone,6 - Blackberry, and other, see source code of official apps for more info|
 |app\_sandbox|[Bool](../types/Bool.md) | Yes|Should the app run in a sandbox?|
+|secret|[bytes](../types/bytes.md) | Yes|Secret|
 |other\_uids|Array of [int](../types/int.md) | Yes|Other UIDs|
 
 
@@ -36,7 +37,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->account->registerDevice(['token_type' => int, 'token' => 'string', 'app_sandbox' => Bool, 'other_uids' => [int, int], ]);
+$Bool = $MadelineProto->account->registerDevice(['token_type' => int, 'token' => 'string', 'app_sandbox' => Bool, 'secret' => 'bytes', 'other_uids' => [int, int], ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -55,6 +56,8 @@ token - Json encoded string
 
 app_sandbox - Json encoded Bool
 
+secret - Json encoded bytes
+
 other_uids - Json encoded  array of int
 
 
@@ -63,7 +66,7 @@ other_uids - Json encoded  array of int
 Or, if you're into Lua:
 
 ```
-Bool = account.registerDevice({token_type=int, token='string', app_sandbox=Bool, other_uids={int}, })
+Bool = account.registerDevice({token_type=int, token='string', app_sandbox=Bool, secret='bytes', other_uids={int}, })
 ```
 
 ### Errors this method can return:

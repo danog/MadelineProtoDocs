@@ -20,6 +20,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |id|[int](../types/int.md) | Yes|
 |ip\_address|[string](../types/string.md) | Yes|
 |port|[int](../types/int.md) | Yes|
+|secret|[bytes](../types/bytes.md) | Optional|
 
 
 
@@ -29,13 +30,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$dcOption = ['_' => 'dcOption', 'ipv6' => Bool, 'media_only' => Bool, 'tcpo_only' => Bool, 'cdn' => Bool, 'static' => Bool, 'id' => int, 'ip_address' => 'string', 'port' => int];
+$dcOption = ['_' => 'dcOption', 'ipv6' => Bool, 'media_only' => Bool, 'tcpo_only' => Bool, 'cdn' => Bool, 'static' => Bool, 'id' => int, 'ip_address' => 'string', 'port' => int, 'secret' => 'bytes'];
 ```  
 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "dcOption", "ipv6": Bool, "media_only": Bool, "tcpo_only": Bool, "cdn": Bool, "static": Bool, "id": int, "ip_address": "string", "port": int}
+{"_": "dcOption", "ipv6": Bool, "media_only": Bool, "tcpo_only": Bool, "cdn": Bool, "static": Bool, "id": int, "ip_address": "string", "port": int, "secret": {"_": "bytes", "bytes":"base64 encoded bytes"}}
 ```
 
 
@@ -43,7 +44,7 @@ Or, if you're into Lua:
 
 
 ```
-dcOption={_='dcOption', ipv6=Bool, media_only=Bool, tcpo_only=Bool, cdn=Bool, static=Bool, id=int, ip_address='string', port=int}
+dcOption={_='dcOption', ipv6=Bool, media_only=Bool, tcpo_only=Bool, cdn=Bool, static=Bool, id=int, ip_address='string', port=int, secret='bytes'}
 
 ```
 

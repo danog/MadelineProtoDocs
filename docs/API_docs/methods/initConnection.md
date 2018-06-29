@@ -20,6 +20,7 @@ Initializes connection and save information on the user's device and application
 |system\_lang\_code|[string](../types/string.md) | Yes|Language code|
 |lang\_pack|[string](../types/string.md) | Yes|Language pack to use|
 |lang\_code|[string](../types/string.md) | Yes|Language code to set|
+|proxy|[InputClientProxy](../types/InputClientProxy.md) | Optional|The current proxy|
 |query|[!X](../types/!X.md) | Yes|Nested query|
 
 
@@ -40,7 +41,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$X = $MadelineProto->initConnection(['api_id' => int, 'device_model' => 'string', 'system_version' => 'string', 'app_version' => 'string', 'system_lang_code' => 'string', 'lang_pack' => 'string', 'lang_code' => 'string', 'query' => !X, ]);
+$X = $MadelineProto->initConnection(['api_id' => int, 'device_model' => 'string', 'system_version' => 'string', 'app_version' => 'string', 'system_lang_code' => 'string', 'lang_pack' => 'string', 'lang_code' => 'string', 'proxy' => InputClientProxy, 'query' => !X, ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -52,7 +53,7 @@ POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
 Parameters:
 
 * method - initConnection
-* params - `{"api_id": int, "device_model": "string", "system_version": "string", "app_version": "string", "system_lang_code": "string", "lang_pack": "string", "lang_code": "string", "query": !X, }`
+* params - `{"api_id": int, "device_model": "string", "system_version": "string", "app_version": "string", "system_lang_code": "string", "lang_pack": "string", "lang_code": "string", "proxy": InputClientProxy, "query": !X, }`
 
 
 
@@ -76,6 +77,8 @@ lang_pack - Json encoded string
 
 lang_code - Json encoded string
 
+proxy - Json encoded InputClientProxy
+
 query - Json encoded !X
 
 
@@ -84,7 +87,7 @@ query - Json encoded !X
 Or, if you're into Lua:
 
 ```
-X = initConnection({api_id=int, device_model='string', system_version='string', app_version='string', system_lang_code='string', lang_pack='string', lang_code='string', query=!X, })
+X = initConnection({api_id=int, device_model='string', system_version='string', app_version='string', system_lang_code='string', lang_pack='string', lang_code='string', proxy=InputClientProxy, query=!X, })
 ```
 
 ### Errors this method can return:

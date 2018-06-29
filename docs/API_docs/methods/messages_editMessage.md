@@ -18,6 +18,7 @@ Edit a message
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The chat|
 |id|[int](../types/int.md) | Yes|The message ID|
 |message|[string](../types/string.md) | Optional|The new message|
+|media|[MessageMedia, Update, Message or InputMedia](../types/InputMedia.md) | Optional|The media to substitute|
 |reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|The new keyboard|
 |entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|The new entities (for styled text)|
 |parse\_mode| [string](../types/string.md) | Optional |Whether to parse HTML or Markdown markup in the message|
@@ -41,7 +42,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->editMessage(['no_webpage' => Bool, 'stop_geo_live' => Bool, 'peer' => InputPeer, 'id' => int, 'message' => 'string', 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', 'geo_point' => InputGeoPoint, ]);
+$Updates = $MadelineProto->messages->editMessage(['no_webpage' => Bool, 'stop_geo_live' => Bool, 'peer' => InputPeer, 'id' => int, 'message' => 'string', 'media' => InputMedia, 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', 'geo_point' => InputGeoPoint, ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -53,7 +54,7 @@ POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
 Parameters:
 
 * method - messages.editMessage
-* params - `{"no_webpage": Bool, "stop_geo_live": Bool, "peer": InputPeer, "id": int, "message": "string", "reply_markup": ReplyMarkup, "entities": [MessageEntity], "parse_mode": "string""geo_point": InputGeoPoint, }`
+* params - `{"no_webpage": Bool, "stop_geo_live": Bool, "peer": InputPeer, "id": int, "message": "string", "media": InputMedia, "reply_markup": ReplyMarkup, "entities": [MessageEntity], "parse_mode": "string""geo_point": InputGeoPoint, }`
 
 
 
@@ -72,7 +73,7 @@ geo_point - Json encoded InputGeoPoint
 Or, if you're into Lua:
 
 ```
-Updates = messages.editMessage({no_webpage=Bool, stop_geo_live=Bool, peer=InputPeer, id=int, message='string', reply_markup=ReplyMarkup, entities={MessageEntity}, parse_mode='string', geo_point=InputGeoPoint, })
+Updates = messages.editMessage({no_webpage=Bool, stop_geo_live=Bool, peer=InputPeer, id=int, message='string', media=InputMedia, reply_markup=ReplyMarkup, entities={MessageEntity}, parse_mode='string', geo_point=InputGeoPoint, })
 ```
 
 

@@ -14,7 +14,7 @@ Get stickers
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |emoticon|[string](../types/string.md) | Yes|Search by emoji|
-|hash|[string](../types/string.md) | Yes|0 or $MadelineProto->gen_vector_hash(previously fetched sticker IDs)|
+|hash|[int](../types/int.md) | Yes|$MadelineProto->gen_vector_hash(ids of previously fetched stickers, or []);|
 
 
 ### Return type: [messages\_Stickers](../types/messages_Stickers.md)
@@ -34,7 +34,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Stickers = $MadelineProto->messages->getStickers(['emoticon' => 'string', 'hash' => 'string', ]);
+$messages_Stickers = $MadelineProto->messages->getStickers(['emoticon' => 'string', 'hash' => int, ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -46,7 +46,7 @@ POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
 Parameters:
 
 * method - messages.getStickers
-* params - `{"emoticon": "string", "hash": "string", }`
+* params - `{"emoticon": "string", "hash": int, }`
 
 
 
@@ -58,7 +58,7 @@ Parameters:
 
 emoticon - Json encoded string
 
-hash - Json encoded string
+hash - Json encoded int
 
 
 
@@ -66,6 +66,6 @@ hash - Json encoded string
 Or, if you're into Lua:
 
 ```
-messages_Stickers = messages.getStickers({emoticon='string', hash='string', })
+messages_Stickers = messages.getStickers({emoticon='string', hash=int, })
 ```
 

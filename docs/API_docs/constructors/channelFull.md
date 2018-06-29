@@ -26,7 +26,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |read\_outbox\_max\_id|[int](../types/int.md) | Yes|
 |unread\_count|[int](../types/int.md) | Yes|
 |chat\_photo|[Photo](../types/Photo.md) | Optional|
-|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|
+|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Yes|
 |exported\_invite|[ExportedChatInvite](../types/ExportedChatInvite.md) | Yes|
 |bot\_info|Array of [BotInfo](../types/BotInfo.md) | Yes|
 |migrated\_from\_chat\_id|[int](../types/int.md) | Optional|

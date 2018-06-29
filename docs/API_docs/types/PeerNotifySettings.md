@@ -10,8 +10,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[peerNotifySettingsEmpty](../constructors/peerNotifySettingsEmpty.md)  
-
 [peerNotifySettings](../constructors/peerNotifySettings.md)  
 
 

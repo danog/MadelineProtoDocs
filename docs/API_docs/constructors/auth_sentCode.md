@@ -17,6 +17,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |phone\_code\_hash|[string](../types/string.md) | Yes|
 |next\_type|[auth\_CodeType](../types/auth_CodeType.md) | Optional|
 |timeout|[int](../types/int.md) | Optional|
+|terms\_of\_service|[help\_TermsOfService](../types/help_TermsOfService.md) | Optional|
 
 
 
@@ -26,13 +27,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$auth_sentCode = ['_' => 'auth.sentCode', 'phone_registered' => Bool, 'type' => auth_SentCodeType, 'phone_code_hash' => 'string', 'next_type' => auth_CodeType, 'timeout' => int];
+$auth_sentCode = ['_' => 'auth.sentCode', 'phone_registered' => Bool, 'type' => auth_SentCodeType, 'phone_code_hash' => 'string', 'next_type' => auth_CodeType, 'timeout' => int, 'terms_of_service' => help_TermsOfService];
 ```  
 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "auth.sentCode", "phone_registered": Bool, "type": auth_SentCodeType, "phone_code_hash": "string", "next_type": auth_CodeType, "timeout": int}
+{"_": "auth.sentCode", "phone_registered": Bool, "type": auth_SentCodeType, "phone_code_hash": "string", "next_type": auth_CodeType, "timeout": int, "terms_of_service": help_TermsOfService}
 ```
 
 
@@ -40,7 +41,7 @@ Or, if you're into Lua:
 
 
 ```
-auth_sentCode={_='auth.sentCode', phone_registered=Bool, type=auth_SentCodeType, phone_code_hash='string', next_type=auth_CodeType, timeout=int}
+auth_sentCode={_='auth.sentCode', phone_registered=Bool, type=auth_SentCodeType, phone_code_hash='string', next_type=auth_CodeType, timeout=int, terms_of_service=help_TermsOfService}
 
 ```
 

@@ -7,20 +7,29 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Back to API documentation index](..)
 
 ***
+<br><br>[$accessPointRule](../constructors/accessPointRule.md) = \['phone_prefix_rules' => [string](../types/string.md), 'dc_id' => [int](../types/int.md), 'ips' => \[[IpPort](../types/IpPort.md)\], \];<a name="accessPointRule"></a>  
+
+***
 <br><br>[$accountDaysTTL](../constructors/accountDaysTTL.md) = \['days' => [int](../types/int.md), \];<a name="accountDaysTTL"></a>  
 
 ***
-<br><br>[$account\_authorizations](../constructors/account_authorizations.md) = \['authorizations' => \[[Authorization](../types/Authorization.md)\], \];<a name="account_authorizations"></a>  
+<br><br>[$account\_authorizationForm](../constructors/account_authorizationForm.md) = \['selfie_required' => [Bool](../types/Bool.md), 'required_types' => \[[SecureValueType](../types/SecureValueType.md)\], 'values' => \[[SecureValue](../types/SecureValue.md)\], 'errors' => \[[SecureValueError](../types/SecureValueError.md)\], 'users' => \[[User](../types/User.md)\], 'privacy_policy_url' => [string](../types/string.md), \];<a name="account_authorizationForm"></a>  
 
-[$account\_noPassword](../constructors/account_noPassword.md) = \['new_salt' => [bytes](../types/bytes.md), 'email_unconfirmed_pattern' => [string](../types/string.md), \];<a name="account_noPassword"></a>  
+[$account\_authorizations](../constructors/account_authorizations.md) = \['authorizations' => \[[Authorization](../types/Authorization.md)\], \];<a name="account_authorizations"></a>  
 
-[$account\_password](../constructors/account_password.md) = \['current_salt' => [bytes](../types/bytes.md), 'new_salt' => [bytes](../types/bytes.md), 'hint' => [string](../types/string.md), 'has_recovery' => [Bool](../types/Bool.md), 'email_unconfirmed_pattern' => [string](../types/string.md), \];<a name="account_password"></a>  
+[$account\_noPassword](../constructors/account_noPassword.md) = \['new_salt' => [bytes](../types/bytes.md), 'new_secure_salt' => [bytes](../types/bytes.md), 'secure_random' => [bytes](../types/bytes.md), 'email_unconfirmed_pattern' => [string](../types/string.md), \];<a name="account_noPassword"></a>  
 
-[$account\_passwordInputSettings](../constructors/account_passwordInputSettings.md) = \['new_salt' => [bytes](../types/bytes.md), 'new_password_hash' => [bytes](../types/bytes.md), 'hint' => [string](../types/string.md), 'email' => [string](../types/string.md), \];<a name="account_passwordInputSettings"></a>  
+[$account\_password](../constructors/account_password.md) = \['has_recovery' => [Bool](../types/Bool.md), 'has_secure_values' => [Bool](../types/Bool.md), 'current_salt' => [bytes](../types/bytes.md), 'new_salt' => [bytes](../types/bytes.md), 'new_secure_salt' => [bytes](../types/bytes.md), 'secure_random' => [bytes](../types/bytes.md), 'hint' => [string](../types/string.md), 'email_unconfirmed_pattern' => [string](../types/string.md), \];<a name="account_password"></a>  
 
-[$account\_passwordSettings](../constructors/account_passwordSettings.md) = \['email' => [string](../types/string.md), \];<a name="account_passwordSettings"></a>  
+[$account\_passwordInputSettings](../constructors/account_passwordInputSettings.md) = \['new_salt' => [bytes](../types/bytes.md), 'new_password_hash' => [bytes](../types/bytes.md), 'hint' => [string](../types/string.md), 'email' => [string](../types/string.md), 'new_secure_salt' => [bytes](../types/bytes.md), 'new_secure_secret' => [bytes](../types/bytes.md), 'new_secure_secret_id' => [long](../types/long.md), \];<a name="account_passwordInputSettings"></a>  
+
+[$account\_passwordSettings](../constructors/account_passwordSettings.md) = \['email' => [string](../types/string.md), 'secure_salt' => [bytes](../types/bytes.md), 'secure_secret' => [bytes](../types/bytes.md), 'secure_secret_id' => [long](../types/long.md), \];<a name="account_passwordSettings"></a>  
 
 [$account\_privacyRules](../constructors/account_privacyRules.md) = \['rules' => \[[PrivacyRule](../types/PrivacyRule.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="account_privacyRules"></a>  
+
+[$account\_sentEmailCode](../constructors/account_sentEmailCode.md) = \['email_pattern' => [string](../types/string.md), 'length' => [int](../types/int.md), \];<a name="account_sentEmailCode"></a>  
+
+[$account\_takeout](../constructors/account_takeout.md) = \['id' => [long](../types/long.md), \];<a name="account_takeout"></a>  
 
 [$account\_tmpPassword](../constructors/account_tmpPassword.md) = \['tmp_password' => [bytes](../types/bytes.md), 'valid_until' => [int](../types/int.md), \];<a name="account_tmpPassword"></a>  
 
@@ -41,7 +50,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$auth\_passwordRecovery](../constructors/auth_passwordRecovery.md) = \['email_pattern' => [string](../types/string.md), \];<a name="auth_passwordRecovery"></a>  
 
-[$auth\_sentCode](../constructors/auth_sentCode.md) = \['phone_registered' => [Bool](../types/Bool.md), 'type' => [auth\_SentCodeType](../types/auth_SentCodeType.md), 'phone_code_hash' => [string](../types/string.md), 'next_type' => [auth\_CodeType](../types/auth_CodeType.md), 'timeout' => [int](../types/int.md), \];<a name="auth_sentCode"></a>  
+[$auth\_sentCode](../constructors/auth_sentCode.md) = \['phone_registered' => [Bool](../types/Bool.md), 'type' => [auth\_SentCodeType](../types/auth_SentCodeType.md), 'phone_code_hash' => [string](../types/string.md), 'next_type' => [auth\_CodeType](../types/auth_CodeType.md), 'timeout' => [int](../types/int.md), 'terms_of_service' => [help\_TermsOfService](../types/help_TermsOfService.md), \];<a name="auth_sentCode"></a>  
 
 [$auth\_sentCodeTypeApp](../constructors/auth_sentCodeTypeApp.md) = \['length' => [int](../types/int.md), \];<a name="auth_sentCodeTypeApp"></a>  
 
@@ -79,19 +88,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$botInlineMessageMediaGeo](../constructors/botInlineMessageMediaGeo.md) = \['geo' => [GeoPoint](../types/GeoPoint.md), 'period' => [int](../types/int.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), \];<a name="botInlineMessageMediaGeo"></a>  
 
 ***
-<br><br>[$botInlineMessageMediaVenue](../constructors/botInlineMessageMediaVenue.md) = \['geo' => [GeoPoint](../types/GeoPoint.md), 'title' => [string](../types/string.md), 'address' => [string](../types/string.md), 'provider' => [string](../types/string.md), 'venue_id' => [string](../types/string.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), \];<a name="botInlineMessageMediaVenue"></a>  
+<br><br>[$botInlineMessageMediaVenue](../constructors/botInlineMessageMediaVenue.md) = \['geo' => [GeoPoint](../types/GeoPoint.md), 'title' => [string](../types/string.md), 'address' => [string](../types/string.md), 'provider' => [string](../types/string.md), 'venue_id' => [string](../types/string.md), 'venue_type' => [string](../types/string.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), \];<a name="botInlineMessageMediaVenue"></a>  
 
 ***
 <br><br>[$botInlineMessageText](../constructors/botInlineMessageText.md) = \['no_webpage' => [Bool](../types/Bool.md), 'message' => [string](../types/string.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), \];<a name="botInlineMessageText"></a>  
 
 ***
-<br><br>[$botInlineResult](../constructors/botInlineResult.md) = \['id' => [string](../types/string.md), 'type' => [string](../types/string.md), 'title' => [string](../types/string.md), 'description' => [string](../types/string.md), 'url' => [string](../types/string.md), 'thumb_url' => [string](../types/string.md), 'content_url' => [string](../types/string.md), 'content_type' => [string](../types/string.md), 'w' => [int](../types/int.md), 'h' => [int](../types/int.md), 'duration' => [int](../types/int.md), 'send_message' => [BotInlineMessage](../types/BotInlineMessage.md), \];<a name="botInlineResult"></a>  
+<br><br>[$botInlineResult](../constructors/botInlineResult.md) = \['id' => [string](../types/string.md), 'type' => [string](../types/string.md), 'title' => [string](../types/string.md), 'description' => [string](../types/string.md), 'url' => [string](../types/string.md), 'thumb' => [WebDocument](../types/WebDocument.md), 'content' => [WebDocument](../types/WebDocument.md), 'send_message' => [BotInlineMessage](../types/BotInlineMessage.md), \];<a name="botInlineResult"></a>  
 
 ***
 <br><br>[$cdnConfig](../constructors/cdnConfig.md) = \['public_keys' => \[[CdnPublicKey](../types/CdnPublicKey.md)\], \];<a name="cdnConfig"></a>  
-
-***
-<br><br>[$cdnFileHash](../constructors/cdnFileHash.md) = \['offset' => [int](../types/int.md), 'limit' => [int](../types/int.md), 'hash' => [bytes](../types/bytes.md), \];<a name="cdnFileHash"></a>  
 
 ***
 <br><br>[$cdnPublicKey](../constructors/cdnPublicKey.md) = \['dc_id' => [int](../types/int.md), 'public_key' => [string](../types/string.md), \];<a name="cdnPublicKey"></a>  
@@ -154,7 +160,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$channelAdminLogEventsFilter](../constructors/channelAdminLogEventsFilter.md) = \['join' => [Bool](../types/Bool.md), 'leave' => [Bool](../types/Bool.md), 'invite' => [Bool](../types/Bool.md), 'ban' => [Bool](../types/Bool.md), 'unban' => [Bool](../types/Bool.md), 'kick' => [Bool](../types/Bool.md), 'unkick' => [Bool](../types/Bool.md), 'promote' => [Bool](../types/Bool.md), 'demote' => [Bool](../types/Bool.md), 'info' => [Bool](../types/Bool.md), 'settings' => [Bool](../types/Bool.md), 'pinned' => [Bool](../types/Bool.md), 'edit' => [Bool](../types/Bool.md), 'delete' => [Bool](../types/Bool.md), \];<a name="channelAdminLogEventsFilter"></a>  
 
 ***
-<br><br>[$channelAdminRights](../constructors/channelAdminRights.md) = \['change_info' => [Bool](../types/Bool.md), 'post_messages' => [Bool](../types/Bool.md), 'edit_messages' => [Bool](../types/Bool.md), 'delete_messages' => [Bool](../types/Bool.md), 'ban_users' => [Bool](../types/Bool.md), 'invite_users' => [Bool](../types/Bool.md), 'invite_link' => [Bool](../types/Bool.md), 'pin_messages' => [Bool](../types/Bool.md), 'add_admins' => [Bool](../types/Bool.md), \];<a name="channelAdminRights"></a>  
+<br><br>[$channelAdminRights](../constructors/channelAdminRights.md) = \['change_info' => [Bool](../types/Bool.md), 'post_messages' => [Bool](../types/Bool.md), 'edit_messages' => [Bool](../types/Bool.md), 'delete_messages' => [Bool](../types/Bool.md), 'ban_users' => [Bool](../types/Bool.md), 'invite_users' => [Bool](../types/Bool.md), 'invite_link' => [Bool](../types/Bool.md), 'pin_messages' => [Bool](../types/Bool.md), 'add_admins' => [Bool](../types/Bool.md), 'manage_call' => [Bool](../types/Bool.md), \];<a name="channelAdminRights"></a>  
 
 ***
 <br><br>[$channelBannedRights](../constructors/channelBannedRights.md) = \['view_messages' => [Bool](../types/Bool.md), 'send_messages' => [Bool](../types/Bool.md), 'send_media' => [Bool](../types/Bool.md), 'send_stickers' => [Bool](../types/Bool.md), 'send_gifs' => [Bool](../types/Bool.md), 'send_games' => [Bool](../types/Bool.md), 'send_inline' => [Bool](../types/Bool.md), 'embed_links' => [Bool](../types/Bool.md), 'until_date' => [int](../types/int.md), \];<a name="channelBannedRights"></a>  
@@ -259,7 +265,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$chatPhotoEmpty](../constructors/chatPhotoEmpty.md) = \[\];<a name="chatPhotoEmpty"></a>  
 
 ***
-<br><br>[$config](../constructors/config.md) = \['phonecalls_enabled' => [Bool](../types/Bool.md), 'default_p2p_contacts' => [Bool](../types/Bool.md), 'date' => [int](../types/int.md), 'expires' => [int](../types/int.md), 'test_mode' => [Bool](../types/Bool.md), 'this_dc' => [int](../types/int.md), 'dc_options' => \[[DcOption](../types/DcOption.md)\], 'chat_size_max' => [int](../types/int.md), 'megagroup_size_max' => [int](../types/int.md), 'forwarded_count_max' => [int](../types/int.md), 'online_update_period_ms' => [int](../types/int.md), 'offline_blur_timeout_ms' => [int](../types/int.md), 'offline_idle_timeout_ms' => [int](../types/int.md), 'online_cloud_timeout_ms' => [int](../types/int.md), 'notify_cloud_delay_ms' => [int](../types/int.md), 'notify_default_delay_ms' => [int](../types/int.md), 'chat_big_size' => [int](../types/int.md), 'push_chat_period_ms' => [int](../types/int.md), 'push_chat_limit' => [int](../types/int.md), 'saved_gifs_limit' => [int](../types/int.md), 'edit_time_limit' => [int](../types/int.md), 'rating_e_decay' => [int](../types/int.md), 'stickers_recent_limit' => [int](../types/int.md), 'stickers_faved_limit' => [int](../types/int.md), 'channels_read_media_period' => [int](../types/int.md), 'tmp_sessions' => [int](../types/int.md), 'pinned_dialogs_count_max' => [int](../types/int.md), 'call_receive_timeout_ms' => [int](../types/int.md), 'call_ring_timeout_ms' => [int](../types/int.md), 'call_connect_timeout_ms' => [int](../types/int.md), 'call_packet_timeout_ms' => [int](../types/int.md), 'me_url_prefix' => [string](../types/string.md), 'suggested_lang_code' => [string](../types/string.md), 'lang_pack_version' => [int](../types/int.md), 'disabled_features' => \[[DisabledFeature](../types/DisabledFeature.md)\], \];<a name="config"></a>  
+<br><br>[$config](../constructors/config.md) = \['phonecalls_enabled' => [Bool](../types/Bool.md), 'default_p2p_contacts' => [Bool](../types/Bool.md), 'preload_featured_stickers' => [Bool](../types/Bool.md), 'ignore_phone_entities' => [Bool](../types/Bool.md), 'revoke_pm_inbox' => [Bool](../types/Bool.md), 'blocked_mode' => [Bool](../types/Bool.md), 'date' => [int](../types/int.md), 'expires' => [int](../types/int.md), 'test_mode' => [Bool](../types/Bool.md), 'this_dc' => [int](../types/int.md), 'dc_options' => \[[DcOption](../types/DcOption.md)\], 'chat_size_max' => [int](../types/int.md), 'megagroup_size_max' => [int](../types/int.md), 'forwarded_count_max' => [int](../types/int.md), 'online_update_period_ms' => [int](../types/int.md), 'offline_blur_timeout_ms' => [int](../types/int.md), 'offline_idle_timeout_ms' => [int](../types/int.md), 'online_cloud_timeout_ms' => [int](../types/int.md), 'notify_cloud_delay_ms' => [int](../types/int.md), 'notify_default_delay_ms' => [int](../types/int.md), 'push_chat_period_ms' => [int](../types/int.md), 'push_chat_limit' => [int](../types/int.md), 'saved_gifs_limit' => [int](../types/int.md), 'edit_time_limit' => [int](../types/int.md), 'revoke_time_limit' => [int](../types/int.md), 'revoke_pm_time_limit' => [int](../types/int.md), 'rating_e_decay' => [int](../types/int.md), 'stickers_recent_limit' => [int](../types/int.md), 'stickers_faved_limit' => [int](../types/int.md), 'channels_read_media_period' => [int](../types/int.md), 'tmp_sessions' => [int](../types/int.md), 'pinned_dialogs_count_max' => [int](../types/int.md), 'call_receive_timeout_ms' => [int](../types/int.md), 'call_ring_timeout_ms' => [int](../types/int.md), 'call_connect_timeout_ms' => [int](../types/int.md), 'call_packet_timeout_ms' => [int](../types/int.md), 'me_url_prefix' => [string](../types/string.md), 'autoupdate_url_prefix' => [string](../types/string.md), 'suggested_lang_code' => [string](../types/string.md), 'lang_pack_version' => [int](../types/int.md), \];<a name="config"></a>  
 
 ***
 <br><br>[$contact](../constructors/contact.md) = \['user_id' => [int](../types/int.md), 'mutual' => [Bool](../types/Bool.md), \];<a name="contact"></a>  
@@ -307,7 +313,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$dataJSON](../constructors/dataJSON.md) = \['data' => [string](../types/string.md), \];<a name="dataJSON"></a>  
 
 ***
-<br><br>[$dcOption](../constructors/dcOption.md) = \['ipv6' => [Bool](../types/Bool.md), 'media_only' => [Bool](../types/Bool.md), 'tcpo_only' => [Bool](../types/Bool.md), 'cdn' => [Bool](../types/Bool.md), 'static' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'ip_address' => [string](../types/string.md), 'port' => [int](../types/int.md), \];<a name="dcOption"></a>  
+<br><br>[$dcOption](../constructors/dcOption.md) = \['ipv6' => [Bool](../types/Bool.md), 'media_only' => [Bool](../types/Bool.md), 'tcpo_only' => [Bool](../types/Bool.md), 'cdn' => [Bool](../types/Bool.md), 'static' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'ip_address' => [string](../types/string.md), 'port' => [int](../types/int.md), 'secret' => [bytes](../types/bytes.md), \];<a name="dcOption"></a>  
 
 ***
 <br><br>[$decryptedDataBlock](../constructors/decryptedDataBlock.md) = \['voice_call_id' => [int128](../types/int128.md), 'in_seq_no' => [int](../types/int.md), 'out_seq_no' => [int](../types/int.md), 'recent_received_mask' => [int](../types/int.md), 'proto' => [int](../types/int.md), 'extra' => [string](../types/string.md), 'raw_data' => [string](../types/string.md), \];<a name="decryptedDataBlock"></a>  
@@ -394,7 +400,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$dialog](../constructors/dialog.md) = \['pinned' => [Bool](../types/Bool.md), 'peer' => [Peer](../types/Peer.md), 'top_message' => [int](../types/int.md), 'read_inbox_max_id' => [int](../types/int.md), 'read_outbox_max_id' => [int](../types/int.md), 'unread_count' => [int](../types/int.md), 'unread_mentions_count' => [int](../types/int.md), 'notify_settings' => [PeerNotifySettings](../types/PeerNotifySettings.md), 'pts' => [int](../types/int.md), 'draft' => [DraftMessage](../types/DraftMessage.md), \];<a name="dialog"></a>  
 
 ***
-<br><br>[$disabledFeature](../constructors/disabledFeature.md) = \['feature' => [string](../types/string.md), 'description' => [string](../types/string.md), \];<a name="disabledFeature"></a>  
+<br><br>[$dialogPeer](../constructors/dialogPeer.md) = \['peer' => [Peer](../types/Peer.md), \];<a name="dialogPeer"></a>  
 
 ***
 <br><br>[$document](../constructors/document.md) = \['id' => [long](../types/long.md), 'access_hash' => [long](../types/long.md), 'date' => [int](../types/int.md), 'mime_type' => [string](../types/string.md), 'size' => [int](../types/int.md), 'thumb' => [PhotoSize](../types/PhotoSize.md), 'dc_id' => [int](../types/int.md), 'version' => [int](../types/int.md), 'attributes' => \[[DocumentAttribute](../types/DocumentAttribute.md)\], \];<a name="document"></a>  
@@ -463,6 +469,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$exportedMessageLink](../constructors/exportedMessageLink.md) = \['link' => [string](../types/string.md), 'html' => [string](../types/string.md), \];<a name="exportedMessageLink"></a>  
 
 ***
+<br><br>[$fileHash](../constructors/fileHash.md) = \['offset' => [int](../types/int.md), 'limit' => [int](../types/int.md), 'hash' => [bytes](../types/bytes.md), \];<a name="fileHash"></a>  
+
+***
 <br><br>[$fileLocation](../constructors/fileLocation.md) = \['dc_id' => [int](../types/int.md), 'volume_id' => [long](../types/long.md), 'local_id' => [int](../types/int.md), 'secret' => [long](../types/long.md), \];<a name="fileLocation"></a>  
 
 ***
@@ -486,15 +495,29 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ***
 <br><br>[$help\_appUpdate](../constructors/help_appUpdate.md) = \['id' => [int](../types/int.md), 'critical' => [Bool](../types/Bool.md), 'url' => [string](../types/string.md), 'text' => [string](../types/string.md), \];<a name="help_appUpdate"></a>  
 
+[$help\_configSimple](../constructors/help_configSimple.md) = \['date' => [int](../types/int.md), 'expires' => [int](../types/int.md), 'rules' => \[[AccessPointRule](../types/AccessPointRule.md)\], \];<a name="help_configSimple"></a>  
+
+[$help\_deepLinkInfo](../constructors/help_deepLinkInfo.md) = \['update_app' => [Bool](../types/Bool.md), 'message' => [string](../types/string.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], \];<a name="help_deepLinkInfo"></a>  
+
+[$help\_deepLinkInfoEmpty](../constructors/help_deepLinkInfoEmpty.md) = \[\];<a name="help_deepLinkInfoEmpty"></a>  
+
 [$help\_inviteText](../constructors/help_inviteText.md) = \['message' => [string](../types/string.md), \];<a name="help_inviteText"></a>  
 
 [$help\_noAppUpdate](../constructors/help_noAppUpdate.md) = \[\];<a name="help_noAppUpdate"></a>  
+
+[$help\_proxyDataEmpty](../constructors/help_proxyDataEmpty.md) = \['expires' => [int](../types/int.md), \];<a name="help_proxyDataEmpty"></a>  
+
+[$help\_proxyDataPromo](../constructors/help_proxyDataPromo.md) = \['expires' => [int](../types/int.md), 'peer' => [Peer](../types/Peer.md), 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="help_proxyDataPromo"></a>  
 
 [$help\_recentMeUrls](../constructors/help_recentMeUrls.md) = \['urls' => \[[RecentMeUrl](../types/RecentMeUrl.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="help_recentMeUrls"></a>  
 
 [$help\_support](../constructors/help_support.md) = \['phone_number' => [string](../types/string.md), 'user' => [User](../types/User.md), \];<a name="help_support"></a>  
 
-[$help\_termsOfService](../constructors/help_termsOfService.md) = \['text' => [string](../types/string.md), \];<a name="help_termsOfService"></a>  
+[$help\_termsOfService](../constructors/help_termsOfService.md) = \['popup' => [Bool](../types/Bool.md), 'id' => [DataJSON](../types/DataJSON.md), 'text' => [string](../types/string.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], 'min_age_confirm' => [int](../types/int.md), \];<a name="help_termsOfService"></a>  
+
+[$help\_termsOfServiceUpdate](../constructors/help_termsOfServiceUpdate.md) = \['expires' => [int](../types/int.md), 'terms_of_service' => [help\_TermsOfService](../types/help_TermsOfService.md), \];<a name="help_termsOfServiceUpdate"></a>  
+
+[$help\_termsOfServiceUpdateEmpty](../constructors/help_termsOfServiceUpdateEmpty.md) = \['expires' => [int](../types/int.md), \];<a name="help_termsOfServiceUpdateEmpty"></a>  
 
 ***
 <br><br>[$highScore](../constructors/highScore.md) = \['pos' => [int](../types/int.md), 'user_id' => [int](../types/int.md), 'score' => [int](../types/int.md), \];<a name="highScore"></a>  
@@ -524,13 +547,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$inputBotInlineMessageMediaGeo](../constructors/inputBotInlineMessageMediaGeo.md) = \['geo_point' => [InputGeoPoint](../types/InputGeoPoint.md), 'period' => [int](../types/int.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), \];<a name="inputBotInlineMessageMediaGeo"></a>  
 
 ***
-<br><br>[$inputBotInlineMessageMediaVenue](../constructors/inputBotInlineMessageMediaVenue.md) = \['geo_point' => [InputGeoPoint](../types/InputGeoPoint.md), 'title' => [string](../types/string.md), 'address' => [string](../types/string.md), 'provider' => [string](../types/string.md), 'venue_id' => [string](../types/string.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), \];<a name="inputBotInlineMessageMediaVenue"></a>  
+<br><br>[$inputBotInlineMessageMediaVenue](../constructors/inputBotInlineMessageMediaVenue.md) = \['geo_point' => [InputGeoPoint](../types/InputGeoPoint.md), 'title' => [string](../types/string.md), 'address' => [string](../types/string.md), 'provider' => [string](../types/string.md), 'venue_id' => [string](../types/string.md), 'venue_type' => [string](../types/string.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), \];<a name="inputBotInlineMessageMediaVenue"></a>  
 
 ***
 <br><br>[$inputBotInlineMessageText](../constructors/inputBotInlineMessageText.md) = \['no_webpage' => [Bool](../types/Bool.md), 'message' => [string](../types/string.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), \];<a name="inputBotInlineMessageText"></a>  
 
 ***
-<br><br>[$inputBotInlineResult](../constructors/inputBotInlineResult.md) = \['id' => [string](../types/string.md), 'type' => [string](../types/string.md), 'title' => [string](../types/string.md), 'description' => [string](../types/string.md), 'url' => [string](../types/string.md), 'thumb_url' => [string](../types/string.md), 'content_url' => [string](../types/string.md), 'content_type' => [string](../types/string.md), 'w' => [int](../types/int.md), 'h' => [int](../types/int.md), 'duration' => [int](../types/int.md), 'send_message' => [InputBotInlineMessage](../types/InputBotInlineMessage.md), \];<a name="inputBotInlineResult"></a>  
+<br><br>[$inputBotInlineResult](../constructors/inputBotInlineResult.md) = \['id' => [string](../types/string.md), 'type' => [string](../types/string.md), 'title' => [string](../types/string.md), 'description' => [string](../types/string.md), 'url' => [string](../types/string.md), 'thumb' => [InputWebDocument](../types/InputWebDocument.md), 'content' => [InputWebDocument](../types/InputWebDocument.md), 'send_message' => [InputBotInlineMessage](../types/InputBotInlineMessage.md), \];<a name="inputBotInlineResult"></a>  
 
 ***
 <br><br>[$inputBotInlineResultDocument](../constructors/inputBotInlineResultDocument.md) = \['id' => [string](../types/string.md), 'type' => [string](../types/string.md), 'title' => [string](../types/string.md), 'description' => [string](../types/string.md), 'document' => [InputDocument](../types/InputDocument.md), 'send_message' => [InputBotInlineMessage](../types/InputBotInlineMessage.md), \];<a name="inputBotInlineResultDocument"></a>  
@@ -555,6 +578,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$inputChatUploadedPhoto](../constructors/inputChatUploadedPhoto.md) = \['file' => [InputFile](../types/InputFile.md), \];<a name="inputChatUploadedPhoto"></a>  
+
+***
+<br><br>[$inputClientProxy](../constructors/inputClientProxy.md) = \['address' => [string](../types/string.md), 'port' => [int](../types/int.md), \];<a name="inputClientProxy"></a>  
+
+***
+<br><br>[$inputDialogPeer](../constructors/inputDialogPeer.md) = \['peer' => [InputPeer](../types/InputPeer.md), \];<a name="inputDialogPeer"></a>  
 
 ***
 <br><br>[$inputDocument](../constructors/inputDocument.md) = \['id' => [long](../types/long.md), 'access_hash' => [long](../types/long.md), \];<a name="inputDocument"></a>  
@@ -707,9 +736,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$inputMessagesFilterVoice](../constructors/inputMessagesFilterVoice.md) = \[\];<a name="inputMessagesFilterVoice"></a>  
 
 ***
-<br><br>[$inputNotifyAll](../constructors/inputNotifyAll.md) = \[\];<a name="inputNotifyAll"></a>  
-
-***
 <br><br>[$inputNotifyChats](../constructors/inputNotifyChats.md) = \[\];<a name="inputNotifyChats"></a>  
 
 ***
@@ -738,12 +764,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$inputPeerEmpty](../constructors/inputPeerEmpty.md) = \[\];<a name="inputPeerEmpty"></a>  
-
-***
-<br><br>[$inputPeerNotifyEventsAll](../constructors/inputPeerNotifyEventsAll.md) = \[\];<a name="inputPeerNotifyEventsAll"></a>  
-
-***
-<br><br>[$inputPeerNotifyEventsEmpty](../constructors/inputPeerNotifyEventsEmpty.md) = \[\];<a name="inputPeerNotifyEventsEmpty"></a>  
 
 ***
 <br><br>[$inputPeerNotifySettings](../constructors/inputPeerNotifySettings.md) = \['show_previews' => [Bool](../types/Bool.md), 'silent' => [Bool](../types/Bool.md), 'mute_until' => [int](../types/int.md), 'sound' => [string](../types/string.md), \];<a name="inputPeerNotifySettings"></a>  
@@ -806,6 +826,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$inputReportReasonViolence](../constructors/inputReportReasonViolence.md) = \[\];<a name="inputReportReasonViolence"></a>  
 
 ***
+<br><br>[$inputSecureFile](../constructors/inputSecureFile.md) = \['id' => [long](../types/long.md), 'access_hash' => [long](../types/long.md), \];<a name="inputSecureFile"></a>  
+
+***
+<br><br>[$inputSecureFileLocation](../constructors/inputSecureFileLocation.md) = \['id' => [long](../types/long.md), 'access_hash' => [long](../types/long.md), \];<a name="inputSecureFileLocation"></a>  
+
+***
+<br><br>[$inputSecureFileUploaded](../constructors/inputSecureFileUploaded.md) = \['id' => [long](../types/long.md), 'parts' => [int](../types/int.md), 'md5_checksum' => [string](../types/string.md), 'file_hash' => [bytes](../types/bytes.md), 'secret' => [bytes](../types/bytes.md), \];<a name="inputSecureFileUploaded"></a>  
+
+***
+<br><br>[$inputSecureValue](../constructors/inputSecureValue.md) = \['type' => [SecureValueType](../types/SecureValueType.md), 'data' => [SecureData](../types/SecureData.md), 'front_side' => [InputSecureFile](../types/InputSecureFile.md), 'reverse_side' => [InputSecureFile](../types/InputSecureFile.md), 'selfie' => [InputSecureFile](../types/InputSecureFile.md), 'files' => \[[InputSecureFile](../types/InputSecureFile.md)\], 'plain_data' => [SecurePlainData](../types/SecurePlainData.md), \];<a name="inputSecureValue"></a>  
+
+***
 <br><br>[$inputSingleMedia](../constructors/inputSingleMedia.md) = \['media' => [InputMedia](../types/InputMedia.md), 'message' => [string](../types/string.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], \];<a name="inputSingleMedia"></a>  
 
 ***
@@ -827,6 +859,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$inputStickeredMediaPhoto](../constructors/inputStickeredMediaPhoto.md) = \['id' => [InputPhoto](../types/InputPhoto.md), \];<a name="inputStickeredMediaPhoto"></a>  
 
 ***
+<br><br>[$inputTakeoutFileLocation](../constructors/inputTakeoutFileLocation.md) = \[\];<a name="inputTakeoutFileLocation"></a>  
+
+***
 <br><br>[$inputUser](../constructors/inputUser.md) = \['user_id' => [int](../types/int.md), 'access_hash' => [long](../types/long.md), \];<a name="inputUser"></a>  
 
 ***
@@ -843,6 +878,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$invoice](../constructors/invoice.md) = \['test' => [Bool](../types/Bool.md), 'name_requested' => [Bool](../types/Bool.md), 'phone_requested' => [Bool](../types/Bool.md), 'email_requested' => [Bool](../types/Bool.md), 'shipping_address_requested' => [Bool](../types/Bool.md), 'flexible' => [Bool](../types/Bool.md), 'phone_to_provider' => [Bool](../types/Bool.md), 'email_to_provider' => [Bool](../types/Bool.md), 'currency' => [string](../types/string.md), 'prices' => \[[LabeledPrice](../types/LabeledPrice.md)\], \];<a name="invoice"></a>  
+
+***
+<br><br>[$ipPort](../constructors/ipPort.md) = \['ipv4' => [int](../types/int.md), 'port' => [int](../types/int.md), \];<a name="ipPort"></a>  
+
+***
+<br><br>[$ipPortSecret](../constructors/ipPortSecret.md) = \['ipv4' => [int](../types/int.md), 'port' => [int](../types/int.md), 'secret' => [bytes](../types/bytes.md), \];<a name="ipPortSecret"></a>  
 
 ***
 <br><br>[$keyboardButton](../constructors/keyboardButton.md) = \['text' => [string](../types/string.md), \];<a name="keyboardButton"></a>  
@@ -894,6 +935,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$message](../constructors/message.md) = \['out' => [Bool](../types/Bool.md), 'mentioned' => [Bool](../types/Bool.md), 'media_unread' => [Bool](../types/Bool.md), 'silent' => [Bool](../types/Bool.md), 'post' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'from_id' => [int](../types/int.md), 'to_id' => [Peer](../types/Peer.md), 'fwd_from' => [MessageFwdHeader](../types/MessageFwdHeader.md), 'via_bot_id' => [int](../types/int.md), 'reply_to_msg_id' => [int](../types/int.md), 'date' => [int](../types/int.md), 'message' => [string](../types/string.md), 'media' => [MessageMedia](../types/MessageMedia.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], 'views' => [int](../types/int.md), 'edit_date' => [int](../types/int.md), 'post_author' => [string](../types/string.md), 'grouped_id' => [long](../types/long.md), \];<a name="message"></a>  
+
+***
+<br><br>[$messageActionBotAllowed](../constructors/messageActionBotAllowed.md) = \['domain' => [string](../types/string.md), \];<a name="messageActionBotAllowed"></a>  
 
 ***
 <br><br>[$messageActionChannelCreate](../constructors/messageActionChannelCreate.md) = \['title' => [string](../types/string.md), \];<a name="messageActionChannelCreate"></a>  
@@ -953,6 +997,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$messageActionScreenshotTaken](../constructors/messageActionScreenshotTaken.md) = \[\];<a name="messageActionScreenshotTaken"></a>  
 
 ***
+<br><br>[$messageActionSecureValuesSent](../constructors/messageActionSecureValuesSent.md) = \['types' => \[[SecureValueType](../types/SecureValueType.md)\], \];<a name="messageActionSecureValuesSent"></a>  
+
+***
+<br><br>[$messageActionSecureValuesSentMe](../constructors/messageActionSecureValuesSentMe.md) = \['values' => \[[SecureValue](../types/SecureValue.md)\], 'credentials' => [SecureCredentialsEncrypted](../types/SecureCredentialsEncrypted.md), \];<a name="messageActionSecureValuesSentMe"></a>  
+
+***
 <br><br>[$messageEmpty](../constructors/messageEmpty.md) = \['id' => [int](../types/int.md), \];<a name="messageEmpty"></a>  
 
 ***
@@ -960,6 +1010,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$messageEntityBotCommand](../constructors/messageEntityBotCommand.md) = \['offset' => [int](../types/int.md), 'length' => [int](../types/int.md), \];<a name="messageEntityBotCommand"></a>  
+
+***
+<br><br>[$messageEntityCashtag](../constructors/messageEntityCashtag.md) = \['offset' => [int](../types/int.md), 'length' => [int](../types/int.md), \];<a name="messageEntityCashtag"></a>  
 
 ***
 <br><br>[$messageEntityCode](../constructors/messageEntityCode.md) = \['offset' => [int](../types/int.md), 'length' => [int](../types/int.md), \];<a name="messageEntityCode"></a>  
@@ -978,6 +1031,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$messageEntityMentionName](../constructors/messageEntityMentionName.md) = \['offset' => [int](../types/int.md), 'length' => [int](../types/int.md), 'user_id' => [int](../types/int.md), \];<a name="messageEntityMentionName"></a>  
+
+***
+<br><br>[$messageEntityPhone](../constructors/messageEntityPhone.md) = \['offset' => [int](../types/int.md), 'length' => [int](../types/int.md), \];<a name="messageEntityPhone"></a>  
 
 ***
 <br><br>[$messageEntityPre](../constructors/messageEntityPre.md) = \['offset' => [int](../types/int.md), 'length' => [int](../types/int.md), 'language' => [string](../types/string.md), \];<a name="messageEntityPre"></a>  
@@ -1074,6 +1130,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$messages\_foundGifs](../constructors/messages_foundGifs.md) = \['next_offset' => [int](../types/int.md), 'results' => \[[FoundGif](../types/FoundGif.md)\], \];<a name="messages_foundGifs"></a>  
 
+[$messages\_foundStickerSets](../constructors/messages_foundStickerSets.md) = \['hash' => [int](../types/int.md), 'sets' => \[[StickerSetCovered](../types/StickerSetCovered.md)\], \];<a name="messages_foundStickerSets"></a>  
+
+[$messages\_foundStickerSetsNotModified](../constructors/messages_foundStickerSetsNotModified.md) = \[\];<a name="messages_foundStickerSetsNotModified"></a>  
+
 [$messages\_highScores](../constructors/messages_highScores.md) = \['scores' => \[[HighScore](../types/HighScore.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="messages_highScores"></a>  
 
 [$messages\_messageEditData](../constructors/messages_messageEditData.md) = \['caption' => [Bool](../types/Bool.md), \];<a name="messages_messageEditData"></a>  
@@ -1086,7 +1146,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$messages\_peerDialogs](../constructors/messages_peerDialogs.md) = \['dialogs' => \[[Dialog](../types/Dialog.md)\], 'messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], 'state' => [updates\_State](../types/updates_State.md), \];<a name="messages_peerDialogs"></a>  
 
-[$messages\_recentStickers](../constructors/messages_recentStickers.md) = \['hash' => [int](../types/int.md), 'stickers' => \[[Document](../types/Document.md)\], \];<a name="messages_recentStickers"></a>  
+[$messages\_recentStickers](../constructors/messages_recentStickers.md) = \['hash' => [int](../types/int.md), 'packs' => \[[StickerPack](../types/StickerPack.md)\], 'stickers' => \[[Document](../types/Document.md)\], 'dates' => \[[int](../types/int.md)\], \];<a name="messages_recentStickers"></a>  
 
 [$messages\_recentStickersNotModified](../constructors/messages_recentStickersNotModified.md) = \[\];<a name="messages_recentStickersNotModified"></a>  
 
@@ -1104,15 +1164,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$messages\_stickerSetInstallResultSuccess](../constructors/messages_stickerSetInstallResultSuccess.md) = \[\];<a name="messages_stickerSetInstallResultSuccess"></a>  
 
-[$messages\_stickers](../constructors/messages_stickers.md) = \['hash' => [string](../types/string.md), 'stickers' => \[[Document](../types/Document.md)\], \];<a name="messages_stickers"></a>  
+[$messages\_stickers](../constructors/messages_stickers.md) = \['hash' => [int](../types/int.md), 'stickers' => \[[Document](../types/Document.md)\], \];<a name="messages_stickers"></a>  
 
 [$messages\_stickersNotModified](../constructors/messages_stickersNotModified.md) = \[\];<a name="messages_stickersNotModified"></a>  
 
 ***
 <br><br>[$nearestDc](../constructors/nearestDc.md) = \['country' => [string](../types/string.md), 'this_dc' => [int](../types/int.md), 'nearest_dc' => [int](../types/int.md), \];<a name="nearestDc"></a>  
-
-***
-<br><br>[$notifyAll](../constructors/notifyAll.md) = \[\];<a name="notifyAll"></a>  
 
 ***
 <br><br>[$notifyChats](../constructors/notifyChats.md) = \[\];<a name="notifyChats"></a>  
@@ -1230,16 +1287,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$peerChat](../constructors/peerChat.md) = \['chat_id' => [int](../types/int.md), \];<a name="peerChat"></a>  
 
 ***
-<br><br>[$peerNotifyEventsAll](../constructors/peerNotifyEventsAll.md) = \[\];<a name="peerNotifyEventsAll"></a>  
-
-***
-<br><br>[$peerNotifyEventsEmpty](../constructors/peerNotifyEventsEmpty.md) = \[\];<a name="peerNotifyEventsEmpty"></a>  
-
-***
 <br><br>[$peerNotifySettings](../constructors/peerNotifySettings.md) = \['show_previews' => [Bool](../types/Bool.md), 'silent' => [Bool](../types/Bool.md), 'mute_until' => [int](../types/int.md), 'sound' => [string](../types/string.md), \];<a name="peerNotifySettings"></a>  
-
-***
-<br><br>[$peerNotifySettingsEmpty](../constructors/peerNotifySettingsEmpty.md) = \[\];<a name="peerNotifySettingsEmpty"></a>  
 
 ***
 <br><br>[$peerSettings](../constructors/peerSettings.md) = \['report_spam' => [Bool](../types/Bool.md), \];<a name="peerSettings"></a>  
@@ -1372,6 +1420,90 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$replyKeyboardMarkup](../constructors/replyKeyboardMarkup.md) = \['resize' => [Bool](../types/Bool.md), 'single_use' => [Bool](../types/Bool.md), 'selective' => [Bool](../types/Bool.md), 'rows' => \[[KeyboardButtonRow](../types/KeyboardButtonRow.md)\], \];<a name="replyKeyboardMarkup"></a>  
 
 ***
+<br><br>[$savedPhoneContact](../constructors/savedPhoneContact.md) = \['phone' => [string](../types/string.md), 'first_name' => [string](../types/string.md), 'last_name' => [string](../types/string.md), 'date' => [int](../types/int.md), \];<a name="savedPhoneContact"></a>  
+
+***
+<br><br>[$secureCredentialsEncrypted](../constructors/secureCredentialsEncrypted.md) = \['data' => [bytes](../types/bytes.md), 'hash' => [bytes](../types/bytes.md), 'secret' => [bytes](../types/bytes.md), \];<a name="secureCredentialsEncrypted"></a>  
+
+***
+<br><br>[$secureData](../constructors/secureData.md) = \['data' => [bytes](../types/bytes.md), 'data_hash' => [bytes](../types/bytes.md), 'secret' => [bytes](../types/bytes.md), \];<a name="secureData"></a>  
+
+***
+<br><br>[$secureFile](../constructors/secureFile.md) = \['id' => [long](../types/long.md), 'access_hash' => [long](../types/long.md), 'size' => [int](../types/int.md), 'dc_id' => [int](../types/int.md), 'date' => [int](../types/int.md), 'file_hash' => [bytes](../types/bytes.md), 'secret' => [bytes](../types/bytes.md), \];<a name="secureFile"></a>  
+
+***
+<br><br>[$secureFileEmpty](../constructors/secureFileEmpty.md) = \[\];<a name="secureFileEmpty"></a>  
+
+***
+<br><br>[$securePlainEmail](../constructors/securePlainEmail.md) = \['email' => [string](../types/string.md), \];<a name="securePlainEmail"></a>  
+
+***
+<br><br>[$securePlainPhone](../constructors/securePlainPhone.md) = \['phone' => [string](../types/string.md), \];<a name="securePlainPhone"></a>  
+
+***
+<br><br>[$secureValue](../constructors/secureValue.md) = \['type' => [SecureValueType](../types/SecureValueType.md), 'data' => [SecureData](../types/SecureData.md), 'front_side' => [SecureFile](../types/SecureFile.md), 'reverse_side' => [SecureFile](../types/SecureFile.md), 'selfie' => [SecureFile](../types/SecureFile.md), 'files' => \[[SecureFile](../types/SecureFile.md)\], 'plain_data' => [SecurePlainData](../types/SecurePlainData.md), 'hash' => [bytes](../types/bytes.md), \];<a name="secureValue"></a>  
+
+***
+<br><br>[$secureValueErrorData](../constructors/secureValueErrorData.md) = \['type' => [SecureValueType](../types/SecureValueType.md), 'data_hash' => [bytes](../types/bytes.md), 'field' => [string](../types/string.md), 'text' => [string](../types/string.md), \];<a name="secureValueErrorData"></a>  
+
+***
+<br><br>[$secureValueErrorFile](../constructors/secureValueErrorFile.md) = \['type' => [SecureValueType](../types/SecureValueType.md), 'file_hash' => [bytes](../types/bytes.md), 'text' => [string](../types/string.md), \];<a name="secureValueErrorFile"></a>  
+
+***
+<br><br>[$secureValueErrorFiles](../constructors/secureValueErrorFiles.md) = \['type' => [SecureValueType](../types/SecureValueType.md), 'file_hash' => \[[bytes](../types/bytes.md)\], 'text' => [string](../types/string.md), \];<a name="secureValueErrorFiles"></a>  
+
+***
+<br><br>[$secureValueErrorFrontSide](../constructors/secureValueErrorFrontSide.md) = \['type' => [SecureValueType](../types/SecureValueType.md), 'file_hash' => [bytes](../types/bytes.md), 'text' => [string](../types/string.md), \];<a name="secureValueErrorFrontSide"></a>  
+
+***
+<br><br>[$secureValueErrorReverseSide](../constructors/secureValueErrorReverseSide.md) = \['type' => [SecureValueType](../types/SecureValueType.md), 'file_hash' => [bytes](../types/bytes.md), 'text' => [string](../types/string.md), \];<a name="secureValueErrorReverseSide"></a>  
+
+***
+<br><br>[$secureValueErrorSelfie](../constructors/secureValueErrorSelfie.md) = \['type' => [SecureValueType](../types/SecureValueType.md), 'file_hash' => [bytes](../types/bytes.md), 'text' => [string](../types/string.md), \];<a name="secureValueErrorSelfie"></a>  
+
+***
+<br><br>[$secureValueHash](../constructors/secureValueHash.md) = \['type' => [SecureValueType](../types/SecureValueType.md), 'hash' => [bytes](../types/bytes.md), \];<a name="secureValueHash"></a>  
+
+***
+<br><br>[$secureValueTypeAddress](../constructors/secureValueTypeAddress.md) = \[\];<a name="secureValueTypeAddress"></a>  
+
+***
+<br><br>[$secureValueTypeBankStatement](../constructors/secureValueTypeBankStatement.md) = \[\];<a name="secureValueTypeBankStatement"></a>  
+
+***
+<br><br>[$secureValueTypeDriverLicense](../constructors/secureValueTypeDriverLicense.md) = \[\];<a name="secureValueTypeDriverLicense"></a>  
+
+***
+<br><br>[$secureValueTypeEmail](../constructors/secureValueTypeEmail.md) = \[\];<a name="secureValueTypeEmail"></a>  
+
+***
+<br><br>[$secureValueTypeIdentityCard](../constructors/secureValueTypeIdentityCard.md) = \[\];<a name="secureValueTypeIdentityCard"></a>  
+
+***
+<br><br>[$secureValueTypeInternalPassport](../constructors/secureValueTypeInternalPassport.md) = \[\];<a name="secureValueTypeInternalPassport"></a>  
+
+***
+<br><br>[$secureValueTypePassport](../constructors/secureValueTypePassport.md) = \[\];<a name="secureValueTypePassport"></a>  
+
+***
+<br><br>[$secureValueTypePassportRegistration](../constructors/secureValueTypePassportRegistration.md) = \[\];<a name="secureValueTypePassportRegistration"></a>  
+
+***
+<br><br>[$secureValueTypePersonalDetails](../constructors/secureValueTypePersonalDetails.md) = \[\];<a name="secureValueTypePersonalDetails"></a>  
+
+***
+<br><br>[$secureValueTypePhone](../constructors/secureValueTypePhone.md) = \[\];<a name="secureValueTypePhone"></a>  
+
+***
+<br><br>[$secureValueTypeRentalAgreement](../constructors/secureValueTypeRentalAgreement.md) = \[\];<a name="secureValueTypeRentalAgreement"></a>  
+
+***
+<br><br>[$secureValueTypeTemporaryRegistration](../constructors/secureValueTypeTemporaryRegistration.md) = \[\];<a name="secureValueTypeTemporaryRegistration"></a>  
+
+***
+<br><br>[$secureValueTypeUtilityBill](../constructors/secureValueTypeUtilityBill.md) = \[\];<a name="secureValueTypeUtilityBill"></a>  
+
+***
 <br><br>[$sendMessageCancelAction](../constructors/sendMessageCancelAction.md) = \[\];<a name="sendMessageCancelAction"></a>  
 
 ***
@@ -1420,7 +1552,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$stickerPack](../constructors/stickerPack.md) = \['emoticon' => [string](../types/string.md), 'documents' => \[[long](../types/long.md)\], \];<a name="stickerPack"></a>  
 
 ***
-<br><br>[$stickerSet](../constructors/stickerSet.md) = \['installed' => [Bool](../types/Bool.md), 'archived' => [Bool](../types/Bool.md), 'official' => [Bool](../types/Bool.md), 'masks' => [Bool](../types/Bool.md), 'id' => [long](../types/long.md), 'access_hash' => [long](../types/long.md), 'title' => [string](../types/string.md), 'short_name' => [string](../types/string.md), 'count' => [int](../types/int.md), 'hash' => [int](../types/int.md), \];<a name="stickerSet"></a>  
+<br><br>[$stickerSet](../constructors/stickerSet.md) = \['archived' => [Bool](../types/Bool.md), 'official' => [Bool](../types/Bool.md), 'masks' => [Bool](../types/Bool.md), 'installed_date' => [int](../types/int.md), 'id' => [long](../types/long.md), 'access_hash' => [long](../types/long.md), 'title' => [string](../types/string.md), 'short_name' => [string](../types/string.md), 'count' => [int](../types/int.md), 'hash' => [int](../types/int.md), \];<a name="stickerSet"></a>  
 
 ***
 <br><br>[$stickerSetCovered](../constructors/stickerSetCovered.md) = \['set' => [StickerSet](../types/StickerSet.md), 'cover' => [Document](../types/Document.md), \];<a name="stickerSetCovered"></a>  
@@ -1588,7 +1720,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$updateDeleteMessages](../constructors/updateDeleteMessages.md) = \['messages' => \[[int](../types/int.md)\], 'pts' => [int](../types/int.md), 'pts_count' => [int](../types/int.md), \];<a name="updateDeleteMessages"></a>  
 
 ***
-<br><br>[$updateDialogPinned](../constructors/updateDialogPinned.md) = \['pinned' => [Bool](../types/Bool.md), 'peer' => [Peer](../types/Peer.md), \];<a name="updateDialogPinned"></a>  
+<br><br>[$updateDialogPinned](../constructors/updateDialogPinned.md) = \['pinned' => [Bool](../types/Bool.md), 'peer' => [DialogPeer](../types/DialogPeer.md), \];<a name="updateDialogPinned"></a>  
 
 ***
 <br><br>[$updateDraftMessage](../constructors/updateDraftMessage.md) = \['peer' => [Peer](../types/Peer.md), 'draft' => [DraftMessage](../types/DraftMessage.md), \];<a name="updateDraftMessage"></a>  
@@ -1642,7 +1774,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$updatePhoneCall](../constructors/updatePhoneCall.md) = \['phone_call' => [PhoneCall](../types/PhoneCall.md), \];<a name="updatePhoneCall"></a>  
 
 ***
-<br><br>[$updatePinnedDialogs](../constructors/updatePinnedDialogs.md) = \['order' => \[[Peer](../types/Peer.md)\], \];<a name="updatePinnedDialogs"></a>  
+<br><br>[$updatePinnedDialogs](../constructors/updatePinnedDialogs.md) = \['order' => \[[DialogPeer](../types/DialogPeer.md)\], \];<a name="updatePinnedDialogs"></a>  
 
 ***
 <br><br>[$updatePrivacy](../constructors/updatePrivacy.md) = \['key' => [PrivacyKey](../types/PrivacyKey.md), 'rules' => \[[PrivacyRule](../types/PrivacyRule.md)\], \];<a name="updatePrivacy"></a>  
@@ -1749,7 +1881,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$upload\_file](../constructors/upload_file.md) = \['type' => [storage\_FileType](../types/storage_FileType.md), 'mtime' => [int](../types/int.md), 'bytes' => [bytes](../types/bytes.md), \];<a name="upload_file"></a>  
 
-[$upload\_fileCdnRedirect](../constructors/upload_fileCdnRedirect.md) = \['dc_id' => [int](../types/int.md), 'file_token' => [bytes](../types/bytes.md), 'encryption_key' => [bytes](../types/bytes.md), 'encryption_iv' => [bytes](../types/bytes.md), 'cdn_file_hashes' => \[[CdnFileHash](../types/CdnFileHash.md)\], \];<a name="upload_fileCdnRedirect"></a>  
+[$upload\_fileCdnRedirect](../constructors/upload_fileCdnRedirect.md) = \['dc_id' => [int](../types/int.md), 'file_token' => [bytes](../types/bytes.md), 'encryption_key' => [bytes](../types/bytes.md), 'encryption_iv' => [bytes](../types/bytes.md), 'file_hashes' => \[[FileHash](../types/FileHash.md)\], \];<a name="upload_fileCdnRedirect"></a>  
 
 [$upload\_webFile](../constructors/upload_webFile.md) = \['size' => [int](../types/int.md), 'mime_type' => [string](../types/string.md), 'file_type' => [storage\_FileType](../types/storage_FileType.md), 'mtime' => [int](../types/int.md), 'bytes' => [bytes](../types/bytes.md), \];<a name="upload_webFile"></a>  
 
@@ -1797,6 +1929,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$webDocument](../constructors/webDocument.md) = \['url' => [string](../types/string.md), 'access_hash' => [long](../types/long.md), 'size' => [int](../types/int.md), 'mime_type' => [string](../types/string.md), 'attributes' => \[[DocumentAttribute](../types/DocumentAttribute.md)\], 'dc_id' => [int](../types/int.md), \];<a name="webDocument"></a>  
+
+***
+<br><br>[$webDocumentNoProxy](../constructors/webDocumentNoProxy.md) = \['url' => [string](../types/string.md), 'size' => [int](../types/int.md), 'mime_type' => [string](../types/string.md), 'attributes' => \[[DocumentAttribute](../types/DocumentAttribute.md)\], \];<a name="webDocumentNoProxy"></a>  
 
 ***
 <br><br>[$webPage](../constructors/webPage.md) = \['id' => [long](../types/long.md), 'url' => [string](../types/string.md), 'display_url' => [string](../types/string.md), 'hash' => [int](../types/int.md), 'type' => [string](../types/string.md), 'site_name' => [string](../types/string.md), 'title' => [string](../types/string.md), 'description' => [string](../types/string.md), 'photo' => [Photo](../types/Photo.md), 'embed_url' => [string](../types/string.md), 'embed_type' => [string](../types/string.md), 'embed_width' => [int](../types/int.md), 'embed_height' => [int](../types/int.md), 'duration' => [int](../types/int.md), 'author' => [string](../types/string.md), 'document' => [Document](../types/Document.md), 'cached_page' => [Page](../types/Page.md), \];<a name="webPage"></a>  

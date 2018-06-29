@@ -1,6 +1,6 @@
 ---
 title: p_q_inner_data
-description: p_q_inner_data attributes, type and example
+description: PQ inner data
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: p\_q\_inner\_data  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+PQ inner data
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|pq|[string](../types/string.md) | Yes|
-|p|[string](../types/string.md) | Yes|
-|q|[string](../types/string.md) | Yes|
-|nonce|[int128](../types/int128.md) | Yes|
-|server\_nonce|[int128](../types/int128.md) | Yes|
-|new\_nonce|[int256](../types/int256.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|pq|[string](../types/string.md) | Yes||
+|p|[string](../types/string.md) | Yes||
+|q|[string](../types/string.md) | Yes||
+|nonce|[int128](../types/int128.md) | Yes|Nonce|
+|server\_nonce|[int128](../types/int128.md) | Yes|Nonce|
+|new\_nonce|[int256](../types/int256.md) | Yes|Nonce|
 
 
 

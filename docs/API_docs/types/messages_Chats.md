@@ -28,5 +28,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->channels->getAdminedPublicChannels](../methods/channels_getAdminedPublicChannels.md)  
 
+[$MadelineProto->channels->getLeftChannels](../methods/channels_getLeftChannels.md)  
+
 
 

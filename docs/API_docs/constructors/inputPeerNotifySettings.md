@@ -14,8 +14,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |----------|---------------|----------|
 |show\_previews|[Bool](../types/Bool.md) | Optional|
 |silent|[Bool](../types/Bool.md) | Optional|
-|mute\_until|[int](../types/int.md) | Yes|
-|sound|[string](../types/string.md) | Yes|
+|mute\_until|[int](../types/int.md) | Optional|
+|sound|[string](../types/string.md) | Optional|
 
 
 

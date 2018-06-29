@@ -36,6 +36,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputMessageEntityMentionName](../constructors/inputMessageEntityMentionName.md)  
 
+[messageEntityPhone](../constructors/messageEntityPhone.md)  
+
+[messageEntityCashtag](../constructors/messageEntityCashtag.md)  
+
 
 
 ### Methods that return an object of this type (methods):

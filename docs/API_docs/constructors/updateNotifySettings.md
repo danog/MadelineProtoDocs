@@ -13,7 +13,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |peer|[NotifyPeer](../types/NotifyPeer.md) | Yes|
-|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|
+|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Yes|
 
 
 

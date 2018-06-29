@@ -15,6 +15,7 @@ Get recent locations
 |----------|---------------|----------|-------------|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The chat where to search locations|
 |limit|[int](../types/int.md) | Yes|Number of results to return|
+|hash|[int](../types/int.md) | Yes|$MadelineProto->gen_vector_hash(ids of previously fetched locations, or []);|
 
 
 ### Return type: [messages\_Messages](../types/messages_Messages.md)
@@ -34,7 +35,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->messages->getRecentLocations(['peer' => InputPeer, 'limit' => int, ]);
+$messages_Messages = $MadelineProto->messages->getRecentLocations(['peer' => InputPeer, 'limit' => int, 'hash' => int, ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -46,7 +47,7 @@ POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
 Parameters:
 
 * method - messages.getRecentLocations
-* params - `{"peer": InputPeer, "limit": int, }`
+* params - `{"peer": InputPeer, "limit": int, "hash": int, }`
 
 
 
@@ -60,12 +61,14 @@ peer - Json encoded InputPeer
 
 limit - Json encoded int
 
+hash - Json encoded int
+
 
 
 
 Or, if you're into Lua:
 
 ```
-messages_Messages = messages.getRecentLocations({peer=InputPeer, limit=int, })
+messages_Messages = messages.getRecentLocations({peer=InputPeer, limit=int, hash=int, })
 ```
 

@@ -24,6 +24,7 @@ Search peers or messages
 |limit|[int](../types/int.md) | Yes|Number of results to return|
 |max\_id|[int](../types/int.md) | Yes|Maximum message id to return|
 |min\_id|[int](../types/int.md) | Yes|Minumum message id to return|
+|hash|[int](../types/int.md) | Yes|$MadelineProto->gen_vector_hash(ids of previously fetched messages);|
 
 
 ### Return type: [messages\_Messages](../types/messages_Messages.md)
@@ -43,7 +44,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->messages->search(['peer' => InputPeer, 'q' => 'string', 'from_id' => InputUser, 'filter' => MessagesFilter, 'min_date' => int, 'max_date' => int, 'offset_id' => int, 'add_offset' => int, 'limit' => int, 'max_id' => int, 'min_id' => int, ]);
+$messages_Messages = $MadelineProto->messages->search(['peer' => InputPeer, 'q' => 'string', 'from_id' => InputUser, 'filter' => MessagesFilter, 'min_date' => int, 'max_date' => int, 'offset_id' => int, 'add_offset' => int, 'limit' => int, 'max_id' => int, 'min_id' => int, 'hash' => int, ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -78,13 +79,15 @@ max_id - Json encoded int
 
 min_id - Json encoded int
 
+hash - Json encoded int
+
 
 
 
 Or, if you're into Lua:
 
 ```
-messages_Messages = messages.search({peer=InputPeer, q='string', from_id=InputUser, filter=MessagesFilter, min_date=int, max_date=int, offset_id=int, add_offset=int, limit=int, max_id=int, min_id=int, })
+messages_Messages = messages.search({peer=InputPeer, q='string', from_id=InputUser, filter=MessagesFilter, min_date=int, max_date=int, offset_id=int, add_offset=int, limit=int, max_id=int, min_id=int, hash=int, })
 ```
 
 ### Errors this method can return:

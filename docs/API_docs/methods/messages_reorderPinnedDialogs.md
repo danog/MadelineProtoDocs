@@ -14,7 +14,7 @@ Reorder pinned dialogs
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |force|[Bool](../types/Bool.md) | Optional|Force reordering|
-|order|Array of [Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Yes|New order|
+|order|Array of [InputDialogPeer](../types/InputDialogPeer.md) | Yes|New order|
 
 
 ### Return type: [Bool](../types/Bool.md)
@@ -34,7 +34,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->reorderPinnedDialogs(['force' => Bool, 'order' => [InputPeer, InputPeer], ]);
+$Bool = $MadelineProto->messages->reorderPinnedDialogs(['force' => Bool, 'order' => [InputDialogPeer, InputDialogPeer], ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -49,7 +49,7 @@ Parameters:
 
 force - Json encoded Bool
 
-order - Json encoded  array of InputPeer
+order - Json encoded  array of InputDialogPeer
 
 
 
@@ -57,7 +57,7 @@ order - Json encoded  array of InputPeer
 Or, if you're into Lua:
 
 ```
-Bool = messages.reorderPinnedDialogs({force=Bool, order={InputPeer}, })
+Bool = messages.reorderPinnedDialogs({force=Bool, order={InputDialogPeer}, })
 ```
 
 ### Errors this method can return:

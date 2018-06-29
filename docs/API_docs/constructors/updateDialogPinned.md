@@ -13,7 +13,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |pinned|[Bool](../types/Bool.md) | Optional|
-|peer|[Peer](../types/Peer.md) | Yes|
+|peer|[DialogPeer](../types/DialogPeer.md) | Yes|
 
 
 
@@ -23,13 +23,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$updateDialogPinned = ['_' => 'updateDialogPinned', 'pinned' => Bool, 'peer' => Peer];
+$updateDialogPinned = ['_' => 'updateDialogPinned', 'pinned' => Bool, 'peer' => DialogPeer];
 ```  
 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "updateDialogPinned", "pinned": Bool, "peer": Peer}
+{"_": "updateDialogPinned", "pinned": Bool, "peer": DialogPeer}
 ```
 
 
@@ -37,7 +37,7 @@ Or, if you're into Lua:
 
 
 ```
-updateDialogPinned={_='updateDialogPinned', pinned=Bool, peer=Peer}
+updateDialogPinned={_='updateDialogPinned', pinned=Bool, peer=DialogPeer}
 
 ```
 

@@ -16,8 +16,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputNotifyChats](../constructors/inputNotifyChats.md)  
 
-[inputNotifyAll](../constructors/inputNotifyAll.md)  
-
 
 
 ### Methods that return an object of this type (methods):

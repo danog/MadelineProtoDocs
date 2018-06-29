@@ -12,7 +12,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|hash|[string](../types/string.md) | Yes|
+|hash|[int](../types/int.md) | Yes|
 |stickers|Array of [Document](../types/Document.md) | Yes|
 
 
@@ -23,13 +23,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$messages_stickers = ['_' => 'messages.stickers', 'hash' => 'string', 'stickers' => [Document, Document]];
+$messages_stickers = ['_' => 'messages.stickers', 'hash' => int, 'stickers' => [Document, Document]];
 ```  
 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "messages.stickers", "hash": "string", "stickers": [Document]}
+{"_": "messages.stickers", "hash": int, "stickers": [Document]}
 ```
 
 
@@ -37,7 +37,7 @@ Or, if you're into Lua:
 
 
 ```
-messages_stickers={_='messages.stickers', hash='string', stickers={Document}}
+messages_stickers={_='messages.stickers', hash=int, stickers={Document}}
 
 ```
 

@@ -13,7 +13,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |hash|[int](../types/int.md) | Yes|
+|packs|Array of [StickerPack](../types/StickerPack.md) | Yes|
 |stickers|Array of [Document](../types/Document.md) | Yes|
+|dates|Array of [int](../types/int.md) | Yes|
 
 
 
@@ -23,13 +25,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$messages_recentStickers = ['_' => 'messages.recentStickers', 'hash' => int, 'stickers' => [Document, Document]];
+$messages_recentStickers = ['_' => 'messages.recentStickers', 'hash' => int, 'packs' => [StickerPack, StickerPack], 'stickers' => [Document, Document], 'dates' => [int, int]];
 ```  
 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "messages.recentStickers", "hash": int, "stickers": [Document]}
+{"_": "messages.recentStickers", "hash": int, "packs": [StickerPack], "stickers": [Document], "dates": [int]}
 ```
 
 
@@ -37,7 +39,7 @@ Or, if you're into Lua:
 
 
 ```
-messages_recentStickers={_='messages.recentStickers', hash=int, stickers={Document}}
+messages_recentStickers={_='messages.recentStickers', hash=int, packs={StickerPack}, stickers={Document}, dates={int}}
 
 ```
 

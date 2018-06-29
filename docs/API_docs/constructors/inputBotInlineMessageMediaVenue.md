@@ -17,6 +17,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |address|[string](../types/string.md) | Yes|
 |provider|[string](../types/string.md) | Yes|
 |venue\_id|[string](../types/string.md) | Yes|
+|venue\_type|[string](../types/string.md) | Yes|
 |reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|
 
 
@@ -27,13 +28,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$inputBotInlineMessageMediaVenue = ['_' => 'inputBotInlineMessageMediaVenue', 'geo_point' => InputGeoPoint, 'title' => 'string', 'address' => 'string', 'provider' => 'string', 'venue_id' => 'string', 'reply_markup' => ReplyMarkup];
+$inputBotInlineMessageMediaVenue = ['_' => 'inputBotInlineMessageMediaVenue', 'geo_point' => InputGeoPoint, 'title' => 'string', 'address' => 'string', 'provider' => 'string', 'venue_id' => 'string', 'venue_type' => 'string', 'reply_markup' => ReplyMarkup];
 ```  
 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "inputBotInlineMessageMediaVenue", "geo_point": InputGeoPoint, "title": "string", "address": "string", "provider": "string", "venue_id": "string", "reply_markup": ReplyMarkup}
+{"_": "inputBotInlineMessageMediaVenue", "geo_point": InputGeoPoint, "title": "string", "address": "string", "provider": "string", "venue_id": "string", "venue_type": "string", "reply_markup": ReplyMarkup}
 ```
 
 
@@ -41,7 +42,7 @@ Or, if you're into Lua:
 
 
 ```
-inputBotInlineMessageMediaVenue={_='inputBotInlineMessageMediaVenue', geo_point=InputGeoPoint, title='string', address='string', provider='string', venue_id='string', reply_markup=ReplyMarkup}
+inputBotInlineMessageMediaVenue={_='inputBotInlineMessageMediaVenue', geo_point=InputGeoPoint, title='string', address='string', provider='string', venue_id='string', venue_type='string', reply_markup=ReplyMarkup}
 
 ```
 

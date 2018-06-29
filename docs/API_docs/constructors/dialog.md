@@ -19,7 +19,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |read\_outbox\_max\_id|[int](../types/int.md) | Yes|
 |unread\_count|[int](../types/int.md) | Yes|
 |unread\_mentions\_count|[int](../types/int.md) | Yes|
-|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|
+|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Yes|
 |pts|[int](../types/int.md) | Optional|
 |draft|[DraftMessage](../types/DraftMessage.md) | Optional|
 

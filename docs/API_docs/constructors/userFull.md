@@ -19,7 +19,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |about|[string](../types/string.md) | Optional|
 |link|[contacts\_Link](../types/contacts_Link.md) | Yes|
 |profile\_photo|[Photo](../types/Photo.md) | Optional|
-|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|
+|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Yes|
 |bot\_info|[BotInfo](../types/BotInfo.md) | Optional|
 |common\_chats\_count|[int](../types/int.md) | Yes|
 

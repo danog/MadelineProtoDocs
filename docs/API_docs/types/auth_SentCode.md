@@ -24,5 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->account->sendConfirmPhoneCode](../methods/account_sendConfirmPhoneCode.md)  
 
+[$MadelineProto->account->sendVerifyPhoneCode](../methods/account_sendVerifyPhoneCode.md)  
+
 
 

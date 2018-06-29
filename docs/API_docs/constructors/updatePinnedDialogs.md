@@ -12,7 +12,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|order|Array of [Peer](../types/Peer.md) | Optional|
+|order|Array of [DialogPeer](../types/DialogPeer.md) | Optional|
 
 
 
@@ -22,13 +22,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$updatePinnedDialogs = ['_' => 'updatePinnedDialogs', 'order' => [Peer, Peer]];
+$updatePinnedDialogs = ['_' => 'updatePinnedDialogs', 'order' => [DialogPeer, DialogPeer]];
 ```  
 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "updatePinnedDialogs", "order": [Peer]}
+{"_": "updatePinnedDialogs", "order": [DialogPeer]}
 ```
 
 
@@ -36,7 +36,7 @@ Or, if you're into Lua:
 
 
 ```
-updatePinnedDialogs={_='updatePinnedDialogs', order={Peer}}
+updatePinnedDialogs={_='updatePinnedDialogs', order={DialogPeer}}
 
 ```
 
