@@ -1,13 +1,13 @@
 ---
 title: account.acceptAuthorization
-description: Accept telegram password authorization
+description: Accept telegram passport authorization
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: account.acceptAuthorization  
 [Back to methods index](index.md)
 
 
-Accept telegram password authorization
+Accept telegram passport authorization
 
 ### Parameters:
 
