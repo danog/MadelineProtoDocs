@@ -1,0 +1,38 @@
+---
+title: inputMediaEmpty
+description: inputMediaEmpty attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+---
+# Constructor: inputMediaEmpty  
+[Back to constructors index](index.md)
+
+
+
+
+
+
+### Type: [InputMedia](../types/InputMedia.md)
+
+
+### Example:
+
+```
+$inputMediaEmpty = ['_' => 'inputMediaEmpty'];
+```  
+
+[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
+
+```
+{"_": "inputMediaEmpty"}
+```
+
+
+Or, if you're into Lua:  
+
+
+```
+inputMediaEmpty={_='inputMediaEmpty'}
+
+```
+
+
