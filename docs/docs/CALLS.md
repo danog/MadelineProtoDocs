@@ -14,6 +14,11 @@ if (!file_exists('input.raw')) {
     copy('https://github.com/danog/MadelineProto/raw/master/input.raw', 'input.raw');
 }
 $call = $MadelineProto->request_call('@danogentili')->play('input.raw')->then('input.raw')->playOnHold(['input.raw'])->setOutputFile('output.raw');
+
+// We need to receive updates in order to avoid closing the script before the call has ended
+while ($call->getCallState() < \danog\MadelineProto\VoIP::CALL_STATE_ENDED) {
+    $MadelineProto->get_updates();
+}
 ```
 
 The wrapper consists in the `\danog\MadelineProto\VoIP` class, that can be installed by compiling the [php-libtgvoip](https://voip.madelineproto.xyz) extension.
@@ -104,14 +109,16 @@ Accepting calls is just as easy: you will receive an [updatePhoneCall](https://d
 This array will contain a VoIP object under the `phone_call` key.
 
 ```php
-$updates = $MadelineProto->get_updates(['offset' => $offset, 'limit' => 50, 'timeout' => 0]); // Just like in the bot API, you can specify an offset, a limit and a timeout
-foreach ($updates as $update) {
-    \danog\MadelineProto\Logger::log([$update]);
-    $offset = $update['update_id'] + 1; // Just like in the bot API, the offset must be set to the last update_id
-    switch ($update['update']['_']) {
-        case 'updatePhoneCall':
-        if (is_object($update['update']['phone_call']) && $update['update']['phone_call']->getCallState() === \danog\MadelineProto\VoIP::CALL_STATE_INCOMING) {
-            $update['update']['phone_call']->accept()->play('input.raw')->then('inputb.raw')->playOnHold(['hold.raw'])->setOutputFile('output.raw');
+while (true) {
+    $updates = $MadelineProto->get_updates(['offset' => $offset, 'limit' => 50, 'timeout' => 0]); // Just like in the bot API, you can specify an offset, a limit and a timeout
+    foreach ($updates as $update) {
+        \danog\MadelineProto\Logger::log([$update]);
+        $offset = $update['update_id'] + 1; // Just like in the bot API, the offset must be set to the last update_id
+        switch ($update['update']['_']) {
+            case 'updatePhoneCall':
+            if (is_object($update['update']['phone_call']) && $update['update']['phone_call']->getCallState() === \danog\MadelineProto\VoIP::CALL_STATE_INCOMING) {
+                $update['update']['phone_call']->accept()->play('input.raw')->then('inputb.raw')->playOnHold(['hold.raw'])->setOutputFile('output.raw');
+            }
         }
     }
 }
