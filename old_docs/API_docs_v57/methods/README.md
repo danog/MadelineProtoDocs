@@ -140,6 +140,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages_getArchivedStickers.html" name="messages_getArchivedStickers">Get all archived stickers: messages.getArchivedStickers</a>  
 
+* <a href="contacts_getContacts.html" name="contacts_getContacts">Get all contacts: contacts.getContacts</a>  
+
 * <a href="account_getAuthorizations.html" name="account_getAuthorizations">Get all logged-in authorizations: account.getAuthorizations</a>  
 
 * <a href="messages_getAllDrafts.html" name="messages_getAllDrafts">Get all message drafts: messages.getAllDrafts</a>  
@@ -167,8 +169,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages_getGameHighScores.html" name="messages_getGameHighScores">Get high scores of a game: messages.getGameHighScores</a>  
 
 * <a href="channels_getParticipant.html" name="channels_getParticipant">Get info about a certain channel/supergroup participant: channels.getParticipant</a>  
-
-* <a href="contacts_getContacts.html" name="contacts_getContacts">Get info about a certain contact: contacts.getContacts</a>  
 
 * <a href="help_getAppUpdate.html" name="help_getAppUpdate">Get info about app updates: help.getAppUpdate</a>  
 

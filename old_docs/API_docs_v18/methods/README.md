@@ -68,9 +68,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages_forwardMessages.html" name="messages_forwardMessages">Forward messages: messages.forwardMessages</a>  
 
-* <a href="contacts_getBlocked.html" name="contacts_getBlocked">Get blocked users: contacts.getBlocked</a>  
+* <a href="contacts_getContacts.html" name="contacts_getContacts">Get all contacts: contacts.getContacts</a>  
 
-* <a href="contacts_getContacts.html" name="contacts_getContacts">Get info about a certain contact: contacts.getContacts</a>  
+* <a href="contacts_getBlocked.html" name="contacts_getBlocked">Get blocked users: contacts.getBlocked</a>  
 
 * <a href="help_getAppUpdate.html" name="help_getAppUpdate">Get info about app updates: help.getAppUpdate</a>  
 

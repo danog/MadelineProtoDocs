@@ -78,11 +78,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account_getAccountTTL.html" name="account_getAccountTTL">Get account TTL: account.getAccountTTL</a>  
 
+* <a href="contacts_getContacts.html" name="contacts_getContacts">Get all contacts: contacts.getContacts</a>  
+
 * <a href="messages_getAllStickers.html" name="messages_getAllStickers">Get all stickerpacks: messages.getAllStickers</a>  
 
 * <a href="contacts_getBlocked.html" name="contacts_getBlocked">Get blocked users: contacts.getBlocked</a>  
-
-* <a href="contacts_getContacts.html" name="contacts_getContacts">Get info about a certain contact: contacts.getContacts</a>  
 
 * <a href="help_getAppUpdate.html" name="help_getAppUpdate">Get info about app updates: help.getAppUpdate</a>  
 
