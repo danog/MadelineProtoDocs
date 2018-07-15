@@ -377,7 +377,7 @@ $sentMessage = $MadelineProto->messages->sendMedia([
 $output_file_name = $MadelineProto->download_to_file(
     $sentMessage,
     new \danog\MadelineProto\FileCallback(
-        '/tmp/myname.mp4'
+        '/tmp/myname.mp4',
         function ($progress) use ($MadelineProto, $peer) {
             $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => 'Download progress: '.$progress.'%']);
         }
