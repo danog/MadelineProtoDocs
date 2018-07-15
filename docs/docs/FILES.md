@@ -381,7 +381,7 @@ $output_file_name = $MadelineProto->download_to_file(
         function ($progress) use ($MadelineProto, $peer) {
             $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => 'Download progress: '.$progress.'%']);
         }
-    ),
+    )
 );
 ```
 
