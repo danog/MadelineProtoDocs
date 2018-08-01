@@ -18,7 +18,7 @@ There are various ways to install MadelineProto:
 ```php
 <?php
 if (!file_exists('madeline.php')) {
-    copy('https://phar.madelineproto.xyz', 'madeline.php');
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
 require_once 'madeline.php';
 ```
