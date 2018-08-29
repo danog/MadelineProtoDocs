@@ -20,7 +20,7 @@ Edit a sent inline message
 |media|[MessageMedia, Update, Message or InputMedia](../types/InputMedia.md) | The media to substitute | Optional|
 |reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | The new keyboard | Optional|
 |entities|Array of [MessageEntity](../types/MessageEntity.md) | The new entities (for styled text) | Optional|
-|parse\_mode| [string](../types/string.md) | Optional |Whether to parse HTML or Markdown markup in the message|
+|parse\_mode| [string](../types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
 |geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | The new location | Optional|
 
 

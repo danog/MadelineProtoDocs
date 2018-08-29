@@ -18,7 +18,7 @@ Edit a sent inline message
 |message|[string](../types/string.md) | The new message | Optional|
 |reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | The new keyboard | Optional|
 |entities|Array of [MessageEntity](../types/MessageEntity.md) | The new entities (for styled text) | Optional|
-|parse\_mode| [string](../types/string.md) | Optional |Whether to parse HTML or Markdown markup in the message|
+|parse\_mode| [string](../types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
 
 
 ### Return type: [Bool](../types/Bool.md)

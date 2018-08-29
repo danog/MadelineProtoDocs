@@ -22,7 +22,7 @@ Send a media
 |message|[string](../types/string.md) | The caption | Yes|
 |reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Keyboards to send | Optional|
 |entities|Array of [MessageEntity](../types/MessageEntity.md) | Entities for styled text | Optional|
-|parse\_mode| [string](../types/string.md) | Optional |Whether to parse HTML or Markdown markup in the message|
+|parse\_mode| [string](../types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
 
 
 ### Return type: [Updates](../types/Updates.md)

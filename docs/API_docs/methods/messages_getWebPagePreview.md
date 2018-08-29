@@ -15,7 +15,7 @@ Get webpage preview
 |----------|---------------|-------------|----------|
 |message|[string](../types/string.md) | Extract preview from this message | Yes|
 |entities|Array of [MessageEntity](../types/MessageEntity.md) | Entities for styled text | Optional|
-|parse\_mode| [string](../types/string.md) | Optional |Whether to parse HTML or Markdown markup in the message|
+|parse\_mode| [string](../types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
 
 
 ### Return type: [MessageMedia](../types/MessageMedia.md)
