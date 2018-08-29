@@ -14,7 +14,7 @@ Get webpage preview
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |url|[string](../types/string.md) | URL | Yes|
-|hash|[int](../types/int.md) | 0 or $result['hash'] | Yes|
+|hash|Array of [int](../types/int.md) |  | Optional|
 
 
 ### Return type: [WebPage](../types/WebPage.md)
@@ -34,7 +34,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$WebPage = $MadelineProto->messages->getWebPage(['url' => 'string', 'hash' => int, ]);
+$WebPage = $MadelineProto->messages->getWebPage(['url' => 'string', 'hash' => [int, int], ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -49,7 +49,7 @@ Parameters:
 
 url - Json encoded string
 
-hash - Json encoded int
+hash - Json encoded  array of int
 
 
 
@@ -57,7 +57,7 @@ hash - Json encoded int
 Or, if you're into Lua:
 
 ```
-WebPage = messages.getWebPage({url='string', hash=int, })
+WebPage = messages.getWebPage({url='string', hash={int}, })
 ```
 
 ### Errors this method can return:

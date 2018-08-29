@@ -13,7 +13,7 @@ Get favorite stickers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[int](../types/int.md) | 0 or $result['hash'] | Yes|
+|hash|Array of [int](../types/int.md) |  | Optional|
 
 
 ### Return type: [messages\_FavedStickers](../types/messages_FavedStickers.md)
@@ -33,7 +33,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_FavedStickers = $MadelineProto->messages->getFavedStickers(['hash' => int, ]);
+$messages_FavedStickers = $MadelineProto->messages->getFavedStickers(['hash' => [int, int], ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -45,7 +45,7 @@ POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
 Parameters:
 
 * method - messages.getFavedStickers
-* params - `{"hash": int, }`
+* params - `{"hash": [int], }`
 
 
 
@@ -55,7 +55,7 @@ POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.getFavedStickers`
 
 Parameters:
 
-hash - Json encoded int
+hash - Json encoded  array of int
 
 
 
@@ -63,6 +63,6 @@ hash - Json encoded int
 Or, if you're into Lua:
 
 ```
-messages_FavedStickers = messages.getFavedStickers({hash=int, })
+messages_FavedStickers = messages.getFavedStickers({hash={int}, })
 ```
 

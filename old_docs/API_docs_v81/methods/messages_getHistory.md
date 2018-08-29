@@ -20,7 +20,7 @@ Get previous messages of a group
 |limit|[int](../types/int.md) | Number of messages to fetch | Yes|
 |max\_id|[int](../types/int.md) | Maximum message ID to fetch | Yes|
 |min\_id|[int](../types/int.md) | Minumum message ID to fetch | Yes|
-|hash|[int](../types/int.md) | hash of old messages, $MadelineProto->gen_vector_hash($parsedMessageIds) | Yes|
+|hash|Array of [int](../types/int.md) |  | Optional|
 
 
 ### Return type: [messages\_Messages](../types/messages_Messages.md)
@@ -40,7 +40,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->messages->getHistory(['peer' => InputPeer, 'offset_id' => int, 'offset_date' => int, 'add_offset' => int, 'limit' => int, 'max_id' => int, 'min_id' => int, 'hash' => int, ]);
+$messages_Messages = $MadelineProto->messages->getHistory(['peer' => InputPeer, 'offset_id' => int, 'offset_date' => int, 'add_offset' => int, 'limit' => int, 'max_id' => int, 'min_id' => int, 'hash' => [int, int], ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -67,7 +67,7 @@ max_id - Json encoded int
 
 min_id - Json encoded int
 
-hash - Json encoded int
+hash - Json encoded  array of int
 
 
 
@@ -75,7 +75,7 @@ hash - Json encoded int
 Or, if you're into Lua:
 
 ```
-messages_Messages = messages.getHistory({peer=InputPeer, offset_id=int, offset_date=int, add_offset=int, limit=int, max_id=int, min_id=int, hash=int, })
+messages_Messages = messages.getHistory({peer=InputPeer, offset_id=int, offset_date=int, add_offset=int, limit=int, max_id=int, min_id=int, hash={int}, })
 ```
 
 ### Errors this method can return:

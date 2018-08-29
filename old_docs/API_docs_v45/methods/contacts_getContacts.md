@@ -13,7 +13,7 @@ Get all contacts
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[string](../types/string.md) | $MadelineProto->gen_vector_hash(previously fetched user IDs); | Yes|
+|hash|[string](../types/string.md) | List of contact user IDs you already cached | Yes|
 
 
 ### Return type: [contacts\_Contacts](../types/contacts_Contacts.md)

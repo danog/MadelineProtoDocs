@@ -15,7 +15,7 @@ Find a sticker set
 |----------|---------------|-------------|----------|
 |exclude\_featured|[Bool](../types/Bool.md) | Exclude featured sticker sets from the search? | Optional|
 |q|[string](../types/string.md) | The search query | Yes|
-|hash|[int](../types/int.md) | $MadelineProto->gen_vector_hash(ids of previously searched stickers, or []); | Yes|
+|hash|Array of [int](../types/int.md) |  | Optional|
 
 
 ### Return type: [messages\_FoundStickerSets](../types/messages_FoundStickerSets.md)
@@ -35,7 +35,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_FoundStickerSets = $MadelineProto->messages->searchStickerSets(['exclude_featured' => Bool, 'q' => 'string', 'hash' => int, ]);
+$messages_FoundStickerSets = $MadelineProto->messages->searchStickerSets(['exclude_featured' => Bool, 'q' => 'string', 'hash' => [int, int], ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -47,7 +47,7 @@ POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
 Parameters:
 
 * method - messages.searchStickerSets
-* params - `{"exclude_featured": Bool, "q": "string", "hash": int, }`
+* params - `{"exclude_featured": Bool, "q": "string", "hash": [int], }`
 
 
 
@@ -61,7 +61,7 @@ exclude_featured - Json encoded Bool
 
 q - Json encoded string
 
-hash - Json encoded int
+hash - Json encoded  array of int
 
 
 
@@ -69,6 +69,6 @@ hash - Json encoded int
 Or, if you're into Lua:
 
 ```
-messages_FoundStickerSets = messages.searchStickerSets({exclude_featured=Bool, q='string', hash=int, })
+messages_FoundStickerSets = messages.searchStickerSets({exclude_featured=Bool, q='string', hash={int}, })
 ```
 

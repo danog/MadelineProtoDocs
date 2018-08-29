@@ -13,7 +13,7 @@ Get saved gifs
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[int](../types/int.md) | 0 or $result['hash'] | Yes|
+|hash|Array of [int](../types/int.md) |  | Optional|
 
 
 ### Return type: [messages\_SavedGifs](../types/messages_SavedGifs.md)
@@ -33,7 +33,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_SavedGifs = $MadelineProto->messages->getSavedGifs(['hash' => int, ]);
+$messages_SavedGifs = $MadelineProto->messages->getSavedGifs(['hash' => [int, int], ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -46,7 +46,7 @@ POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.getSavedGifs`
 
 Parameters:
 
-hash - Json encoded int
+hash - Json encoded  array of int
 
 
 
@@ -54,6 +54,6 @@ hash - Json encoded int
 Or, if you're into Lua:
 
 ```
-messages_SavedGifs = messages.getSavedGifs({hash=int, })
+messages_SavedGifs = messages.getSavedGifs({hash={int}, })
 ```
 

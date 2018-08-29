@@ -20,7 +20,7 @@ Get most used chats
 |channels|[Bool](../types/Bool.md) | Fetch channels and supergroups? | Optional|
 |offset|[int](../types/int.md) | Initially 0, then `$offset += $contacts_TopPeers['categories']['count'];` | Yes|
 |limit|[int](../types/int.md) | How many results to fetch | Yes|
-|hash|[int](../types/int.md) | $MadelineProto->gen_vector_hash(previously fetched peer ids); | Yes|
+|hash|Array of [int](../types/int.md) |  | Optional|
 
 
 ### Return type: [contacts\_TopPeers](../types/contacts_TopPeers.md)
@@ -40,7 +40,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts_TopPeers = $MadelineProto->contacts->getTopPeers(['correspondents' => Bool, 'bots_pm' => Bool, 'bots_inline' => Bool, 'groups' => Bool, 'channels' => Bool, 'offset' => int, 'limit' => int, 'hash' => int, ]);
+$contacts_TopPeers = $MadelineProto->contacts->getTopPeers(['correspondents' => Bool, 'bots_pm' => Bool, 'bots_inline' => Bool, 'groups' => Bool, 'channels' => Bool, 'offset' => int, 'limit' => int, 'hash' => [int, int], ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -67,7 +67,7 @@ offset - Json encoded int
 
 limit - Json encoded int
 
-hash - Json encoded int
+hash - Json encoded  array of int
 
 
 
@@ -75,7 +75,7 @@ hash - Json encoded int
 Or, if you're into Lua:
 
 ```
-contacts_TopPeers = contacts.getTopPeers({correspondents=Bool, bots_pm=Bool, bots_inline=Bool, groups=Bool, channels=Bool, offset=int, limit=int, hash=int, })
+contacts_TopPeers = contacts.getTopPeers({correspondents=Bool, bots_pm=Bool, bots_inline=Bool, groups=Bool, channels=Bool, offset=int, limit=int, hash={int}, })
 ```
 
 ### Errors this method can return:

@@ -14,7 +14,7 @@ Get recent stickers
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |attached|[Bool](../types/Bool.md) | Get stickers attached to image? | Optional|
-|hash|[int](../types/int.md) | 0 or $result['hash'] | Yes|
+|hash|Array of [int](../types/int.md) |  | Optional|
 
 
 ### Return type: [messages\_RecentStickers](../types/messages_RecentStickers.md)
@@ -34,7 +34,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_RecentStickers = $MadelineProto->messages->getRecentStickers(['attached' => Bool, 'hash' => int, ]);
+$messages_RecentStickers = $MadelineProto->messages->getRecentStickers(['attached' => Bool, 'hash' => [int, int], ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -49,7 +49,7 @@ Parameters:
 
 attached - Json encoded Bool
 
-hash - Json encoded int
+hash - Json encoded  array of int
 
 
 
@@ -57,6 +57,6 @@ hash - Json encoded int
 Or, if you're into Lua:
 
 ```
-messages_RecentStickers = messages.getRecentStickers({attached=Bool, hash=int, })
+messages_RecentStickers = messages.getRecentStickers({attached=Bool, hash={int}, })
 ```
 

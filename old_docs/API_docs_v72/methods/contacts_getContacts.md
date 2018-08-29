@@ -13,7 +13,7 @@ Get all contacts
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[int](../types/int.md) | $ids is the list ids of previously fetched contacts, `$hash = $MadelineProto->gen_vector_hash($ids);` | Yes|
+|hash|Array of [int](../types/int.md) |  | Optional|
 
 
 ### Return type: [contacts\_Contacts](../types/contacts_Contacts.md)
@@ -33,7 +33,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts_Contacts = $MadelineProto->contacts->getContacts(['hash' => int, ]);
+$contacts_Contacts = $MadelineProto->contacts->getContacts(['hash' => [int, int], ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -46,7 +46,7 @@ POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/contacts.getContacts`
 
 Parameters:
 
-hash - Json encoded int
+hash - Json encoded  array of int
 
 
 
@@ -54,6 +54,6 @@ hash - Json encoded int
 Or, if you're into Lua:
 
 ```
-contacts_Contacts = contacts.getContacts({hash=int, })
+contacts_Contacts = contacts.getContacts({hash={int}, })
 ```
 

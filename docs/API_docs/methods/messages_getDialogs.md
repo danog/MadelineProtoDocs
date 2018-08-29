@@ -18,7 +18,7 @@ Gets list of chats: you should use $MadelineProto->get_dialogs() instead: https:
 |offset\_id|[int](../types/int.md) | end($res['messages'])['id']; | Yes|
 |offset\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | end($res['dialogs'])['peer']; | Optional|
 |limit|[int](../types/int.md) | Number of dialogs to fetch | Yes|
-|hash|[int](../types/int.md) | $MadelineProto->gen_vector_hash(ids of previously fetched dialogs or []) | Yes|
+|hash|Array of [int](../types/int.md) |  | Optional|
 
 
 ### Return type: [messages\_Dialogs](../types/messages_Dialogs.md)
@@ -38,7 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Dialogs = $MadelineProto->messages->getDialogs(['exclude_pinned' => Bool, 'offset_date' => int, 'offset_id' => int, 'offset_peer' => InputPeer, 'limit' => int, 'hash' => int, ]);
+$messages_Dialogs = $MadelineProto->messages->getDialogs(['exclude_pinned' => Bool, 'offset_date' => int, 'offset_id' => int, 'offset_peer' => InputPeer, 'limit' => int, 'hash' => [int, int], ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -61,7 +61,7 @@ offset_peer - Json encoded InputPeer
 
 limit - Json encoded int
 
-hash - Json encoded int
+hash - Json encoded  array of int
 
 
 
@@ -69,7 +69,7 @@ hash - Json encoded int
 Or, if you're into Lua:
 
 ```
-messages_Dialogs = messages.getDialogs({exclude_pinned=Bool, offset_date=int, offset_id=int, offset_peer=InputPeer, limit=int, hash=int, })
+messages_Dialogs = messages.getDialogs({exclude_pinned=Bool, offset_date=int, offset_id=int, offset_peer=InputPeer, limit=int, hash={int}, })
 ```
 
 ### Errors this method can return:

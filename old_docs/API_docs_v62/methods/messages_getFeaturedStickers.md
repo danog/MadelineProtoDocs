@@ -13,7 +13,7 @@ Get featured stickers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[int](../types/int.md) | 0 or $result['hash'] | Yes|
+|hash|Array of [int](../types/int.md) |  | Optional|
 
 
 ### Return type: [messages\_FeaturedStickers](../types/messages_FeaturedStickers.md)
@@ -33,7 +33,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_FeaturedStickers = $MadelineProto->messages->getFeaturedStickers(['hash' => int, ]);
+$messages_FeaturedStickers = $MadelineProto->messages->getFeaturedStickers(['hash' => [int, int], ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -46,7 +46,7 @@ POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.getFeaturedStickers`
 
 Parameters:
 
-hash - Json encoded int
+hash - Json encoded  array of int
 
 
 
@@ -54,6 +54,6 @@ hash - Json encoded int
 Or, if you're into Lua:
 
 ```
-messages_FeaturedStickers = messages.getFeaturedStickers({hash=int, })
+messages_FeaturedStickers = messages.getFeaturedStickers({hash={int}, })
 ```
 

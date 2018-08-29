@@ -17,7 +17,7 @@ Get channel/supergroup participants (you should use `$MadelineProto->get_pwr_cha
 |filter|[ChannelParticipantsFilter](../types/ChannelParticipantsFilter.md) | Member filter | Yes|
 |offset|[int](../types/int.md) | Offset | Yes|
 |limit|[int](../types/int.md) | Limit | Yes|
-|hash|[int](../types/int.md) | $MadelineProto->gen_vector_hash(ids of previously fetched participant IDs) | Yes|
+|hash|Array of [int](../types/int.md) |  | Optional|
 
 
 ### Return type: [channels\_ChannelParticipants](../types/channels_ChannelParticipants.md)
@@ -37,7 +37,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$channels_ChannelParticipants = $MadelineProto->channels->getParticipants(['channel' => InputChannel, 'filter' => ChannelParticipantsFilter, 'offset' => int, 'limit' => int, 'hash' => int, ]);
+$channels_ChannelParticipants = $MadelineProto->channels->getParticipants(['channel' => InputChannel, 'filter' => ChannelParticipantsFilter, 'offset' => int, 'limit' => int, 'hash' => [int, int], ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -49,7 +49,7 @@ POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
 Parameters:
 
 * method - channels.getParticipants
-* params - `{"channel": InputChannel, "filter": ChannelParticipantsFilter, "offset": int, "limit": int, "hash": int, }`
+* params - `{"channel": InputChannel, "filter": ChannelParticipantsFilter, "offset": int, "limit": int, "hash": [int], }`
 
 
 
@@ -67,7 +67,7 @@ offset - Json encoded int
 
 limit - Json encoded int
 
-hash - Json encoded int
+hash - Json encoded  array of int
 
 
 
@@ -75,7 +75,7 @@ hash - Json encoded int
 Or, if you're into Lua:
 
 ```
-channels_ChannelParticipants = channels.getParticipants({channel=InputChannel, filter=ChannelParticipantsFilter, offset=int, limit=int, hash=int, })
+channels_ChannelParticipants = channels.getParticipants({channel=InputChannel, filter=ChannelParticipantsFilter, offset=int, limit=int, hash={int}, })
 ```
 
 ### Errors this method can return:
