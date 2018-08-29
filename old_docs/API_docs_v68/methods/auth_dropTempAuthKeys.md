@@ -11,9 +11,9 @@ Delete all temporary authorization keys except the ones provided
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|except\_auth\_keys|Array of [long](../types/long.md) | Yes|The temporary authorization keys to keep|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|except\_auth\_keys|Array of [long](../types/long.md) | The temporary authorization keys to keep | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

@@ -14,11 +14,11 @@ Installs/uninstalls or enables/archives sticker set
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|set\_id|[int64](../constructors/int64.md) | Yes|Identifier of the sticker set|
-|is\_installed|[Bool](../types/Bool.md) | Yes|New value of is_installed|
-|is\_archived|[Bool](../types/Bool.md) | Yes|New value of is_archived. A sticker set can't be installed and archived simultaneously|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|set\_id|[int64](../constructors/int64.md) | Identifier of the sticker set | Yes|
+|is\_installed|[Bool](../types/Bool.md) | New value of is_installed | Yes|
+|is\_archived|[Bool](../types/Bool.md) | New value of is_archived. A sticker set can't be installed and archived simultaneously | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

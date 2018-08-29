@@ -14,9 +14,9 @@ Sets current network type. Can be called before authorization. Call to this meth
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|type|[NetworkType](../types/NetworkType.md) | Yes|New network type, defaults to networkTypeNone|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|type|[NetworkType](../types/NetworkType.md) | New network type, defaults to networkTypeNone | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

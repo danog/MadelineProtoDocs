@@ -11,10 +11,10 @@ Update profile info
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|first\_name|[string](../types/string.md) | Yes|The first name|
-|last\_name|[string](../types/string.md) | Yes|The last name|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|first\_name|[string](../types/string.md) | The first name | Yes|
+|last\_name|[string](../types/string.md) | The last name | Yes|
 
 
 ### Return type: [User](../types/User.md)

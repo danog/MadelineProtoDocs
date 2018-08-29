@@ -14,9 +14,9 @@ Test request. Returns back received string
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|x|[string](../types/string.md) | Yes|String to return|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|x|[string](../types/string.md) | String to return | Yes|
 
 
 ### Return type: [TestString](../types/TestString.md)

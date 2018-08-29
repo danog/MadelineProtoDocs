@@ -11,9 +11,9 @@ Get stickers attachable to images
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|media|[InputStickeredMedia](../types/InputStickeredMedia.md) | Yes|The stickered media|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|media|[InputStickeredMedia](../types/InputStickeredMedia.md) | The stickered media | Yes|
 
 
 ### Return type: [Vector\_of\_StickerSetCovered](../types/StickerSetCovered.md)

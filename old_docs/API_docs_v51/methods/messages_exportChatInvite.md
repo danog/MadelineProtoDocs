@@ -11,9 +11,9 @@ Export chat invite
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The chat id |
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat id  | Optional|
 
 
 ### Return type: [ExportedChatInvite](../types/ExportedChatInvite.md)

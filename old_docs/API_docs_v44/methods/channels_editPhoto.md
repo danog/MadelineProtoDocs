@@ -11,10 +11,10 @@ Edit the photo of a supergroup/channel
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|The channel|
-|photo|[InputChatPhoto](../types/InputChatPhoto.md) | Optional|The new photo|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel | Optional|
+|photo|[InputChatPhoto](../types/InputChatPhoto.md) | The new photo | Optional|
 
 
 ### Return type: [Updates](../types/Updates.md)

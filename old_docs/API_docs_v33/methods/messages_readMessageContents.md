@@ -11,9 +11,9 @@ Mark message as read
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|id|Array of [int](../types/int.md) | Yes|The messages to mark as read (only users and normal chats, not supergroups)|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|id|Array of [int](../types/int.md) | The messages to mark as read (only users and normal chats, not supergroups) | Yes|
 
 
 ### Return type: [messages\_AffectedMessages](../types/messages_AffectedMessages.md)

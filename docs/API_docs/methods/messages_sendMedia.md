@@ -11,17 +11,17 @@ Send a media
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|silent|[Bool](../types/Bool.md) | Optional|Disable notifications?|
-|background|[Bool](../types/Bool.md) | Optional|Disable background notifications?|
-|clear\_draft|[Bool](../types/Bool.md) | Optional|Clear the message draft of this chat?|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|Where to send the media|
-|reply\_to\_msg\_id|[int](../types/int.md) | Optional|Reply to message by ID|
-|media|[MessageMedia, Update, Message or InputMedia](../types/InputMedia.md) | Optional|The media to send|
-|message|[string](../types/string.md) | Yes|The caption|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Keyboards to send|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|Entities for styled text|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|silent|[Bool](../types/Bool.md) | Disable notifications? | Optional|
+|background|[Bool](../types/Bool.md) | Disable background notifications? | Optional|
+|clear\_draft|[Bool](../types/Bool.md) | Clear the message draft of this chat? | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Where to send the media | Optional|
+|reply\_to\_msg\_id|[int](../types/int.md) | Reply to message by ID | Optional|
+|media|[MessageMedia, Update, Message or InputMedia](../types/InputMedia.md) | The media to send | Optional|
+|message|[string](../types/string.md) | The caption | Yes|
+|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Keyboards to send | Optional|
+|entities|Array of [MessageEntity](../types/MessageEntity.md) | Entities for styled text | Optional|
 |parse\_mode| [string](../types/string.md) | Optional |Whether to parse HTML or Markdown markup in the message|
 
 
@@ -127,6 +127,7 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 |EXTERNAL_URL_INVALID|External URL invalid|
 |FILE_PART_LENGTH_INVALID|The length of a file part is invalid|
 |FILE_PARTS_INVALID|The number of file parts is invalid|
+|IMAGE_PROCESS_FAILED|Failure while processing image|
 |INPUT_USER_DEACTIVATED|The specified user was deleted|
 |MEDIA_CAPTION_TOO_LONG|The caption is too long|
 |MEDIA_EMPTY|The provided media object is invalid|

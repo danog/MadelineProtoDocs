@@ -11,9 +11,9 @@ Get notification settings
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[InputNotifyPeer](../types/InputNotifyPeer.md) | Yes|Notification source |
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[InputNotifyPeer](../types/InputNotifyPeer.md) | Notification source  | Yes|
 
 
 ### Return type: [PeerNotifySettings](../types/PeerNotifySettings.md)

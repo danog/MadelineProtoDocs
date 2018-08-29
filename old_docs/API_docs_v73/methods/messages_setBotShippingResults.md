@@ -11,11 +11,11 @@ Bots only: set shipping results
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|query\_id|[long](../types/long.md) | Yes|Query ID|
-|error|[string](../types/string.md) | Optional|Error|
-|shipping\_options|Array of [ShippingOption](../types/ShippingOption.md) | Optional|Shipping options|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|query\_id|[long](../types/long.md) | Query ID | Yes|
+|error|[string](../types/string.md) | Error | Optional|
+|shipping\_options|Array of [ShippingOption](../types/ShippingOption.md) | Shipping options | Optional|
 
 
 ### Return type: [Bool](../types/Bool.md)

@@ -11,10 +11,10 @@ Enable channel comments
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|The channel |
-|enabled|[Bool](../types/Bool.md) | Yes|Enable or disable comments|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel  | Optional|
+|enabled|[Bool](../types/Bool.md) | Enable or disable comments | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

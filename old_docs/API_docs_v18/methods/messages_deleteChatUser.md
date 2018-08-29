@@ -11,10 +11,10 @@ Delete a user from a chat (not supergroup)
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The ID of the chat|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|The user to delete (pass @me to leave the chat)|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The ID of the chat | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The user to delete (pass @me to leave the chat) | Optional|
 
 
 ### Return type: [messages\_StatedMessage](../types/messages_StatedMessage.md)

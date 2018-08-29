@@ -11,11 +11,11 @@ Get the callback answer of a bot (after clicking a button)
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The chat|
-|msg\_id|[int](../types/int.md) | Yes|The message ID|
-|data|[bytes](../types/bytes.md) | Yes|The data to send to the bot|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat | Optional|
+|msg\_id|[int](../types/int.md) | The message ID | Yes|
+|data|[bytes](../types/bytes.md) | The data to send to the bot | Yes|
 
 
 ### Return type: [messages\_BotCallbackAnswer](../types/messages_BotCallbackAnswer.md)

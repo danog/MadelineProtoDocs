@@ -14,10 +14,10 @@ Bots only. Changes position of a sticker in the set it belongs to. Sticker set s
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|sticker|[InputFile](../types/InputFile.md) | Yes|The sticker|
-|position|[int](../types/int.md) | Yes|New sticker position in the set, zero-based|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|sticker|[InputFile](../types/InputFile.md) | The sticker | Yes|
+|position|[int](../types/int.md) | New sticker position in the set, zero-based | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

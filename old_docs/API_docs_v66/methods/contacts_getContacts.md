@@ -11,9 +11,9 @@ Get all contacts
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|hash|[string](../types/string.md) | Yes|$MadelineProto->gen_vector_hash(previously fetched user IDs);|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|[string](../types/string.md) | $MadelineProto->gen_vector_hash(previously fetched user IDs); | Yes|
 
 
 ### Return type: [contacts\_Contacts](../types/contacts_Contacts.md)

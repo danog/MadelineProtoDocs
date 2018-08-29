@@ -11,10 +11,10 @@ Save telegram passport secure value
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|value|[InputSecureValue](../types/InputSecureValue.md) | Yes|Encrypted value|
-|secure\_secret\_id|[long](../types/long.md) | Yes|Secret|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|value|[InputSecureValue](../types/InputSecureValue.md) | Encrypted value | Yes|
+|secure\_secret\_id|[long](../types/long.md) | Secret | Yes|
 
 
 ### Return type: [SecureValue](../types/SecureValue.md)

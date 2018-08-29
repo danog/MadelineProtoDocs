@@ -11,16 +11,16 @@ Edit a sent inline message
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|no\_webpage|[Bool](../types/Bool.md) | Optional|Disable webpage preview|
-|stop\_geo\_live|[Bool](../types/Bool.md) | Optional|Stop live location|
-|id|[InputBotInlineMessageID](../types/InputBotInlineMessageID.md) | Yes|The message ID|
-|message|[string](../types/string.md) | Optional|The new message|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|The new keyboard|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|The new entities (for styled text)|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|no\_webpage|[Bool](../types/Bool.md) | Disable webpage preview | Optional|
+|stop\_geo\_live|[Bool](../types/Bool.md) | Stop live location | Optional|
+|id|[InputBotInlineMessageID](../types/InputBotInlineMessageID.md) | The message ID | Yes|
+|message|[string](../types/string.md) | The new message | Optional|
+|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | The new keyboard | Optional|
+|entities|Array of [MessageEntity](../types/MessageEntity.md) | The new entities (for styled text) | Optional|
 |parse\_mode| [string](../types/string.md) | Optional |Whether to parse HTML or Markdown markup in the message|
-|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|The new location|
+|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | The new location | Optional|
 
 
 ### Return type: [Bool](../types/Bool.md)

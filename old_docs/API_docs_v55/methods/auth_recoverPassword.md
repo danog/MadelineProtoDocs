@@ -11,9 +11,9 @@ Use the code that was emailed to you after running $MadelineProto->auth->request
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|code|[string](../types/string.md) | Yes|The code that was emailed to you|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|code|[string](../types/string.md) | The code that was emailed to you | Yes|
 
 
 ### Return type: [auth\_Authorization](../types/auth_Authorization.md)

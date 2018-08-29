@@ -11,9 +11,9 @@ Update this user's username
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|username|[string](../types/string.md) | Yes|The new username|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|username|[string](../types/string.md) | The new username | Yes|
 
 
 ### Return type: [User](../types/User.md)

@@ -11,13 +11,13 @@ Create stickerset
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|masks|[Bool](../types/Bool.md) | Optional|Masks?|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|The user ID associated to this stickerset|
-|title|[string](../types/string.md) | Yes|The stickerset title|
-|short\_name|[string](../types/string.md) | Yes|The stickerset short name|
-|stickers|Array of [InputStickerSetItem](../types/InputStickerSetItem.md) | Yes|The stickers to add|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|masks|[Bool](../types/Bool.md) | Masks? | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The user ID associated to this stickerset | Optional|
+|title|[string](../types/string.md) | The stickerset title | Yes|
+|short\_name|[string](../types/string.md) | The stickerset short name | Yes|
+|stickers|Array of [InputStickerSetItem](../types/InputStickerSetItem.md) | The stickers to add | Yes|
 
 
 ### Return type: [messages\_StickerSet](../types/messages_StickerSet.md)

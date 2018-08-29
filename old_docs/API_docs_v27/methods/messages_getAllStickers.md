@@ -11,9 +11,9 @@ Get all stickerpacks
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|hash|[string](../types/string.md) | Yes|Previously fetched stickers|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|[string](../types/string.md) | Previously fetched stickers | Yes|
 
 
 ### Return type: [messages\_AllStickers](../types/messages_AllStickers.md)

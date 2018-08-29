@@ -14,13 +14,13 @@ Forwards previously sent messages. Returns forwarded messages in the same order 
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Identifier of a chat to forward messages|
-|from\_chat\_id|[int53](../types/int53.md) | Yes|Identifier of a chat to forward from|
-|message\_ids|Array of [int53](../types/int53.md) | Yes|Identifiers of messages to forward|
-|disable\_notification|[Bool](../types/Bool.md) | Yes|Pass true, to disable notification about the message, doesn't works if messages are forwarded to secret chat|
-|from\_background|[Bool](../types/Bool.md) | Yes|Pass true, if the message is sent from background|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Identifier of a chat to forward messages | Yes|
+|from\_chat\_id|[int53](../types/int53.md) | Identifier of a chat to forward from | Yes|
+|message\_ids|Array of [int53](../types/int53.md) | Identifiers of messages to forward | Yes|
+|disable\_notification|[Bool](../types/Bool.md) | Pass true, to disable notification about the message, doesn't works if messages are forwarded to secret chat | Yes|
+|from\_background|[Bool](../types/Bool.md) | Pass true, if the message is sent from background | Yes|
 
 
 ### Return type: [Messages](../types/Messages.md)

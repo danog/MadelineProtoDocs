@@ -14,10 +14,10 @@ Changes user recovery email. If new recovery email is specified, then error EMAI
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|password|[string](../types/string.md) | Yes|Current user password|
-|new\_recovery\_email|[string](../types/string.md) | Yes|New recovery email|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|password|[string](../types/string.md) | Current user password | Yes|
+|new\_recovery\_email|[string](../types/string.md) | New recovery email | Yes|
 
 
 ### Return type: [PasswordState](../types/PasswordState.md)

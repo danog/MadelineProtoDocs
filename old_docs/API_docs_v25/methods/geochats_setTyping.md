@@ -11,10 +11,10 @@ Send typing notification to geochat
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[InputGeoChat](../types/InputGeoChat.md) | Yes|The geochat|
-|typing|[Bool](../types/Bool.md) | Yes|Typing or not typing|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[InputGeoChat](../types/InputGeoChat.md) | The geochat | Yes|
+|typing|[Bool](../types/Bool.md) | Typing or not typing | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

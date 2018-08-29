@@ -11,9 +11,9 @@ Mark new featured stickers as read
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|id|Array of [long](../types/long.md) | Yes|The stickers to mark as read|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|id|Array of [long](../types/long.md) | The stickers to mark as read | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

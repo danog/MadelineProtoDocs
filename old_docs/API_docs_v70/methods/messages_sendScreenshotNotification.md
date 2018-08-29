@@ -11,10 +11,10 @@ Send screenshot notification
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|Where to send the notification|
-|reply\_to\_msg\_id|[int](../types/int.md) | Yes|Reply to message by ID|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Where to send the notification | Optional|
+|reply\_to\_msg\_id|[int](../types/int.md) | Reply to message by ID | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

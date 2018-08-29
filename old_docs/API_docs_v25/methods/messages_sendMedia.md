@@ -11,11 +11,11 @@ Send a media
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|Where to send the media|
-|reply\_to\_msg\_id|[int](../types/int.md) | Yes|Reply to message by ID|
-|media|[MessageMedia, Update, Message or InputMedia](../types/InputMedia.md) | Optional|The media to send|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Where to send the media | Optional|
+|reply\_to\_msg\_id|[int](../types/int.md) | Reply to message by ID | Yes|
+|media|[MessageMedia, Update, Message or InputMedia](../types/InputMedia.md) | The media to send | Optional|
 
 
 ### Return type: [messages\_StatedMessage](../types/messages_StatedMessage.md)
@@ -82,6 +82,7 @@ messages_StatedMessage = messages.sendMedia({peer=InputPeer, reply_to_msg_id=int
 |EXTERNAL_URL_INVALID|External URL invalid|
 |FILE_PART_LENGTH_INVALID|The length of a file part is invalid|
 |FILE_PARTS_INVALID|The number of file parts is invalid|
+|IMAGE_PROCESS_FAILED|Failure while processing image|
 |INPUT_USER_DEACTIVATED|The specified user was deleted|
 |MEDIA_CAPTION_TOO_LONG|The caption is too long|
 |MEDIA_EMPTY|The provided media object is invalid|

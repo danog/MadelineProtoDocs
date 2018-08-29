@@ -14,10 +14,10 @@ Returns web page instant view if available. Returns error 404 if web page has no
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|url|[string](../types/string.md) | Yes|Web page URL|
-|force\_full|[Bool](../types/Bool.md) | Yes|If true, full web page instant view will be returned|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|url|[string](../types/string.md) | Web page URL | Yes|
+|force\_full|[Bool](../types/Bool.md) | If true, full web page instant view will be returned | Yes|
 
 
 ### Return type: [WebPageInstantView](../types/WebPageInstantView.md)

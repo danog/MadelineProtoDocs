@@ -11,9 +11,9 @@ Get invitation text
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|lang\_code|[string](../types/string.md) | Yes|Language|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|lang\_code|[string](../types/string.md) | Language | Yes|
 
 
 ### Return type: [help\_InviteText](../types/help_InviteText.md)

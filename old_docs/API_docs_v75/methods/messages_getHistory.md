@@ -11,16 +11,16 @@ Get previous messages of a group
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The chat|
-|offset\_id|[int](../types/int.md) | Yes|The last fetched message ID, initially 0|
-|offset\_date|[int](../types/int.md) | Yes|The date of the last previously fetched message, initially 0|
-|add\_offset|[int](../types/int.md) | Yes|Additional offset, can be 0|
-|limit|[int](../types/int.md) | Yes|Number of messages to fetch|
-|max\_id|[int](../types/int.md) | Yes|Maximum message ID to fetch|
-|min\_id|[int](../types/int.md) | Yes|Minumum message ID to fetch|
-|hash|[int](../types/int.md) | Yes|hash of old messages, $MadelineProto->gen_vector_hash($parsedMessageIds)|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat | Optional|
+|offset\_id|[int](../types/int.md) | The last fetched message ID, initially 0 | Yes|
+|offset\_date|[int](../types/int.md) | The date of the last previously fetched message, initially 0 | Yes|
+|add\_offset|[int](../types/int.md) | Additional offset, can be 0 | Yes|
+|limit|[int](../types/int.md) | Number of messages to fetch | Yes|
+|max\_id|[int](../types/int.md) | Maximum message ID to fetch | Yes|
+|min\_id|[int](../types/int.md) | Minumum message ID to fetch | Yes|
+|hash|[int](../types/int.md) | hash of old messages, $MadelineProto->gen_vector_hash($parsedMessageIds) | Yes|
 
 
 ### Return type: [messages\_Messages](../types/messages_Messages.md)

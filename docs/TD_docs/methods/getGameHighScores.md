@@ -14,11 +14,11 @@ Bots only. Returns game high scores and some part of the score table around of t
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat a message with the game belongs to|
-|message\_id|[int53](../types/int53.md) | Yes|Identifier of the message|
-|user\_id|[int](../types/int.md) | Yes|User identifie|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat a message with the game belongs to | Yes|
+|message\_id|[int53](../types/int53.md) | Identifier of the message | Yes|
+|user\_id|[int](../types/int.md) | User identifie | Yes|
 
 
 ### Return type: [GameHighScores](../types/GameHighScores.md)

@@ -11,9 +11,9 @@ Delete a certain session
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|hash|[long](../types/long.md) | Yes|The session hash, obtained from $MadelineProto->account->getAuthorizations|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|[long](../types/long.md) | The session hash, obtained from $MadelineProto->account->getAuthorizations | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

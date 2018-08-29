@@ -11,9 +11,9 @@ Notify server that you received a call (server will refuse all incoming calls un
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[InputPhoneCall](../types/InputPhoneCall.md) | Yes|The phone call you received|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[InputPhoneCall](../types/InputPhoneCall.md) | The phone call you received | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

@@ -14,10 +14,10 @@ Changes information about the channel. Needs appropriate rights in the channel
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel\_id|[int](../types/int.md) | Yes|Identifier of the channel|
-|description|[string](../types/string.md) | Yes|New channel description, 0-255 characters|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel\_id|[int](../types/int.md) | Identifier of the channel | Yes|
+|description|[string](../types/string.md) | New channel description, 0-255 characters | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

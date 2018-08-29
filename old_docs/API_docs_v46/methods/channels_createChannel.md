@@ -11,12 +11,12 @@ Create channel/supergroup
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|broadcast|[Bool](../types/Bool.md) | Optional|Set this to true to create a channel|
-|megagroup|[Bool](../types/Bool.md) | Optional|Set this to true to create a supergroup|
-|title|[string](../types/string.md) | Yes|Supergroup/channel title|
-|about|[string](../types/string.md) | Yes|About text|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|broadcast|[Bool](../types/Bool.md) | Set this to true to create a channel | Optional|
+|megagroup|[Bool](../types/Bool.md) | Set this to true to create a supergroup | Optional|
+|title|[string](../types/string.md) | Supergroup/channel title | Yes|
+|about|[string](../types/string.md) | About text | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

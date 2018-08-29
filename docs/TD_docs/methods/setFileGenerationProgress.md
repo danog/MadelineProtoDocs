@@ -14,11 +14,11 @@ Next part of a file was generated
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|generation\_id|[int64](../constructors/int64.md) | Yes|Identifier of the generation process|
-|size|[int](../types/int.md) | Yes|Full size of file in bytes, 0 if unknown.|
-|local\_size|[int](../types/int.md) | Yes|Number of bytes already generated. Negative number means that generation has failed and should be terminated|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|generation\_id|[int64](../constructors/int64.md) | Identifier of the generation process | Yes|
+|size|[int](../types/int.md) | Full size of file in bytes, 0 if unknown. | Yes|
+|local\_size|[int](../types/int.md) | Number of bytes already generated. Negative number means that generation has failed and should be terminated | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

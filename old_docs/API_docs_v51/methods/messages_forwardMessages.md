@@ -11,14 +11,14 @@ Forward messages
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|broadcast|[Bool](../types/Bool.md) | Optional|Broadcast this message|
-|silent|[Bool](../types/Bool.md) | Optional|Disable notifications|
-|background|[Bool](../types/Bool.md) | Optional|Disable background notifications|
-|from\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|From where to forward the messages|
-|id|Array of [int](../types/int.md) | Yes|The message IDs|
-|to\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|Where to forward the messages|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|broadcast|[Bool](../types/Bool.md) | Broadcast this message | Optional|
+|silent|[Bool](../types/Bool.md) | Disable notifications | Optional|
+|background|[Bool](../types/Bool.md) | Disable background notifications | Optional|
+|from\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | From where to forward the messages | Optional|
+|id|Array of [int](../types/int.md) | The message IDs | Yes|
+|to\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Where to forward the messages | Optional|
 
 
 ### Return type: [Updates](../types/Updates.md)

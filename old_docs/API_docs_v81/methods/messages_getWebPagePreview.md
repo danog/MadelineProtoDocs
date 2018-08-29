@@ -11,10 +11,10 @@ Get webpage preview
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|message|[string](../types/string.md) | Yes|Extract preview from this message|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|Entities for styled text|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|message|[string](../types/string.md) | Extract preview from this message | Yes|
+|entities|Array of [MessageEntity](../types/MessageEntity.md) | Entities for styled text | Optional|
 |parse\_mode| [string](../types/string.md) | Optional |Whether to parse HTML or Markdown markup in the message|
 
 

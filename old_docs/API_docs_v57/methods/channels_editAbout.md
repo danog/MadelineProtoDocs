@@ -11,10 +11,10 @@ Edit the about text of a channel/supergroup
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|The channel|
-|about|[string](../types/string.md) | Yes|The new about text|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel | Optional|
+|about|[string](../types/string.md) | The new about text | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

@@ -14,9 +14,9 @@ Test request. Returns back received vector of objects containing a string
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|x|Array of [testString](../constructors/testString.md) | Yes|Vector of objects to return|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|x|Array of [testString](../constructors/testString.md) | Vector of objects to return | Yes|
 
 
 ### Return type: [TestVectorStringObject](../types/TestVectorStringObject.md)

@@ -14,9 +14,9 @@ Checks authentication code sent to change user's phone number. Returns authState
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|code|[string](../types/string.md) | Yes|Verification code from SMS, phone call or flash call|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|code|[string](../types/string.md) | Verification code from SMS, phone call or flash call | Yes|
 
 
 ### Return type: [AuthState](../types/AuthState.md)

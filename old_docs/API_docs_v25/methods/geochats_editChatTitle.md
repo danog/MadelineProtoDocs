@@ -11,11 +11,11 @@ Edit geochat title
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[InputGeoChat](../types/InputGeoChat.md) | Yes|The geochat|
-|title|[string](../types/string.md) | Yes|The new title|
-|address|[string](../types/string.md) | Yes|The new address|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[InputGeoChat](../types/InputGeoChat.md) | The geochat | Yes|
+|title|[string](../types/string.md) | The new title | Yes|
+|address|[string](../types/string.md) | The new address | Yes|
 
 
 ### Return type: [geochats\_StatedMessage](../types/geochats_StatedMessage.md)

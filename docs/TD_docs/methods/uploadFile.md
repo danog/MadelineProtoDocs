@@ -14,11 +14,11 @@ Asynchronously uploads file to the cloud without sending it in a message. Update
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|file|[InputFile](../types/InputFile.md) | Yes|File to upload|
-|file\_type|[FileType](../types/FileType.md) | Yes|File type|
-|priority|[int](../types/int.md) | Yes|Priority of upload, 1-32. The higher priority, the earlier file will be uploaded. If priorities of two files are equal then the first one for which uploadFile is called will be uploaded first|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|file|[InputFile](../types/InputFile.md) | File to upload | Yes|
+|file\_type|[FileType](../types/FileType.md) | File type | Yes|
+|priority|[int](../types/int.md) | Priority of upload, 1-32. The higher priority, the earlier file will be uploaded. If priorities of two files are equal then the first one for which uploadFile is called will be uploaded first | Yes|
 
 
 ### Return type: [File](../types/File.md)

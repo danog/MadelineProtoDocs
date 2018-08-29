@@ -11,11 +11,11 @@ Set the pinned message of a channel/supergroup
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|silent|[Bool](../types/Bool.md) | Optional|Pin silently|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|The channel/supergroup|
-|id|[int](../types/int.md) | Yes|The ID of the message to pin|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|silent|[Bool](../types/Bool.md) | Pin silently | Optional|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel/supergroup | Optional|
+|id|[int](../types/int.md) | The ID of the message to pin | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

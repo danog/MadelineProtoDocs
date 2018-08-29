@@ -14,10 +14,10 @@ Changes chat title. Works only for group and channel chats. Requires administrat
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier|
-|title|[string](../types/string.md) | Yes|New title of the chat, 1-255 characters|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat identifier | Yes|
+|title|[string](../types/string.md) | New title of the chat, 1-255 characters | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

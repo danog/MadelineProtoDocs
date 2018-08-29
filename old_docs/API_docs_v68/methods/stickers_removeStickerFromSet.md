@@ -11,9 +11,9 @@ Remove sticker from stickerset
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|sticker|[MessageMedia, Update, Message or InputDocument](../types/InputDocument.md) | Optional|The sticker to remove|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|sticker|[MessageMedia, Update, Message or InputDocument](../types/InputDocument.md) | The sticker to remove | Optional|
 
 
 ### Return type: [Bool](../types/Bool.md)

@@ -11,10 +11,10 @@ Set secure value error for telegram passport
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|The user ID|
-|errors|Array of [SecureValueError](../types/SecureValueError.md) | Yes|The errors|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The user ID | Optional|
+|errors|Array of [SecureValueError](../types/SecureValueError.md) | The errors | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

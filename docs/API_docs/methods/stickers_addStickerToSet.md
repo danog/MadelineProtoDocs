@@ -11,10 +11,10 @@ Add sticker to stickerset
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|stickerset|[InputStickerSet](../types/InputStickerSet.md) | Optional|The stickerset|
-|sticker|[InputStickerSetItem](../types/InputStickerSetItem.md) | Yes|The sticker|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|stickerset|[InputStickerSet](../types/InputStickerSet.md) | The stickerset | Optional|
+|sticker|[InputStickerSetItem](../types/InputStickerSetItem.md) | The sticker | Yes|
 
 
 ### Return type: [messages\_StickerSet](../types/messages_StickerSet.md)

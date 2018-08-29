@@ -11,11 +11,11 @@ Edit admin permissions of a user in a channel/supergroup
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|The channel|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|The user|
-|role|[ChannelParticipantRole](../types/ChannelParticipantRole.md) | Yes|User role|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The user | Optional|
+|role|[ChannelParticipantRole](../types/ChannelParticipantRole.md) | User role | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

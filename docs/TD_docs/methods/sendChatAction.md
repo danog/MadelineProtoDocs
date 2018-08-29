@@ -14,10 +14,10 @@ Sends notification about user activity in a chat
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier|
-|action|[ChatAction](../types/ChatAction.md) | Yes|Action description|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat identifier | Yes|
+|action|[ChatAction](../types/ChatAction.md) | Action description | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

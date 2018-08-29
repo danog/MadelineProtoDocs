@@ -11,11 +11,11 @@ Validate requested payment info
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|save|[Bool](../types/Bool.md) | Optional|Save payment info?|
-|msg\_id|[int](../types/int.md) | Yes|The message ID|
-|info|[PaymentRequestedInfo](../types/PaymentRequestedInfo.md) | Yes|The requested payment info|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|save|[Bool](../types/Bool.md) | Save payment info? | Optional|
+|msg\_id|[int](../types/int.md) | The message ID | Yes|
+|info|[PaymentRequestedInfo](../types/PaymentRequestedInfo.md) | The requested payment info | Yes|
 
 
 ### Return type: [payments\_ValidatedRequestedInfo](../types/payments_ValidatedRequestedInfo.md)

@@ -11,10 +11,10 @@ Invite friends to telegram!
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|phone\_numbers|Array of [string](../types/string.md) | Yes|Phone numbers to invite|
-|message|[string](../types/string.md) | Yes|The message to send|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|phone\_numbers|Array of [string](../types/string.md) | Phone numbers to invite | Yes|
+|message|[string](../types/string.md) | The message to send | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

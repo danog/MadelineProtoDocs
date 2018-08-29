@@ -14,11 +14,11 @@ Bots only. Edits message reply markup. Returns edited message after edit is comp
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat the message belongs to|
-|message\_id|[int53](../types/int53.md) | Yes|Identifier of the message|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Yes|New message reply markup|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat the message belongs to | Yes|
+|message\_id|[int53](../types/int53.md) | Identifier of the message | Yes|
+|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | New message reply markup | Yes|
 
 
 ### Return type: [Message](../types/Message.md)

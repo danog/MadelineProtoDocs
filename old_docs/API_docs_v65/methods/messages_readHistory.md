@@ -11,10 +11,10 @@ Mark messages as read
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|Where to mark messages as read|
-|max\_id|[int](../types/int.md) | Yes|Maximum message ID to mark as read|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Where to mark messages as read | Optional|
+|max\_id|[int](../types/int.md) | Maximum message ID to mark as read | Yes|
 
 
 ### Return type: [messages\_AffectedMessages](../types/messages_AffectedMessages.md)

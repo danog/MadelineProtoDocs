@@ -14,10 +14,10 @@ Creates new call
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|Identifier of user to call|
-|protocol|[callProtocol](../constructors/callProtocol.md) | Yes|Description of supported by the client call protocols|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|user\_id|[int](../types/int.md) | Identifier of user to call | Yes|
+|protocol|[callProtocol](../constructors/callProtocol.md) | Description of supported by the client call protocols | Yes|
 
 
 ### Return type: [CallId](../types/CallId.md)

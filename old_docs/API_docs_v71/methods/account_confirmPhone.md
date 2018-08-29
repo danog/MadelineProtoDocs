@@ -11,10 +11,10 @@ Confirm this phone number is associated to this account, obtain phone_code_hash 
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|phone\_code\_hash|[string](../types/string.md) | Yes|obtain phone_code_hash from sendConfirmPhoneCode|
-|phone\_code|[string](../types/string.md) | Yes|The code sent by sendConfirmPhoneCode|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|phone\_code\_hash|[string](../types/string.md) | obtain phone_code_hash from sendConfirmPhoneCode | Yes|
+|phone\_code|[string](../types/string.md) | The code sent by sendConfirmPhoneCode | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

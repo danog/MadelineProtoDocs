@@ -14,10 +14,10 @@ Changes client data associated with a chat
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier|
-|client\_data|[string](../types/string.md) | Yes|New value of client_data|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat identifier | Yes|
+|client\_data|[string](../types/string.md) | New value of client_data | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

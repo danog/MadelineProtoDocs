@@ -11,10 +11,10 @@ Add a sticker to favorites
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|id|[MessageMedia, Update, Message or InputDocument](../types/InputDocument.md) | Optional|The sticker to add to favorites|
-|unfave|[Bool](../types/Bool.md) | Yes|Remove it from favorites?|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|id|[MessageMedia, Update, Message or InputDocument](../types/InputDocument.md) | The sticker to add to favorites | Optional|
+|unfave|[Bool](../types/Bool.md) | Remove it from favorites? | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

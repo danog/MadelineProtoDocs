@@ -11,12 +11,12 @@ Upload profile photo
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|file|[File path or InputFile](../types/InputFile.md) | Yes|The photo|
-|caption|[string](../types/string.md) | Yes|Caption type|
-|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|Location|
-|crop|[InputPhotoCrop](../types/InputPhotoCrop.md) | Yes|Cropping info|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|file|[File path or InputFile](../types/InputFile.md) | The photo | Yes|
+|caption|[string](../types/string.md) | Caption type | Yes|
+|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Location | Optional|
+|crop|[InputPhotoCrop](../types/InputPhotoCrop.md) | Cropping info | Yes|
 
 
 ### Return type: [photos\_Photo](../types/photos_Photo.md)

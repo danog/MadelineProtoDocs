@@ -11,15 +11,15 @@ Register device for push notifications
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|token\_type|[int](../types/int.md) | Yes|Device token type. Possible values: 1 - APNS, 2 - GCM, 3 - MPNS, 4 - Simple Push, 5 - Ubuntu Phone, 6 - Blackberry, and other, see source code of official apps for more info|
-|token|[string](../types/string.md) | Yes|Device token type. Possible values: 1 - APNS, 2 - GCM, 3 - MPNS, 4 - Simple Push, 5 - Ubuntu Phone,6 - Blackberry, and other, see source code of official apps for more info|
-|device\_model|[string](../types/string.md) | Yes|Device model|
-|system\_version|[string](../types/string.md) | Yes|System version|
-|app\_version|[string](../types/string.md) | Yes|App version|
-|app\_sandbox|[Bool](../types/Bool.md) | Yes|Should the app run in a sandbox?|
-|lang\_code|[string](../types/string.md) | Yes|Language code|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|token\_type|[int](../types/int.md) | Device token type. Possible values: 1 - APNS, 2 - GCM, 3 - MPNS, 4 - Simple Push, 5 - Ubuntu Phone, 6 - Blackberry, and other, see source code of official apps for more info | Yes|
+|token|[string](../types/string.md) | Device token type. Possible values: 1 - APNS, 2 - GCM, 3 - MPNS, 4 - Simple Push, 5 - Ubuntu Phone,6 - Blackberry, and other, see source code of official apps for more info | Yes|
+|device\_model|[string](../types/string.md) | Device model | Yes|
+|system\_version|[string](../types/string.md) | System version | Yes|
+|app\_version|[string](../types/string.md) | App version | Yes|
+|app\_sandbox|[Bool](../types/Bool.md) | Should the app run in a sandbox? | Yes|
+|lang\_code|[string](../types/string.md) | Language code | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

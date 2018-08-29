@@ -11,11 +11,11 @@ Update profile info
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|first\_name|[string](../types/string.md) | Optional|The first name|
-|last\_name|[string](../types/string.md) | Optional|The last name|
-|about|[string](../types/string.md) | Optional|The bio/about field|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|first\_name|[string](../types/string.md) | The first name | Optional|
+|last\_name|[string](../types/string.md) | The last name | Optional|
+|about|[string](../types/string.md) | The bio/about field | Optional|
 
 
 ### Return type: [User](../types/User.md)

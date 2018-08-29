@@ -11,10 +11,10 @@ Reset top peer rating for a certain category/peer
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|category|[TopPeerCategory](../types/TopPeerCategory.md) | Yes|The category |
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The peer|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|category|[TopPeerCategory](../types/TopPeerCategory.md) | The category  | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The peer | Optional|
 
 
 ### Return type: [Bool](../types/Bool.md)

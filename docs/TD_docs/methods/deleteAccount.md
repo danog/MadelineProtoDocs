@@ -14,9 +14,9 @@ Deletes the account of currently logged in user, deleting from the server all in
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|reason|[string](../types/string.md) | Yes|Optional reason of account deletion|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|reason|[string](../types/string.md) | Optional reason of account deletion | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

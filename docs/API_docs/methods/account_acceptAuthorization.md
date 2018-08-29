@@ -11,13 +11,13 @@ Accept telegram passport authorization
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|bot\_id|[int](../types/int.md) | Yes|Bot ID|
-|scope|[string](../types/string.md) | Yes|Scope|
-|public\_key|[string](../types/string.md) | Yes|The bot's RSA public key|
-|value\_hashes|Array of [SecureValueHash](../types/SecureValueHash.md) | Yes|Hashes of the encrypted credentials|
-|credentials|[SecureCredentialsEncrypted](../types/SecureCredentialsEncrypted.md) | Yes|Encrypted secure credentials|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot\_id|[int](../types/int.md) | Bot ID | Yes|
+|scope|[string](../types/string.md) | Scope | Yes|
+|public\_key|[string](../types/string.md) | The bot's RSA public key | Yes|
+|value\_hashes|Array of [SecureValueHash](../types/SecureValueHash.md) | Hashes of the encrypted credentials | Yes|
+|credentials|[SecureCredentialsEncrypted](../types/SecureCredentialsEncrypted.md) | Encrypted secure credentials | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

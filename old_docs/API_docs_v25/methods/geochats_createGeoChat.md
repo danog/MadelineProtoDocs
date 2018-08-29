@@ -11,12 +11,12 @@ Create geochat
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|title|[string](../types/string.md) | Yes|Geochat title|
-|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|Geochat location|
-|address|[string](../types/string.md) | Yes|Geochat address|
-|venue|[string](../types/string.md) | Yes|Geochat venue |
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|title|[string](../types/string.md) | Geochat title | Yes|
+|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Geochat location | Optional|
+|address|[string](../types/string.md) | Geochat address | Yes|
+|venue|[string](../types/string.md) | Geochat venue  | Yes|
 
 
 ### Return type: [geochats\_StatedMessage](../types/geochats_StatedMessage.md)

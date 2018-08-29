@@ -11,9 +11,9 @@ Get dialog info of peers
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peers|Array of [Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Yes|The peers|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peers|Array of [Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The peers | Yes|
 
 
 ### Return type: [messages\_PeerDialogs](../types/messages_PeerDialogs.md)

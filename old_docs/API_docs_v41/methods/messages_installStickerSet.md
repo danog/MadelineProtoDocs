@@ -11,10 +11,10 @@ Add a sticker set
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|stickerset|[InputStickerSet](../types/InputStickerSet.md) | Optional|The sticker set to add|
-|disabled|[Bool](../types/Bool.md) | Yes|Disable stickerset?|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|stickerset|[InputStickerSet](../types/InputStickerSet.md) | The sticker set to add | Optional|
+|disabled|[Bool](../types/Bool.md) | Disable stickerset? | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

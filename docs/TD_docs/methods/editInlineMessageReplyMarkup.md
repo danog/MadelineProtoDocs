@@ -14,10 +14,10 @@ Bots only. Edits reply markup of an inline message sent via bot
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|inline\_message\_id|[string](../types/string.md) | Yes|Inline message identifier|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Yes|New message reply markup|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|inline\_message\_id|[string](../types/string.md) | Inline message identifier | Yes|
+|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | New message reply markup | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

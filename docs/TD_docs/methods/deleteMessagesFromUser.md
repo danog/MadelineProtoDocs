@@ -14,10 +14,10 @@ Deletes all messages in the chat sent by the specified user. Works only in super
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier|
-|user\_id|[int](../types/int.md) | Yes|User identifier|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat identifier | Yes|
+|user\_id|[int](../types/int.md) | User identifier | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

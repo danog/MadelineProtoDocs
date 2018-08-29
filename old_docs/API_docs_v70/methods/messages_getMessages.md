@@ -11,9 +11,9 @@ Get messages
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|id|Array of [int](../types/int.md) | Yes|The IDs of messages to fetch (only for users and normal groups)|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|id|Array of [int](../types/int.md) | The IDs of messages to fetch (only for users and normal groups) | Yes|
 
 
 ### Return type: [messages\_Messages](../types/messages_Messages.md)

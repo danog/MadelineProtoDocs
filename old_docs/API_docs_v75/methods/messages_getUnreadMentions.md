@@ -11,14 +11,14 @@ Get unread mentions
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The chat where to get unread mentions|
-|offset\_id|[int](../types/int.md) | Yes|The offset|
-|add\_offset|[int](../types/int.md) | Yes|The additional offset|
-|limit|[int](../types/int.md) | Yes|The number of results to fetch|
-|max\_id|[int](../types/int.md) | Yes|The maximum message ID to fetch|
-|min\_id|[int](../types/int.md) | Yes|The minumum message ID to fetch|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat where to get unread mentions | Optional|
+|offset\_id|[int](../types/int.md) | The offset | Yes|
+|add\_offset|[int](../types/int.md) | The additional offset | Yes|
+|limit|[int](../types/int.md) | The number of results to fetch | Yes|
+|max\_id|[int](../types/int.md) | The maximum message ID to fetch | Yes|
+|min\_id|[int](../types/int.md) | The minumum message ID to fetch | Yes|
 
 
 ### Return type: [messages\_Messages](../types/messages_Messages.md)

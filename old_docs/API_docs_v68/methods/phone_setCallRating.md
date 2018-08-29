@@ -11,11 +11,11 @@ Set phone call rating
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[InputPhoneCall](../types/InputPhoneCall.md) | Yes|The phone call|
-|rating|[int](../types/int.md) | Yes|Rating (1-5 stars)|
-|comment|[string](../types/string.md) | Yes|An optional comment|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[InputPhoneCall](../types/InputPhoneCall.md) | The phone call | Yes|
+|rating|[int](../types/int.md) | Rating (1-5 stars) | Yes|
+|comment|[string](../types/string.md) | An optional comment | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

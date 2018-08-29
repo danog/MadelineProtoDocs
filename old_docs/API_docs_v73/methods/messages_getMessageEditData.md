@@ -11,10 +11,10 @@ Check if about to edit a message or a media caption
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The chat|
-|id|[int](../types/int.md) | Yes|The message ID|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat | Optional|
+|id|[int](../types/int.md) | The message ID | Yes|
 
 
 ### Return type: [messages\_MessageEditData](../types/messages_MessageEditData.md)

@@ -11,10 +11,10 @@ Create a chat (not supergroup)
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|users|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Yes|The users to add to the chat|
-|title|[string](../types/string.md) | Yes|The new chat's title|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|users|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The users to add to the chat | Yes|
+|title|[string](../types/string.md) | The new chat's title | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

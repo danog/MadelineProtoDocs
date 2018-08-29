@@ -11,9 +11,9 @@ Delete a certain telegram web login authorization
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|hash|[long](../types/long.md) | Yes|The authorization's hash|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|[long](../types/long.md) | The authorization's hash | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

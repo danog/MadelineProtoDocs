@@ -14,10 +14,10 @@ Changes privacy settings
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|key|[PrivacyKey](../types/PrivacyKey.md) | Yes|Privacy key|
-|rules|[privacyRules](../constructors/privacyRules.md) | Yes|New privacy rules|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|key|[PrivacyKey](../types/PrivacyKey.md) | Privacy key | Yes|
+|rules|[privacyRules](../constructors/privacyRules.md) | New privacy rules | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

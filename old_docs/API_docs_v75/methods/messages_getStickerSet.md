@@ -11,9 +11,9 @@ Get a stickerset
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|stickerset|[InputStickerSet](../types/InputStickerSet.md) | Optional|The stickerset to get|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|stickerset|[InputStickerSet](../types/InputStickerSet.md) | The stickerset to get | Optional|
 
 
 ### Return type: [messages\_StickerSet](../types/messages_StickerSet.md)

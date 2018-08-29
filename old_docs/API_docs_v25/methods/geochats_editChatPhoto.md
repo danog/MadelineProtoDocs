@@ -11,10 +11,10 @@ Edit geochat photo
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[InputGeoChat](../types/InputGeoChat.md) | Yes|The geochat|
-|photo|[InputChatPhoto](../types/InputChatPhoto.md) | Optional|The new photo|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[InputGeoChat](../types/InputGeoChat.md) | The geochat | Yes|
+|photo|[InputChatPhoto](../types/InputChatPhoto.md) | The new photo | Optional|
 
 
 ### Return type: [geochats\_StatedMessage](../types/geochats_StatedMessage.md)

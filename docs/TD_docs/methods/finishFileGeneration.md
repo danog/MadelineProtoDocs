@@ -14,9 +14,9 @@ Finishes file generation
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|generation\_id|[int64](../constructors/int64.md) | Yes|Identifier of the generation process|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|generation\_id|[int64](../constructors/int64.md) | Identifier of the generation process | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

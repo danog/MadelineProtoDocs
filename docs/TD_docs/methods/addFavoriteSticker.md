@@ -14,9 +14,9 @@ Adds new sticker to the list of favorite stickers. New sticker is added to the b
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|sticker|[InputFile](../types/InputFile.md) | Yes|Sticker file to add|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|sticker|[InputFile](../types/InputFile.md) | Sticker file to add | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

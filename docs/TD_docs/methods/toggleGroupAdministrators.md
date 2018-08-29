@@ -14,10 +14,10 @@ Gives or revokes all members of the group administrator rights. Needs creator pr
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|group\_id|[int](../types/int.md) | Yes|Identifier of the group|
-|everyone\_is\_administrator|[Bool](../types/Bool.md) | Yes|New value of everyone_is_administrator|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|group\_id|[int](../types/int.md) | Identifier of the group | Yes|
+|everyone\_is\_administrator|[Bool](../types/Bool.md) | New value of everyone_is_administrator | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

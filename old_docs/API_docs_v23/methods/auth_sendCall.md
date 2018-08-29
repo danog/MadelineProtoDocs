@@ -11,10 +11,10 @@ Send verification phone call
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|phone\_number|[string](../types/string.md) | Yes|The phone number|
-|phone\_code\_hash|[string](../types/string.md) | Yes|The phone code hash|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|phone\_number|[string](../types/string.md) | The phone number | Yes|
+|phone\_code\_hash|[string](../types/string.md) | The phone code hash | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

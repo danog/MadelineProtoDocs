@@ -11,10 +11,10 @@ Mark channel/supergroup messages as read
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|The channel|
-|id|Array of [int](../types/int.md) | Yes|List of message IDs|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel | Optional|
+|id|Array of [int](../types/int.md) | List of message IDs | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

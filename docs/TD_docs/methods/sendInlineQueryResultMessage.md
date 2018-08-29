@@ -14,14 +14,14 @@ Sends result of the inline query as a message. Returns sent message. Always clea
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat to send message|
-|reply\_to\_message\_id|[int53](../types/int53.md) | Yes|Identifier of a message to reply to or 0|
-|disable\_notification|[Bool](../types/Bool.md) | Yes|Pass true, to disable notification about the message, doesn't works in secret chats|
-|from\_background|[Bool](../types/Bool.md) | Yes|Pass true, if the message is sent from background|
-|query\_id|[int64](../constructors/int64.md) | Yes|Identifier of the inline query|
-|result\_id|[string](../types/string.md) | Yes|Identifier of the inline result|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat to send message | Yes|
+|reply\_to\_message\_id|[int53](../types/int53.md) | Identifier of a message to reply to or 0 | Yes|
+|disable\_notification|[Bool](../types/Bool.md) | Pass true, to disable notification about the message, doesn't works in secret chats | Yes|
+|from\_background|[Bool](../types/Bool.md) | Pass true, if the message is sent from background | Yes|
+|query\_id|[int64](../constructors/int64.md) | Identifier of the inline query | Yes|
+|result\_id|[string](../types/string.md) | Identifier of the inline result | Yes|
 
 
 ### Return type: [Message](../types/Message.md)

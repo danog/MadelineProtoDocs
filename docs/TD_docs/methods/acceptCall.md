@@ -14,10 +14,10 @@ Accepts incoming call
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|call\_id|[int](../types/int.md) | Yes|Call identifier|
-|protocol|[callProtocol](../constructors/callProtocol.md) | Yes|Description of supported by the client call protocols|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|call\_id|[int](../types/int.md) | Call identifier | Yes|
+|protocol|[callProtocol](../constructors/callProtocol.md) | Description of supported by the client call protocols | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

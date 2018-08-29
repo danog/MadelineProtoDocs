@@ -11,12 +11,12 @@ Register device for push notifications
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|token\_type|[int](../types/int.md) | Yes|Device token type. Possible values: 1 - APNS, 2 - GCM, 3 - MPNS, 4 - Simple Push, 5 - Ubuntu Phone, 6 - Blackberry, and other, see source code of official apps for more info|
-|token|[string](../types/string.md) | Yes|Device token type. Possible values: 1 - APNS, 2 - GCM, 3 - MPNS, 4 - Simple Push, 5 - Ubuntu Phone,6 - Blackberry, and other, see source code of official apps for more info|
-|app\_sandbox|[Bool](../types/Bool.md) | Yes|Should the app run in a sandbox?|
-|other\_uids|Array of [int](../types/int.md) | Yes|Other UIDs|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|token\_type|[int](../types/int.md) | Device token type. Possible values: 1 - APNS, 2 - GCM, 3 - MPNS, 4 - Simple Push, 5 - Ubuntu Phone, 6 - Blackberry, and other, see source code of official apps for more info | Yes|
+|token|[string](../types/string.md) | Device token type. Possible values: 1 - APNS, 2 - GCM, 3 - MPNS, 4 - Simple Push, 5 - Ubuntu Phone,6 - Blackberry, and other, see source code of official apps for more info | Yes|
+|app\_sandbox|[Bool](../types/Bool.md) | Should the app run in a sandbox? | Yes|
+|other\_uids|Array of [int](../types/int.md) | Other UIDs | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

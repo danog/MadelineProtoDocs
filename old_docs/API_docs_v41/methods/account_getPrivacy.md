@@ -11,9 +11,9 @@ Get privacy settings
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|key|[InputPrivacyKey](../types/InputPrivacyKey.md) | Yes|Privacy setting key|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|key|[InputPrivacyKey](../types/InputPrivacyKey.md) | Privacy setting key | Yes|
 
 
 ### Return type: [account\_PrivacyRules](../types/account_PrivacyRules.md)

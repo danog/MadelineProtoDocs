@@ -11,16 +11,16 @@ Search messages in geocha
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[InputGeoChat](../types/InputGeoChat.md) | Yes|The geochat|
-|q|[string](../types/string.md) | Yes|The search query|
-|filter|[MessagesFilter](../types/MessagesFilter.md) | Yes|Search filter|
-|min\_date|[int](../types/int.md) | Yes|Minumum date|
-|max\_date|[int](../types/int.md) | Yes|Maximum date|
-|offset|[int](../types/int.md) | Yes|Offset|
-|max\_id|[int](../types/int.md) | Yes|Maximum message ID|
-|limit|[int](../types/int.md) | Yes|Number of results to return|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[InputGeoChat](../types/InputGeoChat.md) | The geochat | Yes|
+|q|[string](../types/string.md) | The search query | Yes|
+|filter|[MessagesFilter](../types/MessagesFilter.md) | Search filter | Yes|
+|min\_date|[int](../types/int.md) | Minumum date | Yes|
+|max\_date|[int](../types/int.md) | Maximum date | Yes|
+|offset|[int](../types/int.md) | Offset | Yes|
+|max\_id|[int](../types/int.md) | Maximum message ID | Yes|
+|limit|[int](../types/int.md) | Number of results to return | Yes|
 
 
 ### Return type: [geochats\_Messages](../types/geochats_Messages.md)

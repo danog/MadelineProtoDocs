@@ -14,9 +14,9 @@ Returns existing chat corresponding to the known group
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|group\_id|[int](../types/int.md) | Yes|Group identifier|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|group\_id|[int](../types/int.md) | Group identifier | Yes|
 
 
 ### Return type: [Chat](../types/Chat.md)

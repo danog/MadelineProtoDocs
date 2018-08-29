@@ -11,9 +11,9 @@ Disable all notifications for a certain period
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|period|[int](../types/int.md) | Yes|For how long should notifications be disabled|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|period|[int](../types/int.md) | For how long should notifications be disabled | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

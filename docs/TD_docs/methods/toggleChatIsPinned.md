@@ -14,10 +14,10 @@ Changes chat pinned state. You can pin up to getOption("pinned_chat_count_max") 
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier|
-|is\_pinned|[Bool](../types/Bool.md) | Yes|New value of is_pinned|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat identifier | Yes|
+|is\_pinned|[Bool](../types/Bool.md) | New value of is_pinned | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

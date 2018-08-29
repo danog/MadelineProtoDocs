@@ -11,10 +11,10 @@ Delete the history of a supergroup/channel
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|The channel/supergroup|
-|max\_id|[int](../types/int.md) | Yes|Maximum message ID to delete|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel/supergroup | Optional|
+|max\_id|[int](../types/int.md) | Maximum message ID to delete | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

@@ -14,9 +14,9 @@ Closes secret chat, effectively transfering its state to "Closed"
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|secret\_chat\_id|[int](../types/int.md) | Yes|Secret chat identifier|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|secret\_chat\_id|[int](../types/int.md) | Secret chat identifier | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

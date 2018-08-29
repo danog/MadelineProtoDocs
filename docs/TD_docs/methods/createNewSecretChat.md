@@ -14,9 +14,9 @@ Creates new secret chat, returns created chat
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|Identifier of a user to create secret chat with|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|user\_id|[int](../types/int.md) | Identifier of a user to create secret chat with | Yes|
 
 
 ### Return type: [Chat](../types/Chat.md)

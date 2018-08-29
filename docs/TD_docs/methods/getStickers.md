@@ -14,10 +14,10 @@ Returns stickers from installed ordinary sticker sets corresponding to the given
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|emoji|[string](../types/string.md) | Yes|String representation of emoji. If empty, returns all known stickers|
-|limit|[int](../types/int.md) | Yes|Maximum number of stickers to return|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|emoji|[string](../types/string.md) | String representation of emoji. If empty, returns all known stickers | Yes|
+|limit|[int](../types/int.md) | Maximum number of stickers to return | Yes|
 
 
 ### Return type: [Stickers](../types/Stickers.md)

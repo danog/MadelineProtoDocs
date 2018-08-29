@@ -11,10 +11,10 @@ Send webhook request via bot API
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|query\_id|[long](../types/long.md) | Yes|The query ID|
-|data|[DataJSON](../types/DataJSON.md) | Yes|The parameters|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|query\_id|[long](../types/long.md) | The query ID | Yes|
+|data|[DataJSON](../types/DataJSON.md) | The parameters | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

@@ -11,10 +11,10 @@ Mark dialog as unread
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|unread|[Bool](../types/Bool.md) | Optional|Should it be marked or unmarked as read|
-|peer|[InputDialogPeer](../types/InputDialogPeer.md) | Yes|The dialog to mark as unread|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|unread|[Bool](../types/Bool.md) | Should it be marked or unmarked as read | Optional|
+|peer|[InputDialogPeer](../types/InputDialogPeer.md) | The dialog to mark as unread | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

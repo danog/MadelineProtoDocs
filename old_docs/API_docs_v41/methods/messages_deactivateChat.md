@@ -11,10 +11,10 @@ Deactivate chat
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The chat to deactivate|
-|enabled|[Bool](../types/Bool.md) | Yes|Activate or deactivate?|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat to deactivate | Optional|
+|enabled|[Bool](../types/Bool.md) | Activate or deactivate? | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

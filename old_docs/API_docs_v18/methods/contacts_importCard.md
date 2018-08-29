@@ -11,9 +11,9 @@ Import card as contact
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|export\_card|Array of [int](../types/int.md) | Yes|The card|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|export\_card|Array of [int](../types/int.md) | The card | Yes|
 
 
 ### Return type: [User](../types/User.md)

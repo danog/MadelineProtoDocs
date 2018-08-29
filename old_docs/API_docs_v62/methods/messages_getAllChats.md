@@ -11,9 +11,9 @@ Get all chats (not supergroups or channels)
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|except\_ids|Array of [int](../types/int.md) | Yes|Do not fetch these chats (MTProto id)|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|except\_ids|Array of [int](../types/int.md) | Do not fetch these chats (MTProto id) | Yes|
 
 
 ### Return type: [messages\_Chats](../types/messages_Chats.md)

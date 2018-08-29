@@ -14,9 +14,9 @@ Changes username of logged in user. If something changes, updateUser will be sen
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|username|[string](../types/string.md) | Yes|New value of username. Use empty string to remove username|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|username|[string](../types/string.md) | New value of username. Use empty string to remove username | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

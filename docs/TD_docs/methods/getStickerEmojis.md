@@ -14,9 +14,9 @@ Returns emojis corresponding to a sticker
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|sticker|[InputFile](../types/InputFile.md) | Yes|Sticker file identifier|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|sticker|[InputFile](../types/InputFile.md) | Sticker file identifier | Yes|
 
 
 ### Return type: [StickerEmojis](../types/StickerEmojis.md)

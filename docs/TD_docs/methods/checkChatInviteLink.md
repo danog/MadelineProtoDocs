@@ -14,9 +14,9 @@ Checks chat invite link for validness and returns information about the correspo
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|invite\_link|[string](../types/string.md) | Yes|Invite link to check. Should begin with "https: t.me/joinchat/", "https: telegram.me/joinchat/" or "https: telegram.dog/joinchat/"|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|invite\_link|[string](../types/string.md) | Invite link to check. Should begin with "https: t.me/joinchat/", "https: telegram.me/joinchat/" or "https: telegram.dog/joinchat/" | Yes|
 
 
 ### Return type: [ChatInviteLinkInfo](../types/ChatInviteLinkInfo.md)

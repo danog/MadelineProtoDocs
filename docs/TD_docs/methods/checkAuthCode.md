@@ -14,11 +14,11 @@ Checks authentication code. Works only when getAuthState returns authStateWaitCo
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|code|[string](../types/string.md) | Yes|Verification code from SMS, Telegram message, phone call or flash call|
-|first\_name|[string](../types/string.md) | Yes|User first name, if user is yet not registered, 1-255 characters|
-|last\_name|[string](../types/string.md) | Yes|Optional user last name, if user is yet not registered, 0-255 characters|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|code|[string](../types/string.md) | Verification code from SMS, Telegram message, phone call or flash call | Yes|
+|first\_name|[string](../types/string.md) | User first name, if user is yet not registered, 1-255 characters | Yes|
+|last\_name|[string](../types/string.md) | Optional user last name, if user is yet not registered, 0-255 characters | Yes|
 
 
 ### Return type: [AuthState](../types/AuthState.md)

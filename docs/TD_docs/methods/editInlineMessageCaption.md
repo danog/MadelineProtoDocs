@@ -14,11 +14,11 @@ Bots only. Edits caption of an inline message content sent via bot
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|inline\_message\_id|[string](../types/string.md) | Yes|Inline message identifier|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Yes|New message reply markup|
-|caption|[string](../types/string.md) | Yes|New message content caption, 0-200 characters|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|inline\_message\_id|[string](../types/string.md) | Inline message identifier | Yes|
+|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | New message reply markup | Yes|
+|caption|[string](../types/string.md) | New message content caption, 0-200 characters | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

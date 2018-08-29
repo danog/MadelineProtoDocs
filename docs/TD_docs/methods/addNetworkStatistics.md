@@ -14,9 +14,9 @@ Adds specified data to data usage statistics. Can be called before authorization
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|entry|[NetworkStatisticsEntry](../types/NetworkStatisticsEntry.md) | Yes|Network statistics entry with a data to add to statistics|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|entry|[NetworkStatisticsEntry](../types/NetworkStatisticsEntry.md) | Network statistics entry with a data to add to statistics | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

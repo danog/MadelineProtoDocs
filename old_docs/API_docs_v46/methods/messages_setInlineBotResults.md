@@ -11,14 +11,14 @@ Bots only: set the results of an inline query
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|gallery|[Bool](../types/Bool.md) | Optional|Is this a gallery?|
-|private|[Bool](../types/Bool.md) | Optional|Is this result private (not cached)?|
-|query\_id|[long](../types/long.md) | Yes|Query ID|
-|results|Array of [InputBotInlineResult](../types/InputBotInlineResult.md) | Yes|Results|
-|cache\_time|[int](../types/int.md) | Yes|Cache time|
-|next\_offset|[string](../types/string.md) | Optional|The next offset|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|gallery|[Bool](../types/Bool.md) | Is this a gallery? | Optional|
+|private|[Bool](../types/Bool.md) | Is this result private (not cached)? | Optional|
+|query\_id|[long](../types/long.md) | Query ID | Yes|
+|results|Array of [InputBotInlineResult](../types/InputBotInlineResult.md) | Results | Yes|
+|cache\_time|[int](../types/int.md) | Cache time | Yes|
+|next\_offset|[string](../types/string.md) | The next offset | Optional|
 
 
 ### Return type: [Bool](../types/Bool.md)

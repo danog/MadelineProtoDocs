@@ -11,9 +11,9 @@ Get suggested contacts
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|limit|[int](../types/int.md) | Yes|Number of results to return|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|limit|[int](../types/int.md) | Number of results to return | Yes|
 
 
 ### Return type: [contacts\_Suggested](../types/contacts_Suggested.md)

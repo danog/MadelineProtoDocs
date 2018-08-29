@@ -11,11 +11,11 @@ Find a sticker set
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|exclude\_featured|[Bool](../types/Bool.md) | Optional|Exclude featured sticker sets from the search?|
-|q|[string](../types/string.md) | Yes|The search query|
-|hash|[int](../types/int.md) | Yes|$MadelineProto->gen_vector_hash(ids of previously searched stickers, or []);|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|exclude\_featured|[Bool](../types/Bool.md) | Exclude featured sticker sets from the search? | Optional|
+|q|[string](../types/string.md) | The search query | Yes|
+|hash|[int](../types/int.md) | $MadelineProto->gen_vector_hash(ids of previously searched stickers, or []); | Yes|
 
 
 ### Return type: [messages\_FoundStickerSets](../types/messages_FoundStickerSets.md)

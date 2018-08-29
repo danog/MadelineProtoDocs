@@ -11,11 +11,11 @@ Bots only: set precheckout results
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|success|[Bool](../types/Bool.md) | Optional|Success?|
-|query\_id|[long](../types/long.md) | Yes|Query ID|
-|error|[string](../types/string.md) | Optional|Error|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|success|[Bool](../types/Bool.md) | Success? | Optional|
+|query\_id|[long](../types/long.md) | Query ID | Yes|
+|error|[string](../types/string.md) | Error | Optional|
 
 
 ### Return type: [Bool](../types/Bool.md)

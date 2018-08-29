@@ -11,12 +11,12 @@ Get info about app updates
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|device\_model|[string](../types/string.md) | Yes|Device model|
-|system\_version|[string](../types/string.md) | Yes|System version|
-|app\_version|[string](../types/string.md) | Yes|App version|
-|lang\_code|[string](../types/string.md) | Yes|Langauge code|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|device\_model|[string](../types/string.md) | Device model | Yes|
+|system\_version|[string](../types/string.md) | System version | Yes|
+|app\_version|[string](../types/string.md) | App version | Yes|
+|lang\_code|[string](../types/string.md) | Langauge code | Yes|
 
 
 ### Return type: [help\_AppUpdate](../types/help_AppUpdate.md)

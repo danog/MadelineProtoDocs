@@ -11,13 +11,13 @@ Global message search
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|q|[string](../types/string.md) | Yes|The query|
-|offset\_date|[int](../types/int.md) | Yes|0 or the date offset|
-|offset\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|0 or the peer offset|
-|offset\_id|[int](../types/int.md) | Yes|0 or the message ID offset|
-|limit|[int](../types/int.md) | Yes|The number of results to return|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|q|[string](../types/string.md) | The query | Yes|
+|offset\_date|[int](../types/int.md) | 0 or the date offset | Yes|
+|offset\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | 0 or the peer offset | Optional|
+|offset\_id|[int](../types/int.md) | 0 or the message ID offset | Yes|
+|limit|[int](../types/int.md) | The number of results to return | Yes|
 
 
 ### Return type: [messages\_Messages](../types/messages_Messages.md)

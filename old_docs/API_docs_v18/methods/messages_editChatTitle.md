@@ -11,10 +11,10 @@ Edit the title of a normal chat (not supergroup)
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The ID of the chat|
-|title|[string](../types/string.md) | Yes|The new title|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The ID of the chat | Optional|
+|title|[string](../types/string.md) | The new title | Yes|
 
 
 ### Return type: [messages\_StatedMessage](../types/messages_StatedMessage.md)

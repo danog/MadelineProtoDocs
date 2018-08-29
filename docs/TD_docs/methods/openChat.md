@@ -14,9 +14,9 @@ Chat is opened by the user. Many useful activities depends on chat being opened 
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat identifier | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

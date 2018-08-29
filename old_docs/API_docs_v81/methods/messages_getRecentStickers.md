@@ -11,10 +11,10 @@ Get recent stickers
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|attached|[Bool](../types/Bool.md) | Optional|Get stickers attached to image?|
-|hash|[int](../types/int.md) | Yes|0 or $result['hash']|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|attached|[Bool](../types/Bool.md) | Get stickers attached to image? | Optional|
+|hash|[int](../types/int.md) | 0 or $result['hash'] | Yes|
 
 
 ### Return type: [messages\_RecentStickers](../types/messages_RecentStickers.md)

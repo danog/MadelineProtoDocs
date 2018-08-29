@@ -14,9 +14,9 @@ Removes pinned message in the supergroup channel. Needs appropriate rights in th
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel\_id|[int](../types/int.md) | Yes|Identifier of the channel|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel\_id|[int](../types/int.md) | Identifier of the channel | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

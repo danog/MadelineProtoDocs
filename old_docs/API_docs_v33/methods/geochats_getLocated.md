@@ -11,11 +11,11 @@ Get nearby geochats
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|Current location|
-|radius|[int](../types/int.md) | Yes|Radius|
-|limit|[int](../types/int.md) | Yes|Number of results to return|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Current location | Optional|
+|radius|[int](../types/int.md) | Radius | Yes|
+|limit|[int](../types/int.md) | Number of results to return | Yes|
 
 
 ### Return type: [geochats\_Located](../types/geochats_Located.md)

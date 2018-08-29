@@ -14,10 +14,10 @@ Changes first and last names of logged in user. If something changes, updateUser
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|first\_name|[string](../types/string.md) | Yes|New value of user first name, 1-255 characters|
-|last\_name|[string](../types/string.md) | Yes|New value of optional user last name, 0-255 characters|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|first\_name|[string](../types/string.md) | New value of user first name, 1-255 characters | Yes|
+|last\_name|[string](../types/string.md) | New value of optional user last name, 0-255 characters | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

@@ -11,10 +11,10 @@ Resend the SMS verification code
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|phone\_number|[string](../types/string.md) | Yes|The phone number|
-|phone\_code\_hash|[string](../types/string.md) | Yes|The phone code hash|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|phone\_number|[string](../types/string.md) | The phone number | Yes|
+|phone\_code\_hash|[string](../types/string.md) | The phone code hash | Yes|
 
 
 ### Return type: [auth\_SentCode](../types/auth_SentCode.md)

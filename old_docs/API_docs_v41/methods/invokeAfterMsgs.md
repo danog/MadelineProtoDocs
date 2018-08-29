@@ -11,10 +11,10 @@ Result type returned by a current query.
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|msg\_ids|Array of [long](../types/long.md) | Yes|List of messages on which a current query depends|
-|query|[!X](../types/!X.md) | Yes|The query itself|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|msg\_ids|Array of [long](../types/long.md) | List of messages on which a current query depends | Yes|
+|query|[!X](../types/!X.md) | The query itself | Yes|
 
 
 ### Return type: [X](../types/X.md)

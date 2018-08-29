@@ -11,9 +11,9 @@ Check if this username is available
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|username|[string](../types/string.md) | Yes|The username to check|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|username|[string](../types/string.md) | The username to check | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

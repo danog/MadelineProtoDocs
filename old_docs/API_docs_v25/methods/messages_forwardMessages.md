@@ -11,10 +11,10 @@ Forward messages
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|Peer|
-|id|Array of [int](../types/int.md) | Yes|The message IDs|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Peer | Optional|
+|id|Array of [int](../types/int.md) | The message IDs | Yes|
 
 
 ### Return type: [messages\_StatedMessages](../types/messages_StatedMessages.md)

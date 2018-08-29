@@ -11,10 +11,10 @@ Pin or unpin dialog
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|pinned|[Bool](../types/Bool.md) | Optional|Pin or unpin the dialog?|
-|peer|[InputDialogPeer](../types/InputDialogPeer.md) | Yes|The dialog to pin|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|pinned|[Bool](../types/Bool.md) | Pin or unpin the dialog? | Optional|
+|peer|[InputDialogPeer](../types/InputDialogPeer.md) | The dialog to pin | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

@@ -11,16 +11,16 @@ Get most used chats
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|correspondents|[Bool](../types/Bool.md) | Optional|Fetch users?|
-|bots\_pm|[Bool](../types/Bool.md) | Optional|Fetch bots?|
-|bots\_inline|[Bool](../types/Bool.md) | Optional|Fetch inline bots?|
-|groups|[Bool](../types/Bool.md) | Optional|Fetch groups?|
-|channels|[Bool](../types/Bool.md) | Optional|Fetch channels and supergroups?|
-|offset|[int](../types/int.md) | Yes|Initially 0, then `$offset += $contacts_TopPeers['categories']['count'];`|
-|limit|[int](../types/int.md) | Yes|How many results to fetch|
-|hash|[int](../types/int.md) | Yes|$MadelineProto->gen_vector_hash(previously fetched peer ids);|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|correspondents|[Bool](../types/Bool.md) | Fetch users? | Optional|
+|bots\_pm|[Bool](../types/Bool.md) | Fetch bots? | Optional|
+|bots\_inline|[Bool](../types/Bool.md) | Fetch inline bots? | Optional|
+|groups|[Bool](../types/Bool.md) | Fetch groups? | Optional|
+|channels|[Bool](../types/Bool.md) | Fetch channels and supergroups? | Optional|
+|offset|[int](../types/int.md) | Initially 0, then `$offset += $contacts_TopPeers['categories']['count'];` | Yes|
+|limit|[int](../types/int.md) | How many results to fetch | Yes|
+|hash|[int](../types/int.md) | $MadelineProto->gen_vector_hash(previously fetched peer ids); | Yes|
 
 
 ### Return type: [contacts\_TopPeers](../types/contacts_TopPeers.md)

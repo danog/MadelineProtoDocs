@@ -11,11 +11,11 @@ Edit admin permissions
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The chat ID (no supergroups)|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|The user ID|
-|is\_admin|[Bool](../types/Bool.md) | Yes|Should the user be admin?|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat ID (no supergroups) | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The user ID | Optional|
+|is\_admin|[Bool](../types/Bool.md) | Should the user be admin? | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

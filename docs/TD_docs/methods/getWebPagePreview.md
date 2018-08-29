@@ -14,9 +14,9 @@ Returns web page preview by text of the message. Do not call this function to of
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|message\_text|[string](../types/string.md) | Yes|Message text|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|message\_text|[string](../types/string.md) | Message text | Yes|
 
 
 ### Return type: [WebPage](../types/WebPage.md)

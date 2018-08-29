@@ -14,11 +14,11 @@ Bots only. Adds new sticker to a set. Returns the sticker set
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|Sticker set owner|
-|name|[string](../types/string.md) | Yes|Sticker set name|
-|sticker|[inputSticker](../constructors/inputSticker.md) | Yes|Sticker to add to the set|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|user\_id|[int](../types/int.md) | Sticker set owner | Yes|
+|name|[string](../types/string.md) | Sticker set name | Yes|
+|sticker|[inputSticker](../constructors/inputSticker.md) | Sticker to add to the set | Yes|
 
 
 ### Return type: [StickerSet](../types/StickerSet.md)

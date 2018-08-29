@@ -11,9 +11,9 @@ Get payment receipt
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|msg\_id|[int](../types/int.md) | Yes|The message ID|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|msg\_id|[int](../types/int.md) | The message ID | Yes|
 
 
 ### Return type: [payments\_PaymentReceipt](../types/payments_PaymentReceipt.md)

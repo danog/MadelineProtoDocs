@@ -11,9 +11,9 @@ Get future salts
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|num|[int](../types/int.md) | Yes|How many salts should be fetched|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|num|[int](../types/int.md) | How many salts should be fetched | Yes|
 
 
 ### Return type: [FutureSalts](../types/FutureSalts.md)

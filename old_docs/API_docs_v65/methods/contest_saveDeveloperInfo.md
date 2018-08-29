@@ -11,13 +11,13 @@ Save developer info for telegram contest
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|vk\_id|[int](../types/int.md) | Yes|VK user ID|
-|name|[string](../types/string.md) | Yes|Name|
-|phone\_number|[string](../types/string.md) | Yes|Phone number|
-|age|[int](../types/int.md) | Yes|Age|
-|city|[string](../types/string.md) | Yes|City|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|vk\_id|[int](../types/int.md) | VK user ID | Yes|
+|name|[string](../types/string.md) | Name | Yes|
+|phone\_number|[string](../types/string.md) | Phone number | Yes|
+|age|[int](../types/int.md) | Age | Yes|
+|city|[string](../types/string.md) | City | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

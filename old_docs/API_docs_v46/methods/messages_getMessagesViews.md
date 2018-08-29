@@ -11,11 +11,11 @@ Get and increase message views
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The chat where the message is located|
-|id|Array of [int](../types/int.md) | Yes|The IDs messages to get|
-|increment|[Bool](../types/Bool.md) | Yes|Increase message views?|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat where the message is located | Optional|
+|id|Array of [int](../types/int.md) | The IDs messages to get | Yes|
+|increment|[Bool](../types/Bool.md) | Increase message views? | Yes|
 
 
 ### Return type: [Vector\_of\_int](../types/int.md)

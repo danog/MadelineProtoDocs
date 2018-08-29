@@ -14,9 +14,9 @@ Returns list of sticker sets attached to a file, currently only photos and video
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|file\_id|[int](../types/int.md) | Yes|File identifier|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|file\_id|[int](../types/int.md) | File identifier | Yes|
 
 
 ### Return type: [StickerSets](../types/StickerSets.md)

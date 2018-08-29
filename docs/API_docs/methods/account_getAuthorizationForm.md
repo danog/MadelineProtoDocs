@@ -11,11 +11,11 @@ Bots only: get telegram passport authorization form
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|bot\_id|[int](../types/int.md) | Yes|Bot ID|
-|scope|[string](../types/string.md) | Yes|Scope|
-|public\_key|[string](../types/string.md) | Yes|Bot's public key|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot\_id|[int](../types/int.md) | Bot ID | Yes|
+|scope|[string](../types/string.md) | Scope | Yes|
+|public\_key|[string](../types/string.md) | Bot's public key | Yes|
 
 
 ### Return type: [account\_AuthorizationForm](../types/account_AuthorizationForm.md)

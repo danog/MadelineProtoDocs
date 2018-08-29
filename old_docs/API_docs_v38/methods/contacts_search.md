@@ -11,10 +11,10 @@ Search contacts
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|q|[string](../types/string.md) | Yes|The search query|
-|limit|[int](../types/int.md) | Yes|How many results should be returned|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|q|[string](../types/string.md) | The search query | Yes|
+|limit|[int](../types/int.md) | How many results should be returned | Yes|
 
 
 ### Return type: [contacts\_Found](../types/contacts_Found.md)

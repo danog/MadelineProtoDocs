@@ -11,9 +11,9 @@ Unblock a user
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|The user to unblock|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The user to unblock | Optional|
 
 
 ### Return type: [Bool](../types/Bool.md)

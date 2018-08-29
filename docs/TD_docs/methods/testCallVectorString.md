@@ -14,9 +14,9 @@ Test request. Returns back received vector of strings
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|x|Array of [string](../types/string.md) | Yes|Vector of strings to return|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|x|Array of [string](../types/string.md) | Vector of strings to return | Yes|
 
 
 ### Return type: [TestVectorString](../types/TestVectorString.md)

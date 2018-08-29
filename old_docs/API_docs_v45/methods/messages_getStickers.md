@@ -11,10 +11,10 @@ Get stickers
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|emoticon|[string](../types/string.md) | Yes|Search by emoji|
-|hash|[string](../types/string.md) | Yes|0 or $MadelineProto->gen_vector_hash(previously fetched sticker IDs)|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|emoticon|[string](../types/string.md) | Search by emoji | Yes|
+|hash|[string](../types/string.md) | 0 or $MadelineProto->gen_vector_hash(previously fetched sticker IDs) | Yes|
 
 
 ### Return type: [messages\_Stickers](../types/messages_Stickers.md)

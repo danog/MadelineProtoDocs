@@ -11,9 +11,9 @@ Get info about multiple channels/supergroups
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|id|Array of [Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Yes|The channel/supergroup MTProto IDs|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|id|Array of [Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel/supergroup MTProto IDs | Yes|
 
 
 ### Return type: [messages\_Chats](../types/messages_Chats.md)

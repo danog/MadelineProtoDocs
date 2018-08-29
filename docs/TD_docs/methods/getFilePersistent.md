@@ -14,10 +14,10 @@ Returns information about a file by its persistent id, offline request. May be u
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|persistent\_file\_id|[string](../types/string.md) | Yes|Persistent identifier of the file to get|
-|file\_type|[FileType](../types/FileType.md) | Yes|File type, if known|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|persistent\_file\_id|[string](../types/string.md) | Persistent identifier of the file to get | Yes|
+|file\_type|[FileType](../types/FileType.md) | File type, if known | Yes|
 
 
 ### Return type: [File](../types/File.md)

@@ -11,10 +11,10 @@ Get high scores of a game sent in an inline message
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|id|[InputBotInlineMessageID](../types/InputBotInlineMessageID.md) | Yes|The inline message|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|The user that set the high scores|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|id|[InputBotInlineMessageID](../types/InputBotInlineMessageID.md) | The inline message | Yes|
+|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The user that set the high scores | Optional|
 
 
 ### Return type: [messages\_HighScores](../types/messages_HighScores.md)

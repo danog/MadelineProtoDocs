@@ -14,10 +14,10 @@ Deletes default reply markup from chat. This method needs to be called after one
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier|
-|message\_id|[int53](../types/int53.md) | Yes|Message identifier of used keyboard|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat identifier | Yes|
+|message\_id|[int53](../types/int53.md) | Message identifier of used keyboard | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

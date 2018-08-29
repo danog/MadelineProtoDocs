@@ -14,9 +14,9 @@ Test request. Returns back received vector of numbers
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|x|Array of [int](../types/int.md) | Yes|Vector of numbers to return|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|x|Array of [int](../types/int.md) | Vector of numbers to return | Yes|
 
 
 ### Return type: [TestVectorInt](../types/TestVectorInt.md)

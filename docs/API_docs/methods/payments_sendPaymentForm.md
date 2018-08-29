@@ -11,12 +11,12 @@ Bots only: send payment form
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|msg\_id|[int](../types/int.md) | Yes|Message ID|
-|requested\_info\_id|[string](../types/string.md) | Optional|ID of requested info|
-|shipping\_option\_id|[string](../types/string.md) | Optional|Shipping option ID|
-|credentials|[InputPaymentCredentials](../types/InputPaymentCredentials.md) | Yes|Payment credentials|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|msg\_id|[int](../types/int.md) | Message ID | Yes|
+|requested\_info\_id|[string](../types/string.md) | ID of requested info | Optional|
+|shipping\_option\_id|[string](../types/string.md) | Shipping option ID | Optional|
+|credentials|[InputPaymentCredentials](../types/InputPaymentCredentials.md) | Payment credentials | Yes|
 
 
 ### Return type: [payments\_PaymentResult](../types/payments_PaymentResult.md)

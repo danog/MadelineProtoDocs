@@ -14,9 +14,9 @@ Returns existing chat corresponding to the known channel
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel\_id|[int](../types/int.md) | Yes|Channel identifier|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel\_id|[int](../types/int.md) | Channel identifier | Yes|
 
 
 ### Return type: [Chat](../types/Chat.md)

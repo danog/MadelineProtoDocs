@@ -11,10 +11,10 @@ Verify email address
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|email|[string](../types/string.md) | Yes|The email address|
-|code|[string](../types/string.md) | Yes|The received code|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|email|[string](../types/string.md) | The email address | Yes|
+|code|[string](../types/string.md) | The received code | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

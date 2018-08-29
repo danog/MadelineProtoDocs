@@ -14,11 +14,11 @@ Returns list of chats in the right order, chats are sorted by (order, chat_id) i
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|offset\_order|[int64](../constructors/int64.md) | Yes|Chat order to return chats from|
-|offset\_chat\_id|[int53](../types/int53.md) | Yes|Chat identifier to return chats from|
-|limit|[int](../types/int.md) | Yes|Maximum number of chats to be returned. There may be less than limit chats returned even the end of the list is not reached|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|offset\_order|[int64](../constructors/int64.md) | Chat order to return chats from | Yes|
+|offset\_chat\_id|[int53](../types/int53.md) | Chat identifier to return chats from | Yes|
+|limit|[int](../types/int.md) | Maximum number of chats to be returned. There may be less than limit chats returned even the end of the list is not reached | Yes|
 
 
 ### Return type: [Chats](../types/Chats.md)

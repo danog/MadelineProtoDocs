@@ -11,14 +11,14 @@ Send an album
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|silent|[Bool](../types/Bool.md) | Optional|Disable notifications?|
-|background|[Bool](../types/Bool.md) | Optional|Disable background notification?|
-|clear\_draft|[Bool](../types/Bool.md) | Optional|Clear draft?|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|Where to send the album|
-|reply\_to\_msg\_id|[int](../types/int.md) | Optional|Reply to message by ID|
-|multi\_media|Array of [InputSingleMedia](../types/InputSingleMedia.md) | Yes|The album|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|silent|[Bool](../types/Bool.md) | Disable notifications? | Optional|
+|background|[Bool](../types/Bool.md) | Disable background notification? | Optional|
+|clear\_draft|[Bool](../types/Bool.md) | Clear draft? | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Where to send the album | Optional|
+|reply\_to\_msg\_id|[int](../types/int.md) | Reply to message by ID | Optional|
+|multi\_media|Array of [InputSingleMedia](../types/InputSingleMedia.md) | The album | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

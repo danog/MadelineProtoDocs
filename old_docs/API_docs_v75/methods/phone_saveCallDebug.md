@@ -11,10 +11,10 @@ Save call debugging info
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[InputPhoneCall](../types/InputPhoneCall.md) | Yes|The call|
-|debug|[DataJSON](../types/DataJSON.md) | Yes|Debugging info|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[InputPhoneCall](../types/InputPhoneCall.md) | The call | Yes|
+|debug|[DataJSON](../types/DataJSON.md) | Debugging info | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

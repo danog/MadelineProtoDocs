@@ -14,10 +14,10 @@ Adds many new members to the chat. Currently, available only for channels. Can't
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier|
-|user\_ids|Array of [int](../types/int.md) | Yes|Identifiers of the users to add|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat identifier | Yes|
+|user\_ids|Array of [int](../types/int.md) | Identifiers of the users to add | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

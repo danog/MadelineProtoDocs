@@ -11,9 +11,9 @@ Send email verification code
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|email|[string](../types/string.md) | Yes|Email|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|email|[string](../types/string.md) | Email | Yes|
 
 
 ### Return type: [account\_SentEmailCode](../types/account_SentEmailCode.md)

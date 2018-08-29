@@ -14,9 +14,9 @@ Deletes users from contacts list
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|user\_ids|Array of [int](../types/int.md) | Yes|Identifiers of users to be deleted|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|user\_ids|Array of [int](../types/int.md) | Identifiers of users to be deleted | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

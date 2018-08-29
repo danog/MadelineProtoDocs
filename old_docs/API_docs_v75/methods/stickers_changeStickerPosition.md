@@ -11,10 +11,10 @@ Change sticker position in photo
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|sticker|[MessageMedia, Update, Message or InputDocument](../types/InputDocument.md) | Optional|The sticker|
-|position|[int](../types/int.md) | Yes|New position|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|sticker|[MessageMedia, Update, Message or InputDocument](../types/InputDocument.md) | The sticker | Optional|
+|position|[int](../types/int.md) | New position | Yes|
 
 
 ### Return type: [messages\_StickerSet](../types/messages_StickerSet.md)

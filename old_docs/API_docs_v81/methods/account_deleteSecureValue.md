@@ -11,9 +11,9 @@ Delete secure telegram passport value
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|types|Array of [SecureValueType](../types/SecureValueType.md) | Yes|The values to delete|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|types|Array of [SecureValueType](../types/SecureValueType.md) | The values to delete | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

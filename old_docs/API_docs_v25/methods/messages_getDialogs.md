@@ -11,11 +11,11 @@ Gets list of chats: you should use $MadelineProto->get_dialogs() instead: https:
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|offset|[int](../types/int.md) | Yes|Offset|
-|max\_id|[int](../types/int.md) | Yes|Maximum ID of result to return|
-|limit|[int](../types/int.md) | Yes|Number of dialogs to fetch|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|offset|[int](../types/int.md) | Offset | Yes|
+|max\_id|[int](../types/int.md) | Maximum ID of result to return | Yes|
+|limit|[int](../types/int.md) | Number of dialogs to fetch | Yes|
 
 
 ### Return type: [messages\_Dialogs](../types/messages_Dialogs.md)

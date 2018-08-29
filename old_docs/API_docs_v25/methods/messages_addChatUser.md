@@ -11,11 +11,11 @@ Add a user to a normal chat (use channels->inviteToChannel for supergroups)
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The chat where to invite users|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|The user to invite|
-|fwd\_limit|[int](../types/int.md) | Yes|Number of old messages the user will see|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat where to invite users | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The user to invite | Optional|
+|fwd\_limit|[int](../types/int.md) | Number of old messages the user will see | Yes|
 
 
 ### Return type: [messages\_StatedMessage](../types/messages_StatedMessage.md)

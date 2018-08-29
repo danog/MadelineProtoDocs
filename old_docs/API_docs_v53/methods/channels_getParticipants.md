@@ -11,12 +11,12 @@ Get channel/supergroup participants (you should use `$MadelineProto->get_pwr_cha
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|The channel|
-|filter|[ChannelParticipantsFilter](../types/ChannelParticipantsFilter.md) | Yes|Member filter|
-|offset|[int](../types/int.md) | Yes|Offset|
-|limit|[int](../types/int.md) | Yes|Limit|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel | Optional|
+|filter|[ChannelParticipantsFilter](../types/ChannelParticipantsFilter.md) | Member filter | Yes|
+|offset|[int](../types/int.md) | Offset | Yes|
+|limit|[int](../types/int.md) | Limit | Yes|
 
 
 ### Return type: [channels\_ChannelParticipants](../types/channels_ChannelParticipants.md)

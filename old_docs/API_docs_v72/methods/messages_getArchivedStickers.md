@@ -11,11 +11,11 @@ Get all archived stickers
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|masks|[Bool](../types/Bool.md) | Optional|Get masks?|
-|offset\_id|[long](../types/long.md) | Yes|Sticker ID offset|
-|limit|[int](../types/int.md) | Yes|Number of stickers to fetch|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|masks|[Bool](../types/Bool.md) | Get masks? | Optional|
+|offset\_id|[long](../types/long.md) | Sticker ID offset | Yes|
+|limit|[int](../types/int.md) | Number of stickers to fetch | Yes|
 
 
 ### Return type: [messages\_ArchivedStickers](../types/messages_ArchivedStickers.md)

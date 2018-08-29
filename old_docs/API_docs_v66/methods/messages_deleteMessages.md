@@ -11,10 +11,10 @@ Delete messages
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|revoke|[Bool](../types/Bool.md) | Optional|Delete the messages for everyone?|
-|id|Array of [int](../types/int.md) | Yes|IDs of messages to delete, use channels->deleteMessages for supergroups|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|revoke|[Bool](../types/Bool.md) | Delete the messages for everyone? | Optional|
+|id|Array of [int](../types/int.md) | IDs of messages to delete, use channels->deleteMessages for supergroups | Yes|
 
 
 ### Return type: [messages\_AffectedMessages](../types/messages_AffectedMessages.md)

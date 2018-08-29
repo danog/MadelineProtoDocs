@@ -14,10 +14,10 @@ Manually adds new sticker to the list of recently used stickers. New sticker is 
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|is\_attached|[Bool](../types/Bool.md) | Yes|Pass true to add the sticker to the list of stickers recently attached to photo or video files, pass false to add the sticker to the list of recently sent stickers|
-|sticker|[InputFile](../types/InputFile.md) | Yes|Sticker file to add|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|is\_attached|[Bool](../types/Bool.md) | Pass true to add the sticker to the list of stickers recently attached to photo or video files, pass false to add the sticker to the list of recently sent stickers | Yes|
+|sticker|[InputFile](../types/InputFile.md) | Sticker file to add | Yes|
 
 
 ### Return type: [Stickers](../types/Stickers.md)

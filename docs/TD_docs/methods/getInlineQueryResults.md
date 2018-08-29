@@ -14,13 +14,13 @@ Sends inline query to a bot and returns its results. Returns error with code 502
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|bot\_user\_id|[int](../types/int.md) | Yes|Identifier of the bot send query to|
-|chat\_id|[int53](../types/int53.md) | Yes|Identifier of the chat, where the query is sent|
-|user\_location|[location](../constructors/location.md) | Yes|User location, only if needed|
-|query|[string](../types/string.md) | Yes|Text of the query|
-|offset|[string](../types/string.md) | Yes|Offset of the first entry to return|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot\_user\_id|[int](../types/int.md) | Identifier of the bot send query to | Yes|
+|chat\_id|[int53](../types/int53.md) | Identifier of the chat, where the query is sent | Yes|
+|user\_location|[location](../constructors/location.md) | User location, only if needed | Yes|
+|query|[string](../types/string.md) | Text of the query | Yes|
+|offset|[string](../types/string.md) | Offset of the first entry to return | Yes|
 
 
 ### Return type: [InlineQueryResults](../types/InlineQueryResults.md)

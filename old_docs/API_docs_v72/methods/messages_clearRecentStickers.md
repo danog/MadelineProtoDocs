@@ -11,9 +11,9 @@ Clear all recent stickers
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|attached|[Bool](../types/Bool.md) | Optional|Clear recent stickers attached to images?|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|attached|[Bool](../types/Bool.md) | Clear recent stickers attached to images? | Optional|
 
 
 ### Return type: [Bool](../types/Bool.md)

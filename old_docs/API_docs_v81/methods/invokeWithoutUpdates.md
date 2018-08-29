@@ -11,9 +11,9 @@ Invoke with method without returning updates in the socket
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|query|[!X](../types/!X.md) | Yes|The query|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|query|[!X](../types/!X.md) | The query | Yes|
 
 
 ### Return type: [X](../types/X.md)

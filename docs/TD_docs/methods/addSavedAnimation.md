@@ -14,9 +14,9 @@ Manually adds new animation to the list of saved animations. New animation is ad
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|animation|[InputFile](../types/InputFile.md) | Yes|Animation file to add. Only known to server animations (i. e. successfully sent via message) can be added to the list|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|animation|[InputFile](../types/InputFile.md) | Animation file to add. Only known to server animations (i. e. successfully sent via message) can be added to the list | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

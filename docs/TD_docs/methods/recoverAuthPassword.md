@@ -14,9 +14,9 @@ Recovers password with recovery code sent to email. Works only when getAuthState
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|recovery\_code|[string](../types/string.md) | Yes|Recovery code to check|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|recovery\_code|[string](../types/string.md) | Recovery code to check | Yes|
 
 
 ### Return type: [AuthState](../types/AuthState.md)

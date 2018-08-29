@@ -11,13 +11,13 @@ Get previous messages of a group
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The chat|
-|offset|[int](../types/int.md) | Yes|Message ID offset|
-|max\_id|[int](../types/int.md) | Yes|Maximum message ID to fetch|
-|min\_id|[int](../types/int.md) | Yes|Minumum message ID to fetch|
-|limit|[int](../types/int.md) | Yes|Number of messages to fetch|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat | Optional|
+|offset|[int](../types/int.md) | Message ID offset | Yes|
+|max\_id|[int](../types/int.md) | Maximum message ID to fetch | Yes|
+|min\_id|[int](../types/int.md) | Minumum message ID to fetch | Yes|
+|limit|[int](../types/int.md) | Number of messages to fetch | Yes|
 
 
 ### Return type: [messages\_Messages](../types/messages_Messages.md)

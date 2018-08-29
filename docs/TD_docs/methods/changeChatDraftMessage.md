@@ -14,10 +14,10 @@ Changes chat draft message
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier|
-|draft\_message|[draftMessage](../constructors/draftMessage.md) | Yes|New draft message, nullable|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat identifier | Yes|
+|draft\_message|[draftMessage](../constructors/draftMessage.md) | New draft message, nullable | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

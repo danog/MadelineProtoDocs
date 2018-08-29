@@ -11,11 +11,11 @@ Create channel/supergroup
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|title|[string](../types/string.md) | Yes|Supergroup/channel title|
-|about|[string](../types/string.md) | Yes|About text|
-|users|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Yes|Users to add to channel|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|title|[string](../types/string.md) | Supergroup/channel title | Yes|
+|about|[string](../types/string.md) | About text | Yes|
+|users|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Users to add to channel | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

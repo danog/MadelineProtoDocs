@@ -14,9 +14,9 @@ Deletes chat from the list of recently found chats
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Identifier of the chat to delete|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Identifier of the chat to delete | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

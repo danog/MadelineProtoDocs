@@ -11,9 +11,9 @@ Get the changelog of this app
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|prev\_app\_version|[string](../types/string.md) | Yes|Previous app version|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|prev\_app\_version|[string](../types/string.md) | Previous app version | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

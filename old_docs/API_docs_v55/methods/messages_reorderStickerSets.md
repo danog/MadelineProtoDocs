@@ -11,9 +11,9 @@ Reorder sticker sets
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|order|Array of [long](../types/long.md) | Yes|The order|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|order|Array of [long](../types/long.md) | The order | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

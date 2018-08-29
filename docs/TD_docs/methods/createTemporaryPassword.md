@@ -14,10 +14,10 @@ Creates new temporary password for payments processing
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|password|[string](../types/string.md) | Yes|Persistent user password|
-|valid\_for|[int](../types/int.md) | Yes|Time before temporary password will expire, seconds. Should be between 60 and 86400|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|password|[string](../types/string.md) | Persistent user password | Yes|
+|valid\_for|[int](../types/int.md) | Time before temporary password will expire, seconds. Should be between 60 and 86400 | Yes|
 
 
 ### Return type: [TemporaryPasswordState](../types/TemporaryPasswordState.md)

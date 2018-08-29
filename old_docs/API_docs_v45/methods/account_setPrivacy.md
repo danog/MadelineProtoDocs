@@ -11,10 +11,10 @@ Set privacy settings
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|key|[InputPrivacyKey](../types/InputPrivacyKey.md) | Yes|Privacy setting|
-|rules|Array of [InputPrivacyRule](../types/InputPrivacyRule.md) | Yes|Privacy settings|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|key|[InputPrivacyKey](../types/InputPrivacyKey.md) | Privacy setting | Yes|
+|rules|Array of [InputPrivacyRule](../types/InputPrivacyRule.md) | Privacy settings | Yes|
 
 
 ### Return type: [account\_PrivacyRules](../types/account_PrivacyRules.md)

@@ -11,9 +11,9 @@ Delete a contact
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|The contact to delete|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The contact to delete | Optional|
 
 
 ### Return type: [contacts\_Link](../types/contacts_Link.md)

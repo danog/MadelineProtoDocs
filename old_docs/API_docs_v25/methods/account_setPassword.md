@@ -11,12 +11,12 @@ Set 2FA password
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|current\_password\_hash|[bytes](../types/bytes.md) | Yes|Use only if you have set a 2FA password: `$current_salt = $MadelineProto->account->getPassword()['current_salt']; $current_password_hash = hash('sha256', $current_salt.$password.$current_salt, true);`|
-|new\_salt|[bytes](../types/bytes.md) | Yes|New salt|
-|new\_password\_hash|[bytes](../types/bytes.md) | Yes|`hash('sha256', $new_salt.$new_password.$new_salt, true)`|
-|hint|[string](../types/string.md) | Yes|Hint|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|current\_password\_hash|[bytes](../types/bytes.md) | Use only if you have set a 2FA password: `$current_salt = $MadelineProto->account->getPassword()['current_salt']; $current_password_hash = hash('sha256', $current_salt.$password.$current_salt, true);` | Yes|
+|new\_salt|[bytes](../types/bytes.md) | New salt | Yes|
+|new\_password\_hash|[bytes](../types/bytes.md) | `hash('sha256', $new_salt.$new_password.$new_salt, true)` | Yes|
+|hint|[string](../types/string.md) | Hint | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

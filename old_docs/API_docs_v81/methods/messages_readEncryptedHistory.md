@@ -11,10 +11,10 @@ Mark messages as read in secret chats
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | Yes|The secret chat where to mark messages as read|
-|max\_date|[int](../types/int.md) | Yes|Maximum date of messages to mark|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | The secret chat where to mark messages as read | Yes|
+|max\_date|[int](../types/int.md) | Maximum date of messages to mark | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

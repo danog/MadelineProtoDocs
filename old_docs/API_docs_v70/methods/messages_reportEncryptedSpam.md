@@ -11,9 +11,9 @@ Report for spam a secret chat
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | Yes|The chat to report|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | The chat to report | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

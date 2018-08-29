@@ -14,9 +14,9 @@ Test request. Returns back received vector of objects containing a number
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|x|Array of [testInt](../constructors/testInt.md) | Yes|Vector of objects to return|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|x|Array of [testInt](../constructors/testInt.md) | Vector of objects to return | Yes|
 
 
 ### Return type: [TestVectorIntObject](../types/TestVectorIntObject.md)

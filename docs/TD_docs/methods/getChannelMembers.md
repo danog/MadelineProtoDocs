@@ -14,12 +14,12 @@ Returns information about channel members or banned users. Can be used only if c
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel\_id|[int](../types/int.md) | Yes|Identifier of the channel|
-|filter|[ChannelMembersFilter](../types/ChannelMembersFilter.md) | Yes|Kind of channel users to return, defaults to channelMembersRecent|
-|offset|[int](../types/int.md) | Yes|Number of channel users to skip|
-|limit|[int](../types/int.md) | Yes|Maximum number of users be returned, can't be greater than 200|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel\_id|[int](../types/int.md) | Identifier of the channel | Yes|
+|filter|[ChannelMembersFilter](../types/ChannelMembersFilter.md) | Kind of channel users to return, defaults to channelMembersRecent | Yes|
+|offset|[int](../types/int.md) | Number of channel users to skip | Yes|
+|limit|[int](../types/int.md) | Maximum number of users be returned, can't be greater than 200 | Yes|
 
 
 ### Return type: [ChatMembers](../types/ChatMembers.md)

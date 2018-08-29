@@ -11,10 +11,10 @@ Update the username of a supergroup/channel
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|The channel/supergroup|
-|username|[string](../types/string.md) | Yes|The new username|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel/supergroup | Optional|
+|username|[string](../types/string.md) | The new username | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

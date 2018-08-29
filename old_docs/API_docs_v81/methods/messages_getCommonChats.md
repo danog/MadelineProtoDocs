@@ -11,11 +11,11 @@ Get chats in common with a user
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|The user|
-|max\_id|[int](../types/int.md) | Yes|The maximum chat ID to fetch|
-|limit|[int](../types/int.md) | Yes|Number of results to fetch|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The user | Optional|
+|max\_id|[int](../types/int.md) | The maximum chat ID to fetch | Yes|
+|limit|[int](../types/int.md) | Number of results to fetch | Yes|
 
 
 ### Return type: [messages\_Chats](../types/messages_Chats.md)

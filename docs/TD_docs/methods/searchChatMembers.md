@@ -14,11 +14,11 @@ Searches for the specified query in the first name, last name and username among
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier|
-|query|[string](../types/string.md) | Yes|Query to search for|
-|limit|[int](../types/int.md) | Yes|Maximum number of users to be returned|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat identifier | Yes|
+|query|[string](../types/string.md) | Query to search for | Yes|
+|limit|[int](../types/int.md) | Maximum number of users to be returned | Yes|
 
 
 ### Return type: [ChatMembers](../types/ChatMembers.md)

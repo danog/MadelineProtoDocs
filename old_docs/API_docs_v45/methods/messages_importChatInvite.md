@@ -11,9 +11,9 @@ Import chat invite
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|hash|[string](../types/string.md) | Yes|The invite link in t.me/joinchat/aflakf format|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|[string](../types/string.md) | The invite link in t.me/joinchat/aflakf format | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

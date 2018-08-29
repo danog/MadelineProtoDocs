@@ -14,10 +14,10 @@ Reports chat as a spam chat or as not a spam chat. Can be used only if ChatRepor
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier|
-|is\_spam\_chat|[Bool](../types/Bool.md) | Yes|If true, chat will be reported as a spam chat, otherwise it will be marked as not a spam chat|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat identifier | Yes|
+|is\_spam\_chat|[Bool](../types/Bool.md) | If true, chat will be reported as a spam chat, otherwise it will be marked as not a spam chat | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

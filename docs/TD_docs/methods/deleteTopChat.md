@@ -14,10 +14,10 @@ Delete a chat from a list of frequently used chats. Supported only if chat info 
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|category|[TopChatCategory](../types/TopChatCategory.md) | Yes|Category of frequently used chats|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|category|[TopChatCategory](../types/TopChatCategory.md) | Category of frequently used chats | Yes|
+|chat\_id|[int53](../types/int53.md) | Chat identifier | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

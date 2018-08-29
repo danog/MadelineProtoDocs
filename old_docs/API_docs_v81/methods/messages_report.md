@@ -11,11 +11,11 @@ Report a message
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The user that sent the messages|
-|id|Array of [int](../types/int.md) | Yes|The messages to report|
-|reason|[ReportReason](../types/ReportReason.md) | Yes|The reason why you're sending this report|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The user that sent the messages | Optional|
+|id|Array of [int](../types/int.md) | The messages to report | Yes|
+|reason|[ReportReason](../types/ReportReason.md) | The reason why you're sending this report | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

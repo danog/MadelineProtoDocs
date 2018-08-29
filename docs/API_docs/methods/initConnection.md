@@ -11,17 +11,17 @@ Initializes connection and save information on the user's device and application
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|api\_id|[int](../types/int.md) | Yes|Application identifier|
-|device\_model|[string](../types/string.md) | Yes|Device model|
-|system\_version|[string](../types/string.md) | Yes|System version|
-|app\_version|[string](../types/string.md) | Yes|App version|
-|system\_lang\_code|[string](../types/string.md) | Yes|Language code|
-|lang\_pack|[string](../types/string.md) | Yes|Language pack to use|
-|lang\_code|[string](../types/string.md) | Yes|Language code to set|
-|proxy|[InputClientProxy](../types/InputClientProxy.md) | Optional|The current proxy|
-|query|[!X](../types/!X.md) | Yes|Nested query|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|api\_id|[int](../types/int.md) | Application identifier | Yes|
+|device\_model|[string](../types/string.md) | Device model | Yes|
+|system\_version|[string](../types/string.md) | System version | Yes|
+|app\_version|[string](../types/string.md) | App version | Yes|
+|system\_lang\_code|[string](../types/string.md) | Language code | Yes|
+|lang\_pack|[string](../types/string.md) | Language pack to use | Yes|
+|lang\_code|[string](../types/string.md) | Language code to set | Yes|
+|proxy|[InputClientProxy](../types/InputClientProxy.md) | The current proxy | Optional|
+|query|[!X](../types/!X.md) | Nested query | Yes|
 
 
 ### Return type: [X](../types/X.md)

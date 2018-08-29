@@ -11,9 +11,9 @@ Invoke this method with layer 18
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|query|[!X](../types/!X.md) | Yes|The method call|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|query|[!X](../types/!X.md) | The method call | Yes|
 
 
 ### Return type: [X](../types/X.md)

@@ -11,11 +11,11 @@ Get document by SHA256 hash
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|sha256|[bytes](../types/bytes.md) | Yes|`hash('sha256', $filename, true);`|
-|size|[int](../types/int.md) | Yes|The file size|
-|mime\_type|[string](../types/string.md) | Yes|The mime type of the file|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|sha256|[bytes](../types/bytes.md) | `hash('sha256', $filename, true);` | Yes|
+|size|[int](../types/int.md) | The file size | Yes|
+|mime\_type|[string](../types/string.md) | The mime type of the file | Yes|
 
 
 ### Return type: [Document](../types/Document.md)

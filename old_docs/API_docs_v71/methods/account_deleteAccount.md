@@ -11,9 +11,9 @@ Delete this account
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|reason|[string](../types/string.md) | Yes|Why are you going away? :(|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|reason|[string](../types/string.md) | Why are you going away? :( | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

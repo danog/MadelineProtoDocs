@@ -11,10 +11,10 @@ Get language pack strings
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|lang\_code|[string](../types/string.md) | Yes|Language code|
-|keys|Array of [string](../types/string.md) | Yes|Keys|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|lang\_code|[string](../types/string.md) | Language code | Yes|
+|keys|Array of [string](../types/string.md) | Keys | Yes|
 
 
 ### Return type: [Vector\_of\_LangPackString](../types/LangPackString.md)

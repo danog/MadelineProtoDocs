@@ -11,9 +11,9 @@ Mark messages as read
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|max\_id|[int](../types/int.md) | Yes|Maximum message id of messages to mark as read|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|max\_id|[int](../types/int.md) | Maximum message id of messages to mark as read | Yes|
 
 
 ### Return type: [Vector\_of\_ReceivedNotifyMessage](../types/ReceivedNotifyMessage.md)

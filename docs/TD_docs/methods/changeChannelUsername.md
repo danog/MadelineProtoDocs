@@ -14,10 +14,10 @@ Changes username of the channel. Needs creator privileges in the channel
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel\_id|[int](../types/int.md) | Yes|Identifier of the channel|
-|username|[string](../types/string.md) | Yes|New value of username. Use empty string to remove username|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel\_id|[int](../types/int.md) | Identifier of the channel | Yes|
+|username|[string](../types/string.md) | New value of username. Use empty string to remove username | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

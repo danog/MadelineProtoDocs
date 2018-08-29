@@ -14,10 +14,10 @@ Returns invoice payment form. The method should be called when user presses inli
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier of the Invoice message|
-|message\_id|[int53](../types/int53.md) | Yes|Message identifier|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat identifier of the Invoice message | Yes|
+|message\_id|[int53](../types/int53.md) | Message identifier | Yes|
 
 
 ### Return type: [PaymentForm](../types/PaymentForm.md)

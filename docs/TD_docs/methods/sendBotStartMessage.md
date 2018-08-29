@@ -14,11 +14,11 @@ Invites bot to a chat (if it is not in the chat) and send /start to it. Bot can'
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|bot\_user\_id|[int](../types/int.md) | Yes|Identifier of the bot|
-|chat\_id|[int53](../types/int53.md) | Yes|Identifier of the chat|
-|parameter|[string](../types/string.md) | Yes|Hidden parameter sent to bot for deep linking (https: api.telegram.org/bots#deep-linking)|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot\_user\_id|[int](../types/int.md) | Identifier of the bot | Yes|
+|chat\_id|[int53](../types/int53.md) | Identifier of the chat | Yes|
+|parameter|[string](../types/string.md) | Hidden parameter sent to bot for deep linking (https: api.telegram.org/bots#deep-linking) | Yes|
 
 
 ### Return type: [Message](../types/Message.md)

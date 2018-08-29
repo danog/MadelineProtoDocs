@@ -14,10 +14,10 @@ Searches for specified query in the first name, last name and username of the kn
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|query|[string](../types/string.md) | Yes|Query to search for, can be empty to return all contacts|
-|limit|[int](../types/int.md) | Yes|Maximum number of users to be returned|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|query|[string](../types/string.md) | Query to search for, can be empty to return all contacts | Yes|
+|limit|[int](../types/int.md) | Maximum number of users to be returned | Yes|
 
 
 ### Return type: [Users](../types/Users.md)

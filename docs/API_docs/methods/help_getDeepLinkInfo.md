@@ -11,9 +11,9 @@ Get deep link info
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|path|[string](../types/string.md) | Yes|Deep link|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|path|[string](../types/string.md) | Deep link | Yes|
 
 
 ### Return type: [help\_DeepLinkInfo](../types/help_DeepLinkInfo.md)

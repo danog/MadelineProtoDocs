@@ -11,9 +11,9 @@ Get info about users
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|id|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Yes|The ids of the users|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|id|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The ids of the users | Yes|
 
 
 ### Return type: [Vector\_of\_User](../types/User.md)

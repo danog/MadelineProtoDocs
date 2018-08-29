@@ -11,11 +11,11 @@ Kick or ban a user from a channel/supergroup
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|The channel/supergroup|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|The user to kick/ban|
-|banned\_rights|[ChannelBannedRights](../types/ChannelBannedRights.md) | Yes|Banned/kicked permissions|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel/supergroup | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The user to kick/ban | Optional|
+|banned\_rights|[ChannelBannedRights](../types/ChannelBannedRights.md) | Banned/kicked permissions | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

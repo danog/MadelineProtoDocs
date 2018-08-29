@@ -14,14 +14,14 @@ Returns list of service actions taken by chat members and administrators in the 
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier|
-|query|[string](../types/string.md) | Yes|Search query to filter events|
-|from\_event\_id|[int64](../constructors/int64.md) | Yes|Identifier of an event from which to return result, you can use 0 to get results from the latest events|
-|limit|[int](../types/int.md) | Yes|Maximum number of events to return, can't be greater than 100|
-|filters|[chatEventLogFilters](../constructors/chatEventLogFilters.md) | Yes|Types of events to return, defaults to all|
-|user\_ids|Array of [int](../types/int.md) | Yes|User identifiers, which events to return, defaults to all users|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat identifier | Yes|
+|query|[string](../types/string.md) | Search query to filter events | Yes|
+|from\_event\_id|[int64](../constructors/int64.md) | Identifier of an event from which to return result, you can use 0 to get results from the latest events | Yes|
+|limit|[int](../types/int.md) | Maximum number of events to return, can't be greater than 100 | Yes|
+|filters|[chatEventLogFilters](../constructors/chatEventLogFilters.md) | Types of events to return, defaults to all | Yes|
+|user\_ids|Array of [int](../types/int.md) | User identifiers, which events to return, defaults to all users | Yes|
 
 
 ### Return type: [ChatEvents](../types/ChatEvents.md)

@@ -14,9 +14,9 @@ Registers current used device for receiving push notifications
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|device\_token|[DeviceToken](../types/DeviceToken.md) | Yes|Device token|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|device\_token|[DeviceToken](../types/DeviceToken.md) | Device token | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

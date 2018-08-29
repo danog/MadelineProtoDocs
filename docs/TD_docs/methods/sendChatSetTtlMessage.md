@@ -14,10 +14,10 @@ Changes current ttl setting in a secret chat and sends corresponding message
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier|
-|ttl|[int](../types/int.md) | Yes|New value of ttl in seconds|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat identifier | Yes|
+|ttl|[int](../types/int.md) | New value of ttl in seconds | Yes|
 
 
 ### Return type: [Message](../types/Message.md)

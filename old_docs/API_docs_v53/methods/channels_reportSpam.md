@@ -11,11 +11,11 @@ Report a message in a supergroup/channel for spam
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|The channel|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|The user that sent the messages|
-|id|Array of [int](../types/int.md) | Yes|The IDs of messages to report|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The user that sent the messages | Optional|
+|id|Array of [int](../types/int.md) | The IDs of messages to report | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

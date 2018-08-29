@@ -11,10 +11,10 @@ Send message to secret chat
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | Yes|The chat where to send the message|
-|message|[DecryptedMessage](../types/DecryptedMessage.md) | Yes|The message to send|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | The chat where to send the message | Yes|
+|message|[DecryptedMessage](../types/DecryptedMessage.md) | The message to send | Yes|
 
 
 ### Return type: [messages\_SentEncryptedMessage](../types/messages_SentEncryptedMessage.md)

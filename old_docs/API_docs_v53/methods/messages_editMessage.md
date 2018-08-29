@@ -11,14 +11,14 @@ Edit a message
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|no\_webpage|[Bool](../types/Bool.md) | Optional|Disable webpage preview|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The chat|
-|id|[int](../types/int.md) | Yes|The message ID|
-|message|[string](../types/string.md) | Optional|The new message|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|The new keyboard|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|The new entities (for styled text)|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|no\_webpage|[Bool](../types/Bool.md) | Disable webpage preview | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat | Optional|
+|id|[int](../types/int.md) | The message ID | Yes|
+|message|[string](../types/string.md) | The new message | Optional|
+|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | The new keyboard | Optional|
+|entities|Array of [MessageEntity](../types/MessageEntity.md) | The new entities (for styled text) | Optional|
 |parse\_mode| [string](../types/string.md) | Optional |Whether to parse HTML or Markdown markup in the message|
 
 

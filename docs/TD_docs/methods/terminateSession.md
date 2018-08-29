@@ -14,9 +14,9 @@ Terminates another session of logged in user
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|session\_id|[int64](../constructors/int64.md) | Yes|Session identifier|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|session\_id|[int64](../constructors/int64.md) | Session identifier | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

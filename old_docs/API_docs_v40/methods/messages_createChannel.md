@@ -11,9 +11,9 @@ Create channel
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|title|[string](../types/string.md) | Yes|Channel/supergroup title|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|title|[string](../types/string.md) | Channel/supergroup title | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

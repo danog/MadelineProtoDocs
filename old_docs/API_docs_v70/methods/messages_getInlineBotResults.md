@@ -11,13 +11,13 @@ Call inline bot
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|bot|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|The bot to call|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The chat where to call the bot|
-|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|The current location|
-|query|[string](../types/string.md) | Yes|The query to send to the bot|
-|offset|[string](../types/string.md) | Yes|The offset to send to the bot|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The bot to call | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat where to call the bot | Optional|
+|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | The current location | Optional|
+|query|[string](../types/string.md) | The query to send to the bot | Yes|
+|offset|[string](../types/string.md) | The offset to send to the bot | Yes|
 
 
 ### Return type: [messages\_BotResults](../types/messages_BotResults.md)

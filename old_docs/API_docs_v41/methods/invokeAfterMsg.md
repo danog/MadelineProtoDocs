@@ -11,10 +11,10 @@ Invokes a query after successfull completion of one of the previous queries.
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|msg\_id|[long](../types/long.md) | Yes|Message identifier on which a current query depends|
-|query|[!X](../types/!X.md) | Yes|The query itself|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|msg\_id|[long](../types/long.md) | Message identifier on which a current query depends | Yes|
+|query|[!X](../types/!X.md) | The query itself | Yes|
 
 
 ### Return type: [X](../types/X.md)

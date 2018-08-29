@@ -11,17 +11,17 @@ Search peers or messages
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|important\_only|[Bool](../types/Bool.md) | Optional|Show only important messages|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|Where to search|
-|q|[string](../types/string.md) | Yes|What to search|
-|filter|[MessagesFilter](../types/MessagesFilter.md) | Yes|Message filter|
-|min\_date|[int](../types/int.md) | Yes|Minumum date of results to fetch|
-|max\_date|[int](../types/int.md) | Yes|Maximum date of results to fetch|
-|offset|[int](../types/int.md) | Yes|Offset |
-|max\_id|[int](../types/int.md) | Yes|Maximum message id to return|
-|limit|[int](../types/int.md) | Yes|Number of results to return|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|important\_only|[Bool](../types/Bool.md) | Show only important messages | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Where to search | Optional|
+|q|[string](../types/string.md) | What to search | Yes|
+|filter|[MessagesFilter](../types/MessagesFilter.md) | Message filter | Yes|
+|min\_date|[int](../types/int.md) | Minumum date of results to fetch | Yes|
+|max\_date|[int](../types/int.md) | Maximum date of results to fetch | Yes|
+|offset|[int](../types/int.md) | Offset  | Yes|
+|max\_id|[int](../types/int.md) | Maximum message id to return | Yes|
+|limit|[int](../types/int.md) | Number of results to return | Yes|
 
 
 ### Return type: [messages\_Messages](../types/messages_Messages.md)

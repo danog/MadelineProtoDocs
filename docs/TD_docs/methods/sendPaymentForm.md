@@ -14,13 +14,13 @@ Sends filled payment form to the bot for the final verification
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier of the Invoice message|
-|message\_id|[int53](../types/int53.md) | Yes|Message identifier|
-|order\_info\_id|[string](../types/string.md) | Yes|Identifier returned by ValidateOrderInfo or empty string|
-|shipping\_option\_id|[string](../types/string.md) | Yes|Identifier of a chosen shipping option, if applicable|
-|credentials|[InputCredentials](../types/InputCredentials.md) | Yes|Credentials choosed by user for payment|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat identifier of the Invoice message | Yes|
+|message\_id|[int53](../types/int53.md) | Message identifier | Yes|
+|order\_info\_id|[string](../types/string.md) | Identifier returned by ValidateOrderInfo or empty string | Yes|
+|shipping\_option\_id|[string](../types/string.md) | Identifier of a chosen shipping option, if applicable | Yes|
+|credentials|[InputCredentials](../types/InputCredentials.md) | Credentials choosed by user for payment | Yes|
 
 
 ### Return type: [PaymentResult](../types/PaymentResult.md)

@@ -11,9 +11,9 @@ Delete profile photos
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|id|Array of [MessageMedia, Update, Message or InputPhoto](../types/InputPhoto.md) | Yes|The profile photos to delete|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|id|Array of [MessageMedia, Update, Message or InputPhoto](../types/InputPhoto.md) | The profile photos to delete | Yes|
 
 
 ### Return type: [Vector\_of\_long](../types/long.md)

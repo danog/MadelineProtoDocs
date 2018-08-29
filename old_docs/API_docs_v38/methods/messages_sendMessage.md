@@ -11,13 +11,13 @@ Send a message
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The chat where to send this message|
-|reply\_to\_msg\_id|[int](../types/int.md) | Optional|Reply to message by ID|
-|message|[string](../types/string.md) | Yes|The message to send|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Keyboards to send|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|Entities to send (for styled text)|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat where to send this message | Optional|
+|reply\_to\_msg\_id|[int](../types/int.md) | Reply to message by ID | Optional|
+|message|[string](../types/string.md) | The message to send | Yes|
+|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Keyboards to send | Optional|
+|entities|Array of [MessageEntity](../types/MessageEntity.md) | Entities to send (for styled text) | Optional|
 |parse\_mode| [string](../types/string.md) | Optional |Whether to parse HTML or Markdown markup in the message|
 
 

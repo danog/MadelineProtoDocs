@@ -11,9 +11,9 @@ Get info about chats
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|id|Array of [int](../types/int.md) | Yes|The MTProto IDs of chats to fetch info about|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|id|Array of [int](../types/int.md) | The MTProto IDs of chats to fetch info about | Yes|
 
 
 ### Return type: [messages\_Chats](../types/messages_Chats.md)

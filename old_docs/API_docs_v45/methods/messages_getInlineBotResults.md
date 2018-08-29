@@ -11,11 +11,11 @@ Call inline bot
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|bot|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|The bot to call|
-|query|[string](../types/string.md) | Yes|The query to send to the bot|
-|offset|[string](../types/string.md) | Yes|The offset to send to the bot|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The bot to call | Optional|
+|query|[string](../types/string.md) | The query to send to the bot | Yes|
+|offset|[string](../types/string.md) | The offset to send to the bot | Yes|
 
 
 ### Return type: [messages\_BotResults](../types/messages_BotResults.md)

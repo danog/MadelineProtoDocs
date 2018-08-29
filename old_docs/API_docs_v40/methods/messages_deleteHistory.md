@@ -11,10 +11,10 @@ Delete chat history
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|Where to clear it|
-|offset|[int](../types/int.md) | Yes|Offset|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Where to clear it | Optional|
+|offset|[int](../types/int.md) | Offset | Yes|
 
 
 ### Return type: [messages\_AffectedHistory](../types/messages_AffectedHistory.md)

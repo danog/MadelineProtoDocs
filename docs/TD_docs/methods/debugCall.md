@@ -14,10 +14,10 @@ Sends call debug information
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|call\_id|[int](../types/int.md) | Yes|Call identifier|
-|debug|[string](../types/string.md) | Yes|Debug information in application specific format|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|call\_id|[int](../types/int.md) | Call identifier | Yes|
+|debug|[string](../types/string.md) | Debug information in application specific format | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

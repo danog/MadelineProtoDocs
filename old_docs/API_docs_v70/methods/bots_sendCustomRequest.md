@@ -11,10 +11,10 @@ Send a custom request to the bot API
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|custom\_method|[string](../types/string.md) | Yes|The method to call|
-|params|[DataJSON](../types/DataJSON.md) | Yes|Method parameters|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|custom\_method|[string](../types/string.md) | The method to call | Yes|
+|params|[DataJSON](../types/DataJSON.md) | Method parameters | Yes|
 
 
 ### Return type: [DataJSON](../types/DataJSON.md)

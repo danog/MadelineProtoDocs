@@ -11,10 +11,10 @@ Allow or disallow any user to invite users to this channel/supergroup
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|The channel/supergroup|
-|enabled|[Bool](../types/Bool.md) | Yes|Allow or disallow|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel/supergroup | Optional|
+|enabled|[Bool](../types/Bool.md) | Allow or disallow | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

@@ -11,11 +11,11 @@ Send a message
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The chat where to send this message|
-|reply\_to\_msg\_id|[int](../types/int.md) | Optional|Reply to message by ID|
-|message|[string](../types/string.md) | Yes|The message to send|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat where to send this message | Optional|
+|reply\_to\_msg\_id|[int](../types/int.md) | Reply to message by ID | Optional|
+|message|[string](../types/string.md) | The message to send | Yes|
 
 
 ### Return type: [messages\_SentMessage](../types/messages_SentMessage.md)

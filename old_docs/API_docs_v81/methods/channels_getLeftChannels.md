@@ -11,9 +11,9 @@ Get all channels you left
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|offset|[int](../types/int.md) | Yes|Offset|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|offset|[int](../types/int.md) | Offset | Yes|
 
 
 ### Return type: [messages\_Chats](../types/messages_Chats.md)

@@ -14,10 +14,10 @@ Returns a list of frequently used chats. Supported only if chat info database is
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|category|[TopChatCategory](../types/TopChatCategory.md) | Yes|Category of chats to return|
-|limit|[int](../types/int.md) | Yes|Maximum number of chats to be returned, at most 30|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|category|[TopChatCategory](../types/TopChatCategory.md) | Category of chats to return | Yes|
+|limit|[int](../types/int.md) | Maximum number of chats to be returned, at most 30 | Yes|
 
 
 ### Return type: [Chats](../types/Chats.md)

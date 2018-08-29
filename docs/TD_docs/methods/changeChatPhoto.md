@@ -14,10 +14,10 @@ Changes chat photo. Works only for group and channel chats. Requires administrat
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier|
-|photo|[InputFile](../types/InputFile.md) | Yes|New chat photo. You can use zero InputFileId to delete chat photo. Files accessible only by HTTP URL are not acceptable|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat identifier | Yes|
+|photo|[InputFile](../types/InputFile.md) | New chat photo. You can use zero InputFileId to delete chat photo. Files accessible only by HTTP URL are not acceptable | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

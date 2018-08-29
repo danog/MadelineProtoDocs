@@ -14,15 +14,15 @@ Bots only. Sets result of an inline query
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|inline\_query\_id|[int64](../constructors/int64.md) | Yes|Identifier of the inline query|
-|is\_personal|[Bool](../types/Bool.md) | Yes|Does result of the query can be cached only for specified user|
-|results|Array of [InputInlineQueryResult](../types/InputInlineQueryResult.md) | Yes|Results of the query|
-|cache\_time|[int](../types/int.md) | Yes|Allowed time to cache results of the query in seconds|
-|next\_offset|[string](../types/string.md) | Yes|Offset for the next inline query, pass empty string if there is no more results|
-|switch\_pm\_text|[string](../types/string.md) | Yes|If non-empty, this text should be shown on the button, which opens private chat with the bot and sends bot start message with parameter switch_pm_parameter|
-|switch\_pm\_parameter|[string](../types/string.md) | Yes|Parameter for the bot start message|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|inline\_query\_id|[int64](../constructors/int64.md) | Identifier of the inline query | Yes|
+|is\_personal|[Bool](../types/Bool.md) | Does result of the query can be cached only for specified user | Yes|
+|results|Array of [InputInlineQueryResult](../types/InputInlineQueryResult.md) | Results of the query | Yes|
+|cache\_time|[int](../types/int.md) | Allowed time to cache results of the query in seconds | Yes|
+|next\_offset|[string](../types/string.md) | Offset for the next inline query, pass empty string if there is no more results | Yes|
+|switch\_pm\_text|[string](../types/string.md) | If non-empty, this text should be shown on the button, which opens private chat with the bot and sends bot start message with parameter switch_pm_parameter | Yes|
+|switch\_pm\_parameter|[string](../types/string.md) | Parameter for the bot start message | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

@@ -11,10 +11,10 @@ Set the supergroup/channel stickerpack
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|The channel/supergoup|
-|stickerset|[InputStickerSet](../types/InputStickerSet.md) | Optional|The stickerset|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel/supergoup | Optional|
+|stickerset|[InputStickerSet](../types/InputStickerSet.md) | The stickerset | Optional|
 
 
 ### Return type: [Bool](../types/Bool.md)

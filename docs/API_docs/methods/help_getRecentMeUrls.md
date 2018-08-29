@@ -11,9 +11,9 @@ Get recent t.me URLs
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|referer|[string](../types/string.md) | Yes|Referrer|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|referer|[string](../types/string.md) | Referrer | Yes|
 
 
 ### Return type: [help\_RecentMeUrls](../types/help_RecentMeUrls.md)

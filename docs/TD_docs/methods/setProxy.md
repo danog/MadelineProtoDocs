@@ -14,9 +14,9 @@ Sets proxy server for network requests. Can be called before authorization
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|proxy|[Proxy](../types/Proxy.md) | Optional|The proxy to use. You can specify null to remove proxy server|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|proxy|[Proxy](../types/Proxy.md) | The proxy to use. You can specify null to remove proxy server | Optional|
 
 
 ### Return type: [Ok](../types/Ok.md)

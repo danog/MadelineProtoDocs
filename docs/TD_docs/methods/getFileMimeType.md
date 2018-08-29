@@ -14,9 +14,9 @@ Returns file's mime type guessing only by its extension. Returns empty string on
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|file\_name|[string](../types/string.md) | Yes|Name of the file or path to the file|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|file\_name|[string](../types/string.md) | Name of the file or path to the file | Yes|
 
 
 ### Return type: [Text](../types/Text.md)

@@ -14,10 +14,10 @@ Returns information about messages. If message is not found, returns null on the
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Identifier of the chat, messages belongs to|
-|message\_ids|Array of [int53](../types/int53.md) | Yes|Identifiers of the messages to get|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Identifier of the chat, messages belongs to | Yes|
+|message\_ids|Array of [int53](../types/int53.md) | Identifiers of the messages to get | Yes|
 
 
 ### Return type: [Messages](../types/Messages.md)

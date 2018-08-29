@@ -11,15 +11,15 @@ Send inline bot result obtained with messages.getInlineBotResults to the chat
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|broadcast|[Bool](../types/Bool.md) | Optional|Broadcast this message?|
-|silent|[Bool](../types/Bool.md) | Optional|Disable notifications?|
-|background|[Bool](../types/Bool.md) | Optional|Disable background notifications?|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|Where to send the message|
-|reply\_to\_msg\_id|[int](../types/int.md) | Optional|Reply to message by ID|
-|query\_id|[long](../types/long.md) | Yes|The inline query ID|
-|id|[string](../types/string.md) | Yes|The ID of one of the inline results|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|broadcast|[Bool](../types/Bool.md) | Broadcast this message? | Optional|
+|silent|[Bool](../types/Bool.md) | Disable notifications? | Optional|
+|background|[Bool](../types/Bool.md) | Disable background notifications? | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Where to send the message | Optional|
+|reply\_to\_msg\_id|[int](../types/int.md) | Reply to message by ID | Optional|
+|query\_id|[long](../types/long.md) | The inline query ID | Yes|
+|id|[string](../types/string.md) | The ID of one of the inline results | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

@@ -11,10 +11,10 @@ Invoke this method with layer X
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|layer|[int](../types/int.md) | Yes|The layer version|
-|query|[!X](../types/!X.md) | Yes|The query|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|layer|[int](../types/int.md) | The layer version | Yes|
+|query|[!X](../types/!X.md) | The query | Yes|
 
 
 ### Return type: [X](../types/X.md)

@@ -14,10 +14,10 @@ Handles DC_UPDATE push service notification. Can be called before authorization
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|dc|[string](../types/string.md) | Yes|Value of 'dc' paramater of the notification|
-|addr|[string](../types/string.md) | Yes|Value of 'addr' parameter of the notification|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|dc|[string](../types/string.md) | Value of 'dc' paramater of the notification | Yes|
+|addr|[string](../types/string.md) | Value of 'addr' parameter of the notification | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

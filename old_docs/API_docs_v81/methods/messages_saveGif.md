@@ -11,10 +11,10 @@ Save a GIF
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|id|[MessageMedia, Update, Message or InputDocument](../types/InputDocument.md) | Optional|The GIF to save|
-|unsave|[Bool](../types/Bool.md) | Yes|Remove the gif?|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|id|[MessageMedia, Update, Message or InputDocument](../types/InputDocument.md) | The GIF to save | Optional|
+|unsave|[Bool](../types/Bool.md) | Remove the gif? | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

@@ -11,10 +11,10 @@ Edit the title of a supergroup/channel
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|The channel|
-|title|[string](../types/string.md) | Yes|The new channel/supergroup title|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel | Optional|
+|title|[string](../types/string.md) | The new channel/supergroup title | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

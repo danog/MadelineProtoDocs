@@ -14,10 +14,10 @@ Messages are viewed by the user. Many useful activities depends on message being
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier|
-|message\_ids|Array of [int53](../types/int53.md) | Yes|Identifiers of viewed messages|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat identifier | Yes|
+|message\_ids|Array of [int53](../types/int53.md) | Identifiers of viewed messages | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

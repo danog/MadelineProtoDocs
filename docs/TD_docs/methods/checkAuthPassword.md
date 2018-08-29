@@ -14,9 +14,9 @@ Checks password for correctness. Works only when getAuthState returns authStateW
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|password|[string](../types/string.md) | Yes|Password to check|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|password|[string](../types/string.md) | Password to check | Yes|
 
 
 ### Return type: [AuthState](../types/AuthState.md)

@@ -11,9 +11,9 @@ Get language pack updates
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|from\_version|[int](../types/int.md) | Yes|Previous version|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|from\_version|[int](../types/int.md) | Previous version | Yes|
 
 
 ### Return type: [LangPackDifference](../types/LangPackDifference.md)

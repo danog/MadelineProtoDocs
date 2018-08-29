@@ -14,9 +14,9 @@ Generates new chat invite link, previously generated link is revoked. Available 
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat identifier | Yes|
 
 
 ### Return type: [ChatInviteLink](../types/ChatInviteLink.md)

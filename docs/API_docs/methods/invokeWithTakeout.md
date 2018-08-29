@@ -11,10 +11,10 @@ Invoke method from takeout session
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|takeout\_id|[long](../types/long.md) | Yes|The takeout session ID|
-|query|[!X](../types/!X.md) | Yes|The query|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|takeout\_id|[long](../types/long.md) | The takeout session ID | Yes|
+|query|[!X](../types/!X.md) | The query | Yes|
 
 
 ### Return type: [X](../types/X.md)

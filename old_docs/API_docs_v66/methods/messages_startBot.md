@@ -11,11 +11,11 @@ Start a bot
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|bot|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|The bot's ID or username|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|Where to start the bot (@me or group ID/username)|
-|start\_param|[string](../types/string.md) | Yes|The bot's start parameter|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The bot's ID or username | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Where to start the bot (@me or group ID/username) | Optional|
+|start\_param|[string](../types/string.md) | The bot's start parameter | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

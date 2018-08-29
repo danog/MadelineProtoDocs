@@ -11,10 +11,10 @@ Send message to geochat
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[InputGeoChat](../types/InputGeoChat.md) | Yes|The geochat|
-|message|[string](../types/string.md) | Yes|The message|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[InputGeoChat](../types/InputGeoChat.md) | The geochat | Yes|
+|message|[string](../types/string.md) | The message | Yes|
 
 
 ### Return type: [geochats\_StatedMessage](../types/geochats_StatedMessage.md)

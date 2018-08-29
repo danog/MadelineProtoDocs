@@ -11,12 +11,12 @@ Get geochat history
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[InputGeoChat](../types/InputGeoChat.md) | Yes|The geochat|
-|offset|[int](../types/int.md) | Yes|Offset|
-|max\_id|[int](../types/int.md) | Yes|Maximum message ID|
-|limit|[int](../types/int.md) | Yes|Number of results to return|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[InputGeoChat](../types/InputGeoChat.md) | The geochat | Yes|
+|offset|[int](../types/int.md) | Offset | Yes|
+|max\_id|[int](../types/int.md) | Maximum message ID | Yes|
+|limit|[int](../types/int.md) | Number of results to return | Yes|
 
 
 ### Return type: [geochats\_Messages](../types/geochats_Messages.md)

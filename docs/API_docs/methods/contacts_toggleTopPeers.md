@@ -11,9 +11,9 @@ Toggle top peers
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|enabled|[Bool](../types/Bool.md) | Yes|Enable or disable top peer|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|enabled|[Bool](../types/Bool.md) | Enable or disable top peer | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

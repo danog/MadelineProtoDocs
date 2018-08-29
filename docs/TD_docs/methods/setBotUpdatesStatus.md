@@ -14,10 +14,10 @@ Bots only. Informs server about number of pending bot updates if they aren't pro
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|pending\_update\_count|[int](../types/int.md) | Yes|Number of pending updates|
-|error\_message|[string](../types/string.md) | Yes|Last error's message|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|pending\_update\_count|[int](../types/int.md) | Number of pending updates | Yes|
+|error\_message|[string](../types/string.md) | Last error's message | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

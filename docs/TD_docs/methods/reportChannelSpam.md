@@ -14,11 +14,11 @@ Reports some supergroup channel messages from a user as spam messages
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel\_id|[int](../types/int.md) | Yes|Channel identifier|
-|user\_id|[int](../types/int.md) | Yes|User identifier|
-|message\_ids|Array of [int53](../types/int53.md) | Yes|Identifiers of messages sent in the supergroup by the user, the list should be non-empty|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel\_id|[int](../types/int.md) | Channel identifier | Yes|
+|user\_id|[int](../types/int.md) | User identifier | Yes|
+|message\_ids|Array of [int53](../types/int53.md) | Identifiers of messages sent in the supergroup by the user, the list should be non-empty | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

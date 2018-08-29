@@ -11,12 +11,12 @@ Get the profile photos of a user
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|The user|
-|offset|[int](../types/int.md) | Yes|Offset|
-|max\_id|[long](../types/long.md) | Yes|Maximum ID of photo to return|
-|limit|[int](../types/int.md) | Yes|Number of photos to return|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The user | Optional|
+|offset|[int](../types/int.md) | Offset | Yes|
+|max\_id|[long](../types/long.md) | Maximum ID of photo to return | Yes|
+|limit|[int](../types/int.md) | Number of photos to return | Yes|
 
 
 ### Return type: [photos\_Photos](../types/photos_Photos.md)

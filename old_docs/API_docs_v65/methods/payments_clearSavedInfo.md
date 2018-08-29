@@ -11,10 +11,10 @@ Clear saved payments info
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|credentials|[Bool](../types/Bool.md) | Optional|Clear credentials?|
-|info|[Bool](../types/Bool.md) | Optional|Clear payment info?|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|credentials|[Bool](../types/Bool.md) | Clear credentials? | Optional|
+|info|[Bool](../types/Bool.md) | Clear payment info? | Optional|
 
 
 ### Return type: [Bool](../types/Bool.md)

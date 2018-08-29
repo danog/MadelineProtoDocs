@@ -11,9 +11,9 @@ Requests PQ for factorization
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|nonce|[int128](../types/int128.md) | Yes|Random number for cryptographic security|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|nonce|[int128](../types/int128.md) | Random number for cryptographic security | Yes|
 
 
 ### Return type: [ResPQ](../types/ResPQ.md)

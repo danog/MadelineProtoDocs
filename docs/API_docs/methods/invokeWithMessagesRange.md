@@ -11,10 +11,10 @@ Invoke with messages range
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|range|[MessageRange](../types/MessageRange.md) | Yes|The range|
-|query|[!X](../types/!X.md) | Yes|The query|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|range|[MessageRange](../types/MessageRange.md) | The range | Yes|
+|query|[!X](../types/!X.md) | The query | Yes|
 
 
 ### Return type: [X](../types/X.md)

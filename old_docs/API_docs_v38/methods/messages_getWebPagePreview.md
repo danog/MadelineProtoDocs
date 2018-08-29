@@ -11,9 +11,9 @@ Get webpage preview
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|message|[string](../types/string.md) | Yes|Extract preview from this message|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|message|[string](../types/string.md) | Extract preview from this message | Yes|
 
 
 ### Return type: [MessageMedia](../types/MessageMedia.md)

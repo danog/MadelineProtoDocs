@@ -14,11 +14,11 @@ Returns profile photos of the user. Result of this query may be outdated: some p
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User identifier|
-|offset|[int](../types/int.md) | Yes|Photos to skip, must be non-negative|
-|limit|[int](../types/int.md) | Yes|Maximum number of photos to be returned, can't be greater than 100|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|user\_id|[int](../types/int.md) | User identifier | Yes|
+|offset|[int](../types/int.md) | Photos to skip, must be non-negative | Yes|
+|limit|[int](../types/int.md) | Maximum number of photos to be returned, can't be greater than 100 | Yes|
 
 
 ### Return type: [UserProfilePhotos](../types/UserProfilePhotos.md)

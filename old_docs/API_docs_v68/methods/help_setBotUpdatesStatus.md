@@ -11,10 +11,10 @@ Set the update status of webhook
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|pending\_updates\_count|[int](../types/int.md) | Yes|Pending update count|
-|message|[string](../types/string.md) | Yes|Message|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|pending\_updates\_count|[int](../types/int.md) | Pending update count | Yes|
+|message|[string](../types/string.md) | Message | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

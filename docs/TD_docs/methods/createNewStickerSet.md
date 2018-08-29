@@ -14,13 +14,13 @@ Bots only. Creates new sticker set. Returns created sticker set
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|Sticker set owner|
-|title|[string](../types/string.md) | Yes|Sticker set title, 1-64 characters|
-|name|[string](../types/string.md) | Yes|Sticker set name. Can contain only english letters, digits and underscores. Should end on *"_by_<bot username>"*. *<bot_username>* is case insensitive, 1-64 characters|
-|is\_masks|[Bool](../types/Bool.md) | Yes|True, is stickers are masks|
-|stickers|Array of [inputSticker](../constructors/inputSticker.md) | Yes|List of stickers to add to the set|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|user\_id|[int](../types/int.md) | Sticker set owner | Yes|
+|title|[string](../types/string.md) | Sticker set title, 1-64 characters | Yes|
+|name|[string](../types/string.md) | Sticker set name. Can contain only english letters, digits and underscores. Should end on *"_by_<bot username>"*. *<bot_username>* is case insensitive, 1-64 characters | Yes|
+|is\_masks|[Bool](../types/Bool.md) | True, is stickers are masks | Yes|
+|stickers|Array of [inputSticker](../constructors/inputSticker.md) | List of stickers to add to the set | Yes|
 
 
 ### Return type: [StickerSet](../types/StickerSet.md)

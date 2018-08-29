@@ -14,10 +14,10 @@ Changes notification settings for a given scope
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|scope|[NotificationSettingsScope](../types/NotificationSettingsScope.md) | Yes|Scope to change notification settings|
-|notification\_settings|[notificationSettings](../constructors/notificationSettings.md) | Yes|New notification settings for given scope|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|scope|[NotificationSettingsScope](../types/NotificationSettingsScope.md) | Scope to change notification settings | Yes|
+|notification\_settings|[notificationSettings](../constructors/notificationSettings.md) | New notification settings for given scope | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

@@ -11,10 +11,10 @@ Send SMS verification code
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|phone\_number|[string](../types/string.md) | Yes|Phone number|
-|phone\_code\_hash|[string](../types/string.md) | Yes|Phone code ash|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|phone\_number|[string](../types/string.md) | Phone number | Yes|
+|phone\_code\_hash|[string](../types/string.md) | Phone code ash | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

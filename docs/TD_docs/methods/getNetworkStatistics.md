@@ -14,9 +14,9 @@ Returns network data usage statistics. Can be called before authorization
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|only\_current|[Bool](../types/Bool.md) | Yes|If true, returns only data for the current library launch|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|only\_current|[Bool](../types/Bool.md) | If true, returns only data for the current library launch | Yes|
 
 
 ### Return type: [NetworkStatistics](../types/NetworkStatistics.md)

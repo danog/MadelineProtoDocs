@@ -11,10 +11,10 @@ Send media to geochat
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[InputGeoChat](../types/InputGeoChat.md) | Yes|The geochat|
-|media|[MessageMedia, Update, Message or InputMedia](../types/InputMedia.md) | Optional|The media|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[InputGeoChat](../types/InputGeoChat.md) | The geochat | Yes|
+|media|[MessageMedia, Update, Message or InputMedia](../types/InputMedia.md) | The media | Optional|
 
 
 ### Return type: [geochats\_StatedMessage](../types/geochats_StatedMessage.md)

@@ -11,10 +11,10 @@ Pin or unpin dialog
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|pinned|[Bool](../types/Bool.md) | Optional|Pin or unpin the dialog?|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The peer to pin|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|pinned|[Bool](../types/Bool.md) | Pin or unpin the dialog? | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The peer to pin | Optional|
 
 
 ### Return type: [Bool](../types/Bool.md)

@@ -14,11 +14,11 @@ Sends call rating
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|call\_id|[int](../types/int.md) | Yes|Call identifier|
-|rating|[int](../types/int.md) | Yes|Call rating, 1-5|
-|comment|[string](../types/string.md) | Yes|Optional user comment if rating is less than 5|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|call\_id|[int](../types/int.md) | Call identifier | Yes|
+|rating|[int](../types/int.md) | Call rating, 1-5 | Yes|
+|comment|[string](../types/string.md) | Optional user comment if rating is less than 5 | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

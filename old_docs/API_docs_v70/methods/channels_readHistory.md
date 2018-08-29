@@ -11,10 +11,10 @@ Mark channel/supergroup history as read
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|The channel/supergroup|
-|max\_id|[int](../types/int.md) | Yes|Maximum message ID to mark as read|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel/supergroup | Optional|
+|max\_id|[int](../types/int.md) | Maximum message ID to mark as read | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

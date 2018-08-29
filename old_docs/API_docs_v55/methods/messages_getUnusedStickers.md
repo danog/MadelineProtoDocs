@@ -11,9 +11,9 @@ Get unused stickers
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|limit|[int](../types/int.md) | Yes|Number of results to return|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|limit|[int](../types/int.md) | Number of results to return | Yes|
 
 
 ### Return type: [Vector\_of\_StickerSetCovered](../types/StickerSetCovered.md)

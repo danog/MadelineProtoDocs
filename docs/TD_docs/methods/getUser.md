@@ -14,9 +14,9 @@ Returns information about a user by its identifier, offline request if current u
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User identifier|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|user\_id|[int](../types/int.md) | User identifier | Yes|
 
 
 ### Return type: [User](../types/User.md)

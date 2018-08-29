@@ -11,9 +11,9 @@ Get payment form
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|msg\_id|[int](../types/int.md) | Yes|Message ID|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|msg\_id|[int](../types/int.md) | Message ID | Yes|
 
 
 ### Return type: [payments\_PaymentForm](../types/payments_PaymentForm.md)

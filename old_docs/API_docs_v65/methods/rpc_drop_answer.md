@@ -11,9 +11,9 @@ Do not send answer to provided request
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|req\_msg\_id|[long](../types/long.md) | Yes|The message ID of the request|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|req\_msg\_id|[long](../types/long.md) | The message ID of the request | Yes|
 
 
 ### Return type: [RpcDropAnswer](../types/RpcDropAnswer.md)

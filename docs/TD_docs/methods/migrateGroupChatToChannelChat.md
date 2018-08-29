@@ -14,9 +14,9 @@ Creates new channel supergroup chat from existing group chat and send correspond
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Group chat identifier|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Group chat identifier | Yes|
 
 
 ### Return type: [Chat](../types/Chat.md)

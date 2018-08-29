@@ -11,10 +11,10 @@ Pings the server and causes disconection if the same method is not called within
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|ping\_id|[long](../types/long.md) | Yes|Ping ID|
-|disconnect\_delay|[int](../types/int.md) | Yes|Disconection delay|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|ping\_id|[long](../types/long.md) | Ping ID | Yes|
+|disconnect\_delay|[int](../types/int.md) | Disconection delay | Yes|
 
 
 ### Return type: [Pong](../types/Pong.md)

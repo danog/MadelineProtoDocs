@@ -11,10 +11,10 @@ Get recent locations
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The chat where to search locations|
-|limit|[int](../types/int.md) | Yes|Number of results to return|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat where to search locations | Optional|
+|limit|[int](../types/int.md) | Number of results to return | Yes|
 
 
 ### Return type: [messages\_Messages](../types/messages_Messages.md)

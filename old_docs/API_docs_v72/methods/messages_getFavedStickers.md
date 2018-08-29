@@ -11,9 +11,9 @@ Get favorite stickers
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|hash|[int](../types/int.md) | Yes|0 or $result['hash']|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|[int](../types/int.md) | 0 or $result['hash'] | Yes|
 
 
 ### Return type: [messages\_FavedStickers](../types/messages_FavedStickers.md)

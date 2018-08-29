@@ -11,10 +11,10 @@ Edit the photo of a normal chat (not supergroup)
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The ID of the chat|
-|photo|[InputChatPhoto](../types/InputChatPhoto.md) | Optional|The new phto|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The ID of the chat | Optional|
+|photo|[InputChatPhoto](../types/InputChatPhoto.md) | The new phto | Optional|
 
 
 ### Return type: [Updates](../types/Updates.md)

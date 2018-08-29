@@ -11,10 +11,10 @@ Report for spam
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The peer to report|
-|reason|[ReportReason](../types/ReportReason.md) | Yes|Why are you reporting this peer|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The peer to report | Optional|
+|reason|[ReportReason](../types/ReportReason.md) | Why are you reporting this peer | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

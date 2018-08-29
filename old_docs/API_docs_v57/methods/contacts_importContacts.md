@@ -11,10 +11,10 @@ Add phone number as contact
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|contacts|Array of [InputContact](../types/InputContact.md) | Yes|The numbers to import|
-|replace|[Bool](../types/Bool.md) | Yes|Replace contacts?|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|contacts|Array of [InputContact](../types/InputContact.md) | The numbers to import | Yes|
+|replace|[Bool](../types/Bool.md) | Replace contacts? | Yes|
 
 
 ### Return type: [contacts\_ImportedContacts](../types/contacts_ImportedContacts.md)

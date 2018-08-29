@@ -11,15 +11,15 @@ Start account exporting session
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|contacts|[Bool](../types/Bool.md) | Optional|Export contacts?|
-|message\_users|[Bool](../types/Bool.md) | Optional|Export users?|
-|message\_chats|[Bool](../types/Bool.md) | Optional|Export chats?|
-|message\_megagroups|[Bool](../types/Bool.md) | Optional|Export supergroups?|
-|message\_channels|[Bool](../types/Bool.md) | Optional|Export channel messages?|
-|files|[Bool](../types/Bool.md) | Optional|Export files?|
-|file\_max\_size|[int](../types/int.md) | Optional|Export only files smaller than this size|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|contacts|[Bool](../types/Bool.md) | Export contacts? | Optional|
+|message\_users|[Bool](../types/Bool.md) | Export users? | Optional|
+|message\_chats|[Bool](../types/Bool.md) | Export chats? | Optional|
+|message\_megagroups|[Bool](../types/Bool.md) | Export supergroups? | Optional|
+|message\_channels|[Bool](../types/Bool.md) | Export channel messages? | Optional|
+|files|[Bool](../types/Bool.md) | Export files? | Optional|
+|file\_max\_size|[int](../types/int.md) | Export only files smaller than this size | Optional|
 
 
 ### Return type: [account\_Takeout](../types/account_Takeout.md)

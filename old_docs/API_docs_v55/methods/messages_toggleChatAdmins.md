@@ -11,10 +11,10 @@ Enable all users are admins in normal groups (not supergroups)
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|Group ID|
-|enabled|[Bool](../types/Bool.md) | Yes|Enable all users are admins|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Group ID | Optional|
+|enabled|[Bool](../types/Bool.md) | Enable all users are admins | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

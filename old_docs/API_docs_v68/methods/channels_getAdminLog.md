@@ -11,15 +11,15 @@ Get admin log of a channel/supergroup
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|The channel/supergroup|
-|q|[string](../types/string.md) | Yes|Search query|
-|events\_filter|[ChannelAdminLogEventsFilter](../types/ChannelAdminLogEventsFilter.md) | Optional|Event filter|
-|admins|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|Fetch only actions from these admins|
-|max\_id|[long](../types/long.md) | Yes|Maximum message ID to fetch|
-|min\_id|[long](../types/long.md) | Yes|Minimum message ID to fetch|
-|limit|[int](../types/int.md) | Yes|Number of results to fetch|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel/supergroup | Optional|
+|q|[string](../types/string.md) | Search query | Yes|
+|events\_filter|[ChannelAdminLogEventsFilter](../types/ChannelAdminLogEventsFilter.md) | Event filter | Optional|
+|admins|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Fetch only actions from these admins | Optional|
+|max\_id|[long](../types/long.md) | Maximum message ID to fetch | Yes|
+|min\_id|[long](../types/long.md) | Minimum message ID to fetch | Yes|
+|limit|[int](../types/int.md) | Number of results to fetch | Yes|
 
 
 ### Return type: [channels\_AdminLogResults](../types/channels_AdminLogResults.md)

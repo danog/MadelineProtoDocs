@@ -14,9 +14,9 @@ Deletes profile photo. If something changes, updateUser will be sent
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|profile\_photo\_id|[int64](../constructors/int64.md) | Yes|Identifier of profile photo to delete|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|profile\_photo\_id|[int64](../constructors/int64.md) | Identifier of profile photo to delete | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

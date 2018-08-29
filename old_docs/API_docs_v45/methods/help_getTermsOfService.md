@@ -11,9 +11,9 @@ Get terms of service
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|lang\_code|[string](../types/string.md) | Yes|Language code|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|lang\_code|[string](../types/string.md) | Language code | Yes|
 
 
 ### Return type: [help\_TermsOfService](../types/help_TermsOfService.md)

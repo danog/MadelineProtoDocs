@@ -14,13 +14,13 @@ Bots only. Sets result of a callback query
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|callback\_query\_id|[int64](../constructors/int64.md) | Yes|Identifier of the callback query|
-|text|[string](../types/string.md) | Yes|Text of the answer|
-|show\_alert|[Bool](../types/Bool.md) | Yes|If true, an alert should be shown to the user instead of a toast|
-|url|[string](../types/string.md) | Yes|Url to be opened|
-|cache\_time|[int](../types/int.md) | Yes|Allowed time to cache result of the query in seconds|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|callback\_query\_id|[int64](../constructors/int64.md) | Identifier of the callback query | Yes|
+|text|[string](../types/string.md) | Text of the answer | Yes|
+|show\_alert|[Bool](../types/Bool.md) | If true, an alert should be shown to the user instead of a toast | Yes|
+|url|[string](../types/string.md) | Url to be opened | Yes|
+|cache\_time|[int](../types/int.md) | Allowed time to cache result of the query in seconds | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

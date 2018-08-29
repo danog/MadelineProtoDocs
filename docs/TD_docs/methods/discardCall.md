@@ -14,12 +14,12 @@ Discards a call
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|call\_id|[int](../types/int.md) | Yes|Call identifier|
-|is\_disconnected|[Bool](../types/Bool.md) | Yes|True, if users was disconnected|
-|duration|[int](../types/int.md) | Yes|Call duration in seconds|
-|connection\_id|[int64](../constructors/int64.md) | Yes|Identifier of a connection used during the call|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|call\_id|[int](../types/int.md) | Call identifier | Yes|
+|is\_disconnected|[Bool](../types/Bool.md) | True, if users was disconnected | Yes|
+|duration|[int](../types/int.md) | Call duration in seconds | Yes|
+|connection\_id|[int64](../constructors/int64.md) | Identifier of a connection used during the call | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

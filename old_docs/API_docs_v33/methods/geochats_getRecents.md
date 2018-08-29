@@ -11,10 +11,10 @@ Get recent geochats
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|offset|[int](../types/int.md) | Yes|offset|
-|limit|[int](../types/int.md) | Yes|Number of results to return|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|offset|[int](../types/int.md) | offset | Yes|
+|limit|[int](../types/int.md) | Number of results to return | Yes|
 
 
 ### Return type: [geochats\_Messages](../types/geochats_Messages.md)

@@ -14,12 +14,12 @@ Validates order information provided by the user and returns available shipping 
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier of the Invoice message|
-|message\_id|[int53](../types/int53.md) | Yes|Message identifier|
-|order\_info|[orderInfo](../constructors/orderInfo.md) | Yes|Order information, provided by the user|
-|allow\_save|[Bool](../types/Bool.md) | Yes|True, if order information can be saved|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat identifier of the Invoice message | Yes|
+|message\_id|[int53](../types/int53.md) | Message identifier | Yes|
+|order\_info|[orderInfo](../constructors/orderInfo.md) | Order information, provided by the user | Yes|
+|allow\_save|[Bool](../types/Bool.md) | True, if order information can be saved | Yes|
 
 
 ### Return type: [ValidatedOrderInfo](../types/ValidatedOrderInfo.md)

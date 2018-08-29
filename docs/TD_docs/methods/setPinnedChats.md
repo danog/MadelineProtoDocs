@@ -14,9 +14,9 @@ Changes list or order of pinned chats
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_ids|Array of [int53](../types/int53.md) | Yes|New list of pinned chats|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_ids|Array of [int53](../types/int53.md) | New list of pinned chats | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

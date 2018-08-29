@@ -14,9 +14,9 @@ Adds user to black list
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User identifier|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|user\_id|[int](../types/int.md) | User identifier | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

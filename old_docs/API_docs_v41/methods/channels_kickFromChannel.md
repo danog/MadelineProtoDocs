@@ -11,11 +11,11 @@ Kick user from channel
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|The channel|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|The user to kick|
-|kicked|[Bool](../types/Bool.md) | Yes|Kick or unkick?|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The user to kick | Optional|
+|kicked|[Bool](../types/Bool.md) | Kick or unkick? | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

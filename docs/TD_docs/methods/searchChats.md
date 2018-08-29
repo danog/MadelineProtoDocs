@@ -14,10 +14,10 @@ Searches for specified query in the title and username of known chats, offline r
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|query|[string](../types/string.md) | Yes|Query to search for, if query is empty, returns up to 20 recently found chats|
-|limit|[int](../types/int.md) | Yes|Maximum number of chats to be returned|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|query|[string](../types/string.md) | Query to search for, if query is empty, returns up to 20 recently found chats | Yes|
+|limit|[int](../types/int.md) | Maximum number of chats to be returned | Yes|
 
 
 ### Return type: [Chats](../types/Chats.md)

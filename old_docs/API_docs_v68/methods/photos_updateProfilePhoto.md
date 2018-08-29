@@ -11,9 +11,9 @@ Update the profile photo (use photos->uploadProfilePhoto to upload the photo)
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|id|[MessageMedia, Update, Message or InputPhoto](../types/InputPhoto.md) | Optional|The photo to use|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|id|[MessageMedia, Update, Message or InputPhoto](../types/InputPhoto.md) | The photo to use | Optional|
 
 
 ### Return type: [UserProfilePhoto](../types/UserProfilePhoto.md)

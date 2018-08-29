@@ -11,13 +11,13 @@ Save a message draft
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|no\_webpage|[Bool](../types/Bool.md) | Optional|Disable webpage preview|
-|reply\_to\_msg\_id|[int](../types/int.md) | Optional|Reply to message by ID|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The chat|
-|message|[string](../types/string.md) | Yes|The message|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|The entities (for styled text)|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|no\_webpage|[Bool](../types/Bool.md) | Disable webpage preview | Optional|
+|reply\_to\_msg\_id|[int](../types/int.md) | Reply to message by ID | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat | Optional|
+|message|[string](../types/string.md) | The message | Yes|
+|entities|Array of [MessageEntity](../types/MessageEntity.md) | The entities (for styled text) | Optional|
 |parse\_mode| [string](../types/string.md) | Optional |Whether to parse HTML or Markdown markup in the message|
 
 

@@ -11,10 +11,10 @@ Change notification settings
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[InputNotifyPeer](../types/InputNotifyPeer.md) | Yes|The peers to which the notification settings should be applied|
-|settings|[InputPeerNotifySettings](../types/InputPeerNotifySettings.md) | Yes|Notification settings|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[InputNotifyPeer](../types/InputNotifyPeer.md) | The peers to which the notification settings should be applied | Yes|
+|settings|[InputPeerNotifySettings](../types/InputPeerNotifySettings.md) | Notification settings | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

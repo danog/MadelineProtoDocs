@@ -14,11 +14,11 @@ Creates new channel chat and send corresponding messageChannelChatCreate, return
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|title|[string](../types/string.md) | Yes|Title of new channel chat, 1-255 characters|
-|is\_supergroup|[Bool](../types/Bool.md) | Yes|True, if supergroup chat should be created|
-|description|[string](../types/string.md) | Yes|Channel description, 0-255 characters|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|title|[string](../types/string.md) | Title of new channel chat, 1-255 characters | Yes|
+|is\_supergroup|[Bool](../types/Bool.md) | True, if supergroup chat should be created | Yes|
+|description|[string](../types/string.md) | Channel description, 0-255 characters | Yes|
 
 
 ### Return type: [Chat](../types/Chat.md)

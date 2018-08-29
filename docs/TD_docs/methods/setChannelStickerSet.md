@@ -14,10 +14,10 @@ Changes sticker set of the channel. Needs appropriate rights in the channel
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel\_id|[int](../types/int.md) | Yes|Identifier of the channel|
-|sticker\_set\_id|[int64](../constructors/int64.md) | Yes|New value of channel sticker set identifier. Use 0 to remove channel sticker set|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel\_id|[int](../types/int.md) | Identifier of the channel | Yes|
+|sticker\_set\_id|[int64](../constructors/int64.md) | New value of channel sticker set identifier. Use 0 to remove channel sticker set | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

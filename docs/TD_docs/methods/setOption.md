@@ -14,10 +14,10 @@ Sets value of an option. See list of available options on https: core.telegram.o
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|name|[string](../types/string.md) | Yes|Name of the option|
-|value|[OptionValue](../types/OptionValue.md) | Optional|New value of the option|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|name|[string](../types/string.md) | Name of the option | Yes|
+|value|[OptionValue](../types/OptionValue.md) | New value of the option | Optional|
 
 
 ### Return type: [Ok](../types/Ok.md)

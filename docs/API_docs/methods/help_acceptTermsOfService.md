@@ -11,9 +11,9 @@ Accept telegram's TOS
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|id|[DataJSON](../types/DataJSON.md) | Yes|TOS|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|id|[DataJSON](../types/DataJSON.md) | TOS | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

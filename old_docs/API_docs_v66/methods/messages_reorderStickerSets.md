@@ -11,10 +11,10 @@ Reorder sticker sets
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|masks|[Bool](../types/Bool.md) | Optional|Reorder masks?|
-|order|Array of [long](../types/long.md) | Yes|The order|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|masks|[Bool](../types/Bool.md) | Reorder masks? | Optional|
+|order|Array of [long](../types/long.md) | The order | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

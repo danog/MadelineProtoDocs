@@ -11,10 +11,10 @@ Reorder pinned dialogs
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|force|[Bool](../types/Bool.md) | Optional|Force reordering|
-|order|Array of [Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Yes|New order|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|force|[Bool](../types/Bool.md) | Force reordering | Optional|
+|order|Array of [Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | New order | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

@@ -11,10 +11,10 @@ Upload a file without sending it to anyone
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|Nothing|
-|media|[MessageMedia, Update, Message or InputMedia](../types/InputMedia.md) | Optional|The media to upload|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Nothing | Optional|
+|media|[MessageMedia, Update, Message or InputMedia](../types/InputMedia.md) | The media to upload | Optional|
 
 
 ### Return type: [MessageMedia](../types/MessageMedia.md)

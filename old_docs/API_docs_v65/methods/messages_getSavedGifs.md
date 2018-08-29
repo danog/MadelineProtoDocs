@@ -11,9 +11,9 @@ Get saved gifs
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|hash|[int](../types/int.md) | Yes|0 or $result['hash']|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|[int](../types/int.md) | 0 or $result['hash'] | Yes|
 
 
 ### Return type: [messages\_SavedGifs](../types/messages_SavedGifs.md)

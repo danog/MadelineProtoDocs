@@ -11,12 +11,12 @@ Bots only: set the callback answer (after a button was clicked)
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|alert|[Bool](../types/Bool.md) | Optional|Is this an alert?|
-|query\_id|[long](../types/long.md) | Yes|The query ID|
-|message|[string](../types/string.md) | Optional|The message|
-|url|[string](../types/string.md) | Optional|The URL|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|alert|[Bool](../types/Bool.md) | Is this an alert? | Optional|
+|query\_id|[long](../types/long.md) | The query ID | Yes|
+|message|[string](../types/string.md) | The message | Optional|
+|url|[string](../types/string.md) | The URL | Optional|
 
 
 ### Return type: [Bool](../types/Bool.md)

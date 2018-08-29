@@ -11,13 +11,13 @@ Set the game score of an inline message
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|edit\_message|[Bool](../types/Bool.md) | Optional|Should the message with the game be edited?|
-|force|[Bool](../types/Bool.md) | Optional|Force setting the game score|
-|id|[InputBotInlineMessageID](../types/InputBotInlineMessageID.md) | Yes|The ID of the inline message|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|The user that set the score|
-|score|[int](../types/int.md) | Yes|The score|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|edit\_message|[Bool](../types/Bool.md) | Should the message with the game be edited? | Optional|
+|force|[Bool](../types/Bool.md) | Force setting the game score | Optional|
+|id|[InputBotInlineMessageID](../types/InputBotInlineMessageID.md) | The ID of the inline message | Yes|
+|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The user that set the score | Optional|
+|score|[int](../types/int.md) | The score | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

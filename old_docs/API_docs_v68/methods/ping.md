@@ -11,9 +11,9 @@ pings the server
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|ping\_id|[long](../types/long.md) | Yes|Ping ID|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|ping\_id|[long](../types/long.md) | Ping ID | Yes|
 
 
 ### Return type: [Pong](../types/Pong.md)

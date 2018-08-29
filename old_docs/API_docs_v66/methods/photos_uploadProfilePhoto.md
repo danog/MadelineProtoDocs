@@ -11,9 +11,9 @@ Upload profile photo
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|file|[File path or InputFile](../types/InputFile.md) | Yes|The photo|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|file|[File path or InputFile](../types/InputFile.md) | The photo | Yes|
 
 
 ### Return type: [photos\_Photo](../types/photos_Photo.md)

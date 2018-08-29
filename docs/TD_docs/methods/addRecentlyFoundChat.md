@@ -14,9 +14,9 @@ Adds chat to the list of recently found chats. The chat is added to the beginnin
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Identifier of the chat to add|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Identifier of the chat to add | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

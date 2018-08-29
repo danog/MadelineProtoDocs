@@ -11,10 +11,10 @@ Get the link of a message in a channel
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|The channel/supergroup|
-|id|[int](../types/int.md) | Yes|The ID of the message|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel/supergroup | Optional|
+|id|[int](../types/int.md) | The ID of the message | Yes|
 
 
 ### Return type: [ExportedMessageLink](../types/ExportedMessageLink.md)

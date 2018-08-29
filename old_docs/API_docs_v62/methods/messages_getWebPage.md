@@ -11,10 +11,10 @@ Get webpage preview
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|url|[string](../types/string.md) | Yes|URL|
-|hash|[int](../types/int.md) | Yes|0 or $result['hash']|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|url|[string](../types/string.md) | URL | Yes|
+|hash|[int](../types/int.md) | 0 or $result['hash'] | Yes|
 
 
 ### Return type: [WebPage](../types/WebPage.md)

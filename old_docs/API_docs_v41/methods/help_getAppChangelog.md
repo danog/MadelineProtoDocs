@@ -11,12 +11,12 @@ Get the changelog of this app
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|device\_model|[string](../types/string.md) | Yes|Device model|
-|system\_version|[string](../types/string.md) | Yes|System version|
-|app\_version|[string](../types/string.md) | Yes|App version|
-|lang\_code|[string](../types/string.md) | Yes|Language code|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|device\_model|[string](../types/string.md) | Device model | Yes|
+|system\_version|[string](../types/string.md) | System version | Yes|
+|app\_version|[string](../types/string.md) | App version | Yes|
+|lang\_code|[string](../types/string.md) | Language code | Yes|
 
 
 ### Return type: [help\_AppChangelog](../types/help_AppChangelog.md)

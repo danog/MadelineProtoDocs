@@ -11,10 +11,10 @@ Change typing status
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|Where to change typing status|
-|action|[SendMessageAction](../types/SendMessageAction.md) | Yes|Typing status|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Where to change typing status | Optional|
+|action|[SendMessageAction](../types/SendMessageAction.md) | Typing status | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

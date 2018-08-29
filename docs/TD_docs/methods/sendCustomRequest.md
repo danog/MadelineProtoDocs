@@ -14,10 +14,10 @@ Bots only. Sends custom request
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|method|[string](../types/string.md) | Yes|Method name|
-|parameters|[string](../types/string.md) | Yes|JSON-serialized method parameters|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|method|[string](../types/string.md) | Method name | Yes|
+|parameters|[string](../types/string.md) | JSON-serialized method parameters | Yes|
 
 
 ### Return type: [CustomRequestResult](../types/CustomRequestResult.md)

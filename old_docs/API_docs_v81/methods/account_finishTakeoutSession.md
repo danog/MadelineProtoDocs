@@ -11,9 +11,9 @@ Finish account exporting session
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|success|[Bool](../types/Bool.md) | Optional|Did the data export succeed?|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|success|[Bool](../types/Bool.md) | Did the data export succeed? | Optional|
 
 
 ### Return type: [Bool](../types/Bool.md)

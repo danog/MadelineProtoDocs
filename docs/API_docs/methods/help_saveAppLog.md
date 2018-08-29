@@ -11,9 +11,9 @@ Log data for developer of this app
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|events|Array of [InputAppEvent](../types/InputAppEvent.md) | Yes|Event list|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|events|Array of [InputAppEvent](../types/InputAppEvent.md) | Event list | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

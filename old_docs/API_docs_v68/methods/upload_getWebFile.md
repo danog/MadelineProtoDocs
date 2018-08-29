@@ -11,11 +11,11 @@ Download a file through telegram
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|location|[InputWebFileLocation](../types/InputWebFileLocation.md) | Yes|The file|
-|offset|[int](../types/int.md) | Yes|The offset in bytes|
-|limit|[int](../types/int.md) | Yes|The number of bytes to fetch|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|location|[InputWebFileLocation](../types/InputWebFileLocation.md) | The file | Yes|
+|offset|[int](../types/int.md) | The offset in bytes | Yes|
+|limit|[int](../types/int.md) | The number of bytes to fetch | Yes|
 
 
 ### Return type: [upload\_WebFile](../types/upload_WebFile.md)

@@ -11,13 +11,13 @@ Set the game score
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|edit\_message|[Bool](../types/Bool.md) | Optional|Should the message with the game be edited?|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The chat where the game was sent|
-|id|[int](../types/int.md) | Yes|The message ID|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|The user that set the score|
-|score|[int](../types/int.md) | Yes|The score|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|edit\_message|[Bool](../types/Bool.md) | Should the message with the game be edited? | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat where the game was sent | Optional|
+|id|[int](../types/int.md) | The message ID | Yes|
+|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The user that set the score | Optional|
+|score|[int](../types/int.md) | The score | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

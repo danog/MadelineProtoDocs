@@ -11,10 +11,10 @@ Search gifs
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|q|[string](../types/string.md) | Yes|The search query|
-|offset|[int](../types/int.md) | Yes|The offset |
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|q|[string](../types/string.md) | The search query | Yes|
+|offset|[int](../types/int.md) | The offset  | Yes|
 
 
 ### Return type: [messages\_FoundGifs](../types/messages_FoundGifs.md)

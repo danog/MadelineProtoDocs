@@ -11,10 +11,10 @@ Delete channel messages
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The channel/supergroup|
-|id|Array of [int](../types/int.md) | Yes|The IDs of messages to delete|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The channel/supergroup | Optional|
+|id|Array of [int](../types/int.md) | The IDs of messages to delete | Yes|
 
 
 ### Return type: [messages\_AffectedMessages](../types/messages_AffectedMessages.md)

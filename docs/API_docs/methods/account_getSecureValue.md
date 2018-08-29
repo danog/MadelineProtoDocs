@@ -11,9 +11,9 @@ Get secure value for telegram passport
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|types|Array of [SecureValueType](../types/SecureValueType.md) | Yes|Get telegram passport secure parameters|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|types|Array of [SecureValueType](../types/SecureValueType.md) | Get telegram passport secure parameters | Yes|
 
 
 ### Return type: [Vector\_of\_SecureValue](../types/SecureValue.md)

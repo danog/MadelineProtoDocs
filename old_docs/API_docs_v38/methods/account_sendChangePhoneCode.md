@@ -11,9 +11,9 @@ Change the phone number
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|phone\_number|[string](../types/string.md) | Yes|New phone number|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|phone\_number|[string](../types/string.md) | New phone number | Yes|
 
 
 ### Return type: [account\_SentChangePhoneCode](../types/account_SentChangePhoneCode.md)

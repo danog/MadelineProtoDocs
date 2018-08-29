@@ -14,9 +14,9 @@ Deletes a file from TDLib file cache
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|file\_id|[int](../types/int.md) | Yes|Identifier of the file to delete|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|file\_id|[int](../types/int.md) | Identifier of the file to delete | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

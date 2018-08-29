@@ -14,10 +14,10 @@ Searches for recently used hashtags by their prefix
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|prefix|[string](../types/string.md) | Yes|Hashtag prefix to search for|
-|limit|[int](../types/int.md) | Yes|Maximum number of hashtags to return|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|prefix|[string](../types/string.md) | Hashtag prefix to search for | Yes|
+|limit|[int](../types/int.md) | Maximum number of hashtags to return | Yes|
 
 
 ### Return type: [Hashtags](../types/Hashtags.md)

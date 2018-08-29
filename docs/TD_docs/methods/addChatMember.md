@@ -14,11 +14,11 @@ Adds new member to chat. Members can't be added to private or secret chats. Memb
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier|
-|user\_id|[int](../types/int.md) | Yes|Identifier of the user to add|
-|forward\_limit|[int](../types/int.md) | Yes|Number of previous messages from chat to forward to new member, ignored for channel chats. Can't be greater than 300|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat identifier | Yes|
+|user\_id|[int](../types/int.md) | Identifier of the user to add | Yes|
+|forward\_limit|[int](../types/int.md) | Number of previous messages from chat to forward to new member, ignored for channel chats. Can't be greater than 300 | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

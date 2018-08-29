@@ -14,9 +14,9 @@ Adds new contacts/edits existing contacts, contacts user identifiers are ignored
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|contacts|Array of [contact](../constructors/contact.md) | Yes|List of contacts to import/edit|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|contacts|Array of [contact](../constructors/contact.md) | List of contacts to import/edit | Yes|
 
 
 ### Return type: [ImportedContacts](../types/ImportedContacts.md)

@@ -14,10 +14,10 @@ Changes the order of installed sticker sets
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|is\_masks|[Bool](../types/Bool.md) | Yes|Pass true to change mask sticker sets order, pass false to change ordinary sticker sets order|
-|sticker\_set\_ids|Array of [int64](../constructors/int64.md) | Yes|Identifiers of installed sticker sets in the new right order|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|is\_masks|[Bool](../types/Bool.md) | Pass true to change mask sticker sets order, pass false to change ordinary sticker sets order | Yes|
+|sticker\_set\_ids|Array of [int64](../constructors/int64.md) | Identifiers of installed sticker sets in the new right order | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

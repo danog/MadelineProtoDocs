@@ -14,10 +14,10 @@ Deletes all messages in the chat. Can't be used for channel chats
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier|
-|remove\_from\_chat\_list|[Bool](../types/Bool.md) | Yes|Pass true, if chat should be removed from the chat list|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat identifier | Yes|
+|remove\_from\_chat\_list|[Bool](../types/Bool.md) | Pass true, if chat should be removed from the chat list | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

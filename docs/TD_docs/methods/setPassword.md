@@ -14,13 +14,13 @@ Changes user password. If new recovery email is specified, then error EMAIL_UNCO
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|old\_password|[string](../types/string.md) | Yes|Old user password|
-|new\_password|[string](../types/string.md) | Yes|New user password, may be empty to remove the password|
-|new\_hint|[string](../types/string.md) | Yes|New password hint, can be empty|
-|set\_recovery\_email|[Bool](../types/Bool.md) | Yes|Pass True, if recovery email should be changed|
-|new\_recovery\_email|[string](../types/string.md) | Yes|New recovery email, may be empty|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|old\_password|[string](../types/string.md) | Old user password | Yes|
+|new\_password|[string](../types/string.md) | New user password, may be empty to remove the password | Yes|
+|new\_hint|[string](../types/string.md) | New password hint, can be empty | Yes|
+|set\_recovery\_email|[Bool](../types/Bool.md) | Pass True, if recovery email should be changed | Yes|
+|new\_recovery\_email|[string](../types/string.md) | New recovery email, may be empty | Yes|
 
 
 ### Return type: [PasswordState](../types/PasswordState.md)

@@ -11,9 +11,9 @@ Update online status
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|offline|[Bool](../types/Bool.md) | Yes|offline to set the status to offline|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|offline|[Bool](../types/Bool.md) | offline to set the status to offline | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

@@ -11,12 +11,12 @@ Get important message history
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|Peer|
-|max\_id|[int](../types/int.md) | Yes|Maximum message ID to fetch|
-|min\_id|[int](../types/int.md) | Yes|Minumum message ID to fetch|
-|limit|[int](../types/int.md) | Yes|Number of results to fetch|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Peer | Optional|
+|max\_id|[int](../types/int.md) | Maximum message ID to fetch | Yes|
+|min\_id|[int](../types/int.md) | Minumum message ID to fetch | Yes|
+|limit|[int](../types/int.md) | Number of results to fetch | Yes|
 
 
 ### Return type: [messages\_Messages](../types/messages_Messages.md)

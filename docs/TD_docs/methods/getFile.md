@@ -14,9 +14,9 @@ Returns information about a file, offline request
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|file\_id|[int](../types/int.md) | Yes|Identifier of the file to get|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|file\_id|[int](../types/int.md) | Identifier of the file to get | Yes|
 
 
 ### Return type: [File](../types/File.md)

@@ -11,11 +11,11 @@ Send phone verification code
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|allow\_flashcall|[Bool](../types/Bool.md) | Optional|Allow phone calls?|
-|phone\_number|[string](../types/string.md) | Yes|The phone number|
-|current\_number|[Bool](../types/Bool.md) | Optional|Is this the current number?|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|allow\_flashcall|[Bool](../types/Bool.md) | Allow phone calls? | Optional|
+|phone\_number|[string](../types/string.md) | The phone number | Yes|
+|current\_number|[Bool](../types/Bool.md) | Is this the current number? | Optional|
 
 
 ### Return type: [auth\_SentCode](../types/auth_SentCode.md)

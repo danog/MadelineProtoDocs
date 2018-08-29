@@ -11,10 +11,10 @@ Check if this username is free and can be assigned to a channel/supergroup
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|The channel/supergroup|
-|username|[string](../types/string.md) | Yes|The new username for this channel/supergroup|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel/supergroup | Optional|
+|username|[string](../types/string.md) | The new username for this channel/supergroup | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

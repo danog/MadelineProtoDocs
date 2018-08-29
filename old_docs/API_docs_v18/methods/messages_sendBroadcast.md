@@ -11,11 +11,11 @@ Send a message to all users in the chat list
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|contacts|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Yes|The users to which send the message|
-|message|[string](../types/string.md) | Yes|The message|
-|media|[MessageMedia, Update, Message or InputMedia](../types/InputMedia.md) | Optional|The media|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|contacts|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The users to which send the message | Yes|
+|message|[string](../types/string.md) | The message | Yes|
+|media|[MessageMedia, Update, Message or InputMedia](../types/InputMedia.md) | The media | Optional|
 
 
 ### Return type: [messages\_StatedMessages](../types/messages_StatedMessages.md)

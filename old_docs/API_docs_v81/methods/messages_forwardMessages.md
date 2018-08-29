@@ -11,15 +11,15 @@ Forward messages
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|silent|[Bool](../types/Bool.md) | Optional|Disable notifications|
-|background|[Bool](../types/Bool.md) | Optional|Disable background notifications|
-|with\_my\_score|[Bool](../types/Bool.md) | Optional|If forwarding a game, forward your score, too|
-|grouped|[Bool](../types/Bool.md) | Optional|Set to true if forwarding albums|
-|from\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|From where to forward the messages|
-|id|Array of [int](../types/int.md) | Yes|The message IDs|
-|to\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|Where to forward the messages|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|silent|[Bool](../types/Bool.md) | Disable notifications | Optional|
+|background|[Bool](../types/Bool.md) | Disable background notifications | Optional|
+|with\_my\_score|[Bool](../types/Bool.md) | If forwarding a game, forward your score, too | Optional|
+|grouped|[Bool](../types/Bool.md) | Set to true if forwarding albums | Optional|
+|from\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | From where to forward the messages | Optional|
+|id|Array of [int](../types/int.md) | The message IDs | Yes|
+|to\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Where to forward the messages | Optional|
 
 
 ### Return type: [Updates](../types/Updates.md)

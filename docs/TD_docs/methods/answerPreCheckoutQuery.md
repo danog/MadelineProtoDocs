@@ -14,10 +14,10 @@ Bots only. Sets result of a pre checkout query
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|pre\_checkout\_query\_id|[int64](../constructors/int64.md) | Yes|Identifier of the pre-checkout query|
-|error\_message|[string](../types/string.md) | Yes|Error message, empty on success|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|pre\_checkout\_query\_id|[int64](../constructors/int64.md) | Identifier of the pre-checkout query | Yes|
+|error\_message|[string](../types/string.md) | Error message, empty on success | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

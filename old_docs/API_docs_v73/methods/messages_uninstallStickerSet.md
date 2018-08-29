@@ -11,9 +11,9 @@ Remove a sticker set
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|stickerset|[InputStickerSet](../types/InputStickerSet.md) | Optional|The sticker set to remove|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|stickerset|[InputStickerSet](../types/InputStickerSet.md) | The sticker set to remove | Optional|
 
 
 ### Return type: [Bool](../types/Bool.md)

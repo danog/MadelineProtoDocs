@@ -11,11 +11,11 @@ Send a file to a secret chat
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | Yes|The chat where to send the file|
-|message|[DecryptedMessage](../types/DecryptedMessage.md) | Yes|The message with the file|
-|file|[File path or InputEncryptedFile](../types/InputEncryptedFile.md) | Optional|The file (optional)|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | The chat where to send the file | Yes|
+|message|[DecryptedMessage](../types/DecryptedMessage.md) | The message with the file | Yes|
+|file|[File path or InputEncryptedFile](../types/InputEncryptedFile.md) | The file (optional) | Optional|
 
 
 ### Return type: [messages\_SentEncryptedMessage](../types/messages_SentEncryptedMessage.md)

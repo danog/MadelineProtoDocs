@@ -14,9 +14,9 @@ Returns Ok after specified amount of the time passed. Can be called before autho
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|seconds|[double](../types/double.md) | Yes|Number of seconds before that function returns|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|seconds|[double](../types/double.md) | Number of seconds before that function returns | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

@@ -11,10 +11,10 @@ Add a sticker to recent stickers
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|id|[MessageMedia, Update, Message or InputDocument](../types/InputDocument.md) | Optional|The sticker|
-|unsave|[Bool](../types/Bool.md) | Yes|Remove the sticker from recent stickers?|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|id|[MessageMedia, Update, Message or InputDocument](../types/InputDocument.md) | The sticker | Optional|
+|unsave|[Bool](../types/Bool.md) | Remove the sticker from recent stickers? | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

@@ -14,12 +14,12 @@ Edits text of text or game message. Non-bots can edit message in a limited perio
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat the message belongs to|
-|message\_id|[int53](../types/int53.md) | Yes|Identifier of the message|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Yes|Bots only. New message reply markup|
-|input\_message\_content|[InputMessageContent](../types/InputMessageContent.md) | Yes|New text content of the message. Should be of type InputMessageText|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat the message belongs to | Yes|
+|message\_id|[int53](../types/int53.md) | Identifier of the message | Yes|
+|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Bots only. New message reply markup | Yes|
+|input\_message\_content|[InputMessageContent](../types/InputMessageContent.md) | New text content of the message. Should be of type InputMessageText | Yes|
 
 
 ### Return type: [Message](../types/Message.md)

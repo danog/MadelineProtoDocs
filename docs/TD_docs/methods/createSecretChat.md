@@ -14,9 +14,9 @@ Returns existing chat corresponding to the known secret chat
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|secret\_chat\_id|[int](../types/int.md) | Yes|SecretChat identifier|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|secret\_chat\_id|[int](../types/int.md) | SecretChat identifier | Yes|
 
 
 ### Return type: [Chat](../types/Chat.md)

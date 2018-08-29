@@ -11,20 +11,20 @@ Search peers or messages
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|Where to search|
-|q|[string](../types/string.md) | Yes|What to search|
-|from\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|Show only messages from a certain user?|
-|filter|[MessagesFilter](../types/MessagesFilter.md) | Yes|Message filter|
-|min\_date|[int](../types/int.md) | Yes|Minumum date of results to fetch|
-|max\_date|[int](../types/int.md) | Yes|Maximum date of results to fetch|
-|offset\_id|[int](../types/int.md) | Yes|Message ID offset|
-|add\_offset|[int](../types/int.md) | Yes|Additional offset, can be 0|
-|limit|[int](../types/int.md) | Yes|Number of results to return|
-|max\_id|[int](../types/int.md) | Yes|Maximum message id to return|
-|min\_id|[int](../types/int.md) | Yes|Minumum message id to return|
-|hash|[int](../types/int.md) | Yes|$MadelineProto->gen_vector_hash(ids of previously fetched messages);|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Where to search | Optional|
+|q|[string](../types/string.md) | What to search | Yes|
+|from\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Show only messages from a certain user? | Optional|
+|filter|[MessagesFilter](../types/MessagesFilter.md) | Message filter | Yes|
+|min\_date|[int](../types/int.md) | Minumum date of results to fetch | Yes|
+|max\_date|[int](../types/int.md) | Maximum date of results to fetch | Yes|
+|offset\_id|[int](../types/int.md) | Message ID offset | Yes|
+|add\_offset|[int](../types/int.md) | Additional offset, can be 0 | Yes|
+|limit|[int](../types/int.md) | Number of results to return | Yes|
+|max\_id|[int](../types/int.md) | Maximum message id to return | Yes|
+|min\_id|[int](../types/int.md) | Minumum message id to return | Yes|
+|hash|[int](../types/int.md) | $MadelineProto->gen_vector_hash(ids of previously fetched messages); | Yes|
 
 
 ### Return type: [messages\_Messages](../types/messages_Messages.md)

@@ -14,10 +14,10 @@ Returns users blocked by the current user
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|offset|[int](../types/int.md) | Yes|Number of users to skip in result, must be non-negative|
-|limit|[int](../types/int.md) | Yes|Maximum number of users to return, can't be greater than 100|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|offset|[int](../types/int.md) | Number of users to skip in result, must be non-negative | Yes|
+|limit|[int](../types/int.md) | Maximum number of users to return, can't be greater than 100 | Yes|
 
 
 ### Return type: [Users](../types/Users.md)

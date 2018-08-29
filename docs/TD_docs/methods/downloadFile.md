@@ -14,10 +14,10 @@ Asynchronously downloads file from cloud. Updates updateFile will notify about d
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|file\_id|[int](../types/int.md) | Yes|Identifier of file to download|
-|priority|[int](../types/int.md) | Yes|Priority of download, 1-32. The higher priority, the earlier file will be downloaded. If priorities of two files are equal then the last one for which downloadFile is called will be downloaded first|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|file\_id|[int](../types/int.md) | Identifier of file to download | Yes|
+|priority|[int](../types/int.md) | Priority of download, 1-32. The higher priority, the earlier file will be downloaded. If priorities of two files are equal then the last one for which downloadFile is called will be downloaded first | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

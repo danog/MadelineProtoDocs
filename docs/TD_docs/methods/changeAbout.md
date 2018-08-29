@@ -14,9 +14,9 @@ Changes about information of logged in user
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|about|[string](../types/string.md) | Yes|New value of userFull.about, 0-70 characters without line feeds|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|about|[string](../types/string.md) | New value of userFull.about, 0-70 characters without line feeds | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

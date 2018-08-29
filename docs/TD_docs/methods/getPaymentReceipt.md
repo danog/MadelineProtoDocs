@@ -14,10 +14,10 @@ Returns information about successful payment
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier of the PaymentSuccessful message|
-|message\_id|[int53](../types/int53.md) | Yes|Message identifier|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat identifier of the PaymentSuccessful message | Yes|
+|message\_id|[int53](../types/int53.md) | Message identifier | Yes|
 
 
 ### Return type: [PaymentReceipt](../types/PaymentReceipt.md)

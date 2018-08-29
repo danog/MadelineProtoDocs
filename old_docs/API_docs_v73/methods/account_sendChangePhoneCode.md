@@ -11,11 +11,11 @@ Change the phone number
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|allow\_flashcall|[Bool](../types/Bool.md) | Optional|Can the code be sent using a flash call instead of an SMS?|
-|phone\_number|[string](../types/string.md) | Yes|New phone number|
-|current\_number|[Bool](../types/Bool.md) | Optional|Current phone number|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|allow\_flashcall|[Bool](../types/Bool.md) | Can the code be sent using a flash call instead of an SMS? | Optional|
+|phone\_number|[string](../types/string.md) | New phone number | Yes|
+|current\_number|[Bool](../types/Bool.md) | Current phone number | Optional|
 
 
 ### Return type: [auth\_SentCode](../types/auth_SentCode.md)

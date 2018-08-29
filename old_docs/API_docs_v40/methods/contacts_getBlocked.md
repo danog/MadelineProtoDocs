@@ -11,10 +11,10 @@ Get blocked users
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|offset|[int](../types/int.md) | Yes|Initially 0, then set to the number of blocked contacts previously fetched|
-|limit|[int](../types/int.md) | Yes|How many blocked contacts to fetch|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|offset|[int](../types/int.md) | Initially 0, then set to the number of blocked contacts previously fetched | Yes|
+|limit|[int](../types/int.md) | How many blocked contacts to fetch | Yes|
 
 
 ### Return type: [contacts\_Blocked](../types/contacts_Blocked.md)

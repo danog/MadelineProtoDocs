@@ -14,9 +14,9 @@ Removes a sticker from the list of favorite stickers
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|sticker|[InputFile](../types/InputFile.md) | Yes|Sticker file to delete from the list|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|sticker|[InputFile](../types/InputFile.md) | Sticker file to delete from the list | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

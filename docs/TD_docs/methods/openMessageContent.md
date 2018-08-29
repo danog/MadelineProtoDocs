@@ -14,10 +14,10 @@ Message content is opened, for example the user has opened a photo, a video, a d
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|chat\_id|[int53](../types/int53.md) | Yes|Chat identifier of the message|
-|message\_id|[int53](../types/int53.md) | Yes|Identifier of the message with opened content|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[int53](../types/int53.md) | Chat identifier of the message | Yes|
+|message\_id|[int53](../types/int53.md) | Identifier of the message with opened content | Yes|
 
 
 ### Return type: [Ok](../types/Ok.md)

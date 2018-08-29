@@ -11,9 +11,9 @@ Set account TTL
 
 ### Parameters:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|ttl|[AccountDaysTTL](../types/AccountDaysTTL.md) | Yes|Time To Live of account|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|ttl|[AccountDaysTTL](../types/AccountDaysTTL.md) | Time To Live of account | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)
