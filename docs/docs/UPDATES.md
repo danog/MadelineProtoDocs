@@ -15,6 +15,7 @@ Update handling can be done in different ways:
 * [Long polling (getupdates)](#long-polling)
 * [Callback](#callback)
   * [Callback multithreaded](#callback-multithreaded)
+* [Noop](#noop)
 
 IMPORTANT: Note that you should turn off update handling if you don't want to use it anymore because the default get_updates update handling stores updates in an array inside the MadelineProto object, without deleting old ones unless they are read using get_updates.  
 ```php
@@ -284,5 +285,23 @@ $MadelineProto->loop(-1);
 
 This way, each update will be managed in its own fork.  
 Note that multiprocessing is not the same as multithreading, and should be avoided unless lengthy operations are made in the update handler.
+
+
+## Noop
+
+```php
+$MadelineProto = new \danog\MadelineProto\API('bot.madeline');
+
+$MadelineProto->start();
+$MadelineProto->setNoop();
+$MadelineProto->loop();
+```
+When an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html) is received, nothing is done. This is useful if you need to populate the internal peer database with peers to avoid `This peer is not present in the internal peer database errors`, but don't need to handle updates.  
+
+The update handling loop is started by the `$MadelineProto->loop()` method, and it will automatically restart the script if execution time runs out.  
+
+To break out of the loop just call `die();`
+
+
 
 <a href="https://docs.madelineproto.xyz/docs/SETTINGS.html">Next section</a>
