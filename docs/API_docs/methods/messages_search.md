@@ -24,7 +24,7 @@ Search peers or messages
 |limit|[int](../types/int.md) | Number of results to return | Yes|
 |max\_id|[int](../types/int.md) | Maximum message id to return | Yes|
 |min\_id|[int](../types/int.md) | Minumum message id to return | Yes|
-|hash|Array of [int](../types/int.md) |  | Optional|
+|hash|Array of [int](../types/int.md) | The IDs of messages you already fetched | Optional|
 
 
 ### Return type: [messages\_Messages](../types/messages_Messages.md)

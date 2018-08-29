@@ -13,7 +13,7 @@ Get saved gifs
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [int](../types/int.md) |  | Optional|
+|hash|Array of [int](../types/int.md) |  the hash parameter of the previous result of this method | Optional|
 
 
 ### Return type: [messages\_SavedGifs](../types/messages_SavedGifs.md)

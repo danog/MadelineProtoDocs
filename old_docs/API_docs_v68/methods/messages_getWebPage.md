@@ -14,7 +14,7 @@ Get webpage preview
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |url|[string](../types/string.md) | URL | Yes|
-|hash|Array of [int](../types/int.md) |  | Optional|
+|hash|Array of [int](../types/int.md) |  the hash parameter of the previous result of this method | Optional|
 
 
 ### Return type: [WebPage](../types/WebPage.md)

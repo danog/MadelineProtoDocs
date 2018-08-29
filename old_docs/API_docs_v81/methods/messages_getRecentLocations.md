@@ -15,7 +15,7 @@ Get recent locations
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat where to search locations | Optional|
 |limit|[int](../types/int.md) | Number of results to return | Yes|
-|hash|Array of [int](../types/int.md) |  | Optional|
+|hash|Array of [int](../types/int.md) | IDs of locations you already fetched | Optional|
 
 
 ### Return type: [messages\_Messages](../types/messages_Messages.md)

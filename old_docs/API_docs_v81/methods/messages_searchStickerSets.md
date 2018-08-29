@@ -15,7 +15,7 @@ Find a sticker set
 |----------|---------------|-------------|----------|
 |exclude\_featured|[Bool](../types/Bool.md) | Exclude featured sticker sets from the search? | Optional|
 |q|[string](../types/string.md) | The search query | Yes|
-|hash|Array of [int](../types/int.md) |  | Optional|
+|hash|Array of [int](../types/int.md) | The IDs of stickersets you already fetched | Optional|
 
 
 ### Return type: [messages\_FoundStickerSets](../types/messages_FoundStickerSets.md)

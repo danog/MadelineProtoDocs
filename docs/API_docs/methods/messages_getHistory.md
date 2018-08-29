@@ -20,7 +20,7 @@ Get previous messages of a group
 |limit|[int](../types/int.md) | Number of messages to fetch | Yes|
 |max\_id|[int](../types/int.md) | Maximum message ID to fetch | Yes|
 |min\_id|[int](../types/int.md) | Minumum message ID to fetch | Yes|
-|hash|Array of [int](../types/int.md) |  | Optional|
+|hash|Array of [int](../types/int.md) | IDs of messages you already fetched | Optional|
 
 
 ### Return type: [messages\_Messages](../types/messages_Messages.md)

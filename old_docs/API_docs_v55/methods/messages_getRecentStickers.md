@@ -13,7 +13,7 @@ Get recent stickers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [int](../types/int.md) |  | Optional|
+|hash|Array of [int](../types/int.md) | IDs the hash parameter of the previous result of this method | Optional|
 
 
 ### Return type: [messages\_RecentStickers](../types/messages_RecentStickers.md)

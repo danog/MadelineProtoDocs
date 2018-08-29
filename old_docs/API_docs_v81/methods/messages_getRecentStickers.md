@@ -14,7 +14,7 @@ Get recent stickers
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |attached|[Bool](../types/Bool.md) | Get stickers attached to image? | Optional|
-|hash|Array of [int](../types/int.md) |  | Optional|
+|hash|Array of [int](../types/int.md) | IDs the hash parameter of the previous result of this method | Optional|
 
 
 ### Return type: [messages\_RecentStickers](../types/messages_RecentStickers.md)

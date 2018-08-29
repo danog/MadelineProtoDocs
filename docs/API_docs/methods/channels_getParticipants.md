@@ -17,7 +17,7 @@ Get channel/supergroup participants (you should use `$MadelineProto->get_pwr_cha
 |filter|[ChannelParticipantsFilter](../types/ChannelParticipantsFilter.md) | Member filter | Yes|
 |offset|[int](../types/int.md) | Offset | Yes|
 |limit|[int](../types/int.md) | Limit | Yes|
-|hash|Array of [int](../types/int.md) |  | Optional|
+|hash|Array of [int](../types/int.md) | IDs of previously fetched participants | Optional|
 
 
 ### Return type: [channels\_ChannelParticipants](../types/channels_ChannelParticipants.md)

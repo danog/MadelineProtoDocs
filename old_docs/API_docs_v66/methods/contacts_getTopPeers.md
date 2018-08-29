@@ -20,7 +20,7 @@ Get most used chats
 |channels|[Bool](../types/Bool.md) | Fetch channels and supergroups? | Optional|
 |offset|[int](../types/int.md) | Initially 0, then `$offset += $contacts_TopPeers['categories']['count'];` | Yes|
 |limit|[int](../types/int.md) | How many results to fetch | Yes|
-|hash|Array of [int](../types/int.md) |  | Optional|
+|hash|Array of [int](../types/int.md) | Peer IDs of previously cached peers | Optional|
 
 
 ### Return type: [contacts\_TopPeers](../types/contacts_TopPeers.md)

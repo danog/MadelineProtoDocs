@@ -13,7 +13,7 @@ Get featured stickers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [int](../types/int.md) |  | Optional|
+|hash|Array of [int](../types/int.md) |  the hash parameter of the previous result of this method | Optional|
 
 
 ### Return type: [messages\_FeaturedStickers](../types/messages_FeaturedStickers.md)

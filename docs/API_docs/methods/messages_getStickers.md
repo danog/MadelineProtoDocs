@@ -14,7 +14,7 @@ Get stickers
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |emoticon|[string](../types/string.md) | Search by emoji | Yes|
-|hash|Array of [int](../types/int.md) |  | Optional|
+|hash|Array of [int](../types/int.md) |  the hash parameter of the previous result of this method | Optional|
 
 
 ### Return type: [messages\_Stickers](../types/messages_Stickers.md)

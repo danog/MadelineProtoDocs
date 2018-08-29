@@ -13,7 +13,7 @@ Get all contacts
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [int](../types/int.md) |  | Optional|
+|hash|Array of [int](../types/int.md) | User IDs of previously cached contacts | Optional|
 
 
 ### Return type: [contacts\_Contacts](../types/contacts_Contacts.md)

@@ -1,6 +1,6 @@
 ---
 title: MTmessage
-description: MTmessage attributes, type and example
+description: MTProto message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: MTmessage  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+MTProto message
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|msg\_id|[long](../types/long.md) | Yes|
-|seqno|[int](../types/int.md) | Yes|
-|bytes|[int](../types/int.md) | Yes|
-|body|[Object](../types/Object.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|msg\_id|[long](../types/long.md) | Yes|Message ID|
+|seqno|[int](../types/int.md) | Yes|Seqno|
+|bytes|[int](../types/int.md) | Yes|Message body|
+|body|[Object](../types/Object.md) | Yes|Message body|
 
 
 
