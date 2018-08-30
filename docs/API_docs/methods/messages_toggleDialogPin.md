@@ -14,7 +14,7 @@ Pin or unpin dialog
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |pinned|[Bool](../types/Bool.md) | Pin or unpin the dialog? | Optional|
-|peer|[InputDialogPeer](../types/InputDialogPeer.md) | The dialog to pin | Yes|
+|peer|[Username, chat ID, Update, Message or InputDialogPeer](../types/InputDialogPeer.md) | The dialog to pin | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

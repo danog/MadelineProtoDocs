@@ -14,7 +14,7 @@ Reorder pinned dialogs
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |force|[Bool](../types/Bool.md) | Force reordering | Optional|
-|order|Array of [InputDialogPeer](../types/InputDialogPeer.md) | New order | Yes|
+|order|Array of [Username, chat ID, Update, Message or InputDialogPeer](../types/InputDialogPeer.md) | New order | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

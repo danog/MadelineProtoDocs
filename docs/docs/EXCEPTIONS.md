@@ -53,8 +53,7 @@ Revision: 63823fc3cc5070bd8a1ebe91e60e1fd583a2f37f
 TL Trace (YOU ABSOLUTELY MUST READ THE TEXT BELOW):
 
 PeerHandler.php(327):   get_info("dd",false)
-TL.php(339):            get_info("dd")
-['peer']
+TL.php(339):            get_info("dd")['peer']
 While serializing:      messages.sendMessage
 CallHandler.php(79):    serialize_method("messages.sendMessage",{"peer":"@dd","message":"hi"})
 APIFactory.php(142):    method_call("messages.sendMessage",{"peer":"@dd","message":"hi"},{"datacenter":4})

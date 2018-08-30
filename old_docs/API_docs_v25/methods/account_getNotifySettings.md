@@ -13,7 +13,7 @@ Get notification settings
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[InputNotifyPeer](../types/InputNotifyPeer.md) | Notification source  | Yes|
+|peer|[Username, chat ID, Update, Message or InputNotifyPeer](../types/InputNotifyPeer.md) | Notification source  | Yes|
 
 
 ### Return type: [PeerNotifySettings](../types/PeerNotifySettings.md)

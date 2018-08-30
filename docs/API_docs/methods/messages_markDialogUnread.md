@@ -14,7 +14,7 @@ Mark dialog as unread
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |unread|[Bool](../types/Bool.md) | Should it be marked or unmarked as read | Optional|
-|peer|[InputDialogPeer](../types/InputDialogPeer.md) | The dialog to mark as unread | Yes|
+|peer|[Username, chat ID, Update, Message or InputDialogPeer](../types/InputDialogPeer.md) | The dialog to mark as unread | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

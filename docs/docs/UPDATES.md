@@ -302,6 +302,4 @@ The update handling loop is started by the `$MadelineProto->loop()` method, and 
 
 To break out of the loop just call `die();`
 
-
-
 <a href="https://docs.madelineproto.xyz/docs/SETTINGS.html">Next section</a>

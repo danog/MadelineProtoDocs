@@ -13,7 +13,7 @@ Get dialog info of peers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peers|Array of [InputDialogPeer](../types/InputDialogPeer.md) | The peers | Yes|
+|peers|Array of [Username, chat ID, Update, Message or InputDialogPeer](../types/InputDialogPeer.md) | The peers | Yes|
 
 
 ### Return type: [messages\_PeerDialogs](../types/messages_PeerDialogs.md)

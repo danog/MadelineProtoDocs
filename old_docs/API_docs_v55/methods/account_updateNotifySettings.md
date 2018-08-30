@@ -13,7 +13,7 @@ Change notification settings
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[InputNotifyPeer](../types/InputNotifyPeer.md) | The peers to which the notification settings should be applied | Yes|
+|peer|[Username, chat ID, Update, Message or InputNotifyPeer](../types/InputNotifyPeer.md) | The peers to which the notification settings should be applied | Yes|
 |settings|[InputPeerNotifySettings](../types/InputPeerNotifySettings.md) | Notification settings | Yes|
 
 
