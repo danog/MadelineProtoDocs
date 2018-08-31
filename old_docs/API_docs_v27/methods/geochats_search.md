@@ -15,7 +15,7 @@ Search messages in geocha
 |----------|---------------|-------------|----------|
 |peer|[InputGeoChat](../types/InputGeoChat.md) | The geochat | Yes|
 |q|[string](../types/string.md) | The search query | Yes|
-|filter|[MessagesFilter](../types/MessagesFilter.md) | Search filter | Yes|
+|filter|[MessagesFilter](../types/MessagesFilter.md) | Search filter | Optional|
 |min\_date|[int](../types/int.md) | Minumum date | Yes|
 |max\_date|[int](../types/int.md) | Maximum date | Yes|
 |offset|[int](../types/int.md) | Offset | Yes|

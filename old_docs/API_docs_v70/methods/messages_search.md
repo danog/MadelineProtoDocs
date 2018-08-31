@@ -16,7 +16,7 @@ Search peers or messages
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Where to search | Optional|
 |q|[string](../types/string.md) | What to search | Yes|
 |from\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Show only messages from a certain user? | Optional|
-|filter|[MessagesFilter](../types/MessagesFilter.md) | Message filter | Yes|
+|filter|[MessagesFilter](../types/MessagesFilter.md) | Message filter | Optional|
 |min\_date|[int](../types/int.md) | Minumum date of results to fetch | Yes|
 |max\_date|[int](../types/int.md) | Maximum date of results to fetch | Yes|
 |offset|[int](../types/int.md) | Offset  | Yes|
