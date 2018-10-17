@@ -25,7 +25,7 @@ Update the 2FA password settings
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -56,7 +56,7 @@ new_settings - Json encoded account_PasswordInputSettings
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = account.updatePasswordSettings({current_password_hash='bytes', new_settings=account_PasswordInputSettings, })
 ```
 

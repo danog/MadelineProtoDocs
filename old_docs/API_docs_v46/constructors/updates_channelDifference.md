@@ -27,7 +27,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updates_channelDifference = ['_' => 'updates.channelDifference', 'final' => Bool, 'channel_pts' => int, 'timeout' => int, 'new_messages' => [Message, Message], 'other_updates' => [Update, Update], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
@@ -38,10 +38,9 @@ $updates_channelDifference = ['_' => 'updates.channelDifference', 'final' => Boo
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updates_channelDifference={_='updates.channelDifference', final=Bool, channel_pts=int, timeout=int, new_messages={Message}, other_updates={Update}, chats={Chat}, users={User}}
 
 ```

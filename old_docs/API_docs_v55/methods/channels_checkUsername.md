@@ -25,7 +25,7 @@ Check if this username is free and can be assigned to a channel/supergroup
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -56,7 +56,7 @@ username - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = channels.checkUsername({channel=InputChannel, username='string', })
 ```
 

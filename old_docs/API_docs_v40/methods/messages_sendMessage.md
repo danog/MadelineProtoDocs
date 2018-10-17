@@ -29,7 +29,7 @@ Send a message
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -66,7 +66,7 @@ parse_mode - string
 
 Or, if you're into Lua:
 
-```
+```lua
 Updates = messages.sendMessage({peer=InputPeer, reply_to_msg_id=int, message='string', reply_markup=ReplyMarkup, entities={MessageEntity}, parse_mode='string', })
 ```
 

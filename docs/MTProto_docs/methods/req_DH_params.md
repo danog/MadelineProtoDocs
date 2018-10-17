@@ -29,7 +29,7 @@ Requests Diffie-hellman parameters for key exchange
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -77,7 +77,7 @@ encrypted_data - Json encoded bytes
 
 Or, if you're into Lua:
 
-```
+```lua
 Server_DH_Params = req_DH_params({nonce=int128, server_nonce=int128, p='bytes', q='bytes', public_key_fingerprint=long, encrypted_data='bytes', })
 ```
 

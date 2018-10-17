@@ -25,7 +25,7 @@ Forward messages
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ id - Json encoded  array of int
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_StatedMessages = messages.forwardMessages({peer=InputPeer, id={int}, })
 ```
 

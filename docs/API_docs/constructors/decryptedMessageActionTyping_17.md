@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $decryptedMessageActionTyping_17 = ['_' => 'decryptedMessageActionTyping', 'action' => SendMessageAction];
 ```  
 
@@ -32,10 +32,9 @@ $decryptedMessageActionTyping_17 = ['_' => 'decryptedMessageActionTyping', 'acti
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 decryptedMessageActionTyping_17={_='decryptedMessageActionTyping', action=SendMessageAction}
 
 ```

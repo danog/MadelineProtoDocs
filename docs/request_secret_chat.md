@@ -18,7 +18,7 @@ Returns the secret chat ID
 ### Example:
 
 
-```
+```php
 $MadelineProto = new \danog\MadelineProto\API();
 $MadelineProto->start();
 

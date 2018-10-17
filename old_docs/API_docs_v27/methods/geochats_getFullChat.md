@@ -24,7 +24,7 @@ Get full info about a geochat
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -62,7 +62,7 @@ peer - Json encoded InputGeoChat
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_ChatFull = geochats.getFullChat({peer=InputGeoChat, })
 ```
 

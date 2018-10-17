@@ -27,7 +27,7 @@ Forward messages
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -71,7 +71,7 @@ to_peer - Json encoded InputPeer
 
 Or, if you're into Lua:
 
-```
+```lua
 Updates = messages.forwardMessages({broadcast=Bool, from_peer=InputPeer, id={int}, to_peer=InputPeer, })
 ```
 

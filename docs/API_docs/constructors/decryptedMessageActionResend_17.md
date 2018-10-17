@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $decryptedMessageActionResend_17 = ['_' => 'decryptedMessageActionResend', 'start_seq_no' => int, 'end_seq_no' => int];
 ```  
 
@@ -33,10 +33,9 @@ $decryptedMessageActionResend_17 = ['_' => 'decryptedMessageActionResend', 'star
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 decryptedMessageActionResend_17={_='decryptedMessageActionResend', start_seq_no=int, end_seq_no=int}
 
 ```

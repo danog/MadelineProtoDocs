@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputMessagesFilterPhotoVideoDocuments = ['_' => 'inputMessagesFilterPhotoVideoDocuments'];
 ```  
 
@@ -27,10 +27,9 @@ $inputMessagesFilterPhotoVideoDocuments = ['_' => 'inputMessagesFilterPhotoVideo
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputMessagesFilterPhotoVideoDocuments={_='inputMessagesFilterPhotoVideoDocuments'}
 
 ```

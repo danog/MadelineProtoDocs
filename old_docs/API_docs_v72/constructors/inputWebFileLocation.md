@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputWebFileLocation = ['_' => 'inputWebFileLocation', 'url' => 'string', 'access_hash' => long];
 ```  
 
@@ -33,10 +33,9 @@ $inputWebFileLocation = ['_' => 'inputWebFileLocation', 'url' => 'string', 'acce
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputWebFileLocation={_='inputWebFileLocation', url='string', access_hash=long}
 
 ```

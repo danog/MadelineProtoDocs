@@ -24,7 +24,7 @@ Disable all notifications for a certain period
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ period - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = account.updateDeviceLocked({period=int, })
 ```
 

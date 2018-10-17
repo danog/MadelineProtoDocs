@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $pagePart = ['_' => 'pagePart', 'blocks' => [PageBlock, PageBlock], 'photos' => [Photo, Photo], 'documents' => [Document, Document]];
 ```  
 
@@ -34,10 +34,9 @@ $pagePart = ['_' => 'pagePart', 'blocks' => [PageBlock, PageBlock], 'photos' => 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 pagePart={_='pagePart', blocks={PageBlock}, photos={Photo}, documents={Document}}
 
 ```

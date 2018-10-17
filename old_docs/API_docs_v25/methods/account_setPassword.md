@@ -27,7 +27,7 @@ Set 2FA password
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -71,7 +71,7 @@ hint - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = account.setPassword({current_password_hash='bytes', new_salt='bytes', new_password_hash='bytes', hint='string', })
 ```
 

@@ -25,7 +25,7 @@ Upload a file without sending it to anyone
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ media - Json encoded InputMedia
 
 Or, if you're into Lua:
 
-```
+```lua
 MessageMedia = messages.uploadMedia({peer=InputPeer, media=InputMedia, })
 ```
 

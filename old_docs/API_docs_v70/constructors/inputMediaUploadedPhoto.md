@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputMediaUploadedPhoto = ['_' => 'inputMediaUploadedPhoto', 'file' => InputFile, 'caption' => 'string', 'stickers' => [InputDocument, InputDocument], 'ttl_seconds' => int];
 ```  
 
@@ -35,10 +35,9 @@ $inputMediaUploadedPhoto = ['_' => 'inputMediaUploadedPhoto', 'file' => InputFil
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputMediaUploadedPhoto={_='inputMediaUploadedPhoto', file=InputFile, caption='string', stickers={InputDocument}, ttl_seconds=int}
 
 ```

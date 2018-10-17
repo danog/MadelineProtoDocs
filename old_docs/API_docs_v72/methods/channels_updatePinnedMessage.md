@@ -26,7 +26,7 @@ Set the pinned message of a channel/supergroup
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -68,7 +68,7 @@ id - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 Updates = channels.updatePinnedMessage({silent=Bool, channel=InputChannel, id=int, })
 ```
 

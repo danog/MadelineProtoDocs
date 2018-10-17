@@ -17,7 +17,7 @@ description: get_pwr_chat parameters, return type and example
 ### Example:
 
 
-```
+```php
 $MadelineProto = new \danog\MadelineProto\API();
 $MadelineProto->start();
 
@@ -26,7 +26,7 @@ $Chat = $MadelineProto->get_pwr_chat($id);
 
 Or, if you're into Lua:
 
-```
+```lua
 Chat = get_pwr_chat(id)
 ```
 

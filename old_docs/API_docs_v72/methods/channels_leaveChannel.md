@@ -24,7 +24,7 @@ Leave a channel/supergroup
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -62,7 +62,7 @@ channel - Json encoded InputChannel
 
 Or, if you're into Lua:
 
-```
+```lua
 Updates = channels.leaveChannel({channel=InputChannel, })
 ```
 

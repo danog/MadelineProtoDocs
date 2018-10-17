@@ -28,7 +28,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $dialogChannel = ['_' => 'dialogChannel', 'peer' => Peer, 'top_message' => int, 'top_important_message' => int, 'read_inbox_max_id' => int, 'unread_count' => int, 'unread_important_count' => int, 'notify_settings' => PeerNotifySettings, 'pts' => int];
 ```  
 
@@ -39,10 +39,9 @@ $dialogChannel = ['_' => 'dialogChannel', 'peer' => Peer, 'top_message' => int, 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 dialogChannel={_='dialogChannel', peer=Peer, top_message=int, top_important_message=int, read_inbox_max_id=int, unread_count=int, unread_important_count=int, notify_settings=PeerNotifySettings, pts=int}
 
 ```

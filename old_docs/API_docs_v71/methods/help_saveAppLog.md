@@ -24,7 +24,7 @@ Log data for developer of this app
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ events - Json encoded  array of InputAppEvent
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = help.saveAppLog({events={InputAppEvent}, })
 ```
 

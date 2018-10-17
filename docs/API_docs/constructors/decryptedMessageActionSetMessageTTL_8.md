@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $decryptedMessageActionSetMessageTTL_8 = ['_' => 'decryptedMessageActionSetMessageTTL', 'ttl_seconds' => int];
 ```  
 
@@ -32,10 +32,9 @@ $decryptedMessageActionSetMessageTTL_8 = ['_' => 'decryptedMessageActionSetMessa
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 decryptedMessageActionSetMessageTTL_8={_='decryptedMessageActionSetMessageTTL', ttl_seconds=int}
 
 ```

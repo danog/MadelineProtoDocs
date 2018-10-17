@@ -24,7 +24,7 @@ Check if this username is available
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ username - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = account.checkUsername({username='string', })
 ```
 

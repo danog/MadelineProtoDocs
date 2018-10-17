@@ -26,7 +26,7 @@ Get chats in common with a user
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -59,7 +59,7 @@ limit - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_Chats = messages.getCommonChats({user_id=InputUser, max_id=int, limit=int, })
 ```
 

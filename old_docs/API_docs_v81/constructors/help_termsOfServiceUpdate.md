@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $help_termsOfServiceUpdate = ['_' => 'help.termsOfServiceUpdate', 'expires' => int, 'terms_of_service' => help_TermsOfService];
 ```  
 
@@ -33,10 +33,9 @@ $help_termsOfServiceUpdate = ['_' => 'help.termsOfServiceUpdate', 'expires' => i
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 help_termsOfServiceUpdate={_='help.termsOfServiceUpdate', expires=int, terms_of_service=help_TermsOfService}
 
 ```

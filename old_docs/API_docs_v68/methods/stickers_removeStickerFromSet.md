@@ -24,7 +24,7 @@ Remove sticker from stickerset
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -62,7 +62,7 @@ sticker - Json encoded InputDocument
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = stickers.removeStickerFromSet({sticker=InputDocument, })
 ```
 

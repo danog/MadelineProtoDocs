@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $secureValueErrorFiles = ['_' => 'secureValueErrorFiles', 'type' => SecureValueType, 'file_hash' => ['bytes', 'bytes'], 'text' => 'string'];
 ```  
 
@@ -34,10 +34,9 @@ $secureValueErrorFiles = ['_' => 'secureValueErrorFiles', 'type' => SecureValueT
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 secureValueErrorFiles={_='secureValueErrorFiles', type=SecureValueType, file_hash={'bytes'}, text='string'}
 
 ```

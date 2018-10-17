@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $decryptedMessageActionAbortKey_20 = ['_' => 'decryptedMessageActionAbortKey', 'exchange_id' => long];
 ```  
 
@@ -32,10 +32,9 @@ $decryptedMessageActionAbortKey_20 = ['_' => 'decryptedMessageActionAbortKey', '
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 decryptedMessageActionAbortKey_20={_='decryptedMessageActionAbortKey', exchange_id=long}
 
 ```

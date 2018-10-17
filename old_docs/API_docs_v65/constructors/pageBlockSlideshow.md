@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $pageBlockSlideshow = ['_' => 'pageBlockSlideshow', 'items' => [PageBlock, PageBlock], 'caption' => RichText];
 ```  
 
@@ -33,10 +33,9 @@ $pageBlockSlideshow = ['_' => 'pageBlockSlideshow', 'items' => [PageBlock, PageB
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 pageBlockSlideshow={_='pageBlockSlideshow', items={PageBlock}, caption=RichText}
 
 ```

@@ -18,7 +18,7 @@ Privacy key for managing ability of invitation of the user to chats
 
 ### Example:
 
-```
+```php
 $privacyKeyChatInvite = ['_' => 'privacyKeyChatInvite'];
 ```  
 
@@ -29,10 +29,9 @@ $privacyKeyChatInvite = ['_' => 'privacyKeyChatInvite'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 privacyKeyChatInvite={_='privacyKeyChatInvite'}
 
 ```

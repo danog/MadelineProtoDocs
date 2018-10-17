@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $topPeerCategoryPhoneCalls = ['_' => 'topPeerCategoryPhoneCalls'];
 ```  
 
@@ -27,10 +27,9 @@ $topPeerCategoryPhoneCalls = ['_' => 'topPeerCategoryPhoneCalls'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 topPeerCategoryPhoneCalls={_='topPeerCategoryPhoneCalls'}
 
 ```

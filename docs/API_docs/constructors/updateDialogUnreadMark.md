@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateDialogUnreadMark = ['_' => 'updateDialogUnreadMark', 'unread' => Bool, 'peer' => DialogPeer];
 ```  
 
@@ -33,10 +33,9 @@ $updateDialogUnreadMark = ['_' => 'updateDialogUnreadMark', 'unread' => Bool, 'p
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateDialogUnreadMark={_='updateDialogUnreadMark', unread=Bool, peer=DialogPeer}
 
 ```

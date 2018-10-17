@@ -26,7 +26,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $message = ['_' => 'message', 'id' => int, 'from_id' => int, 'to_id' => Peer, 'date' => int, 'message' => 'string', 'media' => MessageMedia];
 ```  
 
@@ -37,10 +37,9 @@ $message = ['_' => 'message', 'id' => int, 'from_id' => int, 'to_id' => Peer, 'd
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 message={_='message', id=int, from_id=int, to_id=Peer, date=int, message='string', media=MessageMedia}
 
 ```

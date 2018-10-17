@@ -25,7 +25,7 @@ Edit the about text of a channel/supergroup
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ about - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = channels.editAbout({channel=InputChannel, about='string', })
 ```
 

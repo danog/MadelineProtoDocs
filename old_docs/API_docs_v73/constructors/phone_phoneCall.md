@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $phone_phoneCall = ['_' => 'phone.phoneCall', 'phone_call' => PhoneCall, 'users' => [User, User]];
 ```  
 
@@ -33,10 +33,9 @@ $phone_phoneCall = ['_' => 'phone.phoneCall', 'phone_call' => PhoneCall, 'users'
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 phone_phoneCall={_='phone.phoneCall', phone_call=PhoneCall, users={User}}
 
 ```

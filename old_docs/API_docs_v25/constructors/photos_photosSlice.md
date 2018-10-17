@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $photos_photosSlice = ['_' => 'photos.photosSlice', 'count' => int, 'photos' => [Photo, Photo], 'users' => [User, User]];
 ```  
 
@@ -34,10 +34,9 @@ $photos_photosSlice = ['_' => 'photos.photosSlice', 'count' => int, 'photos' => 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 photos_photosSlice={_='photos.photosSlice', count=int, photos={Photo}, users={User}}
 
 ```

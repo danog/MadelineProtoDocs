@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $topPeerCategoryCorrespondents = ['_' => 'topPeerCategoryCorrespondents'];
 ```  
 
@@ -27,10 +27,9 @@ $topPeerCategoryCorrespondents = ['_' => 'topPeerCategoryCorrespondents'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 topPeerCategoryCorrespondents={_='topPeerCategoryCorrespondents'}
 
 ```

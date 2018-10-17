@@ -18,7 +18,7 @@ User is offline, but was online last month
 
 ### Example:
 
-```
+```php
 $userStatusLastMonth = ['_' => 'userStatusLastMonth'];
 ```  
 
@@ -29,10 +29,9 @@ $userStatusLastMonth = ['_' => 'userStatusLastMonth'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 userStatusLastMonth={_='userStatusLastMonth'}
 
 ```

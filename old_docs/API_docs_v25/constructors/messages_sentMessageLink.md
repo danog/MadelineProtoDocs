@@ -26,7 +26,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messages_sentMessageLink = ['_' => 'messages.sentMessageLink', 'id' => int, 'date' => int, 'pts' => int, 'pts_count' => int, 'links' => [contacts_Link, contacts_Link], 'seq' => int];
 ```  
 
@@ -37,10 +37,9 @@ $messages_sentMessageLink = ['_' => 'messages.sentMessageLink', 'id' => int, 'da
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messages_sentMessageLink={_='messages.sentMessageLink', id=int, date=int, pts=int, pts_count=int, links={contacts_Link}, seq=int}
 
 ```

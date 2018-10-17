@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $keyboardButtonSwitchInline = ['_' => 'keyboardButtonSwitchInline', 'same_peer' => Bool, 'text' => 'string', 'query' => 'string'];
 ```  
 
@@ -34,10 +34,9 @@ $keyboardButtonSwitchInline = ['_' => 'keyboardButtonSwitchInline', 'same_peer' 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 keyboardButtonSwitchInline={_='keyboardButtonSwitchInline', same_peer=Bool, text='string', query='string'}
 
 ```

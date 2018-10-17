@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputStickeredMediaPhoto = ['_' => 'inputStickeredMediaPhoto', 'id' => InputPhoto];
 ```  
 
@@ -32,10 +32,9 @@ $inputStickeredMediaPhoto = ['_' => 'inputStickeredMediaPhoto', 'id' => InputPho
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputStickeredMediaPhoto={_='inputStickeredMediaPhoto', id=InputPhoto}
 
 ```

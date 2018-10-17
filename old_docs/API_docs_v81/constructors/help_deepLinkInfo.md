@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $help_deepLinkInfo = ['_' => 'help.deepLinkInfo', 'update_app' => Bool, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]];
 ```  
 
@@ -34,10 +34,9 @@ $help_deepLinkInfo = ['_' => 'help.deepLinkInfo', 'update_app' => Bool, 'message
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 help_deepLinkInfo={_='help.deepLinkInfo', update_app=Bool, message='string', entities={MessageEntity}}
 
 ```

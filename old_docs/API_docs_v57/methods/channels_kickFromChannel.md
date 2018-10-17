@@ -26,7 +26,7 @@ Kick user from channel
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -68,7 +68,7 @@ kicked - Json encoded Bool
 
 Or, if you're into Lua:
 
-```
+```lua
 Updates = channels.kickFromChannel({channel=InputChannel, user_id=InputUser, kicked=Bool, })
 ```
 

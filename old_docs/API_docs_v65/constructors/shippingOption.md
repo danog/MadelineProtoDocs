@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $shippingOption = ['_' => 'shippingOption', 'id' => 'string', 'title' => 'string', 'prices' => [LabeledPrice, LabeledPrice]];
 ```  
 
@@ -34,10 +34,9 @@ $shippingOption = ['_' => 'shippingOption', 'id' => 'string', 'title' => 'string
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 shippingOption={_='shippingOption', id='string', title='string', prices={LabeledPrice}}
 
 ```

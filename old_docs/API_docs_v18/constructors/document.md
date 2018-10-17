@@ -29,7 +29,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $document = ['_' => 'document', 'id' => long, 'access_hash' => long, 'user_id' => int, 'date' => int, 'file_name' => 'string', 'mime_type' => 'string', 'size' => int, 'thumb' => PhotoSize, 'dc_id' => int];
 ```  
 
@@ -40,10 +40,9 @@ $document = ['_' => 'document', 'id' => long, 'access_hash' => long, 'user_id' =
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 document={_='document', id=long, access_hash=long, user_id=int, date=int, file_name='string', mime_type='string', size=int, thumb=PhotoSize, dc_id=int}
 
 ```

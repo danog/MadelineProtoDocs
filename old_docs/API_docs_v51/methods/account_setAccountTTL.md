@@ -24,7 +24,7 @@ Set account TTL
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ ttl - Json encoded AccountDaysTTL
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = account.setAccountTTL({ttl=AccountDaysTTL, })
 ```
 

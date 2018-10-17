@@ -30,7 +30,7 @@ Send a media
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -80,7 +80,7 @@ reply_markup - Json encoded ReplyMarkup
 
 Or, if you're into Lua:
 
-```
+```lua
 Updates = messages.sendMedia({silent=Bool, background=Bool, clear_draft=Bool, peer=InputPeer, reply_to_msg_id=int, media=InputMedia, reply_markup=ReplyMarkup, })
 ```
 

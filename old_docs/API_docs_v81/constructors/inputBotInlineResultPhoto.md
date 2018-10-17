@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputBotInlineResultPhoto = ['_' => 'inputBotInlineResultPhoto', 'id' => 'string', 'type' => 'string', 'photo' => InputPhoto, 'send_message' => InputBotInlineMessage];
 ```  
 
@@ -35,10 +35,9 @@ $inputBotInlineResultPhoto = ['_' => 'inputBotInlineResultPhoto', 'id' => 'strin
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputBotInlineResultPhoto={_='inputBotInlineResultPhoto', id='string', type='string', photo=InputPhoto, send_message=InputBotInlineMessage}
 
 ```

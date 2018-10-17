@@ -25,7 +25,7 @@ Edit the title of a supergroup/channel
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ title - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 Updates = channels.editTitle({channel=InputChannel, title='string', })
 ```
 

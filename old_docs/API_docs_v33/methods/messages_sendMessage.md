@@ -27,7 +27,7 @@ Send a message
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -71,7 +71,7 @@ reply_markup - Json encoded ReplyMarkup
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_SentMessage = messages.sendMessage({peer=InputPeer, reply_to_msg_id=int, message='string', reply_markup=ReplyMarkup, })
 ```
 

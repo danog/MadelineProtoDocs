@@ -25,7 +25,7 @@ Send screenshot notification
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -56,7 +56,7 @@ reply_to_msg_id - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 Updates = messages.sendScreenshotNotification({peer=InputPeer, reply_to_msg_id=int, })
 ```
 

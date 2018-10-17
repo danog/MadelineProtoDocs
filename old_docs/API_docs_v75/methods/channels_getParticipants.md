@@ -28,7 +28,7 @@ Get channel/supergroup participants (you should use `$MadelineProto->get_pwr_cha
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -74,7 +74,7 @@ hash - Json encoded  array of int
 
 Or, if you're into Lua:
 
-```
+```lua
 channels_ChannelParticipants = channels.getParticipants({channel=InputChannel, filter=ChannelParticipantsFilter, offset=int, limit=int, hash={int}, })
 ```
 

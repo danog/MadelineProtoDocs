@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $documentAttributeAudio_46 = ['_' => 'documentAttributeAudio', 'duration' => int, 'title' => 'string', 'performer' => 'string'];
 ```  
 
@@ -34,10 +34,9 @@ $documentAttributeAudio_46 = ['_' => 'documentAttributeAudio', 'duration' => int
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 documentAttributeAudio_46={_='documentAttributeAudio', duration=int, title='string', performer='string'}
 
 ```

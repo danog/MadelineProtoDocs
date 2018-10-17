@@ -25,7 +25,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputSecureFileUploaded = ['_' => 'inputSecureFileUploaded', 'id' => long, 'parts' => int, 'md5_checksum' => 'string', 'file_hash' => 'bytes', 'secret' => 'bytes'];
 ```  
 
@@ -36,10 +36,9 @@ $inputSecureFileUploaded = ['_' => 'inputSecureFileUploaded', 'id' => long, 'par
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputSecureFileUploaded={_='inputSecureFileUploaded', id=long, parts=int, md5_checksum='string', file_hash='bytes', secret='bytes'}
 
 ```

@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $msgs_ack = ['_' => 'msgs_ack', 'msg_ids' => [long, long]];
 ```  
 
@@ -32,10 +32,9 @@ $msgs_ack = ['_' => 'msgs_ack', 'msg_ids' => [long, long]];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 msgs_ack={_='msgs_ack', msg_ids={long}}
 
 ```

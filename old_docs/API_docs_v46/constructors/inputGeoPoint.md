@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputGeoPoint = ['_' => 'inputGeoPoint', 'latitude' => double, 'longitude' => double];
 ```  
 
@@ -33,10 +33,9 @@ $inputGeoPoint = ['_' => 'inputGeoPoint', 'latitude' => double, 'longitude' => d
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputGeoPoint={_='inputGeoPoint', latitude=double, longitude=double}
 
 ```

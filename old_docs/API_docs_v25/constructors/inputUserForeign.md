@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputUserForeign = ['_' => 'inputUserForeign', 'user_id' => int, 'access_hash' => long];
 ```  
 
@@ -33,10 +33,9 @@ $inputUserForeign = ['_' => 'inputUserForeign', 'user_id' => int, 'access_hash' 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputUserForeign={_='inputUserForeign', user_id=int, access_hash=long}
 
 ```

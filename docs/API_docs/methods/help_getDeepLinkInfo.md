@@ -24,7 +24,7 @@ Get deep link info
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -62,7 +62,7 @@ path - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 help_DeepLinkInfo = help.getDeepLinkInfo({path='string', })
 ```
 

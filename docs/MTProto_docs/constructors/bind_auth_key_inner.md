@@ -25,7 +25,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $bind_auth_key_inner = ['_' => 'bind_auth_key_inner', 'nonce' => long, 'temp_auth_key_id' => long, 'perm_auth_key_id' => long, 'temp_session_id' => long, 'expires_at' => int];
 ```  
 
@@ -36,10 +36,9 @@ $bind_auth_key_inner = ['_' => 'bind_auth_key_inner', 'nonce' => long, 'temp_aut
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 bind_auth_key_inner={_='bind_auth_key_inner', nonce=long, temp_auth_key_id=long, perm_auth_key_id=long, temp_session_id=long, expires_at=int}
 
 ```

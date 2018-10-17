@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $secureValueTypePhone = ['_' => 'secureValueTypePhone'];
 ```  
 
@@ -27,10 +27,9 @@ $secureValueTypePhone = ['_' => 'secureValueTypePhone'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 secureValueTypePhone={_='secureValueTypePhone'}
 
 ```

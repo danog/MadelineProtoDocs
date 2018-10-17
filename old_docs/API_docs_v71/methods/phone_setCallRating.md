@@ -26,7 +26,7 @@ Set phone call rating
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -59,7 +59,7 @@ comment - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 Updates = phone.setCallRating({peer=InputPhoneCall, rating=int, comment='string', })
 ```
 

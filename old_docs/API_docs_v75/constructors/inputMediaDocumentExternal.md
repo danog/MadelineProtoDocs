@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputMediaDocumentExternal = ['_' => 'inputMediaDocumentExternal', 'url' => 'string', 'ttl_seconds' => int];
 ```  
 
@@ -33,10 +33,9 @@ $inputMediaDocumentExternal = ['_' => 'inputMediaDocumentExternal', 'url' => 'st
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputMediaDocumentExternal={_='inputMediaDocumentExternal', url='string', ttl_seconds=int}
 
 ```

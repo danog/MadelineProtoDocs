@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $gzip_packed = ['_' => 'gzip_packed', 'packed_data' => 'bytes'];
 ```  
 
@@ -32,10 +32,9 @@ $gzip_packed = ['_' => 'gzip_packed', 'packed_data' => 'bytes'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 gzip_packed={_='gzip_packed', packed_data='bytes'}
 
 ```

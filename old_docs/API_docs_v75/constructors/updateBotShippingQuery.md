@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateBotShippingQuery = ['_' => 'updateBotShippingQuery', 'query_id' => long, 'user_id' => int, 'payload' => 'bytes', 'shipping_address' => PostAddress];
 ```  
 
@@ -35,10 +35,9 @@ $updateBotShippingQuery = ['_' => 'updateBotShippingQuery', 'query_id' => long, 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateBotShippingQuery={_='updateBotShippingQuery', query_id=long, user_id=int, payload='bytes', shipping_address=PostAddress}
 
 ```

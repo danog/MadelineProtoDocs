@@ -25,7 +25,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $documentAttributeVideo = ['_' => 'documentAttributeVideo', 'round_message' => Bool, 'supports_streaming' => Bool, 'duration' => int, 'w' => int, 'h' => int];
 ```  
 
@@ -36,10 +36,9 @@ $documentAttributeVideo = ['_' => 'documentAttributeVideo', 'round_message' => B
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 documentAttributeVideo={_='documentAttributeVideo', round_message=Bool, supports_streaming=Bool, duration=int, w=int, h=int}
 
 ```

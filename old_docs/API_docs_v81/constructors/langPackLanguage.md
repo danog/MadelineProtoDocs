@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $langPackLanguage = ['_' => 'langPackLanguage', 'name' => 'string', 'native_name' => 'string', 'lang_code' => 'string'];
 ```  
 
@@ -34,10 +34,9 @@ $langPackLanguage = ['_' => 'langPackLanguage', 'name' => 'string', 'native_name
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 langPackLanguage={_='langPackLanguage', name='string', native_name='string', lang_code='string'}
 
 ```

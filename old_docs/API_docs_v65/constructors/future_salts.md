@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $future_salts = ['_' => 'future_salts', 'req_msg_id' => long, 'now' => int, 'salts' => [future_salt, future_salt]];
 ```  
 
@@ -34,10 +34,9 @@ $future_salts = ['_' => 'future_salts', 'req_msg_id' => long, 'now' => int, 'sal
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 future_salts={_='future_salts', req_msg_id=long, now=int, salts={future_salt}}
 
 ```

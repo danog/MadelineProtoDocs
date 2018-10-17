@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $dh_gen_ok = ['_' => 'dh_gen_ok', 'nonce' => int128, 'server_nonce' => int128, 'new_nonce_hash1' => int128];
 ```  
 
@@ -34,10 +34,9 @@ $dh_gen_ok = ['_' => 'dh_gen_ok', 'nonce' => int128, 'server_nonce' => int128, '
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 dh_gen_ok={_='dh_gen_ok', nonce=int128, server_nonce=int128, new_nonce_hash1=int128}
 
 ```

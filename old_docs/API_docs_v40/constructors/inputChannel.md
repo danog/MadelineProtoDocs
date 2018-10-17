@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputChannel = ['_' => 'inputChannel', 'channel_id' => int, 'access_hash' => long];
 ```  
 
@@ -33,10 +33,9 @@ $inputChannel = ['_' => 'inputChannel', 'channel_id' => int, 'access_hash' => lo
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputChannel={_='inputChannel', channel_id=int, access_hash=long}
 
 ```

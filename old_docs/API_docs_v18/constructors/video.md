@@ -32,7 +32,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $video = ['_' => 'video', 'id' => long, 'access_hash' => long, 'user_id' => int, 'date' => int, 'caption' => 'string', 'duration' => int, 'mime_type' => 'string', 'size' => int, 'thumb' => PhotoSize, 'dc_id' => int, 'w' => int, 'h' => int];
 ```  
 
@@ -43,10 +43,9 @@ $video = ['_' => 'video', 'id' => long, 'access_hash' => long, 'user_id' => int,
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 video={_='video', id=long, access_hash=long, user_id=int, date=int, caption='string', duration=int, mime_type='string', size=int, thumb=PhotoSize, dc_id=int, w=int, h=int}
 
 ```

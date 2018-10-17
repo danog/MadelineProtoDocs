@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messages_allStickers = ['_' => 'messages.allStickers', 'hash' => 'string', 'packs' => [StickerPack, StickerPack], 'documents' => [Document, Document]];
 ```  
 
@@ -34,10 +34,9 @@ $messages_allStickers = ['_' => 'messages.allStickers', 'hash' => 'string', 'pac
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messages_allStickers={_='messages.allStickers', hash='string', packs={StickerPack}, documents={Document}}
 
 ```

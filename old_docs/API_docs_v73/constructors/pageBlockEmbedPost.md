@@ -27,7 +27,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $pageBlockEmbedPost = ['_' => 'pageBlockEmbedPost', 'url' => 'string', 'webpage_id' => long, 'author_photo_id' => long, 'author' => 'string', 'date' => int, 'blocks' => [PageBlock, PageBlock], 'caption' => RichText];
 ```  
 
@@ -38,10 +38,9 @@ $pageBlockEmbedPost = ['_' => 'pageBlockEmbedPost', 'url' => 'string', 'webpage_
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 pageBlockEmbedPost={_='pageBlockEmbedPost', url='string', webpage_id=long, author_photo_id=long, author='string', date=int, blocks={PageBlock}, caption=RichText}
 
 ```

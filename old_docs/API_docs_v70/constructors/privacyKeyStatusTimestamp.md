@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $privacyKeyStatusTimestamp = ['_' => 'privacyKeyStatusTimestamp'];
 ```  
 
@@ -27,10 +27,9 @@ $privacyKeyStatusTimestamp = ['_' => 'privacyKeyStatusTimestamp'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 privacyKeyStatusTimestamp={_='privacyKeyStatusTimestamp'}
 
 ```

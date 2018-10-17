@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $langPackDifference = ['_' => 'langPackDifference', 'lang_code' => 'string', 'from_version' => int, 'version' => int, 'strings' => [LangPackString, LangPackString]];
 ```  
 
@@ -35,10 +35,9 @@ $langPackDifference = ['_' => 'langPackDifference', 'lang_code' => 'string', 'fr
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 langPackDifference={_='langPackDifference', lang_code='string', from_version=int, version=int, strings={LangPackString}}
 
 ```

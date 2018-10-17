@@ -17,7 +17,7 @@ description: complete_signup parameters, return type and example
 ### Example:
 
 
-```
+```php
 $MadelineProto = new \danog\MadelineProto\API();
 
 $MadelineProto->phone_login(readline('Enter your phone number: '));

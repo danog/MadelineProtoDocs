@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messageActionBotAllowed = ['_' => 'messageActionBotAllowed', 'domain' => 'string'];
 ```  
 
@@ -32,10 +32,9 @@ $messageActionBotAllowed = ['_' => 'messageActionBotAllowed', 'domain' => 'strin
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messageActionBotAllowed={_='messageActionBotAllowed', domain='string'}
 
 ```

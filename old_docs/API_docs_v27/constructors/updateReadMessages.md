@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateReadMessages = ['_' => 'updateReadMessages', 'messages' => [int, int], 'pts' => int, 'pts_count' => int];
 ```  
 
@@ -34,10 +34,9 @@ $updateReadMessages = ['_' => 'updateReadMessages', 'messages' => [int, int], 'p
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateReadMessages={_='updateReadMessages', messages={int}, pts=int, pts_count=int}
 
 ```

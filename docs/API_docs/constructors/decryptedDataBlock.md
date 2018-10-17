@@ -27,7 +27,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $decryptedDataBlock = ['_' => 'decryptedDataBlock', 'voice_call_id' => int128, 'in_seq_no' => int, 'out_seq_no' => int, 'recent_received_mask' => int, 'proto' => int, 'extra' => 'string', 'raw_data' => 'string'];
 ```  
 
@@ -38,10 +38,9 @@ $decryptedDataBlock = ['_' => 'decryptedDataBlock', 'voice_call_id' => int128, '
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 decryptedDataBlock={_='decryptedDataBlock', voice_call_id=int128, in_seq_no=int, out_seq_no=int, recent_received_mask=int, proto=int, extra='string', raw_data='string'}
 
 ```

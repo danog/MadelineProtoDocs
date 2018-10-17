@@ -27,7 +27,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $secureFile = ['_' => 'secureFile', 'id' => long, 'access_hash' => long, 'size' => int, 'dc_id' => int, 'date' => int, 'file_hash' => 'bytes', 'secret' => 'bytes'];
 ```  
 
@@ -38,10 +38,9 @@ $secureFile = ['_' => 'secureFile', 'id' => long, 'access_hash' => long, 'size' 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 secureFile={_='secureFile', id=long, access_hash=long, size=int, dc_id=int, date=int, file_hash='bytes', secret='bytes'}
 
 ```

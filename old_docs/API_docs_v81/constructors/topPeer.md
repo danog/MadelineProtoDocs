@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $topPeer = ['_' => 'topPeer', 'peer' => Peer, 'rating' => double];
 ```  
 
@@ -33,10 +33,9 @@ $topPeer = ['_' => 'topPeer', 'peer' => Peer, 'rating' => double];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 topPeer={_='topPeer', peer=Peer, rating=double}
 
 ```

@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $auth_authorization = ['_' => 'auth.authorization', 'user' => User];
 ```  
 
@@ -32,10 +32,9 @@ $auth_authorization = ['_' => 'auth.authorization', 'user' => User];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 auth_authorization={_='auth.authorization', user=User}
 
 ```

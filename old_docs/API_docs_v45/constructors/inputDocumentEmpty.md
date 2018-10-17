@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputDocumentEmpty = ['_' => 'inputDocumentEmpty'];
 ```  
 
@@ -27,10 +27,9 @@ $inputDocumentEmpty = ['_' => 'inputDocumentEmpty'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputDocumentEmpty={_='inputDocumentEmpty'}
 
 ```

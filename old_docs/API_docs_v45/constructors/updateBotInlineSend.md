@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateBotInlineSend = ['_' => 'updateBotInlineSend', 'user_id' => int, 'query' => 'string', 'id' => 'string'];
 ```  
 
@@ -34,10 +34,9 @@ $updateBotInlineSend = ['_' => 'updateBotInlineSend', 'user_id' => int, 'query' 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateBotInlineSend={_='updateBotInlineSend', user_id=int, query='string', id='string'}
 
 ```

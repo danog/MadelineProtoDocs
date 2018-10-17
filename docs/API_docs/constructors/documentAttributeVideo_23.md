@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $documentAttributeVideo_23 = ['_' => 'documentAttributeVideo', 'duration' => int, 'w' => int, 'h' => int];
 ```  
 
@@ -34,10 +34,9 @@ $documentAttributeVideo_23 = ['_' => 'documentAttributeVideo', 'duration' => int
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 documentAttributeVideo_23={_='documentAttributeVideo', duration=int, w=int, h=int}
 
 ```

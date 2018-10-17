@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputFileBig = ['_' => 'inputFileBig', 'id' => long, 'parts' => int, 'name' => 'string'];
 ```  
 
@@ -34,10 +34,9 @@ $inputFileBig = ['_' => 'inputFileBig', 'id' => long, 'parts' => int, 'name' => 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputFileBig={_='inputFileBig', id=long, parts=int, name='string'}
 
 ```

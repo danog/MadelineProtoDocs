@@ -30,7 +30,7 @@ Start account exporting session
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -80,7 +80,7 @@ file_max_size - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 account_Takeout = account.initTakeoutSession({contacts=Bool, message_users=Bool, message_chats=Bool, message_megagroups=Bool, message_channels=Bool, files=Bool, file_max_size=int, })
 ```
 

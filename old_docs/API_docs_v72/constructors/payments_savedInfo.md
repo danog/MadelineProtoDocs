@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $payments_savedInfo = ['_' => 'payments.savedInfo', 'has_saved_credentials' => Bool, 'saved_info' => PaymentRequestedInfo];
 ```  
 
@@ -33,10 +33,9 @@ $payments_savedInfo = ['_' => 'payments.savedInfo', 'has_saved_credentials' => B
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 payments_savedInfo={_='payments.savedInfo', has_saved_credentials=Bool, saved_info=PaymentRequestedInfo}
 
 ```

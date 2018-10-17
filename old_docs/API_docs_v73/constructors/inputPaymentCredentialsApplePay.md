@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputPaymentCredentialsApplePay = ['_' => 'inputPaymentCredentialsApplePay', 'payment_data' => DataJSON];
 ```  
 
@@ -32,10 +32,9 @@ $inputPaymentCredentialsApplePay = ['_' => 'inputPaymentCredentialsApplePay', 'p
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputPaymentCredentialsApplePay={_='inputPaymentCredentialsApplePay', payment_data=DataJSON}
 
 ```

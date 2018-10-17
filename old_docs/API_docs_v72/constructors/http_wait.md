@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $http_wait = ['_' => 'http_wait', 'max_delay' => int, 'wait_after' => int, 'max_wait' => int];
 ```  
 
@@ -34,10 +34,9 @@ $http_wait = ['_' => 'http_wait', 'max_delay' => int, 'wait_after' => int, 'max_
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 http_wait={_='http_wait', max_delay=int, wait_after=int, max_wait=int}
 
 ```

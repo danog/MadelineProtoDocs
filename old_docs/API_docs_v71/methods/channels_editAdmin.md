@@ -26,7 +26,7 @@ Edit admin permissions of a user in a channel/supergroup
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -68,7 +68,7 @@ admin_rights - Json encoded ChannelAdminRights
 
 Or, if you're into Lua:
 
-```
+```lua
 Updates = channels.editAdmin({channel=InputChannel, user_id=InputUser, admin_rights=ChannelAdminRights, })
 ```
 

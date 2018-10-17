@@ -37,7 +37,7 @@ require_once 'madeline.php';
 ## Composer from scratch
 
 composer.json:
-```json
+```
 {
     "name": "yourname/yourproject",
     "description": "Project description",
@@ -82,7 +82,7 @@ require_once 'vendor/autoload.php';
 
 Once you have all the requirements installed properly (on dev as well as production), add this to the ```composer.json``` file:
 
-```json
+```
 "repositories": [
     {
         "type": "git",
@@ -93,13 +93,13 @@ Once you have all the requirements installed properly (on dev as well as product
 
 Make sure you also have these set in the composer.json:
 
-```json
+```
 "minimum-stability": "dev",
 ```
 
 Then you can require the package by addding the following line to the require section:
 
-```json
+```
 "danog/madelineproto":"dev-master"
 ```
 

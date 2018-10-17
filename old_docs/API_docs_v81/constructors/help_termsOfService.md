@@ -25,7 +25,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $help_termsOfService = ['_' => 'help.termsOfService', 'popup' => Bool, 'id' => DataJSON, 'text' => 'string', 'entities' => [MessageEntity, MessageEntity], 'min_age_confirm' => int];
 ```  
 
@@ -36,10 +36,9 @@ $help_termsOfService = ['_' => 'help.termsOfService', 'popup' => Bool, 'id' => D
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 help_termsOfService={_='help.termsOfService', popup=Bool, id=DataJSON, text='string', entities={MessageEntity}, min_age_confirm=int}
 
 ```

@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messageActionChatEditPhoto = ['_' => 'messageActionChatEditPhoto', 'photo' => Photo];
 ```  
 
@@ -32,10 +32,9 @@ $messageActionChatEditPhoto = ['_' => 'messageActionChatEditPhoto', 'photo' => P
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messageActionChatEditPhoto={_='messageActionChatEditPhoto', photo=Photo}
 
 ```

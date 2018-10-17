@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $videoEmpty = ['_' => 'videoEmpty', 'id' => long];
 ```  
 
@@ -32,10 +32,9 @@ $videoEmpty = ['_' => 'videoEmpty', 'id' => long];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 videoEmpty={_='videoEmpty', id=long}
 
 ```

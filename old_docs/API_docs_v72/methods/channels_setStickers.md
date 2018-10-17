@@ -25,7 +25,7 @@ Set the supergroup/channel stickerpack
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ stickerset - Json encoded InputStickerSet
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = channels.setStickers({channel=InputChannel, stickerset=InputStickerSet, })
 ```
 

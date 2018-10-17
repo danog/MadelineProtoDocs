@@ -26,7 +26,7 @@ Get document by SHA256 hash
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -68,7 +68,7 @@ mime_type - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 Document = messages.getDocumentByHash({sha256='bytes', size=int, mime_type='string', })
 ```
 

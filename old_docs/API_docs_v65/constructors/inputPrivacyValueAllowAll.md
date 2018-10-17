@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputPrivacyValueAllowAll = ['_' => 'inputPrivacyValueAllowAll'];
 ```  
 
@@ -27,10 +27,9 @@ $inputPrivacyValueAllowAll = ['_' => 'inputPrivacyValueAllowAll'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputPrivacyValueAllowAll={_='inputPrivacyValueAllowAll'}
 
 ```

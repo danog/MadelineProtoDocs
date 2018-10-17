@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $paymentCharge = ['_' => 'paymentCharge', 'id' => 'string', 'provider_charge_id' => 'string'];
 ```  
 
@@ -33,10 +33,9 @@ $paymentCharge = ['_' => 'paymentCharge', 'id' => 'string', 'provider_charge_id'
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 paymentCharge={_='paymentCharge', id='string', provider_charge_id='string'}
 
 ```

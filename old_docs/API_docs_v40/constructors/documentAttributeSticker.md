@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $documentAttributeSticker = ['_' => 'documentAttributeSticker', 'alt' => 'string', 'stickerset' => InputStickerSet];
 ```  
 
@@ -33,10 +33,9 @@ $documentAttributeSticker = ['_' => 'documentAttributeSticker', 'alt' => 'string
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 documentAttributeSticker={_='documentAttributeSticker', alt='string', stickerset=InputStickerSet}
 
 ```

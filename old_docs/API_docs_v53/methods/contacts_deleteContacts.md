@@ -24,7 +24,7 @@ Delete multiple contacts
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ id - Json encoded  array of InputUser
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = contacts.deleteContacts({id={InputUser}, })
 ```
 

@@ -16,7 +16,7 @@ description: complete_2FA_login parameters, return type and example
 ### Example:
 
 
-```
+```php
 $MadelineProto = new \danog\MadelineProto\API();
 
 $MadelineProto->phone_login(readline('Enter your phone number: '));

@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $secureCredentialsEncrypted = ['_' => 'secureCredentialsEncrypted', 'data' => 'bytes', 'hash' => 'bytes', 'secret' => 'bytes'];
 ```  
 
@@ -34,10 +34,9 @@ $secureCredentialsEncrypted = ['_' => 'secureCredentialsEncrypted', 'data' => 'b
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 secureCredentialsEncrypted={_='secureCredentialsEncrypted', data='bytes', hash='bytes', secret='bytes'}
 
 ```

@@ -28,7 +28,7 @@ Save developer info for telegram contest
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -74,7 +74,7 @@ city - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = contest.saveDeveloperInfo({vk_id=int, name='string', phone_number='string', age=int, city='string', })
 ```
 

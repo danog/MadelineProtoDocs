@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $recentMeUrlChat = ['_' => 'recentMeUrlChat', 'url' => 'string', 'chat_id' => int];
 ```  
 
@@ -33,10 +33,9 @@ $recentMeUrlChat = ['_' => 'recentMeUrlChat', 'url' => 'string', 'chat_id' => in
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 recentMeUrlChat={_='recentMeUrlChat', url='string', chat_id=int}
 
 ```

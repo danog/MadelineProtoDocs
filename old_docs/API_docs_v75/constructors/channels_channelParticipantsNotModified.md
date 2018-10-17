@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $channels_channelParticipantsNotModified = ['_' => 'channels.channelParticipantsNotModified'];
 ```  
 
@@ -27,10 +27,9 @@ $channels_channelParticipantsNotModified = ['_' => 'channels.channelParticipants
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 channels_channelParticipantsNotModified={_='channels.channelParticipantsNotModified'}
 
 ```

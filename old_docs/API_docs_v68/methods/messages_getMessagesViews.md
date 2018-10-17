@@ -26,7 +26,7 @@ Get and increase message views
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -59,7 +59,7 @@ increment - Json encoded Bool
 
 Or, if you're into Lua:
 
-```
+```lua
 Vector_of_int = messages.getMessagesViews({peer=InputPeer, id={int}, increment=Bool, })
 ```
 

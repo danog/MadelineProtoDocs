@@ -25,7 +25,7 @@ Add users to channel/supergroup
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -56,7 +56,7 @@ users - Json encoded  array of InputUser
 
 Or, if you're into Lua:
 
-```
+```lua
 Updates = channels.inviteToChannel({channel=InputChannel, users={InputUser}, })
 ```
 

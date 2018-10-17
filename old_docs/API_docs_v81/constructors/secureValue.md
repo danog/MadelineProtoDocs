@@ -28,7 +28,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $secureValue = ['_' => 'secureValue', 'type' => SecureValueType, 'data' => SecureData, 'front_side' => SecureFile, 'reverse_side' => SecureFile, 'selfie' => SecureFile, 'files' => [SecureFile, SecureFile], 'plain_data' => SecurePlainData, 'hash' => 'bytes'];
 ```  
 
@@ -39,10 +39,9 @@ $secureValue = ['_' => 'secureValue', 'type' => SecureValueType, 'data' => Secur
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 secureValue={_='secureValue', type=SecureValueType, data=SecureData, front_side=SecureFile, reverse_side=SecureFile, selfie=SecureFile, files={SecureFile}, plain_data=SecurePlainData, hash='bytes'}
 
 ```

@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $photoSizeEmpty = ['_' => 'photoSizeEmpty', 'type' => 'string'];
 ```  
 
@@ -32,10 +32,9 @@ $photoSizeEmpty = ['_' => 'photoSizeEmpty', 'type' => 'string'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 photoSizeEmpty={_='photoSizeEmpty', type='string'}
 
 ```

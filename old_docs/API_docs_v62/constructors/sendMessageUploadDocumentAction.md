@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $sendMessageUploadDocumentAction = ['_' => 'sendMessageUploadDocumentAction', 'progress' => int];
 ```  
 
@@ -32,10 +32,9 @@ $sendMessageUploadDocumentAction = ['_' => 'sendMessageUploadDocumentAction', 'p
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 sendMessageUploadDocumentAction={_='sendMessageUploadDocumentAction', progress=int}
 
 ```

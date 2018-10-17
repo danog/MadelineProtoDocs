@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $decryptedMessageLayer_17 = ['_' => 'decryptedMessageLayer', 'layer' => int, 'in_seq_no' => int, 'out_seq_no' => int, 'message' => DecryptedMessage];
 ```  
 
@@ -35,10 +35,9 @@ $decryptedMessageLayer_17 = ['_' => 'decryptedMessageLayer', 'layer' => int, 'in
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 decryptedMessageLayer_17={_='decryptedMessageLayer', layer=int, in_seq_no=int, out_seq_no=int, message=DecryptedMessage}
 
 ```

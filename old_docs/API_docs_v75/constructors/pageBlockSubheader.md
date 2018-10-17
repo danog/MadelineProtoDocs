@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $pageBlockSubheader = ['_' => 'pageBlockSubheader', 'text' => RichText];
 ```  
 
@@ -32,10 +32,9 @@ $pageBlockSubheader = ['_' => 'pageBlockSubheader', 'text' => RichText];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 pageBlockSubheader={_='pageBlockSubheader', text=RichText}
 
 ```

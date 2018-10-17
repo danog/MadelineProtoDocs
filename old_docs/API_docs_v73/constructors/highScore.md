@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $highScore = ['_' => 'highScore', 'pos' => int, 'user_id' => int, 'score' => int];
 ```  
 
@@ -34,10 +34,9 @@ $highScore = ['_' => 'highScore', 'pos' => int, 'user_id' => int, 'score' => int
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 highScore={_='highScore', pos=int, user_id=int, score=int}
 
 ```

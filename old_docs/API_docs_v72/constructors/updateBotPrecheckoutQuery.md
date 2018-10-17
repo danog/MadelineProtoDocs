@@ -27,7 +27,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateBotPrecheckoutQuery = ['_' => 'updateBotPrecheckoutQuery', 'query_id' => long, 'user_id' => int, 'payload' => 'bytes', 'info' => PaymentRequestedInfo, 'shipping_option_id' => 'string', 'currency' => 'string', 'total_amount' => long];
 ```  
 
@@ -38,10 +38,9 @@ $updateBotPrecheckoutQuery = ['_' => 'updateBotPrecheckoutQuery', 'query_id' => 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateBotPrecheckoutQuery={_='updateBotPrecheckoutQuery', query_id=long, user_id=int, payload='bytes', info=PaymentRequestedInfo, shipping_option_id='string', currency='string', total_amount=long}
 
 ```

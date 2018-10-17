@@ -24,7 +24,7 @@ Get dialog info of peers
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ peers - Json encoded  array of InputPeer
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_PeerDialogs = messages.getPeerDialogs({peers={InputPeer}, })
 ```
 

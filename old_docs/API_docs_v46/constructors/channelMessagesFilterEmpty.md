@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $channelMessagesFilterEmpty = ['_' => 'channelMessagesFilterEmpty'];
 ```  
 
@@ -27,10 +27,9 @@ $channelMessagesFilterEmpty = ['_' => 'channelMessagesFilterEmpty'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 channelMessagesFilterEmpty={_='channelMessagesFilterEmpty'}
 
 ```

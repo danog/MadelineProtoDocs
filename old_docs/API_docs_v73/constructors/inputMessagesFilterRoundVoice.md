@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputMessagesFilterRoundVoice = ['_' => 'inputMessagesFilterRoundVoice'];
 ```  
 
@@ -27,10 +27,9 @@ $inputMessagesFilterRoundVoice = ['_' => 'inputMessagesFilterRoundVoice'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputMessagesFilterRoundVoice={_='inputMessagesFilterRoundVoice'}
 
 ```

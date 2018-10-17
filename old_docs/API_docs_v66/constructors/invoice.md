@@ -28,7 +28,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $invoice = ['_' => 'invoice', 'test' => Bool, 'name_requested' => Bool, 'phone_requested' => Bool, 'email_requested' => Bool, 'shipping_address_requested' => Bool, 'flexible' => Bool, 'currency' => 'string', 'prices' => [LabeledPrice, LabeledPrice]];
 ```  
 
@@ -39,10 +39,9 @@ $invoice = ['_' => 'invoice', 'test' => Bool, 'name_requested' => Bool, 'phone_r
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 invoice={_='invoice', test=Bool, name_requested=Bool, phone_requested=Bool, email_requested=Bool, shipping_address_requested=Bool, flexible=Bool, currency='string', prices={LabeledPrice}}
 
 ```

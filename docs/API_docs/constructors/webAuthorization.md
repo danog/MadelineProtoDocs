@@ -29,7 +29,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $webAuthorization = ['_' => 'webAuthorization', 'hash' => long, 'bot_id' => int, 'domain' => 'string', 'browser' => 'string', 'platform' => 'string', 'date_created' => int, 'date_active' => int, 'ip' => 'string', 'region' => 'string'];
 ```  
 
@@ -40,10 +40,9 @@ $webAuthorization = ['_' => 'webAuthorization', 'hash' => long, 'bot_id' => int,
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 webAuthorization={_='webAuthorization', hash=long, bot_id=int, domain='string', browser='string', platform='string', date_created=int, date_active=int, ip='string', region='string'}
 
 ```

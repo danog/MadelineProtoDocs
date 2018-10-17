@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updatePrivacy = ['_' => 'updatePrivacy', 'key' => PrivacyKey, 'rules' => [PrivacyRule, PrivacyRule]];
 ```  
 
@@ -33,10 +33,9 @@ $updatePrivacy = ['_' => 'updatePrivacy', 'key' => PrivacyKey, 'rules' => [Priva
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updatePrivacy={_='updatePrivacy', key=PrivacyKey, rules={PrivacyRule}}
 
 ```

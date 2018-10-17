@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputPhotoCrop = ['_' => 'inputPhotoCrop', 'crop_left' => double, 'crop_top' => double, 'crop_width' => double];
 ```  
 
@@ -34,10 +34,9 @@ $inputPhotoCrop = ['_' => 'inputPhotoCrop', 'crop_left' => double, 'crop_top' =>
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputPhotoCrop={_='inputPhotoCrop', crop_left=double, crop_top=double, crop_width=double}
 
 ```

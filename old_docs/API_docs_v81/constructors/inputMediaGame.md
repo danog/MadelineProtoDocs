@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputMediaGame = ['_' => 'inputMediaGame', 'id' => InputGame];
 ```  
 
@@ -32,10 +32,9 @@ $inputMediaGame = ['_' => 'inputMediaGame', 'id' => InputGame];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputMediaGame={_='inputMediaGame', id=InputGame}
 
 ```

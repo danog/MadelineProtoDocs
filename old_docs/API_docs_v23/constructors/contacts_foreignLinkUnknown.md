@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $contacts_foreignLinkUnknown = ['_' => 'contacts.foreignLinkUnknown'];
 ```  
 
@@ -27,10 +27,9 @@ $contacts_foreignLinkUnknown = ['_' => 'contacts.foreignLinkUnknown'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 contacts_foreignLinkUnknown={_='contacts.foreignLinkUnknown'}
 
 ```

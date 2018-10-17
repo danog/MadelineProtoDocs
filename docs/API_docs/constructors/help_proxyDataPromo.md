@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $help_proxyDataPromo = ['_' => 'help.proxyDataPromo', 'expires' => int, 'peer' => Peer, 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
@@ -35,10 +35,9 @@ $help_proxyDataPromo = ['_' => 'help.proxyDataPromo', 'expires' => int, 'peer' =
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 help_proxyDataPromo={_='help.proxyDataPromo', expires=int, peer=Peer, chats={Chat}, users={User}}
 
 ```

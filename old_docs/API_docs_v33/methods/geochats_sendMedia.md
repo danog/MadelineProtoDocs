@@ -25,7 +25,7 @@ Send media to geochat
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ media - Json encoded InputMedia
 
 Or, if you're into Lua:
 
-```
+```lua
 geochats_StatedMessage = geochats.sendMedia({peer=InputGeoChat, media=InputMedia, })
 ```
 

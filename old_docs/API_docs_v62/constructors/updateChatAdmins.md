@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateChatAdmins = ['_' => 'updateChatAdmins', 'chat_id' => int, 'enabled' => Bool, 'version' => int];
 ```  
 
@@ -34,10 +34,9 @@ $updateChatAdmins = ['_' => 'updateChatAdmins', 'chat_id' => int, 'enabled' => B
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateChatAdmins={_='updateChatAdmins', chat_id=int, enabled=Bool, version=int}
 
 ```

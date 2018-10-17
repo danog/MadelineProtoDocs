@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $account_passwordSettings = ['_' => 'account.passwordSettings', 'email' => 'string', 'secure_salt' => 'bytes', 'secure_secret' => 'bytes', 'secure_secret_id' => long];
 ```  
 
@@ -35,10 +35,9 @@ $account_passwordSettings = ['_' => 'account.passwordSettings', 'email' => 'stri
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 account_passwordSettings={_='account.passwordSettings', email='string', secure_salt='bytes', secure_secret='bytes', secure_secret_id=long}
 
 ```

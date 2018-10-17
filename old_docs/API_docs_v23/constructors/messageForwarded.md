@@ -28,7 +28,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messageForwarded = ['_' => 'messageForwarded', 'id' => int, 'fwd_from_id' => int, 'fwd_date' => int, 'from_id' => int, 'to_id' => Peer, 'date' => int, 'message' => 'string', 'media' => MessageMedia];
 ```  
 
@@ -39,10 +39,9 @@ $messageForwarded = ['_' => 'messageForwarded', 'id' => int, 'fwd_from_id' => in
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messageForwarded={_='messageForwarded', id=int, fwd_from_id=int, fwd_date=int, from_id=int, to_id=Peer, date=int, message='string', media=MessageMedia}
 
 ```

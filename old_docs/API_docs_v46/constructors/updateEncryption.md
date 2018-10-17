@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateEncryption = ['_' => 'updateEncryption', 'encr_chat' => EncryptedChat, 'date' => int];
 ```  
 
@@ -33,10 +33,9 @@ $updateEncryption = ['_' => 'updateEncryption', 'encr_chat' => EncryptedChat, 'd
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateEncryption={_='updateEncryption', encr_chat=EncryptedChat, date=int}
 
 ```

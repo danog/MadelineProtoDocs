@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $channels_channelParticipants = ['_' => 'channels.channelParticipants', 'count' => int, 'participants' => [ChannelParticipant, ChannelParticipant], 'users' => [User, User]];
 ```  
 
@@ -34,10 +34,9 @@ $channels_channelParticipants = ['_' => 'channels.channelParticipants', 'count' 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 channels_channelParticipants={_='channels.channelParticipants', count=int, participants={ChannelParticipant}, users={User}}
 
 ```

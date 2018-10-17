@@ -12,7 +12,7 @@ You can directly provide the [Update](Update.md) or [EncryptedMessage](Encrypted
 
 The following syntax can also be used:
 
-```
+```php
 $InputEncryptedChat = -147286699; // Numeric chat id returned by request_secret_chat, can be positive or negative
 ```
 

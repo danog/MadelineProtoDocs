@@ -27,7 +27,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $phoneCallWaiting = ['_' => 'phoneCallWaiting', 'id' => long, 'access_hash' => long, 'date' => int, 'admin_id' => int, 'participant_id' => int, 'protocol' => PhoneCallProtocol, 'receive_date' => int];
 ```  
 
@@ -38,10 +38,9 @@ $phoneCallWaiting = ['_' => 'phoneCallWaiting', 'id' => long, 'access_hash' => l
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 phoneCallWaiting={_='phoneCallWaiting', id=long, access_hash=long, date=int, admin_id=int, participant_id=int, protocol=PhoneCallProtocol, receive_date=int}
 
 ```

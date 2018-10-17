@@ -25,7 +25,7 @@ Edit the title of a normal chat (not supergroup)
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ title - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_StatedMessage = messages.editChatTitle({chat_id=InputPeer, title='string', })
 ```
 

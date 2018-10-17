@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputGeoPointEmpty = ['_' => 'inputGeoPointEmpty'];
 ```  
 
@@ -27,10 +27,9 @@ $inputGeoPointEmpty = ['_' => 'inputGeoPointEmpty'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputGeoPointEmpty={_='inputGeoPointEmpty'}
 
 ```

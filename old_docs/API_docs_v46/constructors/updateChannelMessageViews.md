@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateChannelMessageViews = ['_' => 'updateChannelMessageViews', 'channel_id' => int, 'id' => int, 'views' => int];
 ```  
 
@@ -34,10 +34,9 @@ $updateChannelMessageViews = ['_' => 'updateChannelMessageViews', 'channel_id' =
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateChannelMessageViews={_='updateChannelMessageViews', channel_id=int, id=int, views=int}
 
 ```

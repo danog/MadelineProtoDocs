@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $help_appChangelog = ['_' => 'help.appChangelog', 'message' => 'string', 'media' => MessageMedia, 'entities' => [MessageEntity, MessageEntity]];
 ```  
 
@@ -34,10 +34,9 @@ $help_appChangelog = ['_' => 'help.appChangelog', 'message' => 'string', 'media'
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 help_appChangelog={_='help.appChangelog', message='string', media=MessageMedia, entities={MessageEntity}}
 
 ```

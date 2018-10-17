@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateDraftMessage = ['_' => 'updateDraftMessage', 'peer' => Peer, 'draft' => DraftMessage];
 ```  
 
@@ -33,10 +33,9 @@ $updateDraftMessage = ['_' => 'updateDraftMessage', 'peer' => Peer, 'draft' => D
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateDraftMessage={_='updateDraftMessage', peer=Peer, draft=DraftMessage}
 
 ```

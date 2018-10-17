@@ -25,7 +25,7 @@ Upload a secret chat file without sending it to anyone
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ file - Json encoded InputEncryptedFile
 
 Or, if you're into Lua:
 
-```
+```lua
 EncryptedFile = messages.uploadEncryptedFile({peer=InputEncryptedChat, file=InputEncryptedFile, })
 ```
 

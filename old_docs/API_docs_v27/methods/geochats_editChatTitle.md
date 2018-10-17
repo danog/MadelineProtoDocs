@@ -26,7 +26,7 @@ Edit geochat title
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -68,7 +68,7 @@ address - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 geochats_StatedMessage = geochats.editChatTitle({peer=InputGeoChat, title='string', address='string', })
 ```
 

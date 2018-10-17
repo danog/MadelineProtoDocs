@@ -28,7 +28,7 @@ Set the game score of an inline message
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -74,7 +74,7 @@ score - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = messages.setInlineGameScore({edit_message=Bool, force=Bool, id=InputBotInlineMessageID, user_id=InputUser, score=int, })
 ```
 

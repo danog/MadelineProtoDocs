@@ -24,7 +24,7 @@ Add phone number as contact
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ contacts - Json encoded  array of InputContact
 
 Or, if you're into Lua:
 
-```
+```lua
 contacts_ImportedContacts = contacts.importContacts({contacts={InputContact}, })
 ```
 

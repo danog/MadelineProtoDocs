@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $upload_cdnFile = ['_' => 'upload.cdnFile', 'bytes' => 'bytes'];
 ```  
 
@@ -32,10 +32,9 @@ $upload_cdnFile = ['_' => 'upload.cdnFile', 'bytes' => 'bytes'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 upload_cdnFile={_='upload.cdnFile', bytes='bytes'}
 
 ```

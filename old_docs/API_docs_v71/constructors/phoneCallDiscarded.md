@@ -25,7 +25,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $phoneCallDiscarded = ['_' => 'phoneCallDiscarded', 'need_rating' => Bool, 'need_debug' => Bool, 'id' => long, 'reason' => PhoneCallDiscardReason, 'duration' => int];
 ```  
 
@@ -36,10 +36,9 @@ $phoneCallDiscarded = ['_' => 'phoneCallDiscarded', 'need_rating' => Bool, 'need
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 phoneCallDiscarded={_='phoneCallDiscarded', need_rating=Bool, need_debug=Bool, id=long, reason=PhoneCallDiscardReason, duration=int}
 
 ```

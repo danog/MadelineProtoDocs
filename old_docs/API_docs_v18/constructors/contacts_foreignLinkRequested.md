@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $contacts_foreignLinkRequested = ['_' => 'contacts.foreignLinkRequested', 'has_phone' => Bool];
 ```  
 
@@ -32,10 +32,9 @@ $contacts_foreignLinkRequested = ['_' => 'contacts.foreignLinkRequested', 'has_p
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 contacts_foreignLinkRequested={_='contacts.foreignLinkRequested', has_phone=Bool}
 
 ```

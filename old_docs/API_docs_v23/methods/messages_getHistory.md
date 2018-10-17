@@ -27,7 +27,7 @@ Get previous messages of a group
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -62,7 +62,7 @@ limit - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_Messages = messages.getHistory({peer=InputPeer, offset=int, max_id=int, limit=int, })
 ```
 

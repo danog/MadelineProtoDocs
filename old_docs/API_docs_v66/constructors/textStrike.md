@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $textStrike = ['_' => 'textStrike', 'text' => RichText];
 ```  
 
@@ -32,10 +32,9 @@ $textStrike = ['_' => 'textStrike', 'text' => RichText];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 textStrike={_='textStrike', text=RichText}
 
 ```

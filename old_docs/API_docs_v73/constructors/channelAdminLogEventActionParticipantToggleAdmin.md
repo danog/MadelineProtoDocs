@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $channelAdminLogEventActionParticipantToggleAdmin = ['_' => 'channelAdminLogEventActionParticipantToggleAdmin', 'prev_participant' => ChannelParticipant, 'new_participant' => ChannelParticipant];
 ```  
 
@@ -33,10 +33,9 @@ $channelAdminLogEventActionParticipantToggleAdmin = ['_' => 'channelAdminLogEven
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 channelAdminLogEventActionParticipantToggleAdmin={_='channelAdminLogEventActionParticipantToggleAdmin', prev_participant=ChannelParticipant, new_participant=ChannelParticipant}
 
 ```

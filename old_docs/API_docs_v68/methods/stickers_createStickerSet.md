@@ -28,7 +28,7 @@ Create stickerset
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -74,7 +74,7 @@ stickers - Json encoded  array of InputStickerSetItem
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_StickerSet = stickers.createStickerSet({masks=Bool, user_id=InputUser, title='string', short_name='string', stickers={InputStickerSetItem}, })
 ```
 

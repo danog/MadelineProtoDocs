@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $contacts_topPeers = ['_' => 'contacts.topPeers', 'categories' => [TopPeerCategoryPeers, TopPeerCategoryPeers], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
@@ -34,10 +34,9 @@ $contacts_topPeers = ['_' => 'contacts.topPeers', 'categories' => [TopPeerCatego
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 contacts_topPeers={_='contacts.topPeers', categories={TopPeerCategoryPeers}, chats={Chat}, users={User}}
 
 ```

@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $receivedNotifyMessage = ['_' => 'receivedNotifyMessage', 'id' => int];
 ```  
 
@@ -32,10 +32,9 @@ $receivedNotifyMessage = ['_' => 'receivedNotifyMessage', 'id' => int];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 receivedNotifyMessage={_='receivedNotifyMessage', id=int}
 
 ```

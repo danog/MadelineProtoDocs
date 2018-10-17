@@ -26,7 +26,7 @@ Get nearby geochats
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -68,7 +68,7 @@ limit - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 geochats_Located = geochats.getLocated({geo_point=InputGeoPoint, radius=int, limit=int, })
 ```
 

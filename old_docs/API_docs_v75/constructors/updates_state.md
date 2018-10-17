@@ -25,7 +25,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updates_state = ['_' => 'updates.state', 'pts' => int, 'qts' => int, 'date' => int, 'seq' => int, 'unread_count' => int];
 ```  
 
@@ -36,10 +36,9 @@ $updates_state = ['_' => 'updates.state', 'pts' => int, 'qts' => int, 'date' => 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updates_state={_='updates.state', pts=int, qts=int, date=int, seq=int, unread_count=int}
 
 ```

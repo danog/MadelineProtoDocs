@@ -24,7 +24,7 @@ Get secure value for telegram passport
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -62,7 +62,7 @@ types - Json encoded  array of SecureValueType
 
 Or, if you're into Lua:
 
-```
+```lua
 Vector_of_SecureValue = account.getSecureValue({types={SecureValueType}, })
 ```
 

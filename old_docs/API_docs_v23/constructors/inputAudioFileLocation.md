@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputAudioFileLocation = ['_' => 'inputAudioFileLocation', 'id' => long, 'access_hash' => long];
 ```  
 
@@ -33,10 +33,9 @@ $inputAudioFileLocation = ['_' => 'inputAudioFileLocation', 'id' => long, 'acces
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputAudioFileLocation={_='inputAudioFileLocation', id=long, access_hash=long}
 
 ```

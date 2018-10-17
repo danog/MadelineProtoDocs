@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $contacts_found = ['_' => 'contacts.found', 'my_results' => [Peer, Peer], 'results' => [Peer, Peer], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
@@ -35,10 +35,9 @@ $contacts_found = ['_' => 'contacts.found', 'my_results' => [Peer, Peer], 'resul
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 contacts_found={_='contacts.found', my_results={Peer}, results={Peer}, chats={Chat}, users={User}}
 
 ```

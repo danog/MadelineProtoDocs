@@ -18,7 +18,7 @@ User status was newer changed
 
 ### Example:
 
-```
+```php
 $userStatusEmpty = ['_' => 'userStatusEmpty'];
 ```  
 
@@ -29,10 +29,9 @@ $userStatusEmpty = ['_' => 'userStatusEmpty'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 userStatusEmpty={_='userStatusEmpty'}
 
 ```

@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateBotWebhookJSON = ['_' => 'updateBotWebhookJSON', 'data' => DataJSON];
 ```  
 
@@ -32,10 +32,9 @@ $updateBotWebhookJSON = ['_' => 'updateBotWebhookJSON', 'data' => DataJSON];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateBotWebhookJSON={_='updateBotWebhookJSON', data=DataJSON}
 
 ```

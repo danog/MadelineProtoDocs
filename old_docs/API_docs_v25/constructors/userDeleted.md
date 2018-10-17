@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $userDeleted = ['_' => 'userDeleted', 'id' => int, 'first_name' => 'string', 'last_name' => 'string', 'username' => 'string'];
 ```  
 
@@ -35,10 +35,9 @@ $userDeleted = ['_' => 'userDeleted', 'id' => int, 'first_name' => 'string', 'la
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 userDeleted={_='userDeleted', id=int, first_name='string', last_name='string', username='string'}
 
 ```

@@ -24,7 +24,7 @@ Delete profile photos
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ id - Json encoded  array of InputPhoto
 
 Or, if you're into Lua:
 
-```
+```lua
 Vector_of_long = photos.deletePhotos({id={InputPhoto}, })
 ```
 

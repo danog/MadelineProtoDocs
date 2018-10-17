@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $bad_msg_notification = ['_' => 'bad_msg_notification', 'bad_msg_id' => long, 'bad_msg_seqno' => int, 'error_code' => int];
 ```  
 
@@ -34,10 +34,9 @@ $bad_msg_notification = ['_' => 'bad_msg_notification', 'bad_msg_id' => long, 'b
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 bad_msg_notification={_='bad_msg_notification', bad_msg_id=long, bad_msg_seqno=int, error_code=int}
 
 ```

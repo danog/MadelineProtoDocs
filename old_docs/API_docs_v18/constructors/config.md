@@ -26,7 +26,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $config = ['_' => 'config', 'date' => int, 'test_mode' => Bool, 'this_dc' => int, 'dc_options' => [DcOption, DcOption], 'chat_size_max' => int, 'broadcast_size_max' => int];
 ```  
 
@@ -37,10 +37,9 @@ $config = ['_' => 'config', 'date' => int, 'test_mode' => Bool, 'this_dc' => int
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 config={_='config', date=int, test_mode=Bool, this_dc=int, dc_options={DcOption}, chat_size_max=int, broadcast_size_max=int}
 
 ```

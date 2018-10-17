@@ -24,7 +24,7 @@ Clear all recent stickers
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ attached - Json encoded Bool
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = messages.clearRecentStickers({attached=Bool, })
 ```
 

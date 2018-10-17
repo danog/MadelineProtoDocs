@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $help_termsOfService = ['_' => 'help.termsOfService', 'text' => 'string'];
 ```  
 
@@ -32,10 +32,9 @@ $help_termsOfService = ['_' => 'help.termsOfService', 'text' => 'string'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 help_termsOfService={_='help.termsOfService', text='string'}
 
 ```

@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputMediaGeoPoint = ['_' => 'inputMediaGeoPoint', 'geo_point' => InputGeoPoint];
 ```  
 
@@ -32,10 +32,9 @@ $inputMediaGeoPoint = ['_' => 'inputMediaGeoPoint', 'geo_point' => InputGeoPoint
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputMediaGeoPoint={_='inputMediaGeoPoint', geo_point=InputGeoPoint}
 
 ```

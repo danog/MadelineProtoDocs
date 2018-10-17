@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputMediaDocument = ['_' => 'inputMediaDocument', 'document_id' => InputDocument, 'caption' => 'string'];
 ```  
 
@@ -33,10 +33,9 @@ $inputMediaDocument = ['_' => 'inputMediaDocument', 'document_id' => InputDocume
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputMediaDocument={_='inputMediaDocument', document_id=InputDocument, caption='string'}
 
 ```

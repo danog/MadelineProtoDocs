@@ -23,7 +23,7 @@ User is offline
 
 ### Example:
 
-```
+```php
 $userStatusOffline = ['_' => 'userStatusOffline', 'was_online' => int];
 ```  
 
@@ -34,10 +34,9 @@ $userStatusOffline = ['_' => 'userStatusOffline', 'was_online' => int];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 userStatusOffline={_='userStatusOffline', was_online=int}
 
 ```

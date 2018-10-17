@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $future_salt = ['_' => 'future_salt', 'valid_since' => int, 'valid_until' => int, 'salt' => long];
 ```  
 
@@ -34,10 +34,9 @@ $future_salt = ['_' => 'future_salt', 'valid_since' => int, 'valid_until' => int
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 future_salt={_='future_salt', valid_since=int, valid_until=int, salt=long}
 
 ```

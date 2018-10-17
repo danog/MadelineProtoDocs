@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateRecentStickers = ['_' => 'updateRecentStickers'];
 ```  
 
@@ -27,10 +27,9 @@ $updateRecentStickers = ['_' => 'updateRecentStickers'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateRecentStickers={_='updateRecentStickers'}
 
 ```

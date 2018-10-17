@@ -26,7 +26,7 @@ Edit admin permissions
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -59,7 +59,7 @@ is_admin - Json encoded Bool
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = messages.editChatAdmin({chat_id=InputPeer, user_id=InputUser, is_admin=Bool, })
 ```
 

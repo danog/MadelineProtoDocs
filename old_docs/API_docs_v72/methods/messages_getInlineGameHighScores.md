@@ -25,7 +25,7 @@ Get high scores of a game sent in an inline message
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ user_id - Json encoded InputUser
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_HighScores = messages.getInlineGameHighScores({id=InputBotInlineMessageID, user_id=InputUser, })
 ```
 

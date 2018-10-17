@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messages_recentStickers = ['_' => 'messages.recentStickers', 'hash' => int, 'stickers' => [Document, Document]];
 ```  
 
@@ -33,10 +33,9 @@ $messages_recentStickers = ['_' => 'messages.recentStickers', 'hash' => int, 'st
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messages_recentStickers={_='messages.recentStickers', hash=int, stickers={Document}}
 
 ```

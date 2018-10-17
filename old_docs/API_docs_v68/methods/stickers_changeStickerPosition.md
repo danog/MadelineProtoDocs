@@ -25,7 +25,7 @@ Change sticker position in photo
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ position - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = stickers.changeStickerPosition({sticker=InputDocument, position=int, })
 ```
 

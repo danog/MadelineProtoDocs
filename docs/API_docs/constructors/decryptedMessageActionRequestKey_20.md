@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $decryptedMessageActionRequestKey_20 = ['_' => 'decryptedMessageActionRequestKey', 'exchange_id' => long, 'g_a' => 'bytes'];
 ```  
 
@@ -33,10 +33,9 @@ $decryptedMessageActionRequestKey_20 = ['_' => 'decryptedMessageActionRequestKey
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 decryptedMessageActionRequestKey_20={_='decryptedMessageActionRequestKey', exchange_id=long, g_a='bytes'}
 
 ```

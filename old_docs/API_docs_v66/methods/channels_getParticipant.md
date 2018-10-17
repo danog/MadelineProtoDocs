@@ -25,7 +25,7 @@ Get info about a certain channel/supergroup participant
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ user_id - Json encoded InputUser
 
 Or, if you're into Lua:
 
-```
+```lua
 channels_ChannelParticipant = channels.getParticipant({channel=InputChannel, user_id=InputUser, })
 ```
 

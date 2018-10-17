@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $stickerSetMultiCovered = ['_' => 'stickerSetMultiCovered', 'set' => StickerSet, 'covers' => [Document, Document]];
 ```  
 
@@ -33,10 +33,9 @@ $stickerSetMultiCovered = ['_' => 'stickerSetMultiCovered', 'set' => StickerSet,
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 stickerSetMultiCovered={_='stickerSetMultiCovered', set=StickerSet, covers={Document}}
 
 ```

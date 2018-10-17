@@ -24,7 +24,7 @@ Get unused stickers
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -62,7 +62,7 @@ limit - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 Vector_of_StickerSetCovered = messages.getUnusedStickers({limit=int, })
 ```
 

@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $botInfoEmpty = ['_' => 'botInfoEmpty'];
 ```  
 
@@ -27,10 +27,9 @@ $botInfoEmpty = ['_' => 'botInfoEmpty'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 botInfoEmpty={_='botInfoEmpty'}
 
 ```

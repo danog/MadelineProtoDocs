@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messageMediaGeoLive = ['_' => 'messageMediaGeoLive', 'geo' => GeoPoint, 'period' => int];
 ```  
 
@@ -33,10 +33,9 @@ $messageMediaGeoLive = ['_' => 'messageMediaGeoLive', 'geo' => GeoPoint, 'period
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messageMediaGeoLive={_='messageMediaGeoLive', geo=GeoPoint, period=int}
 
 ```

@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $contacts_topPeersNotModified = ['_' => 'contacts.topPeersNotModified'];
 ```  
 
@@ -27,10 +27,9 @@ $contacts_topPeersNotModified = ['_' => 'contacts.topPeersNotModified'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 contacts_topPeersNotModified={_='contacts.topPeersNotModified'}
 
 ```

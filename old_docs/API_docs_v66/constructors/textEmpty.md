@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $textEmpty = ['_' => 'textEmpty'];
 ```  
 
@@ -27,10 +27,9 @@ $textEmpty = ['_' => 'textEmpty'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 textEmpty={_='textEmpty'}
 
 ```

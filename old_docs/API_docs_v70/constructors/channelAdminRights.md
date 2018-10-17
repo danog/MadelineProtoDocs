@@ -29,7 +29,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $channelAdminRights = ['_' => 'channelAdminRights', 'change_info' => Bool, 'post_messages' => Bool, 'edit_messages' => Bool, 'delete_messages' => Bool, 'ban_users' => Bool, 'invite_users' => Bool, 'invite_link' => Bool, 'pin_messages' => Bool, 'add_admins' => Bool];
 ```  
 
@@ -40,10 +40,9 @@ $channelAdminRights = ['_' => 'channelAdminRights', 'change_info' => Bool, 'post
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 channelAdminRights={_='channelAdminRights', change_info=Bool, post_messages=Bool, edit_messages=Bool, delete_messages=Bool, ban_users=Bool, invite_users=Bool, invite_link=Bool, pin_messages=Bool, add_admins=Bool}
 
 ```

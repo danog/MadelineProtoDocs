@@ -23,7 +23,7 @@ A text paragraph
 
 ### Example:
 
-```
+```php
 $pageBlockParagraph = ['_' => 'pageBlockParagraph', 'text' => RichText];
 ```  
 
@@ -34,10 +34,9 @@ $pageBlockParagraph = ['_' => 'pageBlockParagraph', 'text' => RichText];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 pageBlockParagraph={_='pageBlockParagraph', text=RichText}
 
 ```

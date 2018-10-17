@@ -24,7 +24,7 @@ pings the server
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -62,7 +62,7 @@ ping_id - Json encoded long
 
 Or, if you're into Lua:
 
-```
+```lua
 Pong = ping({ping_id=long, })
 ```
 

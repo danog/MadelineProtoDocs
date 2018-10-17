@@ -25,7 +25,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messages_channelMessages = ['_' => 'messages.channelMessages', 'pts' => int, 'count' => int, 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
@@ -36,10 +36,9 @@ $messages_channelMessages = ['_' => 'messages.channelMessages', 'pts' => int, 'c
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messages_channelMessages={_='messages.channelMessages', pts=int, count=int, messages={Message}, chats={Chat}, users={User}}
 
 ```

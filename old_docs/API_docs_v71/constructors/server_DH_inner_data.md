@@ -26,7 +26,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $server_DH_inner_data = ['_' => 'server_DH_inner_data', 'nonce' => int128, 'server_nonce' => int128, 'g' => int, 'dh_prime' => 'string', 'g_a' => 'string', 'server_time' => int];
 ```  
 
@@ -37,10 +37,9 @@ $server_DH_inner_data = ['_' => 'server_DH_inner_data', 'nonce' => int128, 'serv
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 server_DH_inner_data={_='server_DH_inner_data', nonce=int128, server_nonce=int128, g=int, dh_prime='string', g_a='string', server_time=int}
 
 ```

@@ -29,7 +29,7 @@ Save a message draft
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -57,7 +57,7 @@ parse_mode - string
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = messages.saveDraft({no_webpage=Bool, reply_to_msg_id=int, peer=InputPeer, message='string', entities={MessageEntity}, parse_mode='string', })
 ```
 

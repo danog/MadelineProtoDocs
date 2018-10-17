@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $webPagePending = ['_' => 'webPagePending', 'id' => long, 'date' => int];
 ```  
 
@@ -33,10 +33,9 @@ $webPagePending = ['_' => 'webPagePending', 'id' => long, 'date' => int];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 webPagePending={_='webPagePending', id=long, date=int}
 
 ```

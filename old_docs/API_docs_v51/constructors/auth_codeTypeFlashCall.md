@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $auth_codeTypeFlashCall = ['_' => 'auth.codeTypeFlashCall'];
 ```  
 
@@ -27,10 +27,9 @@ $auth_codeTypeFlashCall = ['_' => 'auth.codeTypeFlashCall'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 auth_codeTypeFlashCall={_='auth.codeTypeFlashCall'}
 
 ```

@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $simpleDataBlock = ['_' => 'simpleDataBlock', 'raw_data' => 'string'];
 ```  
 
@@ -32,10 +32,9 @@ $simpleDataBlock = ['_' => 'simpleDataBlock', 'raw_data' => 'string'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 simpleDataBlock={_='simpleDataBlock', raw_data='string'}
 
 ```

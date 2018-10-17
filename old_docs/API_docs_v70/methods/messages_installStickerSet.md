@@ -25,7 +25,7 @@ Add a sticker set
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -56,7 +56,7 @@ archived - Json encoded Bool
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_StickerSetInstallResult = messages.installStickerSet({stickerset=InputStickerSet, archived=Bool, })
 ```
 

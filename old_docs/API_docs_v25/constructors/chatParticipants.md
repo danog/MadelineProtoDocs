@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $chatParticipants = ['_' => 'chatParticipants', 'chat_id' => int, 'admin_id' => int, 'participants' => [ChatParticipant, ChatParticipant], 'version' => int];
 ```  
 
@@ -35,10 +35,9 @@ $chatParticipants = ['_' => 'chatParticipants', 'chat_id' => int, 'admin_id' => 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 chatParticipants={_='chatParticipants', chat_id=int, admin_id=int, participants={ChatParticipant}, version=int}
 
 ```

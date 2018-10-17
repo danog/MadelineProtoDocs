@@ -13,7 +13,7 @@ No parameters
 ### Example:
 
 
-```
+```php
 $MadelineProto = new \danog\MadelineProto\API();
 $MadelineProto->start();
 
@@ -22,7 +22,7 @@ $User = $MadelineProto->get_self();
 
 Or, if you're into Lua:
 
-```
+```lua
 User = get_self()
 ```
 

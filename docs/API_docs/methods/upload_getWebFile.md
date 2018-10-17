@@ -26,7 +26,7 @@ Download a file through telegram
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -59,7 +59,7 @@ limit - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 upload_WebFile = upload.getWebFile({location=InputWebFileLocation, offset=int, limit=int, })
 ```
 

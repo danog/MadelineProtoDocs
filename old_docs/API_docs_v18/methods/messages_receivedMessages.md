@@ -24,7 +24,7 @@ Mark messages as read
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ max_id - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 Vector_of_int = messages.receivedMessages({max_id=int, })
 ```
 

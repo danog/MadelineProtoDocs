@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputMediaPhotoExternal = ['_' => 'inputMediaPhotoExternal', 'url' => 'string', 'caption' => 'string'];
 ```  
 
@@ -33,10 +33,9 @@ $inputMediaPhotoExternal = ['_' => 'inputMediaPhotoExternal', 'url' => 'string',
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputMediaPhotoExternal={_='inputMediaPhotoExternal', url='string', caption='string'}
 
 ```

@@ -29,7 +29,7 @@ Gets list of chats: you should use $MadelineProto->get_dialogs() instead: https:
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -68,7 +68,7 @@ hash - Json encoded  array of int
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_Dialogs = messages.getDialogs({exclude_pinned=Bool, offset_date=int, offset_id=int, offset_peer=InputPeer, limit=int, hash={int}, })
 ```
 

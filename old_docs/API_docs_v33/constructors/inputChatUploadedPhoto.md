@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputChatUploadedPhoto = ['_' => 'inputChatUploadedPhoto', 'file' => InputFile, 'crop' => InputPhotoCrop];
 ```  
 
@@ -33,10 +33,9 @@ $inputChatUploadedPhoto = ['_' => 'inputChatUploadedPhoto', 'file' => InputFile,
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputChatUploadedPhoto={_='inputChatUploadedPhoto', file=InputFile, crop=InputPhotoCrop}
 
 ```

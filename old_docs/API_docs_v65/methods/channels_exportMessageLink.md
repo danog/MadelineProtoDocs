@@ -25,7 +25,7 @@ Get the link of a message in a channel
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -56,7 +56,7 @@ id - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 ExportedMessageLink = channels.exportMessageLink({channel=InputChannel, id=int, })
 ```
 

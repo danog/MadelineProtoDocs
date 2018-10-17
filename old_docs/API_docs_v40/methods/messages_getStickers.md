@@ -25,7 +25,7 @@ Get stickers
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ hash - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_Stickers = messages.getStickers({emoticon='string', hash='string', })
 ```
 

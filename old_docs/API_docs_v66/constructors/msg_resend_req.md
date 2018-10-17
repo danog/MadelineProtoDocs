@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $msg_resend_req = ['_' => 'msg_resend_req', 'msg_ids' => [long, long]];
 ```  
 
@@ -32,10 +32,9 @@ $msg_resend_req = ['_' => 'msg_resend_req', 'msg_ids' => [long, long]];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 msg_resend_req={_='msg_resend_req', msg_ids={long}}
 
 ```

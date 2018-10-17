@@ -19,7 +19,7 @@ Get information about the current proxy
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -55,7 +55,7 @@ Parameters:
 
 Or, if you're into Lua:
 
-```
+```lua
 help_ProxyData = help.getProxyData({})
 ```
 

@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $peerNotifyEventsAll = ['_' => 'peerNotifyEventsAll'];
 ```  
 
@@ -27,10 +27,9 @@ $peerNotifyEventsAll = ['_' => 'peerNotifyEventsAll'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 peerNotifyEventsAll={_='peerNotifyEventsAll'}
 
 ```

@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $contacts_myLinkEmpty = ['_' => 'contacts.myLinkEmpty'];
 ```  
 
@@ -27,10 +27,9 @@ $contacts_myLinkEmpty = ['_' => 'contacts.myLinkEmpty'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 contacts_myLinkEmpty={_='contacts.myLinkEmpty'}
 
 ```

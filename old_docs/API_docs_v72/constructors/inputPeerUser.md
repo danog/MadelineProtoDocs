@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputPeerUser = ['_' => 'inputPeerUser', 'user_id' => int, 'access_hash' => long];
 ```  
 
@@ -33,10 +33,9 @@ $inputPeerUser = ['_' => 'inputPeerUser', 'user_id' => int, 'access_hash' => lon
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputPeerUser={_='inputPeerUser', user_id=int, access_hash=long}
 
 ```

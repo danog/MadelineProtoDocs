@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputVideo = ['_' => 'inputVideo', 'id' => long, 'access_hash' => long];
 ```  
 
@@ -33,10 +33,9 @@ $inputVideo = ['_' => 'inputVideo', 'id' => long, 'access_hash' => long];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputVideo={_='inputVideo', id=long, access_hash=long}
 
 ```

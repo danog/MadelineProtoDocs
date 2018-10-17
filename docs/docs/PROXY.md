@@ -18,7 +18,7 @@ There are three ways to do this:
 
 No password:
 
-```
+```php
 $settings['connection_settings']['all']['proxy'] = '\SocksProxy';
 $settings['connection_settings']['all']['proxy_extra'] = ['address' => $proxy_address, 'port' => $proxy_port];
 
@@ -28,7 +28,7 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline', $settings);
 
 With password:
 
-```
+```php
 $settings['connection_settings']['all']['proxy'] = '\SocksProxy';
 $settings['connection_settings']['all']['proxy_extra'] = ['address' => $proxy_address, 'port' => $proxy_port, 'username' => 'user', 'password' => 'afnjasf'];
 
@@ -39,7 +39,7 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline', $settings);
 
 No password:
 
-```
+```php
 $settings['connection_settings']['all']['proxy'] = '\HttpProxy';
 $settings['connection_settings']['all']['proxy_extra'] = ['address' => $proxy_address, 'port' => $proxy_port];
 
@@ -49,7 +49,7 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline', $settings);
 
 With password:
 
-```
+```php
 $settings['connection_settings']['all']['proxy'] = '\HttpProxy';
 $settings['connection_settings']['all']['proxy_extra'] = ['address' => $proxy_address, 'port' => $proxy_port, 'username' => 'user', 'password' => 'afnjasf'];
 

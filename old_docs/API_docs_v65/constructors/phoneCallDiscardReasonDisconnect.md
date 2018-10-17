@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $phoneCallDiscardReasonDisconnect = ['_' => 'phoneCallDiscardReasonDisconnect'];
 ```  
 
@@ -27,10 +27,9 @@ $phoneCallDiscardReasonDisconnect = ['_' => 'phoneCallDiscardReasonDisconnect'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 phoneCallDiscardReasonDisconnect={_='phoneCallDiscardReasonDisconnect'}
 
 ```

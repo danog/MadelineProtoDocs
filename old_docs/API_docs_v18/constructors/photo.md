@@ -27,7 +27,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $photo = ['_' => 'photo', 'id' => long, 'access_hash' => long, 'user_id' => int, 'date' => int, 'caption' => 'string', 'geo' => GeoPoint, 'sizes' => [PhotoSize, PhotoSize]];
 ```  
 
@@ -38,10 +38,9 @@ $photo = ['_' => 'photo', 'id' => long, 'access_hash' => long, 'user_id' => int,
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 photo={_='photo', id=long, access_hash=long, user_id=int, date=int, caption='string', geo=GeoPoint, sizes={PhotoSize}}
 
 ```

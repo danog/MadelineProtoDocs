@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $rpc_result = ['_' => 'rpc_result', 'req_msg_id' => long, 'result' => Object];
 ```  
 
@@ -33,10 +33,9 @@ $rpc_result = ['_' => 'rpc_result', 'req_msg_id' => long, 'result' => Object];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 rpc_result={_='rpc_result', req_msg_id=long, result=Object}
 
 ```

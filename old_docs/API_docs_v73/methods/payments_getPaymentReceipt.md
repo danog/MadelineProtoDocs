@@ -24,7 +24,7 @@ Get payment receipt
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ msg_id - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 payments_PaymentReceipt = payments.getPaymentReceipt({msg_id=int, })
 ```
 

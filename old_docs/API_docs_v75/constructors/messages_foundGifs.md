@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messages_foundGifs = ['_' => 'messages.foundGifs', 'next_offset' => int, 'results' => [FoundGif, FoundGif]];
 ```  
 
@@ -33,10 +33,9 @@ $messages_foundGifs = ['_' => 'messages.foundGifs', 'next_offset' => int, 'resul
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messages_foundGifs={_='messages.foundGifs', next_offset=int, results={FoundGif}}
 
 ```

@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $channels_adminLogResults = ['_' => 'channels.adminLogResults', 'events' => [ChannelAdminLogEvent, ChannelAdminLogEvent], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
@@ -34,10 +34,9 @@ $channels_adminLogResults = ['_' => 'channels.adminLogResults', 'events' => [Cha
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 channels_adminLogResults={_='channels.adminLogResults', events={ChannelAdminLogEvent}, chats={Chat}, users={User}}
 
 ```

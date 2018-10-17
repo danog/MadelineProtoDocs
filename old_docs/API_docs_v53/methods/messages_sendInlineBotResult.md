@@ -30,7 +30,7 @@ Send inline bot result obtained with messages.getInlineBotResults to the chat
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -71,7 +71,7 @@ id - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 Updates = messages.sendInlineBotResult({silent=Bool, background=Bool, clear_draft=Bool, peer=InputPeer, reply_to_msg_id=int, query_id=long, id='string', })
 ```
 

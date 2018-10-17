@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messageActionPhoneCall = ['_' => 'messageActionPhoneCall', 'call_id' => long, 'reason' => PhoneCallDiscardReason, 'duration' => int];
 ```  
 
@@ -34,10 +34,9 @@ $messageActionPhoneCall = ['_' => 'messageActionPhoneCall', 'call_id' => long, '
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messageActionPhoneCall={_='messageActionPhoneCall', call_id=long, reason=PhoneCallDiscardReason, duration=int}
 
 ```

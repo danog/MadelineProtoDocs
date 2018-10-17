@@ -24,7 +24,7 @@ Export chat invite
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ chat_id - Json encoded InputPeer
 
 Or, if you're into Lua:
 
-```
+```lua
 ExportedChatInvite = messages.exportChatInvite({chat_id=InputPeer, })
 ```
 

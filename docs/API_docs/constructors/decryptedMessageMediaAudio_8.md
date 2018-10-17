@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $decryptedMessageMediaAudio_8 = ['_' => 'decryptedMessageMediaAudio', 'duration' => int, 'size' => int];
 ```  
 
@@ -33,10 +33,9 @@ $decryptedMessageMediaAudio_8 = ['_' => 'decryptedMessageMediaAudio', 'duration'
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 decryptedMessageMediaAudio_8={_='decryptedMessageMediaAudio', duration=int, size=int}
 
 ```

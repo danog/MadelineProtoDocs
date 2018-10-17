@@ -25,7 +25,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messageService = ['_' => 'messageService', 'id' => int, 'from_id' => int, 'to_id' => Peer, 'date' => int, 'action' => MessageAction];
 ```  
 
@@ -36,10 +36,9 @@ $messageService = ['_' => 'messageService', 'id' => int, 'from_id' => int, 'to_i
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messageService={_='messageService', id=int, from_id=int, to_id=Peer, date=int, action=MessageAction}
 
 ```

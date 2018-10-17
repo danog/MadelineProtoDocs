@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $peerSettings = ['_' => 'peerSettings', 'report_spam' => Bool];
 ```  
 
@@ -32,10 +32,9 @@ $peerSettings = ['_' => 'peerSettings', 'report_spam' => Bool];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 peerSettings={_='peerSettings', report_spam=Bool}
 
 ```

@@ -27,7 +27,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $botInlineMessageMediaVenue = ['_' => 'botInlineMessageMediaVenue', 'geo' => GeoPoint, 'title' => 'string', 'address' => 'string', 'provider' => 'string', 'venue_id' => 'string', 'venue_type' => 'string', 'reply_markup' => ReplyMarkup];
 ```  
 
@@ -38,10 +38,9 @@ $botInlineMessageMediaVenue = ['_' => 'botInlineMessageMediaVenue', 'geo' => Geo
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 botInlineMessageMediaVenue={_='botInlineMessageMediaVenue', geo=GeoPoint, title='string', address='string', provider='string', venue_id='string', venue_type='string', reply_markup=ReplyMarkup}
 
 ```

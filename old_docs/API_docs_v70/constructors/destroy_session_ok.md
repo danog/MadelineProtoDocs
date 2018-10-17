@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $destroy_session_ok = ['_' => 'destroy_session_ok', 'session_id' => long];
 ```  
 
@@ -32,10 +32,9 @@ $destroy_session_ok = ['_' => 'destroy_session_ok', 'session_id' => long];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 destroy_session_ok={_='destroy_session_ok', session_id=long}
 
 ```

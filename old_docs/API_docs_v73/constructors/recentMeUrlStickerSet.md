@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $recentMeUrlStickerSet = ['_' => 'recentMeUrlStickerSet', 'url' => 'string', 'set' => StickerSetCovered];
 ```  
 
@@ -33,10 +33,9 @@ $recentMeUrlStickerSet = ['_' => 'recentMeUrlStickerSet', 'url' => 'string', 'se
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 recentMeUrlStickerSet={_='recentMeUrlStickerSet', url='string', set=StickerSetCovered}
 
 ```

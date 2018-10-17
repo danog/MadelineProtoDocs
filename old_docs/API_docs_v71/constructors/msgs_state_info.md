@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $msgs_state_info = ['_' => 'msgs_state_info', 'req_msg_id' => long, 'info' => 'string'];
 ```  
 
@@ -33,10 +33,9 @@ $msgs_state_info = ['_' => 'msgs_state_info', 'req_msg_id' => long, 'info' => 's
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 msgs_state_info={_='msgs_state_info', req_msg_id=long, info='string'}
 
 ```

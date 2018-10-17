@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messageEntityItalic = ['_' => 'messageEntityItalic', 'offset' => int, 'length' => int];
 ```  
 
@@ -33,10 +33,9 @@ $messageEntityItalic = ['_' => 'messageEntityItalic', 'offset' => int, 'length' 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messageEntityItalic={_='messageEntityItalic', offset=int, length=int}
 
 ```

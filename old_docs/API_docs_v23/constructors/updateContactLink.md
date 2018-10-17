@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateContactLink = ['_' => 'updateContactLink', 'user_id' => int, 'my_link' => contacts_MyLink, 'foreign_link' => contacts_ForeignLink];
 ```  
 
@@ -34,10 +34,9 @@ $updateContactLink = ['_' => 'updateContactLink', 'user_id' => int, 'my_link' =>
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateContactLink={_='updateContactLink', user_id=int, my_link=contacts_MyLink, foreign_link=contacts_ForeignLink}
 
 ```

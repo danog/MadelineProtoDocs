@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateUserBlocked = ['_' => 'updateUserBlocked', 'user_id' => int, 'blocked' => Bool];
 ```  
 
@@ -33,10 +33,9 @@ $updateUserBlocked = ['_' => 'updateUserBlocked', 'user_id' => int, 'blocked' =>
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateUserBlocked={_='updateUserBlocked', user_id=int, blocked=Bool}
 
 ```

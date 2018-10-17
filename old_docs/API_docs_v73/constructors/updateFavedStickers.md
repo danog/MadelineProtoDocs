@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateFavedStickers = ['_' => 'updateFavedStickers'];
 ```  
 
@@ -27,10 +27,9 @@ $updateFavedStickers = ['_' => 'updateFavedStickers'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateFavedStickers={_='updateFavedStickers'}
 
 ```

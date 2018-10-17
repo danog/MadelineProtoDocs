@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $contacts_blocked = ['_' => 'contacts.blocked', 'blocked' => [ContactBlocked, ContactBlocked], 'users' => [User, User]];
 ```  
 
@@ -33,10 +33,9 @@ $contacts_blocked = ['_' => 'contacts.blocked', 'blocked' => [ContactBlocked, Co
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 contacts_blocked={_='contacts.blocked', blocked={ContactBlocked}, users={User}}
 
 ```

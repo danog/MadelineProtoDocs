@@ -24,7 +24,7 @@ Represents command supported by bot
 
 ### Example:
 
-```
+```php
 $botCommand = ['_' => 'botCommand', 'command' => 'string', 'description' => 'string'];
 ```  
 
@@ -35,10 +35,9 @@ $botCommand = ['_' => 'botCommand', 'command' => 'string', 'description' => 'str
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 botCommand={_='botCommand', command='string', description='string'}
 
 ```

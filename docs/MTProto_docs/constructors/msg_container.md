@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $msg_container = ['_' => 'msg_container', 'messages' => [MTmessage, MTmessage]];
 ```  
 
@@ -32,10 +32,9 @@ $msg_container = ['_' => 'msg_container', 'messages' => [MTmessage, MTmessage]];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 msg_container={_='msg_container', messages={MTmessage}}
 
 ```

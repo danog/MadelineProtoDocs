@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputMediaContact = ['_' => 'inputMediaContact', 'phone_number' => 'string', 'first_name' => 'string', 'last_name' => 'string'];
 ```  
 
@@ -34,10 +34,9 @@ $inputMediaContact = ['_' => 'inputMediaContact', 'phone_number' => 'string', 'f
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputMediaContact={_='inputMediaContact', phone_number='string', first_name='string', last_name='string'}
 
 ```

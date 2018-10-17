@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputStickeredMediaDocument = ['_' => 'inputStickeredMediaDocument', 'id' => InputDocument];
 ```  
 
@@ -32,10 +32,9 @@ $inputStickeredMediaDocument = ['_' => 'inputStickeredMediaDocument', 'id' => In
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputStickeredMediaDocument={_='inputStickeredMediaDocument', id=InputDocument}
 
 ```

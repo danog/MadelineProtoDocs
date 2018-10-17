@@ -25,7 +25,7 @@ Pings the server and causes disconection if the same method is not called within
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ disconnect_delay - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 Pong = ping_delay_disconnect({ping_id=long, disconnect_delay=int, })
 ```
 

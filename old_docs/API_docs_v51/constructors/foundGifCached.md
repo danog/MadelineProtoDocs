@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $foundGifCached = ['_' => 'foundGifCached', 'url' => 'string', 'photo' => Photo, 'document' => Document];
 ```  
 
@@ -34,10 +34,9 @@ $foundGifCached = ['_' => 'foundGifCached', 'url' => 'string', 'photo' => Photo,
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 foundGifCached={_='foundGifCached', url='string', photo=Photo, document=Document}
 
 ```

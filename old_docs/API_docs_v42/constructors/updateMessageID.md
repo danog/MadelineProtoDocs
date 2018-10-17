@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateMessageID = ['_' => 'updateMessageID', 'id' => int];
 ```  
 
@@ -32,10 +32,9 @@ $updateMessageID = ['_' => 'updateMessageID', 'id' => int];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateMessageID={_='updateMessageID', id=int}
 
 ```

@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputPeerSelf = ['_' => 'inputPeerSelf'];
 ```  
 
@@ -27,10 +27,9 @@ $inputPeerSelf = ['_' => 'inputPeerSelf'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputPeerSelf={_='inputPeerSelf'}
 
 ```

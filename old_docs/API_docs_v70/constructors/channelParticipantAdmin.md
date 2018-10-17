@@ -26,7 +26,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $channelParticipantAdmin = ['_' => 'channelParticipantAdmin', 'can_edit' => Bool, 'user_id' => int, 'inviter_id' => int, 'promoted_by' => int, 'date' => int, 'admin_rights' => ChannelAdminRights];
 ```  
 
@@ -37,10 +37,9 @@ $channelParticipantAdmin = ['_' => 'channelParticipantAdmin', 'can_edit' => Bool
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 channelParticipantAdmin={_='channelParticipantAdmin', can_edit=Bool, user_id=int, inviter_id=int, promoted_by=int, date=int, admin_rights=ChannelAdminRights}
 
 ```

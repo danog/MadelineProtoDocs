@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $botInlineMessageMediaContact = ['_' => 'botInlineMessageMediaContact', 'phone_number' => 'string', 'first_name' => 'string', 'last_name' => 'string', 'reply_markup' => ReplyMarkup];
 ```  
 
@@ -35,10 +35,9 @@ $botInlineMessageMediaContact = ['_' => 'botInlineMessageMediaContact', 'phone_n
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 botInlineMessageMediaContact={_='botInlineMessageMediaContact', phone_number='string', first_name='string', last_name='string', reply_markup=ReplyMarkup}
 
 ```

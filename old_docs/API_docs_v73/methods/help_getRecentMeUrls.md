@@ -24,7 +24,7 @@ Get recent t.me URLs
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -62,7 +62,7 @@ referer - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 help_RecentMeUrls = help.getRecentMeUrls({referer='string', })
 ```
 

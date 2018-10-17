@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $decryptedMessageMediaEmpty_8 = ['_' => 'decryptedMessageMediaEmpty'];
 ```  
 
@@ -27,10 +27,9 @@ $decryptedMessageMediaEmpty_8 = ['_' => 'decryptedMessageMediaEmpty'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 decryptedMessageMediaEmpty_8={_='decryptedMessageMediaEmpty'}
 
 ```

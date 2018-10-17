@@ -25,7 +25,7 @@ Send typing notification to secret chat
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -56,7 +56,7 @@ typing - Json encoded Bool
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = messages.setEncryptedTyping({peer=InputEncryptedChat, typing=Bool, })
 ```
 

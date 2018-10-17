@@ -25,7 +25,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updates = ['_' => 'updates', 'updates' => [Update, Update], 'users' => [User, User], 'chats' => [Chat, Chat], 'date' => int, 'seq' => int];
 ```  
 
@@ -36,10 +36,9 @@ $updates = ['_' => 'updates', 'updates' => [Update, Update], 'users' => [User, U
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updates={_='updates', updates={Update}, users={User}, chats={Chat}, date=int, seq=int}
 
 ```

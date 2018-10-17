@@ -26,7 +26,7 @@ Bots only: set shipping results
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -68,7 +68,7 @@ shipping_options - Json encoded  array of ShippingOption
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = messages.setBotShippingResults({query_id=long, error='string', shipping_options={ShippingOption}, })
 ```
 

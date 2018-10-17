@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputBotInlineResultGame = ['_' => 'inputBotInlineResultGame', 'id' => 'string', 'short_name' => 'string', 'send_message' => InputBotInlineMessage];
 ```  
 
@@ -34,10 +34,9 @@ $inputBotInlineResultGame = ['_' => 'inputBotInlineResultGame', 'id' => 'string'
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputBotInlineResultGame={_='inputBotInlineResultGame', id='string', short_name='string', send_message=InputBotInlineMessage}
 
 ```

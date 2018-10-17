@@ -27,7 +27,7 @@ Upload profile photo
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -62,7 +62,7 @@ crop - Json encoded InputPhotoCrop
 
 Or, if you're into Lua:
 
-```
+```lua
 photos_Photo = photos.uploadProfilePhoto({file=InputFile, caption='string', geo_point=InputGeoPoint, crop=InputPhotoCrop, })
 ```
 

@@ -26,7 +26,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $postAddress = ['_' => 'postAddress', 'street_line1' => 'string', 'street_line2' => 'string', 'city' => 'string', 'state' => 'string', 'country_iso2' => 'string', 'post_code' => 'string'];
 ```  
 
@@ -37,10 +37,9 @@ $postAddress = ['_' => 'postAddress', 'street_line1' => 'string', 'street_line2'
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 postAddress={_='postAddress', street_line1='string', street_line2='string', city='string', state='string', country_iso2='string', post_code='string'}
 
 ```

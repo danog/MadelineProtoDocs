@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $channelParticipantCreator = ['_' => 'channelParticipantCreator', 'user_id' => int];
 ```  
 
@@ -32,10 +32,9 @@ $channelParticipantCreator = ['_' => 'channelParticipantCreator', 'user_id' => i
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 channelParticipantCreator={_='channelParticipantCreator', user_id=int}
 
 ```

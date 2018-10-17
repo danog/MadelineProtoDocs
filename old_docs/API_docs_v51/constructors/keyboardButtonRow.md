@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $keyboardButtonRow = ['_' => 'keyboardButtonRow', 'buttons' => [KeyboardButton, KeyboardButton]];
 ```  
 
@@ -32,10 +32,9 @@ $keyboardButtonRow = ['_' => 'keyboardButtonRow', 'buttons' => [KeyboardButton, 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 keyboardButtonRow={_='keyboardButtonRow', buttons={KeyboardButton}}
 
 ```

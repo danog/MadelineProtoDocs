@@ -25,7 +25,7 @@ Invite friends to telegram!
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -56,7 +56,7 @@ message - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = auth.sendInvites({phone_numbers={'string'}, message='string', })
 ```
 

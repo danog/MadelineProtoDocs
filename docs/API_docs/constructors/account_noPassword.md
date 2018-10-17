@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $account_noPassword = ['_' => 'account.noPassword', 'new_salt' => 'bytes', 'new_secure_salt' => 'bytes', 'secure_random' => 'bytes', 'email_unconfirmed_pattern' => 'string'];
 ```  
 
@@ -35,10 +35,9 @@ $account_noPassword = ['_' => 'account.noPassword', 'new_salt' => 'bytes', 'new_
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 account_noPassword={_='account.noPassword', new_salt='bytes', new_secure_salt='bytes', secure_random='bytes', email_unconfirmed_pattern='string'}
 
 ```

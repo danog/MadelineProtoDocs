@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $contacts_suggested = ['_' => 'contacts.suggested', 'results' => [ContactSuggested, ContactSuggested], 'users' => [User, User]];
 ```  
 
@@ -33,10 +33,9 @@ $contacts_suggested = ['_' => 'contacts.suggested', 'results' => [ContactSuggest
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 contacts_suggested={_='contacts.suggested', results={ContactSuggested}, users={User}}
 
 ```

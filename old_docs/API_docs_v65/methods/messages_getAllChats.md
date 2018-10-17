@@ -24,7 +24,7 @@ Get all chats (not supergroups or channels)
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ except_ids - Json encoded  array of int
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_Chats = messages.getAllChats({except_ids={int}, })
 ```
 

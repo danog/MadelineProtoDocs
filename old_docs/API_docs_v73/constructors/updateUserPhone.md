@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateUserPhone = ['_' => 'updateUserPhone', 'user_id' => int, 'phone' => 'string'];
 ```  
 
@@ -33,10 +33,9 @@ $updateUserPhone = ['_' => 'updateUserPhone', 'user_id' => int, 'phone' => 'stri
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateUserPhone={_='updateUserPhone', user_id=int, phone='string'}
 
 ```

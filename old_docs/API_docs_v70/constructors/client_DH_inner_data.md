@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $client_DH_inner_data = ['_' => 'client_DH_inner_data', 'nonce' => int128, 'server_nonce' => int128, 'retry_id' => long, 'g_b' => 'string'];
 ```  
 
@@ -35,10 +35,9 @@ $client_DH_inner_data = ['_' => 'client_DH_inner_data', 'nonce' => int128, 'serv
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 client_DH_inner_data={_='client_DH_inner_data', nonce=int128, server_nonce=int128, retry_id=long, g_b='string'}
 
 ```

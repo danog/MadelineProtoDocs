@@ -16,7 +16,7 @@ description: bot_login parameters, return type and example
 ### Example:
 
 
-```
+```php
 $MadelineProto = new \danog\MadelineProto\API();
 
 $authorization = $this->bot_login($token);

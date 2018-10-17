@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $secureValueTypePassportRegistration = ['_' => 'secureValueTypePassportRegistration'];
 ```  
 
@@ -27,10 +27,9 @@ $secureValueTypePassportRegistration = ['_' => 'secureValueTypePassportRegistrat
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 secureValueTypePassportRegistration={_='secureValueTypePassportRegistration'}
 
 ```

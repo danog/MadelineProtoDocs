@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $rpc_error = ['_' => 'rpc_error', 'error_code' => int, 'error_message' => 'string'];
 ```  
 
@@ -33,10 +33,9 @@ $rpc_error = ['_' => 'rpc_error', 'error_code' => int, 'error_message' => 'strin
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 rpc_error={_='rpc_error', error_code=int, error_message='string'}
 
 ```

@@ -25,7 +25,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $phoneConnection = ['_' => 'phoneConnection', 'id' => long, 'ip' => 'string', 'ipv6' => 'string', 'port' => int, 'peer_tag' => 'bytes'];
 ```  
 
@@ -36,10 +36,9 @@ $phoneConnection = ['_' => 'phoneConnection', 'id' => long, 'ip' => 'string', 'i
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 phoneConnection={_='phoneConnection', id=long, ip='string', ipv6='string', port=int, peer_tag='bytes'}
 
 ```

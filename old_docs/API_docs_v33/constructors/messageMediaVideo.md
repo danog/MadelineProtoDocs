@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messageMediaVideo = ['_' => 'messageMediaVideo', 'video' => Video, 'caption' => 'string'];
 ```  
 
@@ -33,10 +33,9 @@ $messageMediaVideo = ['_' => 'messageMediaVideo', 'video' => Video, 'caption' =>
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messageMediaVideo={_='messageMediaVideo', video=Video, caption='string'}
 
 ```

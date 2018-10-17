@@ -26,7 +26,7 @@ Kick or ban a user from a channel/supergroup
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -68,7 +68,7 @@ banned_rights - Json encoded ChannelBannedRights
 
 Or, if you're into Lua:
 
-```
+```lua
 Updates = channels.editBanned({channel=InputChannel, user_id=InputUser, banned_rights=ChannelBannedRights, })
 ```
 

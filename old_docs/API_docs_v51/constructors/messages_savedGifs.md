@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messages_savedGifs = ['_' => 'messages.savedGifs', 'hash' => int, 'gifs' => [Document, Document]];
 ```  
 
@@ -33,10 +33,9 @@ $messages_savedGifs = ['_' => 'messages.savedGifs', 'hash' => int, 'gifs' => [Do
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messages_savedGifs={_='messages.savedGifs', hash=int, gifs={Document}}
 
 ```

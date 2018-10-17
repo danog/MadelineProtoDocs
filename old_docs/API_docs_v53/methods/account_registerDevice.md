@@ -25,7 +25,7 @@ Register device for push notifications
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -56,7 +56,7 @@ token - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = account.registerDevice({token_type=int, token='string', })
 ```
 

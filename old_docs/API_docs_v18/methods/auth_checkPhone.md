@@ -24,7 +24,7 @@ Check if this phone number is registered on telegram
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ phone_number - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 auth_CheckedPhone = auth.checkPhone({phone_number='string', })
 ```
 

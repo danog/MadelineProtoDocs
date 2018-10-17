@@ -25,7 +25,7 @@ Send message to secret chat
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ message - Json encoded DecryptedMessage
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_SentEncryptedMessage = messages.sendEncrypted({peer=InputEncryptedChat, message=DecryptedMessage, })
 ```
 

@@ -25,7 +25,7 @@ Get recent geochats
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ limit - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 geochats_Messages = geochats.getRecents({offset=int, limit=int, })
 ```
 

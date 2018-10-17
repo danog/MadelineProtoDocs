@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $auth_passwordRecovery = ['_' => 'auth.passwordRecovery', 'email_pattern' => 'string'];
 ```  
 
@@ -32,10 +32,9 @@ $auth_passwordRecovery = ['_' => 'auth.passwordRecovery', 'email_pattern' => 'st
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 auth_passwordRecovery={_='auth.passwordRecovery', email_pattern='string'}
 
 ```

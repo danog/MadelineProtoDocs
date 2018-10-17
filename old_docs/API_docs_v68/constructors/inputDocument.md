@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputDocument = ['_' => 'inputDocument', 'id' => long, 'access_hash' => long];
 ```  
 
@@ -33,10 +33,9 @@ $inputDocument = ['_' => 'inputDocument', 'id' => long, 'access_hash' => long];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputDocument={_='inputDocument', id=long, access_hash=long}
 
 ```

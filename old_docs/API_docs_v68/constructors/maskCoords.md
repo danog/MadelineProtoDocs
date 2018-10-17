@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $maskCoords = ['_' => 'maskCoords', 'n' => int, 'x' => double, 'y' => double, 'zoom' => double];
 ```  
 
@@ -35,10 +35,9 @@ $maskCoords = ['_' => 'maskCoords', 'n' => int, 'x' => double, 'y' => double, 'z
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 maskCoords={_='maskCoords', n=int, x=double, y=double, zoom=double}
 
 ```

@@ -25,7 +25,7 @@ Send webhook request via bot API
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ data - Json encoded DataJSON
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = bots.answerWebhookJSONQuery({query_id=long, data=DataJSON, })
 ```
 

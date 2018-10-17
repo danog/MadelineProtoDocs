@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messageActionChannelMigrateFrom = ['_' => 'messageActionChannelMigrateFrom', 'title' => 'string', 'chat_id' => int];
 ```  
 
@@ -33,10 +33,9 @@ $messageActionChannelMigrateFrom = ['_' => 'messageActionChannelMigrateFrom', 't
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messageActionChannelMigrateFrom={_='messageActionChannelMigrateFrom', title='string', chat_id=int}
 
 ```

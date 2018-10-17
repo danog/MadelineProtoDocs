@@ -159,7 +159,7 @@ The audio configuration is an array structured in the following way:
 
 Easy as pie:  
 
-```
+```php
 $call->storage["pony"] = "fluttershy";
 \danog\MadelineProto\Logger::log($call->storage["pony"]); // fluttershy
 ```
@@ -173,7 +173,7 @@ You can only modify the data saving mode, the network type, the logging file pat
 
 Example:
 
-```
+```php
 $call->configuration["log_file_path"] = "logs".$call->getOtherID().".log"; // Default is /dev/null
 $call->configuration["stats_dump_file_path"] = "stats".$call->getOtherID().".log"; // Default is /dev/null
 $call->configuration["network_type"] = \danog\MadelineProto\VoIP::NET_TYPE_WIFI; // Default is NET_TYPE_ETHERNET

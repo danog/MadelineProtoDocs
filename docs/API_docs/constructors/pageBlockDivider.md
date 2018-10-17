@@ -18,7 +18,7 @@ An empty block separating parts of a page
 
 ### Example:
 
-```
+```php
 $pageBlockDivider = ['_' => 'pageBlockDivider'];
 ```  
 
@@ -29,10 +29,9 @@ $pageBlockDivider = ['_' => 'pageBlockDivider'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 pageBlockDivider={_='pageBlockDivider'}
 
 ```
