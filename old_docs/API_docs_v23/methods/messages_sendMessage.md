@@ -25,7 +25,7 @@ Send a message
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ message - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_SentMessage = messages.sendMessage({peer=InputPeer, message='string', })
 ```
 

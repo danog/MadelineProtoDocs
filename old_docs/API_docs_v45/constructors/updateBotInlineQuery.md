@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateBotInlineQuery = ['_' => 'updateBotInlineQuery', 'query_id' => long, 'user_id' => int, 'query' => 'string', 'offset' => 'string'];
 ```  
 
@@ -35,10 +35,9 @@ $updateBotInlineQuery = ['_' => 'updateBotInlineQuery', 'query_id' => long, 'use
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateBotInlineQuery={_='updateBotInlineQuery', query_id=long, user_id=int, query='string', offset='string'}
 
 ```

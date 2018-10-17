@@ -18,7 +18,7 @@ User was online recently
 
 ### Example:
 
-```
+```php
 $userStatusRecently = ['_' => 'userStatusRecently'];
 ```  
 
@@ -29,10 +29,9 @@ $userStatusRecently = ['_' => 'userStatusRecently'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 userStatusRecently={_='userStatusRecently'}
 
 ```

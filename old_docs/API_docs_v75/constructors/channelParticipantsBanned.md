@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $channelParticipantsBanned = ['_' => 'channelParticipantsBanned', 'q' => 'string'];
 ```  
 
@@ -32,10 +32,9 @@ $channelParticipantsBanned = ['_' => 'channelParticipantsBanned', 'q' => 'string
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 channelParticipantsBanned={_='channelParticipantsBanned', q='string'}
 
 ```

@@ -30,7 +30,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $stickerSet = ['_' => 'stickerSet', 'archived' => Bool, 'official' => Bool, 'masks' => Bool, 'installed_date' => int, 'id' => long, 'access_hash' => long, 'title' => 'string', 'short_name' => 'string', 'count' => int, 'hash' => int];
 ```  
 
@@ -41,10 +41,9 @@ $stickerSet = ['_' => 'stickerSet', 'archived' => Bool, 'official' => Bool, 'mas
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 stickerSet={_='stickerSet', archived=Bool, official=Bool, masks=Bool, installed_date=int, id=long, access_hash=long, title='string', short_name='string', count=int, hash=int}
 
 ```

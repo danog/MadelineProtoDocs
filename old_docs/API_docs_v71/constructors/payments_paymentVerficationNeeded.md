@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $payments_paymentVerficationNeeded = ['_' => 'payments.paymentVerficationNeeded', 'url' => 'string'];
 ```  
 
@@ -32,10 +32,9 @@ $payments_paymentVerficationNeeded = ['_' => 'payments.paymentVerficationNeeded'
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 payments_paymentVerficationNeeded={_='payments.paymentVerficationNeeded', url='string'}
 
 ```

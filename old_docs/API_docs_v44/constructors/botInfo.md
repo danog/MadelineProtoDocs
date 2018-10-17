@@ -25,7 +25,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $botInfo = ['_' => 'botInfo', 'user_id' => int, 'version' => int, 'share_text' => 'string', 'description' => 'string', 'commands' => [BotCommand, BotCommand]];
 ```  
 
@@ -36,10 +36,9 @@ $botInfo = ['_' => 'botInfo', 'user_id' => int, 'version' => int, 'share_text' =
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 botInfo={_='botInfo', user_id=int, version=int, share_text='string', description='string', commands={BotCommand}}
 
 ```

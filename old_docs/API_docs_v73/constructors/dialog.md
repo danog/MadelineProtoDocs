@@ -30,7 +30,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $dialog = ['_' => 'dialog', 'pinned' => Bool, 'peer' => Peer, 'top_message' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'unread_count' => int, 'unread_mentions_count' => int, 'notify_settings' => PeerNotifySettings, 'pts' => int, 'draft' => DraftMessage];
 ```  
 
@@ -41,10 +41,9 @@ $dialog = ['_' => 'dialog', 'pinned' => Bool, 'peer' => Peer, 'top_message' => i
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 dialog={_='dialog', pinned=Bool, peer=Peer, top_message=int, read_inbox_max_id=int, read_outbox_max_id=int, unread_count=int, unread_mentions_count=int, notify_settings=PeerNotifySettings, pts=int, draft=DraftMessage}
 
 ```

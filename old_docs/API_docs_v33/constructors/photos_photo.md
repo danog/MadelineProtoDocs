@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $photos_photo = ['_' => 'photos.photo', 'photo' => Photo, 'users' => [User, User]];
 ```  
 
@@ -33,10 +33,9 @@ $photos_photo = ['_' => 'photos.photo', 'photo' => Photo, 'users' => [User, User
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 photos_photo={_='photos.photo', photo=Photo, users={User}}
 
 ```

@@ -30,7 +30,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $payments_paymentReceipt = ['_' => 'payments.paymentReceipt', 'date' => int, 'bot_id' => int, 'invoice' => Invoice, 'provider_id' => int, 'info' => PaymentRequestedInfo, 'shipping' => ShippingOption, 'currency' => 'string', 'total_amount' => long, 'credentials_title' => 'string', 'users' => [User, User]];
 ```  
 
@@ -41,10 +41,9 @@ $payments_paymentReceipt = ['_' => 'payments.paymentReceipt', 'date' => int, 'bo
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 payments_paymentReceipt={_='payments.paymentReceipt', date=int, bot_id=int, invoice=Invoice, provider_id=int, info=PaymentRequestedInfo, shipping=ShippingOption, currency='string', total_amount=long, credentials_title='string', users={User}}
 
 ```

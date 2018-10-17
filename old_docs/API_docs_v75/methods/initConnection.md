@@ -31,7 +31,7 @@ Initializes connection and save information on the user's device and application
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -83,7 +83,7 @@ query - Json encoded !X
 
 Or, if you're into Lua:
 
-```
+```lua
 X = initConnection({api_id=int, device_model='string', system_version='string', app_version='string', system_lang_code='string', lang_pack='string', lang_code='string', query=!X, })
 ```
 

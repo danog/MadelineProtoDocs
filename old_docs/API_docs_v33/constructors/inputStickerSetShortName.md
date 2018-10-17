@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputStickerSetShortName = ['_' => 'inputStickerSetShortName', 'short_name' => 'string'];
 ```  
 
@@ -32,10 +32,9 @@ $inputStickerSetShortName = ['_' => 'inputStickerSetShortName', 'short_name' => 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputStickerSetShortName={_='inputStickerSetShortName', short_name='string'}
 
 ```

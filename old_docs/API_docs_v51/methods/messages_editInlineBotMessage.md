@@ -29,7 +29,7 @@ Edit a sent inline message
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -66,7 +66,7 @@ parse_mode - string
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = messages.editInlineBotMessage({no_webpage=Bool, id=InputBotInlineMessageID, message='string', reply_markup=ReplyMarkup, entities={MessageEntity}, parse_mode='string', })
 ```
 

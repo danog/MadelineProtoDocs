@@ -25,7 +25,7 @@ Set secure value error for telegram passport
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ errors - Json encoded  array of SecureValueError
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = users.setSecureValueErrors({id=InputUser, errors={SecureValueError}, })
 ```
 

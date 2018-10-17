@@ -18,7 +18,7 @@ Array
 
 ### Example:
 
-```
+```php
 $vector = ['_' => 'vector'];
 ```  
 
@@ -29,10 +29,9 @@ $vector = ['_' => 'vector'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 vector={_='vector'}
 
 ```

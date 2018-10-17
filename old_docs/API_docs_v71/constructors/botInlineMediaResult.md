@@ -27,7 +27,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $botInlineMediaResult = ['_' => 'botInlineMediaResult', 'id' => 'string', 'type' => 'string', 'photo' => Photo, 'document' => Document, 'title' => 'string', 'description' => 'string', 'send_message' => BotInlineMessage];
 ```  
 
@@ -38,10 +38,9 @@ $botInlineMediaResult = ['_' => 'botInlineMediaResult', 'id' => 'string', 'type'
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 botInlineMediaResult={_='botInlineMediaResult', id='string', type='string', photo=Photo, document=Document, title='string', description='string', send_message=BotInlineMessage}
 
 ```

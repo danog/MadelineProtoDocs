@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $pageBlockPhoto = ['_' => 'pageBlockPhoto', 'photo_id' => long, 'caption' => RichText];
 ```  
 
@@ -33,10 +33,9 @@ $pageBlockPhoto = ['_' => 'pageBlockPhoto', 'photo_id' => long, 'caption' => Ric
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 pageBlockPhoto={_='pageBlockPhoto', photo_id=long, caption=RichText}
 
 ```

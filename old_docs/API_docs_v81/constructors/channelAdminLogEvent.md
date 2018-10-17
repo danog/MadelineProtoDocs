@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $channelAdminLogEvent = ['_' => 'channelAdminLogEvent', 'id' => long, 'date' => int, 'user_id' => int, 'action' => ChannelAdminLogEventAction];
 ```  
 
@@ -35,10 +35,9 @@ $channelAdminLogEvent = ['_' => 'channelAdminLogEvent', 'id' => long, 'date' => 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 channelAdminLogEvent={_='channelAdminLogEvent', id=long, date=int, user_id=int, action=ChannelAdminLogEventAction}
 
 ```

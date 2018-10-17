@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $secureData = ['_' => 'secureData', 'data' => 'bytes', 'data_hash' => 'bytes', 'secret' => 'bytes'];
 ```  
 
@@ -34,10 +34,9 @@ $secureData = ['_' => 'secureData', 'data' => 'bytes', 'data_hash' => 'bytes', '
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 secureData={_='secureData', data='bytes', data_hash='bytes', secret='bytes'}
 
 ```

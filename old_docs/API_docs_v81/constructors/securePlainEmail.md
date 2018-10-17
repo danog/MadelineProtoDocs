@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $securePlainEmail = ['_' => 'securePlainEmail', 'email' => 'string'];
 ```  
 
@@ -32,10 +32,9 @@ $securePlainEmail = ['_' => 'securePlainEmail', 'email' => 'string'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 securePlainEmail={_='securePlainEmail', email='string'}
 
 ```

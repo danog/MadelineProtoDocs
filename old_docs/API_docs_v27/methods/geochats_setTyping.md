@@ -25,7 +25,7 @@ Send typing notification to geochat
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ typing - Json encoded Bool
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = geochats.setTyping({peer=InputGeoChat, typing=Bool, })
 ```
 

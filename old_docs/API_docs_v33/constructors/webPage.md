@@ -34,7 +34,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $webPage = ['_' => 'webPage', 'id' => long, 'url' => 'string', 'display_url' => 'string', 'type' => 'string', 'site_name' => 'string', 'title' => 'string', 'description' => 'string', 'photo' => Photo, 'embed_url' => 'string', 'embed_type' => 'string', 'embed_width' => int, 'embed_height' => int, 'duration' => int, 'author' => 'string'];
 ```  
 
@@ -45,10 +45,9 @@ $webPage = ['_' => 'webPage', 'id' => long, 'url' => 'string', 'display_url' => 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 webPage={_='webPage', id=long, url='string', display_url='string', type='string', site_name='string', title='string', description='string', photo=Photo, embed_url='string', embed_type='string', embed_width=int, embed_height=int, duration=int, author='string'}
 
 ```

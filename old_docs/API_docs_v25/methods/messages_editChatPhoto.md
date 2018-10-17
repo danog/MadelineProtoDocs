@@ -25,7 +25,7 @@ Edit the photo of a normal chat (not supergroup)
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ photo - Json encoded InputChatPhoto
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_StatedMessage = messages.editChatPhoto({chat_id=InputPeer, photo=InputChatPhoto, })
 ```
 

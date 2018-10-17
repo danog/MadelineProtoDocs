@@ -25,7 +25,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $upload_webFile = ['_' => 'upload.webFile', 'size' => int, 'mime_type' => 'string', 'file_type' => storage_FileType, 'mtime' => int, 'bytes' => 'bytes'];
 ```  
 
@@ -36,10 +36,9 @@ $upload_webFile = ['_' => 'upload.webFile', 'size' => int, 'mime_type' => 'strin
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 upload_webFile={_='upload.webFile', size=int, mime_type='string', file_type=storage_FileType, mtime=int, bytes='bytes'}
 
 ```

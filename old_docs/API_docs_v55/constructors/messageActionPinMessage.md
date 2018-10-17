@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messageActionPinMessage = ['_' => 'messageActionPinMessage'];
 ```  
 
@@ -27,10 +27,9 @@ $messageActionPinMessage = ['_' => 'messageActionPinMessage'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messageActionPinMessage={_='messageActionPinMessage'}
 
 ```

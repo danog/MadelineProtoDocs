@@ -32,7 +32,7 @@ Get most used chats
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -77,7 +77,7 @@ hash - Json encoded  array of int
 
 Or, if you're into Lua:
 
-```
+```lua
 contacts_TopPeers = contacts.getTopPeers({correspondents=Bool, bots_pm=Bool, bots_inline=Bool, phone_calls=Bool, groups=Bool, channels=Bool, offset=int, limit=int, hash={int}, })
 ```
 

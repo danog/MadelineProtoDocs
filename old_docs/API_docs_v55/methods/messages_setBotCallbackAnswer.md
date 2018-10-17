@@ -27,7 +27,7 @@ Bots only: set the callback answer (after a button was clicked)
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -71,7 +71,7 @@ url - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = messages.setBotCallbackAnswer({alert=Bool, query_id=long, message='string', url='string', })
 ```
 

@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $contactStatus = ['_' => 'contactStatus', 'user_id' => int, 'expires' => int];
 ```  
 
@@ -33,10 +33,9 @@ $contactStatus = ['_' => 'contactStatus', 'user_id' => int, 'expires' => int];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 contactStatus={_='contactStatus', user_id=int, expires=int}
 
 ```

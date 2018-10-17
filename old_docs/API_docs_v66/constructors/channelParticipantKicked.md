@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $channelParticipantKicked = ['_' => 'channelParticipantKicked', 'user_id' => int, 'kicked_by' => int, 'date' => int];
 ```  
 
@@ -34,10 +34,9 @@ $channelParticipantKicked = ['_' => 'channelParticipantKicked', 'user_id' => int
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 channelParticipantKicked={_='channelParticipantKicked', user_id=int, kicked_by=int, date=int}
 
 ```

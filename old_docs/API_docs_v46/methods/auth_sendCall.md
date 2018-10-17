@@ -25,7 +25,7 @@ Send verification phone call
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ phone_code_hash - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = auth.sendCall({phone_number='string', phone_code_hash='string', })
 ```
 

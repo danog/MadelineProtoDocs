@@ -25,7 +25,7 @@ Edit the photo of a supergroup/channel
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ photo - Json encoded InputChatPhoto
 
 Or, if you're into Lua:
 
-```
+```lua
 Updates = channels.editPhoto({channel=InputChannel, photo=InputChatPhoto, })
 ```
 

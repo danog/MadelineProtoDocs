@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messageEntityBotCommand = ['_' => 'messageEntityBotCommand', 'offset' => int, 'length' => int];
 ```  
 
@@ -33,10 +33,9 @@ $messageEntityBotCommand = ['_' => 'messageEntityBotCommand', 'offset' => int, '
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messageEntityBotCommand={_='messageEntityBotCommand', offset=int, length=int}
 
 ```

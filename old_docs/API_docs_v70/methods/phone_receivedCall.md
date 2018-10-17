@@ -24,7 +24,7 @@ Notify server that you received a call (server will refuse all incoming calls un
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ peer - Json encoded InputPhoneCall
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = phone.receivedCall({peer=InputPhoneCall, })
 ```
 

@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $help_configSimple = ['_' => 'help.configSimple', 'date' => int, 'expires' => int, 'dc_id' => int, 'ip_port_list' => [ipPort, ipPort]];
 ```  
 
@@ -35,10 +35,9 @@ $help_configSimple = ['_' => 'help.configSimple', 'date' => int, 'expires' => in
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 help_configSimple={_='help.configSimple', date=int, expires=int, dc_id=int, ip_port_list={ipPort}}
 
 ```

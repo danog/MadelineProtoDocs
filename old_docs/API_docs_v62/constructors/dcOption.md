@@ -26,7 +26,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $dcOption = ['_' => 'dcOption', 'ipv6' => Bool, 'media_only' => Bool, 'tcpo_only' => Bool, 'id' => int, 'ip_address' => 'string', 'port' => int];
 ```  
 
@@ -37,10 +37,9 @@ $dcOption = ['_' => 'dcOption', 'ipv6' => Bool, 'media_only' => Bool, 'tcpo_only
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 dcOption={_='dcOption', ipv6=Bool, media_only=Bool, tcpo_only=Bool, id=int, ip_address='string', port=int}
 
 ```

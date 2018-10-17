@@ -26,7 +26,7 @@ Add a sticker to recent stickers
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -59,7 +59,7 @@ unsave - Json encoded Bool
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = messages.saveRecentSticker({attached=Bool, id=InputDocument, unsave=Bool, })
 ```
 

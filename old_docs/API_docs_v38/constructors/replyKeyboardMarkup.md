@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $replyKeyboardMarkup = ['_' => 'replyKeyboardMarkup', 'rows' => [KeyboardButtonRow, KeyboardButtonRow]];
 ```  
 
@@ -32,10 +32,9 @@ $replyKeyboardMarkup = ['_' => 'replyKeyboardMarkup', 'rows' => [KeyboardButtonR
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 replyKeyboardMarkup={_='replyKeyboardMarkup', rows={KeyboardButtonRow}}
 
 ```

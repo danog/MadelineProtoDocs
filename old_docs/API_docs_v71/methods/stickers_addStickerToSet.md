@@ -25,7 +25,7 @@ Add sticker to stickerset
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ sticker - Json encoded InputStickerSetItem
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_StickerSet = stickers.addStickerToSet({stickerset=InputStickerSet, sticker=InputStickerSetItem, })
 ```
 

@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messageActionChatDeleteUser = ['_' => 'messageActionChatDeleteUser', 'user_id' => int];
 ```  
 
@@ -32,10 +32,9 @@ $messageActionChatDeleteUser = ['_' => 'messageActionChatDeleteUser', 'user_id' 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messageActionChatDeleteUser={_='messageActionChatDeleteUser', user_id=int}
 
 ```

@@ -28,7 +28,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $audio = ['_' => 'audio', 'id' => long, 'access_hash' => long, 'user_id' => int, 'date' => int, 'duration' => int, 'mime_type' => 'string', 'size' => int, 'dc_id' => int];
 ```  
 
@@ -39,10 +39,9 @@ $audio = ['_' => 'audio', 'id' => long, 'access_hash' => long, 'user_id' => int,
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 audio={_='audio', id=long, access_hash=long, user_id=int, date=int, duration=int, mime_type='string', size=int, dc_id=int}
 
 ```

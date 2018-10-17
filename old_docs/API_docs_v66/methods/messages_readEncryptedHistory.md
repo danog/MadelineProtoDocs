@@ -25,7 +25,7 @@ Mark messages as read in secret chats
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ max_date - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = messages.readEncryptedHistory({peer=InputEncryptedChat, max_date=int, })
 ```
 

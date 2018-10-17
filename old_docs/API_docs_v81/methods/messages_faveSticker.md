@@ -25,7 +25,7 @@ Add a sticker to favorites
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ unfave - Json encoded Bool
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = messages.faveSticker({id=InputDocument, unfave=Bool, })
 ```
 

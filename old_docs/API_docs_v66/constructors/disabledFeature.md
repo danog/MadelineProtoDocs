@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $disabledFeature = ['_' => 'disabledFeature', 'feature' => 'string', 'description' => 'string'];
 ```  
 
@@ -33,10 +33,9 @@ $disabledFeature = ['_' => 'disabledFeature', 'feature' => 'string', 'descriptio
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 disabledFeature={_='disabledFeature', feature='string', description='string'}
 
 ```

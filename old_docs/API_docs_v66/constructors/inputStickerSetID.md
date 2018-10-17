@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputStickerSetID = ['_' => 'inputStickerSetID', 'id' => long, 'access_hash' => long];
 ```  
 
@@ -33,10 +33,9 @@ $inputStickerSetID = ['_' => 'inputStickerSetID', 'id' => long, 'access_hash' =>
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputStickerSetID={_='inputStickerSetID', id=long, access_hash=long}
 
 ```

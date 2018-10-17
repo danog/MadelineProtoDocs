@@ -11,7 +11,7 @@ Gets full list of dialogs
 ### Example:
 
 
-```
+```php
 $MadelineProto = new \danog\MadelineProto\API();
 $MadelineProto->start();
 
@@ -20,7 +20,7 @@ $Peers = $MadelineProto->get_dialogs();
 
 Or, if you're into Lua:
 
-```
+```lua
 Peers = get_dialogs()
 ```
 

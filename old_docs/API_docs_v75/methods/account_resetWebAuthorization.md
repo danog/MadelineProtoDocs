@@ -24,7 +24,7 @@ Delete a certain telegram web login authorization
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -62,7 +62,7 @@ hash - Json encoded long
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = account.resetWebAuthorization({hash=long, })
 ```
 

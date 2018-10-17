@@ -26,7 +26,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateServiceNotification = ['_' => 'updateServiceNotification', 'popup' => Bool, 'inbox_date' => int, 'type' => 'string', 'message' => 'string', 'media' => MessageMedia, 'entities' => [MessageEntity, MessageEntity]];
 ```  
 
@@ -37,10 +37,9 @@ $updateServiceNotification = ['_' => 'updateServiceNotification', 'popup' => Boo
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateServiceNotification={_='updateServiceNotification', popup=Bool, inbox_date=int, type='string', message='string', media=MessageMedia, entities={MessageEntity}}
 
 ```

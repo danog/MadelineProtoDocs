@@ -24,7 +24,7 @@ Upload profile photo
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ file - Json encoded InputFile
 
 Or, if you're into Lua:
 
-```
+```lua
 photos_Photo = photos.uploadProfilePhoto({file=InputFile, })
 ```
 

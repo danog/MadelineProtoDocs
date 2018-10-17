@@ -24,7 +24,7 @@ Accept telegram's TOS
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -62,7 +62,7 @@ id - Json encoded DataJSON
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = help.acceptTermsOfService({id=DataJSON, })
 ```
 

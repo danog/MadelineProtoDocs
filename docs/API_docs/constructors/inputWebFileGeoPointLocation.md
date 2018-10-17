@@ -26,7 +26,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputWebFileGeoPointLocation = ['_' => 'inputWebFileGeoPointLocation', 'geo_point' => InputGeoPoint, 'access_hash' => long, 'w' => int, 'h' => int, 'zoom' => int, 'scale' => int];
 ```  
 
@@ -37,10 +37,9 @@ $inputWebFileGeoPointLocation = ['_' => 'inputWebFileGeoPointLocation', 'geo_poi
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputWebFileGeoPointLocation={_='inputWebFileGeoPointLocation', geo_point=InputGeoPoint, access_hash=long, w=int, h=int, zoom=int, scale=int}
 
 ```

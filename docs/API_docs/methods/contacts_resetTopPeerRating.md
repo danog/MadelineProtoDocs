@@ -25,7 +25,7 @@ Reset top peer rating for a certain category/peer
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -56,7 +56,7 @@ peer - Json encoded InputPeer
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = contacts.resetTopPeerRating({category=TopPeerCategory, peer=InputPeer, })
 ```
 

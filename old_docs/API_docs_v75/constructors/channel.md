@@ -41,7 +41,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $channel = ['_' => 'channel', 'creator' => Bool, 'left' => Bool, 'editor' => Bool, 'broadcast' => Bool, 'verified' => Bool, 'megagroup' => Bool, 'restricted' => Bool, 'democracy' => Bool, 'signatures' => Bool, 'min' => Bool, 'id' => int, 'access_hash' => long, 'title' => 'string', 'username' => 'string', 'photo' => ChatPhoto, 'date' => int, 'version' => int, 'restriction_reason' => 'string', 'admin_rights' => ChannelAdminRights, 'banned_rights' => ChannelBannedRights, 'participants_count' => int];
 ```  
 
@@ -52,10 +52,9 @@ $channel = ['_' => 'channel', 'creator' => Bool, 'left' => Bool, 'editor' => Boo
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 channel={_='channel', creator=Bool, left=Bool, editor=Bool, broadcast=Bool, verified=Bool, megagroup=Bool, restricted=Bool, democracy=Bool, signatures=Bool, min=Bool, id=int, access_hash=long, title='string', username='string', photo=ChatPhoto, date=int, version=int, restriction_reason='string', admin_rights=ChannelAdminRights, banned_rights=ChannelBannedRights, participants_count=int}
 
 ```

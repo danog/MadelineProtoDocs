@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $account_tmpPassword = ['_' => 'account.tmpPassword', 'tmp_password' => 'bytes', 'valid_until' => int];
 ```  
 
@@ -33,10 +33,9 @@ $account_tmpPassword = ['_' => 'account.tmpPassword', 'tmp_password' => 'bytes',
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 account_tmpPassword={_='account.tmpPassword', tmp_password='bytes', valid_until=int}
 
 ```

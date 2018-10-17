@@ -27,7 +27,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $game = ['_' => 'game', 'id' => long, 'access_hash' => long, 'short_name' => 'string', 'title' => 'string', 'description' => 'string', 'photo' => Photo, 'document' => Document];
 ```  
 
@@ -38,10 +38,9 @@ $game = ['_' => 'game', 'id' => long, 'access_hash' => long, 'short_name' => 'st
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 game={_='game', id=long, access_hash=long, short_name='string', title='string', description='string', photo=Photo, document=Document}
 
 ```

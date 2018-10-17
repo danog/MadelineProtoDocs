@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateChannelWebPage = ['_' => 'updateChannelWebPage', 'channel_id' => int, 'webpage' => WebPage, 'pts' => int, 'pts_count' => int];
 ```  
 
@@ -35,10 +35,9 @@ $updateChannelWebPage = ['_' => 'updateChannelWebPage', 'channel_id' => int, 'we
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateChannelWebPage={_='updateChannelWebPage', channel_id=int, webpage=WebPage, pts=int, pts_count=int}
 
 ```

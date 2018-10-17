@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputChatEmpty = ['_' => 'inputChatEmpty'];
 ```  
 
@@ -27,10 +27,9 @@ $inputChatEmpty = ['_' => 'inputChatEmpty'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputChatEmpty={_='inputChatEmpty'}
 
 ```

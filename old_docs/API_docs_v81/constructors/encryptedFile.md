@@ -25,7 +25,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $encryptedFile = ['_' => 'encryptedFile', 'id' => long, 'access_hash' => long, 'size' => int, 'dc_id' => int, 'key_fingerprint' => int];
 ```  
 
@@ -36,10 +36,9 @@ $encryptedFile = ['_' => 'encryptedFile', 'id' => long, 'access_hash' => long, '
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 encryptedFile={_='encryptedFile', id=long, access_hash=long, size=int, dc_id=int, key_fingerprint=int}
 
 ```

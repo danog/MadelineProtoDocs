@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messageActionSecureValuesSentMe = ['_' => 'messageActionSecureValuesSentMe', 'values' => [SecureValue, SecureValue], 'credentials' => SecureCredentialsEncrypted];
 ```  
 
@@ -33,10 +33,9 @@ $messageActionSecureValuesSentMe = ['_' => 'messageActionSecureValuesSentMe', 'v
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messageActionSecureValuesSentMe={_='messageActionSecureValuesSentMe', values={SecureValue}, credentials=SecureCredentialsEncrypted}
 
 ```

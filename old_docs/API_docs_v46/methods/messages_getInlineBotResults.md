@@ -26,7 +26,7 @@ Call inline bot
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -59,7 +59,7 @@ offset - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_BotResults = messages.getInlineBotResults({bot=InputUser, query='string', offset='string', })
 ```
 

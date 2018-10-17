@@ -29,7 +29,7 @@ Bots only: set the results of an inline query
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -77,7 +77,7 @@ next_offset - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = messages.setInlineBotResults({gallery=Bool, private=Bool, query_id=long, results={InputBotInlineResult}, cache_time=int, next_offset='string', })
 ```
 

@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messages_archivedStickers = ['_' => 'messages.archivedStickers', 'count' => int, 'sets' => [StickerSetCovered, StickerSetCovered]];
 ```  
 
@@ -33,10 +33,9 @@ $messages_archivedStickers = ['_' => 'messages.archivedStickers', 'count' => int
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messages_archivedStickers={_='messages.archivedStickers', count=int, sets={StickerSetCovered}}
 
 ```

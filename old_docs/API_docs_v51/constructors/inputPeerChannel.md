@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputPeerChannel = ['_' => 'inputPeerChannel', 'channel_id' => int, 'access_hash' => long];
 ```  
 
@@ -33,10 +33,9 @@ $inputPeerChannel = ['_' => 'inputPeerChannel', 'channel_id' => int, 'access_has
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputPeerChannel={_='inputPeerChannel', channel_id=int, access_hash=long}
 
 ```

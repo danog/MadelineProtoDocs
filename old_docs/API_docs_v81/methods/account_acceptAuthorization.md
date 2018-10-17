@@ -28,7 +28,7 @@ Accept telegram passport authorization
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -74,7 +74,7 @@ credentials - Json encoded SecureCredentialsEncrypted
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = account.acceptAuthorization({bot_id=int, scope='string', public_key='string', value_hashes={SecureValueHash}, credentials=SecureCredentialsEncrypted, })
 ```
 

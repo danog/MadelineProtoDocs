@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $wallPaperSolid = ['_' => 'wallPaperSolid', 'id' => int, 'title' => 'string', 'bg_color' => int, 'color' => int];
 ```  
 
@@ -35,10 +35,9 @@ $wallPaperSolid = ['_' => 'wallPaperSolid', 'id' => int, 'title' => 'string', 'b
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 wallPaperSolid={_='wallPaperSolid', id=int, title='string', bg_color=int, color=int}
 
 ```

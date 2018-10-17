@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateReadChannelOutbox = ['_' => 'updateReadChannelOutbox', 'channel_id' => int, 'max_id' => int];
 ```  
 
@@ -33,10 +33,9 @@ $updateReadChannelOutbox = ['_' => 'updateReadChannelOutbox', 'channel_id' => in
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateReadChannelOutbox={_='updateReadChannelOutbox', channel_id=int, max_id=int}
 
 ```

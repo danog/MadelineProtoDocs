@@ -25,7 +25,7 @@ Enable all users are admins in normal groups (not supergroups)
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -56,7 +56,7 @@ enabled - Json encoded Bool
 
 Or, if you're into Lua:
 
-```
+```lua
 Updates = messages.toggleChatAdmins({chat_id=InputPeer, enabled=Bool, })
 ```
 

@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $foundGif = ['_' => 'foundGif', 'webpage' => WebPage];
 ```  
 
@@ -32,10 +32,9 @@ $foundGif = ['_' => 'foundGif', 'webpage' => WebPage];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 foundGif={_='foundGif', webpage=WebPage}
 
 ```

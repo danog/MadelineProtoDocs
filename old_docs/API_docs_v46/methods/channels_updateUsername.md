@@ -25,7 +25,7 @@ Update the username of a supergroup/channel
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -56,7 +56,7 @@ username - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = channels.updateUsername({channel=InputChannel, username='string', })
 ```
 

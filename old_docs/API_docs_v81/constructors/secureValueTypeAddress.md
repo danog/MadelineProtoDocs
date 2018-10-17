@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $secureValueTypeAddress = ['_' => 'secureValueTypeAddress'];
 ```  
 
@@ -27,10 +27,9 @@ $secureValueTypeAddress = ['_' => 'secureValueTypeAddress'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 secureValueTypeAddress={_='secureValueTypeAddress'}
 
 ```

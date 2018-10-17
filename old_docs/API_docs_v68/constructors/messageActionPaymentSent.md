@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messageActionPaymentSent = ['_' => 'messageActionPaymentSent', 'currency' => 'string', 'total_amount' => long];
 ```  
 
@@ -33,10 +33,9 @@ $messageActionPaymentSent = ['_' => 'messageActionPaymentSent', 'currency' => 's
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messageActionPaymentSent={_='messageActionPaymentSent', currency='string', total_amount=long}
 
 ```

@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $encryptedMessage = ['_' => 'encryptedMessage', 'chat_id' => int, 'date' => int, 'decrypted_message' => DecryptedMessage, 'file' => EncryptedFile];
 ```  
 
@@ -35,10 +35,9 @@ $encryptedMessage = ['_' => 'encryptedMessage', 'chat_id' => int, 'date' => int,
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 encryptedMessage={_='encryptedMessage', chat_id=int, date=int, decrypted_message=DecryptedMessage, file=EncryptedFile}
 
 ```

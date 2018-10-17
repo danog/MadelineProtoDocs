@@ -24,7 +24,7 @@ Get terms of service
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ lang_code - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 help_TermsOfService = help.getTermsOfService({lang_code='string', })
 ```
 

@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputMediaUploadedThumbDocument = ['_' => 'inputMediaUploadedThumbDocument', 'file' => InputFile, 'thumb' => InputFile, 'file_name' => 'string', 'mime_type' => 'string'];
 ```  
 
@@ -35,10 +35,9 @@ $inputMediaUploadedThumbDocument = ['_' => 'inputMediaUploadedThumbDocument', 'f
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputMediaUploadedThumbDocument={_='inputMediaUploadedThumbDocument', file=InputFile, thumb=InputFile, file_name='string', mime_type='string'}
 
 ```

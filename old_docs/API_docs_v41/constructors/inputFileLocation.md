@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputFileLocation = ['_' => 'inputFileLocation', 'volume_id' => long, 'local_id' => int, 'secret' => long];
 ```  
 
@@ -34,10 +34,9 @@ $inputFileLocation = ['_' => 'inputFileLocation', 'volume_id' => long, 'local_id
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputFileLocation={_='inputFileLocation', volume_id=long, local_id=int, secret=long}
 
 ```

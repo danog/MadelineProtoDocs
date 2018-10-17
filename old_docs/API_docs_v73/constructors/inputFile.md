@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputFile = ['_' => 'inputFile', 'id' => long, 'parts' => int, 'name' => 'string', 'md5_checksum' => 'string'];
 ```  
 
@@ -35,10 +35,9 @@ $inputFile = ['_' => 'inputFile', 'id' => long, 'parts' => int, 'name' => 'strin
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputFile={_='inputFile', id=long, parts=int, name='string', md5_checksum='string'}
 
 ```

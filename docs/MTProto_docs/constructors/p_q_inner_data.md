@@ -28,7 +28,7 @@ PQ inner data
 
 ### Example:
 
-```
+```php
 $p_q_inner_data = ['_' => 'p_q_inner_data', 'pq' => 'bytes', 'p' => 'bytes', 'q' => 'bytes', 'nonce' => int128, 'server_nonce' => int128, 'new_nonce' => int256];
 ```  
 
@@ -39,10 +39,9 @@ $p_q_inner_data = ['_' => 'p_q_inner_data', 'pq' => 'bytes', 'p' => 'bytes', 'q'
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 p_q_inner_data={_='p_q_inner_data', pq='bytes', p='bytes', q='bytes', nonce=int128, server_nonce=int128, new_nonce=int256}
 
 ```

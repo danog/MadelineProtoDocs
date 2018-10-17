@@ -32,7 +32,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $authorization = ['_' => 'authorization', 'hash' => long, 'device_model' => 'string', 'platform' => 'string', 'system_version' => 'string', 'api_id' => int, 'app_name' => 'string', 'app_version' => 'string', 'date_created' => int, 'date_active' => int, 'ip' => 'string', 'country' => 'string', 'region' => 'string'];
 ```  
 
@@ -43,10 +43,9 @@ $authorization = ['_' => 'authorization', 'hash' => long, 'device_model' => 'str
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 authorization={_='authorization', hash=long, device_model='string', platform='string', system_version='string', api_id=int, app_name='string', app_version='string', date_created=int, date_active=int, ip='string', country='string', region='string'}
 
 ```

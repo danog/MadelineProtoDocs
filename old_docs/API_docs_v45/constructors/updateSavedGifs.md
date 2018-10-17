@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateSavedGifs = ['_' => 'updateSavedGifs'];
 ```  
 
@@ -27,10 +27,9 @@ $updateSavedGifs = ['_' => 'updateSavedGifs'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateSavedGifs={_='updateSavedGifs'}
 
 ```

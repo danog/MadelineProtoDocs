@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messages_affectedMessages = ['_' => 'messages.affectedMessages', 'pts' => int, 'pts_count' => int];
 ```  
 
@@ -33,10 +33,9 @@ $messages_affectedMessages = ['_' => 'messages.affectedMessages', 'pts' => int, 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messages_affectedMessages={_='messages.affectedMessages', pts=int, pts_count=int}
 
 ```

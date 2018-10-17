@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messageEntityTextUrl = ['_' => 'messageEntityTextUrl', 'offset' => int, 'length' => int, 'url' => 'string'];
 ```  
 
@@ -34,10 +34,9 @@ $messageEntityTextUrl = ['_' => 'messageEntityTextUrl', 'offset' => int, 'length
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messageEntityTextUrl={_='messageEntityTextUrl', offset=int, length=int, url='string'}
 
 ```

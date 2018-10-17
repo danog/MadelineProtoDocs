@@ -25,7 +25,7 @@ Save telegram passport secure value
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ secure_secret_id - Json encoded long
 
 Or, if you're into Lua:
 
-```
+```lua
 SecureValue = account.saveSecureValue({value=InputSecureValue, secure_secret_id=long, })
 ```
 

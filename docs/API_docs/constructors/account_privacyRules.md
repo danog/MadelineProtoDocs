@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $account_privacyRules = ['_' => 'account.privacyRules', 'rules' => [PrivacyRule, PrivacyRule], 'users' => [User, User]];
 ```  
 
@@ -33,10 +33,9 @@ $account_privacyRules = ['_' => 'account.privacyRules', 'rules' => [PrivacyRule,
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 account_privacyRules={_='account.privacyRules', rules={PrivacyRule}, users={User}}
 
 ```

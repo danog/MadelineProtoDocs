@@ -24,7 +24,7 @@ Destroy the current MTProto session
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -62,7 +62,7 @@ session_id - Json encoded long
 
 Or, if you're into Lua:
 
-```
+```lua
 DestroySessionRes = destroy_session({session_id=long, })
 ```
 

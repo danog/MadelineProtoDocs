@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $textEmail = ['_' => 'textEmail', 'text' => RichText, 'email' => 'string'];
 ```  
 
@@ -33,10 +33,9 @@ $textEmail = ['_' => 'textEmail', 'text' => RichText, 'email' => 'string'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 textEmail={_='textEmail', text=RichText, email='string'}
 
 ```

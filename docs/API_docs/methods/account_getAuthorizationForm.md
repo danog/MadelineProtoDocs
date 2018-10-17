@@ -26,7 +26,7 @@ Bots only: get telegram passport authorization form
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -68,7 +68,7 @@ public_key - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 account_AuthorizationForm = account.getAuthorizationForm({bot_id=int, scope='string', public_key='string', })
 ```
 

@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messageActionChatJoinedByLink = ['_' => 'messageActionChatJoinedByLink', 'inviter_id' => int];
 ```  
 
@@ -32,10 +32,9 @@ $messageActionChatJoinedByLink = ['_' => 'messageActionChatJoinedByLink', 'invit
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messageActionChatJoinedByLink={_='messageActionChatJoinedByLink', inviter_id=int}
 
 ```

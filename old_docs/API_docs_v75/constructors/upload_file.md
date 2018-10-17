@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $upload_file = ['_' => 'upload.file', 'type' => storage_FileType, 'mtime' => int, 'bytes' => 'bytes'];
 ```  
 
@@ -34,10 +34,9 @@ $upload_file = ['_' => 'upload.file', 'type' => storage_FileType, 'mtime' => int
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 upload_file={_='upload.file', type=storage_FileType, mtime=int, bytes='bytes'}
 
 ```

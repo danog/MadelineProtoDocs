@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $new_session_created = ['_' => 'new_session_created', 'first_msg_id' => long, 'unique_id' => long, 'server_salt' => long];
 ```  
 
@@ -34,10 +34,9 @@ $new_session_created = ['_' => 'new_session_created', 'first_msg_id' => long, 'u
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 new_session_created={_='new_session_created', first_msg_id=long, unique_id=long, server_salt=long}
 
 ```

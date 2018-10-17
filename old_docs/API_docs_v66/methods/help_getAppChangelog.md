@@ -24,7 +24,7 @@ Get the changelog of this app
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ prev_app_version - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 Updates = help.getAppChangelog({prev_app_version='string', })
 ```
 

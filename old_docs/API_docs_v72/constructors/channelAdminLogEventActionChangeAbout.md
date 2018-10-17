@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $channelAdminLogEventActionChangeAbout = ['_' => 'channelAdminLogEventActionChangeAbout', 'prev_value' => 'string', 'new_value' => 'string'];
 ```  
 
@@ -33,10 +33,9 @@ $channelAdminLogEventActionChangeAbout = ['_' => 'channelAdminLogEventActionChan
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 channelAdminLogEventActionChangeAbout={_='channelAdminLogEventActionChangeAbout', prev_value='string', new_value='string'}
 
 ```

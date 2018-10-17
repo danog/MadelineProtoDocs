@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateNotifySettings = ['_' => 'updateNotifySettings', 'peer' => NotifyPeer, 'notify_settings' => PeerNotifySettings];
 ```  
 
@@ -33,10 +33,9 @@ $updateNotifySettings = ['_' => 'updateNotifySettings', 'peer' => NotifyPeer, 'n
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateNotifySettings={_='updateNotifySettings', peer=NotifyPeer, notify_settings=PeerNotifySettings}
 
 ```

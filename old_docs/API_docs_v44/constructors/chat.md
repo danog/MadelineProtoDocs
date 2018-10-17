@@ -33,7 +33,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $chat = ['_' => 'chat', 'creator' => Bool, 'kicked' => Bool, 'left' => Bool, 'admins_enabled' => Bool, 'admin' => Bool, 'deactivated' => Bool, 'id' => int, 'title' => 'string', 'photo' => ChatPhoto, 'participants_count' => int, 'date' => int, 'version' => int, 'migrated_to' => InputChannel];
 ```  
 
@@ -44,10 +44,9 @@ $chat = ['_' => 'chat', 'creator' => Bool, 'kicked' => Bool, 'left' => Bool, 'ad
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 chat={_='chat', creator=Bool, kicked=Bool, left=Bool, admins_enabled=Bool, admin=Bool, deactivated=Bool, id=int, title='string', photo=ChatPhoto, participants_count=int, date=int, version=int, migrated_to=InputChannel}
 
 ```

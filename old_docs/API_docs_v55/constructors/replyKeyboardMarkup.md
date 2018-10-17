@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $replyKeyboardMarkup = ['_' => 'replyKeyboardMarkup', 'resize' => Bool, 'single_use' => Bool, 'selective' => Bool, 'rows' => [KeyboardButtonRow, KeyboardButtonRow]];
 ```  
 
@@ -35,10 +35,9 @@ $replyKeyboardMarkup = ['_' => 'replyKeyboardMarkup', 'resize' => Bool, 'single_
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 replyKeyboardMarkup={_='replyKeyboardMarkup', resize=Bool, single_use=Bool, selective=Bool, rows={KeyboardButtonRow}}
 
 ```

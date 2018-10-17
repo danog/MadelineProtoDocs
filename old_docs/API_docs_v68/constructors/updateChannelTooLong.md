@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateChannelTooLong = ['_' => 'updateChannelTooLong', 'channel_id' => int, 'pts' => int];
 ```  
 
@@ -33,10 +33,9 @@ $updateChannelTooLong = ['_' => 'updateChannelTooLong', 'channel_id' => int, 'pt
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateChannelTooLong={_='updateChannelTooLong', channel_id=int, pts=int}
 
 ```

@@ -25,7 +25,7 @@ Pin or unpin dialog
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -56,7 +56,7 @@ peer - Json encoded InputDialogPeer
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = messages.toggleDialogPin({pinned=Bool, peer=InputDialogPeer, })
 ```
 

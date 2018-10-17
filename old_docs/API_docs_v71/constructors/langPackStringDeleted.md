@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $langPackStringDeleted = ['_' => 'langPackStringDeleted', 'key' => 'string'];
 ```  
 
@@ -32,10 +32,9 @@ $langPackStringDeleted = ['_' => 'langPackStringDeleted', 'key' => 'string'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 langPackStringDeleted={_='langPackStringDeleted', key='string'}
 
 ```

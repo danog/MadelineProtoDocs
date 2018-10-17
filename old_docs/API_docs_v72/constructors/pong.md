@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $pong = ['_' => 'pong', 'msg_id' => long, 'ping_id' => long];
 ```  
 
@@ -33,10 +33,9 @@ $pong = ['_' => 'pong', 'msg_id' => long, 'ping_id' => long];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 pong={_='pong', msg_id=long, ping_id=long}
 
 ```

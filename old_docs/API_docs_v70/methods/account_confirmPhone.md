@@ -25,7 +25,7 @@ Confirm this phone number is associated to this account, obtain phone_code_hash 
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -56,7 +56,7 @@ phone_code - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = account.confirmPhone({phone_code_hash='string', phone_code='string', })
 ```
 

@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputMessagesFilterPhoneCalls = ['_' => 'inputMessagesFilterPhoneCalls', 'missed' => Bool];
 ```  
 
@@ -32,10 +32,9 @@ $inputMessagesFilterPhoneCalls = ['_' => 'inputMessagesFilterPhoneCalls', 'misse
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputMessagesFilterPhoneCalls={_='inputMessagesFilterPhoneCalls', missed=Bool}
 
 ```

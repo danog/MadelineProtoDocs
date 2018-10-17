@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $cdnFileHash = ['_' => 'cdnFileHash', 'offset' => int, 'limit' => int, 'hash' => 'bytes'];
 ```  
 
@@ -34,10 +34,9 @@ $cdnFileHash = ['_' => 'cdnFileHash', 'offset' => int, 'limit' => int, 'hash' =>
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 cdnFileHash={_='cdnFileHash', offset=int, limit=int, hash='bytes'}
 
 ```

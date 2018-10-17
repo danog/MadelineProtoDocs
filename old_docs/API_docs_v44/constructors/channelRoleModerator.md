@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $channelRoleModerator = ['_' => 'channelRoleModerator'];
 ```  
 
@@ -27,10 +27,9 @@ $channelRoleModerator = ['_' => 'channelRoleModerator'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 channelRoleModerator={_='channelRoleModerator'}
 
 ```

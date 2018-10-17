@@ -26,7 +26,7 @@ Send a media
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -68,7 +68,7 @@ media - Json encoded InputMedia
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_StatedMessage = messages.sendMedia({peer=InputPeer, reply_to_msg_id=int, media=InputMedia, })
 ```
 

@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $fileHash = ['_' => 'fileHash', 'offset' => int, 'limit' => int, 'hash' => 'bytes'];
 ```  
 
@@ -34,10 +34,9 @@ $fileHash = ['_' => 'fileHash', 'offset' => int, 'limit' => int, 'hash' => 'byte
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 fileHash={_='fileHash', offset=int, limit=int, hash='bytes'}
 
 ```

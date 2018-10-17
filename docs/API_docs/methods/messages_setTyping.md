@@ -25,7 +25,7 @@ Change typing status
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ action - Json encoded SendMessageAction
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = messages.setTyping({peer=InputPeer, action=SendMessageAction, })
 ```
 

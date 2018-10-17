@@ -25,7 +25,7 @@ Reorder sticker sets
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -56,7 +56,7 @@ order - Json encoded  array of long
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = messages.reorderStickerSets({masks=Bool, order={long}, })
 ```
 

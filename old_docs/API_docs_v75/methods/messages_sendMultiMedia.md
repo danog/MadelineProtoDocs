@@ -29,7 +29,7 @@ Send an album
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -77,7 +77,7 @@ multi_media - Json encoded  array of InputSingleMedia
 
 Or, if you're into Lua:
 
-```
+```lua
 Updates = messages.sendMultiMedia({silent=Bool, background=Bool, clear_draft=Bool, peer=InputPeer, reply_to_msg_id=int, multi_media={InputSingleMedia}, })
 ```
 

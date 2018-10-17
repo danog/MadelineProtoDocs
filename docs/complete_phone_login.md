@@ -18,7 +18,7 @@ You must then use [complete_2FA_login](complete_2FA_login.md) or [complete_signu
 ### Example:
 
 
-```
+```php
 $MadelineProto = new \danog\MadelineProto\API();
 
 $MadelineProto->phone_login(readline('Enter your phone number: '));

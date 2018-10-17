@@ -24,7 +24,7 @@ Get all contacts
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ hash - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 contacts_Contacts = contacts.getContacts({hash='string', })
 ```
 

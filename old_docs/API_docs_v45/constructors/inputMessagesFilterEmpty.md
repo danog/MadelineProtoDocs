@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputMessagesFilterEmpty = ['_' => 'inputMessagesFilterEmpty'];
 ```  
 
@@ -27,10 +27,9 @@ $inputMessagesFilterEmpty = ['_' => 'inputMessagesFilterEmpty'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputMessagesFilterEmpty={_='inputMessagesFilterEmpty'}
 
 ```

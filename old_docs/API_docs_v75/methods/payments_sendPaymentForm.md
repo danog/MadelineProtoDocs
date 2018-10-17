@@ -27,7 +27,7 @@ Bots only: send payment form
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -62,7 +62,7 @@ credentials - Json encoded InputPaymentCredentials
 
 Or, if you're into Lua:
 
-```
+```lua
 payments_PaymentResult = payments.sendPaymentForm({msg_id=int, requested_info_id='string', shipping_option_id='string', credentials=InputPaymentCredentials, })
 ```
 

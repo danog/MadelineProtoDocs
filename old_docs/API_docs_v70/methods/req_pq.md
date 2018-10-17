@@ -24,7 +24,7 @@ Requests PQ for factorization
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -62,7 +62,7 @@ nonce - Json encoded int128
 
 Or, if you're into Lua:
 
-```
+```lua
 ResPQ = req_pq({nonce=int128, })
 ```
 

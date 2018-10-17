@@ -25,7 +25,7 @@ Clear saved payments info
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -56,7 +56,7 @@ info - Json encoded Bool
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = payments.clearSavedInfo({credentials=Bool, info=Bool, })
 ```
 

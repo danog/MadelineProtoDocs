@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $popularContact = ['_' => 'popularContact', 'client_id' => long, 'importers' => int];
 ```  
 
@@ -33,10 +33,9 @@ $popularContact = ['_' => 'popularContact', 'client_id' => long, 'importers' => 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 popularContact={_='popularContact', client_id=long, importers=int}
 
 ```

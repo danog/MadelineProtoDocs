@@ -26,7 +26,7 @@ Get the callback answer of a bot (after clicking a button)
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -59,7 +59,7 @@ data - Json encoded bytes
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_BotCallbackAnswer = messages.getBotCallbackAnswer({peer=InputPeer, msg_id=int, data='bytes', })
 ```
 

@@ -24,7 +24,7 @@ Update the profile photo (use photos->uploadProfilePhoto to upload the photo)
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ id - Json encoded InputPhoto
 
 Or, if you're into Lua:
 
-```
+```lua
 UserProfilePhoto = photos.updateProfilePhoto({id=InputPhoto, })
 ```
 

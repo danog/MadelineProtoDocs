@@ -10,7 +10,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 The following syntax can also be used:
 
-```
+```php
 $InputEncryptedFile = 'filename.mp4'; // The file path can also be used
 ```
 

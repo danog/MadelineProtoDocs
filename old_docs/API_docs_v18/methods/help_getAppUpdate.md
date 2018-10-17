@@ -27,7 +27,7 @@ Get info about app updates
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -62,7 +62,7 @@ lang_code - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 help_AppUpdate = help.getAppUpdate({device_model='string', system_version='string', app_version='string', lang_code='string', })
 ```
 

@@ -24,7 +24,7 @@ Get all channels you left
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -62,7 +62,7 @@ offset - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_Chats = channels.getLeftChannels({offset=int, })
 ```
 

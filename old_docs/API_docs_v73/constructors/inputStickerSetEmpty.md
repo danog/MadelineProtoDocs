@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputStickerSetEmpty = ['_' => 'inputStickerSetEmpty'];
 ```  
 
@@ -27,10 +27,9 @@ $inputStickerSetEmpty = ['_' => 'inputStickerSetEmpty'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputStickerSetEmpty={_='inputStickerSetEmpty'}
 
 ```

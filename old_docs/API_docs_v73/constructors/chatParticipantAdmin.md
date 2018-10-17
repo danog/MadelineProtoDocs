@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $chatParticipantAdmin = ['_' => 'chatParticipantAdmin', 'user_id' => int, 'inviter_id' => int, 'date' => int];
 ```  
 
@@ -34,10 +34,9 @@ $chatParticipantAdmin = ['_' => 'chatParticipantAdmin', 'user_id' => int, 'invit
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 chatParticipantAdmin={_='chatParticipantAdmin', user_id=int, inviter_id=int, date=int}
 
 ```

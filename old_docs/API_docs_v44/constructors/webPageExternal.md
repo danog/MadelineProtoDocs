@@ -30,7 +30,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $webPageExternal = ['_' => 'webPageExternal', 'url' => 'string', 'display_url' => 'string', 'type' => 'string', 'title' => 'string', 'description' => 'string', 'thumb_url' => 'string', 'content_url' => 'string', 'w' => int, 'h' => int, 'duration' => int];
 ```  
 
@@ -41,10 +41,9 @@ $webPageExternal = ['_' => 'webPageExternal', 'url' => 'string', 'display_url' =
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 webPageExternal={_='webPageExternal', url='string', display_url='string', type='string', title='string', description='string', thumb_url='string', content_url='string', w=int, h=int, duration=int}
 
 ```

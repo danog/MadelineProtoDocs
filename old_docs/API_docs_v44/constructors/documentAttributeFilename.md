@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $documentAttributeFilename = ['_' => 'documentAttributeFilename', 'file_name' => 'string'];
 ```  
 
@@ -32,10 +32,9 @@ $documentAttributeFilename = ['_' => 'documentAttributeFilename', 'file_name' =>
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 documentAttributeFilename={_='documentAttributeFilename', file_name='string'}
 
 ```

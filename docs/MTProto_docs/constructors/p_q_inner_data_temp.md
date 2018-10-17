@@ -27,7 +27,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $p_q_inner_data_temp = ['_' => 'p_q_inner_data_temp', 'pq' => 'bytes', 'p' => 'bytes', 'q' => 'bytes', 'nonce' => int128, 'server_nonce' => int128, 'new_nonce' => int256, 'expires_in' => int];
 ```  
 
@@ -38,10 +38,9 @@ $p_q_inner_data_temp = ['_' => 'p_q_inner_data_temp', 'pq' => 'bytes', 'p' => 'b
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 p_q_inner_data_temp={_='p_q_inner_data_temp', pq='bytes', p='bytes', q='bytes', nonce=int128, server_nonce=int128, new_nonce=int256, expires_in=int}
 
 ```

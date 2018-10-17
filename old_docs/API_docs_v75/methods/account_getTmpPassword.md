@@ -25,7 +25,7 @@ Get temporary password for buying products through bots
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -56,7 +56,7 @@ period - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 account_TmpPassword = account.getTmpPassword({password_hash='bytes', period=int, })
 ```
 

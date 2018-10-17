@@ -12,7 +12,7 @@ Points to some file
 
 The following syntax can also be used:
 
-```
+```php
 $InputFile = 'filename.mp4'; // The file path can also be used
 ```
 

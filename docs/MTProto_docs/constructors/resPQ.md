@@ -26,7 +26,7 @@ Contains pq to factorize
 
 ### Example:
 
-```
+```php
 $resPQ = ['_' => 'resPQ', 'nonce' => int128, 'server_nonce' => int128, 'pq' => 'bytes', 'server_public_key_fingerprints' => [long, long]];
 ```  
 
@@ -37,10 +37,9 @@ $resPQ = ['_' => 'resPQ', 'nonce' => int128, 'server_nonce' => int128, 'pq' => '
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 resPQ={_='resPQ', nonce=int128, server_nonce=int128, pq='bytes', server_public_key_fingerprints={long}}
 
 ```

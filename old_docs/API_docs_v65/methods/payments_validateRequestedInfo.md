@@ -26,7 +26,7 @@ Validate requested payment info
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -59,7 +59,7 @@ info - Json encoded PaymentRequestedInfo
 
 Or, if you're into Lua:
 
-```
+```lua
 payments_ValidatedRequestedInfo = payments.validateRequestedInfo({save=Bool, msg_id=int, info=PaymentRequestedInfo, })
 ```
 

@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $userProfilePhoto = ['_' => 'userProfilePhoto', 'photo_id' => long, 'photo_small' => FileLocation, 'photo_big' => FileLocation];
 ```  
 
@@ -34,10 +34,9 @@ $userProfilePhoto = ['_' => 'userProfilePhoto', 'photo_id' => long, 'photo_small
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 userProfilePhoto={_='userProfilePhoto', photo_id=long, photo_small=FileLocation, photo_big=FileLocation}
 
 ```

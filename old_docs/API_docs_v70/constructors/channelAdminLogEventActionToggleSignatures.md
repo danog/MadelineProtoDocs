@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $channelAdminLogEventActionToggleSignatures = ['_' => 'channelAdminLogEventActionToggleSignatures', 'new_value' => Bool];
 ```  
 
@@ -32,10 +32,9 @@ $channelAdminLogEventActionToggleSignatures = ['_' => 'channelAdminLogEventActio
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 channelAdminLogEventActionToggleSignatures={_='channelAdminLogEventActionToggleSignatures', new_value=Bool}
 
 ```

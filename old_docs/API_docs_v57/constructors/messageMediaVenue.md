@@ -25,7 +25,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messageMediaVenue = ['_' => 'messageMediaVenue', 'geo' => GeoPoint, 'title' => 'string', 'address' => 'string', 'provider' => 'string', 'venue_id' => 'string'];
 ```  
 
@@ -36,10 +36,9 @@ $messageMediaVenue = ['_' => 'messageMediaVenue', 'geo' => GeoPoint, 'title' => 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messageMediaVenue={_='messageMediaVenue', geo=GeoPoint, title='string', address='string', provider='string', venue_id='string'}
 
 ```

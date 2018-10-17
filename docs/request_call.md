@@ -18,7 +18,7 @@ Returns the call
 ### Example:
 
 
-```
+```php
 $MadelineProto = new \danog\MadelineProto\API();
 $MadelineProto->start();
 

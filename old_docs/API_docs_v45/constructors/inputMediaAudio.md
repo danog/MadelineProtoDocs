@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputMediaAudio = ['_' => 'inputMediaAudio', 'id' => InputAudio];
 ```  
 
@@ -32,10 +32,9 @@ $inputMediaAudio = ['_' => 'inputMediaAudio', 'id' => InputAudio];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputMediaAudio={_='inputMediaAudio', id=InputAudio}
 
 ```

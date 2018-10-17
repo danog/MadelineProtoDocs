@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $sendMessageUploadDocumentAction_17 = ['_' => 'sendMessageUploadDocumentAction'];
 ```  
 
@@ -27,10 +27,9 @@ $sendMessageUploadDocumentAction_17 = ['_' => 'sendMessageUploadDocumentAction']
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 sendMessageUploadDocumentAction_17={_='sendMessageUploadDocumentAction'}
 
 ```

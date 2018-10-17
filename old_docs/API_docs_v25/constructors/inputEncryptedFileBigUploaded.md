@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputEncryptedFileBigUploaded = ['_' => 'inputEncryptedFileBigUploaded', 'id' => long, 'parts' => int, 'key_fingerprint' => int];
 ```  
 
@@ -34,10 +34,9 @@ $inputEncryptedFileBigUploaded = ['_' => 'inputEncryptedFileBigUploaded', 'id' =
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputEncryptedFileBigUploaded={_='inputEncryptedFileBigUploaded', id=long, parts=int, key_fingerprint=int}
 
 ```

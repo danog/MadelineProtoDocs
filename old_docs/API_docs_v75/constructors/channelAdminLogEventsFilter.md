@@ -34,7 +34,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $channelAdminLogEventsFilter = ['_' => 'channelAdminLogEventsFilter', 'join' => Bool, 'leave' => Bool, 'invite' => Bool, 'ban' => Bool, 'unban' => Bool, 'kick' => Bool, 'unkick' => Bool, 'promote' => Bool, 'demote' => Bool, 'info' => Bool, 'settings' => Bool, 'pinned' => Bool, 'edit' => Bool, 'delete' => Bool];
 ```  
 
@@ -45,10 +45,9 @@ $channelAdminLogEventsFilter = ['_' => 'channelAdminLogEventsFilter', 'join' => 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 channelAdminLogEventsFilter={_='channelAdminLogEventsFilter', join=Bool, leave=Bool, invite=Bool, ban=Bool, unban=Bool, kick=Bool, unkick=Bool, promote=Bool, demote=Bool, info=Bool, settings=Bool, pinned=Bool, edit=Bool, delete=Bool}
 
 ```

@@ -25,7 +25,7 @@ Delete the history of a supergroup/channel
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ max_id - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = channels.deleteHistory({channel=InputChannel, max_id=int, })
 ```
 

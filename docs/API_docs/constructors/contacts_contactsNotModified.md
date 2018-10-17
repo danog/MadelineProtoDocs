@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $contacts_contactsNotModified = ['_' => 'contacts.contactsNotModified'];
 ```  
 
@@ -27,10 +27,9 @@ $contacts_contactsNotModified = ['_' => 'contacts.contactsNotModified'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 contacts_contactsNotModified={_='contacts.contactsNotModified'}
 
 ```

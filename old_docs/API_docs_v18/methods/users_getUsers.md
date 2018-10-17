@@ -24,7 +24,7 @@ Get info about users
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -62,7 +62,7 @@ id - Json encoded  array of InputUser
 
 Or, if you're into Lua:
 
-```
+```lua
 Vector_of_User = users.getUsers({id={InputUser}, })
 ```
 

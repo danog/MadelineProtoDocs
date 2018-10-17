@@ -25,7 +25,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $encryptedChatWaiting = ['_' => 'encryptedChatWaiting', 'id' => int, 'access_hash' => long, 'date' => int, 'admin_id' => int, 'participant_id' => int];
 ```  
 
@@ -36,10 +36,9 @@ $encryptedChatWaiting = ['_' => 'encryptedChatWaiting', 'id' => int, 'access_has
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 encryptedChatWaiting={_='encryptedChatWaiting', id=int, access_hash=long, date=int, admin_id=int, participant_id=int}
 
 ```

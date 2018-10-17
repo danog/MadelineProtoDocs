@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateDcOptions = ['_' => 'updateDcOptions', 'dc_options' => [DcOption, DcOption]];
 ```  
 
@@ -32,10 +32,9 @@ $updateDcOptions = ['_' => 'updateDcOptions', 'dc_options' => [DcOption, DcOptio
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateDcOptions={_='updateDcOptions', dc_options={DcOption}}
 
 ```

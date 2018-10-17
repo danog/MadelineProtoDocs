@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $auth_checkedPhone = ['_' => 'auth.checkedPhone', 'phone_registered' => Bool, 'phone_invited' => Bool];
 ```  
 
@@ -33,10 +33,9 @@ $auth_checkedPhone = ['_' => 'auth.checkedPhone', 'phone_registered' => Bool, 'p
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 auth_checkedPhone={_='auth.checkedPhone', phone_registered=Bool, phone_invited=Bool}
 
 ```

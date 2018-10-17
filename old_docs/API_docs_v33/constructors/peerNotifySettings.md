@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $peerNotifySettings = ['_' => 'peerNotifySettings', 'mute_until' => int, 'sound' => 'string', 'show_previews' => Bool, 'events_mask' => int];
 ```  
 
@@ -35,10 +35,9 @@ $peerNotifySettings = ['_' => 'peerNotifySettings', 'mute_until' => int, 'sound'
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 peerNotifySettings={_='peerNotifySettings', mute_until=int, sound='string', show_previews=Bool, events_mask=int}
 
 ```

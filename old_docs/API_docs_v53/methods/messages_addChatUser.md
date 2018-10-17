@@ -26,7 +26,7 @@ Add a user to a normal chat (use channels->inviteToChannel for supergroups)
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -59,7 +59,7 @@ fwd_limit - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 Updates = messages.addChatUser({chat_id=InputPeer, user_id=InputUser, fwd_limit=int, })
 ```
 

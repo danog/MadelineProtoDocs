@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputMessageEntityMentionName = ['_' => 'inputMessageEntityMentionName', 'offset' => int, 'length' => int, 'user_id' => InputUser];
 ```  
 
@@ -34,10 +34,9 @@ $inputMessageEntityMentionName = ['_' => 'inputMessageEntityMentionName', 'offse
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputMessageEntityMentionName={_='inputMessageEntityMentionName', offset=int, length=int, user_id=InputUser}
 
 ```

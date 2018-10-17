@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $accessPointRule = ['_' => 'accessPointRule', 'phone_prefix_rules' => 'string', 'dc_id' => int, 'ips' => [IpPort, IpPort]];
 ```  
 
@@ -34,10 +34,9 @@ $accessPointRule = ['_' => 'accessPointRule', 'phone_prefix_rules' => 'string', 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 accessPointRule={_='accessPointRule', phone_prefix_rules='string', dc_id=int, ips={IpPort}}
 
 ```

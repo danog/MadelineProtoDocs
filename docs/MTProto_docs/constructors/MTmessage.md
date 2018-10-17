@@ -26,7 +26,7 @@ MTProto message
 
 ### Example:
 
-```
+```php
 $MTmessage = ['_' => 'MTmessage', 'msg_id' => long, 'seqno' => int, 'bytes' => int, 'body' => Object];
 ```  
 
@@ -37,10 +37,9 @@ $MTmessage = ['_' => 'MTmessage', 'msg_id' => long, 'seqno' => int, 'bytes' => i
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 MTmessage={_='MTmessage', msg_id=long, seqno=int, bytes=int, body=Object}
 
 ```

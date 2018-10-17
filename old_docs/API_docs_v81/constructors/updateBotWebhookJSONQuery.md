@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateBotWebhookJSONQuery = ['_' => 'updateBotWebhookJSONQuery', 'query_id' => long, 'data' => DataJSON, 'timeout' => int];
 ```  
 
@@ -34,10 +34,9 @@ $updateBotWebhookJSONQuery = ['_' => 'updateBotWebhookJSONQuery', 'query_id' => 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateBotWebhookJSONQuery={_='updateBotWebhookJSONQuery', query_id=long, data=DataJSON, timeout=int}
 
 ```

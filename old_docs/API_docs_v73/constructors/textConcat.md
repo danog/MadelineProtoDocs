@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $textConcat = ['_' => 'textConcat', 'texts' => [RichText, RichText]];
 ```  
 
@@ -32,10 +32,9 @@ $textConcat = ['_' => 'textConcat', 'texts' => [RichText, RichText]];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 textConcat={_='textConcat', texts={RichText}}
 
 ```

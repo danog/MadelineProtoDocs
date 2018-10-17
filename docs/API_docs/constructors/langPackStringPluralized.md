@@ -27,7 +27,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $langPackStringPluralized = ['_' => 'langPackStringPluralized', 'key' => 'string', 'zero_value' => 'string', 'one_value' => 'string', 'two_value' => 'string', 'few_value' => 'string', 'many_value' => 'string', 'other_value' => 'string'];
 ```  
 
@@ -38,10 +38,9 @@ $langPackStringPluralized = ['_' => 'langPackStringPluralized', 'key' => 'string
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 langPackStringPluralized={_='langPackStringPluralized', key='string', zero_value='string', one_value='string', two_value='string', few_value='string', many_value='string', other_value='string'}
 
 ```

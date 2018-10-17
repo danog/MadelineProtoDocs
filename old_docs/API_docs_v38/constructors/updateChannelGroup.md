@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateChannelGroup = ['_' => 'updateChannelGroup', 'channel_id' => int, 'group' => MessageGroup];
 ```  
 
@@ -33,10 +33,9 @@ $updateChannelGroup = ['_' => 'updateChannelGroup', 'channel_id' => int, 'group'
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateChannelGroup={_='updateChannelGroup', channel_id=int, group=MessageGroup}
 
 ```

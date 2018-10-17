@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messages_foundStickerSetsNotModified = ['_' => 'messages.foundStickerSetsNotModified'];
 ```  
 
@@ -27,10 +27,9 @@ $messages_foundStickerSetsNotModified = ['_' => 'messages.foundStickerSetsNotMod
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messages_foundStickerSetsNotModified={_='messages.foundStickerSetsNotModified'}
 
 ```

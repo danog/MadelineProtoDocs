@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $destroy_auth_key_ok = ['_' => 'destroy_auth_key_ok'];
 ```  
 
@@ -27,10 +27,9 @@ $destroy_auth_key_ok = ['_' => 'destroy_auth_key_ok'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 destroy_auth_key_ok={_='destroy_auth_key_ok'}
 
 ```

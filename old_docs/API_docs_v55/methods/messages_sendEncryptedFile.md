@@ -26,7 +26,7 @@ Send a file to a secret chat
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -68,7 +68,7 @@ file - Json encoded InputEncryptedFile
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_SentEncryptedMessage = messages.sendEncryptedFile({peer=InputEncryptedChat, message=DecryptedMessage, file=InputEncryptedFile, })
 ```
 

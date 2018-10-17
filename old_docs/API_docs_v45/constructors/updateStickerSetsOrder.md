@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateStickerSetsOrder = ['_' => 'updateStickerSetsOrder', 'order' => [long, long]];
 ```  
 
@@ -32,10 +32,9 @@ $updateStickerSetsOrder = ['_' => 'updateStickerSetsOrder', 'order' => [long, lo
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateStickerSetsOrder={_='updateStickerSetsOrder', order={long}}
 
 ```

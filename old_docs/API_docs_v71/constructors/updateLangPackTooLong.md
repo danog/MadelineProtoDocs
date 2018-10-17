@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateLangPackTooLong = ['_' => 'updateLangPackTooLong'];
 ```  
 
@@ -27,10 +27,9 @@ $updateLangPackTooLong = ['_' => 'updateLangPackTooLong'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateLangPackTooLong={_='updateLangPackTooLong'}
 
 ```

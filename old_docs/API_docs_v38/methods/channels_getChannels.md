@@ -24,7 +24,7 @@ Get info about multiple channels/supergroups
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -62,7 +62,7 @@ id - Json encoded  array of InputChannel
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_Chats = channels.getChannels({id={InputChannel}, })
 ```
 

@@ -26,7 +26,7 @@ Update profile info
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -59,7 +59,7 @@ about - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 User = account.updateProfile({first_name='string', last_name='string', about='string', })
 ```
 

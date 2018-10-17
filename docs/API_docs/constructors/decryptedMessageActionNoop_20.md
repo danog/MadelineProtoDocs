@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $decryptedMessageActionNoop_20 = ['_' => 'decryptedMessageActionNoop'];
 ```  
 
@@ -27,10 +27,9 @@ $decryptedMessageActionNoop_20 = ['_' => 'decryptedMessageActionNoop'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 decryptedMessageActionNoop_20={_='decryptedMessageActionNoop'}
 
 ```

@@ -25,7 +25,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $photoSize = ['_' => 'photoSize', 'type' => 'string', 'location' => FileLocation, 'w' => int, 'h' => int, 'size' => int];
 ```  
 
@@ -36,10 +36,9 @@ $photoSize = ['_' => 'photoSize', 'type' => 'string', 'location' => FileLocation
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 photoSize={_='photoSize', type='string', location=FileLocation, w=int, h=int, size=int}
 
 ```

@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $decryptedMessageActionCommitKey_20 = ['_' => 'decryptedMessageActionCommitKey', 'exchange_id' => long, 'key_fingerprint' => long];
 ```  
 
@@ -33,10 +33,9 @@ $decryptedMessageActionCommitKey_20 = ['_' => 'decryptedMessageActionCommitKey',
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 decryptedMessageActionCommitKey_20={_='decryptedMessageActionCommitKey', exchange_id=long, key_fingerprint=long}
 
 ```

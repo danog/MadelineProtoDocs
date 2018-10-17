@@ -24,7 +24,7 @@ Get webpage preview
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ message - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 MessageMedia = messages.getWebPagePreview({message='string', })
 ```
 

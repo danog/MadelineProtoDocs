@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $textUnderline = ['_' => 'textUnderline', 'text' => RichText];
 ```  
 
@@ -32,10 +32,9 @@ $textUnderline = ['_' => 'textUnderline', 'text' => RichText];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 textUnderline={_='textUnderline', text=RichText}
 
 ```

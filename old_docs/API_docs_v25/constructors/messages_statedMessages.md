@@ -25,7 +25,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messages_statedMessages = ['_' => 'messages.statedMessages', 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User], 'pts' => int, 'pts_count' => int];
 ```  
 
@@ -36,10 +36,9 @@ $messages_statedMessages = ['_' => 'messages.statedMessages', 'messages' => [Mes
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messages_statedMessages={_='messages.statedMessages', messages={Message}, chats={Chat}, users={User}, pts=int, pts_count=int}
 
 ```

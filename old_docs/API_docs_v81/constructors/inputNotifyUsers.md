@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputNotifyUsers = ['_' => 'inputNotifyUsers'];
 ```  
 
@@ -27,10 +27,9 @@ $inputNotifyUsers = ['_' => 'inputNotifyUsers'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputNotifyUsers={_='inputNotifyUsers'}
 
 ```

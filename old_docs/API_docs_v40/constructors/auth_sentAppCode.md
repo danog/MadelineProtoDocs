@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $auth_sentAppCode = ['_' => 'auth.sentAppCode', 'phone_registered' => Bool, 'phone_code_hash' => 'string', 'send_call_timeout' => int, 'is_password' => Bool];
 ```  
 
@@ -35,10 +35,9 @@ $auth_sentAppCode = ['_' => 'auth.sentAppCode', 'phone_registered' => Bool, 'pho
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 auth_sentAppCode={_='auth.sentAppCode', phone_registered=Bool, phone_code_hash='string', send_call_timeout=int, is_password=Bool}
 
 ```

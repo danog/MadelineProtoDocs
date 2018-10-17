@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateUserName = ['_' => 'updateUserName', 'user_id' => int, 'first_name' => 'string', 'last_name' => 'string', 'username' => 'string'];
 ```  
 
@@ -35,10 +35,9 @@ $updateUserName = ['_' => 'updateUserName', 'user_id' => int, 'first_name' => 's
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateUserName={_='updateUserName', user_id=int, first_name='string', last_name='string', username='string'}
 
 ```

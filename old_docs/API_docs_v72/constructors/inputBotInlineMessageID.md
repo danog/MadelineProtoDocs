@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputBotInlineMessageID = ['_' => 'inputBotInlineMessageID', 'dc_id' => int, 'id' => long, 'access_hash' => long];
 ```  
 
@@ -34,10 +34,9 @@ $inputBotInlineMessageID = ['_' => 'inputBotInlineMessageID', 'dc_id' => int, 'i
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputBotInlineMessageID={_='inputBotInlineMessageID', dc_id=int, id=long, access_hash=long}
 
 ```

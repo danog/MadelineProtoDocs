@@ -25,7 +25,7 @@ Delete all messages of a user in a channel/supergroup
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -56,7 +56,7 @@ user_id - Json encoded InputUser
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_AffectedHistory = channels.deleteUserHistory({channel=InputChannel, user_id=InputUser, })
 ```
 

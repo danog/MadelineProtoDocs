@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $pageBlockPullquote = ['_' => 'pageBlockPullquote', 'text' => RichText, 'caption' => RichText];
 ```  
 
@@ -33,10 +33,9 @@ $pageBlockPullquote = ['_' => 'pageBlockPullquote', 'text' => RichText, 'caption
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 pageBlockPullquote={_='pageBlockPullquote', text=RichText, caption=RichText}
 
 ```

@@ -23,7 +23,7 @@ Invisible anchor on a page which can be used in a URL to open a page from the sp
 
 ### Example:
 
-```
+```php
 $pageBlockAnchor = ['_' => 'pageBlockAnchor', 'name' => 'string'];
 ```  
 
@@ -34,10 +34,9 @@ $pageBlockAnchor = ['_' => 'pageBlockAnchor', 'name' => 'string'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 pageBlockAnchor={_='pageBlockAnchor', name='string'}
 
 ```

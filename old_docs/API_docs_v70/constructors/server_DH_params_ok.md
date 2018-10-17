@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $server_DH_params_ok = ['_' => 'server_DH_params_ok', 'nonce' => int128, 'server_nonce' => int128, 'encrypted_answer' => 'string'];
 ```  
 
@@ -34,10 +34,9 @@ $server_DH_params_ok = ['_' => 'server_DH_params_ok', 'nonce' => int128, 'server
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 server_DH_params_ok={_='server_DH_params_ok', nonce=int128, server_nonce=int128, encrypted_answer='string'}
 
 ```

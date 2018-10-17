@@ -12,7 +12,7 @@ Logs you out
 ### Example:
 
 
-```
+```php
 $MadelineProto->logout();
 ```
 

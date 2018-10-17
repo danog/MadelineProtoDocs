@@ -33,7 +33,7 @@ Edit a message
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -72,7 +72,7 @@ geo_point - Json encoded InputGeoPoint
 
 Or, if you're into Lua:
 
-```
+```lua
 Updates = messages.editMessage({no_webpage=Bool, stop_geo_live=Bool, peer=InputPeer, id=int, message='string', media=InputMedia, reply_markup=ReplyMarkup, entities={MessageEntity}, parse_mode='string', geo_point=InputGeoPoint, })
 ```
 

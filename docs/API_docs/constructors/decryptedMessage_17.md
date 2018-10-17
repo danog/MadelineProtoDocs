@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $decryptedMessage_17 = ['_' => 'decryptedMessage', 'ttl' => int, 'message' => 'string', 'media' => DecryptedMessageMedia];
 ```  
 
@@ -34,10 +34,9 @@ $decryptedMessage_17 = ['_' => 'decryptedMessage', 'ttl' => int, 'message' => 's
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 decryptedMessage_17={_='decryptedMessage', ttl=int, message='string', media=DecryptedMessageMedia}
 
 ```

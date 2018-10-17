@@ -26,7 +26,7 @@ Start a bot
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -59,7 +59,7 @@ start_param - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 Updates = messages.startBot({bot=InputUser, chat_id=InputPeer, start_param='string', })
 ```
 

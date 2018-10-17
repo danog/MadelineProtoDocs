@@ -27,7 +27,7 @@ Get the profile photos of a user
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -71,7 +71,7 @@ limit - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 photos_Photos = photos.getUserPhotos({user_id=InputUser, offset=int, max_id=int, limit=int, })
 ```
 

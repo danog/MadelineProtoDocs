@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $keyboardButtonBuy = ['_' => 'keyboardButtonBuy', 'text' => 'string'];
 ```  
 
@@ -32,10 +32,9 @@ $keyboardButtonBuy = ['_' => 'keyboardButtonBuy', 'text' => 'string'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 keyboardButtonBuy={_='keyboardButtonBuy', text='string'}
 
 ```

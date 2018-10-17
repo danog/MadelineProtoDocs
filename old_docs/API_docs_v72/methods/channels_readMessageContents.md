@@ -25,7 +25,7 @@ Mark channel/supergroup messages as read
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -56,7 +56,7 @@ id - Json encoded  array of int
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = channels.readMessageContents({channel=InputChannel, id={int}, })
 ```
 

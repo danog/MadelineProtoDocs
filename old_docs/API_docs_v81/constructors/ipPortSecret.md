@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $ipPortSecret = ['_' => 'ipPortSecret', 'ipv4' => int, 'port' => int, 'secret' => 'bytes'];
 ```  
 
@@ -34,10 +34,9 @@ $ipPortSecret = ['_' => 'ipPortSecret', 'ipv4' => int, 'port' => int, 'secret' =
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 ipPortSecret={_='ipPortSecret', ipv4=int, port=int, secret='bytes'}
 
 ```

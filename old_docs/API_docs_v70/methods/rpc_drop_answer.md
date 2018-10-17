@@ -24,7 +24,7 @@ Do not send answer to provided request
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -62,7 +62,7 @@ req_msg_id - Json encoded long
 
 Or, if you're into Lua:
 
-```
+```lua
 RpcDropAnswer = rpc_drop_answer({req_msg_id=long, })
 ```
 

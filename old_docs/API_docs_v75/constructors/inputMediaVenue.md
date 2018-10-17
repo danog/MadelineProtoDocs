@@ -26,7 +26,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputMediaVenue = ['_' => 'inputMediaVenue', 'geo_point' => InputGeoPoint, 'title' => 'string', 'address' => 'string', 'provider' => 'string', 'venue_id' => 'string', 'venue_type' => 'string'];
 ```  
 
@@ -37,10 +37,9 @@ $inputMediaVenue = ['_' => 'inputMediaVenue', 'geo_point' => InputGeoPoint, 'tit
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputMediaVenue={_='inputMediaVenue', geo_point=InputGeoPoint, title='string', address='string', provider='string', venue_id='string', venue_type='string'}
 
 ```

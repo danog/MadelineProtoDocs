@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $account_sentEmailCode = ['_' => 'account.sentEmailCode', 'email_pattern' => 'string', 'length' => int];
 ```  
 
@@ -33,10 +33,9 @@ $account_sentEmailCode = ['_' => 'account.sentEmailCode', 'email_pattern' => 'st
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 account_sentEmailCode={_='account.sentEmailCode', email_pattern='string', length=int}
 
 ```

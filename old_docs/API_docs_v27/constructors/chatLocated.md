@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $chatLocated = ['_' => 'chatLocated', 'chat_id' => int, 'distance' => int];
 ```  
 
@@ -33,10 +33,9 @@ $chatLocated = ['_' => 'chatLocated', 'chat_id' => int, 'distance' => int];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 chatLocated={_='chatLocated', chat_id=int, distance=int}
 
 ```

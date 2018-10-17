@@ -24,7 +24,7 @@ Check if an invitation link is valid
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ hash - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 ChatInvite = messages.checkChatInvite({hash='string', })
 ```
 

@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $geoChatMessageEmpty = ['_' => 'geoChatMessageEmpty', 'chat_id' => int, 'id' => int];
 ```  
 
@@ -33,10 +33,9 @@ $geoChatMessageEmpty = ['_' => 'geoChatMessageEmpty', 'chat_id' => int, 'id' => 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 geoChatMessageEmpty={_='geoChatMessageEmpty', chat_id=int, id=int}
 
 ```

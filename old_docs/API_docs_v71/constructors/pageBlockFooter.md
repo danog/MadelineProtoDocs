@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $pageBlockFooter = ['_' => 'pageBlockFooter', 'text' => RichText];
 ```  
 
@@ -32,10 +32,9 @@ $pageBlockFooter = ['_' => 'pageBlockFooter', 'text' => RichText];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 pageBlockFooter={_='pageBlockFooter', text=RichText}
 
 ```

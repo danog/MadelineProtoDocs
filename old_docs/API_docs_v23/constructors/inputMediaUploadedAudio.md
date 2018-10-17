@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputMediaUploadedAudio = ['_' => 'inputMediaUploadedAudio', 'file' => InputFile, 'duration' => int, 'mime_type' => 'string'];
 ```  
 
@@ -34,10 +34,9 @@ $inputMediaUploadedAudio = ['_' => 'inputMediaUploadedAudio', 'file' => InputFil
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputMediaUploadedAudio={_='inputMediaUploadedAudio', file=InputFile, duration=int, mime_type='string'}
 
 ```

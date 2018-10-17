@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $decryptedMessageActionNotifyLayer_17 = ['_' => 'decryptedMessageActionNotifyLayer', 'layer' => int];
 ```  
 
@@ -32,10 +32,9 @@ $decryptedMessageActionNotifyLayer_17 = ['_' => 'decryptedMessageActionNotifyLay
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 decryptedMessageActionNotifyLayer_17={_='decryptedMessageActionNotifyLayer', layer=int}
 
 ```

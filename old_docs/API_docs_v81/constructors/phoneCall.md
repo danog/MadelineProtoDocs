@@ -31,7 +31,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $phoneCall = ['_' => 'phoneCall', 'id' => long, 'access_hash' => long, 'date' => int, 'admin_id' => int, 'participant_id' => int, 'g_a_or_b' => 'bytes', 'key_fingerprint' => long, 'protocol' => PhoneCallProtocol, 'connection' => PhoneConnection, 'alternative_connections' => [PhoneConnection, PhoneConnection], 'start_date' => int];
 ```  
 
@@ -42,10 +42,9 @@ $phoneCall = ['_' => 'phoneCall', 'id' => long, 'access_hash' => long, 'date' =>
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 phoneCall={_='phoneCall', id=long, access_hash=long, date=int, admin_id=int, participant_id=int, g_a_or_b='bytes', key_fingerprint=long, protocol=PhoneCallProtocol, connection=PhoneConnection, alternative_connections={PhoneConnection}, start_date=int}
 
 ```

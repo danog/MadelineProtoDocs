@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $botInlineMessageMediaAuto = ['_' => 'botInlineMessageMediaAuto', 'caption' => 'string'];
 ```  
 
@@ -32,10 +32,9 @@ $botInlineMessageMediaAuto = ['_' => 'botInlineMessageMediaAuto', 'caption' => '
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 botInlineMessageMediaAuto={_='botInlineMessageMediaAuto', caption='string'}
 
 ```

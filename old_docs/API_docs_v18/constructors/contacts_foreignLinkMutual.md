@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $contacts_foreignLinkMutual = ['_' => 'contacts.foreignLinkMutual'];
 ```  
 
@@ -27,10 +27,9 @@ $contacts_foreignLinkMutual = ['_' => 'contacts.foreignLinkMutual'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 contacts_foreignLinkMutual={_='contacts.foreignLinkMutual'}
 
 ```

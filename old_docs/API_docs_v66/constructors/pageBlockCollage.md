@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $pageBlockCollage = ['_' => 'pageBlockCollage', 'items' => [PageBlock, PageBlock], 'caption' => RichText];
 ```  
 
@@ -33,10 +33,9 @@ $pageBlockCollage = ['_' => 'pageBlockCollage', 'items' => [PageBlock, PageBlock
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 pageBlockCollage={_='pageBlockCollage', items={PageBlock}, caption=RichText}
 
 ```

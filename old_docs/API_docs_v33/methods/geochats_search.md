@@ -31,7 +31,7 @@ Search messages in geocha
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -83,7 +83,7 @@ limit - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 geochats_Messages = geochats.search({peer=InputGeoChat, q='string', filter=MessagesFilter, min_date=int, max_date=int, offset=int, max_id=int, limit=int, })
 ```
 

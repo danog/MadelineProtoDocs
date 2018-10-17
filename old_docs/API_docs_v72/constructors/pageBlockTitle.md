@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $pageBlockTitle = ['_' => 'pageBlockTitle', 'text' => RichText];
 ```  
 
@@ -32,10 +32,9 @@ $pageBlockTitle = ['_' => 'pageBlockTitle', 'text' => RichText];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 pageBlockTitle={_='pageBlockTitle', text=RichText}
 
 ```

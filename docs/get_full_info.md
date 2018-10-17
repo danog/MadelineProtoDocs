@@ -16,7 +16,7 @@ description: get_full_info parameters, return type and example
 ### Example:
 
 
-```
+```php
 $MadelineProto = new \danog\MadelineProto\API();
 $MadelineProto->start();
 
@@ -25,7 +25,7 @@ $Chat = $MadelineProto->get_full_info($id);
 
 Or, if you're into Lua:
 
-```
+```lua
 Chat = get_full_info(id)
 ```
 

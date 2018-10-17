@@ -25,7 +25,7 @@ Delete a user from a chat (not supergroup)
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ user_id - Json encoded InputUser
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_StatedMessage = messages.deleteChatUser({chat_id=InputPeer, user_id=InputUser, })
 ```
 

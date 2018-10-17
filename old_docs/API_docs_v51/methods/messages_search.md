@@ -32,7 +32,7 @@ Search peers or messages
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -77,7 +77,7 @@ limit - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_Messages = messages.search({important_only=Bool, peer=InputPeer, q='string', filter=MessagesFilter, min_date=int, max_date=int, offset=int, max_id=int, limit=int, })
 ```
 

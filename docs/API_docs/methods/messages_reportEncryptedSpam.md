@@ -24,7 +24,7 @@ Report for spam a secret chat
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ peer - Json encoded InputEncryptedChat
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = messages.reportEncryptedSpam({peer=InputEncryptedChat, })
 ```
 

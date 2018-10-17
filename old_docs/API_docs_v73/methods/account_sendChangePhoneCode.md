@@ -26,7 +26,7 @@ Change the phone number
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -59,7 +59,7 @@ current_number - Json encoded Bool
 
 Or, if you're into Lua:
 
-```
+```lua
 auth_SentCode = account.sendChangePhoneCode({allow_flashcall=Bool, phone_number='string', current_number=Bool, })
 ```
 

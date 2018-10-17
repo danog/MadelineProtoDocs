@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messages_chatsSlice = ['_' => 'messages.chatsSlice', 'count' => int, 'chats' => [Chat, Chat]];
 ```  
 
@@ -33,10 +33,9 @@ $messages_chatsSlice = ['_' => 'messages.chatsSlice', 'count' => int, 'chats' =>
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messages_chatsSlice={_='messages.chatsSlice', count=int, chats={Chat}}
 
 ```

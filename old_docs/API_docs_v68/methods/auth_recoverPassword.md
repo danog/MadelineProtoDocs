@@ -24,7 +24,7 @@ Use the code that was emailed to you after running $MadelineProto->auth->request
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ code - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 auth_Authorization = auth.recoverPassword({code='string', })
 ```
 

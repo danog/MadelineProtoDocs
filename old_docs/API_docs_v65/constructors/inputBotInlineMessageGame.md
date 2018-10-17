@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputBotInlineMessageGame = ['_' => 'inputBotInlineMessageGame', 'reply_markup' => ReplyMarkup];
 ```  
 
@@ -32,10 +32,9 @@ $inputBotInlineMessageGame = ['_' => 'inputBotInlineMessageGame', 'reply_markup'
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputBotInlineMessageGame={_='inputBotInlineMessageGame', reply_markup=ReplyMarkup}
 
 ```

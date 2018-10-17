@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messageActionChatCreate = ['_' => 'messageActionChatCreate', 'title' => 'string', 'users' => [int, int]];
 ```  
 
@@ -33,10 +33,9 @@ $messageActionChatCreate = ['_' => 'messageActionChatCreate', 'title' => 'string
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messageActionChatCreate={_='messageActionChatCreate', title='string', users={int}}
 
 ```

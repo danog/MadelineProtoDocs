@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateWebPage = ['_' => 'updateWebPage', 'webpage' => WebPage];
 ```  
 
@@ -32,10 +32,9 @@ $updateWebPage = ['_' => 'updateWebPage', 'webpage' => WebPage];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateWebPage={_='updateWebPage', webpage=WebPage}
 
 ```

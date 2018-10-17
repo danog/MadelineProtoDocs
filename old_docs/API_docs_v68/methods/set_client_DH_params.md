@@ -26,7 +26,7 @@ Sets client diffie-hellman parameters
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -68,7 +68,7 @@ encrypted_data - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 Set_client_DH_params_answer = set_client_DH_params({nonce=int128, server_nonce=int128, encrypted_data='string', })
 ```
 

@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $topPeerCategoryPeers = ['_' => 'topPeerCategoryPeers', 'category' => TopPeerCategory, 'count' => int, 'peers' => [TopPeer, TopPeer]];
 ```  
 
@@ -34,10 +34,9 @@ $topPeerCategoryPeers = ['_' => 'topPeerCategoryPeers', 'category' => TopPeerCat
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 topPeerCategoryPeers={_='topPeerCategoryPeers', category=TopPeerCategory, count=int, peers={TopPeer}}
 
 ```

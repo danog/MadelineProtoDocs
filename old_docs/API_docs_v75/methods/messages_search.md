@@ -34,7 +34,7 @@ Search peers or messages
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -83,7 +83,7 @@ min_id - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_Messages = messages.search({peer=InputPeer, q='string', from_id=InputUser, filter=MessagesFilter, min_date=int, max_date=int, offset_id=int, add_offset=int, limit=int, max_id=int, min_id=int, })
 ```
 

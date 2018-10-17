@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $chatInviteAlready = ['_' => 'chatInviteAlready', 'chat' => Chat];
 ```  
 
@@ -32,10 +32,9 @@ $chatInviteAlready = ['_' => 'chatInviteAlready', 'chat' => Chat];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 chatInviteAlready={_='chatInviteAlready', chat=Chat}
 
 ```

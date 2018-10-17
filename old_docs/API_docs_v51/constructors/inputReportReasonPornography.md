@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputReportReasonPornography = ['_' => 'inputReportReasonPornography'];
 ```  
 
@@ -27,10 +27,9 @@ $inputReportReasonPornography = ['_' => 'inputReportReasonPornography'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputReportReasonPornography={_='inputReportReasonPornography'}
 
 ```

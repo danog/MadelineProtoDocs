@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $account_webAuthorizations = ['_' => 'account.webAuthorizations', 'authorizations' => [WebAuthorization, WebAuthorization], 'users' => [User, User]];
 ```  
 
@@ -33,10 +33,9 @@ $account_webAuthorizations = ['_' => 'account.webAuthorizations', 'authorization
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 account_webAuthorizations={_='account.webAuthorizations', authorizations={WebAuthorization}, users={User}}
 
 ```

@@ -28,7 +28,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $userSelf = ['_' => 'userSelf', 'id' => int, 'first_name' => 'string', 'last_name' => 'string', 'username' => 'string', 'phone' => 'string', 'photo' => UserProfilePhoto, 'status' => UserStatus, 'inactive' => Bool];
 ```  
 
@@ -39,10 +39,9 @@ $userSelf = ['_' => 'userSelf', 'id' => int, 'first_name' => 'string', 'last_nam
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 userSelf={_='userSelf', id=int, first_name='string', last_name='string', username='string', phone='string', photo=UserProfilePhoto, status=UserStatus, inactive=Bool}
 
 ```

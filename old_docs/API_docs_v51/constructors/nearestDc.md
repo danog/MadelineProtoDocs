@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $nearestDc = ['_' => 'nearestDc', 'country' => 'string', 'this_dc' => int, 'nearest_dc' => int];
 ```  
 
@@ -34,10 +34,9 @@ $nearestDc = ['_' => 'nearestDc', 'country' => 'string', 'this_dc' => int, 'near
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 nearestDc={_='nearestDc', country='string', this_dc=int, nearest_dc=int}
 
 ```

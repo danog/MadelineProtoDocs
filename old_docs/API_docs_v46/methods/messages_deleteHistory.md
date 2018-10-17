@@ -25,7 +25,7 @@ Delete chat history
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -56,7 +56,7 @@ max_id - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_AffectedHistory = messages.deleteHistory({peer=InputPeer, max_id=int, })
 ```
 

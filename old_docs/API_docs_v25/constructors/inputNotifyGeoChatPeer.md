@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputNotifyGeoChatPeer = ['_' => 'inputNotifyGeoChatPeer', 'peer' => InputGeoChat];
 ```  
 
@@ -32,10 +32,9 @@ $inputNotifyGeoChatPeer = ['_' => 'inputNotifyGeoChatPeer', 'peer' => InputGeoCh
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputNotifyGeoChatPeer={_='inputNotifyGeoChatPeer', peer=InputGeoChat}
 
 ```

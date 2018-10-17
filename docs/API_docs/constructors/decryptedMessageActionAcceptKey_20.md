@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $decryptedMessageActionAcceptKey_20 = ['_' => 'decryptedMessageActionAcceptKey', 'exchange_id' => long, 'g_b' => 'bytes', 'key_fingerprint' => long];
 ```  
 
@@ -34,10 +34,9 @@ $decryptedMessageActionAcceptKey_20 = ['_' => 'decryptedMessageActionAcceptKey',
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 decryptedMessageActionAcceptKey_20={_='decryptedMessageActionAcceptKey', exchange_id=long, g_b='bytes', key_fingerprint=long}
 
 ```

@@ -18,7 +18,7 @@ User is offline, but was online last week
 
 ### Example:
 
-```
+```php
 $userStatusLastWeek = ['_' => 'userStatusLastWeek'];
 ```  
 
@@ -29,10 +29,9 @@ $userStatusLastWeek = ['_' => 'userStatusLastWeek'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 userStatusLastWeek={_='userStatusLastWeek'}
 
 ```

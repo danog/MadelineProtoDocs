@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $storage_fileGif = ['_' => 'storage.fileGif'];
 ```  
 
@@ -27,10 +27,9 @@ $storage_fileGif = ['_' => 'storage.fileGif'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 storage_fileGif={_='storage.fileGif'}
 
 ```

@@ -25,7 +25,7 @@ Reorder pinned dialogs
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -56,7 +56,7 @@ order - Json encoded  array of InputDialogPeer
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = messages.reorderPinnedDialogs({force=Bool, order={InputDialogPeer}, })
 ```
 

@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateNewAuthorization = ['_' => 'updateNewAuthorization', 'auth_key_id' => long, 'date' => int, 'device' => 'string', 'location' => 'string'];
 ```  
 
@@ -35,10 +35,9 @@ $updateNewAuthorization = ['_' => 'updateNewAuthorization', 'auth_key_id' => lon
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateNewAuthorization={_='updateNewAuthorization', auth_key_id=long, date=int, device='string', location='string'}
 
 ```

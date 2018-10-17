@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $sendMessageRecordAudioAction = ['_' => 'sendMessageRecordAudioAction'];
 ```  
 
@@ -27,10 +27,9 @@ $sendMessageRecordAudioAction = ['_' => 'sendMessageRecordAudioAction'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 sendMessageRecordAudioAction={_='sendMessageRecordAudioAction'}
 
 ```

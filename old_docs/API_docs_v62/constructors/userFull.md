@@ -29,7 +29,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $userFull = ['_' => 'userFull', 'blocked' => Bool, 'phone_calls_available' => Bool, 'user' => User, 'about' => 'string', 'link' => contacts_Link, 'profile_photo' => Photo, 'notify_settings' => PeerNotifySettings, 'bot_info' => BotInfo, 'common_chats_count' => int];
 ```  
 
@@ -40,10 +40,9 @@ $userFull = ['_' => 'userFull', 'blocked' => Bool, 'phone_calls_available' => Bo
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 userFull={_='userFull', blocked=Bool, phone_calls_available=Bool, user=User, about='string', link=contacts_Link, profile_photo=Photo, notify_settings=PeerNotifySettings, bot_info=BotInfo, common_chats_count=int}
 
 ```

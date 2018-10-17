@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $rpc_answer_unknown = ['_' => 'rpc_answer_unknown'];
 ```  
 
@@ -27,10 +27,9 @@ $rpc_answer_unknown = ['_' => 'rpc_answer_unknown'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 rpc_answer_unknown={_='rpc_answer_unknown'}
 
 ```

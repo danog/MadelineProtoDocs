@@ -31,7 +31,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updates_channelDifferenceTooLong = ['_' => 'updates.channelDifferenceTooLong', 'final' => Bool, 'channel_pts' => int, 'timeout' => int, 'top_message' => int, 'top_important_message' => int, 'read_inbox_max_id' => int, 'unread_count' => int, 'unread_important_count' => int, 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
@@ -42,10 +42,9 @@ $updates_channelDifferenceTooLong = ['_' => 'updates.channelDifferenceTooLong', 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updates_channelDifferenceTooLong={_='updates.channelDifferenceTooLong', final=Bool, channel_pts=int, timeout=int, top_message=int, top_important_message=int, read_inbox_max_id=int, unread_count=int, unread_important_count=int, messages={Message}, chats={Chat}, users={User}}
 
 ```

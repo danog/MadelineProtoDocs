@@ -27,7 +27,7 @@ Create channel/supergroup
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -62,7 +62,7 @@ about - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 Updates = channels.createChannel({broadcast=Bool, megagroup=Bool, title='string', about='string', })
 ```
 

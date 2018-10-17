@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $documentAttributeSticker_23 = ['_' => 'documentAttributeSticker'];
 ```  
 
@@ -27,10 +27,9 @@ $documentAttributeSticker_23 = ['_' => 'documentAttributeSticker'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 documentAttributeSticker_23={_='documentAttributeSticker'}
 
 ```

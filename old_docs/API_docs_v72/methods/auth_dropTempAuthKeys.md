@@ -24,7 +24,7 @@ Delete all temporary authorization keys except the ones provided
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -62,7 +62,7 @@ except_auth_keys - Json encoded  array of long
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = auth.dropTempAuthKeys({except_auth_keys={long}, })
 ```
 

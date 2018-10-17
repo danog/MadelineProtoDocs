@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $bad_server_salt = ['_' => 'bad_server_salt', 'bad_msg_id' => long, 'bad_msg_seqno' => int, 'error_code' => int, 'new_server_salt' => long];
 ```  
 
@@ -35,10 +35,9 @@ $bad_server_salt = ['_' => 'bad_server_salt', 'bad_msg_id' => long, 'bad_msg_seq
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 bad_server_salt={_='bad_server_salt', bad_msg_id=long, bad_msg_seqno=int, error_code=int, new_server_salt=long}
 
 ```

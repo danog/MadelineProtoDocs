@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $decryptedMessageService_8 = ['_' => 'decryptedMessageService', 'action' => DecryptedMessageAction];
 ```  
 
@@ -32,10 +32,9 @@ $decryptedMessageService_8 = ['_' => 'decryptedMessageService', 'action' => Decr
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 decryptedMessageService_8={_='decryptedMessageService', action=DecryptedMessageAction}
 
 ```

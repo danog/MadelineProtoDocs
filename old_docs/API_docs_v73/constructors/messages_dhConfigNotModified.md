@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messages_dhConfigNotModified = ['_' => 'messages.dhConfigNotModified', 'random' => 'bytes'];
 ```  
 
@@ -32,10 +32,9 @@ $messages_dhConfigNotModified = ['_' => 'messages.dhConfigNotModified', 'random'
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messages_dhConfigNotModified={_='messages.dhConfigNotModified', random='bytes'}
 
 ```

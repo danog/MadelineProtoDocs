@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messages_foundStickerSets = ['_' => 'messages.foundStickerSets', 'hash' => int, 'sets' => [StickerSetCovered, StickerSetCovered]];
 ```  
 
@@ -33,10 +33,9 @@ $messages_foundStickerSets = ['_' => 'messages.foundStickerSets', 'hash' => int,
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messages_foundStickerSets={_='messages.foundStickerSets', hash=int, sets={StickerSetCovered}}
 
 ```

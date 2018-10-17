@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateNewStickerSet = ['_' => 'updateNewStickerSet', 'stickerset' => messages_StickerSet];
 ```  
 
@@ -32,10 +32,9 @@ $updateNewStickerSet = ['_' => 'updateNewStickerSet', 'stickerset' => messages_S
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateNewStickerSet={_='updateNewStickerSet', stickerset=messages_StickerSet}
 
 ```

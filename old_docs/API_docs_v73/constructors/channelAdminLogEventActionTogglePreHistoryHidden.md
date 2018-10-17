@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $channelAdminLogEventActionTogglePreHistoryHidden = ['_' => 'channelAdminLogEventActionTogglePreHistoryHidden', 'new_value' => Bool];
 ```  
 
@@ -32,10 +32,9 @@ $channelAdminLogEventActionTogglePreHistoryHidden = ['_' => 'channelAdminLogEven
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 channelAdminLogEventActionTogglePreHistoryHidden={_='channelAdminLogEventActionTogglePreHistoryHidden', new_value=Bool}
 
 ```

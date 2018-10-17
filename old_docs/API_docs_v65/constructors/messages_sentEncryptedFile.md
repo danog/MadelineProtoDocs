@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $messages_sentEncryptedFile = ['_' => 'messages.sentEncryptedFile', 'date' => int, 'file' => EncryptedFile];
 ```  
 
@@ -33,10 +33,9 @@ $messages_sentEncryptedFile = ['_' => 'messages.sentEncryptedFile', 'date' => in
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 messages_sentEncryptedFile={_='messages.sentEncryptedFile', date=int, file=EncryptedFile}
 
 ```

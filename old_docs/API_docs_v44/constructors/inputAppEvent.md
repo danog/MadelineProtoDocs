@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputAppEvent = ['_' => 'inputAppEvent', 'time' => double, 'type' => 'string', 'peer' => long, 'data' => 'string'];
 ```  
 
@@ -35,10 +35,9 @@ $inputAppEvent = ['_' => 'inputAppEvent', 'time' => double, 'type' => 'string', 
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputAppEvent={_='inputAppEvent', time=double, type='string', peer=long, data='string'}
 
 ```

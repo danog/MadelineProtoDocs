@@ -26,7 +26,7 @@ Bots only: set precheckout results
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -68,7 +68,7 @@ error - Json encoded string
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = messages.setBotPrecheckoutResults({success=Bool, query_id=long, error='string', })
 ```
 

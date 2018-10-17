@@ -25,7 +25,7 @@ Send a custom request to the bot API
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ params - Json encoded DataJSON
 
 Or, if you're into Lua:
 
-```
+```lua
 DataJSON = bots.sendCustomRequest({custom_method='string', params=DataJSON, })
 ```
 

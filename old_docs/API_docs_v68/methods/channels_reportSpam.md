@@ -26,7 +26,7 @@ Report a message in a supergroup/channel for spam
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -59,7 +59,7 @@ id - Json encoded  array of int
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = channels.reportSpam({channel=InputChannel, user_id=InputUser, id={int}, })
 ```
 

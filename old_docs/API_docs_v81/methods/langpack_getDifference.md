@@ -24,7 +24,7 @@ Get language pack updates
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ from_version - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 LangPackDifference = langpack.getDifference({from_version=int, })
 ```
 

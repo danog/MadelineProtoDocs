@@ -26,7 +26,7 @@ Mark messages as read
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -59,7 +59,7 @@ offset - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_AffectedHistory = messages.readHistory({peer=InputPeer, max_id=int, offset=int, })
 ```
 

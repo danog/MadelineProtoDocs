@@ -25,7 +25,7 @@ Result type returned by a current query.
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -65,7 +65,7 @@ query - Json encoded !X
 
 Or, if you're into Lua:
 
-```
+```lua
 X = invokeAfterMsgs({msg_ids={long}, query=!X, })
 ```
 

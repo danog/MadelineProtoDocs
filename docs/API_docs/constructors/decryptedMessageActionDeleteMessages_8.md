@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $decryptedMessageActionDeleteMessages_8 = ['_' => 'decryptedMessageActionDeleteMessages', 'random_ids' => [long, long]];
 ```  
 
@@ -32,10 +32,9 @@ $decryptedMessageActionDeleteMessages_8 = ['_' => 'decryptedMessageActionDeleteM
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 decryptedMessageActionDeleteMessages_8={_='decryptedMessageActionDeleteMessages', random_ids={long}}
 
 ```

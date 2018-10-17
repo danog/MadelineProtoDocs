@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $privacyValueDisallowContacts = ['_' => 'privacyValueDisallowContacts'];
 ```  
 
@@ -27,10 +27,9 @@ $privacyValueDisallowContacts = ['_' => 'privacyValueDisallowContacts'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 privacyValueDisallowContacts={_='privacyValueDisallowContacts'}
 
 ```

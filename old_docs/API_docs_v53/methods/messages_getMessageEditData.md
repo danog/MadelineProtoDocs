@@ -25,7 +25,7 @@ Check if about to edit a message or a media caption
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -56,7 +56,7 @@ id - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_MessageEditData = messages.getMessageEditData({peer=InputPeer, id=int, })
 ```
 

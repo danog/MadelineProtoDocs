@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $channelMessagesFilter = ['_' => 'channelMessagesFilter', 'ranges' => [MessageRange, MessageRange]];
 ```  
 
@@ -32,10 +32,9 @@ $channelMessagesFilter = ['_' => 'channelMessagesFilter', 'ranges' => [MessageRa
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 channelMessagesFilter={_='channelMessagesFilter', ranges={MessageRange}}
 
 ```

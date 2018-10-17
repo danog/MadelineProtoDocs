@@ -23,7 +23,7 @@ User is online
 
 ### Example:
 
-```
+```php
 $userStatusOnline = ['_' => 'userStatusOnline', 'expires' => int];
 ```  
 
@@ -34,10 +34,9 @@ $userStatusOnline = ['_' => 'userStatusOnline', 'expires' => int];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 userStatusOnline={_='userStatusOnline', expires=int}
 
 ```

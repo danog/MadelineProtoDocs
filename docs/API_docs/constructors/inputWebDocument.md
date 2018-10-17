@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputWebDocument = ['_' => 'inputWebDocument', 'url' => 'string', 'size' => int, 'mime_type' => 'string', 'attributes' => [DocumentAttribute, DocumentAttribute]];
 ```  
 
@@ -35,10 +35,9 @@ $inputWebDocument = ['_' => 'inputWebDocument', 'url' => 'string', 'size' => int
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputWebDocument={_='inputWebDocument', url='string', size=int, mime_type='string', attributes={DocumentAttribute}}
 
 ```

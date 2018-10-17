@@ -24,7 +24,7 @@ Delete a certain session
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ hash - Json encoded long
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = account.resetAuthorization({hash=long, })
 ```
 

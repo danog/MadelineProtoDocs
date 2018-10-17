@@ -35,7 +35,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $updateShortMessage = ['_' => 'updateShortMessage', 'unread' => Bool, 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'id' => int, 'user_id' => int, 'message' => 'string', 'pts' => int, 'pts_count' => int, 'date' => int, 'fwd_from_id' => Peer, 'fwd_date' => int, 'via_bot_id' => int, 'reply_to_msg_id' => int, 'entities' => [MessageEntity, MessageEntity]];
 ```  
 
@@ -46,10 +46,9 @@ $updateShortMessage = ['_' => 'updateShortMessage', 'unread' => Bool, 'out' => B
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateShortMessage={_='updateShortMessage', unread=Bool, out=Bool, mentioned=Bool, media_unread=Bool, id=int, user_id=int, message='string', pts=int, pts_count=int, date=int, fwd_from_id=Peer, fwd_date=int, via_bot_id=int, reply_to_msg_id=int, entities={MessageEntity}}
 
 ```

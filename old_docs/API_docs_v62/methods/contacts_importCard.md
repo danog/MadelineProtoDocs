@@ -24,7 +24,7 @@ Import card as contact
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -53,7 +53,7 @@ export_card - Json encoded  array of int
 
 Or, if you're into Lua:
 
-```
+```lua
 User = contacts.importCard({export_card={int}, })
 ```
 

@@ -25,7 +25,7 @@ Report for spam
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -56,7 +56,7 @@ reason - Json encoded ReportReason
 
 Or, if you're into Lua:
 
-```
+```lua
 Bool = account.reportPeer({peer=InputPeer, reason=ReportReason, })
 ```
 

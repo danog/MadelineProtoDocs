@@ -19,7 +19,7 @@ You must then use [complete_phone_login](complete_phone_login.md)
 ### Example:
 
 
-```
+```php
 $MadelineProto = new \danog\MadelineProto\API();
 
 $MadelineProto->phone_login(readline('Enter your phone number: '));

@@ -19,7 +19,7 @@ Get saved payments info
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -46,7 +46,7 @@ Parameters:
 
 Or, if you're into Lua:
 
-```
+```lua
 payments_SavedInfo = payments.getSavedInfo({})
 ```
 

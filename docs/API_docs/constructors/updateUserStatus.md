@@ -24,7 +24,7 @@ User went online/offline
 
 ### Example:
 
-```
+```php
 $updateUserStatus = ['_' => 'updateUserStatus', 'user_id' => int, 'status' => UserStatus];
 ```  
 
@@ -35,10 +35,9 @@ $updateUserStatus = ['_' => 'updateUserStatus', 'user_id' => int, 'status' => Us
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 updateUserStatus={_='updateUserStatus', user_id=int, status=UserStatus}
 
 ```

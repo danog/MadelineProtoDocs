@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $pageBlockAuthorDate = ['_' => 'pageBlockAuthorDate', 'author' => RichText, 'published_date' => int];
 ```  
 
@@ -33,10 +33,9 @@ $pageBlockAuthorDate = ['_' => 'pageBlockAuthorDate', 'author' => RichText, 'pub
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 pageBlockAuthorDate={_='pageBlockAuthorDate', author=RichText, published_date=int}
 
 ```

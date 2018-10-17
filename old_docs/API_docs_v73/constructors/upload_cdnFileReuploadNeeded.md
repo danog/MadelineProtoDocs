@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $upload_cdnFileReuploadNeeded = ['_' => 'upload.cdnFileReuploadNeeded', 'request_token' => 'bytes'];
 ```  
 
@@ -32,10 +32,9 @@ $upload_cdnFileReuploadNeeded = ['_' => 'upload.cdnFileReuploadNeeded', 'request
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 upload_cdnFileReuploadNeeded={_='upload.cdnFileReuploadNeeded', request_token='bytes'}
 
 ```

@@ -210,7 +210,7 @@ $MadelineProto->loop();
 When an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html) is received, a POST request is made to the provided webhook URL, with json-encoded payload containing the Update. To get a list of all possible update types, [click here](https://docs.madelineproto.xyz/API_docs/types/Update.html).  
 DO NOT provide the current script URL as webhook URL.  
 The webhook can also respond with a JSON payload containing the name of a method to call and the arguments:
-```json
+```
 {"method":"messages->sendMessage", "peer":"@danogentili", "message":"hi"}
 ```
 

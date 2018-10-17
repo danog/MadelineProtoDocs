@@ -24,7 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $paymentRequestedInfo = ['_' => 'paymentRequestedInfo', 'name' => 'string', 'phone' => 'string', 'email' => 'string', 'shipping_address' => PostAddress];
 ```  
 
@@ -35,10 +35,9 @@ $paymentRequestedInfo = ['_' => 'paymentRequestedInfo', 'name' => 'string', 'pho
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 paymentRequestedInfo={_='paymentRequestedInfo', name='string', phone='string', email='string', shipping_address=PostAddress}
 
 ```

@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $error = ['_' => 'error', 'code' => int, 'text' => 'string'];
 ```  
 
@@ -33,10 +33,9 @@ $error = ['_' => 'error', 'code' => int, 'text' => 'string'];
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 error={_='error', code=int, text='string'}
 
 ```

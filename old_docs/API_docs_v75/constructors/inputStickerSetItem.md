@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```
+```php
 $inputStickerSetItem = ['_' => 'inputStickerSetItem', 'document' => InputDocument, 'emoji' => 'string', 'mask_coords' => MaskCoords];
 ```  
 
@@ -34,10 +34,9 @@ $inputStickerSetItem = ['_' => 'inputStickerSetItem', 'document' => InputDocumen
 ```
 
 
-Or, if you're into Lua:  
+Or, if you're into Lua:
 
-
-```
+```lua
 inputStickerSetItem={_='inputStickerSetItem', document=InputDocument, emoji='string', mask_coords=MaskCoords}
 
 ```

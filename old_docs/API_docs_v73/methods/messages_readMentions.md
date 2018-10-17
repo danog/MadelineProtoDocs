@@ -24,7 +24,7 @@ Mark mentions as read
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -62,7 +62,7 @@ peer - Json encoded InputPeer
 
 Or, if you're into Lua:
 
-```
+```lua
 messages_AffectedHistory = messages.readMentions({peer=InputPeer, })
 ```
 

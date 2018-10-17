@@ -26,7 +26,7 @@ Makes the server send messages waiting in the buffer
 ### MadelineProto Example:
 
 
-```
+```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -68,7 +68,7 @@ max_wait - Json encoded int
 
 Or, if you're into Lua:
 
-```
+```lua
 HttpWait = http_wait({max_delay=int, wait_after=int, max_wait=int, })
 ```
 
