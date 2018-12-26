@@ -1,12 +1,14 @@
 ---
 title: sendMessageUploadPhotoAction
-description: sendMessageUploadPhotoAction attributes, type and example
+description: Send message upload photo action
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageUploadPhotoAction\_17  
 [Back to constructors index](index.md)
 
 
+
+Send message upload photo action
 
 
 

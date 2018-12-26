@@ -1,6 +1,6 @@
 ---
 title: updateShortChatMessage
-description: updateShortChatMessage attributes, type and example
+description: Update short chat message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateShortChatMessage  
@@ -8,20 +8,22 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update short chat message
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](../types/int.md) | Yes|
-|from\_id|[int](../types/int.md) | Yes|
-|chat\_id|[int](../types/int.md) | Yes|
-|message|[string](../types/string.md) | Yes|
-|pts|[int](../types/int.md) | Yes|
-|pts\_count|[int](../types/int.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|fwd\_from\_id|[int](../types/int.md) | Optional|
-|fwd\_date|[int](../types/int.md) | Optional|
-|reply\_to\_msg\_id|[int](../types/int.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](../types/int.md) | Yes|ID|
+|from\_id|[int](../types/int.md) | Yes|From ID|
+|chat\_id|[int](../types/int.md) | Yes|Chat ID|
+|message|[string](../types/string.md) | Yes|Message|
+|pts|[int](../types/int.md) | Yes|Pts|
+|pts\_count|[int](../types/int.md) | Yes|Pts count|
+|date|[int](../types/int.md) | Yes|Date|
+|fwd\_from\_id|[int](../types/int.md) | Optional|Fwd from ID|
+|fwd\_date|[int](../types/int.md) | Optional|Fwd date|
+|reply\_to\_msg\_id|[int](../types/int.md) | Optional|Reply to msg ID|
 
 
 

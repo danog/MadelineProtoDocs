@@ -1,6 +1,6 @@
 ---
 title: messages.statedMessagesLinks
-description: messages_statedMessagesLinks attributes, type and example
+description: Stated messages links
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.statedMessagesLinks  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Stated messages links
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|messages|Array of [Message](../types/Message.md) | Yes|
-|chats|Array of [Chat](../types/Chat.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
-|links|Array of [contacts\_Link](../types/contacts_Link.md) | Yes|
-|pts|[int](../types/int.md) | Yes|
-|seq|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|messages|Array of [Message](../types/Message.md) | Yes|Messages|
+|chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
+|users|Array of [User](../types/User.md) | Yes|Users|
+|links|Array of [contacts\_Link](../types/contacts_Link.md) | Yes|Links|
+|pts|[int](../types/int.md) | Yes|Pts|
+|seq|[int](../types/int.md) | Yes|Seq|
 
 
 

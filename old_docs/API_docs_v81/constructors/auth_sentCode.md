@@ -1,6 +1,6 @@
 ---
 title: auth.sentCode
-description: auth_sentCode attributes, type and example
+description: Sent code
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: auth.sentCode  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Sent code
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|phone\_registered|[Bool](../types/Bool.md) | Optional|
-|type|[auth\_SentCodeType](../types/auth_SentCodeType.md) | Yes|
-|phone\_code\_hash|[string](../types/string.md) | Yes|
-|next\_type|[auth\_CodeType](../types/auth_CodeType.md) | Optional|
-|timeout|[int](../types/int.md) | Optional|
-|terms\_of\_service|[help\_TermsOfService](../types/help_TermsOfService.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|phone\_registered|[Bool](../types/Bool.md) | Optional|Phone registered?|
+|type|[auth\_SentCodeType](../types/auth_SentCodeType.md) | Yes|Type|
+|phone\_code\_hash|[string](../types/string.md) | Yes|Phone code hash|
+|next\_type|[auth\_CodeType](../types/auth_CodeType.md) | Optional|Next type|
+|timeout|[int](../types/int.md) | Optional|Timeout|
+|terms\_of\_service|[help\_TermsOfService](../types/help_TermsOfService.md) | Optional|Terms of service|
 
 
 

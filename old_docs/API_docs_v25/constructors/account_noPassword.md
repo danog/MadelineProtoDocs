@@ -1,6 +1,6 @@
 ---
 title: account.noPassword
-description: account_noPassword attributes, type and example
+description: No password
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: account.noPassword  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+No password
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|new\_salt|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|new\_salt|[bytes](../types/bytes.md) | Yes|New salt|
 
 
 

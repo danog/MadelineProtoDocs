@@ -1,6 +1,6 @@
 ---
 title: textConcat
-description: textConcat attributes, type and example
+description: Text concat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textConcat  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Text concat
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|texts|Array of [RichText](../types/RichText.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|texts|Array of [RichText](../types/RichText.md) | Yes|Texts|
 
 
 

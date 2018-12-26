@@ -1,6 +1,6 @@
 ---
 title: simpleDataBlock
-description: simpleDataBlock attributes, type and example
+description: Simple data block
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: simpleDataBlock  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Simple data block
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|raw\_data|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|raw\_data|[string](../types/string.md) | Yes|Raw data|
 
 
 

@@ -1,12 +1,14 @@
 ---
 title: messages.allStickersNotModified
-description: messages_allStickersNotModified attributes, type and example
+description: All stickers not modified
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.allStickersNotModified  
 [Back to constructors index](index.md)
 
 
+
+All stickers not modified
 
 
 

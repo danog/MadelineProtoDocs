@@ -1,12 +1,14 @@
 ---
 title: messages.messageEmpty
-description: messages_messageEmpty attributes, type and example
+description: Empty message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.messageEmpty  
 [Back to constructors index](index.md)
 
 
+
+Empty message
 
 
 

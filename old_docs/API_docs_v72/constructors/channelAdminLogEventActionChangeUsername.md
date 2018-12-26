@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionChangeUsername
-description: channelAdminLogEventActionChangeUsername attributes, type and example
+description: Change username
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionChangeUsername  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Change username
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|prev\_value|[string](../types/string.md) | Yes|
-|new\_value|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|prev\_value|[string](../types/string.md) | Yes|Prev value|
+|new\_value|[string](../types/string.md) | Yes|New value|
 
 
 

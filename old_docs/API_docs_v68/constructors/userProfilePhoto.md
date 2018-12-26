@@ -1,6 +1,6 @@
 ---
 title: userProfilePhoto
-description: userProfilePhoto attributes, type and example
+description: User profile photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userProfilePhoto  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+User profile photo
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|photo\_id|[long](../types/long.md) | Yes|
-|photo\_small|[FileLocation](../types/FileLocation.md) | Yes|
-|photo\_big|[FileLocation](../types/FileLocation.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|photo\_id|[long](../types/long.md) | Yes|Photo ID|
+|photo\_small|[FileLocation](../types/FileLocation.md) | Yes|Photo small|
+|photo\_big|[FileLocation](../types/FileLocation.md) | Yes|Photo big|
 
 
 

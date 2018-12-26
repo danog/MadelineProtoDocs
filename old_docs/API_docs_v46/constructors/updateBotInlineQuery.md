@@ -1,6 +1,6 @@
 ---
 title: updateBotInlineQuery
-description: updateBotInlineQuery attributes, type and example
+description: Update bot inline query
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotInlineQuery  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update bot inline query
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|query\_id|[long](../types/long.md) | Yes|
-|user\_id|[int](../types/int.md) | Yes|
-|query|[string](../types/string.md) | Yes|
-|offset|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|query\_id|[long](../types/long.md) | Yes|Query ID|
+|user\_id|[int](../types/int.md) | Yes|User ID|
+|query|[string](../types/string.md) | Yes|Query|
+|offset|[string](../types/string.md) | Yes|Offset|
 
 
 

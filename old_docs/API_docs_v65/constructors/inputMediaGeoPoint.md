@@ -1,6 +1,6 @@
 ---
 title: inputMediaGeoPoint
-description: inputMediaGeoPoint attributes, type and example
+description: Media geo point
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaGeoPoint  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Media geo point
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|Geo point|
 
 
 

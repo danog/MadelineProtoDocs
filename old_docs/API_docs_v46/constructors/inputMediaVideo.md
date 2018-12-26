@@ -1,6 +1,6 @@
 ---
 title: inputMediaVideo
-description: inputMediaVideo attributes, type and example
+description: Media video
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaVideo  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Media video
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|video|[InputVideo](../types/InputVideo.md) | Optional|
-|caption|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|video|[InputVideo](../types/InputVideo.md) | Optional|Video|
+|caption|[string](../types/string.md) | Yes|Caption|
 
 
 

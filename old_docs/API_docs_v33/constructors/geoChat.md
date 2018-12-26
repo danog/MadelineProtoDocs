@@ -1,6 +1,6 @@
 ---
 title: geoChat
-description: geoChat attributes, type and example
+description: Geo chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: geoChat  
@@ -8,21 +8,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Geo chat
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](../types/int.md) | Yes|
-|access\_hash|[long](../types/long.md) | Yes|
-|title|[string](../types/string.md) | Yes|
-|address|[string](../types/string.md) | Yes|
-|venue|[string](../types/string.md) | Yes|
-|geo|[GeoPoint](../types/GeoPoint.md) | Optional|
-|photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|
-|participants\_count|[int](../types/int.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|checked\_in|[Bool](../types/Bool.md) | Yes|
-|version|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](../types/int.md) | Yes|ID|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|title|[string](../types/string.md) | Yes|Title|
+|address|[string](../types/string.md) | Yes|Address|
+|venue|[string](../types/string.md) | Yes|Venue|
+|geo|[GeoPoint](../types/GeoPoint.md) | Optional|Geo|
+|photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|Photo|
+|participants\_count|[int](../types/int.md) | Yes|Participants count|
+|date|[int](../types/int.md) | Yes|Date|
+|checked\_in|[Bool](../types/Bool.md) | Yes|Checked in?|
+|version|[int](../types/int.md) | Yes|Version|
 
 
 

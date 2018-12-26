@@ -1,6 +1,6 @@
 ---
 title: messageActionCustomAction
-description: messageActionCustomAction attributes, type and example
+description: Message action custom action
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionCustomAction  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message action custom action
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|message|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|message|[string](../types/string.md) | Yes|Message|
 
 
 

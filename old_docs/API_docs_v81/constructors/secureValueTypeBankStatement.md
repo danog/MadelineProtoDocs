@@ -1,12 +1,14 @@
 ---
 title: secureValueTypeBankStatement
-description: secureValueTypeBankStatement attributes, type and example
+description: Secure value type bank statement
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueTypeBankStatement  
 [Back to constructors index](index.md)
 
 
+
+Secure value type bank statement
 
 
 

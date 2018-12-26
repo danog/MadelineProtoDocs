@@ -1,6 +1,6 @@
 ---
 title: invoice
-description: invoice attributes, type and example
+description: Invoice
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: invoice  
@@ -8,20 +8,22 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Invoice
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|test|[Bool](../types/Bool.md) | Optional|
-|name\_requested|[Bool](../types/Bool.md) | Optional|
-|phone\_requested|[Bool](../types/Bool.md) | Optional|
-|email\_requested|[Bool](../types/Bool.md) | Optional|
-|shipping\_address\_requested|[Bool](../types/Bool.md) | Optional|
-|flexible|[Bool](../types/Bool.md) | Optional|
-|phone\_to\_provider|[Bool](../types/Bool.md) | Optional|
-|email\_to\_provider|[Bool](../types/Bool.md) | Optional|
-|currency|[string](../types/string.md) | Yes|
-|prices|Array of [LabeledPrice](../types/LabeledPrice.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|test|[Bool](../types/Bool.md) | Optional|Test?|
+|name\_requested|[Bool](../types/Bool.md) | Optional|Name requested?|
+|phone\_requested|[Bool](../types/Bool.md) | Optional|Phone requested?|
+|email\_requested|[Bool](../types/Bool.md) | Optional|Email requested?|
+|shipping\_address\_requested|[Bool](../types/Bool.md) | Optional|Shipping address requested?|
+|flexible|[Bool](../types/Bool.md) | Optional|Flexible?|
+|phone\_to\_provider|[Bool](../types/Bool.md) | Optional|Phone to provider?|
+|email\_to\_provider|[Bool](../types/Bool.md) | Optional|Email to provider?|
+|currency|[string](../types/string.md) | Yes|Currency|
+|prices|Array of [LabeledPrice](../types/LabeledPrice.md) | Yes|Prices|
 
 
 

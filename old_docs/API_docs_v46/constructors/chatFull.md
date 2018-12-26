@@ -1,6 +1,6 @@
 ---
 title: chatFull
-description: chatFull attributes, type and example
+description: Chat full
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatFull  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Chat full
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](../types/int.md) | Yes|
-|participants|[ChatParticipants](../types/ChatParticipants.md) | Yes|
-|chat\_photo|[Photo](../types/Photo.md) | Optional|
-|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|
-|exported\_invite|[ExportedChatInvite](../types/ExportedChatInvite.md) | Yes|
-|bot\_info|Array of [BotInfo](../types/BotInfo.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](../types/int.md) | Yes|ID|
+|participants|[ChatParticipants](../types/ChatParticipants.md) | Yes|Participants|
+|chat\_photo|[Photo](../types/Photo.md) | Optional|Chat photo|
+|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|Notify settings|
+|exported\_invite|[ExportedChatInvite](../types/ExportedChatInvite.md) | Yes|Exported invite|
+|bot\_info|Array of [BotInfo](../types/BotInfo.md) | Yes|Bot info|
 
 
 

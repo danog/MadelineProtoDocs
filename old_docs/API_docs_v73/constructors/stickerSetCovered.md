@@ -1,6 +1,6 @@
 ---
 title: stickerSetCovered
-description: stickerSetCovered attributes, type and example
+description: Sticker set covered
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: stickerSetCovered  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Sticker set covered
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|set|[StickerSet](../types/StickerSet.md) | Yes|
-|cover|[Document](../types/Document.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|set|[StickerSet](../types/StickerSet.md) | Yes|Set|
+|cover|[Document](../types/Document.md) | Optional|Cover|
 
 
 

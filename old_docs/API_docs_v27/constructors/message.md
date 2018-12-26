@@ -1,6 +1,6 @@
 ---
 title: message
-description: message attributes, type and example
+description: Message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: message  
@@ -8,19 +8,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](../types/int.md) | Yes|
-|from\_id|[int](../types/int.md) | Yes|
-|to\_id|[Peer](../types/Peer.md) | Yes|
-|fwd\_from\_id|[int](../types/int.md) | Optional|
-|fwd\_date|[int](../types/int.md) | Optional|
-|reply\_to\_msg\_id|[int](../types/int.md) | Optional|
-|date|[int](../types/int.md) | Yes|
-|message|[string](../types/string.md) | Yes|
-|media|[MessageMedia](../types/MessageMedia.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](../types/int.md) | Yes|ID|
+|from\_id|[int](../types/int.md) | Yes|From ID|
+|to\_id|[Peer](../types/Peer.md) | Yes|To ID|
+|fwd\_from\_id|[int](../types/int.md) | Optional|Forwarded from ID|
+|fwd\_date|[int](../types/int.md) | Optional|Forwarded date|
+|reply\_to\_msg\_id|[int](../types/int.md) | Optional|Reply to msg ID|
+|date|[int](../types/int.md) | Yes|Date|
+|message|[string](../types/string.md) | Yes|Message|
+|media|[MessageMedia](../types/MessageMedia.md) | Optional|Media|
 
 
 

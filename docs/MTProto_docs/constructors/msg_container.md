@@ -1,6 +1,6 @@
 ---
 title: msg_container
-description: msg_container attributes, type and example
+description: Msg container
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: msg\_container  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Msg container
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|messages|Array of [MTmessage](../constructors/MTmessage.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|messages|Array of [MTmessage](../constructors/MTmessage.md) | Yes|Messages|
 
 
 

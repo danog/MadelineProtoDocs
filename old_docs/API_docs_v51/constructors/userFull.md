@@ -1,6 +1,6 @@
 ---
 title: userFull
-description: userFull attributes, type and example
+description: User full
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userFull  
@@ -8,17 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+User full
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|blocked|[Bool](../types/Bool.md) | Optional|
-|user|[User](../types/User.md) | Optional|
-|about|[string](../types/string.md) | Optional|
-|link|[contacts\_Link](../types/contacts_Link.md) | Yes|
-|profile\_photo|[Photo](../types/Photo.md) | Optional|
-|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|
-|bot\_info|[BotInfo](../types/BotInfo.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|blocked|[Bool](../types/Bool.md) | Optional|Blocked?|
+|user|[User](../types/User.md) | Optional|User|
+|about|[string](../types/string.md) | Optional|About|
+|link|[contacts\_Link](../types/contacts_Link.md) | Yes|Link|
+|profile\_photo|[Photo](../types/Photo.md) | Optional|Profile photo|
+|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|Notify settings|
+|bot\_info|[BotInfo](../types/BotInfo.md) | Optional|Bot info|
 
 
 

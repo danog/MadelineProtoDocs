@@ -1,12 +1,14 @@
 ---
 title: geoPointEmpty
-description: geoPointEmpty attributes, type and example
+description: Empty geo point
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: geoPointEmpty  
 [Back to constructors index](index.md)
 
 
+
+Empty geo point
 
 
 

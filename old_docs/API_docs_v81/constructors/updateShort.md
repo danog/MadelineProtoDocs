@@ -1,6 +1,6 @@
 ---
 title: updateShort
-description: updateShort attributes, type and example
+description: Update short
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateShort  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update short
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|update|[Update](../types/Update.md) | Yes|
-|date|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|update|[Update](../types/Update.md) | Yes|Update|
+|date|[int](../types/int.md) | Yes|Date|
 
 
 

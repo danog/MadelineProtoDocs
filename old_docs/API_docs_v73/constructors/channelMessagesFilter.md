@@ -1,6 +1,6 @@
 ---
 title: channelMessagesFilter
-description: channelMessagesFilter attributes, type and example
+description: Channel messages filter
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelMessagesFilter  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Channel messages filter
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|exclude\_new\_messages|[Bool](../types/Bool.md) | Optional|
-|ranges|Array of [MessageRange](../types/MessageRange.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|exclude\_new\_messages|[Bool](../types/Bool.md) | Optional|Exclude new messages?|
+|ranges|Array of [MessageRange](../types/MessageRange.md) | Yes|Ranges|
 
 
 

@@ -1,12 +1,14 @@
 ---
 title: updateConfig
-description: updateConfig attributes, type and example
+description: Update config
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateConfig  
 [Back to constructors index](index.md)
 
 
+
+Update config
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: phone.phoneCall
-description: phone_phoneCall attributes, type and example
+description: Phone call
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phone.phoneCall  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Phone call
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|phone\_call|[PhoneCall](../types/PhoneCall.md) | Optional|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|phone\_call|[PhoneCall](../types/PhoneCall.md) | Optional|Phone call|
+|users|Array of [User](../types/User.md) | Yes|Users|
 
 
 

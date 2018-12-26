@@ -1,6 +1,6 @@
 ---
 title: updateUserName
-description: updateUserName attributes, type and example
+description: Update user name
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateUserName  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update user name
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|user\_id|[int](../types/int.md) | Yes|
-|first\_name|[string](../types/string.md) | Yes|
-|last\_name|[string](../types/string.md) | Yes|
-|username|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|user\_id|[int](../types/int.md) | Yes|User ID|
+|first\_name|[string](../types/string.md) | Yes|First name|
+|last\_name|[string](../types/string.md) | Yes|Last name|
+|username|[string](../types/string.md) | Yes|Username|
 
 
 

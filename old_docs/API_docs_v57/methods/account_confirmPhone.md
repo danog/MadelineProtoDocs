@@ -13,7 +13,7 @@ Confirm this phone number is associated to this account, obtain phone_code_hash 
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_code\_hash|[string](../types/string.md) | obtain phone_code_hash from sendConfirmPhoneCode | Yes|
+|phone\_code\_hash|[string](../types/string.md) | Obtain phone_code_hash from sendConfirmPhoneCode | Yes|
 |phone\_code|[string](../types/string.md) | The code sent by sendConfirmPhoneCode | Yes|
 
 

@@ -1,6 +1,6 @@
 ---
 title: messages.messagesSlice
-description: messages_messagesSlice attributes, type and example
+description: Messages slice
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.messagesSlice  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Messages slice
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|count|[int](../types/int.md) | Yes|
-|messages|Array of [Message](../types/Message.md) | Yes|
-|chats|Array of [Chat](../types/Chat.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|count|[int](../types/int.md) | Yes|Count|
+|messages|Array of [Message](../types/Message.md) | Yes|Messages|
+|chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
+|users|Array of [User](../types/User.md) | Yes|Users|
 
 
 

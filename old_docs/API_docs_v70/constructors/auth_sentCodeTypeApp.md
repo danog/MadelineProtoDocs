@@ -1,6 +1,6 @@
 ---
 title: auth.sentCodeTypeApp
-description: auth_sentCodeTypeApp attributes, type and example
+description: Sent code type app
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: auth.sentCodeTypeApp  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Sent code type app
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|length|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|length|[int](../types/int.md) | Yes|Length|
 
 
 

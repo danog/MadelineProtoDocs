@@ -1,12 +1,14 @@
 ---
 title: inputPrivacyKeyPhoneCall
-description: inputPrivacyKeyPhoneCall attributes, type and example
+description: Privacy key phone call
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPrivacyKeyPhoneCall  
 [Back to constructors index](index.md)
 
 
+
+Privacy key phone call
 
 
 

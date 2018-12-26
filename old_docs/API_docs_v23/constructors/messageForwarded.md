@@ -1,6 +1,6 @@
 ---
 title: messageForwarded
-description: messageForwarded attributes, type and example
+description: Message forwarded
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageForwarded  
@@ -8,18 +8,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message forwarded
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](../types/int.md) | Yes|
-|fwd\_from\_id|[int](../types/int.md) | Yes|
-|fwd\_date|[int](../types/int.md) | Yes|
-|from\_id|[int](../types/int.md) | Yes|
-|to\_id|[Peer](../types/Peer.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|message|[string](../types/string.md) | Yes|
-|media|[MessageMedia](../types/MessageMedia.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](../types/int.md) | Yes|ID|
+|fwd\_from\_id|[int](../types/int.md) | Yes|Forwarded from ID|
+|fwd\_date|[int](../types/int.md) | Yes|Forwarded date|
+|from\_id|[int](../types/int.md) | Yes|From ID|
+|to\_id|[Peer](../types/Peer.md) | Yes|To ID|
+|date|[int](../types/int.md) | Yes|Date|
+|message|[string](../types/string.md) | Yes|Message|
+|media|[MessageMedia](../types/MessageMedia.md) | Optional|Media|
 
 
 

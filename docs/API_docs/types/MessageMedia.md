@@ -32,6 +32,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageMediaGeoLive](../constructors/messageMediaGeoLive.md)  
 
+[messageMediaPoll](../constructors/messageMediaPoll.md)  
+
 
 
 ### Methods that return an object of this type (methods):

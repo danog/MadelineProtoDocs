@@ -16,7 +16,7 @@ Contains pq to factorize
 |----------|---------------|----------|-------------|
 |nonce|[int128](../types/int128.md) | Yes|Nonce|
 |server\_nonce|[int128](../types/int128.md) | Yes|Server nonce|
-|pq|[string](../types/string.md) | Yes||
+|pq|[string](../types/string.md) | Yes|Pq|
 |server\_public\_key\_fingerprints|Array of [long](../types/long.md) | Yes|RSA key fingerprints|
 
 

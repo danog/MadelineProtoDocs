@@ -1,12 +1,14 @@
 ---
 title: messageActionGeoChatCheckin
-description: messageActionGeoChatCheckin attributes, type and example
+description: Message action geo chat checkin
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionGeoChatCheckin  
 [Back to constructors index](index.md)
 
 
+
+Message action geo chat checkin
 
 
 

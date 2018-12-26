@@ -1,6 +1,6 @@
 ---
 title: messages.foundGifs
-description: messages_foundGifs attributes, type and example
+description: Found gifs
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.foundGifs  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Found gifs
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|next\_offset|[int](../types/int.md) | Yes|
-|results|Array of [FoundGif](../types/FoundGif.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|next\_offset|[int](../types/int.md) | Yes|Next offset|
+|results|Array of [FoundGif](../types/FoundGif.md) | Yes|Results|
 
 
 

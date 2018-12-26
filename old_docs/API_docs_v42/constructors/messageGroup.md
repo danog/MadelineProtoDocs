@@ -1,6 +1,6 @@
 ---
 title: messageGroup
-description: messageGroup attributes, type and example
+description: Message group
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageGroup  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message group
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|min\_id|[int](../types/int.md) | Yes|
-|max\_id|[int](../types/int.md) | Yes|
-|count|[int](../types/int.md) | Yes|
-|date|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|min\_id|[int](../types/int.md) | Yes|Min ID|
+|max\_id|[int](../types/int.md) | Yes|Max ID|
+|count|[int](../types/int.md) | Yes|Count|
+|date|[int](../types/int.md) | Yes|Date|
 
 
 

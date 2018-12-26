@@ -1,6 +1,6 @@
 ---
 title: photos.photos
-description: photos_photos attributes, type and example
+description: Photos
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: photos.photos  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Photos
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|photos|Array of [Photo](../types/Photo.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|photos|Array of [Photo](../types/Photo.md) | Yes|Photos|
+|users|Array of [User](../types/User.md) | Yes|Users|
 
 
 

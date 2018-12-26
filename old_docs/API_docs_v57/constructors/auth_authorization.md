@@ -1,6 +1,6 @@
 ---
 title: auth.authorization
-description: auth_authorization attributes, type and example
+description: Authorization
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: auth.authorization  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Authorization
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|tmp\_sessions|[int](../types/int.md) | Optional|
-|user|[User](../types/User.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|tmp\_sessions|[int](../types/int.md) | Optional|Temporary sessions|
+|user|[User](../types/User.md) | Optional|User|
 
 
 

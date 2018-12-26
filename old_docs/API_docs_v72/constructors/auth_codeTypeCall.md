@@ -1,12 +1,14 @@
 ---
 title: auth.codeTypeCall
-description: auth_codeTypeCall attributes, type and example
+description: Auth code type: call
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: auth.codeTypeCall  
 [Back to constructors index](index.md)
 
 
+
+Auth code type: call
 
 
 

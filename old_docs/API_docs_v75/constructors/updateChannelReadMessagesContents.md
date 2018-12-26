@@ -1,6 +1,6 @@
 ---
 title: updateChannelReadMessagesContents
-description: updateChannelReadMessagesContents attributes, type and example
+description: Update channel read messages contents
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelReadMessagesContents  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update channel read messages contents
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel\_id|[int](../types/int.md) | Yes|
-|messages|Array of [int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|channel\_id|[int](../types/int.md) | Yes|Channel ID|
+|messages|Array of [int](../types/int.md) | Yes|Messages|
 
 
 

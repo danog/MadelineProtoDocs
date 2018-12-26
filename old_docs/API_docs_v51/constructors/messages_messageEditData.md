@@ -1,6 +1,6 @@
 ---
 title: messages.messageEditData
-description: messages_messageEditData attributes, type and example
+description: Message edit data
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.messageEditData  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message edit data
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|caption|[Bool](../types/Bool.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|caption|[Bool](../types/Bool.md) | Optional|Caption?|
 
 
 

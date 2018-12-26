@@ -1,6 +1,6 @@
 ---
 title: inputMediaUploadedAudio
-description: inputMediaUploadedAudio attributes, type and example
+description: Media uploaded audio
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaUploadedAudio  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Media uploaded audio
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|file|[File path or InputFile](../types/InputFile.md) | Yes|
-|duration|[int](../types/int.md) | Yes|
-|mime\_type|[string](../types/string.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|file|[File path or InputFile](../types/InputFile.md) | Yes|File|
+|duration|[int](../types/int.md) | Yes|Duration|
+|mime\_type|[string](../types/string.md) | Optional|Mime type|
 
 
 

@@ -18,6 +18,8 @@ Describes available privacy settings
 
 [privacyKeyPhoneCall](../constructors/privacyKeyPhoneCall.md)  
 
+[privacyKeyPhoneP2P](../constructors/privacyKeyPhoneP2P.md)  
+
 
 
 ### Methods that return an object of this type (methods):

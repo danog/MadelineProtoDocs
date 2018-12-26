@@ -1,6 +1,6 @@
 ---
 title: channelParticipantAdmin
-description: channelParticipantAdmin attributes, type and example
+description: Channel participant admin
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantAdmin  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Channel participant admin
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|can\_edit|[Bool](../types/Bool.md) | Optional|
-|user\_id|[int](../types/int.md) | Yes|
-|inviter\_id|[int](../types/int.md) | Yes|
-|promoted\_by|[int](../types/int.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|admin\_rights|[ChannelAdminRights](../types/ChannelAdminRights.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|can\_edit|[Bool](../types/Bool.md) | Optional|Can edit?|
+|user\_id|[int](../types/int.md) | Yes|User ID|
+|inviter\_id|[int](../types/int.md) | Yes|Inviter ID|
+|promoted\_by|[int](../types/int.md) | Yes|Promoted by|
+|date|[int](../types/int.md) | Yes|Date|
+|admin\_rights|[ChannelAdminRights](../types/ChannelAdminRights.md) | Yes|Admin rights|
 
 
 

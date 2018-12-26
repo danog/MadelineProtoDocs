@@ -1,6 +1,6 @@
 ---
 title: channel
-description: channel attributes, type and example
+description: Channel
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channel  
@@ -8,17 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Channel
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](../types/int.md) | Yes|
-|access\_hash|[long](../types/long.md) | Yes|
-|title|[string](../types/string.md) | Yes|
-|username|[string](../types/string.md) | Optional|
-|photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|
-|date|[int](../types/int.md) | Yes|
-|version|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](../types/int.md) | Yes|ID|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|title|[string](../types/string.md) | Yes|Title|
+|username|[string](../types/string.md) | Optional|Username|
+|photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|Photo|
+|date|[int](../types/int.md) | Yes|Date|
+|version|[int](../types/int.md) | Yes|Version|
 
 
 

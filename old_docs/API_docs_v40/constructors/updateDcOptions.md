@@ -1,6 +1,6 @@
 ---
 title: updateDcOptions
-description: updateDcOptions attributes, type and example
+description: Update DC options
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateDcOptions  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update DC options
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|dc\_options|Array of [DcOption](../types/DcOption.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|dc\_options|Array of [DcOption](../types/DcOption.md) | Yes|DC options|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: inputMediaUploadedPhoto
-description: inputMediaUploadedPhoto attributes, type and example
+description: Media uploaded photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaUploadedPhoto  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Media uploaded photo
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|file|[File path or InputFile](../types/InputFile.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|file|[File path or InputFile](../types/InputFile.md) | Yes|File|
 
 
 

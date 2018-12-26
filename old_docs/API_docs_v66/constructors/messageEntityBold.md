@@ -1,6 +1,6 @@
 ---
 title: messageEntityBold
-description: messageEntityBold attributes, type and example
+description: Message entity bold
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageEntityBold  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message entity bold
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|offset|[int](../types/int.md) | Yes|
-|length|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|offset|[int](../types/int.md) | Yes|Offset|
+|length|[int](../types/int.md) | Yes|Length|
 
 
 

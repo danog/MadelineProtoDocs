@@ -1,6 +1,6 @@
 ---
 title: pageBlockAudio
-description: pageBlockAudio attributes, type and example
+description: Page block audio
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockAudio  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Page block audio
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|audio\_id|[long](../types/long.md) | Yes|
-|caption|[RichText](../types/RichText.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|audio\_id|[long](../types/long.md) | Yes|Audio ID|
+|caption|[RichText](../types/RichText.md) | Yes|Caption|
 
 
 

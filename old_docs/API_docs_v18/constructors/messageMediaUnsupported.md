@@ -1,6 +1,6 @@
 ---
 title: messageMediaUnsupported
-description: messageMediaUnsupported attributes, type and example
+description: Message media unsupported
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaUnsupported  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message media unsupported
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|bytes|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|bytes|[bytes](../types/bytes.md) | Yes|Bytes|
 
 
 

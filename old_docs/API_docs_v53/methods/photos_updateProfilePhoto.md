@@ -1,13 +1,13 @@
 ---
 title: photos.updateProfilePhoto
-description: Update the profile photo (use photos->uploadProfilePhoto to upload the photo)
+description: Change the profile photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: photos.updateProfilePhoto  
 [Back to methods index](index.md)
 
 
-Update the profile photo (use photos->uploadProfilePhoto to upload the photo)
+Change the profile photo
 
 ### Parameters:
 

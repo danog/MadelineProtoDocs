@@ -1,6 +1,6 @@
 ---
 title: inputBotInlineMessageMediaVenue
-description: inputBotInlineMessageMediaVenue attributes, type and example
+description: Bot inline message media venue
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputBotInlineMessageMediaVenue  
@@ -8,17 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Bot inline message media venue
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|
-|title|[string](../types/string.md) | Yes|
-|address|[string](../types/string.md) | Yes|
-|provider|[string](../types/string.md) | Yes|
-|venue\_id|[string](../types/string.md) | Yes|
-|venue\_type|[string](../types/string.md) | Yes|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|Geo point|
+|title|[string](../types/string.md) | Yes|Title|
+|address|[string](../types/string.md) | Yes|Address|
+|provider|[string](../types/string.md) | Yes|Provider|
+|venue\_id|[string](../types/string.md) | Yes|Venue ID|
+|venue\_type|[string](../types/string.md) | Yes|Venue type|
+|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Reply markup|
 
 
 

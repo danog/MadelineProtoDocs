@@ -1,6 +1,6 @@
 ---
 title: updateUserStatus
-description: updateUserStatus attributes, type and example
+description: Update user status
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateUserStatus  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update user status
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|user\_id|[int](../types/int.md) | Yes|
-|status|[UserStatus](../types/UserStatus.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|user\_id|[int](../types/int.md) | Yes|User ID|
+|status|[UserStatus](../types/UserStatus.md) | Optional|Status|
 
 
 

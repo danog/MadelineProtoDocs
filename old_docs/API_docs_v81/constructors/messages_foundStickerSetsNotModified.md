@@ -1,12 +1,14 @@
 ---
 title: messages.foundStickerSetsNotModified
-description: messages_foundStickerSetsNotModified attributes, type and example
+description: Found sticker sets not modified
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.foundStickerSetsNotModified  
 [Back to constructors index](index.md)
 
 
+
+Found sticker sets not modified
 
 
 

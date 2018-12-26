@@ -1,12 +1,14 @@
 ---
 title: inputMessagesFilterDocument
-description: inputMessagesFilterDocument attributes, type and example
+description: Messages filter document
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterDocument  
 [Back to constructors index](index.md)
 
 
+
+Messages filter document
 
 
 

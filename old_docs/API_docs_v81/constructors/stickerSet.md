@@ -1,6 +1,6 @@
 ---
 title: stickerSet
-description: stickerSet attributes, type and example
+description: Sticker set
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: stickerSet  
@@ -8,20 +8,22 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Sticker set
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|archived|[Bool](../types/Bool.md) | Optional|
-|official|[Bool](../types/Bool.md) | Optional|
-|masks|[Bool](../types/Bool.md) | Optional|
-|installed\_date|[int](../types/int.md) | Optional|
-|id|[long](../types/long.md) | Yes|
-|access\_hash|[long](../types/long.md) | Yes|
-|title|[string](../types/string.md) | Yes|
-|short\_name|[string](../types/string.md) | Yes|
-|count|[int](../types/int.md) | Yes|
-|hash|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|archived|[Bool](../types/Bool.md) | Optional|Archived?|
+|official|[Bool](../types/Bool.md) | Optional|Official?|
+|masks|[Bool](../types/Bool.md) | Optional|Masks?|
+|installed\_date|[int](../types/int.md) | Optional|Installed date|
+|id|[long](../types/long.md) | Yes|ID|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|title|[string](../types/string.md) | Yes|Title|
+|short\_name|[string](../types/string.md) | Yes|Short name|
+|count|[int](../types/int.md) | Yes|Count|
+|hash|[int](../types/int.md) | Yes|Hash|
 
 
 

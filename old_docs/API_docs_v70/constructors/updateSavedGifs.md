@@ -1,12 +1,14 @@
 ---
 title: updateSavedGifs
-description: updateSavedGifs attributes, type and example
+description: Update saved gifs
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateSavedGifs  
 [Back to constructors index](index.md)
 
 
+
+Update saved gifs
 
 
 

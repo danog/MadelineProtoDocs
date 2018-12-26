@@ -1,6 +1,6 @@
 ---
 title: pageBlockPreformatted
-description: pageBlockPreformatted attributes, type and example
+description: Page block preformatted
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockPreformatted  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Page block preformatted
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|text|[RichText](../types/RichText.md) | Yes|
-|language|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|text|[RichText](../types/RichText.md) | Yes|Text|
+|language|[string](../types/string.md) | Yes|Language|
 
 
 

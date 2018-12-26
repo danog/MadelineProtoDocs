@@ -1,6 +1,6 @@
 ---
 title: messages.peerDialogs
-description: messages_peerDialogs attributes, type and example
+description: Peer dialogs
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.peerDialogs  
@@ -8,15 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Peer dialogs
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|dialogs|Array of [Dialog](../types/Dialog.md) | Yes|
-|messages|Array of [Message](../types/Message.md) | Yes|
-|chats|Array of [Chat](../types/Chat.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
-|state|[updates\_State](../types/updates_State.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|dialogs|Array of [Dialog](../types/Dialog.md) | Yes|Dialogs|
+|messages|Array of [Message](../types/Message.md) | Yes|Messages|
+|chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
+|users|Array of [User](../types/User.md) | Yes|Users|
+|state|[updates\_State](../types/updates_State.md) | Yes|State|
 
 
 

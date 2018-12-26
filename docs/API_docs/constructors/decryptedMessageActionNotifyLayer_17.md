@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageActionNotifyLayer
-description: decryptedMessageActionNotifyLayer attributes, type and example
+description: Decrypted message action notify layer
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionNotifyLayer\_17  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Decrypted message action notify layer
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|layer|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|layer|[int](../types/int.md) | Yes|Layer|
 
 
 

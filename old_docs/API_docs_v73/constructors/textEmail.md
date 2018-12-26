@@ -1,6 +1,6 @@
 ---
 title: textEmail
-description: textEmail attributes, type and example
+description: Text email
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textEmail  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Text email
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|text|[RichText](../types/RichText.md) | Yes|
-|email|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|text|[RichText](../types/RichText.md) | Yes|Text|
+|email|[string](../types/string.md) | Yes|Email|
 
 
 

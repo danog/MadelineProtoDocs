@@ -58,6 +58,18 @@ Describes a block of web page instant view
 
 [pageBlockAudio](../constructors/pageBlockAudio.md)  
 
+[pageBlockKicker](../constructors/pageBlockKicker.md)  
+
+[pageBlockTable](../constructors/pageBlockTable.md)  
+
+[pageBlockOrderedList](../constructors/pageBlockOrderedList.md)  
+
+[pageBlockDetails](../constructors/pageBlockDetails.md)  
+
+[pageBlockRelatedArticles](../constructors/pageBlockRelatedArticles.md)  
+
+[pageBlockMap](../constructors/pageBlockMap.md)  
+
 
 
 ### Methods that return an object of this type (methods):

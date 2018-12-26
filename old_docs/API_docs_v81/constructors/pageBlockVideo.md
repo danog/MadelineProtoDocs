@@ -1,6 +1,6 @@
 ---
 title: pageBlockVideo
-description: pageBlockVideo attributes, type and example
+description: Page block video
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockVideo  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Page block video
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|autoplay|[Bool](../types/Bool.md) | Optional|
-|loop|[Bool](../types/Bool.md) | Optional|
-|video\_id|[long](../types/long.md) | Yes|
-|caption|[RichText](../types/RichText.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|autoplay|[Bool](../types/Bool.md) | Optional|Autoplay?|
+|loop|[Bool](../types/Bool.md) | Optional|Loop?|
+|video\_id|[long](../types/long.md) | Yes|Video ID|
+|caption|[RichText](../types/RichText.md) | Yes|Caption|
 
 
 

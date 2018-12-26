@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageActionCommitKey
-description: decryptedMessageActionCommitKey attributes, type and example
+description: Decrypted message action commit key
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionCommitKey\_20  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Decrypted message action commit key
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|exchange\_id|[long](../types/long.md) | Yes|
-|key\_fingerprint|[long](../types/long.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|exchange\_id|[long](../types/long.md) | Yes|Exchange ID|
+|key\_fingerprint|[long](../types/long.md) | Yes|Key fingerprint|
 
 
 

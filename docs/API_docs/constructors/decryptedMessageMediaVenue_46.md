@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageMediaVenue
-description: decryptedMessageMediaVenue attributes, type and example
+description: Decrypted message media venue
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaVenue\_46  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Decrypted message media venue
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|lat|[double](../types/double.md) | Yes|
-|long|[double](../types/double.md) | Yes|
-|title|[string](../types/string.md) | Yes|
-|address|[string](../types/string.md) | Yes|
-|provider|[string](../types/string.md) | Yes|
-|venue\_id|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|lat|[double](../types/double.md) | Yes|Lat|
+|long|[double](../types/double.md) | Yes|Long|
+|title|[string](../types/string.md) | Yes|Title|
+|address|[string](../types/string.md) | Yes|Address|
+|provider|[string](../types/string.md) | Yes|Provider|
+|venue\_id|[string](../types/string.md) | Yes|Venue ID|
 
 
 

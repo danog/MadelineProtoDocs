@@ -1,6 +1,6 @@
 ---
 title: pageBlockAuthorDate
-description: pageBlockAuthorDate attributes, type and example
+description: Page block author date
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockAuthorDate  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Page block author date
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|author|[RichText](../types/RichText.md) | Yes|
-|published\_date|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|author|[RichText](../types/RichText.md) | Yes|Author|
+|published\_date|[int](../types/int.md) | Yes|Published date|
 
 
 

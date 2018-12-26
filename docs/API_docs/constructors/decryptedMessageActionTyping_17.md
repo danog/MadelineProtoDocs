@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageActionTyping
-description: decryptedMessageActionTyping attributes, type and example
+description: Decrypted message action typing
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionTyping\_17  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Decrypted message action typing
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|action|[SendMessageAction](../types/SendMessageAction.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|action|[SendMessageAction](../types/SendMessageAction.md) | Yes|Action|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: messages.sentMessage
-description: messages_sentMessage attributes, type and example
+description: Sent message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.sentMessage  
@@ -8,15 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Sent message
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](../types/int.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|media|[MessageMedia](../types/MessageMedia.md) | Optional|
-|pts|[int](../types/int.md) | Yes|
-|pts\_count|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](../types/int.md) | Yes|ID|
+|date|[int](../types/int.md) | Yes|Date|
+|media|[MessageMedia](../types/MessageMedia.md) | Optional|Media|
+|pts|[int](../types/int.md) | Yes|Pts|
+|pts\_count|[int](../types/int.md) | Yes|Pts count|
 
 
 

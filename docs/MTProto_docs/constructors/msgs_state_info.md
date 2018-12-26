@@ -1,6 +1,6 @@
 ---
 title: msgs_state_info
-description: msgs_state_info attributes, type and example
+description: Msgs state info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: msgs\_state\_info  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Msgs state info
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|req\_msg\_id|[long](../types/long.md) | Yes|
-|info|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|req\_msg\_id|[long](../types/long.md) | Yes|Req msg ID|
+|info|[bytes](../types/bytes.md) | Yes|Info|
 
 
 

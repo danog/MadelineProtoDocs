@@ -44,6 +44,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account_sendChangePhoneCode.html" name="account_sendChangePhoneCode">Change the phone number: account.sendChangePhoneCode</a>  
 
+* <a href="photos_updateProfilePhoto.html" name="photos_updateProfilePhoto">Change the profile photo: photos.updateProfilePhoto</a>  
+
 * <a href="messages_setTyping.html" name="messages_setTyping">Change typing status: messages.setTyping</a>  
 
 * <a href="messages_checkChatInvite.html" name="messages_checkChatInvite">Check if an invitation link is valid: messages.checkChatInvite</a>  
@@ -174,8 +176,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="help_getAppChangelog.html" name="help_getAppChangelog">Get the changelog of this app: help.getAppChangelog</a>  
 
-* <a href="account_getPasswordSettings.html" name="account_getPasswordSettings">Get the current 2FA settings: account.getPasswordSettings</a>  
-
 * <a href="account_getPassword.html" name="account_getPassword">Get the current password: account.getPassword</a>  
 
 * <a href="photos_getUserPhotos.html" name="photos_getUserPhotos">Get the profile photos of a user: photos.getUserPhotos</a>  
@@ -275,10 +275,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="account_updateStatus.html" name="account_updateStatus">Update online status: account.updateStatus</a>  
 
 * <a href="account_updateProfile.html" name="account_updateProfile">Update profile info: account.updateProfile</a>  
-
-* <a href="account_updatePasswordSettings.html" name="account_updatePasswordSettings">Update the 2FA password settings: account.updatePasswordSettings</a>  
-
-* <a href="photos_updateProfilePhoto.html" name="photos_updateProfilePhoto">Update the profile photo (use photos->uploadProfilePhoto to upload the photo): photos.updateProfilePhoto</a>  
 
 * <a href="channels_updateUsername.html" name="channels_updateUsername">Update the username of a supergroup/channel: channels.updateUsername</a>  
 

@@ -1,6 +1,6 @@
 ---
 title: pageFull
-description: pageFull attributes, type and example
+description: Page full
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageFull  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Page full
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|blocks|Array of [PageBlock](../types/PageBlock.md) | Yes|
-|photos|Array of [Photo](../types/Photo.md) | Yes|
-|documents|Array of [Document](../types/Document.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|blocks|Array of [PageBlock](../types/PageBlock.md) | Yes|Blocks|
+|photos|Array of [Photo](../types/Photo.md) | Yes|Photos|
+|documents|Array of [Document](../types/Document.md) | Yes|Documents|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: inputPaymentCredentialsAndroidPay
-description: inputPaymentCredentialsAndroidPay attributes, type and example
+description: Payment credentials android pay
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPaymentCredentialsAndroidPay  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Payment credentials android pay
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|payment\_token|[DataJSON](../types/DataJSON.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|payment\_token|[DataJSON](../types/DataJSON.md) | Yes|Payment token|
 
 
 

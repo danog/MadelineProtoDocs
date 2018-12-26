@@ -1,6 +1,6 @@
 ---
 title: updateNewGeoChatMessage
-description: updateNewGeoChatMessage attributes, type and example
+description: Update new geo chat message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateNewGeoChatMessage  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update new geo chat message
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|message|[GeoChatMessage](../types/GeoChatMessage.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|message|[GeoChatMessage](../types/GeoChatMessage.md) | Optional|Message|
 
 
 

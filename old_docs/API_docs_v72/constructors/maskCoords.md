@@ -1,6 +1,6 @@
 ---
 title: maskCoords
-description: maskCoords attributes, type and example
+description: Mask coords
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: maskCoords  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Mask coords
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|n|[int](../types/int.md) | Yes|
-|x|[double](../types/double.md) | Yes|
-|y|[double](../types/double.md) | Yes|
-|zoom|[double](../types/double.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|n|[int](../types/int.md) | Yes|N|
+|x|[double](../types/double.md) | Yes|X|
+|y|[double](../types/double.md) | Yes|Y|
+|zoom|[double](../types/double.md) | Yes|Zoom|
 
 
 

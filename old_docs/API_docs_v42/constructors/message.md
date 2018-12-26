@@ -1,6 +1,6 @@
 ---
 title: message
-description: message attributes, type and example
+description: Message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: message  
@@ -8,26 +8,28 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|unread|[Bool](../types/Bool.md) | Optional|
-|out|[Bool](../types/Bool.md) | Optional|
-|mentioned|[Bool](../types/Bool.md) | Optional|
-|media\_unread|[Bool](../types/Bool.md) | Optional|
-|id|[int](../types/int.md) | Yes|
-|from\_id|[int](../types/int.md) | Optional|
-|to\_id|[Peer](../types/Peer.md) | Yes|
-|fwd\_from\_id|[Peer](../types/Peer.md) | Optional|
-|fwd\_date|[int](../types/int.md) | Optional|
-|reply\_to\_msg\_id|[int](../types/int.md) | Optional|
-|date|[int](../types/int.md) | Yes|
-|message|[string](../types/string.md) | Yes|
-|media|[MessageMedia](../types/MessageMedia.md) | Optional|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|
-|views|[int](../types/int.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|unread|[Bool](../types/Bool.md) | Optional|Unread?|
+|out|[Bool](../types/Bool.md) | Optional|Out?|
+|mentioned|[Bool](../types/Bool.md) | Optional|Mentioned?|
+|media\_unread|[Bool](../types/Bool.md) | Optional|Media unread?|
+|id|[int](../types/int.md) | Yes|ID|
+|from\_id|[int](../types/int.md) | Optional|From ID|
+|to\_id|[Peer](../types/Peer.md) | Yes|To ID|
+|fwd\_from\_id|[Peer](../types/Peer.md) | Optional|Forwarded from ID|
+|fwd\_date|[int](../types/int.md) | Optional|Forwarded date|
+|reply\_to\_msg\_id|[int](../types/int.md) | Optional|Reply to msg ID|
+|date|[int](../types/int.md) | Yes|Date|
+|message|[string](../types/string.md) | Yes|Message|
+|media|[MessageMedia](../types/MessageMedia.md) | Optional|Media|
+|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Reply markup|
+|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|Entities|
+|views|[int](../types/int.md) | Optional|Views|
 
 
 

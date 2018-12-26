@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageActionSetMessageTTL
-description: decryptedMessageActionSetMessageTTL attributes, type and example
+description: Decrypted message action set message ttl
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionSetMessageTTL\_8  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Decrypted message action set message ttl
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|ttl\_seconds|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|ttl\_seconds|[int](../types/int.md) | Yes|Ttl seconds|
 
 
 

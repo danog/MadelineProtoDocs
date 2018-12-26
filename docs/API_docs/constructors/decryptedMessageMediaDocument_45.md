@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageMediaDocument
-description: decryptedMessageMediaDocument attributes, type and example
+description: Decrypted message media document
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaDocument\_45  
@@ -8,17 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Decrypted message media document
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|thumb|[bytes](../types/bytes.md) | Yes|
-|thumb\_w|[int](../types/int.md) | Yes|
-|thumb\_h|[int](../types/int.md) | Yes|
-|mime\_type|[string](../types/string.md) | Yes|
-|size|[int](../types/int.md) | Yes|
-|attributes|Array of [DocumentAttribute](../types/DocumentAttribute.md) | Yes|
-|caption|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|thumb|[bytes](../types/bytes.md) | Yes|Thumbnail|
+|thumb\_w|[int](../types/int.md) | Yes|Thumbnail w|
+|thumb\_h|[int](../types/int.md) | Yes|Thumbnail h|
+|mime\_type|[string](../types/string.md) | Yes|Mime type|
+|size|[int](../types/int.md) | Yes|Size|
+|attributes|Array of [DocumentAttribute](../types/DocumentAttribute.md) | Yes|Attributes|
+|caption|[string](../types/string.md) | Yes|Caption|
 
 
 

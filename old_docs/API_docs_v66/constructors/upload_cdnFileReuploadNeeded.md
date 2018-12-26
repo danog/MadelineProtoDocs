@@ -1,6 +1,6 @@
 ---
 title: upload.cdnFileReuploadNeeded
-description: upload_cdnFileReuploadNeeded attributes, type and example
+description: Cdn file reupload needed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: upload.cdnFileReuploadNeeded  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Cdn file reupload needed
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|request\_token|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|request\_token|[bytes](../types/bytes.md) | Yes|Request token|
 
 
 

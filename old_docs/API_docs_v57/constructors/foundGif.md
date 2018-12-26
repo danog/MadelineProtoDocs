@@ -1,6 +1,6 @@
 ---
 title: foundGif
-description: foundGif attributes, type and example
+description: Found gif
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: foundGif  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Found gif
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|url|[string](../types/string.md) | Yes|
-|thumb\_url|[string](../types/string.md) | Yes|
-|content\_url|[string](../types/string.md) | Yes|
-|content\_type|[string](../types/string.md) | Yes|
-|w|[int](../types/int.md) | Yes|
-|h|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|url|[string](../types/string.md) | Yes|URL|
+|thumb\_url|[string](../types/string.md) | Yes|Thumbnail URL|
+|content\_url|[string](../types/string.md) | Yes|Content URL|
+|content\_type|[string](../types/string.md) | Yes|Content type|
+|w|[int](../types/int.md) | Yes|Width|
+|h|[int](../types/int.md) | Yes|Height|
 
 
 

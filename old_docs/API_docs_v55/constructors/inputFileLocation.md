@@ -1,6 +1,6 @@
 ---
 title: inputFileLocation
-description: inputFileLocation attributes, type and example
+description: File location
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputFileLocation  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+File location
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|volume\_id|[long](../types/long.md) | Yes|
-|local\_id|[int](../types/int.md) | Yes|
-|secret|[long](../types/long.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|volume\_id|[long](../types/long.md) | Yes|Volume ID|
+|local\_id|[int](../types/int.md) | Yes|Local ID|
+|secret|[long](../types/long.md) | Yes|Secret|
 
 
 

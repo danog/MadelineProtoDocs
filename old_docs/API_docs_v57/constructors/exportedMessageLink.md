@@ -1,6 +1,6 @@
 ---
 title: exportedMessageLink
-description: exportedMessageLink attributes, type and example
+description: Exported message link
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: exportedMessageLink  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Exported message link
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|link|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|link|[string](../types/string.md) | Yes|Link|
 
 
 

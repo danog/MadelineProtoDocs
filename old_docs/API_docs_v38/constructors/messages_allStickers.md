@@ -1,6 +1,6 @@
 ---
 title: messages.allStickers
-description: messages_allStickers attributes, type and example
+description: All stickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.allStickers  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+All stickers
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|[string](../types/string.md) | Yes|
-|sets|Array of [StickerSet](../types/StickerSet.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|hash|[string](../types/string.md) | Yes|Hash|
+|sets|Array of [StickerSet](../types/StickerSet.md) | Yes|Sets|
 
 
 

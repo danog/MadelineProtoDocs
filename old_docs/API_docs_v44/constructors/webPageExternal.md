@@ -1,6 +1,6 @@
 ---
 title: webPageExternal
-description: webPageExternal attributes, type and example
+description: Web page external
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: webPageExternal  
@@ -8,20 +8,22 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Web page external
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|url|[string](../types/string.md) | Yes|
-|display\_url|[string](../types/string.md) | Yes|
-|type|[string](../types/string.md) | Optional|
-|title|[string](../types/string.md) | Optional|
-|description|[string](../types/string.md) | Optional|
-|thumb\_url|[string](../types/string.md) | Optional|
-|content\_url|[string](../types/string.md) | Optional|
-|w|[int](../types/int.md) | Optional|
-|h|[int](../types/int.md) | Optional|
-|duration|[int](../types/int.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|url|[string](../types/string.md) | Yes|URL|
+|display\_url|[string](../types/string.md) | Yes|Display URL|
+|type|[string](../types/string.md) | Optional|Type|
+|title|[string](../types/string.md) | Optional|Title|
+|description|[string](../types/string.md) | Optional|Description|
+|thumb\_url|[string](../types/string.md) | Optional|Thumbnail URL|
+|content\_url|[string](../types/string.md) | Optional|Content URL|
+|w|[int](../types/int.md) | Optional|Width|
+|h|[int](../types/int.md) | Optional|Height|
+|duration|[int](../types/int.md) | Optional|Duration|
 
 
 

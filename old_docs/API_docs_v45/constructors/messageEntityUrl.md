@@ -1,6 +1,6 @@
 ---
 title: messageEntityUrl
-description: messageEntityUrl attributes, type and example
+description: Message entity URL
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageEntityUrl  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message entity URL
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|offset|[int](../types/int.md) | Yes|
-|length|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|offset|[int](../types/int.md) | Yes|Offset|
+|length|[int](../types/int.md) | Yes|Length|
 
 
 

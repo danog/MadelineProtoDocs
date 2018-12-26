@@ -1,6 +1,6 @@
 ---
 title: inputFile
-description: inputFile attributes, type and example
+description: File
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputFile  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+File
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[long](../types/long.md) | Yes|
-|parts|[int](../types/int.md) | Yes|
-|name|[string](../types/string.md) | Yes|
-|md5\_checksum|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[long](../types/long.md) | Yes|ID|
+|parts|[int](../types/int.md) | Yes|Parts|
+|name|[string](../types/string.md) | Yes|Name|
+|md5\_checksum|[string](../types/string.md) | Yes|Md5 checksum|
 
 
 

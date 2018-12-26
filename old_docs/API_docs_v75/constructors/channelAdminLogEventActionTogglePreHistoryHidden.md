@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionTogglePreHistoryHidden
-description: channelAdminLogEventActionTogglePreHistoryHidden attributes, type and example
+description: Previous history hidden
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionTogglePreHistoryHidden  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Previous history hidden
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|new\_value|[Bool](../types/Bool.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|new\_value|[Bool](../types/Bool.md) | Yes|New value|
 
 
 

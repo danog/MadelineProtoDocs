@@ -1,6 +1,6 @@
 ---
 title: bind_auth_key_inner
-description: bind_auth_key_inner attributes, type and example
+description: Bind auth key inner
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: bind\_auth\_key\_inner  
@@ -8,15 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Bind auth key inner
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|nonce|[long](../types/long.md) | Yes|
-|temp\_auth\_key\_id|[long](../types/long.md) | Yes|
-|perm\_auth\_key\_id|[long](../types/long.md) | Yes|
-|temp\_session\_id|[long](../types/long.md) | Yes|
-|expires\_at|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|nonce|[long](../types/long.md) | Yes|Nonce|
+|temp\_auth\_key\_id|[long](../types/long.md) | Yes|Temp auth key ID|
+|perm\_auth\_key\_id|[long](../types/long.md) | Yes|Perm auth key ID|
+|temp\_session\_id|[long](../types/long.md) | Yes|Temp session ID|
+|expires\_at|[int](../types/int.md) | Yes|Expires at|
 
 
 

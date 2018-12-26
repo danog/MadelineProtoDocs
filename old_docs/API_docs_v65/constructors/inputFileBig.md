@@ -1,6 +1,6 @@
 ---
 title: inputFileBig
-description: inputFileBig attributes, type and example
+description: File big
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputFileBig  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+File big
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[long](../types/long.md) | Yes|
-|parts|[int](../types/int.md) | Yes|
-|name|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[long](../types/long.md) | Yes|ID|
+|parts|[int](../types/int.md) | Yes|Parts|
+|name|[string](../types/string.md) | Yes|Name|
 
 
 

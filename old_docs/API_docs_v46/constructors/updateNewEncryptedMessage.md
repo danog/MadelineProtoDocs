@@ -1,6 +1,6 @@
 ---
 title: updateNewEncryptedMessage
-description: updateNewEncryptedMessage attributes, type and example
+description: Update new encrypted message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateNewEncryptedMessage  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update new encrypted message
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|encr\_message|[EncryptedMessage](../types/EncryptedMessage.md) | Yes|
-|qts|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|encr\_message|[EncryptedMessage](../types/EncryptedMessage.md) | Yes|Encr message|
+|qts|[int](../types/int.md) | Yes|Qts|
 
 
 

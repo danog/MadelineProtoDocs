@@ -1,6 +1,6 @@
 ---
 title: inputWebDocument
-description: inputWebDocument attributes, type and example
+description: Web document
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputWebDocument  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Web document
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|url|[string](../types/string.md) | Yes|
-|size|[int](../types/int.md) | Yes|
-|mime\_type|[string](../types/string.md) | Yes|
-|attributes|Array of [DocumentAttribute](../types/DocumentAttribute.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|url|[string](../types/string.md) | Yes|URL|
+|size|[int](../types/int.md) | Yes|Size|
+|mime\_type|[string](../types/string.md) | Yes|Mime type|
+|attributes|Array of [DocumentAttribute](../types/DocumentAttribute.md) | Yes|Attributes|
 
 
 

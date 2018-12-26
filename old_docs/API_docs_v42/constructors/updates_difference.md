@@ -1,6 +1,6 @@
 ---
 title: updates.difference
-description: updates_difference attributes, type and example
+description: Difference
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updates.difference  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Difference
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|new\_messages|Array of [Message](../types/Message.md) | Yes|
-|new\_encrypted\_messages|Array of [EncryptedMessage](../types/EncryptedMessage.md) | Yes|
-|other\_updates|Array of [Update](../types/Update.md) | Yes|
-|chats|Array of [Chat](../types/Chat.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
-|state|[updates\_State](../types/updates_State.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|new\_messages|Array of [Message](../types/Message.md) | Yes|New messages|
+|new\_encrypted\_messages|Array of [EncryptedMessage](../types/EncryptedMessage.md) | Yes|New encrypted messages|
+|other\_updates|Array of [Update](../types/Update.md) | Yes|Other updates|
+|chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
+|users|Array of [User](../types/User.md) | Yes|Users|
+|state|[updates\_State](../types/updates_State.md) | Yes|State|
 
 
 

@@ -1,12 +1,14 @@
 ---
 title: privacyValueDisallowAll
-description: privacyValueDisallowAll attributes, type and example
+description: Privacy value disallow all
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: privacyValueDisallowAll  
 [Back to constructors index](index.md)
 
 
+
+Privacy value disallow all
 
 
 

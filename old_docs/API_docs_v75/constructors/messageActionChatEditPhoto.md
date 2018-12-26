@@ -1,6 +1,6 @@
 ---
 title: messageActionChatEditPhoto
-description: messageActionChatEditPhoto attributes, type and example
+description: Message action chat edit photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChatEditPhoto  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message action chat edit photo
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|photo|[Photo](../types/Photo.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|photo|[Photo](../types/Photo.md) | Optional|Photo|
 
 
 

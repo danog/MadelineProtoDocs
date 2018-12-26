@@ -1,6 +1,6 @@
 ---
 title: error
-description: error attributes, type and example
+description: Error
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: error  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Error
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|code|[int](../types/int.md) | Yes|
-|text|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|code|[int](../types/int.md) | Yes|Code|
+|text|[string](../types/string.md) | Yes|Text|
 
 
 

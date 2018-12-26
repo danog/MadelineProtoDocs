@@ -1,6 +1,6 @@
 ---
 title: inputBotInlineMessageText
-description: inputBotInlineMessageText attributes, type and example
+description: Bot inline message text
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputBotInlineMessageText  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Bot inline message text
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|no\_webpage|[Bool](../types/Bool.md) | Optional|
-|message|[string](../types/string.md) | Yes|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|no\_webpage|[Bool](../types/Bool.md) | Optional|No webpage?|
+|message|[string](../types/string.md) | Yes|Message|
+|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|Entities|
+|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Reply markup|
 
 
 

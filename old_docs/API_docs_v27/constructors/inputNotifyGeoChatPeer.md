@@ -1,6 +1,6 @@
 ---
 title: inputNotifyGeoChatPeer
-description: inputNotifyGeoChatPeer attributes, type and example
+description: Notify geo chat peer
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputNotifyGeoChatPeer  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Notify geo chat peer
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[InputGeoChat](../types/InputGeoChat.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[InputGeoChat](../types/InputGeoChat.md) | Yes|Peer|
 
 
 

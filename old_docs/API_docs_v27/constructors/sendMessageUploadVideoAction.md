@@ -1,12 +1,14 @@
 ---
 title: sendMessageUploadVideoAction
-description: sendMessageUploadVideoAction attributes, type and example
+description: Send message upload video action
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageUploadVideoAction  
 [Back to constructors index](index.md)
 
 
+
+Send message upload video action
 
 
 

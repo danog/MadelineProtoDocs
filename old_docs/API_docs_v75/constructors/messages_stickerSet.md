@@ -1,6 +1,6 @@
 ---
 title: messages.stickerSet
-description: messages_stickerSet attributes, type and example
+description: Sticker set
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.stickerSet  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Sticker set
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|set|[StickerSet](../types/StickerSet.md) | Yes|
-|packs|Array of [StickerPack](../types/StickerPack.md) | Yes|
-|documents|Array of [Document](../types/Document.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|set|[StickerSet](../types/StickerSet.md) | Yes|Set|
+|packs|Array of [StickerPack](../types/StickerPack.md) | Yes|Packs|
+|documents|Array of [Document](../types/Document.md) | Yes|Documents|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: documentAttributeImageSize
-description: documentAttributeImageSize attributes, type and example
+description: Document attribute image size
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: documentAttributeImageSize  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Document attribute image size
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|w|[int](../types/int.md) | Optional|
-|h|[int](../types/int.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|w|[int](../types/int.md) | Optional|Width|
+|h|[int](../types/int.md) | Optional|Height|
 
 
 

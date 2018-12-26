@@ -1,12 +1,14 @@
 ---
 title: updatePtsChanged
-description: updatePtsChanged attributes, type and example
+description: Update pts changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatePtsChanged  
 [Back to constructors index](index.md)
 
 
+
+Update pts changed
 
 
 

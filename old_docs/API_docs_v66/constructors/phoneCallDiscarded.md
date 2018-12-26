@@ -1,6 +1,6 @@
 ---
 title: phoneCallDiscarded
-description: phoneCallDiscarded attributes, type and example
+description: Phone call discarded
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneCallDiscarded  
@@ -8,15 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Phone call discarded
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|need\_rating|[Bool](../types/Bool.md) | Optional|
-|need\_debug|[Bool](../types/Bool.md) | Optional|
-|id|[long](../types/long.md) | Yes|
-|reason|[PhoneCallDiscardReason](../types/PhoneCallDiscardReason.md) | Optional|
-|duration|[int](../types/int.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|need\_rating|[Bool](../types/Bool.md) | Optional|Need rating?|
+|need\_debug|[Bool](../types/Bool.md) | Optional|Need debug?|
+|id|[long](../types/long.md) | Yes|ID|
+|reason|[PhoneCallDiscardReason](../types/PhoneCallDiscardReason.md) | Optional|Reason|
+|duration|[int](../types/int.md) | Optional|Duration|
 
 
 

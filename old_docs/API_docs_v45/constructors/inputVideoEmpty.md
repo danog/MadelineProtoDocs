@@ -1,12 +1,14 @@
 ---
 title: inputVideoEmpty
-description: inputVideoEmpty attributes, type and example
+description: Empty input video
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputVideoEmpty  
 [Back to constructors index](index.md)
 
 
+
+Empty input video
 
 
 

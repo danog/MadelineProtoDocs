@@ -1,6 +1,6 @@
 ---
 title: pageBlockChannel
-description: pageBlockChannel attributes, type and example
+description: Page block channel
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockChannel  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Page block channel
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Chat](../types/Chat.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|channel|[Chat](../types/Chat.md) | Optional|Channel|
 
 
 

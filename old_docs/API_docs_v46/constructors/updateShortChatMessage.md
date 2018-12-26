@@ -1,6 +1,6 @@
 ---
 title: updateShortChatMessage
-description: updateShortChatMessage attributes, type and example
+description: Update short chat message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateShortChatMessage  
@@ -8,26 +8,28 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update short chat message
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|unread|[Bool](../types/Bool.md) | Optional|
-|out|[Bool](../types/Bool.md) | Optional|
-|mentioned|[Bool](../types/Bool.md) | Optional|
-|media\_unread|[Bool](../types/Bool.md) | Optional|
-|id|[int](../types/int.md) | Yes|
-|from\_id|[int](../types/int.md) | Yes|
-|chat\_id|[int](../types/int.md) | Yes|
-|message|[string](../types/string.md) | Yes|
-|pts|[int](../types/int.md) | Yes|
-|pts\_count|[int](../types/int.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|fwd\_from\_id|[Peer](../types/Peer.md) | Optional|
-|fwd\_date|[int](../types/int.md) | Optional|
-|via\_bot\_id|[int](../types/int.md) | Optional|
-|reply\_to\_msg\_id|[int](../types/int.md) | Optional|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|unread|[Bool](../types/Bool.md) | Optional|Unread?|
+|out|[Bool](../types/Bool.md) | Optional|Out?|
+|mentioned|[Bool](../types/Bool.md) | Optional|Mentioned?|
+|media\_unread|[Bool](../types/Bool.md) | Optional|Media unread?|
+|id|[int](../types/int.md) | Yes|ID|
+|from\_id|[int](../types/int.md) | Yes|From ID|
+|chat\_id|[int](../types/int.md) | Yes|Chat ID|
+|message|[string](../types/string.md) | Yes|Message|
+|pts|[int](../types/int.md) | Yes|Pts|
+|pts\_count|[int](../types/int.md) | Yes|Pts count|
+|date|[int](../types/int.md) | Yes|Date|
+|fwd\_from\_id|[Peer](../types/Peer.md) | Optional|Fwd from ID|
+|fwd\_date|[int](../types/int.md) | Optional|Fwd date|
+|via\_bot\_id|[int](../types/int.md) | Optional|Via bot ID|
+|reply\_to\_msg\_id|[int](../types/int.md) | Optional|Reply to msg ID|
+|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|Entities|
 
 
 

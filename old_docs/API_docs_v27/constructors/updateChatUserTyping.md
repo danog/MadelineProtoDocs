@@ -1,6 +1,6 @@
 ---
 title: updateChatUserTyping
-description: updateChatUserTyping attributes, type and example
+description: Update chat user typing
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChatUserTyping  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update chat user typing
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chat\_id|[int](../types/int.md) | Yes|
-|user\_id|[int](../types/int.md) | Yes|
-|action|[SendMessageAction](../types/SendMessageAction.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|chat\_id|[int](../types/int.md) | Yes|Chat ID|
+|user\_id|[int](../types/int.md) | Yes|User ID|
+|action|[SendMessageAction](../types/SendMessageAction.md) | Yes|Action|
 
 
 

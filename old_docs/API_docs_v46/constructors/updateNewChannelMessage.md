@@ -1,6 +1,6 @@
 ---
 title: updateNewChannelMessage
-description: updateNewChannelMessage attributes, type and example
+description: Update new channel message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateNewChannelMessage  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update new channel message
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|message|[Message](../types/Message.md) | Optional|
-|channel\_pts|[int](../types/int.md) | Yes|
-|channel\_pts\_count|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|message|[Message](../types/Message.md) | Optional|Message|
+|channel\_pts|[int](../types/int.md) | Yes|Channel pts|
+|channel\_pts\_count|[int](../types/int.md) | Yes|Channel pts count|
 
 
 

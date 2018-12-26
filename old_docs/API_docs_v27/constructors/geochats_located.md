@@ -1,6 +1,6 @@
 ---
 title: geochats.located
-description: geochats_located attributes, type and example
+description: Located
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: geochats.located  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Located
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|results|Array of [ChatLocated](../types/ChatLocated.md) | Yes|
-|messages|Array of [GeoChatMessage](../types/GeoChatMessage.md) | Yes|
-|chats|Array of [Chat](../types/Chat.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|results|Array of [ChatLocated](../types/ChatLocated.md) | Yes|Results|
+|messages|Array of [GeoChatMessage](../types/GeoChatMessage.md) | Yes|Messages|
+|chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
+|users|Array of [User](../types/User.md) | Yes|Users|
 
 
 

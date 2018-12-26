@@ -1,12 +1,14 @@
 ---
 title: userProfilePhotoEmpty
-description: userProfilePhotoEmpty attributes, type and example
+description: Empty user profile photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userProfilePhotoEmpty  
 [Back to constructors index](index.md)
 
 
+
+Empty user profile photo
 
 
 

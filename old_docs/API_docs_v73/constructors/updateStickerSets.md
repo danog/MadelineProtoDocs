@@ -1,12 +1,14 @@
 ---
 title: updateStickerSets
-description: updateStickerSets attributes, type and example
+description: Update sticker sets
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateStickerSets  
 [Back to constructors index](index.md)
 
 
+
+Update sticker sets
 
 
 

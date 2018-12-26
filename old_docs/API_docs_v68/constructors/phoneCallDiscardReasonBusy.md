@@ -1,12 +1,14 @@
 ---
 title: phoneCallDiscardReasonBusy
-description: phoneCallDiscardReasonBusy attributes, type and example
+description: Phone call discard reason busy
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneCallDiscardReasonBusy  
 [Back to constructors index](index.md)
 
 
+
+Phone call discard reason busy
 
 
 

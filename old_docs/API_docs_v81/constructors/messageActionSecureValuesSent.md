@@ -1,6 +1,6 @@
 ---
 title: messageActionSecureValuesSent
-description: messageActionSecureValuesSent attributes, type and example
+description: Message action secure values sent
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionSecureValuesSent  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message action secure values sent
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|types|Array of [SecureValueType](../types/SecureValueType.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|types|Array of [SecureValueType](../types/SecureValueType.md) | Yes|Types|
 
 
 

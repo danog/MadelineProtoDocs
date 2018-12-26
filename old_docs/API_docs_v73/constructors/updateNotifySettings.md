@@ -1,6 +1,6 @@
 ---
 title: updateNotifySettings
-description: updateNotifySettings attributes, type and example
+description: Update notify settings
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateNotifySettings  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update notify settings
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[NotifyPeer](../types/NotifyPeer.md) | Yes|
-|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[NotifyPeer](../types/NotifyPeer.md) | Yes|Peer|
+|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|Notify settings|
 
 
 

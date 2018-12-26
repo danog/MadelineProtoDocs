@@ -1,12 +1,14 @@
 ---
 title: contactLinkNone
-description: contactLinkNone attributes, type and example
+description: Contact link none
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: contactLinkNone  
 [Back to constructors index](index.md)
 
 
+
+Contact link none
 
 
 

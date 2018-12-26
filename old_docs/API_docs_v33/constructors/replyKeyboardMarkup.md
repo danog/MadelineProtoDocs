@@ -1,6 +1,6 @@
 ---
 title: replyKeyboardMarkup
-description: replyKeyboardMarkup attributes, type and example
+description: Reply keyboard markup
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: replyKeyboardMarkup  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Reply keyboard markup
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|rows|Array of [KeyboardButtonRow](../types/KeyboardButtonRow.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|rows|Array of [KeyboardButtonRow](../types/KeyboardButtonRow.md) | Yes|Rows|
 
 
 

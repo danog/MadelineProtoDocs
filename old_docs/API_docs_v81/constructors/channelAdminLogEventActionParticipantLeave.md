@@ -1,12 +1,14 @@
 ---
 title: channelAdminLogEventActionParticipantLeave
-description: channelAdminLogEventActionParticipantLeave attributes, type and example
+description: Left participant
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionParticipantLeave  
 [Back to constructors index](index.md)
 
 
+
+Left participant
 
 
 

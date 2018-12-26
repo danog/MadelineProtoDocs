@@ -1,6 +1,6 @@
 ---
 title: pageBlockList
-description: pageBlockList attributes, type and example
+description: Page block list
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockList  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Page block list
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|ordered|[Bool](../types/Bool.md) | Yes|
-|items|Array of [RichText](../types/RichText.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|ordered|[Bool](../types/Bool.md) | Yes|Ordered?|
+|items|Array of [RichText](../types/RichText.md) | Yes|Items|
 
 
 

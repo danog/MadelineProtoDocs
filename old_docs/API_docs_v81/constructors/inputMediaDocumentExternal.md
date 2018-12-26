@@ -1,6 +1,6 @@
 ---
 title: inputMediaDocumentExternal
-description: inputMediaDocumentExternal attributes, type and example
+description: Media document external
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaDocumentExternal  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Media document external
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|url|[string](../types/string.md) | Yes|
-|ttl\_seconds|[int](../types/int.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|url|[string](../types/string.md) | Yes|URL|
+|ttl\_seconds|[int](../types/int.md) | Optional|Ttl seconds|
 
 
 

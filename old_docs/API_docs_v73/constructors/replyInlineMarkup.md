@@ -1,6 +1,6 @@
 ---
 title: replyInlineMarkup
-description: replyInlineMarkup attributes, type and example
+description: Reply inline markup
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: replyInlineMarkup  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Reply inline markup
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|rows|Array of [KeyboardButtonRow](../types/KeyboardButtonRow.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|rows|Array of [KeyboardButtonRow](../types/KeyboardButtonRow.md) | Yes|Rows|
 
 
 

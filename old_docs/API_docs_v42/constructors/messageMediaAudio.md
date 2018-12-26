@@ -1,6 +1,6 @@
 ---
 title: messageMediaAudio
-description: messageMediaAudio attributes, type and example
+description: Message media audio
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaAudio  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message media audio
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|audio|[Audio](../types/Audio.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|audio|[Audio](../types/Audio.md) | Optional|Audio|
 
 
 

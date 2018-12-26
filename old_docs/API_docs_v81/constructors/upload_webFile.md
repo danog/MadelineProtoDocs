@@ -1,6 +1,6 @@
 ---
 title: upload.webFile
-description: upload_webFile attributes, type and example
+description: Web file
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: upload.webFile  
@@ -8,15 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Web file
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|size|[int](../types/int.md) | Yes|
-|mime\_type|[string](../types/string.md) | Yes|
-|file\_type|[storage\_FileType](../types/storage_FileType.md) | Yes|
-|mtime|[int](../types/int.md) | Yes|
-|bytes|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|size|[int](../types/int.md) | Yes|Size|
+|mime\_type|[string](../types/string.md) | Yes|Mime type|
+|file\_type|[storage\_FileType](../types/storage_FileType.md) | Yes|File type|
+|mtime|[int](../types/int.md) | Yes|Mtime|
+|bytes|[bytes](../types/bytes.md) | Yes|Bytes|
 
 
 

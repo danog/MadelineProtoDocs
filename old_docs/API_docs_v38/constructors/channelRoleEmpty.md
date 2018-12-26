@@ -1,12 +1,14 @@
 ---
 title: channelRoleEmpty
-description: channelRoleEmpty attributes, type and example
+description: Empty channel role
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelRoleEmpty  
 [Back to constructors index](index.md)
 
 
+
+Empty channel role
 
 
 

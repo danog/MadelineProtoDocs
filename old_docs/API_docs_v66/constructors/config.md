@@ -1,6 +1,6 @@
 ---
 title: config
-description: config attributes, type and example
+description: Config
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: config  
@@ -8,40 +8,42 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Config
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|phonecalls\_enabled|[Bool](../types/Bool.md) | Optional|
-|date|[int](../types/int.md) | Yes|
-|expires|[int](../types/int.md) | Yes|
-|test\_mode|[Bool](../types/Bool.md) | Yes|
-|this\_dc|[int](../types/int.md) | Yes|
-|dc\_options|Array of [DcOption](../types/DcOption.md) | Yes|
-|chat\_size\_max|[int](../types/int.md) | Yes|
-|megagroup\_size\_max|[int](../types/int.md) | Yes|
-|forwarded\_count\_max|[int](../types/int.md) | Yes|
-|online\_update\_period\_ms|[int](../types/int.md) | Yes|
-|offline\_blur\_timeout\_ms|[int](../types/int.md) | Yes|
-|offline\_idle\_timeout\_ms|[int](../types/int.md) | Yes|
-|online\_cloud\_timeout\_ms|[int](../types/int.md) | Yes|
-|notify\_cloud\_delay\_ms|[int](../types/int.md) | Yes|
-|notify\_default\_delay\_ms|[int](../types/int.md) | Yes|
-|chat\_big\_size|[int](../types/int.md) | Yes|
-|push\_chat\_period\_ms|[int](../types/int.md) | Yes|
-|push\_chat\_limit|[int](../types/int.md) | Yes|
-|saved\_gifs\_limit|[int](../types/int.md) | Yes|
-|edit\_time\_limit|[int](../types/int.md) | Yes|
-|rating\_e\_decay|[int](../types/int.md) | Yes|
-|stickers\_recent\_limit|[int](../types/int.md) | Yes|
-|tmp\_sessions|[int](../types/int.md) | Optional|
-|pinned\_dialogs\_count\_max|[int](../types/int.md) | Yes|
-|call\_receive\_timeout\_ms|[int](../types/int.md) | Yes|
-|call\_ring\_timeout\_ms|[int](../types/int.md) | Yes|
-|call\_connect\_timeout\_ms|[int](../types/int.md) | Yes|
-|call\_packet\_timeout\_ms|[int](../types/int.md) | Yes|
-|me\_url\_prefix|[string](../types/string.md) | Yes|
-|disabled\_features|Array of [DisabledFeature](../types/DisabledFeature.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|phonecalls\_enabled|[Bool](../types/Bool.md) | Optional|Phonecalls enabled?|
+|date|[int](../types/int.md) | Yes|Date|
+|expires|[int](../types/int.md) | Yes|Expires|
+|test\_mode|[Bool](../types/Bool.md) | Yes|Test mode?|
+|this\_dc|[int](../types/int.md) | Yes|This DC|
+|dc\_options|Array of [DcOption](../types/DcOption.md) | Yes|DC options|
+|chat\_size\_max|[int](../types/int.md) | Yes|Chat size max|
+|megagroup\_size\_max|[int](../types/int.md) | Yes|Megagroup size max|
+|forwarded\_count\_max|[int](../types/int.md) | Yes|Forwarded count max|
+|online\_update\_period\_ms|[int](../types/int.md) | Yes|Online update period ms|
+|offline\_blur\_timeout\_ms|[int](../types/int.md) | Yes|Offline blur timeout ms|
+|offline\_idle\_timeout\_ms|[int](../types/int.md) | Yes|Offline IDle timeout ms|
+|online\_cloud\_timeout\_ms|[int](../types/int.md) | Yes|Online cloud timeout ms|
+|notify\_cloud\_delay\_ms|[int](../types/int.md) | Yes|Notify cloud delay ms|
+|notify\_default\_delay\_ms|[int](../types/int.md) | Yes|Notify default delay ms|
+|chat\_big\_size|[int](../types/int.md) | Yes|Chat big size|
+|push\_chat\_period\_ms|[int](../types/int.md) | Yes|Push chat period ms|
+|push\_chat\_limit|[int](../types/int.md) | Yes|Push chat limit|
+|saved\_gifs\_limit|[int](../types/int.md) | Yes|Saved gifs limit|
+|edit\_time\_limit|[int](../types/int.md) | Yes|Edit time limit|
+|rating\_e\_decay|[int](../types/int.md) | Yes|Rating e decay|
+|stickers\_recent\_limit|[int](../types/int.md) | Yes|Stickers recent limit|
+|tmp\_sessions|[int](../types/int.md) | Optional|Tmp sessions|
+|pinned\_dialogs\_count\_max|[int](../types/int.md) | Yes|Pinned dialogs count max|
+|call\_receive\_timeout\_ms|[int](../types/int.md) | Yes|Call receive timeout ms|
+|call\_ring\_timeout\_ms|[int](../types/int.md) | Yes|Call ring timeout ms|
+|call\_connect\_timeout\_ms|[int](../types/int.md) | Yes|Call connect timeout ms|
+|call\_packet\_timeout\_ms|[int](../types/int.md) | Yes|Call packet timeout ms|
+|me\_url\_prefix|[string](../types/string.md) | Yes|Me URL prefix|
+|disabled\_features|Array of [DisabledFeature](../types/DisabledFeature.md) | Yes|Disabled features|
 
 
 

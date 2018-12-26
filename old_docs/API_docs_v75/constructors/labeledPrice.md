@@ -1,6 +1,6 @@
 ---
 title: labeledPrice
-description: labeledPrice attributes, type and example
+description: Labeled price
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: labeledPrice  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Labeled price
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|label|[string](../types/string.md) | Yes|
-|amount|[long](../types/long.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|label|[string](../types/string.md) | Yes|Label|
+|amount|[long](../types/long.md) | Yes|Amount|
 
 
 

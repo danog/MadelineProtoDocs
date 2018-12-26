@@ -40,6 +40,8 @@ You can also provide a [MessageMedia](MessageMedia.md), [Message](Message.md), [
 
 [inputMediaGeoLive](../constructors/inputMediaGeoLive.md)  
 
+[inputMediaPoll](../constructors/inputMediaPoll.md)  
+
 
 
 ### Methods that return an object of this type (methods):

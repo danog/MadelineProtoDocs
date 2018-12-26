@@ -1,6 +1,6 @@
 ---
 title: help.configSimple
-description: help_configSimple attributes, type and example
+description: Config simple
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.configSimple  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Config simple
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|date|[int](../types/int.md) | Yes|
-|expires|[int](../types/int.md) | Yes|
-|rules|Array of [AccessPointRule](../types/AccessPointRule.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|date|[int](../types/int.md) | Yes|Date|
+|expires|[int](../types/int.md) | Yes|Expires|
+|rules|Array of [AccessPointRule](../types/AccessPointRule.md) | Yes|Rules|
 
 
 

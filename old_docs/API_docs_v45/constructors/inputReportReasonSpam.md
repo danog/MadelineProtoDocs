@@ -1,12 +1,14 @@
 ---
 title: inputReportReasonSpam
-description: inputReportReasonSpam attributes, type and example
+description: Report reason spam
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputReportReasonSpam  
 [Back to constructors index](index.md)
 
 
+
+Report reason spam
 
 
 

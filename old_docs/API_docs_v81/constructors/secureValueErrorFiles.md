@@ -1,6 +1,6 @@
 ---
 title: secureValueErrorFiles
-description: secureValueErrorFiles attributes, type and example
+description: Secure value error files
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueErrorFiles  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Secure value error files
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|type|[SecureValueType](../types/SecureValueType.md) | Yes|
-|file\_hash|Array of [bytes](../types/bytes.md) | Yes|
-|text|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|type|[SecureValueType](../types/SecureValueType.md) | Yes|Type|
+|file\_hash|Array of [bytes](../types/bytes.md) | Yes|File hash|
+|text|[string](../types/string.md) | Yes|Text|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: geoChatMessage
-description: geoChatMessage attributes, type and example
+description: Geo chat message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: geoChatMessage  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Geo chat message
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chat\_id|[int](../types/int.md) | Yes|
-|id|[int](../types/int.md) | Yes|
-|from\_id|[int](../types/int.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|message|[string](../types/string.md) | Yes|
-|media|[MessageMedia](../types/MessageMedia.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|chat\_id|[int](../types/int.md) | Yes|Chat ID|
+|id|[int](../types/int.md) | Yes|ID|
+|from\_id|[int](../types/int.md) | Yes|From ID|
+|date|[int](../types/int.md) | Yes|Date|
+|message|[string](../types/string.md) | Yes|Message|
+|media|[MessageMedia](../types/MessageMedia.md) | Optional|Media|
 
 
 

@@ -1,12 +1,14 @@
 ---
 title: inputPrivacyValueAllowContacts
-description: inputPrivacyValueAllowContacts attributes, type and example
+description: Privacy value allow contacts
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPrivacyValueAllowContacts  
 [Back to constructors index](index.md)
 
 
+
+Privacy value allow contacts
 
 
 

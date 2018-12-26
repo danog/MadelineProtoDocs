@@ -1,6 +1,6 @@
 ---
 title: stickerSet
-description: stickerSet attributes, type and example
+description: Sticker set
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: stickerSet  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Sticker set
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[long](../types/long.md) | Yes|
-|access\_hash|[long](../types/long.md) | Yes|
-|title|[string](../types/string.md) | Yes|
-|short\_name|[string](../types/string.md) | Yes|
-|count|[int](../types/int.md) | Yes|
-|hash|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[long](../types/long.md) | Yes|ID|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|title|[string](../types/string.md) | Yes|Title|
+|short\_name|[string](../types/string.md) | Yes|Short name|
+|count|[int](../types/int.md) | Yes|Count|
+|hash|[int](../types/int.md) | Yes|Hash|
 
 
 

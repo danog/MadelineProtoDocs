@@ -1,6 +1,6 @@
 ---
 title: messageMediaVideo
-description: messageMediaVideo attributes, type and example
+description: Message media video
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaVideo  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message media video
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|video|[Video](../types/Video.md) | Optional|
-|caption|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|video|[Video](../types/Video.md) | Optional|Video|
+|caption|[string](../types/string.md) | Yes|Caption|
 
 
 

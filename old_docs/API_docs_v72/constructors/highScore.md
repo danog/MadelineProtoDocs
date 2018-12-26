@@ -1,6 +1,6 @@
 ---
 title: highScore
-description: highScore attributes, type and example
+description: High score
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: highScore  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+High score
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|pos|[int](../types/int.md) | Yes|
-|user\_id|[int](../types/int.md) | Yes|
-|score|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|pos|[int](../types/int.md) | Yes|Pos|
+|user\_id|[int](../types/int.md) | Yes|User ID|
+|score|[int](../types/int.md) | Yes|Score|
 
 
 

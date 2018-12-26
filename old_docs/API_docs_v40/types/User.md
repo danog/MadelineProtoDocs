@@ -12,7 +12,7 @@ You can directly provide the [Update](Update.md) or [Message](Message.md) object
 
 The following syntaxes can also be used:
 
-```php
+```
 $User = '@username'; // Username
 
 $User = 'me'; // The currently logged-in user

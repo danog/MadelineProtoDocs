@@ -1,6 +1,6 @@
 ---
 title: messages.foundStickerSets
-description: messages_foundStickerSets attributes, type and example
+description: Found sticker sets
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.foundStickerSets  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Found sticker sets
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|[int](../types/int.md) | Yes|
-|sets|Array of [StickerSetCovered](../types/StickerSetCovered.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|hash|[int](../types/int.md) | Yes|Hash|
+|sets|Array of [StickerSetCovered](../types/StickerSetCovered.md) | Yes|Sets|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageActionAcceptKey
-description: decryptedMessageActionAcceptKey attributes, type and example
+description: Decrypted message action accept key
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionAcceptKey\_20  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Decrypted message action accept key
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|exchange\_id|[long](../types/long.md) | Yes|
-|g\_b|[bytes](../types/bytes.md) | Yes|
-|key\_fingerprint|[long](../types/long.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|exchange\_id|[long](../types/long.md) | Yes|Exchange ID|
+|g\_b|[bytes](../types/bytes.md) | Yes|G b|
+|key\_fingerprint|[long](../types/long.md) | Yes|Key fingerprint|
 
 
 

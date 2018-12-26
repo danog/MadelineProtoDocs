@@ -1,6 +1,6 @@
 ---
 title: dcOption
-description: dcOption attributes, type and example
+description: DC option
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: dcOption  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+DC option
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](../types/int.md) | Yes|
-|hostname|[string](../types/string.md) | Yes|
-|ip\_address|[string](../types/string.md) | Yes|
-|port|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](../types/int.md) | Yes|ID|
+|hostname|[string](../types/string.md) | Yes|Hostname|
+|ip\_address|[string](../types/string.md) | Yes|Ip address|
+|port|[int](../types/int.md) | Yes|Port|
 
 
 

@@ -16,6 +16,7 @@ Send inline bot result obtained with messages.getInlineBotResults to the chat
 |silent|[Bool](../types/Bool.md) | Disable notifications? | Optional|
 |background|[Bool](../types/Bool.md) | Disable background notifications? | Optional|
 |clear\_draft|[Bool](../types/Bool.md) | Clear the message draft? | Optional|
+|hide\_via|[Bool](../types/Bool.md) | Hide "via @bot" | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Where to send the message | Optional|
 |reply\_to\_msg\_id|[int](../types/int.md) | Reply to message by ID | Optional|
 |query\_id|[long](../types/long.md) | The inline query ID | Yes|
@@ -39,7 +40,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendInlineBotResult(['silent' => Bool, 'background' => Bool, 'clear_draft' => Bool, 'peer' => InputPeer, 'reply_to_msg_id' => int, 'query_id' => long, 'id' => 'string', ]);
+$Updates = $MadelineProto->messages->sendInlineBotResult(['silent' => Bool, 'background' => Bool, 'clear_draft' => Bool, 'hide_via' => Bool, 'peer' => InputPeer, 'reply_to_msg_id' => int, 'query_id' => long, 'id' => 'string', ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -58,6 +59,8 @@ background - Json encoded Bool
 
 clear_draft - Json encoded Bool
 
+hide_via - Json encoded Bool
+
 peer - Json encoded InputPeer
 
 reply_to_msg_id - Json encoded int
@@ -72,7 +75,7 @@ id - Json encoded string
 Or, if you're into Lua:
 
 ```lua
-Updates = messages.sendInlineBotResult({silent=Bool, background=Bool, clear_draft=Bool, peer=InputPeer, reply_to_msg_id=int, query_id=long, id='string', })
+Updates = messages.sendInlineBotResult({silent=Bool, background=Bool, clear_draft=Bool, hide_via=Bool, peer=InputPeer, reply_to_msg_id=int, query_id=long, id='string', })
 ```
 
 ### Errors this method can return:

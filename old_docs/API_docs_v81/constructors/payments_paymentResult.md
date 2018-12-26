@@ -1,6 +1,6 @@
 ---
 title: payments.paymentResult
-description: payments_paymentResult attributes, type and example
+description: Payment result
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: payments.paymentResult  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Payment result
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|updates|[Updates](../types/Updates.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|updates|[Updates](../types/Updates.md) | Yes|Updates|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: updateStickerSetsOrder
-description: updateStickerSetsOrder attributes, type and example
+description: Update sticker sets order
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateStickerSetsOrder  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update sticker sets order
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|masks|[Bool](../types/Bool.md) | Optional|
-|order|Array of [long](../types/long.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|masks|[Bool](../types/Bool.md) | Optional|Masks?|
+|order|Array of [long](../types/long.md) | Yes|Order|
 
 
 

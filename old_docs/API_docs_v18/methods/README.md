@@ -36,6 +36,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account_updateNotifySettings.html" name="account_updateNotifySettings">Change notification settings: account.updateNotifySettings</a>  
 
+* <a href="photos_updateProfilePhoto.html" name="photos_updateProfilePhoto">Change the profile photo: photos.updateProfilePhoto</a>  
+
 * <a href="messages_setTyping.html" name="messages_setTyping">Change typing status: messages.setTyping</a>  
 
 * <a href="auth_checkPhone.html" name="auth_checkPhone">Check if this phone number is registered on telegram: auth.checkPhone</a>  
@@ -159,8 +161,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="account_updateStatus.html" name="account_updateStatus">Update online status: account.updateStatus</a>  
 
 * <a href="account_updateProfile.html" name="account_updateProfile">Update profile info: account.updateProfile</a>  
-
-* <a href="photos_updateProfilePhoto.html" name="photos_updateProfilePhoto">Update the profile photo (use photos->uploadProfilePhoto to upload the photo): photos.updateProfilePhoto</a>  
 
 * <a href="account_updateUsername.html" name="account_updateUsername">Update this user's username: account.updateUsername</a>  
 

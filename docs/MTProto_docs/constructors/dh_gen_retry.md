@@ -1,6 +1,6 @@
 ---
 title: dh_gen_retry
-description: dh_gen_retry attributes, type and example
+description: Dh gen retry
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: dh\_gen\_retry  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Dh gen retry
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|nonce|[int128](../types/int128.md) | Yes|
-|server\_nonce|[int128](../types/int128.md) | Yes|
-|new\_nonce\_hash2|[int128](../types/int128.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|nonce|[int128](../types/int128.md) | Yes|Random number for cryptographic security|
+|server\_nonce|[int128](../types/int128.md) | Yes|Random number for cryptographic security, given by server|
+|new\_nonce\_hash2|[int128](../types/int128.md) | Yes|New nonce hash2|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: replyKeyboardForceReply
-description: replyKeyboardForceReply attributes, type and example
+description: Reply keyboard force reply
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: replyKeyboardForceReply  
@@ -8,10 +8,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Reply keyboard force reply
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
 
 
 

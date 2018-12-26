@@ -1,6 +1,6 @@
 ---
 title: inputPrivacyValueDisallowUsers
-description: inputPrivacyValueDisallowUsers attributes, type and example
+description: Privacy value disallow users
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPrivacyValueDisallowUsers  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Privacy value disallow users
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|users|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|users|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Yes|Users|
 
 
 

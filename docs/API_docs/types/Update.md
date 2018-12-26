@@ -30,8 +30,6 @@ Contains notifications about data changes
 
 [updateUserPhoto](../constructors/updateUserPhoto.md)  
 
-[updateContactRegistered](../constructors/updateContactRegistered.md)  
-
 [updateContactLink](../constructors/updateContactLink.md)  
 
 [updateNewEncryptedMessage](../constructors/updateNewEncryptedMessage.md)  
@@ -145,6 +143,12 @@ Contains notifications about data changes
 [updateChannelAvailableMessages](../constructors/updateChannelAvailableMessages.md)  
 
 [updateDialogUnreadMark](../constructors/updateDialogUnreadMark.md)  
+
+[updateUserPinnedMessage](../constructors/updateUserPinnedMessage.md)  
+
+[updateChatPinnedMessage](../constructors/updateChatPinnedMessage.md)  
+
+[updateMessagePoll](../constructors/updateMessagePoll.md)  
 
 
 

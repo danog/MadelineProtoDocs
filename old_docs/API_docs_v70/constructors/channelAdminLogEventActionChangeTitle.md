@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionChangeTitle
-description: channelAdminLogEventActionChangeTitle attributes, type and example
+description: Change title
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionChangeTitle  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Change title
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|prev\_value|[string](../types/string.md) | Yes|
-|new\_value|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|prev\_value|[string](../types/string.md) | Yes|Previous value|
+|new\_value|[string](../types/string.md) | Yes|New value|
 
 
 

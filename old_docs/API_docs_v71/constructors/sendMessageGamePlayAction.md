@@ -1,12 +1,14 @@
 ---
 title: sendMessageGamePlayAction
-description: sendMessageGamePlayAction attributes, type and example
+description: Send message game play action
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageGamePlayAction  
 [Back to constructors index](index.md)
 
 
+
+Send message game play action
 
 
 

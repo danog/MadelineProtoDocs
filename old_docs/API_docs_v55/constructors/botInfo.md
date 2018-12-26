@@ -1,6 +1,6 @@
 ---
 title: botInfo
-description: botInfo attributes, type and example
+description: Bot info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: botInfo  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Bot info
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|user\_id|[int](../types/int.md) | Yes|
-|description|[string](../types/string.md) | Yes|
-|commands|Array of [BotCommand](../types/BotCommand.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|user\_id|[int](../types/int.md) | Yes|User ID|
+|description|[string](../types/string.md) | Yes|Description|
+|commands|Array of [BotCommand](../types/BotCommand.md) | Yes|Commands|
 
 
 

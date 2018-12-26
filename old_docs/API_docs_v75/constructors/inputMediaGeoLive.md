@@ -1,6 +1,6 @@
 ---
 title: inputMediaGeoLive
-description: inputMediaGeoLive attributes, type and example
+description: Media geo live
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaGeoLive  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Media geo live
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|
-|period|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|Geo point|
+|period|[int](../types/int.md) | Yes|Period|
 
 
 

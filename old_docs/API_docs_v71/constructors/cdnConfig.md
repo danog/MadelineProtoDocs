@@ -1,6 +1,6 @@
 ---
 title: cdnConfig
-description: cdnConfig attributes, type and example
+description: CDN configuration
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: cdnConfig  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+CDN configuration
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|public\_keys|Array of [CdnPublicKey](../types/CdnPublicKey.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|public\_keys|Array of [CdnPublicKey](../types/CdnPublicKey.md) | Yes|Public keys|
 
 
 

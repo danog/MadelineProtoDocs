@@ -1,6 +1,6 @@
 ---
 title: messages.highScores
-description: messages_highScores attributes, type and example
+description: High scores
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.highScores  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+High scores
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|scores|Array of [HighScore](../types/HighScore.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|scores|Array of [HighScore](../types/HighScore.md) | Yes|Scores|
+|users|Array of [User](../types/User.md) | Yes|Users|
 
 
 

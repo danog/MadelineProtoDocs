@@ -1,12 +1,14 @@
 ---
 title: destroy_auth_key_ok
-description: destroy_auth_key_ok attributes, type and example
+description: Destroy auth key ok
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: destroy\_auth\_key\_ok  
 [Back to constructors index](index.md)
 
 
+
+Destroy auth key ok
 
 
 

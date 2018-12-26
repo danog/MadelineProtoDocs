@@ -1,6 +1,6 @@
 ---
 title: destroy_session_none
-description: destroy_session_none attributes, type and example
+description: Destroy session none
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: destroy\_session\_none  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Destroy session none
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|session\_id|[long](../types/long.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|session\_id|[long](../types/long.md) | Yes|Session ID|
 
 
 

@@ -1,12 +1,14 @@
 ---
 title: messageMediaEmpty
-description: messageMediaEmpty attributes, type and example
+description: Empty message media
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaEmpty  
 [Back to constructors index](index.md)
 
 
+
+Empty message media
 
 
 

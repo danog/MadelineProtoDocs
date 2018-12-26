@@ -1,6 +1,6 @@
 ---
 title: messageActionChatJoinedByLink
-description: messageActionChatJoinedByLink attributes, type and example
+description: Message action chat joined by link
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChatJoinedByLink  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message action chat joined by link
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|inviter\_id|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|inviter\_id|[int](../types/int.md) | Yes|Inviter ID|
 
 
 

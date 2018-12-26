@@ -1,6 +1,6 @@
 ---
 title: messages.stickers
-description: messages_stickers attributes, type and example
+description: Stickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.stickers  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Stickers
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|[string](../types/string.md) | Yes|
-|stickers|Array of [Document](../types/Document.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|hash|[string](../types/string.md) | Yes|Hash|
+|stickers|Array of [Document](../types/Document.md) | Yes|Stickers|
 
 
 

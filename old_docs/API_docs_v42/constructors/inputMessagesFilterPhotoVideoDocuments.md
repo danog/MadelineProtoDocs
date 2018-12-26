@@ -1,12 +1,14 @@
 ---
 title: inputMessagesFilterPhotoVideoDocuments
-description: inputMessagesFilterPhotoVideoDocuments attributes, type and example
+description: Messages filter photo video documents
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterPhotoVideoDocuments  
 [Back to constructors index](index.md)
 
 
+
+Messages filter photo video documents
 
 
 

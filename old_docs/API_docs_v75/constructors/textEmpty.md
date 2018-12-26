@@ -1,12 +1,14 @@
 ---
 title: textEmpty
-description: textEmpty attributes, type and example
+description: Empty text
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textEmpty  
 [Back to constructors index](index.md)
 
 
+
+Empty text
 
 
 

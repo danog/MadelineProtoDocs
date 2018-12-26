@@ -1,6 +1,6 @@
 ---
 title: messages.channelMessages
-description: messages_channelMessages attributes, type and example
+description: Channel messages
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.channelMessages  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Channel messages
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|pts|[int](../types/int.md) | Yes|
-|count|[int](../types/int.md) | Yes|
-|messages|Array of [Message](../types/Message.md) | Yes|
-|collapsed|Array of [MessageGroup](../types/MessageGroup.md) | Optional|
-|chats|Array of [Chat](../types/Chat.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|pts|[int](../types/int.md) | Yes|Pts|
+|count|[int](../types/int.md) | Yes|Count|
+|messages|Array of [Message](../types/Message.md) | Yes|Messages|
+|collapsed|Array of [MessageGroup](../types/MessageGroup.md) | Optional|Collapsed|
+|chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
+|users|Array of [User](../types/User.md) | Yes|Users|
 
 
 

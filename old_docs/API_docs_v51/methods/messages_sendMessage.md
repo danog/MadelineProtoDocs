@@ -95,7 +95,7 @@ Set parse_mode to Markdown to enable markown AND html parsing of the message.
 
 The following tags are currently supported:
 
-```
+```html
 <br>a newline
 <b><i>bold works ok, internal tags are stripped</i> </b>
 <strong>bold</strong>
@@ -111,7 +111,7 @@ The following tags are currently supported:
 
 You can also use normal markdown, note that to create mentions you must use the `mention:` syntax like in html:  
 
-```
+```markdown
 [Mention by username](mention:@danogentili)
 [Mention by user id](mention:186785362)
 ```
@@ -139,6 +139,7 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 |USER_IS_BOT|Bots can't send messages to other bots|
 |YOU_BLOCKED_USER|You blocked this user|
 |AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
+|NEED_MEMBER_INVALID|The provided member is invalid|
 |RANDOM_ID_DUPLICATE|You provided a random ID that was already used|
 |CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 |tanti SALUTI da peppe lg .|Ciao da un pony|

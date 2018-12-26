@@ -1,12 +1,14 @@
 ---
 title: inputMessagesFilterChatPhotos
-description: inputMessagesFilterChatPhotos attributes, type and example
+description: Messages filter chat photos
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterChatPhotos  
 [Back to constructors index](index.md)
 
 
+
+Messages filter chat photos
 
 
 

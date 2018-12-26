@@ -1,12 +1,14 @@
 ---
 title: inputMessagesFilterVoice
-description: inputMessagesFilterVoice attributes, type and example
+description: Messages filter voice
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterVoice  
 [Back to constructors index](index.md)
 
 
+
+Messages filter voice
 
 
 

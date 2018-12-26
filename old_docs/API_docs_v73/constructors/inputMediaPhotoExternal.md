@@ -1,6 +1,6 @@
 ---
 title: inputMediaPhotoExternal
-description: inputMediaPhotoExternal attributes, type and example
+description: Media photo external
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaPhotoExternal  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Media photo external
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|url|[string](../types/string.md) | Yes|
-|caption|[string](../types/string.md) | Yes|
-|ttl\_seconds|[int](../types/int.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|url|[string](../types/string.md) | Yes|URL|
+|caption|[string](../types/string.md) | Yes|Caption|
+|ttl\_seconds|[int](../types/int.md) | Optional|Ttl seconds|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: secureValueErrorData
-description: secureValueErrorData attributes, type and example
+description: Secure value error data
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueErrorData  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Secure value error data
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|type|[SecureValueType](../types/SecureValueType.md) | Yes|
-|data\_hash|[bytes](../types/bytes.md) | Yes|
-|field|[string](../types/string.md) | Yes|
-|text|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|type|[SecureValueType](../types/SecureValueType.md) | Yes|Type|
+|data\_hash|[bytes](../types/bytes.md) | Yes|Data hash|
+|field|[string](../types/string.md) | Yes|Field|
+|text|[string](../types/string.md) | Yes|Text|
 
 
 

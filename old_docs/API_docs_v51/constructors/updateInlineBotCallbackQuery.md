@@ -1,6 +1,6 @@
 ---
 title: updateInlineBotCallbackQuery
-description: updateInlineBotCallbackQuery attributes, type and example
+description: Update inline bot callback query
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateInlineBotCallbackQuery  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update inline bot callback query
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|query\_id|[long](../types/long.md) | Yes|
-|user\_id|[int](../types/int.md) | Yes|
-|msg\_id|[InputBotInlineMessageID](../types/InputBotInlineMessageID.md) | Yes|
-|data|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|query\_id|[long](../types/long.md) | Yes|Query ID|
+|user\_id|[int](../types/int.md) | Yes|User ID|
+|msg\_id|[InputBotInlineMessageID](../types/InputBotInlineMessageID.md) | Yes|Msg ID|
+|data|[bytes](../types/bytes.md) | Yes|Data|
 
 
 

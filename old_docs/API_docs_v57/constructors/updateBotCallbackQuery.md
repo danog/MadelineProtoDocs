@@ -1,6 +1,6 @@
 ---
 title: updateBotCallbackQuery
-description: updateBotCallbackQuery attributes, type and example
+description: Update bot callback query
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotCallbackQuery  
@@ -8,17 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update bot callback query
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|query\_id|[long](../types/long.md) | Yes|
-|user\_id|[int](../types/int.md) | Yes|
-|peer|[Peer](../types/Peer.md) | Yes|
-|msg\_id|[int](../types/int.md) | Yes|
-|chat\_instance|[long](../types/long.md) | Yes|
-|data|[bytes](../types/bytes.md) | Optional|
-|game\_short\_name|[string](../types/string.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|query\_id|[long](../types/long.md) | Yes|Query ID|
+|user\_id|[int](../types/int.md) | Yes|User ID|
+|peer|[Peer](../types/Peer.md) | Yes|Peer|
+|msg\_id|[int](../types/int.md) | Yes|Msg ID|
+|chat\_instance|[long](../types/long.md) | Yes|Chat instance|
+|data|[bytes](../types/bytes.md) | Optional|Data|
+|game\_short\_name|[string](../types/string.md) | Optional|Game short name|
 
 
 

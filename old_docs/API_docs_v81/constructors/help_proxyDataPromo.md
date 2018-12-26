@@ -1,6 +1,6 @@
 ---
 title: help.proxyDataPromo
-description: help_proxyDataPromo attributes, type and example
+description: Proxy data promo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.proxyDataPromo  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Proxy data promo
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|expires|[int](../types/int.md) | Yes|
-|peer|[Peer](../types/Peer.md) | Yes|
-|chats|Array of [Chat](../types/Chat.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|expires|[int](../types/int.md) | Yes|Expires|
+|peer|[Peer](../types/Peer.md) | Yes|Peer|
+|chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
+|users|Array of [User](../types/User.md) | Yes|Users|
 
 
 

@@ -1,12 +1,14 @@
 ---
 title: documentAttributeHasStickers
-description: documentAttributeHasStickers attributes, type and example
+description: Document attribute has stickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: documentAttributeHasStickers  
 [Back to constructors index](index.md)
 
 
+
+Document attribute has stickers
 
 
 

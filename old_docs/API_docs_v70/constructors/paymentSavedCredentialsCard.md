@@ -1,6 +1,6 @@
 ---
 title: paymentSavedCredentialsCard
-description: paymentSavedCredentialsCard attributes, type and example
+description: Payment saved credentials card
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: paymentSavedCredentialsCard  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Payment saved credentials card
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[string](../types/string.md) | Yes|
-|title|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[string](../types/string.md) | Yes|ID|
+|title|[string](../types/string.md) | Yes|Title|
 
 
 

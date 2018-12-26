@@ -1,6 +1,6 @@
 ---
 title: langPackStringDeleted
-description: langPackStringDeleted attributes, type and example
+description: Lang pack string deleted
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: langPackStringDeleted  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Lang pack string deleted
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|key|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|key|[string](../types/string.md) | Yes|Key|
 
 
 

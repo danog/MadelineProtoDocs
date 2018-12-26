@@ -1,6 +1,6 @@
 ---
 title: auth.sentCodeTypeSms
-description: auth_sentCodeTypeSms attributes, type and example
+description: Sent code type sms
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: auth.sentCodeTypeSms  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Sent code type sms
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|length|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|length|[int](../types/int.md) | Yes|Length|
 
 
 

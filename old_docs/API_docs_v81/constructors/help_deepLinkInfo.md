@@ -1,6 +1,6 @@
 ---
 title: help.deepLinkInfo
-description: help_deepLinkInfo attributes, type and example
+description: Deep link info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.deepLinkInfo  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Deep link info
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|update\_app|[Bool](../types/Bool.md) | Optional|
-|message|[string](../types/string.md) | Yes|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|update\_app|[Bool](../types/Bool.md) | Optional|Update app?|
+|message|[string](../types/string.md) | Yes|Message|
+|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|Entities|
 
 
 

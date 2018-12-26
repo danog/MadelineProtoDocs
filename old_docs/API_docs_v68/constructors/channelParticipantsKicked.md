@@ -1,6 +1,6 @@
 ---
 title: channelParticipantsKicked
-description: channelParticipantsKicked attributes, type and example
+description: Channel participants kicked
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantsKicked  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Channel participants kicked
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|q|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|q|[string](../types/string.md) | Yes|Query|
 
 
 

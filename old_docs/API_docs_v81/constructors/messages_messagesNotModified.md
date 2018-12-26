@@ -1,6 +1,6 @@
 ---
 title: messages.messagesNotModified
-description: messages_messagesNotModified attributes, type and example
+description: Messages not modified
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.messagesNotModified  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Messages not modified
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|count|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|count|[int](../types/int.md) | Yes|Count|
 
 
 

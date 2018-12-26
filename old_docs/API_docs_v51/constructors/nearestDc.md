@@ -1,6 +1,6 @@
 ---
 title: nearestDc
-description: nearestDc attributes, type and example
+description: Nearest DC
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: nearestDc  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Nearest DC
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|country|[string](../types/string.md) | Yes|
-|this\_dc|[int](../types/int.md) | Yes|
-|nearest\_dc|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|country|[string](../types/string.md) | Yes|Country|
+|this\_dc|[int](../types/int.md) | Yes|This DC|
+|nearest\_dc|[int](../types/int.md) | Yes|Nearest DC|
 
 
 

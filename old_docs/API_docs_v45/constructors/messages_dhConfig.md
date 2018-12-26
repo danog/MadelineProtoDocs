@@ -1,6 +1,6 @@
 ---
 title: messages.dhConfig
-description: messages_dhConfig attributes, type and example
+description: Dh config
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.dhConfig  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Dh config
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|g|[int](../types/int.md) | Yes|
-|p|[bytes](../types/bytes.md) | Yes|
-|version|[int](../types/int.md) | Yes|
-|random|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|g|[int](../types/int.md) | Yes|G|
+|p|[bytes](../types/bytes.md) | Yes|P|
+|version|[int](../types/int.md) | Yes|Version|
+|random|[bytes](../types/bytes.md) | Yes|Random|
 
 
 

@@ -64,5 +64,6 @@ User = account.updateUsername({username='string', })
 |USERNAME_INVALID|The provided username is not valid|
 |USERNAME_NOT_MODIFIED|The username was not modified|
 |USERNAME_OCCUPIED|The provided username is already occupied|
+|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
 
 

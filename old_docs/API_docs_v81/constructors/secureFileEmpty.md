@@ -1,12 +1,14 @@
 ---
 title: secureFileEmpty
-description: secureFileEmpty attributes, type and example
+description: Empty secure file
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureFileEmpty  
 [Back to constructors index](index.md)
 
 
+
+Empty secure file
 
 
 

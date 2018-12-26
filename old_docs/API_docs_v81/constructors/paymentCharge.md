@@ -1,6 +1,6 @@
 ---
 title: paymentCharge
-description: paymentCharge attributes, type and example
+description: Payment charge
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: paymentCharge  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Payment charge
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[string](../types/string.md) | Yes|
-|provider\_charge\_id|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[string](../types/string.md) | Yes|ID|
+|provider\_charge\_id|[string](../types/string.md) | Yes|Provider charge ID|
 
 
 

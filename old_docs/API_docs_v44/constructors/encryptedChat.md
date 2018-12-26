@@ -1,6 +1,6 @@
 ---
 title: encryptedChat
-description: encryptedChat attributes, type and example
+description: Encrypted chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: encryptedChat  
@@ -8,17 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Encrypted chat
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](../types/int.md) | Yes|
-|access\_hash|[long](../types/long.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|admin\_id|[int](../types/int.md) | Yes|
-|participant\_id|[int](../types/int.md) | Yes|
-|g\_a\_or\_b|[bytes](../types/bytes.md) | Yes|
-|key\_fingerprint|[long](../types/long.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](../types/int.md) | Yes|ID|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|date|[int](../types/int.md) | Yes|Date|
+|admin\_id|[int](../types/int.md) | Yes|Admin ID|
+|participant\_id|[int](../types/int.md) | Yes|Participant ID|
+|g\_a\_or\_b|[bytes](../types/bytes.md) | Yes|G a or b|
+|key\_fingerprint|[long](../types/long.md) | Yes|Key fingerprint|
 
 
 

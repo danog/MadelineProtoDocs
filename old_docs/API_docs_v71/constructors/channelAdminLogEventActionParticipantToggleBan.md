@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionParticipantToggleBan
-description: channelAdminLogEventActionParticipantToggleBan attributes, type and example
+description: User banned
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionParticipantToggleBan  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+User banned
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|prev\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Yes|
-|new\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|prev\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Yes|Prev participant|
+|new\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Yes|New participant|
 
 
 

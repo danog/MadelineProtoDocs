@@ -1,6 +1,6 @@
 ---
 title: messageActionChatCreate
-description: messageActionChatCreate attributes, type and example
+description: Message action chat create
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChatCreate  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message action chat create
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|title|[string](../types/string.md) | Yes|
-|users|Array of [int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|title|[string](../types/string.md) | Yes|Title|
+|users|Array of [int](../types/int.md) | Yes|Users|
 
 
 

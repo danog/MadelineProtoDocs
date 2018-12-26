@@ -1,12 +1,14 @@
 ---
 title: userStatusEmpty
-description: userStatusEmpty attributes, type and example
+description: Empty user status
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userStatusEmpty  
 [Back to constructors index](index.md)
 
 
+
+Empty user status
 
 
 

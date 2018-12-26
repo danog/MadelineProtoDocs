@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageActionRequestKey
-description: decryptedMessageActionRequestKey attributes, type and example
+description: Decrypted message action request key
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionRequestKey\_20  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Decrypted message action request key
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|exchange\_id|[long](../types/long.md) | Yes|
-|g\_a|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|exchange\_id|[long](../types/long.md) | Yes|Exchange ID|
+|g\_a|[bytes](../types/bytes.md) | Yes|G a|
 
 
 

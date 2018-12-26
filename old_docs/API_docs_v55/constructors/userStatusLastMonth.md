@@ -1,12 +1,14 @@
 ---
 title: userStatusLastMonth
-description: userStatusLastMonth attributes, type and example
+description: User status last month
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userStatusLastMonth  
 [Back to constructors index](index.md)
 
 
+
+User status last month
 
 
 

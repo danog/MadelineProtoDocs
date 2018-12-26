@@ -1,12 +1,14 @@
 ---
 title: topPeerCategoryGroups
-description: topPeerCategoryGroups attributes, type and example
+description: Top peer category groups
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: topPeerCategoryGroups  
 [Back to constructors index](index.md)
 
 
+
+Top peer category groups
 
 
 

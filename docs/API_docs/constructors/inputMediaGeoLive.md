@@ -1,6 +1,6 @@
 ---
 title: inputMediaGeoLive
-description: inputMediaGeoLive attributes, type and example
+description: Media geo live
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaGeoLive  
@@ -8,12 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Media geo live
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|
-|period|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|stopped|[Bool](../types/Bool.md) | Optional|Stopped?|
+|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|Geo point|
+|period|[int](../types/int.md) | Optional|Period|
 
 
 
@@ -23,20 +26,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```php
-$inputMediaGeoLive = ['_' => 'inputMediaGeoLive', 'geo_point' => InputGeoPoint, 'period' => int];
+$inputMediaGeoLive = ['_' => 'inputMediaGeoLive', 'stopped' => Bool, 'geo_point' => InputGeoPoint, 'period' => int];
 ```  
 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "inputMediaGeoLive", "geo_point": InputGeoPoint, "period": int}
+{"_": "inputMediaGeoLive", "stopped": Bool, "geo_point": InputGeoPoint, "period": int}
 ```
 
 
 Or, if you're into Lua:
 
 ```lua
-inputMediaGeoLive={_='inputMediaGeoLive', geo_point=InputGeoPoint, period=int}
+inputMediaGeoLive={_='inputMediaGeoLive', stopped=Bool, geo_point=InputGeoPoint, period=int}
 
 ```
 

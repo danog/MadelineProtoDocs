@@ -1,12 +1,14 @@
 ---
 title: contactLinkUnknown
-description: contactLinkUnknown attributes, type and example
+description: Contact link unknown
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: contactLinkUnknown  
 [Back to constructors index](index.md)
 
 
+
+Contact link unknown
 
 
 

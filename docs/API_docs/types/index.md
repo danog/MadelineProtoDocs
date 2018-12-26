@@ -49,6 +49,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [ChatInvite](ChatInvite.md)<a name="ChatInvite"></a>  
 
+[ChatOnlines](ChatOnlines.md)<a name="ChatOnlines"></a>  
+
 [ChatParticipant](ChatParticipant.md)<a name="ChatParticipant"></a>  
 
 [ChatParticipants](ChatParticipants.md)<a name="ChatParticipants"></a>  
@@ -129,6 +131,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [InputChatPhoto](InputChatPhoto.md)<a name="InputChatPhoto"></a>  
 
+[InputCheckPasswordSRP](InputCheckPasswordSRP.md)<a name="InputCheckPasswordSRP"></a>  
+
 [InputClientProxy](InputClientProxy.md)<a name="InputClientProxy"></a>  
 
 [InputContact](InputContact.md)<a name="InputContact"></a>  
@@ -191,6 +195,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [IpPort](IpPort.md)<a name="IpPort"></a>  
 
+[JSONObjectValue](JSONObjectValue.md)<a name="JSONObjectValue"></a>  
+
+[JSONValue](JSONValue.md)<a name="JSONValue"></a>  
+
 [KeyboardButton](KeyboardButton.md)<a name="KeyboardButton"></a>  
 
 [KeyboardButtonRow](KeyboardButtonRow.md)<a name="KeyboardButtonRow"></a>  
@@ -229,6 +237,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [PageBlock](PageBlock.md)<a name="PageBlock"></a>  
 
+[PageCaption](PageCaption.md)<a name="PageCaption"></a>  
+
+[PageListItem](PageListItem.md)<a name="PageListItem"></a>  
+
+[PageListOrderedItem](PageListOrderedItem.md)<a name="PageListOrderedItem"></a>  
+
+[PageRelatedArticle](PageRelatedArticle.md)<a name="PageRelatedArticle"></a>  
+
+[PageTableCell](PageTableCell.md)<a name="PageTableCell"></a>  
+
+[PageTableRow](PageTableRow.md)<a name="PageTableRow"></a>  
+
+[PasswordKdfAlgo](PasswordKdfAlgo.md)<a name="PasswordKdfAlgo"></a>  
+
 [PaymentCharge](PaymentCharge.md)<a name="PaymentCharge"></a>  
 
 [PaymentRequestedInfo](PaymentRequestedInfo.md)<a name="PaymentRequestedInfo"></a>  
@@ -252,6 +274,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Photo](Photo.md)<a name="Photo"></a>  
 
 [PhotoSize](PhotoSize.md)<a name="PhotoSize"></a>  
+
+[Poll](Poll.md)<a name="Poll"></a>  
+
+[PollAnswer](PollAnswer.md)<a name="PollAnswer"></a>  
+
+[PollAnswerVoters](PollAnswerVoters.md)<a name="PollAnswerVoters"></a>  
+
+[PollResults](PollResults.md)<a name="PollResults"></a>  
 
 [PopularContact](PopularContact.md)<a name="PopularContact"></a>  
 
@@ -279,7 +309,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [SecureFile](SecureFile.md)<a name="SecureFile"></a>  
 
+[SecurePasswordKdfAlgo](SecurePasswordKdfAlgo.md)<a name="SecurePasswordKdfAlgo"></a>  
+
 [SecurePlainData](SecurePlainData.md)<a name="SecurePlainData"></a>  
+
+[SecureRequiredType](SecureRequiredType.md)<a name="SecureRequiredType"></a>  
+
+[SecureSecretSettings](SecureSecretSettings.md)<a name="SecureSecretSettings"></a>  
 
 [SecureValue](SecureValue.md)<a name="SecureValue"></a>  
 
@@ -292,6 +328,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [SendMessageAction](SendMessageAction.md)<a name="SendMessageAction"></a>  
 
 [ShippingOption](ShippingOption.md)<a name="ShippingOption"></a>  
+
+[StatsURL](StatsURL.md)<a name="StatsURL"></a>  
 
 [StickerPack](StickerPack.md)<a name="StickerPack"></a>  
 
@@ -391,15 +429,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [help\_InviteText](help_InviteText.md)<a name="help_InviteText"></a>  
 
+[help\_PassportConfig](help_PassportConfig.md)<a name="help_PassportConfig"></a>  
+
 [help\_ProxyData](help_ProxyData.md)<a name="help_ProxyData"></a>  
 
 [help\_RecentMeUrls](help_RecentMeUrls.md)<a name="help_RecentMeUrls"></a>  
 
 [help\_Support](help_Support.md)<a name="help_Support"></a>  
 
+[help\_SupportName](help_SupportName.md)<a name="help_SupportName"></a>  
+
 [help\_TermsOfService](help_TermsOfService.md)<a name="help_TermsOfService"></a>  
 
 [help\_TermsOfServiceUpdate](help_TermsOfServiceUpdate.md)<a name="help_TermsOfServiceUpdate"></a>  
+
+[help\_UserInfo](help_UserInfo.md)<a name="help_UserInfo"></a>  
 
 [int](int.md)<a name="int"></a>  
 

@@ -1,6 +1,6 @@
 ---
 title: langPackStringPluralized
-description: langPackStringPluralized attributes, type and example
+description: Lang pack string pluralized
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: langPackStringPluralized  
@@ -8,17 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Lang pack string pluralized
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|key|[string](../types/string.md) | Yes|
-|zero\_value|[string](../types/string.md) | Optional|
-|one\_value|[string](../types/string.md) | Optional|
-|two\_value|[string](../types/string.md) | Optional|
-|few\_value|[string](../types/string.md) | Optional|
-|many\_value|[string](../types/string.md) | Optional|
-|other\_value|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|key|[string](../types/string.md) | Yes|Key|
+|zero\_value|[string](../types/string.md) | Optional|Zero value|
+|one\_value|[string](../types/string.md) | Optional|One value|
+|two\_value|[string](../types/string.md) | Optional|Two value|
+|few\_value|[string](../types/string.md) | Optional|Few value|
+|many\_value|[string](../types/string.md) | Optional|Many value|
+|other\_value|[string](../types/string.md) | Yes|Other value|
 
 
 

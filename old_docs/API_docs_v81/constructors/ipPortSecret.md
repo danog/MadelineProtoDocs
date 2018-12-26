@@ -1,6 +1,6 @@
 ---
 title: ipPortSecret
-description: ipPortSecret attributes, type and example
+description: Ip port secret
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: ipPortSecret  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Ip port secret
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|ipv4|[int](../types/int.md) | Yes|
-|port|[int](../types/int.md) | Yes|
-|secret|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|ipv4|[int](../types/int.md) | Yes|Ipv4|
+|port|[int](../types/int.md) | Yes|Port|
+|secret|[bytes](../types/bytes.md) | Yes|Secret|
 
 
 

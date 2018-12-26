@@ -1,6 +1,6 @@
 ---
 title: botInlineMessageMediaVenue
-description: botInlineMessageMediaVenue attributes, type and example
+description: Bot inline message media venue
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: botInlineMessageMediaVenue  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Bot inline message media venue
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|geo|[GeoPoint](../types/GeoPoint.md) | Optional|
-|title|[string](../types/string.md) | Yes|
-|address|[string](../types/string.md) | Yes|
-|provider|[string](../types/string.md) | Yes|
-|venue\_id|[string](../types/string.md) | Yes|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|geo|[GeoPoint](../types/GeoPoint.md) | Optional|Geo|
+|title|[string](../types/string.md) | Yes|Title|
+|address|[string](../types/string.md) | Yes|Address|
+|provider|[string](../types/string.md) | Yes|Provider|
+|venue\_id|[string](../types/string.md) | Yes|Venue ID|
+|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Reply markup|
 
 
 

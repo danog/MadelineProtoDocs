@@ -1,6 +1,6 @@
 ---
 title: inputMessagesFilterPhoneCalls
-description: inputMessagesFilterPhoneCalls attributes, type and example
+description: Messages filter phone calls
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterPhoneCalls  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Messages filter phone calls
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|missed|[Bool](../types/Bool.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|missed|[Bool](../types/Bool.md) | Optional|Missed?|
 
 
 

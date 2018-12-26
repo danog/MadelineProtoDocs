@@ -1,6 +1,6 @@
 ---
 title: messages.savedGifs
-description: messages_savedGifs attributes, type and example
+description: Saved gifs
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.savedGifs  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Saved gifs
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|[int](../types/int.md) | Yes|
-|gifs|Array of [Document](../types/Document.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|hash|[int](../types/int.md) | Yes|Hash|
+|gifs|Array of [Document](../types/Document.md) | Yes|Gifs|
 
 
 

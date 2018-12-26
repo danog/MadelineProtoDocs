@@ -1,6 +1,6 @@
 ---
 title: contactSuggested
-description: contactSuggested attributes, type and example
+description: Contact suggested
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: contactSuggested  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Contact suggested
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|user\_id|[int](../types/int.md) | Yes|
-|mutual\_contacts|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|user\_id|[int](../types/int.md) | Yes|User ID|
+|mutual\_contacts|[int](../types/int.md) | Yes|Mutual contacts|
 
 
 

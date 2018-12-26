@@ -1,6 +1,6 @@
 ---
 title: user
-description: user attributes, type and example
+description: User
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: user  
@@ -8,32 +8,34 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+User
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|self|[Bool](../types/Bool.md) | Optional|
-|contact|[Bool](../types/Bool.md) | Optional|
-|mutual\_contact|[Bool](../types/Bool.md) | Optional|
-|deleted|[Bool](../types/Bool.md) | Optional|
-|bot|[Bool](../types/Bool.md) | Optional|
-|bot\_chat\_history|[Bool](../types/Bool.md) | Optional|
-|bot\_nochats|[Bool](../types/Bool.md) | Optional|
-|verified|[Bool](../types/Bool.md) | Optional|
-|restricted|[Bool](../types/Bool.md) | Optional|
-|min|[Bool](../types/Bool.md) | Optional|
-|bot\_inline\_geo|[Bool](../types/Bool.md) | Optional|
-|id|[int](../types/int.md) | Yes|
-|access\_hash|[long](../types/long.md) | Optional|
-|first\_name|[string](../types/string.md) | Optional|
-|last\_name|[string](../types/string.md) | Optional|
-|username|[string](../types/string.md) | Optional|
-|phone|[string](../types/string.md) | Optional|
-|photo|[UserProfilePhoto](../types/UserProfilePhoto.md) | Optional|
-|status|[UserStatus](../types/UserStatus.md) | Optional|
-|bot\_info\_version|[int](../types/int.md) | Optional|
-|restriction\_reason|[string](../types/string.md) | Optional|
-|bot\_inline\_placeholder|[string](../types/string.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|self|[Bool](../types/Bool.md) | Optional|Self?|
+|contact|[Bool](../types/Bool.md) | Optional|Contact?|
+|mutual\_contact|[Bool](../types/Bool.md) | Optional|Mutual contact?|
+|deleted|[Bool](../types/Bool.md) | Optional|Deleted?|
+|bot|[Bool](../types/Bool.md) | Optional|Bot?|
+|bot\_chat\_history|[Bool](../types/Bool.md) | Optional|Bot chat history?|
+|bot\_nochats|[Bool](../types/Bool.md) | Optional|Bot nochats?|
+|verified|[Bool](../types/Bool.md) | Optional|Verified?|
+|restricted|[Bool](../types/Bool.md) | Optional|Restricted?|
+|min|[Bool](../types/Bool.md) | Optional|Min?|
+|bot\_inline\_geo|[Bool](../types/Bool.md) | Optional|Bot inline geo?|
+|id|[int](../types/int.md) | Yes|ID|
+|access\_hash|[long](../types/long.md) | Optional|Access hash|
+|first\_name|[string](../types/string.md) | Optional|First name|
+|last\_name|[string](../types/string.md) | Optional|Last name|
+|username|[string](../types/string.md) | Optional|Username|
+|phone|[string](../types/string.md) | Optional|Phone|
+|photo|[UserProfilePhoto](../types/UserProfilePhoto.md) | Optional|Photo|
+|status|[UserStatus](../types/UserStatus.md) | Optional|Status|
+|bot\_info\_version|[int](../types/int.md) | Optional|Bot info version|
+|restriction\_reason|[string](../types/string.md) | Optional|Restriction reason|
+|bot\_inline\_placeholder|[string](../types/string.md) | Optional|Bot inline placeholder|
 
 
 

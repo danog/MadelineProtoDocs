@@ -1,6 +1,6 @@
 ---
 title: inputBotInlineResultPhoto
-description: inputBotInlineResultPhoto attributes, type and example
+description: Bot inline result photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputBotInlineResultPhoto  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Bot inline result photo
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[string](../types/string.md) | Yes|
-|type|[string](../types/string.md) | Yes|
-|photo|[MessageMedia, Message, Update or InputPhoto](../types/InputPhoto.md) | Optional|
-|send\_message|[InputBotInlineMessage](../types/InputBotInlineMessage.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[string](../types/string.md) | Yes|ID|
+|type|[string](../types/string.md) | Yes|Type|
+|photo|[MessageMedia, Message, Update or InputPhoto](../types/InputPhoto.md) | Optional|Photo|
+|send\_message|[InputBotInlineMessage](../types/InputBotInlineMessage.md) | Yes|Message to send|
 
 
 

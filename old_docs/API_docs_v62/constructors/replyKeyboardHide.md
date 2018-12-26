@@ -1,6 +1,6 @@
 ---
 title: replyKeyboardHide
-description: replyKeyboardHide attributes, type and example
+description: Reply keyboard hide
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: replyKeyboardHide  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Reply keyboard hide
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|selective|[Bool](../types/Bool.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|selective|[Bool](../types/Bool.md) | Optional|Selective?|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: botInlineMessageMediaGeo
-description: botInlineMessageMediaGeo attributes, type and example
+description: Bot inline message media geo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: botInlineMessageMediaGeo  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Bot inline message media geo
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|geo|[GeoPoint](../types/GeoPoint.md) | Optional|
-|period|[int](../types/int.md) | Yes|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|geo|[GeoPoint](../types/GeoPoint.md) | Optional|Geo|
+|period|[int](../types/int.md) | Yes|Period|
+|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Reply markup|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: messageActionChannelMigrateFrom
-description: messageActionChannelMigrateFrom attributes, type and example
+description: Message action channel migrate from
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChannelMigrateFrom  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message action channel migrate from
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|title|[string](../types/string.md) | Yes|
-|chat\_id|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|title|[string](../types/string.md) | Yes|Title|
+|chat\_id|[int](../types/int.md) | Yes|Chat ID|
 
 
 

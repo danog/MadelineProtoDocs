@@ -1,6 +1,6 @@
 ---
 title: channelParticipantsBanned
-description: channelParticipantsBanned attributes, type and example
+description: Channel participants banned
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantsBanned  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Channel participants banned
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|q|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|q|[string](../types/string.md) | Yes|Query|
 
 
 

@@ -14,7 +14,7 @@ Makes the server send messages waiting in the buffer
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |max\_delay|[int](../types/int.md) | Denotes the maximum number of milliseconds that has elapsed between the first message for this session and the transmission of an HTTP response | Yes|
-|wait\_after|[int](../types/int.md) | after the receipt of the latest message for a particular session, the server waits another wait_after milliseconds in case there are more messages. If there are no additional messages, the result is transmitted (a container with all the messages). | Yes|
+|wait\_after|[int](../types/int.md) | After the receipt of the latest message for a particular session, the server waits another wait_after milliseconds in case there are more messages. If there are no additional messages, the result is transmitted (a container with all the messages). | Yes|
 |max\_wait|[int](../types/int.md) | If more messages appear, the wait_after timer is reset. | Yes|
 
 

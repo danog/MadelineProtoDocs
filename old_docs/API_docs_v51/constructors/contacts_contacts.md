@@ -1,6 +1,6 @@
 ---
 title: contacts.contacts
-description: contacts_contacts attributes, type and example
+description: Contacts
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: contacts.contacts  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Contacts
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|contacts|Array of [Contact](../types/Contact.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|contacts|Array of [Contact](../types/Contact.md) | Yes|Contacts|
+|users|Array of [User](../types/User.md) | Yes|Users|
 
 
 

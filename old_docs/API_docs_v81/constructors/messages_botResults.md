@@ -1,6 +1,6 @@
 ---
 title: messages.botResults
-description: messages_botResults attributes, type and example
+description: Bot results
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.botResults  
@@ -8,17 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Bot results
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|gallery|[Bool](../types/Bool.md) | Optional|
-|query\_id|[long](../types/long.md) | Yes|
-|next\_offset|[string](../types/string.md) | Optional|
-|switch\_pm|[InlineBotSwitchPM](../types/InlineBotSwitchPM.md) | Optional|
-|results|Array of [BotInlineResult](../types/BotInlineResult.md) | Yes|
-|cache\_time|[int](../types/int.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|gallery|[Bool](../types/Bool.md) | Optional|Gallery?|
+|query\_id|[long](../types/long.md) | Yes|Query ID|
+|next\_offset|[string](../types/string.md) | Optional|Next offset|
+|switch\_pm|[InlineBotSwitchPM](../types/InlineBotSwitchPM.md) | Optional|Switch pm|
+|results|Array of [BotInlineResult](../types/BotInlineResult.md) | Yes|Results|
+|cache\_time|[int](../types/int.md) | Yes|Cache time|
+|users|Array of [User](../types/User.md) | Yes|Users|
 
 
 

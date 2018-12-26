@@ -1,6 +1,6 @@
 ---
 title: dialog
-description: dialog attributes, type and example
+description: Dialog
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: dialog  
@@ -8,20 +8,22 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Dialog
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|pinned|[Bool](../types/Bool.md) | Optional|
-|peer|[Peer](../types/Peer.md) | Yes|
-|top\_message|[int](../types/int.md) | Yes|
-|read\_inbox\_max\_id|[int](../types/int.md) | Yes|
-|read\_outbox\_max\_id|[int](../types/int.md) | Yes|
-|unread\_count|[int](../types/int.md) | Yes|
-|unread\_mentions\_count|[int](../types/int.md) | Yes|
-|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Yes|
-|pts|[int](../types/int.md) | Optional|
-|draft|[DraftMessage](../types/DraftMessage.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|pinned|[Bool](../types/Bool.md) | Optional|Pinned?|
+|peer|[Peer](../types/Peer.md) | Yes|Peer|
+|top\_message|[int](../types/int.md) | Yes|Top message|
+|read\_inbox\_max\_id|[int](../types/int.md) | Yes|Read inbox max ID|
+|read\_outbox\_max\_id|[int](../types/int.md) | Yes|Read outbox max ID|
+|unread\_count|[int](../types/int.md) | Yes|Unread count|
+|unread\_mentions\_count|[int](../types/int.md) | Yes|Unread mentions count|
+|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Yes|Notify settings|
+|pts|[int](../types/int.md) | Optional|Pts|
+|draft|[DraftMessage](../types/DraftMessage.md) | Optional|Draft|
 
 
 

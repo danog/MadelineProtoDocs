@@ -1,12 +1,14 @@
 ---
 title: contacts.myLinkContact
-description: contacts_myLinkContact attributes, type and example
+description: My link contact
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: contacts.myLinkContact  
 [Back to constructors index](index.md)
 
 
+
+My link contact
 
 
 

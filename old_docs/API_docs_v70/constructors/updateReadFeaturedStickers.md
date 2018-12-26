@@ -1,12 +1,14 @@
 ---
 title: updateReadFeaturedStickers
-description: updateReadFeaturedStickers attributes, type and example
+description: Update read featured stickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateReadFeaturedStickers  
 [Back to constructors index](index.md)
 
 
+
+Update read featured stickers
 
 
 

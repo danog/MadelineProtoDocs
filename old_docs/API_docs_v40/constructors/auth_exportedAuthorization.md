@@ -1,6 +1,6 @@
 ---
 title: auth.exportedAuthorization
-description: auth_exportedAuthorization attributes, type and example
+description: Exported authorization
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: auth.exportedAuthorization  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Exported authorization
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](../types/int.md) | Yes|
-|bytes|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](../types/int.md) | Yes|ID|
+|bytes|[bytes](../types/bytes.md) | Yes|Bytes|
 
 
 

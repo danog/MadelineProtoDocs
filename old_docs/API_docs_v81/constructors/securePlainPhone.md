@@ -1,6 +1,6 @@
 ---
 title: securePlainPhone
-description: securePlainPhone attributes, type and example
+description: Secure plain phone
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: securePlainPhone  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Secure plain phone
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|phone|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|phone|[string](../types/string.md) | Yes|Phone|
 
 
 

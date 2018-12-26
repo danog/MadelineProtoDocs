@@ -1,6 +1,6 @@
 ---
 title: payments.validatedRequestedInfo
-description: payments_validatedRequestedInfo attributes, type and example
+description: Validated requested info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: payments.validatedRequestedInfo  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Validated requested info
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[string](../types/string.md) | Optional|
-|shipping\_options|Array of [ShippingOption](../types/ShippingOption.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[string](../types/string.md) | Optional|ID|
+|shipping\_options|Array of [ShippingOption](../types/ShippingOption.md) | Optional|Shipping options|
 
 
 

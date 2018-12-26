@@ -1,12 +1,14 @@
 ---
 title: updatesTooLong
-description: updatesTooLong attributes, type and example
+description: Updates too long
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatesTooLong  
 [Back to constructors index](index.md)
 
 
+
+Updates too long
 
 
 

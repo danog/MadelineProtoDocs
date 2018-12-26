@@ -1,6 +1,6 @@
 ---
 title: stickerPack
-description: stickerPack attributes, type and example
+description: Sticker pack
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: stickerPack  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Sticker pack
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|emoticon|[string](../types/string.md) | Yes|
-|documents|Array of [long](../types/long.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|emoticon|[string](../types/string.md) | Yes|Emoticon|
+|documents|Array of [long](../types/long.md) | Yes|Documents|
 
 
 

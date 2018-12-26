@@ -1,6 +1,6 @@
 ---
 title: inputStickerSetItem
-description: inputStickerSetItem attributes, type and example
+description: Sticker set item
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputStickerSetItem  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Sticker set item
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|document|[MessageMedia, Message, Update or InputDocument](../types/InputDocument.md) | Optional|
-|emoji|[string](../types/string.md) | Yes|
-|mask\_coords|[MaskCoords](../types/MaskCoords.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|document|[MessageMedia, Message, Update or InputDocument](../types/InputDocument.md) | Optional|Document|
+|emoji|[string](../types/string.md) | Yes|Emoji|
+|mask\_coords|[MaskCoords](../types/MaskCoords.md) | Optional|Mask coords|
 
 
 

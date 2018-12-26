@@ -1,6 +1,6 @@
 ---
 title: inputStickeredMediaPhoto
-description: inputStickeredMediaPhoto attributes, type and example
+description: Stickered media photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputStickeredMediaPhoto  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Stickered media photo
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[MessageMedia, Message, Update or InputPhoto](../types/InputPhoto.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[MessageMedia, Message, Update or InputPhoto](../types/InputPhoto.md) | Optional|ID|
 
 
 

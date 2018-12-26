@@ -1,6 +1,6 @@
 ---
 title: chat
-description: chat attributes, type and example
+description: Chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chat  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Chat
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](../types/int.md) | Yes|
-|title|[string](../types/string.md) | Yes|
-|photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|
-|participants\_count|[int](../types/int.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|version|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](../types/int.md) | Yes|ID|
+|title|[string](../types/string.md) | Yes|Title|
+|photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|Photo|
+|participants\_count|[int](../types/int.md) | Yes|Participants count|
+|date|[int](../types/int.md) | Yes|Date|
+|version|[int](../types/int.md) | Yes|Version|
 
 
 

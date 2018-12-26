@@ -1,6 +1,6 @@
 ---
 title: updateUserPhoto
-description: updateUserPhoto attributes, type and example
+description: Update user photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateUserPhoto  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update user photo
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|user\_id|[int](../types/int.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|photo|[UserProfilePhoto](../types/UserProfilePhoto.md) | Optional|
-|previous|[Bool](../types/Bool.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|user\_id|[int](../types/int.md) | Yes|User ID|
+|date|[int](../types/int.md) | Yes|Date|
+|photo|[UserProfilePhoto](../types/UserProfilePhoto.md) | Optional|Photo|
+|previous|[Bool](../types/Bool.md) | Yes|Previous?|
 
 
 

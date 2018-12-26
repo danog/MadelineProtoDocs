@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionChangeAbout
-description: channelAdminLogEventActionChangeAbout attributes, type and example
+description: Change about text
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionChangeAbout  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Change about text
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|prev\_value|[string](../types/string.md) | Yes|
-|new\_value|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|prev\_value|[string](../types/string.md) | Yes|Previous value|
+|new\_value|[string](../types/string.md) | Yes|New value|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: contacts.blocked
-description: contacts_blocked attributes, type and example
+description: Blocked
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: contacts.blocked  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Blocked
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|blocked|Array of [ContactBlocked](../types/ContactBlocked.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|blocked|Array of [ContactBlocked](../types/ContactBlocked.md) | Yes|Blocked|
+|users|Array of [User](../types/User.md) | Yes|Users|
 
 
 

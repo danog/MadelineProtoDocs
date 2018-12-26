@@ -1,6 +1,6 @@
 ---
 title: contacts.link
-description: contacts_link attributes, type and example
+description: Link
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: contacts.link  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Link
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|my\_link|[contacts\_MyLink](../types/contacts_MyLink.md) | Yes|
-|foreign\_link|[contacts\_ForeignLink](../types/contacts_ForeignLink.md) | Yes|
-|user|[User](../types/User.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|my\_link|[contacts\_MyLink](../types/contacts_MyLink.md) | Yes|My link|
+|foreign\_link|[contacts\_ForeignLink](../types/contacts_ForeignLink.md) | Yes|Foreign link|
+|user|[User](../types/User.md) | Optional|User|
 
 
 

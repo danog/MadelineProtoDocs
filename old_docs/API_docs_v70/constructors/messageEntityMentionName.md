@@ -1,6 +1,6 @@
 ---
 title: messageEntityMentionName
-description: messageEntityMentionName attributes, type and example
+description: Message entity mention name
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageEntityMentionName  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message entity mention name
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|offset|[int](../types/int.md) | Yes|
-|length|[int](../types/int.md) | Yes|
-|user\_id|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|offset|[int](../types/int.md) | Yes|Offset|
+|length|[int](../types/int.md) | Yes|Length|
+|user\_id|[int](../types/int.md) | Yes|User ID|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: photo
-description: photo attributes, type and example
+description: Photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: photo  
@@ -8,17 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Photo
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[long](../types/long.md) | Yes|
-|access\_hash|[long](../types/long.md) | Yes|
-|user\_id|[int](../types/int.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|caption|[string](../types/string.md) | Yes|
-|geo|[GeoPoint](../types/GeoPoint.md) | Optional|
-|sizes|Array of [PhotoSize](../types/PhotoSize.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[long](../types/long.md) | Yes|ID|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|user\_id|[int](../types/int.md) | Yes|User ID|
+|date|[int](../types/int.md) | Yes|Date|
+|caption|[string](../types/string.md) | Yes|Caption|
+|geo|[GeoPoint](../types/GeoPoint.md) | Optional|Geo|
+|sizes|Array of [PhotoSize](../types/PhotoSize.md) | Yes|Sizes|
 
 
 

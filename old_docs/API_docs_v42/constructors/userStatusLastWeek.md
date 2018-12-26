@@ -1,12 +1,14 @@
 ---
 title: userStatusLastWeek
-description: userStatusLastWeek attributes, type and example
+description: User status last week
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userStatusLastWeek  
 [Back to constructors index](index.md)
 
 
+
+User status last week
 
 
 

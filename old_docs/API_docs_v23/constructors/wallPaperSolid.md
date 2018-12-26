@@ -1,6 +1,6 @@
 ---
 title: wallPaperSolid
-description: wallPaperSolid attributes, type and example
+description: Wall paper solid
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: wallPaperSolid  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Wall paper solid
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](../types/int.md) | Yes|
-|title|[string](../types/string.md) | Yes|
-|bg\_color|[int](../types/int.md) | Yes|
-|color|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](../types/int.md) | Yes|ID|
+|title|[string](../types/string.md) | Yes|Title|
+|bg\_color|[int](../types/int.md) | Yes|Bg color|
+|color|[int](../types/int.md) | Yes|Color|
 
 
 

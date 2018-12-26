@@ -1,12 +1,14 @@
 ---
 title: inputMessagePinned
-description: inputMessagePinned attributes, type and example
+description: Message pinned
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagePinned  
 [Back to constructors index](index.md)
 
 
+
+Message pinned
 
 
 

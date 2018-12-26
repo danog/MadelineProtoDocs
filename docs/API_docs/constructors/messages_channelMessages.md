@@ -1,6 +1,6 @@
 ---
 title: messages.channelMessages
-description: messages_channelMessages attributes, type and example
+description: Channel messages
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.channelMessages  
@@ -8,15 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Channel messages
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|pts|[int](../types/int.md) | Yes|
-|count|[int](../types/int.md) | Yes|
-|messages|Array of [Message](../types/Message.md) | Yes|
-|chats|Array of [Chat](../types/Chat.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|inexact|[Bool](../types/Bool.md) | Optional|Inexact?|
+|pts|[int](../types/int.md) | Yes|Pts|
+|count|[int](../types/int.md) | Yes|Count|
+|messages|Array of [Message](../types/Message.md) | Yes|Messages|
+|chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
+|users|Array of [User](../types/User.md) | Yes|Users|
 
 
 
@@ -26,20 +29,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```php
-$messages_channelMessages = ['_' => 'messages.channelMessages', 'pts' => int, 'count' => int, 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
+$messages_channelMessages = ['_' => 'messages.channelMessages', 'inexact' => Bool, 'pts' => int, 'count' => int, 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "messages.channelMessages", "pts": int, "count": int, "messages": [Message], "chats": [Chat], "users": [User]}
+{"_": "messages.channelMessages", "inexact": Bool, "pts": int, "count": int, "messages": [Message], "chats": [Chat], "users": [User]}
 ```
 
 
 Or, if you're into Lua:
 
 ```lua
-messages_channelMessages={_='messages.channelMessages', pts=int, count=int, messages={Message}, chats={Chat}, users={User}}
+messages_channelMessages={_='messages.channelMessages', inexact=Bool, pts=int, count=int, messages={Message}, chats={Chat}, users={User}}
 
 ```
 

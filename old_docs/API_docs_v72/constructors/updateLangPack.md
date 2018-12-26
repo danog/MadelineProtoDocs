@@ -1,6 +1,6 @@
 ---
 title: updateLangPack
-description: updateLangPack attributes, type and example
+description: Update lang pack
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateLangPack  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update lang pack
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|difference|[LangPackDifference](../types/LangPackDifference.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|difference|[LangPackDifference](../types/LangPackDifference.md) | Yes|Difference|
 
 
 

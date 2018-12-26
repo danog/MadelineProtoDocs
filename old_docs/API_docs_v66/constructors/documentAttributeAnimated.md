@@ -1,12 +1,14 @@
 ---
 title: documentAttributeAnimated
-description: documentAttributeAnimated attributes, type and example
+description: Document attribute animated
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: documentAttributeAnimated  
 [Back to constructors index](index.md)
 
 
+
+Document attribute animated
 
 
 

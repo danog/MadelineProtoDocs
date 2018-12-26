@@ -1,12 +1,14 @@
 ---
 title: auth.codeTypeFlashCall
-description: auth_codeTypeFlashCall attributes, type and example
+description: Auth code type: flash call
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: auth.codeTypeFlashCall  
 [Back to constructors index](index.md)
 
 
+
+Auth code type: flash call
 
 
 

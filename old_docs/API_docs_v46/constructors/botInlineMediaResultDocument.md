@@ -1,6 +1,6 @@
 ---
 title: botInlineMediaResultDocument
-description: botInlineMediaResultDocument attributes, type and example
+description: Bot inline media result document
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: botInlineMediaResultDocument  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Bot inline media result document
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[string](../types/string.md) | Yes|
-|type|[string](../types/string.md) | Yes|
-|document|[Document](../types/Document.md) | Optional|
-|send\_message|[BotInlineMessage](../types/BotInlineMessage.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[string](../types/string.md) | Yes|ID|
+|type|[string](../types/string.md) | Yes|Type|
+|document|[Document](../types/Document.md) | Optional|Document|
+|send\_message|[BotInlineMessage](../types/BotInlineMessage.md) | Yes|Send message|
 
 
 

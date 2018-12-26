@@ -1,6 +1,6 @@
 ---
 title: decryptedDataBlock
-description: decryptedDataBlock attributes, type and example
+description: Decrypted data block
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedDataBlock  
@@ -8,17 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Decrypted data block
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|voice\_call\_id|[int128](../types/int128.md) | Optional|
-|in\_seq\_no|[int](../types/int.md) | Optional|
-|out\_seq\_no|[int](../types/int.md) | Optional|
-|recent\_received\_mask|[int](../types/int.md) | Optional|
-|proto|[int](../types/int.md) | Optional|
-|extra|[string](../types/string.md) | Optional|
-|raw\_data|[string](../types/string.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|voice\_call\_id|[int128](../types/int128.md) | Optional|Voice call ID|
+|in\_seq\_no|[int](../types/int.md) | Optional|In seq no|
+|out\_seq\_no|[int](../types/int.md) | Optional|Out seq no|
+|recent\_received\_mask|[int](../types/int.md) | Optional|Recent received mask|
+|proto|[int](../types/int.md) | Optional|Proto|
+|extra|[string](../types/string.md) | Optional|Extra|
+|raw\_data|[string](../types/string.md) | Optional|Raw data|
 
 
 

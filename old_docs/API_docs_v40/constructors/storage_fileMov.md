@@ -1,12 +1,14 @@
 ---
 title: storage.fileMov
-description: storage_fileMov attributes, type and example
+description: File mov
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: storage.fileMov  
 [Back to constructors index](index.md)
 
 
+
+File mov
 
 
 

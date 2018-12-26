@@ -14,6 +14,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [fileLocation](../constructors/fileLocation.md)  
 
+[fileLocation\_23](../constructors/fileLocation_23.md)  
+
 
 
 ### Methods that return an object of this type (methods):

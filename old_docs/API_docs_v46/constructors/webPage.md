@@ -1,6 +1,6 @@
 ---
 title: webPage
-description: webPage attributes, type and example
+description: Web page
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: webPage  
@@ -8,25 +8,27 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Web page
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[long](../types/long.md) | Yes|
-|url|[string](../types/string.md) | Yes|
-|display\_url|[string](../types/string.md) | Yes|
-|type|[string](../types/string.md) | Optional|
-|site\_name|[string](../types/string.md) | Optional|
-|title|[string](../types/string.md) | Optional|
-|description|[string](../types/string.md) | Optional|
-|photo|[Photo](../types/Photo.md) | Optional|
-|embed\_url|[string](../types/string.md) | Optional|
-|embed\_type|[string](../types/string.md) | Optional|
-|embed\_width|[int](../types/int.md) | Optional|
-|embed\_height|[int](../types/int.md) | Optional|
-|duration|[int](../types/int.md) | Optional|
-|author|[string](../types/string.md) | Optional|
-|document|[Document](../types/Document.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[long](../types/long.md) | Yes|ID|
+|url|[string](../types/string.md) | Yes|URL|
+|display\_url|[string](../types/string.md) | Yes|Display URL|
+|type|[string](../types/string.md) | Optional|Type|
+|site\_name|[string](../types/string.md) | Optional|Site name|
+|title|[string](../types/string.md) | Optional|Title|
+|description|[string](../types/string.md) | Optional|Description|
+|photo|[Photo](../types/Photo.md) | Optional|Photo|
+|embed\_url|[string](../types/string.md) | Optional|Embed URL|
+|embed\_type|[string](../types/string.md) | Optional|Embed type|
+|embed\_width|[int](../types/int.md) | Optional|Embed width|
+|embed\_height|[int](../types/int.md) | Optional|Embed height|
+|duration|[int](../types/int.md) | Optional|Duration|
+|author|[string](../types/string.md) | Optional|Author|
+|document|[Document](../types/Document.md) | Optional|Document|
 
 
 

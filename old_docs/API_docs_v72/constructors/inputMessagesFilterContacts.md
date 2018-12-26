@@ -1,12 +1,14 @@
 ---
 title: inputMessagesFilterContacts
-description: inputMessagesFilterContacts attributes, type and example
+description: Messages filter contacts
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterContacts  
 [Back to constructors index](index.md)
 
 
+
+Messages filter contacts
 
 
 

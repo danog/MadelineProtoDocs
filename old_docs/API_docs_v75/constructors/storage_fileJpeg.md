@@ -1,12 +1,14 @@
 ---
 title: storage.fileJpeg
-description: storage_fileJpeg attributes, type and example
+description: File jpeg
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: storage.fileJpeg  
 [Back to constructors index](index.md)
 
 
+
+File jpeg
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: draftMessage
-description: draftMessage attributes, type and example
+description: Draft message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: draftMessage  
@@ -8,15 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Draft message
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|no\_webpage|[Bool](../types/Bool.md) | Optional|
-|reply\_to\_msg\_id|[int](../types/int.md) | Optional|
-|message|[string](../types/string.md) | Yes|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|
-|date|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|no\_webpage|[Bool](../types/Bool.md) | Optional|No webpage?|
+|reply\_to\_msg\_id|[int](../types/int.md) | Optional|Reply to msg ID|
+|message|[string](../types/string.md) | Yes|Message|
+|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|Entities|
+|date|[int](../types/int.md) | Yes|Date|
 
 
 

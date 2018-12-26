@@ -1,12 +1,14 @@
 ---
 title: secureValueTypeDriverLicense
-description: secureValueTypeDriverLicense attributes, type and example
+description: Secure value type driver license
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueTypeDriverLicense  
 [Back to constructors index](index.md)
 
 
+
+Secure value type driver license
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: disabledFeature
-description: disabledFeature attributes, type and example
+description: Disabled feature
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: disabledFeature  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Disabled feature
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|feature|[string](../types/string.md) | Yes|
-|description|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|feature|[string](../types/string.md) | Yes|Feature|
+|description|[string](../types/string.md) | Yes|Description|
 
 
 

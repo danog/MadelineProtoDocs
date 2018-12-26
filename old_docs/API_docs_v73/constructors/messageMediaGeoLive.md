@@ -1,6 +1,6 @@
 ---
 title: messageMediaGeoLive
-description: messageMediaGeoLive attributes, type and example
+description: Message media geo live
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaGeoLive  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message media geo live
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|geo|[GeoPoint](../types/GeoPoint.md) | Optional|
-|period|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|geo|[GeoPoint](../types/GeoPoint.md) | Optional|Geo|
+|period|[int](../types/int.md) | Yes|Period|
 
 
 

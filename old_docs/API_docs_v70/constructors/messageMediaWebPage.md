@@ -1,6 +1,6 @@
 ---
 title: messageMediaWebPage
-description: messageMediaWebPage attributes, type and example
+description: Message media web page
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaWebPage  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message media web page
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|webpage|[WebPage](../types/WebPage.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|webpage|[WebPage](../types/WebPage.md) | Optional|Webpage|
 
 
 

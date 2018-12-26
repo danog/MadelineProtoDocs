@@ -1,6 +1,6 @@
 ---
 title: privacyValueAllowUsers
-description: privacyValueAllowUsers attributes, type and example
+description: Privacy value allow users
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: privacyValueAllowUsers  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Privacy value allow users
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|users|Array of [int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|users|Array of [int](../types/int.md) | Yes|Users|
 
 
 

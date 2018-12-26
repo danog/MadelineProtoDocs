@@ -1,6 +1,6 @@
 ---
 title: messageActionBotAllowed
-description: messageActionBotAllowed attributes, type and example
+description: Message action bot allowed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionBotAllowed  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message action bot allowed
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|domain|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|domain|[string](../types/string.md) | Yes|Domain|
 
 
 

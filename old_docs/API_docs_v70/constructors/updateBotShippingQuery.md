@@ -1,6 +1,6 @@
 ---
 title: updateBotShippingQuery
-description: updateBotShippingQuery attributes, type and example
+description: Update bot shipping query
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotShippingQuery  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update bot shipping query
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|query\_id|[long](../types/long.md) | Yes|
-|user\_id|[int](../types/int.md) | Yes|
-|payload|[bytes](../types/bytes.md) | Yes|
-|shipping\_address|[PostAddress](../types/PostAddress.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|query\_id|[long](../types/long.md) | Yes|Query ID|
+|user\_id|[int](../types/int.md) | Yes|User ID|
+|payload|[bytes](../types/bytes.md) | Yes|Payload|
+|shipping\_address|[PostAddress](../types/PostAddress.md) | Yes|Shipping address|
 
 
 

@@ -1,12 +1,14 @@
 ---
 title: phoneCallDiscardReasonMissed
-description: phoneCallDiscardReasonMissed attributes, type and example
+description: Phone call discard reason missed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneCallDiscardReasonMissed  
 [Back to constructors index](index.md)
 
 
+
+Phone call discard reason missed
 
 
 

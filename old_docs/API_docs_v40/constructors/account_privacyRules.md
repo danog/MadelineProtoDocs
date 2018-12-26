@@ -1,6 +1,6 @@
 ---
 title: account.privacyRules
-description: account_privacyRules attributes, type and example
+description: Privacy rules
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: account.privacyRules  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Privacy rules
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|rules|Array of [PrivacyRule](../types/PrivacyRule.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|rules|Array of [PrivacyRule](../types/PrivacyRule.md) | Yes|Rules|
+|users|Array of [User](../types/User.md) | Yes|Users|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: pageBlockAnchor
-description: pageBlockAnchor attributes, type and example
+description: Page block anchor
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockAnchor  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Page block anchor
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|name|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|name|[string](../types/string.md) | Yes|Name|
 
 
 

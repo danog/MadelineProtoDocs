@@ -1,6 +1,6 @@
 ---
 title: contacts.blockedSlice
-description: contacts_blockedSlice attributes, type and example
+description: Blocked slice
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: contacts.blockedSlice  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Blocked slice
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|count|[int](../types/int.md) | Yes|
-|blocked|Array of [ContactBlocked](../types/ContactBlocked.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|count|[int](../types/int.md) | Yes|Count|
+|blocked|Array of [ContactBlocked](../types/ContactBlocked.md) | Yes|Blocked|
+|users|Array of [User](../types/User.md) | Yes|Users|
 
 
 

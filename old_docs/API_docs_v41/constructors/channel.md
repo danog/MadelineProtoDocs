@@ -1,6 +1,6 @@
 ---
 title: channel
-description: channel attributes, type and example
+description: Channel
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channel  
@@ -8,25 +8,27 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Channel
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|creator|[Bool](../types/Bool.md) | Optional|
-|kicked|[Bool](../types/Bool.md) | Optional|
-|left|[Bool](../types/Bool.md) | Optional|
-|editor|[Bool](../types/Bool.md) | Optional|
-|moderator|[Bool](../types/Bool.md) | Optional|
-|broadcast|[Bool](../types/Bool.md) | Optional|
-|verified|[Bool](../types/Bool.md) | Optional|
-|megagroup|[Bool](../types/Bool.md) | Optional|
-|id|[int](../types/int.md) | Yes|
-|access\_hash|[long](../types/long.md) | Yes|
-|title|[string](../types/string.md) | Yes|
-|username|[string](../types/string.md) | Optional|
-|photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|
-|date|[int](../types/int.md) | Yes|
-|version|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|creator|[Bool](../types/Bool.md) | Optional|Creator?|
+|kicked|[Bool](../types/Bool.md) | Optional|Kicked?|
+|left|[Bool](../types/Bool.md) | Optional|Left?|
+|editor|[Bool](../types/Bool.md) | Optional|Editor?|
+|moderator|[Bool](../types/Bool.md) | Optional|Moderator?|
+|broadcast|[Bool](../types/Bool.md) | Optional|Broadcast?|
+|verified|[Bool](../types/Bool.md) | Optional|Verified?|
+|megagroup|[Bool](../types/Bool.md) | Optional|Megagroup?|
+|id|[int](../types/int.md) | Yes|ID|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|title|[string](../types/string.md) | Yes|Title|
+|username|[string](../types/string.md) | Optional|Username|
+|photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|Photo|
+|date|[int](../types/int.md) | Yes|Date|
+|version|[int](../types/int.md) | Yes|Version|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: inputMediaAudio
-description: inputMediaAudio attributes, type and example
+description: Media audio
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaAudio  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Media audio
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[InputAudio](../types/InputAudio.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[InputAudio](../types/InputAudio.md) | Optional|ID|
 
 
 

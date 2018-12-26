@@ -1,6 +1,6 @@
 ---
 title: channels.channelParticipants
-description: channels_channelParticipants attributes, type and example
+description: Channel participants
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channels.channelParticipants  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Channel participants
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|count|[int](../types/int.md) | Yes|
-|participants|Array of [ChannelParticipant](../types/ChannelParticipant.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|count|[int](../types/int.md) | Yes|Count|
+|participants|Array of [ChannelParticipant](../types/ChannelParticipant.md) | Yes|Participants|
+|users|Array of [User](../types/User.md) | Yes|Users|
 
 
 

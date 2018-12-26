@@ -1,6 +1,6 @@
 ---
 title: rpc_result
-description: rpc_result attributes, type and example
+description: Rpc result
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: rpc\_result  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Rpc result
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|req\_msg\_id|[long](../types/long.md) | Yes|
-|result|[Object](../types/Object.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|req\_msg\_id|[long](../types/long.md) | Yes|Req msg ID|
+|result|[Object](../types/Object.md) | Yes|Result|
 
 
 

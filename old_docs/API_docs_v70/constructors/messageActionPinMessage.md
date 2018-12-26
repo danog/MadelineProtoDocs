@@ -1,12 +1,14 @@
 ---
 title: messageActionPinMessage
-description: messageActionPinMessage attributes, type and example
+description: Message action pin message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionPinMessage  
 [Back to constructors index](index.md)
 
 
+
+Message action pin message
 
 
 

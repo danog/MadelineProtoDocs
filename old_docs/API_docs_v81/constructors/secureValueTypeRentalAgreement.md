@@ -1,12 +1,14 @@
 ---
 title: secureValueTypeRentalAgreement
-description: secureValueTypeRentalAgreement attributes, type and example
+description: Secure value type rental agreement
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueTypeRentalAgreement  
 [Back to constructors index](index.md)
 
 
+
+Secure value type rental agreement
 
 
 

@@ -1,12 +1,14 @@
 ---
 title: topPeerCategoryCorrespondents
-description: topPeerCategoryCorrespondents attributes, type and example
+description: Top peer category correspondents
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: topPeerCategoryCorrespondents  
 [Back to constructors index](index.md)
 
 
+
+Top peer category correspondents
 
 
 

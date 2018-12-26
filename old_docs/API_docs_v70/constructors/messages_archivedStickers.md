@@ -1,6 +1,6 @@
 ---
 title: messages.archivedStickers
-description: messages_archivedStickers attributes, type and example
+description: Archived stickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.archivedStickers  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Archived stickers
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|count|[int](../types/int.md) | Yes|
-|sets|Array of [StickerSetCovered](../types/StickerSetCovered.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|count|[int](../types/int.md) | Yes|Count|
+|sets|Array of [StickerSetCovered](../types/StickerSetCovered.md) | Yes|Sets|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: messages.recentStickers
-description: messages_recentStickers attributes, type and example
+description: Recent stickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.recentStickers  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Recent stickers
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|[int](../types/int.md) | Yes|
-|stickers|Array of [Document](../types/Document.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|hash|[int](../types/int.md) | Yes|Hash|
+|stickers|Array of [Document](../types/Document.md) | Yes|Stickers|
 
 
 

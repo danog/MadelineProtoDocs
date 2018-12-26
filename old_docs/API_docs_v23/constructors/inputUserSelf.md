@@ -1,12 +1,14 @@
 ---
 title: inputUserSelf
-description: inputUserSelf attributes, type and example
+description: User self
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputUserSelf  
 [Back to constructors index](index.md)
 
 
+
+User self
 
 
 

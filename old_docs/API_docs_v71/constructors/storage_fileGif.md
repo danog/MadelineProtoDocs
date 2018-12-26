@@ -1,12 +1,14 @@
 ---
 title: storage.fileGif
-description: storage_fileGif attributes, type and example
+description: File gif
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: storage.fileGif  
 [Back to constructors index](index.md)
 
 
+
+File gif
 
 
 

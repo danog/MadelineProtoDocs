@@ -1,12 +1,14 @@
 ---
 title: inputPhotoCropAuto
-description: inputPhotoCropAuto attributes, type and example
+description: Photo crop auto
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPhotoCropAuto  
 [Back to constructors index](index.md)
 
 
+
+Photo crop auto
 
 
 

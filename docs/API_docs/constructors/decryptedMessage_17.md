@@ -1,6 +1,6 @@
 ---
 title: decryptedMessage
-description: decryptedMessage attributes, type and example
+description: Decrypted message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessage\_17  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Decrypted message
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|ttl|[int](../types/int.md) | Yes|
-|message|[string](../types/string.md) | Yes|
-|media|[DecryptedMessageMedia](../types/DecryptedMessageMedia.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|ttl|[int](../types/int.md) | Yes|Ttl|
+|message|[string](../types/string.md) | Yes|Message|
+|media|[DecryptedMessageMedia](../types/DecryptedMessageMedia.md) | Yes|Media|
 
 
 
