@@ -1,12 +1,14 @@
 ---
 title: inputNotifyUsers
-description: inputNotifyUsers attributes, type and example
+description: Notify users
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputNotifyUsers  
 [Back to constructors index](index.md)
 
 
+
+Notify users
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: inputBotInlineResultDocument
-description: inputBotInlineResultDocument attributes, type and example
+description: Bot inline result document
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputBotInlineResultDocument  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Bot inline result document
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[string](../types/string.md) | Yes|
-|type|[string](../types/string.md) | Yes|
-|title|[string](../types/string.md) | Optional|
-|description|[string](../types/string.md) | Optional|
-|document|[MessageMedia, Message, Update or InputDocument](../types/InputDocument.md) | Optional|
-|send\_message|[InputBotInlineMessage](../types/InputBotInlineMessage.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[string](../types/string.md) | Yes|ID|
+|type|[string](../types/string.md) | Yes|Type|
+|title|[string](../types/string.md) | Optional|Title|
+|description|[string](../types/string.md) | Optional|Description|
+|document|[MessageMedia, Message, Update or InputDocument](../types/InputDocument.md) | Optional|Document|
+|send\_message|[InputBotInlineMessage](../types/InputBotInlineMessage.md) | Yes|Message to send|
 
 
 

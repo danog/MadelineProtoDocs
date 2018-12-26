@@ -1,6 +1,6 @@
 ---
 title: future_salt
-description: future_salt attributes, type and example
+description: Future salt
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: future\_salt  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Future salt
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|valid\_since|[int](../types/int.md) | Yes|
-|valid\_until|[int](../types/int.md) | Yes|
-|salt|[long](../types/long.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|valid\_since|[int](../types/int.md) | Yes|Valid since|
+|valid\_until|[int](../types/int.md) | Yes|Valid until|
+|salt|[long](../types/long.md) | Yes|Salt|
 
 
 

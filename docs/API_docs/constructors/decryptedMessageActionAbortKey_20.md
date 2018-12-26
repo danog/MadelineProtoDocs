@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageActionAbortKey
-description: decryptedMessageActionAbortKey attributes, type and example
+description: Decrypted message action abort key
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionAbortKey\_20  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Decrypted message action abort key
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|exchange\_id|[long](../types/long.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|exchange\_id|[long](../types/long.md) | Yes|Exchange ID|
 
 
 

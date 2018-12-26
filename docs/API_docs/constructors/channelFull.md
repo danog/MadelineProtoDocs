@@ -1,6 +1,6 @@
 ---
 title: channelFull
-description: channelFull attributes, type and example
+description: Full channel
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelFull  
@@ -8,32 +8,36 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Full channel
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|can\_view\_participants|[Bool](../types/Bool.md) | Optional|
-|can\_set\_username|[Bool](../types/Bool.md) | Optional|
-|can\_set\_stickers|[Bool](../types/Bool.md) | Optional|
-|hidden\_prehistory|[Bool](../types/Bool.md) | Optional|
-|id|[int](../types/int.md) | Yes|
-|about|[string](../types/string.md) | Yes|
-|participants\_count|[int](../types/int.md) | Optional|
-|admins\_count|[int](../types/int.md) | Optional|
-|kicked\_count|[int](../types/int.md) | Optional|
-|banned\_count|[int](../types/int.md) | Optional|
-|read\_inbox\_max\_id|[int](../types/int.md) | Yes|
-|read\_outbox\_max\_id|[int](../types/int.md) | Yes|
-|unread\_count|[int](../types/int.md) | Yes|
-|chat\_photo|[Photo](../types/Photo.md) | Optional|
-|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Yes|
-|exported\_invite|[ExportedChatInvite](../types/ExportedChatInvite.md) | Yes|
-|bot\_info|Array of [BotInfo](../types/BotInfo.md) | Yes|
-|migrated\_from\_chat\_id|[int](../types/int.md) | Optional|
-|migrated\_from\_max\_id|[int](../types/int.md) | Optional|
-|pinned\_msg\_id|[int](../types/int.md) | Optional|
-|stickerset|[StickerSet](../types/StickerSet.md) | Optional|
-|available\_min\_id|[int](../types/int.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|can\_view\_participants|[Bool](../types/Bool.md) | Optional|Can view participants?|
+|can\_set\_username|[Bool](../types/Bool.md) | Optional|Can set username?|
+|can\_set\_stickers|[Bool](../types/Bool.md) | Optional|Can set group stickerset?|
+|hidden\_prehistory|[Bool](../types/Bool.md) | Optional|Hidden prehistory?|
+|can\_view\_stats|[Bool](../types/Bool.md) | Optional|Can view stats?|
+|id|[int](../types/int.md) | Yes|ID|
+|about|[string](../types/string.md) | Yes|About|
+|participants\_count|[int](../types/int.md) | Optional|Participants count|
+|admins\_count|[int](../types/int.md) | Optional|Admins count|
+|kicked\_count|[int](../types/int.md) | Optional|Kicked count|
+|banned\_count|[int](../types/int.md) | Optional|Banned count|
+|online\_count|[int](../types/int.md) | Optional|Online count|
+|read\_inbox\_max\_id|[int](../types/int.md) | Yes|Read inbox max ID|
+|read\_outbox\_max\_id|[int](../types/int.md) | Yes|Read outbox max ID|
+|unread\_count|[int](../types/int.md) | Yes|Unread count|
+|chat\_photo|[Photo](../types/Photo.md) | Optional|Chat photo|
+|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Yes|Notify settings|
+|exported\_invite|[ExportedChatInvite](../types/ExportedChatInvite.md) | Yes|Exported invite|
+|bot\_info|Array of [BotInfo](../types/BotInfo.md) | Yes|Bot info|
+|migrated\_from\_chat\_id|[int](../types/int.md) | Optional|Migrated from chat ID|
+|migrated\_from\_max\_id|[int](../types/int.md) | Optional|Migrated from max ID|
+|pinned\_msg\_id|[int](../types/int.md) | Optional|Pinned msg ID|
+|stickerset|[StickerSet](../types/StickerSet.md) | Optional|Stickerset|
+|available\_min\_id|[int](../types/int.md) | Optional|Available min ID|
 
 
 
@@ -43,20 +47,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```php
-$channelFull = ['_' => 'channelFull', 'can_view_participants' => Bool, 'can_set_username' => Bool, 'can_set_stickers' => Bool, 'hidden_prehistory' => Bool, 'id' => int, 'about' => 'string', 'participants_count' => int, 'admins_count' => int, 'kicked_count' => int, 'banned_count' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'unread_count' => int, 'chat_photo' => Photo, 'notify_settings' => PeerNotifySettings, 'exported_invite' => ExportedChatInvite, 'bot_info' => [BotInfo, BotInfo], 'migrated_from_chat_id' => int, 'migrated_from_max_id' => int, 'pinned_msg_id' => int, 'stickerset' => StickerSet, 'available_min_id' => int];
+$channelFull = ['_' => 'channelFull', 'can_view_participants' => Bool, 'can_set_username' => Bool, 'can_set_stickers' => Bool, 'hidden_prehistory' => Bool, 'can_view_stats' => Bool, 'id' => int, 'about' => 'string', 'participants_count' => int, 'admins_count' => int, 'kicked_count' => int, 'banned_count' => int, 'online_count' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'unread_count' => int, 'chat_photo' => Photo, 'notify_settings' => PeerNotifySettings, 'exported_invite' => ExportedChatInvite, 'bot_info' => [BotInfo, BotInfo], 'migrated_from_chat_id' => int, 'migrated_from_max_id' => int, 'pinned_msg_id' => int, 'stickerset' => StickerSet, 'available_min_id' => int];
 ```  
 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "channelFull", "can_view_participants": Bool, "can_set_username": Bool, "can_set_stickers": Bool, "hidden_prehistory": Bool, "id": int, "about": "string", "participants_count": int, "admins_count": int, "kicked_count": int, "banned_count": int, "read_inbox_max_id": int, "read_outbox_max_id": int, "unread_count": int, "chat_photo": Photo, "notify_settings": PeerNotifySettings, "exported_invite": ExportedChatInvite, "bot_info": [BotInfo], "migrated_from_chat_id": int, "migrated_from_max_id": int, "pinned_msg_id": int, "stickerset": StickerSet, "available_min_id": int}
+{"_": "channelFull", "can_view_participants": Bool, "can_set_username": Bool, "can_set_stickers": Bool, "hidden_prehistory": Bool, "can_view_stats": Bool, "id": int, "about": "string", "participants_count": int, "admins_count": int, "kicked_count": int, "banned_count": int, "online_count": int, "read_inbox_max_id": int, "read_outbox_max_id": int, "unread_count": int, "chat_photo": Photo, "notify_settings": PeerNotifySettings, "exported_invite": ExportedChatInvite, "bot_info": [BotInfo], "migrated_from_chat_id": int, "migrated_from_max_id": int, "pinned_msg_id": int, "stickerset": StickerSet, "available_min_id": int}
 ```
 
 
 Or, if you're into Lua:
 
 ```lua
-channelFull={_='channelFull', can_view_participants=Bool, can_set_username=Bool, can_set_stickers=Bool, hidden_prehistory=Bool, id=int, about='string', participants_count=int, admins_count=int, kicked_count=int, banned_count=int, read_inbox_max_id=int, read_outbox_max_id=int, unread_count=int, chat_photo=Photo, notify_settings=PeerNotifySettings, exported_invite=ExportedChatInvite, bot_info={BotInfo}, migrated_from_chat_id=int, migrated_from_max_id=int, pinned_msg_id=int, stickerset=StickerSet, available_min_id=int}
+channelFull={_='channelFull', can_view_participants=Bool, can_set_username=Bool, can_set_stickers=Bool, hidden_prehistory=Bool, can_view_stats=Bool, id=int, about='string', participants_count=int, admins_count=int, kicked_count=int, banned_count=int, online_count=int, read_inbox_max_id=int, read_outbox_max_id=int, unread_count=int, chat_photo=Photo, notify_settings=PeerNotifySettings, exported_invite=ExportedChatInvite, bot_info={BotInfo}, migrated_from_chat_id=int, migrated_from_max_id=int, pinned_msg_id=int, stickerset=StickerSet, available_min_id=int}
 
 ```
 

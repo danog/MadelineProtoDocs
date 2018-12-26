@@ -1,12 +1,14 @@
 ---
 title: notifyChats
-description: notifyChats attributes, type and example
+description: Notify chats
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: notifyChats  
 [Back to constructors index](index.md)
 
 
+
+Notify chats
 
 
 

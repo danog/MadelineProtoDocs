@@ -1,6 +1,6 @@
 ---
 title: account.tmpPassword
-description: account_tmpPassword attributes, type and example
+description: Tmp password
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: account.tmpPassword  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Tmp password
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|tmp\_password|[bytes](../types/bytes.md) | Yes|
-|valid\_until|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|tmp\_password|[bytes](../types/bytes.md) | Yes|Tmp password|
+|valid\_until|[int](../types/int.md) | Yes|Valid until|
 
 
 

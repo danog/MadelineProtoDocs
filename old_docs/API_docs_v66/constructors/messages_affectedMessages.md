@@ -1,6 +1,6 @@
 ---
 title: messages.affectedMessages
-description: messages_affectedMessages attributes, type and example
+description: Affected messages
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.affectedMessages  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Affected messages
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|pts|[int](../types/int.md) | Yes|
-|pts\_count|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|pts|[int](../types/int.md) | Yes|Pts|
+|pts\_count|[int](../types/int.md) | Yes|Pts count|
 
 
 

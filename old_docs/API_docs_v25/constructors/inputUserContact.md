@@ -1,6 +1,6 @@
 ---
 title: inputUserContact
-description: inputUserContact attributes, type and example
+description: User contact
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputUserContact  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+User contact
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|user\_id|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|user\_id|[int](../types/int.md) | Yes|User ID|
 
 
 

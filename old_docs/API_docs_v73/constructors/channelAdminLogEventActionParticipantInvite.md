@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionParticipantInvite
-description: channelAdminLogEventActionParticipantInvite attributes, type and example
+description: Invite participant
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionParticipantInvite  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Invite participant
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|participant|[ChannelParticipant](../types/ChannelParticipant.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|participant|[ChannelParticipant](../types/ChannelParticipant.md) | Yes|Participant|
 
 
 

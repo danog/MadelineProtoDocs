@@ -1,6 +1,6 @@
 ---
 title: messageActionChatEditTitle
-description: messageActionChatEditTitle attributes, type and example
+description: Message action chat edit title
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChatEditTitle  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message action chat edit title
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|title|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|title|[string](../types/string.md) | Yes|Title|
 
 
 

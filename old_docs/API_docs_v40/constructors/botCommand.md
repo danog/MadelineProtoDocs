@@ -1,6 +1,6 @@
 ---
 title: botCommand
-description: botCommand attributes, type and example
+description: Bot command
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: botCommand  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Bot command
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|command|[string](../types/string.md) | Yes|
-|description|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|command|[string](../types/string.md) | Yes|Command|
+|description|[string](../types/string.md) | Yes|Description|
 
 
 

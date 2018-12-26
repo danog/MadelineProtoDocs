@@ -1,6 +1,6 @@
 ---
 title: contacts.myLinkRequested
-description: contacts_myLinkRequested attributes, type and example
+description: My link requested
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: contacts.myLinkRequested  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+My link requested
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|contact|[Bool](../types/Bool.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|contact|[Bool](../types/Bool.md) | Yes|Contact?|
 
 
 

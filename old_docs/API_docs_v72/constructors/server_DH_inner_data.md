@@ -1,6 +1,6 @@
 ---
 title: server_DH_inner_data
-description: server_DH_inner_data attributes, type and example
+description: Server inner data
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: server\_DH\_inner\_data  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Server inner data
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|nonce|[int128](../types/int128.md) | Yes|
-|server\_nonce|[int128](../types/int128.md) | Yes|
-|g|[int](../types/int.md) | Yes|
-|dh\_prime|[string](../types/string.md) | Yes|
-|g\_a|[string](../types/string.md) | Yes|
-|server\_time|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|nonce|[int128](../types/int128.md) | Yes|Random number for cryptographic security|
+|server\_nonce|[int128](../types/int128.md) | Yes|Random number for cryptographic security, given by server|
+|g|[int](../types/int.md) | Yes|G|
+|dh\_prime|[string](../types/string.md) | Yes|Dh prime|
+|g\_a|[string](../types/string.md) | Yes|G a|
+|server\_time|[int](../types/int.md) | Yes|Server time|
 
 
 

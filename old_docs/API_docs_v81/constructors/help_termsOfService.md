@@ -1,6 +1,6 @@
 ---
 title: help.termsOfService
-description: help_termsOfService attributes, type and example
+description: Terms of service
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.termsOfService  
@@ -8,15 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Terms of service
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|popup|[Bool](../types/Bool.md) | Optional|
-|id|[DataJSON](../types/DataJSON.md) | Yes|
-|text|[string](../types/string.md) | Yes|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | Yes|
-|min\_age\_confirm|[int](../types/int.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|popup|[Bool](../types/Bool.md) | Optional|Popup?|
+|id|[DataJSON](../types/DataJSON.md) | Yes|ID|
+|text|[string](../types/string.md) | Yes|Text|
+|entities|Array of [MessageEntity](../types/MessageEntity.md) | Yes|Entities|
+|min\_age\_confirm|[int](../types/int.md) | Optional|Min age confirm|
 
 
 

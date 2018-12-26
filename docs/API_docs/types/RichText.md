@@ -32,6 +32,18 @@ Describes a text inside web page instant view
 
 [textConcat](../constructors/textConcat.md)  
 
+[textSubscript](../constructors/textSubscript.md)  
+
+[textSuperscript](../constructors/textSuperscript.md)  
+
+[textMarked](../constructors/textMarked.md)  
+
+[textPhone](../constructors/textPhone.md)  
+
+[textImage](../constructors/textImage.md)  
+
+[textAnchor](../constructors/textAnchor.md)  
+
 
 
 ### Methods that return an object of this type (methods):

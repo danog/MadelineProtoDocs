@@ -1,12 +1,14 @@
 ---
 title: sendMessageRecordRoundAction
-description: sendMessageRecordRoundAction attributes, type and example
+description: Send message record round action
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageRecordRoundAction  
 [Back to constructors index](index.md)
 
 
+
+Send message record round action
 
 
 

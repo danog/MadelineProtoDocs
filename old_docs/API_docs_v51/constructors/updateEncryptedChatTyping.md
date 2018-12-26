@@ -1,6 +1,6 @@
 ---
 title: updateEncryptedChatTyping
-description: updateEncryptedChatTyping attributes, type and example
+description: Update encrypted chat typing
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateEncryptedChatTyping  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update encrypted chat typing
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chat\_id|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|chat\_id|[int](../types/int.md) | Yes|Chat ID|
 
 
 

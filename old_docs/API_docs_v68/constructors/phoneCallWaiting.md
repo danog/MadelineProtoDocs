@@ -1,6 +1,6 @@
 ---
 title: phoneCallWaiting
-description: phoneCallWaiting attributes, type and example
+description: Phone call waiting
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneCallWaiting  
@@ -8,17 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Phone call waiting
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[long](../types/long.md) | Yes|
-|access\_hash|[long](../types/long.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|admin\_id|[int](../types/int.md) | Yes|
-|participant\_id|[int](../types/int.md) | Yes|
-|protocol|[PhoneCallProtocol](../types/PhoneCallProtocol.md) | Yes|
-|receive\_date|[int](../types/int.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[long](../types/long.md) | Yes|ID|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|date|[int](../types/int.md) | Yes|Date|
+|admin\_id|[int](../types/int.md) | Yes|Admin ID|
+|participant\_id|[int](../types/int.md) | Yes|Participant ID|
+|protocol|[PhoneCallProtocol](../types/PhoneCallProtocol.md) | Yes|Protocol|
+|receive\_date|[int](../types/int.md) | Optional|Receive date|
 
 
 

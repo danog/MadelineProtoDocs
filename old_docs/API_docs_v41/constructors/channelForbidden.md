@@ -1,6 +1,6 @@
 ---
 title: channelForbidden
-description: channelForbidden attributes, type and example
+description: Forbidden channel
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelForbidden  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Forbidden channel
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](../types/int.md) | Yes|
-|access\_hash|[long](../types/long.md) | Yes|
-|title|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](../types/int.md) | Yes|ID|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|title|[string](../types/string.md) | Yes|Title|
 
 
 

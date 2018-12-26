@@ -1,6 +1,6 @@
 ---
 title: msgs_all_info
-description: msgs_all_info attributes, type and example
+description: Msgs all info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: msgs\_all\_info  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Msgs all info
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|msg\_ids|Array of [long](../types/long.md) | Yes|
-|info|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|msg\_ids|Array of [long](../types/long.md) | Yes|Msg IDs|
+|info|[bytes](../types/bytes.md) | Yes|Info|
 
 
 

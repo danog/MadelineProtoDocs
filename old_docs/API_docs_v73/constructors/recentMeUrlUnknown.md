@@ -1,6 +1,6 @@
 ---
 title: recentMeUrlUnknown
-description: recentMeUrlUnknown attributes, type and example
+description: Recent me URL unknown
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: recentMeUrlUnknown  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Recent me URL unknown
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|url|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|url|[string](../types/string.md) | Yes|URL|
 
 
 

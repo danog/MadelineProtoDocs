@@ -1,6 +1,6 @@
 ---
 title: inputMediaVenue
-description: inputMediaVenue attributes, type and example
+description: Media venue
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaVenue  
@@ -8,15 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Media venue
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|
-|title|[string](../types/string.md) | Yes|
-|address|[string](../types/string.md) | Yes|
-|provider|[string](../types/string.md) | Yes|
-|venue\_id|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|Geo point|
+|title|[string](../types/string.md) | Yes|Title|
+|address|[string](../types/string.md) | Yes|Address|
+|provider|[string](../types/string.md) | Yes|Provider|
+|venue\_id|[string](../types/string.md) | Yes|Venue ID|
 
 
 

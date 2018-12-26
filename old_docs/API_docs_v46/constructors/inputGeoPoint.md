@@ -1,6 +1,6 @@
 ---
 title: inputGeoPoint
-description: inputGeoPoint attributes, type and example
+description: Geo point
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputGeoPoint  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Geo point
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|latitude|[double](../types/double.md) | Yes|
-|longitude|[double](../types/double.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|latitude|[double](../types/double.md) | Yes|Latitude|
+|longitude|[double](../types/double.md) | Yes|Longitude|
 
 
 

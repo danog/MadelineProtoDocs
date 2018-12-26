@@ -1,12 +1,14 @@
 ---
 title: inputUserEmpty
-description: inputUserEmpty attributes, type and example
+description: Empty input user
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputUserEmpty  
 [Back to constructors index](index.md)
 
 
+
+Empty input user
 
 
 

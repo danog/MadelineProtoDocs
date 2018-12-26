@@ -1,6 +1,6 @@
 ---
 title: recentMeUrlUser
-description: recentMeUrlUser attributes, type and example
+description: Recent me URL user
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: recentMeUrlUser  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Recent me URL user
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|url|[string](../types/string.md) | Yes|
-|user\_id|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|url|[string](../types/string.md) | Yes|URL|
+|user\_id|[int](../types/int.md) | Yes|User ID|
 
 
 

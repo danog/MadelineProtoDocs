@@ -1,6 +1,6 @@
 ---
 title: client_DH_inner_data
-description: client_DH_inner_data attributes, type and example
+description: Client inner data
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: client\_DH\_inner\_data  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Client inner data
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|nonce|[int128](../types/int128.md) | Yes|
-|server\_nonce|[int128](../types/int128.md) | Yes|
-|retry\_id|[long](../types/long.md) | Yes|
-|g\_b|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|nonce|[int128](../types/int128.md) | Yes|Random number for cryptographic security|
+|server\_nonce|[int128](../types/int128.md) | Yes|Random number for cryptographic security, given by server|
+|retry\_id|[long](../types/long.md) | Yes|Retry ID|
+|g\_b|[bytes](../types/bytes.md) | Yes|G b|
 
 
 

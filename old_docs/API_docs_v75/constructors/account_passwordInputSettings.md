@@ -16,8 +16,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |----------|---------------|----------|-------------|
 |new\_salt|[bytes](../types/bytes.md) | Optional|`$new_salt = $MadelineProto->account->getPassword()['new_salt'].$MadelineProto->random(8);`|
 |new\_password\_hash|[bytes](../types/bytes.md) | Optional|`hash('sha256', $new_salt.$new_password.$new_salt, true)`|
-|hint|[string](../types/string.md) | Optional||
-|email|[string](../types/string.md) | Optional||
+|hint|[string](../types/string.md) | Optional|Hint|
+|email|[string](../types/string.md) | Optional|Email|
 
 
 

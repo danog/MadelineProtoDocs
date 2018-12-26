@@ -1,6 +1,6 @@
 ---
 title: keyboardButton
-description: keyboardButton attributes, type and example
+description: Keyboard button
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: keyboardButton  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Keyboard button
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|text|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|text|[string](../types/string.md) | Yes|Text|
 
 
 

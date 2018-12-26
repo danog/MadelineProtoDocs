@@ -1,6 +1,6 @@
 ---
 title: inputChatUploadedPhoto
-description: inputChatUploadedPhoto attributes, type and example
+description: Chat uploaded photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputChatUploadedPhoto  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Chat uploaded photo
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|file|[File path or InputFile](../types/InputFile.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|file|[File path or InputFile](../types/InputFile.md) | Yes|File|
 
 
 

@@ -14,7 +14,6 @@ Edit a message
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |no\_webpage|[Bool](../types/Bool.md) | Disable webpage preview | Optional|
-|stop\_geo\_live|[Bool](../types/Bool.md) | Stop live location | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat | Optional|
 |id|[int](../types/int.md) | The message ID | Yes|
 |message|[string](../types/string.md) | The new message | Optional|
@@ -22,7 +21,6 @@ Edit a message
 |reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | The new keyboard | Optional|
 |entities|Array of [MessageEntity](../types/MessageEntity.md) | The new entities (for styled text) | Optional|
 |parse\_mode| [string](../types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
-|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | The new location | Optional|
 
 
 ### Return type: [Updates](../types/Updates.md)
@@ -42,7 +40,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->editMessage(['no_webpage' => Bool, 'stop_geo_live' => Bool, 'peer' => InputPeer, 'id' => int, 'message' => 'string', 'media' => InputMedia, 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', 'geo_point' => InputGeoPoint, ]);
+$Updates = $MadelineProto->messages->editMessage(['no_webpage' => Bool, 'peer' => InputPeer, 'id' => int, 'message' => 'string', 'media' => InputMedia, 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -54,7 +52,7 @@ POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
 Parameters:
 
 * method - messages.editMessage
-* params - `{"no_webpage": Bool, "stop_geo_live": Bool, "peer": InputPeer, "id": int, "message": "string", "media": InputMedia, "reply_markup": ReplyMarkup, "entities": [MessageEntity], "parse_mode": "string""geo_point": InputGeoPoint, }`
+* params - `{"no_webpage": Bool, "peer": InputPeer, "id": int, "message": "string", "media": InputMedia, "reply_markup": ReplyMarkup, "entities": [MessageEntity], "parse_mode": "string"}`
 
 
 
@@ -65,15 +63,13 @@ POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.editMessage`
 Parameters:
 
 parse_mode - string
-geo_point - Json encoded InputGeoPoint
-
 
 
 
 Or, if you're into Lua:
 
 ```lua
-Updates = messages.editMessage({no_webpage=Bool, stop_geo_live=Bool, peer=InputPeer, id=int, message='string', media=InputMedia, reply_markup=ReplyMarkup, entities={MessageEntity}, parse_mode='string', geo_point=InputGeoPoint, })
+Updates = messages.editMessage({no_webpage=Bool, peer=InputPeer, id=int, message='string', media=InputMedia, reply_markup=ReplyMarkup, entities={MessageEntity}, parse_mode='string', })
 ```
 
 
@@ -97,7 +93,7 @@ Set parse_mode to Markdown to enable markown AND html parsing of the message.
 
 The following tags are currently supported:
 
-```
+```html
 <br>a newline
 <b><i>bold works ok, internal tags are stripped</i> </b>
 <strong>bold</strong>
@@ -113,7 +109,7 @@ The following tags are currently supported:
 
 You can also use normal markdown, note that to create mentions you must use the `mention:` syntax like in html:  
 
-```
+```markdown
 [Mention by username](mention:@danogentili)
 [Mention by user id](mention:186785362)
 ```

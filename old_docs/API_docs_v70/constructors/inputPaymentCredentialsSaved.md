@@ -1,6 +1,6 @@
 ---
 title: inputPaymentCredentialsSaved
-description: inputPaymentCredentialsSaved attributes, type and example
+description: Payment credentials saved
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPaymentCredentialsSaved  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Payment credentials saved
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[string](../types/string.md) | Yes|
-|tmp\_password|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[string](../types/string.md) | Yes|ID|
+|tmp\_password|[bytes](../types/bytes.md) | Yes|Tmp password|
 
 
 

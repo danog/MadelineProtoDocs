@@ -1,6 +1,6 @@
 ---
 title: messageActionChatDeleteUser
-description: messageActionChatDeleteUser attributes, type and example
+description: Message action chat delete user
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChatDeleteUser  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message action chat delete user
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|user\_id|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|user\_id|[int](../types/int.md) | Yes|User ID|
 
 
 

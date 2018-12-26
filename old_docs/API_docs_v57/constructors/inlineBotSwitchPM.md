@@ -1,6 +1,6 @@
 ---
 title: inlineBotSwitchPM
-description: inlineBotSwitchPM attributes, type and example
+description: Inline bot switch pm
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inlineBotSwitchPM  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Inline bot switch pm
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|text|[string](../types/string.md) | Yes|
-|start\_param|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|text|[string](../types/string.md) | Yes|Text|
+|start\_param|[string](../types/string.md) | Yes|Start param|
 
 
 

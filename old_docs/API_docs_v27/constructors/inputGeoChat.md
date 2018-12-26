@@ -1,6 +1,6 @@
 ---
 title: inputGeoChat
-description: inputGeoChat attributes, type and example
+description: Geo chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputGeoChat  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Geo chat
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chat\_id|[int](../types/int.md) | Yes|
-|access\_hash|[long](../types/long.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|chat\_id|[int](../types/int.md) | Yes|Chat ID|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
 
 
 

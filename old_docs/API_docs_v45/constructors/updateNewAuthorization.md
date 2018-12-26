@@ -1,6 +1,6 @@
 ---
 title: updateNewAuthorization
-description: updateNewAuthorization attributes, type and example
+description: Update new authorization
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateNewAuthorization  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update new authorization
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|auth\_key\_id|[long](../types/long.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|device|[string](../types/string.md) | Yes|
-|location|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|auth\_key\_id|[long](../types/long.md) | Yes|Auth key ID|
+|date|[int](../types/int.md) | Yes|Date|
+|device|[string](../types/string.md) | Yes|Device|
+|location|[string](../types/string.md) | Yes|Location|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: dialog
-description: dialog attributes, type and example
+description: Dialog
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: dialog  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Dialog
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Peer](../types/Peer.md) | Yes|
-|top\_message|[int](../types/int.md) | Yes|
-|unread\_count|[int](../types/int.md) | Yes|
-|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[Peer](../types/Peer.md) | Yes|Peer|
+|top\_message|[int](../types/int.md) | Yes|Top message|
+|unread\_count|[int](../types/int.md) | Yes|Unread count|
+|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|Notify settings|
 
 
 

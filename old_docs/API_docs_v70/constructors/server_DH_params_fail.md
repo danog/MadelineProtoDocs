@@ -1,6 +1,6 @@
 ---
 title: server_DH_params_fail
-description: server_DH_params_fail attributes, type and example
+description: Server params fail
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: server\_DH\_params\_fail  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Server params fail
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|nonce|[int128](../types/int128.md) | Yes|
-|server\_nonce|[int128](../types/int128.md) | Yes|
-|new\_nonce\_hash|[int128](../types/int128.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|nonce|[int128](../types/int128.md) | Yes|Random number for cryptographic security|
+|server\_nonce|[int128](../types/int128.md) | Yes|Random number for cryptographic security, given by server|
+|new\_nonce\_hash|[int128](../types/int128.md) | Yes|New nonce hash|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: updateEncryption
-description: updateEncryption attributes, type and example
+description: Update encryption
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateEncryption  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update encryption
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chat|[EncryptedChat](../types/EncryptedChat.md) | Optional|
-|date|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|chat|[EncryptedChat](../types/EncryptedChat.md) | Optional|Chat|
+|date|[int](../types/int.md) | Yes|Date|
 
 
 

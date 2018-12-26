@@ -1,6 +1,6 @@
 ---
 title: account.authorizations
-description: account_authorizations attributes, type and example
+description: Authorized clients for this account
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: account.authorizations  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Authorized clients for this account
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|authorizations|Array of [Authorization](../types/Authorization.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|authorizations|Array of [Authorization](../types/Authorization.md) | Yes|Authorizations|
 
 
 

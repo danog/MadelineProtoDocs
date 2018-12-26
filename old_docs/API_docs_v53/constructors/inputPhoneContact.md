@@ -1,6 +1,6 @@
 ---
 title: inputPhoneContact
-description: inputPhoneContact attributes, type and example
+description: Phone contact
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPhoneContact  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Phone contact
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|client\_id|[long](../types/long.md) | Yes|
-|phone|[string](../types/string.md) | Yes|
-|first\_name|[string](../types/string.md) | Yes|
-|last\_name|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|client\_id|[long](../types/long.md) | Yes|Client ID|
+|phone|[string](../types/string.md) | Yes|Phone|
+|first\_name|[string](../types/string.md) | Yes|First name|
+|last\_name|[string](../types/string.md) | Yes|Last name|
 
 
 

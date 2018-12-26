@@ -1,6 +1,6 @@
 ---
 title: channels.adminLogResults
-description: channels_adminLogResults attributes, type and example
+description: Admin log results
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channels.adminLogResults  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Admin log results
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|events|Array of [ChannelAdminLogEvent](../types/ChannelAdminLogEvent.md) | Yes|
-|chats|Array of [Chat](../types/Chat.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|events|Array of [ChannelAdminLogEvent](../types/ChannelAdminLogEvent.md) | Yes|Events|
+|chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
+|users|Array of [User](../types/User.md) | Yes|Users|
 
 
 

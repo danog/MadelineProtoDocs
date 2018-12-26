@@ -1,12 +1,14 @@
 ---
 title: inputPeerNotifyEventsEmpty
-description: inputPeerNotifyEventsEmpty attributes, type and example
+description: Empty input peer notify events
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPeerNotifyEventsEmpty  
 [Back to constructors index](index.md)
 
 
+
+Empty input peer notify events
 
 
 

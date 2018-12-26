@@ -1,6 +1,6 @@
 ---
 title: chatLocated
-description: chatLocated attributes, type and example
+description: Chat located
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatLocated  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Chat located
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chat\_id|[int](../types/int.md) | Yes|
-|distance|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|chat\_id|[int](../types/int.md) | Yes|Chat ID|
+|distance|[int](../types/int.md) | Yes|Distance|
 
 
 

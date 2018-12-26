@@ -1,6 +1,6 @@
 ---
 title: inputMediaUploadedDocument
-description: inputMediaUploadedDocument attributes, type and example
+description: Media uploaded document
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaUploadedDocument  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Media uploaded document
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|file|[File path or InputFile](../types/InputFile.md) | Yes|
-|mime\_type|[string](../types/string.md) | Optional|
-|attributes|Array of [DocumentAttribute](../types/DocumentAttribute.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|file|[File path or InputFile](../types/InputFile.md) | Yes|File|
+|mime\_type|[string](../types/string.md) | Optional|Mime type|
+|attributes|Array of [DocumentAttribute](../types/DocumentAttribute.md) | Yes|Attributes|
 
 
 

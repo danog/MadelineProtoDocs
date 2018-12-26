@@ -1,6 +1,6 @@
 ---
 title: bad_server_salt
-description: bad_server_salt attributes, type and example
+description: Bad server salt
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: bad\_server\_salt  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Bad server salt
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|bad\_msg\_id|[long](../types/long.md) | Yes|
-|bad\_msg\_seqno|[int](../types/int.md) | Yes|
-|error\_code|[int](../types/int.md) | Yes|
-|new\_server\_salt|[long](../types/long.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|bad\_msg\_id|[long](../types/long.md) | Yes|Bad msg ID|
+|bad\_msg\_seqno|[int](../types/int.md) | Yes|Bad msg seqno|
+|error\_code|[int](../types/int.md) | Yes|Error code|
+|new\_server\_salt|[long](../types/long.md) | Yes|New server salt|
 
 
 

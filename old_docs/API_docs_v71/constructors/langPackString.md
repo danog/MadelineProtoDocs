@@ -1,6 +1,6 @@
 ---
 title: langPackString
-description: langPackString attributes, type and example
+description: Lang pack string
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: langPackString  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Lang pack string
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|key|[string](../types/string.md) | Yes|
-|value|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|key|[string](../types/string.md) | Yes|Key|
+|value|[string](../types/string.md) | Yes|Value|
 
 
 

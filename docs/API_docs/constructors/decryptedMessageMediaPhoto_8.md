@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageMediaPhoto
-description: decryptedMessageMediaPhoto attributes, type and example
+description: Decrypted message media photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaPhoto\_8  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Decrypted message media photo
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|thumb|[bytes](../types/bytes.md) | Yes|
-|thumb\_w|[int](../types/int.md) | Yes|
-|thumb\_h|[int](../types/int.md) | Yes|
-|w|[int](../types/int.md) | Yes|
-|h|[int](../types/int.md) | Yes|
-|size|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|thumb|[bytes](../types/bytes.md) | Yes|Thumbnail|
+|thumb\_w|[int](../types/int.md) | Yes|Thumbnail width|
+|thumb\_h|[int](../types/int.md) | Yes|Thumbnail height|
+|w|[int](../types/int.md) | Yes|Width|
+|h|[int](../types/int.md) | Yes|Height|
+|size|[int](../types/int.md) | Yes|Size|
 
 
 

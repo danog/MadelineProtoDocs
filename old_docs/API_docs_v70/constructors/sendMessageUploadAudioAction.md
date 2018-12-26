@@ -1,6 +1,6 @@
 ---
 title: sendMessageUploadAudioAction
-description: sendMessageUploadAudioAction attributes, type and example
+description: Send message upload audio action
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageUploadAudioAction  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Send message upload audio action
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|progress|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|progress|[int](../types/int.md) | Yes|Progress|
 
 
 

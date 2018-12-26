@@ -1,6 +1,6 @@
 ---
 title: messageMediaPhoto
-description: messageMediaPhoto attributes, type and example
+description: Message media photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaPhoto  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message media photo
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|photo|[Photo](../types/Photo.md) | Optional|
-|caption|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|photo|[Photo](../types/Photo.md) | Optional|Photo|
+|caption|[string](../types/string.md) | Yes|Caption|
 
 
 

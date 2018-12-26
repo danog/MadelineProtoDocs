@@ -1,6 +1,6 @@
 ---
 title: encryptedChatDiscarded
-description: encryptedChatDiscarded attributes, type and example
+description: Encrypted chat discarded
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: encryptedChatDiscarded  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Encrypted chat discarded
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](../types/int.md) | Yes|ID|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: updateShortMessage
-description: updateShortMessage attributes, type and example
+description: Update short message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateShortMessage  
@@ -8,20 +8,22 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update short message
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](../types/int.md) | Yes|
-|user\_id|[int](../types/int.md) | Yes|
-|message|[string](../types/string.md) | Yes|
-|pts|[int](../types/int.md) | Yes|
-|pts\_count|[int](../types/int.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|fwd\_from\_id|[Peer](../types/Peer.md) | Optional|
-|fwd\_date|[int](../types/int.md) | Optional|
-|reply\_to\_msg\_id|[int](../types/int.md) | Optional|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](../types/int.md) | Yes|ID|
+|user\_id|[int](../types/int.md) | Yes|User ID|
+|message|[string](../types/string.md) | Yes|Message|
+|pts|[int](../types/int.md) | Yes|Pts|
+|pts\_count|[int](../types/int.md) | Yes|Pts count|
+|date|[int](../types/int.md) | Yes|Date|
+|fwd\_from\_id|[Peer](../types/Peer.md) | Optional|Fwd from ID|
+|fwd\_date|[int](../types/int.md) | Optional|Fwd date|
+|reply\_to\_msg\_id|[int](../types/int.md) | Optional|Reply to msg ID|
+|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|Entities|
 
 
 

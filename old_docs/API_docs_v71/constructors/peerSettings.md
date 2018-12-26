@@ -1,6 +1,6 @@
 ---
 title: peerSettings
-description: peerSettings attributes, type and example
+description: Peer settings
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: peerSettings  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Peer settings
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|report\_spam|[Bool](../types/Bool.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|report\_spam|[Bool](../types/Bool.md) | Optional|Report spam?|
 
 
 

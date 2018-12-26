@@ -1,6 +1,6 @@
 ---
 title: phoneCallProtocol
-description: phoneCallProtocol attributes, type and example
+description: Phone call protocol
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneCallProtocol  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Phone call protocol
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|udp\_p2p|[Bool](../types/Bool.md) | Optional|
-|udp\_reflector|[Bool](../types/Bool.md) | Optional|
-|min\_layer|[int](../types/int.md) | Yes|
-|max\_layer|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|udp\_p2p|[Bool](../types/Bool.md) | Optional|Udp p2p?|
+|udp\_reflector|[Bool](../types/Bool.md) | Optional|Udp reflector?|
+|min\_layer|[int](../types/int.md) | Yes|Min layer|
+|max\_layer|[int](../types/int.md) | Yes|Max layer|
 
 
 

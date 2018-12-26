@@ -1,6 +1,6 @@
 ---
 title: messageActionPaymentSent
-description: messageActionPaymentSent attributes, type and example
+description: Message action payment sent
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionPaymentSent  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message action payment sent
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|currency|[string](../types/string.md) | Yes|
-|total\_amount|[long](../types/long.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|currency|[string](../types/string.md) | Yes|Currency|
+|total\_amount|[long](../types/long.md) | Yes|Total amount|
 
 
 

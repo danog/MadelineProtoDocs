@@ -1,6 +1,6 @@
 ---
 title: photoCachedSize
-description: photoCachedSize attributes, type and example
+description: Photo cached size
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: photoCachedSize  
@@ -8,15 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Photo cached size
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|type|[string](../types/string.md) | Yes|
-|location|[FileLocation](../types/FileLocation.md) | Yes|
-|w|[int](../types/int.md) | Yes|
-|h|[int](../types/int.md) | Yes|
-|bytes|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|type|[string](../types/string.md) | Yes|Type|
+|location|[FileLocation](../types/FileLocation.md) | Yes|Location|
+|w|[int](../types/int.md) | Yes|Width|
+|h|[int](../types/int.md) | Yes|Height|
+|bytes|[bytes](../types/bytes.md) | Yes|Bytes|
 
 
 

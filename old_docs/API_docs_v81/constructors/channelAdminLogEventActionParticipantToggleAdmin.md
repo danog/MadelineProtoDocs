@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionParticipantToggleAdmin
-description: channelAdminLogEventActionParticipantToggleAdmin attributes, type and example
+description: Admin toggled
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionParticipantToggleAdmin  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Admin toggled
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|prev\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Yes|
-|new\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|prev\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Yes|Prev participant|
+|new\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Yes|New participant|
 
 
 

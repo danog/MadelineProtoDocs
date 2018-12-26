@@ -1,6 +1,6 @@
 ---
 title: fileHash
-description: fileHash attributes, type and example
+description: File hash
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: fileHash  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+File hash
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|offset|[int](../types/int.md) | Yes|
-|limit|[int](../types/int.md) | Yes|
-|hash|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|offset|[int](../types/int.md) | Yes|Offset|
+|limit|[int](../types/int.md) | Yes|Limit|
+|hash|[bytes](../types/bytes.md) | Yes|Hash|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: updateBotWebhookJSONQuery
-description: updateBotWebhookJSONQuery attributes, type and example
+description: Update bot webhook json query
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotWebhookJSONQuery  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update bot webhook json query
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|query\_id|[long](../types/long.md) | Yes|
-|data|[DataJSON](../types/DataJSON.md) | Yes|
-|timeout|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|query\_id|[long](../types/long.md) | Yes|Query ID|
+|data|[DataJSON](../types/DataJSON.md) | Yes|Data|
+|timeout|[int](../types/int.md) | Yes|Timeout|
 
 
 

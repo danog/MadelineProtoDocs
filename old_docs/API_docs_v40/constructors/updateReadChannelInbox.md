@@ -1,6 +1,6 @@
 ---
 title: updateReadChannelInbox
-description: updateReadChannelInbox attributes, type and example
+description: Update read channel inbox
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateReadChannelInbox  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update read channel inbox
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Peer](../types/Peer.md) | Yes|
-|max\_id|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[Peer](../types/Peer.md) | Yes|Peer|
+|max\_id|[int](../types/int.md) | Yes|Max ID|
 
 
 

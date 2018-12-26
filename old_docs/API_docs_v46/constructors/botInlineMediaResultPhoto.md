@@ -1,6 +1,6 @@
 ---
 title: botInlineMediaResultPhoto
-description: botInlineMediaResultPhoto attributes, type and example
+description: Bot inline media result photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: botInlineMediaResultPhoto  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Bot inline media result photo
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[string](../types/string.md) | Yes|
-|type|[string](../types/string.md) | Yes|
-|photo|[Photo](../types/Photo.md) | Optional|
-|send\_message|[BotInlineMessage](../types/BotInlineMessage.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[string](../types/string.md) | Yes|ID|
+|type|[string](../types/string.md) | Yes|Type|
+|photo|[Photo](../types/Photo.md) | Optional|Photo|
+|send\_message|[BotInlineMessage](../types/BotInlineMessage.md) | Yes|Send message|
 
 
 

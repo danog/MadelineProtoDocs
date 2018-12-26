@@ -13,9 +13,9 @@ Gets list of chats: you should use $MadelineProto->get_dialogs() instead: https:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|offset\_date|[int](../types/int.md) | end($res['messages'])['date']; | Yes|
-|offset\_id|[int](../types/int.md) | end($res['messages'])['id']; | Yes|
-|offset\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | end($res['dialogs'])['peer']; | Optional|
+|offset\_date|[int](../types/int.md) | End($res['messages'])['date']; | Yes|
+|offset\_id|[int](../types/int.md) | End($res['messages'])['id']; | Yes|
+|offset\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | End($res['dialogs'])['peer']; | Optional|
 |limit|[int](../types/int.md) | Number of dialogs to fetch | Yes|
 
 

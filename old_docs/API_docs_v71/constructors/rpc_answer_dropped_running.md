@@ -1,12 +1,14 @@
 ---
 title: rpc_answer_dropped_running
-description: rpc_answer_dropped_running attributes, type and example
+description: Rpc answer dropped running
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: rpc\_answer\_dropped\_running  
 [Back to constructors index](index.md)
 
 
+
+Rpc answer dropped running
 
 
 

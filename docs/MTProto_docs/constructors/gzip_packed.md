@@ -1,6 +1,6 @@
 ---
 title: gzip_packed
-description: gzip_packed attributes, type and example
+description: Gzip packed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: gzip\_packed  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Gzip packed
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|packed\_data|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|packed\_data|[bytes](../types/bytes.md) | Yes|Packed data|
 
 
 

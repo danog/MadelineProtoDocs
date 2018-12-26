@@ -1,6 +1,6 @@
 ---
 title: contacts.topPeers
-description: contacts_topPeers attributes, type and example
+description: Top peers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: contacts.topPeers  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Top peers
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|categories|Array of [TopPeerCategoryPeers](../types/TopPeerCategoryPeers.md) | Yes|
-|chats|Array of [Chat](../types/Chat.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|categories|Array of [TopPeerCategoryPeers](../types/TopPeerCategoryPeers.md) | Yes|Categories|
+|chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
+|users|Array of [User](../types/User.md) | Yes|Users|
 
 
 

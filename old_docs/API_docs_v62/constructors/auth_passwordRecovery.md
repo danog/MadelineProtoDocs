@@ -1,6 +1,6 @@
 ---
 title: auth.passwordRecovery
-description: auth_passwordRecovery attributes, type and example
+description: Password recovery
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: auth.passwordRecovery  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Password recovery
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|email\_pattern|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|email\_pattern|[string](../types/string.md) | Yes|Email pattern|
 
 
 

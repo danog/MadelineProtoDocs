@@ -1,6 +1,6 @@
 ---
 title: messageMediaDocument
-description: messageMediaDocument attributes, type and example
+description: Message media document
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaDocument  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message media document
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|document|[Document](../types/Document.md) | Optional|
-|caption|[string](../types/string.md) | Optional|
-|ttl\_seconds|[int](../types/int.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|document|[Document](../types/Document.md) | Optional|Document|
+|caption|[string](../types/string.md) | Optional|Caption|
+|ttl\_seconds|[int](../types/int.md) | Optional|Ttl seconds|
 
 
 

@@ -1,12 +1,14 @@
 ---
 title: channelMessagesFilterCollapsed
-description: channelMessagesFilterCollapsed attributes, type and example
+description: Channel messages filter collapsed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelMessagesFilterCollapsed  
 [Back to constructors index](index.md)
 
 
+
+Channel messages filter collapsed
 
 
 

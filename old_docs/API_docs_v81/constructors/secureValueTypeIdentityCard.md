@@ -1,12 +1,14 @@
 ---
 title: secureValueTypeIdentityCard
-description: secureValueTypeIdentityCard attributes, type and example
+description: Secure value type IDentity card
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueTypeIdentityCard  
 [Back to constructors index](index.md)
 
 
+
+Secure value type IDentity card
 
 
 

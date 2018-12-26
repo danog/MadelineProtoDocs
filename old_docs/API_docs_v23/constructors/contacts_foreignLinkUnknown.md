@@ -1,12 +1,14 @@
 ---
 title: contacts.foreignLinkUnknown
-description: contacts_foreignLinkUnknown attributes, type and example
+description: Foreign link unknown
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: contacts.foreignLinkUnknown  
 [Back to constructors index](index.md)
 
 
+
+Foreign link unknown
 
 
 

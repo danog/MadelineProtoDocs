@@ -28,6 +28,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
+[$MadelineProto->account->getNotifyExceptions](../methods/account_getNotifyExceptions.md)  
+
 [$MadelineProto->messages->sendMessage](../methods/messages_sendMessage.md)  
 
 [$MadelineProto->messages->sendMedia](../methods/messages_sendMedia.md)  
@@ -64,6 +66,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->messages->sendMultiMedia](../methods/messages_sendMultiMedia.md)  
 
+[$MadelineProto->messages->updatePinnedMessage](../methods/messages_updatePinnedMessage.md)  
+
+[$MadelineProto->messages->sendVote](../methods/messages_sendVote.md)  
+
+[$MadelineProto->messages->getPollResults](../methods/messages_getPollResults.md)  
+
 [$MadelineProto->help->getAppChangelog](../methods/help_getAppChangelog.md)  
 
 [$MadelineProto->channels->createChannel](../methods/channels_createChannel.md)  
@@ -85,8 +93,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [$MadelineProto->channels->toggleInvites](../methods/channels_toggleInvites.md)  
 
 [$MadelineProto->channels->toggleSignatures](../methods/channels_toggleSignatures.md)  
-
-[$MadelineProto->channels->updatePinnedMessage](../methods/channels_updatePinnedMessage.md)  
 
 [$MadelineProto->channels->editBanned](../methods/channels_editBanned.md)  
 

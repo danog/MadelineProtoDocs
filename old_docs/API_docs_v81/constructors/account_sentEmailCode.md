@@ -1,6 +1,6 @@
 ---
 title: account.sentEmailCode
-description: account_sentEmailCode attributes, type and example
+description: Sent email code
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: account.sentEmailCode  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Sent email code
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|email\_pattern|[string](../types/string.md) | Yes|
-|length|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|email\_pattern|[string](../types/string.md) | Yes|Email pattern|
+|length|[int](../types/int.md) | Yes|Length|
 
 
 

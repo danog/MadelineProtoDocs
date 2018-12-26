@@ -1,6 +1,6 @@
 ---
 title: updateDialogPinned
-description: updateDialogPinned attributes, type and example
+description: Update dialog pinned
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateDialogPinned  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update dialog pinned
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|pinned|[Bool](../types/Bool.md) | Optional|
-|peer|[Peer](../types/Peer.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|pinned|[Bool](../types/Bool.md) | Optional|Pinned?|
+|peer|[Peer](../types/Peer.md) | Yes|Peer|
 
 
 

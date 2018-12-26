@@ -1,6 +1,6 @@
 ---
 title: messageActionPhoneCall
-description: messageActionPhoneCall attributes, type and example
+description: Message action phone call
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionPhoneCall  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message action phone call
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|call\_id|[long](../types/long.md) | Yes|
-|reason|[PhoneCallDiscardReason](../types/PhoneCallDiscardReason.md) | Optional|
-|duration|[int](../types/int.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|call\_id|[long](../types/long.md) | Yes|Call ID|
+|reason|[PhoneCallDiscardReason](../types/PhoneCallDiscardReason.md) | Optional|Reason|
+|duration|[int](../types/int.md) | Optional|Duration|
 
 
 

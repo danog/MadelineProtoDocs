@@ -1,6 +1,6 @@
 ---
 title: payments.paymentReceipt
-description: payments_paymentReceipt attributes, type and example
+description: Payment receipt
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: payments.paymentReceipt  
@@ -8,20 +8,22 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Payment receipt
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|date|[int](../types/int.md) | Yes|
-|bot\_id|[int](../types/int.md) | Yes|
-|invoice|[Invoice](../types/Invoice.md) | Yes|
-|provider\_id|[int](../types/int.md) | Yes|
-|info|[PaymentRequestedInfo](../types/PaymentRequestedInfo.md) | Optional|
-|shipping|[ShippingOption](../types/ShippingOption.md) | Optional|
-|currency|[string](../types/string.md) | Yes|
-|total\_amount|[long](../types/long.md) | Yes|
-|credentials\_title|[string](../types/string.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|date|[int](../types/int.md) | Yes|Date|
+|bot\_id|[int](../types/int.md) | Yes|Bot ID|
+|invoice|[Invoice](../types/Invoice.md) | Yes|Invoice|
+|provider\_id|[int](../types/int.md) | Yes|Provider ID|
+|info|[PaymentRequestedInfo](../types/PaymentRequestedInfo.md) | Optional|Info|
+|shipping|[ShippingOption](../types/ShippingOption.md) | Optional|Shipping|
+|currency|[string](../types/string.md) | Yes|Currency|
+|total\_amount|[long](../types/long.md) | Yes|Total amount|
+|credentials\_title|[string](../types/string.md) | Yes|Credentials title|
+|users|Array of [User](../types/User.md) | Yes|Users|
 
 
 

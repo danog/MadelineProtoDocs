@@ -1,12 +1,14 @@
 ---
 title: topPeerCategoryChannels
-description: topPeerCategoryChannels attributes, type and example
+description: Top peer category channels
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: topPeerCategoryChannels  
 [Back to constructors index](index.md)
 
 
+
+Top peer category channels
 
 
 

@@ -38,6 +38,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="ping_delay_disconnect.html" name="ping_delay_disconnect">Pings the server and causes disconection if the same method is not called within ping_disconnect_delay: ping_delay_disconnect</a>  
 
+* <a href="ping.html" name="ping">Pings the server: ping</a>  
+
 * <a href="req_DH_params.html" name="req_DH_params">Requests Diffie-hellman parameters for key exchange: req_DH_params</a>  
 
 * <a href="req_pq_multi.html" name="req_pq_multi">Requests PQ for factorization (new version): req_pq_multi</a>  
@@ -45,6 +47,4 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="req_pq.html" name="req_pq">Requests PQ for factorization: req_pq</a>  
 
 * <a href="set_client_DH_params.html" name="set_client_DH_params">Sets client diffie-hellman parameters: set_client_DH_params</a>  
-
-* <a href="ping.html" name="ping">pings the server: ping</a>  
 

@@ -1,12 +1,14 @@
 ---
 title: webPageNotModified
-description: webPageNotModified attributes, type and example
+description: Web page not modified
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: webPageNotModified  
 [Back to constructors index](index.md)
 
 
+
+Web page not modified
 
 
 

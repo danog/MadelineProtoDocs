@@ -1,6 +1,6 @@
 ---
 title: help.appChangelog
-description: help_appChangelog attributes, type and example
+description: App changelog
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.appChangelog  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+App changelog
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|message|[string](../types/string.md) | Yes|
-|media|[MessageMedia](../types/MessageMedia.md) | Optional|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|message|[string](../types/string.md) | Yes|Message|
+|media|[MessageMedia](../types/MessageMedia.md) | Optional|Media|
+|entities|Array of [MessageEntity](../types/MessageEntity.md) | Yes|Entities|
 
 
 

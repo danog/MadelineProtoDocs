@@ -1,12 +1,14 @@
 ---
 title: secureValueTypeAddress
-description: secureValueTypeAddress attributes, type and example
+description: Secure value type address
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueTypeAddress  
 [Back to constructors index](index.md)
 
 
+
+Secure value type address
 
 
 

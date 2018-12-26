@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventsFilter
-description: channelAdminLogEventsFilter attributes, type and example
+description: Event filter
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventsFilter  
@@ -8,24 +8,26 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Event filter
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|join|[Bool](../types/Bool.md) | Optional|
-|leave|[Bool](../types/Bool.md) | Optional|
-|invite|[Bool](../types/Bool.md) | Optional|
-|ban|[Bool](../types/Bool.md) | Optional|
-|unban|[Bool](../types/Bool.md) | Optional|
-|kick|[Bool](../types/Bool.md) | Optional|
-|unkick|[Bool](../types/Bool.md) | Optional|
-|promote|[Bool](../types/Bool.md) | Optional|
-|demote|[Bool](../types/Bool.md) | Optional|
-|info|[Bool](../types/Bool.md) | Optional|
-|settings|[Bool](../types/Bool.md) | Optional|
-|pinned|[Bool](../types/Bool.md) | Optional|
-|edit|[Bool](../types/Bool.md) | Optional|
-|delete|[Bool](../types/Bool.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|join|[Bool](../types/Bool.md) | Optional|Join users events|
+|leave|[Bool](../types/Bool.md) | Optional|Left users events|
+|invite|[Bool](../types/Bool.md) | Optional|Invite users events|
+|ban|[Bool](../types/Bool.md) | Optional|Ban events|
+|unban|[Bool](../types/Bool.md) | Optional|Unban events|
+|kick|[Bool](../types/Bool.md) | Optional|Kicked users events|
+|unkick|[Bool](../types/Bool.md) | Optional|Unkick events|
+|promote|[Bool](../types/Bool.md) | Optional|Admin promotion events|
+|demote|[Bool](../types/Bool.md) | Optional|Demote admin events|
+|info|[Bool](../types/Bool.md) | Optional|Change info events|
+|settings|[Bool](../types/Bool.md) | Optional|Setting changes|
+|pinned|[Bool](../types/Bool.md) | Optional|Pinned message events|
+|edit|[Bool](../types/Bool.md) | Optional|Edit message events|
+|delete|[Bool](../types/Bool.md) | Optional|Delete message events|
 
 
 

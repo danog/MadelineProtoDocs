@@ -1,6 +1,6 @@
 ---
 title: messageActionChatAddUser
-description: messageActionChatAddUser attributes, type and example
+description: Message action chat add user
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChatAddUser  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message action chat add user
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|users|Array of [int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|users|Array of [int](../types/int.md) | Yes|Users|
 
 
 

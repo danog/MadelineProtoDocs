@@ -1,6 +1,6 @@
 ---
 title: help.proxyDataEmpty
-description: help_proxyDataEmpty attributes, type and example
+description: Empty proxy data
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.proxyDataEmpty  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Empty proxy data
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|expires|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|expires|[int](../types/int.md) | Yes|Expires|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageActionResend
-description: decryptedMessageActionResend attributes, type and example
+description: Decrypted message action resend
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionResend\_17  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Decrypted message action resend
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|start\_seq\_no|[int](../types/int.md) | Yes|
-|end\_seq\_no|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|start\_seq\_no|[int](../types/int.md) | Yes|Start seq no|
+|end\_seq\_no|[int](../types/int.md) | Yes|End seq no|
 
 
 

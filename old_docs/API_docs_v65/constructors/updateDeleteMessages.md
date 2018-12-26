@@ -1,6 +1,6 @@
 ---
 title: updateDeleteMessages
-description: updateDeleteMessages attributes, type and example
+description: Update delete messages
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateDeleteMessages  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update delete messages
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|messages|Array of [int](../types/int.md) | Yes|
-|pts|[int](../types/int.md) | Yes|
-|pts\_count|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|messages|Array of [int](../types/int.md) | Yes|Messages|
+|pts|[int](../types/int.md) | Yes|Pts|
+|pts\_count|[int](../types/int.md) | Yes|Pts count|
 
 
 

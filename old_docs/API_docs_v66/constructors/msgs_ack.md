@@ -1,6 +1,6 @@
 ---
 title: msgs_ack
-description: msgs_ack attributes, type and example
+description: Msgs ack
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: msgs\_ack  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Msgs ack
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|msg\_ids|Array of [long](../types/long.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|msg\_ids|Array of [long](../types/long.md) | Yes|Msg IDs|
 
 
 

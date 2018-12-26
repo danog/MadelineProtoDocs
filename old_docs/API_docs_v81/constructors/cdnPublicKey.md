@@ -1,6 +1,6 @@
 ---
 title: cdnPublicKey
-description: cdnPublicKey attributes, type and example
+description: Cdn public key
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: cdnPublicKey  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Cdn public key
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|dc\_id|[int](../types/int.md) | Yes|
-|public\_key|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|dc\_id|[int](../types/int.md) | Yes|DC ID|
+|public\_key|[string](../types/string.md) | Yes|Public key|
 
 
 

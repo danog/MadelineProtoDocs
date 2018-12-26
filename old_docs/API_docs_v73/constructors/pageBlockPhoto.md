@@ -1,6 +1,6 @@
 ---
 title: pageBlockPhoto
-description: pageBlockPhoto attributes, type and example
+description: Page block photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockPhoto  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Page block photo
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|photo\_id|[long](../types/long.md) | Yes|
-|caption|[RichText](../types/RichText.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|photo\_id|[long](../types/long.md) | Yes|Photo ID|
+|caption|[RichText](../types/RichText.md) | Yes|Caption|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: decryptedMessage
-description: decryptedMessage attributes, type and example
+description: Decrypted message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessage\_45  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Decrypted message
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|ttl|[int](../types/int.md) | Yes|
-|message|[string](../types/string.md) | Yes|
-|media|[DecryptedMessageMedia](../types/DecryptedMessageMedia.md) | Optional|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|
-|via\_bot\_name|[string](../types/string.md) | Optional|
-|reply\_to\_random\_id|[long](../types/long.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|ttl|[int](../types/int.md) | Yes|Ttl|
+|message|[string](../types/string.md) | Yes|Message|
+|media|[DecryptedMessageMedia](../types/DecryptedMessageMedia.md) | Optional|Media|
+|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|Entities|
+|via\_bot\_name|[string](../types/string.md) | Optional|Via bot name|
+|reply\_to\_random\_id|[long](../types/long.md) | Optional|Reply to random ID|
 
 
 

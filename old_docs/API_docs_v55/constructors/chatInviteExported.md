@@ -1,6 +1,6 @@
 ---
 title: chatInviteExported
-description: chatInviteExported attributes, type and example
+description: Exported chat invite
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatInviteExported  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Exported chat invite
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|link|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|link|[string](../types/string.md) | Yes|Link|
 
 
 

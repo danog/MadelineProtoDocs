@@ -1,12 +1,14 @@
 ---
 title: inputPeerEmpty
-description: inputPeerEmpty attributes, type and example
+description: Empty input peer
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPeerEmpty  
 [Back to constructors index](index.md)
 
 
+
+Empty input peer
 
 
 

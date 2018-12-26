@@ -1,6 +1,6 @@
 ---
 title: pageBlockEmbed
-description: pageBlockEmbed attributes, type and example
+description: Page block embed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockEmbed  
@@ -8,18 +8,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Page block embed
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|full\_width|[Bool](../types/Bool.md) | Optional|
-|allow\_scrolling|[Bool](../types/Bool.md) | Optional|
-|url|[string](../types/string.md) | Optional|
-|html|[string](../types/string.md) | Optional|
-|poster\_photo\_id|[long](../types/long.md) | Optional|
-|w|[int](../types/int.md) | Yes|
-|h|[int](../types/int.md) | Yes|
-|caption|[RichText](../types/RichText.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|full\_width|[Bool](../types/Bool.md) | Optional|Full width?|
+|allow\_scrolling|[Bool](../types/Bool.md) | Optional|Allow scrolling?|
+|url|[string](../types/string.md) | Optional|URL|
+|html|[string](../types/string.md) | Optional|Html|
+|poster\_photo\_id|[long](../types/long.md) | Optional|Poster photo ID|
+|w|[int](../types/int.md) | Yes|Width|
+|h|[int](../types/int.md) | Yes|Height|
+|caption|[RichText](../types/RichText.md) | Yes|Caption|
 
 
 

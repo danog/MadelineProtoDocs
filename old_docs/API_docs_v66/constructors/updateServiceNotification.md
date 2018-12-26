@@ -1,6 +1,6 @@
 ---
 title: updateServiceNotification
-description: updateServiceNotification attributes, type and example
+description: Update service notification
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateServiceNotification  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update service notification
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|popup|[Bool](../types/Bool.md) | Optional|
-|inbox\_date|[int](../types/int.md) | Optional|
-|type|[string](../types/string.md) | Yes|
-|message|[string](../types/string.md) | Yes|
-|media|[MessageMedia](../types/MessageMedia.md) | Optional|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|popup|[Bool](../types/Bool.md) | Optional|Popup?|
+|inbox\_date|[int](../types/int.md) | Optional|Inbox date|
+|type|[string](../types/string.md) | Yes|Type|
+|message|[string](../types/string.md) | Yes|Message|
+|media|[MessageMedia](../types/MessageMedia.md) | Optional|Media|
+|entities|Array of [MessageEntity](../types/MessageEntity.md) | Yes|Entities|
 
 
 

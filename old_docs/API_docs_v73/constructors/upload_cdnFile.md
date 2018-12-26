@@ -1,6 +1,6 @@
 ---
 title: upload.cdnFile
-description: upload_cdnFile attributes, type and example
+description: Cdn file
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: upload.cdnFile  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Cdn file
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|bytes|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|bytes|[bytes](../types/bytes.md) | Yes|Bytes|
 
 
 

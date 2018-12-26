@@ -15,8 +15,8 @@ Requests Diffie-hellman parameters for key exchange
 |----------|---------------|-------------|----------|
 |nonce|[int128](../types/int128.md) | Random number for cryptographic security | Yes|
 |server\_nonce|[int128](../types/int128.md) | Random number for cryptographic security, given by server | Yes|
-|p|[string](../types/string.md) | factorized p from pq | Yes|
-|q|[string](../types/string.md) | factorized q from pq | Yes|
+|p|[string](../types/string.md) | Factorized p from pq | Yes|
+|q|[string](../types/string.md) | Factorized q from pq | Yes|
 |public\_key\_fingerprint|[long](../types/long.md) | Server RSA fingerprint | Yes|
 |encrypted\_data|[string](../types/string.md) | Encrypted message | Yes|
 

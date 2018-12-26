@@ -1,6 +1,6 @@
 ---
 title: channelParticipantCreator
-description: channelParticipantCreator attributes, type and example
+description: Channel participant creator
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantCreator  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Channel participant creator
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|user\_id|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|user\_id|[int](../types/int.md) | Yes|User ID|
 
 
 

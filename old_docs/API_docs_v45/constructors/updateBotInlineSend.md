@@ -1,6 +1,6 @@
 ---
 title: updateBotInlineSend
-description: updateBotInlineSend attributes, type and example
+description: Update bot inline send
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotInlineSend  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update bot inline send
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|user\_id|[int](../types/int.md) | Yes|
-|query|[string](../types/string.md) | Yes|
-|id|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|user\_id|[int](../types/int.md) | Yes|User ID|
+|query|[string](../types/string.md) | Yes|Query|
+|id|[string](../types/string.md) | Yes|ID|
 
 
 

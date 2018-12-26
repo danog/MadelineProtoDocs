@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionToggleInvites
-description: channelAdminLogEventActionToggleInvites attributes, type and example
+description: Invite setting toggled
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionToggleInvites  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Invite setting toggled
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|new\_value|[Bool](../types/Bool.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|new\_value|[Bool](../types/Bool.md) | Yes|New value|
 
 
 

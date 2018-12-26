@@ -1,12 +1,14 @@
 ---
 title: secureValueTypePersonalDetails
-description: secureValueTypePersonalDetails attributes, type and example
+description: Secure value type personal details
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueTypePersonalDetails  
 [Back to constructors index](index.md)
 
 
+
+Secure value type personal details
 
 
 

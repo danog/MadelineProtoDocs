@@ -1,6 +1,6 @@
 ---
 title: secureValueHash
-description: secureValueHash attributes, type and example
+description: Secure value hash
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueHash  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Secure value hash
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|type|[SecureValueType](../types/SecureValueType.md) | Yes|
-|hash|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|type|[SecureValueType](../types/SecureValueType.md) | Yes|Type|
+|hash|[bytes](../types/bytes.md) | Yes|Hash|
 
 
 

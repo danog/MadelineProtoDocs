@@ -1,6 +1,6 @@
 ---
 title: msg_resend_req
-description: msg_resend_req attributes, type and example
+description: Msg resend req
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: msg\_resend\_req  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Msg resend req
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|msg\_ids|Array of [long](../types/long.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|msg\_ids|Array of [long](../types/long.md) | Yes|Msg IDs|
 
 
 

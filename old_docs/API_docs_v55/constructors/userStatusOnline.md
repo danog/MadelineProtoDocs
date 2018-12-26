@@ -1,6 +1,6 @@
 ---
 title: userStatusOnline
-description: userStatusOnline attributes, type and example
+description: User status online
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userStatusOnline  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+User status online
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|expires|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|expires|[int](../types/int.md) | Yes|Expires|
 
 
 

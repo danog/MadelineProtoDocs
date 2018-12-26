@@ -1,6 +1,6 @@
 ---
 title: updateChannelWebPage
-description: updateChannelWebPage attributes, type and example
+description: Update channel web page
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelWebPage  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update channel web page
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel\_id|[int](../types/int.md) | Yes|
-|webpage|[WebPage](../types/WebPage.md) | Optional|
-|pts|[int](../types/int.md) | Yes|
-|pts\_count|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|channel\_id|[int](../types/int.md) | Yes|Channel ID|
+|webpage|[WebPage](../types/WebPage.md) | Optional|Webpage|
+|pts|[int](../types/int.md) | Yes|Pts|
+|pts\_count|[int](../types/int.md) | Yes|Pts count|
 
 
 

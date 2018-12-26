@@ -1,6 +1,6 @@
 ---
 title: phoneConnection
-description: phoneConnection attributes, type and example
+description: Phone connection
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneConnection  
@@ -8,15 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Phone connection
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[long](../types/long.md) | Yes|
-|ip|[string](../types/string.md) | Yes|
-|ipv6|[string](../types/string.md) | Yes|
-|port|[int](../types/int.md) | Yes|
-|peer\_tag|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[long](../types/long.md) | Yes|ID|
+|ip|[string](../types/string.md) | Yes|Ip|
+|ipv6|[string](../types/string.md) | Yes|Ipv6|
+|port|[int](../types/int.md) | Yes|Port|
+|peer\_tag|[bytes](../types/bytes.md) | Yes|Peer tag|
 
 
 

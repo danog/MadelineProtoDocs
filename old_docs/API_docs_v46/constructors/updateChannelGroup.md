@@ -1,6 +1,6 @@
 ---
 title: updateChannelGroup
-description: updateChannelGroup attributes, type and example
+description: Update channel group
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelGroup  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update channel group
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel\_id|[int](../types/int.md) | Yes|
-|group|[MessageGroup](../types/MessageGroup.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|channel\_id|[int](../types/int.md) | Yes|Channel ID|
+|group|[MessageGroup](../types/MessageGroup.md) | Yes|Group|
 
 
 

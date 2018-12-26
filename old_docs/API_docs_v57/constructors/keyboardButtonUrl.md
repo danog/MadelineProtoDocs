@@ -1,6 +1,6 @@
 ---
 title: keyboardButtonUrl
-description: keyboardButtonUrl attributes, type and example
+description: Keyboard button URL
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: keyboardButtonUrl  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Keyboard button URL
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|text|[string](../types/string.md) | Yes|
-|url|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|text|[string](../types/string.md) | Yes|Text|
+|url|[string](../types/string.md) | Yes|URL|
 
 
 

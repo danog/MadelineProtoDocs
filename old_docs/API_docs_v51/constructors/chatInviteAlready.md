@@ -1,6 +1,6 @@
 ---
 title: chatInviteAlready
-description: chatInviteAlready attributes, type and example
+description: Invite of a chat of which I am already member 
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatInviteAlready  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Invite of a chat of which I am already member 
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chat|[Chat](../types/Chat.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|chat|[Chat](../types/Chat.md) | Optional|Chat|
 
 
 

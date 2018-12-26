@@ -1,6 +1,6 @@
 ---
 title: messageMediaInvoice
-description: messageMediaInvoice attributes, type and example
+description: Message media invoice
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaInvoice  
@@ -8,19 +8,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message media invoice
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|shipping\_address\_requested|[Bool](../types/Bool.md) | Optional|
-|test|[Bool](../types/Bool.md) | Optional|
-|title|[string](../types/string.md) | Yes|
-|description|[string](../types/string.md) | Yes|
-|photo|[WebDocument](../types/WebDocument.md) | Optional|
-|receipt\_msg\_id|[int](../types/int.md) | Optional|
-|currency|[string](../types/string.md) | Yes|
-|total\_amount|[long](../types/long.md) | Yes|
-|start\_param|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|shipping\_address\_requested|[Bool](../types/Bool.md) | Optional|Shipping address requested?|
+|test|[Bool](../types/Bool.md) | Optional|Test?|
+|title|[string](../types/string.md) | Yes|Title|
+|description|[string](../types/string.md) | Yes|Description|
+|photo|[WebDocument](../types/WebDocument.md) | Optional|Photo|
+|receipt\_msg\_id|[int](../types/int.md) | Optional|Receipt msg ID|
+|currency|[string](../types/string.md) | Yes|Currency|
+|total\_amount|[long](../types/long.md) | Yes|Total amount|
+|start\_param|[string](../types/string.md) | Yes|Start param|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: dataJSON
-description: dataJSON attributes, type and example
+description: Data json
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: dataJSON  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Data json
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|data|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|data|[string](../types/string.md) | Yes|Data|
 
 
 

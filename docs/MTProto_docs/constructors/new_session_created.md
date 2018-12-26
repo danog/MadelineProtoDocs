@@ -1,6 +1,6 @@
 ---
 title: new_session_created
-description: new_session_created attributes, type and example
+description: New session created
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: new\_session\_created  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+New session created
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|first\_msg\_id|[long](../types/long.md) | Yes|
-|unique\_id|[long](../types/long.md) | Yes|
-|server\_salt|[long](../types/long.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|first\_msg\_id|[long](../types/long.md) | Yes|First msg ID|
+|unique\_id|[long](../types/long.md) | Yes|Unique ID|
+|server\_salt|[long](../types/long.md) | Yes|Server salt|
 
 
 

@@ -12,7 +12,7 @@ You can directly provide the [Update](Update.md) or [Message](Message.md) object
 
 The following syntaxes can also be used:
 
-```php
+```
 $User = '@username'; // Username
 
 $User = 'me'; // The currently logged-in user
@@ -49,8 +49,6 @@ A [Chat](Chat.md), a [User](User.md), an [InputPeer](InputPeer.md), an [InputDia
 [$MadelineProto->account->changePhone](../methods/account_changePhone.md)  
 
 [$MadelineProto->users->getUsers](../methods/users_getUsers.md)  
-
-[$MadelineProto->contacts->importCard](../methods/contacts_importCard.md)  
 
 
 

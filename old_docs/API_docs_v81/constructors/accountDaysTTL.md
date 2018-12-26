@@ -1,6 +1,6 @@
 ---
 title: accountDaysTTL
-description: accountDaysTTL attributes, type and example
+description: Account TTL in days
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: accountDaysTTL  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Account TTL in days
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|days|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|days|[int](../types/int.md) | Yes|Days|
 
 
 

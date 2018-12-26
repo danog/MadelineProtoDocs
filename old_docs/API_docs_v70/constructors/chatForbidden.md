@@ -1,6 +1,6 @@
 ---
 title: chatForbidden
-description: chatForbidden attributes, type and example
+description: Chat forbidden
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatForbidden  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Chat forbidden
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](../types/int.md) | Yes|
-|title|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](../types/int.md) | Yes|ID|
+|title|[string](../types/string.md) | Yes|Title|
 
 
 

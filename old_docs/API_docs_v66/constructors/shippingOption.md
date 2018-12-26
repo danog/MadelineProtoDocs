@@ -1,6 +1,6 @@
 ---
 title: shippingOption
-description: shippingOption attributes, type and example
+description: Shipping option
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: shippingOption  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Shipping option
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[string](../types/string.md) | Yes|
-|title|[string](../types/string.md) | Yes|
-|prices|Array of [LabeledPrice](../types/LabeledPrice.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[string](../types/string.md) | Yes|ID|
+|title|[string](../types/string.md) | Yes|Title|
+|prices|Array of [LabeledPrice](../types/LabeledPrice.md) | Yes|Prices|
 
 
 

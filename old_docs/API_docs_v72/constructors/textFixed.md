@@ -1,6 +1,6 @@
 ---
 title: textFixed
-description: textFixed attributes, type and example
+description: Text fixed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textFixed  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Text fixed
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|text|[RichText](../types/RichText.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|text|[RichText](../types/RichText.md) | Yes|Text|
 
 
 

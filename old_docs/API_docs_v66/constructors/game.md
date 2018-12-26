@@ -1,6 +1,6 @@
 ---
 title: game
-description: game attributes, type and example
+description: Game
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: game  
@@ -8,17 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Game
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[long](../types/long.md) | Yes|
-|access\_hash|[long](../types/long.md) | Yes|
-|short\_name|[string](../types/string.md) | Yes|
-|title|[string](../types/string.md) | Yes|
-|description|[string](../types/string.md) | Yes|
-|photo|[Photo](../types/Photo.md) | Optional|
-|document|[Document](../types/Document.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[long](../types/long.md) | Yes|ID|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|short\_name|[string](../types/string.md) | Yes|Short name|
+|title|[string](../types/string.md) | Yes|Title|
+|description|[string](../types/string.md) | Yes|Description|
+|photo|[Photo](../types/Photo.md) | Optional|Photo|
+|document|[Document](../types/Document.md) | Optional|Document|
 
 
 

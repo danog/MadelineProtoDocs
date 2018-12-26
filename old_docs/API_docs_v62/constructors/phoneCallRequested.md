@@ -1,6 +1,6 @@
 ---
 title: phoneCallRequested
-description: phoneCallRequested attributes, type and example
+description: Phone call requested
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneCallRequested  
@@ -8,17 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Phone call requested
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[long](../types/long.md) | Yes|
-|access\_hash|[long](../types/long.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|admin\_id|[int](../types/int.md) | Yes|
-|participant\_id|[int](../types/int.md) | Yes|
-|g\_a|[bytes](../types/bytes.md) | Yes|
-|protocol|[PhoneCallProtocol](../types/PhoneCallProtocol.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[long](../types/long.md) | Yes|ID|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|date|[int](../types/int.md) | Yes|Date|
+|admin\_id|[int](../types/int.md) | Yes|Admin ID|
+|participant\_id|[int](../types/int.md) | Yes|Participant ID|
+|g\_a|[bytes](../types/bytes.md) | Yes|G a|
+|protocol|[PhoneCallProtocol](../types/PhoneCallProtocol.md) | Yes|Protocol|
 
 
 

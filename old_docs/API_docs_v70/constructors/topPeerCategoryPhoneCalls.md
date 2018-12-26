@@ -1,12 +1,14 @@
 ---
 title: topPeerCategoryPhoneCalls
-description: topPeerCategoryPhoneCalls attributes, type and example
+description: Top peer category phone calls
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: topPeerCategoryPhoneCalls  
 [Back to constructors index](index.md)
 
 
+
+Top peer category phone calls
 
 
 

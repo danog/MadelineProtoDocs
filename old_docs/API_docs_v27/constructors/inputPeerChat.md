@@ -1,6 +1,6 @@
 ---
 title: inputPeerChat
-description: inputPeerChat attributes, type and example
+description: Peer chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPeerChat  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Peer chat
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chat\_id|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|chat\_id|[int](../types/int.md) | Yes|Chat ID|
 
 
 

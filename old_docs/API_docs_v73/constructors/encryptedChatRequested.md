@@ -1,6 +1,6 @@
 ---
 title: encryptedChatRequested
-description: encryptedChatRequested attributes, type and example
+description: Encrypted chat requested
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: encryptedChatRequested  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Encrypted chat requested
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](../types/int.md) | Yes|
-|access\_hash|[long](../types/long.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|admin\_id|[int](../types/int.md) | Yes|
-|participant\_id|[int](../types/int.md) | Yes|
-|g\_a|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](../types/int.md) | Yes|ID|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|date|[int](../types/int.md) | Yes|Date|
+|admin\_id|[int](../types/int.md) | Yes|Admin ID|
+|participant\_id|[int](../types/int.md) | Yes|Participant ID|
+|g\_a|[bytes](../types/bytes.md) | Yes|G a|
 
 
 

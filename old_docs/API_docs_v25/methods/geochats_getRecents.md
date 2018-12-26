@@ -13,7 +13,7 @@ Get recent geochats
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|offset|[int](../types/int.md) | offset | Yes|
+|offset|[int](../types/int.md) | Offset | Yes|
 |limit|[int](../types/int.md) | Number of results to return | Yes|
 
 

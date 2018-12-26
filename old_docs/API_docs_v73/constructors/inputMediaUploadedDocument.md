@@ -1,6 +1,6 @@
 ---
 title: inputMediaUploadedDocument
-description: inputMediaUploadedDocument attributes, type and example
+description: Media uploaded document
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaUploadedDocument  
@@ -8,18 +8,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Media uploaded document
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|nosound\_video|[Bool](../types/Bool.md) | Optional|
-|file|[File path or InputFile](../types/InputFile.md) | Yes|
-|thumb|[File path or InputFile](../types/InputFile.md) | Optional|
-|mime\_type|[string](../types/string.md) | Optional|
-|attributes|Array of [DocumentAttribute](../types/DocumentAttribute.md) | Yes|
-|caption|[string](../types/string.md) | Yes|
-|stickers|Array of [MessageMedia, Message, Update or InputDocument](../types/InputDocument.md) | Optional|
-|ttl\_seconds|[int](../types/int.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|nosound\_video|[Bool](../types/Bool.md) | Optional|Nosound video?|
+|file|[File path or InputFile](../types/InputFile.md) | Yes|File|
+|thumb|[File path or InputFile](../types/InputFile.md) | Optional|Thumbnail|
+|mime\_type|[string](../types/string.md) | Optional|Mime type|
+|attributes|Array of [DocumentAttribute](../types/DocumentAttribute.md) | Yes|Attributes|
+|caption|[string](../types/string.md) | Yes|Caption|
+|stickers|Array of [MessageMedia, Message, Update or InputDocument](../types/InputDocument.md) | Optional|Stickers|
+|ttl\_seconds|[int](../types/int.md) | Optional|Ttl seconds|
 
 
 

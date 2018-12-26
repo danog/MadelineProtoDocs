@@ -1,6 +1,6 @@
 ---
 title: updateDeleteChannelMessages
-description: updateDeleteChannelMessages attributes, type and example
+description: Update delete channel messages
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateDeleteChannelMessages  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update delete channel messages
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Peer](../types/Peer.md) | Yes|
-|messages|Array of [int](../types/int.md) | Yes|
-|pts|[int](../types/int.md) | Yes|
-|pts\_count|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[Peer](../types/Peer.md) | Yes|Peer|
+|messages|Array of [int](../types/int.md) | Yes|Messages|
+|pts|[int](../types/int.md) | Yes|Pts|
+|pts\_count|[int](../types/int.md) | Yes|Pts count|
 
 
 

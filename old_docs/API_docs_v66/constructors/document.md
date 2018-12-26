@@ -1,6 +1,6 @@
 ---
 title: document
-description: document attributes, type and example
+description: Document
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: document  
@@ -8,19 +8,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Document
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[long](../types/long.md) | Yes|
-|access\_hash|[long](../types/long.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|mime\_type|[string](../types/string.md) | Yes|
-|size|[int](../types/int.md) | Yes|
-|thumb|[PhotoSize](../types/PhotoSize.md) | Optional|
-|dc\_id|[int](../types/int.md) | Yes|
-|version|[int](../types/int.md) | Yes|
-|attributes|Array of [DocumentAttribute](../types/DocumentAttribute.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[long](../types/long.md) | Yes|ID|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|date|[int](../types/int.md) | Yes|Date|
+|mime\_type|[string](../types/string.md) | Yes|Mime type|
+|size|[int](../types/int.md) | Yes|Size|
+|thumb|[PhotoSize](../types/PhotoSize.md) | Optional|Thumbnail|
+|dc\_id|[int](../types/int.md) | Yes|DC ID|
+|version|[int](../types/int.md) | Yes|Version|
+|attributes|Array of [DocumentAttribute](../types/DocumentAttribute.md) | Yes|Attributes|
 
 
 

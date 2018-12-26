@@ -14,9 +14,9 @@ PQ inner data
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|pq|[string](../types/string.md) | Yes||
-|p|[string](../types/string.md) | Yes||
-|q|[string](../types/string.md) | Yes||
+|pq|[string](../types/string.md) | Yes|Pq|
+|p|[string](../types/string.md) | Yes|P|
+|q|[string](../types/string.md) | Yes|Q|
 |nonce|[int128](../types/int128.md) | Yes|Nonce|
 |server\_nonce|[int128](../types/int128.md) | Yes|Nonce|
 |new\_nonce|[int256](../types/int256.md) | Yes|Nonce|

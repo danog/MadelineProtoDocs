@@ -1,6 +1,6 @@
 ---
 title: chatParticipants
-description: chatParticipants attributes, type and example
+description: Chat participants
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatParticipants  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Chat participants
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chat\_id|[int](../types/int.md) | Yes|
-|participants|Array of [ChatParticipant](../types/ChatParticipant.md) | Yes|
-|version|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|chat\_id|[int](../types/int.md) | Yes|Chat ID|
+|participants|Array of [ChatParticipant](../types/ChatParticipant.md) | Yes|Participants|
+|version|[int](../types/int.md) | Yes|Version|
 
 
 

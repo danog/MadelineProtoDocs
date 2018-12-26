@@ -1,12 +1,14 @@
 ---
 title: pageBlockUnsupported
-description: pageBlockUnsupported attributes, type and example
+description: Page block unsupported
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockUnsupported  
 [Back to constructors index](index.md)
 
 
+
+Page block unsupported
 
 
 

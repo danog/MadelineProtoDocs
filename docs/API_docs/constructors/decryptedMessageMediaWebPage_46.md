@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageMediaWebPage
-description: decryptedMessageMediaWebPage attributes, type and example
+description: Decrypted message media web page
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaWebPage\_46  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Decrypted message media web page
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|url|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|url|[string](../types/string.md) | Yes|URL|
 
 
 

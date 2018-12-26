@@ -1,6 +1,6 @@
 ---
 title: pong
-description: pong attributes, type and example
+description: Pong
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pong  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Pong
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|msg\_id|[long](../types/long.md) | Yes|
-|ping\_id|[long](../types/long.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|msg\_id|[long](../types/long.md) | Yes|Msg ID|
+|ping\_id|[long](../types/long.md) | Yes|Ping ID|
 
 
 

@@ -1,12 +1,14 @@
 ---
 title: updateFavedStickers
-description: updateFavedStickers attributes, type and example
+description: Update faved stickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateFavedStickers  
 [Back to constructors index](index.md)
 
 
+
+Update faved stickers
 
 
 

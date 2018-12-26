@@ -1,6 +1,6 @@
 ---
 title: auth.sentCode
-description: auth_sentCode attributes, type and example
+description: Sent code
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: auth.sentCode  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Sent code
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|phone\_registered|[Bool](../types/Bool.md) | Yes|
-|phone\_code\_hash|[string](../types/string.md) | Yes|
-|send\_call\_timeout|[int](../types/int.md) | Yes|
-|is\_password|[Bool](../types/Bool.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|phone\_registered|[Bool](../types/Bool.md) | Yes|Phone registered?|
+|phone\_code\_hash|[string](../types/string.md) | Yes|Phone code hash|
+|send\_call\_timeout|[int](../types/int.md) | Yes|Send call timeout|
+|is\_password|[Bool](../types/Bool.md) | Yes|Is password?|
 
 
 

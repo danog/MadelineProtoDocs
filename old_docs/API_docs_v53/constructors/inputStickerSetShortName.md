@@ -1,6 +1,6 @@
 ---
 title: inputStickerSetShortName
-description: inputStickerSetShortName attributes, type and example
+description: Sticker set short name
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputStickerSetShortName  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Sticker set short name
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|short\_name|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|short\_name|[string](../types/string.md) | Yes|Short name|
 
 
 

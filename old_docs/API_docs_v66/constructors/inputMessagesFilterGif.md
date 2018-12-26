@@ -1,12 +1,14 @@
 ---
 title: inputMessagesFilterGif
-description: inputMessagesFilterGif attributes, type and example
+description: Messages filter gif
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterGif  
 [Back to constructors index](index.md)
 
 
+
+Messages filter gif
 
 
 

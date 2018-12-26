@@ -1,6 +1,6 @@
 ---
 title: auth.sentCodeTypeFlashCall
-description: auth_sentCodeTypeFlashCall attributes, type and example
+description: Sent code type flash call
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: auth.sentCodeTypeFlashCall  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Sent code type flash call
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|pattern|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|pattern|[string](../types/string.md) | Yes|Pattern|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: userDeleted
-description: userDeleted attributes, type and example
+description: User deleted
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userDeleted  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+User deleted
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](../types/int.md) | Yes|
-|first\_name|[string](../types/string.md) | Yes|
-|last\_name|[string](../types/string.md) | Yes|
-|username|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](../types/int.md) | Yes|ID|
+|first\_name|[string](../types/string.md) | Yes|First name|
+|last\_name|[string](../types/string.md) | Yes|Last name|
+|username|[string](../types/string.md) | Yes|Username|
 
 
 

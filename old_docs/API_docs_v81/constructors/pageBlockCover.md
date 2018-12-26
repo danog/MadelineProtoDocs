@@ -1,6 +1,6 @@
 ---
 title: pageBlockCover
-description: pageBlockCover attributes, type and example
+description: Page block cover
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockCover  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Page block cover
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|cover|[PageBlock](../types/PageBlock.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|cover|[PageBlock](../types/PageBlock.md) | Yes|Cover|
 
 
 

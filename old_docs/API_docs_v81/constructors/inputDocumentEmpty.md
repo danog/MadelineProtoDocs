@@ -1,12 +1,14 @@
 ---
 title: inputDocumentEmpty
-description: inputDocumentEmpty attributes, type and example
+description: Empty input document
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputDocumentEmpty  
 [Back to constructors index](index.md)
 
 
+
+Empty input document
 
 
 

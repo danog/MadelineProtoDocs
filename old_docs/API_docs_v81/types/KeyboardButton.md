@@ -12,7 +12,7 @@ Clicking these buttons:
 
 To click these buttons simply run the `click` method:  
 
-```php
+```
 $result = $KeyboardButton->click();
 ```
 

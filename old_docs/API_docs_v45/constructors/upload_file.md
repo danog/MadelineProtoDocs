@@ -1,6 +1,6 @@
 ---
 title: upload.file
-description: upload_file attributes, type and example
+description: File
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: upload.file  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+File
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|type|[storage\_FileType](../types/storage_FileType.md) | Yes|
-|mtime|[int](../types/int.md) | Yes|
-|bytes|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|type|[storage\_FileType](../types/storage_FileType.md) | Yes|Type|
+|mtime|[int](../types/int.md) | Yes|Mtime|
+|bytes|[bytes](../types/bytes.md) | Yes|Bytes|
 
 
 

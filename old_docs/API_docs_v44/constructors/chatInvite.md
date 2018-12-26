@@ -1,6 +1,6 @@
 ---
 title: chatInvite
-description: chatInvite attributes, type and example
+description: Chat invite
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatInvite  
@@ -8,15 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Chat invite
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Bool](../types/Bool.md) | Optional|
-|broadcast|[Bool](../types/Bool.md) | Optional|
-|public|[Bool](../types/Bool.md) | Optional|
-|megagroup|[Bool](../types/Bool.md) | Optional|
-|title|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|channel|[Bool](../types/Bool.md) | Optional|Channel?|
+|broadcast|[Bool](../types/Bool.md) | Optional|Broadcast?|
+|public|[Bool](../types/Bool.md) | Optional|Public?|
+|megagroup|[Bool](../types/Bool.md) | Optional|Megagroup?|
+|title|[string](../types/string.md) | Yes|Title|
 
 
 

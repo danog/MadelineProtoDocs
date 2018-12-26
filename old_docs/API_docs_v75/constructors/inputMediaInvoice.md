@@ -1,6 +1,6 @@
 ---
 title: inputMediaInvoice
-description: inputMediaInvoice attributes, type and example
+description: Media invoice
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaInvoice  
@@ -8,18 +8,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Media invoice
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|title|[string](../types/string.md) | Yes|
-|description|[string](../types/string.md) | Yes|
-|photo|[InputWebDocument](../types/InputWebDocument.md) | Optional|
-|invoice|[Invoice](../types/Invoice.md) | Yes|
-|payload|[bytes](../types/bytes.md) | Yes|
-|provider|[string](../types/string.md) | Yes|
-|provider\_data|[DataJSON](../types/DataJSON.md) | Yes|
-|start\_param|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|title|[string](../types/string.md) | Yes|Title|
+|description|[string](../types/string.md) | Yes|Description|
+|photo|[InputWebDocument](../types/InputWebDocument.md) | Optional|Photo|
+|invoice|[Invoice](../types/Invoice.md) | Yes|Invoice|
+|payload|[bytes](../types/bytes.md) | Yes|Payload|
+|provider|[string](../types/string.md) | Yes|Provider|
+|provider\_data|[DataJSON](../types/DataJSON.md) | Yes|Provider data|
+|start\_param|[string](../types/string.md) | Yes|Start param|
 
 
 

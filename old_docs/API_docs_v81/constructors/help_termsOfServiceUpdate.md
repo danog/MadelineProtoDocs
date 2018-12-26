@@ -1,6 +1,6 @@
 ---
 title: help.termsOfServiceUpdate
-description: help_termsOfServiceUpdate attributes, type and example
+description: Terms of service update
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.termsOfServiceUpdate  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Terms of service update
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|expires|[int](../types/int.md) | Yes|
-|terms\_of\_service|[help\_TermsOfService](../types/help_TermsOfService.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|expires|[int](../types/int.md) | Yes|Expires|
+|terms\_of\_service|[help\_TermsOfService](../types/help_TermsOfService.md) | Yes|Terms of service|
 
 
 

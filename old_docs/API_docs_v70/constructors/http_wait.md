@@ -1,6 +1,6 @@
 ---
 title: http_wait
-description: http_wait attributes, type and example
+description: Http wait
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: http\_wait  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Http wait
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|max\_delay|[int](../types/int.md) | Yes|
-|wait\_after|[int](../types/int.md) | Yes|
-|max\_wait|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|max\_delay|[int](../types/int.md) | Yes|Max delay|
+|wait\_after|[int](../types/int.md) | Yes|Wait after|
+|max\_wait|[int](../types/int.md) | Yes|Max wait|
 
 
 

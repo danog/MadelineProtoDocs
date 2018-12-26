@@ -1,6 +1,6 @@
 ---
 title: messages.dhConfigNotModified
-description: messages_dhConfigNotModified attributes, type and example
+description: Dh config not modified
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.dhConfigNotModified  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Dh config not modified
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|random|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|random|[bytes](../types/bytes.md) | Yes|Random|
 
 
 

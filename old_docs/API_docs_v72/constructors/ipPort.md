@@ -1,6 +1,6 @@
 ---
 title: ipPort
-description: ipPort attributes, type and example
+description: Ip port
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: ipPort  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Ip port
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|ipv4|[int](../types/int.md) | Yes|
-|port|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|ipv4|[int](../types/int.md) | Yes|Ipv4|
+|port|[int](../types/int.md) | Yes|Port|
 
 
 

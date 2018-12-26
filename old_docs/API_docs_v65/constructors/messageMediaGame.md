@@ -1,6 +1,6 @@
 ---
 title: messageMediaGame
-description: messageMediaGame attributes, type and example
+description: Message media game
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaGame  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message media game
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|game|[Game](../types/Game.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|game|[Game](../types/Game.md) | Yes|Game|
 
 
 

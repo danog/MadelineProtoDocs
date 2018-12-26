@@ -1,6 +1,6 @@
 ---
 title: updatePhoneCall
-description: updatePhoneCall attributes, type and example
+description: Update phone call
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatePhoneCall  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update phone call
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|phone\_call|[PhoneCall](../types/PhoneCall.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|phone\_call|[PhoneCall](../types/PhoneCall.md) | Optional|Phone call|
 
 
 

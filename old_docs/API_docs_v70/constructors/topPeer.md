@@ -1,6 +1,6 @@
 ---
 title: topPeer
-description: topPeer attributes, type and example
+description: Top peer
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: topPeer  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Top peer
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Peer](../types/Peer.md) | Yes|
-|rating|[double](../types/double.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[Peer](../types/Peer.md) | Yes|Peer|
+|rating|[double](../types/double.md) | Yes|Rating|
 
 
 

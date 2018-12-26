@@ -1,6 +1,6 @@
 ---
 title: photos.photosSlice
-description: photos_photosSlice attributes, type and example
+description: Photos slice
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: photos.photosSlice  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Photos slice
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|count|[int](../types/int.md) | Yes|
-|photos|Array of [Photo](../types/Photo.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|count|[int](../types/int.md) | Yes|Count|
+|photos|Array of [Photo](../types/Photo.md) | Yes|Photos|
+|users|Array of [User](../types/User.md) | Yes|Users|
 
 
 

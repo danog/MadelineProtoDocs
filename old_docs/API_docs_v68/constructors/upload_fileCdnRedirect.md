@@ -1,6 +1,6 @@
 ---
 title: upload.fileCdnRedirect
-description: upload_fileCdnRedirect attributes, type and example
+description: File cdn redirect
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: upload.fileCdnRedirect  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+File cdn redirect
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|dc\_id|[int](../types/int.md) | Yes|
-|file\_token|[bytes](../types/bytes.md) | Yes|
-|encryption\_key|[bytes](../types/bytes.md) | Yes|
-|encryption\_iv|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|dc\_id|[int](../types/int.md) | Yes|DC ID|
+|file\_token|[bytes](../types/bytes.md) | Yes|File token|
+|encryption\_key|[bytes](../types/bytes.md) | Yes|Encryption key|
+|encryption\_iv|[bytes](../types/bytes.md) | Yes|Encryption iv|
 
 
 

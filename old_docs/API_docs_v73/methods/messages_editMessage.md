@@ -96,7 +96,7 @@ Set parse_mode to Markdown to enable markown AND html parsing of the message.
 
 The following tags are currently supported:
 
-```
+```html
 <br>a newline
 <b><i>bold works ok, internal tags are stripped</i> </b>
 <strong>bold</strong>
@@ -112,7 +112,7 @@ The following tags are currently supported:
 
 You can also use normal markdown, note that to create mentions you must use the `mention:` syntax like in html:  
 
-```
+```markdown
 [Mention by username](mention:@danogentili)
 [Mention by user id](mention:186785362)
 ```

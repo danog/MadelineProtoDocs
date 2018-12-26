@@ -1,12 +1,14 @@
 ---
 title: inputStickerSetEmpty
-description: inputStickerSetEmpty attributes, type and example
+description: Empty input sticker set
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputStickerSetEmpty  
 [Back to constructors index](index.md)
 
 
+
+Empty input sticker set
 
 
 

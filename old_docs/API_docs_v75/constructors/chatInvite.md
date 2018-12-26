@@ -1,6 +1,6 @@
 ---
 title: chatInvite
-description: chatInvite attributes, type and example
+description: Chat invite
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatInvite  
@@ -8,18 +8,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Chat invite
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Bool](../types/Bool.md) | Optional|
-|broadcast|[Bool](../types/Bool.md) | Optional|
-|public|[Bool](../types/Bool.md) | Optional|
-|megagroup|[Bool](../types/Bool.md) | Optional|
-|title|[string](../types/string.md) | Yes|
-|photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|
-|participants\_count|[int](../types/int.md) | Yes|
-|participants|Array of [User](../types/User.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|channel|[Bool](../types/Bool.md) | Optional|Channel?|
+|broadcast|[Bool](../types/Bool.md) | Optional|Broadcast?|
+|public|[Bool](../types/Bool.md) | Optional|Public?|
+|megagroup|[Bool](../types/Bool.md) | Optional|Megagroup?|
+|title|[string](../types/string.md) | Yes|Title|
+|photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|Photo|
+|participants\_count|[int](../types/int.md) | Yes|Participants count|
+|participants|Array of [User](../types/User.md) | Optional|Participants|
 
 
 

@@ -16,7 +16,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputReportReasonPornography](../constructors/inputReportReasonPornography.md)  
 
+[inputReportReasonChildAbuse](../constructors/inputReportReasonChildAbuse.md)  
+
 [inputReportReasonOther](../constructors/inputReportReasonOther.md)  
+
+[inputReportReasonCopyright](../constructors/inputReportReasonCopyright.md)  
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: messageActionSecureValuesSentMe
-description: messageActionSecureValuesSentMe attributes, type and example
+description: Message action secure values sent me
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionSecureValuesSentMe  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message action secure values sent me
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|values|Array of [SecureValue](../types/SecureValue.md) | Yes|
-|credentials|[SecureCredentialsEncrypted](../types/SecureCredentialsEncrypted.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|values|Array of [SecureValue](../types/SecureValue.md) | Yes|Values|
+|credentials|[SecureCredentialsEncrypted](../types/SecureCredentialsEncrypted.md) | Yes|Credentials|
 
 
 

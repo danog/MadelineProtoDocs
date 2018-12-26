@@ -1,6 +1,6 @@
 ---
 title: channelFull
-description: channelFull attributes, type and example
+description: Full channel
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelFull  
@@ -8,27 +8,29 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Full channel
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|can\_view\_participants|[Bool](../types/Bool.md) | Optional|
-|can\_set\_username|[Bool](../types/Bool.md) | Optional|
-|id|[int](../types/int.md) | Yes|
-|about|[string](../types/string.md) | Yes|
-|participants\_count|[int](../types/int.md) | Optional|
-|admins\_count|[int](../types/int.md) | Optional|
-|kicked\_count|[int](../types/int.md) | Optional|
-|read\_inbox\_max\_id|[int](../types/int.md) | Yes|
-|unread\_count|[int](../types/int.md) | Yes|
-|unread\_important\_count|[int](../types/int.md) | Yes|
-|chat\_photo|[Photo](../types/Photo.md) | Optional|
-|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|
-|exported\_invite|[ExportedChatInvite](../types/ExportedChatInvite.md) | Yes|
-|bot\_info|Array of [BotInfo](../types/BotInfo.md) | Yes|
-|migrated\_from\_chat\_id|[int](../types/int.md) | Optional|
-|migrated\_from\_max\_id|[int](../types/int.md) | Optional|
-|pinned\_msg\_id|[int](../types/int.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|can\_view\_participants|[Bool](../types/Bool.md) | Optional|Can view participants?|
+|can\_set\_username|[Bool](../types/Bool.md) | Optional|Can set username?|
+|id|[int](../types/int.md) | Yes|ID|
+|about|[string](../types/string.md) | Yes|About|
+|participants\_count|[int](../types/int.md) | Optional|Participants count|
+|admins\_count|[int](../types/int.md) | Optional|Admins count|
+|kicked\_count|[int](../types/int.md) | Optional|Kicked count|
+|read\_inbox\_max\_id|[int](../types/int.md) | Yes|Read inbox max ID|
+|unread\_count|[int](../types/int.md) | Yes|Unread count|
+|unread\_important\_count|[int](../types/int.md) | Yes|Unread important count|
+|chat\_photo|[Photo](../types/Photo.md) | Optional|Chat photo|
+|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|Notify settings|
+|exported\_invite|[ExportedChatInvite](../types/ExportedChatInvite.md) | Yes|Exported invite|
+|bot\_info|Array of [BotInfo](../types/BotInfo.md) | Yes|Bot info|
+|migrated\_from\_chat\_id|[int](../types/int.md) | Optional|Migrated from chat ID|
+|migrated\_from\_max\_id|[int](../types/int.md) | Optional|Migrated from max ID|
+|pinned\_msg\_id|[int](../types/int.md) | Optional|Pinned msg ID|
 
 
 

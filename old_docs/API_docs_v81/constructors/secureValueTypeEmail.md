@@ -1,12 +1,14 @@
 ---
 title: secureValueTypeEmail
-description: secureValueTypeEmail attributes, type and example
+description: Secure value type email
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueTypeEmail  
 [Back to constructors index](index.md)
 
 
+
+Secure value type email
 
 
 

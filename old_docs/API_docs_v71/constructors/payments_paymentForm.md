@@ -1,6 +1,6 @@
 ---
 title: payments.paymentForm
-description: payments_paymentForm attributes, type and example
+description: Payment form
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: payments.paymentForm  
@@ -8,21 +8,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Payment form
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|can\_save\_credentials|[Bool](../types/Bool.md) | Optional|
-|password\_missing|[Bool](../types/Bool.md) | Optional|
-|bot\_id|[int](../types/int.md) | Yes|
-|invoice|[Invoice](../types/Invoice.md) | Yes|
-|provider\_id|[int](../types/int.md) | Yes|
-|url|[string](../types/string.md) | Yes|
-|native\_provider|[string](../types/string.md) | Optional|
-|native\_params|[DataJSON](../types/DataJSON.md) | Optional|
-|saved\_info|[PaymentRequestedInfo](../types/PaymentRequestedInfo.md) | Optional|
-|saved\_credentials|[PaymentSavedCredentials](../types/PaymentSavedCredentials.md) | Optional|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|can\_save\_credentials|[Bool](../types/Bool.md) | Optional|Can save credentials?|
+|password\_missing|[Bool](../types/Bool.md) | Optional|Password missing?|
+|bot\_id|[int](../types/int.md) | Yes|Bot ID|
+|invoice|[Invoice](../types/Invoice.md) | Yes|Invoice|
+|provider\_id|[int](../types/int.md) | Yes|Provider ID|
+|url|[string](../types/string.md) | Yes|URL|
+|native\_provider|[string](../types/string.md) | Optional|Native provider|
+|native\_params|[DataJSON](../types/DataJSON.md) | Optional|Native params|
+|saved\_info|[PaymentRequestedInfo](../types/PaymentRequestedInfo.md) | Optional|Saved info|
+|saved\_credentials|[PaymentSavedCredentials](../types/PaymentSavedCredentials.md) | Optional|Saved credentials|
+|users|Array of [User](../types/User.md) | Yes|Users|
 
 
 

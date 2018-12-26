@@ -1,6 +1,6 @@
 ---
 title: documentAttributeVideo
-description: documentAttributeVideo attributes, type and example
+description: Document attribute video
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: documentAttributeVideo\_23  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Document attribute video
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|duration|[int](../types/int.md) | Optional|
-|w|[int](../types/int.md) | Optional|
-|h|[int](../types/int.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|duration|[int](../types/int.md) | Optional|Duration|
+|w|[int](../types/int.md) | Optional|Width|
+|h|[int](../types/int.md) | Optional|Height|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: updatePrivacy
-description: updatePrivacy attributes, type and example
+description: Update privacy
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatePrivacy  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update privacy
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|key|[PrivacyKey](../types/PrivacyKey.md) | Yes|
-|rules|Array of [PrivacyRule](../types/PrivacyRule.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|key|[PrivacyKey](../types/PrivacyKey.md) | Yes|Key|
+|rules|Array of [PrivacyRule](../types/PrivacyRule.md) | Yes|Rules|
 
 
 

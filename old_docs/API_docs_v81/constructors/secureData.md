@@ -1,6 +1,6 @@
 ---
 title: secureData
-description: secureData attributes, type and example
+description: Secure data
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureData  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Secure data
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|data|[bytes](../types/bytes.md) | Yes|
-|data\_hash|[bytes](../types/bytes.md) | Yes|
-|secret|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|data|[bytes](../types/bytes.md) | Yes|Data|
+|data\_hash|[bytes](../types/bytes.md) | Yes|Data hash|
+|secret|[bytes](../types/bytes.md) | Yes|Secret|
 
 
 

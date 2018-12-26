@@ -1,6 +1,6 @@
 ---
 title: keyboardButtonSwitchInline
-description: keyboardButtonSwitchInline attributes, type and example
+description: Keyboard button switch inline
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: keyboardButtonSwitchInline  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Keyboard button switch inline
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|text|[string](../types/string.md) | Yes|
-|query|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|text|[string](../types/string.md) | Yes|Text|
+|query|[string](../types/string.md) | Yes|Query|
 
 
 

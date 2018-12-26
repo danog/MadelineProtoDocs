@@ -1,6 +1,6 @@
 ---
 title: updateBotWebhookJSON
-description: updateBotWebhookJSON attributes, type and example
+description: Update bot webhook json
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotWebhookJSON  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update bot webhook json
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|data|[DataJSON](../types/DataJSON.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|data|[DataJSON](../types/DataJSON.md) | Yes|Data|
 
 
 

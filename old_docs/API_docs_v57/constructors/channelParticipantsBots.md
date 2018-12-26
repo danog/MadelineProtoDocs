@@ -1,12 +1,14 @@
 ---
 title: channelParticipantsBots
-description: channelParticipantsBots attributes, type and example
+description: Channel participants bots
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantsBots  
 [Back to constructors index](index.md)
 
 
+
+Channel participants bots
 
 
 

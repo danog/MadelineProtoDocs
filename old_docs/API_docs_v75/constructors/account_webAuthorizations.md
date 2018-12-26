@@ -1,6 +1,6 @@
 ---
 title: account.webAuthorizations
-description: account_webAuthorizations attributes, type and example
+description: Telegram login authorizations
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: account.webAuthorizations  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Telegram login authorizations
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|authorizations|Array of [WebAuthorization](../types/WebAuthorization.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|authorizations|Array of [WebAuthorization](../types/WebAuthorization.md) | Yes|Authorizations|
+|users|Array of [User](../types/User.md) | Yes|Users|
 
 
 

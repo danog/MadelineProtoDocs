@@ -1,13 +1,13 @@
 ---
 title: ping
-description: pings the server
+description: Pings the server
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: ping  
 [Back to methods index](index.md)
 
 
-pings the server
+Pings the server
 
 ### Parameters:
 

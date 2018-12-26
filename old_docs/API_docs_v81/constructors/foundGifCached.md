@@ -1,6 +1,6 @@
 ---
 title: foundGifCached
-description: foundGifCached attributes, type and example
+description: Found gif cached
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: foundGifCached  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Found gif cached
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|url|[string](../types/string.md) | Yes|
-|photo|[Photo](../types/Photo.md) | Optional|
-|document|[Document](../types/Document.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|url|[string](../types/string.md) | Yes|URL|
+|photo|[Photo](../types/Photo.md) | Optional|Photo|
+|document|[Document](../types/Document.md) | Optional|Document|
 
 
 

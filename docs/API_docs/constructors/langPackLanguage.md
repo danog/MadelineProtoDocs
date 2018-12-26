@@ -1,6 +1,6 @@
 ---
 title: langPackLanguage
-description: langPackLanguage attributes, type and example
+description: Lang pack language
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: langPackLanguage  
@@ -8,13 +8,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Lang pack language
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|name|[string](../types/string.md) | Yes|
-|native\_name|[string](../types/string.md) | Yes|
-|lang\_code|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|official|[Bool](../types/Bool.md) | Optional|Official?|
+|rtl|[Bool](../types/Bool.md) | Optional|Rtl?|
+|beta|[Bool](../types/Bool.md) | Optional|Beta?|
+|name|[string](../types/string.md) | Yes|Name|
+|native\_name|[string](../types/string.md) | Yes|Native name|
+|lang\_code|[string](../types/string.md) | Yes|Lang code|
+|base\_lang\_code|[string](../types/string.md) | Optional|Base lang code|
+|plural\_code|[string](../types/string.md) | Yes|Plural code|
+|strings\_count|[int](../types/int.md) | Yes|Strings count|
+|translated\_count|[int](../types/int.md) | Yes|Translated count|
+|translations\_url|[string](../types/string.md) | Yes|Translations URL|
 
 
 
@@ -24,20 +34,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```php
-$langPackLanguage = ['_' => 'langPackLanguage', 'name' => 'string', 'native_name' => 'string', 'lang_code' => 'string'];
+$langPackLanguage = ['_' => 'langPackLanguage', 'official' => Bool, 'rtl' => Bool, 'beta' => Bool, 'name' => 'string', 'native_name' => 'string', 'lang_code' => 'string', 'base_lang_code' => 'string', 'plural_code' => 'string', 'strings_count' => int, 'translated_count' => int, 'translations_url' => 'string'];
 ```  
 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "langPackLanguage", "name": "string", "native_name": "string", "lang_code": "string"}
+{"_": "langPackLanguage", "official": Bool, "rtl": Bool, "beta": Bool, "name": "string", "native_name": "string", "lang_code": "string", "base_lang_code": "string", "plural_code": "string", "strings_count": int, "translated_count": int, "translations_url": "string"}
 ```
 
 
 Or, if you're into Lua:
 
 ```lua
-langPackLanguage={_='langPackLanguage', name='string', native_name='string', lang_code='string'}
+langPackLanguage={_='langPackLanguage', official=Bool, rtl=Bool, beta=Bool, name='string', native_name='string', lang_code='string', base_lang_code='string', plural_code='string', strings_count=int, translated_count=int, translations_url='string'}
 
 ```
 

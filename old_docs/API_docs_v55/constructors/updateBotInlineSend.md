@@ -1,6 +1,6 @@
 ---
 title: updateBotInlineSend
-description: updateBotInlineSend attributes, type and example
+description: Update bot inline send
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotInlineSend  
@@ -8,15 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update bot inline send
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|user\_id|[int](../types/int.md) | Yes|
-|query|[string](../types/string.md) | Yes|
-|geo|[GeoPoint](../types/GeoPoint.md) | Optional|
-|id|[string](../types/string.md) | Yes|
-|msg\_id|[InputBotInlineMessageID](../types/InputBotInlineMessageID.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|user\_id|[int](../types/int.md) | Yes|User ID|
+|query|[string](../types/string.md) | Yes|Query|
+|geo|[GeoPoint](../types/GeoPoint.md) | Optional|Geo|
+|id|[string](../types/string.md) | Yes|ID|
+|msg\_id|[InputBotInlineMessageID](../types/InputBotInlineMessageID.md) | Optional|Msg ID|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: inputBotInlineMessageID
-description: inputBotInlineMessageID attributes, type and example
+description: Bot inline message ID
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputBotInlineMessageID  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Bot inline message ID
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|dc\_id|[int](../types/int.md) | Yes|
-|id|[long](../types/long.md) | Yes|
-|access\_hash|[long](../types/long.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|dc\_id|[int](../types/int.md) | Yes|DC ID|
+|id|[long](../types/long.md) | Yes|ID|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
 
 
 

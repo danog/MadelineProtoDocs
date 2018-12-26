@@ -1,6 +1,6 @@
 ---
 title: updates.channelDifferenceTooLong
-description: updates_channelDifferenceTooLong attributes, type and example
+description: Channel difference too long
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updates.channelDifferenceTooLong  
@@ -8,20 +8,22 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Channel difference too long
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|pts|[int](../types/int.md) | Yes|
-|timeout|[int](../types/int.md) | Optional|
-|top\_message|[int](../types/int.md) | Yes|
-|top\_important\_message|[int](../types/int.md) | Yes|
-|read\_inbox\_max\_id|[int](../types/int.md) | Yes|
-|unread\_count|[int](../types/int.md) | Yes|
-|unread\_important\_count|[int](../types/int.md) | Yes|
-|messages|Array of [Message](../types/Message.md) | Yes|
-|chats|Array of [Chat](../types/Chat.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|pts|[int](../types/int.md) | Yes|Pts|
+|timeout|[int](../types/int.md) | Optional|Timeout|
+|top\_message|[int](../types/int.md) | Yes|Top message|
+|top\_important\_message|[int](../types/int.md) | Yes|Top important message|
+|read\_inbox\_max\_id|[int](../types/int.md) | Yes|Read inbox max ID|
+|unread\_count|[int](../types/int.md) | Yes|Unread count|
+|unread\_important\_count|[int](../types/int.md) | Yes|Unread important count|
+|messages|Array of [Message](../types/Message.md) | Yes|Messages|
+|chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
+|users|Array of [User](../types/User.md) | Yes|Users|
 
 
 

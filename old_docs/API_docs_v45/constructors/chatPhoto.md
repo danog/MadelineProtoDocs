@@ -1,6 +1,6 @@
 ---
 title: chatPhoto
-description: chatPhoto attributes, type and example
+description: Chat photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatPhoto  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Chat photo
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|photo\_small|[FileLocation](../types/FileLocation.md) | Yes|
-|photo\_big|[FileLocation](../types/FileLocation.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|photo\_small|[FileLocation](../types/FileLocation.md) | Yes|Photo small|
+|photo\_big|[FileLocation](../types/FileLocation.md) | Yes|Photo big|
 
 
 

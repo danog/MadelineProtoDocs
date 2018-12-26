@@ -1,6 +1,6 @@
 ---
 title: account.passwordSettings
-description: account_passwordSettings attributes, type and example
+description: Password settings
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: account.passwordSettings  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Password settings
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|email|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|email|[string](../types/string.md) | Yes|Email|
 
 
 

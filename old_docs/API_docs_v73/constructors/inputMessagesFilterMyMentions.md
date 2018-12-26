@@ -1,12 +1,14 @@
 ---
 title: inputMessagesFilterMyMentions
-description: inputMessagesFilterMyMentions attributes, type and example
+description: Messages filter my mentions
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterMyMentions  
 [Back to constructors index](index.md)
 
 
+
+Messages filter my mentions
 
 
 

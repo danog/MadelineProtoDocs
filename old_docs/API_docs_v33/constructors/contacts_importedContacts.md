@@ -1,6 +1,6 @@
 ---
 title: contacts.importedContacts
-description: contacts_importedContacts attributes, type and example
+description: Imported contacts
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: contacts.importedContacts  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Imported contacts
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|imported|Array of [ImportedContact](../types/ImportedContact.md) | Yes|
-|retry\_contacts|Array of [long](../types/long.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|imported|Array of [ImportedContact](../types/ImportedContact.md) | Yes|Imported|
+|retry\_contacts|Array of [long](../types/long.md) | Yes|Retry importing contacts whose client IDs appear here|
+|users|Array of [User](../types/User.md) | Yes|Users|
 
 
 

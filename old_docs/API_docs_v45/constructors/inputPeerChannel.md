@@ -1,6 +1,6 @@
 ---
 title: inputPeerChannel
-description: inputPeerChannel attributes, type and example
+description: Peer channel
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPeerChannel  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Peer channel
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel\_id|[int](../types/int.md) | Yes|
-|access\_hash|[long](../types/long.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|channel\_id|[int](../types/int.md) | Yes|Channel ID|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
 
 
 

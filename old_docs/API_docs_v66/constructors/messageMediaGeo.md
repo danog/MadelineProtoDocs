@@ -1,6 +1,6 @@
 ---
 title: messageMediaGeo
-description: messageMediaGeo attributes, type and example
+description: Message media geo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaGeo  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message media geo
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|geo|[GeoPoint](../types/GeoPoint.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|geo|[GeoPoint](../types/GeoPoint.md) | Optional|Geo|
 
 
 

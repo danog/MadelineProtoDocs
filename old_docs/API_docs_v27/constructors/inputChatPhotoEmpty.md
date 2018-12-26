@@ -1,12 +1,14 @@
 ---
 title: inputChatPhotoEmpty
-description: inputChatPhotoEmpty attributes, type and example
+description: Empty input chat photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputChatPhotoEmpty  
 [Back to constructors index](index.md)
 
 
+
+Empty input chat photo
 
 
 

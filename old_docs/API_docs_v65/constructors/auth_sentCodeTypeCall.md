@@ -1,6 +1,6 @@
 ---
 title: auth.sentCodeTypeCall
-description: auth_sentCodeTypeCall attributes, type and example
+description: Sent code type call
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: auth.sentCodeTypeCall  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Sent code type call
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|length|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|length|[int](../types/int.md) | Yes|Length|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: inputPeerNotifySettings
-description: inputPeerNotifySettings attributes, type and example
+description: Peer notify settings
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPeerNotifySettings  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Peer notify settings
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|show\_previews|[Bool](../types/Bool.md) | Optional|
-|silent|[Bool](../types/Bool.md) | Optional|
-|mute\_until|[int](../types/int.md) | Optional|
-|sound|[string](../types/string.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|show\_previews|[Bool](../types/Bool.md) | Optional|Show previews?|
+|silent|[Bool](../types/Bool.md) | Optional|Silent?|
+|mute\_until|[int](../types/int.md) | Optional|Mute until|
+|sound|[string](../types/string.md) | Optional|Sound|
 
 
 

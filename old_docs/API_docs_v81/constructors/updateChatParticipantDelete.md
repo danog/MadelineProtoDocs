@@ -1,6 +1,6 @@
 ---
 title: updateChatParticipantDelete
-description: updateChatParticipantDelete attributes, type and example
+description: Update chat participant delete
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChatParticipantDelete  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update chat participant delete
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chat\_id|[int](../types/int.md) | Yes|
-|user\_id|[int](../types/int.md) | Yes|
-|version|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|chat\_id|[int](../types/int.md) | Yes|Chat ID|
+|user\_id|[int](../types/int.md) | Yes|User ID|
+|version|[int](../types/int.md) | Yes|Version|
 
 
 

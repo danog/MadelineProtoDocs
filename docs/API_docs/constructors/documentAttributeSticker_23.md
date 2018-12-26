@@ -1,12 +1,14 @@
 ---
 title: documentAttributeSticker
-description: documentAttributeSticker attributes, type and example
+description: Document attribute sticker
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: documentAttributeSticker\_23  
 [Back to constructors index](index.md)
 
 
+
+Document attribute sticker
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: channelParticipantModerator
-description: channelParticipantModerator attributes, type and example
+description: Channel participant moderator
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantModerator  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Channel participant moderator
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|user\_id|[int](../types/int.md) | Yes|
-|inviter\_id|[int](../types/int.md) | Yes|
-|date|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|user\_id|[int](../types/int.md) | Yes|User ID|
+|inviter\_id|[int](../types/int.md) | Yes|Inviter ID|
+|date|[int](../types/int.md) | Yes|Date|
 
 
 

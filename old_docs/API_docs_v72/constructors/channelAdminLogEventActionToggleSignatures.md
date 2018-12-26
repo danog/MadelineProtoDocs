@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionToggleSignatures
-description: channelAdminLogEventActionToggleSignatures attributes, type and example
+description: Toggle channel signatures
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionToggleSignatures  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Toggle channel signatures
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|new\_value|[Bool](../types/Bool.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|new\_value|[Bool](../types/Bool.md) | Yes|New value?|
 
 
 

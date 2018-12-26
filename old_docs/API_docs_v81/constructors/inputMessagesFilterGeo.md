@@ -1,12 +1,14 @@
 ---
 title: inputMessagesFilterGeo
-description: inputMessagesFilterGeo attributes, type and example
+description: Messages filter geo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterGeo  
 [Back to constructors index](index.md)
 
 
+
+Messages filter geo
 
 
 

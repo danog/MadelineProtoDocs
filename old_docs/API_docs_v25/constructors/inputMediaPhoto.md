@@ -1,6 +1,6 @@
 ---
 title: inputMediaPhoto
-description: inputMediaPhoto attributes, type and example
+description: Media photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaPhoto  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Media photo
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[MessageMedia, Message, Update or InputPhoto](../types/InputPhoto.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[MessageMedia, Message, Update or InputPhoto](../types/InputPhoto.md) | Optional|ID|
 
 
 

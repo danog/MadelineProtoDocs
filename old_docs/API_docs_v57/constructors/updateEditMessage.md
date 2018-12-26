@@ -1,6 +1,6 @@
 ---
 title: updateEditMessage
-description: updateEditMessage attributes, type and example
+description: Update edit message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateEditMessage  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update edit message
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|message|[Message](../types/Message.md) | Optional|
-|pts|[int](../types/int.md) | Yes|
-|pts\_count|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|message|[Message](../types/Message.md) | Optional|Message|
+|pts|[int](../types/int.md) | Yes|Pts|
+|pts\_count|[int](../types/int.md) | Yes|Pts count|
 
 
 

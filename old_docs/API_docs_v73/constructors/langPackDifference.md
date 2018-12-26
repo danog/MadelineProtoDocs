@@ -1,6 +1,6 @@
 ---
 title: langPackDifference
-description: langPackDifference attributes, type and example
+description: Lang pack difference
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: langPackDifference  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Lang pack difference
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|lang\_code|[string](../types/string.md) | Yes|
-|from\_version|[int](../types/int.md) | Yes|
-|version|[int](../types/int.md) | Yes|
-|strings|Array of [LangPackString](../types/LangPackString.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|lang\_code|[string](../types/string.md) | Yes|Lang code|
+|from\_version|[int](../types/int.md) | Yes|From version|
+|version|[int](../types/int.md) | Yes|Version|
+|strings|Array of [LangPackString](../types/LangPackString.md) | Yes|Strings|
 
 
 

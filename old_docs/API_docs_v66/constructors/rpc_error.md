@@ -1,6 +1,6 @@
 ---
 title: rpc_error
-description: rpc_error attributes, type and example
+description: Rpc error
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: rpc\_error  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Rpc error
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|error\_code|[int](../types/int.md) | Yes|
-|error\_message|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|error\_code|[int](../types/int.md) | Yes|Error code|
+|error\_message|[string](../types/string.md) | Yes|Error message|
 
 
 

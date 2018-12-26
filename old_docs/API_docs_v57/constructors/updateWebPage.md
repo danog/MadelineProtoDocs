@@ -1,6 +1,6 @@
 ---
 title: updateWebPage
-description: updateWebPage attributes, type and example
+description: Update web page
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateWebPage  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update web page
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|webpage|[WebPage](../types/WebPage.md) | Optional|
-|pts|[int](../types/int.md) | Yes|
-|pts\_count|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|webpage|[WebPage](../types/WebPage.md) | Optional|Webpage|
+|pts|[int](../types/int.md) | Yes|Pts|
+|pts\_count|[int](../types/int.md) | Yes|Pts count|
 
 
 

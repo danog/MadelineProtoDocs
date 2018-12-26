@@ -1,6 +1,6 @@
 ---
 title: inputBotInlineMessageGame
-description: inputBotInlineMessageGame attributes, type and example
+description: Bot inline message game
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputBotInlineMessageGame  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Bot inline message game
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Reply markup|
 
 
 

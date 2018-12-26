@@ -1,6 +1,6 @@
 ---
 title: inputMediaGame
-description: inputMediaGame attributes, type and example
+description: Media game
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaGame  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Media game
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[InputGame](../types/InputGame.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[InputGame](../types/InputGame.md) | Yes|ID|
 
 
 

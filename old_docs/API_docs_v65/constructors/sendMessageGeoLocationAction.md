@@ -1,12 +1,14 @@
 ---
 title: sendMessageGeoLocationAction
-description: sendMessageGeoLocationAction attributes, type and example
+description: Send message geo location action
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageGeoLocationAction  
 [Back to constructors index](index.md)
 
 
+
+Send message geo location action
 
 
 

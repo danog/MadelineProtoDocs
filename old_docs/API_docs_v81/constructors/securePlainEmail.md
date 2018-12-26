@@ -1,6 +1,6 @@
 ---
 title: securePlainEmail
-description: securePlainEmail attributes, type and example
+description: Secure plain email
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: securePlainEmail  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Secure plain email
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|email|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|email|[string](../types/string.md) | Yes|Email|
 
 
 

@@ -1,12 +1,14 @@
 ---
 title: storage.fileUnknown
-description: storage_fileUnknown attributes, type and example
+description: File unknown
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: storage.fileUnknown  
 [Back to constructors index](index.md)
 
 
+
+File unknown
 
 
 

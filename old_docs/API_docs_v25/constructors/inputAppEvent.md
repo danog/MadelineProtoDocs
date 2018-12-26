@@ -1,6 +1,6 @@
 ---
 title: inputAppEvent
-description: inputAppEvent attributes, type and example
+description: App event
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputAppEvent  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+App event
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|time|[double](../types/double.md) | Yes|
-|type|[string](../types/string.md) | Yes|
-|peer|[long](../types/long.md) | Yes|
-|data|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|time|[double](../types/double.md) | Yes|Time|
+|type|[string](../types/string.md) | Yes|Type|
+|peer|[long](../types/long.md) | Yes|Peer|
+|data|[string](../types/string.md) | Yes|Data|
 
 
 

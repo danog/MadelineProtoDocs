@@ -1,6 +1,6 @@
 ---
 title: help.termsOfServiceUpdateEmpty
-description: help_termsOfServiceUpdateEmpty attributes, type and example
+description: Empty terms of service update
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.termsOfServiceUpdateEmpty  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Empty terms of service update
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|expires|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|expires|[int](../types/int.md) | Yes|Expires|
 
 
 

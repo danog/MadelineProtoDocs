@@ -1,12 +1,14 @@
 ---
 title: channelAdminLogEventActionParticipantJoin
-description: channelAdminLogEventActionParticipantJoin attributes, type and example
+description: Joined participant
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionParticipantJoin  
 [Back to constructors index](index.md)
 
 
+
+Joined participant
 
 
 

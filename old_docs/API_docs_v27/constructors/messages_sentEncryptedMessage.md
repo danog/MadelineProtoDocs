@@ -1,6 +1,6 @@
 ---
 title: messages.sentEncryptedMessage
-description: messages_sentEncryptedMessage attributes, type and example
+description: Sent encrypted message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.sentEncryptedMessage  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Sent encrypted message
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|date|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|date|[int](../types/int.md) | Yes|Date|
 
 
 

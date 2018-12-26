@@ -1,6 +1,6 @@
 ---
 title: config
-description: config attributes, type and example
+description: Config
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: config  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Config
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|date|[int](../types/int.md) | Yes|
-|test\_mode|[Bool](../types/Bool.md) | Yes|
-|this\_dc|[int](../types/int.md) | Yes|
-|dc\_options|Array of [DcOption](../types/DcOption.md) | Yes|
-|chat\_size\_max|[int](../types/int.md) | Yes|
-|broadcast\_size\_max|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|date|[int](../types/int.md) | Yes|Date|
+|test\_mode|[Bool](../types/Bool.md) | Yes|Test mode?|
+|this\_dc|[int](../types/int.md) | Yes|This DC|
+|dc\_options|Array of [DcOption](../types/DcOption.md) | Yes|DC options|
+|chat\_size\_max|[int](../types/int.md) | Yes|Chat size max|
+|broadcast\_size\_max|[int](../types/int.md) | Yes|Broadcast size max|
 
 
 

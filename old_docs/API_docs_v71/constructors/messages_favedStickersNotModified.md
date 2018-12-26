@@ -1,12 +1,14 @@
 ---
 title: messages.favedStickersNotModified
-description: messages_favedStickersNotModified attributes, type and example
+description: Faved stickers not modified
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.favedStickersNotModified  
 [Back to constructors index](index.md)
 
 
+
+Faved stickers not modified
 
 
 

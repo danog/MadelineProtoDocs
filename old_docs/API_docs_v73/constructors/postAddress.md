@@ -1,6 +1,6 @@
 ---
 title: postAddress
-description: postAddress attributes, type and example
+description: Post address
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: postAddress  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Post address
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|street\_line1|[string](../types/string.md) | Yes|
-|street\_line2|[string](../types/string.md) | Yes|
-|city|[string](../types/string.md) | Yes|
-|state|[string](../types/string.md) | Yes|
-|country\_iso2|[string](../types/string.md) | Yes|
-|post\_code|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|street\_line1|[string](../types/string.md) | Yes|Street line1|
+|street\_line2|[string](../types/string.md) | Yes|Street line2|
+|city|[string](../types/string.md) | Yes|City|
+|state|[string](../types/string.md) | Yes|State|
+|country\_iso2|[string](../types/string.md) | Yes|Country iso2|
+|post\_code|[string](../types/string.md) | Yes|Post code|
 
 
 

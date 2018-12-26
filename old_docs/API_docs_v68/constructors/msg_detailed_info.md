@@ -1,6 +1,6 @@
 ---
 title: msg_detailed_info
-description: msg_detailed_info attributes, type and example
+description: Msg detailed info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: msg\_detailed\_info  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Msg detailed info
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|msg\_id|[long](../types/long.md) | Yes|
-|answer\_msg\_id|[long](../types/long.md) | Yes|
-|bytes|[int](../types/int.md) | Yes|
-|status|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|msg\_id|[long](../types/long.md) | Yes|Msg ID|
+|answer\_msg\_id|[long](../types/long.md) | Yes|Answer msg ID|
+|bytes|[int](../types/int.md) | Yes|Bytes|
+|status|[int](../types/int.md) | Yes|Status|
 
 
 

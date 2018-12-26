@@ -1,6 +1,6 @@
 ---
 title: server_DH_params_ok
-description: server_DH_params_ok attributes, type and example
+description: Server params ok
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: server\_DH\_params\_ok  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Server params ok
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|nonce|[int128](../types/int128.md) | Yes|
-|server\_nonce|[int128](../types/int128.md) | Yes|
-|encrypted\_answer|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|nonce|[int128](../types/int128.md) | Yes|Random number for cryptographic security|
+|server\_nonce|[int128](../types/int128.md) | Yes|Random number for cryptographic security, given by server|
+|encrypted\_answer|[bytes](../types/bytes.md) | Yes|Encrypted answer|
 
 
 

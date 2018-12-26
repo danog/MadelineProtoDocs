@@ -1,6 +1,6 @@
 ---
 title: updates.state
-description: updates_state attributes, type and example
+description: State
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updates.state  
@@ -8,15 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+State
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|pts|[int](../types/int.md) | Yes|
-|qts|[int](../types/int.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|seq|[int](../types/int.md) | Yes|
-|unread\_count|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|pts|[int](../types/int.md) | Yes|Pts|
+|qts|[int](../types/int.md) | Yes|Qts|
+|date|[int](../types/int.md) | Yes|Date|
+|seq|[int](../types/int.md) | Yes|Seq|
+|unread\_count|[int](../types/int.md) | Yes|Unread count|
 
 
 

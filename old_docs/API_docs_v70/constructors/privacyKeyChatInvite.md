@@ -1,12 +1,14 @@
 ---
 title: privacyKeyChatInvite
-description: privacyKeyChatInvite attributes, type and example
+description: Privacy key chat invite
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: privacyKeyChatInvite  
 [Back to constructors index](index.md)
 
 
+
+Privacy key chat invite
 
 
 

@@ -1,12 +1,14 @@
 ---
 title: channels.channelParticipantsNotModified
-description: channels_channelParticipantsNotModified attributes, type and example
+description: Channel participants not modified
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channels.channelParticipantsNotModified  
 [Back to constructors index](index.md)
 
 
+
+Channel participants not modified
 
 
 

@@ -1,12 +1,14 @@
 ---
 title: channelParticipantsRecent
-description: channelParticipantsRecent attributes, type and example
+description: Channel participants recent
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantsRecent  
 [Back to constructors index](index.md)
 
 
+
+Channel participants recent
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: messages.sentMessageLink
-description: messages_sentMessageLink attributes, type and example
+description: Sent message link
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.sentMessageLink  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Sent message link
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](../types/int.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|pts|[int](../types/int.md) | Yes|
-|pts\_count|[int](../types/int.md) | Yes|
-|links|Array of [contacts\_Link](../types/contacts_Link.md) | Yes|
-|seq|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](../types/int.md) | Yes|ID|
+|date|[int](../types/int.md) | Yes|Date|
+|pts|[int](../types/int.md) | Yes|Pts|
+|pts\_count|[int](../types/int.md) | Yes|Pts count|
+|links|Array of [contacts\_Link](../types/contacts_Link.md) | Yes|Links|
+|seq|[int](../types/int.md) | Yes|Seq|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: updateReadChannelOutbox
-description: updateReadChannelOutbox attributes, type and example
+description: Update read channel outbox
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateReadChannelOutbox  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update read channel outbox
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel\_id|[int](../types/int.md) | Yes|
-|max\_id|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|channel\_id|[int](../types/int.md) | Yes|Channel ID|
+|max\_id|[int](../types/int.md) | Yes|Max ID|
 
 
 

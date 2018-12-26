@@ -1,6 +1,6 @@
 ---
 title: inputMediaUploadedVideo
-description: inputMediaUploadedVideo attributes, type and example
+description: Media uploaded video
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaUploadedVideo  
@@ -8,15 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Media uploaded video
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|file|[File path or InputFile](../types/InputFile.md) | Yes|
-|duration|[int](../types/int.md) | Yes|
-|w|[int](../types/int.md) | Yes|
-|h|[int](../types/int.md) | Yes|
-|mime\_type|[string](../types/string.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|file|[File path or InputFile](../types/InputFile.md) | Yes|File|
+|duration|[int](../types/int.md) | Yes|Duration|
+|w|[int](../types/int.md) | Yes|Width|
+|h|[int](../types/int.md) | Yes|Height|
+|mime\_type|[string](../types/string.md) | Optional|Mime type|
 
 
 

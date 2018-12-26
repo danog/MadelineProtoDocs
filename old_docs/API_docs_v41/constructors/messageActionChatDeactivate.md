@@ -1,12 +1,14 @@
 ---
 title: messageActionChatDeactivate
-description: messageActionChatDeactivate attributes, type and example
+description: Message action chat deactivate
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChatDeactivate  
 [Back to constructors index](index.md)
 
 
+
+Message action chat deactivate
 
 
 

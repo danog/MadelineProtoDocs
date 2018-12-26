@@ -1,12 +1,14 @@
 ---
 title: messageActionChatDeletePhoto
-description: messageActionChatDeletePhoto attributes, type and example
+description: Message action chat delete photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChatDeletePhoto  
 [Back to constructors index](index.md)
 
 
+
+Message action chat delete photo
 
 
 

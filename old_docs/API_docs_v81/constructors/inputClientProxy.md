@@ -1,6 +1,6 @@
 ---
 title: inputClientProxy
-description: inputClientProxy attributes, type and example
+description: Client proxy
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputClientProxy  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Client proxy
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|address|[string](../types/string.md) | Yes|
-|port|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|address|[string](../types/string.md) | Yes|Address|
+|port|[int](../types/int.md) | Yes|Port|
 
 
 

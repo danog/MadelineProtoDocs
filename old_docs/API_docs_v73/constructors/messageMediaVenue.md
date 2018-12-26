@@ -1,6 +1,6 @@
 ---
 title: messageMediaVenue
-description: messageMediaVenue attributes, type and example
+description: Message media venue
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaVenue  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message media venue
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|geo|[GeoPoint](../types/GeoPoint.md) | Optional|
-|title|[string](../types/string.md) | Yes|
-|address|[string](../types/string.md) | Yes|
-|provider|[string](../types/string.md) | Yes|
-|venue\_id|[string](../types/string.md) | Yes|
-|venue\_type|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|geo|[GeoPoint](../types/GeoPoint.md) | Optional|Geo|
+|title|[string](../types/string.md) | Yes|Title|
+|address|[string](../types/string.md) | Yes|Address|
+|provider|[string](../types/string.md) | Yes|Provider|
+|venue\_id|[string](../types/string.md) | Yes|Venue ID|
+|venue\_type|[string](../types/string.md) | Yes|Venue type|
 
 
 

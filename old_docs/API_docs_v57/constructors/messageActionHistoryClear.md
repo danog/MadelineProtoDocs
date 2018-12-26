@@ -1,12 +1,14 @@
 ---
 title: messageActionHistoryClear
-description: messageActionHistoryClear attributes, type and example
+description: Message action history clear
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionHistoryClear  
 [Back to constructors index](index.md)
 
 
+
+Message action history clear
 
 
 

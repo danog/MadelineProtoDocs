@@ -1,6 +1,6 @@
 ---
 title: account.sentChangePhoneCode
-description: account_sentChangePhoneCode attributes, type and example
+description: Sent change phone code
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: account.sentChangePhoneCode  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Sent change phone code
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|phone\_code\_hash|[string](../types/string.md) | Yes|
-|send\_call\_timeout|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|phone\_code\_hash|[string](../types/string.md) | Yes|Phone code hash|
+|send\_call\_timeout|[int](../types/int.md) | Yes|Send call timeout|
 
 
 

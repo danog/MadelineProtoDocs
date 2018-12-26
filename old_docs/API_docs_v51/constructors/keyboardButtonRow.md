@@ -1,6 +1,6 @@
 ---
 title: keyboardButtonRow
-description: keyboardButtonRow attributes, type and example
+description: Keyboard button row
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: keyboardButtonRow  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Keyboard button row
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|buttons|Array of [KeyboardButton](../types/KeyboardButton.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|buttons|Array of [KeyboardButton](../types/KeyboardButton.md) | Yes|Buttons|
 
 
 

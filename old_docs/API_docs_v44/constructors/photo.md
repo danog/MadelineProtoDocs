@@ -1,6 +1,6 @@
 ---
 title: photo
-description: photo attributes, type and example
+description: Photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: photo  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Photo
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[long](../types/long.md) | Yes|
-|access\_hash|[long](../types/long.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|sizes|Array of [PhotoSize](../types/PhotoSize.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[long](../types/long.md) | Yes|ID|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|date|[int](../types/int.md) | Yes|Date|
+|sizes|Array of [PhotoSize](../types/PhotoSize.md) | Yes|Sizes|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: messageActionChannelCreate
-description: messageActionChannelCreate attributes, type and example
+description: Message action channel create
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChannelCreate  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message action channel create
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|title|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|title|[string](../types/string.md) | Yes|Title|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: updateChatParticipantAdmin
-description: updateChatParticipantAdmin attributes, type and example
+description: Update chat participant admin
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChatParticipantAdmin  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update chat participant admin
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chat\_id|[int](../types/int.md) | Yes|
-|user\_id|[int](../types/int.md) | Yes|
-|is\_admin|[Bool](../types/Bool.md) | Yes|
-|version|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|chat\_id|[int](../types/int.md) | Yes|Chat ID|
+|user\_id|[int](../types/int.md) | Yes|User ID|
+|is\_admin|[Bool](../types/Bool.md) | Yes|Is admin?|
+|version|[int](../types/int.md) | Yes|Version|
 
 
 

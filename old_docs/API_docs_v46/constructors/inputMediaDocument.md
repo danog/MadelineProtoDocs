@@ -1,6 +1,6 @@
 ---
 title: inputMediaDocument
-description: inputMediaDocument attributes, type and example
+description: Media document
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaDocument  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Media document
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|document\_id|[MessageMedia, Message, Update or InputDocument](../types/InputDocument.md) | Optional|
-|caption|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|document\_id|[MessageMedia, Message, Update or InputDocument](../types/InputDocument.md) | Optional|Document ID|
+|caption|[string](../types/string.md) | Yes|Caption|
 
 
 

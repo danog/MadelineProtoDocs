@@ -1,12 +1,14 @@
 ---
 title: chatInviteEmpty
-description: chatInviteEmpty attributes, type and example
+description: Empty chat invite
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatInviteEmpty  
 [Back to constructors index](index.md)
 
 
+
+Empty chat invite
 
 
 

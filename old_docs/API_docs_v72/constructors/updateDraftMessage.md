@@ -1,6 +1,6 @@
 ---
 title: updateDraftMessage
-description: updateDraftMessage attributes, type and example
+description: Update draft message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateDraftMessage  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update draft message
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Peer](../types/Peer.md) | Yes|
-|draft|[DraftMessage](../types/DraftMessage.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[Peer](../types/Peer.md) | Yes|Peer|
+|draft|[DraftMessage](../types/DraftMessage.md) | Optional|Draft|
 
 
 

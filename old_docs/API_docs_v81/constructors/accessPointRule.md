@@ -1,6 +1,6 @@
 ---
 title: accessPointRule
-description: accessPointRule attributes, type and example
+description: Access point rule
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: accessPointRule  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Access point rule
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|phone\_prefix\_rules|[string](../types/string.md) | Yes|
-|dc\_id|[int](../types/int.md) | Yes|
-|ips|Array of [IpPort](../types/IpPort.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|phone\_prefix\_rules|[string](../types/string.md) | Yes|Phone prefix rules|
+|dc\_id|[int](../types/int.md) | Yes|DC ID|
+|ips|Array of [IpPort](../types/IpPort.md) | Yes|Ips|
 
 
 

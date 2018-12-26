@@ -1,6 +1,6 @@
 ---
 title: help.appUpdate
-description: help_appUpdate attributes, type and example
+description: App update
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.appUpdate  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+App update
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](../types/int.md) | Yes|
-|critical|[Bool](../types/Bool.md) | Yes|
-|url|[string](../types/string.md) | Yes|
-|text|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](../types/int.md) | Yes|ID|
+|critical|[Bool](../types/Bool.md) | Yes|Critical?|
+|url|[string](../types/string.md) | Yes|URL|
+|text|[string](../types/string.md) | Yes|Text|
 
 
 

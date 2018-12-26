@@ -1,12 +1,14 @@
 ---
 title: secureValueTypePhone
-description: secureValueTypePhone attributes, type and example
+description: Secure value type phone
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueTypePhone  
 [Back to constructors index](index.md)
 
 
+
+Secure value type phone
 
 
 

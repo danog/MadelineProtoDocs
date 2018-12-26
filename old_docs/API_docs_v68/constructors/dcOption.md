@@ -1,6 +1,6 @@
 ---
 title: dcOption
-description: dcOption attributes, type and example
+description: DC option
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: dcOption  
@@ -8,18 +8,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+DC option
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|ipv6|[Bool](../types/Bool.md) | Optional|
-|media\_only|[Bool](../types/Bool.md) | Optional|
-|tcpo\_only|[Bool](../types/Bool.md) | Optional|
-|cdn|[Bool](../types/Bool.md) | Optional|
-|static|[Bool](../types/Bool.md) | Optional|
-|id|[int](../types/int.md) | Yes|
-|ip\_address|[string](../types/string.md) | Yes|
-|port|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|ipv6|[Bool](../types/Bool.md) | Optional|Ipv6?|
+|media\_only|[Bool](../types/Bool.md) | Optional|Media only?|
+|tcpo\_only|[Bool](../types/Bool.md) | Optional|Tcpo only?|
+|cdn|[Bool](../types/Bool.md) | Optional|Cdn?|
+|static|[Bool](../types/Bool.md) | Optional|Static?|
+|id|[int](../types/int.md) | Yes|ID|
+|ip\_address|[string](../types/string.md) | Yes|Ip address|
+|port|[int](../types/int.md) | Yes|Port|
 
 
 

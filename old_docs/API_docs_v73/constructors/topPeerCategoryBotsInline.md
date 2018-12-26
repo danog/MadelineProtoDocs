@@ -1,12 +1,14 @@
 ---
 title: topPeerCategoryBotsInline
-description: topPeerCategoryBotsInline attributes, type and example
+description: Top peer category bots inline
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: topPeerCategoryBotsInline  
 [Back to constructors index](index.md)
 
 
+
+Top peer category bots inline
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: updateChannelMessageViews
-description: updateChannelMessageViews attributes, type and example
+description: Update channel message views
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelMessageViews  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update channel message views
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel\_id|[int](../types/int.md) | Yes|
-|id|[int](../types/int.md) | Yes|
-|views|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|channel\_id|[int](../types/int.md) | Yes|Channel ID|
+|id|[int](../types/int.md) | Yes|ID|
+|views|[int](../types/int.md) | Yes|Views|
 
 
 

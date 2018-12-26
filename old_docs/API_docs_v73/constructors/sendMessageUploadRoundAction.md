@@ -1,6 +1,6 @@
 ---
 title: sendMessageUploadRoundAction
-description: sendMessageUploadRoundAction attributes, type and example
+description: Send message upload round action
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageUploadRoundAction  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Send message upload round action
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|progress|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|progress|[int](../types/int.md) | Yes|Progress|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: authorization
-description: authorization attributes, type and example
+description: Authorization
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: authorization  
@@ -8,22 +8,24 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Authorization
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|[long](../types/long.md) | Yes|
-|device\_model|[string](../types/string.md) | Yes|
-|platform|[string](../types/string.md) | Yes|
-|system\_version|[string](../types/string.md) | Yes|
-|api\_id|[int](../types/int.md) | Yes|
-|app\_name|[string](../types/string.md) | Yes|
-|app\_version|[string](../types/string.md) | Yes|
-|date\_created|[int](../types/int.md) | Yes|
-|date\_active|[int](../types/int.md) | Yes|
-|ip|[string](../types/string.md) | Yes|
-|country|[string](../types/string.md) | Yes|
-|region|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|hash|[long](../types/long.md) | Yes|Hash|
+|device\_model|[string](../types/string.md) | Yes|Device model|
+|platform|[string](../types/string.md) | Yes|Platform|
+|system\_version|[string](../types/string.md) | Yes|System version|
+|api\_id|[int](../types/int.md) | Yes|Api ID|
+|app\_name|[string](../types/string.md) | Yes|App name|
+|app\_version|[string](../types/string.md) | Yes|App version|
+|date\_created|[int](../types/int.md) | Yes|Date created|
+|date\_active|[int](../types/int.md) | Yes|Date active|
+|ip|[string](../types/string.md) | Yes|Ip|
+|country|[string](../types/string.md) | Yes|Country|
+|region|[string](../types/string.md) | Yes|Region|
 
 
 

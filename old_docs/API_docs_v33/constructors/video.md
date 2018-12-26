@@ -1,6 +1,6 @@
 ---
 title: video
-description: video attributes, type and example
+description: Video
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: video  
@@ -8,20 +8,22 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Video
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[long](../types/long.md) | Yes|
-|access\_hash|[long](../types/long.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|duration|[int](../types/int.md) | Yes|
-|mime\_type|[string](../types/string.md) | Yes|
-|size|[int](../types/int.md) | Yes|
-|thumb|[PhotoSize](../types/PhotoSize.md) | Optional|
-|dc\_id|[int](../types/int.md) | Yes|
-|w|[int](../types/int.md) | Yes|
-|h|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[long](../types/long.md) | Yes|ID|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|date|[int](../types/int.md) | Yes|Date|
+|duration|[int](../types/int.md) | Yes|Duration|
+|mime\_type|[string](../types/string.md) | Yes|Mime type|
+|size|[int](../types/int.md) | Yes|Size|
+|thumb|[PhotoSize](../types/PhotoSize.md) | Optional|Thumbnail|
+|dc\_id|[int](../types/int.md) | Yes|DC ID|
+|w|[int](../types/int.md) | Yes|Width|
+|h|[int](../types/int.md) | Yes|Height|
 
 
 

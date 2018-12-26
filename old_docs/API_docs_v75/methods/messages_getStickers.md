@@ -14,7 +14,7 @@ Get stickers
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |emoticon|[string](../types/string.md) | Search by emoji | Yes|
-|hash|[string](../types/string.md) | previously fetched sticker IDs | Yes|
+|hash|[string](../types/string.md) | Previously fetched sticker IDs | Yes|
 
 
 ### Return type: [messages\_Stickers](../types/messages_Stickers.md)

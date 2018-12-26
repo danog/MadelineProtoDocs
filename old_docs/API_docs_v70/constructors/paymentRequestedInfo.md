@@ -1,6 +1,6 @@
 ---
 title: paymentRequestedInfo
-description: paymentRequestedInfo attributes, type and example
+description: Payment requested info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: paymentRequestedInfo  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Payment requested info
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|name|[string](../types/string.md) | Optional|
-|phone|[string](../types/string.md) | Optional|
-|email|[string](../types/string.md) | Optional|
-|shipping\_address|[PostAddress](../types/PostAddress.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|name|[string](../types/string.md) | Optional|Name|
+|phone|[string](../types/string.md) | Optional|Phone|
+|email|[string](../types/string.md) | Optional|Email|
+|shipping\_address|[PostAddress](../types/PostAddress.md) | Optional|Shipping address|
 
 
 

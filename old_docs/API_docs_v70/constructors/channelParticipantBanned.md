@@ -1,6 +1,6 @@
 ---
 title: channelParticipantBanned
-description: channelParticipantBanned attributes, type and example
+description: Channel participant banned
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantBanned  
@@ -8,15 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Channel participant banned
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|left|[Bool](../types/Bool.md) | Optional|
-|user\_id|[int](../types/int.md) | Yes|
-|kicked\_by|[int](../types/int.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|banned\_rights|[ChannelBannedRights](../types/ChannelBannedRights.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|left|[Bool](../types/Bool.md) | Optional|Left?|
+|user\_id|[int](../types/int.md) | Yes|User ID|
+|kicked\_by|[int](../types/int.md) | Yes|Kicked by|
+|date|[int](../types/int.md) | Yes|Date|
+|banned\_rights|[ChannelBannedRights](../types/ChannelBannedRights.md) | Yes|Banned rights|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: messages.stickerSetInstallResultArchive
-description: messages_stickerSetInstallResultArchive attributes, type and example
+description: Sticker set install result archive
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.stickerSetInstallResultArchive  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Sticker set install result archive
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|sets|Array of [StickerSetCovered](../types/StickerSetCovered.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|sets|Array of [StickerSetCovered](../types/StickerSetCovered.md) | Yes|Sets|
 
 
 

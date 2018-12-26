@@ -1,6 +1,6 @@
 ---
 title: userContact
-description: userContact attributes, type and example
+description: User contact
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userContact  
@@ -8,18 +8,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+User contact
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](../types/int.md) | Yes|
-|first\_name|[string](../types/string.md) | Yes|
-|last\_name|[string](../types/string.md) | Yes|
-|username|[string](../types/string.md) | Yes|
-|access\_hash|[long](../types/long.md) | Yes|
-|phone|[string](../types/string.md) | Yes|
-|photo|[UserProfilePhoto](../types/UserProfilePhoto.md) | Optional|
-|status|[UserStatus](../types/UserStatus.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](../types/int.md) | Yes|ID|
+|first\_name|[string](../types/string.md) | Yes|First name|
+|last\_name|[string](../types/string.md) | Yes|Last name|
+|username|[string](../types/string.md) | Yes|Username|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|phone|[string](../types/string.md) | Yes|Phone|
+|photo|[UserProfilePhoto](../types/UserProfilePhoto.md) | Optional|Photo|
+|status|[UserStatus](../types/UserStatus.md) | Optional|Status|
 
 
 

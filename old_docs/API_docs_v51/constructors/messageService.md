@@ -1,6 +1,6 @@
 ---
 title: messageService
-description: messageService attributes, type and example
+description: Message service
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageService  
@@ -8,22 +8,24 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message service
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|unread|[Bool](../types/Bool.md) | Optional|
-|out|[Bool](../types/Bool.md) | Optional|
-|mentioned|[Bool](../types/Bool.md) | Optional|
-|media\_unread|[Bool](../types/Bool.md) | Optional|
-|silent|[Bool](../types/Bool.md) | Optional|
-|post|[Bool](../types/Bool.md) | Optional|
-|id|[int](../types/int.md) | Yes|
-|from\_id|[int](../types/int.md) | Optional|
-|to\_id|[Peer](../types/Peer.md) | Yes|
-|reply\_to\_msg\_id|[int](../types/int.md) | Optional|
-|date|[int](../types/int.md) | Yes|
-|action|[MessageAction](../types/MessageAction.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|unread|[Bool](../types/Bool.md) | Optional|Unread?|
+|out|[Bool](../types/Bool.md) | Optional|Out?|
+|mentioned|[Bool](../types/Bool.md) | Optional|Mentioned?|
+|media\_unread|[Bool](../types/Bool.md) | Optional|Media unread?|
+|silent|[Bool](../types/Bool.md) | Optional|Silent?|
+|post|[Bool](../types/Bool.md) | Optional|Post?|
+|id|[int](../types/int.md) | Yes|ID|
+|from\_id|[int](../types/int.md) | Optional|From ID|
+|to\_id|[Peer](../types/Peer.md) | Yes|To ID|
+|reply\_to\_msg\_id|[int](../types/int.md) | Optional|Reply to msg ID|
+|date|[int](../types/int.md) | Yes|Date|
+|action|[MessageAction](../types/MessageAction.md) | Optional|Action|
 
 
 

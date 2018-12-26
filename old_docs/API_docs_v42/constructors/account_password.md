@@ -1,6 +1,6 @@
 ---
 title: account.password
-description: account_password attributes, type and example
+description: Password
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: account.password  
@@ -8,15 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Password
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|current\_salt|[bytes](../types/bytes.md) | Yes|
-|new\_salt|[bytes](../types/bytes.md) | Yes|
-|hint|[string](../types/string.md) | Yes|
-|has\_recovery|[Bool](../types/Bool.md) | Yes|
-|email\_unconfirmed\_pattern|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|current\_salt|[bytes](../types/bytes.md) | Yes|Current salt|
+|new\_salt|[bytes](../types/bytes.md) | Yes|New salt|
+|hint|[string](../types/string.md) | Yes|Hint|
+|has\_recovery|[Bool](../types/Bool.md) | Yes|Has recovery?|
+|email\_unconfirmed\_pattern|[string](../types/string.md) | Yes|Email unconfirmed pattern|
 
 
 

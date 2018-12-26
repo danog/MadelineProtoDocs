@@ -1,6 +1,6 @@
 ---
 title: inputPaymentCredentialsApplePay
-description: inputPaymentCredentialsApplePay attributes, type and example
+description: Payment credentials apple pay
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPaymentCredentialsApplePay  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Payment credentials apple pay
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|payment\_data|[DataJSON](../types/DataJSON.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|payment\_data|[DataJSON](../types/DataJSON.md) | Yes|Payment data|
 
 
 

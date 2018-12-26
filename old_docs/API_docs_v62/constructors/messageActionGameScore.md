@@ -1,6 +1,6 @@
 ---
 title: messageActionGameScore
-description: messageActionGameScore attributes, type and example
+description: Message action game score
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionGameScore  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message action game score
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|game\_id|[long](../types/long.md) | Yes|
-|score|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|game\_id|[long](../types/long.md) | Yes|Game ID|
+|score|[int](../types/int.md) | Yes|Score|
 
 
 

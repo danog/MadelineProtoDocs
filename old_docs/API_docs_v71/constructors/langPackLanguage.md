@@ -1,6 +1,6 @@
 ---
 title: langPackLanguage
-description: langPackLanguage attributes, type and example
+description: Lang pack language
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: langPackLanguage  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Lang pack language
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|name|[string](../types/string.md) | Yes|
-|native\_name|[string](../types/string.md) | Yes|
-|lang\_code|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|name|[string](../types/string.md) | Yes|Name|
+|native\_name|[string](../types/string.md) | Yes|Native name|
+|lang\_code|[string](../types/string.md) | Yes|Lang code|
 
 
 

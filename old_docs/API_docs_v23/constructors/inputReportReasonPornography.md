@@ -1,12 +1,14 @@
 ---
 title: inputReportReasonPornography
-description: inputReportReasonPornography attributes, type and example
+description: Report reason pornography
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputReportReasonPornography  
 [Back to constructors index](index.md)
 
 
+
+Report reason pornography
 
 
 

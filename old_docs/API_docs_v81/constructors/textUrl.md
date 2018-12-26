@@ -1,6 +1,6 @@
 ---
 title: textUrl
-description: textUrl attributes, type and example
+description: Text URL
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textUrl  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Text URL
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|text|[RichText](../types/RichText.md) | Yes|
-|url|[string](../types/string.md) | Yes|
-|webpage\_id|[long](../types/long.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|text|[RichText](../types/RichText.md) | Yes|Text|
+|url|[string](../types/string.md) | Yes|URL|
+|webpage\_id|[long](../types/long.md) | Yes|Webpage ID|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: updates
-description: updates attributes, type and example
+description: Updates
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updates  
@@ -8,15 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Updates
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|updates|Array of [Update](../types/Update.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
-|chats|Array of [Chat](../types/Chat.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|seq|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|updates|Array of [Update](../types/Update.md) | Yes|Updates|
+|users|Array of [User](../types/User.md) | Yes|Users|
+|chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
+|date|[int](../types/int.md) | Yes|Date|
+|seq|[int](../types/int.md) | Yes|Seq|
 
 
 

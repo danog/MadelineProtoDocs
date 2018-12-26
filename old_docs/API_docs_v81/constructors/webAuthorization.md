@@ -1,6 +1,6 @@
 ---
 title: webAuthorization
-description: webAuthorization attributes, type and example
+description: Web authorization
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: webAuthorization  
@@ -8,19 +8,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Web authorization
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|[long](../types/long.md) | Yes|
-|bot\_id|[int](../types/int.md) | Yes|
-|domain|[string](../types/string.md) | Yes|
-|browser|[string](../types/string.md) | Yes|
-|platform|[string](../types/string.md) | Yes|
-|date\_created|[int](../types/int.md) | Yes|
-|date\_active|[int](../types/int.md) | Yes|
-|ip|[string](../types/string.md) | Yes|
-|region|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|hash|[long](../types/long.md) | Yes|Hash|
+|bot\_id|[int](../types/int.md) | Yes|Bot ID|
+|domain|[string](../types/string.md) | Yes|Domain|
+|browser|[string](../types/string.md) | Yes|Browser|
+|platform|[string](../types/string.md) | Yes|Platform|
+|date\_created|[int](../types/int.md) | Yes|Date created|
+|date\_active|[int](../types/int.md) | Yes|Date active|
+|ip|[string](../types/string.md) | Yes|Ip|
+|region|[string](../types/string.md) | Yes|Region|
 
 
 

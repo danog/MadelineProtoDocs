@@ -1,6 +1,6 @@
 ---
 title: inputEncryptedFileBigUploaded
-description: inputEncryptedFileBigUploaded attributes, type and example
+description: Encrypted file big uploaded
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputEncryptedFileBigUploaded  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Encrypted file big uploaded
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[long](../types/long.md) | Yes|
-|parts|[int](../types/int.md) | Yes|
-|key\_fingerprint|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[long](../types/long.md) | Yes|ID|
+|parts|[int](../types/int.md) | Yes|Parts|
+|key\_fingerprint|[int](../types/int.md) | Yes|Key fingerprint|
 
 
 

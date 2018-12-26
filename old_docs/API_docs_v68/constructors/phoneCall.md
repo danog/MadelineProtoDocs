@@ -1,6 +1,6 @@
 ---
 title: phoneCall
-description: phoneCall attributes, type and example
+description: Phone call
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneCall  
@@ -8,21 +8,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Phone call
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[long](../types/long.md) | Yes|
-|access\_hash|[long](../types/long.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|admin\_id|[int](../types/int.md) | Yes|
-|participant\_id|[int](../types/int.md) | Yes|
-|g\_a\_or\_b|[bytes](../types/bytes.md) | Yes|
-|key\_fingerprint|[long](../types/long.md) | Yes|
-|protocol|[PhoneCallProtocol](../types/PhoneCallProtocol.md) | Yes|
-|connection|[PhoneConnection](../types/PhoneConnection.md) | Yes|
-|alternative\_connections|Array of [PhoneConnection](../types/PhoneConnection.md) | Yes|
-|start\_date|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[long](../types/long.md) | Yes|ID|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|date|[int](../types/int.md) | Yes|Date|
+|admin\_id|[int](../types/int.md) | Yes|Admin ID|
+|participant\_id|[int](../types/int.md) | Yes|Participant ID|
+|g\_a\_or\_b|[bytes](../types/bytes.md) | Yes|G a or b|
+|key\_fingerprint|[long](../types/long.md) | Yes|Key fingerprint|
+|protocol|[PhoneCallProtocol](../types/PhoneCallProtocol.md) | Yes|Protocol|
+|connection|[PhoneConnection](../types/PhoneConnection.md) | Yes|Connection|
+|alternative\_connections|Array of [PhoneConnection](../types/PhoneConnection.md) | Yes|Alternative connections|
+|start\_date|[int](../types/int.md) | Yes|Start date|
 
 
 

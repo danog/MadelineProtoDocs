@@ -1,6 +1,6 @@
 ---
 title: messages.botCallbackAnswer
-description: messages_botCallbackAnswer attributes, type and example
+description: Bot callback answer
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.botCallbackAnswer  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Bot callback answer
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|alert|[Bool](../types/Bool.md) | Optional|
-|message|[string](../types/string.md) | Optional|
-|url|[string](../types/string.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|alert|[Bool](../types/Bool.md) | Optional|Alert?|
+|message|[string](../types/string.md) | Optional|Message|
+|url|[string](../types/string.md) | Optional|URL|
 
 
 

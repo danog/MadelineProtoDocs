@@ -1,12 +1,14 @@
 ---
 title: botInfoEmpty
-description: botInfoEmpty attributes, type and example
+description: Empty bot info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: botInfoEmpty  
 [Back to constructors index](index.md)
 
 
+
+Empty bot info
 
 
 

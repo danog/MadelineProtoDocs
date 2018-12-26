@@ -1,6 +1,6 @@
 ---
 title: updateChatParticipants
-description: updateChatParticipants attributes, type and example
+description: Update chat participants
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChatParticipants  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update chat participants
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|participants|[ChatParticipants](../types/ChatParticipants.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|participants|[ChatParticipants](../types/ChatParticipants.md) | Yes|Participants|
 
 
 

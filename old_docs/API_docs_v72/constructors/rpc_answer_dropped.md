@@ -1,6 +1,6 @@
 ---
 title: rpc_answer_dropped
-description: rpc_answer_dropped attributes, type and example
+description: Rpc answer dropped
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: rpc\_answer\_dropped  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Rpc answer dropped
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|msg\_id|[long](../types/long.md) | Yes|
-|seq\_no|[int](../types/int.md) | Yes|
-|bytes|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|msg\_id|[long](../types/long.md) | Yes|Msg ID|
+|seq\_no|[int](../types/int.md) | Yes|Seq no|
+|bytes|[int](../types/int.md) | Yes|Bytes|
 
 
 

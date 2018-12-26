@@ -1,6 +1,6 @@
 ---
 title: photoSize
-description: photoSize attributes, type and example
+description: Photo size
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: photoSize  
@@ -8,15 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Photo size
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|type|[string](../types/string.md) | Yes|
-|location|[FileLocation](../types/FileLocation.md) | Yes|
-|w|[int](../types/int.md) | Yes|
-|h|[int](../types/int.md) | Yes|
-|size|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|type|[string](../types/string.md) | Yes|Type|
+|location|[FileLocation](../types/FileLocation.md) | Yes|Location|
+|w|[int](../types/int.md) | Yes|Width|
+|h|[int](../types/int.md) | Yes|Height|
+|size|[int](../types/int.md) | Yes|Size|
 
 
 

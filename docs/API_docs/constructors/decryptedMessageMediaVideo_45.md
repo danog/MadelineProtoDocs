@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageMediaVideo
-description: decryptedMessageMediaVideo attributes, type and example
+description: Decrypted message media video
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaVideo\_45  
@@ -8,19 +8,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Decrypted message media video
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|thumb|[bytes](../types/bytes.md) | Yes|
-|thumb\_w|[int](../types/int.md) | Yes|
-|thumb\_h|[int](../types/int.md) | Yes|
-|duration|[int](../types/int.md) | Yes|
-|mime\_type|[string](../types/string.md) | Yes|
-|w|[int](../types/int.md) | Yes|
-|h|[int](../types/int.md) | Yes|
-|size|[int](../types/int.md) | Yes|
-|caption|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|thumb|[bytes](../types/bytes.md) | Yes|Thumbnail|
+|thumb\_w|[int](../types/int.md) | Yes|Thumbnail width|
+|thumb\_h|[int](../types/int.md) | Yes|Thumbnail height|
+|duration|[int](../types/int.md) | Yes|Duration|
+|mime\_type|[string](../types/string.md) | Yes|Mime type|
+|w|[int](../types/int.md) | Yes|Width|
+|h|[int](../types/int.md) | Yes|Height|
+|size|[int](../types/int.md) | Yes|Size|
+|caption|[string](../types/string.md) | Yes|Caption|
 
 
 

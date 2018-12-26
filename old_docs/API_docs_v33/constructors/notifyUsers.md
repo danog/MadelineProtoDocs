@@ -1,12 +1,14 @@
 ---
 title: notifyUsers
-description: notifyUsers attributes, type and example
+description: Notify users
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: notifyUsers  
 [Back to constructors index](index.md)
 
 
+
+Notify users
 
 
 

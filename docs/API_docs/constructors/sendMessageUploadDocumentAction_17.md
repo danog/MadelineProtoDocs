@@ -1,12 +1,14 @@
 ---
 title: sendMessageUploadDocumentAction
-description: sendMessageUploadDocumentAction attributes, type and example
+description: Send message upload document action
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageUploadDocumentAction\_17  
 [Back to constructors index](index.md)
 
 
+
+Send message upload document action
 
 
 

@@ -1,12 +1,14 @@
 ---
 title: updateRecentStickers
-description: updateRecentStickers attributes, type and example
+description: Update recent stickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateRecentStickers  
 [Back to constructors index](index.md)
 
 
+
+Update recent stickers
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: documentAttributeSticker
-description: documentAttributeSticker attributes, type and example
+description: Document attribute sticker
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: documentAttributeSticker\_55  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Document attribute sticker
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|alt|[string](../types/string.md) | Yes|
-|stickerset|[InputStickerSet](../types/InputStickerSet.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|alt|[string](../types/string.md) | Yes|Alt|
+|stickerset|[InputStickerSet](../types/InputStickerSet.md) | Optional|Stickerset|
 
 
 

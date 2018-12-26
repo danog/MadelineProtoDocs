@@ -1,6 +1,6 @@
 ---
 title: secureCredentialsEncrypted
-description: secureCredentialsEncrypted attributes, type and example
+description: Secure credentials encrypted
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureCredentialsEncrypted  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Secure credentials encrypted
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|data|[bytes](../types/bytes.md) | Yes|
-|hash|[bytes](../types/bytes.md) | Yes|
-|secret|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|data|[bytes](../types/bytes.md) | Yes|Data|
+|hash|[bytes](../types/bytes.md) | Yes|Hash|
+|secret|[bytes](../types/bytes.md) | Yes|Secret|
 
 
 

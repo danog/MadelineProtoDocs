@@ -1,6 +1,6 @@
 ---
 title: chatInvite
-description: chatInvite attributes, type and example
+description: Chat invite
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatInvite  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Chat invite
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|title|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|title|[string](../types/string.md) | Yes|Title|
 
 
 

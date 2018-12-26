@@ -1,12 +1,14 @@
 ---
 title: help.noAppUpdate
-description: help_noAppUpdate attributes, type and example
+description: No app update
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.noAppUpdate  
 [Back to constructors index](index.md)
 
 
+
+No app update
 
 
 

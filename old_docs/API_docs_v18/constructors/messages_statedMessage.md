@@ -1,6 +1,6 @@
 ---
 title: messages.statedMessage
-description: messages_statedMessage attributes, type and example
+description: Stated message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.statedMessage  
@@ -8,15 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Stated message
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|message|[Message](../types/Message.md) | Optional|
-|chats|Array of [Chat](../types/Chat.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
-|pts|[int](../types/int.md) | Yes|
-|seq|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|message|[Message](../types/Message.md) | Optional|Message|
+|chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
+|users|Array of [User](../types/User.md) | Yes|Users|
+|pts|[int](../types/int.md) | Yes|Pts|
+|seq|[int](../types/int.md) | Yes|Seq|
 
 
 

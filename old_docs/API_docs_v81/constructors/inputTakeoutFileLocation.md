@@ -1,12 +1,14 @@
 ---
 title: inputTakeoutFileLocation
-description: inputTakeoutFileLocation attributes, type and example
+description: Takeout file location
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputTakeoutFileLocation  
 [Back to constructors index](index.md)
 
 
+
+Takeout file location
 
 
 

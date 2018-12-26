@@ -1,12 +1,14 @@
 ---
 title: rpc_answer_unknown
-description: rpc_answer_unknown attributes, type and example
+description: Rpc answer unknown
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: rpc\_answer\_unknown  
 [Back to constructors index](index.md)
 
 
+
+Rpc answer unknown
 
 
 

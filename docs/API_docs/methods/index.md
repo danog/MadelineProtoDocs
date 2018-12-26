@@ -64,6 +64,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages_getInlineBotResults.html" name="messages_getInlineBotResults">Call inline bot: messages.getInlineBotResults</a>  
 
+* <a href="account_cancelPasswordEmail.html" name="account_cancelPasswordEmail">Cancel password recovery email: account.cancelPasswordEmail</a>  
+
 * <a href="account_updateNotifySettings.html" name="account_updateNotifySettings">Change notification settings: account.updateNotifySettings</a>  
 
 * <a href="stickers_changeStickerPosition.html" name="stickers_changeStickerPosition">Change sticker position in photo: stickers.changeStickerPosition</a>  
@@ -71,6 +73,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="account_changePhone.html" name="account_changePhone">Change the phone number associated to this account: account.changePhone</a>  
 
 * <a href="account_sendChangePhoneCode.html" name="account_sendChangePhoneCode">Change the phone number: account.sendChangePhoneCode</a>  
+
+* <a href="photos_updateProfilePhoto.html" name="photos_updateProfilePhoto">Change the profile photo: photos.updateProfilePhoto</a>  
 
 * <a href="messages_setTyping.html" name="messages_setTyping">Change typing status: messages.setTyping</a>  
 
@@ -82,11 +86,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels_checkUsername.html" name="channels_checkUsername">Check if this username is free and can be assigned to a channel/supergroup: channels.checkUsername</a>  
 
+* <a href="messages_clearAllDrafts.html" name="messages_clearAllDrafts">Clear all drafts: messages.clearAllDrafts</a>  
+
 * <a href="messages_clearRecentStickers.html" name="messages_clearRecentStickers">Clear all recent stickers: messages.clearRecentStickers</a>  
 
 * <a href="payments_clearSavedInfo.html" name="payments_clearSavedInfo">Clear saved payments info: payments.clearSavedInfo</a>  
 
+* <a href="account_confirmPasswordEmail.html" name="account_confirmPasswordEmail">Confirm password recovery using email: account.confirmPasswordEmail</a>  
+
 * <a href="account_confirmPhone.html" name="account_confirmPhone">Confirm this phone number is associated to this account, obtain phone_code_hash from sendConfirmPhoneCode: account.confirmPhone</a>  
+
+* <a href="account_getContactSignUpNotification.html" name="account_getContactSignUpNotification">Contact signup notification setting value: account.getContactSignUpNotification</a>  
 
 * <a href="messages_migrateChat.html" name="messages_migrateChat">Convert chat to supergroup: messages.migrateChat</a>  
 
@@ -115,6 +125,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="channels_deleteMessages.html" name="channels_deleteMessages">Delete channel/supergroup messages: channels.deleteMessages</a>  
 
 * <a href="messages_deleteHistory.html" name="messages_deleteHistory">Delete chat history: messages.deleteHistory</a>  
+
+* <a href="contacts_deleteByPhones.html" name="contacts_deleteByPhones">Delete contacts by phones: contacts.deleteByPhones</a>  
 
 * <a href="messages_deleteMessages.html" name="messages_deleteMessages">Delete messages: messages.deleteMessages</a>  
 
@@ -150,13 +162,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels_editTitle.html" name="channels_editTitle">Edit the title of a supergroup/channel: channels.editTitle</a>  
 
+* <a href="help_editUserInfo.html" name="help_editUserInfo">Edit user info: help.editUserInfo</a>  
+
 * <a href="messages_toggleChatAdmins.html" name="messages_toggleChatAdmins">Enable all users are admins in normal groups (not supergroups): messages.toggleChatAdmins</a>  
 
 * <a href="channels_togglePreHistoryHidden.html" name="channels_togglePreHistoryHidden">Enable or disable hidden history for new channel/supergroup users: channels.togglePreHistoryHidden</a>  
 
 * <a href="messages_exportChatInvite.html" name="messages_exportChatInvite">Export chat invite : messages.exportChatInvite</a>  
-
-* <a href="contacts_exportCard.html" name="contacts_exportCard">Export contact as card: contacts.exportCard</a>  
 
 * <a href="channels_exportInvite.html" name="channels_exportInvite">Export the invite link of a channel: channels.exportInvite</a>  
 
@@ -194,6 +206,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages_getMessagesViews.html" name="messages_getMessagesViews">Get and increase message views: messages.getMessagesViews</a>  
 
+* <a href="help_getAppConfig.html" name="help_getAppConfig">Get app config: help.getAppConfig</a>  
+
 * <a href="langpack_getLanguages.html" name="langpack_getLanguages">Get available languages: langpack.getLanguages</a>  
 
 * <a href="contacts_getBlocked.html" name="contacts_getBlocked">Get blocked users: contacts.getBlocked</a>  
@@ -205,6 +219,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="channels_getParticipants.html" name="channels_getParticipants">Get channel/supergroup participants (you should use `$MadelineProto->get_pwr_chat($id)` instead): channels.getParticipants</a>  
 
 * <a href="messages_getCommonChats.html" name="messages_getCommonChats">Get chats in common with a user: messages.getCommonChats</a>  
+
+* <a href="contacts_getContactIDs.html" name="contacts_getContactIDs">Get contacts by IDs: contacts.getContactIDs</a>  
 
 * <a href="help_getDeepLinkInfo.html" name="help_getDeepLinkInfo">Get deep link info: help.getDeepLinkInfo</a>  
 
@@ -244,6 +260,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="langpack_getLangPack.html" name="langpack_getLangPack">Get language pack: langpack.getLangPack</a>  
 
+* <a href="langpack_getLanguage.html" name="langpack_getLanguage">Get language: langpack.getLanguage</a>  
+
 * <a href="messages_getMaskStickers.html" name="messages_getMaskStickers">Get masks: messages.getMaskStickers</a>  
 
 * <a href="messages_getSplitRanges.html" name="messages_getSplitRanges">Get message ranges to fetch: messages.getSplitRanges</a>  
@@ -254,15 +272,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="help_getNearestDc.html" name="help_getNearestDc">Get nearest datacenter: help.getNearestDc</a>  
 
+* <a href="account_getNotifyExceptions.html" name="account_getNotifyExceptions">Get notification exceptions: account.getNotifyExceptions</a>  
+
 * <a href="account_getNotifySettings.html" name="account_getNotifySettings">Get notification settings: account.getNotifySettings</a>  
 
 * <a href="contacts_getStatuses.html" name="contacts_getStatuses">Get online status of all users: contacts.getStatuses</a>  
+
+* <a href="messages_getOnlines.html" name="messages_getOnlines">Get online users: messages.getOnlines</a>  
+
+* <a href="help_getPassportConfig.html" name="help_getPassportConfig">Get passport config: help.getPassportConfig</a>  
 
 * <a href="payments_getPaymentForm.html" name="payments_getPaymentForm">Get payment form: payments.getPaymentForm</a>  
 
 * <a href="payments_getPaymentReceipt.html" name="payments_getPaymentReceipt">Get payment receipt: payments.getPaymentReceipt</a>  
 
 * <a href="messages_getPinnedDialogs.html" name="messages_getPinnedDialogs">Get pinned dialogs: messages.getPinnedDialogs</a>  
+
+* <a href="messages_getPollResults.html" name="messages_getPollResults">Get poll results: messages.getPollResults</a>  
 
 * <a href="messages_getHistory.html" name="messages_getHistory">Get previous messages of a group: messages.getHistory</a>  
 
@@ -284,9 +310,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="help_getConfig.html" name="help_getConfig">Get server configuration: help.getConfig</a>  
 
+* <a href="messages_getStatsURL.html" name="messages_getStatsURL">Get stats URL: messages.getStatsURL</a>  
+
 * <a href="messages_getAttachedStickers.html" name="messages_getAttachedStickers">Get stickers attachable to images: messages.getAttachedStickers</a>  
 
 * <a href="messages_getStickers.html" name="messages_getStickers">Get stickers: messages.getStickers</a>  
+
+* <a href="help_getSupportName.html" name="help_getSupportName">Get support name: help.getSupportName</a>  
 
 * <a href="account_getWebAuthorizations.html" name="account_getWebAuthorizations">Get telegram web login authorizations: account.getWebAuthorizations</a>  
 
@@ -295,8 +325,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages_getBotCallbackAnswer.html" name="messages_getBotCallbackAnswer">Get the callback answer of a bot (after clicking a button): messages.getBotCallbackAnswer</a>  
 
 * <a href="help_getAppChangelog.html" name="help_getAppChangelog">Get the changelog of this app: help.getAppChangelog</a>  
-
-* <a href="account_getPasswordSettings.html" name="account_getPasswordSettings">Get the current 2FA settings: account.getPasswordSettings</a>  
 
 * <a href="account_getPassword.html" name="account_getPassword">Get the current password: account.getPassword</a>  
 
@@ -310,6 +338,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="help_getTermsOfServiceUpdate.html" name="help_getTermsOfServiceUpdate">Get updated TOS: help.getTermsOfServiceUpdate</a>  
 
+* <a href="help_getUserInfo.html" name="help_getUserInfo">Get user info: help.getUserInfo</a>  
+
 * <a href="messages_getWebPage.html" name="messages_getWebPage">Get webpage preview: messages.getWebPage</a>  
 
 * <a href="messages_getWebPagePreview.html" name="messages_getWebPagePreview">Get webpage preview: messages.getWebPagePreview</a>  
@@ -319,8 +349,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages_searchGlobal.html" name="messages_searchGlobal">Global message search: messages.searchGlobal</a>  
 
 * <a href="messages_hideReportSpam.html" name="messages_hideReportSpam">Hide report spam popup: messages.hideReportSpam</a>  
-
-* <a href="contacts_importCard.html" name="contacts_importCard">Import card as contact: contacts.importCard</a>  
 
 * <a href="messages_importChatInvite.html" name="messages_importChatInvite">Import chat invite: messages.importChatInvite</a>  
 
@@ -388,6 +416,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account_reportPeer.html" name="account_reportPeer">Report for spam: account.reportPeer</a>  
 
+* <a href="account_resendPasswordEmail.html" name="account_resendPasswordEmail">Resend password recovery email: account.resendPasswordEmail</a>  
+
 * <a href="auth_resendCode.html" name="auth_resendCode">Resend the SMS verification code: auth.resendCode</a>  
 
 * <a href="account_resetNotifySettings.html" name="account_resetNotifySettings">Reset all notification settings: account.resetNotifySettings</a>  
@@ -444,9 +474,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages_setEncryptedTyping.html" name="messages_setEncryptedTyping">Send typing notification to secret chat: messages.setEncryptedTyping</a>  
 
+* <a href="messages_sendVote.html" name="messages_sendVote">Send vote: messages.sendVote</a>  
+
 * <a href="bots_answerWebhookJSONQuery.html" name="bots_answerWebhookJSONQuery">Send webhook request via bot API: bots.answerWebhookJSONQuery</a>  
 
 * <a href="account_setAccountTTL.html" name="account_setAccountTTL">Set account TTL: account.setAccountTTL</a>  
+
+* <a href="account_setContactSignUpNotification.html" name="account_setContactSignUpNotification">Set contact sign up notification: account.setContactSignUpNotification</a>  
 
 * <a href="phone_setCallRating.html" name="phone_setCallRating">Set phone call rating: phone.setCallRating</a>  
 
@@ -457,8 +491,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages_setInlineGameScore.html" name="messages_setInlineGameScore">Set the game score of an inline message: messages.setInlineGameScore</a>  
 
 * <a href="messages_setGameScore.html" name="messages_setGameScore">Set the game score: messages.setGameScore</a>  
-
-* <a href="channels_updatePinnedMessage.html" name="channels_updatePinnedMessage">Set the pinned message of a channel/supergroup: channels.updatePinnedMessage</a>  
 
 * <a href="channels_setStickers.html" name="channels_setStickers">Set the supergroup/channel stickerpack: channels.setStickers</a>  
 
@@ -478,11 +510,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account_updateStatus.html" name="account_updateStatus">Update online status: account.updateStatus</a>  
 
+* <a href="messages_updatePinnedMessage.html" name="messages_updatePinnedMessage">Update pinned message (private chat only): messages.updatePinnedMessage</a>  
+
 * <a href="account_updateProfile.html" name="account_updateProfile">Update profile info: account.updateProfile</a>  
-
-* <a href="account_updatePasswordSettings.html" name="account_updatePasswordSettings">Update the 2FA password settings: account.updatePasswordSettings</a>  
-
-* <a href="photos_updateProfilePhoto.html" name="photos_updateProfilePhoto">Update the profile photo (use photos->uploadProfilePhoto to upload the photo): photos.updateProfilePhoto</a>  
 
 * <a href="channels_updateUsername.html" name="channels_updateUsername">Update the username of a supergroup/channel: channels.updateUsername</a>  
 

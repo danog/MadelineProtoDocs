@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageActionReadMessages
-description: decryptedMessageActionReadMessages attributes, type and example
+description: Decrypted message action read messages
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionReadMessages\_8  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Decrypted message action read messages
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|random\_ids|Array of [long](../types/long.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|random\_ids|Array of [long](../types/long.md) | Yes|Random IDs|
 
 
 

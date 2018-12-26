@@ -1,6 +1,6 @@
 ---
 title: messageRange
-description: messageRange attributes, type and example
+description: Message range
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageRange  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message range
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|min\_id|[int](../types/int.md) | Yes|
-|max\_id|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|min\_id|[int](../types/int.md) | Yes|Min ID|
+|max\_id|[int](../types/int.md) | Yes|Max ID|
 
 
 

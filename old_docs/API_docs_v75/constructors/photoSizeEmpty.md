@@ -1,6 +1,6 @@
 ---
 title: photoSizeEmpty
-description: photoSizeEmpty attributes, type and example
+description: Empty photo size
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: photoSizeEmpty  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Empty photo size
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|type|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|type|[string](../types/string.md) | Yes|Type|
 
 
 

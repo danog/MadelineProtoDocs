@@ -1,6 +1,6 @@
 ---
 title: inputPhotoCrop
-description: inputPhotoCrop attributes, type and example
+description: Photo crop
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPhotoCrop  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Photo crop
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|crop\_left|[double](../types/double.md) | Yes|
-|crop\_top|[double](../types/double.md) | Yes|
-|crop\_width|[double](../types/double.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|crop\_left|[double](../types/double.md) | Yes|Crop left|
+|crop\_top|[double](../types/double.md) | Yes|Crop top|
+|crop\_width|[double](../types/double.md) | Yes|Crop width|
 
 
 

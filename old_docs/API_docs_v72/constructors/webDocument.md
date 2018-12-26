@@ -1,6 +1,6 @@
 ---
 title: webDocument
-description: webDocument attributes, type and example
+description: Web document
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: webDocument  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Web document
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|url|[string](../types/string.md) | Yes|
-|access\_hash|[long](../types/long.md) | Yes|
-|size|[int](../types/int.md) | Yes|
-|mime\_type|[string](../types/string.md) | Yes|
-|attributes|Array of [DocumentAttribute](../types/DocumentAttribute.md) | Yes|
-|dc\_id|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|url|[string](../types/string.md) | Yes|URL|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|size|[int](../types/int.md) | Yes|Size|
+|mime\_type|[string](../types/string.md) | Yes|Mime type|
+|attributes|Array of [DocumentAttribute](../types/DocumentAttribute.md) | Yes|Attributes|
+|dc\_id|[int](../types/int.md) | Yes|DC ID|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: updates.channelDifferenceEmpty
-description: updates_channelDifferenceEmpty attributes, type and example
+description: Empty channel difference
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updates.channelDifferenceEmpty  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Empty channel difference
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|final|[Bool](../types/Bool.md) | Optional|
-|pts|[int](../types/int.md) | Yes|
-|timeout|[int](../types/int.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|final|[Bool](../types/Bool.md) | Optional|Final?|
+|pts|[int](../types/int.md) | Yes|Pts|
+|timeout|[int](../types/int.md) | Optional|Timeout|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: updateChatAdmins
-description: updateChatAdmins attributes, type and example
+description: Update chat admins
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChatAdmins  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update chat admins
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chat\_id|[int](../types/int.md) | Yes|
-|enabled|[Bool](../types/Bool.md) | Yes|
-|version|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|chat\_id|[int](../types/int.md) | Yes|Chat ID|
+|enabled|[Bool](../types/Bool.md) | Yes|Enabled?|
+|version|[int](../types/int.md) | Yes|Version|
 
 
 

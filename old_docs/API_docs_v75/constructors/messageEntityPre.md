@@ -1,6 +1,6 @@
 ---
 title: messageEntityPre
-description: messageEntityPre attributes, type and example
+description: Message entity pre
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageEntityPre  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message entity pre
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|offset|[int](../types/int.md) | Yes|
-|length|[int](../types/int.md) | Yes|
-|language|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|offset|[int](../types/int.md) | Yes|Offset|
+|length|[int](../types/int.md) | Yes|Length|
+|language|[string](../types/string.md) | Yes|Language|
 
 
 

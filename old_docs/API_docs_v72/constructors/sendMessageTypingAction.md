@@ -1,12 +1,14 @@
 ---
 title: sendMessageTypingAction
-description: sendMessageTypingAction attributes, type and example
+description: Send message typing action
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageTypingAction  
 [Back to constructors index](index.md)
 
 
+
+Send message typing action
 
 
 

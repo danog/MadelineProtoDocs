@@ -1,6 +1,6 @@
 ---
 title: updateEncryptedMessagesRead
-description: updateEncryptedMessagesRead attributes, type and example
+description: Update encrypted messages read
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateEncryptedMessagesRead  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Update encrypted messages read
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chat\_id|[int](../types/int.md) | Yes|
-|max\_date|[int](../types/int.md) | Yes|
-|date|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|chat\_id|[int](../types/int.md) | Yes|Chat ID|
+|max\_date|[int](../types/int.md) | Yes|Max date|
+|date|[int](../types/int.md) | Yes|Date|
 
 
 

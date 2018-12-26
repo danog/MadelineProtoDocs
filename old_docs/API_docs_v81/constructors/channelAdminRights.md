@@ -1,6 +1,6 @@
 ---
 title: channelAdminRights
-description: channelAdminRights attributes, type and example
+description: Admin rights
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminRights  
@@ -8,20 +8,22 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Admin rights
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|change\_info|[Bool](../types/Bool.md) | Optional|
-|post\_messages|[Bool](../types/Bool.md) | Optional|
-|edit\_messages|[Bool](../types/Bool.md) | Optional|
-|delete\_messages|[Bool](../types/Bool.md) | Optional|
-|ban\_users|[Bool](../types/Bool.md) | Optional|
-|invite\_users|[Bool](../types/Bool.md) | Optional|
-|invite\_link|[Bool](../types/Bool.md) | Optional|
-|pin\_messages|[Bool](../types/Bool.md) | Optional|
-|add\_admins|[Bool](../types/Bool.md) | Optional|
-|manage\_call|[Bool](../types/Bool.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|change\_info|[Bool](../types/Bool.md) | Optional|Change info|
+|post\_messages|[Bool](../types/Bool.md) | Optional|Post messages|
+|edit\_messages|[Bool](../types/Bool.md) | Optional|Edit messages|
+|delete\_messages|[Bool](../types/Bool.md) | Optional|Delete messages|
+|ban\_users|[Bool](../types/Bool.md) | Optional|Ban users|
+|invite\_users|[Bool](../types/Bool.md) | Optional|Invite users|
+|invite\_link|[Bool](../types/Bool.md) | Optional|Generate an invite link|
+|pin\_messages|[Bool](../types/Bool.md) | Optional|Pin messages|
+|add\_admins|[Bool](../types/Bool.md) | Optional|Add other admins|
+|manage\_call|[Bool](../types/Bool.md) | Optional|Manage group calls|
 
 
 

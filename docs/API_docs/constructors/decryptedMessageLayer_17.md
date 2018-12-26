@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageLayer
-description: decryptedMessageLayer attributes, type and example
+description: Decrypted message layer
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageLayer\_17  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Decrypted message layer
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|layer|[int](../types/int.md) | Yes|
-|in\_seq\_no|[int](../types/int.md) | Yes|
-|out\_seq\_no|[int](../types/int.md) | Yes|
-|message|[DecryptedMessage](../types/DecryptedMessage.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|layer|[int](../types/int.md) | Yes|Layer|
+|in\_seq\_no|[int](../types/int.md) | Yes|In seq no|
+|out\_seq\_no|[int](../types/int.md) | Yes|Out seq no|
+|message|[DecryptedMessage](../types/DecryptedMessage.md) | Yes|Message|
 
 
 

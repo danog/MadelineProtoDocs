@@ -1,6 +1,6 @@
 ---
 title: popularContact
-description: popularContact attributes, type and example
+description: Popular contact
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: popularContact  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Popular contact
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|client\_id|[long](../types/long.md) | Yes|
-|importers|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|client\_id|[long](../types/long.md) | Yes|Client ID|
+|importers|[int](../types/int.md) | Yes|Importers|
 
 
 

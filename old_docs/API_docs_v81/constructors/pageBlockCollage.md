@@ -1,6 +1,6 @@
 ---
 title: pageBlockCollage
-description: pageBlockCollage attributes, type and example
+description: Page block collage
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockCollage  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Page block collage
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|items|Array of [PageBlock](../types/PageBlock.md) | Yes|
-|caption|[RichText](../types/RichText.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|items|Array of [PageBlock](../types/PageBlock.md) | Yes|Items|
+|caption|[RichText](../types/RichText.md) | Yes|Caption|
 
 
 

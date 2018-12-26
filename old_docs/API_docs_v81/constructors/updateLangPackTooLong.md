@@ -1,12 +1,14 @@
 ---
 title: updateLangPackTooLong
-description: updateLangPackTooLong attributes, type and example
+description: Update lang pack too long
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateLangPackTooLong  
 [Back to constructors index](index.md)
 
 
+
+Update lang pack too long
 
 
 

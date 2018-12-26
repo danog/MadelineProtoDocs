@@ -1,6 +1,6 @@
 ---
 title: messages.featuredStickers
-description: messages_featuredStickers attributes, type and example
+description: Featured stickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.featuredStickers  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Featured stickers
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|[int](../types/int.md) | Yes|
-|sets|Array of [StickerSetCovered](../types/StickerSetCovered.md) | Yes|
-|unread|Array of [long](../types/long.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|hash|[int](../types/int.md) | Yes|Hash|
+|sets|Array of [StickerSetCovered](../types/StickerSetCovered.md) | Yes|Sets|
+|unread|Array of [long](../types/long.md) | Yes|Unread|
 
 
 

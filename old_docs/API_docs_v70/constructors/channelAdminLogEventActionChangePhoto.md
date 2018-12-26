@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionChangePhoto
-description: channelAdminLogEventActionChangePhoto attributes, type and example
+description: Change photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionChangePhoto  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Change photo
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|prev\_photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|
-|new\_photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|prev\_photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|Previous photo|
+|new\_photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|New photo|
 
 
 

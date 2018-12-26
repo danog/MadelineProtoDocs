@@ -1,6 +1,6 @@
 ---
 title: inputEncryptedFileUploaded
-description: inputEncryptedFileUploaded attributes, type and example
+description: Encrypted file uploaded
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputEncryptedFileUploaded  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Encrypted file uploaded
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[long](../types/long.md) | Yes|
-|parts|[int](../types/int.md) | Yes|
-|md5\_checksum|[string](../types/string.md) | Yes|
-|key\_fingerprint|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[long](../types/long.md) | Yes|ID|
+|parts|[int](../types/int.md) | Yes|Parts|
+|md5\_checksum|[string](../types/string.md) | Yes|Md5 checksum|
+|key\_fingerprint|[int](../types/int.md) | Yes|Key fingerprint|
 
 
 
