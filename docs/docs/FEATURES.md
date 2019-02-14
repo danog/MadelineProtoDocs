@@ -9,7 +9,7 @@ MadelineProto can do everything official clients can do, and more!
 
 * It allows you to do everything official clients can do, programmatically!
 
-* *It can make phone calls!* [See here for instructions](#calls)
+* *It can make phone calls!* [See here for instructions](https://docs.madelineproto.xyz/docs/CALLS.html)
 
 * It can be proxied!
 
@@ -45,6 +45,6 @@ MadelineProto can do everything official clients can do, and more!
 
 * PFS in secret chats
 
-* [Clickable inline buttons](#inline-buttons)!
+* [Clickable inline buttons](https://docs.madelineproto.xyz/docs/INLINE_BUTTONS.html)!
 
 <a href="https://docs.madelineproto.xyz/docs/REQUIREMENTS.html">Next section</a>
