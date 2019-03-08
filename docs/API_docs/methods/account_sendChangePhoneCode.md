@@ -13,9 +13,8 @@ Change the phone number
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|allow\_flashcall|[Bool](../types/Bool.md) | Can the code be sent using a flash call instead of an SMS? | Optional|
 |phone\_number|[string](../types/string.md) | New phone number | Yes|
-|current\_number|[Bool](../types/Bool.md) | Current phone number | Optional|
+|settings|[CodeSettings](../types/CodeSettings.md) |  | Yes|
 
 
 ### Return type: [auth\_SentCode](../types/auth_SentCode.md)
@@ -35,7 +34,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_SentCode = $MadelineProto->account->sendChangePhoneCode(['allow_flashcall' => Bool, 'phone_number' => 'string', 'current_number' => Bool, ]);
+$auth_SentCode = $MadelineProto->account->sendChangePhoneCode(['phone_number' => 'string', 'settings' => CodeSettings, ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -48,11 +47,9 @@ POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.sendChangePhoneCode`
 
 Parameters:
 
-allow_flashcall - Json encoded Bool
-
 phone_number - Json encoded string
 
-current_number - Json encoded Bool
+settings - Json encoded CodeSettings
 
 
 
@@ -60,7 +57,7 @@ current_number - Json encoded Bool
 Or, if you're into Lua:
 
 ```lua
-auth_SentCode = account.sendChangePhoneCode({allow_flashcall=Bool, phone_number='string', current_number=Bool, })
+auth_SentCode = account.sendChangePhoneCode({phone_number='string', settings=CodeSettings, })
 ```
 
 ### Errors this method can return:

@@ -46,8 +46,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels_inviteToChannel.html" name="channels_inviteToChannel">Add users to channel/supergroup: channels.inviteToChannel</a>  
 
-* <a href="channels_toggleInvites.html" name="channels_toggleInvites">Allow or disallow any user to invite users to this channel/supergroup: channels.toggleInvites</a>  
-
 * <a href="contacts_block.html" name="contacts_block">Block a user: contacts.block</a>  
 
 * <a href="account_getAuthorizationForm.html" name="account_getAuthorizationForm">Bots only: get telegram passport authorization form: account.getAuthorizationForm</a>  
@@ -152,8 +150,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages_editChatAdmin.html" name="messages_editChatAdmin">Edit admin permissions: messages.editChatAdmin</a>  
 
-* <a href="channels_editAbout.html" name="channels_editAbout">Edit the about text of a channel/supergroup: channels.editAbout</a>  
-
 * <a href="messages_editChatPhoto.html" name="messages_editChatPhoto">Edit the photo of a normal chat (not supergroup): messages.editChatPhoto</a>  
 
 * <a href="channels_editPhoto.html" name="channels_editPhoto">Edit the photo of a supergroup/channel: channels.editPhoto</a>  
@@ -164,13 +160,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="help_editUserInfo.html" name="help_editUserInfo">Edit user info: help.editUserInfo</a>  
 
-* <a href="messages_toggleChatAdmins.html" name="messages_toggleChatAdmins">Enable all users are admins in normal groups (not supergroups): messages.toggleChatAdmins</a>  
-
 * <a href="channels_togglePreHistoryHidden.html" name="channels_togglePreHistoryHidden">Enable or disable hidden history for new channel/supergroup users: channels.togglePreHistoryHidden</a>  
 
 * <a href="messages_exportChatInvite.html" name="messages_exportChatInvite">Export chat invite : messages.exportChatInvite</a>  
-
-* <a href="channels_exportInvite.html" name="channels_exportInvite">Export the invite link of a channel: channels.exportInvite</a>  
 
 * <a href="messages_searchStickerSets.html" name="messages_searchStickerSets">Find a sticker set: messages.searchStickerSets</a>  
 

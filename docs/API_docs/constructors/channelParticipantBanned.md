@@ -18,7 +18,7 @@ Channel participant banned
 |user\_id|[int](../types/int.md) | Yes|User ID|
 |kicked\_by|[int](../types/int.md) | Yes|Kicked by|
 |date|[int](../types/int.md) | Yes|Date|
-|banned\_rights|[ChannelBannedRights](../types/ChannelBannedRights.md) | Yes|Banned rights|
+|banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Yes||
 
 
 
@@ -28,20 +28,20 @@ Channel participant banned
 ### Example:
 
 ```php
-$channelParticipantBanned = ['_' => 'channelParticipantBanned', 'left' => Bool, 'user_id' => int, 'kicked_by' => int, 'date' => int, 'banned_rights' => ChannelBannedRights];
+$channelParticipantBanned = ['_' => 'channelParticipantBanned', 'left' => Bool, 'user_id' => int, 'kicked_by' => int, 'date' => int, 'banned_rights' => ChatBannedRights];
 ```  
 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "channelParticipantBanned", "left": Bool, "user_id": int, "kicked_by": int, "date": int, "banned_rights": ChannelBannedRights}
+{"_": "channelParticipantBanned", "left": Bool, "user_id": int, "kicked_by": int, "date": int, "banned_rights": ChatBannedRights}
 ```
 
 
 Or, if you're into Lua:
 
 ```lua
-channelParticipantBanned={_='channelParticipantBanned', left=Bool, user_id=int, kicked_by=int, date=int, banned_rights=ChannelBannedRights}
+channelParticipantBanned={_='channelParticipantBanned', left=Bool, user_id=int, kicked_by=int, date=int, banned_rights=ChatBannedRights}
 
 ```
 

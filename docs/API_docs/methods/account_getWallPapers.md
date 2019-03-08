@@ -9,9 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 Returns a list of available wallpapers.
 
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|Array of [int](../types/int.md) |  | Optional|
 
 
-### Return type: [Vector\_of\_WallPaper](../types/WallPaper.md)
+### Return type: [account\_WallPapers](../types/account_WallPapers.md)
 
 ### Can bots use this method: **NO**
 
@@ -28,7 +33,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_WallPaper = $MadelineProto->account->getWallPapers();
+$account_WallPapers = $MadelineProto->account->getWallPapers(['hash' => [int, int], ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -41,12 +46,14 @@ POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.getWallPapers`
 
 Parameters:
 
+hash - Json encoded  array of int
+
 
 
 
 Or, if you're into Lua:
 
 ```lua
-Vector_of_WallPaper = account.getWallPapers({})
+account_WallPapers = account.getWallPapers({hash={int}, })
 ```
 

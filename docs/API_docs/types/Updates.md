@@ -50,8 +50,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->messages->startBot](../methods/messages_startBot.md)  
 
-[$MadelineProto->messages->toggleChatAdmins](../methods/messages_toggleChatAdmins.md)  
-
 [$MadelineProto->messages->migrateChat](../methods/messages_migrateChat.md)  
 
 [$MadelineProto->messages->sendInlineBotResult](../methods/messages_sendInlineBotResult.md)  
@@ -72,6 +70,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->messages->getPollResults](../methods/messages_getPollResults.md)  
 
+[$MadelineProto->messages->editChatDefaultBannedRights](../methods/messages_editChatDefaultBannedRights.md)  
+
 [$MadelineProto->help->getAppChangelog](../methods/help_getAppChangelog.md)  
 
 [$MadelineProto->channels->createChannel](../methods/channels_createChannel.md)  
@@ -89,8 +89,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [$MadelineProto->channels->inviteToChannel](../methods/channels_inviteToChannel.md)  
 
 [$MadelineProto->channels->deleteChannel](../methods/channels_deleteChannel.md)  
-
-[$MadelineProto->channels->toggleInvites](../methods/channels_toggleInvites.md)  
 
 [$MadelineProto->channels->toggleSignatures](../methods/channels_toggleSignatures.md)  
 

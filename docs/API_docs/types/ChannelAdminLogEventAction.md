@@ -42,6 +42,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [channelAdminLogEventActionTogglePreHistoryHidden](../constructors/channelAdminLogEventActionTogglePreHistoryHidden.md)  
 
+[channelAdminLogEventActionDefaultBannedRights](../constructors/channelAdminLogEventActionDefaultBannedRights.md)  
+
+[channelAdminLogEventActionStopPoll](../constructors/channelAdminLogEventActionStopPoll.md)  
+
 
 
 ### Methods that return an object of this type (methods):
