@@ -1,11 +1,13 @@
 ---
 title: account.resetWallPapers
-description: account.resetWallPapers parameters, return type and example
+description: Reset wallpapers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: account.resetWallPapers  
 [Back to methods index](index.md)
 
+
+Reset wallpapers
 
 
 

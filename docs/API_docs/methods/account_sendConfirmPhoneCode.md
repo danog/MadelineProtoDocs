@@ -14,7 +14,7 @@ Send confirmation phone code
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |hash|[string](../types/string.md) | The hash | Yes|
-|settings|[CodeSettings](../types/CodeSettings.md) |  | Yes|
+|settings|[CodeSettings](../types/CodeSettings.md) | Code settings | Yes|
 
 
 ### Return type: [auth\_SentCode](../types/auth_SentCode.md)

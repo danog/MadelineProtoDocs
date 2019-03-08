@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionDefaultBannedRights
-description: channelAdminLogEventActionDefaultBannedRights attributes, type and example
+description: Changed global chat rights
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionDefaultBannedRights  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Changed global chat rights
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|prev\_banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Yes|
-|new\_banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|prev\_banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Yes|Previous Banned rights of current user|
+|new\_banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Yes|New Banned rights of current user|
 
 
 

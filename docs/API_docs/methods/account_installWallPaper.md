@@ -1,18 +1,20 @@
 ---
 title: account.installWallPaper
-description: account.installWallPaper parameters, return type and example
+description: Install wallpaper
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: account.installWallPaper  
 [Back to methods index](index.md)
 
 
+Install wallpaper
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|wallpaper|[InputWallPaper](../types/InputWallPaper.md) | Yes|
-|settings|[WallPaperSettings](../types/WallPaperSettings.md) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|wallpaper|[InputWallPaper](../types/InputWallPaper.md) | Wallpaper to install | Yes|
+|settings|[WallPaperSettings](../types/WallPaperSettings.md) | Wallpaper settings | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

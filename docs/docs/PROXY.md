@@ -166,4 +166,4 @@ Can return additional HTTP headers to use when the HTTP protocol is being used.
 
 Returns the resource used for socket communication: should call `$socket->getResource()`.  
 
-<a href="https://docs.madelineproto.xyz/docs/CONTRIB.html">Next section</a>
+<a href="https://docs.madelineproto.xyz/docs/USING_METHODS.html">Next section</a>

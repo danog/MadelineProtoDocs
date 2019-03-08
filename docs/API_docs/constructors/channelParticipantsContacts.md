@@ -1,6 +1,6 @@
 ---
 title: channelParticipantsContacts
-description: channelParticipantsContacts attributes, type and example
+description: Contacts
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantsContacts  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Contacts
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|q|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|q|[string](../types/string.md) | Yes|Query|
 
 
 

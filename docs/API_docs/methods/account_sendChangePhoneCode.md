@@ -14,7 +14,7 @@ Change the phone number
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |phone\_number|[string](../types/string.md) | New phone number | Yes|
-|settings|[CodeSettings](../types/CodeSettings.md) |  | Yes|
+|settings|[CodeSettings](../types/CodeSettings.md) | Code settings | Yes|
 
 
 ### Return type: [auth\_SentCode](../types/auth_SentCode.md)

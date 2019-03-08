@@ -1,18 +1,20 @@
 ---
 title: messages.editChatAbout
-description: messages.editChatAbout parameters, return type and example
+description: Edit chat info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: messages.editChatAbout  
 [Back to methods index](index.md)
 
 
+Edit chat info
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
-|about|[string](../types/string.md) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Chat | Optional|
+|about|[string](../types/string.md) | Info | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

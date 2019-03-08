@@ -53,4 +53,4 @@ And click them:
 $button->click();
 ```
 
-<a href="https://docs.madelineproto.xyz/docs/CALLS.html">Next section</a>
+<a href="https://docs.madelineproto.xyz/docs/SECRET_CHATS.html">Next section</a>

@@ -14,7 +14,7 @@ Messages slice
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|inexact|[Bool](../types/Bool.md) | Optional||
+|inexact|[Bool](../types/Bool.md) | Optional|Inexact?|
 |count|[int](../types/int.md) | Yes|Count|
 |messages|Array of [Message](../types/Message.md) | Yes|Messages|
 |chats|Array of [Chat](../types/Chat.md) | Yes|Chats|

@@ -18,7 +18,7 @@ Channel participant banned
 |user\_id|[int](../types/int.md) | Yes|User ID|
 |kicked\_by|[int](../types/int.md) | Yes|Kicked by|
 |date|[int](../types/int.md) | Yes|Date|
-|banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Yes||
+|banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Yes|Banned rights|
 
 
 

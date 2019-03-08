@@ -1,17 +1,19 @@
 ---
 title: account.getWallPaper
-description: account.getWallPaper parameters, return type and example
+description: Get wallpaper info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: account.getWallPaper  
 [Back to methods index](index.md)
 
 
+Get wallpaper info
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|wallpaper|[InputWallPaper](../types/InputWallPaper.md) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|wallpaper|[InputWallPaper](../types/InputWallPaper.md) | Wallpaper | Yes|
 
 
 ### Return type: [WallPaper](../types/WallPaper.md)

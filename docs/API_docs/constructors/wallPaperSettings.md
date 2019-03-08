@@ -1,6 +1,6 @@
 ---
 title: wallPaperSettings
-description: wallPaperSettings attributes, type and example
+description: Wallpaper settings
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: wallPaperSettings  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Wallpaper settings
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|blur|[Bool](../types/Bool.md) | Optional|
-|motion|[Bool](../types/Bool.md) | Optional|
-|background\_color|[int](../types/int.md) | Optional|
-|intensity|[int](../types/int.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|blur|[Bool](../types/Bool.md) | Optional|Blur?|
+|motion|[Bool](../types/Bool.md) | Optional|Motion?|
+|background\_color|[int](../types/int.md) | Optional|Background color|
+|intensity|[int](../types/int.md) | Optional|Intensity|
 
 
 

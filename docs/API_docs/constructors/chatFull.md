@@ -14,9 +14,9 @@ Chat full
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|can\_set\_username|[Bool](../types/Bool.md) | Optional||
+|can\_set\_username|[Bool](../types/Bool.md) | Optional|Can set username?|
 |id|[int](../types/int.md) | Yes|ID|
-|about|[string](../types/string.md) | Yes||
+|about|[string](../types/string.md) | Yes|Chat about|
 |participants|[ChatParticipants](../types/ChatParticipants.md) | Yes|Participants|
 |chat\_photo|[Photo](../types/Photo.md) | Optional|Chat photo|
 |notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Yes|Notify settings|

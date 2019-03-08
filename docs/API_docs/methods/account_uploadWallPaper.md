@@ -1,19 +1,21 @@
 ---
 title: account.uploadWallPaper
-description: account.uploadWallPaper parameters, return type and example
+description: Upload wallpaper
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: account.uploadWallPaper  
 [Back to methods index](index.md)
 
 
+Upload wallpaper
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|file|[File path or InputFile](../types/InputFile.md) | Yes|
-|mime\_type|[string](../types/string.md) | Yes|
-|settings|[WallPaperSettings](../types/WallPaperSettings.md) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|file|[File path or InputFile](../types/InputFile.md) | Image | Yes|
+|mime\_type|[string](../types/string.md) | Mime type | Yes|
+|settings|[WallPaperSettings](../types/WallPaperSettings.md) | Wallpaper settings | Yes|
 
 
 ### Return type: [WallPaper](../types/WallPaper.md)

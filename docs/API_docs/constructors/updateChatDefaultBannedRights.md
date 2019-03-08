@@ -1,6 +1,6 @@
 ---
 title: updateChatDefaultBannedRights
-description: updateChatDefaultBannedRights attributes, type and example
+description: Global chat rights updated
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChatDefaultBannedRights  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Global chat rights updated
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Peer](../types/Peer.md) | Yes|
-|default\_banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Yes|
-|version|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[Peer](../types/Peer.md) | Yes|Peer|
+|default\_banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Yes|Global chat rights|
+|version|[int](../types/int.md) | Yes|Version|
 
 
 

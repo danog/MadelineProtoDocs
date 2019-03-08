@@ -15,7 +15,7 @@ Kick or ban a user from a channel/supergroup
 |----------|---------------|-------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel/supergroup | Optional|
 |user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The user to kick/ban | Optional|
-|banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) |  | Yes|
+|banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Banned rights | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

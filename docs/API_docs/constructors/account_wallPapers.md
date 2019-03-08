@@ -1,6 +1,6 @@
 ---
 title: account.wallPapers
-description: account_wallPapers attributes, type and example
+description: Wallpapers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: account.wallPapers  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Wallpapers
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|[int](../types/int.md) | Yes|
-|wallpapers|Array of [WallPaper](../types/WallPaper.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|hash|[int](../types/int.md) | Yes|Hash|
+|wallpapers|Array of [WallPaper](../types/WallPaper.md) | Yes|Wallpapers|
 
 
 

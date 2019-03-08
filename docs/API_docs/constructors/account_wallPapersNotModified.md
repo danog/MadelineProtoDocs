@@ -1,12 +1,14 @@
 ---
 title: account.wallPapersNotModified
-description: account_wallPapersNotModified attributes, type and example
+description: No wallpapers were modified
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: account.wallPapersNotModified  
 [Back to constructors index](index.md)
 
 
+
+No wallpapers were modified
 
 
 

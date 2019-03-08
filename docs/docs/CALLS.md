@@ -124,4 +124,4 @@ while (true) {
 }
 ```
 
-<a href="https://docs.madelineproto.xyz/docs/SECRET_CHATS.html">Next section</a>
+<a href="https://docs.madelineproto.xyz/docs/FILES.html">Next section</a>

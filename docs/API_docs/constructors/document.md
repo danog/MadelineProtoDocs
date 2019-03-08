@@ -20,7 +20,7 @@ Document
 |date|[int](../types/int.md) | Yes|Date|
 |mime\_type|[string](../types/string.md) | Yes|Mime type|
 |size|[int](../types/int.md) | Yes|Size|
-|thumbs|Array of [PhotoSize](../types/PhotoSize.md) | Optional||
+|thumbs|Array of [PhotoSize](../types/PhotoSize.md) | Optional|Thumbnails|
 |dc\_id|[int](../types/int.md) | Yes|DC ID|
 |attributes|Array of [DocumentAttribute](../types/DocumentAttribute.md) | Yes|Attributes|
 

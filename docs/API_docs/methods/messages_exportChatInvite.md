@@ -13,7 +13,7 @@ Export chat invite
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Export invite only for this user | Optional|
 
 
 ### Return type: [ExportedChatInvite](../types/ExportedChatInvite.md)

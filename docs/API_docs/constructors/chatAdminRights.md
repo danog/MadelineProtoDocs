@@ -1,6 +1,6 @@
 ---
 title: chatAdminRights
-description: chatAdminRights attributes, type and example
+description: Admin rights
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatAdminRights  
@@ -8,18 +8,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Admin rights
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|change\_info|[Bool](../types/Bool.md) | Optional|
-|post\_messages|[Bool](../types/Bool.md) | Optional|
-|edit\_messages|[Bool](../types/Bool.md) | Optional|
-|delete\_messages|[Bool](../types/Bool.md) | Optional|
-|ban\_users|[Bool](../types/Bool.md) | Optional|
-|invite\_users|[Bool](../types/Bool.md) | Optional|
-|pin\_messages|[Bool](../types/Bool.md) | Optional|
-|add\_admins|[Bool](../types/Bool.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|change\_info|[Bool](../types/Bool.md) | Optional|Can change info?|
+|post\_messages|[Bool](../types/Bool.md) | Optional|Can post messages?|
+|edit\_messages|[Bool](../types/Bool.md) | Optional|Can edit messages?|
+|delete\_messages|[Bool](../types/Bool.md) | Optional|Can delete messages?|
+|ban\_users|[Bool](../types/Bool.md) | Optional|Can ban users?|
+|invite\_users|[Bool](../types/Bool.md) | Optional|Can invite users?|
+|pin\_messages|[Bool](../types/Bool.md) | Optional|Can pin messages?|
+|add\_admins|[Bool](../types/Bool.md) | Optional|Can add other admins?|
 
 
 

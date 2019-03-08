@@ -30,9 +30,9 @@ Channel
 |date|[int](../types/int.md) | Yes|Date|
 |version|[int](../types/int.md) | Yes|Version|
 |restriction\_reason|[string](../types/string.md) | Optional|Restriction reason|
-|admin\_rights|[ChatAdminRights](../types/ChatAdminRights.md) | Optional||
-|banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Optional||
-|default\_banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Optional||
+|admin\_rights|[ChatAdminRights](../types/ChatAdminRights.md) | Optional|Admin rights of current user|
+|banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Optional|Banned rights of current user|
+|default\_banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Optional|Global chat banned rights|
 |participants\_count|[int](../types/int.md) | Optional|Participants count|
 
 

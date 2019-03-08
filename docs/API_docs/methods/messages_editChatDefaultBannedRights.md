@@ -1,18 +1,20 @@
 ---
 title: messages.editChatDefaultBannedRights
-description: messages.editChatDefaultBannedRights parameters, return type and example
+description: Edit default rights of chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: messages.editChatDefaultBannedRights  
 [Back to methods index](index.md)
 
 
+Edit default rights of chat
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
-|banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Chat | Optional|
+|banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Global chat rights | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

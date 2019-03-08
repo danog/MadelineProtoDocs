@@ -13,7 +13,7 @@ Returns a list of available wallpapers.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [int](../types/int.md) |  | Optional|
+|hash|Array of [int](../types/int.md) | IDs of previously fetched wallpapers | Optional|
 
 
 ### Return type: [account\_WallPapers](../types/account_WallPapers.md)

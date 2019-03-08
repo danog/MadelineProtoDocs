@@ -1,6 +1,6 @@
 ---
 title: codeSettings
-description: codeSettings attributes, type and example
+description: Code settings
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: codeSettings  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Code settings
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|allow\_flashcall|[Bool](../types/Bool.md) | Optional|
-|current\_number|[Bool](../types/Bool.md) | Optional|
-|app\_hash\_persistent|[Bool](../types/Bool.md) | Optional|
-|app\_hash|[string](../types/string.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|allow\_flashcall|[Bool](../types/Bool.md) | Optional|Allow flashcal?|
+|current\_number|[Bool](../types/Bool.md) | Optional|Current number?|
+|app\_hash\_persistent|[Bool](../types/Bool.md) | Optional|Persistent hash?|
+|app\_hash|[string](../types/string.md) | Optional|Hash type|
 
 
 

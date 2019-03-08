@@ -1,6 +1,6 @@
 ---
 title: inputWallPaperSlug
-description: inputWallPaperSlug attributes, type and example
+description: Wallpaper slug
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputWallPaperSlug  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Wallpaper slug
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|slug|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|slug|[string](../types/string.md) | Yes|Type|
 
 
 

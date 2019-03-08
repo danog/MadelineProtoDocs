@@ -14,15 +14,15 @@ Wall paper
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes||
-|creator|[Bool](../types/Bool.md) | Optional||
-|default|[Bool](../types/Bool.md) | Optional||
-|pattern|[Bool](../types/Bool.md) | Optional||
-|dark|[Bool](../types/Bool.md) | Optional||
-|access\_hash|[long](../types/long.md) | Yes||
-|slug|[string](../types/string.md) | Yes||
-|document|[Document](../types/Document.md) | Optional||
-|settings|[WallPaperSettings](../types/WallPaperSettings.md) | Optional||
+|id|[long](../types/long.md) | Yes|ID|
+|creator|[Bool](../types/Bool.md) | Optional|Am I the creator?|
+|default|[Bool](../types/Bool.md) | Optional|Default?|
+|pattern|[Bool](../types/Bool.md) | Optional|Pattern|
+|dark|[Bool](../types/Bool.md) | Optional|Dark?|
+|access\_hash|[long](../types/long.md) | Yes|Hash|
+|slug|[string](../types/string.md) | Yes|Slug?|
+|document|[Document](../types/Document.md) | Optional|Wallpaper|
+|settings|[WallPaperSettings](../types/WallPaperSettings.md) | Optional|Wallpaper settings|
 
 
 

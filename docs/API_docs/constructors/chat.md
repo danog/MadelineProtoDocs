@@ -25,8 +25,8 @@ Chat
 |date|[int](../types/int.md) | Yes|Date|
 |version|[int](../types/int.md) | Yes|Version|
 |migrated\_to|[InputChannel](../types/InputChannel.md) | Optional|Migrated to|
-|admin\_rights|[ChatAdminRights](../types/ChatAdminRights.md) | Optional||
-|default\_banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Optional||
+|admin\_rights|[ChatAdminRights](../types/ChatAdminRights.md) | Optional|Admin rights of current user|
+|default\_banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Optional|Global chat banned rights|
 
 
 
