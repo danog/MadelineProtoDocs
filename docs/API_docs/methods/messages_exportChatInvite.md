@@ -13,7 +13,7 @@ Export chat invite
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat id  | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Export invite only for this user | Optional|
 
 
 ### Return type: [ExportedChatInvite](../types/ExportedChatInvite.md)
@@ -33,7 +33,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$ExportedChatInvite = $MadelineProto->messages->exportChatInvite(['chat_id' => InputPeer, ]);
+$ExportedChatInvite = $MadelineProto->messages->exportChatInvite(['peer' => InputPeer, ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -46,7 +46,7 @@ POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.exportChatInvite`
 
 Parameters:
 
-chat_id - Json encoded InputPeer
+peer - Json encoded InputPeer
 
 
 
@@ -54,7 +54,7 @@ chat_id - Json encoded InputPeer
 Or, if you're into Lua:
 
 ```lua
-ExportedChatInvite = messages.exportChatInvite({chat_id=InputPeer, })
+ExportedChatInvite = messages.exportChatInvite({peer=InputPeer, })
 ```
 
 ### Errors this method can return:

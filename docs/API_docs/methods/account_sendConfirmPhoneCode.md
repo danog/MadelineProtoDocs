@@ -13,9 +13,8 @@ Send confirmation phone code
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|allow\_flashcall|[Bool](../types/Bool.md) | Can telegram call you instead of sending an SMS? | Optional|
 |hash|[string](../types/string.md) | The hash | Yes|
-|current\_number|[Bool](../types/Bool.md) | The current phone number | Optional|
+|settings|[CodeSettings](../types/CodeSettings.md) | Code settings | Yes|
 
 
 ### Return type: [auth\_SentCode](../types/auth_SentCode.md)
@@ -35,7 +34,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_SentCode = $MadelineProto->account->sendConfirmPhoneCode(['allow_flashcall' => Bool, 'hash' => 'string', 'current_number' => Bool, ]);
+$auth_SentCode = $MadelineProto->account->sendConfirmPhoneCode(['hash' => 'string', 'settings' => CodeSettings, ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -48,11 +47,9 @@ POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.sendConfirmPhoneCode`
 
 Parameters:
 
-allow_flashcall - Json encoded Bool
-
 hash - Json encoded string
 
-current_number - Json encoded Bool
+settings - Json encoded CodeSettings
 
 
 
@@ -60,7 +57,7 @@ current_number - Json encoded Bool
 Or, if you're into Lua:
 
 ```lua
-auth_SentCode = account.sendConfirmPhoneCode({allow_flashcall=Bool, hash='string', current_number=Bool, })
+auth_SentCode = account.sendConfirmPhoneCode({hash='string', settings=CodeSettings, })
 ```
 
 ### Errors this method can return:

@@ -17,8 +17,6 @@ Chat
 |creator|[Bool](../types/Bool.md) | Optional|Creator?|
 |kicked|[Bool](../types/Bool.md) | Optional|Kicked?|
 |left|[Bool](../types/Bool.md) | Optional|Left?|
-|admins\_enabled|[Bool](../types/Bool.md) | Optional|Admins enabled?|
-|admin|[Bool](../types/Bool.md) | Optional|Admin?|
 |deactivated|[Bool](../types/Bool.md) | Optional|Deactivated?|
 |id|[int](../types/int.md) | Yes|ID|
 |title|[string](../types/string.md) | Yes|Title|
@@ -27,6 +25,8 @@ Chat
 |date|[int](../types/int.md) | Yes|Date|
 |version|[int](../types/int.md) | Yes|Version|
 |migrated\_to|[InputChannel](../types/InputChannel.md) | Optional|Migrated to|
+|admin\_rights|[ChatAdminRights](../types/ChatAdminRights.md) | Optional|Admin rights of current user|
+|default\_banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Optional|Global chat banned rights|
 
 
 
@@ -36,20 +36,20 @@ Chat
 ### Example:
 
 ```php
-$chat = ['_' => 'chat', 'creator' => Bool, 'kicked' => Bool, 'left' => Bool, 'admins_enabled' => Bool, 'admin' => Bool, 'deactivated' => Bool, 'id' => int, 'title' => 'string', 'photo' => ChatPhoto, 'participants_count' => int, 'date' => int, 'version' => int, 'migrated_to' => InputChannel];
+$chat = ['_' => 'chat', 'creator' => Bool, 'kicked' => Bool, 'left' => Bool, 'deactivated' => Bool, 'id' => int, 'title' => 'string', 'photo' => ChatPhoto, 'participants_count' => int, 'date' => int, 'version' => int, 'migrated_to' => InputChannel, 'admin_rights' => ChatAdminRights, 'default_banned_rights' => ChatBannedRights];
 ```  
 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "chat", "creator": Bool, "kicked": Bool, "left": Bool, "admins_enabled": Bool, "admin": Bool, "deactivated": Bool, "id": int, "title": "string", "photo": ChatPhoto, "participants_count": int, "date": int, "version": int, "migrated_to": InputChannel}
+{"_": "chat", "creator": Bool, "kicked": Bool, "left": Bool, "deactivated": Bool, "id": int, "title": "string", "photo": ChatPhoto, "participants_count": int, "date": int, "version": int, "migrated_to": InputChannel, "admin_rights": ChatAdminRights, "default_banned_rights": ChatBannedRights}
 ```
 
 
 Or, if you're into Lua:
 
 ```lua
-chat={_='chat', creator=Bool, kicked=Bool, left=Bool, admins_enabled=Bool, admin=Bool, deactivated=Bool, id=int, title='string', photo=ChatPhoto, participants_count=int, date=int, version=int, migrated_to=InputChannel}
+chat={_='chat', creator=Bool, kicked=Bool, left=Bool, deactivated=Bool, id=int, title='string', photo=ChatPhoto, participants_count=int, date=int, version=int, migrated_to=InputChannel, admin_rights=ChatAdminRights, default_banned_rights=ChatBannedRights}
 
 ```
 

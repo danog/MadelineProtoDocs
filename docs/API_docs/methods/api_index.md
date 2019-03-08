@@ -78,11 +78,15 @@ $MadelineProto->[account->getSecureValue](account_getSecureValue.md)(\['types' =
 
 $MadelineProto->[account->getTmpPassword](account_getTmpPassword.md)(\['password' => [InputCheckPasswordSRP](../types/InputCheckPasswordSRP.md), 'period' => [int](../types/int.md), \]) === [$account\_TmpPassword](../types/account_TmpPassword.md)<a name="account_getTmpPassword"></a>  
 
-$MadelineProto->[account->getWallPapers](account_getWallPapers.md)(\[\]) === [$Vector\_of\_WallPaper](../types/WallPaper.md)<a name="account_getWallPapers"></a>  
+$MadelineProto->[account->getWallPaper](account_getWallPaper.md)(\['wallpaper' => [InputWallPaper](../types/InputWallPaper.md), \]) === [$WallPaper](../types/WallPaper.md)<a name="account_getWallPaper"></a>  
+
+$MadelineProto->[account->getWallPapers](account_getWallPapers.md)(\['hash' => [int](../types/int.md), \]) === [$account\_WallPapers](../types/account_WallPapers.md)<a name="account_getWallPapers"></a>  
 
 $MadelineProto->[account->getWebAuthorizations](account_getWebAuthorizations.md)(\[\]) === [$account\_WebAuthorizations](../types/account_WebAuthorizations.md)<a name="account_getWebAuthorizations"></a>  
 
 $MadelineProto->[account->initTakeoutSession](account_initTakeoutSession.md)(\['contacts' => [Bool](../types/Bool.md), 'message_users' => [Bool](../types/Bool.md), 'message_chats' => [Bool](../types/Bool.md), 'message_megagroups' => [Bool](../types/Bool.md), 'message_channels' => [Bool](../types/Bool.md), 'files' => [Bool](../types/Bool.md), 'file_max_size' => [int](../types/int.md), \]) === [$account\_Takeout](../types/account_Takeout.md)<a name="account_initTakeoutSession"></a>  
+
+$MadelineProto->[account->installWallPaper](account_installWallPaper.md)(\['wallpaper' => [InputWallPaper](../types/InputWallPaper.md), 'settings' => [WallPaperSettings](../types/WallPaperSettings.md), \]) === [$Bool](../types/Bool.md)<a name="account_installWallPaper"></a>  
 
 $MadelineProto->[account->registerDevice](account_registerDevice.md)(\['token_type' => [int](../types/int.md), 'token' => [string](../types/string.md), 'app_sandbox' => [Bool](../types/Bool.md), 'secret' => [bytes](../types/bytes.md), 'other_uids' => \[[int](../types/int.md)\], \]) === [$Bool](../types/Bool.md)<a name="account_registerDevice"></a>  
 
@@ -94,19 +98,23 @@ $MadelineProto->[account->resetAuthorization](account_resetAuthorization.md)(\['
 
 $MadelineProto->[account->resetNotifySettings](account_resetNotifySettings.md)(\[\]) === [$Bool](../types/Bool.md)<a name="account_resetNotifySettings"></a>  
 
+$MadelineProto->[account->resetWallPapers](account_resetWallPapers.md)(\[\]) === [$Bool](../types/Bool.md)<a name="account_resetWallPapers"></a>  
+
 $MadelineProto->[account->resetWebAuthorization](account_resetWebAuthorization.md)(\['hash' => [long](../types/long.md), \]) === [$Bool](../types/Bool.md)<a name="account_resetWebAuthorization"></a>  
 
 $MadelineProto->[account->resetWebAuthorizations](account_resetWebAuthorizations.md)(\[\]) === [$Bool](../types/Bool.md)<a name="account_resetWebAuthorizations"></a>  
 
 $MadelineProto->[account->saveSecureValue](account_saveSecureValue.md)(\['value' => [InputSecureValue](../types/InputSecureValue.md), 'secure_secret_id' => [long](../types/long.md), \]) === [$SecureValue](../types/SecureValue.md)<a name="account_saveSecureValue"></a>  
 
-$MadelineProto->[account->sendChangePhoneCode](account_sendChangePhoneCode.md)(\['allow_flashcall' => [Bool](../types/Bool.md), 'phone_number' => [string](../types/string.md), 'current_number' => [Bool](../types/Bool.md), \]) === [$auth\_SentCode](../types/auth_SentCode.md)<a name="account_sendChangePhoneCode"></a>  
+$MadelineProto->[account->saveWallPaper](account_saveWallPaper.md)(\['wallpaper' => [InputWallPaper](../types/InputWallPaper.md), 'unsave' => [Bool](../types/Bool.md), 'settings' => [WallPaperSettings](../types/WallPaperSettings.md), \]) === [$Bool](../types/Bool.md)<a name="account_saveWallPaper"></a>  
 
-$MadelineProto->[account->sendConfirmPhoneCode](account_sendConfirmPhoneCode.md)(\['allow_flashcall' => [Bool](../types/Bool.md), 'hash' => [string](../types/string.md), 'current_number' => [Bool](../types/Bool.md), \]) === [$auth\_SentCode](../types/auth_SentCode.md)<a name="account_sendConfirmPhoneCode"></a>  
+$MadelineProto->[account->sendChangePhoneCode](account_sendChangePhoneCode.md)(\['phone_number' => [string](../types/string.md), 'settings' => [CodeSettings](../types/CodeSettings.md), \]) === [$auth\_SentCode](../types/auth_SentCode.md)<a name="account_sendChangePhoneCode"></a>  
+
+$MadelineProto->[account->sendConfirmPhoneCode](account_sendConfirmPhoneCode.md)(\['hash' => [string](../types/string.md), 'settings' => [CodeSettings](../types/CodeSettings.md), \]) === [$auth\_SentCode](../types/auth_SentCode.md)<a name="account_sendConfirmPhoneCode"></a>  
 
 $MadelineProto->[account->sendVerifyEmailCode](account_sendVerifyEmailCode.md)(\['email' => [string](../types/string.md), \]) === [$account\_SentEmailCode](../types/account_SentEmailCode.md)<a name="account_sendVerifyEmailCode"></a>  
 
-$MadelineProto->[account->sendVerifyPhoneCode](account_sendVerifyPhoneCode.md)(\['allow_flashcall' => [Bool](../types/Bool.md), 'phone_number' => [string](../types/string.md), 'current_number' => [Bool](../types/Bool.md), \]) === [$auth\_SentCode](../types/auth_SentCode.md)<a name="account_sendVerifyPhoneCode"></a>  
+$MadelineProto->[account->sendVerifyPhoneCode](account_sendVerifyPhoneCode.md)(\['phone_number' => [string](../types/string.md), 'settings' => [CodeSettings](../types/CodeSettings.md), \]) === [$auth\_SentCode](../types/auth_SentCode.md)<a name="account_sendVerifyPhoneCode"></a>  
 
 $MadelineProto->[account->setAccountTTL](account_setAccountTTL.md)(\['ttl' => [AccountDaysTTL](../types/AccountDaysTTL.md), \]) === [$Bool](../types/Bool.md)<a name="account_setAccountTTL"></a>  
 
@@ -127,6 +135,8 @@ $MadelineProto->[account->updateProfile](account_updateProfile.md)(\['first_name
 $MadelineProto->[account->updateStatus](account_updateStatus.md)(\['offline' => [Bool](../types/Bool.md), \]) === [$Bool](../types/Bool.md)<a name="account_updateStatus"></a>  
 
 $MadelineProto->[account->updateUsername](account_updateUsername.md)(\['username' => [string](../types/string.md), \]) === [$User](../types/User.md)<a name="account_updateUsername"></a>  
+
+$MadelineProto->[account->uploadWallPaper](account_uploadWallPaper.md)(\['file' => [InputFile](../types/InputFile.md), 'mime_type' => [string](../types/string.md), 'settings' => [WallPaperSettings](../types/WallPaperSettings.md), \]) === [$WallPaper](../types/WallPaper.md)<a name="account_uploadWallPaper"></a>  
 
 $MadelineProto->[account->verifyEmail](account_verifyEmail.md)(\['email' => [string](../types/string.md), 'code' => [string](../types/string.md), \]) === [$Bool](../types/Bool.md)<a name="account_verifyEmail"></a>  
 
@@ -158,7 +168,7 @@ $MadelineProto->[auth->resendCode](auth_resendCode.md)(\['phone_number' => [stri
 
 $MadelineProto->[auth->resetAuthorizations](auth_resetAuthorizations.md)(\[\]) === [$Bool](../types/Bool.md)<a name="auth_resetAuthorizations"></a>  
 
-$MadelineProto->[auth->sendCode](auth_sendCode.md)(\['allow_flashcall' => [Bool](../types/Bool.md), 'phone_number' => [string](../types/string.md), 'current_number' => [Bool](../types/Bool.md), 'api_id' => [int](../types/int.md), 'api_hash' => [string](../types/string.md), \]) === [$auth\_SentCode](../types/auth_SentCode.md)<a name="auth_sendCode"></a>  
+$MadelineProto->[auth->sendCode](auth_sendCode.md)(\['phone_number' => [string](../types/string.md), 'api_id' => [int](../types/int.md), 'api_hash' => [string](../types/string.md), 'settings' => [CodeSettings](../types/CodeSettings.md), \]) === [$auth\_SentCode](../types/auth_SentCode.md)<a name="auth_sendCode"></a>  
 
 $MadelineProto->[auth->signIn](auth_signIn.md)(\['phone_number' => [string](../types/string.md), 'phone_code_hash' => [string](../types/string.md), 'phone_code' => [string](../types/string.md), \]) === [$auth\_Authorization](../types/auth_Authorization.md)<a name="auth_signIn"></a>  
 
@@ -184,17 +194,13 @@ $MadelineProto->[channels->deleteMessages](channels_deleteMessages.md)(\['channe
 
 $MadelineProto->[channels->deleteUserHistory](channels_deleteUserHistory.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'user_id' => [InputUser](../types/InputUser.md), \]) === [$messages\_AffectedHistory](../types/messages_AffectedHistory.md)<a name="channels_deleteUserHistory"></a>  
 
-$MadelineProto->[channels->editAbout](channels_editAbout.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'about' => [string](../types/string.md), \]) === [$Bool](../types/Bool.md)<a name="channels_editAbout"></a>  
+$MadelineProto->[channels->editAdmin](channels_editAdmin.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'user_id' => [InputUser](../types/InputUser.md), 'admin_rights' => [ChatAdminRights](../types/ChatAdminRights.md), \]) === [$Updates](../types/Updates.md)<a name="channels_editAdmin"></a>  
 
-$MadelineProto->[channels->editAdmin](channels_editAdmin.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'user_id' => [InputUser](../types/InputUser.md), 'admin_rights' => [ChannelAdminRights](../types/ChannelAdminRights.md), \]) === [$Updates](../types/Updates.md)<a name="channels_editAdmin"></a>  
-
-$MadelineProto->[channels->editBanned](channels_editBanned.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'user_id' => [InputUser](../types/InputUser.md), 'banned_rights' => [ChannelBannedRights](../types/ChannelBannedRights.md), \]) === [$Updates](../types/Updates.md)<a name="channels_editBanned"></a>  
+$MadelineProto->[channels->editBanned](channels_editBanned.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'user_id' => [InputUser](../types/InputUser.md), 'banned_rights' => [ChatBannedRights](../types/ChatBannedRights.md), \]) === [$Updates](../types/Updates.md)<a name="channels_editBanned"></a>  
 
 $MadelineProto->[channels->editPhoto](channels_editPhoto.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'photo' => [InputChatPhoto](../types/InputChatPhoto.md), \]) === [$Updates](../types/Updates.md)<a name="channels_editPhoto"></a>  
 
 $MadelineProto->[channels->editTitle](channels_editTitle.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'title' => [string](../types/string.md), \]) === [$Updates](../types/Updates.md)<a name="channels_editTitle"></a>  
-
-$MadelineProto->[channels->exportInvite](channels_exportInvite.md)(\['channel' => [InputChannel](../types/InputChannel.md), \]) === [$ExportedChatInvite](../types/ExportedChatInvite.md)<a name="channels_exportInvite"></a>  
 
 $MadelineProto->[channels->exportMessageLink](channels_exportMessageLink.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'id' => [int](../types/int.md), 'grouped' => [Bool](../types/Bool.md), \]) === [$ExportedMessageLink](../types/ExportedMessageLink.md)<a name="channels_exportMessageLink"></a>  
 
@@ -227,8 +233,6 @@ $MadelineProto->[channels->readMessageContents](channels_readMessageContents.md)
 $MadelineProto->[channels->reportSpam](channels_reportSpam.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'user_id' => [InputUser](../types/InputUser.md), 'id' => \[[int](../types/int.md)\], \]) === [$Bool](../types/Bool.md)<a name="channels_reportSpam"></a>  
 
 $MadelineProto->[channels->setStickers](channels_setStickers.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'stickerset' => [InputStickerSet](../types/InputStickerSet.md), \]) === [$Bool](../types/Bool.md)<a name="channels_setStickers"></a>  
-
-$MadelineProto->[channels->toggleInvites](channels_toggleInvites.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'enabled' => [Bool](../types/Bool.md), \]) === [$Updates](../types/Updates.md)<a name="channels_toggleInvites"></a>  
 
 $MadelineProto->[channels->togglePreHistoryHidden](channels_togglePreHistoryHidden.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'enabled' => [Bool](../types/Bool.md), \]) === [$Updates](../types/Updates.md)<a name="channels_togglePreHistoryHidden"></a>  
 
@@ -374,7 +378,11 @@ $MadelineProto->[messages->deleteMessages](messages_deleteMessages.md)(\['revoke
 
 $MadelineProto->[messages->discardEncryption](messages_discardEncryption.md)(\['chat_id' => [int](../types/int.md), \]) === [$Bool](../types/Bool.md)<a name="messages_discardEncryption"></a>  
 
+$MadelineProto->[messages->editChatAbout](messages_editChatAbout.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'about' => [string](../types/string.md), \]) === [$Bool](../types/Bool.md)<a name="messages_editChatAbout"></a>  
+
 $MadelineProto->[messages->editChatAdmin](messages_editChatAdmin.md)(\['chat_id' => [InputPeer](../types/InputPeer.md), 'user_id' => [InputUser](../types/InputUser.md), 'is_admin' => [Bool](../types/Bool.md), \]) === [$Bool](../types/Bool.md)<a name="messages_editChatAdmin"></a>  
+
+$MadelineProto->[messages->editChatDefaultBannedRights](messages_editChatDefaultBannedRights.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'banned_rights' => [ChatBannedRights](../types/ChatBannedRights.md), \]) === [$Updates](../types/Updates.md)<a name="messages_editChatDefaultBannedRights"></a>  
 
 $MadelineProto->[messages->editChatPhoto](messages_editChatPhoto.md)(\['chat_id' => [InputPeer](../types/InputPeer.md), 'photo' => [InputChatPhoto](../types/InputChatPhoto.md), \]) === [$Updates](../types/Updates.md)<a name="messages_editChatPhoto"></a>  
 
@@ -384,7 +392,7 @@ $MadelineProto->[messages->editInlineBotMessage](messages_editInlineBotMessage.m
 
 $MadelineProto->[messages->editMessage](messages_editMessage.md)(\['no_webpage' => [Bool](../types/Bool.md), 'peer' => [InputPeer](../types/InputPeer.md), 'id' => [int](../types/int.md), 'message' => [string](../types/string.md), 'media' => [InputMedia](../types/InputMedia.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], \]) === [$Updates](../types/Updates.md)<a name="messages_editMessage"></a>  
 
-$MadelineProto->[messages->exportChatInvite](messages_exportChatInvite.md)(\['chat_id' => [InputPeer](../types/InputPeer.md), \]) === [$ExportedChatInvite](../types/ExportedChatInvite.md)<a name="messages_exportChatInvite"></a>  
+$MadelineProto->[messages->exportChatInvite](messages_exportChatInvite.md)(\['peer' => [InputPeer](../types/InputPeer.md), \]) === [$ExportedChatInvite](../types/ExportedChatInvite.md)<a name="messages_exportChatInvite"></a>  
 
 $MadelineProto->[messages->faveSticker](messages_faveSticker.md)(\['id' => [InputDocument](../types/InputDocument.md), 'unfave' => [Bool](../types/Bool.md), \]) === [$Bool](../types/Bool.md)<a name="messages_faveSticker"></a>  
 
@@ -551,8 +559,6 @@ $MadelineProto->[messages->setInlineGameScore](messages_setInlineGameScore.md)(\
 $MadelineProto->[messages->setTyping](messages_setTyping.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'action' => [SendMessageAction](../types/SendMessageAction.md), \]) === [$Bool](../types/Bool.md)<a name="messages_setTyping"></a>  
 
 $MadelineProto->[messages->startBot](messages_startBot.md)(\['bot' => [InputUser](../types/InputUser.md), 'peer' => [InputPeer](../types/InputPeer.md), 'start_param' => [string](../types/string.md), \]) === [$Updates](../types/Updates.md)<a name="messages_startBot"></a>  
-
-$MadelineProto->[messages->toggleChatAdmins](messages_toggleChatAdmins.md)(\['chat_id' => [InputPeer](../types/InputPeer.md), 'enabled' => [Bool](../types/Bool.md), \]) === [$Updates](../types/Updates.md)<a name="messages_toggleChatAdmins"></a>  
 
 $MadelineProto->[messages->toggleDialogPin](messages_toggleDialogPin.md)(\['pinned' => [Bool](../types/Bool.md), 'peer' => [InputDialogPeer](../types/InputDialogPeer.md), \]) === [$Bool](../types/Bool.md)<a name="messages_toggleDialogPin"></a>  
 

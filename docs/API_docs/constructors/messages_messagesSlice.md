@@ -14,6 +14,7 @@ Messages slice
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|inexact|[Bool](../types/Bool.md) | Optional|Inexact?|
 |count|[int](../types/int.md) | Yes|Count|
 |messages|Array of [Message](../types/Message.md) | Yes|Messages|
 |chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
@@ -27,20 +28,20 @@ Messages slice
 ### Example:
 
 ```php
-$messages_messagesSlice = ['_' => 'messages.messagesSlice', 'count' => int, 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
+$messages_messagesSlice = ['_' => 'messages.messagesSlice', 'inexact' => Bool, 'count' => int, 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "messages.messagesSlice", "count": int, "messages": [Message], "chats": [Chat], "users": [User]}
+{"_": "messages.messagesSlice", "inexact": Bool, "count": int, "messages": [Message], "chats": [Chat], "users": [User]}
 ```
 
 
 Or, if you're into Lua:
 
 ```lua
-messages_messagesSlice={_='messages.messagesSlice', count=int, messages={Message}, chats={Chat}, users={User}}
+messages_messagesSlice={_='messages.messagesSlice', inexact=Bool, count=int, messages={Message}, chats={Chat}, users={User}}
 
 ```
 

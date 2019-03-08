@@ -33,10 +33,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [ChannelAdminLogEventsFilter](ChannelAdminLogEventsFilter.md)<a name="ChannelAdminLogEventsFilter"></a>  
 
-[ChannelAdminRights](ChannelAdminRights.md)<a name="ChannelAdminRights"></a>  
-
-[ChannelBannedRights](ChannelBannedRights.md)<a name="ChannelBannedRights"></a>  
-
 [ChannelMessagesFilter](ChannelMessagesFilter.md)<a name="ChannelMessagesFilter"></a>  
 
 [ChannelParticipant](ChannelParticipant.md)<a name="ChannelParticipant"></a>  
@@ -44,6 +40,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [ChannelParticipantsFilter](ChannelParticipantsFilter.md)<a name="ChannelParticipantsFilter"></a>  
 
 [Chat](Chat.md)<a name="Chat"></a>  
+
+[ChatAdminRights](ChatAdminRights.md)<a name="ChatAdminRights"></a>  
+
+[ChatBannedRights](ChatBannedRights.md)<a name="ChatBannedRights"></a>  
 
 [ChatFull](ChatFull.md)<a name="ChatFull"></a>  
 
@@ -56,6 +56,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [ChatParticipants](ChatParticipants.md)<a name="ChatParticipants"></a>  
 
 [ChatPhoto](ChatPhoto.md)<a name="ChatPhoto"></a>  
+
+[CodeSettings](CodeSettings.md)<a name="CodeSettings"></a>  
 
 [Config](Config.md)<a name="Config"></a>  
 
@@ -186,6 +188,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [InputStickeredMedia](InputStickeredMedia.md)<a name="InputStickeredMedia"></a>  
 
 [InputUser](InputUser.md)<a name="InputUser"></a>  
+
+[InputWallPaper](InputWallPaper.md)<a name="InputWallPaper"></a>  
 
 [InputWebDocument](InputWebDocument.md)<a name="InputWebDocument"></a>  
 
@@ -359,6 +363,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [WallPaper](WallPaper.md)<a name="WallPaper"></a>  
 
+[WallPaperSettings](WallPaperSettings.md)<a name="WallPaperSettings"></a>  
+
 [WebAuthorization](WebAuthorization.md)<a name="WebAuthorization"></a>  
 
 [WebDocument](WebDocument.md)<a name="WebDocument"></a>  
@@ -384,6 +390,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [account\_Takeout](account_Takeout.md)<a name="account_Takeout"></a>  
 
 [account\_TmpPassword](account_TmpPassword.md)<a name="account_TmpPassword"></a>  
+
+[account\_WallPapers](account_WallPapers.md)<a name="account_WallPapers"></a>  
 
 [account\_WebAuthorizations](account_WebAuthorizations.md)<a name="account_WebAuthorizations"></a>  
 

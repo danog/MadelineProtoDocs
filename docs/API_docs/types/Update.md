@@ -76,8 +76,6 @@ Contains notifications about data changes
 
 [updateChannelMessageViews](../constructors/updateChannelMessageViews.md)  
 
-[updateChatAdmins](../constructors/updateChatAdmins.md)  
-
 [updateChatParticipantAdmin](../constructors/updateChatParticipantAdmin.md)  
 
 [updateNewStickerSet](../constructors/updateNewStickerSet.md)  
@@ -149,6 +147,8 @@ Contains notifications about data changes
 [updateChatPinnedMessage](../constructors/updateChatPinnedMessage.md)  
 
 [updateMessagePoll](../constructors/updateMessagePoll.md)  
+
+[updateChatDefaultBannedRights](../constructors/updateChatDefaultBannedRights.md)  
 
 
 

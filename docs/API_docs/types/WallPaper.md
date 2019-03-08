@@ -12,13 +12,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [wallPaper](../constructors/wallPaper.md)  
 
-[wallPaperSolid](../constructors/wallPaperSolid.md)  
-
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->getWallPapers](../methods/account_getWallPapers.md)  
+[$MadelineProto->account->getWallPaper](../methods/account_getWallPaper.md)  
+
+[$MadelineProto->account->uploadWallPaper](../methods/account_uploadWallPaper.md)  
 
 
 

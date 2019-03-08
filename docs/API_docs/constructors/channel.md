@@ -16,12 +16,10 @@ Channel
 |----------|---------------|----------|-------------|
 |creator|[Bool](../types/Bool.md) | Optional|Creator?|
 |left|[Bool](../types/Bool.md) | Optional|Left?|
-|editor|[Bool](../types/Bool.md) | Optional|Editor?|
 |broadcast|[Bool](../types/Bool.md) | Optional|Broadcast?|
 |verified|[Bool](../types/Bool.md) | Optional|Verified?|
 |megagroup|[Bool](../types/Bool.md) | Optional|Megagroup?|
 |restricted|[Bool](../types/Bool.md) | Optional|Restricted?|
-|democracy|[Bool](../types/Bool.md) | Optional|Democracy?|
 |signatures|[Bool](../types/Bool.md) | Optional|Signatures?|
 |min|[Bool](../types/Bool.md) | Optional|Min?|
 |id|[int](../types/int.md) | Yes|ID|
@@ -32,8 +30,9 @@ Channel
 |date|[int](../types/int.md) | Yes|Date|
 |version|[int](../types/int.md) | Yes|Version|
 |restriction\_reason|[string](../types/string.md) | Optional|Restriction reason|
-|admin\_rights|[ChannelAdminRights](../types/ChannelAdminRights.md) | Optional|Admin rights|
-|banned\_rights|[ChannelBannedRights](../types/ChannelBannedRights.md) | Optional|Banned rights|
+|admin\_rights|[ChatAdminRights](../types/ChatAdminRights.md) | Optional|Admin rights of current user|
+|banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Optional|Banned rights of current user|
+|default\_banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Optional|Global chat banned rights|
 |participants\_count|[int](../types/int.md) | Optional|Participants count|
 
 
@@ -44,20 +43,20 @@ Channel
 ### Example:
 
 ```php
-$channel = ['_' => 'channel', 'creator' => Bool, 'left' => Bool, 'editor' => Bool, 'broadcast' => Bool, 'verified' => Bool, 'megagroup' => Bool, 'restricted' => Bool, 'democracy' => Bool, 'signatures' => Bool, 'min' => Bool, 'id' => int, 'access_hash' => long, 'title' => 'string', 'username' => 'string', 'photo' => ChatPhoto, 'date' => int, 'version' => int, 'restriction_reason' => 'string', 'admin_rights' => ChannelAdminRights, 'banned_rights' => ChannelBannedRights, 'participants_count' => int];
+$channel = ['_' => 'channel', 'creator' => Bool, 'left' => Bool, 'broadcast' => Bool, 'verified' => Bool, 'megagroup' => Bool, 'restricted' => Bool, 'signatures' => Bool, 'min' => Bool, 'id' => int, 'access_hash' => long, 'title' => 'string', 'username' => 'string', 'photo' => ChatPhoto, 'date' => int, 'version' => int, 'restriction_reason' => 'string', 'admin_rights' => ChatAdminRights, 'banned_rights' => ChatBannedRights, 'default_banned_rights' => ChatBannedRights, 'participants_count' => int];
 ```  
 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "channel", "creator": Bool, "left": Bool, "editor": Bool, "broadcast": Bool, "verified": Bool, "megagroup": Bool, "restricted": Bool, "democracy": Bool, "signatures": Bool, "min": Bool, "id": int, "access_hash": long, "title": "string", "username": "string", "photo": ChatPhoto, "date": int, "version": int, "restriction_reason": "string", "admin_rights": ChannelAdminRights, "banned_rights": ChannelBannedRights, "participants_count": int}
+{"_": "channel", "creator": Bool, "left": Bool, "broadcast": Bool, "verified": Bool, "megagroup": Bool, "restricted": Bool, "signatures": Bool, "min": Bool, "id": int, "access_hash": long, "title": "string", "username": "string", "photo": ChatPhoto, "date": int, "version": int, "restriction_reason": "string", "admin_rights": ChatAdminRights, "banned_rights": ChatBannedRights, "default_banned_rights": ChatBannedRights, "participants_count": int}
 ```
 
 
 Or, if you're into Lua:
 
 ```lua
-channel={_='channel', creator=Bool, left=Bool, editor=Bool, broadcast=Bool, verified=Bool, megagroup=Bool, restricted=Bool, democracy=Bool, signatures=Bool, min=Bool, id=int, access_hash=long, title='string', username='string', photo=ChatPhoto, date=int, version=int, restriction_reason='string', admin_rights=ChannelAdminRights, banned_rights=ChannelBannedRights, participants_count=int}
+channel={_='channel', creator=Bool, left=Bool, broadcast=Bool, verified=Bool, megagroup=Bool, restricted=Bool, signatures=Bool, min=Bool, id=int, access_hash=long, title='string', username='string', photo=ChatPhoto, date=int, version=int, restriction_reason='string', admin_rights=ChatAdminRights, banned_rights=ChatBannedRights, default_banned_rights=ChatBannedRights, participants_count=int}
 
 ```
 

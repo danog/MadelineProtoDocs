@@ -46,8 +46,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels_inviteToChannel.html" name="channels_inviteToChannel">Add users to channel/supergroup: channels.inviteToChannel</a>  
 
-* <a href="channels_toggleInvites.html" name="channels_toggleInvites">Allow or disallow any user to invite users to this channel/supergroup: channels.toggleInvites</a>  
-
 * <a href="contacts_block.html" name="contacts_block">Block a user: contacts.block</a>  
 
 * <a href="account_getAuthorizationForm.html" name="account_getAuthorizationForm">Bots only: get telegram passport authorization form: account.getAuthorizationForm</a>  
@@ -152,7 +150,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages_editChatAdmin.html" name="messages_editChatAdmin">Edit admin permissions: messages.editChatAdmin</a>  
 
-* <a href="channels_editAbout.html" name="channels_editAbout">Edit the about text of a channel/supergroup: channels.editAbout</a>  
+* <a href="messages_editChatAbout.html" name="messages_editChatAbout">Edit chat info: messages.editChatAbout</a>  
+
+* <a href="messages_editChatDefaultBannedRights.html" name="messages_editChatDefaultBannedRights">Edit default rights of chat: messages.editChatDefaultBannedRights</a>  
 
 * <a href="messages_editChatPhoto.html" name="messages_editChatPhoto">Edit the photo of a normal chat (not supergroup): messages.editChatPhoto</a>  
 
@@ -164,13 +164,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="help_editUserInfo.html" name="help_editUserInfo">Edit user info: help.editUserInfo</a>  
 
-* <a href="messages_toggleChatAdmins.html" name="messages_toggleChatAdmins">Enable all users are admins in normal groups (not supergroups): messages.toggleChatAdmins</a>  
-
 * <a href="channels_togglePreHistoryHidden.html" name="channels_togglePreHistoryHidden">Enable or disable hidden history for new channel/supergroup users: channels.togglePreHistoryHidden</a>  
 
 * <a href="messages_exportChatInvite.html" name="messages_exportChatInvite">Export chat invite : messages.exportChatInvite</a>  
-
-* <a href="channels_exportInvite.html" name="channels_exportInvite">Export the invite link of a channel: channels.exportInvite</a>  
 
 * <a href="messages_searchStickerSets.html" name="messages_searchStickerSets">Find a sticker set: messages.searchStickerSets</a>  
 
@@ -340,6 +336,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="help_getUserInfo.html" name="help_getUserInfo">Get user info: help.getUserInfo</a>  
 
+* <a href="account_getWallPaper.html" name="account_getWallPaper">Get wallpaper info: account.getWallPaper</a>  
+
 * <a href="messages_getWebPage.html" name="messages_getWebPage">Get webpage preview: messages.getWebPage</a>  
 
 * <a href="messages_getWebPagePreview.html" name="messages_getWebPagePreview">Get webpage preview: messages.getWebPagePreview</a>  
@@ -353,6 +351,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages_importChatInvite.html" name="messages_importChatInvite">Import chat invite: messages.importChatInvite</a>  
 
 * <a href="initConnection.html" name="initConnection">Initializes connection and save information on the user's device and application.: initConnection</a>  
+
+* <a href="account_installWallPaper.html" name="account_installWallPaper">Install wallpaper: account.installWallPaper</a>  
 
 * <a href="auth_cancelCode.html" name="auth_cancelCode">Invalidate sent phone code: auth.cancelCode</a>  
 
@@ -428,6 +428,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="contacts_resetTopPeerRating.html" name="contacts_resetTopPeerRating">Reset top peer rating for a certain category/peer: contacts.resetTopPeerRating</a>  
 
+* <a href="account_resetWallPapers.html" name="account_resetWallPapers">Reset wallpapers: account.resetWallPapers</a>  
+
 * <a href="invokeAfterMsgs.html" name="invokeAfterMsgs">Result type returned by a current query.: invokeAfterMsgs</a>  
 
 * <a href="account_getWallPapers.html" name="account_getWallPapers">Returns a list of available wallpapers.: account.getWallPapers</a>  
@@ -439,6 +441,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="phone_saveCallDebug.html" name="phone_saveCallDebug">Save call debugging info: phone.saveCallDebug</a>  
 
 * <a href="account_saveSecureValue.html" name="account_saveSecureValue">Save telegram passport secure value: account.saveSecureValue</a>  
+
+* <a href="account_saveWallPaper.html" name="account_saveWallPaper">Save wallpaper: account.saveWallPaper</a>  
 
 * <a href="contacts_search.html" name="contacts_search">Search contacts: contacts.search</a>  
 
@@ -523,6 +527,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages_uploadEncryptedFile.html" name="messages_uploadEncryptedFile">Upload a secret chat file without sending it to anyone: messages.uploadEncryptedFile</a>  
 
 * <a href="photos_uploadProfilePhoto.html" name="photos_uploadProfilePhoto">Upload profile photo: photos.uploadProfilePhoto</a>  
+
+* <a href="account_uploadWallPaper.html" name="account_uploadWallPaper">Upload wallpaper: account.uploadWallPaper</a>  
 
 * <a href="auth_recoverPassword.html" name="auth_recoverPassword">Use the code that was emailed to you after running $MadelineProto->auth->requestPasswordRecovery to login to your account: auth.recoverPassword</a>  
 

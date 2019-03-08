@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 There are simplifications for many, if not all of, these methods.
 
-A list of all of the methods that can be called with MadelineProto can be found here: [here (layer 91)](https://docs.madelineproto.xyz/API_docs/).
+A list of all of the methods that can be called with MadelineProto can be found here: [here (layer 95)](https://docs.madelineproto.xyz/API_docs/).
 
 * [FULL API Documentation with descriptions](https://docs.madelineproto.xyz/API_docs/methods/)
 * [Peers](#peers)
@@ -107,4 +107,4 @@ $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => 'l
 
 If the queue if the specified queue name does not exist, it will be created.
 
-<a href="https://docs.madelineproto.xyz/docs/FILES.html">Next section</a>
+<a href="https://docs.madelineproto.xyz/docs/CONTRIB.html">Next section</a>

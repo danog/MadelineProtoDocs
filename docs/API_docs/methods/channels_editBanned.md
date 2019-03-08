@@ -15,7 +15,7 @@ Kick or ban a user from a channel/supergroup
 |----------|---------------|-------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel/supergroup | Optional|
 |user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The user to kick/ban | Optional|
-|banned\_rights|[ChannelBannedRights](../types/ChannelBannedRights.md) | Banned/kicked permissions | Yes|
+|banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Banned rights | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)
@@ -35,7 +35,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->channels->editBanned(['channel' => InputChannel, 'user_id' => InputUser, 'banned_rights' => ChannelBannedRights, ]);
+$Updates = $MadelineProto->channels->editBanned(['channel' => InputChannel, 'user_id' => InputUser, 'banned_rights' => ChatBannedRights, ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -47,7 +47,7 @@ POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
 Parameters:
 
 * method - channels.editBanned
-* params - `{"channel": InputChannel, "user_id": InputUser, "banned_rights": ChannelBannedRights, }`
+* params - `{"channel": InputChannel, "user_id": InputUser, "banned_rights": ChatBannedRights, }`
 
 
 
@@ -61,7 +61,7 @@ channel - Json encoded InputChannel
 
 user_id - Json encoded InputUser
 
-banned_rights - Json encoded ChannelBannedRights
+banned_rights - Json encoded ChatBannedRights
 
 
 
@@ -69,7 +69,7 @@ banned_rights - Json encoded ChannelBannedRights
 Or, if you're into Lua:
 
 ```lua
-Updates = channels.editBanned({channel=InputChannel, user_id=InputUser, banned_rights=ChannelBannedRights, })
+Updates = channels.editBanned({channel=InputChannel, user_id=InputUser, banned_rights=ChatBannedRights, })
 ```
 
 ### Errors this method can return:

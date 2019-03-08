@@ -15,7 +15,7 @@ Edit admin permissions of a user in a channel/supergroup
 |----------|---------------|-------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel | Optional|
 |user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The user | Optional|
-|admin\_rights|[ChannelAdminRights](../types/ChannelAdminRights.md) | The new admin rights | Yes|
+|admin\_rights|[ChatAdminRights](../types/ChatAdminRights.md) | Admin rights | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)
@@ -35,7 +35,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->channels->editAdmin(['channel' => InputChannel, 'user_id' => InputUser, 'admin_rights' => ChannelAdminRights, ]);
+$Updates = $MadelineProto->channels->editAdmin(['channel' => InputChannel, 'user_id' => InputUser, 'admin_rights' => ChatAdminRights, ]);
 ```
 
 ### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
@@ -47,7 +47,7 @@ POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
 Parameters:
 
 * method - channels.editAdmin
-* params - `{"channel": InputChannel, "user_id": InputUser, "admin_rights": ChannelAdminRights, }`
+* params - `{"channel": InputChannel, "user_id": InputUser, "admin_rights": ChatAdminRights, }`
 
 
 
@@ -61,7 +61,7 @@ channel - Json encoded InputChannel
 
 user_id - Json encoded InputUser
 
-admin_rights - Json encoded ChannelAdminRights
+admin_rights - Json encoded ChatAdminRights
 
 
 
@@ -69,7 +69,7 @@ admin_rights - Json encoded ChannelAdminRights
 Or, if you're into Lua:
 
 ```lua
-Updates = channels.editAdmin({channel=InputChannel, user_id=InputUser, admin_rights=ChannelAdminRights, })
+Updates = channels.editAdmin({channel=InputChannel, user_id=InputUser, admin_rights=ChatAdminRights, })
 ```
 
 ### Errors this method can return:

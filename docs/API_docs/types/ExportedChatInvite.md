@@ -20,7 +20,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->messages->exportChatInvite](../methods/messages_exportChatInvite.md)  
 
-[$MadelineProto->channels->exportInvite](../methods/channels_exportInvite.md)  
-
 
 

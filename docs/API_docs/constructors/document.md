@@ -20,7 +20,7 @@ Document
 |date|[int](../types/int.md) | Yes|Date|
 |mime\_type|[string](../types/string.md) | Yes|Mime type|
 |size|[int](../types/int.md) | Yes|Size|
-|thumb|[PhotoSize](../types/PhotoSize.md) | Optional|Thumbnail|
+|thumbs|Array of [PhotoSize](../types/PhotoSize.md) | Optional|Thumbnails|
 |dc\_id|[int](../types/int.md) | Yes|DC ID|
 |attributes|Array of [DocumentAttribute](../types/DocumentAttribute.md) | Yes|Attributes|
 
@@ -32,20 +32,20 @@ Document
 ### Example:
 
 ```php
-$document = ['_' => 'document', 'id' => long, 'access_hash' => long, 'file_reference' => 'bytes', 'date' => int, 'mime_type' => 'string', 'size' => int, 'thumb' => PhotoSize, 'dc_id' => int, 'attributes' => [DocumentAttribute, DocumentAttribute]];
+$document = ['_' => 'document', 'id' => long, 'access_hash' => long, 'file_reference' => 'bytes', 'date' => int, 'mime_type' => 'string', 'size' => int, 'thumbs' => [PhotoSize, PhotoSize], 'dc_id' => int, 'attributes' => [DocumentAttribute, DocumentAttribute]];
 ```  
 
 [PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
 
 ```
-{"_": "document", "id": long, "access_hash": long, "file_reference": {"_": "bytes", "bytes":"base64 encoded bytes"}, "date": int, "mime_type": "string", "size": int, "thumb": PhotoSize, "dc_id": int, "attributes": [DocumentAttribute]}
+{"_": "document", "id": long, "access_hash": long, "file_reference": {"_": "bytes", "bytes":"base64 encoded bytes"}, "date": int, "mime_type": "string", "size": int, "thumbs": [PhotoSize], "dc_id": int, "attributes": [DocumentAttribute]}
 ```
 
 
 Or, if you're into Lua:
 
 ```lua
-document={_='document', id=long, access_hash=long, file_reference='bytes', date=int, mime_type='string', size=int, thumb=PhotoSize, dc_id=int, attributes={DocumentAttribute}}
+document={_='document', id=long, access_hash=long, file_reference='bytes', date=int, mime_type='string', size=int, thumbs={PhotoSize}, dc_id=int, attributes={DocumentAttribute}}
 
 ```
 
