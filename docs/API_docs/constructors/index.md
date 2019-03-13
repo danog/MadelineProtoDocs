@@ -831,10 +831,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$inputPrivacyKeyChatInvite](../constructors/inputPrivacyKeyChatInvite.md) = \[\];<a name="inputPrivacyKeyChatInvite"></a>  
 
 ***
+<br><br>[$inputPrivacyKeyForwards](../constructors/inputPrivacyKeyForwards.md) = \[\];<a name="inputPrivacyKeyForwards"></a>  
+
+***
 <br><br>[$inputPrivacyKeyPhoneCall](../constructors/inputPrivacyKeyPhoneCall.md) = \[\];<a name="inputPrivacyKeyPhoneCall"></a>  
 
 ***
 <br><br>[$inputPrivacyKeyPhoneP2P](../constructors/inputPrivacyKeyPhoneP2P.md) = \[\];<a name="inputPrivacyKeyPhoneP2P"></a>  
+
+***
+<br><br>[$inputPrivacyKeyProfilePhoto](../constructors/inputPrivacyKeyProfilePhoto.md) = \[\];<a name="inputPrivacyKeyProfilePhoto"></a>  
 
 ***
 <br><br>[$inputPrivacyKeyStatusTimestamp](../constructors/inputPrivacyKeyStatusTimestamp.md) = \[\];<a name="inputPrivacyKeyStatusTimestamp"></a>  
