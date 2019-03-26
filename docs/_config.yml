@@ -12,3 +12,4 @@ twitter:
 author:
   twitter: DaniilGentili
   
+include: [".well-known"]
