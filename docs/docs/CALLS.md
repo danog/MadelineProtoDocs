@@ -79,7 +79,6 @@ To increase it, you must modify the shared settings (before starting MadelinePro
 ]);
 ```
 
-Do this before accepting a call or right after requesting one.  
 It is best to set an initial bitrate not much smaller than the maximum bitrate, since libtgvoip tends to always increase it, initially, and when it does that, slight sound distortions occur.  
 The maximum bitrate can be set to any value, really, as long as it's smaller than `110*1000` (temporary limit that I'm trying to work around).  
 It is best to set the minumum bitrate to a value smaller than or equal to `20*1000`.  
