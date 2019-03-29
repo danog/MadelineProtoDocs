@@ -22,12 +22,6 @@ Empty input peer notify events
 $inputPeerNotifyEventsEmpty = ['_' => 'inputPeerNotifyEventsEmpty'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputPeerNotifyEventsEmpty"}
-```
-
 
 Or, if you're into Lua:
 

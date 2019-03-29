@@ -27,12 +27,6 @@ Decrypted message action screenshot messages
 $decryptedMessageActionScreenshotMessages_8 = ['_' => 'decryptedMessageActionScreenshotMessages', 'random_ids' => [long, long]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "decryptedMessageActionScreenshotMessages", "random_ids": [long]}
-```
-
 
 Or, if you're into Lua:
 

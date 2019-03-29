@@ -37,21 +37,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->resetAuthorization(['hash' => long, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.resetAuthorization`
-
-Parameters:
-
-hash - Json encoded long
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

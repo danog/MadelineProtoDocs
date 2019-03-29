@@ -29,12 +29,6 @@ Page block details
 $pageBlockDetails = ['_' => 'pageBlockDetails', 'open' => Bool, 'blocks' => [PageBlock, PageBlock], 'title' => RichText];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageBlockDetails", "open": Bool, "blocks": [PageBlock], "title": RichText}
-```
-
 
 Or, if you're into Lua:
 

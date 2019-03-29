@@ -29,12 +29,6 @@ Update bot inline send
 $updateBotInlineSend = ['_' => 'updateBotInlineSend', 'user_id' => int, 'query' => 'string', 'id' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateBotInlineSend", "user_id": int, "query": "string", "id": "string"}
-```
-
 
 Or, if you're into Lua:
 

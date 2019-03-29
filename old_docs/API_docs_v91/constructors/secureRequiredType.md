@@ -30,12 +30,6 @@ Secure required type
 $secureRequiredType = ['_' => 'secureRequiredType', 'native_names' => Bool, 'selfie_required' => Bool, 'translation_required' => Bool, 'type' => SecureValueType];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "secureRequiredType", "native_names": Bool, "selfie_required": Bool, "translation_required": Bool, "type": SecureValueType}
-```
-
 
 Or, if you're into Lua:
 

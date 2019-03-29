@@ -28,12 +28,6 @@ Payment credentials android pay
 $inputPaymentCredentialsAndroidPay = ['_' => 'inputPaymentCredentialsAndroidPay', 'payment_token' => DataJSON, 'google_transaction_id' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputPaymentCredentialsAndroidPay", "payment_token": DataJSON, "google_transaction_id": "string"}
-```
-
 
 Or, if you're into Lua:
 

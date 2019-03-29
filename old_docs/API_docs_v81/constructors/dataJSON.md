@@ -27,12 +27,6 @@ Data json
 $dataJSON = ['_' => 'dataJSON', 'data' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "dataJSON", "data": "string"}
-```
-
 
 Or, if you're into Lua:
 

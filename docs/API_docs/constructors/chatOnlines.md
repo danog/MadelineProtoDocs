@@ -27,12 +27,6 @@ Chat onlines
 $chatOnlines = ['_' => 'chatOnlines', 'onlines' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "chatOnlines", "onlines": int}
-```
-
 
 Or, if you're into Lua:
 

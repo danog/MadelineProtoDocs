@@ -43,42 +43,6 @@ $MadelineProto->start();
 $account_Takeout = $MadelineProto->account->initTakeoutSession(['contacts' => Bool, 'message_users' => Bool, 'message_chats' => Bool, 'message_megagroups' => Bool, 'message_channels' => Bool, 'files' => Bool, 'file_max_size' => int, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - account.initTakeoutSession
-* params - `{"contacts": Bool, "message_users": Bool, "message_chats": Bool, "message_megagroups": Bool, "message_channels": Bool, "files": Bool, "file_max_size": int, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.initTakeoutSession`
-
-Parameters:
-
-contacts - Json encoded Bool
-
-message_users - Json encoded Bool
-
-message_chats - Json encoded Bool
-
-message_megagroups - Json encoded Bool
-
-message_channels - Json encoded Bool
-
-files - Json encoded Bool
-
-file_max_size - Json encoded int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

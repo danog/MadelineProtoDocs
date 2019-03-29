@@ -22,12 +22,6 @@ Update faved stickers
 $updateFavedStickers = ['_' => 'updateFavedStickers'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateFavedStickers"}
-```
-
 
 Or, if you're into Lua:
 

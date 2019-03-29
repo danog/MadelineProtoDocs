@@ -22,12 +22,6 @@ Notify chats
 $inputNotifyChats = ['_' => 'inputNotifyChats'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputNotifyChats"}
-```
-
 
 Or, if you're into Lua:
 

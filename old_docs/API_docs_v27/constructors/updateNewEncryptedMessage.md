@@ -28,12 +28,6 @@ Update new encrypted message
 $updateNewEncryptedMessage = ['_' => 'updateNewEncryptedMessage', 'message' => EncryptedMessage, 'qts' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateNewEncryptedMessage", "message": EncryptedMessage, "qts": int}
-```
-
 
 Or, if you're into Lua:
 

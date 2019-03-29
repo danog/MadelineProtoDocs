@@ -28,12 +28,6 @@ Photos
 $photos_photos = ['_' => 'photos.photos', 'photos' => [Photo, Photo], 'users' => [User, User]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "photos.photos", "photos": [Photo], "users": [User]}
-```
-
 
 Or, if you're into Lua:
 

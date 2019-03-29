@@ -22,12 +22,6 @@ Auth code type: flash call
 $auth_codeTypeFlashCall = ['_' => 'auth.codeTypeFlashCall'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "auth.codeTypeFlashCall"}
-```
-
 
 Or, if you're into Lua:
 

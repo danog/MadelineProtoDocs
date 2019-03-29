@@ -40,36 +40,6 @@ $MadelineProto->start();
 $geochats_StatedMessage = $MadelineProto->geochats->createGeoChat(['title' => 'string', 'geo_point' => InputGeoPoint, 'address' => 'string', 'venue' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - geochats.createGeoChat
-* params - `{"title": "string", "geo_point": InputGeoPoint, "address": "string", "venue": "string", }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/geochats.createGeoChat`
-
-Parameters:
-
-title - Json encoded string
-
-geo_point - Json encoded InputGeoPoint
-
-address - Json encoded string
-
-venue - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

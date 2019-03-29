@@ -37,21 +37,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->help->saveAppLog(['events' => [InputAppEvent, InputAppEvent], ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/help.saveAppLog`
-
-Parameters:
-
-events - Json encoded  array of InputAppEvent
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

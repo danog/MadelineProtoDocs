@@ -22,12 +22,6 @@ Found sticker sets not modified
 $messages_foundStickerSetsNotModified = ['_' => 'messages.foundStickerSetsNotModified'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messages.foundStickerSetsNotModified"}
-```
-
 
 Or, if you're into Lua:
 

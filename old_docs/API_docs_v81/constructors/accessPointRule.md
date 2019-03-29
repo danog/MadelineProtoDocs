@@ -29,12 +29,6 @@ Access point rule
 $accessPointRule = ['_' => 'accessPointRule', 'phone_prefix_rules' => 'string', 'dc_id' => int, 'ips' => [IpPort, IpPort]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "accessPointRule", "phone_prefix_rules": "string", "dc_id": int, "ips": [IpPort]}
-```
-
 
 Or, if you're into Lua:
 

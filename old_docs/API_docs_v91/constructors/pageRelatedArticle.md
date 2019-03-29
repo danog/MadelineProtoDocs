@@ -33,12 +33,6 @@ Page related article
 $pageRelatedArticle = ['_' => 'pageRelatedArticle', 'url' => 'string', 'webpage_id' => long, 'title' => 'string', 'description' => 'string', 'photo_id' => long, 'author' => 'string', 'published_date' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageRelatedArticle", "url": "string", "webpage_id": long, "title": "string", "description": "string", "photo_id": long, "author": "string", "published_date": int}
-```
-
 
 Or, if you're into Lua:
 

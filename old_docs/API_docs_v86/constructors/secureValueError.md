@@ -29,12 +29,6 @@ Secure value error
 $secureValueError = ['_' => 'secureValueError', 'type' => SecureValueType, 'hash' => 'bytes', 'text' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "secureValueError", "type": SecureValueType, "hash": {"_": "bytes", "bytes":"base64 encoded bytes"}, "text": "string"}
-```
-
 
 Or, if you're into Lua:
 

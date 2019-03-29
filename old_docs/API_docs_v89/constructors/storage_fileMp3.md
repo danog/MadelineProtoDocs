@@ -22,12 +22,6 @@ File mp3
 $storage_fileMp3 = ['_' => 'storage.fileMp3'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "storage.fileMp3"}
-```
-
 
 Or, if you're into Lua:
 

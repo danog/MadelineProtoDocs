@@ -27,12 +27,6 @@ Update chat participants
 $updateChatParticipants = ['_' => 'updateChatParticipants', 'participants' => ChatParticipants];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateChatParticipants", "participants": ChatParticipants}
-```
-
 
 Or, if you're into Lua:
 

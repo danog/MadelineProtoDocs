@@ -22,12 +22,6 @@ Secure value type rental agreement
 $secureValueTypeRentalAgreement = ['_' => 'secureValueTypeRentalAgreement'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "secureValueTypeRentalAgreement"}
-```
-
 
 Or, if you're into Lua:
 

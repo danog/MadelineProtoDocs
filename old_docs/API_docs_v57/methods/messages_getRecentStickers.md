@@ -38,23 +38,6 @@ $MadelineProto->start();
 $messages_RecentStickers = $MadelineProto->messages->getRecentStickers(['attached' => Bool, 'hash' => [int, int], ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.getRecentStickers`
-
-Parameters:
-
-attached - Json encoded Bool
-
-hash - Json encoded  array of int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

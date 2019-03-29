@@ -27,12 +27,6 @@ Text subscript
 $textSubscript = ['_' => 'textSubscript', 'text' => RichText];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "textSubscript", "text": RichText}
-```
-
 
 Or, if you're into Lua:
 

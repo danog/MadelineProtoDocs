@@ -27,12 +27,6 @@ Update web page
 $updateWebPage = ['_' => 'updateWebPage', 'webpage' => WebPage];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateWebPage", "webpage": WebPage}
-```
-
 
 Or, if you're into Lua:
 

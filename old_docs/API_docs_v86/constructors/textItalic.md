@@ -27,12 +27,6 @@ Text italic
 $textItalic = ['_' => 'textItalic', 'text' => RichText];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "textItalic", "text": RichText}
-```
-
 
 Or, if you're into Lua:
 

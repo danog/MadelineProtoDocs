@@ -31,12 +31,6 @@ Message service
 $messageService = ['_' => 'messageService', 'id' => int, 'from_id' => int, 'to_id' => Peer, 'date' => int, 'action' => MessageAction];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageService", "id": int, "from_id": int, "to_id": Peer, "date": int, "action": MessageAction}
-```
-
 
 Or, if you're into Lua:
 

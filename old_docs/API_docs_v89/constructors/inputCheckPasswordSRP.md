@@ -29,12 +29,6 @@ Check password srp
 $inputCheckPasswordSRP = ['_' => 'inputCheckPasswordSRP', 'srp_id' => long, 'A' => 'bytes', 'M1' => 'bytes'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputCheckPasswordSRP", "srp_id": long, "A": {"_": "bytes", "bytes":"base64 encoded bytes"}, "M1": {"_": "bytes", "bytes":"base64 encoded bytes"}}
-```
-
 
 Or, if you're into Lua:
 

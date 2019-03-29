@@ -38,32 +38,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->channels->setStickers(['channel' => InputChannel, 'stickerset' => InputStickerSet, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - channels.setStickers
-* params - `{"channel": InputChannel, "stickerset": InputStickerSet, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/channels.setStickers`
-
-Parameters:
-
-channel - Json encoded InputChannel
-
-stickerset - Json encoded InputStickerSet
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

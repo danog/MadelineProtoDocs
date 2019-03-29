@@ -31,12 +31,6 @@ File location
 $fileLocation = ['_' => 'fileLocation', 'dc_id' => int, 'volume_id' => long, 'local_id' => int, 'secret' => long, 'file_reference' => 'bytes'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "fileLocation", "dc_id": int, "volume_id": long, "local_id": int, "secret": long, "file_reference": {"_": "bytes", "bytes":"base64 encoded bytes"}}
-```
-
 
 Or, if you're into Lua:
 

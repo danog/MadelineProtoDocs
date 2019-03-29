@@ -32,12 +32,6 @@ Telegram passport authorization form
 $account_authorizationForm = ['_' => 'account.authorizationForm', 'selfie_required' => Bool, 'required_types' => [SecureValueType, SecureValueType], 'values' => [SecureValue, SecureValue], 'errors' => [SecureValueError, SecureValueError], 'users' => [User, User], 'privacy_policy_url' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "account.authorizationForm", "selfie_required": Bool, "required_types": [SecureValueType], "values": [SecureValue], "errors": [SecureValueError], "users": [User], "privacy_policy_url": "string"}
-```
-
 
 Or, if you're into Lua:
 

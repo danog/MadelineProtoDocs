@@ -39,25 +39,6 @@ $MadelineProto->start();
 $auth_SentCode = $MadelineProto->account->sendChangePhoneCode(['allow_flashcall' => Bool, 'phone_number' => 'string', 'current_number' => Bool, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.sendChangePhoneCode`
-
-Parameters:
-
-allow_flashcall - Json encoded Bool
-
-phone_number - Json encoded string
-
-current_number - Json encoded Bool
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

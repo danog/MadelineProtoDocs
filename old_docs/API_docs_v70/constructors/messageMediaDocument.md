@@ -29,12 +29,6 @@ Message media document
 $messageMediaDocument = ['_' => 'messageMediaDocument', 'document' => Document, 'caption' => 'string', 'ttl_seconds' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageMediaDocument", "document": Document, "caption": "string", "ttl_seconds": int}
-```
-
 
 Or, if you're into Lua:
 

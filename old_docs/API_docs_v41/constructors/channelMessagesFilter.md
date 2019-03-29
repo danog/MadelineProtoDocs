@@ -28,12 +28,6 @@ Channel messages filter
 $channelMessagesFilter = ['_' => 'channelMessagesFilter', 'important_only' => Bool, 'ranges' => [MessageRange, MessageRange]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "channelMessagesFilter", "important_only": Bool, "ranges": [MessageRange]}
-```
-
 
 Or, if you're into Lua:
 

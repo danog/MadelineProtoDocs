@@ -28,12 +28,6 @@ Page block slideshow
 $pageBlockSlideshow = ['_' => 'pageBlockSlideshow', 'items' => [PageBlock, PageBlock], 'caption' => PageCaption];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageBlockSlideshow", "items": [PageBlock], "caption": PageCaption}
-```
-
 
 Or, if you're into Lua:
 

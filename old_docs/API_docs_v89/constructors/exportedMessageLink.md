@@ -28,12 +28,6 @@ Exported message link
 $exportedMessageLink = ['_' => 'exportedMessageLink', 'link' => 'string', 'html' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "exportedMessageLink", "link": "string", "html": "string"}
-```
-
 
 Or, if you're into Lua:
 

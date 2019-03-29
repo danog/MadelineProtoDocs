@@ -27,12 +27,6 @@ Json bool
 $jsonBool = ['_' => 'jsonBool', 'value' => Bool];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "jsonBool", "value": Bool}
-```
-
 
 Or, if you're into Lua:
 

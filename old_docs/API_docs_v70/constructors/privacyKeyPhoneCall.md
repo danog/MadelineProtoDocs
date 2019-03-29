@@ -22,12 +22,6 @@ Privacy key phone call
 $privacyKeyPhoneCall = ['_' => 'privacyKeyPhoneCall'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "privacyKeyPhoneCall"}
-```
-
 
 Or, if you're into Lua:
 

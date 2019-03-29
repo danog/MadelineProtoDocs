@@ -28,12 +28,6 @@ Edit message
 $channelAdminLogEventActionEditMessage = ['_' => 'channelAdminLogEventActionEditMessage', 'prev_message' => Message, 'new_message' => Message];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "channelAdminLogEventActionEditMessage", "prev_message": Message, "new_message": Message}
-```
-
 
 Or, if you're into Lua:
 

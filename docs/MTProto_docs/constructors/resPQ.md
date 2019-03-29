@@ -30,12 +30,6 @@ Contains pq to factorize
 $resPQ = ['_' => 'resPQ', 'nonce' => int128, 'server_nonce' => int128, 'pq' => 'bytes', 'server_public_key_fingerprints' => [long, long]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "resPQ", "nonce": int128, "server_nonce": int128, "pq": {"_": "bytes", "bytes":"base64 encoded bytes"}, "server_public_key_fingerprints": [long]}
-```
-
 
 Or, if you're into Lua:
 

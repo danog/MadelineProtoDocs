@@ -28,12 +28,6 @@ Msgs all info
 $msgs_all_info = ['_' => 'msgs_all_info', 'msg_ids' => [long, long], 'info' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "msgs_all_info", "msg_ids": [long], "info": "string"}
-```
-
 
 Or, if you're into Lua:
 

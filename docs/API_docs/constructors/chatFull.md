@@ -35,12 +35,6 @@ Chat full
 $chatFull = ['_' => 'chatFull', 'can_set_username' => Bool, 'id' => int, 'about' => 'string', 'participants' => ChatParticipants, 'chat_photo' => Photo, 'notify_settings' => PeerNotifySettings, 'exported_invite' => ExportedChatInvite, 'bot_info' => [BotInfo, BotInfo], 'pinned_msg_id' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "chatFull", "can_set_username": Bool, "id": int, "about": "string", "participants": ChatParticipants, "chat_photo": Photo, "notify_settings": PeerNotifySettings, "exported_invite": ExportedChatInvite, "bot_info": [BotInfo], "pinned_msg_id": int}
-```
-
 
 Or, if you're into Lua:
 

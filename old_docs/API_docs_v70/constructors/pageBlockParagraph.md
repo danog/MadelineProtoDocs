@@ -27,12 +27,6 @@ Page block paragraph
 $pageBlockParagraph = ['_' => 'pageBlockParagraph', 'text' => RichText];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageBlockParagraph", "text": RichText}
-```
-
 
 Or, if you're into Lua:
 

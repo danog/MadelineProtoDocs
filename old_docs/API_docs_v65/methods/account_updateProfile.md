@@ -39,25 +39,6 @@ $MadelineProto->start();
 $User = $MadelineProto->account->updateProfile(['first_name' => 'string', 'last_name' => 'string', 'about' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.updateProfile`
-
-Parameters:
-
-first_name - Json encoded string
-
-last_name - Json encoded string
-
-about - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

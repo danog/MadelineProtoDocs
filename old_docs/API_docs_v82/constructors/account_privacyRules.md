@@ -28,12 +28,6 @@ Privacy rules
 $account_privacyRules = ['_' => 'account.privacyRules', 'rules' => [PrivacyRule, PrivacyRule], 'users' => [User, User]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "account.privacyRules", "rules": [PrivacyRule], "users": [User]}
-```
-
 
 Or, if you're into Lua:
 

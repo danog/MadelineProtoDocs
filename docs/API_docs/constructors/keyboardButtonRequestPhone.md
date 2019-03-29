@@ -27,12 +27,6 @@ Keyboard button request phone
 $keyboardButtonRequestPhone = ['_' => 'keyboardButtonRequestPhone', 'text' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "keyboardButtonRequestPhone", "text": "string"}
-```
-
 
 Or, if you're into Lua:
 

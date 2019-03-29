@@ -27,12 +27,6 @@ Update DC options
 $updateDcOptions = ['_' => 'updateDcOptions', 'dc_options' => [DcOption, DcOption]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateDcOptions", "dc_options": [DcOption]}
-```
-
 
 Or, if you're into Lua:
 

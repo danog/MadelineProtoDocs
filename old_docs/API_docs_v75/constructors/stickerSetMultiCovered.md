@@ -28,12 +28,6 @@ Sticker set multi covered
 $stickerSetMultiCovered = ['_' => 'stickerSetMultiCovered', 'set' => StickerSet, 'covers' => [Document, Document]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "stickerSetMultiCovered", "set": StickerSet, "covers": [Document]}
-```
-
 
 Or, if you're into Lua:
 

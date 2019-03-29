@@ -37,30 +37,6 @@ $MadelineProto->start();
 $geochats_StatedMessage = $MadelineProto->geochats->checkin(['peer' => InputGeoChat, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - geochats.checkin
-* params - `{"peer": InputGeoChat, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/geochats.checkin`
-
-Parameters:
-
-peer - Json encoded InputGeoChat
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

@@ -30,12 +30,6 @@ Poll
 $poll = ['_' => 'poll', 'id' => long, 'closed' => Bool, 'question' => 'string', 'answers' => [PollAnswer, PollAnswer]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "poll", "id": long, "closed": Bool, "question": "string", "answers": [PollAnswer]}
-```
-
 
 Or, if you're into Lua:
 

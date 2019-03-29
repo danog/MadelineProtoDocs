@@ -38,32 +38,6 @@ $MadelineProto->start();
 $geochats_StatedMessage = $MadelineProto->geochats->sendMedia(['peer' => InputGeoChat, 'media' => InputMedia, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - geochats.sendMedia
-* params - `{"peer": InputGeoChat, "media": InputMedia, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/geochats.sendMedia`
-
-Parameters:
-
-peer - Json encoded InputGeoChat
-
-media - Json encoded InputMedia
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

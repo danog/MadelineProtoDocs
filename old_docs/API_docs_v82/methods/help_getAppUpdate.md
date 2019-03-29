@@ -32,19 +32,6 @@ $MadelineProto->start();
 $help_AppUpdate = $MadelineProto->help->getAppUpdate();
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/help.getAppUpdate`
-
-Parameters:
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

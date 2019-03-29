@@ -37,30 +37,6 @@ $MadelineProto->start();
 $account_SentEmailCode = $MadelineProto->account->sendVerifyEmailCode(['email' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - account.sendVerifyEmailCode
-* params - `{"email": "string", }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.sendVerifyEmailCode`
-
-Parameters:
-
-email - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

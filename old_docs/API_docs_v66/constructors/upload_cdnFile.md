@@ -27,12 +27,6 @@ Cdn file
 $upload_cdnFile = ['_' => 'upload.cdnFile', 'bytes' => 'bytes'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "upload.cdnFile", "bytes": {"_": "bytes", "bytes":"base64 encoded bytes"}}
-```
-
 
 Or, if you're into Lua:
 

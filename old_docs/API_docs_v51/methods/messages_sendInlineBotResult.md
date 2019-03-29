@@ -43,33 +43,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->sendInlineBotResult(['broadcast' => Bool, 'silent' => Bool, 'background' => Bool, 'peer' => InputPeer, 'reply_to_msg_id' => int, 'query_id' => long, 'id' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.sendInlineBotResult`
-
-Parameters:
-
-broadcast - Json encoded Bool
-
-silent - Json encoded Bool
-
-background - Json encoded Bool
-
-peer - Json encoded InputPeer
-
-reply_to_msg_id - Json encoded int
-
-query_id - Json encoded long
-
-id - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

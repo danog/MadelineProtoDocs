@@ -30,12 +30,6 @@ Stated message
 $geochats_statedMessage = ['_' => 'geochats.statedMessage', 'message' => GeoChatMessage, 'chats' => [Chat, Chat], 'users' => [User, User], 'seq' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "geochats.statedMessage", "message": GeoChatMessage, "chats": [Chat], "users": [User], "seq": int}
-```
-
 
 Or, if you're into Lua:
 

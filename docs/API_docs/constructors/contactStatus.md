@@ -28,12 +28,6 @@ Contact status
 $contactStatus = ['_' => 'contactStatus', 'user_id' => int, 'status' => UserStatus];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "contactStatus", "user_id": int, "status": UserStatus}
-```
-
 
 Or, if you're into Lua:
 

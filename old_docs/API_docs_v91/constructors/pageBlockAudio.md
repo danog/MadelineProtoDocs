@@ -28,12 +28,6 @@ Page block audio
 $pageBlockAudio = ['_' => 'pageBlockAudio', 'audio_id' => long, 'caption' => PageCaption];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageBlockAudio", "audio_id": long, "caption": PageCaption}
-```
-
 
 Or, if you're into Lua:
 

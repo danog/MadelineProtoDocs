@@ -22,12 +22,6 @@ Privacy value allow all
 $privacyValueAllowAll = ['_' => 'privacyValueAllowAll'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "privacyValueAllowAll"}
-```
-
 
 Or, if you're into Lua:
 

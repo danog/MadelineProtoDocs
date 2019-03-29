@@ -31,12 +31,6 @@ File cdn redirect
 $upload_fileCdnRedirect = ['_' => 'upload.fileCdnRedirect', 'dc_id' => int, 'file_token' => 'bytes', 'encryption_key' => 'bytes', 'encryption_iv' => 'bytes', 'cdn_file_hashes' => [CdnFileHash, CdnFileHash]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "upload.fileCdnRedirect", "dc_id": int, "file_token": {"_": "bytes", "bytes":"base64 encoded bytes"}, "encryption_key": {"_": "bytes", "bytes":"base64 encoded bytes"}, "encryption_iv": {"_": "bytes", "bytes":"base64 encoded bytes"}, "cdn_file_hashes": [CdnFileHash]}
-```
-
 
 Or, if you're into Lua:
 

@@ -22,12 +22,6 @@ Empty input user
 $inputUserEmpty = ['_' => 'inputUserEmpty'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputUserEmpty"}
-```
-
 
 Or, if you're into Lua:
 

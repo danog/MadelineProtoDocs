@@ -33,12 +33,6 @@ Decrypted message
 $decryptedMessage_73 = ['_' => 'decryptedMessage', 'ttl' => int, 'message' => 'string', 'media' => DecryptedMessageMedia, 'entities' => [MessageEntity, MessageEntity], 'via_bot_name' => 'string', 'reply_to_random_id' => long, 'grouped_id' => long];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "decryptedMessage", "ttl": int, "message": "string", "media": DecryptedMessageMedia, "entities": [MessageEntity], "via_bot_name": "string", "reply_to_random_id": long, "grouped_id": long}
-```
-
 
 Or, if you're into Lua:
 

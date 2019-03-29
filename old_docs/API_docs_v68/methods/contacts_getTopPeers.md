@@ -45,37 +45,6 @@ $MadelineProto->start();
 $contacts_TopPeers = $MadelineProto->contacts->getTopPeers(['correspondents' => Bool, 'bots_pm' => Bool, 'bots_inline' => Bool, 'phone_calls' => Bool, 'groups' => Bool, 'channels' => Bool, 'offset' => int, 'limit' => int, 'hash' => [int, int], ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/contacts.getTopPeers`
-
-Parameters:
-
-correspondents - Json encoded Bool
-
-bots_pm - Json encoded Bool
-
-bots_inline - Json encoded Bool
-
-phone_calls - Json encoded Bool
-
-groups - Json encoded Bool
-
-channels - Json encoded Bool
-
-offset - Json encoded int
-
-limit - Json encoded int
-
-hash - Json encoded  array of int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

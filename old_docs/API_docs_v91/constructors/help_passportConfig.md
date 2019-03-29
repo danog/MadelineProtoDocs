@@ -28,12 +28,6 @@ Passport config
 $help_passportConfig = ['_' => 'help.passportConfig', 'hash' => int, 'countries_langs' => DataJSON];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "help.passportConfig", "hash": int, "countries_langs": DataJSON}
-```
-
 
 Or, if you're into Lua:
 

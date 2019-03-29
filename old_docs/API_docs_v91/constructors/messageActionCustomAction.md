@@ -27,12 +27,6 @@ Message action custom action
 $messageActionCustomAction = ['_' => 'messageActionCustomAction', 'message' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageActionCustomAction", "message": "string"}
-```
-
 
 Or, if you're into Lua:
 

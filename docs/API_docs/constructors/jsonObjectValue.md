@@ -28,12 +28,6 @@ Json object value
 $jsonObjectValue = ['_' => 'jsonObjectValue', 'key' => 'string', 'value' => JSONValue];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "jsonObjectValue", "key": "string", "value": JSONValue}
-```
-
 
 Or, if you're into Lua:
 

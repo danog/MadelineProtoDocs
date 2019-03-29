@@ -28,12 +28,6 @@ Sent change phone code
 $account_sentChangePhoneCode = ['_' => 'account.sentChangePhoneCode', 'phone_code_hash' => 'string', 'send_call_timeout' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "account.sentChangePhoneCode", "phone_code_hash": "string", "send_call_timeout": int}
-```
-
 
 Or, if you're into Lua:
 

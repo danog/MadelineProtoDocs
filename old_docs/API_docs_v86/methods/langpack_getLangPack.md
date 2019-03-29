@@ -38,23 +38,6 @@ $MadelineProto->start();
 $LangPackDifference = $MadelineProto->langpack->getLangPack(['lang_pack' => 'string', 'lang_code' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/langpack.getLangPack`
-
-Parameters:
-
-lang_pack - Json encoded string
-
-lang_code - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

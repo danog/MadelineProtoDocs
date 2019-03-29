@@ -32,12 +32,6 @@ Bot inline result document
 $inputBotInlineResultDocument = ['_' => 'inputBotInlineResultDocument', 'id' => 'string', 'type' => 'string', 'title' => 'string', 'description' => 'string', 'document' => InputDocument, 'send_message' => InputBotInlineMessage];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputBotInlineResultDocument", "id": "string", "type": "string", "title": "string", "description": "string", "document": InputDocument, "send_message": InputBotInlineMessage}
-```
-
 
 Or, if you're into Lua:
 

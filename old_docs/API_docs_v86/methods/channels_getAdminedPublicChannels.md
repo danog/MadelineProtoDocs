@@ -32,19 +32,6 @@ $MadelineProto->start();
 $messages_Chats = $MadelineProto->channels->getAdminedPublicChannels();
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/channels.getAdminedPublicChannels`
-
-Parameters:
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

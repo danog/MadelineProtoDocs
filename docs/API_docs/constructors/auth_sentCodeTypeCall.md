@@ -27,12 +27,6 @@ Sent code type call
 $auth_sentCodeTypeCall = ['_' => 'auth.sentCodeTypeCall', 'length' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "auth.sentCodeTypeCall", "length": int}
-```
-
 
 Or, if you're into Lua:
 

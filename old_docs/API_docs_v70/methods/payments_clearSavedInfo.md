@@ -38,23 +38,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->payments->clearSavedInfo(['credentials' => Bool, 'info' => Bool, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/payments.clearSavedInfo`
-
-Parameters:
-
-credentials - Json encoded Bool
-
-info - Json encoded Bool
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

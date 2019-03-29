@@ -29,12 +29,6 @@ Recent me URLs
 $help_recentMeUrls = ['_' => 'help.recentMeUrls', 'urls' => [RecentMeUrl, RecentMeUrl], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "help.recentMeUrls", "urls": [RecentMeUrl], "chats": [Chat], "users": [User]}
-```
-
 
 Or, if you're into Lua:
 

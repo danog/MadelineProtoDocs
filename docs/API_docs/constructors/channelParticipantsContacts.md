@@ -27,12 +27,6 @@ Contacts
 $channelParticipantsContacts = ['_' => 'channelParticipantsContacts', 'q' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "channelParticipantsContacts", "q": "string"}
-```
-
 
 Or, if you're into Lua:
 

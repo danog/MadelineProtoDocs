@@ -27,12 +27,6 @@ Page block header
 $pageBlockHeader = ['_' => 'pageBlockHeader', 'text' => RichText];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageBlockHeader", "text": RichText}
-```
-
 
 Or, if you're into Lua:
 

@@ -22,12 +22,6 @@ Top peers disabled
 $contacts_topPeersDisabled = ['_' => 'contacts.topPeersDisabled'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "contacts.topPeersDisabled"}
-```
-
 
 Or, if you're into Lua:
 

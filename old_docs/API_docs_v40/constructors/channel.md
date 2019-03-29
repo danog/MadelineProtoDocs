@@ -32,12 +32,6 @@ Channel
 $channel = ['_' => 'channel', 'id' => int, 'access_hash' => long, 'title' => 'string', 'photo' => ChatPhoto, 'date' => int, 'version' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "channel", "id": int, "access_hash": long, "title": "string", "photo": ChatPhoto, "date": int, "version": int}
-```
-
 
 Or, if you're into Lua:
 

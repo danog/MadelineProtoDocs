@@ -22,12 +22,6 @@ Web page not modified
 $webPageNotModified = ['_' => 'webPageNotModified'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "webPageNotModified"}
-```
-
 
 Or, if you're into Lua:
 

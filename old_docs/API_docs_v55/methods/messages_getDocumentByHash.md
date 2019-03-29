@@ -39,34 +39,6 @@ $MadelineProto->start();
 $Document = $MadelineProto->messages->getDocumentByHash(['sha256' => 'bytes', 'size' => int, 'mime_type' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.getDocumentByHash
-* params - `{"sha256": {"_": "bytes", "bytes":"base64 encoded bytes"}, "size": int, "mime_type": "string", }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.getDocumentByHash`
-
-Parameters:
-
-sha256 - Json encoded bytes
-
-size - Json encoded int
-
-mime_type - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

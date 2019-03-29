@@ -37,21 +37,6 @@ $MadelineProto->start();
 $auth_Authorization = $MadelineProto->auth->recoverPassword(['code' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/auth.recoverPassword`
-
-Parameters:
-
-code - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

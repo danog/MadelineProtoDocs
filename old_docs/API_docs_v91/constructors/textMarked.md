@@ -27,12 +27,6 @@ Text marked
 $textMarked = ['_' => 'textMarked', 'text' => RichText];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "textMarked", "text": RichText}
-```
-
 
 Or, if you're into Lua:
 

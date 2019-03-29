@@ -32,28 +32,6 @@ $MadelineProto->start();
 $account_WebAuthorizations = $MadelineProto->account->getWebAuthorizations();
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - account.getWebAuthorizations
-* params - `{}`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.getWebAuthorizations`
-
-Parameters:
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

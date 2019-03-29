@@ -30,12 +30,6 @@ Secure value error data
 $secureValueErrorData = ['_' => 'secureValueErrorData', 'type' => SecureValueType, 'data_hash' => 'bytes', 'field' => 'string', 'text' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "secureValueErrorData", "type": SecureValueType, "data_hash": {"_": "bytes", "bytes":"base64 encoded bytes"}, "field": "string", "text": "string"}
-```
-
 
 Or, if you're into Lua:
 

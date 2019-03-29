@@ -22,12 +22,6 @@ Secure value type passport registration
 $secureValueTypePassportRegistration = ['_' => 'secureValueTypePassportRegistration'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "secureValueTypePassportRegistration"}
-```
-
 
 Or, if you're into Lua:
 

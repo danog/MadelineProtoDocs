@@ -20,12 +20,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 $inputPrivacyKeyForwards = ['_' => 'inputPrivacyKeyForwards'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputPrivacyKeyForwards"}
-```
-
 
 Or, if you're into Lua:
 

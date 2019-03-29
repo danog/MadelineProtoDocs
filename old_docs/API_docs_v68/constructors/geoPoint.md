@@ -28,12 +28,6 @@ Geo point
 $geoPoint = ['_' => 'geoPoint', 'long' => double, 'lat' => double];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "geoPoint", "long": double, "lat": double}
-```
-
 
 Or, if you're into Lua:
 

@@ -32,28 +32,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->contacts->resetSaved();
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - contacts.resetSaved
-* params - `{}`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/contacts.resetSaved`
-
-Parameters:
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

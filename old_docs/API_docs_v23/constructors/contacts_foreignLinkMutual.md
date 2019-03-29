@@ -22,12 +22,6 @@ Foreign link mutual
 $contacts_foreignLinkMutual = ['_' => 'contacts.foreignLinkMutual'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "contacts.foreignLinkMutual"}
-```
-
 
 Or, if you're into Lua:
 

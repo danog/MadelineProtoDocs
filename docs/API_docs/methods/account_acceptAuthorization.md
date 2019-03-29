@@ -41,38 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->acceptAuthorization(['bot_id' => int, 'scope' => 'string', 'public_key' => 'string', 'value_hashes' => [SecureValueHash, SecureValueHash], 'credentials' => SecureCredentialsEncrypted, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - account.acceptAuthorization
-* params - `{"bot_id": int, "scope": "string", "public_key": "string", "value_hashes": [SecureValueHash], "credentials": SecureCredentialsEncrypted, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.acceptAuthorization`
-
-Parameters:
-
-bot_id - Json encoded int
-
-scope - Json encoded string
-
-public_key - Json encoded string
-
-value_hashes - Json encoded  array of SecureValueHash
-
-credentials - Json encoded SecureCredentialsEncrypted
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

@@ -28,12 +28,6 @@ Chat photo
 $inputChatPhoto = ['_' => 'inputChatPhoto', 'id' => InputPhoto, 'crop' => InputPhotoCrop];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputChatPhoto", "id": InputPhoto, "crop": InputPhotoCrop}
-```
-
 
 Or, if you're into Lua:
 

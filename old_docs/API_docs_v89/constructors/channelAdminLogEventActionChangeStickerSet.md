@@ -28,12 +28,6 @@ Change stickerset
 $channelAdminLogEventActionChangeStickerSet = ['_' => 'channelAdminLogEventActionChangeStickerSet', 'prev_stickerset' => InputStickerSet, 'new_stickerset' => InputStickerSet];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "channelAdminLogEventActionChangeStickerSet", "prev_stickerset": InputStickerSet, "new_stickerset": InputStickerSet}
-```
-
 
 Or, if you're into Lua:
 

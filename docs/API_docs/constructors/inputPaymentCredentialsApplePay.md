@@ -27,12 +27,6 @@ Payment credentials apple pay
 $inputPaymentCredentialsApplePay = ['_' => 'inputPaymentCredentialsApplePay', 'payment_data' => DataJSON];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputPaymentCredentialsApplePay", "payment_data": DataJSON}
-```
-
 
 Or, if you're into Lua:
 

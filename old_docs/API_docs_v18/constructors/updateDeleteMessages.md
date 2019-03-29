@@ -28,12 +28,6 @@ Update delete messages
 $updateDeleteMessages = ['_' => 'updateDeleteMessages', 'messages' => [int, int], 'pts' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateDeleteMessages", "messages": [int], "pts": int}
-```
-
 
 Or, if you're into Lua:
 

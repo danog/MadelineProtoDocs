@@ -28,12 +28,6 @@ Rpc result
 $rpc_result = ['_' => 'rpc_result', 'req_msg_id' => long, 'result' => Object];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "rpc_result", "req_msg_id": long, "result": Object}
-```
-
 
 Or, if you're into Lua:
 

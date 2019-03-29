@@ -37,21 +37,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->setAccountTTL(['ttl' => AccountDaysTTL, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.setAccountTTL`
-
-Parameters:
-
-ttl - Json encoded AccountDaysTTL
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

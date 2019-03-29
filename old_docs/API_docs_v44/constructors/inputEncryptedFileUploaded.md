@@ -30,12 +30,6 @@ Encrypted file uploaded
 $inputEncryptedFileUploaded = ['_' => 'inputEncryptedFileUploaded', 'id' => long, 'parts' => int, 'md5_checksum' => 'string', 'key_fingerprint' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputEncryptedFileUploaded", "id": long, "parts": int, "md5_checksum": "string", "key_fingerprint": int}
-```
-
 
 Or, if you're into Lua:
 

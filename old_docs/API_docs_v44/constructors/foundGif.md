@@ -27,12 +27,6 @@ Found gif
 $foundGif = ['_' => 'foundGif', 'webpage' => WebPage];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "foundGif", "webpage": WebPage}
-```
-
 
 Or, if you're into Lua:
 

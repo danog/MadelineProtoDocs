@@ -38,32 +38,6 @@ $MadelineProto->start();
 $Pong = $MadelineProto->ping_delay_disconnect(['ping_id' => long, 'disconnect_delay' => int, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - ping_delay_disconnect
-* params - `{"ping_id": long, "disconnect_delay": int, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/ping_delay_disconnect`
-
-Parameters:
-
-ping_id - Json encoded long
-
-disconnect_delay - Json encoded int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

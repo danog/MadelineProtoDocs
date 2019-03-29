@@ -31,12 +31,6 @@ Page block map
 $pageBlockMap = ['_' => 'pageBlockMap', 'geo' => GeoPoint, 'zoom' => int, 'w' => int, 'h' => int, 'caption' => PageCaption];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageBlockMap", "geo": GeoPoint, "zoom": int, "w": int, "h": int, "caption": PageCaption}
-```
-
 
 Or, if you're into Lua:
 

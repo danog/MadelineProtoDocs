@@ -27,12 +27,6 @@ Media geo point
 $inputMediaGeoPoint = ['_' => 'inputMediaGeoPoint', 'geo_point' => InputGeoPoint];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMediaGeoPoint", "geo_point": InputGeoPoint}
-```
-
 
 Or, if you're into Lua:
 

@@ -22,12 +22,6 @@ Page block unsupported
 $pageBlockUnsupported = ['_' => 'pageBlockUnsupported'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageBlockUnsupported"}
-```
-
 
 Or, if you're into Lua:
 

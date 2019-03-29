@@ -28,12 +28,6 @@ Suggested
 $contacts_suggested = ['_' => 'contacts.suggested', 'results' => [ContactSuggested, ContactSuggested], 'users' => [User, User]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "contacts.suggested", "results": [ContactSuggested], "users": [User]}
-```
-
 
 Or, if you're into Lua:
 

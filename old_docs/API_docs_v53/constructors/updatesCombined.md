@@ -32,12 +32,6 @@ Updates combined
 $updatesCombined = ['_' => 'updatesCombined', 'updates' => [Update, Update], 'users' => [User, User], 'chats' => [Chat, Chat], 'date' => int, 'seq_start' => int, 'seq' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updatesCombined", "updates": [Update], "users": [User], "chats": [Chat], "date": int, "seq_start": int, "seq": int}
-```
-
 
 Or, if you're into Lua:
 

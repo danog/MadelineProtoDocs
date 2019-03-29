@@ -28,12 +28,6 @@ Empty difference
 $updates_differenceEmpty = ['_' => 'updates.differenceEmpty', 'date' => int, 'seq' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updates.differenceEmpty", "date": int, "seq": int}
-```
-
 
 Or, if you're into Lua:
 

@@ -22,12 +22,6 @@ Secure value type internal passport
 $secureValueTypeInternalPassport = ['_' => 'secureValueTypeInternalPassport'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "secureValueTypeInternalPassport"}
-```
-
 
 Or, if you're into Lua:
 

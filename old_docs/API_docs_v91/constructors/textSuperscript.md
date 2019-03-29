@@ -27,12 +27,6 @@ Text superscript
 $textSuperscript = ['_' => 'textSuperscript', 'text' => RichText];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "textSuperscript", "text": RichText}
-```
-
 
 Or, if you're into Lua:
 

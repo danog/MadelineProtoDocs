@@ -27,12 +27,6 @@ Chat invite
 $chatInvite = ['_' => 'chatInvite', 'title' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "chatInvite", "title": "string"}
-```
-
 
 Or, if you're into Lua:
 

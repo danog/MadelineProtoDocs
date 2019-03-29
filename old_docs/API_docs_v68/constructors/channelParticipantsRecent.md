@@ -22,12 +22,6 @@ Channel participants recent
 $channelParticipantsRecent = ['_' => 'channelParticipantsRecent'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "channelParticipantsRecent"}
-```
-
 
 Or, if you're into Lua:
 

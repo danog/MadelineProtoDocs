@@ -31,12 +31,6 @@ Web document
 $webDocument = ['_' => 'webDocument', 'url' => 'string', 'access_hash' => long, 'size' => int, 'mime_type' => 'string', 'attributes' => [DocumentAttribute, DocumentAttribute]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "webDocument", "url": "string", "access_hash": long, "size": int, "mime_type": "string", "attributes": [DocumentAttribute]}
-```
-
 
 Or, if you're into Lua:
 

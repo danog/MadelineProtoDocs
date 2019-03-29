@@ -30,12 +30,6 @@ Code settings
 $codeSettings = ['_' => 'codeSettings', 'allow_flashcall' => Bool, 'current_number' => Bool, 'app_hash_persistent' => Bool, 'app_hash' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "codeSettings", "allow_flashcall": Bool, "current_number": Bool, "app_hash_persistent": Bool, "app_hash": "string"}
-```
-
 
 Or, if you're into Lua:
 

@@ -31,12 +31,6 @@ Terms of service
 $help_termsOfService = ['_' => 'help.termsOfService', 'popup' => Bool, 'id' => DataJSON, 'text' => 'string', 'entities' => [MessageEntity, MessageEntity], 'min_age_confirm' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "help.termsOfService", "popup": Bool, "id": DataJSON, "text": "string", "entities": [MessageEntity], "min_age_confirm": int}
-```
-
 
 Or, if you're into Lua:
 

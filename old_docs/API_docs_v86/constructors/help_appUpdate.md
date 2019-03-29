@@ -33,12 +33,6 @@ App update
 $help_appUpdate = ['_' => 'help.appUpdate', 'popup' => Bool, 'id' => int, 'version' => 'string', 'text' => 'string', 'entities' => [MessageEntity, MessageEntity], 'document' => Document, 'url' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "help.appUpdate", "popup": Bool, "id": int, "version": "string", "text": "string", "entities": [MessageEntity], "document": Document, "url": "string"}
-```
-
 
 Or, if you're into Lua:
 

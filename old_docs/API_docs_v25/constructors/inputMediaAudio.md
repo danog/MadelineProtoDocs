@@ -27,12 +27,6 @@ Media audio
 $inputMediaAudio = ['_' => 'inputMediaAudio', 'id' => InputAudio];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMediaAudio", "id": InputAudio}
-```
-
 
 Or, if you're into Lua:
 

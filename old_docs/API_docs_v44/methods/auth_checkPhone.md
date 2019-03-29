@@ -37,21 +37,6 @@ $MadelineProto->start();
 $auth_CheckedPhone = $MadelineProto->auth->checkPhone(['phone_number' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/auth.checkPhone`
-
-Parameters:
-
-phone_number - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

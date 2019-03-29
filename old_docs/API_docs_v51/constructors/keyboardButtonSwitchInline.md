@@ -28,12 +28,6 @@ Keyboard button switch inline
 $keyboardButtonSwitchInline = ['_' => 'keyboardButtonSwitchInline', 'text' => 'string', 'query' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "keyboardButtonSwitchInline", "text": "string", "query": "string"}
-```
-
 
 Or, if you're into Lua:
 

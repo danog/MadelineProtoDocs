@@ -40,36 +40,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->setPassword(['current_password_hash' => 'bytes', 'new_salt' => 'bytes', 'new_password_hash' => 'bytes', 'hint' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - account.setPassword
-* params - `{"current_password_hash": {"_": "bytes", "bytes":"base64 encoded bytes"}, "new_salt": {"_": "bytes", "bytes":"base64 encoded bytes"}, "new_password_hash": {"_": "bytes", "bytes":"base64 encoded bytes"}, "hint": "string", }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.setPassword`
-
-Parameters:
-
-current_password_hash - Json encoded bytes
-
-new_salt - Json encoded bytes
-
-new_password_hash - Json encoded bytes
-
-hint - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

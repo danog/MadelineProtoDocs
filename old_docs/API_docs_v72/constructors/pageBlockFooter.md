@@ -27,12 +27,6 @@ Page block footer
 $pageBlockFooter = ['_' => 'pageBlockFooter', 'text' => RichText];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageBlockFooter", "text": RichText}
-```
-
 
 Or, if you're into Lua:
 

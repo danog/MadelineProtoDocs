@@ -35,12 +35,6 @@ Wall paper
 $wallPaper = ['_' => 'wallPaper', 'id' => long, 'creator' => Bool, 'default' => Bool, 'pattern' => Bool, 'dark' => Bool, 'access_hash' => long, 'slug' => 'string', 'document' => Document, 'settings' => WallPaperSettings];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "wallPaper", "id": long, "creator": Bool, "default": Bool, "pattern": Bool, "dark": Bool, "access_hash": long, "slug": "string", "document": Document, "settings": WallPaperSettings}
-```
-
 
 Or, if you're into Lua:
 

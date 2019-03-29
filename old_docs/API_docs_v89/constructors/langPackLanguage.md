@@ -36,12 +36,6 @@ Lang pack language
 $langPackLanguage = ['_' => 'langPackLanguage', 'official' => Bool, 'rtl' => Bool, 'name' => 'string', 'native_name' => 'string', 'lang_code' => 'string', 'base_lang_code' => 'string', 'plural_code' => 'string', 'strings_count' => int, 'translated_count' => int, 'translations_url' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "langPackLanguage", "official": Bool, "rtl": Bool, "name": "string", "native_name": "string", "lang_code": "string", "base_lang_code": "string", "plural_code": "string", "strings_count": int, "translated_count": int, "translations_url": "string"}
-```
-
 
 Or, if you're into Lua:
 

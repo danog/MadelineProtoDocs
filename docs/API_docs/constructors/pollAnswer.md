@@ -28,12 +28,6 @@ Poll answer
 $pollAnswer = ['_' => 'pollAnswer', 'text' => 'string', 'option' => 'bytes'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pollAnswer", "text": "string", "option": {"_": "bytes", "bytes":"base64 encoded bytes"}}
-```
-
 
 Or, if you're into Lua:
 

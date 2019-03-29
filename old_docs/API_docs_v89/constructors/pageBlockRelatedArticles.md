@@ -28,12 +28,6 @@ Page block related articles
 $pageBlockRelatedArticles = ['_' => 'pageBlockRelatedArticles', 'title' => RichText, 'articles' => [PageRelatedArticle, PageRelatedArticle]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageBlockRelatedArticles", "title": RichText, "articles": [PageRelatedArticle]}
-```
-
 
 Or, if you're into Lua:
 

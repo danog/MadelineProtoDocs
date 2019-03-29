@@ -30,12 +30,6 @@ Update bot shipping query
 $updateBotShippingQuery = ['_' => 'updateBotShippingQuery', 'query_id' => long, 'user_id' => int, 'payload' => 'bytes', 'shipping_address' => PostAddress];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateBotShippingQuery", "query_id": long, "user_id": int, "payload": {"_": "bytes", "bytes":"base64 encoded bytes"}, "shipping_address": PostAddress}
-```
-
 
 Or, if you're into Lua:
 

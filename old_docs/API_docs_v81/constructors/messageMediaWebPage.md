@@ -27,12 +27,6 @@ Message media web page
 $messageMediaWebPage = ['_' => 'messageMediaWebPage', 'webpage' => WebPage];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageMediaWebPage", "webpage": WebPage}
-```
-
 
 Or, if you're into Lua:
 

@@ -30,12 +30,6 @@ Forwarded message info
 $messageFwdHeader = ['_' => 'messageFwdHeader', 'from_id' => int, 'date' => int, 'channel_id' => int, 'channel_post' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageFwdHeader", "from_id": int, "date": int, "channel_id": int, "channel_post": int}
-```
-
 
 Or, if you're into Lua:
 

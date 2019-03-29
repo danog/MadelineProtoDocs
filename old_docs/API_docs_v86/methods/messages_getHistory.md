@@ -44,35 +44,6 @@ $MadelineProto->start();
 $messages_Messages = $MadelineProto->messages->getHistory(['peer' => InputPeer, 'offset_id' => int, 'offset_date' => int, 'add_offset' => int, 'limit' => int, 'max_id' => int, 'min_id' => int, 'hash' => [int, int], ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.getHistory`
-
-Parameters:
-
-peer - Json encoded InputPeer
-
-offset_id - Json encoded int
-
-offset_date - Json encoded int
-
-add_offset - Json encoded int
-
-limit - Json encoded int
-
-max_id - Json encoded int
-
-min_id - Json encoded int
-
-hash - Json encoded  array of int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

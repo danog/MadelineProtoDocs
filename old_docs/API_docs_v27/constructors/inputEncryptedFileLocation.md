@@ -28,12 +28,6 @@ Encrypted file location
 $inputEncryptedFileLocation = ['_' => 'inputEncryptedFileLocation', 'id' => long, 'access_hash' => long];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputEncryptedFileLocation", "id": long, "access_hash": long}
-```
-
 
 Or, if you're into Lua:
 

@@ -28,12 +28,6 @@ Web page pending
 $webPagePending = ['_' => 'webPagePending', 'id' => long, 'date' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "webPagePending", "id": long, "date": int}
-```
-
 
 Or, if you're into Lua:
 

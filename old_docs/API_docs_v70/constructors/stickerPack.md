@@ -28,12 +28,6 @@ Sticker pack
 $stickerPack = ['_' => 'stickerPack', 'emoticon' => 'string', 'documents' => [long, long]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "stickerPack", "emoticon": "string", "documents": [long]}
-```
-
 
 Or, if you're into Lua:
 

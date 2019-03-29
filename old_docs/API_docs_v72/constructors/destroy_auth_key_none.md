@@ -22,12 +22,6 @@ Destroy auth key none
 $destroy_auth_key_none = ['_' => 'destroy_auth_key_none'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "destroy_auth_key_none"}
-```
-
 
 Or, if you're into Lua:
 

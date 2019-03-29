@@ -28,12 +28,6 @@ Payment credentials
 $inputPaymentCredentials = ['_' => 'inputPaymentCredentials', 'save' => Bool, 'data' => DataJSON];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputPaymentCredentials", "save": Bool, "data": DataJSON}
-```
-
 
 Or, if you're into Lua:
 

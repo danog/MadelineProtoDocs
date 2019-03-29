@@ -37,21 +37,6 @@ $MadelineProto->start();
 $messages_Chats = $MadelineProto->messages->getAllChats(['except_ids' => [int, int], ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.getAllChats`
-
-Parameters:
-
-except_ids - Json encoded  array of int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

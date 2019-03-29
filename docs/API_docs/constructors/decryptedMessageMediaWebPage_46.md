@@ -27,12 +27,6 @@ Decrypted message media web page
 $decryptedMessageMediaWebPage_46 = ['_' => 'decryptedMessageMediaWebPage', 'url' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "decryptedMessageMediaWebPage", "url": "string"}
-```
-
 
 Or, if you're into Lua:
 

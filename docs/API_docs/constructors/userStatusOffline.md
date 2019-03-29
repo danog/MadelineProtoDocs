@@ -27,12 +27,6 @@ User is offline
 $userStatusOffline = ['_' => 'userStatusOffline', 'was_online' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "userStatusOffline", "was_online": int}
-```
-
 
 Or, if you're into Lua:
 

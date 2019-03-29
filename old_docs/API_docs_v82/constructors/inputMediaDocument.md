@@ -28,12 +28,6 @@ Media document
 $inputMediaDocument = ['_' => 'inputMediaDocument', 'id' => InputDocument, 'ttl_seconds' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMediaDocument", "id": InputDocument, "ttl_seconds": int}
-```
-
 
 Or, if you're into Lua:
 

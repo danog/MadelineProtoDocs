@@ -37,21 +37,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->reportEncryptedSpam(['peer' => InputEncryptedChat, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.reportEncryptedSpam`
-
-Parameters:
-
-peer - Json encoded InputEncryptedChat
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

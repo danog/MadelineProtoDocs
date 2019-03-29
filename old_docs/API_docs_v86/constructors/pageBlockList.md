@@ -28,12 +28,6 @@ Page block list
 $pageBlockList = ['_' => 'pageBlockList', 'ordered' => Bool, 'items' => [RichText, RichText]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageBlockList", "ordered": Bool, "items": [RichText]}
-```
-
 
 Or, if you're into Lua:
 

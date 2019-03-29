@@ -22,12 +22,6 @@ Empty input check password
 $inputCheckPasswordEmpty = ['_' => 'inputCheckPasswordEmpty'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputCheckPasswordEmpty"}
-```
-
 
 Or, if you're into Lua:
 

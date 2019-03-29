@@ -30,12 +30,6 @@ Document attribute sticker
 $documentAttributeSticker = ['_' => 'documentAttributeSticker', 'mask' => Bool, 'alt' => 'string', 'stickerset' => InputStickerSet, 'mask_coords' => MaskCoords];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "documentAttributeSticker", "mask": Bool, "alt": "string", "stickerset": InputStickerSet, "mask_coords": MaskCoords}
-```
-
 
 Or, if you're into Lua:
 

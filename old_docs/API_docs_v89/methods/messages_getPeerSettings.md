@@ -37,21 +37,6 @@ $MadelineProto->start();
 $PeerSettings = $MadelineProto->messages->getPeerSettings(['peer' => InputPeer, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.getPeerSettings`
-
-Parameters:
-
-peer - Json encoded InputPeer
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

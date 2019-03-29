@@ -28,12 +28,6 @@ Authorization
 $auth_authorization = ['_' => 'auth.authorization', 'expires' => int, 'user' => User];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "auth.authorization", "expires": int, "user": User}
-```
-
 
 Or, if you're into Lua:
 

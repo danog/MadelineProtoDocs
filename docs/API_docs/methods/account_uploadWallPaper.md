@@ -39,34 +39,6 @@ $MadelineProto->start();
 $WallPaper = $MadelineProto->account->uploadWallPaper(['file' => InputFile, 'mime_type' => 'string', 'settings' => WallPaperSettings, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - account.uploadWallPaper
-* params - `{"file": InputFile, "mime_type": "string", "settings": WallPaperSettings, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.uploadWallPaper`
-
-Parameters:
-
-file - Json encoded InputFile
-
-mime_type - Json encoded string
-
-settings - Json encoded WallPaperSettings
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

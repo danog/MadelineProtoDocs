@@ -34,12 +34,6 @@ Page block embed
 $pageBlockEmbed = ['_' => 'pageBlockEmbed', 'full_width' => Bool, 'allow_scrolling' => Bool, 'url' => 'string', 'html' => 'string', 'poster_photo_id' => long, 'w' => int, 'h' => int, 'caption' => RichText];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageBlockEmbed", "full_width": Bool, "allow_scrolling": Bool, "url": "string", "html": "string", "poster_photo_id": long, "w": int, "h": int, "caption": RichText}
-```
-
 
 Or, if you're into Lua:
 

@@ -33,12 +33,6 @@ Chat
 $chat = ['_' => 'chat', 'id' => int, 'title' => 'string', 'photo' => ChatPhoto, 'participants_count' => int, 'date' => int, 'left' => Bool, 'version' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "chat", "id": int, "title": "string", "photo": ChatPhoto, "participants_count": int, "date": int, "left": Bool, "version": int}
-```
-
 
 Or, if you're into Lua:
 

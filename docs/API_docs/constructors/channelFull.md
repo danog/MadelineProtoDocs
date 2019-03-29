@@ -50,12 +50,6 @@ Full channel
 $channelFull = ['_' => 'channelFull', 'can_view_participants' => Bool, 'can_set_username' => Bool, 'can_set_stickers' => Bool, 'hidden_prehistory' => Bool, 'can_view_stats' => Bool, 'id' => int, 'about' => 'string', 'participants_count' => int, 'admins_count' => int, 'kicked_count' => int, 'banned_count' => int, 'online_count' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'unread_count' => int, 'chat_photo' => Photo, 'notify_settings' => PeerNotifySettings, 'exported_invite' => ExportedChatInvite, 'bot_info' => [BotInfo, BotInfo], 'migrated_from_chat_id' => int, 'migrated_from_max_id' => int, 'pinned_msg_id' => int, 'stickerset' => StickerSet, 'available_min_id' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "channelFull", "can_view_participants": Bool, "can_set_username": Bool, "can_set_stickers": Bool, "hidden_prehistory": Bool, "can_view_stats": Bool, "id": int, "about": "string", "participants_count": int, "admins_count": int, "kicked_count": int, "banned_count": int, "online_count": int, "read_inbox_max_id": int, "read_outbox_max_id": int, "unread_count": int, "chat_photo": Photo, "notify_settings": PeerNotifySettings, "exported_invite": ExportedChatInvite, "bot_info": [BotInfo], "migrated_from_chat_id": int, "migrated_from_max_id": int, "pinned_msg_id": int, "stickerset": StickerSet, "available_min_id": int}
-```
-
 
 Or, if you're into Lua:
 

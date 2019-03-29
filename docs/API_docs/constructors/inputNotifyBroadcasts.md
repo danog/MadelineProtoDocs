@@ -22,12 +22,6 @@ Notify broadcasts
 $inputNotifyBroadcasts = ['_' => 'inputNotifyBroadcasts'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputNotifyBroadcasts"}
-```
-
 
 Or, if you're into Lua:
 

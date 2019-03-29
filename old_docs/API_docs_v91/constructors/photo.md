@@ -32,12 +32,6 @@ Photo
 $photo = ['_' => 'photo', 'has_stickers' => Bool, 'id' => long, 'access_hash' => long, 'file_reference' => 'bytes', 'date' => int, 'sizes' => [PhotoSize, PhotoSize]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "photo", "has_stickers": Bool, "id": long, "access_hash": long, "file_reference": {"_": "bytes", "bytes":"base64 encoded bytes"}, "date": int, "sizes": [PhotoSize]}
-```
-
 
 Or, if you're into Lua:
 

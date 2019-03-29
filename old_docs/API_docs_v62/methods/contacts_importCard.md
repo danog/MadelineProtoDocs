@@ -37,21 +37,6 @@ $MadelineProto->start();
 $User = $MadelineProto->contacts->importCard(['export_card' => [int, int], ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/contacts.importCard`
-
-Parameters:
-
-export_card - Json encoded  array of int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

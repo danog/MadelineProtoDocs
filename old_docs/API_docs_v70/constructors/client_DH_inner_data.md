@@ -30,12 +30,6 @@ Client inner data
 $client_DH_inner_data = ['_' => 'client_DH_inner_data', 'nonce' => int128, 'server_nonce' => int128, 'retry_id' => long, 'g_b' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "client_DH_inner_data", "nonce": int128, "server_nonce": int128, "retry_id": long, "g_b": "string"}
-```
-
 
 Or, if you're into Lua:
 

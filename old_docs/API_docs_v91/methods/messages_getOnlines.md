@@ -37,30 +37,6 @@ $MadelineProto->start();
 $ChatOnlines = $MadelineProto->messages->getOnlines(['peer' => InputPeer, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.getOnlines
-* params - `{"peer": InputPeer, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.getOnlines`
-
-Parameters:
-
-peer - Json encoded InputPeer
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

@@ -37,30 +37,6 @@ $MadelineProto->start();
 $Vector_of_int = $MadelineProto->contacts->getContactIDs(['hash' => [int, int], ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - contacts.getContactIDs
-* params - `{"hash": [int], }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/contacts.getContactIDs`
-
-Parameters:
-
-hash - Json encoded  array of int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

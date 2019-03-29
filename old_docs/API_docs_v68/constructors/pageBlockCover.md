@@ -27,12 +27,6 @@ Page block cover
 $pageBlockCover = ['_' => 'pageBlockCover', 'cover' => PageBlock];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageBlockCover", "cover": PageBlock}
-```
-
 
 Or, if you're into Lua:
 

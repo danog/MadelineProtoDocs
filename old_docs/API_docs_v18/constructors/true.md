@@ -22,12 +22,6 @@ True
 $true = ['_' => 'true'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "true"}
-```
-
 
 Or, if you're into Lua:
 

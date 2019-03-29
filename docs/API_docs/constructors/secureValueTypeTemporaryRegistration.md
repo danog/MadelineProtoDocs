@@ -22,12 +22,6 @@ Secure value type temporary registration
 $secureValueTypeTemporaryRegistration = ['_' => 'secureValueTypeTemporaryRegistration'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "secureValueTypeTemporaryRegistration"}
-```
-
 
 Or, if you're into Lua:
 

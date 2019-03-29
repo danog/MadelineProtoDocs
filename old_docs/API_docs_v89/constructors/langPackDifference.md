@@ -30,12 +30,6 @@ Lang pack difference
 $langPackDifference = ['_' => 'langPackDifference', 'lang_code' => 'string', 'from_version' => int, 'version' => int, 'strings' => [LangPackString, LangPackString]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "langPackDifference", "lang_code": "string", "from_version": int, "version": int, "strings": [LangPackString]}
-```
-
 
 Or, if you're into Lua:
 

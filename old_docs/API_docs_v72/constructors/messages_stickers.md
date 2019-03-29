@@ -28,12 +28,6 @@ Stickers
 $messages_stickers = ['_' => 'messages.stickers', 'hash' => 'string', 'stickers' => [Document, Document]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messages.stickers", "hash": "string", "stickers": [Document]}
-```
-
 
 Or, if you're into Lua:
 

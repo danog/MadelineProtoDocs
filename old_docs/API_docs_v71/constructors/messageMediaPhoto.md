@@ -29,12 +29,6 @@ Message media photo
 $messageMediaPhoto = ['_' => 'messageMediaPhoto', 'photo' => Photo, 'caption' => 'string', 'ttl_seconds' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageMediaPhoto", "photo": Photo, "caption": "string", "ttl_seconds": int}
-```
-
 
 Or, if you're into Lua:
 

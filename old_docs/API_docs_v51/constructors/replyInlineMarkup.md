@@ -27,12 +27,6 @@ Reply inline markup
 $replyInlineMarkup = ['_' => 'replyInlineMarkup', 'rows' => [KeyboardButtonRow, KeyboardButtonRow]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "replyInlineMarkup", "rows": [KeyboardButtonRow]}
-```
-
 
 Or, if you're into Lua:
 

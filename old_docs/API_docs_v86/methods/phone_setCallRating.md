@@ -39,25 +39,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->phone->setCallRating(['peer' => InputPhoneCall, 'rating' => int, 'comment' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/phone.setCallRating`
-
-Parameters:
-
-peer - Json encoded InputPhoneCall
-
-rating - Json encoded int
-
-comment - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

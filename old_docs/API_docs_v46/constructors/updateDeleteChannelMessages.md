@@ -30,12 +30,6 @@ Update delete channel messages
 $updateDeleteChannelMessages = ['_' => 'updateDeleteChannelMessages', 'channel_id' => int, 'messages' => [int, int], 'channel_pts' => int, 'channel_pts_count' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateDeleteChannelMessages", "channel_id": int, "messages": [int], "channel_pts": int, "channel_pts_count": int}
-```
-
 
 Or, if you're into Lua:
 

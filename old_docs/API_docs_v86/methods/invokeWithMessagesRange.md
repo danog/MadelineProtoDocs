@@ -38,32 +38,6 @@ $MadelineProto->start();
 $X = $MadelineProto->invokeWithMessagesRange(['range' => MessageRange, 'query' => !X, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - invokeWithMessagesRange
-* params - `{"range": MessageRange, "query": !X, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/invokeWithMessagesRange`
-
-Parameters:
-
-range - Json encoded MessageRange
-
-query - Json encoded !X
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

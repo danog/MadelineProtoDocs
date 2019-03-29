@@ -37,30 +37,6 @@ $MadelineProto->start();
 $messages_StickerSet = $MadelineProto->stickers->removeStickerFromSet(['sticker' => InputDocument, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - stickers.removeStickerFromSet
-* params - `{"sticker": InputDocument, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/stickers.removeStickerFromSet`
-
-Parameters:
-
-sticker - Json encoded InputDocument
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

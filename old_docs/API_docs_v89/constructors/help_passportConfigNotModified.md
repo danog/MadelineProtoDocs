@@ -22,12 +22,6 @@ Passport config not modified
 $help_passportConfigNotModified = ['_' => 'help.passportConfigNotModified'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "help.passportConfigNotModified"}
-```
-
 
 Or, if you're into Lua:
 

@@ -27,12 +27,6 @@ Keyboard button
 $keyboardButton = ['_' => 'keyboardButton', 'text' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "keyboardButton", "text": "string"}
-```
-
 
 Or, if you're into Lua:
 

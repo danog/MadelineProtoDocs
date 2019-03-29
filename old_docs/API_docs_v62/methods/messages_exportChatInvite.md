@@ -37,21 +37,6 @@ $MadelineProto->start();
 $ExportedChatInvite = $MadelineProto->messages->exportChatInvite(['chat_id' => InputPeer, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.exportChatInvite`
-
-Parameters:
-
-chat_id - Json encoded InputPeer
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

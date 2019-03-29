@@ -29,12 +29,6 @@ High score
 $highScore = ['_' => 'highScore', 'pos' => int, 'user_id' => int, 'score' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "highScore", "pos": int, "user_id": int, "score": int}
-```
-
 
 Or, if you're into Lua:
 

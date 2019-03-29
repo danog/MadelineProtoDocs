@@ -22,12 +22,6 @@ Takeout file location
 $inputTakeoutFileLocation = ['_' => 'inputTakeoutFileLocation'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputTakeoutFileLocation"}
-```
-
 
 Or, if you're into Lua:
 

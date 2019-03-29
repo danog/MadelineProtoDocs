@@ -29,12 +29,6 @@ Decrypted message
 $decryptedMessage_17 = ['_' => 'decryptedMessage', 'ttl' => int, 'message' => 'string', 'media' => DecryptedMessageMedia];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "decryptedMessage", "ttl": int, "message": "string", "media": DecryptedMessageMedia}
-```
-
 
 Or, if you're into Lua:
 

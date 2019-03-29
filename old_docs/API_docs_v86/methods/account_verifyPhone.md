@@ -39,34 +39,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->verifyPhone(['phone_number' => 'string', 'phone_code_hash' => 'string', 'phone_code' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - account.verifyPhone
-* params - `{"phone_number": "string", "phone_code_hash": "string", "phone_code": "string", }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.verifyPhone`
-
-Parameters:
-
-phone_number - Json encoded string
-
-phone_code_hash - Json encoded string
-
-phone_code - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

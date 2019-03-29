@@ -22,12 +22,6 @@ Messages filter photo video
 $inputMessagesFilterPhotoVideo = ['_' => 'inputMessagesFilterPhotoVideo'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMessagesFilterPhotoVideo"}
-```
-
 
 Or, if you're into Lua:
 

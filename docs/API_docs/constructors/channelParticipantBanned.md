@@ -31,12 +31,6 @@ Channel participant banned
 $channelParticipantBanned = ['_' => 'channelParticipantBanned', 'left' => Bool, 'user_id' => int, 'kicked_by' => int, 'date' => int, 'banned_rights' => ChatBannedRights];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "channelParticipantBanned", "left": Bool, "user_id": int, "kicked_by": int, "date": int, "banned_rights": ChatBannedRights}
-```
-
 
 Or, if you're into Lua:
 

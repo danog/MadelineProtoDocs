@@ -28,12 +28,6 @@ Decrypted message action resend
 $decryptedMessageActionResend_17 = ['_' => 'decryptedMessageActionResend', 'start_seq_no' => int, 'end_seq_no' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "decryptedMessageActionResend", "start_seq_no": int, "end_seq_no": int}
-```
-
 
 Or, if you're into Lua:
 

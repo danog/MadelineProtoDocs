@@ -32,12 +32,6 @@ Message action payment sent me
 $messageActionPaymentSentMe = ['_' => 'messageActionPaymentSentMe', 'currency' => 'string', 'total_amount' => long, 'payload' => 'bytes', 'info' => PaymentRequestedInfo, 'shipping_option_id' => 'string', 'charge' => PaymentCharge];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageActionPaymentSentMe", "currency": "string", "total_amount": long, "payload": {"_": "bytes", "bytes":"base64 encoded bytes"}, "info": PaymentRequestedInfo, "shipping_option_id": "string", "charge": PaymentCharge}
-```
-
 
 Or, if you're into Lua:
 

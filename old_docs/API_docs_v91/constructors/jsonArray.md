@@ -27,12 +27,6 @@ Json array
 $jsonArray = ['_' => 'jsonArray', 'value' => [JSONValue, JSONValue]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "jsonArray", "value": [JSONValue]}
-```
-
 
 Or, if you're into Lua:
 

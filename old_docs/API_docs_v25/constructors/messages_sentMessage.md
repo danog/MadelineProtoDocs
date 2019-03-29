@@ -30,12 +30,6 @@ Sent message
 $messages_sentMessage = ['_' => 'messages.sentMessage', 'id' => int, 'date' => int, 'pts' => int, 'pts_count' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messages.sentMessage", "id": int, "date": int, "pts": int, "pts_count": int}
-```
-
 
 Or, if you're into Lua:
 

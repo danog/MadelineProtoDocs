@@ -30,12 +30,6 @@ Dh config
 $messages_dhConfig = ['_' => 'messages.dhConfig', 'g' => int, 'p' => 'bytes', 'version' => int, 'random' => 'bytes'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messages.dhConfig", "g": int, "p": {"_": "bytes", "bytes":"base64 encoded bytes"}, "version": int, "random": {"_": "bytes", "bytes":"base64 encoded bytes"}}
-```
-
 
 Or, if you're into Lua:
 

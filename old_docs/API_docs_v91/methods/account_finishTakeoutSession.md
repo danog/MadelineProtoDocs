@@ -37,30 +37,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->finishTakeoutSession(['success' => Bool, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - account.finishTakeoutSession
-* params - `{"success": Bool, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.finishTakeoutSession`
-
-Parameters:
-
-success - Json encoded Bool
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

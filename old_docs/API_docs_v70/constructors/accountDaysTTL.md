@@ -27,12 +27,6 @@ Account TTL in days
 $accountDaysTTL = ['_' => 'accountDaysTTL', 'days' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "accountDaysTTL", "days": int}
-```
-
 
 Or, if you're into Lua:
 

@@ -38,32 +38,6 @@ $MadelineProto->start();
 $messages_Dialogs = $MadelineProto->messages->getChannelDialogs(['offset' => int, 'limit' => int, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.getChannelDialogs
-* params - `{"offset": int, "limit": int, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.getChannelDialogs`
-
-Parameters:
-
-offset - Json encoded int
-
-limit - Json encoded int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

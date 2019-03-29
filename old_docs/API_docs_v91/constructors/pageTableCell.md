@@ -34,12 +34,6 @@ Page table cell
 $pageTableCell = ['_' => 'pageTableCell', 'header' => Bool, 'align_center' => Bool, 'align_right' => Bool, 'valign_middle' => Bool, 'valign_bottom' => Bool, 'text' => RichText, 'colspan' => int, 'rowspan' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageTableCell", "header": Bool, "align_center": Bool, "align_right": Bool, "valign_middle": Bool, "valign_bottom": Bool, "text": RichText, "colspan": int, "rowspan": int}
-```
-
 
 Or, if you're into Lua:
 

@@ -37,30 +37,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->deleteSecureValue(['types' => [SecureValueType, SecureValueType], ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - account.deleteSecureValue
-* params - `{"types": [SecureValueType], }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.deleteSecureValue`
-
-Parameters:
-
-types - Json encoded  array of SecureValueType
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

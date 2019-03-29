@@ -44,44 +44,6 @@ $MadelineProto->start();
 $geochats_Messages = $MadelineProto->geochats->search(['peer' => InputGeoChat, 'q' => 'string', 'filter' => MessagesFilter, 'min_date' => int, 'max_date' => int, 'offset' => int, 'max_id' => int, 'limit' => int, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - geochats.search
-* params - `{"peer": InputGeoChat, "q": "string", "filter": MessagesFilter, "min_date": int, "max_date": int, "offset": int, "max_id": int, "limit": int, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/geochats.search`
-
-Parameters:
-
-peer - Json encoded InputGeoChat
-
-q - Json encoded string
-
-filter - Json encoded MessagesFilter
-
-min_date - Json encoded int
-
-max_date - Json encoded int
-
-offset - Json encoded int
-
-max_id - Json encoded int
-
-limit - Json encoded int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

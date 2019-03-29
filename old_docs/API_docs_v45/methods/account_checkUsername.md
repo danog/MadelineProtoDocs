@@ -37,21 +37,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->checkUsername(['username' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.checkUsername`
-
-Parameters:
-
-username - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

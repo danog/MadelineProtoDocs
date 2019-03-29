@@ -22,12 +22,6 @@ Privacy key phone p2p
 $privacyKeyPhoneP2P = ['_' => 'privacyKeyPhoneP2P'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "privacyKeyPhoneP2P"}
-```
-
 
 Or, if you're into Lua:
 

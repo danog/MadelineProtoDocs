@@ -22,12 +22,6 @@ Empty secure file
 $secureFileEmpty = ['_' => 'secureFileEmpty'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "secureFileEmpty"}
-```
-
 
 Or, if you're into Lua:
 

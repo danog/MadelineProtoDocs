@@ -32,12 +32,6 @@ Sent code
 $auth_sentCode = ['_' => 'auth.sentCode', 'phone_registered' => Bool, 'type' => auth_SentCodeType, 'phone_code_hash' => 'string', 'next_type' => auth_CodeType, 'timeout' => int, 'terms_of_service' => help_TermsOfService];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "auth.sentCode", "phone_registered": Bool, "type": auth_SentCodeType, "phone_code_hash": "string", "next_type": auth_CodeType, "timeout": int, "terms_of_service": help_TermsOfService}
-```
-
 
 Or, if you're into Lua:
 

@@ -22,12 +22,6 @@ Privacy value disallow all
 $inputPrivacyValueDisallowAll = ['_' => 'inputPrivacyValueDisallowAll'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputPrivacyValueDisallowAll"}
-```
-
 
 Or, if you're into Lua:
 

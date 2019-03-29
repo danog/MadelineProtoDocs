@@ -39,25 +39,6 @@ $MadelineProto->start();
 $Vector_of_int = $MadelineProto->messages->getMessagesViews(['peer' => InputPeer, 'id' => [int, int], 'increment' => Bool, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.getMessagesViews`
-
-Parameters:
-
-peer - Json encoded InputPeer
-
-id - Json encoded  array of int
-
-increment - Json encoded Bool
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

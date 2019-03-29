@@ -30,12 +30,6 @@ Media uploaded thumb document
 $inputMediaUploadedThumbDocument = ['_' => 'inputMediaUploadedThumbDocument', 'file' => InputFile, 'thumb' => InputFile, 'file_name' => 'string', 'mime_type' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMediaUploadedThumbDocument", "file": InputFile, "thumb": InputFile, "file_name": "string", "mime_type": "string"}
-```
-
 
 Or, if you're into Lua:
 

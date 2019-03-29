@@ -27,12 +27,6 @@ Recent me URL unknown
 $recentMeUrlUnknown = ['_' => 'recentMeUrlUnknown', 'url' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "recentMeUrlUnknown", "url": "string"}
-```
-
 
 Or, if you're into Lua:
 

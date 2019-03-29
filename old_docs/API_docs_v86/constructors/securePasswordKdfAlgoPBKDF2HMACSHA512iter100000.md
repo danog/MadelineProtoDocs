@@ -27,12 +27,6 @@ Secure password kdf algo pbkdf2hmacsh a512iter100000
 $securePasswordKdfAlgoPBKDF2HMACSHA512iter100000 = ['_' => 'securePasswordKdfAlgoPBKDF2HMACSHA512iter100000', 'salt' => 'bytes'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "securePasswordKdfAlgoPBKDF2HMACSHA512iter100000", "salt": {"_": "bytes", "bytes":"base64 encoded bytes"}}
-```
-
 
 Or, if you're into Lua:
 

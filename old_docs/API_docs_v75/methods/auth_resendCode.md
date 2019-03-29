@@ -38,23 +38,6 @@ $MadelineProto->start();
 $auth_SentCode = $MadelineProto->auth->resendCode(['phone_number' => 'string', 'phone_code_hash' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/auth.resendCode`
-
-Parameters:
-
-phone_number - Json encoded string
-
-phone_code_hash - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

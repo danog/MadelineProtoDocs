@@ -27,12 +27,6 @@ Sticker set install result archive
 $messages_stickerSetInstallResultArchive = ['_' => 'messages.stickerSetInstallResultArchive', 'sets' => [StickerSetCovered, StickerSetCovered]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messages.stickerSetInstallResultArchive", "sets": [StickerSetCovered]}
-```
-
 
 Or, if you're into Lua:
 

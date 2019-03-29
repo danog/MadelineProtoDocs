@@ -29,12 +29,6 @@ Featured stickers
 $messages_featuredStickers = ['_' => 'messages.featuredStickers', 'hash' => int, 'sets' => [StickerSetCovered, StickerSetCovered], 'unread' => [long, long]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messages.featuredStickers", "hash": int, "sets": [StickerSetCovered], "unread": [long]}
-```
-
 
 Or, if you're into Lua:
 

@@ -22,12 +22,6 @@ Secure value type address
 $secureValueTypeAddress = ['_' => 'secureValueTypeAddress'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "secureValueTypeAddress"}
-```
-
 
 Or, if you're into Lua:
 

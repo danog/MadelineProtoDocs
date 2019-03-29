@@ -39,25 +39,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->addChatUser(['chat_id' => InputPeer, 'user_id' => InputUser, 'fwd_limit' => int, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.addChatUser`
-
-Parameters:
-
-chat_id - Json encoded InputPeer
-
-user_id - Json encoded InputUser
-
-fwd_limit - Json encoded int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

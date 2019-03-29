@@ -32,28 +32,6 @@ $MadelineProto->start();
 $Vector_of_MessageRange = $MadelineProto->messages->getSplitRanges();
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.getSplitRanges
-* params - `{}`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.getSplitRanges`
-
-Parameters:
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

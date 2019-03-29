@@ -27,12 +27,6 @@ Destroy session ok
 $destroy_session_ok = ['_' => 'destroy_session_ok', 'session_id' => long];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "destroy_session_ok", "session_id": long}
-```
-
 
 Or, if you're into Lua:
 

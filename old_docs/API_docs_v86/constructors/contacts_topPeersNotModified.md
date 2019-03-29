@@ -22,12 +22,6 @@ Top peers not modified
 $contacts_topPeersNotModified = ['_' => 'contacts.topPeersNotModified'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "contacts.topPeersNotModified"}
-```
-
 
 Or, if you're into Lua:
 

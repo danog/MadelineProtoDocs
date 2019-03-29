@@ -28,12 +28,6 @@ Message media poll
 $messageMediaPoll = ['_' => 'messageMediaPoll', 'poll' => Poll, 'results' => PollResults];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageMediaPoll", "poll": Poll, "results": PollResults}
-```
-
 
 Or, if you're into Lua:
 

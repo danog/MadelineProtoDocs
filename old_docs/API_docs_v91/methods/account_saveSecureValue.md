@@ -38,32 +38,6 @@ $MadelineProto->start();
 $SecureValue = $MadelineProto->account->saveSecureValue(['value' => InputSecureValue, 'secure_secret_id' => long, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - account.saveSecureValue
-* params - `{"value": InputSecureValue, "secure_secret_id": long, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.saveSecureValue`
-
-Parameters:
-
-value - Json encoded InputSecureValue
-
-secure_secret_id - Json encoded long
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

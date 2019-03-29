@@ -30,12 +30,6 @@ Chat full
 $chatFull = ['_' => 'chatFull', 'id' => int, 'participants' => ChatParticipants, 'chat_photo' => Photo, 'notify_settings' => PeerNotifySettings];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "chatFull", "id": int, "participants": ChatParticipants, "chat_photo": Photo, "notify_settings": PeerNotifySettings}
-```
-
 
 Or, if you're into Lua:
 

@@ -38,32 +38,6 @@ $MadelineProto->start();
 $MessageMedia = $MadelineProto->messages->uploadMedia(['peer' => InputPeer, 'media' => InputMedia, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.uploadMedia
-* params - `{"peer": InputPeer, "media": InputMedia, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.uploadMedia`
-
-Parameters:
-
-peer - Json encoded InputPeer
-
-media - Json encoded InputMedia
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

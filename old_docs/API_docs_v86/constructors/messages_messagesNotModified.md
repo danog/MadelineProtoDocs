@@ -27,12 +27,6 @@ Messages not modified
 $messages_messagesNotModified = ['_' => 'messages.messagesNotModified', 'count' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messages.messagesNotModified", "count": int}
-```
-
 
 Or, if you're into Lua:
 

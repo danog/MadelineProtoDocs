@@ -31,12 +31,6 @@ Stated message
 $messages_statedMessage = ['_' => 'messages.statedMessage', 'message' => Message, 'chats' => [Chat, Chat], 'users' => [User, User], 'pts' => int, 'seq' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messages.statedMessage", "message": Message, "chats": [Chat], "users": [User], "pts": int, "seq": int}
-```
-
 
 Or, if you're into Lua:
 

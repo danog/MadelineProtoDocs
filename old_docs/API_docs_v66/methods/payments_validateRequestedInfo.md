@@ -39,25 +39,6 @@ $MadelineProto->start();
 $payments_ValidatedRequestedInfo = $MadelineProto->payments->validateRequestedInfo(['save' => Bool, 'msg_id' => int, 'info' => PaymentRequestedInfo, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/payments.validateRequestedInfo`
-
-Parameters:
-
-save - Json encoded Bool
-
-msg_id - Json encoded int
-
-info - Json encoded PaymentRequestedInfo
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

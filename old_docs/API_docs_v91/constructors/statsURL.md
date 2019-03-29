@@ -27,12 +27,6 @@ Stats URL
 $statsURL = ['_' => 'statsURL', 'url' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "statsURL", "url": "string"}
-```
-
 
 Or, if you're into Lua:
 

@@ -22,12 +22,6 @@ Empty input sticker set
 $inputStickerSetEmpty = ['_' => 'inputStickerSetEmpty'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputStickerSetEmpty"}
-```
-
 
 Or, if you're into Lua:
 

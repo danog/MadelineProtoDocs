@@ -38,32 +38,6 @@ $MadelineProto->start();
 $messages_StatedMessages = $MadelineProto->messages->forwardMessages(['peer' => InputPeer, 'id' => [int, int], ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.forwardMessages
-* params - `{"peer": InputPeer, "id": [int], }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.forwardMessages`
-
-Parameters:
-
-peer - Json encoded InputPeer
-
-id - Json encoded  array of int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

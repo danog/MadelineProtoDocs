@@ -27,12 +27,6 @@ Empty proxy data
 $help_proxyDataEmpty = ['_' => 'help.proxyDataEmpty', 'expires' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "help.proxyDataEmpty", "expires": int}
-```
-
 
 Or, if you're into Lua:
 

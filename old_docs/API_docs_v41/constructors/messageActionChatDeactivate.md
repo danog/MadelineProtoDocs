@@ -22,12 +22,6 @@ Message action chat deactivate
 $messageActionChatDeactivate = ['_' => 'messageActionChatDeactivate'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageActionChatDeactivate"}
-```
-
 
 Or, if you're into Lua:
 

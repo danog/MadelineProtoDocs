@@ -22,12 +22,6 @@ Empty message
 $messages_messageEmpty = ['_' => 'messages.messageEmpty'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messages.messageEmpty"}
-```
-
 
 Or, if you're into Lua:
 

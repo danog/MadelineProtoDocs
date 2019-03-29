@@ -28,12 +28,6 @@ Terms of service update
 $help_termsOfServiceUpdate = ['_' => 'help.termsOfServiceUpdate', 'expires' => int, 'terms_of_service' => help_TermsOfService];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "help.termsOfServiceUpdate", "expires": int, "terms_of_service": help_TermsOfService}
-```
-
 
 Or, if you're into Lua:
 

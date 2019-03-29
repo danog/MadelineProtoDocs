@@ -33,12 +33,6 @@ Page
 $page = ['_' => 'page', 'part' => Bool, 'rtl' => Bool, 'v2' => Bool, 'url' => 'string', 'blocks' => [PageBlock, PageBlock], 'photos' => [Photo, Photo], 'documents' => [Document, Document]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "page", "part": Bool, "rtl": Bool, "v2": Bool, "url": "string", "blocks": [PageBlock], "photos": [Photo], "documents": [Document]}
-```
-
 
 Or, if you're into Lua:
 

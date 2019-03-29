@@ -27,12 +27,6 @@ Decrypted message service
 $decryptedMessageService_8 = ['_' => 'decryptedMessageService', 'action' => DecryptedMessageAction];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "decryptedMessageService", "action": DecryptedMessageAction}
-```
-
 
 Or, if you're into Lua:
 

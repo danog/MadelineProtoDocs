@@ -22,12 +22,6 @@ Faved stickers not modified
 $messages_favedStickersNotModified = ['_' => 'messages.favedStickersNotModified'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messages.favedStickersNotModified"}
-```
-
 
 Or, if you're into Lua:
 

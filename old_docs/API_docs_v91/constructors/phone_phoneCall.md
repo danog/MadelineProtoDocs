@@ -28,12 +28,6 @@ Phone call
 $phone_phoneCall = ['_' => 'phone.phoneCall', 'phone_call' => PhoneCall, 'users' => [User, User]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "phone.phoneCall", "phone_call": PhoneCall, "users": [User]}
-```
-
 
 Or, if you're into Lua:
 

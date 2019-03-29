@@ -22,12 +22,6 @@ Sticker set install result success
 $messages_stickerSetInstallResultSuccess = ['_' => 'messages.stickerSetInstallResultSuccess'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messages.stickerSetInstallResultSuccess"}
-```
-
 
 Or, if you're into Lua:
 

@@ -28,12 +28,6 @@ Found
 $contacts_found = ['_' => 'contacts.found', 'results' => [ContactFound, ContactFound], 'users' => [User, User]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "contacts.found", "results": [ContactFound], "users": [User]}
-```
-
 
 Or, if you're into Lua:
 

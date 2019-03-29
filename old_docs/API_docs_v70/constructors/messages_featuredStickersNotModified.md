@@ -22,12 +22,6 @@ Featured stickers not modified
 $messages_featuredStickersNotModified = ['_' => 'messages.featuredStickersNotModified'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messages.featuredStickersNotModified"}
-```
-
 
 Or, if you're into Lua:
 

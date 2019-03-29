@@ -37,21 +37,6 @@ $MadelineProto->start();
 $help_TermsOfService = $MadelineProto->help->getTermsOfService(['lang_code' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/help.getTermsOfService`
-
-Parameters:
-
-lang_code - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

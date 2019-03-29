@@ -38,32 +38,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->getPollResults(['peer' => InputPeer, 'msg_id' => int, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.getPollResults
-* params - `{"peer": InputPeer, "msg_id": int, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.getPollResults`
-
-Parameters:
-
-peer - Json encoded InputPeer
-
-msg_id - Json encoded int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

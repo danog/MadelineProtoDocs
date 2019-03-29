@@ -33,12 +33,6 @@ Channel difference
 $updates_channelDifference = ['_' => 'updates.channelDifference', 'final' => Bool, 'pts' => int, 'timeout' => int, 'new_messages' => [Message, Message], 'other_updates' => [Update, Update], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updates.channelDifference", "final": Bool, "pts": int, "timeout": int, "new_messages": [Message], "other_updates": [Update], "chats": [Chat], "users": [User]}
-```
-
 
 Or, if you're into Lua:
 

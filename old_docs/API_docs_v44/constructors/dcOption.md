@@ -31,12 +31,6 @@ DC option
 $dcOption = ['_' => 'dcOption', 'ipv6' => Bool, 'media_only' => Bool, 'id' => int, 'ip_address' => 'string', 'port' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "dcOption", "ipv6": Bool, "media_only": Bool, "id": int, "ip_address": "string", "port": int}
-```
-
 
 Or, if you're into Lua:
 

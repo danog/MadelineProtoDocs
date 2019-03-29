@@ -29,12 +29,6 @@ Top peer category peers
 $topPeerCategoryPeers = ['_' => 'topPeerCategoryPeers', 'category' => TopPeerCategory, 'count' => int, 'peers' => [TopPeer, TopPeer]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "topPeerCategoryPeers", "category": TopPeerCategory, "count": int, "peers": [TopPeer]}
-```
-
 
 Or, if you're into Lua:
 

@@ -28,12 +28,6 @@ Imported contact
 $importedContact = ['_' => 'importedContact', 'user_id' => int, 'client_id' => long];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "importedContact", "user_id": int, "client_id": long}
-```
-
 
 Or, if you're into Lua:
 

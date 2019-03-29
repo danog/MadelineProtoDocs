@@ -38,32 +38,6 @@ $MadelineProto->start();
 $auth_SentCode = $MadelineProto->account->sendVerifyPhoneCode(['phone_number' => 'string', 'settings' => CodeSettings, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - account.sendVerifyPhoneCode
-* params - `{"phone_number": "string", "settings": CodeSettings, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.sendVerifyPhoneCode`
-
-Parameters:
-
-phone_number - Json encoded string
-
-settings - Json encoded CodeSettings
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

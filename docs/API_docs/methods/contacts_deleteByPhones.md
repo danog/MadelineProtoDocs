@@ -37,30 +37,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->contacts->deleteByPhones(['phones' => ['string', 'string'], ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - contacts.deleteByPhones
-* params - `{"phones": ["string"], }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/contacts.deleteByPhones`
-
-Parameters:
-
-phones - Json encoded  array of string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

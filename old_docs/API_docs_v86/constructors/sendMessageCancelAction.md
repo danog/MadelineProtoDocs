@@ -22,12 +22,6 @@ Send message cancel action
 $sendMessageCancelAction = ['_' => 'sendMessageCancelAction'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "sendMessageCancelAction"}
-```
-
 
 Or, if you're into Lua:
 

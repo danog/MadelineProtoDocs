@@ -27,12 +27,6 @@ Message reply to
 $inputMessageReplyTo = ['_' => 'inputMessageReplyTo', 'id' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMessageReplyTo", "id": int}
-```
-
 
 Or, if you're into Lua:
 

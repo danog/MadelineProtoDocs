@@ -30,12 +30,6 @@ Password settings
 $account_passwordSettings = ['_' => 'account.passwordSettings', 'email' => 'string', 'secure_salt' => 'bytes', 'secure_secret' => 'bytes', 'secure_secret_id' => long];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "account.passwordSettings", "email": "string", "secure_salt": {"_": "bytes", "bytes":"base64 encoded bytes"}, "secure_secret": {"_": "bytes", "bytes":"base64 encoded bytes"}, "secure_secret_id": long}
-```
-
 
 Or, if you're into Lua:
 

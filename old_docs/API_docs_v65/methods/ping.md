@@ -37,30 +37,6 @@ $MadelineProto->start();
 $Pong = $MadelineProto->ping(['ping_id' => long, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - ping
-* params - `{"ping_id": long, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/ping`
-
-Parameters:
-
-ping_id - Json encoded long
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

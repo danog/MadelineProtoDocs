@@ -42,40 +42,6 @@ $MadelineProto->start();
 $Server_DH_Params = $MadelineProto->req_DH_params(['nonce' => int128, 'server_nonce' => int128, 'p' => 'bytes', 'q' => 'bytes', 'public_key_fingerprint' => long, 'encrypted_data' => 'bytes', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - req_DH_params
-* params - `{"nonce": int128, "server_nonce": int128, "p": {"_": "bytes", "bytes":"base64 encoded bytes"}, "q": {"_": "bytes", "bytes":"base64 encoded bytes"}, "public_key_fingerprint": long, "encrypted_data": {"_": "bytes", "bytes":"base64 encoded bytes"}, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/req_DH_params`
-
-Parameters:
-
-nonce - Json encoded int128
-
-server_nonce - Json encoded int128
-
-p - Json encoded bytes
-
-q - Json encoded bytes
-
-public_key_fingerprint - Json encoded long
-
-encrypted_data - Json encoded bytes
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

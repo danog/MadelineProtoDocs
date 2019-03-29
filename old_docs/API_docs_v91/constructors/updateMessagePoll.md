@@ -29,12 +29,6 @@ Update message poll
 $updateMessagePoll = ['_' => 'updateMessagePoll', 'poll_id' => long, 'poll' => Poll, 'results' => PollResults];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateMessagePoll", "poll_id": long, "poll": Poll, "results": PollResults}
-```
-
 
 Or, if you're into Lua:
 

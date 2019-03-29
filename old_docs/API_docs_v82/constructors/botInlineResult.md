@@ -34,12 +34,6 @@ Bot inline result
 $botInlineResult = ['_' => 'botInlineResult', 'id' => 'string', 'type' => 'string', 'title' => 'string', 'description' => 'string', 'url' => 'string', 'thumb' => WebDocument, 'content' => WebDocument, 'send_message' => BotInlineMessage];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "botInlineResult", "id": "string", "type": "string", "title": "string", "description": "string", "url": "string", "thumb": WebDocument, "content": WebDocument, "send_message": BotInlineMessage}
-```
-
 
 Or, if you're into Lua:
 

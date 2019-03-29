@@ -39,25 +39,6 @@ $MadelineProto->start();
 $upload_WebFile = $MadelineProto->upload->getWebFile(['location' => InputWebFileLocation, 'offset' => int, 'limit' => int, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/upload.getWebFile`
-
-Parameters:
-
-location - Json encoded InputWebFileLocation
-
-offset - Json encoded int
-
-limit - Json encoded int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

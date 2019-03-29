@@ -39,34 +39,6 @@ $MadelineProto->start();
 $messages_HighScores = $MadelineProto->messages->getGameHighScores(['peer' => InputPeer, 'id' => int, 'user_id' => InputUser, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.getGameHighScores
-* params - `{"peer": InputPeer, "id": int, "user_id": InputUser, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.getGameHighScores`
-
-Parameters:
-
-peer - Json encoded InputPeer
-
-id - Json encoded int
-
-user_id - Json encoded InputUser
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

@@ -28,12 +28,6 @@ Recent me URL sticker set
 $recentMeUrlStickerSet = ['_' => 'recentMeUrlStickerSet', 'url' => 'string', 'set' => StickerSetCovered];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "recentMeUrlStickerSet", "url": "string", "set": StickerSetCovered}
-```
-
 
 Or, if you're into Lua:
 

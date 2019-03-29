@@ -27,12 +27,6 @@ Stickered media document
 $inputStickeredMediaDocument = ['_' => 'inputStickeredMediaDocument', 'id' => InputDocument];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputStickeredMediaDocument", "id": InputDocument}
-```
-
 
 Or, if you're into Lua:
 

@@ -39,34 +39,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->channels->editBanned(['channel' => InputChannel, 'user_id' => InputUser, 'banned_rights' => ChannelBannedRights, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - channels.editBanned
-* params - `{"channel": InputChannel, "user_id": InputUser, "banned_rights": ChannelBannedRights, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/channels.editBanned`
-
-Parameters:
-
-channel - Json encoded InputChannel
-
-user_id - Json encoded InputUser
-
-banned_rights - Json encoded ChannelBannedRights
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

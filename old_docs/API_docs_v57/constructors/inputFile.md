@@ -30,12 +30,6 @@ File
 $inputFile = ['_' => 'inputFile', 'id' => long, 'parts' => int, 'name' => 'string', 'md5_checksum' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputFile", "id": long, "parts": int, "name": "string", "md5_checksum": "string"}
-```
-
 
 Or, if you're into Lua:
 

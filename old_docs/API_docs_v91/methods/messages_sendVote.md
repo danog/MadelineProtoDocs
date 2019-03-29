@@ -39,34 +39,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->sendVote(['peer' => InputPeer, 'msg_id' => int, 'options' => ['bytes', 'bytes'], ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.sendVote
-* params - `{"peer": InputPeer, "msg_id": int, "options": [{"_": "bytes", "bytes":"base64 encoded bytes"}], }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.sendVote`
-
-Parameters:
-
-peer - Json encoded InputPeer
-
-msg_id - Json encoded int
-
-options - Json encoded  array of bytes
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

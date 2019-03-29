@@ -27,12 +27,6 @@ Decrypted message action notify layer
 $decryptedMessageActionNotifyLayer_17 = ['_' => 'decryptedMessageActionNotifyLayer', 'layer' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "decryptedMessageActionNotifyLayer", "layer": int}
-```
-
 
 Or, if you're into Lua:
 

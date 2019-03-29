@@ -28,12 +28,6 @@ Message action channel migrate from
 $messageActionChannelMigrateFrom = ['_' => 'messageActionChannelMigrateFrom', 'title' => 'string', 'chat_id' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageActionChannelMigrateFrom", "title": "string", "chat_id": int}
-```
-
 
 Or, if you're into Lua:
 

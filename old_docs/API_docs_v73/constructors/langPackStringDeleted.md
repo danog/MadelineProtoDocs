@@ -27,12 +27,6 @@ Lang pack string deleted
 $langPackStringDeleted = ['_' => 'langPackStringDeleted', 'key' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "langPackStringDeleted", "key": "string"}
-```
-
 
 Or, if you're into Lua:
 

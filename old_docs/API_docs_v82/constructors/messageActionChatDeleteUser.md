@@ -27,12 +27,6 @@ Message action chat delete user
 $messageActionChatDeleteUser = ['_' => 'messageActionChatDeleteUser', 'user_id' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageActionChatDeleteUser", "user_id": int}
-```
-
 
 Or, if you're into Lua:
 

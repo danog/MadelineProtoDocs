@@ -28,12 +28,6 @@ Message action chat create
 $messageActionChatCreate = ['_' => 'messageActionChatCreate', 'title' => 'string', 'users' => [int, int]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageActionChatCreate", "title": "string", "users": [int]}
-```
-
 
 Or, if you're into Lua:
 

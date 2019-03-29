@@ -22,12 +22,6 @@ Message action contact sign up
 $messageActionContactSignUp = ['_' => 'messageActionContactSignUp'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageActionContactSignUp"}
-```
-
 
 Or, if you're into Lua:
 

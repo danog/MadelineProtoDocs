@@ -37,30 +37,6 @@ $MadelineProto->start();
 $messages_StickerSet = $MadelineProto->messages->getStickerSet(['stickerset' => InputStickerSet, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.getStickerSet
-* params - `{"stickerset": InputStickerSet, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.getStickerSet`
-
-Parameters:
-
-stickerset - Json encoded InputStickerSet
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

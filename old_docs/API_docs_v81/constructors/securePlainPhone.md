@@ -27,12 +27,6 @@ Secure plain phone
 $securePlainPhone = ['_' => 'securePlainPhone', 'phone' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "securePlainPhone", "phone": "string"}
-```
-
 
 Or, if you're into Lua:
 

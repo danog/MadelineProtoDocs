@@ -27,12 +27,6 @@ Secure plain email
 $securePlainEmail = ['_' => 'securePlainEmail', 'email' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "securePlainEmail", "email": "string"}
-```
-
 
 Or, if you're into Lua:
 

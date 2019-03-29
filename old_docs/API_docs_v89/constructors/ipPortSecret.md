@@ -29,12 +29,6 @@ Ip port secret
 $ipPortSecret = ['_' => 'ipPortSecret', 'ipv4' => int, 'port' => int, 'secret' => 'bytes'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "ipPortSecret", "ipv4": int, "port": int, "secret": {"_": "bytes", "bytes":"base64 encoded bytes"}}
-```
-
 
 Or, if you're into Lua:
 

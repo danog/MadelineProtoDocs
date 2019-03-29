@@ -27,12 +27,6 @@ Message action secure values sent
 $messageActionSecureValuesSent = ['_' => 'messageActionSecureValuesSent', 'types' => [SecureValueType, SecureValueType]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageActionSecureValuesSent", "types": [SecureValueType]}
-```
-
 
 Or, if you're into Lua:
 

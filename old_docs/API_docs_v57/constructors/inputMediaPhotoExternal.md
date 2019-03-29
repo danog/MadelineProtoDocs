@@ -28,12 +28,6 @@ Media photo external
 $inputMediaPhotoExternal = ['_' => 'inputMediaPhotoExternal', 'url' => 'string', 'caption' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMediaPhotoExternal", "url": "string", "caption": "string"}
-```
-
 
 Or, if you're into Lua:
 

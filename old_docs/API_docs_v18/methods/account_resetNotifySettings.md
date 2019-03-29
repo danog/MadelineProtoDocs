@@ -32,19 +32,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->resetNotifySettings();
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.resetNotifySettings`
-
-Parameters:
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

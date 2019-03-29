@@ -31,12 +31,6 @@ Peer dialogs
 $messages_peerDialogs = ['_' => 'messages.peerDialogs', 'dialogs' => [Dialog, Dialog], 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User], 'state' => updates_State];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messages.peerDialogs", "dialogs": [Dialog], "messages": [Message], "chats": [Chat], "users": [User], "state": updates_State}
-```
-
 
 Or, if you're into Lua:
 

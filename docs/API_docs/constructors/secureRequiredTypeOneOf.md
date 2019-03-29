@@ -27,12 +27,6 @@ Secure required type one of
 $secureRequiredTypeOneOf = ['_' => 'secureRequiredTypeOneOf', 'types' => [SecureRequiredType, SecureRequiredType]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "secureRequiredTypeOneOf", "types": [SecureRequiredType]}
-```
-
 
 Or, if you're into Lua:
 

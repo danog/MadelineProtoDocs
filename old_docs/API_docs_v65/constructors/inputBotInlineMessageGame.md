@@ -27,12 +27,6 @@ Bot inline message game
 $inputBotInlineMessageGame = ['_' => 'inputBotInlineMessageGame', 'reply_markup' => ReplyMarkup];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputBotInlineMessageGame", "reply_markup": ReplyMarkup}
-```
-
 
 Or, if you're into Lua:
 

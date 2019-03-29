@@ -43,42 +43,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->forwardMessages(['silent' => Bool, 'background' => Bool, 'with_my_score' => Bool, 'grouped' => Bool, 'from_peer' => InputPeer, 'id' => [int, int], 'to_peer' => InputPeer, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.forwardMessages
-* params - `{"silent": Bool, "background": Bool, "with_my_score": Bool, "grouped": Bool, "from_peer": InputPeer, "id": [int], "to_peer": InputPeer, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.forwardMessages`
-
-Parameters:
-
-silent - Json encoded Bool
-
-background - Json encoded Bool
-
-with_my_score - Json encoded Bool
-
-grouped - Json encoded Bool
-
-from_peer - Json encoded InputPeer
-
-id - Json encoded  array of int
-
-to_peer - Json encoded InputPeer
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

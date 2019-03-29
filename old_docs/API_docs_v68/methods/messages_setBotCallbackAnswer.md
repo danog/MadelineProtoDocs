@@ -41,38 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->setBotCallbackAnswer(['alert' => Bool, 'query_id' => long, 'message' => 'string', 'url' => 'string', 'cache_time' => int, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.setBotCallbackAnswer
-* params - `{"alert": Bool, "query_id": long, "message": "string", "url": "string", "cache_time": int, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.setBotCallbackAnswer`
-
-Parameters:
-
-alert - Json encoded Bool
-
-query_id - Json encoded long
-
-message - Json encoded string
-
-url - Json encoded string
-
-cache_time - Json encoded int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

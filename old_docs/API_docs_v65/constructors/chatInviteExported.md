@@ -27,12 +27,6 @@ Exported chat invite
 $chatInviteExported = ['_' => 'chatInviteExported', 'link' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "chatInviteExported", "link": "string"}
-```
-
 
 Or, if you're into Lua:
 

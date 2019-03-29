@@ -41,12 +41,6 @@ Authorization
 $authorization = ['_' => 'authorization', 'current' => Bool, 'official_app' => Bool, 'password_pending' => Bool, 'hash' => long, 'device_model' => 'string', 'platform' => 'string', 'system_version' => 'string', 'api_id' => int, 'app_name' => 'string', 'app_version' => 'string', 'date_created' => int, 'date_active' => int, 'ip' => 'string', 'country' => 'string', 'region' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "authorization", "current": Bool, "official_app": Bool, "password_pending": Bool, "hash": long, "device_model": "string", "platform": "string", "system_version": "string", "api_id": int, "app_name": "string", "app_version": "string", "date_created": int, "date_active": int, "ip": "string", "country": "string", "region": "string"}
-```
-
 
 Or, if you're into Lua:
 

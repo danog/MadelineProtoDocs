@@ -22,12 +22,6 @@ Empty input video
 $inputVideoEmpty = ['_' => 'inputVideoEmpty'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputVideoEmpty"}
-```
-
 
 Or, if you're into Lua:
 

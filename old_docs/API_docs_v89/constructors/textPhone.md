@@ -28,12 +28,6 @@ Text phone
 $textPhone = ['_' => 'textPhone', 'text' => RichText, 'phone' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "textPhone", "text": RichText, "phone": "string"}
-```
-
 
 Or, if you're into Lua:
 

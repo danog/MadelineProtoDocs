@@ -22,12 +22,6 @@ Secure value type utility bill
 $secureValueTypeUtilityBill = ['_' => 'secureValueTypeUtilityBill'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "secureValueTypeUtilityBill"}
-```
-
 
 Or, if you're into Lua:
 

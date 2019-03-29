@@ -22,12 +22,6 @@ Secure value type driver license
 $secureValueTypeDriverLicense = ['_' => 'secureValueTypeDriverLicense'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "secureValueTypeDriverLicense"}
-```
-
 
 Or, if you're into Lua:
 

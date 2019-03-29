@@ -32,12 +32,6 @@ Message
 $message = ['_' => 'message', 'id' => int, 'from_id' => int, 'to_id' => Peer, 'date' => int, 'message' => 'string', 'media' => MessageMedia];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "message", "id": int, "from_id": int, "to_id": Peer, "date": int, "message": "string", "media": MessageMedia}
-```
-
 
 Or, if you're into Lua:
 

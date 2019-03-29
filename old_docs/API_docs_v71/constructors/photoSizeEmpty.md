@@ -27,12 +27,6 @@ Empty photo size
 $photoSizeEmpty = ['_' => 'photoSizeEmpty', 'type' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "photoSizeEmpty", "type": "string"}
-```
-
 
 Or, if you're into Lua:
 

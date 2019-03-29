@@ -22,12 +22,6 @@ Foreign link unknown
 $contacts_foreignLinkUnknown = ['_' => 'contacts.foreignLinkUnknown'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "contacts.foreignLinkUnknown"}
-```
-
 
 Or, if you're into Lua:
 

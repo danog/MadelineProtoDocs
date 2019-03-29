@@ -37,30 +37,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->createChannel(['title' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.createChannel
-* params - `{"title": "string", }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.createChannel`
-
-Parameters:
-
-title - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

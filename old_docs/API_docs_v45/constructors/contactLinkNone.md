@@ -22,12 +22,6 @@ Contact link none
 $contactLinkNone = ['_' => 'contactLinkNone'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "contactLinkNone"}
-```
-
 
 Or, if you're into Lua:
 

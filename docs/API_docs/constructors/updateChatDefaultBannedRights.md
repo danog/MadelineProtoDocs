@@ -29,12 +29,6 @@ Global chat rights updated
 $updateChatDefaultBannedRights = ['_' => 'updateChatDefaultBannedRights', 'peer' => Peer, 'default_banned_rights' => ChatBannedRights, 'version' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateChatDefaultBannedRights", "peer": Peer, "default_banned_rights": ChatBannedRights, "version": int}
-```
-
 
 Or, if you're into Lua:
 

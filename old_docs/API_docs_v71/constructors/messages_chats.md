@@ -27,12 +27,6 @@ Chats
 $messages_chats = ['_' => 'messages.chats', 'chats' => [Chat, Chat]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messages.chats", "chats": [Chat]}
-```
-
 
 Or, if you're into Lua:
 

@@ -38,23 +38,6 @@ $MadelineProto->start();
 $messages_AffectedHistory = $MadelineProto->channels->deleteUserHistory(['channel' => InputChannel, 'user_id' => InputUser, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/channels.deleteUserHistory`
-
-Parameters:
-
-channel - Json encoded InputChannel
-
-user_id - Json encoded InputUser
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

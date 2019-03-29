@@ -22,12 +22,6 @@ Phone call discard reason missed
 $phoneCallDiscardReasonMissed = ['_' => 'phoneCallDiscardReasonMissed'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "phoneCallDiscardReasonMissed"}
-```
-
 
 Or, if you're into Lua:
 

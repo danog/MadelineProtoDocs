@@ -22,12 +22,6 @@ Photo crop auto
 $inputPhotoCropAuto = ['_' => 'inputPhotoCropAuto'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputPhotoCropAuto"}
-```
-
 
 Or, if you're into Lua:
 

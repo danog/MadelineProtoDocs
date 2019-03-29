@@ -22,12 +22,6 @@ Phone call discard reason hangup
 $phoneCallDiscardReasonHangup = ['_' => 'phoneCallDiscardReasonHangup'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "phoneCallDiscardReasonHangup"}
-```
-
 
 Or, if you're into Lua:
 

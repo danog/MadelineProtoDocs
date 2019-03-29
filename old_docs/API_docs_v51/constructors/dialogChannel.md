@@ -34,12 +34,6 @@ Dialog channel
 $dialogChannel = ['_' => 'dialogChannel', 'peer' => Peer, 'top_message' => int, 'top_important_message' => int, 'read_inbox_max_id' => int, 'unread_count' => int, 'unread_important_count' => int, 'notify_settings' => PeerNotifySettings, 'pts' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "dialogChannel", "peer": Peer, "top_message": int, "top_important_message": int, "read_inbox_max_id": int, "unread_count": int, "unread_important_count": int, "notify_settings": PeerNotifySettings, "pts": int}
-```
-
 
 Or, if you're into Lua:
 

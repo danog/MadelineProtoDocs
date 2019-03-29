@@ -32,12 +32,6 @@ Decrypted message media venue
 $decryptedMessageMediaVenue_46 = ['_' => 'decryptedMessageMediaVenue', 'lat' => double, 'long' => double, 'title' => 'string', 'address' => 'string', 'provider' => 'string', 'venue_id' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "decryptedMessageMediaVenue", "lat": double, "long": double, "title": "string", "address": "string", "provider": "string", "venue_id": "string"}
-```
-
 
 Or, if you're into Lua:
 

@@ -27,12 +27,6 @@ Page block anchor
 $pageBlockAnchor = ['_' => 'pageBlockAnchor', 'name' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageBlockAnchor", "name": "string"}
-```
-
 
 Or, if you're into Lua:
 

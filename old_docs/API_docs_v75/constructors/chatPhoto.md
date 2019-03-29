@@ -28,12 +28,6 @@ Chat photo
 $chatPhoto = ['_' => 'chatPhoto', 'photo_small' => FileLocation, 'photo_big' => FileLocation];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "chatPhoto", "photo_small": FileLocation, "photo_big": FileLocation}
-```
-
 
 Or, if you're into Lua:
 

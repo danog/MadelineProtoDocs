@@ -27,12 +27,6 @@ Update lang pack too long
 $updateLangPackTooLong = ['_' => 'updateLangPackTooLong', 'lang_code' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateLangPackTooLong", "lang_code": "string"}
-```
-
 
 Or, if you're into Lua:
 

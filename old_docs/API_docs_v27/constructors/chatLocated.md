@@ -28,12 +28,6 @@ Chat located
 $chatLocated = ['_' => 'chatLocated', 'chat_id' => int, 'distance' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "chatLocated", "chat_id": int, "distance": int}
-```
-
 
 Or, if you're into Lua:
 

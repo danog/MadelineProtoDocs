@@ -38,23 +38,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->contacts->resetTopPeerRating(['category' => TopPeerCategory, 'peer' => InputPeer, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/contacts.resetTopPeerRating`
-
-Parameters:
-
-category - Json encoded TopPeerCategory
-
-peer - Json encoded InputPeer
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

@@ -27,12 +27,6 @@ Stopped poll
 $channelAdminLogEventActionStopPoll = ['_' => 'channelAdminLogEventActionStopPoll', 'message' => Message];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "channelAdminLogEventActionStopPoll", "message": Message}
-```
-
 
 Or, if you're into Lua:
 

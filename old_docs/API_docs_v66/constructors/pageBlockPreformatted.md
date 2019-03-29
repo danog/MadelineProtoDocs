@@ -28,12 +28,6 @@ Page block preformatted
 $pageBlockPreformatted = ['_' => 'pageBlockPreformatted', 'text' => RichText, 'language' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageBlockPreformatted", "text": RichText, "language": "string"}
-```
-
 
 Or, if you're into Lua:
 

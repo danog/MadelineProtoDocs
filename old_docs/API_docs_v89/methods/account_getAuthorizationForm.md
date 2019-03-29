@@ -39,34 +39,6 @@ $MadelineProto->start();
 $account_AuthorizationForm = $MadelineProto->account->getAuthorizationForm(['bot_id' => int, 'scope' => 'string', 'public_key' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - account.getAuthorizationForm
-* params - `{"bot_id": int, "scope": "string", "public_key": "string", }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.getAuthorizationForm`
-
-Parameters:
-
-bot_id - Json encoded int
-
-scope - Json encoded string
-
-public_key - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

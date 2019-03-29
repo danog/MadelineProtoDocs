@@ -28,12 +28,6 @@ Page list ordered item blocks
 $pageListOrderedItemBlocks = ['_' => 'pageListOrderedItemBlocks', 'num' => 'string', 'blocks' => [PageBlock, PageBlock]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageListOrderedItemBlocks", "num": "string", "blocks": [PageBlock]}
-```
-
 
 Or, if you're into Lua:
 

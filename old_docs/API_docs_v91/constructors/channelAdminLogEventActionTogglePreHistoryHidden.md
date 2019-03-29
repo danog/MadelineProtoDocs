@@ -27,12 +27,6 @@ Previous history hidden
 $channelAdminLogEventActionTogglePreHistoryHidden = ['_' => 'channelAdminLogEventActionTogglePreHistoryHidden', 'new_value' => Bool];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "channelAdminLogEventActionTogglePreHistoryHidden", "new_value": Bool}
-```
-
 
 Or, if you're into Lua:
 

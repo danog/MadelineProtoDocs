@@ -27,12 +27,6 @@ Message action chat add user
 $messageActionChatAddUser = ['_' => 'messageActionChatAddUser', 'users' => [int, int]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageActionChatAddUser", "users": [int]}
-```
-
 
 Or, if you're into Lua:
 

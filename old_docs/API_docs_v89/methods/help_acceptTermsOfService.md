@@ -37,30 +37,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->help->acceptTermsOfService(['id' => DataJSON, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - help.acceptTermsOfService
-* params - `{"id": DataJSON, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/help.acceptTermsOfService`
-
-Parameters:
-
-id - Json encoded DataJSON
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

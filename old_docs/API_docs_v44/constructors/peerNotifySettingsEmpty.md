@@ -22,12 +22,6 @@ Empty peer notify settings
 $peerNotifySettingsEmpty = ['_' => 'peerNotifySettingsEmpty'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "peerNotifySettingsEmpty"}
-```
-
 
 Or, if you're into Lua:
 

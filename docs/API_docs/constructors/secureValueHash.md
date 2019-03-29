@@ -28,12 +28,6 @@ Secure value hash
 $secureValueHash = ['_' => 'secureValueHash', 'type' => SecureValueType, 'hash' => 'bytes'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "secureValueHash", "type": SecureValueType, "hash": {"_": "bytes", "bytes":"base64 encoded bytes"}}
-```
-
 
 Or, if you're into Lua:
 

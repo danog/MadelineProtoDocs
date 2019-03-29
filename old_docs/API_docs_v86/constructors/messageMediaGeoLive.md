@@ -28,12 +28,6 @@ Message media geo live
 $messageMediaGeoLive = ['_' => 'messageMediaGeoLive', 'geo' => GeoPoint, 'period' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageMediaGeoLive", "geo": GeoPoint, "period": int}
-```
-
 
 Or, if you're into Lua:
 

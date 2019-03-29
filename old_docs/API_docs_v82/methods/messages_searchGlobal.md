@@ -41,29 +41,6 @@ $MadelineProto->start();
 $messages_Messages = $MadelineProto->messages->searchGlobal(['q' => 'string', 'offset_date' => int, 'offset_peer' => InputPeer, 'offset_id' => int, 'limit' => int, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.searchGlobal`
-
-Parameters:
-
-q - Json encoded string
-
-offset_date - Json encoded int
-
-offset_peer - Json encoded InputPeer
-
-offset_id - Json encoded int
-
-limit - Json encoded int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

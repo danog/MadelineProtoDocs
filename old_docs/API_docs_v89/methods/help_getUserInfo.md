@@ -37,30 +37,6 @@ $MadelineProto->start();
 $help_UserInfo = $MadelineProto->help->getUserInfo(['user_id' => InputUser, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - help.getUserInfo
-* params - `{"user_id": InputUser, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/help.getUserInfo`
-
-Parameters:
-
-user_id - Json encoded InputUser
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

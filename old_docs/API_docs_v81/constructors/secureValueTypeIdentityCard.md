@@ -22,12 +22,6 @@ Secure value type IDentity card
 $secureValueTypeIdentityCard = ['_' => 'secureValueTypeIdentityCard'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "secureValueTypeIdentityCard"}
-```
-
 
 Or, if you're into Lua:
 

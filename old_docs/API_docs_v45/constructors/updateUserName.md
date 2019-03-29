@@ -30,12 +30,6 @@ Update user name
 $updateUserName = ['_' => 'updateUserName', 'user_id' => int, 'first_name' => 'string', 'last_name' => 'string', 'username' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateUserName", "user_id": int, "first_name": "string", "last_name": "string", "username": "string"}
-```
-
 
 Or, if you're into Lua:
 

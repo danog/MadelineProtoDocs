@@ -29,12 +29,6 @@ Empty channel difference
 $updates_channelDifferenceEmpty = ['_' => 'updates.channelDifferenceEmpty', 'final' => Bool, 'pts' => int, 'timeout' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updates.channelDifferenceEmpty", "final": Bool, "pts": int, "timeout": int}
-```
-
 
 Or, if you're into Lua:
 

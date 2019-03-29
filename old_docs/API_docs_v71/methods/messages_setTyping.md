@@ -38,32 +38,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->setTyping(['peer' => InputPeer, 'action' => SendMessageAction, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.setTyping
-* params - `{"peer": InputPeer, "action": SendMessageAction, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.setTyping`
-
-Parameters:
-
-peer - Json encoded InputPeer
-
-action - Json encoded SendMessageAction
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

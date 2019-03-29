@@ -37,12 +37,6 @@ Password
 $account_password = ['_' => 'account.password', 'has_recovery' => Bool, 'has_secure_values' => Bool, 'has_password' => Bool, 'current_algo' => PasswordKdfAlgo, 'srp_B' => 'bytes', 'srp_id' => long, 'hint' => 'string', 'email_unconfirmed_pattern' => 'string', 'new_algo' => PasswordKdfAlgo, 'new_secure_algo' => SecurePasswordKdfAlgo, 'secure_random' => 'bytes'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "account.password", "has_recovery": Bool, "has_secure_values": Bool, "has_password": Bool, "current_algo": PasswordKdfAlgo, "srp_B": {"_": "bytes", "bytes":"base64 encoded bytes"}, "srp_id": long, "hint": "string", "email_unconfirmed_pattern": "string", "new_algo": PasswordKdfAlgo, "new_secure_algo": SecurePasswordKdfAlgo, "secure_random": {"_": "bytes", "bytes":"base64 encoded bytes"}}
-```
-
 
 Or, if you're into Lua:
 

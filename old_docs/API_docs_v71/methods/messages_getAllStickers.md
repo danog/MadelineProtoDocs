@@ -37,21 +37,6 @@ $MadelineProto->start();
 $messages_AllStickers = $MadelineProto->messages->getAllStickers(['hash' => [int, int], ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.getAllStickers`
-
-Parameters:
-
-hash - Json encoded  array of int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

@@ -30,12 +30,6 @@ Dialog
 $dialog = ['_' => 'dialog', 'peer' => Peer, 'top_message' => int, 'unread_count' => int, 'notify_settings' => PeerNotifySettings];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "dialog", "peer": Peer, "top_message": int, "unread_count": int, "notify_settings": PeerNotifySettings}
-```
-
 
 Or, if you're into Lua:
 

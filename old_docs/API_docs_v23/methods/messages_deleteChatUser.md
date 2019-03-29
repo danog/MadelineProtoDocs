@@ -38,32 +38,6 @@ $MadelineProto->start();
 $messages_StatedMessage = $MadelineProto->messages->deleteChatUser(['chat_id' => InputPeer, 'user_id' => InputUser, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.deleteChatUser
-* params - `{"chat_id": InputPeer, "user_id": InputUser, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.deleteChatUser`
-
-Parameters:
-
-chat_id - Json encoded InputPeer
-
-user_id - Json encoded InputUser
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

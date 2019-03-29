@@ -39,34 +39,6 @@ $MadelineProto->start();
 $messages_FoundStickerSets = $MadelineProto->messages->searchStickerSets(['exclude_featured' => Bool, 'q' => 'string', 'hash' => [int, int], ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.searchStickerSets
-* params - `{"exclude_featured": Bool, "q": "string", "hash": [int], }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.searchStickerSets`
-
-Parameters:
-
-exclude_featured - Json encoded Bool
-
-q - Json encoded string
-
-hash - Json encoded  array of int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

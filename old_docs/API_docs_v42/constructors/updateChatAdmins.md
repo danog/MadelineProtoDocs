@@ -29,12 +29,6 @@ Update chat admins
 $updateChatAdmins = ['_' => 'updateChatAdmins', 'chat_id' => int, 'enabled' => Bool, 'version' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateChatAdmins", "chat_id": int, "enabled": Bool, "version": int}
-```
-
 
 Or, if you're into Lua:
 

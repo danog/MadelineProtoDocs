@@ -22,12 +22,6 @@ Auth code type: call
 $auth_codeTypeCall = ['_' => 'auth.codeTypeCall'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "auth.codeTypeCall"}
-```
-
 
 Or, if you're into Lua:
 

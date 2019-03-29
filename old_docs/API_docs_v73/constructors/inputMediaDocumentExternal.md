@@ -29,12 +29,6 @@ Media document external
 $inputMediaDocumentExternal = ['_' => 'inputMediaDocumentExternal', 'url' => 'string', 'caption' => 'string', 'ttl_seconds' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMediaDocumentExternal", "url": "string", "caption": "string", "ttl_seconds": int}
-```
-
 
 Or, if you're into Lua:
 

@@ -28,12 +28,6 @@ Rpc error
 $rpc_error = ['_' => 'rpc_error', 'error_code' => int, 'error_message' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "rpc_error", "error_code": int, "error_message": "string"}
-```
-
 
 Or, if you're into Lua:
 

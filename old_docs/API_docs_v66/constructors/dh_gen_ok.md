@@ -29,12 +29,6 @@ Dh gen ok
 $dh_gen_ok = ['_' => 'dh_gen_ok', 'nonce' => int128, 'server_nonce' => int128, 'new_nonce_hash1' => int128];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "dh_gen_ok", "nonce": int128, "server_nonce": int128, "new_nonce_hash1": int128}
-```
-
 
 Or, if you're into Lua:
 

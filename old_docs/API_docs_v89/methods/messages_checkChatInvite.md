@@ -37,21 +37,6 @@ $MadelineProto->start();
 $ChatInvite = $MadelineProto->messages->checkChatInvite(['hash' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.checkChatInvite`
-
-Parameters:
-
-hash - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

@@ -27,12 +27,6 @@ Invisible anchor on a page which can be used in a URL to open a page from the sp
 $pageBlockAnchor = ['_' => 'pageBlockAnchor', 'name' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageBlockAnchor", "name": "string"}
-```
-
 
 Or, if you're into Lua:
 

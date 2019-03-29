@@ -27,12 +27,6 @@ Bot inline message media auto
 $inputBotInlineMessageMediaAuto = ['_' => 'inputBotInlineMessageMediaAuto', 'caption' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputBotInlineMessageMediaAuto", "caption": "string"}
-```
-
 
 Or, if you're into Lua:
 

@@ -27,12 +27,6 @@ Notify geo chat peer
 $inputNotifyGeoChatPeer = ['_' => 'inputNotifyGeoChatPeer', 'peer' => InputGeoChat];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputNotifyGeoChatPeer", "peer": InputGeoChat}
-```
-
 
 Or, if you're into Lua:
 

@@ -30,12 +30,6 @@ Wall paper solid
 $wallPaperSolid = ['_' => 'wallPaperSolid', 'id' => int, 'title' => 'string', 'bg_color' => int, 'color' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "wallPaperSolid", "id": int, "title": "string", "bg_color": int, "color": int}
-```
-
 
 Or, if you're into Lua:
 

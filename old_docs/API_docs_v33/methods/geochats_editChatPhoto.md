@@ -38,32 +38,6 @@ $MadelineProto->start();
 $geochats_StatedMessage = $MadelineProto->geochats->editChatPhoto(['peer' => InputGeoChat, 'photo' => InputChatPhoto, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - geochats.editChatPhoto
-* params - `{"peer": InputGeoChat, "photo": InputChatPhoto, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/geochats.editChatPhoto`
-
-Parameters:
-
-peer - Json encoded InputGeoChat
-
-photo - Json encoded InputChatPhoto
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

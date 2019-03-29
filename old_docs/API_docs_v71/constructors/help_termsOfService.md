@@ -27,12 +27,6 @@ Terms of service
 $help_termsOfService = ['_' => 'help.termsOfService', 'text' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "help.termsOfService", "text": "string"}
-```
-
 
 Or, if you're into Lua:
 

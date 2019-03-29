@@ -27,12 +27,6 @@ Message action chat edit title
 $messageActionChatEditTitle = ['_' => 'messageActionChatEditTitle', 'title' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageActionChatEditTitle", "title": "string"}
-```
-
 
 Or, if you're into Lua:
 

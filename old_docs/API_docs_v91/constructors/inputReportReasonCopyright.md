@@ -22,12 +22,6 @@ Report reason copyright
 $inputReportReasonCopyright = ['_' => 'inputReportReasonCopyright'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputReportReasonCopyright"}
-```
-
 
 Or, if you're into Lua:
 

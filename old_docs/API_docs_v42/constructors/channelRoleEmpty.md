@@ -22,12 +22,6 @@ Empty channel role
 $channelRoleEmpty = ['_' => 'channelRoleEmpty'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "channelRoleEmpty"}
-```
-
 
 Or, if you're into Lua:
 

@@ -29,12 +29,6 @@ Shipping option
 $shippingOption = ['_' => 'shippingOption', 'id' => 'string', 'title' => 'string', 'prices' => [LabeledPrice, LabeledPrice]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "shippingOption", "id": "string", "title": "string", "prices": [LabeledPrice]}
-```
-
 
 Or, if you're into Lua:
 

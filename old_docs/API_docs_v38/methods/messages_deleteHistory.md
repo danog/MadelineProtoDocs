@@ -38,23 +38,6 @@ $MadelineProto->start();
 $messages_AffectedHistory = $MadelineProto->messages->deleteHistory(['peer' => InputPeer, 'offset' => int, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.deleteHistory`
-
-Parameters:
-
-peer - Json encoded InputPeer
-
-offset - Json encoded int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

@@ -22,12 +22,6 @@ Report reason child abuse
 $inputReportReasonChildAbuse = ['_' => 'inputReportReasonChildAbuse'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputReportReasonChildAbuse"}
-```
-
 
 Or, if you're into Lua:
 

@@ -37,30 +37,6 @@ $MadelineProto->start();
 $messages_ChatFull = $MadelineProto->geochats->getFullChat(['peer' => InputGeoChat, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - geochats.getFullChat
-* params - `{"peer": InputGeoChat, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/geochats.getFullChat`
-
-Parameters:
-
-peer - Json encoded InputGeoChat
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

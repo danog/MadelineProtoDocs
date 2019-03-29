@@ -40,27 +40,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->channels->createChannel(['broadcast' => Bool, 'megagroup' => Bool, 'title' => 'string', 'about' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/channels.createChannel`
-
-Parameters:
-
-broadcast - Json encoded Bool
-
-megagroup - Json encoded Bool
-
-title - Json encoded string
-
-about - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

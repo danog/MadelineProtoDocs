@@ -29,12 +29,6 @@ Update read messages contents
 $updateReadMessagesContents = ['_' => 'updateReadMessagesContents', 'messages' => [int, int], 'pts' => int, 'pts_count' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateReadMessagesContents", "messages": [int], "pts": int, "pts_count": int}
-```
-
 
 Or, if you're into Lua:
 

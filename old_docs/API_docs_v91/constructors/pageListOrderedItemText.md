@@ -28,12 +28,6 @@ Page list ordered item text
 $pageListOrderedItemText = ['_' => 'pageListOrderedItemText', 'num' => 'string', 'text' => RichText];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageListOrderedItemText", "num": "string", "text": RichText}
-```
-
 
 Or, if you're into Lua:
 

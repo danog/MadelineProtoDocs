@@ -22,12 +22,6 @@ Contacts not modified
 $contacts_contactsNotModified = ['_' => 'contacts.contactsNotModified'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "contacts.contactsNotModified"}
-```
-
 
 Or, if you're into Lua:
 

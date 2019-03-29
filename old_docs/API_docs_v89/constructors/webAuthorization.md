@@ -35,12 +35,6 @@ Web authorization
 $webAuthorization = ['_' => 'webAuthorization', 'hash' => long, 'bot_id' => int, 'domain' => 'string', 'browser' => 'string', 'platform' => 'string', 'date_created' => int, 'date_active' => int, 'ip' => 'string', 'region' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "webAuthorization", "hash": long, "bot_id": int, "domain": "string", "browser": "string", "platform": "string", "date_created": int, "date_active": int, "ip": "string", "region": "string"}
-```
-
 
 Or, if you're into Lua:
 

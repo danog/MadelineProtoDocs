@@ -27,12 +27,6 @@ Sent code type flash call
 $auth_sentCodeTypeFlashCall = ['_' => 'auth.sentCodeTypeFlashCall', 'pattern' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "auth.sentCodeTypeFlashCall", "pattern": "string"}
-```
-
 
 Or, if you're into Lua:
 

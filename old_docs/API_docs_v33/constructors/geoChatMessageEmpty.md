@@ -28,12 +28,6 @@ Empty geo chat message
 $geoChatMessageEmpty = ['_' => 'geoChatMessageEmpty', 'chat_id' => int, 'id' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "geoChatMessageEmpty", "chat_id": int, "id": int}
-```
-
 
 Or, if you're into Lua:
 

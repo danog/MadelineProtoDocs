@@ -29,12 +29,6 @@ File big
 $inputFileBig = ['_' => 'inputFileBig', 'id' => long, 'parts' => int, 'name' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputFileBig", "id": long, "parts": int, "name": "string"}
-```
-
 
 Or, if you're into Lua:
 

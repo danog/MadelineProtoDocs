@@ -27,12 +27,6 @@ Msgs state req
 $msgs_state_req = ['_' => 'msgs_state_req', 'msg_ids' => [long, long]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "msgs_state_req", "msg_ids": [long]}
-```
-
 
 Or, if you're into Lua:
 

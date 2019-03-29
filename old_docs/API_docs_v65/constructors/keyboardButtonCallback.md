@@ -28,12 +28,6 @@ Keyboard button callback
 $keyboardButtonCallback = ['_' => 'keyboardButtonCallback', 'text' => 'string', 'data' => 'bytes'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "keyboardButtonCallback", "text": "string", "data": {"_": "bytes", "bytes":"base64 encoded bytes"}}
-```
-
 
 Or, if you're into Lua:
 

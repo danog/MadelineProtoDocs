@@ -39,34 +39,6 @@ $MadelineProto->start();
 $messages_SentEncryptedMessage = $MadelineProto->messages->sendEncryptedFile(['peer' => InputEncryptedChat, 'message' => DecryptedMessage, 'file' => InputEncryptedFile, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.sendEncryptedFile
-* params - `{"peer": InputEncryptedChat, "message": DecryptedMessage, "file": InputEncryptedFile, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.sendEncryptedFile`
-
-Parameters:
-
-peer - Json encoded InputEncryptedChat
-
-message - Json encoded DecryptedMessage
-
-file - Json encoded InputEncryptedFile
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

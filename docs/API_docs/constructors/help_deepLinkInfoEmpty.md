@@ -22,12 +22,6 @@ Empty deep link info
 $help_deepLinkInfoEmpty = ['_' => 'help.deepLinkInfoEmpty'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "help.deepLinkInfoEmpty"}
-```
-
 
 Or, if you're into Lua:
 

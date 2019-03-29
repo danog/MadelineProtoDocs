@@ -22,12 +22,6 @@ Empty message action
 $messageActionEmpty = ['_' => 'messageActionEmpty'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageActionEmpty"}
-```
-
 
 Or, if you're into Lua:
 

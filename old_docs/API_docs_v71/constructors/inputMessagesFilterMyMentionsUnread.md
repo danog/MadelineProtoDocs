@@ -22,12 +22,6 @@ Messages filter my mentions unread
 $inputMessagesFilterMyMentionsUnread = ['_' => 'inputMessagesFilterMyMentionsUnread'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMessagesFilterMyMentionsUnread"}
-```
-
 
 Or, if you're into Lua:
 

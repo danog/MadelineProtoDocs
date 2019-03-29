@@ -27,12 +27,6 @@ Empty video
 $videoEmpty = ['_' => 'videoEmpty', 'id' => long];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "videoEmpty", "id": long}
-```
-
 
 Or, if you're into Lua:
 

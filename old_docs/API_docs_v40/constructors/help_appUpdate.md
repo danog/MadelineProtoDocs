@@ -30,12 +30,6 @@ App update
 $help_appUpdate = ['_' => 'help.appUpdate', 'id' => int, 'critical' => Bool, 'url' => 'string', 'text' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "help.appUpdate", "id": int, "critical": Bool, "url": "string", "text": "string"}
-```
-
 
 Or, if you're into Lua:
 

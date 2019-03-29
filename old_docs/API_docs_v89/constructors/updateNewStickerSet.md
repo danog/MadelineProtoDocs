@@ -27,12 +27,6 @@ Update new sticker set
 $updateNewStickerSet = ['_' => 'updateNewStickerSet', 'stickerset' => messages_StickerSet];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateNewStickerSet", "stickerset": messages_StickerSet}
-```
-
 
 Or, if you're into Lua:
 

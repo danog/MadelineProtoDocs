@@ -22,12 +22,6 @@ Rpc answer dropped running
 $rpc_answer_dropped_running = ['_' => 'rpc_answer_dropped_running'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "rpc_answer_dropped_running"}
-```
-
 
 Or, if you're into Lua:
 

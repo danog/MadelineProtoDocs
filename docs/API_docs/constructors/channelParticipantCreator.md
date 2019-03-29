@@ -27,12 +27,6 @@ Channel participant creator
 $channelParticipantCreator = ['_' => 'channelParticipantCreator', 'user_id' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "channelParticipantCreator", "user_id": int}
-```
-
 
 Or, if you're into Lua:
 

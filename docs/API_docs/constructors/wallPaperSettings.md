@@ -30,12 +30,6 @@ Wallpaper settings
 $wallPaperSettings = ['_' => 'wallPaperSettings', 'blur' => Bool, 'motion' => Bool, 'background_color' => int, 'intensity' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "wallPaperSettings", "blur": Bool, "motion": Bool, "background_color": int, "intensity": int}
-```
-
 
 Or, if you're into Lua:
 

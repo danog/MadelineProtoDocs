@@ -33,12 +33,6 @@ Bot inline media result
 $botInlineMediaResult = ['_' => 'botInlineMediaResult', 'id' => 'string', 'type' => 'string', 'photo' => Photo, 'document' => Document, 'title' => 'string', 'description' => 'string', 'send_message' => BotInlineMessage];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "botInlineMediaResult", "id": "string", "type": "string", "photo": Photo, "document": Document, "title": "string", "description": "string", "send_message": BotInlineMessage}
-```
-
 
 Or, if you're into Lua:
 

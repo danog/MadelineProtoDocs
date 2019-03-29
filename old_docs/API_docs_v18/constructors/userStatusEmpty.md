@@ -22,12 +22,6 @@ Empty user status
 $userStatusEmpty = ['_' => 'userStatusEmpty'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "userStatusEmpty"}
-```
-
 
 Or, if you're into Lua:
 

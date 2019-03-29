@@ -27,12 +27,6 @@ Wallpaper slug
 $inputWallPaperSlug = ['_' => 'inputWallPaperSlug', 'slug' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputWallPaperSlug", "slug": "string"}
-```
-
 
 Or, if you're into Lua:
 

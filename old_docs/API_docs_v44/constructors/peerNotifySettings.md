@@ -30,12 +30,6 @@ Peer notify settings
 $peerNotifySettings = ['_' => 'peerNotifySettings', 'mute_until' => int, 'sound' => 'string', 'show_previews' => Bool, 'events_mask' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "peerNotifySettings", "mute_until": int, "sound": "string", "show_previews": Bool, "events_mask": int}
-```
-
 
 Or, if you're into Lua:
 

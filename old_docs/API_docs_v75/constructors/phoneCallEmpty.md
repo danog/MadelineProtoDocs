@@ -27,12 +27,6 @@ Empty phone call
 $phoneCallEmpty = ['_' => 'phoneCallEmpty', 'id' => long];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "phoneCallEmpty", "id": long}
-```
-
 
 Or, if you're into Lua:
 

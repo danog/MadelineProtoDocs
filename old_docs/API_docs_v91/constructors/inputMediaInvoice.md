@@ -34,12 +34,6 @@ Media invoice
 $inputMediaInvoice = ['_' => 'inputMediaInvoice', 'title' => 'string', 'description' => 'string', 'photo' => InputWebDocument, 'invoice' => Invoice, 'payload' => 'bytes', 'provider' => 'string', 'provider_data' => DataJSON, 'start_param' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMediaInvoice", "title": "string", "description": "string", "photo": InputWebDocument, "invoice": Invoice, "payload": {"_": "bytes", "bytes":"base64 encoded bytes"}, "provider": "string", "provider_data": DataJSON, "start_param": "string"}
-```
-
 
 Or, if you're into Lua:
 

@@ -37,30 +37,6 @@ $MadelineProto->start();
 $WallPaper = $MadelineProto->account->getWallPaper(['wallpaper' => InputWallPaper, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - account.getWallPaper
-* params - `{"wallpaper": InputWallPaper, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.getWallPaper`
-
-Parameters:
-
-wallpaper - Json encoded InputWallPaper
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

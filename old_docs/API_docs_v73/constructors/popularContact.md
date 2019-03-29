@@ -28,12 +28,6 @@ Popular contact
 $popularContact = ['_' => 'popularContact', 'client_id' => long, 'importers' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "popularContact", "client_id": long, "importers": int}
-```
-
 
 Or, if you're into Lua:
 

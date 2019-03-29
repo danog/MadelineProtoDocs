@@ -42,40 +42,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->sendMultiMedia(['silent' => Bool, 'background' => Bool, 'clear_draft' => Bool, 'peer' => InputPeer, 'reply_to_msg_id' => int, 'multi_media' => [InputSingleMedia, InputSingleMedia], ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.sendMultiMedia
-* params - `{"silent": Bool, "background": Bool, "clear_draft": Bool, "peer": InputPeer, "reply_to_msg_id": int, "multi_media": [InputSingleMedia], }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.sendMultiMedia`
-
-Parameters:
-
-silent - Json encoded Bool
-
-background - Json encoded Bool
-
-clear_draft - Json encoded Bool
-
-peer - Json encoded InputPeer
-
-reply_to_msg_id - Json encoded int
-
-multi_media - Json encoded  array of InputSingleMedia
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

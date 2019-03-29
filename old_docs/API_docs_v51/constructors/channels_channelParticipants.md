@@ -29,12 +29,6 @@ Channel participants
 $channels_channelParticipants = ['_' => 'channels.channelParticipants', 'count' => int, 'participants' => [ChannelParticipant, ChannelParticipant], 'users' => [User, User]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "channels.channelParticipants", "count": int, "participants": [ChannelParticipant], "users": [User]}
-```
-
 
 Or, if you're into Lua:
 

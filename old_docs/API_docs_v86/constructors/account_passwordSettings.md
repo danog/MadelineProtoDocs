@@ -28,12 +28,6 @@ Password settings
 $account_passwordSettings = ['_' => 'account.passwordSettings', 'email' => 'string', 'secure_settings' => SecureSecretSettings];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "account.passwordSettings", "email": "string", "secure_settings": SecureSecretSettings}
-```
-
 
 Or, if you're into Lua:
 

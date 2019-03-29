@@ -22,12 +22,6 @@ Peer notify events all
 $inputPeerNotifyEventsAll = ['_' => 'inputPeerNotifyEventsAll'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputPeerNotifyEventsAll"}
-```
-
 
 Or, if you're into Lua:
 

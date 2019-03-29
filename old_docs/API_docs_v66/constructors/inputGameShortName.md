@@ -28,12 +28,6 @@ Game short name
 $inputGameShortName = ['_' => 'inputGameShortName', 'bot_id' => InputUser, 'short_name' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputGameShortName", "bot_id": InputUser, "short_name": "string"}
-```
-
 
 Or, if you're into Lua:
 

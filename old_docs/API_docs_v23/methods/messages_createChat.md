@@ -38,23 +38,6 @@ $MadelineProto->start();
 $messages_StatedMessage = $MadelineProto->messages->createChat(['users' => [InputUser, InputUser], 'title' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.createChat`
-
-Parameters:
-
-users - Json encoded  array of InputUser
-
-title - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

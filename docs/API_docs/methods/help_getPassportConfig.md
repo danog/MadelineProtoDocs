@@ -37,30 +37,6 @@ $MadelineProto->start();
 $help_PassportConfig = $MadelineProto->help->getPassportConfig(['hash' => [int, int], ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - help.getPassportConfig
-* params - `{"hash": [int], }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/help.getPassportConfig`
-
-Parameters:
-
-hash - Json encoded  array of int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

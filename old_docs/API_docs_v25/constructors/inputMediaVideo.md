@@ -27,12 +27,6 @@ Media video
 $inputMediaVideo = ['_' => 'inputMediaVideo', 'id' => InputVideo];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMediaVideo", "id": InputVideo}
-```
-
 
 Or, if you're into Lua:
 

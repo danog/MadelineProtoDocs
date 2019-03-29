@@ -28,12 +28,6 @@ Pong
 $pong = ['_' => 'pong', 'msg_id' => long, 'ping_id' => long];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pong", "msg_id": long, "ping_id": long}
-```
-
 
 Or, if you're into Lua:
 

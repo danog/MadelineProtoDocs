@@ -28,12 +28,6 @@ Update dialog unread mark
 $updateDialogUnreadMark = ['_' => 'updateDialogUnreadMark', 'unread' => Bool, 'peer' => DialogPeer];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateDialogUnreadMark", "unread": Bool, "peer": DialogPeer}
-```
-
 
 Or, if you're into Lua:
 

@@ -22,12 +22,6 @@ Joined participant
 $channelAdminLogEventActionParticipantJoin = ['_' => 'channelAdminLogEventActionParticipantJoin'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "channelAdminLogEventActionParticipantJoin"}
-```
-
 
 Or, if you're into Lua:
 

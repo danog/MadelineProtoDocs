@@ -38,23 +38,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->reorderPinnedDialogs(['force' => Bool, 'order' => [InputDialogPeer, InputDialogPeer], ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.reorderPinnedDialogs`
-
-Parameters:
-
-force - Json encoded Bool
-
-order - Json encoded  array of InputDialogPeer
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

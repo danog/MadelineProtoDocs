@@ -27,12 +27,6 @@ Empty draft message
 $draftMessageEmpty = ['_' => 'draftMessageEmpty', 'date' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "draftMessageEmpty", "date": int}
-```
-
 
 Or, if you're into Lua:
 

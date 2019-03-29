@@ -22,12 +22,6 @@ Messages filter music
 $inputMessagesFilterMusic = ['_' => 'inputMessagesFilterMusic'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMessagesFilterMusic"}
-```
-
 
 Or, if you're into Lua:
 

@@ -39,25 +39,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->channels->reportSpam(['channel' => InputChannel, 'user_id' => InputUser, 'id' => [int, int], ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/channels.reportSpam`
-
-Parameters:
-
-channel - Json encoded InputChannel
-
-user_id - Json encoded InputUser
-
-id - Json encoded  array of int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

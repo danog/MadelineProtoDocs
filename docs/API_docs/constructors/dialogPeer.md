@@ -27,12 +27,6 @@ Dialog peer
 $dialogPeer = ['_' => 'dialogPeer', 'peer' => Peer];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "dialogPeer", "peer": Peer}
-```
-
 
 Or, if you're into Lua:
 

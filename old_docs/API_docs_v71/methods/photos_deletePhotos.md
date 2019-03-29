@@ -37,21 +37,6 @@ $MadelineProto->start();
 $Vector_of_long = $MadelineProto->photos->deletePhotos(['id' => [InputPhoto, InputPhoto], ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/photos.deletePhotos`
-
-Parameters:
-
-id - Json encoded  array of InputPhoto
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

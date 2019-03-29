@@ -28,12 +28,6 @@ Message action secure values sent me
 $messageActionSecureValuesSentMe = ['_' => 'messageActionSecureValuesSentMe', 'values' => [SecureValue, SecureValue], 'credentials' => SecureCredentialsEncrypted];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageActionSecureValuesSentMe", "values": [SecureValue], "credentials": SecureCredentialsEncrypted}
-```
-
 
 Or, if you're into Lua:
 

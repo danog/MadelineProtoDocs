@@ -30,12 +30,6 @@ Bot inline message text
 $inputBotInlineMessageText = ['_' => 'inputBotInlineMessageText', 'no_webpage' => Bool, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity], 'reply_markup' => ReplyMarkup];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputBotInlineMessageText", "no_webpage": Bool, "message": "string", "entities": [MessageEntity], "reply_markup": ReplyMarkup}
-```
-
 
 Or, if you're into Lua:
 

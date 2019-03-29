@@ -38,23 +38,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->reportPeer(['peer' => InputPeer, 'reason' => ReportReason, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.reportPeer`
-
-Parameters:
-
-peer - Json encoded InputPeer
-
-reason - Json encoded ReportReason
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

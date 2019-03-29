@@ -27,12 +27,6 @@ CDN configuration
 $cdnConfig = ['_' => 'cdnConfig', 'public_keys' => [CdnPublicKey, CdnPublicKey]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "cdnConfig", "public_keys": [CdnPublicKey]}
-```
-
 
 Or, if you're into Lua:
 

@@ -27,12 +27,6 @@ Text underline
 $textUnderline = ['_' => 'textUnderline', 'text' => RichText];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "textUnderline", "text": RichText}
-```
-
 
 Or, if you're into Lua:
 

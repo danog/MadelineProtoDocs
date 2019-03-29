@@ -22,12 +22,6 @@ Update read featured stickers
 $updateReadFeaturedStickers = ['_' => 'updateReadFeaturedStickers'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateReadFeaturedStickers"}
-```
-
 
 Or, if you're into Lua:
 

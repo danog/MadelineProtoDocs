@@ -29,12 +29,6 @@ Chat forbidden
 $chatForbidden = ['_' => 'chatForbidden', 'id' => int, 'title' => 'string', 'date' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "chatForbidden", "id": int, "title": "string", "date": int}
-```
-
 
 Or, if you're into Lua:
 

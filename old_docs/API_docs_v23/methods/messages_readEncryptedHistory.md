@@ -38,32 +38,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->readEncryptedHistory(['peer' => InputEncryptedChat, 'max_date' => int, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.readEncryptedHistory
-* params - `{"peer": InputEncryptedChat, "max_date": int, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.readEncryptedHistory`
-
-Parameters:
-
-peer - Json encoded InputEncryptedChat
-
-max_date - Json encoded int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

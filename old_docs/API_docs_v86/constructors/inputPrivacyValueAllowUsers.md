@@ -27,12 +27,6 @@ Privacy value allow users
 $inputPrivacyValueAllowUsers = ['_' => 'inputPrivacyValueAllowUsers', 'users' => [InputUser, InputUser]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputPrivacyValueAllowUsers", "users": [InputUser]}
-```
-
 
 Or, if you're into Lua:
 

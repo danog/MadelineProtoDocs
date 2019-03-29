@@ -28,12 +28,6 @@ Update channel available messages
 $updateChannelAvailableMessages = ['_' => 'updateChannelAvailableMessages', 'channel_id' => int, 'available_min_id' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateChannelAvailableMessages", "channel_id": int, "available_min_id": int}
-```
-
 
 Or, if you're into Lua:
 

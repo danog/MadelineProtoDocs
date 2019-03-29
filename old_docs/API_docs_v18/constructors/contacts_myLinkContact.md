@@ -22,12 +22,6 @@ My link contact
 $contacts_myLinkContact = ['_' => 'contacts.myLinkContact'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "contacts.myLinkContact"}
-```
-
 
 Or, if you're into Lua:
 

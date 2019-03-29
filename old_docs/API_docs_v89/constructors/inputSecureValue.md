@@ -34,12 +34,6 @@ Secure value
 $inputSecureValue = ['_' => 'inputSecureValue', 'type' => SecureValueType, 'data' => SecureData, 'front_side' => InputSecureFile, 'reverse_side' => InputSecureFile, 'selfie' => InputSecureFile, 'translation' => [InputSecureFile, InputSecureFile], 'files' => [InputSecureFile, InputSecureFile], 'plain_data' => SecurePlainData];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputSecureValue", "type": SecureValueType, "data": SecureData, "front_side": InputSecureFile, "reverse_side": InputSecureFile, "selfie": InputSecureFile, "translation": [InputSecureFile], "files": [InputSecureFile], "plain_data": SecurePlainData}
-```
-
 
 Or, if you're into Lua:
 

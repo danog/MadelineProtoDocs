@@ -28,12 +28,6 @@ Found sticker sets
 $messages_foundStickerSets = ['_' => 'messages.foundStickerSets', 'hash' => int, 'sets' => [StickerSetCovered, StickerSetCovered]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messages.foundStickerSets", "hash": int, "sets": [StickerSetCovered]}
-```
-
 
 Or, if you're into Lua:
 

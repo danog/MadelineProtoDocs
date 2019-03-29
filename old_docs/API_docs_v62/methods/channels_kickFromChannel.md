@@ -39,34 +39,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->channels->kickFromChannel(['channel' => InputChannel, 'user_id' => InputUser, 'kicked' => Bool, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - channels.kickFromChannel
-* params - `{"channel": InputChannel, "user_id": InputUser, "kicked": Bool, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/channels.kickFromChannel`
-
-Parameters:
-
-channel - Json encoded InputChannel
-
-user_id - Json encoded InputUser
-
-kicked - Json encoded Bool
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

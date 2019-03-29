@@ -28,12 +28,6 @@ Reply keyboard force reply
 $replyKeyboardForceReply = ['_' => 'replyKeyboardForceReply', 'single_use' => Bool, 'selective' => Bool];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "replyKeyboardForceReply", "single_use": Bool, "selective": Bool}
-```
-
 
 Or, if you're into Lua:
 

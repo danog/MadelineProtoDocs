@@ -27,12 +27,6 @@ Keyboard button request geo location
 $keyboardButtonRequestGeoLocation = ['_' => 'keyboardButtonRequestGeoLocation', 'text' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "keyboardButtonRequestGeoLocation", "text": "string"}
-```
-
 
 Or, if you're into Lua:
 

@@ -22,12 +22,6 @@ Message action chat activate
 $messageActionChatActivate = ['_' => 'messageActionChatActivate'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageActionChatActivate"}
-```
-
 
 Or, if you're into Lua:
 

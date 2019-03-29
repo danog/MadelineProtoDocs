@@ -27,12 +27,6 @@ Channel participants search
 $channelParticipantsSearch = ['_' => 'channelParticipantsSearch', 'q' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "channelParticipantsSearch", "q": "string"}
-```
-
 
 Or, if you're into Lua:
 

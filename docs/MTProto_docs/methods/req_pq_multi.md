@@ -37,30 +37,6 @@ $MadelineProto->start();
 $ResPQ = $MadelineProto->req_pq_multi(['nonce' => int128, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - req_pq_multi
-* params - `{"nonce": int128, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/req_pq_multi`
-
-Parameters:
-
-nonce - Json encoded int128
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

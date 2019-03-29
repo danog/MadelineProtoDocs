@@ -22,12 +22,6 @@ Secure value type email
 $secureValueTypeEmail = ['_' => 'secureValueTypeEmail'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "secureValueTypeEmail"}
-```
-
 
 Or, if you're into Lua:
 

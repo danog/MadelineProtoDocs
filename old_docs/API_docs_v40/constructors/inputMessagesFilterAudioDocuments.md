@@ -22,12 +22,6 @@ Messages filter audio documents
 $inputMessagesFilterAudioDocuments = ['_' => 'inputMessagesFilterAudioDocuments'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMessagesFilterAudioDocuments"}
-```
-
 
 Or, if you're into Lua:
 

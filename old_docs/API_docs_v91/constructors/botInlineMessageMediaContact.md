@@ -31,12 +31,6 @@ Bot inline message media contact
 $botInlineMessageMediaContact = ['_' => 'botInlineMessageMediaContact', 'phone_number' => 'string', 'first_name' => 'string', 'last_name' => 'string', 'vcard' => 'string', 'reply_markup' => ReplyMarkup];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "botInlineMessageMediaContact", "phone_number": "string", "first_name": "string", "last_name": "string", "vcard": "string", "reply_markup": ReplyMarkup}
-```
-
 
 Or, if you're into Lua:
 

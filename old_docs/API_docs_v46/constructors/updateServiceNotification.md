@@ -30,12 +30,6 @@ Update service notification
 $updateServiceNotification = ['_' => 'updateServiceNotification', 'type' => 'string', 'message_text' => 'string', 'media' => MessageMedia, 'popup' => Bool];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateServiceNotification", "type": "string", "message_text": "string", "media": MessageMedia, "popup": Bool}
-```
-
 
 Or, if you're into Lua:
 

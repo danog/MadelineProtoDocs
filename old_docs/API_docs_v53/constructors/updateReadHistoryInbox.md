@@ -30,12 +30,6 @@ Update read history inbox
 $updateReadHistoryInbox = ['_' => 'updateReadHistoryInbox', 'peer' => Peer, 'max_id' => int, 'pts' => int, 'pts_count' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateReadHistoryInbox", "peer": Peer, "max_id": int, "pts": int, "pts_count": int}
-```
-
 
 Or, if you're into Lua:
 

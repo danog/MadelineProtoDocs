@@ -28,12 +28,6 @@ Wallpapers
 $account_wallPapers = ['_' => 'account.wallPapers', 'hash' => int, 'wallpapers' => [WallPaper, WallPaper]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "account.wallPapers", "hash": int, "wallpapers": [WallPaper]}
-```
-
 
 Or, if you're into Lua:
 

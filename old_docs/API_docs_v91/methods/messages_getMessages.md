@@ -37,30 +37,6 @@ $MadelineProto->start();
 $messages_Messages = $MadelineProto->messages->getMessages(['id' => [InputMessage, InputMessage], ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.getMessages
-* params - `{"id": [InputMessage], }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.getMessages`
-
-Parameters:
-
-id - Json encoded  array of InputMessage
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

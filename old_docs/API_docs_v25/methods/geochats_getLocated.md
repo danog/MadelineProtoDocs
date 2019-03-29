@@ -39,34 +39,6 @@ $MadelineProto->start();
 $geochats_Located = $MadelineProto->geochats->getLocated(['geo_point' => InputGeoPoint, 'radius' => int, 'limit' => int, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - geochats.getLocated
-* params - `{"geo_point": InputGeoPoint, "radius": int, "limit": int, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/geochats.getLocated`
-
-Parameters:
-
-geo_point - Json encoded InputGeoPoint
-
-radius - Json encoded int
-
-limit - Json encoded int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

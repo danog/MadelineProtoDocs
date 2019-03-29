@@ -29,12 +29,6 @@ Bot inline message media auto
 $botInlineMessageMediaAuto = ['_' => 'botInlineMessageMediaAuto', 'message' => 'string', 'entities' => [MessageEntity, MessageEntity], 'reply_markup' => ReplyMarkup];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "botInlineMessageMediaAuto", "message": "string", "entities": [MessageEntity], "reply_markup": ReplyMarkup}
-```
-
 
 Or, if you're into Lua:
 

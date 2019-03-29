@@ -37,21 +37,6 @@ $MadelineProto->start();
 $account_PrivacyRules = $MadelineProto->account->getPrivacy(['key' => InputPrivacyKey, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.getPrivacy`
-
-Parameters:
-
-key - Json encoded InputPrivacyKey
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

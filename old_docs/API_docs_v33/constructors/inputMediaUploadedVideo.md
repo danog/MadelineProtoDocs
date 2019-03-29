@@ -31,12 +31,6 @@ Media uploaded video
 $inputMediaUploadedVideo = ['_' => 'inputMediaUploadedVideo', 'file' => InputFile, 'duration' => int, 'w' => int, 'h' => int, 'caption' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMediaUploadedVideo", "file": InputFile, "duration": int, "w": int, "h": int, "caption": "string"}
-```
-
 
 Or, if you're into Lua:
 

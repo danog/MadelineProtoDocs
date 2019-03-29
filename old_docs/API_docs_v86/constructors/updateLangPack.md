@@ -27,12 +27,6 @@ Update lang pack
 $updateLangPack = ['_' => 'updateLangPack', 'difference' => LangPackDifference];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateLangPack", "difference": LangPackDifference}
-```
-
 
 Or, if you're into Lua:
 

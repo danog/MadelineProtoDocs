@@ -22,12 +22,6 @@ Privacy value allow contacts
 $inputPrivacyValueAllowContacts = ['_' => 'inputPrivacyValueAllowContacts'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputPrivacyValueAllowContacts"}
-```
-
 
 Or, if you're into Lua:
 

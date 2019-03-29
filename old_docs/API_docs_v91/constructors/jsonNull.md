@@ -22,12 +22,6 @@ Json null
 $jsonNull = ['_' => 'jsonNull'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "jsonNull"}
-```
-
 
 Or, if you're into Lua:
 

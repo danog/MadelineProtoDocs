@@ -27,12 +27,6 @@ Takeout
 $account_takeout = ['_' => 'account.takeout', 'id' => long];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "account.takeout", "id": long}
-```
-
 
 Or, if you're into Lua:
 

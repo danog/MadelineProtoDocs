@@ -37,30 +37,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->setContactSignUpNotification(['silent' => Bool, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - account.setContactSignUpNotification
-* params - `{"silent": Bool, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.setContactSignUpNotification`
-
-Parameters:
-
-silent - Json encoded Bool
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

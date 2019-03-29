@@ -22,12 +22,6 @@ Empty bot info
 $botInfoEmpty = ['_' => 'botInfoEmpty'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "botInfoEmpty"}
-```
-
 
 Or, if you're into Lua:
 

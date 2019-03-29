@@ -22,12 +22,6 @@ Secure password kdf algo unknown
 $securePasswordKdfAlgoUnknown = ['_' => 'securePasswordKdfAlgoUnknown'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "securePasswordKdfAlgoUnknown"}
-```
-
 
 Or, if you're into Lua:
 

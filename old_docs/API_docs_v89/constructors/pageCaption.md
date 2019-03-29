@@ -28,12 +28,6 @@ Page caption
 $pageCaption = ['_' => 'pageCaption', 'text' => RichText, 'credit' => RichText];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageCaption", "text": RichText, "credit": RichText}
-```
-
 
 Or, if you're into Lua:
 

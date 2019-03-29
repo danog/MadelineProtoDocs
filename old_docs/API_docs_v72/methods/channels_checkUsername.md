@@ -38,23 +38,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->channels->checkUsername(['channel' => InputChannel, 'username' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/channels.checkUsername`
-
-Parameters:
-
-channel - Json encoded InputChannel
-
-username - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

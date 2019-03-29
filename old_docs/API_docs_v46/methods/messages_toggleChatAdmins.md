@@ -38,23 +38,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->toggleChatAdmins(['chat_id' => InputPeer, 'enabled' => Bool, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.toggleChatAdmins`
-
-Parameters:
-
-chat_id - Json encoded InputPeer
-
-enabled - Json encoded Bool
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

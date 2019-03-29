@@ -28,12 +28,6 @@ Update channel read messages contents
 $updateChannelReadMessagesContents = ['_' => 'updateChannelReadMessagesContents', 'channel_id' => int, 'messages' => [int, int]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateChannelReadMessagesContents", "channel_id": int, "messages": [int]}
-```
-
 
 Or, if you're into Lua:
 

@@ -27,12 +27,6 @@ Json string
 $jsonString = ['_' => 'jsonString', 'value' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "jsonString", "value": "string"}
-```
-
 
 Or, if you're into Lua:
 

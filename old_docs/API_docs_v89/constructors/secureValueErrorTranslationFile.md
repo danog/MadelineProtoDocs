@@ -29,12 +29,6 @@ Secure value error translation file
 $secureValueErrorTranslationFile = ['_' => 'secureValueErrorTranslationFile', 'type' => SecureValueType, 'file_hash' => 'bytes', 'text' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "secureValueErrorTranslationFile", "type": SecureValueType, "file_hash": {"_": "bytes", "bytes":"base64 encoded bytes"}, "text": "string"}
-```
-
 
 Or, if you're into Lua:
 

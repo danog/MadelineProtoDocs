@@ -28,12 +28,6 @@ Update user phone
 $updateUserPhone = ['_' => 'updateUserPhone', 'user_id' => int, 'phone' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateUserPhone", "user_id": int, "phone": "string"}
-```
-
 
 Or, if you're into Lua:
 

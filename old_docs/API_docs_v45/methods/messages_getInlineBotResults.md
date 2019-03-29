@@ -39,25 +39,6 @@ $MadelineProto->start();
 $messages_BotResults = $MadelineProto->messages->getInlineBotResults(['bot' => InputUser, 'query' => 'string', 'offset' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.getInlineBotResults`
-
-Parameters:
-
-bot - Json encoded InputUser
-
-query - Json encoded string
-
-offset - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

@@ -38,23 +38,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->unregisterDevice(['token_type' => int, 'token' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.unregisterDevice`
-
-Parameters:
-
-token_type - Json encoded int
-
-token - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

@@ -28,12 +28,6 @@ Update short
 $updateShort = ['_' => 'updateShort', 'update' => Update, 'date' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateShort", "update": Update, "date": int}
-```
-
 
 Or, if you're into Lua:
 

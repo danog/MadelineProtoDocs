@@ -28,12 +28,6 @@ Message entity italic
 $messageEntityItalic = ['_' => 'messageEntityItalic', 'offset' => int, 'length' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageEntityItalic", "offset": int, "length": int}
-```
-
 
 Or, if you're into Lua:
 

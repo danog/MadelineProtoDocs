@@ -30,12 +30,6 @@ Document attribute video
 $documentAttributeVideo = ['_' => 'documentAttributeVideo', 'round_message' => Bool, 'duration' => int, 'w' => int, 'h' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "documentAttributeVideo", "round_message": Bool, "duration": int, "w": int, "h": int}
-```
-
 
 Or, if you're into Lua:
 

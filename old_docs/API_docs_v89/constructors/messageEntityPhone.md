@@ -28,12 +28,6 @@ Message entity phone
 $messageEntityPhone = ['_' => 'messageEntityPhone', 'offset' => int, 'length' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageEntityPhone", "offset": int, "length": int}
-```
-
 
 Or, if you're into Lua:
 

@@ -30,12 +30,6 @@ Page block video
 $pageBlockVideo = ['_' => 'pageBlockVideo', 'autoplay' => Bool, 'loop' => Bool, 'video_id' => long, 'caption' => PageCaption];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageBlockVideo", "autoplay": Bool, "loop": Bool, "video_id": long, "caption": PageCaption}
-```
-
 
 Or, if you're into Lua:
 

@@ -22,12 +22,6 @@ User status recently
 $userStatusRecently = ['_' => 'userStatusRecently'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "userStatusRecently"}
-```
-
 
 Or, if you're into Lua:
 

@@ -22,12 +22,6 @@ Channel role moderator
 $channelRoleModerator = ['_' => 'channelRoleModerator'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "channelRoleModerator"}
-```
-
 
 Or, if you're into Lua:
 

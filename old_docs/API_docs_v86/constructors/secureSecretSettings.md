@@ -29,12 +29,6 @@ Secure secret settings
 $secureSecretSettings = ['_' => 'secureSecretSettings', 'secure_algo' => SecurePasswordKdfAlgo, 'secure_secret' => 'bytes', 'secure_secret_id' => long];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "secureSecretSettings", "secure_algo": SecurePasswordKdfAlgo, "secure_secret": {"_": "bytes", "bytes":"base64 encoded bytes"}, "secure_secret_id": long}
-```
-
 
 Or, if you're into Lua:
 

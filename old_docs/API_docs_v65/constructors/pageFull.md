@@ -29,12 +29,6 @@ Page full
 $pageFull = ['_' => 'pageFull', 'blocks' => [PageBlock, PageBlock], 'photos' => [Photo, Photo], 'videos' => [Document, Document]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageFull", "blocks": [PageBlock], "photos": [Photo], "videos": [Document]}
-```
-
 
 Or, if you're into Lua:
 

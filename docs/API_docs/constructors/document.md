@@ -35,12 +35,6 @@ Document
 $document = ['_' => 'document', 'id' => long, 'access_hash' => long, 'file_reference' => 'bytes', 'date' => int, 'mime_type' => 'string', 'size' => int, 'thumbs' => [PhotoSize, PhotoSize], 'dc_id' => int, 'attributes' => [DocumentAttribute, DocumentAttribute]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "document", "id": long, "access_hash": long, "file_reference": {"_": "bytes", "bytes":"base64 encoded bytes"}, "date": int, "mime_type": "string", "size": int, "thumbs": [PhotoSize], "dc_id": int, "attributes": [DocumentAttribute]}
-```
-
 
 Or, if you're into Lua:
 

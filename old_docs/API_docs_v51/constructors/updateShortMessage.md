@@ -41,12 +41,6 @@ Update short message
 $updateShortMessage = ['_' => 'updateShortMessage', 'unread' => Bool, 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'silent' => Bool, 'id' => int, 'user_id' => int, 'message' => 'string', 'pts' => int, 'pts_count' => int, 'date' => int, 'fwd_from' => MessageFwdHeader, 'via_bot_id' => int, 'reply_to_msg_id' => int, 'entities' => [MessageEntity, MessageEntity]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateShortMessage", "unread": Bool, "out": Bool, "mentioned": Bool, "media_unread": Bool, "silent": Bool, "id": int, "user_id": int, "message": "string", "pts": int, "pts_count": int, "date": int, "fwd_from": MessageFwdHeader, "via_bot_id": int, "reply_to_msg_id": int, "entities": [MessageEntity]}
-```
-
 
 Or, if you're into Lua:
 

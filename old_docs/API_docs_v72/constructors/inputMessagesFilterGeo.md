@@ -22,12 +22,6 @@ Messages filter geo
 $inputMessagesFilterGeo = ['_' => 'inputMessagesFilterGeo'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMessagesFilterGeo"}
-```
-
 
 Or, if you're into Lua:
 

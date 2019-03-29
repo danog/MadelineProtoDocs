@@ -27,12 +27,6 @@ Received notify message
 $receivedNotifyMessage = ['_' => 'receivedNotifyMessage', 'id' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "receivedNotifyMessage", "id": int}
-```
-
 
 Or, if you're into Lua:
 

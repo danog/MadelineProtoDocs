@@ -27,12 +27,6 @@ Empty terms of service update
 $help_termsOfServiceUpdateEmpty = ['_' => 'help.termsOfServiceUpdateEmpty', 'expires' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "help.termsOfServiceUpdateEmpty", "expires": int}
-```
-
 
 Or, if you're into Lua:
 

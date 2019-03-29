@@ -42,12 +42,6 @@ Update short chat message
 $updateShortChatMessage = ['_' => 'updateShortChatMessage', 'unread' => Bool, 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'id' => int, 'from_id' => int, 'chat_id' => int, 'message' => 'string', 'pts' => int, 'pts_count' => int, 'date' => int, 'fwd_from_id' => Peer, 'fwd_date' => int, 'via_bot_id' => int, 'reply_to_msg_id' => int, 'entities' => [MessageEntity, MessageEntity]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateShortChatMessage", "unread": Bool, "out": Bool, "mentioned": Bool, "media_unread": Bool, "id": int, "from_id": int, "chat_id": int, "message": "string", "pts": int, "pts_count": int, "date": int, "fwd_from_id": Peer, "fwd_date": int, "via_bot_id": int, "reply_to_msg_id": int, "entities": [MessageEntity]}
-```
-
 
 Or, if you're into Lua:
 

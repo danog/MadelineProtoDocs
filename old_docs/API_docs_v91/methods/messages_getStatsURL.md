@@ -37,30 +37,6 @@ $MadelineProto->start();
 $StatsURL = $MadelineProto->messages->getStatsURL(['peer' => InputPeer, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.getStatsURL
-* params - `{"peer": InputPeer, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.getStatsURL`
-
-Parameters:
-
-peer - Json encoded InputPeer
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

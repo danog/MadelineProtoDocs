@@ -27,12 +27,6 @@ Support name
 $help_supportName = ['_' => 'help.supportName', 'name' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "help.supportName", "name": "string"}
-```
-
 
 Or, if you're into Lua:
 

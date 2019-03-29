@@ -38,23 +38,6 @@ $MadelineProto->start();
 $UserProfilePhoto = $MadelineProto->photos->updateProfilePhoto(['id' => InputPhoto, 'crop' => InputPhotoCrop, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/photos.updateProfilePhoto`
-
-Parameters:
-
-id - Json encoded InputPhoto
-
-crop - Json encoded InputPhotoCrop
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

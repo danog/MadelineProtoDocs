@@ -29,12 +29,6 @@ Poll results
 $pollResults = ['_' => 'pollResults', 'min' => Bool, 'results' => [PollAnswerVoters, PollAnswerVoters], 'total_voters' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pollResults", "min": Bool, "results": [PollAnswerVoters], "total_voters": int}
-```
-
 
 Or, if you're into Lua:
 

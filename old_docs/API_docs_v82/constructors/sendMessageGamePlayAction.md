@@ -22,12 +22,6 @@ Send message game play action
 $sendMessageGamePlayAction = ['_' => 'sendMessageGamePlayAction'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "sendMessageGamePlayAction"}
-```
-
 
 Or, if you're into Lua:
 

@@ -22,12 +22,6 @@ Messages filter round voice
 $inputMessagesFilterRoundVoice = ['_' => 'inputMessagesFilterRoundVoice'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMessagesFilterRoundVoice"}
-```
-
 
 Or, if you're into Lua:
 

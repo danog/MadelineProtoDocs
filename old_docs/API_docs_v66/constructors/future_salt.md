@@ -29,12 +29,6 @@ Future salt
 $future_salt = ['_' => 'future_salt', 'valid_since' => int, 'valid_until' => int, 'salt' => long];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "future_salt", "valid_since": int, "valid_until": int, "salt": long}
-```
-
 
 Or, if you're into Lua:
 

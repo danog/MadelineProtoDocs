@@ -22,12 +22,6 @@ Send message choose contact action
 $sendMessageChooseContactAction = ['_' => 'sendMessageChooseContactAction'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "sendMessageChooseContactAction"}
-```
-
 
 Or, if you're into Lua:
 

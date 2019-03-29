@@ -27,12 +27,6 @@ Sent code type sms
 $auth_sentCodeTypeSms = ['_' => 'auth.sentCodeTypeSms', 'length' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "auth.sentCodeTypeSms", "length": int}
-```
-
 
 Or, if you're into Lua:
 

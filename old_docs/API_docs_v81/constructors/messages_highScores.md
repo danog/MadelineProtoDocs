@@ -28,12 +28,6 @@ High scores
 $messages_highScores = ['_' => 'messages.highScores', 'scores' => [HighScore, HighScore], 'users' => [User, User]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messages.highScores", "scores": [HighScore], "users": [User]}
-```
-
 
 Or, if you're into Lua:
 

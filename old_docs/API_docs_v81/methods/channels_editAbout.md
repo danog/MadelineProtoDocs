@@ -38,32 +38,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->channels->editAbout(['channel' => InputChannel, 'about' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - channels.editAbout
-* params - `{"channel": InputChannel, "about": "string", }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/channels.editAbout`
-
-Parameters:
-
-channel - Json encoded InputChannel
-
-about - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

@@ -38,32 +38,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->markDialogUnread(['unread' => Bool, 'peer' => InputDialogPeer, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.markDialogUnread
-* params - `{"unread": Bool, "peer": InputDialogPeer, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.markDialogUnread`
-
-Parameters:
-
-unread - Json encoded Bool
-
-peer - Json encoded InputDialogPeer
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

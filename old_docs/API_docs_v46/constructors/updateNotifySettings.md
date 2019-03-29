@@ -28,12 +28,6 @@ Update notify settings
 $updateNotifySettings = ['_' => 'updateNotifySettings', 'notify_peer' => NotifyPeer, 'notify_settings' => PeerNotifySettings];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateNotifySettings", "notify_peer": NotifyPeer, "notify_settings": PeerNotifySettings}
-```
-
 
 Or, if you're into Lua:
 

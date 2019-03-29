@@ -27,12 +27,6 @@ Page list item text
 $pageListItemText = ['_' => 'pageListItemText', 'text' => RichText];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageListItemText", "text": RichText}
-```
-
 
 Or, if you're into Lua:
 

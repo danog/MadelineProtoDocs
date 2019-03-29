@@ -27,12 +27,6 @@ Single media
 $inputSingleMedia = ['_' => 'inputSingleMedia', 'media' => InputMedia];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputSingleMedia", "media": InputMedia}
-```
-
 
 Or, if you're into Lua:
 

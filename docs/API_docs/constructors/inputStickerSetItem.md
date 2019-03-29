@@ -29,12 +29,6 @@ Sticker set item
 $inputStickerSetItem = ['_' => 'inputStickerSetItem', 'document' => InputDocument, 'emoji' => 'string', 'mask_coords' => MaskCoords];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputStickerSetItem", "document": InputDocument, "emoji": "string", "mask_coords": MaskCoords}
-```
-
 
 Or, if you're into Lua:
 

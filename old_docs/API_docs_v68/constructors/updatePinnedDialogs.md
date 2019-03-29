@@ -27,12 +27,6 @@ Update pinned dialogs
 $updatePinnedDialogs = ['_' => 'updatePinnedDialogs', 'order' => [Peer, Peer]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updatePinnedDialogs", "order": [Peer]}
-```
-
 
 Or, if you're into Lua:
 

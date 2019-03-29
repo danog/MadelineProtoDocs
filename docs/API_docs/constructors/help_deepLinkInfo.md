@@ -29,12 +29,6 @@ Deep link info
 $help_deepLinkInfo = ['_' => 'help.deepLinkInfo', 'update_app' => Bool, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "help.deepLinkInfo", "update_app": Bool, "message": "string", "entities": [MessageEntity]}
-```
-
 
 Or, if you're into Lua:
 

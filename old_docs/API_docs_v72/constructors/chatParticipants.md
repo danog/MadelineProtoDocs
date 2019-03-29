@@ -29,12 +29,6 @@ Chat participants
 $chatParticipants = ['_' => 'chatParticipants', 'chat_id' => int, 'participants' => [ChatParticipant, ChatParticipant], 'version' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "chatParticipants", "chat_id": int, "participants": [ChatParticipant], "version": int}
-```
-
 
 Or, if you're into Lua:
 

@@ -30,12 +30,6 @@ Saved phone contact
 $savedPhoneContact = ['_' => 'savedPhoneContact', 'phone' => 'string', 'first_name' => 'string', 'last_name' => 'string', 'date' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "savedPhoneContact", "phone": "string", "first_name": "string", "last_name": "string", "date": int}
-```
-
 
 Or, if you're into Lua:
 

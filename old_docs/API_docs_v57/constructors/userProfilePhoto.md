@@ -29,12 +29,6 @@ User profile photo
 $userProfilePhoto = ['_' => 'userProfilePhoto', 'photo_id' => long, 'photo_small' => FileLocation, 'photo_big' => FileLocation];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "userProfilePhoto", "photo_id": long, "photo_small": FileLocation, "photo_big": FileLocation}
-```
-
 
 Or, if you're into Lua:
 

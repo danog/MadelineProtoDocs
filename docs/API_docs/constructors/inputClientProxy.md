@@ -28,12 +28,6 @@ Client proxy
 $inputClientProxy = ['_' => 'inputClientProxy', 'address' => 'string', 'port' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputClientProxy", "address": "string", "port": int}
-```
-
 
 Or, if you're into Lua:
 

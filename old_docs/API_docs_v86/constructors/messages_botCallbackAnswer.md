@@ -32,12 +32,6 @@ Bot callback answer
 $messages_botCallbackAnswer = ['_' => 'messages.botCallbackAnswer', 'alert' => Bool, 'has_url' => Bool, 'native_ui' => Bool, 'message' => 'string', 'url' => 'string', 'cache_time' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messages.botCallbackAnswer", "alert": Bool, "has_url": Bool, "native_ui": Bool, "message": "string", "url": "string", "cache_time": int}
-```
-
 
 Or, if you're into Lua:
 

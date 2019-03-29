@@ -32,28 +32,6 @@ $MadelineProto->start();
 $Vector_of_SecureValue = $MadelineProto->account->getAllSecureValues();
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - account.getAllSecureValues
-* params - `{}`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/account.getAllSecureValues`
-
-Parameters:
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

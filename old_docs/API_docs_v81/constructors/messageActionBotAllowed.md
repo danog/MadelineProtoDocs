@@ -27,12 +27,6 @@ Message action bot allowed
 $messageActionBotAllowed = ['_' => 'messageActionBotAllowed', 'domain' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageActionBotAllowed", "domain": "string"}
-```
-
 
 Or, if you're into Lua:
 

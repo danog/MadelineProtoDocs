@@ -40,12 +40,6 @@ Event filter
 $channelAdminLogEventsFilter = ['_' => 'channelAdminLogEventsFilter', 'join' => Bool, 'leave' => Bool, 'invite' => Bool, 'ban' => Bool, 'unban' => Bool, 'kick' => Bool, 'unkick' => Bool, 'promote' => Bool, 'demote' => Bool, 'info' => Bool, 'settings' => Bool, 'pinned' => Bool, 'edit' => Bool, 'delete' => Bool];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "channelAdminLogEventsFilter", "join": Bool, "leave": Bool, "invite": Bool, "ban": Bool, "unban": Bool, "kick": Bool, "unkick": Bool, "promote": Bool, "demote": Bool, "info": Bool, "settings": Bool, "pinned": Bool, "edit": Bool, "delete": Bool}
-```
-
 
 Or, if you're into Lua:
 

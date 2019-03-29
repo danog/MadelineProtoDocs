@@ -22,12 +22,6 @@ Empty decrypted message media
 $decryptedMessageMediaEmpty_8 = ['_' => 'decryptedMessageMediaEmpty'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "decryptedMessageMediaEmpty"}
-```
-
 
 Or, if you're into Lua:
 

@@ -28,12 +28,6 @@ Saved info
 $payments_savedInfo = ['_' => 'payments.savedInfo', 'has_saved_credentials' => Bool, 'saved_info' => PaymentRequestedInfo];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "payments.savedInfo", "has_saved_credentials": Bool, "saved_info": PaymentRequestedInfo}
-```
-
 
 Or, if you're into Lua:
 

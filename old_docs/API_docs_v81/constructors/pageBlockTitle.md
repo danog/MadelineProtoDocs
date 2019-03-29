@@ -27,12 +27,6 @@ Page block title
 $pageBlockTitle = ['_' => 'pageBlockTitle', 'text' => RichText];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageBlockTitle", "text": RichText}
-```
-
 
 Or, if you're into Lua:
 

@@ -38,23 +38,6 @@ $MadelineProto->start();
 $contacts_ImportedContacts = $MadelineProto->contacts->importContacts(['contacts' => [InputContact, InputContact], 'replace' => Bool, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/contacts.importContacts`
-
-Parameters:
-
-contacts - Json encoded  array of InputContact
-
-replace - Json encoded Bool
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

@@ -38,23 +38,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->phone->saveCallDebug(['peer' => InputPhoneCall, 'debug' => DataJSON, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/phone.saveCallDebug`
-
-Parameters:
-
-peer - Json encoded InputPhoneCall
-
-debug - Json encoded DataJSON
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

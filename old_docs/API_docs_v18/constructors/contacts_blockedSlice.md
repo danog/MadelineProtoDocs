@@ -29,12 +29,6 @@ Blocked slice
 $contacts_blockedSlice = ['_' => 'contacts.blockedSlice', 'count' => int, 'blocked' => [ContactBlocked, ContactBlocked], 'users' => [User, User]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "contacts.blockedSlice", "count": int, "blocked": [ContactBlocked], "users": [User]}
-```
-
 
 Or, if you're into Lua:
 

@@ -27,12 +27,6 @@ Privacy value allow users
 $privacyValueAllowUsers = ['_' => 'privacyValueAllowUsers', 'users' => [int, int]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "privacyValueAllowUsers", "users": [int]}
-```
-
 
 Or, if you're into Lua:
 

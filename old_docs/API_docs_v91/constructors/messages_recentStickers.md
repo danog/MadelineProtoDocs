@@ -30,12 +30,6 @@ Recent stickers
 $messages_recentStickers = ['_' => 'messages.recentStickers', 'hash' => int, 'packs' => [StickerPack, StickerPack], 'stickers' => [Document, Document], 'dates' => [int, int]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messages.recentStickers", "hash": int, "packs": [StickerPack], "stickers": [Document], "dates": [int]}
-```
-
 
 Or, if you're into Lua:
 

@@ -22,12 +22,6 @@ Empty geo point
 $geoPointEmpty = ['_' => 'geoPointEmpty'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "geoPointEmpty"}
-```
-
 
 Or, if you're into Lua:
 

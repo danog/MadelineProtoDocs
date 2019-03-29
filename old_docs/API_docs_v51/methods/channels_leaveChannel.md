@@ -37,30 +37,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->channels->leaveChannel(['channel' => InputChannel, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - channels.leaveChannel
-* params - `{"channel": InputChannel, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/channels.leaveChannel`
-
-Parameters:
-
-channel - Json encoded InputChannel
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

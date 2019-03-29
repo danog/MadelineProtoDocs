@@ -27,12 +27,6 @@ Send message upload audio action
 $sendMessageUploadAudioAction = ['_' => 'sendMessageUploadAudioAction', 'progress' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "sendMessageUploadAudioAction", "progress": int}
-```
-
 
 Or, if you're into Lua:
 

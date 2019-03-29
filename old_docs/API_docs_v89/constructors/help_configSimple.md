@@ -29,12 +29,6 @@ Config simple
 $help_configSimple = ['_' => 'help.configSimple', 'date' => int, 'expires' => int, 'rules' => [AccessPointRule, AccessPointRule]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "help.configSimple", "date": int, "expires": int, "rules": [AccessPointRule]}
-```
-
 
 Or, if you're into Lua:
 

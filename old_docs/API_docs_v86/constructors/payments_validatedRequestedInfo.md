@@ -28,12 +28,6 @@ Validated requested info
 $payments_validatedRequestedInfo = ['_' => 'payments.validatedRequestedInfo', 'id' => 'string', 'shipping_options' => [ShippingOption, ShippingOption]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "payments.validatedRequestedInfo", "id": "string", "shipping_options": [ShippingOption]}
-```
-
 
 Or, if you're into Lua:
 

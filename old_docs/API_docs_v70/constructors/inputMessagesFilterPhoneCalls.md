@@ -27,12 +27,6 @@ Messages filter phone calls
 $inputMessagesFilterPhoneCalls = ['_' => 'inputMessagesFilterPhoneCalls', 'missed' => Bool];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMessagesFilterPhoneCalls", "missed": Bool}
-```
-
 
 Or, if you're into Lua:
 

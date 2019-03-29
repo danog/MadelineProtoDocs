@@ -37,21 +37,6 @@ $MadelineProto->start();
 $Vector_of_int = $MadelineProto->messages->readMessageContents(['id' => [int, int], ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.readMessageContents`
-
-Parameters:
-
-id - Json encoded  array of int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

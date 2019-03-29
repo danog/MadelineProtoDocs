@@ -29,12 +29,6 @@ Media uploaded photo
 $inputMediaUploadedPhoto = ['_' => 'inputMediaUploadedPhoto', 'file' => InputFile, 'caption' => 'string', 'stickers' => [InputDocument, InputDocument]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMediaUploadedPhoto", "file": InputFile, "caption": "string", "stickers": [InputDocument]}
-```
-
 
 Or, if you're into Lua:
 

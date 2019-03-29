@@ -29,12 +29,6 @@ Single media
 $inputSingleMedia = ['_' => 'inputSingleMedia', 'media' => InputMedia, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputSingleMedia", "media": InputMedia, "message": "string", "entities": [MessageEntity]}
-```
-
 
 Or, if you're into Lua:
 

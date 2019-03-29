@@ -28,12 +28,6 @@ Recent me URL chat invite
 $recentMeUrlChatInvite = ['_' => 'recentMeUrlChatInvite', 'url' => 'string', 'chat_invite' => ChatInvite];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "recentMeUrlChatInvite", "url": "string", "chat_invite": ChatInvite}
-```
-
 
 Or, if you're into Lua:
 

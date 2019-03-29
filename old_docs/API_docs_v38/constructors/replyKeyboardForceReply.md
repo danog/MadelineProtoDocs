@@ -26,12 +26,6 @@ Reply keyboard force reply
 $replyKeyboardForceReply = ['_' => 'replyKeyboardForceReply'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "replyKeyboardForceReply"}
-```
-
 
 Or, if you're into Lua:
 

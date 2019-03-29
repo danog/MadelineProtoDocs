@@ -32,12 +32,6 @@ Update short sent message
 $updateShortSentMessage = ['_' => 'updateShortSentMessage', 'id' => int, 'pts' => int, 'pts_count' => int, 'date' => int, 'media' => MessageMedia, 'entities' => [MessageEntity, MessageEntity]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateShortSentMessage", "id": int, "pts": int, "pts_count": int, "date": int, "media": MessageMedia, "entities": [MessageEntity]}
-```
-
 
 Or, if you're into Lua:
 

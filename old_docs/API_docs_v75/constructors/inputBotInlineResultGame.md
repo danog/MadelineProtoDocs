@@ -29,12 +29,6 @@ Bot inline result game
 $inputBotInlineResultGame = ['_' => 'inputBotInlineResultGame', 'id' => 'string', 'short_name' => 'string', 'send_message' => InputBotInlineMessage];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputBotInlineResultGame", "id": "string", "short_name": "string", "send_message": InputBotInlineMessage}
-```
-
 
 Or, if you're into Lua:
 

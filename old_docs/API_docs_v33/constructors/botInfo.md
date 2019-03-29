@@ -31,12 +31,6 @@ Bot info
 $botInfo = ['_' => 'botInfo', 'user_id' => int, 'version' => int, 'share_text' => 'string', 'description' => 'string', 'commands' => [BotCommand, BotCommand]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "botInfo", "user_id": int, "version": int, "share_text": "string", "description": "string", "commands": [BotCommand]}
-```
-
 
 Or, if you're into Lua:
 

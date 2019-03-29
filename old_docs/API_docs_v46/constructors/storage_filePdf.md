@@ -22,12 +22,6 @@ File pdf
 $storage_filePdf = ['_' => 'storage.filePdf'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "storage.filePdf"}
-```
-
 
 Or, if you're into Lua:
 

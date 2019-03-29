@@ -31,12 +31,6 @@ Bot results
 $messages_botResults = ['_' => 'messages.botResults', 'gallery' => Bool, 'query_id' => long, 'next_offset' => 'string', 'switch_pm' => InlineBotSwitchPM, 'results' => [BotInlineResult, BotInlineResult]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messages.botResults", "gallery": Bool, "query_id": long, "next_offset": "string", "switch_pm": InlineBotSwitchPM, "results": [BotInlineResult]}
-```
-
 
 Or, if you're into Lua:
 

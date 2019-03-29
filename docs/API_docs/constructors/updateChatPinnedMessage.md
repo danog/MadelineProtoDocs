@@ -28,12 +28,6 @@ Update chat pinned message
 $updateChatPinnedMessage = ['_' => 'updateChatPinnedMessage', 'chat_id' => int, 'id' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateChatPinnedMessage", "chat_id": int, "id": int}
-```
-
 
 Or, if you're into Lua:
 

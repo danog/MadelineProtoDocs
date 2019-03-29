@@ -22,12 +22,6 @@ Notify all
 $notifyAll = ['_' => 'notifyAll'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "notifyAll"}
-```
-
 
 Or, if you're into Lua:
 

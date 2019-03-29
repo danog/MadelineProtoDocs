@@ -28,12 +28,6 @@ Blocked
 $contacts_blocked = ['_' => 'contacts.blocked', 'blocked' => [ContactBlocked, ContactBlocked], 'users' => [User, User]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "contacts.blocked", "blocked": [ContactBlocked], "users": [User]}
-```
-
 
 Or, if you're into Lua:
 

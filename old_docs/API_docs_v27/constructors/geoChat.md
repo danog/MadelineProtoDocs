@@ -37,12 +37,6 @@ Geo chat
 $geoChat = ['_' => 'geoChat', 'id' => int, 'access_hash' => long, 'title' => 'string', 'address' => 'string', 'venue' => 'string', 'geo' => GeoPoint, 'photo' => ChatPhoto, 'participants_count' => int, 'date' => int, 'checked_in' => Bool, 'version' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "geoChat", "id": int, "access_hash": long, "title": "string", "address": "string", "venue": "string", "geo": GeoPoint, "photo": ChatPhoto, "participants_count": int, "date": int, "checked_in": Bool, "version": int}
-```
-
 
 Or, if you're into Lua:
 

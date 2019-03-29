@@ -30,12 +30,6 @@ Messages slice
 $geochats_messagesSlice = ['_' => 'geochats.messagesSlice', 'count' => int, 'messages' => [GeoChatMessage, GeoChatMessage], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "geochats.messagesSlice", "count": int, "messages": [GeoChatMessage], "chats": [Chat], "users": [User]}
-```
-
 
 Or, if you're into Lua:
 

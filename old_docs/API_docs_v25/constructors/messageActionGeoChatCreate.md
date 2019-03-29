@@ -28,12 +28,6 @@ Message action geo chat create
 $messageActionGeoChatCreate = ['_' => 'messageActionGeoChatCreate', 'title' => 'string', 'address' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageActionGeoChatCreate", "title": "string", "address": "string"}
-```
-
 
 Or, if you're into Lua:
 

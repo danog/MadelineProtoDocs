@@ -22,12 +22,6 @@ Document attribute sticker
 $documentAttributeSticker_23 = ['_' => 'documentAttributeSticker'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "documentAttributeSticker"}
-```
-
 
 Or, if you're into Lua:
 

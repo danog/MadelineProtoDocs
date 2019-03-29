@@ -32,28 +32,6 @@ $MadelineProto->start();
 $help_SupportName = $MadelineProto->help->getSupportName();
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - help.getSupportName
-* params - `{}`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/help.getSupportName`
-
-Parameters:
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

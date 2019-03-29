@@ -38,32 +38,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->users->setSecureValueErrors(['id' => InputUser, 'errors' => [SecureValueError, SecureValueError], ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - users.setSecureValueErrors
-* params - `{"id": InputUser, "errors": [SecureValueError], }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/users.setSecureValueErrors`
-
-Parameters:
-
-id - Json encoded InputUser
-
-errors - Json encoded  array of SecureValueError
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

@@ -27,12 +27,6 @@ Decrypted message action set message ttl
 $decryptedMessageActionSetMessageTTL_8 = ['_' => 'decryptedMessageActionSetMessageTTL', 'ttl_seconds' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "decryptedMessageActionSetMessageTTL", "ttl_seconds": int}
-```
-
 
 Or, if you're into Lua:
 

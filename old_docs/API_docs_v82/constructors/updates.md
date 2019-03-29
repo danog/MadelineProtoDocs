@@ -31,12 +31,6 @@ Updates
 $updates = ['_' => 'updates', 'updates' => [Update, Update], 'users' => [User, User], 'chats' => [Chat, Chat], 'date' => int, 'seq' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updates", "updates": [Update], "users": [User], "chats": [Chat], "date": int, "seq": int}
-```
-
 
 Or, if you're into Lua:
 

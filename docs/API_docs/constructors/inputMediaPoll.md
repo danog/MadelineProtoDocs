@@ -27,12 +27,6 @@ Media poll
 $inputMediaPoll = ['_' => 'inputMediaPoll', 'poll' => Poll];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMediaPoll", "poll": Poll}
-```
-
 
 Or, if you're into Lua:
 

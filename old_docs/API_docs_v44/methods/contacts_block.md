@@ -37,21 +37,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->contacts->block(['id' => InputUser, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/contacts.block`
-
-Parameters:
-
-id - Json encoded InputUser
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

@@ -31,12 +31,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 $account_passwordInputSettings = ['_' => 'account.passwordInputSettings', 'new_algo' => PasswordKdfAlgo, 'new_password_hash' => 'bytes', 'hint' => 'string', 'email' => 'string', 'new_secure_settings' => SecureSecretSettings];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "account.passwordInputSettings", "new_algo": PasswordKdfAlgo, "new_password_hash": {"_": "bytes", "bytes":"base64 encoded bytes"}, "hint": "string", "email": "string", "new_secure_settings": SecureSecretSettings}
-```
-
 
 Or, if you're into Lua:
 

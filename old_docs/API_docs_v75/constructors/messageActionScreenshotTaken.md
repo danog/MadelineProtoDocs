@@ -22,12 +22,6 @@ Message action screenshot taken
 $messageActionScreenshotTaken = ['_' => 'messageActionScreenshotTaken'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageActionScreenshotTaken"}
-```
-
 
 Or, if you're into Lua:
 

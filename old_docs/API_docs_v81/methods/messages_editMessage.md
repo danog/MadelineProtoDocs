@@ -46,31 +46,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->editMessage(['no_webpage' => Bool, 'stop_geo_live' => Bool, 'peer' => InputPeer, 'id' => int, 'message' => 'string', 'media' => InputMedia, 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', 'geo_point' => InputGeoPoint, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.editMessage
-* params - `{"no_webpage": Bool, "stop_geo_live": Bool, "peer": InputPeer, "id": int, "message": "string", "media": InputMedia, "reply_markup": ReplyMarkup, "entities": [MessageEntity], "parse_mode": "string""geo_point": InputGeoPoint, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.editMessage`
-
-Parameters:
-
-parse_mode - string
-geo_point - Json encoded InputGeoPoint
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

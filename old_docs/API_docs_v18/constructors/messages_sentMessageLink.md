@@ -31,12 +31,6 @@ Sent message link
 $messages_sentMessageLink = ['_' => 'messages.sentMessageLink', 'id' => int, 'date' => int, 'pts' => int, 'seq' => int, 'links' => [contacts_Link, contacts_Link]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messages.sentMessageLink", "id": int, "date": int, "pts": int, "seq": int, "links": [contacts_Link]}
-```
-
 
 Or, if you're into Lua:
 

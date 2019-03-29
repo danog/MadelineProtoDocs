@@ -27,12 +27,6 @@ Page list item blocks
 $pageListItemBlocks = ['_' => 'pageListItemBlocks', 'blocks' => [PageBlock, PageBlock]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageListItemBlocks", "blocks": [PageBlock]}
-```
-
 
 Or, if you're into Lua:
 

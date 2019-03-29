@@ -22,12 +22,6 @@ Messages filter contacts
 $inputMessagesFilterContacts = ['_' => 'inputMessagesFilterContacts'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMessagesFilterContacts"}
-```
-
 
 Or, if you're into Lua:
 

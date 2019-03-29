@@ -22,12 +22,6 @@ Top peer category groups
 $topPeerCategoryGroups = ['_' => 'topPeerCategoryGroups'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "topPeerCategoryGroups"}
-```
-
 
 Or, if you're into Lua:
 

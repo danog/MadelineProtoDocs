@@ -22,12 +22,6 @@ Empty input chat
 $inputChatEmpty = ['_' => 'inputChatEmpty'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputChatEmpty"}
-```
-
 
 Or, if you're into Lua:
 

@@ -22,12 +22,6 @@ Secure value type bank statement
 $secureValueTypeBankStatement = ['_' => 'secureValueTypeBankStatement'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "secureValueTypeBankStatement"}
-```
-
 
 Or, if you're into Lua:
 

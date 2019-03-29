@@ -22,12 +22,6 @@ Rpc answer unknown
 $rpc_answer_unknown = ['_' => 'rpc_answer_unknown'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "rpc_answer_unknown"}
-```
-
 
 Or, if you're into Lua:
 

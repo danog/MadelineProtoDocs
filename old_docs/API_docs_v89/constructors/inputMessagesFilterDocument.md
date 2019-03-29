@@ -22,12 +22,6 @@ Messages filter document
 $inputMessagesFilterDocument = ['_' => 'inputMessagesFilterDocument'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMessagesFilterDocument"}
-```
-
 
 Or, if you're into Lua:
 

@@ -39,25 +39,6 @@ $MadelineProto->start();
 $messages_AffectedHistory = $MadelineProto->messages->deleteHistory(['just_clear' => Bool, 'peer' => InputPeer, 'max_id' => int, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.deleteHistory`
-
-Parameters:
-
-just_clear - Json encoded Bool
-
-peer - Json encoded InputPeer
-
-max_id - Json encoded int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

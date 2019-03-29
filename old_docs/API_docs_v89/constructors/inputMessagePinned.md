@@ -22,12 +22,6 @@ Message pinned
 $inputMessagePinned = ['_' => 'inputMessagePinned'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMessagePinned"}
-```
-
 
 Or, if you're into Lua:
 

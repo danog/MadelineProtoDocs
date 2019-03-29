@@ -22,12 +22,6 @@ Message action chat delete photo
 $messageActionChatDeletePhoto = ['_' => 'messageActionChatDeletePhoto'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messageActionChatDeletePhoto"}
-```
-
 
 Or, if you're into Lua:
 

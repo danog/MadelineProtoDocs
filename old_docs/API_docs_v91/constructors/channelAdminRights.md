@@ -36,12 +36,6 @@ Admin rights
 $channelAdminRights = ['_' => 'channelAdminRights', 'change_info' => Bool, 'post_messages' => Bool, 'edit_messages' => Bool, 'delete_messages' => Bool, 'ban_users' => Bool, 'invite_users' => Bool, 'invite_link' => Bool, 'pin_messages' => Bool, 'add_admins' => Bool, 'manage_call' => Bool];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "channelAdminRights", "change_info": Bool, "post_messages": Bool, "edit_messages": Bool, "delete_messages": Bool, "ban_users": Bool, "invite_users": Bool, "invite_link": Bool, "pin_messages": Bool, "add_admins": Bool, "manage_call": Bool}
-```
-
 
 Or, if you're into Lua:
 

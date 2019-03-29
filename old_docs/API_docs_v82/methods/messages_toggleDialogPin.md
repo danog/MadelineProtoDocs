@@ -38,23 +38,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->toggleDialogPin(['pinned' => Bool, 'peer' => InputDialogPeer, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.toggleDialogPin`
-
-Parameters:
-
-pinned - Json encoded Bool
-
-peer - Json encoded InputDialogPeer
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

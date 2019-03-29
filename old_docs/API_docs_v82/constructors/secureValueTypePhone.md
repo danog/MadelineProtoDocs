@@ -22,12 +22,6 @@ Secure value type phone
 $secureValueTypePhone = ['_' => 'secureValueTypePhone'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "secureValueTypePhone"}
-```
-
 
 Or, if you're into Lua:
 

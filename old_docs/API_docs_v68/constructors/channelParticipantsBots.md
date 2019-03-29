@@ -22,12 +22,6 @@ Channel participants bots
 $channelParticipantsBots = ['_' => 'channelParticipantsBots'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "channelParticipantsBots"}
-```
-
 
 Or, if you're into Lua:
 

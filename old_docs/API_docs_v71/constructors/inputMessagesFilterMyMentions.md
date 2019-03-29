@@ -22,12 +22,6 @@ Messages filter my mentions
 $inputMessagesFilterMyMentions = ['_' => 'inputMessagesFilterMyMentions'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMessagesFilterMyMentions"}
-```
-
 
 Or, if you're into Lua:
 

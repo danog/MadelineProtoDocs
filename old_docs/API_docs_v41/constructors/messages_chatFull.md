@@ -29,12 +29,6 @@ Chat full
 $messages_chatFull = ['_' => 'messages.chatFull', 'full_chat' => ChatFull, 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "messages.chatFull", "full_chat": ChatFull, "chats": [Chat], "users": [User]}
-```
-
 
 Or, if you're into Lua:
 

@@ -32,12 +32,6 @@ Web file geo point location
 $inputWebFileGeoPointLocation = ['_' => 'inputWebFileGeoPointLocation', 'geo_point' => InputGeoPoint, 'access_hash' => long, 'w' => int, 'h' => int, 'zoom' => int, 'scale' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputWebFileGeoPointLocation", "geo_point": InputGeoPoint, "access_hash": long, "w": int, "h": int, "zoom": int, "scale": int}
-```
-
 
 Or, if you're into Lua:
 

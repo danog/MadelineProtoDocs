@@ -30,12 +30,6 @@ Media uploaded photo
 $inputMediaUploadedPhoto = ['_' => 'inputMediaUploadedPhoto', 'file' => InputFile, 'caption' => 'string', 'stickers' => [InputDocument, InputDocument], 'ttl_seconds' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMediaUploadedPhoto", "file": InputFile, "caption": "string", "stickers": [InputDocument], "ttl_seconds": int}
-```
-
 
 Or, if you're into Lua:
 

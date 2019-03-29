@@ -28,12 +28,6 @@ Update read channel inbox
 $updateReadChannelInbox = ['_' => 'updateReadChannelInbox', 'peer' => Peer, 'max_id' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateReadChannelInbox", "peer": Peer, "max_id": int}
-```
-
 
 Or, if you're into Lua:
 

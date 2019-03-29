@@ -28,12 +28,6 @@ Wallpaper
 $inputWallPaper = ['_' => 'inputWallPaper', 'id' => long, 'access_hash' => long];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputWallPaper", "id": long, "access_hash": long}
-```
-
 
 Or, if you're into Lua:
 

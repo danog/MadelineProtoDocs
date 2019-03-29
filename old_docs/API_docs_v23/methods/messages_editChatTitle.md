@@ -38,32 +38,6 @@ $MadelineProto->start();
 $messages_StatedMessage = $MadelineProto->messages->editChatTitle(['chat_id' => InputPeer, 'title' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - messages.editChatTitle
-* params - `{"chat_id": InputPeer, "title": "string", }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.editChatTitle`
-
-Parameters:
-
-chat_id - Json encoded InputPeer
-
-title - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

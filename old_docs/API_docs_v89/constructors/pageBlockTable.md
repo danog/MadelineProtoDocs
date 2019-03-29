@@ -30,12 +30,6 @@ Page block table
 $pageBlockTable = ['_' => 'pageBlockTable', 'bordered' => Bool, 'striped' => Bool, 'title' => RichText, 'rows' => [PageTableRow, PageTableRow]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageBlockTable", "bordered": Bool, "striped": Bool, "title": RichText, "rows": [PageTableRow]}
-```
-
 
 Or, if you're into Lua:
 

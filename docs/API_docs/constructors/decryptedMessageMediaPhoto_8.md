@@ -32,12 +32,6 @@ Decrypted message media photo
 $decryptedMessageMediaPhoto_8 = ['_' => 'decryptedMessageMediaPhoto', 'thumb' => 'bytes', 'thumb_w' => int, 'thumb_h' => int, 'w' => int, 'h' => int, 'size' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "decryptedMessageMediaPhoto", "thumb": {"_": "bytes", "bytes":"base64 encoded bytes"}, "thumb_w": int, "thumb_h": int, "w": int, "h": int, "size": int}
-```
-
 
 Or, if you're into Lua:
 

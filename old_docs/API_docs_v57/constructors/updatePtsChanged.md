@@ -22,12 +22,6 @@ Update pts changed
 $updatePtsChanged = ['_' => 'updatePtsChanged'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updatePtsChanged"}
-```
-
 
 Or, if you're into Lua:
 

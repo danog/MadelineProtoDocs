@@ -29,12 +29,6 @@ App changelog
 $help_appChangelog = ['_' => 'help.appChangelog', 'message' => 'string', 'media' => MessageMedia, 'entities' => [MessageEntity, MessageEntity]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "help.appChangelog", "message": "string", "media": MessageMedia, "entities": [MessageEntity]}
-```
-
 
 Or, if you're into Lua:
 

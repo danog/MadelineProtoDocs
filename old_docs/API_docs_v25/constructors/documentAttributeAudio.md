@@ -27,12 +27,6 @@ Document attribute audio
 $documentAttributeAudio = ['_' => 'documentAttributeAudio', 'duration' => int];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "documentAttributeAudio", "duration": int}
-```
-
 
 Or, if you're into Lua:
 

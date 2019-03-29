@@ -30,12 +30,6 @@ App event
 $inputAppEvent = ['_' => 'inputAppEvent', 'time' => double, 'type' => 'string', 'peer' => long, 'data' => JSONValue];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputAppEvent", "time": double, "type": "string", "peer": long, "data": JSONValue}
-```
-
 
 Or, if you're into Lua:
 

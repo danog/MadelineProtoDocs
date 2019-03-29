@@ -39,25 +39,6 @@ $MadelineProto->start();
 $messages_ArchivedStickers = $MadelineProto->messages->getArchivedStickers(['masks' => Bool, 'offset_id' => long, 'limit' => int, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/messages.getArchivedStickers`
-
-Parameters:
-
-masks - Json encoded Bool
-
-offset_id - Json encoded long
-
-limit - Json encoded int
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

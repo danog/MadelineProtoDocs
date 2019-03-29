@@ -27,12 +27,6 @@ Text concat
 $textConcat = ['_' => 'textConcat', 'texts' => [RichText, RichText]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "textConcat", "texts": [RichText]}
-```
-
 
 Or, if you're into Lua:
 

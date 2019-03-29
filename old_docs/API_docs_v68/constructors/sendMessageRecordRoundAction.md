@@ -22,12 +22,6 @@ Send message record round action
 $sendMessageRecordRoundAction = ['_' => 'sendMessageRecordRoundAction'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "sendMessageRecordRoundAction"}
-```
-
 
 Or, if you're into Lua:
 

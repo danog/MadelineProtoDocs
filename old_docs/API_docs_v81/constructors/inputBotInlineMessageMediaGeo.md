@@ -29,12 +29,6 @@ Bot inline message media geo
 $inputBotInlineMessageMediaGeo = ['_' => 'inputBotInlineMessageMediaGeo', 'geo_point' => InputGeoPoint, 'period' => int, 'reply_markup' => ReplyMarkup];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputBotInlineMessageMediaGeo", "geo_point": InputGeoPoint, "period": int, "reply_markup": ReplyMarkup}
-```
-
 
 Or, if you're into Lua:
 

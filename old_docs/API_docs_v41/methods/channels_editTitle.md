@@ -38,32 +38,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->channels->editTitle(['channel' => InputChannel, 'title' => 'string', ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - channels.editTitle
-* params - `{"channel": InputChannel, "title": "string", }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/channels.editTitle`
-
-Parameters:
-
-channel - Json encoded InputChannel
-
-title - Json encoded string
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

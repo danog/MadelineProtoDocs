@@ -22,12 +22,6 @@ No app update
 $help_noAppUpdate = ['_' => 'help.noAppUpdate'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "help.noAppUpdate"}
-```
-
 
 Or, if you're into Lua:
 

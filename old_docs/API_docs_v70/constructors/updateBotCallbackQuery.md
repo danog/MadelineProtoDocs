@@ -33,12 +33,6 @@ Update bot callback query
 $updateBotCallbackQuery = ['_' => 'updateBotCallbackQuery', 'query_id' => long, 'user_id' => int, 'peer' => Peer, 'msg_id' => int, 'chat_instance' => long, 'data' => 'bytes', 'game_short_name' => 'string'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateBotCallbackQuery", "query_id": long, "user_id": int, "peer": Peer, "msg_id": int, "chat_instance": long, "data": {"_": "bytes", "bytes":"base64 encoded bytes"}, "game_short_name": "string"}
-```
-
 
 Or, if you're into Lua:
 

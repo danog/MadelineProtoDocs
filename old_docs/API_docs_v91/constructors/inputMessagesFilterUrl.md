@@ -22,12 +22,6 @@ Messages filter URL
 $inputMessagesFilterUrl = ['_' => 'inputMessagesFilterUrl'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputMessagesFilterUrl"}
-```
-
 
 Or, if you're into Lua:
 

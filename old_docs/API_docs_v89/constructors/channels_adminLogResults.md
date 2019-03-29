@@ -29,12 +29,6 @@ Admin log results
 $channels_adminLogResults = ['_' => 'channels.adminLogResults', 'events' => [ChannelAdminLogEvent, ChannelAdminLogEvent], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "channels.adminLogResults", "events": [ChannelAdminLogEvent], "chats": [Chat], "users": [User]}
-```
-
 
 Or, if you're into Lua:
 

@@ -27,12 +27,6 @@ Msg container
 $msg_container = ['_' => 'msg_container', 'messages' => [MTmessage, MTmessage]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "msg_container", "messages": [MTmessage]}
-```
-
 
 Or, if you're into Lua:
 

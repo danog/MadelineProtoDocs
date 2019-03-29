@@ -37,30 +37,6 @@ $MadelineProto->start();
 $X = $MadelineProto->invokeWithLayer18(['query' => !X, ]);
 ```
 
-### [PWRTelegram HTTP API](https://pwrtelegram.xyz) example (NOT FOR MadelineProto):
-
-### As a bot:
-
-POST/GET to `https://api.pwrtelegram.xyz/botTOKEN/madeline`
-
-Parameters:
-
-* method - invokeWithLayer18
-* params - `{"query": !X, }`
-
-
-
-### As a user:
-
-POST/GET to `https://api.pwrtelegram.xyz/userTOKEN/invokeWithLayer18`
-
-Parameters:
-
-query - Json encoded !X
-
-
-
-
 Or, if you're into Lua:
 
 ```lua

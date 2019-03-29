@@ -22,12 +22,6 @@ Empty input encrypted file
 $inputEncryptedFileEmpty = ['_' => 'inputEncryptedFileEmpty'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "inputEncryptedFileEmpty"}
-```
-
 
 Or, if you're into Lua:
 

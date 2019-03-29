@@ -22,12 +22,6 @@ Update recent stickers
 $updateRecentStickers = ['_' => 'updateRecentStickers'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateRecentStickers"}
-```
-
 
 Or, if you're into Lua:
 

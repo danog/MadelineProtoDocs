@@ -30,12 +30,6 @@ Password kdf algo sha256sha256pbkdf2hmacsh a512iter100000 sha256 mod pow
 $passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow = ['_' => 'passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow', 'salt1' => 'bytes', 'salt2' => 'bytes', 'g' => int, 'p' => 'bytes'];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow", "salt1": {"_": "bytes", "bytes":"base64 encoded bytes"}, "salt2": {"_": "bytes", "bytes":"base64 encoded bytes"}, "g": int, "p": {"_": "bytes", "bytes":"base64 encoded bytes"}}
-```
-
 
 Or, if you're into Lua:
 

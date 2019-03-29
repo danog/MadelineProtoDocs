@@ -29,12 +29,6 @@ File location unavailable
 $fileLocationUnavailable = ['_' => 'fileLocationUnavailable', 'volume_id' => long, 'local_id' => int, 'secret' => long];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "fileLocationUnavailable", "volume_id": long, "local_id": int, "secret": long}
-```
-
 
 Or, if you're into Lua:
 

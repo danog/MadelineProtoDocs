@@ -27,12 +27,6 @@ Page table row
 $pageTableRow = ['_' => 'pageTableRow', 'cells' => [PageTableCell, PageTableCell]];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "pageTableRow", "cells": [PageTableCell]}
-```
-
 
 Or, if you're into Lua:
 

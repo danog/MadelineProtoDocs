@@ -33,12 +33,6 @@ Update bot precheckout query
 $updateBotPrecheckoutQuery = ['_' => 'updateBotPrecheckoutQuery', 'query_id' => long, 'user_id' => int, 'payload' => 'bytes', 'info' => PaymentRequestedInfo, 'shipping_option_id' => 'string', 'currency' => 'string', 'total_amount' => long];
 ```  
 
-[PWRTelegram](https://pwrtelegram.xyz) json-encoded version:
-
-```
-{"_": "updateBotPrecheckoutQuery", "query_id": long, "user_id": int, "payload": {"_": "bytes", "bytes":"base64 encoded bytes"}, "info": PaymentRequestedInfo, "shipping_option_id": "string", "currency": "string", "total_amount": long}
-```
-
 
 Or, if you're into Lua:
 
