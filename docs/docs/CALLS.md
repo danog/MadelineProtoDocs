@@ -66,15 +66,17 @@ Remember: you can only play one fifo at a time. If you want to play the same str
 
 The best way to raise the bitrate is to let libtgvoip do it automatically, based on network conditions.  
 However, the usual outgoing bitrate used by telegram for ethernet networks is around 20kbps. That is clearly not enough.  
-To increase it, you must modify the shared settings:  
+To increase it, you must modify the shared settings (before starting MadelineProto):  
 
 ```php
-$controller->configuration['shared_config']['audio_init_bitrate'] = 60 * 1000; // Audio bitrate set when the call is started
-$controller->configuration['shared_config']['audio_max_bitrate']  => 70 * 1000; // Maximum audio bitrate
-$controller->configuration['shared_config']['audio_min_bitrate']  => 15 * 1000; // Minimum audio bitrate
-$controller->configuration['shared_config']['audio_bitrate_step_decr']  => 1000; // Decreasing step: when libtgvoip has to lower the bitrate, it decreases it `audio_bitrate_step_decr` bps at a time
-$controller->configuration['shared_config']['audio_bitrate_step_incr']  => 1000; // Increasing step: when libtgvoip has to make the bitrate higher, it increases it `audio_bitrate_step_decr` bps at a time
-$controller->parseConfig();
+\danog\MadelineProto\VoIPServerConfig::update([
+    'audio_init_bitrate' => 100 * 1000, // Audio bitrate set when the call is started
+    'audio_max_bitrate' => 100 * 1000, // Maximum audio bitrate
+    'audio_min_bitrate' => 10 * 1000, // Minimum audio bitrate
+    'audio_bitrate_step_decr' => 1000, // Decreasing step: when libtgvoip has to lower the bitrate, it decreases it `audio_bitrate_step_decr` bps at a time
+    'audio_bitrate_step_incr' => 1000, // Increasing step: when libtgvoip has to make the bitrate higher, it increases it `audio_bitrate_step_decr` bps at a time
+    'audio_congestion_window' => 4 * 1024, // Congestion window, this is the best value
+]);
 ```
 
 Do this before accepting a call or right after requesting one.  
