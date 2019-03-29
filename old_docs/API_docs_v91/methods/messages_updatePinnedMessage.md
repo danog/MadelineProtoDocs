@@ -1,13 +1,13 @@
 ---
 title: messages.updatePinnedMessage
-description: Update pinned message (private chat only)
+description: Update pinned message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: messages.updatePinnedMessage  
 [Back to methods index](index.md)
 
 
-Update pinned message (private chat only)
+Update pinned message
 
 ### Parameters:
 

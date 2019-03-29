@@ -13,6 +13,7 @@ Set phone call rating
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|user\_initiative|[Bool](../types/Bool.md) | User initiative | Optional|
 |peer|[InputPhoneCall](../types/InputPhoneCall.md) | The phone call | Yes|
 |rating|[int](../types/int.md) | Rating (1-5 stars) | Yes|
 |comment|[string](../types/string.md) | An optional comment | Yes|
@@ -36,13 +37,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->phone->setCallRating(['peer' => InputPhoneCall, 'rating' => int, 'comment' => 'string', ]);
+$Updates = $MadelineProto->phone->setCallRating(['user_initiative' => Bool, 'peer' => InputPhoneCall, 'rating' => int, 'comment' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Updates = phone.setCallRating({peer=InputPhoneCall, rating=int, comment='string', })
+Updates = phone.setCallRating({user_initiative=Bool, peer=InputPhoneCall, rating=int, comment='string', })
 ```
 
 ### Errors this method can return:

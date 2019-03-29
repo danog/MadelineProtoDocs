@@ -1,0 +1,54 @@
+---
+title: langpack.getStrings
+description: Get language pack strings
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+---
+# Method: langpack.getStrings  
+[Back to methods index](index.md)
+
+
+Get language pack strings
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|lang\_pack|[string](../types/string.md) | Lang pack | Yes|
+|lang\_code|[string](../types/string.md) | Language code | Yes|
+|keys|Array of [string](../types/string.md) | Keys | Yes|
+
+
+### Return type: [Vector\_of\_LangPackString](../types/LangPackString.md)
+
+### Can bots use this method: **NO**
+
+
+### MadelineProto Example:
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+define('MADELINE_BRANCH', '');
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$Vector_of_LangPackString = $MadelineProto->langpack->getStrings(['lang_pack' => 'string', 'lang_code' => 'string', 'keys' => ['string', 'string'], ]);
+```
+
+Or, if you're into Lua:
+
+```lua
+Vector_of_LangPackString = langpack.getStrings({lang_pack='string', lang_code='string', keys={'string'}, })
+```
+
+### Errors this method can return:
+
+| Error    | Description   |
+|----------|---------------|
+|LANG_PACK_INVALID|The provided language pack is invalid|
+
+

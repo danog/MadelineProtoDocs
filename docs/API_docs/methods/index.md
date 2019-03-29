@@ -204,6 +204,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="help_getAppConfig.html" name="help_getAppConfig">Get app config: help.getAppConfig</a>  
 
+* <a href="account_getAutoDownloadSettings.html" name="account_getAutoDownloadSettings">Get autodownload settings: account.getAutoDownloadSettings</a>  
+
 * <a href="langpack_getLanguages.html" name="langpack_getLanguages">Get available languages: langpack.getLanguages</a>  
 
 * <a href="contacts_getBlocked.html" name="contacts_getBlocked">Get blocked users: contacts.getBlocked</a>  
@@ -225,6 +227,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages_getDialogUnreadMarks.html" name="messages_getDialogUnreadMarks">Get dialogs marked as unread manually: messages.getDialogUnreadMarks</a>  
 
 * <a href="messages_getDocumentByHash.html" name="messages_getDocumentByHash">Get document by SHA256 hash: messages.getDocumentByHash</a>  
+
+* <a href="messages_getEmojiURL.html" name="messages_getEmojiURL">Get emoji URL: messages.getEmojiURL</a>  
+
+* <a href="messages_getEmojiKeywordsDifference.html" name="messages_getEmojiKeywordsDifference">Get emoji keyword difference: messages.getEmojiKeywordsDifference</a>  
+
+* <a href="messages_getEmojiKeywords.html" name="messages_getEmojiKeywords">Get emoji keywords: messages.getEmojiKeywords</a>  
 
 * <a href="messages_getFavedStickers.html" name="messages_getFavedStickers">Get favorite stickers: messages.getFavedStickers</a>  
 
@@ -438,6 +446,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages_saveDraft.html" name="messages_saveDraft">Save a message draft: messages.saveDraft</a>  
 
+* <a href="account_saveAutoDownloadSettings.html" name="account_saveAutoDownloadSettings">Save autodownload settings: account.saveAutoDownloadSettings</a>  
+
 * <a href="phone_saveCallDebug.html" name="phone_saveCallDebug">Save call debugging info: phone.saveCallDebug</a>  
 
 * <a href="account_saveSecureValue.html" name="account_saveSecureValue">Save telegram passport secure value: account.saveSecureValue</a>  
@@ -514,7 +524,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account_updateStatus.html" name="account_updateStatus">Update online status: account.updateStatus</a>  
 
-* <a href="messages_updatePinnedMessage.html" name="messages_updatePinnedMessage">Update pinned message (private chat only): messages.updatePinnedMessage</a>  
+* <a href="messages_updatePinnedMessage.html" name="messages_updatePinnedMessage">Update pinned message: messages.updatePinnedMessage</a>  
 
 * <a href="account_updateProfile.html" name="account_updateProfile">Update profile info: account.updateProfile</a>  
 

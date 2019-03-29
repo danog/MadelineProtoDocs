@@ -13,6 +13,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [Authorization](Authorization.md)<a name="Authorization"></a>  
 
+[AutoDownloadSettings](AutoDownloadSettings.md)<a name="AutoDownloadSettings"></a>  
+
 [Bool](Bool.md)<a name="Bool"></a>  
 
 [BotCommand](BotCommand.md)<a name="BotCommand"></a>  
@@ -92,6 +94,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [DocumentAttribute](DocumentAttribute.md)<a name="DocumentAttribute"></a>  
 
 [DraftMessage](DraftMessage.md)<a name="DraftMessage"></a>  
+
+[EmojiKeyword](EmojiKeyword.md)<a name="EmojiKeyword"></a>  
+
+[EmojiKeywordsDifference](EmojiKeywordsDifference.md)<a name="EmojiKeywordsDifference"></a>  
+
+[EmojiURL](EmojiURL.md)<a name="EmojiURL"></a>  
 
 [EncryptedChat](EncryptedChat.md)<a name="EncryptedChat"></a>  
 
@@ -376,6 +384,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [account\_AuthorizationForm](account_AuthorizationForm.md)<a name="account_AuthorizationForm"></a>  
 
 [account\_Authorizations](account_Authorizations.md)<a name="account_Authorizations"></a>  
+
+[account\_AutoDownloadSettings](account_AutoDownloadSettings.md)<a name="account_AutoDownloadSettings"></a>  
 
 [account\_Password](account_Password.md)<a name="account_Password"></a>  
 

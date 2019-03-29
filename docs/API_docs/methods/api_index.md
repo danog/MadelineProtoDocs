@@ -62,6 +62,8 @@ $MadelineProto->[account->getAuthorizationForm](account_getAuthorizationForm.md)
 
 $MadelineProto->[account->getAuthorizations](account_getAuthorizations.md)(\[\]) === [$account\_Authorizations](../types/account_Authorizations.md)<a name="account_getAuthorizations"></a>  
 
+$MadelineProto->[account->getAutoDownloadSettings](account_getAutoDownloadSettings.md)(\[\]) === [$account\_AutoDownloadSettings](../types/account_AutoDownloadSettings.md)<a name="account_getAutoDownloadSettings"></a>  
+
 $MadelineProto->[account->getContactSignUpNotification](account_getContactSignUpNotification.md)(\[\]) === [$Bool](../types/Bool.md)<a name="account_getContactSignUpNotification"></a>  
 
 $MadelineProto->[account->getNotifyExceptions](account_getNotifyExceptions.md)(\['compare_sound' => [Bool](../types/Bool.md), 'peer' => [InputNotifyPeer](../types/InputNotifyPeer.md), \]) === [$Updates](../types/Updates.md)<a name="account_getNotifyExceptions"></a>  
@@ -103,6 +105,8 @@ $MadelineProto->[account->resetWallPapers](account_resetWallPapers.md)(\[\]) ===
 $MadelineProto->[account->resetWebAuthorization](account_resetWebAuthorization.md)(\['hash' => [long](../types/long.md), \]) === [$Bool](../types/Bool.md)<a name="account_resetWebAuthorization"></a>  
 
 $MadelineProto->[account->resetWebAuthorizations](account_resetWebAuthorizations.md)(\[\]) === [$Bool](../types/Bool.md)<a name="account_resetWebAuthorizations"></a>  
+
+$MadelineProto->[account->saveAutoDownloadSettings](account_saveAutoDownloadSettings.md)(\['low' => [Bool](../types/Bool.md), 'high' => [Bool](../types/Bool.md), 'settings' => [AutoDownloadSettings](../types/AutoDownloadSettings.md), \]) === [$Bool](../types/Bool.md)<a name="account_saveAutoDownloadSettings"></a>  
 
 $MadelineProto->[account->saveSecureValue](account_saveSecureValue.md)(\['value' => [InputSecureValue](../types/InputSecureValue.md), 'secure_secret_id' => [long](../types/long.md), \]) === [$SecureValue](../types/SecureValue.md)<a name="account_saveSecureValue"></a>  
 
@@ -346,7 +350,7 @@ $MadelineProto->[invokeWithoutUpdates](invokeWithoutUpdates.md)(\['query' => [!X
 
 ***
 <br><br>
-$MadelineProto->[langpack->getDifference](langpack_getDifference.md)(\['lang_code' => [string](../types/string.md), 'from_version' => [int](../types/int.md), \]) === [$LangPackDifference](../types/LangPackDifference.md)<a name="langpack_getDifference"></a>  
+$MadelineProto->[langpack->getDifference](langpack_getDifference.md)(\['lang_pack' => [string](../types/string.md), 'lang_code' => [string](../types/string.md), 'from_version' => [int](../types/int.md), \]) === [$LangPackDifference](../types/LangPackDifference.md)<a name="langpack_getDifference"></a>  
 
 $MadelineProto->[langpack->getLangPack](langpack_getLangPack.md)(\['lang_pack' => [string](../types/string.md), 'lang_code' => [string](../types/string.md), \]) === [$LangPackDifference](../types/LangPackDifference.md)<a name="langpack_getLangPack"></a>  
 
@@ -372,7 +376,7 @@ $MadelineProto->[messages->createChat](messages_createChat.md)(\['users' => \[[I
 
 $MadelineProto->[messages->deleteChatUser](messages_deleteChatUser.md)(\['chat_id' => [InputPeer](../types/InputPeer.md), 'user_id' => [InputUser](../types/InputUser.md), \]) === [$Updates](../types/Updates.md)<a name="messages_deleteChatUser"></a>  
 
-$MadelineProto->[messages->deleteHistory](messages_deleteHistory.md)(\['just_clear' => [Bool](../types/Bool.md), 'peer' => [InputPeer](../types/InputPeer.md), 'max_id' => [int](../types/int.md), \]) === [$messages\_AffectedHistory](../types/messages_AffectedHistory.md)<a name="messages_deleteHistory"></a>  
+$MadelineProto->[messages->deleteHistory](messages_deleteHistory.md)(\['just_clear' => [Bool](../types/Bool.md), 'revoke' => [Bool](../types/Bool.md), 'peer' => [InputPeer](../types/InputPeer.md), 'max_id' => [int](../types/int.md), \]) === [$messages\_AffectedHistory](../types/messages_AffectedHistory.md)<a name="messages_deleteHistory"></a>  
 
 $MadelineProto->[messages->deleteMessages](messages_deleteMessages.md)(\['revoke' => [Bool](../types/Bool.md), 'id' => \[[int](../types/int.md)\], \]) === [$messages\_AffectedMessages](../types/messages_AffectedMessages.md)<a name="messages_deleteMessages"></a>  
 
@@ -422,6 +426,12 @@ $MadelineProto->[messages->getDialogs](messages_getDialogs.md)(\['exclude_pinned
 
 $MadelineProto->[messages->getDocumentByHash](messages_getDocumentByHash.md)(\['sha256' => [bytes](../types/bytes.md), 'size' => [int](../types/int.md), 'mime_type' => [string](../types/string.md), \]) === [$Document](../types/Document.md)<a name="messages_getDocumentByHash"></a>  
 
+$MadelineProto->[messages->getEmojiKeywords](messages_getEmojiKeywords.md)(\['lang_code' => [string](../types/string.md), \]) === [$EmojiKeywordsDifference](../types/EmojiKeywordsDifference.md)<a name="messages_getEmojiKeywords"></a>  
+
+$MadelineProto->[messages->getEmojiKeywordsDifference](messages_getEmojiKeywordsDifference.md)(\['lang_code' => [string](../types/string.md), 'from_version' => [int](../types/int.md), \]) === [$EmojiKeywordsDifference](../types/EmojiKeywordsDifference.md)<a name="messages_getEmojiKeywordsDifference"></a>  
+
+$MadelineProto->[messages->getEmojiURL](messages_getEmojiURL.md)(\['lang_code' => [string](../types/string.md), \]) === [$EmojiURL](../types/EmojiURL.md)<a name="messages_getEmojiURL"></a>  
+
 $MadelineProto->[messages->getFavedStickers](messages_getFavedStickers.md)(\['hash' => [int](../types/int.md), \]) === [$messages\_FavedStickers](../types/messages_FavedStickers.md)<a name="messages_getFavedStickers"></a>  
 
 $MadelineProto->[messages->getFeaturedStickers](messages_getFeaturedStickers.md)(\['hash' => [int](../types/int.md), \]) === [$messages\_FeaturedStickers](../types/messages_FeaturedStickers.md)<a name="messages_getFeaturedStickers"></a>  
@@ -462,7 +472,7 @@ $MadelineProto->[messages->getSavedGifs](messages_getSavedGifs.md)(\['hash' => [
 
 $MadelineProto->[messages->getSplitRanges](messages_getSplitRanges.md)(\[\]) === [$Vector\_of\_MessageRange](../types/MessageRange.md)<a name="messages_getSplitRanges"></a>  
 
-$MadelineProto->[messages->getStatsURL](messages_getStatsURL.md)(\['peer' => [InputPeer](../types/InputPeer.md), \]) === [$StatsURL](../types/StatsURL.md)<a name="messages_getStatsURL"></a>  
+$MadelineProto->[messages->getStatsURL](messages_getStatsURL.md)(\['dark' => [Bool](../types/Bool.md), 'peer' => [InputPeer](../types/InputPeer.md), 'params' => [string](../types/string.md), \]) === [$StatsURL](../types/StatsURL.md)<a name="messages_getStatsURL"></a>  
 
 $MadelineProto->[messages->getStickerSet](messages_getStickerSet.md)(\['stickerset' => [InputStickerSet](../types/InputStickerSet.md), \]) === [$messages\_StickerSet](../types/messages_StickerSet.md)<a name="messages_getStickerSet"></a>  
 
@@ -600,7 +610,7 @@ $MadelineProto->[phone->requestCall](phone_requestCall.md)(\['user_id' => [Input
 
 $MadelineProto->[phone->saveCallDebug](phone_saveCallDebug.md)(\['peer' => [InputPhoneCall](../types/InputPhoneCall.md), 'debug' => [DataJSON](../types/DataJSON.md), \]) === [$Bool](../types/Bool.md)<a name="phone_saveCallDebug"></a>  
 
-$MadelineProto->[phone->setCallRating](phone_setCallRating.md)(\['peer' => [InputPhoneCall](../types/InputPhoneCall.md), 'rating' => [int](../types/int.md), 'comment' => [string](../types/string.md), \]) === [$Updates](../types/Updates.md)<a name="phone_setCallRating"></a>  
+$MadelineProto->[phone->setCallRating](phone_setCallRating.md)(\['user_initiative' => [Bool](../types/Bool.md), 'peer' => [InputPhoneCall](../types/InputPhoneCall.md), 'rating' => [int](../types/int.md), 'comment' => [string](../types/string.md), \]) === [$Updates](../types/Updates.md)<a name="phone_setCallRating"></a>  
 
 ***
 <br><br>

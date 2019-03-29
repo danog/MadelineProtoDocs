@@ -16,6 +16,7 @@ Update chat pinned message
 |----------|---------------|----------|-------------|
 |chat\_id|[int](../types/int.md) | Yes|Chat ID|
 |id|[int](../types/int.md) | Yes|ID|
+|version|[int](../types/int.md) | Yes|Version|
 
 
 
@@ -25,14 +26,14 @@ Update chat pinned message
 ### Example:
 
 ```php
-$updateChatPinnedMessage = ['_' => 'updateChatPinnedMessage', 'chat_id' => int, 'id' => int];
+$updateChatPinnedMessage = ['_' => 'updateChatPinnedMessage', 'chat_id' => int, 'id' => int, 'version' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateChatPinnedMessage={_='updateChatPinnedMessage', chat_id=int, id=int}
+updateChatPinnedMessage={_='updateChatPinnedMessage', chat_id=int, id=int, version=int}
 
 ```
 

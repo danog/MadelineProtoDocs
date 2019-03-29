@@ -22,6 +22,7 @@ Sticker set
 |access\_hash|[long](../types/long.md) | Yes|Access hash|
 |title|[string](../types/string.md) | Yes|Title|
 |short\_name|[string](../types/string.md) | Yes|Short name|
+|thumb|[PhotoSize](../types/PhotoSize.md) | Optional|Thumbnail|
 |count|[int](../types/int.md) | Yes|Count|
 |hash|[int](../types/int.md) | Yes|Hash|
 
@@ -33,14 +34,14 @@ Sticker set
 ### Example:
 
 ```php
-$stickerSet = ['_' => 'stickerSet', 'archived' => Bool, 'official' => Bool, 'masks' => Bool, 'installed_date' => int, 'id' => long, 'access_hash' => long, 'title' => 'string', 'short_name' => 'string', 'count' => int, 'hash' => int];
+$stickerSet = ['_' => 'stickerSet', 'archived' => Bool, 'official' => Bool, 'masks' => Bool, 'installed_date' => int, 'id' => long, 'access_hash' => long, 'title' => 'string', 'short_name' => 'string', 'thumb' => PhotoSize, 'count' => int, 'hash' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-stickerSet={_='stickerSet', archived=Bool, official=Bool, masks=Bool, installed_date=int, id=long, access_hash=long, title='string', short_name='string', count=int, hash=int}
+stickerSet={_='stickerSet', archived=Bool, official=Bool, masks=Bool, installed_date=int, id=long, access_hash=long, title='string', short_name='string', thumb=PhotoSize, count=int, hash=int}
 
 ```
 

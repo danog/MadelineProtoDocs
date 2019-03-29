@@ -510,7 +510,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account_updateStatus.html" name="account_updateStatus">Update online status: account.updateStatus</a>  
 
-* <a href="messages_updatePinnedMessage.html" name="messages_updatePinnedMessage">Update pinned message (private chat only): messages.updatePinnedMessage</a>  
+* <a href="messages_updatePinnedMessage.html" name="messages_updatePinnedMessage">Update pinned message: messages.updatePinnedMessage</a>  
 
 * <a href="account_updateProfile.html" name="account_updateProfile">Update profile info: account.updateProfile</a>  
 

@@ -13,6 +13,7 @@ Get language pack updates
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|lang\_pack|[string](../types/string.md) | Language pack | Yes|
 |lang\_code|[string](../types/string.md) | Lang code | Yes|
 |from\_version|[int](../types/int.md) | Previous version | Yes|
 
@@ -35,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$LangPackDifference = $MadelineProto->langpack->getDifference(['lang_code' => 'string', 'from_version' => int, ]);
+$LangPackDifference = $MadelineProto->langpack->getDifference(['lang_pack' => 'string', 'lang_code' => 'string', 'from_version' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-LangPackDifference = langpack.getDifference({lang_code='string', from_version=int, })
+LangPackDifference = langpack.getDifference({lang_pack='string', lang_code='string', from_version=int, })
 ```
 
 ### Errors this method can return:

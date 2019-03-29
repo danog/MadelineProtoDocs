@@ -13,7 +13,9 @@ Get stats URL
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|dark|[Bool](../types/Bool.md) | Dark? | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Peer | Optional|
+|params|[string](../types/string.md) | Params | Yes|
 
 
 ### Return type: [StatsURL](../types/StatsURL.md)
@@ -34,12 +36,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$StatsURL = $MadelineProto->messages->getStatsURL(['peer' => InputPeer, ]);
+$StatsURL = $MadelineProto->messages->getStatsURL(['dark' => Bool, 'peer' => InputPeer, 'params' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-StatsURL = messages.getStatsURL({peer=InputPeer, })
+StatsURL = messages.getStatsURL({dark=Bool, peer=InputPeer, params='string', })
 ```
 

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 There are simplifications for many, if not all of, these methods.
 
-A list of all of the methods that can be called with MadelineProto can be found here: [here (layer 95)](https://docs.madelineproto.xyz/API_docs/).
+A list of all of the methods that can be called with MadelineProto can be found here: [here (layer 97)](https://docs.madelineproto.xyz/API_docs/).
 
 * [FULL API Documentation with descriptions](https://docs.madelineproto.xyz/API_docs/methods/)
 * [Peers](#peers)

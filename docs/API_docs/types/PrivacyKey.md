@@ -20,6 +20,10 @@ Describes available privacy settings
 
 [privacyKeyPhoneP2P](../constructors/privacyKeyPhoneP2P.md)  
 
+[privacyKeyForwards](../constructors/privacyKeyForwards.md)  
+
+[privacyKeyProfilePhoto](../constructors/privacyKeyProfilePhoto.md)  
+
 
 
 ### Methods that return an object of this type (methods):

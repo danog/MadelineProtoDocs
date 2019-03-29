@@ -18,9 +18,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputPrivacyKeyPhoneP2P](../constructors/inputPrivacyKeyPhoneP2P.md)  
 
-[inputPrivacyKeyProfilePhoto](../constructors/inputPrivacyKeyProfilePhoto.md)  
-
 [inputPrivacyKeyForwards](../constructors/inputPrivacyKeyForwards.md)  
+
+[inputPrivacyKeyProfilePhoto](../constructors/inputPrivacyKeyProfilePhoto.md)  
 
 
 
