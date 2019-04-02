@@ -93,7 +93,7 @@ If you manually set the network type to `NET_TYPE_GPRS`, `NET_TYPE_EDGE`, or ena
 Requesting calls is easy, just run the `request_call` method.
 
 ```php
-$controller = $MadelineProto->request_call('@danogentili')->play('input.raw')->then('inputb.raw')->playOhHold(['hold.raw'])->setOutputFile('output.raw');
+$controller = $MadelineProto->request_call('@danogentili')->play('input.raw')->then('inputb.raw')->playOnHold(['hold.raw'])->setOutputFile('output.raw');
 $controller->configuration['log_file_path'] = $controller->getOtherID().'.log';
 
 // We need to receive updates in order to know that the other use accepted the call
