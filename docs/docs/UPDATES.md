@@ -8,13 +8,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 Update handling can be done in different ways: 
 
 * [Event driven](#event-driven)
-  * [Event driven multithreaded](#event-driven-multithreaded)
 * [Multi-account: Combined Event driven update handling](#combined-event-driven)
-* [Webhook](#webhook)
-  * [Webhook multithreaded](#webhook-multithreaded)
-* [Long polling (getupdates)](#long-polling)
 * [Callback](#callback)
-  * [Callback multithreaded](#callback-multithreaded)
 * [Noop](#noop)
 
 IMPORTANT: Note that you should turn off update handling if you don't want to use it anymore because the default get_updates update handling stores updates in an array inside the MadelineProto object, without deleting old ones unless they are read using get_updates.  
@@ -98,16 +93,6 @@ The update handling loop is started by the `$MadelineProto->loop()` method, and 
 
 To break out of the loop just call `die();`
 
-
-## Event driven multithreaded
-
-To enable multithreaded update handling, pass `-1` to the `$MadelineProto->loop` method:
-```php
-$MadelineProto->loop(-1);
-```
-
-This way, each update will be managed in its own fork.  
-Note that multiprocessing is not the same as multithreading, and should be avoided unless lengthy operations are made in the update handler.
 
 ## Combined event driven
 
@@ -197,70 +182,6 @@ The update handling loop is started by the `$MadelineProto->loop()` method, and 
 To break out of the loop just call `die();`
 
 
-
-## Webhook
-```php
-$MadelineProto = new \danog\MadelineProto\API('bot.madeline');
-
-$MadelineProto->start();
-$MadelineProto->setWebhook('http://mybot.eu.org/madelinehook.php');
-$MadelineProto->loop();
-```
-
-When an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html) is received, a POST request is made to the provided webhook URL, with json-encoded payload containing the Update. To get a list of all possible update types, [click here](https://docs.madelineproto.xyz/API_docs/types/Update.html).  
-DO NOT provide the current script URL as webhook URL.  
-The webhook can also respond with a JSON payload containing the name of a method to call and the arguments:
-```
-{"method":"messages->sendMessage", "peer":"@danogentili", "message":"hi"}
-```
-
-The loop method will automatically restart the script if execution time runs out.
-
-## Webhook multithreaded
-
-To enable multithreaded update handling, pass `-1` to the `$MadelineProto->loop` method:
-```php
-$MadelineProto->loop(-1);
-```
-
-This way, each update could be managed faster.
-
-
-## Long polling
-```php
-$MadelineProto = new \danog\MadelineProto\API('bot.madeline');
-$MadelineProto->start();
-
-while (true) {
-    $updates = $MadelineProto->get_updates(['offset' => $offset, 'limit' => 50, 'timeout' => 0]); // Just like in the bot API, you can specify an offset, a limit and a timeout
-    \danog\MadelineProto\Logger::log($updates);
-    foreach ($updates as $update) {
-        $offset = $update['update_id'] + 1; // Just like in the bot API, the offset must be set to the last update_id
-        switch ($update['update']['_']) {
-            case 'updateNewMessage':
-            case 'updateNewChannelMessage':
-                if (isset($update['update']['message']['out']) && $update['update']['message']['out']) {
-                    continue;
-                }
-                $res = json_encode($update, JSON_PRETTY_PRINT);
-                if ($res == '') {
-                    $res = var_export($update, true);
-                }
-
-                try {
-                    $MadelineProto->messages->sendMessage(['peer' => $update, 'message' => $res, 'reply_to_msg_id' => $update['update']['message']['id'], 'entities' => [['_' => 'messageEntityPre', 'offset' => 0, 'length' => strlen($res), 'language' => 'json']]]);
-                } catch (\danog\MadelineProto\RPCErrorException $e) {
-                    $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => $e->getCode().': '.$e->getMessage().PHP_EOL.$e->getTraceAsString()]);
-                }
-        }
-    }
-}
-```
-
-The get_updates function accepts an array of options as the first parameter, and returns an array of updates (an array containing the update id and an object of type [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html)).  
-
-
-
 ## Callback
 
 ```php
@@ -275,16 +196,6 @@ When an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html) is r
 The update handling loop is started by the `$MadelineProto->loop()` method, and it will automatically restart the script if execution time runs out.  
 
 To break out of the loop just call `die();`
-
-## Callback multithreaded
-
-To enable multithreaded update handling, pass `-1` to the `$MadelineProto->loop` method:
-```php
-$MadelineProto->loop(-1);
-```
-
-This way, each update will be managed in its own fork.  
-Note that multiprocessing is not the same as multithreading, and should be avoided unless lengthy operations are made in the update handler.
 
 
 ## Noop
