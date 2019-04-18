@@ -5,10 +5,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Handling updates
 
-Update handling can be done in different ways: 
+Update handling can be done in different ways:
 
 * [Event driven](#event-driven)
 * [Multi-account: Combined Event driven update handling](#combined-event-driven)
+* [Event driven async](#event-driven-async)
 * [Callback](#callback)
 * [Noop](#noop)
 
