@@ -94,6 +94,55 @@ The update handling loop is started by the `$MadelineProto->loop()` method, and 
 To break out of the loop just call `die();`
 
 
+## Event driven async 
+
+```php
+class EventHandler extends \danog\MadelineProto\EventHandler
+{
+    public function __construct($MadelineProto)
+    {
+        yield parent::__construct($MadelineProto);
+    }
+    public function onAny($update)
+    {
+        \danog\MadelineProto\Logger::log("Received an update of type ".$update['_']);
+    }
+    public function onLoop()
+    {
+        \danog\MadelineProto\Logger::log("Working...");
+    }
+    public function onUpdateNewChannelMessage($update)
+    {
+        yield $this->onUpdateNewMessage($update);
+    }
+    public function onUpdateNewMessage($update)
+    {
+        if (isset($update['message']['out']) && $update['message']['out']) {
+            return;
+        }
+        $res = json_encode($update, JSON_PRETTY_PRINT);
+        if ($res == '') {
+            $res = var_export($update, true);
+        }
+
+        try {
+            $this->sleep_async(3);
+            yield $this->messages->sendMessage(['peer' => $update, 'message' => 'Message sent after 3 async seconds']);
+        }catch(Exception $e){
+            yield $this->messages->sendMessage(['peer' => '@danogentili', 'message' => $e->getCode().': '.$e->getMessage().PHP_EOL.$e->getTraceAsString()]);
+        }
+    }
+}
+
+$MadelineProto = new \danog\MadelineProto\API('bot.madeline');
+
+$MadelineProto->start();
+$MadelineProto->setEventHandler('\EventHandler');
+$MadelineProto->async(true);
+$MadelineProto->loop();
+```
+It works like the EventHandler, but you have to add "yield" before an async method call. **Important NEVER use multithread and async simultaneously**
+
 ## Combined event driven
 
 ```php
