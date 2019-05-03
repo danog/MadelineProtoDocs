@@ -63,6 +63,7 @@ messages_StatedMessages = messages.forwardMessages({peer=InputPeer, id={int}, })
 |USER_IS_BLOCKED|User is blocked|
 |USER_IS_BOT|Bots can't send messages to other bots|
 |YOU_BLOCKED_USER|You blocked this user|
+|MSGID_DECREASE_RETRY|IDK TBH|
 |NEED_MEMBER_INVALID|The provided member is invalid|
 |PTS_CHANGE_EMPTY|No PTS change|
 |RANDOM_ID_DUPLICATE|You provided a random ID that was already used|

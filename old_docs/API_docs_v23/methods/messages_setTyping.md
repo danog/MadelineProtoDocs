@@ -55,6 +55,7 @@ Bool = messages.setTyping({peer=InputPeer, action=SendMessageAction, })
 |USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
 |USER_IS_BLOCKED|User is blocked|
 |USER_IS_BOT|Bots can't send messages to other bots|
+|MSGID_DECREASE_RETRY|IDK TBH|
 |CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 
 

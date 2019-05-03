@@ -115,6 +115,7 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 |USER_IS_BOT|Bots can't send messages to other bots|
 |YOU_BLOCKED_USER|You blocked this user|
 |AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
+|MSGID_DECREASE_RETRY|IDK TBH|
 |NEED_MEMBER_INVALID|The provided member is invalid|
 |RANDOM_ID_DUPLICATE|You provided a random ID that was already used|
 |CHAT_WRITE_FORBIDDEN|You can't write in this chat|
