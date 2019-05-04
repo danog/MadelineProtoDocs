@@ -15,6 +15,8 @@ This library can be used to easily interact with Telegram **without** the bot AP
 
 It can login with a phone number (MTProto API), or with a bot token (MTProto API, **no bot API involved!**).
 
+[It is now fully async](https://docs.madelineproto.xyz/docs/ASYNC.html)!
+
 ## Getting started
 
 ```php
@@ -62,6 +64,7 @@ Tip: if you receive an error (or nothing), [send us](https://t.me/pwrtelegramgro
       * [Async in callback handler](https://docs.madelineproto.xyz/docs/ASYNC.html#async-in-callback-handler)
       * [Wrapped async](https://docs.madelineproto.xyz/docs/ASYNC.html#wrapped-async)
       * [Ignored async](https://docs.madelineproto.xyz/docs/ASYNC.html#ignored-async)
+      * [Blocking async](https://docs.madelineproto.xyz/docs/ASYNC.html#blocking-async)
     * [MadelineProto and AMPHP async APIs](https://docs.madelineproto.xyz/docs/ASYNC.html#madelineproto-and-amphp-async-apis)
 * [Creating a client](https://docs.madelineproto.xyz/docs/CREATING_A_CLIENT.html)
 * [Logging in](https://docs.madelineproto.xyz/docs/LOGIN.html)

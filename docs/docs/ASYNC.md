@@ -16,12 +16,14 @@ Powered by [amphp](https://amphp.org), MadelineProto wraps the AMPHP APIs to pro
     * [Async in callback handler](#async-in-callback-handler)
     * [Wrapped async](#wrapped-async)
     * [Ignored async](#ignored-async)
+    * [Blocking async](#blocking-async)
   * [MadelineProto and AMPHP async APIs](#madelineproto-and-amphp-async-apis)
 
 ## Usage
 
 What exactly __is__ **async**, you may ask, and how is it better than **threading** or **multiprocessing**?  
 Async is a relatively new programming pattern that allows you to easily write **non-blocking** code **as if you were using standard** blocking functions, all without the need for complex message exchange systems and synchronization handling for threaded programs, that only add overhead and complexity to your programs, making everything slower and error-prone.  
+
 That's very cool and all, you might think, but how exactly does this __async__ stuff work? Well, as it turns out, it's very easy.  
 
 Instead of writing code like this:  
@@ -39,6 +41,8 @@ $file = yield $MadelineProto->download_to_dir($bigfile, '/tmp/');
 It's really **that** easy, you just have to add a `yield` before calling MadelineProto methods.  
 The `yield` will automatically **suspend** the execution of the function, letting the program do other stuff while the file is being downloaded.  
 Once the file is downloaded, execution is automatically **resumed** from that exact point in the function.  
+
+This means that you can handle multiple updates, download/upload multiple files all together in one process, as if you were writing normal synchronous code + making everything a lot faster.  
 
 ## Loading the latest version of MadelineProto
 
@@ -153,6 +157,15 @@ $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => 'b
 You can use the async version of MadelineProto functions **without** yield if you don't want the request to block, and you don't need the result of the function.  
 This is allowed, but the order of the function calls will not be guaranteed: you can use [call queues](https://docs.madelineproto.xyz/docs/USING_METHODS.html#queues) if you want to make sure the order of the calls remains the same.
 
+
+### Blocking async
+```php
+$result = blocking_function();
+```
+
+Sometimes, you have to call non-async functions in your code: that is allowed in async MadelineProto, you just have to call your functions normally without `yield`.  
+However, you shouldn't do (or need to do) this, because this renders async completely useless.  
+AMPHP already provides async versions of curl, `file_get_contents`, MySQL, redis, postgres, and many more native PHP functions: 
 
 ## MadelineProto and AMPHP async APIs
 
