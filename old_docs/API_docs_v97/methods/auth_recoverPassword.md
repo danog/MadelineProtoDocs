@@ -21,7 +21,7 @@ Use the code that was emailed to you after running $MadelineProto->auth->request
 ### Can bots use this method: **NO**
 
 
-### MadelineProto Example:
+### MadelineProto Example ([now async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 
 
 ```php

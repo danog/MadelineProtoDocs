@@ -22,7 +22,7 @@ Check if about to edit a message or a media caption
 ### Can bots use this method: **NO**
 
 
-### MadelineProto Example:
+### MadelineProto Example ([now async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 
 
 ```php

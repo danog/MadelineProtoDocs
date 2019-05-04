@@ -22,7 +22,7 @@ Reorder pinned dialogs
 ### Can bots use this method: **NO**
 
 
-### MadelineProto Example:
+### MadelineProto Example ([now async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 
 
 ```php

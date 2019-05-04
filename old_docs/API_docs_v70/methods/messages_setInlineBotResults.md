@@ -27,7 +27,7 @@ Bots only: set the results of an inline query
 ### Can bots use this method: **YES**
 
 
-### MadelineProto Example:
+### MadelineProto Example ([now async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 
 
 ```php

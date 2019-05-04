@@ -21,7 +21,7 @@ Notify server that you received a call (server will refuse all incoming calls un
 ### Can bots use this method: **NO**
 
 
-### MadelineProto Example:
+### MadelineProto Example ([now async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 
 
 ```php

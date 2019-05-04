@@ -22,7 +22,7 @@ Confirm this phone number is associated to this account, obtain phone_code_hash 
 ### Can bots use this method: **NO**
 
 
-### MadelineProto Example:
+### MadelineProto Example ([now async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 
 
 ```php

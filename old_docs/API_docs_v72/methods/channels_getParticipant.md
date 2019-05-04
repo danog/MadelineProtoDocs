@@ -22,7 +22,7 @@ Get info about a certain channel/supergroup participant
 ### Can bots use this method: **YES**
 
 
-### MadelineProto Example:
+### MadelineProto Example ([now async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 
 
 ```php

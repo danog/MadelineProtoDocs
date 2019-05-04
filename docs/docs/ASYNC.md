@@ -9,13 +9,13 @@ MadelineProto now features async, for **incredible speed improvements**, and par
 Powered by [amphp](https://amphp.org), MadelineProto wraps the AMPHP APIs to provide a simpler generator-based async API.  
 
 * [Usage](#usage)
- * [Loading the latest version of MadelineProto](#loading-the-latest-version-of-madelineproto)
- * [Enabling the MadelineProto async API](#enabling-the-madelineproto-async-api)
- * [Using the MadelineProto async API](#using-the-madelineproto-async-api)
-  * [Async in event handler](#async-in-event-handler)
-  * [Async in callback handler](#async-in-callback-handler)
-  * [Wrapped async](#wrapped-async)
-  * [Ignored async](#ignored-async)
+  * [Loading the latest version of MadelineProto](#loading-the-latest-version-of-madelineproto)
+  * [Enabling the MadelineProto async API](#enabling-the-madelineproto-async-api)
+  * [Using the MadelineProto async API](#using-the-madelineproto-async-api)
+    * [Async in event handler](#async-in-event-handler)
+    * [Async in callback handler](#async-in-callback-handler)
+    * [Wrapped async](#wrapped-async)
+    * [Ignored async](#ignored-async)
   * [MadelineProto and AMPHP async APIs](#madelineproto-and-amphp-async-apis)
 
 ## Usage
@@ -68,7 +68,7 @@ $MadelineProto->async(true);
 yield $MadelineProto->messages->sendMessage(...);
 ```
 
-This will enable async mode for **only** for one specific call of a MadelineProto function (by adding a **new** array parameter after all the required parameters):  
+This will enable async mode for **only one** specific call of a MadelineProto function (by adding a **new** array parameter after all the required parameters):  
 ```php
 yield $MadelineProto->messages->sendMessage(..., ['async' => true]);
 ```
@@ -144,7 +144,7 @@ $MadelineProto->loop(function () use ($MadelineProto) {
 });
 ```
 
-## Ignored async
+### Ignored async
 ```php
 $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => 'a'], ['async' => true]);
 $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => 'b'], ['async' => true]);
@@ -163,7 +163,8 @@ Also, you should read the AMPHP docs, especially the [event loop docs](https://a
 
 MadelineProto also provides a few generic async helper methods:  
 ```php
-$MadelineProto->sleep(3); // Async sleep
+yield $MadelineProto->sleep(3);
+// Async sleep
 ```
 
 <a href="https://docs.madelineproto.xyz/docs/CREATING_A_CLIENT.html">Next section</a>

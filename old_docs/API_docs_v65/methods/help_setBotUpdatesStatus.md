@@ -22,7 +22,7 @@ Set the update status of webhook
 ### Can bots use this method: **YES**
 
 
-### MadelineProto Example:
+### MadelineProto Example ([now async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 
 
 ```php

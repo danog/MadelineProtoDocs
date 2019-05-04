@@ -24,7 +24,7 @@ Get channel/supergroup participants (you should use `$MadelineProto->get_pwr_cha
 ### Can bots use this method: **YES**
 
 
-### MadelineProto Example:
+### MadelineProto Example ([now async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 
 
 ```php
