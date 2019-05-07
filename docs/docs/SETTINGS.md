@@ -27,11 +27,14 @@ Description: Validity of temporary keys and the binding of the temporary and per
 
 ### `$settings['authorization']['rsa_keys'] = [...]`
 
-Default: ```["-----BEGIN RSA PUBLIC KEY-----\nMIIBCgKCAQEAwVACPi9w23mF3tBkdZz+zwrzKOaaQdr01vAbU4E1pvkfj4sqDsm6\nlyDONS789sVoD/xCS9Y0hkkC3gtL1tSfTlgCMOOul9lcixlEKzwKENj1Yz/s7daS\nan9tqw3bfUV/nqgbhGX81v/+7RFAEd+RwFnK7a+XYl9sluzHRyVVaTTveB2GazTw\nEfzk2DWgkBluml8OREmvfraX3bkHZJTKX4EQSjBbbdJ2ZXIsRrYOXfaA+xayEGB+\n8hdlLmAjbCVfaigxX0CDqWeR1yFL9kwd9P0NsZRPsmoqVwMbMu7mStFai6aIhc3n\nSlv8kg9qv1m6XHVQY3PnEw+QQtqSIXklHwIDAQAB\n-----END RSA PUBLIC KEY-----",
+Default:  
+```php
+["-----BEGIN RSA PUBLIC KEY-----\nMIIBCgKCAQEAwVACPi9w23mF3tBkdZz+zwrzKOaaQdr01vAbU4E1pvkfj4sqDsm6\nlyDONS789sVoD/xCS9Y0hkkC3gtL1tSfTlgCMOOul9lcixlEKzwKENj1Yz/s7daS\nan9tqw3bfUV/nqgbhGX81v/+7RFAEd+RwFnK7a+XYl9sluzHRyVVaTTveB2GazTw\nEfzk2DWgkBluml8OREmvfraX3bkHZJTKX4EQSjBbbdJ2ZXIsRrYOXfaA+xayEGB+\n8hdlLmAjbCVfaigxX0CDqWeR1yFL9kwd9P0NsZRPsmoqVwMbMu7mStFai6aIhc3n\nSlv8kg9qv1m6XHVQY3PnEw+QQtqSIXklHwIDAQAB\n-----END RSA PUBLIC KEY-----",
 "-----BEGIN RSA PUBLIC KEY-----\nMIIBCgKCAQEAxq7aeLAqJR20tkQQMfRn+ocfrtMlJsQ2Uksfs7Xcoo77jAid0bRt\nksiVmT2HEIJUlRxfABoPBV8wY9zRTUMaMA654pUX41mhyVN+XoerGxFvrs9dF1Ru\nvCHbI02dM2ppPvyytvvMoefRoL5BTcpAihFgm5xCaakgsJ/tH5oVl74CdhQw8J5L\nxI/K++KJBUyZ26Uba1632cOiq05JBUW0Z2vWIOk4BLysk7+U9z+SxynKiZR3/xdi\nXvFKk01R3BHV+GUKM2RYazpS/P8v7eyKhAbKxOdRcFpHLlVwfjyM1VlDQrEZxsMp\nNTLYXb6Sce1Uov0YtNx5wEowlREH1WOTlwIDAQAB\n-----END RSA PUBLIC KEY-----",
 "-----BEGIN RSA PUBLIC KEY-----\nMIIBCgKCAQEAsQZnSWVZNfClk29RcDTJQ76n8zZaiTGuUsi8sUhW8AS4PSbPKDm+\nDyJgdHDWdIF3HBzl7DHeFrILuqTs0vfS7Pa2NW8nUBwiaYQmPtwEa4n7bTmBVGsB\n1700/tz8wQWOLUlL2nMv+BPlDhxq4kmJCyJfgrIrHlX8sGPcPA4Y6Rwo0MSqYn3s\ng1Pu5gOKlaT9HKmE6wn5Sut6IiBjWozrRQ6n5h2RXNtO7O2qCDqjgB2vBxhV7B+z\nhRbLbCmW0tYMDsvPpX5M8fsO05svN+lKtCAuz1leFns8piZpptpSCFn7bWxiA9/f\nx5x17D7pfah3Sy2pA+NDXyzSlGcKdaUmwQIDAQAB\n-----END RSA PUBLIC KEY-----",
 "-----BEGIN RSA PUBLIC KEY-----\nMIIBCgKCAQEAwqjFW0pi4reKGbkc9pK83Eunwj/k0G8ZTioMMPbZmW99GivMibwa\nxDM9RDWabEMyUtGoQC2ZcDeLWRK3W8jMP6dnEKAlvLkDLfC4fXYHzFO5KHEqF06i\nqAqBdmI1iBGdQv/OQCBcbXIWCGDY2AsiqLhlGQfPOI7/vvKc188rTriocgUtoTUc\n/n/sIUzkgwTqRyvWYynWARWzQg0I9olLBBC2q5RQJJlnYXZwyTL3y9tdb7zOHkks\nWV9IMQmZmyZh/N7sMbGWQpt4NMchGpPGeJ2e5gHBjDnlIf2p1yZOYeUYrdbwcS0t\nUiggS4UeE8TzIuXFQxw7fzEIlmhIaq3FnwIDAQAB\n-----END RSA PUBLIC KEY-----"
-]```  
+]
+```  
 Description: Array of RSA keys to use during key exchange.  
 *WARNING*: be _very_ careful while modifying the default value of this setting, the security of telegram's MTProto protocol depends on it.
 
@@ -42,17 +45,22 @@ Description: Array of RSA keys to use during key exchange.
 IP addresses and subdomains of the MTProto datacenters
 
 ### `$settings['connection']['ssl_subdomains']`
-Default: `[
+Default:  
+```php
+[
     1 => 'pluto',
     2 => 'venus',
     3 => 'aurora',
     4 => 'vesta',
     5 => 'flora', // musa oh wait no :(
-]`  
+]
+```  
 Description: Subdomains of web.telegram.org for https protocol
 
 ### `$settings['connection']['test']`
-Default: `[
+Default:  
+```php
+[
     'ipv4' => [ // ipv4 addresses
         2 => [ // The rest will be fetched automatically
             'ip_address' => '149.154.167.40',
@@ -69,7 +77,8 @@ Default: `[
             'tcpo_only' => false,
         ],
     ],
-]`  
+]
+```  
 Description: test datacenter IPs
 
 ### `$settings['connection']['main']`
@@ -102,6 +111,19 @@ Connection settings
 
 Connection settings that will be applied to all datacenters
 
+### `$settings['connection_settings']['all']['obfuscated']`
+Default: `false`
+Description: Whether or not to use obfuscation when connecting to telegram to bypass ISP blocks.  
+Note: an additional round of encryption is required.  
+
+### `$settings['connection_settings']['all']['transport']`
+Default: `tcp`
+Description: What transport protocol to use when connecting to telegram (not supported by HTTP and HTTPS protocols, obfuscation must be enabled)
+
+* `tcp`: Default TCP transport
+* `ws`: Unencrypted websocket transport
+* `wss`: Encrypted (TLS) websocket transport
+
 ### `$settings['connection_settings']['all']['protocol']`
 Default: `'tcp_abridged'`  
 Description: MTProto transport protocol to use  
@@ -109,53 +131,28 @@ Available MTProto transport protocols (smaller overhead is better):
 
 * tcp_abridged: Lightest protocol available
   * Overhead: Very small 
-  * Pros:
-    * Minimum envelope length: 1 byte (length)
-    * Maximum envelope length: 4 bytes (length)
-
-  * Cons:
-    * Not all Telegram DCs support it
-    * No obfuscation
-    * No initial integrity check
-    * No transport sequence number
-
-
-* obfuscated2: Like tcp_abridged, but obfuscated 
-  * Overhead: Medium-high
-  * Pros:
-    * All Telegram DCs support it
-    * Minimum envelope length: 1 byte (length)
-    * Maximum envelope length: 4 bytes (length)
-    * Obfuscation to prevent ISP blocks
-
-  * Cons: 
-    * Initial payload of 64 bytes must be sent on every connection
-    * Additional round of encryption is required  
-    * No initial integrity check
-    * No transport sequence number
+  * Minimum envelope length: 1 byte (length)
+  * Maximum envelope length: 4 bytes (length)
 
 * tcp_intermediate: I guess they like having multiple protocols
   * Overhead: small
-  * Pros:
-    * Minimum envelope length: 4 bytes (length)
-    * Maximum envelope length: 4 bytes (length)
+  * Minimum envelope length: 4 bytes (length)
+  * Maximum envelope length: 4 bytes (length)
 
-  * Cons:
-    * No obfuscation
-    * No initial integrity check
-    * Not all Telegram DCs support it
-    * No transport sequence number
+* tcp_intermediate_padded: Padded version of the intermediate protocol, to use with obfuscation enabled to bypass ISP blocks
+  * Overhead: small-medium
+  * Minimum envelope length: random
+  * Maximum envelope length: random
 
-* tcp_full: The basic MTProto transport protocol, supported by all clients
+* tcp_full: The basic MTProto transport protocol
   * Overhead: medium
+  * Minimum envelope length: 12 bytes (length+seqno+crc)
+  * Maximum envelope length: 12 bytes (length+seqno+crc)
   * Pros:
-    * All Telegram DCs support it
     * Initial integrity check with crc32
     * Transport sequence number check
 
   * Cons:
-    * Minimum envelope length: 12 bytes (length+seqno+crc)
-    * Maximum envelope length: 12 bytes (length+seqno+crc)
     * Initial integrity check with crc32 is not that useful since the TCP protocol already uses it internally
     * Transport sequence number check is also not that useful since transport sequence numbers are not encrypted and thus cannot be used to avoid replay attacks, and MadelineProto already uses MTProto sequence numbers and message ids for that
 
@@ -163,11 +160,8 @@ Available MTProto transport protocols (smaller overhead is better):
   * Overhead: medium
   * Pros:
     * Can be used on restricted webhosts or browsers
-
-  * Cons: 
+  * Cons:
     * Very big envelope length
-    * No Initial integrity check
-    * No transport sequence number check
 
 * https: MTProto over HTTPS for browsers and webhosts, very secure
   * Overhead: high
@@ -176,8 +170,7 @@ Available MTProto transport protocols (smaller overhead is better):
     * Provides an additional layer of security by trasmitting data over TLS
     * Integrity checks with HMAC built into TLS
     * Sequence number checks built into TLS
- 
-  * Cons: 
+  * Cons:
     * Very big envelope length
     * Requires an additional round of encryption
 
