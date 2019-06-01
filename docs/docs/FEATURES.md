@@ -9,9 +9,11 @@ MadelineProto can do everything official clients can do, and more!
 
 * It allows you to do everything official clients can do, programmatically!
 
+* It is [fully async](https://docs.madelineproto.xyz/docs/ASYNC.html)!
+
 * *It can make phone calls!* [See here for instructions](https://docs.madelineproto.xyz/docs/CALLS.html)
 
-* It can be proxied!
+* It can be proxied (MTProxy, HTTP, socks5 and more)!
 
 * It is very fast!
 

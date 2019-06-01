@@ -21,7 +21,7 @@ description: get_pwr_chat parameters, return type and example
 $MadelineProto = new \danog\MadelineProto\API();
 $MadelineProto->start();
 
-$Chat = $MadelineProto->get_pwr_chat($id);
+$Chat = [yield](ASYNC.html) $MadelineProto->get_pwr_chat($id);
 ```
 
 Or, if you're into Lua:

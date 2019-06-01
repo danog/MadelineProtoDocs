@@ -19,9 +19,10 @@ Returns the secret chat ID
 
 
 ```php
-$MadelineProto = new \danog\MadelineProto\API();
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
+$MadelineProto->async(true);
 
-$secret_chat_id = $MadelineProto->request_secret_chat('@danogentili');
+$secret_chat_id = [yield](ASYNC.html) $MadelineProto->request_secret_chat('@danogentili');
 ```
 

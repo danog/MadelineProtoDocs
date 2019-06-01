@@ -20,7 +20,7 @@ description: get_info parameters, return type and example
 $MadelineProto = new \danog\MadelineProto\API();
 $MadelineProto->start();
 
-$Chat = $MadelineProto->get_info($id);
+$Chat = [yield](ASYNC.html) $MadelineProto->get_info($id);
 ```
 
 Or, if you're into Lua:

@@ -23,7 +23,7 @@ class EventHandler extends \danog\MadelineProto\EventHandler
         if (isset($update['message']['reply_markup']['rows'])) {
             foreach ($update['message']['reply_markup']['rows'] as $row) {
                 foreach ($row['buttons'] as $button) {
-                    $button->click();
+                    [yield](ASYNC.html) $button->click();
                 }
             }
         }
@@ -36,6 +36,7 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 
 $MadelineProto->start();
 $MadelineProto->setEventHandler('\EventHandler');
+$MadelineProto->async(true);
 $MadelineProto->loop();
 ```
 
@@ -50,7 +51,7 @@ $text = $button['text'];
 And click them:
 
 ```php
-$button->click();
+[yield](ASYNC.html) $button->click();
 ```
 
 <a href="https://docs.madelineproto.xyz/docs/SECRET_CHATS.html">Next section</a>

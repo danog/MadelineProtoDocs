@@ -12,10 +12,10 @@ Gets full list of dialogs
 
 
 ```php
-$MadelineProto = new \danog\MadelineProto\API();
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Peers = $MadelineProto->get_dialogs();
+$Peers = [yield](ASYNC.html)  $MadelineProto->get_dialogs();
 ```
 
 Or, if you're into Lua:

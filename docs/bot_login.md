@@ -17,7 +17,8 @@ description: bot_login parameters, return type and example
 
 
 ```php
-$MadelineProto = new \danog\MadelineProto\API();
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->async(true);
 
-$authorization = $this->bot_login($token);
+$authorization = [yield](ASYNC.html) $this->bot_login($token);
 ```

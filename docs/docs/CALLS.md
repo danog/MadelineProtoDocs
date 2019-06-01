@@ -13,7 +13,7 @@ if (!file_exists('input.raw')) {
     echo 'Downloading example song'.PHP_EOL;
     copy('https://github.com/danog/MadelineProto/raw/master/input.raw', 'input.raw');
 }
-$call = $MadelineProto->request_call('@danogentili')->play('input.raw')->then('input.raw')->playOnHold(['input.raw'])->setOutputFile('output.raw');
+$call = [yield](ASYNC.html) $MadelineProto->request_call('@danogentili')->play('input.raw')->then('input.raw')->playOnHold(['input.raw'])->setOutputFile('output.raw');
 
 // We need to receive updates in order to avoid closing the script before the call has ended
 while ($call->getCallState() < \danog\MadelineProto\VoIP::CALL_STATE_ENDED) {

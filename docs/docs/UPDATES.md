@@ -7,17 +7,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 Update handling can be done in different ways: 
 
-* [Event driven](#event-driven)
-* [Multi-account: Combined Event driven update handling](#combined-event-driven)
-* [Callback](#callback)
-* [Noop](#noop)
+* [Async Event driven](#async-event-driven)
+* [Multi-account: Async Combined Event driven update handling](#async-combined-event-driven)
+* [Async Callback](#async-callback)
+* [Noop (default)](#noop)
 
-IMPORTANT: Note that you should turn off update handling if you don't want to use it anymore because the default get_updates update handling stores updates in an array inside the MadelineProto object, without deleting old ones unless they are read using get_updates.  
-```php
-$MadelineProto->settings['updates']['handle_updates'] = false;
+
 ```
 
-## Event driven
+## Async Event driven
 
 ```php
 class EventHandler extends \danog\MadelineProto\EventHandler
@@ -30,13 +28,9 @@ class EventHandler extends \danog\MadelineProto\EventHandler
     {
         \danog\MadelineProto\Logger::log("Received an update of type ".$update['_']);
     }
-    public function onLoop()
-    {
-        \danog\MadelineProto\Logger::log("Working...");
-    }
     public function onUpdateNewChannelMessage($update)
     {
-        $this->onUpdateNewMessage($update);
+        yield $this->onUpdateNewMessage($update);
     }
     public function onUpdateNewMessage($update)
     {
@@ -49,38 +43,47 @@ class EventHandler extends \danog\MadelineProto\EventHandler
         }
 
         try {
-            $this->messages->sendMessage(['peer' => $update, 'message' => $res, 'reply_to_msg_id' => $update['message']['id'], 'entities' => [['_' => 'messageEntityPre', 'offset' => 0, 'length' => strlen($res), 'language' => 'json']]]);
+            yield $this->messages->sendMessage(['peer' => $update, 'message' => $res, 'reply_to_msg_id' => $update['message']['id']]);
         } catch (\danog\MadelineProto\RPCErrorException $e) {
-            $this->messages->sendMessage(['peer' => '@danogentili', 'message' => $e->getCode().': '.$e->getMessage().PHP_EOL.$e->getTraceAsString()]);
+            yield $this->messages->sendMessage(['peer' => '@danogentili', 'message' => $e]);
         }
 
         try {
             if (isset($update['message']['media']) && ($update['message']['media']['_'] == 'messageMediaPhoto' || $update['message']['media']['_'] == 'messageMediaDocument')) {
                 $time = microtime(true);
-                $file = $this->download_to_dir($update, '/tmp');
-                $this->messages->sendMessage(['peer' => $update, 'message' => 'Downloaded to '.$file.' in '.(microtime(true) - $time).' seconds', 'reply_to_msg_id' => $update['message']['id'], 'entities' => [['_' => 'messageEntityPre', 'offset' => 0, 'length' => strlen($res), 'language' => 'json']]]);
+                $file = yield $this->download_to_dir($update, '/tmp');
+                yield $this->messages->sendMessage(['peer' => $update, 'message' => 'Downloaded to '.$file.' in '.(microtime(true) - $time).' seconds', 'reply_to_msg_id' => $update['message']['id']]);
             }
         } catch (\danog\MadelineProto\RPCErrorException $e) {
-            $this->messages->sendMessage(['peer' => '@danogentili', 'message' => $e->getCode().': '.$e->getMessage().PHP_EOL.$e->getTraceAsString()]);
+            yield $this->messages->sendMessage(['peer' => '@danogentili', 'message' => $e]);
         }
     }
 }
 
 
 $MadelineProto = new \danog\MadelineProto\API('bot.madeline');
-
-$MadelineProto->start();
-$MadelineProto->setEventHandler('\EventHandler');
+$MadelineProto->async(true);
+$MadelineProto->loop(function () use ($MadelineProto) {
+    yield $MadelineProto->start();
+    yield $MadelineProto->setEventHandler('\EventHandler');
+});
 $MadelineProto->loop();
 ```
 
 This will create an event handler class `EventHandler`, create a MadelineProto session, and set the event handler class to our newly created event handler.
 
-When an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html) is received, the corresponding `onUpdateType` event handler method is called. To get a list of all possible update types, [click here](https://docs.madelineproto.xyz/API_docs/types/Update.html). 
+This yield syntax might be new to you, even if you already used MadelineProto in the past.  
+It's a new syntax to allow async **parallel processing** of updates and HUGE speed improvements.  
+It was recently introduced in MadelineProto, [here's a full explanation](ASYNC.html).  
+If your code still relies on the old synchronous behaviour, it's still supported, but I HIGHLY recommend you switch to the new async syntax: it's __super__ easy, [just add a `yield` in front of method calls](ASYNC.html)!  
+
+When an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html) is received, the corresponding `onUpdateType` event handler method is called.  
+
+To get a list of all possible update types, [click here](https://docs.madelineproto.xyz/API_docs/types/Update.html). 
+
 If such a method does not exist, the `onAny` event handler method is called.  
 If the `onAny` event handler method does not exist, the update is ignored.  
-The `onLoop` method, if it exists, will be called every time the update loop finishes one cycle, even if no update was received.  
-It is useful for scheduling actions.
+The `onLoop` method is not recommended anymore, use AMPHP's [repeat](https://amphp.org/amp/event-loop/api#repeat) or MadelineProto's [async loop API](ASYNC.html#async-loop-apis) to schedule actions in a cron-like manner.  
 
 To access the `$MadelineProto` instance inside of the event handler, simply access `$this`:
 ```php
@@ -91,10 +94,10 @@ If you intend to use your own constructor in the event handler, make sure to cal
 
 The update handling loop is started by the `$MadelineProto->loop()` method, and it will automatically restart the script if execution time runs out.
 
-To break out of the loop just call `die();`
+To break out of the loop just call `die();`, or throw an exception from within (make sure to catch it outside, in the `$MadelineProto->loop()` call).  
 
 
-## Combined event driven
+## Async Combined event driven
 
 ```php
 class EventHandler extends \danog\MadelineProto\CombinedEventHandler
@@ -113,7 +116,7 @@ class EventHandler extends \danog\MadelineProto\CombinedEventHandler
     }
     public function onUpdateNewChannelMessage($update, $session)
     {
-        $this->onUpdateNewMessage($update, $session);
+        yield $this->onUpdateNewMessage($update, $session);
     }
     public function onUpdateNewMessage($update, $session)
     {
@@ -126,19 +129,19 @@ class EventHandler extends \danog\MadelineProto\CombinedEventHandler
         }
 
         try {
-            $this->{$session}->messages->sendMessage(['peer' => $update, 'message' => $res, 'reply_to_msg_id' => $update['message']['id'], 'entities' => [['_' => 'messageEntityPre', 'offset' => 0, 'length' => strlen($res), 'language' => 'json']]]);
+            yield $this->{$session}->messages->sendMessage(['peer' => $update, 'message' => $res, 'reply_to_msg_id' => $update['message']['id']]);
         } catch (\danog\MadelineProto\RPCErrorException $e) {
-            $this->{$session}->messages->sendMessage(['peer' => '@danogentili', 'message' => $e->getCode().': '.$e->getMessage().PHP_EOL.$e->getTraceAsString()]);
+            yield $this->{$session}->messages->sendMessage(['peer' => '@danogentili', 'message' => $e]);
         }
 
         try {
             if (isset($update['message']['media']) && ($update['message']['media']['_'] == 'messageMediaPhoto' || $update['message']['media']['_'] == 'messageMediaDocument')) {
                 $time = microtime(true);
-                $file = $this->{$session}->download_to_dir($update, '/tmp');
-                $this->{$session}->messages->sendMessage(['peer' => $update, 'message' => 'Downloaded to '.$file.' in '.(microtime(true) - $time).' seconds', 'reply_to_msg_id' => $update['message']['id'], 'entities' => [['_' => 'messageEntityPre', 'offset' => 0, 'length' => strlen($res), 'language' => 'json']]]);
+                $file = yield $this->{$session}->download_to_dir($update, '/tmp');
+                yield $this->{$session}->messages->sendMessage(['peer' => $update, 'message' => 'Downloaded to '.$file.' in '.(microtime(true) - $time).' seconds', 'reply_to_msg_id' => $update['message']['id']]);
             }
         } catch (\danog\MadelineProto\RPCErrorException $e) {
-            $this->{$session}->messages->sendMessage(['peer' => '@danogentili', 'message' => $e->getCode().': '.$e->getMessage().PHP_EOL.$e->getTraceAsString()]);
+            yield $this->{$session}->messages->sendMessage(['peer' => '@danogentili', 'message' => $e]);
         }
     }
 }
@@ -156,18 +159,27 @@ $CombinedMadelineProto->instances['user.madeline']->start();
 $CombinedMadelineProto->instances['user2.madeline']->start();
 
 $CombinedMadelineProto->setEventHandler('\EventHandler');
+$CombinedMadelineProto->async(true);
 $CombinedMadelineProto->loop();
 ```
 
 This will create an event handler class `EventHandler`, create a **combined** MadelineProto session with session files `bot.madeline`, `user.madeline`, `user2.madeline`, and set the event handler class to our newly created event handler.
 
-When an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html) is received, the corresponding `onUpdateType` event handler method is called. To get a list of all possible update types, [click here](https://docs.madelineproto.xyz/API_docs/types/Update.html). 
+This yield syntax might be new to you, even if you already used MadelineProto in the past.  
+It's a new syntax to allow async **parallel processing** of updates and HUGE speed improvements.  
+It was recently introduced in MadelineProto, [here's a full explanation](ASYNC.html).  
+If your code still relies on the old synchronous behaviour, it's still supported, but I HIGHLY recommend you switch to the new async syntax: it's __super__ easy, [just add a `yield` in front of method calls](ASYNC.html)!  
+
+When an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html) is received, the corresponding `onUpdateType` event handler method is called. 
+
+To get a list of all possible update types, [click here](https://docs.madelineproto.xyz/API_docs/types/Update.html).  
+
 If such a method does not exist, the `onAny` event handler method is called.  
 If the `onAny` event handler method does not exist, the update is ignored.  
 The first paramter of the event handler method will always be the [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html), the second parameter will always be the **session name**.
 
-The `onLoop` method, if it exists, will be called every time the update loop finishes one cycle, even if no update was received.  
-It is useful for scheduling actions.
+
+The `onLoop` method is not recommended anymore, use AMPHP's [repeat](https://amphp.org/amp/event-loop/api#repeat) or MadelineProto's [async loop API](ASYNC.html#async-loop-apis) to schedule actions in a cron-like manner.  
 
 To access the `$MadelineProto` instance of the account that sent the update, from inside of the event handler, simply access `$this->{$session_name}` (`$session_name` is the second parameter value of the event handler method, or just the session filename):
 ```php
@@ -179,23 +191,46 @@ If you intend to use your own constructor in the event handler, make sure to cal
 
 The update handling loop is started by the `$MadelineProto->loop()` method, and it will automatically restart the script if execution time runs out.
 
-To break out of the loop just call `die();`
+To break out of the loop just call `die();`, or throw an exception from within (make sure to catch it outside, in the `$MadelineProto->loop()` call).  
 
 
-## Callback
+
+## Async callback
 
 ```php
 $MadelineProto = new \danog\MadelineProto\API('bot.madeline');
 
 $MadelineProto->start();
-$MadelineProto->setCallback(function ($update) use ($MadelineProto) { \danog\MadelineProto\Logger::log("Received an update of type ".$update['_']); });
+$MadelineProto->setCallback(function ($update) use ($MadelineProto) {
+
+    if (isset($update['message']['out']) && $update['message']['out']) {
+        return;
+    }
+    $res = json_encode($update, JSON_PRETTY_PRINT);
+    if ($res == '') {
+        $res = var_export($update, true);
+    }
+
+    try {
+        yield $MadelineProto->messages->sendMessage(['peer' => $update, 'message' => $res, 'reply_to_msg_id' => $update['message']['id']]);
+    } catch (\danog\MadelineProto\RPCErrorException $e) {
+        yield $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => $e]);
+    }
+});
+$MadelineProto->async(true);
 $MadelineProto->loop();
 ```
 When an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html) is received, the provided callback function is called.
 
 The update handling loop is started by the `$MadelineProto->loop()` method, and it will automatically restart the script if execution time runs out.  
 
-To break out of the loop just call `die();`
+This yield syntax might be new to you, even if you already used MadelineProto in the past.  
+It's a new syntax to allow async **parallel processing** of updates and HUGE speed improvements.  
+It was recently introduced in MadelineProto, [here's a full explanation](ASYNC.html).  
+If your code still relies on the old synchronous behaviour, it's still supported, but I HIGHLY recommend you switch to the new async syntax: it's __super__ easy, [just add a `yield` in front of method calls](ASYNC.html)!  
+
+To break out of the loop just call `die();`, or throw an exception from within (make sure to catch it outside, in the `$MadelineProto->loop()` call).  
+
 
 
 ## Noop
@@ -207,5 +242,6 @@ $MadelineProto->start();
 $MadelineProto->setNoop();
 ```
 When an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html) is received, nothing is done. This is useful if you need to populate the internal peer database with peers to avoid `This peer is not present in the internal peer database errors`, but don't need to handle updates.  
+This is the default.  
 
 <a href="https://docs.madelineproto.xyz/docs/SETTINGS.html">Next section</a>

@@ -13,6 +13,6 @@ Logs you out
 
 
 ```php
-$MadelineProto->logout();
+[yield](ASYNC.html) $MadelineProto->logout();
 ```
 

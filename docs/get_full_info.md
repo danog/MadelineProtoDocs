@@ -17,10 +17,10 @@ description: get_full_info parameters, return type and example
 
 
 ```php
-$MadelineProto = new \danog\MadelineProto\API();
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Chat = $MadelineProto->get_full_info($id);
+$Chat = [yield](ASYNC.html) $MadelineProto->get_full_info($id);
 ```
 
 Or, if you're into Lua:

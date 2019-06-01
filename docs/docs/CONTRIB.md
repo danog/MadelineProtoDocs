@@ -83,6 +83,8 @@ Created by [Daniil Gentili](https://daniil.it), licensed under AGPLv3, based on 
 
 While writing this client, I looked at many projects for inspiration and help. Here's the full list:
 
+[tgl](https://github.com/tdlib/td)
+
 [tgl](https://github.com/vysheng/tgl)
 
 [Kotlogram](https://github.com/badoualy/kotlogram)

@@ -46,7 +46,7 @@ To disable automatic uploads by file name, set `$MadelineProto->settings['upload
 
 ### [inputMediaUploadedPhoto](https://docs.madelineproto.xyz/API_docs/constructors/inputMediaUploadedPhoto.html)
 ```php
-$sentMessage = $MadelineProto->messages->sendMedia([
+$sentMessage = [yield](ASYNC.html) $MadelineProto->messages->sendMedia([
     'peer' => '@danogentili',
     'media' => [
         '_' => 'inputMediaUploadedPhoto',
@@ -61,7 +61,7 @@ Can be used to upload photos: simply provide the photo's file path in the `file`
 
 ### [inputMediaUploadedDocument](https://docs.madelineproto.xyz/API_docs/constructors/inputMediaUploadedDocument.html)
 ```php
-$sentMessage = $MadelineProto->messages->sendMedia([
+$sentMessage = [yield](ASYNC.html) $MadelineProto->messages->sendMedia([
     'peer' => '@danogentili',
     'media' => [
         '_' => 'inputMediaUploadedDocument',
@@ -83,7 +83,7 @@ To actually set the document type, provide one or more [DocumentAttribute](https
 ### [documentAttributeFilename](https://docs.madelineproto.xyz/API_docs/constructors/documentAttributeFilename.html) to send a document
 
 ```php
-$sentMessage = $MadelineProto->messages->sendMedia([
+$sentMessage = [yield](ASYNC.html) $MadelineProto->messages->sendMedia([
     'peer' => '@danogentili',
     'media' => [
         '_' => 'inputMediaUploadedDocument',
@@ -100,7 +100,7 @@ $sentMessage = $MadelineProto->messages->sendMedia([
 ### [documentAttributeImageSize](https://docs.madelineproto.xyz/API_docs/constructors/documentAttributeImageSize.html) to send a photo as document
 
 ```php
-$sentMessage = $MadelineProto->messages->sendMedia([
+$sentMessage = [yield](ASYNC.html) $MadelineProto->messages->sendMedia([
     'peer' => '@danogentili',
     'media' => [
         '_' => 'inputMediaUploadedDocument',
@@ -117,7 +117,7 @@ $sentMessage = $MadelineProto->messages->sendMedia([
 
 ### [documentAttributeAnimated](https://docs.madelineproto.xyz/API_docs/constructors/documentAttributeAnimated.html) to send a gif
 ```php
-$sentMessage = $MadelineProto->messages->sendMedia([
+$sentMessage = [yield](ASYNC.html) $MadelineProto->messages->sendMedia([
     'peer' => '@danogentili',
     'media' => [
         '_' => 'inputMediaUploadedDocument',
@@ -133,7 +133,7 @@ $sentMessage = $MadelineProto->messages->sendMedia([
 
 ### [documentAttributeVideo](https://docs.madelineproto.xyz/API_docs/constructors/documentAttributeVideo.html) to send a video
 ```php
-$sentMessage = $MadelineProto->messages->sendMedia([
+$sentMessage = [yield](ASYNC.html) $MadelineProto->messages->sendMedia([
     'peer' => '@danogentili',
     'media' => [
         '_' => 'inputMediaUploadedDocument',
@@ -154,7 +154,7 @@ You might want to manually provide square `w` (width) and `h` (height) parameter
 ### [documentAttributeAudio](https://docs.madelineproto.xyz/API_docs/constructors/documentAttributeAudio.html) to send an audio file
 
 ```php
-$sentMessage = $MadelineProto->messages->sendMedia([
+$sentMessage = [yield](ASYNC.html) $MadelineProto->messages->sendMedia([
     'peer' => '@danogentili',
     'media' => [
         '_' => 'inputMediaUploadedDocument',
@@ -174,7 +174,7 @@ Set the `voice` parameter to true to send a voice message.
 ## Uploading files
 
 ```php
-$MessageMedia = $MadelineProto->messages->uploadMedia([
+$MessageMedia = [yield](ASYNC.html) $MadelineProto->messages->uploadMedia([
     'media' => [
         '_' => 'inputMediaUploadedPhoto',
         'file' => 'faust.jpg'
@@ -189,7 +189,7 @@ The [$MadelineProto->messages->uploadMedia](https://docs.madelineproto.xyz/API_d
 The returned [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object can then be reused to resend the document using sendMedia.
 
 ```php
-$sentMessage = $MadelineProto->messages->sendMedia([
+$sentMessage = [yield](ASYNC.html) $MadelineProto->messages->sendMedia([
     'peer' => '@danogentili',
     'media' => $MessageMedia,
     'message' => '[This is the caption](https://t.me/MadelineProto)',
@@ -206,7 +206,7 @@ $sentMessage = $MadelineProto->messages->sendMedia([
 Actual MessageMedia objects can also be converted to bot API file IDs like this:
 
 ```php
-$botAPI_file = $MadelineProto->MTProto_to_botAPI($MessageMedia);
+$botAPI_file = [yield](ASYNC.html) $MadelineProto->MTProto_to_botAPI($MessageMedia);
 ```
 
 `$botAPI_file` now contains a [bot API message](https://core.telegram.org/bots/api#message), to extract the file ID from it use the following code:
@@ -255,13 +255,13 @@ if (!isset($result['file_name'])) {
 `$MadelineProto->messages->uploadMedia` and bot API file IDs do not allow you to modify the type of the file to send: however, MadelineProto provides a method that can generate a file object that can be resent with multiple file types.
 
 ```php
-$inputFile = $MadelineProto->upload('filename.mp4');
+$inputFile = [yield](ASYNC.html) $MadelineProto->upload('filename.mp4');
 ```
 
 The generated `$inputFile` can later be reused thusly:
 
 ```php
-$sentMessage = $MadelineProto->messages->sendMedia([
+$sentMessage = [yield](ASYNC.html) $MadelineProto->messages->sendMedia([
     'peer' => '@danogentili',
     'media' => [
         '_' => 'inputMediaUploadedDocument',
@@ -273,7 +273,7 @@ $sentMessage = $MadelineProto->messages->sendMedia([
     'message' => '[This is the caption](https://t.me/MadelineProto)',
     'parse_mode' => 'Markdown'
 ]);
-$sentMessageVideo = $MadelineProto->messages->sendMedia([
+$sentMessageVideo = [yield](ASYNC.html) $MadelineProto->messages->sendMedia([
     'peer' => '@danogentili',
     'media' => [
         '_' => 'inputMediaUploadedDocument',
@@ -298,7 +298,7 @@ There are multiple download methods that allow you to download a file to a direc
 
 ### Extracting download info
 ```php
-$info = $MadelineProto->get_download_info($MessageMedia);
+$info = [yield](ASYNC.html) $MadelineProto->get_download_info($MessageMedia);
 ```
 
 `$MessageMedia` can be a [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object or a bot API file ID.
@@ -310,7 +310,7 @@ $info = $MadelineProto->get_download_info($MessageMedia);
 
 ### Download to directory
 ```php
-$output_file_name = $MadelineProto->download_to_dir($MessageMedia, '/tmp/');
+$output_file_name = [yield](ASYNC.html) $MadelineProto->download_to_dir($MessageMedia, '/tmp/');
 ```
 
 This downloads the given file to `/tmp`, and returns the full generated file path.
@@ -319,7 +319,7 @@ This downloads the given file to `/tmp`, and returns the full generated file pat
 
 ### Download to file
 ```php
-$output_file_name = $MadelineProto->download_to_file($MessageMedia, '/tmp/myname.mp4');
+$output_file_name = [yield](ASYNC.html) $MadelineProto->download_to_file($MessageMedia, '/tmp/myname.mp4');
 ```
 
 This downloads the given file to `/tmp/myname.mp4`, and returns the full file path.
@@ -329,12 +329,12 @@ This downloads the given file to `/tmp/myname.mp4`, and returns the full file pa
 
 ### Download to browser with streams
 ```php
-$info = $MadelineProto->get_download_info($MessageMedia);
+$info = [yield](ASYNC.html) $MadelineProto->get_download_info($MessageMedia);
 header('Content-Length: '.$info['size']);
 header('Content-Type: '.$info['mime']);
 
 $stream = fopen('php://output', 'w');
-$MadelineProto->download_to_stream($MessageMedia, $stream, $cb, $offset, $endoffset);
+[yield](ASYNC.html) $MadelineProto->download_to_stream($MessageMedia, $stream, $cb, $offset, $endoffset);
 ```
 
 This downloads the given file to the browser, sending also information about the file's type and size.
@@ -356,14 +356,14 @@ To get the upload/download progress in real-time, use the `\danog\MadelineProto\
 
 ```php
 $peer = '@danogentili';
-$sentMessage = $MadelineProto->messages->sendMedia([
+$sentMessage = [yield](ASYNC.html) $MadelineProto->messages->sendMedia([
     'peer' => $peer,
     'media' => [
         '_' => 'inputMediaUploadedDocument',
         'file' => new \danog\MadelineProto\FileCallback(
             'video.mp4',
             function ($progress) use ($MadelineProto, $peer) {
-                $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => 'Upload progress: '.$progress.'%']);
+                [yield](ASYNC.html) $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => 'Upload progress: '.$progress.'%']);
             }
         ),
         'attributes' => [
@@ -374,12 +374,12 @@ $sentMessage = $MadelineProto->messages->sendMedia([
     'parse_mode' => 'Markdown'
 ]);
 
-$output_file_name = $MadelineProto->download_to_file(
+$output_file_name = [yield](ASYNC.html) $MadelineProto->download_to_file(
     $sentMessage,
     new \danog\MadelineProto\FileCallback(
         '/tmp/myname.mp4',
         function ($progress) use ($MadelineProto, $peer) {
-            $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => 'Download progress: '.$progress.'%']);
+            [yield](ASYNC.html) $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => 'Download progress: '.$progress.'%']);
         }
     )
 );
@@ -408,11 +408,11 @@ class MyCallback implements \danog\MadelineProto\FileCallbackInterface
     }
     public function __invoke($progress)
     {
-        $this->MadelineProto->messages->sendMessage(['peer' => $this->peer, 'message' => 'Progress: '.$progress.'%']);
+        [yield](ASYNC.html) $this->MadelineProto->messages->sendMessage(['peer' => $this->peer, 'message' => 'Progress: '.$progress.'%']);
     }
 }
 $peer = '@danogentili';
-$sentMessage = $MadelineProto->messages->sendMedia([
+$sentMessage = [yield](ASYNC.html) $MadelineProto->messages->sendMedia([
     'peer' => $peer,
     'media' => [
         '_' => 'inputMediaUploadedDocument',
@@ -425,7 +425,7 @@ $sentMessage = $MadelineProto->messages->sendMedia([
     'parse_mode' => 'Markdown'
 ]);
 
-$output_file_name = $MadelineProto->download_to_file(
+$output_file_name = [yield](ASYNC.html) $MadelineProto->download_to_file(
     $sentMessage,
     new MyCallback('/tmp/myname.mp4', $peer, $MadelineProto)
 );

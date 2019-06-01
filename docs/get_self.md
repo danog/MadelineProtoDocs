@@ -17,7 +17,7 @@ No parameters
 $MadelineProto = new \danog\MadelineProto\API();
 $MadelineProto->start();
 
-$User = $MadelineProto->get_self();
+$User = [yield](ASYNC.html) $MadelineProto->get_self();
 ```
 
 Or, if you're into Lua:

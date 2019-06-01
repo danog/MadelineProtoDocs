@@ -15,7 +15,7 @@ MadelineProto provides wrappers to work with secret chats.
 ## Requesting secret chats
 
 ```php
-$secret_chat = $MadelineProto->request_secret_chat($InputUser);
+$secret_chat = [yield](ASYNC.html) $MadelineProto->request_secret_chat($InputUser);
 ```
 
 [`request_secret_chat`](https://docs.madelineproto.xyz/request_secret_chat.html) requests a secret secret chat to the [InputUser](https://docs.madelineproto.xyz/API_docs/types/InputUser.html), ID, or username specified, and returns the secret chat ID.
@@ -30,7 +30,7 @@ Before sending any message, you must check if the secret chat was accepted by th
 ## Checking secret chat status
 
 ```php
-$status = $MadelineProto->secret_chat_status($chat);
+$status = [yield](ASYNC.html) $MadelineProto->secret_chat_status($chat);
 ```
 
 $status is 0 if the chat cannot be found in the local database, 1 if the chat was requested but not yet accepted, and 2 if it is a valid accepted secret chat.
@@ -42,7 +42,7 @@ $status is 0 if the chat cannot be found in the local database, 1 if the chat wa
 To send messages/files/service messages, simply use the sendEncrypted methods with objects that use the same layer used by the other client (specified by the number after the underscore in decryptedMessage object names, to obtain the layer that must be used for a secret chat use the following wrapper method).  
 
 ```php
-$secret_chat = $MadelineProto->get_secret_chat($chat);
+$secret_chat = [yield](ASYNC.html) $MadelineProto->get_secret_chat($chat);
 /*
 [
     'key' => [ // The authorization key

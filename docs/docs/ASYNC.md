@@ -5,7 +5,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Async
 
-MadelineProto now features async, for **incredible speed improvements**, and parallel processing **without** buggy and slow threading/multiprocessing.  
+MadelineProto now features async, for **incredible speed improvements**, and parallel processing.  
 Powered by [amphp](https://amphp.org), MadelineProto wraps the AMPHP APIs to provide a simpler generator-based async API.  
 
 * [Usage](#usage)
@@ -18,6 +18,8 @@ Powered by [amphp](https://amphp.org), MadelineProto wraps the AMPHP APIs to pro
     * [Ignored async](#ignored-async)
     * [Blocking async](#blocking-async)
   * [MadelineProto and AMPHP async APIs](#madelineproto-and-amphp-async-apis)
+    * [Helper methods](#helper-methods)
+    * [MadelineProto async loop APIs](#async-loop-apis)
 
 ## Usage
 
@@ -94,6 +96,7 @@ This **will not work**, because the result of a function that uses `yield` is no
 If the generator is not __passed to the AMPHP event loop__, execution of the function will not be resumed: when MadelineProto asynchronously obtains the result of the get_info, execution of the function is never resumed, and the line with sendMessage is never called.  
 To avoid this problem, only call asynchronous functions in the event/callback update handler, or in functions called by the event/callback update handler, or inside a function passed to loop.  
 You can also call asynchronous functions created by you, within other asynchronous functions.  
+Generators in MadelineProto are equivalent to promises, which is a paradigm you may have used in other languages.
 
 ### Async in [event handler](https://docs.madelineproto.xyz/docs/UPDATES.html#event-driven):
 ```php
@@ -158,7 +161,7 @@ $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => 'b
 
 You can use the async version of MadelineProto functions **without** yield if you don't want the request to block, and you don't need the result of the function.  
 This is allowed, but the order of the function calls will not be guaranteed: you can use [call queues](https://docs.madelineproto.xyz/docs/USING_METHODS.html#queues) if you want to make sure the order of the calls remains the same.
-
+See [async forking](#async-forking-does-async-single-thread-forking).  
 
 ### Blocking async
 ```php
@@ -176,10 +179,86 @@ When using AMPHP libraries, you just have to use them with yield, no need to sta
 
 Also, you should read the AMPHP docs, especially the [event loop docs](https://amphp.org/amp/event-loop/api): AMPHP provides multiple helper methods for executing actions repeatedly every N seconds in a non-blocking manner, or to defer execution of certain actions (aka async cron).  
 
-MadelineProto also provides a few generic async helper methods:  
+### Helper methods
+
+MadelineProto also provides a few generic async helper methods: when possible, always use MadelineProto's wrapped versions of the [amphp combinators](https://amphp.org/amp/promises/combinators) and [amphp helpers](https://amphp.org/amp/promises/miscellaneous) instead of original amphp methods (`all`, `any`, `some`, `first`, ...).  
+
+#### Async sleep (does not block the main thread)
 ```php
 yield $MadelineProto->sleep(3);
-// Async sleep
 ```
+
+#### Async forking (does async single-thread forking)
+
+Useful if you need to start a process in the background and you want throwed exceptions to surface up.  
+These exceptions will exit the event loop, turning off the script unless you wrap `$MadelineProto->loop()` with a try-catch.  
+Use it when you do not need the result of a method (see [ignored async](#ignored-async)), but you want eventual errors to crash the script.  
+Otherwise, just use the method without yield.  
+
+```php
+// Exceptions will surface out of the event loop()
+$MadelineProto->callFork($MadelineProto->messages->sendMessage([...]));
+// Exceptions will be ignored
+$MadelineProto->messages->sendMessage([...]);
+
+// Like the first one, but the call will be deferred to the next event loop tick
+$MadelineProto->callForkDefer($MadelineProto->messages->sendMessage([...]));
+```
+
+Ignoring exceptions is usually not good practice, so it's best to wrap the method you're calling in a closure with a try-catch with some error handling code inside of it, calling it right after that and passing it to callFork:
+
+```php
+$MadelineProto->callFork((function () use ($MadelineProto) {
+    try {
+        $MadelineProto->messages->sendMessage([...])
+    } catch (\Exception $e) {
+        // Handle by logging and stuff
+    }
+})());
+```
+
+#### Combining async operations
+
+These methods can be used to execute multiple async operations simultaneously and wait for the result of all of them.  
+Each method has different error handling techniques, see the [amphp docs](https://amphp.org/amp/promises/combinators).  
+Note that if you just take the result of these methods without yielding it, you can use it as a normal promise/generator.  
+
+```
+$promise1 = $MadelineProto->messages->sendMessage(...);
+$promise2 = $MadelineProto->messages->sendMessage(...);
+// $promise3 = ...;
+
+// Equivalent to Amp\Promise\all(), but works with generators, too
+$results = yield $MadelineProto->all([$promise1, $promise2, $generator3]);
+
+// Equivalent to Amp\Promise\first(), but works with generators, too
+$results = yield $MadelineProto->first([$promise1, $promise2, $generator3]);
+
+// Equivalent to Amp\Promise\any(), but works with generators, too
+$results = yield $MadelineProto->any([$promise1, $promise2, $generator3]);
+
+// Equivalent to Amp\Promise\some(), but works with generators, too
+$results = yield $MadelineProto->some([$promise1, $promise2, $generator3]);
+
+```
+
+#### Handling timeouts
+
+These methods can be used to wait for a certain amount of time for a result, and then throw an `Amp\TimeoutException` or simply continue execution if no result was obtained.  
+
+```
+// Waits for the result for 2 seconds and then throws an \Amp\TimeoutException
+$result = yield $MadelineProto->timeout($promise, 2)
+
+// Waits for the result for 2 seconds, returns the result or null (which is the result of sleep())
+$result = yield $MadelineProto->first([$promise, $MadelineProto->sleep(2)]);
+```
+
+### Async loop APIs
+
+MadelineProto provides a very useful async loop APIs, for executing operations periodically or on demand.  
+It's a more flexible and powerful alternative to AMPHP's [repeat](https://amphp.org/amp/event-loop/api#repeat), allowing dynamically changeable repeat periods, resumes and signaling.  
+
+
 
 <a href="https://docs.madelineproto.xyz/docs/CREATING_A_CLIENT.html">Next section</a>
