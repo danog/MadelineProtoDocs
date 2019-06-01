@@ -191,6 +191,23 @@ MadelineProto also provides a few generic async helper methods: when possible, a
 yield $MadelineProto->sleep(3);
 ```
 
+#### MadelineProto artax HTTP client
+
+When using amphp's [artax](https://amphp.org/artax) to make high-speed asynchronous HTTP requests (downloading files, etc.), use MadelineProto's modified Artax client, instead.  
+It automatically supports the socks/HTTP proxies specified in MadelineProto's settings (will use proxies only if the file can't be downloaded normally), and soon DoH for greater security.  
+
+To use MadelineProto's artax client, instead of creating artax's default client:  
+```php
+$client = new Amp\Artax\DefaultClient;
+```
+
+Simply get MadelineProto's artax client:  
+```php
+$client = $MadelineProto->getHTTPClient();
+```
+
+From here it's like in the [artax docs](https://amphp.org/artax).  
+
 #### Async forking (does async single-thread forking)
 
 Useful if you need to start a process in the background and you want throwed exceptions to surface up.  
