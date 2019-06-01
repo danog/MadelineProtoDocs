@@ -46,6 +46,9 @@ Once the file is downloaded, execution is automatically **resumed** from that ex
 
 This means that you can handle multiple updates, download/upload multiple files all together in one process, as if you were writing normal synchronous code + making everything a lot faster.  
 
+If your code still relies on the old synchronous behaviour, don't worry, there is backward compatibility.  
+However, I highly recommend you switch to async, due to the huge performance and parallelism benefits.  
+
 ## Loading the latest version of MadelineProto
 
 In order to use the `yield` operator in MadelineProto, you have to load the **latest version** of MadelineProto from the **master** branch (alpha) by loading it through composer (`dev-master`) or with madeline.php:  

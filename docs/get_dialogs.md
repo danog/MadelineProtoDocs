@@ -8,14 +8,11 @@ Gets full list of dialogs
 
 ### Return type: Array of [Peer objects](API_docs/types/Peer.md)
 
-### Example:
+### Example ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 
 
 ```php
-$MadelineProto = new \danog\MadelineProto\API('session.madeline');
-$MadelineProto->start();
-
-$Peers = [yield](ASYNC.html)  $MadelineProto->get_dialogs();
+$Peers = yield  $MadelineProto->get_dialogs();
 ```
 
 Or, if you're into Lua:

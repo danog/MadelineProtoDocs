@@ -12,37 +12,37 @@ MadelineProto provides wrappers to work with secret chats.
 * [Checking secret chat status](#checking-secret-chat-status)
 * [Sending secret messages](#sending-secret-messages)
 
-## Requesting secret chats
+## Requesting secret chats ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 
 ```php
-$secret_chat = [yield](ASYNC.html) $MadelineProto->request_secret_chat($InputUser);
+$secret_chat = yield $MadelineProto->request_secret_chat($InputUser);
 ```
 
 [`request_secret_chat`](https://docs.madelineproto.xyz/request_secret_chat.html) requests a secret secret chat to the [InputUser](https://docs.madelineproto.xyz/API_docs/types/InputUser.html), ID, or username specified, and returns the secret chat ID.
 
 
-## Accepting secret chats
+## Accepting secret chats ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 
 Secret chats are accepted or refused automatically, based on a value in the [settings](SETTINGS.html#settingssecret_chatsaccept_chats) (by default MadelineProto is set to accept all secret chats).
 
 Before sending any message, you must check if the secret chat was accepted by the other client with the following method:
 
-## Checking secret chat status
+## Checking secret chat status ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 
 ```php
-$status = [yield](ASYNC.html) $MadelineProto->secret_chat_status($chat);
+$status = yield $MadelineProto->secret_chat_status($chat);
 ```
 
 $status is 0 if the chat cannot be found in the local database, 1 if the chat was requested but not yet accepted, and 2 if it is a valid accepted secret chat.
 
-## Sending secret messages
+## Sending secret messages ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 
 [Full example](https://github.com/danog/MadelineProto/blob/master/secret_bot.php)
 
 To send messages/files/service messages, simply use the sendEncrypted methods with objects that use the same layer used by the other client (specified by the number after the underscore in decryptedMessage object names, to obtain the layer that must be used for a secret chat use the following wrapper method).  
 
 ```php
-$secret_chat = [yield](ASYNC.html) $MadelineProto->get_secret_chat($chat);
+$secret_chat = yield $MadelineProto->get_secret_chat($chat);
 /*
 [
     'key' => [ // The authorization key

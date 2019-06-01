@@ -11,9 +11,9 @@ There are various methods that can be used to fetch info about chats, based on b
 * [Full chat info](#get_full_info)
 * [Reduced chat info (very fast)](#get_info)
 
-## get_pwr_chat
+## get_pwr_chat ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 ```php
-$pwr_chat = [yield](ASYNC.html) $MadelineProto->get_pwr_chat(-100214891824);
+$pwr_chat = yield $MadelineProto->get_pwr_chat(-100214891824);
 foreach ($pwr_chat['participants'] as $participant) {
     \danog\MadelineProto\Logger::log($participant);
 }
@@ -25,9 +25,9 @@ Use `get_pwr_chat` to get full chat info, including the full list of members, se
 * Speed: medium
 * Caching: medium
 
-## get_full_info
+## get_full_info ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 ```php
-$full_chat = [yield](ASYNC.html) $MadelineProto->get_full_info(-10028941842);
+$full_chat = yield $MadelineProto->get_full_info(-10028941842);
 ```
 
 You can also use `get_full_info` to get full chat info, without the full list of members, see [here for the parameters and the result](https://docs.madelineproto.xyz/get_full_info.html).  
@@ -36,9 +36,9 @@ You can also use `get_full_info` to get full chat info, without the full list of
 * Speed: medium-fast
 * Caching: full
 
-## get_info
+## get_info ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 ```php
-$chat = [yield](ASYNC.html) $MadelineProto->get_info(-10028941842);
+$chat = yield $MadelineProto->get_info(-10028941842);
 ```
 
 You can also use `get_info` to get chat info, see [here for the parameters and the result](https://docs.madelineproto.xyz/get_info.html)

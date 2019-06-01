@@ -11,19 +11,19 @@ There are two ways to get a list of all chats, depending if you logged in as a u
     * [Full dialog info](#user-get_full_dialogs)
 * [As bot](#bot-internal-peer-database)
 
-## User: get_dialogs
+## User: get_dialogs ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 ```php
-$dialogs = [yield](ASYNC.html) $MadelineProto->get_dialogs();
+$dialogs = yield $MadelineProto->get_dialogs();
 foreach ($dialogs as $peer) {
-    [yield](ASYNC.html) $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => 'Hi! Testing MadelineProto broadcasting!']);
+    yield $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => 'Hi! Testing MadelineProto broadcasting!']);
 }
 ```
 
 `get_dialogs` will return a full list of all chats you're member of, see [here for the parameters and the result](https://docs.madelineproto.xyz/get_dialogs.html)
 
-## User: get_full_dialogs
+## User: get_full_dialogs ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 ```php
-$dialogs = [yield](ASYNC.html) $MadelineProto->get_full_dialogs();
+$dialogs = yield $MadelineProto->get_full_dialogs();
 foreach ($dialogs as $dialog) {
     \danog\MadelineProto\Logger::log($dialog);
 }
@@ -35,7 +35,7 @@ foreach ($dialogs as $dialog) {
 ```php
 foreach ($MadelineProto->API->chats as $bot_api_id => $chat) {
     try {
-        [yield](ASYNC.html) $MadelineProto->messages->sendMessage(['peer' => $chat, 'message' => "Hi $bot_api_id! Testing MadelineProto broadcasting!"]);
+        yield $MadelineProto->messages->sendMessage(['peer' => $chat, 'message' => "Hi $bot_api_id! Testing MadelineProto broadcasting!"]);
     } catch (\danog\MadelineProto\RPCErrorException $e) {
         echo $e;
     }

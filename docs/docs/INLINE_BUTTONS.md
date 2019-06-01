@@ -3,7 +3,7 @@ title: Inline buttons
 description: You can easily click inline buttons using MadelineProto, just access the correct button:
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Inline buttons
+# Inline buttons ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 
 You can easily click inline buttons using MadelineProto, just access the correct button:
 
@@ -23,7 +23,7 @@ class EventHandler extends \danog\MadelineProto\EventHandler
         if (isset($update['message']['reply_markup']['rows'])) {
             foreach ($update['message']['reply_markup']['rows'] as $row) {
                 foreach ($row['buttons'] as $button) {
-                    [yield](ASYNC.html) $button->click();
+                    yield $button->click();
                 }
             }
         }
@@ -51,7 +51,7 @@ $text = $button['text'];
 And click them:
 
 ```php
-[yield](ASYNC.html) $button->click();
+yield $button->click();
 ```
 
 <a href="https://docs.madelineproto.xyz/docs/SECRET_CHATS.html">Next section</a>

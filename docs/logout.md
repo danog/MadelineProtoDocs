@@ -9,10 +9,10 @@ Logs you out
 
 ### Return type: boolean
 
-### Example:
+### Example ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 
 
 ```php
-[yield](ASYNC.html) $MadelineProto->logout();
+yield $MadelineProto->logout();
 ```
 

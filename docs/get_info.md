@@ -13,14 +13,11 @@ description: get_info parameters, return type and example
 
 ### Return type: [Info](Info.md)
 
-### Example:
+### Example ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 
 
 ```php
-$MadelineProto = new \danog\MadelineProto\API();
-$MadelineProto->start();
-
-$Chat = [yield](ASYNC.html) $MadelineProto->get_info($id);
+$Chat = yield $MadelineProto->get_info($id);
 ```
 
 Or, if you're into Lua:

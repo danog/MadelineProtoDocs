@@ -10,14 +10,11 @@ No parameters
 
 ### Return type: [User object](API_docs/types/User.md)
 
-### Example:
+### Example ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 
 
 ```php
-$MadelineProto = new \danog\MadelineProto\API();
-$MadelineProto->start();
-
-$User = [yield](ASYNC.html) $MadelineProto->get_self();
+$User = yield $MadelineProto->get_self();
 ```
 
 Or, if you're into Lua:

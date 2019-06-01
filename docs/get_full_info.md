@@ -13,14 +13,11 @@ description: get_full_info parameters, return type and example
 
 ### Return type: [FullInfo](FullInfo.md)
 
-### Example:
+### Example ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 
 
 ```php
-$MadelineProto = new \danog\MadelineProto\API('session.madeline');
-$MadelineProto->start();
-
-$Chat = [yield](ASYNC.html) $MadelineProto->get_full_info($id);
+$Chat = yield $MadelineProto->get_full_info($id);
 ```
 
 Or, if you're into Lua:

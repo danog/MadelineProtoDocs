@@ -13,12 +13,9 @@ description: bot_login parameters, return type and example
 
 ### Return type: [auth.Authorization](API_docs/types/auth_Authorization.md)
 
-### Example:
+### Example ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 
 
 ```php
-$MadelineProto = new \danog\MadelineProto\API('session.madeline');
-$MadelineProto->async(true);
-
-$authorization = [yield](ASYNC.html) $this->bot_login($token);
+$authorization = yield $this->bot_login($token);
 ```

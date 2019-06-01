@@ -15,14 +15,10 @@ description: request_secret_chat parameters, return type and example
 
 Returns the secret chat ID
 
-### Example:
+### Example ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 
 
 ```php
-$MadelineProto = new \danog\MadelineProto\API('session.madeline');
-$MadelineProto->start();
-$MadelineProto->async(true);
-
-$secret_chat_id = [yield](ASYNC.html) $MadelineProto->request_secret_chat('@danogentili');
+$secret_chat_id = yield $MadelineProto->request_secret_chat('@danogentili');
 ```
 
