@@ -188,11 +188,11 @@ Description: Connection, read and write timeout for sockets
 
 ### `$settings['connection_settings']['all']['proxy']`
 Default: `\Socket`  
-Description: The [proxy class](PROXY.html) to use.
+Description: The [proxy class (or array of proxy classes)](PROXY.html) to use: MTProxy, socks5 and HTTP proxies are supported by default.
 
 ### `$settings['connection_settings']['all']['proxy_extra']`
 Default: `[]`  
-Description: Extra parameters to pass to the proxy class using setExtra
+Description: Extra parameters (or array of paremeters) to pass to the proxy class
 
 ### `$settings['connection_settings']['all']['pfs']`
 Default: `true` if `php-gmp` is installed, `false` otherwise  
@@ -335,6 +335,10 @@ Download settings
 ### `$settings['download']['part_size']`
 Default: `1024*1024`  
 Description: Default part size for file download
+
+### `$settings['download']['report_broken_media']`
+Default: `true`  
+Description: Whether or not to automatically report undownloadable media to support
 
 <hr>
 ## `$settings['msg_array_limit']`
