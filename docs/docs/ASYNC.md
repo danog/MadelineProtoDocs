@@ -278,7 +278,234 @@ $result = yield $MadelineProto->first([$promise, $MadelineProto->sleep(2)]);
 
 MadelineProto provides a very useful async loop APIs, for executing operations periodically or on demand.  
 It's a more flexible and powerful alternative to AMPHP's [repeat](https://amphp.org/amp/event-loop/api#repeat), allowing dynamically changeable repeat periods, resumes and signaling.  
+All loop APIs are defined by one or more [interfaces](https://github.com/danog/MadelineProto/tree/master/src/danog/MadelineProto/Loop): however, to use them, you would usually have to extend only one of the [abstract class implementations](https://github.com/danog/MadelineProto/tree/master/src/danog/MadelineProto/Loop/Impl).  
 
+#### Loop
+
+A basic loop, capable of running in background (asynchronously) the code contained in the `loop` function.  
+
+[Interface](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/LoopInterface.php):  
+```php
+namespace danog\MadelineProto\Loop;
+
+interface LoopInterface
+{
+    /**
+     * Start the loop.
+     *
+     * @return void
+     */
+    public function start();
+
+    /**
+     * The actual loop.
+     *
+     * @return void
+     */
+    public function loop();
+
+    /**
+     * Get name of the loop
+     *
+     * @return string
+     */
+    public function __toString(): string;
+}
+```
+
+Usually one would extend the [Loop implementation](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/Impl/Loop.php).  
+The loop function will be run only once, every time the `start` method (already implemented in the abstract Impl class we're extending) is called.  
+Multiple calls to `start` will be ignored, logging an error and returning `false` instead of `true`.  
+The `__toString` method still has to be implemented in order to get the name of the loop, that will be used by the MadelineProto logging mechanism every time the loop starts/exits/fails to start.  
+By default, an instance of MadelineProto MUST be passed to the constructor of the function, or **if** a custom constructor is defined, the `$this->API` property MUST be set to an instance of MadelineProto.  
+
+```php
+use danog\MadelineProto\Loop\Impl\Loop;
+class MyLoop extends Loop
+{
+    private $callable;
+    public function __construct($API, $callable)
+    {
+        $this->API = $API;
+        $this->callable = $callable;
+    }
+    public function loop()
+    {
+        $MadelineProto = $this->API;
+        $logger = $MadelineProto->logger;
+        $callable = $this->callable;
+
+        $result = null;
+        while (true) {
+            $params = yield $callable($result);
+            $result = yield $MadelineProto->messages->sendMessage($params);
+        }
+    }
+    public function __toString(): string
+    {
+        return "my custom loop";
+    }
+}
+```
+
+
+#### ResumableLoop
+
+A way more useful loop that exposes APIs to pause and resume the execution of the loop, both from outside of the loop, and in a cron-like manner from inside of the loop.  
+
+[Interface](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/ResumableLoopInterface.php):  
+```php
+namespace danog\MadelineProto\Loop;
+
+interface ResumableLoopInterface extends LoopInterface
+{
+    /**
+     * Pause the loop.
+     *
+     * @param int $time For how long to pause the loop, if null will pause forever (until resume is called from outside of the loop)
+     *
+     * @return Promise
+     */
+    public function pause($time = null): Promise;
+
+    /**
+     * Resume the loop.
+     *
+     * @return void
+     */
+    public function resume();
+}
+```
+
+Usually one would extend the [ResumableSignalLoop implementation](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/Impl/ResumableSignalLoop.php).  
+An example implementation can be seen in the [ResumableSignalLoop section of this page](#resumablesignalloop).  
+
+#### SignalLoop
+
+Yet another loop interface that exposes APIs to send signals to the loop, useful to force the termination of a loop from the outside, or to send data into it.  
+
+[Interface](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/SignalLoopInterface.php):  
+```php
+namespace danog\MadelineProto\Loop;
+
+interface SignalLoopInterface extends LoopInterface
+{
+    /**
+     * Resolve the promise or return|throw the signal.
+     *
+     * @param Promise $promise The origin promise
+     *
+     * @return Promise
+     */
+    public function waitSignal($promise): Promise;
+
+    /**
+     * Send a signal to the the loop.
+     *
+     * @param Exception|any $data Signal to send
+     *
+     * @return void
+     */
+    public function signal($data);
+}
+
+```
+
+Usually one would extend the [ResumableSignalLoop implementation](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/Impl/ResumableSignalLoop.php).  
+An example implementation can be seen in the [ResumableSignalLoop section of this page](#resumablesignalloop).  
+If you want, you can also extend only the [SignalLoop implementation](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/Impl/SignalLoop.php), but usually a combination of the SignalLoop and ResumableLoop implementations is used, so read on to find out how to do that.  
+
+#### ResumableSignalLoop
+
+This is what you would usually use to build a full async loop.  
+All loop interfaces and loop implementations are combined into one single abstract class you can extend.  
+
+```php
+use danog\MadelineProto\Loop\Impl\ResumableSignalLoop;
+class MySuperLoop extends ResumableSignalLoop
+{
+    private $timeout;
+    public function __construct($API, $timeout)
+    {
+        $this->API = $API;
+        $this->timeout = $timeout;
+    }
+    public function loop()
+    {
+        $MadelineProto = $this->API;
+        $logger = $MadelineProto->logger;
+
+        while (true) {
+            $t = time();
+
+            $result = yield $this->waitSignal($this->pause($this->timeout));
+            if ($result <= 0) {
+                return;
+            } else if ($result > 0) {
+                $this->timeout = $result;
+            }
+            
+            $t = time() - $t;
+            
+            $result = yield $MadelineProto->messages->sendMessage(
+                [
+                    'peer'    => '...',
+                    'message' => "Resumed after $t seconds of timeout"
+                ]
+            );
+        }
+    }
+    public function __toString(): string
+    {
+        return "my cron signal loop";
+    }
+}
+```
+
+[ResumableSignalLoop implementation](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/Impl/ResumableSignalLoop.php).  
+As with the [Loop](#loop).  
+
+The difference now is that you can use the `pause` method to pause execution of the loop for a certain period of time (in seconds, supports decimals).  
+If `null` is passed, execution will be suspended forever (or until `resume` is called from outside of the loop).  
+
+If the promise returned by `pause` (or by any other async method) is passed to `waitSignal`, and the result is yielded, execution will be suspended for the specified amount of time|forever, or until a signal is received through the `signal` method.  
+The passed signal will then be returned as result of the `waitSignal` method, and can be used to stop the loop, or simply as a message exchange mechanism.  
+
+#### GenericLoop
+
+If you want a simpler way to use the `ResumableSignalLoop`, you can use the [GenericLoop](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/Generic/GenericLoop.php).  
+The constructor accepts three parameters:
+```php
+    /**
+     * Constructor
+     *
+     * @param \danog\MadelineProto\API $API Instance of MadelineProto
+     * @param callback $callback Callback to run
+     * @param string $name Fetcher name
+     */
+    public function __construct($API, $callback, $name) { // ...
+```
+
+Example:
+```php
+use danog\MadelineProto\Loop\Generic\GenericLoop;
+$loop = new GenericLoop(
+    $MadelineProto,
+    function () {
+        yield $this->API->messages->sendMessage(['peer' => '...', 'message' => 'Hi every 2 seconds']);
+
+        return 2;
+    },
+    "My super loop"
+);
+$loop->start();
+```
+The callback will be bound to the GenericLoop instance: this means that you will be able to use `$this` as if the callback were actually the `loop` function (you can access the API property, use the pause/waitSignal methods & so on).  
+The return value of the callable can be:
+* A number - the loop will be paused for the specified number of seconds
+* `GenericLoop::STOP` - The loop will stop
+* `GenericLoop::PAUSE` - The loop will pause forever (or until the `resume` method is called on the loop object from outside the loop)
+* `GenericLoop::CONTINUE` - Return this if you want to rerun the loop without waiting
 
 
 <a href="https://docs.madelineproto.xyz/docs/CREATING_A_CLIENT.html">Next section</a>
