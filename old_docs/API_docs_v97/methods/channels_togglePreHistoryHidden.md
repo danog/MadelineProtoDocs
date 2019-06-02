@@ -22,7 +22,7 @@ Enable or disable hidden history for new channel/supergroup users
 ### Can bots use this method: **YES**
 
 
-### MadelineProto Example ([now async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 
 
 ```php

@@ -1,6 +1,6 @@
 ---
 title: Requirements
-description: MadelineProto requires the `mbstring`, `xml`, `gmp`, `curl` extensions to function properly.
+description: MadelineProto requires the `mbstring`, `xml`, `gmp` extensions to function properly.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Requirements

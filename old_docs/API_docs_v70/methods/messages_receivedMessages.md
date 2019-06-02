@@ -21,7 +21,7 @@ Mark messages as read
 ### Can bots use this method: **NO**
 
 
-### MadelineProto Example ([now async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 
 
 ```php

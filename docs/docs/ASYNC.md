@@ -1,6 +1,6 @@
 ---
 title: Async
-description: MadelineProto now features async, for **incredible speed improvements**, and parallel processing **without** buggy and slow threading/multiprocessing.  
+description: MadelineProto now features async, for **incredible speed improvements**, and parallel processing.  
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Async
@@ -19,7 +19,16 @@ Powered by [amphp](https://amphp.org), MadelineProto wraps the AMPHP APIs to pro
     * [Blocking async](#blocking-async)
   * [MadelineProto and AMPHP async APIs](#madelineproto-and-amphp-async-apis)
     * [Helper methods](#helper-methods)
+      * [Async sleep](#async-sleep-does-not-block-the-main-thread)
+      * [MadelineProto artax HTTP client](#madelineproto-artax-http-client)
+      * [Async forking](#async-forking-does-single-thread-forking)
+      * [Combining async operations](#combining-async-operations)
     * [MadelineProto async loop APIs](#async-loop-apis)
+      * [Loop](#loop)
+      * [ResumableLoop](#resumableloop)
+      * [SignalLoop](#signalloop)
+      * [ResumableSignalLoop](#resumablesignalloop)
+      * [GenericLoop](#genericloop)
 
 ## Usage
 
@@ -506,6 +515,5 @@ The return value of the callable can be:
 * `GenericLoop::STOP` - The loop will stop
 * `GenericLoop::PAUSE` - The loop will pause forever (or until the `resume` method is called on the loop object from outside the loop)
 * `GenericLoop::CONTINUE` - Return this if you want to rerun the loop without waiting
-
 
 <a href="https://docs.madelineproto.xyz/docs/CREATING_A_CLIENT.html">Next section</a>

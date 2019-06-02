@@ -1,5 +1,5 @@
 ---
-title: Inline buttons
+title: Inline buttons ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 description: You can easily click inline buttons using MadelineProto, just access the correct button:
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
