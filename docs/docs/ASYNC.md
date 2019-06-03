@@ -341,7 +341,7 @@ class MyLoop extends Loop
     public function loop()
     {
         $MadelineProto = $this->API;
-        $logger = $MadelineProto->logger;
+        $logger = &$MadelineProto->logger;
         $callable = $this->callable;
 
         $result = null;
@@ -442,7 +442,7 @@ class MySuperLoop extends ResumableSignalLoop
     public function loop()
     {
         $MadelineProto = $this->API;
-        $logger = $MadelineProto->logger;
+        $logger = &$MadelineProto->logger;
 
         while (true) {
             $t = time();

@@ -189,6 +189,8 @@ $this->{'user2.madeline'}->messages->sendMessage(['peer' => '@danogentili', 'mes
 
 If you intend to use your own constructor in the event handler, make sure to call the parent construtor with the only parameter provided to your constructor.
 
+If you need to use the [__sleep](https://www.php.net/manual/en/language.oop5.magic.php#object.sleep) function, make sure it is called `__magic_sleep`, instead.  
+
 The update handling loop is started by the `$MadelineProto->loop()` method, and it will automatically restart the script if execution time runs out.
 
 To break out of the loop just call `die();`, or throw an exception from within (make sure to catch it outside, in the `$MadelineProto->loop()` call).  
