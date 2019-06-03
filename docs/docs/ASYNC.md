@@ -165,6 +165,8 @@ $MadelineProto->loop(function () use ($MadelineProto) {
 });
 ```
 
+You can pass a promise or an async function to the loop function, and it will block until it is resolved.  
+
 ### Ignored async
 ```php
 $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => 'a'], ['async' => true]);
@@ -324,7 +326,9 @@ interface LoopInterface
 
 Usually one would extend the [Loop implementation](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/Impl/Loop.php).  
 The loop function will be run only once, every time the `start` method (already implemented in the abstract Impl class we're extending) is called.  
+The `start` method returns a promise that resolves when the loop finishes running.  
 Multiple calls to `start` will be ignored, logging an error and returning `false` instead of `true`.  
+You can use the `isRunning` method to check if the loop is already running.  
 The `__toString` method still has to be implemented in order to get the name of the loop, that will be used by the MadelineProto logging mechanism every time the loop starts/exits/fails to start.  
 By default, an instance of MadelineProto MUST be passed to the constructor of the function, or **if** a custom constructor is defined, the `$this->API` property MUST be set to an instance of MadelineProto.  
 
@@ -357,6 +361,13 @@ class MyLoop extends Loop
 }
 ```
 
+The loop can be instantiated and `start()`ed, and this will automatically run the code in the loop in background.  
+If, however, only your loop is started (without an event handling loop), you have to pass the promise returned by `$loop->start()` to `$MadelineProto->loop`.  
+Do NOT do this if you've already started `$MadelineProto->loop()`.  
+```php
+$loop = new MyLoop;
+$MadelineProto->loop($loop->start());
+```
 
 #### ResumableLoop
 
@@ -510,10 +521,12 @@ $loop = new GenericLoop(
 $loop->start();
 ```
 The callback will be bound to the GenericLoop instance: this means that you will be able to use `$this` as if the callback were actually the `loop` function (you can access the API property, use the pause/waitSignal methods & so on).  
-The return value of the callable can be:
+The return value of the callable can be:  
 * A number - the loop will be paused for the specified number of seconds
 * `GenericLoop::STOP` - The loop will stop
 * `GenericLoop::PAUSE` - The loop will pause forever (or until the `resume` method is called on the loop object from outside the loop)
 * `GenericLoop::CONTINUE` - Return this if you want to rerun the loop without waiting
+
+If the callable does not return anything, the loop will behave is if `GenericLoop::PAUSE` was returned.  
 
 <a href="https://docs.madelineproto.xyz/docs/CREATING_A_CLIENT.html">Next section</a>
