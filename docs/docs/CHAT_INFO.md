@@ -7,9 +7,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 There are various methods that can be used to fetch info about chats, based on bot API id, tg-cli ID, Peer, User, Chat objects.
 
-* [Full chat info with full list of participants](#get_pwr_chat)
-* [Full chat info](#get_full_info)
-* [Reduced chat info (very fast)](#get_info)
+* [Full chat info with full list of participants](#get_pwr_chat-now-fully-async)
+* [Full chat info](#get_full_info-now-fully-async)
+* [Reduced chat info (very fast)](#get_info-now-fully-async)
 
 ## get_pwr_chat ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 ```php

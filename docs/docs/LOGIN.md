@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 There are many ways you can login with MadelineProto.
 
-* [Automatic](#automatic)
+* [Automatic](#automatic-now-fully-async)
 * [Manual (user)](#manual-user)
 * [Manual (bot)](#manual-bot)
 * [Logout](#logout)

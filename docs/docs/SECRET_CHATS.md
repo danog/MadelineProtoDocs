@@ -7,10 +7,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 MadelineProto provides wrappers to work with secret chats.
 
-* [Requesting secret chats](#requesting-secret-chats)
-* [Accepting secret chats](#accepting-secret-chats)
-* [Checking secret chat status](#checking-secret-chat-status)
-* [Sending secret messages](#sending-secret-messages)
+* [Requesting secret chats](#requesting-secret-chats-now-fully-async)
+* [Accepting secret chats](#accepting-secret-chats-now-fully-async)
+* [Checking secret chat status](#checking-secret-chat-status-now-fully-async)
+* [Sending secret messages](#sending-secret-messages-now-fully-async)
 
 ## Requesting secret chats ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 
