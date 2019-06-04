@@ -26,19 +26,21 @@ try {
 
 ## List of exception types
 
-* \danog\MadelineProto\Exception - Default exception, thrown when a php error occures and in a lot of other cases
+* `\danog\MadelineProto\Exception` - Default exception, thrown when a php error occures and in a lot of other cases
 
-* \danog\MadelineProto\RPCErrorException - Thrown when an RPC error occurres (an error received via the MTProto API): **note** that the error message of this exception is localized in English, and may vary: to fetch the original API error message use `$e->rpc`.
+* `\danog\MadelineProto\RPCErrorException` - Thrown when an RPC error occurres (an error received via the MTProto API): **note** that the error message of this exception is localized in English, and may vary: to fetch the original API error message use `$e->rpc`.
 
-* \danog\MadelineProto\TL\Exception - Thrown on TL serialization/deserialization errors
+* `\danog\MadelineProto\TL\Exception` - Thrown on TL serialization/deserialization errors
 
-* \danog\MadelineProto\NothingInTheSocketException - Thrown if no data can be read from the TCP socket
+* `\danog\MadelineProto\ResponseException` - Thrown when an unexpected message is received through the socket
 
-* \danog\MadelineProto\PTSException - Thrown if the PTS is unrecoverably corrupted
+* `\danog\MadelineProto\NothingInTheSocketException` - Thrown if no data can be read/written on the TCP socket
 
-* \danog\MadelineProto\SecurityException - Thrown on security problems (invalid params during generation of auth key or similar)
+* `\danog\MadelineProto\PTSException` - Thrown if the PTS is unrecoverably corrupted
 
-* \danog\MadelineProto\TL\Conversion\Exception - Thrown if some param/object can't be converted to/from bot API/TD/TD-CLI format (this includes markdown/html parsing)
+* `\danog\MadelineProto\SecurityException` - Thrown on security problems (invalid params during generation of auth key or similar)
+
+* `\danog\MadelineProto\TL\Conversion\Exception` - Thrown if some param/object can't be converted to/from bot API/TD/TD-CLI format (this includes markdown/html parsing)
 
 
 ## Pretty TL trace

@@ -219,6 +219,11 @@ $client = $MadelineProto->getHTTPClient();
 
 From here it's like in the [artax docs](https://amphp.org/artax).  
 
+MadelineProto also provides a simplified async version of `file_get_contents`:  
+```php
+$result = yield $MadelineProto->file_get_contents('https://myurl');
+```
+
 #### Async forking (does async single-thread forking)
 
 Useful if you need to start a process in the background and you want throwed exceptions to surface up.  

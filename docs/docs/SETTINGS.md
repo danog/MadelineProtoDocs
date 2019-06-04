@@ -302,7 +302,7 @@ Description: How many times should I try to get a response to a query before thr
 Flood timeout settings
 
 ### `$settings['flood_timeout']['wait_if_lt']`
-Default: 20  
+Default: `10*60`  
 Description: Sleeps if a `FLOOD_WAIT_` error is received with duration lower than this value
 
 <hr>

@@ -11,6 +11,7 @@ There are many ways you can login with MadelineProto.
 * [Manual (user)](#manual-user)
 * [Manual (bot)](#manual-bot)
 * [Logout](#logout)
+* [Changing 2FA password](#changing-2fa-password)
 
 ## Automatic ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 
@@ -60,6 +61,15 @@ Note that when you login as a bot, MadelineProto also logins using the [PWRTeleg
 yield $MadelineProto->logout();
 ```
 
-**If** you want to logout, you can use the logout function, see [here for the parameters and the result](https://docs.madelineproto.xyz/logout.html).  
+If you want to logout, you can use the logout function, see [here for the parameters and the result](https://docs.madelineproto.xyz/logout.html).  
+
+## Changing 2FA password
+
+```php
+$result = yield $MadelineProto->update_2fa(['password' => 'current password', 'new_password' => 'New password', 'email' => 'daniil@daniil.it', 'hint' => 'ponies']);
+```
+
+If you want to logout, you can use the update_2fa function, see [here for the parameters and the result](https://docs.madelineproto.xyz/update_2fa.html).  
+
 
 <a href="https://docs.madelineproto.xyz/docs/FEATURES.html">Next section</a>
