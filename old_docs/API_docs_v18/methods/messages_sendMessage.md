@@ -75,7 +75,6 @@ If the length of the provided message is bigger than 4096, the message will be s
 |NEED_MEMBER_INVALID|The provided member is invalid|
 |RANDOM_ID_DUPLICATE|You provided a random ID that was already used|
 |CHAT_WRITE_FORBIDDEN|You can't write in this chat|
-|tanti SALUTI da peppe lg .|Ciao da un pony|
 |Timeout|A timeout occurred while fetching data from the bot|
 
 
