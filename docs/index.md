@@ -19,7 +19,7 @@ It can login with a phone number (MTProto API), or with a bot token (MTProto API
 
 [It is now fully async](https://docs.madelineproto.xyz/docs/ASYNC.html)!
 
-## Getting started
+## Getting started ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 
 ```php
 <?php
@@ -30,24 +30,28 @@ if (!file_exists('madeline.php')) {
 include 'madeline.php';
 
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
-$MadelineProto->start();
+$MadelineProto->async(true);
+$MadelineProto->loop(function () use ($MadelineProto) {
+    yield $MadelineProto->start();
 
-$me = $MadelineProto->get_self();
+    $me = yield $MadelineProto->get_self();
 
-\danog\MadelineProto\Logger::log($me);
+    $MadelineProto->logger($me);
 
-if (!$me['bot']) {
-    $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => "Hi!\nThanks for creating MadelineProto! <3"]);
-    $MadelineProto->channels->joinChannel(['channel' => '@MadelineProto']);
+    if (!$me['bot']) {
+        yield $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => "Hi!\nThanks for creating MadelineProto! <3"]);
+        yield $MadelineProto->channels->joinChannel(['channel' => '@MadelineProto']);
 
-    try {
-        $MadelineProto->messages->importChatInvite(['hash' => 'https://t.me/joinchat/Bgrajz6K-aJKu0IpGsLpBg']);
-    } catch (\danog\MadelineProto\RPCErrorException $e) {
+        try {
+            yield $MadelineProto->messages->importChatInvite(['hash' => 'https://t.me/joinchat/Bgrajz6K-aJKu0IpGsLpBg']);
+        } catch (\danog\MadelineProto\RPCErrorException $e) {
+            $MadelineProto->logger($e);
+        }
+
+        yield $MadelineProto->messages->sendMessage(['peer' => 'https://t.me/joinchat/Bgrajz6K-aJKu0IpGsLpBg', 'message' => 'Testing MadelineProto!']);
     }
-
-    $MadelineProto->messages->sendMessage(['peer' => 'https://t.me/joinchat/Bgrajz6K-aJKu0IpGsLpBg', 'message' => 'Testing MadelineProto!']);
-}
-echo 'OK, done!'.PHP_EOL;
+    yield $MadelineProto->echo('OK, done!');
+});
 ```
 
 [Try this code now!](https://try.madelineproto.xyz) or run this code in a browser or in a console. 
@@ -65,14 +69,16 @@ Tip: if you receive an error (or nothing), [send us](https://t.me/pwrtelegramgro
       * [Async in event handler](https://docs.madelineproto.xyz/docs/ASYNC.html#async-in-event-handler)
       * [Async in callback handler](https://docs.madelineproto.xyz/docs/ASYNC.html#async-in-callback-handler)
       * [Wrapped async](https://docs.madelineproto.xyz/docs/ASYNC.html#wrapped-async)
+      * [Multiple async](https://docs.madelineproto.xyz/docs/ASYNC.html#multiple-async)
       * [Ignored async](https://docs.madelineproto.xyz/docs/ASYNC.html#ignored-async)
       * [Blocking async](https://docs.madelineproto.xyz/docs/ASYNC.html#blocking-async)
     * [MadelineProto and AMPHP async APIs](https://docs.madelineproto.xyz/docs/ASYNC.html#madelineproto-and-amphp-async-apis)
       * [Helper methods](https://docs.madelineproto.xyz/docs/ASYNC.html#helper-methods)
         * [Async sleep](https://docs.madelineproto.xyz/docs/ASYNC.html#async-sleep-does-not-block-the-main-thread)
         * [Async readline](https://docs.madelineproto.xyz/docs/ASYNC.html#async-readline-does-not-block-the-main-thread)
+        * [Async echo](https://docs.madelineproto.xyz/docs/ASYNC.html#async-echo-does-not-block-the-main-thread)
         * [MadelineProto artax HTTP client](https://docs.madelineproto.xyz/docs/ASYNC.html#madelineproto-artax-http-client)
-        * [Async forking](https://docs.madelineproto.xyz/docs/ASYNC.html#async-forking-does-single-thread-forking)
+        * [Async forking](https://docs.madelineproto.xyz/docs/ASYNC.html#async-forking-does-green-thread-forking)
         * [Combining async operations](https://docs.madelineproto.xyz/docs/ASYNC.html#combining-async-operations)
       * [MadelineProto async loop APIs](https://docs.madelineproto.xyz/docs/ASYNC.html#async-loop-apis)
         * [Loop](https://docs.madelineproto.xyz/docs/ASYNC.html#loop)
@@ -438,6 +444,7 @@ Tip: if you receive an error (or nothing), [send us](https://t.me/pwrtelegramgro
   * [bot API objects](https://docs.madelineproto.xyz/docs/USING_METHODS.html#bot-api-objects)
   * [No result](https://docs.madelineproto.xyz/docs/USING_METHODS.html#no-result)
   * [Queues](https://docs.madelineproto.xyz/docs/USING_METHODS.html#queues)
+  * [Multiple method calls](https://docs.madelineproto.xyz/docs/USING_METHODS.html#multiple-method-calls)
 * [Contributing](https://docs.madelineproto.xyz/docs/CONTRIB.html)
   * [Translation](https://docs.madelineproto.xyz/docs/CONTRIB.html#translation)
   * [Contribution guide](https://docs.madelineproto.xyz/docs/CONTRIB.html#contribution-guide)
