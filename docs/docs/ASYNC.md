@@ -20,6 +20,7 @@ Powered by [amphp](https://amphp.org), MadelineProto wraps the AMPHP APIs to pro
   * [MadelineProto and AMPHP async APIs](#madelineproto-and-amphp-async-apis)
     * [Helper methods](#helper-methods)
       * [Async sleep](#async-sleep-does-not-block-the-main-thread)
+      * [Async readline](#async-readline-does-not-block-the-main-thread)
       * [MadelineProto artax HTTP client](#madelineproto-artax-http-client)
       * [Async forking](#async-forking-does-single-thread-forking)
       * [Combining async operations](#combining-async-operations)
@@ -184,7 +185,7 @@ $result = blocking_function();
 
 Sometimes, you have to call non-async functions in your code: that is allowed in async MadelineProto, you just have to call your functions normally without `yield`.  
 However, you shouldn't do (or need to do) this, because this renders async completely useless.  
-AMPHP already provides async versions of curl, `file_get_contents`, MySQL, redis, postgres, and many more native PHP functions: 
+AMPHP and MadelineProto already provide async versions of curl, `file_get_contents`, MySQL, redis, postgres, and many more native PHP functions: 
 
 ## MadelineProto and AMPHP async APIs
 
@@ -200,6 +201,10 @@ MadelineProto also provides a few generic async helper methods: when possible, a
 #### Async sleep (does not block the main thread)
 ```php
 yield $MadelineProto->sleep(3);
+```
+#### Async readline (does not block the main thread)
+```php
+$res = yield $MadelineProto->readLine('Optional prompt');
 ```
 
 #### MadelineProto artax HTTP client
