@@ -11,7 +11,7 @@ Update handling can be done in different ways:
 * [Multi-account: Async Combined Event driven update handling](#async-combined-event-driven)
 * [Async Callback](#async-callback)
 * [Noop (default)](#noop)
-
+* [Fetch all updates from the beginning](#fetch-all-updates-from-the-beginning)
 
 ```
 
@@ -245,5 +245,13 @@ $MadelineProto->setNoop();
 ```
 When an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html) is received, nothing is done. This is useful if you need to populate the internal peer database with peers to avoid `This peer is not present in the internal peer database errors`, but don't need to handle updates.  
 This is the default.  
+
+
+## Fetch all updates from the beginning
+
+You can use the `resetUpdateState` method to reset the update state and fetch all updates from the beginning:  
+```php
+$MadelineProto->resetUpdateState();
+```
 
 <a href="https://docs.madelineproto.xyz/docs/SETTINGS.html">Next section</a>
