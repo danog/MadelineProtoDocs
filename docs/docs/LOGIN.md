@@ -18,12 +18,13 @@ There are many ways you can login with MadelineProto.
 ## Getting permission to use the telegram API
 
 Before you start using MadelineProto with the Telegram API, you have to understand that Telegram strictly controls userbots created on their platform.  
+
 If you use MadelineProto or any other Telegram client, **including official clients**, for flooding, spamming, botting channels, you **will be banned forever**.  
 
-Due to excessive abuse of the Telegram API, **all phone numbers** that sign up or log in using **even official or approved by telegram** API clients like MadelineProto are put **under observation** in a **blacklist**, and __may__ get banned **even if you did nothing wrong**, simply because some internal flags are triggered in the **telegram servers**.  
+Due to excessive abuse of the Telegram API, **all phone numbers** that sign up or log in using **even official or approved by telegram** API clients like MadelineProto are automatically put **under observation**, and __may__ get banned **even if you did nothing wrong**, simply because some internal flags are triggered in the **telegram servers**.  
 
 To avoid this, you must let telegram know that you will use your account with a userbot:  
-When or before you first sign up or login you have to **send an email with the phone number to [recover@telegram.org](mailto:recover@telegram.org)**; explaining how **exactly** will you **use the account**.  
+When or before you first sign up or login you have to **send an email with the phone number to [recover@telegram.org](mailto:recover@telegram.org)**; explaining **what will your userbot do**.  
 **DO NOT LIE**, just tell them **what will you do with the userbot** you intend to create, asking them to not ban your account.  
 
 If your account does get banned, write to [recover@telegram.org](mailto:recover@telegram.org) asking to unban it.  
