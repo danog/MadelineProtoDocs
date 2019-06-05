@@ -21,6 +21,7 @@ Powered by [amphp](https://amphp.org), MadelineProto wraps the AMPHP APIs to pro
     * [Helper methods](#helper-methods)
       * [Async sleep](#async-sleep-does-not-block-the-main-thread)
       * [Async readline](#async-readline-does-not-block-the-main-thread)
+      * [Async echo](#async-echo-does-not-block-the-main-thread)
       * [MadelineProto artax HTTP client](#madelineproto-artax-http-client)
       * [Async forking](#async-forking-does-single-thread-forking)
       * [Combining async operations](#combining-async-operations)
@@ -202,9 +203,15 @@ MadelineProto also provides a few generic async helper methods: when possible, a
 ```php
 yield $MadelineProto->sleep(3);
 ```
+
 #### Async readline (does not block the main thread)
 ```php
 $res = yield $MadelineProto->readLine('Optional prompt');
+```
+
+#### Async echo (does not block the main thread)
+```php
+yield $MadelineProto->echo('Hello'.PHP_EOL);
 ```
 
 #### MadelineProto artax HTTP client
