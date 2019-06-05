@@ -7,6 +7,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 MadelineProto provides a unified class for logging messages to the logging destination defined in [settings](SETTINGS.html#settingslogger).  
 
+Use the [settings](SETTINGS.html#settingslogger) to modify the default logging destination and log verbosity.  
+
+Note: when running from web, MadelineProto will also automatically enable logging of **PHP errors** (not MadelineProto logs) to `MadelineProto.log`, located in the same directory as the script that loaded MadelineProto.  
+
+
 ```php
 $MadelineProto->logger->logger($message, $level);
 ```

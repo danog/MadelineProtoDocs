@@ -97,9 +97,13 @@ $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => 'h
 
 To get the whole TL trace as string, cast the exception object to string:
 
+**NOTE**: Due to the async nature of MadelineProto 4.0, sometimes the exception that is thrown and logged may not be the actual exception that caused the crash of the script.  
+To let me properly debug the issue, when reporting issues you also have to provide [**full logs**](LOGGING.html).  
+
+
 ```php
 try {
-    //
+    // stuff
 } catch (\danog\MadelineProto\Exception $e) {
     $estring = (string) $e;
     $estring2 = 'This also works: '.$e;
