@@ -71,5 +71,4 @@ $result = yield $MadelineProto->update_2fa(['password' => 'current password', 'n
 
 If you want to logout, you can use the update_2fa function, see [here for the parameters and the result](https://docs.madelineproto.xyz/update_2fa.html).  
 
-
 <a href="https://docs.madelineproto.xyz/docs/FEATURES.html">Next section</a>

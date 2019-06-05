@@ -1,9 +1,9 @@
 ---
-title: Handling updates
+title: Handling updates (new messages)
 description: Update handling can be done in different ways: 
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Handling updates
+# Handling updates (new messages)
 
 Update handling can be done in different ways: 
 
@@ -13,7 +13,6 @@ Update handling can be done in different ways:
 * [Noop (default)](#noop)
 * [Fetch all updates from the beginning](#fetch-all-updates-from-the-beginning)
 
-```
 
 ## Async Event driven
 
