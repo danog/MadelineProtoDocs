@@ -15,6 +15,7 @@ Powered by [amphp](https://amphp.org), MadelineProto wraps the AMPHP APIs to pro
     * [Async in event handler](#async-in-event-handler)
     * [Async in callback handler](#async-in-callback-handler)
     * [Wrapped async](#wrapped-async)
+    * [Multiple async](#multiple-async)
     * [Ignored async](#ignored-async)
     * [Blocking async](#blocking-async)
   * [MadelineProto and AMPHP async APIs](#madelineproto-and-amphp-async-apis)
@@ -23,7 +24,7 @@ Powered by [amphp](https://amphp.org), MadelineProto wraps the AMPHP APIs to pro
       * [Async readline](#async-readline-does-not-block-the-main-thread)
       * [Async echo](#async-echo-does-not-block-the-main-thread)
       * [MadelineProto artax HTTP client](#madelineproto-artax-http-client)
-      * [Async forking](#async-forking-does-single-thread-forking)
+      * [Async forking](#async-forking-does-green-thread-forking)
       * [Combining async operations](#combining-async-operations)
     * [MadelineProto async loop APIs](#async-loop-apis)
       * [Loop](#loop)
@@ -35,7 +36,7 @@ Powered by [amphp](https://amphp.org), MadelineProto wraps the AMPHP APIs to pro
 ## Usage
 
 What exactly __is__ **async**, you may ask, and how is it better than **threading** or **multiprocessing**?  
-Async is a relatively new programming pattern that allows you to easily write **non-blocking** code **as if you were using standard** blocking functions, all without the need for complex message exchange systems and synchronization handling for threaded programs, that only add overhead and complexity to your programs, making everything slower and error-prone.  
+Async is a relatively new programming pattern that allows you to easily write **non-blocking** code **as if you were using standard** blocking functions, all **without** the need for complex message exchange systems and synchronization handling for threaded programs, that only add overhead and complexity to your programs, making everything slower and error-prone.  
 
 That's very cool and all, you might think, but how exactly does this __async__ stuff work? Well, as it turns out, it's very easy.  
 
@@ -177,7 +178,21 @@ $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => 'b
 
 You can use the async version of MadelineProto functions **without** yield if you don't want the request to block, and you don't need the result of the function.  
 This is allowed, but the order of the function calls will not be guaranteed: you can use [call queues](https://docs.madelineproto.xyz/docs/USING_METHODS.html#queues) if you want to make sure the order of the calls remains the same.
-See [async forking](#async-forking-does-async-single-thread-forking).  
+See [async forking](#async-forking-does-async-green-thread-forking).  
+
+### Multiple async
+```php
+yield $MadelineProto->messages->sendMessage([
+    'multiple' => true,
+    ['peer' => '@danogentili', 'message' => 'hi'],
+    ['peer' => '@apony', 'message' => 'hi']
+]);
+```
+
+This is the preferred way of combining multiple method calls: this way, the MadelineProto async WriteLoop will combine all method calls in one container, making everything WAY faster.  
+The result of this will be an array of results, whose type is determined by the original return type of the method (see [API docs](https://docs.madelineproto.xyz/API_docs)).  
+
+The order of method calls can be guaranteed (server-side, not by MadelineProto) by using [call queues](USING_METHODS.html#queues).
 
 ### Blocking async
 ```php
@@ -236,7 +251,7 @@ MadelineProto also provides a simplified async version of `file_get_contents`:
 $result = yield $MadelineProto->file_get_contents('https://myurl');
 ```
 
-#### Async forking (does async single-thread forking)
+#### Async forking (does async green-thread forking)
 
 Useful if you need to start a process in the background and you want throwed exceptions to surface up.  
 These exceptions will exit the event loop, turning off the script unless you wrap `$MadelineProto->loop()` with a try-catch.  
@@ -271,6 +286,8 @@ These methods can be used to execute multiple async operations simultaneously an
 Each method has different error handling techniques, see the [amphp docs](https://amphp.org/amp/promises/combinators).  
 Note that if you just take the result of these methods without yielding it, you can use it as a normal promise/generator.  
 
+**Note**: this is not the recommended method to make multiple method calls on the same instance of MadelineProto; use this only for non-API methods like `start()`; for API methods, use [multiple async](#multiple-async).  
+
 ```
 $promise1 = $MadelineProto->messages->sendMessage(...);
 $promise2 = $MadelineProto->messages->sendMessage(...);
@@ -287,7 +304,6 @@ $results = yield $MadelineProto->any([$promise1, $promise2, $generator3]);
 
 // Equivalent to Amp\Promise\some(), but works with generators, too
 $results = yield $MadelineProto->some([$promise1, $promise2, $generator3]);
-
 ```
 
 #### Handling timeouts

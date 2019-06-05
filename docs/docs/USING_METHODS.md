@@ -20,6 +20,7 @@ A list of all of the methods that can be called with MadelineProto can be found 
 * [bot API objects](#bot-api-objects)
 * [No result](#no-result)
 * [Queues](#queues)
+* [Multiple method calls](#multiple-method-calls)
 
 ## Peers
 [Full example](https://github.com/danog/MadelineProto/blob/master/bot.php)
@@ -110,5 +111,8 @@ yield $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message'
 ```
 
 If the queue if the specified queue name does not exist, it will be created.
+
+## Multiple method calls
+See [multiple async](https://docs.madelineproto.xyz/docs/ASYNC.html#multiple-async).  
 
 <a href="https://docs.madelineproto.xyz/docs/CONTRIB.html">Next section</a>

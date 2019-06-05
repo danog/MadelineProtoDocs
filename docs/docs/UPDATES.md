@@ -147,18 +147,20 @@ class EventHandler extends \danog\MadelineProto\CombinedEventHandler
 
 $settings = [];
 $CombinedMadelineProto = new \danog\MadelineProto\CombinedAPI('combined_session.madeline', ['bot.madeline' => $settings, 'user.madeline' => $settings, 'user2.madeline' => $settings]);
-
-\danog\MadelineProto\Logger::log('Bot login', \danog\MadelineProto\Logger::WARNING);
-$CombinedMadelineProto->instances['bot.madeline']->start();
-
-\danog\MadelineProto\Logger::log('Userbot login');
-$CombinedMadelineProto->instances['user.madeline']->start();
-
-\danog\MadelineProto\Logger::log('Userbot login (2)');
-$CombinedMadelineProto->instances['user2.madeline']->start();
-
-$CombinedMadelineProto->setEventHandler('\EventHandler');
 $CombinedMadelineProto->async(true);
+$CombinedMadelineProto->loop(function () use ($CombinedMadelineProto) {
+    $res = [];
+    foreach ([
+        'bot.madeline' => 'Bot Login',
+        'user.madeline' => 'Userbot login',
+        'user2.madeline' => 'Userbot login (2)'
+    ] as $session => $message) {
+        \danog\MadelineProto\Logger::log($message, \danog\MadelineProto\Logger::WARNING);
+        $res []= $CombinedMadelineProto->instances[$session]->start();
+    }
+    yield $CombinedMadelineProto->all($res);
+    yield $CombinedMadelineProto->setEventHandler('\EventHandler');
+}
 $CombinedMadelineProto->loop();
 ```
 
