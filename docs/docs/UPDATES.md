@@ -7,12 +7,42 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 Update handling can be done in different ways: 
 
+* [Self-restart on webhosts](#self-restart-on-webhosts)
 * [Async Event driven](#async-event-driven)
 * [Multi-account: Async Combined Event driven update handling](#async-combined-event-driven)
 * [Async Callback](#async-callback)
 * [Noop (default)](#noop)
 * [Fetch all updates from the beginning](#fetch-all-updates-from-the-beginning)
 
+
+## Self-restart on webhosts
+
+When running the `loop()` method via web, MadelineProto will automatically enable a **magical self-restart hack**, to keep the bot running even on webhosts with limited execution time.  
+
+It relies on the shutdown function, so you must not set a custom shutdown function in your code, and instead use the **MadelineProto shutdown static API**:  
+
+```php
+use danog\MadelineProto\Shutdown;
+
+$id = Shutdown::addCallback(static function () {
+    // This function will run on shutdown
+});
+
+$id = Shutdown::addCallback(static function () {
+    // This function will run on shutdown
+}, 'custom id');
+
+$id = Shutdown::addCallback(static function () {
+    // This function will overwrite the previously set function with custom id
+}, 'custom id');
+
+$ok = Shutdown::removeCallback($id);
+```
+
+You can of course pass non-static functions, any type of callable is accepted.  
+A second optional parameter can also be accepted, containing the ID of the callable: you can use this if you want to later overwrite the callable with another callback, or remove it altogether.  
+
+The `removeCallback` will return true if the callback exists and it was removed correctly, false otherwise (as with all new MadelineProto 4.0 APIs, there are PHPDOCs for these methods so you'll see them in your IDE).
 
 ## Async Event driven
 
