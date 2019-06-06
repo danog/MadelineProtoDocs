@@ -19,6 +19,8 @@ Update handling can be done in different ways:
 
 When running the `loop()` method via web, MadelineProto will automatically enable a **magical self-restart hack**, to keep the bot running even on webhosts with limited execution time.  
 
+Locking will also be handled automatically, so even if you start the script via web several times, only one instance will be running at a time (no need to do flocking manually!).  
+
 It relies on the shutdown function, so you must not set a custom shutdown function in your code, and instead use the **MadelineProto shutdown static API**:  
 
 ```php
@@ -43,6 +45,7 @@ You can of course pass non-static functions, any type of callable is accepted.
 A second optional parameter can also be accepted, containing the ID of the callable: you can use this if you want to later overwrite the callable with another callback, or remove it altogether.  
 
 The `removeCallback` will return true if the callback exists and it was removed correctly, false otherwise (as with all new MadelineProto 4.0 APIs, there are PHPDOCs for these methods so you'll see them in your IDE).
+
 
 ## Async Event driven
 
