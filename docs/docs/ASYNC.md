@@ -16,6 +16,7 @@ Powered by [amphp](https://amphp.org), MadelineProto wraps the AMPHP APIs to pro
     * [Async in callback handler](#async-in-callback-handler)
     * [Wrapped async](#wrapped-async)
     * [Multiple async](#multiple-async)
+    * [ArrayAccess async](#arrayaccess-async)
     * [Ignored async](#ignored-async)
     * [Blocking async](#blocking-async)
   * [MadelineProto and AMPHP async APIs](#madelineproto-and-amphp-async-apis)
@@ -193,6 +194,64 @@ This is the preferred way of combining multiple method calls: this way, the Made
 The result of this will be an array of results, whose type is determined by the original return type of the method (see [API docs](https://docs.madelineproto.xyz/API_docs)).  
 
 The order of method calls can be guaranteed (server-side, not by MadelineProto) by using [call queues](USING_METHODS.html#queues).
+
+### ArrayAccess async
+
+You can do async ArrayAccess on promises.  
+
+Now instead of doing this:  
+```php
+$id = (yield $MadelineProto->getPwrChat('danogentili'))['bot_api_id'];
+```
+
+You can simply do this:  
+```php
+$id = yield $MadelineProto->getPwrChat('danogentili')['bot_api_id'];
+```
+
+Setting attributes asynchronously is also supported (it's kind of useless, but it's useful if you have some custom logic, like for example a method that returns a custom ArrayAccess class with a set method that does something magical).  
+```php
+$Id = yield $MadelineProto->getPwrChat('danogentili')['bot_api_id'] = 'pony';
+```
+
+isset and unset aren't supported due to the fact that in PHP, isset and unset aren't proper functions but language constructs (logically).  
+You have to do this, instead:  
+```php
+$set = isset((yield $MadelineProto->getPwrChat('danogentili'))['bot_api_id']);
+```
+
+or  
+```php
+$result = yield $MadelineProto->getPwrChat('danogentili');
+$set = isset($result['bot_api_id']);
+```
+
+Also, `ArrayAccess` on raw generators still isn't supported unless you wrap them in a coroutine using `$MadelineProto->call`:  
+```php
+public function ponyAsync()
+{
+    return yield $MadelineProto->get_info('danogentili');
+}
+// public function onUpdateNewMessage....
+
+// WILL NOT WORK
+$set = yield $this->ponyAsync()['id'];
+
+// Will work
+$set = (yield $this->ponyAsync())['id'];
+
+// Will work
+$set = $MadelineProto->call(yield $this->ponyAsync())['id'];
+
+public function pony()
+{
+    return $MadelineProto->call($this->ponyAsync());
+}
+
+// Will work
+$set = yield $this->pony()['id'];
+```
+
 
 ### Blocking async
 ```php
