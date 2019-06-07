@@ -13,7 +13,7 @@ Note: when running from web, MadelineProto will also automatically enable loggin
 
 
 ```php
-$MadelineProto->logger->logger($message, $level);
+$MadelineProto->logger($message, $level);
 ```
 
 `$message` is a string, an integer, an array, or any json-encodable object.  
