@@ -44,6 +44,7 @@ composer.json:
     "type": "project",
     "require": {
         "danog/madelineproto": "dev-master",
+        "amphp/dns": "dev-master#aa1892bd as 0.9"
     },
     "repositories": [
         {
@@ -101,6 +102,7 @@ Then you can require the package by addding the following lines to the require s
 
 ```
 "danog/madelineproto":"dev-master",
+"amphp/dns": "dev-master#aa1892bd as 0.9"
 ```
 
 <a href="https://docs.madelineproto.xyz/docs/UPDATES.html">Next section</a>

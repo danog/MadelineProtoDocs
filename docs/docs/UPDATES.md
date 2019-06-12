@@ -193,7 +193,7 @@ $CombinedMadelineProto->loop(function () use ($CombinedMadelineProto) {
     }
     yield $CombinedMadelineProto->all($res);
     yield $CombinedMadelineProto->setEventHandler('\EventHandler');
-}
+});
 $CombinedMadelineProto->loop();
 ```
 
