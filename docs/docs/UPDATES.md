@@ -60,6 +60,10 @@ class EventHandler extends \danog\MadelineProto\EventHandler
     {
         \danog\MadelineProto\Logger::log("Received an update of type ".$update['_']);
     }
+    public function onUpdateSomethingElse($update)
+    {
+        // See the docs for a full list of updates: http://docs.madelineproto.xyz/API_docs/types/Update.html
+    }
     public function onUpdateNewChannelMessage($update)
     {
         yield $this->onUpdateNewMessage($update);
@@ -142,9 +146,9 @@ class EventHandler extends \danog\MadelineProto\CombinedEventHandler
     {
         \danog\MadelineProto\Logger::log("Received an update of type ".$update['_']);
     }
-    public function onLoop()
+    public function onUpdateSomethingElse($update, $session)
     {
-        \danog\MadelineProto\Logger::log("Working...");
+        // See the docs for a full list of updates: http://docs.madelineproto.xyz/API_docs/types/Update.html
     }
     public function onUpdateNewChannelMessage($update, $session)
     {
