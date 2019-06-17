@@ -56,10 +56,6 @@ class EventHandler extends \danog\MadelineProto\EventHandler
     {
         parent::__construct($MadelineProto);
     }
-    public function onAny($update)
-    {
-        \danog\MadelineProto\Logger::log("Received an update of type ".$update['_']);
-    }
     public function onUpdateSomethingElse($update)
     {
         // See the docs for a full list of updates: http://docs.madelineproto.xyz/API_docs/types/Update.html
@@ -141,10 +137,6 @@ class EventHandler extends \danog\MadelineProto\CombinedEventHandler
     public function __construct($CombinedMadelineProto)
     {
         parent::__construct($CombinedMadelineProto);
-    }
-    public function onAny($update, $session)
-    {
-        \danog\MadelineProto\Logger::log("Received an update of type ".$update['_']);
     }
     public function onUpdateSomethingElse($update, $session)
     {
