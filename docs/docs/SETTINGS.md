@@ -253,14 +253,13 @@ Description: scheme files to use
 Logger settings
 
 ### `$settings['logger']['logger']`
-Default: 3 if running from CLI, 2 if running from browser  
+Default: `\danog\MadelineProto\Logger::ECHO_LOGGER` if running from CLI, `\danog\MadelineProto\Logger::FILE_LOGGER` if running from browser  
 Description: logger mode, available logger modes:
 
-* 0 - No logger
-* 1 - Log to the default logger destination
-* 2 - Log to file in `$settings['logger']['logger_param']`
-* 3 - Echo logs
-* 4 - Call callable provided in `$settings['logger']['logger_param']`. logger_param must accept two parameters: array $message, int $level
+* `\danog\MadelineProto\Logger::DEFAULT_LOGGER` - Log to the default logger destination
+* `\danog\MadelineProto\Logger::FILE_LOGGER` - Log to file in `$settings['logger']['logger_param']`
+* `\danog\MadelineProto\Logger::ECHO_LOGGER` - Echo logs
+* `\danog\MadelineProto\Logger::CALLABLE_LOGGER` - Call callable provided in `$settings['logger']['logger_param']`. logger_param must accept two parameters: array $message, int $level
 
 ### `$settings['logger']['param']`
 Default: `__DIR__.'/Madeline.log'`  
