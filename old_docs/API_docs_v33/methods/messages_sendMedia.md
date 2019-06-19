@@ -31,7 +31,6 @@ Send a media
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
-define('MADELINE_BRANCH', '');
 include 'madeline.php';
 
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
