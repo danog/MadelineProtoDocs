@@ -9,7 +9,6 @@ MadelineProto now features async, for **incredible speed improvements**, and par
 Powered by [amphp](https://amphp.org), MadelineProto wraps the AMPHP APIs to provide a simpler generator-based async API.  
 
 * [Usage](#usage)
-  * [Loading the latest version of MadelineProto](#loading-the-latest-version-of-madelineproto)
   * [Enabling the MadelineProto async API](#enabling-the-madelineproto-async-api)
   * [Using the MadelineProto async API](#using-the-madelineproto-async-api)
     * [Async in event handler](#async-in-event-handler)
@@ -62,21 +61,6 @@ This means that you can handle multiple updates, download/upload multiple files 
 If your code still relies on the old synchronous behaviour, don't worry, there is backward compatibility.  
 However, I highly recommend you switch to async, due to the huge performance and parallelism benefits.  
 
-## Loading the latest version of MadelineProto
-
-In order to use the `yield` operator in MadelineProto, you have to load the **latest version** of MadelineProto from the **master** branch (alpha) by loading it through composer (`dev-master`) or with madeline.php:  
-```php
-<?php
-
-if (!file_exists('madeline.php')) {
-    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
-}
-define('MADELINE_BRANCH', '');
-include 'madeline.php';
-```
-
-The `MADELINE_BRANCH` constant you defines which branch of MadelineProto madeline.php should load.  
-When the constant is not set, the `old` stable branch is loaded; if the value is an empty string, the `master` branch is loaded; otherwise, the selected branch name is loaded.  
 **WARNING**: MadelineProto async is not compatible with pthreads or pcntl, so please uninstall pthreads and do not use `pcntl_fork` in your bot.  
 
 ## Enabling the MadelineProto async API
