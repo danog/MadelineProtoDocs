@@ -106,7 +106,7 @@ Make sure you also have these set in the composer.json:
 Then you can require the package by addding the following lines to the require section:
 
 ```
-"danog/madelineproto":"dev-master",
+"danog/madelineproto":"^4",
 "amphp/dns": "dev-master#aa1892bd as 0.9"
 ```
 
