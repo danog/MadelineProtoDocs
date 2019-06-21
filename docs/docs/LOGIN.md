@@ -1,9 +1,9 @@
 ---
-title: Logging in
+title: Login
 description: There are many ways you can login with MadelineProto.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Logging in
+# Login
 
 There are many ways you can login with MadelineProto.
 
