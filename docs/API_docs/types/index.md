@@ -99,6 +99,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [EmojiKeywordsDifference](EmojiKeywordsDifference.md)<a name="EmojiKeywordsDifference"></a>  
 
+[EmojiLanguage](EmojiLanguage.md)<a name="EmojiLanguage"></a>  
+
 [EmojiURL](EmojiURL.md)<a name="EmojiURL"></a>  
 
 [EncryptedChat](EncryptedChat.md)<a name="EncryptedChat"></a>  
@@ -116,6 +118,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [FileHash](FileHash.md)<a name="FileHash"></a>  
 
 [FileLocation](FileLocation.md)<a name="FileLocation"></a>  
+
+[Folder](Folder.md)<a name="Folder"></a>  
+
+[FolderPeer](FolderPeer.md)<a name="FolderPeer"></a>  
 
 [FoundGif](FoundGif.md)<a name="FoundGif"></a>  
 
@@ -158,6 +164,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [InputFile](InputFile.md)<a name="InputFile"></a>  
 
 [InputFileLocation](InputFileLocation.md)<a name="InputFileLocation"></a>  
+
+[InputFolderPeer](InputFolderPeer.md)<a name="InputFolderPeer"></a>  
 
 [InputGame](InputGame.md)<a name="InputGame"></a>  
 
@@ -361,6 +369,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [Updates](Updates.md)<a name="Updates"></a>  
 
+[UrlAuthResult](UrlAuthResult.md)<a name="UrlAuthResult"></a>  
+
 [User](User.md)<a name="User"></a>  
 
 [UserFull](UserFull.md)<a name="UserFull"></a>  
@@ -506,6 +516,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [messages\_RecentStickers](messages_RecentStickers.md)<a name="messages_RecentStickers"></a>  
 
 [messages\_SavedGifs](messages_SavedGifs.md)<a name="messages_SavedGifs"></a>  
+
+[messages\_SearchCounter](messages_SearchCounter.md)<a name="messages_SearchCounter"></a>  
 
 [messages\_SentEncryptedMessage](messages_SentEncryptedMessage.md)<a name="messages_SentEncryptedMessage"></a>  
 

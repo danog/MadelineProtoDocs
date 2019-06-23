@@ -24,6 +24,8 @@ Describes available privacy settings
 
 [privacyKeyProfilePhoto](../constructors/privacyKeyProfilePhoto.md)  
 
+[privacyKeyPhoneNumber](../constructors/privacyKeyPhoneNumber.md)  
+
 
 
 ### Methods that return an object of this type (methods):

@@ -10,9 +10,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[fileLocationUnavailable](../constructors/fileLocationUnavailable.md)  
+[fileLocationToBeDeprecated](../constructors/fileLocationToBeDeprecated.md)  
 
-[fileLocation](../constructors/fileLocation.md)  
+[fileLocationUnavailable\_23](../constructors/fileLocationUnavailable_23.md)  
 
 [fileLocation\_23](../constructors/fileLocation_23.md)  
 

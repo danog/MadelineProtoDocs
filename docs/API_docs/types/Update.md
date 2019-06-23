@@ -150,6 +150,8 @@ Contains notifications about data changes
 
 [updateChatDefaultBannedRights](../constructors/updateChatDefaultBannedRights.md)  
 
+[updateFolderPeers](../constructors/updateFolderPeers.md)  
+
 
 
 ### Methods that return an object of this type (methods):

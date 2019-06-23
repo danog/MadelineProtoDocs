@@ -25,6 +25,7 @@ Maximum file size is of 1.5 GB.
 * [Reusing uploaded files](#reusing-uploaded-files)
 * [Downloading files](#downloading-files)
   * [Extracting download info](#extracting-download-info)
+  * [Downloading profile pictures](#downloading-profile-pictures)
   * [Download to directory](#download-to-directory)
   * [Download to file](#download-to-file)
   * [Download to browser (streaming)](#download-to-browser-with-streams)
@@ -304,6 +305,19 @@ $info = yield $MadelineProto->get_download_info($MessageMedia);
 ```
 
 `$MessageMedia` can be a [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object or a bot API file ID.
+
+* `$info['ext']` - The file extension
+* `$info['name']` - The file name, without the extension
+* `$info['mime']` - The file mime type
+* `$info['size']` - The file size
+
+### Downloading profile pictures
+```php
+$info = yield $MadelineProto->get_propic_info($Update);
+```
+
+`$Update` can be a [Message](https://docs.madelineproto.xyz/API_docs/types/Message.html) object, an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html), or any value supported by [getInfo](https://docs.madelineproto.xyz/get_full_info.html).  
+The result (which is in the same format as `get_download_info`) should the be passed to the download functions in order to download the profile picture.  
 
 * `$info['ext']` - The file extension
 * `$info['name']` - The file name, without the extension

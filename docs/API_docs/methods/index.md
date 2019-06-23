@@ -30,6 +30,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * [Create a secret chat bot](https://docs.madelineproto.xyz/docs/SECRET_CHATS.html)
 
+* <a href="messages_acceptUrlAuth.html" name="messages_acceptUrlAuth">Accept URL authorization: messages.acceptUrlAuth</a>  
+
 * <a href="account_acceptAuthorization.html" name="account_acceptAuthorization">Accept telegram passport authorization: account.acceptAuthorization</a>  
 
 * <a href="help_acceptTermsOfService.html" name="help_acceptTermsOfService">Accept telegram's TOS: help.acceptTermsOfService</a>  
@@ -128,6 +130,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="contacts_deleteByPhones.html" name="contacts_deleteByPhones">Delete contacts by phones: contacts.deleteByPhones</a>  
 
+* <a href="folders_deleteFolder.html" name="folders_deleteFolder">Delete folder: folders.deleteFolder</a>  
+
 * <a href="messages_deleteMessages.html" name="messages_deleteMessages">Delete messages: messages.deleteMessages</a>  
 
 * <a href="contacts_deleteContacts.html" name="contacts_deleteContacts">Delete multiple contacts: contacts.deleteContacts</a>  
@@ -155,6 +159,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages_editChatAbout.html" name="messages_editChatAbout">Edit chat info: messages.editChatAbout</a>  
 
 * <a href="messages_editChatDefaultBannedRights.html" name="messages_editChatDefaultBannedRights">Edit default rights of chat: messages.editChatDefaultBannedRights</a>  
+
+* <a href="folders_editPeerFolders.html" name="folders_editPeerFolders">Edit folder: folders.editPeerFolders</a>  
 
 * <a href="messages_editChatPhoto.html" name="messages_editChatPhoto">Edit the photo of a normal chat (not supergroup): messages.editChatPhoto</a>  
 
@@ -218,6 +224,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels_getParticipants.html" name="channels_getParticipants">Get channel/supergroup participants (you should use `$MadelineProto->get_pwr_chat($id)` instead): channels.getParticipants</a>  
 
+* <a href="channels_getBroadcastsForDiscussion.html" name="channels_getBroadcastsForDiscussion">Get channels for discussion: channels.getBroadcastsForDiscussion</a>  
+
 * <a href="messages_getCommonChats.html" name="messages_getCommonChats">Get chats in common with a user: messages.getCommonChats</a>  
 
 * <a href="contacts_getContactIDs.html" name="contacts_getContactIDs">Get contacts by IDs: contacts.getContactIDs</a>  
@@ -234,11 +242,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages_getEmojiKeywordsDifference.html" name="messages_getEmojiKeywordsDifference">Get emoji keyword difference: messages.getEmojiKeywordsDifference</a>  
 
+* <a href="messages_getEmojiKeywordsLanguages.html" name="messages_getEmojiKeywordsLanguages">Get emoji keyword languages: messages.getEmojiKeywordsLanguages</a>  
+
 * <a href="messages_getEmojiKeywords.html" name="messages_getEmojiKeywords">Get emoji keywords: messages.getEmojiKeywords</a>  
 
 * <a href="messages_getFavedStickers.html" name="messages_getFavedStickers">Get favorite stickers: messages.getFavedStickers</a>  
 
 * <a href="messages_getFeaturedStickers.html" name="messages_getFeaturedStickers">Get featured stickers: messages.getFeaturedStickers</a>  
+
+* <a href="channels_getGroupsForDiscussion.html" name="channels_getGroupsForDiscussion">Get groups for discussion: channels.getGroupsForDiscussion</a>  
 
 * <a href="messages_getInlineGameHighScores.html" name="messages_getInlineGameHighScores">Get high scores of a game sent in an inline message: messages.getInlineGameHighScores</a>  
 
@@ -311,6 +323,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages_getSavedGifs.html" name="messages_getSavedGifs">Get saved gifs: messages.getSavedGifs</a>  
 
 * <a href="payments_getSavedInfo.html" name="payments_getSavedInfo">Get saved payments info: payments.getSavedInfo</a>  
+
+* <a href="messages_getSearchCounters.html" name="messages_getSearchCounters">Get search counter: messages.getSearchCounters</a>  
 
 * <a href="account_getSecureValue.html" name="account_getSecureValue">Get secure value for telegram passport: account.getSecureValue</a>  
 
@@ -426,6 +440,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account_reportPeer.html" name="account_reportPeer">Report for spam: account.reportPeer</a>  
 
+* <a href="messages_requestUrlAuth.html" name="messages_requestUrlAuth">Request URL authorization: messages.requestUrlAuth</a>  
+
 * <a href="account_resendPasswordEmail.html" name="account_resendPasswordEmail">Resend password recovery email: account.resendPasswordEmail</a>  
 
 * <a href="auth_resendCode.html" name="auth_resendCode">Resend the SMS verification code: auth.resendCode</a>  
@@ -497,6 +513,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="account_setAccountTTL.html" name="account_setAccountTTL">Set account TTL: account.setAccountTTL</a>  
 
 * <a href="account_setContactSignUpNotification.html" name="account_setContactSignUpNotification">Set contact sign up notification: account.setContactSignUpNotification</a>  
+
+* <a href="channels_setDiscussionGroup.html" name="channels_setDiscussionGroup">Set discussion group of channel: channels.setDiscussionGroup</a>  
 
 * <a href="phone_setCallRating.html" name="phone_setCallRating">Set phone call rating: phone.setCallRating</a>  
 

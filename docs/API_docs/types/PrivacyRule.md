@@ -24,6 +24,10 @@ Represents one rule for managing privacy settings
 
 [privacyValueDisallowUsers](../constructors/privacyValueDisallowUsers.md)  
 
+[privacyValueAllowChatParticipants](../constructors/privacyValueAllowChatParticipants.md)  
+
+[privacyValueDisallowChatParticipants](../constructors/privacyValueDisallowChatParticipants.md)  
+
 
 
 ### Methods that return an object of this type (methods):
