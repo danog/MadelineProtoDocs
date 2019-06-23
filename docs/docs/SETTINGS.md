@@ -413,7 +413,7 @@ Description: Serialization will be made automatically every N seconds
 
 ### `$settings['serialization']['cleanup_before_serialization']`
 Default: false  
-Description: Remove data from internal database to cleanup memory and reduce *.madeline file size
+Description: Remove data from internal database to cleanup memory and reduce `*.madeline` file size (may cause MadelineProto errors).
 
 
 <hr>
