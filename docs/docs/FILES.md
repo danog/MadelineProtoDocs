@@ -316,7 +316,7 @@ $info = yield $MadelineProto->get_download_info($MessageMedia);
 $info = yield $MadelineProto->get_propic_info($Update);
 ```
 
-`$Update` can be a [Message](https://docs.madelineproto.xyz/API_docs/types/Message.html) object, an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html), or any value supported by [getInfo](https://docs.madelineproto.xyz/get_full_info.html).  
+`$Update` can be a [Message](https://docs.madelineproto.xyz/API_docs/types/Message.html) object, an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html), or any value supported by [getInfo](https://docs.madelineproto.xyz/get_info.html).  
 The result (which is in the same format as `get_download_info`) should the be passed to the download functions in order to download the profile picture.  
 
 * `$info['ext']` - The file extension
