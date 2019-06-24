@@ -25,6 +25,7 @@ Powered by [amphp](https://amphp.org), MadelineProto wraps the AMPHP APIs to pro
       * [Async echo](#async-echo-does-not-block-the-main-thread)
       * [MadelineProto artax HTTP client](#madelineproto-artax-http-client)
       * [Async forking](#async-forking-does-green-thread-forking)
+      * [Async flock](#async-flock)
       * [Combining async operations](#combining-async-operations)
     * [MadelineProto async loop APIs](#async-loop-apis)
       * [Loop](#loop)
@@ -322,6 +323,21 @@ $MadelineProto->callFork((function () use ($MadelineProto) {
     }
 })());
 ```
+
+#### Async flock
+
+```php
+$unlock = yield $MadelineProto->flock($filePath, LOCK_SH);
+try {
+    // ...
+} finally {
+    $unlock();
+}
+```
+
+This will asynchronously wait for a lock on `$filePath` (creating it if it doesn't exist).  
+The locking mode can be `LOCK_SH` (shared locks), `LOCK_EX` (exclusive locks), as with the PHP `flock` function.  
+A third optional parameter can be set, to specify a polling interval in seconds (0.1 by default).  
 
 #### Combining async operations
 

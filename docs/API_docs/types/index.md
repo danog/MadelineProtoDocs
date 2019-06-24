@@ -35,6 +35,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [ChannelAdminLogEventsFilter](ChannelAdminLogEventsFilter.md)<a name="ChannelAdminLogEventsFilter"></a>  
 
+[ChannelLocation](ChannelLocation.md)<a name="ChannelLocation"></a>  
+
 [ChannelMessagesFilter](ChannelMessagesFilter.md)<a name="ChannelMessagesFilter"></a>  
 
 [ChannelParticipant](ChannelParticipant.md)<a name="ChannelParticipant"></a>  
@@ -66,8 +68,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Contact](Contact.md)<a name="Contact"></a>  
 
 [ContactBlocked](ContactBlocked.md)<a name="ContactBlocked"></a>  
-
-[ContactLink](ContactLink.md)<a name="ContactLink"></a>  
 
 [ContactStatus](ContactStatus.md)<a name="ContactStatus"></a>  
 
@@ -279,6 +279,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [Peer](Peer.md)<a name="Peer"></a>  
 
+[PeerLocated](PeerLocated.md)<a name="PeerLocated"></a>  
+
 [PeerNotifySettings](PeerNotifySettings.md)<a name="PeerNotifySettings"></a>  
 
 [PeerSettings](PeerSettings.md)<a name="PeerSettings"></a>  
@@ -442,8 +444,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [contacts\_Found](contacts_Found.md)<a name="contacts_Found"></a>  
 
 [contacts\_ImportedContacts](contacts_ImportedContacts.md)<a name="contacts_ImportedContacts"></a>  
-
-[contacts\_Link](contacts_Link.md)<a name="contacts_Link"></a>  
 
 [contacts\_ResolvedPeer](contacts_ResolvedPeer.md)<a name="contacts_ResolvedPeer"></a>  
 

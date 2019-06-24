@@ -30,8 +30,6 @@ Contains notifications about data changes
 
 [updateUserPhoto](../constructors/updateUserPhoto.md)  
 
-[updateContactLink](../constructors/updateContactLink.md)  
-
 [updateNewEncryptedMessage](../constructors/updateNewEncryptedMessage.md)  
 
 [updateEncryptedChatTyping](../constructors/updateEncryptedChatTyping.md)  
@@ -151,6 +149,10 @@ Contains notifications about data changes
 [updateChatDefaultBannedRights](../constructors/updateChatDefaultBannedRights.md)  
 
 [updateFolderPeers](../constructors/updateFolderPeers.md)  
+
+[updatePeerSettings](../constructors/updatePeerSettings.md)  
+
+[updatePeerLocated](../constructors/updatePeerLocated.md)  
 
 
 

@@ -32,6 +32,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages_acceptUrlAuth.html" name="messages_acceptUrlAuth">Accept URL authorization: messages.acceptUrlAuth</a>  
 
+* <a href="contacts_acceptContact.html" name="contacts_acceptContact">Accept contact: contacts.acceptContact</a>  
+
 * <a href="account_acceptAuthorization.html" name="account_acceptAuthorization">Accept telegram passport authorization: account.acceptAuthorization</a>  
 
 * <a href="help_acceptTermsOfService.html" name="help_acceptTermsOfService">Accept telegram's TOS: help.acceptTermsOfService</a>  
@@ -43,6 +45,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages_saveRecentSticker.html" name="messages_saveRecentSticker">Add a sticker to recent stickers: messages.saveRecentSticker</a>  
 
 * <a href="messages_addChatUser.html" name="messages_addChatUser">Add a user to a normal chat (use channels->inviteToChannel for supergroups): messages.addChatUser</a>  
+
+* <a href="contacts_addContact.html" name="contacts_addContact">Add contact: contacts.addContact</a>  
 
 * <a href="contacts_importContacts.html" name="contacts_importContacts">Add phone number as contact: contacts.importContacts</a>  
 
@@ -114,8 +118,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels_deleteChannel.html" name="channels_deleteChannel">Delete a channel/supergroup: channels.deleteChannel</a>  
 
-* <a href="contacts_deleteContact.html" name="contacts_deleteContact">Delete a contact: contacts.deleteContact</a>  
-
 * <a href="messages_deleteChatUser.html" name="messages_deleteChatUser">Delete a user from a chat (not supergroup): messages.deleteChatUser</a>  
 
 * <a href="auth_resetAuthorizations.html" name="auth_resetAuthorizations">Delete all logged-in sessions.: auth.resetAuthorizations</a>  
@@ -158,9 +160,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages_editChatAbout.html" name="messages_editChatAbout">Edit chat info: messages.editChatAbout</a>  
 
+* <a href="channels_editCreator.html" name="channels_editCreator">Edit creator of channel: channels.editCreator</a>  
+
 * <a href="messages_editChatDefaultBannedRights.html" name="messages_editChatDefaultBannedRights">Edit default rights of chat: messages.editChatDefaultBannedRights</a>  
 
 * <a href="folders_editPeerFolders.html" name="folders_editPeerFolders">Edit folder: folders.editPeerFolders</a>  
+
+* <a href="channels_editLocation.html" name="channels_editLocation">Edit location (geochats): channels.editLocation</a>  
 
 * <a href="messages_editChatPhoto.html" name="messages_editChatPhoto">Edit the photo of a normal chat (not supergroup): messages.editChatPhoto</a>  
 
@@ -223,8 +229,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="channels_getMessages.html" name="channels_getMessages">Get channel/supergroup messages: channels.getMessages</a>  
 
 * <a href="channels_getParticipants.html" name="channels_getParticipants">Get channel/supergroup participants (you should use `$MadelineProto->get_pwr_chat($id)` instead): channels.getParticipants</a>  
-
-* <a href="channels_getBroadcastsForDiscussion.html" name="channels_getBroadcastsForDiscussion">Get channels for discussion: channels.getBroadcastsForDiscussion</a>  
 
 * <a href="messages_getCommonChats.html" name="messages_getCommonChats">Get chats in common with a user: messages.getCommonChats</a>  
 
@@ -304,6 +308,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="payments_getPaymentReceipt.html" name="payments_getPaymentReceipt">Get payment receipt: payments.getPaymentReceipt</a>  
 
+* <a href="contacts_getLocated.html" name="contacts_getLocated">Get people nearby (geochats): contacts.getLocated</a>  
+
 * <a href="messages_getPinnedDialogs.html" name="messages_getPinnedDialogs">Get pinned dialogs: messages.getPinnedDialogs</a>  
 
 * <a href="messages_getPollResults.html" name="messages_getPollResults">Get poll results: messages.getPollResults</a>  
@@ -370,7 +376,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages_searchGlobal.html" name="messages_searchGlobal">Global message search: messages.searchGlobal</a>  
 
-* <a href="messages_hideReportSpam.html" name="messages_hideReportSpam">Hide report spam popup: messages.hideReportSpam</a>  
+* <a href="messages_hidePeerSettingsBar.html" name="messages_hidePeerSettingsBar">Hide peer settings bar: messages.hidePeerSettingsBar</a>  
 
 * <a href="messages_importChatInvite.html" name="messages_importChatInvite">Import chat invite: messages.importChatInvite</a>  
 

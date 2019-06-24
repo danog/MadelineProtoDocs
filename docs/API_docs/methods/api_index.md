@@ -188,7 +188,7 @@ $MadelineProto->[bots->sendCustomRequest](bots_sendCustomRequest.md)(\['custom_m
 <br><br>
 $MadelineProto->[channels->checkUsername](channels_checkUsername.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'username' => [string](../types/string.md), \]) === [$Bool](../types/Bool.md)<a name="channels_checkUsername"></a>  
 
-$MadelineProto->[channels->createChannel](channels_createChannel.md)(\['broadcast' => [Bool](../types/Bool.md), 'megagroup' => [Bool](../types/Bool.md), 'title' => [string](../types/string.md), 'about' => [string](../types/string.md), \]) === [$Updates](../types/Updates.md)<a name="channels_createChannel"></a>  
+$MadelineProto->[channels->createChannel](channels_createChannel.md)(\['broadcast' => [Bool](../types/Bool.md), 'megagroup' => [Bool](../types/Bool.md), 'title' => [string](../types/string.md), 'about' => [string](../types/string.md), 'geo_point' => [InputGeoPoint](../types/InputGeoPoint.md), 'address' => [string](../types/string.md), \]) === [$Updates](../types/Updates.md)<a name="channels_createChannel"></a>  
 
 $MadelineProto->[channels->deleteChannel](channels_deleteChannel.md)(\['channel' => [InputChannel](../types/InputChannel.md), \]) === [$Updates](../types/Updates.md)<a name="channels_deleteChannel"></a>  
 
@@ -202,6 +202,10 @@ $MadelineProto->[channels->editAdmin](channels_editAdmin.md)(\['channel' => [Inp
 
 $MadelineProto->[channels->editBanned](channels_editBanned.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'user_id' => [InputUser](../types/InputUser.md), 'banned_rights' => [ChatBannedRights](../types/ChatBannedRights.md), \]) === [$Updates](../types/Updates.md)<a name="channels_editBanned"></a>  
 
+$MadelineProto->[channels->editCreator](channels_editCreator.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'user_id' => [InputUser](../types/InputUser.md), 'password' => [InputCheckPasswordSRP](../types/InputCheckPasswordSRP.md), \]) === [$Updates](../types/Updates.md)<a name="channels_editCreator"></a>  
+
+$MadelineProto->[channels->editLocation](channels_editLocation.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'geo_point' => [InputGeoPoint](../types/InputGeoPoint.md), 'address' => [string](../types/string.md), \]) === [$Bool](../types/Bool.md)<a name="channels_editLocation"></a>  
+
 $MadelineProto->[channels->editPhoto](channels_editPhoto.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'photo' => [InputChatPhoto](../types/InputChatPhoto.md), \]) === [$Updates](../types/Updates.md)<a name="channels_editPhoto"></a>  
 
 $MadelineProto->[channels->editTitle](channels_editTitle.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'title' => [string](../types/string.md), \]) === [$Updates](../types/Updates.md)<a name="channels_editTitle"></a>  
@@ -210,9 +214,7 @@ $MadelineProto->[channels->exportMessageLink](channels_exportMessageLink.md)(\['
 
 $MadelineProto->[channels->getAdminLog](channels_getAdminLog.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'q' => [string](../types/string.md), 'events_filter' => [ChannelAdminLogEventsFilter](../types/ChannelAdminLogEventsFilter.md), 'admins' => \[[InputUser](../types/InputUser.md)\], 'max_id' => [long](../types/long.md), 'min_id' => [long](../types/long.md), 'limit' => [int](../types/int.md), \]) === [$channels\_AdminLogResults](../types/channels_AdminLogResults.md)<a name="channels_getAdminLog"></a>  
 
-$MadelineProto->[channels->getAdminedPublicChannels](channels_getAdminedPublicChannels.md)(\[\]) === [$messages\_Chats](../types/messages_Chats.md)<a name="channels_getAdminedPublicChannels"></a>  
-
-$MadelineProto->[channels->getBroadcastsForDiscussion](channels_getBroadcastsForDiscussion.md)(\[\]) === [$messages\_Chats](../types/messages_Chats.md)<a name="channels_getBroadcastsForDiscussion"></a>  
+$MadelineProto->[channels->getAdminedPublicChannels](channels_getAdminedPublicChannels.md)(\['by_location' => [Bool](../types/Bool.md), 'check_limit' => [Bool](../types/Bool.md), \]) === [$messages\_Chats](../types/messages_Chats.md)<a name="channels_getAdminedPublicChannels"></a>  
 
 $MadelineProto->[channels->getChannels](channels_getChannels.md)(\['id' => \[[InputChannel](../types/InputChannel.md)\], \]) === [$messages\_Chats](../types/messages_Chats.md)<a name="channels_getChannels"></a>  
 
@@ -252,19 +254,23 @@ $MadelineProto->[channels->updateUsername](channels_updateUsername.md)(\['channe
 
 ***
 <br><br>
+$MadelineProto->[contacts->acceptContact](contacts_acceptContact.md)(\['id' => [InputUser](../types/InputUser.md), \]) === [$Updates](../types/Updates.md)<a name="contacts_acceptContact"></a>  
+
+$MadelineProto->[contacts->addContact](contacts_addContact.md)(\['add_phone_privacy_exception' => [Bool](../types/Bool.md), 'id' => [InputUser](../types/InputUser.md), 'first_name' => [string](../types/string.md), 'last_name' => [string](../types/string.md), 'phone' => [string](../types/string.md), \]) === [$Updates](../types/Updates.md)<a name="contacts_addContact"></a>  
+
 $MadelineProto->[contacts->block](contacts_block.md)(\['id' => [InputUser](../types/InputUser.md), \]) === [$Bool](../types/Bool.md)<a name="contacts_block"></a>  
 
 $MadelineProto->[contacts->deleteByPhones](contacts_deleteByPhones.md)(\['phones' => \[[string](../types/string.md)\], \]) === [$Bool](../types/Bool.md)<a name="contacts_deleteByPhones"></a>  
 
-$MadelineProto->[contacts->deleteContact](contacts_deleteContact.md)(\['id' => [InputUser](../types/InputUser.md), \]) === [$contacts\_Link](../types/contacts_Link.md)<a name="contacts_deleteContact"></a>  
-
-$MadelineProto->[contacts->deleteContacts](contacts_deleteContacts.md)(\['id' => \[[InputUser](../types/InputUser.md)\], \]) === [$Bool](../types/Bool.md)<a name="contacts_deleteContacts"></a>  
+$MadelineProto->[contacts->deleteContacts](contacts_deleteContacts.md)(\['id' => \[[InputUser](../types/InputUser.md)\], \]) === [$Updates](../types/Updates.md)<a name="contacts_deleteContacts"></a>  
 
 $MadelineProto->[contacts->getBlocked](contacts_getBlocked.md)(\['offset' => [int](../types/int.md), 'limit' => [int](../types/int.md), \]) === [$contacts\_Blocked](../types/contacts_Blocked.md)<a name="contacts_getBlocked"></a>  
 
 $MadelineProto->[contacts->getContactIDs](contacts_getContactIDs.md)(\['hash' => [int](../types/int.md), \]) === [$Vector\_of\_int](../types/int.md)<a name="contacts_getContactIDs"></a>  
 
 $MadelineProto->[contacts->getContacts](contacts_getContacts.md)(\['hash' => [int](../types/int.md), \]) === [$contacts\_Contacts](../types/contacts_Contacts.md)<a name="contacts_getContacts"></a>  
+
+$MadelineProto->[contacts->getLocated](contacts_getLocated.md)(\['geo_point' => [InputGeoPoint](../types/InputGeoPoint.md), \]) === [$Updates](../types/Updates.md)<a name="contacts_getLocated"></a>  
 
 $MadelineProto->[contacts->getSaved](contacts_getSaved.md)(\[\]) === [$Vector\_of\_SavedContact](../types/SavedContact.md)<a name="contacts_getSaved"></a>  
 
@@ -502,7 +508,7 @@ $MadelineProto->[messages->getWebPage](messages_getWebPage.md)(\['url' => [strin
 
 $MadelineProto->[messages->getWebPagePreview](messages_getWebPagePreview.md)(\['message' => [string](../types/string.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], \]) === [$MessageMedia](../types/MessageMedia.md)<a name="messages_getWebPagePreview"></a>  
 
-$MadelineProto->[messages->hideReportSpam](messages_hideReportSpam.md)(\['peer' => [InputPeer](../types/InputPeer.md), \]) === [$Bool](../types/Bool.md)<a name="messages_hideReportSpam"></a>  
+$MadelineProto->[messages->hidePeerSettingsBar](messages_hidePeerSettingsBar.md)(\['peer' => [InputPeer](../types/InputPeer.md), \]) === [$Bool](../types/Bool.md)<a name="messages_hidePeerSettingsBar"></a>  
 
 $MadelineProto->[messages->importChatInvite](messages_importChatInvite.md)(\['hash' => [string](../types/string.md), \]) === [$Updates](../types/Updates.md)<a name="messages_importChatInvite"></a>  
 
@@ -550,7 +556,7 @@ $MadelineProto->[messages->search](messages_search.md)(\['peer' => [InputPeer](.
 
 $MadelineProto->[messages->searchGifs](messages_searchGifs.md)(\['q' => [string](../types/string.md), 'offset' => [int](../types/int.md), \]) === [$messages\_FoundGifs](../types/messages_FoundGifs.md)<a name="messages_searchGifs"></a>  
 
-$MadelineProto->[messages->searchGlobal](messages_searchGlobal.md)(\['q' => [string](../types/string.md), 'offset_rate' => [int](../types/int.md), 'offset_peer' => [InputPeer](../types/InputPeer.md), 'offset_id' => [int](../types/int.md), 'limit' => [int](../types/int.md), \]) === [$messages\_Messages](../types/messages_Messages.md)<a name="messages_searchGlobal"></a>  
+$MadelineProto->[messages->searchGlobal](messages_searchGlobal.md)(\['folder_id' => [int](../types/int.md), 'q' => [string](../types/string.md), 'offset_rate' => [int](../types/int.md), 'offset_peer' => [InputPeer](../types/InputPeer.md), 'offset_id' => [int](../types/int.md), 'limit' => [int](../types/int.md), \]) === [$messages\_Messages](../types/messages_Messages.md)<a name="messages_searchGlobal"></a>  
 
 $MadelineProto->[messages->searchStickerSets](messages_searchStickerSets.md)(\['exclude_featured' => [Bool](../types/Bool.md), 'q' => [string](../types/string.md), 'hash' => [int](../types/int.md), \]) === [$messages\_FoundStickerSets](../types/messages_FoundStickerSets.md)<a name="messages_searchStickerSets"></a>  
 
