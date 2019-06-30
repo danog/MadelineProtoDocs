@@ -57,8 +57,7 @@ X = invokeWithLayer({layer=int, query=!X, })
 |INPUT_LAYER_INVALID|The provided layer is invalid|
 |INVITE_HASH_EXPIRED|The invite link has expired|
 |AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|NEED_MEMBER_INVALID|The provided member is invalid|
 |CHAT_WRITE_FORBIDDEN|You can't write in this chat|
-|Timeout|A timeout occurred while fetching data from the bot|
+|Timeout|Timeout while fetching data|
 
 

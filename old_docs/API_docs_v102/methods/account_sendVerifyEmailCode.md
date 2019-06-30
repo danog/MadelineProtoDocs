@@ -18,7 +18,7 @@ Send email verification code
 
 ### Return type: [account\_SentEmailCode](../types/account_SentEmailCode.md)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

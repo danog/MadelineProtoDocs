@@ -66,14 +66,10 @@ Updates = messages.forwardMessages({silent=Bool, background=Bool, with_my_score=
 |USER_IS_BLOCKED|User is blocked|
 |USER_IS_BOT|Bots can't send messages to other bots|
 |YOU_BLOCKED_USER|You blocked this user|
-|MSGID_DECREASE_RETRY|IDK TBH|
-|NEED_MEMBER_INVALID|The provided member is invalid|
-|PTS_CHANGE_EMPTY|No PTS change|
-|RANDOM_ID_DUPLICATE|You provided a random ID that was already used|
 |CHAT_SEND_GIFS_FORBIDDEN|You can't send gifs in this chat|
 |CHAT_SEND_MEDIA_FORBIDDEN|You can't send media in this chat|
 |CHAT_SEND_STICKERS_FORBIDDEN|You can't send stickers in this chat.|
 |CHAT_WRITE_FORBIDDEN|You can't write in this chat|
-|Timeout|A timeout occurred while fetching data from the bot|
+|Timeout|Timeout while fetching data|
 
 

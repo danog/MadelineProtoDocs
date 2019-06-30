@@ -18,5 +18,13 @@ The params array can contain password (current password), new_password, email (o
 
 
 ```php
-$result = yield $MadelineProto->update_2fa(['password' => 'current password', 'new_password' => 'New password', 'email' => 'daniil@daniil.it', 'hint' => 'ponies']);
+try {
+    $MadelineProto->update_2fa(['password' => 'current password', 'new_password' => 'New password', 'email' => 'daniil@daniil.it', 'hint' => 'ponies']);
+} catch (RPCErrorException $e) {
+    if (strpos($e->rpc, 'EMAIL_UNCONFIRMED_') !== false) {
+        $Bool = yield $MadelineProto->account->confirmPasswordEmail(['code' => yield $MadelineProto->readline('Enter your email code: ')]);
+    } else {
+        throw $e;
+    }
+}
 ```

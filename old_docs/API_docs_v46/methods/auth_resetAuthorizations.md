@@ -41,6 +41,6 @@ Bool = auth.resetAuthorizations({})
 
 | Error    | Description   |
 |----------|---------------|
-|Timeout|A timeout occurred while fetching data from the bot|
+|Timeout|Timeout while fetching data|
 
 

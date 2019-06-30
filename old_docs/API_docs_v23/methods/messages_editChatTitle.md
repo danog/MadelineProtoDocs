@@ -48,6 +48,6 @@ messages_StatedMessage = messages.editChatTitle({chat_id=InputPeer, title='strin
 | Error    | Description   |
 |----------|---------------|
 |CHAT_ID_INVALID|The provided chat id is invalid|
-|NEED_CHAT_INVALID|The provided chat is invalid|
+|CHAT_TITLE_EMPTY|No chat title provided|
 
 

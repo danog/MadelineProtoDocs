@@ -54,7 +54,6 @@ channels_ChannelParticipants = channels.getParticipants({channel=InputChannel, f
 |CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 |INPUT_CONSTRUCTOR_INVALID|The provided constructor is invalid|
-|MSGID_DECREASE_RETRY|IDK TBH|
-|Timeout|A timeout occurred while fetching data from the bot|
+|Timeout|Timeout while fetching data|
 
 

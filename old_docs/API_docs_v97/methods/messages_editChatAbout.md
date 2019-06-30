@@ -43,3 +43,10 @@ Or, if you're into Lua:
 Bool = messages.editChatAbout({peer=InputPeer, about='string', })
 ```
 
+### Errors this method can return:
+
+| Error    | Description   |
+|----------|---------------|
+|PEER_ID_INVALID|The provided peer id is invalid|
+
+

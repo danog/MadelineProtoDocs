@@ -42,6 +42,5 @@ Vector_of_ContactStatus = contacts.getStatuses({})
 | Error    | Description   |
 |----------|---------------|
 |SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
-|MSGID_DECREASE_RETRY|IDK TBH|
 
 

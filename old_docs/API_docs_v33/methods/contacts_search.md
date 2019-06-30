@@ -49,6 +49,6 @@ contacts_Found = contacts.search({q='string', limit=int, })
 |----------|---------------|
 |QUERY_TOO_SHORT|The query string is too short|
 |SEARCH_QUERY_EMPTY|The search query is empty|
-|Timeout|A timeout occurred while fetching data from the bot|
+|Timeout|Timeout while fetching data|
 
 

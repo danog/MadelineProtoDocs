@@ -47,6 +47,5 @@ User = contacts.importCard({export_card={int}, })
 | Error    | Description   |
 |----------|---------------|
 |EXPORT_CARD_INVALID|Provided card is invalid|
-|NEED_MEMBER_INVALID|The provided member is invalid|
 
 

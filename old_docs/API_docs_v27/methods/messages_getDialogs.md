@@ -51,7 +51,6 @@ messages_Dialogs = messages.getDialogs({offset=int, max_id=int, limit=int, })
 |INPUT_CONSTRUCTOR_INVALID|The provided constructor is invalid|
 |OFFSET_PEER_ID_INVALID|The provided offset peer is invalid|
 |SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
-|MSGID_DECREASE_RETRY|IDK TBH|
-|Timeout|A timeout occurred while fetching data from the bot|
+|Timeout|Timeout while fetching data|
 
 

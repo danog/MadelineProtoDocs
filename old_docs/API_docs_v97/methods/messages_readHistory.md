@@ -48,6 +48,6 @@ messages_AffectedMessages = messages.readHistory({peer=InputPeer, max_id=int, })
 | Error    | Description   |
 |----------|---------------|
 |PEER_ID_INVALID|The provided peer id is invalid|
-|Timeout|A timeout occurred while fetching data from the bot|
+|Timeout|Timeout while fetching data|
 
 

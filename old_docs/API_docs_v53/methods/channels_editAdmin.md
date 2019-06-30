@@ -48,7 +48,7 @@ Updates = channels.editAdmin({channel=InputChannel, user_id=InputUser, role=Chan
 
 | Error    | Description   |
 |----------|---------------|
-|ADMINS_TOO_MUCH|Too many admins|
+|ADMINS_TOO_MUCH|There are too many admins|
 |BOT_CHANNELS_NA|Bots can't edit admin privileges|
 |CHANNEL_INVALID|The provided channel is invalid|
 |CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|

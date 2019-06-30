@@ -48,6 +48,5 @@ messages_Chats = channels.getChannels({id={InputChannel}, })
 |----------|---------------|
 |CHANNEL_INVALID|The provided channel is invalid|
 |CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|NEED_CHAT_INVALID|The provided chat is invalid|
 
 

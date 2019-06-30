@@ -65,10 +65,8 @@ messages_StatedMessage = messages.sendMedia({peer=InputPeer, media=InputMedia, }
 |USER_IS_BOT|Bots can't send messages to other bots|
 |WEBPAGE_CURL_FAILED|Failure while fetching the webpage with cURL|
 |WEBPAGE_MEDIA_EMPTY|Webpage media empty|
-|RANDOM_ID_DUPLICATE|You provided a random ID that was already used|
-|STORAGE_CHECK_FAILED|Server storage check failed|
 |CHAT_SEND_MEDIA_FORBIDDEN|You can't send media in this chat|
 |CHAT_WRITE_FORBIDDEN|You can't write in this chat|
-|Timeout|A timeout occurred while fetching data from the bot|
+|Timeout|Timeout while fetching data|
 
 

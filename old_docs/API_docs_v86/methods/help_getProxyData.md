@@ -13,7 +13,7 @@ Get information about the current proxy
 
 ### Return type: [help\_ProxyData](../types/help_ProxyData.md)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

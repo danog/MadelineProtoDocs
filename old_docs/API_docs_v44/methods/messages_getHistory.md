@@ -57,6 +57,6 @@ messages_Messages = messages.getHistory({peer=InputPeer, offset_id=int, add_offs
 |PEER_ID_INVALID|The provided peer id is invalid|
 |AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
-|Timeout|A timeout occurred while fetching data from the bot|
+|Timeout|Timeout while fetching data|
 
 

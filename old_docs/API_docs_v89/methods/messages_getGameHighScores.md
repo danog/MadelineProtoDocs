@@ -48,6 +48,7 @@ messages_HighScores = messages.getGameHighScores({peer=InputPeer, id=int, user_i
 
 | Error    | Description   |
 |----------|---------------|
+|MESSAGE_ID_INVALID|The provided message id is invalid|
 |PEER_ID_INVALID|The provided peer id is invalid|
 |USER_BOT_REQUIRED|This method can only be called by a bot|
 

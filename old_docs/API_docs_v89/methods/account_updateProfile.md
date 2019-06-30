@@ -48,7 +48,7 @@ User = account.updateProfile({first_name='string', last_name='string', about='st
 
 | Error    | Description   |
 |----------|---------------|
-|ABOUT_TOO_LONG|The provided bio is too long|
+|ABOUT_TOO_LONG|About string too long|
 |FIRSTNAME_INVALID|The first name is invalid|
 
 

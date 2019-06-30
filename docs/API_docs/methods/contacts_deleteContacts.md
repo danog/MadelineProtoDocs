@@ -46,7 +46,6 @@ Updates = contacts.deleteContacts({id={InputUser}, })
 
 | Error    | Description   |
 |----------|---------------|
-|NEED_MEMBER_INVALID|The provided member is invalid|
-|Timeout|A timeout occurred while fetching data from the bot|
+|Timeout|Timeout while fetching data|
 
 
