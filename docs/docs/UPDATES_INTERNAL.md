@@ -1,6 +1,12 @@
+---
+title: Working with updates in MTProto
+description: To store information about an account session and avoid re-logging in, serialization must be done.
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+---
+
 # Working with updates in MTProto
 
-Implementations also have to take care to postpone updates received via the socket while filling gaps in the event and Update sequences, as well as avoid filling gaps in the same sequence.
+Apart from the baisc operations [required to work with MTProto update sequences](https://core.telegram.org/api/updates), Implementations also have to take care to postpone updates received via the socket while filling gaps in the event and Update sequences, as well as avoid filling gaps in the same sequence.
 
 An interesting and easy way this can be implemented, instead of using various locks, is by running background loops, like in [MadelineProto](https://github.com/danog/MadelineProto/tree/master/src/danog/MadelineProto/Loop/Update).
 
