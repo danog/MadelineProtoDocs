@@ -16,7 +16,7 @@ Code settings
 |----------|---------------|----------|-------------|
 |allow\_flashcall|[Bool](../types/Bool.md) | Optional|Allow flashcal?|
 |current\_number|[Bool](../types/Bool.md) | Optional|Current number?|
-|allow\_app\_hash|[Bool](../types/Bool.md) | Optional||
+|allow\_app\_hash|[Bool](../types/Bool.md) | Optional|Whether to allow a persistent app hash|
 
 
 

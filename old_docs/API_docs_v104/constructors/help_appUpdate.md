@@ -14,7 +14,7 @@ App update
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|can\_not\_skip|[Bool](../types/Bool.md) | Optional||
+|can\_not\_skip|[Bool](../types/Bool.md) | Optional|Whether the update is skippable|
 |id|[int](../types/int.md) | Yes|ID|
 |version|[string](../types/string.md) | Yes|Version|
 |text|[string](../types/string.md) | Yes|Text|

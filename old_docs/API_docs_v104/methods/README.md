@@ -544,6 +544,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels_toggleSignatures.html" name="channels_toggleSignatures">Toggle channel signatures: channels.toggleSignatures</a>  
 
+* <a href="channels_toggleSlowMode.html" name="channels_toggleSlowMode">Toggle slow mode: channels.toggleSlowMode</a>  
+
 * <a href="contacts_toggleTopPeers.html" name="contacts_toggleTopPeers">Toggle top peers: contacts.toggleTopPeers</a>  
 
 * <a href="contacts_unblock.html" name="contacts_unblock">Unblock a user: contacts.unblock</a>  

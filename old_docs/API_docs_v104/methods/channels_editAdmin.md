@@ -16,7 +16,7 @@ Edit admin permissions of a user in a channel/supergroup
 |channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel | Optional|
 |user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The user | Optional|
 |admin\_rights|[ChatAdminRights](../types/ChatAdminRights.md) | Admin rights | Yes|
-|rank|[string](../types/string.md) |  | Yes|
+|rank|[string](../types/string.md) | Admin rank, an arbitrary string | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

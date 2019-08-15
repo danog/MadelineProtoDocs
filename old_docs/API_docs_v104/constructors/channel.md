@@ -24,8 +24,8 @@ Channel
 |min|[Bool](../types/Bool.md) | Optional|Min?|
 |scam|[Bool](../types/Bool.md) | Optional|Scam channel|
 |has\_link|[Bool](../types/Bool.md) | Optional|Has linked chat?|
-|has\_geo|[Bool](../types/Bool.md) | Optional||
-|slowmode\_enabled|[Bool](../types/Bool.md) | Optional||
+|has\_geo|[Bool](../types/Bool.md) | Optional|Whether this is a geogroup|
+|slowmode\_enabled|[Bool](../types/Bool.md) | Optional|Whether slowmode is enabled|
 |id|[int](../types/int.md) | Yes|ID|
 |access\_hash|[long](../types/long.md) | Optional|Access hash|
 |title|[string](../types/string.md) | Yes|Title|

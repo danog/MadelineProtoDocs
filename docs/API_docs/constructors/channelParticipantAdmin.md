@@ -21,7 +21,7 @@ Channel participant admin
 |promoted\_by|[int](../types/int.md) | Yes|Promoted by|
 |date|[int](../types/int.md) | Yes|Date|
 |admin\_rights|[ChatAdminRights](../types/ChatAdminRights.md) | Yes|Admin rights|
-|rank|[string](../types/string.md) | Optional||
+|rank|[string](../types/string.md) | Optional|Admin's rank, an arbitrary string|
 
 
 

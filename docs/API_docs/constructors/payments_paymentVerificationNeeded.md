@@ -1,6 +1,6 @@
 ---
 title: payments.paymentVerificationNeeded
-description: payments_paymentVerificationNeeded attributes, type and example
+description: Payment verification needed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: payments.paymentVerificationNeeded  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Payment verification needed
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|url|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|url|[string](../types/string.md) | Yes|3dsecure URL|
 
 
 

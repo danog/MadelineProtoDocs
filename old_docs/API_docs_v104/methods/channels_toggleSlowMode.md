@@ -1,18 +1,20 @@
 ---
 title: channels.toggleSlowMode
-description: channels.toggleSlowMode parameters, return type and example
+description: Toggle slow mode
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: channels.toggleSlowMode  
 [Back to methods index](index.md)
 
 
+Toggle slow mode
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|
-|seconds|[int](../types/int.md) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Supergroup | Optional|
+|seconds|[int](../types/int.md) | Users will only be able to send one message every `seconds` seconds, `0` to disable the limitation  | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

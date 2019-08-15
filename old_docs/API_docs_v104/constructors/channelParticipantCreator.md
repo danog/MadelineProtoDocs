@@ -15,7 +15,7 @@ Channel participant creator
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |user\_id|[int](../types/int.md) | Yes|User ID|
-|rank|[string](../types/string.md) | Optional||
+|rank|[string](../types/string.md) | Optional|Creator rank, an arbitrary string|
 
 
 

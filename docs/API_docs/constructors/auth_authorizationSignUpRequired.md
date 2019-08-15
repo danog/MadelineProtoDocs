@@ -1,6 +1,6 @@
 ---
 title: auth.authorizationSignUpRequired
-description: auth_authorizationSignUpRequired attributes, type and example
+description: Signup is required
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: auth.authorizationSignUpRequired  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Signup is required
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|terms\_of\_service|[help\_TermsOfService](../types/help_TermsOfService.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|terms\_of\_service|[help\_TermsOfService](../types/help_TermsOfService.md) | Optional|Telegram's Terms of Service|
 
 
 

@@ -1,12 +1,14 @@
 ---
 title: inputStickerSetAnimatedEmoji
-description: inputStickerSetAnimatedEmoji attributes, type and example
+description: Animated emojis stickerset
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputStickerSetAnimatedEmoji  
 [Back to constructors index](index.md)
 
 
+
+Animated emojis stickerset
 
 
 

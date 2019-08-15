@@ -42,7 +42,7 @@ Full channel
 |folder\_id|[int](../types/int.md) | Optional|Folder ID|
 |linked\_chat\_id|[int](../types/int.md) | Optional|Linked chat ID|
 |location|[ChannelLocation](../types/ChannelLocation.md) | Optional|Location|
-|slowmode\_seconds|[int](../types/int.md) | Optional||
+|slowmode\_seconds|[int](../types/int.md) | Optional|If specified, users in supergroups will only be able to send one message every `slowmode_seconds` seconds|
 |slowmode\_next\_send\_date|[int](../types/int.md) | Optional||
 |pts|[int](../types/int.md) | Yes|PTS|
 

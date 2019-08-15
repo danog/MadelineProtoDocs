@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionToggleSlowMode
-description: channelAdminLogEventActionToggleSlowMode attributes, type and example
+description: Channel admin log event action toggle slow mode
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionToggleSlowMode  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Channel admin log event action toggle slow mode
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|prev\_value|[int](../types/int.md) | Yes|
-|new\_value|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|prev\_value|[int](../types/int.md) | Yes|Prev value|
+|new\_value|[int](../types/int.md) | Yes|New value|
 
 
 
