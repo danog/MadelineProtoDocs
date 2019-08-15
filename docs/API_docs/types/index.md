@@ -419,8 +419,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [auth\_Authorization](auth_Authorization.md)<a name="auth_Authorization"></a>  
 
-[auth\_CheckedPhone](auth_CheckedPhone.md)<a name="auth_CheckedPhone"></a>  
-
 [auth\_CodeType](auth_CodeType.md)<a name="auth_CodeType"></a>  
 
 [auth\_ExportedAuthorization](auth_ExportedAuthorization.md)<a name="auth_ExportedAuthorization"></a>  

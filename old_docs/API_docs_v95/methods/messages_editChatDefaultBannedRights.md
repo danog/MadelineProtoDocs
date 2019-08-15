@@ -47,6 +47,7 @@ Updates = messages.editChatDefaultBannedRights({peer=InputPeer, banned_rights=Ch
 
 | Error    | Description   |
 |----------|---------------|
+|BANNED_RIGHTS_INVALID|You provided some invalid flags in the banned rights|
 |PEER_ID_INVALID|The provided peer id is invalid|
 
 

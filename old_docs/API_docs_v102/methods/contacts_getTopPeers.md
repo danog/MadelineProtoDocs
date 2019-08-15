@@ -56,6 +56,6 @@ contacts_TopPeers = contacts.getTopPeers({correspondents=Bool, bots_pm=Bool, bot
 
 | Error    | Description   |
 |----------|---------------|
-|TYPES_EMPTY|The types field is empty|
+|TYPES_EMPTY|No top peer type was provided|
 
 

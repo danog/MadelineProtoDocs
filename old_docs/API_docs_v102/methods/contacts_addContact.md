@@ -46,3 +46,10 @@ Or, if you're into Lua:
 Updates = contacts.addContact({add_phone_privacy_exception=Bool, id=InputUser, first_name='string', last_name='string', phone='string', })
 ```
 
+### Errors this method can return:
+
+| Error    | Description   |
+|----------|---------------|
+|CONTACT_ID_INVALID|The provided contact ID is invalid|
+
+

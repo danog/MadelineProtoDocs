@@ -58,11 +58,12 @@ Updates = messages.sendMedia({peer=InputPeer, reply_to_msg_id=int, media=InputMe
 |INPUT_USER_DEACTIVATED|The specified user was deleted|
 |MEDIA_CAPTION_TOO_LONG|The caption is too long|
 |MEDIA_EMPTY|The provided media object is invalid|
+|MEDIA_INVALID|Media invalid|
 |PEER_ID_INVALID|The provided peer id is invalid|
 |PHOTO_EXT_INVALID|The extension of the photo is invalid|
 |PHOTO_INVALID_DIMENSIONS|The photo dimensions are invalid|
 |USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
-|USER_IS_BLOCKED|User is blocked|
+|USER_IS_BLOCKED|You were blocked by this user|
 |USER_IS_BOT|Bots can't send messages to other bots|
 |WEBPAGE_CURL_FAILED|Failure while fetching the webpage with cURL|
 |WEBPAGE_MEDIA_EMPTY|Webpage media empty|

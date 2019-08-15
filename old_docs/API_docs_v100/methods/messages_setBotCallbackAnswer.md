@@ -57,5 +57,6 @@ If the length of the provided message is bigger than 4096, the message will be s
 | Error    | Description   |
 |----------|---------------|
 |QUERY_ID_INVALID|The query ID is invalid|
+|URL_INVALID|Invalid URL provided|
 
 

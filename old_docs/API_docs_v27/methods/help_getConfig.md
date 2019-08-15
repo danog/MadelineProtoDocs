@@ -41,6 +41,7 @@ Config = help.getConfig({})
 
 | Error    | Description   |
 |----------|---------------|
+|CONNECTION_DEVICE_MODEL_EMPTY|Device model empty|
 |AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |Timeout|Timeout while fetching data|
 

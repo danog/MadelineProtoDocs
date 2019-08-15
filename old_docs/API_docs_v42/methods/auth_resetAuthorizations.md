@@ -13,7 +13,7 @@ Delete all logged-in sessions.
 
 ### Return type: [Bool](../types/Bool.md)
 
-### Can bots use this method: **NO**
+### Can bots use this method: **YES**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

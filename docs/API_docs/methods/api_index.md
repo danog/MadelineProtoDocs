@@ -90,7 +90,7 @@ $MadelineProto->[account->initTakeoutSession](account_initTakeoutSession.md)(\['
 
 $MadelineProto->[account->installWallPaper](account_installWallPaper.md)(\['wallpaper' => [InputWallPaper](../types/InputWallPaper.md), 'settings' => [WallPaperSettings](../types/WallPaperSettings.md), \]) === [$Bool](../types/Bool.md)<a name="account_installWallPaper"></a>  
 
-$MadelineProto->[account->registerDevice](account_registerDevice.md)(\['token_type' => [int](../types/int.md), 'token' => [string](../types/string.md), 'app_sandbox' => [Bool](../types/Bool.md), 'secret' => [bytes](../types/bytes.md), 'other_uids' => \[[int](../types/int.md)\], \]) === [$Bool](../types/Bool.md)<a name="account_registerDevice"></a>  
+$MadelineProto->[account->registerDevice](account_registerDevice.md)(\['no_muted' => [Bool](../types/Bool.md), 'token_type' => [int](../types/int.md), 'token' => [string](../types/string.md), 'app_sandbox' => [Bool](../types/Bool.md), 'secret' => [bytes](../types/bytes.md), 'other_uids' => \[[int](../types/int.md)\], \]) === [$Bool](../types/Bool.md)<a name="account_registerDevice"></a>  
 
 $MadelineProto->[account->reportPeer](account_reportPeer.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'reason' => [ReportReason](../types/ReportReason.md), \]) === [$Bool](../types/Bool.md)<a name="account_reportPeer"></a>  
 
@@ -176,7 +176,7 @@ $MadelineProto->[auth->sendCode](auth_sendCode.md)(\['phone_number' => [string](
 
 $MadelineProto->[auth->signIn](auth_signIn.md)(\['phone_number' => [string](../types/string.md), 'phone_code_hash' => [string](../types/string.md), 'phone_code' => [string](../types/string.md), \]) === [$auth\_Authorization](../types/auth_Authorization.md)<a name="auth_signIn"></a>  
 
-$MadelineProto->[auth->signUp](auth_signUp.md)(\['phone_number' => [string](../types/string.md), 'phone_code_hash' => [string](../types/string.md), 'phone_code' => [string](../types/string.md), 'first_name' => [string](../types/string.md), 'last_name' => [string](../types/string.md), \]) === [$auth\_Authorization](../types/auth_Authorization.md)<a name="auth_signUp"></a>  
+$MadelineProto->[auth->signUp](auth_signUp.md)(\['phone_number' => [string](../types/string.md), 'phone_code_hash' => [string](../types/string.md), 'first_name' => [string](../types/string.md), 'last_name' => [string](../types/string.md), \]) === [$auth\_Authorization](../types/auth_Authorization.md)<a name="auth_signUp"></a>  
 
 ***
 <br><br>
@@ -198,7 +198,7 @@ $MadelineProto->[channels->deleteMessages](channels_deleteMessages.md)(\['channe
 
 $MadelineProto->[channels->deleteUserHistory](channels_deleteUserHistory.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'user_id' => [InputUser](../types/InputUser.md), \]) === [$messages\_AffectedHistory](../types/messages_AffectedHistory.md)<a name="channels_deleteUserHistory"></a>  
 
-$MadelineProto->[channels->editAdmin](channels_editAdmin.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'user_id' => [InputUser](../types/InputUser.md), 'admin_rights' => [ChatAdminRights](../types/ChatAdminRights.md), \]) === [$Updates](../types/Updates.md)<a name="channels_editAdmin"></a>  
+$MadelineProto->[channels->editAdmin](channels_editAdmin.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'user_id' => [InputUser](../types/InputUser.md), 'admin_rights' => [ChatAdminRights](../types/ChatAdminRights.md), 'rank' => [string](../types/string.md), \]) === [$Updates](../types/Updates.md)<a name="channels_editAdmin"></a>  
 
 $MadelineProto->[channels->editBanned](channels_editBanned.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'user_id' => [InputUser](../types/InputUser.md), 'banned_rights' => [ChatBannedRights](../types/ChatBannedRights.md), \]) === [$Updates](../types/Updates.md)<a name="channels_editBanned"></a>  
 
@@ -249,6 +249,8 @@ $MadelineProto->[channels->setStickers](channels_setStickers.md)(\['channel' => 
 $MadelineProto->[channels->togglePreHistoryHidden](channels_togglePreHistoryHidden.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'enabled' => [Bool](../types/Bool.md), \]) === [$Updates](../types/Updates.md)<a name="channels_togglePreHistoryHidden"></a>  
 
 $MadelineProto->[channels->toggleSignatures](channels_toggleSignatures.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'enabled' => [Bool](../types/Bool.md), \]) === [$Updates](../types/Updates.md)<a name="channels_toggleSignatures"></a>  
+
+$MadelineProto->[channels->toggleSlowMode](channels_toggleSlowMode.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'seconds' => [int](../types/int.md), \]) === [$Updates](../types/Updates.md)<a name="channels_toggleSlowMode"></a>  
 
 $MadelineProto->[channels->updateUsername](channels_updateUsername.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'username' => [string](../types/string.md), \]) === [$Bool](../types/Bool.md)<a name="channels_updateUsername"></a>  
 
@@ -672,7 +674,7 @@ $MadelineProto->[upload->getCdnFile](upload_getCdnFile.md)(\['file_token' => [by
 
 $MadelineProto->[upload->getCdnFileHashes](upload_getCdnFileHashes.md)(\['file_token' => [bytes](../types/bytes.md), 'offset' => [int](../types/int.md), \]) === [$Vector\_of\_FileHash](../types/FileHash.md)<a name="upload_getCdnFileHashes"></a>  
 
-$MadelineProto->[upload->getFile](upload_getFile.md)(\['location' => [InputFileLocation](../types/InputFileLocation.md), 'offset' => [int](../types/int.md), 'limit' => [int](../types/int.md), \]) === [$upload\_File](../types/upload_File.md)<a name="upload_getFile"></a>  
+$MadelineProto->[upload->getFile](upload_getFile.md)(\['precise' => [Bool](../types/Bool.md), 'location' => [InputFileLocation](../types/InputFileLocation.md), 'offset' => [int](../types/int.md), 'limit' => [int](../types/int.md), \]) === [$upload\_File](../types/upload_File.md)<a name="upload_getFile"></a>  
 
 $MadelineProto->[upload->getFileHashes](upload_getFileHashes.md)(\['location' => [InputFileLocation](../types/InputFileLocation.md), 'offset' => [int](../types/int.md), \]) === [$Vector\_of\_FileHash](../types/FileHash.md)<a name="upload_getFileHashes"></a>  
 

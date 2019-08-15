@@ -19,7 +19,7 @@ Enable all users are admins in normal groups (not supergroups)
 
 ### Return type: [Updates](../types/Updates.md)
 
-### Can bots use this method: **NO**
+### Can bots use this method: **YES**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

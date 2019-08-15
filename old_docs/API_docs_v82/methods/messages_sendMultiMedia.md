@@ -47,3 +47,11 @@ Or, if you're into Lua:
 Updates = messages.sendMultiMedia({silent=Bool, background=Bool, clear_draft=Bool, peer=InputPeer, reply_to_msg_id=int, multi_media={InputSingleMedia}, })
 ```
 
+### Errors this method can return:
+
+| Error    | Description   |
+|----------|---------------|
+|MEDIA_INVALID|Media invalid|
+|PEER_ID_INVALID|The provided peer id is invalid|
+
+

@@ -18,7 +18,7 @@ Check if this phone number is registered on telegram
 
 ### Return type: [auth\_CheckedPhone](../types/auth_CheckedPhone.md)
 
-### Can bots use this method: **NO**
+### Can bots use this method: **YES**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

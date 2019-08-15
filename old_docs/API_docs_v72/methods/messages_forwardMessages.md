@@ -63,7 +63,7 @@ Updates = messages.forwardMessages({silent=Bool, background=Bool, with_my_score=
 |PEER_ID_INVALID|The provided peer id is invalid|
 |RANDOM_ID_INVALID|A provided random ID is invalid|
 |USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
-|USER_IS_BLOCKED|User is blocked|
+|USER_IS_BLOCKED|You were blocked by this user|
 |USER_IS_BOT|Bots can't send messages to other bots|
 |YOU_BLOCKED_USER|You blocked this user|
 |CHAT_SEND_GIFS_FORBIDDEN|You can't send gifs in this chat|

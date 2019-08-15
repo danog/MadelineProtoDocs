@@ -41,6 +41,7 @@ CdnConfig = help.getCdnConfig({})
 
 | Error    | Description   |
 |----------|---------------|
+|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
 |Timeout|Timeout while fetching data|
 

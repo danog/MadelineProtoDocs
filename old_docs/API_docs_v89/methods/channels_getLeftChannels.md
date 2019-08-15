@@ -42,3 +42,10 @@ Or, if you're into Lua:
 messages_Chats = channels.getLeftChannels({offset=int, })
 ```
 
+### Errors this method can return:
+
+| Error    | Description   |
+|----------|---------------|
+|TAKEOUT_REQUIRED|A takeout session has to be initialized, first|
+
+

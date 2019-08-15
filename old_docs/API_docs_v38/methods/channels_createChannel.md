@@ -50,5 +50,6 @@ Updates = channels.createChannel({title='string', about='string', users={InputUs
 |----------|---------------|
 |CHAT_TITLE_EMPTY|No chat title provided|
 |USER_RESTRICTED|You're spamreported, you can't create channels or chats.|
+|USER_RESTRICTED|You're spamreported, you can't create channels or chats.|
 
 

@@ -49,5 +49,8 @@ Updates = channels.joinChannel({channel=InputChannel, })
 |CHANNEL_INVALID|The provided channel is invalid|
 |CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |CHANNELS_TOO_MUCH|You have joined too many channels/supergroups|
+|INVITE_HASH_EXPIRED|The invite link has expired|
+|INVITE_HASH_INVALID|The invite hash is invalid|
+|USER_ALREADY_PARTICIPANT|The user is already in the group|
 
 

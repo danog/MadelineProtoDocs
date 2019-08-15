@@ -110,6 +110,7 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 |MESSAGE_ID_INVALID|The provided message id is invalid|
 |MESSAGE_NOT_MODIFIED|The message text has not changed|
 |PEER_ID_INVALID|The provided peer id is invalid|
+|USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
 |CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 |MESSAGE_AUTHOR_REQUIRED|Message author required|
 

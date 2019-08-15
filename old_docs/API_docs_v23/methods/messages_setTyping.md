@@ -49,10 +49,11 @@ Bool = messages.setTyping({peer=InputPeer, action=SendMessageAction, })
 |----------|---------------|
 |CHANNEL_INVALID|The provided channel is invalid|
 |CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
+|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 |CHAT_ID_INVALID|The provided chat id is invalid|
 |PEER_ID_INVALID|The provided peer id is invalid|
 |USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
-|USER_IS_BLOCKED|User is blocked|
+|USER_IS_BLOCKED|You were blocked by this user|
 |USER_IS_BOT|Bots can't send messages to other bots|
 |CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 

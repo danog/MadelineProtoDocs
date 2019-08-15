@@ -61,21 +61,23 @@ If the length of the provided message is bigger than 4096, the message will be s
 
 | Error    | Description   |
 |----------|---------------|
-|BUTTON_DATA_INVALID|The provided button data is invalid|
-|BUTTON_TYPE_INVALID|The type of one of the buttons you provided is invalid|
+|BUTTON_DATA_INVALID|The data of one or more of the buttons you provided is invalid|
+|BUTTON_TYPE_INVALID|The type of one or more of the buttons you provided is invalid|
 |BUTTON_URL_INVALID|Button URL invalid|
 |CHANNEL_INVALID|The provided channel is invalid|
 |CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 |CHAT_ID_INVALID|The provided chat id is invalid|
-|ENTITY_MENTION_USER_INVALID|You can't use this entity|
+|CHAT_RESTRICTED|You can't send messages in this chat, you were restricted|
+|ENTITY_MENTION_USER_INVALID|You mentioned an invalid user|
 |INPUT_USER_DEACTIVATED|The specified user was deleted|
 |MESSAGE_EMPTY|The provided message is empty|
 |MESSAGE_TOO_LONG|The provided message is too long|
+|MSG_ID_INVALID|Provided reply_to_msg_id is invalid|
 |PEER_ID_INVALID|The provided peer id is invalid|
 |REPLY_MARKUP_INVALID|The provided reply markup is invalid|
 |USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
-|USER_IS_BLOCKED|User is blocked|
+|USER_IS_BLOCKED|You were blocked by this user|
 |USER_IS_BOT|Bots can't send messages to other bots|
 |YOU_BLOCKED_USER|You blocked this user|
 |AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|

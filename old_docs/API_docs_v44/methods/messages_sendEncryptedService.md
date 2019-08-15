@@ -56,6 +56,6 @@ If the length of the provided message is bigger than 4096, the message will be s
 |DATA_INVALID|Encrypted data invalid|
 |ENCRYPTION_DECLINED|The secret chat was declined|
 |MSG_WAIT_FAILED|A waiting call returned an error|
-|USER_IS_BLOCKED|User is blocked|
+|USER_IS_BLOCKED|You were blocked by this user|
 
 

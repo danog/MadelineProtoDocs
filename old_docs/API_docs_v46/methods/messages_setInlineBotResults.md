@@ -52,10 +52,13 @@ Bool = messages.setInlineBotResults({gallery=Bool, private=Bool, query_id=long, 
 | Error    | Description   |
 |----------|---------------|
 |ARTICLE_TITLE_EMPTY|The title of the article is empty|
-|BUTTON_DATA_INVALID|The provided button data is invalid|
-|BUTTON_TYPE_INVALID|The type of one of the buttons you provided is invalid|
+|BUTTON_DATA_INVALID|The data of one or more of the buttons you provided is invalid|
+|BUTTON_TYPE_INVALID|The type of one or more of the buttons you provided is invalid|
 |BUTTON_URL_INVALID|Button URL invalid|
 |MESSAGE_EMPTY|The provided message is empty|
+|MESSAGE_TOO_LONG|The provided message is too long|
+|PHOTO_INVALID|Photo invalid|
+|PHOTO_THUMB_URL_EMPTY|Photo thumbnail URL is empty|
 |QUERY_ID_INVALID|The query ID is invalid|
 |REPLY_MARKUP_INVALID|The provided reply markup is invalid|
 |RESULT_TYPE_INVALID|Result type invalid|
