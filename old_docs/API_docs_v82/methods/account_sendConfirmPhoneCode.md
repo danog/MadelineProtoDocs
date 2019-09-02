@@ -44,10 +44,10 @@ Or, if you're into Lua:
 auth_SentCode = account.sendConfirmPhoneCode({allow_flashcall=Bool, hash='string', current_number=Bool, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|HASH_INVALID|The provided hash is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|HASH_INVALID|The provided hash is invalid|
 
 

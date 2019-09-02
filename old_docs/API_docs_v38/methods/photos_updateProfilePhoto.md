@@ -43,11 +43,11 @@ Or, if you're into Lua:
 UserProfilePhoto = photos.updateProfilePhoto({id=InputPhoto, crop=InputPhotoCrop, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|IMAGE_PROCESS_FAILED|Failure while processing image|
-|PHOTO_CROP_SIZE_SMALL|Photo is too small|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|IMAGE_PROCESS_FAILED|Failure while processing image|
+|400|PHOTO_CROP_SIZE_SMALL|Photo is too small|
 
 

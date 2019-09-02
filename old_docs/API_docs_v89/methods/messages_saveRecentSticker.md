@@ -44,10 +44,10 @@ Or, if you're into Lua:
 Bool = messages.saveRecentSticker({attached=Bool, id=InputDocument, unsave=Bool, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|STICKER_ID_INVALID|The provided sticker ID is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|STICKER_ID_INVALID|The provided sticker ID is invalid|
 
 

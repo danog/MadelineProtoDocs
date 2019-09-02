@@ -43,10 +43,10 @@ Or, if you're into Lua:
 account_PrivacyRules = account.setPrivacy({key=InputPrivacyKey, rules={InputPrivacyRule}, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|PRIVACY_KEY_INVALID|The privacy key is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|PRIVACY_KEY_INVALID|The privacy key is invalid|
 
 

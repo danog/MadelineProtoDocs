@@ -42,10 +42,10 @@ Or, if you're into Lua:
 ExportedChatInvite = messages.exportChatInvite({chat_id=InputPeer, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHAT_ID_INVALID|The provided chat id is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHAT_ID_INVALID|The provided chat id is invalid|
 
 

@@ -44,13 +44,13 @@ Or, if you're into Lua:
 messages_BotResults = messages.getInlineBotResults({bot=InputUser, query='string', offset='string', })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|BOT_INLINE_DISABLED|This bot can't be used in inline mode|
-|BOT_INVALID|This is not a valid bot|
-|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|Timeout|Timeout while fetching data|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|BOT_INLINE_DISABLED|This bot can't be used in inline mode|
+|400|BOT_INVALID|This is not a valid bot|
+|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
+|-503|Timeout|Timeout while fetching data|
 
 

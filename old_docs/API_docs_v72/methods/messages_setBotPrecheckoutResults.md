@@ -44,10 +44,10 @@ Or, if you're into Lua:
 Bool = messages.setBotPrecheckoutResults({success=Bool, query_id=long, error='string', })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|ERROR_TEXT_EMPTY|The provided error message is empty|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|ERROR_TEXT_EMPTY|The provided error message is empty|
 
 

@@ -42,10 +42,10 @@ Or, if you're into Lua:
 Updates = contacts.deleteContacts({id={InputUser}, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|Timeout|Timeout while fetching data|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|-503|Timeout|Timeout while fetching data|
 
 

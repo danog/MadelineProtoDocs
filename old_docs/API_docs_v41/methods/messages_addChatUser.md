@@ -44,18 +44,18 @@ Or, if you're into Lua:
 Updates = messages.addChatUser({chat_id=InputPeer, user_id=InputUser, fwd_limit=int, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
-|CHAT_ID_INVALID|The provided chat id is invalid|
-|INPUT_USER_DEACTIVATED|The specified user was deleted|
-|PEER_ID_INVALID|The provided peer id is invalid|
-|USER_ALREADY_PARTICIPANT|The user is already in the group|
-|USER_ID_INVALID|The provided user ID is invalid|
-|USERS_TOO_MUCH|The maximum number of users has been exceeded (to create a chat, for example)|
-|USER_NOT_MUTUAL_CONTACT|The provided user is not a mutual contact|
-|USER_PRIVACY_RESTRICTED|The user's privacy settings do not allow you to do this|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
+|400|CHAT_ID_INVALID|The provided chat id is invalid|
+|400|INPUT_USER_DEACTIVATED|The specified user was deleted|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
+|400|USER_ALREADY_PARTICIPANT|The user is already in the group|
+|400|USER_ID_INVALID|The provided user ID is invalid|
+|400|USERS_TOO_MUCH|The maximum number of users has been exceeded (to create a chat, for example)|
+|403|USER_NOT_MUTUAL_CONTACT|The provided user is not a mutual contact|
+|403|USER_PRIVACY_RESTRICTED|The user's privacy settings do not allow you to do this|
 
 

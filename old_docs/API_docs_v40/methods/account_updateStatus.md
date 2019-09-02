@@ -42,10 +42,10 @@ Or, if you're into Lua:
 Bool = account.updateStatus({offline=Bool, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
 
 

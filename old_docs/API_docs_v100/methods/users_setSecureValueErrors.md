@@ -43,10 +43,10 @@ Or, if you're into Lua:
 Bool = users.setSecureValueErrors({id=InputUser, errors={SecureValueError}, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|USER_ID_INVALID|The provided user ID is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|USER_ID_INVALID|The provided user ID is invalid|
 
 

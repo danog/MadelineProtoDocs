@@ -47,10 +47,10 @@ Or, if you're into Lua:
 messages_Messages = messages.searchGlobal({folder_id=int, q='string', offset_rate=int, offset_peer=InputPeer, offset_id=int, limit=int, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|SEARCH_QUERY_EMPTY|The search query is empty|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|SEARCH_QUERY_EMPTY|The search query is empty|
 
 

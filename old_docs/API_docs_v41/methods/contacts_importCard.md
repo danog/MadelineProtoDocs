@@ -42,10 +42,10 @@ Or, if you're into Lua:
 User = contacts.importCard({export_card={int}, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|EXPORT_CARD_INVALID|Provided card is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|EXPORT_CARD_INVALID|Provided card is invalid|
 
 

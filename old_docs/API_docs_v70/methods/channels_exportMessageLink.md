@@ -43,10 +43,10 @@ Or, if you're into Lua:
 ExportedMessageLink = channels.exportMessageLink({channel=InputChannel, id=int, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHANNEL_INVALID|The provided channel is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHANNEL_INVALID|The provided channel is invalid|
 
 

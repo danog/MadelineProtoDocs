@@ -42,11 +42,11 @@ Or, if you're into Lua:
 PeerSettings = messages.getPeerSettings({peer=InputPeer, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHANNEL_INVALID|The provided channel is invalid|
-|PEER_ID_INVALID|The provided peer id is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHANNEL_INVALID|The provided channel is invalid|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
 
 

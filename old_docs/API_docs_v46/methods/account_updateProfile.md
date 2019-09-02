@@ -43,11 +43,11 @@ Or, if you're into Lua:
 User = account.updateProfile({first_name='string', last_name='string', })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|ABOUT_TOO_LONG|About string too long|
-|FIRSTNAME_INVALID|The first name is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|ABOUT_TOO_LONG|About string too long|
+|400|FIRSTNAME_INVALID|The first name is invalid|
 
 

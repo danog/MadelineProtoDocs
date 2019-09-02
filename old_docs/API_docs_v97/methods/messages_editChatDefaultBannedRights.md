@@ -43,11 +43,11 @@ Or, if you're into Lua:
 Updates = messages.editChatDefaultBannedRights({peer=InputPeer, banned_rights=ChatBannedRights, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|BANNED_RIGHTS_INVALID|You provided some invalid flags in the banned rights|
-|PEER_ID_INVALID|The provided peer id is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|BANNED_RIGHTS_INVALID|You provided some invalid flags in the banned rights|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
 
 

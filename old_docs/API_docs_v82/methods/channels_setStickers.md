@@ -43,11 +43,11 @@ Or, if you're into Lua:
 Bool = channels.setStickers({channel=InputChannel, stickerset=InputStickerSet, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHANNEL_INVALID|The provided channel is invalid|
-|PARTICIPANTS_TOO_FEW|Not enough participants|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHANNEL_INVALID|The provided channel is invalid|
+|400|PARTICIPANTS_TOO_FEW|Not enough participants|
 
 

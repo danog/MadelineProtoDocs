@@ -47,10 +47,10 @@ Or, if you're into Lua:
 Bool = account.registerDevice({no_muted=Bool, token_type=int, token='string', app_sandbox=Bool, secret='bytes', other_uids={int}, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|TOKEN_INVALID|The provided token is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|TOKEN_INVALID|The provided token is invalid|
 
 

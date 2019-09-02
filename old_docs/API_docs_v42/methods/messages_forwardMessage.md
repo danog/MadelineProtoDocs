@@ -43,13 +43,13 @@ Or, if you're into Lua:
 Updates = messages.forwardMessage({peer=InputPeer, id=int, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHAT_ID_INVALID|The provided chat id is invalid|
-|MESSAGE_ID_INVALID|The provided message id is invalid|
-|PEER_ID_INVALID|The provided peer id is invalid|
-|YOU_BLOCKED_USER|You blocked this user|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHAT_ID_INVALID|The provided chat id is invalid|
+|400|MESSAGE_ID_INVALID|The provided message id is invalid|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
+|400|YOU_BLOCKED_USER|You blocked this user|
 
 

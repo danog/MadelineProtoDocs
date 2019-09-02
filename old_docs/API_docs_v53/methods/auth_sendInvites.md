@@ -49,10 +49,10 @@ Bool = auth.sendInvites({phone_numbers={'string'}, message='string', })
 If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [Bool](../types/Bool.md) will be returned instead.
 
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|MESSAGE_EMPTY|The provided message is empty|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|MESSAGE_EMPTY|The provided message is empty|
 
 

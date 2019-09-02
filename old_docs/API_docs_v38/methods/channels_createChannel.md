@@ -44,12 +44,12 @@ Or, if you're into Lua:
 Updates = channels.createChannel({title='string', about='string', users={InputUser}, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHAT_TITLE_EMPTY|No chat title provided|
-|USER_RESTRICTED|You're spamreported, you can't create channels or chats.|
-|USER_RESTRICTED|You're spamreported, you can't create channels or chats.|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHAT_TITLE_EMPTY|No chat title provided|
+|406|USER_RESTRICTED|You're spamreported, you can't create channels or chats.|
+|403|USER_RESTRICTED|You're spamreported, you can't create channels or chats.|
 
 

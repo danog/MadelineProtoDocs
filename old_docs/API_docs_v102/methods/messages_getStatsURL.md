@@ -44,10 +44,10 @@ Or, if you're into Lua:
 StatsURL = messages.getStatsURL({dark=Bool, peer=InputPeer, params='string', })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|PEER_ID_INVALID|The provided peer id is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
 
 

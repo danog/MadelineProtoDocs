@@ -45,11 +45,11 @@ Or, if you're into Lua:
 photos_Photos = photos.getUserPhotos({user_id=InputUser, offset=int, max_id=int, limit=int, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|MAX_ID_INVALID|The provided max ID is invalid|
-|USER_ID_INVALID|The provided user ID is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|MAX_ID_INVALID|The provided max ID is invalid|
+|400|USER_ID_INVALID|The provided user ID is invalid|
 
 

@@ -42,11 +42,11 @@ Or, if you're into Lua:
 Bool = stickers.removeStickerFromSet({sticker=InputDocument, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|BOT_MISSING|This method can only be run by a bot|
-|STICKER_INVALID|The provided sticker is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|BOT_MISSING|This method can only be run by a bot|
+|400|STICKER_INVALID|The provided sticker is invalid|
 
 

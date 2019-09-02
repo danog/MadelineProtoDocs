@@ -43,11 +43,11 @@ Or, if you're into Lua:
 Bool = bots.answerWebhookJSONQuery({query_id=long, data=DataJSON, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|QUERY_ID_INVALID|The query ID is invalid|
-|USER_BOT_INVALID|This method can only be called by a bot|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|QUERY_ID_INVALID|The query ID is invalid|
+|400|USER_BOT_INVALID|This method can only be called by a bot|
 
 

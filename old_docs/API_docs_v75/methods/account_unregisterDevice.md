@@ -44,10 +44,10 @@ Or, if you're into Lua:
 Bool = account.unregisterDevice({token_type=int, token='string', other_uids={int}, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|TOKEN_INVALID|The provided token is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|TOKEN_INVALID|The provided token is invalid|
 
 

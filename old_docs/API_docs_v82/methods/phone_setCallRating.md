@@ -44,10 +44,10 @@ Or, if you're into Lua:
 Updates = phone.setCallRating({peer=InputPhoneCall, rating=int, comment='string', })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CALL_PEER_INVALID|The provided call peer object is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CALL_PEER_INVALID|The provided call peer object is invalid|
 
 

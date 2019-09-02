@@ -49,16 +49,16 @@ Or, if you're into Lua:
 messages_Messages = messages.getHistory({peer=InputPeer, offset_id=int, offset_date=int, add_offset=int, limit=int, max_id=int, min_id=int, hash={int}, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHANNEL_INVALID|The provided channel is invalid|
-|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|CHAT_ID_INVALID|The provided chat id is invalid|
-|PEER_ID_INVALID|The provided peer id is invalid|
-|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
-|Timeout|Timeout while fetching data|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHANNEL_INVALID|The provided channel is invalid|
+|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
+|400|CHAT_ID_INVALID|The provided chat id is invalid|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
+|401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
+|-503|Timeout|Timeout while fetching data|
 
 

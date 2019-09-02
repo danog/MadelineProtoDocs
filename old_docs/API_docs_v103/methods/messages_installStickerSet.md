@@ -43,10 +43,10 @@ Or, if you're into Lua:
 messages_StickerSetInstallResult = messages.installStickerSet({stickerset=InputStickerSet, archived=Bool, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|STICKERSET_INVALID|The provided sticker set is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|STICKERSET_INVALID|The provided sticker set is invalid|
 
 

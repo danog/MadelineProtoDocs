@@ -51,11 +51,11 @@ Bool = messages.setBotCallbackAnswer({alert=Bool, query_id=long, message='string
 If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [Bool](../types/Bool.md) will be returned instead.
 
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|QUERY_ID_INVALID|The query ID is invalid|
-|URL_INVALID|Invalid URL provided|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|QUERY_ID_INVALID|The query ID is invalid|
+|400|URL_INVALID|Invalid URL provided|
 
 

@@ -37,10 +37,10 @@ Or, if you're into Lua:
 Vector_of_LangPackLanguage = langpack.getLanguages({})
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|LANG_PACK_INVALID|The provided language pack is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|LANG_PACK_INVALID|The provided language pack is invalid|
 
 

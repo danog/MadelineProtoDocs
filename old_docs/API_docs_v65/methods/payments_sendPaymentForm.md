@@ -45,10 +45,10 @@ Or, if you're into Lua:
 payments_PaymentResult = payments.sendPaymentForm({msg_id=int, requested_info_id='string', shipping_option_id='string', credentials=InputPaymentCredentials, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|MESSAGE_ID_INVALID|The provided message id is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|MESSAGE_ID_INVALID|The provided message id is invalid|
 
 

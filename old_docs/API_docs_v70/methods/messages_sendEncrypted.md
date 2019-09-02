@@ -49,13 +49,13 @@ messages_SentEncryptedMessage = messages.sendEncrypted({peer=InputEncryptedChat,
 If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [messages\_SentEncryptedMessage](../types/messages_SentEncryptedMessage.md) will be returned instead.
 
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHAT_ID_INVALID|The provided chat id is invalid|
-|DATA_INVALID|Encrypted data invalid|
-|ENCRYPTION_DECLINED|The secret chat was declined|
-|MSG_WAIT_FAILED|A waiting call returned an error|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHAT_ID_INVALID|The provided chat id is invalid|
+|400|DATA_INVALID|Encrypted data invalid|
+|400|ENCRYPTION_DECLINED|The secret chat was declined|
+|400|MSG_WAIT_FAILED|A waiting call returned an error|
 
 

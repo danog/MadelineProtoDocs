@@ -44,13 +44,13 @@ Or, if you're into Lua:
 Updates = channels.updatePinnedMessage({silent=Bool, channel=InputChannel, id=int, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHANNEL_INVALID|The provided channel is invalid|
-|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
-|CHAT_ID_INVALID|The provided chat id is invalid|
-|CHAT_NOT_MODIFIED|The pinned message wasn't modified|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHANNEL_INVALID|The provided channel is invalid|
+|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
+|400|CHAT_ID_INVALID|The provided chat id is invalid|
+|400|CHAT_NOT_MODIFIED|The pinned message wasn't modified|
 
 

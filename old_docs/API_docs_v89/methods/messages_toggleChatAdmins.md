@@ -43,11 +43,11 @@ Or, if you're into Lua:
 Updates = messages.toggleChatAdmins({chat_id=InputPeer, enabled=Bool, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHAT_ID_INVALID|The provided chat id is invalid|
-|CHAT_NOT_MODIFIED|The pinned message wasn't modified|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHAT_ID_INVALID|The provided chat id is invalid|
+|400|CHAT_NOT_MODIFIED|The pinned message wasn't modified|
 
 

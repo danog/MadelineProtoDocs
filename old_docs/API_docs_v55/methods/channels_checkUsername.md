@@ -43,12 +43,12 @@ Or, if you're into Lua:
 Bool = channels.checkUsername({channel=InputChannel, username='string', })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHANNEL_INVALID|The provided channel is invalid|
-|CHAT_ID_INVALID|The provided chat id is invalid|
-|USERNAME_INVALID|The provided username is not valid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHANNEL_INVALID|The provided channel is invalid|
+|400|CHAT_ID_INVALID|The provided chat id is invalid|
+|400|USERNAME_INVALID|The provided username is not valid|
 
 

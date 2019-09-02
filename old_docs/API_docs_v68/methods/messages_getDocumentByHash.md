@@ -44,10 +44,10 @@ Or, if you're into Lua:
 Document = messages.getDocumentByHash({sha256='bytes', size=int, mime_type='string', })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|SHA256_HASH_INVALID|The provided SHA256 hash is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|SHA256_HASH_INVALID|The provided SHA256 hash is invalid|
 
 

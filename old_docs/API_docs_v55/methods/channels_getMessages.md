@@ -43,12 +43,12 @@ Or, if you're into Lua:
 messages_Messages = channels.getMessages({channel=InputChannel, id={int}, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHANNEL_INVALID|The provided channel is invalid|
-|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|MESSAGE_IDS_EMPTY|No message ids were provided|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHANNEL_INVALID|The provided channel is invalid|
+|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
+|400|MESSAGE_IDS_EMPTY|No message ids were provided|
 
 

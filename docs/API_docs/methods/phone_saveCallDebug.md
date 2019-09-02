@@ -43,11 +43,11 @@ Or, if you're into Lua:
 Bool = phone.saveCallDebug({peer=InputPhoneCall, debug=DataJSON, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CALL_PEER_INVALID|The provided call peer object is invalid|
-|DATA_JSON_INVALID|The provided JSON data is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CALL_PEER_INVALID|The provided call peer object is invalid|
+|400|DATA_JSON_INVALID|The provided JSON data is invalid|
 
 

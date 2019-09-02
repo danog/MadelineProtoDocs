@@ -42,10 +42,10 @@ Or, if you're into Lua:
 auth_Authorization = auth.recoverPassword({code='string', })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CODE_EMPTY|The provided code is empty|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CODE_EMPTY|The provided code is empty|
 
 

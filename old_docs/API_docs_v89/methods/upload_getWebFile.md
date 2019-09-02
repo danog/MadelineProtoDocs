@@ -44,10 +44,10 @@ Or, if you're into Lua:
 upload_WebFile = upload.getWebFile({location=InputWebFileLocation, offset=int, limit=int, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|LOCATION_INVALID|The provided location is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|LOCATION_INVALID|The provided location is invalid|
 
 

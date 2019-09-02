@@ -42,12 +42,12 @@ Or, if you're into Lua:
 auth_CheckedPhone = auth.checkPhone({phone_number='string', })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|PHONE_NUMBER_BANNED|The provided phone number is banned from telegram|
-|PHONE_NUMBER_INVALID|The phone number is invalid|
-|PHONE_NUMBER_INVALID|The phone number is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|PHONE_NUMBER_BANNED|The provided phone number is banned from telegram|
+|400|PHONE_NUMBER_INVALID|The phone number is invalid|
+|406|PHONE_NUMBER_INVALID|The phone number is invalid|
 
 

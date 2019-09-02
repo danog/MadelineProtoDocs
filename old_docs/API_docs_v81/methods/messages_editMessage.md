@@ -99,20 +99,20 @@ You can also use normal markdown, note that to create mentions you must use the 
 ```
 
 MadelineProto supports all html entities supported by [html_entity_decode](http://php.net/manual/en/function.html-entity-decode.php).
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHANNEL_INVALID|The provided channel is invalid|
-|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|INPUT_USER_DEACTIVATED|The specified user was deleted|
-|MESSAGE_EDIT_TIME_EXPIRED|You can't edit this message anymore, too much time has passed since its creation.|
-|MESSAGE_EMPTY|The provided message is empty|
-|MESSAGE_ID_INVALID|The provided message id is invalid|
-|MESSAGE_NOT_MODIFIED|The message text has not changed|
-|PEER_ID_INVALID|The provided peer id is invalid|
-|USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
-|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
-|MESSAGE_AUTHOR_REQUIRED|Message author required|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHANNEL_INVALID|The provided channel is invalid|
+|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
+|400|INPUT_USER_DEACTIVATED|The specified user was deleted|
+|400|MESSAGE_EDIT_TIME_EXPIRED|You can't edit this message anymore, too much time has passed since its creation.|
+|400|MESSAGE_EMPTY|The provided message is empty|
+|400|MESSAGE_ID_INVALID|The provided message id is invalid|
+|400|MESSAGE_NOT_MODIFIED|The message text has not changed|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
+|400|USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
+|403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
+|403|MESSAGE_AUTHOR_REQUIRED|Message author required|
 
 

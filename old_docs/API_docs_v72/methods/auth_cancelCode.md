@@ -43,10 +43,10 @@ Or, if you're into Lua:
 Bool = auth.cancelCode({phone_number='string', phone_code_hash='string', })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|PHONE_NUMBER_INVALID|The phone number is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|PHONE_NUMBER_INVALID|The phone number is invalid|
 
 

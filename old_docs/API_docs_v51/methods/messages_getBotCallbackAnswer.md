@@ -44,14 +44,14 @@ Or, if you're into Lua:
 messages_BotCallbackAnswer = messages.getBotCallbackAnswer({peer=InputPeer, msg_id=int, data='bytes', })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHANNEL_INVALID|The provided channel is invalid|
-|DATA_INVALID|Encrypted data invalid|
-|MESSAGE_ID_INVALID|The provided message id is invalid|
-|PEER_ID_INVALID|The provided peer id is invalid|
-|Timeout|Timeout while fetching data|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHANNEL_INVALID|The provided channel is invalid|
+|400|DATA_INVALID|Encrypted data invalid|
+|400|MESSAGE_ID_INVALID|The provided message id is invalid|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
+|-503|Timeout|Timeout while fetching data|
 
 

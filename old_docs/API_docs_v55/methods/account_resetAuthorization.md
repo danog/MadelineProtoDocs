@@ -42,10 +42,10 @@ Or, if you're into Lua:
 Bool = account.resetAuthorization({hash=long, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|HASH_INVALID|The provided hash is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|HASH_INVALID|The provided hash is invalid|
 
 

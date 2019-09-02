@@ -42,13 +42,13 @@ Or, if you're into Lua:
 photos_Photo = photos.uploadProfilePhoto({file=InputFile, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|FILE_PARTS_INVALID|The number of file parts is invalid|
-|IMAGE_PROCESS_FAILED|Failure while processing image|
-|PHOTO_CROP_SIZE_SMALL|Photo is too small|
-|PHOTO_EXT_INVALID|The extension of the photo is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|FILE_PARTS_INVALID|The number of file parts is invalid|
+|400|IMAGE_PROCESS_FAILED|Failure while processing image|
+|400|PHOTO_CROP_SIZE_SMALL|Photo is too small|
+|400|PHOTO_EXT_INVALID|The extension of the photo is invalid|
 
 

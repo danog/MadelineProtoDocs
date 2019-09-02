@@ -37,10 +37,10 @@ Or, if you're into Lua:
 messages_PeerDialogs = messages.getPinnedDialogs({})
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|FOLDER_ID_INVALID|Invalid folder ID|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|FOLDER_ID_INVALID|Invalid folder ID|
 
 

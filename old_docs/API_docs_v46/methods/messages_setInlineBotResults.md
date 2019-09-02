@@ -47,23 +47,23 @@ Or, if you're into Lua:
 Bool = messages.setInlineBotResults({gallery=Bool, private=Bool, query_id=long, results={InputBotInlineResult}, cache_time=int, next_offset='string', })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|ARTICLE_TITLE_EMPTY|The title of the article is empty|
-|BUTTON_DATA_INVALID|The data of one or more of the buttons you provided is invalid|
-|BUTTON_TYPE_INVALID|The type of one or more of the buttons you provided is invalid|
-|BUTTON_URL_INVALID|Button URL invalid|
-|MESSAGE_EMPTY|The provided message is empty|
-|MESSAGE_TOO_LONG|The provided message is too long|
-|PHOTO_INVALID|Photo invalid|
-|PHOTO_THUMB_URL_EMPTY|Photo thumbnail URL is empty|
-|QUERY_ID_INVALID|The query ID is invalid|
-|REPLY_MARKUP_INVALID|The provided reply markup is invalid|
-|RESULT_TYPE_INVALID|Result type invalid|
-|SEND_MESSAGE_TYPE_INVALID|The message type is invalid|
-|START_PARAM_INVALID|Start parameter invalid|
-|USER_BOT_INVALID|This method can only be called by a bot|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|ARTICLE_TITLE_EMPTY|The title of the article is empty|
+|400|BUTTON_DATA_INVALID|The data of one or more of the buttons you provided is invalid|
+|400|BUTTON_TYPE_INVALID|The type of one or more of the buttons you provided is invalid|
+|400|BUTTON_URL_INVALID|Button URL invalid|
+|400|MESSAGE_EMPTY|The provided message is empty|
+|400|MESSAGE_TOO_LONG|The provided message is too long|
+|400|PHOTO_INVALID|Photo invalid|
+|400|PHOTO_THUMB_URL_EMPTY|Photo thumbnail URL is empty|
+|400|QUERY_ID_INVALID|The query ID is invalid|
+|400|REPLY_MARKUP_INVALID|The provided reply markup is invalid|
+|400|RESULT_TYPE_INVALID|Result type invalid|
+|400|SEND_MESSAGE_TYPE_INVALID|The message type is invalid|
+|400|START_PARAM_INVALID|Start parameter invalid|
+|403|USER_BOT_INVALID|This method can only be called by a bot|
 
 

@@ -37,10 +37,10 @@ Or, if you're into Lua:
 Bool = auth.resetAuthorizations({})
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|Timeout|Timeout while fetching data|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|-503|Timeout|Timeout while fetching data|
 
 

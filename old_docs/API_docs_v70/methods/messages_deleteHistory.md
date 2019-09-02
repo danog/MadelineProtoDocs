@@ -44,10 +44,10 @@ Or, if you're into Lua:
 messages_AffectedHistory = messages.deleteHistory({just_clear=Bool, peer=InputPeer, max_id=int, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|PEER_ID_INVALID|The provided peer id is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
 
 

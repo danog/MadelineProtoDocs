@@ -42,11 +42,11 @@ Or, if you're into Lua:
 Bool = phone.receivedCall({peer=InputPhoneCall, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CALL_ALREADY_DECLINED|The call was already declined|
-|CALL_PEER_INVALID|The provided call peer object is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CALL_ALREADY_DECLINED|The call was already declined|
+|400|CALL_PEER_INVALID|The provided call peer object is invalid|
 
 

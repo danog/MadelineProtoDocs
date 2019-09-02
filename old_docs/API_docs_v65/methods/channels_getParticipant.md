@@ -43,14 +43,14 @@ Or, if you're into Lua:
 channels_ChannelParticipant = channels.getParticipant({channel=InputChannel, user_id=InputUser, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHANNEL_INVALID|The provided channel is invalid|
-|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
-|USER_ID_INVALID|The provided user ID is invalid|
-|USER_NOT_PARTICIPANT|You're not a member of this supergroup/channel|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHANNEL_INVALID|The provided channel is invalid|
+|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
+|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
+|400|USER_ID_INVALID|The provided user ID is invalid|
+|400|USER_NOT_PARTICIPANT|You're not a member of this supergroup/channel|
 
 

@@ -42,10 +42,10 @@ Or, if you're into Lua:
 Updates = folders.editPeerFolders({folder_peers={InputFolderPeer}, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|FOLDER_ID_INVALID|Invalid folder ID|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|FOLDER_ID_INVALID|Invalid folder ID|
 
 

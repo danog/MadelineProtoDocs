@@ -43,11 +43,11 @@ Or, if you're into Lua:
 messages_StatedMessage = messages.createChat({users={InputUser}, title='string', })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|USERS_TOO_FEW|Not enough users (to create a chat, for example)|
-|USER_RESTRICTED|You're spamreported, you can't create channels or chats.|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|USERS_TOO_FEW|Not enough users (to create a chat, for example)|
+|403|USER_RESTRICTED|You're spamreported, you can't create channels or chats.|
 
 

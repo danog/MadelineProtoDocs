@@ -50,10 +50,10 @@ messages_SentEncryptedMessage = messages.sendEncryptedFile({peer=InputEncryptedC
 If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [messages\_SentEncryptedMessage](../types/messages_SentEncryptedMessage.md) will be returned instead.
 
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|MSG_WAIT_FAILED|A waiting call returned an error|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|MSG_WAIT_FAILED|A waiting call returned an error|
 
 

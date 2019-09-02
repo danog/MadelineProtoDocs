@@ -42,10 +42,10 @@ Or, if you're into Lua:
 Bool = account.setAccountTTL({ttl=AccountDaysTTL, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|TTL_DAYS_INVALID|The provided TTL is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|TTL_DAYS_INVALID|The provided TTL is invalid|
 
 

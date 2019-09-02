@@ -42,10 +42,10 @@ Or, if you're into Lua:
 Bool = contacts.block({id=InputUser, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CONTACT_ID_INVALID|The provided contact ID is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CONTACT_ID_INVALID|The provided contact ID is invalid|
 
 

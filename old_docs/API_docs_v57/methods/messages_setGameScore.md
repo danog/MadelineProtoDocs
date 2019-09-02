@@ -46,12 +46,12 @@ Or, if you're into Lua:
 Updates = messages.setGameScore({edit_message=Bool, peer=InputPeer, id=int, user_id=InputUser, score=int, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|MESSAGE_ID_INVALID|The provided message id is invalid|
-|PEER_ID_INVALID|The provided peer id is invalid|
-|USER_BOT_REQUIRED|This method can only be called by a bot|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|MESSAGE_ID_INVALID|The provided message id is invalid|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
+|400|USER_BOT_REQUIRED|This method can only be called by a bot|
 
 

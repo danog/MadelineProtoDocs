@@ -43,11 +43,11 @@ Or, if you're into Lua:
 messages_StickerSet = stickers.addStickerToSet({stickerset=InputStickerSet, sticker=InputStickerSetItem, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|BOT_MISSING|This method can only be run by a bot|
-|STICKERSET_INVALID|The provided sticker set is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|BOT_MISSING|This method can only be run by a bot|
+|400|STICKERSET_INVALID|The provided sticker set is invalid|
 
 

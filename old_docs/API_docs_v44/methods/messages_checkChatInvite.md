@@ -42,12 +42,12 @@ Or, if you're into Lua:
 ChatInvite = messages.checkChatInvite({hash='string', })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|INVITE_HASH_EMPTY|The invite hash is empty|
-|INVITE_HASH_EXPIRED|The invite link has expired|
-|INVITE_HASH_INVALID|The invite hash is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|INVITE_HASH_EMPTY|The invite hash is empty|
+|400|INVITE_HASH_EXPIRED|The invite link has expired|
+|400|INVITE_HASH_INVALID|The invite hash is invalid|
 
 

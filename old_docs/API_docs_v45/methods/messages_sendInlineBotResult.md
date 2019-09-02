@@ -46,15 +46,15 @@ Or, if you're into Lua:
 Updates = messages.sendInlineBotResult({broadcast=Bool, peer=InputPeer, reply_to_msg_id=int, query_id=long, id='string', })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|INLINE_RESULT_EXPIRED|The inline query expired|
-|PEER_ID_INVALID|The provided peer id is invalid|
-|QUERY_ID_EMPTY|The query ID is empty|
-|WEBPAGE_CURL_FAILED|Failure while fetching the webpage with cURL|
-|WEBPAGE_MEDIA_EMPTY|Webpage media empty|
-|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|INLINE_RESULT_EXPIRED|The inline query expired|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
+|400|QUERY_ID_EMPTY|The query ID is empty|
+|400|WEBPAGE_CURL_FAILED|Failure while fetching the webpage with cURL|
+|400|WEBPAGE_MEDIA_EMPTY|Webpage media empty|
+|403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 
 

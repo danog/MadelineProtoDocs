@@ -37,10 +37,10 @@ Or, if you're into Lua:
 auth_PasswordRecovery = auth.requestPasswordRecovery({})
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|PASSWORD_EMPTY|The provided password is empty|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|PASSWORD_EMPTY|The provided password is empty|
 
 

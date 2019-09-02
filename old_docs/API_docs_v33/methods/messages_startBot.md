@@ -44,13 +44,13 @@ Or, if you're into Lua:
 Updates = messages.startBot({bot=InputUser, chat_id=InputPeer, start_param='string', })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|BOT_INVALID|This is not a valid bot|
-|PEER_ID_INVALID|The provided peer id is invalid|
-|START_PARAM_EMPTY|The start parameter is empty|
-|START_PARAM_INVALID|Start parameter invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|BOT_INVALID|This is not a valid bot|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
+|400|START_PARAM_EMPTY|The start parameter is empty|
+|400|START_PARAM_INVALID|Start parameter invalid|
 
 

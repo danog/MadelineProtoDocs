@@ -43,12 +43,12 @@ Or, if you're into Lua:
 contacts_Found = contacts.search({q='string', limit=int, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|QUERY_TOO_SHORT|The query string is too short|
-|SEARCH_QUERY_EMPTY|The search query is empty|
-|Timeout|Timeout while fetching data|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|QUERY_TOO_SHORT|The query string is too short|
+|400|SEARCH_QUERY_EMPTY|The search query is empty|
+|-503|Timeout|Timeout while fetching data|
 
 

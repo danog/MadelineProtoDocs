@@ -42,10 +42,10 @@ Or, if you're into Lua:
 Bool = account.checkUsername({username='string', })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|USERNAME_INVALID|The provided username is not valid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|USERNAME_INVALID|The provided username is not valid|
 
 

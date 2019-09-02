@@ -44,10 +44,10 @@ Or, if you're into Lua:
 auth_SentCode = account.sendChangePhoneCode({allow_flashcall=Bool, phone_number='string', current_number=Bool, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|PHONE_NUMBER_INVALID|The phone number is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|PHONE_NUMBER_INVALID|The phone number is invalid|
 
 

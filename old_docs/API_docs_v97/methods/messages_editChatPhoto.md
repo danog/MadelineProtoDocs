@@ -43,14 +43,14 @@ Or, if you're into Lua:
 Updates = messages.editChatPhoto({chat_id=InputPeer, photo=InputChatPhoto, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHAT_ID_INVALID|The provided chat id is invalid|
-|INPUT_CONSTRUCTOR_INVALID|The provided constructor is invalid|
-|INPUT_FETCH_FAIL|Failed deserializing TL payload|
-|PEER_ID_INVALID|The provided peer id is invalid|
-|PHOTO_EXT_INVALID|The extension of the photo is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHAT_ID_INVALID|The provided chat id is invalid|
+|400|INPUT_CONSTRUCTOR_INVALID|The provided constructor is invalid|
+|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
+|400|PHOTO_EXT_INVALID|The extension of the photo is invalid|
 
 

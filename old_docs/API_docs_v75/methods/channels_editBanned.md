@@ -44,14 +44,14 @@ Or, if you're into Lua:
 Updates = channels.editBanned({channel=InputChannel, user_id=InputUser, banned_rights=ChannelBannedRights, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHANNEL_INVALID|The provided channel is invalid|
-|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
-|USER_ADMIN_INVALID|You're not an admin|
-|USER_ID_INVALID|The provided user ID is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHANNEL_INVALID|The provided channel is invalid|
+|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
+|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
+|400|USER_ADMIN_INVALID|You're not an admin|
+|400|USER_ID_INVALID|The provided user ID is invalid|
 
 

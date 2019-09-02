@@ -46,10 +46,10 @@ Or, if you're into Lua:
 messages_Messages = messages.searchGlobal({q='string', offset_date=int, offset_peer=InputPeer, offset_id=int, limit=int, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|SEARCH_QUERY_EMPTY|The search query is empty|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|SEARCH_QUERY_EMPTY|The search query is empty|
 
 

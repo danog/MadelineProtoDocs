@@ -44,10 +44,10 @@ Or, if you're into Lua:
 payments_ValidatedRequestedInfo = payments.validateRequestedInfo({save=Bool, msg_id=int, info=PaymentRequestedInfo, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|MESSAGE_ID_INVALID|The provided message id is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|MESSAGE_ID_INVALID|The provided message id is invalid|
 
 

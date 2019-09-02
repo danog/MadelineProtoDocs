@@ -43,11 +43,11 @@ Or, if you're into Lua:
 messages_MessageEditData = messages.getMessageEditData({peer=InputPeer, id=int, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|PEER_ID_INVALID|The provided peer id is invalid|
-|MESSAGE_AUTHOR_REQUIRED|Message author required|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
+|403|MESSAGE_AUTHOR_REQUIRED|Message author required|
 
 

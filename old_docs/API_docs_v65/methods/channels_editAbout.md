@@ -43,13 +43,13 @@ Or, if you're into Lua:
 Bool = channels.editAbout({channel=InputChannel, about='string', })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHANNEL_INVALID|The provided channel is invalid|
-|CHAT_ABOUT_NOT_MODIFIED|About text has not changed|
-|CHAT_ABOUT_TOO_LONG|Chat about too long|
-|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHANNEL_INVALID|The provided channel is invalid|
+|400|CHAT_ABOUT_NOT_MODIFIED|About text has not changed|
+|400|CHAT_ABOUT_TOO_LONG|Chat about too long|
+|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 
 

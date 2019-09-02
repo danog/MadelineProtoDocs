@@ -42,10 +42,10 @@ Or, if you're into Lua:
 Vector_of_int = messages.deleteMessages({id={int}, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|MESSAGE_DELETE_FORBIDDEN|You can't delete one of the messages you tried to delete, most likely because it is a service message.|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|403|MESSAGE_DELETE_FORBIDDEN|You can't delete one of the messages you tried to delete, most likely because it is a service message.|
 
 

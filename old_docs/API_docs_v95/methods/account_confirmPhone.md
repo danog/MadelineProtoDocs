@@ -43,11 +43,11 @@ Or, if you're into Lua:
 Bool = account.confirmPhone({phone_code_hash='string', phone_code='string', })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CODE_HASH_INVALID|Code hash invalid|
-|PHONE_CODE_EMPTY|phone_code is missing|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CODE_HASH_INVALID|Code hash invalid|
+|400|PHONE_CODE_EMPTY|phone_code is missing|
 
 

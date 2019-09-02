@@ -44,13 +44,13 @@ Or, if you're into Lua:
 messages_Dialogs = messages.getDialogs({offset=int, max_id=int, limit=int, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|INPUT_CONSTRUCTOR_INVALID|The provided constructor is invalid|
-|OFFSET_PEER_ID_INVALID|The provided offset peer is invalid|
-|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
-|Timeout|Timeout while fetching data|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|INPUT_CONSTRUCTOR_INVALID|The provided constructor is invalid|
+|400|OFFSET_PEER_ID_INVALID|The provided offset peer is invalid|
+|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
+|-503|Timeout|Timeout while fetching data|
 
 

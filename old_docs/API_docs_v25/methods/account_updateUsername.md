@@ -42,13 +42,13 @@ Or, if you're into Lua:
 User = account.updateUsername({username='string', })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|USERNAME_INVALID|The provided username is not valid|
-|USERNAME_NOT_MODIFIED|The username was not modified|
-|USERNAME_OCCUPIED|The provided username is already occupied|
-|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|USERNAME_INVALID|The provided username is not valid|
+|400|USERNAME_NOT_MODIFIED|The username was not modified|
+|400|USERNAME_OCCUPIED|The provided username is already occupied|
+|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
 
 

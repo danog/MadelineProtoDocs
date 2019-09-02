@@ -44,11 +44,11 @@ Or, if you're into Lua:
 Bool = channels.reportSpam({channel=InputChannel, user_id=InputUser, id={int}, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHANNEL_INVALID|The provided channel is invalid|
-|INPUT_USER_DEACTIVATED|The specified user was deleted|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHANNEL_INVALID|The provided channel is invalid|
+|400|INPUT_USER_DEACTIVATED|The specified user was deleted|
 
 

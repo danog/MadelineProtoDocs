@@ -43,10 +43,10 @@ Or, if you're into Lua:
 Bool = messages.reorderPinnedDialogs({force=Bool, order={InputPeer}, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|PEER_ID_INVALID|The provided peer id is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
 
 

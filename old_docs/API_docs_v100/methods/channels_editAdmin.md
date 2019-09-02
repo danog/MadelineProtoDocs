@@ -44,19 +44,19 @@ Or, if you're into Lua:
 Updates = channels.editAdmin({channel=InputChannel, user_id=InputUser, admin_rights=ChatAdminRights, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|ADMINS_TOO_MUCH|There are too many admins|
-|BOT_CHANNELS_NA|Bots can't edit admin privileges|
-|CHANNEL_INVALID|The provided channel is invalid|
-|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
-|USER_CREATOR|You can't leave this channel, because you're its creator|
-|USER_ID_INVALID|The provided user ID is invalid|
-|USER_NOT_MUTUAL_CONTACT|The provided user is not a mutual contact|
-|CHAT_ADMIN_INVITE_REQUIRED|You do not have the rights to do this|
-|RIGHT_FORBIDDEN|Your admin rights do not allow you to do this|
-|USER_PRIVACY_RESTRICTED|The user's privacy settings do not allow you to do this|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|ADMINS_TOO_MUCH|There are too many admins|
+|400|BOT_CHANNELS_NA|Bots can't edit admin privileges|
+|400|CHANNEL_INVALID|The provided channel is invalid|
+|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
+|400|USER_CREATOR|You can't leave this channel, because you're its creator|
+|400|USER_ID_INVALID|The provided user ID is invalid|
+|400|USER_NOT_MUTUAL_CONTACT|The provided user is not a mutual contact|
+|403|CHAT_ADMIN_INVITE_REQUIRED|You do not have the rights to do this|
+|403|RIGHT_FORBIDDEN|Your admin rights do not allow you to do this|
+|403|USER_PRIVACY_RESTRICTED|The user's privacy settings do not allow you to do this|
 
 

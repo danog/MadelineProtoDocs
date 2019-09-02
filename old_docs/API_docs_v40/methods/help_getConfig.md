@@ -37,12 +37,12 @@ Or, if you're into Lua:
 Config = help.getConfig({})
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CONNECTION_DEVICE_MODEL_EMPTY|Device model empty|
-|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|Timeout|Timeout while fetching data|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CONNECTION_DEVICE_MODEL_EMPTY|Device model empty|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
+|-503|Timeout|Timeout while fetching data|
 
 

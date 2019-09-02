@@ -37,12 +37,12 @@ Or, if you're into Lua:
 CdnConfig = help.getCdnConfig({})
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
-|Timeout|Timeout while fetching data|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
+|401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
+|-503|Timeout|Timeout while fetching data|
 
 

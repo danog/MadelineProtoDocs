@@ -47,29 +47,29 @@ Or, if you're into Lua:
 Updates = messages.forwardMessages({broadcast=Bool, silent=Bool, background=Bool, from_peer=InputPeer, id={int}, to_peer=InputPeer, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHANNEL_INVALID|The provided channel is invalid|
-|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
-|CHAT_ID_INVALID|The provided chat id is invalid|
-|GROUPED_MEDIA_INVALID|Invalid grouped media|
-|INPUT_USER_DEACTIVATED|The specified user was deleted|
-|MEDIA_EMPTY|The provided media object is invalid|
-|MESSAGE_ID_INVALID|The provided message id is invalid|
-|MESSAGE_IDS_EMPTY|No message ids were provided|
-|PEER_ID_INVALID|The provided peer id is invalid|
-|RANDOM_ID_INVALID|A provided random ID is invalid|
-|USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
-|USER_IS_BLOCKED|You were blocked by this user|
-|USER_IS_BOT|Bots can't send messages to other bots|
-|YOU_BLOCKED_USER|You blocked this user|
-|CHAT_SEND_GIFS_FORBIDDEN|You can't send gifs in this chat|
-|CHAT_SEND_MEDIA_FORBIDDEN|You can't send media in this chat|
-|CHAT_SEND_STICKERS_FORBIDDEN|You can't send stickers in this chat.|
-|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
-|Timeout|Timeout while fetching data|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHANNEL_INVALID|The provided channel is invalid|
+|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
+|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
+|400|CHAT_ID_INVALID|The provided chat id is invalid|
+|400|GROUPED_MEDIA_INVALID|Invalid grouped media|
+|400|INPUT_USER_DEACTIVATED|The specified user was deleted|
+|400|MEDIA_EMPTY|The provided media object is invalid|
+|400|MESSAGE_ID_INVALID|The provided message id is invalid|
+|400|MESSAGE_IDS_EMPTY|No message ids were provided|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
+|400|RANDOM_ID_INVALID|A provided random ID is invalid|
+|400|USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
+|400|USER_IS_BLOCKED|You were blocked by this user|
+|400|USER_IS_BOT|Bots can't send messages to other bots|
+|400|YOU_BLOCKED_USER|You blocked this user|
+|403|CHAT_SEND_GIFS_FORBIDDEN|You can't send gifs in this chat|
+|403|CHAT_SEND_MEDIA_FORBIDDEN|You can't send media in this chat|
+|403|CHAT_SEND_STICKERS_FORBIDDEN|You can't send stickers in this chat.|
+|403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
+|-503|Timeout|Timeout while fetching data|
 
 

@@ -46,18 +46,18 @@ Or, if you're into Lua:
 messages_StickerSet = stickers.createStickerSet({masks=Bool, user_id=InputUser, title='string', short_name='string', stickers={InputStickerSetItem}, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|BOT_MISSING|This method can only be run by a bot|
-|PACK_SHORT_NAME_INVALID|Short pack name invalid|
-|PACK_SHORT_NAME_OCCUPIED|A stickerpack with this name already exists|
-|PEER_ID_INVALID|The provided peer id is invalid|
-|STICKER_EMOJI_INVALID|Sticker emoji invalid|
-|STICKER_FILE_INVALID|Sticker file invalid|
-|STICKER_PNG_DIMENSIONS|Sticker png dimensions invalid|
-|STICKERS_EMPTY|No sticker provided|
-|USER_ID_INVALID|The provided user ID is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|BOT_MISSING|This method can only be run by a bot|
+|400|PACK_SHORT_NAME_INVALID|Short pack name invalid|
+|400|PACK_SHORT_NAME_OCCUPIED|A stickerpack with this name already exists|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
+|400|STICKER_EMOJI_INVALID|Sticker emoji invalid|
+|400|STICKER_FILE_INVALID|Sticker file invalid|
+|400|STICKER_PNG_DIMENSIONS|Sticker png dimensions invalid|
+|400|STICKERS_EMPTY|No sticker provided|
+|400|USER_ID_INVALID|The provided user ID is invalid|
 
 

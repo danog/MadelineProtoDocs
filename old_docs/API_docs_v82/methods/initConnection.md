@@ -50,11 +50,11 @@ Or, if you're into Lua:
 X = initConnection({api_id=int, device_model='string', system_version='string', app_version='string', system_lang_code='string', lang_pack='string', lang_code='string', proxy=InputClientProxy, query=!X, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CONNECTION_LAYER_INVALID|Layer invalid|
-|INPUT_FETCH_FAIL|Failed deserializing TL payload|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CONNECTION_LAYER_INVALID|Layer invalid|
+|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
 
 

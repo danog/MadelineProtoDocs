@@ -43,10 +43,10 @@ Or, if you're into Lua:
 Bool = messages.saveGif({id=InputDocument, unsave=Bool, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|GIF_ID_INVALID|The provided GIF ID is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|GIF_ID_INVALID|The provided GIF ID is invalid|
 
 

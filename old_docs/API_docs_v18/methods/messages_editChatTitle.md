@@ -43,11 +43,11 @@ Or, if you're into Lua:
 messages_StatedMessage = messages.editChatTitle({chat_id=InputPeer, title='string', })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHAT_ID_INVALID|The provided chat id is invalid|
-|CHAT_TITLE_EMPTY|No chat title provided|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHAT_ID_INVALID|The provided chat id is invalid|
+|400|CHAT_TITLE_EMPTY|No chat title provided|
 
 

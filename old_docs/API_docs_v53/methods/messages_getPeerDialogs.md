@@ -42,11 +42,11 @@ Or, if you're into Lua:
 messages_PeerDialogs = messages.getPeerDialogs({peers={InputPeer}, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|PEER_ID_INVALID|The provided peer id is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
 
 

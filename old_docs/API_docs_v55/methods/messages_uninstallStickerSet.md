@@ -42,10 +42,10 @@ Or, if you're into Lua:
 Bool = messages.uninstallStickerSet({stickerset=InputStickerSet, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|STICKERSET_INVALID|The provided sticker set is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|STICKERSET_INVALID|The provided sticker set is invalid|
 
 

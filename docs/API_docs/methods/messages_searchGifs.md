@@ -43,10 +43,10 @@ Or, if you're into Lua:
 messages_FoundGifs = messages.searchGifs({q='string', offset=int, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|SEARCH_QUERY_EMPTY|The search query is empty|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|SEARCH_QUERY_EMPTY|The search query is empty|
 
 

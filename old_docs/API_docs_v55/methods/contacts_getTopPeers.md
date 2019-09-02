@@ -49,10 +49,10 @@ Or, if you're into Lua:
 contacts_TopPeers = contacts.getTopPeers({correspondents=Bool, bots_pm=Bool, bots_inline=Bool, groups=Bool, channels=Bool, offset=int, limit=int, hash={int}, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|TYPES_EMPTY|No top peer type was provided|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|TYPES_EMPTY|No top peer type was provided|
 
 

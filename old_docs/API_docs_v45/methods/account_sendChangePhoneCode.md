@@ -42,10 +42,10 @@ Or, if you're into Lua:
 account_SentChangePhoneCode = account.sendChangePhoneCode({phone_number='string', })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|PHONE_NUMBER_INVALID|The phone number is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|PHONE_NUMBER_INVALID|The phone number is invalid|
 
 

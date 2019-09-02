@@ -43,11 +43,11 @@ Or, if you're into Lua:
 account_TmpPassword = account.getTmpPassword({password=InputCheckPasswordSRP, period=int, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|PASSWORD_HASH_INVALID|The provided password hash is invalid|
-|TMP_PASSWORD_DISABLED|The temporary password is disabled|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|PASSWORD_HASH_INVALID|The provided password hash is invalid|
+|400|TMP_PASSWORD_DISABLED|The temporary password is disabled|
 
 

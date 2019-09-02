@@ -43,10 +43,10 @@ Or, if you're into Lua:
 DataJSON = bots.sendCustomRequest({custom_method='string', params=DataJSON, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|USER_BOT_INVALID|This method can only be called by a bot|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|USER_BOT_INVALID|This method can only be called by a bot|
 
 

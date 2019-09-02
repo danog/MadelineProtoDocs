@@ -46,14 +46,14 @@ Or, if you're into Lua:
 channels_ChannelParticipants = channels.getParticipants({channel=InputChannel, filter=ChannelParticipantsFilter, offset=int, limit=int, hash={int}, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHANNEL_INVALID|The provided channel is invalid|
-|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
-|INPUT_CONSTRUCTOR_INVALID|The provided constructor is invalid|
-|Timeout|Timeout while fetching data|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHANNEL_INVALID|The provided channel is invalid|
+|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
+|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
+|400|INPUT_CONSTRUCTOR_INVALID|The provided constructor is invalid|
+|-503|Timeout|Timeout while fetching data|
 
 

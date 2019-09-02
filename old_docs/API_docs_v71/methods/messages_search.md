@@ -52,16 +52,16 @@ Or, if you're into Lua:
 messages_Messages = messages.search({peer=InputPeer, q='string', from_id=InputUser, filter=MessagesFilter, min_date=int, max_date=int, offset_id=int, add_offset=int, limit=int, max_id=int, min_id=int, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
-|INPUT_CONSTRUCTOR_INVALID|The provided constructor is invalid|
-|INPUT_USER_DEACTIVATED|The specified user was deleted|
-|PEER_ID_INVALID|The provided peer id is invalid|
-|PEER_ID_NOT_SUPPORTED|The provided peer ID is not supported|
-|SEARCH_QUERY_EMPTY|The search query is empty|
-|USER_ID_INVALID|The provided user ID is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
+|400|INPUT_CONSTRUCTOR_INVALID|The provided constructor is invalid|
+|400|INPUT_USER_DEACTIVATED|The specified user was deleted|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
+|400|PEER_ID_NOT_SUPPORTED|The provided peer ID is not supported|
+|400|SEARCH_QUERY_EMPTY|The search query is empty|
+|400|USER_ID_INVALID|The provided user ID is invalid|
 
 

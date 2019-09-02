@@ -43,10 +43,10 @@ Or, if you're into Lua:
 Updates = channels.toggleSignatures({channel=InputChannel, enabled=Bool, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|CHANNEL_INVALID|The provided channel is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHANNEL_INVALID|The provided channel is invalid|
 
 

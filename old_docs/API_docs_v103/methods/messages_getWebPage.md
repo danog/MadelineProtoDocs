@@ -43,10 +43,10 @@ Or, if you're into Lua:
 WebPage = messages.getWebPage({url='string', hash={int}, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|WC_CONVERT_URL_INVALID|WC convert URL invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|WC_CONVERT_URL_INVALID|WC convert URL invalid|
 
 

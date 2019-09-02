@@ -43,11 +43,11 @@ Or, if you're into Lua:
 messages_AffectedMessages = messages.readHistory({peer=InputPeer, max_id=int, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|PEER_ID_INVALID|The provided peer id is invalid|
-|Timeout|Timeout while fetching data|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
+|-503|Timeout|Timeout while fetching data|
 
 

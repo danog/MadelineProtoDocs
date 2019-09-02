@@ -44,10 +44,10 @@ Or, if you're into Lua:
 Bool = messages.setBotShippingResults({query_id=long, error='string', shipping_options={ShippingOption}, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|QUERY_ID_INVALID|The query ID is invalid|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|QUERY_ID_INVALID|The query ID is invalid|
 
 

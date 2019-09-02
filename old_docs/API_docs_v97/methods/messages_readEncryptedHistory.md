@@ -43,10 +43,10 @@ Or, if you're into Lua:
 Bool = messages.readEncryptedHistory({peer=InputEncryptedChat, max_date=int, })
 ```
 
-### Errors this method can return:
+### Errors
 
-| Error    | Description   |
-|----------|---------------|
-|MSG_WAIT_FAILED|A waiting call returned an error|
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|MSG_WAIT_FAILED|A waiting call returned an error|
 
 
