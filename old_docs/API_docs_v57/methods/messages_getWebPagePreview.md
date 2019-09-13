@@ -48,3 +48,10 @@ MessageMedia = messages.getWebPagePreview({message='string', })
 If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [MessageMedia](../types/MessageMedia.md) will be returned instead.
 
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|MESSAGE_EMPTY|The provided message is empty|
+
+

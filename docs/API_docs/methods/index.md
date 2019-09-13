@@ -108,6 +108,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages_createChat.html" name="messages_createChat">Create a chat (not supergroup): messages.createChat</a>
 
+* <a href="account_createTheme.html" name="account_createTheme">Create a theme: account.createTheme</a>
+
 * <a href="channels_createChannel.html" name="channels_createChannel">Create channel/supergroup: channels.createChannel</a>
 
 * <a href="stickers_createStickerSet.html" name="stickers_createStickerSet">Create stickerset: stickers.createStickerSet</a>
@@ -139,6 +141,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="contacts_deleteContacts.html" name="contacts_deleteContacts">Delete multiple contacts: contacts.deleteContacts</a>
 
 * <a href="photos_deletePhotos.html" name="photos_deletePhotos">Delete profile photos: photos.deletePhotos</a>
+
+* <a href="messages_deleteScheduledMessages.html" name="messages_deleteScheduledMessages">Delete scheduled messages: messages.deleteScheduledMessages</a>
 
 * <a href="account_deleteSecureValue.html" name="account_deleteSecureValue">Delete secure telegram passport value: account.deleteSecureValue</a>
 
@@ -276,6 +280,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="help_getProxyData.html" name="help_getProxyData">Get information about the current proxy: help.getProxyData</a>
 
+* <a href="account_getThemes.html" name="account_getThemes">Get installed themes: account.getThemes</a>
+
 * <a href="help_getInviteText.html" name="help_getInviteText">Get invitation text: help.getInviteText</a>
 
 * <a href="langpack_getStrings.html" name="langpack_getStrings">Get language pack strings: langpack.getStrings</a>
@@ -332,6 +338,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="payments_getSavedInfo.html" name="payments_getSavedInfo">Get saved payments info: payments.getSavedInfo</a>
 
+* <a href="messages_getScheduledHistory.html" name="messages_getScheduledHistory">Get scheduled history: messages.getScheduledHistory</a>
+
+* <a href="messages_getScheduledMessages.html" name="messages_getScheduledMessages">Get scheduled messages: messages.getScheduledMessages</a>
+
 * <a href="messages_getSearchCounters.html" name="messages_getSearchCounters">Get search counter: messages.getSearchCounters</a>
 
 * <a href="account_getSecureValue.html" name="account_getSecureValue">Get secure value for telegram passport: account.getSecureValue</a>
@@ -364,6 +374,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages_getPeerSettings.html" name="messages_getPeerSettings">Get the settings of  apeer: messages.getPeerSettings</a>
 
+* <a href="account_getTheme.html" name="account_getTheme">Get theme information: account.getTheme</a>
+
 * <a href="messages_getUnreadMentions.html" name="messages_getUnreadMentions">Get unread mentions: messages.getUnreadMentions</a>
 
 * <a href="help_getTermsOfServiceUpdate.html" name="help_getTermsOfServiceUpdate">Get updated TOS: help.getTermsOfServiceUpdate</a>
@@ -385,6 +397,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages_importChatInvite.html" name="messages_importChatInvite">Import chat invite: messages.importChatInvite</a>
 
 * <a href="initConnection.html" name="initConnection">Initializes connection and save information on the user's device and application.: initConnection</a>
+
+* <a href="account_installTheme.html" name="account_installTheme">Install theme: account.installTheme</a>
 
 * <a href="account_installWallPaper.html" name="account_installWallPaper">Install wallpaper: account.installWallPaper</a>
 
@@ -512,6 +526,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account_sendVerifyPhoneCode.html" name="account_sendVerifyPhoneCode">Send phone verification code: account.sendVerifyPhoneCode</a>
 
+* <a href="messages_sendScheduledMessages.html" name="messages_sendScheduledMessages">Send scheduled messages: messages.sendScheduledMessages</a>
+
 * <a href="messages_sendScreenshotNotification.html" name="messages_sendScreenshotNotification">Send screenshot notification: messages.sendScreenshotNotification</a>
 
 * <a href="messages_setEncryptedTyping.html" name="messages_setEncryptedTyping">Send typing notification to secret chat: messages.setEncryptedTyping</a>
@@ -562,6 +578,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels_updateUsername.html" name="channels_updateUsername">Update the username of a supergroup/channel: channels.updateUsername</a>
 
+* <a href="account_updateTheme.html" name="account_updateTheme">Update theme: account.updateTheme</a>
+
 * <a href="account_updateUsername.html" name="account_updateUsername">Update this user's username: account.updateUsername</a>
 
 * <a href="messages_uploadMedia.html" name="messages_uploadMedia">Upload a file without sending it to anyone: messages.uploadMedia</a>
@@ -569,6 +587,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages_uploadEncryptedFile.html" name="messages_uploadEncryptedFile">Upload a secret chat file without sending it to anyone: messages.uploadEncryptedFile</a>
 
 * <a href="photos_uploadProfilePhoto.html" name="photos_uploadProfilePhoto">Upload profile photo: photos.uploadProfilePhoto</a>
+
+* <a href="account_uploadTheme.html" name="account_uploadTheme">Upload theme: account.uploadTheme</a>
 
 * <a href="account_uploadWallPaper.html" name="account_uploadWallPaper">Upload wallpaper: account.uploadWallPaper</a>
 

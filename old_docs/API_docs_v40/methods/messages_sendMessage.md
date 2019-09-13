@@ -108,10 +108,11 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 |400|CHAT_ID_INVALID|The provided chat id is invalid|
 |400|CHAT_RESTRICTED|You can't send messages in this chat, you were restricted|
 |400|ENTITY_MENTION_USER_INVALID|You mentioned an invalid user|
+|400|FROM_MESSAGE_BOT_DISABLED|Bots can't use fromMessage min constructors|
 |400|INPUT_USER_DEACTIVATED|The specified user was deleted|
 |400|MESSAGE_EMPTY|The provided message is empty|
 |400|MESSAGE_TOO_LONG|The provided message is too long|
-|400|MSG_ID_INVALID|Provided reply_to_msg_id is invalid|
+|400|MSG_ID_INVALID|Invalid message ID provided|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|REPLY_MARKUP_INVALID|The provided reply markup is invalid|
 |400|USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
@@ -120,6 +121,7 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 |400|YOU_BLOCKED_USER|You blocked this user|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
+|420|SLOWMODE_WAIT_X|Slowmode is enabled in this chat: you must wait for the specified number of seconds before sending another message to the chat.|
 |-503|Timeout|Timeout while fetching data|
 
 

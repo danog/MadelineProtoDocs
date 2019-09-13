@@ -53,5 +53,6 @@ Updates = channels.editBanned({channel=InputChannel, user_id=InputUser, banned_r
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 |400|USER_ADMIN_INVALID|You're not an admin|
 |400|USER_ID_INVALID|The provided user ID is invalid|
+|403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 
 

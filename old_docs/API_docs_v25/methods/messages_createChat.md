@@ -47,6 +47,7 @@ messages_StatedMessage = messages.createChat({users={InputUser}, title='string',
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|INPUT_USER_DEACTIVATED|The specified user was deleted|
 |400|USERS_TOO_FEW|Not enough users (to create a chat, for example)|
 |403|USER_RESTRICTED|You're spamreported, you can't create channels or chats.|
 

@@ -203,6 +203,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [InputStickeredMedia](InputStickeredMedia.md)<a name="InputStickeredMedia"></a>  
 
+[InputTheme](InputTheme.md)<a name="InputTheme"></a>  
+
 [InputUser](InputUser.md)<a name="InputUser"></a>  
 
 [InputWallPaper](InputWallPaper.md)<a name="InputWallPaper"></a>  
@@ -321,6 +323,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [ReportReason](ReportReason.md)<a name="ReportReason"></a>  
 
+[RestrictionReason](RestrictionReason.md)<a name="RestrictionReason"></a>  
+
 [RichText](RichText.md)<a name="RichText"></a>  
 
 [SavedContact](SavedContact.md)<a name="SavedContact"></a>  
@@ -358,6 +362,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [StickerSet](StickerSet.md)<a name="StickerSet"></a>  
 
 [StickerSetCovered](StickerSetCovered.md)<a name="StickerSetCovered"></a>  
+
+[Theme](Theme.md)<a name="Theme"></a>  
 
 [TopPeer](TopPeer.md)<a name="TopPeer"></a>  
 
@@ -410,6 +416,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [account\_SentEmailCode](account_SentEmailCode.md)<a name="account_SentEmailCode"></a>  
 
 [account\_Takeout](account_Takeout.md)<a name="account_Takeout"></a>  
+
+[account\_Themes](account_Themes.md)<a name="account_Themes"></a>  
 
 [account\_TmpPassword](account_TmpPassword.md)<a name="account_TmpPassword"></a>  
 

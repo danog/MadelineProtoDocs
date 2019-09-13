@@ -43,3 +43,10 @@ Or, if you're into Lua:
 Bool = channels.deleteHistory({channel=InputChannel, max_id=int, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHANNEL_INVALID|The provided channel is invalid|
+
+

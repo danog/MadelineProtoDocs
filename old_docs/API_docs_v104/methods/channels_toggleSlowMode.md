@@ -19,7 +19,7 @@ Toggle slow mode
 
 ### Return type: [Updates](../types/Updates.md)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
@@ -42,4 +42,14 @@ Or, if you're into Lua:
 ```lua
 Updates = channels.toggleSlowMode({channel=InputChannel, seconds=int, })
 ```
+
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHAT_NOT_MODIFIED|The pinned message wasn't modified|
+|400|INPUT_METHOD_INVALID_1192227_X|Invalid method|
+|400|INPUT_METHOD_INVALID_1604042050_X|Invalid method|
+|400|SECONDS_INVALID|Invalid duration provided|
+
 

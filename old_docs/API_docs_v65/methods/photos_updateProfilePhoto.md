@@ -46,6 +46,7 @@ UserProfilePhoto = photos.updateProfilePhoto({id=InputPhoto, })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|FILE_PARTS_INVALID|The number of file parts is invalid|
 |400|IMAGE_PROCESS_FAILED|Failure while processing image|
 |400|PHOTO_CROP_SIZE_SMALL|Photo is too small|
 

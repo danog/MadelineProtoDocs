@@ -86,3 +86,10 @@ You can also use normal markdown, note that to create mentions you must use the 
 ```
 
 MadelineProto supports all html entities supported by [html_entity_decode](http://php.net/manual/en/function.html-entity-decode.php).
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|MESSAGE_EMPTY|The provided message is empty|
+
+

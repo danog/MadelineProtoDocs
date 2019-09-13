@@ -37,3 +37,10 @@ Or, if you're into Lua:
 Vector_of_SavedContact = contacts.getSaved({})
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|403|TAKEOUT_REQUIRED|A takeout session has to be initialized, first|
+
+

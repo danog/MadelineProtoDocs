@@ -59,6 +59,7 @@ You can provide bot API reply_markup objects here.
 |400|CHANNEL_INVALID|The provided channel is invalid|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
+|400|CHAT_RESTRICTED|You can't send messages in this chat, you were restricted|
 |400|EXTERNAL_URL_INVALID|External URL invalid|
 |400|FILE_PART_LENGTH_INVALID|The length of a file part is invalid|
 |400|FILE_PARTS_INVALID|The number of file parts is invalid|
@@ -70,6 +71,7 @@ You can provide bot API reply_markup objects here.
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|PHOTO_EXT_INVALID|The extension of the photo is invalid|
 |400|PHOTO_INVALID_DIMENSIONS|The photo dimensions are invalid|
+|400|PHOTO_SAVE_FILE_INVALID||
 |400|USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
 |400|USER_IS_BLOCKED|You were blocked by this user|
 |400|USER_IS_BOT|Bots can't send messages to other bots|

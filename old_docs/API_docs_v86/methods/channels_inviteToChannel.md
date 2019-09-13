@@ -52,6 +52,7 @@ Updates = channels.inviteToChannel({channel=InputChannel, users={InputUser}, })
 |400|CHANNEL_INVALID|The provided channel is invalid|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
+|400|CHAT_INVALID|Invalid chat|
 |400|INPUT_USER_DEACTIVATED|The specified user was deleted|
 |400|USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
 |400|USER_BLOCKED|User blocked|
@@ -63,5 +64,6 @@ Updates = channels.inviteToChannel({channel=InputChannel, users={InputUser}, })
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 |403|USER_CHANNELS_TOO_MUCH|One of the users you tried to add is already in too many channels/supergroups|
 |403|USER_PRIVACY_RESTRICTED|The user's privacy settings do not allow you to do this|
+|-503|Timeout|Timeout while fetching data|
 
 

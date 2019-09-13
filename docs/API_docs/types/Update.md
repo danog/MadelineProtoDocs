@@ -154,6 +154,12 @@ Contains notifications about data changes
 
 [updatePeerLocated](../constructors/updatePeerLocated.md)  
 
+[updateNewScheduledMessage](../constructors/updateNewScheduledMessage.md)  
+
+[updateDeleteScheduledMessages](../constructors/updateDeleteScheduledMessages.md)  
+
+[updateTheme](../constructors/updateTheme.md)  
+
 
 
 ### Methods that return an object of this type (methods):

@@ -51,8 +51,10 @@ updates_ChannelDifference = updates.getChannelDifference({channel=InputChannel, 
 |------|----------|---------------|
 |400|CHANNEL_INVALID|The provided channel is invalid|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
+|400|FROM_MESSAGE_BOT_DISABLED|Bots can't use fromMessage min constructors|
 |400|PERSISTENT_TIMESTAMP_EMPTY|Persistent timestamp empty|
 |400|PERSISTENT_TIMESTAMP_INVALID|Persistent timestamp invalid|
+|400|PINNED_DIALOGS_TOO_MUCH||
 |400|RANGES_INVALID|Invalid range provided|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |403|CHANNEL_PUBLIC_GROUP_NA|channel/supergroup not available|

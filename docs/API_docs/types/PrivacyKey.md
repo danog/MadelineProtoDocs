@@ -26,6 +26,8 @@ Describes available privacy settings
 
 [privacyKeyPhoneNumber](../constructors/privacyKeyPhoneNumber.md)  
 
+[privacyKeyAddedByPhone](../constructors/privacyKeyAddedByPhone.md)  
+
 
 
 ### Methods that return an object of this type (methods):
