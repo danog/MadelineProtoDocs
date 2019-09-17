@@ -16,7 +16,8 @@ description: PWRTelegram participant attributes, type and example
 |kicked_by|[Chat](Chat.md) | Optional|The user that kicked this participant|
 |date|[int](API_docs/types/int.md) | Yes|When was the user invited|
 |role|[string](API_docs/types/string.md) | Yes|user, admin, creator, banned|
+|rank|[string](API_docs/types/string.md) | Optional|A custom rank string for admins and creators|
 |can_edit|[Bool](API_docs/types/Bool.md) | Optional|Can the user edit messages in the channel|
 |left|[Bool](API_docs/types/Bool.md) | Optional|Has this user left|
-|admin_rights|[ChannelAdminRights](API_docs/types/ChannelAdminRights.md) | Optional|Admin rights|
-|banned_rights|[ChannelBannedRights](API_docs/types/ChannelBannedRights.md) | Optional|Banned rights|
+|admin_rights|[ChatAdminRights](API_docs/types/ChatAdminRights.md) | Optional|Admin rights|
+|banned_rights|[ChatBannedRights](API_docs/types/ChatBannedRights.md) | Optional|Banned rights|
