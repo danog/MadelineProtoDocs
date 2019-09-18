@@ -1,18 +1,20 @@
 ---
 title: account.saveTheme
-description: account.saveTheme parameters, return type and example
+description: Save theme
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: account.saveTheme  
 [Back to methods index](index.md)
 
 
+Save theme
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|theme|[InputTheme](../types/InputTheme.md) | Yes|
-|unsave|[Bool](../types/Bool.md) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|theme|[InputTheme](../types/InputTheme.md) | Theme to save | Yes|
+|unsave|[Bool](../types/Bool.md) | Unsave | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

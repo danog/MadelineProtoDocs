@@ -494,6 +494,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account_saveSecureValue.html" name="account_saveSecureValue">Save telegram passport secure value: account.saveSecureValue</a>
 
+* <a href="account_saveTheme.html" name="account_saveTheme">Save theme: account.saveTheme</a>
+
 * <a href="account_saveWallPaper.html" name="account_saveWallPaper">Save wallpaper: account.saveWallPaper</a>
 
 * <a href="contacts_search.html" name="contacts_search">Search contacts: contacts.search</a>
