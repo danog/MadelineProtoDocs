@@ -48,6 +48,7 @@ Updates = messages.editChatDefaultBannedRights({peer=InputPeer, banned_rights=Ch
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|BANNED_RIGHTS_INVALID|You provided some invalid flags in the banned rights|
+|400|CHAT_NOT_MODIFIED|The pinned message wasn't modified|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 
 

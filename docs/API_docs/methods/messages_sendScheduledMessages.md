@@ -43,3 +43,10 @@ Or, if you're into Lua:
 Updates = messages.sendScheduledMessages({peer=InputPeer, id={int}, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|MESSAGE_ID_INVALID|The provided message id is invalid|
+
+

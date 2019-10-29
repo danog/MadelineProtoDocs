@@ -48,6 +48,7 @@ messages_ChatFull = channels.getFullChannel({channel=InputChannel, })
 |------|----------|---------------|
 |400|CHANNEL_INVALID|The provided channel is invalid|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
+|400|MSG_ID_INVALID|Invalid message ID provided|
 |403|CHANNEL_PUBLIC_GROUP_NA|channel/supergroup not available|
 |-503|Timeout|Timeout while fetching data|
 

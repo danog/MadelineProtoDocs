@@ -49,5 +49,6 @@ ChatInvite = messages.checkChatInvite({hash='string', })
 |400|INVITE_HASH_EMPTY|The invite hash is empty|
 |400|INVITE_HASH_EXPIRED|The invite link has expired|
 |400|INVITE_HASH_INVALID|The invite hash is invalid|
+|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
 
 

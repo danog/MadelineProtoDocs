@@ -42,3 +42,10 @@ Or, if you're into Lua:
 help_UserInfo = help.getUserInfo({user_id=InputUser, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|403|USER_INVALID|Invalid user provided|
+
+

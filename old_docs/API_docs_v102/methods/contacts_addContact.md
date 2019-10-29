@@ -51,5 +51,6 @@ Updates = contacts.addContact({add_phone_privacy_exception=Bool, id=InputUser, f
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|CONTACT_ID_INVALID|The provided contact ID is invalid|
+|400|CONTACT_NAME_EMPTY|Contact name empty|
 
 

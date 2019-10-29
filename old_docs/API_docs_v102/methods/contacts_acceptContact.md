@@ -42,3 +42,10 @@ Or, if you're into Lua:
 Updates = contacts.acceptContact({id=InputUser, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CONTACT_REQ_MISSING|Missing contact request|
+
+

@@ -48,5 +48,6 @@ Bool = messages.editChatAbout({peer=InputPeer, about='string', })
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
+|403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 
 

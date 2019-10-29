@@ -60,10 +60,11 @@ messages_StatedMessage = messages.sendMedia({peer=InputPeer, reply_to_msg_id=int
 |400|MEDIA_CAPTION_TOO_LONG|The caption is too long|
 |400|MEDIA_EMPTY|The provided media object is invalid|
 |400|MEDIA_INVALID|Media invalid|
+|400|MSG_ID_INVALID|Invalid message ID provided|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|PHOTO_EXT_INVALID|The extension of the photo is invalid|
 |400|PHOTO_INVALID_DIMENSIONS|The photo dimensions are invalid|
-|400|PHOTO_SAVE_FILE_INVALID||
+|400|PHOTO_SAVE_FILE_INVALID|Internal issues, try again later|
 |400|USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
 |400|USER_IS_BLOCKED|You were blocked by this user|
 |400|USER_IS_BOT|Bots can't send messages to other bots|

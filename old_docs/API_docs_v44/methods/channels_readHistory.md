@@ -49,5 +49,6 @@ Bool = channels.readHistory({channel=InputChannel, max_id=int, })
 |------|----------|---------------|
 |400|CHANNEL_INVALID|The provided channel is invalid|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
+|400|MSG_ID_INVALID|Invalid message ID provided|
 
 
