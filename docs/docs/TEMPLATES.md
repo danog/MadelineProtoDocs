@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 You get the web template used for the `$MadelineProto->start()` web UI thusly:
 
 ```php
-$template = yield $MadelineProto->get_web_template();
+$template = yield $MadelineProto->getWebTemplate();
 ```
 
 By default, it is equal to:
@@ -31,7 +31,7 @@ By default, it is equal to:
 
 To modify the web template, use:
 ```php
-yield $MadelineProto->set_web_template($new_template);
+yield $MadelineProto->setWebTemplate($new_template);
 ```
 
 The new template must have a structure similar the the default template.

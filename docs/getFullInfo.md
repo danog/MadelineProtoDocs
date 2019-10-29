@@ -17,12 +17,12 @@ description: get_full_info parameters, return type and example
 
 
 ```php
-$Chat = yield $MadelineProto->get_full_info($id);
+$Chat = yield $MadelineProto->getFullInfo($id);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Chat = get_full_info(id)
+Chat = getFullInfo(id)
 ```
 

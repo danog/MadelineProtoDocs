@@ -43,12 +43,12 @@ That's very cool and all, you might think, but how exactly does this __async__ s
 
 Instead of writing code like this:  
 ```php
-$file = $MadelineProto->download_to_dir($bigfile, '/tmp/');
+$file = $MadelineProto->downloadToDir($bigfile, '/tmp/');
 ```
 
 Write it like **this**:  
 ```php
-$file = yield $MadelineProto->download_to_dir($bigfile, '/tmp/');
+$file = yield $MadelineProto->downloadToDir($bigfile, '/tmp/');
 ```
 
 ### That's it.
@@ -86,7 +86,7 @@ yield $MadelineProto->messages->sendMessage(..., ['async' => true]);
 As mentioned earlier, you can only use the `yield` operator within functions, but not just any function, for example (**WILL NOT WORK**):
 ```php
 $sm = function ($chatID, $message) use ($MadelineProto) {
-    $id = (yield $MadelineProto->get_info($chatID, ['async' => true]))['bot_api_id'];
+    $id = (yield $MadelineProto->getInfo($chatID, ['async' => true]))['bot_api_id'];
     $res = yield $MadelineProto->messages->sendMesssage(['peer' => $chatID, 'message' => "Message from: $id\n$message"], ['async' => true]);
     return $res;
 };
@@ -110,7 +110,7 @@ class EventHandler extends \danog\MadelineProto\EventHandler
             return;
         }
         if (isset($update['message']['media']) && $update['message']['media']['_'] !== 'messageMediaGame') {
-            yield $this->download_to_dir($update, '/tmp');
+            yield $this->downloadToDir($update, '/tmp');
             yield $this->messages->sendMedia(['peer' => $update, 'message' => $update['message']['message'], 'media' => $update]);
         }
 
@@ -215,7 +215,7 @@ Also, `ArrayAccess` on raw generators still isn't supported unless you wrap them
 ```php
 public function ponyAsync()
 {
-    return yield $MadelineProto->get_info('danogentili');
+    return yield $MadelineProto->getInfo('danogentili');
 }
 // public function onUpdateNewMessage....
 
@@ -292,7 +292,7 @@ From here it's like in the [artax docs](https://amphp.org/artax).
 
 MadelineProto also provides a simplified async version of `file_get_contents`:  
 ```php
-$result = yield $MadelineProto->file_get_contents('https://myurl');
+$result = yield $MadelineProto->fileGetContents('https://myurl');
 ```
 
 #### Async forking (does async green-thread forking)

@@ -364,7 +364,7 @@ Peer caching settings
 
 ### `$settings['peer']['full_info_cache_time']`
 Default: 3600  
-Description: Cache validity of full peer info (obtained with [get_full_info](CHAT_INFO.html#get_full_info)) 
+Description: Cache validity of full peer info (obtained with [getFullInfo](CHAT_INFO.html#get_full_info)) 
 
 ### `$settings['peer']['full_fetch']`
 Default: false  

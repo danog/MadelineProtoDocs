@@ -12,22 +12,22 @@ There are two ways to get a list of all chats, depending if you logged in as a u
 
 ## get_dialogs ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 ```php
-$dialogs = yield $MadelineProto->get_dialogs();
+$dialogs = yield $MadelineProto->getDialogs();
 foreach ($dialogs as $peer) {
     yield $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => 'Hi! Testing MadelineProto broadcasting!']);
 }
 ```
 
-`get_dialogs` will return a full list of all chats you're member of, see [here for the parameters and the result](https://docs.madelineproto.xyz/get_dialogs.html)
+`get_dialogs` will return a full list of all chats you're member of, see [here for the parameters and the result](https://docs.madelineproto.xyz/getDialogs.html)
 
 ## get_full_dialogs ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 ```php
-$dialogs = yield $MadelineProto->get_full_dialogs();
+$dialogs = yield $MadelineProto->getFullDialogs();
 foreach ($dialogs as $dialog) {
     $MadelineProto->logger($dialog);
 }
 ```
 
-`get_full_dialogs` will return a full list of all chats you're member of, including dialog info (such as the pinned/last message ID, unread count, tag count, notification settings and message drafts) see [here for the parameters and the result](https://docs.madelineproto.xyz/get_full_dialogs.html)
+`get_full_dialogs` will return a full list of all chats you're member of, including dialog info (such as the pinned/last message ID, unread count, tag count, notification settings and message drafts) see [here for the parameters and the result](https://docs.madelineproto.xyz/getFullDialogs.html)
 
 <a href="https://docs.madelineproto.xyz/docs/INLINE_BUTTONS.html">Next section</a>

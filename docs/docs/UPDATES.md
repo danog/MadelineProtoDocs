@@ -83,7 +83,7 @@ class EventHandler extends \danog\MadelineProto\EventHandler
         try {
             if (isset($update['message']['media']) && ($update['message']['media']['_'] == 'messageMediaPhoto' || $update['message']['media']['_'] == 'messageMediaDocument')) {
                 $time = microtime(true);
-                $file = yield $this->download_to_dir($update, '/tmp');
+                $file = yield $this->downloadToDir($update, '/tmp');
                 yield $this->messages->sendMessage(['peer' => $update, 'message' => 'Downloaded to '.$file.' in '.(microtime(true) - $time).' seconds', 'reply_to_msg_id' => $update['message']['id']]);
             }
         } catch (\danog\MadelineProto\RPCErrorException $e) {
@@ -165,7 +165,7 @@ class EventHandler extends \danog\MadelineProto\CombinedEventHandler
         try {
             if (isset($update['message']['media']) && ($update['message']['media']['_'] == 'messageMediaPhoto' || $update['message']['media']['_'] == 'messageMediaDocument')) {
                 $time = microtime(true);
-                $file = yield $this->{$session}->download_to_dir($update, '/tmp');
+                $file = yield $this->{$session}->downloadToDir($update, '/tmp');
                 yield $this->{$session}->messages->sendMessage(['peer' => $update, 'message' => 'Downloaded to '.$file.' in '.(microtime(true) - $time).' seconds', 'reply_to_msg_id' => $update['message']['id']]);
             }
         } catch (\danog\MadelineProto\RPCErrorException $e) {

@@ -14,12 +14,12 @@ No parameters
 
 
 ```php
-$User = yield $MadelineProto->get_self();
+$User = yield $MadelineProto->getSelf();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-User = get_self()
+User = getSelf()
 ```
 

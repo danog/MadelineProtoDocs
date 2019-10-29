@@ -17,5 +17,5 @@ description: bot_login parameters, return type and example
 
 
 ```php
-$authorization = yield $this->bot_login($token);
+$authorization = yield $this->botLogin($token);
 ```

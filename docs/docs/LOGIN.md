@@ -59,11 +59,11 @@ $wrapper->async(true);
 
 yield $wrapper->login(yield $wrapper->readline('Enter your phone number (this number must already be signed up to telegram)'));
 
-yield $wrapper->complete_login(yield $wrapper->readline('Enter the code'));
+yield $wrapper->completeLogin(yield $wrapper->readline('Enter the code'));
 
-if (yield $wrapper->logged_in()) {
-    if (yield $wrapper->has_app()) {
-        $app = yield $wrapper->get_app();
+if (yield $wrapper->loggedIn()) {
+    if (yield $wrapper->hasApp()) {
+        $app = yield $wrapper->getApp();
     } else {
         $app_title = yield $wrapper->readLine('Enter the app\'s name, can be anything: ');
         $short_name = yield $wrapper->readLine('Enter the app\'s short name, can be anything: ');
@@ -89,31 +89,31 @@ The constructor of the API is optional, and can be an array of [MadelineProto se
 After you provide an API ID, you can then login (if you're using the [automatic mode you don't have to do this](#automatic-now-fully-async)).  
 
 ```php
-yield $MadelineProto->phone_login(yield $MadelineProto->readline('Enter your phone number: '));
-$authorization = yield $MadelineProto->complete_phone_login(yield $MadelineProto->readline('Enter the phone code: '));
+yield $MadelineProto->phoneLogin(yield $MadelineProto->readline('Enter your phone number: '));
+$authorization = yield $MadelineProto->completePhoneLogin(yield $MadelineProto->readline('Enter the phone code: '));
 if ($authorization['_'] === 'account.password') {
     $authorization = yield $MadelineProto->complete_2fa_login(yield $MadelineProto->readline('Please enter your password (hint '.$authorization['hint'].'): '));
 }
 if ($authorization['_'] === 'account.needSignup') {
-    $authorization = yield $MadelineProto->complete_signup(yield $MadelineProto->readline('Please enter your first name: '), readline('Please enter your last name (can be empty): '));
+    $authorization = yield $MadelineProto->completeSignup(yield $MadelineProto->readline('Please enter your first name: '), readline('Please enter your last name (can be empty): '));
 }
 ```
 
-First, you must call `phone_login` to send the verification code, see [here for the parameters and the result](https://docs.madelineproto.xyz/phone_login.html).  
-Then, use `complete_phone_login` to complete the login, see [here for the parameters and the result](https://docs.madelineproto.xyz/complete_phone_login.html).  
+First, you must call `phone_login` to send the verification code, see [here for the parameters and the result](https://docs.madelineproto.xyz/phoneLogin.html).  
+Then, use `complete_phone_login` to complete the login, see [here for the parameters and the result](https://docs.madelineproto.xyz/completePhoneLogin.html).  
 
 Use `complete_2FA_login` to complete the login to an account with 2FA enabled, see [here for the parameters and the result](https://docs.madelineproto.xyz/complete_2FA_login.html).    
 
-If the account does not have an account, use `complete_signup` to signup, see [here for the parameters and the result](https://docs.madelineproto.xyz/complete_signup.html).  
+If the account does not have an account, use `complete_signup` to signup, see [here for the parameters and the result](https://docs.madelineproto.xyz/completeSignup.html).  
 
 
 ## Manual (bot)
 
 ```php
-yield $MadelineProto->bot_login('34298141894:aflknsaflknLKNFS');
+yield $MadelineProto->botLogin('34298141894:aflknsaflknLKNFS');
 ```
 
-Use `bot_login` to login as a bot, see [here for the parameters and the result](https://docs.madelineproto.xyz/bot_login.html).  
+Use `bot_login` to login as a bot, see [here for the parameters and the result](https://docs.madelineproto.xyz/botLogin.html).  
 
 Note that when you login as a bot, MadelineProto also logins using the [PWRTelegram](https://pwrtelegram.xyz) API, to allow persistant storage of peers, even after a logout and another login.  
 

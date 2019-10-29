@@ -27,7 +27,7 @@ if (!file_exists('input.raw')) {
     echo 'Downloading example song'.PHP_EOL;
     copy('https://github.com/danog/MadelineProto/raw/master/input.raw', 'input.raw');
 }
-$call = $MadelineProto->request_call('@danogentili');
+$call = $MadelineProto->requestCall('@danogentili');
 $call->play('input.raw')->then('input.raw')->playOnHold(['input.raw'])->setOutputFile('output.raw');
 ```
 

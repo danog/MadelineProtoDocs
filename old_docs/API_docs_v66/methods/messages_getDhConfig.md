@@ -1,20 +1,20 @@
 ---
 title: messages.getDhConfig
-description: You cannot use this method directly, instead use $MadelineProto->get_dh_config();
+description: You cannot use this method directly, instead use $MadelineProto->getDhConfig();
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: messages.getDhConfig  
 [Back to methods index](index.md)
 
 
-You cannot use this method directly, instead use $MadelineProto->get_dh_config();
+You cannot use this method directly, instead use $MadelineProto->getDhConfig();
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|version|[int](../types/int.md) | You cannot use this method directly, instead use $MadelineProto->get_dh_config(); | Yes|
-|random\_length|[int](../types/int.md) | You cannot use this method directly, instead use $MadelineProto->get_dh_config(); | Yes|
+|version|[int](../types/int.md) | You cannot use this method directly, instead use $MadelineProto->getDhConfig(); | Yes|
+|random\_length|[int](../types/int.md) | You cannot use this method directly, instead use $MadelineProto->getDhConfig(); | Yes|
 
 
 ### Return type: [messages\_DhConfig](../types/messages_DhConfig.md)

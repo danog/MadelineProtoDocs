@@ -10,29 +10,29 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 $MadelineProto->[logout](https://docs.madelineproto.xyz/logout.html)();
 
-$MadelineProto->[phone_login](https://docs.madelineproto.xyz/phone_login.html)($number);
+$MadelineProto->[phoneLogin](https://docs.madelineproto.xyz/phoneLogin.html)($number);
 
-$MadelineProto->[complete_phone_login](https://docs.madelineproto.xyz/complete_phone_login.html)($code);
+$MadelineProto->[completePhoneLogin](https://docs.madelineproto.xyz/completePhoneLogin.html)($code);
 
 $MadelineProto->[complete_2FA_login](https://docs.madelineproto.xyz/complete_2FA_login.html)($password);
 
-$MadelineProto->[bot_login](https://docs.madelineproto.xyz/bot_login.html)($token);
+$MadelineProto->[botLogin](https://docs.madelineproto.xyz/botLogin.html)($token);
 
 
-$MadelineProto->[get_dialogs](https://docs.madelineproto.xyz/get_dialogs.html)();
+$MadelineProto->[getDialogs](https://docs.madelineproto.xyz/getDialogs.html)();
 
-$MadelineProto->[get_pwr_chat](https://docs.madelineproto.xyz/get_pwr_chat.html)($id);
+$MadelineProto->[getPwrChat](https://docs.madelineproto.xyz/getPwrChat.html)($id);
 
-$MadelineProto->[get_info](https://docs.madelineproto.xyz/get_info.html)($id);
+$MadelineProto->[getInfo](https://docs.madelineproto.xyz/getInfo.html)($id);
 
-$MadelineProto->[get_full_info](https://docs.madelineproto.xyz/get_full_info.html)($id);
+$MadelineProto->[getFullInfo](https://docs.madelineproto.xyz/getFullInfo.html)($id);
 
-$MadelineProto->[get_self](https://docs.madelineproto.xyz/get_self.html)();
+$MadelineProto->[getSelf](https://docs.madelineproto.xyz/getSelf.html)();
 
 
-$MadelineProto->[request_call](https://docs.madelineproto.xyz/request_call.html)($id);
+$MadelineProto->[requestCall](https://docs.madelineproto.xyz/requestCall.html)($id);
 
-$MadelineProto->[request_secret_chat](https://docs.madelineproto.xyz/request_secret_chat.html)($id);
+$MadelineProto->[requestSecretChat](https://docs.madelineproto.xyz/requestSecretChat.html)($id);
 
 ***
 <br><br>

@@ -16,13 +16,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * [Get all chats, broadcast a message to all chats](https://docs.madelineproto.xyz/docs/DIALOGS.html)
 
-* [Get the full participant list of a channel/group/supergroup](https://docs.madelineproto.xyz/get_pwr_chat.html)
+* [Get the full participant list of a channel/group/supergroup](https://docs.madelineproto.xyz/getPwrChat.html)
 
-* [Get full info about a user/chat/supergroup/channel](https://docs.madelineproto.xyz/get_full_info.html)
+* [Get full info about a user/chat/supergroup/channel](https://docs.madelineproto.xyz/getFullInfo.html)
 
-* [Get info about a user/chat/supergroup/channel](https://docs.madelineproto.xyz/get_info.html)
+* [Get info about a user/chat/supergroup/channel](https://docs.madelineproto.xyz/getInfo.html)
 
-* [Get info about the currently logged-in user](https://docs.madelineproto.xyz/get_self.html)
+* [Get info about the currently logged-in user](https://docs.madelineproto.xyz/getSelf.html)
 
 * [Upload or download files up to 1.5 GB](https://docs.madelineproto.xyz/docs/FILES.html)
 

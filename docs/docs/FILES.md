@@ -301,7 +301,7 @@ There are multiple download methods that allow you to download a file to a direc
 
 ### Extracting download info
 ```php
-$info = yield $MadelineProto->get_download_info($MessageMedia);
+$info = yield $MadelineProto->getDownloadInfo($MessageMedia);
 ```
 
 `$MessageMedia` can be a [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object or a bot API file ID.
@@ -313,10 +313,10 @@ $info = yield $MadelineProto->get_download_info($MessageMedia);
 
 ### Downloading profile pictures
 ```php
-$info = yield $MadelineProto->get_propic_info($Update);
+$info = yield $MadelineProto->getPropicInfo($Update);
 ```
 
-`$Update` can be a [Message](https://docs.madelineproto.xyz/API_docs/types/Message.html) object, an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html), or any value supported by [getInfo](https://docs.madelineproto.xyz/get_info.html).  
+`$Update` can be a [Message](https://docs.madelineproto.xyz/API_docs/types/Message.html) object, an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html), or any value supported by [getInfo](https://docs.madelineproto.xyz/getInfo.html).  
 The result (which is in the same format as `get_download_info`) should the be passed to the download functions in order to download the profile picture.  
 
 * `$info['ext']` - The file extension
@@ -326,7 +326,7 @@ The result (which is in the same format as `get_download_info`) should the be pa
 
 ### Download to directory
 ```php
-$output_file_name = yield $MadelineProto->download_to_dir($MessageMedia, '/tmp/');
+$output_file_name = yield $MadelineProto->downloadToDir($MessageMedia, '/tmp/');
 ```
 
 This downloads the given file to `/tmp`, and returns the full generated file path.
@@ -335,7 +335,7 @@ This downloads the given file to `/tmp`, and returns the full generated file pat
 
 ### Download to file
 ```php
-$output_file_name = yield $MadelineProto->download_to_file($MessageMedia, '/tmp/myname.mp4');
+$output_file_name = yield $MadelineProto->downloadToFile($MessageMedia, '/tmp/myname.mp4');
 ```
 
 This downloads the given file to `/tmp/myname.mp4`, and returns the full file path.
@@ -345,12 +345,12 @@ This downloads the given file to `/tmp/myname.mp4`, and returns the full file pa
 
 ### Download to browser with streams
 ```php
-$info = yield $MadelineProto->get_download_info($MessageMedia);
+$info = yield $MadelineProto->getDownloadInfo($MessageMedia);
 header('Content-Length: '.$info['size']);
 header('Content-Type: '.$info['mime']);
 
 $stream = fopen('php://output', 'w');
-yield $MadelineProto->download_to_stream($MessageMedia, $stream, $cb, $offset, $endoffset);
+yield $MadelineProto->downloadToStream($MessageMedia, $stream, $cb, $offset, $endoffset);
 ```
 
 This downloads the given file to the browser, sending also information about the file's type and size.
@@ -390,7 +390,7 @@ $sentMessage = yield $MadelineProto->messages->sendMedia([
     'parse_mode' => 'Markdown'
 ]);
 
-$output_file_name = yield $MadelineProto->download_to_file(
+$output_file_name = yield $MadelineProto->downloadToFile(
     $sentMessage,
     new \danog\MadelineProto\FileCallback(
         '/tmp/myname.mp4',
@@ -441,7 +441,7 @@ $sentMessage = yield $MadelineProto->messages->sendMedia([
     'parse_mode' => 'Markdown'
 ]);
 
-$output_file_name = yield $MadelineProto->download_to_file(
+$output_file_name = yield $MadelineProto->downloadToFile(
     $sentMessage,
     new MyCallback('/tmp/myname.mp4', $peer, $MadelineProto)
 );

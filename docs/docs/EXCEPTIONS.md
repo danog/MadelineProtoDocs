@@ -9,7 +9,7 @@ MadelineProto can throw lots of different exceptions.
 
 ```php
 try {
-    $MadelineProto->get_dialogs();
+    $MadelineProto->getDialogs();
 } catch (\danog\MadelineProto\RPCErrorException $e) {
     if ($e->rpc === 'BOT_METHOD_INVALID') {
         \danog\MadelineProto\Logger::log("Bots can't execute this method!");
@@ -54,11 +54,11 @@ Revision: 63823fc3cc5070bd8a1ebe91e60e1fd583a2f37f
 
 TL Trace (YOU ABSOLUTELY MUST READ THE TEXT BELOW):
 
-PeerHandler.php(327):   get_info("dd",false)
-TL.php(339):            get_info("dd")['peer']
+PeerHandler.php(327):   getInfo("dd",false)
+TL.php(339):            getInfo("dd")['peer']
 While serializing:      messages.sendMessage
-CallHandler.php(79):    serialize_method("messages.sendMessage",{"peer":"@dd","message":"hi"})
-APIFactory.php(142):    method_call("messages.sendMessage",{"peer":"@dd","message":"hi"},{"datacenter":4})
+CallHandler.php(79):    serializeMethod("messages.sendMessage",{"peer":"@dd","message":"hi"})
+APIFactory.php(142):    methodCall("messages.sendMessage",{"peer":"@dd","message":"hi"},{"datacenter":4})
 php shell code(1):      __call("sendMessage",[{"peer":"@dd","message":"hi"}])
   thrown in /home/pwrtelegram/cleanMadeline/src/danog/MadelineProto/MTProtoTools/PeerHandler.php on line 330
 php >
@@ -75,12 +75,12 @@ Explanation:
 `Revision: 63823fc3cc5070bd8a1ebe91e60e1fd583a2f37f`: this indicates the MadelineProto version: **always** include this code when opening github issues or reporting errors in the group.
 
 ```
-PeerHandler.php(327):   get_info("dd",false)
-TL.php(339):            get_info("dd")
+PeerHandler.php(327):   getInfo("dd",false)
+TL.php(339):            getInfo("dd")
 ['peer']
 While serializing:      messages.sendMessage
-CallHandler.php(79):    serialize_method("messages.sendMessage",{"peer":"@dd","message":"hi"})
-APIFactory.php(142):    method_call("messages.sendMessage",{"peer":"@dd","message":"hi"},{"datacenter":4})
+CallHandler.php(79):    serializeMethod("messages.sendMessage",{"peer":"@dd","message":"hi"})
+APIFactory.php(142):    methodCall("messages.sendMessage",{"peer":"@dd","message":"hi"},{"datacenter":4})
 php shell code(1):      __call("sendMessage",[{"peer":"@dd","message":"hi"}])
 ```
 

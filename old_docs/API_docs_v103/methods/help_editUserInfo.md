@@ -86,4 +86,4 @@ You can also use normal markdown, note that to create mentions you must use the 
 [Mention by user id](mention:186785362)
 ```
 
-MadelineProto supports all html entities supported by [html_entity_decode](http://php.net/manual/en/function.html-entity-decode.php).
+MadelineProto supports all html entities supported by [htmlEntityDecode](http://php.net/manual/en/function.html-entity-decode.php).

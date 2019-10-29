@@ -12,12 +12,12 @@ Gets full list of dialogs
 
 
 ```php
-$Dialogs = yield $MadelineProto->get_full_dialogs();
+$Dialogs = yield $MadelineProto->getFullDialogs();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Dialogs = get_full_dialogs()
+Dialogs = getFullDialogs()
 ```
 
