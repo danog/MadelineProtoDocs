@@ -48,7 +48,7 @@ composer.json:
     "description": "Project description",
     "type": "project",
     "require": {
-        "danog/madelineproto": "dev-master",
+        "danog/madelineproto": "^4",
         "amphp/dns": "dev-master#aa1892bd as 0.9",
         "amphp/socket": "0.10.12 as 1",
         "amphp/websocket": "dev-master#db2da8c5b3ed22eae37da5ffa10ab3ea8de19342 as 1",
