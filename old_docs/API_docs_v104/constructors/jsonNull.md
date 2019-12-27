@@ -1,6 +1,6 @@
 ---
 title: jsonNull
-description: null JSON value
+description: Null JSON value
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: jsonNull  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-null JSON value
+Null JSON value
 
 
 

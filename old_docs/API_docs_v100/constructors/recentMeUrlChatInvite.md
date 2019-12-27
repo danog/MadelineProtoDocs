@@ -14,7 +14,7 @@ Recent t.me invite link to a chat
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|url|[string](../types/string.md) | Yes|t.me URL|
+|url|[string](../types/string.md) | Yes|T.me URL|
 |chat\_invite|[ChatInvite](../types/ChatInvite.md) | Optional|Chat invitation|
 
 

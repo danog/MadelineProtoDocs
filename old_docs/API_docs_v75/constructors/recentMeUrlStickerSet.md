@@ -14,7 +14,7 @@ Recent t.me stickerset installation URL
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|url|[string](../types/string.md) | Yes|t.me URL|
+|url|[string](../types/string.md) | Yes|T.me URL|
 |set|[StickerSetCovered](../types/StickerSetCovered.md) | Yes|Stickerset|
 
 

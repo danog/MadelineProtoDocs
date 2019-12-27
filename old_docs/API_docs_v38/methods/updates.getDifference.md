@@ -14,7 +14,7 @@ Get new [updates](https://core.telegram.org/api/updates).
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |pts|[int](../types/int.md) | PTS, see [updates](https://core.telegram.org/api/updates). | Yes|
-|date|[int](../types/int.md) | date, see [updates](https://core.telegram.org/api/updates). | Yes|
+|date|[int](../types/int.md) | You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates | Yes|
 |qts|[int](../types/int.md) | QTS, see [updates](https://core.telegram.org/api/updates). | Yes|
 
 

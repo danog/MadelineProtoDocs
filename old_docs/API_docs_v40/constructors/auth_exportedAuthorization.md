@@ -14,8 +14,8 @@ Data for copying of authorization between data centres.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|current user identifier|
-|bytes|[bytes](../types/bytes.md) | Yes|authorizes key|
+|id|[int](../types/int.md) | Yes|Current user identifier|
+|bytes|[bytes](../types/bytes.md) | Yes|Authorizes key|
 
 
 

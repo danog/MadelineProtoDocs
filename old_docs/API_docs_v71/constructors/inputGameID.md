@@ -14,8 +14,8 @@ Indicates an already sent game
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|game ID from [Game](../types/Game.md) constructor|
-|access\_hash|[long](../types/long.md) | Yes|access hash from [Game](../types/Game.md) constructor|
+|id|[long](../types/long.md) | Yes|Game ID from [Game](../types/Game.md) constructor|
+|access\_hash|[long](../types/long.md) | Yes|Access hash from [Game](../types/Game.md) constructor|
 
 
 

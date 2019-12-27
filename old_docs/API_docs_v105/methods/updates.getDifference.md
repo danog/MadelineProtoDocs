@@ -15,7 +15,7 @@ Get new [updates](https://core.telegram.org/api/updates).
 |----------|---------------|-------------|----------|
 |pts|[int](../types/int.md) | PTS, see [updates](https://core.telegram.org/api/updates). | Yes|
 |pts\_total\_limit|[int](../types/int.md) | For fast updating: if provided and `pts + pts_total_limit < remote pts`, [updates.differenceTooLong](../constructors/updates.differenceTooLong.md) will be returned.<br>Simply tells the server to not return the difference if it is bigger than `pts_total_limit`<br>If the remote pts is too big (> ~4000000), this field will default to 1000000 | Optional|
-|date|[int](../types/int.md) | date, see [updates](https://core.telegram.org/api/updates). | Yes|
+|date|[int](../types/int.md) | You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates | Yes|
 |qts|[int](../types/int.md) | QTS, see [updates](https://core.telegram.org/api/updates). | Yes|
 
 

@@ -15,7 +15,7 @@ Non-e2e documented forwarded from non-secret chat
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |id|[long](../types/long.md) | Yes|Document ID|
-|access\_hash|[long](../types/long.md) | Yes|access hash|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
 |date|[int](../types/int.md) | Yes|Date|
 |mime\_type|[string](../types/string.md) | Yes|Mime type|
 |size|[int](../types/int.md) | Yes|Size|
