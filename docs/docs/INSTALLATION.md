@@ -42,25 +42,14 @@ require_once 'madeline.php';
 ## Composer from scratch
 
 composer.json:
-```
+```json
 {
     "name": "yourname/yourproject",
     "description": "Project description",
     "type": "project",
     "require": {
         "danog/madelineproto": "^4",
-        "amphp/dns": "dev-master#aa1892bd as 0.9",
     },
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/danog/phpseclib"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/danog/dns"
-        }
-    ],
     "minimum-stability": "dev",
     "license": "AGPL-3.0-only",
     "authors": [
@@ -92,29 +81,14 @@ require_once 'vendor/autoload.php';
 
 Once you have all the requirements installed properly (on dev as well as production), add this to the ```composer.json``` file:
 
-```
-"repositories": [
-    {
-        "type": "git",
-        "url": "https://github.com/danog/phpseclib"
-    }
-],
-```
-
-Make sure you also have these set in the composer.json:
-
-```
+```json
 "minimum-stability": "dev",
 ```
 
-Then you can require the package by addding the following lines to the require section:
+Then you can require the package:  
 
-```
-"danog/madelineproto":"^4",
-"amphp/dns": "dev-master#aa1892bd as 0.9",
-"amphp/socket": "0.10.12 as 1",
-"amphp/websocket": "dev-master#db2da8c5b3ed22eae37da5ffa10ab3ea8de19342 as 1",
-"amphp/websocket-client": "dev-master#aff808025637bd705672338b4904ad03a4dbdc04 as 1"
+```bash
+composer require danog/madelineproto
 ```
 
 <a href="https://docs.madelineproto.xyz/docs/UPDATES.html">Next section</a>
