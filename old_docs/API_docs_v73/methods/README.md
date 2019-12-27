@@ -32,13 +32,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.saveGif.html" name="messages.saveGif">Add GIF to saved gifs list: messages.saveGif</a>
 
-* <a href="stickers.addStickerToSet.html" name="stickers.addStickerToSet">Add a sticker to a stickerset, bots only. The sticker set must have been created by the bot.: stickers.addStickerToSet</a>
+* <a href="stickers.addStickerToSet.html" name="stickers.addStickerToSet">Add a sticker to a stickerset, bots only. The sticker set must have been created by the bot: stickers.addStickerToSet</a>
 
 * <a href="messages.saveRecentSticker.html" name="messages.saveRecentSticker">Add/remove sticker from recent stickers list: messages.saveRecentSticker</a>
 
-* <a href="messages.addChatUser.html" name="messages.addChatUser">Adds a user to a chat and sends a service message on it.: messages.addChatUser</a>
+* <a href="messages.addChatUser.html" name="messages.addChatUser">Adds a user to a chat and sends a service message on it: messages.addChatUser</a>
 
-* <a href="contacts.block.html" name="contacts.block">Adds the user to the blacklist.: contacts.block</a>
+* <a href="contacts.block.html" name="contacts.block">Adds the user to the blacklist: contacts.block</a>
 
 * <a href="channels.toggleInvites.html" name="channels.toggleInvites">Allow or disallow any user to invite users to this channel/supergroup: channels.toggleInvites</a>
 
@@ -48,11 +48,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels.setStickers.html" name="channels.setStickers">Associate a stickerset to the supergroup: channels.setStickers</a>
 
-* <a href="channels.editBanned.html" name="channels.editBanned">Ban/unban/kick a user in a [supergroup/channel](https://core.telegram.org/api/channel).: channels.editBanned</a>
+* <a href="channels.editBanned.html" name="channels.editBanned">Ban/unban/kick a user in a [supergroup/channel](https://core.telegram.org/api/channel): channels.editBanned</a>
 
 * <a href="auth.cancelCode.html" name="auth.cancelCode">Cancel the login verification code: auth.cancelCode</a>
 
-* <a href="messages.editChatTitle.html" name="messages.editChatTitle">Chanages chat name and sends a service message on it.: messages.editChatTitle</a>
+* <a href="messages.editChatTitle.html" name="messages.editChatTitle">Chanages chat name and sends a service message on it: messages.editChatTitle</a>
 
 * <a href="account.setPrivacy.html" name="account.setPrivacy">Change privacy settings of current account: account.setPrivacy</a>
 
@@ -66,7 +66,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="stickers.changeStickerPosition.html" name="stickers.changeStickerPosition">Changes the absolute position of a sticker in the set to which it belongs; for bots only. The sticker set must have been created by the bot: stickers.changeStickerPosition</a>
 
-* <a href="account.updateUsername.html" name="account.updateUsername">Changes username for the current user.: account.updateUsername</a>
+* <a href="account.updateUsername.html" name="account.updateUsername">Changes username for the current user: account.updateUsername</a>
 
 * <a href="channels.checkUsername.html" name="channels.checkUsername">Check if a username is free and can be assigned to a channel/supergroup: channels.checkUsername</a>
 
@@ -80,13 +80,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.confirmPhone.html" name="account.confirmPhone">Confirm a phone number to cancel account deletion, for more info [click here »](https://core.telegram.org/api/account-deletion): account.confirmPhone</a>
 
-* <a href="messages.receivedMessages.html" name="messages.receivedMessages">Confirms receipt of messages by a client, cancels PUSH-notification sending.: messages.receivedMessages</a>
+* <a href="messages.receivedMessages.html" name="messages.receivedMessages">Confirms receipt of messages by a client, cancels PUSH-notification sending: messages.receivedMessages</a>
 
-* <a href="channels.createChannel.html" name="channels.createChannel">Create a [supergroup/channel](https://core.telegram.org/api/channel).: channels.createChannel</a>
+* <a href="channels.createChannel.html" name="channels.createChannel">Create a [supergroup/channel](https://core.telegram.org/api/channel): channels.createChannel</a>
 
-* <a href="stickers.createStickerSet.html" name="stickers.createStickerSet">Create a stickerset, bots only.: stickers.createStickerSet</a>
+* <a href="stickers.createStickerSet.html" name="stickers.createStickerSet">Create a stickerset, bots only: stickers.createStickerSet</a>
 
-* <a href="messages.createChat.html" name="messages.createChat">Creates a new chat.: messages.createChat</a>
+* <a href="messages.createChat.html" name="messages.createChat">Creates a new chat: messages.createChat</a>
 
 * <a href="channels.deleteChannel.html" name="channels.deleteChannel">Delete a [channel/supergroup](https://core.telegram.org/api/channel): channels.deleteChannel</a>
 
@@ -102,21 +102,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels.deleteHistory.html" name="channels.deleteHistory">Delete the history of a [supergroup](https://core.telegram.org/api/channel): channels.deleteHistory</a>
 
-* <a href="account.deleteAccount.html" name="account.deleteAccount">Delete the user's account from the telegram servers. Can be used, for example, to delete the account of a user that provided the login code, but forgot the [2FA password and no recovery method is configured](https://core.telegram.org/api/srp).: account.deleteAccount</a>
+* <a href="account.deleteAccount.html" name="account.deleteAccount">Delete the user's account from the telegram servers. Can be used, for example, to delete the account of a user that provided the login code, but forgot the [2FA password and no recovery method is configured](https://core.telegram.org/api/srp): account.deleteAccount</a>
 
-* <a href="account.unregisterDevice.html" name="account.unregisterDevice">Deletes a device by its token, stops sending PUSH-notifications to it.: account.unregisterDevice</a>
+* <a href="account.unregisterDevice.html" name="account.unregisterDevice">Deletes a device by its token, stops sending PUSH-notifications to it: account.unregisterDevice</a>
 
-* <a href="messages.deleteChatUser.html" name="messages.deleteChatUser">Deletes a user from a chat and sends a service message on it.: messages.deleteChatUser</a>
+* <a href="messages.deleteChatUser.html" name="messages.deleteChatUser">Deletes a user from a chat and sends a service message on it: messages.deleteChatUser</a>
 
-* <a href="messages.deleteHistory.html" name="messages.deleteHistory">Deletes communication history.: messages.deleteHistory</a>
+* <a href="messages.deleteHistory.html" name="messages.deleteHistory">Deletes communication history: messages.deleteHistory</a>
 
-* <a href="messages.deleteMessages.html" name="messages.deleteMessages">Deletes messages by their identifiers.: messages.deleteMessages</a>
+* <a href="messages.deleteMessages.html" name="messages.deleteMessages">Deletes messages by their identifiers: messages.deleteMessages</a>
 
-* <a href="photos.deletePhotos.html" name="photos.deletePhotos">Deletes profile photos.: photos.deletePhotos</a>
+* <a href="photos.deletePhotos.html" name="photos.deletePhotos">Deletes profile photos: photos.deletePhotos</a>
 
-* <a href="contacts.deleteContacts.html" name="contacts.deleteContacts">Deletes several contacts from the list.: contacts.deleteContacts</a>
+* <a href="contacts.deleteContacts.html" name="contacts.deleteContacts">Deletes several contacts from the list: contacts.deleteContacts</a>
 
-* <a href="contacts.unblock.html" name="contacts.unblock">Deletes the user from the blacklist.: contacts.unblock</a>
+* <a href="contacts.unblock.html" name="contacts.unblock">Deletes the user from the blacklist: contacts.unblock</a>
 
 * <a href="messages.editInlineBotMessage.html" name="messages.editInlineBotMessage">Edit an inline bot message: messages.editInlineBotMessage</a>
 
@@ -126,7 +126,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels.editTitle.html" name="channels.editTitle">Edit the name of a [channel/supergroup](https://core.telegram.org/api/channel): channels.editTitle</a>
 
-* <a href="account.updateNotifySettings.html" name="account.updateNotifySettings">Edits notification settings from a given user/group, from all users/all groups.: account.updateNotifySettings</a>
+* <a href="account.updateNotifySettings.html" name="account.updateNotifySettings">Edits notification settings from a given user/group, from all users/all groups: account.updateNotifySettings</a>
 
 * <a href="messages.toggleChatAdmins.html" name="messages.toggleChatAdmins">Enable all users are admins in normal groups (not supergroups): messages.toggleChatAdmins</a>
 
@@ -142,11 +142,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.forwardMessage.html" name="messages.forwardMessage">Forward message: messages.forwardMessage</a>
 
-* <a href="messages.forwardMessages.html" name="messages.forwardMessages">Forwards messages by their IDs.: messages.forwardMessages</a>
+* <a href="messages.forwardMessages.html" name="messages.forwardMessages">Forwards messages by their IDs: messages.forwardMessages</a>
 
 * <a href="channels.getMessages.html" name="channels.getMessages">Get [channel/supergroup](https://core.telegram.org/api/channel) messages: channels.getMessages</a>
 
-* <a href="channels.getAdminedPublicChannels.html" name="channels.getAdminedPublicChannels">Get [channels/supergroups/geogroups](https://core.telegram.org/api/channel) we're admin in. Usually called when the user exceeds the [limit](../constructors/config.md) for owned public [channels/supergroups/geogroups](https://core.telegram.org/api/channel), and the user is given the choice to remove one of his channels/supergroups/geogroups.: channels.getAdminedPublicChannels</a>
+* <a href="channels.getAdminedPublicChannels.html" name="channels.getAdminedPublicChannels">Get [channels/supergroups/geogroups](https://core.telegram.org/api/channel) we're admin in. Usually called when the user exceeds the [limit](../constructors/config.md) for owned public [channels/supergroups/geogroups](https://core.telegram.org/api/channel), and the user is given the choice to remove one of his channels/supergroups/geogroups: channels.getAdminedPublicChannels</a>
 
 * <a href="messages.getWebPage.html" name="messages.getWebPage">Get [instant view](https://instantview.telegram.org) page: messages.getWebPage</a>
 
@@ -166,7 +166,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getCommonChats.html" name="messages.getCommonChats">Get chats in common with a user: messages.getCommonChats</a>
 
-* <a href="help.getCdnConfig.html" name="help.getCdnConfig">Get configuration for [CDN](https://core.telegram.org/cdn) file downloads.: help.getCdnConfig</a>
+* <a href="help.getCdnConfig.html" name="help.getCdnConfig">Get configuration for [CDN](https://core.telegram.org/cdn) file downloads: help.getCdnConfig</a>
 
 * <a href="account.getAccountTTL.html" name="account.getAccountTTL">Get days to live of account: account.getAccountTTL</a>
 
@@ -240,19 +240,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getHistory.html" name="messages.getHistory">Gets back the conversation history with one interlocutor / within a chat: messages.getHistory</a>
 
-* <a href="account.getNotifySettings.html" name="account.getNotifySettings">Gets current notification settings for a given user/group, from all users/all groups.: account.getNotifySettings</a>
+* <a href="account.getNotifySettings.html" name="account.getNotifySettings">Gets current notification settings for a given user/group, from all users/all groups: account.getNotifySettings</a>
 
 * <a href="messages.hideReportSpam.html" name="messages.hideReportSpam">Hide report spam popup: messages.hideReportSpam</a>
 
 * <a href="channels.togglePreHistoryHidden.html" name="channels.togglePreHistoryHidden">Hide/unhide message history for new channel/supergroup users: channels.togglePreHistoryHidden</a>
 
-* <a href="messages.setBotShippingResults.html" name="messages.setBotShippingResults">If you sent an invoice requesting a shipping address and the parameter is\_flexible was specified, the bot will receive an [updateBotShippingQuery](../constructors/updateBotShippingQuery.md) update. Use this method to reply to shipping queries.: messages.setBotShippingResults</a>
+* <a href="messages.setBotShippingResults.html" name="messages.setBotShippingResults">If you sent an invoice requesting a shipping address and the parameter is\_flexible was specified, the bot will receive an [updateBotShippingQuery](../constructors/updateBotShippingQuery.md) update. Use this method to reply to shipping queries: messages.setBotShippingResults</a>
 
 * <a href="messages.importChatInvite.html" name="messages.importChatInvite">Import a chat invite and join a private chat/supergroup/channel: messages.importChatInvite</a>
 
 * <a href="contacts.importCard.html" name="contacts.importCard">Import card as contact: contacts.importCard</a>
 
-* <a href="contacts.importContacts.html" name="contacts.importContacts">Imports contacts: saves a full list on the server, adds already registered contacts to the contact list, returns added contacts and their info.: contacts.importContacts</a>
+* <a href="contacts.importContacts.html" name="contacts.importContacts">Imports contacts: saves a full list on the server, adds already registered contacts to the contact list, returns added contacts and their info: contacts.importContacts</a>
 
 * <a href="help.setBotUpdatesStatus.html" name="help.setBotUpdatesStatus">Informs the server about the number of pending bot updates if they haven't been processed for a long time; for bots only: help.setBotUpdatesStatus</a>
 
@@ -260,19 +260,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.installStickerSet.html" name="messages.installStickerSet">Install a stickerset: messages.installStickerSet</a>
 
-* <a href="photos.updateProfilePhoto.html" name="photos.updateProfilePhoto">Installs a previously uploaded photo as a profile photo.: photos.updateProfilePhoto</a>
+* <a href="photos.updateProfilePhoto.html" name="photos.updateProfilePhoto">Installs a previously uploaded photo as a profile photo: photos.updateProfilePhoto</a>
 
 * <a href="auth.sendInvites.html" name="auth.sendInvites">Invite friends to telegram!: auth.sendInvites</a>
 
 * <a href="channels.inviteToChannel.html" name="channels.inviteToChannel">Invite users to a channel/supergroup: channels.inviteToChannel</a>
 
-* <a href="invokeWithoutUpdates.html" name="invokeWithoutUpdates">Invoke a request without subscribing the used connection for [updates](https://core.telegram.org/api/updates) (this is enabled by default for [file queries](https://core.telegram.org/api/files)).: invokeWithoutUpdates</a>
+* <a href="invokeWithoutUpdates.html" name="invokeWithoutUpdates">Invoke a request without subscribing the used connection for [updates](https://core.telegram.org/api/updates) (this is enabled by default for [file queries](https://core.telegram.org/api/files)): invokeWithoutUpdates</a>
 
 * <a href="invokeWithLayer.html" name="invokeWithLayer">Invoke the specified query using the specified API [layer](https://core.telegram.org/api/invoking#layers): invokeWithLayer</a>
 
 * <a href="invokeAfterMsgs.html" name="invokeAfterMsgs">Invokes a query after a successfull completion of previous queries: invokeAfterMsgs</a>
 
-* <a href="invokeAfterMsg.html" name="invokeAfterMsg">Invokes a query after successfull completion of one of the previous queries.: invokeAfterMsg</a>
+* <a href="invokeAfterMsg.html" name="invokeAfterMsg">Invokes a query after successfull completion of one of the previous queries: invokeAfterMsg</a>
 
 * <a href="channels.joinChannel.html" name="channels.joinChannel">Join a channel/supergroup: channels.joinChannel</a>
 
@@ -280,7 +280,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.resetAuthorization.html" name="account.resetAuthorization">Log out an active [authorized session](https://core.telegram.org/api/auth) by its hash: account.resetAuthorization</a>
 
-* <a href="messages.editChatAdmin.html" name="messages.editChatAdmin">Make a user admin in a [legacy group](https://core.telegram.org/api/channel).: messages.editChatAdmin</a>
+* <a href="messages.editChatAdmin.html" name="messages.editChatAdmin">Make a user admin in a [legacy group](https://core.telegram.org/api/channel): messages.editChatAdmin</a>
 
 * <a href="channels.readHistory.html" name="channels.readHistory">Mark [channel/supergroup](https://core.telegram.org/api/channel) history as read: channels.readHistory</a>
 
@@ -292,23 +292,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.readFeaturedStickers.html" name="messages.readFeaturedStickers">Mark new featured stickers as read: messages.readFeaturedStickers</a>
 
-* <a href="messages.readHistory.html" name="messages.readHistory">Marks message history as read.: messages.readHistory</a>
+* <a href="messages.readHistory.html" name="messages.readHistory">Marks message history as read: messages.readHistory</a>
 
-* <a href="messages.readEncryptedHistory.html" name="messages.readEncryptedHistory">Marks message history within a secret chat as read.: messages.readEncryptedHistory</a>
+* <a href="messages.readEncryptedHistory.html" name="messages.readEncryptedHistory">Marks message history within a secret chat as read: messages.readEncryptedHistory</a>
 
-* <a href="channels.editAdmin.html" name="channels.editAdmin">Modify the admin rights of a user in a [supergroup/channel](https://core.telegram.org/api/channel).: channels.editAdmin</a>
+* <a href="channels.editAdmin.html" name="channels.editAdmin">Modify the admin rights of a user in a [supergroup/channel](https://core.telegram.org/api/channel): channels.editAdmin</a>
 
-* <a href="messages.readMessageContents.html" name="messages.readMessageContents">Notifies the sender about the recipient having listened a voice message or watched a video.: messages.readMessageContents</a>
+* <a href="messages.readMessageContents.html" name="messages.readMessageContents">Notifies the sender about the recipient having listened a voice message or watched a video: messages.readMessageContents</a>
 
 * <a href="messages.sendScreenshotNotification.html" name="messages.sendScreenshotNotification">Notify the other user in a private chat that a screenshot of the chat was taken: messages.sendScreenshotNotification</a>
 
 * <a href="account.getPassword.html" name="account.getPassword">Obtain configuration for two-factor authorization with password: account.getPassword</a>
 
-* <a href="messages.setBotPrecheckoutResults.html" name="messages.setBotPrecheckoutResults">Once the user has confirmed their payment and shipping details, the bot receives an [updateBotPrecheckoutQuery](../constructors/updateBotPrecheckoutQuery.md) update.  
-Use this method to respond to such pre-checkout queries.  
-**Note**: Telegram must receive an answer within 10 seconds after the pre-checkout query was sent.: messages.setBotPrecheckoutResults</a>
+* <a href="messages.setBotPrecheckoutResults.html" name="messages.setBotPrecheckoutResults">Once the user has confirmed their payment and shipping details, the bot receives an [updateBotPrecheckoutQuery](../constructors/updateBotPrecheckoutQuery.md) update.  : messages.setBotPrecheckoutResults</a>
 
-* <a href="phone.receivedCall.html" name="phone.receivedCall">Optional: notify the server that the user is currently busy in a call: this will automatically refuse all incoming phone calls until the current phone call is ended.: phone.receivedCall</a>
+* <a href="phone.receivedCall.html" name="phone.receivedCall">Optional: notify the server that the user is currently busy in a call: this will automatically refuse all incoming phone calls until the current phone call is ended: phone.receivedCall</a>
 
 * <a href="messages.toggleDialogPin.html" name="messages.toggleDialogPin">Pin/unpin a dialog: messages.toggleDialogPin</a>
 
@@ -320,7 +318,7 @@ Use this method to respond to such pre-checkout queries.
 
 * <a href="account.registerDevice.html" name="account.registerDevice">Register device to receive [PUSH notifications](https://core.telegram.org/api/push-updates): account.registerDevice</a>
 
-* <a href="stickers.removeStickerFromSet.html" name="stickers.removeStickerFromSet">Remove a sticker from the set where it belongs, bots only. The sticker set must have been created by the bot.: stickers.removeStickerFromSet</a>
+* <a href="stickers.removeStickerFromSet.html" name="stickers.removeStickerFromSet">Remove a sticker from the set where it belongs, bots only. The sticker set must have been created by the bot: stickers.removeStickerFromSet</a>
 
 * <a href="messages.reorderStickerSets.html" name="messages.reorderStickerSets">Reorder installed stickersets: messages.reorderStickerSets</a>
 
@@ -334,53 +332,53 @@ Use this method to respond to such pre-checkout queries.
 
 * <a href="channels.reportSpam.html" name="channels.reportSpam">Reports some messages from a user in a supergroup as spam; requires administrator rights in the supergroup: channels.reportSpam</a>
 
-* <a href="auth.requestPasswordRecovery.html" name="auth.requestPasswordRecovery">Request recovery code of a [2FA password](https://core.telegram.org/api/srp), only for accounts with a [recovery email configured](https://core.telegram.org/api/srp#email-verification).: auth.requestPasswordRecovery</a>
+* <a href="auth.requestPasswordRecovery.html" name="auth.requestPasswordRecovery">Request recovery code of a [2FA password](https://core.telegram.org/api/srp), only for accounts with a [recovery email configured](https://core.telegram.org/api/srp#email-verification): auth.requestPasswordRecovery</a>
 
-* <a href="auth.resendCode.html" name="auth.resendCode">Resend the login code via another medium, the phone code type is determined by the return value of the previous auth.sendCode/auth.resendCode: see [login](https://core.telegram.org/api/auth) for more info.: auth.resendCode</a>
+* <a href="auth.resendCode.html" name="auth.resendCode">Resend the login code via another medium, the phone code type is determined by the return value of the previous auth.sendCode/auth.resendCode: see [login](https://core.telegram.org/api/auth) for more info: auth.resendCode</a>
 
 * <a href="contacts.resetTopPeerRating.html" name="contacts.resetTopPeerRating">Reset [rating](https://core.telegram.org/api/top-rating) of top peer: contacts.resetTopPeerRating</a>
 
-* <a href="auth.recoverPassword.html" name="auth.recoverPassword">Reset the [2FA password](https://core.telegram.org/api/srp) using the recovery code sent using [auth.requestPasswordRecovery](../methods/auth.requestPasswordRecovery.md).: auth.recoverPassword</a>
+* <a href="auth.recoverPassword.html" name="auth.recoverPassword">Reset the [2FA password](https://core.telegram.org/api/srp) using the recovery code sent using [auth.requestPasswordRecovery](../methods/auth.requestPasswordRecovery.md): auth.recoverPassword</a>
 
-* <a href="account.resetNotifySettings.html" name="account.resetNotifySettings">Resets all notification settings from users and groups.: account.resetNotifySettings</a>
+* <a href="account.resetNotifySettings.html" name="account.resetNotifySettings">Resets all notification settings from users and groups: account.resetNotifySettings</a>
 
-* <a href="account.getWallPapers.html" name="account.getWallPapers">Returns a list of available wallpapers.: account.getWallPapers</a>
+* <a href="account.getWallPapers.html" name="account.getWallPapers">Returns a list of available wallpapers: account.getWallPapers</a>
 
-* <a href="users.getUsers.html" name="users.getUsers">Returns basic user info according to their identifiers.: users.getUsers</a>
+* <a href="users.getUsers.html" name="users.getUsers">Returns basic user info according to their identifiers: users.getUsers</a>
 
-* <a href="messages.getChats.html" name="messages.getChats">Returns chat basic info on their IDs.: messages.getChats</a>
+* <a href="messages.getChats.html" name="messages.getChats">Returns chat basic info on their IDs: messages.getChats</a>
 
-* <a href="upload.getWebFile.html" name="upload.getWebFile">Returns content of an HTTP file or a part, by proxying the request through telegram.: upload.getWebFile</a>
+* <a href="upload.getWebFile.html" name="upload.getWebFile">Returns content of an HTTP file or a part, by proxying the request through telegram: upload.getWebFile</a>
 
-* <a href="help.getConfig.html" name="help.getConfig">Returns current configuration, icluding data center configuration.: help.getConfig</a>
+* <a href="help.getConfig.html" name="help.getConfig">Returns current configuration, icluding data center configuration: help.getConfig</a>
 
-* <a href="help.getNearestDc.html" name="help.getNearestDc">Returns info on data centre nearest to the user.: help.getNearestDc</a>
+* <a href="help.getNearestDc.html" name="help.getNearestDc">Returns info on data centre nearest to the user: help.getNearestDc</a>
 
-* <a href="help.getAppUpdate.html" name="help.getAppUpdate">Returns information on update availability for the current application.: help.getAppUpdate</a>
+* <a href="help.getAppUpdate.html" name="help.getAppUpdate">Returns information on update availability for the current application: help.getAppUpdate</a>
 
-* <a href="help.getInviteText.html" name="help.getInviteText">Returns text of a text message with an invitation.: help.getInviteText</a>
+* <a href="help.getInviteText.html" name="help.getInviteText">Returns text of a text message with an invitation: help.getInviteText</a>
 
-* <a href="messages.getDialogs.html" name="messages.getDialogs">Returns the current user dialog list.: messages.getDialogs</a>
+* <a href="messages.getDialogs.html" name="messages.getDialogs">Returns the current user dialog list: messages.getDialogs</a>
 
-* <a href="contacts.getContacts.html" name="contacts.getContacts">Returns the current user's contact list.: contacts.getContacts</a>
+* <a href="contacts.getContacts.html" name="contacts.getContacts">Returns the current user's contact list: contacts.getContacts</a>
 
-* <a href="contacts.getBlocked.html" name="contacts.getBlocked">Returns the list of blocked users.: contacts.getBlocked</a>
+* <a href="contacts.getBlocked.html" name="contacts.getBlocked">Returns the list of blocked users: contacts.getBlocked</a>
 
-* <a href="contacts.getStatuses.html" name="contacts.getStatuses">Returns the list of contact statuses.: contacts.getStatuses</a>
+* <a href="contacts.getStatuses.html" name="contacts.getStatuses">Returns the list of contact statuses: contacts.getStatuses</a>
 
-* <a href="messages.getMessages.html" name="messages.getMessages">Returns the list of messages by their IDs.: messages.getMessages</a>
+* <a href="messages.getMessages.html" name="messages.getMessages">Returns the list of messages by their IDs: messages.getMessages</a>
 
-* <a href="photos.getUserPhotos.html" name="photos.getUserPhotos">Returns the list of user photos.: photos.getUserPhotos</a>
+* <a href="photos.getUserPhotos.html" name="photos.getUserPhotos">Returns the list of user photos: photos.getUserPhotos</a>
 
-* <a href="help.getSupport.html" name="help.getSupport">Returns the support user for the 'ask a question' feature.: help.getSupport</a>
+* <a href="help.getSupport.html" name="help.getSupport">Returns the support user for the 'ask a question' feature: help.getSupport</a>
 
-* <a href="contacts.search.html" name="contacts.search">Returns users found by username substring.: contacts.search</a>
+* <a href="contacts.search.html" name="contacts.search">Returns users found by username substring: contacts.search</a>
 
-* <a href="messages.saveDraft.html" name="messages.saveDraft">Save a message [draft](https://core.telegram.org/api/drafts) associated to a chat.: messages.saveDraft</a>
+* <a href="messages.saveDraft.html" name="messages.saveDraft">Save a message [draft](https://core.telegram.org/api/drafts) associated to a chat: messages.saveDraft</a>
 
-* <a href="messages.getAllDrafts.html" name="messages.getAllDrafts">Save get all message [drafts](https://core.telegram.org/api/drafts).: messages.getAllDrafts</a>
+* <a href="messages.getAllDrafts.html" name="messages.getAllDrafts">Save get all message [drafts](https://core.telegram.org/api/drafts): messages.getAllDrafts</a>
 
-* <a href="help.saveAppLog.html" name="help.saveAppLog">Saves logs of application on the server.: help.saveAppLog</a>
+* <a href="help.saveAppLog.html" name="help.saveAppLog">Saves logs of application on the server: help.saveAppLog</a>
 
 * <a href="messages.searchGifs.html" name="messages.searchGifs">Search for GIFs: messages.searchGifs</a>
 
@@ -388,7 +386,7 @@ Use this method to respond to such pre-checkout queries.
 
 * <a href="messages.sendMedia.html" name="messages.sendMedia">Send a media: messages.sendMedia</a>
 
-* <a href="messages.sendInlineBotResult.html" name="messages.sendInlineBotResult">Send a result obtained using [messages.getInlineBotResults](../methods/messages.getInlineBotResults.md).: messages.sendInlineBotResult</a>
+* <a href="messages.sendInlineBotResult.html" name="messages.sendInlineBotResult">Send a result obtained using [messages.getInlineBotResults](../methods/messages.getInlineBotResults.md): messages.sendInlineBotResult</a>
 
 * <a href="messages.sendMultiMedia.html" name="messages.sendMultiMedia">Send an album of media: messages.sendMultiMedia</a>
 
@@ -398,9 +396,9 @@ Use this method to respond to such pre-checkout queries.
 
 * <a href="phone.saveCallDebug.html" name="phone.saveCallDebug">Send phone call debug data to server: phone.saveCallDebug</a>
 
-* <a href="messages.setEncryptedTyping.html" name="messages.setEncryptedTyping">Send typing event by the current user to a secret chat.: messages.setEncryptedTyping</a>
+* <a href="messages.setEncryptedTyping.html" name="messages.setEncryptedTyping">Send typing event by the current user to a secret chat: messages.setEncryptedTyping</a>
 
-* <a href="messages.setTyping.html" name="messages.setTyping">Sends a current user typing event (see [SendMessageAction](../types/SendMessageAction.md) for all event types) to a conversation partner or group.: messages.setTyping</a>
+* <a href="messages.setTyping.html" name="messages.setTyping">Sends a current user typing event (see [SendMessageAction](../types/SendMessageAction.md) for all event types) to a conversation partner or group: messages.setTyping</a>
 
 * <a href="bots.sendCustomRequest.html" name="bots.sendCustomRequest">Sends a custom request; for bots only: bots.sendCustomRequest</a>
 
@@ -408,9 +406,9 @@ Use this method to respond to such pre-checkout queries.
 
 * <a href="messages.sendEncryptedFile.html" name="messages.sendEncryptedFile">Sends a message with a file attachment to a secret chat: messages.sendEncryptedFile</a>
 
-* <a href="messages.sendEncryptedService.html" name="messages.sendEncryptedService">Sends a service message to a secret chat.: messages.sendEncryptedService</a>
+* <a href="messages.sendEncryptedService.html" name="messages.sendEncryptedService">Sends a service message to a secret chat: messages.sendEncryptedService</a>
 
-* <a href="messages.sendEncrypted.html" name="messages.sendEncrypted">Sends a text message to a secret chat.: messages.sendEncrypted</a>
+* <a href="messages.sendEncrypted.html" name="messages.sendEncrypted">Sends a text message to a secret chat: messages.sendEncrypted</a>
 
 * <a href="account.setAccountTTL.html" name="account.setAccountTTL">Set account self-destruction period: account.setAccountTTL</a>
 
@@ -422,33 +420,31 @@ Use this method to respond to such pre-checkout queries.
 
 * <a href="payments.validateRequestedInfo.html" name="payments.validateRequestedInfo">Submit requested order information for validation: payments.validateRequestedInfo</a>
 
-* <a href="auth.resetAuthorizations.html" name="auth.resetAuthorizations">Terminates all user's authorized sessions except for the current one.
-
-After calling this method it is necessary to reregister the current device using the method [account.registerDevice](../methods/account.registerDevice.md): auth.resetAuthorizations</a>
+* <a href="auth.resetAuthorizations.html" name="auth.resetAuthorizations">Terminates all user's authorized sessions except for the current one: auth.resetAuthorizations</a>
 
 * <a href="messages.migrateChat.html" name="messages.migrateChat">Turn a [legacy group into a supergroup](https://core.telegram.org/api/channel): messages.migrateChat</a>
 
 * <a href="messages.uninstallStickerSet.html" name="messages.uninstallStickerSet">Uninstall a stickerset: messages.uninstallStickerSet</a>
 
-* <a href="photos.uploadProfilePhoto.html" name="photos.uploadProfilePhoto">Updates current user profile photo.: photos.uploadProfilePhoto</a>
+* <a href="photos.uploadProfilePhoto.html" name="photos.uploadProfilePhoto">Updates current user profile photo: photos.uploadProfilePhoto</a>
 
-* <a href="account.updateStatus.html" name="account.updateStatus">Updates online user status.: account.updateStatus</a>
+* <a href="account.updateStatus.html" name="account.updateStatus">Updates online user status: account.updateStatus</a>
 
-* <a href="account.updateProfile.html" name="account.updateProfile">Updates user profile.: account.updateProfile</a>
+* <a href="account.updateProfile.html" name="account.updateProfile">Updates user profile: account.updateProfile</a>
 
 * <a href="messages.uploadMedia.html" name="messages.uploadMedia">Upload a file and associate it to a chat (without actually sending it to the chat): messages.uploadMedia</a>
 
 * <a href="messages.uploadEncryptedFile.html" name="messages.uploadEncryptedFile">Upload encrypted file and associate it to a secret chat: messages.uploadEncryptedFile</a>
 
-* <a href="messages.setGameScore.html" name="messages.setGameScore">Use this method to set the score of the specified user in a game sent as a normal message (bots only).: messages.setGameScore</a>
+* <a href="messages.setGameScore.html" name="messages.setGameScore">Use this method to set the score of the specified user in a game sent as a normal message (bots only): messages.setGameScore</a>
 
-* <a href="messages.setInlineGameScore.html" name="messages.setInlineGameScore">Use this method to set the score of the specified user in a game sent as an inline message (bots only).: messages.setInlineGameScore</a>
+* <a href="messages.setInlineGameScore.html" name="messages.setInlineGameScore">Use this method to set the score of the specified user in a game sent as an inline message (bots only): messages.setInlineGameScore</a>
 
-* <a href="account.checkUsername.html" name="account.checkUsername">Validates a username and checks availability.: account.checkUsername</a>
+* <a href="account.checkUsername.html" name="account.checkUsername">Validates a username and checks availability: account.checkUsername</a>
 
 * <a href="account.sendChangePhoneCode.html" name="account.sendChangePhoneCode">Verify a new phone number to associate to the current account: account.sendChangePhoneCode</a>
 
-* <a href="account.updateDeviceLocked.html" name="account.updateDeviceLocked">When client-side passcode lock feature is enabled, will not show message texts in incoming [PUSH notifications](https://core.telegram.org/api/push-updates).: account.updateDeviceLocked</a>
+* <a href="account.updateDeviceLocked.html" name="account.updateDeviceLocked">When client-side passcode lock feature is enabled, will not show message texts in incoming [PUSH notifications](https://core.telegram.org/api/push-updates): account.updateDeviceLocked</a>
 
 * <a href="auth.bindTempAuthKey.html" name="auth.bindTempAuthKey">You cannot use this method directly, instead modify the PFS and default_temp_auth_key_expires_in settings, see https://docs.madelineproto.xyz/docs/SETTINGS.html for more info: auth.bindTempAuthKey</a>
 
