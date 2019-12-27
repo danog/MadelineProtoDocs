@@ -48,7 +48,7 @@ composer.json:
     "description": "Project description",
     "type": "project",
     "require": {
-        "danog/madelineproto": "dev-master",
+        "danog/madelineproto": "^4",
         "amphp/dns": "dev-master#aa1892bd as 0.9",
     },
     "repositories": [
