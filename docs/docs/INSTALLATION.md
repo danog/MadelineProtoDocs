@@ -48,7 +48,7 @@ composer.json:
     "description": "Project description",
     "type": "project",
     "require": {
-        "danog/madelineproto": "^4",
+        "danog/madelineproto": "^5.0",
     },
     "minimum-stability": "dev",
     "license": "AGPL-3.0-only",
