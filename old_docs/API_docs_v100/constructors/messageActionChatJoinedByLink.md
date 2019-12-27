@@ -1,6 +1,6 @@
 ---
 title: messageActionChatJoinedByLink
-description: Message action chat joined by link
+description: A user joined the chat via an invite link
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChatJoinedByLink  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message action chat joined by link
+A user joined the chat via an invite link
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|inviter\_id|[int](../types/int.md) | Yes|Inviter ID|
+|inviter\_id|[int](../types/int.md) | Yes|ID of the user that created the invite link|
 
 
 

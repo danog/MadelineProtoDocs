@@ -1,6 +1,6 @@
 ---
 title: updates.differenceSlice
-description: Difference slice
+description: Incomplete list of occurred events.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updates.differenceSlice  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Difference slice
+Incomplete list of occurred events.
 
 ### Attributes:
 
@@ -19,7 +19,7 @@ Difference slice
 |other\_updates|Array of [Update](../types/Update.md) | Yes|Other updates|
 |chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
 |users|Array of [User](../types/User.md) | Yes|Users|
-|intermediate\_state|[updates\_State](../types/updates_State.md) | Yes|Intermediate state|
+|intermediate\_state|[updates\_State](../types/updates_State.md) | Yes|Intermediary state|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: inlineBotSwitchPM
-description: Inline bot switch pm
+description: The bot requested the user to message him in private
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inlineBotSwitchPM  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Inline bot switch pm
+The bot requested the user to message him in private
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|text|[string](../types/string.md) | Yes|Text|
-|start\_param|[string](../types/string.md) | Yes|Start param|
+|text|[string](../types/string.md) | Yes|Text for the button that switches the user to a private chat with the bot and sends the bot a start message with the parameter `start_parameter` (can be empty)|
+|start\_param|[string](../types/string.md) | Yes|The parameter for the `/start parameter`|
 
 
 

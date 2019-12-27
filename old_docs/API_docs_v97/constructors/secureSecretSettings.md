@@ -1,6 +1,6 @@
 ---
 title: secureSecretSettings
-description: Secure secret settings
+description: Secure settings
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureSecretSettings  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Secure secret settings
+Secure settings
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|secure\_algo|[SecurePasswordKdfAlgo](../types/SecurePasswordKdfAlgo.md) | Yes|Secure algo|
+|secure\_algo|[SecurePasswordKdfAlgo](../types/SecurePasswordKdfAlgo.md) | Yes|Secure KDF algo|
 |secure\_secret|[bytes](../types/bytes.md) | Yes|Secure secret|
-|secure\_secret\_id|[long](../types/long.md) | Yes|Secure secret ID|
+|secure\_secret\_id|[long](../types/long.md) | Yes|Secret ID|
 
 
 

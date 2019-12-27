@@ -1,6 +1,6 @@
 ---
 title: inputEncryptedFileUploaded
-description: Encrypted file uploaded
+description: Sets new encrypted file saved by parts using upload.saveFilePart method.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputEncryptedFileUploaded  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Encrypted file uploaded
+Sets new encrypted file saved by parts using upload.saveFilePart method.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID|
-|parts|[int](../types/int.md) | Yes|Parts|
-|md5\_checksum|[string](../types/string.md) | Yes|Md5 checksum|
-|key\_fingerprint|[int](../types/int.md) | Yes|Key fingerprint|
+|id|[long](../types/long.md) | Yes|Random file ID created by clien|
+|parts|[int](../types/int.md) | Yes|Number of saved parts|
+|md5\_checksum|[string](../types/string.md) | Yes|In case [md5-HASH](https://en.wikipedia.org/wiki/MD5) of the (already encrypted) file was transmitted, file content will be checked prior to use|
+|key\_fingerprint|[int](../types/int.md) | Yes|32-bit fingerprint of the key used to encrypt a file|
 
 
 

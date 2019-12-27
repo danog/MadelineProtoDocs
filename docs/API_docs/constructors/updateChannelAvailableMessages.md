@@ -1,6 +1,6 @@
 ---
 title: updateChannelAvailableMessages
-description: Update channel available messages
+description: The history of a [channel/supergroup](https://core.telegram.org/api/channel) was hidden.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelAvailableMessages  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update channel available messages
+The history of a [channel/supergroup](https://core.telegram.org/api/channel) was hidden.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[int](../types/int.md) | Yes|Channel ID|
-|available\_min\_id|[int](../types/int.md) | Yes|Available min ID|
+|channel\_id|[int](../types/int.md) | Yes|Channel/supergroup ID|
+|available\_min\_id|[int](../types/int.md) | Yes|Identifier of a maximum unavailable message in a channel due to hidden history.|
 
 
 

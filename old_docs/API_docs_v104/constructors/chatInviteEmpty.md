@@ -1,6 +1,6 @@
 ---
 title: chatInviteEmpty
-description: Empty chat invite
+description: No info is associated to the chat invite
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatInviteEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty chat invite
+No info is associated to the chat invite
 
 
 

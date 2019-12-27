@@ -8,8 +8,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Describes last time user was online
-
 ### Possible values (constructors):
 
 [userStatusEmpty](../constructors/userStatusEmpty.md)  

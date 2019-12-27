@@ -1,6 +1,6 @@
 ---
 title: updateReadFeaturedStickers
-description: Update read featured stickers
+description: Some featured stickers were marked as read
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateReadFeaturedStickers  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update read featured stickers
+Some featured stickers were marked as read
 
 
 

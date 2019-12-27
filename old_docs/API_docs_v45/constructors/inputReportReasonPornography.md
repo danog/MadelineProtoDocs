@@ -1,6 +1,6 @@
 ---
 title: inputReportReasonPornography
-description: Report reason pornography
+description: Report for pornography
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputReportReasonPornography  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Report reason pornography
+Report for pornography
 
 
 

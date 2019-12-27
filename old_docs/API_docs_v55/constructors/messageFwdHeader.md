@@ -1,6 +1,6 @@
 ---
 title: messageFwdHeader
-description: Forwarded message info
+description: Info about a forwarded message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageFwdHeader  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Forwarded message info
+Info about a forwarded message
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|from\_id|[int](../types/int.md) | Optional|From ID|
-|date|[int](../types/int.md) | Yes|Date|
-|channel\_id|[int](../types/int.md) | Optional|Channel ID|
-|channel\_post|[int](../types/int.md) | Optional|Channel post|
+|from\_id|[int](../types/int.md) | Optional|The ID of the user that originally sent the message|
+|date|[int](../types/int.md) | Yes|When was the message originally sent|
+|channel\_id|[int](../types/int.md) | Optional|ID of the channel from which the message was forwarded|
+|channel\_post|[int](../types/int.md) | Optional|ID of the channel message that was forwarded|
 
 
 

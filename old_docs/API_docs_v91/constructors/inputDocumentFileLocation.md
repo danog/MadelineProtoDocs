@@ -1,6 +1,6 @@
 ---
 title: inputDocumentFileLocation
-description: Document file location
+description: Document location (video, voice, audio, basically every type except photo)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputDocumentFileLocation  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Document file location
+Document location (video, voice, audio, basically every type except photo)
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID|
-|access\_hash|[long](../types/long.md) | Yes|Access hash|
-|file\_reference|[bytes](../types/bytes.md) | Yes|File reference|
+|id|[long](../types/long.md) | Yes|Document ID|
+|access\_hash|[long](../types/long.md) | Yes|**access\_hash** parameter from the [document](../constructors/document.md) constructor|
+|file\_reference|[bytes](../types/bytes.md) | Yes|[File reference](https://core.telegram.org/api/file_reference)|
 
 
 

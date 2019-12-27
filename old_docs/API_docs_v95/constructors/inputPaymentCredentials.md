@@ -14,8 +14,8 @@ Payment credentials
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|save|[Bool](../types/Bool.md) | Optional|Save?|
-|data|[DataJSON](../types/DataJSON.md) | Yes|Data|
+|save|[Bool](../types/Bool.md) | Optional|Save payment credential for future use|
+|data|[DataJSON](../types/DataJSON.md) | Yes|Payment credentials|
 
 
 

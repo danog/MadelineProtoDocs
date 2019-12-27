@@ -1,6 +1,6 @@
 ---
 title: inputDocumentEmpty
-description: Empty input document
+description: Empty constructor.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputDocumentEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty input document
+Empty constructor.
 
 
 

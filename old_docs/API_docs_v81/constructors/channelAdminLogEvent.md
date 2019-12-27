@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEvent
-description: Channel admin log event
+description: Admin log event
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEvent  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Channel admin log event
+Admin log event
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID|
+|id|[long](../types/long.md) | Yes|Event ID|
 |date|[int](../types/int.md) | Yes|Date|
 |user\_id|[int](../types/int.md) | Yes|User ID|
 |action|[ChannelAdminLogEventAction](../types/ChannelAdminLogEventAction.md) | Yes|Action|

@@ -14,13 +14,13 @@ Autodownload settings
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|disabled|[Bool](../types/Bool.md) | Optional|Disabled?|
-|video\_preload\_large|[Bool](../types/Bool.md) | Optional|Preload large videos?|
-|audio\_preload\_next|[Bool](../types/Bool.md) | Optional|Preload audios?|
-|phonecalls\_less\_data|[Bool](../types/Bool.md) | Optional|Use less data in phonecalls?|
-|photo\_size\_max|[int](../types/int.md) | Yes|Maximum photo file size to preload|
-|video\_size\_max|[int](../types/int.md) | Yes|Maximum video file size to preload|
-|file\_size\_max|[int](../types/int.md) | Yes|Maximum file size to preload|
+|disabled|[Bool](../types/Bool.md) | Optional|Disable automatic media downloads?|
+|video\_preload\_large|[Bool](../types/Bool.md) | Optional|Whether to preload the first seconds of videos larger than the specified limit|
+|audio\_preload\_next|[Bool](../types/Bool.md) | Optional|Whether to preload the next audio track when you're listening to music|
+|phonecalls\_less\_data|[Bool](../types/Bool.md) | Optional|Whether to enable data saving mode in phone calls|
+|photo\_size\_max|[int](../types/int.md) | Yes|Maximum size of photos to preload|
+|video\_size\_max|[int](../types/int.md) | Yes|Maximum size of videos to preload|
+|file\_size\_max|[int](../types/int.md) | Yes|Maximum size of other files to preload|
 
 
 

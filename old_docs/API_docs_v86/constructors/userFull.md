@@ -1,6 +1,6 @@
 ---
 title: userFull
-description: User full
+description: Extended user info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userFull  
@@ -8,22 +8,22 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-User full
+Extended user info
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|blocked|[Bool](../types/Bool.md) | Optional|Blocked?|
-|phone\_calls\_available|[Bool](../types/Bool.md) | Optional|Phone calls available?|
-|phone\_calls\_private|[Bool](../types/Bool.md) | Optional|Phone calls private?|
-|user|[User](../types/User.md) | Optional|User|
-|about|[string](../types/string.md) | Optional|About|
+|blocked|[Bool](../types/Bool.md) | Optional|Whether you have blocked this user|
+|phone\_calls\_available|[Bool](../types/Bool.md) | Optional|Whether this user can make VoIP calls|
+|phone\_calls\_private|[Bool](../types/Bool.md) | Optional|Whether this user's privacy settings allow you to call him|
+|user|[User](../types/User.md) | Optional|Remaining user info|
+|about|[string](../types/string.md) | Optional|Bio of the user|
 |link|[contacts\_Link](../types/contacts_Link.md) | Yes|Link|
 |profile\_photo|[Photo](../types/Photo.md) | Optional|Profile photo|
-|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Yes|Notify settings|
-|bot\_info|[BotInfo](../types/BotInfo.md) | Optional|Bot info|
-|common\_chats\_count|[int](../types/int.md) | Yes|Common chats count|
+|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Yes|Notification settings|
+|bot\_info|[BotInfo](../types/BotInfo.md) | Optional|For bots, info about the bot (bot commands, etc)|
+|common\_chats\_count|[int](../types/int.md) | Yes|Chats in common with this user|
 
 
 

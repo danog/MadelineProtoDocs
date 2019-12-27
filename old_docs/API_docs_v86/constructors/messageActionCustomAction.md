@@ -1,6 +1,6 @@
 ---
 title: messageActionCustomAction
-description: Message action custom action
+description: Custom action (most likely not supported by the current layer, an upgrade might be needed)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionCustomAction  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message action custom action
+Custom action (most likely not supported by the current layer, an upgrade might be needed)
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|message|[string](../types/string.md) | Yes|Message|
+|message|[string](../types/string.md) | Yes|Action message|
 
 
 

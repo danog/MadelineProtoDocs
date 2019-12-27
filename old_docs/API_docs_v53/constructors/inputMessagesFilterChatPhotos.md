@@ -1,6 +1,6 @@
 ---
 title: inputMessagesFilterChatPhotos
-description: Messages filter chat photos
+description: Return only chat photo changes
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterChatPhotos  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Messages filter chat photos
+Return only chat photo changes
 
 
 

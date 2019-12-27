@@ -1,6 +1,6 @@
 ---
 title: jsonString
-description: Json string
+description: JSON string
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: jsonString  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Json string
+JSON string
 
 ### Attributes:
 

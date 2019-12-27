@@ -1,6 +1,6 @@
 ---
 title: langPackLanguage
-description: Lang pack language
+description: Identifies a localization pack
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: langPackLanguage  
@@ -8,23 +8,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Lang pack language
+Identifies a localization pack
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|official|[Bool](../types/Bool.md) | Optional|Official?|
-|rtl|[Bool](../types/Bool.md) | Optional|Rtl?|
-|beta|[Bool](../types/Bool.md) | Optional|Beta?|
-|name|[string](../types/string.md) | Yes|Name|
-|native\_name|[string](../types/string.md) | Yes|Native name|
-|lang\_code|[string](../types/string.md) | Yes|Lang code|
-|base\_lang\_code|[string](../types/string.md) | Optional|Base lang code|
-|plural\_code|[string](../types/string.md) | Yes|Plural code|
-|strings\_count|[int](../types/int.md) | Yes|Strings count|
-|translated\_count|[int](../types/int.md) | Yes|Translated count|
-|translations\_url|[string](../types/string.md) | Yes|Translations URL|
+|official|[Bool](../types/Bool.md) | Optional|Whether the language pack is official|
+|rtl|[Bool](../types/Bool.md) | Optional|Is this a localization pack for an RTL language|
+|beta|[Bool](../types/Bool.md) | Optional|Is this a beta localization pack?|
+|name|[string](../types/string.md) | Yes|Language name|
+|native\_name|[string](../types/string.md) | Yes|Language name in the language itself|
+|lang\_code|[string](../types/string.md) | Yes|Language code (pack identifier)|
+|base\_lang\_code|[string](../types/string.md) | Optional|Identifier of a base language pack; may be empty. If a string is missed in the language pack, then it should be fetched from base language pack. Unsupported in custom language packs|
+|plural\_code|[string](../types/string.md) | Yes|A language code to be used to apply plural forms. See [https://www.unicode.org/cldr/charts/latest/supplemental/language\_plural\_rules.html](https://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html) for more info|
+|strings\_count|[int](../types/int.md) | Yes|Total number of non-deleted strings from the language pack|
+|translated\_count|[int](../types/int.md) | Yes|Total number of translated strings from the language pack|
+|translations\_url|[string](../types/string.md) | Yes|Link to language translation interface; empty for custom local language packs|
 
 
 

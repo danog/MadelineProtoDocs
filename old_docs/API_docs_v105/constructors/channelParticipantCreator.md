@@ -1,6 +1,6 @@
 ---
 title: channelParticipantCreator
-description: Channel participant creator
+description: Channel/supergroup creator
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantCreator  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Channel participant creator
+Channel/supergroup creator
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |user\_id|[int](../types/int.md) | Yes|User ID|
-|rank|[string](../types/string.md) | Optional|Creator rank, an arbitrary string|
+|rank|[string](../types/string.md) | Optional|The role (rank) of the group creator in the group: just an arbitrary string, `admin` by default|
 
 
 

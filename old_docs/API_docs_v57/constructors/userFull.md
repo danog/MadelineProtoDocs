@@ -1,6 +1,6 @@
 ---
 title: userFull
-description: User full
+description: Extended user info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userFull  
@@ -8,19 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-User full
+Extended user info
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|blocked|[Bool](../types/Bool.md) | Optional|Blocked?|
-|user|[User](../types/User.md) | Optional|User|
-|about|[string](../types/string.md) | Optional|About|
+|blocked|[Bool](../types/Bool.md) | Optional|Whether you have blocked this user|
+|user|[User](../types/User.md) | Optional|Remaining user info|
+|about|[string](../types/string.md) | Optional|Bio of the user|
 |link|[contacts\_Link](../types/contacts_Link.md) | Yes|Link|
 |profile\_photo|[Photo](../types/Photo.md) | Optional|Profile photo|
-|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|Notify settings|
-|bot\_info|[BotInfo](../types/BotInfo.md) | Optional|Bot info|
+|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|Notification settings|
+|bot\_info|[BotInfo](../types/BotInfo.md) | Optional|For bots, info about the bot (bot commands, etc)|
 
 
 

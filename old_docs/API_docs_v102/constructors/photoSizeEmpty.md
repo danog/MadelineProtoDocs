@@ -1,6 +1,6 @@
 ---
 title: photoSizeEmpty
-description: Empty photo size
+description: Empty constructor. Image with this thumbnail is unavailable.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: photoSizeEmpty  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty photo size
+Empty constructor. Image with this thumbnail is unavailable.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|type|[string](../types/string.md) | Yes|Type|
+|type|[string](../types/string.md) | Yes|Thumbnail type (see. [photoSize](../constructors/photoSize.md))|
 
 
 

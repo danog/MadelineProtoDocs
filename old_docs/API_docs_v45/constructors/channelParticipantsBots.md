@@ -1,6 +1,6 @@
 ---
 title: channelParticipantsBots
-description: Channel participants bots
+description: Fetch only bot participants
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantsBots  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Channel participants bots
+Fetch only bot participants
 
 
 

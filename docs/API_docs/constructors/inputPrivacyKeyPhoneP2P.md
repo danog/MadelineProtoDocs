@@ -1,6 +1,6 @@
 ---
 title: inputPrivacyKeyPhoneP2P
-description: Privacy key phone p2p
+description: Whether the user allows P2P communication during VoIP calls
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPrivacyKeyPhoneP2P  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Privacy key phone p2p
+Whether the user allows P2P communication during VoIP calls
 
 
 

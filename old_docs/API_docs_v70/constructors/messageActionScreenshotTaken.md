@@ -1,6 +1,6 @@
 ---
 title: messageActionScreenshotTaken
-description: Message action screenshot taken
+description: A screenshot of the chat was taken
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionScreenshotTaken  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message action screenshot taken
+A screenshot of the chat was taken
 
 
 

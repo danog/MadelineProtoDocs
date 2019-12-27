@@ -1,6 +1,6 @@
 ---
 title: pageListOrderedItemText
-description: Page list ordered item text
+description: Ordered list of text items
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageListOrderedItemText  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page list ordered item text
+Ordered list of text items
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|num|[string](../types/string.md) | Yes|Num|
+|num|[string](../types/string.md) | Yes|Number of element within ordered list|
 |text|[RichText](../types/RichText.md) | Yes|Text|
 
 

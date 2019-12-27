@@ -1,6 +1,6 @@
 ---
 title: messages.sentEncryptedFile
-description: Sent encrypted file
+description: Message with a file enclosure sent to a protected chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.sentEncryptedFile  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Sent encrypted file
+Message with a file enclosure sent to a protected chat
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|date|[int](../types/int.md) | Yes|Date|
-|file|[EncryptedFile](../types/EncryptedFile.md) | Optional|File|
+|date|[int](../types/int.md) | Yes|Sending date|
+|file|[EncryptedFile](../types/EncryptedFile.md) | Optional|Attached file|
 
 
 

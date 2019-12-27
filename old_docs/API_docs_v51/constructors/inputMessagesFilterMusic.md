@@ -1,6 +1,6 @@
 ---
 title: inputMessagesFilterMusic
-description: Messages filter music
+description: Return only messages containing audio files
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterMusic  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Messages filter music
+Return only messages containing audio files
 
 
 

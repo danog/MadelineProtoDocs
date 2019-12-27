@@ -1,6 +1,6 @@
 ---
 title: pageBlockAnchor
-description: Page block anchor
+description: Link to section within the page itself (like `<a href="#target">anchor</a>`)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockAnchor  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page block anchor
+Link to section within the page itself (like `<a href="#target">anchor</a>`)
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|name|[string](../types/string.md) | Yes|Name|
+|name|[string](../types/string.md) | Yes|Name of target section|
 
 
 

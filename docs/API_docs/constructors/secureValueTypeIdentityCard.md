@@ -1,6 +1,6 @@
 ---
 title: secureValueTypeIdentityCard
-description: Secure value type IDentity card
+description: Identity card
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueTypeIdentityCard  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Secure value type IDentity card
+Identity card
 
 
 

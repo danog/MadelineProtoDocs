@@ -1,6 +1,6 @@
 ---
 title: pageBlockAudio
-description: Page block audio
+description: Audio
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockAudio  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page block audio
+Audio
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|audio\_id|[long](../types/long.md) | Yes|Audio ID|
-|caption|[PageCaption](../types/PageCaption.md) | Yes|Caption|
+|audio\_id|[long](../types/long.md) | Yes|Audio ID (to be fetched from the container [page](../constructors/page.md) constructor|
+|caption|[PageCaption](../types/PageCaption.md) | Yes|Audio caption|
 
 
 

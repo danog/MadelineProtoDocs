@@ -1,6 +1,6 @@
 ---
 title: pageBlockFooter
-description: Page block footer
+description: Page footer
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockFooter  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page block footer
+Page footer
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|text|[RichText](../types/RichText.md) | Yes|Text|
+|text|[RichText](../types/RichText.md) | Yes|Contents|
 
 
 

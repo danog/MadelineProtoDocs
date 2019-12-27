@@ -1,6 +1,6 @@
 ---
 title: pageBlockEmbed
-description: Page block embed
+description: An embedded webpage
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockEmbed  
@@ -8,19 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page block embed
+An embedded webpage
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|full\_width|[Bool](../types/Bool.md) | Optional|Full width?|
-|allow\_scrolling|[Bool](../types/Bool.md) | Optional|Allow scrolling?|
-|url|[string](../types/string.md) | Optional|URL|
-|html|[string](../types/string.md) | Optional|Html|
-|poster\_photo\_id|[long](../types/long.md) | Optional|Poster photo ID|
-|w|[int](../types/int.md) | Optional|Width|
-|h|[int](../types/int.md) | Optional|Height|
+|full\_width|[Bool](../types/Bool.md) | Optional|Whether the block should be full width|
+|allow\_scrolling|[Bool](../types/Bool.md) | Optional|Whether scrolling should be allowed|
+|url|[string](../types/string.md) | Optional|Web page URL, if available|
+|html|[string](../types/string.md) | Optional|HTML-markup of the embedded page|
+|poster\_photo\_id|[long](../types/long.md) | Optional|Poster photo, if available|
+|w|[int](../types/int.md) | Optional|Block width, if known|
+|h|[int](../types/int.md) | Optional|Block height, if known|
 |caption|[PageCaption](../types/PageCaption.md) | Yes|Caption|
 
 

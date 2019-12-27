@@ -16,7 +16,7 @@ Photo
 |----------|---------------|----------|-------------|
 |id|[long](../types/long.md) | Yes|ID|
 |access\_hash|[long](../types/long.md) | Yes|Access hash|
-|date|[int](../types/int.md) | Yes|Date|
+|date|[int](../types/int.md) | Yes|Date of upload|
 |sizes|Array of [PhotoSize](../types/PhotoSize.md) | Yes|Sizes|
 
 

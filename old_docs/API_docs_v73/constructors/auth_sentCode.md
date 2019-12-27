@@ -1,6 +1,6 @@
 ---
 title: auth.sentCode
-description: Sent code
+description: Contains info about a sent verification code.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: auth.sentCode  
@@ -8,17 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Sent code
+Contains info about a sent verification code.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |phone\_registered|[Bool](../types/Bool.md) | Optional|Phone registered?|
-|type|[auth\_SentCodeType](../types/auth_SentCodeType.md) | Yes|Type|
-|phone\_code\_hash|[string](../types/string.md) | Yes|Phone code hash|
-|next\_type|[auth\_CodeType](../types/auth_CodeType.md) | Optional|Next type|
-|timeout|[int](../types/int.md) | Optional|Timeout|
+|type|[auth\_SentCodeType](../types/auth_SentCodeType.md) | Yes|Phone code type|
+|phone\_code\_hash|[string](../types/string.md) | Yes|Phone code hash, to be stored and later re-used with [auth.signIn](../methods/auth.signIn.md)|
+|next\_type|[auth\_CodeType](../types/auth_CodeType.md) | Optional|Phone code type that will be sent next, if the phone code is not received within `timeout` seconds: to send it use [auth.resendCode](../methods/auth.resendCode.md)|
+|timeout|[int](../types/int.md) | Optional|Timeout for reception of the phone code|
 
 
 

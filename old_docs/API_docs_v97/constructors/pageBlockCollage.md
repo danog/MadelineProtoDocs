@@ -1,6 +1,6 @@
 ---
 title: pageBlockCollage
-description: Page block collage
+description: Collage of media
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockCollage  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page block collage
+Collage of media
 
 ### Attributes:
 

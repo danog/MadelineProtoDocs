@@ -1,6 +1,6 @@
 ---
 title: inputMessagesFilterRoundVoice
-description: Messages filter round voice
+description: Return only round videos and voice notes
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterRoundVoice  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Messages filter round voice
+Return only round videos and voice notes
 
 
 

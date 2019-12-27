@@ -1,6 +1,6 @@
 ---
 title: phoneCallDiscardReasonMissed
-description: Phone call discard reason missed
+description: The phone call was missed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneCallDiscardReasonMissed  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Phone call discard reason missed
+The phone call was missed
 
 
 

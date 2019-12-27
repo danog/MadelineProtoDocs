@@ -14,16 +14,16 @@ Payment form
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|can\_save\_credentials|[Bool](../types/Bool.md) | Optional|Can save credentials?|
-|password\_missing|[Bool](../types/Bool.md) | Optional|Password missing?|
+|can\_save\_credentials|[Bool](../types/Bool.md) | Optional|Whether the user can choose to save credentials.|
+|password\_missing|[Bool](../types/Bool.md) | Optional|Indicates that the user can save payment credentials, but only after setting up a [2FA password](https://core.telegram.org/api/srp) (currently the account doesn't have a [2FA password](https://core.telegram.org/api/srp))|
 |bot\_id|[int](../types/int.md) | Yes|Bot ID|
 |invoice|[Invoice](../types/Invoice.md) | Yes|Invoice|
-|provider\_id|[int](../types/int.md) | Yes|Provider ID|
-|url|[string](../types/string.md) | Yes|URL|
-|native\_provider|[string](../types/string.md) | Optional|Native provider|
-|native\_params|[DataJSON](../types/DataJSON.md) | Optional|Native params|
-|saved\_info|[PaymentRequestedInfo](../types/PaymentRequestedInfo.md) | Optional|Saved info|
-|saved\_credentials|[PaymentSavedCredentials](../types/PaymentSavedCredentials.md) | Optional|Saved credentials|
+|provider\_id|[int](../types/int.md) | Yes|Payment provider ID.|
+|url|[string](../types/string.md) | Yes|Payment form URL|
+|native\_provider|[string](../types/string.md) | Optional|Payment provider name.<br>One of the following:<br>\- `stripe`|
+|native\_params|[DataJSON](../types/DataJSON.md) | Optional|Contains information about the payment provider, if available, to support it natively without the need for opening the URL.<br>A JSON object that can contain the following fields:<br><br>\- `publishable_key`: Stripe API publishable key<br>\- `apple_pay_merchant_id`: Apple Pay merchant ID<br>\- `android_pay_public_key`: Android Pay public key<br>\- `android_pay_bgcolor`: Android Pay form background color<br>\- `android_pay_inverse`: Whether to use the dark theme in the Android Pay form<br>\- `need_country`: True, if the user country must be provided,<br>\- `need_zip`: True, if the user ZIP/postal code must be provided,<br>\- `need_cardholder_name`: True, if the cardholder name must be provided<br>|
+|saved\_info|[PaymentRequestedInfo](../types/PaymentRequestedInfo.md) | Optional|Saved server-side order information|
+|saved\_credentials|[PaymentSavedCredentials](../types/PaymentSavedCredentials.md) | Optional|Contains information about saved card credentials|
 |users|Array of [User](../types/User.md) | Yes|Users|
 
 

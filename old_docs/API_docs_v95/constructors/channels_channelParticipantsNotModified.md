@@ -1,6 +1,6 @@
 ---
 title: channels.channelParticipantsNotModified
-description: Channel participants not modified
+description: No new participant info could be found
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channels.channelParticipantsNotModified  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Channel participants not modified
+No new participant info could be found
 
 
 

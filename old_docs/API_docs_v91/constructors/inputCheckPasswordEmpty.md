@@ -1,6 +1,6 @@
 ---
 title: inputCheckPasswordEmpty
-description: Empty input check password
+description: There is no password
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputCheckPasswordEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty input check password
+There is no password
 
 
 

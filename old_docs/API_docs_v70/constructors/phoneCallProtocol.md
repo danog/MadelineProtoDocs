@@ -1,6 +1,6 @@
 ---
 title: phoneCallProtocol
-description: Phone call protocol
+description: Protocol info for libtgvoip
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneCallProtocol  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Phone call protocol
+Protocol info for libtgvoip
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|udp\_p2p|[Bool](../types/Bool.md) | Optional|Udp p2p?|
-|udp\_reflector|[Bool](../types/Bool.md) | Optional|Udp reflector?|
-|min\_layer|[int](../types/int.md) | Yes|Min layer|
-|max\_layer|[int](../types/int.md) | Yes|Max layer|
+|udp\_p2p|[Bool](../types/Bool.md) | Optional|Whether to allow P2P connection to the other participant|
+|udp\_reflector|[Bool](../types/Bool.md) | Optional|Whether to allow connection to the other participants through the reflector servers|
+|min\_layer|[int](../types/int.md) | Yes|Minimum layer for remote libtgvoip|
+|max\_layer|[int](../types/int.md) | Yes|Maximum layer for remote libtgvoip|
 
 
 

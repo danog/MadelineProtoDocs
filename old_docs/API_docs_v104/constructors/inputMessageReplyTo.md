@@ -1,6 +1,6 @@
 ---
 title: inputMessageReplyTo
-description: Message reply to
+description: Message to which the specified message replies to
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessageReplyTo  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message reply to
+Message to which the specified message replies to
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID|
+|id|[int](../types/int.md) | Yes|ID of the message that replies to the message we need|
 
 
 

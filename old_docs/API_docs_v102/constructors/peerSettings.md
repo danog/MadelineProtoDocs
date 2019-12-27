@@ -14,12 +14,12 @@ Peer settings
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|report\_spam|[Bool](../types/Bool.md) | Optional|Report spam?|
-|add\_contact|[Bool](../types/Bool.md) | Optional|Can add as a contact?|
-|block\_contact|[Bool](../types/Bool.md) | Optional|Block contact|
-|share\_contact|[Bool](../types/Bool.md) | Optional|Share contact|
-|need\_contacts\_exception|[Bool](../types/Bool.md) | Optional|Contact exception|
-|report\_geo|[Bool](../types/Bool.md) | Optional|Geotype|
+|report\_spam|[Bool](../types/Bool.md) | Optional|Whether we can still report the user for spam|
+|add\_contact|[Bool](../types/Bool.md) | Optional|Whether we can add the user as contact|
+|block\_contact|[Bool](../types/Bool.md) | Optional|Whether we can block the user|
+|share\_contact|[Bool](../types/Bool.md) | Optional|Whether we can share the user's contact|
+|need\_contacts\_exception|[Bool](../types/Bool.md) | Optional|Whether a special exception for contacts is needed|
+|report\_geo|[Bool](../types/Bool.md) | Optional|Whether we can report a geogroup is irrelevant for this location|
 
 
 

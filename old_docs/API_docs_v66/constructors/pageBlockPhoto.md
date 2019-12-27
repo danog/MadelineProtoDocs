@@ -1,6 +1,6 @@
 ---
 title: pageBlockPhoto
-description: Page block photo
+description: A photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockPhoto  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page block photo
+A photo
 
 ### Attributes:
 

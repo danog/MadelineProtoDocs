@@ -1,6 +1,6 @@
 ---
 title: secureValueTypePhone
-description: Secure value type phone
+description: Phone
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueTypePhone  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Secure value type phone
+Phone
 
 
 

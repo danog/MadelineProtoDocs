@@ -1,6 +1,6 @@
 ---
 title: auth.sentCodeTypeFlashCall
-description: Sent code type flash call
+description: The code will be sent via a flash phone call, that will be closed immediately. The phone code will then be the phone number itself, just make sure that the phone number matches the specified pattern.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: auth.sentCodeTypeFlashCall  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Sent code type flash call
+The code will be sent via a flash phone call, that will be closed immediately. The phone code will then be the phone number itself, just make sure that the phone number matches the specified pattern.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|pattern|[string](../types/string.md) | Yes|Pattern|
+|pattern|[string](../types/string.md) | Yes|[pattern](https://core.telegram.org/api/pattern) to match|
 
 
 

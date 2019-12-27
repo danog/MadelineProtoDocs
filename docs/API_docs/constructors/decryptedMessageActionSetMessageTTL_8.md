@@ -1,6 +1,8 @@
 ---
 title: decryptedMessageActionSetMessageTTL
-description: Decrypted message action set message ttl
+description: Setting of a message lifetime after reading.
+
+Upon receiving such message the client shall start deleting of all messages of an encrypted chat **ttl\_seconds** seconds after the messages were read by user.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionSetMessageTTL\_8  
@@ -8,13 +10,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Decrypted message action set message ttl
+Setting of a message lifetime after reading.
+
+Upon receiving such message the client shall start deleting of all messages of an encrypted chat **ttl\_seconds** seconds after the messages were read by user.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|ttl\_seconds|[int](../types/int.md) | Yes|Ttl seconds|
+|ttl\_seconds|[int](../types/int.md) | Yes|Lifetime in seconds|
 
 
 

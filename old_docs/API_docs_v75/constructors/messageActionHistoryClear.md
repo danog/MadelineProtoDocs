@@ -1,6 +1,6 @@
 ---
 title: messageActionHistoryClear
-description: Message action history clear
+description: Chat history was cleared
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionHistoryClear  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message action history clear
+Chat history was cleared
 
 
 

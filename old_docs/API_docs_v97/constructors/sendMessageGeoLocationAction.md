@@ -1,6 +1,6 @@
 ---
 title: sendMessageGeoLocationAction
-description: Send message geo location action
+description: User is selecting a location to share.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageGeoLocationAction  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Send message geo location action
+User is selecting a location to share.
 
 
 

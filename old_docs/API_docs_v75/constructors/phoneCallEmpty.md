@@ -1,6 +1,6 @@
 ---
 title: phoneCallEmpty
-description: Empty phone call
+description: Empty constructor
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneCallEmpty  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty phone call
+Empty constructor
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID|
+|id|[long](../types/long.md) | Yes|Call ID|
 
 
 

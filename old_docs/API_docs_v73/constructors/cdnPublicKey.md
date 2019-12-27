@@ -1,6 +1,6 @@
 ---
 title: cdnPublicKey
-description: Cdn public key
+description: Public key to use **only** during handshakes to [CDN](https://core.telegram.org/cdn) DCs.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: cdnPublicKey  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Cdn public key
+Public key to use **only** during handshakes to [CDN](https://core.telegram.org/cdn) DCs.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|dc\_id|[int](../types/int.md) | Yes|DC ID|
-|public\_key|[string](../types/string.md) | Yes|Public key|
+|dc\_id|[int](../types/int.md) | Yes|[CDN DC](https://core.telegram.org/cdn) ID|
+|public\_key|[string](../types/string.md) | Yes|RSA public key|
 
 
 

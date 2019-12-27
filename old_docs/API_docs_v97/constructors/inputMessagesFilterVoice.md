@@ -1,6 +1,6 @@
 ---
 title: inputMessagesFilterVoice
-description: Messages filter voice
+description: Return only messages containing voice notes
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterVoice  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Messages filter voice
+Return only messages containing voice notes
 
 
 

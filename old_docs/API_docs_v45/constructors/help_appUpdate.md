@@ -1,6 +1,6 @@
 ---
 title: help.appUpdate
-description: App update
+description: An update is available for the application.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.appUpdate  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-App update
+An update is available for the application.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID|
+|id|[int](../types/int.md) | Yes|Update ID|
 |critical|[Bool](../types/Bool.md) | Yes|Critical?|
-|url|[string](../types/string.md) | Yes|URL|
-|text|[string](../types/string.md) | Yes|Text|
+|url|[string](../types/string.md) | Yes|Application download URL|
+|text|[string](../types/string.md) | Yes|Text description of the update|
 
 
 

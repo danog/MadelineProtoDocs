@@ -1,6 +1,6 @@
 ---
 title: messageActionChatEditTitle
-description: Message action chat edit title
+description: Group name changed.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChatEditTitle  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message action chat edit title
+Group name changed.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|title|[string](../types/string.md) | Yes|Title|
+|title|[string](../types/string.md) | Yes|New group name|
 
 
 

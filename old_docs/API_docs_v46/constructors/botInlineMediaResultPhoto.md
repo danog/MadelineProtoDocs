@@ -17,7 +17,7 @@ Bot inline media result photo
 |id|[string](../types/string.md) | Yes|ID|
 |type|[string](../types/string.md) | Yes|Type|
 |photo|[Photo](../types/Photo.md) | Optional|Photo|
-|send\_message|[BotInlineMessage](../types/BotInlineMessage.md) | Yes|Send message|
+|send\_message|[BotInlineMessage](../types/BotInlineMessage.md) | Yes||
 
 
 

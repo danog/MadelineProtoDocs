@@ -14,7 +14,7 @@ Phone call
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID|
+|id|[long](../types/long.md) | Yes|Call ID|
 |access\_hash|[long](../types/long.md) | Yes|Access hash|
 
 

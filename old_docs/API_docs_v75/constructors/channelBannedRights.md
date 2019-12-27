@@ -15,7 +15,7 @@ Banned user rights (when true, the user will NOT be able to do that thing)
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |view\_messages|[Bool](../types/Bool.md) | Optional|Disallow viewing messages|
-|send\_messages|[Bool](../types/Bool.md) | Optional|Disallow sending messages|
+|send\_messages|[Bool](../types/Bool.md) | Optional||
 |send\_media|[Bool](../types/Bool.md) | Optional|Disallow sending media|
 |send\_stickers|[Bool](../types/Bool.md) | Optional|Disallow sending stickers|
 |send\_gifs|[Bool](../types/Bool.md) | Optional|Disallow sending gifs|

@@ -1,6 +1,6 @@
 ---
 title: messageMediaPhoto
-description: Message media photo
+description: Attached photo.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaPhoto  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message media photo
+Attached photo.
 
 ### Attributes:
 

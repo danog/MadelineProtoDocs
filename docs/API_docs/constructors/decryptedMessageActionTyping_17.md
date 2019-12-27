@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageActionTyping
-description: Decrypted message action typing
+description: User is preparing a message: typing, recording, uploading, etc.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionTyping\_17  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Decrypted message action typing
+User is preparing a message: typing, recording, uploading, etc.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|action|[SendMessageAction](../types/SendMessageAction.md) | Yes|Action|
+|action|[SendMessageAction](../types/SendMessageAction.md) | Yes|Type of action|
 
 
 

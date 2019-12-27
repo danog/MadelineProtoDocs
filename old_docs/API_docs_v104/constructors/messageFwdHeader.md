@@ -1,6 +1,6 @@
 ---
 title: messageFwdHeader
-description: Forwarded message info
+description: Info about a forwarded message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageFwdHeader  
@@ -8,20 +8,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Forwarded message info
+Info about a forwarded message
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|from\_id|[int](../types/int.md) | Optional|From ID|
-|from\_name|[string](../types/string.md) | Optional|Author of the original message|
-|date|[int](../types/int.md) | Yes|Date|
-|channel\_id|[int](../types/int.md) | Optional|Channel ID|
-|channel\_post|[int](../types/int.md) | Optional|Channel post|
-|post\_author|[string](../types/string.md) | Optional|Post author|
-|saved\_from\_peer|[Peer](../types/Peer.md) | Optional|Saved from peer|
-|saved\_from\_msg\_id|[int](../types/int.md) | Optional|Saved from msg ID|
+|from\_id|[int](../types/int.md) | Optional|The ID of the user that originally sent the message|
+|from\_name|[string](../types/string.md) | Optional|The name of the user that originally sent the message|
+|date|[int](../types/int.md) | Yes|When was the message originally sent|
+|channel\_id|[int](../types/int.md) | Optional|ID of the channel from which the message was forwarded|
+|channel\_post|[int](../types/int.md) | Optional|ID of the channel message that was forwarded|
+|post\_author|[string](../types/string.md) | Optional|For channels and if signatures are enabled, author of the channel message|
+|saved\_from\_peer|[Peer](../types/Peer.md) | Optional|Only for messages forwarded to the current user (inputPeerSelf), full info about the user/channel that originally sent the message|
+|saved\_from\_msg\_id|[int](../types/int.md) | Optional|Only for messages forwarded to the current user (inputPeerSelf), ID of the message that was forwarded from the original user/channel|
 
 
 

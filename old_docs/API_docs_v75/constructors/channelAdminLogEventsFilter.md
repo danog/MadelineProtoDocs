@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventsFilter
-description: Event filter
+description: Filter only certain admin log events
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventsFilter  
@@ -8,26 +8,26 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Event filter
+Filter only certain admin log events
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|join|[Bool](../types/Bool.md) | Optional|Join users events|
-|leave|[Bool](../types/Bool.md) | Optional|Left users events|
-|invite|[Bool](../types/Bool.md) | Optional|Invite users events|
-|ban|[Bool](../types/Bool.md) | Optional|Ban events|
-|unban|[Bool](../types/Bool.md) | Optional|Unban events|
-|kick|[Bool](../types/Bool.md) | Optional|Kicked users events|
-|unkick|[Bool](../types/Bool.md) | Optional|Unkick events|
-|promote|[Bool](../types/Bool.md) | Optional|Admin promotion events|
-|demote|[Bool](../types/Bool.md) | Optional|Demote admin events|
-|info|[Bool](../types/Bool.md) | Optional|Change info events|
-|settings|[Bool](../types/Bool.md) | Optional|Setting changes|
-|pinned|[Bool](../types/Bool.md) | Optional|Pinned message events|
-|edit|[Bool](../types/Bool.md) | Optional|Edit message events|
-|delete|[Bool](../types/Bool.md) | Optional|Delete message events|
+|join|[Bool](../types/Bool.md) | Optional|[Join events](../constructors/channelAdminLogEventActionParticipantJoin.md)|
+|leave|[Bool](../types/Bool.md) | Optional|[Leave events](../constructors/channelAdminLogEventActionParticipantLeave.md)|
+|invite|[Bool](../types/Bool.md) | Optional|[Invite events](../constructors/channelAdminLogEventActionParticipantInvite.md)|
+|ban|[Bool](../types/Bool.md) | Optional|[Ban events](../constructors/channelAdminLogEventActionParticipantToggleBan.md)|
+|unban|[Bool](../types/Bool.md) | Optional|[Unban events](../constructors/channelAdminLogEventActionParticipantToggleBan.md)|
+|kick|[Bool](../types/Bool.md) | Optional|[Kick events](../constructors/channelAdminLogEventActionParticipantToggleBan.md)|
+|unkick|[Bool](../types/Bool.md) | Optional|[Unkick events](../constructors/channelAdminLogEventActionParticipantToggleBan.md)|
+|promote|[Bool](../types/Bool.md) | Optional|[Admin promotion events](../constructors/channelAdminLogEventActionParticipantToggleAdmin.md)|
+|demote|[Bool](../types/Bool.md) | Optional|[Admin demotion events](../constructors/channelAdminLogEventActionParticipantToggleAdmin.md)|
+|info|[Bool](../types/Bool.md) | Optional|Info change events (when [about](../constructors/channelAdminLogEventActionChangeAbout.md), [linked chat](../constructors/channelAdminLogEventActionChangeLinkedChat.md), [location](../constructors/channelAdminLogEventActionChangeLocation.md), [photo](../constructors/channelAdminLogEventActionChangePhoto.md), [stickerset](../constructors/channelAdminLogEventActionChangeStickerSet.md), [title](../constructors/channelAdminLogEventActionChangeTitle.md) or [username](../constructors/channelAdminLogEventActionChangeUsername.md) data of a channel gets modified)|
+|settings|[Bool](../types/Bool.md) | Optional|Settings change events ([invites](../constructors/channelAdminLogEventActionToggleInvites.md), [hidden prehistory](../constructors/channelAdminLogEventActionTogglePreHistoryHidden.md), [signatures](../constructors/channelAdminLogEventActionToggleSignatures.md), [default banned rights](../constructors/channelAdminLogEventActionDefaultBannedRights.md))|
+|pinned|[Bool](../types/Bool.md) | Optional|[Message pin events](../constructors/channelAdminLogEventActionUpdatePinned.md)|
+|edit|[Bool](../types/Bool.md) | Optional|[Message edit events](../constructors/channelAdminLogEventActionEditMessage.md)|
+|delete|[Bool](../types/Bool.md) | Optional|[Message deletion events](../constructors/channelAdminLogEventActionDeleteMessage.md)|
 
 
 

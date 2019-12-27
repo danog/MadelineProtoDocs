@@ -1,6 +1,6 @@
 ---
 title: peerChat
-description: Peer chat
+description: Group.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: peerChat  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Peer chat
+Group.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[int](../types/int.md) | Yes|Chat ID|
+|chat\_id|[int](../types/int.md) | Yes|Group identifier|
 
 
 

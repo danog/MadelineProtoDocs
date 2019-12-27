@@ -1,6 +1,6 @@
 ---
 title: updateDeleteScheduledMessages
-description: Update delete scheduled messages
+description: Some scheduled messages were deleted
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateDeleteScheduledMessages  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update delete scheduled messages
+Some scheduled messages were deleted
 
 ### Attributes:
 

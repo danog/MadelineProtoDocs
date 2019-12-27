@@ -1,6 +1,6 @@
 ---
 title: pageListItemBlocks
-description: Page list item blocks
+description: List item
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageListItemBlocks  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page list item blocks
+List item
 
 ### Attributes:
 

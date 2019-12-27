@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageActionNoop
-description: Decrypted message action noop
+description: NOOP action
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionNoop\_20  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Decrypted message action noop
+NOOP action
 
 
 

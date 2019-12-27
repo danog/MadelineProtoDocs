@@ -1,6 +1,6 @@
 ---
 title: inputMediaEmpty
-description: Empty input media
+description: Empty media content of a message.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty input media
+Empty media content of a message.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: inputStickeredMediaDocument
-description: Stickered media document
+description: A document with stickers attached
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputStickeredMediaDocument  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Stickered media document
+A document with stickers attached
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[MessageMedia, Message, Update or InputDocument](../types/InputDocument.md) | Optional|ID|
+|id|[MessageMedia, Message, Update or InputDocument](../types/InputDocument.md) | Optional|The document|
 
 
 

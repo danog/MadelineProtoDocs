@@ -1,6 +1,6 @@
 ---
 title: channelParticipantSelf
-description: Channel participant self
+description: Myself
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantSelf  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Channel participant self
+Myself
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |user\_id|[int](../types/int.md) | Yes|User ID|
-|inviter\_id|[int](../types/int.md) | Yes|Inviter ID|
-|date|[int](../types/int.md) | Yes|Date|
+|inviter\_id|[int](../types/int.md) | Yes|User that invited me to the channel/supergroup|
+|date|[int](../types/int.md) | Yes|When did I join the channel/supergroup|
 
 
 

@@ -12,7 +12,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * [Login](https://docs.madelineproto.xyz/docs/LOGIN.html)
 
-* [Change 2FA password](https://docs.madelineproto.xyz/update_2fa.html)
+* [Change 2FA password](https://docs.madelineproto.xyz/update2fa.html)
 
 * [Get all chats, broadcast a message to all chats](https://docs.madelineproto.xyz/docs/DIALOGS.html)
 

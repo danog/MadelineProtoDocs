@@ -1,6 +1,6 @@
 ---
 title: wallPaper
-description: Wall paper
+description: Wallpaper settings.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: wallPaper  
@@ -8,20 +8,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Wall paper
+Wallpaper settings.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID|
-|creator|[Bool](../types/Bool.md) | Optional|Am I the creator?|
-|default|[Bool](../types/Bool.md) | Optional|Default?|
+|id|[long](../types/long.md) | Yes|Identifier|
+|creator|[Bool](../types/Bool.md) | Optional|Creator of the wallpaper|
+|default|[Bool](../types/Bool.md) | Optional|Whether this is the default wallpaper|
 |pattern|[Bool](../types/Bool.md) | Optional|Pattern|
-|dark|[Bool](../types/Bool.md) | Optional|Dark?|
-|access\_hash|[long](../types/long.md) | Yes|Hash|
-|slug|[string](../types/string.md) | Yes|Slug?|
-|document|[Document](../types/Document.md) | Optional|Wallpaper|
+|dark|[Bool](../types/Bool.md) | Optional|Dark mode|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|slug|[string](../types/string.md) | Yes|Unique wallpaper ID|
+|document|[Document](../types/Document.md) | Optional|The actual wallpaper|
 |settings|[WallPaperSettings](../types/WallPaperSettings.md) | Optional|Wallpaper settings|
 
 

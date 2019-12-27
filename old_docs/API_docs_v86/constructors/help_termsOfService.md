@@ -1,6 +1,6 @@
 ---
 title: help.termsOfService
-description: Terms of service
+description: Info about the latest telegram Terms Of Service
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.termsOfService  
@@ -8,17 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Terms of service
+Info about the latest telegram Terms Of Service
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|popup|[Bool](../types/Bool.md) | Optional|Popup?|
-|id|[DataJSON](../types/DataJSON.md) | Yes|ID|
-|text|[string](../types/string.md) | Yes|Text|
+|popup|[Bool](../types/Bool.md) | Optional|Whether a prompt must be showed to the user, in order to accept the new terms.|
+|id|[DataJSON](../types/DataJSON.md) | Yes|ID of the new terms|
+|text|[string](../types/string.md) | Yes|Text of the new terms|
 |entities|Array of [MessageEntity](../types/MessageEntity.md) | Yes|Entities|
-|min\_age\_confirm|[int](../types/int.md) | Optional|Min age confirm|
+|min\_age\_confirm|[int](../types/int.md) | Optional|Minimum age required to sign up to telegram, the user must confirm that they is older than the minimum age.|
 
 
 

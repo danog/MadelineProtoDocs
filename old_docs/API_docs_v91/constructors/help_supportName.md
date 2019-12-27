@@ -1,6 +1,6 @@
 ---
 title: help.supportName
-description: Support name
+description: Localized name for telegram support
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.supportName  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Support name
+Localized name for telegram support
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|name|[string](../types/string.md) | Yes|Name|
+|name|[string](../types/string.md) | Yes|Localized name|
 
 
 

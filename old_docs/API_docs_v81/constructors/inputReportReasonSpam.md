@@ -1,6 +1,6 @@
 ---
 title: inputReportReasonSpam
-description: Report reason spam
+description: Report for spam
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputReportReasonSpam  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Report reason spam
+Report for spam
 
 
 

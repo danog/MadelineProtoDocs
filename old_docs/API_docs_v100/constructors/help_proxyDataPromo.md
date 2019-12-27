@@ -1,6 +1,6 @@
 ---
 title: help.proxyDataPromo
-description: Proxy data promo
+description: Promotion channel associated to a certain MTProxy
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.proxyDataPromo  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Proxy data promo
+Promotion channel associated to a certain MTProxy
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|expires|[int](../types/int.md) | Yes|Expires|
-|peer|[Peer](../types/Peer.md) | Yes|Peer|
+|expires|[int](../types/int.md) | Yes|Expiration date of proxy info, will have to be refetched in `expires` seconds|
+|peer|[Peer](../types/Peer.md) | Yes|The promoted channel|
 |chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
 |users|Array of [User](../types/User.md) | Yes|Users|
 

@@ -1,6 +1,6 @@
 ---
 title: chatPhoto
-description: Chat photo
+description: Group profile photo.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatPhoto  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Chat photo
+Group profile photo.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|photo\_small|[FileLocation](../types/FileLocation.md) | Yes|Photo small|
-|photo\_big|[FileLocation](../types/FileLocation.md) | Yes|Photo big|
-|dc\_id|[int](../types/int.md) | Yes|DC ID|
+|photo\_small|[FileLocation](../types/FileLocation.md) | Yes|Location of the file corresponding to the small thumbnail for group profile photo|
+|photo\_big|[FileLocation](../types/FileLocation.md) | Yes|Location of the file corresponding to the small thumbnail for group profile photo|
+|dc\_id|[int](../types/int.md) | Yes|DC where this photo is stored|
 
 
 

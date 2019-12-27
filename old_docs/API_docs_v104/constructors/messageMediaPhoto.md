@@ -1,6 +1,6 @@
 ---
 title: messageMediaPhoto
-description: Message media photo
+description: Attached photo.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaPhoto  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message media photo
+Attached photo.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |photo|[Photo](../types/Photo.md) | Optional|Photo|
-|ttl\_seconds|[int](../types/int.md) | Optional|Ttl seconds|
+|ttl\_seconds|[int](../types/int.md) | Optional|Time to live in seconds of self-destructing photo|
 
 
 

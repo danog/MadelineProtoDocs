@@ -1,6 +1,6 @@
 ---
 title: contactBlocked
-description: Contact blocked
+description: A blocked user.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: contactBlocked  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Contact blocked
+A blocked user.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User ID|
-|date|[int](../types/int.md) | Yes|Date|
+|user\_id|[int](../types/int.md) | Yes|User identifier|
+|date|[int](../types/int.md) | Yes|Date blacklisted|
 
 
 

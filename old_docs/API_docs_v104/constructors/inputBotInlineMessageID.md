@@ -1,6 +1,6 @@
 ---
 title: inputBotInlineMessageID
-description: Bot inline message ID
+description: Represents a sent inline message from the perspective of a bot
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputBotInlineMessageID  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Bot inline message ID
+Represents a sent inline message from the perspective of a bot
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|dc\_id|[int](../types/int.md) | Yes|DC ID|
-|id|[long](../types/long.md) | Yes|ID|
-|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|dc\_id|[int](../types/int.md) | Yes|DC ID to use when working with this inline message|
+|id|[long](../types/long.md) | Yes|ID of message|
+|access\_hash|[long](../types/long.md) | Yes|Access hash of message|
 
 
 

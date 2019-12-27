@@ -1,6 +1,6 @@
 ---
 title: pageBlockSlideshow
-description: Page block slideshow
+description: Slideshow
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockSlideshow  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page block slideshow
+Slideshow
 
 ### Attributes:
 

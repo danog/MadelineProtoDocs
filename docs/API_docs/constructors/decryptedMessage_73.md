@@ -1,6 +1,6 @@
 ---
 title: decryptedMessage
-description: Decrypted message
+description: Contents of an encrypted message.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessage\_73  
@@ -8,19 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Decrypted message
+Contents of an encrypted message.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|ttl|[int](../types/int.md) | Yes|Ttl|
-|message|[string](../types/string.md) | Yes|Message|
-|media|[DecryptedMessageMedia](../types/DecryptedMessageMedia.md) | Optional|Media|
+|ttl|[int](../types/int.md) | Yes|Message lifetime. Has higher priority than [decryptedMessageActionSetMessageTTL](../constructors/decryptedMessageActionSetMessageTTL.md).<br>Parameter added in [Layer 17](https://core.telegram.org/api/layers#layer-17).|
+|message|[string](../types/string.md) | Yes|Message text|
+|media|[DecryptedMessageMedia](../types/DecryptedMessageMedia.md) | Optional|Media content|
 |entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|Entities|
-|via\_bot\_name|[string](../types/string.md) | Optional|Via bot name|
-|reply\_to\_random\_id|[long](../types/long.md) | Optional|Reply to random ID|
-|grouped\_id|[long](../types/long.md) | Optional|Grouped ID|
+|via\_bot\_name|[string](../types/string.md) | Optional|Specifies the ID of the inline bot that generated the message (parameter added in layer 45)|
+|reply\_to\_random\_id|[long](../types/long.md) | Optional|Random message ID of the message this message replies to (parameter added in layer 45)|
+|grouped\_id|[long](../types/long.md) | Optional|Random group ID, assigned by the author of message.<br>Multiple encrypted messages with a photo attached and with the same group ID indicate an album (parameter added in layer 45)|
 
 
 

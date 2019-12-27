@@ -1,6 +1,6 @@
 ---
 title: accountDaysTTL
-description: Account TTL in days
+description: Time to live in days of the current account
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: accountDaysTTL  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Account TTL in days
+Time to live in days of the current account
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|days|[int](../types/int.md) | Yes|Days|
+|days|[int](../types/int.md) | Yes|This account will self-destruct in the specified number of days|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: sendMessageRecordRoundAction
-description: Send message record round action
+description: User is recording a round video to share
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageRecordRoundAction  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Send message record round action
+User is recording a round video to share
 
 
 

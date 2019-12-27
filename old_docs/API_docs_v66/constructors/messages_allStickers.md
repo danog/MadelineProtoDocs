@@ -1,6 +1,6 @@
 ---
 title: messages.allStickers
-description: All stickers
+description: Info about all installed stickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.allStickers  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-All stickers
+Info about all installed stickers
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[int](../types/int.md) | Yes|Hash|
+|hash|[int](../types/int.md) | Yes|[Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
 |sets|Array of [StickerSet](../types/StickerSet.md) | Yes|Sets|
 
 

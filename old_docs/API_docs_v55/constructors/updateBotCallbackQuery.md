@@ -1,6 +1,6 @@
 ---
 title: updateBotCallbackQuery
-description: Update bot callback query
+description: A callback button was pressed, and the button data was sent to the bot that created the button
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotCallbackQuery  
@@ -8,17 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update bot callback query
+A callback button was pressed, and the button data was sent to the bot that created the button
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |query\_id|[long](../types/long.md) | Yes|Query ID|
-|user\_id|[int](../types/int.md) | Yes|User ID|
-|peer|[Peer](../types/Peer.md) | Yes|Peer|
-|msg\_id|[int](../types/int.md) | Yes|Msg ID|
-|data|[bytes](../types/bytes.md) | Yes|Data|
+|user\_id|[int](../types/int.md) | Yes|ID of the user that pressed the button|
+|peer|[Peer](../types/Peer.md) | Yes|Chat where the inline keyboard was sent|
+|msg\_id|[int](../types/int.md) | Yes|Message ID|
+|data|[bytes](../types/bytes.md) | Yes|Callback data|
 
 
 

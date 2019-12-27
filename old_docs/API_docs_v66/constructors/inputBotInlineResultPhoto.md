@@ -1,6 +1,6 @@
 ---
 title: inputBotInlineResultPhoto
-description: Bot inline result photo
+description: Photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputBotInlineResultPhoto  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Bot inline result photo
+Photo
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[string](../types/string.md) | Yes|ID|
-|type|[string](../types/string.md) | Yes|Type|
-|photo|[MessageMedia, Message, Update or InputPhoto](../types/InputPhoto.md) | Optional|Photo|
-|send\_message|[InputBotInlineMessage](../types/InputBotInlineMessage.md) | Yes|Message to send|
+|id|[string](../types/string.md) | Yes|Result ID|
+|type|[string](../types/string.md) | Yes|Result type (see [bot API docs](https://core.telegram.org/bots/api#inlinequeryresult))|
+|photo|[MessageMedia, Message, Update or InputPhoto](../types/InputPhoto.md) | Optional|Photo to send|
+|send\_message|[InputBotInlineMessage](../types/InputBotInlineMessage.md) | Yes|Message to send when the result is selected|
 
 
 

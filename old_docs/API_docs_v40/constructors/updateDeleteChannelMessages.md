@@ -1,6 +1,6 @@
 ---
 title: updateDeleteChannelMessages
-description: Update delete channel messages
+description: Some messages in a [supergroup/channel](https://core.telegram.org/api/channel) were deleted
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateDeleteChannelMessages  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update delete channel messages
+Some messages in a [supergroup/channel](https://core.telegram.org/api/channel) were deleted
 
 ### Attributes:
 
@@ -16,8 +16,8 @@ Update delete channel messages
 |----------|---------------|----------|-------------|
 |peer|[Peer](../types/Peer.md) | Yes|Peer|
 |messages|Array of [int](../types/int.md) | Yes|Messages|
-|pts|[int](../types/int.md) | Yes|Pts|
-|pts\_count|[int](../types/int.md) | Yes|Pts count|
+|pts|[int](../types/int.md) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|
+|pts\_count|[int](../types/int.md) | Yes|[Number of events that were generated](https://core.telegram.org/api/updates)|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: userProfilePhoto
-description: User profile photo
+description: User profile photo.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userProfilePhoto  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-User profile photo
+User profile photo.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|photo\_id|[long](../types/long.md) | Yes|Photo ID|
-|photo\_small|[FileLocation](../types/FileLocation.md) | Yes|Photo small|
-|photo\_big|[FileLocation](../types/FileLocation.md) | Yes|Photo big|
+|photo\_id|[long](../types/long.md) | Yes|Identifier of the respective photo<br>Parameter added in [Layer 2](https://core.telegram.org/api/layers#layer-2)|
+|photo\_small|[FileLocation](../types/FileLocation.md) | Yes|Location of the file, corresponding to the small profile photo thumbnail|
+|photo\_big|[FileLocation](../types/FileLocation.md) | Yes|Location of the file, corresponding to the big profile photo thumbnail|
 
 
 

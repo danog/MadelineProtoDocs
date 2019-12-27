@@ -1,6 +1,6 @@
 ---
 title: storage.filePdf
-description: File pdf
+description: PDF document image. MIME type: `application/pdf`.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: storage.filePdf  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-File pdf
+PDF document image. MIME type: `application/pdf`.
 
 
 

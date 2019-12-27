@@ -1,6 +1,6 @@
 ---
 title: user
-description: User
+description: Indicates info about a certain user
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: user  
@@ -8,21 +8,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-User
+Indicates info about a certain user
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID|
-|access\_hash|[long](../types/long.md) | Optional|Access hash|
+|id|[int](../types/int.md) | Yes|ID of the user|
+|access\_hash|[long](../types/long.md) | Optional|Access hash of the user|
 |first\_name|[string](../types/string.md) | Optional|First name|
 |last\_name|[string](../types/string.md) | Optional|Last name|
 |username|[string](../types/string.md) | Optional|Username|
-|phone|[string](../types/string.md) | Optional|Phone|
-|photo|[UserProfilePhoto](../types/UserProfilePhoto.md) | Optional|Photo|
-|status|[UserStatus](../types/UserStatus.md) | Optional|Status|
-|bot\_info\_version|[int](../types/int.md) | Optional|Bot info version|
+|phone|[string](../types/string.md) | Optional|Phone number|
+|photo|[UserProfilePhoto](../types/UserProfilePhoto.md) | Optional|Profile picture of user|
+|status|[UserStatus](../types/UserStatus.md) | Optional|Online status of user|
+|bot\_info\_version|[int](../types/int.md) | Optional|Version of the [bot\_info field in userFull](../constructors/userFull.md), incremented every time it changes|
 
 
 

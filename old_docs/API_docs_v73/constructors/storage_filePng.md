@@ -1,6 +1,6 @@
 ---
 title: storage.filePng
-description: File png
+description: PNG image. MIME type: `image/png`.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: storage.filePng  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-File png
+PNG image. MIME type: `image/png`.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: inputMediaPhotoExternal
-description: Media photo external
+description: New photo that will be uploaded by the server using the specified URL
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaPhotoExternal  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Media photo external
+New photo that will be uploaded by the server using the specified URL
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|url|[string](../types/string.md) | Yes|URL|
-|ttl\_seconds|[int](../types/int.md) | Optional|Ttl seconds|
+|url|[string](../types/string.md) | Yes|URL of the photo|
+|ttl\_seconds|[int](../types/int.md) | Optional|Self-destruct time to live of photo|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: updateNewScheduledMessage
-description: Update new scheduled message
+description: New incoming scheduled message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateNewScheduledMessage  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update new scheduled message
+New incoming scheduled message
 
 ### Attributes:
 

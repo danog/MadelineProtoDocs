@@ -1,6 +1,6 @@
 ---
 title: inputChatPhoto
-description: Chat photo
+description: Existing photo to be set as a chat profile photo.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputChatPhoto  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Chat photo
+Existing photo to be set as a chat profile photo.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[MessageMedia, Message, Update or InputPhoto](../types/InputPhoto.md) | Optional|ID|
+|id|[MessageMedia, Message, Update or InputPhoto](../types/InputPhoto.md) | Optional|Existing photo|
 |crop|[InputPhotoCrop](../types/InputPhotoCrop.md) | Yes|Crop|
 
 

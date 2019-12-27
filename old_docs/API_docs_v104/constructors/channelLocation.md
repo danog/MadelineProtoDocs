@@ -1,6 +1,6 @@
 ---
 title: channelLocation
-description: Physical location (getchats)
+description: Geographical location of supergroup (geogroups)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelLocation  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Physical location (getchats)
+Geographical location of supergroup (geogroups)
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|geo\_point|[GeoPoint](../types/GeoPoint.md) | Optional|Geo point|
-|address|[string](../types/string.md) | Yes|Physical address|
+|geo\_point|[GeoPoint](../types/GeoPoint.md) | Optional|Geographical location of supergrup|
+|address|[string](../types/string.md) | Yes|Textual description of the address|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: inputSecureFile
-description: Secure file
+description: Preuploaded [passport](https://core.telegram.org/passport) file, for more info [see the passport docs »](https://core.telegram.org/passport/encryption#inputsecurefile)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputSecureFile  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Secure file
+Preuploaded [passport](https://core.telegram.org/passport) file, for more info [see the passport docs »](https://core.telegram.org/passport/encryption#inputsecurefile)
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID|
-|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|id|[long](../types/long.md) | Yes|Secure file ID|
+|access\_hash|[long](../types/long.md) | Yes|Secure file access hash|
 
 
 

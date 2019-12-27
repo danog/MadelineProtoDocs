@@ -1,6 +1,6 @@
 ---
 title: updatePhoneCall
-description: Update phone call
+description: An incoming phone call
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatePhoneCall  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update phone call
+An incoming phone call
 
 ### Attributes:
 

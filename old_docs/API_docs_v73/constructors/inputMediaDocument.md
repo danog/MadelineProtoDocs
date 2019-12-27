@@ -1,6 +1,6 @@
 ---
 title: inputMediaDocument
-description: Media document
+description: Forwarded document
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaDocument  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Media document
+Forwarded document
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[MessageMedia, Message, Update or InputDocument](../types/InputDocument.md) | Optional|ID|
+|id|[MessageMedia, Message, Update or InputDocument](../types/InputDocument.md) | Optional|The document to be forwarded.|
 |caption|[string](../types/string.md) | Yes|Caption|
-|ttl\_seconds|[int](../types/int.md) | Optional|Ttl seconds|
+|ttl\_seconds|[int](../types/int.md) | Optional|Time to live of self-destructing document|
 
 
 

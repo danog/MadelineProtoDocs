@@ -1,6 +1,6 @@
 ---
 title: documentAttributeFilename
-description: Document attribute filename
+description: A simple document with a file name
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: documentAttributeFilename  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Document attribute filename
+A simple document with a file name
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|file\_name|[string](../types/string.md) | Yes|File name|
+|file\_name|[string](../types/string.md) | Yes|The file name|
 
 
 

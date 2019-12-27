@@ -1,6 +1,6 @@
 ---
 title: draftMessageEmpty
-description: Empty draft message
+description: Empty draft
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: draftMessageEmpty  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty draft message
+Empty draft
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|date|[int](../types/int.md) | Optional|Date|
+|date|[int](../types/int.md) | Optional|When was the draft last updated|
 
 
 

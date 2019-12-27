@@ -1,6 +1,6 @@
 ---
 title: help.noAppUpdate
-description: No app update
+description: No updates are available for the application.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.noAppUpdate  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-No app update
+No updates are available for the application.
 
 
 

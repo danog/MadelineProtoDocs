@@ -1,6 +1,6 @@
 ---
 title: updateReadChannelInbox
-description: Update read channel inbox
+description: Incoming messages in a [channel/supergroup](https://core.telegram.org/api/channel) were read
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateReadChannelInbox  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update read channel inbox
+Incoming messages in a [channel/supergroup](https://core.telegram.org/api/channel) were read
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[int](../types/int.md) | Yes|Channel ID|
-|max\_id|[int](../types/int.md) | Yes|Max ID|
+|channel\_id|[int](../types/int.md) | Yes|Channel/supergroup ID|
+|max\_id|[int](../types/int.md) | Yes|Position up to which all incoming messages are read.|
 
 
 

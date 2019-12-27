@@ -1,6 +1,6 @@
 ---
 title: topPeerCategoryBotsInline
-description: Top peer category bots inline
+description: Most used inline bots
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: topPeerCategoryBotsInline  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Top peer category bots inline
+Most used inline bots
 
 
 

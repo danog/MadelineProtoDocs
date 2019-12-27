@@ -1,6 +1,6 @@
 ---
 title: secureValueTypeRentalAgreement
-description: Secure value type rental agreement
+description: Rental agreement
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueTypeRentalAgreement  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Secure value type rental agreement
+Rental agreement
 
 
 

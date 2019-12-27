@@ -1,6 +1,6 @@
 ---
 title: contacts.found
-description: Found
+description: Users found by name substring and auxiliary data.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: contacts.found  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Found
+Users found by name substring and auxiliary data.
 
 ### Attributes:
 

@@ -1,6 +1,6 @@
 ---
 title: messages.featuredStickersNotModified
-description: Featured stickers not modified
+description: Featured stickers haven't changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.featuredStickersNotModified  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Featured stickers not modified
+Featured stickers haven't changed
 
 
 

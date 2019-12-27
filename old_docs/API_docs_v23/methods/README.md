@@ -12,7 +12,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * [Login](https://docs.madelineproto.xyz/docs/LOGIN.html)
 
-* [Change 2FA password](https://docs.madelineproto.xyz/update_2fa.html)
+* [Change 2FA password](https://docs.madelineproto.xyz/update2fa.html)
 
 * [Get all chats, broadcast a message to all chats](https://docs.madelineproto.xyz/docs/DIALOGS.html)
 
@@ -30,203 +30,207 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * [Create a secret chat bot](https://docs.madelineproto.xyz/docs/SECRET_CHATS.html)
 
-* <a href="messages_addChatUser.html" name="messages_addChatUser">Add a user to a normal chat (use channels->inviteToChannel for supergroups): messages.addChatUser</a>
+* <a href="messages.addChatUser.html" name="messages.addChatUser">Adds a user to a chat and sends a service message on it.: messages.addChatUser</a>
 
-* <a href="contacts_importContacts.html" name="contacts_importContacts">Add phone number as contact: contacts.importContacts</a>
+* <a href="contacts.block.html" name="contacts.block">Adds the user to the blacklist.: contacts.block</a>
 
-* <a href="contacts_block.html" name="contacts_block">Block a user: contacts.block</a>
+* <a href="auth.bindTempAuthKey.html" name="auth.bindTempAuthKey">Binds a temporary authorization key `temp_auth_key_id` to the permanent authorization key `perm_auth_key_id`. Each permanent key may only be bound to one temporary key at a time, binding a new temporary key overwrites the previous one.
 
-* <a href="account_updateNotifySettings.html" name="account_updateNotifySettings">Change notification settings: account.updateNotifySettings</a>
+For more information, see [Perfect Forward Secrecy](https://core.telegram.org/api/pfs).: auth.bindTempAuthKey</a>
 
-* <a href="account_changePhone.html" name="account_changePhone">Change the phone number associated to this account: account.changePhone</a>
+* <a href="messages.discardEncryption.html" name="messages.discardEncryption">Cancels a request for creation and/or delete info on secret chat.: messages.discardEncryption</a>
 
-* <a href="account_sendChangePhoneCode.html" name="account_sendChangePhoneCode">Change the phone number: account.sendChangePhoneCode</a>
+* <a href="messages.editChatTitle.html" name="messages.editChatTitle">Chanages chat name and sends a service message on it.: messages.editChatTitle</a>
 
-* <a href="photos_updateProfilePhoto.html" name="photos_updateProfilePhoto">Change the profile photo: photos.updateProfilePhoto</a>
+* <a href="account.setPrivacy.html" name="account.setPrivacy">Change privacy settings of current account: account.setPrivacy</a>
 
-* <a href="messages_setTyping.html" name="messages_setTyping">Change typing status: messages.setTyping</a>
+* <a href="account.changePhone.html" name="account.changePhone">Change the phone number of the current account: account.changePhone</a>
 
-* <a href="auth_checkPhone.html" name="auth_checkPhone">Check if this phone number is registered on telegram: auth.checkPhone</a>
+* <a href="messages.editChatPhoto.html" name="messages.editChatPhoto">Changes chat photo and sends a service message on it: messages.editChatPhoto</a>
 
-* <a href="account_checkUsername.html" name="account_checkUsername">Check if this username is available: account.checkUsername</a>
+* <a href="account.updateUsername.html" name="account.updateUsername">Changes username for the current user.: account.updateUsername</a>
 
-* <a href="messages_createChat.html" name="messages_createChat">Create a chat (not supergroup): messages.createChat</a>
+* <a href="auth.checkPhone.html" name="auth.checkPhone">Check if this phone number is registered on telegram: auth.checkPhone</a>
 
-* <a href="contacts_deleteContact.html" name="contacts_deleteContact">Delete a contact: contacts.deleteContact</a>
+* <a href="messages.acceptEncryption.html" name="messages.acceptEncryption">Confirms creation of a secret chat: messages.acceptEncryption</a>
 
-* <a href="messages_deleteChatUser.html" name="messages_deleteChatUser">Delete a user from a chat (not supergroup): messages.deleteChatUser</a>
+* <a href="messages.receivedMessages.html" name="messages.receivedMessages">Confirms receipt of messages by a client, cancels PUSH-notification sending.: messages.receivedMessages</a>
 
-* <a href="auth_resetAuthorizations.html" name="auth_resetAuthorizations">Delete all logged-in sessions.: auth.resetAuthorizations</a>
+* <a href="messages.receivedQueue.html" name="messages.receivedQueue">Confirms receipt of messages in a secret chat by client, cancels push notifications.: messages.receivedQueue</a>
 
-* <a href="messages_deleteHistory.html" name="messages_deleteHistory">Delete chat history: messages.deleteHistory</a>
+* <a href="messages.createChat.html" name="messages.createChat">Creates a new chat.: messages.createChat</a>
 
-* <a href="messages_deleteMessages.html" name="messages_deleteMessages">Delete messages: messages.deleteMessages</a>
+* <a href="contacts.deleteContact.html" name="contacts.deleteContact">Delete a contact: contacts.deleteContact</a>
 
-* <a href="contacts_deleteContacts.html" name="contacts_deleteContacts">Delete multiple contacts: contacts.deleteContacts</a>
+* <a href="account.deleteAccount.html" name="account.deleteAccount">Delete the user's account from the telegram servers. Can be used, for example, to delete the account of a user that provided the login code, but forgot the [2FA password and no recovery method is configured](https://core.telegram.org/api/srp).: account.deleteAccount</a>
 
-* <a href="photos_deletePhotos.html" name="photos_deletePhotos">Delete profile photos: photos.deletePhotos</a>
+* <a href="account.unregisterDevice.html" name="account.unregisterDevice">Deletes a device by its token, stops sending PUSH-notifications to it.: account.unregisterDevice</a>
 
-* <a href="account_deleteAccount.html" name="account_deleteAccount">Delete this account: account.deleteAccount</a>
+* <a href="messages.deleteChatUser.html" name="messages.deleteChatUser">Deletes a user from a chat and sends a service message on it.: messages.deleteChatUser</a>
 
-* <a href="account_updateDeviceLocked.html" name="account_updateDeviceLocked">Disable all notifications for a certain period: account.updateDeviceLocked</a>
+* <a href="messages.deleteHistory.html" name="messages.deleteHistory">Deletes communication history.: messages.deleteHistory</a>
 
-* <a href="messages_editChatPhoto.html" name="messages_editChatPhoto">Edit the photo of a normal chat (not supergroup): messages.editChatPhoto</a>
+* <a href="messages.deleteMessages.html" name="messages.deleteMessages">Deletes messages by their identifiers.: messages.deleteMessages</a>
 
-* <a href="messages_editChatTitle.html" name="messages_editChatTitle">Edit the title of a normal chat (not supergroup): messages.editChatTitle</a>
+* <a href="photos.deletePhotos.html" name="photos.deletePhotos">Deletes profile photos.: photos.deletePhotos</a>
 
-* <a href="contacts_exportCard.html" name="contacts_exportCard">Export contact as card: contacts.exportCard</a>
+* <a href="contacts.deleteContacts.html" name="contacts.deleteContacts">Deletes several contacts from the list.: contacts.deleteContacts</a>
 
-* <a href="messages_forwardMessage.html" name="messages_forwardMessage">Forward message: messages.forwardMessage</a>
+* <a href="contacts.unblock.html" name="contacts.unblock">Deletes the user from the blacklist.: contacts.unblock</a>
 
-* <a href="messages_forwardMessages.html" name="messages_forwardMessages">Forward messages: messages.forwardMessages</a>
+* <a href="account.updateNotifySettings.html" name="account.updateNotifySettings">Edits notification settings from a given user/group, from all users/all groups.: account.updateNotifySettings</a>
 
-* <a href="account_getAccountTTL.html" name="account_getAccountTTL">Get account TTL: account.getAccountTTL</a>
+* <a href="contacts.exportCard.html" name="contacts.exportCard">Export contact as card: contacts.exportCard</a>
 
-* <a href="contacts_getContacts.html" name="contacts_getContacts">Get all contacts: contacts.getContacts</a>
+* <a href="messages.forwardMessage.html" name="messages.forwardMessage">Forward message: messages.forwardMessage</a>
 
-* <a href="messages_getAllStickers.html" name="messages_getAllStickers">Get all stickerpacks: messages.getAllStickers</a>
+* <a href="messages.forwardMessages.html" name="messages.forwardMessages">Forwards messages by their IDs.: messages.forwardMessages</a>
 
-* <a href="contacts_getBlocked.html" name="contacts_getBlocked">Get blocked users: contacts.getBlocked</a>
+* <a href="messages.getAllStickers.html" name="messages.getAllStickers">Get all installed stickers: messages.getAllStickers</a>
 
-* <a href="help_getAppUpdate.html" name="help_getAppUpdate">Get info about app updates: help.getAppUpdate</a>
+* <a href="account.getAccountTTL.html" name="account.getAccountTTL">Get days to live of account: account.getAccountTTL</a>
 
-* <a href="messages_getChats.html" name="messages_getChats">Get info about chats: messages.getChats</a>
+* <a href="updates.getDifference.html" name="updates.getDifference">Get new [updates](https://core.telegram.org/api/updates).: updates.getDifference</a>
 
-* <a href="users_getUsers.html" name="users_getUsers">Get info about users: users.getUsers</a>
+* <a href="account.getPrivacy.html" name="account.getPrivacy">Get privacy settings of current account: account.getPrivacy</a>
 
-* <a href="help_getSupport.html" name="help_getSupport">Get info of support user: help.getSupport</a>
+* <a href="messages.getStickers.html" name="messages.getStickers">Get stickers by emoji: messages.getStickers</a>
 
-* <a href="help_getInviteText.html" name="help_getInviteText">Get invitation text: help.getInviteText</a>
+* <a href="contacts.getSuggested.html" name="contacts.getSuggested">Get suggested contacts: contacts.getSuggested</a>
 
-* <a href="messages_getMessages.html" name="messages_getMessages">Get messages: messages.getMessages</a>
+* <a href="messages.search.html" name="messages.search">Gets back found messages: messages.search</a>
 
-* <a href="help_getNearestDc.html" name="help_getNearestDc">Get nearest datacenter: help.getNearestDc</a>
+* <a href="messages.getHistory.html" name="messages.getHistory">Gets back the conversation history with one interlocutor / within a chat: messages.getHistory</a>
 
-* <a href="account_getNotifySettings.html" name="account_getNotifySettings">Get notification settings: account.getNotifySettings</a>
+* <a href="account.getNotifySettings.html" name="account.getNotifySettings">Gets current notification settings for a given user/group, from all users/all groups.: account.getNotifySettings</a>
 
-* <a href="contacts_getStatuses.html" name="contacts_getStatuses">Get online status of all users: contacts.getStatuses</a>
+* <a href="contacts.importCard.html" name="contacts.importCard">Import card as contact: contacts.importCard</a>
 
-* <a href="messages_getHistory.html" name="messages_getHistory">Get previous messages of a group: messages.getHistory</a>
+* <a href="contacts.importContacts.html" name="contacts.importContacts">Imports contacts: saves a full list on the server, adds already registered contacts to the contact list, returns added contacts and their info.: contacts.importContacts</a>
 
-* <a href="account_getPrivacy.html" name="account_getPrivacy">Get privacy settings: account.getPrivacy</a>
+* <a href="initConnection.html" name="initConnection">Initialize connection: initConnection</a>
 
-* <a href="help_getConfig.html" name="help_getConfig">Get server configuration: help.getConfig</a>
+* <a href="photos.updateProfilePhoto.html" name="photos.updateProfilePhoto">Installs a previously uploaded photo as a profile photo.: photos.updateProfilePhoto</a>
 
-* <a href="messages_getStickers.html" name="messages_getStickers">Get stickers: messages.getStickers</a>
+* <a href="auth.sendInvites.html" name="auth.sendInvites">Invite friends to telegram!: auth.sendInvites</a>
 
-* <a href="contacts_getSuggested.html" name="contacts_getSuggested">Get suggested contacts: contacts.getSuggested</a>
+* <a href="invokeWithLayer.html" name="invokeWithLayer">Invoke the specified query using the specified API [layer](https://core.telegram.org/api/invoking#layers): invokeWithLayer</a>
 
-* <a href="photos_getUserPhotos.html" name="photos_getUserPhotos">Get the profile photos of a user: photos.getUserPhotos</a>
-
-* <a href="messages_getDialogs.html" name="messages_getDialogs">Gets list of chats: you should use $MadelineProto->getDialogs() instead: https://docs.madelineproto.xyz/docs/DIALOGS.html: messages.getDialogs</a>
-
-* <a href="contacts_importCard.html" name="contacts_importCard">Import card as contact: contacts.importCard</a>
-
-* <a href="initConnection.html" name="initConnection">Initializes connection and save information on the user's device and application.: initConnection</a>
-
-* <a href="auth_sendInvites.html" name="auth_sendInvites">Invite friends to telegram!: auth.sendInvites</a>
-
-* <a href="invokeWithLayer.html" name="invokeWithLayer">Invoke this method with layer X: invokeWithLayer</a>
+* <a href="invokeAfterMsgs.html" name="invokeAfterMsgs">Invokes a query after a successfull completion of previous queries: invokeAfterMsgs</a>
 
 * <a href="invokeAfterMsg.html" name="invokeAfterMsg">Invokes a query after successfull completion of one of the previous queries.: invokeAfterMsg</a>
 
-* <a href="help_saveAppLog.html" name="help_saveAppLog">Log data for developer of this app: help.saveAppLog</a>
+* <a href="auth.importAuthorization.html" name="auth.importAuthorization">Logs in a user using a key transmitted from his native data-centre.: auth.importAuthorization</a>
 
-* <a href="messages_readMessageContents.html" name="messages_readMessageContents">Mark message as read: messages.readMessageContents</a>
+* <a href="auth.logOut.html" name="auth.logOut">Logs out the user.: auth.logOut</a>
 
-* <a href="messages_readEncryptedHistory.html" name="messages_readEncryptedHistory">Mark messages as read in secret chats: messages.readEncryptedHistory</a>
+* <a href="messages.readHistory.html" name="messages.readHistory">Marks message history as read.: messages.readHistory</a>
 
-* <a href="messages_readHistory.html" name="messages_readHistory">Mark messages as read: messages.readHistory</a>
+* <a href="messages.readEncryptedHistory.html" name="messages.readEncryptedHistory">Marks message history within a secret chat as read.: messages.readEncryptedHistory</a>
 
-* <a href="messages_receivedMessages.html" name="messages_receivedMessages">Mark messages as read: messages.receivedMessages</a>
+* <a href="messages.readMessageContents.html" name="messages.readMessageContents">Notifies the sender about the recipient having listened a voice message or watched a video.: messages.readMessageContents</a>
 
-* <a href="account_registerDevice.html" name="account_registerDevice">Register device for push notifications: account.registerDevice</a>
+* <a href="account.registerDevice.html" name="account.registerDevice">Register device to receive [PUSH notifications](https://core.telegram.org/api/push-updates): account.registerDevice</a>
 
-* <a href="messages_reportSpam.html" name="messages_reportSpam">Report a peer for spam: messages.reportSpam</a>
+* <a href="auth.signUp.html" name="auth.signUp">Registers a validated phone number in the system.: auth.signUp</a>
 
-* <a href="account_reportPeer.html" name="account_reportPeer">Report for spam: account.reportPeer</a>
+* <a href="messages.reportSpam.html" name="messages.reportSpam">Report a new incoming chat for spam, if the [peer settings](../constructors/peerSettings.md) of the chat allow us to do that: messages.reportSpam</a>
 
-* <a href="account_resetNotifySettings.html" name="account_resetNotifySettings">Reset all notification settings: account.resetNotifySettings</a>
+* <a href="account.reportPeer.html" name="account.reportPeer">Report a peer for violation of telegram's Terms of Service: account.reportPeer</a>
 
-* <a href="invokeAfterMsgs.html" name="invokeAfterMsgs">Result type returned by a current query.: invokeAfterMsgs</a>
+* <a href="account.resetNotifySettings.html" name="account.resetNotifySettings">Resets all notification settings from users and groups.: account.resetNotifySettings</a>
 
-* <a href="account_getWallPapers.html" name="account_getWallPapers">Returns a list of available wallpapers.: account.getWallPapers</a>
+* <a href="contacts.resolveUsername.html" name="contacts.resolveUsername">Resolve a @username to get peer info: contacts.resolveUsername</a>
 
-* <a href="contacts_search.html" name="contacts_search">Search contacts: contacts.search</a>
+* <a href="updates.getState.html" name="updates.getState">Returns a current state of updates.: updates.getState</a>
 
-* <a href="messages_search.html" name="messages_search">Search peers or messages: messages.search</a>
+* <a href="account.getWallPapers.html" name="account.getWallPapers">Returns a list of available wallpapers.: account.getWallPapers</a>
 
-* <a href="auth_sendSms.html" name="auth_sendSms">Send SMS verification code: auth.sendSms</a>
+* <a href="users.getUsers.html" name="users.getUsers">Returns basic user info according to their identifiers.: users.getUsers</a>
 
-* <a href="messages_sendEncryptedFile.html" name="messages_sendEncryptedFile">Send a file to a secret chat: messages.sendEncryptedFile</a>
+* <a href="messages.getChats.html" name="messages.getChats">Returns chat basic info on their IDs.: messages.getChats</a>
 
-* <a href="messages_sendMedia.html" name="messages_sendMedia">Send a media: messages.sendMedia</a>
+* <a href="messages.getDhConfig.html" name="messages.getDhConfig">Returns configuration parameters for Diffie-Hellman key generation. Can also return a random sequence of bytes of required length.: messages.getDhConfig</a>
 
-* <a href="messages_sendBroadcast.html" name="messages_sendBroadcast">Send a message to all users in the chat list: messages.sendBroadcast</a>
+* <a href="upload.getFile.html" name="upload.getFile">Returns content of a whole file or its part.: upload.getFile</a>
 
-* <a href="messages_sendMessage.html" name="messages_sendMessage">Send a message: messages.sendMessage</a>
+* <a href="help.getConfig.html" name="help.getConfig">Returns current configuration, icluding data center configuration.: help.getConfig</a>
 
-* <a href="messages_sendEncryptedService.html" name="messages_sendEncryptedService">Send a service message to a secret chat: messages.sendEncryptedService</a>
+* <a href="auth.exportAuthorization.html" name="auth.exportAuthorization">Returns data for copying authorization to another data-centre.: auth.exportAuthorization</a>
 
-* <a href="messages_sendEncrypted.html" name="messages_sendEncrypted">Send message to secret chat: messages.sendEncrypted</a>
+* <a href="users.getFullUser.html" name="users.getFullUser">Returns extended user info by ID.: users.getFullUser</a>
 
-* <a href="messages_setEncryptedTyping.html" name="messages_setEncryptedTyping">Send typing notification to secret chat: messages.setEncryptedTyping</a>
+* <a href="messages.getFullChat.html" name="messages.getFullChat">Returns full chat info according to its ID.: messages.getFullChat</a>
 
-* <a href="auth_sendCall.html" name="auth_sendCall">Send verification phone call: auth.sendCall</a>
+* <a href="help.getNearestDc.html" name="help.getNearestDc">Returns info on data centre nearest to the user.: help.getNearestDc</a>
 
-* <a href="account_setAccountTTL.html" name="account_setAccountTTL">Set account TTL: account.setAccountTTL</a>
+* <a href="help.getAppUpdate.html" name="help.getAppUpdate">Returns information on update availability for the current application.: help.getAppUpdate</a>
 
-* <a href="account_setPrivacy.html" name="account_setPrivacy">Set privacy settings: account.setPrivacy</a>
+* <a href="help.getInviteText.html" name="help.getInviteText">Returns text of a text message with an invitation.: help.getInviteText</a>
 
-* <a href="account_unregisterDevice.html" name="account_unregisterDevice">Stop sending PUSH notifications to app: account.unregisterDevice</a>
+* <a href="messages.getDialogs.html" name="messages.getDialogs">Returns the current user dialog list.: messages.getDialogs</a>
 
-* <a href="contacts_unblock.html" name="contacts_unblock">Unblock a user: contacts.unblock</a>
+* <a href="contacts.getContacts.html" name="contacts.getContacts">Returns the current user's contact list.: contacts.getContacts</a>
 
-* <a href="account_updateStatus.html" name="account_updateStatus">Update online status: account.updateStatus</a>
+* <a href="contacts.getBlocked.html" name="contacts.getBlocked">Returns the list of blocked users.: contacts.getBlocked</a>
 
-* <a href="account_updateProfile.html" name="account_updateProfile">Update profile info: account.updateProfile</a>
+* <a href="contacts.getStatuses.html" name="contacts.getStatuses">Returns the list of contact statuses.: contacts.getStatuses</a>
 
-* <a href="account_updateUsername.html" name="account_updateUsername">Update this user's username: account.updateUsername</a>
+* <a href="messages.getMessages.html" name="messages.getMessages">Returns the list of messages by their IDs.: messages.getMessages</a>
 
-* <a href="photos_uploadProfilePhoto.html" name="photos_uploadProfilePhoto">Upload profile photo: photos.uploadProfilePhoto</a>
+* <a href="photos.getUserPhotos.html" name="photos.getUserPhotos">Returns the list of user photos.: photos.getUserPhotos</a>
 
-* <a href="auth_sendCode.html" name="auth_sendCode">Use phone_login instead: auth.sendCode</a>
+* <a href="help.getSupport.html" name="help.getSupport">Returns the support user for the 'ask a question' feature.: help.getSupport</a>
 
-* <a href="auth_bindTempAuthKey.html" name="auth_bindTempAuthKey">You cannot use this method directly, instead modify the PFS and default_temp_auth_key_expires_in settings, see https://docs.madelineproto.xyz/docs/SETTINGS.html for more info: auth.bindTempAuthKey</a>
+* <a href="contacts.search.html" name="contacts.search">Returns users found by username substring.: contacts.search</a>
 
-* <a href="messages_getDhConfig.html" name="messages_getDhConfig">You cannot use this method directly, instead use $MadelineProto->getDhConfig();: messages.getDhConfig</a>
+* <a href="upload.saveBigFilePart.html" name="upload.saveBigFilePart">Saves a part of a large file (over 10Mb in size) to be later passed to one of the methods.: upload.saveBigFilePart</a>
 
-* <a href="messages_acceptEncryption.html" name="messages_acceptEncryption">You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling secret chats: messages.acceptEncryption</a>
+* <a href="upload.saveFilePart.html" name="upload.saveFilePart">Saves a part of file for futher sending to one of the methods.: upload.saveFilePart</a>
 
-* <a href="messages_discardEncryption.html" name="messages_discardEncryption">You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling secret chats: messages.discardEncryption</a>
+* <a href="help.saveAppLog.html" name="help.saveAppLog">Saves logs of application on the server.: help.saveAppLog</a>
 
-* <a href="messages_requestEncryption.html" name="messages_requestEncryption">You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling secret chats: messages.requestEncryption</a>
+* <a href="auth.sendSms.html" name="auth.sendSms">Send SMS verification code: auth.sendSms</a>
 
-* <a href="updates_getDifference.html" name="updates_getDifference">You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates: updates.getDifference</a>
+* <a href="messages.sendMedia.html" name="messages.sendMedia">Send a media: messages.sendMedia</a>
 
-* <a href="updates_getState.html" name="updates_getState">You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates: updates.getState</a>
+* <a href="messages.sendBroadcast.html" name="messages.sendBroadcast">Send a message to all users in the chat list: messages.sendBroadcast</a>
 
-* <a href="auth_exportAuthorization.html" name="auth_exportAuthorization">You cannot use this method directly, use $MadelineProto->exportAuthorization() instead, see https://docs.madelineproto.xyz/docs/LOGIN.html: auth.exportAuthorization</a>
+* <a href="auth.sendCode.html" name="auth.sendCode">Send the verification code for login: auth.sendCode</a>
 
-* <a href="auth_importAuthorization.html" name="auth_importAuthorization">You cannot use this method directly, use $MadelineProto->importAuthorization($authorization) instead, see https://docs.madelineproto.xyz/docs/LOGIN.html: auth.importAuthorization</a>
+* <a href="messages.setEncryptedTyping.html" name="messages.setEncryptedTyping">Send typing event by the current user to a secret chat.: messages.setEncryptedTyping</a>
 
-* <a href="auth_signIn.html" name="auth_signIn">You cannot use this method directly, use the complete_phone_login method instead (see https://docs.madelineproto.xyz for more info): auth.signIn</a>
+* <a href="auth.sendCall.html" name="auth.sendCall">Send verification phone call: auth.sendCall</a>
 
-* <a href="auth_signUp.html" name="auth_signUp">You cannot use this method directly, use the complete_signup method instead (see https://docs.madelineproto.xyz for more info): auth.signUp</a>
+* <a href="messages.setTyping.html" name="messages.setTyping">Sends a current user typing event (see [SendMessageAction](../types/SendMessageAction.md) for all event types) to a conversation partner or group.: messages.setTyping</a>
 
-* <a href="messages_getFullChat.html" name="messages_getFullChat">You cannot use this method directly, use the get_pwr_chat, get_info, get_full_info methods instead (see https://docs.madelineproto.xyz for more info): messages.getFullChat</a>
+* <a href="messages.sendMessage.html" name="messages.sendMessage">Sends a message to a chat: messages.sendMessage</a>
 
-* <a href="users_getFullUser.html" name="users_getFullUser">You cannot use this method directly, use the get_pwr_chat, get_info, get_full_info methods instead (see https://docs.madelineproto.xyz for more info): users.getFullUser</a>
+* <a href="messages.sendEncryptedFile.html" name="messages.sendEncryptedFile">Sends a message with a file attachment to a secret chat: messages.sendEncryptedFile</a>
 
-* <a href="auth_logOut.html" name="auth_logOut">You cannot use this method directly, use the logout method instead (see https://docs.madelineproto.xyz for more info): auth.logOut</a>
+* <a href="messages.requestEncryption.html" name="messages.requestEncryption">Sends a request to start a secret chat to the user.: messages.requestEncryption</a>
 
-* <a href="contacts_resolveUsername.html" name="contacts_resolveUsername">You cannot use this method directly, use the resolve_username, get_pwr_chat, get_info, get_full_info methods instead (see https://docs.madelineproto.xyz for more info): contacts.resolveUsername</a>
+* <a href="messages.sendEncryptedService.html" name="messages.sendEncryptedService">Sends a service message to a secret chat.: messages.sendEncryptedService</a>
 
-* <a href="upload_getFile.html" name="upload_getFile">You cannot use this method directly, use the upload, download_to_stream, download_to_file, download_to_dir methods instead; see https://docs.madelineproto.xyz for more info: upload.getFile</a>
+* <a href="messages.sendEncrypted.html" name="messages.sendEncrypted">Sends a text message to a secret chat.: messages.sendEncrypted</a>
 
-* <a href="upload_saveBigFilePart.html" name="upload_saveBigFilePart">You cannot use this method directly, use the upload, download_to_stream, download_to_file, download_to_dir methods instead; see https://docs.madelineproto.xyz for more info: upload.saveBigFilePart</a>
+* <a href="account.setAccountTTL.html" name="account.setAccountTTL">Set account self-destruction period: account.setAccountTTL</a>
 
-* <a href="upload_saveFilePart.html" name="upload_saveFilePart">You cannot use this method directly, use the upload, download_to_stream, download_to_file, download_to_dir methods instead; see https://docs.madelineproto.xyz for more info: upload.saveFilePart</a>
+* <a href="auth.signIn.html" name="auth.signIn">Signs in a user with a validated phone number.: auth.signIn</a>
 
-* <a href="messages_receivedQueue.html" name="messages_receivedQueue">You cannot use this method directly: messages.receivedQueue</a>
+* <a href="auth.resetAuthorizations.html" name="auth.resetAuthorizations">Terminates all user's authorized sessions except for the current one.
+
+After calling this method it is necessary to reregister the current device using the method [account.registerDevice](../methods/account.registerDevice.md): auth.resetAuthorizations</a>
+
+* <a href="photos.uploadProfilePhoto.html" name="photos.uploadProfilePhoto">Updates current user profile photo.: photos.uploadProfilePhoto</a>
+
+* <a href="account.updateStatus.html" name="account.updateStatus">Updates online user status.: account.updateStatus</a>
+
+* <a href="account.updateProfile.html" name="account.updateProfile">Updates user profile.: account.updateProfile</a>
+
+* <a href="account.checkUsername.html" name="account.checkUsername">Validates a username and checks availability.: account.checkUsername</a>
+
+* <a href="account.sendChangePhoneCode.html" name="account.sendChangePhoneCode">Verify a new phone number to associate to the current account: account.sendChangePhoneCode</a>
+
+* <a href="account.updateDeviceLocked.html" name="account.updateDeviceLocked">When client-side passcode lock feature is enabled, will not show message texts in incoming [PUSH notifications](https://core.telegram.org/api/push-updates).: account.updateDeviceLocked</a>
 

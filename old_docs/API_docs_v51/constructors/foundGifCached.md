@@ -1,6 +1,6 @@
 ---
 title: foundGifCached
-description: Found gif cached
+description: Found cached results
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: foundGifCached  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Found gif cached
+Found cached results
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|url|[string](../types/string.md) | Yes|URL|
-|photo|[Photo](../types/Photo.md) | Optional|Photo|
-|document|[Document](../types/Document.md) | Optional|Document|
+|url|[string](../types/string.md) | Yes|GIF URL|
+|photo|[Photo](../types/Photo.md) | Optional|Thumbnail|
+|document|[Document](../types/Document.md) | Optional|Actual GIF document to send|
 
 
 

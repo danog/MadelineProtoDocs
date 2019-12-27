@@ -1,6 +1,6 @@
 ---
 title: channelMessagesFilterEmpty
-description: Empty channel messages filter
+description: No filter
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelMessagesFilterEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty channel messages filter
+No filter
 
 
 

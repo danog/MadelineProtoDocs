@@ -1,6 +1,6 @@
 ---
 title: messages.peerDialogs
-description: Peer dialogs
+description: Dialog info of multiple peers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.peerDialogs  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Peer dialogs
+Dialog info of multiple peers
 
 ### Attributes:
 
@@ -18,7 +18,7 @@ Peer dialogs
 |messages|Array of [Message](../types/Message.md) | Yes|Messages|
 |chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
 |users|Array of [User](../types/User.md) | Yes|Users|
-|state|[updates\_State](../types/updates_State.md) | Yes|State|
+|state|[updates\_State](../types/updates_State.md) | Yes|Current [update state of dialog](https://core.telegram.org/api/updates)|
 
 
 

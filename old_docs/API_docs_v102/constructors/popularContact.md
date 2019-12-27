@@ -14,8 +14,8 @@ Popular contact
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|client\_id|[long](../types/long.md) | Yes|Client ID|
-|importers|[int](../types/int.md) | Yes|Importers|
+|client\_id|[long](../types/long.md) | Yes|Contact identifier|
+|importers|[int](../types/int.md) | Yes|How many people imported this contact|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: storage.fileJpeg
-description: File jpeg
+description: JPEG image. MIME type: `image/jpeg`.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: storage.fileJpeg  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-File jpeg
+JPEG image. MIME type: `image/jpeg`.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: sendMessageUploadAudioAction
-description: Send message upload audio action
+description: User is uploading a voice message.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageUploadAudioAction\_17  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Send message upload audio action
+User is uploading a voice message.
 
 
 

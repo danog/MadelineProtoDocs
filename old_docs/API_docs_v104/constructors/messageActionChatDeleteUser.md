@@ -1,6 +1,6 @@
 ---
 title: messageActionChatDeleteUser
-description: Message action chat delete user
+description: User left the group.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChatDeleteUser  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message action chat delete user
+User left the group.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User ID|
+|user\_id|[int](../types/int.md) | Yes|Leaving user ID|
 
 
 

@@ -8,8 +8,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Describes a block of web page instant view
-
 ### Possible values (constructors):
 
 [pageBlockUnsupported](../constructors/pageBlockUnsupported.md)  

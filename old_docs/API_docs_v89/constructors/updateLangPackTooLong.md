@@ -1,6 +1,6 @@
 ---
 title: updateLangPackTooLong
-description: Update lang pack too long
+description: A language pack has changed, the client should manually fetch the changed strings using [langpack.getDifference](../methods/langpack.getDifference.md)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateLangPackTooLong  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update lang pack too long
+A language pack has changed, the client should manually fetch the changed strings using [langpack.getDifference](../methods/langpack.getDifference.md)
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|lang\_code|[string](../types/string.md) | Yes|Lang code|
+|lang\_code|[string](../types/string.md) | Yes|Language code|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageActionRequestKey
-description: Decrypted message action request key
+description: Request rekeying, see [rekeying process](https://core.telegram.org/api/end-to-end/pfs)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionRequestKey\_20  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Decrypted message action request key
+Request rekeying, see [rekeying process](https://core.telegram.org/api/end-to-end/pfs)
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |exchange\_id|[long](../types/long.md) | Yes|Exchange ID|
-|g\_a|[bytes](../types/bytes.md) | Yes|G a|
+|g\_a|[bytes](../types/bytes.md) | Yes|g\_a, see [rekeying process](https://core.telegram.org/api/end-to-end/pfs)|
 
 
 

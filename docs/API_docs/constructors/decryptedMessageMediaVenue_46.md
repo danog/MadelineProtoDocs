@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageMediaVenue
-description: Decrypted message media venue
+description: Venue
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaVenue\_46  
@@ -8,18 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Decrypted message media venue
+Venue
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|lat|[double](../types/double.md) | Yes|Lat|
-|long|[double](../types/double.md) | Yes|Long|
-|title|[string](../types/string.md) | Yes|Title|
+|lat|[double](../types/double.md) | Yes|Latitude of venue|
+|long|[double](../types/double.md) | Yes|Longitude of venue|
+|title|[string](../types/string.md) | Yes|Venue name|
 |address|[string](../types/string.md) | Yes|Address|
-|provider|[string](../types/string.md) | Yes|Provider|
-|venue\_id|[string](../types/string.md) | Yes|Venue ID|
+|provider|[string](../types/string.md) | Yes|Venue provider: currently only "foursquare" needs to be supported|
+|venue\_id|[string](../types/string.md) | Yes|Venue ID in the provider's database|
 
 
 

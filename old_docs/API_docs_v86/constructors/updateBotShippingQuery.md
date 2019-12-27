@@ -1,6 +1,6 @@
 ---
 title: updateBotShippingQuery
-description: Update bot shipping query
+description: This object contains information about an incoming shipping query.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotShippingQuery  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update bot shipping query
+This object contains information about an incoming shipping query.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|query\_id|[long](../types/long.md) | Yes|Query ID|
-|user\_id|[int](../types/int.md) | Yes|User ID|
-|payload|[bytes](../types/bytes.md) | Yes|Payload|
-|shipping\_address|[PostAddress](../types/PostAddress.md) | Yes|Shipping address|
+|query\_id|[long](../types/long.md) | Yes|Unique query identifier|
+|user\_id|[int](../types/int.md) | Yes|User who sent the query|
+|payload|[bytes](../types/bytes.md) | Yes|Bot specified invoice payload|
+|shipping\_address|[PostAddress](../types/PostAddress.md) | Yes|User specified shipping address|
 
 
 

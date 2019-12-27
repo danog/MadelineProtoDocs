@@ -14,7 +14,7 @@ Resolved peer
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](../types/Peer.md) | Yes|Peer|
+|peer|[Peer](../types/Peer.md) | Yes|The peer|
 |chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
 |users|Array of [User](../types/User.md) | Yes|Users|
 

@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionParticipantJoin
-description: Joined participant
+description: A user has joined the group (in the case of big groups, info of the user that has joined isn't shown)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionParticipantJoin  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Joined participant
+A user has joined the group (in the case of big groups, info of the user that has joined isn't shown)
 
 
 

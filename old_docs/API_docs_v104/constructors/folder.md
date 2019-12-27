@@ -14,12 +14,12 @@ Folder
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|autofill\_new\_broadcasts|[Bool](../types/Bool.md) | Optional|New broadcasts?|
-|autofill\_public\_groups|[Bool](../types/Bool.md) | Optional|Autofill public groups?|
-|autofill\_new\_correspondents|[Bool](../types/Bool.md) | Optional|New correspondents|
-|id|[int](../types/int.md) | Yes|ID|
-|title|[string](../types/string.md) | Yes|Title|
-|photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|Photo|
+|autofill\_new\_broadcasts|[Bool](../types/Bool.md) | Optional|Automatically add new channels to this folder|
+|autofill\_public\_groups|[Bool](../types/Bool.md) | Optional|Automatically add joined new public supergroups to this folder|
+|autofill\_new\_correspondents|[Bool](../types/Bool.md) | Optional|Automatically add new private chats to this folder|
+|id|[int](../types/int.md) | Yes|Folder ID|
+|title|[string](../types/string.md) | Yes|Folder title|
+|photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|Folder picture|
 
 
 

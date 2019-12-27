@@ -1,6 +1,6 @@
 ---
 title: inputStickerSetEmpty
-description: Empty input sticker set
+description: Empty constructor
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputStickerSetEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty input sticker set
+Empty constructor
 
 
 

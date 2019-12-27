@@ -1,6 +1,6 @@
 ---
 title: cdnConfig
-description: CDN configuration
+description: Configuration for [CDN](https://core.telegram.org/cdn) file downloads.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: cdnConfig  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-CDN configuration
+Configuration for [CDN](https://core.telegram.org/cdn) file downloads.
 
 ### Attributes:
 

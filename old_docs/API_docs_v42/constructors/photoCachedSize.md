@@ -1,6 +1,6 @@
 ---
 title: photoCachedSize
-description: Photo cached size
+description: Description of an image and its content.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: photoCachedSize  
@@ -8,17 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Photo cached size
+Description of an image and its content.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|type|[string](../types/string.md) | Yes|Type|
-|location|[FileLocation](../types/FileLocation.md) | Yes|Location|
-|w|[int](../types/int.md) | Yes|Width|
-|h|[int](../types/int.md) | Yes|Height|
-|bytes|[bytes](../types/bytes.md) | Yes|Bytes|
+|type|[string](../types/string.md) | Yes|Thumbnail type|
+|location|[FileLocation](../types/FileLocation.md) | Yes|File location|
+|w|[int](../types/int.md) | Yes|Image width|
+|h|[int](../types/int.md) | Yes|Image height|
+|bytes|[bytes](../types/bytes.md) | Yes|Binary data, file content|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: chatPhotoEmpty
-description: Empty chat photo
+description: Group photo is not set.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatPhotoEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty chat photo
+Group photo is not set.
 
 
 

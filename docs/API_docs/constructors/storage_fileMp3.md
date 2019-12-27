@@ -1,6 +1,6 @@
 ---
 title: storage.fileMp3
-description: File mp3
+description: Mp3 audio. MIME type: `audio/mpeg`.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: storage.fileMp3  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-File mp3
+Mp3 audio. MIME type: `audio/mpeg`.
 
 
 

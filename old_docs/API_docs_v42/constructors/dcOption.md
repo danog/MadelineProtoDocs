@@ -1,6 +1,6 @@
 ---
 title: dcOption
-description: DC option
+description: Data centre
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: dcOption  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-DC option
+Data centre
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|ipv6|[Bool](../types/Bool.md) | Optional|Ipv6?|
-|media\_only|[Bool](../types/Bool.md) | Optional|Media only?|
-|id|[int](../types/int.md) | Yes|ID|
-|ip\_address|[string](../types/string.md) | Yes|Ip address|
+|ipv6|[Bool](../types/Bool.md) | Optional|Whether the specified IP is an IPv6 address|
+|media\_only|[Bool](../types/Bool.md) | Optional|Whether this DC should only be used to [download or upload files](https://core.telegram.org/api/files)|
+|id|[int](../types/int.md) | Yes|DC ID|
+|ip\_address|[string](../types/string.md) | Yes|IP address of DC|
 |port|[int](../types/int.md) | Yes|Port|
 
 

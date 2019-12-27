@@ -1,6 +1,6 @@
 ---
 title: botInlineMessageMediaContact
-description: Bot inline message media contact
+description: Send a contact
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: botInlineMessageMediaContact  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Bot inline message media contact
+Send a contact
 
 ### Attributes:
 
@@ -17,7 +17,7 @@ Bot inline message media contact
 |phone\_number|[string](../types/string.md) | Yes|Phone number|
 |first\_name|[string](../types/string.md) | Yes|First name|
 |last\_name|[string](../types/string.md) | Yes|Last name|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Reply markup|
+|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Inline keyboard|
 
 
 

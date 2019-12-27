@@ -1,6 +1,6 @@
 ---
 title: textUrl
-description: Text URL
+description: Link
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textUrl  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Text URL
+Link
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|text|[RichText](../types/RichText.md) | Yes|Text|
-|url|[string](../types/string.md) | Yes|URL|
-|webpage\_id|[long](../types/long.md) | Yes|Webpage ID|
+|text|[RichText](../types/RichText.md) | Yes|Text of link|
+|url|[string](../types/string.md) | Yes|Webpage HTTP URL|
+|webpage\_id|[long](../types/long.md) | Yes|If a preview was already generated for the page, the page ID|
 
 
 

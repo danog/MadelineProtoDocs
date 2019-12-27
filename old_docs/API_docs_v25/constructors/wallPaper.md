@@ -1,6 +1,6 @@
 ---
 title: wallPaper
-description: Wall paper
+description: Wallpaper settings.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: wallPaper  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Wall paper
+Wallpaper settings.
 
 ### Attributes:
 

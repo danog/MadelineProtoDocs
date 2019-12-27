@@ -1,6 +1,6 @@
 ---
 title: messageMediaUnsupported
-description: Message media unsupported
+description: Current version of the client does not support this media type.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaUnsupported  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message media unsupported
+Current version of the client does not support this media type.
 
 ### Attributes:
 

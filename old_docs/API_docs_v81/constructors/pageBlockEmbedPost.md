@@ -1,6 +1,6 @@
 ---
 title: pageBlockEmbedPost
-description: Page block embed post
+description: An embedded post
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockEmbedPost  
@@ -8,17 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page block embed post
+An embedded post
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|url|[string](../types/string.md) | Yes|URL|
-|webpage\_id|[long](../types/long.md) | Yes|Webpage ID|
-|author\_photo\_id|[long](../types/long.md) | Yes|Author photo ID|
-|author|[string](../types/string.md) | Yes|Author|
-|date|[int](../types/int.md) | Yes|Date|
+|url|[string](../types/string.md) | Yes|Web page URL|
+|webpage\_id|[long](../types/long.md) | Yes|ID of generated webpage preview|
+|author\_photo\_id|[long](../types/long.md) | Yes|ID of the author's photo|
+|author|[string](../types/string.md) | Yes|Author name|
+|date|[int](../types/int.md) | Yes|Creation date|
 |blocks|Array of [PageBlock](../types/PageBlock.md) | Yes|Blocks|
 |caption|[RichText](../types/RichText.md) | Yes|Caption|
 

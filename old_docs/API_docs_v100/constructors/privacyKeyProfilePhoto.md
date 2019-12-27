@@ -1,6 +1,6 @@
 ---
 title: privacyKeyProfilePhoto
-description: Show profile photo?
+description: Whether the profile picture of the user is visible
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: privacyKeyProfilePhoto  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Show profile photo?
+Whether the profile picture of the user is visible
 
 
 

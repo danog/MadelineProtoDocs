@@ -1,6 +1,6 @@
 ---
 title: account.autoDownloadSettings
-description: Autodownload settings
+description: Media autodownload settings
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: account.autoDownloadSettings  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Autodownload settings
+Media autodownload settings
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|low|[AutoDownloadSettings](../types/AutoDownloadSettings.md) | Yes|Low preset?|
-|medium|[AutoDownloadSettings](../types/AutoDownloadSettings.md) | Yes|Medium preset?|
-|high|[AutoDownloadSettings](../types/AutoDownloadSettings.md) | Yes|High preset?|
+|low|[AutoDownloadSettings](../types/AutoDownloadSettings.md) | Yes|Low data usage preset|
+|medium|[AutoDownloadSettings](../types/AutoDownloadSettings.md) | Yes|Medium data usage preset|
+|high|[AutoDownloadSettings](../types/AutoDownloadSettings.md) | Yes|High data usage preset|
 
 
 

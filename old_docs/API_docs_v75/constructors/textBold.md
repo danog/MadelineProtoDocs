@@ -1,6 +1,6 @@
 ---
 title: textBold
-description: Text bold
+description: **Bold** text
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textBold  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Text bold
+**Bold** text
 
 ### Attributes:
 

@@ -1,6 +1,6 @@
 ---
 title: phoneConnection
-description: Phone connection
+description: Identifies an endpoint that can be used to connect to the other user in a phone call
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneConnection  
@@ -8,17 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Phone connection
+Identifies an endpoint that can be used to connect to the other user in a phone call
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID|
-|ip|[string](../types/string.md) | Yes|Ip|
-|ipv6|[string](../types/string.md) | Yes|Ipv6|
-|port|[int](../types/int.md) | Yes|Port|
-|peer\_tag|[bytes](../types/bytes.md) | Yes|Peer tag|
+|id|[long](../types/long.md) | Yes|Endpoint ID|
+|ip|[string](../types/string.md) | Yes|IP address of endpoint|
+|ipv6|[string](../types/string.md) | Yes|IPv6 address of endpoint|
+|port|[int](../types/int.md) | Yes|Port ID|
+|peer\_tag|[bytes](../types/bytes.md) | Yes|Our peer tag|
 
 
 

@@ -1,6 +1,7 @@
 ---
 title: stickerPack
-description: Sticker pack
+description: A stickerpack is a group of stickers associated to the same emoji.  
+It is **not** a sticker pack the way it is usually intended, you may be looking for a [StickerSet](../types/StickerSet.md).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: stickerPack  
@@ -8,13 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Sticker pack
+A stickerpack is a group of stickers associated to the same emoji.  
+It is **not** a sticker pack the way it is usually intended, you may be looking for a [StickerSet](../types/StickerSet.md).
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|emoticon|[string](../types/string.md) | Yes|Emoticon|
+|emoticon|[string](../types/string.md) | Yes|Emoji|
 |documents|Array of [long](../types/long.md) | Yes|Documents|
 
 

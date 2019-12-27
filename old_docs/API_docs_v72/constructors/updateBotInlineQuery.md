@@ -1,6 +1,6 @@
 ---
 title: updateBotInlineQuery
-description: Update bot inline query
+description: An incoming inline query
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotInlineQuery  
@@ -8,17 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update bot inline query
+An incoming inline query
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |query\_id|[long](../types/long.md) | Yes|Query ID|
-|user\_id|[int](../types/int.md) | Yes|User ID|
-|query|[string](../types/string.md) | Yes|Query|
-|geo|[GeoPoint](../types/GeoPoint.md) | Optional|Geo|
-|offset|[string](../types/string.md) | Yes|Offset|
+|user\_id|[int](../types/int.md) | Yes|User that sent the query|
+|query|[string](../types/string.md) | Yes|Text of query|
+|geo|[GeoPoint](../types/GeoPoint.md) | Optional|Attached geolocation|
+|offset|[string](../types/string.md) | Yes|Offset to navigate through results|
 
 
 

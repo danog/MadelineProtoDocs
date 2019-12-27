@@ -1,6 +1,6 @@
 ---
 title: messages.foundStickerSetsNotModified
-description: Found sticker sets not modified
+description: No further results were found
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.foundStickerSetsNotModified  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Found sticker sets not modified
+No further results were found
 
 
 

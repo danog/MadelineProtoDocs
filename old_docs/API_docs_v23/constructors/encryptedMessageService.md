@@ -1,6 +1,6 @@
 ---
 title: encryptedMessageService
-description: Encrypted message service
+description: Encrypted service message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: encryptedMessageService  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Encrypted message service
+Encrypted service message
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[int](../types/int.md) | Yes|Chat ID|
-|date|[int](../types/int.md) | Yes|Date|
+|chat\_id|[int](../types/int.md) | Yes|ID of encrypted chat|
+|date|[int](../types/int.md) | Yes|Date of sending|
 |decrypted\_message|[DecryptedMessage](../types/DecryptedMessage.md) | Yes|Decrypted message|
 
 

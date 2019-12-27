@@ -1,6 +1,6 @@
 ---
 title: phoneCallRequested
-description: Phone call requested
+description: Requested phone call
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneCallRequested  
@@ -8,19 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Phone call requested
+Requested phone call
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID|
+|id|[long](../types/long.md) | Yes|Phone call ID|
 |access\_hash|[long](../types/long.md) | Yes|Access hash|
-|date|[int](../types/int.md) | Yes|Date|
-|admin\_id|[int](../types/int.md) | Yes|Admin ID|
-|participant\_id|[int](../types/int.md) | Yes|Participant ID|
-|g\_a\_hash|[bytes](../types/bytes.md) | Yes|G a hash|
-|protocol|[PhoneCallProtocol](../types/PhoneCallProtocol.md) | Yes|Protocol|
+|date|[int](../types/int.md) | Yes|When was the phone call created|
+|admin\_id|[int](../types/int.md) | Yes|ID of the creator of the phone call|
+|participant\_id|[int](../types/int.md) | Yes|ID of the other participant of the phone call|
+|g\_a\_hash|[bytes](../types/bytes.md) | Yes|[Parameter for key exchange](https://core.telegram.org/api/end-to-end/voice-calls)|
+|protocol|[PhoneCallProtocol](../types/PhoneCallProtocol.md) | Yes|Call protocol info to be passed to libtgvoip|
 
 
 

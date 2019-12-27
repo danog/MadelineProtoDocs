@@ -1,6 +1,6 @@
 ---
 title: updateEditMessage
-description: Update edit message
+description: A message was edited
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateEditMessage  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update edit message
+A message was edited
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|message|[Message](../types/Message.md) | Optional|Message|
-|pts|[int](../types/int.md) | Yes|Pts|
-|pts\_count|[int](../types/int.md) | Yes|Pts count|
+|message|[Message](../types/Message.md) | Optional|The new edited message|
+|pts|[int](../types/int.md) | Yes|[PTS](https://core.telegram.org/api/updates)|
+|pts\_count|[int](../types/int.md) | Yes|[PTS count](https://core.telegram.org/api/updates)|
 
 
 

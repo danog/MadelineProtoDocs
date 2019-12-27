@@ -14,9 +14,9 @@ Channel messages
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|inexact|[Bool](../types/Bool.md) | Optional|Inexact?|
-|pts|[int](../types/int.md) | Yes|Pts|
-|count|[int](../types/int.md) | Yes|Count|
+|inexact|[Bool](../types/Bool.md) | Optional|If set, returned results may be inexact|
+|pts|[int](../types/int.md) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|
+|count|[int](../types/int.md) | Yes|Total number of results were found server-side (may not be all included here)|
 |messages|Array of [Message](../types/Message.md) | Yes|Messages|
 |chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
 |users|Array of [User](../types/User.md) | Yes|Users|

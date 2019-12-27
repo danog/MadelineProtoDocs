@@ -1,6 +1,6 @@
 ---
 title: inputFileLocation
-description: File location
+description: DEPRECATED location of a photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputFileLocation  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-File location
+DEPRECATED location of a photo
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|volume\_id|[long](../types/long.md) | Yes|Volume ID|
-|local\_id|[int](../types/int.md) | Yes|Local ID|
-|secret|[long](../types/long.md) | Yes|Secret|
+|volume\_id|[long](../types/long.md) | Yes|Server volume|
+|local\_id|[int](../types/int.md) | Yes|File identifier|
+|secret|[long](../types/long.md) | Yes|Check sum to access the file|
 
 
 

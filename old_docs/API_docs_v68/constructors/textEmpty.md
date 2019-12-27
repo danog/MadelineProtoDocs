@@ -1,6 +1,6 @@
 ---
 title: textEmpty
-description: Empty text
+description: Empty rich text element
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty text
+Empty rich text element
 
 
 

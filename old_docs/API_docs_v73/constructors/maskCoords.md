@@ -1,6 +1,13 @@
 ---
 title: maskCoords
-description: Mask coords
+description: Position on a photo where a mask should be placed
+
+The `n` position indicates where the mask should be placed:
+
+- 0 => Relative to the forehead
+- 1 => Relative to the eyes
+- 2 => Relative to the mouth
+- 3 => Relative to the chin
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: maskCoords  
@@ -8,16 +15,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Mask coords
+Position on a photo where a mask should be placed
+
+The `n` position indicates where the mask should be placed:
+
+- 0 => Relative to the forehead
+- 1 => Relative to the eyes
+- 2 => Relative to the mouth
+- 3 => Relative to the chin
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|n|[int](../types/int.md) | Yes|N|
-|x|[double](../types/double.md) | Yes|X|
-|y|[double](../types/double.md) | Yes|Y|
-|zoom|[double](../types/double.md) | Yes|Zoom|
+|n|[int](../types/int.md) | Yes|Part of the face, relative to which the mask should be placed|
+|x|[double](../types/double.md) | Yes|Shift by X-axis measured in widths of the mask scaled to the face size, from left to right. (For example, -1.0 will place the mask just to the left of the default mask position)|
+|y|[double](../types/double.md) | Yes|Shift by Y-axis measured in widths of the mask scaled to the face size, from left to right. (For example, -1.0 will place the mask just to the left of the default mask position)|
+|zoom|[double](../types/double.md) | Yes|Mask scaling coefficient. (For example, 2.0 means a doubled size)|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: inputPeerNotifySettings
-description: Peer notify settings
+description: Notification settings.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPeerNotifySettings  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Peer notify settings
+Notification settings.
 
 ### Attributes:
 
@@ -16,8 +16,8 @@ Peer notify settings
 |----------|---------------|----------|-------------|
 |show\_previews|[Bool](../types/Bool.md) | Optional|Show previews?|
 |silent|[Bool](../types/Bool.md) | Optional|Silent?|
-|mute\_until|[int](../types/int.md) | Yes|Mute until|
-|sound|[string](../types/string.md) | Yes|Sound|
+|mute\_until|[int](../types/int.md) | Yes|Date until which all notifications shall be switched off|
+|sound|[string](../types/string.md) | Yes|Name of an audio file for notification|
 
 
 

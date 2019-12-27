@@ -1,6 +1,6 @@
 ---
 title: inputPhoto
-description: Photo
+description: Defines a photo for further interaction.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPhoto  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Photo
+Defines a photo for further interaction.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID|
-|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|id|[long](../types/long.md) | Yes|Photo identifier|
+|access\_hash|[long](../types/long.md) | Yes|**access\_hash** value from the [photo](../constructors/photo.md) constructor|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: account.wallPapersNotModified
-description: No wallpapers were modified
+description: No new wallpapers were found
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: account.wallPapersNotModified  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-No wallpapers were modified
+No new wallpapers were found
 
 
 

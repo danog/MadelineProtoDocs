@@ -1,6 +1,6 @@
 ---
 title: draftMessage
-description: Draft message
+description: Represents a message [draft](https://core.telegram.org/api/drafts).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: draftMessage  
@@ -8,17 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Draft message
+Represents a message [draft](https://core.telegram.org/api/drafts).
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|no\_webpage|[Bool](../types/Bool.md) | Optional|No webpage?|
-|reply\_to\_msg\_id|[int](../types/int.md) | Optional|Reply to msg ID|
-|message|[string](../types/string.md) | Yes|Message|
+|no\_webpage|[Bool](../types/Bool.md) | Optional|Whether no webpage preview will be generated|
+|reply\_to\_msg\_id|[int](../types/int.md) | Optional|The message this message will reply to|
+|message|[string](../types/string.md) | Yes|The draft|
 |entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|Entities|
-|date|[int](../types/int.md) | Yes|Date|
+|date|[int](../types/int.md) | Yes|Date of last update of the draft.|
 
 
 

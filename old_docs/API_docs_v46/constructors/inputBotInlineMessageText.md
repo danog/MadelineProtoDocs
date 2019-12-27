@@ -1,6 +1,6 @@
 ---
 title: inputBotInlineMessageText
-description: Bot inline message text
+description: Simple text message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputBotInlineMessageText  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Bot inline message text
+Simple text message
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|no\_webpage|[Bool](../types/Bool.md) | Optional|No webpage?|
+|no\_webpage|[Bool](../types/Bool.md) | Optional|Disable webpage preview|
 |message|[string](../types/string.md) | Yes|Message|
 |entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|Entities|
 

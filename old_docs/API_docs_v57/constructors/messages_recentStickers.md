@@ -1,6 +1,6 @@
 ---
 title: messages.recentStickers
-description: Recent stickers
+description: Recently used stickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.recentStickers  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Recent stickers
+Recently used stickers
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[int](../types/int.md) | Yes|Hash|
+|hash|[int](../types/int.md) | Yes|[Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
 |stickers|Array of [Document](../types/Document.md) | Yes|Stickers|
 
 

@@ -1,6 +1,6 @@
 ---
 title: storage.fileWebp
-description: File webp
+description: WEBP image. MIME type: `image/webp`.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: storage.fileWebp  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-File webp
+WEBP image. MIME type: `image/webp`.
 
 
 

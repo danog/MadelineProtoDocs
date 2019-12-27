@@ -1,6 +1,6 @@
 ---
 title: inputUserSelf
-description: User self
+description: Defines the current user.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputUserSelf  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-User self
+Defines the current user.
 
 
 

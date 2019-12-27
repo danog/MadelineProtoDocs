@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionChangeLinkedChat
-description: Linked chat was changed
+description: The linked chat was changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionChangeLinkedChat  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Linked chat was changed
+The linked chat was changed
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|prev\_value|[int](../types/int.md) | Yes|Old linked chat|
+|prev\_value|[int](../types/int.md) | Yes|Previous linked chat|
 |new\_value|[int](../types/int.md) | Yes|New linked chat|
 
 

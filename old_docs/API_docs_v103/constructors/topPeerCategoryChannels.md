@@ -1,6 +1,6 @@
 ---
 title: topPeerCategoryChannels
-description: Top peer category channels
+description: Most frequently visited channels
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: topPeerCategoryChannels  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Top peer category channels
+Most frequently visited channels
 
 
 

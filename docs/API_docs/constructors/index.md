@@ -46,7 +46,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ***
 <br><br>[$auth\_authorization](../constructors/auth_authorization.md) = \['tmp_sessions' => [int](../types/int.md), 'user' => [User](../types/User.md), \];<a name="auth_authorization"></a>  
 
-[$auth\_authorizationSignUpRequired](../constructors/auth_authorizationSignUpRequired.md) = \['terms_of_service' => [help\_TermsOfService](../types/help_TermsOfService.md), \];<a name="auth_authorizationSignUpRequired"></a>  
+[$auth\_authorizationSignUpRequired](../constructors/auth_authorizationSignUpRequired.md) = \['terms_of_service' => [help.TermsOfService](../types/help.TermsOfService.md), \];<a name="auth_authorizationSignUpRequired"></a>  
 
 [$auth\_codeTypeCall](../constructors/auth_codeTypeCall.md) = \[\];<a name="auth_codeTypeCall"></a>  
 
@@ -58,7 +58,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$auth\_passwordRecovery](../constructors/auth_passwordRecovery.md) = \['email_pattern' => [string](../types/string.md), \];<a name="auth_passwordRecovery"></a>  
 
-[$auth\_sentCode](../constructors/auth_sentCode.md) = \['type' => [auth\_SentCodeType](../types/auth_SentCodeType.md), 'phone_code_hash' => [string](../types/string.md), 'next_type' => [auth\_CodeType](../types/auth_CodeType.md), 'timeout' => [int](../types/int.md), \];<a name="auth_sentCode"></a>  
+[$auth\_sentCode](../constructors/auth_sentCode.md) = \['type' => [auth.SentCodeType](../types/auth.SentCodeType.md), 'phone_code_hash' => [string](../types/string.md), 'next_type' => [auth.CodeType](../types/auth.CodeType.md), 'timeout' => [int](../types/int.md), \];<a name="auth_sentCode"></a>  
 
 [$auth\_sentCodeTypeApp](../constructors/auth_sentCodeTypeApp.md) = \['length' => [int](../types/int.md), \];<a name="auth_sentCodeTypeApp"></a>  
 
@@ -580,7 +580,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$help\_termsOfService](../constructors/help_termsOfService.md) = \['popup' => [Bool](../types/Bool.md), 'id' => [DataJSON](../types/DataJSON.md), 'text' => [string](../types/string.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], 'min_age_confirm' => [int](../types/int.md), \];<a name="help_termsOfService"></a>  
 
-[$help\_termsOfServiceUpdate](../constructors/help_termsOfServiceUpdate.md) = \['expires' => [int](../types/int.md), 'terms_of_service' => [help\_TermsOfService](../types/help_TermsOfService.md), \];<a name="help_termsOfServiceUpdate"></a>  
+[$help\_termsOfServiceUpdate](../constructors/help_termsOfServiceUpdate.md) = \['expires' => [int](../types/int.md), 'terms_of_service' => [help.TermsOfService](../types/help.TermsOfService.md), \];<a name="help_termsOfServiceUpdate"></a>  
 
 [$help\_termsOfServiceUpdateEmpty](../constructors/help_termsOfServiceUpdateEmpty.md) = \['expires' => [int](../types/int.md), \];<a name="help_termsOfServiceUpdateEmpty"></a>  
 
@@ -1344,7 +1344,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$messages\_messagesSlice](../constructors/messages_messagesSlice.md) = \['inexact' => [Bool](../types/Bool.md), 'count' => [int](../types/int.md), 'next_rate' => [int](../types/int.md), 'messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="messages_messagesSlice"></a>  
 
-[$messages\_peerDialogs](../constructors/messages_peerDialogs.md) = \['dialogs' => \[[Dialog](../types/Dialog.md)\], 'messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], 'state' => [updates\_State](../types/updates_State.md), \];<a name="messages_peerDialogs"></a>  
+[$messages\_peerDialogs](../constructors/messages_peerDialogs.md) = \['dialogs' => \[[Dialog](../types/Dialog.md)\], 'messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], 'state' => [updates.State](../types/updates.State.md), \];<a name="messages_peerDialogs"></a>  
 
 [$messages\_recentStickers](../constructors/messages_recentStickers.md) = \['hash' => [int](../types/int.md), 'packs' => \[[StickerPack](../types/StickerPack.md)\], 'stickers' => \[[Document](../types/Document.md)\], 'dates' => \[[int](../types/int.md)\], \];<a name="messages_recentStickers"></a>  
 
@@ -2129,7 +2129,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$updateNewScheduledMessage](../constructors/updateNewScheduledMessage.md) = \['message' => [Message](../types/Message.md), \];<a name="updateNewScheduledMessage"></a>  
 
 ***
-<br><br>[$updateNewStickerSet](../constructors/updateNewStickerSet.md) = \['stickerset' => [messages\_StickerSet](../types/messages_StickerSet.md), \];<a name="updateNewStickerSet"></a>  
+<br><br>[$updateNewStickerSet](../constructors/updateNewStickerSet.md) = \['stickerset' => [messages.StickerSet](../types/messages.StickerSet.md), \];<a name="updateNewStickerSet"></a>  
 
 ***
 <br><br>[$updateNotifySettings](../constructors/updateNotifySettings.md) = \['peer' => [NotifyPeer](../types/NotifyPeer.md), 'notify_settings' => [PeerNotifySettings](../types/PeerNotifySettings.md), \];<a name="updateNotifySettings"></a>  
@@ -2240,11 +2240,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$updates\_channelDifferenceTooLong](../constructors/updates_channelDifferenceTooLong.md) = \['final' => [Bool](../types/Bool.md), 'timeout' => [int](../types/int.md), 'dialog' => [Dialog](../types/Dialog.md), 'messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="updates_channelDifferenceTooLong"></a>  
 
-[$updates\_difference](../constructors/updates_difference.md) = \['new_messages' => \[[Message](../types/Message.md)\], 'new_encrypted_messages' => \[[EncryptedMessage](../types/EncryptedMessage.md)\], 'other_updates' => \[[Update](../types/Update.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], 'state' => [updates\_State](../types/updates_State.md), \];<a name="updates_difference"></a>  
+[$updates\_difference](../constructors/updates_difference.md) = \['new_messages' => \[[Message](../types/Message.md)\], 'new_encrypted_messages' => \[[EncryptedMessage](../types/EncryptedMessage.md)\], 'other_updates' => \[[Update](../types/Update.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], 'state' => [updates.State](../types/updates.State.md), \];<a name="updates_difference"></a>  
 
 [$updates\_differenceEmpty](../constructors/updates_differenceEmpty.md) = \['date' => [int](../types/int.md), 'seq' => [int](../types/int.md), \];<a name="updates_differenceEmpty"></a>  
 
-[$updates\_differenceSlice](../constructors/updates_differenceSlice.md) = \['new_messages' => \[[Message](../types/Message.md)\], 'new_encrypted_messages' => \[[EncryptedMessage](../types/EncryptedMessage.md)\], 'other_updates' => \[[Update](../types/Update.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], 'intermediate_state' => [updates\_State](../types/updates_State.md), \];<a name="updates_differenceSlice"></a>  
+[$updates\_differenceSlice](../constructors/updates_differenceSlice.md) = \['new_messages' => \[[Message](../types/Message.md)\], 'new_encrypted_messages' => \[[EncryptedMessage](../types/EncryptedMessage.md)\], 'other_updates' => \[[Update](../types/Update.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], 'intermediate_state' => [updates.State](../types/updates.State.md), \];<a name="updates_differenceSlice"></a>  
 
 [$updates\_differenceTooLong](../constructors/updates_differenceTooLong.md) = \['pts' => [int](../types/int.md), \];<a name="updates_differenceTooLong"></a>  
 
@@ -2255,11 +2255,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$upload\_cdnFileReuploadNeeded](../constructors/upload_cdnFileReuploadNeeded.md) = \['request_token' => [bytes](../types/bytes.md), \];<a name="upload_cdnFileReuploadNeeded"></a>  
 
-[$upload\_file](../constructors/upload_file.md) = \['type' => [storage\_FileType](../types/storage_FileType.md), 'mtime' => [int](../types/int.md), 'bytes' => [bytes](../types/bytes.md), \];<a name="upload_file"></a>  
+[$upload\_file](../constructors/upload_file.md) = \['type' => [storage.FileType](../types/storage.FileType.md), 'mtime' => [int](../types/int.md), 'bytes' => [bytes](../types/bytes.md), \];<a name="upload_file"></a>  
 
 [$upload\_fileCdnRedirect](../constructors/upload_fileCdnRedirect.md) = \['dc_id' => [int](../types/int.md), 'file_token' => [bytes](../types/bytes.md), 'encryption_key' => [bytes](../types/bytes.md), 'encryption_iv' => [bytes](../types/bytes.md), 'file_hashes' => \[[FileHash](../types/FileHash.md)\], \];<a name="upload_fileCdnRedirect"></a>  
 
-[$upload\_webFile](../constructors/upload_webFile.md) = \['size' => [int](../types/int.md), 'mime_type' => [string](../types/string.md), 'file_type' => [storage\_FileType](../types/storage_FileType.md), 'mtime' => [int](../types/int.md), 'bytes' => [bytes](../types/bytes.md), \];<a name="upload_webFile"></a>  
+[$upload\_webFile](../constructors/upload_webFile.md) = \['size' => [int](../types/int.md), 'mime_type' => [string](../types/string.md), 'file_type' => [storage.FileType](../types/storage.FileType.md), 'mtime' => [int](../types/int.md), 'bytes' => [bytes](../types/bytes.md), \];<a name="upload_webFile"></a>  
 
 ***
 <br><br>[$urlAuthResultAccepted](../constructors/urlAuthResultAccepted.md) = \['url' => [string](../types/string.md), \];<a name="urlAuthResultAccepted"></a>  

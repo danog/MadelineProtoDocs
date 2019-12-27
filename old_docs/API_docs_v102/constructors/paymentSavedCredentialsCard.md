@@ -1,6 +1,6 @@
 ---
 title: paymentSavedCredentialsCard
-description: Payment saved credentials card
+description: Saved credit card
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: paymentSavedCredentialsCard  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Payment saved credentials card
+Saved credit card
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[string](../types/string.md) | Yes|ID|
+|id|[string](../types/string.md) | Yes|Card ID|
 |title|[string](../types/string.md) | Yes|Title|
 
 

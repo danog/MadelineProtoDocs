@@ -1,6 +1,6 @@
 ---
 title: stickerSetMultiCovered
-description: Sticker set multi covered
+description: Stickerset, with a specific stickers as preview
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: stickerSetMultiCovered  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Sticker set multi covered
+Stickerset, with a specific stickers as preview
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|set|[StickerSet](../types/StickerSet.md) | Yes|Set|
+|set|[StickerSet](../types/StickerSet.md) | Yes|Stickerset|
 |covers|Array of [Document](../types/Document.md) | Yes|Covers|
 
 

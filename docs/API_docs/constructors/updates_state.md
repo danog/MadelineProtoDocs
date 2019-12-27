@@ -1,6 +1,6 @@
 ---
 title: updates.state
-description: State
+description: Updates state.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updates.state  
@@ -8,17 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-State
+Updates state.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|pts|[int](../types/int.md) | Yes|Pts|
-|qts|[int](../types/int.md) | Yes|Qts|
-|date|[int](../types/int.md) | Yes|Date|
-|seq|[int](../types/int.md) | Yes|Seq|
-|unread\_count|[int](../types/int.md) | Yes|Unread count|
+|pts|[int](../types/int.md) | Yes|Number of events occured in a text box|
+|qts|[int](../types/int.md) | Yes|Position in a sequence of updates in secret chats. For further detailes refer to article [secret chats](https://core.telegram.org/api/end-to-end)<br>Parameter was added in [eigth layer](https://core.telegram.org/api/layers#layer-8).|
+|date|[int](../types/int.md) | Yes|Date of condition|
+|seq|[int](../types/int.md) | Yes|Number of sent updates|
+|unread\_count|[int](../types/int.md) | Yes|Number of unread messages|
 
 
 

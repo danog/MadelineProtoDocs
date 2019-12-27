@@ -14,7 +14,7 @@ Saved gifs
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[int](../types/int.md) | Yes|Hash|
+|hash|[int](../types/int.md) | Yes|[Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
 |gifs|Array of [Document](../types/Document.md) | Yes|Gifs|
 
 

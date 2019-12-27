@@ -1,6 +1,6 @@
 ---
 title: secureValueTypePassportRegistration
-description: Secure value type passport registration
+description: Internal registration [passport](https://core.telegram.org/passport)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueTypePassportRegistration  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Secure value type passport registration
+Internal registration [passport](https://core.telegram.org/passport)
 
 
 

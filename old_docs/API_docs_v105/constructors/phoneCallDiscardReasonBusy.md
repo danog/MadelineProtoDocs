@@ -1,6 +1,6 @@
 ---
 title: phoneCallDiscardReasonBusy
-description: Phone call discard reason busy
+description: The phone call was discared because the user is busy in another call
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneCallDiscardReasonBusy  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Phone call discard reason busy
+The phone call was discared because the user is busy in another call
 
 
 

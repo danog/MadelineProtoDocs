@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageMediaExternalDocument
-description: Decrypted message media external document
+description: Non-e2e documented forwarded from non-secret chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaExternalDocument\_23  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Decrypted message media external document
+Non-e2e documented forwarded from non-secret chat
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID|
-|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|id|[long](../types/long.md) | Yes|Document ID|
+|access\_hash|[long](../types/long.md) | Yes|access hash|
 |date|[int](../types/int.md) | Yes|Date|
 |mime\_type|[string](../types/string.md) | Yes|Mime type|
 |size|[int](../types/int.md) | Yes|Size|

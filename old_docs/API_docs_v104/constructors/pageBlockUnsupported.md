@@ -1,6 +1,6 @@
 ---
 title: pageBlockUnsupported
-description: Page block unsupported
+description: Unsupported IV element
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockUnsupported  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page block unsupported
+Unsupported IV element
 
 
 

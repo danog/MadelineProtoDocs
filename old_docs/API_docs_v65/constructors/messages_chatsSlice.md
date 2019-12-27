@@ -1,6 +1,6 @@
 ---
 title: messages.chatsSlice
-description: Chats slice
+description: Partial list of chats, more would have to be fetched with [pagination](https://core.telegram.org/api/offsets)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.chatsSlice  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Chats slice
+Partial list of chats, more would have to be fetched with [pagination](https://core.telegram.org/api/offsets)
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|count|[int](../types/int.md) | Yes|Count|
+|count|[int](../types/int.md) | Yes|Total number of results that were found server-side (not all are included in `chats`)|
 |chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
 
 

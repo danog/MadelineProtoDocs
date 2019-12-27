@@ -1,6 +1,6 @@
 ---
 title: botInlineMessageMediaAuto
-description: Bot inline message media auto
+description: Send whatever media is attached to the [botInlineMediaResult](../constructors/botInlineMediaResult.md)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: botInlineMessageMediaAuto  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Bot inline message media auto
+Send whatever media is attached to the [botInlineMediaResult](../constructors/botInlineMediaResult.md)
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |caption|[string](../types/string.md) | Yes|Caption|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Reply markup|
+|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Inline keyboard|
 
 
 

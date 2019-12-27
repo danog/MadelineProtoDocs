@@ -1,6 +1,6 @@
 ---
 title: inputDialogPeer
-description: Dialog peer
+description: A peer
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputDialogPeer  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Dialog peer
+A peer
 
 ### Attributes:
 

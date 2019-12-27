@@ -1,6 +1,6 @@
 ---
 title: channelLocationEmpty
-description: No physical location (normal chat/channel)
+description: No location (normal supergroup)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelLocationEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-No physical location (normal chat/channel)
+No location (normal supergroup)
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: inputPeerEmpty
-description: Empty input peer
+description: An empty constructor, no user or chat is defined.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPeerEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty input peer
+An empty constructor, no user or chat is defined.
 
 
 

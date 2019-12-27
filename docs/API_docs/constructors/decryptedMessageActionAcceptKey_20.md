@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageActionAcceptKey
-description: Decrypted message action accept key
+description: Accept new key
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionAcceptKey\_20  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Decrypted message action accept key
+Accept new key
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |exchange\_id|[long](../types/long.md) | Yes|Exchange ID|
-|g\_b|[bytes](../types/bytes.md) | Yes|G b|
-|key\_fingerprint|[long](../types/long.md) | Yes|Key fingerprint|
+|g\_b|[bytes](../types/bytes.md) | Yes|B parameter, see [rekeying process](https://core.telegram.org/api/end-to-end/pfs)|
+|key\_fingerprint|[long](../types/long.md) | Yes|Key fingerprint, see [rekeying process](https://core.telegram.org/api/end-to-end/pfs)|
 
 
 

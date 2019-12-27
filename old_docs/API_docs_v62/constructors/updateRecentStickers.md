@@ -1,6 +1,6 @@
 ---
 title: updateRecentStickers
-description: Update recent stickers
+description: The recent sticker list was updated
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateRecentStickers  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update recent stickers
+The recent sticker list was updated
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: passwordKdfAlgoUnknown
-description: Password kdf algo unknown
+description: Unknown KDF (most likely, the client is outdated and does not support the specified KDF algorithm)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: passwordKdfAlgoUnknown  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Password kdf algo unknown
+Unknown KDF (most likely, the client is outdated and does not support the specified KDF algorithm)
 
 
 

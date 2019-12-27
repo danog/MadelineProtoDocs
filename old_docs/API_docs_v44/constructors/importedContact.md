@@ -1,6 +1,6 @@
 ---
 title: importedContact
-description: Imported contact
+description: Successfully imported contact.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: importedContact  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Imported contact
+Successfully imported contact.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User ID|
-|client\_id|[long](../types/long.md) | Yes|Client ID|
+|user\_id|[int](../types/int.md) | Yes|User identifier|
+|client\_id|[long](../types/long.md) | Yes|The contact's client identifier (passed to one of the [InputContact](../types/InputContact.md) constructors)|
 
 
 

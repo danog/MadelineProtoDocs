@@ -1,6 +1,6 @@
 ---
 title: messageActionPhoneCall
-description: Message action phone call
+description: A phone call
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionPhoneCall  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message action phone call
+A phone call
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |call\_id|[long](../types/long.md) | Yes|Call ID|
-|reason|[PhoneCallDiscardReason](../types/PhoneCallDiscardReason.md) | Optional|Reason|
-|duration|[int](../types/int.md) | Optional|Duration|
+|reason|[PhoneCallDiscardReason](../types/PhoneCallDiscardReason.md) | Optional|If the call has ended, the reason why it ended|
+|duration|[int](../types/int.md) | Optional|Duration of the call in seconds|
 
 
 

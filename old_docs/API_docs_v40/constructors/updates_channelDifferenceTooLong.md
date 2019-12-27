@@ -1,6 +1,11 @@
 ---
 title: updates.channelDifferenceTooLong
-description: Channel difference too long
+description: The provided `pts + limit < remote pts`. Simply, there are too many updates to be fetched (more than `limit`), the client has to resolve the update gap in one of the following ways:
+
+1. Delete all known messages in the chat, begin from scratch by refetching all messages manually with [getHistory](../methods/messages.getHistory.md). It is easy to implement, but suddenly disappearing messages looks awful for the user.
+2. Save all messages loaded in the memory until application restart, but delete all messages from database. Messages left in the memory must be lazily updated using calls to [getHistory](../methods/messages.getHistory.md). It looks much smoothly for the user, he will need to redownload messages only after client restart. Unsynchronized messages left in the memory shouldn't be saved to database, results of [getHistory](../methods/messages.getHistory.md) and [getMessages](../methods/messages.getMessages.md) must be used to update state of deleted and edited messages left in the memory.
+3. Save all messages loaded in the memory and stored in the database without saving that some messages form continuous ranges. Messages in the database will be excluded from results of getChatHistory and searchChatMessages after application restart and will be available only through getMessage. Every message should still be checked using getHistory. It has more disadvantages over 2) than advantages.
+4. Save all messages with saving all data about continuous message ranges. Messages from the database may be used as results of getChatHistory and (if implemented continuous ranges support for searching shared media) searchChatMessages. The messages should still be lazily checked using getHistory, but they are still available offline. It is the best way for gaps support, but it is pretty hard to implement correctly. It should be also noted that some messages like live location messages shouldn't be deleted.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updates.channelDifferenceTooLong  
@@ -8,14 +13,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Channel difference too long
+The provided `pts + limit < remote pts`. Simply, there are too many updates to be fetched (more than `limit`), the client has to resolve the update gap in one of the following ways:
+
+1. Delete all known messages in the chat, begin from scratch by refetching all messages manually with [getHistory](../methods/messages.getHistory.md). It is easy to implement, but suddenly disappearing messages looks awful for the user.
+2. Save all messages loaded in the memory until application restart, but delete all messages from database. Messages left in the memory must be lazily updated using calls to [getHistory](../methods/messages.getHistory.md). It looks much smoothly for the user, he will need to redownload messages only after client restart. Unsynchronized messages left in the memory shouldn't be saved to database, results of [getHistory](../methods/messages.getHistory.md) and [getMessages](../methods/messages.getMessages.md) must be used to update state of deleted and edited messages left in the memory.
+3. Save all messages loaded in the memory and stored in the database without saving that some messages form continuous ranges. Messages in the database will be excluded from results of getChatHistory and searchChatMessages after application restart and will be available only through getMessage. Every message should still be checked using getHistory. It has more disadvantages over 2) than advantages.
+4. Save all messages with saving all data about continuous message ranges. Messages from the database may be used as results of getChatHistory and (if implemented continuous ranges support for searching shared media) searchChatMessages. The messages should still be lazily checked using getHistory, but they are still available offline. It is the best way for gaps support, but it is pretty hard to implement correctly. It should be also noted that some messages like live location messages shouldn't be deleted.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |pts|[int](../types/int.md) | Yes|Pts|
-|timeout|[int](../types/int.md) | Optional|Timeout|
+|timeout|[int](../types/int.md) | Optional|Clients are supposed to refetch the channel difference after timeout seconds have elapsed|
 |top\_message|[int](../types/int.md) | Yes|Top message|
 |top\_important\_message|[int](../types/int.md) | Yes|Top important message|
 |read\_inbox\_max\_id|[int](../types/int.md) | Yes|Read inbox max ID|

@@ -1,6 +1,6 @@
 ---
 title: langPackLanguage
-description: Lang pack language
+description: Identifies a localization pack
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: langPackLanguage  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Lang pack language
+Identifies a localization pack
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|name|[string](../types/string.md) | Yes|Name|
-|native\_name|[string](../types/string.md) | Yes|Native name|
-|lang\_code|[string](../types/string.md) | Yes|Lang code|
+|name|[string](../types/string.md) | Yes|Language name|
+|native\_name|[string](../types/string.md) | Yes|Language name in the language itself|
+|lang\_code|[string](../types/string.md) | Yes|Language code (pack identifier)|
 
 
 

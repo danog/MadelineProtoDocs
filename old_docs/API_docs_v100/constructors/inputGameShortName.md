@@ -1,6 +1,6 @@
 ---
 title: inputGameShortName
-description: Game short name
+description: Game by short name
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputGameShortName  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Game short name
+Game by short name
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|bot\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|Bot ID|
-|short\_name|[string](../types/string.md) | Yes|Short name|
+|bot\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|The bot that provides the game|
+|short\_name|[string](../types/string.md) | Yes|The game's short name|
 
 
 

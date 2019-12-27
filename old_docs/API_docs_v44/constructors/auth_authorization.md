@@ -1,6 +1,6 @@
 ---
 title: auth.authorization
-description: Authorization
+description: Contains user authorization info.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: auth.authorization  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Authorization
+Contains user authorization info.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user|[User](../types/User.md) | Optional|User|
+|user|[User](../types/User.md) | Optional|Info on authorized user|
 
 
 

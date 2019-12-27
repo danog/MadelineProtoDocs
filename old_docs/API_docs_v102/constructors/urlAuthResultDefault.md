@@ -1,6 +1,6 @@
 ---
 title: urlAuthResultDefault
-description: Default result
+description: Details about an accepted authorization request, for more info [click here »](https://core.telegram.org/api/url-authorization)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: urlAuthResultDefault  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Default result
+Details about an accepted authorization request, for more info [click here »](https://core.telegram.org/api/url-authorization)
 
 
 

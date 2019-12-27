@@ -1,6 +1,6 @@
 ---
 title: updateChatDefaultBannedRights
-description: Global chat rights updated
+description: Default banned rights in a [normal chat](https://core.telegram.org/api/channel) were updated
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChatDefaultBannedRights  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Global chat rights updated
+Default banned rights in a [normal chat](https://core.telegram.org/api/channel) were updated
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](../types/Peer.md) | Yes|Peer|
-|default\_banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Yes|Global chat rights|
+|peer|[Peer](../types/Peer.md) | Yes|The chat|
+|default\_banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Yes|New default banned rights|
 |version|[int](../types/int.md) | Yes|Version|
 
 

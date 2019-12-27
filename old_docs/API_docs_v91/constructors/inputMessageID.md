@@ -1,6 +1,6 @@
 ---
 title: inputMessageID
-description: Message ID
+description: Message by ID
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessageID  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message ID
+Message by ID
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID|
+|id|[int](../types/int.md) | Yes|Message ID|
 
 
 

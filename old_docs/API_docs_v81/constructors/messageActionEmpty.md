@@ -1,6 +1,6 @@
 ---
 title: messageActionEmpty
-description: Empty message action
+description: Empty constructor.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty message action
+Empty constructor.
 
 
 

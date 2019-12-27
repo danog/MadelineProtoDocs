@@ -1,6 +1,6 @@
 ---
 title: photos.photosSlice
-description: Photos slice
+description: Incomplete list of photos with auxiliary data.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: photos.photosSlice  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Photos slice
+Incomplete list of photos with auxiliary data.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|count|[int](../types/int.md) | Yes|Count|
+|count|[int](../types/int.md) | Yes|Total number of photos|
 |photos|Array of [Photo](../types/Photo.md) | Yes|Photos|
 |users|Array of [User](../types/User.md) | Yes|Users|
 

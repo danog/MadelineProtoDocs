@@ -1,6 +1,6 @@
 ---
 title: inputMessagesFilterMyMentions
-description: Messages filter my mentions
+description: Return only messages where the current user was mentioned
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterMyMentions  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Messages filter my mentions
+Return only messages where the current user was mentioned
 
 
 

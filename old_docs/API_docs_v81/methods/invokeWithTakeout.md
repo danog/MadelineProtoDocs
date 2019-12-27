@@ -1,20 +1,20 @@
 ---
 title: invokeWithTakeout
-description: Invoke method from takeout session
+description: Invoke a method within a takeout session
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: invokeWithTakeout  
 [Back to methods index](index.md)
 
 
-Invoke method from takeout session
+Invoke a method within a takeout session
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|takeout\_id|[long](../types/long.md) | The takeout session ID | Yes|
-|query|[!X](../types/!X.md) | The query | Yes|
+|takeout\_id|[long](../types/long.md) | Takeout session ID | Yes|
+|query|[!X](../types/!X.md) | Query | Yes|
 
 
 ### Return type: [X](../types/X.md)

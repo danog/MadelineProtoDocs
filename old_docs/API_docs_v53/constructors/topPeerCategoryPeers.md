@@ -1,6 +1,6 @@
 ---
 title: topPeerCategoryPeers
-description: Top peer category peers
+description: Top peer category
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: topPeerCategoryPeers  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Top peer category peers
+Top peer category
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|category|[TopPeerCategory](../types/TopPeerCategory.md) | Yes|Category|
-|count|[int](../types/int.md) | Yes|Count|
+|category|[TopPeerCategory](../types/TopPeerCategory.md) | Yes|Top peer category of peers|
+|count|[int](../types/int.md) | Yes|Count of peers|
 |peers|Array of [TopPeer](../types/TopPeer.md) | Yes|Peers|
 
 

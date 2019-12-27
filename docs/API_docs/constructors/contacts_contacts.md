@@ -1,6 +1,6 @@
 ---
 title: contacts.contacts
-description: Contacts
+description: The current user's contact list and info on users.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: contacts.contacts  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Contacts
+The current user's contact list and info on users.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |contacts|Array of [Contact](../types/Contact.md) | Yes|Contacts|
-|saved\_count|[int](../types/int.md) | Yes|Saved count|
+|saved\_count|[int](../types/int.md) | Yes|Number of contacts that were saved successfully|
 |users|Array of [User](../types/User.md) | Yes|Users|
 
 

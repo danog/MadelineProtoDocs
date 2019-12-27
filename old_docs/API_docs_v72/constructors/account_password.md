@@ -1,6 +1,6 @@
 ---
 title: account.password
-description: Password
+description: Configuration for two-factor authorization
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: account.password  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Password
+Configuration for two-factor authorization
 
 ### Attributes:
 
@@ -16,9 +16,9 @@ Password
 |----------|---------------|----------|-------------|
 |current\_salt|[bytes](../types/bytes.md) | Yes|Current salt|
 |new\_salt|[bytes](../types/bytes.md) | Yes|New salt|
-|hint|[string](../types/string.md) | Yes|Hint|
+|hint|[string](../types/string.md) | Yes|Text hint for the password|
 |has\_recovery|[Bool](../types/Bool.md) | Yes|Has recovery?|
-|email\_unconfirmed\_pattern|[string](../types/string.md) | Yes|Email unconfirmed pattern|
+|email\_unconfirmed\_pattern|[string](../types/string.md) | Yes|A [password recovery email](https://core.telegram.org/api/srp#email-verification) with the specified [pattern](https://core.telegram.org/api/pattern) is still awaiting verification|
 
 
 

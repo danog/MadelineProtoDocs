@@ -1,6 +1,6 @@
 ---
 title: auth.sentCodeTypeCall
-description: Sent code type call
+description: The code will be sent via a phone call: a synthesized voice will tell the user which verification code to input.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: auth.sentCodeTypeCall  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Sent code type call
+The code will be sent via a phone call: a synthesized voice will tell the user which verification code to input.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|length|[int](../types/int.md) | Yes|Length|
+|length|[int](../types/int.md) | Yes|Length of the verification code|
 
 
 

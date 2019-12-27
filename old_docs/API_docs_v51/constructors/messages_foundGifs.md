@@ -1,6 +1,6 @@
 ---
 title: messages.foundGifs
-description: Found gifs
+description: Found GIFs
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.foundGifs  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Found gifs
+Found GIFs
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|next\_offset|[int](../types/int.md) | Yes|Next offset|
+|next\_offset|[int](../types/int.md) | Yes|Next offset to use when trying to [load more results](../methods/messages.searchGifs.md)|
 |results|Array of [FoundGif](../types/FoundGif.md) | Yes|Results|
 
 

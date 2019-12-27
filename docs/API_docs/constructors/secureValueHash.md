@@ -14,7 +14,7 @@ Secure value hash
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|type|[SecureValueType](../types/SecureValueType.md) | Yes|Type|
+|type|[SecureValueType](../types/SecureValueType.md) | Yes|Secure value type|
 |hash|[bytes](../types/bytes.md) | Yes|Hash|
 
 

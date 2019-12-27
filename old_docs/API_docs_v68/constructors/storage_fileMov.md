@@ -1,6 +1,6 @@
 ---
 title: storage.fileMov
-description: File mov
+description: Quicktime video. MIME type: `video/quicktime`.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: storage.fileMov  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-File mov
+Quicktime video. MIME type: `video/quicktime`.
 
 
 

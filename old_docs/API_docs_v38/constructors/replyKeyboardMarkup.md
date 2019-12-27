@@ -1,6 +1,6 @@
 ---
 title: replyKeyboardMarkup
-description: Reply keyboard markup
+description: Bot keyboard
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: replyKeyboardMarkup  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Reply keyboard markup
+Bot keyboard
 
 ### Attributes:
 

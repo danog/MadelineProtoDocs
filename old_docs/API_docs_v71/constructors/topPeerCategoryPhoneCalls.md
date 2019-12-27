@@ -1,6 +1,6 @@
 ---
 title: topPeerCategoryPhoneCalls
-description: Top peer category phone calls
+description: Most frequently called users
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: topPeerCategoryPhoneCalls  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Top peer category phone calls
+Most frequently called users
 
 
 

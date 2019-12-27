@@ -1,6 +1,6 @@
 ---
 title: messageActionSecureValuesSentMe
-description: Message action secure values sent me
+description: Secure [telegram passport](https://core.telegram.org/passport) values were received
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionSecureValuesSentMe  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message action secure values sent me
+Secure [telegram passport](https://core.telegram.org/passport) values were received
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |values|Array of [SecureValue](../types/SecureValue.md) | Yes|Values|
-|credentials|[SecureCredentialsEncrypted](../types/SecureCredentialsEncrypted.md) | Yes|Credentials|
+|credentials|[SecureCredentialsEncrypted](../types/SecureCredentialsEncrypted.md) | Yes|Encrypted credentials required to decrypt the data|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: channels.adminLogResults
-description: Admin log results
+description: Admin log events
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channels.adminLogResults  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Admin log results
+Admin log events
 
 ### Attributes:
 

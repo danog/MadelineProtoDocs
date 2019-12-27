@@ -1,6 +1,6 @@
 ---
 title: pageBlockPullquote
-description: Page block pullquote
+description: Pullquote
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockPullquote  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page block pullquote
+Pullquote
 
 ### Attributes:
 

@@ -1,6 +1,6 @@
 ---
 title: contactStatus
-description: Contact status
+description: Contact status: online / offline.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: contactStatus  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Contact status
+Contact status: online / offline.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User ID|
-|status|[UserStatus](../types/UserStatus.md) | Optional|Status|
+|user\_id|[int](../types/int.md) | Yes|User identifier|
+|status|[UserStatus](../types/UserStatus.md) | Optional|Online status|
 
 
 

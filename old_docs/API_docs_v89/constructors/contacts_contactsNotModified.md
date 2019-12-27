@@ -1,6 +1,6 @@
 ---
 title: contacts.contactsNotModified
-description: Contacts not modified
+description: Contact list on the server is the same as the list on the client.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: contacts.contactsNotModified  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Contacts not modified
+Contact list on the server is the same as the list on the client.
 
 
 

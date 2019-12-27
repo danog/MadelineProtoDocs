@@ -1,6 +1,6 @@
 ---
 title: pageBlockChannel
-description: Page block channel
+description: Reference to a telegram channel
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockChannel  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page block channel
+Reference to a telegram channel
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel|[Chat](../types/Chat.md) | Optional|Channel|
+|channel|[Chat](../types/Chat.md) | Optional|The channel/supergroup/chat|
 
 
 

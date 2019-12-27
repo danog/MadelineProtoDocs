@@ -1,6 +1,6 @@
 ---
 title: contacts.importedContacts
-description: Imported contacts
+description: Info on succesfully imported contacts.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: contacts.importedContacts  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Imported contacts
+Info on succesfully imported contacts.
 
 ### Attributes:
 

@@ -1,6 +1,6 @@
 ---
 title: textUnderline
-description: Text underline
+description: Underlined text
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textUnderline  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Text underline
+Underlined text
 
 ### Attributes:
 

@@ -1,6 +1,6 @@
 ---
 title: pageBlockSubtitle
-description: Page block subtitle
+description: Subtitle
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockSubtitle  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page block subtitle
+Subtitle
 
 ### Attributes:
 

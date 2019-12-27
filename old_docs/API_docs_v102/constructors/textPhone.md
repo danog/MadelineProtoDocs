@@ -1,6 +1,6 @@
 ---
 title: textPhone
-description: Text phone
+description: Rich text linked to a phone number
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textPhone  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Text phone
+Rich text linked to a phone number
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |text|[RichText](../types/RichText.md) | Yes|Text|
-|phone|[string](../types/string.md) | Yes|Phone|
+|phone|[string](../types/string.md) | Yes|Phone number|
 
 
 

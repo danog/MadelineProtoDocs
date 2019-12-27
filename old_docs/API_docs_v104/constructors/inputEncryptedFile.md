@@ -1,6 +1,6 @@
 ---
 title: inputEncryptedFile
-description: Encrypted file
+description: Sets forwarded encrypted file for attachment.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputEncryptedFile  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Encrypted file
+Sets forwarded encrypted file for attachment.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID|
-|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|id|[long](../types/long.md) | Yes|File ID, value of **id** parameter from [encryptedFile](../constructors/encryptedFile.md)|
+|access\_hash|[long](../types/long.md) | Yes|Checking sum, value of **access\_hash** parameter from [encryptedFile](../constructors/encryptedFile.md)|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageActionResend
-description: Decrypted message action resend
+description: Request for the other party in a Secret Chat to automatically resend a contiguous range of previously sent messages, as explained in [Sequence number is Secret Chats](https://core.telegram.org/api/end-to-end/seq_no).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionResend\_17  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Decrypted message action resend
+Request for the other party in a Secret Chat to automatically resend a contiguous range of previously sent messages, as explained in [Sequence number is Secret Chats](https://core.telegram.org/api/end-to-end/seq_no).
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|start\_seq\_no|[int](../types/int.md) | Yes|Start seq no|
-|end\_seq\_no|[int](../types/int.md) | Yes|End seq no|
+|start\_seq\_no|[int](../types/int.md) | Yes|`out_seq_no` of the first message to be resent, with correct parity|
+|end\_seq\_no|[int](../types/int.md) | Yes|`out_seq_no` of the last message to be resent, with same parity.|
 
 
 

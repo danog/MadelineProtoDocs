@@ -1,6 +1,6 @@
 ---
 title: userStatusOffline
-description: User status offline
+description: The user's offline status.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userStatusOffline  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-User status offline
+The user's offline status.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|was\_online|[int](../types/int.md) | Yes|Was online|
+|was\_online|[int](../types/int.md) | Yes|Time the user was last seen online|
 
 
 

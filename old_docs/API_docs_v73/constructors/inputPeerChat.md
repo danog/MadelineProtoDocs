@@ -1,6 +1,6 @@
 ---
 title: inputPeerChat
-description: Peer chat
+description: Defines a chat for further interaction.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPeerChat  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Peer chat
+Defines a chat for further interaction.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[int](../types/int.md) | Yes|Chat ID|
+|chat\_id|[int](../types/int.md) | Yes|Chat idientifier|
 
 
 

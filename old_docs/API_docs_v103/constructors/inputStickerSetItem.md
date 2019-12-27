@@ -1,6 +1,6 @@
 ---
 title: inputStickerSetItem
-description: Sticker set item
+description: Sticker in a stickerset
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputStickerSetItem  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Sticker set item
+Sticker in a stickerset
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|document|[MessageMedia, Message, Update or InputDocument](../types/InputDocument.md) | Optional|Document|
-|emoji|[string](../types/string.md) | Yes|Emoji|
-|mask\_coords|[MaskCoords](../types/MaskCoords.md) | Optional|Mask coords|
+|document|[MessageMedia, Message, Update or InputDocument](../types/InputDocument.md) | Optional|The sticker|
+|emoji|[string](../types/string.md) | Yes|Associated emoji|
+|mask\_coords|[MaskCoords](../types/MaskCoords.md) | Optional|Coordinates for mask sticker|
 
 
 

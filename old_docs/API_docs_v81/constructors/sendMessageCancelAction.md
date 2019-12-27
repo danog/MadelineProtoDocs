@@ -1,6 +1,6 @@
 ---
 title: sendMessageCancelAction
-description: Send message cancel action
+description: Invalidate all previous action updates. E.g. when user deletes entered text or aborts a video upload.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageCancelAction  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Send message cancel action
+Invalidate all previous action updates. E.g. when user deletes entered text or aborts a video upload.
 
 
 

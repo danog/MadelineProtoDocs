@@ -1,6 +1,6 @@
 ---
 title: chatEmpty
-description: Empty chat
+description: Empty constructor, group doesn't exist
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatEmpty  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty chat
+Empty constructor, group doesn't exist
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID|
+|id|[int](../types/int.md) | Yes|Group identifier|
 
 
 

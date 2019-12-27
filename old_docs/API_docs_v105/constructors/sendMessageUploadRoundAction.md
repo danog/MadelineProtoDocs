@@ -1,6 +1,6 @@
 ---
 title: sendMessageUploadRoundAction
-description: Send message upload round action
+description: User is uploading a round video
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageUploadRoundAction  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Send message upload round action
+User is uploading a round video
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|progress|[int](../types/int.md) | Yes|Progress|
+|progress|[int](../types/int.md) | Yes|Progress percentage|
 
 
 

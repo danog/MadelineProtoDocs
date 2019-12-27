@@ -14,13 +14,13 @@ Invoice
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|test|[Bool](../types/Bool.md) | Optional|Test?|
-|name\_requested|[Bool](../types/Bool.md) | Optional|Name requested?|
-|phone\_requested|[Bool](../types/Bool.md) | Optional|Phone requested?|
-|email\_requested|[Bool](../types/Bool.md) | Optional|Email requested?|
-|shipping\_address\_requested|[Bool](../types/Bool.md) | Optional|Shipping address requested?|
-|flexible|[Bool](../types/Bool.md) | Optional|Flexible?|
-|currency|[string](../types/string.md) | Yes|Currency|
+|test|[Bool](../types/Bool.md) | Optional|Test invoice|
+|name\_requested|[Bool](../types/Bool.md) | Optional|Set this flag if you require the user's full name to complete the order|
+|phone\_requested|[Bool](../types/Bool.md) | Optional|Set this flag if you require the user's phone number to complete the order|
+|email\_requested|[Bool](../types/Bool.md) | Optional|Set this flag if you require the user's email address to complete the order|
+|shipping\_address\_requested|[Bool](../types/Bool.md) | Optional|Set this flag if you require the user's shipping address to complete the order|
+|flexible|[Bool](../types/Bool.md) | Optional|Set this flag if the final price depends on the shipping method|
+|currency|[string](../types/string.md) | Yes|Three-letter ISO 4217 [currency](https://core.telegram.org/bots/payments#supported-currencies) code|
 |prices|Array of [LabeledPrice](../types/LabeledPrice.md) | Yes|Prices|
 
 

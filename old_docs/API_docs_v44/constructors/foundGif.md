@@ -1,6 +1,6 @@
 ---
 title: foundGif
-description: Found gif
+description: Found GIF
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: foundGif  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Found gif
+Found GIF
 
 ### Attributes:
 

@@ -1,6 +1,6 @@
 ---
 title: updateBotWebhookJSONQuery
-description: Update bot webhook json query
+description: A new incoming query; for bots only
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotWebhookJSONQuery  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update bot webhook json query
+A new incoming query; for bots only
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|query\_id|[long](../types/long.md) | Yes|Query ID|
-|data|[DataJSON](../types/DataJSON.md) | Yes|Data|
-|timeout|[int](../types/int.md) | Yes|Timeout|
+|query\_id|[long](../types/long.md) | Yes|Query identifier|
+|data|[DataJSON](../types/DataJSON.md) | Yes|Query data|
+|timeout|[int](../types/int.md) | Yes|Query timeout|
 
 
 

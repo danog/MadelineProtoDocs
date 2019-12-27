@@ -1,6 +1,6 @@
 ---
 title: chatAdminRights
-description: Admin rights
+description: Represents the rights of an admin in a [channel/supergroup](https://core.telegram.org/api/channel).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatAdminRights  
@@ -8,20 +8,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Admin rights
+Represents the rights of an admin in a [channel/supergroup](https://core.telegram.org/api/channel).
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|change\_info|[Bool](../types/Bool.md) | Optional|Can change info?|
-|post\_messages|[Bool](../types/Bool.md) | Optional|Can post messages?|
-|edit\_messages|[Bool](../types/Bool.md) | Optional|Can edit messages?|
-|delete\_messages|[Bool](../types/Bool.md) | Optional|Can delete messages?|
-|ban\_users|[Bool](../types/Bool.md) | Optional|Can ban users?|
-|invite\_users|[Bool](../types/Bool.md) | Optional|Can invite users?|
-|pin\_messages|[Bool](../types/Bool.md) | Optional|Can pin messages?|
-|add\_admins|[Bool](../types/Bool.md) | Optional|Can add other admins?|
+|change\_info|[Bool](../types/Bool.md) | Optional|If set, allows the admin to modify the description of the [channel/supergroup](https://core.telegram.org/api/channel)|
+|post\_messages|[Bool](../types/Bool.md) | Optional|If set, allows the admin to post messages in the [channel](https://core.telegram.org/api/channel)|
+|edit\_messages|[Bool](../types/Bool.md) | Optional|If set, allows the admin to also edit messages from other admins in the [channel](https://core.telegram.org/api/channel)|
+|delete\_messages|[Bool](../types/Bool.md) | Optional|If set, allows the admin to also delete messages from other admins in the [channel](https://core.telegram.org/api/channel)|
+|ban\_users|[Bool](../types/Bool.md) | Optional|If set, allows the admin to ban users from the [channel/supergroup](https://core.telegram.org/api/channel)|
+|invite\_users|[Bool](../types/Bool.md) | Optional|If set, allows the admin to invite users in the [channel/supergroup](https://core.telegram.org/api/channel)|
+|pin\_messages|[Bool](../types/Bool.md) | Optional|If set, allows the admin to pin messages in the [channel/supergroup](https://core.telegram.org/api/channel)|
+|add\_admins|[Bool](../types/Bool.md) | Optional|If set, allows the admin to add other admins with the same (or more limited) permissions in the [channel/supergroup](https://core.telegram.org/api/channel)|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: photoStrippedSize
-description: Stripped size
+description: Just the image's content
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: photoStrippedSize  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Stripped size
+Just the image's content
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|type|[string](../types/string.md) | Yes|Stripped size|
-|bytes|[bytes](../types/bytes.md) | Yes|Bytes|
+|type|[string](../types/string.md) | Yes|Thumbnail type|
+|bytes|[bytes](../types/bytes.md) | Yes|Thumbnail data|
 
 
 

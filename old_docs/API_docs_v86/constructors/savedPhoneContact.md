@@ -1,6 +1,6 @@
 ---
 title: savedPhoneContact
-description: Saved phone contact
+description: Saved contact
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: savedPhoneContact  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Saved phone contact
+Saved contact
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|phone|[string](../types/string.md) | Yes|Phone|
+|phone|[string](../types/string.md) | Yes|Phone number|
 |first\_name|[string](../types/string.md) | Yes|First name|
 |last\_name|[string](../types/string.md) | Yes|Last name|
-|date|[int](../types/int.md) | Yes|Date|
+|date|[int](../types/int.md) | Yes|Date added|
 
 
 

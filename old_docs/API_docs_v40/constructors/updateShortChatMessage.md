@@ -1,6 +1,6 @@
 ---
 title: updateShortChatMessage
-description: Update short chat message
+description: Shortened constructor containing info on one new incoming text message from a chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateShortChatMessage  
@@ -8,22 +8,22 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update short chat message
+Shortened constructor containing info on one new incoming text message from a chat
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID|
-|from\_id|[int](../types/int.md) | Yes|From ID|
-|chat\_id|[int](../types/int.md) | Yes|Chat ID|
+|id|[int](../types/int.md) | Yes|ID of the message|
+|from\_id|[int](../types/int.md) | Yes|ID of the sender of the message|
+|chat\_id|[int](../types/int.md) | Yes|ID of the chat where the message was sent|
 |message|[string](../types/string.md) | Yes|Message|
-|pts|[int](../types/int.md) | Yes|Pts|
-|pts\_count|[int](../types/int.md) | Yes|Pts count|
-|date|[int](../types/int.md) | Yes|Date|
+|pts|[int](../types/int.md) | Yes|[PTS](https://core.telegram.org/api/updates)|
+|pts\_count|[int](../types/int.md) | Yes|[PTS count](https://core.telegram.org/api/updates)|
+|date|[int](../types/int.md) | Yes|[date](https://core.telegram.org/api/updates)|
 |fwd\_from\_id|[int](../types/int.md) | Optional|Fwd from ID|
 |fwd\_date|[int](../types/int.md) | Optional|Fwd date|
-|reply\_to\_msg\_id|[int](../types/int.md) | Optional|Reply to msg ID|
+|reply\_to\_msg\_id|[int](../types/int.md) | Optional|ID of the message this message replies to|
 |entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|Entities|
 
 

@@ -1,6 +1,6 @@
 ---
 title: inputThemeSlug
-description: Input theme slug
+description: Theme by theme ID
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputThemeSlug  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Input theme slug
+Theme by theme ID
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|slug|[string](../types/string.md) | Yes|Slug|
+|slug|[string](../types/string.md) | Yes|Unique theme ID|
 
 
 

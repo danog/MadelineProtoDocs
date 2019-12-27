@@ -1,6 +1,6 @@
 ---
 title: webPageEmpty
-description: Empty web page
+description: No preview is available for the webpage
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: webPageEmpty  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty web page
+No preview is available for the webpage
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID|
+|id|[long](../types/long.md) | Yes|Preview ID|
 
 
 

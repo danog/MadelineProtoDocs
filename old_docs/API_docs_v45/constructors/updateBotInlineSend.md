@@ -1,6 +1,6 @@
 ---
 title: updateBotInlineSend
-description: Update bot inline send
+description: The result of an inline query that was chosen by a user and sent to their chat partner. Please see our documentation on the [feedback collecting](https://core.telegram.org/bots/inline#collecting-feedback) for details on how to enable these updates for your bot.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotInlineSend  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update bot inline send
+The result of an inline query that was chosen by a user and sent to their chat partner. Please see our documentation on the [feedback collecting](https://core.telegram.org/bots/inline#collecting-feedback) for details on how to enable these updates for your bot.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User ID|
-|query|[string](../types/string.md) | Yes|Query|
-|id|[string](../types/string.md) | Yes|ID|
+|user\_id|[int](../types/int.md) | Yes|The user that chose the result|
+|query|[string](../types/string.md) | Yes|The query that was used to obtain the result|
+|id|[string](../types/string.md) | Yes|The unique identifier for the result that was chosen|
 
 
 

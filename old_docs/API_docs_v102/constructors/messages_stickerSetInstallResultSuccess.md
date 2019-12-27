@@ -1,6 +1,6 @@
 ---
 title: messages.stickerSetInstallResultSuccess
-description: Sticker set install result success
+description: The stickerset was installed successfully
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.stickerSetInstallResultSuccess  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Sticker set install result success
+The stickerset was installed successfully
 
 
 

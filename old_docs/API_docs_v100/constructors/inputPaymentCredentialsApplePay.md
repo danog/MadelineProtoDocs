@@ -1,6 +1,6 @@
 ---
 title: inputPaymentCredentialsApplePay
-description: Payment credentials apple pay
+description: Apple pay payment credentials
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPaymentCredentialsApplePay  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Payment credentials apple pay
+Apple pay payment credentials
 
 ### Attributes:
 

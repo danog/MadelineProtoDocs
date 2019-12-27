@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageActionScreenshotMessages
-description: Decrypted message action screenshot messages
+description: A screenshot was taken.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionScreenshotMessages\_8  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Decrypted message action screenshot messages
+A screenshot was taken.
 
 ### Attributes:
 

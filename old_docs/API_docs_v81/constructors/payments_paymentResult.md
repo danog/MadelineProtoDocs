@@ -14,7 +14,7 @@ Payment result
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|updates|[Updates](../types/Updates.md) | Yes|Updates|
+|updates|[Updates](../types/Updates.md) | Yes|Info about the payment|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: secureFileEmpty
-description: Empty secure file
+description: Empty constructor
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureFileEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty secure file
+Empty constructor
 
 
 

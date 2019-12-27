@@ -1,6 +1,6 @@
 ---
 title: updatePeerSettings
-description: Peer settings updated
+description: Settings of a certain peer have changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatePeerSettings  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Peer settings updated
+Settings of a certain peer have changed
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](../types/Peer.md) | Yes|Peer|
-|settings|[PeerSettings](../types/PeerSettings.md) | Yes|Settings|
+|peer|[Peer](../types/Peer.md) | Yes|The peer|
+|settings|[PeerSettings](../types/PeerSettings.md) | Yes|Associated peer settings|
 
 
 

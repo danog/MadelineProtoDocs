@@ -1,6 +1,6 @@
 ---
 title: chatParticipants
-description: Chat participants
+description: Group members.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatParticipants  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Chat participants
+Group members.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[int](../types/int.md) | Yes|Chat ID|
+|chat\_id|[int](../types/int.md) | Yes|Group identifier|
 |admin\_id|[int](../types/int.md) | Yes|Admin ID|
 |participants|Array of [ChatParticipant](../types/ChatParticipant.md) | Yes|Participants|
-|version|[int](../types/int.md) | Yes|Version|
+|version|[int](../types/int.md) | Yes|Group version number|
 
 
 

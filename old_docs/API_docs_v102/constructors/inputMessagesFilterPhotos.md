@@ -1,6 +1,6 @@
 ---
 title: inputMessagesFilterPhotos
-description: Messages filter photos
+description: Filter for messages containing photos.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterPhotos  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Messages filter photos
+Filter for messages containing photos.
 
 
 

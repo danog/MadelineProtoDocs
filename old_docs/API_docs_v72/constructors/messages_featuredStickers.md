@@ -1,6 +1,6 @@
 ---
 title: messages.featuredStickers
-description: Featured stickers
+description: Featured stickersets
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.featuredStickers  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Featured stickers
+Featured stickersets
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[int](../types/int.md) | Yes|Hash|
+|hash|[int](../types/int.md) | Yes|[Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
 |sets|Array of [StickerSetCovered](../types/StickerSetCovered.md) | Yes|Sets|
 |unread|Array of [long](../types/long.md) | Yes|Unread|
 

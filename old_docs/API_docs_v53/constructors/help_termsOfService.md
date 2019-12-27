@@ -1,6 +1,6 @@
 ---
 title: help.termsOfService
-description: Terms of service
+description: Info about the latest telegram Terms Of Service
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.termsOfService  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Terms of service
+Info about the latest telegram Terms Of Service
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|text|[string](../types/string.md) | Yes|Text|
+|text|[string](../types/string.md) | Yes|Text of the new terms|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: messageEntityCode
-description: Message entity code
+description: Message entity representing a `codeblock`.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageEntityCode  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message entity code
+Message entity representing a `codeblock`.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|offset|[int](../types/int.md) | Yes|Offset|
-|length|[int](../types/int.md) | Yes|Length|
+|offset|[int](../types/int.md) | Yes|Offset of message entity within message (in UTF-8 codepoints)|
+|length|[int](../types/int.md) | Yes|Length of message entity within message (in UTF-8 codepoints)|
 
 
 

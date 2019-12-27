@@ -1,6 +1,6 @@
 ---
 title: inputFile
-description: File
+description: Defines a file saved in parts using the method [upload.saveFilePart](../methods/upload.saveFilePart.md).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputFile  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-File
+Defines a file saved in parts using the method [upload.saveFilePart](../methods/upload.saveFilePart.md).
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID|
-|parts|[int](../types/int.md) | Yes|Parts|
-|name|[string](../types/string.md) | Yes|Name|
-|md5\_checksum|[string](../types/string.md) | Yes|Md5 checksum|
+|id|[long](../types/long.md) | Yes|Random file identifier created by the client|
+|parts|[int](../types/int.md) | Yes|Number of parts saved|
+|name|[string](../types/string.md) | Yes|Full name of the file|
+|md5\_checksum|[string](../types/string.md) | Yes|In case the file's [md5-hash](https://en.wikipedia.org/wiki/MD5#MD5_hashes) was passed, contents of the file will be checked prior to use|
 
 
 

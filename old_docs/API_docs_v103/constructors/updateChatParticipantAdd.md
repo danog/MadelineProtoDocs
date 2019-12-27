@@ -1,6 +1,6 @@
 ---
 title: updateChatParticipantAdd
-description: Update chat participant add
+description: New group member.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChatParticipantAdd  
@@ -8,17 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update chat participant add
+New group member.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[int](../types/int.md) | Yes|Chat ID|
-|user\_id|[int](../types/int.md) | Yes|User ID|
-|inviter\_id|[int](../types/int.md) | Yes|Inviter ID|
-|date|[int](../types/int.md) | Yes|Date|
-|version|[int](../types/int.md) | Yes|Version|
+|chat\_id|[int](../types/int.md) | Yes|Group ID|
+|user\_id|[int](../types/int.md) | Yes|ID of the new member|
+|inviter\_id|[int](../types/int.md) | Yes|ID of the user, who added member to the group|
+|date|[int](../types/int.md) | Yes|When was the participant added|
+|version|[int](../types/int.md) | Yes|Chat version number|
 
 
 

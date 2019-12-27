@@ -1,6 +1,6 @@
 ---
 title: updateBotCallbackQuery
-description: Update bot callback query
+description: A callback button was pressed, and the button data was sent to the bot that created the button
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotCallbackQuery  
@@ -8,19 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update bot callback query
+A callback button was pressed, and the button data was sent to the bot that created the button
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |query\_id|[long](../types/long.md) | Yes|Query ID|
-|user\_id|[int](../types/int.md) | Yes|User ID|
-|peer|[Peer](../types/Peer.md) | Yes|Peer|
-|msg\_id|[int](../types/int.md) | Yes|Msg ID|
-|chat\_instance|[long](../types/long.md) | Yes|Chat instance|
-|data|[bytes](../types/bytes.md) | Optional|Data|
-|game\_short\_name|[string](../types/string.md) | Optional|Game short name|
+|user\_id|[int](../types/int.md) | Yes|ID of the user that pressed the button|
+|peer|[Peer](../types/Peer.md) | Yes|Chat where the inline keyboard was sent|
+|msg\_id|[int](../types/int.md) | Yes|Message ID|
+|chat\_instance|[long](../types/long.md) | Yes|Global identifier, uniquely corresponding to the chat to which the message with the callback button was sent. Useful for high scores in games.|
+|data|[bytes](../types/bytes.md) | Optional|Callback data|
+|game\_short\_name|[string](../types/string.md) | Optional|Short name of a Game to be returned, serves as the unique identifier for the game|
 
 
 

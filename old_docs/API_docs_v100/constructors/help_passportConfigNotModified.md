@@ -1,6 +1,6 @@
 ---
 title: help.passportConfigNotModified
-description: Passport config not modified
+description: Password configuration not modified
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.passportConfigNotModified  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Passport config not modified
+Password configuration not modified
 
 
 

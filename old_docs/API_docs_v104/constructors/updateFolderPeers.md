@@ -1,6 +1,6 @@
 ---
 title: updateFolderPeers
-description: Folder update
+description: The dialog list of a folder was changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateFolderPeers  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Folder update
+The dialog list of a folder was changed
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |folder\_peers|Array of [FolderPeer](../types/FolderPeer.md) | Yes|New folder peers|
-|pts|[int](../types/int.md) | Yes|PTS|
-|pts\_count|[int](../types/int.md) | Yes|PTS|
+|pts|[int](../types/int.md) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|
+|pts\_count|[int](../types/int.md) | Yes|[Number of events that were generated](https://core.telegram.org/api/updates)|
 
 
 

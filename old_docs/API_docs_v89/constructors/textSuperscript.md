@@ -1,6 +1,6 @@
 ---
 title: textSuperscript
-description: Text superscript
+description: Superscript text
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textSuperscript  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Text superscript
+Superscript text
 
 ### Attributes:
 

@@ -1,6 +1,6 @@
 ---
 title: privacyKeyPhoneP2P
-description: Privacy key phone p2p
+description: Whether P2P connections in phone calls are allowed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: privacyKeyPhoneP2P  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Privacy key phone p2p
+Whether P2P connections in phone calls are allowed
 
 
 

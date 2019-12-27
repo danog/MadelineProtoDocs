@@ -1,6 +1,6 @@
 ---
 title: account.webAuthorizations
-description: Telegram login authorizations
+description: Web authorizations
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: account.webAuthorizations  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Telegram login authorizations
+Web authorizations
 
 ### Attributes:
 

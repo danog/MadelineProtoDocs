@@ -1,6 +1,6 @@
 ---
 title: inputWebFileGeoPointLocation
-description: Web file geo point location
+description: Geolocation
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputWebFileGeoPointLocation  
@@ -8,18 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Web file geo point location
+Geolocation
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|Geo point|
+|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|Geolocation|
 |access\_hash|[long](../types/long.md) | Yes|Access hash|
-|w|[int](../types/int.md) | Yes|Width|
-|h|[int](../types/int.md) | Yes|Height|
-|zoom|[int](../types/int.md) | Yes|Zoom|
-|scale|[int](../types/int.md) | Yes|Scale|
+|w|[int](../types/int.md) | Yes|Map width in pixels before applying scale; 16-1024|
+|h|[int](../types/int.md) | Yes|Map height in pixels before applying scale; 16-1024|
+|zoom|[int](../types/int.md) | Yes|Map zoom level; 13-20|
+|scale|[int](../types/int.md) | Yes|Map scale; 1-3|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: updateChatPinnedMessage
-description: Update chat pinned message
+description: A message was pinned in a [legacy group](https://core.telegram.org/api/channel)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChatPinnedMessage  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update chat pinned message
+A message was pinned in a [legacy group](https://core.telegram.org/api/channel)
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[int](../types/int.md) | Yes|Chat ID|
-|id|[int](../types/int.md) | Yes|ID|
+|chat\_id|[int](../types/int.md) | Yes|[Legacy group](https://core.telegram.org/api/channel) ID|
+|id|[int](../types/int.md) | Yes|ID of pinned message|
 
 
 

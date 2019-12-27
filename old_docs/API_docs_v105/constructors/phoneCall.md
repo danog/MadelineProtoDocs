@@ -14,17 +14,17 @@ Phone call
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|p2p\_allowed|[Bool](../types/Bool.md) | Optional|P2p allowed?|
-|id|[long](../types/long.md) | Yes|ID|
+|p2p\_allowed|[Bool](../types/Bool.md) | Optional|Whether P2P connection to the other peer is allowed|
+|id|[long](../types/long.md) | Yes|Call ID|
 |access\_hash|[long](../types/long.md) | Yes|Access hash|
-|date|[int](../types/int.md) | Yes|Date|
-|admin\_id|[int](../types/int.md) | Yes|Admin ID|
-|participant\_id|[int](../types/int.md) | Yes|Participant ID|
-|g\_a\_or\_b|[bytes](../types/bytes.md) | Yes|G a or b|
-|key\_fingerprint|[long](../types/long.md) | Yes|Key fingerprint|
-|protocol|[PhoneCallProtocol](../types/PhoneCallProtocol.md) | Yes|Protocol|
+|date|[int](../types/int.md) | Yes|Date of creation of the call|
+|admin\_id|[int](../types/int.md) | Yes|User ID of the creator of the call|
+|participant\_id|[int](../types/int.md) | Yes|User ID of the other participant in the call|
+|g\_a\_or\_b|[bytes](../types/bytes.md) | Yes|[Parameter for key exchange](https://core.telegram.org/api/end-to-end/voice-calls)|
+|key\_fingerprint|[long](../types/long.md) | Yes|[Key fingerprint](https://core.telegram.org/api/end-to-end/voice-calls)|
+|protocol|[PhoneCallProtocol](../types/PhoneCallProtocol.md) | Yes|Call protocol info to be passed to libtgvoip|
 |connections|Array of [PhoneConnection](../types/PhoneConnection.md) | Yes|Phone connections|
-|start\_date|[int](../types/int.md) | Yes|Start date|
+|start\_date|[int](../types/int.md) | Yes|When was the call actually started|
 
 
 

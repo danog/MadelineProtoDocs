@@ -1,6 +1,6 @@
 ---
 title: jsonNumber
-description: Json number
+description: JSON numeric value
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: jsonNumber  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Json number
+JSON numeric value
 
 ### Attributes:
 

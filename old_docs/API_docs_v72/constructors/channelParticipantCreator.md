@@ -1,6 +1,6 @@
 ---
 title: channelParticipantCreator
-description: Channel participant creator
+description: Channel/supergroup creator
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantCreator  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Channel participant creator
+Channel/supergroup creator
 
 ### Attributes:
 

@@ -1,6 +1,6 @@
 ---
 title: pageListOrderedItemBlocks
-description: Page list ordered item blocks
+description: Ordered list of [IV](https://instantview.telegram.org) blocks
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageListOrderedItemBlocks  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page list ordered item blocks
+Ordered list of [IV](https://instantview.telegram.org) blocks
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|num|[string](../types/string.md) | Yes|Num|
+|num|[string](../types/string.md) | Yes|Number of element within ordered list|
 |blocks|Array of [PageBlock](../types/PageBlock.md) | Yes|Blocks|
 
 

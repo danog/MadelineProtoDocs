@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageMediaEmpty
-description: Empty decrypted message media
+description: Empty constructor, no media content.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaEmpty\_8  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty decrypted message media
+Empty constructor, no media content.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: messageActionGameScore
-description: Message action game score
+description: Someone scored in a game
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionGameScore  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message action game score
+Someone scored in a game
 
 ### Attributes:
 

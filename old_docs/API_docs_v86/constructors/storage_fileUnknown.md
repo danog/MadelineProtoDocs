@@ -1,6 +1,6 @@
 ---
 title: storage.fileUnknown
-description: File unknown
+description: Unknown type.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: storage.fileUnknown  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-File unknown
+Unknown type.
 
 
 

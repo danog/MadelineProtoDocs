@@ -1,6 +1,6 @@
 ---
 title: geoPoint
-description: Geo point
+description: GeoPoint.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: geoPoint  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Geo point
+GeoPoint.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|long|[double](../types/double.md) | Yes|Long|
-|lat|[double](../types/double.md) | Yes|Lat|
+|long|[double](../types/double.md) | Yes|Longtitude|
+|lat|[double](../types/double.md) | Yes|Latitude|
 |access\_hash|[long](../types/long.md) | Yes|Access hash|
 
 

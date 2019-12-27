@@ -1,6 +1,6 @@
 ---
 title: chatInvite
-description: Chat invite
+description: Chat invite info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatInvite  
@@ -8,17 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Chat invite
+Chat invite info
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel|[Bool](../types/Bool.md) | Optional|Channel?|
-|broadcast|[Bool](../types/Bool.md) | Optional|Broadcast?|
-|public|[Bool](../types/Bool.md) | Optional|Public?|
-|megagroup|[Bool](../types/Bool.md) | Optional|Megagroup?|
-|title|[string](../types/string.md) | Yes|Title|
+|channel|[Bool](../types/Bool.md) | Optional|Whether this is a [channel/supergroup](https://core.telegram.org/api/channel) or a [normal group](https://core.telegram.org/api/channel)|
+|broadcast|[Bool](../types/Bool.md) | Optional|Whether this is a [channel](https://core.telegram.org/api/channel)|
+|public|[Bool](../types/Bool.md) | Optional|Whether this is a public [channel/supergroup](https://core.telegram.org/api/channel)|
+|megagroup|[Bool](../types/Bool.md) | Optional|Whether this is a [supergroup](https://core.telegram.org/api/channel)|
+|title|[string](../types/string.md) | Yes|Chat/supergroup/channel title|
 
 
 

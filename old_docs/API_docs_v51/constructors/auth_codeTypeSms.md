@@ -1,6 +1,6 @@
 ---
 title: auth.codeTypeSms
-description: Auth code type: SMS
+description: Type of verification code that will be sent next if you call the resendCode method: SMS code
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: auth.codeTypeSms  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Auth code type: SMS
+Type of verification code that will be sent next if you call the resendCode method: SMS code
 
 
 

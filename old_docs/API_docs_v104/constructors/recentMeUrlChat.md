@@ -1,6 +1,6 @@
 ---
 title: recentMeUrlChat
-description: Recent me URL chat
+description: Recent t.me link to a chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: recentMeUrlChat  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Recent me URL chat
+Recent t.me link to a chat
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|url|[string](../types/string.md) | Yes|URL|
+|url|[string](../types/string.md) | Yes|t.me URL|
 |chat\_id|[int](../types/int.md) | Yes|Chat ID|
 
 

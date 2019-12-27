@@ -1,6 +1,6 @@
 ---
 title: updateChatParticipantDelete
-description: Update chat participant delete
+description: A member has left the group.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChatParticipantDelete  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update chat participant delete
+A member has left the group.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[int](../types/int.md) | Yes|Chat ID|
-|user\_id|[int](../types/int.md) | Yes|User ID|
-|version|[int](../types/int.md) | Yes|Version|
+|chat\_id|[int](../types/int.md) | Yes|Group ID|
+|user\_id|[int](../types/int.md) | Yes|ID of the user|
+|version|[int](../types/int.md) | Yes|Used in basic groups to reorder updates and make sure that all of them was received.|
 
 
 

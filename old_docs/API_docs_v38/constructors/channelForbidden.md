@@ -1,6 +1,6 @@
 ---
 title: channelForbidden
-description: Forbidden channel
+description: Indicates a channel/supergroup we can't access because we were banned, or for some other reason.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelForbidden  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Forbidden channel
+Indicates a channel/supergroup we can't access because we were banned, or for some other reason.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID|
+|id|[int](../types/int.md) | Yes|Channel ID|
 |access\_hash|[long](../types/long.md) | Yes|Access hash|
 |title|[string](../types/string.md) | Yes|Title|
 

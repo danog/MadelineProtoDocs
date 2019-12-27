@@ -1,6 +1,8 @@
 ---
 title: codeSettings
-description: Code settings
+description: Settings used by telegram servers for sending the confirm code.
+
+Example implementations: [telegram for android](https://github.com/DrKLO/Telegram/blob/master/TMessagesProj/src/main/java/org/telegram/ui/LoginActivity.java), [tdlib](https://github.com/tdlib/td/tree/master/td/telegram/SendCodeHelper.cpp).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: codeSettings  
@@ -8,14 +10,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Code settings
+Settings used by telegram servers for sending the confirm code.
+
+Example implementations: [telegram for android](https://github.com/DrKLO/Telegram/blob/master/TMessagesProj/src/main/java/org/telegram/ui/LoginActivity.java), [tdlib](https://github.com/tdlib/td/tree/master/td/telegram/SendCodeHelper.cpp).
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|allow\_flashcall|[Bool](../types/Bool.md) | Optional|Allow flashcal?|
-|current\_number|[Bool](../types/Bool.md) | Optional|Current number?|
+|allow\_flashcall|[Bool](../types/Bool.md) | Optional|Whether to allow phone verification via [phone calls](https://core.telegram.org/api/auth).|
+|current\_number|[Bool](../types/Bool.md) | Optional|Pass true if the phone number is used on the current device. Ignored if allow\_flashcall is not set.|
 |app\_hash\_persistent|[Bool](../types/Bool.md) | Optional|Persistent hash?|
 |app\_hash|[string](../types/string.md) | Optional|Hash type|
 

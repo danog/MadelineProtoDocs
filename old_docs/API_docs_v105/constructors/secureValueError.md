@@ -14,9 +14,9 @@ Secure value error
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|type|[SecureValueType](../types/SecureValueType.md) | Yes|Type|
+|type|[SecureValueType](../types/SecureValueType.md) | Yes|Type of element which has the issue|
 |hash|[bytes](../types/bytes.md) | Yes|Hash|
-|text|[string](../types/string.md) | Yes|Text|
+|text|[string](../types/string.md) | Yes|Error message|
 
 
 

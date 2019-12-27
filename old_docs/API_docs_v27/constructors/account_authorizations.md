@@ -1,6 +1,6 @@
 ---
 title: account.authorizations
-description: Authorized clients for this account
+description: Logged-in sessions
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: account.authorizations  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Authorized clients for this account
+Logged-in sessions
 
 ### Attributes:
 

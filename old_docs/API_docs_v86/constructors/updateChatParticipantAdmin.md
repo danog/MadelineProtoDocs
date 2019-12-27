@@ -1,6 +1,6 @@
 ---
 title: updateChatParticipantAdmin
-description: Update chat participant admin
+description: Admin permissions of a user in a [legacy group](https://core.telegram.org/api/channel) were changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChatParticipantAdmin  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update chat participant admin
+Admin permissions of a user in a [legacy group](https://core.telegram.org/api/channel) were changed
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |chat\_id|[int](../types/int.md) | Yes|Chat ID|
-|user\_id|[int](../types/int.md) | Yes|User ID|
-|is\_admin|[Bool](../types/Bool.md) | Yes|Is admin?|
-|version|[int](../types/int.md) | Yes|Version|
+|user\_id|[int](../types/int.md) | Yes|ID of the (de)admined user|
+|is\_admin|[Bool](../types/Bool.md) | Yes|Whether the user was rendered admin|
+|version|[int](../types/int.md) | Yes|Used in basic groups to reorder updates and make sure that all of them was received.|
 
 
 

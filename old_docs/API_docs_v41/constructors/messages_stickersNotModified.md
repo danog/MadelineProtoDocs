@@ -1,6 +1,6 @@
 ---
 title: messages.stickersNotModified
-description: Stickers not modified
+description: No new stickers were found for the given query
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.stickersNotModified  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Stickers not modified
+No new stickers were found for the given query
 
 
 

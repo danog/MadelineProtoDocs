@@ -1,6 +1,6 @@
 ---
 title: messages.dialogs
-description: Dialogs
+description: Full list of chats with messages and auxiliary data.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.dialogs  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Dialogs
+Full list of chats with messages and auxiliary data.
 
 ### Attributes:
 

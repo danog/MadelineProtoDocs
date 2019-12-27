@@ -1,6 +1,6 @@
 ---
 title: inputSecureValue
-description: Secure value
+description: Secure value, [for more info see the passport docs »](https://core.telegram.org/passport/encryption#encryption)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputSecureValue  
@@ -8,20 +8,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Secure value
+Secure value, [for more info see the passport docs »](https://core.telegram.org/passport/encryption#encryption)
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|type|[SecureValueType](../types/SecureValueType.md) | Yes|Type|
-|data|[SecureData](../types/SecureData.md) | Optional|Data|
-|front\_side|[InputSecureFile](../types/InputSecureFile.md) | Optional|Front side|
-|reverse\_side|[InputSecureFile](../types/InputSecureFile.md) | Optional|Reverse side|
-|selfie|[InputSecureFile](../types/InputSecureFile.md) | Optional|Selfie|
+|type|[SecureValueType](../types/SecureValueType.md) | Yes|Secure [passport](https://core.telegram.org/passport) value type|
+|data|[SecureData](../types/SecureData.md) | Optional|Encrypted [Telegram Passport](https://core.telegram.org/passport) element data|
+|front\_side|[InputSecureFile](../types/InputSecureFile.md) | Optional|Encrypted [passport](https://core.telegram.org/passport) file with the front side of the document|
+|reverse\_side|[InputSecureFile](../types/InputSecureFile.md) | Optional|Encrypted [passport](https://core.telegram.org/passport) file with the reverse side of the document|
+|selfie|[InputSecureFile](../types/InputSecureFile.md) | Optional|Encrypted [passport](https://core.telegram.org/passport) file with a selfie of the user holding the document|
 |translation|Array of [InputSecureFile](../types/InputSecureFile.md) | Optional|Translation|
 |files|Array of [InputSecureFile](../types/InputSecureFile.md) | Optional|Files|
-|plain\_data|[SecurePlainData](../types/SecurePlainData.md) | Optional|Plain data|
+|plain\_data|[SecurePlainData](../types/SecurePlainData.md) | Optional|Plaintext verified [passport](https://core.telegram.org/passport) data|
 
 
 

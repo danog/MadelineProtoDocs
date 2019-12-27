@@ -1,6 +1,6 @@
 ---
 title: inputTakeoutFileLocation
-description: Takeout file location
+description: Empty constructor for takeout
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputTakeoutFileLocation  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Takeout file location
+Empty constructor for takeout
 
 
 

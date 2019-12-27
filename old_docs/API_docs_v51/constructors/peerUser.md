@@ -1,6 +1,6 @@
 ---
 title: peerUser
-description: Peer user
+description: Chat partner
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: peerUser  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Peer user
+Chat partner
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User ID|
+|user\_id|[int](../types/int.md) | Yes|User identifier|
 
 
 

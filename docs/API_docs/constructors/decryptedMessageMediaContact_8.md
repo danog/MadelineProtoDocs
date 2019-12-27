@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageMediaContact
-description: Decrypted message media contact
+description: Contact attached to an encrypted message.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaContact\_8  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Decrypted message media contact
+Contact attached to an encrypted message.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |phone\_number|[string](../types/string.md) | Yes|Phone number|
-|first\_name|[string](../types/string.md) | Yes|First name|
-|last\_name|[string](../types/string.md) | Yes|Last name|
-|user\_id|[int](../types/int.md) | Yes|User ID|
+|first\_name|[string](../types/string.md) | Yes|Contact's first name|
+|last\_name|[string](../types/string.md) | Yes|Contact's last name|
+|user\_id|[int](../types/int.md) | Yes|Telegram User ID of signed-up contact|
 
 
 

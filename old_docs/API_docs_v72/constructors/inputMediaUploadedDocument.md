@@ -1,6 +1,6 @@
 ---
 title: inputMediaUploadedDocument
-description: Media uploaded document
+description: New document
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaUploadedDocument  
@@ -8,19 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Media uploaded document
+New document
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|file|[File path or InputFile](../types/InputFile.md) | Yes|File|
-|thumb|[File path or InputFile](../types/InputFile.md) | Optional|Thumbnail|
-|mime\_type|[string](../types/string.md) | Optional|Mime type|
+|file|[File path or InputFile](../types/InputFile.md) | Yes|The [uploaded file](https://core.telegram.org/api/files)|
+|thumb|[File path or InputFile](../types/InputFile.md) | Optional|Thumbnail of the document, uploaded as for the file|
+|mime\_type|[string](../types/string.md) | Optional|MIME type of document|
 |attributes|Array of [DocumentAttribute](../types/DocumentAttribute.md) | Yes|Attributes|
 |caption|[string](../types/string.md) | Yes|Caption|
 |stickers|Array of [MessageMedia, Message, Update or InputDocument](../types/InputDocument.md) | Optional|Stickers|
-|ttl\_seconds|[int](../types/int.md) | Optional|Ttl seconds|
+|ttl\_seconds|[int](../types/int.md) | Optional|Time to live in seconds of self-destructing document|
 
 
 

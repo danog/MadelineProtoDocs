@@ -1,6 +1,6 @@
 ---
 title: topPeerCategoryCorrespondents
-description: Top peer category correspondents
+description: Users we've chatted most frequently with
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: topPeerCategoryCorrespondents  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Top peer category correspondents
+Users we've chatted most frequently with
 
 
 

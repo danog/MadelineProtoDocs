@@ -1,6 +1,6 @@
 ---
 title: phone.phoneCall
-description: Phone call
+description: A VoIP phone call
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phone.phoneCall  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Phone call
+A VoIP phone call
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|phone\_call|[PhoneCall](../types/PhoneCall.md) | Optional|Phone call|
+|phone\_call|[PhoneCall](../types/PhoneCall.md) | Optional|The VoIP phone call|
 |users|Array of [User](../types/User.md) | Yes|Users|
 
 

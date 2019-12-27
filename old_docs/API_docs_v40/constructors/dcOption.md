@@ -1,6 +1,6 @@
 ---
 title: dcOption
-description: DC option
+description: Data centre
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: dcOption  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-DC option
+Data centre
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID|
-|ip\_address|[string](../types/string.md) | Yes|Ip address|
+|id|[int](../types/int.md) | Yes|DC ID|
+|ip\_address|[string](../types/string.md) | Yes|IP address of DC|
 |port|[int](../types/int.md) | Yes|Port|
 
 

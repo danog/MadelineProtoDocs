@@ -1,6 +1,6 @@
 ---
 title: storage.fileGif
-description: File gif
+description: GIF image. MIME type: `image/gif`.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: storage.fileGif  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-File gif
+GIF image. MIME type: `image/gif`.
 
 
 

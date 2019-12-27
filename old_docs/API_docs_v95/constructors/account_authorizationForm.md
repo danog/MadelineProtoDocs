@@ -1,6 +1,6 @@
 ---
 title: account.authorizationForm
-description: Telegram passport authorization form
+description: [Telegram Passport](https://core.telegram.org/passport) authorization form
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: account.authorizationForm  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Telegram passport authorization form
+[Telegram Passport](https://core.telegram.org/passport) authorization form
 
 ### Attributes:
 
@@ -18,7 +18,7 @@ Telegram passport authorization form
 |values|Array of [SecureValue](../types/SecureValue.md) | Yes|Values|
 |errors|Array of [SecureValueError](../types/SecureValueError.md) | Yes|Errors|
 |users|Array of [User](../types/User.md) | Yes|Users|
-|privacy\_policy\_url|[string](../types/string.md) | Optional|Privacy policy URL|
+|privacy\_policy\_url|[string](../types/string.md) | Optional|URL of the service's privacy policy|
 
 
 

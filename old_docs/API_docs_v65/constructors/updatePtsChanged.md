@@ -1,6 +1,6 @@
 ---
 title: updatePtsChanged
-description: Update pts changed
+description: [Common message box sequence PTS](https://core.telegram.org/api/updates) has changed, [state has to be refetched using updates.getState](https://core.telegram.org/api/updates#fetching-state)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatePtsChanged  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update pts changed
+[Common message box sequence PTS](https://core.telegram.org/api/updates) has changed, [state has to be refetched using updates.getState](https://core.telegram.org/api/updates#fetching-state)
 
 
 

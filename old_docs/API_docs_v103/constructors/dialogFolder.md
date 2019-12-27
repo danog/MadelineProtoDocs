@@ -1,6 +1,6 @@
 ---
 title: dialogFolder
-description: Dialog folder
+description: Dialog in folder
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: dialogFolder  
@@ -8,20 +8,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Dialog folder
+Dialog in folder
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|pinned|[Bool](../types/Bool.md) | Optional|Pinned?|
-|folder|[Folder](../types/Folder.md) | Yes|Folder|
-|peer|[Peer](../types/Peer.md) | Yes|Peer|
-|top\_message|[int](../types/int.md) | Yes|Top message|
-|unread\_muted\_peers\_count|[int](../types/int.md) | Yes|Unread muted peers count|
-|unread\_unmuted\_peers\_count|[int](../types/int.md) | Yes|Unread unmuted peer count|
-|unread\_muted\_messages\_count|[int](../types/int.md) | Yes|Unread muted messages count|
-|unread\_unmuted\_messages\_count|[int](../types/int.md) | Yes|Unread unmuted messages count|
+|pinned|[Bool](../types/Bool.md) | Optional|Is this folder pinned|
+|folder|[Folder](../types/Folder.md) | Yes|The folder|
+|peer|[Peer](../types/Peer.md) | Yes|Peer in folder|
+|top\_message|[int](../types/int.md) | Yes|Latest message ID of dialog|
+|unread\_muted\_peers\_count|[int](../types/int.md) | Yes|Number of unread muted peers in folder|
+|unread\_unmuted\_peers\_count|[int](../types/int.md) | Yes|Number of unread unmuted peers in folder|
+|unread\_muted\_messages\_count|[int](../types/int.md) | Yes|Number of unread messages from muted peers in folder|
+|unread\_unmuted\_messages\_count|[int](../types/int.md) | Yes|Number of unread messages from unmuted peers in folder|
 
 
 

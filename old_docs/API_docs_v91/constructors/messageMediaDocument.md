@@ -1,6 +1,6 @@
 ---
 title: messageMediaDocument
-description: Message media document
+description: Document (video, audio, voice, sticker, any media type except photo)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaDocument  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message media document
+Document (video, audio, voice, sticker, any media type except photo)
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|document|[Document](../types/Document.md) | Optional|Document|
-|ttl\_seconds|[int](../types/int.md) | Optional|Ttl seconds|
+|document|[Document](../types/Document.md) | Optional|Attached document|
+|ttl\_seconds|[int](../types/int.md) | Optional|Time to live of self-destructing document|
 
 
 

@@ -14,10 +14,10 @@ Document
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID|
-|access\_hash|[long](../types/long.md) | Yes|Access hash|
-|date|[int](../types/int.md) | Yes|Date|
-|mime\_type|[string](../types/string.md) | Yes|Mime type|
+|id|[long](../types/long.md) | Yes|Document ID|
+|access\_hash|[long](../types/long.md) | Yes|Check sum, dependant on document ID|
+|date|[int](../types/int.md) | Yes|Creation date|
+|mime\_type|[string](../types/string.md) | Yes|MIME type|
 |size|[int](../types/int.md) | Yes|Size|
 |thumb|[PhotoSize](../types/PhotoSize.md) | Optional|Thumbnail|
 |dc\_id|[int](../types/int.md) | Yes|DC ID|

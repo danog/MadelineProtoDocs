@@ -1,6 +1,6 @@
 ---
 title: inputReportReasonOther
-description: Report reason other
+description: Other
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputReportReasonOther  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Report reason other
+Other
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|text|[string](../types/string.md) | Yes|Text|
+|text|[string](../types/string.md) | Yes|Other report reason|
 
 
 

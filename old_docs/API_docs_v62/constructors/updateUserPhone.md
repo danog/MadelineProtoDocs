@@ -1,6 +1,6 @@
 ---
 title: updateUserPhone
-description: Update user phone
+description: A user's phone number was changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateUserPhone  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update user phone
+A user's phone number was changed
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |user\_id|[int](../types/int.md) | Yes|User ID|
-|phone|[string](../types/string.md) | Yes|Phone|
+|phone|[string](../types/string.md) | Yes|New phone number|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: chatFull
-description: Chat full
+description: Detailed chat info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatFull  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Chat full
+Detailed chat info
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID|
-|participants|[ChatParticipants](../types/ChatParticipants.md) | Yes|Participants|
+|id|[int](../types/int.md) | Yes|ID of the chat|
+|participants|[ChatParticipants](../types/ChatParticipants.md) | Yes|Participant list|
 |chat\_photo|[Photo](../types/Photo.md) | Optional|Chat photo|
-|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|Notify settings|
+|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|Notification settings|
 
 
 

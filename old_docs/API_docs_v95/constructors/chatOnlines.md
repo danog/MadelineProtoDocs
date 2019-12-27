@@ -1,6 +1,6 @@
 ---
 title: chatOnlines
-description: Chat onlines
+description: Number of online users in a chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatOnlines  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Chat onlines
+Number of online users in a chat
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|onlines|[int](../types/int.md) | Yes|Onlines|
+|onlines|[int](../types/int.md) | Yes|Number of online users|
 
 
 

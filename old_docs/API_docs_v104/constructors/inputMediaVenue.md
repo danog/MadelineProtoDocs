@@ -1,6 +1,6 @@
 ---
 title: inputMediaVenue
-description: Media venue
+description: Can be used to send a venue geolocation.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaVenue  
@@ -8,18 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Media venue
+Can be used to send a venue geolocation.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|Geo point|
-|title|[string](../types/string.md) | Yes|Title|
-|address|[string](../types/string.md) | Yes|Address|
-|provider|[string](../types/string.md) | Yes|Provider|
-|venue\_id|[string](../types/string.md) | Yes|Venue ID|
-|venue\_type|[string](../types/string.md) | Yes|Venue type|
+|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|Geolocation|
+|title|[string](../types/string.md) | Yes|Venue name|
+|address|[string](../types/string.md) | Yes|Physical address of the venue|
+|provider|[string](../types/string.md) | Yes|Venue provider: currently only "foursquare" needs to be supported|
+|venue\_id|[string](../types/string.md) | Yes|Venue ID in the provider's database|
+|venue\_type|[string](../types/string.md) | Yes|Venue type in the provider's database|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: fileHash
-description: File hash
+description: SHA256 Hash of an uploaded file, to be checked for validity after download
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: fileHash  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-File hash
+SHA256 Hash of an uploaded file, to be checked for validity after download
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|offset|[int](../types/int.md) | Yes|Offset|
-|limit|[int](../types/int.md) | Yes|Limit|
-|hash|[bytes](../types/bytes.md) | Yes|Hash|
+|offset|[int](../types/int.md) | Yes|Offset from where to start computing SHA-256 hash|
+|limit|[int](../types/int.md) | Yes|Length|
+|hash|[bytes](../types/bytes.md) | Yes|SHA-256 Hash of file chunk, to be checked for validity after download|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: secureValueErrorFile
-description: Secure value error file
+description: Represents an issue with a document scan. The error is considered resolved when the file with the document scan changes.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueErrorFile  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Secure value error file
+Represents an issue with a document scan. The error is considered resolved when the file with the document scan changes.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|type|[SecureValueType](../types/SecureValueType.md) | Yes|Type|
+|type|[SecureValueType](../types/SecureValueType.md) | Yes|One of [secureValueTypeUtilityBill](../constructors/secureValueTypeUtilityBill.md), [secureValueTypeBankStatement](../constructors/secureValueTypeBankStatement.md), [secureValueTypeRentalAgreement](../constructors/secureValueTypeRentalAgreement.md), [secureValueTypePassportRegistration](../constructors/secureValueTypePassportRegistration.md), [secureValueTypeTemporaryRegistration](../constructors/secureValueTypeTemporaryRegistration.md)|
 |file\_hash|[bytes](../types/bytes.md) | Yes|File hash|
-|text|[string](../types/string.md) | Yes|Text|
+|text|[string](../types/string.md) | Yes|Error message|
 
 
 

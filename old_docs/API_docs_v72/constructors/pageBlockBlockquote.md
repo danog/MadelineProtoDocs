@@ -1,6 +1,6 @@
 ---
 title: pageBlockBlockquote
-description: Page block blockquote
+description: Quote (equivalent to the HTML `<blockquote>`)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockBlockquote  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page block blockquote
+Quote (equivalent to the HTML `<blockquote>`)
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|text|[RichText](../types/RichText.md) | Yes|Text|
+|text|[RichText](../types/RichText.md) | Yes|Quote contents|
 |caption|[RichText](../types/RichText.md) | Yes|Caption|
 
 

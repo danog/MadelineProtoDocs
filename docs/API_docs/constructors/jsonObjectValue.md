@@ -1,6 +1,6 @@
 ---
 title: jsonObjectValue
-description: Json object value
+description: JSON key: value pair
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: jsonObjectValue  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Json object value
+JSON key: value pair
 
 ### Attributes:
 

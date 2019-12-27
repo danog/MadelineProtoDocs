@@ -1,6 +1,6 @@
 ---
 title: inputWebFileLocation
-description: Web file location
+description: Location of a remote HTTP(s) file
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputWebFileLocation  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Web file location
+Location of a remote HTTP(s) file
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|url|[string](../types/string.md) | Yes|URL|
+|url|[string](../types/string.md) | Yes|HTTP URL of file|
 |access\_hash|[long](../types/long.md) | Yes|Access hash|
 
 

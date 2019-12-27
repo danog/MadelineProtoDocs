@@ -1,6 +1,6 @@
 ---
 title: messageActionChatEditPhoto
-description: Message action chat edit photo
+description: Group profile changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChatEditPhoto  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message action chat edit photo
+Group profile changed
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|photo|[Photo](../types/Photo.md) | Optional|Photo|
+|photo|[Photo](../types/Photo.md) | Optional|New group pofile photo|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionParticipantToggleBan
-description: User banned
+description: The banned [rights](https://core.telegram.org/api/rights) of a user were changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionParticipantToggleBan  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-User banned
+The banned [rights](https://core.telegram.org/api/rights) of a user were changed
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|prev\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Yes|Prev participant|
-|new\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Yes|New participant|
+|prev\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Yes|Old banned rights of user|
+|new\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Yes|New banned rights of user|
 
 
 

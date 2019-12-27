@@ -1,6 +1,6 @@
 ---
 title: channelParticipantsBanned
-description: Channel participants banned
+description: Fetch only banned participants
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantsBanned  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Channel participants banned
+Fetch only banned participants
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|q|[string](../types/string.md) | Yes|Query|
+|q|[string](../types/string.md) | Yes|Optional filter for searching banned participants by name (otherwise empty)|
 
 
 

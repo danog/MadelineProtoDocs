@@ -1,6 +1,6 @@
 ---
 title: messages.stickerSetInstallResultArchive
-description: Sticker set install result archive
+description: The stickerset was installed, but since there are too many stickersets some were archived
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.stickerSetInstallResultArchive  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Sticker set install result archive
+The stickerset was installed, but since there are too many stickersets some were archived
 
 ### Attributes:
 

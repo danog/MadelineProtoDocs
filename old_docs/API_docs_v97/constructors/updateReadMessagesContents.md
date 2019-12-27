@@ -1,6 +1,6 @@
 ---
 title: updateReadMessagesContents
-description: Update read messages contents
+description: Contents of messages in the common [message box](https://core.telegram.org/api/updates) were read
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateReadMessagesContents  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update read messages contents
+Contents of messages in the common [message box](https://core.telegram.org/api/updates) were read
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |messages|Array of [int](../types/int.md) | Yes|Messages|
-|pts|[int](../types/int.md) | Yes|Pts|
-|pts\_count|[int](../types/int.md) | Yes|Pts count|
+|pts|[int](../types/int.md) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|
+|pts\_count|[int](../types/int.md) | Yes|[Number of events that were generated](https://core.telegram.org/api/updates)|
 
 
 

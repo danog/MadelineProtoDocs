@@ -1,6 +1,6 @@
 ---
 title: messageMediaContact
-description: Message media contact
+description: Attached contact.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaContact  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message media contact
+Attached contact.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |phone\_number|[string](../types/string.md) | Yes|Phone number|
-|first\_name|[string](../types/string.md) | Yes|First name|
-|last\_name|[string](../types/string.md) | Yes|Last name|
-|user\_id|[int](../types/int.md) | Yes|User ID|
+|first\_name|[string](../types/string.md) | Yes|Contact's first name|
+|last\_name|[string](../types/string.md) | Yes|Contact's last name|
+|user\_id|[int](../types/int.md) | Yes|User identifier or `0`, if the user with the given phone number is not registered|
 
 
 

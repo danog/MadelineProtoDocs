@@ -17,7 +17,7 @@ Photo
 |id|[long](../types/long.md) | Yes|ID|
 |access\_hash|[long](../types/long.md) | Yes|Access hash|
 |user\_id|[int](../types/int.md) | Yes|User ID|
-|date|[int](../types/int.md) | Yes|Date|
+|date|[int](../types/int.md) | Yes|Date of upload|
 |caption|[string](../types/string.md) | Yes|Caption|
 |geo|[GeoPoint](../types/GeoPoint.md) | Optional|Geo|
 |sizes|Array of [PhotoSize](../types/PhotoSize.md) | Yes|Sizes|

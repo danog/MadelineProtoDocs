@@ -1,6 +1,6 @@
 ---
 title: encryptedChatRequested
-description: Encrypted chat requested
+description: Request to create an encrypted chat.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: encryptedChatRequested  
@@ -8,18 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Encrypted chat requested
+Request to create an encrypted chat.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID|
-|access\_hash|[long](../types/long.md) | Yes|Access hash|
-|date|[int](../types/int.md) | Yes|Date|
-|admin\_id|[int](../types/int.md) | Yes|Admin ID|
-|participant\_id|[int](../types/int.md) | Yes|Participant ID|
-|g\_a|[bytes](../types/bytes.md) | Yes|G a|
+|id|[int](../types/int.md) | Yes|Chat ID|
+|access\_hash|[long](../types/long.md) | Yes|Check sum depending on user ID|
+|date|[int](../types/int.md) | Yes|Chat creation date|
+|admin\_id|[int](../types/int.md) | Yes|Chat creator ID|
+|participant\_id|[int](../types/int.md) | Yes|ID of second chat participant|
+|g\_a|[bytes](../types/bytes.md) | Yes|`A = g ^ a mod p`, see [Wikipedia](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)|
 
 
 

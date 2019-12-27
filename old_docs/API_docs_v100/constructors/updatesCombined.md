@@ -1,6 +1,6 @@
 ---
 title: updatesCombined
-description: Updates combined
+description: Constructor for a group of updates.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatesCombined  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Updates combined
+Constructor for a group of updates.
 
 ### Attributes:
 
@@ -17,9 +17,9 @@ Updates combined
 |updates|Array of [Update](../types/Update.md) | Yes|Updates|
 |users|Array of [User](../types/User.md) | Yes|Users|
 |chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
-|date|[int](../types/int.md) | Yes|Date|
-|seq\_start|[int](../types/int.md) | Yes|Seq start|
-|seq|[int](../types/int.md) | Yes|Seq|
+|date|[int](../types/int.md) | Yes|Current date|
+|seq\_start|[int](../types/int.md) | Yes|Value **seq** for the earliest update in a group|
+|seq|[int](../types/int.md) | Yes|Value **seq** for the latest update in a group|
 
 
 

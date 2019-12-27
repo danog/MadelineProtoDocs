@@ -1,6 +1,6 @@
 ---
 title: message
-description: Message
+description: A message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: message  
@@ -8,18 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message
+A message
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID|
-|from\_id|[int](../types/int.md) | Yes|From ID|
-|to\_id|[Peer](../types/Peer.md) | Yes|To ID|
-|date|[int](../types/int.md) | Yes|Date|
-|message|[string](../types/string.md) | Yes|Message|
-|media|[MessageMedia](../types/MessageMedia.md) | Optional|Media|
+|id|[int](../types/int.md) | Yes|ID of the message|
+|from\_id|[int](../types/int.md) | Yes|ID of the sender of the message|
+|to\_id|[Peer](../types/Peer.md) | Yes|ID of the chat were the message was sent|
+|date|[int](../types/int.md) | Yes|Date of the message|
+|message|[string](../types/string.md) | Yes|The message|
+|media|[MessageMedia](../types/MessageMedia.md) | Optional|Media attachment|
 
 
 

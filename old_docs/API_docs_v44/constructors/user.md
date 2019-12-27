@@ -1,6 +1,6 @@
 ---
 title: user
-description: User
+description: Indicates info about a certain user
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: user  
@@ -8,30 +8,30 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-User
+Indicates info about a certain user
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|self|[Bool](../types/Bool.md) | Optional|Self?|
-|contact|[Bool](../types/Bool.md) | Optional|Contact?|
-|mutual\_contact|[Bool](../types/Bool.md) | Optional|Mutual contact?|
-|deleted|[Bool](../types/Bool.md) | Optional|Deleted?|
-|bot|[Bool](../types/Bool.md) | Optional|Bot?|
-|bot\_chat\_history|[Bool](../types/Bool.md) | Optional|Bot chat history?|
-|bot\_nochats|[Bool](../types/Bool.md) | Optional|Bot nochats?|
-|verified|[Bool](../types/Bool.md) | Optional|Verified?|
-|restricted|[Bool](../types/Bool.md) | Optional|Restricted?|
-|id|[int](../types/int.md) | Yes|ID|
-|access\_hash|[long](../types/long.md) | Optional|Access hash|
+|self|[Bool](../types/Bool.md) | Optional|Whether this user indicates the currently logged in user|
+|contact|[Bool](../types/Bool.md) | Optional|Whether this user is a contact|
+|mutual\_contact|[Bool](../types/Bool.md) | Optional|Whether this user is a mutual contact|
+|deleted|[Bool](../types/Bool.md) | Optional|Whether the account of this user was deleted|
+|bot|[Bool](../types/Bool.md) | Optional|Is this user a bot?|
+|bot\_chat\_history|[Bool](../types/Bool.md) | Optional|Can the bot see all messages in groups?|
+|bot\_nochats|[Bool](../types/Bool.md) | Optional|Can the bot be added to groups?|
+|verified|[Bool](../types/Bool.md) | Optional|Whether this user is verified|
+|restricted|[Bool](../types/Bool.md) | Optional|Access to this user must be restricted for the reason specified in `restriction_reason`|
+|id|[int](../types/int.md) | Yes|ID of the user|
+|access\_hash|[long](../types/long.md) | Optional|Access hash of the user|
 |first\_name|[string](../types/string.md) | Optional|First name|
 |last\_name|[string](../types/string.md) | Optional|Last name|
 |username|[string](../types/string.md) | Optional|Username|
-|phone|[string](../types/string.md) | Optional|Phone|
-|photo|[UserProfilePhoto](../types/UserProfilePhoto.md) | Optional|Photo|
-|status|[UserStatus](../types/UserStatus.md) | Optional|Status|
-|bot\_info\_version|[int](../types/int.md) | Optional|Bot info version|
+|phone|[string](../types/string.md) | Optional|Phone number|
+|photo|[UserProfilePhoto](../types/UserProfilePhoto.md) | Optional|Profile picture of user|
+|status|[UserStatus](../types/UserStatus.md) | Optional|Online status of user|
+|bot\_info\_version|[int](../types/int.md) | Optional|Version of the [bot\_info field in userFull](../constructors/userFull.md), incremented every time it changes|
 |restiction\_reason|[string](../types/string.md) | Optional|Restiction reason|
 
 

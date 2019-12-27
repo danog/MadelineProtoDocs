@@ -1,6 +1,6 @@
 ---
 title: messageActionChatMigrateTo
-description: Message action chat migrate to
+description: Indicates the chat was [migrated](https://core.telegram.org/api/channel) to the specified supergroup
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChatMigrateTo  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message action chat migrate to
+Indicates the chat was [migrated](https://core.telegram.org/api/channel) to the specified supergroup
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[int](../types/int.md) | Yes|Channel ID|
+|channel\_id|[int](../types/int.md) | Yes|The supergroup it was migrated to|
 
 
 

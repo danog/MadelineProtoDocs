@@ -1,6 +1,6 @@
 ---
 title: updateNewMessage
-description: Update new message
+description: New message.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateNewMessage  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update new message
+New message.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |message|[Message](../types/Message.md) | Optional|Message|
-|pts|[int](../types/int.md) | Yes|Pts|
-|pts\_count|[int](../types/int.md) | Yes|Pts count|
+|pts|[int](../types/int.md) | Yes|New quantity of actions in a message box|
+|pts\_count|[int](../types/int.md) | Yes|Number of generated events|
 
 
 

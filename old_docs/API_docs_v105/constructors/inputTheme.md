@@ -1,6 +1,6 @@
 ---
 title: inputTheme
-description: Input theme
+description: Theme
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputTheme  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Input theme
+Theme
 
 ### Attributes:
 

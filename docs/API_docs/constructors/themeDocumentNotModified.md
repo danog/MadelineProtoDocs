@@ -1,6 +1,6 @@
 ---
 title: themeDocumentNotModified
-description: Theme document not modified
+description: Theme background hasn't changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: themeDocumentNotModified  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Theme document not modified
+Theme background hasn't changed
 
 
 

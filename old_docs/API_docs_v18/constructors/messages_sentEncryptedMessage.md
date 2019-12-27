@@ -1,6 +1,6 @@
 ---
 title: messages.sentEncryptedMessage
-description: Sent encrypted message
+description: Message without file attachemts sent to an encrypted file.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.sentEncryptedMessage  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Sent encrypted message
+Message without file attachemts sent to an encrypted file.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|date|[int](../types/int.md) | Yes|Date|
+|date|[int](../types/int.md) | Yes|Date of sending|
 
 
 

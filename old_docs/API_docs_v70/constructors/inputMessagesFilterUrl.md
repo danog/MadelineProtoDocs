@@ -1,6 +1,6 @@
 ---
 title: inputMessagesFilterUrl
-description: Messages filter URL
+description: Return only messages containing URLs
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterUrl  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Messages filter URL
+Return only messages containing URLs
 
 
 

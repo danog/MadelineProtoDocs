@@ -1,6 +1,6 @@
 ---
 title: inputGameID
-description: Game ID
+description: Indicates an already sent game
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputGameID  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Game ID
+Indicates an already sent game
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID|
-|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|id|[long](../types/long.md) | Yes|game ID from [Game](../types/Game.md) constructor|
+|access\_hash|[long](../types/long.md) | Yes|access hash from [Game](../types/Game.md) constructor|
 
 
 

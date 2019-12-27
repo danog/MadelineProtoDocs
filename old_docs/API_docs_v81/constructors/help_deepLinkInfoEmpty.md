@@ -1,6 +1,6 @@
 ---
 title: help.deepLinkInfoEmpty
-description: Empty deep link info
+description: Deep link info empty
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.deepLinkInfoEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty deep link info
+Deep link info empty
 
 
 

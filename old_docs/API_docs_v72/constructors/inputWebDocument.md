@@ -1,6 +1,6 @@
 ---
 title: inputWebDocument
-description: Web document
+description: The document
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputWebDocument  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Web document
+The document
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|url|[string](../types/string.md) | Yes|URL|
-|size|[int](../types/int.md) | Yes|Size|
+|url|[string](../types/string.md) | Yes|Remote document URL to be downloaded using the appropriate [method](https://core.telegram.org/api/files)|
+|size|[int](../types/int.md) | Yes|Remote file size|
 |mime\_type|[string](../types/string.md) | Yes|Mime type|
 |attributes|Array of [DocumentAttribute](../types/DocumentAttribute.md) | Yes|Attributes|
 

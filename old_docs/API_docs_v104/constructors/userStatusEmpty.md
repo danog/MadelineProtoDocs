@@ -1,6 +1,6 @@
 ---
 title: userStatusEmpty
-description: Empty user status
+description: User status has not been set yet.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userStatusEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty user status
+User status has not been set yet.
 
 
 

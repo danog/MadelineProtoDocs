@@ -1,6 +1,6 @@
 ---
 title: updateUserPinnedMessage
-description: Update user pinned message
+description: A message was pinned in a private chat with a user
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateUserPinnedMessage  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update user pinned message
+A message was pinned in a private chat with a user
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User ID|
-|id|[int](../types/int.md) | Yes|ID|
+|user\_id|[int](../types/int.md) | Yes|User that pinned the message|
+|id|[int](../types/int.md) | Yes|Message ID that was pinned|
 
 
 

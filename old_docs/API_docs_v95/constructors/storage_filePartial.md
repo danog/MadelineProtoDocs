@@ -1,6 +1,6 @@
 ---
 title: storage.filePartial
-description: File partial
+description: Part of a bigger file.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: storage.filePartial  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-File partial
+Part of a bigger file.
 
 
 

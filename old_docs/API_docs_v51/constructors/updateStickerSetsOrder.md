@@ -1,6 +1,6 @@
 ---
 title: updateStickerSetsOrder
-description: Update sticker sets order
+description: The order of stickersets was changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateStickerSetsOrder  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update sticker sets order
+The order of stickersets was changed
 
 ### Attributes:
 

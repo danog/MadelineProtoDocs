@@ -1,6 +1,6 @@
 ---
 title: help.inviteText
-description: Invite text
+description: Text of a text message with an invitation to install application.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.inviteText  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Invite text
+Text of a text message with an invitation to install application.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|message|[string](../types/string.md) | Yes|Message|
+|message|[string](../types/string.md) | Yes|Text of a message|
 
 
 

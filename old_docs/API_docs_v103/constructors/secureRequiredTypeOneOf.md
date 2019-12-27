@@ -1,6 +1,6 @@
 ---
 title: secureRequiredTypeOneOf
-description: Secure required type one of
+description: One of
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureRequiredTypeOneOf  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Secure required type one of
+One of
 
 ### Attributes:
 

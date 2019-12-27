@@ -1,6 +1,6 @@
 ---
 title: textImage
-description: Text image
+description: Inline image
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textImage  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Text image
+Inline image
 
 ### Attributes:
 

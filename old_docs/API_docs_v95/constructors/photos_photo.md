@@ -1,6 +1,6 @@
 ---
 title: photos.photo
-description: Photo
+description: Photo with auxiliary data.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: photos.photo  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Photo
+Photo with auxiliary data.
 
 ### Attributes:
 

@@ -1,6 +1,6 @@
 ---
 title: inputStickerSetShortName
-description: Sticker set short name
+description: Stickerset by short name, from `tg://addstickers?set=short_name`
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputStickerSetShortName  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Sticker set short name
+Stickerset by short name, from `tg://addstickers?set=short_name`
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|short\_name|[string](../types/string.md) | Yes|Short name|
+|short\_name|[string](../types/string.md) | Yes|From `tg://addstickers?set=short_name`|
 
 
 

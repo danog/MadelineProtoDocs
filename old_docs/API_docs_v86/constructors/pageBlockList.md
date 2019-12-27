@@ -1,6 +1,6 @@
 ---
 title: pageBlockList
-description: Page block list
+description: Unordered list of IV blocks
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockList  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page block list
+Unordered list of IV blocks
 
 ### Attributes:
 

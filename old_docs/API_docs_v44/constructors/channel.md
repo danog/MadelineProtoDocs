@@ -1,6 +1,6 @@
 ---
 title: channel
-description: Channel
+description: Channel/supergroup info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channel  
@@ -8,28 +8,28 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Channel
+Channel/supergroup info
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|creator|[Bool](../types/Bool.md) | Optional|Creator?|
+|creator|[Bool](../types/Bool.md) | Optional|Whether the current user is the creator of this channel|
 |kicked|[Bool](../types/Bool.md) | Optional|Kicked?|
-|left|[Bool](../types/Bool.md) | Optional|Left?|
+|left|[Bool](../types/Bool.md) | Optional|Whether the current user has left this channel|
 |editor|[Bool](../types/Bool.md) | Optional|Editor?|
 |moderator|[Bool](../types/Bool.md) | Optional|Moderator?|
-|broadcast|[Bool](../types/Bool.md) | Optional|Broadcast?|
-|verified|[Bool](../types/Bool.md) | Optional|Verified?|
-|megagroup|[Bool](../types/Bool.md) | Optional|Megagroup?|
-|restricted|[Bool](../types/Bool.md) | Optional|Restricted?|
-|id|[int](../types/int.md) | Yes|ID|
+|broadcast|[Bool](../types/Bool.md) | Optional|Is this a channel?|
+|verified|[Bool](../types/Bool.md) | Optional|Is this channel verified by telegram?|
+|megagroup|[Bool](../types/Bool.md) | Optional|Is this a supergroup?|
+|restricted|[Bool](../types/Bool.md) | Optional|Whether viewing/writing in this channel for a reason (see `restriction_reason`|
+|id|[int](../types/int.md) | Yes|ID of the channel|
 |access\_hash|[long](../types/long.md) | Yes|Access hash|
 |title|[string](../types/string.md) | Yes|Title|
 |username|[string](../types/string.md) | Optional|Username|
-|photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|Photo|
-|date|[int](../types/int.md) | Yes|Date|
-|version|[int](../types/int.md) | Yes|Version|
+|photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|Profile photo|
+|date|[int](../types/int.md) | Yes|Creation date|
+|version|[int](../types/int.md) | Yes|Version of the channel (always `0`)|
 |restiction\_reason|[string](../types/string.md) | Optional|Restiction reason|
 
 

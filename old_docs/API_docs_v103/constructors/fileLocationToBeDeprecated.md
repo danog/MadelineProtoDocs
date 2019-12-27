@@ -1,6 +1,6 @@
 ---
 title: fileLocationToBeDeprecated
-description: File location (deprecated)
+description: Indicates the location of a photo, will be deprecated soon
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: fileLocationToBeDeprecated  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-File location (deprecated)
+Indicates the location of a photo, will be deprecated soon
 
 ### Attributes:
 

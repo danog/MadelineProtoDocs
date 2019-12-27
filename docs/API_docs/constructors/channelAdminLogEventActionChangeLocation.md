@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionChangeLocation
-description: Channel location changed
+description: The geogroup location was changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionChangeLocation  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Channel location changed
+The geogroup location was changed
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|prev\_value|[ChannelLocation](../types/ChannelLocation.md) | Optional|Previous value|
-|new\_value|[ChannelLocation](../types/ChannelLocation.md) | Optional|New value|
+|prev\_value|[ChannelLocation](../types/ChannelLocation.md) | Optional|Previous location|
+|new\_value|[ChannelLocation](../types/ChannelLocation.md) | Optional|New location|
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: invokeAfterMsgs
-description: Result type returned by a current query.
+description: Invokes a query after a successfull completion of previous queries
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: invokeAfterMsgs  
 [Back to methods index](index.md)
 
 
-Result type returned by a current query.
+Invokes a query after a successfull completion of previous queries
 
 ### Parameters:
 

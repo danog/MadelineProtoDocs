@@ -1,6 +1,6 @@
 ---
 title: updateMessageID
-description: Update message ID
+description: Sent message with **random\_id** client identifier was assigned an identifier.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateMessageID  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update message ID
+Sent message with **random\_id** client identifier was assigned an identifier.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID|
+|id|[int](../types/int.md) | Yes|**id** identifier of a respective [Message](../types/Message.md)|
 
 
 

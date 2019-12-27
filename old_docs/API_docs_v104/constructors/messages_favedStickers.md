@@ -1,6 +1,6 @@
 ---
 title: messages.favedStickers
-description: Faved stickers
+description: Favorited stickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.favedStickers  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Faved stickers
+Favorited stickers
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[int](../types/int.md) | Yes|Hash|
+|hash|[int](../types/int.md) | Yes|[Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
 |packs|Array of [StickerPack](../types/StickerPack.md) | Yes|Packs|
 |stickers|Array of [Document](../types/Document.md) | Yes|Stickers|
 

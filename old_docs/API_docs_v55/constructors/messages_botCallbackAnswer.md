@@ -1,6 +1,6 @@
 ---
 title: messages.botCallbackAnswer
-description: Bot callback answer
+description: Callback answer sent by the bot in response to a button press
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.botCallbackAnswer  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Bot callback answer
+Callback answer sent by the bot in response to a button press
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|alert|[Bool](../types/Bool.md) | Optional|Alert?|
-|message|[string](../types/string.md) | Optional|Message|
-|url|[string](../types/string.md) | Optional|URL|
+|alert|[Bool](../types/Bool.md) | Optional|Whether an alert should be shown to the user instead of a toast notification|
+|message|[string](../types/string.md) | Optional|Alert to show|
+|url|[string](../types/string.md) | Optional|URL to open|
 
 
 

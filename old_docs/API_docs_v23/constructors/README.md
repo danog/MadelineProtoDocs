@@ -101,7 +101,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$contacts\_importedContacts](../constructors/contacts_importedContacts.md) = \['imported' => \[[ImportedContact](../types/ImportedContact.md)\], 'retry_contacts' => \[[long](../types/long.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="contacts_importedContacts"></a>  
 
-[$contacts\_link](../constructors/contacts_link.md) = \['my_link' => [contacts\_MyLink](../types/contacts_MyLink.md), 'foreign_link' => [contacts\_ForeignLink](../types/contacts_ForeignLink.md), 'user' => [User](../types/User.md), \];<a name="contacts_link"></a>  
+[$contacts\_link](../constructors/contacts_link.md) = \['my_link' => [contacts.MyLink](../types/contacts.MyLink.md), 'foreign_link' => [contacts.ForeignLink](../types/contacts.ForeignLink.md), 'user' => [User](../types/User.md), \];<a name="contacts_link"></a>  
 
 [$contacts\_myLinkContact](../constructors/contacts_myLinkContact.md) = \[\];<a name="contacts_myLinkContact"></a>  
 
@@ -521,15 +521,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$messages\_sentMessage](../constructors/messages_sentMessage.md) = \['id' => [int](../types/int.md), 'date' => [int](../types/int.md), 'pts' => [int](../types/int.md), 'seq' => [int](../types/int.md), \];<a name="messages_sentMessage"></a>  
 
-[$messages\_sentMessageLink](../constructors/messages_sentMessageLink.md) = \['id' => [int](../types/int.md), 'date' => [int](../types/int.md), 'pts' => [int](../types/int.md), 'seq' => [int](../types/int.md), 'links' => \[[contacts\_Link](../types/contacts_Link.md)\], \];<a name="messages_sentMessageLink"></a>  
+[$messages\_sentMessageLink](../constructors/messages_sentMessageLink.md) = \['id' => [int](../types/int.md), 'date' => [int](../types/int.md), 'pts' => [int](../types/int.md), 'seq' => [int](../types/int.md), 'links' => \[[contacts.Link](../types/contacts.Link.md)\], \];<a name="messages_sentMessageLink"></a>  
 
 [$messages\_statedMessage](../constructors/messages_statedMessage.md) = \['message' => [Message](../types/Message.md), 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], 'pts' => [int](../types/int.md), 'seq' => [int](../types/int.md), \];<a name="messages_statedMessage"></a>  
 
-[$messages\_statedMessageLink](../constructors/messages_statedMessageLink.md) = \['message' => [Message](../types/Message.md), 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], 'links' => \[[contacts\_Link](../types/contacts_Link.md)\], 'pts' => [int](../types/int.md), 'seq' => [int](../types/int.md), \];<a name="messages_statedMessageLink"></a>  
+[$messages\_statedMessageLink](../constructors/messages_statedMessageLink.md) = \['message' => [Message](../types/Message.md), 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], 'links' => \[[contacts.Link](../types/contacts.Link.md)\], 'pts' => [int](../types/int.md), 'seq' => [int](../types/int.md), \];<a name="messages_statedMessageLink"></a>  
 
 [$messages\_statedMessages](../constructors/messages_statedMessages.md) = \['messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], 'pts' => [int](../types/int.md), 'seq' => [int](../types/int.md), \];<a name="messages_statedMessages"></a>  
 
-[$messages\_statedMessagesLinks](../constructors/messages_statedMessagesLinks.md) = \['messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], 'links' => \[[contacts\_Link](../types/contacts_Link.md)\], 'pts' => [int](../types/int.md), 'seq' => [int](../types/int.md), \];<a name="messages_statedMessagesLinks"></a>  
+[$messages\_statedMessagesLinks](../constructors/messages_statedMessagesLinks.md) = \['messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], 'links' => \[[contacts.Link](../types/contacts.Link.md)\], 'pts' => [int](../types/int.md), 'seq' => [int](../types/int.md), \];<a name="messages_statedMessagesLinks"></a>  
 
 [$messages\_stickers](../constructors/messages_stickers.md) = \['hash' => [string](../types/string.md), 'stickers' => \[[Document](../types/Document.md)\], \];<a name="messages_stickers"></a>  
 
@@ -684,7 +684,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$updateChatUserTyping](../constructors/updateChatUserTyping.md) = \['chat_id' => [int](../types/int.md), 'user_id' => [int](../types/int.md), 'action' => [SendMessageAction](../types/SendMessageAction.md), \];<a name="updateChatUserTyping"></a>  
 
 ***
-<br><br>[$updateContactLink](../constructors/updateContactLink.md) = \['user_id' => [int](../types/int.md), 'my_link' => [contacts\_MyLink](../types/contacts_MyLink.md), 'foreign_link' => [contacts\_ForeignLink](../types/contacts_ForeignLink.md), \];<a name="updateContactLink"></a>  
+<br><br>[$updateContactLink](../constructors/updateContactLink.md) = \['user_id' => [int](../types/int.md), 'my_link' => [contacts.MyLink](../types/contacts.MyLink.md), 'foreign_link' => [contacts.ForeignLink](../types/contacts.ForeignLink.md), \];<a name="updateContactLink"></a>  
 
 ***
 <br><br>[$updateContactRegistered](../constructors/updateContactRegistered.md) = \['user_id' => [int](../types/int.md), 'date' => [int](../types/int.md), \];<a name="updateContactRegistered"></a>  
@@ -765,16 +765,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$updatesTooLong](../constructors/updatesTooLong.md) = \[\];<a name="updatesTooLong"></a>  
 
 ***
-<br><br>[$updates\_difference](../constructors/updates_difference.md) = \['new_messages' => \[[Message](../types/Message.md)\], 'new_encrypted_messages' => \[[EncryptedMessage](../types/EncryptedMessage.md)\], 'other_updates' => \[[Update](../types/Update.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], 'state' => [updates\_State](../types/updates_State.md), \];<a name="updates_difference"></a>  
+<br><br>[$updates\_difference](../constructors/updates_difference.md) = \['new_messages' => \[[Message](../types/Message.md)\], 'new_encrypted_messages' => \[[EncryptedMessage](../types/EncryptedMessage.md)\], 'other_updates' => \[[Update](../types/Update.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], 'state' => [updates.State](../types/updates.State.md), \];<a name="updates_difference"></a>  
 
 [$updates\_differenceEmpty](../constructors/updates_differenceEmpty.md) = \['date' => [int](../types/int.md), 'seq' => [int](../types/int.md), \];<a name="updates_differenceEmpty"></a>  
 
-[$updates\_differenceSlice](../constructors/updates_differenceSlice.md) = \['new_messages' => \[[Message](../types/Message.md)\], 'new_encrypted_messages' => \[[EncryptedMessage](../types/EncryptedMessage.md)\], 'other_updates' => \[[Update](../types/Update.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], 'intermediate_state' => [updates\_State](../types/updates_State.md), \];<a name="updates_differenceSlice"></a>  
+[$updates\_differenceSlice](../constructors/updates_differenceSlice.md) = \['new_messages' => \[[Message](../types/Message.md)\], 'new_encrypted_messages' => \[[EncryptedMessage](../types/EncryptedMessage.md)\], 'other_updates' => \[[Update](../types/Update.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], 'intermediate_state' => [updates.State](../types/updates.State.md), \];<a name="updates_differenceSlice"></a>  
 
 [$updates\_state](../constructors/updates_state.md) = \['pts' => [int](../types/int.md), 'qts' => [int](../types/int.md), 'date' => [int](../types/int.md), 'seq' => [int](../types/int.md), 'unread_count' => [int](../types/int.md), \];<a name="updates_state"></a>  
 
 ***
-<br><br>[$upload\_file](../constructors/upload_file.md) = \['type' => [storage\_FileType](../types/storage_FileType.md), 'mtime' => [int](../types/int.md), 'bytes' => [bytes](../types/bytes.md), \];<a name="upload_file"></a>  
+<br><br>[$upload\_file](../constructors/upload_file.md) = \['type' => [storage.FileType](../types/storage.FileType.md), 'mtime' => [int](../types/int.md), 'bytes' => [bytes](../types/bytes.md), \];<a name="upload_file"></a>  
 
 ***
 <br><br>[$userContact](../constructors/userContact.md) = \['id' => [int](../types/int.md), 'first_name' => [string](../types/string.md), 'last_name' => [string](../types/string.md), 'username' => [string](../types/string.md), 'access_hash' => [long](../types/long.md), 'phone' => [string](../types/string.md), 'photo' => [UserProfilePhoto](../types/UserProfilePhoto.md), 'status' => [UserStatus](../types/UserStatus.md), \];<a name="userContact"></a>  
@@ -789,7 +789,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$userForeign](../constructors/userForeign.md) = \['id' => [int](../types/int.md), 'first_name' => [string](../types/string.md), 'last_name' => [string](../types/string.md), 'username' => [string](../types/string.md), 'access_hash' => [long](../types/long.md), 'photo' => [UserProfilePhoto](../types/UserProfilePhoto.md), 'status' => [UserStatus](../types/UserStatus.md), \];<a name="userForeign"></a>  
 
 ***
-<br><br>[$userFull](../constructors/userFull.md) = \['user' => [User](../types/User.md), 'link' => [contacts\_Link](../types/contacts_Link.md), 'profile_photo' => [Photo](../types/Photo.md), 'notify_settings' => [PeerNotifySettings](../types/PeerNotifySettings.md), 'blocked' => [Bool](../types/Bool.md), 'real_first_name' => [string](../types/string.md), 'real_last_name' => [string](../types/string.md), \];<a name="userFull"></a>  
+<br><br>[$userFull](../constructors/userFull.md) = \['user' => [User](../types/User.md), 'link' => [contacts.Link](../types/contacts.Link.md), 'profile_photo' => [Photo](../types/Photo.md), 'notify_settings' => [PeerNotifySettings](../types/PeerNotifySettings.md), 'blocked' => [Bool](../types/Bool.md), 'real_first_name' => [string](../types/string.md), 'real_last_name' => [string](../types/string.md), \];<a name="userFull"></a>  
 
 ***
 <br><br>[$userProfilePhoto](../constructors/userProfilePhoto.md) = \['photo_id' => [long](../types/long.md), 'photo_small' => [FileLocation](../types/FileLocation.md), 'photo_big' => [FileLocation](../types/FileLocation.md), \];<a name="userProfilePhoto"></a>  

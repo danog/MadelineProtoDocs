@@ -1,6 +1,6 @@
 ---
 title: secureValueTypeTemporaryRegistration
-description: Secure value type temporary registration
+description: Temporary registration
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueTypeTemporaryRegistration  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Secure value type temporary registration
+Temporary registration
 
 
 

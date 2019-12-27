@@ -1,6 +1,6 @@
 ---
 title: payments.savedInfo
-description: Saved info
+description: Saved server-side order information
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: payments.savedInfo  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Saved info
+Saved server-side order information
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|has\_saved\_credentials|[Bool](../types/Bool.md) | Optional|Has saved credentials?|
-|saved\_info|[PaymentRequestedInfo](../types/PaymentRequestedInfo.md) | Optional|Saved info|
+|has\_saved\_credentials|[Bool](../types/Bool.md) | Optional|Whether the user has some saved payment credentials|
+|saved\_info|[PaymentRequestedInfo](../types/PaymentRequestedInfo.md) | Optional|Saved server-side order information|
 
 
 

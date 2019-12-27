@@ -1,6 +1,6 @@
 ---
 title: account.tmpPassword
-description: Tmp password
+description: Temporary payment password
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: account.tmpPassword  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Tmp password
+Temporary payment password
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|tmp\_password|[bytes](../types/bytes.md) | Yes|Tmp password|
-|valid\_until|[int](../types/int.md) | Yes|Valid until|
+|tmp\_password|[bytes](../types/bytes.md) | Yes|Temporary password|
+|valid\_until|[int](../types/int.md) | Yes|Validity period|
 
 
 

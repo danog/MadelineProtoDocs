@@ -1,6 +1,6 @@
 ---
 title: encryptedMessage
-description: Encrypted message
+description: Encrypted message.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: encryptedMessage  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Encrypted message
+Encrypted message.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[int](../types/int.md) | Yes|Chat ID|
-|date|[int](../types/int.md) | Yes|Date|
+|chat\_id|[int](../types/int.md) | Yes|ID of encrypted chat|
+|date|[int](../types/int.md) | Yes|Date of sending|
 |decrypted\_message|[DecryptedMessage](../types/DecryptedMessage.md) | Yes|Decrypted message|
-|file|[EncryptedFile](../types/EncryptedFile.md) | Optional|File|
+|file|[EncryptedFile](../types/EncryptedFile.md) | Optional|Attached encrypted file|
 
 
 

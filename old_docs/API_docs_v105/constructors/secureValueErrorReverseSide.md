@@ -1,6 +1,6 @@
 ---
 title: secureValueErrorReverseSide
-description: Secure value error reverse side
+description: Represents an issue with the reverse side of a document. The error is considered resolved when the file with reverse side of the document changes.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueErrorReverseSide  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Secure value error reverse side
+Represents an issue with the reverse side of a document. The error is considered resolved when the file with reverse side of the document changes.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|type|[SecureValueType](../types/SecureValueType.md) | Yes|Type|
+|type|[SecureValueType](../types/SecureValueType.md) | Yes|One of [secureValueTypeDriverLicense](../constructors/secureValueTypeDriverLicense.md), [secureValueTypeIdentityCard](../constructors/secureValueTypeIdentityCard.md)|
 |file\_hash|[bytes](../types/bytes.md) | Yes|File hash|
-|text|[string](../types/string.md) | Yes|Text|
+|text|[string](../types/string.md) | Yes|Error message|
 
 
 

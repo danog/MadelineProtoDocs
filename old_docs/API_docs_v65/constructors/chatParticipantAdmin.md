@@ -1,6 +1,6 @@
 ---
 title: chatParticipantAdmin
-description: Chat participant admin
+description: Chat admin
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatParticipantAdmin  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Chat participant admin
+Chat admin
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User ID|
-|inviter\_id|[int](../types/int.md) | Yes|Inviter ID|
-|date|[int](../types/int.md) | Yes|Date|
+|user\_id|[int](../types/int.md) | Yes|ID of a group member that is admin|
+|inviter\_id|[int](../types/int.md) | Yes|ID of the user that added the member to the group|
+|date|[int](../types/int.md) | Yes|Date when the user was added|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: messages.highScores
-description: High scores
+description: Highscores in a game
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.highScores  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-High scores
+Highscores in a game
 
 ### Attributes:
 

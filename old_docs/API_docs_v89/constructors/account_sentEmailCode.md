@@ -1,6 +1,6 @@
 ---
 title: account.sentEmailCode
-description: Sent email code
+description: The sent email code
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: account.sentEmailCode  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Sent email code
+The sent email code
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|email\_pattern|[string](../types/string.md) | Yes|Email pattern|
-|length|[int](../types/int.md) | Yes|Length|
+|email\_pattern|[string](../types/string.md) | Yes|The email (to which the code was sent) must match this [pattern](https://core.telegram.org/api/pattern)|
+|length|[int](../types/int.md) | Yes|The length of the verification code|
 
 
 

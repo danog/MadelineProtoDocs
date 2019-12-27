@@ -1,6 +1,6 @@
 ---
 title: updateChannelTooLong
-description: Update channel too long
+description: There are new updates in the specified channel, the client must fetch them, eventually starting the specified pts if the difference is too long or if the channel isn't currently in the states.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelTooLong  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update channel too long
+There are new updates in the specified channel, the client must fetch them, eventually starting the specified pts if the difference is too long or if the channel isn't currently in the states.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[int](../types/int.md) | Yes|Channel ID|
-|pts|[int](../types/int.md) | Optional|Pts|
+|channel\_id|[int](../types/int.md) | Yes|The channel|
+|pts|[int](../types/int.md) | Optional|The [PTS](https://core.telegram.org/api/updates).|
 
 
 

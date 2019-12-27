@@ -1,6 +1,6 @@
 ---
 title: paymentRequestedInfo
-description: Payment requested info
+description: Order info provided by the user
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: paymentRequestedInfo  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Payment requested info
+Order info provided by the user
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|name|[string](../types/string.md) | Optional|Name|
-|phone|[string](../types/string.md) | Optional|Phone|
-|email|[string](../types/string.md) | Optional|Email|
-|shipping\_address|[PostAddress](../types/PostAddress.md) | Optional|Shipping address|
+|name|[string](../types/string.md) | Optional|User's full name|
+|phone|[string](../types/string.md) | Optional|User's phone number|
+|email|[string](../types/string.md) | Optional|User's email address|
+|shipping\_address|[PostAddress](../types/PostAddress.md) | Optional|User's shipping address|
 
 
 

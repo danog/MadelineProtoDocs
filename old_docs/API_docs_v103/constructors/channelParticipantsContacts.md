@@ -1,6 +1,6 @@
 ---
 title: channelParticipantsContacts
-description: Contacts
+description: Fetch only participants that are also contacts
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantsContacts  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Contacts
+Fetch only participants that are also contacts
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|q|[string](../types/string.md) | Yes|Query|
+|q|[string](../types/string.md) | Yes|Optional search query for searching contact participants by name|
 
 
 

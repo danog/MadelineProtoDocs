@@ -1,6 +1,6 @@
 ---
 title: chatParticipantsForbidden
-description: Chat participants forbidden
+description: Info on members is unavailable
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatParticipantsForbidden  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Chat participants forbidden
+Info on members is unavailable
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[int](../types/int.md) | Yes|Chat ID|
+|chat\_id|[int](../types/int.md) | Yes|Group ID|
 
 
 

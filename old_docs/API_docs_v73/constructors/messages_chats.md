@@ -1,6 +1,6 @@
 ---
 title: messages.chats
-description: Chats
+description: List of chats with auxiliary data.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.chats  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Chats
+List of chats with auxiliary data.
 
 ### Attributes:
 

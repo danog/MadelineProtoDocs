@@ -1,6 +1,6 @@
 ---
 title: messages.dialogsNotModified
-description: Dialogs not modified
+description: Dialogs haven't changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.dialogsNotModified  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Dialogs not modified
+Dialogs haven't changed
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|count|[int](../types/int.md) | Yes|Count|
+|count|[int](../types/int.md) | Yes|Number of dialogs found server-side by the query|
 
 
 

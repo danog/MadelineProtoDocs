@@ -1,6 +1,6 @@
 ---
 title: inputChatPhotoEmpty
-description: Empty input chat photo
+description: Empty constructor, remove group photo.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputChatPhotoEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty input chat photo
+Empty constructor, remove group photo.
 
 
 

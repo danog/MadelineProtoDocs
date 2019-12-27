@@ -1,6 +1,6 @@
 ---
 title: inputEncryptedFileEmpty
-description: Empty input encrypted file
+description: Empty constructor.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputEncryptedFileEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty input encrypted file
+Empty constructor.
 
 
 

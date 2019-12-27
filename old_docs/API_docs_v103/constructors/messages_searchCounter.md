@@ -1,6 +1,6 @@
 ---
 title: messages.searchCounter
-description: Search counter
+description: Indicates how many results would be found by a [messages.search](../methods/messages.search.md) call with the same parameters
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.searchCounter  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Search counter
+Indicates how many results would be found by a [messages.search](../methods/messages.search.md) call with the same parameters
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|inexact|[Bool](../types/Bool.md) | Optional|Inexact?|
-|filter|[MessagesFilter](../types/MessagesFilter.md) | Yes|Filter|
-|count|[int](../types/int.md) | Yes|Count|
+|inexact|[Bool](../types/Bool.md) | Optional|If set, the results may be inexact|
+|filter|[MessagesFilter](../types/MessagesFilter.md) | Yes|Provided message filter|
+|count|[int](../types/int.md) | Yes|Number of results that were found server-side|
 
 
 

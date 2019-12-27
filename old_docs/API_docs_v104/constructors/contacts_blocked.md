@@ -1,6 +1,6 @@
 ---
 title: contacts.blocked
-description: Blocked
+description: Full list of blocked users.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: contacts.blocked  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Blocked
+Full list of blocked users.
 
 ### Attributes:
 

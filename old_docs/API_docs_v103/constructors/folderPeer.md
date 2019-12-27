@@ -1,6 +1,6 @@
 ---
 title: folderPeer
-description: Peer
+description: Peer in a folder
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: folderPeer  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Peer
+Peer in a folder
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](../types/Peer.md) | Yes|Peer|
+|peer|[Peer](../types/Peer.md) | Yes|Folder peer info|
 |folder\_id|[int](../types/int.md) | Yes|Folder ID|
 
 

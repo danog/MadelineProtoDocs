@@ -14,8 +14,8 @@ Page caption
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|text|[RichText](../types/RichText.md) | Yes|Text|
-|credit|[RichText](../types/RichText.md) | Yes|Credit|
+|text|[RichText](../types/RichText.md) | Yes|Caption|
+|credit|[RichText](../types/RichText.md) | Yes|Credits|
 
 
 

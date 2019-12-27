@@ -1,6 +1,6 @@
 ---
 title: updateShort
-description: Update short
+description: Shortened constructor containing info on one update not requiring auxiliary data
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateShort  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update short
+Shortened constructor containing info on one update not requiring auxiliary data
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |update|[Update](../types/Update.md) | Yes|Update|
-|date|[int](../types/int.md) | Yes|Date|
+|date|[int](../types/int.md) | Yes|Date of event|
 
 
 

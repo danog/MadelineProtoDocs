@@ -1,6 +1,6 @@
 ---
 title: updateDeleteMessages
-description: Update delete messages
+description: Messages were deleted.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateDeleteMessages  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update delete messages
+Messages were deleted.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |messages|Array of [int](../types/int.md) | Yes|Messages|
-|pts|[int](../types/int.md) | Yes|Pts|
+|pts|[int](../types/int.md) | Yes|New quality of actions in a message box|
 
 
 

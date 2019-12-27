@@ -1,6 +1,6 @@
 ---
 title: true
-description: True
+description: See [predefined identifiers](https://core.telegram.org/mtproto/TL-formal#predefined-identifiers).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: true  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-True
+See [predefined identifiers](https://core.telegram.org/mtproto/TL-formal#predefined-identifiers).
 
 
 

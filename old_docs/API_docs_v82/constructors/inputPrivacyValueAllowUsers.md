@@ -1,6 +1,6 @@
 ---
 title: inputPrivacyValueAllowUsers
-description: Privacy value allow users
+description: Allow only certain users
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPrivacyValueAllowUsers  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Privacy value allow users
+Allow only certain users
 
 ### Attributes:
 

@@ -1,6 +1,6 @@
 ---
 title: pageBlockTable
-description: Page block table
+description: Table
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockTable  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page block table
+Table
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|bordered|[Bool](../types/Bool.md) | Optional|Bordered?|
-|striped|[Bool](../types/Bool.md) | Optional|Striped?|
+|bordered|[Bool](../types/Bool.md) | Optional|Does the table have a visible border?|
+|striped|[Bool](../types/Bool.md) | Optional|Is the table striped?|
 |title|[RichText](../types/RichText.md) | Yes|Title|
 |rows|Array of [PageTableRow](../types/PageTableRow.md) | Yes|Rows|
 

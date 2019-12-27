@@ -1,6 +1,6 @@
 ---
 title: messageEntityTextUrl
-description: Message entity text URL
+description: Message entity representing a [text url](https://google.com): for in-text urls like <https://google.com> use [messageEntityUrl](../constructors/messageEntityUrl.md).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageEntityTextUrl  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message entity text URL
+Message entity representing a [text url](https://google.com): for in-text urls like <https://google.com> use [messageEntityUrl](../constructors/messageEntityUrl.md).
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|offset|[int](../types/int.md) | Yes|Offset|
-|length|[int](../types/int.md) | Yes|Length|
-|url|[string](../types/string.md) | Yes|URL|
+|offset|[int](../types/int.md) | Yes|Offset of message entity within message (in UTF-8 codepoints)|
+|length|[int](../types/int.md) | Yes|Length of message entity within message (in UTF-8 codepoints)|
+|url|[string](../types/string.md) | Yes|The actual URL|
 
 
 

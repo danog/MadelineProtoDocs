@@ -1,6 +1,6 @@
 ---
 title: channelParticipantsAdmins
-description: Channel participants admins
+description: Fetch only admin participants
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantsAdmins  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Channel participants admins
+Fetch only admin participants
 
 
 

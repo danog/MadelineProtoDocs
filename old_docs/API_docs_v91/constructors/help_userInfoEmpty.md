@@ -1,6 +1,6 @@
 ---
 title: help.userInfoEmpty
-description: Empty user info
+description: Internal use
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.userInfoEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty user info
+Internal use
 
 
 

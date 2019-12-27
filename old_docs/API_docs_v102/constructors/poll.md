@@ -14,9 +14,9 @@ Poll
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID|
-|closed|[Bool](../types/Bool.md) | Optional|Closed?|
-|question|[string](../types/string.md) | Yes|Question|
+|id|[long](../types/long.md) | Yes|ID of the poll|
+|closed|[Bool](../types/Bool.md) | Optional|Whether the poll is closed and doesn't accept any more answers|
+|question|[string](../types/string.md) | Yes|The question of the poll|
 |answers|Array of [PollAnswer](../types/PollAnswer.md) | Yes|Answers|
 
 

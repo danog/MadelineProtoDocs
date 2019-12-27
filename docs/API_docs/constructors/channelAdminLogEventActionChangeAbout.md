@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionChangeAbout
-description: Change about text
+description: The description was changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionChangeAbout  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Change about text
+The description was changed
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|prev\_value|[string](../types/string.md) | Yes|Previous value|
-|new\_value|[string](../types/string.md) | Yes|New value|
+|prev\_value|[string](../types/string.md) | Yes|Previous description|
+|new\_value|[string](../types/string.md) | Yes|New description|
 
 
 

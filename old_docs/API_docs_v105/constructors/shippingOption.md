@@ -14,7 +14,7 @@ Shipping option
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[string](../types/string.md) | Yes|ID|
+|id|[string](../types/string.md) | Yes|Option ID|
 |title|[string](../types/string.md) | Yes|Title|
 |prices|Array of [LabeledPrice](../types/LabeledPrice.md) | Yes|Prices|
 

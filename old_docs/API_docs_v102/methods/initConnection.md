@@ -1,27 +1,27 @@
 ---
 title: initConnection
-description: Initializes connection and save information on the user's device and application.
+description: Initialize connection
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: initConnection  
 [Back to methods index](index.md)
 
 
-Initializes connection and save information on the user's device and application.
+Initialize connection
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|api\_id|[int](../types/int.md) | Application identifier | Yes|
+|api\_id|[int](../types/int.md) | Application identifier (see. [App configuration](https://core.telegram.org/myapp)) | Yes|
 |device\_model|[string](../types/string.md) | Device model | Yes|
-|system\_version|[string](../types/string.md) | System version | Yes|
-|app\_version|[string](../types/string.md) | App version | Yes|
-|system\_lang\_code|[string](../types/string.md) | Language code | Yes|
+|system\_version|[string](../types/string.md) | Operation system version | Yes|
+|app\_version|[string](../types/string.md) | Application version | Yes|
+|system\_lang\_code|[string](../types/string.md) | Code for the language used on the device's OS, ISO 639-1 standard | Yes|
 |lang\_pack|[string](../types/string.md) | Language pack to use | Yes|
-|lang\_code|[string](../types/string.md) | Language code to set | Yes|
-|proxy|[InputClientProxy](../types/InputClientProxy.md) | The current proxy | Optional|
-|query|[!X](../types/!X.md) | Nested query | Yes|
+|lang\_code|[string](../types/string.md) | Code for the language used on the client, ISO 639-1 standard | Yes|
+|proxy|[InputClientProxy](../types/InputClientProxy.md) | Info about an MTProto proxy | Optional|
+|query|[!X](../types/!X.md) | The query itself | Yes|
 
 
 ### Return type: [X](../types/X.md)

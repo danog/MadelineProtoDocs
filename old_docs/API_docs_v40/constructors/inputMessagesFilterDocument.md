@@ -1,6 +1,6 @@
 ---
 title: inputMessagesFilterDocument
-description: Messages filter document
+description: Filter for messages containing documents.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterDocument  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Messages filter document
+Filter for messages containing documents.
 
 
 

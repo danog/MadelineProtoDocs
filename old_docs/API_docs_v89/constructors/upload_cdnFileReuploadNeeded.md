@@ -1,6 +1,6 @@
 ---
 title: upload.cdnFileReuploadNeeded
-description: Cdn file reupload needed
+description: The file was cleared from the temporary RAM cache of the [CDN](https://core.telegram.org/cdn) and has to be reuploaded.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: upload.cdnFileReuploadNeeded  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Cdn file reupload needed
+The file was cleared from the temporary RAM cache of the [CDN](https://core.telegram.org/cdn) and has to be reuploaded.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|request\_token|[bytes](../types/bytes.md) | Yes|Request token|
+|request\_token|[bytes](../types/bytes.md) | Yes|Request token (see [CDN](https://core.telegram.org/cdn))|
 
 
 

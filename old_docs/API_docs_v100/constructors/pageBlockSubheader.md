@@ -1,6 +1,6 @@
 ---
 title: pageBlockSubheader
-description: Page block subheader
+description: Subheader
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockSubheader  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page block subheader
+Subheader
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|text|[RichText](../types/RichText.md) | Yes|Text|
+|text|[RichText](../types/RichText.md) | Yes|Subheader|
 
 
 

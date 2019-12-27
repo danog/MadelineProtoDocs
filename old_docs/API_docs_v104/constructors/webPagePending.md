@@ -1,6 +1,6 @@
 ---
 title: webPagePending
-description: Web page pending
+description: A preview of the webpage is currently being generated
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: webPagePending  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Web page pending
+A preview of the webpage is currently being generated
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID|
-|date|[int](../types/int.md) | Yes|Date|
+|id|[long](../types/long.md) | Yes|ID of preview|
+|date|[int](../types/int.md) | Yes|When was the processing started|
 
 
 

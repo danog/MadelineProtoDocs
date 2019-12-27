@@ -1,6 +1,6 @@
 ---
 title: peerLocated
-description: Located peer
+description: Peer geolocated nearby
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: peerLocated  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Located peer
+Peer geolocated nearby
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |peer|[Peer](../types/Peer.md) | Yes|Peer|
-|expires|[int](../types/int.md) | Yes|Expiry date|
-|distance|[int](../types/int.md) | Yes|Distance|
+|expires|[int](../types/int.md) | Yes|Validity period of current data|
+|distance|[int](../types/int.md) | Yes|Distance from the peer in meters|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: geoPointEmpty
-description: Empty geo point
+description: Empty constructor.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: geoPointEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty geo point
+Empty constructor.
 
 
 

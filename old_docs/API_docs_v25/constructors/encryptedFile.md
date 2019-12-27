@@ -1,6 +1,6 @@
 ---
 title: encryptedFile
-description: Encrypted file
+description: Encrypted file.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: encryptedFile  
@@ -8,17 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Encrypted file
+Encrypted file.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID|
-|access\_hash|[long](../types/long.md) | Yes|Access hash|
-|size|[int](../types/int.md) | Yes|Size|
-|dc\_id|[int](../types/int.md) | Yes|DC ID|
-|key\_fingerprint|[int](../types/int.md) | Yes|Key fingerprint|
+|id|[long](../types/long.md) | Yes|File ID|
+|access\_hash|[long](../types/long.md) | Yes|Checking sum depending on user ID|
+|size|[int](../types/int.md) | Yes|File size in bytes|
+|dc\_id|[int](../types/int.md) | Yes|Number of data centre|
+|key\_fingerprint|[int](../types/int.md) | Yes|32-bit fingerprint of key used for file encryption|
 
 
 

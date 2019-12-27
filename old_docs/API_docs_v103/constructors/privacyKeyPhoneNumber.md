@@ -1,6 +1,6 @@
 ---
 title: privacyKeyPhoneNumber
-description: Phone number
+description: Whether the user allows us to see his phone number
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: privacyKeyPhoneNumber  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Phone number
+Whether the user allows us to see his phone number
 
 
 

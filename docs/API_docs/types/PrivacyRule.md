@@ -8,8 +8,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Represents one rule for managing privacy settings
-
 ### Possible values (constructors):
 
 [privacyValueAllowContacts](../constructors/privacyValueAllowContacts.md)  

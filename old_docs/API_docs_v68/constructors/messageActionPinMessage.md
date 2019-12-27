@@ -1,6 +1,6 @@
 ---
 title: messageActionPinMessage
-description: Message action pin message
+description: A message was pinned
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionPinMessage  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message action pin message
+A message was pinned
 
 
 

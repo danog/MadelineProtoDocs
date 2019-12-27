@@ -1,6 +1,6 @@
 ---
 title: secureValueTypeBankStatement
-description: Secure value type bank statement
+description: Bank statement
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueTypeBankStatement  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Secure value type bank statement
+Bank statement
 
 
 

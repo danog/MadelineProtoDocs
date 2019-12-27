@@ -1,6 +1,6 @@
 ---
 title: jsonBool
-description: Json bool
+description: JSON boolean value
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: jsonBool  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Json bool
+JSON boolean value
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|value|[Bool](../types/Bool.md) | Yes|Value?|
+|value|[Bool](../types/Bool.md) | Yes|Value|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageMediaAudio
-description: Decrypted message media audio
+description: Audio file attached to a secret chat message.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaAudio\_17  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Decrypted message media audio
+Audio file attached to a secret chat message.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|duration|[int](../types/int.md) | Yes|Duration|
-|mime\_type|[string](../types/string.md) | Yes|Mime type|
-|size|[int](../types/int.md) | Yes|Size|
+|duration|[int](../types/int.md) | Yes|Audio duration in seconds|
+|mime\_type|[string](../types/string.md) | Yes|MIME-type of the audio file<br>Parameter added in [Layer 13](https://core.telegram.org/api/layers#layer-13).|
+|size|[int](../types/int.md) | Yes|File size|
 
 
 

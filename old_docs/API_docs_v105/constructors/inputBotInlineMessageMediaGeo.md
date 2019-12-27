@@ -1,6 +1,6 @@
 ---
 title: inputBotInlineMessageMediaGeo
-description: Bot inline message media geo
+description: Geolocation
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputBotInlineMessageMediaGeo  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Bot inline message media geo
+Geolocation
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|Geo point|
-|period|[int](../types/int.md) | Yes|Period|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Reply markup|
+|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|Geolocation|
+|period|[int](../types/int.md) | Yes|Validity period|
+|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Reply markup for bot/inline keyboards|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: messageActionSecureValuesSent
-description: Message action secure values sent
+description: Request for secure [telegram passport](https://core.telegram.org/passport) values was sent
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionSecureValuesSent  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message action secure values sent
+Request for secure [telegram passport](https://core.telegram.org/passport) values was sent
 
 ### Attributes:
 

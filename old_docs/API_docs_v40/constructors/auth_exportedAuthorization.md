@@ -1,6 +1,6 @@
 ---
 title: auth.exportedAuthorization
-description: Exported authorization
+description: Data for copying of authorization between data centres.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: auth.exportedAuthorization  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Exported authorization
+Data for copying of authorization between data centres.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID|
-|bytes|[bytes](../types/bytes.md) | Yes|Bytes|
+|id|[int](../types/int.md) | Yes|current user identifier|
+|bytes|[bytes](../types/bytes.md) | Yes|authorizes key|
 
 
 

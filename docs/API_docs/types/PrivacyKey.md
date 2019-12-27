@@ -8,8 +8,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Describes available privacy settings
-
 ### Possible values (constructors):
 
 [privacyKeyStatusTimestamp](../constructors/privacyKeyStatusTimestamp.md)  

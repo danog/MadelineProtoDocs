@@ -1,6 +1,6 @@
 ---
 title: help.termsOfServiceUpdateEmpty
-description: Empty terms of service update
+description: No changes were made to telegram's terms of service
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.termsOfServiceUpdateEmpty  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty terms of service update
+No changes were made to telegram's terms of service
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|expires|[int](../types/int.md) | Yes|Expires|
+|expires|[int](../types/int.md) | Yes|New TOS updates will have to be queried using [help.getTermsOfServiceUpdate](../methods/help.getTermsOfServiceUpdate.md) in `expires` seconds|
 
 
 

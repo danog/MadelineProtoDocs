@@ -1,6 +1,6 @@
 ---
 title: messageMediaEmpty
-description: Empty message media
+description: Empty constructor.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty message media
+Empty constructor.
 
 
 

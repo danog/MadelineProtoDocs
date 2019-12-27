@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionChangeStickerSet
-description: Change stickerset
+description: The supergroup's stickerset was changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionChangeStickerSet  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Change stickerset
+The supergroup's stickerset was changed
 
 ### Attributes:
 

@@ -1,6 +1,6 @@
 ---
 title: help.recentMeUrls
-description: Recent me URLs
+description: Recent t.me URLs
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.recentMeUrls  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Recent me URLs
+Recent t.me URLs
 
 ### Attributes:
 

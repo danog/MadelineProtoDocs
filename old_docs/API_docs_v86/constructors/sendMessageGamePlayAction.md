@@ -1,6 +1,6 @@
 ---
 title: sendMessageGamePlayAction
-description: Send message game play action
+description: User is playing a game
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageGamePlayAction  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Send message game play action
+User is playing a game
 
 
 

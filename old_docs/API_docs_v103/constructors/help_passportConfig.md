@@ -1,6 +1,6 @@
 ---
 title: help.passportConfig
-description: Passport config
+description: Telegram [passport](https://core.telegram.org/passport) configuration
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.passportConfig  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Passport config
+Telegram [passport](https://core.telegram.org/passport) configuration
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[int](../types/int.md) | Yes|Hash|
-|countries\_langs|[DataJSON](../types/DataJSON.md) | Yes|Countries langs|
+|hash|[int](../types/int.md) | Yes|[Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
+|countries\_langs|[DataJSON](../types/DataJSON.md) | Yes|Localization|
 
 
 

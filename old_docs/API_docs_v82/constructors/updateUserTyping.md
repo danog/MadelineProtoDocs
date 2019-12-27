@@ -1,6 +1,6 @@
 ---
 title: updateUserTyping
-description: Update user typing
+description: The user is preparing a message; typing, recording, uploading, etc. This update is valid for 6 seconds. If no repeated update received after 6 seconds, it should be considered that the user stopped doing whatever he's been doing.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateUserTyping  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update user typing
+The user is preparing a message; typing, recording, uploading, etc. This update is valid for 6 seconds. If no repeated update received after 6 seconds, it should be considered that the user stopped doing whatever he's been doing.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User ID|
-|action|[SendMessageAction](../types/SendMessageAction.md) | Yes|Action|
+|user\_id|[int](../types/int.md) | Yes|User id|
+|action|[SendMessageAction](../types/SendMessageAction.md) | Yes|Action type<br>Param added in [Layer 17](https://core.telegram.org/api/layers#layer-17).|
 
 
 

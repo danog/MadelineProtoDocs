@@ -1,6 +1,6 @@
 ---
 title: sendMessageRecordVideoAction
-description: Send message record video action
+description: User is recording a video.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageRecordVideoAction  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Send message record video action
+User is recording a video.
 
 
 

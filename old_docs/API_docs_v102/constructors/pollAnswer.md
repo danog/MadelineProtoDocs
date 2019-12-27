@@ -1,6 +1,6 @@
 ---
 title: pollAnswer
-description: Poll answer
+description: A possible answer of a poll
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pollAnswer  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Poll answer
+A possible answer of a poll
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|text|[string](../types/string.md) | Yes|Text|
-|option|[bytes](../types/bytes.md) | Yes|Option|
+|text|[string](../types/string.md) | Yes|Textual representation of the answer|
+|option|[bytes](../types/bytes.md) | Yes|The param that has to be passed to [messages.sendVote](../methods/messages.sendVote.md).|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: help.termsOfServiceUpdate
-description: Terms of service update
+description: Info about an update of telegram's terms of service. If the terms of service are declined, then the [account.deleteAccount](../methods/account.deleteAccount.md) method should be called with the reason "Decline ToS update"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.termsOfServiceUpdate  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Terms of service update
+Info about an update of telegram's terms of service. If the terms of service are declined, then the [account.deleteAccount](../methods/account.deleteAccount.md) method should be called with the reason "Decline ToS update"
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|expires|[int](../types/int.md) | Yes|Expires|
-|terms\_of\_service|[help\_TermsOfService](../types/help_TermsOfService.md) | Yes|Terms of service|
+|expires|[int](../types/int.md) | Yes|New TOS updates will have to be queried using [help.getTermsOfServiceUpdate](../methods/help.getTermsOfServiceUpdate.md) in `expires` seconds|
+|terms\_of\_service|[help\_TermsOfService](../types/help_TermsOfService.md) | Yes|New terms of service|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageMediaAudio
-description: Decrypted message media audio
+description: Audio file attached to a secret chat message.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaAudio\_8  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Decrypted message media audio
+Audio file attached to a secret chat message.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|duration|[int](../types/int.md) | Yes|Duration|
-|size|[int](../types/int.md) | Yes|Size|
+|duration|[int](../types/int.md) | Yes|Audio duration in seconds|
+|size|[int](../types/int.md) | Yes|File size|
 
 
 

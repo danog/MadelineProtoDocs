@@ -1,6 +1,6 @@
 ---
 title: inputPrivacyKeyProfilePhoto
-description: Can his profile photo be viewed?
+description: Whether people will be able to see the user's profile picture
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPrivacyKeyProfilePhoto  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Can his profile photo be viewed?
+Whether people will be able to see the user's profile picture
 
 
 

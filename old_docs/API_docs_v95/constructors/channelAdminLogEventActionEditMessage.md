@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionEditMessage
-description: Edit message
+description: A message was edited
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionEditMessage  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Edit message
+A message was edited
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|prev\_message|[Message](../types/Message.md) | Optional|Prev message|
+|prev\_message|[Message](../types/Message.md) | Optional|Old message|
 |new\_message|[Message](../types/Message.md) | Optional|New message|
 
 

@@ -1,6 +1,6 @@
 ---
 title: emojiKeywordsDifference
-description: Emoji keword difference
+description: Changes to emoji keywords
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: emojiKeywordsDifference  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Emoji keword difference
+Changes to emoji keywords
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|lang\_code|[string](../types/string.md) | Yes|Language code|
-|from\_version|[int](../types/int.md) | Yes|Previous version|
-|version|[int](../types/int.md) | Yes|Current version|
+|lang\_code|[string](../types/string.md) | Yes|Language code for keywords|
+|from\_version|[int](../types/int.md) | Yes|Previous emoji keyword list version|
+|version|[int](../types/int.md) | Yes|Current version of emoji keyword list|
 |keywords|Array of [EmojiKeyword](../types/EmojiKeyword.md) | Yes|Keywords|
 
 

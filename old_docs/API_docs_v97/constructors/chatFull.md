@@ -1,6 +1,6 @@
 ---
 title: chatFull
-description: Chat full
+description: Detailed chat info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatFull  
@@ -8,21 +8,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Chat full
+Detailed chat info
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|can\_set\_username|[Bool](../types/Bool.md) | Optional|Can set username?|
-|id|[int](../types/int.md) | Yes|ID|
-|about|[string](../types/string.md) | Yes|Chat about|
-|participants|[ChatParticipants](../types/ChatParticipants.md) | Yes|Participants|
+|can\_set\_username|[Bool](../types/Bool.md) | Optional|Can we change the username of this chat|
+|id|[int](../types/int.md) | Yes|ID of the chat|
+|about|[string](../types/string.md) | Yes|About string for this chat|
+|participants|[ChatParticipants](../types/ChatParticipants.md) | Yes|Participant list|
 |chat\_photo|[Photo](../types/Photo.md) | Optional|Chat photo|
-|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Yes|Notify settings|
-|exported\_invite|[ExportedChatInvite](../types/ExportedChatInvite.md) | Yes|Exported invite|
+|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Yes|Notification settings|
+|exported\_invite|[ExportedChatInvite](../types/ExportedChatInvite.md) | Yes|Chat invite|
 |bot\_info|Array of [BotInfo](../types/BotInfo.md) | Optional|Bot info|
-|pinned\_msg\_id|[int](../types/int.md) | Optional|Pinned msg ID|
+|pinned\_msg\_id|[int](../types/int.md) | Optional|Message ID of the pinned message|
 
 
 

@@ -14,7 +14,7 @@ Exported chat invite
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|link|[string](../types/string.md) | Yes|Link|
+|link|[string](../types/string.md) | Yes|Chat invitation link|
 
 
 

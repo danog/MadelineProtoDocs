@@ -1,6 +1,6 @@
 ---
 title: inputPeerChannel
-description: Peer channel
+description: Defines a channel for further interaction.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPeerChannel  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Peer channel
+Defines a channel for further interaction.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[int](../types/int.md) | Yes|Channel ID|
-|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|channel\_id|[int](../types/int.md) | Yes|Channel identifier|
+|access\_hash|[long](../types/long.md) | Yes|**access\_hash** value from the [channel](../constructors/channel.md) constructor|
 
 
 

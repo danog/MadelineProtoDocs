@@ -1,6 +1,6 @@
 ---
 title: auth.authorization
-description: Authorization
+description: Contains user authorization info.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: auth.authorization  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Authorization
+Contains user authorization info.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|tmp\_sessions|[int](../types/int.md) | Optional|Temporary sessions|
-|user|[User](../types/User.md) | Optional|User|
+|tmp\_sessions|[int](../types/int.md) | Optional|Temporary [passport](https://core.telegram.org/passport) sessions|
+|user|[User](../types/User.md) | Optional|Info on authorized user|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: inputNotifyBroadcasts
-description: Notify broadcasts
+description: All [channels](https://core.telegram.org/api/channel)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputNotifyBroadcasts  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Notify broadcasts
+All [channels](https://core.telegram.org/api/channel)
 
 
 

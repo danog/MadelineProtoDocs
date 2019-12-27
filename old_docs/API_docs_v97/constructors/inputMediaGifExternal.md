@@ -1,6 +1,6 @@
 ---
 title: inputMediaGifExternal
-description: Media gif external
+description: New GIF animation that will be uploaded by the server using the specified URL
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaGifExternal  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Media gif external
+New GIF animation that will be uploaded by the server using the specified URL
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |url|[string](../types/string.md) | Yes|URL|
-|q|[string](../types/string.md) | Yes|Q|
+|q|[string](../types/string.md) | Yes|Query|
 
 
 

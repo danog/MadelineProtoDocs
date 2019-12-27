@@ -1,6 +1,6 @@
 ---
 title: inputReportReasonCopyright
-description: Report reason copyright
+description: Report for copyrighted content
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputReportReasonCopyright  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Report reason copyright
+Report for copyrighted content
 
 
 

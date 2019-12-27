@@ -1,6 +1,6 @@
 ---
 title: account.passwordInputSettings
-description: 2FA password settings
+description: Settings for setting up a new password
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: account.passwordInputSettings  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-2FA password settings
+Settings for setting up a new password
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |new\_salt|[bytes](../types/bytes.md) | Optional|`$new_salt = $MadelineProto->account->getPassword()['new_salt'].$MadelineProto->random(8);`|
-|new\_password\_hash|[bytes](../types/bytes.md) | Optional|`hash('sha256', $new_salt.$new_password.$new_salt, true)`|
-|hint|[string](../types/string.md) | Optional|Hint|
-|email|[string](../types/string.md) | Optional|Email|
+|new\_password\_hash|[bytes](../types/bytes.md) | Optional|The [computed password hash](https://core.telegram.org/api/srp)|
+|hint|[string](../types/string.md) | Optional|Text hint for the password|
+|email|[string](../types/string.md) | Optional|Password recovery email|
 
 
 

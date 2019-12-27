@@ -1,19 +1,19 @@
 ---
 title: invokeWithLayer
-description: Invoke this method with layer X
+description: Invoke the specified query using the specified API [layer](https://core.telegram.org/api/invoking#layers)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: invokeWithLayer  
 [Back to methods index](index.md)
 
 
-Invoke this method with layer X
+Invoke the specified query using the specified API [layer](https://core.telegram.org/api/invoking#layers)
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|layer|[int](../types/int.md) | The layer version | Yes|
+|layer|[int](../types/int.md) | The layer to use | Yes|
 |query|[!X](../types/!X.md) | The query | Yes|
 
 

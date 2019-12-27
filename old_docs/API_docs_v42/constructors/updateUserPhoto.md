@@ -1,6 +1,6 @@
 ---
 title: updateUserPhoto
-description: Update user photo
+description: Change of contact's profile photo.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateUserPhoto  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update user photo
+Change of contact's profile photo.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User ID|
-|date|[int](../types/int.md) | Yes|Date|
-|photo|[UserProfilePhoto](../types/UserProfilePhoto.md) | Optional|Photo|
-|previous|[Bool](../types/Bool.md) | Yes|Previous?|
+|user\_id|[int](../types/int.md) | Yes|User identifier|
+|date|[int](../types/int.md) | Yes|Date of photo update.<br>Parameter was added in [second layer](?layer=2).|
+|photo|[UserProfilePhoto](../types/UserProfilePhoto.md) | Optional|New profile photo|
+|previous|[Bool](../types/Bool.md) | Yes|([boolTrue](../constructors/boolTrue.md)), if one of the previously used photos is set a profile photo.<br>Parameter was added in [second layer](?layer=2).|
 
 
 

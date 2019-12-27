@@ -1,6 +1,6 @@
 ---
 title: channelFull
-description: Full channel
+description: Full info about a [channel/supergroup](https://core.telegram.org/api/channel)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelFull  
@@ -8,29 +8,29 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Full channel
+Full info about a [channel/supergroup](https://core.telegram.org/api/channel)
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|can\_view\_participants|[Bool](../types/Bool.md) | Optional|Can view participants?|
-|can\_set\_username|[Bool](../types/Bool.md) | Optional|Can set username?|
-|id|[int](../types/int.md) | Yes|ID|
-|about|[string](../types/string.md) | Yes|About|
-|participants\_count|[int](../types/int.md) | Optional|Participants count|
-|admins\_count|[int](../types/int.md) | Optional|Admins count|
-|kicked\_count|[int](../types/int.md) | Optional|Kicked count|
-|read\_inbox\_max\_id|[int](../types/int.md) | Yes|Read inbox max ID|
-|read\_outbox\_max\_id|[int](../types/int.md) | Yes|Read outbox max ID|
-|unread\_count|[int](../types/int.md) | Yes|Unread count|
-|chat\_photo|[Photo](../types/Photo.md) | Optional|Chat photo|
-|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|Notify settings|
-|exported\_invite|[ExportedChatInvite](../types/ExportedChatInvite.md) | Yes|Exported invite|
+|can\_view\_participants|[Bool](../types/Bool.md) | Optional|Can we vew the participant list?|
+|can\_set\_username|[Bool](../types/Bool.md) | Optional|Can we set the channel's username?|
+|id|[int](../types/int.md) | Yes|ID of the channel|
+|about|[string](../types/string.md) | Yes|Info about the channel|
+|participants\_count|[int](../types/int.md) | Optional|Number of participants of the channel|
+|admins\_count|[int](../types/int.md) | Optional|Number of channel admins|
+|kicked\_count|[int](../types/int.md) | Optional|Number of users [kicked](https://core.telegram.org/api/rights) from the channel|
+|read\_inbox\_max\_id|[int](../types/int.md) | Yes|Position up to which all incoming messages are read.|
+|read\_outbox\_max\_id|[int](../types/int.md) | Yes|Position up to which all outgoing messages are read.|
+|unread\_count|[int](../types/int.md) | Yes|Count of unread messages|
+|chat\_photo|[Photo](../types/Photo.md) | Optional|Channel picture|
+|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|Notification settings|
+|exported\_invite|[ExportedChatInvite](../types/ExportedChatInvite.md) | Yes|Invite link|
 |bot\_info|Array of [BotInfo](../types/BotInfo.md) | Yes|Bot info|
-|migrated\_from\_chat\_id|[int](../types/int.md) | Optional|Migrated from chat ID|
-|migrated\_from\_max\_id|[int](../types/int.md) | Optional|Migrated from max ID|
-|pinned\_msg\_id|[int](../types/int.md) | Optional|Pinned msg ID|
+|migrated\_from\_chat\_id|[int](../types/int.md) | Optional|The chat ID from which this group was [migrated](https://core.telegram.org/api/channel)|
+|migrated\_from\_max\_id|[int](../types/int.md) | Optional|The message ID in the original chat at which this group was [migrated](https://core.telegram.org/api/channel)|
+|pinned\_msg\_id|[int](../types/int.md) | Optional|Message ID of the pinned message|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: updateContactsReset
-description: Update contacts reset
+description: All contacts were deleted
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateContactsReset  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update contacts reset
+All contacts were deleted
 
 
 

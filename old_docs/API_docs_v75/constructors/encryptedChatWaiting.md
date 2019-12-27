@@ -1,6 +1,6 @@
 ---
 title: encryptedChatWaiting
-description: Encrypted chat waiting
+description: Chat waiting for approval of second participant.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: encryptedChatWaiting  
@@ -8,17 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Encrypted chat waiting
+Chat waiting for approval of second participant.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID|
-|access\_hash|[long](../types/long.md) | Yes|Access hash|
-|date|[int](../types/int.md) | Yes|Date|
-|admin\_id|[int](../types/int.md) | Yes|Admin ID|
-|participant\_id|[int](../types/int.md) | Yes|Participant ID|
+|id|[int](../types/int.md) | Yes|Chat ID|
+|access\_hash|[long](../types/long.md) | Yes|Checking sum depending on user ID|
+|date|[int](../types/int.md) | Yes|Date of chat creation|
+|admin\_id|[int](../types/int.md) | Yes|Chat creator ID|
+|participant\_id|[int](../types/int.md) | Yes|ID of second chat participant|
 
 
 

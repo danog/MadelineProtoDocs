@@ -1,6 +1,6 @@
 ---
 title: updateConfig
-description: Update config
+description: The server-side configuration has changed; the client should re-fetch the config using [help.getConfig](../methods/help.getConfig.md)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateConfig  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update config
+The server-side configuration has changed; the client should re-fetch the config using [help.getConfig](../methods/help.getConfig.md)
 
 
 

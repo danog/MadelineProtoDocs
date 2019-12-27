@@ -1,6 +1,6 @@
 ---
 title: config
-description: Config
+description: Current configuration
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: config  
@@ -8,32 +8,32 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Config
+Current configuration
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|date|[int](../types/int.md) | Yes|Date|
-|expires|[int](../types/int.md) | Yes|Expires|
-|test\_mode|[Bool](../types/Bool.md) | Yes|Test mode?|
-|this\_dc|[int](../types/int.md) | Yes|This DC|
+|date|[int](../types/int.md) | Yes|Current date at the server|
+|expires|[int](../types/int.md) | Yes|Expiration date of this config: when it expires it'll have to be refetched using [help.getConfig](../methods/help.getConfig.md)|
+|test\_mode|[Bool](../types/Bool.md) | Yes|Whether we're connected to the test DCs|
+|this\_dc|[int](../types/int.md) | Yes|ID of the DC that returned the reply|
 |dc\_options|Array of [DcOption](../types/DcOption.md) | Yes|DC options|
-|chat\_size\_max|[int](../types/int.md) | Yes|Chat size max|
-|megagroup\_size\_max|[int](../types/int.md) | Yes|Megagroup size max|
-|forwarded\_count\_max|[int](../types/int.md) | Yes|Forwarded count max|
-|online\_update\_period\_ms|[int](../types/int.md) | Yes|Online update period ms|
-|offline\_blur\_timeout\_ms|[int](../types/int.md) | Yes|Offline blur timeout ms|
-|offline\_idle\_timeout\_ms|[int](../types/int.md) | Yes|Offline IDle timeout ms|
-|online\_cloud\_timeout\_ms|[int](../types/int.md) | Yes|Online cloud timeout ms|
-|notify\_cloud\_delay\_ms|[int](../types/int.md) | Yes|Notify cloud delay ms|
-|notify\_default\_delay\_ms|[int](../types/int.md) | Yes|Notify default delay ms|
+|chat\_size\_max|[int](../types/int.md) | Yes|Maximum member count for normal [groups](https://core.telegram.org/api/channel)|
+|megagroup\_size\_max|[int](../types/int.md) | Yes|Maximum member count for [supergroups](https://core.telegram.org/api/channel)|
+|forwarded\_count\_max|[int](../types/int.md) | Yes|Maximum number of messages that can be forwarded at once using [messages.forwardMessages](../methods/messages.forwardMessages.md).|
+|online\_update\_period\_ms|[int](../types/int.md) | Yes|The client should [update its online status](../methods/account.updateStatus.md) every N milliseconds|
+|offline\_blur\_timeout\_ms|[int](../types/int.md) | Yes|Delay before offline status needs to be sent to the server|
+|offline\_idle\_timeout\_ms|[int](../types/int.md) | Yes|Time without any user activity after which it should be treated offline|
+|online\_cloud\_timeout\_ms|[int](../types/int.md) | Yes|If we are offline, but were online from some other client in last `online_cloud_timeout_ms` milliseconds after we had gone offline, then delay offline notification for `notify_cloud_delay_ms` milliseconds.|
+|notify\_cloud\_delay\_ms|[int](../types/int.md) | Yes|If we are offline, but online from some other client then delay sending the offline notification for `notify_cloud_delay_ms` milliseconds.|
+|notify\_default\_delay\_ms|[int](../types/int.md) | Yes|If some other client is online, then delay notification for `notification_default_delay_ms` milliseconds|
 |chat\_big\_size|[int](../types/int.md) | Yes|Chat big size|
-|push\_chat\_period\_ms|[int](../types/int.md) | Yes|Push chat period ms|
-|push\_chat\_limit|[int](../types/int.md) | Yes|Push chat limit|
-|saved\_gifs\_limit|[int](../types/int.md) | Yes|Saved gifs limit|
-|edit\_time\_limit|[int](../types/int.md) | Yes|Edit time limit|
-|rating\_e\_decay|[int](../types/int.md) | Yes|Rating e decay|
+|push\_chat\_period\_ms|[int](../types/int.md) | Yes|Not for client use|
+|push\_chat\_limit|[int](../types/int.md) | Yes|Not for client use|
+|saved\_gifs\_limit|[int](../types/int.md) | Yes|Maximum count of saved gifs|
+|edit\_time\_limit|[int](../types/int.md) | Yes|Only messages with age smaller than the one specified can be edited|
+|rating\_e\_decay|[int](../types/int.md) | Yes|Exponential decay rate for computing [top peer rating](https://core.telegram.org/api/top-rating)|
 |disabled\_features|Array of [DisabledFeature](../types/DisabledFeature.md) | Yes|Disabled features|
 
 

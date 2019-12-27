@@ -1,6 +1,6 @@
 ---
 title: inputPhotoEmpty
-description: Empty input photo
+description: Empty constructor.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPhotoEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty input photo
+Empty constructor.
 
 
 

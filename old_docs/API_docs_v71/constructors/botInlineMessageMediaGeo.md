@@ -1,6 +1,6 @@
 ---
 title: botInlineMessageMediaGeo
-description: Bot inline message media geo
+description: Send a geolocation
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: botInlineMessageMediaGeo  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Bot inline message media geo
+Send a geolocation
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|geo|[GeoPoint](../types/GeoPoint.md) | Optional|Geo|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Reply markup|
+|geo|[GeoPoint](../types/GeoPoint.md) | Optional|Geolocation|
+|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Inline keyboard|
 
 
 

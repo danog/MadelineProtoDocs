@@ -1,6 +1,6 @@
 ---
 title: keyboardButtonRow
-description: Keyboard button row
+description: Inline keyboard row
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: keyboardButtonRow  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Keyboard button row
+Inline keyboard row
 
 ### Attributes:
 

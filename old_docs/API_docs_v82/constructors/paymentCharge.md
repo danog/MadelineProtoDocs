@@ -1,6 +1,6 @@
 ---
 title: paymentCharge
-description: Payment charge
+description: Payment identifier
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: paymentCharge  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Payment charge
+Payment identifier
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[string](../types/string.md) | Yes|ID|
-|provider\_charge\_id|[string](../types/string.md) | Yes|Provider charge ID|
+|id|[string](../types/string.md) | Yes|Telegram payment identifier|
+|provider\_charge\_id|[string](../types/string.md) | Yes|Provider payment identifier|
 
 
 

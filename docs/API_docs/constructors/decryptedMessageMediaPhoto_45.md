@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageMediaPhoto
-description: Decrypted message media photo
+description: Photo attached to an encrypted message.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaPhoto\_45  
@@ -8,18 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Decrypted message media photo
+Photo attached to an encrypted message.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|thumb|[bytes](../types/bytes.md) | Yes|Thumbnail|
+|thumb|[bytes](../types/bytes.md) | Yes|Content of thumbnail file (JPEGfile, quality 55, set in a square 90x90)|
 |thumb\_w|[int](../types/int.md) | Yes|Thumbnail width|
 |thumb\_h|[int](../types/int.md) | Yes|Thumbnail height|
-|w|[int](../types/int.md) | Yes|Width|
-|h|[int](../types/int.md) | Yes|Height|
-|size|[int](../types/int.md) | Yes|Size|
+|w|[int](../types/int.md) | Yes|Photo width|
+|h|[int](../types/int.md) | Yes|Photo height|
+|size|[int](../types/int.md) | Yes|Size of the photo in bytes|
 |caption|[string](../types/string.md) | Yes|Caption|
 
 

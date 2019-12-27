@@ -1,6 +1,6 @@
 ---
 title: channelParticipant
-description: Channel participant
+description: Channel/supergroup participant
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipant  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Channel participant
+Channel/supergroup participant
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User ID|
-|date|[int](../types/int.md) | Yes|Date|
+|user\_id|[int](../types/int.md) | Yes|Pariticipant user ID|
+|date|[int](../types/int.md) | Yes|Date joined|
 
 
 

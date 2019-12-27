@@ -1,6 +1,6 @@
 ---
 title: topPeerCategoryForwardUsers
-description: Top peer category: forward users
+description: Users to which the users often forwards messages to
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: topPeerCategoryForwardUsers  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Top peer category: forward users
+Users to which the users often forwards messages to
 
 
 

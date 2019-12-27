@@ -1,6 +1,6 @@
 ---
 title: userProfilePhotoEmpty
-description: Empty user profile photo
+description: Profile photo has not been set, or was hidden.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userProfilePhotoEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty user profile photo
+Profile photo has not been set, or was hidden.
 
 
 

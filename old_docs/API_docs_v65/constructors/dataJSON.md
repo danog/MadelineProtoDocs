@@ -1,6 +1,6 @@
 ---
 title: dataJSON
-description: Data json
+description: Represents a json-encoded object
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: dataJSON  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Data json
+Represents a json-encoded object
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|data|[string](../types/string.md) | Yes|Data|
+|data|[string](../types/string.md) | Yes|JSON-encoded object|
 
 
 

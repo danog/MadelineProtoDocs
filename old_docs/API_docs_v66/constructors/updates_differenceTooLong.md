@@ -1,6 +1,6 @@
 ---
 title: updates.differenceTooLong
-description: Difference too long
+description: The difference is [too long](https://core.telegram.org/api/updates#recovering-gaps), and the specified state must be used to refetch updates.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updates.differenceTooLong  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Difference too long
+The difference is [too long](https://core.telegram.org/api/updates#recovering-gaps), and the specified state must be used to refetch updates.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|pts|[int](../types/int.md) | Yes|Pts|
+|pts|[int](../types/int.md) | Yes|The new state to use.|
 
 
 

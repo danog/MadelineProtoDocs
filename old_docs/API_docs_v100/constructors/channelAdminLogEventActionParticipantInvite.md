@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionParticipantInvite
-description: Invite participant
+description: A user was invited to the group
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionParticipantInvite  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Invite participant
+A user was invited to the group
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|participant|[ChannelParticipant](../types/ChannelParticipant.md) | Yes|Participant|
+|participant|[ChannelParticipant](../types/ChannelParticipant.md) | Yes|The user that was invited|
 
 
 

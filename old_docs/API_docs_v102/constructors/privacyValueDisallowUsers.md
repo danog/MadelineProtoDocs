@@ -1,6 +1,6 @@
 ---
 title: privacyValueDisallowUsers
-description: Privacy value disallow users
+description: Disallow only certain users
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: privacyValueDisallowUsers  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Privacy value disallow users
+Disallow only certain users
 
 ### Attributes:
 

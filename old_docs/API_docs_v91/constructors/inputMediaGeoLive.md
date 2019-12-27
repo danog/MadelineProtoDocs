@@ -1,6 +1,6 @@
 ---
 title: inputMediaGeoLive
-description: Media geo live
+description: Live geographical location
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaGeoLive  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Media geo live
+Live geographical location
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|stopped|[Bool](../types/Bool.md) | Optional|Stopped?|
-|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|Geo point|
-|period|[int](../types/int.md) | Optional|Period|
+|stopped|[Bool](../types/Bool.md) | Optional|Whether sending of the geolocation was stopped|
+|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|Current geolocation|
+|period|[int](../types/int.md) | Optional|Validity period of the current location|
 
 
 

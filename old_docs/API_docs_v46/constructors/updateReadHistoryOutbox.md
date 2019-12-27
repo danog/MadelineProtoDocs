@@ -1,6 +1,6 @@
 ---
 title: updateReadHistoryOutbox
-description: Update read history outbox
+description: Outgoing messages were read
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateReadHistoryOutbox  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update read history outbox
+Outgoing messages were read
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |peer|[Peer](../types/Peer.md) | Yes|Peer|
-|max\_id|[int](../types/int.md) | Yes|Max ID|
-|pts|[int](../types/int.md) | Yes|Pts|
-|pts\_count|[int](../types/int.md) | Yes|Pts count|
+|max\_id|[int](../types/int.md) | Yes|Maximum ID of read outgoing messages|
+|pts|[int](../types/int.md) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|
+|pts\_count|[int](../types/int.md) | Yes|[Number of events that were generated](https://core.telegram.org/api/updates)|
 
 
 

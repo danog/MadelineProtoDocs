@@ -1,6 +1,6 @@
 ---
 title: langPackStringDeleted
-description: Lang pack string deleted
+description: Deleted localization string
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: langPackStringDeleted  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Lang pack string deleted
+Deleted localization string
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|key|[string](../types/string.md) | Yes|Key|
+|key|[string](../types/string.md) | Yes|Localization key|
 
 
 

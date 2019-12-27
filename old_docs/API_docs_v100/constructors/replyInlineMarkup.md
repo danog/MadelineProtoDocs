@@ -1,6 +1,6 @@
 ---
 title: replyInlineMarkup
-description: Reply inline markup
+description: Bot or inline keyboard
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: replyInlineMarkup  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Reply inline markup
+Bot or inline keyboard
 
 ### Attributes:
 

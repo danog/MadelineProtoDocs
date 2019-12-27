@@ -1,6 +1,6 @@
 ---
 title: updateReadHistoryInbox
-description: Update read history inbox
+description: Incoming messages were read
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateReadHistoryInbox  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update read history inbox
+Incoming messages were read
 
 ### Attributes:
 
@@ -16,10 +16,10 @@ Update read history inbox
 |----------|---------------|----------|-------------|
 |folder\_id|[int](../types/int.md) | Optional|Folder ID|
 |peer|[Peer](../types/Peer.md) | Yes|Peer|
-|max\_id|[int](../types/int.md) | Yes|Max ID|
-|still\_unread\_count|[int](../types/int.md) | Yes|Still unread count|
-|pts|[int](../types/int.md) | Yes|Pts|
-|pts\_count|[int](../types/int.md) | Yes|Pts count|
+|max\_id|[int](../types/int.md) | Yes|Maximum ID of messages read|
+|still\_unread\_count|[int](../types/int.md) | Yes|Number of messages that are still unread|
+|pts|[int](../types/int.md) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|
+|pts\_count|[int](../types/int.md) | Yes|[Number of events that were generated](https://core.telegram.org/api/updates)|
 
 
 

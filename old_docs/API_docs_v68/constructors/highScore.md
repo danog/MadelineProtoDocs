@@ -1,6 +1,6 @@
 ---
 title: highScore
-description: High score
+description: Game highscore
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: highScore  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-High score
+Game highscore
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|pos|[int](../types/int.md) | Yes|Pos|
+|pos|[int](../types/int.md) | Yes|Position in highscore list|
 |user\_id|[int](../types/int.md) | Yes|User ID|
 |score|[int](../types/int.md) | Yes|Score|
 

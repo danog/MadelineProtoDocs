@@ -1,6 +1,6 @@
 ---
 title: secureRequiredType
-description: Secure required type
+description: Required type
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureRequiredType  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Secure required type
+Required type
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|native\_names|[Bool](../types/Bool.md) | Optional|Native names?|
-|selfie\_required|[Bool](../types/Bool.md) | Optional|Selfie required?|
-|translation\_required|[Bool](../types/Bool.md) | Optional|Translation required?|
-|type|[SecureValueType](../types/SecureValueType.md) | Yes|Type|
+|native\_names|[Bool](../types/Bool.md) | Optional|Native names|
+|selfie\_required|[Bool](../types/Bool.md) | Optional|Is a selfie required|
+|translation\_required|[Bool](../types/Bool.md) | Optional|Is a translation required|
+|type|[SecureValueType](../types/SecureValueType.md) | Yes|Secure value type|
 
 
 

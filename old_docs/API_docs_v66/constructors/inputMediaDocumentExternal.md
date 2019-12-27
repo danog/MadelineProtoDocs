@@ -1,6 +1,6 @@
 ---
 title: inputMediaDocumentExternal
-description: Media document external
+description: Document that will be downloaded by the telegram servers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaDocumentExternal  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Media document external
+Document that will be downloaded by the telegram servers
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|url|[string](../types/string.md) | Yes|URL|
+|url|[string](../types/string.md) | Yes|URL of the document|
 |caption|[string](../types/string.md) | Yes|Caption|
 
 

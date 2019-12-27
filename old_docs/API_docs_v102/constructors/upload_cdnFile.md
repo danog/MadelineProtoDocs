@@ -1,6 +1,6 @@
 ---
 title: upload.cdnFile
-description: Cdn file
+description: Represent a chunk of a [CDN](https://core.telegram.org/cdn) file.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: upload.cdnFile  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Cdn file
+Represent a chunk of a [CDN](https://core.telegram.org/cdn) file.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|bytes|[bytes](../types/bytes.md) | Yes|Bytes|
+|bytes|[bytes](../types/bytes.md) | Yes|The data|
 
 
 

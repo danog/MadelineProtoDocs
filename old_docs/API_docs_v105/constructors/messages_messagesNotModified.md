@@ -1,6 +1,6 @@
 ---
 title: messages.messagesNotModified
-description: Messages not modified
+description: No new messages matching the query were found
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.messagesNotModified  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Messages not modified
+No new messages matching the query were found
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|count|[int](../types/int.md) | Yes|Count|
+|count|[int](../types/int.md) | Yes|Number of results found server-side by the given query|
 
 
 

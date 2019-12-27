@@ -1,6 +1,6 @@
 ---
 title: upload.file
-description: File
+description: File content.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: upload.file  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-File
+File content.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|type|[storage\_FileType](../types/storage_FileType.md) | Yes|Type|
-|mtime|[int](../types/int.md) | Yes|Mtime|
-|bytes|[bytes](../types/bytes.md) | Yes|Bytes|
+|type|[storage\_FileType](../types/storage_FileType.md) | Yes|File type|
+|mtime|[int](../types/int.md) | Yes|Modification type|
+|bytes|[bytes](../types/bytes.md) | Yes|Binary data, file content|
 
 
 

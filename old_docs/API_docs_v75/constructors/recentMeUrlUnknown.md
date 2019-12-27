@@ -1,6 +1,6 @@
 ---
 title: recentMeUrlUnknown
-description: Recent me URL unknown
+description: Unknown t.me url
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: recentMeUrlUnknown  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Recent me URL unknown
+Unknown t.me url
 
 ### Attributes:
 

@@ -1,6 +1,6 @@
 ---
 title: updateDcOptions
-description: Update DC options
+description: Changes in the data center configuration options.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateDcOptions  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update DC options
+Changes in the data center configuration options.
 
 ### Attributes:
 

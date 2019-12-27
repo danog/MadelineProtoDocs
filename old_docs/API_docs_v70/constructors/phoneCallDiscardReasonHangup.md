@@ -1,6 +1,6 @@
 ---
 title: phoneCallDiscardReasonHangup
-description: Phone call discard reason hangup
+description: The phone call was ended normally
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneCallDiscardReasonHangup  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Phone call discard reason hangup
+The phone call was ended normally
 
 
 

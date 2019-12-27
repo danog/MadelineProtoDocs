@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageService
-description: Decrypted message service
+description: Contents of an encrypted service message.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageService\_17  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Decrypted message service
+Contents of an encrypted service message.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|action|[DecryptedMessageAction](../types/DecryptedMessageAction.md) | Yes|Action|
+|action|[DecryptedMessageAction](../types/DecryptedMessageAction.md) | Yes|Action relevant to the service message|
 
 
 

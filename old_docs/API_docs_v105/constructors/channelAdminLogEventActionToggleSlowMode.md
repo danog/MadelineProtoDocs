@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionToggleSlowMode
-description: Channel admin log event action toggle slow mode
+description: [Slow mode setting for supergroups was changed](../methods/channels.toggleSlowMode.md)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionToggleSlowMode  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Channel admin log event action toggle slow mode
+[Slow mode setting for supergroups was changed](../methods/channels.toggleSlowMode.md)
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|prev\_value|[int](../types/int.md) | Yes|Prev value|
-|new\_value|[int](../types/int.md) | Yes|New value|
+|prev\_value|[int](../types/int.md) | Yes|Previous slow mode value|
+|new\_value|[int](../types/int.md) | Yes|New slow mode value|
 
 
 

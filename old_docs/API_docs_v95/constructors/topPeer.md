@@ -15,7 +15,7 @@ Top peer
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |peer|[Peer](../types/Peer.md) | Yes|Peer|
-|rating|[double](../types/double.md) | Yes|Rating|
+|rating|[double](../types/double.md) | Yes|Rating as computer in [top peer rating »](https://core.telegram.org/api/top-rating)|
 
 
 

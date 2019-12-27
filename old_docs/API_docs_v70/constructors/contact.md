@@ -1,6 +1,6 @@
 ---
 title: contact
-description: Contact
+description: A contact of the current user that is registered in the system.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: contact  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Contact
+A contact of the current user that is registered in the system.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User ID|
-|mutual|[Bool](../types/Bool.md) | Yes|Mutual?|
+|user\_id|[int](../types/int.md) | Yes|User identifier|
+|mutual|[Bool](../types/Bool.md) | Yes|Current user is in the user's contact list|
 
 
 

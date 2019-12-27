@@ -8,8 +8,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Contains notifications about data changes
-
 ### Possible values (constructors):
 
 [updateNewMessage](../constructors/updateNewMessage.md)  

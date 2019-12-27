@@ -1,6 +1,6 @@
 ---
 title: inputChannelEmpty
-description: Empty input channel
+description: Represents the absence of a channel
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputChannelEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty input channel
+Represents the absence of a channel
 
 
 

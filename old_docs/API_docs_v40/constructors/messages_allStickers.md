@@ -1,6 +1,6 @@
 ---
 title: messages.allStickers
-description: All stickers
+description: Info about all installed stickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.allStickers  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-All stickers
+Info about all installed stickers
 
 ### Attributes:
 

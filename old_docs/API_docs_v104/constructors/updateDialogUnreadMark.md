@@ -1,6 +1,6 @@
 ---
 title: updateDialogUnreadMark
-description: Update dialog unread mark
+description: The manual unread mark of a chat was changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateDialogUnreadMark  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update dialog unread mark
+The manual unread mark of a chat was changed
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|unread|[Bool](../types/Bool.md) | Optional|Unread?|
-|peer|[DialogPeer](../types/DialogPeer.md) | Yes|Peer|
+|unread|[Bool](../types/Bool.md) | Optional|Was the chat marked or unmarked as read|
+|peer|[DialogPeer](../types/DialogPeer.md) | Yes|The dialog|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: updatePrivacy
-description: Update privacy
+description: Privacy rules were changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatePrivacy  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update privacy
+Privacy rules were changed
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|key|[PrivacyKey](../types/PrivacyKey.md) | Yes|Key|
+|key|[PrivacyKey](../types/PrivacyKey.md) | Yes|Peers to which the privacy rules apply|
 |rules|Array of [PrivacyRule](../types/PrivacyRule.md) | Yes|Rules|
 
 

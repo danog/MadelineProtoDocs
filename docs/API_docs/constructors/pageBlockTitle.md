@@ -1,6 +1,6 @@
 ---
 title: pageBlockTitle
-description: Page block title
+description: Title
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockTitle  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page block title
+Title
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|text|[RichText](../types/RichText.md) | Yes|Text|
+|text|[RichText](../types/RichText.md) | Yes|Title|
 
 
 

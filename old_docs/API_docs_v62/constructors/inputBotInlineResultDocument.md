@@ -1,6 +1,6 @@
 ---
 title: inputBotInlineResultDocument
-description: Bot inline result document
+description: Document (media of any type except for photos)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputBotInlineResultDocument  
@@ -8,18 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Bot inline result document
+Document (media of any type except for photos)
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[string](../types/string.md) | Yes|ID|
-|type|[string](../types/string.md) | Yes|Type|
-|title|[string](../types/string.md) | Optional|Title|
-|description|[string](../types/string.md) | Optional|Description|
-|document|[MessageMedia, Message, Update or InputDocument](../types/InputDocument.md) | Optional|Document|
-|send\_message|[InputBotInlineMessage](../types/InputBotInlineMessage.md) | Yes|Message to send|
+|id|[string](../types/string.md) | Yes|Result ID|
+|type|[string](../types/string.md) | Yes|Result type (see [bot API docs](https://core.telegram.org/bots/api#inlinequeryresult))|
+|title|[string](../types/string.md) | Optional|Result title|
+|description|[string](../types/string.md) | Optional|Result description|
+|document|[MessageMedia, Message, Update or InputDocument](../types/InputDocument.md) | Optional|Document to send|
+|send\_message|[InputBotInlineMessage](../types/InputBotInlineMessage.md) | Yes|Message to send when the result is selected|
 
 
 

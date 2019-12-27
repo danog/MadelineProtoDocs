@@ -1,20 +1,20 @@
 ---
 title: invokeWithMessagesRange
-description: Invoke with messages range
+description: Invoke with the given message range
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: invokeWithMessagesRange  
 [Back to methods index](index.md)
 
 
-Invoke with messages range
+Invoke with the given message range
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|range|[MessageRange](../types/MessageRange.md) | The range | Yes|
-|query|[!X](../types/!X.md) | The query | Yes|
+|range|[MessageRange](../types/MessageRange.md) | Message range | Yes|
+|query|[!X](../types/!X.md) | Query | Yes|
 
 
 ### Return type: [X](../types/X.md)

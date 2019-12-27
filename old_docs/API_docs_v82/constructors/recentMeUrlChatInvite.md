@@ -1,6 +1,6 @@
 ---
 title: recentMeUrlChatInvite
-description: Recent me URL chat invite
+description: Recent t.me invite link to a chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: recentMeUrlChatInvite  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Recent me URL chat invite
+Recent t.me invite link to a chat
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|url|[string](../types/string.md) | Yes|URL|
-|chat\_invite|[ChatInvite](../types/ChatInvite.md) | Optional|Chat invite|
+|url|[string](../types/string.md) | Yes|t.me URL|
+|chat\_invite|[ChatInvite](../types/ChatInvite.md) | Optional|Chat invitation|
 
 
 

@@ -14,15 +14,15 @@ Secure value
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|type|[SecureValueType](../types/SecureValueType.md) | Yes|Type|
-|data|[SecureData](../types/SecureData.md) | Optional|Data|
-|front\_side|[SecureFile](../types/SecureFile.md) | Optional|Front side|
-|reverse\_side|[SecureFile](../types/SecureFile.md) | Optional|Reverse side|
-|selfie|[SecureFile](../types/SecureFile.md) | Optional|Selfie|
+|type|[SecureValueType](../types/SecureValueType.md) | Yes|Secure [passport](https://core.telegram.org/passport) value type|
+|data|[SecureData](../types/SecureData.md) | Optional|Encrypted [Telegram Passport](https://core.telegram.org/passport) element data|
+|front\_side|[SecureFile](../types/SecureFile.md) | Optional|Encrypted [passport](https://core.telegram.org/passport) file with the front side of the document|
+|reverse\_side|[SecureFile](../types/SecureFile.md) | Optional|Encrypted [passport](https://core.telegram.org/passport) file with the reverse side of the document|
+|selfie|[SecureFile](../types/SecureFile.md) | Optional|Encrypted [passport](https://core.telegram.org/passport) file with a selfie of the user holding the document|
 |translation|Array of [SecureFile](../types/SecureFile.md) | Optional|Translation|
 |files|Array of [SecureFile](../types/SecureFile.md) | Optional|Files|
-|plain\_data|[SecurePlainData](../types/SecurePlainData.md) | Optional|Plain data|
-|hash|[bytes](../types/bytes.md) | Yes|Hash|
+|plain\_data|[SecurePlainData](../types/SecurePlainData.md) | Optional|Plaintext verified [passport](https://core.telegram.org/passport) data|
+|hash|[bytes](../types/bytes.md) | Yes|Data hash|
 
 
 

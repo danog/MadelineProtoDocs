@@ -1,6 +1,6 @@
 ---
 title: textAnchor
-description: Text anchor
+description: Text linking to another section of the page
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textAnchor  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Text anchor
+Text linking to another section of the page
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |text|[RichText](../types/RichText.md) | Yes|Text|
-|name|[string](../types/string.md) | Yes|Name|
+|name|[string](../types/string.md) | Yes|Section name|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: pageBlockParagraph
-description: Page block paragraph
+description: A paragraph
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockParagraph  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page block paragraph
+A paragraph
 
 ### Attributes:
 

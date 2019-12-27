@@ -1,6 +1,6 @@
 ---
 title: nearestDc
-description: Nearest DC
+description: Nearest data centre, according to geo-ip.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: nearestDc  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Nearest DC
+Nearest data centre, according to geo-ip.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|country|[string](../types/string.md) | Yes|Country|
-|this\_dc|[int](../types/int.md) | Yes|This DC|
-|nearest\_dc|[int](../types/int.md) | Yes|Nearest DC|
+|country|[string](../types/string.md) | Yes|Country code determined by geo-ip|
+|this\_dc|[int](../types/int.md) | Yes|Number of current data centre|
+|nearest\_dc|[int](../types/int.md) | Yes|Number of nearest data centre|
 
 
 

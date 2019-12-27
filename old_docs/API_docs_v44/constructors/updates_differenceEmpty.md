@@ -1,6 +1,6 @@
 ---
 title: updates.differenceEmpty
-description: Empty difference
+description: No events.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updates.differenceEmpty  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty difference
+No events.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|date|[int](../types/int.md) | Yes|Date|
-|seq|[int](../types/int.md) | Yes|Seq|
+|date|[int](../types/int.md) | Yes|Current date|
+|seq|[int](../types/int.md) | Yes|Number of sent updates|
 
 
 

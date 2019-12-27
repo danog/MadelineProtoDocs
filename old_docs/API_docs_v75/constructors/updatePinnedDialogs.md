@@ -1,6 +1,6 @@
 ---
 title: updatePinnedDialogs
-description: Update pinned dialogs
+description: Pinned dialogs were updated
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatePinnedDialogs  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update pinned dialogs
+Pinned dialogs were updated
 
 ### Attributes:
 

@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionUpdatePinned
-description: Message pinned
+description: A message was pinned
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionUpdatePinned  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message pinned
+A message was pinned
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|message|[Message](../types/Message.md) | Optional|Message|
+|message|[Message](../types/Message.md) | Optional|The message that was pinned|
 
 
 

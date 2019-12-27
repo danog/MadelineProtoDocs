@@ -1,6 +1,6 @@
 ---
 title: inputMediaUploadedDocument
-description: Media uploaded document
+description: New document
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaUploadedDocument  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Media uploaded document
+New document
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|file|[File path or InputFile](../types/InputFile.md) | Yes|File|
+|file|[File path or InputFile](../types/InputFile.md) | Yes|The [uploaded file](https://core.telegram.org/api/files)|
 |file\_name|[string](../types/string.md) | Yes|File name|
-|mime\_type|[string](../types/string.md) | Optional|Mime type|
+|mime\_type|[string](../types/string.md) | Optional|MIME type of document|
 
 
 

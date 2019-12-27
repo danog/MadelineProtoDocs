@@ -1,6 +1,6 @@
 ---
 title: secureValueTypeEmail
-description: Secure value type email
+description: Email
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueTypeEmail  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Secure value type email
+Email
 
 
 

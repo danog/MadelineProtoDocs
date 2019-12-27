@@ -1,6 +1,6 @@
 ---
 title: message
-description: Message
+description: A message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: message  
@@ -8,22 +8,22 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message
+A message
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID|
-|from\_id|[int](../types/int.md) | Yes|From ID|
-|to\_id|[Peer](../types/Peer.md) | Yes|To ID|
+|id|[int](../types/int.md) | Yes|ID of the message|
+|from\_id|[int](../types/int.md) | Yes|ID of the sender of the message|
+|to\_id|[Peer](../types/Peer.md) | Yes|ID of the chat were the message was sent|
 |fwd\_from\_id|[int](../types/int.md) | Optional|Forwarded from ID|
 |fwd\_date|[int](../types/int.md) | Optional|Forwarded date|
-|reply\_to\_msg\_id|[int](../types/int.md) | Optional|Reply to msg ID|
-|date|[int](../types/int.md) | Yes|Date|
-|message|[string](../types/string.md) | Yes|Message|
-|media|[MessageMedia](../types/MessageMedia.md) | Optional|Media|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Reply markup|
+|reply\_to\_msg\_id|[int](../types/int.md) | Optional|ID of the message this message replies to|
+|date|[int](../types/int.md) | Yes|Date of the message|
+|message|[string](../types/string.md) | Yes|The message|
+|media|[MessageMedia](../types/MessageMedia.md) | Optional|Media attachment|
+|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Reply markup (bot/inline keyboards)|
 
 
 

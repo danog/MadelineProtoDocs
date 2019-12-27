@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageActionReadMessages
-description: Decrypted message action read messages
+description: Messages marked as read.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionReadMessages\_8  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Decrypted message action read messages
+Messages marked as read.
 
 ### Attributes:
 

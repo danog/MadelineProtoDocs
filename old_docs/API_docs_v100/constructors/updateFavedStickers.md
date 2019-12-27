@@ -1,6 +1,6 @@
 ---
 title: updateFavedStickers
-description: Update faved stickers
+description: The list of favorited stickers was changed, the client should call [messages.getFavedStickers](../methods/messages.getFavedStickers.md) to refetch the new list
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateFavedStickers  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update faved stickers
+The list of favorited stickers was changed, the client should call [messages.getFavedStickers](../methods/messages.getFavedStickers.md) to refetch the new list
 
 
 

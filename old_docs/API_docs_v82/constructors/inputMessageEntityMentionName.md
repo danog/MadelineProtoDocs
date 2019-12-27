@@ -1,6 +1,6 @@
 ---
 title: inputMessageEntityMentionName
-description: Message entity mention name
+description: Message entity that can be used to create a user [user mention](https://t.me/test): received mentions use the [messageEntityMentionName](../constructors/messageEntityMentionName.md) constructor, instead.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessageEntityMentionName  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message entity mention name
+Message entity that can be used to create a user [user mention](https://t.me/test): received mentions use the [messageEntityMentionName](../constructors/messageEntityMentionName.md) constructor, instead.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|offset|[int](../types/int.md) | Yes|Offset|
-|length|[int](../types/int.md) | Yes|Length|
-|user\_id|[InputUser](../types/InputUser.md) | Optional|User ID|
+|offset|[int](../types/int.md) | Yes|Offset of message entity within message (in UTF-8 codepoints)|
+|length|[int](../types/int.md) | Yes|Length of message entity within message (in UTF-8 codepoints)|
+|user\_id|[InputUser](../types/InputUser.md) | Optional|Identifier of the user that was mentioned|
 
 
 

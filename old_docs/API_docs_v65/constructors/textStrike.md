@@ -1,6 +1,6 @@
 ---
 title: textStrike
-description: Text strike
+description: <del>Strikethrough</del> text
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textStrike  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Text strike
+<del>Strikethrough</del> text
 
 ### Attributes:
 

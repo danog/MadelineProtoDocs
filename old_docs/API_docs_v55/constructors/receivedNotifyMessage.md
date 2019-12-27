@@ -1,6 +1,6 @@
 ---
 title: receivedNotifyMessage
-description: Received notify message
+description: Message ID, for which PUSH-notifications were cancelled.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: receivedNotifyMessage  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Received notify message
+Message ID, for which PUSH-notifications were cancelled.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID|
+|id|[int](../types/int.md) | Yes|Message ID, for which PUSH-notifications were canceled|
 
 
 

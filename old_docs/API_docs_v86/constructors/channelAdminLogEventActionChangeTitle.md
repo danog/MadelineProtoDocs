@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionChangeTitle
-description: Change title
+description: Channel/supergroup title was changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionChangeTitle  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Change title
+Channel/supergroup title was changed
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|prev\_value|[string](../types/string.md) | Yes|Previous value|
-|new\_value|[string](../types/string.md) | Yes|New value|
+|prev\_value|[string](../types/string.md) | Yes|Previous title|
+|new\_value|[string](../types/string.md) | Yes|New title|
 
 
 

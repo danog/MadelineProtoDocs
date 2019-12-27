@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageMediaGeoPoint
-description: Decrypted message media geo point
+description: GeoPont attached to an encrypted message.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaGeoPoint\_8  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Decrypted message media geo point
+GeoPont attached to an encrypted message.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|lat|[double](../types/double.md) | Yes|Lat|
-|long|[double](../types/double.md) | Yes|Long|
+|lat|[double](../types/double.md) | Yes|Latitude of point|
+|long|[double](../types/double.md) | Yes|Longtitude of point|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: inputMediaContact
-description: Media contact
+description: Phonebook contact
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaContact  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Media contact
+Phonebook contact
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |phone\_number|[string](../types/string.md) | Yes|Phone number|
-|first\_name|[string](../types/string.md) | Yes|First name|
-|last\_name|[string](../types/string.md) | Yes|Last name|
+|first\_name|[string](../types/string.md) | Yes|Contact's first name|
+|last\_name|[string](../types/string.md) | Yes|Contact's last name|
 
 
 

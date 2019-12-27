@@ -1,6 +1,6 @@
 ---
 title: inputBotInlineResultGame
-description: Bot inline result game
+description: Game
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputBotInlineResultGame  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Bot inline result game
+Game
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[string](../types/string.md) | Yes|ID|
-|short\_name|[string](../types/string.md) | Yes|Short name|
-|send\_message|[InputBotInlineMessage](../types/InputBotInlineMessage.md) | Yes|Message to send|
+|id|[string](../types/string.md) | Yes|Result ID|
+|short\_name|[string](../types/string.md) | Yes|Game short name|
+|send\_message|[InputBotInlineMessage](../types/InputBotInlineMessage.md) | Yes|Message to send when the result is selected|
 
 
 

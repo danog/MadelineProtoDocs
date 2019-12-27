@@ -1,6 +1,6 @@
 ---
 title: updateEncryption
-description: Update encryption
+description: Change of state in an encrypted chat.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateEncryption  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update encryption
+Change of state in an encrypted chat.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |encr\_chat|[EncryptedChat](../types/EncryptedChat.md) | Optional|Encr chat|
-|date|[int](../types/int.md) | Yes|Date|
+|date|[int](../types/int.md) | Yes|Date of change|
 
 
 

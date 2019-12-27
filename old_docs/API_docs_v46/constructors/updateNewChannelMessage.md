@@ -1,6 +1,6 @@
 ---
 title: updateNewChannelMessage
-description: Update new channel message
+description: A new message was sent in a [channel/supergroup](https://core.telegram.org/api/channel)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateNewChannelMessage  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update new channel message
+A new message was sent in a [channel/supergroup](https://core.telegram.org/api/channel)
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|message|[Message](../types/Message.md) | Optional|Message|
+|message|[Message](../types/Message.md) | Optional|New message|
 |channel\_pts|[int](../types/int.md) | Yes|Channel pts|
 |channel\_pts\_count|[int](../types/int.md) | Yes|Channel pts count|
 

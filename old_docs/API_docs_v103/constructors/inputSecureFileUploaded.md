@@ -1,6 +1,6 @@
 ---
 title: inputSecureFileUploaded
-description: Secure file uploaded
+description: Uploaded secure file, for more info [see the passport docs »](https://core.telegram.org/passport/encryption#inputsecurefile)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputSecureFileUploaded  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Secure file uploaded
+Uploaded secure file, for more info [see the passport docs »](https://core.telegram.org/passport/encryption#inputsecurefile)
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID|
-|parts|[int](../types/int.md) | Yes|Parts|
-|md5\_checksum|[string](../types/string.md) | Yes|Md5 checksum|
+|id|[long](../types/long.md) | Yes|Secure file ID|
+|parts|[int](../types/int.md) | Yes|Secure file part count|
+|md5\_checksum|[string](../types/string.md) | Yes|MD5 hash of encrypted uploaded file, to be checked server-side|
 |file\_hash|[bytes](../types/bytes.md) | Yes|File hash|
 |secret|[bytes](../types/bytes.md) | Yes|Secret|
 

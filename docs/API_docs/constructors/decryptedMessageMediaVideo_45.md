@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageMediaVideo
-description: Decrypted message media video
+description: Video attached to an encrypted message.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaVideo\_45  
@@ -8,20 +8,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Decrypted message media video
+Video attached to an encrypted message.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|thumb|[bytes](../types/bytes.md) | Yes|Thumbnail|
+|thumb|[bytes](../types/bytes.md) | Yes|Content of thumbnail file (JPEG file, quality 55, set in a square 90x90)|
 |thumb\_w|[int](../types/int.md) | Yes|Thumbnail width|
 |thumb\_h|[int](../types/int.md) | Yes|Thumbnail height|
-|duration|[int](../types/int.md) | Yes|Duration|
-|mime\_type|[string](../types/string.md) | Yes|Mime type|
-|w|[int](../types/int.md) | Yes|Width|
-|h|[int](../types/int.md) | Yes|Height|
-|size|[int](../types/int.md) | Yes|Size|
+|duration|[int](../types/int.md) | Yes|Duration of video in seconds|
+|mime\_type|[string](../types/string.md) | Yes|MIME-type of the video file<br>Parameter added in [Layer 17](https://core.telegram.org/api/layers#layer-17).|
+|w|[int](../types/int.md) | Yes|Image width|
+|h|[int](../types/int.md) | Yes|Image height|
+|size|[int](../types/int.md) | Yes|File size|
 |caption|[string](../types/string.md) | Yes|Caption|
 
 

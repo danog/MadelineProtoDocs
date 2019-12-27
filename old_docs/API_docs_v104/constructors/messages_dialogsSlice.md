@@ -1,6 +1,6 @@
 ---
 title: messages.dialogsSlice
-description: Dialogs slice
+description: Incomplete list of dialogs with messages and auxiliary data.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.dialogsSlice  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Dialogs slice
+Incomplete list of dialogs with messages and auxiliary data.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|count|[int](../types/int.md) | Yes|Count|
+|count|[int](../types/int.md) | Yes|Total number of dialogs|
 |dialogs|Array of [Dialog](../types/Dialog.md) | Yes|Dialogs|
 |messages|Array of [Message](../types/Message.md) | Yes|Messages|
 |chats|Array of [Chat](../types/Chat.md) | Yes|Chats|

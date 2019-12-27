@@ -1,6 +1,6 @@
 ---
 title: updateInlineBotCallbackQuery
-description: Update inline bot callback query
+description: This notification is received by bots when a button is pressed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateInlineBotCallbackQuery  
@@ -8,18 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update inline bot callback query
+This notification is received by bots when a button is pressed
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |query\_id|[long](../types/long.md) | Yes|Query ID|
-|user\_id|[int](../types/int.md) | Yes|User ID|
-|msg\_id|[InputBotInlineMessageID](../types/InputBotInlineMessageID.md) | Yes|Msg ID|
-|chat\_instance|[long](../types/long.md) | Yes|Chat instance|
-|data|[bytes](../types/bytes.md) | Optional|Data|
-|game\_short\_name|[string](../types/string.md) | Optional|Game short name|
+|user\_id|[int](../types/int.md) | Yes|ID of the user that pressed the button|
+|msg\_id|[InputBotInlineMessageID](../types/InputBotInlineMessageID.md) | Yes|ID of the inline message with the button|
+|chat\_instance|[long](../types/long.md) | Yes|Global identifier, uniquely corresponding to the chat to which the message with the callback button was sent. Useful for high scores in games.|
+|data|[bytes](../types/bytes.md) | Optional|Data associated with the callback button. Be aware that a bad client can send arbitrary data in this field.|
+|game\_short\_name|[string](../types/string.md) | Optional|Short name of a Game to be returned, serves as the unique identifier for the game|
 
 
 

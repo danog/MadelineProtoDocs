@@ -1,6 +1,6 @@
 ---
 title: inputMessagesFilterPhoneCalls
-description: Messages filter phone calls
+description: Return only phone calls
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterPhoneCalls  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Messages filter phone calls
+Return only phone calls
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|missed|[Bool](../types/Bool.md) | Optional|Missed?|
+|missed|[Bool](../types/Bool.md) | Optional|Return only missed phone calls|
 
 
 

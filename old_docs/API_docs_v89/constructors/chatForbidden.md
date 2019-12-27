@@ -1,6 +1,6 @@
 ---
 title: chatForbidden
-description: Chat forbidden
+description: A group to which the user has no access. E.g., because the user was kicked from the group.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatForbidden  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Chat forbidden
+A group to which the user has no access. E.g., because the user was kicked from the group.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID|
-|title|[string](../types/string.md) | Yes|Title|
+|id|[int](../types/int.md) | Yes|User identifier|
+|title|[string](../types/string.md) | Yes|Group name|
 
 
 

@@ -14,11 +14,11 @@ Document
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID|
-|access\_hash|[long](../types/long.md) | Yes|Access hash|
-|file\_reference|[bytes](../types/bytes.md) | Yes|File reference|
-|date|[int](../types/int.md) | Yes|Date|
-|mime\_type|[string](../types/string.md) | Yes|Mime type|
+|id|[long](../types/long.md) | Yes|Document ID|
+|access\_hash|[long](../types/long.md) | Yes|Check sum, dependant on document ID|
+|file\_reference|[bytes](../types/bytes.md) | Yes|[File reference](https://core.telegram.org/api/file_reference)|
+|date|[int](../types/int.md) | Yes|Creation date|
+|mime\_type|[string](../types/string.md) | Yes|MIME type|
 |size|[int](../types/int.md) | Yes|Size|
 |thumb|[PhotoSize](../types/PhotoSize.md) | Optional|Thumbnail|
 |dc\_id|[int](../types/int.md) | Yes|DC ID|

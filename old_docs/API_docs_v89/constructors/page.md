@@ -1,6 +1,6 @@
 ---
 title: page
-description: Page
+description: [Instant view](https://instantview.telegram.org) page
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: page  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page
+[Instant view](https://instantview.telegram.org) page
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|part|[Bool](../types/Bool.md) | Optional|Part?|
-|rtl|[Bool](../types/Bool.md) | Optional|Rtl?|
-|url|[string](../types/string.md) | Yes|URL|
+|part|[Bool](../types/Bool.md) | Optional|Indicates that not full page preview is available to the client and it will need to fetch full Instant View from the server using [messages.getWebPagePreview](../methods/messages.getWebPagePreview.md).|
+|rtl|[Bool](../types/Bool.md) | Optional|Whether the page contains RTL text|
+|url|[string](../types/string.md) | Yes|Original page HTTP URL|
 |blocks|Array of [PageBlock](../types/PageBlock.md) | Yes|Blocks|
 |photos|Array of [Photo](../types/Photo.md) | Yes|Photos|
 |documents|Array of [Document](../types/Document.md) | Yes|Documents|

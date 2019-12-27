@@ -1,6 +1,6 @@
 ---
 title: help.support
-description: Support
+description: Info on support user.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.support  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Support
+Info on support user.
 
 ### Attributes:
 

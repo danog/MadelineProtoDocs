@@ -14,14 +14,14 @@ Theme
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|creator|[Bool](../types/Bool.md) | Optional|Creator?|
-|default|[Bool](../types/Bool.md) | Optional|Default?|
-|id|[long](../types/long.md) | Yes|ID|
-|access\_hash|[long](../types/long.md) | Yes|Access hash|
-|slug|[string](../types/string.md) | Yes|Slug|
-|title|[string](../types/string.md) | Yes|Title|
-|document|[Document](../types/Document.md) | Optional|Document|
-|installs\_count|[int](../types/int.md) | Yes|Installs count|
+|creator|[Bool](../types/Bool.md) | Optional|Whether the current user is the creator of this theme|
+|default|[Bool](../types/Bool.md) | Optional|Whether this is the default theme|
+|id|[long](../types/long.md) | Yes|Theme ID|
+|access\_hash|[long](../types/long.md) | Yes|Theme access hash|
+|slug|[string](../types/string.md) | Yes|Unique theme ID|
+|title|[string](../types/string.md) | Yes|Theme name|
+|document|[Document](../types/Document.md) | Optional|Theme|
+|installs\_count|[int](../types/int.md) | Yes|Installation count|
 
 
 

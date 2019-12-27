@@ -1,6 +1,6 @@
 ---
 title: pageRelatedArticle
-description: Page related article
+description: Related article
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageRelatedArticle  
@@ -8,19 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page related article
+Related article
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|url|[string](../types/string.md) | Yes|URL|
-|webpage\_id|[long](../types/long.md) | Yes|Webpage ID|
+|url|[string](../types/string.md) | Yes|URL of article|
+|webpage\_id|[long](../types/long.md) | Yes|Webpage ID of generated IV preview|
 |title|[string](../types/string.md) | Optional|Title|
 |description|[string](../types/string.md) | Optional|Description|
-|photo\_id|[long](../types/long.md) | Optional|Photo ID|
-|author|[string](../types/string.md) | Optional|Author|
-|published\_date|[int](../types/int.md) | Optional|Published date|
+|photo\_id|[long](../types/long.md) | Optional|ID of preview photo|
+|author|[string](../types/string.md) | Optional|Author name|
+|published\_date|[int](../types/int.md) | Optional|Date of pubblication|
 
 
 

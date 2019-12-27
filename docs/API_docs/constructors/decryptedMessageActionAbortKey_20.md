@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageActionAbortKey
-description: Decrypted message action abort key
+description: Abort rekeying
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionAbortKey\_20  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Decrypted message action abort key
+Abort rekeying
 
 ### Attributes:
 

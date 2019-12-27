@@ -1,6 +1,6 @@
 ---
 title: textEmail
-description: Text email
+description: Rich text email link
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textEmail  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Text email
+Rich text email link
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|text|[RichText](../types/RichText.md) | Yes|Text|
-|email|[string](../types/string.md) | Yes|Email|
+|text|[RichText](../types/RichText.md) | Yes|Link text|
+|email|[string](../types/string.md) | Yes|Email address|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: pageBlockCover
-description: Page block cover
+description: A page cover
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockCover  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page block cover
+A page cover
 
 ### Attributes:
 

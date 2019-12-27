@@ -1,6 +1,6 @@
 ---
 title: pageBlockOrderedList
-description: Page block ordered list
+description: Ordered list of IV blocks
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockOrderedList  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page block ordered list
+Ordered list of IV blocks
 
 ### Attributes:
 

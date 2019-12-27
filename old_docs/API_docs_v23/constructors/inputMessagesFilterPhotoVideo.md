@@ -1,6 +1,6 @@
 ---
 title: inputMessagesFilterPhotoVideo
-description: Messages filter photo video
+description: Filter for messages containing photos or videos.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterPhotoVideo  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Messages filter photo video
+Filter for messages containing photos or videos.
 
 
 

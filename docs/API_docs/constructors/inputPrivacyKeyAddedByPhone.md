@@ -1,6 +1,6 @@
 ---
 title: inputPrivacyKeyAddedByPhone
-description: Input privacy key added by phone
+description: Whether people can add you to their contact list by your phone number
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPrivacyKeyAddedByPhone  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Input privacy key added by phone
+Whether people can add you to their contact list by your phone number
 
 
 

@@ -14,10 +14,10 @@ Wallpaper settings
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|blur|[Bool](../types/Bool.md) | Optional|Blur?|
-|motion|[Bool](../types/Bool.md) | Optional|Motion?|
-|background\_color|[int](../types/int.md) | Optional|Background color|
-|intensity|[int](../types/int.md) | Optional|Intensity|
+|blur|[Bool](../types/Bool.md) | Optional|If set, the wallpaper must be downscaled to fit in 450x450 square and then box-blurred with radius 12|
+|motion|[Bool](../types/Bool.md) | Optional|If set, the background needs to be slightly moved when device is rotated|
+|background\_color|[int](../types/int.md) | Optional|If set, a PNG pattern is to be combined with the `color` chosen by the user: the main color of the background in RGB24 format|
+|intensity|[int](../types/int.md) | Optional|Intensity of the pattern when it is shown above the main background color, 0-100|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: inputMediaDocument
-description: Media document
+description: Forwarded document
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaDocument  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Media document
+Forwarded document
 
 ### Attributes:
 

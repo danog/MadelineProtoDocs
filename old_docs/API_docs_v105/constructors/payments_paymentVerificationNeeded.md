@@ -1,6 +1,6 @@
 ---
 title: payments.paymentVerificationNeeded
-description: Payment verification needed
+description: Payment was not successful, additional verification is needed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: payments.paymentVerificationNeeded  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Payment verification needed
+Payment was not successful, additional verification is needed
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|url|[string](../types/string.md) | Yes|3dsecure URL|
+|url|[string](../types/string.md) | Yes|URL for additional payment credentials verification|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: updateDialogPinned
-description: Update dialog pinned
+description: A dialog was pinned/unpinned
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateDialogPinned  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update dialog pinned
+A dialog was pinned/unpinned
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|pinned|[Bool](../types/Bool.md) | Optional|Pinned?|
+|pinned|[Bool](../types/Bool.md) | Optional|Whether the dialog was pinned|
 |peer|[Peer](../types/Peer.md) | Yes|Peer|
 
 

@@ -1,6 +1,6 @@
 ---
 title: webPageNotModified
-description: Web page not modified
+description: The preview of the webpage hasn't changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: webPageNotModified  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Web page not modified
+The preview of the webpage hasn't changed
 
 
 

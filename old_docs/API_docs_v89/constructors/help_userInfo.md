@@ -1,6 +1,6 @@
 ---
 title: help.userInfo
-description: User info
+description: Internal use
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: help.userInfo  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-User info
+Internal use
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|message|[string](../types/string.md) | Yes|Message|
+|message|[string](../types/string.md) | Yes|Info|
 |entities|Array of [MessageEntity](../types/MessageEntity.md) | Yes|Entities|
 |author|[string](../types/string.md) | Yes|Author|
 |date|[int](../types/int.md) | Yes|Date|

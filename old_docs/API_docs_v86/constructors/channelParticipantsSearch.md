@@ -1,6 +1,6 @@
 ---
 title: channelParticipantsSearch
-description: Channel participants search
+description: Query participants by name
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantsSearch  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Channel participants search
+Query participants by name
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|q|[string](../types/string.md) | Yes|Query|
+|q|[string](../types/string.md) | Yes|Search query|
 
 
 

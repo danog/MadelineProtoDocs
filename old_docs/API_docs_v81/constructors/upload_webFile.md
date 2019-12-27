@@ -1,6 +1,6 @@
 ---
 title: upload.webFile
-description: Web file
+description: Represents a chunk of an [HTTP webfile](https://core.telegram.org/api/files) downloaded through telegram's secure MTProto servers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: upload.webFile  
@@ -8,17 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Web file
+Represents a chunk of an [HTTP webfile](https://core.telegram.org/api/files) downloaded through telegram's secure MTProto servers
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|size|[int](../types/int.md) | Yes|Size|
+|size|[int](../types/int.md) | Yes|File size|
 |mime\_type|[string](../types/string.md) | Yes|Mime type|
 |file\_type|[storage\_FileType](../types/storage_FileType.md) | Yes|File type|
-|mtime|[int](../types/int.md) | Yes|Mtime|
-|bytes|[bytes](../types/bytes.md) | Yes|Bytes|
+|mtime|[int](../types/int.md) | Yes|Modified time|
+|bytes|[bytes](../types/bytes.md) | Yes|Data|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: channels.channelParticipants
-description: Channel participants
+description: Represents multiple channel participants
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channels.channelParticipants  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Channel participants
+Represents multiple channel participants
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|count|[int](../types/int.md) | Yes|Count|
+|count|[int](../types/int.md) | Yes|Total number of participants that correspond to the given query|
 |participants|Array of [ChannelParticipant](../types/ChannelParticipant.md) | Yes|Participants|
 |users|Array of [User](../types/User.md) | Yes|Users|
 

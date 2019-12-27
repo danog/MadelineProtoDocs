@@ -1,6 +1,6 @@
 ---
 title: encryptedFileEmpty
-description: Empty encrypted file
+description: Empty constructor, unexisitng file.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: encryptedFileEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty encrypted file
+Empty constructor, unexisitng file.
 
 
 

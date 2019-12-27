@@ -14,7 +14,7 @@ Peer settings
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|report\_spam|[Bool](../types/Bool.md) | Optional|Report spam?|
+|report\_spam|[Bool](../types/Bool.md) | Optional|Whether we can still report the user for spam|
 
 
 

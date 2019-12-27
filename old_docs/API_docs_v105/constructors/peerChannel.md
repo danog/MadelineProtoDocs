@@ -1,6 +1,6 @@
 ---
 title: peerChannel
-description: Peer channel
+description: Channel/supergroup
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: peerChannel  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Peer channel
+Channel/supergroup
 
 ### Attributes:
 

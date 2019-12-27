@@ -1,6 +1,6 @@
 ---
 title: messages.botCallbackAnswer
-description: Bot callback answer
+description: Callback answer sent by the bot in response to a button press
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.botCallbackAnswer  
@@ -8,18 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Bot callback answer
+Callback answer sent by the bot in response to a button press
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|alert|[Bool](../types/Bool.md) | Optional|Alert?|
-|has\_url|[Bool](../types/Bool.md) | Optional|Has URL?|
-|native\_ui|[Bool](../types/Bool.md) | Optional|Native ui?|
-|message|[string](../types/string.md) | Optional|Message|
-|url|[string](../types/string.md) | Optional|URL|
-|cache\_time|[int](../types/int.md) | Yes|Cache time|
+|alert|[Bool](../types/Bool.md) | Optional|Whether an alert should be shown to the user instead of a toast notification|
+|has\_url|[Bool](../types/Bool.md) | Optional|Whether an URL is present|
+|native\_ui|[Bool](../types/Bool.md) | Optional|Whether to show games in WebView or in native UI.|
+|message|[string](../types/string.md) | Optional|Alert to show|
+|url|[string](../types/string.md) | Optional|URL to open|
+|cache\_time|[int](../types/int.md) | Yes|For how long should this answer be cached|
 
 
 

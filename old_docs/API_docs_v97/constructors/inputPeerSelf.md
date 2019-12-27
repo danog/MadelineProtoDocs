@@ -1,6 +1,6 @@
 ---
 title: inputPeerSelf
-description: Peer self
+description: Defines the current user.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPeerSelf  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Peer self
+Defines the current user.
 
 
 

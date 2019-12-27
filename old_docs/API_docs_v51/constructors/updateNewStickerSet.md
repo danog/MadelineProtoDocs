@@ -1,6 +1,6 @@
 ---
 title: updateNewStickerSet
-description: Update new sticker set
+description: A new stickerset was installed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateNewStickerSet  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update new sticker set
+A new stickerset was installed
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|stickerset|[messages\_StickerSet](../types/messages_StickerSet.md) | Yes|Stickerset|
+|stickerset|[messages\_StickerSet](../types/messages_StickerSet.md) | Yes|The installed stickerset|
 
 
 

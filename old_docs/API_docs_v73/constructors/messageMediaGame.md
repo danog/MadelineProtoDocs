@@ -1,6 +1,6 @@
 ---
 title: messageMediaGame
-description: Message media game
+description: Telegram game
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaGame  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message media game
+Telegram game
 
 ### Attributes:
 

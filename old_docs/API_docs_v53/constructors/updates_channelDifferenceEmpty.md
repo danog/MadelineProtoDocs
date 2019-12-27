@@ -1,6 +1,6 @@
 ---
 title: updates.channelDifferenceEmpty
-description: Empty channel difference
+description: There are no new updates
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updates.channelDifferenceEmpty  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty channel difference
+There are no new updates
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|final|[Bool](../types/Bool.md) | Optional|Final?|
-|pts|[int](../types/int.md) | Yes|Pts|
-|timeout|[int](../types/int.md) | Optional|Timeout|
+|final|[Bool](../types/Bool.md) | Optional|Whether there are more updates that must be fetched (always false)|
+|pts|[int](../types/int.md) | Yes|The latest [PTS](https://core.telegram.org/api/updates)|
+|timeout|[int](../types/int.md) | Optional|Clients are supposed to refetch the channel difference after timeout seconds have elapsed|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionDeleteMessage
-description: Delete message
+description: A message was deleted
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionDeleteMessage  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Delete message
+A message was deleted
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|message|[Message](../types/Message.md) | Optional|Message|
+|message|[Message](../types/Message.md) | Optional|The message that was deleted|
 
 
 

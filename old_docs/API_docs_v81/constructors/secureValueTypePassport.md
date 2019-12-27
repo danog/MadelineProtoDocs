@@ -1,6 +1,6 @@
 ---
 title: secureValueTypePassport
-description: Secure value type passport
+description: Passport
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueTypePassport  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Secure value type passport
+Passport
 
 
 

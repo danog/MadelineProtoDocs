@@ -1,6 +1,6 @@
 ---
 title: game
-description: Game
+description: Indicates an already sent game
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: game  
@@ -8,19 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Game
+Indicates an already sent game
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID|
-|access\_hash|[long](../types/long.md) | Yes|Access hash|
-|short\_name|[string](../types/string.md) | Yes|Short name|
-|title|[string](../types/string.md) | Yes|Title|
-|description|[string](../types/string.md) | Yes|Description|
-|photo|[Photo](../types/Photo.md) | Optional|Photo|
-|document|[Document](../types/Document.md) | Optional|Document|
+|id|[long](../types/long.md) | Yes|ID of the game|
+|access\_hash|[long](../types/long.md) | Yes|Access hash of the game|
+|short\_name|[string](../types/string.md) | Yes|Short name for the game|
+|title|[string](../types/string.md) | Yes|Title of the game|
+|description|[string](../types/string.md) | Yes|Game description|
+|photo|[Photo](../types/Photo.md) | Optional|Game preview|
+|document|[Document](../types/Document.md) | Optional|Optional attached document|
 
 
 

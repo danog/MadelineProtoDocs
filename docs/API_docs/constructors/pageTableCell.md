@@ -1,6 +1,6 @@
 ---
 title: pageTableCell
-description: Page table cell
+description: Table cell
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageTableCell  
@@ -8,20 +8,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Page table cell
+Table cell
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|header|[Bool](../types/Bool.md) | Optional|Header?|
-|align\_center|[Bool](../types/Bool.md) | Optional|Align center?|
-|align\_right|[Bool](../types/Bool.md) | Optional|Align right?|
-|valign\_middle|[Bool](../types/Bool.md) | Optional|Valign middle?|
-|valign\_bottom|[Bool](../types/Bool.md) | Optional|Valign bottom?|
-|text|[RichText](../types/RichText.md) | Optional|Text|
-|colspan|[int](../types/int.md) | Optional|Colspan|
-|rowspan|[int](../types/int.md) | Optional|Rowspan|
+|header|[Bool](../types/Bool.md) | Optional|Is this element part of the column header|
+|align\_center|[Bool](../types/Bool.md) | Optional|Horizontally centered block|
+|align\_right|[Bool](../types/Bool.md) | Optional|Right-aligned block|
+|valign\_middle|[Bool](../types/Bool.md) | Optional|Vertically centered block|
+|valign\_bottom|[Bool](../types/Bool.md) | Optional|Block vertically-alligned to the bottom|
+|text|[RichText](../types/RichText.md) | Optional|Content|
+|colspan|[int](../types/int.md) | Optional|For how many columns should this cell extend|
+|rowspan|[int](../types/int.md) | Optional|For how many rows should this cell extend|
 
 
 

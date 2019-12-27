@@ -1,6 +1,6 @@
 ---
 title: messageActionContactSignUp
-description: Message action contact sign up
+description: A contact just signed up to telegram
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionContactSignUp  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message action contact sign up
+A contact just signed up to telegram
 
 
 

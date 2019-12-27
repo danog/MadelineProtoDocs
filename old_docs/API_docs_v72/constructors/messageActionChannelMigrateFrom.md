@@ -1,6 +1,6 @@
 ---
 title: messageActionChannelMigrateFrom
-description: Message action channel migrate from
+description: Indicates the channel was [migrated](https://core.telegram.org/api/channel) from the specified chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChannelMigrateFrom  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message action channel migrate from
+Indicates the channel was [migrated](https://core.telegram.org/api/channel) from the specified chat
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|title|[string](../types/string.md) | Yes|Title|
-|chat\_id|[int](../types/int.md) | Yes|Chat ID|
+|title|[string](../types/string.md) | Yes|The old chat tite|
+|chat\_id|[int](../types/int.md) | Yes|The old chat ID|
 
 
 

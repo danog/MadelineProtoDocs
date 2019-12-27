@@ -1,6 +1,6 @@
 ---
 title: messages.affectedHistory
-description: Affected history
+description: Affected part of communication history with the user or in a chat.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.affectedHistory  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Affected history
+Affected part of communication history with the user or in a chat.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|pts|[int](../types/int.md) | Yes|Pts|
-|pts\_count|[int](../types/int.md) | Yes|Pts count|
-|offset|[int](../types/int.md) | Yes|Offset|
+|pts|[int](../types/int.md) | Yes|Number of events occured in a text box|
+|pts\_count|[int](../types/int.md) | Yes|Number of affected events|
+|offset|[int](../types/int.md) | Yes|If a parameter contains positive value, it is necessary to repeat the method call using the given value; during the proceeding of all the history the value itself shall gradually decrease|
 
 
 

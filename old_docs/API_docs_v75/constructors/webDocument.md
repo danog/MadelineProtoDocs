@@ -1,6 +1,6 @@
 ---
 title: webDocument
-description: Web document
+description: Remote document
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: webDocument  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Web document
+Remote document
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|url|[string](../types/string.md) | Yes|URL|
+|url|[string](../types/string.md) | Yes|Document URL|
 |access\_hash|[long](../types/long.md) | Yes|Access hash|
-|size|[int](../types/int.md) | Yes|Size|
-|mime\_type|[string](../types/string.md) | Yes|Mime type|
+|size|[int](../types/int.md) | Yes|File size|
+|mime\_type|[string](../types/string.md) | Yes|MIME type|
 |attributes|Array of [DocumentAttribute](../types/DocumentAttribute.md) | Yes|Attributes|
 |dc\_id|[int](../types/int.md) | Yes|DC ID|
 

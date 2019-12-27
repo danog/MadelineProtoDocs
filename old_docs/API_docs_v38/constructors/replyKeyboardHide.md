@@ -1,6 +1,6 @@
 ---
 title: replyKeyboardHide
-description: Reply keyboard hide
+description: Hide sent bot keyboard
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: replyKeyboardHide  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Reply keyboard hide
+Hide sent bot keyboard
 
 ### Attributes:
 

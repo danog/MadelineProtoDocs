@@ -1,6 +1,6 @@
 ---
 title: updateShortMessage
-description: Update short message
+description: Info about a message sent to (received from) another user
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateShortMessage  
@@ -8,17 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update short message
+Info about a message sent to (received from) another user
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID|
+|id|[int](../types/int.md) | Yes|The message ID|
 |from\_id|[int](../types/int.md) | Yes|From ID|
-|message|[string](../types/string.md) | Yes|Message|
-|pts|[int](../types/int.md) | Yes|Pts|
-|date|[int](../types/int.md) | Yes|Date|
+|message|[string](../types/string.md) | Yes|The message|
+|pts|[int](../types/int.md) | Yes|[PTS](https://core.telegram.org/api/updates)|
+|date|[int](../types/int.md) | Yes|[date](https://core.telegram.org/api/updates)|
 |seq|[int](../types/int.md) | Yes|Seq|
 
 

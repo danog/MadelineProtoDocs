@@ -1,6 +1,6 @@
 ---
 title: encryptedChatDiscarded
-description: Encrypted chat discarded
+description: Discarded or deleted chat.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: encryptedChatDiscarded  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Encrypted chat discarded
+Discarded or deleted chat.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID|
+|id|[int](../types/int.md) | Yes|Chat ID|
 
 
 

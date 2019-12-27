@@ -1,6 +1,6 @@
 ---
 title: inputSecureFileLocation
-description: Secure file location
+description: Location of encrypted telegram [passport](https://core.telegram.org/passport) file.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputSecureFileLocation  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Secure file location
+Location of encrypted telegram [passport](https://core.telegram.org/passport) file.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID|
-|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|id|[long](../types/long.md) | Yes|File ID, **id** parameter value from [secureFile](../constructors/secureFile.md)|
+|access\_hash|[long](../types/long.md) | Yes|Checksum, **access\_hash** parameter value from [secureFile](../constructors/secureFile.md)|
 
 
 

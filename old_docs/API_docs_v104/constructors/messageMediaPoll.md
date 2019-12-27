@@ -1,6 +1,6 @@
 ---
 title: messageMediaPoll
-description: Message media poll
+description: Poll
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaPoll  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message media poll
+Poll
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|poll|[Poll](../types/Poll.md) | Yes|Poll|
-|results|[PollResults](../types/PollResults.md) | Yes|Results|
+|poll|[Poll](../types/Poll.md) | Yes|The poll|
+|results|[PollResults](../types/PollResults.md) | Yes|The results of the poll|
 
 
 

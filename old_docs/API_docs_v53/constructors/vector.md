@@ -1,6 +1,6 @@
 ---
 title: vector
-description: Array
+description: A universal vector constructor.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: vector  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Array
+A universal vector constructor.
 
 
 

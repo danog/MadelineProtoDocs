@@ -1,6 +1,6 @@
 ---
 title: inputStickerSetThumb
-description: Stickerset thumbnail
+description: Location of stickerset thumbnail (see [files](https://core.telegram.org/api/files))
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputStickerSetThumb  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Stickerset thumbnail
+Location of stickerset thumbnail (see [files](https://core.telegram.org/api/files))
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|stickerset|[InputStickerSet](../types/InputStickerSet.md) | Optional|Stickerset|
+|stickerset|[InputStickerSet](../types/InputStickerSet.md) | Optional|Sticker set|
 |volume\_id|[long](../types/long.md) | Yes|Volume ID|
 |local\_id|[int](../types/int.md) | Yes|Local ID|
 

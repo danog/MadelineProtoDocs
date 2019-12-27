@@ -1,6 +1,6 @@
 ---
 title: privacyValueAllowContacts
-description: Privacy value allow contacts
+description: Allow all contacts
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: privacyValueAllowContacts  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Privacy value allow contacts
+Allow all contacts
 
 
 

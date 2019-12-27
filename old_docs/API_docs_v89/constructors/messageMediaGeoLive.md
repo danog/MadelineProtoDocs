@@ -1,6 +1,6 @@
 ---
 title: messageMediaGeoLive
-description: Message media geo live
+description: Indicates a live geolocation
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaGeoLive  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message media geo live
+Indicates a live geolocation
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|geo|[GeoPoint](../types/GeoPoint.md) | Optional|Geo|
-|period|[int](../types/int.md) | Yes|Period|
+|geo|[GeoPoint](../types/GeoPoint.md) | Optional|Geolocation|
+|period|[int](../types/int.md) | Yes|Validity period of provided geolocation|
 
 
 

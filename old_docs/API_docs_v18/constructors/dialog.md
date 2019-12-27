@@ -1,6 +1,6 @@
 ---
 title: dialog
-description: Dialog
+description: Chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: dialog  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Dialog
+Chat
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](../types/Peer.md) | Yes|Peer|
-|top\_message|[int](../types/int.md) | Yes|Top message|
-|unread\_count|[int](../types/int.md) | Yes|Unread count|
-|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|Notify settings|
+|peer|[Peer](../types/Peer.md) | Yes|The chat|
+|top\_message|[int](../types/int.md) | Yes|The latest message ID|
+|unread\_count|[int](../types/int.md) | Yes|Number of unread messages|
+|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|Notification settings|
 
 
 

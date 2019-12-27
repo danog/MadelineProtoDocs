@@ -1,6 +1,6 @@
 ---
 title: account.password
-description: Password
+description: Configuration for two-factor authorization
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: account.password  
@@ -8,20 +8,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Password
+Configuration for two-factor authorization
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|has\_recovery|[Bool](../types/Bool.md) | Optional|Has recovery?|
-|has\_secure\_values|[Bool](../types/Bool.md) | Optional|Has secure values?|
+|has\_recovery|[Bool](../types/Bool.md) | Optional|Whether the user has a recovery method configured|
+|has\_secure\_values|[Bool](../types/Bool.md) | Optional|Whether telegram [passport](https://core.telegram.org/passport) is enabled|
 |current\_salt|[bytes](../types/bytes.md) | Yes|Current salt|
 |new\_salt|[bytes](../types/bytes.md) | Yes|New salt|
 |new\_secure\_salt|[bytes](../types/bytes.md) | Yes|New secure salt|
-|secure\_random|[bytes](../types/bytes.md) | Yes|Secure random|
-|hint|[string](../types/string.md) | Yes|Hint|
-|email\_unconfirmed\_pattern|[string](../types/string.md) | Yes|Email unconfirmed pattern|
+|secure\_random|[bytes](../types/bytes.md) | Yes|Secure random string|
+|hint|[string](../types/string.md) | Yes|Text hint for the password|
+|email\_unconfirmed\_pattern|[string](../types/string.md) | Yes|A [password recovery email](https://core.telegram.org/api/srp#email-verification) with the specified [pattern](https://core.telegram.org/api/pattern) is still awaiting verification|
 
 
 

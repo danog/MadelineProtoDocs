@@ -1,6 +1,6 @@
 ---
 title: updateMessagePoll
-description: Update message poll
+description: The results of a poll have changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateMessagePoll  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update message poll
+The results of a poll have changed
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |poll\_id|[long](../types/long.md) | Yes|Poll ID|
-|poll|[Poll](../types/Poll.md) | Optional|Poll|
-|results|[PollResults](../types/PollResults.md) | Yes|Results|
+|poll|[Poll](../types/Poll.md) | Optional|If the server knows the client hasn't cached this poll yet, the poll itself|
+|results|[PollResults](../types/PollResults.md) | Yes|New poll results|
 
 
 

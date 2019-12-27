@@ -1,6 +1,6 @@
 ---
 title: updateUserBlocked
-description: Update user blocked
+description: User was added to the blacklist (method [contacts.block](../methods/contacts.block.md)) or removed from the blacklist (method [contacts.unblock](../methods/contacts.unblock.md)).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateUserBlocked  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update user blocked
+User was added to the blacklist (method [contacts.block](../methods/contacts.block.md)) or removed from the blacklist (method [contacts.unblock](../methods/contacts.unblock.md)).
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User ID|
-|blocked|[Bool](../types/Bool.md) | Yes|Blocked?|
+|user\_id|[int](../types/int.md) | Yes|User id|
+|blocked|[Bool](../types/Bool.md) | Yes|([boolTrue](../constructors/boolTrue.md)) if the the user is blocked|
 
 
 

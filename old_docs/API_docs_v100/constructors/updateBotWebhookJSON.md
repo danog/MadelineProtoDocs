@@ -1,6 +1,6 @@
 ---
 title: updateBotWebhookJSON
-description: Update bot webhook json
+description: A new incoming event; for bots only
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotWebhookJSON  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update bot webhook json
+A new incoming event; for bots only
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|data|[DataJSON](../types/DataJSON.md) | Yes|Data|
+|data|[DataJSON](../types/DataJSON.md) | Yes|The event|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: updateChannelMessageViews
-description: Update channel message views
+description: The view counter of a message in a channel has changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelMessageViews  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update channel message views
+The view counter of a message in a channel has changed
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |channel\_id|[int](../types/int.md) | Yes|Channel ID|
-|id|[int](../types/int.md) | Yes|ID|
-|views|[int](../types/int.md) | Yes|Views|
+|id|[int](../types/int.md) | Yes|ID of the message|
+|views|[int](../types/int.md) | Yes|New view counter|
 
 
 

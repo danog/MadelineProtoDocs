@@ -1,6 +1,6 @@
 ---
 title: userFull
-description: User full
+description: Extended user info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userFull  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-User full
+Extended user info
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user|[User](../types/User.md) | Optional|User|
+|user|[User](../types/User.md) | Optional|Remaining user info|
 |link|[contacts\_Link](../types/contacts_Link.md) | Yes|Link|
 |profile\_photo|[Photo](../types/Photo.md) | Optional|Profile photo|
-|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|Notify settings|
+|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|Notification settings|
 |blocked|[Bool](../types/Bool.md) | Yes|Blocked?|
 |real\_first\_name|[string](../types/string.md) | Yes|Real first name|
 |real\_last\_name|[string](../types/string.md) | Yes|Real last name|

@@ -1,6 +1,6 @@
 ---
 title: inputMediaUploadedPhoto
-description: Media uploaded photo
+description: Photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaUploadedPhoto  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Media uploaded photo
+Photo
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|file|[File path or InputFile](../types/InputFile.md) | Yes|File|
+|file|[File path or InputFile](../types/InputFile.md) | Yes|The [uploaded file](https://core.telegram.org/api/files)|
 |stickers|Array of [MessageMedia, Message, Update or InputDocument](../types/InputDocument.md) | Optional|Stickers|
-|ttl\_seconds|[int](../types/int.md) | Optional|Ttl seconds|
+|ttl\_seconds|[int](../types/int.md) | Optional|Time to live in seconds of self-destructing photo|
 
 
 

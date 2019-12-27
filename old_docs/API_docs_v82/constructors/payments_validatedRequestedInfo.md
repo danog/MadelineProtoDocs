@@ -1,6 +1,6 @@
 ---
 title: payments.validatedRequestedInfo
-description: Validated requested info
+description: Validated user-provided info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: payments.validatedRequestedInfo  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Validated requested info
+Validated user-provided info
 
 ### Attributes:
 

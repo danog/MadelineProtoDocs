@@ -8,8 +8,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Contains description of custom keyboard and actions with it for fast reply to bots
-
 ### Possible values (constructors):
 
 [replyKeyboardHide](../constructors/replyKeyboardHide.md)  

@@ -1,6 +1,6 @@
 ---
 title: recentMeUrlStickerSet
-description: Recent me URL sticker set
+description: Recent t.me stickerset installation URL
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: recentMeUrlStickerSet  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Recent me URL sticker set
+Recent t.me stickerset installation URL
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|url|[string](../types/string.md) | Yes|URL|
-|set|[StickerSetCovered](../types/StickerSetCovered.md) | Yes|Set|
+|url|[string](../types/string.md) | Yes|t.me URL|
+|set|[StickerSetCovered](../types/StickerSetCovered.md) | Yes|Stickerset|
 
 
 

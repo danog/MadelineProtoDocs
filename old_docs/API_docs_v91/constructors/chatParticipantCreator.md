@@ -1,6 +1,6 @@
 ---
 title: chatParticipantCreator
-description: Chat participant creator
+description: Represents the creator of the group
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatParticipantCreator  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Chat participant creator
+Represents the creator of the group
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User ID|
+|user\_id|[int](../types/int.md) | Yes|ID of the user that created the group|
 
 
 

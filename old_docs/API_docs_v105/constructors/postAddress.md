@@ -1,6 +1,6 @@
 ---
 title: postAddress
-description: Post address
+description: Shipping address
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: postAddress  
@@ -8,18 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Post address
+Shipping address
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|street\_line1|[string](../types/string.md) | Yes|Street line1|
-|street\_line2|[string](../types/string.md) | Yes|Street line2|
+|street\_line1|[string](../types/string.md) | Yes|First line for the address|
+|street\_line2|[string](../types/string.md) | Yes|Second line for the address|
 |city|[string](../types/string.md) | Yes|City|
-|state|[string](../types/string.md) | Yes|State|
-|country\_iso2|[string](../types/string.md) | Yes|Country iso2|
-|post\_code|[string](../types/string.md) | Yes|Post code|
+|state|[string](../types/string.md) | Yes|State, if applicable (empty otherwise)|
+|country\_iso2|[string](../types/string.md) | Yes|ISO 3166-1 alpha-2 country code|
+|post\_code|[string](../types/string.md) | Yes|Address post code|
 
 
 

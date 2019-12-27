@@ -1,6 +1,6 @@
 ---
 title: contacts.topPeersNotModified
-description: Top peers not modified
+description: Top peer info hasn't changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: contacts.topPeersNotModified  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Top peers not modified
+Top peer info hasn't changed
 
 
 

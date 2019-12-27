@@ -1,6 +1,6 @@
 ---
 title: updates.channelDifferenceEmpty
-description: Empty channel difference
+description: There are no new updates
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updates.channelDifferenceEmpty  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty channel difference
+There are no new updates
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|final|[Bool](../types/Bool.md) | Optional|Final?|
+|final|[Bool](../types/Bool.md) | Optional|Whether there are more updates that must be fetched (always false)|
 |channel\_pts|[int](../types/int.md) | Yes|Channel pts|
-|timeout|[int](../types/int.md) | Optional|Timeout|
+|timeout|[int](../types/int.md) | Optional|Clients are supposed to refetch the channel difference after timeout seconds have elapsed|
 
 
 

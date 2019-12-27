@@ -1,6 +1,6 @@
 ---
 title: updateWebPage
-description: Update web page
+description: An [instant view](https://instantview.telegram.org) webpage preview was generated
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateWebPage  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update web page
+An [instant view](https://instantview.telegram.org) webpage preview was generated
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|webpage|[WebPage](../types/WebPage.md) | Optional|Webpage|
+|webpage|[WebPage](../types/WebPage.md) | Optional|Webpage preview|
 
 
 

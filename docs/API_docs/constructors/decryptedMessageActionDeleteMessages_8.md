@@ -1,6 +1,6 @@
 ---
 title: decryptedMessageActionDeleteMessages
-description: Decrypted message action delete messages
+description: Deleted messages.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionDeleteMessages\_8  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Decrypted message action delete messages
+Deleted messages.
 
 ### Attributes:
 

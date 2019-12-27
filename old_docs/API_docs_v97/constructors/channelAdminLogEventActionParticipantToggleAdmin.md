@@ -1,6 +1,6 @@
 ---
 title: channelAdminLogEventActionParticipantToggleAdmin
-description: Admin toggled
+description: The admin [rights](https://core.telegram.org/api/rights) of a user were changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionParticipantToggleAdmin  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Admin toggled
+The admin [rights](https://core.telegram.org/api/rights) of a user were changed
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|prev\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Yes|Prev participant|
-|new\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Yes|New participant|
+|prev\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Yes|Previous admin rights|
+|new\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Yes|New admin rights|
 
 
 

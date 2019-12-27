@@ -1,6 +1,6 @@
 ---
 title: channel
-description: Channel
+description: Channel/supergroup info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channel  
@@ -8,19 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Channel
+Channel/supergroup info
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID|
+|id|[int](../types/int.md) | Yes|ID of the channel|
 |access\_hash|[long](../types/long.md) | Yes|Access hash|
 |title|[string](../types/string.md) | Yes|Title|
 |username|[string](../types/string.md) | Optional|Username|
-|photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|Photo|
-|date|[int](../types/int.md) | Yes|Date|
-|version|[int](../types/int.md) | Yes|Version|
+|photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|Profile photo|
+|date|[int](../types/int.md) | Yes|Creation date|
+|version|[int](../types/int.md) | Yes|Version of the channel (always `0`)|
 
 
 

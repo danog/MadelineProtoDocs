@@ -1,6 +1,6 @@
 ---
 title: documentAttributeSticker
-description: Document attribute sticker
+description: Defines a sticker
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: documentAttributeSticker  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Document attribute sticker
+Defines a sticker
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|mask|[Bool](../types/Bool.md) | Optional|Mask?|
-|alt|[string](../types/string.md) | Yes|Alt|
-|stickerset|[InputStickerSet](../types/InputStickerSet.md) | Optional|Stickerset|
-|mask\_coords|[MaskCoords](../types/MaskCoords.md) | Optional|Mask coords|
+|mask|[Bool](../types/Bool.md) | Optional|Whether this is a mask sticker|
+|alt|[string](../types/string.md) | Yes|Alternative emoji representation of sticker|
+|stickerset|[InputStickerSet](../types/InputStickerSet.md) | Optional|Associated stickerset|
+|mask\_coords|[MaskCoords](../types/MaskCoords.md) | Optional|Mask coordinates (if this is a mask sticker, attached to a photo)|
 
 
 

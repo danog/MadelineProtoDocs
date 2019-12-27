@@ -1,6 +1,6 @@
 ---
 title: keyboardButtonSwitchInline
-description: Keyboard button switch inline
+description: Button to force a user to switch to inline mode Pressing the button will prompt the user to select one of their chats, open that chat and insert the bot‘s username and the specified inline query in the input field.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: keyboardButtonSwitchInline  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Keyboard button switch inline
+Button to force a user to switch to inline mode Pressing the button will prompt the user to select one of their chats, open that chat and insert the bot‘s username and the specified inline query in the input field.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|same\_peer|[Bool](../types/Bool.md) | Optional|Same peer?|
-|text|[string](../types/string.md) | Yes|Text|
-|query|[string](../types/string.md) | Yes|Query|
+|same\_peer|[Bool](../types/Bool.md) | Optional|If set, pressing the button will insert the bot‘s username and the specified inline `query` in the current chat's input field.|
+|text|[string](../types/string.md) | Yes|Button label|
+|query|[string](../types/string.md) | Yes|The inline query to use|
 
 
 

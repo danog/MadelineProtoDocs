@@ -17,7 +17,7 @@ Bot inline media result document
 |id|[string](../types/string.md) | Yes|ID|
 |type|[string](../types/string.md) | Yes|Type|
 |document|[Document](../types/Document.md) | Optional|Document|
-|send\_message|[BotInlineMessage](../types/BotInlineMessage.md) | Yes|Send message|
+|send\_message|[BotInlineMessage](../types/BotInlineMessage.md) | Yes||
 
 
 

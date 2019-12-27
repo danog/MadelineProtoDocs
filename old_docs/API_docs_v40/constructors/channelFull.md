@@ -1,6 +1,6 @@
 ---
 title: channelFull
-description: Full channel
+description: Full info about a [channel/supergroup](https://core.telegram.org/api/channel)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelFull  
@@ -8,19 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Full channel
+Full info about a [channel/supergroup](https://core.telegram.org/api/channel)
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID|
-|read\_inbox\_max\_id|[int](../types/int.md) | Yes|Read inbox max ID|
-|unread\_count|[int](../types/int.md) | Yes|Unread count|
+|id|[int](../types/int.md) | Yes|ID of the channel|
+|read\_inbox\_max\_id|[int](../types/int.md) | Yes|Position up to which all incoming messages are read.|
+|unread\_count|[int](../types/int.md) | Yes|Count of unread messages|
 |unread\_important\_count|[int](../types/int.md) | Yes|Unread important count|
-|chat\_photo|[Photo](../types/Photo.md) | Optional|Chat photo|
-|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|Notify settings|
-|exported\_invite|[ExportedChatInvite](../types/ExportedChatInvite.md) | Yes|Exported invite|
+|chat\_photo|[Photo](../types/Photo.md) | Optional|Channel picture|
+|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|Notification settings|
+|exported\_invite|[ExportedChatInvite](../types/ExportedChatInvite.md) | Yes|Invite link|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: messageActionChatCreate
-description: Message action chat create
+description: Group created
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChatCreate  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message action chat create
+Group created
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|title|[string](../types/string.md) | Yes|Title|
+|title|[string](../types/string.md) | Yes|Group name|
 |users|Array of [int](../types/int.md) | Yes|Users|
 
 

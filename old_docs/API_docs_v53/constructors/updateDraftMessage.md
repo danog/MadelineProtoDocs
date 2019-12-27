@@ -1,6 +1,6 @@
 ---
 title: updateDraftMessage
-description: Update draft message
+description: Notifies a change of a message [draft](https://core.telegram.org/api/drafts).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateDraftMessage  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update draft message
+Notifies a change of a message [draft](https://core.telegram.org/api/drafts).
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](../types/Peer.md) | Yes|Peer|
-|draft|[DraftMessage](../types/DraftMessage.md) | Optional|Draft|
+|peer|[Peer](../types/Peer.md) | Yes|The peer to which the draft is associated|
+|draft|[DraftMessage](../types/DraftMessage.md) | Optional|The draft|
 
 
 

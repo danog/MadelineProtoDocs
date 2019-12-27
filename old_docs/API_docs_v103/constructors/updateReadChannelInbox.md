@@ -1,6 +1,6 @@
 ---
 title: updateReadChannelInbox
-description: Update read channel inbox
+description: Incoming messages in a [channel/supergroup](https://core.telegram.org/api/channel) were read
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateReadChannelInbox  
@@ -8,17 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update read channel inbox
+Incoming messages in a [channel/supergroup](https://core.telegram.org/api/channel) were read
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|folder\_id|[int](../types/int.md) | Optional|Folder ID|
-|channel\_id|[int](../types/int.md) | Yes|Channel ID|
-|max\_id|[int](../types/int.md) | Yes|Max ID|
-|still\_unread\_count|[int](../types/int.md) | Yes|Still unread count|
-|pts|[int](../types/int.md) | Yes|PTS|
+|folder\_id|[int](../types/int.md) | Optional|ID of folder for peers in folders|
+|channel\_id|[int](../types/int.md) | Yes|Channel/supergroup ID|
+|max\_id|[int](../types/int.md) | Yes|Position up to which all incoming messages are read.|
+|still\_unread\_count|[int](../types/int.md) | Yes|Count of messages weren't read yet|
+|pts|[int](../types/int.md) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|
 
 
 

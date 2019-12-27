@@ -1,6 +1,6 @@
 ---
 title: inputDialogPeerFolder
-description: Dialog peer folder
+description: All peers in a folder
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputDialogPeerFolder  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Dialog peer folder
+All peers in a folder
 
 ### Attributes:
 

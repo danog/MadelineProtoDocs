@@ -1,6 +1,6 @@
 ---
 title: messages.messageEditData
-description: Message edit data
+description: Message edit data for media
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messages.messageEditData  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message edit data
+Message edit data for media
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|caption|[Bool](../types/Bool.md) | Optional|Caption?|
+|caption|[Bool](../types/Bool.md) | Optional|Media caption, if the specified media's caption can be edited|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: secureFile
-description: Secure file
+description: Secure [passport](https://core.telegram.org/passport) file, for more info [see the passport docs »](https://core.telegram.org/passport/encryption#inputsecurefile)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureFile  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Secure file
+Secure [passport](https://core.telegram.org/passport) file, for more info [see the passport docs »](https://core.telegram.org/passport/encryption#inputsecurefile)
 
 ### Attributes:
 
@@ -16,9 +16,9 @@ Secure file
 |----------|---------------|----------|-------------|
 |id|[long](../types/long.md) | Yes|ID|
 |access\_hash|[long](../types/long.md) | Yes|Access hash|
-|size|[int](../types/int.md) | Yes|Size|
+|size|[int](../types/int.md) | Yes|File size|
 |dc\_id|[int](../types/int.md) | Yes|DC ID|
-|date|[int](../types/int.md) | Yes|Date|
+|date|[int](../types/int.md) | Yes|Date of upload|
 |file\_hash|[bytes](../types/bytes.md) | Yes|File hash|
 |secret|[bytes](../types/bytes.md) | Yes|Secret|
 

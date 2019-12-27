@@ -1,6 +1,6 @@
 ---
 title: inputGeoPointEmpty
-description: Empty input geo point
+description: Empty GeoPoint constructor.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputGeoPointEmpty  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty input geo point
+Empty GeoPoint constructor.
 
 
 

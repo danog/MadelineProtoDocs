@@ -1,6 +1,6 @@
 ---
 title: dialog
-description: Dialog
+description: Chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: dialog  
@@ -8,22 +8,22 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Dialog
+Chat
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|pinned|[Bool](../types/Bool.md) | Optional|Pinned?|
-|peer|[Peer](../types/Peer.md) | Yes|Peer|
-|top\_message|[int](../types/int.md) | Yes|Top message|
-|read\_inbox\_max\_id|[int](../types/int.md) | Yes|Read inbox max ID|
-|read\_outbox\_max\_id|[int](../types/int.md) | Yes|Read outbox max ID|
-|unread\_count|[int](../types/int.md) | Yes|Unread count|
-|unread\_mentions\_count|[int](../types/int.md) | Yes|Unread mentions count|
-|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|Notify settings|
-|pts|[int](../types/int.md) | Optional|Pts|
-|draft|[DraftMessage](../types/DraftMessage.md) | Optional|Draft|
+|pinned|[Bool](../types/Bool.md) | Optional|Is the dialog pinned|
+|peer|[Peer](../types/Peer.md) | Yes|The chat|
+|top\_message|[int](../types/int.md) | Yes|The latest message ID|
+|read\_inbox\_max\_id|[int](../types/int.md) | Yes|Position up to which all incoming messages are read.|
+|read\_outbox\_max\_id|[int](../types/int.md) | Yes|Position up to which all outgoing messages are read.|
+|unread\_count|[int](../types/int.md) | Yes|Number of unread messages|
+|unread\_mentions\_count|[int](../types/int.md) | Yes|Number of unread mentions|
+|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|Notification settings|
+|pts|[int](../types/int.md) | Optional|[PTS](https://core.telegram.org/api/updates)|
+|draft|[DraftMessage](../types/DraftMessage.md) | Optional|Message draft|
 
 
 

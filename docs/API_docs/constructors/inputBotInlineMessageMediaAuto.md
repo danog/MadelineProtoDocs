@@ -1,6 +1,6 @@
 ---
 title: inputBotInlineMessageMediaAuto
-description: Bot inline message media auto
+description: A media
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputBotInlineMessageMediaAuto  
@@ -8,15 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Bot inline message media auto
+A media
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|message|[string](../types/string.md) | Yes|Message|
+|message|[string](../types/string.md) | Yes|Caption|
 |entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|Entities|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Reply markup|
+|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Inline keyboard|
 
 
 

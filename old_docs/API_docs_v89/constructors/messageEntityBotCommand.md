@@ -1,6 +1,6 @@
 ---
 title: messageEntityBotCommand
-description: Message entity bot command
+description: Message entity representing a bot /command
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageEntityBotCommand  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message entity bot command
+Message entity representing a bot /command
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|offset|[int](../types/int.md) | Yes|Offset|
-|length|[int](../types/int.md) | Yes|Length|
+|offset|[int](../types/int.md) | Yes|Offset of message entity within message (in UTF-8 codepoints)|
+|length|[int](../types/int.md) | Yes|Length of message entity within message (in UTF-8 codepoints)|
 
 
 

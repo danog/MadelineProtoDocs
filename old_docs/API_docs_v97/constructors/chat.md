@@ -1,6 +1,6 @@
 ---
 title: chat
-description: Chat
+description: Info about a group
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chat  
@@ -8,25 +8,25 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Chat
+Info about a group
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|creator|[Bool](../types/Bool.md) | Optional|Creator?|
-|kicked|[Bool](../types/Bool.md) | Optional|Kicked?|
-|left|[Bool](../types/Bool.md) | Optional|Left?|
-|deactivated|[Bool](../types/Bool.md) | Optional|Deactivated?|
-|id|[int](../types/int.md) | Yes|ID|
+|creator|[Bool](../types/Bool.md) | Optional|Whether the current user is the creator of the group|
+|kicked|[Bool](../types/Bool.md) | Optional|Whether the current user was kicked from the group|
+|left|[Bool](../types/Bool.md) | Optional|Whether the current user has left the group|
+|deactivated|[Bool](../types/Bool.md) | Optional|Whether the group was [migrated](https://core.telegram.org/api/channel)|
+|id|[int](../types/int.md) | Yes|ID of the group|
 |title|[string](../types/string.md) | Yes|Title|
-|photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|Photo|
-|participants\_count|[int](../types/int.md) | Yes|Participants count|
-|date|[int](../types/int.md) | Yes|Date|
-|version|[int](../types/int.md) | Yes|Version|
-|migrated\_to|[InputChannel](../types/InputChannel.md) | Optional|Migrated to|
-|admin\_rights|[ChatAdminRights](../types/ChatAdminRights.md) | Optional|Admin rights of current user|
-|default\_banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Optional|Global chat banned rights|
+|photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|Chat photo|
+|participants\_count|[int](../types/int.md) | Yes|Participant count|
+|date|[int](../types/int.md) | Yes|Date of creation of the group|
+|version|[int](../types/int.md) | Yes|Used in basic groups to reorder updates and make sure that all of them were received.|
+|migrated\_to|[InputChannel](../types/InputChannel.md) | Optional|Means this chat was [upgraded](https://core.telegram.org/api/channel) to a supergroup|
+|admin\_rights|[ChatAdminRights](../types/ChatAdminRights.md) | Optional|[Admin rights](https://core.telegram.org/api/rights) of the user in the group|
+|default\_banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Optional|[Default banned rights](https://core.telegram.org/api/rights) of all users in the group|
 
 
 

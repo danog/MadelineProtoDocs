@@ -1,6 +1,6 @@
 ---
 title: passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow
-description: Password kdf algo sha256sha256pbkdf2hmacsh a512iter100000 sha256 mod pow
+description: This key derivation algorithm defines that [SRP 2FA login](https://core.telegram.org/api/srp) must be used
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow  
@@ -8,16 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Password kdf algo sha256sha256pbkdf2hmacsh a512iter100000 sha256 mod pow
+This key derivation algorithm defines that [SRP 2FA login](https://core.telegram.org/api/srp) must be used
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|salt1|[bytes](../types/bytes.md) | Yes|Salt1|
-|salt2|[bytes](../types/bytes.md) | Yes|Salt2|
-|g|[int](../types/int.md) | Yes|G|
-|p|[bytes](../types/bytes.md) | Yes|P|
+|salt1|[bytes](../types/bytes.md) | Yes|One of two salts used by the derivation function (see [SRP 2FA login](https://core.telegram.org/api/srp))|
+|salt2|[bytes](../types/bytes.md) | Yes|One of two salts used by the derivation function (see [SRP 2FA login](https://core.telegram.org/api/srp))|
+|g|[int](../types/int.md) | Yes|Base (see [SRP 2FA login](https://core.telegram.org/api/srp))|
+|p|[bytes](../types/bytes.md) | Yes|2048-bit modulus (see [SRP 2FA login](https://core.telegram.org/api/srp))|
 
 
 
