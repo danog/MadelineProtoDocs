@@ -1,19 +1,19 @@
 ---
 title: users.getFullUser
-description: Returns extended user info by ID.
+description: You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: users.getFullUser  
 [Back to methods index](index.md)
 
 
-Returns extended user info by ID.
+You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info)
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | User ID | Optional|
+|id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info) | Optional|
 
 
 ### Return type: [UserFull](../types/UserFull.md)

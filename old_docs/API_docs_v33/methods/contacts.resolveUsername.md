@@ -1,19 +1,19 @@
 ---
 title: contacts.resolveUsername
-description: Resolve a @username to get peer info
+description: You cannot use this method directly, use the resolveUsername, getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: contacts.resolveUsername  
 [Back to methods index](index.md)
 
 
-Resolve a @username to get peer info
+You cannot use this method directly, use the resolveUsername, getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info)
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|username|[string](../types/string.md) | @username to resolve | Yes|
+|username|[string](../types/string.md) | You cannot use this method directly, use the resolveUsername, getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info) | Yes|
 
 
 ### Return type: [User](../types/User.md)

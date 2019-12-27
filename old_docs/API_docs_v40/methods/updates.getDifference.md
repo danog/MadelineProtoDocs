@@ -1,21 +1,21 @@
 ---
 title: updates.getDifference
-description: Get new [updates](https://core.telegram.org/api/updates).
+description: You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: updates.getDifference  
 [Back to methods index](index.md)
 
 
-Get new [updates](https://core.telegram.org/api/updates).
+You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|pts|[int](../types/int.md) | PTS, see [updates](https://core.telegram.org/api/updates). | Yes|
+|pts|[int](../types/int.md) | You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates | Yes|
 |date|[int](../types/int.md) | You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates | Yes|
-|qts|[int](../types/int.md) | QTS, see [updates](https://core.telegram.org/api/updates). | Yes|
+|qts|[int](../types/int.md) | You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates | Yes|
 
 
 ### Return type: [updates\_Difference](../types/updates_Difference.md)

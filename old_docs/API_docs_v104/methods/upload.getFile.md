@@ -1,22 +1,22 @@
 ---
 title: upload.getFile
-description: Returns content of a whole file or its part.
+description: You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: upload.getFile  
 [Back to methods index](index.md)
 
 
-Returns content of a whole file or its part.
+You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|precise|[Bool](../types/Bool.md) | Disable some checks on limit and offset values, useful for example to stream videos by keyframes | Optional|
-|location|[InputFileLocation](../types/InputFileLocation.md) | File location | Yes|
-|offset|[int](../types/int.md) | Number of bytes to be skipped | Yes|
-|limit|[int](../types/int.md) | Number of bytes to be returned | Yes|
+|precise|[Bool](../types/Bool.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Optional|
+|location|[InputFileLocation](../types/InputFileLocation.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
+|offset|[int](../types/int.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
+|limit|[int](../types/int.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
 
 
 ### Return type: [upload\_File](../types/upload_File.md)

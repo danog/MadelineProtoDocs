@@ -1,22 +1,22 @@
 ---
 title: phone.confirmCall
-description: [Complete phone call E2E encryption key exchange »](https://core.telegram.org/api/end-to-end/voice-calls)
+description: You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: phone.confirmCall  
 [Back to methods index](index.md)
 
 
-[Complete phone call E2E encryption key exchange »](https://core.telegram.org/api/end-to-end/voice-calls)
+You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[InputPhoneCall](../types/InputPhoneCall.md) | The phone call | Yes|
-|g\_a|[bytes](../types/bytes.md) | [Parameter for E2E encryption key exchange »](https://core.telegram.org/api/end-to-end/voice-calls) | Yes|
-|key\_fingerprint|[long](../types/long.md) | Key fingerprint | Yes|
-|protocol|[PhoneCallProtocol](../types/PhoneCallProtocol.md) | Phone call settings | Yes|
+|peer|[InputPhoneCall](../types/InputPhoneCall.md) | You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls | Yes|
+|g\_a|[bytes](../types/bytes.md) | You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls | Yes|
+|key\_fingerprint|[long](../types/long.md) | You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls | Yes|
+|protocol|[PhoneCallProtocol](../types/PhoneCallProtocol.md) | You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls | Yes|
 
 
 ### Return type: [phone\_PhoneCall](../types/phone_PhoneCall.md)

@@ -1,20 +1,20 @@
 ---
 title: upload.getFileHashes
-description: Get SHA256 hashes for verifying downloaded files
+description: You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: upload.getFileHashes  
 [Back to methods index](index.md)
 
 
-Get SHA256 hashes for verifying downloaded files
+You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|location|[InputFileLocation](../types/InputFileLocation.md) | File | Yes|
-|offset|[int](../types/int.md) | Offset from which to get file hashes | Yes|
+|location|[InputFileLocation](../types/InputFileLocation.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
+|offset|[int](../types/int.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
 
 
 ### Return type: [Vector\_of\_FileHash](../types/FileHash.md)

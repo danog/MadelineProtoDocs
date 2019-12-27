@@ -1,22 +1,22 @@
 ---
 title: upload.saveBigFilePart
-description: Saves a part of a large file (over 10Mb in size) to be later passed to one of the methods.
+description: You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: upload.saveBigFilePart  
 [Back to methods index](index.md)
 
 
-Saves a part of a large file (over 10Mb in size) to be later passed to one of the methods.
+You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|file\_id|[long](../types/long.md) | Random file id, created by the client | Yes|
-|file\_part|[int](../types/int.md) | Part sequence number | Yes|
-|file\_total\_parts|[int](../types/int.md) | Total number of parts | Yes|
-|bytes|[bytes](../types/bytes.md) | Binary data, part contents | Yes|
+|file\_id|[long](../types/long.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
+|file\_part|[int](../types/int.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
+|file\_total\_parts|[int](../types/int.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
+|bytes|[bytes](../types/bytes.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

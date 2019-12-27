@@ -1,22 +1,22 @@
 ---
 title: phone.acceptCall
-description: Accept incoming call
+description: You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: phone.acceptCall  
 [Back to methods index](index.md)
 
 
-Accept incoming call
+You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[InputPhoneCall](../types/InputPhoneCall.md) | The call to accept | Yes|
-|g\_b|[bytes](../types/bytes.md) | [Parameter for E2E encryption key exchange »](https://core.telegram.org/api/end-to-end/voice-calls) | Yes|
+|peer|[InputPhoneCall](../types/InputPhoneCall.md) | You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls | Yes|
+|g\_b|[bytes](../types/bytes.md) | You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls | Yes|
 |key\_fingerprint|[long](../types/long.md) | You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls | Yes|
-|protocol|[PhoneCallProtocol](../types/PhoneCallProtocol.md) | Phone call settings | Yes|
+|protocol|[PhoneCallProtocol](../types/PhoneCallProtocol.md) | You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls | Yes|
 
 
 ### Return type: [phone\_PhoneCall](../types/phone_PhoneCall.md)

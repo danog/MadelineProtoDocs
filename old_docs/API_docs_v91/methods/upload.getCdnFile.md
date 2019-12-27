@@ -1,21 +1,21 @@
 ---
 title: upload.getCdnFile
-description: Download a [CDN](https://core.telegram.org/cdn) file.
+description: You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: upload.getCdnFile  
 [Back to methods index](index.md)
 
 
-Download a [CDN](https://core.telegram.org/cdn) file.
+You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|file\_token|[bytes](../types/bytes.md) | File token | Yes|
-|offset|[int](../types/int.md) | Offset of chunk to download | Yes|
-|limit|[int](../types/int.md) | Length of chunk to download | Yes|
+|file\_token|[bytes](../types/bytes.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
+|offset|[int](../types/int.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
+|limit|[int](../types/int.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
 
 
 ### Return type: [upload\_CdnFile](../types/upload_CdnFile.md)

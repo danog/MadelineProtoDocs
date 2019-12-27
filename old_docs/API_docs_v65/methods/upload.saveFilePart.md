@@ -1,21 +1,21 @@
 ---
 title: upload.saveFilePart
-description: Saves a part of file for futher sending to one of the methods.
+description: You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: upload.saveFilePart  
 [Back to methods index](index.md)
 
 
-Saves a part of file for futher sending to one of the methods.
+You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|file\_id|[long](../types/long.md) | Random file identifier created by the client | Yes|
-|file\_part|[int](../types/int.md) | Numerical order of a part | Yes|
-|bytes|[bytes](../types/bytes.md) | Binary data, contend of a part | Yes|
+|file\_id|[long](../types/long.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
+|file\_part|[int](../types/int.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
+|bytes|[bytes](../types/bytes.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

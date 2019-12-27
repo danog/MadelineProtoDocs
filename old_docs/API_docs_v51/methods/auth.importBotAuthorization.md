@@ -1,21 +1,21 @@
 ---
 title: auth.importBotAuthorization
-description: Login as a bot
+description: You cannot use this method directly, use the botLogin method instead (see https://docs.madelineproto.xyz for more info)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: auth.importBotAuthorization  
 [Back to methods index](index.md)
 
 
-Login as a bot
+You cannot use this method directly, use the botLogin method instead (see https://docs.madelineproto.xyz for more info)
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|api\_id|[int](../types/int.md) | Application identifier (see. [App configuration](https://core.telegram.org/myapp)) | Yes|
-|api\_hash|[string](../types/string.md) | Application identifier hash (see. [App configuration](https://core.telegram.org/myapp)) | Yes|
-|bot\_auth\_token|[string](../types/string.md) | Bot token (see [bots](https://core.telegram.org/bots)) | Yes|
+|api\_id|[int](../types/int.md) | You cannot use this method directly, use the botLogin method instead (see https://docs.madelineproto.xyz for more info) | Yes|
+|api\_hash|[string](../types/string.md) | You cannot use this method directly, use the botLogin method instead (see https://docs.madelineproto.xyz for more info) | Yes|
+|bot\_auth\_token|[string](../types/string.md) | You cannot use this method directly, use the botLogin method instead (see https://docs.madelineproto.xyz for more info) | Yes|
 
 
 ### Return type: [auth\_Authorization](../types/auth_Authorization.md)

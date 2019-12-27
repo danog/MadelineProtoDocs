@@ -1,22 +1,22 @@
 ---
 title: phone.requestCall
-description: Start a telegram phone call
+description: You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: phone.requestCall  
 [Back to methods index](index.md)
 
 
-Start a telegram phone call
+You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|video|[Bool](../types/Bool.md) | Whether to start a video call | Optional|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Destination of the phone call | Optional|
-|g\_a\_hash|[bytes](../types/bytes.md) | [Parameter for E2E encryption key exchange »](https://core.telegram.org/api/end-to-end/voice-calls) | Yes|
-|protocol|[PhoneCallProtocol](../types/PhoneCallProtocol.md) | Phone call settings | Yes|
+|video|[Bool](../types/Bool.md) | You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls | Optional|
+|g\_a\_hash|[bytes](../types/bytes.md) | You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls | Yes|
+|protocol|[PhoneCallProtocol](../types/PhoneCallProtocol.md) | You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls | Yes|
 
 
 ### Return type: [phone\_PhoneCall](../types/phone_PhoneCall.md)

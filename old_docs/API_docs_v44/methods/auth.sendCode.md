@@ -1,22 +1,22 @@
 ---
 title: auth.sendCode
-description: Send the verification code for login
+description: You cannot use this method directly, use the phoneLogin method instead (see https://docs.madelineproto.xyz for more info)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: auth.sendCode  
 [Back to methods index](index.md)
 
 
-Send the verification code for login
+You cannot use this method directly, use the phoneLogin method instead (see https://docs.madelineproto.xyz for more info)
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](../types/string.md) | Phone number in international format | Yes|
+|phone\_number|[string](../types/string.md) | You cannot use this method directly, use the phoneLogin method instead (see https://docs.madelineproto.xyz for more info) | Yes|
 |sms\_type|[int](../types/int.md) | You cannot use this method directly, use the phoneLogin method instead (see https://docs.madelineproto.xyz for more info) | Yes|
-|api\_id|[int](../types/int.md) | Application identifier (see [App configuration](https://core.telegram.org/myapp)) | Yes|
-|api\_hash|[string](../types/string.md) | Application secret hash (see [App configuration](https://core.telegram.org/myapp)) | Yes|
+|api\_id|[int](../types/int.md) | You cannot use this method directly, use the phoneLogin method instead (see https://docs.madelineproto.xyz for more info) | Yes|
+|api\_hash|[string](../types/string.md) | You cannot use this method directly, use the phoneLogin method instead (see https://docs.madelineproto.xyz for more info) | Yes|
 |lang\_code|[string](../types/string.md) | You cannot use this method directly, use the phoneLogin method instead (see https://docs.madelineproto.xyz for more info) | Yes|
 
 

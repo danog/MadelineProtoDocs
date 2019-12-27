@@ -1,21 +1,21 @@
 ---
 title: messages.acceptEncryption
-description: Confirms creation of a secret chat
+description: You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling secret chats
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: messages.acceptEncryption  
 [Back to methods index](index.md)
 
 
-Confirms creation of a secret chat
+You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling secret chats
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | Secret chat ID | Yes|
-|g\_b|[bytes](../types/bytes.md) | `B = g ^ b mod p`, see [Wikipedia](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange) | Yes|
-|key\_fingerprint|[long](../types/long.md) | 64-bit fingerprint of the received key | Yes|
+|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling secret chats | Yes|
+|g\_b|[bytes](../types/bytes.md) | You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling secret chats | Yes|
+|key\_fingerprint|[long](../types/long.md) | You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling secret chats | Yes|
 
 
 ### Return type: [EncryptedChat](../types/EncryptedChat.md)

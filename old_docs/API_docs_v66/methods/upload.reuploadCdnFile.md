@@ -1,20 +1,20 @@
 ---
 title: upload.reuploadCdnFile
-description: Request a reupload of a certain file to a [CDN DC](https://core.telegram.org/cdn).
+description: You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: upload.reuploadCdnFile  
 [Back to methods index](index.md)
 
 
-Request a reupload of a certain file to a [CDN DC](https://core.telegram.org/cdn).
+You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|file\_token|[bytes](../types/bytes.md) | File token | Yes|
-|request\_token|[bytes](../types/bytes.md) | Request token | Yes|
+|file\_token|[bytes](../types/bytes.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
+|request\_token|[bytes](../types/bytes.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

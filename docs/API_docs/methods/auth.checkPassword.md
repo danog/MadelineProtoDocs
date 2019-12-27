@@ -1,19 +1,19 @@
 ---
 title: auth.checkPassword
-description: Try logging to an account protected by a [2FA password](https://core.telegram.org/api/srp).
+description: You cannot use this method directly, use the complete_2fa_login method instead (see https://docs.madelineproto.xyz for more info)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: auth.checkPassword  
 [Back to methods index](index.md)
 
 
-Try logging to an account protected by a [2FA password](https://core.telegram.org/api/srp).
+You cannot use this method directly, use the complete_2fa_login method instead (see https://docs.madelineproto.xyz for more info)
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|password|[InputCheckPasswordSRP](../types/InputCheckPasswordSRP.md) | The account's password (see [SRP](https://core.telegram.org/api/srp)) | Yes|
+|password|[InputCheckPasswordSRP](../types/InputCheckPasswordSRP.md) | You cannot use this method directly, use the complete_2fa_login method instead (see https://docs.madelineproto.xyz for more info) | Yes|
 
 
 ### Return type: [auth\_Authorization](../types/auth_Authorization.md)

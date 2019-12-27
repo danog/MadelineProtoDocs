@@ -34,12 +34,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="contacts.block.html" name="contacts.block">Adds the user to the blacklist.: contacts.block</a>
 
-* <a href="auth.bindTempAuthKey.html" name="auth.bindTempAuthKey">Binds a temporary authorization key `temp_auth_key_id` to the permanent authorization key `perm_auth_key_id`. Each permanent key may only be bound to one temporary key at a time, binding a new temporary key overwrites the previous one.
-
-For more information, see [Perfect Forward Secrecy](https://core.telegram.org/api/pfs).: auth.bindTempAuthKey</a>
-
-* <a href="messages.discardEncryption.html" name="messages.discardEncryption">Cancels a request for creation and/or delete info on secret chat.: messages.discardEncryption</a>
-
 * <a href="messages.editChatTitle.html" name="messages.editChatTitle">Chanages chat name and sends a service message on it.: messages.editChatTitle</a>
 
 * <a href="messages.editChatPhoto.html" name="messages.editChatPhoto">Changes chat photo and sends a service message on it: messages.editChatPhoto</a>
@@ -48,11 +42,7 @@ For more information, see [Perfect Forward Secrecy](https://core.telegram.org/ap
 
 * <a href="auth.checkPhone.html" name="auth.checkPhone">Check if this phone number is registered on telegram: auth.checkPhone</a>
 
-* <a href="messages.acceptEncryption.html" name="messages.acceptEncryption">Confirms creation of a secret chat: messages.acceptEncryption</a>
-
 * <a href="messages.receivedMessages.html" name="messages.receivedMessages">Confirms receipt of messages by a client, cancels PUSH-notification sending.: messages.receivedMessages</a>
-
-* <a href="messages.receivedQueue.html" name="messages.receivedQueue">Confirms receipt of messages in a secret chat by client, cancels push notifications.: messages.receivedQueue</a>
 
 * <a href="messages.createChat.html" name="messages.createChat">Creates a new chat.: messages.createChat</a>
 
@@ -80,8 +70,6 @@ For more information, see [Perfect Forward Secrecy](https://core.telegram.org/ap
 
 * <a href="messages.forwardMessages.html" name="messages.forwardMessages">Forwards messages by their IDs.: messages.forwardMessages</a>
 
-* <a href="updates.getDifference.html" name="updates.getDifference">Get new [updates](https://core.telegram.org/api/updates).: updates.getDifference</a>
-
 * <a href="contacts.getSuggested.html" name="contacts.getSuggested">Get suggested contacts: contacts.getSuggested</a>
 
 * <a href="messages.search.html" name="messages.search">Gets back found messages: messages.search</a>
@@ -106,10 +94,6 @@ For more information, see [Perfect Forward Secrecy](https://core.telegram.org/ap
 
 * <a href="invokeAfterMsg.html" name="invokeAfterMsg">Invokes a query after successfull completion of one of the previous queries.: invokeAfterMsg</a>
 
-* <a href="auth.importAuthorization.html" name="auth.importAuthorization">Logs in a user using a key transmitted from his native data-centre.: auth.importAuthorization</a>
-
-* <a href="auth.logOut.html" name="auth.logOut">Logs out the user.: auth.logOut</a>
-
 * <a href="messages.readHistory.html" name="messages.readHistory">Marks message history as read.: messages.readHistory</a>
 
 * <a href="messages.readEncryptedHistory.html" name="messages.readEncryptedHistory">Marks message history within a secret chat as read.: messages.readEncryptedHistory</a>
@@ -118,13 +102,9 @@ For more information, see [Perfect Forward Secrecy](https://core.telegram.org/ap
 
 * <a href="account.registerDevice.html" name="account.registerDevice">Register device to receive [PUSH notifications](https://core.telegram.org/api/push-updates): account.registerDevice</a>
 
-* <a href="auth.signUp.html" name="auth.signUp">Registers a validated phone number in the system.: auth.signUp</a>
-
 * <a href="messages.reportSpam.html" name="messages.reportSpam">Report a new incoming chat for spam, if the [peer settings](../constructors/peerSettings.md) of the chat allow us to do that: messages.reportSpam</a>
 
 * <a href="account.resetNotifySettings.html" name="account.resetNotifySettings">Resets all notification settings from users and groups.: account.resetNotifySettings</a>
-
-* <a href="updates.getState.html" name="updates.getState">Returns a current state of updates.: updates.getState</a>
 
 * <a href="account.getWallPapers.html" name="account.getWallPapers">Returns a list of available wallpapers.: account.getWallPapers</a>
 
@@ -132,17 +112,7 @@ For more information, see [Perfect Forward Secrecy](https://core.telegram.org/ap
 
 * <a href="messages.getChats.html" name="messages.getChats">Returns chat basic info on their IDs.: messages.getChats</a>
 
-* <a href="messages.getDhConfig.html" name="messages.getDhConfig">Returns configuration parameters for Diffie-Hellman key generation. Can also return a random sequence of bytes of required length.: messages.getDhConfig</a>
-
-* <a href="upload.getFile.html" name="upload.getFile">Returns content of a whole file or its part.: upload.getFile</a>
-
 * <a href="help.getConfig.html" name="help.getConfig">Returns current configuration, icluding data center configuration.: help.getConfig</a>
-
-* <a href="auth.exportAuthorization.html" name="auth.exportAuthorization">Returns data for copying authorization to another data-centre.: auth.exportAuthorization</a>
-
-* <a href="users.getFullUser.html" name="users.getFullUser">Returns extended user info by ID.: users.getFullUser</a>
-
-* <a href="messages.getFullChat.html" name="messages.getFullChat">Returns full chat info according to its ID.: messages.getFullChat</a>
 
 * <a href="help.getNearestDc.html" name="help.getNearestDc">Returns info on data centre nearest to the user.: help.getNearestDc</a>
 
@@ -166,10 +136,6 @@ For more information, see [Perfect Forward Secrecy](https://core.telegram.org/ap
 
 * <a href="contacts.search.html" name="contacts.search">Returns users found by username substring.: contacts.search</a>
 
-* <a href="upload.saveBigFilePart.html" name="upload.saveBigFilePart">Saves a part of a large file (over 10Mb in size) to be later passed to one of the methods.: upload.saveBigFilePart</a>
-
-* <a href="upload.saveFilePart.html" name="upload.saveFilePart">Saves a part of file for futher sending to one of the methods.: upload.saveFilePart</a>
-
 * <a href="help.saveAppLog.html" name="help.saveAppLog">Saves logs of application on the server.: help.saveAppLog</a>
 
 * <a href="auth.sendSms.html" name="auth.sendSms">Send SMS verification code: auth.sendSms</a>
@@ -177,8 +143,6 @@ For more information, see [Perfect Forward Secrecy](https://core.telegram.org/ap
 * <a href="messages.sendMedia.html" name="messages.sendMedia">Send a media: messages.sendMedia</a>
 
 * <a href="messages.sendBroadcast.html" name="messages.sendBroadcast">Send a message to all users in the chat list: messages.sendBroadcast</a>
-
-* <a href="auth.sendCode.html" name="auth.sendCode">Send the verification code for login: auth.sendCode</a>
 
 * <a href="messages.setEncryptedTyping.html" name="messages.setEncryptedTyping">Send typing event by the current user to a secret chat.: messages.setEncryptedTyping</a>
 
@@ -190,13 +154,9 @@ For more information, see [Perfect Forward Secrecy](https://core.telegram.org/ap
 
 * <a href="messages.sendEncryptedFile.html" name="messages.sendEncryptedFile">Sends a message with a file attachment to a secret chat: messages.sendEncryptedFile</a>
 
-* <a href="messages.requestEncryption.html" name="messages.requestEncryption">Sends a request to start a secret chat to the user.: messages.requestEncryption</a>
-
 * <a href="messages.sendEncryptedService.html" name="messages.sendEncryptedService">Sends a service message to a secret chat.: messages.sendEncryptedService</a>
 
 * <a href="messages.sendEncrypted.html" name="messages.sendEncrypted">Sends a text message to a secret chat.: messages.sendEncrypted</a>
-
-* <a href="auth.signIn.html" name="auth.signIn">Signs in a user with a validated phone number.: auth.signIn</a>
 
 * <a href="auth.resetAuthorizations.html" name="auth.resetAuthorizations">Terminates all user's authorized sessions except for the current one.
 
@@ -209,4 +169,42 @@ After calling this method it is necessary to reregister the current device using
 * <a href="account.updateProfile.html" name="account.updateProfile">Updates user profile.: account.updateProfile</a>
 
 * <a href="account.checkUsername.html" name="account.checkUsername">Validates a username and checks availability.: account.checkUsername</a>
+
+* <a href="auth.bindTempAuthKey.html" name="auth.bindTempAuthKey">You cannot use this method directly, instead modify the PFS and default_temp_auth_key_expires_in settings, see https://docs.madelineproto.xyz/docs/SETTINGS.html for more info: auth.bindTempAuthKey</a>
+
+* <a href="messages.getDhConfig.html" name="messages.getDhConfig">You cannot use this method directly, instead use $MadelineProto->getDhConfig();: messages.getDhConfig</a>
+
+* <a href="messages.acceptEncryption.html" name="messages.acceptEncryption">You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling secret chats: messages.acceptEncryption</a>
+
+* <a href="messages.discardEncryption.html" name="messages.discardEncryption">You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling secret chats: messages.discardEncryption</a>
+
+* <a href="messages.requestEncryption.html" name="messages.requestEncryption">You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling secret chats: messages.requestEncryption</a>
+
+* <a href="updates.getDifference.html" name="updates.getDifference">You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates: updates.getDifference</a>
+
+* <a href="updates.getState.html" name="updates.getState">You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates: updates.getState</a>
+
+* <a href="auth.exportAuthorization.html" name="auth.exportAuthorization">You cannot use this method directly, use $MadelineProto->exportAuthorization() instead, see https://docs.madelineproto.xyz/docs/LOGIN.html: auth.exportAuthorization</a>
+
+* <a href="auth.importAuthorization.html" name="auth.importAuthorization">You cannot use this method directly, use $MadelineProto->importAuthorization($authorization) instead, see https://docs.madelineproto.xyz/docs/LOGIN.html: auth.importAuthorization</a>
+
+* <a href="auth.signIn.html" name="auth.signIn">You cannot use this method directly, use the completePhoneLogin method instead (see https://docs.madelineproto.xyz for more info): auth.signIn</a>
+
+* <a href="auth.signUp.html" name="auth.signUp">You cannot use this method directly, use the completeSignup method instead (see https://docs.madelineproto.xyz for more info): auth.signUp</a>
+
+* <a href="messages.getFullChat.html" name="messages.getFullChat">You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info): messages.getFullChat</a>
+
+* <a href="users.getFullUser.html" name="users.getFullUser">You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info): users.getFullUser</a>
+
+* <a href="auth.logOut.html" name="auth.logOut">You cannot use this method directly, use the logout method instead (see https://docs.madelineproto.xyz for more info): auth.logOut</a>
+
+* <a href="auth.sendCode.html" name="auth.sendCode">You cannot use this method directly, use the phoneLogin method instead (see https://docs.madelineproto.xyz for more info): auth.sendCode</a>
+
+* <a href="upload.getFile.html" name="upload.getFile">You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info: upload.getFile</a>
+
+* <a href="upload.saveBigFilePart.html" name="upload.saveBigFilePart">You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info: upload.saveBigFilePart</a>
+
+* <a href="upload.saveFilePart.html" name="upload.saveFilePart">You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info: upload.saveFilePart</a>
+
+* <a href="messages.receivedQueue.html" name="messages.receivedQueue">You cannot use this method directly: messages.receivedQueue</a>
 

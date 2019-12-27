@@ -1,19 +1,19 @@
 ---
 title: account.getPasswordSettings
-description: Get private info associated to the password info (recovery email, telegram [passport](https://core.telegram.org/passport) info & so on)
+description: You cannot use this method directly; use $MadelineProto->update_2fa($params), instead (see https://docs.madelineproto.xyz for more info)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: account.getPasswordSettings  
 [Back to methods index](index.md)
 
 
-Get private info associated to the password info (recovery email, telegram [passport](https://core.telegram.org/passport) info & so on)
+You cannot use this method directly; use $MadelineProto->update_2fa($params), instead (see https://docs.madelineproto.xyz for more info)
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|current\_password\_hash|[bytes](../types/bytes.md) | Use only if you have set a 2FA password: `$current_salt = $MadelineProto->account->getPassword()['current_salt']; $current_password_hash = hash('sha256', $current_salt.$password.$current_salt, true);` | Yes|
+|current\_password\_hash|[bytes](../types/bytes.md) | You cannot use this method directly; use $MadelineProto->update_2fa($params), instead (see https://docs.madelineproto.xyz for more info) | Yes|
 
 
 ### Return type: [account\_PasswordSettings](../types/account_PasswordSettings.md)

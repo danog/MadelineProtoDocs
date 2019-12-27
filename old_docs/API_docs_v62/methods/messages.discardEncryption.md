@@ -1,19 +1,19 @@
 ---
 title: messages.discardEncryption
-description: Cancels a request for creation and/or delete info on secret chat.
+description: You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling secret chats
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: messages.discardEncryption  
 [Back to methods index](index.md)
 
 
-Cancels a request for creation and/or delete info on secret chat.
+You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling secret chats
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|chat\_id|[int](../types/int.md) | Secret chat ID | Yes|
+|chat\_id|[int](../types/int.md) | You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling secret chats | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

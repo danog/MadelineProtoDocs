@@ -1,22 +1,22 @@
 ---
 title: auth.signUp
-description: Registers a validated phone number in the system.
+description: You cannot use this method directly, use the completeSignup method instead (see https://docs.madelineproto.xyz for more info)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: auth.signUp  
 [Back to methods index](index.md)
 
 
-Registers a validated phone number in the system.
+You cannot use this method directly, use the completeSignup method instead (see https://docs.madelineproto.xyz for more info)
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](../types/string.md) | Phone number in the international format | Yes|
-|phone\_code\_hash|[string](../types/string.md) | SMS-message ID | Yes|
-|first\_name|[string](../types/string.md) | New user first name | Yes|
-|last\_name|[string](../types/string.md) | New user last name | Yes|
+|phone\_number|[string](../types/string.md) | You cannot use this method directly, use the completeSignup method instead (see https://docs.madelineproto.xyz for more info) | Yes|
+|phone\_code\_hash|[string](../types/string.md) | You cannot use this method directly, use the completeSignup method instead (see https://docs.madelineproto.xyz for more info) | Yes|
+|first\_name|[string](../types/string.md) | You cannot use this method directly, use the completeSignup method instead (see https://docs.madelineproto.xyz for more info) | Yes|
+|last\_name|[string](../types/string.md) | You cannot use this method directly, use the completeSignup method instead (see https://docs.madelineproto.xyz for more info) | Yes|
 
 
 ### Return type: [auth\_Authorization](../types/auth_Authorization.md)

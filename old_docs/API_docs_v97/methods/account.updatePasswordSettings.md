@@ -1,20 +1,20 @@
 ---
 title: account.updatePasswordSettings
-description: Set a new 2FA password
+description: You cannot use this method directly; use $MadelineProto->update_2fa($params), instead (see https://docs.madelineproto.xyz for more info)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: account.updatePasswordSettings  
 [Back to methods index](index.md)
 
 
-Set a new 2FA password
+You cannot use this method directly; use $MadelineProto->update_2fa($params), instead (see https://docs.madelineproto.xyz for more info)
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|password|[InputCheckPasswordSRP](../types/InputCheckPasswordSRP.md) | The old password (see [SRP](https://core.telegram.org/api/srp)) | Yes|
-|new\_settings|[account.PasswordInputSettings](../types/account.PasswordInputSettings.md) | The new password (see [SRP](https://core.telegram.org/api/srp)) | Yes|
+|password|[InputCheckPasswordSRP](../types/InputCheckPasswordSRP.md) | You cannot use this method directly; use $MadelineProto->update_2fa($params), instead (see https://docs.madelineproto.xyz for more info) | Yes|
+|new\_settings|[account.PasswordInputSettings](../types/account.PasswordInputSettings.md) | You cannot use this method directly; use $MadelineProto->update_2fa($params), instead (see https://docs.madelineproto.xyz for more info) | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

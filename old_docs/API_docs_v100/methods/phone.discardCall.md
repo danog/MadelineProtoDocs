@@ -1,23 +1,23 @@
 ---
 title: phone.discardCall
-description: Refuse or end running call
+description: You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: phone.discardCall  
 [Back to methods index](index.md)
 
 
-Refuse or end running call
+You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|video|[Bool](../types/Bool.md) | Whether this is a video call | Optional|
-|peer|[InputPhoneCall](../types/InputPhoneCall.md) | The phone call | Yes|
-|duration|[int](../types/int.md) | Call duration | Yes|
-|reason|[PhoneCallDiscardReason](../types/PhoneCallDiscardReason.md) | Why was the call discarded | Yes|
-|connection\_id|[long](../types/long.md) | Preferred libtgvoip relay ID | Yes|
+|video|[Bool](../types/Bool.md) | You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls | Optional|
+|peer|[InputPhoneCall](../types/InputPhoneCall.md) | You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls | Yes|
+|duration|[int](../types/int.md) | You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls | Yes|
+|reason|[PhoneCallDiscardReason](../types/PhoneCallDiscardReason.md) | You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls | Yes|
+|connection\_id|[long](../types/long.md) | You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)
