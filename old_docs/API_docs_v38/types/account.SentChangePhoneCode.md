@@ -2,6 +2,7 @@
 title: account.SentChangePhoneCode
 description: constructors and methods of type account.SentChangePhoneCode
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/types/account_SentChangePhoneCode.html
 ---
 # Type: account.SentChangePhoneCode  
 [Back to types index](index.md)

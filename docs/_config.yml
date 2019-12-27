@@ -2,6 +2,8 @@ theme: jekyll-theme-cayman
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-redirect-from
+
 url: https://docs.madelineproto.xyz
 logo: https://docs.madelineproto.xyz/logo.png
 
@@ -13,3 +15,6 @@ author:
   twitter: DaniilGentili
   
 include: [".well-known"]
+
+plugins:
+  - jekyll-redirect-from

@@ -2,6 +2,7 @@
 title: messages.statedMessage
 description: Stated message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/messages_statedMessage.html
 ---
 # Constructor: messages.statedMessage  
 [Back to constructors index](index.md)

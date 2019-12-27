@@ -1,1 +1,0 @@
-account.sendConfirmPhoneCode.md

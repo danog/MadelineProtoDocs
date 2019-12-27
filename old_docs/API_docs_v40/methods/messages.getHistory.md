@@ -2,6 +2,7 @@
 title: messages.getHistory
 description: Gets back the conversation history with one interlocutor / within a chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_getHistory.html
 ---
 # Method: messages.getHistory  
 [Back to methods index](index.md)

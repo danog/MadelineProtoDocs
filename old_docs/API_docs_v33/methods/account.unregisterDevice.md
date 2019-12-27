@@ -2,6 +2,7 @@
 title: account.unregisterDevice
 description: Deletes a device by its token, stops sending PUSH-notifications to it.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/account_unregisterDevice.html
 ---
 # Method: account.unregisterDevice  
 [Back to methods index](index.md)

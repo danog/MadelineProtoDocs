@@ -2,6 +2,7 @@
 title: auth.Authorization
 description: constructors and methods of type auth.Authorization
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/types/auth_Authorization.html
 ---
 # Type: auth.Authorization  
 [Back to types index](index.md)

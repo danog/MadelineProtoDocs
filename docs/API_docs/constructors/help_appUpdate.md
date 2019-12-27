@@ -1,1 +1,0 @@
-help.appUpdate.md

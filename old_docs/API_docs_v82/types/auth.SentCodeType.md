@@ -2,6 +2,7 @@
 title: auth.SentCodeType
 description: constructors and methods of type auth.SentCodeType
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/types/auth_SentCodeType.html
 ---
 # Type: auth.SentCodeType  
 [Back to types index](index.md)

@@ -1,1 +1,0 @@
-storage.fileJpeg.md

@@ -2,6 +2,7 @@
 title: channels.exportInvite
 description: Export the invite link of a channel
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/channels_exportInvite.html
 ---
 # Method: channels.exportInvite  
 [Back to methods index](index.md)

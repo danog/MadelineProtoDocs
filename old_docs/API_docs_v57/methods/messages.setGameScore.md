@@ -2,6 +2,7 @@
 title: messages.setGameScore
 description: Use this method to set the score of the specified user in a game sent as a normal message (bots only).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_setGameScore.html
 ---
 # Method: messages.setGameScore  
 [Back to methods index](index.md)

@@ -2,6 +2,7 @@
 title: help.getRecentMeUrls
 description: Get recently used `t.me` links
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/help_getRecentMeUrls.html
 ---
 # Method: help.getRecentMeUrls  
 [Back to methods index](index.md)

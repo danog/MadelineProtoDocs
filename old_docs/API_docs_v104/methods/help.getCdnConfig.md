@@ -2,6 +2,7 @@
 title: help.getCdnConfig
 description: Get configuration for [CDN](https://core.telegram.org/cdn) file downloads.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/help_getCdnConfig.html
 ---
 # Method: help.getCdnConfig  
 [Back to methods index](index.md)

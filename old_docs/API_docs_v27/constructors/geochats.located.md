@@ -2,6 +2,7 @@
 title: geochats.located
 description: Located
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/geochats_located.html
 ---
 # Constructor: geochats.located  
 [Back to constructors index](index.md)

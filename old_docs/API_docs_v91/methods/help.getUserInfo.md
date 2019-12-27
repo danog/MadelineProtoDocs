@@ -2,6 +2,7 @@
 title: help.getUserInfo
 description: Internal use
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/help_getUserInfo.html
 ---
 # Method: help.getUserInfo  
 [Back to methods index](index.md)

@@ -2,6 +2,7 @@
 title: account.changePhone
 description: Change the phone number of the current account
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/account_changePhone.html
 ---
 # Method: account.changePhone  
 [Back to methods index](index.md)

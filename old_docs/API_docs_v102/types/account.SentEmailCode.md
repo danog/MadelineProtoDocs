@@ -2,6 +2,7 @@
 title: account.SentEmailCode
 description: constructors and methods of type account.SentEmailCode
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/types/account_SentEmailCode.html
 ---
 # Type: account.SentEmailCode  
 [Back to types index](index.md)

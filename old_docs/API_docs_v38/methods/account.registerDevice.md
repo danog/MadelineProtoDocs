@@ -2,6 +2,7 @@
 title: account.registerDevice
 description: Register device to receive [PUSH notifications](https://core.telegram.org/api/push-updates)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/account_registerDevice.html
 ---
 # Method: account.registerDevice  
 [Back to methods index](index.md)

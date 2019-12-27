@@ -2,6 +2,7 @@
 title: messages.sentEncryptedFile
 description: Message with a file enclosure sent to a protected chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/messages_sentEncryptedFile.html
 ---
 # Constructor: messages.sentEncryptedFile  
 [Back to constructors index](index.md)

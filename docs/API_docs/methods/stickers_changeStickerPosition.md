@@ -1,1 +1,0 @@
-stickers.changeStickerPosition.md

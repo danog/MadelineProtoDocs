@@ -2,6 +2,7 @@
 title: auth.sendInvites
 description: Invite friends to telegram!
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/auth_sendInvites.html
 ---
 # Method: auth.sendInvites  
 [Back to methods index](index.md)

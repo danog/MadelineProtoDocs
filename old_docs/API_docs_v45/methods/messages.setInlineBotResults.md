@@ -2,6 +2,7 @@
 title: messages.setInlineBotResults
 description: Answer an inline query, for bots only
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_setInlineBotResults.html
 ---
 # Method: messages.setInlineBotResults  
 [Back to methods index](index.md)

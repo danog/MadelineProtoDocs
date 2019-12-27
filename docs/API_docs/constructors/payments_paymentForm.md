@@ -1,1 +1,0 @@
-payments.paymentForm.md

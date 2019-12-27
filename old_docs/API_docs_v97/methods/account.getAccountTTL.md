@@ -2,6 +2,7 @@
 title: account.getAccountTTL
 description: Get days to live of account
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/account_getAccountTTL.html
 ---
 # Method: account.getAccountTTL  
 [Back to methods index](index.md)

@@ -2,6 +2,7 @@
 title: langpack.getLanguage
 description: Get information about a language in a localization pack
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/langpack_getLanguage.html
 ---
 # Method: langpack.getLanguage  
 [Back to methods index](index.md)

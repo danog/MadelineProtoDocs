@@ -2,6 +2,7 @@
 title: photos.uploadProfilePhoto
 description: Updates current user profile photo.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/photos_uploadProfilePhoto.html
 ---
 # Method: photos.uploadProfilePhoto  
 [Back to methods index](index.md)

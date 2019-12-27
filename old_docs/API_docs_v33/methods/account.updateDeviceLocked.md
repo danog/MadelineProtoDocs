@@ -2,6 +2,7 @@
 title: account.updateDeviceLocked
 description: When client-side passcode lock feature is enabled, will not show message texts in incoming [PUSH notifications](https://core.telegram.org/api/push-updates).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/account_updateDeviceLocked.html
 ---
 # Method: account.updateDeviceLocked  
 [Back to methods index](index.md)

@@ -1,1 +1,0 @@
-help.getTermsOfServiceUpdate.md

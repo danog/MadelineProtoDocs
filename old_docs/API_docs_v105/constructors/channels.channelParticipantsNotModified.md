@@ -2,6 +2,7 @@
 title: channels.channelParticipantsNotModified
 description: No new participant info could be found
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/channels_channelParticipantsNotModified.html
 ---
 # Constructor: channels.channelParticipantsNotModified  
 [Back to constructors index](index.md)

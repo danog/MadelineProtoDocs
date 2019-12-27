@@ -2,6 +2,7 @@
 title: messages.featuredStickers
 description: Featured stickersets
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/messages_featuredStickers.html
 ---
 # Constructor: messages.featuredStickers  
 [Back to constructors index](index.md)

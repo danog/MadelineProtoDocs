@@ -2,6 +2,7 @@
 title: messages.getRecentLocations
 description: Get live location history of a certain user
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_getRecentLocations.html
 ---
 # Method: messages.getRecentLocations  
 [Back to methods index](index.md)

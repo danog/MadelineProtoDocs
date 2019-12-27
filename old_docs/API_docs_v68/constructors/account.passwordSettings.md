@@ -2,6 +2,7 @@
 title: account.passwordSettings
 description: Private info associated to the password info (recovery email, telegram [passport](https://core.telegram.org/passport) info & so on)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/account_passwordSettings.html
 ---
 # Constructor: account.passwordSettings  
 [Back to constructors index](index.md)

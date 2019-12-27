@@ -2,6 +2,7 @@
 title: geochats.messagesSlice
 description: Messages slice
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/geochats_messagesSlice.html
 ---
 # Constructor: geochats.messagesSlice  
 [Back to constructors index](index.md)

@@ -2,6 +2,7 @@
 title: contacts.deleteByPhones
 description: Delete contacts by phone number
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/contacts_deleteByPhones.html
 ---
 # Method: contacts.deleteByPhones  
 [Back to methods index](index.md)

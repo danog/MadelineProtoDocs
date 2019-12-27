@@ -2,6 +2,7 @@
 title: messages.foundStickerSets
 description: Found stickersets
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/messages_foundStickerSets.html
 ---
 # Constructor: messages.foundStickerSets  
 [Back to constructors index](index.md)

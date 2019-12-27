@@ -2,6 +2,7 @@
 title: help.getNearestDc
 description: Returns info on data centre nearest to the user.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/help_getNearestDc.html
 ---
 # Method: help.getNearestDc  
 [Back to methods index](index.md)

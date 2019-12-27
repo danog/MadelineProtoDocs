@@ -2,6 +2,7 @@
 title: messages.deleteMessages
 description: Deletes messages by their identifiers.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_deleteMessages.html
 ---
 # Method: messages.deleteMessages  
 [Back to methods index](index.md)

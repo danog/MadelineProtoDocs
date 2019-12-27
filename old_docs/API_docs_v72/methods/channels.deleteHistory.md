@@ -2,6 +2,7 @@
 title: channels.deleteHistory
 description: Delete the history of a [supergroup](https://core.telegram.org/api/channel)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/channels_deleteHistory.html
 ---
 # Method: channels.deleteHistory  
 [Back to methods index](index.md)

@@ -2,6 +2,7 @@
 title: account.saveSecureValue
 description: Securely save [Telegram Passport](https://core.telegram.org/passport) document, [for more info see the passport docs »](https://core.telegram.org/passport/encryption#encryption)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/account_saveSecureValue.html
 ---
 # Method: account.saveSecureValue  
 [Back to methods index](index.md)

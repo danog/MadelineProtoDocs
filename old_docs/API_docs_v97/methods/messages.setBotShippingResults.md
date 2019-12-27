@@ -2,6 +2,7 @@
 title: messages.setBotShippingResults
 description: If you sent an invoice requesting a shipping address and the parameter is\_flexible was specified, the bot will receive an [updateBotShippingQuery](../constructors/updateBotShippingQuery.md) update. Use this method to reply to shipping queries.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_setBotShippingResults.html
 ---
 # Method: messages.setBotShippingResults  
 [Back to methods index](index.md)

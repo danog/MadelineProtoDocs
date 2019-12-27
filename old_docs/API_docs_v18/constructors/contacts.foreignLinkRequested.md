@@ -2,6 +2,7 @@
 title: contacts.foreignLinkRequested
 description: Foreign link requested
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/contacts_foreignLinkRequested.html
 ---
 # Constructor: contacts.foreignLinkRequested  
 [Back to constructors index](index.md)

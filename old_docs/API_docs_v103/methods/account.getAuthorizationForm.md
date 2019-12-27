@@ -2,6 +2,7 @@
 title: account.getAuthorizationForm
 description: Returns a Telegram Passport authorization form for sharing data with a service
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/account_getAuthorizationForm.html
 ---
 # Method: account.getAuthorizationForm  
 [Back to methods index](index.md)

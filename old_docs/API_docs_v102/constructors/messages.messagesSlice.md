@@ -2,6 +2,7 @@
 title: messages.messagesSlice
 description: Incomplete list of messages and auxiliary data.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/messages_messagesSlice.html
 ---
 # Constructor: messages.messagesSlice  
 [Back to constructors index](index.md)

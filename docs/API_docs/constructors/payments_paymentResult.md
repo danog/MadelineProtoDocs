@@ -1,1 +1,0 @@
-payments.paymentResult.md

@@ -1,1 +1,0 @@
-account.confirmPasswordEmail.md

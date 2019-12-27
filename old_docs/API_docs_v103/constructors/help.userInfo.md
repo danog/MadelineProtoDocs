@@ -2,6 +2,7 @@
 title: help.userInfo
 description: Internal use
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/help_userInfo.html
 ---
 # Constructor: help.userInfo  
 [Back to constructors index](index.md)

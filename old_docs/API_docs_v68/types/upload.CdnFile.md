@@ -2,6 +2,7 @@
 title: upload.CdnFile
 description: constructors and methods of type upload.CdnFile
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/types/upload_CdnFile.html
 ---
 # Type: upload.CdnFile  
 [Back to types index](index.md)

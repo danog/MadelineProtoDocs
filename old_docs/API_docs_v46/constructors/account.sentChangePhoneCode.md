@@ -2,6 +2,7 @@
 title: account.sentChangePhoneCode
 description: Sent change phone code
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/account_sentChangePhoneCode.html
 ---
 # Constructor: account.sentChangePhoneCode  
 [Back to constructors index](index.md)

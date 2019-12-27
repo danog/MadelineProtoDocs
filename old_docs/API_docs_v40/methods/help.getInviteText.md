@@ -2,6 +2,7 @@
 title: help.getInviteText
 description: Returns text of a text message with an invitation.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/help_getInviteText.html
 ---
 # Method: help.getInviteText  
 [Back to methods index](index.md)

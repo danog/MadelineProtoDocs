@@ -1,1 +1,0 @@
-auth.authorizationSignUpRequired.md

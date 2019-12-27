@@ -2,6 +2,7 @@
 title: help.acceptTermsOfService
 description: Accept the new terms of service
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/help_acceptTermsOfService.html
 ---
 # Method: help.acceptTermsOfService  
 [Back to methods index](index.md)

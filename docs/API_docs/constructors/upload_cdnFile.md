@@ -1,1 +1,0 @@
-upload.cdnFile.md

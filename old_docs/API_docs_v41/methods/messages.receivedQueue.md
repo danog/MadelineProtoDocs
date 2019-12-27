@@ -2,6 +2,7 @@
 title: messages.receivedQueue
 description: You cannot use this method directly
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_receivedQueue.html
 ---
 # Method: messages.receivedQueue  
 [Back to methods index](index.md)

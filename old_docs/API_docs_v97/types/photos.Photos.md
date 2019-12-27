@@ -2,6 +2,7 @@
 title: photos.Photos
 description: constructors and methods of type photos.Photos
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/types/photos_Photos.html
 ---
 # Type: photos.Photos  
 [Back to types index](index.md)

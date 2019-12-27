@@ -2,6 +2,7 @@
 title: contacts.exportCard
 description: Export contact as card
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/contacts_exportCard.html
 ---
 # Method: contacts.exportCard  
 [Back to methods index](index.md)

@@ -2,6 +2,7 @@
 title: channels.AdminLogResults
 description: constructors and methods of type channels.AdminLogResults
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/types/channels_AdminLogResults.html
 ---
 # Type: channels.AdminLogResults  
 [Back to types index](index.md)

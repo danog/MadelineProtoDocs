@@ -2,6 +2,7 @@
 title: contacts.suggested
 description: Suggested
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/contacts_suggested.html
 ---
 # Constructor: contacts.suggested  
 [Back to constructors index](index.md)

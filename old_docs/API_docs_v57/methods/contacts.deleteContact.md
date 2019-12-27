@@ -2,6 +2,7 @@
 title: contacts.deleteContact
 description: Delete a contact
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/contacts_deleteContact.html
 ---
 # Method: contacts.deleteContact  
 [Back to methods index](index.md)

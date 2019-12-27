@@ -2,6 +2,7 @@
 title: messages.getRecentStickers
 description: Get recent stickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_getRecentStickers.html
 ---
 # Method: messages.getRecentStickers  
 [Back to methods index](index.md)

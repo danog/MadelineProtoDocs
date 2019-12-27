@@ -2,6 +2,7 @@
 title: help.TermsOfServiceUpdate
 description: constructors and methods of type help.TermsOfServiceUpdate
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/types/help_TermsOfServiceUpdate.html
 ---
 # Type: help.TermsOfServiceUpdate  
 [Back to types index](index.md)

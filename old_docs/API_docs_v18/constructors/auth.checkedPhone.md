@@ -2,6 +2,7 @@
 title: auth.checkedPhone
 description: Checked phone
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/auth_checkedPhone.html
 ---
 # Constructor: auth.checkedPhone  
 [Back to constructors index](index.md)

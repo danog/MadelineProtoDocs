@@ -2,6 +2,7 @@
 title: messages.statedMessageLink
 description: Stated message link
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/messages_statedMessageLink.html
 ---
 # Constructor: messages.statedMessageLink  
 [Back to constructors index](index.md)

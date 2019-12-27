@@ -2,6 +2,7 @@
 title: contacts.Found
 description: constructors and methods of type contacts.Found
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/types/contacts_Found.html
 ---
 # Type: contacts.Found  
 [Back to types index](index.md)

@@ -2,6 +2,7 @@
 title: channels.editCreator
 description: Transfer channel ownership
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/channels_editCreator.html
 ---
 # Method: channels.editCreator  
 [Back to methods index](index.md)

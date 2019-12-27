@@ -2,6 +2,7 @@
 title: users.getUsers
 description: Returns basic user info according to their identifiers.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/users_getUsers.html
 ---
 # Method: users.getUsers  
 [Back to methods index](index.md)

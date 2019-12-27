@@ -2,6 +2,7 @@
 title: payments.getSavedInfo
 description: Get saved payment information
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/payments_getSavedInfo.html
 ---
 # Method: payments.getSavedInfo  
 [Back to methods index](index.md)

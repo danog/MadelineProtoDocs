@@ -2,6 +2,7 @@
 title: messages.sendEncryptedService
 description: Sends a service message to a secret chat.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_sendEncryptedService.html
 ---
 # Method: messages.sendEncryptedService  
 [Back to methods index](index.md)

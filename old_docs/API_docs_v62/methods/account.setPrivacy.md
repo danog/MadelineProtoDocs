@@ -2,6 +2,7 @@
 title: account.setPrivacy
 description: Change privacy settings of current account
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/account_setPrivacy.html
 ---
 # Method: account.setPrivacy  
 [Back to methods index](index.md)

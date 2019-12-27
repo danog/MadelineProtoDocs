@@ -2,6 +2,7 @@
 title: messages.setTyping
 description: Sends a current user typing event (see [SendMessageAction](../types/SendMessageAction.md) for all event types) to a conversation partner or group.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_setTyping.html
 ---
 # Method: messages.setTyping  
 [Back to methods index](index.md)

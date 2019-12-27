@@ -2,6 +2,7 @@
 title: help.UserInfo
 description: constructors and methods of type help.UserInfo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/types/help_UserInfo.html
 ---
 # Type: help.UserInfo  
 [Back to types index](index.md)

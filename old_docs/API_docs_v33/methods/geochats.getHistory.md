@@ -2,6 +2,7 @@
 title: geochats.getHistory
 description: Get geochat history
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/geochats_getHistory.html
 ---
 # Method: geochats.getHistory  
 [Back to methods index](index.md)

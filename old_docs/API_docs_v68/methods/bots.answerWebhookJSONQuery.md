@@ -2,6 +2,7 @@
 title: bots.answerWebhookJSONQuery
 description: Answers a custom query; for bots only
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/bots_answerWebhookJSONQuery.html
 ---
 # Method: bots.answerWebhookJSONQuery  
 [Back to methods index](index.md)

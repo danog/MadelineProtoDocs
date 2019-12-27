@@ -2,6 +2,7 @@
 title: messages.getSearchCounters
 description: Get the number of results that would be found by a [messages.search](../methods/messages.search.md) call with the same parameters
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_getSearchCounters.html
 ---
 # Method: messages.getSearchCounters  
 [Back to methods index](index.md)

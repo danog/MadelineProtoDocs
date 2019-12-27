@@ -2,6 +2,7 @@
 title: messages.FoundStickerSets
 description: constructors and methods of type messages.FoundStickerSets
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/types/messages_FoundStickerSets.html
 ---
 # Type: messages.FoundStickerSets  
 [Back to types index](index.md)

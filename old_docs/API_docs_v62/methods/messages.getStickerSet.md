@@ -2,6 +2,7 @@
 title: messages.getStickerSet
 description: Get info about a stickerset
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_getStickerSet.html
 ---
 # Method: messages.getStickerSet  
 [Back to methods index](index.md)

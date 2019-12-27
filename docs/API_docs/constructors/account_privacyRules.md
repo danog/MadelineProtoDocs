@@ -1,1 +1,0 @@
-account.privacyRules.md

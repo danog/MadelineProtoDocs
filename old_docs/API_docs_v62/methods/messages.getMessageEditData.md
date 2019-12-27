@@ -2,6 +2,7 @@
 title: messages.getMessageEditData
 description: Find out if a media message's caption can be edited
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_getMessageEditData.html
 ---
 # Method: messages.getMessageEditData  
 [Back to methods index](index.md)

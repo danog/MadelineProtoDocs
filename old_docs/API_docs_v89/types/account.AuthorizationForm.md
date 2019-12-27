@@ -2,6 +2,7 @@
 title: account.AuthorizationForm
 description: constructors and methods of type account.AuthorizationForm
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/types/account_AuthorizationForm.html
 ---
 # Type: account.AuthorizationForm  
 [Back to types index](index.md)

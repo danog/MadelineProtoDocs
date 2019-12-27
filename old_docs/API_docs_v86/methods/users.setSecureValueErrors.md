@@ -4,6 +4,7 @@ description: Notify the user that the sent [passport](https://core.telegram.org/
 
 Use this if the data submitted by the user doesn't satisfy the standards your service requires for any reason. For example, if a birthday date seems invalid, a submitted document is blurry, a scan shows evidence of tampering, etc. Supply some details in the error message to make sure the user knows how to correct the issues.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/users_setSecureValueErrors.html
 ---
 # Method: users.setSecureValueErrors  
 [Back to methods index](index.md)

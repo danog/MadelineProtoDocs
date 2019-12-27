@@ -2,6 +2,7 @@
 title: messages.getAttachedStickers
 description: Get stickers attached to a photo or video
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_getAttachedStickers.html
 ---
 # Method: messages.getAttachedStickers  
 [Back to methods index](index.md)

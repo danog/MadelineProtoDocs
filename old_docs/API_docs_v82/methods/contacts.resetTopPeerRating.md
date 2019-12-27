@@ -2,6 +2,7 @@
 title: contacts.resetTopPeerRating
 description: Reset [rating](https://core.telegram.org/api/top-rating) of top peer
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/contacts_resetTopPeerRating.html
 ---
 # Method: contacts.resetTopPeerRating  
 [Back to methods index](index.md)

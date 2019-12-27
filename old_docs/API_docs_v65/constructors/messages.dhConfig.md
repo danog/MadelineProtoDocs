@@ -2,6 +2,7 @@
 title: messages.dhConfig
 description: New set of configuring parameters.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/messages_dhConfig.html
 ---
 # Constructor: messages.dhConfig  
 [Back to constructors index](index.md)

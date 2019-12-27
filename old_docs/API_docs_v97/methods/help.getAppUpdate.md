@@ -2,6 +2,7 @@
 title: help.getAppUpdate
 description: Returns information on update availability for the current application.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/help_getAppUpdate.html
 ---
 # Method: help.getAppUpdate  
 [Back to methods index](index.md)

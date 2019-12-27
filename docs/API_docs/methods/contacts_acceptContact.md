@@ -1,1 +1,0 @@
-contacts.acceptContact.md

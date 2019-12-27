@@ -2,6 +2,7 @@
 title: payments.paymentReceipt
 description: Receipt
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/payments_paymentReceipt.html
 ---
 # Constructor: payments.paymentReceipt  
 [Back to constructors index](index.md)

@@ -2,6 +2,7 @@
 title: messages.channelMessages
 description: Channel messages
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/messages_channelMessages.html
 ---
 # Constructor: messages.channelMessages  
 [Back to constructors index](index.md)

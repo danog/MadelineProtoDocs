@@ -2,6 +2,7 @@
 title: messages.deactivateChat
 description: Deactivate chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_deactivateChat.html
 ---
 # Method: messages.deactivateChat  
 [Back to methods index](index.md)

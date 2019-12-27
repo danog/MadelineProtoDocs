@@ -1,1 +1,0 @@
-auth.SentCodeType.md

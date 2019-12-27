@@ -2,6 +2,7 @@
 title: messages.editChatTitle
 description: Chanages chat name and sends a service message on it.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_editChatTitle.html
 ---
 # Method: messages.editChatTitle  
 [Back to methods index](index.md)

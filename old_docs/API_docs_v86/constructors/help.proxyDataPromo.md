@@ -2,6 +2,7 @@
 title: help.proxyDataPromo
 description: Promotion channel associated to a certain MTProxy
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/help_proxyDataPromo.html
 ---
 # Constructor: help.proxyDataPromo  
 [Back to constructors index](index.md)

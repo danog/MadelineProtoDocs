@@ -2,6 +2,7 @@
 title: messages.HighScores
 description: constructors and methods of type messages.HighScores
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/types/messages_HighScores.html
 ---
 # Type: messages.HighScores  
 [Back to types index](index.md)

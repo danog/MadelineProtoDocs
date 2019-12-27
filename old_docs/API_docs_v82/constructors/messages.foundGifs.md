@@ -2,6 +2,7 @@
 title: messages.foundGifs
 description: Found GIFs
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/messages_foundGifs.html
 ---
 # Constructor: messages.foundGifs  
 [Back to constructors index](index.md)

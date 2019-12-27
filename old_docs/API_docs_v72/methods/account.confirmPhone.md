@@ -2,6 +2,7 @@
 title: account.confirmPhone
 description: Confirm a phone number to cancel account deletion, for more info [click here »](https://core.telegram.org/api/account-deletion)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/account_confirmPhone.html
 ---
 # Method: account.confirmPhone  
 [Back to methods index](index.md)

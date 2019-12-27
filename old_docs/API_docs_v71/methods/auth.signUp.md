@@ -2,6 +2,7 @@
 title: auth.signUp
 description: You cannot use this method directly, use the completeSignup method instead (see https://docs.madelineproto.xyz for more info)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/auth_signUp.html
 ---
 # Method: auth.signUp  
 [Back to methods index](index.md)

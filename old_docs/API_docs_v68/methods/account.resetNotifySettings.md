@@ -2,6 +2,7 @@
 title: account.resetNotifySettings
 description: Resets all notification settings from users and groups.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/account_resetNotifySettings.html
 ---
 # Method: account.resetNotifySettings  
 [Back to methods index](index.md)

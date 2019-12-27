@@ -2,6 +2,7 @@
 title: upload.getWebFile
 description: Returns content of an HTTP file or a part, by proxying the request through telegram.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/upload_getWebFile.html
 ---
 # Method: upload.getWebFile  
 [Back to methods index](index.md)

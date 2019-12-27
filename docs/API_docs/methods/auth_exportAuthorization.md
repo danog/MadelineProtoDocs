@@ -1,1 +1,0 @@
-auth.exportAuthorization.md

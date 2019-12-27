@@ -1,1 +1,0 @@
-messages.StickerSetInstallResult.md

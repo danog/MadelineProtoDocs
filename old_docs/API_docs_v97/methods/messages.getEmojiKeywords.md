@@ -2,6 +2,7 @@
 title: messages.getEmojiKeywords
 description: Get localized emoji keywords
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_getEmojiKeywords.html
 ---
 # Method: messages.getEmojiKeywords  
 [Back to methods index](index.md)

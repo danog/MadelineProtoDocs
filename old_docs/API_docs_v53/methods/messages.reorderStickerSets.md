@@ -2,6 +2,7 @@
 title: messages.reorderStickerSets
 description: Reorder installed stickersets
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_reorderStickerSets.html
 ---
 # Method: messages.reorderStickerSets  
 [Back to methods index](index.md)

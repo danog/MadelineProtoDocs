@@ -2,6 +2,7 @@
 title: messages.StickerSetInstallResult
 description: constructors and methods of type messages.StickerSetInstallResult
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/types/messages_StickerSetInstallResult.html
 ---
 # Type: messages.StickerSetInstallResult  
 [Back to types index](index.md)

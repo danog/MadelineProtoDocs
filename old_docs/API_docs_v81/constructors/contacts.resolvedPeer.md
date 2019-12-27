@@ -2,6 +2,7 @@
 title: contacts.resolvedPeer
 description: Resolved peer
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/contacts_resolvedPeer.html
 ---
 # Constructor: contacts.resolvedPeer  
 [Back to constructors index](index.md)

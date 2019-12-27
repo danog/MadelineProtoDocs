@@ -2,6 +2,7 @@
 title: messages.AffectedHistory
 description: constructors and methods of type messages.AffectedHistory
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/types/messages_AffectedHistory.html
 ---
 # Type: messages.AffectedHistory  
 [Back to types index](index.md)

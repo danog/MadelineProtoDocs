@@ -2,6 +2,7 @@
 title: account.sendChangePhoneCode
 description: Verify a new phone number to associate to the current account
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/account_sendChangePhoneCode.html
 ---
 # Method: account.sendChangePhoneCode  
 [Back to methods index](index.md)

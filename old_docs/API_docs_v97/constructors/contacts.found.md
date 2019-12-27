@@ -2,6 +2,7 @@
 title: contacts.found
 description: Users found by name substring and auxiliary data.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/contacts_found.html
 ---
 # Constructor: contacts.found  
 [Back to constructors index](index.md)

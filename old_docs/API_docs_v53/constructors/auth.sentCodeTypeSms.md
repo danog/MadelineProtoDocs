@@ -2,6 +2,7 @@
 title: auth.sentCodeTypeSms
 description: The code was sent via SMS
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/auth_sentCodeTypeSms.html
 ---
 # Constructor: auth.sentCodeTypeSms  
 [Back to constructors index](index.md)

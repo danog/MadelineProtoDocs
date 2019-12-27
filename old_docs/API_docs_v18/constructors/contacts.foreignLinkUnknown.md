@@ -2,6 +2,7 @@
 title: contacts.foreignLinkUnknown
 description: Foreign link unknown
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/contacts_foreignLinkUnknown.html
 ---
 # Constructor: contacts.foreignLinkUnknown  
 [Back to constructors index](index.md)

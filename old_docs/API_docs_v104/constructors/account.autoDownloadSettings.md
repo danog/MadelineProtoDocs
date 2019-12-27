@@ -2,6 +2,7 @@
 title: account.autoDownloadSettings
 description: Media autodownload settings
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/account_autoDownloadSettings.html
 ---
 # Constructor: account.autoDownloadSettings  
 [Back to constructors index](index.md)

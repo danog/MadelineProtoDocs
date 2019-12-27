@@ -2,6 +2,7 @@
 title: messages.saveGif
 description: Add GIF to saved gifs list
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_saveGif.html
 ---
 # Method: messages.saveGif  
 [Back to methods index](index.md)

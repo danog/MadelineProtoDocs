@@ -2,6 +2,7 @@
 title: messages.uploadMedia
 description: Upload a file and associate it to a chat (without actually sending it to the chat)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_uploadMedia.html
 ---
 # Method: messages.uploadMedia  
 [Back to methods index](index.md)

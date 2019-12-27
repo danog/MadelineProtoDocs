@@ -2,6 +2,7 @@
 title: auth.exportedAuthorization
 description: Data for copying of authorization between data centres.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/auth_exportedAuthorization.html
 ---
 # Constructor: auth.exportedAuthorization  
 [Back to constructors index](index.md)

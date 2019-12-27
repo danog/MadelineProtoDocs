@@ -1,1 +1,0 @@
-account.confirmPhone.md

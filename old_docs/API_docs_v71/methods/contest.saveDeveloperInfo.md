@@ -2,6 +2,7 @@
 title: contest.saveDeveloperInfo
 description: Save developer info for telegram contest
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/contest_saveDeveloperInfo.html
 ---
 # Method: contest.saveDeveloperInfo  
 [Back to methods index](index.md)

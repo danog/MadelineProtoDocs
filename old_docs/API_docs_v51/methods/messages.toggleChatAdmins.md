@@ -2,6 +2,7 @@
 title: messages.toggleChatAdmins
 description: Enable all users are admins in normal groups (not supergroups)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_toggleChatAdmins.html
 ---
 # Method: messages.toggleChatAdmins  
 [Back to methods index](index.md)

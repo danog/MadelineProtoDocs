@@ -2,6 +2,7 @@
 title: payments.validatedRequestedInfo
 description: Validated user-provided info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/payments_validatedRequestedInfo.html
 ---
 # Constructor: payments.validatedRequestedInfo  
 [Back to constructors index](index.md)

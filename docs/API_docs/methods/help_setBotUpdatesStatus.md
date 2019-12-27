@@ -1,1 +1,0 @@
-help.setBotUpdatesStatus.md

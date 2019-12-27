@@ -2,6 +2,7 @@
 title: payments.paymentVerficationNeeded
 description: Payment verfication needed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/payments_paymentVerficationNeeded.html
 ---
 # Constructor: payments.paymentVerficationNeeded  
 [Back to constructors index](index.md)

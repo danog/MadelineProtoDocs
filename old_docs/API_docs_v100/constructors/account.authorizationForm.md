@@ -2,6 +2,7 @@
 title: account.authorizationForm
 description: [Telegram Passport](https://core.telegram.org/passport) authorization form
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/account_authorizationForm.html
 ---
 # Constructor: account.authorizationForm  
 [Back to constructors index](index.md)

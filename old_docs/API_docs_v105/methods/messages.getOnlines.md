@@ -2,6 +2,7 @@
 title: messages.getOnlines
 description: Get count of online users in a chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_getOnlines.html
 ---
 # Method: messages.getOnlines  
 [Back to methods index](index.md)

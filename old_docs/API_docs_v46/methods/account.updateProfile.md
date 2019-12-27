@@ -2,6 +2,7 @@
 title: account.updateProfile
 description: Updates user profile.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/account_updateProfile.html
 ---
 # Method: account.updateProfile  
 [Back to methods index](index.md)

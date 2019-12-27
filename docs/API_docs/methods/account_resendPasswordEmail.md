@@ -1,1 +1,0 @@
-account.resendPasswordEmail.md

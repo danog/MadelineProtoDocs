@@ -2,6 +2,7 @@
 title: help.termsOfService
 description: Info about the latest telegram Terms Of Service
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/help_termsOfService.html
 ---
 # Constructor: help.termsOfService  
 [Back to constructors index](index.md)

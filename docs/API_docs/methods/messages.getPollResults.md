@@ -2,6 +2,7 @@
 title: messages.getPollResults
 description: Get poll results
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_getPollResults.html
 ---
 # Method: messages.getPollResults  
 [Back to methods index](index.md)

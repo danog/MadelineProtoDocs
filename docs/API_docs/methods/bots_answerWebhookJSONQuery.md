@@ -1,1 +1,0 @@
-bots.answerWebhookJSONQuery.md

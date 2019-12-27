@@ -2,6 +2,7 @@
 title: auth.importBotAuthorization
 description: You cannot use this method directly, use the botLogin method instead (see https://docs.madelineproto.xyz for more info)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/auth_importBotAuthorization.html
 ---
 # Method: auth.importBotAuthorization  
 [Back to methods index](index.md)

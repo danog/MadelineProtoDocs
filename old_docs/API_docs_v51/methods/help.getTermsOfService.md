@@ -2,6 +2,7 @@
 title: help.getTermsOfService
 description: Get terms of service
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/help_getTermsOfService.html
 ---
 # Method: help.getTermsOfService  
 [Back to methods index](index.md)

@@ -1,1 +1,0 @@
-channels.ChannelParticipant.md

@@ -2,6 +2,7 @@
 title: messages.chatFull
 description: Extended info on chat and auxiliary data.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/messages_chatFull.html
 ---
 # Constructor: messages.chatFull  
 [Back to constructors index](index.md)

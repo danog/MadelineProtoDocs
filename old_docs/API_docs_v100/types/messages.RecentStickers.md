@@ -2,6 +2,7 @@
 title: messages.RecentStickers
 description: constructors and methods of type messages.RecentStickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/types/messages_RecentStickers.html
 ---
 # Type: messages.RecentStickers  
 [Back to types index](index.md)

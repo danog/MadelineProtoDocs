@@ -2,6 +2,7 @@
 title: geochats.statedMessage
 description: Stated message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/geochats_statedMessage.html
 ---
 # Constructor: geochats.statedMessage  
 [Back to constructors index](index.md)

@@ -2,6 +2,7 @@
 title: messages.getWebPagePreview
 description: Get preview of webpage
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_getWebPagePreview.html
 ---
 # Method: messages.getWebPagePreview  
 [Back to methods index](index.md)

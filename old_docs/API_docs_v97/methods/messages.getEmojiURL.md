@@ -2,6 +2,7 @@
 title: messages.getEmojiURL
 description: Returns an HTTP URL which can be used to automatically log in into translation platform and suggest new emoji replacements. The URL will be valid for 30 seconds after generation
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_getEmojiURL.html
 ---
 # Method: messages.getEmojiURL  
 [Back to methods index](index.md)

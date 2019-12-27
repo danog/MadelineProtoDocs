@@ -2,6 +2,7 @@
 title: auth.passwordRecovery
 description: Recovery info of a [2FA password](https://core.telegram.org/api/srp), only for accounts with a [recovery email configured](https://core.telegram.org/api/srp#email-verification).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/auth_passwordRecovery.html
 ---
 # Constructor: auth.passwordRecovery  
 [Back to constructors index](index.md)

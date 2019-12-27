@@ -2,6 +2,7 @@
 title: account.wallPapers
 description: Installed wallpapers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/account_wallPapers.html
 ---
 # Constructor: account.wallPapers  
 [Back to constructors index](index.md)

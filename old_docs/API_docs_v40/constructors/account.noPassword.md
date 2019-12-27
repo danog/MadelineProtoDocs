@@ -2,6 +2,7 @@
 title: account.noPassword
 description: No password
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/account_noPassword.html
 ---
 # Constructor: account.noPassword  
 [Back to constructors index](index.md)

@@ -2,6 +2,7 @@
 title: messages.getWebPage
 description: Get [instant view](https://instantview.telegram.org) page
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_getWebPage.html
 ---
 # Method: messages.getWebPage  
 [Back to methods index](index.md)

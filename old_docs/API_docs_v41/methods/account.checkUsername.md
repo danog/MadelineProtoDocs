@@ -2,6 +2,7 @@
 title: account.checkUsername
 description: Validates a username and checks availability.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/account_checkUsername.html
 ---
 # Method: account.checkUsername  
 [Back to methods index](index.md)

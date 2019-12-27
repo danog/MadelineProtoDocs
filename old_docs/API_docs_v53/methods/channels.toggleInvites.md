@@ -2,6 +2,7 @@
 title: channels.toggleInvites
 description: Allow or disallow any user to invite users to this channel/supergroup
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/channels_toggleInvites.html
 ---
 # Method: channels.toggleInvites  
 [Back to methods index](index.md)

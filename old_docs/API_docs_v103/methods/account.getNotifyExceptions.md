@@ -2,6 +2,7 @@
 title: account.getNotifyExceptions
 description: Returns list of chats with non-default notification settings
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/account_getNotifyExceptions.html
 ---
 # Method: account.getNotifyExceptions  
 [Back to methods index](index.md)

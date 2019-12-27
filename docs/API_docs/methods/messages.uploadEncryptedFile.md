@@ -2,6 +2,7 @@
 title: messages.uploadEncryptedFile
 description: Upload encrypted file and associate it to a secret chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_uploadEncryptedFile.html
 ---
 # Method: messages.uploadEncryptedFile  
 [Back to methods index](index.md)

@@ -2,6 +2,7 @@
 title: channels.editBanned
 description: Ban/unban/kick a user in a [supergroup/channel](https://core.telegram.org/api/channel).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/channels_editBanned.html
 ---
 # Method: channels.editBanned  
 [Back to methods index](index.md)

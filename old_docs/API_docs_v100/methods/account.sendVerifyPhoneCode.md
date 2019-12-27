@@ -2,6 +2,7 @@
 title: account.sendVerifyPhoneCode
 description: Send the verification phone code for telegram [passport](https://core.telegram.org/passport).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/account_sendVerifyPhoneCode.html
 ---
 # Method: account.sendVerifyPhoneCode  
 [Back to methods index](index.md)

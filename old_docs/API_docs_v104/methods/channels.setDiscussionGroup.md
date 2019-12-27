@@ -2,6 +2,7 @@
 title: channels.setDiscussionGroup
 description: Associate a group to a channel as [discussion group](https://telegram.org/blog/privacy-discussions-web-bots) for that channel
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/channels_setDiscussionGroup.html
 ---
 # Method: channels.setDiscussionGroup  
 [Back to methods index](index.md)

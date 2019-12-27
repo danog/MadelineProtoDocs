@@ -2,6 +2,7 @@
 title: messages.highScores
 description: Highscores in a game
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/messages_highScores.html
 ---
 # Constructor: messages.highScores  
 [Back to constructors index](index.md)

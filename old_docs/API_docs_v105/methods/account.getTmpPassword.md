@@ -2,6 +2,7 @@
 title: account.getTmpPassword
 description: Get temporary payment password
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/account_getTmpPassword.html
 ---
 # Method: account.getTmpPassword  
 [Back to methods index](index.md)

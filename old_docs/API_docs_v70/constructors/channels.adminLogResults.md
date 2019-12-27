@@ -2,6 +2,7 @@
 title: channels.adminLogResults
 description: Admin log events
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/channels_adminLogResults.html
 ---
 # Constructor: channels.adminLogResults  
 [Back to constructors index](index.md)

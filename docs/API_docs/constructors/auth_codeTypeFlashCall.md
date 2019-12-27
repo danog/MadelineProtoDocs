@@ -1,1 +1,0 @@
-auth.codeTypeFlashCall.md

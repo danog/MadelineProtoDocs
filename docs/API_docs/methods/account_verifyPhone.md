@@ -1,1 +1,0 @@
-account.verifyPhone.md

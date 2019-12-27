@@ -2,6 +2,7 @@
 title: account.installTheme
 description: Install a theme
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/account_installTheme.html
 ---
 # Method: account.installTheme  
 [Back to methods index](index.md)

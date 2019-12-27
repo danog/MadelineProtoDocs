@@ -2,6 +2,7 @@
 title: updates.difference
 description: Full list of occurred events.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/updates_difference.html
 ---
 # Constructor: updates.difference  
 [Back to constructors index](index.md)

@@ -2,6 +2,7 @@
 title: account.getContactSignUpNotification
 description: Whether the user will receive notifications when contacts sign up
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/account_getContactSignUpNotification.html
 ---
 # Method: account.getContactSignUpNotification  
 [Back to methods index](index.md)

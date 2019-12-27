@@ -2,6 +2,7 @@
 title: help.configSimple
 description: Config simple
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/help_configSimple.html
 ---
 # Constructor: help.configSimple  
 [Back to constructors index](index.md)

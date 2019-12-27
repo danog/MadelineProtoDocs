@@ -2,6 +2,7 @@
 title: messages.getChannelDialogs
 description: Get channel/supergruop dialogs
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_getChannelDialogs.html
 ---
 # Method: messages.getChannelDialogs  
 [Back to methods index](index.md)

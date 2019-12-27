@@ -2,6 +2,7 @@
 title: account.resetAuthorization
 description: Log out an active [authorized session](https://core.telegram.org/api/auth) by its hash
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/account_resetAuthorization.html
 ---
 # Method: account.resetAuthorization  
 [Back to methods index](index.md)

@@ -2,6 +2,7 @@
 title: messages.sendScheduledMessages
 description: Send scheduled messages right away
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_sendScheduledMessages.html
 ---
 # Method: messages.sendScheduledMessages  
 [Back to methods index](index.md)

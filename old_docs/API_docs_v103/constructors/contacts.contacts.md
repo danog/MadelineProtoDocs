@@ -2,6 +2,7 @@
 title: contacts.contacts
 description: The current user's contact list and info on users.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/contacts_contacts.html
 ---
 # Constructor: contacts.contacts  
 [Back to constructors index](index.md)

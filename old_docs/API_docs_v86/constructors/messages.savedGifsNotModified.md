@@ -2,6 +2,7 @@
 title: messages.savedGifsNotModified
 description: No new saved gifs were found
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/messages_savedGifsNotModified.html
 ---
 # Constructor: messages.savedGifsNotModified  
 [Back to constructors index](index.md)

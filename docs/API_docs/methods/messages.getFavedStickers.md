@@ -2,6 +2,7 @@
 title: messages.getFavedStickers
 description: Get faved stickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_getFavedStickers.html
 ---
 # Method: messages.getFavedStickers  
 [Back to methods index](index.md)

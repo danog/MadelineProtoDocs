@@ -2,6 +2,7 @@
 title: channels.toggleComments
 description: Enable channel comments
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/channels_toggleComments.html
 ---
 # Method: channels.toggleComments  
 [Back to methods index](index.md)

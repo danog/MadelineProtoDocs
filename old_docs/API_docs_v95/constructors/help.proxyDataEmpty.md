@@ -2,6 +2,7 @@
 title: help.proxyDataEmpty
 description: No proxy was used to connect to tg (or none was provided to [initConnection](../methods/initConnection.md), or the used proxy doesn't have a promotion channel associated to it)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/help_proxyDataEmpty.html
 ---
 # Constructor: help.proxyDataEmpty  
 [Back to constructors index](index.md)

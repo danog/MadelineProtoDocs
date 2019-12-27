@@ -2,6 +2,7 @@
 title: channels.getParticipants
 description: Get the participants of a channel
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/channels_getParticipants.html
 ---
 # Method: channels.getParticipants  
 [Back to methods index](index.md)

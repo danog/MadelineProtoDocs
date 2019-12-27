@@ -2,6 +2,7 @@
 title: help.editUserInfo
 description: Internal use
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/help_editUserInfo.html
 ---
 # Method: help.editUserInfo  
 [Back to methods index](index.md)

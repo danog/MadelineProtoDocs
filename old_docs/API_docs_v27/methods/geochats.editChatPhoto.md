@@ -2,6 +2,7 @@
 title: geochats.editChatPhoto
 description: Edit geochat photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/geochats_editChatPhoto.html
 ---
 # Method: geochats.editChatPhoto  
 [Back to methods index](index.md)

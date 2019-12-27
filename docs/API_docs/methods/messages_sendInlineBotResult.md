@@ -1,1 +1,0 @@
-messages.sendInlineBotResult.md

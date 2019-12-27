@@ -2,6 +2,7 @@
 title: auth.exportAuthorization
 description: You cannot use this method directly, use $MadelineProto->exportAuthorization() instead, see https://docs.madelineproto.xyz/docs/LOGIN.html
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/auth_exportAuthorization.html
 ---
 # Method: auth.exportAuthorization  
 [Back to methods index](index.md)

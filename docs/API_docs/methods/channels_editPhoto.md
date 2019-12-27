@@ -1,1 +1,0 @@
-channels.editPhoto.md

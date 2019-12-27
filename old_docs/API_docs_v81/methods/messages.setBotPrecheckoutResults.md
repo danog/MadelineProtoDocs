@@ -4,6 +4,7 @@ description: Once the user has confirmed their payment and shipping details, the
 Use this method to respond to such pre-checkout queries.  
 **Note**: Telegram must receive an answer within 10 seconds after the pre-checkout query was sent.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_setBotPrecheckoutResults.html
 ---
 # Method: messages.setBotPrecheckoutResults  
 [Back to methods index](index.md)

@@ -2,6 +2,7 @@
 title: updates.channelDifferenceEmpty
 description: There are no new updates
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/updates_channelDifferenceEmpty.html
 ---
 # Constructor: updates.channelDifferenceEmpty  
 [Back to constructors index](index.md)

@@ -2,6 +2,7 @@
 title: geochats.sendMessage
 description: Send message to geochat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/geochats_sendMessage.html
 ---
 # Method: geochats.sendMessage  
 [Back to methods index](index.md)

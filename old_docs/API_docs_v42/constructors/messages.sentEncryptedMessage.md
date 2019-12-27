@@ -2,6 +2,7 @@
 title: messages.sentEncryptedMessage
 description: Message without file attachemts sent to an encrypted file.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/messages_sentEncryptedMessage.html
 ---
 # Constructor: messages.sentEncryptedMessage  
 [Back to constructors index](index.md)

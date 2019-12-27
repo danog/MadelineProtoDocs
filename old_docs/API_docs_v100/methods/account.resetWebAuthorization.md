@@ -2,6 +2,7 @@
 title: account.resetWebAuthorization
 description: Log out an active web [telegram login](https://core.telegram.org/widgets/login) session
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/account_resetWebAuthorization.html
 ---
 # Method: account.resetWebAuthorization  
 [Back to methods index](index.md)

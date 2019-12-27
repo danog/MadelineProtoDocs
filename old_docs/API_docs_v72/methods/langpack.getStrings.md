@@ -2,6 +2,7 @@
 title: langpack.getStrings
 description: Get strings from a language pack
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/langpack_getStrings.html
 ---
 # Method: langpack.getStrings  
 [Back to methods index](index.md)

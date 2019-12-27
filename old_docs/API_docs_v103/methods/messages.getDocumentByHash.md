@@ -2,6 +2,7 @@
 title: messages.getDocumentByHash
 description: Get a document by its SHA256 hash, mainly used for gifs
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_getDocumentByHash.html
 ---
 # Method: messages.getDocumentByHash  
 [Back to methods index](index.md)

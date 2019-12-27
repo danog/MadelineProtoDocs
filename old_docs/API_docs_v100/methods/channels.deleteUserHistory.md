@@ -2,6 +2,7 @@
 title: channels.deleteUserHistory
 description: Delete all messages sent by a certain user in a [supergroup](https://core.telegram.org/api/channel)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/channels_deleteUserHistory.html
 ---
 # Method: channels.deleteUserHistory  
 [Back to methods index](index.md)

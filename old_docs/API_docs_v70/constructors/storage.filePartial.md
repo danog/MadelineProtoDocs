@@ -2,6 +2,7 @@
 title: storage.filePartial
 description: Part of a bigger file.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/storage_filePartial.html
 ---
 # Constructor: storage.filePartial  
 [Back to constructors index](index.md)

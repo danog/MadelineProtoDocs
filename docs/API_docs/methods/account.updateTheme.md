@@ -2,6 +2,7 @@
 title: account.updateTheme
 description: Update theme
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/account_updateTheme.html
 ---
 # Method: account.updateTheme  
 [Back to methods index](index.md)

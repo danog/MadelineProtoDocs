@@ -2,6 +2,7 @@
 title: messages.getDhConfig
 description: You cannot use this method directly, instead use $MadelineProto->getDhConfig();
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_getDhConfig.html
 ---
 # Method: messages.getDhConfig  
 [Back to methods index](index.md)

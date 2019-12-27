@@ -2,6 +2,7 @@
 title: help.PassportConfig
 description: constructors and methods of type help.PassportConfig
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/types/help_PassportConfig.html
 ---
 # Type: help.PassportConfig  
 [Back to types index](index.md)

@@ -1,1 +1,0 @@
-langpack.getStrings.md

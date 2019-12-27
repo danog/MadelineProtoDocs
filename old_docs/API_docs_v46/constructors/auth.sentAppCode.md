@@ -2,6 +2,7 @@
 title: auth.sentAppCode
 description: Sent app code
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/auth_sentAppCode.html
 ---
 # Constructor: auth.sentAppCode  
 [Back to constructors index](index.md)

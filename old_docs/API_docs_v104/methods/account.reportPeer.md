@@ -2,6 +2,7 @@
 title: account.reportPeer
 description: Report a peer for violation of telegram's Terms of Service
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/account_reportPeer.html
 ---
 # Method: account.reportPeer  
 [Back to methods index](index.md)

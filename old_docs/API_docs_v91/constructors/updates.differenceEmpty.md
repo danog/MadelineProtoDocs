@@ -2,6 +2,7 @@
 title: updates.differenceEmpty
 description: No events.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/updates_differenceEmpty.html
 ---
 # Constructor: updates.differenceEmpty  
 [Back to constructors index](index.md)

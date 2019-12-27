@@ -2,6 +2,7 @@
 title: auth.sentCodeTypeFlashCall
 description: The code will be sent via a flash phone call, that will be closed immediately. The phone code will then be the phone number itself, just make sure that the phone number matches the specified pattern.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/auth_sentCodeTypeFlashCall.html
 ---
 # Constructor: auth.sentCodeTypeFlashCall  
 [Back to constructors index](index.md)

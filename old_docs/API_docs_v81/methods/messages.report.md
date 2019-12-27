@@ -2,6 +2,7 @@
 title: messages.report
 description: Report a message in a chat for violation of telegram's Terms of Service
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_report.html
 ---
 # Method: messages.report  
 [Back to methods index](index.md)

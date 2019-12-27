@@ -2,6 +2,7 @@
 title: messages.botResults
 description: Result of a query to an inline bot
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/messages_botResults.html
 ---
 # Constructor: messages.botResults  
 [Back to constructors index](index.md)

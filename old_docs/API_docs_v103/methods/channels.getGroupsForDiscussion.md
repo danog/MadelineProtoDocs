@@ -2,6 +2,7 @@
 title: channels.getGroupsForDiscussion
 description: Get all groups that can be used as [discussion groups](https://telegram.org/blog/privacy-discussions-web-bots)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/channels_getGroupsForDiscussion.html
 ---
 # Method: channels.getGroupsForDiscussion  
 [Back to methods index](index.md)

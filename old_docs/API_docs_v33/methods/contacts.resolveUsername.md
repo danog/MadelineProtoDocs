@@ -2,6 +2,7 @@
 title: contacts.resolveUsername
 description: You cannot use this method directly, use the resolveUsername, getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/contacts_resolveUsername.html
 ---
 # Method: contacts.resolveUsername  
 [Back to methods index](index.md)

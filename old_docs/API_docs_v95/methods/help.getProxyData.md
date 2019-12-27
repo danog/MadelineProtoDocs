@@ -2,6 +2,7 @@
 title: help.getProxyData
 description: Get promotion info of the currently-used MTProxy
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/help_getProxyData.html
 ---
 # Method: help.getProxyData  
 [Back to methods index](index.md)

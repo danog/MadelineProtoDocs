@@ -2,6 +2,7 @@
 title: messages.readMessageContents
 description: Notifies the sender about the recipient having listened a voice message or watched a video.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/messages_readMessageContents.html
 ---
 # Method: messages.readMessageContents  
 [Back to methods index](index.md)

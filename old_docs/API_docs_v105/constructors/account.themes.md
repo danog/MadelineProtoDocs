@@ -2,6 +2,7 @@
 title: account.themes
 description: Installed themes
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/account_themes.html
 ---
 # Constructor: account.themes  
 [Back to constructors index](index.md)

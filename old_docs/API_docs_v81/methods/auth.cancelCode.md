@@ -2,6 +2,7 @@
 title: auth.cancelCode
 description: Cancel the login verification code
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/auth_cancelCode.html
 ---
 # Method: auth.cancelCode  
 [Back to methods index](index.md)

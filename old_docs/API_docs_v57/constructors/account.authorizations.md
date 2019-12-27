@@ -2,6 +2,7 @@
 title: account.authorizations
 description: Logged-in sessions
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/account_authorizations.html
 ---
 # Constructor: account.authorizations  
 [Back to constructors index](index.md)

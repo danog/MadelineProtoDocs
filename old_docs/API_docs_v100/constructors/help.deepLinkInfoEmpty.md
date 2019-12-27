@@ -2,6 +2,7 @@
 title: help.deepLinkInfoEmpty
 description: Deep link info empty
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/help_deepLinkInfoEmpty.html
 ---
 # Constructor: help.deepLinkInfoEmpty  
 [Back to constructors index](index.md)

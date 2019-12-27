@@ -2,6 +2,7 @@
 title: contacts.getStatuses
 description: Returns the list of contact statuses.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/contacts_getStatuses.html
 ---
 # Method: contacts.getStatuses  
 [Back to methods index](index.md)
