@@ -100,9 +100,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.readMessageContents.html" name="messages.readMessageContents">Notifies the sender about the recipient having listened a voice message or watched a video: messages.readMessageContents</a>
 
-* <a href="account.registerDevice.html" name="account.registerDevice">Register device to receive [PUSH notifications](https://core.telegram.org/api/push-updates): account.registerDevice</a>
+* <a href="account.registerDevice.html" name="account.registerDevice">Register device to receive PUSH notifications: account.registerDevice</a>
 
-* <a href="messages.reportSpam.html" name="messages.reportSpam">Report a new incoming chat for spam, if the [peer settings](../constructors/peerSettings.md) of the chat allow us to do that: messages.reportSpam</a>
+* <a href="messages.reportSpam.html" name="messages.reportSpam">Report a new incoming chat for spam, if the peer settings of the chat allow us to do that: messages.reportSpam</a>
 
 * <a href="account.resetNotifySettings.html" name="account.resetNotifySettings">Resets all notification settings from users and groups: account.resetNotifySettings</a>
 
@@ -148,7 +148,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="auth.sendCall.html" name="auth.sendCall">Send verification phone call: auth.sendCall</a>
 
-* <a href="messages.setTyping.html" name="messages.setTyping">Sends a current user typing event (see [SendMessageAction](../types/SendMessageAction.md) for all event types) to a conversation partner or group: messages.setTyping</a>
+* <a href="messages.setTyping.html" name="messages.setTyping">Sends a current user typing event (see SendMessageAction for all event types) to a conversation partner or group: messages.setTyping</a>
 
 * <a href="messages.sendMessage.html" name="messages.sendMessage">Sends a message to a chat: messages.sendMessage</a>
 
