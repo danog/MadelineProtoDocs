@@ -18,7 +18,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->req->DH->params](../methods/req_DH_params.md)  
+[$MadelineProto->req\_DH\_params](../methods/req_DH_params.md)  
 
 
 

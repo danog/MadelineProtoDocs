@@ -20,7 +20,7 @@ Create a stickerset, bots only.
 |stickers|Array of [InputStickerSetItem](../types/InputStickerSetItem.md) | The stickers to add | Yes|
 
 
-### Return type: [messages\_StickerSet](../types/messages_StickerSet.md)
+### Return type: [messages.StickerSet](../types/messages.StickerSet.md)
 
 ### Can bots use this method: **YES**
 
@@ -37,13 +37,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_StickerSet = $MadelineProto->stickers->createStickerSet(['masks' => Bool, 'user_id' => InputUser, 'title' => 'string', 'short_name' => 'string', 'stickers' => [InputStickerSetItem, InputStickerSetItem], ]);
+$messages.StickerSet = $MadelineProto->stickers->createStickerSet(['masks' => Bool, 'user_id' => InputUser, 'title' => 'string', 'short_name' => 'string', 'stickers' => [InputStickerSetItem, InputStickerSetItem], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_StickerSet = stickers.createStickerSet({masks=Bool, user_id=InputUser, title='string', short_name='string', stickers={InputStickerSetItem}, })
+messages.StickerSet = stickers.createStickerSet({masks=Bool, user_id=InputUser, title='string', short_name='string', stickers={InputStickerSetItem}, })
 ```
 
 ### Errors

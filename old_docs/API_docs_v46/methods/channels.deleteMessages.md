@@ -17,7 +17,7 @@ Delete messages in a [channel/supergroup](https://core.telegram.org/api/channel)
 |id|Array of [int](../types/int.md) | The IDs of messages to delete | Yes|
 
 
-### Return type: [messages\_AffectedMessages](../types/messages_AffectedMessages.md)
+### Return type: [messages.AffectedMessages](../types/messages.AffectedMessages.md)
 
 ### Can bots use this method: **YES**
 
@@ -34,13 +34,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_AffectedMessages = $MadelineProto->channels->deleteMessages(['channel' => InputChannel, 'id' => [int, int], ]);
+$messages.AffectedMessages = $MadelineProto->channels->deleteMessages(['channel' => InputChannel, 'id' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_AffectedMessages = channels.deleteMessages({channel=InputChannel, id={int}, })
+messages.AffectedMessages = channels.deleteMessages({channel=InputChannel, id={int}, })
 ```
 
 ### Errors

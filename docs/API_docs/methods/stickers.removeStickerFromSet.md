@@ -16,7 +16,7 @@ Remove a sticker from the set where it belongs, bots only. The sticker set must 
 |sticker|[MessageMedia, Update, Message or InputDocument](../types/InputDocument.md) | The sticker to remove | Optional|
 
 
-### Return type: [messages\_StickerSet](../types/messages_StickerSet.md)
+### Return type: [messages.StickerSet](../types/messages.StickerSet.md)
 
 ### Can bots use this method: **YES**
 
@@ -33,13 +33,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_StickerSet = $MadelineProto->stickers->removeStickerFromSet(['sticker' => InputDocument, ]);
+$messages.StickerSet = $MadelineProto->stickers->removeStickerFromSet(['sticker' => InputDocument, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_StickerSet = stickers.removeStickerFromSet({sticker=InputDocument, })
+messages.StickerSet = stickers.removeStickerFromSet({sticker=InputDocument, })
 ```
 
 ### Errors

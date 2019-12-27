@@ -16,7 +16,7 @@ Get a payment form
 |msg\_id|[int](../types/int.md) | Message ID of payment form | Yes|
 
 
-### Return type: [payments\_PaymentForm](../types/payments_PaymentForm.md)
+### Return type: [payments.PaymentForm](../types/payments.PaymentForm.md)
 
 ### Can bots use this method: **NO**
 
@@ -33,13 +33,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$payments_PaymentForm = $MadelineProto->payments->getPaymentForm(['msg_id' => int, ]);
+$payments.PaymentForm = $MadelineProto->payments->getPaymentForm(['msg_id' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-payments_PaymentForm = payments.getPaymentForm({msg_id=int, })
+payments.PaymentForm = payments.getPaymentForm({msg_id=int, })
 ```
 
 ### Errors

@@ -17,7 +17,7 @@ Send media to geochat
 |media|[MessageMedia, Update, Message or InputMedia](../types/InputMedia.md) | The media | Optional|
 
 
-### Return type: [geochats\_StatedMessage](../types/geochats_StatedMessage.md)
+### Return type: [geochats.StatedMessage](../types/geochats.StatedMessage.md)
 
 ### Can bots use this method: **YES**
 
@@ -34,12 +34,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$geochats_StatedMessage = $MadelineProto->geochats->sendMedia(['peer' => InputGeoChat, 'media' => InputMedia, ]);
+$geochats.StatedMessage = $MadelineProto->geochats->sendMedia(['peer' => InputGeoChat, 'media' => InputMedia, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-geochats_StatedMessage = geochats.sendMedia({peer=InputGeoChat, media=InputMedia, })
+geochats.StatedMessage = geochats.sendMedia({peer=InputGeoChat, media=InputMedia, })
 ```
 

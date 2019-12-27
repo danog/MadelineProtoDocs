@@ -17,7 +17,7 @@ Forwards messages by their IDs.
 |id|Array of [int](../types/int.md) | The message IDs | Yes|
 
 
-### Return type: [messages\_StatedMessages](../types/messages_StatedMessages.md)
+### Return type: [messages.StatedMessages](../types/messages.StatedMessages.md)
 
 ### Can bots use this method: **YES**
 
@@ -34,13 +34,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_StatedMessages = $MadelineProto->messages->forwardMessages(['peer' => InputPeer, 'id' => [int, int], ]);
+$messages.StatedMessages = $MadelineProto->messages->forwardMessages(['peer' => InputPeer, 'id' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_StatedMessages = messages.forwardMessages({peer=InputPeer, id={int}, })
+messages.StatedMessages = messages.forwardMessages({peer=InputPeer, id={int}, })
 ```
 
 ### Errors

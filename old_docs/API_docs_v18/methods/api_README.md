@@ -80,15 +80,15 @@ $MadelineProto->[auth->bindTempAuthKey](auth.bindTempAuthKey.md)(\['perm_auth_ke
 
 ***
 <br><br>
-$MadelineProto->[auth->checkPhone](auth.checkPhone.md)(\['phone_number' => [string](../types/string.md), \]) === [$auth\_CheckedPhone](../types/auth_CheckedPhone.md)<a name="auth.checkPhone"></a>  
+$MadelineProto->[auth->checkPhone](auth.checkPhone.md)(\['phone_number' => [string](../types/string.md), \]) === [$auth.CheckedPhone](../types/auth.CheckedPhone.md)<a name="auth.checkPhone"></a>  
 
 ***
 <br><br>
-$MadelineProto->[auth->exportAuthorization](auth.exportAuthorization.md)(\['dc_id' => [int](../types/int.md), \]) === [$auth\_ExportedAuthorization](../types/auth_ExportedAuthorization.md)<a name="auth.exportAuthorization"></a>  
+$MadelineProto->[auth->exportAuthorization](auth.exportAuthorization.md)(\['dc_id' => [int](../types/int.md), \]) === [$auth.ExportedAuthorization](../types/auth.ExportedAuthorization.md)<a name="auth.exportAuthorization"></a>  
 
 ***
 <br><br>
-$MadelineProto->[auth->importAuthorization](auth.importAuthorization.md)(\['id' => [int](../types/int.md), 'bytes' => [bytes](../types/bytes.md), \]) === [$auth\_Authorization](../types/auth_Authorization.md)<a name="auth.importAuthorization"></a>  
+$MadelineProto->[auth->importAuthorization](auth.importAuthorization.md)(\['id' => [int](../types/int.md), 'bytes' => [bytes](../types/bytes.md), \]) === [$auth.Authorization](../types/auth.Authorization.md)<a name="auth.importAuthorization"></a>  
 
 ***
 <br><br>
@@ -104,7 +104,7 @@ $MadelineProto->[auth->sendCall](auth.sendCall.md)(\['phone_number' => [string](
 
 ***
 <br><br>
-$MadelineProto->[auth->sendCode](auth.sendCode.md)(\['phone_number' => [string](../types/string.md), 'sms_type' => [int](../types/int.md), 'api_id' => [int](../types/int.md), 'api_hash' => [string](../types/string.md), 'lang_code' => [string](../types/string.md), \]) === [$auth\_SentCode](../types/auth_SentCode.md)<a name="auth.sendCode"></a>  
+$MadelineProto->[auth->sendCode](auth.sendCode.md)(\['phone_number' => [string](../types/string.md), 'sms_type' => [int](../types/int.md), 'api_id' => [int](../types/int.md), 'api_hash' => [string](../types/string.md), 'lang_code' => [string](../types/string.md), \]) === [$auth.SentCode](../types/auth.SentCode.md)<a name="auth.sendCode"></a>  
 
 ***
 <br><br>
@@ -116,11 +116,11 @@ $MadelineProto->[auth->sendSms](auth.sendSms.md)(\['phone_number' => [string](..
 
 ***
 <br><br>
-$MadelineProto->[auth->signIn](auth.signIn.md)(\['phone_number' => [string](../types/string.md), 'phone_code_hash' => [string](../types/string.md), 'phone_code' => [string](../types/string.md), \]) === [$auth\_Authorization](../types/auth_Authorization.md)<a name="auth.signIn"></a>  
+$MadelineProto->[auth->signIn](auth.signIn.md)(\['phone_number' => [string](../types/string.md), 'phone_code_hash' => [string](../types/string.md), 'phone_code' => [string](../types/string.md), \]) === [$auth.Authorization](../types/auth.Authorization.md)<a name="auth.signIn"></a>  
 
 ***
 <br><br>
-$MadelineProto->[auth->signUp](auth.signUp.md)(\['phone_number' => [string](../types/string.md), 'phone_code_hash' => [string](../types/string.md), 'phone_code' => [string](../types/string.md), 'first_name' => [string](../types/string.md), 'last_name' => [string](../types/string.md), \]) === [$auth\_Authorization](../types/auth_Authorization.md)<a name="auth.signUp"></a>  
+$MadelineProto->[auth->signUp](auth.signUp.md)(\['phone_number' => [string](../types/string.md), 'phone_code_hash' => [string](../types/string.md), 'phone_code' => [string](../types/string.md), 'first_name' => [string](../types/string.md), 'last_name' => [string](../types/string.md), \]) === [$auth.Authorization](../types/auth.Authorization.md)<a name="auth.signUp"></a>  
 
 ***
 <br><br>
@@ -128,7 +128,7 @@ $MadelineProto->[contacts->block](contacts.block.md)(\['id' => [InputUser](../ty
 
 ***
 <br><br>
-$MadelineProto->[contacts->deleteContact](contacts.deleteContact.md)(\['id' => [InputUser](../types/InputUser.md), \]) === [$contacts\_Link](../types/contacts_Link.md)<a name="contacts.deleteContact"></a>  
+$MadelineProto->[contacts->deleteContact](contacts.deleteContact.md)(\['id' => [InputUser](../types/InputUser.md), \]) === [$contacts.Link](../types/contacts.Link.md)<a name="contacts.deleteContact"></a>  
 
 ***
 <br><br>
@@ -140,11 +140,11 @@ $MadelineProto->[contacts->exportCard](contacts.exportCard.md)(\[\]) === [$Vecto
 
 ***
 <br><br>
-$MadelineProto->[contacts->getBlocked](contacts.getBlocked.md)(\['offset' => [int](../types/int.md), 'limit' => [int](../types/int.md), \]) === [$contacts\_Blocked](../types/contacts_Blocked.md)<a name="contacts.getBlocked"></a>  
+$MadelineProto->[contacts->getBlocked](contacts.getBlocked.md)(\['offset' => [int](../types/int.md), 'limit' => [int](../types/int.md), \]) === [$contacts.Blocked](../types/contacts.Blocked.md)<a name="contacts.getBlocked"></a>  
 
 ***
 <br><br>
-$MadelineProto->[contacts->getContacts](contacts.getContacts.md)(\['hash' => [string](../types/string.md), \]) === [$contacts\_Contacts](../types/contacts_Contacts.md)<a name="contacts.getContacts"></a>  
+$MadelineProto->[contacts->getContacts](contacts.getContacts.md)(\['hash' => [string](../types/string.md), \]) === [$contacts.Contacts](../types/contacts.Contacts.md)<a name="contacts.getContacts"></a>  
 
 ***
 <br><br>
@@ -152,7 +152,7 @@ $MadelineProto->[contacts->getStatuses](contacts.getStatuses.md)(\[\]) === [$Vec
 
 ***
 <br><br>
-$MadelineProto->[contacts->getSuggested](contacts.getSuggested.md)(\['limit' => [int](../types/int.md), \]) === [$contacts\_Suggested](../types/contacts_Suggested.md)<a name="contacts.getSuggested"></a>  
+$MadelineProto->[contacts->getSuggested](contacts.getSuggested.md)(\['limit' => [int](../types/int.md), \]) === [$contacts.Suggested](../types/contacts.Suggested.md)<a name="contacts.getSuggested"></a>  
 
 ***
 <br><br>
@@ -160,11 +160,11 @@ $MadelineProto->[contacts->importCard](contacts.importCard.md)(\['export_card' =
 
 ***
 <br><br>
-$MadelineProto->[contacts->importContacts](contacts.importContacts.md)(\['contacts' => \[[InputContact](../types/InputContact.md)\], 'replace' => [Bool](../types/Bool.md), \]) === [$contacts\_ImportedContacts](../types/contacts_ImportedContacts.md)<a name="contacts.importContacts"></a>  
+$MadelineProto->[contacts->importContacts](contacts.importContacts.md)(\['contacts' => \[[InputContact](../types/InputContact.md)\], 'replace' => [Bool](../types/Bool.md), \]) === [$contacts.ImportedContacts](../types/contacts.ImportedContacts.md)<a name="contacts.importContacts"></a>  
 
 ***
 <br><br>
-$MadelineProto->[contacts->search](contacts.search.md)(\['q' => [string](../types/string.md), 'limit' => [int](../types/int.md), \]) === [$contacts\_Found](../types/contacts_Found.md)<a name="contacts.search"></a>  
+$MadelineProto->[contacts->search](contacts.search.md)(\['q' => [string](../types/string.md), 'limit' => [int](../types/int.md), \]) === [$contacts.Found](../types/contacts.Found.md)<a name="contacts.search"></a>  
 
 ***
 <br><br>
@@ -172,7 +172,7 @@ $MadelineProto->[contacts->unblock](contacts.unblock.md)(\['id' => [InputUser](.
 
 ***
 <br><br>
-$MadelineProto->[help->getAppUpdate](help.getAppUpdate.md)(\['device_model' => [string](../types/string.md), 'system_version' => [string](../types/string.md), 'app_version' => [string](../types/string.md), 'lang_code' => [string](../types/string.md), \]) === [$help\_AppUpdate](../types/help_AppUpdate.md)<a name="help.getAppUpdate"></a>  
+$MadelineProto->[help->getAppUpdate](help.getAppUpdate.md)(\['device_model' => [string](../types/string.md), 'system_version' => [string](../types/string.md), 'app_version' => [string](../types/string.md), 'lang_code' => [string](../types/string.md), \]) === [$help.AppUpdate](../types/help.AppUpdate.md)<a name="help.getAppUpdate"></a>  
 
 ***
 <br><br>
@@ -180,7 +180,7 @@ $MadelineProto->[help->getConfig](help.getConfig.md)(\[\]) === [$Config](../type
 
 ***
 <br><br>
-$MadelineProto->[help->getInviteText](help.getInviteText.md)(\['lang_code' => [string](../types/string.md), \]) === [$help\_InviteText](../types/help_InviteText.md)<a name="help.getInviteText"></a>  
+$MadelineProto->[help->getInviteText](help.getInviteText.md)(\['lang_code' => [string](../types/string.md), \]) === [$help.InviteText](../types/help.InviteText.md)<a name="help.getInviteText"></a>  
 
 ***
 <br><br>
@@ -188,7 +188,7 @@ $MadelineProto->[help->getNearestDc](help.getNearestDc.md)(\[\]) === [$NearestDc
 
 ***
 <br><br>
-$MadelineProto->[help->getSupport](help.getSupport.md)(\[\]) === [$help\_Support](../types/help_Support.md)<a name="help.getSupport"></a>  
+$MadelineProto->[help->getSupport](help.getSupport.md)(\[\]) === [$help.Support](../types/help.Support.md)<a name="help.getSupport"></a>  
 
 ***
 <br><br>
@@ -216,19 +216,19 @@ $MadelineProto->[messages->acceptEncryption](messages.acceptEncryption.md)(\['pe
 
 ***
 <br><br>
-$MadelineProto->[messages->addChatUser](messages.addChatUser.md)(\['chat_id' => [InputPeer](../types/InputPeer.md), 'user_id' => [InputUser](../types/InputUser.md), 'fwd_limit' => [int](../types/int.md), \]) === [$messages\_StatedMessage](../types/messages_StatedMessage.md)<a name="messages.addChatUser"></a>  
+$MadelineProto->[messages->addChatUser](messages.addChatUser.md)(\['chat_id' => [InputPeer](../types/InputPeer.md), 'user_id' => [InputUser](../types/InputUser.md), 'fwd_limit' => [int](../types/int.md), \]) === [$messages.StatedMessage](../types/messages.StatedMessage.md)<a name="messages.addChatUser"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->createChat](messages.createChat.md)(\['users' => \[[InputUser](../types/InputUser.md)\], 'title' => [string](../types/string.md), \]) === [$messages\_StatedMessage](../types/messages_StatedMessage.md)<a name="messages.createChat"></a>  
+$MadelineProto->[messages->createChat](messages.createChat.md)(\['users' => \[[InputUser](../types/InputUser.md)\], 'title' => [string](../types/string.md), \]) === [$messages.StatedMessage](../types/messages.StatedMessage.md)<a name="messages.createChat"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->deleteChatUser](messages.deleteChatUser.md)(\['chat_id' => [InputPeer](../types/InputPeer.md), 'user_id' => [InputUser](../types/InputUser.md), \]) === [$messages\_StatedMessage](../types/messages_StatedMessage.md)<a name="messages.deleteChatUser"></a>  
+$MadelineProto->[messages->deleteChatUser](messages.deleteChatUser.md)(\['chat_id' => [InputPeer](../types/InputPeer.md), 'user_id' => [InputUser](../types/InputUser.md), \]) === [$messages.StatedMessage](../types/messages.StatedMessage.md)<a name="messages.deleteChatUser"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->deleteHistory](messages.deleteHistory.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'offset' => [int](../types/int.md), \]) === [$messages\_AffectedHistory](../types/messages_AffectedHistory.md)<a name="messages.deleteHistory"></a>  
+$MadelineProto->[messages->deleteHistory](messages.deleteHistory.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'offset' => [int](../types/int.md), \]) === [$messages.AffectedHistory](../types/messages.AffectedHistory.md)<a name="messages.deleteHistory"></a>  
 
 ***
 <br><br>
@@ -240,43 +240,43 @@ $MadelineProto->[messages->discardEncryption](messages.discardEncryption.md)(\['
 
 ***
 <br><br>
-$MadelineProto->[messages->editChatPhoto](messages.editChatPhoto.md)(\['chat_id' => [InputPeer](../types/InputPeer.md), 'photo' => [InputChatPhoto](../types/InputChatPhoto.md), \]) === [$messages\_StatedMessage](../types/messages_StatedMessage.md)<a name="messages.editChatPhoto"></a>  
+$MadelineProto->[messages->editChatPhoto](messages.editChatPhoto.md)(\['chat_id' => [InputPeer](../types/InputPeer.md), 'photo' => [InputChatPhoto](../types/InputChatPhoto.md), \]) === [$messages.StatedMessage](../types/messages.StatedMessage.md)<a name="messages.editChatPhoto"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->editChatTitle](messages.editChatTitle.md)(\['chat_id' => [InputPeer](../types/InputPeer.md), 'title' => [string](../types/string.md), \]) === [$messages\_StatedMessage](../types/messages_StatedMessage.md)<a name="messages.editChatTitle"></a>  
+$MadelineProto->[messages->editChatTitle](messages.editChatTitle.md)(\['chat_id' => [InputPeer](../types/InputPeer.md), 'title' => [string](../types/string.md), \]) === [$messages.StatedMessage](../types/messages.StatedMessage.md)<a name="messages.editChatTitle"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->forwardMessage](messages.forwardMessage.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'id' => [int](../types/int.md), \]) === [$messages\_StatedMessage](../types/messages_StatedMessage.md)<a name="messages.forwardMessage"></a>  
+$MadelineProto->[messages->forwardMessage](messages.forwardMessage.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'id' => [int](../types/int.md), \]) === [$messages.StatedMessage](../types/messages.StatedMessage.md)<a name="messages.forwardMessage"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->forwardMessages](messages.forwardMessages.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'id' => \[[int](../types/int.md)\], \]) === [$messages\_StatedMessages](../types/messages_StatedMessages.md)<a name="messages.forwardMessages"></a>  
+$MadelineProto->[messages->forwardMessages](messages.forwardMessages.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'id' => \[[int](../types/int.md)\], \]) === [$messages.StatedMessages](../types/messages.StatedMessages.md)<a name="messages.forwardMessages"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->getChats](messages.getChats.md)(\['id' => \[[int](../types/int.md)\], \]) === [$messages\_Chats](../types/messages_Chats.md)<a name="messages.getChats"></a>  
+$MadelineProto->[messages->getChats](messages.getChats.md)(\['id' => \[[int](../types/int.md)\], \]) === [$messages.Chats](../types/messages.Chats.md)<a name="messages.getChats"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->getDhConfig](messages.getDhConfig.md)(\['version' => [int](../types/int.md), 'random_length' => [int](../types/int.md), \]) === [$messages\_DhConfig](../types/messages_DhConfig.md)<a name="messages.getDhConfig"></a>  
+$MadelineProto->[messages->getDhConfig](messages.getDhConfig.md)(\['version' => [int](../types/int.md), 'random_length' => [int](../types/int.md), \]) === [$messages.DhConfig](../types/messages.DhConfig.md)<a name="messages.getDhConfig"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->getDialogs](messages.getDialogs.md)(\['offset' => [int](../types/int.md), 'max_id' => [int](../types/int.md), 'limit' => [int](../types/int.md), \]) === [$messages\_Dialogs](../types/messages_Dialogs.md)<a name="messages.getDialogs"></a>  
+$MadelineProto->[messages->getDialogs](messages.getDialogs.md)(\['offset' => [int](../types/int.md), 'max_id' => [int](../types/int.md), 'limit' => [int](../types/int.md), \]) === [$messages.Dialogs](../types/messages.Dialogs.md)<a name="messages.getDialogs"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->getFullChat](messages.getFullChat.md)(\['chat_id' => [InputPeer](../types/InputPeer.md), \]) === [$messages\_ChatFull](../types/messages_ChatFull.md)<a name="messages.getFullChat"></a>  
+$MadelineProto->[messages->getFullChat](messages.getFullChat.md)(\['chat_id' => [InputPeer](../types/InputPeer.md), \]) === [$messages.ChatFull](../types/messages.ChatFull.md)<a name="messages.getFullChat"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->getHistory](messages.getHistory.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'offset' => [int](../types/int.md), 'max_id' => [int](../types/int.md), 'limit' => [int](../types/int.md), \]) === [$messages\_Messages](../types/messages_Messages.md)<a name="messages.getHistory"></a>  
+$MadelineProto->[messages->getHistory](messages.getHistory.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'offset' => [int](../types/int.md), 'max_id' => [int](../types/int.md), 'limit' => [int](../types/int.md), \]) === [$messages.Messages](../types/messages.Messages.md)<a name="messages.getHistory"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->getMessages](messages.getMessages.md)(\['id' => \[[int](../types/int.md)\], \]) === [$messages\_Messages](../types/messages_Messages.md)<a name="messages.getMessages"></a>  
+$MadelineProto->[messages->getMessages](messages.getMessages.md)(\['id' => \[[int](../types/int.md)\], \]) === [$messages.Messages](../types/messages.Messages.md)<a name="messages.getMessages"></a>  
 
 ***
 <br><br>
@@ -284,7 +284,7 @@ $MadelineProto->[messages->readEncryptedHistory](messages.readEncryptedHistory.m
 
 ***
 <br><br>
-$MadelineProto->[messages->readHistory](messages.readHistory.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'max_id' => [int](../types/int.md), 'offset' => [int](../types/int.md), 'read_contents' => [Bool](../types/Bool.md), \]) === [$messages\_AffectedHistory](../types/messages_AffectedHistory.md)<a name="messages.readHistory"></a>  
+$MadelineProto->[messages->readHistory](messages.readHistory.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'max_id' => [int](../types/int.md), 'offset' => [int](../types/int.md), 'read_contents' => [Bool](../types/Bool.md), \]) === [$messages.AffectedHistory](../types/messages.AffectedHistory.md)<a name="messages.readHistory"></a>  
 
 ***
 <br><br>
@@ -308,31 +308,31 @@ $MadelineProto->[messages->requestEncryption](messages.requestEncryption.md)(\['
 
 ***
 <br><br>
-$MadelineProto->[messages->search](messages.search.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'q' => [string](../types/string.md), 'filter' => [MessagesFilter](../types/MessagesFilter.md), 'min_date' => [int](../types/int.md), 'max_date' => [int](../types/int.md), 'offset' => [int](../types/int.md), 'max_id' => [int](../types/int.md), 'limit' => [int](../types/int.md), \]) === [$messages\_Messages](../types/messages_Messages.md)<a name="messages.search"></a>  
+$MadelineProto->[messages->search](messages.search.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'q' => [string](../types/string.md), 'filter' => [MessagesFilter](../types/MessagesFilter.md), 'min_date' => [int](../types/int.md), 'max_date' => [int](../types/int.md), 'offset' => [int](../types/int.md), 'max_id' => [int](../types/int.md), 'limit' => [int](../types/int.md), \]) === [$messages.Messages](../types/messages.Messages.md)<a name="messages.search"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->sendBroadcast](messages.sendBroadcast.md)(\['contacts' => \[[InputUser](../types/InputUser.md)\], 'message' => [string](../types/string.md), 'media' => [InputMedia](../types/InputMedia.md), \]) === [$messages\_StatedMessages](../types/messages_StatedMessages.md)<a name="messages.sendBroadcast"></a>  
+$MadelineProto->[messages->sendBroadcast](messages.sendBroadcast.md)(\['contacts' => \[[InputUser](../types/InputUser.md)\], 'message' => [string](../types/string.md), 'media' => [InputMedia](../types/InputMedia.md), \]) === [$messages.StatedMessages](../types/messages.StatedMessages.md)<a name="messages.sendBroadcast"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->sendEncrypted](messages.sendEncrypted.md)(\['peer' => [InputEncryptedChat](../types/InputEncryptedChat.md), 'message' => [DecryptedMessage](../types/DecryptedMessage.md), \]) === [$messages\_SentEncryptedMessage](../types/messages_SentEncryptedMessage.md)<a name="messages.sendEncrypted"></a>  
+$MadelineProto->[messages->sendEncrypted](messages.sendEncrypted.md)(\['peer' => [InputEncryptedChat](../types/InputEncryptedChat.md), 'data' => [bytes](../types/bytes.md), \]) === [$messages.SentEncryptedMessage](../types/messages.SentEncryptedMessage.md)<a name="messages.sendEncrypted"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->sendEncryptedFile](messages.sendEncryptedFile.md)(\['peer' => [InputEncryptedChat](../types/InputEncryptedChat.md), 'message' => [DecryptedMessage](../types/DecryptedMessage.md), 'file' => [InputEncryptedFile](../types/InputEncryptedFile.md), \]) === [$messages\_SentEncryptedMessage](../types/messages_SentEncryptedMessage.md)<a name="messages.sendEncryptedFile"></a>  
+$MadelineProto->[messages->sendEncryptedFile](messages.sendEncryptedFile.md)(\['peer' => [InputEncryptedChat](../types/InputEncryptedChat.md), 'data' => [bytes](../types/bytes.md), 'file' => [InputEncryptedFile](../types/InputEncryptedFile.md), \]) === [$messages.SentEncryptedMessage](../types/messages.SentEncryptedMessage.md)<a name="messages.sendEncryptedFile"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->sendEncryptedService](messages.sendEncryptedService.md)(\['peer' => [InputEncryptedChat](../types/InputEncryptedChat.md), 'message' => [DecryptedMessage](../types/DecryptedMessage.md), \]) === [$messages\_SentEncryptedMessage](../types/messages_SentEncryptedMessage.md)<a name="messages.sendEncryptedService"></a>  
+$MadelineProto->[messages->sendEncryptedService](messages.sendEncryptedService.md)(\['peer' => [InputEncryptedChat](../types/InputEncryptedChat.md), 'data' => [bytes](../types/bytes.md), \]) === [$messages.SentEncryptedMessage](../types/messages.SentEncryptedMessage.md)<a name="messages.sendEncryptedService"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->sendMedia](messages.sendMedia.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'media' => [InputMedia](../types/InputMedia.md), \]) === [$messages\_StatedMessage](../types/messages_StatedMessage.md)<a name="messages.sendMedia"></a>  
+$MadelineProto->[messages->sendMedia](messages.sendMedia.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'media' => [InputMedia](../types/InputMedia.md), \]) === [$messages.StatedMessage](../types/messages.StatedMessage.md)<a name="messages.sendMedia"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->sendMessage](messages.sendMessage.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'message' => [string](../types/string.md), \]) === [$messages\_SentMessage](../types/messages_SentMessage.md)<a name="messages.sendMessage"></a>  
+$MadelineProto->[messages->sendMessage](messages.sendMessage.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'message' => [string](../types/string.md), \]) === [$messages.SentMessage](../types/messages.SentMessage.md)<a name="messages.sendMessage"></a>  
 
 ***
 <br><br>
@@ -348,7 +348,7 @@ $MadelineProto->[photos->deletePhotos](photos.deletePhotos.md)(\['id' => \[[Inpu
 
 ***
 <br><br>
-$MadelineProto->[photos->getUserPhotos](photos.getUserPhotos.md)(\['user_id' => [InputUser](../types/InputUser.md), 'offset' => [int](../types/int.md), 'max_id' => [int](../types/int.md), 'limit' => [int](../types/int.md), \]) === [$photos\_Photos](../types/photos_Photos.md)<a name="photos.getUserPhotos"></a>  
+$MadelineProto->[photos->getUserPhotos](photos.getUserPhotos.md)(\['user_id' => [InputUser](../types/InputUser.md), 'offset' => [int](../types/int.md), 'max_id' => [int](../types/int.md), 'limit' => [int](../types/int.md), \]) === [$photos.Photos](../types/photos.Photos.md)<a name="photos.getUserPhotos"></a>  
 
 ***
 <br><br>
@@ -356,19 +356,19 @@ $MadelineProto->[photos->updateProfilePhoto](photos.updateProfilePhoto.md)(\['id
 
 ***
 <br><br>
-$MadelineProto->[photos->uploadProfilePhoto](photos.uploadProfilePhoto.md)(\['file' => [InputFile](../types/InputFile.md), 'caption' => [string](../types/string.md), 'geo_point' => [InputGeoPoint](../types/InputGeoPoint.md), 'crop' => [InputPhotoCrop](../types/InputPhotoCrop.md), \]) === [$photos\_Photo](../types/photos_Photo.md)<a name="photos.uploadProfilePhoto"></a>  
+$MadelineProto->[photos->uploadProfilePhoto](photos.uploadProfilePhoto.md)(\['file' => [InputFile](../types/InputFile.md), 'caption' => [string](../types/string.md), 'geo_point' => [InputGeoPoint](../types/InputGeoPoint.md), 'crop' => [InputPhotoCrop](../types/InputPhotoCrop.md), \]) === [$photos.Photo](../types/photos.Photo.md)<a name="photos.uploadProfilePhoto"></a>  
 
 ***
 <br><br>
-$MadelineProto->[updates->getDifference](updates.getDifference.md)(\['pts' => [int](../types/int.md), 'date' => [int](../types/int.md), 'qts' => [int](../types/int.md), \]) === [$updates\_Difference](../types/updates_Difference.md)<a name="updates.getDifference"></a>  
+$MadelineProto->[updates->getDifference](updates.getDifference.md)(\['pts' => [int](../types/int.md), 'date' => [int](../types/int.md), 'qts' => [int](../types/int.md), \]) === [$updates.Difference](../types/updates.Difference.md)<a name="updates.getDifference"></a>  
 
 ***
 <br><br>
-$MadelineProto->[updates->getState](updates.getState.md)(\[\]) === [$updates\_State](../types/updates_State.md)<a name="updates.getState"></a>  
+$MadelineProto->[updates->getState](updates.getState.md)(\[\]) === [$updates.State](../types/updates.State.md)<a name="updates.getState"></a>  
 
 ***
 <br><br>
-$MadelineProto->[upload->getFile](upload.getFile.md)(\['location' => [InputFileLocation](../types/InputFileLocation.md), 'offset' => [int](../types/int.md), 'limit' => [int](../types/int.md), \]) === [$upload\_File](../types/upload_File.md)<a name="upload.getFile"></a>  
+$MadelineProto->[upload->getFile](upload.getFile.md)(\['location' => [InputFileLocation](../types/InputFileLocation.md), 'offset' => [int](../types/int.md), 'limit' => [int](../types/int.md), \]) === [$upload.File](../types/upload.File.md)<a name="upload.getFile"></a>  
 
 ***
 <br><br>

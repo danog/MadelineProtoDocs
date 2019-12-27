@@ -11,7 +11,7 @@ Get changelog of current app
 
 
 
-### Return type: [help\_AppChangelog](../types/help_AppChangelog.md)
+### Return type: [help.AppChangelog](../types/help.AppChangelog.md)
 
 ### Can bots use this method: **NO**
 
@@ -28,12 +28,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_AppChangelog = $MadelineProto->help->getAppChangelog();
+$help.AppChangelog = $MadelineProto->help->getAppChangelog();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help_AppChangelog = help.getAppChangelog({})
+help.AppChangelog = help.getAppChangelog({})
 ```
 

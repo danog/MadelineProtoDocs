@@ -16,7 +16,7 @@ Send the verification email code for telegram [passport](https://core.telegram.o
 |email|[string](../types/string.md) | The email where to send the code | Yes|
 
 
-### Return type: [account\_SentEmailCode](../types/account_SentEmailCode.md)
+### Return type: [account.SentEmailCode](../types/account.SentEmailCode.md)
 
 ### Can bots use this method: **NO**
 
@@ -33,12 +33,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_SentEmailCode = $MadelineProto->account->sendVerifyEmailCode(['email' => 'string', ]);
+$account.SentEmailCode = $MadelineProto->account->sendVerifyEmailCode(['email' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account_SentEmailCode = account.sendVerifyEmailCode({email='string', })
+account.SentEmailCode = account.sendVerifyEmailCode({email='string', })
 ```
 

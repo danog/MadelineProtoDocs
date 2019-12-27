@@ -11,7 +11,7 @@ Get all groups that can be used as [discussion groups](https://telegram.org/blog
 
 
 
-### Return type: [messages\_Chats](../types/messages_Chats.md)
+### Return type: [messages.Chats](../types/messages.Chats.md)
 
 ### Can bots use this method: **NO**
 
@@ -28,12 +28,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Chats = $MadelineProto->channels->getGroupsForDiscussion();
+$messages.Chats = $MadelineProto->channels->getGroupsForDiscussion();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_Chats = channels.getGroupsForDiscussion({})
+messages.Chats = channels.getGroupsForDiscussion({})
 ```
 

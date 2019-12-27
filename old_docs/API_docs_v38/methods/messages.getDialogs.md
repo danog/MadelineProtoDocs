@@ -17,7 +17,7 @@ Returns the current user dialog list.
 |limit|[int](../types/int.md) | Number of list elements to be returned | Yes|
 
 
-### Return type: [messages\_Dialogs](../types/messages_Dialogs.md)
+### Return type: [messages.Dialogs](../types/messages.Dialogs.md)
 
 ### Can bots use this method: **NO**
 
@@ -34,13 +34,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Dialogs = $MadelineProto->messages->getDialogs(['offset' => int, 'limit' => int, ]);
+$messages.Dialogs = $MadelineProto->messages->getDialogs(['offset' => int, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_Dialogs = messages.getDialogs({offset=int, limit=int, })
+messages.Dialogs = messages.getDialogs({offset=int, limit=int, })
 ```
 
 ### Errors

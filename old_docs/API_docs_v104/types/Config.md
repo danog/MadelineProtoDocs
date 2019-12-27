@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->help->getConfig](../methods/help_getConfig.md)  
+[$MadelineProto->help->getConfig](../methods/help.getConfig.md)  
 
 
 

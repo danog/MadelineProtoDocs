@@ -16,7 +16,7 @@ Updates current user profile photo.
 |file|[File path or InputFile](../types/InputFile.md) | File saved in parts by means of [upload.saveFilePart](../methods/upload.saveFilePart.md) method | Yes|
 
 
-### Return type: [photos\_Photo](../types/photos_Photo.md)
+### Return type: [photos.Photo](../types/photos.Photo.md)
 
 ### Can bots use this method: **NO**
 
@@ -33,13 +33,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$photos_Photo = $MadelineProto->photos->uploadProfilePhoto(['file' => InputFile, ]);
+$photos.Photo = $MadelineProto->photos->uploadProfilePhoto(['file' => InputFile, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-photos_Photo = photos.uploadProfilePhoto({file=InputFile, })
+photos.Photo = photos.uploadProfilePhoto({file=InputFile, })
 ```
 
 ### Errors

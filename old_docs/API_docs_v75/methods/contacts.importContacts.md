@@ -16,7 +16,7 @@ Imports contacts: saves a full list on the server, adds already registered conta
 |contacts|Array of [InputContact](../types/InputContact.md) | The numbers to import | Yes|
 
 
-### Return type: [contacts\_ImportedContacts](../types/contacts_ImportedContacts.md)
+### Return type: [contacts.ImportedContacts](../types/contacts.ImportedContacts.md)
 
 ### Can bots use this method: **NO**
 
@@ -33,12 +33,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts_ImportedContacts = $MadelineProto->contacts->importContacts(['contacts' => [InputContact, InputContact], ]);
+$contacts.ImportedContacts = $MadelineProto->contacts->importContacts(['contacts' => [InputContact, InputContact], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-contacts_ImportedContacts = contacts.importContacts({contacts={InputContact}, })
+contacts.ImportedContacts = contacts.importContacts({contacts={InputContact}, })
 ```
 

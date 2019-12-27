@@ -18,7 +18,7 @@ Get chats in common with a user
 |limit|[int](../types/int.md) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
 
 
-### Return type: [messages\_Chats](../types/messages_Chats.md)
+### Return type: [messages.Chats](../types/messages.Chats.md)
 
 ### Can bots use this method: **NO**
 
@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Chats = $MadelineProto->messages->getCommonChats(['user_id' => InputUser, 'max_id' => int, 'limit' => int, ]);
+$messages.Chats = $MadelineProto->messages->getCommonChats(['user_id' => InputUser, 'max_id' => int, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_Chats = messages.getCommonChats({user_id=InputUser, max_id=int, limit=int, })
+messages.Chats = messages.getCommonChats({user_id=InputUser, max_id=int, limit=int, })
 ```
 
 ### Errors

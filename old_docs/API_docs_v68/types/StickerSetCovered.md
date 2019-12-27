@@ -18,7 +18,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getAttachedStickers](../methods/messages_getAttachedStickers.md)  
+[$MadelineProto->messages->getAttachedStickers](../methods/messages.getAttachedStickers.md)  
 
 
 

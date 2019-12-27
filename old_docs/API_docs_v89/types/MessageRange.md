@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getSplitRanges](../methods/messages_getSplitRanges.md)  
+[$MadelineProto->messages->getSplitRanges](../methods/messages.getSplitRanges.md)  
 
 
 

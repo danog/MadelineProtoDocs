@@ -17,7 +17,7 @@ Get installed themes
 |hash|Array of [int](../types/int.md) | Hash for pagination | Optional|
 
 
-### Return type: [account\_Themes](../types/account_Themes.md)
+### Return type: [account.Themes](../types/account.Themes.md)
 
 ### Can bots use this method: **YES**
 
@@ -34,12 +34,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_Themes = $MadelineProto->account->getThemes(['format' => 'string', 'hash' => [int, int], ]);
+$account.Themes = $MadelineProto->account->getThemes(['format' => 'string', 'hash' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account_Themes = account.getThemes({format='string', hash={int}, })
+account.Themes = account.getThemes({format='string', hash={int}, })
 ```
 

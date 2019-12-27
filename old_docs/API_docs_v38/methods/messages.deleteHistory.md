@@ -17,7 +17,7 @@ Deletes communication history.
 |offset|[int](../types/int.md) | Offset | Yes|
 
 
-### Return type: [messages\_AffectedHistory](../types/messages_AffectedHistory.md)
+### Return type: [messages.AffectedHistory](../types/messages.AffectedHistory.md)
 
 ### Can bots use this method: **NO**
 
@@ -34,13 +34,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_AffectedHistory = $MadelineProto->messages->deleteHistory(['peer' => InputPeer, 'offset' => int, ]);
+$messages.AffectedHistory = $MadelineProto->messages->deleteHistory(['peer' => InputPeer, 'offset' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_AffectedHistory = messages.deleteHistory({peer=InputPeer, offset=int, })
+messages.AffectedHistory = messages.deleteHistory({peer=InputPeer, offset=int, })
 ```
 
 ### Errors

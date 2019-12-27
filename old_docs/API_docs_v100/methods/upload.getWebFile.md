@@ -18,7 +18,7 @@ Returns content of an HTTP file or a part, by proxying the request through teleg
 |limit|[int](../types/int.md) | Number of bytes to be returned | Yes|
 
 
-### Return type: [upload\_WebFile](../types/upload_WebFile.md)
+### Return type: [upload.WebFile](../types/upload.WebFile.md)
 
 ### Can bots use this method: **NO**
 
@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$upload_WebFile = $MadelineProto->upload->getWebFile(['location' => InputWebFileLocation, 'offset' => int, 'limit' => int, ]);
+$upload.WebFile = $MadelineProto->upload->getWebFile(['location' => InputWebFileLocation, 'offset' => int, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-upload_WebFile = upload.getWebFile({location=InputWebFileLocation, offset=int, limit=int, })
+upload.WebFile = upload.getWebFile({location=InputWebFileLocation, offset=int, limit=int, })
 ```
 
 ### Errors

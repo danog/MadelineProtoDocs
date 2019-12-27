@@ -17,7 +17,7 @@ Get scheduled messages
 |id|Array of [int](../types/int.md) | ID | Yes|
 
 
-### Return type: [messages\_Messages](../types/messages_Messages.md)
+### Return type: [messages.Messages](../types/messages.Messages.md)
 
 ### Can bots use this method: **YES**
 
@@ -34,12 +34,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->messages->getScheduledMessages(['peer' => InputPeer, 'id' => [int, int], ]);
+$messages.Messages = $MadelineProto->messages->getScheduledMessages(['peer' => InputPeer, 'id' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_Messages = messages.getScheduledMessages({peer=InputPeer, id={int}, })
+messages.Messages = messages.getScheduledMessages({peer=InputPeer, id={int}, })
 ```
 

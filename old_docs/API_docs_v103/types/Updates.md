@@ -28,91 +28,91 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->getNotifyExceptions](../methods/account_getNotifyExceptions.md)  
+[$MadelineProto->account->getNotifyExceptions](../methods/account.getNotifyExceptions.md)  
 
-[$MadelineProto->contacts->deleteContacts](../methods/contacts_deleteContacts.md)  
+[$MadelineProto->contacts->deleteContacts](../methods/contacts.deleteContacts.md)  
 
-[$MadelineProto->contacts->addContact](../methods/contacts_addContact.md)  
+[$MadelineProto->contacts->addContact](../methods/contacts.addContact.md)  
 
-[$MadelineProto->contacts->acceptContact](../methods/contacts_acceptContact.md)  
+[$MadelineProto->contacts->acceptContact](../methods/contacts.acceptContact.md)  
 
-[$MadelineProto->contacts->getLocated](../methods/contacts_getLocated.md)  
+[$MadelineProto->contacts->getLocated](../methods/contacts.getLocated.md)  
 
-[$MadelineProto->messages->sendMessage](../methods/messages_sendMessage.md)  
+[$MadelineProto->messages->sendMessage](../methods/messages.sendMessage.md)  
 
-[$MadelineProto->messages->sendMedia](../methods/messages_sendMedia.md)  
+[$MadelineProto->messages->sendMedia](../methods/messages.sendMedia.md)  
 
-[$MadelineProto->messages->forwardMessages](../methods/messages_forwardMessages.md)  
+[$MadelineProto->messages->forwardMessages](../methods/messages.forwardMessages.md)  
 
-[$MadelineProto->messages->editChatTitle](../methods/messages_editChatTitle.md)  
+[$MadelineProto->messages->editChatTitle](../methods/messages.editChatTitle.md)  
 
-[$MadelineProto->messages->editChatPhoto](../methods/messages_editChatPhoto.md)  
+[$MadelineProto->messages->editChatPhoto](../methods/messages.editChatPhoto.md)  
 
-[$MadelineProto->messages->addChatUser](../methods/messages_addChatUser.md)  
+[$MadelineProto->messages->addChatUser](../methods/messages.addChatUser.md)  
 
-[$MadelineProto->messages->deleteChatUser](../methods/messages_deleteChatUser.md)  
+[$MadelineProto->messages->deleteChatUser](../methods/messages.deleteChatUser.md)  
 
-[$MadelineProto->messages->createChat](../methods/messages_createChat.md)  
+[$MadelineProto->messages->createChat](../methods/messages.createChat.md)  
 
-[$MadelineProto->messages->importChatInvite](../methods/messages_importChatInvite.md)  
+[$MadelineProto->messages->importChatInvite](../methods/messages.importChatInvite.md)  
 
-[$MadelineProto->messages->startBot](../methods/messages_startBot.md)  
+[$MadelineProto->messages->startBot](../methods/messages.startBot.md)  
 
-[$MadelineProto->messages->migrateChat](../methods/messages_migrateChat.md)  
+[$MadelineProto->messages->migrateChat](../methods/messages.migrateChat.md)  
 
-[$MadelineProto->messages->sendInlineBotResult](../methods/messages_sendInlineBotResult.md)  
+[$MadelineProto->messages->sendInlineBotResult](../methods/messages.sendInlineBotResult.md)  
 
-[$MadelineProto->messages->editMessage](../methods/messages_editMessage.md)  
+[$MadelineProto->messages->editMessage](../methods/messages.editMessage.md)  
 
-[$MadelineProto->messages->getAllDrafts](../methods/messages_getAllDrafts.md)  
+[$MadelineProto->messages->getAllDrafts](../methods/messages.getAllDrafts.md)  
 
-[$MadelineProto->messages->setGameScore](../methods/messages_setGameScore.md)  
+[$MadelineProto->messages->setGameScore](../methods/messages.setGameScore.md)  
 
-[$MadelineProto->messages->sendScreenshotNotification](../methods/messages_sendScreenshotNotification.md)  
+[$MadelineProto->messages->sendScreenshotNotification](../methods/messages.sendScreenshotNotification.md)  
 
-[$MadelineProto->messages->sendMultiMedia](../methods/messages_sendMultiMedia.md)  
+[$MadelineProto->messages->sendMultiMedia](../methods/messages.sendMultiMedia.md)  
 
-[$MadelineProto->messages->updatePinnedMessage](../methods/messages_updatePinnedMessage.md)  
+[$MadelineProto->messages->updatePinnedMessage](../methods/messages.updatePinnedMessage.md)  
 
-[$MadelineProto->messages->sendVote](../methods/messages_sendVote.md)  
+[$MadelineProto->messages->sendVote](../methods/messages.sendVote.md)  
 
-[$MadelineProto->messages->getPollResults](../methods/messages_getPollResults.md)  
+[$MadelineProto->messages->getPollResults](../methods/messages.getPollResults.md)  
 
-[$MadelineProto->messages->editChatDefaultBannedRights](../methods/messages_editChatDefaultBannedRights.md)  
+[$MadelineProto->messages->editChatDefaultBannedRights](../methods/messages.editChatDefaultBannedRights.md)  
 
-[$MadelineProto->help->getAppChangelog](../methods/help_getAppChangelog.md)  
+[$MadelineProto->help->getAppChangelog](../methods/help.getAppChangelog.md)  
 
-[$MadelineProto->channels->createChannel](../methods/channels_createChannel.md)  
+[$MadelineProto->channels->createChannel](../methods/channels.createChannel.md)  
 
-[$MadelineProto->channels->editAdmin](../methods/channels_editAdmin.md)  
+[$MadelineProto->channels->editAdmin](../methods/channels.editAdmin.md)  
 
-[$MadelineProto->channels->editTitle](../methods/channels_editTitle.md)  
+[$MadelineProto->channels->editTitle](../methods/channels.editTitle.md)  
 
-[$MadelineProto->channels->editPhoto](../methods/channels_editPhoto.md)  
+[$MadelineProto->channels->editPhoto](../methods/channels.editPhoto.md)  
 
-[$MadelineProto->channels->joinChannel](../methods/channels_joinChannel.md)  
+[$MadelineProto->channels->joinChannel](../methods/channels.joinChannel.md)  
 
-[$MadelineProto->channels->leaveChannel](../methods/channels_leaveChannel.md)  
+[$MadelineProto->channels->leaveChannel](../methods/channels.leaveChannel.md)  
 
-[$MadelineProto->channels->inviteToChannel](../methods/channels_inviteToChannel.md)  
+[$MadelineProto->channels->inviteToChannel](../methods/channels.inviteToChannel.md)  
 
-[$MadelineProto->channels->deleteChannel](../methods/channels_deleteChannel.md)  
+[$MadelineProto->channels->deleteChannel](../methods/channels.deleteChannel.md)  
 
-[$MadelineProto->channels->toggleSignatures](../methods/channels_toggleSignatures.md)  
+[$MadelineProto->channels->toggleSignatures](../methods/channels.toggleSignatures.md)  
 
-[$MadelineProto->channels->editBanned](../methods/channels_editBanned.md)  
+[$MadelineProto->channels->editBanned](../methods/channels.editBanned.md)  
 
-[$MadelineProto->channels->togglePreHistoryHidden](../methods/channels_togglePreHistoryHidden.md)  
+[$MadelineProto->channels->togglePreHistoryHidden](../methods/channels.togglePreHistoryHidden.md)  
 
-[$MadelineProto->channels->editCreator](../methods/channels_editCreator.md)  
+[$MadelineProto->channels->editCreator](../methods/channels.editCreator.md)  
 
-[$MadelineProto->phone->discardCall](../methods/phone_discardCall.md)  
+[$MadelineProto->phone->discardCall](../methods/phone.discardCall.md)  
 
-[$MadelineProto->phone->setCallRating](../methods/phone_setCallRating.md)  
+[$MadelineProto->phone->setCallRating](../methods/phone.setCallRating.md)  
 
-[$MadelineProto->folders->editPeerFolders](../methods/folders_editPeerFolders.md)  
+[$MadelineProto->folders->editPeerFolders](../methods/folders.editPeerFolders.md)  
 
-[$MadelineProto->folders->deleteFolder](../methods/folders_deleteFolder.md)  
+[$MadelineProto->folders->deleteFolder](../methods/folders.deleteFolder.md)  
 
 
 

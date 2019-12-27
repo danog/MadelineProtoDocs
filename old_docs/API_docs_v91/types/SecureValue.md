@@ -16,11 +16,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->getAllSecureValues](../methods/account_getAllSecureValues.md)  
+[$MadelineProto->account->getAllSecureValues](../methods/account.getAllSecureValues.md)  
 
-[$MadelineProto->account->getSecureValue](../methods/account_getSecureValue.md)  
+[$MadelineProto->account->getSecureValue](../methods/account.getSecureValue.md)  
 
-[$MadelineProto->account->saveSecureValue](../methods/account_saveSecureValue.md)  
+[$MadelineProto->account->saveSecureValue](../methods/account.saveSecureValue.md)  
 
 
 

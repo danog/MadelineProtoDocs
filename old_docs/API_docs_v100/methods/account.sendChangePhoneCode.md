@@ -17,7 +17,7 @@ Verify a new phone number to associate to the current account
 |settings|[CodeSettings](../types/CodeSettings.md) | Phone code settings | Yes|
 
 
-### Return type: [auth\_SentCode](../types/auth_SentCode.md)
+### Return type: [auth.SentCode](../types/auth.SentCode.md)
 
 ### Can bots use this method: **NO**
 
@@ -34,13 +34,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_SentCode = $MadelineProto->account->sendChangePhoneCode(['phone_number' => 'string', 'settings' => CodeSettings, ]);
+$auth.SentCode = $MadelineProto->account->sendChangePhoneCode(['phone_number' => 'string', 'settings' => CodeSettings, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth_SentCode = account.sendChangePhoneCode({phone_number='string', settings=CodeSettings, })
+auth.SentCode = account.sendChangePhoneCode({phone_number='string', settings=CodeSettings, })
 ```
 
 ### Errors

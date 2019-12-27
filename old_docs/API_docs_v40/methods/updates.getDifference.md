@@ -18,7 +18,7 @@ You cannot use this method directly, see https://docs.madelineproto.xyz for more
 |qts|[int](../types/int.md) | You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates | Yes|
 
 
-### Return type: [updates\_Difference](../types/updates_Difference.md)
+### Return type: [updates.Difference](../types/updates.Difference.md)
 
 ### Can bots use this method: **YES**
 
@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$updates_Difference = $MadelineProto->updates->getDifference(['pts' => int, 'date' => int, 'qts' => int, ]);
+$updates.Difference = $MadelineProto->updates->getDifference(['pts' => int, 'date' => int, 'qts' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-updates_Difference = updates.getDifference({pts=int, date=int, qts=int, })
+updates.Difference = updates.getDifference({pts=int, date=int, qts=int, })
 ```
 
 ### Errors

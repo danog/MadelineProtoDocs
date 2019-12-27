@@ -17,7 +17,7 @@ Returns the list of blocked users.
 |limit|[int](../types/int.md) | The number of list elements to be returned | Yes|
 
 
-### Return type: [contacts\_Blocked](../types/contacts_Blocked.md)
+### Return type: [contacts.Blocked](../types/contacts.Blocked.md)
 
 ### Can bots use this method: **NO**
 
@@ -34,12 +34,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts_Blocked = $MadelineProto->contacts->getBlocked(['offset' => int, 'limit' => int, ]);
+$contacts.Blocked = $MadelineProto->contacts->getBlocked(['offset' => int, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-contacts_Blocked = contacts.getBlocked({offset=int, limit=int, })
+contacts.Blocked = contacts.getBlocked({offset=int, limit=int, })
 ```
 

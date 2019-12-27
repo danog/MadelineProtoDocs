@@ -11,7 +11,7 @@ Get localized name of the telegram support user
 
 
 
-### Return type: [help\_SupportName](../types/help_SupportName.md)
+### Return type: [help.SupportName](../types/help.SupportName.md)
 
 ### Can bots use this method: **NO**
 
@@ -28,13 +28,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_SupportName = $MadelineProto->help->getSupportName();
+$help.SupportName = $MadelineProto->help->getSupportName();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help_SupportName = help.getSupportName({})
+help.SupportName = help.getSupportName({})
 ```
 
 ### Errors

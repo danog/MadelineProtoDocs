@@ -11,7 +11,7 @@ Returns text of a text message with an invitation.
 
 
 
-### Return type: [help\_InviteText](../types/help_InviteText.md)
+### Return type: [help.InviteText](../types/help.InviteText.md)
 
 ### Can bots use this method: **NO**
 
@@ -28,12 +28,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_InviteText = $MadelineProto->help->getInviteText();
+$help.InviteText = $MadelineProto->help->getInviteText();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help_InviteText = help.getInviteText({})
+help.InviteText = help.getInviteText({})
 ```
 

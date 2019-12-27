@@ -18,7 +18,7 @@ Search for stickersets
 |hash|Array of [int](../types/int.md) | The IDs of stickersets you already fetched | Optional|
 
 
-### Return type: [messages\_FoundStickerSets](../types/messages_FoundStickerSets.md)
+### Return type: [messages.FoundStickerSets](../types/messages.FoundStickerSets.md)
 
 ### Can bots use this method: **NO**
 
@@ -35,12 +35,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_FoundStickerSets = $MadelineProto->messages->searchStickerSets(['exclude_featured' => Bool, 'q' => 'string', 'hash' => [int, int], ]);
+$messages.FoundStickerSets = $MadelineProto->messages->searchStickerSets(['exclude_featured' => Bool, 'q' => 'string', 'hash' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_FoundStickerSets = messages.searchStickerSets({exclude_featured=Bool, q='string', hash={int}, })
+messages.FoundStickerSets = messages.searchStickerSets({exclude_featured=Bool, q='string', hash={int}, })
 ```
 

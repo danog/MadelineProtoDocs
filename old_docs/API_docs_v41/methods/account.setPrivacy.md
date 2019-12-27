@@ -17,7 +17,7 @@ Change privacy settings of current account
 |rules|Array of [InputPrivacyRule](../types/InputPrivacyRule.md) | Privacy settings | Yes|
 
 
-### Return type: [account\_PrivacyRules](../types/account_PrivacyRules.md)
+### Return type: [account.PrivacyRules](../types/account.PrivacyRules.md)
 
 ### Can bots use this method: **NO**
 
@@ -34,13 +34,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_PrivacyRules = $MadelineProto->account->setPrivacy(['key' => InputPrivacyKey, 'rules' => [InputPrivacyRule, InputPrivacyRule], ]);
+$account.PrivacyRules = $MadelineProto->account->setPrivacy(['key' => InputPrivacyKey, 'rules' => [InputPrivacyRule, InputPrivacyRule], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account_PrivacyRules = account.setPrivacy({key=InputPrivacyKey, rules={InputPrivacyRule}, })
+account.PrivacyRules = account.setPrivacy({key=InputPrivacyKey, rules={InputPrivacyRule}, })
 ```
 
 ### Errors

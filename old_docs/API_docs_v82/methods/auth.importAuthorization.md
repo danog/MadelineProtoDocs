@@ -17,7 +17,7 @@ You cannot use this method directly, use $MadelineProto->importAuthorization($au
 |bytes|[bytes](../types/bytes.md) | You cannot use this method directly, use $MadelineProto->importAuthorization($authorization) instead, see https://docs.madelineproto.xyz/docs/LOGIN.html | Yes|
 
 
-### Return type: [auth\_Authorization](../types/auth_Authorization.md)
+### Return type: [auth.Authorization](../types/auth.Authorization.md)
 
 ### Can bots use this method: **YES**
 
@@ -34,13 +34,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_Authorization = $MadelineProto->auth->importAuthorization(['id' => int, 'bytes' => 'bytes', ]);
+$auth.Authorization = $MadelineProto->auth->importAuthorization(['id' => int, 'bytes' => 'bytes', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth_Authorization = auth.importAuthorization({id=int, bytes='bytes', })
+auth.Authorization = auth.importAuthorization({id=int, bytes='bytes', })
 ```
 
 ### Errors

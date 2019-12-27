@@ -11,7 +11,7 @@ Get web [login widget](https://core.telegram.org/widgets/login) authorizations
 
 
 
-### Return type: [account\_WebAuthorizations](../types/account_WebAuthorizations.md)
+### Return type: [account.WebAuthorizations](../types/account.WebAuthorizations.md)
 
 ### Can bots use this method: **NO**
 
@@ -28,12 +28,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_WebAuthorizations = $MadelineProto->account->getWebAuthorizations();
+$account.WebAuthorizations = $MadelineProto->account->getWebAuthorizations();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account_WebAuthorizations = account.getWebAuthorizations({})
+account.WebAuthorizations = account.getWebAuthorizations({})
 ```
 

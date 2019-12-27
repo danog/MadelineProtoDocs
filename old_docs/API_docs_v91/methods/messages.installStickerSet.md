@@ -17,7 +17,7 @@ Install a stickerset
 |archived|[Bool](../types/Bool.md) | Whether to archive stickerset | Yes|
 
 
-### Return type: [messages\_StickerSetInstallResult](../types/messages_StickerSetInstallResult.md)
+### Return type: [messages.StickerSetInstallResult](../types/messages.StickerSetInstallResult.md)
 
 ### Can bots use this method: **NO**
 
@@ -34,13 +34,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_StickerSetInstallResult = $MadelineProto->messages->installStickerSet(['stickerset' => InputStickerSet, 'archived' => Bool, ]);
+$messages.StickerSetInstallResult = $MadelineProto->messages->installStickerSet(['stickerset' => InputStickerSet, 'archived' => Bool, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_StickerSetInstallResult = messages.installStickerSet({stickerset=InputStickerSet, archived=Bool, })
+messages.StickerSetInstallResult = messages.installStickerSet({stickerset=InputStickerSet, archived=Bool, })
 ```
 
 ### Errors

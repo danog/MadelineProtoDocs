@@ -11,7 +11,7 @@ Get promotion info of the currently-used MTProxy
 
 
 
-### Return type: [help\_ProxyData](../types/help_ProxyData.md)
+### Return type: [help.ProxyData](../types/help.ProxyData.md)
 
 ### Can bots use this method: **NO**
 
@@ -28,12 +28,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_ProxyData = $MadelineProto->help->getProxyData();
+$help.ProxyData = $MadelineProto->help->getProxyData();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help_ProxyData = help.getProxyData({})
+help.ProxyData = help.getProxyData({})
 ```
 

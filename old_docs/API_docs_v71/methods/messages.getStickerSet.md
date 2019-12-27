@@ -16,7 +16,7 @@ Get info about a stickerset
 |stickerset|[InputStickerSet](../types/InputStickerSet.md) | Stickerset | Optional|
 
 
-### Return type: [messages\_StickerSet](../types/messages_StickerSet.md)
+### Return type: [messages.StickerSet](../types/messages.StickerSet.md)
 
 ### Can bots use this method: **YES**
 
@@ -33,13 +33,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_StickerSet = $MadelineProto->messages->getStickerSet(['stickerset' => InputStickerSet, ]);
+$messages.StickerSet = $MadelineProto->messages->getStickerSet(['stickerset' => InputStickerSet, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_StickerSet = messages.getStickerSet({stickerset=InputStickerSet, })
+messages.StickerSet = messages.getStickerSet({stickerset=InputStickerSet, })
 ```
 
 ### Errors

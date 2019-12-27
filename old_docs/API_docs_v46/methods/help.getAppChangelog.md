@@ -19,7 +19,7 @@ Get changelog of current app
 |lang\_code|[string](../types/string.md) | Language code | Yes|
 
 
-### Return type: [help\_AppChangelog](../types/help_AppChangelog.md)
+### Return type: [help.AppChangelog](../types/help.AppChangelog.md)
 
 ### Can bots use this method: **NO**
 
@@ -36,12 +36,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_AppChangelog = $MadelineProto->help->getAppChangelog(['device_model' => 'string', 'system_version' => 'string', 'app_version' => 'string', 'lang_code' => 'string', ]);
+$help.AppChangelog = $MadelineProto->help->getAppChangelog(['device_model' => 'string', 'system_version' => 'string', 'app_version' => 'string', 'lang_code' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help_AppChangelog = help.getAppChangelog({device_model='string', system_version='string', app_version='string', lang_code='string', })
+help.AppChangelog = help.getAppChangelog({device_model='string', system_version='string', app_version='string', lang_code='string', })
 ```
 

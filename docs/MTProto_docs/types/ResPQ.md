@@ -16,9 +16,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->req->pq](../methods/req_pq.md)  
+[$MadelineProto->req\_pq](../methods/req_pq.md)  
 
-[$MadelineProto->req->pq->multi](../methods/req_pq_multi.md)  
+[$MadelineProto->req\_pq\_multi](../methods/req_pq_multi.md)  
 
 
 

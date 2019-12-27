@@ -15,7 +15,7 @@ Extended user info
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |user|[User](../types/User.md) | Optional|Remaining user info|
-|link|[contacts\_Link](../types/contacts_Link.md) | Yes|Link|
+|link|[contacts.Link](../constructors/contacts.Link.md) | Yes|Link|
 |profile\_photo|[Photo](../types/Photo.md) | Optional|Profile photo|
 |notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|Notification settings|
 |blocked|[Bool](../types/Bool.md) | Yes|Blocked?|
@@ -30,14 +30,14 @@ Extended user info
 ### Example:
 
 ```php
-$userFull = ['_' => 'userFull', 'user' => User, 'link' => contacts_Link, 'profile_photo' => Photo, 'notify_settings' => PeerNotifySettings, 'blocked' => Bool, 'real_first_name' => 'string', 'real_last_name' => 'string'];
+$userFull = ['_' => 'userFull', 'user' => User, 'link' => contacts.Link, 'profile_photo' => Photo, 'notify_settings' => PeerNotifySettings, 'blocked' => Bool, 'real_first_name' => 'string', 'real_last_name' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-userFull={_='userFull', user=User, link=contacts_Link, profile_photo=Photo, notify_settings=PeerNotifySettings, blocked=Bool, real_first_name='string', real_last_name='string'}
+userFull={_='userFull', user=User, link=contacts.Link, profile_photo=Photo, notify_settings=PeerNotifySettings, blocked=Bool, real_first_name='string', real_last_name='string'}
 
 ```
 

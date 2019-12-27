@@ -16,7 +16,7 @@ Mark mentions as read
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Dialog | Optional|
 
 
-### Return type: [messages\_AffectedHistory](../types/messages_AffectedHistory.md)
+### Return type: [messages.AffectedHistory](../types/messages.AffectedHistory.md)
 
 ### Can bots use this method: **NO**
 
@@ -33,12 +33,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_AffectedHistory = $MadelineProto->messages->readMentions(['peer' => InputPeer, ]);
+$messages.AffectedHistory = $MadelineProto->messages->readMentions(['peer' => InputPeer, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_AffectedHistory = messages.readMentions({peer=InputPeer, })
+messages.AffectedHistory = messages.readMentions({peer=InputPeer, })
 ```
 

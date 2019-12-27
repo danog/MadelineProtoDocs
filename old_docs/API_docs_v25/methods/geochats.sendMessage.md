@@ -17,7 +17,7 @@ Send message to geochat
 |message|[string](../types/string.md) | The message | Yes|
 
 
-### Return type: [geochats\_StatedMessage](../types/geochats_StatedMessage.md)
+### Return type: [geochats.StatedMessage](../types/geochats.StatedMessage.md)
 
 ### Can bots use this method: **YES**
 
@@ -34,18 +34,18 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$geochats_StatedMessage = $MadelineProto->geochats->sendMessage(['peer' => InputGeoChat, 'message' => 'string', ]);
+$geochats.StatedMessage = $MadelineProto->geochats->sendMessage(['peer' => InputGeoChat, 'message' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-geochats_StatedMessage = geochats.sendMessage({peer=InputGeoChat, message='string', })
+geochats.StatedMessage = geochats.sendMessage({peer=InputGeoChat, message='string', })
 ```
 
 
 ## Return value 
 
-If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [geochats\_StatedMessage](../types/geochats_StatedMessage.md) will be returned instead.
+If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [geochats.StatedMessage](../types/geochats.StatedMessage.md) will be returned instead.
 
 

@@ -16,7 +16,7 @@ Returns chat basic info on their IDs.
 |id|Array of [InputChat](../types/InputChat.md) | The MTProto IDs of chats to fetch info about | Yes|
 
 
-### Return type: [messages\_Chats](../types/messages_Chats.md)
+### Return type: [messages.Chats](../types/messages.Chats.md)
 
 ### Can bots use this method: **YES**
 
@@ -33,13 +33,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Chats = $MadelineProto->messages->getChats(['id' => [InputChat, InputChat], ]);
+$messages.Chats = $MadelineProto->messages->getChats(['id' => [InputChat, InputChat], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_Chats = messages.getChats({id={InputChat}, })
+messages.Chats = messages.getChats({id={InputChat}, })
 ```
 
 ### Errors

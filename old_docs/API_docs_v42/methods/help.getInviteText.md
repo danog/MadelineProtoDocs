@@ -16,7 +16,7 @@ Returns text of a text message with an invitation.
 |lang\_code|[string](../types/string.md) | Language | Yes|
 
 
-### Return type: [help\_InviteText](../types/help_InviteText.md)
+### Return type: [help.InviteText](../types/help.InviteText.md)
 
 ### Can bots use this method: **NO**
 
@@ -33,12 +33,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_InviteText = $MadelineProto->help->getInviteText(['lang_code' => 'string', ]);
+$help.InviteText = $MadelineProto->help->getInviteText(['lang_code' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help_InviteText = help.getInviteText({lang_code='string', })
+help.InviteText = help.getInviteText({lang_code='string', })
 ```
 

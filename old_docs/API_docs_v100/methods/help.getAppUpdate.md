@@ -16,7 +16,7 @@ Returns information on update availability for the current application.
 |source|[string](../types/string.md) | Source | Yes|
 
 
-### Return type: [help\_AppUpdate](../types/help_AppUpdate.md)
+### Return type: [help.AppUpdate](../types/help.AppUpdate.md)
 
 ### Can bots use this method: **NO**
 
@@ -33,12 +33,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_AppUpdate = $MadelineProto->help->getAppUpdate(['source' => 'string', ]);
+$help.AppUpdate = $MadelineProto->help->getAppUpdate(['source' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help_AppUpdate = help.getAppUpdate({source='string', })
+help.AppUpdate = help.getAppUpdate({source='string', })
 ```
 

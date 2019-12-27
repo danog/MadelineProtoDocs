@@ -14,10 +14,10 @@ Sends a service message to a secret chat.
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | Secret chat ID | Yes|
-|message|[DecryptedMessage](../types/DecryptedMessage.md) | The service message | Yes|
+|data|[bytes](../types/bytes.md) | TL-serialization of  [DecryptedMessage](../types/DecryptedMessage.md) type, encrypted with a key generated during chat initialization | Yes|
 
 
-### Return type: [messages\_SentEncryptedMessage](../types/messages_SentEncryptedMessage.md)
+### Return type: [messages.SentEncryptedMessage](../types/messages.SentEncryptedMessage.md)
 
 ### Can bots use this method: **NO**
 
@@ -34,20 +34,14 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_SentEncryptedMessage = $MadelineProto->messages->sendEncryptedService(['peer' => InputEncryptedChat, 'message' => DecryptedMessage, ]);
+$messages.SentEncryptedMessage = $MadelineProto->messages->sendEncryptedService(['peer' => InputEncryptedChat, 'data' => 'bytes', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_SentEncryptedMessage = messages.sendEncryptedService({peer=InputEncryptedChat, message=DecryptedMessage, })
+messages.SentEncryptedMessage = messages.sendEncryptedService({peer=InputEncryptedChat, data='bytes', })
 ```
-
-
-## Return value 
-
-If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [messages\_SentEncryptedMessage](../types/messages_SentEncryptedMessage.md) will be returned instead.
-
 
 ### Errors
 

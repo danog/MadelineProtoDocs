@@ -16,9 +16,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->langpack->getLangPack](../methods/langpack_getLangPack.md)  
+[$MadelineProto->langpack->getLangPack](../methods/langpack.getLangPack.md)  
 
-[$MadelineProto->langpack->getDifference](../methods/langpack_getDifference.md)  
+[$MadelineProto->langpack->getDifference](../methods/langpack.getDifference.md)  
 
 
 

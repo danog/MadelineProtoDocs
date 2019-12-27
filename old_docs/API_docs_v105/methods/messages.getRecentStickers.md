@@ -17,7 +17,7 @@ Get recent stickers
 |hash|Array of [int](../types/int.md) | IDs the hash parameter of the previous result of this method | Optional|
 
 
-### Return type: [messages\_RecentStickers](../types/messages_RecentStickers.md)
+### Return type: [messages.RecentStickers](../types/messages.RecentStickers.md)
 
 ### Can bots use this method: **NO**
 
@@ -34,12 +34,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_RecentStickers = $MadelineProto->messages->getRecentStickers(['attached' => Bool, 'hash' => [int, int], ]);
+$messages.RecentStickers = $MadelineProto->messages->getRecentStickers(['attached' => Bool, 'hash' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_RecentStickers = messages.getRecentStickers({attached=Bool, hash={int}, })
+messages.RecentStickers = messages.getRecentStickers({attached=Bool, hash={int}, })
 ```
 

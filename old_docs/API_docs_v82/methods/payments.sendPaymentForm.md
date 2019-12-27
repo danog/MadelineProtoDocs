@@ -19,7 +19,7 @@ Send compiled payment form
 |credentials|[InputPaymentCredentials](../types/InputPaymentCredentials.md) | Payment credentials | Yes|
 
 
-### Return type: [payments\_PaymentResult](../types/payments_PaymentResult.md)
+### Return type: [payments.PaymentResult](../types/payments.PaymentResult.md)
 
 ### Can bots use this method: **NO**
 
@@ -36,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$payments_PaymentResult = $MadelineProto->payments->sendPaymentForm(['msg_id' => int, 'requested_info_id' => 'string', 'shipping_option_id' => 'string', 'credentials' => InputPaymentCredentials, ]);
+$payments.PaymentResult = $MadelineProto->payments->sendPaymentForm(['msg_id' => int, 'requested_info_id' => 'string', 'shipping_option_id' => 'string', 'credentials' => InputPaymentCredentials, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-payments_PaymentResult = payments.sendPaymentForm({msg_id=int, requested_info_id='string', shipping_option_id='string', credentials=InputPaymentCredentials, })
+payments.PaymentResult = payments.sendPaymentForm({msg_id=int, requested_info_id='string', shipping_option_id='string', credentials=InputPaymentCredentials, })
 ```
 
 ### Errors

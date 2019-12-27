@@ -16,7 +16,7 @@ Internal use
 |user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | User ID | Optional|
 
 
-### Return type: [help\_UserInfo](../types/help_UserInfo.md)
+### Return type: [help.UserInfo](../types/help.UserInfo.md)
 
 ### Can bots use this method: **NO**
 
@@ -33,13 +33,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_UserInfo = $MadelineProto->help->getUserInfo(['user_id' => InputUser, ]);
+$help.UserInfo = $MadelineProto->help->getUserInfo(['user_id' => InputUser, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help_UserInfo = help.getUserInfo({user_id=InputUser, })
+help.UserInfo = help.getUserInfo({user_id=InputUser, })
 ```
 
 ### Errors

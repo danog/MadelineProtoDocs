@@ -17,7 +17,7 @@ Send a media
 |media|[MessageMedia, Update, Message or InputMedia](../types/InputMedia.md) | Attached media | Optional|
 
 
-### Return type: [messages\_StatedMessage](../types/messages_StatedMessage.md)
+### Return type: [messages.StatedMessage](../types/messages.StatedMessage.md)
 
 ### Can bots use this method: **YES**
 
@@ -34,13 +34,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_StatedMessage = $MadelineProto->messages->sendMedia(['peer' => InputPeer, 'media' => InputMedia, ]);
+$messages.StatedMessage = $MadelineProto->messages->sendMedia(['peer' => InputPeer, 'media' => InputMedia, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_StatedMessage = messages.sendMedia({peer=InputPeer, media=InputMedia, })
+messages.StatedMessage = messages.sendMedia({peer=InputPeer, media=InputMedia, })
 ```
 
 ### Errors

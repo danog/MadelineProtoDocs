@@ -20,7 +20,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->set->client->DH->params](../methods/set_client_DH_params.md)  
+[$MadelineProto->set\_client\_DH\_params](../methods/set_client_DH_params.md)  
 
 
 

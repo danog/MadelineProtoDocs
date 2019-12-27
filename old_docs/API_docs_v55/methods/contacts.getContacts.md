@@ -16,7 +16,7 @@ Returns the current user's contact list.
 |hash|[string](../types/string.md) | List of contact user IDs you already cached | Yes|
 
 
-### Return type: [contacts\_Contacts](../types/contacts_Contacts.md)
+### Return type: [contacts.Contacts](../types/contacts.Contacts.md)
 
 ### Can bots use this method: **NO**
 
@@ -33,12 +33,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts_Contacts = $MadelineProto->contacts->getContacts(['hash' => 'string', ]);
+$contacts.Contacts = $MadelineProto->contacts->getContacts(['hash' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-contacts_Contacts = contacts.getContacts({hash='string', })
+contacts.Contacts = contacts.getContacts({hash='string', })
 ```
 

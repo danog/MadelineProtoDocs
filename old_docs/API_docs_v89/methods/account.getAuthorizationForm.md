@@ -18,7 +18,7 @@ Returns a Telegram Passport authorization form for sharing data with a service
 |public\_key|[string](../types/string.md) | Service's public key | Yes|
 
 
-### Return type: [account\_AuthorizationForm](../types/account_AuthorizationForm.md)
+### Return type: [account.AuthorizationForm](../types/account.AuthorizationForm.md)
 
 ### Can bots use this method: **NO**
 
@@ -35,12 +35,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_AuthorizationForm = $MadelineProto->account->getAuthorizationForm(['bot_id' => int, 'scope' => 'string', 'public_key' => 'string', ]);
+$account.AuthorizationForm = $MadelineProto->account->getAuthorizationForm(['bot_id' => int, 'scope' => 'string', 'public_key' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account_AuthorizationForm = account.getAuthorizationForm({bot_id=int, scope='string', public_key='string', })
+account.AuthorizationForm = account.getAuthorizationForm({bot_id=int, scope='string', public_key='string', })
 ```
 

@@ -11,7 +11,7 @@ Get saved payment information
 
 
 
-### Return type: [payments\_SavedInfo](../types/payments_SavedInfo.md)
+### Return type: [payments.SavedInfo](../types/payments.SavedInfo.md)
 
 ### Can bots use this method: **NO**
 
@@ -28,12 +28,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$payments_SavedInfo = $MadelineProto->payments->getSavedInfo();
+$payments.SavedInfo = $MadelineProto->payments->getSavedInfo();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-payments_SavedInfo = payments.getSavedInfo({})
+payments.SavedInfo = payments.getSavedInfo({})
 ```
 

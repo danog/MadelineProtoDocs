@@ -18,7 +18,7 @@ Sends a message to a chat
 |message|[string](../types/string.md) | The message | Yes|
 
 
-### Return type: [messages\_SentMessage](../types/messages_SentMessage.md)
+### Return type: [messages.SentMessage](../types/messages.SentMessage.md)
 
 ### Can bots use this method: **YES**
 
@@ -35,19 +35,19 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_SentMessage = $MadelineProto->messages->sendMessage(['peer' => InputPeer, 'reply_to_msg_id' => int, 'message' => 'string', ]);
+$messages.SentMessage = $MadelineProto->messages->sendMessage(['peer' => InputPeer, 'reply_to_msg_id' => int, 'message' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_SentMessage = messages.sendMessage({peer=InputPeer, reply_to_msg_id=int, message='string', })
+messages.SentMessage = messages.sendMessage({peer=InputPeer, reply_to_msg_id=int, message='string', })
 ```
 
 
 ## Return value 
 
-If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [messages\_SentMessage](../types/messages_SentMessage.md) will be returned instead.
+If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [messages.SentMessage](../types/messages.SentMessage.md) will be returned instead.
 
 
 ### Errors

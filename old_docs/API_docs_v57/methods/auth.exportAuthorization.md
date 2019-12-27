@@ -16,7 +16,7 @@ You cannot use this method directly, use $MadelineProto->exportAuthorization() i
 |dc\_id|[int](../types/int.md) | You cannot use this method directly, use $MadelineProto->exportAuthorization() instead, see https://docs.madelineproto.xyz/docs/LOGIN.html | Yes|
 
 
-### Return type: [auth\_ExportedAuthorization](../types/auth_ExportedAuthorization.md)
+### Return type: [auth.ExportedAuthorization](../types/auth.ExportedAuthorization.md)
 
 ### Can bots use this method: **YES**
 
@@ -33,13 +33,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_ExportedAuthorization = $MadelineProto->auth->exportAuthorization(['dc_id' => int, ]);
+$auth.ExportedAuthorization = $MadelineProto->auth->exportAuthorization(['dc_id' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth_ExportedAuthorization = auth.exportAuthorization({dc_id=int, })
+auth.ExportedAuthorization = auth.exportAuthorization({dc_id=int, })
 ```
 
 ### Errors

@@ -16,7 +16,7 @@ Get suggested contacts
 |limit|[int](../types/int.md) | Number of results to return | Yes|
 
 
-### Return type: [contacts\_Suggested](../types/contacts_Suggested.md)
+### Return type: [contacts.Suggested](../types/contacts.Suggested.md)
 
 ### Can bots use this method: **YES**
 
@@ -33,12 +33,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts_Suggested = $MadelineProto->contacts->getSuggested(['limit' => int, ]);
+$contacts.Suggested = $MadelineProto->contacts->getSuggested(['limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-contacts_Suggested = contacts.getSuggested({limit=int, })
+contacts.Suggested = contacts.getSuggested({limit=int, })
 ```
 

@@ -16,7 +16,7 @@ Get privacy settings of current account
 |key|[InputPrivacyKey](../types/InputPrivacyKey.md) | Peer category whose privacy settings should be fetched | Yes|
 
 
-### Return type: [account\_PrivacyRules](../types/account_PrivacyRules.md)
+### Return type: [account.PrivacyRules](../types/account.PrivacyRules.md)
 
 ### Can bots use this method: **NO**
 
@@ -33,13 +33,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_PrivacyRules = $MadelineProto->account->getPrivacy(['key' => InputPrivacyKey, ]);
+$account.PrivacyRules = $MadelineProto->account->getPrivacy(['key' => InputPrivacyKey, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account_PrivacyRules = account.getPrivacy({key=InputPrivacyKey, })
+account.PrivacyRules = account.getPrivacy({key=InputPrivacyKey, })
 ```
 
 ### Errors

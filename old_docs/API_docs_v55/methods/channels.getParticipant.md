@@ -17,7 +17,7 @@ Get info about a [channel/supergroup](https://core.telegram.org/api/channel) par
 |user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | ID of participant to get info about | Optional|
 
 
-### Return type: [channels\_ChannelParticipant](../types/channels_ChannelParticipant.md)
+### Return type: [channels.ChannelParticipant](../types/channels.ChannelParticipant.md)
 
 ### Can bots use this method: **YES**
 
@@ -34,13 +34,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$channels_ChannelParticipant = $MadelineProto->channels->getParticipant(['channel' => InputChannel, 'user_id' => InputUser, ]);
+$channels.ChannelParticipant = $MadelineProto->channels->getParticipant(['channel' => InputChannel, 'user_id' => InputUser, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-channels_ChannelParticipant = channels.getParticipant({channel=InputChannel, user_id=InputUser, })
+channels.ChannelParticipant = channels.getParticipant({channel=InputChannel, user_id=InputUser, })
 ```
 
 ### Errors

@@ -18,7 +18,7 @@ Send the verification phone code for telegram [passport](https://core.telegram.o
 |current\_number|[Bool](../types/Bool.md) | Is this the current number? | Optional|
 
 
-### Return type: [auth\_SentCode](../types/auth_SentCode.md)
+### Return type: [auth.SentCode](../types/auth.SentCode.md)
 
 ### Can bots use this method: **NO**
 
@@ -35,12 +35,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_SentCode = $MadelineProto->account->sendVerifyPhoneCode(['allow_flashcall' => Bool, 'phone_number' => 'string', 'current_number' => Bool, ]);
+$auth.SentCode = $MadelineProto->account->sendVerifyPhoneCode(['allow_flashcall' => Bool, 'phone_number' => 'string', 'current_number' => Bool, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth_SentCode = account.sendVerifyPhoneCode({allow_flashcall=Bool, phone_number='string', current_number=Bool, })
+auth.SentCode = account.sendVerifyPhoneCode({allow_flashcall=Bool, phone_number='string', current_number=Bool, })
 ```
 

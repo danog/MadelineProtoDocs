@@ -17,7 +17,7 @@ You cannot use this method directly, instead use $MadelineProto->getDhConfig();
 |random\_length|[int](../types/int.md) | You cannot use this method directly, instead use $MadelineProto->getDhConfig(); | Yes|
 
 
-### Return type: [messages\_DhConfig](../types/messages_DhConfig.md)
+### Return type: [messages.DhConfig](../types/messages.DhConfig.md)
 
 ### Can bots use this method: **NO**
 
@@ -34,13 +34,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_DhConfig = $MadelineProto->messages->getDhConfig(['version' => int, 'random_length' => int, ]);
+$messages.DhConfig = $MadelineProto->messages->getDhConfig(['version' => int, 'random_length' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_DhConfig = messages.getDhConfig({version=int, random_length=int, })
+messages.DhConfig = messages.getDhConfig({version=int, random_length=int, })
 ```
 
 ### Errors

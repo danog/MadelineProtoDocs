@@ -15,8 +15,8 @@ Update contact link
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |user\_id|[int](../types/int.md) | Yes|User ID|
-|my\_link|[contacts\_MyLink](../types/contacts_MyLink.md) | Yes|My link|
-|foreign\_link|[contacts\_ForeignLink](../types/contacts_ForeignLink.md) | Yes|Foreign link|
+|my\_link|[contacts.MyLink](../constructors/contacts.MyLink.md) | Yes|My link|
+|foreign\_link|[contacts.ForeignLink](../constructors/contacts.ForeignLink.md) | Yes|Foreign link|
 
 
 
@@ -26,14 +26,14 @@ Update contact link
 ### Example:
 
 ```php
-$updateContactLink = ['_' => 'updateContactLink', 'user_id' => int, 'my_link' => contacts_MyLink, 'foreign_link' => contacts_ForeignLink];
+$updateContactLink = ['_' => 'updateContactLink', 'user_id' => int, 'my_link' => contacts.MyLink, 'foreign_link' => contacts.ForeignLink];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateContactLink={_='updateContactLink', user_id=int, my_link=contacts_MyLink, foreign_link=contacts_ForeignLink}
+updateContactLink={_='updateContactLink', user_id=int, my_link=contacts.MyLink, foreign_link=contacts.ForeignLink}
 
 ```
 

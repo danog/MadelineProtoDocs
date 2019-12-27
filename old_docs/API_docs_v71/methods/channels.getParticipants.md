@@ -19,7 +19,7 @@ Get the participants of a channel
 |limit|[int](../types/int.md) | [Limit](https://core.telegram.org/api/offsets) | Yes|
 
 
-### Return type: [channels\_ChannelParticipants](../types/channels_ChannelParticipants.md)
+### Return type: [channels.ChannelParticipants](../types/channels.ChannelParticipants.md)
 
 ### Can bots use this method: **YES**
 
@@ -36,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$channels_ChannelParticipants = $MadelineProto->channels->getParticipants(['channel' => InputChannel, 'filter' => ChannelParticipantsFilter, 'offset' => int, 'limit' => int, ]);
+$channels.ChannelParticipants = $MadelineProto->channels->getParticipants(['channel' => InputChannel, 'filter' => ChannelParticipantsFilter, 'offset' => int, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-channels_ChannelParticipants = channels.getParticipants({channel=InputChannel, filter=ChannelParticipantsFilter, offset=int, limit=int, })
+channels.ChannelParticipants = channels.getParticipants({channel=InputChannel, filter=ChannelParticipantsFilter, offset=int, limit=int, })
 ```
 
 ### Errors

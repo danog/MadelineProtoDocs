@@ -20,7 +20,7 @@ You cannot use this method directly, use the phoneLogin method instead (see http
 |api\_hash|[string](../types/string.md) | You cannot use this method directly, use the phoneLogin method instead (see https://docs.madelineproto.xyz for more info) | Yes|
 
 
-### Return type: [auth\_SentCode](../types/auth_SentCode.md)
+### Return type: [auth.SentCode](../types/auth.SentCode.md)
 
 ### Can bots use this method: **NO**
 
@@ -37,13 +37,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_SentCode = $MadelineProto->auth->sendCode(['allow_flashcall' => Bool, 'phone_number' => 'string', 'current_number' => Bool, 'api_id' => int, 'api_hash' => 'string', ]);
+$auth.SentCode = $MadelineProto->auth->sendCode(['allow_flashcall' => Bool, 'phone_number' => 'string', 'current_number' => Bool, 'api_id' => int, 'api_hash' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth_SentCode = auth.sendCode({allow_flashcall=Bool, phone_number='string', current_number=Bool, api_id=int, api_hash='string', })
+auth.SentCode = auth.sendCode({allow_flashcall=Bool, phone_number='string', current_number=Bool, api_id=int, api_hash='string', })
 ```
 
 ### Errors

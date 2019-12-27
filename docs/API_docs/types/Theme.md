@@ -18,11 +18,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->createTheme](../methods/account_createTheme.md)  
+[$MadelineProto->account->createTheme](../methods/account.createTheme.md)  
 
-[$MadelineProto->account->updateTheme](../methods/account_updateTheme.md)  
+[$MadelineProto->account->updateTheme](../methods/account.updateTheme.md)  
 
-[$MadelineProto->account->getTheme](../methods/account_getTheme.md)  
+[$MadelineProto->account->getTheme](../methods/account.getTheme.md)  
 
 
 

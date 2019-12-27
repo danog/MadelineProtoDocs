@@ -16,7 +16,7 @@ Join a geochat
 |peer|[InputGeoChat](../types/InputGeoChat.md) | The geochat | Yes|
 
 
-### Return type: [geochats\_StatedMessage](../types/geochats_StatedMessage.md)
+### Return type: [geochats.StatedMessage](../types/geochats.StatedMessage.md)
 
 ### Can bots use this method: **YES**
 
@@ -33,12 +33,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$geochats_StatedMessage = $MadelineProto->geochats->checkin(['peer' => InputGeoChat, ]);
+$geochats.StatedMessage = $MadelineProto->geochats->checkin(['peer' => InputGeoChat, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-geochats_StatedMessage = geochats.checkin({peer=InputGeoChat, })
+geochats.StatedMessage = geochats.checkin({peer=InputGeoChat, })
 ```
 

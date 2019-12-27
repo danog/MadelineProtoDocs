@@ -16,9 +16,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->getWallPaper](../methods/account_getWallPaper.md)  
+[$MadelineProto->account->getWallPaper](../methods/account.getWallPaper.md)  
 
-[$MadelineProto->account->uploadWallPaper](../methods/account_uploadWallPaper.md)  
+[$MadelineProto->account->uploadWallPaper](../methods/account.uploadWallPaper.md)  
 
 
 

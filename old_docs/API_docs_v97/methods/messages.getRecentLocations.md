@@ -18,7 +18,7 @@ Get live location history of a certain user
 |hash|Array of [int](../types/int.md) | IDs of locations you already fetched | Optional|
 
 
-### Return type: [messages\_Messages](../types/messages_Messages.md)
+### Return type: [messages.Messages](../types/messages.Messages.md)
 
 ### Can bots use this method: **NO**
 
@@ -35,12 +35,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->messages->getRecentLocations(['peer' => InputPeer, 'limit' => int, 'hash' => [int, int], ]);
+$messages.Messages = $MadelineProto->messages->getRecentLocations(['peer' => InputPeer, 'limit' => int, 'hash' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_Messages = messages.getRecentLocations({peer=InputPeer, limit=int, hash={int}, })
+messages.Messages = messages.getRecentLocations({peer=InputPeer, limit=int, hash={int}, })
 ```
 

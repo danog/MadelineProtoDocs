@@ -16,7 +16,7 @@ Get recently used `t.me` links
 |referer|[string](../types/string.md) | Referer | Yes|
 
 
-### Return type: [help\_RecentMeUrls](../types/help_RecentMeUrls.md)
+### Return type: [help.RecentMeUrls](../types/help.RecentMeUrls.md)
 
 ### Can bots use this method: **NO**
 
@@ -33,12 +33,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_RecentMeUrls = $MadelineProto->help->getRecentMeUrls(['referer' => 'string', ]);
+$help.RecentMeUrls = $MadelineProto->help->getRecentMeUrls(['referer' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help_RecentMeUrls = help.getRecentMeUrls({referer='string', })
+help.RecentMeUrls = help.getRecentMeUrls({referer='string', })
 ```
 

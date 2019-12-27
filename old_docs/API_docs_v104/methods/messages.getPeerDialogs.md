@@ -16,7 +16,7 @@ Get dialog info of specified peers
 |peers|Array of [Username, chat ID, Update, Message or InputDialogPeer](../types/InputDialogPeer.md) | The peers | Yes|
 
 
-### Return type: [messages\_PeerDialogs](../types/messages_PeerDialogs.md)
+### Return type: [messages.PeerDialogs](../types/messages.PeerDialogs.md)
 
 ### Can bots use this method: **NO**
 
@@ -33,13 +33,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_PeerDialogs = $MadelineProto->messages->getPeerDialogs(['peers' => [InputDialogPeer, InputDialogPeer], ]);
+$messages.PeerDialogs = $MadelineProto->messages->getPeerDialogs(['peers' => [InputDialogPeer, InputDialogPeer], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_PeerDialogs = messages.getPeerDialogs({peers={InputDialogPeer}, })
+messages.PeerDialogs = messages.getPeerDialogs({peers={InputDialogPeer}, })
 ```
 
 ### Errors

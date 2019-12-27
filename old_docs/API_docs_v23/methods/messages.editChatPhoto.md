@@ -17,7 +17,7 @@ Changes chat photo and sends a service message on it
 |photo|[InputChatPhoto](../types/InputChatPhoto.md) | Photo to be set | Optional|
 
 
-### Return type: [messages\_StatedMessage](../types/messages_StatedMessage.md)
+### Return type: [messages.StatedMessage](../types/messages.StatedMessage.md)
 
 ### Can bots use this method: **YES**
 
@@ -34,13 +34,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_StatedMessage = $MadelineProto->messages->editChatPhoto(['chat_id' => InputPeer, 'photo' => InputChatPhoto, ]);
+$messages.StatedMessage = $MadelineProto->messages->editChatPhoto(['chat_id' => InputPeer, 'photo' => InputChatPhoto, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_StatedMessage = messages.editChatPhoto({chat_id=InputPeer, photo=InputChatPhoto, })
+messages.StatedMessage = messages.editChatPhoto({chat_id=InputPeer, photo=InputChatPhoto, })
 ```
 
 ### Errors

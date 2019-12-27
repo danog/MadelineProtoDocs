@@ -16,7 +16,7 @@ Delete a contact
 |id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The contact to delete | Optional|
 
 
-### Return type: [contacts\_Link](../types/contacts_Link.md)
+### Return type: [contacts.Link](../types/contacts.Link.md)
 
 ### Can bots use this method: **YES**
 
@@ -33,13 +33,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts_Link = $MadelineProto->contacts->deleteContact(['id' => InputUser, ]);
+$contacts.Link = $MadelineProto->contacts->deleteContact(['id' => InputUser, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-contacts_Link = contacts.deleteContact({id=InputUser, })
+contacts.Link = contacts.deleteContact({id=InputUser, })
 ```
 
 ### Errors

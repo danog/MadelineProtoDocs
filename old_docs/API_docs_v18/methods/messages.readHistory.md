@@ -19,7 +19,7 @@ Marks message history as read.
 |read\_contents|[Bool](../types/Bool.md) | Mark messages as read? | Yes|
 
 
-### Return type: [messages\_AffectedHistory](../types/messages_AffectedHistory.md)
+### Return type: [messages.AffectedHistory](../types/messages.AffectedHistory.md)
 
 ### Can bots use this method: **NO**
 
@@ -36,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_AffectedHistory = $MadelineProto->messages->readHistory(['peer' => InputPeer, 'max_id' => int, 'offset' => int, 'read_contents' => Bool, ]);
+$messages.AffectedHistory = $MadelineProto->messages->readHistory(['peer' => InputPeer, 'max_id' => int, 'offset' => int, 'read_contents' => Bool, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_AffectedHistory = messages.readHistory({peer=InputPeer, max_id=int, offset=int, read_contents=Bool, })
+messages.AffectedHistory = messages.readHistory({peer=InputPeer, max_id=int, offset=int, read_contents=Bool, })
 ```
 
 ### Errors

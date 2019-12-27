@@ -11,7 +11,7 @@ Get channels for discussion
 
 
 
-### Return type: [messages\_Chats](../types/messages_Chats.md)
+### Return type: [messages.Chats](../types/messages.Chats.md)
 
 ### Can bots use this method: **YES**
 
@@ -28,12 +28,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Chats = $MadelineProto->channels->getBroadcastsForDiscussion();
+$messages.Chats = $MadelineProto->channels->getBroadcastsForDiscussion();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_Chats = channels.getBroadcastsForDiscussion({})
+messages.Chats = channels.getBroadcastsForDiscussion({})
 ```
 

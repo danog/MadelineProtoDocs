@@ -18,7 +18,7 @@ Edit geochat title
 |address|[string](../types/string.md) | The new address | Yes|
 
 
-### Return type: [geochats\_StatedMessage](../types/geochats_StatedMessage.md)
+### Return type: [geochats.StatedMessage](../types/geochats.StatedMessage.md)
 
 ### Can bots use this method: **YES**
 
@@ -35,12 +35,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$geochats_StatedMessage = $MadelineProto->geochats->editChatTitle(['peer' => InputGeoChat, 'title' => 'string', 'address' => 'string', ]);
+$geochats.StatedMessage = $MadelineProto->geochats->editChatTitle(['peer' => InputGeoChat, 'title' => 'string', 'address' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-geochats_StatedMessage = geochats.editChatTitle({peer=InputGeoChat, title='string', address='string', })
+geochats.StatedMessage = geochats.editChatTitle({peer=InputGeoChat, title='string', address='string', })
 ```
 

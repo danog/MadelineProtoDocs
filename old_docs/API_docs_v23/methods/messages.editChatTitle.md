@@ -17,7 +17,7 @@ Chanages chat name and sends a service message on it.
 |title|[string](../types/string.md) | New chat name, different from the old one | Yes|
 
 
-### Return type: [messages\_StatedMessage](../types/messages_StatedMessage.md)
+### Return type: [messages.StatedMessage](../types/messages.StatedMessage.md)
 
 ### Can bots use this method: **YES**
 
@@ -34,13 +34,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_StatedMessage = $MadelineProto->messages->editChatTitle(['chat_id' => InputPeer, 'title' => 'string', ]);
+$messages.StatedMessage = $MadelineProto->messages->editChatTitle(['chat_id' => InputPeer, 'title' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_StatedMessage = messages.editChatTitle({chat_id=InputPeer, title='string', })
+messages.StatedMessage = messages.editChatTitle({chat_id=InputPeer, title='string', })
 ```
 
 ### Errors

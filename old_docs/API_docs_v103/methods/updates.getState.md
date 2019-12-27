@@ -11,7 +11,7 @@ You cannot use this method directly, see https://docs.madelineproto.xyz for more
 
 
 
-### Return type: [updates\_State](../types/updates_State.md)
+### Return type: [updates.State](../types/updates.State.md)
 
 ### Can bots use this method: **YES**
 
@@ -28,13 +28,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$updates_State = $MadelineProto->updates->getState();
+$updates.State = $MadelineProto->updates->getState();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-updates_State = updates.getState({})
+updates.State = updates.getState({})
 ```
 
 ### Errors

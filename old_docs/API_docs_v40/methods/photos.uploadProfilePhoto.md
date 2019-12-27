@@ -19,7 +19,7 @@ Updates current user profile photo.
 |crop|[InputPhotoCrop](../types/InputPhotoCrop.md) | Cropping info | Yes|
 
 
-### Return type: [photos\_Photo](../types/photos_Photo.md)
+### Return type: [photos.Photo](../types/photos.Photo.md)
 
 ### Can bots use this method: **NO**
 
@@ -36,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$photos_Photo = $MadelineProto->photos->uploadProfilePhoto(['file' => InputFile, 'caption' => 'string', 'geo_point' => InputGeoPoint, 'crop' => InputPhotoCrop, ]);
+$photos.Photo = $MadelineProto->photos->uploadProfilePhoto(['file' => InputFile, 'caption' => 'string', 'geo_point' => InputGeoPoint, 'crop' => InputPhotoCrop, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-photos_Photo = photos.uploadProfilePhoto({file=InputFile, caption='string', geo_point=InputGeoPoint, crop=InputPhotoCrop, })
+photos.Photo = photos.uploadProfilePhoto({file=InputFile, caption='string', geo_point=InputGeoPoint, crop=InputPhotoCrop, })
 ```
 
 ### Errors

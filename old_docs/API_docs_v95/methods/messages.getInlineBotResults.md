@@ -20,7 +20,7 @@ Query an inline bot
 |offset|[string](../types/string.md) | The offset within the results, will be passed directly as-is to the bot. | Yes|
 
 
-### Return type: [messages\_BotResults](../types/messages_BotResults.md)
+### Return type: [messages.BotResults](../types/messages.BotResults.md)
 
 ### Can bots use this method: **NO**
 
@@ -37,13 +37,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_BotResults = $MadelineProto->messages->getInlineBotResults(['bot' => InputUser, 'peer' => InputPeer, 'geo_point' => InputGeoPoint, 'query' => 'string', 'offset' => 'string', ]);
+$messages.BotResults = $MadelineProto->messages->getInlineBotResults(['bot' => InputUser, 'peer' => InputPeer, 'geo_point' => InputGeoPoint, 'query' => 'string', 'offset' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_BotResults = messages.getInlineBotResults({bot=InputUser, peer=InputPeer, geo_point=InputGeoPoint, query='string', offset='string', })
+messages.BotResults = messages.getInlineBotResults({bot=InputUser, peer=InputPeer, geo_point=InputGeoPoint, query='string', offset='string', })
 ```
 
 ### Errors

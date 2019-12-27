@@ -22,7 +22,7 @@ You cannot use this method directly, use the botLogin method instead (see https:
 |bot\_auth\_token|[string](../types/string.md) | You cannot use this method directly, use the botLogin method instead (see https://docs.madelineproto.xyz for more info) | Yes|
 
 
-### Return type: [auth\_Authorization](../types/auth_Authorization.md)
+### Return type: [auth.Authorization](../types/auth.Authorization.md)
 
 ### Can bots use this method: **YES**
 
@@ -39,13 +39,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_Authorization = $MadelineProto->auth->importBotAuthorization(['a' => Bool, 'b' => Bool, 'c' => Bool, 'd' => Bool, 'api_id' => int, 'api_hash' => 'string', 'bot_auth_token' => 'string', ]);
+$auth.Authorization = $MadelineProto->auth->importBotAuthorization(['a' => Bool, 'b' => Bool, 'c' => Bool, 'd' => Bool, 'api_id' => int, 'api_hash' => 'string', 'bot_auth_token' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth_Authorization = auth.importBotAuthorization({a=Bool, b=Bool, c=Bool, d=Bool, api_id=int, api_hash='string', bot_auth_token='string', })
+auth.Authorization = auth.importBotAuthorization({a=Bool, b=Bool, c=Bool, d=Bool, api_id=int, api_hash='string', bot_auth_token='string', })
 ```
 
 ### Errors

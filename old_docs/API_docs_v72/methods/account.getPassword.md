@@ -11,7 +11,7 @@ Obtain configuration for two-factor authorization with password
 
 
 
-### Return type: [account\_Password](../types/account_Password.md)
+### Return type: [account.Password](../types/account.Password.md)
 
 ### Can bots use this method: **NO**
 
@@ -28,12 +28,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_Password = $MadelineProto->account->getPassword();
+$account.Password = $MadelineProto->account->getPassword();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account_Password = account.getPassword({})
+account.Password = account.getPassword({})
 ```
 

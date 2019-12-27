@@ -17,7 +17,7 @@ Add a sticker to a stickerset, bots only. The sticker set must have been created
 |sticker|[InputStickerSetItem](../types/InputStickerSetItem.md) | The sticker | Yes|
 
 
-### Return type: [messages\_StickerSet](../types/messages_StickerSet.md)
+### Return type: [messages.StickerSet](../types/messages.StickerSet.md)
 
 ### Can bots use this method: **YES**
 
@@ -34,13 +34,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_StickerSet = $MadelineProto->stickers->addStickerToSet(['stickerset' => InputStickerSet, 'sticker' => InputStickerSetItem, ]);
+$messages.StickerSet = $MadelineProto->stickers->addStickerToSet(['stickerset' => InputStickerSet, 'sticker' => InputStickerSetItem, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_StickerSet = stickers.addStickerToSet({stickerset=InputStickerSet, sticker=InputStickerSetItem, })
+messages.StickerSet = stickers.addStickerToSet({stickerset=InputStickerSet, sticker=InputStickerSetItem, })
 ```
 
 ### Errors

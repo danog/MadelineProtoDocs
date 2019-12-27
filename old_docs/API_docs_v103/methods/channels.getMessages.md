@@ -17,7 +17,7 @@ Get [channel/supergroup](https://core.telegram.org/api/channel) messages
 |id|Array of [Message ID or InputMessage](../types/InputMessage.md) | The message IDs | Yes|
 
 
-### Return type: [messages\_Messages](../types/messages_Messages.md)
+### Return type: [messages.Messages](../types/messages.Messages.md)
 
 ### Can bots use this method: **YES**
 
@@ -34,13 +34,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->channels->getMessages(['channel' => InputChannel, 'id' => [InputMessage, InputMessage], ]);
+$messages.Messages = $MadelineProto->channels->getMessages(['channel' => InputChannel, 'id' => [InputMessage, InputMessage], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_Messages = channels.getMessages({channel=InputChannel, id={InputMessage}, })
+messages.Messages = channels.getMessages({channel=InputChannel, id={InputMessage}, })
 ```
 
 ### Errors

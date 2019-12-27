@@ -21,7 +21,7 @@ Returns the current user dialog list.
 |hash|Array of [int](../types/int.md) | IDs of previously fetched dialogs | Optional|
 
 
-### Return type: [messages\_Dialogs](../types/messages_Dialogs.md)
+### Return type: [messages.Dialogs](../types/messages.Dialogs.md)
 
 ### Can bots use this method: **NO**
 
@@ -38,13 +38,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Dialogs = $MadelineProto->messages->getDialogs(['exclude_pinned' => Bool, 'offset_date' => int, 'offset_id' => int, 'offset_peer' => InputPeer, 'limit' => int, 'hash' => [int, int], ]);
+$messages.Dialogs = $MadelineProto->messages->getDialogs(['exclude_pinned' => Bool, 'offset_date' => int, 'offset_id' => int, 'offset_peer' => InputPeer, 'limit' => int, 'hash' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_Dialogs = messages.getDialogs({exclude_pinned=Bool, offset_date=int, offset_id=int, offset_peer=InputPeer, limit=int, hash={int}, })
+messages.Dialogs = messages.getDialogs({exclude_pinned=Bool, offset_date=int, offset_id=int, offset_peer=InputPeer, limit=int, hash={int}, })
 ```
 
 ### Errors

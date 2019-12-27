@@ -18,7 +18,7 @@ Get highscores of a game
 |user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Get high scores made by a certain user | Optional|
 
 
-### Return type: [messages\_HighScores](../types/messages_HighScores.md)
+### Return type: [messages.HighScores](../types/messages.HighScores.md)
 
 ### Can bots use this method: **YES**
 
@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_HighScores = $MadelineProto->messages->getGameHighScores(['peer' => InputPeer, 'id' => int, 'user_id' => InputUser, ]);
+$messages.HighScores = $MadelineProto->messages->getGameHighScores(['peer' => InputPeer, 'id' => int, 'user_id' => InputUser, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_HighScores = messages.getGameHighScores({peer=InputPeer, id=int, user_id=InputUser, })
+messages.HighScores = messages.getGameHighScores({peer=InputPeer, id=int, user_id=InputUser, })
 ```
 
 ### Errors

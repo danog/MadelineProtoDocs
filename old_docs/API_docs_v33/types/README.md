@@ -185,93 +185,93 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [X](X.md)<a name="X"></a>  
 
-[account\_Authorizations](account_Authorizations.md)<a name="account_Authorizations"></a>  
+[account.Authorizations](account.Authorizations.md)<a name="account.Authorizations"></a>  
 
-[account\_Password](account_Password.md)<a name="account_Password"></a>  
+[account.Password](account.Password.md)<a name="account.Password"></a>  
 
-[account\_PasswordInputSettings](account_PasswordInputSettings.md)<a name="account_PasswordInputSettings"></a>  
+[account.PasswordInputSettings](account.PasswordInputSettings.md)<a name="account.PasswordInputSettings"></a>  
 
-[account\_PasswordSettings](account_PasswordSettings.md)<a name="account_PasswordSettings"></a>  
+[account.PasswordSettings](account.PasswordSettings.md)<a name="account.PasswordSettings"></a>  
 
-[account\_PrivacyRules](account_PrivacyRules.md)<a name="account_PrivacyRules"></a>  
+[account.PrivacyRules](account.PrivacyRules.md)<a name="account.PrivacyRules"></a>  
 
-[account\_SentChangePhoneCode](account_SentChangePhoneCode.md)<a name="account_SentChangePhoneCode"></a>  
+[account.SentChangePhoneCode](account.SentChangePhoneCode.md)<a name="account.SentChangePhoneCode"></a>  
 
-[auth\_Authorization](auth_Authorization.md)<a name="auth_Authorization"></a>  
+[auth.Authorization](auth.Authorization.md)<a name="auth.Authorization"></a>  
 
-[auth\_CheckedPhone](auth_CheckedPhone.md)<a name="auth_CheckedPhone"></a>  
+[auth.CheckedPhone](auth.CheckedPhone.md)<a name="auth.CheckedPhone"></a>  
 
-[auth\_ExportedAuthorization](auth_ExportedAuthorization.md)<a name="auth_ExportedAuthorization"></a>  
+[auth.ExportedAuthorization](auth.ExportedAuthorization.md)<a name="auth.ExportedAuthorization"></a>  
 
-[auth\_PasswordRecovery](auth_PasswordRecovery.md)<a name="auth_PasswordRecovery"></a>  
+[auth.PasswordRecovery](auth.PasswordRecovery.md)<a name="auth.PasswordRecovery"></a>  
 
-[auth\_SentCode](auth_SentCode.md)<a name="auth_SentCode"></a>  
+[auth.SentCode](auth.SentCode.md)<a name="auth.SentCode"></a>  
 
-[contacts\_Blocked](contacts_Blocked.md)<a name="contacts_Blocked"></a>  
+[contacts.Blocked](contacts.Blocked.md)<a name="contacts.Blocked"></a>  
 
-[contacts\_Contacts](contacts_Contacts.md)<a name="contacts_Contacts"></a>  
+[contacts.Contacts](contacts.Contacts.md)<a name="contacts.Contacts"></a>  
 
-[contacts\_Found](contacts_Found.md)<a name="contacts_Found"></a>  
+[contacts.Found](contacts.Found.md)<a name="contacts.Found"></a>  
 
-[contacts\_ImportedContacts](contacts_ImportedContacts.md)<a name="contacts_ImportedContacts"></a>  
+[contacts.ImportedContacts](contacts.ImportedContacts.md)<a name="contacts.ImportedContacts"></a>  
 
-[contacts\_Link](contacts_Link.md)<a name="contacts_Link"></a>  
+[contacts.Link](contacts.Link.md)<a name="contacts.Link"></a>  
 
-[contacts\_Suggested](contacts_Suggested.md)<a name="contacts_Suggested"></a>  
+[contacts.Suggested](contacts.Suggested.md)<a name="contacts.Suggested"></a>  
 
-[geochats\_Located](geochats_Located.md)<a name="geochats_Located"></a>  
+[geochats.Located](geochats.Located.md)<a name="geochats.Located"></a>  
 
-[geochats\_Messages](geochats_Messages.md)<a name="geochats_Messages"></a>  
+[geochats.Messages](geochats.Messages.md)<a name="geochats.Messages"></a>  
 
-[geochats\_StatedMessage](geochats_StatedMessage.md)<a name="geochats_StatedMessage"></a>  
+[geochats.StatedMessage](geochats.StatedMessage.md)<a name="geochats.StatedMessage"></a>  
 
-[help\_AppChangelog](help_AppChangelog.md)<a name="help_AppChangelog"></a>  
+[help.AppChangelog](help.AppChangelog.md)<a name="help.AppChangelog"></a>  
 
-[help\_AppUpdate](help_AppUpdate.md)<a name="help_AppUpdate"></a>  
+[help.AppUpdate](help.AppUpdate.md)<a name="help.AppUpdate"></a>  
 
-[help\_InviteText](help_InviteText.md)<a name="help_InviteText"></a>  
+[help.InviteText](help.InviteText.md)<a name="help.InviteText"></a>  
 
-[help\_Support](help_Support.md)<a name="help_Support"></a>  
+[help.Support](help.Support.md)<a name="help.Support"></a>  
 
 [int](int.md)<a name="int"></a>  
 
 [long](long.md)<a name="long"></a>  
 
-[messages\_AffectedHistory](messages_AffectedHistory.md)<a name="messages_AffectedHistory"></a>  
+[messages.AffectedHistory](messages.AffectedHistory.md)<a name="messages.AffectedHistory"></a>  
 
-[messages\_AffectedMessages](messages_AffectedMessages.md)<a name="messages_AffectedMessages"></a>  
+[messages.AffectedMessages](messages.AffectedMessages.md)<a name="messages.AffectedMessages"></a>  
 
-[messages\_AllStickers](messages_AllStickers.md)<a name="messages_AllStickers"></a>  
+[messages.AllStickers](messages.AllStickers.md)<a name="messages.AllStickers"></a>  
 
-[messages\_ChatFull](messages_ChatFull.md)<a name="messages_ChatFull"></a>  
+[messages.ChatFull](messages.ChatFull.md)<a name="messages.ChatFull"></a>  
 
-[messages\_Chats](messages_Chats.md)<a name="messages_Chats"></a>  
+[messages.Chats](messages.Chats.md)<a name="messages.Chats"></a>  
 
-[messages\_DhConfig](messages_DhConfig.md)<a name="messages_DhConfig"></a>  
+[messages.DhConfig](messages.DhConfig.md)<a name="messages.DhConfig"></a>  
 
-[messages\_Dialogs](messages_Dialogs.md)<a name="messages_Dialogs"></a>  
+[messages.Dialogs](messages.Dialogs.md)<a name="messages.Dialogs"></a>  
 
-[messages\_Message](messages_Message.md)<a name="messages_Message"></a>  
+[messages.Message](messages.Message.md)<a name="messages.Message"></a>  
 
-[messages\_Messages](messages_Messages.md)<a name="messages_Messages"></a>  
+[messages.Messages](messages.Messages.md)<a name="messages.Messages"></a>  
 
-[messages\_SentEncryptedMessage](messages_SentEncryptedMessage.md)<a name="messages_SentEncryptedMessage"></a>  
+[messages.SentEncryptedMessage](messages.SentEncryptedMessage.md)<a name="messages.SentEncryptedMessage"></a>  
 
-[messages\_SentMessage](messages_SentMessage.md)<a name="messages_SentMessage"></a>  
+[messages.SentMessage](messages.SentMessage.md)<a name="messages.SentMessage"></a>  
 
-[messages\_StickerSet](messages_StickerSet.md)<a name="messages_StickerSet"></a>  
+[messages.StickerSet](messages.StickerSet.md)<a name="messages.StickerSet"></a>  
 
-[messages\_Stickers](messages_Stickers.md)<a name="messages_Stickers"></a>  
+[messages.Stickers](messages.Stickers.md)<a name="messages.Stickers"></a>  
 
-[photos\_Photo](photos_Photo.md)<a name="photos_Photo"></a>  
+[photos.Photo](photos.Photo.md)<a name="photos.Photo"></a>  
 
-[photos\_Photos](photos_Photos.md)<a name="photos_Photos"></a>  
+[photos.Photos](photos.Photos.md)<a name="photos.Photos"></a>  
 
-[storage\_FileType](storage_FileType.md)<a name="storage_FileType"></a>  
+[storage.FileType](storage.FileType.md)<a name="storage.FileType"></a>  
 
-[updates\_Difference](updates_Difference.md)<a name="updates_Difference"></a>  
+[updates.Difference](updates.Difference.md)<a name="updates.Difference"></a>  
 
-[updates\_State](updates_State.md)<a name="updates_State"></a>  
+[updates.State](updates.State.md)<a name="updates.State"></a>  
 
-[upload\_File](upload_File.md)<a name="upload_File"></a>  
+[upload.File](upload.File.md)<a name="upload.File"></a>  
 

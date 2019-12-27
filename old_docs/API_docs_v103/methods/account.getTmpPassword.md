@@ -17,7 +17,7 @@ Get temporary payment password
 |period|[int](../types/int.md) | Time during which the temporary password will be valid, in seconds; should be between 60 and 86400 | Yes|
 
 
-### Return type: [account\_TmpPassword](../types/account_TmpPassword.md)
+### Return type: [account.TmpPassword](../types/account.TmpPassword.md)
 
 ### Can bots use this method: **NO**
 
@@ -34,13 +34,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_TmpPassword = $MadelineProto->account->getTmpPassword(['password' => InputCheckPasswordSRP, 'period' => int, ]);
+$account.TmpPassword = $MadelineProto->account->getTmpPassword(['password' => InputCheckPasswordSRP, 'period' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account_TmpPassword = account.getTmpPassword({password=InputCheckPasswordSRP, period=int, })
+account.TmpPassword = account.getTmpPassword({password=InputCheckPasswordSRP, period=int, })
 ```
 
 ### Errors

@@ -18,7 +18,7 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 |limit|[int](../types/int.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
 
 
-### Return type: [upload\_File](../types/upload_File.md)
+### Return type: [upload.File](../types/upload.File.md)
 
 ### Can bots use this method: **YES**
 
@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$upload_File = $MadelineProto->upload->getFile(['location' => InputFileLocation, 'offset' => int, 'limit' => int, ]);
+$upload.File = $MadelineProto->upload->getFile(['location' => InputFileLocation, 'offset' => int, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-upload_File = upload.getFile({location=InputFileLocation, offset=int, limit=int, })
+upload.File = upload.getFile({location=InputFileLocation, offset=int, limit=int, })
 ```
 
 ### Errors

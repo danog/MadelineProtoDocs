@@ -19,7 +19,7 @@ Returns information on update availability for the current application.
 |lang\_code|[string](../types/string.md) | Langauge code | Yes|
 
 
-### Return type: [help\_AppUpdate](../types/help_AppUpdate.md)
+### Return type: [help.AppUpdate](../types/help.AppUpdate.md)
 
 ### Can bots use this method: **NO**
 
@@ -36,12 +36,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_AppUpdate = $MadelineProto->help->getAppUpdate(['device_model' => 'string', 'system_version' => 'string', 'app_version' => 'string', 'lang_code' => 'string', ]);
+$help.AppUpdate = $MadelineProto->help->getAppUpdate(['device_model' => 'string', 'system_version' => 'string', 'app_version' => 'string', 'lang_code' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help_AppUpdate = help.getAppUpdate({device_model='string', system_version='string', app_version='string', lang_code='string', })
+help.AppUpdate = help.getAppUpdate({device_model='string', system_version='string', app_version='string', lang_code='string', })
 ```
 

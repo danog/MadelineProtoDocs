@@ -17,7 +17,7 @@ Extended user info
 |blocked|[Bool](../types/Bool.md) | Optional|Whether you have blocked this user|
 |user|[User](../types/User.md) | Optional|Remaining user info|
 |about|[string](../types/string.md) | Optional|Bio of the user|
-|link|[contacts\_Link](../types/contacts_Link.md) | Yes|Link|
+|link|[contacts.Link](../constructors/contacts.Link.md) | Yes|Link|
 |profile\_photo|[Photo](../types/Photo.md) | Optional|Profile photo|
 |notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|Notification settings|
 |bot\_info|[BotInfo](../types/BotInfo.md) | Optional|For bots, info about the bot (bot commands, etc)|
@@ -30,14 +30,14 @@ Extended user info
 ### Example:
 
 ```php
-$userFull = ['_' => 'userFull', 'blocked' => Bool, 'user' => User, 'about' => 'string', 'link' => contacts_Link, 'profile_photo' => Photo, 'notify_settings' => PeerNotifySettings, 'bot_info' => BotInfo];
+$userFull = ['_' => 'userFull', 'blocked' => Bool, 'user' => User, 'about' => 'string', 'link' => contacts.Link, 'profile_photo' => Photo, 'notify_settings' => PeerNotifySettings, 'bot_info' => BotInfo];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-userFull={_='userFull', blocked=Bool, user=User, about='string', link=contacts_Link, profile_photo=Photo, notify_settings=PeerNotifySettings, bot_info=BotInfo}
+userFull={_='userFull', blocked=Bool, user=User, about='string', link=contacts.Link, profile_photo=Photo, notify_settings=PeerNotifySettings, bot_info=BotInfo}
 
 ```
 

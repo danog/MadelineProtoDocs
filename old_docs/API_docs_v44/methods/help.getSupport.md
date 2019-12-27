@@ -11,7 +11,7 @@ Returns the support user for the 'ask a question' feature.
 
 
 
-### Return type: [help\_Support](../types/help_Support.md)
+### Return type: [help.Support](../types/help.Support.md)
 
 ### Can bots use this method: **NO**
 
@@ -28,12 +28,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_Support = $MadelineProto->help->getSupport();
+$help.Support = $MadelineProto->help->getSupport();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help_Support = help.getSupport({})
+help.Support = help.getSupport({})
 ```
 

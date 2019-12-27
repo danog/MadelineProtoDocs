@@ -17,7 +17,7 @@ Resend the login code via another medium, the phone code type is determined by t
 |phone\_code\_hash|[string](../types/string.md) | The phone code hash obtained from [auth.sendCode](../methods/auth.sendCode.md) | Yes|
 
 
-### Return type: [auth\_SentCode](../types/auth_SentCode.md)
+### Return type: [auth.SentCode](../types/auth.SentCode.md)
 
 ### Can bots use this method: **NO**
 
@@ -34,13 +34,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_SentCode = $MadelineProto->auth->resendCode(['phone_number' => 'string', 'phone_code_hash' => 'string', ]);
+$auth.SentCode = $MadelineProto->auth->resendCode(['phone_number' => 'string', 'phone_code_hash' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth_SentCode = auth.resendCode({phone_number='string', phone_code_hash='string', })
+auth.SentCode = auth.resendCode({phone_number='string', phone_code_hash='string', })
 ```
 
 ### Errors

@@ -16,7 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->contacts->getSaved](../methods/contacts_getSaved.md)  
+[$MadelineProto->contacts->getSaved](../methods/contacts.getSaved.md)  
 
 
 

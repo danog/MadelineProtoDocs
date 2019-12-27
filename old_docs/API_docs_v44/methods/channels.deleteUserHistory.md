@@ -17,7 +17,7 @@ Delete all messages sent by a certain user in a [supergroup](https://core.telegr
 |user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | User whose messages should be deleted | Optional|
 
 
-### Return type: [messages\_AffectedHistory](../types/messages_AffectedHistory.md)
+### Return type: [messages.AffectedHistory](../types/messages.AffectedHistory.md)
 
 ### Can bots use this method: **NO**
 
@@ -34,13 +34,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_AffectedHistory = $MadelineProto->channels->deleteUserHistory(['channel' => InputChannel, 'user_id' => InputUser, ]);
+$messages.AffectedHistory = $MadelineProto->channels->deleteUserHistory(['channel' => InputChannel, 'user_id' => InputUser, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_AffectedHistory = channels.deleteUserHistory({channel=InputChannel, user_id=InputUser, })
+messages.AffectedHistory = channels.deleteUserHistory({channel=InputChannel, user_id=InputUser, })
 ```
 
 ### Errors

@@ -7,22 +7,28 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Back to API documentation index](..)
 
 ***
-<br><br>[$accountDaysTTL](../constructors/accountDaysTTL.md) = \['days' => [int](../types/int.md), \];<a name="accountDaysTTL"></a>  
+<br><br>[$account.authorizations](../constructors/account.authorizations.md) = \['authorizations' => \[[Authorization](../types/Authorization.md)\], \];<a name="account.authorizations"></a>  
 
 ***
-<br><br>[$account\_authorizations](../constructors/account_authorizations.md) = \['authorizations' => \[[Authorization](../types/Authorization.md)\], \];<a name="account_authorizations"></a>  
+<br><br>[$account.noPassword](../constructors/account.noPassword.md) = \['new_salt' => [bytes](../types/bytes.md), 'email_unconfirmed_pattern' => [string](../types/string.md), \];<a name="account.noPassword"></a>  
 
-[$account\_noPassword](../constructors/account_noPassword.md) = \['new_salt' => [bytes](../types/bytes.md), 'email_unconfirmed_pattern' => [string](../types/string.md), \];<a name="account_noPassword"></a>  
+***
+<br><br>[$account.password](../constructors/account.password.md) = \['current_salt' => [bytes](../types/bytes.md), 'new_salt' => [bytes](../types/bytes.md), 'hint' => [string](../types/string.md), 'has_recovery' => [Bool](../types/Bool.md), 'email_unconfirmed_pattern' => [string](../types/string.md), \];<a name="account.password"></a>  
 
-[$account\_password](../constructors/account_password.md) = \['current_salt' => [bytes](../types/bytes.md), 'new_salt' => [bytes](../types/bytes.md), 'hint' => [string](../types/string.md), 'has_recovery' => [Bool](../types/Bool.md), 'email_unconfirmed_pattern' => [string](../types/string.md), \];<a name="account_password"></a>  
+***
+<br><br>[$account.passwordInputSettings](../constructors/account.passwordInputSettings.md) = \['new_salt' => [bytes](../types/bytes.md), 'new_password_hash' => [bytes](../types/bytes.md), 'hint' => [string](../types/string.md), 'email' => [string](../types/string.md), \];<a name="account.passwordInputSettings"></a>  
 
-[$account\_passwordInputSettings](../constructors/account_passwordInputSettings.md) = \['new_salt' => [bytes](../types/bytes.md), 'new_password_hash' => [bytes](../types/bytes.md), 'hint' => [string](../types/string.md), 'email' => [string](../types/string.md), \];<a name="account_passwordInputSettings"></a>  
+***
+<br><br>[$account.passwordSettings](../constructors/account.passwordSettings.md) = \['email' => [string](../types/string.md), \];<a name="account.passwordSettings"></a>  
 
-[$account\_passwordSettings](../constructors/account_passwordSettings.md) = \['email' => [string](../types/string.md), \];<a name="account_passwordSettings"></a>  
+***
+<br><br>[$account.privacyRules](../constructors/account.privacyRules.md) = \['rules' => \[[PrivacyRule](../types/PrivacyRule.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="account.privacyRules"></a>  
 
-[$account\_privacyRules](../constructors/account_privacyRules.md) = \['rules' => \[[PrivacyRule](../types/PrivacyRule.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="account_privacyRules"></a>  
+***
+<br><br>[$account.sentChangePhoneCode](../constructors/account.sentChangePhoneCode.md) = \['phone_code_hash' => [string](../types/string.md), 'send_call_timeout' => [int](../types/int.md), \];<a name="account.sentChangePhoneCode"></a>  
 
-[$account\_sentChangePhoneCode](../constructors/account_sentChangePhoneCode.md) = \['phone_code_hash' => [string](../types/string.md), 'send_call_timeout' => [int](../types/int.md), \];<a name="account_sentChangePhoneCode"></a>  
+***
+<br><br>[$accountDaysTTL](../constructors/accountDaysTTL.md) = \['days' => [int](../types/int.md), \];<a name="accountDaysTTL"></a>  
 
 ***
 <br><br>[$audio](../constructors/audio.md) = \['id' => [long](../types/long.md), 'access_hash' => [long](../types/long.md), 'date' => [int](../types/int.md), 'duration' => [int](../types/int.md), 'mime_type' => [string](../types/string.md), 'size' => [int](../types/int.md), 'dc_id' => [int](../types/int.md), \];<a name="audio"></a>  
@@ -31,17 +37,22 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$audioEmpty](../constructors/audioEmpty.md) = \['id' => [long](../types/long.md), \];<a name="audioEmpty"></a>  
 
 ***
-<br><br>[$auth\_authorization](../constructors/auth_authorization.md) = \['user' => [User](../types/User.md), \];<a name="auth_authorization"></a>  
+<br><br>[$auth.authorization](../constructors/auth.authorization.md) = \['user' => [User](../types/User.md), \];<a name="auth.authorization"></a>  
 
-[$auth\_checkedPhone](../constructors/auth_checkedPhone.md) = \['phone_registered' => [Bool](../types/Bool.md), \];<a name="auth_checkedPhone"></a>  
+***
+<br><br>[$auth.checkedPhone](../constructors/auth.checkedPhone.md) = \['phone_registered' => [Bool](../types/Bool.md), \];<a name="auth.checkedPhone"></a>  
 
-[$auth\_exportedAuthorization](../constructors/auth_exportedAuthorization.md) = \['id' => [int](../types/int.md), 'bytes' => [bytes](../types/bytes.md), \];<a name="auth_exportedAuthorization"></a>  
+***
+<br><br>[$auth.exportedAuthorization](../constructors/auth.exportedAuthorization.md) = \['id' => [int](../types/int.md), 'bytes' => [bytes](../types/bytes.md), \];<a name="auth.exportedAuthorization"></a>  
 
-[$auth\_passwordRecovery](../constructors/auth_passwordRecovery.md) = \['email_pattern' => [string](../types/string.md), \];<a name="auth_passwordRecovery"></a>  
+***
+<br><br>[$auth.passwordRecovery](../constructors/auth.passwordRecovery.md) = \['email_pattern' => [string](../types/string.md), \];<a name="auth.passwordRecovery"></a>  
 
-[$auth\_sentAppCode](../constructors/auth_sentAppCode.md) = \['phone_registered' => [Bool](../types/Bool.md), 'phone_code_hash' => [string](../types/string.md), 'send_call_timeout' => [int](../types/int.md), 'is_password' => [Bool](../types/Bool.md), \];<a name="auth_sentAppCode"></a>  
+***
+<br><br>[$auth.sentAppCode](../constructors/auth.sentAppCode.md) = \['phone_registered' => [Bool](../types/Bool.md), 'phone_code_hash' => [string](../types/string.md), 'send_call_timeout' => [int](../types/int.md), 'is_password' => [Bool](../types/Bool.md), \];<a name="auth.sentAppCode"></a>  
 
-[$auth\_sentCode](../constructors/auth_sentCode.md) = \['phone_registered' => [Bool](../types/Bool.md), 'phone_code_hash' => [string](../types/string.md), 'send_call_timeout' => [int](../types/int.md), 'is_password' => [Bool](../types/Bool.md), \];<a name="auth_sentCode"></a>  
+***
+<br><br>[$auth.sentCode](../constructors/auth.sentCode.md) = \['phone_registered' => [Bool](../types/Bool.md), 'phone_code_hash' => [string](../types/string.md), 'send_call_timeout' => [int](../types/int.md), 'is_password' => [Bool](../types/Bool.md), \];<a name="auth.sentCode"></a>  
 
 ***
 <br><br>[$authorization](../constructors/authorization.md) = \['hash' => [long](../types/long.md), 'device_model' => [string](../types/string.md), 'platform' => [string](../types/string.md), 'system_version' => [string](../types/string.md), 'api_id' => [int](../types/int.md), 'app_name' => [string](../types/string.md), 'app_version' => [string](../types/string.md), 'date_created' => [int](../types/int.md), 'date_active' => [int](../types/int.md), 'ip' => [string](../types/string.md), 'country' => [string](../types/string.md), 'region' => [string](../types/string.md), \];<a name="authorization"></a>  
@@ -134,9 +145,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$channelRoleModerator](../constructors/channelRoleModerator.md) = \[\];<a name="channelRoleModerator"></a>  
 
 ***
-<br><br>[$channels\_channelParticipant](../constructors/channels_channelParticipant.md) = \['participant' => [ChannelParticipant](../types/ChannelParticipant.md), 'users' => \[[User](../types/User.md)\], \];<a name="channels_channelParticipant"></a>  
+<br><br>[$channels.channelParticipant](../constructors/channels.channelParticipant.md) = \['participant' => [ChannelParticipant](../types/ChannelParticipant.md), 'users' => \[[User](../types/User.md)\], \];<a name="channels.channelParticipant"></a>  
 
-[$channels\_channelParticipants](../constructors/channels_channelParticipants.md) = \['count' => [int](../types/int.md), 'participants' => \[[ChannelParticipant](../types/ChannelParticipant.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="channels_channelParticipants"></a>  
+***
+<br><br>[$channels.channelParticipants](../constructors/channels.channelParticipants.md) = \['count' => [int](../types/int.md), 'participants' => \[[ChannelParticipant](../types/ChannelParticipant.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="channels.channelParticipants"></a>  
 
 ***
 <br><br>[$chat](../constructors/chat.md) = \['creator' => [Bool](../types/Bool.md), 'kicked' => [Bool](../types/Bool.md), 'left' => [Bool](../types/Bool.md), 'admins_enabled' => [Bool](../types/Bool.md), 'admin' => [Bool](../types/Bool.md), 'deactivated' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'title' => [string](../types/string.md), 'photo' => [ChatPhoto](../types/ChatPhoto.md), 'participants_count' => [int](../types/int.md), 'date' => [int](../types/int.md), 'version' => [int](../types/int.md), 'migrated_to' => [InputChannel](../types/InputChannel.md), \];<a name="chat"></a>  
@@ -211,23 +223,31 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$contactSuggested](../constructors/contactSuggested.md) = \['user_id' => [int](../types/int.md), 'mutual_contacts' => [int](../types/int.md), \];<a name="contactSuggested"></a>  
 
 ***
-<br><br>[$contacts\_blocked](../constructors/contacts_blocked.md) = \['blocked' => \[[ContactBlocked](../types/ContactBlocked.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="contacts_blocked"></a>  
+<br><br>[$contacts.blocked](../constructors/contacts.blocked.md) = \['blocked' => \[[ContactBlocked](../types/ContactBlocked.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="contacts.blocked"></a>  
 
-[$contacts\_blockedSlice](../constructors/contacts_blockedSlice.md) = \['count' => [int](../types/int.md), 'blocked' => \[[ContactBlocked](../types/ContactBlocked.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="contacts_blockedSlice"></a>  
+***
+<br><br>[$contacts.blockedSlice](../constructors/contacts.blockedSlice.md) = \['count' => [int](../types/int.md), 'blocked' => \[[ContactBlocked](../types/ContactBlocked.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="contacts.blockedSlice"></a>  
 
-[$contacts\_contacts](../constructors/contacts_contacts.md) = \['contacts' => \[[Contact](../types/Contact.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="contacts_contacts"></a>  
+***
+<br><br>[$contacts.contacts](../constructors/contacts.contacts.md) = \['contacts' => \[[Contact](../types/Contact.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="contacts.contacts"></a>  
 
-[$contacts\_contactsNotModified](../constructors/contacts_contactsNotModified.md) = \[\];<a name="contacts_contactsNotModified"></a>  
+***
+<br><br>[$contacts.contactsNotModified](../constructors/contacts.contactsNotModified.md) = \[\];<a name="contacts.contactsNotModified"></a>  
 
-[$contacts\_found](../constructors/contacts_found.md) = \['results' => \[[Peer](../types/Peer.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="contacts_found"></a>  
+***
+<br><br>[$contacts.found](../constructors/contacts.found.md) = \['results' => \[[Peer](../types/Peer.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="contacts.found"></a>  
 
-[$contacts\_importedContacts](../constructors/contacts_importedContacts.md) = \['imported' => \[[ImportedContact](../types/ImportedContact.md)\], 'retry_contacts' => \[[long](../types/long.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="contacts_importedContacts"></a>  
+***
+<br><br>[$contacts.importedContacts](../constructors/contacts.importedContacts.md) = \['imported' => \[[ImportedContact](../types/ImportedContact.md)\], 'retry_contacts' => \[[long](../types/long.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="contacts.importedContacts"></a>  
 
-[$contacts\_link](../constructors/contacts_link.md) = \['my_link' => [ContactLink](../types/ContactLink.md), 'foreign_link' => [ContactLink](../types/ContactLink.md), 'user' => [User](../types/User.md), \];<a name="contacts_link"></a>  
+***
+<br><br>[$contacts.link](../constructors/contacts.link.md) = \['my_link' => [ContactLink](../types/ContactLink.md), 'foreign_link' => [ContactLink](../types/ContactLink.md), 'user' => [User](../types/User.md), \];<a name="contacts.link"></a>  
 
-[$contacts\_resolvedPeer](../constructors/contacts_resolvedPeer.md) = \['peer' => [Peer](../types/Peer.md), 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="contacts_resolvedPeer"></a>  
+***
+<br><br>[$contacts.resolvedPeer](../constructors/contacts.resolvedPeer.md) = \['peer' => [Peer](../types/Peer.md), 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="contacts.resolvedPeer"></a>  
 
-[$contacts\_suggested](../constructors/contacts_suggested.md) = \['results' => \[[ContactSuggested](../types/ContactSuggested.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="contacts_suggested"></a>  
+***
+<br><br>[$contacts.suggested](../constructors/contacts.suggested.md) = \['results' => \[[ContactSuggested](../types/ContactSuggested.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="contacts.suggested"></a>  
 
 ***
 <br><br>[$dcOption](../constructors/dcOption.md) = \['ipv6' => [Bool](../types/Bool.md), 'media_only' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'ip_address' => [string](../types/string.md), 'port' => [int](../types/int.md), \];<a name="dcOption"></a>  
@@ -314,19 +334,25 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$geoPointEmpty](../constructors/geoPointEmpty.md) = \[\];<a name="geoPointEmpty"></a>  
 
 ***
-<br><br>[$help\_appChangelog](../constructors/help_appChangelog.md) = \['text' => [string](../types/string.md), \];<a name="help_appChangelog"></a>  
+<br><br>[$help.appChangelog](../constructors/help.appChangelog.md) = \['text' => [string](../types/string.md), \];<a name="help.appChangelog"></a>  
 
-[$help\_appChangelogEmpty](../constructors/help_appChangelogEmpty.md) = \[\];<a name="help_appChangelogEmpty"></a>  
+***
+<br><br>[$help.appChangelogEmpty](../constructors/help.appChangelogEmpty.md) = \[\];<a name="help.appChangelogEmpty"></a>  
 
-[$help\_appUpdate](../constructors/help_appUpdate.md) = \['id' => [int](../types/int.md), 'critical' => [Bool](../types/Bool.md), 'url' => [string](../types/string.md), 'text' => [string](../types/string.md), \];<a name="help_appUpdate"></a>  
+***
+<br><br>[$help.appUpdate](../constructors/help.appUpdate.md) = \['id' => [int](../types/int.md), 'critical' => [Bool](../types/Bool.md), 'url' => [string](../types/string.md), 'text' => [string](../types/string.md), \];<a name="help.appUpdate"></a>  
 
-[$help\_inviteText](../constructors/help_inviteText.md) = \['message' => [string](../types/string.md), \];<a name="help_inviteText"></a>  
+***
+<br><br>[$help.inviteText](../constructors/help.inviteText.md) = \['message' => [string](../types/string.md), \];<a name="help.inviteText"></a>  
 
-[$help\_noAppUpdate](../constructors/help_noAppUpdate.md) = \[\];<a name="help_noAppUpdate"></a>  
+***
+<br><br>[$help.noAppUpdate](../constructors/help.noAppUpdate.md) = \[\];<a name="help.noAppUpdate"></a>  
 
-[$help\_support](../constructors/help_support.md) = \['phone_number' => [string](../types/string.md), 'user' => [User](../types/User.md), \];<a name="help_support"></a>  
+***
+<br><br>[$help.support](../constructors/help.support.md) = \['phone_number' => [string](../types/string.md), 'user' => [User](../types/User.md), \];<a name="help.support"></a>  
 
-[$help\_termsOfService](../constructors/help_termsOfService.md) = \['text' => [string](../types/string.md), \];<a name="help_termsOfService"></a>  
+***
+<br><br>[$help.termsOfService](../constructors/help.termsOfService.md) = \['text' => [string](../types/string.md), \];<a name="help.termsOfService"></a>  
 
 ***
 <br><br>[$importedContact](../constructors/importedContact.md) = \['user_id' => [int](../types/int.md), 'client_id' => [long](../types/long.md), \];<a name="importedContact"></a>  
@@ -713,49 +739,70 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$messageService](../constructors/messageService.md) = \['unread' => [Bool](../types/Bool.md), 'out' => [Bool](../types/Bool.md), 'mentioned' => [Bool](../types/Bool.md), 'media_unread' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'from_id' => [int](../types/int.md), 'to_id' => [Peer](../types/Peer.md), 'date' => [int](../types/int.md), 'action' => [MessageAction](../types/MessageAction.md), \];<a name="messageService"></a>  
 
 ***
-<br><br>[$messages\_affectedHistory](../constructors/messages_affectedHistory.md) = \['pts' => [int](../types/int.md), 'pts_count' => [int](../types/int.md), 'offset' => [int](../types/int.md), \];<a name="messages_affectedHistory"></a>  
+<br><br>[$messages.affectedHistory](../constructors/messages.affectedHistory.md) = \['pts' => [int](../types/int.md), 'pts_count' => [int](../types/int.md), 'offset' => [int](../types/int.md), \];<a name="messages.affectedHistory"></a>  
 
-[$messages\_affectedMessages](../constructors/messages_affectedMessages.md) = \['pts' => [int](../types/int.md), 'pts_count' => [int](../types/int.md), \];<a name="messages_affectedMessages"></a>  
+***
+<br><br>[$messages.affectedMessages](../constructors/messages.affectedMessages.md) = \['pts' => [int](../types/int.md), 'pts_count' => [int](../types/int.md), \];<a name="messages.affectedMessages"></a>  
 
-[$messages\_allStickers](../constructors/messages_allStickers.md) = \['hash' => [int](../types/int.md), 'sets' => \[[StickerSet](../types/StickerSet.md)\], \];<a name="messages_allStickers"></a>  
+***
+<br><br>[$messages.allStickers](../constructors/messages.allStickers.md) = \['hash' => [int](../types/int.md), 'sets' => \[[StickerSet](../types/StickerSet.md)\], \];<a name="messages.allStickers"></a>  
 
-[$messages\_allStickersNotModified](../constructors/messages_allStickersNotModified.md) = \[\];<a name="messages_allStickersNotModified"></a>  
+***
+<br><br>[$messages.allStickersNotModified](../constructors/messages.allStickersNotModified.md) = \[\];<a name="messages.allStickersNotModified"></a>  
 
-[$messages\_botResults](../constructors/messages_botResults.md) = \['gallery' => [Bool](../types/Bool.md), 'query_id' => [long](../types/long.md), 'next_offset' => [string](../types/string.md), 'results' => \[[BotInlineResult](../types/BotInlineResult.md)\], \];<a name="messages_botResults"></a>  
+***
+<br><br>[$messages.botResults](../constructors/messages.botResults.md) = \['gallery' => [Bool](../types/Bool.md), 'query_id' => [long](../types/long.md), 'next_offset' => [string](../types/string.md), 'results' => \[[BotInlineResult](../types/BotInlineResult.md)\], \];<a name="messages.botResults"></a>  
 
-[$messages\_channelMessages](../constructors/messages_channelMessages.md) = \['pts' => [int](../types/int.md), 'count' => [int](../types/int.md), 'messages' => \[[Message](../types/Message.md)\], 'collapsed' => \[[MessageGroup](../types/MessageGroup.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="messages_channelMessages"></a>  
+***
+<br><br>[$messages.channelMessages](../constructors/messages.channelMessages.md) = \['pts' => [int](../types/int.md), 'count' => [int](../types/int.md), 'messages' => \[[Message](../types/Message.md)\], 'collapsed' => \[[MessageGroup](../types/MessageGroup.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="messages.channelMessages"></a>  
 
-[$messages\_chatFull](../constructors/messages_chatFull.md) = \['full_chat' => [ChatFull](../types/ChatFull.md), 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="messages_chatFull"></a>  
+***
+<br><br>[$messages.chatFull](../constructors/messages.chatFull.md) = \['full_chat' => [ChatFull](../types/ChatFull.md), 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="messages.chatFull"></a>  
 
-[$messages\_chats](../constructors/messages_chats.md) = \['chats' => \[[Chat](../types/Chat.md)\], \];<a name="messages_chats"></a>  
+***
+<br><br>[$messages.chats](../constructors/messages.chats.md) = \['chats' => \[[Chat](../types/Chat.md)\], \];<a name="messages.chats"></a>  
 
-[$messages\_dhConfig](../constructors/messages_dhConfig.md) = \['g' => [int](../types/int.md), 'p' => [bytes](../types/bytes.md), 'version' => [int](../types/int.md), 'random' => [bytes](../types/bytes.md), \];<a name="messages_dhConfig"></a>  
+***
+<br><br>[$messages.dhConfig](../constructors/messages.dhConfig.md) = \['g' => [int](../types/int.md), 'p' => [bytes](../types/bytes.md), 'version' => [int](../types/int.md), 'random' => [bytes](../types/bytes.md), \];<a name="messages.dhConfig"></a>  
 
-[$messages\_dhConfigNotModified](../constructors/messages_dhConfigNotModified.md) = \['random' => [bytes](../types/bytes.md), \];<a name="messages_dhConfigNotModified"></a>  
+***
+<br><br>[$messages.dhConfigNotModified](../constructors/messages.dhConfigNotModified.md) = \['random' => [bytes](../types/bytes.md), \];<a name="messages.dhConfigNotModified"></a>  
 
-[$messages\_dialogs](../constructors/messages_dialogs.md) = \['dialogs' => \[[Dialog](../types/Dialog.md)\], 'messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="messages_dialogs"></a>  
+***
+<br><br>[$messages.dialogs](../constructors/messages.dialogs.md) = \['dialogs' => \[[Dialog](../types/Dialog.md)\], 'messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="messages.dialogs"></a>  
 
-[$messages\_dialogsSlice](../constructors/messages_dialogsSlice.md) = \['count' => [int](../types/int.md), 'dialogs' => \[[Dialog](../types/Dialog.md)\], 'messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="messages_dialogsSlice"></a>  
+***
+<br><br>[$messages.dialogsSlice](../constructors/messages.dialogsSlice.md) = \['count' => [int](../types/int.md), 'dialogs' => \[[Dialog](../types/Dialog.md)\], 'messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="messages.dialogsSlice"></a>  
 
-[$messages\_foundGifs](../constructors/messages_foundGifs.md) = \['next_offset' => [int](../types/int.md), 'results' => \[[FoundGif](../types/FoundGif.md)\], \];<a name="messages_foundGifs"></a>  
+***
+<br><br>[$messages.foundGifs](../constructors/messages.foundGifs.md) = \['next_offset' => [int](../types/int.md), 'results' => \[[FoundGif](../types/FoundGif.md)\], \];<a name="messages.foundGifs"></a>  
 
-[$messages\_messages](../constructors/messages_messages.md) = \['messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="messages_messages"></a>  
+***
+<br><br>[$messages.messages](../constructors/messages.messages.md) = \['messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="messages.messages"></a>  
 
-[$messages\_messagesSlice](../constructors/messages_messagesSlice.md) = \['count' => [int](../types/int.md), 'messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="messages_messagesSlice"></a>  
+***
+<br><br>[$messages.messagesSlice](../constructors/messages.messagesSlice.md) = \['count' => [int](../types/int.md), 'messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="messages.messagesSlice"></a>  
 
-[$messages\_savedGifs](../constructors/messages_savedGifs.md) = \['hash' => [int](../types/int.md), 'gifs' => \[[Document](../types/Document.md)\], \];<a name="messages_savedGifs"></a>  
+***
+<br><br>[$messages.savedGifs](../constructors/messages.savedGifs.md) = \['hash' => [int](../types/int.md), 'gifs' => \[[Document](../types/Document.md)\], \];<a name="messages.savedGifs"></a>  
 
-[$messages\_savedGifsNotModified](../constructors/messages_savedGifsNotModified.md) = \[\];<a name="messages_savedGifsNotModified"></a>  
+***
+<br><br>[$messages.savedGifsNotModified](../constructors/messages.savedGifsNotModified.md) = \[\];<a name="messages.savedGifsNotModified"></a>  
 
-[$messages\_sentEncryptedFile](../constructors/messages_sentEncryptedFile.md) = \['date' => [int](../types/int.md), 'file' => [EncryptedFile](../types/EncryptedFile.md), \];<a name="messages_sentEncryptedFile"></a>  
+***
+<br><br>[$messages.sentEncryptedFile](../constructors/messages.sentEncryptedFile.md) = \['date' => [int](../types/int.md), 'file' => [EncryptedFile](../types/EncryptedFile.md), \];<a name="messages.sentEncryptedFile"></a>  
 
-[$messages\_sentEncryptedMessage](../constructors/messages_sentEncryptedMessage.md) = \['date' => [int](../types/int.md), \];<a name="messages_sentEncryptedMessage"></a>  
+***
+<br><br>[$messages.sentEncryptedMessage](../constructors/messages.sentEncryptedMessage.md) = \['date' => [int](../types/int.md), \];<a name="messages.sentEncryptedMessage"></a>  
 
-[$messages\_stickerSet](../constructors/messages_stickerSet.md) = \['set' => [StickerSet](../types/StickerSet.md), 'packs' => \[[StickerPack](../types/StickerPack.md)\], 'documents' => \[[Document](../types/Document.md)\], \];<a name="messages_stickerSet"></a>  
+***
+<br><br>[$messages.stickerSet](../constructors/messages.stickerSet.md) = \['set' => [StickerSet](../types/StickerSet.md), 'packs' => \[[StickerPack](../types/StickerPack.md)\], 'documents' => \[[Document](../types/Document.md)\], \];<a name="messages.stickerSet"></a>  
 
-[$messages\_stickers](../constructors/messages_stickers.md) = \['hash' => [string](../types/string.md), 'stickers' => \[[Document](../types/Document.md)\], \];<a name="messages_stickers"></a>  
+***
+<br><br>[$messages.stickers](../constructors/messages.stickers.md) = \['hash' => [string](../types/string.md), 'stickers' => \[[Document](../types/Document.md)\], \];<a name="messages.stickers"></a>  
 
-[$messages\_stickersNotModified](../constructors/messages_stickersNotModified.md) = \[\];<a name="messages_stickersNotModified"></a>  
+***
+<br><br>[$messages.stickersNotModified](../constructors/messages.stickersNotModified.md) = \[\];<a name="messages.stickersNotModified"></a>  
 
 ***
 <br><br>[$nearestDc](../constructors/nearestDc.md) = \['country' => [string](../types/string.md), 'this_dc' => [int](../types/int.md), 'nearest_dc' => [int](../types/int.md), \];<a name="nearestDc"></a>  
@@ -812,11 +859,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$photoSizeEmpty](../constructors/photoSizeEmpty.md) = \['type' => [string](../types/string.md), \];<a name="photoSizeEmpty"></a>  
 
 ***
-<br><br>[$photos\_photo](../constructors/photos_photo.md) = \['photo' => [Photo](../types/Photo.md), 'users' => \[[User](../types/User.md)\], \];<a name="photos_photo"></a>  
+<br><br>[$photos.photo](../constructors/photos.photo.md) = \['photo' => [Photo](../types/Photo.md), 'users' => \[[User](../types/User.md)\], \];<a name="photos.photo"></a>  
 
-[$photos\_photos](../constructors/photos_photos.md) = \['photos' => \[[Photo](../types/Photo.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="photos_photos"></a>  
+***
+<br><br>[$photos.photos](../constructors/photos.photos.md) = \['photos' => \[[Photo](../types/Photo.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="photos.photos"></a>  
 
-[$photos\_photosSlice](../constructors/photos_photosSlice.md) = \['count' => [int](../types/int.md), 'photos' => \[[Photo](../types/Photo.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="photos_photosSlice"></a>  
+***
+<br><br>[$photos.photosSlice](../constructors/photos.photosSlice.md) = \['count' => [int](../types/int.md), 'photos' => \[[Photo](../types/Photo.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="photos.photosSlice"></a>  
 
 ***
 <br><br>[$privacyKeyStatusTimestamp](../constructors/privacyKeyStatusTimestamp.md) = \[\];<a name="privacyKeyStatusTimestamp"></a>  
@@ -888,25 +937,34 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$stickerSet](../constructors/stickerSet.md) = \['installed' => [Bool](../types/Bool.md), 'disabled' => [Bool](../types/Bool.md), 'official' => [Bool](../types/Bool.md), 'id' => [long](../types/long.md), 'access_hash' => [long](../types/long.md), 'title' => [string](../types/string.md), 'short_name' => [string](../types/string.md), 'count' => [int](../types/int.md), 'hash' => [int](../types/int.md), \];<a name="stickerSet"></a>  
 
 ***
-<br><br>[$storage\_fileGif](../constructors/storage_fileGif.md) = \[\];<a name="storage_fileGif"></a>  
+<br><br>[$storage.fileGif](../constructors/storage.fileGif.md) = \[\];<a name="storage.fileGif"></a>  
 
-[$storage\_fileJpeg](../constructors/storage_fileJpeg.md) = \[\];<a name="storage_fileJpeg"></a>  
+***
+<br><br>[$storage.fileJpeg](../constructors/storage.fileJpeg.md) = \[\];<a name="storage.fileJpeg"></a>  
 
-[$storage\_fileMov](../constructors/storage_fileMov.md) = \[\];<a name="storage_fileMov"></a>  
+***
+<br><br>[$storage.fileMov](../constructors/storage.fileMov.md) = \[\];<a name="storage.fileMov"></a>  
 
-[$storage\_fileMp3](../constructors/storage_fileMp3.md) = \[\];<a name="storage_fileMp3"></a>  
+***
+<br><br>[$storage.fileMp3](../constructors/storage.fileMp3.md) = \[\];<a name="storage.fileMp3"></a>  
 
-[$storage\_fileMp4](../constructors/storage_fileMp4.md) = \[\];<a name="storage_fileMp4"></a>  
+***
+<br><br>[$storage.fileMp4](../constructors/storage.fileMp4.md) = \[\];<a name="storage.fileMp4"></a>  
 
-[$storage\_filePartial](../constructors/storage_filePartial.md) = \[\];<a name="storage_filePartial"></a>  
+***
+<br><br>[$storage.filePartial](../constructors/storage.filePartial.md) = \[\];<a name="storage.filePartial"></a>  
 
-[$storage\_filePdf](../constructors/storage_filePdf.md) = \[\];<a name="storage_filePdf"></a>  
+***
+<br><br>[$storage.filePdf](../constructors/storage.filePdf.md) = \[\];<a name="storage.filePdf"></a>  
 
-[$storage\_filePng](../constructors/storage_filePng.md) = \[\];<a name="storage_filePng"></a>  
+***
+<br><br>[$storage.filePng](../constructors/storage.filePng.md) = \[\];<a name="storage.filePng"></a>  
 
-[$storage\_fileUnknown](../constructors/storage_fileUnknown.md) = \[\];<a name="storage_fileUnknown"></a>  
+***
+<br><br>[$storage.fileUnknown](../constructors/storage.fileUnknown.md) = \[\];<a name="storage.fileUnknown"></a>  
 
-[$storage\_fileWebp](../constructors/storage_fileWebp.md) = \[\];<a name="storage_fileWebp"></a>  
+***
+<br><br>[$storage.fileWebp](../constructors/storage.fileWebp.md) = \[\];<a name="storage.fileWebp"></a>  
 
 ***
 <br><br>[$true](../constructors/true.md) = \[\];<a name="true"></a>  
@@ -1053,28 +1111,34 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$updates](../constructors/updates.md) = \['updates' => \[[Update](../types/Update.md)\], 'users' => \[[User](../types/User.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'date' => [int](../types/int.md), 'seq' => [int](../types/int.md), \];<a name="updates"></a>  
 
 ***
+<br><br>[$updates.channelDifference](../constructors/updates.channelDifference.md) = \['final' => [Bool](../types/Bool.md), 'channel_pts' => [int](../types/int.md), 'timeout' => [int](../types/int.md), 'new_messages' => \[[Message](../types/Message.md)\], 'other_updates' => \[[Update](../types/Update.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="updates.channelDifference"></a>  
+
+***
+<br><br>[$updates.channelDifferenceEmpty](../constructors/updates.channelDifferenceEmpty.md) = \['final' => [Bool](../types/Bool.md), 'channel_pts' => [int](../types/int.md), 'timeout' => [int](../types/int.md), \];<a name="updates.channelDifferenceEmpty"></a>  
+
+***
+<br><br>[$updates.channelDifferenceTooLong](../constructors/updates.channelDifferenceTooLong.md) = \['final' => [Bool](../types/Bool.md), 'channel_pts' => [int](../types/int.md), 'timeout' => [int](../types/int.md), 'top_message' => [int](../types/int.md), 'top_important_message' => [int](../types/int.md), 'read_inbox_max_id' => [int](../types/int.md), 'unread_count' => [int](../types/int.md), 'unread_important_count' => [int](../types/int.md), 'messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="updates.channelDifferenceTooLong"></a>  
+
+***
+<br><br>[$updates.difference](../constructors/updates.difference.md) = \['new_messages' => \[[Message](../types/Message.md)\], 'new_encrypted_messages' => \[[EncryptedMessage](../types/EncryptedMessage.md)\], 'other_updates' => \[[Update](../types/Update.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], 'state' => [updates.State](../types/updates.State.md), \];<a name="updates.difference"></a>  
+
+***
+<br><br>[$updates.differenceEmpty](../constructors/updates.differenceEmpty.md) = \['date' => [int](../types/int.md), 'seq' => [int](../types/int.md), \];<a name="updates.differenceEmpty"></a>  
+
+***
+<br><br>[$updates.differenceSlice](../constructors/updates.differenceSlice.md) = \['new_messages' => \[[Message](../types/Message.md)\], 'new_encrypted_messages' => \[[EncryptedMessage](../types/EncryptedMessage.md)\], 'other_updates' => \[[Update](../types/Update.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], 'intermediate_state' => [updates.State](../types/updates.State.md), \];<a name="updates.differenceSlice"></a>  
+
+***
+<br><br>[$updates.state](../constructors/updates.state.md) = \['pts' => [int](../types/int.md), 'qts' => [int](../types/int.md), 'date' => [int](../types/int.md), 'seq' => [int](../types/int.md), 'unread_count' => [int](../types/int.md), \];<a name="updates.state"></a>  
+
+***
 <br><br>[$updatesCombined](../constructors/updatesCombined.md) = \['updates' => \[[Update](../types/Update.md)\], 'users' => \[[User](../types/User.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'date' => [int](../types/int.md), 'seq_start' => [int](../types/int.md), 'seq' => [int](../types/int.md), \];<a name="updatesCombined"></a>  
 
 ***
 <br><br>[$updatesTooLong](../constructors/updatesTooLong.md) = \[\];<a name="updatesTooLong"></a>  
 
 ***
-<br><br>[$updates\_channelDifference](../constructors/updates_channelDifference.md) = \['final' => [Bool](../types/Bool.md), 'channel_pts' => [int](../types/int.md), 'timeout' => [int](../types/int.md), 'new_messages' => \[[Message](../types/Message.md)\], 'other_updates' => \[[Update](../types/Update.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="updates_channelDifference"></a>  
-
-[$updates\_channelDifferenceEmpty](../constructors/updates_channelDifferenceEmpty.md) = \['final' => [Bool](../types/Bool.md), 'channel_pts' => [int](../types/int.md), 'timeout' => [int](../types/int.md), \];<a name="updates_channelDifferenceEmpty"></a>  
-
-[$updates\_channelDifferenceTooLong](../constructors/updates_channelDifferenceTooLong.md) = \['final' => [Bool](../types/Bool.md), 'channel_pts' => [int](../types/int.md), 'timeout' => [int](../types/int.md), 'top_message' => [int](../types/int.md), 'top_important_message' => [int](../types/int.md), 'read_inbox_max_id' => [int](../types/int.md), 'unread_count' => [int](../types/int.md), 'unread_important_count' => [int](../types/int.md), 'messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="updates_channelDifferenceTooLong"></a>  
-
-[$updates\_difference](../constructors/updates_difference.md) = \['new_messages' => \[[Message](../types/Message.md)\], 'new_encrypted_messages' => \[[EncryptedMessage](../types/EncryptedMessage.md)\], 'other_updates' => \[[Update](../types/Update.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], 'state' => [updates.State](../types/updates.State.md), \];<a name="updates_difference"></a>  
-
-[$updates\_differenceEmpty](../constructors/updates_differenceEmpty.md) = \['date' => [int](../types/int.md), 'seq' => [int](../types/int.md), \];<a name="updates_differenceEmpty"></a>  
-
-[$updates\_differenceSlice](../constructors/updates_differenceSlice.md) = \['new_messages' => \[[Message](../types/Message.md)\], 'new_encrypted_messages' => \[[EncryptedMessage](../types/EncryptedMessage.md)\], 'other_updates' => \[[Update](../types/Update.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], 'intermediate_state' => [updates.State](../types/updates.State.md), \];<a name="updates_differenceSlice"></a>  
-
-[$updates\_state](../constructors/updates_state.md) = \['pts' => [int](../types/int.md), 'qts' => [int](../types/int.md), 'date' => [int](../types/int.md), 'seq' => [int](../types/int.md), 'unread_count' => [int](../types/int.md), \];<a name="updates_state"></a>  
-
-***
-<br><br>[$upload\_file](../constructors/upload_file.md) = \['type' => [storage.FileType](../types/storage.FileType.md), 'mtime' => [int](../types/int.md), 'bytes' => [bytes](../types/bytes.md), \];<a name="upload_file"></a>  
+<br><br>[$upload.file](../constructors/upload.file.md) = \['type' => [storage.FileType](../types/storage.FileType.md), 'mtime' => [int](../types/int.md), 'bytes' => [bytes](../types/bytes.md), \];<a name="upload.file"></a>  
 
 ***
 <br><br>[$user](../constructors/user.md) = \['self' => [Bool](../types/Bool.md), 'contact' => [Bool](../types/Bool.md), 'mutual_contact' => [Bool](../types/Bool.md), 'deleted' => [Bool](../types/Bool.md), 'bot' => [Bool](../types/Bool.md), 'bot_chat_history' => [Bool](../types/Bool.md), 'bot_nochats' => [Bool](../types/Bool.md), 'verified' => [Bool](../types/Bool.md), 'restricted' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'access_hash' => [long](../types/long.md), 'first_name' => [string](../types/string.md), 'last_name' => [string](../types/string.md), 'username' => [string](../types/string.md), 'phone' => [string](../types/string.md), 'photo' => [UserProfilePhoto](../types/UserProfilePhoto.md), 'status' => [UserStatus](../types/UserStatus.md), 'bot_info_version' => [int](../types/int.md), 'restriction_reason' => [string](../types/string.md), 'bot_inline_placeholder' => [string](../types/string.md), \];<a name="user"></a>  

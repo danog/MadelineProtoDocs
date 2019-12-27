@@ -1,0 +1,28 @@
+---
+title: auth.SentCode
+description: constructors and methods of type auth.SentCode
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+---
+# Type: auth.SentCode  
+[Back to types index](index.md)
+
+
+
+### Possible values (constructors):
+
+[auth.sentCode](../constructors/auth.sentCode.md)  
+
+
+
+### Methods that return an object of this type (methods):
+
+[$MadelineProto->auth->sendCode](../methods/auth.sendCode.md)  
+
+[$MadelineProto->account->sendChangePhoneCode](../methods/account.sendChangePhoneCode.md)  
+
+[$MadelineProto->auth->resendCode](../methods/auth.resendCode.md)  
+
+[$MadelineProto->account->sendConfirmPhoneCode](../methods/account.sendConfirmPhoneCode.md)  
+
+
+

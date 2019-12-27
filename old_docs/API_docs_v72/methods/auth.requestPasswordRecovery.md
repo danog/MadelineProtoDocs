@@ -11,7 +11,7 @@ Request recovery code of a [2FA password](https://core.telegram.org/api/srp), on
 
 
 
-### Return type: [auth\_PasswordRecovery](../types/auth_PasswordRecovery.md)
+### Return type: [auth.PasswordRecovery](../types/auth.PasswordRecovery.md)
 
 ### Can bots use this method: **NO**
 
@@ -28,13 +28,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_PasswordRecovery = $MadelineProto->auth->requestPasswordRecovery();
+$auth.PasswordRecovery = $MadelineProto->auth->requestPasswordRecovery();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth_PasswordRecovery = auth.requestPasswordRecovery({})
+auth.PasswordRecovery = auth.requestPasswordRecovery({})
 ```
 
 ### Errors

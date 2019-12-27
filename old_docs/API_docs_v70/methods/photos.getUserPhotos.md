@@ -19,7 +19,7 @@ Returns the list of user photos.
 |limit|[int](../types/int.md) | Number of list elements to be returned | Yes|
 
 
-### Return type: [photos\_Photos](../types/photos_Photos.md)
+### Return type: [photos.Photos](../types/photos.Photos.md)
 
 ### Can bots use this method: **YES**
 
@@ -36,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$photos_Photos = $MadelineProto->photos->getUserPhotos(['user_id' => InputUser, 'offset' => int, 'max_id' => long, 'limit' => int, ]);
+$photos.Photos = $MadelineProto->photos->getUserPhotos(['user_id' => InputUser, 'offset' => int, 'max_id' => long, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-photos_Photos = photos.getUserPhotos({user_id=InputUser, offset=int, max_id=long, limit=int, })
+photos.Photos = photos.getUserPhotos({user_id=InputUser, offset=int, max_id=long, limit=int, })
 ```
 
 ### Errors

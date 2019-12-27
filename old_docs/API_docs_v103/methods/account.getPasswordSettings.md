@@ -16,7 +16,7 @@ You cannot use this method directly; use $MadelineProto->update_2fa($params), in
 |password|[InputCheckPasswordSRP](../types/InputCheckPasswordSRP.md) | You cannot use this method directly; use $MadelineProto->update_2fa($params), instead (see https://docs.madelineproto.xyz for more info) | Yes|
 
 
-### Return type: [account\_PasswordSettings](../types/account_PasswordSettings.md)
+### Return type: [account.PasswordSettings](../types/account.PasswordSettings.md)
 
 ### Can bots use this method: **NO**
 
@@ -33,13 +33,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_PasswordSettings = $MadelineProto->account->getPasswordSettings(['password' => InputCheckPasswordSRP, ]);
+$account.PasswordSettings = $MadelineProto->account->getPasswordSettings(['password' => InputCheckPasswordSRP, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account_PasswordSettings = account.getPasswordSettings({password=InputCheckPasswordSRP, })
+account.PasswordSettings = account.getPasswordSettings({password=InputCheckPasswordSRP, })
 ```
 
 ### Errors

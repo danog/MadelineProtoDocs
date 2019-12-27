@@ -17,7 +17,7 @@ Returns users found by username substring.
 |limit|[int](../types/int.md) | Maximum number of users to be returned | Yes|
 
 
-### Return type: [contacts\_Found](../types/contacts_Found.md)
+### Return type: [contacts.Found](../types/contacts.Found.md)
 
 ### Can bots use this method: **NO**
 
@@ -34,13 +34,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts_Found = $MadelineProto->contacts->search(['q' => 'string', 'limit' => int, ]);
+$contacts.Found = $MadelineProto->contacts->search(['q' => 'string', 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-contacts_Found = contacts.search({q='string', limit=int, })
+contacts.Found = contacts.search({q='string', limit=int, })
 ```
 
 ### Errors

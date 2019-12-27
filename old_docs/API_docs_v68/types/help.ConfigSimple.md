@@ -1,0 +1,20 @@
+---
+title: help.ConfigSimple
+description: constructors and methods of type help.ConfigSimple
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+---
+# Type: help.ConfigSimple  
+[Back to types index](index.md)
+
+
+
+### Possible values (constructors):
+
+[help.configSimple](../constructors/help.configSimple.md)  
+
+
+
+### Methods that return an object of this type (methods):
+
+
+

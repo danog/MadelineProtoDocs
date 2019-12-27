@@ -11,7 +11,7 @@ Get terms of service
 
 
 
-### Return type: [help\_TermsOfService](../types/help_TermsOfService.md)
+### Return type: [help.TermsOfService](../types/help.TermsOfService.md)
 
 ### Can bots use this method: **YES**
 
@@ -28,12 +28,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_TermsOfService = $MadelineProto->help->getTermsOfService();
+$help.TermsOfService = $MadelineProto->help->getTermsOfService();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help_TermsOfService = help.getTermsOfService({})
+help.TermsOfService = help.getTermsOfService({})
 ```
 

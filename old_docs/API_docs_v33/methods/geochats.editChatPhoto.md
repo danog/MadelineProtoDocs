@@ -17,7 +17,7 @@ Edit geochat photo
 |photo|[InputChatPhoto](../types/InputChatPhoto.md) | The new photo | Optional|
 
 
-### Return type: [geochats\_StatedMessage](../types/geochats_StatedMessage.md)
+### Return type: [geochats.StatedMessage](../types/geochats.StatedMessage.md)
 
 ### Can bots use this method: **YES**
 
@@ -34,12 +34,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$geochats_StatedMessage = $MadelineProto->geochats->editChatPhoto(['peer' => InputGeoChat, 'photo' => InputChatPhoto, ]);
+$geochats.StatedMessage = $MadelineProto->geochats->editChatPhoto(['peer' => InputGeoChat, 'photo' => InputChatPhoto, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-geochats_StatedMessage = geochats.editChatPhoto({peer=InputGeoChat, photo=InputChatPhoto, })
+geochats.StatedMessage = geochats.editChatPhoto({peer=InputGeoChat, photo=InputChatPhoto, })
 ```
 

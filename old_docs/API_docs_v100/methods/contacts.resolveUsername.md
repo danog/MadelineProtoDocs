@@ -16,7 +16,7 @@ You cannot use this method directly, use the resolveUsername, getPwrChat, getInf
 |username|[string](../types/string.md) | You cannot use this method directly, use the resolveUsername, getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info) | Yes|
 
 
-### Return type: [contacts\_ResolvedPeer](../types/contacts_ResolvedPeer.md)
+### Return type: [contacts.ResolvedPeer](../types/contacts.ResolvedPeer.md)
 
 ### Can bots use this method: **YES**
 
@@ -33,13 +33,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts_ResolvedPeer = $MadelineProto->contacts->resolveUsername(['username' => 'string', ]);
+$contacts.ResolvedPeer = $MadelineProto->contacts->resolveUsername(['username' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-contacts_ResolvedPeer = contacts.resolveUsername({username='string', })
+contacts.ResolvedPeer = contacts.resolveUsername({username='string', })
 ```
 
 ### Errors

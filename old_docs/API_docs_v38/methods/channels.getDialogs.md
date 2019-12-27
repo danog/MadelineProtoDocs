@@ -17,7 +17,7 @@ Get channel dialogs
 |limit|[int](../types/int.md) | Number of results to return | Yes|
 
 
-### Return type: [messages\_Dialogs](../types/messages_Dialogs.md)
+### Return type: [messages.Dialogs](../types/messages.Dialogs.md)
 
 ### Can bots use this method: **YES**
 
@@ -34,12 +34,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Dialogs = $MadelineProto->channels->getDialogs(['offset' => int, 'limit' => int, ]);
+$messages.Dialogs = $MadelineProto->channels->getDialogs(['offset' => int, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_Dialogs = channels.getDialogs({offset=int, limit=int, })
+messages.Dialogs = channels.getDialogs({offset=int, limit=int, })
 ```
 

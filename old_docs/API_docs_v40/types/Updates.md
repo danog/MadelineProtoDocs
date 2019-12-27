@@ -28,31 +28,31 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->sendMessage](../methods/messages_sendMessage.md)  
+[$MadelineProto->messages->sendMessage](../methods/messages.sendMessage.md)  
 
-[$MadelineProto->messages->sendMedia](../methods/messages_sendMedia.md)  
+[$MadelineProto->messages->sendMedia](../methods/messages.sendMedia.md)  
 
-[$MadelineProto->messages->forwardMessages](../methods/messages_forwardMessages.md)  
+[$MadelineProto->messages->forwardMessages](../methods/messages.forwardMessages.md)  
 
-[$MadelineProto->messages->editChatTitle](../methods/messages_editChatTitle.md)  
+[$MadelineProto->messages->editChatTitle](../methods/messages.editChatTitle.md)  
 
-[$MadelineProto->messages->editChatPhoto](../methods/messages_editChatPhoto.md)  
+[$MadelineProto->messages->editChatPhoto](../methods/messages.editChatPhoto.md)  
 
-[$MadelineProto->messages->addChatUser](../methods/messages_addChatUser.md)  
+[$MadelineProto->messages->addChatUser](../methods/messages.addChatUser.md)  
 
-[$MadelineProto->messages->deleteChatUser](../methods/messages_deleteChatUser.md)  
+[$MadelineProto->messages->deleteChatUser](../methods/messages.deleteChatUser.md)  
 
-[$MadelineProto->messages->createChat](../methods/messages_createChat.md)  
+[$MadelineProto->messages->createChat](../methods/messages.createChat.md)  
 
-[$MadelineProto->messages->forwardMessage](../methods/messages_forwardMessage.md)  
+[$MadelineProto->messages->forwardMessage](../methods/messages.forwardMessage.md)  
 
-[$MadelineProto->messages->sendBroadcast](../methods/messages_sendBroadcast.md)  
+[$MadelineProto->messages->sendBroadcast](../methods/messages.sendBroadcast.md)  
 
-[$MadelineProto->messages->importChatInvite](../methods/messages_importChatInvite.md)  
+[$MadelineProto->messages->importChatInvite](../methods/messages.importChatInvite.md)  
 
-[$MadelineProto->messages->startBot](../methods/messages_startBot.md)  
+[$MadelineProto->messages->startBot](../methods/messages.startBot.md)  
 
-[$MadelineProto->messages->createChannel](../methods/messages_createChannel.md)  
+[$MadelineProto->messages->createChannel](../methods/messages.createChannel.md)  
 
 
 

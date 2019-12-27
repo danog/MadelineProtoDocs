@@ -18,7 +18,7 @@ Submit requested order information for validation
 |info|[PaymentRequestedInfo](../types/PaymentRequestedInfo.md) | Requested order information | Yes|
 
 
-### Return type: [payments\_ValidatedRequestedInfo](../types/payments_ValidatedRequestedInfo.md)
+### Return type: [payments.ValidatedRequestedInfo](../types/payments.ValidatedRequestedInfo.md)
 
 ### Can bots use this method: **NO**
 
@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$payments_ValidatedRequestedInfo = $MadelineProto->payments->validateRequestedInfo(['save' => Bool, 'msg_id' => int, 'info' => PaymentRequestedInfo, ]);
+$payments.ValidatedRequestedInfo = $MadelineProto->payments->validateRequestedInfo(['save' => Bool, 'msg_id' => int, 'info' => PaymentRequestedInfo, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-payments_ValidatedRequestedInfo = payments.validateRequestedInfo({save=Bool, msg_id=int, info=PaymentRequestedInfo, })
+payments.ValidatedRequestedInfo = payments.validateRequestedInfo({save=Bool, msg_id=int, info=PaymentRequestedInfo, })
 ```
 
 ### Errors

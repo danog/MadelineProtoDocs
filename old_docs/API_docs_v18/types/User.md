@@ -50,13 +50,13 @@ A [Chat](Chat.md), a [User](User.md), an [InputPeer](InputPeer.md), an [InputDia
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->updateProfile](../methods/account_updateProfile.md)  
+[$MadelineProto->account->updateProfile](../methods/account.updateProfile.md)  
 
-[$MadelineProto->users->getUsers](../methods/users_getUsers.md)  
+[$MadelineProto->users->getUsers](../methods/users.getUsers.md)  
 
-[$MadelineProto->contacts->importCard](../methods/contacts_importCard.md)  
+[$MadelineProto->contacts->importCard](../methods/contacts.importCard.md)  
 
-[$MadelineProto->account->updateUsername](../methods/account_updateUsername.md)  
+[$MadelineProto->account->updateUsername](../methods/account.updateUsername.md)  
 
 
 

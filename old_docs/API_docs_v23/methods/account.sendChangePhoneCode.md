@@ -16,7 +16,7 @@ Verify a new phone number to associate to the current account
 |phone\_number|[string](../types/string.md) | New phone number | Yes|
 
 
-### Return type: [account\_SentChangePhoneCode](../types/account_SentChangePhoneCode.md)
+### Return type: [account.SentChangePhoneCode](../types/account.SentChangePhoneCode.md)
 
 ### Can bots use this method: **NO**
 
@@ -33,13 +33,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_SentChangePhoneCode = $MadelineProto->account->sendChangePhoneCode(['phone_number' => 'string', ]);
+$account.SentChangePhoneCode = $MadelineProto->account->sendChangePhoneCode(['phone_number' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account_SentChangePhoneCode = account.sendChangePhoneCode({phone_number='string', })
+account.SentChangePhoneCode = account.sendChangePhoneCode({phone_number='string', })
 ```
 
 ### Errors

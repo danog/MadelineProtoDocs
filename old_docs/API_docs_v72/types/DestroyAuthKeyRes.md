@@ -20,7 +20,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->destroy->auth->key](../methods/destroy_auth_key.md)  
+[$MadelineProto->destroy\_auth\_key](../methods/destroy_auth_key.md)  
 
 
 

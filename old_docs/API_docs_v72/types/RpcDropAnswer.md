@@ -20,7 +20,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->rpc->drop->answer](../methods/rpc_drop_answer.md)  
+[$MadelineProto->rpc\_drop\_answer](../methods/rpc_drop_answer.md)  
 
 
 

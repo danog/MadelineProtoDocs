@@ -16,7 +16,7 @@ Reset the [2FA password](https://core.telegram.org/api/srp) using the recovery c
 |code|[string](../types/string.md) | Code received via email | Yes|
 
 
-### Return type: [auth\_Authorization](../types/auth_Authorization.md)
+### Return type: [auth.Authorization](../types/auth.Authorization.md)
 
 ### Can bots use this method: **NO**
 
@@ -33,13 +33,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_Authorization = $MadelineProto->auth->recoverPassword(['code' => 'string', ]);
+$auth.Authorization = $MadelineProto->auth->recoverPassword(['code' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth_Authorization = auth.recoverPassword({code='string', })
+auth.Authorization = auth.recoverPassword({code='string', })
 ```
 
 ### Errors

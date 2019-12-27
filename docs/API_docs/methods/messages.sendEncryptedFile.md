@@ -14,11 +14,11 @@ Sends a message with a file attachment to a secret chat
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | Secret chat ID | Yes|
-|message|[DecryptedMessage](../types/DecryptedMessage.md) | The message with the file | Yes|
+|data|[bytes](../types/bytes.md) | TL-serialization of [DecryptedMessage](../types/DecryptedMessage.md) type, encrypted with a key generated during chat initialization | Yes|
 |file|[File path or InputEncryptedFile](../types/InputEncryptedFile.md) | File attachment for the secret chat | Optional|
 
 
-### Return type: [messages\_SentEncryptedMessage](../types/messages_SentEncryptedMessage.md)
+### Return type: [messages.SentEncryptedMessage](../types/messages.SentEncryptedMessage.md)
 
 ### Can bots use this method: **NO**
 
@@ -35,20 +35,14 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_SentEncryptedMessage = $MadelineProto->messages->sendEncryptedFile(['peer' => InputEncryptedChat, 'message' => DecryptedMessage, 'file' => InputEncryptedFile, ]);
+$messages.SentEncryptedMessage = $MadelineProto->messages->sendEncryptedFile(['peer' => InputEncryptedChat, 'data' => 'bytes', 'file' => InputEncryptedFile, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_SentEncryptedMessage = messages.sendEncryptedFile({peer=InputEncryptedChat, message=DecryptedMessage, file=InputEncryptedFile, })
+messages.SentEncryptedMessage = messages.sendEncryptedFile({peer=InputEncryptedChat, data='bytes', file=InputEncryptedFile, })
 ```
-
-
-## Return value 
-
-If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [messages\_SentEncryptedMessage](../types/messages_SentEncryptedMessage.md) will be returned instead.
-
 
 ### Errors
 

@@ -19,7 +19,7 @@ Internal use
 |parse\_mode| [string](../types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
 
 
-### Return type: [help\_UserInfo](../types/help_UserInfo.md)
+### Return type: [help.UserInfo](../types/help.UserInfo.md)
 
 ### Can bots use this method: **NO**
 
@@ -36,19 +36,19 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_UserInfo = $MadelineProto->help->editUserInfo(['user_id' => InputUser, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', ]);
+$help.UserInfo = $MadelineProto->help->editUserInfo(['user_id' => InputUser, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help_UserInfo = help.editUserInfo({user_id=InputUser, message='string', entities={MessageEntity}, parseMode='string', })
+help.UserInfo = help.editUserInfo({user_id=InputUser, message='string', entities={MessageEntity}, parseMode='string', })
 ```
 
 
 ## Return value 
 
-If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [help\_UserInfo](../types/help_UserInfo.md) will be returned instead.
+If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [help.UserInfo](../types/help.UserInfo.md) will be returned instead.
 
 
 

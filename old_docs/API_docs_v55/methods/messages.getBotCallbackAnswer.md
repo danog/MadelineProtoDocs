@@ -18,7 +18,7 @@ Press an inline callback button and get a callback answer from the bot
 |data|[bytes](../types/bytes.md) | Callback data | Yes|
 
 
-### Return type: [messages\_BotCallbackAnswer](../types/messages_BotCallbackAnswer.md)
+### Return type: [messages.BotCallbackAnswer](../types/messages.BotCallbackAnswer.md)
 
 ### Can bots use this method: **NO**
 
@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_BotCallbackAnswer = $MadelineProto->messages->getBotCallbackAnswer(['peer' => InputPeer, 'msg_id' => int, 'data' => 'bytes', ]);
+$messages.BotCallbackAnswer = $MadelineProto->messages->getBotCallbackAnswer(['peer' => InputPeer, 'msg_id' => int, 'data' => 'bytes', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_BotCallbackAnswer = messages.getBotCallbackAnswer({peer=InputPeer, msg_id=int, data='bytes', })
+messages.BotCallbackAnswer = messages.getBotCallbackAnswer({peer=InputPeer, msg_id=int, data='bytes', })
 ```
 
 ### Errors

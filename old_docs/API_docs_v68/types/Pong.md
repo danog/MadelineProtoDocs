@@ -18,7 +18,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->ping](../methods/ping.md)  
 
-[$MadelineProto->ping->delay->disconnect](../methods/ping_delay_disconnect.md)  
+[$MadelineProto->ping\_delay\_disconnect](../methods/ping_delay_disconnect.md)  
 
 
 

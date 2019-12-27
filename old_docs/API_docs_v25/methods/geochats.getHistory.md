@@ -19,7 +19,7 @@ Get geochat history
 |limit|[int](../types/int.md) | Number of results to return | Yes|
 
 
-### Return type: [geochats\_Messages](../types/geochats_Messages.md)
+### Return type: [geochats.Messages](../types/geochats.Messages.md)
 
 ### Can bots use this method: **YES**
 
@@ -36,12 +36,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$geochats_Messages = $MadelineProto->geochats->getHistory(['peer' => InputGeoChat, 'offset' => int, 'max_id' => int, 'limit' => int, ]);
+$geochats.Messages = $MadelineProto->geochats->getHistory(['peer' => InputGeoChat, 'offset' => int, 'max_id' => int, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-geochats_Messages = geochats.getHistory({peer=InputGeoChat, offset=int, max_id=int, limit=int, })
+geochats.Messages = geochats.getHistory({peer=InputGeoChat, offset=int, max_id=int, limit=int, })
 ```
 

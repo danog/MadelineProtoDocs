@@ -11,7 +11,7 @@ Get media autodownload settings
 
 
 
-### Return type: [account\_AutoDownloadSettings](../types/account_AutoDownloadSettings.md)
+### Return type: [account.AutoDownloadSettings](../types/account.AutoDownloadSettings.md)
 
 ### Can bots use this method: **NO**
 
@@ -28,12 +28,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_AutoDownloadSettings = $MadelineProto->account->getAutoDownloadSettings();
+$account.AutoDownloadSettings = $MadelineProto->account->getAutoDownloadSettings();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account_AutoDownloadSettings = account.getAutoDownloadSettings({})
+account.AutoDownloadSettings = account.getAutoDownloadSettings({})
 ```
 

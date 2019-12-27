@@ -20,7 +20,7 @@ You cannot use this method directly, see https://docs.madelineproto.xyz for more
 |limit|[int](../types/int.md) | You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates | Yes|
 
 
-### Return type: [updates\_ChannelDifference](../types/updates_ChannelDifference.md)
+### Return type: [updates.ChannelDifference](../types/updates.ChannelDifference.md)
 
 ### Can bots use this method: **YES**
 
@@ -37,13 +37,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$updates_ChannelDifference = $MadelineProto->updates->getChannelDifference(['force' => Bool, 'channel' => InputChannel, 'filter' => ChannelMessagesFilter, 'pts' => int, 'limit' => int, ]);
+$updates.ChannelDifference = $MadelineProto->updates->getChannelDifference(['force' => Bool, 'channel' => InputChannel, 'filter' => ChannelMessagesFilter, 'pts' => int, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-updates_ChannelDifference = updates.getChannelDifference({force=Bool, channel=InputChannel, filter=ChannelMessagesFilter, pts=int, limit=int, })
+updates.ChannelDifference = updates.getChannelDifference({force=Bool, channel=InputChannel, filter=ChannelMessagesFilter, pts=int, limit=int, })
 ```
 
 ### Errors

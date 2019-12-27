@@ -24,9 +24,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->requestEncryption](../methods/messages_requestEncryption.md)  
+[$MadelineProto->messages->requestEncryption](../methods/messages.requestEncryption.md)  
 
-[$MadelineProto->messages->acceptEncryption](../methods/messages_acceptEncryption.md)  
+[$MadelineProto->messages->acceptEncryption](../methods/messages.acceptEncryption.md)  
 
 
 

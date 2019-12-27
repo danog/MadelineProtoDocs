@@ -11,7 +11,7 @@ Get logged-in sessions
 
 
 
-### Return type: [account\_Authorizations](../types/account_Authorizations.md)
+### Return type: [account.Authorizations](../types/account.Authorizations.md)
 
 ### Can bots use this method: **NO**
 
@@ -28,12 +28,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_Authorizations = $MadelineProto->account->getAuthorizations();
+$account.Authorizations = $MadelineProto->account->getAuthorizations();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account_Authorizations = account.getAuthorizations({})
+account.Authorizations = account.getAuthorizations({})
 ```
 

@@ -18,7 +18,7 @@ Send a message to all users in the chat list
 |media|[MessageMedia, Update, Message or InputMedia](../types/InputMedia.md) | The media | Optional|
 
 
-### Return type: [messages\_StatedMessages](../types/messages_StatedMessages.md)
+### Return type: [messages.StatedMessages](../types/messages.StatedMessages.md)
 
 ### Can bots use this method: **YES**
 
@@ -35,18 +35,18 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_StatedMessages = $MadelineProto->messages->sendBroadcast(['contacts' => [InputUser, InputUser], 'message' => 'string', 'media' => InputMedia, ]);
+$messages.StatedMessages = $MadelineProto->messages->sendBroadcast(['contacts' => [InputUser, InputUser], 'message' => 'string', 'media' => InputMedia, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_StatedMessages = messages.sendBroadcast({contacts={InputUser}, message='string', media=InputMedia, })
+messages.StatedMessages = messages.sendBroadcast({contacts={InputUser}, message='string', media=InputMedia, })
 ```
 
 
 ## Return value 
 
-If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [messages\_StatedMessages](../types/messages_StatedMessages.md) will be returned instead.
+If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [messages.StatedMessages](../types/messages.StatedMessages.md) will be returned instead.
 
 

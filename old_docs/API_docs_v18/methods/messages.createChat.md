@@ -17,7 +17,7 @@ Creates a new chat.
 |title|[string](../types/string.md) | Chat name | Yes|
 
 
-### Return type: [messages\_StatedMessage](../types/messages_StatedMessage.md)
+### Return type: [messages.StatedMessage](../types/messages.StatedMessage.md)
 
 ### Can bots use this method: **NO**
 
@@ -34,13 +34,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_StatedMessage = $MadelineProto->messages->createChat(['users' => [InputUser, InputUser], 'title' => 'string', ]);
+$messages.StatedMessage = $MadelineProto->messages->createChat(['users' => [InputUser, InputUser], 'title' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_StatedMessage = messages.createChat({users={InputUser}, title='string', })
+messages.StatedMessage = messages.createChat({users={InputUser}, title='string', })
 ```
 
 ### Errors

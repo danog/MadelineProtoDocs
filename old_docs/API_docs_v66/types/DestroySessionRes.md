@@ -18,7 +18,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->destroy->session](../methods/destroy_session.md)  
+[$MadelineProto->destroy\_session](../methods/destroy_session.md)  
 
 
 

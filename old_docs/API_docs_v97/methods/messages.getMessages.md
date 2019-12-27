@@ -16,7 +16,7 @@ Returns the list of messages by their IDs.
 |id|Array of [Message ID or InputMessage](../types/InputMessage.md) | The IDs of messages to fetch (only for users and normal groups) | Yes|
 
 
-### Return type: [messages\_Messages](../types/messages_Messages.md)
+### Return type: [messages.Messages](../types/messages.Messages.md)
 
 ### Can bots use this method: **YES**
 
@@ -33,12 +33,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->messages->getMessages(['id' => [InputMessage, InputMessage], ]);
+$messages.Messages = $MadelineProto->messages->getMessages(['id' => [InputMessage, InputMessage], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_Messages = messages.getMessages({id={InputMessage}, })
+messages.Messages = messages.getMessages({id={InputMessage}, })
 ```
 

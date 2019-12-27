@@ -20,7 +20,7 @@ Get the participants of a channel
 |hash|Array of [int](../types/int.md) | IDs of previously fetched participants | Optional|
 
 
-### Return type: [channels\_ChannelParticipants](../types/channels_ChannelParticipants.md)
+### Return type: [channels.ChannelParticipants](../types/channels.ChannelParticipants.md)
 
 ### Can bots use this method: **YES**
 
@@ -37,13 +37,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$channels_ChannelParticipants = $MadelineProto->channels->getParticipants(['channel' => InputChannel, 'filter' => ChannelParticipantsFilter, 'offset' => int, 'limit' => int, 'hash' => [int, int], ]);
+$channels.ChannelParticipants = $MadelineProto->channels->getParticipants(['channel' => InputChannel, 'filter' => ChannelParticipantsFilter, 'offset' => int, 'limit' => int, 'hash' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-channels_ChannelParticipants = channels.getParticipants({channel=InputChannel, filter=ChannelParticipantsFilter, offset=int, limit=int, hash={int}, })
+channels.ChannelParticipants = channels.getParticipants({channel=InputChannel, filter=ChannelParticipantsFilter, offset=int, limit=int, hash={int}, })
 ```
 
 ### Errors

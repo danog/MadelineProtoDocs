@@ -17,7 +17,7 @@ Delete channel messages
 |id|Array of [int](../types/int.md) | The IDs of messages to delete | Yes|
 
 
-### Return type: [messages\_AffectedMessages](../types/messages_AffectedMessages.md)
+### Return type: [messages.AffectedMessages](../types/messages.AffectedMessages.md)
 
 ### Can bots use this method: **YES**
 
@@ -34,12 +34,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_AffectedMessages = $MadelineProto->messages->deleteChannelMessages(['peer' => InputPeer, 'id' => [int, int], ]);
+$messages.AffectedMessages = $MadelineProto->messages->deleteChannelMessages(['peer' => InputPeer, 'id' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_AffectedMessages = messages.deleteChannelMessages({peer=InputPeer, id={int}, })
+messages.AffectedMessages = messages.deleteChannelMessages({peer=InputPeer, id={int}, })
 ```
 

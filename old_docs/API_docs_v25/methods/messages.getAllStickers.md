@@ -16,7 +16,7 @@ Get all installed stickers
 |hash|[string](../types/string.md) | Previously fetched stickers | Yes|
 
 
-### Return type: [messages\_AllStickers](../types/messages_AllStickers.md)
+### Return type: [messages.AllStickers](../types/messages.AllStickers.md)
 
 ### Can bots use this method: **NO**
 
@@ -33,12 +33,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_AllStickers = $MadelineProto->messages->getAllStickers(['hash' => 'string', ]);
+$messages.AllStickers = $MadelineProto->messages->getAllStickers(['hash' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_AllStickers = messages.getAllStickers({hash='string', })
+messages.AllStickers = messages.getAllStickers({hash='string', })
 ```
 

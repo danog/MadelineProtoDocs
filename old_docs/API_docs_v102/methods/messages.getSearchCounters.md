@@ -17,7 +17,7 @@ Get the number of results that would be found by a [messages.search](../methods/
 |filters|Array of [MessagesFilter](../types/MessagesFilter.md) | Filters | Yes|
 
 
-### Return type: [Vector\_of\_messages\_SearchCounter](../types/messages_SearchCounter.md)
+### Return type: [Vector\_of\_messages.SearchCounter](../types/messages.SearchCounter.md)
 
 ### Can bots use this method: **NO**
 
@@ -34,12 +34,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_messages_SearchCounter = $MadelineProto->messages->getSearchCounters(['peer' => InputPeer, 'filters' => [MessagesFilter, MessagesFilter], ]);
+$Vector_of_messages.SearchCounter = $MadelineProto->messages->getSearchCounters(['peer' => InputPeer, 'filters' => [MessagesFilter, MessagesFilter], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Vector_of_messages_SearchCounter = messages.getSearchCounters({peer=InputPeer, filters={MessagesFilter}, })
+Vector_of_messages.SearchCounter = messages.getSearchCounters({peer=InputPeer, filters={MessagesFilter}, })
 ```
 

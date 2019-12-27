@@ -16,7 +16,7 @@ Get info about a `t.me` link
 |path|[string](../types/string.md) | Path in `t.me/path` | Yes|
 
 
-### Return type: [help\_DeepLinkInfo](../types/help_DeepLinkInfo.md)
+### Return type: [help.DeepLinkInfo](../types/help.DeepLinkInfo.md)
 
 ### Can bots use this method: **NO**
 
@@ -33,12 +33,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_DeepLinkInfo = $MadelineProto->help->getDeepLinkInfo(['path' => 'string', ]);
+$help.DeepLinkInfo = $MadelineProto->help->getDeepLinkInfo(['path' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help_DeepLinkInfo = help.getDeepLinkInfo({path='string', })
+help.DeepLinkInfo = help.getDeepLinkInfo({path='string', })
 ```
 

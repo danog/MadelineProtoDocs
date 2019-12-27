@@ -22,7 +22,7 @@ Intialize account takeout session
 |file\_max\_size|[int](../types/int.md) | Maximum size of files to export | Optional|
 
 
-### Return type: [account\_Takeout](../types/account_Takeout.md)
+### Return type: [account.Takeout](../types/account.Takeout.md)
 
 ### Can bots use this method: **NO**
 
@@ -39,12 +39,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_Takeout = $MadelineProto->account->initTakeoutSession(['contacts' => Bool, 'message_users' => Bool, 'message_chats' => Bool, 'message_megagroups' => Bool, 'message_channels' => Bool, 'files' => Bool, 'file_max_size' => int, ]);
+$account.Takeout = $MadelineProto->account->initTakeoutSession(['contacts' => Bool, 'message_users' => Bool, 'message_chats' => Bool, 'message_megagroups' => Bool, 'message_channels' => Bool, 'files' => Bool, 'file_max_size' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account_Takeout = account.initTakeoutSession({contacts=Bool, message_users=Bool, message_chats=Bool, message_megagroups=Bool, message_channels=Bool, files=Bool, file_max_size=int, })
+account.Takeout = account.initTakeoutSession({contacts=Bool, message_users=Bool, message_chats=Bool, message_megagroups=Bool, message_channels=Bool, files=Bool, file_max_size=int, })
 ```
 

@@ -17,7 +17,7 @@ Get all archived stickers
 |limit|[int](../types/int.md) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
 
 
-### Return type: [messages\_ArchivedStickers](../types/messages_ArchivedStickers.md)
+### Return type: [messages.ArchivedStickers](../types/messages.ArchivedStickers.md)
 
 ### Can bots use this method: **NO**
 
@@ -34,12 +34,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_ArchivedStickers = $MadelineProto->messages->getArchivedStickers(['offset_id' => long, 'limit' => int, ]);
+$messages.ArchivedStickers = $MadelineProto->messages->getArchivedStickers(['offset_id' => long, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_ArchivedStickers = messages.getArchivedStickers({offset_id=long, limit=int, })
+messages.ArchivedStickers = messages.getArchivedStickers({offset_id=long, limit=int, })
 ```
 

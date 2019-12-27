@@ -18,7 +18,7 @@ Adds a user to a chat and sends a service message on it.
 |fwd\_limit|[int](../types/int.md) | Number of last messages to be forwarded | Yes|
 
 
-### Return type: [messages\_StatedMessage](../types/messages_StatedMessage.md)
+### Return type: [messages.StatedMessage](../types/messages.StatedMessage.md)
 
 ### Can bots use this method: **NO**
 
@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_StatedMessage = $MadelineProto->messages->addChatUser(['chat_id' => InputPeer, 'user_id' => InputUser, 'fwd_limit' => int, ]);
+$messages.StatedMessage = $MadelineProto->messages->addChatUser(['chat_id' => InputPeer, 'user_id' => InputUser, 'fwd_limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_StatedMessage = messages.addChatUser({chat_id=InputPeer, user_id=InputUser, fwd_limit=int, })
+messages.StatedMessage = messages.addChatUser({chat_id=InputPeer, user_id=InputUser, fwd_limit=int, })
 ```
 
 ### Errors

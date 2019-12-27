@@ -42,7 +42,7 @@ A [Chat](Chat.md), a [User](User.md), an [InputPeer](InputPeer.md), an [InputDia
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getDialogUnreadMarks](../methods/messages_getDialogUnreadMarks.md)  
+[$MadelineProto->messages->getDialogUnreadMarks](../methods/messages.getDialogUnreadMarks.md)  
 
 
 

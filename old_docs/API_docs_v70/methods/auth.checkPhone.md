@@ -16,7 +16,7 @@ Check if this phone number is registered on telegram
 |phone\_number|[string](../types/string.md) | The phone number to check | Yes|
 
 
-### Return type: [auth\_CheckedPhone](../types/auth_CheckedPhone.md)
+### Return type: [auth.CheckedPhone](../types/auth.CheckedPhone.md)
 
 ### Can bots use this method: **YES**
 
@@ -33,13 +33,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_CheckedPhone = $MadelineProto->auth->checkPhone(['phone_number' => 'string', ]);
+$auth.CheckedPhone = $MadelineProto->auth->checkPhone(['phone_number' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth_CheckedPhone = auth.checkPhone({phone_number='string', })
+auth.CheckedPhone = auth.checkPhone({phone_number='string', })
 ```
 
 ### Errors

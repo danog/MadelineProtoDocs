@@ -20,9 +20,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->requestUrlAuth](../methods/messages_requestUrlAuth.md)  
+[$MadelineProto->messages->requestUrlAuth](../methods/messages.requestUrlAuth.md)  
 
-[$MadelineProto->messages->acceptUrlAuth](../methods/messages_acceptUrlAuth.md)  
+[$MadelineProto->messages->acceptUrlAuth](../methods/messages.acceptUrlAuth.md)  
 
 
 

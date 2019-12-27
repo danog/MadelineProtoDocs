@@ -21,7 +21,7 @@ Search for messages and peers globally
 |limit|[int](../types/int.md) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
 
 
-### Return type: [messages\_Messages](../types/messages_Messages.md)
+### Return type: [messages.Messages](../types/messages.Messages.md)
 
 ### Can bots use this method: **NO**
 
@@ -38,13 +38,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->messages->searchGlobal(['folder_id' => int, 'q' => 'string', 'offset_rate' => int, 'offset_peer' => InputPeer, 'offset_id' => int, 'limit' => int, ]);
+$messages.Messages = $MadelineProto->messages->searchGlobal(['folder_id' => int, 'q' => 'string', 'offset_rate' => int, 'offset_peer' => InputPeer, 'offset_id' => int, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_Messages = messages.searchGlobal({folder_id=int, q='string', offset_rate=int, offset_peer=InputPeer, offset_id=int, limit=int, })
+messages.Messages = messages.searchGlobal({folder_id=int, q='string', offset_rate=int, offset_peer=InputPeer, offset_id=int, limit=int, })
 ```
 
 ### Errors

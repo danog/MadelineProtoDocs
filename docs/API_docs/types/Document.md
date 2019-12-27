@@ -18,9 +18,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->uploadTheme](../methods/account_uploadTheme.md)  
+[$MadelineProto->account->uploadTheme](../methods/account.uploadTheme.md)  
 
-[$MadelineProto->messages->getDocumentByHash](../methods/messages_getDocumentByHash.md)  
+[$MadelineProto->messages->getDocumentByHash](../methods/messages.getDocumentByHash.md)  
 
 
 

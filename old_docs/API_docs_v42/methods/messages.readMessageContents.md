@@ -16,7 +16,7 @@ Notifies the sender about the recipient having listened a voice message or watch
 |id|Array of [int](../types/int.md) | The messages to mark as read (only users and normal chats, not supergroups) | Yes|
 
 
-### Return type: [messages\_AffectedMessages](../types/messages_AffectedMessages.md)
+### Return type: [messages.AffectedMessages](../types/messages.AffectedMessages.md)
 
 ### Can bots use this method: **NO**
 
@@ -33,12 +33,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_AffectedMessages = $MadelineProto->messages->readMessageContents(['id' => [int, int], ]);
+$messages.AffectedMessages = $MadelineProto->messages->readMessageContents(['id' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_AffectedMessages = messages.readMessageContents({id={int}, })
+messages.AffectedMessages = messages.readMessageContents({id={int}, })
 ```
 

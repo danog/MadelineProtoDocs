@@ -17,7 +17,7 @@ Changes the absolute position of a sticker in the set to which it belongs; for b
 |position|[int](../types/int.md) | The new position of the sticker, zero-based | Yes|
 
 
-### Return type: [messages\_StickerSet](../types/messages_StickerSet.md)
+### Return type: [messages.StickerSet](../types/messages.StickerSet.md)
 
 ### Can bots use this method: **YES**
 
@@ -34,13 +34,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_StickerSet = $MadelineProto->stickers->changeStickerPosition(['sticker' => InputDocument, 'position' => int, ]);
+$messages.StickerSet = $MadelineProto->stickers->changeStickerPosition(['sticker' => InputDocument, 'position' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_StickerSet = stickers.changeStickerPosition({sticker=InputDocument, position=int, })
+messages.StickerSet = stickers.changeStickerPosition({sticker=InputDocument, position=int, })
 ```
 
 ### Errors
