@@ -1,0 +1,1 @@
+stickers.removeStickerFromSet.md

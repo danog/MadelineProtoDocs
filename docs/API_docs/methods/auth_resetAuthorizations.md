@@ -1,0 +1,1 @@
+auth.resetAuthorizations.md

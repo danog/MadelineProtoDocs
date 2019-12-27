@@ -1,0 +1,1 @@
+storage.FileType.md

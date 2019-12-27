@@ -1,0 +1,1 @@
+account.getPrivacy.md

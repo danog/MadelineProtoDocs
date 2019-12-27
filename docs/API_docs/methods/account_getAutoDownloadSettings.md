@@ -1,0 +1,1 @@
+account.getAutoDownloadSettings.md

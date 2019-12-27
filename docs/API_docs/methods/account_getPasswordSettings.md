@@ -1,0 +1,1 @@
+account.getPasswordSettings.md

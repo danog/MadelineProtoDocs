@@ -1,0 +1,1 @@
+help.getAppConfig.md

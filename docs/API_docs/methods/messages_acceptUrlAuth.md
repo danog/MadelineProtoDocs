@@ -1,0 +1,1 @@
+messages.acceptUrlAuth.md

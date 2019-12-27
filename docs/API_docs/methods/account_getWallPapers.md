@@ -1,0 +1,1 @@
+account.getWallPapers.md

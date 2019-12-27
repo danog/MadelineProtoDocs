@@ -1,0 +1,1 @@
+messages.sendVote.md
