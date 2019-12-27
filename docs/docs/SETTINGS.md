@@ -318,6 +318,10 @@ Description: Can be true to accept all secret chats, false to not accept any sec
 
 Upload settings
 
+### `$settings['upload']['parallel_chunks']`
+Default: `20`  
+Description: Default number of chunks for parallel upload
+
 ### `$settings['upload']['allow_automatic_upload']`
 Default: `true`  
 Description: If false, [disables automatic upload from file path in constructors](FILES.html)
@@ -330,6 +334,10 @@ Description: Default part size for file upload
 ## `$settings['download']`
 
 Download settings
+
+### `$settings['download']['parallel_chunks']`
+Default: `20`  
+Description: Default number of chunks for parallel download
 
 ### `$settings['download']['part_size']`
 Default: `1024*1024`  

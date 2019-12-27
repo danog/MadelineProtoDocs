@@ -1,16 +1,17 @@
 ---
 title: Uploading and downloading files
-description: MadelineProto provides wrapper methods to upload and download files that support bot API file ids.
+description: MadelineProto provides **fully parallelized** wrapper methods to upload and download files that support bot API file ids, direct upload by URL and file renaming.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Uploading and downloading files
 
-MadelineProto provides wrapper methods to upload and download files that support bot API file ids.
+MadelineProto provides **fully parallelized** wrapper methods to upload and download files that support bot API file ids, direct upload by URL and file renaming.
 
 Maximum file size is of 1.5 GB.
 
  [Now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html)
 
+* [Bot API file IDs](#bot-api-file-ids)
 * [Uploading & sending files](#sending-files)
   * [Security notice](#security-notice)
   * [Photos](#inputmediauploadedphoto)
@@ -21,19 +22,23 @@ Maximum file size is of 1.5 GB.
     * [Videos](#documentattributevideo-to-send-a-video)
     * [Audio & Voice](#documentattributeaudio-to-send-an-audio-file)
 * [Uploading files](#uploading-files)
-* [Bot API file IDs](#bot-api-file-ids)
 * [Reusing uploaded files](#reusing-uploaded-files)
+* [Renaming files](#renaming-files)
 * [Downloading files](#downloading-files)
   * [Extracting download info](#extracting-download-info)
   * [Downloading profile pictures](#downloading-profile-pictures)
   * [Download to directory](#download-to-directory)
   * [Download to file](#download-to-file)
+  * [Download to stream](#download-to-stream)
+  * [Download to callback](#download-to-callback)
   * [Download to browser (streaming)](#download-to-browser-with-streams)
 * [Getting progress](#getting-progress)
 
 ## Sending files
 
-To send photos and documents to someone, use the [$MadelineProto->messages->sendMedia](https://docs.madelineproto.xyz/API_docs/methods/messages_sendMedia.html) method, click on the link for more info.
+To send photos and documents to someone, use the [$MadelineProto->messages->sendMedia](https://docs.madelineproto.xyz/API_docs/methods/messages.sendMedia.html) method, click on the link for more info.
+
+All files will be uploaded **asynchronously and in parallel**, 3000 chunks at a time for maximum performance (this value can be tweaked in the [settings](https://docs.madelineproto.xyz/docs/SETTINGS.html)).
 
 The required `message` parameter is the caption: it can contain URLs, mentions, bold and italic text, thanks to the `parse_mode` parameter, that enables markdown or HTML parsing.
 
@@ -60,7 +65,8 @@ $sentMessage = yield $MadelineProto->messages->sendMedia([
 ]);
 ```
 
-Can be used to upload photos: simply provide the photo's file path in the `file` field, and optionally provide a `ttl_seconds` field to set the self-destruction period of the photo, even for normal chats
+Can be used to upload photos: simply provide the photo's file path in the `file` field, and optionally provide a `ttl_seconds` field to set the self-destruction period of the photo, even for normal chats.
+You can also provide a URL to the `file` field.
 
 ### [inputMediaUploadedDocument](https://docs.madelineproto.xyz/API_docs/constructors/inputMediaUploadedDocument.html)
 ```php
@@ -79,6 +85,8 @@ $sentMessage = yield $MadelineProto->messages->sendMedia([
 ```
 
 Can be used to upload documents, videos, gifs, voice messages, round videos, round voice messages: simply provide the file's file path in the `file` field, and optionally provide a `ttl_seconds` field to set the self-destruction period of the photo, even for normal chats.  
+You can also provide a URL to the `file` field.  
+To rename files, provide an Update or another already-uploaded Telegram file object to the `file` field.
 You must also provide the file's mime type in the `mime_type` field, generate it using `mime_content_type($file_path);` (tip: try using an unexpected mime type to make official clients crash ;).  
 Use the `nosound_video` field if the video does not have sound (gifs).  
 To actually set the document type, provide one or more [DocumentAttribute](https://docs.madelineproto.xyz/API_docs/types/DocumentAttribute.html) objects to the `attributes` field:  
@@ -185,9 +193,13 @@ $MessageMedia = yield $MadelineProto->messages->uploadMedia([
 ]);
 ```
 
+The `file` can be a file name, a URL, or a file uploaded by someone else (can be used to rename files).
+
 You can also only upload a file, without actually sending it to anyone, storing only the file ID for later usage.
 
-The [$MadelineProto->messages->uploadMedia](https://docs.madelineproto.xyz/API_docs/methods/messages_uploadMedia.html) function is a reduced version of the [$MadelineProto->messages->sendMedia](https://docs.madelineproto.xyz/API_docs/methods/messages_sendMedia.html), that requires only a `media` parameter, with the media to upload.  
+All files will be uploaded **asynchronously and in parallel**, 3000 chunks at a time for maximum performance (this value can be tweaked in the [settings](https://docs.madelineproto.xyz/docs/SETTINGS.html)).
+
+The [$MadelineProto->messages->uploadMedia](https://docs.madelineproto.xyz/API_docs/methods/messages_uploadMedia.html) function is a reduced version of the [$MadelineProto->messages->sendMedia](https://docs.madelineproto.xyz/API_docs/methods/messages_sendMedia.html), that requires only a `media` parameter, with the media to upload (on normal users, the `peer` field should be populated with `@me` or another value).  
 
 The returned [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object can then be reused to resend the document using sendMedia.
 
@@ -202,64 +214,42 @@ $sentMessage = yield $MadelineProto->messages->sendMedia([
 
 `$MessageMedia` can also be a [Message](https://docs.madelineproto.xyz/API_docs/types/Message.html) (the media contained in the message will be sent), an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html) (the media contained in the message contained in the update will be sent).
 
-## Bot API file IDs
-
-`$MessageMedia` can even be a bot API file ID, generated by the bot API, or by MadelineProto:
-
-Actual MessageMedia objects can also be converted to bot API file IDs like this:
-
-```php
-$botAPI_file = yield $MadelineProto->MTProto_to_botAPI($MessageMedia);
-```
-
-`$botAPI_file` now contains a [bot API message](https://core.telegram.org/bots/api#message), to extract the file ID from it use the following code:
-
-```php
-foreach (['audio', 'document', 'photo', 'sticker', 'video', 'voice', 'video_note'] as $type) {
-    if (isset($botAPI_file[$type]) && is_array($botAPI_file[$type])) {
-        $method = $type;
-    }
-}
-$result['file_type'] = $method;
-if ($result['file_type'] == 'photo') {
-    $result['file_size'] = $botAPI_file[$method][0]['file_size'];
-    if (isset($botAPI_file[$method][0]['file_name'])) {
-        $result['file_name'] = $botAPI_file[$method][0]['file_name'];
-        $result['file_id'] = $botAPI_file[$method][0]['file_id'];
-    }
-} else {
-    if (isset($botAPI_file[$method]['file_name'])) {
-        $result['file_name'] = $botAPI_file[$method]['file_name'];
-    }
-    if (isset($botAPI_file[$method]['file_size'])) {
-        $result['file_size'] = $botAPI_file[$method]['file_size'];
-    }
-    if (isset($botAPI_file[$method]['mime_type'])) {
-        $result['mime_type'] = $botAPI_file[$method]['mime_type'];
-    }
-    $result['file_id'] = $botAPI_file[$method]['file_id'];
-}
-if (!isset($result['mime_type'])) {
-    $result['mime_type'] = 'application/octet-stream';
-}
-if (!isset($result['file_name'])) {
-    $result['file_name'] = $result['file_id'].($method === 'sticker' ? '.webp' : '');
-}
-```
-
-* `$result['file_id']` - Bot API file ID
-* `$result['mime_type']` - Mime type
-* `$result['file_type']` - File type: voice, video, video_note (round video), music, video, photo, sticker or document
-* `$result['file_size']` - File size
-* `$result['file_name']` - File name
-
 ## Reusing uploaded files
 
-`$MadelineProto->messages->uploadMedia` and bot API file IDs do not allow you to modify the type of the file to send: however, MadelineProto provides a method that can generate a file object that can be resent with multiple file types.
+`$MadelineProto->messages->uploadMedia` and bot API file IDs do not allow you to modify the type of the file to send: however, MadelineProto provides methods that can generate a file object that can be resent with multiple file types.
 
 ```php
 $inputFile = yield $MadelineProto->upload('filename.mp4');
 ```
+
+The file name can also be a URL.  
+More optional parameters are available, check the PHPDOC of the method in your IDE.  
+You can also upload a file from a stream (this is especially useful, for example, when downloading YouTube videos using `youtube-dl` with `ffmpeg` and [async AMPHP CLI streams](https://github.com/amphp/process)):  
+
+```php
+$inputFile = yield $MadelineProto->uploadFromStream($stream, $size, $mime);
+```
+
+`$stream` - PHP resource or [async AMPHP stream](https://github.com/amphp/byte-stream).  
+`$size`   - Size of file to upload  
+`$mime`   - MIME type of file to upload  
+
+More optional parameters are available, check the PHPDOC of the method in your IDE.  
+You can also upload files from a callable:
+
+```php
+$inputFile = yield $MadelineProto->uploadFromCallable($callable, $size, $mime);
+```
+
+`$callable`:  
+The callable must accept two parameters: `int $offset, int $size`  
+The callable must return a string with the contest of the file at the specified offset and size.  
+`$size`   - Size of file to upload  
+`$mime`   - MIME type of file to upload 
+
+More optional parameters are available, check the PHPDOC of the method in your IDE.  
+
+---
 
 The generated `$inputFile` can later be reused thusly:
 
@@ -294,6 +284,24 @@ In this case, we're reusing the same InputFile to send both a document and a vid
 
 The concept is easy: where you would usually provide a file path, simply provide `$inputFile`.
 
+## Renaming files
+
+Files can be renamed by simply providing the `$Update` with the file to the sendMedia method thusly:  
+
+```php
+$sentMessage = yield $MadelineProto->messages->sendMedia([
+    'peer' => '@danogentili',
+    'media' => [
+        '_' => 'inputMediaUploadedDocument',
+        'file' => $Update,
+        'attributes' => [
+            ['_' => 'documentAttributeFilename', 'file_name' => $newName]
+        ]
+    ],
+    'message' => '[This is the caption](https://t.me/MadelineProto)',
+    'parse_mode' => 'Markdown'
+]);
+```
 
 ## Downloading files
 
@@ -317,7 +325,7 @@ $info = yield $MadelineProto->getPropicInfo($Update);
 ```
 
 `$Update` can be a [Message](https://docs.madelineproto.xyz/API_docs/types/Message.html) object, an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html), or any value supported by [getInfo](https://docs.madelineproto.xyz/getInfo.html).  
-The result (which is in the same format as `get_download_info`) should the be passed to the download functions in order to download the profile picture.  
+The result (which is in the same format as `getDownloadInfo`) should the be passed to the download functions in order to download the profile picture.  
 
 * `$info['ext']` - The file extension
 * `$info['name']` - The file name, without the extension
@@ -339,6 +347,27 @@ $output_file_name = yield $MadelineProto->downloadToFile($MessageMedia, '/tmp/my
 ```
 
 This downloads the given file to `/tmp/myname.mp4`, and returns the full file path.
+
+`$MessageMedia`can be either a [Message](https://docs.madelineproto.xyz/API_docs/types/Message.html), an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html), a [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object, or a bot API file ID.
+
+### Download to stream
+```php
+yield $MadelineProto->downloadToStream($MessageMedia, $stream);
+```
+
+This downloads the given file to the given resource or [async AMPHP stream](https://github.com/amphp/byte-stream).
+
+`$MessageMedia`can be either a [Message](https://docs.madelineproto.xyz/API_docs/types/Message.html), an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html), a [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object, or a bot API file ID.
+
+### Download to callback
+```php
+yield $MadelineProto->downloadToCallable($MessageMedia, $callable);
+```
+
+This downloads the given file to the callable.
+The callable must accept two parameters: `string $payload, int $offset`
+The callable will be called (possibly out of order, depending on the value of the `$seekable` (see PHPDOC)).
+The callable should return the number of written bytes.  
 
 `$MessageMedia`can be either a [Message](https://docs.madelineproto.xyz/API_docs/types/Message.html), an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html), a [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object, or a bot API file ID.
 
@@ -446,5 +475,57 @@ $output_file_name = yield $MadelineProto->downloadToFile(
     new MyCallback('/tmp/myname.mp4', $peer, $MadelineProto)
 );
 ```
+
+
+## Bot API file IDs
+
+`$MessageMedia` can even be a bot API file ID, generated by the bot API, or by MadelineProto:
+
+Actual MessageMedia objects can also be converted to bot API file IDs like this:
+
+```php
+$botAPI_file = yield $MadelineProto->MTProto_to_botAPI($MessageMedia);
+```
+
+`$botAPI_file` now contains a [bot API message](https://core.telegram.org/bots/api#message), to extract the file ID from it use the following code:
+
+```php
+foreach (['audio', 'document', 'photo', 'sticker', 'video', 'voice', 'video_note'] as $type) {
+    if (isset($botAPI_file[$type]) && is_array($botAPI_file[$type])) {
+        $method = $type;
+    }
+}
+$result['file_type'] = $method;
+if ($result['file_type'] == 'photo') {
+    $result['file_size'] = $botAPI_file[$method][0]['file_size'];
+    if (isset($botAPI_file[$method][0]['file_name'])) {
+        $result['file_name'] = $botAPI_file[$method][0]['file_name'];
+        $result['file_id'] = $botAPI_file[$method][0]['file_id'];
+    }
+} else {
+    if (isset($botAPI_file[$method]['file_name'])) {
+        $result['file_name'] = $botAPI_file[$method]['file_name'];
+    }
+    if (isset($botAPI_file[$method]['file_size'])) {
+        $result['file_size'] = $botAPI_file[$method]['file_size'];
+    }
+    if (isset($botAPI_file[$method]['mime_type'])) {
+        $result['mime_type'] = $botAPI_file[$method]['mime_type'];
+    }
+    $result['file_id'] = $botAPI_file[$method]['file_id'];
+}
+if (!isset($result['mime_type'])) {
+    $result['mime_type'] = 'application/octet-stream';
+}
+if (!isset($result['file_name'])) {
+    $result['file_name'] = $result['file_id'].($method === 'sticker' ? '.webp' : '');
+}
+```
+
+* `$result['file_id']` - Bot API file ID
+* `$result['mime_type']` - Mime type
+* `$result['file_type']` - File type: voice, video, video_note (round video), music, video, photo, sticker or document
+* `$result['file_size']` - File size
+* `$result['file_name']` - File name
 
 <a href="https://docs.madelineproto.xyz/docs/CHAT_INFO.html">Next section</a>
