@@ -87,7 +87,7 @@ $sentMessage = yield $MadelineProto->messages->sendMedia([
 Can be used to upload documents, videos, gifs, voice messages, round videos, round voice messages: simply provide the file's file path in the `file` field, and optionally provide a `ttl_seconds` field to set the self-destruction period of the photo, even for normal chats.  
 You can also provide a URL to the `file` field.  
 To rename files, provide an Update or another already-uploaded Telegram file object to the `file` field.
-You must also provide the file's mime type in the `mime_type` field, generate it using `mime_content_type($file_path);` (tip: try using an unexpected mime type to make official clients crash ;).  
+You can also (optionally) provide the file's mime type in the `mime_type` field, generate it using `mime_content_type($file_path);` (tip: try using an unexpected mime type to make official clients crash ;).  
 Use the `nosound_video` field if the video does not have sound (gifs).  
 To actually set the document type, provide one or more [DocumentAttribute](https://docs.madelineproto.xyz/API_docs/types/DocumentAttribute.html) objects to the `attributes` field:  
 
