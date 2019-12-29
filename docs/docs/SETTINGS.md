@@ -324,7 +324,7 @@ Description: Default number of chunks for parallel upload
 
 ### `$settings['upload']['allow_automatic_upload']`
 Default: `true`  
-Description: If false, [disables automatic upload from file path in constructors](FILES.html)
+Description: If false, [disables automatic upload from file path in constructors](FILES.html) (automatic upload by URL/from remote file will still be allowed).
 
 ### `$settings['upload']['part_size']`
 Default: `512*1024`  
