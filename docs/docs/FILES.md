@@ -407,8 +407,10 @@ $sentMessage = yield $MadelineProto->messages->sendMedia([
         '_' => 'inputMediaUploadedDocument',
         'file' => new \danog\MadelineProto\FileCallback(
             'video.mp4',
-            function ($progress) use ($MadelineProto, $peer) {
-                yield $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => 'Upload progress: '.$progress.'%']);
+            function ($progress, $speed, $time) use ($MadelineProto, $peer) {
+                try {
+                    yield $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => "Upload progress: $progress%\nSpeed: $speed mbps\nTime elapsed since start: $time"]);
+                } catch (\Throwable $e) {}
             }
         ),
         'attributes' => [
@@ -423,14 +425,18 @@ $output_file_name = yield $MadelineProto->downloadToFile(
     $sentMessage,
     new \danog\MadelineProto\FileCallback(
         '/tmp/myname.mp4',
-        function ($progress) use ($MadelineProto, $peer) {
-            yield $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => 'Download progress: '.$progress.'%']);
+        function ($progress, $speed, $time) use ($MadelineProto, $peer) {
+            try {
+                yield $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => "Download progress: $progress%\nSpeed: $speed mbps\nTime elapsed since start: $time"]);
+            } catch (\Throwable $e) {}
         }
     )
 );
 ```
 
 This will send the file `video.mp4` to [@danogentili](https://t.me/danogentili): while uploading, he will receive progress messages `Upload progress: 24%` until the upload is complete; while downloading, he will receive progress messages `Download progress: 34%` until the download is complete.
+
+You can also add two more parameters `$speed, $time` to the signature of the method to get a partial upload speed in mbps, along with the time elapsed since the start of the download.
 
 A FileCallback object can be provided to `uploadMedia`, `sendMedia`, `uploadProfilePicture`, `upload`, `upload_encrypted`, `download_to_*`: the first parameter to its constructor must be the file path/object that is usually accepted by the function, the second must be a callable function or object.
 
