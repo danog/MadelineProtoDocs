@@ -77,7 +77,7 @@ class EventHandler extends \danog\MadelineProto\EventHandler
         try {
             yield $this->messages->sendMessage(['peer' => $update, 'message' => $res, 'reply_to_msg_id' => $update['message']['id']]);
         } catch (\danog\MadelineProto\RPCErrorException $e) {
-            yield $this->messages->sendMessage(['peer' => '@danogentili', 'message' => $e]);
+            yield $this->messages->sendMessage(['peer' => '@danogentili', 'message' => (string) $e]);
         }
 
         try {
@@ -87,7 +87,7 @@ class EventHandler extends \danog\MadelineProto\EventHandler
                 yield $this->messages->sendMessage(['peer' => $update, 'message' => 'Downloaded to '.$file.' in '.(microtime(true) - $time).' seconds', 'reply_to_msg_id' => $update['message']['id']]);
             }
         } catch (\danog\MadelineProto\RPCErrorException $e) {
-            yield $this->messages->sendMessage(['peer' => '@danogentili', 'message' => $e]);
+            yield $this->messages->sendMessage(['peer' => '@danogentili', 'message' => (string) $e]);
         }
     }
 }
@@ -159,7 +159,7 @@ class EventHandler extends \danog\MadelineProto\CombinedEventHandler
         try {
             yield $this->{$session}->messages->sendMessage(['peer' => $update, 'message' => $res, 'reply_to_msg_id' => $update['message']['id']]);
         } catch (\danog\MadelineProto\RPCErrorException $e) {
-            yield $this->{$session}->messages->sendMessage(['peer' => '@danogentili', 'message' => $e]);
+            yield $this->{$session}->messages->sendMessage(['peer' => '@danogentili', 'message' => (string) $e]);
         }
 
         try {
@@ -169,7 +169,7 @@ class EventHandler extends \danog\MadelineProto\CombinedEventHandler
                 yield $this->{$session}->messages->sendMessage(['peer' => $update, 'message' => 'Downloaded to '.$file.' in '.(microtime(true) - $time).' seconds', 'reply_to_msg_id' => $update['message']['id']]);
             }
         } catch (\danog\MadelineProto\RPCErrorException $e) {
-            yield $this->{$session}->messages->sendMessage(['peer' => '@danogentili', 'message' => $e]);
+            yield $this->{$session}->messages->sendMessage(['peer' => '@danogentili', 'message' => (string) $e]);
         }
     }
 }
@@ -246,7 +246,7 @@ $MadelineProto->setCallback(function ($update) use ($MadelineProto) {
     try {
         yield $MadelineProto->messages->sendMessage(['peer' => $update, 'message' => $res, 'reply_to_msg_id' => $update['message']['id']]);
     } catch (\danog\MadelineProto\RPCErrorException $e) {
-        yield $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => $e]);
+        yield $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => (string) $e]);
     }
 });
 $MadelineProto->async(true);
