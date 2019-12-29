@@ -457,7 +457,7 @@ class MyCallback implements \danog\MadelineProto\FileCallbackInterface
     {
         return $this->file;
     }
-    public function __invoke($progress)
+    public function __invoke($progress, $speed, $time)
     {
         yield $this->MadelineProto->messages->sendMessage(['peer' => $this->peer, 'message' => 'Progress: '.$progress.'%']);
     }
