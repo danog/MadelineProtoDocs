@@ -9,7 +9,8 @@ MadelineProto provides **fully parallelized** wrapper methods to upload and down
 
 Maximum file size is of 1.5 GB.
 
- [Now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html)
+Example bot: [`downloadRenameBot.php`](https://github.com/danog/MadelineProto/blob/master/examples/downloadRenameBot.php) - download files by URL and rename Telegram files using this async parallelized bot!
+
 
 * [Bot API file IDs](#bot-api-file-ids)
 * [Uploading & sending files](#sending-files)
@@ -38,7 +39,7 @@ Maximum file size is of 1.5 GB.
 
 To send photos and documents to someone, use the [$MadelineProto->messages->sendMedia](https://docs.madelineproto.xyz/API_docs/methods/messages.sendMedia.html) method, click on the link for more info.
 
-All files will be uploaded **asynchronously and in parallel**, 3000 chunks at a time for maximum performance (this value can be tweaked in the [settings](https://docs.madelineproto.xyz/docs/SETTINGS.html)).
+All files will be uploaded **asynchronously and in parallel**, 20 chunks at a time for maximum performance (this value can be tweaked in the [settings](https://docs.madelineproto.xyz/docs/SETTINGS.html)).
 
 The required `message` parameter is the caption: it can contain URLs, mentions, bold and italic text, thanks to the `parse_mode` parameter, that enables markdown or HTML parsing.
 
@@ -197,7 +198,7 @@ The `file` can be a file name, a URL, or a file uploaded by someone else (can be
 
 You can also only upload a file, without actually sending it to anyone, storing only the file ID for later usage.
 
-All files will be uploaded **asynchronously and in parallel**, 3000 chunks at a time for maximum performance (this value can be tweaked in the [settings](https://docs.madelineproto.xyz/docs/SETTINGS.html)).
+All files will be uploaded **asynchronously and in parallel**, 20 chunks at a time for maximum performance (this value can be tweaked in the [settings](https://docs.madelineproto.xyz/docs/SETTINGS.html)).
 
 The [$MadelineProto->messages->uploadMedia](https://docs.madelineproto.xyz/API_docs/methods/messages_uploadMedia.html) function is a reduced version of the [$MadelineProto->messages->sendMedia](https://docs.madelineproto.xyz/API_docs/methods/messages_sendMedia.html), that requires only a `media` parameter, with the media to upload (on normal users, the `peer` field should be populated with `@me` or another value).  
 

@@ -91,8 +91,8 @@ While writing this client, I looked at many projects for inspiration and help. H
 
 [Webogram](https://github.com/zhukov/webogram)
 
-[Telethon](https://github.com/LonamiWebs/Telethon/)
+Thanks to the devs that contributed to these projects, and to MadelineProto itself, MadelineProto is now an easy, well-written and complete MTProto client.  
 
-Thanks to the devs that contributed to these projects, MadelineProto is now an easy, well-written and complete MTProto client.  
+Thank you for using MadelineProto <3
 
 <a href="https://docs.madelineproto.xyz/docs/TEMPLATES.html">Next section</a>
