@@ -355,7 +355,7 @@ This downloads the given file to `/tmp/myname.mp4`, and returns the full file pa
 yield $MadelineProto->downloadToStream($MessageMedia, $stream);
 ```
 
-This downloads the given file to the given resource or [async AMPHP stream](https://github.com/amphp/byte-stream).
+This downloads the given file to the given resource or [async AMPHP stream](https://github.com/amphp/byte-stream), the latter is especially useful for building an async HTTP file server with [http-server](https://github.com/amphp/http-server).
 
 `$MessageMedia`can be either a [Message](https://docs.madelineproto.xyz/API_docs/types/Message.html), an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html), a [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object, or a bot API file ID.
 
