@@ -343,10 +343,6 @@ Description: Default number of chunks for parallel download
 Default: `1024*1024`  
 Description: Default part size for file download
 
-### `$settings['download']['report_broken_media']`
-Default: `true`  
-Description: Whether or not to automatically report undownloadable media to support
-
 <hr>
 ## `$settings['msg_array_limit']`
 
