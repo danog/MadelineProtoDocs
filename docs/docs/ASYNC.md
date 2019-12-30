@@ -621,4 +621,4 @@ The return value of the callable can be:
 
 If the callable does not return anything, the loop will behave is if `GenericLoop::PAUSE` was returned.  
 
-<a href="https://docs.madelineproto.xyz/docs/CREATING_A_CLIENT.html">Next section</a>
+<a href="https://docs.madelineproto.xyz/docs/USING_METHODS.html">Next section</a>

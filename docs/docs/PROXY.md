@@ -177,4 +177,4 @@ In order to build your proxy, you have to use the new MadelineProto stream API t
 Feel free to study [existing proxies](https://github.com/danog/MadelineProto/tree/master/src/danog/MadelineProto/Stream/Proxy) and the [stream API](https://github.com/danog/MadelineProto/tree/master/src/danog/MadelineProto/Stream): it's well structured and well documented, so feel free to read the code.  
 Don't forget to add support for [TLS connections](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Stream/Proxy/SocksProxy.php#L141) as well!  
 
-<a href="https://docs.madelineproto.xyz/docs/USING_METHODS.html">Next section</a>
+<a href="https://docs.madelineproto.xyz/docs/ASYNC.html">Next section</a>
