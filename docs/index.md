@@ -61,6 +61,16 @@ $MadelineProto->loop(function () use ($MadelineProto) {
 
 Tip: if you receive an error (or nothing), [send us](https://t.me/pwrtelegramgroup) the error message and the `MadelineProto.log` file that was created in the same directory (if running from a browser).  
 
+
+## Example bots
+
+You can find examples for nearly every MadelineProto function in
+* [magnaluna webradio](https://magna.madelineproto.xyz) - Multifeatured Telegram VoIP webradio
+* [`downloadRenameBot.php`](https://github.com/danog/MadelineProto/blob/master/examples/downloadRenameBot.php) - download files by URL and rename Telegram files using this async parallelized bot!
+* [`bot.php`](https://github.com/danog/MadelineProto/blob/master/examples/bot.php) - examples for sending normal messages, downloading any media
+* [`secret_bot.php`](https://github.com/danog/MadelineProto/blob/master/examples/secret_bot.php) - secret chat bot
+* [`pipesbot.php`](https://github.com/danog/MadelineProto/blob/master/examples/pipesbot.php) - examples for creating inline bots and using other inline bots via a userbot
+
 ## Documentation
 
 * [Creating a client](https://docs.madelineproto.xyz/docs/CREATING_A_CLIENT.html)
@@ -517,14 +527,3 @@ Tip: if you receive an error (or nothing), [send us](https://t.me/pwrtelegramgro
   * [Contribution guide](https://docs.madelineproto.xyz/docs/CONTRIB.html#contribution-guide)
   * [Credits](https://docs.madelineproto.xyz/docs/CONTRIB.html#credits)
 * [Web templates for `$MadelineProto->start()`](https://docs.madelineproto.xyz/docs/TEMPLATES.html)
-
-## Very complex and complete examples
-
-You can find examples for nearly every MadelineProto function in
-* [magnaluna webradio](https://magna.madelineproto.xyz) - Multifeatured Telegram VoIP webradio
-* [`downloadRenameBot.php`](https://github.com/danog/MadelineProto/blob/master/examples/downloadRenameBot.php) - download files by URL and rename Telegram files using this async parallelized bot!
-* [`bot.php`](https://github.com/danog/MadelineProto/blob/master/examples/bot.php) - examples for sending normal messages, downloading any media
-* [`secret_bot.php`](https://github.com/danog/MadelineProto/blob/master/examples/secret_bot.php) - secret chat bot
-* [`pipesbot.php`](https://github.com/danog/MadelineProto/blob/master/examples/pipesbot.php) - examples for creating inline bots and using other inline bots via a userbot
-
-
