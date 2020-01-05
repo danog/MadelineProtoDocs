@@ -18,7 +18,7 @@ By assigning a callable to an attribute, you're actually assigning a new functio
 
 Passing lua callables to a parameter of a PHP callable will throw an exception due to a bug in the PHP lua extension that I gotta fix (so passing the usual cb and cb_extra parameters to the td-cli wrappers isn't yet possible).
 
-All MadelineProto wrapper methods (for example upload, download, upload_encrypted, get_self, and others) are imported in the Lua environment, as well as all MTProto wrappers (see the API docs for more info).  
+All MadelineProto wrapper methods (for example upload, download, upload_encrypted, getSelf, and others) are imported in the Lua environment, as well as all MTProto wrappers (see the API docs for more info).  
 
 td-cli wrappers are also present: you can use the tdcli_function in lua and pass mtproto updates to the tdcli_update_callback via PHP, they will be automatically converted to/from td objects. Please note that the object conversion is not complete, feel free to contribute to the conversion module in [`src/danog/MadelineProto/Conversion/TD.php`](https://github.com/danog/MadelineProto/raw/master/src/danog/MadelineProto/TL/Conversion/TD.php).
 

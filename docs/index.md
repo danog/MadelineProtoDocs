@@ -135,13 +135,13 @@ You can find examples for nearly every MadelineProto function in
     * [Download to browser (streaming)](https://docs.madelineproto.xyz/docs/FILES.html#download-to-browser-with-streams)
   * [Getting progress](https://docs.madelineproto.xyz/docs/FILES.html#getting-progress)
 * [Getting info about chats](https://docs.madelineproto.xyz/docs/CHAT_INFO.html)
-  * [Full chat info with full list of participants](https://docs.madelineproto.xyz/docs/CHAT_INFO.html#get_pwr_chat-now-fully-async)
-  * [Full chat info](https://docs.madelineproto.xyz/docs/CHAT_INFO.html#get_full_info-now-fully-async)
-  * [Reduced chat info (very fast)](https://docs.madelineproto.xyz/docs/CHAT_INFO.html#get_info-now-fully-async)
+  * [Full chat info with full list of participants](https://docs.madelineproto.xyz/docs/CHAT_INFO.html#getPwrChat-now-fully-async)
+  * [Full chat info](https://docs.madelineproto.xyz/docs/CHAT_INFO.html#getFullInfo-now-fully-async)
+  * [Reduced chat info (very fast)](https://docs.madelineproto.xyz/docs/CHAT_INFO.html#getInfo-now-fully-async)
   * [Just the chat ID (extremely fast)](https://docs.madelineproto.xyz/docs/CHAT_INFO.html#get_id-now-fully-async)
 * [Getting all chats (dialogs)](https://docs.madelineproto.xyz/docs/DIALOGS.html)
-  * [Dialog list](https://docs.madelineproto.xyz/docs/DIALOGS.html#get_dialogs-now-fully-async)
-  * [Full dialog info](https://docs.madelineproto.xyz/docs/DIALOGS.html#get_full_dialogs-now-fully-async)
+  * [Dialog list](https://docs.madelineproto.xyz/docs/DIALOGS.html#getDialogs-now-fully-async)
+  * [Full dialog info](https://docs.madelineproto.xyz/docs/DIALOGS.html#getFullDialogs-now-fully-async)
 * [Inline buttons ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))](https://docs.madelineproto.xyz/docs/INLINE_BUTTONS.html)
 * [Secret chats](https://docs.madelineproto.xyz/docs/SECRET_CHATS.html)
   * [Requesting secret chats](https://docs.madelineproto.xyz/docs/SECRET_CHATS.html#requesting-secret-chats-now-fully-async)
@@ -496,7 +496,7 @@ You can find examples for nearly every MadelineProto function in
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/auth.importBotAuthorization.html" name="auth.importBotAuthorization">You cannot use this method directly, use the botLogin method instead (see https://docs.madelineproto.xyz for more info): auth.importBotAuthorization</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/auth.signIn.html" name="auth.signIn">You cannot use this method directly, use the completePhoneLogin method instead (see https://docs.madelineproto.xyz for more info): auth.signIn</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/auth.signUp.html" name="auth.signUp">You cannot use this method directly, use the completeSignup method instead (see https://docs.madelineproto.xyz for more info): auth.signUp</a>
-    * <a href="https://docs.madelineproto.xyz/API_docs/methods/auth.checkPassword.html" name="auth.checkPassword">You cannot use this method directly, use the complete_2fa_login method instead (see https://docs.madelineproto.xyz for more info): auth.checkPassword</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/auth.checkPassword.html" name="auth.checkPassword">You cannot use this method directly, use the complete2falogin method instead (see https://docs.madelineproto.xyz for more info): auth.checkPassword</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.getFullChannel.html" name="channels.getFullChannel">You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info): channels.getFullChannel</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getFullChat.html" name="messages.getFullChat">You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info): messages.getFullChat</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/users.getFullUser.html" name="users.getFullUser">You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info): users.getFullUser</a>
@@ -511,8 +511,8 @@ You can find examples for nearly every MadelineProto function in
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/upload.saveBigFilePart.html" name="upload.saveBigFilePart">You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info: upload.saveBigFilePart</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/upload.saveFilePart.html" name="upload.saveFilePart">You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info: upload.saveFilePart</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.receivedQueue.html" name="messages.receivedQueue">You cannot use this method directly: messages.receivedQueue</a>
-    * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.getPasswordSettings.html" name="account.getPasswordSettings">You cannot use this method directly; use $MadelineProto->update_2fa($params), instead (see https://docs.madelineproto.xyz for more info): account.getPasswordSettings</a>
-    * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.updatePasswordSettings.html" name="account.updatePasswordSettings">You cannot use this method directly; use $MadelineProto->update_2fa($params), instead (see https://docs.madelineproto.xyz for more info): account.updatePasswordSettings</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.getPasswordSettings.html" name="account.getPasswordSettings">You cannot use this method directly; use $MadelineProto->update2fa($params), instead (see https://docs.madelineproto.xyz for more info): account.getPasswordSettings</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.updatePasswordSettings.html" name="account.updatePasswordSettings">You cannot use this method directly; use $MadelineProto->update2fa($params), instead (see https://docs.madelineproto.xyz for more info): account.updatePasswordSettings</a>
   * [Peers](https://docs.madelineproto.xyz/docs/USING_METHODS.html#peers)
   * [Files](https://docs.madelineproto.xyz/docs/FILES.html)
   * [Secret chats](https://docs.madelineproto.xyz/docs/USING_METHODS.html#secret-chats)

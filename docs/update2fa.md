@@ -1,8 +1,9 @@
 ---
-title: update_2fa
+title: update2fa
 description: Update 2FA password
+redirect_from: /update_2fa.html
 ---
-## Method: update_2fa  
+## Method: update2fa  
 
 The params array can contain password (current password), new_password, email (optional) and hint params.
 
@@ -19,7 +20,7 @@ The params array can contain password (current password), new_password, email (o
 
 ```php
 try {
-    $MadelineProto->update_2fa(['password' => 'current password', 'new_password' => 'New password', 'email' => 'daniil@daniil.it', 'hint' => 'ponies']);
+    $MadelineProto->update2fa(['password' => 'current password', 'new_password' => 'New password', 'email' => 'daniil@daniil.it', 'hint' => 'ponies']);
 } catch (RPCErrorException $e) {
     if (strpos($e->rpc, 'EMAIL_UNCONFIRMED_') !== false) {
         $Bool = yield $MadelineProto->account->confirmPasswordEmail(['code' => yield $MadelineProto->readline('Enter your email code: ')]);

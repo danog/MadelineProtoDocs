@@ -1,6 +1,7 @@
 ---
-title: complete_phone_login
-description: complete_phone_login parameters, return type and example
+title: completePhoneLogin
+description: completePhoneLogin parameters, return type and example
+redirect_from: /complete_phone_login.html
 ---
 ## Method: complete\_phone\_login  
 
@@ -13,7 +14,7 @@ description: complete_phone_login parameters, return type and example
 
 ### Return type: [auth.Authorization](API_docs/types/auth_Authorization.md) or [account.Password](http://docs.madelineproto.xyz/API_docs/types/account_Password.html) or `['_' => 'account.needSignup']`
 
-You must then use [complete_2FA_login](complete_2FA_login.md) or [completeSignup](completeSignup.md) to login or signup, or simply start using `$MadelineProto` if the result is a `auth.Authorization` object.
+You must then use [complete2falogin](complete2FALogin.md) or [completeSignup](completeSignup.md) to login or signup, or simply start using `$MadelineProto` if the result is a `auth.Authorization` object.
 
 ### Example ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 
@@ -25,7 +26,7 @@ if ($authorization['_'] === 'account.noPassword') {
     throw new \danog\MadelineProto\Exception('2FA is enabled but no password is set!');
 }
 if ($authorization['_'] === 'account.password') {
-    $authorization = yield $MadelineProto->complete_2fa_login(readline('Please enter your password (hint '.$authorization['hint'].'): '));
+    $authorization = yield $MadelineProto->complete2falogin(readline('Please enter your password (hint '.$authorization['hint'].'): '));
 }
 if ($authorization['_'] === 'account.needSignup') {
     $authorization = yield $MadelineProto->completeSignup(readline('Please enter your first name: '), readline('Please enter your last name (can be empty): '));

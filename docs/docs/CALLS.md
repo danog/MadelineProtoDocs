@@ -90,7 +90,7 @@ If you manually set the network type to `NET_TYPE_GPRS`, `NET_TYPE_EDGE`, or ena
 
 ## Putting it all together
 
-Requesting calls is easy, just run the `request_call` method.
+Requesting calls is easy, just run the `requestCall` method.
 
 ```php
 $controller = $MadelineProto->requestCall('@danogentili')->play('input.raw')->then('inputb.raw')->playOnHold(['hold.raw'])->setOutputFile('output.raw');

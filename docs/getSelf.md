@@ -1,8 +1,9 @@
 ---
-title: get_self
-description: get_self parameters, return type and example
+title: getSelf
+description: getSelf parameters, return type and example
+redirect_from: /get_self.html
 ---
-## Method: get_self  
+## Method: getSelf  
 
 Gets info about the currently logged-in user.
 

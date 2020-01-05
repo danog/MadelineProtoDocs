@@ -1,8 +1,9 @@
 ---
-title: request_secret_chat
-description: request_secret_chat parameters, return type and example
+title: requestSecretChat
+description: requestSecretChat parameters, return type and example
+redirect_from: /request_secret_chat.html
 ---
-## Method: request_secret_chat  
+## Method: requestSecretChat  
 
 
 ### Parameters:

@@ -7,10 +7,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 There are two ways to get a list of all chats, depending if you logged in as a user, or as a bot.
 
-* [Dialog list](#get_dialogs-now-fully-async)
-* [Full dialog info](#get_full_dialogs-now-fully-async)
+* [Dialog list](#getDialogs-now-fully-async)
+* [Full dialog info](#getFullDialogs-now-fully-async)
 
-## get_dialogs ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
+## getDialogs ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 ```php
 $dialogs = yield $MadelineProto->getDialogs();
 foreach ($dialogs as $peer) {
@@ -18,9 +18,9 @@ foreach ($dialogs as $peer) {
 }
 ```
 
-`get_dialogs` will return a full list of all chats you're member of, see [here for the parameters and the result](https://docs.madelineproto.xyz/getDialogs.html)
+`getDialogs` will return a full list of all chats you're member of, see [here for the parameters and the result](https://docs.madelineproto.xyz/getDialogs.html)
 
-## get_full_dialogs ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
+## getFullDialogs ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 ```php
 $dialogs = yield $MadelineProto->getFullDialogs();
 foreach ($dialogs as $dialog) {
@@ -28,6 +28,6 @@ foreach ($dialogs as $dialog) {
 }
 ```
 
-`get_full_dialogs` will return a full list of all chats you're member of, including dialog info (such as the pinned/last message ID, unread count, tag count, notification settings and message drafts) see [here for the parameters and the result](https://docs.madelineproto.xyz/getFullDialogs.html)
+`getFullDialogs` will return a full list of all chats you're member of, including dialog info (such as the pinned/last message ID, unread count, tag count, notification settings and message drafts) see [here for the parameters and the result](https://docs.madelineproto.xyz/getFullDialogs.html)
 
 <a href="https://docs.madelineproto.xyz/docs/INLINE_BUTTONS.html">Next section</a>

@@ -1,8 +1,9 @@
 ---
-title: get_info
-description: get_info parameters, return type and example
+title: getInfo
+description: getInfo parameters, return type and example
+redirect_from: /get_info.html
 ---
-## Method: get_info  
+## Method: getInfo  
 
 
 ### Parameters:

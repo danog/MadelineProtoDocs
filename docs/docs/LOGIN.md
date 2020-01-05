@@ -92,19 +92,19 @@ After you provide an API ID, you can then login (if you're using the [automatic 
 yield $MadelineProto->phoneLogin(yield $MadelineProto->readline('Enter your phone number: '));
 $authorization = yield $MadelineProto->completePhoneLogin(yield $MadelineProto->readline('Enter the phone code: '));
 if ($authorization['_'] === 'account.password') {
-    $authorization = yield $MadelineProto->complete_2fa_login(yield $MadelineProto->readline('Please enter your password (hint '.$authorization['hint'].'): '));
+    $authorization = yield $MadelineProto->complete2falogin(yield $MadelineProto->readline('Please enter your password (hint '.$authorization['hint'].'): '));
 }
 if ($authorization['_'] === 'account.needSignup') {
     $authorization = yield $MadelineProto->completeSignup(yield $MadelineProto->readline('Please enter your first name: '), readline('Please enter your last name (can be empty): '));
 }
 ```
 
-First, you must call `phone_login` to send the verification code, see [here for the parameters and the result](https://docs.madelineproto.xyz/phoneLogin.html).  
-Then, use `complete_phone_login` to complete the login, see [here for the parameters and the result](https://docs.madelineproto.xyz/completePhoneLogin.html).  
+First, you must call `phoneLogin` to send the verification code, see [here for the parameters and the result](https://docs.madelineproto.xyz/phoneLogin.html).  
+Then, use `completePhoneLogin` to complete the login, see [here for the parameters and the result](https://docs.madelineproto.xyz/completePhoneLogin.html).  
 
-Use `complete_2FA_login` to complete the login to an account with 2FA enabled, see [here for the parameters and the result](https://docs.madelineproto.xyz/complete_2FA_login.html).    
+Use `complete2falogin` to complete the login to an account with 2FA enabled, see [here for the parameters and the result](https://docs.madelineproto.xyz/complete2falogin.html).    
 
-If the account does not have an account, use `complete_signup` to signup, see [here for the parameters and the result](https://docs.madelineproto.xyz/completeSignup.html).  
+If the account does not have an account, use `completeSignup` to signup, see [here for the parameters and the result](https://docs.madelineproto.xyz/completeSignup.html).  
 
 
 ## Manual (bot)
@@ -113,7 +113,7 @@ If the account does not have an account, use `complete_signup` to signup, see [h
 yield $MadelineProto->botLogin('34298141894:aflknsaflknLKNFS');
 ```
 
-Use `bot_login` to login as a bot, see [here for the parameters and the result](https://docs.madelineproto.xyz/botLogin.html).  
+Use `botLogin` to login as a bot, see [here for the parameters and the result](https://docs.madelineproto.xyz/botLogin.html).  
 
 Note that when you login as a bot, MadelineProto also logins using the [PWRTelegram](https://pwrtelegram.xyz) API, to allow persistant storage of peers, even after a logout and another login.  
 
@@ -129,9 +129,9 @@ If you want to logout, you can use the logout function, see [here for the parame
 ## Changing 2FA password
 
 ```php
-$result = yield $MadelineProto->update_2fa(['password' => 'current password', 'new_password' => 'New password', 'email' => 'daniil@daniil.it', 'hint' => 'ponies']);
+$result = yield $MadelineProto->update2fa(['password' => 'current password', 'new_password' => 'New password', 'email' => 'daniil@daniil.it', 'hint' => 'ponies']);
 ```
 
-If you want to logout, you can use the update_2fa function, see [here for the parameters and the result](https://docs.madelineproto.xyz/update_2fa.html).  
+If you want to logout, you can use the update2fa function, see [here for the parameters and the result](https://docs.madelineproto.xyz/update2fa.html).  
 
 <a href="https://docs.madelineproto.xyz/docs/FEATURES.html">Next section</a>

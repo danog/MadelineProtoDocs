@@ -1,8 +1,9 @@
 ---
-title: get_full_info
-description: get_full_info parameters, return type and example
+title: getFullInfo
+description: getFullInfo parameters, return type and example
+redirect_from: /get_full_info.html
 ---
-## Method: get_full_info  
+## Method: getFullInfo  
 
 
 ### Parameters:

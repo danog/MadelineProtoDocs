@@ -18,7 +18,7 @@ MadelineProto provides wrappers to work with secret chats.
 $secret_chat = yield $MadelineProto->requestSecretChat($InputUser);
 ```
 
-[`request_secret_chat`](https://docs.madelineproto.xyz/requestSecretChat.html) requests a secret secret chat to the [InputUser](https://docs.madelineproto.xyz/API_docs/types/InputUser.html), ID, or username specified, and returns the secret chat ID.
+[`requestSecretChat`](https://docs.madelineproto.xyz/requestSecretChat.html) requests a secret secret chat to the [InputUser](https://docs.madelineproto.xyz/API_docs/types/InputUser.html), ID, or username specified, and returns the secret chat ID.
 
 
 ## Accepting secret chats ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))

@@ -7,12 +7,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 There are various methods that can be used to fetch info about chats, based on bot API id, tg-cli ID, Peer, User, Chat objects.
 
-* [Full chat info with full list of participants](#get_pwr_chat-now-fully-async)
-* [Full chat info](#get_full_info-now-fully-async)
-* [Reduced chat info (very fast)](#get_info-now-fully-async)
+* [Full chat info with full list of participants](#getPwrChat-now-fully-async)
+* [Full chat info](#getFullInfo-now-fully-async)
+* [Reduced chat info (very fast)](#getInfo-now-fully-async)
 * [Just the chat ID (extremely fast)](#get_id-now-fully-async)
 
-## get_pwr_chat ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
+## getPwrChat ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 ```php
 $pwr_chat = yield $MadelineProto->getPwrChat(-100214891824);
 foreach ($pwr_chat['participants'] as $participant) {
@@ -20,29 +20,29 @@ foreach ($pwr_chat['participants'] as $participant) {
 }
 ```
 
-Use `get_pwr_chat` to get full chat info, including the full list of members, see [here for the parameters and the result](https://docs.madelineproto.xyz/getPwrChat.html).  
+Use `getPwrChat` to get full chat info, including the full list of members, see [here for the parameters and the result](https://docs.madelineproto.xyz/getPwrChat.html).  
 
 * Completeness: full
 * Speed: medium
 * Caching: medium
 
-## get_full_info ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
+## getFullInfo ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 ```php
 $full_chat = yield $MadelineProto->getFullInfo(-10028941842);
 ```
 
-You can also use `get_full_info` to get full chat info, without the full list of members, see [here for the parameters and the result](https://docs.madelineproto.xyz/getFullInfo.html).  
+You can also use `getFullInfo` to get full chat info, without the full list of members, see [here for the parameters and the result](https://docs.madelineproto.xyz/getFullInfo.html).  
 
 * Completeness: medium
 * Speed: medium-fast
 * Caching: full
 
-## get_info ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
+## getInfo ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 ```php
 $chat = yield $MadelineProto->getInfo(-10028941842);
 ```
 
-You can also use `get_info` to get chat info, see [here for the parameters and the result](https://docs.madelineproto.xyz/getInfo.html)
+You can also use `getInfo` to get chat info, see [here for the parameters and the result](https://docs.madelineproto.xyz/getInfo.html)
 
 * Completeness: small
 * Speed: very fast

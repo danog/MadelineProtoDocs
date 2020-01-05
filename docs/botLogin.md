@@ -1,8 +1,9 @@
 ---
-title: bot_login
-description: bot_login parameters, return type and example
+title: botLogin
+description: botLogin parameters, return type and example
+redirect_from: /bot_login.html
 ---
-## Method: bot_login  
+## Method: botLogin  
 
 
 ### Parameters:

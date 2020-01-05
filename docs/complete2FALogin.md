@@ -1,8 +1,9 @@
 ---
-title: complete_2FA_login
-description: complete_2FA_login parameters, return type and example
+title: complete2falogin
+description: complete2falogin parameters, return type and example
+redirect_from: /complete_2fa_login.html
 ---
-## Method: complete_2FA_login  
+## Method: complete2falogin  
 
 
 ### Parameters:
@@ -23,7 +24,7 @@ if ($authorization['_'] === 'account.noPassword') {
     throw new \danog\MadelineProto\Exception('2FA is enabled but no password is set!');
 }
 if ($authorization['_'] === 'account.password') {
-    $authorization = yield $MadelineProto->complete_2fa_login(readline('Please enter your password (hint '.$authorization['hint'].'): '));
+    $authorization = yield $MadelineProto->complete2falogin(readline('Please enter your password (hint '.$authorization['hint'].'): '));
 }
 if ($authorization['_'] === 'account.needSignup') {
     $authorization = yield $MadelineProto->completeSignup(readline('Please enter your first name: '), readline('Please enter your last name (can be empty): '));

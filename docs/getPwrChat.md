@@ -1,8 +1,9 @@
 ---
-title: get_pwr_chat
-description: get_pwr_chat parameters, return type and example
+title: getPwrChat
+description: getPwrChat parameters, return type and example
+redirect_from: /get_pwr_chat.html
 ---
-## Method: get_pwr_chat  
+## Method: getPwrChat  
 
 
 ### Parameters:

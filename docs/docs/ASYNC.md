@@ -94,7 +94,7 @@ $result = $sm('@danogentili', 'hi');
 ```
 
 This **will not work**, because the result of a function that uses `yield` is not the `return`ed value, but a [generator](https://www.php.net/manual/en/language.generators.overview.php), which is what the async AMPHP API is based on.  
-If the generator is not __passed to the AMPHP event loop__, execution of the function will not be resumed: when MadelineProto asynchronously obtains the result of the get_info, execution of the function is never resumed, and the line with sendMessage is never called.  
+If the generator is not __passed to the AMPHP event loop__, execution of the function will not be resumed: when MadelineProto asynchronously obtains the result of the getInfo, execution of the function is never resumed, and the line with sendMessage is never called.  
 To avoid this problem, only call asynchronous functions in the event/callback update handler, or in functions called by the event/callback update handler, or inside a function passed to loop.  
 You can also call asynchronous functions created by you, within other asynchronous functions.  
 Generators in MadelineProto are equivalent to promises, which is a paradigm you may have used in other languages.

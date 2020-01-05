@@ -1,8 +1,9 @@
 ---
-title: get_dialogs
-description: get_dialogs parameters, return type and example
+title: getDialogs
+description: getDialogs parameters, return type and example
+redirect_from: /get_dialogs.html
 ---
-## Method: get_dialogs  
+## Method: getDialogs  
 
 Gets full list of dialogs
 

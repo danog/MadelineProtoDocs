@@ -14,7 +14,7 @@ try {
     if ($e->rpc === 'BOT_METHOD_INVALID') {
         \danog\MadelineProto\Logger::log("Bots can't execute this method!");
     } else {
-        $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => 'An error occurred while calling get_dialogs: '.$e]);
+        $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => 'An error occurred while calling getDialogs: '.$e]);
     }
 }
 ```
