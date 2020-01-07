@@ -393,7 +393,7 @@ This downloads the given file to the browser, sending also information about the
 
 `$offset` is an optional parameter that specifies the byte from which to start downloading 
 
-`$limit` is an optional parameter that specifies the byte where to stop downloading (non-inclusive)
+`$endoffset` is an optional parameter that specifies the byte where to stop downloading (non-inclusive)
 
 
 ## Getting progress
