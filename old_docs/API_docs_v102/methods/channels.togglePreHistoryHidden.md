@@ -44,3 +44,10 @@ Or, if you're into Lua:
 Updates = channels.togglePreHistoryHidden({channel=InputChannel, enabled=Bool, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHAT_NOT_MODIFIED|The pinned message wasn't modified|
+
+

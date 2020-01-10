@@ -116,6 +116,7 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 |400|FILE_PARTS_INVALID|The number of file parts is invalid|
 |400|IMAGE_PROCESS_FAILED|Failure while processing image|
 |400|INPUT_USER_DEACTIVATED|The specified user was deleted|
+|400|MD5_CHECKSUM_INVALID|The MD5 checksums do not match|
 |400|MEDIA_CAPTION_TOO_LONG|The caption is too long|
 |400|MEDIA_EMPTY|The provided media object is invalid|
 |400|MEDIA_INVALID|Media invalid|
@@ -131,6 +132,7 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 |400|WEBPAGE_CURL_FAILED|Failure while fetching the webpage with cURL|
 |400|WEBPAGE_MEDIA_EMPTY|Webpage media empty|
 |400|YOU_BLOCKED_USER|You blocked this user|
+|403|CHAT_SEND_GIFS_FORBIDDEN|You can't send gifs in this chat|
 |403|CHAT_SEND_MEDIA_FORBIDDEN|You can't send media in this chat|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 |420|SLOWMODE_WAIT_X|Slowmode is enabled in this chat: you must wait for the specified number of seconds before sending another message to the chat.|

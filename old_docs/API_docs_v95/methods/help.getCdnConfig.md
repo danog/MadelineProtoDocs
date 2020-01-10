@@ -44,6 +44,7 @@ CdnConfig = help.getCdnConfig({})
 |------|----------|---------------|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
+|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
 |-503|Timeout|Timeout while fetching data|
 
 

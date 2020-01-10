@@ -44,3 +44,10 @@ Or, if you're into Lua:
 Set_client_DH_params_answer = set_client_DH_params({nonce=int128, server_nonce=int128, encrypted_data='string', })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|INPUT_METHOD_INVALID_4110704415_X||
+
+

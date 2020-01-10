@@ -48,5 +48,6 @@ Bool = contacts.block({id=InputUser, })
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|CONTACT_ID_INVALID|The provided contact ID is invalid|
+|400|INPUT_USER_DEACTIVATED|The specified user was deleted|
 
 

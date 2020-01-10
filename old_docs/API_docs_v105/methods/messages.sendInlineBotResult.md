@@ -59,6 +59,8 @@ Updates = messages.sendInlineBotResult({silent=Bool, background=Bool, clear_draf
 |400|INLINE_RESULT_EXPIRED|The inline query expired|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|QUERY_ID_EMPTY|The query ID is empty|
+|400|RESULT_ID_EMPTY|Result ID empty|
+|400|USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
 |400|WEBPAGE_CURL_FAILED|Failure while fetching the webpage with cURL|
 |400|WEBPAGE_MEDIA_EMPTY|Webpage media empty|
 |400|YOU_BLOCKED_USER|You blocked this user|

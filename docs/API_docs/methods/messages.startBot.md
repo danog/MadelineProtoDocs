@@ -55,5 +55,6 @@ Updates = messages.startBot({bot=InputUser, peer=InputPeer, start_param='string'
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|START_PARAM_EMPTY|The start parameter is empty|
 |400|START_PARAM_INVALID|Start parameter invalid|
+|400|START_PARAM_TOO_LONG|Start parameter is too long|
 
 

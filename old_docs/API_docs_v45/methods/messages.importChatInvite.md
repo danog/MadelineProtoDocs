@@ -47,12 +47,15 @@ Updates = messages.importChatInvite({hash='string', })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|CHANNELS_TOO_MUCH|You have joined too many channels/supergroups|
 |400|INVITE_HASH_EMPTY|The invite hash is empty|
 |400|INVITE_HASH_EXPIRED|The invite link has expired|
 |400|INVITE_HASH_INVALID|The invite hash is invalid|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|USER_ALREADY_PARTICIPANT|The user is already in the group|
 |400|USERS_TOO_MUCH|The maximum number of users has been exceeded (to create a chat, for example)|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
 
 

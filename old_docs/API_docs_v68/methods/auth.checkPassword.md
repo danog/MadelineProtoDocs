@@ -48,5 +48,7 @@ auth.Authorization = auth.checkPassword({password_hash='bytes', })
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|PASSWORD_HASH_INVALID|The provided password hash is invalid|
+|400|SRP_ID_INVALID|Invalid SRP ID provided|
+|400|SRP_PASSWORD_CHANGED|Password has changed|
 
 

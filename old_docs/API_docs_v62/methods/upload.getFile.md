@@ -53,6 +53,7 @@ upload.File = upload.getFile({location=InputFileLocation, offset=int, limit=int,
 |400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
 |400|LIMIT_INVALID|The provided limit is invalid|
 |400|LOCATION_INVALID|The provided location is invalid|
+|400|MSG_ID_INVALID|Invalid message ID provided|
 |400|OFFSET_INVALID|The provided offset is invalid|
 |406|FILEREF_UPGRADE_NEEDED|The client has to be updated in order to support [file references](https://core.telegram.org/api/file_reference)|
 |401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|

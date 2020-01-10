@@ -53,6 +53,7 @@ Updates = channels.editAdmin({channel=InputChannel, user_id=InputUser, role=Chan
 |400|BOT_CHANNELS_NA|Bots can't edit admin privileges|
 |400|CHANNEL_INVALID|The provided channel is invalid|
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
+|400|INPUT_USER_DEACTIVATED|The specified user was deleted|
 |400|USER_CREATOR|You can't leave this channel, because you're its creator|
 |400|USER_ID_INVALID|The provided user ID is invalid|
 |400|USER_NOT_MUTUAL_CONTACT|The provided user is not a mutual contact|

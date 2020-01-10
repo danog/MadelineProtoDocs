@@ -49,6 +49,7 @@ messages.Chats = messages.getCommonChats({user_id=InputUser, max_id=int, limit=i
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|MSG_ID_INVALID|Invalid message ID provided|
 |400|USER_ID_INVALID|The provided user ID is invalid|
 
 
