@@ -70,7 +70,7 @@ if (yield $wrapper->loggedIn()) {
         $url = yield $wrapper->readLine('Enter the app/website\'s URL, or t.me/yourusername: ');
         $description = yield $wrapper->readLine('Describe your app: ');
         
-        $app = yield $wrapper->my_telegram_org_wrapper->create_app_async(['app_title' => $app_title, 'app_shortname' => $short_name, 'app_url' => $url, 'app_platform' => 'web', 'app_desc' => $description]);
+        $app = yield $wrapper->createApp(['app_title' => $app_title, 'app_shortname' => $short_name, 'app_url' => $url, 'app_platform' => 'web', 'app_desc' => $description]);
     }
     
     \danog\MadelineProto\Logger::log($app);
