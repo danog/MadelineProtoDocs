@@ -50,7 +50,6 @@ composer.json:
     "require": {
         "danog/madelineproto": "^5.0"
     },
-    "minimum-stability": "dev",
     "license": "AGPL-3.0-only",
     "authors": [
         {
@@ -79,13 +78,7 @@ require_once 'vendor/autoload.php';
 
 ## Composer from existing project
 
-Once you have all the requirements installed properly (on dev as well as production), add this to the ```composer.json``` file:
-
-```json
-"minimum-stability": "dev",
-```
-
-Then you can require the package:  
+Simply require the package:  
 
 ```bash
 composer require danog/madelineproto
