@@ -7,10 +7,43 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 MadelineProto provides a unified class for logging messages to the logging destination defined in [settings](SETTINGS.html#settingslogger).  
 
-Use the [settings](SETTINGS.html#settingslogger) to modify the default logging destination and log verbosity.  
+Use the [settings](SETTINGS.html#settingslogger) to modify the default logging destination and log verbosity:  
+
+## `$settings['logger']` 
+
+Logger settings
+
+### `$settings['logger']['logger']`
+Default: `\danog\MadelineProto\Logger::ECHO_LOGGER` if running from CLI, `\danog\MadelineProto\Logger::FILE_LOGGER` if running from browser  
+Description: logger mode, available logger modes:
+
+* `\danog\MadelineProto\Logger::DEFAULT_LOGGER` - Log to the default logger destination
+* `\danog\MadelineProto\Logger::FILE_LOGGER` - Log to file in `$settings['logger']['logger_param']`
+* `\danog\MadelineProto\Logger::ECHO_LOGGER` - Echo logs
+* `\danog\MadelineProto\Logger::CALLABLE_LOGGER` - Call callable provided in `$settings['logger']['logger_param']`. logger_param must accept two parameters: array $message, int $level
+
+### `$settings['logger']['param']`
+Default: `__DIR__.'/Madeline.log'`  
+Description: optional logger parameter, for modes that require it
+
+### `$settings['logger']['logger_level']`
+Default: `\danog\MadelineProto\Logger::VERBOSE`  
+Description: What logger messages to show
+
+## Example:  
+```php
+$settings = [
+    'logger' => [
+        'logger_level' => Logger::VERBOSE,
+        //'logger' => Logger::ECHO_LOGGER // Can be omitted to use default values
+    ]
+];
+$MadelineProto = new \danog\MadelineProto\API('session.madeline', $settings);
+```
 
 Note: when running from web, MadelineProto will also automatically enable logging of **PHP errors** (not MadelineProto logs) to `MadelineProto.log`, located in the same directory as the script that loaded MadelineProto.  
 
+## Usage:
 
 ```php
 $MadelineProto->logger($message, $level);
