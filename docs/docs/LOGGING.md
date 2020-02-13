@@ -32,6 +32,8 @@ Description: What logger messages to show
 
 ## Example:  
 ```php
+use danog\MadelineProto\Logger;
+
 $settings = [
     'logger' => [
         'logger_level' => Logger::VERBOSE,
