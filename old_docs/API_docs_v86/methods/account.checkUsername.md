@@ -48,5 +48,6 @@ Bool = account.checkUsername({username='string', })
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|USERNAME_INVALID|The provided username is not valid|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 
 

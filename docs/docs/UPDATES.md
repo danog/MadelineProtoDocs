@@ -17,7 +17,7 @@ Update handling can be done in different ways:
 
 ## Self-restart on webhosts
 
-When running the `loop()` method via web, MadelineProto will automatically enable a **magical self-restart hack**, to keep the bot running even on webhosts with limited execution time.  
+When running the `loop()` method via web, MadelineProto will automatically enable a **magical self-restart hack** (callback ID `restarter`), to keep the bot running even on webhosts with limited execution time.  
 
 Locking will also be handled automatically (as well as disconnection from the user that opened the page), so even if you start the script via web several times, only one instance will be running at a time (no need to do flocking manually!).  
 
@@ -50,59 +50,85 @@ The `removeCallback` will return true if the callback exists and it was removed 
 ## Async Event driven
 
 ```php
-class EventHandler extends \danog\MadelineProto\EventHandler
+use danog\MadelineProto\EventHandler;
+use danog\MadelineProto\Tools;
+use danog\MadelineProto\API;
+use danog\MadelineProto\Logger;
+use danog\MadelineProto\RPCErrorException;
+
+/**
+ * Event handler class.
+ */
+class MyEventHandler extends EventHandler
 {
-    public function __construct($MadelineProto)
+    /**
+     * @var int|string Username or ID of bot admin
+     */
+    const ADMIN = "danogentili"; // Change this
+    /**
+     * Get peer(s) where to report errors
+     *
+     * @return int|string|array
+     */
+    public function getReportPeers()
     {
-        parent::__construct($MadelineProto);
+        return [self::ADMIN];
     }
-    public function onUpdateSomethingElse($update)
+    /**
+     * Handle updates from supergroups and channels
+     *
+     * @param array $update Update
+     * 
+     * @return void
+     */
+    public function onUpdateNewChannelMessage(array $update): \Generator
     {
-        // See the docs for a full list of updates: http://docs.madelineproto.xyz/API_docs/types/Update.html
+        return $this->onUpdateNewMessage($update);
     }
-    public function onUpdateNewChannelMessage($update)
+    /**
+     * Handle updates from users.
+     *
+     * @param array $update Update
+     *
+     * @return \Generator
+     */
+    public function onUpdateNewMessage(array $update): \Generator
     {
-        yield $this->onUpdateNewMessage($update);
-    }
-    public function onUpdateNewMessage($update)
-    {
-        if (isset($update['message']['out']) && $update['message']['out']) {
+        if ($update['message']['_'] === 'messageEmpty' || $update['message']['out'] ?? false) {
             return;
         }
-        $res = json_encode($update, JSON_PRETTY_PRINT);
-        if ($res == '') {
-            $res = var_export($update, true);
-        }
+        $res = \json_encode($update, JSON_PRETTY_PRINT);
 
         try {
-            yield $this->messages->sendMessage(['peer' => $update, 'message' => $res, 'reply_to_msg_id' => $update['message']['id']]);
-        } catch (\danog\MadelineProto\RPCErrorException $e) {
-            yield $this->messages->sendMessage(['peer' => '@danogentili', 'message' => (string) $e]);
-        }
-
-        try {
-            if (isset($update['message']['media']) && ($update['message']['media']['_'] == 'messageMediaPhoto' || $update['message']['media']['_'] == 'messageMediaDocument')) {
-                $time = microtime(true);
-                $file = yield $this->downloadToDir($update, '/tmp');
-                yield $this->messages->sendMessage(['peer' => $update, 'message' => 'Downloaded to '.$file.' in '.(microtime(true) - $time).' seconds', 'reply_to_msg_id' => $update['message']['id']]);
+            yield $this->messages->sendMessage(['peer' => $update, 'message' => "<code>$res</code>", 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
+            if (isset($update['message']['media']) && $update['message']['media']['_'] !== 'messageMediaGame') {
+                yield $this->messages->sendMedia(['peer' => $update, 'message' => $update['message']['message'], 'media' => $update]);
             }
-        } catch (\danog\MadelineProto\RPCErrorException $e) {
-            yield $this->messages->sendMessage(['peer' => '@danogentili', 'message' => (string) $e]);
+        } catch (RPCErrorException $e) {
+            $this->report("Surfaced: $e");
+        } catch (Exception $e) {
+            if (\stripos($e->getMessage(), 'invalid constructor given') === false) {
+                $this->report("Surfaced: $e");
+            }
         }
     }
 }
+$settings = [
+    'logger' => [
+        'logger_level' => 5
+    ],
+    'serialization' => [
+        'serialization_interval' => 30,
+    ],
+];
 
-
-$MadelineProto = new \danog\MadelineProto\API('bot.madeline');
-$MadelineProto->async(true);
-$MadelineProto->loop(function () use ($MadelineProto) {
-    yield $MadelineProto->start();
-    yield $MadelineProto->setEventHandler('\EventHandler');
-});
-$MadelineProto->loop();
+$MadelineProto = new API('bot.madeline', $settings);
+$MadelineProto->startAndLoop(MyEventHandler::class);
 ```
 
-This will create an event handler class `EventHandler`, create a MadelineProto session, and set the event handler class to our newly created event handler.
+This will create an event handler class `MyEventHandler`, create a MadelineProto session, and set the event handler class to our newly created event handler.
+
+The **new** `startAndLoop` method automatically initializes MadelineProto, **enables async**, logs in the user/bot, initializes error reporting, catches and reports all errors surfacing from the event loop to the peers returned by the `getReportPeers` method.
 
 This yield syntax might be new to you, even if you already used MadelineProto in the past.  
 It's a new syntax to allow async **parallel processing** of updates and HUGE speed improvements.  
@@ -126,144 +152,54 @@ If you intend to use your own constructor in the event handler, make sure to cal
 
 The update handling loop is started by the `$MadelineProto->loop()` method, and it will automatically restart the script if execution time runs out.
 
-To break out of the loop just call `die();`, or throw an exception from within (make sure to catch it outside, in the `$MadelineProto->loop()` call).  
+To forecfully restart and apply changes made to the event handler class, call `$MadelineProto->restart();`.  
 
 
-## Async Combined event driven
+## Async event driven (multiaccount)
 
 ```php
-class EventHandler extends \danog\MadelineProto\CombinedEventHandler
-{
-    public function __construct($CombinedMadelineProto)
-    {
-        parent::__construct($CombinedMadelineProto);
-    }
-    public function onUpdateSomethingElse($update, $session)
-    {
-        // See the docs for a full list of updates: http://docs.madelineproto.xyz/API_docs/types/Update.html
-    }
-    public function onUpdateNewChannelMessage($update, $session)
-    {
-        yield $this->onUpdateNewMessage($update, $session);
-    }
-    public function onUpdateNewMessage($update, $session)
-    {
-        if (isset($update['message']['out']) && $update['message']['out']) {
-            return;
-        }
-        $res = json_encode($update, JSON_PRETTY_PRINT);
-        if ($res == '') {
-            $res = var_export($update, true);
-        }
+use danog\MadelineProto\EventHandler;
+use danog\MadelineProto\Tools;
+use danog\MadelineProto\API;
+use danog\MadelineProto\Logger;
+use danog\MadelineProto\RPCErrorException;
 
-        try {
-            yield $this->{$session}->messages->sendMessage(['peer' => $update, 'message' => $res, 'reply_to_msg_id' => $update['message']['id']]);
-        } catch (\danog\MadelineProto\RPCErrorException $e) {
-            yield $this->{$session}->messages->sendMessage(['peer' => '@danogentili', 'message' => (string) $e]);
-        }
+// Normal event handler definition as above
 
-        try {
-            if (isset($update['message']['media']) && ($update['message']['media']['_'] == 'messageMediaPhoto' || $update['message']['media']['_'] == 'messageMediaDocument')) {
-                $time = microtime(true);
-                $file = yield $this->{$session}->downloadToDir($update, '/tmp');
-                yield $this->{$session}->messages->sendMessage(['peer' => $update, 'message' => 'Downloaded to '.$file.' in '.(microtime(true) - $time).' seconds', 'reply_to_msg_id' => $update['message']['id']]);
-            }
-        } catch (\danog\MadelineProto\RPCErrorException $e) {
-            yield $this->{$session}->messages->sendMessage(['peer' => '@danogentili', 'message' => (string) $e]);
-        }
-    }
+$MadelineProtos = [];
+foreach ([
+    'bot.madeline' => 'Bot Login',
+    'user.madeline' => 'Userbot login',
+    'user2.madeline' => 'Userbot login (2)'
+] as $session => $message) {
+    Logger::log($message, Logger::WARNING);
+    $MadelineProto = new API($session);
+    $MadelineProto->async(true);
+    $MadelineProto->loop(function () use ($MadelineProto) {
+        yield $MadelineProto->start();
+        yield $MadelineProto->setEventHandler(MyEventHandler::class);
+    });
+    $MadelineProtos []= $MadelineProto->loopFork();
 }
 
-$settings = [];
-$CombinedMadelineProto = new \danog\MadelineProto\CombinedAPI('combined_session.madeline', ['bot.madeline' => $settings, 'user.madeline' => $settings, 'user2.madeline' => $settings]);
-$CombinedMadelineProto->async(true);
-$CombinedMadelineProto->loop(function () use ($CombinedMadelineProto) {
-    $res = [];
-    foreach ([
-        'bot.madeline' => 'Bot Login',
-        'user.madeline' => 'Userbot login',
-        'user2.madeline' => 'Userbot login (2)'
-    ] as $session => $message) {
-        \danog\MadelineProto\Logger::log($message, \danog\MadelineProto\Logger::WARNING);
-        $res []= $CombinedMadelineProto->instances[$session]->start();
+do {
+    $thrown = false;
+    try {
+        Tools::wait(Tools::all($MadelineProtos));
+    } catch (\Throwable $e) {
+        $thrown = true;
+        try {
+            $MadelineProto->report("Surfaced: $e");
+        } catch (\Throwable $e) {
+            $MadelineProto->logger((string) $e, \danog\MadelineProto\Logger::FATAL_ERROR);
+        }
     }
-    yield $CombinedMadelineProto->all($res);
-    yield $CombinedMadelineProto->setEventHandler('\EventHandler');
-});
-$CombinedMadelineProto->loop();
+} while ($thrown);
 ```
 
 This will create an event handler class `EventHandler`, create a **combined** MadelineProto session with session files `bot.madeline`, `user.madeline`, `user2.madeline`, and set the event handler class to our newly created event handler.
 
-This yield syntax might be new to you, even if you already used MadelineProto in the past.  
-It's a new syntax to allow async **parallel processing** of updates and HUGE speed improvements.  
-It was recently introduced in MadelineProto, [here's a full explanation](ASYNC.html).  
-If your code still relies on the old synchronous behaviour, it's still supported, but I HIGHLY recommend you switch to the new async syntax: it's __super__ easy, [just add a `yield` in front of method calls](ASYNC.html)!  
-
-When an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html) is received, the corresponding `onUpdateType` event handler method is called. 
-
-To get a list of all possible update types, [click here](https://docs.madelineproto.xyz/API_docs/types/Update.html).  
-
-If such a method does not exist, the `onAny` event handler method is called.  
-If the `onAny` event handler method does not exist, the update is ignored.  
-The first paramter of the event handler method will always be the [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html), the second parameter will always be the **session name**.
-
-
-The `onLoop` method is not recommended anymore, use AMPHP's [repeat](https://amphp.org/amp/event-loop/api#repeat) or MadelineProto's [async loop API](ASYNC.html#async-loop-apis) to schedule actions in a cron-like manner.  
-
-To access the `$MadelineProto` instance of the account that sent the update, from inside of the event handler, simply access `$this->{$session_name}` (`$session_name` is the second parameter value of the event handler method, or just the session filename):
-```php
-$this->{$session_name}->messages->sendMessage(['peer' => '@danogentili', 'message' => 'hi']);
-$this->{'user2.madeline'}->messages->sendMessage(['peer' => '@danogentili', 'message' => 'hi2']);
-```
-
-If you intend to use your own constructor in the event handler, make sure to call the parent construtor with the only parameter provided to your constructor.
-
-If you need to use the [__sleep](https://www.php.net/manual/en/language.oop5.magic.php#object.sleep) function, make sure it is called `__magic_sleep`, instead.  
-
-The update handling loop is started by the `$MadelineProto->loop()` method, and it will automatically restart the script if execution time runs out.
-
-To break out of the loop just call `die();`, or throw an exception from within (make sure to catch it outside, in the `$MadelineProto->loop()` call).  
-
-
-
-## Async callback
-
-```php
-$MadelineProto = new \danog\MadelineProto\API('bot.madeline');
-
-$MadelineProto->start();
-$MadelineProto->setCallback(function ($update) use ($MadelineProto) {
-
-    if (isset($update['message']['out']) && $update['message']['out']) {
-        return;
-    }
-    $res = json_encode($update, JSON_PRETTY_PRINT);
-    if ($res == '') {
-        $res = var_export($update, true);
-    }
-
-    try {
-        yield $MadelineProto->messages->sendMessage(['peer' => $update, 'message' => $res, 'reply_to_msg_id' => $update['message']['id']]);
-    } catch (\danog\MadelineProto\RPCErrorException $e) {
-        yield $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => (string) $e]);
-    }
-});
-$MadelineProto->async(true);
-$MadelineProto->loop();
-```
-When an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html) is received, the provided callback function is called.
-
-The update handling loop is started by the `$MadelineProto->loop()` method, and it will automatically restart the script if execution time runs out.  
-
-This yield syntax might be new to you, even if you already used MadelineProto in the past.  
-It's a new syntax to allow async **parallel processing** of updates and HUGE speed improvements.  
-It was recently introduced in MadelineProto, [here's a full explanation](ASYNC.html).  
-If your code still relies on the old synchronous behaviour, it's still supported, but I HIGHLY recommend you switch to the new async syntax: it's __super__ easy, [just add a `yield` in front of method calls](ASYNC.html)!  
-
-To break out of the loop just call `die();`, or throw an exception from within (make sure to catch it outside, in the `$MadelineProto->loop()` call).  
-
-
+Usage is the same as for [the normal event handler](#async-event-driven), with the difference that by using `loopFork`, multiple accounts can receive and handle updates in parallel, each with its own event handler instance.
 
 ## Noop
 

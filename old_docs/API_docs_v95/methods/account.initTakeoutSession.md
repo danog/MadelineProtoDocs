@@ -49,3 +49,10 @@ Or, if you're into Lua:
 account.Takeout = account.initTakeoutSession({contacts=Bool, message_users=Bool, message_chats=Bool, message_megagroups=Bool, message_channels=Bool, files=Bool, file_max_size=int, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|420|TAKEOUT_INIT_DELAY_X|Wait X seconds before initing takeout|
+
+

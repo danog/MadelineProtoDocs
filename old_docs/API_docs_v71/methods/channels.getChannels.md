@@ -51,5 +51,6 @@ messages.Chats = channels.getChannels({id={InputChannel}, })
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
+|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
 
 

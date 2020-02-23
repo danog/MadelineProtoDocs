@@ -67,6 +67,7 @@ messages.StatedMessages = messages.forwardMessages({peer=InputPeer, id={int}, })
 |400|YOU_BLOCKED_USER|You blocked this user|
 |403|CHAT_SEND_GIFS_FORBIDDEN|You can't send gifs in this chat|
 |403|CHAT_SEND_MEDIA_FORBIDDEN|You can't send media in this chat|
+|403|CHAT_SEND_POLL_FORBIDDEN|You can't send polls in this chat|
 |403|CHAT_SEND_STICKERS_FORBIDDEN|You can't send stickers in this chat.|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 |420|SLOWMODE_WAIT_X|Slowmode is enabled in this chat: you must wait for the specified number of seconds before sending another message to the chat.|

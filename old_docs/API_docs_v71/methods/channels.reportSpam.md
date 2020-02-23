@@ -50,6 +50,8 @@ Bool = channels.reportSpam({channel=InputChannel, user_id=InputUser, id={int}, }
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|CHANNEL_INVALID|The provided channel is invalid|
+|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 |400|INPUT_USER_DEACTIVATED|The specified user was deleted|
+|400|USER_ID_INVALID|The provided user ID is invalid|
 
 

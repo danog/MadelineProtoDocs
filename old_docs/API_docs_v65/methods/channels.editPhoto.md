@@ -54,5 +54,6 @@ Updates = channels.editPhoto({channel=InputChannel, photo=InputChatPhoto, })
 |400|PHOTO_CROP_SIZE_SMALL|Photo is too small|
 |400|PHOTO_EXT_INVALID|The extension of the photo is invalid|
 |400|PHOTO_INVALID|Photo invalid|
+|403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 
 

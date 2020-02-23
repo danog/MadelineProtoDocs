@@ -48,6 +48,7 @@ Bool = messages.editChatAbout({peer=InputPeer, about='string', })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|CHAT_ABOUT_NOT_MODIFIED|About text has not changed|
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 |400|CHAT_NOT_MODIFIED|The pinned message wasn't modified|

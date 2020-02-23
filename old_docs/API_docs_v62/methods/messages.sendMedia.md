@@ -61,6 +61,7 @@ You can provide bot API reply_markup objects here.
 |------|----------|---------------|
 |400|BUTTON_DATA_INVALID|The data of one or more of the buttons you provided is invalid|
 |400|BUTTON_TYPE_INVALID|The type of one or more of the buttons you provided is invalid|
+|400|BUTTON_URL_INVALID|Button URL invalid|
 |400|CHANNEL_INVALID|The provided channel is invalid|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
@@ -79,15 +80,22 @@ You can provide bot API reply_markup objects here.
 |400|PHOTO_EXT_INVALID|The extension of the photo is invalid|
 |400|PHOTO_INVALID_DIMENSIONS|The photo dimensions are invalid|
 |400|PHOTO_SAVE_FILE_INVALID|Internal issues, try again later|
+|400|POLL_ANSWERS_INVALID|Invalid poll answers were provided|
+|400|POLL_OPTION_DUPLICATE|Duplicate poll options provided|
+|400|QUIZ_CORRECT_ANSWERS_EMPTY|No correct quiz answer was specified|
 |400|REPLY_MARKUP_BUY_EMPTY|Reply markup for buy button empty|
+|400|REPLY_MARKUP_INVALID|The provided reply markup is invalid|
+|400|TTL_MEDIA_INVALID|Invalid media Time To Live was provided|
 |400|USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
 |400|USER_IS_BLOCKED|You were blocked by this user|
 |400|USER_IS_BOT|Bots can't send messages to other bots|
 |400|WEBPAGE_CURL_FAILED|Failure while fetching the webpage with cURL|
 |400|WEBPAGE_MEDIA_EMPTY|Webpage media empty|
 |400|YOU_BLOCKED_USER|You blocked this user|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |403|CHAT_SEND_GIFS_FORBIDDEN|You can't send gifs in this chat|
 |403|CHAT_SEND_MEDIA_FORBIDDEN|You can't send media in this chat|
+|403|CHAT_SEND_STICKERS_FORBIDDEN|You can't send stickers in this chat.|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 |420|SLOWMODE_WAIT_X|Slowmode is enabled in this chat: you must wait for the specified number of seconds before sending another message to the chat.|
 |-503|Timeout|Timeout while fetching data|

@@ -38,3 +38,10 @@ Or, if you're into Lua:
 NearestDc = help.getNearestDc({})
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
+
+

@@ -51,6 +51,7 @@ messages.Messages = channels.getMessages({channel=InputChannel, id={int}, })
 |400|CHANNEL_INVALID|The provided channel is invalid|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|MESSAGE_IDS_EMPTY|No message ids were provided|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |-503|Timeout|Timeout while fetching data|
 
 

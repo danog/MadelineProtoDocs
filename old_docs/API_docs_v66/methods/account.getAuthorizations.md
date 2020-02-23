@@ -38,3 +38,10 @@ Or, if you're into Lua:
 account.Authorizations = account.getAuthorizations({})
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
+
+

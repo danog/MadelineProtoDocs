@@ -54,8 +54,11 @@ Updates = channels.joinChannel({channel=InputChannel, })
 |400|INVITE_HASH_EXPIRED|The invite link has expired|
 |400|INVITE_HASH_INVALID|The invite hash is invalid|
 |400|MSG_ID_INVALID|Invalid message ID provided|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|USER_ALREADY_PARTICIPANT|The user is already in the group|
+|400|USER_CHANNELS_TOO_MUCH|One of the users you tried to add is already in too many channels/supergroups|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
+|-503|Timeout|Timeout while fetching data|
 
 

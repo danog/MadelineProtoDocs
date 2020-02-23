@@ -65,6 +65,7 @@ Bool = messages.setInlineBotResults({gallery=Bool, private=Bool, query_id=long, 
 |400|QUERY_ID_INVALID|The query ID is invalid|
 |400|REPLY_MARKUP_INVALID|The provided reply markup is invalid|
 |400|RESULT_TYPE_INVALID|Result type invalid|
+|400|RESULTS_TOO_MUCH|Too many results were provided|
 |400|SEND_MESSAGE_TYPE_INVALID|The message type is invalid|
 |400|START_PARAM_INVALID|Start parameter invalid|
 |400|WEBDOCUMENT_SIZE_TOO_BIG|Webdocument is too big!|

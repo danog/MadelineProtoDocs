@@ -49,6 +49,7 @@ messages.AffectedHistory = messages.deleteHistory({just_clear=Bool, peer=InputPe
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|MSG_ID_INVALID|Invalid message ID provided|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 
 
