@@ -47,6 +47,7 @@ Vector_of_User = users.getUsers({id={InputUser}, })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|INPUT_LAYER_INVALID|The provided layer is invalid|
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|

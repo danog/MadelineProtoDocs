@@ -49,5 +49,6 @@ Updates = channels.toggleSignatures({channel=InputChannel, enabled=Bool, })
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|CHANNEL_INVALID|The provided channel is invalid|
+|400|CHAT_ID_INVALID|The provided chat id is invalid|
 
 

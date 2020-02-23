@@ -52,6 +52,7 @@ Updates = channels.editAdmin({channel=InputChannel, user_id=InputUser, admin_rig
 |400|ADMINS_TOO_MUCH|There are too many admins|
 |400|BOT_CHANNELS_NA|Bots can't edit admin privileges|
 |400|CHANNEL_INVALID|The provided channel is invalid|
+|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 |400|INPUT_USER_DEACTIVATED|The specified user was deleted|
 |400|USER_CREATOR|You can't leave this channel, because you're its creator|

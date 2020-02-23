@@ -50,9 +50,11 @@ MessageMedia = messages.uploadMedia({peer=InputPeer, media=InputMedia, })
 |------|----------|---------------|
 |400|BOT_MISSING|This method can only be run by a bot|
 |400|FILE_PARTS_INVALID|The number of file parts is invalid|
+|400|IMAGE_PROCESS_FAILED|Failure while processing image|
 |400|MEDIA_INVALID|Media invalid|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|PHOTO_EXT_INVALID|The extension of the photo is invalid|
 |400|WEBPAGE_CURL_FAILED|Failure while fetching the webpage with cURL|
+|403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 
 

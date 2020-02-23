@@ -80,6 +80,7 @@ If the length of the provided message is bigger than 4096, the message will be s
 |400|MESSAGE_TOO_LONG|The provided message is too long|
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
+|400|PINNED_DIALOGS_TOO_MUCH|Too many pinned dialogs|
 |400|REPLY_MARKUP_INVALID|The provided reply markup is invalid|
 |400|SCHEDULE_BOT_NOT_ALLOWED|Bots cannot schedule messages|
 |400|SCHEDULE_TOO_MUCH|There are too many scheduled messages|

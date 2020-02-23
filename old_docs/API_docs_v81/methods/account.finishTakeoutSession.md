@@ -43,3 +43,10 @@ Or, if you're into Lua:
 Bool = account.finishTakeoutSession({success=Bool, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|403|TAKEOUT_REQUIRED|A takeout session has to be initialized, first|
+
+

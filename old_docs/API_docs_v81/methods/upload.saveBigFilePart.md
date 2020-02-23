@@ -55,6 +55,7 @@ Bool = upload.saveBigFilePart({file_id=long, file_part=int, file_total_parts=int
 |400|FILE_PART_SIZE_CHANGED|Provided file part size has changed|
 |400|FILE_PART_SIZE_INVALID|The provided file part size is invalid|
 |400|FILE_PARTS_INVALID|The number of file parts is invalid|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |-503|Timeout|Timeout while fetching data|
 
 

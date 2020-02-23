@@ -45,6 +45,7 @@ Config = help.getConfig({})
 |400|CONNECTION_DEVICE_MODEL_EMPTY|Device model empty|
 |400|CONNECTION_NOT_INITED|Connection not initialized|
 |400|CONNECTION_SYSTEM_EMPTY|Connection system empty|
+|400|INPUT_LAYER_INVALID|The provided layer is invalid|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |-503|Timeout|Timeout while fetching data|
 
