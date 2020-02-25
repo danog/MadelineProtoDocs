@@ -621,4 +621,36 @@ The return value of the callable can be:
 
 If the callable does not return anything, the loop will behave is if `GenericLoop::PAUSE` was returned.  
 
+#### PeriodicLoop
+
+If you simply want to execute an action every N seconds, [PeriodicLoop](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/Generic/PeriodicLoop.php) is the way to go.  
+The constructor accepts four parameters:
+```php
+    /**
+     * Constructor.
+     *
+     * @param \danog\MadelineProto\API $API      Instance of MTProto class
+     * @param callable                 $callback Callback to call
+     * @param string                   $name     Loop name
+     * @param int|float                $timeout  Loop timeout
+     */
+    public function __construct($API, callable $callback, string $name, $timeout) { // ...
+```
+
+Example:
+```php
+use danog\MadelineProto\Loop\Generic\PeriodicLoop;
+$loop = new PeriodicLoop(
+    $MadelineProto,
+    function () use (&$loop) {
+        yield $this->API->messages->sendMessage(['peer' => '...', 'message' => 'Hi every 2 seconds']);
+    },
+    "My super loop",
+    2
+);
+$loop->start();
+```
+Unlike `GenericLoop`, the callback will **not** be bound to the GenericLoop instance.
+You can still command the loop by using the pause/waitSignal methods from the outside or by capturing the loop instance in a closure like shown above.  
+s
 <a href="https://docs.madelineproto.xyz/docs/USING_METHODS.html">Next section</a>

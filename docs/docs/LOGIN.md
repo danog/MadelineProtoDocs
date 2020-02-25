@@ -34,7 +34,7 @@ If your account does get banned, write to [recover@telegram.org](mailto:recover@
 There were cases when several **normal user accounts that did nothing wrong** were banned when telegram deployed a new spambot detection system: this is bad for the community, and it is bad for Telegram, so please do not abuse.  
 
 
-## Automatic ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
+## Automatic
 
 ```php
 yield $MadelineProto->start();
