@@ -62,4 +62,38 @@ $MadelineProto->logger($message, $level);
 
 By default, `$level` is `\danog\MadelineProto\Logger::NOTICE`.
 
+
+## Error reporting
+
+MadelineProto now can report errors automatically to the bot admin.  
+Simply use the following method:
+
+```php
+// $message = (string) $exception, for example
+$MadelineProto->report($message);
+```
+
+This will automatically report the error (and send the logfile!) to the bot admin, set using the `setReportPeers` method:
+
+```php
+$MadelineProto->setReportPeers(['danogentili']);
+```
+
+**OR** using the `getReportPeers` method of [the event handler](https://docs.madelineproto.xyz/docs/UPDATES.html#async-event-driven).  
+
+```php
+
+    /**
+     * Get peer(s) where to report errors
+     *
+     * @return int|string|array
+     */
+    public function getReportPeers()
+    {
+        return [self::ADMIN];
+    }
+```
+
+If you use the [`startAndLoop`](https://docs.madelineproto.xyz/docs/UPDATES.html#async-event-driven) method to start update handling, all errors surfacing from the loop will be reported automatically.  
+
 <a href="https://docs.madelineproto.xyz/docs/CALLS.html">Next section</a>

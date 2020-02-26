@@ -9,7 +9,7 @@ Update handling can be done in different ways:
 
 * [Self-restart on webhosts](#self-restart-on-webhosts)
 * [Async Event driven](#async-event-driven)
-* [Multi-account: Async Combined Event driven update handling](#async-combined-event-driven)
+* [Multi-account: Async Event driven](#async-event-driven)
 * [Async Callback](#async-callback)
 * [Noop (default)](#noop)
 * [Fetch all updates from the beginning](#fetch-all-updates-from-the-beginning)
