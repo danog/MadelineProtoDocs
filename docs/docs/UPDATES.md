@@ -173,28 +173,10 @@ foreach ([
     'user2.madeline' => 'Userbot login (2)'
 ] as $session => $message) {
     Logger::log($message, Logger::WARNING);
-    $MadelineProto = new API($session);
-    $MadelineProto->async(true);
-    $MadelineProto->loop(function () use ($MadelineProto) {
-        yield $MadelineProto->start();
-        yield $MadelineProto->setEventHandler(MyEventHandler::class);
-    });
-    $MadelineProtos []= $MadelineProto->loopFork();
+    $MadelineProtos []= (new API($session))->startAndLoopBackground(MyEventHandler::class);
 }
 
-do {
-    $thrown = false;
-    try {
-        Tools::wait(Tools::all($MadelineProtos));
-    } catch (\Throwable $e) {
-        $thrown = true;
-        try {
-            $MadelineProto->report("Surfaced: $e");
-        } catch (\Throwable $e) {
-            $MadelineProto->logger((string) $e, \danog\MadelineProto\Logger::FATAL_ERROR);
-        }
-    }
-} while ($thrown);
+Tools::wait(Tools::all($MadelineProtos));
 ```
 
 This will create an event handler class `EventHandler`, create a **combined** MadelineProto session with session files `bot.madeline`, `user.madeline`, `user2.madeline`, and set the event handler class to our newly created event handler.
