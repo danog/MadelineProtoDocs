@@ -2,6 +2,8 @@
 title: complete2falogin
 description: complete2falogin parameters, return type and example
 redirect_from: /complete_2fa_login.html
+redirect_from: /complete2falogin.html
+redirect_from: /complete2FAlogin.html
 ---
 ## Method: complete2falogin  
 
@@ -12,7 +14,7 @@ redirect_from: /complete_2fa_login.html
 |----------|---------------|
 |password| A string with the password|
 
-### Return type: [auth.Authorization](API_docs/types/auth_Authorization.md)
+### Return type: [auth.Authorization](API_docs/types/auth.Authorization.md)
 
 ### Example ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 

@@ -12,7 +12,7 @@ redirect_from: /phone_login.html
 |----------|---------------|
 |number| A string with the phone number, including the country code|
 
-### Return type: [auth.SentCode](API_docs/types/auth_SentCode.md)
+### Return type: [auth.SentCode](API_docs/types/auth.SentCode.md)
 
 You must then use [completePhoneLogin](completePhoneLogin.md) 
 

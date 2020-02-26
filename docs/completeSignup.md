@@ -13,7 +13,7 @@ redirect_from: /complete_signup.html
 |first_name| A string with the first name|
 |last_name| Optional, string with the last name|
 
-### Return type: [auth.Authorization](API_docs/types/auth_Authorization.md)
+### Return type: [auth.Authorization](API_docs/types/auth.Authorization.md)
 
 ### Example ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 

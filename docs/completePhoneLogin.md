@@ -12,7 +12,7 @@ redirect_from: /complete_phone_login.html
 |----------|---------------|
 |code| A string with the phone code|
 
-### Return type: [auth.Authorization](API_docs/types/auth_Authorization.md) or [account.Password](http://docs.madelineproto.xyz/API_docs/types/account_Password.html) or `['_' => 'account.needSignup']`
+### Return type: [auth.Authorization](API_docs/types/auth.Authorization.md) or [account.Password](http://docs.madelineproto.xyz/API_docs/types/account_Password.html) or `['_' => 'account.needSignup']`
 
 You must then use [complete2falogin](complete2FALogin.md) or [completeSignup](completeSignup.md) to login or signup, or simply start using `$MadelineProto` if the result is a `auth.Authorization` object.
 

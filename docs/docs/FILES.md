@@ -373,27 +373,33 @@ The callable should return the number of written bytes.
 `$MessageMedia`can be either a [Message](https://docs.madelineproto.xyz/API_docs/types/Message.html), an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html), a [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object, or a bot API file ID.
 
 
-### Download to browser with streams
+### Download to http-server
 ```php
-$info = yield $MadelineProto->getDownloadInfo($MessageMedia);
-header('Content-Length: '.$info['size']);
-header('Content-Type: '.$info['mime']);
-
-$stream = fopen('php://output', 'w');
-yield $MadelineProto->downloadToStream($MessageMedia, $stream, $cb, $offset, $endoffset);
+yield $MadelineProto->downloadToResponse($MessageMedia, $request, $cb);
 ```
 
-This downloads the given file to the browser, sending also information about the file's type and size.
+This downloads the given file, replying to the specified [async http-server](https://amphp.org/http-server) request.  
+Automatically supports HEAD requests and content-ranges for parallel and resumed downloads.  
 
 `$MessageMedia` can be either a [Message](https://docs.madelineproto.xyz/API_docs/types/Message.html), an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html), a [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object, or a bot API file ID.
 
-`$stream` must be a writeable stream
+`$request` is the [Request](https://amphp.org/http-server/classes/request) object returned by [http-server](https://amphp.org/http-server).
 
 `$cb` is an optional parameter can be a callback for download progress, but it shouldn't be used, the new [FileCallback](#getting-progress) should be used instead
 
-`$offset` is an optional parameter that specifies the byte from which to start downloading 
 
-`$endoffset` is an optional parameter that specifies the byte where to stop downloading (non-inclusive)
+
+### Download to browser
+```php
+yield $MadelineProto->downloadToBrowser($MessageMedia, $cb);
+```
+
+This downloads the given file to the browser, sending also information about the file's type and size.
+Automatically supports HEAD requests and content-ranges for parallel and resumed downloads.  
+
+`$MessageMedia` can be either a [Message](https://docs.madelineproto.xyz/API_docs/types/Message.html), an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html), a [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object, or a bot API file ID.
+
+`$cb` is an optional parameter can be a callback for download progress, but it shouldn't be used, the new [FileCallback](#getting-progress) should be used instead
 
 
 ## Getting progress

@@ -358,7 +358,7 @@ Description: maximum number of allowed MTProto messages in the outgoing message 
 
 ### `$settings['msg_array_limit']['call_queue']`
 Default: 200  
-Description: maximum number of allowed MTProto messages in any [call queue](USING_METHOD.html#call-queues)
+Description: maximum number of allowed MTProto messages in any [call queue](USING_METHODS.html#call-queues)
 
 
 <hr>
