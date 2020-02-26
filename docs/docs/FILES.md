@@ -32,7 +32,8 @@ Example bot: [`downloadRenameBot.php`](https://github.com/danog/MadelineProto/bl
   * [Download to file](#download-to-file)
   * [Download to stream](#download-to-stream)
   * [Download to callback](#download-to-callback)
-  * [Download to browser (streaming)](#download-to-browser-with-streams)
+  * [Download to http-server](#download-to-http-server)
+  * [Download to browser](#download-to-browser)
 * [Getting progress](#getting-progress)
 
 ## Sending files
