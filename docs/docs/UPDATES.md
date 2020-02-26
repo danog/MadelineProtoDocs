@@ -173,10 +173,10 @@ foreach ([
     'user2.madeline' => 'Userbot login (2)'
 ] as $session => $message) {
     Logger::log($message, Logger::WARNING);
-    $MadelineProtos []= (new API($session))->startAndLoopBackground(MyEventHandler::class);
+    $MadelineProtos []= new API($session);
 }
 
-Tools::wait(Tools::all($MadelineProtos));
+API::startAndLoopMulti($MadelineProtos, MyEventHandler::class);
 ```
 
 This will create an event handler class `EventHandler`, create a **combined** MadelineProto session with session files `bot.madeline`, `user.madeline`, `user2.madeline`, and set the event handler class to our newly created event handler.
