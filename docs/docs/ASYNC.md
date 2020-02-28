@@ -33,6 +33,7 @@ Powered by [amphp](https://amphp.org), MadelineProto wraps the AMPHP APIs to pro
       * [SignalLoop](#signalloop)
       * [ResumableSignalLoop](#resumablesignalloop)
       * [GenericLoop](#genericloop)
+      * [PeriodicLoop](#periodicloop)
 
 ## Usage
 
