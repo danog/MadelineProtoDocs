@@ -75,6 +75,14 @@ class MyEventHandler extends EventHandler
         return [self::ADMIN];
     }
     /**
+      * Called on startup, can contain async calls for initialization of the bot
+      *
+      * @return void
+      */
+    public function onStart()
+    {
+    }
+    /**
      * Handle updates from supergroups and channels
      *
      * @param array $update Update
