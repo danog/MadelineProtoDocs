@@ -498,7 +498,7 @@ $output_file_name = yield $MadelineProto->downloadToFile(
 Actual MessageMedia objects can also be converted to bot API file IDs like this:
 
 ```php
-$botAPI_file = yield $MadelineProto->MTProto_to_botAPI($MessageMedia);
+$botAPI_file = yield $MadelineProto->MTProtoToBotAPI($MessageMedia);
 ```
 
 `$botAPI_file` now contains a [bot API message](https://core.telegram.org/bots/api#message), to extract the file ID from it use the following code:
