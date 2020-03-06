@@ -7,13 +7,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Back to API documentation index](..)
 
 
-[AccessPointRule](AccessPointRule.md)<a name="AccessPointRule"></a>  
-
 [AccountDaysTTL](AccountDaysTTL.md)<a name="AccountDaysTTL"></a>  
 
 [Authorization](Authorization.md)<a name="Authorization"></a>  
 
 [AutoDownloadSettings](AutoDownloadSettings.md)<a name="AutoDownloadSettings"></a>  
+
+[BaseTheme](BaseTheme.md)<a name="BaseTheme"></a>  
 
 [Bool](Bool.md)<a name="Bool"></a>  
 
@@ -205,6 +205,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [InputTheme](InputTheme.md)<a name="InputTheme"></a>  
 
+[InputThemeSettings](InputThemeSettings.md)<a name="InputThemeSettings"></a>  
+
 [InputUser](InputUser.md)<a name="InputUser"></a>  
 
 [InputWallPaper](InputWallPaper.md)<a name="InputWallPaper"></a>  
@@ -214,8 +216,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [InputWebFileLocation](InputWebFileLocation.md)<a name="InputWebFileLocation"></a>  
 
 [Invoice](Invoice.md)<a name="Invoice"></a>  
-
-[IpPort](IpPort.md)<a name="IpPort"></a>  
 
 [JSONObjectValue](JSONObjectValue.md)<a name="JSONObjectValue"></a>  
 
@@ -246,6 +246,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [MessageMedia](MessageMedia.md)<a name="MessageMedia"></a>  
 
 [MessageRange](MessageRange.md)<a name="MessageRange"></a>  
+
+[MessageUserVote](MessageUserVote.md)<a name="MessageUserVote"></a>  
 
 [MessagesFilter](MessagesFilter.md)<a name="MessagesFilter"></a>  
 
@@ -365,6 +367,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [Theme](Theme.md)<a name="Theme"></a>  
 
+[ThemeSettings](ThemeSettings.md)<a name="ThemeSettings"></a>  
+
 [TopPeer](TopPeer.md)<a name="TopPeer"></a>  
 
 [TopPeerCategory](TopPeerCategory.md)<a name="TopPeerCategory"></a>  
@@ -397,6 +401,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [WebPage](WebPage.md)<a name="WebPage"></a>  
 
+[WebPageAttribute](WebPageAttribute.md)<a name="WebPageAttribute"></a>  
+
 [X](X.md)<a name="X"></a>  
 
 [account.AuthorizationForm](account.AuthorizationForm.md)<a name="account.AuthorizationForm"></a>  
@@ -404,6 +410,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [account.Authorizations](account.Authorizations.md)<a name="account.Authorizations"></a>  
 
 [account.AutoDownloadSettings](account.AutoDownloadSettings.md)<a name="account.AutoDownloadSettings"></a>  
+
+[account.ContentSettings](account.ContentSettings.md)<a name="account.ContentSettings"></a>  
 
 [account.Password](account.Password.md)<a name="account.Password"></a>  
 
@@ -431,6 +439,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [auth.ExportedAuthorization](auth.ExportedAuthorization.md)<a name="auth.ExportedAuthorization"></a>  
 
+[auth.LoginToken](auth.LoginToken.md)<a name="auth.LoginToken"></a>  
+
 [auth.PasswordRecovery](auth.PasswordRecovery.md)<a name="auth.PasswordRecovery"></a>  
 
 [auth.SentCode](auth.SentCode.md)<a name="auth.SentCode"></a>  
@@ -456,8 +466,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [contacts.TopPeers](contacts.TopPeers.md)<a name="contacts.TopPeers"></a>  
 
 [help.AppUpdate](help.AppUpdate.md)<a name="help.AppUpdate"></a>  
-
-[help.ConfigSimple](help.ConfigSimple.md)<a name="help.ConfigSimple"></a>  
 
 [help.DeepLinkInfo](help.DeepLinkInfo.md)<a name="help.DeepLinkInfo"></a>  
 
@@ -513,6 +521,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messages.HighScores](messages.HighScores.md)<a name="messages.HighScores"></a>  
 
+[messages.InactiveChats](messages.InactiveChats.md)<a name="messages.InactiveChats"></a>  
+
 [messages.MessageEditData](messages.MessageEditData.md)<a name="messages.MessageEditData"></a>  
 
 [messages.Messages](messages.Messages.md)<a name="messages.Messages"></a>  
@@ -532,6 +542,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [messages.StickerSetInstallResult](messages.StickerSetInstallResult.md)<a name="messages.StickerSetInstallResult"></a>  
 
 [messages.Stickers](messages.Stickers.md)<a name="messages.Stickers"></a>  
+
+[messages.VotesList](messages.VotesList.md)<a name="messages.VotesList"></a>  
 
 [payments.PaymentForm](payments.PaymentForm.md)<a name="payments.PaymentForm"></a>  
 

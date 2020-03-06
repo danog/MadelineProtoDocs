@@ -60,7 +60,7 @@ $MadelineProto->[account->confirmPhone](account.confirmPhone.md)(\['phone_code_h
 
 ***
 <br><br>
-$MadelineProto->[account->createTheme](account.createTheme.md)(\['slug' => [string](../types/string.md), 'title' => [string](../types/string.md), 'document' => [InputDocument](../types/InputDocument.md), \]) === [$Theme](../types/Theme.md)<a name="account.createTheme"></a>  
+$MadelineProto->[account->createTheme](account.createTheme.md)(\['slug' => [string](../types/string.md), 'title' => [string](../types/string.md), 'document' => [InputDocument](../types/InputDocument.md), 'settings' => [InputThemeSettings](../types/InputThemeSettings.md), \]) === [$Theme](../types/Theme.md)<a name="account.createTheme"></a>  
 
 ***
 <br><br>
@@ -97,6 +97,14 @@ $MadelineProto->[account->getAutoDownloadSettings](account.getAutoDownloadSettin
 ***
 <br><br>
 $MadelineProto->[account->getContactSignUpNotification](account.getContactSignUpNotification.md)(\[\]) === [$Bool](../types/Bool.md)<a name="account.getContactSignUpNotification"></a>  
+
+***
+<br><br>
+$MadelineProto->[account->getContentSettings](account.getContentSettings.md)(\[\]) === [$account.ContentSettings](../types/account.ContentSettings.md)<a name="account.getContentSettings"></a>  
+
+***
+<br><br>
+$MadelineProto->[account->getMultiWallPapers](account.getMultiWallPapers.md)(\['wallpapers' => \[[InputWallPaper](../types/InputWallPaper.md)\], \]) === [$Vector\_of\_WallPaper](../types/WallPaper.md)<a name="account.getMultiWallPapers"></a>  
 
 ***
 <br><br>
@@ -232,6 +240,10 @@ $MadelineProto->[account->setContactSignUpNotification](account.setContactSignUp
 
 ***
 <br><br>
+$MadelineProto->[account->setContentSettings](account.setContentSettings.md)(\['sensitive_enabled' => [Bool](../types/Bool.md), \]) === [$Bool](../types/Bool.md)<a name="account.setContentSettings"></a>  
+
+***
+<br><br>
 $MadelineProto->[account->setPrivacy](account.setPrivacy.md)(\['key' => [InputPrivacyKey](../types/InputPrivacyKey.md), 'rules' => \[[InputPrivacyRule](../types/InputPrivacyRule.md)\], \]) === [$account.PrivacyRules](../types/account.PrivacyRules.md)<a name="account.setPrivacy"></a>  
 
 ***
@@ -260,7 +272,7 @@ $MadelineProto->[account->updateStatus](account.updateStatus.md)(\['offline' => 
 
 ***
 <br><br>
-$MadelineProto->[account->updateTheme](account.updateTheme.md)(\['format' => [string](../types/string.md), 'theme' => [InputTheme](../types/InputTheme.md), 'slug' => [string](../types/string.md), 'title' => [string](../types/string.md), 'document' => [InputDocument](../types/InputDocument.md), \]) === [$Theme](../types/Theme.md)<a name="account.updateTheme"></a>  
+$MadelineProto->[account->updateTheme](account.updateTheme.md)(\['format' => [string](../types/string.md), 'theme' => [InputTheme](../types/InputTheme.md), 'slug' => [string](../types/string.md), 'title' => [string](../types/string.md), 'document' => [InputDocument](../types/InputDocument.md), 'settings' => [InputThemeSettings](../types/InputThemeSettings.md), \]) === [$Theme](../types/Theme.md)<a name="account.updateTheme"></a>  
 
 ***
 <br><br>
@@ -284,6 +296,10 @@ $MadelineProto->[account->verifyPhone](account.verifyPhone.md)(\['phone_number' 
 
 ***
 <br><br>
+$MadelineProto->[auth->acceptLoginToken](auth.acceptLoginToken.md)(\['token' => [bytes](../types/bytes.md), \]) === [$Authorization](../types/Authorization.md)<a name="auth.acceptLoginToken"></a>  
+
+***
+<br><br>
 $MadelineProto->[auth->bindTempAuthKey](auth.bindTempAuthKey.md)(\['perm_auth_key_id' => [long](../types/long.md), 'nonce' => [long](../types/long.md), 'expires_at' => [int](../types/int.md), 'encrypted_message' => [bytes](../types/bytes.md), \]) === [$Bool](../types/Bool.md)<a name="auth.bindTempAuthKey"></a>  
 
 ***
@@ -304,11 +320,19 @@ $MadelineProto->[auth->exportAuthorization](auth.exportAuthorization.md)(\['dc_i
 
 ***
 <br><br>
+$MadelineProto->[auth->exportLoginToken](auth.exportLoginToken.md)(\['api_id' => [int](../types/int.md), 'api_hash' => [string](../types/string.md), 'except_ids' => \[[int](../types/int.md)\], \]) === [$auth.LoginToken](../types/auth.LoginToken.md)<a name="auth.exportLoginToken"></a>  
+
+***
+<br><br>
 $MadelineProto->[auth->importAuthorization](auth.importAuthorization.md)(\['id' => [int](../types/int.md), 'bytes' => [bytes](../types/bytes.md), \]) === [$auth.Authorization](../types/auth.Authorization.md)<a name="auth.importAuthorization"></a>  
 
 ***
 <br><br>
 $MadelineProto->[auth->importBotAuthorization](auth.importBotAuthorization.md)(\['api_id' => [int](../types/int.md), 'api_hash' => [string](../types/string.md), 'bot_auth_token' => [string](../types/string.md), \]) === [$auth.Authorization](../types/auth.Authorization.md)<a name="auth.importBotAuthorization"></a>  
+
+***
+<br><br>
+$MadelineProto->[auth->importLoginToken](auth.importLoginToken.md)(\['token' => [bytes](../types/bytes.md), \]) === [$auth.LoginToken](../types/auth.LoginToken.md)<a name="auth.importLoginToken"></a>  
 
 ***
 <br><br>
@@ -421,6 +445,10 @@ $MadelineProto->[channels->getFullChannel](channels.getFullChannel.md)(\['channe
 ***
 <br><br>
 $MadelineProto->[channels->getGroupsForDiscussion](channels.getGroupsForDiscussion.md)(\[\]) === [$messages.Chats](../types/messages.Chats.md)<a name="channels.getGroupsForDiscussion"></a>  
+
+***
+<br><br>
+$MadelineProto->[channels->getInactiveChannels](channels.getInactiveChannels.md)(\[\]) === [$messages.InactiveChats](../types/messages.InactiveChats.md)<a name="channels.getInactiveChannels"></a>  
 
 ***
 <br><br>
@@ -912,6 +940,10 @@ $MadelineProto->[messages->getPollResults](messages.getPollResults.md)(\['peer' 
 
 ***
 <br><br>
+$MadelineProto->[messages->getPollVotes](messages.getPollVotes.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'id' => [int](../types/int.md), 'option' => [bytes](../types/bytes.md), 'offset' => [string](../types/string.md), 'limit' => [int](../types/int.md), \]) === [$messages.VotesList](../types/messages.VotesList.md)<a name="messages.getPollVotes"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->getRecentLocations](messages.getRecentLocations.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'limit' => [int](../types/int.md), 'hash' => [int](../types/int.md), \]) === [$messages.Messages](../types/messages.Messages.md)<a name="messages.getRecentLocations"></a>  
 
 ***
@@ -1272,7 +1304,7 @@ $MadelineProto->[upload->getCdnFileHashes](upload.getCdnFileHashes.md)(\['file_t
 
 ***
 <br><br>
-$MadelineProto->[upload->getFile](upload.getFile.md)(\['precise' => [Bool](../types/Bool.md), 'location' => [InputFileLocation](../types/InputFileLocation.md), 'offset' => [int](../types/int.md), 'limit' => [int](../types/int.md), \]) === [$upload.File](../types/upload.File.md)<a name="upload.getFile"></a>  
+$MadelineProto->[upload->getFile](upload.getFile.md)(\['precise' => [Bool](../types/Bool.md), 'cdn_supported' => [Bool](../types/Bool.md), 'location' => [InputFileLocation](../types/InputFileLocation.md), 'offset' => [int](../types/int.md), 'limit' => [int](../types/int.md), \]) === [$upload.File](../types/upload.File.md)<a name="upload.getFile"></a>  
 
 ***
 <br><br>
