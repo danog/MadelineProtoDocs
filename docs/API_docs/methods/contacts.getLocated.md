@@ -14,7 +14,9 @@ Get contacts near you
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|background|[Bool](../types/Bool.md) |  | Optional|
 |geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Geolocation | Optional|
+|self\_expires|[int](../types/int.md) |  | Optional|
 
 
 ### Return type: [Updates](../types/Updates.md)
@@ -34,12 +36,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->contacts->getLocated(['geo_point' => InputGeoPoint, ]);
+$Updates = $MadelineProto->contacts->getLocated(['background' => Bool, 'geo_point' => InputGeoPoint, 'self_expires' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Updates = contacts.getLocated({geo_point=InputGeoPoint, })
+Updates = contacts.getLocated({background=Bool, geo_point=InputGeoPoint, self_expires=int, })
 ```
 

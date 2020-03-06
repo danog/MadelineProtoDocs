@@ -1,9 +1,9 @@
 ---
-title: MadelineProto API documentation (layer 109)
-description: MadelineProto API documentation (layer 109)
+title: MadelineProto API documentation (layer 110)
+description: MadelineProto API documentation (layer 110)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# MadelineProto API documentation (layer 109)  
+# MadelineProto API documentation (layer 110)  
 
 [Back to main documentation](..)  
 

@@ -1,16 +1,16 @@
 ---
-title: Null
-description: constructors and methods of type Null
+title: AccessPointRule
+description: constructors and methods of type AccessPointRule
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: Null  
+# Type: AccessPointRule  
 [Back to types index](index.md)
 
 
 
 ### Possible values (constructors):
 
-[null](../constructors/null.md)  
+[accessPointRule](../constructors/accessPointRule.md)  
 
 
 

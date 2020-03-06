@@ -47,6 +47,7 @@ Updates = contacts.acceptContact({id=InputUser, })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|CONTACT_ADD_MISSING||
 |400|CONTACT_REQ_MISSING|Missing contact request|
 
 

@@ -44,3 +44,10 @@ Or, if you're into Lua:
 messages.Messages = messages.getScheduledMessages({peer=InputPeer, id={int}, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
+
+

@@ -51,7 +51,9 @@ upload.File = upload.getFile({precise=Bool, cdn_supported=Bool, location=InputFi
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|CHANNEL_INVALID|The provided channel is invalid|
 |400|FILE_ID_INVALID|The provided file id is invalid|
+|400|FILE_REFERENCE_EXPIRED|File reference expired, it must be refetched as described in https://core.telegram.org/api/file_reference|
 |400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
 |400|LIMIT_INVALID|The provided limit is invalid|
 |400|LOCATION_INVALID|The provided location is invalid|

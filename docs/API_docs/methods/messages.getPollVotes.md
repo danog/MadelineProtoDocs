@@ -45,3 +45,10 @@ Or, if you're into Lua:
 messages.VotesList = messages.getPollVotes({peer=InputPeer, id=int, option='bytes', offset='string', limit=int, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|403|POLL_VOTE_REQUIRED|Cast a vote in the poll before calling this method|
+
+

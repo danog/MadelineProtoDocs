@@ -548,7 +548,7 @@ $MadelineProto->[contacts->getContacts](contacts.getContacts.md)(\['hash' => [in
 
 ***
 <br><br>
-$MadelineProto->[contacts->getLocated](contacts.getLocated.md)(\['geo_point' => [InputGeoPoint](../types/InputGeoPoint.md), \]) === [$Updates](../types/Updates.md)<a name="contacts.getLocated"></a>  
+$MadelineProto->[contacts->getLocated](contacts.getLocated.md)(\['background' => [Bool](../types/Bool.md), 'geo_point' => [InputGeoPoint](../types/InputGeoPoint.md), 'self_expires' => [int](../types/int.md), \]) === [$Updates](../types/Updates.md)<a name="contacts.getLocated"></a>  
 
 ***
 <br><br>
@@ -1180,6 +1180,10 @@ $MadelineProto->[messages->toggleDialogPin](messages.toggleDialogPin.md)(\['pinn
 
 ***
 <br><br>
+$MadelineProto->[messages->toggleStickerSets](messages.toggleStickerSets.md)(\['uninstall' => [Bool](../types/Bool.md), 'archive' => [Bool](../types/Bool.md), 'unarchive' => [Bool](../types/Bool.md), 'stickersets' => \[[InputStickerSet](../types/InputStickerSet.md)\], \]) === [$Bool](../types/Bool.md)<a name="messages.toggleStickerSets"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->uninstallStickerSet](messages.uninstallStickerSet.md)(\['stickerset' => [InputStickerSet](../types/InputStickerSet.md), \]) === [$Bool](../types/Bool.md)<a name="messages.uninstallStickerSet"></a>  
 
 ***
@@ -1197,6 +1201,10 @@ $MadelineProto->[messages->uploadMedia](messages.uploadMedia.md)(\['peer' => [In
 ***
 <br><br>
 $MadelineProto->[payments->clearSavedInfo](payments.clearSavedInfo.md)(\['credentials' => [Bool](../types/Bool.md), 'info' => [Bool](../types/Bool.md), \]) === [$Bool](../types/Bool.md)<a name="payments.clearSavedInfo"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->getBankCardData](payments.getBankCardData.md)(\['number' => [string](../types/string.md), \]) === [$payments.BankCardData](../types/payments.BankCardData.md)<a name="payments.getBankCardData"></a>  
 
 ***
 <br><br>

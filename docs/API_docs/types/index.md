@@ -7,11 +7,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Back to API documentation index](..)
 
 
+[AccessPointRule](AccessPointRule.md)<a name="AccessPointRule"></a>  
+
 [AccountDaysTTL](AccountDaysTTL.md)<a name="AccountDaysTTL"></a>  
 
 [Authorization](Authorization.md)<a name="Authorization"></a>  
 
 [AutoDownloadSettings](AutoDownloadSettings.md)<a name="AutoDownloadSettings"></a>  
+
+[BankCardOpenUrl](BankCardOpenUrl.md)<a name="BankCardOpenUrl"></a>  
 
 [BaseTheme](BaseTheme.md)<a name="BaseTheme"></a>  
 
@@ -217,6 +221,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [Invoice](Invoice.md)<a name="Invoice"></a>  
 
+[IpPort](IpPort.md)<a name="IpPort"></a>  
+
 [JSONObjectValue](JSONObjectValue.md)<a name="JSONObjectValue"></a>  
 
 [JSONValue](JSONValue.md)<a name="JSONValue"></a>  
@@ -254,8 +260,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [NearestDc](NearestDc.md)<a name="NearestDc"></a>  
 
 [NotifyPeer](NotifyPeer.md)<a name="NotifyPeer"></a>  
-
-[Null](Null.md)<a name="Null"></a>  
 
 [Page](Page.md)<a name="Page"></a>  
 
@@ -467,6 +471,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [help.AppUpdate](help.AppUpdate.md)<a name="help.AppUpdate"></a>  
 
+[help.ConfigSimple](help.ConfigSimple.md)<a name="help.ConfigSimple"></a>  
+
 [help.DeepLinkInfo](help.DeepLinkInfo.md)<a name="help.DeepLinkInfo"></a>  
 
 [help.InviteText](help.InviteText.md)<a name="help.InviteText"></a>  
@@ -544,6 +550,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [messages.Stickers](messages.Stickers.md)<a name="messages.Stickers"></a>  
 
 [messages.VotesList](messages.VotesList.md)<a name="messages.VotesList"></a>  
+
+[payments.BankCardData](payments.BankCardData.md)<a name="payments.BankCardData"></a>  
 
 [payments.PaymentForm](payments.PaymentForm.md)<a name="payments.PaymentForm"></a>  
 

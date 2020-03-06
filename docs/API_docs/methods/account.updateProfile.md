@@ -52,6 +52,7 @@ User = account.updateProfile({first_name='string', last_name='string', about='st
 |400|ABOUT_TOO_LONG|About string too long|
 |400|FIRSTNAME_INVALID|The first name is invalid|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
+|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
 |-503|Timeout|Timeout while fetching data|
 
 
