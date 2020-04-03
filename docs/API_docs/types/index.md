@@ -7,8 +7,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Back to API documentation index](..)
 
 
-[AccessPointRule](AccessPointRule.md)<a name="AccessPointRule"></a>  
-
 [AccountDaysTTL](AccountDaysTTL.md)<a name="AccountDaysTTL"></a>  
 
 [Authorization](Authorization.md)<a name="Authorization"></a>  
@@ -90,6 +88,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [DecryptedMessageMedia](DecryptedMessageMedia.md)<a name="DecryptedMessageMedia"></a>  
 
 [Dialog](Dialog.md)<a name="Dialog"></a>  
+
+[DialogFilter](DialogFilter.md)<a name="DialogFilter"></a>  
+
+[DialogFilterSuggested](DialogFilterSuggested.md)<a name="DialogFilterSuggested"></a>  
 
 [DialogPeer](DialogPeer.md)<a name="DialogPeer"></a>  
 
@@ -221,8 +223,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [Invoice](Invoice.md)<a name="Invoice"></a>  
 
-[IpPort](IpPort.md)<a name="IpPort"></a>  
-
 [JSONObjectValue](JSONObjectValue.md)<a name="JSONObjectValue"></a>  
 
 [JSONValue](JSONValue.md)<a name="JSONValue"></a>  
@@ -249,6 +249,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [MessageFwdHeader](MessageFwdHeader.md)<a name="MessageFwdHeader"></a>  
 
+[MessageInteractionCounters](MessageInteractionCounters.md)<a name="MessageInteractionCounters"></a>  
+
 [MessageMedia](MessageMedia.md)<a name="MessageMedia"></a>  
 
 [MessageRange](MessageRange.md)<a name="MessageRange"></a>  
@@ -260,6 +262,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [NearestDc](NearestDc.md)<a name="NearestDc"></a>  
 
 [NotifyPeer](NotifyPeer.md)<a name="NotifyPeer"></a>  
+
+[Null](Null.md)<a name="Null"></a>  
 
 [Page](Page.md)<a name="Page"></a>  
 
@@ -360,6 +364,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [SendMessageAction](SendMessageAction.md)<a name="SendMessageAction"></a>  
 
 [ShippingOption](ShippingOption.md)<a name="ShippingOption"></a>  
+
+[StatsAbsValueAndPrev](StatsAbsValueAndPrev.md)<a name="StatsAbsValueAndPrev"></a>  
+
+[StatsDateRangeDays](StatsDateRangeDays.md)<a name="StatsDateRangeDays"></a>  
+
+[StatsGraph](StatsGraph.md)<a name="StatsGraph"></a>  
+
+[StatsPercentValue](StatsPercentValue.md)<a name="StatsPercentValue"></a>  
 
 [StatsURL](StatsURL.md)<a name="StatsURL"></a>  
 
@@ -471,8 +483,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [help.AppUpdate](help.AppUpdate.md)<a name="help.AppUpdate"></a>  
 
-[help.ConfigSimple](help.ConfigSimple.md)<a name="help.ConfigSimple"></a>  
-
 [help.DeepLinkInfo](help.DeepLinkInfo.md)<a name="help.DeepLinkInfo"></a>  
 
 [help.InviteText](help.InviteText.md)<a name="help.InviteText"></a>  
@@ -568,6 +578,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [photos.Photo](photos.Photo.md)<a name="photos.Photo"></a>  
 
 [photos.Photos](photos.Photos.md)<a name="photos.Photos"></a>  
+
+[stats.BroadcastStats](stats.BroadcastStats.md)<a name="stats.BroadcastStats"></a>  
 
 [storage.FileType](storage.FileType.md)<a name="storage.FileType"></a>  
 

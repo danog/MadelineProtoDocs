@@ -18,6 +18,7 @@ Protocol info for libtgvoip
 |udp\_reflector|[Bool](../types/Bool.md) | Optional|Whether to allow connection to the other participants through the reflector servers|
 |min\_layer|[int](../types/int.md) | Yes|Minimum layer for remote libtgvoip|
 |max\_layer|[int](../types/int.md) | Yes|Maximum layer for remote libtgvoip|
+|library\_versions|Array of [string](../types/string.md) | Yes||
 
 
 
@@ -27,14 +28,14 @@ Protocol info for libtgvoip
 ### Example:
 
 ```php
-$phoneCallProtocol = ['_' => 'phoneCallProtocol', 'udp_p2p' => Bool, 'udp_reflector' => Bool, 'min_layer' => int, 'max_layer' => int];
+$phoneCallProtocol = ['_' => 'phoneCallProtocol', 'udp_p2p' => Bool, 'udp_reflector' => Bool, 'min_layer' => int, 'max_layer' => int, 'library_versions' => ['string', 'string']];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-phoneCallProtocol={_='phoneCallProtocol', udp_p2p=Bool, udp_reflector=Bool, min_layer=int, max_layer=int}
+phoneCallProtocol={_='phoneCallProtocol', udp_p2p=Bool, udp_reflector=Bool, min_layer=int, max_layer=int, library_versions={'string'}}
 
 ```
 

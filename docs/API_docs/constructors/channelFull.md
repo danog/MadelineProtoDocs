@@ -45,6 +45,7 @@ Full info about a [channel/supergroup](https://core.telegram.org/api/channel)
 |location|[ChannelLocation](../types/ChannelLocation.md) | Optional|Location of the geogroup|
 |slowmode\_seconds|[int](../types/int.md) | Optional|If specified, users in supergroups will only be able to send one message every `slowmode_seconds` seconds|
 |slowmode\_next\_send\_date|[int](../types/int.md) | Optional|Indicates when the user will be allowed to send another message in the supergroup (unixdate)|
+|stats\_dc|[int](../types/int.md) | Optional||
 |pts|[int](../types/int.md) | Yes|Latest [PTS](https://core.telegram.org/api/updates) for this channel|
 
 
@@ -55,14 +56,14 @@ Full info about a [channel/supergroup](https://core.telegram.org/api/channel)
 ### Example:
 
 ```php
-$channelFull = ['_' => 'channelFull', 'can_view_participants' => Bool, 'can_set_username' => Bool, 'can_set_stickers' => Bool, 'hidden_prehistory' => Bool, 'can_view_stats' => Bool, 'can_set_location' => Bool, 'has_scheduled' => Bool, 'id' => int, 'about' => 'string', 'participants_count' => int, 'admins_count' => int, 'kicked_count' => int, 'banned_count' => int, 'online_count' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'unread_count' => int, 'chat_photo' => Photo, 'notify_settings' => PeerNotifySettings, 'exported_invite' => ExportedChatInvite, 'bot_info' => [BotInfo, BotInfo], 'migrated_from_chat_id' => int, 'migrated_from_max_id' => int, 'pinned_msg_id' => int, 'stickerset' => StickerSet, 'available_min_id' => int, 'folder_id' => int, 'linked_chat_id' => int, 'location' => ChannelLocation, 'slowmode_seconds' => int, 'slowmode_next_send_date' => int, 'pts' => int];
+$channelFull = ['_' => 'channelFull', 'can_view_participants' => Bool, 'can_set_username' => Bool, 'can_set_stickers' => Bool, 'hidden_prehistory' => Bool, 'can_view_stats' => Bool, 'can_set_location' => Bool, 'has_scheduled' => Bool, 'id' => int, 'about' => 'string', 'participants_count' => int, 'admins_count' => int, 'kicked_count' => int, 'banned_count' => int, 'online_count' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'unread_count' => int, 'chat_photo' => Photo, 'notify_settings' => PeerNotifySettings, 'exported_invite' => ExportedChatInvite, 'bot_info' => [BotInfo, BotInfo], 'migrated_from_chat_id' => int, 'migrated_from_max_id' => int, 'pinned_msg_id' => int, 'stickerset' => StickerSet, 'available_min_id' => int, 'folder_id' => int, 'linked_chat_id' => int, 'location' => ChannelLocation, 'slowmode_seconds' => int, 'slowmode_next_send_date' => int, 'stats_dc' => int, 'pts' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-channelFull={_='channelFull', can_view_participants=Bool, can_set_username=Bool, can_set_stickers=Bool, hidden_prehistory=Bool, can_view_stats=Bool, can_set_location=Bool, has_scheduled=Bool, id=int, about='string', participants_count=int, admins_count=int, kicked_count=int, banned_count=int, online_count=int, read_inbox_max_id=int, read_outbox_max_id=int, unread_count=int, chat_photo=Photo, notify_settings=PeerNotifySettings, exported_invite=ExportedChatInvite, bot_info={BotInfo}, migrated_from_chat_id=int, migrated_from_max_id=int, pinned_msg_id=int, stickerset=StickerSet, available_min_id=int, folder_id=int, linked_chat_id=int, location=ChannelLocation, slowmode_seconds=int, slowmode_next_send_date=int, pts=int}
+channelFull={_='channelFull', can_view_participants=Bool, can_set_username=Bool, can_set_stickers=Bool, hidden_prehistory=Bool, can_view_stats=Bool, can_set_location=Bool, has_scheduled=Bool, id=int, about='string', participants_count=int, admins_count=int, kicked_count=int, banned_count=int, online_count=int, read_inbox_max_id=int, read_outbox_max_id=int, unread_count=int, chat_photo=Photo, notify_settings=PeerNotifySettings, exported_invite=ExportedChatInvite, bot_info={BotInfo}, migrated_from_chat_id=int, migrated_from_max_id=int, pinned_msg_id=int, stickerset=StickerSet, available_min_id=int, folder_id=int, linked_chat_id=int, location=ChannelLocation, slowmode_seconds=int, slowmode_next_send_date=int, stats_dc=int, pts=int}
 
 ```
 

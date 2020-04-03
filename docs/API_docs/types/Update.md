@@ -164,6 +164,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateMessagePollVote](../constructors/updateMessagePollVote.md)  
 
+[updateDialogFilter](../constructors/updateDialogFilter.md)  
+
+[updateDialogFilterOrder](../constructors/updateDialogFilterOrder.md)  
+
+[updateDialogFilters](../constructors/updateDialogFilters.md)  
+
 
 
 ### Methods that return an object of this type (methods):

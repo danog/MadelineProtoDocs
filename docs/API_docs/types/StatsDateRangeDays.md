@@ -1,18 +1,16 @@
 ---
-title: IpPort
-description: constructors and methods of type IpPort
+title: StatsDateRangeDays
+description: constructors and methods of type StatsDateRangeDays
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: IpPort  
+# Type: StatsDateRangeDays  
 [Back to types index](index.md)
 
 
 
 ### Possible values (constructors):
 
-[ipPort](../constructors/ipPort.md)  
-
-[ipPortSecret](../constructors/ipPortSecret.md)  
+[statsDateRangeDays](../constructors/statsDateRangeDays.md)  
 
 
 

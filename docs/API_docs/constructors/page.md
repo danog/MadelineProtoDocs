@@ -21,6 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |blocks|Array of [PageBlock](../types/PageBlock.md) | Yes|Blocks|
 |photos|Array of [Photo](../types/Photo.md) | Yes|Photos|
 |documents|Array of [Document](../types/Document.md) | Yes|Documents|
+|views|[int](../types/int.md) | Optional||
 
 
 
@@ -30,14 +31,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```php
-$page = ['_' => 'page', 'part' => Bool, 'rtl' => Bool, 'v2' => Bool, 'url' => 'string', 'blocks' => [PageBlock, PageBlock], 'photos' => [Photo, Photo], 'documents' => [Document, Document]];
+$page = ['_' => 'page', 'part' => Bool, 'rtl' => Bool, 'v2' => Bool, 'url' => 'string', 'blocks' => [PageBlock, PageBlock], 'photos' => [Photo, Photo], 'documents' => [Document, Document], 'views' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-page={_='page', part=Bool, rtl=Bool, v2=Bool, url='string', blocks={PageBlock}, photos={Photo}, documents={Document}}
+page={_='page', part=Bool, rtl=Bool, v2=Bool, url='string', blocks={PageBlock}, photos={Photo}, documents={Document}, views=int}
 
 ```
 

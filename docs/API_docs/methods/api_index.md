@@ -848,6 +848,10 @@ $MadelineProto->[messages->getDhConfig](messages.getDhConfig.md)(\['version' => 
 
 ***
 <br><br>
+$MadelineProto->[messages->getDialogFilters](messages.getDialogFilters.md)(\[\]) === [$Vector\_of\_DialogFilter](../types/DialogFilter.md)<a name="messages.getDialogFilters"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->getDialogUnreadMarks](messages.getDialogUnreadMarks.md)(\[\]) === [$Vector\_of\_DialogPeer](../types/DialogPeer.md)<a name="messages.getDialogUnreadMarks"></a>  
 
 ***
@@ -981,6 +985,10 @@ $MadelineProto->[messages->getStickerSet](messages.getStickerSet.md)(\['stickers
 ***
 <br><br>
 $MadelineProto->[messages->getStickers](messages.getStickers.md)(\['emoticon' => [string](../types/string.md), 'hash' => [int](../types/int.md), \]) === [$messages.Stickers](../types/messages.Stickers.md)<a name="messages.getStickers"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->getSuggestedDialogFilters](messages.getSuggestedDialogFilters.md)(\[\]) === [$Vector\_of\_DialogFilterSuggested](../types/DialogFilterSuggested.md)<a name="messages.getSuggestedDialogFilters"></a>  
 
 ***
 <br><br>
@@ -1188,6 +1196,14 @@ $MadelineProto->[messages->uninstallStickerSet](messages.uninstallStickerSet.md)
 
 ***
 <br><br>
+$MadelineProto->[messages->updateDialogFilter](messages.updateDialogFilter.md)(\['id' => [int](../types/int.md), 'filter' => [DialogFilter](../types/DialogFilter.md), \]) === [$Bool](../types/Bool.md)<a name="messages.updateDialogFilter"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->updateDialogFiltersOrder](messages.updateDialogFiltersOrder.md)(\['order' => \[[int](../types/int.md)\], \]) === [$Bool](../types/Bool.md)<a name="messages.updateDialogFiltersOrder"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->updatePinnedMessage](messages.updatePinnedMessage.md)(\['silent' => [Bool](../types/Bool.md), 'peer' => [InputPeer](../types/InputPeer.md), 'id' => [int](../types/int.md), \]) === [$Updates](../types/Updates.md)<a name="messages.updatePinnedMessage"></a>  
 
 ***
@@ -1273,6 +1289,14 @@ $MadelineProto->[photos->updateProfilePhoto](photos.updateProfilePhoto.md)(\['id
 ***
 <br><br>
 $MadelineProto->[photos->uploadProfilePhoto](photos.uploadProfilePhoto.md)(\['file' => [InputFile](../types/InputFile.md), \]) === [$photos.Photo](../types/photos.Photo.md)<a name="photos.uploadProfilePhoto"></a>  
+
+***
+<br><br>
+$MadelineProto->[stats->getBroadcastStats](stats.getBroadcastStats.md)(\['dark' => [Bool](../types/Bool.md), 'channel' => [InputChannel](../types/InputChannel.md), \]) === [$stats.BroadcastStats](../types/stats.BroadcastStats.md)<a name="stats.getBroadcastStats"></a>  
+
+***
+<br><br>
+$MadelineProto->[stats->loadAsyncGraph](stats.loadAsyncGraph.md)(\['token' => [string](../types/string.md), 'x' => [long](../types/long.md), \]) === [$StatsGraph](../types/StatsGraph.md)<a name="stats.loadAsyncGraph"></a>  
 
 ***
 <br><br>

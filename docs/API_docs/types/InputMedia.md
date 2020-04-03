@@ -42,6 +42,8 @@ You can also provide a [MessageMedia](MessageMedia.md), [Message](Message.md), [
 
 [inputMediaPoll](../constructors/inputMediaPoll.md)  
 
+[inputMediaDice](../constructors/inputMediaDice.md)  
+
 
 
 ### Methods that return an object of this type (methods):

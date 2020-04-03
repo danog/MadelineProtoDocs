@@ -10,6 +10,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 The preview of the webpage hasn't changed
 
+### Attributes:
+
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|cached\_page\_views|[int](../types/int.md) | Optional||
 
 
 
@@ -19,14 +24,14 @@ The preview of the webpage hasn't changed
 ### Example:
 
 ```php
-$webPageNotModified = ['_' => 'webPageNotModified'];
+$webPageNotModified = ['_' => 'webPageNotModified', 'cached_page_views' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-webPageNotModified={_='webPageNotModified'}
+webPageNotModified={_='webPageNotModified', cached_page_views=int}
 
 ```
 
