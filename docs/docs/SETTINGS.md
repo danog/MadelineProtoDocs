@@ -437,6 +437,65 @@ Description: Serialization will be made automatically every N seconds
 
 ### `$settings['serialization']['cleanup_before_serialization']`
 Default: false  
-Description: Remove data from internal database to cleanup memory and reduce `*.madeline` file size (may cause MadelineProto errors).
+Description: Remove data from the internal database to clean up memory and reduce `*.madeline` file size (may cause MadelineProto errors).
+
+<hr>
+## `$settings['db']`
+
+Settings for database connection.
+
+### `$settings['db']['type']`
+Default: 'memory'  
+Description: By default madelineProto keeps all data and caches in memory: chats, file references, username cache, etc.
+This data can require up to 1Gb of ram and more on some accounts.
+MadelineProto can keep part of this data in a database, such as mysql or mariadb. 
+
+MariaDb 10.2+ or Mysql 5.6+ required.
+
+Change type to 'mysql' to store data in a database. 
+On first start after switching type all data will be migrated from memory to database. 
+Database to memory migration/convertation also supported.
+
+Database and tables will be created automatically.
+
+### `$settings['db']['mysql']['host']`
+Default: `'127.0.0.1'`
+Description: Mysql host
+
+### `$settings['db']['mysql']['port']`
+Default: 3306
+Description: Mysql port
+
+### `$settings['db']['mysql']['user']`
+Default: `'root'`
+Description: Mysql username
+
+### `$settings['db']['mysql']['password']`
+Default: `''`
+Description: Mysql password
+
+### `$settings['db']['mysql']['database']`
+Default: `'MadelineProto'`
+Description: Name of database. It will be created on first start.
+
+### `$settings['db']['mysql']['max_connections']`
+Default: 10
+Description: Limit of concurrent connections. 
+
+This value must not exceed mysql 'max_user_connections' setting.
+
+### `$settings['db']['mysql']['idle_timeout']`
+Default: 60
+Description: Number of seconds until connection will be closed.
+
+### `$settings['db']['mysql']['cache_ttl']`
+Default: `'+5 minutes'`
+Description: Time offset to control how long data is cached in memory.
+This value can be in any format supported by `strtotime` function. 
+
+When data retrieved from a database its stored in memory. 
+This helps to reduce latency, improve speed and reduce mysql load.
+Data will be remove from cache if last access was more than this amount of time.
+Clean up is done once per minute.
 
 <a href="https://docs.madelineproto.xyz/docs/SELF.html">Next section</a>
