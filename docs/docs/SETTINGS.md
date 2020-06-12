@@ -445,7 +445,7 @@ Description: Remove data from the internal database to clean up memory and reduc
 Settings for database connection.
 
 ### `$settings['db']['type']`
-Default: 'memory'  
+Default: `'memory'`  
 Description: By default madelineProto keeps all data and caches in memory: chats, file references, username cache, etc.
 This data can require up to 1Gb of ram and more on some accounts.
 MadelineProto can keep part of this data in a database, such as mysql or mariadb. 
@@ -459,38 +459,38 @@ Database to memory migration/convertation also supported.
 Database and tables will be created automatically.
 
 ### `$settings['db']['mysql']['host']`
-Default: `'127.0.0.1'`
+Default: `'127.0.0.1'`  
 Description: Mysql host
 
 ### `$settings['db']['mysql']['port']`
-Default: 3306
+Default: 3306  
 Description: Mysql port
 
 ### `$settings['db']['mysql']['user']`
-Default: `'root'`
+Default: `'root'`  
 Description: Mysql username
 
 ### `$settings['db']['mysql']['password']`
-Default: `''`
+Default: `''`  
 Description: Mysql password
 
 ### `$settings['db']['mysql']['database']`
-Default: `'MadelineProto'`
+Default: `'MadelineProto'`  
 Description: Name of database. It will be created on first start.
 
 ### `$settings['db']['mysql']['max_connections']`
-Default: 10
+Default: 10  
 Description: Limit of concurrent connections. 
 
 This value must not exceed mysql 'max_user_connections' setting.
 
 ### `$settings['db']['mysql']['idle_timeout']`
-Default: 60
+Default: 60  
 Description: Number of seconds until connection will be closed.
 
 ### `$settings['db']['mysql']['cache_ttl']`
-Default: `'+5 minutes'`
-Description: Time offset to control how long data is cached in memory.
+Default: `'+5 minutes'`  
+Description: Time offset to control how long data will be stored in memory.
 This value can be in any format supported by `strtotime` function. 
 
 When data retrieved from a database its stored in memory. 
