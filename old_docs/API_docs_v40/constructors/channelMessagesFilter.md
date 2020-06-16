@@ -14,7 +14,8 @@ Filter for getting only certain types of channel messages
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|ranges|Array of [MessageRange](../types/MessageRange.md) | Yes|Ranges|
+|exclude\_new\_messages|[Bool](../types/Bool.md) | Optional|Whether to exclude new messages from the search|
+|ranges|Array of [MessageRange](../types/MessageRange.md) | Yes|A range of messages to fetch|
 
 
 
@@ -24,14 +25,14 @@ Filter for getting only certain types of channel messages
 ### Example:
 
 ```php
-$channelMessagesFilter = ['_' => 'channelMessagesFilter', 'ranges' => [MessageRange, MessageRange]];
+$channelMessagesFilter = ['_' => 'channelMessagesFilter', 'exclude_new_messages' => Bool, 'ranges' => [MessageRange, MessageRange]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-channelMessagesFilter={_='channelMessagesFilter', ranges={MessageRange}}
+channelMessagesFilter={_='channelMessagesFilter', exclude_new_messages=Bool, ranges={MessageRange}}
 
 ```
 

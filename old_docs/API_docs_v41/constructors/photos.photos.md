@@ -15,8 +15,8 @@ Full list of photos with auxiliary data.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|photos|Array of [Photo](../types/Photo.md) | Yes|Photos|
-|users|Array of [User](../types/User.md) | Yes|Users|
+|photos|Array of [Photo](../types/Photo.md) | Yes|List of photos|
+|users|Array of [User](../types/User.md) | Yes|List of mentioned users|
 
 
 

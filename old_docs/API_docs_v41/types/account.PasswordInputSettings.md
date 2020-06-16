@@ -4,7 +4,7 @@ description: constructors and methods of type account.PasswordInputSettings
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/account_PasswordInputSettings.html
 ---
-# Type: account.PasswordInputSettings  
+# Type: account.PasswordInputSettings
 [Back to types index](index.md)
 
 
@@ -18,4 +18,6 @@ redirect_from: /API_docs/types/account_PasswordInputSettings.html
 ### Methods that return an object of this type (methods):
 
 
+
+[account.passwordInputSettings](../constructors/account.passwordInputSettings.md)  
 

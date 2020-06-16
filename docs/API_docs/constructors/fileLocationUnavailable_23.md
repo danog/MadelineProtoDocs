@@ -1,6 +1,6 @@
 ---
 title: fileLocationUnavailable
-description: File location unavailable
+description: fileLocationUnavailable attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: fileLocationUnavailable\_23  
@@ -8,15 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-File location unavailable
-
 ### Attributes:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|volume\_id|[long](../types/long.md) | Yes|Volume ID|
-|local\_id|[int](../types/int.md) | Yes|Local ID|
-|secret|[long](../types/long.md) | Yes|Secret|
+| Name     |    Type       | Required |
+|----------|---------------|----------|
+|volume\_id|[long](../types/long.md) | Yes|
+|local\_id|[int](../types/int.md) | Yes|
+|secret|[long](../types/long.md) | Yes|
 
 
 

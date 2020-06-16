@@ -4,7 +4,7 @@ description: constructors and methods of type messages.AffectedHistory
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/messages_AffectedHistory.html
 ---
-# Type: messages.AffectedHistory  
+# Type: messages.AffectedHistory
 [Back to types index](index.md)
 
 
@@ -17,9 +17,19 @@ redirect_from: /API_docs/types/messages_AffectedHistory.html
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->readHistory](../methods/messages.readHistory.md)  
+[$MadelineProto->messages->deleteHistory](../methods/messages.deleteHistory.md)  
+
+[$MadelineProto->messages->readMentions](../methods/messages.readMentions.md)  
+
+[$MadelineProto->channels->deleteUserHistory](../methods/channels.deleteUserHistory.md)  
+
+
+
+[messages.affectedHistory](../constructors/messages.affectedHistory.md)  
 
 [$MadelineProto->messages->deleteHistory](../methods/messages.deleteHistory.md)  
 
+[$MadelineProto->messages->readMentions](../methods/messages.readMentions.md)  
 
+[$MadelineProto->channels->deleteUserHistory](../methods/channels.deleteUserHistory.md)  
 

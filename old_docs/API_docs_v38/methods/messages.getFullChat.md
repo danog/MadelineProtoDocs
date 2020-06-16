@@ -1,20 +1,21 @@
 ---
 title: messages.getFullChat
-description: You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info)
+description: Returns full chat info according to its ID.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getFullChat.html
 ---
-# Method: messages.getFullChat  
+# Method: messages.getFullChat
 [Back to methods index](index.md)
 
 
-You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info)
+
+Returns full chat info according to its ID.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info) | Optional|
+|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
 
 
 ### Return type: [messages.ChatFull](../types/messages.ChatFull.md)
@@ -49,5 +50,6 @@ messages.ChatFull = messages.getFullChat({chat_id=InputPeer, })
 |------|----------|---------------|
 |400|CHAT_ID_INVALID|The provided chat id is invalid|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
+|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
 
 

@@ -1,21 +1,20 @@
 ---
 title: auth.sendInvites
-description: Invite friends to telegram!
+description: auth.sendInvites parameters, return type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_sendInvites.html
 ---
-# Method: auth.sendInvites  
+# Method: auth.sendInvites
 [Back to methods index](index.md)
 
 
-Invite friends to telegram!
 
 ### Parameters:
 
-| Name     |    Type       | Description | Required |
-|----------|---------------|-------------|----------|
-|phone\_numbers|Array of [string](../types/string.md) | Phone numbers to invite | Yes|
-|message|[string](../types/string.md) | The message to send | Yes|
+| Name     |    Type       | Required |
+|----------|---------------|----------|
+|phone\_numbers|Array of [string](../types/string.md) | Yes|
+|message|[string](../types/string.md) | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

@@ -1,6 +1,6 @@
 ---
 title: auth.checkedPhone
-description: Checked phone
+description: auth.checkedPhone attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/auth_checkedPhone.html
 ---
@@ -9,13 +9,11 @@ redirect_from: /API_docs/constructors/auth_checkedPhone.html
 
 
 
-Checked phone
-
 ### Attributes:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|phone\_registered|[Bool](../types/Bool.md) | Yes|Phone registered?|
+| Name     |    Type       | Required |
+|----------|---------------|----------|
+|phone\_registered|[Bool](../types/Bool.md) | Yes|
 
 
 

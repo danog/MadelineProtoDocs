@@ -14,7 +14,7 @@ Messages marked as read.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|random\_ids|Array of [long](../types/long.md) | Yes|Random IDs|
+|random\_ids|Array of [long](../types/long.md) | Yes|List of message IDs|
 
 
 

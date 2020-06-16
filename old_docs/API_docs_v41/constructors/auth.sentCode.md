@@ -15,10 +15,10 @@ Contains info about a sent verification code.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|phone\_registered|[Bool](../types/Bool.md) | Yes|Phone registered?|
+|type|[auth.SentCodeType](../constructors/auth.SentCodeType.md) | Yes|Phone code type|
 |phone\_code\_hash|[string](../types/string.md) | Yes|Phone code hash, to be stored and later re-used with [auth.signIn](../methods/auth.signIn.md)|
-|send\_call\_timeout|[int](../types/int.md) | Yes|Send call timeout|
-|is\_password|[Bool](../types/Bool.md) | Yes|Is password?|
+|next\_type|[auth.CodeType](../constructors/auth.CodeType.md) | Optional|Phone code type that will be sent next, if the phone code is not received within `timeout` seconds: to send it use [auth.resendCode](../methods/auth.resendCode.md)|
+|timeout|[int](../types/int.md) | Optional|Timeout for reception of the phone code|
 
 
 
@@ -28,14 +28,14 @@ Contains info about a sent verification code.
 ### Example:
 
 ```php
-$auth.sentCode = ['_' => 'auth.sentCode', 'phone_registered' => Bool, 'phone_code_hash' => 'string', 'send_call_timeout' => int, 'is_password' => Bool];
+$auth.sentCode = ['_' => 'auth.sentCode', 'type' => auth.SentCodeType, 'phone_code_hash' => 'string', 'next_type' => auth.CodeType, 'timeout' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-auth.sentCode={_='auth.sentCode', phone_registered=Bool, phone_code_hash='string', send_call_timeout=int, is_password=Bool}
+auth.sentCode={_='auth.sentCode', type=auth.SentCodeType, phone_code_hash='string', next_type=auth.CodeType, timeout=int}
 
 ```
 

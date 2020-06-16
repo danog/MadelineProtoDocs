@@ -14,7 +14,7 @@ Messages were deleted.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|messages|Array of [int](../types/int.md) | Yes|Messages|
+|messages|Array of [int](../types/int.md) | Yes|List of identifiers of deleted messages|
 |pts|[int](../types/int.md) | Yes|New quality of actions in a message box|
 |pts\_count|[int](../types/int.md) | Yes|Number of generated [events](https://core.telegram.org/api/updates)|
 

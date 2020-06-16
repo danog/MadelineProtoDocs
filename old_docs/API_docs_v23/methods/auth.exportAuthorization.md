@@ -1,20 +1,21 @@
 ---
 title: auth.exportAuthorization
-description: You cannot use this method directly, use $MadelineProto->exportAuthorization() instead, see https://docs.madelineproto.xyz/docs/LOGIN.html
+description: Returns data for copying authorization to another data-centre.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_exportAuthorization.html
 ---
-# Method: auth.exportAuthorization  
+# Method: auth.exportAuthorization
 [Back to methods index](index.md)
 
 
-You cannot use this method directly, use $MadelineProto->exportAuthorization() instead, see https://docs.madelineproto.xyz/docs/LOGIN.html
+
+Returns data for copying authorization to another data-centre.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|dc\_id|[int](../types/int.md) | You cannot use this method directly, use $MadelineProto->exportAuthorization() instead, see https://docs.madelineproto.xyz/docs/LOGIN.html | Yes|
+|dc\_id|[int](../types/int.md) | Number of a target data-centre | Yes|
 
 
 ### Return type: [auth.ExportedAuthorization](../types/auth.ExportedAuthorization.md)

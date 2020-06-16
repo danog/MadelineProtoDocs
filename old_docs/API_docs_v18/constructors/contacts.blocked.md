@@ -15,8 +15,8 @@ Full list of blocked users.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|blocked|Array of [ContactBlocked](../types/ContactBlocked.md) | Yes|Blocked|
-|users|Array of [User](../types/User.md) | Yes|Users|
+|blocked|Array of [ContactBlocked](../types/ContactBlocked.md) | Yes|List of blocked users|
+|users|Array of [User](../types/User.md) | Yes|List of users|
 
 
 

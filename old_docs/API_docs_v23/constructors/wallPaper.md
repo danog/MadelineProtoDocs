@@ -14,10 +14,10 @@ Wallpaper settings.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID|
-|title|[string](../types/string.md) | Yes|Title|
-|sizes|Array of [PhotoSize](../types/PhotoSize.md) | Yes|Sizes|
-|color|[int](../types/int.md) | Yes|Color|
+|id|[int](../types/int.md) | Yes|
+|title|[string](../types/string.md) | Yes|
+|sizes|Array of [PhotoSize](../types/PhotoSize.md) | Yes|
+|color|[int](../types/int.md) | Yes|
 
 
 

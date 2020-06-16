@@ -1,22 +1,23 @@
 ---
 title: upload.getFile
-description: You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info
+description: Returns content of a whole file or its part.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/upload_getFile.html
 ---
-# Method: upload.getFile  
+# Method: upload.getFile
 [Back to methods index](index.md)
 
 
-You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info
+
+Returns content of a whole file or its part.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|location|[InputFileLocation](../types/InputFileLocation.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
-|offset|[int](../types/int.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
-|limit|[int](../types/int.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
+|location|[InputFileLocation](../types/InputFileLocation.md) | File location | Yes|
+|offset|[int](../types/int.md) | Number of bytes to be skipped | Yes|
+|limit|[int](../types/int.md) | Number of bytes to be returned | Yes|
 
 
 ### Return type: [upload.File](../types/upload.File.md)
@@ -49,7 +50,10 @@ upload.File = upload.getFile({location=InputFileLocation, offset=int, limit=int,
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|CHANNEL_INVALID|The provided channel is invalid|
+|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|FILE_ID_INVALID|The provided file id is invalid|
+|400|FILE_REFERENCE_EXPIRED|File reference expired, it must be refetched as described in https://core.telegram.org/api/file_reference|
 |400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
 |400|LIMIT_INVALID|The provided limit is invalid|
 |400|LOCATION_INVALID|The provided location is invalid|

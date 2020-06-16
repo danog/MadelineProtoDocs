@@ -4,8 +4,9 @@ description: Returns the list of user photos.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/photos_getUserPhotos.html
 ---
-# Method: photos.getUserPhotos  
+# Method: photos.getUserPhotos
 [Back to methods index](index.md)
+
 
 
 Returns the list of user photos.
@@ -16,7 +17,7 @@ Returns the list of user photos.
 |----------|---------------|-------------|----------|
 |user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | User ID | Optional|
 |offset|[int](../types/int.md) | Number of list elements to be skipped | Yes|
-|max\_id|[int](../types/int.md) | Maximum ID of photo to return | Yes|
+|max\_id|[long](../types/long.md) | If a positive value was transferred, the method will return only photos with IDs less than the set one | Yes|
 |limit|[int](../types/int.md) | Number of list elements to be returned | Yes|
 
 
@@ -37,13 +38,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$photos.Photos = $MadelineProto->photos->getUserPhotos(['user_id' => InputUser, 'offset' => int, 'max_id' => int, 'limit' => int, ]);
+$photos.Photos = $MadelineProto->photos->getUserPhotos(['user_id' => InputUser, 'offset' => int, 'max_id' => long, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-photos.Photos = photos.getUserPhotos({user_id=InputUser, offset=int, max_id=int, limit=int, })
+photos.Photos = photos.getUserPhotos({user_id=InputUser, offset=int, max_id=long, limit=int, })
 ```
 
 ### Errors
@@ -52,5 +53,6 @@ photos.Photos = photos.getUserPhotos({user_id=InputUser, offset=int, max_id=int,
 |------|----------|---------------|
 |400|MAX_ID_INVALID|The provided max ID is invalid|
 |400|USER_ID_INVALID|The provided user ID is invalid|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 
 

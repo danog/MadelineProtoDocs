@@ -1,20 +1,19 @@
 ---
 title: auth.checkPhone
-description: Check if this phone number is registered on telegram
+description: auth.checkPhone parameters, return type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_checkPhone.html
 ---
-# Method: auth.checkPhone  
+# Method: auth.checkPhone
 [Back to methods index](index.md)
 
 
-Check if this phone number is registered on telegram
 
 ### Parameters:
 
-| Name     |    Type       | Description | Required |
-|----------|---------------|-------------|----------|
-|phone\_number|[string](../types/string.md) | The phone number to check | Yes|
+| Name     |    Type       | Required |
+|----------|---------------|----------|
+|phone\_number|[string](../types/string.md) | Yes|
 
 
 ### Return type: [auth.CheckedPhone](../types/auth.CheckedPhone.md)

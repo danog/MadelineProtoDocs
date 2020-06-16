@@ -15,6 +15,7 @@ Forwarded photo
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |id|[MessageMedia, Message, Update or InputPhoto](../types/InputPhoto.md) | Optional|Photo to be forwarded|
+|ttl\_seconds|[int](../types/int.md) | Optional|Time to live in seconds of self-destructing photo|
 
 
 
@@ -24,14 +25,14 @@ Forwarded photo
 ### Example:
 
 ```php
-$inputMediaPhoto = ['_' => 'inputMediaPhoto', 'id' => InputPhoto];
+$inputMediaPhoto = ['_' => 'inputMediaPhoto', 'id' => InputPhoto, 'ttl_seconds' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-inputMediaPhoto={_='inputMediaPhoto', id=InputPhoto}
+inputMediaPhoto={_='inputMediaPhoto', id=InputPhoto, ttl_seconds=int}
 
 ```
 

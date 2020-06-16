@@ -3,7 +3,7 @@ title: EncryptedChat
 description: constructors and methods of type EncryptedChat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: EncryptedChat  
+# Type: EncryptedChat
 [Back to types index](index.md)
 
 
@@ -29,4 +29,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [$MadelineProto->messages->acceptEncryption](../methods/messages.acceptEncryption.md)  
 
 
+
+[encryptedChatEmpty](../constructors/encryptedChatEmpty.md)  
+
+[encryptedChatWaiting](../constructors/encryptedChatWaiting.md)  
+
+[encryptedChatRequested](../constructors/encryptedChatRequested.md)  
+
+[encryptedChat](../constructors/encryptedChat.md)  
+
+[encryptedChatDiscarded](../constructors/encryptedChatDiscarded.md)  
+
+[$MadelineProto->messages->requestEncryption](../methods/messages.requestEncryption.md)  
+
+[$MadelineProto->messages->acceptEncryption](../methods/messages.acceptEncryption.md)  
 

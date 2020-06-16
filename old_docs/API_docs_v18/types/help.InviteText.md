@@ -4,7 +4,7 @@ description: constructors and methods of type help.InviteText
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/help_InviteText.html
 ---
-# Type: help.InviteText  
+# Type: help.InviteText
 [Back to types index](index.md)
 
 
@@ -20,4 +20,8 @@ redirect_from: /API_docs/types/help_InviteText.html
 [$MadelineProto->help->getInviteText](../methods/help.getInviteText.md)  
 
 
+
+[help.inviteText](../constructors/help.inviteText.md)  
+
+[$MadelineProto->help->getInviteText](../methods/help.getInviteText.md)  
 

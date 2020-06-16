@@ -1,20 +1,21 @@
 ---
 title: messages.receivedQueue
-description: You cannot use this method directly
+description: Confirms receipt of messages in a secret chat by client, cancels push notifications.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_receivedQueue.html
 ---
-# Method: messages.receivedQueue  
+# Method: messages.receivedQueue
 [Back to methods index](index.md)
 
 
-You cannot use this method directly
+
+Confirms receipt of messages in a secret chat by client, cancels push notifications.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|max\_qts|[int](../types/int.md) | You cannot use this method directly | Yes|
+|max\_qts|[int](../types/int.md) | Maximum qts value available at the client | Yes|
 
 
 ### Return type: [Vector\_of\_long](../types/long.md)

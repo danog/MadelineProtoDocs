@@ -1,6 +1,6 @@
 ---
 title: msg_copy
-description: Msg copy
+description: msg_copy attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: msg\_copy  
@@ -8,13 +8,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Msg copy
-
 ### Attributes:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|orig\_message|[MTMessage](../types/MTMessage.md) | Yes|Orig message|
+| Name     |    Type       | Required |
+|----------|---------------|----------|
+|orig\_message|[MTMessage](../types/MTMessage.md) | Yes|
 
 
 

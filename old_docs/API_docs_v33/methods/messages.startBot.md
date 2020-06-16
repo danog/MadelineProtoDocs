@@ -4,8 +4,9 @@ description: Start a conversation with a bot using a [deep linking parameter](ht
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_startBot.html
 ---
-# Method: messages.startBot  
+# Method: messages.startBot
 [Back to methods index](index.md)
+
 
 
 Start a conversation with a bot using a [deep linking parameter](https://core.telegram.org/bots#deep-linking)
@@ -15,7 +16,7 @@ Start a conversation with a bot using a [deep linking parameter](https://core.te
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |bot|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The bot | Optional|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Chat ID | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat where to start the bot, can be the bot's private chat or a group | Optional|
 |start\_param|[string](../types/string.md) | [Deep linking parameter](https://core.telegram.org/bots#deep-linking) | Yes|
 
 
@@ -36,13 +37,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->startBot(['bot' => InputUser, 'chat_id' => InputPeer, 'start_param' => 'string', ]);
+$Updates = $MadelineProto->messages->startBot(['bot' => InputUser, 'peer' => InputPeer, 'start_param' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Updates = messages.startBot({bot=InputUser, chat_id=InputPeer, start_param='string', })
+Updates = messages.startBot({bot=InputUser, peer=InputPeer, start_param='string', })
 ```
 
 ### Errors

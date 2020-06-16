@@ -14,10 +14,10 @@ Notification settings.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|mute\_until|[int](../types/int.md) | Yes|Date until which all notifications shall be switched off|
-|sound|[string](../types/string.md) | Yes|Name of an audio file for notification|
-|show\_previews|[Bool](../types/Bool.md) | Yes|If the text of the message shall be displayed in notification|
-|events\_mask|[int](../types/int.md) | Yes|Events mask|
+|show\_previews|[Bool](../types/Bool.md) | Optional|If the text of the message shall be displayed in notification|
+|silent|[Bool](../types/Bool.md) | Optional|Peer was muted?|
+|mute\_until|[int](../types/int.md) | Optional|Date until which all notifications shall be switched off|
+|sound|[string](../types/string.md) | Optional|Name of an audio file for notification|
 
 
 
@@ -27,14 +27,14 @@ Notification settings.
 ### Example:
 
 ```php
-$inputPeerNotifySettings = ['_' => 'inputPeerNotifySettings', 'mute_until' => int, 'sound' => 'string', 'show_previews' => Bool, 'events_mask' => int];
+$inputPeerNotifySettings = ['_' => 'inputPeerNotifySettings', 'show_previews' => Bool, 'silent' => Bool, 'mute_until' => int, 'sound' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-inputPeerNotifySettings={_='inputPeerNotifySettings', mute_until=int, sound='string', show_previews=Bool, events_mask=int}
+inputPeerNotifySettings={_='inputPeerNotifySettings', show_previews=Bool, silent=Bool, mute_until=int, sound='string'}
 
 ```
 

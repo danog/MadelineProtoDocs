@@ -1,23 +1,25 @@
 ---
 title: updates.getChannelDifference
-description: You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates
+description: Returns the difference between the current state of updates of a certain channel and transmitted.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/updates_getChannelDifference.html
 ---
-# Method: updates.getChannelDifference  
+# Method: updates.getChannelDifference
 [Back to methods index](index.md)
 
 
-You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates
+
+Returns the difference between the current state of updates of a certain channel and transmitted.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates | Optional|
-|filter|[ChannelMessagesFilter](../types/ChannelMessagesFilter.md) | You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates | Optional|
-|pts|[int](../types/int.md) | You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates | Yes|
-|limit|[int](../types/int.md) | You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates | Yes|
+|force|[Bool](../types/Bool.md) | Set to true to skip some possibly unneeded updates and reduce server-side load | Optional|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel | Optional|
+|filter|[ChannelMessagesFilter](../types/ChannelMessagesFilter.md) | Messsage filter | Optional|
+|pts|[int](../types/int.md) | Persistent timestamp (see [updates](https://core.telegram.org/api/updates)) | Yes|
+|limit|[int](../types/int.md) | How many updates to fetch, max `100000`<br>Ordinary (non-bot) users are supposed to pass `10-100` | Yes|
 
 
 ### Return type: [updates.ChannelDifference](../types/updates.ChannelDifference.md)
@@ -37,13 +39,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$updates.ChannelDifference = $MadelineProto->updates->getChannelDifference(['peer' => InputPeer, 'filter' => ChannelMessagesFilter, 'pts' => int, 'limit' => int, ]);
+$updates.ChannelDifference = $MadelineProto->updates->getChannelDifference(['force' => Bool, 'channel' => InputChannel, 'filter' => ChannelMessagesFilter, 'pts' => int, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-updates.ChannelDifference = updates.getChannelDifference({peer=InputPeer, filter=ChannelMessagesFilter, pts=int, limit=int, })
+updates.ChannelDifference = updates.getChannelDifference({force=Bool, channel=InputChannel, filter=ChannelMessagesFilter, pts=int, limit=int, })
 ```
 
 ### Errors
@@ -60,6 +62,8 @@ updates.ChannelDifference = updates.getChannelDifference({peer=InputPeer, filter
 |400|RANGES_INVALID|Invalid range provided|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |403|CHANNEL_PUBLIC_GROUP_NA|channel/supergroup not available|
+|-500|No workers running|Internal error|
+|-504|memory limit exit|Internal error|
 |-503|Timeout|Timeout while fetching data|
 
 

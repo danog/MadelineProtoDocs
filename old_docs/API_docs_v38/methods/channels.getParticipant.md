@@ -4,8 +4,9 @@ description: Get info about a [channel/supergroup](https://core.telegram.org/api
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_getParticipant.html
 ---
-# Method: channels.getParticipant  
+# Method: channels.getParticipant
 [Back to methods index](index.md)
+
 
 
 Get info about a [channel/supergroup](https://core.telegram.org/api/channel) participant

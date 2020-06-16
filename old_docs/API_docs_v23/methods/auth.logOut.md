@@ -1,14 +1,15 @@
 ---
 title: auth.logOut
-description: You cannot use this method directly, use the logout method instead (see https://docs.madelineproto.xyz for more info)
+description: Logs out the user.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_logOut.html
 ---
-# Method: auth.logOut  
+# Method: auth.logOut
 [Back to methods index](index.md)
 
 
-You cannot use this method directly, use the logout method instead (see https://docs.madelineproto.xyz for more info)
+
+Logs out the user.
 
 
 

@@ -3,14 +3,12 @@ title: BotInfo
 description: constructors and methods of type BotInfo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: BotInfo  
+# Type: BotInfo
 [Back to types index](index.md)
 
 
 
 ### Possible values (constructors):
-
-[botInfoEmpty](../constructors/botInfoEmpty.md)  
 
 [botInfo](../constructors/botInfo.md)  
 
@@ -19,4 +17,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Methods that return an object of this type (methods):
 
 
+
+[botInfo](../constructors/botInfo.md)  
 

@@ -6,8 +6,9 @@ After calling this method it is necessary to reregister the current device using
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_resetAuthorizations.html
 ---
-# Method: auth.resetAuthorizations  
+# Method: auth.resetAuthorizations
 [Back to methods index](index.md)
+
 
 
 Terminates all user's authorized sessions except for the current one.
@@ -18,7 +19,7 @@ After calling this method it is necessary to reregister the current device using
 
 ### Return type: [Bool](../types/Bool.md)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

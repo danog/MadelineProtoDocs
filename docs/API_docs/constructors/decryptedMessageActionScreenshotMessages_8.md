@@ -14,7 +14,7 @@ A screenshot was taken.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|random\_ids|Array of [long](../types/long.md) | Yes|Random IDs|
+|random\_ids|Array of [long](../types/long.md) | Yes|List of affected message ids (that appeared on the screenshot)|
 
 
 

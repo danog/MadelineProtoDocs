@@ -14,7 +14,7 @@ Disallow only certain users
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|users|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Yes|Users|
+|users|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Yes|Users to disallow|
 
 
 

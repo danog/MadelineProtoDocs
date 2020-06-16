@@ -17,7 +17,7 @@ Event that occured in the application.
 |time|[double](../types/double.md) | Yes|Client's exact timestamp for the event|
 |type|[string](../types/string.md) | Yes|Type of event|
 |peer|[long](../types/long.md) | Yes|Arbitrary numeric value for more convenient selection of certain event types, or events referring to a certain object|
-|data|[string](../types/string.md) | Yes|Data|
+|data|[string](../types/string.md) | Yes|
 
 
 

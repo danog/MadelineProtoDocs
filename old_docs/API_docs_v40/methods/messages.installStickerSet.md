@@ -4,8 +4,9 @@ description: Install a stickerset
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_installStickerSet.html
 ---
-# Method: messages.installStickerSet  
+# Method: messages.installStickerSet
 [Back to methods index](index.md)
+
 
 
 Install a stickerset
@@ -15,10 +16,10 @@ Install a stickerset
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |stickerset|[InputStickerSet](../types/InputStickerSet.md) | Stickerset to install | Optional|
-|disabled|[Bool](../types/Bool.md) | Disable stickerset? | Yes|
+|archived|[Bool](../types/Bool.md) | Whether to archive stickerset | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [messages.StickerSetInstallResult](../types/messages.StickerSetInstallResult.md)
 
 ### Can bots use this method: **NO**
 
@@ -35,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->installStickerSet(['stickerset' => InputStickerSet, 'disabled' => Bool, ]);
+$messages.StickerSetInstallResult = $MadelineProto->messages->installStickerSet(['stickerset' => InputStickerSet, 'archived' => Bool, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Bool = messages.installStickerSet({stickerset=InputStickerSet, disabled=Bool, })
+messages.StickerSetInstallResult = messages.installStickerSet({stickerset=InputStickerSet, archived=Bool, })
 ```
 
 ### Errors

@@ -3,7 +3,7 @@ title: ReplyMarkup
 description: constructors and methods of type ReplyMarkup
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: ReplyMarkup  
+# Type: ReplyMarkup
 [Back to types index](index.md)
 
 
@@ -16,9 +16,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [replyKeyboardMarkup](../constructors/replyKeyboardMarkup.md)  
 
+[replyInlineMarkup](../constructors/replyInlineMarkup.md)  
+
 
 
 ### Methods that return an object of this type (methods):
 
 
+
+[replyKeyboardHide](../constructors/replyKeyboardHide.md)  
+
+[replyKeyboardForceReply](../constructors/replyKeyboardForceReply.md)  
+
+[replyKeyboardMarkup](../constructors/replyKeyboardMarkup.md)  
+
+[replyInlineMarkup](../constructors/replyInlineMarkup.md)  
 

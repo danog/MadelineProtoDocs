@@ -1,14 +1,12 @@
 ---
 title: contactLinkHasPhone
-description: Contact link has phone
+description: contactLinkHasPhone attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: contactLinkHasPhone  
 [Back to constructors index](index.md)
 
 
-
-Contact link has phone
 
 
 

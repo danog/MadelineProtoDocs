@@ -376,6 +376,10 @@ $MadelineProto->[bots->sendCustomRequest](bots.sendCustomRequest.md)(\['custom_m
 
 ***
 <br><br>
+$MadelineProto->[bots->setBotCommands](bots.setBotCommands.md)(\['commands' => \[[BotCommand](../types/BotCommand.md)\], \]) === [$Bool](../types/Bool.md)<a name="bots.setBotCommands"></a>  
+
+***
+<br><br>
 $MadelineProto->[channels->checkUsername](channels.checkUsername.md)(\['channel' => [InputChannel](../types/InputChannel.md), 'username' => [string](../types/string.md), \]) === [$Bool](../types/Bool.md)<a name="channels.checkUsername"></a>  
 
 ***
@@ -644,7 +648,7 @@ $MadelineProto->[help->getPassportConfig](help.getPassportConfig.md)(\['hash' =>
 
 ***
 <br><br>
-$MadelineProto->[help->getProxyData](help.getProxyData.md)(\[\]) === [$help.ProxyData](../types/help.ProxyData.md)<a name="help.getProxyData"></a>  
+$MadelineProto->[help->getPromoData](help.getPromoData.md)(\[\]) === [$help.PromoData](../types/help.PromoData.md)<a name="help.getPromoData"></a>  
 
 ***
 <br><br>
@@ -668,6 +672,10 @@ $MadelineProto->[help->getUserInfo](help.getUserInfo.md)(\['user_id' => [InputUs
 
 ***
 <br><br>
+$MadelineProto->[help->hidePromoData](help.hidePromoData.md)(\['peer' => [InputPeer](../types/InputPeer.md), \]) === [$Bool](../types/Bool.md)<a name="help.hidePromoData"></a>  
+
+***
+<br><br>
 $MadelineProto->[help->saveAppLog](help.saveAppLog.md)(\['events' => \[[InputAppEvent](../types/InputAppEvent.md)\], \]) === [$Bool](../types/Bool.md)<a name="help.saveAppLog"></a>  
 
 ***
@@ -676,7 +684,7 @@ $MadelineProto->[help->setBotUpdatesStatus](help.setBotUpdatesStatus.md)(\['pend
 
 ***
 <br><br>
-$MadelineProto->[initConnection](initConnection.md)(\['api_id' => [int](../types/int.md), 'device_model' => [string](../types/string.md), 'system_version' => [string](../types/string.md), 'app_version' => [string](../types/string.md), 'system_lang_code' => [string](../types/string.md), 'lang_pack' => [string](../types/string.md), 'lang_code' => [string](../types/string.md), 'proxy' => [InputClientProxy](../types/InputClientProxy.md), 'query' => [!X](../types/!X.md), \]) === [$X](../types/X.md)<a name="initConnection"></a>  
+$MadelineProto->[initConnection](initConnection.md)(\['api_id' => [int](../types/int.md), 'device_model' => [string](../types/string.md), 'system_version' => [string](../types/string.md), 'app_version' => [string](../types/string.md), 'system_lang_code' => [string](../types/string.md), 'lang_pack' => [string](../types/string.md), 'lang_code' => [string](../types/string.md), 'proxy' => [InputClientProxy](../types/InputClientProxy.md), 'params' => [JSONValue](../types/JSONValue.md), 'query' => [!X](../types/!X.md), \]) === [$X](../types/X.md)<a name="initConnection"></a>  
 
 ***
 <br><br>
@@ -921,6 +929,10 @@ $MadelineProto->[messages->getMessages](messages.getMessages.md)(\['id' => \[[In
 ***
 <br><br>
 $MadelineProto->[messages->getMessagesViews](messages.getMessagesViews.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'id' => \[[int](../types/int.md)\], 'increment' => [Bool](../types/Bool.md), \]) === [$Vector\_of\_int](../types/int.md)<a name="messages.getMessagesViews"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->getOldFeaturedStickers](messages.getOldFeaturedStickers.md)(\['offset' => [int](../types/int.md), 'limit' => [int](../types/int.md), 'hash' => [int](../types/int.md), \]) === [$messages.FeaturedStickers](../types/messages.FeaturedStickers.md)<a name="messages.getOldFeaturedStickers"></a>  
 
 ***
 <br><br>
@@ -1308,11 +1320,15 @@ $MadelineProto->[stickers->changeStickerPosition](stickers.changeStickerPosition
 
 ***
 <br><br>
-$MadelineProto->[stickers->createStickerSet](stickers.createStickerSet.md)(\['masks' => [Bool](../types/Bool.md), 'user_id' => [InputUser](../types/InputUser.md), 'title' => [string](../types/string.md), 'short_name' => [string](../types/string.md), 'stickers' => \[[InputStickerSetItem](../types/InputStickerSetItem.md)\], \]) === [$messages.StickerSet](../types/messages.StickerSet.md)<a name="stickers.createStickerSet"></a>  
+$MadelineProto->[stickers->createStickerSet](stickers.createStickerSet.md)(\['masks' => [Bool](../types/Bool.md), 'animated' => [Bool](../types/Bool.md), 'user_id' => [InputUser](../types/InputUser.md), 'title' => [string](../types/string.md), 'short_name' => [string](../types/string.md), 'thumb' => [InputDocument](../types/InputDocument.md), 'stickers' => \[[InputStickerSetItem](../types/InputStickerSetItem.md)\], \]) === [$messages.StickerSet](../types/messages.StickerSet.md)<a name="stickers.createStickerSet"></a>  
 
 ***
 <br><br>
 $MadelineProto->[stickers->removeStickerFromSet](stickers.removeStickerFromSet.md)(\['sticker' => [InputDocument](../types/InputDocument.md), \]) === [$messages.StickerSet](../types/messages.StickerSet.md)<a name="stickers.removeStickerFromSet"></a>  
+
+***
+<br><br>
+$MadelineProto->[stickers->setStickerSetThumb](stickers.setStickerSetThumb.md)(\['stickerset' => [InputStickerSet](../types/InputStickerSet.md), 'thumb' => [InputDocument](../types/InputDocument.md), \]) === [$messages.StickerSet](../types/messages.StickerSet.md)<a name="stickers.setStickerSetThumb"></a>  
 
 ***
 <br><br>
@@ -1369,4 +1385,5 @@ $MadelineProto->[users->getUsers](users.getUsers.md)(\['id' => \[[InputUser](../
 ***
 <br><br>
 $MadelineProto->[users->setSecureValueErrors](users.setSecureValueErrors.md)(\['id' => [InputUser](../types/InputUser.md), 'errors' => \[[SecureValueError](../types/SecureValueError.md)\], \]) === [$Bool](../types/Bool.md)<a name="users.setSecureValueErrors"></a>  
+
 

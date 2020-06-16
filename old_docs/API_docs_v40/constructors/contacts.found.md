@@ -15,8 +15,10 @@ Users found by name substring and auxiliary data.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|results|Array of [ContactFound](../types/ContactFound.md) | Yes|Results|
-|users|Array of [User](../types/User.md) | Yes|Users|
+|my\_results|Array of [Peer](../types/Peer.md) | Yes|Personalized results|
+|results|Array of [Peer](../types/Peer.md) | Yes|List of found user identifiers|
+|chats|Array of [Chat](../types/Chat.md) | Yes|Found chats|
+|users|Array of [User](../types/User.md) | Yes|List of users|
 
 
 
@@ -26,14 +28,14 @@ Users found by name substring and auxiliary data.
 ### Example:
 
 ```php
-$contacts.found = ['_' => 'contacts.found', 'results' => [ContactFound, ContactFound], 'users' => [User, User]];
+$contacts.found = ['_' => 'contacts.found', 'my_results' => [Peer, Peer], 'results' => [Peer, Peer], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-contacts.found={_='contacts.found', results={ContactFound}, users={User}}
+contacts.found={_='contacts.found', my_results={Peer}, results={Peer}, chats={Chat}, users={User}}
 
 ```
 

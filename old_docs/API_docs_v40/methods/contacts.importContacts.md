@@ -1,21 +1,25 @@
 ---
 title: contacts.importContacts
 description: Imports contacts: saves a full list on the server, adds already registered contacts to the contact list, returns added contacts and their info.
+
+Use [contacts.addContact](../methods/contacts.addContact.md) to add Telegram contacts without actually using their phone number.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_importContacts.html
 ---
-# Method: contacts.importContacts  
+# Method: contacts.importContacts
 [Back to methods index](index.md)
 
 
+
 Imports contacts: saves a full list on the server, adds already registered contacts to the contact list, returns added contacts and their info.
+
+Use [contacts.addContact](../methods/contacts.addContact.md) to add Telegram contacts without actually using their phone number.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|contacts|Array of [InputContact](../types/InputContact.md) | The numbers to import | Yes|
-|replace|[Bool](../types/Bool.md) | Replace contacts? | Yes|
+|contacts|Array of [InputContact](../types/InputContact.md) | List of contacts to import | Yes|
 
 
 ### Return type: [contacts.ImportedContacts](../types/contacts.ImportedContacts.md)
@@ -35,12 +39,19 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts.ImportedContacts = $MadelineProto->contacts->importContacts(['contacts' => [InputContact, InputContact], 'replace' => Bool, ]);
+$contacts.ImportedContacts = $MadelineProto->contacts->importContacts(['contacts' => [InputContact, InputContact], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-contacts.ImportedContacts = contacts.importContacts({contacts={InputContact}, replace=Bool, })
+contacts.ImportedContacts = contacts.importContacts({contacts={InputContact}, })
 ```
+
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
+
 

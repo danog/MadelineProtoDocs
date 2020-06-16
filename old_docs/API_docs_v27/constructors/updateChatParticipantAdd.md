@@ -17,6 +17,7 @@ New group member.
 |chat\_id|[int](../types/int.md) | Yes|Group ID|
 |user\_id|[int](../types/int.md) | Yes|ID of the new member|
 |inviter\_id|[int](../types/int.md) | Yes|ID of the user, who added member to the group|
+|date|[int](../types/int.md) | Yes|When was the participant added|
 |version|[int](../types/int.md) | Yes|Chat version number|
 
 
@@ -27,14 +28,14 @@ New group member.
 ### Example:
 
 ```php
-$updateChatParticipantAdd = ['_' => 'updateChatParticipantAdd', 'chat_id' => int, 'user_id' => int, 'inviter_id' => int, 'version' => int];
+$updateChatParticipantAdd = ['_' => 'updateChatParticipantAdd', 'chat_id' => int, 'user_id' => int, 'inviter_id' => int, 'date' => int, 'version' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateChatParticipantAdd={_='updateChatParticipantAdd', chat_id=int, user_id=int, inviter_id=int, version=int}
+updateChatParticipantAdd={_='updateChatParticipantAdd', chat_id=int, user_id=int, inviter_id=int, date=int, version=int}
 
 ```
 

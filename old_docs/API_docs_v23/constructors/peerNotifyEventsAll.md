@@ -1,14 +1,12 @@
 ---
 title: peerNotifyEventsAll
-description: Peer notify events all
+description: peerNotifyEventsAll attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: peerNotifyEventsAll  
 [Back to constructors index](index.md)
 
 
-
-Peer notify events all
 
 
 

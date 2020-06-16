@@ -15,11 +15,11 @@ Full list of occurred events.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|new\_messages|Array of [Message](../types/Message.md) | Yes|New messages|
-|new\_encrypted\_messages|Array of [EncryptedMessage](../types/EncryptedMessage.md) | Yes|New encrypted messages|
-|other\_updates|Array of [Update](../types/Update.md) | Yes|Other updates|
-|chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
-|users|Array of [User](../types/User.md) | Yes|Users|
+|new\_messages|Array of [Message](../types/Message.md) | Yes|List of new messages|
+|new\_encrypted\_messages|Array of [EncryptedMessage](../types/EncryptedMessage.md) | Yes|List of new encrypted secret chat messages|
+|other\_updates|Array of [Update](../types/Update.md) | Yes|List of updates|
+|chats|Array of [Chat](../types/Chat.md) | Yes|List of chats mentioned in events|
+|users|Array of [User](../types/User.md) | Yes|List of users mentioned in events|
 |state|[updates.State](../constructors/updates.State.md) | Yes|Current state|
 
 

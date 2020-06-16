@@ -4,8 +4,9 @@ description: Validates a username and checks availability.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_checkUsername.html
 ---
-# Method: account.checkUsername  
+# Method: account.checkUsername
 [Back to methods index](index.md)
+
 
 
 Validates a username and checks availability.
@@ -14,7 +15,7 @@ Validates a username and checks availability.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|username|[string](../types/string.md) | Username<br>Accepted characters: A-z (case-insensitive), 0-9 and underscores.<br>Length: 5-32 characters. | Yes|
+|username|[string](../types/string.md) | username<br>Accepted characters: A-z (case-insensitive), 0-9 and underscores.<br>Length: 5-32 characters. | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)
@@ -49,5 +50,6 @@ Bool = account.checkUsername({username='string', })
 |------|----------|---------------|
 |400|USERNAME_INVALID|The provided username is not valid|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
+|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
 
 

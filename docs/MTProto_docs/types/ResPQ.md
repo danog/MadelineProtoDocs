@@ -3,7 +3,7 @@ title: ResPQ
 description: constructors and methods of type ResPQ
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: ResPQ  
+# Type: ResPQ
 [Back to types index](index.md)
 
 
@@ -16,9 +16,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
+[$MadelineProto->req\_pq\_multi](../methods/req_pq_multi.md)  
+
 [$MadelineProto->req\_pq](../methods/req_pq.md)  
+
+
+
+[resPQ](../constructors/resPQ.md)  
 
 [$MadelineProto->req\_pq\_multi](../methods/req_pq_multi.md)  
 
-
+[$MadelineProto->req\_pq](../methods/req_pq.md)  
 

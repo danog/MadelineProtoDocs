@@ -15,6 +15,7 @@ Info on members is unavailable
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |chat\_id|[int](../types/int.md) | Yes|Group ID|
+|self\_participant|[ChatParticipant](../types/ChatParticipant.md) | Optional|Info about the group membership of the current user|
 
 
 
@@ -24,14 +25,14 @@ Info on members is unavailable
 ### Example:
 
 ```php
-$chatParticipantsForbidden = ['_' => 'chatParticipantsForbidden', 'chat_id' => int];
+$chatParticipantsForbidden = ['_' => 'chatParticipantsForbidden', 'chat_id' => int, 'self_participant' => ChatParticipant];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-chatParticipantsForbidden={_='chatParticipantsForbidden', chat_id=int}
+chatParticipantsForbidden={_='chatParticipantsForbidden', chat_id=int, self_participant=ChatParticipant}
 
 ```
 

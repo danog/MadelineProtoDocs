@@ -15,7 +15,7 @@ Contains user authorization info.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|expires|[int](../types/int.md) | Yes|Expiration date|
+|tmp\_sessions|[int](../types/int.md) | Optional|Temporary [passport](https://core.telegram.org/passport) sessions|
 |user|[User](../types/User.md) | Optional|Info on authorized user|
 
 
@@ -26,14 +26,14 @@ Contains user authorization info.
 ### Example:
 
 ```php
-$auth.authorization = ['_' => 'auth.authorization', 'expires' => int, 'user' => User];
+$auth.authorization = ['_' => 'auth.authorization', 'tmp_sessions' => int, 'user' => User];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-auth.authorization={_='auth.authorization', expires=int, user=User}
+auth.authorization={_='auth.authorization', tmp_sessions=int, user=User}
 
 ```
 

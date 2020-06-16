@@ -1,21 +1,22 @@
 ---
 title: auth.importAuthorization
-description: You cannot use this method directly, use $MadelineProto->importAuthorization($authorization) instead, see https://docs.madelineproto.xyz/docs/LOGIN.html
+description: Logs in a user using a key transmitted from his native data-centre.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_importAuthorization.html
 ---
-# Method: auth.importAuthorization  
+# Method: auth.importAuthorization
 [Back to methods index](index.md)
 
 
-You cannot use this method directly, use $MadelineProto->importAuthorization($authorization) instead, see https://docs.madelineproto.xyz/docs/LOGIN.html
+
+Logs in a user using a key transmitted from his native data-centre.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[int](../types/int.md) | You cannot use this method directly, use $MadelineProto->importAuthorization($authorization) instead, see https://docs.madelineproto.xyz/docs/LOGIN.html | Yes|
-|bytes|[bytes](../types/bytes.md) | You cannot use this method directly, use $MadelineProto->importAuthorization($authorization) instead, see https://docs.madelineproto.xyz/docs/LOGIN.html | Yes|
+|id|[int](../types/int.md) | User ID | Yes|
+|bytes|[bytes](../types/bytes.md) | Authorization key | Yes|
 
 
 ### Return type: [auth.Authorization](../types/auth.Authorization.md)

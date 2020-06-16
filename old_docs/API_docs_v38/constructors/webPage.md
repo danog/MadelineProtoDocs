@@ -17,6 +17,7 @@ Webpage preview
 |id|[long](../types/long.md) | Yes|Preview ID|
 |url|[string](../types/string.md) | Yes|URL of previewed webpage|
 |display\_url|[string](../types/string.md) | Yes|Webpage URL to be displayed to the user|
+|hash|[int](../types/int.md) | Yes|
 |type|[string](../types/string.md) | Optional|Type of the web page. Can be: article, photo, audio, video, document, profile, app, or something else|
 |site\_name|[string](../types/string.md) | Optional|Short name of the site (e.g., Google Docs, App Store)|
 |title|[string](../types/string.md) | Optional|Title of the content|
@@ -29,6 +30,8 @@ Webpage preview
 |duration|[int](../types/int.md) | Optional|Duration of the content, in seconds|
 |author|[string](../types/string.md) | Optional|Author of the content|
 |document|[Document](../types/Document.md) | Optional|Preview of the content as a media file|
+|cached\_page|[Page](../types/Page.md) | Optional|Page contents in [instant view](https://instantview.telegram.org) format|
+|attributes|Array of [WebPageAttribute](../types/WebPageAttribute.md) | Optional|Webpage attributes|
 
 
 
@@ -38,14 +41,14 @@ Webpage preview
 ### Example:
 
 ```php
-$webPage = ['_' => 'webPage', 'id' => long, 'url' => 'string', 'display_url' => 'string', 'type' => 'string', 'site_name' => 'string', 'title' => 'string', 'description' => 'string', 'photo' => Photo, 'embed_url' => 'string', 'embed_type' => 'string', 'embed_width' => int, 'embed_height' => int, 'duration' => int, 'author' => 'string', 'document' => Document];
+$webPage = ['_' => 'webPage', 'id' => long, 'url' => 'string', 'display_url' => 'string', 'hash' => int, 'type' => 'string', 'site_name' => 'string', 'title' => 'string', 'description' => 'string', 'photo' => Photo, 'embed_url' => 'string', 'embed_type' => 'string', 'embed_width' => int, 'embed_height' => int, 'duration' => int, 'author' => 'string', 'document' => Document, 'cached_page' => Page, 'attributes' => [WebPageAttribute, WebPageAttribute]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-webPage={_='webPage', id=long, url='string', display_url='string', type='string', site_name='string', title='string', description='string', photo=Photo, embed_url='string', embed_type='string', embed_width=int, embed_height=int, duration=int, author='string', document=Document}
+webPage={_='webPage', id=long, url='string', display_url='string', hash=int, type='string', site_name='string', title='string', description='string', photo=Photo, embed_url='string', embed_type='string', embed_width=int, embed_height=int, duration=int, author='string', document=Document, cached_page=Page, attributes={WebPageAttribute}}
 
 ```
 

@@ -4,8 +4,9 @@ description: Get the participants of a channel
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_getParticipants.html
 ---
-# Method: channels.getParticipants  
+# Method: channels.getParticipants
 [Back to methods index](index.md)
+
 
 
 Get the participants of a channel
@@ -18,6 +19,7 @@ Get the participants of a channel
 |filter|[ChannelParticipantsFilter](../types/ChannelParticipantsFilter.md) | Which participant types to fetch | Yes|
 |offset|[int](../types/int.md) | [Offset](https://core.telegram.org/api/offsets) | Yes|
 |limit|[int](../types/int.md) | [Limit](https://core.telegram.org/api/offsets) | Yes|
+|hash|Array of [int](../types/int.md) | [Hash](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [channels.ChannelParticipants](../types/channels.ChannelParticipants.md)
@@ -37,13 +39,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$channels.ChannelParticipants = $MadelineProto->channels->getParticipants(['channel' => InputChannel, 'filter' => ChannelParticipantsFilter, 'offset' => int, 'limit' => int, ]);
+$channels.ChannelParticipants = $MadelineProto->channels->getParticipants(['channel' => InputChannel, 'filter' => ChannelParticipantsFilter, 'offset' => int, 'limit' => int, 'hash' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-channels.ChannelParticipants = channels.getParticipants({channel=InputChannel, filter=ChannelParticipantsFilter, offset=int, limit=int, })
+channels.ChannelParticipants = channels.getParticipants({channel=InputChannel, filter=ChannelParticipantsFilter, offset=int, limit=int, hash={int}, })
 ```
 
 ### Errors

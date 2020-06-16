@@ -15,8 +15,7 @@ Group members.
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |chat\_id|[int](../types/int.md) | Yes|Group identifier|
-|admin\_id|[int](../types/int.md) | Yes|Admin ID|
-|participants|Array of [ChatParticipant](../types/ChatParticipant.md) | Yes|Participants|
+|participants|Array of [ChatParticipant](../types/ChatParticipant.md) | Yes|List of group members|
 |version|[int](../types/int.md) | Yes|Group version number|
 
 
@@ -27,14 +26,14 @@ Group members.
 ### Example:
 
 ```php
-$chatParticipants = ['_' => 'chatParticipants', 'chat_id' => int, 'admin_id' => int, 'participants' => [ChatParticipant, ChatParticipant], 'version' => int];
+$chatParticipants = ['_' => 'chatParticipants', 'chat_id' => int, 'participants' => [ChatParticipant, ChatParticipant], 'version' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-chatParticipants={_='chatParticipants', chat_id=int, admin_id=int, participants={ChatParticipant}, version=int}
+chatParticipants={_='chatParticipants', chat_id=int, participants={ChatParticipant}, version=int}
 
 ```
 

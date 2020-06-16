@@ -4,8 +4,9 @@ description: Deletes a user from a chat and sends a service message on it.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_deleteChatUser.html
 ---
-# Method: messages.deleteChatUser  
+# Method: messages.deleteChatUser
 [Back to methods index](index.md)
+
 
 
 Deletes a user from a chat and sends a service message on it.
@@ -14,11 +15,11 @@ Deletes a user from a chat and sends a service message on it.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The ID of the chat | Optional|
+|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
 |user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | User ID to be deleted | Optional|
 
 
-### Return type: [messages.StatedMessage](../types/messages.StatedMessage.md)
+### Return type: [Updates](../types/Updates.md)
 
 ### Can bots use this method: **YES**
 
@@ -35,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.StatedMessage = $MadelineProto->messages->deleteChatUser(['chat_id' => InputPeer, 'user_id' => InputUser, ]);
+$Updates = $MadelineProto->messages->deleteChatUser(['chat_id' => InputPeer, 'user_id' => InputUser, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.StatedMessage = messages.deleteChatUser({chat_id=InputPeer, user_id=InputUser, })
+Updates = messages.deleteChatUser({chat_id=InputPeer, user_id=InputUser, })
 ```
 
 ### Errors

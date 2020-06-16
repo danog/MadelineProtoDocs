@@ -16,8 +16,8 @@ Extended info on chat and auxiliary data.
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |full\_chat|[ChatFull](../types/ChatFull.md) | Yes|Extended info on a chat|
-|chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
-|users|Array of [User](../types/User.md) | Yes|Users|
+|chats|Array of [Chat](../types/Chat.md) | Yes|List containing basic info on chat|
+|users|Array of [User](../types/User.md) | Yes|List of users mentioned above|
 
 
 

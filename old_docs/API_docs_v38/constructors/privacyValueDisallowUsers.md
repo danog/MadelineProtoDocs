@@ -14,7 +14,7 @@ Disallow only certain users
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|users|Array of [int](../types/int.md) | Yes|Users|
+|users|Array of [int](../types/int.md) | Yes|Disallowed users|
 
 
 

@@ -4,8 +4,9 @@ description: Deletes several contacts from the list.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_deleteContacts.html
 ---
-# Method: contacts.deleteContacts  
+# Method: contacts.deleteContacts
 [Back to methods index](index.md)
+
 
 
 Deletes several contacts from the list.
@@ -14,10 +15,10 @@ Deletes several contacts from the list.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The contacts to delete | Yes|
+|id|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | User ID list | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Updates](../types/Updates.md)
 
 ### Can bots use this method: **NO**
 
@@ -34,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->contacts->deleteContacts(['id' => [InputUser, InputUser], ]);
+$Updates = $MadelineProto->contacts->deleteContacts(['id' => [InputUser, InputUser], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Bool = contacts.deleteContacts({id={InputUser}, })
+Updates = contacts.deleteContacts({id={InputUser}, })
 ```
 
 ### Errors

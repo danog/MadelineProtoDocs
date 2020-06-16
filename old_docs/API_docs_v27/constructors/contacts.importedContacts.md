@@ -15,9 +15,10 @@ Info on succesfully imported contacts.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|imported|Array of [ImportedContact](../types/ImportedContact.md) | Yes|Imported|
-|retry\_contacts|Array of [long](../types/long.md) | Yes|Retry importing contacts whose client IDs appear here|
-|users|Array of [User](../types/User.md) | Yes|Users|
+|imported|Array of [ImportedContact](../types/ImportedContact.md) | Yes|List of succesfully imported contacts|
+|popular\_invites|Array of [PopularContact](../types/PopularContact.md) | Yes|Popular contacts|
+|retry\_contacts|Array of [long](../types/long.md) | Yes|List of contact ids that could not be imported due to system limitation and will need to be imported at a later date.<br>Parameter added in [Layer 13](https://core.telegram.org/api/layers#layer-13)|
+|users|Array of [User](../types/User.md) | Yes|List of users|
 
 
 
@@ -27,14 +28,14 @@ Info on succesfully imported contacts.
 ### Example:
 
 ```php
-$contacts.importedContacts = ['_' => 'contacts.importedContacts', 'imported' => [ImportedContact, ImportedContact], 'retry_contacts' => [long, long], 'users' => [User, User]];
+$contacts.importedContacts = ['_' => 'contacts.importedContacts', 'imported' => [ImportedContact, ImportedContact], 'popular_invites' => [PopularContact, PopularContact], 'retry_contacts' => [long, long], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-contacts.importedContacts={_='contacts.importedContacts', imported={ImportedContact}, retry_contacts={long}, users={User}}
+contacts.importedContacts={_='contacts.importedContacts', imported={ImportedContact}, popular_invites={PopularContact}, retry_contacts={long}, users={User}}
 
 ```
 

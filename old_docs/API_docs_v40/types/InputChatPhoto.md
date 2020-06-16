@@ -3,7 +3,7 @@ title: InputChatPhoto
 description: constructors and methods of type InputChatPhoto
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: InputChatPhoto  
+# Type: InputChatPhoto
 [Back to types index](index.md)
 
 
@@ -21,4 +21,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Methods that return an object of this type (methods):
 
 
+
+[inputChatPhotoEmpty](../constructors/inputChatPhotoEmpty.md)  
+
+[inputChatUploadedPhoto](../constructors/inputChatUploadedPhoto.md)  
+
+[inputChatPhoto](../constructors/inputChatPhoto.md)  
 

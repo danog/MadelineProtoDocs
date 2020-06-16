@@ -1,20 +1,21 @@
 ---
 title: auth.checkPassword
-description: You cannot use this method directly, use the complete2falogin method instead (see https://docs.madelineproto.xyz for more info)
+description: Try logging to an account protected by a [2FA password](https://core.telegram.org/api/srp).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_checkPassword.html
 ---
-# Method: auth.checkPassword  
+# Method: auth.checkPassword
 [Back to methods index](index.md)
 
 
-You cannot use this method directly, use the complete2falogin method instead (see https://docs.madelineproto.xyz for more info)
+
+Try logging to an account protected by a [2FA password](https://core.telegram.org/api/srp).
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|password\_hash|[bytes](../types/bytes.md) | You cannot use this method directly, use the complete2falogin method instead (see https://docs.madelineproto.xyz for more info) | Yes|
+|password|[InputCheckPasswordSRP](../types/InputCheckPasswordSRP.md) | The account's password (see [SRP](https://core.telegram.org/api/srp)) | Yes|
 
 
 ### Return type: [auth.Authorization](../types/auth.Authorization.md)
@@ -34,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth.Authorization = $MadelineProto->auth->checkPassword(['password_hash' => 'bytes', ]);
+$auth.Authorization = $MadelineProto->auth->checkPassword(['password' => InputCheckPasswordSRP, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth.Authorization = auth.checkPassword({password_hash='bytes', })
+auth.Authorization = auth.checkPassword({password=InputCheckPasswordSRP, })
 ```
 
 ### Errors

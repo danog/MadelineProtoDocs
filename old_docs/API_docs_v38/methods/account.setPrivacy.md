@@ -4,8 +4,9 @@ description: Change privacy settings of current account
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_setPrivacy.html
 ---
-# Method: account.setPrivacy  
+# Method: account.setPrivacy
 [Back to methods index](index.md)
+
 
 
 Change privacy settings of current account
@@ -15,7 +16,7 @@ Change privacy settings of current account
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |key|[InputPrivacyKey](../types/InputPrivacyKey.md) | Peers to which the privacy rules apply | Yes|
-|rules|Array of [InputPrivacyRule](../types/InputPrivacyRule.md) | Privacy settings | Yes|
+|rules|Array of [InputPrivacyRule](../types/InputPrivacyRule.md) | New privacy rules | Yes|
 
 
 ### Return type: [account.PrivacyRules](../types/account.PrivacyRules.md)
@@ -49,5 +50,6 @@ account.PrivacyRules = account.setPrivacy({key=InputPrivacyKey, rules={InputPriv
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|PRIVACY_KEY_INVALID|The privacy key is invalid|
+|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
 
 

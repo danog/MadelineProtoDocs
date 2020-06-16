@@ -4,8 +4,9 @@ description: Chanages chat name and sends a service message on it.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_editChatTitle.html
 ---
-# Method: messages.editChatTitle  
+# Method: messages.editChatTitle
 [Back to methods index](index.md)
+
 
 
 Chanages chat name and sends a service message on it.
@@ -14,7 +15,7 @@ Chanages chat name and sends a service message on it.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The ID of the chat | Optional|
+|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
 |title|[string](../types/string.md) | New chat name, different from the old one | Yes|
 
 

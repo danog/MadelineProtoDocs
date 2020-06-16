@@ -3,8 +3,9 @@ title: invokeAfterMsgs
 description: Invokes a query after a successfull completion of previous queries
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Method: invokeAfterMsgs  
+# Method: invokeAfterMsgs
 [Back to methods index](index.md)
+
 
 
 Invokes a query after a successfull completion of previous queries

@@ -16,8 +16,8 @@ Incomplete list of blocked users.
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |count|[int](../types/int.md) | Yes|Total number of elements in the list|
-|blocked|Array of [ContactBlocked](../types/ContactBlocked.md) | Yes|Blocked|
-|users|Array of [User](../types/User.md) | Yes|Users|
+|blocked|Array of [ContactBlocked](../types/ContactBlocked.md) | Yes|List of blocked users|
+|users|Array of [User](../types/User.md) | Yes|List of users|
 
 
 

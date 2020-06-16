@@ -16,6 +16,7 @@ Defines a photo for further interaction.
 |----------|---------------|----------|-------------|
 |id|[long](../types/long.md) | Yes|Photo identifier|
 |access\_hash|[long](../types/long.md) | Yes|**access\_hash** value from the [photo](../constructors/photo.md) constructor|
+|file\_reference|[bytes](../types/bytes.md) | Yes|[File reference](https://core.telegram.org/api/file_reference)|
 
 
 
@@ -25,14 +26,14 @@ Defines a photo for further interaction.
 ### Example:
 
 ```php
-$inputPhoto = ['_' => 'inputPhoto', 'id' => long, 'access_hash' => long];
+$inputPhoto = ['_' => 'inputPhoto', 'id' => long, 'access_hash' => long, 'file_reference' => 'bytes'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-inputPhoto={_='inputPhoto', id=long, access_hash=long}
+inputPhoto={_='inputPhoto', id=long, access_hash=long, file_reference='bytes'}
 
 ```
 

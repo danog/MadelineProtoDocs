@@ -14,10 +14,10 @@ Notification settings.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|mute\_until|[int](../types/int.md) | Yes|Mute all notifications until this date|
-|sound|[string](../types/string.md) | Yes|Audio file name for notifications|
-|show\_previews|[Bool](../types/Bool.md) | Yes|Display text in notifications|
-|events\_mask|[int](../types/int.md) | Yes|Events mask|
+|show\_previews|[Bool](../types/Bool.md) | Optional|Display text in notifications|
+|silent|[Bool](../types/Bool.md) | Optional|Mute peer?|
+|mute\_until|[int](../types/int.md) | Optional|Mute all notifications until this date|
+|sound|[string](../types/string.md) | Optional|Audio file name for notifications|
 
 
 
@@ -27,14 +27,14 @@ Notification settings.
 ### Example:
 
 ```php
-$peerNotifySettings = ['_' => 'peerNotifySettings', 'mute_until' => int, 'sound' => 'string', 'show_previews' => Bool, 'events_mask' => int];
+$peerNotifySettings = ['_' => 'peerNotifySettings', 'show_previews' => Bool, 'silent' => Bool, 'mute_until' => int, 'sound' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-peerNotifySettings={_='peerNotifySettings', mute_until=int, sound='string', show_previews=Bool, events_mask=int}
+peerNotifySettings={_='peerNotifySettings', show_previews=Bool, silent=Bool, mute_until=int, sound='string'}
 
 ```
 

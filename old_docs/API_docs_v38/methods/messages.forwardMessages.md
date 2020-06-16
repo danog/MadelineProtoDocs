@@ -4,8 +4,9 @@ description: Forwards messages by their IDs.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_forwardMessages.html
 ---
-# Method: messages.forwardMessages  
+# Method: messages.forwardMessages
 [Back to methods index](index.md)
+
 
 
 Forwards messages by their IDs.
@@ -14,9 +15,14 @@ Forwards messages by their IDs.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|silent|[Bool](../types/Bool.md) | Whether to send messages silently (no notification will be triggered on the destination clients) | Optional|
+|background|[Bool](../types/Bool.md) | Whether to send the message in background | Optional|
+|with\_my\_score|[Bool](../types/Bool.md) | When forwarding games, whether to include your score in the game | Optional|
+|grouped|[Bool](../types/Bool.md) | Whether the specified messages represent an album (grouped media) | Optional|
 |from\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Source of messages | Optional|
-|id|Array of [int](../types/int.md) | The message IDs | Yes|
+|id|Array of [int](../types/int.md) | IDs of messages | Yes|
 |to\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Destination peer | Optional|
+|schedule\_date|[int](../types/int.md) | Scheduled message date for scheduled messages | Optional|
 
 
 ### Return type: [Updates](../types/Updates.md)
@@ -36,19 +42,20 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->forwardMessages(['from_peer' => InputPeer, 'id' => [int, int], 'to_peer' => InputPeer, ]);
+$Updates = $MadelineProto->messages->forwardMessages(['silent' => Bool, 'background' => Bool, 'with_my_score' => Bool, 'grouped' => Bool, 'from_peer' => InputPeer, 'id' => [int, int], 'to_peer' => InputPeer, 'schedule_date' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Updates = messages.forwardMessages({from_peer=InputPeer, id={int}, to_peer=InputPeer, })
+Updates = messages.forwardMessages({silent=Bool, background=Bool, with_my_score=Bool, grouped=Bool, from_peer=InputPeer, id={int}, to_peer=InputPeer, schedule_date=int, })
 ```
 
 ### Errors
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|BROADCAST_PUBLIC_VOTERS_FORBIDDEN|You can't forward polls with public voters|
 |400|CHANNEL_INVALID|The provided channel is invalid|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
@@ -66,6 +73,7 @@ Updates = messages.forwardMessages({from_peer=InputPeer, id={int}, to_peer=Input
 |400|USER_IS_BLOCKED|You were blocked by this user|
 |400|USER_IS_BOT|Bots can't send messages to other bots|
 |400|YOU_BLOCKED_USER|You blocked this user|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |403|CHAT_SEND_GIFS_FORBIDDEN|You can't send gifs in this chat|
 |403|CHAT_SEND_MEDIA_FORBIDDEN|You can't send media in this chat|
 |403|CHAT_SEND_POLL_FORBIDDEN|You can't send polls in this chat|

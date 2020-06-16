@@ -10,6 +10,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 User is uploading a video.
 
+### Attributes:
+
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|progress|[int](../types/int.md) | Yes|Progress percentage|
 
 
 
@@ -19,14 +24,14 @@ User is uploading a video.
 ### Example:
 
 ```php
-$sendMessageUploadVideoAction = ['_' => 'sendMessageUploadVideoAction'];
+$sendMessageUploadVideoAction = ['_' => 'sendMessageUploadVideoAction', 'progress' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-sendMessageUploadVideoAction={_='sendMessageUploadVideoAction'}
+sendMessageUploadVideoAction={_='sendMessageUploadVideoAction', progress=int}
 
 ```
 

@@ -4,7 +4,7 @@ description: constructors and methods of type messages.DhConfig
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/messages_DhConfig.html
 ---
-# Type: messages.DhConfig  
+# Type: messages.DhConfig
 [Back to types index](index.md)
 
 
@@ -22,4 +22,10 @@ redirect_from: /API_docs/types/messages_DhConfig.html
 [$MadelineProto->messages->getDhConfig](../methods/messages.getDhConfig.md)  
 
 
+
+[messages.dhConfigNotModified](../constructors/messages.dhConfigNotModified.md)  
+
+[messages.dhConfig](../constructors/messages.dhConfig.md)  
+
+[$MadelineProto->messages->getDhConfig](../methods/messages.getDhConfig.md)  
 

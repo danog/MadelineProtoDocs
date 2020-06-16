@@ -16,6 +16,7 @@ New message.
 |----------|---------------|----------|-------------|
 |message|[Message](../types/Message.md) | Optional|Message|
 |pts|[int](../types/int.md) | Yes|New quantity of actions in a message box|
+|pts\_count|[int](../types/int.md) | Yes|Number of generated events|
 
 
 
@@ -25,14 +26,14 @@ New message.
 ### Example:
 
 ```php
-$updateNewMessage = ['_' => 'updateNewMessage', 'message' => Message, 'pts' => int];
+$updateNewMessage = ['_' => 'updateNewMessage', 'message' => Message, 'pts' => int, 'pts_count' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateNewMessage={_='updateNewMessage', message=Message, pts=int}
+updateNewMessage={_='updateNewMessage', message=Message, pts=int, pts_count=int}
 
 ```
 

@@ -3,7 +3,7 @@ title: AccountDaysTTL
 description: constructors and methods of type AccountDaysTTL
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: AccountDaysTTL  
+# Type: AccountDaysTTL
 [Back to types index](index.md)
 
 
@@ -19,4 +19,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [$MadelineProto->account->getAccountTTL](../methods/account.getAccountTTL.md)  
 
 
+
+[accountDaysTTL](../constructors/accountDaysTTL.md)  
+
+[$MadelineProto->account->getAccountTTL](../methods/account.getAccountTTL.md)  
 

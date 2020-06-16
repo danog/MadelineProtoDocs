@@ -4,7 +4,7 @@ description: constructors and methods of type auth.ExportedAuthorization
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/auth_ExportedAuthorization.html
 ---
-# Type: auth.ExportedAuthorization  
+# Type: auth.ExportedAuthorization
 [Back to types index](index.md)
 
 
@@ -20,4 +20,8 @@ redirect_from: /API_docs/types/auth_ExportedAuthorization.html
 [$MadelineProto->auth->exportAuthorization](../methods/auth.exportAuthorization.md)  
 
 
+
+[auth.exportedAuthorization](../constructors/auth.exportedAuthorization.md)  
+
+[$MadelineProto->auth->exportAuthorization](../methods/auth.exportAuthorization.md)  
 

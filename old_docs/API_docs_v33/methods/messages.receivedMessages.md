@@ -4,8 +4,9 @@ description: Confirms receipt of messages by a client, cancels PUSH-notification
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_receivedMessages.html
 ---
-# Method: messages.receivedMessages  
+# Method: messages.receivedMessages
 [Back to methods index](index.md)
+
 
 
 Confirms receipt of messages by a client, cancels PUSH-notification sending.

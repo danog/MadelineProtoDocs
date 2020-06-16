@@ -14,7 +14,7 @@ Deleted messages.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|random\_ids|Array of [long](../types/long.md) | Yes|Random IDs|
+|random\_ids|Array of [long](../types/long.md) | Yes|List of deleted message IDs|
 
 
 

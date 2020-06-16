@@ -15,7 +15,7 @@ Logged-in sessions
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|authorizations|Array of [Authorization](../types/Authorization.md) | Yes|Authorizations|
+|authorizations|Array of [Authorization](../types/Authorization.md) | Yes|Logged-in sessions|
 
 
 
