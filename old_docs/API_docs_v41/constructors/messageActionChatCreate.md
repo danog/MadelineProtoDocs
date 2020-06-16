@@ -15,7 +15,7 @@ Group created
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |title|[string](../types/string.md) | Yes|Group name|
-|users|Array of [int](../types/int.md) | Yes|Users|
+|users|Array of [int](../types/int.md) | Yes|List of group members|
 
 
 

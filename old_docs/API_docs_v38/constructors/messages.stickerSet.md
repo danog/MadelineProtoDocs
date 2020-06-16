@@ -16,8 +16,8 @@ Stickerset and stickers inside it
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |set|[StickerSet](../types/StickerSet.md) | Yes|The stickerset|
-|packs|Array of [StickerPack](../types/StickerPack.md) | Yes|Packs|
-|documents|Array of [Document](../types/Document.md) | Yes|Documents|
+|packs|Array of [StickerPack](../types/StickerPack.md) | Yes|Emoji info for stickers|
+|documents|Array of [Document](../types/Document.md) | Yes|Stickers in stickerset|
 
 
 

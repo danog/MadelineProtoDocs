@@ -1,20 +1,19 @@
 ---
 title: contacts.deleteContact
-description: Delete a contact
+description: contacts.deleteContact parameters, return type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_deleteContact.html
 ---
-# Method: contacts.deleteContact  
+# Method: contacts.deleteContact
 [Back to methods index](index.md)
 
 
-Delete a contact
 
 ### Parameters:
 
-| Name     |    Type       | Description | Required |
-|----------|---------------|-------------|----------|
-|id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The contact to delete | Optional|
+| Name     |    Type       | Required |
+|----------|---------------|----------|
+|id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|
 
 
 ### Return type: [contacts.Link](../types/contacts.Link.md)

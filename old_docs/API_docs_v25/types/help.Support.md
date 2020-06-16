@@ -4,7 +4,7 @@ description: constructors and methods of type help.Support
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/help_Support.html
 ---
-# Type: help.Support  
+# Type: help.Support
 [Back to types index](index.md)
 
 
@@ -20,4 +20,8 @@ redirect_from: /API_docs/types/help_Support.html
 [$MadelineProto->help->getSupport](../methods/help.getSupport.md)  
 
 
+
+[help.support](../constructors/help.support.md)  
+
+[$MadelineProto->help->getSupport](../methods/help.getSupport.md)  
 

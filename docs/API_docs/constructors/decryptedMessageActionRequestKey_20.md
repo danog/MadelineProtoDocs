@@ -15,7 +15,7 @@ Request rekeying, see [rekeying process](https://core.telegram.org/api/end-to-en
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |exchange\_id|[long](../types/long.md) | Yes|Exchange ID|
-|g\_a|[bytes](../types/bytes.md) | Yes|G\_a, see [rekeying process](https://core.telegram.org/api/end-to-end/pfs)|
+|g\_a|[bytes](../types/bytes.md) | Yes|g\_a, see [rekeying process](https://core.telegram.org/api/end-to-end/pfs)|
 
 
 

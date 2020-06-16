@@ -1,6 +1,6 @@
 ---
 title: account.passwordSettings
-description: Private info associated to the password info (recovery email, telegram [passport](https://core.telegram.org/passport) info & so on)
+description: Private info associated to the password info (recovery email, telegram [passport](https://core.telegram.org/passport) info &amp; so on)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_passwordSettings.html
 ---
@@ -9,13 +9,14 @@ redirect_from: /API_docs/constructors/account_passwordSettings.html
 
 
 
-Private info associated to the password info (recovery email, telegram [passport](https://core.telegram.org/passport) info & so on)
+Private info associated to the password info (recovery email, telegram [passport](https://core.telegram.org/passport) info &amp; so on)
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|email|[string](../types/string.md) | Yes|[2FA Recovery email](https://core.telegram.org/api/srp#email-verification)|
+|email|[string](../types/string.md) | Optional|[2FA Recovery email](https://core.telegram.org/api/srp#email-verification)|
+|secure\_settings|[SecureSecretSettings](../types/SecureSecretSettings.md) | Optional|Telegram [passport](https://core.telegram.org/passport) settings|
 
 
 
@@ -25,14 +26,14 @@ Private info associated to the password info (recovery email, telegram [passport
 ### Example:
 
 ```php
-$account.passwordSettings = ['_' => 'account.passwordSettings', 'email' => 'string'];
+$account.passwordSettings = ['_' => 'account.passwordSettings', 'email' => 'string', 'secure_settings' => SecureSecretSettings];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-account.passwordSettings={_='account.passwordSettings', email='string'}
+account.passwordSettings={_='account.passwordSettings', email='string', secure_settings=SecureSecretSettings}
 
 ```
 

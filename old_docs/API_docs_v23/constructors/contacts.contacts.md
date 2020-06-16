@@ -15,8 +15,9 @@ The current user's contact list and info on users.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|contacts|Array of [Contact](../types/Contact.md) | Yes|Contacts|
-|users|Array of [User](../types/User.md) | Yes|Users|
+|contacts|Array of [Contact](../types/Contact.md) | Yes|Contact list|
+|saved\_count|[int](../types/int.md) | Yes|Number of contacts that were saved successfully|
+|users|Array of [User](../types/User.md) | Yes|User list|
 
 
 
@@ -26,14 +27,14 @@ The current user's contact list and info on users.
 ### Example:
 
 ```php
-$contacts.contacts = ['_' => 'contacts.contacts', 'contacts' => [Contact, Contact], 'users' => [User, User]];
+$contacts.contacts = ['_' => 'contacts.contacts', 'contacts' => [Contact, Contact], 'saved_count' => int, 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-contacts.contacts={_='contacts.contacts', contacts={Contact}, users={User}}
+contacts.contacts={_='contacts.contacts', contacts={Contact}, saved_count=int, users={User}}
 
 ```
 

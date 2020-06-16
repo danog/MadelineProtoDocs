@@ -3,7 +3,7 @@ title: Dialog
 description: constructors and methods of type Dialog
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: Dialog  
+# Type: Dialog
 [Back to types index](index.md)
 
 
@@ -12,11 +12,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [dialog](../constructors/dialog.md)  
 
-[dialogChannel](../constructors/dialogChannel.md)  
+[dialogFolder](../constructors/dialogFolder.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
 
+
+[dialog](../constructors/dialog.md)  
+
+[dialogFolder](../constructors/dialogFolder.md)  
 

@@ -1,20 +1,21 @@
 ---
 title: account.getPasswordSettings
-description: You cannot use this method directly; use $MadelineProto->update2fa($params), instead (see https://docs.madelineproto.xyz for more info)
+description: Get private info associated to the password info (recovery email, telegram [passport](https://core.telegram.org/passport) info &amp; so on)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getPasswordSettings.html
 ---
-# Method: account.getPasswordSettings  
+# Method: account.getPasswordSettings
 [Back to methods index](index.md)
 
 
-You cannot use this method directly; use $MadelineProto->update2fa($params), instead (see https://docs.madelineproto.xyz for more info)
+
+Get private info associated to the password info (recovery email, telegram [passport](https://core.telegram.org/passport) info &amp; so on)
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|current\_password\_hash|[bytes](../types/bytes.md) | You cannot use this method directly; use $MadelineProto->update2fa($params), instead (see https://docs.madelineproto.xyz for more info) | Yes|
+|password|[InputCheckPasswordSRP](../types/InputCheckPasswordSRP.md) | The password (see [SRP](https://core.telegram.org/api/srp)) | Yes|
 
 
 ### Return type: [account.PasswordSettings](../types/account.PasswordSettings.md)
@@ -34,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account.PasswordSettings = $MadelineProto->account->getPasswordSettings(['current_password_hash' => 'bytes', ]);
+$account.PasswordSettings = $MadelineProto->account->getPasswordSettings(['password' => InputCheckPasswordSRP, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account.PasswordSettings = account.getPasswordSettings({current_password_hash='bytes', })
+account.PasswordSettings = account.getPasswordSettings({password=InputCheckPasswordSRP, })
 ```
 
 ### Errors

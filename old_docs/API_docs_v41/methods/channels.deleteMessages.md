@@ -4,8 +4,9 @@ description: Delete messages in a [channel/supergroup](https://core.telegram.org
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_deleteMessages.html
 ---
-# Method: channels.deleteMessages  
+# Method: channels.deleteMessages
 [Back to methods index](index.md)
+
 
 
 Delete messages in a [channel/supergroup](https://core.telegram.org/api/channel)
@@ -15,7 +16,7 @@ Delete messages in a [channel/supergroup](https://core.telegram.org/api/channel)
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | [Channel/supergroup](https://core.telegram.org/api/channel) | Optional|
-|id|Array of [int](../types/int.md) | The IDs of messages to delete | Yes|
+|id|Array of [int](../types/int.md) | IDs of messages to delete | Yes|
 
 
 ### Return type: [messages.AffectedMessages](../types/messages.AffectedMessages.md)

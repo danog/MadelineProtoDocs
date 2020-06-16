@@ -1,22 +1,24 @@
 ---
 title: updates.getDifference
-description: You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates
+description: Get new [updates](https://core.telegram.org/api/updates).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/updates_getDifference.html
 ---
-# Method: updates.getDifference  
+# Method: updates.getDifference
 [Back to methods index](index.md)
 
 
-You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates
+
+Get new [updates](https://core.telegram.org/api/updates).
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|pts|[int](../types/int.md) | You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates | Yes|
-|date|[int](../types/int.md) | You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates | Yes|
-|qts|[int](../types/int.md) | You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates | Yes|
+|pts|[int](../types/int.md) | PTS, see [updates](https://core.telegram.org/api/updates). | Yes|
+|pts\_total\_limit|[int](../types/int.md) | For fast updating: if provided and `pts + pts_total_limit < remote pts`, [updates.differenceTooLong](../constructors/updates.differenceTooLong.md) will be returned.<br>Simply tells the server to not return the difference if it is bigger than `pts_total_limit`<br>If the remote pts is too big (&gt; ~4000000), this field will default to 1000000 | Optional|
+|date|[int](../types/int.md) | date, see [updates](https://core.telegram.org/api/updates). | Yes|
+|qts|[int](../types/int.md) | QTS, see [updates](https://core.telegram.org/api/updates). | Yes|
 
 
 ### Return type: [updates.Difference](../types/updates.Difference.md)
@@ -36,13 +38,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$updates.Difference = $MadelineProto->updates->getDifference(['pts' => int, 'date' => int, 'qts' => int, ]);
+$updates.Difference = $MadelineProto->updates->getDifference(['pts' => int, 'pts_total_limit' => int, 'date' => int, 'qts' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-updates.Difference = updates.getDifference({pts=int, date=int, qts=int, })
+updates.Difference = updates.getDifference({pts=int, pts_total_limit=int, date=int, qts=int, })
 ```
 
 ### Errors
@@ -56,6 +58,7 @@ updates.Difference = updates.getDifference({pts=int, date=int, qts=int, })
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
 |401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
+|-500|No workers running|Internal error|
 |-503|Timeout|Timeout while fetching data|
 
 

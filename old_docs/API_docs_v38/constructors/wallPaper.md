@@ -14,10 +14,15 @@ Wallpaper settings.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID|
-|title|[string](../types/string.md) | Yes|Title|
-|sizes|Array of [PhotoSize](../types/PhotoSize.md) | Yes|Sizes|
-|color|[int](../types/int.md) | Yes|Color|
+|id|[long](../types/long.md) | Yes|Identifier|
+|creator|[Bool](../types/Bool.md) | Optional|Creator of the wallpaper|
+|default|[Bool](../types/Bool.md) | Optional|Whether this is the default wallpaper|
+|pattern|[Bool](../types/Bool.md) | Optional|Pattern|
+|dark|[Bool](../types/Bool.md) | Optional|Dark mode|
+|access\_hash|[long](../types/long.md) | Yes|Access hash|
+|slug|[string](../types/string.md) | Yes|Unique wallpaper ID|
+|document|[Document](../types/Document.md) | Optional|The actual wallpaper|
+|settings|[WallPaperSettings](../types/WallPaperSettings.md) | Optional|Wallpaper settings|
 
 
 
@@ -27,14 +32,14 @@ Wallpaper settings.
 ### Example:
 
 ```php
-$wallPaper = ['_' => 'wallPaper', 'id' => int, 'title' => 'string', 'sizes' => [PhotoSize, PhotoSize], 'color' => int];
+$wallPaper = ['_' => 'wallPaper', 'id' => long, 'creator' => Bool, 'default' => Bool, 'pattern' => Bool, 'dark' => Bool, 'access_hash' => long, 'slug' => 'string', 'document' => Document, 'settings' => WallPaperSettings];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-wallPaper={_='wallPaper', id=int, title='string', sizes={PhotoSize}, color=int}
+wallPaper={_='wallPaper', id=long, creator=Bool, default=Bool, pattern=Bool, dark=Bool, access_hash=long, slug='string', document=Document, settings=WallPaperSettings}
 
 ```
 

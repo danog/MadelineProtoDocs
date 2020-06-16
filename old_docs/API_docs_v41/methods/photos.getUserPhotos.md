@@ -4,8 +4,9 @@ description: Returns the list of user photos.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/photos_getUserPhotos.html
 ---
-# Method: photos.getUserPhotos  
+# Method: photos.getUserPhotos
 [Back to methods index](index.md)
+
 
 
 Returns the list of user photos.
@@ -52,5 +53,6 @@ photos.Photos = photos.getUserPhotos({user_id=InputUser, offset=int, max_id=long
 |------|----------|---------------|
 |400|MAX_ID_INVALID|The provided max ID is invalid|
 |400|USER_ID_INVALID|The provided user ID is invalid|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 
 

@@ -15,9 +15,9 @@ Full list of messages with auxilary data.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|messages|Array of [Message](../types/Message.md) | Yes|Messages|
-|chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
-|users|Array of [User](../types/User.md) | Yes|Users|
+|messages|Array of [Message](../types/Message.md) | Yes|List of messages|
+|chats|Array of [Chat](../types/Chat.md) | Yes|List of chats mentioned in dialogs|
+|users|Array of [User](../types/User.md) | Yes|List of users mentioned in messages and chats|
 
 
 

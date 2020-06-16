@@ -3,7 +3,7 @@ title: MessageMedia
 description: constructors and methods of type MessageMedia
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: MessageMedia  
+# Type: MessageMedia
 [Back to types index](index.md)
 
 
@@ -14,7 +14,37 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageMediaPhoto](../constructors/messageMediaPhoto.md)  
 
-[messageMediaVideo](../constructors/messageMediaVideo.md)  
+[messageMediaGeo](../constructors/messageMediaGeo.md)  
+
+[messageMediaContact](../constructors/messageMediaContact.md)  
+
+[messageMediaUnsupported](../constructors/messageMediaUnsupported.md)  
+
+[messageMediaDocument](../constructors/messageMediaDocument.md)  
+
+[messageMediaWebPage](../constructors/messageMediaWebPage.md)  
+
+[messageMediaVenue](../constructors/messageMediaVenue.md)  
+
+[messageMediaGame](../constructors/messageMediaGame.md)  
+
+[messageMediaInvoice](../constructors/messageMediaInvoice.md)  
+
+[messageMediaGeoLive](../constructors/messageMediaGeoLive.md)  
+
+
+
+### Methods that return an object of this type (methods):
+
+[$MadelineProto->messages->getWebPagePreview](../methods/messages.getWebPagePreview.md)  
+
+[$MadelineProto->messages->uploadMedia](../methods/messages.uploadMedia.md)  
+
+
+
+[messageMediaEmpty](../constructors/messageMediaEmpty.md)  
+
+[messageMediaPhoto](../constructors/messageMediaPhoto.md)  
 
 [messageMediaGeo](../constructors/messageMediaGeo.md)  
 
@@ -24,15 +54,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageMediaDocument](../constructors/messageMediaDocument.md)  
 
-[messageMediaAudio](../constructors/messageMediaAudio.md)  
-
 [messageMediaWebPage](../constructors/messageMediaWebPage.md)  
 
+[messageMediaVenue](../constructors/messageMediaVenue.md)  
 
+[messageMediaGame](../constructors/messageMediaGame.md)  
 
-### Methods that return an object of this type (methods):
+[messageMediaInvoice](../constructors/messageMediaInvoice.md)  
+
+[messageMediaGeoLive](../constructors/messageMediaGeoLive.md)  
 
 [$MadelineProto->messages->getWebPagePreview](../methods/messages.getWebPagePreview.md)  
 
-
+[$MadelineProto->messages->uploadMedia](../methods/messages.uploadMedia.md)  
 

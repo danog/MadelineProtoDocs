@@ -1,21 +1,22 @@
 ---
 title: messages.requestEncryption
-description: You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling secret chats
+description: Sends a request to start a secret chat to the user.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_requestEncryption.html
 ---
-# Method: messages.requestEncryption  
+# Method: messages.requestEncryption
 [Back to methods index](index.md)
 
 
-You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling secret chats
+
+Sends a request to start a secret chat to the user.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling secret chats | Optional|
-|g\_a|[bytes](../types/bytes.md) | You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling secret chats | Yes|
+|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | User ID | Optional|
+|g\_a|[bytes](../types/bytes.md) | `A = g ^ a mod p`, see [Wikipedia](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange) | Yes|
 
 
 ### Return type: [EncryptedChat](../types/EncryptedChat.md)

@@ -409,9 +409,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$dcOption](../constructors/dcOption.md) = \['ipv6' => [Bool](../types/Bool.md), 'media_only' => [Bool](../types/Bool.md), 'tcpo_only' => [Bool](../types/Bool.md), 'cdn' => [Bool](../types/Bool.md), 'static' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'ip_address' => [string](../types/string.md), 'port' => [int](../types/int.md), 'secret' => [bytes](../types/bytes.md), \];<a name="dcOption"></a>  
 
 ***
-<br><br>[$decryptedDataBlock](../constructors/decryptedDataBlock.md) = \['voice_call_id' => [int128](../types/int128.md), 'in_seq_no' => [int](../types/int.md), 'out_seq_no' => [int](../types/int.md), 'recent_received_mask' => [int](../types/int.md), 'proto' => [int](../types/int.md), 'extra' => [string](../types/string.md), 'raw_data' => [string](../types/string.md), \];<a name="decryptedDataBlock"></a>  
-
-***
 <br><br>[$decryptedMessage\_73](../constructors/decryptedMessage_73.md) = \['ttl' => [int](../types/int.md), 'message' => [string](../types/string.md), 'media' => [DecryptedMessageMedia](../types/DecryptedMessageMedia.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], 'via_bot_name' => [string](../types/string.md), 'reply_to_random_id' => [long](../types/long.md), 'grouped_id' => [long](../types/long.md), \];<a name="decryptedMessage_73"></a>  
 
 ***
@@ -643,10 +640,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$help.passportConfigNotModified](../constructors/help.passportConfigNotModified.md) = \[\];<a name="help.passportConfigNotModified"></a>  
 
 ***
-<br><br>[$help.proxyDataEmpty](../constructors/help.proxyDataEmpty.md) = \['expires' => [int](../types/int.md), \];<a name="help.proxyDataEmpty"></a>  
+<br><br>[$help.promoData](../constructors/help.promoData.md) = \['proxy' => [Bool](../types/Bool.md), 'expires' => [int](../types/int.md), 'peer' => [Peer](../types/Peer.md), 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], 'psa_type' => [string](../types/string.md), 'psa_message' => [string](../types/string.md), \];<a name="help.promoData"></a>  
 
 ***
-<br><br>[$help.proxyDataPromo](../constructors/help.proxyDataPromo.md) = \['expires' => [int](../types/int.md), 'peer' => [Peer](../types/Peer.md), 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="help.proxyDataPromo"></a>  
+<br><br>[$help.promoDataEmpty](../constructors/help.promoDataEmpty.md) = \['expires' => [int](../types/int.md), \];<a name="help.promoDataEmpty"></a>  
 
 ***
 <br><br>[$help.recentMeUrls](../constructors/help.recentMeUrls.md) = \['urls' => \[[RecentMeUrl](../types/RecentMeUrl.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="help.recentMeUrls"></a>  
@@ -808,7 +805,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$inputMediaContact](../constructors/inputMediaContact.md) = \['phone_number' => [string](../types/string.md), 'first_name' => [string](../types/string.md), 'last_name' => [string](../types/string.md), 'vcard' => [string](../types/string.md), \];<a name="inputMediaContact"></a>  
 
 ***
-<br><br>[$inputMediaDice](../constructors/inputMediaDice.md) = \[\];<a name="inputMediaDice"></a>  
+<br><br>[$inputMediaDice](../constructors/inputMediaDice.md) = \['emoticon' => [string](../types/string.md), \];<a name="inputMediaDice"></a>  
 
 ***
 <br><br>[$inputMediaDocument](../constructors/inputMediaDocument.md) = \['id' => [InputDocument](../types/InputDocument.md), 'ttl_seconds' => [int](../types/int.md), \];<a name="inputMediaDocument"></a>  
@@ -841,7 +838,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$inputMediaPhotoExternal](../constructors/inputMediaPhotoExternal.md) = \['url' => [string](../types/string.md), 'ttl_seconds' => [int](../types/int.md), \];<a name="inputMediaPhotoExternal"></a>  
 
 ***
-<br><br>[$inputMediaPoll](../constructors/inputMediaPoll.md) = \['poll' => [Poll](../types/Poll.md), 'correct_answers' => \[[bytes](../types/bytes.md)\], \];<a name="inputMediaPoll"></a>  
+<br><br>[$inputMediaPoll](../constructors/inputMediaPoll.md) = \['poll' => [Poll](../types/Poll.md), 'correct_answers' => \[[bytes](../types/bytes.md)\], 'solution' => [string](../types/string.md), 'solution_entities' => \[[MessageEntity](../types/MessageEntity.md)\], \];<a name="inputMediaPoll"></a>  
 
 ***
 <br><br>[$inputMediaUploadedDocument](../constructors/inputMediaUploadedDocument.md) = \['nosound_video' => [Bool](../types/Bool.md), 'file' => [InputFile](../types/InputFile.md), 'thumb' => [InputFile](../types/InputFile.md), 'mime_type' => [string](../types/string.md), 'attributes' => \[[DocumentAttribute](../types/DocumentAttribute.md)\], 'stickers' => \[[InputDocument](../types/InputDocument.md)\], 'ttl_seconds' => [int](../types/int.md), \];<a name="inputMediaUploadedDocument"></a>  
@@ -1069,7 +1066,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$inputStickerSetAnimatedEmoji](../constructors/inputStickerSetAnimatedEmoji.md) = \[\];<a name="inputStickerSetAnimatedEmoji"></a>  
 
 ***
-<br><br>[$inputStickerSetDice](../constructors/inputStickerSetDice.md) = \[\];<a name="inputStickerSetDice"></a>  
+<br><br>[$inputStickerSetDice](../constructors/inputStickerSetDice.md) = \['emoticon' => [string](../types/string.md), \];<a name="inputStickerSetDice"></a>  
 
 ***
 <br><br>[$inputStickerSetEmpty](../constructors/inputStickerSetEmpty.md) = \[\];<a name="inputStickerSetEmpty"></a>  
@@ -1342,7 +1339,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$messageEntityUrl](../constructors/messageEntityUrl.md) = \['offset' => [int](../types/int.md), 'length' => [int](../types/int.md), \];<a name="messageEntityUrl"></a>  
 
 ***
-<br><br>[$messageFwdHeader](../constructors/messageFwdHeader.md) = \['from_id' => [int](../types/int.md), 'from_name' => [string](../types/string.md), 'date' => [int](../types/int.md), 'channel_id' => [int](../types/int.md), 'channel_post' => [int](../types/int.md), 'post_author' => [string](../types/string.md), 'saved_from_peer' => [Peer](../types/Peer.md), 'saved_from_msg_id' => [int](../types/int.md), \];<a name="messageFwdHeader"></a>  
+<br><br>[$messageFwdHeader](../constructors/messageFwdHeader.md) = \['from_id' => [int](../types/int.md), 'from_name' => [string](../types/string.md), 'date' => [int](../types/int.md), 'channel_id' => [int](../types/int.md), 'channel_post' => [int](../types/int.md), 'post_author' => [string](../types/string.md), 'saved_from_peer' => [Peer](../types/Peer.md), 'saved_from_msg_id' => [int](../types/int.md), 'psa_type' => [string](../types/string.md), \];<a name="messageFwdHeader"></a>  
 
 ***
 <br><br>[$messageInteractionCounters](../constructors/messageInteractionCounters.md) = \['msg_id' => [int](../types/int.md), 'views' => [int](../types/int.md), 'forwards' => [int](../types/int.md), \];<a name="messageInteractionCounters"></a>  
@@ -1351,7 +1348,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$messageMediaContact](../constructors/messageMediaContact.md) = \['phone_number' => [string](../types/string.md), 'first_name' => [string](../types/string.md), 'last_name' => [string](../types/string.md), 'vcard' => [string](../types/string.md), 'user_id' => [int](../types/int.md), \];<a name="messageMediaContact"></a>  
 
 ***
-<br><br>[$messageMediaDice](../constructors/messageMediaDice.md) = \['value' => [int](../types/int.md), \];<a name="messageMediaDice"></a>  
+<br><br>[$messageMediaDice](../constructors/messageMediaDice.md) = \['value' => [int](../types/int.md), 'emoticon' => [string](../types/string.md), \];<a name="messageMediaDice"></a>  
 
 ***
 <br><br>[$messageMediaDocument](../constructors/messageMediaDocument.md) = \['document' => [Document](../types/Document.md), 'ttl_seconds' => [int](../types/int.md), \];<a name="messageMediaDocument"></a>  
@@ -1456,10 +1453,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$messages.favedStickersNotModified](../constructors/messages.favedStickersNotModified.md) = \[\];<a name="messages.favedStickersNotModified"></a>  
 
 ***
-<br><br>[$messages.featuredStickers](../constructors/messages.featuredStickers.md) = \['hash' => [int](../types/int.md), 'sets' => \[[StickerSetCovered](../types/StickerSetCovered.md)\], 'unread' => \[[long](../types/long.md)\], \];<a name="messages.featuredStickers"></a>  
+<br><br>[$messages.featuredStickers](../constructors/messages.featuredStickers.md) = \['hash' => [int](../types/int.md), 'count' => [int](../types/int.md), 'sets' => \[[StickerSetCovered](../types/StickerSetCovered.md)\], 'unread' => \[[long](../types/long.md)\], \];<a name="messages.featuredStickers"></a>  
 
 ***
-<br><br>[$messages.featuredStickersNotModified](../constructors/messages.featuredStickersNotModified.md) = \[\];<a name="messages.featuredStickersNotModified"></a>  
+<br><br>[$messages.featuredStickersNotModified](../constructors/messages.featuredStickersNotModified.md) = \['count' => [int](../types/int.md), \];<a name="messages.featuredStickersNotModified"></a>  
 
 ***
 <br><br>[$messages.foundGifs](../constructors/messages.foundGifs.md) = \['next_offset' => [int](../types/int.md), 'results' => \[[FoundGif](../types/FoundGif.md)\], \];<a name="messages.foundGifs"></a>  
@@ -1786,7 +1783,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$photos.photosSlice](../constructors/photos.photosSlice.md) = \['count' => [int](../types/int.md), 'photos' => \[[Photo](../types/Photo.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="photos.photosSlice"></a>  
 
 ***
-<br><br>[$poll](../constructors/poll.md) = \['id' => [long](../types/long.md), 'closed' => [Bool](../types/Bool.md), 'public_voters' => [Bool](../types/Bool.md), 'multiple_choice' => [Bool](../types/Bool.md), 'quiz' => [Bool](../types/Bool.md), 'question' => [string](../types/string.md), 'answers' => \[[PollAnswer](../types/PollAnswer.md)\], \];<a name="poll"></a>  
+<br><br>[$poll](../constructors/poll.md) = \['id' => [long](../types/long.md), 'closed' => [Bool](../types/Bool.md), 'public_voters' => [Bool](../types/Bool.md), 'multiple_choice' => [Bool](../types/Bool.md), 'quiz' => [Bool](../types/Bool.md), 'question' => [string](../types/string.md), 'answers' => \[[PollAnswer](../types/PollAnswer.md)\], 'close_period' => [int](../types/int.md), 'close_date' => [int](../types/int.md), \];<a name="poll"></a>  
 
 ***
 <br><br>[$pollAnswer](../constructors/pollAnswer.md) = \['text' => [string](../types/string.md), 'option' => [bytes](../types/bytes.md), \];<a name="pollAnswer"></a>  
@@ -1795,7 +1792,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$pollAnswerVoters](../constructors/pollAnswerVoters.md) = \['chosen' => [Bool](../types/Bool.md), 'correct' => [Bool](../types/Bool.md), 'option' => [bytes](../types/bytes.md), 'voters' => [int](../types/int.md), \];<a name="pollAnswerVoters"></a>  
 
 ***
-<br><br>[$pollResults](../constructors/pollResults.md) = \['min' => [Bool](../types/Bool.md), 'results' => \[[PollAnswerVoters](../types/PollAnswerVoters.md)\], 'total_voters' => [int](../types/int.md), 'recent_voters' => \[[int](../types/int.md)\], \];<a name="pollResults"></a>  
+<br><br>[$pollResults](../constructors/pollResults.md) = \['min' => [Bool](../types/Bool.md), 'results' => \[[PollAnswerVoters](../types/PollAnswerVoters.md)\], 'total_voters' => [int](../types/int.md), 'recent_voters' => \[[int](../types/int.md)\], 'solution' => [string](../types/string.md), 'solution_entities' => \[[MessageEntity](../types/MessageEntity.md)\], \];<a name="pollResults"></a>  
 
 ***
 <br><br>[$popularContact](../constructors/popularContact.md) = \['client_id' => [long](../types/long.md), 'importers' => [int](../types/int.md), \];<a name="popularContact"></a>  
@@ -2036,9 +2033,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$shippingOption](../constructors/shippingOption.md) = \['id' => [string](../types/string.md), 'title' => [string](../types/string.md), 'prices' => \[[LabeledPrice](../types/LabeledPrice.md)\], \];<a name="shippingOption"></a>  
-
-***
-<br><br>[$simpleDataBlock](../constructors/simpleDataBlock.md) = \['raw_data' => [string](../types/string.md), \];<a name="simpleDataBlock"></a>  
 
 ***
 <br><br>[$stats.broadcastStats](../constructors/stats.broadcastStats.md) = \['period' => [StatsDateRangeDays](../types/StatsDateRangeDays.md), 'followers' => [StatsAbsValueAndPrev](../types/StatsAbsValueAndPrev.md), 'views_per_post' => [StatsAbsValueAndPrev](../types/StatsAbsValueAndPrev.md), 'shares_per_post' => [StatsAbsValueAndPrev](../types/StatsAbsValueAndPrev.md), 'enabled_notifications' => [StatsPercentValue](../types/StatsPercentValue.md), 'growth_graph' => [StatsGraph](../types/StatsGraph.md), 'followers_graph' => [StatsGraph](../types/StatsGraph.md), 'mute_graph' => [StatsGraph](../types/StatsGraph.md), 'top_hours_graph' => [StatsGraph](../types/StatsGraph.md), 'interactions_graph' => [StatsGraph](../types/StatsGraph.md), 'iv_interactions_graph' => [StatsGraph](../types/StatsGraph.md), 'views_by_source_graph' => [StatsGraph](../types/StatsGraph.md), 'new_followers_by_source_graph' => [StatsGraph](../types/StatsGraph.md), 'languages_graph' => [StatsGraph](../types/StatsGraph.md), 'recent_message_interactions' => \[[MessageInteractionCounters](../types/MessageInteractionCounters.md)\], \];<a name="stats.broadcastStats"></a>  
@@ -2567,4 +2561,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$webPagePending](../constructors/webPagePending.md) = \['id' => [long](../types/long.md), 'date' => [int](../types/int.md), \];<a name="webPagePending"></a>  
+
 

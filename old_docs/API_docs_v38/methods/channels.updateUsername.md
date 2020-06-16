@@ -4,8 +4,9 @@ description: Change the username of a supergroup/channel
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_updateUsername.html
 ---
-# Method: channels.updateUsername  
+# Method: channels.updateUsername
 [Back to methods index](index.md)
+
 
 
 Change the username of a supergroup/channel
@@ -55,6 +56,7 @@ Bool = channels.updateUsername({channel=InputChannel, username='string', })
 |400|USERNAME_INVALID|The provided username is not valid|
 |400|USERNAME_NOT_MODIFIED|The username was not modified|
 |400|USERNAME_OCCUPIED|The provided username is already occupied|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 
 

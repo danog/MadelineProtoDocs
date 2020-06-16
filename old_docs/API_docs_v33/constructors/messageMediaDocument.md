@@ -15,6 +15,7 @@ Document (video, audio, voice, sticker, any media type except photo)
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |document|[Document](../types/Document.md) | Optional|Attached document|
+|ttl\_seconds|[int](../types/int.md) | Optional|Time to live of self-destructing document|
 
 
 
@@ -24,14 +25,14 @@ Document (video, audio, voice, sticker, any media type except photo)
 ### Example:
 
 ```php
-$messageMediaDocument = ['_' => 'messageMediaDocument', 'document' => Document];
+$messageMediaDocument = ['_' => 'messageMediaDocument', 'document' => Document, 'ttl_seconds' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messageMediaDocument={_='messageMediaDocument', document=Document}
+messageMediaDocument={_='messageMediaDocument', document=Document, ttl_seconds=int}
 
 ```
 

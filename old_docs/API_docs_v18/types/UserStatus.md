@@ -3,7 +3,7 @@ title: UserStatus
 description: constructors and methods of type UserStatus
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: UserStatus  
+# Type: UserStatus
 [Back to types index](index.md)
 
 
@@ -16,9 +16,27 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [userStatusOffline](../constructors/userStatusOffline.md)  
 
+[userStatusRecently](../constructors/userStatusRecently.md)  
+
+[userStatusLastWeek](../constructors/userStatusLastWeek.md)  
+
+[userStatusLastMonth](../constructors/userStatusLastMonth.md)  
+
 
 
 ### Methods that return an object of this type (methods):
 
 
+
+[userStatusEmpty](../constructors/userStatusEmpty.md)  
+
+[userStatusOnline](../constructors/userStatusOnline.md)  
+
+[userStatusOffline](../constructors/userStatusOffline.md)  
+
+[userStatusRecently](../constructors/userStatusRecently.md)  
+
+[userStatusLastWeek](../constructors/userStatusLastWeek.md)  
+
+[userStatusLastMonth](../constructors/userStatusLastMonth.md)  
 

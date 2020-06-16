@@ -15,7 +15,7 @@ Changes in notification settings.
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |peer|[NotifyPeer](../types/NotifyPeer.md) | Yes|Nofication source|
-|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|New notification settings|
+|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Yes|New notification settings|
 
 
 

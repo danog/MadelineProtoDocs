@@ -15,8 +15,8 @@ Info about all installed stickers
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[string](../types/string.md) | Yes|Hash|
-|sets|Array of [StickerSet](../types/StickerSet.md) | Yes|Sets|
+|hash|[int](../types/int.md) | Yes|
+|sets|Array of [StickerSet](../types/StickerSet.md) | Yes|All stickersets|
 
 
 
@@ -26,14 +26,14 @@ Info about all installed stickers
 ### Example:
 
 ```php
-$messages.allStickers = ['_' => 'messages.allStickers', 'hash' => 'string', 'sets' => [StickerSet, StickerSet]];
+$messages.allStickers = ['_' => 'messages.allStickers', 'hash' => int, 'sets' => [StickerSet, StickerSet]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.allStickers={_='messages.allStickers', hash='string', sets={StickerSet}}
+messages.allStickers={_='messages.allStickers', hash=int, sets={StickerSet}}
 
 ```
 

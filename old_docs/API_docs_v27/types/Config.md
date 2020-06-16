@@ -3,7 +3,7 @@ title: Config
 description: constructors and methods of type Config
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: Config  
+# Type: Config
 [Back to types index](index.md)
 
 
@@ -19,4 +19,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [$MadelineProto->help->getConfig](../methods/help.getConfig.md)  
 
 
+
+[config](../constructors/config.md)  
+
+[$MadelineProto->help->getConfig](../methods/help.getConfig.md)  
 

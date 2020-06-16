@@ -1,6 +1,6 @@
 ---
 title: auth.checkedPhone
-description: Checked phone
+description: auth.checkedPhone attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/auth_checkedPhone.html
 ---
@@ -9,14 +9,11 @@ redirect_from: /API_docs/constructors/auth_checkedPhone.html
 
 
 
-Checked phone
-
 ### Attributes:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|phone\_registered|[Bool](../types/Bool.md) | Yes|Phone registered?|
-|phone\_invited|[Bool](../types/Bool.md) | Yes|Phone invited?|
+| Name     |    Type       | Required |
+|----------|---------------|----------|
+|phone\_registered|[Bool](../types/Bool.md) | Yes|
 
 
 
@@ -26,14 +23,14 @@ Checked phone
 ### Example:
 
 ```php
-$auth.checkedPhone = ['_' => 'auth.checkedPhone', 'phone_registered' => Bool, 'phone_invited' => Bool];
+$auth.checkedPhone = ['_' => 'auth.checkedPhone', 'phone_registered' => Bool];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-auth.checkedPhone={_='auth.checkedPhone', phone_registered=Bool, phone_invited=Bool}
+auth.checkedPhone={_='auth.checkedPhone', phone_registered=Bool}
 
 ```
 

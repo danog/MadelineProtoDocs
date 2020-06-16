@@ -3,7 +3,7 @@ title: WallPaper
 description: constructors and methods of type WallPaper
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: WallPaper  
+# Type: WallPaper
 [Back to types index](index.md)
 
 
@@ -21,4 +21,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [$MadelineProto->account->getWallPapers](../methods/account.getWallPapers.md)  
 
 
+
+[wallPaper](../constructors/wallPaper.md)  
+
+[wallPaperSolid](../constructors/wallPaperSolid.md)  
+
+[$MadelineProto->account->getWallPapers](../methods/account.getWallPapers.md)  
 

@@ -4,8 +4,9 @@ description: Gets back the conversation history with one interlocutor / within a
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getHistory.html
 ---
-# Method: messages.getHistory  
+# Method: messages.getHistory
 [Back to methods index](index.md)
+
 
 
 Gets back the conversation history with one interlocutor / within a chat
@@ -15,9 +16,13 @@ Gets back the conversation history with one interlocutor / within a chat
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Target peer | Optional|
-|offset|[int](../types/int.md) | Message ID offset | Yes|
-|max\_id|[int](../types/int.md) | If a positive value was transferred, the method will return only messages with IDs less than **max\_id** | Yes|
+|offset\_id|[int](../types/int.md) | Only return messages starting from the specified message ID | Yes|
+|offset\_date|[int](../types/int.md) | Only return messages sent before the specified date | Yes|
+|add\_offset|[int](../types/int.md) | Number of list elements to be skipped, negative values are also accepted. | Yes|
 |limit|[int](../types/int.md) | Number of results to return | Yes|
+|max\_id|[int](../types/int.md) | If a positive value was transferred, the method will return only messages with IDs less than **max\_id** | Yes|
+|min\_id|[int](../types/int.md) | If a positive value was transferred, the method will return only messages with IDs more than **min\_id** | Yes|
+|hash|Array of [int](../types/int.md) | [Result hash](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [messages.Messages](../types/messages.Messages.md)
@@ -37,13 +42,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.Messages = $MadelineProto->messages->getHistory(['peer' => InputPeer, 'offset' => int, 'max_id' => int, 'limit' => int, ]);
+$messages.Messages = $MadelineProto->messages->getHistory(['peer' => InputPeer, 'offset_id' => int, 'offset_date' => int, 'add_offset' => int, 'limit' => int, 'max_id' => int, 'min_id' => int, 'hash' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.Messages = messages.getHistory({peer=InputPeer, offset=int, max_id=int, limit=int, })
+messages.Messages = messages.getHistory({peer=InputPeer, offset_id=int, offset_date=int, add_offset=int, limit=int, max_id=int, min_id=int, hash={int}, })
 ```
 
 ### Errors
@@ -57,6 +62,7 @@ messages.Messages = messages.getHistory({peer=InputPeer, offset=int, max_id=int,
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
+|-504|memory limit exit|Internal error|
 |-503|Timeout|Timeout while fetching data|
 
 

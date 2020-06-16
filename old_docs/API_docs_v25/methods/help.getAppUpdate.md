@@ -4,20 +4,13 @@ description: Returns information on update availability for the current applicat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getAppUpdate.html
 ---
-# Method: help.getAppUpdate  
+# Method: help.getAppUpdate
 [Back to methods index](index.md)
+
 
 
 Returns information on update availability for the current application.
 
-### Parameters:
-
-| Name     |    Type       | Description | Required |
-|----------|---------------|-------------|----------|
-|device\_model|[string](../types/string.md) | Device model | Yes|
-|system\_version|[string](../types/string.md) | System version | Yes|
-|app\_version|[string](../types/string.md) | App version | Yes|
-|lang\_code|[string](../types/string.md) | Langauge code | Yes|
 
 
 ### Return type: [help.AppUpdate](../types/help.AppUpdate.md)
@@ -37,12 +30,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help.AppUpdate = $MadelineProto->help->getAppUpdate(['device_model' => 'string', 'system_version' => 'string', 'app_version' => 'string', 'lang_code' => 'string', ]);
+$help.AppUpdate = $MadelineProto->help->getAppUpdate();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help.AppUpdate = help.getAppUpdate({device_model='string', system_version='string', app_version='string', lang_code='string', })
+help.AppUpdate = help.getAppUpdate({})
 ```
 

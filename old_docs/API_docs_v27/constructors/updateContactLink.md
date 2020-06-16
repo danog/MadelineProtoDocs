@@ -1,6 +1,6 @@
 ---
 title: updateContactLink
-description: Update contact link
+description: updateContactLink attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateContactLink  
@@ -8,15 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update contact link
-
 ### Attributes:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User ID|
-|my\_link|[ContactLink](../types/ContactLink.md) | Yes|My link|
-|foreign\_link|[ContactLink](../types/ContactLink.md) | Yes|Foreign link|
+| Name     |    Type       | Required |
+|----------|---------------|----------|
+|user\_id|[int](../types/int.md) | Yes|
+|my\_link|[ContactLink](../types/ContactLink.md) | Yes|
+|foreign\_link|[ContactLink](../types/ContactLink.md) | Yes|
 
 
 

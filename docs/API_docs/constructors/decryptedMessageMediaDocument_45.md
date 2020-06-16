@@ -19,7 +19,7 @@ Document attached to a message in a secret chat.
 |thumb\_h|[int](../types/int.md) | Yes|Thumbnail height|
 |mime\_type|[string](../types/string.md) | Yes|File MIME-type|
 |size|[int](../types/int.md) | Yes|Document size|
-|attributes|Array of [DocumentAttribute](../types/DocumentAttribute.md) | Yes|Attributes|
+|attributes|Array of [DocumentAttribute](../types/DocumentAttribute.md) | Yes|Document attributes for media types|
 |caption|[string](../types/string.md) | Yes|Caption|
 
 

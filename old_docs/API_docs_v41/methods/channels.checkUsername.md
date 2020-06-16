@@ -4,8 +4,9 @@ description: Check if a username is free and can be assigned to a channel/superg
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_checkUsername.html
 ---
-# Method: channels.checkUsername  
+# Method: channels.checkUsername
 [Back to methods index](index.md)
+
 
 
 Check if a username is free and can be assigned to a channel/supergroup
@@ -49,6 +50,7 @@ Bool = channels.checkUsername({channel=InputChannel, username='string', })
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|CHANNEL_INVALID|The provided channel is invalid|
+|400|CHANNELS_ADMIN_PUBLIC_TOO_MUCH|You're admin of too many public channels, make some channels private to change the username of this channel|
 |400|CHAT_ID_INVALID|The provided chat id is invalid|
 |400|USERNAME_INVALID|The provided username is not valid|
 

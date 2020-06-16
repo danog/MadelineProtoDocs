@@ -1,0 +1,34 @@
+---
+title: DestroyAuthKeyRes
+description: constructors and methods of type DestroyAuthKeyRes
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+---
+# Type: DestroyAuthKeyRes
+[Back to types index](index.md)
+
+
+
+### Possible values (constructors):
+
+[destroy\_auth\_key\_ok](../constructors/destroy_auth_key_ok.md)  
+
+[destroy\_auth\_key\_none](../constructors/destroy_auth_key_none.md)  
+
+[destroy\_auth\_key\_fail](../constructors/destroy_auth_key_fail.md)  
+
+
+
+### Methods that return an object of this type (methods):
+
+[$MadelineProto->destroy\_auth\_key](../methods/destroy_auth_key.md)  
+
+
+
+[destroy\_auth\_key\_ok](../constructors/destroy_auth_key_ok.md)  
+
+[destroy\_auth\_key\_none](../constructors/destroy_auth_key_none.md)  
+
+[destroy\_auth\_key\_fail](../constructors/destroy_auth_key_fail.md)  
+
+[$MadelineProto->destroy\_auth\_key](../methods/destroy_auth_key.md)  
+

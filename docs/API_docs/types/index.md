@@ -6,7 +6,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 # Types  
 [Back to API documentation index](..)
 
-
 [AccountDaysTTL](AccountDaysTTL.md)<a name="AccountDaysTTL"></a>  
 
 [Authorization](Authorization.md)<a name="Authorization"></a>  
@@ -76,8 +75,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [DataJSON](DataJSON.md)<a name="DataJSON"></a>  
 
 [DcOption](DcOption.md)<a name="DcOption"></a>  
-
-[DecryptedDataBlock](DecryptedDataBlock.md)<a name="DecryptedDataBlock"></a>  
 
 [DecryptedMessage](DecryptedMessage.md)<a name="DecryptedMessage"></a>  
 
@@ -489,7 +486,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [help.PassportConfig](help.PassportConfig.md)<a name="help.PassportConfig"></a>  
 
-[help.ProxyData](help.ProxyData.md)<a name="help.ProxyData"></a>  
+[help.PromoData](help.PromoData.md)<a name="help.PromoData"></a>  
 
 [help.RecentMeUrls](help.RecentMeUrls.md)<a name="help.RecentMeUrls"></a>  
 

@@ -1,22 +1,23 @@
 ---
 title: auth.signIn
-description: You cannot use this method directly, use the completePhoneLogin method instead (see https://docs.madelineproto.xyz for more info)
+description: Signs in a user with a validated phone number.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_signIn.html
 ---
-# Method: auth.signIn  
+# Method: auth.signIn
 [Back to methods index](index.md)
 
 
-You cannot use this method directly, use the completePhoneLogin method instead (see https://docs.madelineproto.xyz for more info)
+
+Signs in a user with a validated phone number.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](../types/string.md) | You cannot use this method directly, use the completePhoneLogin method instead (see https://docs.madelineproto.xyz for more info) | Yes|
-|phone\_code\_hash|[string](../types/string.md) | You cannot use this method directly, use the completePhoneLogin method instead (see https://docs.madelineproto.xyz for more info) | Yes|
-|phone\_code|[string](../types/string.md) | You cannot use this method directly, use the completePhoneLogin method instead (see https://docs.madelineproto.xyz for more info) | Yes|
+|phone\_number|[string](../types/string.md) | Phone number in the international format | Yes|
+|phone\_code\_hash|[string](../types/string.md) | SMS-message ID, obtained from [auth.sendCode](../methods/auth.sendCode.md) | Yes|
+|phone\_code|[string](../types/string.md) | Valid numerical code from the SMS-message | Yes|
 
 
 ### Return type: [auth.Authorization](../types/auth.Authorization.md)

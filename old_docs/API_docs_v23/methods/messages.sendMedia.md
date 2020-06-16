@@ -4,8 +4,9 @@ description: Send a media
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_sendMedia.html
 ---
-# Method: messages.sendMedia  
+# Method: messages.sendMedia
 [Back to methods index](index.md)
+
 
 
 Send a media
@@ -14,11 +15,16 @@ Send a media
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|silent|[Bool](../types/Bool.md) | Send message silently (no notification should be triggered) | Optional|
+|background|[Bool](../types/Bool.md) | Send message in background | Optional|
+|clear\_draft|[Bool](../types/Bool.md) | Clear the draft | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Destination | Optional|
+|reply\_to\_msg\_id|[int](../types/int.md) | Message ID to which this message should reply to | Optional|
 |media|[MessageMedia, Update, Message or InputMedia](../types/InputMedia.md) | Attached media | Optional|
+|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Reply markup for bot keyboards | Optional|
 
 
-### Return type: [messages.StatedMessage](../types/messages.StatedMessage.md)
+### Return type: [Updates](../types/Updates.md)
 
 ### Can bots use this method: **YES**
 
@@ -35,14 +41,20 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.StatedMessage = $MadelineProto->messages->sendMedia(['peer' => InputPeer, 'media' => InputMedia, ]);
+$Updates = $MadelineProto->messages->sendMedia(['silent' => Bool, 'background' => Bool, 'clear_draft' => Bool, 'peer' => InputPeer, 'reply_to_msg_id' => int, 'media' => InputMedia, 'reply_markup' => ReplyMarkup, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.StatedMessage = messages.sendMedia({peer=InputPeer, media=InputMedia, })
+Updates = messages.sendMedia({silent=Bool, background=Bool, clear_draft=Bool, peer=InputPeer, reply_to_msg_id=int, media=InputMedia, reply_markup=ReplyMarkup, })
 ```
+
+
+## Usage of reply_markup
+
+You can provide bot API reply_markup objects here.  
+
 
 ### Errors
 

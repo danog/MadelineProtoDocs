@@ -4,8 +4,9 @@ description: Deletes the user from the blacklist.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_unblock.html
 ---
-# Method: contacts.unblock  
+# Method: contacts.unblock
 [Back to methods index](index.md)
+
 
 
 Deletes the user from the blacklist.

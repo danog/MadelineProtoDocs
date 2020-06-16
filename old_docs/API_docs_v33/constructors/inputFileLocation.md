@@ -17,6 +17,7 @@ DEPRECATED location of a photo
 |volume\_id|[long](../types/long.md) | Yes|Server volume|
 |local\_id|[int](../types/int.md) | Yes|File identifier|
 |secret|[long](../types/long.md) | Yes|Check sum to access the file|
+|file\_reference|[bytes](../types/bytes.md) | Yes|[File reference](https://core.telegram.org/api/file_reference)|
 
 
 
@@ -26,14 +27,14 @@ DEPRECATED location of a photo
 ### Example:
 
 ```php
-$inputFileLocation = ['_' => 'inputFileLocation', 'volume_id' => long, 'local_id' => int, 'secret' => long];
+$inputFileLocation = ['_' => 'inputFileLocation', 'volume_id' => long, 'local_id' => int, 'secret' => long, 'file_reference' => 'bytes'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-inputFileLocation={_='inputFileLocation', volume_id=long, local_id=int, secret=long}
+inputFileLocation={_='inputFileLocation', volume_id=long, local_id=int, secret=long, file_reference='bytes'}
 
 ```
 

@@ -3,7 +3,7 @@ title: ChatParticipants
 description: constructors and methods of type ChatParticipants
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: ChatParticipants  
+# Type: ChatParticipants
 [Back to types index](index.md)
 
 
@@ -19,4 +19,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Methods that return an object of this type (methods):
 
 
+
+[chatParticipantsForbidden](../constructors/chatParticipantsForbidden.md)  
+
+[chatParticipants](../constructors/chatParticipants.md)  
 

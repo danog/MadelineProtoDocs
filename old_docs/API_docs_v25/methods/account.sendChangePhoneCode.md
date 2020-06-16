@@ -4,8 +4,9 @@ description: Verify a new phone number to associate to the current account
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_sendChangePhoneCode.html
 ---
-# Method: account.sendChangePhoneCode  
+# Method: account.sendChangePhoneCode
 [Back to methods index](index.md)
+
 
 
 Verify a new phone number to associate to the current account
@@ -14,10 +15,12 @@ Verify a new phone number to associate to the current account
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|allow\_flashcall|[Bool](../types/Bool.md) |  | Optional|
 |phone\_number|[string](../types/string.md) | New phone number | Yes|
+|current\_number|[Bool](../types/Bool.md) |  | Optional|
 
 
-### Return type: [account.SentChangePhoneCode](../types/account.SentChangePhoneCode.md)
+### Return type: [auth.SentCode](../types/auth.SentCode.md)
 
 ### Can bots use this method: **NO**
 
@@ -34,13 +37,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account.SentChangePhoneCode = $MadelineProto->account->sendChangePhoneCode(['phone_number' => 'string', ]);
+$auth.SentCode = $MadelineProto->account->sendChangePhoneCode(['allow_flashcall' => Bool, 'phone_number' => 'string', 'current_number' => Bool, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account.SentChangePhoneCode = account.sendChangePhoneCode({phone_number='string', })
+auth.SentCode = account.sendChangePhoneCode({allow_flashcall=Bool, phone_number='string', current_number=Bool, })
 ```
 
 ### Errors

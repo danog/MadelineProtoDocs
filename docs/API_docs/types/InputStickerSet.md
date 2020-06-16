@@ -3,7 +3,7 @@ title: InputStickerSet
 description: constructors and methods of type InputStickerSet
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: InputStickerSet  
+# Type: InputStickerSet
 [Back to types index](index.md)
 
 
@@ -25,4 +25,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Methods that return an object of this type (methods):
 
 
+
+[inputStickerSetEmpty](../constructors/inputStickerSetEmpty.md)  
+
+[inputStickerSetID](../constructors/inputStickerSetID.md)  
+
+[inputStickerSetShortName](../constructors/inputStickerSetShortName.md)  
+
+[inputStickerSetAnimatedEmoji](../constructors/inputStickerSetAnimatedEmoji.md)  
+
+[inputStickerSetDice](../constructors/inputStickerSetDice.md)  
 

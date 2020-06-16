@@ -4,7 +4,7 @@ description: constructors and methods of type help.AppUpdate
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/help_AppUpdate.html
 ---
-# Type: help.AppUpdate  
+# Type: help.AppUpdate
 [Back to types index](index.md)
 
 
@@ -22,4 +22,10 @@ redirect_from: /API_docs/types/help_AppUpdate.html
 [$MadelineProto->help->getAppUpdate](../methods/help.getAppUpdate.md)  
 
 
+
+[help.appUpdate](../constructors/help.appUpdate.md)  
+
+[help.noAppUpdate](../constructors/help.noAppUpdate.md)  
+
+[$MadelineProto->help->getAppUpdate](../methods/help.getAppUpdate.md)  
 

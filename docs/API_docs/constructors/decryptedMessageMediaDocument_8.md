@@ -17,7 +17,7 @@ Document attached to a message in a secret chat.
 |thumb|[bytes](../types/bytes.md) | Yes|Thumbnail-file contents (JPEG-file, quality 55, set in a 90x90 square)|
 |thumb\_w|[int](../types/int.md) | Yes|Thumbnail width|
 |thumb\_h|[int](../types/int.md) | Yes|Thumbnail height|
-|file\_name|[string](../types/string.md) | Yes|File name|
+|file\_name|[string](../types/string.md) | Yes|
 |mime\_type|[string](../types/string.md) | Yes|File MIME-type|
 |size|[int](../types/int.md) | Yes|Document size|
 

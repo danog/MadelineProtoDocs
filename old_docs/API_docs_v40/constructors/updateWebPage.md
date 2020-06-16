@@ -15,6 +15,8 @@ An [instant view](https://instantview.telegram.org) webpage preview was generate
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |webpage|[WebPage](../types/WebPage.md) | Optional|Webpage preview|
+|pts|[int](../types/int.md) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|
+|pts\_count|[int](../types/int.md) | Yes|[Number of events that were generated](https://core.telegram.org/api/updates)|
 
 
 
@@ -24,14 +26,14 @@ An [instant view](https://instantview.telegram.org) webpage preview was generate
 ### Example:
 
 ```php
-$updateWebPage = ['_' => 'updateWebPage', 'webpage' => WebPage];
+$updateWebPage = ['_' => 'updateWebPage', 'webpage' => WebPage, 'pts' => int, 'pts_count' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateWebPage={_='updateWebPage', webpage=WebPage}
+updateWebPage={_='updateWebPage', webpage=WebPage, pts=int, pts_count=int}
 
 ```
 

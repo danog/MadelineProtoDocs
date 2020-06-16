@@ -14,13 +14,11 @@ Photo
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|has\_stickers|[Bool](../types/Bool.md) | Optional|Whether the photo has mask stickers attached to it|
 |id|[long](../types/long.md) | Yes|ID|
 |access\_hash|[long](../types/long.md) | Yes|Access hash|
-|user\_id|[int](../types/int.md) | Yes|User ID|
 |date|[int](../types/int.md) | Yes|Date of upload|
-|caption|[string](../types/string.md) | Yes|Caption|
-|geo|[GeoPoint](../types/GeoPoint.md) | Optional|Geo|
-|sizes|Array of [PhotoSize](../types/PhotoSize.md) | Yes|Sizes|
+|sizes|Array of [PhotoSize](../types/PhotoSize.md) | Yes|Available sizes for download|
 
 
 
@@ -30,14 +28,14 @@ Photo
 ### Example:
 
 ```php
-$photo = ['_' => 'photo', 'id' => long, 'access_hash' => long, 'user_id' => int, 'date' => int, 'caption' => 'string', 'geo' => GeoPoint, 'sizes' => [PhotoSize, PhotoSize]];
+$photo = ['_' => 'photo', 'has_stickers' => Bool, 'id' => long, 'access_hash' => long, 'date' => int, 'sizes' => [PhotoSize, PhotoSize]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-photo={_='photo', id=long, access_hash=long, user_id=int, date=int, caption='string', geo=GeoPoint, sizes={PhotoSize}}
+photo={_='photo', has_stickers=Bool, id=long, access_hash=long, date=int, sizes={PhotoSize}}
 
 ```
 

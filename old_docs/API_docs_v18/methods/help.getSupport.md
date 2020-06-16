@@ -4,8 +4,9 @@ description: Returns the support user for the 'ask a question' feature.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getSupport.html
 ---
-# Method: help.getSupport  
+# Method: help.getSupport
 [Back to methods index](index.md)
+
 
 
 Returns the support user for the 'ask a question' feature.

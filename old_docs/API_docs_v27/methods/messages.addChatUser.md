@@ -4,8 +4,9 @@ description: Adds a user to a chat and sends a service message on it.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_addChatUser.html
 ---
-# Method: messages.addChatUser  
+# Method: messages.addChatUser
 [Back to methods index](index.md)
+
 
 
 Adds a user to a chat and sends a service message on it.
@@ -14,7 +15,7 @@ Adds a user to a chat and sends a service message on it.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat where to invite users | Optional|
+|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
 |user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | User ID to be added | Optional|
 |fwd\_limit|[int](../types/int.md) | Number of last messages to be forwarded | Yes|
 

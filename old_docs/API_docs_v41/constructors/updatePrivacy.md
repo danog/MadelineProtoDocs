@@ -15,7 +15,7 @@ Privacy rules were changed
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |key|[PrivacyKey](../types/PrivacyKey.md) | Yes|Peers to which the privacy rules apply|
-|rules|Array of [PrivacyRule](../types/PrivacyRule.md) | Yes|Rules|
+|rules|Array of [PrivacyRule](../types/PrivacyRule.md) | Yes|New privacy rules|
 
 
 

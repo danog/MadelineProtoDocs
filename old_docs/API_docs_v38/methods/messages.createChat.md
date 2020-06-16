@@ -4,8 +4,9 @@ description: Creates a new chat.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_createChat.html
 ---
-# Method: messages.createChat  
+# Method: messages.createChat
 [Back to methods index](index.md)
+
 
 
 Creates a new chat.
@@ -14,7 +15,7 @@ Creates a new chat.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|users|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The users to add to the chat | Yes|
+|users|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | List of user IDs to be invited | Yes|
 |title|[string](../types/string.md) | Chat name | Yes|
 
 

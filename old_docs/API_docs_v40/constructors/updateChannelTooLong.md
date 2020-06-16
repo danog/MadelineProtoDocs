@@ -15,6 +15,7 @@ There are new updates in the specified channel, the client must fetch them, even
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |channel\_id|[int](../types/int.md) | Yes|The channel|
+|pts|[int](../types/int.md) | Optional|The [PTS](https://core.telegram.org/api/updates).|
 
 
 
@@ -24,14 +25,14 @@ There are new updates in the specified channel, the client must fetch them, even
 ### Example:
 
 ```php
-$updateChannelTooLong = ['_' => 'updateChannelTooLong', 'channel_id' => int];
+$updateChannelTooLong = ['_' => 'updateChannelTooLong', 'channel_id' => int, 'pts' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateChannelTooLong={_='updateChannelTooLong', channel_id=int}
+updateChannelTooLong={_='updateChannelTooLong', channel_id=int, pts=int}
 
 ```
 

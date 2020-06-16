@@ -4,8 +4,9 @@ description: Report a new incoming chat for spam, if the [peer settings](../cons
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_reportSpam.html
 ---
-# Method: messages.reportSpam  
+# Method: messages.reportSpam
 [Back to methods index](index.md)
+
 
 
 Report a new incoming chat for spam, if the [peer settings](../constructors/peerSettings.md) of the chat allow us to do that
@@ -47,6 +48,7 @@ Bool = messages.reportSpam({peer=InputPeer, })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|MSG_ID_INVALID|Invalid message ID provided|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 
 

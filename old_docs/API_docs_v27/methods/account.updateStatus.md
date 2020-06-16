@@ -4,8 +4,9 @@ description: Updates online user status.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_updateStatus.html
 ---
-# Method: account.updateStatus  
+# Method: account.updateStatus
 [Back to methods index](index.md)
+
 
 
 Updates online user status.

@@ -1,24 +1,23 @@
 ---
 title: messages.forwardMessage
-description: Forward message
+description: messages.forwardMessage parameters, return type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_forwardMessage.html
 ---
-# Method: messages.forwardMessage  
+# Method: messages.forwardMessage
 [Back to methods index](index.md)
 
 
-Forward message
 
 ### Parameters:
 
-| Name     |    Type       | Description | Required |
-|----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | From where to forward the message | Optional|
-|id|[int](../types/int.md) | The message ID | Yes|
+| Name     |    Type       | Required |
+|----------|---------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
+|id|[int](../types/int.md) | Yes|
 
 
-### Return type: [messages.StatedMessage](../types/messages.StatedMessage.md)
+### Return type: [Updates](../types/Updates.md)
 
 ### Can bots use this method: **YES**
 
@@ -35,13 +34,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.StatedMessage = $MadelineProto->messages->forwardMessage(['peer' => InputPeer, 'id' => int, ]);
+$Updates = $MadelineProto->messages->forwardMessage(['peer' => InputPeer, 'id' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.StatedMessage = messages.forwardMessage({peer=InputPeer, id=int, })
+Updates = messages.forwardMessage({peer=InputPeer, id=int, })
 ```
 
 ### Errors

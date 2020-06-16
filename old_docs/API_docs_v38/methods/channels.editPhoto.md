@@ -4,8 +4,9 @@ description: Change the photo of a [channel/supergroup](https://core.telegram.or
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_editPhoto.html
 ---
-# Method: channels.editPhoto  
+# Method: channels.editPhoto
 [Back to methods index](index.md)
+
 
 
 Change the photo of a [channel/supergroup](https://core.telegram.org/api/channel)

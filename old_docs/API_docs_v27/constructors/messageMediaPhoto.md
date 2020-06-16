@@ -15,6 +15,7 @@ Attached photo.
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |photo|[Photo](../types/Photo.md) | Optional|Photo|
+|ttl\_seconds|[int](../types/int.md) | Optional|Time to live in seconds of self-destructing photo|
 
 
 
@@ -24,14 +25,14 @@ Attached photo.
 ### Example:
 
 ```php
-$messageMediaPhoto = ['_' => 'messageMediaPhoto', 'photo' => Photo];
+$messageMediaPhoto = ['_' => 'messageMediaPhoto', 'photo' => Photo, 'ttl_seconds' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messageMediaPhoto={_='messageMediaPhoto', photo=Photo}
+messageMediaPhoto={_='messageMediaPhoto', photo=Photo, ttl_seconds=int}
 
 ```
 

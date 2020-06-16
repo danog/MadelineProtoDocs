@@ -18,7 +18,7 @@ Full info about a [channel/supergroup](https://core.telegram.org/api/channel)
 |can\_set\_username|[Bool](../types/Bool.md) | Optional|Can we set the channel's username?|
 |can\_set\_stickers|[Bool](../types/Bool.md) | Optional|Can we [associate](../methods/channels.setStickers.md) a stickerpack to the supergroup?|
 |hidden\_prehistory|[Bool](../types/Bool.md) | Optional|Is the history before we joined hidden to us?|
-|can\_view\_stats|[Bool](../types/Bool.md) | Optional|Can the user call [messages.getStatsURL](../methods/messages.getStatsURL.md) on this channel|
+|can\_view\_stats|[Bool](../types/Bool.md) | Optional|Can the user view [channel statistics](https://core.telegram.org/api/stats) for this channel|
 |can\_set\_location|[Bool](../types/Bool.md) | Optional|Can we set the geolocation of this group (for geogroups)|
 |has\_scheduled|[Bool](../types/Bool.md) | Optional|Whether scheduled messages are available|
 |id|[int](../types/int.md) | Yes|ID of the channel|
@@ -34,18 +34,18 @@ Full info about a [channel/supergroup](https://core.telegram.org/api/channel)
 |chat\_photo|[Photo](../types/Photo.md) | Optional|Channel picture|
 |notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Yes|Notification settings|
 |exported\_invite|[ExportedChatInvite](../types/ExportedChatInvite.md) | Yes|Invite link|
-|bot\_info|Array of [BotInfo](../types/BotInfo.md) | Yes|Bot info|
+|bot\_info|Array of [BotInfo](../types/BotInfo.md) | Yes|Info about bots in the channel/supergrup|
 |migrated\_from\_chat\_id|[int](../types/int.md) | Optional|The chat ID from which this group was [migrated](https://core.telegram.org/api/channel)|
 |migrated\_from\_max\_id|[int](../types/int.md) | Optional|The message ID in the original chat at which this group was [migrated](https://core.telegram.org/api/channel)|
 |pinned\_msg\_id|[int](../types/int.md) | Optional|Message ID of the pinned message|
 |stickerset|[StickerSet](../types/StickerSet.md) | Optional|Associated stickerset|
 |available\_min\_id|[int](../types/int.md) | Optional|Identifier of a maximum unavailable message in a channel due to hidden history.|
-|folder\_id|[int](../types/int.md) | Optional|Folder ID|
+|folder\_id|[int](../types/int.md) | Optional|[Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders)|
 |linked\_chat\_id|[int](../types/int.md) | Optional|ID of the linked discussion chat for channels|
 |location|[ChannelLocation](../types/ChannelLocation.md) | Optional|Location of the geogroup|
 |slowmode\_seconds|[int](../types/int.md) | Optional|If specified, users in supergroups will only be able to send one message every `slowmode_seconds` seconds|
 |slowmode\_next\_send\_date|[int](../types/int.md) | Optional|Indicates when the user will be allowed to send another message in the supergroup (unixdate)|
-|stats\_dc|[int](../types/int.md) | Optional||
+|stats\_dc|[int](../types/int.md) | Optional|If set, specifies the DC to use for fetching channel statistics|
 |pts|[int](../types/int.md) | Yes|Latest [PTS](https://core.telegram.org/api/updates) for this channel|
 
 

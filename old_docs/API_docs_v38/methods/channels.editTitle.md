@@ -4,8 +4,9 @@ description: Edit the name of a [channel/supergroup](https://core.telegram.org/a
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_editTitle.html
 ---
-# Method: channels.editTitle  
+# Method: channels.editTitle
 [Back to methods index](index.md)
+
 
 
 Edit the name of a [channel/supergroup](https://core.telegram.org/api/channel)

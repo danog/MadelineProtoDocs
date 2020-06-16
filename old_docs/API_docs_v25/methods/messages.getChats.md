@@ -4,8 +4,9 @@ description: Returns chat basic info on their IDs.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getChats.html
 ---
-# Method: messages.getChats  
+# Method: messages.getChats
 [Back to methods index](index.md)
+
 
 
 Returns chat basic info on their IDs.
@@ -14,7 +15,7 @@ Returns chat basic info on their IDs.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|Array of [int](../types/int.md) | The MTProto IDs of chats to fetch info about | Yes|
+|id|Array of [int](../types/int.md) | List of chat IDs | Yes|
 
 
 ### Return type: [messages.Chats](../types/messages.Chats.md)

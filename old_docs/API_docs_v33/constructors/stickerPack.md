@@ -17,7 +17,7 @@ It is **not** a sticker pack the way it is usually intended, you may be looking 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |emoticon|[string](../types/string.md) | Yes|Emoji|
-|documents|Array of [long](../types/long.md) | Yes|Documents|
+|documents|Array of [long](../types/long.md) | Yes|Stickers|
 
 
 

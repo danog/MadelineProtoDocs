@@ -4,8 +4,9 @@ description: Changes username for the current user.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_updateUsername.html
 ---
-# Method: account.updateUsername  
+# Method: account.updateUsername
 [Back to methods index](index.md)
+
 
 
 Changes username for the current user.
@@ -14,7 +15,7 @@ Changes username for the current user.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|username|[string](../types/string.md) | Username or empty string if username is to be removed<br>Accepted characters: a-z (case-insensitive), 0-9 and underscores.<br>Length: 5-32 characters. | Yes|
+|username|[string](../types/string.md) | username or empty string if username is to be removed<br>Accepted characters: a-z (case-insensitive), 0-9 and underscores.<br>Length: 5-32 characters. | Yes|
 
 
 ### Return type: [User](../types/User.md)
@@ -50,6 +51,7 @@ User = account.updateUsername({username='string', })
 |400|USERNAME_INVALID|The provided username is not valid|
 |400|USERNAME_NOT_MODIFIED|The username was not modified|
 |400|USERNAME_OCCUPIED|The provided username is already occupied|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
 |401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
 

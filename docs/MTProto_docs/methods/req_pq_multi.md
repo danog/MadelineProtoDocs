@@ -1,19 +1,18 @@
 ---
 title: req_pq_multi
-description: Requests PQ for factorization (new version)
+description: req_pq_multi parameters, return type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Method: req\_pq\_multi  
+# Method: req\_pq\_multi
 [Back to methods index](index.md)
 
 
-Requests PQ for factorization (new version)
 
 ### Parameters:
 
-| Name     |    Type       | Description | Required |
-|----------|---------------|-------------|----------|
-|nonce|[int128](../types/int128.md) | Random number for cryptographic security | Yes|
+| Name     |    Type       | Required |
+|----------|---------------|----------|
+|nonce|[int128](../types/int128.md) | Yes|
 
 
 ### Return type: [ResPQ](../types/ResPQ.md)
@@ -46,6 +45,6 @@ ResPQ = req_pq_multi({nonce=int128, })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
-|400|INPUT_METHOD_INVALID_3195965169_X||
+|400|INPUT_METHOD_INVALID_3195965169_X|Invalid method|
 
 

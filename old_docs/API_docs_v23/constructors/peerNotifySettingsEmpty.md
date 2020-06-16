@@ -1,14 +1,12 @@
 ---
 title: peerNotifySettingsEmpty
-description: Empty peer notify settings
+description: peerNotifySettingsEmpty attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: peerNotifySettingsEmpty  
 [Back to constructors index](index.md)
 
 
-
-Empty peer notify settings
 
 
 

@@ -25,16 +25,12 @@ The provided `pts + limit < remote pts`. Simply, there are too many updates to b
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|pts|[int](../types/int.md) | Yes|Pts|
+|final|[Bool](../types/Bool.md) | Optional|Whether there are more updates that must be fetched (always false)|
 |timeout|[int](../types/int.md) | Optional|Clients are supposed to refetch the channel difference after timeout seconds have elapsed|
-|top\_message|[int](../types/int.md) | Yes|Top message|
-|top\_important\_message|[int](../types/int.md) | Yes|Top important message|
-|read\_inbox\_max\_id|[int](../types/int.md) | Yes|Read inbox max ID|
-|unread\_count|[int](../types/int.md) | Yes|Unread count|
-|unread\_important\_count|[int](../types/int.md) | Yes|Unread important count|
-|messages|Array of [Message](../types/Message.md) | Yes|Messages|
-|chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
-|users|Array of [User](../types/User.md) | Yes|Users|
+|dialog|[Dialog](../types/Dialog.md) | Yes|Dialog containing the latest [PTS](https://core.telegram.org/api/updates) that can be used to reset the channel state|
+|messages|Array of [Message](../types/Message.md) | Yes|The latest messages|
+|chats|Array of [Chat](../types/Chat.md) | Yes|Chats from messages|
+|users|Array of [User](../types/User.md) | Yes|Users from messages|
 
 
 
@@ -44,14 +40,14 @@ The provided `pts + limit < remote pts`. Simply, there are too many updates to b
 ### Example:
 
 ```php
-$updates.channelDifferenceTooLong = ['_' => 'updates.channelDifferenceTooLong', 'pts' => int, 'timeout' => int, 'top_message' => int, 'top_important_message' => int, 'read_inbox_max_id' => int, 'unread_count' => int, 'unread_important_count' => int, 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
+$updates.channelDifferenceTooLong = ['_' => 'updates.channelDifferenceTooLong', 'final' => Bool, 'timeout' => int, 'dialog' => Dialog, 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updates.channelDifferenceTooLong={_='updates.channelDifferenceTooLong', pts=int, timeout=int, top_message=int, top_important_message=int, read_inbox_max_id=int, unread_count=int, unread_important_count=int, messages={Message}, chats={Chat}, users={User}}
+updates.channelDifferenceTooLong={_='updates.channelDifferenceTooLong', final=Bool, timeout=int, dialog=Dialog, messages={Message}, chats={Chat}, users={User}}
 
 ```
 

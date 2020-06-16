@@ -4,8 +4,9 @@ description: Notifies the sender about the recipient having listened a voice mes
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_readMessageContents.html
 ---
-# Method: messages.readMessageContents  
+# Method: messages.readMessageContents
 [Back to methods index](index.md)
+
 
 
 Notifies the sender about the recipient having listened a voice message or watched a video.
@@ -14,10 +15,10 @@ Notifies the sender about the recipient having listened a voice message or watch
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|Array of [int](../types/int.md) | The messages to mark as read (only users and normal chats, not supergroups) | Yes|
+|id|Array of [int](../types/int.md) | Message ID list | Yes|
 
 
-### Return type: [Vector\_of\_int](../types/int.md)
+### Return type: [messages.AffectedMessages](../types/messages.AffectedMessages.md)
 
 ### Can bots use this method: **NO**
 
@@ -34,12 +35,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_int = $MadelineProto->messages->readMessageContents(['id' => [int, int], ]);
+$messages.AffectedMessages = $MadelineProto->messages->readMessageContents(['id' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Vector_of_int = messages.readMessageContents({id={int}, })
+messages.AffectedMessages = messages.readMessageContents({id={int}, })
 ```
 

@@ -16,7 +16,7 @@ An update is available for the application.
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |id|[int](../types/int.md) | Yes|Update ID|
-|critical|[Bool](../types/Bool.md) | Yes|Critical?|
+|critical|[Bool](../types/Bool.md) | Yes|
 |url|[string](../types/string.md) | Yes|Application download URL|
 |text|[string](../types/string.md) | Yes|Text description of the update|
 

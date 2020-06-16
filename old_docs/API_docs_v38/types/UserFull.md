@@ -3,7 +3,7 @@ title: UserFull
 description: constructors and methods of type UserFull
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: UserFull  
+# Type: UserFull
 [Back to types index](index.md)
 
 
@@ -19,4 +19,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [$MadelineProto->users->getFullUser](../methods/users.getFullUser.md)  
 
 
+
+[userFull](../constructors/userFull.md)  
+
+[$MadelineProto->users->getFullUser](../methods/users.getFullUser.md)  
 

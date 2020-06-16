@@ -4,14 +4,12 @@ description: constructors and methods of type account.Password
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/account_Password.html
 ---
-# Type: account.Password  
+# Type: account.Password
 [Back to types index](index.md)
 
 
 
 ### Possible values (constructors):
-
-[account.noPassword](../constructors/account.noPassword.md)  
 
 [account.password](../constructors/account.password.md)  
 
@@ -22,4 +20,8 @@ redirect_from: /API_docs/types/account_Password.html
 [$MadelineProto->account->getPassword](../methods/account.getPassword.md)  
 
 
+
+[account.password](../constructors/account.password.md)  
+
+[$MadelineProto->account->getPassword](../methods/account.getPassword.md)  
 

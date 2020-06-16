@@ -1,0 +1,40 @@
+---
+title: messages.sentMessage
+description: messages.sentMessage attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/constructors/messages_sentMessage.html
+---
+# Constructor: messages.sentMessage  
+[Back to constructors index](index.md)
+
+
+
+### Attributes:
+
+| Name     |    Type       | Required |
+|----------|---------------|----------|
+|id|[int](../types/int.md) | Yes|
+|date|[int](../types/int.md) | Yes|
+|pts|[int](../types/int.md) | Yes|
+|seq|[int](../types/int.md) | Yes|
+
+
+
+### Type: [messages.SentMessage](../types/messages.SentMessage.md)
+
+
+### Example:
+
+```php
+$messages.sentMessage = ['_' => 'messages.sentMessage', 'id' => int, 'date' => int, 'pts' => int, 'seq' => int];
+```  
+
+
+Or, if you're into Lua:
+
+```lua
+messages.sentMessage={_='messages.sentMessage', id=int, date=int, pts=int, seq=int}
+
+```
+
+

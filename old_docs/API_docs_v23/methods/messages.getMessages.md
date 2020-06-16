@@ -4,8 +4,9 @@ description: Returns the list of messages by their IDs.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getMessages.html
 ---
-# Method: messages.getMessages  
+# Method: messages.getMessages
 [Back to methods index](index.md)
+
 
 
 Returns the list of messages by their IDs.
@@ -14,7 +15,7 @@ Returns the list of messages by their IDs.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|Array of [int](../types/int.md) | The IDs of messages to fetch (only for users and normal groups) | Yes|
+|id|Array of [int](../types/int.md) | Message ID list | Yes|
 
 
 ### Return type: [messages.Messages](../types/messages.Messages.md)

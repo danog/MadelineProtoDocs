@@ -1,6 +1,6 @@
 ---
 title: help.inviteText
-description: Text of a text message with an invitation to install application.
+description: Text of a text message with an invitation to install Telegram.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_inviteText.html
 ---
@@ -9,13 +9,13 @@ redirect_from: /API_docs/constructors/help_inviteText.html
 
 
 
-Text of a text message with an invitation to install application.
+Text of a text message with an invitation to install Telegram.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|message|[string](../types/string.md) | Yes|Text of a message|
+|message|[string](../types/string.md) | Yes|Text of the message|
 
 
 

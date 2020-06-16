@@ -3,7 +3,7 @@ title: PeerNotifySettings
 description: constructors and methods of type PeerNotifySettings
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: PeerNotifySettings  
+# Type: PeerNotifySettings
 [Back to types index](index.md)
 
 
@@ -21,4 +21,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [$MadelineProto->account->getNotifySettings](../methods/account.getNotifySettings.md)  
 
 
+
+[peerNotifySettingsEmpty](../constructors/peerNotifySettingsEmpty.md)  
+
+[peerNotifySettings](../constructors/peerNotifySettings.md)  
+
+[$MadelineProto->account->getNotifySettings](../methods/account.getNotifySettings.md)  
 

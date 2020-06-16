@@ -1,5 +1,5 @@
 ---
-title: Documentations of old mtproto layers
+title: Documentation of old mtproto layers
 description: Documentation of old mtproto layers
 ---
 # Documentation of old mtproto layers  
@@ -44,3 +44,5 @@ description: Documentation of old mtproto layers
 [Layer v37](API_docs_v37/)  
 [Layer v38](API_docs_v38/)  
 [Layer v39](API_docs_v39/)  
+[Layer v40](API_docs_v40/)  
+[Layer v41](API_docs_v41/)  

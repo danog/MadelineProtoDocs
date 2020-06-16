@@ -4,7 +4,7 @@ description: constructors and methods of type messages.ChatFull
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/messages_ChatFull.html
 ---
-# Type: messages.ChatFull  
+# Type: messages.ChatFull
 [Back to types index](index.md)
 
 
@@ -19,5 +19,13 @@ redirect_from: /API_docs/types/messages_ChatFull.html
 
 [$MadelineProto->messages->getFullChat](../methods/messages.getFullChat.md)  
 
+[$MadelineProto->channels->getFullChannel](../methods/channels.getFullChannel.md)  
 
+
+
+[messages.chatFull](../constructors/messages.chatFull.md)  
+
+[$MadelineProto->messages->getFullChat](../methods/messages.getFullChat.md)  
+
+[$MadelineProto->channels->getFullChannel](../methods/channels.getFullChannel.md)  
 

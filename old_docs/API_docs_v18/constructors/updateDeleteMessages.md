@@ -14,8 +14,9 @@ Messages were deleted.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|messages|Array of [int](../types/int.md) | Yes|Messages|
+|messages|Array of [int](../types/int.md) | Yes|List of identifiers of deleted messages|
 |pts|[int](../types/int.md) | Yes|New quality of actions in a message box|
+|pts\_count|[int](../types/int.md) | Yes|Number of generated [events](https://core.telegram.org/api/updates)|
 
 
 
@@ -25,14 +26,14 @@ Messages were deleted.
 ### Example:
 
 ```php
-$updateDeleteMessages = ['_' => 'updateDeleteMessages', 'messages' => [int, int], 'pts' => int];
+$updateDeleteMessages = ['_' => 'updateDeleteMessages', 'messages' => [int, int], 'pts' => int, 'pts_count' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateDeleteMessages={_='updateDeleteMessages', messages={int}, pts=int}
+updateDeleteMessages={_='updateDeleteMessages', messages={int}, pts=int, pts_count=int}
 
 ```
 

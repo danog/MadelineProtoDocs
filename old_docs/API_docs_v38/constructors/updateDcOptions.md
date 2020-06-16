@@ -14,7 +14,7 @@ Changes in the data center configuration options.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|dc\_options|Array of [DcOption](../types/DcOption.md) | Yes|DC options|
+|dc\_options|Array of [DcOption](../types/DcOption.md) | Yes|New connection options|
 
 
 

@@ -4,8 +4,9 @@ description: Make a user admin in a [legacy group](https://core.telegram.org/api
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_editChatAdmin.html
 ---
-# Method: messages.editChatAdmin  
+# Method: messages.editChatAdmin
 [Back to methods index](index.md)
+
 
 
 Make a user admin in a [legacy group](https://core.telegram.org/api/channel).
@@ -14,7 +15,7 @@ Make a user admin in a [legacy group](https://core.telegram.org/api/channel).
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat ID (no supergroups) | Optional|
+|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
 |user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The user to make admin | Optional|
 |is\_admin|[Bool](../types/Bool.md) | Whether to make him admin | Yes|
 

@@ -3,7 +3,7 @@ title: ContactLink
 description: constructors and methods of type ContactLink
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: ContactLink  
+# Type: ContactLink
 [Back to types index](index.md)
 
 
@@ -23,4 +23,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Methods that return an object of this type (methods):
 
 
+
+[contactLinkUnknown](../constructors/contactLinkUnknown.md)  
+
+[contactLinkNone](../constructors/contactLinkNone.md)  
+
+[contactLinkHasPhone](../constructors/contactLinkHasPhone.md)  
+
+[contactLinkContact](../constructors/contactLinkContact.md)  
 

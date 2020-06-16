@@ -3,7 +3,7 @@ title: ChatInvite
 description: constructors and methods of type ChatInvite
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: ChatInvite  
+# Type: ChatInvite
 [Back to types index](index.md)
 
 
@@ -21,4 +21,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [$MadelineProto->messages->checkChatInvite](../methods/messages.checkChatInvite.md)  
 
 
+
+[chatInviteAlready](../constructors/chatInviteAlready.md)  
+
+[chatInvite](../constructors/chatInvite.md)  
+
+[$MadelineProto->messages->checkChatInvite](../methods/messages.checkChatInvite.md)  
 

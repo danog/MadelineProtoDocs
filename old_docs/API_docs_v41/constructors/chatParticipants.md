@@ -15,7 +15,7 @@ Group members.
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |chat\_id|[int](../types/int.md) | Yes|Group identifier|
-|participants|Array of [ChatParticipant](../types/ChatParticipant.md) | Yes|Participants|
+|participants|Array of [ChatParticipant](../types/ChatParticipant.md) | Yes|List of group members|
 |version|[int](../types/int.md) | Yes|Group version number|
 
 

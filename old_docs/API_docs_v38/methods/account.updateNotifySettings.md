@@ -4,8 +4,9 @@ description: Edits notification settings from a given user/group, from all users
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_updateNotifySettings.html
 ---
-# Method: account.updateNotifySettings  
+# Method: account.updateNotifySettings
 [Back to methods index](index.md)
+
 
 
 Edits notification settings from a given user/group, from all users/all groups.
@@ -49,6 +50,7 @@ Bool = account.updateNotifySettings({peer=InputNotifyPeer, settings=InputPeerNot
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
+|400|MSG_ID_INVALID|Invalid message ID provided|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|SETTINGS_INVALID|Invalid settings were provided|
 

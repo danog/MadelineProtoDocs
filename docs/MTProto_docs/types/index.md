@@ -6,7 +6,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 # Types  
 [Back to API documentation index](..)
 
-
 [BadMsgNotification](BadMsgNotification.md)<a name="BadMsgNotification"></a>  
 
 [BindAuthKeyInner](BindAuthKeyInner.md)<a name="BindAuthKeyInner"></a>  
@@ -46,6 +45,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [P\_Q\_inner\_data](P_Q_inner_data.md)<a name="P_Q_inner_data"></a>  
 
 [Pong](Pong.md)<a name="Pong"></a>  
+
+[RSAPublicKey](RSAPublicKey.md)<a name="RSAPublicKey"></a>  
 
 [ResPQ](ResPQ.md)<a name="ResPQ"></a>  
 

@@ -4,7 +4,7 @@ description: constructors and methods of type photos.Photo
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/photos_Photo.html
 ---
-# Type: photos.Photo  
+# Type: photos.Photo
 [Back to types index](index.md)
 
 
@@ -20,4 +20,8 @@ redirect_from: /API_docs/types/photos_Photo.html
 [$MadelineProto->photos->uploadProfilePhoto](../methods/photos.uploadProfilePhoto.md)  
 
 
+
+[photos.photo](../constructors/photos.photo.md)  
+
+[$MadelineProto->photos->uploadProfilePhoto](../methods/photos.uploadProfilePhoto.md)  
 

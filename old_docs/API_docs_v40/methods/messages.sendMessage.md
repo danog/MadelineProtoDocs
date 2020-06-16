@@ -4,8 +4,9 @@ description: Sends a message to a chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_sendMessage.html
 ---
-# Method: messages.sendMessage  
+# Method: messages.sendMessage
 [Back to methods index](index.md)
+
 
 
 Sends a message to a chat
@@ -14,12 +15,17 @@ Sends a message to a chat
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|no\_webpage|[Bool](../types/Bool.md) | Set this flag to disable generation of the webpage preview | Optional|
+|silent|[Bool](../types/Bool.md) | Send this message silently (no notifications for the receivers) | Optional|
+|background|[Bool](../types/Bool.md) | Send this message as background message | Optional|
+|clear\_draft|[Bool](../types/Bool.md) | Clear the draft field | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The destination where the message will be sent | Optional|
 |reply\_to\_msg\_id|[int](../types/int.md) | The message ID to which this message will reply to | Optional|
 |message|[string](../types/string.md) | The message | Yes|
 |reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Reply markup for sending bot buttons | Optional|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | Entities to send (for styled text) | Optional|
+|entities|Array of [MessageEntity](../types/MessageEntity.md) | Message [entities](https://core.telegram.org/api/entities) for sending styled text | Optional|
 |parse\_mode| [string](../types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
+|schedule\_date|[int](../types/int.md) | Scheduled message date for scheduled messages | Optional|
 
 
 ### Return type: [Updates](../types/Updates.md)
@@ -39,13 +45,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendMessage(['peer' => InputPeer, 'reply_to_msg_id' => int, 'message' => 'string', 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', ]);
+$Updates = $MadelineProto->messages->sendMessage(['no_webpage' => Bool, 'silent' => Bool, 'background' => Bool, 'clear_draft' => Bool, 'peer' => InputPeer, 'reply_to_msg_id' => int, 'message' => 'string', 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', 'schedule_date' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Updates = messages.sendMessage({peer=InputPeer, reply_to_msg_id=int, message='string', reply_markup=ReplyMarkup, entities={MessageEntity}, parseMode='string', })
+Updates = messages.sendMessage({no_webpage=Bool, silent=Bool, background=Bool, clear_draft=Bool, peer=InputPeer, reply_to_msg_id=int, message='string', reply_markup=ReplyMarkup, entities={MessageEntity}, parseMode='string', schedule_date=int, })
 ```
 
 

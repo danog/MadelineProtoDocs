@@ -19,8 +19,9 @@ Document
 |date|[int](../types/int.md) | Yes|Creation date|
 |mime\_type|[string](../types/string.md) | Yes|MIME type|
 |size|[int](../types/int.md) | Yes|Size|
-|thumb|[PhotoSize](../types/PhotoSize.md) | Optional|Thumbnail|
+|thumb|[PhotoSize](../types/PhotoSize.md) | Optional|
 |dc\_id|[int](../types/int.md) | Yes|DC ID|
+|version|[int](../types/int.md) | Yes|
 |attributes|Array of [DocumentAttribute](../types/DocumentAttribute.md) | Yes|Attributes|
 
 
@@ -31,14 +32,14 @@ Document
 ### Example:
 
 ```php
-$document = ['_' => 'document', 'id' => long, 'access_hash' => long, 'date' => int, 'mime_type' => 'string', 'size' => int, 'thumb' => PhotoSize, 'dc_id' => int, 'attributes' => [DocumentAttribute, DocumentAttribute]];
+$document = ['_' => 'document', 'id' => long, 'access_hash' => long, 'date' => int, 'mime_type' => 'string', 'size' => int, 'thumb' => PhotoSize, 'dc_id' => int, 'version' => int, 'attributes' => [DocumentAttribute, DocumentAttribute]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-document={_='document', id=long, access_hash=long, date=int, mime_type='string', size=int, thumb=PhotoSize, dc_id=int, attributes={DocumentAttribute}}
+document={_='document', id=long, access_hash=long, date=int, mime_type='string', size=int, thumb=PhotoSize, dc_id=int, version=int, attributes={DocumentAttribute}}
 
 ```
 

@@ -1,6 +1,6 @@
 ---
 title: updateContactLink
-description: Update contact link
+description: updateContactLink attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateContactLink  
@@ -8,15 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Update contact link
-
 ### Attributes:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User ID|
-|my\_link|[contacts.MyLink](../constructors/contacts.MyLink.md) | Yes|My link|
-|foreign\_link|[contacts.ForeignLink](../constructors/contacts.ForeignLink.md) | Yes|Foreign link|
+| Name     |    Type       | Required |
+|----------|---------------|----------|
+|user\_id|[int](../types/int.md) | Yes|
+|my\_link|[ContactLink](../types/ContactLink.md) | Yes|
+|foreign\_link|[ContactLink](../types/ContactLink.md) | Yes|
 
 
 
@@ -26,14 +24,14 @@ Update contact link
 ### Example:
 
 ```php
-$updateContactLink = ['_' => 'updateContactLink', 'user_id' => int, 'my_link' => contacts.MyLink, 'foreign_link' => contacts.ForeignLink];
+$updateContactLink = ['_' => 'updateContactLink', 'user_id' => int, 'my_link' => ContactLink, 'foreign_link' => ContactLink];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateContactLink={_='updateContactLink', user_id=int, my_link=contacts.MyLink, foreign_link=contacts.ForeignLink}
+updateContactLink={_='updateContactLink', user_id=int, my_link=ContactLink, foreign_link=ContactLink}
 
 ```
 

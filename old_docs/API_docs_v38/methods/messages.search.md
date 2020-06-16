@@ -4,8 +4,9 @@ description: Gets back found messages
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_search.html
 ---
-# Method: messages.search  
+# Method: messages.search
 [Back to methods index](index.md)
+
 
 
 Gets back found messages
@@ -16,12 +17,16 @@ Gets back found messages
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | User or chat, histories with which are searched, or [(inputPeerEmpty)](../constructors/inputPeerEmpty.md) constructor for global search | Optional|
 |q|[string](../types/string.md) | Text search request | Yes|
+|from\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Only return messages sent by the specified user ID | Optional|
 |filter|[MessagesFilter](../types/MessagesFilter.md) | Filter to return only specified message types | Optional|
 |min\_date|[int](../types/int.md) | If a positive value was transferred, only messages with a sending date bigger than the transferred one will be returned | Yes|
 |max\_date|[int](../types/int.md) | If a positive value was transferred, only messages with a sending date smaller than the transferred one will be returned | Yes|
-|offset|[int](../types/int.md) | Offset  | Yes|
-|max\_id|[int](../types/int.md) | [Maximum message ID to return](https://core.telegram.org/api/offsets) | Yes|
+|offset\_id|[int](../types/int.md) | Only return messages starting from the specified message ID | Yes|
+|add\_offset|[int](../types/int.md) | [Additional offset](https://core.telegram.org/api/offsets) | Yes|
 |limit|[int](../types/int.md) | [Number of results to return](https://core.telegram.org/api/offsets) | Yes|
+|max\_id|[int](../types/int.md) | [Maximum message ID to return](https://core.telegram.org/api/offsets) | Yes|
+|min\_id|[int](../types/int.md) | [Minimum message ID to return](https://core.telegram.org/api/offsets) | Yes|
+|hash|Array of [int](../types/int.md) | [Hash](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [messages.Messages](../types/messages.Messages.md)
@@ -41,13 +46,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.Messages = $MadelineProto->messages->search(['peer' => InputPeer, 'q' => 'string', 'filter' => MessagesFilter, 'min_date' => int, 'max_date' => int, 'offset' => int, 'max_id' => int, 'limit' => int, ]);
+$messages.Messages = $MadelineProto->messages->search(['peer' => InputPeer, 'q' => 'string', 'from_id' => InputUser, 'filter' => MessagesFilter, 'min_date' => int, 'max_date' => int, 'offset_id' => int, 'add_offset' => int, 'limit' => int, 'max_id' => int, 'min_id' => int, 'hash' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.Messages = messages.search({peer=InputPeer, q='string', filter=MessagesFilter, min_date=int, max_date=int, offset=int, max_id=int, limit=int, })
+messages.Messages = messages.search({peer=InputPeer, q='string', from_id=InputUser, filter=MessagesFilter, min_date=int, max_date=int, offset_id=int, add_offset=int, limit=int, max_id=int, min_id=int, hash={int}, })
 ```
 
 ### Errors
@@ -55,6 +60,7 @@ messages.Messages = messages.search({peer=InputPeer, q='string', filter=Messages
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|CHANNEL_INVALID|The provided channel is invalid|
+|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 |400|INPUT_CONSTRUCTOR_INVALID|The provided constructor is invalid|
 |400|INPUT_USER_DEACTIVATED|The specified user was deleted|

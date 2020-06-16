@@ -16,7 +16,6 @@ A group to which the user has no access. E.g., because the user was kicked from 
 |----------|---------------|----------|-------------|
 |id|[int](../types/int.md) | Yes|User identifier|
 |title|[string](../types/string.md) | Yes|Group name|
-|date|[int](../types/int.md) | Yes|Date|
 
 
 
@@ -26,14 +25,14 @@ A group to which the user has no access. E.g., because the user was kicked from 
 ### Example:
 
 ```php
-$chatForbidden = ['_' => 'chatForbidden', 'id' => int, 'title' => 'string', 'date' => int];
+$chatForbidden = ['_' => 'chatForbidden', 'id' => int, 'title' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-chatForbidden={_='chatForbidden', id=int, title='string', date=int}
+chatForbidden={_='chatForbidden', id=int, title='string'}
 
 ```
 

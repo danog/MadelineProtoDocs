@@ -4,8 +4,9 @@ description: Invite users to a channel/supergroup
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_inviteToChannel.html
 ---
-# Method: channels.inviteToChannel  
+# Method: channels.inviteToChannel
 [Back to methods index](index.md)
+
 
 
 Invite users to a channel/supergroup
@@ -15,7 +16,7 @@ Invite users to a channel/supergroup
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Channel/supergroup | Optional|
-|users|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The users to add | Yes|
+|users|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Users to invite | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

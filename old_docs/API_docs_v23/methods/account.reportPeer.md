@@ -4,8 +4,9 @@ description: Report a peer for violation of telegram's Terms of Service
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_reportPeer.html
 ---
-# Method: account.reportPeer  
+# Method: account.reportPeer
 [Back to methods index](index.md)
+
 
 
 Report a peer for violation of telegram's Terms of Service
@@ -48,6 +49,7 @@ Bool = account.reportPeer({peer=InputPeer, reason=ReportReason, })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 
 

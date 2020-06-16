@@ -1,0 +1,43 @@
+---
+title: messageForwarded
+description: messageForwarded attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+---
+# Constructor: messageForwarded  
+[Back to constructors index](index.md)
+
+
+
+### Attributes:
+
+| Name     |    Type       | Required |
+|----------|---------------|----------|
+|id|[int](../types/int.md) | Yes|
+|fwd\_from\_id|[int](../types/int.md) | Yes|
+|fwd\_date|[int](../types/int.md) | Yes|
+|from\_id|[int](../types/int.md) | Yes|
+|to\_id|[Peer](../types/Peer.md) | Yes|
+|date|[int](../types/int.md) | Yes|
+|message|[string](../types/string.md) | Yes|
+|media|[MessageMedia](../types/MessageMedia.md) | Optional|
+
+
+
+### Type: [Message](../types/Message.md)
+
+
+### Example:
+
+```php
+$messageForwarded = ['_' => 'messageForwarded', 'id' => int, 'fwd_from_id' => int, 'fwd_date' => int, 'from_id' => int, 'to_id' => Peer, 'date' => int, 'message' => 'string', 'media' => MessageMedia];
+```  
+
+
+Or, if you're into Lua:
+
+```lua
+messageForwarded={_='messageForwarded', id=int, fwd_from_id=int, fwd_date=int, from_id=int, to_id=Peer, date=int, message='string', media=MessageMedia}
+
+```
+
+

@@ -1,20 +1,16 @@
 ---
 title: help.getInviteText
-description: Returns text of a text message with an invitation.
+description: Returns localized text of a text message with an invitation.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getInviteText.html
 ---
-# Method: help.getInviteText  
+# Method: help.getInviteText
 [Back to methods index](index.md)
 
 
-Returns text of a text message with an invitation.
 
-### Parameters:
+Returns localized text of a text message with an invitation.
 
-| Name     |    Type       | Description | Required |
-|----------|---------------|-------------|----------|
-|lang\_code|[string](../types/string.md) | Language | Yes|
 
 
 ### Return type: [help.InviteText](../types/help.InviteText.md)
@@ -34,12 +30,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help.InviteText = $MadelineProto->help->getInviteText(['lang_code' => 'string', ]);
+$help.InviteText = $MadelineProto->help->getInviteText();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help.InviteText = help.getInviteText({lang_code='string', })
+help.InviteText = help.getInviteText({})
 ```
 

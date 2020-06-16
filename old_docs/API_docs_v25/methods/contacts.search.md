@@ -4,8 +4,9 @@ description: Returns users found by username substring.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_search.html
 ---
-# Method: contacts.search  
+# Method: contacts.search
 [Back to methods index](index.md)
+
 
 
 Returns users found by username substring.

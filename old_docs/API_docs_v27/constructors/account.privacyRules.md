@@ -15,8 +15,8 @@ Privacy rules
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|rules|Array of [PrivacyRule](../types/PrivacyRule.md) | Yes|Rules|
-|users|Array of [User](../types/User.md) | Yes|Users|
+|rules|Array of [PrivacyRule](../types/PrivacyRule.md) | Yes|Privacy rules|
+|users|Array of [User](../types/User.md) | Yes|Users to which the rules apply|
 
 
 

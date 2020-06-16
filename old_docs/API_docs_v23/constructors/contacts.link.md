@@ -1,6 +1,6 @@
 ---
 title: contacts.link
-description: Link
+description: contacts.link attributes, type and example
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/contacts_link.html
 ---
@@ -9,15 +9,13 @@ redirect_from: /API_docs/constructors/contacts_link.html
 
 
 
-Link
-
 ### Attributes:
 
-| Name     |    Type       | Required | Description |
-|----------|---------------|----------|-------------|
-|my\_link|[contacts.MyLink](../constructors/contacts.MyLink.md) | Yes|My link|
-|foreign\_link|[contacts.ForeignLink](../constructors/contacts.ForeignLink.md) | Yes|Foreign link|
-|user|[User](../types/User.md) | Optional|User|
+| Name     |    Type       | Required |
+|----------|---------------|----------|
+|my\_link|[ContactLink](../types/ContactLink.md) | Yes|
+|foreign\_link|[ContactLink](../types/ContactLink.md) | Yes|
+|user|[User](../types/User.md) | Optional|
 
 
 
@@ -27,14 +25,14 @@ Link
 ### Example:
 
 ```php
-$contacts.link = ['_' => 'contacts.link', 'my_link' => contacts.MyLink, 'foreign_link' => contacts.ForeignLink, 'user' => User];
+$contacts.link = ['_' => 'contacts.link', 'my_link' => ContactLink, 'foreign_link' => ContactLink, 'user' => User];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-contacts.link={_='contacts.link', my_link=contacts.MyLink, foreign_link=contacts.ForeignLink, user=User}
+contacts.link={_='contacts.link', my_link=ContactLink, foreign_link=ContactLink, user=User}
 
 ```
 

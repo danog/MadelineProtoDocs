@@ -18,7 +18,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$bind\_auth\_key\_inner](../constructors/bind_auth_key_inner.md) = \['nonce' => [long](../types/long.md), 'temp_auth_key_id' => [long](../types/long.md), 'perm_auth_key_id' => [long](../types/long.md), 'temp_session_id' => [long](../types/long.md), 'expires_at' => [int](../types/int.md), \];<a name="bind_auth_key_inner"></a>  
 
 ***
-<br><br>[$client\_DH\_inner\_data](../constructors/client_DH_inner_data.md) = \['nonce' => [int128](../types/int128.md), 'server_nonce' => [int128](../types/int128.md), 'retry_id' => [long](../types/long.md), 'g_b' => [bytes](../types/bytes.md), \];<a name="client_DH_inner_data"></a>  
+<br><br>[$client\_DH\_inner\_data](../constructors/client_DH_inner_data.md) = \['nonce' => [int128](../types/int128.md), 'server_nonce' => [int128](../types/int128.md), 'retry_id' => [long](../types/long.md), 'g_b' => [string](../types/string.md), \];<a name="client_DH_inner_data"></a>  
 
 ***
 <br><br>[$destroy\_session\_none](../constructors/destroy_session_none.md) = \['session_id' => [long](../types/long.md), \];<a name="destroy_session_none"></a>  
@@ -41,6 +41,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$gzip\_packed](../constructors/gzip_packed.md) = \['packed_data' => [bytes](../types/bytes.md), \];<a name="gzip_packed"></a>  
 
 ***
+<br><br>[$http\_wait](../constructors/http_wait.md) = \['max_delay' => [int](../types/int.md), 'wait_after' => [int](../types/int.md), 'max_wait' => [int](../types/int.md), \];<a name="http_wait"></a>  
+
+***
 <br><br>[$msg\_container](../constructors/msg_container.md) = \['messages' => \[[MTmessage](../constructors/MTmessage.md)\], \];<a name="msg_container"></a>  
 
 [$msg\_copy](../constructors/msg_copy.md) = \['orig_message' => [MTMessage](../types/MTMessage.md), \];<a name="msg_copy"></a>  
@@ -49,14 +52,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$msg\_new\_detailed\_info](../constructors/msg_new_detailed_info.md) = \['answer_msg_id' => [long](../types/long.md), 'bytes' => [int](../types/int.md), 'status' => [int](../types/int.md), \];<a name="msg_new_detailed_info"></a>  
 
+[$msg\_resend\_ans\_req](../constructors/msg_resend_ans_req.md) = \['msg_ids' => \[[long](../types/long.md)\], \];<a name="msg_resend_ans_req"></a>  
+
 [$msg\_resend\_req](../constructors/msg_resend_req.md) = \['msg_ids' => \[[long](../types/long.md)\], \];<a name="msg_resend_req"></a>  
 
 ***
 <br><br>[$msgs\_ack](../constructors/msgs_ack.md) = \['msg_ids' => \[[long](../types/long.md)\], \];<a name="msgs_ack"></a>  
 
-[$msgs\_all\_info](../constructors/msgs_all_info.md) = \['msg_ids' => \[[long](../types/long.md)\], 'info' => [bytes](../types/bytes.md), \];<a name="msgs_all_info"></a>  
+[$msgs\_all\_info](../constructors/msgs_all_info.md) = \['msg_ids' => \[[long](../types/long.md)\], 'info' => [string](../types/string.md), \];<a name="msgs_all_info"></a>  
 
-[$msgs\_state\_info](../constructors/msgs_state_info.md) = \['req_msg_id' => [long](../types/long.md), 'info' => [bytes](../types/bytes.md), \];<a name="msgs_state_info"></a>  
+[$msgs\_state\_info](../constructors/msgs_state_info.md) = \['req_msg_id' => [long](../types/long.md), 'info' => [string](../types/string.md), \];<a name="msgs_state_info"></a>  
 
 [$msgs\_state\_req](../constructors/msgs_state_req.md) = \['msg_ids' => \[[long](../types/long.md)\], \];<a name="msgs_state_req"></a>  
 
@@ -64,15 +69,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$new\_session\_created](../constructors/new_session_created.md) = \['first_msg_id' => [long](../types/long.md), 'unique_id' => [long](../types/long.md), 'server_salt' => [long](../types/long.md), \];<a name="new_session_created"></a>  
 
 ***
-<br><br>[$p\_q\_inner\_data](../constructors/p_q_inner_data.md) = \['pq' => [bytes](../types/bytes.md), 'p' => [bytes](../types/bytes.md), 'q' => [bytes](../types/bytes.md), 'nonce' => [int128](../types/int128.md), 'server_nonce' => [int128](../types/int128.md), 'new_nonce' => [int256](../types/int256.md), \];<a name="p_q_inner_data"></a>  
+<br><br>[$p\_q\_inner\_data](../constructors/p_q_inner_data.md) = \['pq' => [string](../types/string.md), 'p' => [string](../types/string.md), 'q' => [string](../types/string.md), 'nonce' => [int128](../types/int128.md), 'server_nonce' => [int128](../types/int128.md), 'new_nonce' => [int256](../types/int256.md), \];<a name="p_q_inner_data"></a>  
 
-[$p\_q\_inner\_data\_temp](../constructors/p_q_inner_data_temp.md) = \['pq' => [bytes](../types/bytes.md), 'p' => [bytes](../types/bytes.md), 'q' => [bytes](../types/bytes.md), 'nonce' => [int128](../types/int128.md), 'server_nonce' => [int128](../types/int128.md), 'new_nonce' => [int256](../types/int256.md), 'expires_in' => [int](../types/int.md), \];<a name="p_q_inner_data_temp"></a>  
+[$p\_q\_inner\_data\_dc](../constructors/p_q_inner_data_dc.md) = \['pq' => [string](../types/string.md), 'p' => [string](../types/string.md), 'q' => [string](../types/string.md), 'nonce' => [int128](../types/int128.md), 'server_nonce' => [int128](../types/int128.md), 'new_nonce' => [int256](../types/int256.md), 'dc' => [int](../types/int.md), \];<a name="p_q_inner_data_dc"></a>  
+
+[$p\_q\_inner\_data\_temp](../constructors/p_q_inner_data_temp.md) = \['pq' => [string](../types/string.md), 'p' => [string](../types/string.md), 'q' => [string](../types/string.md), 'nonce' => [int128](../types/int128.md), 'server_nonce' => [int128](../types/int128.md), 'new_nonce' => [int256](../types/int256.md), 'expires_in' => [int](../types/int.md), \];<a name="p_q_inner_data_temp"></a>  
+
+[$p\_q\_inner\_data\_temp\_dc](../constructors/p_q_inner_data_temp_dc.md) = \['pq' => [string](../types/string.md), 'p' => [string](../types/string.md), 'q' => [string](../types/string.md), 'nonce' => [int128](../types/int128.md), 'server_nonce' => [int128](../types/int128.md), 'new_nonce' => [int256](../types/int256.md), 'dc' => [int](../types/int.md), 'expires_in' => [int](../types/int.md), \];<a name="p_q_inner_data_temp_dc"></a>  
 
 ***
 <br><br>[$pong](../constructors/pong.md) = \['msg_id' => [long](../types/long.md), 'ping_id' => [long](../types/long.md), \];<a name="pong"></a>  
 
 ***
-<br><br>[$resPQ](../constructors/resPQ.md) = \['nonce' => [int128](../types/int128.md), 'server_nonce' => [int128](../types/int128.md), 'pq' => [bytes](../types/bytes.md), 'server_public_key_fingerprints' => \[[long](../types/long.md)\], \];<a name="resPQ"></a>  
+<br><br>[$resPQ](../constructors/resPQ.md) = \['nonce' => [int128](../types/int128.md), 'server_nonce' => [int128](../types/int128.md), 'pq' => [string](../types/string.md), 'server_public_key_fingerprints' => \[[long](../types/long.md)\], \];<a name="resPQ"></a>  
 
 ***
 <br><br>[$rpc\_answer\_dropped](../constructors/rpc_answer_dropped.md) = \['msg_id' => [long](../types/long.md), 'seq_no' => [int](../types/int.md), 'bytes' => [int](../types/int.md), \];<a name="rpc_answer_dropped"></a>  
@@ -86,12 +95,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [$rpc\_result](../constructors/rpc_result.md) = \['req_msg_id' => [long](../types/long.md), 'result' => [Object](../types/Object.md), \];<a name="rpc_result"></a>  
 
 ***
-<br><br>[$server\_DH\_inner\_data](../constructors/server_DH_inner_data.md) = \['nonce' => [int128](../types/int128.md), 'server_nonce' => [int128](../types/int128.md), 'g' => [int](../types/int.md), 'dh_prime' => [bytes](../types/bytes.md), 'g_a' => [bytes](../types/bytes.md), 'server_time' => [int](../types/int.md), \];<a name="server_DH_inner_data"></a>  
+<br><br>[$rsa\_public\_key](../constructors/rsa_public_key.md) = \['n' => [string](../types/string.md), 'e' => [string](../types/string.md), \];<a name="rsa_public_key"></a>  
+
+***
+<br><br>[$server\_DH\_inner\_data](../constructors/server_DH_inner_data.md) = \['nonce' => [int128](../types/int128.md), 'server_nonce' => [int128](../types/int128.md), 'g' => [int](../types/int.md), 'dh_prime' => [string](../types/string.md), 'g_a' => [string](../types/string.md), 'server_time' => [int](../types/int.md), \];<a name="server_DH_inner_data"></a>  
 
 [$server\_DH\_params\_fail](../constructors/server_DH_params_fail.md) = \['nonce' => [int128](../types/int128.md), 'server_nonce' => [int128](../types/int128.md), 'new_nonce_hash' => [int128](../types/int128.md), \];<a name="server_DH_params_fail"></a>  
 
-[$server\_DH\_params\_ok](../constructors/server_DH_params_ok.md) = \['nonce' => [int128](../types/int128.md), 'server_nonce' => [int128](../types/int128.md), 'encrypted_answer' => [bytes](../types/bytes.md), \];<a name="server_DH_params_ok"></a>  
+[$server\_DH\_params\_ok](../constructors/server_DH_params_ok.md) = \['nonce' => [int128](../types/int128.md), 'server_nonce' => [int128](../types/int128.md), 'encrypted_answer' => [string](../types/string.md), \];<a name="server_DH_params_ok"></a>  
 
 ***
 <br><br>[$vector](../constructors/vector.md) = \[\];<a name="vector"></a>  
+
 

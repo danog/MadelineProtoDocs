@@ -3,7 +3,7 @@ title: BindAuthKeyInner
 description: constructors and methods of type BindAuthKeyInner
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: BindAuthKeyInner  
+# Type: BindAuthKeyInner
 [Back to types index](index.md)
 
 
@@ -17,4 +17,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Methods that return an object of this type (methods):
 
 
+
+[bind\_auth\_key\_inner](../constructors/bind_auth_key_inner.md)  
 
