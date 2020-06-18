@@ -138,7 +138,7 @@ You can find examples for nearly every MadelineProto function in
   * [Full chat info with full list of participants](https://docs.madelineproto.xyz/docs/CHAT_INFO.html#getPwrChat-now-fully-async)
   * [Full chat info](https://docs.madelineproto.xyz/docs/CHAT_INFO.html#getFullInfo-now-fully-async)
   * [Reduced chat info (very fast)](https://docs.madelineproto.xyz/docs/CHAT_INFO.html#getInfo-now-fully-async)
-  * [Just the chat ID (extremely fast)](https://docs.madelineproto.xyz/docs/CHAT_INFO.html#get_id-now-fully-async)
+  * [Just the chat ID (extremely fast)](https://docs.madelineproto.xyz/docs/CHAT_INFO.html#getId-now-fully-async)
 * [Getting all chats (dialogs)](https://docs.madelineproto.xyz/docs/DIALOGS.html)
   * [Dialog list](https://docs.madelineproto.xyz/docs/DIALOGS.html#getDialogs-now-fully-async)
   * [Full dialog info](https://docs.madelineproto.xyz/docs/DIALOGS.html#getFullDialogs-now-fully-async)

@@ -10,7 +10,7 @@ There are various methods that can be used to fetch info about chats, based on b
 * [Full chat info with full list of participants](#getPwrChat-now-fully-async)
 * [Full chat info](#getFullInfo-now-fully-async)
 * [Reduced chat info (very fast)](#getInfo-now-fully-async)
-* [Just the chat ID (extremely fast)](#get_id-now-fully-async)
+* [Just the chat ID (extremely fast)](#getId-now-fully-async)
 
 ## getPwrChat ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 ```php
@@ -48,12 +48,12 @@ You can also use `getInfo` to get chat info, see [here for the parameters and th
 * Speed: very fast
 * Caching: full
 
-## get_id ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
+## getId ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 ```php
 $id = yield $MadelineProto->getID($update);
 ```
 
-You can also use `get_id` to get chat ID from updates, messages and other objects.
+You can also use `getId` to get chat ID from updates, messages and other objects.
 
 * Speed: very fast
 * Caching: full
