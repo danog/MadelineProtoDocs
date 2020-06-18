@@ -7,19 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 MadelineProto provides an easy wrapper to work with phone calls.
 
-
-```php
-if (!file_exists('input.raw')) {
-    echo 'Downloading example song'.PHP_EOL;
-    copy('https://github.com/danog/MadelineProto/raw/master/input.raw', 'input.raw');
-}
-$call = yield $MadelineProto->requestCall('@danogentili')->play('input.raw')->then('input.raw')->playOnHold(['input.raw'])->setOutputFile('output.raw');
-
-// We need to receive updates in order to avoid closing the script before the call has ended
-while ($call->getCallState() < \danog\MadelineProto\VoIP::CALL_STATE_ENDED) {
-    $MadelineProto->getUpdates();
-}
-```
+[Full webradio example](https://github.com/danog/magnaluna)
 
 The wrapper consists in the `\danog\MadelineProto\VoIP` class, that can be installed by compiling the [php-libtgvoip](https://voip.madelineproto.xyz) extension.
 
@@ -34,7 +22,7 @@ The wrapper consists in the `\danog\MadelineProto\VoIP` class, that can be insta
 
 ## Requesting a call
 ```php
-$call = $MadelineProto->requestCall('@danogentili');
+$call = yield $MadelineProto->requestCall('@danogentili');
 ```
 
 The [requestCall](https://docs.madelineproto.xyz/requestCall.html) function accepts one parameter with the ID/username/Peer/User/InputPeer of the person to call, and returns a VoIP object that can be used to play audio files, set the hold files, change the configuration and set the output file (see the [VoIP API documentation](https://docs.madelineproto.xyz/API_docs/types/PhoneCall.html) for more info).
@@ -96,11 +84,7 @@ Requesting calls is easy, just run the `requestCall` method.
 $controller = $MadelineProto->requestCall('@danogentili')->play('input.raw')->then('inputb.raw')->playOnHold(['hold.raw'])->setOutputFile('output.raw');
 $controller->configuration['log_file_path'] = $controller->getOtherID().'.log';
 
-// We need to receive updates in order to know that the other use accepted the call
-while ($controller->getCallState() < \danog\MadelineProto\VoIP::CALL_STATE_ENDED) {
-    $MadelineProto->getUpdates();
-}
-
+// We need to receive updates in order to know that the other use accepted the call, use an event handler
 ```
 
 ## Accepting calls
@@ -110,16 +94,11 @@ Accepting calls is just as easy: you will receive an [updatePhoneCall](https://d
 This array will contain a VoIP object under the `phone_call` key.
 
 ```php
-while (true) {
-    $updates = $MadelineProto->getUpdates(['offset' => $offset, 'limit' => 50, 'timeout' => 0]); // Just like in the bot API, you can specify an offset, a limit and a timeout
-    foreach ($updates as $update) {
-        \danog\MadelineProto\Logger::log([$update]);
-        $offset = $update['update_id'] + 1; // Just like in the bot API, the offset must be set to the last update_id
-        switch ($update['update']['_']) {
-            case 'updatePhoneCall':
-            if (is_object($update['update']['phone_call']) && $update['update']['phone_call']->getCallState() === \danog\MadelineProto\VoIP::CALL_STATE_INCOMING) {
-                $update['update']['phone_call']->accept()->play('input.raw')->then('inputb.raw')->playOnHold(['hold.raw'])->setOutputFile('output.raw');
-            }
+class PonyHandler extends \danog\MadelineProto\EventHandler
+{
+    public function onUpdatePhoneCall($update) {
+        if (is_object($update['phone_call']) && $update['phone_call']->getCallState() === \danog\MadelineProto\VoIP::CALL_STATE_INCOMING) {
+            $update['phone_call']->accept()->play('input.raw')->then('inputb.raw')->playOnHold(['hold.raw'])->setOutputFile('output.raw');
         }
     }
 }
