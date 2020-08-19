@@ -8,7 +8,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-New group member.
+New group member.  
+**N.B.**: This Update isn't relative to the service message generated from the join event.
 
 ### Attributes:
 
