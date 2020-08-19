@@ -8,7 +8,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-A member has left the group.
+A member has left the group.  
+**N.B.**: This Update isn't relative to the service message generated from the left event.
 
 ### Attributes:
 
