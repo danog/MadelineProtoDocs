@@ -41,16 +41,16 @@ $MadelineProto->loop(function () use ($MadelineProto) {
     $MadelineProto->logger($me);
 
     if (!$me['bot']) {
-        yield $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => "Hi!\nThanks for creating MadelineProto! <3"]);
-        yield $MadelineProto->channels->joinChannel(['channel' => '@MadelineProto']);
+        yield $MadelineProto->messages->sendMessage(['peer' => '@sandbox4madeline', 'message' => "Hi!\nThanks for creating MadelineProto! <3"]);
+        yield $MadelineProto->channels->joinChannel(['channel' => '@sandbox4madeline_chan']);
 
         try {
-            yield $MadelineProto->messages->importChatInvite(['hash' => 'https://t.me/joinchat/Bgrajz6K-aJKu0IpGsLpBg']);
+            yield $MadelineProto->messages->importChatInvite(['hash' => 'https://t.me/joinchat/RdqFTR2qJzeaMML2c_5SPA']);
         } catch (\danog\MadelineProto\RPCErrorException $e) {
             $MadelineProto->logger($e);
         }
 
-        yield $MadelineProto->messages->sendMessage(['peer' => 'https://t.me/joinchat/Bgrajz6K-aJKu0IpGsLpBg', 'message' => 'Testing MadelineProto!']);
+        yield $MadelineProto->messages->sendMessage(['peer' => 'https://t.me/joinchat/RdqFTR2qJzeaMML2c_5SPA', 'message' => 'Testing MadelineProto!']);
     }
     yield $MadelineProto->echo('OK, done!');
 });
