@@ -37,10 +37,3 @@ Or, if you're into Lua:
 Error = test.useError({})
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|INPUT_METHOD_INVALID_4000689921_X|Invalid method|
-
-

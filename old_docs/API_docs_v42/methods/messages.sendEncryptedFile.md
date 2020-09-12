@@ -4,8 +4,9 @@ description: Sends a message with a file attachment to a secret chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_sendEncryptedFile.html
 ---
-# Method: messages.sendEncryptedFile  
+# Method: messages.sendEncryptedFile
 [Back to methods index](index.md)
+
 
 
 Sends a message with a file attachment to a secret chat
@@ -50,6 +51,7 @@ messages.SentEncryptedMessage = messages.sendEncryptedFile({peer=InputEncryptedC
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|DATA_TOO_LONG|Data too long|
+|400|ENCRYPTION_DECLINED|The secret chat was declined|
 |400|MD5_CHECKSUM_INVALID|The MD5 checksums do not match|
 |400|MSG_WAIT_FAILED|A waiting call returned an error|
 

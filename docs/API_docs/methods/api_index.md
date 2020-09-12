@@ -104,6 +104,10 @@ $MadelineProto->[account->getContentSettings](account.getContentSettings.md)(\[\
 
 ***
 <br><br>
+$MadelineProto->[account->getGlobalPrivacySettings](account.getGlobalPrivacySettings.md)(\[\]) === [$GlobalPrivacySettings](../types/GlobalPrivacySettings.md)<a name="account.getGlobalPrivacySettings"></a>  
+
+***
+<br><br>
 $MadelineProto->[account->getMultiWallPapers](account.getMultiWallPapers.md)(\['wallpapers' => \[[InputWallPaper](../types/InputWallPaper.md)\], \]) === [$Vector\_of\_WallPaper](../types/WallPaper.md)<a name="account.getMultiWallPapers"></a>  
 
 ***
@@ -241,6 +245,10 @@ $MadelineProto->[account->setContactSignUpNotification](account.setContactSignUp
 ***
 <br><br>
 $MadelineProto->[account->setContentSettings](account.setContentSettings.md)(\['sensitive_enabled' => [Bool](../types/Bool.md), \]) === [$Bool](../types/Bool.md)<a name="account.setContentSettings"></a>  
+
+***
+<br><br>
+$MadelineProto->[account->setGlobalPrivacySettings](account.setGlobalPrivacySettings.md)(\['settings' => [GlobalPrivacySettings](../types/GlobalPrivacySettings.md), \]) === [$GlobalPrivacySettings](../types/GlobalPrivacySettings.md)<a name="account.setGlobalPrivacySettings"></a>  
 
 ***
 <br><br>
@@ -605,6 +613,10 @@ $MadelineProto->[folders->editPeerFolders](folders.editPeerFolders.md)(\['folder
 ***
 <br><br>
 $MadelineProto->[help->acceptTermsOfService](help.acceptTermsOfService.md)(\['id' => [DataJSON](../types/DataJSON.md), \]) === [$Bool](../types/Bool.md)<a name="help.acceptTermsOfService"></a>  
+
+***
+<br><br>
+$MadelineProto->[help->dismissSuggestion](help.dismissSuggestion.md)(\['suggestion' => [string](../types/string.md), \]) === [$Bool](../types/Bool.md)<a name="help.dismissSuggestion"></a>  
 
 ***
 <br><br>
@@ -1108,10 +1120,6 @@ $MadelineProto->[messages->search](messages.search.md)(\['peer' => [InputPeer](.
 
 ***
 <br><br>
-$MadelineProto->[messages->searchGifs](messages.searchGifs.md)(\['q' => [string](../types/string.md), 'offset' => [int](../types/int.md), \]) === [$messages.FoundGifs](../types/messages.FoundGifs.md)<a name="messages.searchGifs"></a>  
-
-***
-<br><br>
 $MadelineProto->[messages->searchGlobal](messages.searchGlobal.md)(\['folder_id' => [int](../types/int.md), 'q' => [string](../types/string.md), 'offset_rate' => [int](../types/int.md), 'offset_peer' => [InputPeer](../types/InputPeer.md), 'offset_id' => [int](../types/int.md), 'limit' => [int](../types/int.md), \]) === [$messages.Messages](../types/messages.Messages.md)<a name="messages.searchGlobal"></a>  
 
 ***
@@ -1284,6 +1292,10 @@ $MadelineProto->[phone->saveCallDebug](phone.saveCallDebug.md)(\['peer' => [Inpu
 
 ***
 <br><br>
+$MadelineProto->[phone->sendSignalingData](phone.sendSignalingData.md)(\['peer' => [InputPhoneCall](../types/InputPhoneCall.md), 'data' => [bytes](../types/bytes.md), \]) === [$Bool](../types/Bool.md)<a name="phone.sendSignalingData"></a>  
+
+***
+<br><br>
 $MadelineProto->[phone->setCallRating](phone.setCallRating.md)(\['user_initiative' => [Bool](../types/Bool.md), 'peer' => [InputPhoneCall](../types/InputPhoneCall.md), 'rating' => [int](../types/int.md), 'comment' => [string](../types/string.md), \]) === [$Updates](../types/Updates.md)<a name="phone.setCallRating"></a>  
 
 ***
@@ -1296,15 +1308,19 @@ $MadelineProto->[photos->getUserPhotos](photos.getUserPhotos.md)(\['user_id' => 
 
 ***
 <br><br>
-$MadelineProto->[photos->updateProfilePhoto](photos.updateProfilePhoto.md)(\['id' => [InputPhoto](../types/InputPhoto.md), \]) === [$UserProfilePhoto](../types/UserProfilePhoto.md)<a name="photos.updateProfilePhoto"></a>  
+$MadelineProto->[photos->updateProfilePhoto](photos.updateProfilePhoto.md)(\['id' => [InputPhoto](../types/InputPhoto.md), \]) === [$photos.Photo](../types/photos.Photo.md)<a name="photos.updateProfilePhoto"></a>  
 
 ***
 <br><br>
-$MadelineProto->[photos->uploadProfilePhoto](photos.uploadProfilePhoto.md)(\['file' => [InputFile](../types/InputFile.md), \]) === [$photos.Photo](../types/photos.Photo.md)<a name="photos.uploadProfilePhoto"></a>  
+$MadelineProto->[photos->uploadProfilePhoto](photos.uploadProfilePhoto.md)(\['file' => [InputFile](../types/InputFile.md), 'video' => [InputFile](../types/InputFile.md), 'video_start_ts' => [double](../types/double.md), \]) === [$photos.Photo](../types/photos.Photo.md)<a name="photos.uploadProfilePhoto"></a>  
 
 ***
 <br><br>
 $MadelineProto->[stats->getBroadcastStats](stats.getBroadcastStats.md)(\['dark' => [Bool](../types/Bool.md), 'channel' => [InputChannel](../types/InputChannel.md), \]) === [$stats.BroadcastStats](../types/stats.BroadcastStats.md)<a name="stats.getBroadcastStats"></a>  
+
+***
+<br><br>
+$MadelineProto->[stats->getMegagroupStats](stats.getMegagroupStats.md)(\['dark' => [Bool](../types/Bool.md), 'channel' => [InputChannel](../types/InputChannel.md), \]) === [$stats.MegagroupStats](../types/stats.MegagroupStats.md)<a name="stats.getMegagroupStats"></a>  
 
 ***
 <br><br>

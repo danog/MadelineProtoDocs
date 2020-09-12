@@ -17,11 +17,15 @@ redirect_from: /API_docs/types/photos_Photo.html
 
 ### Methods that return an object of this type (methods):
 
+[$MadelineProto->photos->updateProfilePhoto](../methods/photos.updateProfilePhoto.md)  
+
 [$MadelineProto->photos->uploadProfilePhoto](../methods/photos.uploadProfilePhoto.md)  
 
 
 
 [photos.photo](../constructors/photos.photo.md)  
+
+[$MadelineProto->photos->updateProfilePhoto](../methods/photos.updateProfilePhoto.md)  
 
 [$MadelineProto->photos->uploadProfilePhoto](../methods/photos.uploadProfilePhoto.md)  
 

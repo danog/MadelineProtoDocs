@@ -61,5 +61,6 @@ Bool = messages.setTyping({peer=InputPeer, action=SendMessageAction, })
 |400|USER_IS_BOT|Bots can't send messages to other bots|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
+|-503|Timeout|Timeout while fetching data|
 
 

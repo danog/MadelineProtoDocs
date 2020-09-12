@@ -53,6 +53,7 @@ messages.Messages = messages.searchGlobal({folder_id=int, q='string', offset_rat
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|FOLDER_ID_INVALID|Invalid folder ID|
 |400|SEARCH_QUERY_EMPTY|The search query is empty|
 
 

@@ -51,5 +51,6 @@ Updates = contacts.getLocated({background=Bool, geo_point=InputGeoPoint, self_ex
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|GEO_POINT_INVALID|Invalid geoposition provided|
+|406|USERPIC_UPLOAD_REQUIRED|You must have a profile picture to publish your geolocation|
 
 

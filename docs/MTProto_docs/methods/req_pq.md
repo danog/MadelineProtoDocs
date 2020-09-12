@@ -41,10 +41,3 @@ Or, if you're into Lua:
 ResPQ = req_pq({nonce=int128, })
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|INPUT_METHOD_INVALID_1615239032_X|Invalid method, use req_pq_multi instead|
-
-

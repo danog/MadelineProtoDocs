@@ -61,12 +61,15 @@ Bool = messages.setInlineBotResults({gallery=Bool, private=Bool, query_id=long, 
 |400|GIF_CONTENT_TYPE_INVALID|GIF content-type invalid|
 |400|MESSAGE_EMPTY|The provided message is empty|
 |400|MESSAGE_TOO_LONG|The provided message is too long|
+|400|PHOTO_CONTENT_TYPE_INVALID|Photo mime-type invalid|
+|400|PHOTO_CONTENT_URL_EMPTY|Photo URL invalid|
 |400|PHOTO_INVALID|Photo invalid|
 |400|PHOTO_THUMB_URL_EMPTY|Photo thumbnail URL is empty|
 |400|QUERY_ID_INVALID|The query ID is invalid|
 |400|REPLY_MARKUP_INVALID|The provided reply markup is invalid|
 |400|RESULT_TYPE_INVALID|Result type invalid|
 |400|RESULTS_TOO_MUCH|Too many results were provided|
+|400|SEND_MESSAGE_MEDIA_INVALID|Invalid media provided|
 |400|SEND_MESSAGE_TYPE_INVALID|The message type is invalid|
 |400|START_PARAM_INVALID|Start parameter invalid|
 |400|WEBDOCUMENT_INVALID|Invalid webdocument URL provided|

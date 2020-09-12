@@ -60,6 +60,7 @@ auth.SentCode = auth.sendCode({phone_number='string', api_id=int, api_hash='stri
 |400|PHONE_NUMBER_INVALID|The phone number is invalid|
 |400|PHONE_PASSWORD_PROTECTED|This phone is password protected|
 |400|SMS_CODE_CREATE_FAILED|An error occurred while creating the SMS code|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |406|PHONE_NUMBER_INVALID|The phone number is invalid|
 |406|PHONE_PASSWORD_FLOOD|You have tried logging in too many times|
 |401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|

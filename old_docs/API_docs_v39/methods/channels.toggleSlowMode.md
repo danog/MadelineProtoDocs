@@ -50,8 +50,6 @@ Updates = channels.toggleSlowMode({channel=InputChannel, seconds=int, })
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|CHAT_NOT_MODIFIED|The pinned message wasn't modified|
-|400|INPUT_METHOD_INVALID_1192227_X|Invalid method|
-|400|INPUT_METHOD_INVALID_1604042050_X|Invalid method|
 |400|SECONDS_INVALID|Invalid duration provided|
 
 

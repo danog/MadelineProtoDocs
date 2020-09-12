@@ -56,6 +56,7 @@ If the length of the provided message is bigger than 4096, the message will be s
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|420|SLOWMODE_WAIT_X|Slowmode is enabled in this chat: wait X seconds before sending another message to this chat.|
 |400|BOT_DOMAIN_INVALID|Bot domain invalid|
 |400|BOT_INVALID|This is not a valid bot|
 |400|BUTTON_DATA_INVALID|The data of one or more of the buttons you provided is invalid|
@@ -85,7 +86,7 @@ If the length of the provided message is bigger than 4096, the message will be s
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
-|420|SLOWMODE_WAIT_X|Slowmode is enabled in this chat: you must wait for the specified number of seconds before sending another message to the chat.|
+|-504|memory limit exit|Internal error|
 |-503|Timeout|Timeout while fetching data|
 
 

@@ -126,11 +126,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [FolderPeer](FolderPeer.md)<a name="FolderPeer"></a>  
 
-[FoundGif](FoundGif.md)<a name="FoundGif"></a>  
-
 [Game](Game.md)<a name="Game"></a>  
 
 [GeoPoint](GeoPoint.md)<a name="GeoPoint"></a>  
+
+[GlobalPrivacySettings](GlobalPrivacySettings.md)<a name="GlobalPrivacySettings"></a>  
 
 [HighScore](HighScore.md)<a name="HighScore"></a>  
 
@@ -368,6 +368,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [StatsGraph](StatsGraph.md)<a name="StatsGraph"></a>  
 
+[StatsGroupTopAdmin](StatsGroupTopAdmin.md)<a name="StatsGroupTopAdmin"></a>  
+
+[StatsGroupTopInviter](StatsGroupTopInviter.md)<a name="StatsGroupTopInviter"></a>  
+
+[StatsGroupTopPoster](StatsGroupTopPoster.md)<a name="StatsGroupTopPoster"></a>  
+
 [StatsPercentValue](StatsPercentValue.md)<a name="StatsPercentValue"></a>  
 
 [StatsURL](StatsURL.md)<a name="StatsURL"></a>  
@@ -403,6 +409,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [UserProfilePhoto](UserProfilePhoto.md)<a name="UserProfilePhoto"></a>  
 
 [UserStatus](UserStatus.md)<a name="UserStatus"></a>  
+
+[VideoSize](VideoSize.md)<a name="VideoSize"></a>  
 
 [WallPaper](WallPaper.md)<a name="WallPaper"></a>  
 
@@ -528,8 +536,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messages.FeaturedStickers](messages.FeaturedStickers.md)<a name="messages.FeaturedStickers"></a>  
 
-[messages.FoundGifs](messages.FoundGifs.md)<a name="messages.FoundGifs"></a>  
-
 [messages.FoundStickerSets](messages.FoundStickerSets.md)<a name="messages.FoundStickerSets"></a>  
 
 [messages.HighScores](messages.HighScores.md)<a name="messages.HighScores"></a>  
@@ -577,6 +583,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [photos.Photos](photos.Photos.md)<a name="photos.Photos"></a>  
 
 [stats.BroadcastStats](stats.BroadcastStats.md)<a name="stats.BroadcastStats"></a>  
+
+[stats.MegagroupStats](stats.MegagroupStats.md)<a name="stats.MegagroupStats"></a>  
 
 [storage.FileType](storage.FileType.md)<a name="storage.FileType"></a>  
 

@@ -37,10 +37,3 @@ Or, if you're into Lua:
 help.ConfigSimple = test.useConfigSimple({})
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|INPUT_METHOD_INVALID_4189565501_X|Invalid method|
-
-

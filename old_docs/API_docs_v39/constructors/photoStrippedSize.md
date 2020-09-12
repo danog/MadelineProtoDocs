@@ -16,6 +16,7 @@ Just the image's content
 |----------|---------------|----------|-------------|
 |type|[string](../types/string.md) | Yes|Thumbnail type|
 |bytes|[bytes](../types/bytes.md) | Yes|Thumbnail data|
+|inflated|[bytes](../types/bytes.md) | Yes|JPG image data|
 
 
 

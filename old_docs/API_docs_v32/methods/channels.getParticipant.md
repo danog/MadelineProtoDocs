@@ -55,5 +55,6 @@ channels.ChannelParticipant = channels.getParticipant({channel=InputChannel, use
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |400|USER_ID_INVALID|The provided user ID is invalid|
 |400|USER_NOT_PARTICIPANT|You're not a member of this supergroup/channel|
+|-503|Timeout|Timeout while fetching data|
 
 

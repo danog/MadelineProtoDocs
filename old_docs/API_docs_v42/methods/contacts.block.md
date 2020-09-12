@@ -4,8 +4,9 @@ description: Adds the user to the blacklist.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_block.html
 ---
-# Method: contacts.block  
+# Method: contacts.block
 [Back to methods index](index.md)
+
 
 
 Adds the user to the blacklist.
@@ -49,5 +50,6 @@ Bool = contacts.block({id=InputUser, })
 |------|----------|---------------|
 |400|CONTACT_ID_INVALID|The provided contact ID is invalid|
 |400|INPUT_USER_DEACTIVATED|The specified user was deleted|
+|400|MSG_ID_INVALID|Invalid message ID provided|
 
 

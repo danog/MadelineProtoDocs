@@ -53,6 +53,8 @@ messages.Messages = messages.getUnreadMentions({peer=InputPeer, offset_id=int, a
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|CHANNEL_INVALID|The provided channel is invalid|
+|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 
 

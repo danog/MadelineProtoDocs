@@ -27,8 +27,6 @@ You can also provide a [MessageMedia](MessageMedia.md), [Message](Message.md), [
 
 [inputMediaVenue](../constructors/inputMediaVenue.md)  
 
-[inputMediaGifExternal](../constructors/inputMediaGifExternal.md)  
-
 [inputMediaPhotoExternal](../constructors/inputMediaPhotoExternal.md)  
 
 [inputMediaDocumentExternal](../constructors/inputMediaDocumentExternal.md)  
@@ -64,8 +62,6 @@ You can also provide a [MessageMedia](MessageMedia.md), [Message](Message.md), [
 [inputMediaDocument](../constructors/inputMediaDocument.md)  
 
 [inputMediaVenue](../constructors/inputMediaVenue.md)  
-
-[inputMediaGifExternal](../constructors/inputMediaGifExternal.md)  
 
 [inputMediaPhotoExternal](../constructors/inputMediaPhotoExternal.md)  
 

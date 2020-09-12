@@ -18,7 +18,7 @@ Installs a previously uploaded photo as a profile photo.
 |id|[MessageMedia, Update, Message or InputPhoto](../types/InputPhoto.md) | Input photo | Optional|
 
 
-### Return type: [UserProfilePhoto](../types/UserProfilePhoto.md)
+### Return type: [photos.Photo](../types/photos.Photo.md)
 
 ### Can bots use this method: **NO**
 
@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$UserProfilePhoto = $MadelineProto->photos->updateProfilePhoto(['id' => InputPhoto, ]);
+$photos.Photo = $MadelineProto->photos->updateProfilePhoto(['id' => InputPhoto, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-UserProfilePhoto = photos.updateProfilePhoto({id=InputPhoto, })
+photos.Photo = photos.updateProfilePhoto({id=InputPhoto, })
 ```
 
 ### Errors
@@ -53,5 +53,6 @@ UserProfilePhoto = photos.updateProfilePhoto({id=InputPhoto, })
 |400|LOCATION_INVALID|The provided location is invalid|
 |400|PHOTO_CROP_SIZE_SMALL|Photo is too small|
 |400|PHOTO_EXT_INVALID|The extension of the photo is invalid|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 
 

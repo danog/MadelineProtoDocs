@@ -46,3 +46,11 @@ Or, if you're into Lua:
 Theme = account.getTheme({format='string', theme=InputTheme, document_id=long, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|THEME_FORMAT_INVALID|Invalid theme format provided|
+|400|THEME_INVALID|Invalid theme provided|
+
+

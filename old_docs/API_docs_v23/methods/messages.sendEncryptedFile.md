@@ -51,6 +51,7 @@ messages.SentEncryptedMessage = messages.sendEncryptedFile({peer=InputEncryptedC
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|DATA_TOO_LONG|Data too long|
+|400|ENCRYPTION_DECLINED|The secret chat was declined|
 |400|MD5_CHECKSUM_INVALID|The MD5 checksums do not match|
 |400|MSG_WAIT_FAILED|A waiting call returned an error|
 

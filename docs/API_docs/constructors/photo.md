@@ -20,6 +20,7 @@ Photo
 |file\_reference|[bytes](../types/bytes.md) | Yes|[file reference](https://core.telegram.org/api/file_reference)|
 |date|[int](../types/int.md) | Yes|Date of upload|
 |sizes|Array of [PhotoSize](../types/PhotoSize.md) | Yes|Available sizes for download|
+|video\_sizes|Array of [VideoSize](../types/VideoSize.md) | Optional|
 |dc\_id|[int](../types/int.md) | Yes|DC ID to use for download|
 
 
@@ -30,14 +31,14 @@ Photo
 ### Example:
 
 ```php
-$photo = ['_' => 'photo', 'has_stickers' => Bool, 'id' => long, 'access_hash' => long, 'file_reference' => 'bytes', 'date' => int, 'sizes' => [PhotoSize, PhotoSize], 'dc_id' => int];
+$photo = ['_' => 'photo', 'has_stickers' => Bool, 'id' => long, 'access_hash' => long, 'file_reference' => 'bytes', 'date' => int, 'sizes' => [PhotoSize, PhotoSize], 'video_sizes' => [VideoSize, VideoSize], 'dc_id' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-photo={_='photo', has_stickers=Bool, id=long, access_hash=long, file_reference='bytes', date=int, sizes={PhotoSize}, dc_id=int}
+photo={_='photo', has_stickers=Bool, id=long, access_hash=long, file_reference='bytes', date=int, sizes={PhotoSize}, video_sizes={VideoSize}, dc_id=int}
 
 ```
 

@@ -59,5 +59,6 @@ Updates = messages.sendMultiMedia({silent=Bool, background=Bool, clear_draft=Boo
 |400|MULTI_MEDIA_TOO_LONG|Too many media files for album|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|RANDOM_ID_EMPTY|Random ID empty|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 
 

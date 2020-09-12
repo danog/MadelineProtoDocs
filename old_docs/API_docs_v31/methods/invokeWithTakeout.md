@@ -49,6 +49,5 @@ X = invokeWithTakeout({takeout_id=long, query=!X, })
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
-|400|INPUT_METHOD_INVALID_1400137063_X|Invalid method|
 
 

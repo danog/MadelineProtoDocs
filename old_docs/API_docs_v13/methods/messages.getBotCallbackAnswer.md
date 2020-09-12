@@ -50,6 +50,7 @@ messages.BotCallbackAnswer = messages.getBotCallbackAnswer({peer=InputPeer, msg_
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|BOT_RESPONSE_TIMEOUT|A timeout occurred while fetching data from the bot|
 |400|CHANNEL_INVALID|The provided channel is invalid|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|DATA_INVALID|Encrypted data invalid|

@@ -14,6 +14,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [chatInvite](../constructors/chatInvite.md)  
 
+[chatInvitePeek](../constructors/chatInvitePeek.md)  
+
 
 
 ### Methods that return an object of this type (methods):
@@ -25,6 +27,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [chatInviteAlready](../constructors/chatInviteAlready.md)  
 
 [chatInvite](../constructors/chatInvite.md)  
+
+[chatInvitePeek](../constructors/chatInvitePeek.md)  
 
 [$MadelineProto->messages->checkChatInvite](../methods/messages.checkChatInvite.md)  
 

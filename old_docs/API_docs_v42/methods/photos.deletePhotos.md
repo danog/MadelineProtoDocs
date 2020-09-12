@@ -4,8 +4,9 @@ description: Deletes profile photos.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/photos_deletePhotos.html
 ---
-# Method: photos.deletePhotos  
+# Method: photos.deletePhotos
 [Back to methods index](index.md)
+
 
 
 Deletes profile photos.
@@ -14,7 +15,7 @@ Deletes profile photos.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|Array of [MessageMedia, Update, Message or InputPhoto](../types/InputPhoto.md) | The profile photos to delete | Yes|
+|id|Array of [MessageMedia, Update, Message or InputPhoto](../types/InputPhoto.md) | Input photos to delete | Yes|
 
 
 ### Return type: [Vector\_of\_long](../types/long.md)
@@ -42,4 +43,11 @@ Or, if you're into Lua:
 ```lua
 Vector_of_long = photos.deletePhotos({id={InputPhoto}, })
 ```
+
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|-503|Timeout|Timeout while fetching data|
+
 

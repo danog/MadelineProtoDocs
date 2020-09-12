@@ -44,3 +44,10 @@ Or, if you're into Lua:
 Vector_of_long = photos.deletePhotos({id={InputPhoto}, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|-503|Timeout|Timeout while fetching data|
+
+

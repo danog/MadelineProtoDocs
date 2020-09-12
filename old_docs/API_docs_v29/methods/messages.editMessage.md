@@ -110,6 +110,7 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 |400|INPUT_USER_DEACTIVATED|The specified user was deleted|
+|400|MEDIA_CAPTION_TOO_LONG|The caption is too long|
 |400|MEDIA_PREV_INVALID|Previous media invalid|
 |400|MESSAGE_EDIT_TIME_EXPIRED|You can't edit this message anymore, too much time has passed since its creation.|
 |400|MESSAGE_EMPTY|The provided message is empty|

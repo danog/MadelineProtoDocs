@@ -50,7 +50,7 @@ Updates = channels.deleteChannel({channel=InputChannel, })
 |------|----------|---------------|
 |400|CHANNEL_INVALID|The provided channel is invalid|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|400|CHANNEL_TOO_LARGE||
+|400|CHANNEL_TOO_LARGE|Channel is too large to be deleted; this error is issued when trying to delete channels with more than 1000 members (subject to change)|
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 

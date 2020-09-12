@@ -1,24 +1,24 @@
 ---
 title: auth.sendCode
-description: You cannot use this method directly, use the phoneLogin method instead (see https://docs.madelineproto.xyz for more info)
+description: Send the verification code for login
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_sendCode.html
 ---
-# Method: auth.sendCode  
+# Method: auth.sendCode
 [Back to methods index](index.md)
 
 
-You cannot use this method directly, use the phoneLogin method instead (see https://docs.madelineproto.xyz for more info)
+
+Send the verification code for login
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](../types/string.md) | You cannot use this method directly, use the phoneLogin method instead (see https://docs.madelineproto.xyz for more info) | Yes|
-|sms\_type|[int](../types/int.md) | You cannot use this method directly, use the phoneLogin method instead (see https://docs.madelineproto.xyz for more info) | Yes|
-|api\_id|[int](../types/int.md) | You cannot use this method directly, use the phoneLogin method instead (see https://docs.madelineproto.xyz for more info) | Yes|
-|api\_hash|[string](../types/string.md) | You cannot use this method directly, use the phoneLogin method instead (see https://docs.madelineproto.xyz for more info) | Yes|
-|lang\_code|[string](../types/string.md) | You cannot use this method directly, use the phoneLogin method instead (see https://docs.madelineproto.xyz for more info) | Yes|
+|phone\_number|[string](../types/string.md) | Phone number in international format | Yes|
+|api\_id|[int](../types/int.md) | Application identifier (see [App configuration](https://core.telegram.org/myapp)) | Yes|
+|api\_hash|[string](../types/string.md) | Application secret hash (see [App configuration](https://core.telegram.org/myapp)) | Yes|
+|settings|[CodeSettings](../types/CodeSettings.md) | Settings for the code type to send | Yes|
 
 
 ### Return type: [auth.SentCode](../types/auth.SentCode.md)
@@ -38,13 +38,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth.SentCode = $MadelineProto->auth->sendCode(['phone_number' => 'string', 'sms_type' => int, 'api_id' => int, 'api_hash' => 'string', 'lang_code' => 'string', ]);
+$auth.SentCode = $MadelineProto->auth->sendCode(['phone_number' => 'string', 'api_id' => int, 'api_hash' => 'string', 'settings' => CodeSettings, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth.SentCode = auth.sendCode({phone_number='string', sms_type=int, api_id=int, api_hash='string', lang_code='string', })
+auth.SentCode = auth.sendCode({phone_number='string', api_id=int, api_hash='string', settings=CodeSettings, })
 ```
 
 ### Errors
@@ -60,7 +60,9 @@ auth.SentCode = auth.sendCode({phone_number='string', sms_type=int, api_id=int, 
 |400|PHONE_NUMBER_INVALID|The phone number is invalid|
 |400|PHONE_PASSWORD_PROTECTED|This phone is password protected|
 |400|SMS_CODE_CREATE_FAILED|An error occurred while creating the SMS code|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |406|PHONE_NUMBER_INVALID|The phone number is invalid|
 |406|PHONE_PASSWORD_FLOOD|You have tried logging in too many times|
+|401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
 
 

@@ -44,3 +44,10 @@ Or, if you're into Lua:
 Bool = account.deleteAccount({reason='string', })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|420|2FA_CONFIRM_WAIT_X|Since this account is active and protected by a 2FA password, we will delete it in 1 week for security purposes. You can cancel this process at any time, you'll be able to reset your account in X seconds.|
+
+

@@ -473,7 +473,6 @@ You can find examples for nearly every MadelineProto function in
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/upload.saveBigFilePart.html" name="upload.saveBigFilePart">Saves a part of a large file (over 10Mb in size) to be later passed to one of the methods: upload.saveBigFilePart</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/upload.saveFilePart.html" name="upload.saveFilePart">Saves a part of file for futher sending to one of the methods: upload.saveFilePart</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/help.saveAppLog.html" name="help.saveAppLog">Saves logs of application on the server: help.saveAppLog</a>
-    * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.searchGifs.html" name="messages.searchGifs">Search for GIFs: messages.searchGifs</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.searchGlobal.html" name="messages.searchGlobal">Search for messages and peers globally: messages.searchGlobal</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.searchStickerSets.html" name="messages.searchStickerSets">Search for stickersets: messages.searchStickerSets</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.saveSecureValue.html" name="account.saveSecureValue">Securely save Telegram Passport document, for more info see the passport docs »: account.saveSecureValue</a>

@@ -60,6 +60,8 @@ You can provide bot API reply_markup objects here.
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|420|SLOWMODE_WAIT_X|Slowmode is enabled in this chat: wait X seconds before sending another message to this chat.|
+|400|BROADCAST_PUBLIC_VOTERS_FORBIDDEN|You can't forward polls with public voters|
 |400|BUTTON_DATA_INVALID|The data of one or more of the buttons you provided is invalid|
 |400|BUTTON_TYPE_INVALID|The type of one or more of the buttons you provided is invalid|
 |400|BUTTON_URL_INVALID|Button URL invalid|
@@ -83,9 +85,11 @@ You can provide bot API reply_markup objects here.
 |400|PHOTO_SAVE_FILE_INVALID|Internal issues, try again later|
 |400|POLL_ANSWERS_INVALID|Invalid poll answers were provided|
 |400|POLL_OPTION_DUPLICATE|Duplicate poll options provided|
+|400|POLL_OPTION_INVALID|Invalid poll option provided|
 |400|QUIZ_CORRECT_ANSWERS_EMPTY|No correct quiz answer was specified|
 |400|REPLY_MARKUP_BUY_EMPTY|Reply markup for buy button empty|
 |400|REPLY_MARKUP_INVALID|The provided reply markup is invalid|
+|400|SCHEDULE_TOO_MUCH|There are too many scheduled messages|
 |400|TTL_MEDIA_INVALID|Invalid media Time To Live was provided|
 |400|USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
 |400|USER_IS_BLOCKED|You were blocked by this user|
@@ -98,7 +102,7 @@ You can provide bot API reply_markup objects here.
 |403|CHAT_SEND_MEDIA_FORBIDDEN|You can't send media in this chat|
 |403|CHAT_SEND_STICKERS_FORBIDDEN|You can't send stickers in this chat.|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
-|420|SLOWMODE_WAIT_X|Slowmode is enabled in this chat: you must wait for the specified number of seconds before sending another message to the chat.|
+|-504|memory limit exit|Internal error|
 |-503|Timeout|Timeout while fetching data|
 
 

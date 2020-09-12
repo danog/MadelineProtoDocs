@@ -58,5 +58,6 @@ MessageMedia = messages.uploadMedia({peer=InputPeer, media=InputMedia, })
 |400|PHOTO_EXT_INVALID|The extension of the photo is invalid|
 |400|WEBPAGE_CURL_FAILED|Failure while fetching the webpage with cURL|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
+|-503|Timeout|Timeout while fetching data|
 
 

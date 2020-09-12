@@ -653,6 +653,5 @@ $loop->start();
 ```
 Unlike `GenericLoop`, the callback will **not** be bound to the GenericLoop instance.
 You can still command the loop by using the pause/waitSignal methods from the outside or by capturing the loop instance in a closure like shown above.  
-s
 
 <a href="https://docs.madelineproto.xyz/docs/USING_METHODS.html">Next section</a>

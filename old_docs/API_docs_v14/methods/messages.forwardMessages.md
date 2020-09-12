@@ -52,6 +52,7 @@ Updates = messages.forwardMessages({silent=Bool, background=Bool, from_peer=Inpu
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|420|SLOWMODE_WAIT_X|Slowmode is enabled in this chat: wait X seconds before sending another message to this chat.|
 |400|BROADCAST_PUBLIC_VOTERS_FORBIDDEN|You can't forward polls with public voters|
 |400|CHANNEL_INVALID|The provided channel is invalid|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
@@ -76,7 +77,6 @@ Updates = messages.forwardMessages({silent=Bool, background=Bool, from_peer=Inpu
 |403|CHAT_SEND_POLL_FORBIDDEN|You can't send polls in this chat|
 |403|CHAT_SEND_STICKERS_FORBIDDEN|You can't send stickers in this chat.|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
-|420|SLOWMODE_WAIT_X|Slowmode is enabled in this chat: you must wait for the specified number of seconds before sending another message to the chat.|
 |-503|Timeout|Timeout while fetching data|
 
 

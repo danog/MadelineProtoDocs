@@ -55,10 +55,12 @@ Updates = messages.sendInlineBotResult({silent=Bool, background=Bool, clear_draf
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|420|SLOWMODE_WAIT_X|Slowmode is enabled in this chat: wait X seconds before sending another message to this chat.|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 |400|CHAT_RESTRICTED|You can't send messages in this chat, you were restricted|
 |400|INLINE_RESULT_EXPIRED|The inline query expired|
+|400|INPUT_USER_DEACTIVATED|The specified user was deleted|
 |400|MEDIA_EMPTY|The provided media object is invalid|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|QUERY_ID_EMPTY|The query ID is empty|
@@ -70,8 +72,8 @@ Updates = messages.sendInlineBotResult({silent=Bool, background=Bool, clear_draf
 |403|CHAT_SEND_GIFS_FORBIDDEN|You can't send gifs in this chat|
 |403|CHAT_SEND_INLINE_FORBIDDEN|You can't send inline messages in this group|
 |403|CHAT_SEND_MEDIA_FORBIDDEN|You can't send media in this chat|
+|403|CHAT_SEND_STICKERS_FORBIDDEN|You can't send stickers in this chat.|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
-|420|SLOWMODE_WAIT_X|Slowmode is enabled in this chat: you must wait for the specified number of seconds before sending another message to the chat.|
 |-503|Timeout|Timeout while fetching data|
 
 

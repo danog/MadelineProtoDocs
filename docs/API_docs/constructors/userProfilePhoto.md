@@ -14,6 +14,7 @@ User profile photo.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|has\_video|[Bool](../types/Bool.md) | Optional|
 |photo\_id|[long](../types/long.md) | Yes|Identifier of the respective photo<br>Parameter added in [Layer 2](https://core.telegram.org/api/layers#layer-2)|
 |photo\_small|[FileLocation](../types/FileLocation.md) | Yes|Location of the file, corresponding to the small profile photo thumbnail|
 |photo\_big|[FileLocation](../types/FileLocation.md) | Yes|Location of the file, corresponding to the big profile photo thumbnail|
@@ -27,14 +28,14 @@ User profile photo.
 ### Example:
 
 ```php
-$userProfilePhoto = ['_' => 'userProfilePhoto', 'photo_id' => long, 'photo_small' => FileLocation, 'photo_big' => FileLocation, 'dc_id' => int];
+$userProfilePhoto = ['_' => 'userProfilePhoto', 'has_video' => Bool, 'photo_id' => long, 'photo_small' => FileLocation, 'photo_big' => FileLocation, 'dc_id' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-userProfilePhoto={_='userProfilePhoto', photo_id=long, photo_small=FileLocation, photo_big=FileLocation, dc_id=int}
+userProfilePhoto={_='userProfilePhoto', has_video=Bool, photo_id=long, photo_small=FileLocation, photo_big=FileLocation, dc_id=int}
 
 ```
 
