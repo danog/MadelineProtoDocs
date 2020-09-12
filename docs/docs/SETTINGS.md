@@ -452,49 +452,54 @@ MadelineProto can keep part of this data in a database, such as mysql or mariadb
 
 MariaDb 10.2+ or Mysql 5.6+ required.
 
-Change type to 'mysql' to store data in a database. 
+Change type to 'mysql' to store data in a MySQL database. 
+Change type to 'postgres' to store data in a PostgreSQL database. 
+Change type to 'redis' to store data in a Redis database. 
 On first start after switching type all data will be migrated from memory to database. 
 Database to memory migration/convertation also supported.
 
 Database and tables will be created automatically.
 
-### `$settings['db']['mysql']['host']`
+For each of the following settings, `dbType` can be `mysql`, `postgres` or `redis`
+
+### `$settings['db']['dbType']['host']`
 Default: `'127.0.0.1'`  
-Description: Mysql host
+Description: Mysql/Postgres/Redis host
 
-### `$settings['db']['mysql']['port']`
+### `$settings['db']['dbType']['port']`
 Default: 3306  
-Description: Mysql port
+Description: Mysql/Postgres/Redis port
 
-### `$settings['db']['mysql']['user']`
+### `$settings['db']['dbType']['user']`
 Default: `'root'`  
-Description: Mysql username
+Description: Mysql/Postgres username
 
-### `$settings['db']['mysql']['password']`
+### `$settings['db']['dbType']['password']`
 Default: `''`  
-Description: Mysql password
+Description: Mysql/Postgres/Redis password
 
-### `$settings['db']['mysql']['database']`
+### `$settings['db']['dbType']['database']`
 Default: `'MadelineProto'`  
-Description: Name of database. It will be created on first start.
+Description: Name of database. It will be created on first start.  
+Redis only accepts an integer here.  
 
-### `$settings['db']['mysql']['max_connections']`
+### `$settings['db']['dbType']['max_connections']`
 Default: 10  
 Description: Limit of concurrent connections. 
 
-This value must not exceed mysql 'max_user_connections' setting.
+This value must not exceed mysql/postgres 'max_user_connections' setting.
 
-### `$settings['db']['mysql']['idle_timeout']`
+### `$settings['db']['dbType']['idle_timeout']`
 Default: 60  
 Description: Number of seconds until connection will be closed.
 
-### `$settings['db']['mysql']['cache_ttl']`
+### `$settings['db']['dbType']['cache_ttl']`
 Default: `'+5 minutes'`  
 Description: Time offset to control how long data will be stored in memory.
 This value can be in any format supported by `strtotime` function. 
 
 When data retrieved from a database its stored in memory. 
-This helps to reduce latency, improve speed and reduce mysql load.
+This helps to reduce latency, improve speed and reduce mysql/postgres/redis load.
 Data will be remove from cache if last access was more than this amount of time.
 Clean up is done once per minute.
 
