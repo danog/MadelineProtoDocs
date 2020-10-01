@@ -1,7 +1,6 @@
 ---
 title: statsPercentValue
 description: [Channel statistics percentage](https://core.telegram.org/api/stats).  
-Compute the percentage simply by doing `part * total / 100`
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: statsPercentValue  

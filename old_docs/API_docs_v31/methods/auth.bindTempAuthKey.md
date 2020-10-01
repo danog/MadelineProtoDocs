@@ -1,8 +1,6 @@
 ---
 title: auth.bindTempAuthKey
 description: Binds a temporary authorization key `temp_auth_key_id` to the permanent authorization key `perm_auth_key_id`. Each permanent key may only be bound to one temporary key at a time, binding a new temporary key overwrites the previous one.
-
-For more information, see [Perfect Forward Secrecy](https://core.telegram.org/api/pfs).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_bindTempAuthKey.html
 ---

@@ -1,6 +1,6 @@
 ---
 title: channels.getParticipants
-description: Get the participants of a channel
+description: Get the participants of a [supergroup/channel](https://core.telegram.org/api/channel)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_getParticipants.html
 ---
@@ -9,7 +9,7 @@ redirect_from: /API_docs/methods/channels_getParticipants.html
 
 
 
-Get the participants of a channel
+Get the participants of a [supergroup/channel](https://core.telegram.org/api/channel)
 
 ### Parameters:
 

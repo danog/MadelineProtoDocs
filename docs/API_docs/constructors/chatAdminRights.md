@@ -22,7 +22,7 @@ Represents the rights of an admin in a [channel/supergroup](https://core.telegra
 |invite\_users|[Bool](../types/Bool.md) | Optional|If set, allows the admin to invite users in the [channel/supergroup](https://core.telegram.org/api/channel)|
 |pin\_messages|[Bool](../types/Bool.md) | Optional|If set, allows the admin to pin messages in the [channel/supergroup](https://core.telegram.org/api/channel)|
 |add\_admins|[Bool](../types/Bool.md) | Optional|If set, allows the admin to add other admins with the same (or more limited) permissions in the [channel/supergroup](https://core.telegram.org/api/channel)|
-|anonymous|[Bool](../types/Bool.md) | Optional|
+|anonymous|[Bool](../types/Bool.md) | Optional|Whether this admin is anonymous|
 
 
 

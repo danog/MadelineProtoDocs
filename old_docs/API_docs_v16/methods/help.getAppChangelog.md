@@ -1,7 +1,6 @@
 ---
 title: help.getAppChangelog
 description: Get changelog of current app.  
-Typically, an [updates](../constructors/updates.md) constructor will be returned, containing one or more [updateServiceNotification](../constructors/updateServiceNotification.md) updates with app-specific changelogs.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getAppChangelog.html
 ---

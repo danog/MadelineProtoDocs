@@ -346,7 +346,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getSearchCounters.html" name="messages.getSearchCounters">Get the number of results that would be found by a messages.search call with the same parameters: messages.getSearchCounters</a>
 
-* <a href="channels.getParticipants.html" name="channels.getParticipants">Get the participants of a channel: channels.getParticipants</a>
+* <a href="channels.getParticipants.html" name="channels.getParticipants">Get the participants of a supergroup/channel: channels.getParticipants</a>
 
 * <a href="account.getTheme.html" name="account.getTheme">Get theme information: account.getTheme</a>
 

@@ -21,7 +21,7 @@ Full info about a [channel/supergroup](https://core.telegram.org/api/channel)
 |can\_set\_location|[Bool](../types/Bool.md) | Optional|Can we set the geolocation of this group (for geogroups)|
 |has\_scheduled|[Bool](../types/Bool.md) | Optional|Whether scheduled messages are available|
 |can\_view\_stats|[Bool](../types/Bool.md) | Optional|Can the user view [channel statistics](https://core.telegram.org/api/stats) for this channel|
-|blocked|[Bool](../types/Bool.md) | Optional|
+|blocked|[Bool](../types/Bool.md) | Optional|Whether any anonymous admin of this supergroup was blocked: if set, you won't receive messages from anonymous group admins in discussion replies via @replies|
 |id|[int](../types/int.md) | Yes|ID of the channel|
 |about|[string](../types/string.md) | Yes|Info about the channel|
 |participants\_count|[int](../types/int.md) | Optional|Number of participants of the channel|

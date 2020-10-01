@@ -19,7 +19,7 @@ Extended user info
 |phone\_calls\_private|[Bool](../types/Bool.md) | Optional|Whether this user's privacy settings allow you to call him|
 |can\_pin\_message|[Bool](../types/Bool.md) | Optional|Whether you can pin messages in the chat with this user, you can do this only for a chat with yourself|
 |has\_scheduled|[Bool](../types/Bool.md) | Optional|Whether scheduled messages are available|
-|video\_calls\_available|[Bool](../types/Bool.md) | Optional|
+|video\_calls\_available|[Bool](../types/Bool.md) | Optional|Whether the user can receive video calls|
 |user|[User](../types/User.md) | Optional|Remaining user info|
 |about|[string](../types/string.md) | Optional|Bio of the user|
 |settings|[PeerSettings](../types/PeerSettings.md) | Yes|Peer settings|

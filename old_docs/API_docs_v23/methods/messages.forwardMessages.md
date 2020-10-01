@@ -18,7 +18,7 @@ Forwards messages by their IDs.
 |silent|[Bool](../types/Bool.md) | Whether to send messages silently (no notification will be triggered on the destination clients) | Optional|
 |background|[Bool](../types/Bool.md) | Whether to send the message in background | Optional|
 |with\_my\_score|[Bool](../types/Bool.md) | When forwarding games, whether to include your score in the game | Optional|
-|grouped|[Bool](../types/Bool.md) | Whether the specified messages represent an album (grouped media) | Optional|
+|grouped|[Bool](../types/Bool.md) |  | Optional|
 |from\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Source of messages | Optional|
 |id|Array of [int](../types/int.md) | IDs of messages | Yes|
 |to\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Destination peer | Optional|

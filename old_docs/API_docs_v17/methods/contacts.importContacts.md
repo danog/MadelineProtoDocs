@@ -1,8 +1,6 @@
 ---
 title: contacts.importContacts
 description: Imports contacts: saves a full list on the server, adds already registered contacts to the contact list, returns added contacts and their info.
-
-Use [contacts.addContact](../methods/contacts.addContact.md) to add Telegram contacts without actually using their phone number.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_importContacts.html
 ---

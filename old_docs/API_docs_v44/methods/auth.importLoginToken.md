@@ -1,8 +1,6 @@
 ---
 title: auth.importLoginToken
 description: Login using a redirected login token, generated in case of DC mismatch during [QR code login](https://core.telegram.org/api/qr-login).
-
-For more info, see [login via QR code](https://core.telegram.org/api/qr-login).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_importLoginToken.html
 ---

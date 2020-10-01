@@ -20,7 +20,7 @@ Indicates a service message
 |silent|[Bool](../types/Bool.md) | Optional|Whether the message is silent|
 |post|[Bool](../types/Bool.md) | Optional|Whether it's a channel post|
 |id|[int](../types/int.md) | Yes|Message ID|
-|from\_id|[int](../types/int.md) | Optional|Id of te sender of the message|
+|from\_id|[int](../types/int.md) | Optional|ID of the sender of this message|
 |to\_id|[Peer](../types/Peer.md) | Yes|ID of the destination of the message|
 |reply\_to\_msg\_id|[int](../types/int.md) | Optional|ID of the message this message replies to|
 |date|[int](../types/int.md) | Yes|Message date|

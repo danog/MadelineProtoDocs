@@ -184,7 +184,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getAttachedStickers.html" name="messages.getAttachedStickers">Get stickers attached to a photo or video: messages.getAttachedStickers</a>
 
-* <a href="channels.getParticipants.html" name="channels.getParticipants">Get the participants of a channel: channels.getParticipants</a>
+* <a href="channels.getParticipants.html" name="channels.getParticipants">Get the participants of a supergroup/channel: channels.getParticipants</a>
 
 * <a href="messages.search.html" name="messages.search">Gets back found messages: messages.search</a>
 

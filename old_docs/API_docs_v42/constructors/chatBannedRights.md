@@ -26,7 +26,7 @@ Represents the rights of a normal user in a [supergroup/channel/chat](https://co
 |change\_info|[Bool](../types/Bool.md) | Optional|If set, does not allow any user to change the description of a [supergroup/chat](https://core.telegram.org/api/channel)|
 |invite\_users|[Bool](../types/Bool.md) | Optional|If set, does not allow any user to invite users in a [supergroup/chat](https://core.telegram.org/api/channel)|
 |pin\_messages|[Bool](../types/Bool.md) | Optional|If set, does not allow any user to pin messages in a [supergroup/chat](https://core.telegram.org/api/channel)|
-|until\_date|[int](../types/int.md) | Yes|Validity of said permissions (0 = forever, forever = 2^31-1 for now).|
+|until\_date|[int](../types/int.md) | Yes|Validity of said permissions (it is considered forever any value less then 30 seconds or more then 366 days).|
 
 
 

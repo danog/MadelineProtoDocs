@@ -1,10 +1,6 @@
 ---
 title: auth.acceptLoginToken
 description: Accept QR code login token, logging in the app that generated it.
-
-Returns info about the new session.
-
-For more info, see [login via QR code](https://core.telegram.org/api/qr-login).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_acceptLoginToken.html
 ---

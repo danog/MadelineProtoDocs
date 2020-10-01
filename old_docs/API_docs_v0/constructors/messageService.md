@@ -15,7 +15,7 @@ Indicates a service message
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |id|[int](../types/int.md) | Yes|Message ID|
-|from\_id|[int](../types/int.md) | Yes|Id of te sender of the message|
+|from\_id|[int](../types/int.md) | Yes|ID of the sender of this message|
 |to\_id|[Peer](../types/Peer.md) | Yes|ID of the destination of the message|
 |date|[int](../types/int.md) | Yes|Message date|
 |action|[MessageAction](../types/MessageAction.md) | Optional|Event connected with the service message|

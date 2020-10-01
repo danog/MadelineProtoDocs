@@ -1,9 +1,6 @@
 ---
 title: auth.exportLoginToken
 description: Generate a login token, for [login via QR code](https://core.telegram.org/api/qr-login).  
-The generated login token should be encoded using base64url, then shown as a `tg://login?token=base64encodedtoken` URL in the QR code.
-
-For more info, see [login via QR code](https://core.telegram.org/api/qr-login).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_exportLoginToken.html
 ---

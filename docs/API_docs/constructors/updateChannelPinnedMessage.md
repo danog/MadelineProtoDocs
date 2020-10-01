@@ -1,6 +1,6 @@
 ---
 title: updateChannelPinnedMessage
-description: A message was pinned in a [channel/supergroup](https://core.telegram.org/api/channel).
+description: A message was pinned in a [channel/supergroup](https://core.telegram.org/api/channel). This update is also typically emitted as an [updateNewChannelMessage](updateNewChannelMessage.md) with [messageService](messageService.md).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelPinnedMessage  
@@ -8,8 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-A message was pinned in a [channel/supergroup](https://core.telegram.org/api/channel).  
-This update is also typically emitted as an [updateNewChannelMessage](updateNewChannelMessage.md) with [messageService](messageService.md).
+A message was pinned in a [channel/supergroup](https://core.telegram.org/api/channel). This update is also typically emitted as an [updateNewChannelMessage](updateNewChannelMessage.md) with [messageService](messageService.md).
 
 ### Attributes:
 

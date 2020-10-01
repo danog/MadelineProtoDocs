@@ -15,7 +15,7 @@ Phone call
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |p2p\_allowed|[Bool](../types/Bool.md) | Optional|Whether P2P connection to the other peer is allowed|
-|video|[Bool](../types/Bool.md) | Optional|
+|video|[Bool](../types/Bool.md) | Optional|Whether this is a video call|
 |id|[long](../types/long.md) | Yes|Call ID|
 |access\_hash|[long](../types/long.md) | Yes|Access hash|
 |date|[int](../types/int.md) | Yes|Date of creation of the call|

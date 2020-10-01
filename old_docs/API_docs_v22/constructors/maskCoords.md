@@ -1,13 +1,6 @@
 ---
 title: maskCoords
 description: Position on a photo where a mask should be placed
-
-The `n` position indicates where the mask should be placed:
-
-- 0 =&gt; Relative to the forehead
-- 1 =&gt; Relative to the eyes
-- 2 =&gt; Relative to the mouth
-- 3 =&gt; Relative to the chin
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: maskCoords  

@@ -1,8 +1,6 @@
 ---
 title: contacts.addContact
 description: Add an existing telegram user as contact.
-
-Use [contacts.importContacts](../methods/contacts.importContacts.md) to add contacts by phone number, without knowing their Telegram ID.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_addContact.html
 ---

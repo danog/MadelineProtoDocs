@@ -1,8 +1,6 @@
 ---
 title: auth.resetAuthorizations
 description: Terminates all user's authorized sessions except for the current one.
-
-After calling this method it is necessary to reregister the current device using the method [account.registerDevice](../methods/account.registerDevice.md)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_resetAuthorizations.html
 ---

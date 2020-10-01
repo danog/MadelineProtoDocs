@@ -1,6 +1,6 @@
 ---
 title: updateChannelTooLong
-description: There are new updates in the specified channel, the client must fetch them, eventually starting the specified pts if the difference is too long or if the channel isn't currently in the states.
+description: There are new updates in the specified channel, the client must fetch them.  
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelTooLong  
@@ -8,7 +8,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-There are new updates in the specified channel, the client must fetch them, eventually starting the specified pts if the difference is too long or if the channel isn't currently in the states.
+There are new updates in the specified channel, the client must fetch them.  
+If the difference is too long or if the channel isn't currently in the states, start fetching from the specified pts.
 
 ### Attributes:
 
