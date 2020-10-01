@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-redirect-from

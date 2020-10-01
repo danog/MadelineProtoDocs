@@ -32,14 +32,14 @@
 </section>
 
 <section class="main-content">
-{% include anchor_headings.html html=content anchorBody="#" %}
+{% include anchor_headings.html html=content anchorBody="#" beforeHeading=true %}
 
-    <amp-user-notification id="my-notification" layout="nodisplay">
-        <div>
-            This site uses cookies, as described in the <a href="https://www.iubenda.com/privacy-policy/44137529/cookie-policy" target="_blank">cookie policy</a>. By clicking on "Accept" you consent to the use of cookies.
-            <button on="tap:my-notification.dismiss" class="ampstart-btn caps ml1">Accept</button>
-        </div>
-    </amp-user-notification>
+<amp-user-notification id="my-notification" layout="nodisplay">
+    <div>
+        This site uses cookies, as described in the <a href="https://www.iubenda.com/privacy-policy/44137529/cookie-policy" target="_blank">cookie policy</a>. By clicking on "Accept" you consent to the use of cookies.
+        <button on="tap:my-notification.dismiss" class="ampstart-btn caps ml1">Accept</button>
+    </div>
+</amp-user-notification>
 <footer class="site-footer">
 {% if site.github.is_project_page %}
 <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
