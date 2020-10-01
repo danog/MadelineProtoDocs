@@ -15,8 +15,9 @@ Privacy rules
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|rules|Array of [PrivacyRule](../types/PrivacyRule.md) | Yes|Rules|
-|users|Array of [User](../types/User.md) | Yes|Users|
+|rules|Array of [PrivacyRule](../types/PrivacyRule.md) | Yes|Privacy rules|
+|chats|Array of [Chat](../types/Chat.md) | Yes|Chats to which the rules apply|
+|users|Array of [User](../types/User.md) | Yes|Users to which the rules apply|
 
 
 
@@ -26,14 +27,14 @@ Privacy rules
 ### Example:
 
 ```php
-$account.privacyRules = ['_' => 'account.privacyRules', 'rules' => [PrivacyRule, PrivacyRule], 'users' => [User, User]];
+$account.privacyRules = ['_' => 'account.privacyRules', 'rules' => [PrivacyRule, PrivacyRule], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-account.privacyRules={_='account.privacyRules', rules={PrivacyRule}, users={User}}
+account.privacyRules={_='account.privacyRules', rules={PrivacyRule}, chats={Chat}, users={User}}
 
 ```
 

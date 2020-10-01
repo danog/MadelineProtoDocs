@@ -4,7 +4,7 @@ description: constructors and methods of type messages.AllStickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/messages_AllStickers.html
 ---
-# Type: messages.AllStickers  
+# Type: messages.AllStickers
 [Back to types index](index.md)
 
 
@@ -21,5 +21,15 @@ redirect_from: /API_docs/types/messages_AllStickers.html
 
 [$MadelineProto->messages->getAllStickers](../methods/messages.getAllStickers.md)  
 
+[$MadelineProto->messages->getMaskStickers](../methods/messages.getMaskStickers.md)  
 
+
+
+[messages.allStickersNotModified](../constructors/messages.allStickersNotModified.md)  
+
+[messages.allStickers](../constructors/messages.allStickers.md)  
+
+[$MadelineProto->messages->getAllStickers](../methods/messages.getAllStickers.md)  
+
+[$MadelineProto->messages->getMaskStickers](../methods/messages.getMaskStickers.md)  
 

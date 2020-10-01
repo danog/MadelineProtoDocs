@@ -15,7 +15,7 @@ Deletes the user from the blacklist.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | User ID | Optional|
+|id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
 
 
 ### Return type: [Bool](../types/Bool.md)
@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->contacts->unblock(['id' => InputUser, ]);
+$Bool = $MadelineProto->contacts->unblock(['id' => InputPeer, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Bool = contacts.unblock({id=InputUser, })
+Bool = contacts.unblock({id=InputPeer, })
 ```
 
 ### Errors

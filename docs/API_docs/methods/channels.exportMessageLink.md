@@ -15,9 +15,10 @@ Get link and embed info of a message in a [channel/supergroup](https://core.tele
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|grouped|[Bool](../types/Bool.md) |  | Optional|
+|thread|[Bool](../types/Bool.md) |  | Optional|
 |channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Channel | Optional|
 |id|[int](../types/int.md) | Message ID | Yes|
-|grouped|[Bool](../types/Bool.md) | Whether to include other grouped media (for albums) | Yes|
 
 
 ### Return type: [ExportedMessageLink](../types/ExportedMessageLink.md)
@@ -37,13 +38,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$ExportedMessageLink = $MadelineProto->channels->exportMessageLink(['channel' => InputChannel, 'id' => int, 'grouped' => Bool, ]);
+$ExportedMessageLink = $MadelineProto->channels->exportMessageLink(['grouped' => Bool, 'thread' => Bool, 'channel' => InputChannel, 'id' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-ExportedMessageLink = channels.exportMessageLink({channel=InputChannel, id=int, grouped=Bool, })
+ExportedMessageLink = channels.exportMessageLink({grouped=Bool, thread=Bool, channel=InputChannel, id=int, })
 ```
 
 ### Errors

@@ -15,6 +15,7 @@ Channel/supergroup creator
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |user\_id|[int](../types/int.md) | Yes|User ID|
+|admin\_rights|[ChatAdminRights](../types/ChatAdminRights.md) | Yes|
 |rank|[string](../types/string.md) | Optional|The role (rank) of the group creator in the group: just an arbitrary string, `admin` by default|
 
 
@@ -25,14 +26,14 @@ Channel/supergroup creator
 ### Example:
 
 ```php
-$channelParticipantCreator = ['_' => 'channelParticipantCreator', 'user_id' => int, 'rank' => 'string'];
+$channelParticipantCreator = ['_' => 'channelParticipantCreator', 'user_id' => int, 'admin_rights' => ChatAdminRights, 'rank' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-channelParticipantCreator={_='channelParticipantCreator', user_id=int, rank='string'}
+channelParticipantCreator={_='channelParticipantCreator', user_id=int, admin_rights=ChatAdminRights, rank='string'}
 
 ```
 

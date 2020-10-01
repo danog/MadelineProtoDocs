@@ -8,8 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-New group member.  
-This update is also typically emitted as an [updateNewMessage](updateNewMessage.md) with [messageService](messageService.md).
+New group member.
 
 ### Attributes:
 

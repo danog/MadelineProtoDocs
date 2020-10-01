@@ -16,6 +16,7 @@ Sends a current user typing event (see [SendMessageAction](../types/SendMessageA
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Target user or group | Optional|
+|top\_msg\_id|[int](../types/int.md) |  | Optional|
 |action|[SendMessageAction](../types/SendMessageAction.md) | Type of action<br>Parameter added in [Layer 17](https://core.telegram.org/api/layers#layer-17). | Yes|
 
 
@@ -36,13 +37,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->setTyping(['peer' => InputPeer, 'action' => SendMessageAction, ]);
+$Bool = $MadelineProto->messages->setTyping(['peer' => InputPeer, 'top_msg_id' => int, 'action' => SendMessageAction, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Bool = messages.setTyping({peer=InputPeer, action=SendMessageAction, })
+Bool = messages.setTyping({peer=InputPeer, top_msg_id=int, action=SendMessageAction, })
 ```
 
 ### Errors

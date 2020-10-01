@@ -241,7 +241,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$channelForbidden](../constructors/channelForbidden.md) = \['broadcast' => [Bool](../types/Bool.md), 'megagroup' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'access_hash' => [long](../types/long.md), 'title' => [string](../types/string.md), 'until_date' => [int](../types/int.md), \];<a name="channelForbidden"></a>  
 
 ***
-<br><br>[$channelFull](../constructors/channelFull.md) = \['can_view_participants' => [Bool](../types/Bool.md), 'can_set_username' => [Bool](../types/Bool.md), 'can_set_stickers' => [Bool](../types/Bool.md), 'hidden_prehistory' => [Bool](../types/Bool.md), 'can_set_location' => [Bool](../types/Bool.md), 'has_scheduled' => [Bool](../types/Bool.md), 'can_view_stats' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'about' => [string](../types/string.md), 'participants_count' => [int](../types/int.md), 'admins_count' => [int](../types/int.md), 'kicked_count' => [int](../types/int.md), 'banned_count' => [int](../types/int.md), 'online_count' => [int](../types/int.md), 'read_inbox_max_id' => [int](../types/int.md), 'read_outbox_max_id' => [int](../types/int.md), 'unread_count' => [int](../types/int.md), 'chat_photo' => [Photo](../types/Photo.md), 'notify_settings' => [PeerNotifySettings](../types/PeerNotifySettings.md), 'exported_invite' => [ExportedChatInvite](../types/ExportedChatInvite.md), 'bot_info' => \[[BotInfo](../types/BotInfo.md)\], 'migrated_from_chat_id' => [int](../types/int.md), 'migrated_from_max_id' => [int](../types/int.md), 'pinned_msg_id' => [int](../types/int.md), 'stickerset' => [StickerSet](../types/StickerSet.md), 'available_min_id' => [int](../types/int.md), 'folder_id' => [int](../types/int.md), 'linked_chat_id' => [int](../types/int.md), 'location' => [ChannelLocation](../types/ChannelLocation.md), 'slowmode_seconds' => [int](../types/int.md), 'slowmode_next_send_date' => [int](../types/int.md), 'stats_dc' => [int](../types/int.md), 'pts' => [int](../types/int.md), \];<a name="channelFull"></a>  
+<br><br>[$channelFull](../constructors/channelFull.md) = \['can_view_participants' => [Bool](../types/Bool.md), 'can_set_username' => [Bool](../types/Bool.md), 'can_set_stickers' => [Bool](../types/Bool.md), 'hidden_prehistory' => [Bool](../types/Bool.md), 'can_set_location' => [Bool](../types/Bool.md), 'has_scheduled' => [Bool](../types/Bool.md), 'can_view_stats' => [Bool](../types/Bool.md), 'blocked' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'about' => [string](../types/string.md), 'participants_count' => [int](../types/int.md), 'admins_count' => [int](../types/int.md), 'kicked_count' => [int](../types/int.md), 'banned_count' => [int](../types/int.md), 'online_count' => [int](../types/int.md), 'read_inbox_max_id' => [int](../types/int.md), 'read_outbox_max_id' => [int](../types/int.md), 'unread_count' => [int](../types/int.md), 'chat_photo' => [Photo](../types/Photo.md), 'notify_settings' => [PeerNotifySettings](../types/PeerNotifySettings.md), 'exported_invite' => [ExportedChatInvite](../types/ExportedChatInvite.md), 'bot_info' => \[[BotInfo](../types/BotInfo.md)\], 'migrated_from_chat_id' => [int](../types/int.md), 'migrated_from_max_id' => [int](../types/int.md), 'pinned_msg_id' => [int](../types/int.md), 'stickerset' => [StickerSet](../types/StickerSet.md), 'available_min_id' => [int](../types/int.md), 'folder_id' => [int](../types/int.md), 'linked_chat_id' => [int](../types/int.md), 'location' => [ChannelLocation](../types/ChannelLocation.md), 'slowmode_seconds' => [int](../types/int.md), 'slowmode_next_send_date' => [int](../types/int.md), 'stats_dc' => [int](../types/int.md), 'pts' => [int](../types/int.md), \];<a name="channelFull"></a>  
 
 ***
 <br><br>[$channelLocation](../constructors/channelLocation.md) = \['geo_point' => [GeoPoint](../types/GeoPoint.md), 'address' => [string](../types/string.md), \];<a name="channelLocation"></a>  
@@ -265,7 +265,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$channelParticipantBanned](../constructors/channelParticipantBanned.md) = \['left' => [Bool](../types/Bool.md), 'user_id' => [int](../types/int.md), 'kicked_by' => [int](../types/int.md), 'date' => [int](../types/int.md), 'banned_rights' => [ChatBannedRights](../types/ChatBannedRights.md), \];<a name="channelParticipantBanned"></a>  
 
 ***
-<br><br>[$channelParticipantCreator](../constructors/channelParticipantCreator.md) = \['user_id' => [int](../types/int.md), 'rank' => [string](../types/string.md), \];<a name="channelParticipantCreator"></a>  
+<br><br>[$channelParticipantCreator](../constructors/channelParticipantCreator.md) = \['user_id' => [int](../types/int.md), 'admin_rights' => [ChatAdminRights](../types/ChatAdminRights.md), 'rank' => [string](../types/string.md), \];<a name="channelParticipantCreator"></a>  
 
 ***
 <br><br>[$channelParticipantSelf](../constructors/channelParticipantSelf.md) = \['user_id' => [int](../types/int.md), 'inviter_id' => [int](../types/int.md), 'date' => [int](../types/int.md), \];<a name="channelParticipantSelf"></a>  
@@ -307,7 +307,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$chat](../constructors/chat.md) = \['creator' => [Bool](../types/Bool.md), 'kicked' => [Bool](../types/Bool.md), 'left' => [Bool](../types/Bool.md), 'deactivated' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'title' => [string](../types/string.md), 'photo' => [ChatPhoto](../types/ChatPhoto.md), 'participants_count' => [int](../types/int.md), 'date' => [int](../types/int.md), 'version' => [int](../types/int.md), 'migrated_to' => [InputChannel](../types/InputChannel.md), 'admin_rights' => [ChatAdminRights](../types/ChatAdminRights.md), 'default_banned_rights' => [ChatBannedRights](../types/ChatBannedRights.md), \];<a name="chat"></a>  
 
 ***
-<br><br>[$chatAdminRights](../constructors/chatAdminRights.md) = \['change_info' => [Bool](../types/Bool.md), 'post_messages' => [Bool](../types/Bool.md), 'edit_messages' => [Bool](../types/Bool.md), 'delete_messages' => [Bool](../types/Bool.md), 'ban_users' => [Bool](../types/Bool.md), 'invite_users' => [Bool](../types/Bool.md), 'pin_messages' => [Bool](../types/Bool.md), 'add_admins' => [Bool](../types/Bool.md), \];<a name="chatAdminRights"></a>  
+<br><br>[$chatAdminRights](../constructors/chatAdminRights.md) = \['change_info' => [Bool](../types/Bool.md), 'post_messages' => [Bool](../types/Bool.md), 'edit_messages' => [Bool](../types/Bool.md), 'delete_messages' => [Bool](../types/Bool.md), 'ban_users' => [Bool](../types/Bool.md), 'invite_users' => [Bool](../types/Bool.md), 'pin_messages' => [Bool](../types/Bool.md), 'add_admins' => [Bool](../types/Bool.md), 'anonymous' => [Bool](../types/Bool.md), \];<a name="chatAdminRights"></a>  
 
 ***
 <br><br>[$chatBannedRights](../constructors/chatBannedRights.md) = \['view_messages' => [Bool](../types/Bool.md), 'send_messages' => [Bool](../types/Bool.md), 'send_media' => [Bool](../types/Bool.md), 'send_stickers' => [Bool](../types/Bool.md), 'send_gifs' => [Bool](../types/Bool.md), 'send_games' => [Bool](../types/Bool.md), 'send_inline' => [Bool](../types/Bool.md), 'embed_links' => [Bool](../types/Bool.md), 'send_polls' => [Bool](../types/Bool.md), 'change_info' => [Bool](../types/Bool.md), 'invite_users' => [Bool](../types/Bool.md), 'pin_messages' => [Bool](../types/Bool.md), 'until_date' => [int](../types/int.md), \];<a name="chatBannedRights"></a>  
@@ -370,16 +370,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$contact](../constructors/contact.md) = \['user_id' => [int](../types/int.md), 'mutual' => [Bool](../types/Bool.md), \];<a name="contact"></a>  
 
 ***
-<br><br>[$contactBlocked](../constructors/contactBlocked.md) = \['user_id' => [int](../types/int.md), 'date' => [int](../types/int.md), \];<a name="contactBlocked"></a>  
-
-***
 <br><br>[$contactStatus](../constructors/contactStatus.md) = \['user_id' => [int](../types/int.md), 'status' => [UserStatus](../types/UserStatus.md), \];<a name="contactStatus"></a>  
 
 ***
-<br><br>[$contacts.blocked](../constructors/contacts.blocked.md) = \['blocked' => \[[ContactBlocked](../types/ContactBlocked.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="contacts.blocked"></a>  
+<br><br>[$contacts.blocked](../constructors/contacts.blocked.md) = \['blocked' => \[[PeerBlocked](../types/PeerBlocked.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="contacts.blocked"></a>  
 
 ***
-<br><br>[$contacts.blockedSlice](../constructors/contacts.blockedSlice.md) = \['count' => [int](../types/int.md), 'blocked' => \[[ContactBlocked](../types/ContactBlocked.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="contacts.blockedSlice"></a>  
+<br><br>[$contacts.blockedSlice](../constructors/contacts.blockedSlice.md) = \['count' => [int](../types/int.md), 'blocked' => \[[PeerBlocked](../types/PeerBlocked.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="contacts.blockedSlice"></a>  
 
 ***
 <br><br>[$contacts.contacts](../constructors/contacts.contacts.md) = \['contacts' => \[[Contact](../types/Contact.md)\], 'saved_count' => [int](../types/int.md), 'users' => \[[User](../types/User.md)\], \];<a name="contacts.contacts"></a>  
@@ -620,6 +617,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$help.appUpdate](../constructors/help.appUpdate.md) = \['can_not_skip' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'version' => [string](../types/string.md), 'text' => [string](../types/string.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], 'document' => [Document](../types/Document.md), 'url' => [string](../types/string.md), \];<a name="help.appUpdate"></a>  
+
+***
+<br><br>[$help.countriesList](../constructors/help.countriesList.md) = \['countries' => \[[help.Country](../types/help.Country.md)\], 'hash' => [int](../types/int.md), \];<a name="help.countriesList"></a>  
+
+***
+<br><br>[$help.countriesListNotModified](../constructors/help.countriesListNotModified.md) = \[\];<a name="help.countriesListNotModified"></a>  
+
+***
+<br><br>[$help.country](../constructors/help.country.md) = \['hidden' => [Bool](../types/Bool.md), 'iso2' => [string](../types/string.md), 'default_name' => [string](../types/string.md), 'name' => [string](../types/string.md), 'country_codes' => \[[help.CountryCode](../types/help.CountryCode.md)\], \];<a name="help.country"></a>  
+
+***
+<br><br>[$help.countryCode](../constructors/help.countryCode.md) = \['country_code' => [string](../types/string.md), 'prefixes' => \[[string](../types/string.md)\], 'patterns' => \[[string](../types/string.md)\], \];<a name="help.countryCode"></a>  
 
 ***
 <br><br>[$help.deepLinkInfo](../constructors/help.deepLinkInfo.md) = \['update_app' => [Bool](../types/Bool.md), 'message' => [string](../types/string.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], \];<a name="help.deepLinkInfo"></a>  
@@ -1159,7 +1168,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$keyboardButtonBuy](../constructors/keyboardButtonBuy.md) = \['text' => [string](../types/string.md), \];<a name="keyboardButtonBuy"></a>  
 
 ***
-<br><br>[$keyboardButtonCallback](../constructors/keyboardButtonCallback.md) = \['text' => [string](../types/string.md), 'data' => [bytes](../types/bytes.md), \];<a name="keyboardButtonCallback"></a>  
+<br><br>[$keyboardButtonCallback](../constructors/keyboardButtonCallback.md) = \['requires_password' => [Bool](../types/Bool.md), 'text' => [string](../types/string.md), 'data' => [bytes](../types/bytes.md), \];<a name="keyboardButtonCallback"></a>  
 
 ***
 <br><br>[$keyboardButtonGame](../constructors/keyboardButtonGame.md) = \['text' => [string](../types/string.md), \];<a name="keyboardButtonGame"></a>  
@@ -1207,7 +1216,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$maskCoords](../constructors/maskCoords.md) = \['n' => [int](../types/int.md), 'x' => [double](../types/double.md), 'y' => [double](../types/double.md), 'zoom' => [double](../types/double.md), \];<a name="maskCoords"></a>  
 
 ***
-<br><br>[$message](../constructors/message.md) = \['out' => [Bool](../types/Bool.md), 'mentioned' => [Bool](../types/Bool.md), 'media_unread' => [Bool](../types/Bool.md), 'silent' => [Bool](../types/Bool.md), 'post' => [Bool](../types/Bool.md), 'from_scheduled' => [Bool](../types/Bool.md), 'legacy' => [Bool](../types/Bool.md), 'edit_hide' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'from_id' => [int](../types/int.md), 'to_id' => [Peer](../types/Peer.md), 'fwd_from' => [MessageFwdHeader](../types/MessageFwdHeader.md), 'via_bot_id' => [int](../types/int.md), 'reply_to_msg_id' => [int](../types/int.md), 'date' => [int](../types/int.md), 'message' => [string](../types/string.md), 'media' => [MessageMedia](../types/MessageMedia.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], 'views' => [int](../types/int.md), 'edit_date' => [int](../types/int.md), 'post_author' => [string](../types/string.md), 'grouped_id' => [long](../types/long.md), 'restriction_reason' => \[[RestrictionReason](../types/RestrictionReason.md)\], \];<a name="message"></a>  
+<br><br>[$message](../constructors/message.md) = \['out' => [Bool](../types/Bool.md), 'mentioned' => [Bool](../types/Bool.md), 'media_unread' => [Bool](../types/Bool.md), 'silent' => [Bool](../types/Bool.md), 'post' => [Bool](../types/Bool.md), 'from_scheduled' => [Bool](../types/Bool.md), 'legacy' => [Bool](../types/Bool.md), 'edit_hide' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'from_id' => [Peer](../types/Peer.md), 'peer_id' => [Peer](../types/Peer.md), 'fwd_from' => [MessageFwdHeader](../types/MessageFwdHeader.md), 'via_bot_id' => [int](../types/int.md), 'reply_to' => [MessageReplyHeader](../types/MessageReplyHeader.md), 'date' => [int](../types/int.md), 'message' => [string](../types/string.md), 'media' => [MessageMedia](../types/MessageMedia.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], 'views' => [int](../types/int.md), 'forwards' => [int](../types/int.md), 'replies' => [MessageReplies](../types/MessageReplies.md), 'edit_date' => [int](../types/int.md), 'post_author' => [string](../types/string.md), 'grouped_id' => [long](../types/long.md), 'restriction_reason' => \[[RestrictionReason](../types/RestrictionReason.md)\], \];<a name="message"></a>  
 
 ***
 <br><br>[$messageActionBotAllowed](../constructors/messageActionBotAllowed.md) = \['domain' => [string](../types/string.md), \];<a name="messageActionBotAllowed"></a>  
@@ -1336,7 +1345,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$messageEntityUrl](../constructors/messageEntityUrl.md) = \['offset' => [int](../types/int.md), 'length' => [int](../types/int.md), \];<a name="messageEntityUrl"></a>  
 
 ***
-<br><br>[$messageFwdHeader](../constructors/messageFwdHeader.md) = \['from_id' => [int](../types/int.md), 'from_name' => [string](../types/string.md), 'date' => [int](../types/int.md), 'channel_id' => [int](../types/int.md), 'channel_post' => [int](../types/int.md), 'post_author' => [string](../types/string.md), 'saved_from_peer' => [Peer](../types/Peer.md), 'saved_from_msg_id' => [int](../types/int.md), 'psa_type' => [string](../types/string.md), \];<a name="messageFwdHeader"></a>  
+<br><br>[$messageFwdHeader](../constructors/messageFwdHeader.md) = \['from_id' => [Peer](../types/Peer.md), 'from_name' => [string](../types/string.md), 'date' => [int](../types/int.md), 'channel_post' => [int](../types/int.md), 'post_author' => [string](../types/string.md), 'saved_from_peer' => [Peer](../types/Peer.md), 'saved_from_msg_id' => [int](../types/int.md), 'psa_type' => [string](../types/string.md), \];<a name="messageFwdHeader"></a>  
 
 ***
 <br><br>[$messageInteractionCounters](../constructors/messageInteractionCounters.md) = \['msg_id' => [int](../types/int.md), 'views' => [int](../types/int.md), 'forwards' => [int](../types/int.md), \];<a name="messageInteractionCounters"></a>  
@@ -1384,7 +1393,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$messageRange](../constructors/messageRange.md) = \['min_id' => [int](../types/int.md), 'max_id' => [int](../types/int.md), \];<a name="messageRange"></a>  
 
 ***
-<br><br>[$messageService](../constructors/messageService.md) = \['out' => [Bool](../types/Bool.md), 'mentioned' => [Bool](../types/Bool.md), 'media_unread' => [Bool](../types/Bool.md), 'silent' => [Bool](../types/Bool.md), 'post' => [Bool](../types/Bool.md), 'legacy' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'from_id' => [int](../types/int.md), 'to_id' => [Peer](../types/Peer.md), 'reply_to_msg_id' => [int](../types/int.md), 'date' => [int](../types/int.md), 'action' => [MessageAction](../types/MessageAction.md), \];<a name="messageService"></a>  
+<br><br>[$messageReplies](../constructors/messageReplies.md) = \['comments' => [Bool](../types/Bool.md), 'replies' => [int](../types/int.md), 'replies_pts' => [int](../types/int.md), 'recent_repliers' => \[[Peer](../types/Peer.md)\], 'channel_id' => [int](../types/int.md), 'max_id' => [int](../types/int.md), 'read_max_id' => [int](../types/int.md), \];<a name="messageReplies"></a>  
+
+***
+<br><br>[$messageReplyHeader](../constructors/messageReplyHeader.md) = \['reply_to_msg_id' => [int](../types/int.md), 'reply_to_peer_id' => [Peer](../types/Peer.md), 'reply_to_top_id' => [int](../types/int.md), \];<a name="messageReplyHeader"></a>  
+
+***
+<br><br>[$messageService](../constructors/messageService.md) = \['out' => [Bool](../types/Bool.md), 'mentioned' => [Bool](../types/Bool.md), 'media_unread' => [Bool](../types/Bool.md), 'silent' => [Bool](../types/Bool.md), 'post' => [Bool](../types/Bool.md), 'legacy' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'from_id' => [Peer](../types/Peer.md), 'peer_id' => [Peer](../types/Peer.md), 'reply_to' => [MessageReplyHeader](../types/MessageReplyHeader.md), 'date' => [int](../types/int.md), 'action' => [MessageAction](../types/MessageAction.md), \];<a name="messageService"></a>  
 
 ***
 <br><br>[$messageUserVote](../constructors/messageUserVote.md) = \['user_id' => [int](../types/int.md), 'option' => [bytes](../types/bytes.md), 'date' => [int](../types/int.md), \];<a name="messageUserVote"></a>  
@@ -1394,6 +1409,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$messageUserVoteMultiple](../constructors/messageUserVoteMultiple.md) = \['user_id' => [int](../types/int.md), 'options' => \[[bytes](../types/bytes.md)\], 'date' => [int](../types/int.md), \];<a name="messageUserVoteMultiple"></a>  
+
+***
+<br><br>[$messageViews](../constructors/messageViews.md) = \['views' => [int](../types/int.md), 'forwards' => [int](../types/int.md), 'replies' => [MessageReplies](../types/MessageReplies.md), \];<a name="messageViews"></a>  
 
 ***
 <br><br>[$messages.affectedHistory](../constructors/messages.affectedHistory.md) = \['pts' => [int](../types/int.md), 'pts_count' => [int](../types/int.md), 'offset' => [int](../types/int.md), \];<a name="messages.affectedHistory"></a>  
@@ -1444,6 +1462,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$messages.dialogsSlice](../constructors/messages.dialogsSlice.md) = \['count' => [int](../types/int.md), 'dialogs' => \[[Dialog](../types/Dialog.md)\], 'messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="messages.dialogsSlice"></a>  
 
 ***
+<br><br>[$messages.discussionMessage](../constructors/messages.discussionMessage.md) = \['messages' => \[[Message](../types/Message.md)\], 'max_id' => [int](../types/int.md), 'read_inbox_max_id' => [int](../types/int.md), 'read_outbox_max_id' => [int](../types/int.md), 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="messages.discussionMessage"></a>  
+
+***
 <br><br>[$messages.favedStickers](../constructors/messages.favedStickers.md) = \['hash' => [int](../types/int.md), 'packs' => \[[StickerPack](../types/StickerPack.md)\], 'stickers' => \[[Document](../types/Document.md)\], \];<a name="messages.favedStickers"></a>  
 
 ***
@@ -1469,6 +1490,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$messages.messageEditData](../constructors/messages.messageEditData.md) = \['caption' => [Bool](../types/Bool.md), \];<a name="messages.messageEditData"></a>  
+
+***
+<br><br>[$messages.messageViews](../constructors/messages.messageViews.md) = \['views' => \[[MessageViews](../types/MessageViews.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="messages.messageViews"></a>  
 
 ***
 <br><br>[$messages.messages](../constructors/messages.messages.md) = \['messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="messages.messages"></a>  
@@ -1690,6 +1714,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$payments.validatedRequestedInfo](../constructors/payments.validatedRequestedInfo.md) = \['id' => [string](../types/string.md), 'shipping_options' => \[[ShippingOption](../types/ShippingOption.md)\], \];<a name="payments.validatedRequestedInfo"></a>  
 
 ***
+<br><br>[$peerBlocked](../constructors/peerBlocked.md) = \['peer_id' => [Peer](../types/Peer.md), 'date' => [int](../types/int.md), \];<a name="peerBlocked"></a>  
+
+***
 <br><br>[$peerChannel](../constructors/peerChannel.md) = \['channel_id' => [int](../types/int.md), \];<a name="peerChannel"></a>  
 
 ***
@@ -1766,6 +1793,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$photoSizeEmpty](../constructors/photoSizeEmpty.md) = \['type' => [string](../types/string.md), \];<a name="photoSizeEmpty"></a>  
+
+***
+<br><br>[$photoSizeProgressive](../constructors/photoSizeProgressive.md) = \['type' => [string](../types/string.md), 'location' => [FileLocation](../types/FileLocation.md), 'w' => [int](../types/int.md), 'h' => [int](../types/int.md), 'sizes' => \[[int](../types/int.md)\], \];<a name="photoSizeProgressive"></a>  
 
 ***
 <br><br>[$photoStrippedSize](../constructors/photoStrippedSize.md) = \['type' => [string](../types/string.md), 'bytes' => [bytes](../types/bytes.md), \];<a name="photoStrippedSize"></a>  
@@ -2038,6 +2068,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$stats.megagroupStats](../constructors/stats.megagroupStats.md) = \['period' => [StatsDateRangeDays](../types/StatsDateRangeDays.md), 'members' => [StatsAbsValueAndPrev](../types/StatsAbsValueAndPrev.md), 'messages' => [StatsAbsValueAndPrev](../types/StatsAbsValueAndPrev.md), 'viewers' => [StatsAbsValueAndPrev](../types/StatsAbsValueAndPrev.md), 'posters' => [StatsAbsValueAndPrev](../types/StatsAbsValueAndPrev.md), 'growth_graph' => [StatsGraph](../types/StatsGraph.md), 'members_graph' => [StatsGraph](../types/StatsGraph.md), 'new_members_by_source_graph' => [StatsGraph](../types/StatsGraph.md), 'languages_graph' => [StatsGraph](../types/StatsGraph.md), 'messages_graph' => [StatsGraph](../types/StatsGraph.md), 'actions_graph' => [StatsGraph](../types/StatsGraph.md), 'top_hours_graph' => [StatsGraph](../types/StatsGraph.md), 'weekdays_graph' => [StatsGraph](../types/StatsGraph.md), 'top_posters' => \[[StatsGroupTopPoster](../types/StatsGroupTopPoster.md)\], 'top_admins' => \[[StatsGroupTopAdmin](../types/StatsGroupTopAdmin.md)\], 'top_inviters' => \[[StatsGroupTopInviter](../types/StatsGroupTopInviter.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="stats.megagroupStats"></a>  
 
 ***
+<br><br>[$stats.messageStats](../constructors/stats.messageStats.md) = \['views_graph' => [StatsGraph](../types/StatsGraph.md), \];<a name="stats.messageStats"></a>  
+
+***
 <br><br>[$statsAbsValueAndPrev](../constructors/statsAbsValueAndPrev.md) = \['current' => [double](../types/double.md), 'previous' => [double](../types/double.md), \];<a name="statsAbsValueAndPrev"></a>  
 
 ***
@@ -2224,6 +2257,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$updateChannelAvailableMessages](../constructors/updateChannelAvailableMessages.md) = \['channel_id' => [int](../types/int.md), 'available_min_id' => [int](../types/int.md), \];<a name="updateChannelAvailableMessages"></a>  
 
 ***
+<br><br>[$updateChannelMessageForwards](../constructors/updateChannelMessageForwards.md) = \['channel_id' => [int](../types/int.md), 'id' => [int](../types/int.md), 'forwards' => [int](../types/int.md), \];<a name="updateChannelMessageForwards"></a>  
+
+***
 <br><br>[$updateChannelMessageViews](../constructors/updateChannelMessageViews.md) = \['channel_id' => [int](../types/int.md), 'id' => [int](../types/int.md), 'views' => [int](../types/int.md), \];<a name="updateChannelMessageViews"></a>  
 
 ***
@@ -2237,6 +2273,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$updateChannelTooLong](../constructors/updateChannelTooLong.md) = \['channel_id' => [int](../types/int.md), 'pts' => [int](../types/int.md), \];<a name="updateChannelTooLong"></a>  
+
+***
+<br><br>[$updateChannelUserTyping](../constructors/updateChannelUserTyping.md) = \['channel_id' => [int](../types/int.md), 'top_msg_id' => [int](../types/int.md), 'user_id' => [int](../types/int.md), 'action' => [SendMessageAction](../types/SendMessageAction.md), \];<a name="updateChannelUserTyping"></a>  
 
 ***
 <br><br>[$updateChannelWebPage](../constructors/updateChannelWebPage.md) = \['channel_id' => [int](../types/int.md), 'webpage' => [WebPage](../types/WebPage.md), 'pts' => [int](../types/int.md), 'pts_count' => [int](../types/int.md), \];<a name="updateChannelWebPage"></a>  
@@ -2362,6 +2401,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$updateNotifySettings](../constructors/updateNotifySettings.md) = \['peer' => [NotifyPeer](../types/NotifyPeer.md), 'notify_settings' => [PeerNotifySettings](../types/PeerNotifySettings.md), \];<a name="updateNotifySettings"></a>  
 
 ***
+<br><br>[$updatePeerBlocked](../constructors/updatePeerBlocked.md) = \['peer_id' => [Peer](../types/Peer.md), 'blocked' => [Bool](../types/Bool.md), \];<a name="updatePeerBlocked"></a>  
+
+***
 <br><br>[$updatePeerLocated](../constructors/updatePeerLocated.md) = \['peers' => \[[PeerLocated](../types/PeerLocated.md)\], \];<a name="updatePeerLocated"></a>  
 
 ***
@@ -2381,6 +2423,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$updatePtsChanged](../constructors/updatePtsChanged.md) = \[\];<a name="updatePtsChanged"></a>  
+
+***
+<br><br>[$updateReadChannelDiscussionInbox](../constructors/updateReadChannelDiscussionInbox.md) = \['channel_id' => [int](../types/int.md), 'top_msg_id' => [int](../types/int.md), 'read_max_id' => [int](../types/int.md), 'broadcast_id' => [int](../types/int.md), 'broadcast_post' => [int](../types/int.md), \];<a name="updateReadChannelDiscussionInbox"></a>  
+
+***
+<br><br>[$updateReadChannelDiscussionOutbox](../constructors/updateReadChannelDiscussionOutbox.md) = \['channel_id' => [int](../types/int.md), 'top_msg_id' => [int](../types/int.md), 'read_max_id' => [int](../types/int.md), \];<a name="updateReadChannelDiscussionOutbox"></a>  
 
 ***
 <br><br>[$updateReadChannelInbox](../constructors/updateReadChannelInbox.md) = \['folder_id' => [int](../types/int.md), 'channel_id' => [int](../types/int.md), 'max_id' => [int](../types/int.md), 'still_unread_count' => [int](../types/int.md), 'pts' => [int](../types/int.md), \];<a name="updateReadChannelInbox"></a>  
@@ -2413,10 +2461,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$updateShort](../constructors/updateShort.md) = \['update' => [Update](../types/Update.md), 'date' => [int](../types/int.md), \];<a name="updateShort"></a>  
 
 ***
-<br><br>[$updateShortChatMessage](../constructors/updateShortChatMessage.md) = \['out' => [Bool](../types/Bool.md), 'mentioned' => [Bool](../types/Bool.md), 'media_unread' => [Bool](../types/Bool.md), 'silent' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'from_id' => [int](../types/int.md), 'chat_id' => [int](../types/int.md), 'message' => [string](../types/string.md), 'pts' => [int](../types/int.md), 'pts_count' => [int](../types/int.md), 'date' => [int](../types/int.md), 'fwd_from' => [MessageFwdHeader](../types/MessageFwdHeader.md), 'via_bot_id' => [int](../types/int.md), 'reply_to_msg_id' => [int](../types/int.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], \];<a name="updateShortChatMessage"></a>  
+<br><br>[$updateShortChatMessage](../constructors/updateShortChatMessage.md) = \['out' => [Bool](../types/Bool.md), 'mentioned' => [Bool](../types/Bool.md), 'media_unread' => [Bool](../types/Bool.md), 'silent' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'from_id' => [int](../types/int.md), 'chat_id' => [int](../types/int.md), 'message' => [string](../types/string.md), 'pts' => [int](../types/int.md), 'pts_count' => [int](../types/int.md), 'date' => [int](../types/int.md), 'fwd_from' => [MessageFwdHeader](../types/MessageFwdHeader.md), 'via_bot_id' => [int](../types/int.md), 'reply_to' => [MessageReplyHeader](../types/MessageReplyHeader.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], \];<a name="updateShortChatMessage"></a>  
 
 ***
-<br><br>[$updateShortMessage](../constructors/updateShortMessage.md) = \['out' => [Bool](../types/Bool.md), 'mentioned' => [Bool](../types/Bool.md), 'media_unread' => [Bool](../types/Bool.md), 'silent' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'user_id' => [int](../types/int.md), 'message' => [string](../types/string.md), 'pts' => [int](../types/int.md), 'pts_count' => [int](../types/int.md), 'date' => [int](../types/int.md), 'fwd_from' => [MessageFwdHeader](../types/MessageFwdHeader.md), 'via_bot_id' => [int](../types/int.md), 'reply_to_msg_id' => [int](../types/int.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], \];<a name="updateShortMessage"></a>  
+<br><br>[$updateShortMessage](../constructors/updateShortMessage.md) = \['out' => [Bool](../types/Bool.md), 'mentioned' => [Bool](../types/Bool.md), 'media_unread' => [Bool](../types/Bool.md), 'silent' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'user_id' => [int](../types/int.md), 'message' => [string](../types/string.md), 'pts' => [int](../types/int.md), 'pts_count' => [int](../types/int.md), 'date' => [int](../types/int.md), 'fwd_from' => [MessageFwdHeader](../types/MessageFwdHeader.md), 'via_bot_id' => [int](../types/int.md), 'reply_to' => [MessageReplyHeader](../types/MessageReplyHeader.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], \];<a name="updateShortMessage"></a>  
 
 ***
 <br><br>[$updateShortSentMessage](../constructors/updateShortSentMessage.md) = \['out' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'pts' => [int](../types/int.md), 'pts_count' => [int](../types/int.md), 'date' => [int](../types/int.md), 'media' => [MessageMedia](../types/MessageMedia.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], \];<a name="updateShortSentMessage"></a>  
@@ -2429,9 +2477,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$updateTheme](../constructors/updateTheme.md) = \['theme' => [Theme](../types/Theme.md), \];<a name="updateTheme"></a>  
-
-***
-<br><br>[$updateUserBlocked](../constructors/updateUserBlocked.md) = \['user_id' => [int](../types/int.md), 'blocked' => [Bool](../types/Bool.md), \];<a name="updateUserBlocked"></a>  
 
 ***
 <br><br>[$updateUserName](../constructors/updateUserName.md) = \['user_id' => [int](../types/int.md), 'first_name' => [string](../types/string.md), 'last_name' => [string](../types/string.md), 'username' => [string](../types/string.md), \];<a name="updateUserName"></a>  

@@ -15,6 +15,7 @@ Sends a text message to a secret chat.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|silent|[Bool](../types/Bool.md) |  | Optional|
 |peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | Secret chat ID | Yes|
 |data|[bytes](../types/bytes.md) | TL-serialization of [DecryptedMessage](../types/DecryptedMessage.md) type, encrypted with a key that was created during chat initialization | Yes|
 
@@ -36,13 +37,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.SentEncryptedMessage = $MadelineProto->messages->sendEncrypted(['peer' => InputEncryptedChat, 'data' => 'bytes', ]);
+$messages.SentEncryptedMessage = $MadelineProto->messages->sendEncrypted(['silent' => Bool, 'peer' => InputEncryptedChat, 'data' => 'bytes', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.SentEncryptedMessage = messages.sendEncrypted({peer=InputEncryptedChat, data='bytes', })
+messages.SentEncryptedMessage = messages.sendEncrypted({silent=Bool, peer=InputEncryptedChat, data='bytes', })
 ```
 
 ### Errors

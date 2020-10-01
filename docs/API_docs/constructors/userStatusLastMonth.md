@@ -1,6 +1,6 @@
 ---
 title: userStatusLastMonth
-description: User is offline, but was online last month
+description: Online status: last seen last month
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userStatusLastMonth  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-User is offline, but was online last month
+Online status: last seen last month
 
 
 

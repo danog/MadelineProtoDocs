@@ -4,8 +4,9 @@ description: Get and increase the view counter of a message sent or forwarded fr
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getMessagesViews.html
 ---
-# Method: messages.getMessagesViews  
+# Method: messages.getMessagesViews
 [Back to methods index](index.md)
+
 
 
 Get and increase the view counter of a message sent or forwarded from a [channel](https://core.telegram.org/api/channel)
@@ -15,7 +16,7 @@ Get and increase the view counter of a message sent or forwarded from a [channel
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Peer where the message was found | Optional|
-|id|Array of [int](../types/int.md) | The IDs messages to get | Yes|
+|id|Array of [int](../types/int.md) | ID of message | Yes|
 |increment|[Bool](../types/Bool.md) | Whether to mark the message as viewed and increment the view counter | Yes|
 
 

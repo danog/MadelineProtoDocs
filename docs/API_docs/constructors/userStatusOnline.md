@@ -1,6 +1,6 @@
 ---
 title: userStatusOnline
-description: User is online
+description: Online status of the user.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userStatusOnline  
@@ -8,13 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-User is online
+Online status of the user.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|expires|[int](../types/int.md) | Yes|Unix time when user's online status will expire|
+|expires|[int](../types/int.md) | Yes|Time to expiration of the current online status|
 
 
 

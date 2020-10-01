@@ -15,7 +15,7 @@ Found stickers
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[string](../types/string.md) | Yes|Hash|
+|hash|[int](../types/int.md) | Yes|
 |stickers|Array of [Document](../types/Document.md) | Yes|Stickers|
 
 
@@ -26,14 +26,14 @@ Found stickers
 ### Example:
 
 ```php
-$messages.stickers = ['_' => 'messages.stickers', 'hash' => 'string', 'stickers' => [Document, Document]];
+$messages.stickers = ['_' => 'messages.stickers', 'hash' => int, 'stickers' => [Document, Document]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.stickers={_='messages.stickers', hash='string', stickers={Document}}
+messages.stickers={_='messages.stickers', hash=int, stickers={Document}}
 
 ```
 

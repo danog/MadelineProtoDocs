@@ -15,7 +15,8 @@ Full list of blocked users.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|blocked|Array of [ContactBlocked](../types/ContactBlocked.md) | Yes|List of blocked users|
+|blocked|Array of [PeerBlocked](../types/PeerBlocked.md) | Yes|List of blocked users|
+|chats|Array of [Chat](../types/Chat.md) | Yes|
 |users|Array of [User](../types/User.md) | Yes|List of users|
 
 
@@ -26,14 +27,14 @@ Full list of blocked users.
 ### Example:
 
 ```php
-$contacts.blocked = ['_' => 'contacts.blocked', 'blocked' => [ContactBlocked, ContactBlocked], 'users' => [User, User]];
+$contacts.blocked = ['_' => 'contacts.blocked', 'blocked' => [PeerBlocked, PeerBlocked], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-contacts.blocked={_='contacts.blocked', blocked={ContactBlocked}, users={User}}
+contacts.blocked={_='contacts.blocked', blocked={PeerBlocked}, chats={Chat}, users={User}}
 
 ```
 

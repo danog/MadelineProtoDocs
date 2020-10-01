@@ -4,7 +4,7 @@ description: constructors and methods of type messages.Stickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/messages_Stickers.html
 ---
-# Type: messages.Stickers  
+# Type: messages.Stickers
 [Back to types index](index.md)
 
 
@@ -22,4 +22,10 @@ redirect_from: /API_docs/types/messages_Stickers.html
 [$MadelineProto->messages->getStickers](../methods/messages.getStickers.md)  
 
 
+
+[messages.stickersNotModified](../constructors/messages.stickersNotModified.md)  
+
+[messages.stickers](../constructors/messages.stickers.md)  
+
+[$MadelineProto->messages->getStickers](../methods/messages.getStickers.md)  
 

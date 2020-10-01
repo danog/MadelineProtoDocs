@@ -22,6 +22,7 @@ Represents the rights of an admin in a [channel/supergroup](https://core.telegra
 |invite\_users|[Bool](../types/Bool.md) | Optional|If set, allows the admin to invite users in the [channel/supergroup](https://core.telegram.org/api/channel)|
 |pin\_messages|[Bool](../types/Bool.md) | Optional|If set, allows the admin to pin messages in the [channel/supergroup](https://core.telegram.org/api/channel)|
 |add\_admins|[Bool](../types/Bool.md) | Optional|If set, allows the admin to add other admins with the same (or more limited) permissions in the [channel/supergroup](https://core.telegram.org/api/channel)|
+|anonymous|[Bool](../types/Bool.md) | Optional|
 
 
 
@@ -31,14 +32,14 @@ Represents the rights of an admin in a [channel/supergroup](https://core.telegra
 ### Example:
 
 ```php
-$chatAdminRights = ['_' => 'chatAdminRights', 'change_info' => Bool, 'post_messages' => Bool, 'edit_messages' => Bool, 'delete_messages' => Bool, 'ban_users' => Bool, 'invite_users' => Bool, 'pin_messages' => Bool, 'add_admins' => Bool];
+$chatAdminRights = ['_' => 'chatAdminRights', 'change_info' => Bool, 'post_messages' => Bool, 'edit_messages' => Bool, 'delete_messages' => Bool, 'ban_users' => Bool, 'invite_users' => Bool, 'pin_messages' => Bool, 'add_admins' => Bool, 'anonymous' => Bool];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-chatAdminRights={_='chatAdminRights', change_info=Bool, post_messages=Bool, edit_messages=Bool, delete_messages=Bool, ban_users=Bool, invite_users=Bool, pin_messages=Bool, add_admins=Bool}
+chatAdminRights={_='chatAdminRights', change_info=Bool, post_messages=Bool, edit_messages=Bool, delete_messages=Bool, ban_users=Bool, invite_users=Bool, pin_messages=Bool, add_admins=Bool, anonymous=Bool}
 
 ```
 

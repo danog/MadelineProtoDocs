@@ -42,8 +42,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateDcOptions](../constructors/updateDcOptions.md)  
 
-[updateUserBlocked](../constructors/updateUserBlocked.md)  
-
 [updateNotifySettings](../constructors/updateNotifySettings.md)  
 
 [updateServiceNotification](../constructors/updateServiceNotification.md)  
@@ -173,6 +171,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [updatePhoneCallSignalingData](../constructors/updatePhoneCallSignalingData.md)  
 
 [updateChannelParticipant](../constructors/updateChannelParticipant.md)  
+
+[updateChannelMessageForwards](../constructors/updateChannelMessageForwards.md)  
+
+[updateReadChannelDiscussionInbox](../constructors/updateReadChannelDiscussionInbox.md)  
+
+[updateReadChannelDiscussionOutbox](../constructors/updateReadChannelDiscussionOutbox.md)  
+
+[updatePeerBlocked](../constructors/updatePeerBlocked.md)  
+
+[updateChannelUserTyping](../constructors/updateChannelUserTyping.md)  
 
 
 
@@ -212,8 +220,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateDcOptions](../constructors/updateDcOptions.md)  
 
-[updateUserBlocked](../constructors/updateUserBlocked.md)  
-
 [updateNotifySettings](../constructors/updateNotifySettings.md)  
 
 [updateServiceNotification](../constructors/updateServiceNotification.md)  
@@ -343,4 +349,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [updatePhoneCallSignalingData](../constructors/updatePhoneCallSignalingData.md)  
 
 [updateChannelParticipant](../constructors/updateChannelParticipant.md)  
+
+[updateChannelMessageForwards](../constructors/updateChannelMessageForwards.md)  
+
+[updateReadChannelDiscussionInbox](../constructors/updateReadChannelDiscussionInbox.md)  
+
+[updateReadChannelDiscussionOutbox](../constructors/updateReadChannelDiscussionOutbox.md)  
+
+[updatePeerBlocked](../constructors/updatePeerBlocked.md)  
+
+[updateChannelUserTyping](../constructors/updateChannelUserTyping.md)  
 

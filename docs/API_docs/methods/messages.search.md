@@ -18,6 +18,7 @@ Gets back found messages
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | User or chat, histories with which are searched, or [(inputPeerEmpty)](../constructors/inputPeerEmpty.md) constructor for global search | Optional|
 |q|[string](../types/string.md) | Text search request | Yes|
 |from\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Only return messages sent by the specified user ID | Optional|
+|top\_msg\_id|[int](../types/int.md) |  | Optional|
 |filter|[MessagesFilter](../types/MessagesFilter.md) | Filter to return only specified message types | Optional|
 |min\_date|[int](../types/int.md) | If a positive value was transferred, only messages with a sending date bigger than the transferred one will be returned | Yes|
 |max\_date|[int](../types/int.md) | If a positive value was transferred, only messages with a sending date smaller than the transferred one will be returned | Yes|
@@ -46,13 +47,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.Messages = $MadelineProto->messages->search(['peer' => InputPeer, 'q' => 'string', 'from_id' => InputUser, 'filter' => MessagesFilter, 'min_date' => int, 'max_date' => int, 'offset_id' => int, 'add_offset' => int, 'limit' => int, 'max_id' => int, 'min_id' => int, 'hash' => [int, int], ]);
+$messages.Messages = $MadelineProto->messages->search(['peer' => InputPeer, 'q' => 'string', 'from_id' => InputUser, 'top_msg_id' => int, 'filter' => MessagesFilter, 'min_date' => int, 'max_date' => int, 'offset_id' => int, 'add_offset' => int, 'limit' => int, 'max_id' => int, 'min_id' => int, 'hash' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.Messages = messages.search({peer=InputPeer, q='string', from_id=InputUser, filter=MessagesFilter, min_date=int, max_date=int, offset_id=int, add_offset=int, limit=int, max_id=int, min_id=int, hash={int}, })
+messages.Messages = messages.search({peer=InputPeer, q='string', from_id=InputUser, top_msg_id=int, filter=MessagesFilter, min_date=int, max_date=int, offset_id=int, add_offset=int, limit=int, max_id=int, min_id=int, hash={int}, })
 ```
 
 ### Errors

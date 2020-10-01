@@ -1,6 +1,6 @@
 ---
 title: updateUserStatus
-description: User went online/offline
+description: Contact status update.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateUserStatus  
@@ -8,14 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-User went online/offline
+Contact status update.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |user\_id|[int](../types/int.md) | Yes|User identifier|
-|status|[UserStatus](../types/UserStatus.md) | Optional|New user status|
+|status|[UserStatus](../types/UserStatus.md) | Optional|New status|
 
 
 

@@ -8,8 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-A member has left the group.  
-This update is also typically emitted as an [updateNewMessage](updateNewMessage.md) with [messageService](messageService.md).
+A member has left the group.
 
 ### Attributes:
 

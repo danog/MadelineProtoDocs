@@ -48,3 +48,4 @@ description: Documentation of old mtproto layers
 [Layer v41](API_docs_v41/)  
 [Layer v42](API_docs_v42/)  
 [Layer v43](API_docs_v43/)  
+[Layer v44](API_docs_v44/)  

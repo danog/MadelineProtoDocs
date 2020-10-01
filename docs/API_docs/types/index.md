@@ -68,8 +68,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [Contact](Contact.md)<a name="Contact"></a>  
 
-[ContactBlocked](ContactBlocked.md)<a name="ContactBlocked"></a>  
-
 [ContactStatus](ContactStatus.md)<a name="ContactStatus"></a>  
 
 [DataJSON](DataJSON.md)<a name="DataJSON"></a>  
@@ -252,7 +250,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [MessageRange](MessageRange.md)<a name="MessageRange"></a>  
 
+[MessageReplies](MessageReplies.md)<a name="MessageReplies"></a>  
+
+[MessageReplyHeader](MessageReplyHeader.md)<a name="MessageReplyHeader"></a>  
+
 [MessageUserVote](MessageUserVote.md)<a name="MessageUserVote"></a>  
+
+[MessageViews](MessageViews.md)<a name="MessageViews"></a>  
 
 [MessagesFilter](MessagesFilter.md)<a name="MessagesFilter"></a>  
 
@@ -287,6 +291,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [PaymentSavedCredentials](PaymentSavedCredentials.md)<a name="PaymentSavedCredentials"></a>  
 
 [Peer](Peer.md)<a name="Peer"></a>  
+
+[PeerBlocked](PeerBlocked.md)<a name="PeerBlocked"></a>  
 
 [PeerLocated](PeerLocated.md)<a name="PeerLocated"></a>  
 
@@ -488,6 +494,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [help.AppUpdate](help.AppUpdate.md)<a name="help.AppUpdate"></a>  
 
+[help.CountriesList](help.CountriesList.md)<a name="help.CountriesList"></a>  
+
+[help.Country](help.Country.md)<a name="help.Country"></a>  
+
+[help.CountryCode](help.CountryCode.md)<a name="help.CountryCode"></a>  
+
 [help.DeepLinkInfo](help.DeepLinkInfo.md)<a name="help.DeepLinkInfo"></a>  
 
 [help.InviteText](help.InviteText.md)<a name="help.InviteText"></a>  
@@ -532,6 +544,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messages.Dialogs](messages.Dialogs.md)<a name="messages.Dialogs"></a>  
 
+[messages.DiscussionMessage](messages.DiscussionMessage.md)<a name="messages.DiscussionMessage"></a>  
+
 [messages.FavedStickers](messages.FavedStickers.md)<a name="messages.FavedStickers"></a>  
 
 [messages.FeaturedStickers](messages.FeaturedStickers.md)<a name="messages.FeaturedStickers"></a>  
@@ -543,6 +557,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [messages.InactiveChats](messages.InactiveChats.md)<a name="messages.InactiveChats"></a>  
 
 [messages.MessageEditData](messages.MessageEditData.md)<a name="messages.MessageEditData"></a>  
+
+[messages.MessageViews](messages.MessageViews.md)<a name="messages.MessageViews"></a>  
 
 [messages.Messages](messages.Messages.md)<a name="messages.Messages"></a>  
 
@@ -585,6 +601,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [stats.BroadcastStats](stats.BroadcastStats.md)<a name="stats.BroadcastStats"></a>  
 
 [stats.MegagroupStats](stats.MegagroupStats.md)<a name="stats.MegagroupStats"></a>  
+
+[stats.MessageStats](stats.MessageStats.md)<a name="stats.MessageStats"></a>  
 
 [storage.FileType](storage.FileType.md)<a name="storage.FileType"></a>  
 

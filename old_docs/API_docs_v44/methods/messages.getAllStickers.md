@@ -4,8 +4,9 @@ description: Get all installed stickers
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getAllStickers.html
 ---
-# Method: messages.getAllStickers  
+# Method: messages.getAllStickers
 [Back to methods index](index.md)
+
 
 
 Get all installed stickers
@@ -14,7 +15,7 @@ Get all installed stickers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [int](../types/int.md) | The hash parameter of the previous result of this method | Optional|
+|hash|Array of [int](../types/int.md) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.AllStickers](../types/messages.AllStickers.md)

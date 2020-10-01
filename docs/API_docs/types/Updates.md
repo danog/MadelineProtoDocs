@@ -38,6 +38,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->contacts->getLocated](../methods/contacts.getLocated.md)  
 
+[$MadelineProto->contacts->blockFromReplies](../methods/contacts.blockFromReplies.md)  
+
 [$MadelineProto->messages->sendMessage](../methods/messages.sendMessage.md)  
 
 [$MadelineProto->messages->sendMedia](../methods/messages.sendMedia.md)  
@@ -145,6 +147,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [$MadelineProto->contacts->acceptContact](../methods/contacts.acceptContact.md)  
 
 [$MadelineProto->contacts->getLocated](../methods/contacts.getLocated.md)  
+
+[$MadelineProto->contacts->blockFromReplies](../methods/contacts.blockFromReplies.md)  
 
 [$MadelineProto->messages->sendMessage](../methods/messages.sendMessage.md)  
 

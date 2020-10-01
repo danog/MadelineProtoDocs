@@ -10,6 +10,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 Fetch only kicked participants
 
+### Attributes:
+
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|q|[string](../types/string.md) | Yes|Optional filter for searching kicked participants by name (otherwise empty)|
 
 
 
@@ -19,14 +24,14 @@ Fetch only kicked participants
 ### Example:
 
 ```php
-$channelParticipantsKicked = ['_' => 'channelParticipantsKicked'];
+$channelParticipantsKicked = ['_' => 'channelParticipantsKicked', 'q' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-channelParticipantsKicked={_='channelParticipantsKicked'}
+channelParticipantsKicked={_='channelParticipantsKicked', q='string'}
 
 ```
 

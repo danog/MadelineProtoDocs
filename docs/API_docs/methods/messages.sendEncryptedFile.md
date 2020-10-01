@@ -15,6 +15,7 @@ Sends a message with a file attachment to a secret chat
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|silent|[Bool](../types/Bool.md) |  | Optional|
 |peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | Secret chat ID | Yes|
 |data|[bytes](../types/bytes.md) | TL-serialization of [DecryptedMessage](../types/DecryptedMessage.md) type, encrypted with a key generated during chat initialization | Yes|
 |file|[File path or InputEncryptedFile](../types/InputEncryptedFile.md) | File attachment for the secret chat | Optional|
@@ -37,13 +38,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.SentEncryptedMessage = $MadelineProto->messages->sendEncryptedFile(['peer' => InputEncryptedChat, 'data' => 'bytes', 'file' => InputEncryptedFile, ]);
+$messages.SentEncryptedMessage = $MadelineProto->messages->sendEncryptedFile(['silent' => Bool, 'peer' => InputEncryptedChat, 'data' => 'bytes', 'file' => InputEncryptedFile, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.SentEncryptedMessage = messages.sendEncryptedFile({peer=InputEncryptedChat, data='bytes', file=InputEncryptedFile, })
+messages.SentEncryptedMessage = messages.sendEncryptedFile({silent=Bool, peer=InputEncryptedChat, data='bytes', file=InputEncryptedFile, })
 ```
 
 ### Errors

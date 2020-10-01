@@ -15,10 +15,10 @@ Full list of chats with messages and auxiliary data.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|dialogs|Array of [Dialog](../types/Dialog.md) | Yes|Dialogs|
-|messages|Array of [Message](../types/Message.md) | Yes|Messages|
-|chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
-|users|Array of [User](../types/User.md) | Yes|Users|
+|dialogs|Array of [Dialog](../types/Dialog.md) | Yes|List of chats|
+|messages|Array of [Message](../types/Message.md) | Yes|List of last messages from each chat|
+|chats|Array of [Chat](../types/Chat.md) | Yes|List of groups mentioned in the chats|
+|users|Array of [User](../types/User.md) | Yes|List of users mentioned in messages and groups|
 
 
 

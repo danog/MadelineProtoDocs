@@ -14,6 +14,7 @@ Callback button
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|requires\_password|[Bool](../types/Bool.md) | Optional|
 |text|[string](../types/string.md) | Yes|Button text|
 |data|[bytes](../types/bytes.md) | Yes|Callback data|
 
@@ -25,14 +26,14 @@ Callback button
 ### Example:
 
 ```php
-$keyboardButtonCallback = ['_' => 'keyboardButtonCallback', 'text' => 'string', 'data' => 'bytes'];
+$keyboardButtonCallback = ['_' => 'keyboardButtonCallback', 'requires_password' => Bool, 'text' => 'string', 'data' => 'bytes'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-keyboardButtonCallback={_='keyboardButtonCallback', text='string', data='bytes'}
+keyboardButtonCallback={_='keyboardButtonCallback', requires_password=Bool, text='string', data='bytes'}
 
 ```
 

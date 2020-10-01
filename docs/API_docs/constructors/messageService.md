@@ -21,9 +21,9 @@ Indicates a service message
 |post|[Bool](../types/Bool.md) | Optional|Whether it's a channel post|
 |legacy|[Bool](../types/Bool.md) | Optional|This is a legacy message: it has to be refetched with the new layer|
 |id|[int](../types/int.md) | Yes|Message ID|
-|from\_id|[int](../types/int.md) | Optional|Id of te sender of the message|
-|to\_id|[Peer](../types/Peer.md) | Yes|ID of the destination of the message|
-|reply\_to\_msg\_id|[int](../types/int.md) | Optional|ID of the message this message replies to|
+|from\_id|[Peer](../types/Peer.md) | Optional|
+|peer\_id|[Peer](../types/Peer.md) | Yes|
+|reply\_to|[MessageReplyHeader](../types/MessageReplyHeader.md) | Optional|
 |date|[int](../types/int.md) | Yes|Message date|
 |action|[MessageAction](../types/MessageAction.md) | Optional|Event connected with the service message|
 
@@ -35,14 +35,14 @@ Indicates a service message
 ### Example:
 
 ```php
-$messageService = ['_' => 'messageService', 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'silent' => Bool, 'post' => Bool, 'legacy' => Bool, 'id' => int, 'from_id' => int, 'to_id' => Peer, 'reply_to_msg_id' => int, 'date' => int, 'action' => MessageAction];
+$messageService = ['_' => 'messageService', 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'silent' => Bool, 'post' => Bool, 'legacy' => Bool, 'id' => int, 'from_id' => Peer, 'peer_id' => Peer, 'reply_to' => MessageReplyHeader, 'date' => int, 'action' => MessageAction];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messageService={_='messageService', out=Bool, mentioned=Bool, media_unread=Bool, silent=Bool, post=Bool, legacy=Bool, id=int, from_id=int, to_id=Peer, reply_to_msg_id=int, date=int, action=MessageAction}
+messageService={_='messageService', out=Bool, mentioned=Bool, media_unread=Bool, silent=Bool, post=Bool, legacy=Bool, id=int, from_id=Peer, peer_id=Peer, reply_to=MessageReplyHeader, date=int, action=MessageAction}
 
 ```
 

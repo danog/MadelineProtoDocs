@@ -1,6 +1,6 @@
 ---
 title: userStatusLastWeek
-description: User is offline, but was online last week
+description: Online status: last seen last week
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userStatusLastWeek  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-User is offline, but was online last week
+Online status: last seen last week
 
 
 

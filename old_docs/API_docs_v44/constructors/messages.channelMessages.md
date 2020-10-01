@@ -15,10 +15,10 @@ Channel messages
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|inexact|[Bool](../types/Bool.md) | Optional|If set, returned results may be inexact|
 |pts|[int](../types/int.md) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|
 |count|[int](../types/int.md) | Yes|Total number of results were found server-side (may not be all included here)|
-|messages|Array of [Message](../types/Message.md) | Yes|Messages|
-|collapsed|Array of [MessageGroup](../types/MessageGroup.md) | Optional|Collapsed|
+|messages|Array of [Message](../types/Message.md) | Yes|Found messages|
 |chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
 |users|Array of [User](../types/User.md) | Yes|Users|
 
@@ -30,14 +30,14 @@ Channel messages
 ### Example:
 
 ```php
-$messages.channelMessages = ['_' => 'messages.channelMessages', 'pts' => int, 'count' => int, 'messages' => [Message, Message], 'collapsed' => [MessageGroup, MessageGroup], 'chats' => [Chat, Chat], 'users' => [User, User]];
+$messages.channelMessages = ['_' => 'messages.channelMessages', 'inexact' => Bool, 'pts' => int, 'count' => int, 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.channelMessages={_='messages.channelMessages', pts=int, count=int, messages={Message}, collapsed={MessageGroup}, chats={Chat}, users={User}}
+messages.channelMessages={_='messages.channelMessages', inexact=Bool, pts=int, count=int, messages={Message}, chats={Chat}, users={User}}
 
 ```
 

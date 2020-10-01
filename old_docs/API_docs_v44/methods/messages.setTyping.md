@@ -4,8 +4,9 @@ description: Sends a current user typing event (see [SendMessageAction](../types
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_setTyping.html
 ---
-# Method: messages.setTyping  
+# Method: messages.setTyping
 [Back to methods index](index.md)
+
 
 
 Sends a current user typing event (see [SendMessageAction](../types/SendMessageAction.md) for all event types) to a conversation partner or group.
@@ -60,5 +61,6 @@ Bool = messages.setTyping({peer=InputPeer, action=SendMessageAction, })
 |400|USER_IS_BOT|Bots can't send messages to other bots|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
+|-503|Timeout|Timeout while fetching data|
 
 

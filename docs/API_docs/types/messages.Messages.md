@@ -39,7 +39,11 @@ redirect_from: /API_docs/types/messages_Messages.html
 
 [$MadelineProto->messages->getScheduledMessages](../methods/messages.getScheduledMessages.md)  
 
+[$MadelineProto->messages->getReplies](../methods/messages.getReplies.md)  
+
 [$MadelineProto->channels->getMessages](../methods/channels.getMessages.md)  
+
+[$MadelineProto->stats->getMessagePublicForwards](../methods/stats.getMessagePublicForwards.md)  
 
 
 
@@ -67,5 +71,9 @@ redirect_from: /API_docs/types/messages_Messages.html
 
 [$MadelineProto->messages->getScheduledMessages](../methods/messages.getScheduledMessages.md)  
 
+[$MadelineProto->messages->getReplies](../methods/messages.getReplies.md)  
+
 [$MadelineProto->channels->getMessages](../methods/channels.getMessages.md)  
+
+[$MadelineProto->stats->getMessagePublicForwards](../methods/stats.getMessagePublicForwards.md)  
 

@@ -4,8 +4,9 @@ description: Get logged-in sessions
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getAuthorizations.html
 ---
-# Method: account.getAuthorizations  
+# Method: account.getAuthorizations
 [Back to methods index](index.md)
+
 
 
 Get logged-in sessions

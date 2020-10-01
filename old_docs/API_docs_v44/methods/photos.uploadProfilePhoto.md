@@ -4,8 +4,9 @@ description: Updates current user profile photo.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/photos_uploadProfilePhoto.html
 ---
-# Method: photos.uploadProfilePhoto  
+# Method: photos.uploadProfilePhoto
 [Back to methods index](index.md)
+
 
 
 Updates current user profile photo.
@@ -14,10 +15,9 @@ Updates current user profile photo.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|file|[File path or InputFile](../types/InputFile.md) | File saved in parts by means of [upload.saveFilePart](../methods/upload.saveFilePart.md) method | Yes|
-|caption|[string](../types/string.md) | Caption type | Yes|
-|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Location | Optional|
-|crop|[InputPhotoCrop](../types/InputPhotoCrop.md) | Cropping info | Yes|
+|file|[File path or InputFile](../types/InputFile.md) | File saved in parts by means of [upload.saveFilePart](../methods/upload.saveFilePart.md) method | Optional|
+|video|[File path or InputFile](../types/InputFile.md) |  | Optional|
+|video\_start\_ts|[double](../types/double.md) |  | Optional|
 
 
 ### Return type: [photos.Photo](../types/photos.Photo.md)
@@ -37,13 +37,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$photos.Photo = $MadelineProto->photos->uploadProfilePhoto(['file' => InputFile, 'caption' => 'string', 'geo_point' => InputGeoPoint, 'crop' => InputPhotoCrop, ]);
+$photos.Photo = $MadelineProto->photos->uploadProfilePhoto(['file' => InputFile, 'video' => InputFile, 'video_start_ts' => double, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-photos.Photo = photos.uploadProfilePhoto({file=InputFile, caption='string', geo_point=InputGeoPoint, crop=InputPhotoCrop, })
+photos.Photo = photos.uploadProfilePhoto({file=InputFile, video=InputFile, video_start_ts=double, })
 ```
 
 ### Errors
@@ -55,5 +55,6 @@ photos.Photo = photos.uploadProfilePhoto({file=InputFile, caption='string', geo_
 |400|PHOTO_CROP_FILE_MISSING|Photo crop file missing|
 |400|PHOTO_CROP_SIZE_SMALL|Photo is too small|
 |400|PHOTO_EXT_INVALID|The extension of the photo is invalid|
+|-503|Timeout|Timeout while fetching data|
 
 

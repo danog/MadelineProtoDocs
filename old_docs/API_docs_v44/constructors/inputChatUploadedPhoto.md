@@ -14,8 +14,9 @@ New photo to be set as group profile photo.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|file|[File path or InputFile](../types/InputFile.md) | Yes|File saved in parts using the method [upload.saveFilePart](../methods/upload.saveFilePart.md)|
-|crop|[InputPhotoCrop](../types/InputPhotoCrop.md) | Yes|Crop|
+|file|[File path or InputFile](../types/InputFile.md) | Optional|File saved in parts using the method [upload.saveFilePart](../methods/upload.saveFilePart.md)|
+|video|[File path or InputFile](../types/InputFile.md) | Optional|
+|video\_start\_ts|[double](../types/double.md) | Optional|
 
 
 
@@ -25,14 +26,14 @@ New photo to be set as group profile photo.
 ### Example:
 
 ```php
-$inputChatUploadedPhoto = ['_' => 'inputChatUploadedPhoto', 'file' => InputFile, 'crop' => InputPhotoCrop];
+$inputChatUploadedPhoto = ['_' => 'inputChatUploadedPhoto', 'file' => InputFile, 'video' => InputFile, 'video_start_ts' => double];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-inputChatUploadedPhoto={_='inputChatUploadedPhoto', file=InputFile, crop=InputPhotoCrop}
+inputChatUploadedPhoto={_='inputChatUploadedPhoto', file=InputFile, video=InputFile, video_start_ts=double}
 
 ```
 

@@ -9,7 +9,7 @@ redirect_from: /API_docs/methods/channels_getParticipants.html
 
 
 
-Get the participants of a supergroup/channel
+Get the participants of a channel
 
 ### Parameters:
 

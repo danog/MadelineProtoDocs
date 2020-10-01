@@ -15,7 +15,6 @@ Existing photo to be set as a chat profile photo.
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |id|[MessageMedia, Message, Update or InputPhoto](../types/InputPhoto.md) | Optional|Existing photo|
-|crop|[InputPhotoCrop](../types/InputPhotoCrop.md) | Yes|Crop|
 
 
 
@@ -25,14 +24,14 @@ Existing photo to be set as a chat profile photo.
 ### Example:
 
 ```php
-$inputChatPhoto = ['_' => 'inputChatPhoto', 'id' => InputPhoto, 'crop' => InputPhotoCrop];
+$inputChatPhoto = ['_' => 'inputChatPhoto', 'id' => InputPhoto];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-inputChatPhoto={_='inputChatPhoto', id=InputPhoto, crop=InputPhotoCrop}
+inputChatPhoto={_='inputChatPhoto', id=InputPhoto}
 
 ```
 
