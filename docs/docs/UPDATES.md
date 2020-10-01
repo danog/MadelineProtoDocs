@@ -9,8 +9,7 @@ Update handling can be done in different ways:
 
 * [Self-restart on webhosts](#self-restart-on-webhosts)
 * [Async Event driven](#async-event-driven)
-* [Multi-account: Async Event driven](#async-event-driven)
-* [Async Callback](#async-callback)
+* [Async Event driven multi-account](#async-event-driven-multiaccount)
 * [Noop (default)](#noop)
 * [Fetch all updates from the beginning](#fetch-all-updates-from-the-beginning)
 
@@ -44,7 +43,7 @@ $ok = Shutdown::removeCallback($id);
 You can of course pass non-static functions, any type of callable is accepted.  
 A second optional parameter can also be accepted, containing the ID of the callable: you can use this if you want to later overwrite the callable with another callback, or remove it altogether.  
 
-The `removeCallback` will return true if the callback exists and it was removed correctly, false otherwise (as with all new MadelineProto 4.0 APIs, there are PHPDOCs for these methods so you'll see them in your IDE).
+The `removeCallback` will return true if the callback exists and it was removed correctly, false otherwise (as with all new MadelineProto APIs, there are PHPDOCs for these methods so you'll see them in your IDE).
 
 
 ## Async Event driven
