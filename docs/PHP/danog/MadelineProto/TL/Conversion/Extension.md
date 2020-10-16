@@ -2,6 +2,7 @@
 title: danog\MadelineProto\TL\Conversion\Extension: Manages generation of extensions for files.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\TL\Conversion\Extension`
 [Back to index](../../../../index.md)

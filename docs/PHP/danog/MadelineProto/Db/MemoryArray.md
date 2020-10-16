@@ -2,6 +2,7 @@
 title: danog\MadelineProto\Db\MemoryArray: Memory database backend.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\Db\MemoryArray`
 [Back to index](../../../index.md)

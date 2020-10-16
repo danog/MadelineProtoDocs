@@ -2,6 +2,7 @@
 title: danog\MadelineProto\TON\API: TON API.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\TON\API`
 [Back to index](../../../index.md)

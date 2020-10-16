@@ -2,6 +2,7 @@
 title: danog\MadelineProto\Db\MysqlArray: MySQL database backend.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\Db\MysqlArray`
 [Back to index](../../../index.md)

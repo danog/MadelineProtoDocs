@@ -2,6 +2,7 @@
 title: danog\MadelineProto\Db\Driver\Postgres: Postgres driver wrapper.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\Db\Driver\Postgres`
 [Back to index](../../../../index.md)

@@ -2,6 +2,7 @@
 title: danog\MadelineProto\FileCallbackInterface: File callback interface.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\FileCallbackInterface`
 [Back to index](../../index.md)

@@ -2,6 +2,7 @@
 title: danog\MadelineProto\TL\Exception: TL deserialization exception.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\TL\Exception`
 [Back to index](../../../index.md)

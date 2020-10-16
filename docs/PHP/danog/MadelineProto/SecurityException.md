@@ -2,6 +2,7 @@
 title: danog\MadelineProto\SecurityException: Indicates a security error.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\SecurityException`
 [Back to index](../../index.md)

@@ -2,6 +2,7 @@
 title: danog\MadelineProto\MTProto: Manages all of the mtproto stuff.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\MTProto`
 [Back to index](../../index.md)

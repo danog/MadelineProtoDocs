@@ -2,6 +2,7 @@
 title: danog\MadelineProto\Settings\Database\Redis: Redis backend settings.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\Settings\Database\Redis`
 [Back to index](../../../../index.md)

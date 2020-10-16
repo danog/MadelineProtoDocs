@@ -2,6 +2,7 @@
 title: danog\MadelineProto\PsrLogger: PSR-3 wrapper for MadelineProto's Logger.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\PsrLogger`
 [Back to index](../../index.md)

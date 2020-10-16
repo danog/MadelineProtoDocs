@@ -2,6 +2,7 @@
 title: danog\MadelineProto\Logger: Logger class.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\Logger`
 [Back to index](../../index.md)

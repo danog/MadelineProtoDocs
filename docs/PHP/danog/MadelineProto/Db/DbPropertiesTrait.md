@@ -2,6 +2,7 @@
 title: danog\MadelineProto\Db\DbPropertiesTrait: Include this trait and call DbPropertiesTrait::initDb to use MadelineProto's database backend for properties.
 description: You will have to define a `$dbProperties` static array property, with a list of properties you want to store to a database.
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\Db\DbPropertiesTrait`
 [Back to index](../../../index.md)

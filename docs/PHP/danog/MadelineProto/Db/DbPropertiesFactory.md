@@ -2,6 +2,7 @@
 title: danog\MadelineProto\Db\DbPropertiesFactory: This factory class initializes the correct database backend for MadelineProto.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\Db\DbPropertiesFactory`
 [Back to index](../../../index.md)

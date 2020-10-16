@@ -2,6 +2,7 @@
 title: danog\MadelineProto\Settings\Logger: Logger settings.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\Settings\Logger`
 [Back to index](../../../index.md)

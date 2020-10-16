@@ -2,6 +2,7 @@
 title: danog\MadelineProto\Settings\Connection: Connection settings.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\Settings\Connection`
 [Back to index](../../../index.md)

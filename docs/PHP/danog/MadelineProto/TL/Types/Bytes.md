@@ -2,6 +2,7 @@
 title: danog\MadelineProto\TL\Types\Bytes: Bytes wrapper.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\TL\Types\Bytes`
 [Back to index](../../../../index.md)

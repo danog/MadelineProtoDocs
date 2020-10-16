@@ -2,6 +2,7 @@
 title: danog\MadelineProto\TL\Conversion\Exception: TL conversion exception.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\TL\Conversion\Exception`
 [Back to index](../../../../index.md)

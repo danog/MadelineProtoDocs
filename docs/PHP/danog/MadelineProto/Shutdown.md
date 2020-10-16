@@ -2,6 +2,7 @@
 title: danog\MadelineProto\Shutdown: Class that controls script shutdown.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\Shutdown`
 [Back to index](../../index.md)

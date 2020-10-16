@@ -2,6 +2,7 @@
 title: danog\MadelineProto\Settings\Peer: Peer database settings.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\Settings\Peer`
 [Back to index](../../../index.md)

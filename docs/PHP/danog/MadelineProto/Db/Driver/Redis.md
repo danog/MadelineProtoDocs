@@ -2,6 +2,7 @@
 title: danog\MadelineProto\Db\Driver\Redis: Redis driver wrapper.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\Db\Driver\Redis`
 [Back to index](../../../../index.md)

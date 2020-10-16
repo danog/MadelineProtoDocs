@@ -4,6 +4,7 @@ description: When a promise is yielded, execution of the generator is interrupte
 value is sent into the generator, while a failure reason is thrown into the generator. Using a coroutine,
 asynchronous code can be written without callbacks and be structured like synchronous code.
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\Coroutine`
 [Back to index](../../index.md)

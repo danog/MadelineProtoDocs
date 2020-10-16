@@ -2,6 +2,7 @@
 title: danog\MadelineProto\Settings\Database\Mysql: MySQL backend settings.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\Settings\Database\Mysql`
 [Back to index](../../../../index.md)

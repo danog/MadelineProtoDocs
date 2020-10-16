@@ -2,6 +2,7 @@
 title: danog\MadelineProto\Files\Server: MadelineProto fileserver.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\Files\Server`
 [Back to index](../../../index.md)

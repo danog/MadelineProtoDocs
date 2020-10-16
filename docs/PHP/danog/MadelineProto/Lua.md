@@ -2,6 +2,7 @@
 title: danog\MadelineProto\Lua: Lua interface.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\Lua`
 [Back to index](../../index.md)

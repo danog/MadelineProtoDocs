@@ -2,6 +2,7 @@
 title: danog\MadelineProto\EventHandler: Event handler.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\EventHandler`
 [Back to index](../../index.md)

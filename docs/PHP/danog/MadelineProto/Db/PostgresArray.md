@@ -2,6 +2,7 @@
 title: danog\MadelineProto\Db\PostgresArray: Postgres database backend.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\Db\PostgresArray`
 [Back to index](../../../index.md)

@@ -2,6 +2,7 @@
 title: danog\MadelineProto\MTProtoTools\ResponseInfo: Obtain response information for file to server.
 description: 
 
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog\MadelineProto\MTProtoTools\ResponseInfo`
 [Back to index](../../../index.md)
