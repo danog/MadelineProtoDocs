@@ -266,7 +266,7 @@ Get main instance.
 
 
 #### See also: 
-* [`\danog\MadelineProto\MTProto`: Manages all of the mtproto stuff.](./MTProto.md)
+* `\danog\MadelineProto\MTProto`
 
 
 
