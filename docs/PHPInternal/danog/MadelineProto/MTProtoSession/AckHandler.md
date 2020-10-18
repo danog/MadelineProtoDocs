@@ -16,8 +16,8 @@ Manages acknowledgement of messages.
 
 ## Method list:
 * `ackOutgoingMessageId(string|int $message_id): bool`
-* `gotResponseForOutgoingMessageId(string|int $message_id): bool`
-* `ackIncomingMessageId(string|int $message_id): bool`
+* `gotResponseForOutgoingMessage(\danog\MadelineProto\MTProto\OutgoingMessage $message): void`
+* `ackIncomingMessage(\danog\MadelineProto\MTProto\IncomingMessage $message): void`
 * `hasPendingCalls(): bool`
 * `getPendingCalls(): array`
 
@@ -32,23 +32,33 @@ Parameters:
 
 
 
-### `gotResponseForOutgoingMessageId(string|int $message_id): bool`
+### `gotResponseForOutgoingMessage(\danog\MadelineProto\MTProto\OutgoingMessage $message): void`
 
-We have gotten response for outgoing message ID.
+We have gotten a response for an outgoing message.
 
 
 Parameters:
-* `$message_id`: `string|int` Message ID  
+* `$message`: `\danog\MadelineProto\MTProto\OutgoingMessage` Message  
+
+
+#### See also: 
+* `\danog\MadelineProto\MTProto\OutgoingMessage`
 
 
 
-### `ackIncomingMessageId(string|int $message_id): bool`
+
+### `ackIncomingMessage(\danog\MadelineProto\MTProto\IncomingMessage $message): void`
 
 Acknowledge incoming message ID.
 
 
 Parameters:
-* `$message_id`: `string|int` Message ID  
+* `$message`: `\danog\MadelineProto\MTProto\IncomingMessage` Message  
+
+
+#### See also: 
+* `\danog\MadelineProto\MTProto\IncomingMessage`
+
 
 
 

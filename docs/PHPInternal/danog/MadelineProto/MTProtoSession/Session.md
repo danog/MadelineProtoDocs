@@ -19,17 +19,20 @@ Manages MTProto session-specific data.
 * `createSession(): void`
 * `backupSession(): array`
 * `ackOutgoingMessageId(string|int $message_id): bool`
-* `gotResponseForOutgoingMessageId(string|int $message_id): bool`
-* `ackIncomingMessageId(string|int $message_id): bool`
+* `gotResponseForOutgoingMessage(\danog\MadelineProto\MTProto\OutgoingMessage $message): void`
+* `ackIncomingMessage(\danog\MadelineProto\MTProto\IncomingMessage $message): void`
 * `hasPendingCalls(): bool`
 * `getPendingCalls(): array`
-* `handleReject(array $request, \Throwable $data): void`
-* `handleResponse(): void`
 * `methodRecall(string $watcherId, array $args): void`
 * `methodCallAsyncRead(string $method, array|\Generator $args, array $aargs): \Generator`
 * `methodCallAsyncWrite(string $method, array|\Generator $args, array $aargs): \Generator`
 * `objectCall(string $object, array $args, array $aargs): \Generator`
-* `sendMsgsStateInfo(string|int $req_msg_id, array $msg_ids): \Generator`
+* `onNewMsgDetailedInfo(array $content): void`
+* `onMsgDetailedInfo(array $content): void`
+* `onMsgResendReq(array $content, string $current_msg_id): void`
+* `onMsgResendAnsReq(array $content, string $current_msg_id): void`
+* `onMsgsAllInfo(array $content): void`
+* `sendMsgsStateInfo(array $msg_ids, string|int $req_msg_id): void`
 
 ## Methods:
 ### `resetSession(): void`
@@ -60,23 +63,33 @@ Parameters:
 
 
 
-### `gotResponseForOutgoingMessageId(string|int $message_id): bool`
+### `gotResponseForOutgoingMessage(\danog\MadelineProto\MTProto\OutgoingMessage $message): void`
 
-We have gotten response for outgoing message ID.
+We have gotten a response for an outgoing message.
 
 
 Parameters:
-* `$message_id`: `string|int` Message ID  
+* `$message`: `\danog\MadelineProto\MTProto\OutgoingMessage` Message  
+
+
+#### See also: 
+* `\danog\MadelineProto\MTProto\OutgoingMessage`
 
 
 
-### `ackIncomingMessageId(string|int $message_id): bool`
+
+### `ackIncomingMessage(\danog\MadelineProto\MTProto\IncomingMessage $message): void`
 
 Acknowledge incoming message ID.
 
 
 Parameters:
-* `$message_id`: `string|int` Message ID  
+* `$message`: `\danog\MadelineProto\MTProto\IncomingMessage` Message  
+
+
+#### See also: 
+* `\danog\MadelineProto\MTProto\IncomingMessage`
+
 
 
 
@@ -89,28 +102,6 @@ Check if there are some pending calls.
 ### `getPendingCalls(): array`
 
 Get all pending calls (also clear pending state requests).
-
-
-
-### `handleReject(array $request, \Throwable $data): void`
-
-Reject request with exception.
-
-
-Parameters:
-* `$request`: `array` Request  
-* `$data`: `\Throwable` Exception  
-
-
-#### See also: 
-* `\Throwable`
-
-
-
-
-### `handleResponse(): void`
-
-
 
 
 
@@ -184,19 +175,66 @@ Parameters:
 
 
 
-### `sendMsgsStateInfo(string|int $req_msg_id, array $msg_ids): \Generator`
+### `onNewMsgDetailedInfo(array $content): void`
+
+Called when receiving a new_msg_detailed_info.
+
+
+Parameters:
+* `$content`: `array`   
+
+
+
+### `onMsgDetailedInfo(array $content): void`
+
+Called when receiving a msg_detailed_info.
+
+
+Parameters:
+* `$content`: `array`   
+
+
+
+### `onMsgResendReq(array $content, string $current_msg_id): void`
+
+Called when receiving a msg_resend_req.
+
+
+Parameters:
+* `$content`: `array`   
+* `$current_msg_id`: `string`   
+
+
+
+### `onMsgResendAnsReq(array $content, string $current_msg_id): void`
+
+Called when receiving a msg_resend_ans_req.
+
+
+Parameters:
+* `$content`: `array`   
+* `$current_msg_id`: `string`   
+
+
+
+### `onMsgsAllInfo(array $content): void`
+
+Called when receiving a msgs_all_info.
+
+
+Parameters:
+* `$content`: `array`   
+
+
+
+### `sendMsgsStateInfo(array $msg_ids, string|int $req_msg_id): void`
 
 Send state info for message IDs.
 
 
 Parameters:
-* `$req_msg_id`: `string|int` Message ID of msgs_state_req that initiated this  
 * `$msg_ids`: `array` Message IDs to send info about  
-
-
-#### See also: 
-* `\Generator`
-
+* `$req_msg_id`: `string|int` Message ID of msgs_state_req that initiated this  
 
 
 

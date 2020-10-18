@@ -174,7 +174,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Connection`: Connection class.](./Connection.md)
+* `\danog\MadelineProto\Connection`
 
 
 
@@ -189,7 +189,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Connection`: Connection class.](./Connection.md)
+* `\danog\MadelineProto\Connection`
 
 
 
@@ -209,7 +209,7 @@ Fully typed return value:
 ```
 #### See also: 
 * `\Amp\Promise`
-* [`\danog\MadelineProto\Connection`: Connection class.](./Connection.md)
+* `\danog\MadelineProto\Connection`
 * `\Generator`
 
 

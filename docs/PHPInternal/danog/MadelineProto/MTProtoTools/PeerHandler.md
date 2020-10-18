@@ -25,7 +25,7 @@ Manages peers.
 * `getInfo(mixed $id, bool $recursive): \Generator Info object`
 * `fullChatLastUpdated(mixed $id): \Generator<int>`
 * `getFullInfo(mixed $id): \Generator FullInfo object`
-* `getPwrChat(mixed $id): \Generator<array> Chat object`
+* `getPwrChat(mixed $id): \Generator Chat object`
 * `resolveUsername(string $username): \Generator`
 
 ## Methods:
@@ -128,7 +128,8 @@ Return value: Info object
 
 Fully typed return value:
 ```
-\Generator<int|mixed, \Amp\Promise|\Amp\Promise<string>|array, mixed, array{InputPeer: array{_: string, user_id?: mixed, access_hash?: mixed, min?: mixed, chat_id?: mixed, channel_id?: mixed}, Peer: array{_: string, user_id?: mixed, chat_id?: mixed, channel_id?: mixed}, DialogPeer: array{_: string, peer: array{_: string, user_id?: mixed, chat_id?: mixed, channel_id?: mixed}}, NotifyPeer: array{_: string, peer: array{_: string, user_id?: mixed, chat_id?: mixed, channel_id?: mixed}}, InputDialogPeer: array{_: string, peer: array{_: string, user_id?: mixed, access_hash?: mixed, min?: mixed, chat_id?: mixed, channel_id?: mixed}}, InputNotifyPeer: array{_: string, peer: array{_: string, user_id?: mixed, access_hash?: mixed, min?: mixed, chat_id?: mixed, channel_id?: mixed}}, bot_api_id: int|string, user_id?: int, chat_id?: int, channel_id?: int, InputUser?: array{_: string, user_id?: int, access_hash?: mixed, min?: bool}, InputChannel?: array{_: string, channel_id: int, access_hash: mixed, min: bool}, type: string}>
+\Generator<int|mixed, \Amp\Promise|\Amp\Promise<string>|array, mixed, array{TConstructor: \array
+     InputPeer: array{_: string, user_id?: mixed, access_hash?: mixed, min?: mixed, chat_id?: mixed, channel_id?: mixed}, Peer: array{_: string, user_id?: mixed, chat_id?: mixed, channel_id?: mixed}, DialogPeer: array{_: string, peer: array{_: string, user_id?: mixed, chat_id?: mixed, channel_id?: mixed}}, NotifyPeer: array{_: string, peer: array{_: string, user_id?: mixed, chat_id?: mixed, channel_id?: mixed}}, InputDialogPeer: array{_: string, peer: array{_: string, user_id?: mixed, access_hash?: mixed, min?: mixed, chat_id?: mixed, channel_id?: mixed}}, InputNotifyPeer: array{_: string, peer: array{_: string, user_id?: mixed, access_hash?: mixed, min?: mixed, chat_id?: mixed, channel_id?: mixed}}, bot_api_id: int|string, user_id?: int, chat_id?: int, channel_id?: int, InputUser?: array{_: string, user_id?: int, access_hash?: mixed, min?: bool}, InputChannel?: array{_: string, channel_id: int, access_hash: mixed, min: bool}, type: string}>
 ```
 #### See also: 
 * [https://docs.madelineproto.xyz/Info.html](https://docs.madelineproto.xyz/Info.html)
@@ -176,7 +177,7 @@ Fully typed return value:
 
 
 
-### `getPwrChat(mixed $id): \Generator<array> Chat object`
+### `getPwrChat(mixed $id): \Generator Chat object`
 
 Get full info about peer (including full list of channel members), returns a Chat object.
 

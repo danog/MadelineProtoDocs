@@ -40,7 +40,6 @@ PHP implementation of telegram's MTProto protocol.
 
 ## Classes
 * [\danog\MadelineProto\API: Main API wrapper for MadelineProto.](danog/MadelineProto/API.md)
-* [\danog\MadelineProto\Connection: Connection class.](danog/MadelineProto/Connection.md)
 * [\danog\MadelineProto\Coroutine: Creates a promise from a generator function yielding promises.](danog/MadelineProto/Coroutine.md)
 * [\danog\MadelineProto\DataCenter: Manages datacenters.](danog/MadelineProto/DataCenter.md)
 * [\danog\MadelineProto\DataCenterConnection: Datacenter connection.](danog/MadelineProto/DataCenterConnection.md)

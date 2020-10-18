@@ -20,6 +20,7 @@ Manages message ids.
 * `getMaxId(bool $incoming): mixed`
 * `reset(): void`
 * `createInstance(\danog\MadelineProto\Connection $session): self`
+* `toString(string $messageId): string`
 
 ## Methods:
 ### `checkMessageId(string $newMessageId, array $aargs): void`
@@ -65,8 +66,18 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Connection`: Connection class.](../Connection.md)
+* `\danog\MadelineProto\Connection`
 
+
+
+
+### `toString(string $messageId): string`
+
+Get readable representation of message ID.
+
+
+Parameters:
+* `$messageId`: `string`   
 
 
 

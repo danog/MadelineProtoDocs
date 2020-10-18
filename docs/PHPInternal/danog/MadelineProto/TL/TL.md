@@ -26,7 +26,7 @@ TL serialization.
 * `serializeObject(array $type, mixed $object, string $ctx, int $layer): \Generator`
 * `serializeMethod(string $method, mixed $arguments): \Generator`
 * `getLength(\resource|string $stream, array $type): int`
-* `deserialize(string|\resource $stream, array $type): \Generator<mixed>`
+* `deserialize(string|\resource $stream, array $type): array`
 
 ## Methods:
 ### `getSecretLayer(): int`
@@ -177,7 +177,7 @@ Parameters:
 
 
 
-### `deserialize(string|\resource $stream, array $type): \Generator<mixed>`
+### `deserialize(string|\resource $stream, array $type): array`
 
 Deserialize TL object.
 
@@ -187,9 +187,13 @@ Parameters:
 * `$type`: `array` Type identifier  
 
 
+Fully typed return value:
+```
+array{0: mixed, 1: \Amp\Promise}
+```
 #### See also: 
 * `\resource`
-* `\Generator`
+* `\Amp\Promise`
 
 
 

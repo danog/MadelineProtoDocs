@@ -15,22 +15,74 @@ Manages responses.
 
 
 ## Method list:
-* `sendMsgsStateInfo(string|int $req_msg_id, array $msg_ids): \Generator`
+* `onNewMsgDetailedInfo(array $content): void`
+* `onMsgDetailedInfo(array $content): void`
+* `onMsgResendReq(array $content, string $current_msg_id): void`
+* `onMsgResendAnsReq(array $content, string $current_msg_id): void`
+* `onMsgsAllInfo(array $content): void`
+* `sendMsgsStateInfo(array $msg_ids, string|int $req_msg_id): void`
 
 ## Methods:
-### `sendMsgsStateInfo(string|int $req_msg_id, array $msg_ids): \Generator`
+### `onNewMsgDetailedInfo(array $content): void`
+
+Called when receiving a new_msg_detailed_info.
+
+
+Parameters:
+* `$content`: `array`   
+
+
+
+### `onMsgDetailedInfo(array $content): void`
+
+Called when receiving a msg_detailed_info.
+
+
+Parameters:
+* `$content`: `array`   
+
+
+
+### `onMsgResendReq(array $content, string $current_msg_id): void`
+
+Called when receiving a msg_resend_req.
+
+
+Parameters:
+* `$content`: `array`   
+* `$current_msg_id`: `string`   
+
+
+
+### `onMsgResendAnsReq(array $content, string $current_msg_id): void`
+
+Called when receiving a msg_resend_ans_req.
+
+
+Parameters:
+* `$content`: `array`   
+* `$current_msg_id`: `string`   
+
+
+
+### `onMsgsAllInfo(array $content): void`
+
+Called when receiving a msgs_all_info.
+
+
+Parameters:
+* `$content`: `array`   
+
+
+
+### `sendMsgsStateInfo(array $msg_ids, string|int $req_msg_id): void`
 
 Send state info for message IDs.
 
 
 Parameters:
-* `$req_msg_id`: `string|int` Message ID of msgs_state_req that initiated this  
 * `$msg_ids`: `array` Message IDs to send info about  
-
-
-#### See also: 
-* `\Generator`
-
+* `$req_msg_id`: `string|int` Message ID of msgs_state_req that initiated this  
 
 
 
