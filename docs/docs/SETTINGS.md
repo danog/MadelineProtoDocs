@@ -294,7 +294,7 @@ Description: You can provide a token for the rollbar log management system
 
 
 ### `$settings['logger']['max_size']`
-Default: `100*1024*1024`
+Default: `1*1024*1024`
 Description: Maximum file size of logfiles for logging to files. When the logfile reaches the provided size, it gets deleted automatically.
 
 
