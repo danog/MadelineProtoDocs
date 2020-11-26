@@ -4,7 +4,7 @@ description: constructors and methods of type channels.ChannelParticipant
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/channels_ChannelParticipant.html
 ---
-# Type: channels.ChannelParticipant  
+# Type: channels.ChannelParticipant
 [Back to types index](index.md)
 
 
@@ -20,4 +20,8 @@ redirect_from: /API_docs/types/channels_ChannelParticipant.html
 [$MadelineProto->channels->getParticipant](../methods/channels.getParticipant.md)  
 
 
+
+[channels.channelParticipant](../constructors/channels.channelParticipant.md)  
+
+[$MadelineProto->channels->getParticipant](../methods/channels.getParticipant.md)  
 

@@ -14,7 +14,8 @@ The order of stickersets was changed
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|order|Array of [long](../types/long.md) | Yes|Order|
+|masks|[Bool](../types/Bool.md) | Optional|Whether the updated stickers are mask stickers|
+|order|Array of [long](../types/long.md) | Yes|New sticker order by sticker ID|
 
 
 
@@ -24,14 +25,14 @@ The order of stickersets was changed
 ### Example:
 
 ```php
-$updateStickerSetsOrder = ['_' => 'updateStickerSetsOrder', 'order' => [long, long]];
+$updateStickerSetsOrder = ['_' => 'updateStickerSetsOrder', 'masks' => Bool, 'order' => [long, long]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateStickerSetsOrder={_='updateStickerSetsOrder', order={long}}
+updateStickerSetsOrder={_='updateStickerSetsOrder', masks=Bool, order={long}}
 
 ```
 

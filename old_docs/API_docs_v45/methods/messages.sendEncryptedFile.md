@@ -4,8 +4,9 @@ description: Sends a message with a file attachment to a secret chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_sendEncryptedFile.html
 ---
-# Method: messages.sendEncryptedFile  
+# Method: messages.sendEncryptedFile
 [Back to methods index](index.md)
+
 
 
 Sends a message with a file attachment to a secret chat
@@ -14,8 +15,9 @@ Sends a message with a file attachment to a secret chat
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|silent|[Bool](../types/Bool.md) |  | Optional|
 |peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | Secret chat ID | Yes|
-|data|[bytes](../types/bytes.md) | TL-serialization of [DecryptedMessage](../types/DecryptedMessage.md) type, encrypted with a key generated during chat initialization | Yes|
+|data|[bytes](../types/bytes.md) | [DecryptedMessage](../types/DecryptedMessage.md) type | Yes|
 |file|[File path or InputEncryptedFile](../types/InputEncryptedFile.md) | File attachment for the secret chat | Optional|
 
 
@@ -36,13 +38,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.SentEncryptedMessage = $MadelineProto->messages->sendEncryptedFile(['peer' => InputEncryptedChat, 'data' => 'bytes', 'file' => InputEncryptedFile, ]);
+$messages.SentEncryptedMessage = $MadelineProto->messages->sendEncryptedFile(['silent' => Bool, 'peer' => InputEncryptedChat, 'data' => 'bytes', 'file' => InputEncryptedFile, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.SentEncryptedMessage = messages.sendEncryptedFile({peer=InputEncryptedChat, data='bytes', file=InputEncryptedFile, })
+messages.SentEncryptedMessage = messages.sendEncryptedFile({silent=Bool, peer=InputEncryptedChat, data='bytes', file=InputEncryptedFile, })
 ```
 
 ### Errors
@@ -50,6 +52,7 @@ messages.SentEncryptedMessage = messages.sendEncryptedFile({peer=InputEncryptedC
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|DATA_TOO_LONG|Data too long|
+|400|ENCRYPTION_DECLINED|The secret chat was declined|
 |400|MD5_CHECKSUM_INVALID|The MD5 checksums do not match|
 |400|MSG_WAIT_FAILED|A waiting call returned an error|
 

@@ -18,13 +18,15 @@ Postgres database backend.
 ## Method list:
 * `initStartup(): \Generator`
 * `initConnection(\danog\MadelineProto\Settings\Database\Postgres $settings): \Generator`
-* `offsetSet(string $index,  $value)`
+* `offsetSet(string|int $index,  $value)`
 * `isset( $key): \Promise<bool> true if the offset exists, otherwise false`
-* `offsetUnset(string $index): \Amp\Promise`
-* `getArrayCopy(): \Amp\Promise<array>`
+* `offsetUnset(string|int $index): \Amp\Promise`
 * `count(): \Promise<int> The number of elements or public properties in the associated
 array or object, respectively.`
-* `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $value, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
+* `clear(): \Amp\Promise`
+* `getTable(): string`
+* `setTable(string $table): self`
+* `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
 
 ## Methods:
 ### `initStartup(): \Generator`
@@ -54,13 +56,13 @@ Parameters:
 
 
 
-### `offsetSet(string $index,  $value)`
+### `offsetSet(string|int $index,  $value)`
 
 Set value for an offset.
 
 
 Parameters:
-* `$index`: `string` <p>
+* `$index`: `string|int` <p>
 The index to set for.
 </p>  
 * `$value`: ``   
@@ -79,26 +81,15 @@ Parameters:
 Return value: true if the offset exists, otherwise false
 
 
-### `offsetUnset(string $index): \Amp\Promise`
+### `offsetUnset(string|int $index): \Amp\Promise`
 
 Unset value for an offset.
 
 
 Parameters:
-* `$index`: `string` <p>
+* `$index`: `string|int` <p>
 The offset to unset.
 </p>  
-
-
-#### See also: 
-* `\Amp\Promise`
-
-
-
-
-### `getArrayCopy(): \Amp\Promise<array>`
-
-Get array copy.
 
 
 #### See also: 
@@ -117,14 +108,41 @@ Return value: The number of elements or public properties in the associated
 array or object, respectively.
 
 
-### `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $value, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
+### `clear(): \Amp\Promise`
+
+Clear all elements.
+
+
+#### See also: 
+* `\Amp\Promise`
+
+
+
+
+### `getTable(): string`
+
+Get the value of table.
+
+
+
+### `setTable(string $table): self`
+
+Set the value of table.
+
+
+Parameters:
+* `$table`: `string`   
+
+
+
+### `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
 
 
 
 
 Parameters:
 * `$table`: `string`   
-* `$value`: `\danog\MadelineProto\Db\DbArray|array|null`   
+* `$previous`: `\danog\MadelineProto\Db\DbArray|array|null`   
 * `$settings`: `\danog\MadelineProto\Settings\Database\DatabaseAbstract`   
 
 

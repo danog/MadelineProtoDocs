@@ -14,7 +14,9 @@ A media
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|caption|[string](../types/string.md) | Yes|Caption|
+|message|[string](../types/string.md) | Yes|Caption|
+|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|[Message entities for styled text](https://core.telegram.org/api/entities)|
+|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Inline keyboard|
 
 
 
@@ -24,15 +26,21 @@ A media
 ### Example:
 
 ```php
-$inputBotInlineMessageMediaAuto = ['_' => 'inputBotInlineMessageMediaAuto', 'caption' => 'string'];
+$inputBotInlineMessageMediaAuto = ['_' => 'inputBotInlineMessageMediaAuto', 'message' => 'string', 'entities' => [MessageEntity, MessageEntity], 'reply_markup' => ReplyMarkup];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-inputBotInlineMessageMediaAuto={_='inputBotInlineMessageMediaAuto', caption='string'}
+inputBotInlineMessageMediaAuto={_='inputBotInlineMessageMediaAuto', message='string', entities={MessageEntity}, reply_markup=ReplyMarkup}
 
 ```
+
+
+
+## Usage of reply_markup
+
+You can provide bot API reply_markup objects here.  
 
 

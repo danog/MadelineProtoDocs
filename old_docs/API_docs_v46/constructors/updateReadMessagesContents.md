@@ -14,7 +14,7 @@ Contents of messages in the common [message box](https://core.telegram.org/api/u
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|messages|Array of [int](../types/int.md) | Yes|Messages|
+|messages|Array of [int](../types/int.md) | Yes|IDs of read messages|
 |pts|[int](../types/int.md) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|
 |pts\_count|[int](../types/int.md) | Yes|[Number of events that were generated](https://core.telegram.org/api/updates)|
 

@@ -17,6 +17,7 @@ An incoming inline query
 |query\_id|[long](../types/long.md) | Yes|Query ID|
 |user\_id|[int](../types/int.md) | Yes|User that sent the query|
 |query|[string](../types/string.md) | Yes|Text of query|
+|geo|[GeoPoint](../types/GeoPoint.md) | Optional|Attached geolocation|
 |offset|[string](../types/string.md) | Yes|Offset to navigate through results|
 
 
@@ -27,14 +28,14 @@ An incoming inline query
 ### Example:
 
 ```php
-$updateBotInlineQuery = ['_' => 'updateBotInlineQuery', 'query_id' => long, 'user_id' => int, 'query' => 'string', 'offset' => 'string'];
+$updateBotInlineQuery = ['_' => 'updateBotInlineQuery', 'query_id' => long, 'user_id' => int, 'query' => 'string', 'geo' => GeoPoint, 'offset' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateBotInlineQuery={_='updateBotInlineQuery', query_id=long, user_id=int, query='string', offset='string'}
+updateBotInlineQuery={_='updateBotInlineQuery', query_id=long, user_id=int, query='string', geo=GeoPoint, offset='string'}
 
 ```
 

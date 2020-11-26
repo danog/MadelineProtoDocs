@@ -15,7 +15,7 @@ List of chats with auxiliary data.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
+|chats|Array of [Chat](../types/Chat.md) | Yes|List of chats|
 
 
 

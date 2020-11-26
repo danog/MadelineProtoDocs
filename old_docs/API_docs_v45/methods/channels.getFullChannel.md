@@ -1,20 +1,21 @@
 ---
 title: channels.getFullChannel
-description: You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info)
+description: Get full info about a channel
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_getFullChannel.html
 ---
-# Method: channels.getFullChannel  
+# Method: channels.getFullChannel
 [Back to methods index](index.md)
 
 
-You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info)
+
+Get full info about a channel
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info) | Optional|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel to get info about | Optional|
 
 
 ### Return type: [messages.ChatFull](../types/messages.ChatFull.md)

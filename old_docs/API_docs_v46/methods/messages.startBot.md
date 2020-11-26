@@ -4,8 +4,9 @@ description: Start a conversation with a bot using a [deep linking parameter](ht
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_startBot.html
 ---
-# Method: messages.startBot  
+# Method: messages.startBot
 [Back to methods index](index.md)
+
 
 
 Start a conversation with a bot using a [deep linking parameter](https://core.telegram.org/bots#deep-linking)
@@ -56,5 +57,6 @@ Updates = messages.startBot({bot=InputUser, peer=InputPeer, start_param='string'
 |400|START_PARAM_EMPTY|The start parameter is empty|
 |400|START_PARAM_INVALID|Start parameter invalid|
 |400|START_PARAM_TOO_LONG|Start parameter is too long|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 
 

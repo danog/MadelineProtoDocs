@@ -42,6 +42,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputMessagesFilterContacts](../constructors/inputMessagesFilterContacts.md)  
 
+[inputMessagesFilterPinned](../constructors/inputMessagesFilterPinned.md)  
+
 
 
 ### Methods that return an object of this type (methods):
@@ -79,4 +81,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [inputMessagesFilterGeo](../constructors/inputMessagesFilterGeo.md)  
 
 [inputMessagesFilterContacts](../constructors/inputMessagesFilterContacts.md)  
+
+[inputMessagesFilterPinned](../constructors/inputMessagesFilterPinned.md)  
 

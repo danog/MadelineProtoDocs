@@ -17,7 +17,7 @@ Represents multiple channel participants
 |----------|---------------|----------|-------------|
 |count|[int](../types/int.md) | Yes|Total number of participants that correspond to the given query|
 |participants|Array of [ChannelParticipant](../types/ChannelParticipant.md) | Yes|Participants|
-|users|Array of [User](../types/User.md) | Yes|Users|
+|users|Array of [User](../types/User.md) | Yes|Users mentioned in participant info|
 
 
 

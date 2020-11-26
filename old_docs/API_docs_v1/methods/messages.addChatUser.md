@@ -57,6 +57,7 @@ messages.StatedMessage = messages.addChatUser({chat_id=InputPeer, user_id=InputU
 |400|USER_ALREADY_PARTICIPANT|The user is already in the group|
 |400|USER_ID_INVALID|The provided user ID is invalid|
 |400|USERS_TOO_MUCH|The maximum number of users has been exceeded (to create a chat, for example)|
+|403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 |403|USER_NOT_MUTUAL_CONTACT|The provided user is not a mutual contact|
 |403|USER_PRIVACY_RESTRICTED|The user's privacy settings do not allow you to do this|
 

@@ -4,8 +4,9 @@ description: Sends a message to a chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_sendMessage.html
 ---
-# Method: messages.sendMessage  
+# Method: messages.sendMessage
 [Back to methods index](index.md)
+
 
 
 Sends a message to a chat
@@ -15,13 +16,16 @@ Sends a message to a chat
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |no\_webpage|[Bool](../types/Bool.md) | Set this flag to disable generation of the webpage preview | Optional|
-|broadcast|[Bool](../types/Bool.md) | Broadcast this message | Optional|
+|silent|[Bool](../types/Bool.md) | Send this message silently (no notifications for the receivers) | Optional|
+|background|[Bool](../types/Bool.md) | Send this message as background message | Optional|
+|clear\_draft|[Bool](../types/Bool.md) | Clear the draft field | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The destination where the message will be sent | Optional|
 |reply\_to\_msg\_id|[int](../types/int.md) | The message ID to which this message will reply to | Optional|
 |message|[string](../types/string.md) | The message | Yes|
 |reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Reply markup for sending bot buttons | Optional|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | Entities to send (for styled text) | Optional|
+|entities|Array of [MessageEntity](../types/MessageEntity.md) | Message [entities](https://core.telegram.org/api/entities) for sending styled text | Optional|
 |parse\_mode| [string](../types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
+|schedule\_date|[int](../types/int.md) | Scheduled message date for scheduled messages | Optional|
 
 
 ### Return type: [Updates](../types/Updates.md)
@@ -41,13 +45,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendMessage(['no_webpage' => Bool, 'broadcast' => Bool, 'peer' => InputPeer, 'reply_to_msg_id' => int, 'message' => 'string', 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', ]);
+$Updates = $MadelineProto->messages->sendMessage(['no_webpage' => Bool, 'silent' => Bool, 'background' => Bool, 'clear_draft' => Bool, 'peer' => InputPeer, 'reply_to_msg_id' => int, 'message' => 'string', 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', 'schedule_date' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Updates = messages.sendMessage({no_webpage=Bool, broadcast=Bool, peer=InputPeer, reply_to_msg_id=int, message='string', reply_markup=ReplyMarkup, entities={MessageEntity}, parseMode='string', })
+Updates = messages.sendMessage({no_webpage=Bool, silent=Bool, background=Bool, clear_draft=Bool, peer=InputPeer, reply_to_msg_id=int, message='string', reply_markup=ReplyMarkup, entities={MessageEntity}, parseMode='string', schedule_date=int, })
 ```
 
 
@@ -102,6 +106,7 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|420|SLOWMODE_WAIT_X|Slowmode is enabled in this chat: wait X seconds before sending another message to this chat.|
 |400|BOT_DOMAIN_INVALID|Bot domain invalid|
 |400|BOT_INVALID|This is not a valid bot|
 |400|BUTTON_DATA_INVALID|The data of one or more of the buttons you provided is invalid|
@@ -123,6 +128,7 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 |400|PINNED_DIALOGS_TOO_MUCH|Too many pinned dialogs|
 |400|REPLY_MARKUP_INVALID|The provided reply markup is invalid|
 |400|SCHEDULE_BOT_NOT_ALLOWED|Bots cannot schedule messages|
+|400|SCHEDULE_DATE_TOO_LATE|You can't schedule a message this far in the future|
 |400|SCHEDULE_TOO_MUCH|There are too many scheduled messages|
 |400|USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
 |400|USER_IS_BLOCKED|You were blocked by this user|
@@ -131,7 +137,8 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
-|420|SLOWMODE_WAIT_X|Slowmode is enabled in this chat: you must wait for the specified number of seconds before sending another message to the chat.|
+|-500|No workers running|Internal error|
+|-504|memory limit exit|Internal error|
 |-503|Timeout|Timeout while fetching data|
 
 

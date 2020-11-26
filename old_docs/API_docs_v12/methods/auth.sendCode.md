@@ -66,5 +66,7 @@ auth.SentCode = auth.sendCode({allow_flashcall=Bool, phone_number='string', curr
 |406|PHONE_NUMBER_INVALID|The phone number is invalid|
 |406|PHONE_PASSWORD_FLOOD|You have tried logging in too many times|
 |401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
+|-500|No workers running|Internal error|
+|-503|Timeout|Timeout while fetching data|
 
 

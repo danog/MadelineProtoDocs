@@ -14,7 +14,7 @@ New member in the group
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|users|Array of [int](../types/int.md) | Yes|Users|
+|users|Array of [int](../types/int.md) | Yes|Users that were invited to the chat|
 
 
 

@@ -4,8 +4,9 @@ description: Check the validity of a chat invite link and get basic info about i
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_checkChatInvite.html
 ---
-# Method: messages.checkChatInvite  
+# Method: messages.checkChatInvite
 [Back to methods index](index.md)
+
 
 
 Check the validity of a chat invite link and get basic info about it
@@ -50,6 +51,7 @@ ChatInvite = messages.checkChatInvite({hash='string', })
 |400|INVITE_HASH_EMPTY|The invite hash is empty|
 |400|INVITE_HASH_EXPIRED|The invite link has expired|
 |400|INVITE_HASH_INVALID|The invite hash is invalid|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
 
 

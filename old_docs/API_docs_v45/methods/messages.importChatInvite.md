@@ -4,8 +4,9 @@ description: Import a chat invite and join a private chat/supergroup/channel
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_importChatInvite.html
 ---
-# Method: messages.importChatInvite  
+# Method: messages.importChatInvite
 [Back to methods index](index.md)
+
 
 
 Import a chat invite and join a private chat/supergroup/channel
@@ -56,8 +57,10 @@ Updates = messages.importChatInvite({hash='string', })
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|USER_ALREADY_PARTICIPANT|The user is already in the group|
+|400|USER_CHANNELS_TOO_MUCH|One of the users you tried to add is already in too many channels/supergroups|
 |400|USERS_TOO_MUCH|The maximum number of users has been exceeded (to create a chat, for example)|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
+|-503|Timeout|Timeout while fetching data|
 
 

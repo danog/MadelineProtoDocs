@@ -4,8 +4,9 @@ description: Mark [channel/supergroup](https://core.telegram.org/api/channel) hi
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_readHistory.html
 ---
-# Method: channels.readHistory  
+# Method: channels.readHistory
 [Back to methods index](index.md)
+
 
 
 Mark [channel/supergroup](https://core.telegram.org/api/channel) history as read
@@ -52,5 +53,6 @@ Bool = channels.readHistory({channel=InputChannel, max_id=int, })
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
+|-503|Timeout|Timeout while fetching data|
 
 

@@ -84,6 +84,7 @@ You can provide bot API reply_markup objects here.
 |400|POLL_ANSWERS_INVALID|Invalid poll answers were provided|
 |400|POLL_OPTION_DUPLICATE|Duplicate poll options provided|
 |400|POLL_OPTION_INVALID|Invalid poll option provided|
+|400|QUIZ_CORRECT_ANSWER_INVALID|An invalid value was provided to the correct_answers field|
 |400|QUIZ_CORRECT_ANSWERS_EMPTY|No correct quiz answer was specified|
 |400|REPLY_MARKUP_BUY_EMPTY|Reply markup for buy button empty|
 |400|REPLY_MARKUP_INVALID|The provided reply markup is invalid|

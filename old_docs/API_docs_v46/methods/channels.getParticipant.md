@@ -4,8 +4,9 @@ description: Get info about a [channel/supergroup](https://core.telegram.org/api
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_getParticipant.html
 ---
-# Method: channels.getParticipant  
+# Method: channels.getParticipant
 [Back to methods index](index.md)
+
 
 
 Get info about a [channel/supergroup](https://core.telegram.org/api/channel) participant
@@ -54,5 +55,6 @@ channels.ChannelParticipant = channels.getParticipant({channel=InputChannel, use
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |400|USER_ID_INVALID|The provided user ID is invalid|
 |400|USER_NOT_PARTICIPANT|You're not a member of this supergroup/channel|
+|-503|Timeout|Timeout while fetching data|
 
 

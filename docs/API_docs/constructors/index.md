@@ -148,7 +148,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$botInlineMessageMediaContact](../constructors/botInlineMessageMediaContact.md) = \['phone_number' => [string](../types/string.md), 'first_name' => [string](../types/string.md), 'last_name' => [string](../types/string.md), 'vcard' => [string](../types/string.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), \];<a name="botInlineMessageMediaContact"></a>  
 
 ***
-<br><br>[$botInlineMessageMediaGeo](../constructors/botInlineMessageMediaGeo.md) = \['geo' => [GeoPoint](../types/GeoPoint.md), 'period' => [int](../types/int.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), \];<a name="botInlineMessageMediaGeo"></a>  
+<br><br>[$botInlineMessageMediaGeo](../constructors/botInlineMessageMediaGeo.md) = \['geo' => [GeoPoint](../types/GeoPoint.md), 'heading' => [int](../types/int.md), 'period' => [int](../types/int.md), 'proximity_notification_radius' => [int](../types/int.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), \];<a name="botInlineMessageMediaGeo"></a>  
 
 ***
 <br><br>[$botInlineMessageMediaVenue](../constructors/botInlineMessageMediaVenue.md) = \['geo' => [GeoPoint](../types/GeoPoint.md), 'title' => [string](../types/string.md), 'address' => [string](../types/string.md), 'provider' => [string](../types/string.md), 'venue_id' => [string](../types/string.md), 'venue_type' => [string](../types/string.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), \];<a name="botInlineMessageMediaVenue"></a>  
@@ -268,6 +268,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$channelParticipantCreator](../constructors/channelParticipantCreator.md) = \['user_id' => [int](../types/int.md), 'admin_rights' => [ChatAdminRights](../types/ChatAdminRights.md), 'rank' => [string](../types/string.md), \];<a name="channelParticipantCreator"></a>  
 
 ***
+<br><br>[$channelParticipantLeft](../constructors/channelParticipantLeft.md) = \['user_id' => [int](../types/int.md), \];<a name="channelParticipantLeft"></a>  
+
+***
 <br><br>[$channelParticipantSelf](../constructors/channelParticipantSelf.md) = \['user_id' => [int](../types/int.md), 'inviter_id' => [int](../types/int.md), 'date' => [int](../types/int.md), \];<a name="channelParticipantSelf"></a>  
 
 ***
@@ -284,6 +287,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$channelParticipantsKicked](../constructors/channelParticipantsKicked.md) = \['q' => [string](../types/string.md), \];<a name="channelParticipantsKicked"></a>  
+
+***
+<br><br>[$channelParticipantsMentions](../constructors/channelParticipantsMentions.md) = \['q' => [string](../types/string.md), 'top_msg_id' => [int](../types/int.md), \];<a name="channelParticipantsMentions"></a>  
 
 ***
 <br><br>[$channelParticipantsRecent](../constructors/channelParticipantsRecent.md) = \[\];<a name="channelParticipantsRecent"></a>  
@@ -607,7 +613,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$game](../constructors/game.md) = \['id' => [long](../types/long.md), 'access_hash' => [long](../types/long.md), 'short_name' => [string](../types/string.md), 'title' => [string](../types/string.md), 'description' => [string](../types/string.md), 'photo' => [Photo](../types/Photo.md), 'document' => [Document](../types/Document.md), \];<a name="game"></a>  
 
 ***
-<br><br>[$geoPoint](../constructors/geoPoint.md) = \['long' => [double](../types/double.md), 'lat' => [double](../types/double.md), 'access_hash' => [long](../types/long.md), \];<a name="geoPoint"></a>  
+<br><br>[$geoPoint](../constructors/geoPoint.md) = \['long' => [double](../types/double.md), 'lat' => [double](../types/double.md), 'access_hash' => [long](../types/long.md), 'accuracy_radius' => [int](../types/int.md), \];<a name="geoPoint"></a>  
 
 ***
 <br><br>[$geoPointEmpty](../constructors/geoPointEmpty.md) = \[\];<a name="geoPointEmpty"></a>  
@@ -703,7 +709,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$inputBotInlineMessageMediaContact](../constructors/inputBotInlineMessageMediaContact.md) = \['phone_number' => [string](../types/string.md), 'first_name' => [string](../types/string.md), 'last_name' => [string](../types/string.md), 'vcard' => [string](../types/string.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), \];<a name="inputBotInlineMessageMediaContact"></a>  
 
 ***
-<br><br>[$inputBotInlineMessageMediaGeo](../constructors/inputBotInlineMessageMediaGeo.md) = \['geo_point' => [InputGeoPoint](../types/InputGeoPoint.md), 'period' => [int](../types/int.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), \];<a name="inputBotInlineMessageMediaGeo"></a>  
+<br><br>[$inputBotInlineMessageMediaGeo](../constructors/inputBotInlineMessageMediaGeo.md) = \['geo_point' => [InputGeoPoint](../types/InputGeoPoint.md), 'heading' => [int](../types/int.md), 'period' => [int](../types/int.md), 'proximity_notification_radius' => [int](../types/int.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), \];<a name="inputBotInlineMessageMediaGeo"></a>  
 
 ***
 <br><br>[$inputBotInlineMessageMediaVenue](../constructors/inputBotInlineMessageMediaVenue.md) = \['geo_point' => [InputGeoPoint](../types/InputGeoPoint.md), 'title' => [string](../types/string.md), 'address' => [string](../types/string.md), 'provider' => [string](../types/string.md), 'venue_id' => [string](../types/string.md), 'venue_type' => [string](../types/string.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), \];<a name="inputBotInlineMessageMediaVenue"></a>  
@@ -802,7 +808,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$inputGameShortName](../constructors/inputGameShortName.md) = \['bot_id' => [InputUser](../types/InputUser.md), 'short_name' => [string](../types/string.md), \];<a name="inputGameShortName"></a>  
 
 ***
-<br><br>[$inputGeoPoint](../constructors/inputGeoPoint.md) = \['lat' => [double](../types/double.md), 'long' => [double](../types/double.md), \];<a name="inputGeoPoint"></a>  
+<br><br>[$inputGeoPoint](../constructors/inputGeoPoint.md) = \['lat' => [double](../types/double.md), 'long' => [double](../types/double.md), 'accuracy_radius' => [int](../types/int.md), \];<a name="inputGeoPoint"></a>  
 
 ***
 <br><br>[$inputGeoPointEmpty](../constructors/inputGeoPointEmpty.md) = \[\];<a name="inputGeoPointEmpty"></a>  
@@ -829,7 +835,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$inputMediaGame](../constructors/inputMediaGame.md) = \['id' => [InputGame](../types/InputGame.md), \];<a name="inputMediaGame"></a>  
 
 ***
-<br><br>[$inputMediaGeoLive](../constructors/inputMediaGeoLive.md) = \['stopped' => [Bool](../types/Bool.md), 'geo_point' => [InputGeoPoint](../types/InputGeoPoint.md), 'period' => [int](../types/int.md), \];<a name="inputMediaGeoLive"></a>  
+<br><br>[$inputMediaGeoLive](../constructors/inputMediaGeoLive.md) = \['stopped' => [Bool](../types/Bool.md), 'geo_point' => [InputGeoPoint](../types/InputGeoPoint.md), 'heading' => [int](../types/int.md), 'period' => [int](../types/int.md), 'proximity_notification_radius' => [int](../types/int.md), \];<a name="inputMediaGeoLive"></a>  
 
 ***
 <br><br>[$inputMediaGeoPoint](../constructors/inputMediaGeoPoint.md) = \['geo_point' => [InputGeoPoint](../types/InputGeoPoint.md), \];<a name="inputMediaGeoPoint"></a>  
@@ -854,6 +860,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$inputMediaVenue](../constructors/inputMediaVenue.md) = \['geo_point' => [InputGeoPoint](../types/InputGeoPoint.md), 'title' => [string](../types/string.md), 'address' => [string](../types/string.md), 'provider' => [string](../types/string.md), 'venue_id' => [string](../types/string.md), 'venue_type' => [string](../types/string.md), \];<a name="inputMediaVenue"></a>  
+
+***
+<br><br>[$inputMessageCallbackQuery](../constructors/inputMessageCallbackQuery.md) = \['id' => [int](../types/int.md), 'query_id' => [long](../types/long.md), \];<a name="inputMessageCallbackQuery"></a>  
 
 ***
 <br><br>[$inputMessageEntityMentionName](../constructors/inputMessageEntityMentionName.md) = \['offset' => [int](../types/int.md), 'length' => [int](../types/int.md), 'user_id' => [InputUser](../types/InputUser.md), \];<a name="inputMessageEntityMentionName"></a>  
@@ -899,6 +908,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$inputMessagesFilterPhotos](../constructors/inputMessagesFilterPhotos.md) = \[\];<a name="inputMessagesFilterPhotos"></a>  
+
+***
+<br><br>[$inputMessagesFilterPinned](../constructors/inputMessagesFilterPinned.md) = \[\];<a name="inputMessagesFilterPinned"></a>  
 
 ***
 <br><br>[$inputMessagesFilterRoundVideo](../constructors/inputMessagesFilterRoundVideo.md) = \[\];<a name="inputMessagesFilterRoundVideo"></a>  
@@ -1216,7 +1228,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$maskCoords](../constructors/maskCoords.md) = \['n' => [int](../types/int.md), 'x' => [double](../types/double.md), 'y' => [double](../types/double.md), 'zoom' => [double](../types/double.md), \];<a name="maskCoords"></a>  
 
 ***
-<br><br>[$message](../constructors/message.md) = \['out' => [Bool](../types/Bool.md), 'mentioned' => [Bool](../types/Bool.md), 'media_unread' => [Bool](../types/Bool.md), 'silent' => [Bool](../types/Bool.md), 'post' => [Bool](../types/Bool.md), 'from_scheduled' => [Bool](../types/Bool.md), 'legacy' => [Bool](../types/Bool.md), 'edit_hide' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'from_id' => [Peer](../types/Peer.md), 'peer_id' => [Peer](../types/Peer.md), 'fwd_from' => [MessageFwdHeader](../types/MessageFwdHeader.md), 'via_bot_id' => [int](../types/int.md), 'reply_to' => [MessageReplyHeader](../types/MessageReplyHeader.md), 'date' => [int](../types/int.md), 'message' => [string](../types/string.md), 'media' => [MessageMedia](../types/MessageMedia.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], 'views' => [int](../types/int.md), 'forwards' => [int](../types/int.md), 'replies' => [MessageReplies](../types/MessageReplies.md), 'edit_date' => [int](../types/int.md), 'post_author' => [string](../types/string.md), 'grouped_id' => [long](../types/long.md), 'restriction_reason' => \[[RestrictionReason](../types/RestrictionReason.md)\], \];<a name="message"></a>  
+<br><br>[$message](../constructors/message.md) = \['out' => [Bool](../types/Bool.md), 'mentioned' => [Bool](../types/Bool.md), 'media_unread' => [Bool](../types/Bool.md), 'silent' => [Bool](../types/Bool.md), 'post' => [Bool](../types/Bool.md), 'from_scheduled' => [Bool](../types/Bool.md), 'legacy' => [Bool](../types/Bool.md), 'edit_hide' => [Bool](../types/Bool.md), 'pinned' => [Bool](../types/Bool.md), 'id' => [int](../types/int.md), 'from_id' => [Peer](../types/Peer.md), 'peer_id' => [Peer](../types/Peer.md), 'fwd_from' => [MessageFwdHeader](../types/MessageFwdHeader.md), 'via_bot_id' => [int](../types/int.md), 'reply_to' => [MessageReplyHeader](../types/MessageReplyHeader.md), 'date' => [int](../types/int.md), 'message' => [string](../types/string.md), 'media' => [MessageMedia](../types/MessageMedia.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], 'views' => [int](../types/int.md), 'forwards' => [int](../types/int.md), 'replies' => [MessageReplies](../types/MessageReplies.md), 'edit_date' => [int](../types/int.md), 'post_author' => [string](../types/string.md), 'grouped_id' => [long](../types/long.md), 'restriction_reason' => \[[RestrictionReason](../types/RestrictionReason.md)\], \];<a name="message"></a>  
 
 ***
 <br><br>[$messageActionBotAllowed](../constructors/messageActionBotAllowed.md) = \['domain' => [string](../types/string.md), \];<a name="messageActionBotAllowed"></a>  
@@ -1262,6 +1274,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$messageActionGameScore](../constructors/messageActionGameScore.md) = \['game_id' => [long](../types/long.md), 'score' => [int](../types/int.md), \];<a name="messageActionGameScore"></a>  
+
+***
+<br><br>[$messageActionGeoProximityReached](../constructors/messageActionGeoProximityReached.md) = \['from_id' => [Peer](../types/Peer.md), 'to_id' => [Peer](../types/Peer.md), 'distance' => [int](../types/int.md), \];<a name="messageActionGeoProximityReached"></a>  
 
 ***
 <br><br>[$messageActionHistoryClear](../constructors/messageActionHistoryClear.md) = \[\];<a name="messageActionHistoryClear"></a>  
@@ -1369,7 +1384,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$messageMediaGeo](../constructors/messageMediaGeo.md) = \['geo' => [GeoPoint](../types/GeoPoint.md), \];<a name="messageMediaGeo"></a>  
 
 ***
-<br><br>[$messageMediaGeoLive](../constructors/messageMediaGeoLive.md) = \['geo' => [GeoPoint](../types/GeoPoint.md), 'period' => [int](../types/int.md), \];<a name="messageMediaGeoLive"></a>  
+<br><br>[$messageMediaGeoLive](../constructors/messageMediaGeoLive.md) = \['geo' => [GeoPoint](../types/GeoPoint.md), 'heading' => [int](../types/int.md), 'period' => [int](../types/int.md), 'proximity_notification_radius' => [int](../types/int.md), \];<a name="messageMediaGeoLive"></a>  
 
 ***
 <br><br>[$messageMediaInvoice](../constructors/messageMediaInvoice.md) = \['shipping_address_requested' => [Bool](../types/Bool.md), 'test' => [Bool](../types/Bool.md), 'title' => [string](../types/string.md), 'description' => [string](../types/string.md), 'photo' => [WebDocument](../types/WebDocument.md), 'receipt_msg_id' => [int](../types/int.md), 'currency' => [string](../types/string.md), 'total_amount' => [long](../types/long.md), 'start_param' => [string](../types/string.md), \];<a name="messageMediaInvoice"></a>  
@@ -1435,7 +1450,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$messages.botResults](../constructors/messages.botResults.md) = \['gallery' => [Bool](../types/Bool.md), 'query_id' => [long](../types/long.md), 'next_offset' => [string](../types/string.md), 'switch_pm' => [InlineBotSwitchPM](../types/InlineBotSwitchPM.md), 'results' => \[[BotInlineResult](../types/BotInlineResult.md)\], 'cache_time' => [int](../types/int.md), 'users' => \[[User](../types/User.md)\], \];<a name="messages.botResults"></a>  
 
 ***
-<br><br>[$messages.channelMessages](../constructors/messages.channelMessages.md) = \['inexact' => [Bool](../types/Bool.md), 'pts' => [int](../types/int.md), 'count' => [int](../types/int.md), 'messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="messages.channelMessages"></a>  
+<br><br>[$messages.channelMessages](../constructors/messages.channelMessages.md) = \['inexact' => [Bool](../types/Bool.md), 'pts' => [int](../types/int.md), 'count' => [int](../types/int.md), 'offset_id_offset' => [int](../types/int.md), 'messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="messages.channelMessages"></a>  
 
 ***
 <br><br>[$messages.chatFull](../constructors/messages.chatFull.md) = \['full_chat' => [ChatFull](../types/ChatFull.md), 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="messages.chatFull"></a>  
@@ -1501,7 +1516,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$messages.messagesNotModified](../constructors/messages.messagesNotModified.md) = \['count' => [int](../types/int.md), \];<a name="messages.messagesNotModified"></a>  
 
 ***
-<br><br>[$messages.messagesSlice](../constructors/messages.messagesSlice.md) = \['inexact' => [Bool](../types/Bool.md), 'count' => [int](../types/int.md), 'next_rate' => [int](../types/int.md), 'messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="messages.messagesSlice"></a>  
+<br><br>[$messages.messagesSlice](../constructors/messages.messagesSlice.md) = \['inexact' => [Bool](../types/Bool.md), 'count' => [int](../types/int.md), 'next_rate' => [int](../types/int.md), 'offset_id_offset' => [int](../types/int.md), 'messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], \];<a name="messages.messagesSlice"></a>  
 
 ***
 <br><br>[$messages.peerDialogs](../constructors/messages.peerDialogs.md) = \['dialogs' => \[[Dialog](../types/Dialog.md)\], 'messages' => \[[Message](../types/Message.md)\], 'chats' => \[[Chat](../types/Chat.md)\], 'users' => \[[User](../types/User.md)\], 'state' => [updates.State](../types/updates.State.md), \];<a name="messages.peerDialogs"></a>  
@@ -1787,6 +1802,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$photoEmpty](../constructors/photoEmpty.md) = \['id' => [long](../types/long.md), \];<a name="photoEmpty"></a>  
+
+***
+<br><br>[$photoPathSize](../constructors/photoPathSize.md) = \['type' => [string](../types/string.md), 'bytes' => [bytes](../types/bytes.md), \];<a name="photoPathSize"></a>  
 
 ***
 <br><br>[$photoSize](../constructors/photoSize.md) = \['type' => [string](../types/string.md), 'location' => [FileLocation](../types/FileLocation.md), 'w' => [int](../types/int.md), 'h' => [int](../types/int.md), 'size' => [int](../types/int.md), \];<a name="photoSize"></a>  
@@ -2266,9 +2284,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$updateChannelParticipant](../constructors/updateChannelParticipant.md) = \['channel_id' => [int](../types/int.md), 'date' => [int](../types/int.md), 'user_id' => [int](../types/int.md), 'prev_participant' => [ChannelParticipant](../types/ChannelParticipant.md), 'new_participant' => [ChannelParticipant](../types/ChannelParticipant.md), 'qts' => [int](../types/int.md), \];<a name="updateChannelParticipant"></a>  
 
 ***
-<br><br>[$updateChannelPinnedMessage](../constructors/updateChannelPinnedMessage.md) = \['channel_id' => [int](../types/int.md), 'id' => [int](../types/int.md), \];<a name="updateChannelPinnedMessage"></a>  
-
-***
 <br><br>[$updateChannelReadMessagesContents](../constructors/updateChannelReadMessagesContents.md) = \['channel_id' => [int](../types/int.md), 'messages' => \[[int](../types/int.md)\], \];<a name="updateChannelReadMessagesContents"></a>  
 
 ***
@@ -2294,9 +2309,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$updateChatParticipants](../constructors/updateChatParticipants.md) = \['participants' => [ChatParticipants](../types/ChatParticipants.md), \];<a name="updateChatParticipants"></a>  
-
-***
-<br><br>[$updateChatPinnedMessage](../constructors/updateChatPinnedMessage.md) = \['chat_id' => [int](../types/int.md), 'id' => [int](../types/int.md), 'version' => [int](../types/int.md), \];<a name="updateChatPinnedMessage"></a>  
 
 ***
 <br><br>[$updateChatUserTyping](../constructors/updateChatUserTyping.md) = \['chat_id' => [int](../types/int.md), 'user_id' => [int](../types/int.md), 'action' => [SendMessageAction](../types/SendMessageAction.md), \];<a name="updateChatUserTyping"></a>  
@@ -2416,7 +2428,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$updatePhoneCallSignalingData](../constructors/updatePhoneCallSignalingData.md) = \['phone_call_id' => [long](../types/long.md), 'data' => [bytes](../types/bytes.md), \];<a name="updatePhoneCallSignalingData"></a>  
 
 ***
+<br><br>[$updatePinnedChannelMessages](../constructors/updatePinnedChannelMessages.md) = \['pinned' => [Bool](../types/Bool.md), 'channel_id' => [int](../types/int.md), 'messages' => \[[int](../types/int.md)\], 'pts' => [int](../types/int.md), 'pts_count' => [int](../types/int.md), \];<a name="updatePinnedChannelMessages"></a>  
+
+***
 <br><br>[$updatePinnedDialogs](../constructors/updatePinnedDialogs.md) = \['folder_id' => [int](../types/int.md), 'order' => \[[DialogPeer](../types/DialogPeer.md)\], \];<a name="updatePinnedDialogs"></a>  
+
+***
+<br><br>[$updatePinnedMessages](../constructors/updatePinnedMessages.md) = \['pinned' => [Bool](../types/Bool.md), 'peer' => [Peer](../types/Peer.md), 'messages' => \[[int](../types/int.md)\], 'pts' => [int](../types/int.md), 'pts_count' => [int](../types/int.md), \];<a name="updatePinnedMessages"></a>  
 
 ***
 <br><br>[$updatePrivacy](../constructors/updatePrivacy.md) = \['key' => [PrivacyKey](../types/PrivacyKey.md), 'rules' => \[[PrivacyRule](../types/PrivacyRule.md)\], \];<a name="updatePrivacy"></a>  
@@ -2486,9 +2504,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$updateUserPhoto](../constructors/updateUserPhoto.md) = \['user_id' => [int](../types/int.md), 'date' => [int](../types/int.md), 'photo' => [UserProfilePhoto](../types/UserProfilePhoto.md), 'previous' => [Bool](../types/Bool.md), \];<a name="updateUserPhoto"></a>  
-
-***
-<br><br>[$updateUserPinnedMessage](../constructors/updateUserPinnedMessage.md) = \['user_id' => [int](../types/int.md), 'id' => [int](../types/int.md), \];<a name="updateUserPinnedMessage"></a>  
 
 ***
 <br><br>[$updateUserStatus](../constructors/updateUserStatus.md) = \['user_id' => [int](../types/int.md), 'status' => [UserStatus](../types/UserStatus.md), \];<a name="updateUserStatus"></a>  

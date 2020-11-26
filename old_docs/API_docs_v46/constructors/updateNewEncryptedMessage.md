@@ -14,7 +14,7 @@ New encrypted message.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|encr\_message|[EncryptedMessage](../types/EncryptedMessage.md) | Yes|Encr message|
+|message|[EncryptedMessage](../types/EncryptedMessage.md) | Yes|Message|
 |qts|[int](../types/int.md) | Yes|New **qts** value|
 
 
@@ -25,14 +25,14 @@ New encrypted message.
 ### Example:
 
 ```php
-$updateNewEncryptedMessage = ['_' => 'updateNewEncryptedMessage', 'encr_message' => EncryptedMessage, 'qts' => int];
+$updateNewEncryptedMessage = ['_' => 'updateNewEncryptedMessage', 'message' => EncryptedMessage, 'qts' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateNewEncryptedMessage={_='updateNewEncryptedMessage', encr_message=EncryptedMessage, qts=int}
+updateNewEncryptedMessage={_='updateNewEncryptedMessage', message=EncryptedMessage, qts=int}
 
 ```
 

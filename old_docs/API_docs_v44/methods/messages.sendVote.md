@@ -54,5 +54,7 @@ Updates = messages.sendVote({peer=InputPeer, msg_id=int, options={'bytes'}, })
 |400|MESSAGE_POLL_CLOSED|Poll closed|
 |400|OPTION_INVALID|Invalid option selected|
 |400|OPTIONS_TOO_MUCH|Too many options provided|
+|400|REVOTE_NOT_ALLOWED|You cannot change your vote|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 
 

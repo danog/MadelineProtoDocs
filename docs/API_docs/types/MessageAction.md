@@ -56,6 +56,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionContactSignUp](../constructors/messageActionContactSignUp.md)  
 
+[messageActionGeoProximityReached](../constructors/messageActionGeoProximityReached.md)  
+
 
 
 ### Methods that return an object of this type (methods):
@@ -107,4 +109,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [messageActionSecureValuesSent](../constructors/messageActionSecureValuesSent.md)  
 
 [messageActionContactSignUp](../constructors/messageActionContactSignUp.md)  
+
+[messageActionGeoProximityReached](../constructors/messageActionGeoProximityReached.md)  
 

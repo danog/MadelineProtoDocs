@@ -16,6 +16,8 @@ update feed loop.
 
 ## Method list:
 * `loop(): \Generator`
+* `feed((array|mixed)[] $updates)`
+* `addPendingWakeups(true[] $wakeups)`
 * `pause(?int $time): \Promise Resolved when the loop is resumed`
 * `resume(): \Promise Resolved when the loop is paused again`
 * `resumeDefer(): \Promise Resolved when the loop is paused again`
@@ -33,6 +35,26 @@ Main loop.
 #### See also: 
 * `\Generator`
 
+
+
+
+### `feed((array|mixed)[] $updates)`
+
+
+
+
+Parameters:
+* `$updates`: `(array|mixed)[]`   
+
+
+
+### `addPendingWakeups(true[] $wakeups)`
+
+
+
+
+Parameters:
+* `$wakeups`: `true[]`   
 
 
 

@@ -16,16 +16,77 @@ Array caching trait.
 
 
 ## Method list:
+* `initConnection()`
+* `initStartup(): \Generator`
+* `getTable(): string`
+* `setTable(string $table): self`
+* `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
 * `getArrayCopy(): \Amp\Promise`
 * `isset(string|int $key): \Amp\Promise`
 * `offsetGet(string|int $index): \Amp\Promise`
 * `offsetSet(string|int $index, mixed $value): void`
 * `offsetUnset(string|int $index): \Amp\Promise`
 * `count(): \Amp\Promise<int>`
+* `clear(): \Amp\Promise`
 * `getIterator()`
-* `getInstance(string $table, null|\danog\MadelineProto\Db\DbType|array $value, \danog\MadelineProto\Settings\DatabaseAbstract $settings): \Amp\Promise<self>`
 
 ## Methods:
+### `initConnection()`
+
+Initialize connection.
+
+
+
+### `initStartup(): \Generator`
+
+Initialize on startup.
+
+
+#### See also: 
+* `\Generator`
+
+
+
+
+### `getTable(): string`
+
+Get the value of table.
+
+
+
+### `setTable(string $table): self`
+
+Set the value of table.
+
+
+Parameters:
+* `$table`: `string`   
+
+
+
+### `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
+
+
+
+
+Parameters:
+* `$table`: `string`   
+* `$previous`: `\danog\MadelineProto\Db\DbArray|array|null`   
+* `$settings`: `\danog\MadelineProto\Settings\Database\DatabaseAbstract`   
+
+
+Fully typed return value:
+```
+\Amp\Promise<static>
+```
+#### See also: 
+* [`\danog\MadelineProto\Db\DbArray`: DB array interface.](./DbArray.md)
+* [`\danog\MadelineProto\Settings\Database\DatabaseAbstract`: Base class for database backends.](../Settings/Database/DatabaseAbstract.md)
+* `\Amp\Promise`
+
+
+
+
 ### `getArrayCopy(): \Amp\Promise`
 
 Get Array copy.
@@ -127,27 +188,20 @@ Count number of elements.
 
 
 
-### `getIterator()`
+### `clear(): \Amp\Promise`
 
-Get iterator.
-
-
-
-### `getInstance(string $table, null|\danog\MadelineProto\Db\DbType|array $value, \danog\MadelineProto\Settings\DatabaseAbstract $settings): \Amp\Promise<self>`
-
-
-
-
-Parameters:
-* `$table`: `string`   
-* `$value`: `null|\danog\MadelineProto\Db\DbType|array`   
-* `$settings`: `\danog\MadelineProto\Settings\DatabaseAbstract`   
+Clear all elements.
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\DatabaseAbstract`: Base class for storage backends.](../Settings/DatabaseAbstract.md)
 * `\Amp\Promise`
 
+
+
+
+### `getIterator()`
+
+Get iterator.
 
 
 

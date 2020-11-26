@@ -23,6 +23,8 @@ $InputMessage = 142; // Numeric message ID
 
 [inputMessagePinned](../constructors/inputMessagePinned.md)  
 
+[inputMessageCallbackQuery](../constructors/inputMessageCallbackQuery.md)  
+
 
 
 ### Methods that return an object of this type (methods):
@@ -34,4 +36,6 @@ $InputMessage = 142; // Numeric message ID
 [inputMessageReplyTo](../constructors/inputMessageReplyTo.md)  
 
 [inputMessagePinned](../constructors/inputMessagePinned.md)  
+
+[inputMessageCallbackQuery](../constructors/inputMessageCallbackQuery.md)  
 

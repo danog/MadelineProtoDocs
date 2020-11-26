@@ -19,6 +19,9 @@ Chat invite info
 |public|[Bool](../types/Bool.md) | Optional|Whether this is a public [channel/supergroup](https://core.telegram.org/api/channel)|
 |megagroup|[Bool](../types/Bool.md) | Optional|Whether this is a [supergroup](https://core.telegram.org/api/channel)|
 |title|[string](../types/string.md) | Yes|Chat/supergroup/channel title|
+|photo|[Photo](../types/Photo.md) | Optional|Chat/supergroup/channel photo|
+|participants\_count|[int](../types/int.md) | Yes|Participant count|
+|participants|Array of [User](../types/User.md) | Optional|A few of the participants that are in the group|
 
 
 
@@ -28,14 +31,14 @@ Chat invite info
 ### Example:
 
 ```php
-$chatInvite = ['_' => 'chatInvite', 'channel' => Bool, 'broadcast' => Bool, 'public' => Bool, 'megagroup' => Bool, 'title' => 'string'];
+$chatInvite = ['_' => 'chatInvite', 'channel' => Bool, 'broadcast' => Bool, 'public' => Bool, 'megagroup' => Bool, 'title' => 'string', 'photo' => Photo, 'participants_count' => int, 'participants' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-chatInvite={_='chatInvite', channel=Bool, broadcast=Bool, public=Bool, megagroup=Bool, title='string'}
+chatInvite={_='chatInvite', channel=Bool, broadcast=Bool, public=Bool, megagroup=Bool, title='string', photo=Photo, participants_count=int, participants={User}}
 
 ```
 

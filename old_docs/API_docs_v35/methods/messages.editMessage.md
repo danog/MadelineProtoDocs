@@ -116,6 +116,7 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 |400|MESSAGE_EMPTY|The provided message is empty|
 |400|MESSAGE_ID_INVALID|The provided message id is invalid|
 |400|MESSAGE_NOT_MODIFIED|The message text has not changed|
+|400|MESSAGE_TOO_LONG|The provided message is too long|
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|REPLY_MARKUP_INVALID|The provided reply markup is invalid|
@@ -126,5 +127,6 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 |403|INLINE_BOT_REQUIRED|Only the inline bot can edit message|
 |403|MESSAGE_AUTHOR_REQUIRED|Message author required|
+|-503|Timeout|Timeout while fetching data|
 
 

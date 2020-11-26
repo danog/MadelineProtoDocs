@@ -14,8 +14,8 @@ Forwarded document
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|document\_id|[MessageMedia, Message, Update or InputDocument](../types/InputDocument.md) | Optional|Document ID|
-|caption|[string](../types/string.md) | Yes|Caption|
+|id|[MessageMedia, Message, Update or InputDocument](../types/InputDocument.md) | Optional|The document to be forwarded.|
+|ttl\_seconds|[int](../types/int.md) | Optional|Time to live of self-destructing document|
 
 
 
@@ -25,14 +25,14 @@ Forwarded document
 ### Example:
 
 ```php
-$inputMediaDocument = ['_' => 'inputMediaDocument', 'document_id' => InputDocument, 'caption' => 'string'];
+$inputMediaDocument = ['_' => 'inputMediaDocument', 'id' => InputDocument, 'ttl_seconds' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-inputMediaDocument={_='inputMediaDocument', document_id=InputDocument, caption='string'}
+inputMediaDocument={_='inputMediaDocument', id=InputDocument, ttl_seconds=int}
 
 ```
 

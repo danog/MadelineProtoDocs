@@ -14,7 +14,7 @@ Change of state in an encrypted chat.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|encr\_chat|[EncryptedChat](../types/EncryptedChat.md) | Optional|Encr chat|
+|chat|[EncryptedChat](../types/EncryptedChat.md) | Optional|Encrypted chat|
 |date|[int](../types/int.md) | Yes|Date of change|
 
 
@@ -25,14 +25,14 @@ Change of state in an encrypted chat.
 ### Example:
 
 ```php
-$updateEncryption = ['_' => 'updateEncryption', 'encr_chat' => EncryptedChat, 'date' => int];
+$updateEncryption = ['_' => 'updateEncryption', 'chat' => EncryptedChat, 'date' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateEncryption={_='updateEncryption', encr_chat=EncryptedChat, date=int}
+updateEncryption={_='updateEncryption', chat=EncryptedChat, date=int}
 
 ```
 

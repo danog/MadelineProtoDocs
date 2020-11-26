@@ -1,21 +1,22 @@
 ---
 title: messages.getDhConfig
-description: You cannot use this method directly, instead use $MadelineProto->getDhConfig();
+description: Returns configuration parameters for Diffie-Hellman key generation. Can also return a random sequence of bytes of required length.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getDhConfig.html
 ---
-# Method: messages.getDhConfig  
+# Method: messages.getDhConfig
 [Back to methods index](index.md)
 
 
-You cannot use this method directly, instead use $MadelineProto->getDhConfig();
+
+Returns configuration parameters for Diffie-Hellman key generation. Can also return a random sequence of bytes of required length.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|version|[int](../types/int.md) | You cannot use this method directly, instead use $MadelineProto->getDhConfig(); | Yes|
-|random\_length|[int](../types/int.md) | You cannot use this method directly, instead use $MadelineProto->getDhConfig(); | Yes|
+|version|[int](../types/int.md) | Value of the **version** parameter from [messages.dhConfig](../constructors/messages.dhConfig.md), avialable at the client | Yes|
+|random\_length|[int](../types/int.md) | Length of the required random sequence | Yes|
 
 
 ### Return type: [messages.DhConfig](../types/messages.DhConfig.md)
@@ -49,5 +50,6 @@ messages.DhConfig = messages.getDhConfig({version=int, random_length=int, })
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|RANDOM_LENGTH_INVALID|Random length invalid|
+|-503|Timeout|Timeout while fetching data|
 
 

@@ -16,24 +16,123 @@ Generic SQL database backend.
 
 
 ## Method list:
-* `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $value, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
-* `getArrayCopy(): \Amp\Promise`
-* `isset(string|int $key): \Amp\Promise`
-* `offsetGet(string|int $index): \Amp\Promise`
-* `offsetSet(string|int $index, mixed $value): void`
+* `isset( $key): \Promise<bool> true if the offset exists, otherwise false`
 * `offsetUnset(string|int $index): \Amp\Promise`
-* `count(): \Amp\Promise<int>`
-* `getIterator()`
+* `count(): \Promise<int> The number of elements or public properties in the associated
+array or object, respectively.`
+* `clear(): \Amp\Promise`
+* `offsetSet(string|int $index,  $value)`
+* `initConnection()`
+* `initStartup(): \Generator`
+* `getTable(): string`
+* `setTable(string $table): self`
+* `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
 
 ## Methods:
-### `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $value, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
+### `isset( $key): \Promise<bool> true if the offset exists, otherwise false`
+
+Check if key isset.
+
+
+Parameters:
+* `$key`: ``   
+
+
+Return value: true if the offset exists, otherwise false
+
+
+### `offsetUnset(string|int $index): \Amp\Promise`
+
+Unset value for an offset.
+
+
+Parameters:
+* `$index`: `string|int` <p>
+The offset to unset.
+</p>  
+
+
+#### See also: 
+* `\Amp\Promise`
+
+
+
+
+### `count(): \Promise<int> The number of elements or public properties in the associated
+array or object, respectively.`
+
+Count elements.
+
+
+Return value: The number of elements or public properties in the associated
+array or object, respectively.
+
+
+### `clear(): \Amp\Promise`
+
+Clear all elements.
+
+
+#### See also: 
+* `\Amp\Promise`
+
+
+
+
+### `offsetSet(string|int $index,  $value)`
+
+Set value for an offset.
+
+
+Parameters:
+* `$index`: `string|int` <p>
+The index to set for.
+</p>  
+* `$value`: ``   
+
+
+
+### `initConnection()`
+
+Initialize connection.
+
+
+
+### `initStartup(): \Generator`
+
+Initialize on startup.
+
+
+#### See also: 
+* `\Generator`
+
+
+
+
+### `getTable(): string`
+
+Get the value of table.
+
+
+
+### `setTable(string $table): self`
+
+Set the value of table.
+
+
+Parameters:
+* `$table`: `string`   
+
+
+
+### `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
 
 
 
 
 Parameters:
 * `$table`: `string`   
-* `$value`: `\danog\MadelineProto\Db\DbArray|array|null`   
+* `$previous`: `\danog\MadelineProto\Db\DbArray|array|null`   
 * `$settings`: `\danog\MadelineProto\Settings\Database\DatabaseAbstract`   
 
 
@@ -46,113 +145,6 @@ Fully typed return value:
 * [`\danog\MadelineProto\Settings\Database\DatabaseAbstract`: Base class for database backends.](../Settings/Database/DatabaseAbstract.md)
 * `\Amp\Promise`
 
-
-
-
-### `getArrayCopy(): \Amp\Promise`
-
-Get Array copy.
-
-
-Fully typed return value:
-```
-\Amp\Promise<array<string|int, \T>>
-```
-#### See also: 
-* `\T`
-* `\Amp\Promise`
-
-
-
-
-### `isset(string|int $key): \Amp\Promise`
-
-Check if element is set.
-
-
-Parameters:
-* `$key`: `string|int`   
-
-
-Fully typed return value:
-```
-\Amp\Promise<bool>
-```
-#### See also: 
-* `\Amp\Promise`
-
-
-
-
-### `offsetGet(string|int $index): \Amp\Promise`
-
-Get element.
-
-
-Parameters:
-* `$index`: `string|int`   
-
-
-Fully typed return value:
-```
-\Amp\Promise<\T>
-```
-#### See also: 
-* `\T`
-* `\Amp\Promise`
-
-
-
-
-### `offsetSet(string|int $index, mixed $value): void`
-
-Set element.
-
-
-Parameters:
-* `$index`: `string|int`   
-* `$value`: `mixed`   
-  Full type:
-  ```
-  \T
-  ```
-
-
-#### See also: 
-* `\T`
-
-
-
-
-### `offsetUnset(string|int $index): \Amp\Promise`
-
-Unset element.
-
-
-Parameters:
-* `$index`: `string|int` Offset  
-
-
-#### See also: 
-* `\Amp\Promise`
-
-
-
-
-### `count(): \Amp\Promise<int>`
-
-Count number of elements.
-
-
-#### See also: 
-* `\Amp\Promise`
-
-
-
-
-### `getIterator()`
-
-Get iterator.
 
 
 

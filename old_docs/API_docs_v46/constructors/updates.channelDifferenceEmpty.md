@@ -16,7 +16,7 @@ There are no new updates
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |final|[Bool](../types/Bool.md) | Optional|Whether there are more updates that must be fetched (always false)|
-|channel\_pts|[int](../types/int.md) | Yes|Channel pts|
+|pts|[int](../types/int.md) | Yes|The latest [PTS](https://core.telegram.org/api/updates)|
 |timeout|[int](../types/int.md) | Optional|Clients are supposed to refetch the channel difference after timeout seconds have elapsed|
 
 
@@ -27,14 +27,14 @@ There are no new updates
 ### Example:
 
 ```php
-$updates.channelDifferenceEmpty = ['_' => 'updates.channelDifferenceEmpty', 'final' => Bool, 'channel_pts' => int, 'timeout' => int];
+$updates.channelDifferenceEmpty = ['_' => 'updates.channelDifferenceEmpty', 'final' => Bool, 'pts' => int, 'timeout' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updates.channelDifferenceEmpty={_='updates.channelDifferenceEmpty', final=Bool, channel_pts=int, timeout=int}
+updates.channelDifferenceEmpty={_='updates.channelDifferenceEmpty', final=Bool, pts=int, timeout=int}
 
 ```
 

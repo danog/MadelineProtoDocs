@@ -64,6 +64,8 @@ messages.StatedMessages = messages.forwardMessages({peer=InputPeer, id={int}, })
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|RANDOM_ID_INVALID|A provided random ID is invalid|
+|400|SCHEDULE_TOO_MUCH|There are too many scheduled messages|
+|400|SLOWMODE_MULTI_MSGS_DISABLED|Slowmode is enabled, you cannot forward multiple messages to this group.|
 |400|USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
 |400|USER_IS_BLOCKED|You were blocked by this user|
 |400|USER_IS_BOT|Bots can't send messages to other bots|

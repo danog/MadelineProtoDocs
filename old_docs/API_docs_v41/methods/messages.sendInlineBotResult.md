@@ -57,12 +57,14 @@ Updates = messages.sendInlineBotResult({silent=Bool, background=Bool, clear_draf
 | Code | Type     | Description   |
 |------|----------|---------------|
 |420|SLOWMODE_WAIT_X|Slowmode is enabled in this chat: wait X seconds before sending another message to this chat.|
+|400|CHANNEL_INVALID|The provided channel is invalid|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 |400|CHAT_RESTRICTED|You can't send messages in this chat, you were restricted|
 |400|INLINE_RESULT_EXPIRED|The inline query expired|
 |400|INPUT_USER_DEACTIVATED|The specified user was deleted|
 |400|MEDIA_EMPTY|The provided media object is invalid|
+|400|MSG_ID_INVALID|Invalid message ID provided|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|QUERY_ID_EMPTY|The query ID is empty|
 |400|RESULT_ID_EMPTY|Result ID empty|

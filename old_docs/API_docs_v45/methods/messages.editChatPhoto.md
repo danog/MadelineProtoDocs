@@ -4,8 +4,9 @@ description: Changes chat photo and sends a service message on it
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_editChatPhoto.html
 ---
-# Method: messages.editChatPhoto  
+# Method: messages.editChatPhoto
 [Back to methods index](index.md)
+
 
 
 Changes chat photo and sends a service message on it
@@ -14,7 +15,7 @@ Changes chat photo and sends a service message on it
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The ID of the chat | Optional|
+|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
 |photo|[InputChatPhoto](../types/InputChatPhoto.md) | Photo to be set | Optional|
 
 
@@ -49,10 +50,12 @@ Updates = messages.editChatPhoto({chat_id=InputPeer, photo=InputChatPhoto, })
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|CHAT_ID_INVALID|The provided chat id is invalid|
+|400|CHAT_NOT_MODIFIED|The pinned message wasn't modified|
 |400|INPUT_CONSTRUCTOR_INVALID|The provided constructor is invalid|
 |400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|PHOTO_CROP_SIZE_SMALL|Photo is too small|
 |400|PHOTO_EXT_INVALID|The extension of the photo is invalid|
+|400|PHOTO_INVALID|Photo invalid|
 
 

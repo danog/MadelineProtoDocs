@@ -48,6 +48,8 @@ Vector_of_User = users.getUsers({id={InputUser}, })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
+|400|CONNECTION_NOT_INITED|Connection not initialized|
 |400|INPUT_LAYER_INVALID|The provided layer is invalid|
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|

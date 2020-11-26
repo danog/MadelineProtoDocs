@@ -4,8 +4,9 @@ description: Sends a text message to a secret chat.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_sendEncrypted.html
 ---
-# Method: messages.sendEncrypted  
+# Method: messages.sendEncrypted
 [Back to methods index](index.md)
+
 
 
 Sends a text message to a secret chat.
@@ -14,8 +15,9 @@ Sends a text message to a secret chat.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|silent|[Bool](../types/Bool.md) |  | Optional|
 |peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | Secret chat ID | Yes|
-|data|[bytes](../types/bytes.md) | TL-serialization of [DecryptedMessage](../types/DecryptedMessage.md) type, encrypted with a key that was created during chat initialization | Yes|
+|data|[bytes](../types/bytes.md) | [DecryptedMessage](../types/DecryptedMessage.md) type | Yes|
 
 
 ### Return type: [messages.SentEncryptedMessage](../types/messages.SentEncryptedMessage.md)
@@ -35,13 +37,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.SentEncryptedMessage = $MadelineProto->messages->sendEncrypted(['peer' => InputEncryptedChat, 'data' => 'bytes', ]);
+$messages.SentEncryptedMessage = $MadelineProto->messages->sendEncrypted(['silent' => Bool, 'peer' => InputEncryptedChat, 'data' => 'bytes', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.SentEncryptedMessage = messages.sendEncrypted({peer=InputEncryptedChat, data='bytes', })
+messages.SentEncryptedMessage = messages.sendEncrypted({silent=Bool, peer=InputEncryptedChat, data='bytes', })
 ```
 
 ### Errors

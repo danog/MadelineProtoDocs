@@ -4,8 +4,9 @@ description: Deletes a user from a chat and sends a service message on it.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_deleteChatUser.html
 ---
-# Method: messages.deleteChatUser  
+# Method: messages.deleteChatUser
 [Back to methods index](index.md)
+
 
 
 Deletes a user from a chat and sends a service message on it.
@@ -14,7 +15,7 @@ Deletes a user from a chat and sends a service message on it.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The ID of the chat | Optional|
+|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
 |user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | User ID to be deleted | Optional|
 
 
@@ -51,6 +52,7 @@ Updates = messages.deleteChatUser({chat_id=InputPeer, user_id=InputUser, })
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 |400|CHAT_ID_INVALID|The provided chat id is invalid|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
+|400|USER_ID_INVALID|The provided user ID is invalid|
 |400|USER_NOT_PARTICIPANT|You're not a member of this supergroup/channel|
 
 

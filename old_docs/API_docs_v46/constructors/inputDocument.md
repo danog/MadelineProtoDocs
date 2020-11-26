@@ -16,6 +16,7 @@ Defines a video for subsequent interaction.
 |----------|---------------|----------|-------------|
 |id|[long](../types/long.md) | Yes|Document ID|
 |access\_hash|[long](../types/long.md) | Yes|**access\_hash** parameter from the [document](../constructors/document.md) constructor|
+|file\_reference|[bytes](../types/bytes.md) | Yes|[File reference](https://core.telegram.org/api/file_reference)|
 
 
 
@@ -25,14 +26,14 @@ Defines a video for subsequent interaction.
 ### Example:
 
 ```php
-$inputDocument = ['_' => 'inputDocument', 'id' => long, 'access_hash' => long];
+$inputDocument = ['_' => 'inputDocument', 'id' => long, 'access_hash' => long, 'file_reference' => 'bytes'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-inputDocument={_='inputDocument', id=long, access_hash=long}
+inputDocument={_='inputDocument', id=long, access_hash=long, file_reference='bytes'}
 
 ```
 

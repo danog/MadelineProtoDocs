@@ -15,8 +15,8 @@ Info about all installed stickers
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[int](../types/int.md) | Yes|[Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
-|sets|Array of [StickerSet](../types/StickerSet.md) | Yes|Sets|
+|hash|[int](../types/int.md) | Yes|
+|sets|Array of [StickerSet](../types/StickerSet.md) | Yes|All stickersets|
 
 
 

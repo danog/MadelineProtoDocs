@@ -24,6 +24,16 @@ Base class for database backends.
 * `getUri(): string`
 * `setDatabase(int|string $database): self`
 * `setUri(string $uri): self`
+* `getEnableFileReferenceDb(): bool`
+* `setEnableFileReferenceDb(bool $enableFileReferenceDb): self`
+* `getEnableMinDb(): bool`
+* `setEnableMinDb(bool $enableMinDb): self`
+* `getEnableUsernameDb(): bool`
+* `setEnableUsernameDb(bool $enableUsernameDb): self`
+* `getEnableFullPeerDb(): bool`
+* `setEnableFullPeerDb(bool $enableFullPeerDb): self`
+* `getEnablePeerInfoDb(): bool`
+* `setEnablePeerInfoDb(bool $enablePeerInfoDb): self`
 * `hasChanged(): bool`
 
 ## Methods:
@@ -94,6 +104,86 @@ Set database URI.
 
 Parameters:
 * `$uri`: `string`   
+
+
+
+### `getEnableFileReferenceDb(): bool`
+
+Get whether to enable the file reference database. If disabled, will break file downloads.
+
+
+
+### `setEnableFileReferenceDb(bool $enableFileReferenceDb): self`
+
+Set whether to enable the file reference database. If disabled, will break file downloads.
+
+
+Parameters:
+* `$enableFileReferenceDb`: `bool` Whether to enable the file reference database. If disabled, will break file downloads.  
+
+
+
+### `getEnableMinDb(): bool`
+
+Get whether to enable the min database. If disabled, will break sendMessage (and other methods) in certain conditions.
+
+
+
+### `setEnableMinDb(bool $enableMinDb): self`
+
+Set whether to enable the min database. If disabled, will break sendMessage (and other methods) in certain conditions.
+
+
+Parameters:
+* `$enableMinDb`: `bool` Whether to enable the min database. If disabled, will break sendMessage (and other methods) in certain conditions.  
+
+
+
+### `getEnableUsernameDb(): bool`
+
+Get whether to enable the username database. If disabled, will break sendMessage (and other methods) with usernames.
+
+
+
+### `setEnableUsernameDb(bool $enableUsernameDb): self`
+
+Set whether to enable the username database. If disabled, will break sendMessage (and other methods) with usernames.
+
+
+Parameters:
+* `$enableUsernameDb`: `bool` Whether to enable the username database. If disabled, will break sendMessage (and other methods) with usernames.  
+
+
+
+### `getEnableFullPeerDb(): bool`
+
+Get whether to enable the full peer info database. If disabled, will break getFullInfo.
+
+
+
+### `setEnableFullPeerDb(bool $enableFullPeerDb): self`
+
+Set whether to enable the full peer info database. If disabled, will break getFullInfo.
+
+
+Parameters:
+* `$enableFullPeerDb`: `bool` Whether to enable the full peer info database. If disabled, will break getFullInfo.  
+
+
+
+### `getEnablePeerInfoDb(): bool`
+
+Get whether to enable the peer info database. If disabled, will break getInfo.
+
+
+
+### `setEnablePeerInfoDb(bool $enablePeerInfoDb): self`
+
+Set whether to enable the peer info database. If disabled, will break getInfo.
+
+
+Parameters:
+* `$enablePeerInfoDb`: `bool` Whether to enable the peer info database. If disabled, will break getInfo.  
 
 
 

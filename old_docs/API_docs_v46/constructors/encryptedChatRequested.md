@@ -14,6 +14,7 @@ Request to create an encrypted chat.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|folder\_id|[int](../types/int.md) | Optional|
 |id|[int](../types/int.md) | Yes|Chat ID|
 |access\_hash|[long](../types/long.md) | Yes|Check sum depending on user ID|
 |date|[int](../types/int.md) | Yes|Chat creation date|
@@ -29,14 +30,14 @@ Request to create an encrypted chat.
 ### Example:
 
 ```php
-$encryptedChatRequested = ['_' => 'encryptedChatRequested', 'id' => int, 'access_hash' => long, 'date' => int, 'admin_id' => int, 'participant_id' => int, 'g_a' => 'bytes'];
+$encryptedChatRequested = ['_' => 'encryptedChatRequested', 'folder_id' => int, 'id' => int, 'access_hash' => long, 'date' => int, 'admin_id' => int, 'participant_id' => int, 'g_a' => 'bytes'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-encryptedChatRequested={_='encryptedChatRequested', id=int, access_hash=long, date=int, admin_id=int, participant_id=int, g_a='bytes'}
+encryptedChatRequested={_='encryptedChatRequested', folder_id=int, id=int, access_hash=long, date=int, admin_id=int, participant_id=int, g_a='bytes'}
 
 ```
 

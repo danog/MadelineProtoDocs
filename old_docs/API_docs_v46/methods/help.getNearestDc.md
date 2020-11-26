@@ -4,8 +4,9 @@ description: Returns info on data centre nearest to the user.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getNearestDc.html
 ---
-# Method: help.getNearestDc  
+# Method: help.getNearestDc
 [Back to methods index](index.md)
+
 
 
 Returns info on data centre nearest to the user.
@@ -43,5 +44,6 @@ NearestDc = help.getNearestDc({})
 | Code | Type     | Description   |
 |------|----------|---------------|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
+|-500|No workers running|Internal error|
 
 

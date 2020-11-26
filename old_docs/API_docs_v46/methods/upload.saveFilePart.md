@@ -1,22 +1,23 @@
 ---
 title: upload.saveFilePart
-description: You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info
+description: Saves a part of file for futher sending to one of the methods.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/upload_saveFilePart.html
 ---
-# Method: upload.saveFilePart  
+# Method: upload.saveFilePart
 [Back to methods index](index.md)
 
 
-You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info
+
+Saves a part of file for futher sending to one of the methods.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|file\_id|[long](../types/long.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
-|file\_part|[int](../types/int.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
-|bytes|[bytes](../types/bytes.md) | You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info | Yes|
+|file\_id|[long](../types/long.md) | Random file identifier created by the client | Yes|
+|file\_part|[int](../types/int.md) | Numerical order of a part | Yes|
+|bytes|[bytes](../types/bytes.md) | Binary data, contend of a part | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)
@@ -54,5 +55,6 @@ Bool = upload.saveFilePart({file_id=long, file_part=int, bytes='bytes', })
 |400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
+|-503|Timeout|Timeout while fetching data|
 
 

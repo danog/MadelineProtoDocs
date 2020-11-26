@@ -22,6 +22,7 @@ A message
 |from\_scheduled|[Bool](../types/Bool.md) | Optional|Whether this is a scheduled post|
 |legacy|[Bool](../types/Bool.md) | Optional|This is a legacy message: it has to be refetched with the new layer|
 |edit\_hide|[Bool](../types/Bool.md) | Optional|Whether the message should be shown as not modified to the user, even if an edit date is present|
+|pinned|[Bool](../types/Bool.md) | Optional|
 |id|[int](../types/int.md) | Yes|ID of the message|
 |from\_id|[Peer](../types/Peer.md) | Optional|
 |peer\_id|[Peer](../types/Peer.md) | Yes|
@@ -49,14 +50,14 @@ A message
 ### Example:
 
 ```php
-$message = ['_' => 'message', 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'silent' => Bool, 'post' => Bool, 'from_scheduled' => Bool, 'legacy' => Bool, 'edit_hide' => Bool, 'id' => int, 'from_id' => Peer, 'peer_id' => Peer, 'fwd_from' => MessageFwdHeader, 'via_bot_id' => int, 'reply_to' => MessageReplyHeader, 'date' => int, 'message' => 'string', 'media' => MessageMedia, 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'views' => int, 'forwards' => int, 'replies' => MessageReplies, 'edit_date' => int, 'post_author' => 'string', 'grouped_id' => long, 'restriction_reason' => [RestrictionReason, RestrictionReason]];
+$message = ['_' => 'message', 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'silent' => Bool, 'post' => Bool, 'from_scheduled' => Bool, 'legacy' => Bool, 'edit_hide' => Bool, 'pinned' => Bool, 'id' => int, 'from_id' => Peer, 'peer_id' => Peer, 'fwd_from' => MessageFwdHeader, 'via_bot_id' => int, 'reply_to' => MessageReplyHeader, 'date' => int, 'message' => 'string', 'media' => MessageMedia, 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'views' => int, 'forwards' => int, 'replies' => MessageReplies, 'edit_date' => int, 'post_author' => 'string', 'grouped_id' => long, 'restriction_reason' => [RestrictionReason, RestrictionReason]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-message={_='message', out=Bool, mentioned=Bool, media_unread=Bool, silent=Bool, post=Bool, from_scheduled=Bool, legacy=Bool, edit_hide=Bool, id=int, from_id=Peer, peer_id=Peer, fwd_from=MessageFwdHeader, via_bot_id=int, reply_to=MessageReplyHeader, date=int, message='string', media=MessageMedia, reply_markup=ReplyMarkup, entities={MessageEntity}, views=int, forwards=int, replies=MessageReplies, edit_date=int, post_author='string', grouped_id=long, restriction_reason={RestrictionReason}}
+message={_='message', out=Bool, mentioned=Bool, media_unread=Bool, silent=Bool, post=Bool, from_scheduled=Bool, legacy=Bool, edit_hide=Bool, pinned=Bool, id=int, from_id=Peer, peer_id=Peer, fwd_from=MessageFwdHeader, via_bot_id=int, reply_to=MessageReplyHeader, date=int, message='string', media=MessageMedia, reply_markup=ReplyMarkup, entities={MessageEntity}, views=int, forwards=int, replies=MessageReplies, edit_date=int, post_author='string', grouped_id=long, restriction_reason={RestrictionReason}}
 
 ```
 

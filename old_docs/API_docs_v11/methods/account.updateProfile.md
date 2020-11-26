@@ -53,6 +53,7 @@ User = account.updateProfile({first_name='string', last_name='string', })
 |400|FIRSTNAME_INVALID|The first name is invalid|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
+|-500|No workers running|Internal error|
 |-503|Timeout|Timeout while fetching data|
 
 

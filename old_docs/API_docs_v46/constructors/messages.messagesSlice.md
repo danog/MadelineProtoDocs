@@ -15,10 +15,13 @@ Incomplete list of messages and auxiliary data.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|inexact|[Bool](../types/Bool.md) | Optional|If set, indicates that the results may be inexact|
 |count|[int](../types/int.md) | Yes|Total number of messages in the list|
-|messages|Array of [Message](../types/Message.md) | Yes|Messages|
-|chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
-|users|Array of [User](../types/User.md) | Yes|Users|
+|next\_rate|[int](../types/int.md) | Optional|Rate to use in the `offset_rate` parameter in the next call to [messages.searchGlobal](../methods/messages.searchGlobal.md)|
+|offset\_id\_offset|[int](../types/int.md) | Optional|
+|messages|Array of [Message](../types/Message.md) | Yes|List of messages|
+|chats|Array of [Chat](../types/Chat.md) | Yes|List of chats mentioned in messages|
+|users|Array of [User](../types/User.md) | Yes|List of users mentioned in messages and chats|
 
 
 
@@ -28,14 +31,14 @@ Incomplete list of messages and auxiliary data.
 ### Example:
 
 ```php
-$messages.messagesSlice = ['_' => 'messages.messagesSlice', 'count' => int, 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
+$messages.messagesSlice = ['_' => 'messages.messagesSlice', 'inexact' => Bool, 'count' => int, 'next_rate' => int, 'offset_id_offset' => int, 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.messagesSlice={_='messages.messagesSlice', count=int, messages={Message}, chats={Chat}, users={User}}
+messages.messagesSlice={_='messages.messagesSlice', inexact=Bool, count=int, next_rate=int, offset_id_offset=int, messages={Message}, chats={Chat}, users={User}}
 
 ```
 

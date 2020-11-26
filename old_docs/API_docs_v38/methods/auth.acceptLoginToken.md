@@ -48,3 +48,10 @@ Or, if you're into Lua:
 Authorization = auth.acceptLoginToken({token='bytes', })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|AUTH_TOKEN_INVALIDX|The specified auth token is invalid|
+
+

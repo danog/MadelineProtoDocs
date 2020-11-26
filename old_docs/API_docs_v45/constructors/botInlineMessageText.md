@@ -16,7 +16,8 @@ Send a simple text message
 |----------|---------------|----------|-------------|
 |no\_webpage|[Bool](../types/Bool.md) | Optional|Disable webpage preview|
 |message|[string](../types/string.md) | Yes|The message|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|Entities|
+|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|[Message entities for styled text](https://core.telegram.org/api/entities)|
+|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Inline keyboard|
 
 
 
@@ -26,15 +27,21 @@ Send a simple text message
 ### Example:
 
 ```php
-$botInlineMessageText = ['_' => 'botInlineMessageText', 'no_webpage' => Bool, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]];
+$botInlineMessageText = ['_' => 'botInlineMessageText', 'no_webpage' => Bool, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity], 'reply_markup' => ReplyMarkup];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-botInlineMessageText={_='botInlineMessageText', no_webpage=Bool, message='string', entities={MessageEntity}}
+botInlineMessageText={_='botInlineMessageText', no_webpage=Bool, message='string', entities={MessageEntity}, reply_markup=ReplyMarkup}
 
 ```
+
+
+
+## Usage of reply_markup
+
+You can provide bot API reply_markup objects here.  
 
 

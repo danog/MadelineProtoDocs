@@ -4,8 +4,9 @@ description: Sends a service message to a secret chat.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_sendEncryptedService.html
 ---
-# Method: messages.sendEncryptedService  
+# Method: messages.sendEncryptedService
 [Back to methods index](index.md)
+
 
 
 Sends a service message to a secret chat.
@@ -15,7 +16,7 @@ Sends a service message to a secret chat.
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | Secret chat ID | Yes|
-|data|[bytes](../types/bytes.md) | TL-serialization of  [DecryptedMessage](../types/DecryptedMessage.md) type, encrypted with a key generated during chat initialization | Yes|
+|data|[bytes](../types/bytes.md) | [DecryptedMessage](../types/DecryptedMessage.md) type | Yes|
 
 
 ### Return type: [messages.SentEncryptedMessage](../types/messages.SentEncryptedMessage.md)

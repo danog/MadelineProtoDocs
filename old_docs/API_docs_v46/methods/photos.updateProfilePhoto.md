@@ -4,8 +4,9 @@ description: Installs a previously uploaded photo as a profile photo.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/photos_updateProfilePhoto.html
 ---
-# Method: photos.updateProfilePhoto  
+# Method: photos.updateProfilePhoto
 [Back to methods index](index.md)
+
 
 
 Installs a previously uploaded photo as a profile photo.
@@ -15,10 +16,9 @@ Installs a previously uploaded photo as a profile photo.
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |id|[MessageMedia, Update, Message or InputPhoto](../types/InputPhoto.md) | Input photo | Optional|
-|crop|[InputPhotoCrop](../types/InputPhotoCrop.md) | Cropping info | Yes|
 
 
-### Return type: [UserProfilePhoto](../types/UserProfilePhoto.md)
+### Return type: [photos.Photo](../types/photos.Photo.md)
 
 ### Can bots use this method: **NO**
 
@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$UserProfilePhoto = $MadelineProto->photos->updateProfilePhoto(['id' => InputPhoto, 'crop' => InputPhotoCrop, ]);
+$photos.Photo = $MadelineProto->photos->updateProfilePhoto(['id' => InputPhoto, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-UserProfilePhoto = photos.updateProfilePhoto({id=InputPhoto, crop=InputPhotoCrop, })
+photos.Photo = photos.updateProfilePhoto({id=InputPhoto, })
 ```
 
 ### Errors
@@ -53,5 +53,8 @@ UserProfilePhoto = photos.updateProfilePhoto({id=InputPhoto, crop=InputPhotoCrop
 |400|LOCATION_INVALID|The provided location is invalid|
 |400|PHOTO_CROP_SIZE_SMALL|Photo is too small|
 |400|PHOTO_EXT_INVALID|The extension of the photo is invalid|
+|400|PHOTO_ID_INVALID|Photo ID invalid|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
+|-500|No workers running|Internal error|
 
 

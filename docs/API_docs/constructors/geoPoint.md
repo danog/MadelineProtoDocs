@@ -17,6 +17,7 @@ GeoPoint.
 |long|[double](../types/double.md) | Yes|Longtitude|
 |lat|[double](../types/double.md) | Yes|Latitude|
 |access\_hash|[long](../types/long.md) | Yes|Access hash|
+|accuracy\_radius|[int](../types/int.md) | Optional|
 
 
 
@@ -26,14 +27,14 @@ GeoPoint.
 ### Example:
 
 ```php
-$geoPoint = ['_' => 'geoPoint', 'long' => double, 'lat' => double, 'access_hash' => long];
+$geoPoint = ['_' => 'geoPoint', 'long' => double, 'lat' => double, 'access_hash' => long, 'accuracy_radius' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-geoPoint={_='geoPoint', long=double, lat=double, access_hash=long}
+geoPoint={_='geoPoint', long=double, lat=double, access_hash=long, accuracy_radius=int}
 
 ```
 

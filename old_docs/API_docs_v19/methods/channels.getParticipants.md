@@ -56,6 +56,7 @@ channels.ChannelParticipants = channels.getParticipants({channel=InputChannel, f
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 |400|INPUT_CONSTRUCTOR_INVALID|The provided constructor is invalid|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
+|-500|No workers running|Internal error|
 |-503|Timeout|Timeout while fetching data|
 
 

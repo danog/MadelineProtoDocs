@@ -21,6 +21,8 @@ redirect_from: /API_docs/types/messages_AffectedHistory.html
 
 [$MadelineProto->messages->readMentions](../methods/messages.readMentions.md)  
 
+[$MadelineProto->messages->unpinAllMessages](../methods/messages.unpinAllMessages.md)  
+
 [$MadelineProto->channels->deleteUserHistory](../methods/channels.deleteUserHistory.md)  
 
 
@@ -30,6 +32,8 @@ redirect_from: /API_docs/types/messages_AffectedHistory.html
 [$MadelineProto->messages->deleteHistory](../methods/messages.deleteHistory.md)  
 
 [$MadelineProto->messages->readMentions](../methods/messages.readMentions.md)  
+
+[$MadelineProto->messages->unpinAllMessages](../methods/messages.unpinAllMessages.md)  
 
 [$MadelineProto->channels->deleteUserHistory](../methods/channels.deleteUserHistory.md)  
 

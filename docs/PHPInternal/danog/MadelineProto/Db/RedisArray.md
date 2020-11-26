@@ -23,7 +23,10 @@ Redis database backend.
 * `getArrayCopy(): \Amp\Promise<array>`
 * `count(): \Promise<int> The number of elements or public properties in the associated
 array or object, respectively.`
-* `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $value, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
+* `clear(): \Amp\Promise`
+* `getTable(): string`
+* `setTable(string $table): self`
+* `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
 
 ## Methods:
 ### `initStartup(): \Generator`
@@ -116,14 +119,41 @@ Return value: The number of elements or public properties in the associated
 array or object, respectively.
 
 
-### `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $value, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
+### `clear(): \Amp\Promise`
+
+Clear all elements.
+
+
+#### See also: 
+* `\Amp\Promise`
+
+
+
+
+### `getTable(): string`
+
+Get the value of table.
+
+
+
+### `setTable(string $table): self`
+
+Set the value of table.
+
+
+Parameters:
+* `$table`: `string`   
+
+
+
+### `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
 
 
 
 
 Parameters:
 * `$table`: `string`   
-* `$value`: `\danog\MadelineProto\Db\DbArray|array|null`   
+* `$previous`: `\danog\MadelineProto\Db\DbArray|array|null`   
 * `$settings`: `\danog\MadelineProto\Settings\Database\DatabaseAbstract`   
 
 

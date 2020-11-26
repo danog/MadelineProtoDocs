@@ -86,8 +86,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateEditChannelMessage](../constructors/updateEditChannelMessage.md)  
 
-[updateChannelPinnedMessage](../constructors/updateChannelPinnedMessage.md)  
-
 [updateBotCallbackQuery](../constructors/updateBotCallbackQuery.md)  
 
 [updateEditMessage](../constructors/updateEditMessage.md)  
@@ -136,10 +134,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateDialogUnreadMark](../constructors/updateDialogUnreadMark.md)  
 
-[updateUserPinnedMessage](../constructors/updateUserPinnedMessage.md)  
-
-[updateChatPinnedMessage](../constructors/updateChatPinnedMessage.md)  
-
 [updateMessagePoll](../constructors/updateMessagePoll.md)  
 
 [updateChatDefaultBannedRights](../constructors/updateChatDefaultBannedRights.md)  
@@ -181,6 +175,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [updatePeerBlocked](../constructors/updatePeerBlocked.md)  
 
 [updateChannelUserTyping](../constructors/updateChannelUserTyping.md)  
+
+[updatePinnedMessages](../constructors/updatePinnedMessages.md)  
+
+[updatePinnedChannelMessages](../constructors/updatePinnedChannelMessages.md)  
 
 
 
@@ -264,8 +262,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateEditChannelMessage](../constructors/updateEditChannelMessage.md)  
 
-[updateChannelPinnedMessage](../constructors/updateChannelPinnedMessage.md)  
-
 [updateBotCallbackQuery](../constructors/updateBotCallbackQuery.md)  
 
 [updateEditMessage](../constructors/updateEditMessage.md)  
@@ -314,10 +310,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateDialogUnreadMark](../constructors/updateDialogUnreadMark.md)  
 
-[updateUserPinnedMessage](../constructors/updateUserPinnedMessage.md)  
-
-[updateChatPinnedMessage](../constructors/updateChatPinnedMessage.md)  
-
 [updateMessagePoll](../constructors/updateMessagePoll.md)  
 
 [updateChatDefaultBannedRights](../constructors/updateChatDefaultBannedRights.md)  
@@ -359,4 +351,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [updatePeerBlocked](../constructors/updatePeerBlocked.md)  
 
 [updateChannelUserTyping](../constructors/updateChannelUserTyping.md)  
+
+[updatePinnedMessages](../constructors/updatePinnedMessages.md)  
+
+[updatePinnedChannelMessages](../constructors/updatePinnedChannelMessages.md)  
 

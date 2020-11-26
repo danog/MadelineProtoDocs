@@ -4,8 +4,9 @@ description: Turn a [legacy group into a supergroup](https://core.telegram.org/a
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_migrateChat.html
 ---
-# Method: messages.migrateChat  
+# Method: messages.migrateChat
 [Back to methods index](index.md)
+
 
 
 Turn a [legacy group into a supergroup](https://core.telegram.org/api/channel)
@@ -14,7 +15,7 @@ Turn a [legacy group into a supergroup](https://core.telegram.org/api/channel)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat to convert | Optional|
+|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
 
 
 ### Return type: [Updates](../types/Updates.md)

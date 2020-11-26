@@ -19,12 +19,8 @@ An inline bot result
 |title|[string](../types/string.md) | Optional|Result title|
 |description|[string](../types/string.md) | Optional|Result description|
 |url|[string](../types/string.md) | Optional|URL of result|
-|thumb\_url|[string](../types/string.md) | Optional|Thumbnail URL|
-|content\_url|[string](../types/string.md) | Optional|Content URL|
-|content\_type|[string](../types/string.md) | Optional|Content type|
-|w|[int](../types/int.md) | Optional|Width|
-|h|[int](../types/int.md) | Optional|Height|
-|duration|[int](../types/int.md) | Optional|Duration|
+|thumb|[InputWebDocument](../types/InputWebDocument.md) | Optional|Thumbnail for result|
+|content|[InputWebDocument](../types/InputWebDocument.md) | Optional|Result contents|
 |send\_message|[InputBotInlineMessage](../types/InputBotInlineMessage.md) | Yes|Message to send when the result is selected|
 
 
@@ -35,14 +31,14 @@ An inline bot result
 ### Example:
 
 ```php
-$inputBotInlineResult = ['_' => 'inputBotInlineResult', 'id' => 'string', 'type' => 'string', 'title' => 'string', 'description' => 'string', 'url' => 'string', 'thumb_url' => 'string', 'content_url' => 'string', 'content_type' => 'string', 'w' => int, 'h' => int, 'duration' => int, 'send_message' => InputBotInlineMessage];
+$inputBotInlineResult = ['_' => 'inputBotInlineResult', 'id' => 'string', 'type' => 'string', 'title' => 'string', 'description' => 'string', 'url' => 'string', 'thumb' => InputWebDocument, 'content' => InputWebDocument, 'send_message' => InputBotInlineMessage];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-inputBotInlineResult={_='inputBotInlineResult', id='string', type='string', title='string', description='string', url='string', thumb_url='string', content_url='string', content_type='string', w=int, h=int, duration=int, send_message=InputBotInlineMessage}
+inputBotInlineResult={_='inputBotInlineResult', id='string', type='string', title='string', description='string', url='string', thumb=InputWebDocument, content=InputWebDocument, send_message=InputBotInlineMessage}
 
 ```
 

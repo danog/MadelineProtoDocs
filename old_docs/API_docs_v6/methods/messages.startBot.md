@@ -57,5 +57,6 @@ Updates = messages.startBot({bot=InputUser, chat_id=InputPeer, start_param='stri
 |400|START_PARAM_EMPTY|The start parameter is empty|
 |400|START_PARAM_INVALID|Start parameter invalid|
 |400|START_PARAM_TOO_LONG|Start parameter is too long|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 
 

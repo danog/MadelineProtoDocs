@@ -16,13 +16,16 @@ MySQL database backend.
 
 ## Method list:
 * `initStartup(): \Generator`
+* `initConnection(\danog\MadelineProto\Settings\Database\Mysql $settings): \Generator`
 * `isset( $key): \Promise<bool> true if the offset exists, otherwise false`
-* `offsetSet(string|int $index,  $value)`
 * `offsetUnset(string|int $index): \Amp\Promise`
 * `count(): \Promise<int> The number of elements or public properties in the associated
 array or object, respectively.`
-* `initConnection(\danog\MadelineProto\Settings\Database\Mysql $settings): \Generator`
-* `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $value, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
+* `clear(): \Amp\Promise`
+* `offsetSet(string|int $index,  $value)`
+* `getTable(): string`
+* `setTable(string $table): self`
+* `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
 
 ## Methods:
 ### `initStartup(): \Generator`
@@ -31,6 +34,22 @@ Initialize on startup.
 
 
 #### See also: 
+* `\Generator`
+
+
+
+
+### `initConnection(\danog\MadelineProto\Settings\Database\Mysql $settings): \Generator`
+
+Initialize connection.
+
+
+Parameters:
+* `$settings`: `\danog\MadelineProto\Settings\Database\Mysql`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\Settings\Database\Mysql`: MySQL backend settings.](../Settings/Database/Mysql.md)
 * `\Generator`
 
 
@@ -46,19 +65,6 @@ Parameters:
 
 
 Return value: true if the offset exists, otherwise false
-
-
-### `offsetSet(string|int $index,  $value)`
-
-Set value for an offset.
-
-
-Parameters:
-* `$index`: `string|int` <p>
-The index to set for.
-</p>  
-* `$value`: ``   
-
 
 
 ### `offsetUnset(string|int $index): \Amp\Promise`
@@ -88,30 +94,54 @@ Return value: The number of elements or public properties in the associated
 array or object, respectively.
 
 
-### `initConnection(\danog\MadelineProto\Settings\Database\Mysql $settings): \Generator`
+### `clear(): \Amp\Promise`
 
-Initialize connection.
-
-
-Parameters:
-* `$settings`: `\danog\MadelineProto\Settings\Database\Mysql`   
+Clear all elements.
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Database\Mysql`: MySQL backend settings.](../Settings/Database/Mysql.md)
-* `\Generator`
+* `\Amp\Promise`
 
 
 
 
-### `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $value, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
+### `offsetSet(string|int $index,  $value)`
+
+Set value for an offset.
+
+
+Parameters:
+* `$index`: `string|int` <p>
+The index to set for.
+</p>  
+* `$value`: ``   
+
+
+
+### `getTable(): string`
+
+Get the value of table.
+
+
+
+### `setTable(string $table): self`
+
+Set the value of table.
+
+
+Parameters:
+* `$table`: `string`   
+
+
+
+### `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
 
 
 
 
 Parameters:
 * `$table`: `string`   
-* `$value`: `\danog\MadelineProto\Db\DbArray|array|null`   
+* `$previous`: `\danog\MadelineProto\Db\DbArray|array|null`   
 * `$settings`: `\danog\MadelineProto\Settings\Database\DatabaseAbstract`   
 
 

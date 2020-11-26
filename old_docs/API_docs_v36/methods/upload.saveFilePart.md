@@ -55,5 +55,6 @@ Bool = upload.saveFilePart({file_id=long, file_part=int, bytes='bytes', })
 |400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
+|-503|Timeout|Timeout while fetching data|
 
 

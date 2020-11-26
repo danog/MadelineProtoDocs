@@ -20,6 +20,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [photoSizeProgressive](../constructors/photoSizeProgressive.md)  
 
+[photoPathSize](../constructors/photoPathSize.md)  
+
 
 
 ### Methods that return an object of this type (methods):
@@ -35,4 +37,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [photoStrippedSize](../constructors/photoStrippedSize.md)  
 
 [photoSizeProgressive](../constructors/photoSizeProgressive.md)  
+
+[photoPathSize](../constructors/photoPathSize.md)  
 

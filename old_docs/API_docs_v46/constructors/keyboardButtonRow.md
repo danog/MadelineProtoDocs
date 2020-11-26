@@ -14,7 +14,7 @@ Inline keyboard row
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|buttons|Array of [KeyboardButton](../types/KeyboardButton.md) | Yes|Buttons|
+|buttons|Array of [KeyboardButton](../types/KeyboardButton.md) | Yes|Bot or inline keyboard buttons|
 
 
 

@@ -4,8 +4,9 @@ description: Adds a user to a chat and sends a service message on it.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_addChatUser.html
 ---
-# Method: messages.addChatUser  
+# Method: messages.addChatUser
 [Back to methods index](index.md)
+
 
 
 Adds a user to a chat and sends a service message on it.
@@ -14,7 +15,7 @@ Adds a user to a chat and sends a service message on it.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat where to invite users | Optional|
+|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
 |user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | User ID to be added | Optional|
 |fwd\_limit|[int](../types/int.md) | Number of last messages to be forwarded | Yes|
 
@@ -56,6 +57,7 @@ Updates = messages.addChatUser({chat_id=InputPeer, user_id=InputUser, fwd_limit=
 |400|USER_ALREADY_PARTICIPANT|The user is already in the group|
 |400|USER_ID_INVALID|The provided user ID is invalid|
 |400|USERS_TOO_MUCH|The maximum number of users has been exceeded (to create a chat, for example)|
+|403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 |403|USER_NOT_MUTUAL_CONTACT|The provided user is not a mutual contact|
 |403|USER_PRIVACY_RESTRICTED|The user's privacy settings do not allow you to do this|
 

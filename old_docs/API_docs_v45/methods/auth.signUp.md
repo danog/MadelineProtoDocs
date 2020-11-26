@@ -1,24 +1,24 @@
 ---
 title: auth.signUp
-description: You cannot use this method directly, use the completeSignup method instead (see https://docs.madelineproto.xyz for more info)
+description: Registers a validated phone number in the system.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_signUp.html
 ---
-# Method: auth.signUp  
+# Method: auth.signUp
 [Back to methods index](index.md)
 
 
-You cannot use this method directly, use the completeSignup method instead (see https://docs.madelineproto.xyz for more info)
+
+Registers a validated phone number in the system.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](../types/string.md) | You cannot use this method directly, use the completeSignup method instead (see https://docs.madelineproto.xyz for more info) | Yes|
-|phone\_code\_hash|[string](../types/string.md) | You cannot use this method directly, use the completeSignup method instead (see https://docs.madelineproto.xyz for more info) | Yes|
-|phone\_code|[string](../types/string.md) | You cannot use this method directly, use the completeSignup method instead (see https://docs.madelineproto.xyz for more info) | Yes|
-|first\_name|[string](../types/string.md) | You cannot use this method directly, use the completeSignup method instead (see https://docs.madelineproto.xyz for more info) | Yes|
-|last\_name|[string](../types/string.md) | You cannot use this method directly, use the completeSignup method instead (see https://docs.madelineproto.xyz for more info) | Yes|
+|phone\_number|[string](../types/string.md) | Phone number in the international format | Yes|
+|phone\_code\_hash|[string](../types/string.md) | SMS-message ID | Yes|
+|first\_name|[string](../types/string.md) | New user first name | Yes|
+|last\_name|[string](../types/string.md) | New user last name | Yes|
 
 
 ### Return type: [auth.Authorization](../types/auth.Authorization.md)
@@ -38,13 +38,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth.Authorization = $MadelineProto->auth->signUp(['phone_number' => 'string', 'phone_code_hash' => 'string', 'phone_code' => 'string', 'first_name' => 'string', 'last_name' => 'string', ]);
+$auth.Authorization = $MadelineProto->auth->signUp(['phone_number' => 'string', 'phone_code_hash' => 'string', 'first_name' => 'string', 'last_name' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth.Authorization = auth.signUp({phone_number='string', phone_code_hash='string', phone_code='string', first_name='string', last_name='string', })
+auth.Authorization = auth.signUp({phone_number='string', phone_code_hash='string', first_name='string', last_name='string', })
 ```
 
 ### Errors
@@ -52,6 +52,7 @@ auth.Authorization = auth.signUp({phone_number='string', phone_code_hash='string
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|FIRSTNAME_INVALID|The first name is invalid|
+|400|INPUT_REQUEST_TOO_LONG|The request is too big|
 |400|PHONE_CODE_EMPTY|phone_code is missing|
 |400|PHONE_CODE_EXPIRED|The phone code you provided has expired, this may happen if it was sent to any chat on telegram (if the code is sent through a telegram chat (not the official account) to avoid it append or prepend to the code some chars)|
 |400|PHONE_CODE_INVALID|The provided phone code is invalid|

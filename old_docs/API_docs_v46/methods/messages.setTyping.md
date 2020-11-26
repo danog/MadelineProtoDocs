@@ -4,8 +4,9 @@ description: Sends a current user typing event (see [SendMessageAction](../types
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_setTyping.html
 ---
-# Method: messages.setTyping  
+# Method: messages.setTyping
 [Back to methods index](index.md)
+
 
 
 Sends a current user typing event (see [SendMessageAction](../types/SendMessageAction.md) for all event types) to a conversation partner or group.
@@ -15,6 +16,7 @@ Sends a current user typing event (see [SendMessageAction](../types/SendMessageA
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Target user or group | Optional|
+|top\_msg\_id|[int](../types/int.md) |  | Optional|
 |action|[SendMessageAction](../types/SendMessageAction.md) | Type of action<br>Parameter added in [Layer 17](https://core.telegram.org/api/layers#layer-17). | Yes|
 
 
@@ -35,13 +37,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->setTyping(['peer' => InputPeer, 'action' => SendMessageAction, ]);
+$Bool = $MadelineProto->messages->setTyping(['peer' => InputPeer, 'top_msg_id' => int, 'action' => SendMessageAction, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Bool = messages.setTyping({peer=InputPeer, action=SendMessageAction, })
+Bool = messages.setTyping({peer=InputPeer, top_msg_id=int, action=SendMessageAction, })
 ```
 
 ### Errors
@@ -60,5 +62,6 @@ Bool = messages.setTyping({peer=InputPeer, action=SendMessageAction, })
 |400|USER_IS_BOT|Bots can't send messages to other bots|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
+|-503|Timeout|Timeout while fetching data|
 
 

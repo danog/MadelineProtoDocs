@@ -21,8 +21,9 @@ DB array interface.
 * `offsetSet(string|int $index, mixed $value): void`
 * `offsetUnset(string|int $index): \Amp\Promise`
 * `count(): \Amp\Promise<int>`
+* `clear(): \Amp\Promise`
 * `getIterator()`
-* `getInstance(string $table, null|\danog\MadelineProto\Db\DbType|array $value, \danog\MadelineProto\Settings\DatabaseAbstract $settings): \Amp\Promise<self>`
+* `getInstance(string $table, null|\danog\MadelineProto\Db\DbType|array $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise<self>`
 
 ## Methods:
 ### `getArrayCopy(): \Amp\Promise`
@@ -126,25 +127,36 @@ Count number of elements.
 
 
 
+### `clear(): \Amp\Promise`
+
+Clear all elements.
+
+
+#### See also: 
+* `\Amp\Promise`
+
+
+
+
 ### `getIterator()`
 
 Get iterator.
 
 
 
-### `getInstance(string $table, null|\danog\MadelineProto\Db\DbType|array $value, \danog\MadelineProto\Settings\DatabaseAbstract $settings): \Amp\Promise<self>`
+### `getInstance(string $table, null|\danog\MadelineProto\Db\DbType|array $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise<self>`
 
 
 
 
 Parameters:
 * `$table`: `string`   
-* `$value`: `null|\danog\MadelineProto\Db\DbType|array`   
-* `$settings`: `\danog\MadelineProto\Settings\DatabaseAbstract`   
+* `$previous`: `null|\danog\MadelineProto\Db\DbType|array`   
+* `$settings`: `\danog\MadelineProto\Settings\Database\DatabaseAbstract`   
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\DatabaseAbstract`: Base class for storage backends.](../Settings/DatabaseAbstract.md)
+* [`\danog\MadelineProto\Settings\Database\DatabaseAbstract`: Base class for database backends.](../Settings/Database/DatabaseAbstract.md)
 * `\Amp\Promise`
 
 

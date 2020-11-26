@@ -4,8 +4,9 @@ description: Get and increase the view counter of a message sent or forwarded fr
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getMessagesViews.html
 ---
-# Method: messages.getMessagesViews  
+# Method: messages.getMessagesViews
 [Back to methods index](index.md)
+
 
 
 Get and increase the view counter of a message sent or forwarded from a [channel](https://core.telegram.org/api/channel)
@@ -15,11 +16,11 @@ Get and increase the view counter of a message sent or forwarded from a [channel
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Peer where the message was found | Optional|
-|id|Array of [int](../types/int.md) | The IDs messages to get | Yes|
+|id|Array of [int](../types/int.md) | ID of message | Yes|
 |increment|[Bool](../types/Bool.md) | Whether to mark the message as viewed and increment the view counter | Yes|
 
 
-### Return type: [Vector\_of\_int](../types/int.md)
+### Return type: [messages.MessageViews](../types/messages.MessageViews.md)
 
 ### Can bots use this method: **NO**
 
@@ -36,13 +37,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_int = $MadelineProto->messages->getMessagesViews(['peer' => InputPeer, 'id' => [int, int], 'increment' => Bool, ]);
+$messages.MessageViews = $MadelineProto->messages->getMessagesViews(['peer' => InputPeer, 'id' => [int, int], 'increment' => Bool, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Vector_of_int = messages.getMessagesViews({peer=InputPeer, id={int}, increment=Bool, })
+messages.MessageViews = messages.getMessagesViews({peer=InputPeer, id={int}, increment=Bool, })
 ```
 
 ### Errors
@@ -55,6 +56,7 @@ Vector_of_int = messages.getMessagesViews({peer=InputPeer, id={int}, increment=B
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
+|-500|No workers running|Internal error|
 |-503|Timeout|Timeout while fetching data|
 
 

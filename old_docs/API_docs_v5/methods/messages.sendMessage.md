@@ -123,6 +123,7 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 |400|PINNED_DIALOGS_TOO_MUCH|Too many pinned dialogs|
 |400|REPLY_MARKUP_INVALID|The provided reply markup is invalid|
 |400|SCHEDULE_BOT_NOT_ALLOWED|Bots cannot schedule messages|
+|400|SCHEDULE_DATE_TOO_LATE|You can't schedule a message this far in the future|
 |400|SCHEDULE_TOO_MUCH|There are too many scheduled messages|
 |400|USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
 |400|USER_IS_BLOCKED|You were blocked by this user|
@@ -131,6 +132,7 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
+|-500|No workers running|Internal error|
 |-504|memory limit exit|Internal error|
 |-503|Timeout|Timeout while fetching data|
 

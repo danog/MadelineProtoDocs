@@ -4,8 +4,9 @@ description: Get saved GIFs
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getSavedGifs.html
 ---
-# Method: messages.getSavedGifs  
+# Method: messages.getSavedGifs
 [Back to methods index](index.md)
+
 
 
 Get saved GIFs
@@ -14,7 +15,7 @@ Get saved GIFs
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [int](../types/int.md) |  the hash parameter of the previous result of this method | Optional|
+|hash|Array of [int](../types/int.md) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.SavedGifs](../types/messages.SavedGifs.md)

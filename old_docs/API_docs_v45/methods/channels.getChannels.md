@@ -4,8 +4,9 @@ description: Get info about [channels/supergroups](https://core.telegram.org/api
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_getChannels.html
 ---
-# Method: channels.getChannels  
+# Method: channels.getChannels
 [Back to methods index](index.md)
+
 
 
 Get info about [channels/supergroups](https://core.telegram.org/api/channel)
@@ -14,7 +15,7 @@ Get info about [channels/supergroups](https://core.telegram.org/api/channel)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|Array of [Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel/supergroup MTProto IDs | Yes|
+|id|Array of [Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | IDs of channels/supergroups to get info about | Yes|
 
 
 ### Return type: [messages.Chats](../types/messages.Chats.md)
@@ -52,5 +53,6 @@ messages.Chats = channels.getChannels({id={InputChannel}, })
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
+|-503|Timeout|Timeout while fetching data|
 
 

@@ -16,7 +16,7 @@ Encrypted message.
 |----------|---------------|----------|-------------|
 |chat\_id|[int](../types/int.md) | Yes|ID of encrypted chat|
 |date|[int](../types/int.md) | Yes|Date of sending|
-|decrypted\_message|[DecryptedMessage](../types/DecryptedMessage.md) | Yes|Decrypted message|
+|decrypted\_message|[DecryptedMessage](../types/DecryptedMessage.md) | Yes|
 |file|[EncryptedFile](../types/EncryptedFile.md) | Optional|Attached encrypted file|
 
 

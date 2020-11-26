@@ -4,8 +4,9 @@ description: Reports some messages from a user in a supergroup as spam; requires
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_reportSpam.html
 ---
-# Method: channels.reportSpam  
+# Method: channels.reportSpam
 [Back to methods index](index.md)
+
 
 
 Reports some messages from a user in a supergroup as spam; requires administrator rights in the supergroup
@@ -16,7 +17,7 @@ Reports some messages from a user in a supergroup as spam; requires administrato
 |----------|---------------|-------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Supergroup | Optional|
 |user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | ID of the user that sent the spam messages | Optional|
-|id|Array of [int](../types/int.md) | The IDs of messages to report | Yes|
+|id|Array of [int](../types/int.md) | IDs of spam messages | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

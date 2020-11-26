@@ -53,6 +53,7 @@ Bool = channels.updateUsername({channel=InputChannel, username='string', })
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|CHANNELS_ADMIN_PUBLIC_TOO_MUCH|You're admin of too many public channels, make some channels private to change the username of this channel|
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
+|400|CHAT_NOT_MODIFIED|The pinned message wasn't modified|
 |400|USERNAME_INVALID|The provided username is not valid|
 |400|USERNAME_NOT_MODIFIED|The username was not modified|
 |400|USERNAME_OCCUPIED|The provided username is already occupied|

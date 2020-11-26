@@ -45,3 +45,10 @@ Or, if you're into Lua:
 Bool = messages.updateDialogFilter({id=int, filter=DialogFilter, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|FILTER_ID_INVALID|The specified filter ID is invalid|
+
+

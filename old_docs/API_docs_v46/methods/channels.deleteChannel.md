@@ -4,8 +4,9 @@ description: Delete a [channel/supergroup](https://core.telegram.org/api/channel
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_deleteChannel.html
 ---
-# Method: channels.deleteChannel  
+# Method: channels.deleteChannel
 [Back to methods index](index.md)
+
 
 
 Delete a [channel/supergroup](https://core.telegram.org/api/channel)
@@ -49,6 +50,7 @@ Updates = channels.deleteChannel({channel=InputChannel, })
 |------|----------|---------------|
 |400|CHANNEL_INVALID|The provided channel is invalid|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
+|400|CHANNEL_TOO_LARGE|Channel is too large to be deleted; this error is issued when trying to delete channels with more than 1000 members (subject to change)|
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 

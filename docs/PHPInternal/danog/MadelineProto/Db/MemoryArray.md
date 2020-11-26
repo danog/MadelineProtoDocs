@@ -21,17 +21,17 @@ Memory database backend.
 
 
 ## Method list:
-* `getInstance(string $table, mixed $value, \danog\MadelineProto\Settings\Database\Memory $settings): \Amp\Promise<self>`
+* `getInstance(string $table, mixed $previous, \danog\MadelineProto\Settings\Database\Memory $settings): \Amp\Promise<self>`
 
 ## Methods:
-### `getInstance(string $table, mixed $value, \danog\MadelineProto\Settings\Database\Memory $settings): \Amp\Promise<self>`
+### `getInstance(string $table, mixed $previous, \danog\MadelineProto\Settings\Database\Memory $settings): \Amp\Promise<self>`
 
 Get instance.
 
 
 Parameters:
 * `$table`: `string`   
-* `$value`: `mixed`   
+* `$previous`: `mixed`   
 * `$settings`: `\danog\MadelineProto\Settings\Database\Memory`   
 
 

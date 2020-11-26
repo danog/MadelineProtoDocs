@@ -1,5 +1,5 @@
 ---
-title: danog\MadelineProto\Stream\Common\SimpleBufferedRawStream: Buffered raw stream.
+title: danog\MadelineProto\Stream\Common\SimpleBufferedRawStream: Buffered raw stream, that simply returns less data on EOF instead of throwing.
 description: 
 
 ---
@@ -9,7 +9,7 @@ description:
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Buffered raw stream.  
+Buffered raw stream, that simply returns less data on EOF instead of throwing.  
 
 
 

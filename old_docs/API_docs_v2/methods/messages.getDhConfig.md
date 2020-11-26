@@ -50,5 +50,6 @@ messages.DhConfig = messages.getDhConfig({version=int, random_length=int, })
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|RANDOM_LENGTH_INVALID|Random length invalid|
+|-503|Timeout|Timeout while fetching data|
 
 

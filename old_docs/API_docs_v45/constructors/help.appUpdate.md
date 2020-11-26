@@ -15,10 +15,13 @@ An update is available for the application.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|can\_not\_skip|[Bool](../types/Bool.md) | Optional|Unskippable, the new info must be shown to the user (with a popup or something else)|
 |id|[int](../types/int.md) | Yes|Update ID|
-|critical|[Bool](../types/Bool.md) | Yes|Critical?|
-|url|[string](../types/string.md) | Yes|Application download URL|
+|version|[string](../types/string.md) | Yes|New version name|
 |text|[string](../types/string.md) | Yes|Text description of the update|
+|entities|Array of [MessageEntity](../types/MessageEntity.md) | Yes|[Message entities for styled text](https://core.telegram.org/api/entities)|
+|document|[Document](../types/Document.md) | Optional|Application binary|
+|url|[string](../types/string.md) | Optional|Application download URL|
 
 
 
@@ -28,14 +31,14 @@ An update is available for the application.
 ### Example:
 
 ```php
-$help.appUpdate = ['_' => 'help.appUpdate', 'id' => int, 'critical' => Bool, 'url' => 'string', 'text' => 'string'];
+$help.appUpdate = ['_' => 'help.appUpdate', 'can_not_skip' => Bool, 'id' => int, 'version' => 'string', 'text' => 'string', 'entities' => [MessageEntity, MessageEntity], 'document' => Document, 'url' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-help.appUpdate={_='help.appUpdate', id=int, critical=Bool, url='string', text='string'}
+help.appUpdate={_='help.appUpdate', can_not_skip=Bool, id=int, version='string', text='string', entities={MessageEntity}, document=Document, url='string'}
 
 ```
 

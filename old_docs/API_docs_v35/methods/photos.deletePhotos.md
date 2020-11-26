@@ -48,6 +48,7 @@ Vector_of_long = photos.deletePhotos({id={InputPhoto}, })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|-500|No workers running|Internal error|
 |-503|Timeout|Timeout while fetching data|
 
 

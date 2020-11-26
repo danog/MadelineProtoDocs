@@ -14,9 +14,12 @@ Indicates a channel/supergroup we can't access because we were banned, or for so
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|broadcast|[Bool](../types/Bool.md) | Optional|Is this a channel|
+|megagroup|[Bool](../types/Bool.md) | Optional|Is this a supergroup|
 |id|[int](../types/int.md) | Yes|Channel ID|
 |access\_hash|[long](../types/long.md) | Yes|Access hash|
 |title|[string](../types/string.md) | Yes|Title|
+|until\_date|[int](../types/int.md) | Optional|The ban is valid until the specified date|
 
 
 
@@ -26,14 +29,14 @@ Indicates a channel/supergroup we can't access because we were banned, or for so
 ### Example:
 
 ```php
-$channelForbidden = ['_' => 'channelForbidden', 'id' => int, 'access_hash' => long, 'title' => 'string'];
+$channelForbidden = ['_' => 'channelForbidden', 'broadcast' => Bool, 'megagroup' => Bool, 'id' => int, 'access_hash' => long, 'title' => 'string', 'until_date' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-channelForbidden={_='channelForbidden', id=int, access_hash=long, title='string'}
+channelForbidden={_='channelForbidden', broadcast=Bool, megagroup=Bool, id=int, access_hash=long, title='string', until_date=int}
 
 ```
 

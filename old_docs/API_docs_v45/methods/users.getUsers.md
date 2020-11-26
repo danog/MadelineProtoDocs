@@ -4,8 +4,9 @@ description: Returns basic user info according to their identifiers.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/users_getUsers.html
 ---
-# Method: users.getUsers  
+# Method: users.getUsers
 [Back to methods index](index.md)
+
 
 
 Returns basic user info according to their identifiers.
@@ -14,7 +15,7 @@ Returns basic user info according to their identifiers.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The ids of the users | Yes|
+|id|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | List of user identifiers | Yes|
 
 
 ### Return type: [Vector\_of\_User](../types/User.md)
@@ -47,6 +48,8 @@ Vector_of_User = users.getUsers({id={InputUser}, })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
+|400|CONNECTION_NOT_INITED|Connection not initialized|
 |400|INPUT_LAYER_INVALID|The provided layer is invalid|
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|

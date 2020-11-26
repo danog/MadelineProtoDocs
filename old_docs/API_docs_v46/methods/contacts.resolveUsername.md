@@ -1,20 +1,21 @@
 ---
 title: contacts.resolveUsername
-description: You cannot use this method directly, use the resolveUsername, getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info)
+description: Resolve a @username to get peer info
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_resolveUsername.html
 ---
-# Method: contacts.resolveUsername  
+# Method: contacts.resolveUsername
 [Back to methods index](index.md)
 
 
-You cannot use this method directly, use the resolveUsername, getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info)
+
+Resolve a @username to get peer info
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|username|[string](../types/string.md) | You cannot use this method directly, use the resolveUsername, getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info) | Yes|
+|username|[string](../types/string.md) | @username to resolve | Yes|
 
 
 ### Return type: [contacts.ResolvedPeer](../types/contacts.ResolvedPeer.md)
@@ -47,10 +48,13 @@ contacts.ResolvedPeer = contacts.resolveUsername({username='string', })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|CONNECTION_DEVICE_MODEL_EMPTY|Device model empty|
+|400|CONNECTION_LAYER_INVALID|Layer invalid|
 |400|USERNAME_INVALID|The provided username is not valid|
 |400|USERNAME_NOT_OCCUPIED|The provided username is not occupied|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
 |401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
+|-503|Timeout|Timeout while fetching data|
 
 

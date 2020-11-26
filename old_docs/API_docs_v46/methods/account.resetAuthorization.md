@@ -4,8 +4,9 @@ description: Log out an active [authorized session](https://core.telegram.org/ap
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_resetAuthorization.html
 ---
-# Method: account.resetAuthorization  
+# Method: account.resetAuthorization
 [Back to methods index](index.md)
+
 
 
 Log out an active [authorized session](https://core.telegram.org/api/auth) by its hash

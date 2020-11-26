@@ -19,12 +19,8 @@ Generic result
 |title|[string](../types/string.md) | Optional|Result title|
 |description|[string](../types/string.md) | Optional|Result description|
 |url|[string](../types/string.md) | Optional|URL of article or webpage|
-|thumb\_url|[string](../types/string.md) | Optional|Thumbnail URL|
-|content\_url|[string](../types/string.md) | Optional|Content URL|
-|content\_type|[string](../types/string.md) | Optional|Content type|
-|w|[int](../types/int.md) | Optional|Width|
-|h|[int](../types/int.md) | Optional|Height|
-|duration|[int](../types/int.md) | Optional|Duration|
+|thumb|[WebDocument](../types/WebDocument.md) | Optional|Thumbnail for the result|
+|content|[WebDocument](../types/WebDocument.md) | Optional|Content of the result|
 |send\_message|[BotInlineMessage](../types/BotInlineMessage.md) | Yes|Message to send|
 
 
@@ -35,14 +31,14 @@ Generic result
 ### Example:
 
 ```php
-$botInlineResult = ['_' => 'botInlineResult', 'id' => 'string', 'type' => 'string', 'title' => 'string', 'description' => 'string', 'url' => 'string', 'thumb_url' => 'string', 'content_url' => 'string', 'content_type' => 'string', 'w' => int, 'h' => int, 'duration' => int, 'send_message' => BotInlineMessage];
+$botInlineResult = ['_' => 'botInlineResult', 'id' => 'string', 'type' => 'string', 'title' => 'string', 'description' => 'string', 'url' => 'string', 'thumb' => WebDocument, 'content' => WebDocument, 'send_message' => BotInlineMessage];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-botInlineResult={_='botInlineResult', id='string', type='string', title='string', description='string', url='string', thumb_url='string', content_url='string', content_type='string', w=int, h=int, duration=int, send_message=BotInlineMessage}
+botInlineResult={_='botInlineResult', id='string', type='string', title='string', description='string', url='string', thumb=WebDocument, content=WebDocument, send_message=BotInlineMessage}
 
 ```
 

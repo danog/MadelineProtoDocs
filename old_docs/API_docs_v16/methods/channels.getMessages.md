@@ -54,6 +54,7 @@ messages.Messages = channels.getMessages({channel=InputChannel, id={int}, })
 |400|MESSAGE_IDS_EMPTY|No message ids were provided|
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
+|-500|No workers running|Internal error|
 |-503|Timeout|Timeout while fetching data|
 
 

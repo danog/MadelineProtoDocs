@@ -66,6 +66,7 @@ Bool = messages.setInlineBotResults({gallery=Bool, private=Bool, query_id=long, 
 |400|PHOTO_THUMB_URL_EMPTY|Photo thumbnail URL is empty|
 |400|QUERY_ID_INVALID|The query ID is invalid|
 |400|REPLY_MARKUP_INVALID|The provided reply markup is invalid|
+|400|RESULT_ID_DUPLICATE|You provided a duplicate result ID|
 |400|RESULT_TYPE_INVALID|Result type invalid|
 |400|RESULTS_TOO_MUCH|Too many results were provided|
 |400|SEND_MESSAGE_MEDIA_INVALID|Invalid media provided|

@@ -4,8 +4,9 @@ description: Returns the list of messages by their IDs.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getMessages.html
 ---
-# Method: messages.getMessages  
+# Method: messages.getMessages
 [Back to methods index](index.md)
+
 
 
 Returns the list of messages by their IDs.
@@ -14,7 +15,7 @@ Returns the list of messages by their IDs.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|Array of [int](../types/int.md) | The IDs of messages to fetch (only for users and normal groups) | Yes|
+|id|Array of [Message ID or InputMessage](../types/InputMessage.md) | Message ID list | Yes|
 
 
 ### Return type: [messages.Messages](../types/messages.Messages.md)
@@ -34,12 +35,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.Messages = $MadelineProto->messages->getMessages(['id' => [int, int], ]);
+$messages.Messages = $MadelineProto->messages->getMessages(['id' => [InputMessage, InputMessage], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.Messages = messages.getMessages({id={int}, })
+messages.Messages = messages.getMessages({id={InputMessage}, })
 ```
 

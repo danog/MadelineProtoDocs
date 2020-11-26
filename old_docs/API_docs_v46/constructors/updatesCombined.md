@@ -14,9 +14,9 @@ Constructor for a group of updates.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|updates|Array of [Update](../types/Update.md) | Yes|Updates|
-|users|Array of [User](../types/User.md) | Yes|Users|
-|chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
+|updates|Array of [Update](../types/Update.md) | Yes|List of updates|
+|users|Array of [User](../types/User.md) | Yes|List of users mentioned in updates|
+|chats|Array of [Chat](../types/Chat.md) | Yes|List of chats mentioned in updates|
 |date|[int](../types/int.md) | Yes|Current date|
 |seq\_start|[int](../types/int.md) | Yes|Value **seq** for the earliest update in a group|
 |seq|[int](../types/int.md) | Yes|Value **seq** for the latest update in a group|

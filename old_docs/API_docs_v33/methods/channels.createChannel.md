@@ -56,6 +56,7 @@ Updates = channels.createChannel({broadcast=Bool, megagroup=Bool, title='string'
 |400|CHAT_TITLE_EMPTY|No chat title provided|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |406|USER_RESTRICTED|You're spamreported, you can't create channels or chats.|
+|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
 |403|USER_RESTRICTED|You're spamreported, you can't create channels or chats.|
 
 

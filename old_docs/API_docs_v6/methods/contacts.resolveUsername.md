@@ -48,11 +48,13 @@ User = contacts.resolveUsername({username='string', })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|CONNECTION_DEVICE_MODEL_EMPTY|Device model empty|
 |400|CONNECTION_LAYER_INVALID|Layer invalid|
 |400|USERNAME_INVALID|The provided username is not valid|
 |400|USERNAME_NOT_OCCUPIED|The provided username is not occupied|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
 |401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
+|-503|Timeout|Timeout while fetching data|
 
 

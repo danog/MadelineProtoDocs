@@ -1136,7 +1136,7 @@ $MadelineProto->[messages->saveRecentSticker](messages.saveRecentSticker.md)(\['
 
 ***
 <br><br>
-$MadelineProto->[messages->search](messages.search.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'q' => [string](../types/string.md), 'from_id' => [InputUser](../types/InputUser.md), 'top_msg_id' => [int](../types/int.md), 'filter' => [MessagesFilter](../types/MessagesFilter.md), 'min_date' => [int](../types/int.md), 'max_date' => [int](../types/int.md), 'offset_id' => [int](../types/int.md), 'add_offset' => [int](../types/int.md), 'limit' => [int](../types/int.md), 'max_id' => [int](../types/int.md), 'min_id' => [int](../types/int.md), 'hash' => [int](../types/int.md), \]) === [$messages.Messages](../types/messages.Messages.md)<a name="messages.search"></a>  
+$MadelineProto->[messages->search](messages.search.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'q' => [string](../types/string.md), 'from_id' => [InputPeer](../types/InputPeer.md), 'top_msg_id' => [int](../types/int.md), 'filter' => [MessagesFilter](../types/MessagesFilter.md), 'min_date' => [int](../types/int.md), 'max_date' => [int](../types/int.md), 'offset_id' => [int](../types/int.md), 'add_offset' => [int](../types/int.md), 'limit' => [int](../types/int.md), 'max_id' => [int](../types/int.md), 'min_id' => [int](../types/int.md), 'hash' => [int](../types/int.md), \]) === [$messages.Messages](../types/messages.Messages.md)<a name="messages.search"></a>  
 
 ***
 <br><br>
@@ -1236,6 +1236,10 @@ $MadelineProto->[messages->uninstallStickerSet](messages.uninstallStickerSet.md)
 
 ***
 <br><br>
+$MadelineProto->[messages->unpinAllMessages](messages.unpinAllMessages.md)(\['peer' => [InputPeer](../types/InputPeer.md), \]) === [$messages.AffectedHistory](../types/messages.AffectedHistory.md)<a name="messages.unpinAllMessages"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->updateDialogFilter](messages.updateDialogFilter.md)(\['id' => [int](../types/int.md), 'filter' => [DialogFilter](../types/DialogFilter.md), \]) === [$Bool](../types/Bool.md)<a name="messages.updateDialogFilter"></a>  
 
 ***
@@ -1244,7 +1248,7 @@ $MadelineProto->[messages->updateDialogFiltersOrder](messages.updateDialogFilter
 
 ***
 <br><br>
-$MadelineProto->[messages->updatePinnedMessage](messages.updatePinnedMessage.md)(\['silent' => [Bool](../types/Bool.md), 'peer' => [InputPeer](../types/InputPeer.md), 'id' => [int](../types/int.md), \]) === [$Updates](../types/Updates.md)<a name="messages.updatePinnedMessage"></a>  
+$MadelineProto->[messages->updatePinnedMessage](messages.updatePinnedMessage.md)(\['silent' => [Bool](../types/Bool.md), 'unpin' => [Bool](../types/Bool.md), 'pm_oneside' => [Bool](../types/Bool.md), 'peer' => [InputPeer](../types/InputPeer.md), 'id' => [int](../types/int.md), \]) === [$Updates](../types/Updates.md)<a name="messages.updatePinnedMessage"></a>  
 
 ***
 <br><br>

@@ -46,3 +46,10 @@ Or, if you're into Lua:
 auth.LoginToken = auth.importLoginToken({token='bytes', })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|AUTH_TOKEN_EXPIRED|The authorization token has expired|
+
+

@@ -1,23 +1,26 @@
 ---
 title: auth.bindTempAuthKey
-description: You cannot use this method directly, instead modify the PFS and default_temp_auth_key_expires_in settings, see https://docs.madelineproto.xyz/docs/SETTINGS.html for more info
+description: Binds a temporary authorization key `temp_auth_key_id` to the permanent authorization key `perm_auth_key_id`. Each permanent key may only be bound to one temporary key at a time, binding a new temporary key overwrites the previous one.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_bindTempAuthKey.html
 ---
-# Method: auth.bindTempAuthKey  
+# Method: auth.bindTempAuthKey
 [Back to methods index](index.md)
 
 
-You cannot use this method directly, instead modify the PFS and default_temp_auth_key_expires_in settings, see https://docs.madelineproto.xyz/docs/SETTINGS.html for more info
+
+Binds a temporary authorization key `temp_auth_key_id` to the permanent authorization key `perm_auth_key_id`. Each permanent key may only be bound to one temporary key at a time, binding a new temporary key overwrites the previous one.
+
+For more information, see [Perfect Forward Secrecy](https://core.telegram.org/api/pfs).
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|perm\_auth\_key\_id|[long](../types/long.md) | You cannot use this method directly, instead modify the PFS and default_temp_auth_key_expires_in settings, see https://docs.madelineproto.xyz/docs/SETTINGS.html for more info | Yes|
-|nonce|[long](../types/long.md) | You cannot use this method directly, instead modify the PFS and default_temp_auth_key_expires_in settings, see https://docs.madelineproto.xyz/docs/SETTINGS.html for more info | Yes|
-|expires\_at|[int](../types/int.md) | You cannot use this method directly, instead modify the PFS and default_temp_auth_key_expires_in settings, see https://docs.madelineproto.xyz/docs/SETTINGS.html for more info | Yes|
-|encrypted\_message|[bytes](../types/bytes.md) | You cannot use this method directly, instead modify the PFS and default_temp_auth_key_expires_in settings, see https://docs.madelineproto.xyz/docs/SETTINGS.html for more info | Yes|
+|perm\_auth\_key\_id|[long](../types/long.md) | Permanent auth\_key\_id to bind to | Yes|
+|nonce|[long](../types/long.md) | Random long from [Binding message contents](#binding-message-contents) | Yes|
+|expires\_at|[int](../types/int.md) | Unix timestamp to invalidate temporary key, see [Binding message contents](#binding-message-contents) | Yes|
+|encrypted\_message|[bytes](../types/bytes.md) | See [Generating encrypted\_message](#generating-encrypted-message) | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

@@ -14,8 +14,8 @@ Changes in notification settings.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|notify\_peer|[NotifyPeer](../types/NotifyPeer.md) | Yes|Notify peer|
-|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Optional|New notification settings|
+|peer|[NotifyPeer](../types/NotifyPeer.md) | Yes|Nofication source|
+|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Yes|New notification settings|
 
 
 
@@ -25,14 +25,14 @@ Changes in notification settings.
 ### Example:
 
 ```php
-$updateNotifySettings = ['_' => 'updateNotifySettings', 'notify_peer' => NotifyPeer, 'notify_settings' => PeerNotifySettings];
+$updateNotifySettings = ['_' => 'updateNotifySettings', 'peer' => NotifyPeer, 'notify_settings' => PeerNotifySettings];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateNotifySettings={_='updateNotifySettings', notify_peer=NotifyPeer, notify_settings=PeerNotifySettings}
+updateNotifySettings={_='updateNotifySettings', peer=NotifyPeer, notify_settings=PeerNotifySettings}
 
 ```
 

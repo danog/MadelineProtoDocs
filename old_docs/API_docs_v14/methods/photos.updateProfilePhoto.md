@@ -54,6 +54,8 @@ UserProfilePhoto = photos.updateProfilePhoto({id=InputPhoto, crop=InputPhotoCrop
 |400|LOCATION_INVALID|The provided location is invalid|
 |400|PHOTO_CROP_SIZE_SMALL|Photo is too small|
 |400|PHOTO_EXT_INVALID|The extension of the photo is invalid|
+|400|PHOTO_ID_INVALID|Photo ID invalid|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
+|-500|No workers running|Internal error|
 
 

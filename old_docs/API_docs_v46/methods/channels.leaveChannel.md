@@ -4,8 +4,9 @@ description: Leave a [channel/supergroup](https://core.telegram.org/api/channel)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_leaveChannel.html
 ---
-# Method: channels.leaveChannel  
+# Method: channels.leaveChannel
 [Back to methods index](index.md)
+
 
 
 Leave a [channel/supergroup](https://core.telegram.org/api/channel)
@@ -52,6 +53,7 @@ Updates = channels.leaveChannel({channel=InputChannel, })
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |400|USER_CREATOR|You can't leave this channel, because you're its creator|
 |400|USER_NOT_PARTICIPANT|You're not a member of this supergroup/channel|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |403|CHANNEL_PUBLIC_GROUP_NA|channel/supergroup not available|
 
 
