@@ -27,14 +27,14 @@ Media autodownload settings
 ### Example:
 
 ```php
-$account.autoDownloadSettings = ['_' => 'account.autoDownloadSettings', 'low' => AutoDownloadSettings, 'medium' => AutoDownloadSettings, 'high' => AutoDownloadSettings];
+$account_autoDownloadSettings = ['_' => 'account.autoDownloadSettings', 'low' => AutoDownloadSettings, 'medium' => AutoDownloadSettings, 'high' => AutoDownloadSettings];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-account.autoDownloadSettings={_='account.autoDownloadSettings', low=AutoDownloadSettings, medium=AutoDownloadSettings, high=AutoDownloadSettings}
+account_autoDownloadSettings={_='account.autoDownloadSettings', low=AutoDownloadSettings, medium=AutoDownloadSettings, high=AutoDownloadSettings}
 
 ```
 

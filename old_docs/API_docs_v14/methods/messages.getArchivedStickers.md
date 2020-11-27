@@ -36,12 +36,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.ArchivedStickers = $MadelineProto->messages->getArchivedStickers(['offset_id' => long, 'limit' => int, ]);
+$messages_ArchivedStickers = $MadelineProto->messages->getArchivedStickers(['offset_id' => long, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.ArchivedStickers = messages.getArchivedStickers({offset_id=long, limit=int, })
+messages_ArchivedStickers = messages.getArchivedStickers({offset_id=long, limit=int, })
 ```
 

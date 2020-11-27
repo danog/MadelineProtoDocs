@@ -36,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts.Found = $MadelineProto->contacts->search(['q' => 'string', 'limit' => int, ]);
+$contacts_Found = $MadelineProto->contacts->search(['q' => 'string', 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-contacts.Found = contacts.search({q='string', limit=int, })
+contacts_Found = contacts.search({q='string', limit=int, })
 ```
 
 ### Errors

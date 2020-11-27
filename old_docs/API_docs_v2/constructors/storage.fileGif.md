@@ -20,14 +20,14 @@ GIF image. MIME type: `image/gif`.
 ### Example:
 
 ```php
-$storage.fileGif = ['_' => 'storage.fileGif'];
+$storage_fileGif = ['_' => 'storage.fileGif'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-storage.fileGif={_='storage.fileGif'}
+storage_fileGif={_='storage.fileGif'}
 
 ```
 

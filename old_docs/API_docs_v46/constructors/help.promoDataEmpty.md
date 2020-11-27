@@ -25,14 +25,14 @@ No PSA/MTProxy info is available
 ### Example:
 
 ```php
-$help.promoDataEmpty = ['_' => 'help.promoDataEmpty', 'expires' => int];
+$help_promoDataEmpty = ['_' => 'help.promoDataEmpty', 'expires' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-help.promoDataEmpty={_='help.promoDataEmpty', expires=int}
+help_promoDataEmpty={_='help.promoDataEmpty', expires=int}
 
 ```
 

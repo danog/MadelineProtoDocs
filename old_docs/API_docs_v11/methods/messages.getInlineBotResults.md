@@ -37,13 +37,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.BotResults = $MadelineProto->messages->getInlineBotResults(['bot' => InputUser, 'query' => 'string', 'offset' => 'string', ]);
+$messages_BotResults = $MadelineProto->messages->getInlineBotResults(['bot' => InputUser, 'query' => 'string', 'offset' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.BotResults = messages.getInlineBotResults({bot=InputUser, query='string', offset='string', })
+messages_BotResults = messages.getInlineBotResults({bot=InputUser, query='string', offset='string', })
 ```
 
 ### Errors

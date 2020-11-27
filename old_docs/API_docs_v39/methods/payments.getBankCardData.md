@@ -35,12 +35,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$payments.BankCardData = $MadelineProto->payments->getBankCardData(['number' => 'string', ]);
+$payments_BankCardData = $MadelineProto->payments->getBankCardData(['number' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-payments.BankCardData = payments.getBankCardData({number='string', })
+payments_BankCardData = payments.getBankCardData({number='string', })
 ```
 

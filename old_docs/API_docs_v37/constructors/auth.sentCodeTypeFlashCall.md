@@ -25,14 +25,14 @@ The code will be sent via a flash phone call, that will be closed immediately. T
 ### Example:
 
 ```php
-$auth.sentCodeTypeFlashCall = ['_' => 'auth.sentCodeTypeFlashCall', 'pattern' => 'string'];
+$auth_sentCodeTypeFlashCall = ['_' => 'auth.sentCodeTypeFlashCall', 'pattern' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-auth.sentCodeTypeFlashCall={_='auth.sentCodeTypeFlashCall', pattern='string'}
+auth_sentCodeTypeFlashCall={_='auth.sentCodeTypeFlashCall', pattern='string'}
 
 ```
 

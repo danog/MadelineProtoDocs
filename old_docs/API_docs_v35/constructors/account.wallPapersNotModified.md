@@ -20,14 +20,14 @@ No new wallpapers were found
 ### Example:
 
 ```php
-$account.wallPapersNotModified = ['_' => 'account.wallPapersNotModified'];
+$account_wallPapersNotModified = ['_' => 'account.wallPapersNotModified'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-account.wallPapersNotModified={_='account.wallPapersNotModified'}
+account_wallPapersNotModified={_='account.wallPapersNotModified'}
 
 ```
 

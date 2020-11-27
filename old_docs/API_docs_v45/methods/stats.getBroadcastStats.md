@@ -36,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$stats.BroadcastStats = $MadelineProto->stats->getBroadcastStats(['dark' => Bool, 'channel' => InputChannel, ]);
+$stats_BroadcastStats = $MadelineProto->stats->getBroadcastStats(['dark' => Bool, 'channel' => InputChannel, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-stats.BroadcastStats = stats.getBroadcastStats({dark=Bool, channel=InputChannel, })
+stats_BroadcastStats = stats.getBroadcastStats({dark=Bool, channel=InputChannel, })
 ```
 
 ### Errors

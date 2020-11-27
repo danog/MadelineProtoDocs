@@ -20,14 +20,14 @@ Type of verification code that will be sent next if you call the resendCode meth
 ### Example:
 
 ```php
-$auth.codeTypeFlashCall = ['_' => 'auth.codeTypeFlashCall'];
+$auth_codeTypeFlashCall = ['_' => 'auth.codeTypeFlashCall'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-auth.codeTypeFlashCall={_='auth.codeTypeFlashCall'}
+auth_codeTypeFlashCall={_='auth.codeTypeFlashCall'}
 
 ```
 

@@ -20,14 +20,14 @@ PNG image. MIME type: `image/png`.
 ### Example:
 
 ```php
-$storage.filePng = ['_' => 'storage.filePng'];
+$storage_filePng = ['_' => 'storage.filePng'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-storage.filePng={_='storage.filePng'}
+storage_filePng={_='storage.filePng'}
 
 ```
 

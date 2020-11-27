@@ -30,12 +30,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account.Password = $MadelineProto->account->getPassword();
+$account_Password = $MadelineProto->account->getPassword();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account.Password = account.getPassword({})
+account_Password = account.getPassword({})
 ```
 

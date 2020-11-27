@@ -30,12 +30,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account.AutoDownloadSettings = $MadelineProto->account->getAutoDownloadSettings();
+$account_AutoDownloadSettings = $MadelineProto->account->getAutoDownloadSettings();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account.AutoDownloadSettings = account.getAutoDownloadSettings({})
+account_AutoDownloadSettings = account.getAutoDownloadSettings({})
 ```
 

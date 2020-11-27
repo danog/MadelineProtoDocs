@@ -30,12 +30,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account.ContentSettings = $MadelineProto->account->getContentSettings();
+$account_ContentSettings = $MadelineProto->account->getContentSettings();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account.ContentSettings = account.getContentSettings({})
+account_ContentSettings = account.getContentSettings({})
 ```
 

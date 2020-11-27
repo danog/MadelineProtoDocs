@@ -25,14 +25,14 @@ Logged-in sessions
 ### Example:
 
 ```php
-$account.authorizations = ['_' => 'account.authorizations', 'authorizations' => [Authorization, Authorization]];
+$account_authorizations = ['_' => 'account.authorizations', 'authorizations' => [Authorization, Authorization]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-account.authorizations={_='account.authorizations', authorizations={Authorization}}
+account_authorizations={_='account.authorizations', authorizations={Authorization}}
 
 ```
 

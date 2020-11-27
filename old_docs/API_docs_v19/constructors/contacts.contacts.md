@@ -26,14 +26,14 @@ The current user's contact list and info on users.
 ### Example:
 
 ```php
-$contacts.contacts = ['_' => 'contacts.contacts', 'contacts' => [Contact, Contact], 'users' => [User, User]];
+$contacts_contacts = ['_' => 'contacts.contacts', 'contacts' => [Contact, Contact], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-contacts.contacts={_='contacts.contacts', contacts={Contact}, users={User}}
+contacts_contacts={_='contacts.contacts', contacts={Contact}, users={User}}
 
 ```
 

@@ -37,13 +37,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$updates.Difference = $MadelineProto->updates->getDifference(['pts' => int, 'date' => int, 'qts' => int, ]);
+$updates_Difference = $MadelineProto->updates->getDifference(['pts' => int, 'date' => int, 'qts' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-updates.Difference = updates.getDifference({pts=int, date=int, qts=int, })
+updates_Difference = updates.getDifference({pts=int, date=int, qts=int, })
 ```
 
 ### Errors

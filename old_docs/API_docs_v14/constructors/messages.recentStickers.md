@@ -26,14 +26,14 @@ Recently used stickers
 ### Example:
 
 ```php
-$messages.recentStickers = ['_' => 'messages.recentStickers', 'hash' => int, 'stickers' => [Document, Document]];
+$messages_recentStickers = ['_' => 'messages.recentStickers', 'hash' => int, 'stickers' => [Document, Document]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.recentStickers={_='messages.recentStickers', hash=int, stickers={Document}}
+messages_recentStickers={_='messages.recentStickers', hash=int, stickers={Document}}
 
 ```
 

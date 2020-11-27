@@ -28,14 +28,14 @@ Private info associated to the password info (recovery email, telegram [passport
 ### Example:
 
 ```php
-$account.passwordSettings = ['_' => 'account.passwordSettings', 'email' => 'string', 'secure_salt' => 'bytes', 'secure_secret' => 'bytes', 'secure_secret_id' => long];
+$account_passwordSettings = ['_' => 'account.passwordSettings', 'email' => 'string', 'secure_salt' => 'bytes', 'secure_secret' => 'bytes', 'secure_secret_id' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-account.passwordSettings={_='account.passwordSettings', email='string', secure_salt='bytes', secure_secret='bytes', secure_secret_id=long}
+account_passwordSettings={_='account.passwordSettings', email='string', secure_salt='bytes', secure_secret='bytes', secure_secret_id=long}
 
 ```
 

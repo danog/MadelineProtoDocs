@@ -36,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.AffectedHistory = $MadelineProto->channels->deleteUserHistory(['channel' => InputChannel, 'user_id' => InputUser, ]);
+$messages_AffectedHistory = $MadelineProto->channels->deleteUserHistory(['channel' => InputChannel, 'user_id' => InputUser, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.AffectedHistory = channels.deleteUserHistory({channel=InputChannel, user_id=InputUser, })
+messages_AffectedHistory = channels.deleteUserHistory({channel=InputChannel, user_id=InputUser, })
 ```
 
 ### Errors

@@ -23,14 +23,14 @@ redirect_from: /API_docs/constructors/contacts_myLinkRequested.html
 ### Example:
 
 ```php
-$contacts.myLinkRequested = ['_' => 'contacts.myLinkRequested', 'contact' => Bool];
+$contacts_myLinkRequested = ['_' => 'contacts.myLinkRequested', 'contact' => Bool];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-contacts.myLinkRequested={_='contacts.myLinkRequested', contact=Bool}
+contacts_myLinkRequested={_='contacts.myLinkRequested', contact=Bool}
 
 ```
 

@@ -36,12 +36,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts.Blocked = $MadelineProto->contacts->getBlocked(['offset' => int, 'limit' => int, ]);
+$contacts_Blocked = $MadelineProto->contacts->getBlocked(['offset' => int, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-contacts.Blocked = contacts.getBlocked({offset=int, limit=int, })
+contacts_Blocked = contacts.getBlocked({offset=int, limit=int, })
 ```
 

@@ -27,14 +27,14 @@ redirect_from: /API_docs/constructors/messages_statedMessage.html
 ### Example:
 
 ```php
-$messages.statedMessage = ['_' => 'messages.statedMessage', 'message' => Message, 'chats' => [Chat, Chat], 'users' => [User, User], 'pts' => int, 'seq' => int];
+$messages_statedMessage = ['_' => 'messages.statedMessage', 'message' => Message, 'chats' => [Chat, Chat], 'users' => [User, User], 'pts' => int, 'seq' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.statedMessage={_='messages.statedMessage', message=Message, chats={Chat}, users={User}, pts=int, seq=int}
+messages_statedMessage={_='messages.statedMessage', message=Message, chats={Chat}, users={User}, pts=int, seq=int}
 
 ```
 

@@ -20,14 +20,14 @@ Mp3 audio. MIME type: `audio/mpeg`.
 ### Example:
 
 ```php
-$storage.fileMp3 = ['_' => 'storage.fileMp3'];
+$storage_fileMp3 = ['_' => 'storage.fileMp3'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-storage.fileMp3={_='storage.fileMp3'}
+storage_fileMp3={_='storage.fileMp3'}
 
 ```
 

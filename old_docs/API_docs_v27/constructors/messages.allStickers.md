@@ -26,14 +26,14 @@ Info about all installed stickers
 ### Example:
 
 ```php
-$messages.allStickers = ['_' => 'messages.allStickers', 'hash' => int, 'sets' => [StickerSet, StickerSet]];
+$messages_allStickers = ['_' => 'messages.allStickers', 'hash' => int, 'sets' => [StickerSet, StickerSet]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.allStickers={_='messages.allStickers', hash=int, sets={StickerSet}}
+messages_allStickers={_='messages.allStickers', hash=int, sets={StickerSet}}
 
 ```
 

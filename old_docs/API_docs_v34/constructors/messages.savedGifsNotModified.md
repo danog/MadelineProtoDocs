@@ -20,14 +20,14 @@ No new saved gifs were found
 ### Example:
 
 ```php
-$messages.savedGifsNotModified = ['_' => 'messages.savedGifsNotModified'];
+$messages_savedGifsNotModified = ['_' => 'messages.savedGifsNotModified'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.savedGifsNotModified={_='messages.savedGifsNotModified'}
+messages_savedGifsNotModified={_='messages.savedGifsNotModified'}
 
 ```
 

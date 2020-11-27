@@ -26,14 +26,14 @@ Callback answer sent by the bot in response to a button press
 ### Example:
 
 ```php
-$messages.botCallbackAnswer = ['_' => 'messages.botCallbackAnswer', 'alert' => Bool, 'message' => 'string'];
+$messages_botCallbackAnswer = ['_' => 'messages.botCallbackAnswer', 'alert' => Bool, 'message' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.botCallbackAnswer={_='messages.botCallbackAnswer', alert=Bool, message='string'}
+messages_botCallbackAnswer={_='messages.botCallbackAnswer', alert=Bool, message='string'}
 
 ```
 

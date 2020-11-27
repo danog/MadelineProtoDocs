@@ -20,14 +20,14 @@ No new favorited stickers were found
 ### Example:
 
 ```php
-$messages.favedStickersNotModified = ['_' => 'messages.favedStickersNotModified'];
+$messages_favedStickersNotModified = ['_' => 'messages.favedStickersNotModified'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.favedStickersNotModified={_='messages.favedStickersNotModified'}
+messages_favedStickersNotModified={_='messages.favedStickersNotModified'}
 
 ```
 

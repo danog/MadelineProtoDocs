@@ -27,14 +27,14 @@ Full list of messages with auxilary data.
 ### Example:
 
 ```php
-$messages.messages = ['_' => 'messages.messages', 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
+$messages_messages = ['_' => 'messages.messages', 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.messages={_='messages.messages', messages={Message}, chats={Chat}, users={User}}
+messages_messages={_='messages.messages', messages={Message}, chats={Chat}, users={User}}
 
 ```
 

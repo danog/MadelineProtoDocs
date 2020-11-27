@@ -39,13 +39,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$upload.File = $MadelineProto->upload->getFile(['precise' => Bool, 'cdn_supported' => Bool, 'location' => InputFileLocation, 'offset' => int, 'limit' => int, ]);
+$upload_File = $MadelineProto->upload->getFile(['precise' => Bool, 'cdn_supported' => Bool, 'location' => InputFileLocation, 'offset' => int, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-upload.File = upload.getFile({precise=Bool, cdn_supported=Bool, location=InputFileLocation, offset=int, limit=int, })
+upload_File = upload.getFile({precise=Bool, cdn_supported=Bool, location=InputFileLocation, offset=int, limit=int, })
 ```
 
 ### Errors

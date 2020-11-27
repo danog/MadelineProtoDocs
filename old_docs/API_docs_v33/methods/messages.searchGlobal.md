@@ -39,13 +39,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.Messages = $MadelineProto->messages->searchGlobal(['q' => 'string', 'offset_rate' => int, 'offset_peer' => InputPeer, 'offset_id' => int, 'limit' => int, ]);
+$messages_Messages = $MadelineProto->messages->searchGlobal(['q' => 'string', 'offset_rate' => int, 'offset_peer' => InputPeer, 'offset_id' => int, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.Messages = messages.searchGlobal({q='string', offset_rate=int, offset_peer=InputPeer, offset_id=int, limit=int, })
+messages_Messages = messages.searchGlobal({q='string', offset_rate=int, offset_peer=InputPeer, offset_id=int, limit=int, })
 ```
 
 ### Errors

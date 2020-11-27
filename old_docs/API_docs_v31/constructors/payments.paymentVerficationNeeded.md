@@ -23,14 +23,14 @@ redirect_from: /API_docs/constructors/payments_paymentVerficationNeeded.html
 ### Example:
 
 ```php
-$payments.paymentVerficationNeeded = ['_' => 'payments.paymentVerficationNeeded', 'url' => 'string'];
+$payments_paymentVerficationNeeded = ['_' => 'payments.paymentVerficationNeeded', 'url' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-payments.paymentVerficationNeeded={_='payments.paymentVerficationNeeded', url='string'}
+payments_paymentVerficationNeeded={_='payments.paymentVerficationNeeded', url='string'}
 
 ```
 

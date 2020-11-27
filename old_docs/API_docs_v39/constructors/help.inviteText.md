@@ -25,14 +25,14 @@ Text of a text message with an invitation to install Telegram.
 ### Example:
 
 ```php
-$help.inviteText = ['_' => 'help.inviteText', 'message' => 'string'];
+$help_inviteText = ['_' => 'help.inviteText', 'message' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-help.inviteText={_='help.inviteText', message='string'}
+help_inviteText={_='help.inviteText', message='string'}
 
 ```
 

@@ -34,12 +34,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help.CountriesList = $MadelineProto->help->getCountriesList(['lang_code' => 'string', 'hash' => [int, int], ]);
+$help_CountriesList = $MadelineProto->help->getCountriesList(['lang_code' => 'string', 'hash' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help.CountriesList = help.getCountriesList({lang_code='string', hash={int}, })
+help_CountriesList = help.getCountriesList({lang_code='string', hash={int}, })
 ```
 

@@ -27,14 +27,14 @@ File content.
 ### Example:
 
 ```php
-$upload.file = ['_' => 'upload.file', 'type' => storage.FileType, 'mtime' => int, 'bytes' => 'bytes'];
+$upload_file = ['_' => 'upload.file', 'type' => storage.FileType, 'mtime' => int, 'bytes' => 'bytes'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-upload.file={_='upload.file', type=storage.FileType, mtime=int, bytes='bytes'}
+upload_file={_='upload.file', type=storage.FileType, mtime=int, bytes='bytes'}
 
 ```
 

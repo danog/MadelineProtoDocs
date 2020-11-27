@@ -18,14 +18,14 @@ redirect_from: /API_docs/constructors/contacts_foreignLinkUnknown.html
 ### Example:
 
 ```php
-$contacts.foreignLinkUnknown = ['_' => 'contacts.foreignLinkUnknown'];
+$contacts_foreignLinkUnknown = ['_' => 'contacts.foreignLinkUnknown'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-contacts.foreignLinkUnknown={_='contacts.foreignLinkUnknown'}
+contacts_foreignLinkUnknown={_='contacts.foreignLinkUnknown'}
 
 ```
 

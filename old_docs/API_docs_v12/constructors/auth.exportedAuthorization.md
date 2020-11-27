@@ -26,14 +26,14 @@ Data for copying of authorization between data centres.
 ### Example:
 
 ```php
-$auth.exportedAuthorization = ['_' => 'auth.exportedAuthorization', 'id' => int, 'bytes' => 'bytes'];
+$auth_exportedAuthorization = ['_' => 'auth.exportedAuthorization', 'id' => int, 'bytes' => 'bytes'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-auth.exportedAuthorization={_='auth.exportedAuthorization', id=int, bytes='bytes'}
+auth_exportedAuthorization={_='auth.exportedAuthorization', id=int, bytes='bytes'}
 
 ```
 

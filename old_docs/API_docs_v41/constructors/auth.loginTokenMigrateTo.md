@@ -26,14 +26,14 @@ Repeat the query to the specified DC
 ### Example:
 
 ```php
-$auth.loginTokenMigrateTo = ['_' => 'auth.loginTokenMigrateTo', 'dc_id' => int, 'token' => 'bytes'];
+$auth_loginTokenMigrateTo = ['_' => 'auth.loginTokenMigrateTo', 'dc_id' => int, 'token' => 'bytes'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-auth.loginTokenMigrateTo={_='auth.loginTokenMigrateTo', dc_id=int, token='bytes'}
+auth_loginTokenMigrateTo={_='auth.loginTokenMigrateTo', dc_id=int, token='bytes'}
 
 ```
 

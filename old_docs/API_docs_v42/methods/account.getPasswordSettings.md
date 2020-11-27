@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account.PasswordSettings = $MadelineProto->account->getPasswordSettings(['password' => InputCheckPasswordSRP, ]);
+$account_PasswordSettings = $MadelineProto->account->getPasswordSettings(['password' => InputCheckPasswordSRP, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account.PasswordSettings = account.getPasswordSettings({password=InputCheckPasswordSRP, })
+account_PasswordSettings = account.getPasswordSettings({password=InputCheckPasswordSRP, })
 ```
 
 ### Errors

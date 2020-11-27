@@ -37,12 +37,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.Messages = $MadelineProto->messages->getRecentLocations(['peer' => InputPeer, 'limit' => int, 'hash' => [int, int], ]);
+$messages_Messages = $MadelineProto->messages->getRecentLocations(['peer' => InputPeer, 'limit' => int, 'hash' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.Messages = messages.getRecentLocations({peer=InputPeer, limit=int, hash={int}, })
+messages_Messages = messages.getRecentLocations({peer=InputPeer, limit=int, hash={int}, })
 ```
 

@@ -26,14 +26,14 @@ Photo with auxiliary data.
 ### Example:
 
 ```php
-$photos.photo = ['_' => 'photos.photo', 'photo' => Photo, 'users' => [User, User]];
+$photos_photo = ['_' => 'photos.photo', 'photo' => Photo, 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-photos.photo={_='photos.photo', photo=Photo, users={User}}
+photos_photo={_='photos.photo', photo=Photo, users={User}}
 
 ```
 

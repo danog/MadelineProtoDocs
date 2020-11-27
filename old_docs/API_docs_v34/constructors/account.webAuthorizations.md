@@ -26,14 +26,14 @@ Web authorizations
 ### Example:
 
 ```php
-$account.webAuthorizations = ['_' => 'account.webAuthorizations', 'authorizations' => [WebAuthorization, WebAuthorization], 'users' => [User, User]];
+$account_webAuthorizations = ['_' => 'account.webAuthorizations', 'authorizations' => [WebAuthorization, WebAuthorization], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-account.webAuthorizations={_='account.webAuthorizations', authorizations={WebAuthorization}, users={User}}
+account_webAuthorizations={_='account.webAuthorizations', authorizations={WebAuthorization}, users={User}}
 
 ```
 

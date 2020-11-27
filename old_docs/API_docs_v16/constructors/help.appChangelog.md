@@ -25,14 +25,14 @@ redirect_from: /API_docs/constructors/help_appChangelog.html
 ### Example:
 
 ```php
-$help.appChangelog = ['_' => 'help.appChangelog', 'message' => 'string', 'media' => MessageMedia, 'entities' => [MessageEntity, MessageEntity]];
+$help_appChangelog = ['_' => 'help.appChangelog', 'message' => 'string', 'media' => MessageMedia, 'entities' => [MessageEntity, MessageEntity]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-help.appChangelog={_='help.appChangelog', message='string', media=MessageMedia, entities={MessageEntity}}
+help_appChangelog={_='help.appChangelog', message='string', media=MessageMedia, entities={MessageEntity}}
 
 ```
 

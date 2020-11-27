@@ -28,14 +28,14 @@ redirect_from: /API_docs/constructors/messages_sentMessageLink.html
 ### Example:
 
 ```php
-$messages.sentMessageLink = ['_' => 'messages.sentMessageLink', 'id' => int, 'date' => int, 'pts' => int, 'pts_count' => int, 'links' => [contacts.Link, contacts.Link], 'seq' => int];
+$messages_sentMessageLink = ['_' => 'messages.sentMessageLink', 'id' => int, 'date' => int, 'pts' => int, 'pts_count' => int, 'links' => [contacts.Link, contacts.Link], 'seq' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.sentMessageLink={_='messages.sentMessageLink', id=int, date=int, pts=int, pts_count=int, links={contacts.Link}, seq=int}
+messages_sentMessageLink={_='messages.sentMessageLink', id=int, date=int, pts=int, pts_count=int, links={contacts.Link}, seq=int}
 
 ```
 

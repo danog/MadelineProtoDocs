@@ -40,12 +40,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth.LoginToken = $MadelineProto->auth->exportLoginToken(['api_id' => int, 'api_hash' => 'string', 'except_ids' => [int, int], ]);
+$auth_LoginToken = $MadelineProto->auth->exportLoginToken(['api_id' => int, 'api_hash' => 'string', 'except_ids' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth.LoginToken = auth.exportLoginToken({api_id=int, api_hash='string', except_ids={int}, })
+auth_LoginToken = auth.exportLoginToken({api_id=int, api_hash='string', except_ids={int}, })
 ```
 

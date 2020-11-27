@@ -34,12 +34,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.AffectedMessages = $MadelineProto->messages->deleteChannelMessages(['peer' => InputPeer, 'id' => [int, int], ]);
+$messages_AffectedMessages = $MadelineProto->messages->deleteChannelMessages(['peer' => InputPeer, 'id' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.AffectedMessages = messages.deleteChannelMessages({peer=InputPeer, id={int}, })
+messages_AffectedMessages = messages.deleteChannelMessages({peer=InputPeer, id={int}, })
 ```
 

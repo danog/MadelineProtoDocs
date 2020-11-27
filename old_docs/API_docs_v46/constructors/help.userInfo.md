@@ -28,14 +28,14 @@ Internal use
 ### Example:
 
 ```php
-$help.userInfo = ['_' => 'help.userInfo', 'message' => 'string', 'entities' => [MessageEntity, MessageEntity], 'author' => 'string', 'date' => int];
+$help_userInfo = ['_' => 'help.userInfo', 'message' => 'string', 'entities' => [MessageEntity, MessageEntity], 'author' => 'string', 'date' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-help.userInfo={_='help.userInfo', message='string', entities={MessageEntity}, author='string', date=int}
+help_userInfo={_='help.userInfo', message='string', entities={MessageEntity}, author='string', date=int}
 
 ```
 

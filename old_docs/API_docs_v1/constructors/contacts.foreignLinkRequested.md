@@ -23,14 +23,14 @@ redirect_from: /API_docs/constructors/contacts_foreignLinkRequested.html
 ### Example:
 
 ```php
-$contacts.foreignLinkRequested = ['_' => 'contacts.foreignLinkRequested', 'has_phone' => Bool];
+$contacts_foreignLinkRequested = ['_' => 'contacts.foreignLinkRequested', 'has_phone' => Bool];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-contacts.foreignLinkRequested={_='contacts.foreignLinkRequested', has_phone=Bool}
+contacts_foreignLinkRequested={_='contacts.foreignLinkRequested', has_phone=Bool}
 
 ```
 

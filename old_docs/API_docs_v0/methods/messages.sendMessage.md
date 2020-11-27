@@ -36,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.SentMessage = $MadelineProto->messages->sendMessage(['peer' => InputPeer, 'message' => 'string', ]);
+$messages_SentMessage = $MadelineProto->messages->sendMessage(['peer' => InputPeer, 'message' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.SentMessage = messages.sendMessage({peer=InputPeer, message='string', })
+messages_SentMessage = messages.sendMessage({peer=InputPeer, message='string', })
 ```
 
 

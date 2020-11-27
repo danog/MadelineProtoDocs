@@ -34,12 +34,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$geochats.Messages = $MadelineProto->geochats->getRecents(['offset' => int, 'limit' => int, ]);
+$geochats_Messages = $MadelineProto->geochats->getRecents(['offset' => int, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-geochats.Messages = geochats.getRecents({offset=int, limit=int, })
+geochats_Messages = geochats.getRecents({offset=int, limit=int, })
 ```
 

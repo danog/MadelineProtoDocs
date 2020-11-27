@@ -26,14 +26,14 @@ The sent email code
 ### Example:
 
 ```php
-$account.sentEmailCode = ['_' => 'account.sentEmailCode', 'email_pattern' => 'string', 'length' => int];
+$account_sentEmailCode = ['_' => 'account.sentEmailCode', 'email_pattern' => 'string', 'length' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-account.sentEmailCode={_='account.sentEmailCode', email_pattern='string', length=int}
+account_sentEmailCode={_='account.sentEmailCode', email_pattern='string', length=int}
 
 ```
 

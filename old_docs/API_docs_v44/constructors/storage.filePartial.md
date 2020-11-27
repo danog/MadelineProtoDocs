@@ -20,14 +20,14 @@ Part of a bigger file.
 ### Example:
 
 ```php
-$storage.filePartial = ['_' => 'storage.filePartial'];
+$storage_filePartial = ['_' => 'storage.filePartial'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-storage.filePartial={_='storage.filePartial'}
+storage_filePartial={_='storage.filePartial'}
 
 ```
 

@@ -33,13 +33,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts.Link = $MadelineProto->contacts->deleteContact(['id' => InputUser, ]);
+$contacts_Link = $MadelineProto->contacts->deleteContact(['id' => InputUser, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-contacts.Link = contacts.deleteContact({id=InputUser, })
+contacts_Link = contacts.deleteContact({id=InputUser, })
 ```
 
 ### Errors

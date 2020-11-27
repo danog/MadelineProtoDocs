@@ -35,12 +35,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.RecentStickers = $MadelineProto->messages->getRecentStickers(['hash' => [int, int], ]);
+$messages_RecentStickers = $MadelineProto->messages->getRecentStickers(['hash' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.RecentStickers = messages.getRecentStickers({hash={int}, })
+messages_RecentStickers = messages.getRecentStickers({hash={int}, })
 ```
 

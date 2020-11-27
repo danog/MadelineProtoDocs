@@ -30,13 +30,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help.SupportName = $MadelineProto->help->getSupportName();
+$help_SupportName = $MadelineProto->help->getSupportName();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help.SupportName = help.getSupportName({})
+help_SupportName = help.getSupportName({})
 ```
 
 ### Errors

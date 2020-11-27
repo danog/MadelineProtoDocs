@@ -20,14 +20,14 @@ Info about all installed stickers hasn't changed
 ### Example:
 
 ```php
-$messages.allStickersNotModified = ['_' => 'messages.allStickersNotModified'];
+$messages_allStickersNotModified = ['_' => 'messages.allStickersNotModified'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.allStickersNotModified={_='messages.allStickersNotModified'}
+messages_allStickersNotModified={_='messages.allStickersNotModified'}
 
 ```
 

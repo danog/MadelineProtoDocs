@@ -20,14 +20,14 @@ Top peer info hasn't changed
 ### Example:
 
 ```php
-$contacts.topPeersNotModified = ['_' => 'contacts.topPeersNotModified'];
+$contacts_topPeersNotModified = ['_' => 'contacts.topPeersNotModified'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-contacts.topPeersNotModified={_='contacts.topPeersNotModified'}
+contacts_topPeersNotModified={_='contacts.topPeersNotModified'}
 
 ```
 

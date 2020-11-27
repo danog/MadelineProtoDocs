@@ -30,12 +30,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help.InviteText = $MadelineProto->help->getInviteText();
+$help_InviteText = $MadelineProto->help->getInviteText();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help.InviteText = help.getInviteText({})
+help_InviteText = help.getInviteText({})
 ```
 

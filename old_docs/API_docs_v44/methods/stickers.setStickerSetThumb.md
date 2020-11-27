@@ -36,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.StickerSet = $MadelineProto->stickers->setStickerSetThumb(['stickerset' => InputStickerSet, 'thumb' => InputDocument, ]);
+$messages_StickerSet = $MadelineProto->stickers->setStickerSetThumb(['stickerset' => InputStickerSet, 'thumb' => InputDocument, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.StickerSet = stickers.setStickerSetThumb({stickerset=InputStickerSet, thumb=InputDocument, })
+messages_StickerSet = stickers.setStickerSetThumb({stickerset=InputStickerSet, thumb=InputDocument, })
 ```
 
 ### Errors

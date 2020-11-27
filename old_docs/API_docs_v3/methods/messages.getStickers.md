@@ -36,12 +36,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.Stickers = $MadelineProto->messages->getStickers(['emoticon' => 'string', 'hash' => 'string', ]);
+$messages_Stickers = $MadelineProto->messages->getStickers(['emoticon' => 'string', 'hash' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.Stickers = messages.getStickers({emoticon='string', hash='string', })
+messages_Stickers = messages.getStickers({emoticon='string', hash='string', })
 ```
 

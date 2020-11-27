@@ -37,12 +37,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account.AuthorizationForm = $MadelineProto->account->getAuthorizationForm(['bot_id' => int, 'scope' => 'string', 'public_key' => 'string', ]);
+$account_AuthorizationForm = $MadelineProto->account->getAuthorizationForm(['bot_id' => int, 'scope' => 'string', 'public_key' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account.AuthorizationForm = account.getAuthorizationForm({bot_id=int, scope='string', public_key='string', })
+account_AuthorizationForm = account.getAuthorizationForm({bot_id=int, scope='string', public_key='string', })
 ```
 

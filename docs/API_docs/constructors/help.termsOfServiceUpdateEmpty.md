@@ -25,14 +25,14 @@ No changes were made to telegram's terms of service
 ### Example:
 
 ```php
-$help.termsOfServiceUpdateEmpty = ['_' => 'help.termsOfServiceUpdateEmpty', 'expires' => int];
+$help_termsOfServiceUpdateEmpty = ['_' => 'help.termsOfServiceUpdateEmpty', 'expires' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-help.termsOfServiceUpdateEmpty={_='help.termsOfServiceUpdateEmpty', expires=int}
+help_termsOfServiceUpdateEmpty={_='help.termsOfServiceUpdateEmpty', expires=int}
 
 ```
 

@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth.ExportedAuthorization = $MadelineProto->auth->exportAuthorization(['dc_id' => int, ]);
+$auth_ExportedAuthorization = $MadelineProto->auth->exportAuthorization(['dc_id' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth.ExportedAuthorization = auth.exportAuthorization({dc_id=int, })
+auth_ExportedAuthorization = auth.exportAuthorization({dc_id=int, })
 ```
 
 ### Errors

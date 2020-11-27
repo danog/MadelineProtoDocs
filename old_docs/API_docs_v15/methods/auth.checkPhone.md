@@ -33,13 +33,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth.CheckedPhone = $MadelineProto->auth->checkPhone(['phone_number' => 'string', ]);
+$auth_CheckedPhone = $MadelineProto->auth->checkPhone(['phone_number' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth.CheckedPhone = auth.checkPhone({phone_number='string', })
+auth_CheckedPhone = auth.checkPhone({phone_number='string', })
 ```
 
 ### Errors

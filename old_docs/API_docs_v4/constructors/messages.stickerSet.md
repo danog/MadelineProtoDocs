@@ -27,14 +27,14 @@ Stickerset and stickers inside it
 ### Example:
 
 ```php
-$messages.stickerSet = ['_' => 'messages.stickerSet', 'set' => StickerSet, 'packs' => [StickerPack, StickerPack], 'documents' => [Document, Document]];
+$messages_stickerSet = ['_' => 'messages.stickerSet', 'set' => StickerSet, 'packs' => [StickerPack, StickerPack], 'documents' => [Document, Document]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.stickerSet={_='messages.stickerSet', set=StickerSet, packs={StickerPack}, documents={Document}}
+messages_stickerSet={_='messages.stickerSet', set=StickerSet, packs={StickerPack}, documents={Document}}
 
 ```
 

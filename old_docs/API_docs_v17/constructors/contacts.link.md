@@ -25,14 +25,14 @@ redirect_from: /API_docs/constructors/contacts_link.html
 ### Example:
 
 ```php
-$contacts.link = ['_' => 'contacts.link', 'my_link' => ContactLink, 'foreign_link' => ContactLink, 'user' => User];
+$contacts_link = ['_' => 'contacts.link', 'my_link' => ContactLink, 'foreign_link' => ContactLink, 'user' => User];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-contacts.link={_='contacts.link', my_link=ContactLink, foreign_link=ContactLink, user=User}
+contacts_link={_='contacts.link', my_link=ContactLink, foreign_link=ContactLink, user=User}
 
 ```
 

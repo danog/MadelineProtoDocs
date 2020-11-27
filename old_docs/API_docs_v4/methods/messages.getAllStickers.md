@@ -35,12 +35,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.AllStickers = $MadelineProto->messages->getAllStickers(['hash' => 'string', ]);
+$messages_AllStickers = $MadelineProto->messages->getAllStickers(['hash' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.AllStickers = messages.getAllStickers({hash='string', })
+messages_AllStickers = messages.getAllStickers({hash='string', })
 ```
 

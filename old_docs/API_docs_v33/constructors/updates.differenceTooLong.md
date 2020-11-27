@@ -25,14 +25,14 @@ The difference is [too long](https://core.telegram.org/api/updates#recovering-ga
 ### Example:
 
 ```php
-$updates.differenceTooLong = ['_' => 'updates.differenceTooLong', 'pts' => int];
+$updates_differenceTooLong = ['_' => 'updates.differenceTooLong', 'pts' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updates.differenceTooLong={_='updates.differenceTooLong', pts=int}
+updates_differenceTooLong={_='updates.differenceTooLong', pts=int}
 
 ```
 

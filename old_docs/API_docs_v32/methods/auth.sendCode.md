@@ -38,13 +38,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth.SentCode = $MadelineProto->auth->sendCode(['phone_number' => 'string', 'api_id' => int, 'api_hash' => 'string', 'settings' => CodeSettings, ]);
+$auth_SentCode = $MadelineProto->auth->sendCode(['phone_number' => 'string', 'api_id' => int, 'api_hash' => 'string', 'settings' => CodeSettings, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth.SentCode = auth.sendCode({phone_number='string', api_id=int, api_hash='string', settings=CodeSettings, })
+auth_SentCode = auth.sendCode({phone_number='string', api_id=int, api_hash='string', settings=CodeSettings, })
 ```
 
 ### Errors

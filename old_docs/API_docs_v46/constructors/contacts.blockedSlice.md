@@ -28,14 +28,14 @@ Incomplete list of blocked users.
 ### Example:
 
 ```php
-$contacts.blockedSlice = ['_' => 'contacts.blockedSlice', 'count' => int, 'blocked' => [PeerBlocked, PeerBlocked], 'chats' => [Chat, Chat], 'users' => [User, User]];
+$contacts_blockedSlice = ['_' => 'contacts.blockedSlice', 'count' => int, 'blocked' => [PeerBlocked, PeerBlocked], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-contacts.blockedSlice={_='contacts.blockedSlice', count=int, blocked={PeerBlocked}, chats={Chat}, users={User}}
+contacts_blockedSlice={_='contacts.blockedSlice', count=int, blocked={PeerBlocked}, chats={Chat}, users={User}}
 
 ```
 

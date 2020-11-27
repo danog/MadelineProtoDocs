@@ -37,13 +37,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth.Authorization = $MadelineProto->auth->signIn(['phone_number' => 'string', 'phone_code_hash' => 'string', 'phone_code' => 'string', ]);
+$auth_Authorization = $MadelineProto->auth->signIn(['phone_number' => 'string', 'phone_code_hash' => 'string', 'phone_code' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth.Authorization = auth.signIn({phone_number='string', phone_code_hash='string', phone_code='string', })
+auth_Authorization = auth.signIn({phone_number='string', phone_code_hash='string', phone_code='string', })
 ```
 
 ### Errors

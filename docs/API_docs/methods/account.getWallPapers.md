@@ -35,12 +35,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account.WallPapers = $MadelineProto->account->getWallPapers(['hash' => [int, int], ]);
+$account_WallPapers = $MadelineProto->account->getWallPapers(['hash' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account.WallPapers = account.getWallPapers({hash={int}, })
+account_WallPapers = account.getWallPapers({hash={int}, })
 ```
 

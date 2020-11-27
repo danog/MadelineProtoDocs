@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.PeerDialogs = $MadelineProto->messages->getPinnedDialogs(['folder_id' => int, ]);
+$messages_PeerDialogs = $MadelineProto->messages->getPinnedDialogs(['folder_id' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.PeerDialogs = messages.getPinnedDialogs({folder_id=int, })
+messages_PeerDialogs = messages.getPinnedDialogs({folder_id=int, })
 ```
 
 ### Errors

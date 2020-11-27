@@ -35,12 +35,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.FeaturedStickers = $MadelineProto->messages->getFeaturedStickers(['hash' => [int, int], ]);
+$messages_FeaturedStickers = $MadelineProto->messages->getFeaturedStickers(['hash' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.FeaturedStickers = messages.getFeaturedStickers({hash={int}, })
+messages_FeaturedStickers = messages.getFeaturedStickers({hash={int}, })
 ```
 

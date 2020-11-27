@@ -26,14 +26,14 @@ Highscores in a game
 ### Example:
 
 ```php
-$messages.highScores = ['_' => 'messages.highScores', 'scores' => [HighScore, HighScore], 'users' => [User, User]];
+$messages_highScores = ['_' => 'messages.highScores', 'scores' => [HighScore, HighScore], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.highScores={_='messages.highScores', scores={HighScore}, users={User}}
+messages_highScores={_='messages.highScores', scores={HighScore}, users={User}}
 
 ```
 

@@ -38,13 +38,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$updates.ChannelDifference = $MadelineProto->updates->getChannelDifference(['peer' => InputPeer, 'filter' => ChannelMessagesFilter, 'pts' => int, 'limit' => int, ]);
+$updates_ChannelDifference = $MadelineProto->updates->getChannelDifference(['peer' => InputPeer, 'filter' => ChannelMessagesFilter, 'pts' => int, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-updates.ChannelDifference = updates.getChannelDifference({peer=InputPeer, filter=ChannelMessagesFilter, pts=int, limit=int, })
+updates_ChannelDifference = updates.getChannelDifference({peer=InputPeer, filter=ChannelMessagesFilter, pts=int, limit=int, })
 ```
 
 ### Errors

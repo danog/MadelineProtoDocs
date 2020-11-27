@@ -20,14 +20,14 @@ No further results were found
 ### Example:
 
 ```php
-$messages.foundStickerSetsNotModified = ['_' => 'messages.foundStickerSetsNotModified'];
+$messages_foundStickerSetsNotModified = ['_' => 'messages.foundStickerSetsNotModified'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.foundStickerSetsNotModified={_='messages.foundStickerSetsNotModified'}
+messages_foundStickerSetsNotModified={_='messages.foundStickerSetsNotModified'}
 
 ```
 

@@ -36,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account.TmpPassword = $MadelineProto->account->getTmpPassword(['password' => InputCheckPasswordSRP, 'period' => int, ]);
+$account_TmpPassword = $MadelineProto->account->getTmpPassword(['password' => InputCheckPasswordSRP, 'period' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account.TmpPassword = account.getTmpPassword({password=InputCheckPasswordSRP, period=int, })
+account_TmpPassword = account.getTmpPassword({password=InputCheckPasswordSRP, period=int, })
 ```
 
 ### Errors

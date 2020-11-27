@@ -31,14 +31,14 @@ Settings for setting up a new password
 ### Example:
 
 ```php
-$account.passwordInputSettings = ['_' => 'account.passwordInputSettings', 'new_salt' => 'bytes', 'new_password_hash' => 'bytes', 'hint' => 'string', 'email' => 'string', 'new_secure_salt' => 'bytes', 'new_secure_secret' => 'bytes', 'new_secure_secret_id' => long];
+$account_passwordInputSettings = ['_' => 'account.passwordInputSettings', 'new_salt' => 'bytes', 'new_password_hash' => 'bytes', 'hint' => 'string', 'email' => 'string', 'new_secure_salt' => 'bytes', 'new_secure_secret' => 'bytes', 'new_secure_secret_id' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-account.passwordInputSettings={_='account.passwordInputSettings', new_salt='bytes', new_password_hash='bytes', hint='string', email='string', new_secure_salt='bytes', new_secure_secret='bytes', new_secure_secret_id=long}
+account_passwordInputSettings={_='account.passwordInputSettings', new_salt='bytes', new_password_hash='bytes', hint='string', email='string', new_secure_salt='bytes', new_secure_secret='bytes', new_secure_secret_id=long}
 
 ```
 

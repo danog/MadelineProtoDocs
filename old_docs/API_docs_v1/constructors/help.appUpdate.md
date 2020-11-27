@@ -28,14 +28,14 @@ An update is available for the application.
 ### Example:
 
 ```php
-$help.appUpdate = ['_' => 'help.appUpdate', 'id' => int, 'critical' => Bool, 'url' => 'string', 'text' => 'string'];
+$help_appUpdate = ['_' => 'help.appUpdate', 'id' => int, 'critical' => Bool, 'url' => 'string', 'text' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-help.appUpdate={_='help.appUpdate', id=int, critical=Bool, url='string', text='string'}
+help_appUpdate={_='help.appUpdate', id=int, critical=Bool, url='string', text='string'}
 
 ```
 

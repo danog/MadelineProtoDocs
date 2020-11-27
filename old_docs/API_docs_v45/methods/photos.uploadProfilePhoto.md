@@ -37,13 +37,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$photos.Photo = $MadelineProto->photos->uploadProfilePhoto(['file' => InputFile, 'video' => InputFile, 'video_start_ts' => double, ]);
+$photos_Photo = $MadelineProto->photos->uploadProfilePhoto(['file' => InputFile, 'video' => InputFile, 'video_start_ts' => double, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-photos.Photo = photos.uploadProfilePhoto({file=InputFile, video=InputFile, video_start_ts=double, })
+photos_Photo = photos.uploadProfilePhoto({file=InputFile, video=InputFile, video_start_ts=double, })
 ```
 
 ### Errors

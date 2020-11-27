@@ -30,13 +30,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help.TermsOfServiceUpdate = $MadelineProto->help->getTermsOfServiceUpdate();
+$help_TermsOfServiceUpdate = $MadelineProto->help->getTermsOfServiceUpdate();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help.TermsOfServiceUpdate = help.getTermsOfServiceUpdate({})
+help_TermsOfServiceUpdate = help.getTermsOfServiceUpdate({})
 ```
 
 ### Errors

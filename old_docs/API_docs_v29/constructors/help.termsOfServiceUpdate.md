@@ -26,14 +26,14 @@ Info about an update of telegram's terms of service. If the terms of service are
 ### Example:
 
 ```php
-$help.termsOfServiceUpdate = ['_' => 'help.termsOfServiceUpdate', 'expires' => int, 'terms_of_service' => help.TermsOfService];
+$help_termsOfServiceUpdate = ['_' => 'help.termsOfServiceUpdate', 'expires' => int, 'terms_of_service' => help.TermsOfService];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-help.termsOfServiceUpdate={_='help.termsOfServiceUpdate', expires=int, terms_of_service=help.TermsOfService}
+help_termsOfServiceUpdate={_='help.termsOfServiceUpdate', expires=int, terms_of_service=help.TermsOfService}
 
 ```
 

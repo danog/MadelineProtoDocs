@@ -30,14 +30,14 @@ Incomplete list of messages and auxiliary data.
 ### Example:
 
 ```php
-$messages.messagesSlice = ['_' => 'messages.messagesSlice', 'inexact' => Bool, 'count' => int, 'next_rate' => int, 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
+$messages_messagesSlice = ['_' => 'messages.messagesSlice', 'inexact' => Bool, 'count' => int, 'next_rate' => int, 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.messagesSlice={_='messages.messagesSlice', inexact=Bool, count=int, next_rate=int, messages={Message}, chats={Chat}, users={User}}
+messages_messagesSlice={_='messages.messagesSlice', inexact=Bool, count=int, next_rate=int, messages={Message}, chats={Chat}, users={User}}
 
 ```
 

@@ -24,14 +24,14 @@ redirect_from: /API_docs/constructors/account_sentChangePhoneCode.html
 ### Example:
 
 ```php
-$account.sentChangePhoneCode = ['_' => 'account.sentChangePhoneCode', 'phone_code_hash' => 'string', 'send_call_timeout' => int];
+$account_sentChangePhoneCode = ['_' => 'account.sentChangePhoneCode', 'phone_code_hash' => 'string', 'send_call_timeout' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-account.sentChangePhoneCode={_='account.sentChangePhoneCode', phone_code_hash='string', send_call_timeout=int}
+account_sentChangePhoneCode={_='account.sentChangePhoneCode', phone_code_hash='string', send_call_timeout=int}
 
 ```
 

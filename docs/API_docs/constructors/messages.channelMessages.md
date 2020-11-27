@@ -31,14 +31,14 @@ Channel messages
 ### Example:
 
 ```php
-$messages.channelMessages = ['_' => 'messages.channelMessages', 'inexact' => Bool, 'pts' => int, 'count' => int, 'offset_id_offset' => int, 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
+$messages_channelMessages = ['_' => 'messages.channelMessages', 'inexact' => Bool, 'pts' => int, 'count' => int, 'offset_id_offset' => int, 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.channelMessages={_='messages.channelMessages', inexact=Bool, pts=int, count=int, offset_id_offset=int, messages={Message}, chats={Chat}, users={User}}
+messages_channelMessages={_='messages.channelMessages', inexact=Bool, pts=int, count=int, offset_id_offset=int, messages={Message}, chats={Chat}, users={User}}
 
 ```
 

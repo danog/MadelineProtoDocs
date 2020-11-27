@@ -27,14 +27,14 @@ Extended info on chat and auxiliary data.
 ### Example:
 
 ```php
-$messages.chatFull = ['_' => 'messages.chatFull', 'full_chat' => ChatFull, 'chats' => [Chat, Chat], 'users' => [User, User]];
+$messages_chatFull = ['_' => 'messages.chatFull', 'full_chat' => ChatFull, 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.chatFull={_='messages.chatFull', full_chat=ChatFull, chats={Chat}, users={User}}
+messages_chatFull={_='messages.chatFull', full_chat=ChatFull, chats={Chat}, users={User}}
 
 ```
 

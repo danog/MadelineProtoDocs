@@ -30,12 +30,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.InactiveChats = $MadelineProto->channels->getInactiveChannels();
+$messages_InactiveChats = $MadelineProto->channels->getInactiveChannels();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.InactiveChats = channels.getInactiveChannels({})
+messages_InactiveChats = channels.getInactiveChannels({})
 ```
 

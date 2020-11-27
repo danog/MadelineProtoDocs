@@ -36,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.DhConfig = $MadelineProto->messages->getDhConfig(['version' => int, 'random_length' => int, ]);
+$messages_DhConfig = $MadelineProto->messages->getDhConfig(['version' => int, 'random_length' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.DhConfig = messages.getDhConfig({version=int, random_length=int, })
+messages_DhConfig = messages.getDhConfig({version=int, random_length=int, })
 ```
 
 ### Errors

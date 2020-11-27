@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth.Authorization = $MadelineProto->auth->checkPassword(['password_hash' => 'bytes', ]);
+$auth_Authorization = $MadelineProto->auth->checkPassword(['password_hash' => 'bytes', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth.Authorization = auth.checkPassword({password_hash='bytes', })
+auth_Authorization = auth.checkPassword({password_hash='bytes', })
 ```
 
 ### Errors

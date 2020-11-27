@@ -38,13 +38,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help.UserInfo = $MadelineProto->help->editUserInfo(['user_id' => InputUser, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', ]);
+$help_UserInfo = $MadelineProto->help->editUserInfo(['user_id' => InputUser, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help.UserInfo = help.editUserInfo({user_id=InputUser, message='string', entities={MessageEntity}, parseMode='string', })
+help_UserInfo = help.editUserInfo({user_id=InputUser, message='string', entities={MessageEntity}, parseMode='string', })
 ```
 
 

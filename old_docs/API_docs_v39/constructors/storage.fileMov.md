@@ -20,14 +20,14 @@ Quicktime video. MIME type: `video/quicktime`.
 ### Example:
 
 ```php
-$storage.fileMov = ['_' => 'storage.fileMov'];
+$storage_fileMov = ['_' => 'storage.fileMov'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-storage.fileMov={_='storage.fileMov'}
+storage_fileMov={_='storage.fileMov'}
 
 ```
 

@@ -20,14 +20,14 @@ No new stickers were found for the given query
 ### Example:
 
 ```php
-$messages.stickersNotModified = ['_' => 'messages.stickersNotModified'];
+$messages_stickersNotModified = ['_' => 'messages.stickersNotModified'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.stickersNotModified={_='messages.stickersNotModified'}
+messages_stickersNotModified={_='messages.stickersNotModified'}
 
 ```
 

@@ -29,14 +29,14 @@ Contains info about a sent verification code.
 ### Example:
 
 ```php
-$auth.sentCode = ['_' => 'auth.sentCode', 'phone_registered' => Bool, 'type' => auth.SentCodeType, 'phone_code_hash' => 'string', 'next_type' => auth.CodeType, 'timeout' => int];
+$auth_sentCode = ['_' => 'auth.sentCode', 'phone_registered' => Bool, 'type' => auth.SentCodeType, 'phone_code_hash' => 'string', 'next_type' => auth.CodeType, 'timeout' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-auth.sentCode={_='auth.sentCode', phone_registered=Bool, type=auth.SentCodeType, phone_code_hash='string', next_type=auth.CodeType, timeout=int}
+auth_sentCode={_='auth.sentCode', phone_registered=Bool, type=auth.SentCodeType, phone_code_hash='string', next_type=auth.CodeType, timeout=int}
 
 ```
 

@@ -25,14 +25,14 @@ The code was sent via SMS
 ### Example:
 
 ```php
-$auth.sentCodeTypeSms = ['_' => 'auth.sentCodeTypeSms', 'length' => int];
+$auth_sentCodeTypeSms = ['_' => 'auth.sentCodeTypeSms', 'length' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-auth.sentCodeTypeSms={_='auth.sentCodeTypeSms', length=int}
+auth_sentCodeTypeSms={_='auth.sentCodeTypeSms', length=int}
 
 ```
 

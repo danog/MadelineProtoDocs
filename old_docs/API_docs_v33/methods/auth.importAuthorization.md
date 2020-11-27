@@ -36,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth.Authorization = $MadelineProto->auth->importAuthorization(['id' => int, 'bytes' => 'bytes', ]);
+$auth_Authorization = $MadelineProto->auth->importAuthorization(['id' => int, 'bytes' => 'bytes', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth.Authorization = auth.importAuthorization({id=int, bytes='bytes', })
+auth_Authorization = auth.importAuthorization({id=int, bytes='bytes', })
 ```
 
 ### Errors

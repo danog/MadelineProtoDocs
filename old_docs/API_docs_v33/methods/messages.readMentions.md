@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.AffectedHistory = $MadelineProto->messages->readMentions(['peer' => InputPeer, ]);
+$messages_AffectedHistory = $MadelineProto->messages->readMentions(['peer' => InputPeer, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.AffectedHistory = messages.readMentions({peer=InputPeer, })
+messages_AffectedHistory = messages.readMentions({peer=InputPeer, })
 ```
 
 ### Errors

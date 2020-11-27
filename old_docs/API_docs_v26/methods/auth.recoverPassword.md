@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth.Authorization = $MadelineProto->auth->recoverPassword(['code' => 'string', ]);
+$auth_Authorization = $MadelineProto->auth->recoverPassword(['code' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth.Authorization = auth.recoverPassword({code='string', })
+auth_Authorization = auth.recoverPassword({code='string', })
 ```
 
 ### Errors

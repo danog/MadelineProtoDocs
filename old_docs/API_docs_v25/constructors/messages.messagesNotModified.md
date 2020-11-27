@@ -25,14 +25,14 @@ No new messages matching the query were found
 ### Example:
 
 ```php
-$messages.messagesNotModified = ['_' => 'messages.messagesNotModified', 'count' => int];
+$messages_messagesNotModified = ['_' => 'messages.messagesNotModified', 'count' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.messagesNotModified={_='messages.messagesNotModified', count=int}
+messages_messagesNotModified={_='messages.messagesNotModified', count=int}
 
 ```
 

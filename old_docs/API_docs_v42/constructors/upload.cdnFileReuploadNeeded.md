@@ -25,14 +25,14 @@ The file was cleared from the temporary RAM cache of the [CDN](https://core.tele
 ### Example:
 
 ```php
-$upload.cdnFileReuploadNeeded = ['_' => 'upload.cdnFileReuploadNeeded', 'request_token' => 'bytes'];
+$upload_cdnFileReuploadNeeded = ['_' => 'upload.cdnFileReuploadNeeded', 'request_token' => 'bytes'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-upload.cdnFileReuploadNeeded={_='upload.cdnFileReuploadNeeded', request_token='bytes'}
+upload_cdnFileReuploadNeeded={_='upload.cdnFileReuploadNeeded', request_token='bytes'}
 
 ```
 

@@ -36,12 +36,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_messages.SearchCounter = $MadelineProto->messages->getSearchCounters(['peer' => InputPeer, 'filters' => [MessagesFilter, MessagesFilter], ]);
+$Vector_of_messages_SearchCounter = $MadelineProto->messages->getSearchCounters(['peer' => InputPeer, 'filters' => [MessagesFilter, MessagesFilter], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Vector_of_messages.SearchCounter = messages.getSearchCounters({peer=InputPeer, filters={MessagesFilter}, })
+Vector_of_messages_SearchCounter = messages.getSearchCounters({peer=InputPeer, filters={MessagesFilter}, })
 ```
 

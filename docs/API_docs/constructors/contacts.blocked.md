@@ -27,14 +27,14 @@ Full list of blocked users.
 ### Example:
 
 ```php
-$contacts.blocked = ['_' => 'contacts.blocked', 'blocked' => [PeerBlocked, PeerBlocked], 'chats' => [Chat, Chat], 'users' => [User, User]];
+$contacts_blocked = ['_' => 'contacts.blocked', 'blocked' => [PeerBlocked, PeerBlocked], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-contacts.blocked={_='contacts.blocked', blocked={PeerBlocked}, chats={Chat}, users={User}}
+contacts_blocked={_='contacts.blocked', blocked={PeerBlocked}, chats={Chat}, users={User}}
 
 ```
 

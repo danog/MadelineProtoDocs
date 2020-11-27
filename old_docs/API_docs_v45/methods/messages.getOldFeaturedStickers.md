@@ -37,12 +37,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.FeaturedStickers = $MadelineProto->messages->getOldFeaturedStickers(['offset' => int, 'limit' => int, 'hash' => [int, int], ]);
+$messages_FeaturedStickers = $MadelineProto->messages->getOldFeaturedStickers(['offset' => int, 'limit' => int, 'hash' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.FeaturedStickers = messages.getOldFeaturedStickers({offset=int, limit=int, hash={int}, })
+messages_FeaturedStickers = messages.getOldFeaturedStickers({offset=int, limit=int, hash={int}, })
 ```
 

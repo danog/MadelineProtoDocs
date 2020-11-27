@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account.SentChangePhoneCode = $MadelineProto->account->sendChangePhoneCode(['phone_number' => 'string', ]);
+$account_SentChangePhoneCode = $MadelineProto->account->sendChangePhoneCode(['phone_number' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account.SentChangePhoneCode = account.sendChangePhoneCode({phone_number='string', })
+account_SentChangePhoneCode = account.sendChangePhoneCode({phone_number='string', })
 ```
 
 ### Errors

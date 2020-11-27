@@ -25,14 +25,14 @@ redirect_from: /API_docs/constructors/messages_messageViews.html
 ### Example:
 
 ```php
-$messages.messageViews = ['_' => 'messages.messageViews', 'views' => [MessageViews, MessageViews], 'chats' => [Chat, Chat], 'users' => [User, User]];
+$messages_messageViews = ['_' => 'messages.messageViews', 'views' => [MessageViews, MessageViews], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.messageViews={_='messages.messageViews', views={MessageViews}, chats={Chat}, users={User}}
+messages_messageViews={_='messages.messageViews', views={MessageViews}, chats={Chat}, users={User}}
 
 ```
 

@@ -36,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth.SentCode = $MadelineProto->account->sendConfirmPhoneCode(['hash' => 'string', 'settings' => CodeSettings, ]);
+$auth_SentCode = $MadelineProto->account->sendConfirmPhoneCode(['hash' => 'string', 'settings' => CodeSettings, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth.SentCode = account.sendConfirmPhoneCode({hash='string', settings=CodeSettings, })
+auth_SentCode = account.sendConfirmPhoneCode({hash='string', settings=CodeSettings, })
 ```
 
 ### Errors

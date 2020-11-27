@@ -34,12 +34,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$stats.MegagroupStats = $MadelineProto->stats->getMegagroupStats(['dark' => Bool, 'channel' => InputChannel, ]);
+$stats_MegagroupStats = $MadelineProto->stats->getMegagroupStats(['dark' => Bool, 'channel' => InputChannel, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-stats.MegagroupStats = stats.getMegagroupStats({dark=Bool, channel=InputChannel, })
+stats_MegagroupStats = stats.getMegagroupStats({dark=Bool, channel=InputChannel, })
 ```
 

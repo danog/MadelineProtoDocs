@@ -37,13 +37,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$upload.WebFile = $MadelineProto->upload->getWebFile(['location' => InputWebFileLocation, 'offset' => int, 'limit' => int, ]);
+$upload_WebFile = $MadelineProto->upload->getWebFile(['location' => InputWebFileLocation, 'offset' => int, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-upload.WebFile = upload.getWebFile({location=InputWebFileLocation, offset=int, limit=int, })
+upload_WebFile = upload.getWebFile({location=InputWebFileLocation, offset=int, limit=int, })
 ```
 
 ### Errors

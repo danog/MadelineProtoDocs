@@ -28,14 +28,14 @@ Promotion channel associated to a certain MTProxy
 ### Example:
 
 ```php
-$help.proxyDataPromo = ['_' => 'help.proxyDataPromo', 'expires' => int, 'peer' => Peer, 'chats' => [Chat, Chat], 'users' => [User, User]];
+$help_proxyDataPromo = ['_' => 'help.proxyDataPromo', 'expires' => int, 'peer' => Peer, 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-help.proxyDataPromo={_='help.proxyDataPromo', expires=int, peer=Peer, chats={Chat}, users={User}}
+help_proxyDataPromo={_='help.proxyDataPromo', expires=int, peer=Peer, chats={Chat}, users={User}}
 
 ```
 

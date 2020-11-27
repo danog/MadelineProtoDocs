@@ -35,12 +35,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help.PassportConfig = $MadelineProto->help->getPassportConfig(['hash' => [int, int], ]);
+$help_PassportConfig = $MadelineProto->help->getPassportConfig(['hash' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help.PassportConfig = help.getPassportConfig({hash={int}, })
+help_PassportConfig = help.getPassportConfig({hash={int}, })
 ```
 

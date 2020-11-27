@@ -18,14 +18,14 @@ redirect_from: /API_docs/constructors/help_countriesListNotModified.html
 ### Example:
 
 ```php
-$help.countriesListNotModified = ['_' => 'help.countriesListNotModified'];
+$help_countriesListNotModified = ['_' => 'help.countriesListNotModified'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-help.countriesListNotModified={_='help.countriesListNotModified'}
+help_countriesListNotModified={_='help.countriesListNotModified'}
 
 ```
 

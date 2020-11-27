@@ -35,14 +35,14 @@ The provided `pts + limit < remote pts`. Simply, there are too many updates to b
 ### Example:
 
 ```php
-$updates.channelDifferenceTooLong = ['_' => 'updates.channelDifferenceTooLong', 'final' => Bool, 'timeout' => int, 'dialog' => Dialog, 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
+$updates_channelDifferenceTooLong = ['_' => 'updates.channelDifferenceTooLong', 'final' => Bool, 'timeout' => int, 'dialog' => Dialog, 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updates.channelDifferenceTooLong={_='updates.channelDifferenceTooLong', final=Bool, timeout=int, dialog=Dialog, messages={Message}, chats={Chat}, users={User}}
+updates_channelDifferenceTooLong={_='updates.channelDifferenceTooLong', final=Bool, timeout=int, dialog=Dialog, messages={Message}, chats={Chat}, users={User}}
 
 ```
 

@@ -29,14 +29,14 @@ Configuration for two-factor authorization
 ### Example:
 
 ```php
-$account.password = ['_' => 'account.password', 'current_salt' => 'bytes', 'new_salt' => 'bytes', 'hint' => 'string', 'has_recovery' => Bool, 'email_unconfirmed_pattern' => 'string'];
+$account_password = ['_' => 'account.password', 'current_salt' => 'bytes', 'new_salt' => 'bytes', 'hint' => 'string', 'has_recovery' => Bool, 'email_unconfirmed_pattern' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-account.password={_='account.password', current_salt='bytes', new_salt='bytes', hint='string', has_recovery=Bool, email_unconfirmed_pattern='string'}
+account_password={_='account.password', current_salt='bytes', new_salt='bytes', hint='string', has_recovery=Bool, email_unconfirmed_pattern='string'}
 
 ```
 

@@ -20,14 +20,14 @@ Internal use
 ### Example:
 
 ```php
-$help.userInfoEmpty = ['_' => 'help.userInfoEmpty'];
+$help_userInfoEmpty = ['_' => 'help.userInfoEmpty'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-help.userInfoEmpty={_='help.userInfoEmpty'}
+help_userInfoEmpty={_='help.userInfoEmpty'}
 
 ```
 

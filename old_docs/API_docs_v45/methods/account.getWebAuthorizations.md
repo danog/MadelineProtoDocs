@@ -30,12 +30,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account.WebAuthorizations = $MadelineProto->account->getWebAuthorizations();
+$account_WebAuthorizations = $MadelineProto->account->getWebAuthorizations();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account.WebAuthorizations = account.getWebAuthorizations({})
+account_WebAuthorizations = account.getWebAuthorizations({})
 ```
 

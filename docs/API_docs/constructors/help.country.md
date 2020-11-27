@@ -27,14 +27,14 @@ redirect_from: /API_docs/constructors/help_country.html
 ### Example:
 
 ```php
-$help.country = ['_' => 'help.country', 'hidden' => Bool, 'iso2' => 'string', 'default_name' => 'string', 'name' => 'string', 'country_codes' => [help.CountryCode, help.CountryCode]];
+$help_country = ['_' => 'help.country', 'hidden' => Bool, 'iso2' => 'string', 'default_name' => 'string', 'name' => 'string', 'country_codes' => [help.CountryCode, help.CountryCode]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-help.country={_='help.country', hidden=Bool, iso2='string', default_name='string', name='string', country_codes={help.CountryCode}}
+help_country={_='help.country', hidden=Bool, iso2='string', default_name='string', name='string', country_codes={help.CountryCode}}
 
 ```
 

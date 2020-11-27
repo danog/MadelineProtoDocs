@@ -39,13 +39,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.VotesList = $MadelineProto->messages->getPollVotes(['peer' => InputPeer, 'id' => int, 'option' => 'bytes', 'offset' => 'string', 'limit' => int, ]);
+$messages_VotesList = $MadelineProto->messages->getPollVotes(['peer' => InputPeer, 'id' => int, 'option' => 'bytes', 'offset' => 'string', 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.VotesList = messages.getPollVotes({peer=InputPeer, id=int, option='bytes', offset='string', limit=int, })
+messages_VotesList = messages.getPollVotes({peer=InputPeer, id=int, option='bytes', offset='string', limit=int, })
 ```
 
 ### Errors

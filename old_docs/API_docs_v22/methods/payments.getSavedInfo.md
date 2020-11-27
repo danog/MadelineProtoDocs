@@ -30,12 +30,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$payments.SavedInfo = $MadelineProto->payments->getSavedInfo();
+$payments_SavedInfo = $MadelineProto->payments->getSavedInfo();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-payments.SavedInfo = payments.getSavedInfo({})
+payments_SavedInfo = payments.getSavedInfo({})
 ```
 

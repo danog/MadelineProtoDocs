@@ -24,14 +24,14 @@ redirect_from: /API_docs/constructors/contacts_suggested.html
 ### Example:
 
 ```php
-$contacts.suggested = ['_' => 'contacts.suggested', 'results' => [ContactSuggested, ContactSuggested], 'users' => [User, User]];
+$contacts_suggested = ['_' => 'contacts.suggested', 'results' => [ContactSuggested, ContactSuggested], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-contacts.suggested={_='contacts.suggested', results={ContactSuggested}, users={User}}
+contacts_suggested={_='contacts.suggested', results={ContactSuggested}, users={User}}
 
 ```
 

@@ -25,14 +25,14 @@ The code was sent through the telegram app
 ### Example:
 
 ```php
-$auth.sentCodeTypeApp = ['_' => 'auth.sentCodeTypeApp', 'length' => int];
+$auth_sentCodeTypeApp = ['_' => 'auth.sentCodeTypeApp', 'length' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-auth.sentCodeTypeApp={_='auth.sentCodeTypeApp', length=int}
+auth_sentCodeTypeApp={_='auth.sentCodeTypeApp', length=int}
 
 ```
 

@@ -26,14 +26,14 @@ redirect_from: /API_docs/constructors/messages_sentMessage.html
 ### Example:
 
 ```php
-$messages.sentMessage = ['_' => 'messages.sentMessage', 'id' => int, 'date' => int, 'pts' => int, 'seq' => int];
+$messages_sentMessage = ['_' => 'messages.sentMessage', 'id' => int, 'date' => int, 'pts' => int, 'seq' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.sentMessage={_='messages.sentMessage', id=int, date=int, pts=int, seq=int}
+messages_sentMessage={_='messages.sentMessage', id=int, date=int, pts=int, seq=int}
 
 ```
 

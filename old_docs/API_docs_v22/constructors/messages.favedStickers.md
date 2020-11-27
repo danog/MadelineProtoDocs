@@ -27,14 +27,14 @@ Favorited stickers
 ### Example:
 
 ```php
-$messages.favedStickers = ['_' => 'messages.favedStickers', 'hash' => int, 'packs' => [StickerPack, StickerPack], 'stickers' => [Document, Document]];
+$messages_favedStickers = ['_' => 'messages.favedStickers', 'hash' => int, 'packs' => [StickerPack, StickerPack], 'stickers' => [Document, Document]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.favedStickers={_='messages.favedStickers', hash=int, packs={StickerPack}, stickers={Document}}
+messages_favedStickers={_='messages.favedStickers', hash=int, packs={StickerPack}, stickers={Document}}
 
 ```
 

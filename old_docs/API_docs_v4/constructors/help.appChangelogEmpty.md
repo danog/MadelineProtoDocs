@@ -18,14 +18,14 @@ redirect_from: /API_docs/constructors/help_appChangelogEmpty.html
 ### Example:
 
 ```php
-$help.appChangelogEmpty = ['_' => 'help.appChangelogEmpty'];
+$help_appChangelogEmpty = ['_' => 'help.appChangelogEmpty'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-help.appChangelogEmpty={_='help.appChangelogEmpty'}
+help_appChangelogEmpty={_='help.appChangelogEmpty'}
 
 ```
 

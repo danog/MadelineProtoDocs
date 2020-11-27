@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts.Contacts = $MadelineProto->contacts->getContacts(['hash' => [int, int], ]);
+$contacts_Contacts = $MadelineProto->contacts->getContacts(['hash' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-contacts.Contacts = contacts.getContacts({hash={int}, })
+contacts_Contacts = contacts.getContacts({hash={int}, })
 ```
 
 ### Errors

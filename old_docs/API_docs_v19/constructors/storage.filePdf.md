@@ -20,14 +20,14 @@ PDF document image. MIME type: `application/pdf`.
 ### Example:
 
 ```php
-$storage.filePdf = ['_' => 'storage.filePdf'];
+$storage_filePdf = ['_' => 'storage.filePdf'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-storage.filePdf={_='storage.filePdf'}
+storage_filePdf={_='storage.filePdf'}
 
 ```
 

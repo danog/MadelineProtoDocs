@@ -27,14 +27,14 @@ Affected part of communication history with the user or in a chat.
 ### Example:
 
 ```php
-$messages.affectedHistory = ['_' => 'messages.affectedHistory', 'pts' => int, 'seq' => int, 'offset' => int];
+$messages_affectedHistory = ['_' => 'messages.affectedHistory', 'pts' => int, 'seq' => int, 'offset' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.affectedHistory={_='messages.affectedHistory', pts=int, seq=int, offset=int}
+messages_affectedHistory={_='messages.affectedHistory', pts=int, seq=int, offset=int}
 
 ```
 

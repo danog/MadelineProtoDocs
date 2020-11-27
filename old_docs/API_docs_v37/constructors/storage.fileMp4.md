@@ -20,14 +20,14 @@ MPEG-4 video. MIME type: `video/mp4`.
 ### Example:
 
 ```php
-$storage.fileMp4 = ['_' => 'storage.fileMp4'];
+$storage_fileMp4 = ['_' => 'storage.fileMp4'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-storage.fileMp4={_='storage.fileMp4'}
+storage_fileMp4={_='storage.fileMp4'}
 
 ```
 

@@ -33,12 +33,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts.Suggested = $MadelineProto->contacts->getSuggested(['limit' => int, ]);
+$contacts_Suggested = $MadelineProto->contacts->getSuggested(['limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-contacts.Suggested = contacts.getSuggested({limit=int, })
+contacts_Suggested = contacts.getSuggested({limit=int, })
 ```
 

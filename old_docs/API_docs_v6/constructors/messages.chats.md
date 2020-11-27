@@ -25,14 +25,14 @@ List of chats with auxiliary data.
 ### Example:
 
 ```php
-$messages.chats = ['_' => 'messages.chats', 'chats' => [Chat, Chat]];
+$messages_chats = ['_' => 'messages.chats', 'chats' => [Chat, Chat]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.chats={_='messages.chats', chats={Chat}}
+messages_chats={_='messages.chats', chats={Chat}}
 
 ```
 

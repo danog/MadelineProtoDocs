@@ -35,12 +35,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$geochats.StatedMessage = $MadelineProto->geochats->editChatTitle(['peer' => InputGeoChat, 'title' => 'string', 'address' => 'string', ]);
+$geochats_StatedMessage = $MadelineProto->geochats->editChatTitle(['peer' => InputGeoChat, 'title' => 'string', 'address' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-geochats.StatedMessage = geochats.editChatTitle({peer=InputGeoChat, title='string', address='string', })
+geochats_StatedMessage = geochats.editChatTitle({peer=InputGeoChat, title='string', address='string', })
 ```
 

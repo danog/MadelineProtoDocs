@@ -37,13 +37,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$phone.PhoneCall = $MadelineProto->phone->requestCall(['user_id' => InputUser, 'g_a_hash' => 'bytes', 'protocol' => PhoneCallProtocol, ]);
+$phone_PhoneCall = $MadelineProto->phone->requestCall(['user_id' => InputUser, 'g_a_hash' => 'bytes', 'protocol' => PhoneCallProtocol, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-phone.PhoneCall = phone.requestCall({user_id=InputUser, g_a_hash='bytes', protocol=PhoneCallProtocol, })
+phone_PhoneCall = phone.requestCall({user_id=InputUser, g_a_hash='bytes', protocol=PhoneCallProtocol, })
 ```
 
 ### Errors

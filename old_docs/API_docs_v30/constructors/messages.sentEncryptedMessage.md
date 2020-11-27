@@ -25,14 +25,14 @@ Message without file attachemts sent to an encrypted file.
 ### Example:
 
 ```php
-$messages.sentEncryptedMessage = ['_' => 'messages.sentEncryptedMessage', 'date' => int];
+$messages_sentEncryptedMessage = ['_' => 'messages.sentEncryptedMessage', 'date' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.sentEncryptedMessage={_='messages.sentEncryptedMessage', date=int}
+messages_sentEncryptedMessage={_='messages.sentEncryptedMessage', date=int}
 
 ```
 

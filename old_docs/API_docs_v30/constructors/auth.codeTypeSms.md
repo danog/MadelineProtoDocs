@@ -20,14 +20,14 @@ Type of verification code that will be sent next if you call the resendCode meth
 ### Example:
 
 ```php
-$auth.codeTypeSms = ['_' => 'auth.codeTypeSms'];
+$auth_codeTypeSms = ['_' => 'auth.codeTypeSms'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-auth.codeTypeSms={_='auth.codeTypeSms'}
+auth_codeTypeSms={_='auth.codeTypeSms'}
 
 ```
 

@@ -26,14 +26,14 @@ Message with a file enclosure sent to a protected chat
 ### Example:
 
 ```php
-$messages.sentEncryptedFile = ['_' => 'messages.sentEncryptedFile', 'date' => int, 'file' => EncryptedFile];
+$messages_sentEncryptedFile = ['_' => 'messages.sentEncryptedFile', 'date' => int, 'file' => EncryptedFile];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.sentEncryptedFile={_='messages.sentEncryptedFile', date=int, file=EncryptedFile}
+messages_sentEncryptedFile={_='messages.sentEncryptedFile', date=int, file=EncryptedFile}
 
 ```
 

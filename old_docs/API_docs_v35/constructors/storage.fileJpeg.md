@@ -20,14 +20,14 @@ JPEG image. MIME type: `image/jpeg`.
 ### Example:
 
 ```php
-$storage.fileJpeg = ['_' => 'storage.fileJpeg'];
+$storage_fileJpeg = ['_' => 'storage.fileJpeg'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-storage.fileJpeg={_='storage.fileJpeg'}
+storage_fileJpeg={_='storage.fileJpeg'}
 
 ```
 

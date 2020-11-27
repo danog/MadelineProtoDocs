@@ -26,14 +26,14 @@ Privacy rules
 ### Example:
 
 ```php
-$account.privacyRules = ['_' => 'account.privacyRules', 'rules' => [PrivacyRule, PrivacyRule], 'users' => [User, User]];
+$account_privacyRules = ['_' => 'account.privacyRules', 'rules' => [PrivacyRule, PrivacyRule], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-account.privacyRules={_='account.privacyRules', rules={PrivacyRule}, users={User}}
+account_privacyRules={_='account.privacyRules', rules={PrivacyRule}, users={User}}
 
 ```
 

@@ -25,14 +25,14 @@ Localized name for telegram support
 ### Example:
 
 ```php
-$help.supportName = ['_' => 'help.supportName', 'name' => 'string'];
+$help_supportName = ['_' => 'help.supportName', 'name' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-help.supportName={_='help.supportName', name='string'}
+help_supportName={_='help.supportName', name='string'}
 
 ```
 

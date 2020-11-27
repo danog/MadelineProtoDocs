@@ -26,14 +26,14 @@ Temporary payment password
 ### Example:
 
 ```php
-$account.tmpPassword = ['_' => 'account.tmpPassword', 'tmp_password' => 'bytes', 'valid_until' => int];
+$account_tmpPassword = ['_' => 'account.tmpPassword', 'tmp_password' => 'bytes', 'valid_until' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-account.tmpPassword={_='account.tmpPassword', tmp_password='bytes', valid_until=int}
+account_tmpPassword={_='account.tmpPassword', tmp_password='bytes', valid_until=int}
 
 ```
 

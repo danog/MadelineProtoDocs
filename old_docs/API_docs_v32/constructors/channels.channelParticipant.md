@@ -26,14 +26,14 @@ Represents a channel participant
 ### Example:
 
 ```php
-$channels.channelParticipant = ['_' => 'channels.channelParticipant', 'participant' => ChannelParticipant, 'users' => [User, User]];
+$channels_channelParticipant = ['_' => 'channels.channelParticipant', 'participant' => ChannelParticipant, 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-channels.channelParticipant={_='channels.channelParticipant', participant=ChannelParticipant, users={User}}
+channels_channelParticipant={_='channels.channelParticipant', participant=ChannelParticipant, users={User}}
 
 ```
 

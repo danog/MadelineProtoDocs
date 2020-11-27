@@ -25,14 +25,14 @@ Contains user authorization info.
 ### Example:
 
 ```php
-$auth.authorization = ['_' => 'auth.authorization', 'user' => User];
+$auth_authorization = ['_' => 'auth.authorization', 'user' => User];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-auth.authorization={_='auth.authorization', user=User}
+auth_authorization={_='auth.authorization', user=User}
 
 ```
 

@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts.ResolvedPeer = $MadelineProto->contacts->resolveUsername(['username' => 'string', ]);
+$contacts_ResolvedPeer = $MadelineProto->contacts->resolveUsername(['username' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-contacts.ResolvedPeer = contacts.resolveUsername({username='string', })
+contacts_ResolvedPeer = contacts.resolveUsername({username='string', })
 ```
 
 ### Errors

@@ -25,14 +25,14 @@ Represent a chunk of a [CDN](https://core.telegram.org/cdn) file.
 ### Example:
 
 ```php
-$upload.cdnFile = ['_' => 'upload.cdnFile', 'bytes' => 'bytes'];
+$upload_cdnFile = ['_' => 'upload.cdnFile', 'bytes' => 'bytes'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-upload.cdnFile={_='upload.cdnFile', bytes='bytes'}
+upload_cdnFile={_='upload.cdnFile', bytes='bytes'}
 
 ```
 

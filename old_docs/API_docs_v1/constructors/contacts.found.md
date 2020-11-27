@@ -26,14 +26,14 @@ Users found by name substring and auxiliary data.
 ### Example:
 
 ```php
-$contacts.found = ['_' => 'contacts.found', 'results' => [ContactFound, ContactFound], 'users' => [User, User]];
+$contacts_found = ['_' => 'contacts.found', 'results' => [ContactFound, ContactFound], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-contacts.found={_='contacts.found', results={ContactFound}, users={User}}
+contacts_found={_='contacts.found', results={ContactFound}, users={User}}
 
 ```
 

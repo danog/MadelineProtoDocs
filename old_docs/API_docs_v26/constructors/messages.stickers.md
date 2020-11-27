@@ -26,14 +26,14 @@ Found stickers
 ### Example:
 
 ```php
-$messages.stickers = ['_' => 'messages.stickers', 'hash' => int, 'stickers' => [Document, Document]];
+$messages_stickers = ['_' => 'messages.stickers', 'hash' => int, 'stickers' => [Document, Document]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.stickers={_='messages.stickers', hash=int, stickers={Document}}
+messages_stickers={_='messages.stickers', hash=int, stickers={Document}}
 
 ```
 

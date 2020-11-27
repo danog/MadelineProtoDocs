@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.ChatFull = $MadelineProto->messages->getFullChat(['chat_id' => InputPeer, ]);
+$messages_ChatFull = $MadelineProto->messages->getFullChat(['chat_id' => InputPeer, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.ChatFull = messages.getFullChat({chat_id=InputPeer, })
+messages_ChatFull = messages.getFullChat({chat_id=InputPeer, })
 ```
 
 ### Errors

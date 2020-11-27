@@ -29,14 +29,14 @@ redirect_from: /API_docs/constructors/account_authorizationForm.html
 ### Example:
 
 ```php
-$account.authorizationForm = ['_' => 'account.authorizationForm', 'required_types' => [SecureRequiredType, SecureRequiredType], 'values' => [SecureValue, SecureValue], 'errors' => [SecureValueError, SecureValueError], 'users' => [User, User], 'privacy_policy_url' => 'string'];
+$account_authorizationForm = ['_' => 'account.authorizationForm', 'required_types' => [SecureRequiredType, SecureRequiredType], 'values' => [SecureValue, SecureValue], 'errors' => [SecureValueError, SecureValueError], 'users' => [User, User], 'privacy_policy_url' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-account.authorizationForm={_='account.authorizationForm', required_types={SecureRequiredType}, values={SecureValue}, errors={SecureValueError}, users={User}, privacy_policy_url='string'}
+account_authorizationForm={_='account.authorizationForm', required_types={SecureRequiredType}, values={SecureValue}, errors={SecureValueError}, users={User}, privacy_policy_url='string'}
 
 ```
 

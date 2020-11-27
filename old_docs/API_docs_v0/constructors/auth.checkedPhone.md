@@ -24,14 +24,14 @@ redirect_from: /API_docs/constructors/auth_checkedPhone.html
 ### Example:
 
 ```php
-$auth.checkedPhone = ['_' => 'auth.checkedPhone', 'phone_registered' => Bool, 'phone_invited' => Bool];
+$auth_checkedPhone = ['_' => 'auth.checkedPhone', 'phone_registered' => Bool, 'phone_invited' => Bool];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-auth.checkedPhone={_='auth.checkedPhone', phone_registered=Bool, phone_invited=Bool}
+auth_checkedPhone={_='auth.checkedPhone', phone_registered=Bool, phone_invited=Bool}
 
 ```
 

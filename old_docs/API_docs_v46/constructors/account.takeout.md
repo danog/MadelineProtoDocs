@@ -25,14 +25,14 @@ Takout info
 ### Example:
 
 ```php
-$account.takeout = ['_' => 'account.takeout', 'id' => long];
+$account_takeout = ['_' => 'account.takeout', 'id' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-account.takeout={_='account.takeout', id=long}
+account_takeout={_='account.takeout', id=long}
 
 ```
 

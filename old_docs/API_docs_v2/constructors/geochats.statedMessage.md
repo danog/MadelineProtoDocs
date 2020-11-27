@@ -26,14 +26,14 @@ redirect_from: /API_docs/constructors/geochats_statedMessage.html
 ### Example:
 
 ```php
-$geochats.statedMessage = ['_' => 'geochats.statedMessage', 'message' => GeoChatMessage, 'chats' => [Chat, Chat], 'users' => [User, User], 'seq' => int];
+$geochats_statedMessage = ['_' => 'geochats.statedMessage', 'message' => GeoChatMessage, 'chats' => [Chat, Chat], 'users' => [User, User], 'seq' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-geochats.statedMessage={_='geochats.statedMessage', message=GeoChatMessage, chats={Chat}, users={User}, seq=int}
+geochats_statedMessage={_='geochats.statedMessage', message=GeoChatMessage, chats={Chat}, users={User}, seq=int}
 
 ```
 

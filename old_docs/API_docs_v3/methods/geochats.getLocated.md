@@ -35,12 +35,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$geochats.Located = $MadelineProto->geochats->getLocated(['geo_point' => InputGeoPoint, 'radius' => int, 'limit' => int, ]);
+$geochats_Located = $MadelineProto->geochats->getLocated(['geo_point' => InputGeoPoint, 'radius' => int, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-geochats.Located = geochats.getLocated({geo_point=InputGeoPoint, radius=int, limit=int, })
+geochats_Located = geochats.getLocated({geo_point=InputGeoPoint, radius=int, limit=int, })
 ```
 

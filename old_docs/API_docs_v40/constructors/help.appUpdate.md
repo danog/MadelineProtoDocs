@@ -31,14 +31,14 @@ An update is available for the application.
 ### Example:
 
 ```php
-$help.appUpdate = ['_' => 'help.appUpdate', 'can_not_skip' => Bool, 'id' => int, 'version' => 'string', 'text' => 'string', 'entities' => [MessageEntity, MessageEntity], 'document' => Document, 'url' => 'string'];
+$help_appUpdate = ['_' => 'help.appUpdate', 'can_not_skip' => Bool, 'id' => int, 'version' => 'string', 'text' => 'string', 'entities' => [MessageEntity, MessageEntity], 'document' => Document, 'url' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-help.appUpdate={_='help.appUpdate', can_not_skip=Bool, id=int, version='string', text='string', entities={MessageEntity}, document=Document, url='string'}
+help_appUpdate={_='help.appUpdate', can_not_skip=Bool, id=int, version='string', text='string', entities={MessageEntity}, document=Document, url='string'}
 
 ```
 

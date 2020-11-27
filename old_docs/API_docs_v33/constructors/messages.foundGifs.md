@@ -26,14 +26,14 @@ Found GIFs
 ### Example:
 
 ```php
-$messages.foundGifs = ['_' => 'messages.foundGifs', 'next_offset' => int, 'results' => [FoundGif, FoundGif]];
+$messages_foundGifs = ['_' => 'messages.foundGifs', 'next_offset' => int, 'results' => [FoundGif, FoundGif]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.foundGifs={_='messages.foundGifs', next_offset=int, results={FoundGif}}
+messages_foundGifs={_='messages.foundGifs', next_offset=int, results={FoundGif}}
 
 ```
 

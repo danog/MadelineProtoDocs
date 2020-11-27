@@ -20,14 +20,14 @@ No new themes were installed
 ### Example:
 
 ```php
-$account.themesNotModified = ['_' => 'account.themesNotModified'];
+$account_themesNotModified = ['_' => 'account.themesNotModified'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-account.themesNotModified={_='account.themesNotModified'}
+account_themesNotModified={_='account.themesNotModified'}
 
 ```
 

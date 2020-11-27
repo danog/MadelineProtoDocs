@@ -20,14 +20,14 @@ Unknown type.
 ### Example:
 
 ```php
-$storage.fileUnknown = ['_' => 'storage.fileUnknown'];
+$storage_fileUnknown = ['_' => 'storage.fileUnknown'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-storage.fileUnknown={_='storage.fileUnknown'}
+storage_fileUnknown={_='storage.fileUnknown'}
 
 ```
 

@@ -23,14 +23,14 @@ redirect_from: /API_docs/constructors/stats_messageStats.html
 ### Example:
 
 ```php
-$stats.messageStats = ['_' => 'stats.messageStats', 'views_graph' => StatsGraph];
+$stats_messageStats = ['_' => 'stats.messageStats', 'views_graph' => StatsGraph];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-stats.messageStats={_='stats.messageStats', views_graph=StatsGraph}
+stats_messageStats={_='stats.messageStats', views_graph=StatsGraph}
 
 ```
 

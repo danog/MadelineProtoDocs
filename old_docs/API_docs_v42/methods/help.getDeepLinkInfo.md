@@ -35,12 +35,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help.DeepLinkInfo = $MadelineProto->help->getDeepLinkInfo(['path' => 'string', ]);
+$help_DeepLinkInfo = $MadelineProto->help->getDeepLinkInfo(['path' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help.DeepLinkInfo = help.getDeepLinkInfo({path='string', })
+help_DeepLinkInfo = help.getDeepLinkInfo({path='string', })
 ```
 

@@ -30,12 +30,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help.ProxyData = $MadelineProto->help->getProxyData();
+$help_ProxyData = $MadelineProto->help->getProxyData();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help.ProxyData = help.getProxyData({})
+help_ProxyData = help.getProxyData({})
 ```
 

@@ -27,14 +27,14 @@ Resolved peer
 ### Example:
 
 ```php
-$contacts.resolvedPeer = ['_' => 'contacts.resolvedPeer', 'peer' => Peer, 'chats' => [Chat, Chat], 'users' => [User, User]];
+$contacts_resolvedPeer = ['_' => 'contacts.resolvedPeer', 'peer' => Peer, 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-contacts.resolvedPeer={_='contacts.resolvedPeer', peer=Peer, chats={Chat}, users={User}}
+contacts_resolvedPeer={_='contacts.resolvedPeer', peer=Peer, chats={Chat}, users={User}}
 
 ```
 

@@ -37,13 +37,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth.Authorization = $MadelineProto->auth->importBotAuthorization(['api_id' => int, 'api_hash' => 'string', 'bot_auth_token' => 'string', ]);
+$auth_Authorization = $MadelineProto->auth->importBotAuthorization(['api_id' => int, 'api_hash' => 'string', 'bot_auth_token' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth.Authorization = auth.importBotAuthorization({api_id=int, api_hash='string', bot_auth_token='string', })
+auth_Authorization = auth.importBotAuthorization({api_id=int, api_hash='string', bot_auth_token='string', })
 ```
 
 ### Errors

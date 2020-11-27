@@ -30,12 +30,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.Chats = $MadelineProto->channels->getGroupsForDiscussion();
+$messages_Chats = $MadelineProto->channels->getGroupsForDiscussion();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.Chats = channels.getGroupsForDiscussion({})
+messages_Chats = channels.getGroupsForDiscussion({})
 ```
 

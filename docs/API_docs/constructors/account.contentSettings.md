@@ -26,14 +26,14 @@ Sensitive content settings
 ### Example:
 
 ```php
-$account.contentSettings = ['_' => 'account.contentSettings', 'sensitive_enabled' => Bool, 'sensitive_can_change' => Bool];
+$account_contentSettings = ['_' => 'account.contentSettings', 'sensitive_enabled' => Bool, 'sensitive_can_change' => Bool];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-account.contentSettings={_='account.contentSettings', sensitive_enabled=Bool, sensitive_can_change=Bool}
+account_contentSettings={_='account.contentSettings', sensitive_enabled=Bool, sensitive_can_change=Bool}
 
 ```
 

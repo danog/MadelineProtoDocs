@@ -20,14 +20,14 @@ No new recent sticker was found
 ### Example:
 
 ```php
-$messages.recentStickersNotModified = ['_' => 'messages.recentStickersNotModified'];
+$messages_recentStickersNotModified = ['_' => 'messages.recentStickersNotModified'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.recentStickersNotModified={_='messages.recentStickersNotModified'}
+messages_recentStickersNotModified={_='messages.recentStickersNotModified'}
 
 ```
 

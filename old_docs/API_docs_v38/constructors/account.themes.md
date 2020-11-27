@@ -26,14 +26,14 @@ Installed themes
 ### Example:
 
 ```php
-$account.themes = ['_' => 'account.themes', 'hash' => int, 'themes' => [Theme, Theme]];
+$account_themes = ['_' => 'account.themes', 'hash' => int, 'themes' => [Theme, Theme]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-account.themes={_='account.themes', hash=int, themes={Theme}}
+account_themes={_='account.themes', hash=int, themes={Theme}}
 
 ```
 

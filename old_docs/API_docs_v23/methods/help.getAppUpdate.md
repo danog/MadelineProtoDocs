@@ -30,12 +30,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help.AppUpdate = $MadelineProto->help->getAppUpdate();
+$help_AppUpdate = $MadelineProto->help->getAppUpdate();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help.AppUpdate = help.getAppUpdate({})
+help_AppUpdate = help.getAppUpdate({})
 ```
 

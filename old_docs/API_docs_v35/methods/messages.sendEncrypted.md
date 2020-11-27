@@ -36,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.SentEncryptedMessage = $MadelineProto->messages->sendEncrypted(['peer' => InputEncryptedChat, 'data' => 'bytes', ]);
+$messages_SentEncryptedMessage = $MadelineProto->messages->sendEncrypted(['peer' => InputEncryptedChat, 'data' => 'bytes', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.SentEncryptedMessage = messages.sendEncrypted({peer=InputEncryptedChat, data='bytes', })
+messages_SentEncryptedMessage = messages.sendEncrypted({peer=InputEncryptedChat, data='bytes', })
 ```
 
 ### Errors

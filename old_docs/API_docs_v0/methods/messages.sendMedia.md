@@ -36,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.StatedMessage = $MadelineProto->messages->sendMedia(['peer' => InputPeer, 'media' => InputMedia, ]);
+$messages_StatedMessage = $MadelineProto->messages->sendMedia(['peer' => InputPeer, 'media' => InputMedia, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.StatedMessage = messages.sendMedia({peer=InputPeer, media=InputMedia, })
+messages_StatedMessage = messages.sendMedia({peer=InputPeer, media=InputMedia, })
 ```
 
 ### Errors

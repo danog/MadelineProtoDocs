@@ -26,14 +26,14 @@ Info on support user.
 ### Example:
 
 ```php
-$help.support = ['_' => 'help.support', 'phone_number' => 'string', 'user' => User];
+$help_support = ['_' => 'help.support', 'phone_number' => 'string', 'user' => User];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-help.support={_='help.support', phone_number='string', user=User}
+help_support={_='help.support', phone_number='string', user=User}
 
 ```
 

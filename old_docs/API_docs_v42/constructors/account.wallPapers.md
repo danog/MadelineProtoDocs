@@ -26,14 +26,14 @@ Installed wallpapers
 ### Example:
 
 ```php
-$account.wallPapers = ['_' => 'account.wallPapers', 'hash' => int, 'wallpapers' => [WallPaper, WallPaper]];
+$account_wallPapers = ['_' => 'account.wallPapers', 'hash' => int, 'wallpapers' => [WallPaper, WallPaper]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-account.wallPapers={_='account.wallPapers', hash=int, wallpapers={WallPaper}}
+account_wallPapers={_='account.wallPapers', hash=int, wallpapers={WallPaper}}
 
 ```
 

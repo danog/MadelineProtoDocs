@@ -26,14 +26,14 @@ No events.
 ### Example:
 
 ```php
-$updates.differenceEmpty = ['_' => 'updates.differenceEmpty', 'date' => int, 'seq' => int];
+$updates_differenceEmpty = ['_' => 'updates.differenceEmpty', 'date' => int, 'seq' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updates.differenceEmpty={_='updates.differenceEmpty', date=int, seq=int}
+updates_differenceEmpty={_='updates.differenceEmpty', date=int, seq=int}
 
 ```
 

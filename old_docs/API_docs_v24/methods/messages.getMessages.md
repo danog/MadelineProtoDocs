@@ -35,12 +35,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.Messages = $MadelineProto->messages->getMessages(['id' => [InputMessage, InputMessage], ]);
+$messages_Messages = $MadelineProto->messages->getMessages(['id' => [InputMessage, InputMessage], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.Messages = messages.getMessages({id={InputMessage}, })
+messages_Messages = messages.getMessages({id={InputMessage}, })
 ```
 

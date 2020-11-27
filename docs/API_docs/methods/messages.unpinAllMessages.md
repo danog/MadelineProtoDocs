@@ -33,12 +33,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.AffectedHistory = $MadelineProto->messages->unpinAllMessages(['peer' => InputPeer, ]);
+$messages_AffectedHistory = $MadelineProto->messages->unpinAllMessages(['peer' => InputPeer, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.AffectedHistory = messages.unpinAllMessages({peer=InputPeer, })
+messages_AffectedHistory = messages.unpinAllMessages({peer=InputPeer, })
 ```
 

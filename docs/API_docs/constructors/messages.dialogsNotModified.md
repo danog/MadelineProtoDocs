@@ -25,14 +25,14 @@ Dialogs haven't changed
 ### Example:
 
 ```php
-$messages.dialogsNotModified = ['_' => 'messages.dialogsNotModified', 'count' => int];
+$messages_dialogsNotModified = ['_' => 'messages.dialogsNotModified', 'count' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.dialogsNotModified={_='messages.dialogsNotModified', count=int}
+messages_dialogsNotModified={_='messages.dialogsNotModified', count=int}
 
 ```
 

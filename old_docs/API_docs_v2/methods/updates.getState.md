@@ -30,13 +30,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$updates.State = $MadelineProto->updates->getState();
+$updates_State = $MadelineProto->updates->getState();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-updates.State = updates.getState({})
+updates_State = updates.getState({})
 ```
 
 ### Errors

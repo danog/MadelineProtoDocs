@@ -25,14 +25,14 @@ Message edit data for media
 ### Example:
 
 ```php
-$messages.messageEditData = ['_' => 'messages.messageEditData', 'caption' => Bool];
+$messages_messageEditData = ['_' => 'messages.messageEditData', 'caption' => Bool];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.messageEditData={_='messages.messageEditData', caption=Bool}
+messages_messageEditData={_='messages.messageEditData', caption=Bool}
 
 ```
 

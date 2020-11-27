@@ -36,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.StatedMessage = $MadelineProto->messages->editChatTitle(['chat_id' => InputPeer, 'title' => 'string', ]);
+$messages_StatedMessage = $MadelineProto->messages->editChatTitle(['chat_id' => InputPeer, 'title' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.StatedMessage = messages.editChatTitle({chat_id=InputPeer, title='string', })
+messages_StatedMessage = messages.editChatTitle({chat_id=InputPeer, title='string', })
 ```
 
 ### Errors

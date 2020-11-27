@@ -20,14 +20,14 @@ Deep link info empty
 ### Example:
 
 ```php
-$help.deepLinkInfoEmpty = ['_' => 'help.deepLinkInfoEmpty'];
+$help_deepLinkInfoEmpty = ['_' => 'help.deepLinkInfoEmpty'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-help.deepLinkInfoEmpty={_='help.deepLinkInfoEmpty'}
+help_deepLinkInfoEmpty={_='help.deepLinkInfoEmpty'}
 
 ```
 

@@ -28,12 +28,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help.TermsOfService = $MadelineProto->help->getTermsOfService();
+$help_TermsOfService = $MadelineProto->help->getTermsOfService();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help.TermsOfService = help.getTermsOfService({})
+help_TermsOfService = help.getTermsOfService({})
 ```
 

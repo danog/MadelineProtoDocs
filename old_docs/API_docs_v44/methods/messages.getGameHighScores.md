@@ -37,13 +37,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.HighScores = $MadelineProto->messages->getGameHighScores(['peer' => InputPeer, 'id' => int, 'user_id' => InputUser, ]);
+$messages_HighScores = $MadelineProto->messages->getGameHighScores(['peer' => InputPeer, 'id' => int, 'user_id' => InputUser, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.HighScores = messages.getGameHighScores({peer=InputPeer, id=int, user_id=InputUser, })
+messages_HighScores = messages.getGameHighScores({peer=InputPeer, id=int, user_id=InputUser, })
 ```
 
 ### Errors

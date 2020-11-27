@@ -25,14 +25,14 @@ Payment result
 ### Example:
 
 ```php
-$payments.paymentResult = ['_' => 'payments.paymentResult', 'updates' => Updates];
+$payments_paymentResult = ['_' => 'payments.paymentResult', 'updates' => Updates];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-payments.paymentResult={_='payments.paymentResult', updates=Updates}
+payments_paymentResult={_='payments.paymentResult', updates=Updates}
 
 ```
 

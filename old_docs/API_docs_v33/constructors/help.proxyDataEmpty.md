@@ -25,14 +25,14 @@ No proxy was used to connect to tg (or none was provided to [initConnection](../
 ### Example:
 
 ```php
-$help.proxyDataEmpty = ['_' => 'help.proxyDataEmpty', 'expires' => int];
+$help_proxyDataEmpty = ['_' => 'help.proxyDataEmpty', 'expires' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-help.proxyDataEmpty={_='help.proxyDataEmpty', expires=int}
+help_proxyDataEmpty={_='help.proxyDataEmpty', expires=int}
 
 ```
 

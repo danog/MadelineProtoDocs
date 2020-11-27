@@ -20,14 +20,14 @@ No new participant info could be found
 ### Example:
 
 ```php
-$channels.channelParticipantsNotModified = ['_' => 'channels.channelParticipantsNotModified'];
+$channels_channelParticipantsNotModified = ['_' => 'channels.channelParticipantsNotModified'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-channels.channelParticipantsNotModified={_='channels.channelParticipantsNotModified'}
+channels_channelParticipantsNotModified={_='channels.channelParticipantsNotModified'}
 
 ```
 

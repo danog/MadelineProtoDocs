@@ -35,12 +35,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account.SentEmailCode = $MadelineProto->account->sendVerifyEmailCode(['email' => 'string', ]);
+$account_SentEmailCode = $MadelineProto->account->sendVerifyEmailCode(['email' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account.SentEmailCode = account.sendVerifyEmailCode({email='string', })
+account_SentEmailCode = account.sendVerifyEmailCode({email='string', })
 ```
 

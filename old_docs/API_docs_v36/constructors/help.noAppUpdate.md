@@ -20,14 +20,14 @@ No updates are available for the application.
 ### Example:
 
 ```php
-$help.noAppUpdate = ['_' => 'help.noAppUpdate'];
+$help_noAppUpdate = ['_' => 'help.noAppUpdate'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-help.noAppUpdate={_='help.noAppUpdate'}
+help_noAppUpdate={_='help.noAppUpdate'}
 
 ```
 

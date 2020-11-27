@@ -27,14 +27,14 @@ Represents multiple channel participants
 ### Example:
 
 ```php
-$channels.channelParticipants = ['_' => 'channels.channelParticipants', 'count' => int, 'participants' => [ChannelParticipant, ChannelParticipant], 'users' => [User, User]];
+$channels_channelParticipants = ['_' => 'channels.channelParticipants', 'count' => int, 'participants' => [ChannelParticipant, ChannelParticipant], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-channels.channelParticipants={_='channels.channelParticipants', count=int, participants={ChannelParticipant}, users={User}}
+channels_channelParticipants={_='channels.channelParticipants', count=int, participants={ChannelParticipant}, users={User}}
 
 ```
 

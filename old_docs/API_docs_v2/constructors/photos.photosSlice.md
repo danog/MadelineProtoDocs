@@ -27,14 +27,14 @@ Incomplete list of photos with auxiliary data.
 ### Example:
 
 ```php
-$photos.photosSlice = ['_' => 'photos.photosSlice', 'count' => int, 'photos' => [Photo, Photo], 'users' => [User, User]];
+$photos_photosSlice = ['_' => 'photos.photosSlice', 'count' => int, 'photos' => [Photo, Photo], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-photos.photosSlice={_='photos.photosSlice', count=int, photos={Photo}, users={User}}
+photos_photosSlice={_='photos.photosSlice', count=int, photos={Photo}, users={User}}
 
 ```
 

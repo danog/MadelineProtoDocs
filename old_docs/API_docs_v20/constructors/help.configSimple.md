@@ -26,14 +26,14 @@ redirect_from: /API_docs/constructors/help_configSimple.html
 ### Example:
 
 ```php
-$help.configSimple = ['_' => 'help.configSimple', 'date' => int, 'expires' => int, 'dc_id' => int, 'ip_port_list' => [ipPort, ipPort]];
+$help_configSimple = ['_' => 'help.configSimple', 'date' => int, 'expires' => int, 'dc_id' => int, 'ip_port_list' => [ipPort, ipPort]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-help.configSimple={_='help.configSimple', date=int, expires=int, dc_id=int, ip_port_list={ipPort}}
+help_configSimple={_='help.configSimple', date=int, expires=int, dc_id=int, ip_port_list={ipPort}}
 
 ```
 

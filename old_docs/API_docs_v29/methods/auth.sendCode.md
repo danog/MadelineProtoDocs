@@ -39,13 +39,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth.SentCode = $MadelineProto->auth->sendCode(['allow_flashcall' => Bool, 'phone_number' => 'string', 'current_number' => Bool, 'api_id' => int, 'api_hash' => 'string', ]);
+$auth_SentCode = $MadelineProto->auth->sendCode(['allow_flashcall' => Bool, 'phone_number' => 'string', 'current_number' => Bool, 'api_id' => int, 'api_hash' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth.SentCode = auth.sendCode({allow_flashcall=Bool, phone_number='string', current_number=Bool, api_id=int, api_hash='string', })
+auth_SentCode = auth.sendCode({allow_flashcall=Bool, phone_number='string', current_number=Bool, api_id=int, api_hash='string', })
 ```
 
 ### Errors

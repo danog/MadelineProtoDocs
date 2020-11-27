@@ -28,14 +28,14 @@ redirect_from: /API_docs/constructors/messages_discussionMessage.html
 ### Example:
 
 ```php
-$messages.discussionMessage = ['_' => 'messages.discussionMessage', 'messages' => [Message, Message], 'max_id' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'chats' => [Chat, Chat], 'users' => [User, User]];
+$messages_discussionMessage = ['_' => 'messages.discussionMessage', 'messages' => [Message, Message], 'max_id' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.discussionMessage={_='messages.discussionMessage', messages={Message}, max_id=int, read_inbox_max_id=int, read_outbox_max_id=int, chats={Chat}, users={User}}
+messages_discussionMessage={_='messages.discussionMessage', messages={Message}, max_id=int, read_inbox_max_id=int, read_outbox_max_id=int, chats={Chat}, users={User}}
 
 ```
 

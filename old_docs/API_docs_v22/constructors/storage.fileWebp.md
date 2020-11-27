@@ -20,14 +20,14 @@ WEBP image. MIME type: `image/webp`.
 ### Example:
 
 ```php
-$storage.fileWebp = ['_' => 'storage.fileWebp'];
+$storage_fileWebp = ['_' => 'storage.fileWebp'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-storage.fileWebp={_='storage.fileWebp'}
+storage_fileWebp={_='storage.fileWebp'}
 
 ```
 

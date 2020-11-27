@@ -26,14 +26,14 @@ Events affected by operation
 ### Example:
 
 ```php
-$messages.affectedMessages = ['_' => 'messages.affectedMessages', 'pts' => int, 'pts_count' => int];
+$messages_affectedMessages = ['_' => 'messages.affectedMessages', 'pts' => int, 'pts_count' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.affectedMessages={_='messages.affectedMessages', pts=int, pts_count=int}
+messages_affectedMessages={_='messages.affectedMessages', pts=int, pts_count=int}
 
 ```
 

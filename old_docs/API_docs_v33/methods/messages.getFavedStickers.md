@@ -35,12 +35,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.FavedStickers = $MadelineProto->messages->getFavedStickers(['hash' => [int, int], ]);
+$messages_FavedStickers = $MadelineProto->messages->getFavedStickers(['hash' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.FavedStickers = messages.getFavedStickers({hash={int}, })
+messages_FavedStickers = messages.getFavedStickers({hash={int}, })
 ```
 

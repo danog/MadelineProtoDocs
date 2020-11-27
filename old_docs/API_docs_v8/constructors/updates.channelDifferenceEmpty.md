@@ -27,14 +27,14 @@ There are no new updates
 ### Example:
 
 ```php
-$updates.channelDifferenceEmpty = ['_' => 'updates.channelDifferenceEmpty', 'final' => Bool, 'pts' => int, 'timeout' => int];
+$updates_channelDifferenceEmpty = ['_' => 'updates.channelDifferenceEmpty', 'final' => Bool, 'pts' => int, 'timeout' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updates.channelDifferenceEmpty={_='updates.channelDifferenceEmpty', final=Bool, pts=int, timeout=int}
+updates_channelDifferenceEmpty={_='updates.channelDifferenceEmpty', final=Bool, pts=int, timeout=int}
 
 ```
 

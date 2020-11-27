@@ -25,14 +25,14 @@ Configuring parameters did not change.
 ### Example:
 
 ```php
-$messages.dhConfigNotModified = ['_' => 'messages.dhConfigNotModified', 'random' => 'bytes'];
+$messages_dhConfigNotModified = ['_' => 'messages.dhConfigNotModified', 'random' => 'bytes'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.dhConfigNotModified={_='messages.dhConfigNotModified', random='bytes'}
+messages_dhConfigNotModified={_='messages.dhConfigNotModified', random='bytes'}
 
 ```
 

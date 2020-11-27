@@ -27,14 +27,14 @@ Inactive chat list
 ### Example:
 
 ```php
-$messages.inactiveChats = ['_' => 'messages.inactiveChats', 'dates' => [int, int], 'chats' => [Chat, Chat], 'users' => [User, User]];
+$messages_inactiveChats = ['_' => 'messages.inactiveChats', 'dates' => [int, int], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.inactiveChats={_='messages.inactiveChats', dates={int}, chats={Chat}, users={User}}
+messages_inactiveChats={_='messages.inactiveChats', dates={int}, chats={Chat}, users={User}}
 
 ```
 

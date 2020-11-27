@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.StickerSet = $MadelineProto->stickers->removeStickerFromSet(['sticker' => InputDocument, ]);
+$messages_StickerSet = $MadelineProto->stickers->removeStickerFromSet(['sticker' => InputDocument, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.StickerSet = stickers.removeStickerFromSet({sticker=InputDocument, })
+messages_StickerSet = stickers.removeStickerFromSet({sticker=InputDocument, })
 ```
 
 ### Errors

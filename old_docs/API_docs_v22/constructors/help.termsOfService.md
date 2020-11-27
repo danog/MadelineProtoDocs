@@ -25,14 +25,14 @@ Info about the latest telegram Terms Of Service
 ### Example:
 
 ```php
-$help.termsOfService = ['_' => 'help.termsOfService', 'text' => 'string'];
+$help_termsOfService = ['_' => 'help.termsOfService', 'text' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-help.termsOfService={_='help.termsOfService', text='string'}
+help_termsOfService={_='help.termsOfService', text='string'}
 
 ```
 

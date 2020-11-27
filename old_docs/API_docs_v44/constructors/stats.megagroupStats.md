@@ -39,14 +39,14 @@ redirect_from: /API_docs/constructors/stats_megagroupStats.html
 ### Example:
 
 ```php
-$stats.megagroupStats = ['_' => 'stats.megagroupStats', 'period' => StatsDateRangeDays, 'members' => StatsAbsValueAndPrev, 'messages' => StatsAbsValueAndPrev, 'viewers' => StatsAbsValueAndPrev, 'posters' => StatsAbsValueAndPrev, 'growth_graph' => StatsGraph, 'members_graph' => StatsGraph, 'new_members_by_source_graph' => StatsGraph, 'languages_graph' => StatsGraph, 'messages_graph' => StatsGraph, 'actions_graph' => StatsGraph, 'top_hours_graph' => StatsGraph, 'weekdays_graph' => StatsGraph, 'top_posters' => [StatsGroupTopPoster, StatsGroupTopPoster], 'top_admins' => [StatsGroupTopAdmin, StatsGroupTopAdmin], 'top_inviters' => [StatsGroupTopInviter, StatsGroupTopInviter], 'users' => [User, User]];
+$stats_megagroupStats = ['_' => 'stats.megagroupStats', 'period' => StatsDateRangeDays, 'members' => StatsAbsValueAndPrev, 'messages' => StatsAbsValueAndPrev, 'viewers' => StatsAbsValueAndPrev, 'posters' => StatsAbsValueAndPrev, 'growth_graph' => StatsGraph, 'members_graph' => StatsGraph, 'new_members_by_source_graph' => StatsGraph, 'languages_graph' => StatsGraph, 'messages_graph' => StatsGraph, 'actions_graph' => StatsGraph, 'top_hours_graph' => StatsGraph, 'weekdays_graph' => StatsGraph, 'top_posters' => [StatsGroupTopPoster, StatsGroupTopPoster], 'top_admins' => [StatsGroupTopAdmin, StatsGroupTopAdmin], 'top_inviters' => [StatsGroupTopInviter, StatsGroupTopInviter], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-stats.megagroupStats={_='stats.megagroupStats', period=StatsDateRangeDays, members=StatsAbsValueAndPrev, messages=StatsAbsValueAndPrev, viewers=StatsAbsValueAndPrev, posters=StatsAbsValueAndPrev, growth_graph=StatsGraph, members_graph=StatsGraph, new_members_by_source_graph=StatsGraph, languages_graph=StatsGraph, messages_graph=StatsGraph, actions_graph=StatsGraph, top_hours_graph=StatsGraph, weekdays_graph=StatsGraph, top_posters={StatsGroupTopPoster}, top_admins={StatsGroupTopAdmin}, top_inviters={StatsGroupTopInviter}, users={User}}
+stats_megagroupStats={_='stats.megagroupStats', period=StatsDateRangeDays, members=StatsAbsValueAndPrev, messages=StatsAbsValueAndPrev, viewers=StatsAbsValueAndPrev, posters=StatsAbsValueAndPrev, growth_graph=StatsGraph, members_graph=StatsGraph, new_members_by_source_graph=StatsGraph, languages_graph=StatsGraph, messages_graph=StatsGraph, actions_graph=StatsGraph, top_hours_graph=StatsGraph, weekdays_graph=StatsGraph, top_posters={StatsGroupTopPoster}, top_admins={StatsGroupTopAdmin}, top_inviters={StatsGroupTopInviter}, users={User}}
 
 ```
 

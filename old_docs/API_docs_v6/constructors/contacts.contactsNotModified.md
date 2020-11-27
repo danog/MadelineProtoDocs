@@ -20,14 +20,14 @@ Contact list on the server is the same as the list on the client.
 ### Example:
 
 ```php
-$contacts.contactsNotModified = ['_' => 'contacts.contactsNotModified'];
+$contacts_contactsNotModified = ['_' => 'contacts.contactsNotModified'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-contacts.contactsNotModified={_='contacts.contactsNotModified'}
+contacts_contactsNotModified={_='contacts.contactsNotModified'}
 
 ```
 

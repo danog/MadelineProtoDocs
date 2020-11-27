@@ -26,14 +26,14 @@ Found stickersets
 ### Example:
 
 ```php
-$messages.foundStickerSets = ['_' => 'messages.foundStickerSets', 'hash' => int, 'sets' => [StickerSetCovered, StickerSetCovered]];
+$messages_foundStickerSets = ['_' => 'messages.foundStickerSets', 'hash' => int, 'sets' => [StickerSetCovered, StickerSetCovered]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.foundStickerSets={_='messages.foundStickerSets', hash=int, sets={StickerSetCovered}}
+messages_foundStickerSets={_='messages.foundStickerSets', hash=int, sets={StickerSetCovered}}
 
 ```
 

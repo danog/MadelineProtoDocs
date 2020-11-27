@@ -34,12 +34,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.Dialogs = $MadelineProto->channels->getDialogs(['offset' => int, 'limit' => int, ]);
+$messages_Dialogs = $MadelineProto->channels->getDialogs(['offset' => int, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.Dialogs = channels.getDialogs({offset=int, limit=int, })
+messages_Dialogs = channels.getDialogs({offset=int, limit=int, })
 ```
 

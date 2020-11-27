@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.PeerDialogs = $MadelineProto->messages->getPeerDialogs(['peers' => [InputPeer, InputPeer], ]);
+$messages_PeerDialogs = $MadelineProto->messages->getPeerDialogs(['peers' => [InputPeer, InputPeer], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.PeerDialogs = messages.getPeerDialogs({peers={InputPeer}, })
+messages_PeerDialogs = messages.getPeerDialogs({peers={InputPeer}, })
 ```
 
 ### Errors

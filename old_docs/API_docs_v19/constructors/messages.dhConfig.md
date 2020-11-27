@@ -28,14 +28,14 @@ New set of configuring parameters.
 ### Example:
 
 ```php
-$messages.dhConfig = ['_' => 'messages.dhConfig', 'g' => int, 'p' => 'bytes', 'version' => int, 'random' => 'bytes'];
+$messages_dhConfig = ['_' => 'messages.dhConfig', 'g' => int, 'p' => 'bytes', 'version' => int, 'random' => 'bytes'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages.dhConfig={_='messages.dhConfig', g=int, p='bytes', version=int, random='bytes'}
+messages_dhConfig={_='messages.dhConfig', g=int, p='bytes', version=int, random='bytes'}
 
 ```
 

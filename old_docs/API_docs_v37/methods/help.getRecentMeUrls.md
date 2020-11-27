@@ -35,12 +35,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help.RecentMeUrls = $MadelineProto->help->getRecentMeUrls(['referer' => 'string', ]);
+$help_RecentMeUrls = $MadelineProto->help->getRecentMeUrls(['referer' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help.RecentMeUrls = help.getRecentMeUrls({referer='string', })
+help_RecentMeUrls = help.getRecentMeUrls({referer='string', })
 ```
 

@@ -36,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.Messages = $MadelineProto->messages->getScheduledHistory(['peer' => InputPeer, 'hash' => [int, int], ]);
+$messages_Messages = $MadelineProto->messages->getScheduledHistory(['peer' => InputPeer, 'hash' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.Messages = messages.getScheduledHistory({peer=InputPeer, hash={int}, })
+messages_Messages = messages.getScheduledHistory({peer=InputPeer, hash={int}, })
 ```
 
 ### Errors

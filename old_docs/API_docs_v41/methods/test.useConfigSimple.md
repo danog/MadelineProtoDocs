@@ -28,12 +28,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help.ConfigSimple = $MadelineProto->test->useConfigSimple();
+$help_ConfigSimple = $MadelineProto->test->useConfigSimple();
 ```
 
 Or, if you're into Lua:
 
 ```lua
-help.ConfigSimple = test.useConfigSimple({})
+help_ConfigSimple = test.useConfigSimple({})
 ```
 

@@ -20,14 +20,14 @@ Top peers disabled
 ### Example:
 
 ```php
-$contacts.topPeersDisabled = ['_' => 'contacts.topPeersDisabled'];
+$contacts_topPeersDisabled = ['_' => 'contacts.topPeersDisabled'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-contacts.topPeersDisabled={_='contacts.topPeersDisabled'}
+contacts_topPeersDisabled={_='contacts.topPeersDisabled'}
 
 ```
 

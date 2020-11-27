@@ -36,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.Messages = $MadelineProto->channels->getMessages(['channel' => InputChannel, 'id' => [InputMessage, InputMessage], ]);
+$messages_Messages = $MadelineProto->channels->getMessages(['channel' => InputChannel, 'id' => [InputMessage, InputMessage], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.Messages = channels.getMessages({channel=InputChannel, id={InputMessage}, })
+messages_Messages = channels.getMessages({channel=InputChannel, id={InputMessage}, })
 ```
 
 ### Errors

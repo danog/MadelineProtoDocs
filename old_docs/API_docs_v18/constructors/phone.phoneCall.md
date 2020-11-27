@@ -26,14 +26,14 @@ A VoIP phone call
 ### Example:
 
 ```php
-$phone.phoneCall = ['_' => 'phone.phoneCall', 'phone_call' => PhoneCall, 'users' => [User, User]];
+$phone_phoneCall = ['_' => 'phone.phoneCall', 'phone_call' => PhoneCall, 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-phone.phoneCall={_='phone.phoneCall', phone_call=PhoneCall, users={User}}
+phone_phoneCall={_='phone.phoneCall', phone_call=PhoneCall, users={User}}
 
 ```
 

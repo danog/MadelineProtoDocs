@@ -34,12 +34,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$geochats.StatedMessage = $MadelineProto->geochats->sendMedia(['peer' => InputGeoChat, 'media' => InputMedia, ]);
+$geochats_StatedMessage = $MadelineProto->geochats->sendMedia(['peer' => InputGeoChat, 'media' => InputMedia, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-geochats.StatedMessage = geochats.sendMedia({peer=InputGeoChat, media=InputMedia, })
+geochats_StatedMessage = geochats.sendMedia({peer=InputGeoChat, media=InputMedia, })
 ```
 

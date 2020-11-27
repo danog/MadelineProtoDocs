@@ -36,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages.FoundGifs = $MadelineProto->messages->searchGifs(['q' => 'string', 'offset' => int, ]);
+$messages_FoundGifs = $MadelineProto->messages->searchGifs(['q' => 'string', 'offset' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages.FoundGifs = messages.searchGifs({q='string', offset=int, })
+messages_FoundGifs = messages.searchGifs({q='string', offset=int, })
 ```
 
 ### Errors

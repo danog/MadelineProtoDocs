@@ -25,14 +25,14 @@ The code will be sent via a phone call: a synthesized voice will tell the user w
 ### Example:
 
 ```php
-$auth.sentCodeTypeCall = ['_' => 'auth.sentCodeTypeCall', 'length' => int];
+$auth_sentCodeTypeCall = ['_' => 'auth.sentCodeTypeCall', 'length' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-auth.sentCodeTypeCall={_='auth.sentCodeTypeCall', length=int}
+auth_sentCodeTypeCall={_='auth.sentCodeTypeCall', length=int}
 
 ```
 
