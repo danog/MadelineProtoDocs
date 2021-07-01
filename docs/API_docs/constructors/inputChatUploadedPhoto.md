@@ -15,8 +15,8 @@ New photo to be set as group profile photo.
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |file|[File path or InputFile](../types/InputFile.md) | Optional|File saved in parts using the method [upload.saveFilePart](../methods/upload.saveFilePart.md)|
-|video|[File path or InputFile](../types/InputFile.md) | Optional|
-|video\_start\_ts|[double](../types/double.md) | Optional|
+|video|[File path or InputFile](../types/InputFile.md) | Optional|Square video for animated profile picture|
+|video\_start\_ts|[double](../types/double.md) | Optional|Timestamp that should be shown as static preview to the user (seconds)|
 
 
 

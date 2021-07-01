@@ -16,10 +16,10 @@ Pin a message
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |silent|[Bool](../types/Bool.md) | Pin the message silently, without triggering a notification | Optional|
-|unpin|[Bool](../types/Bool.md) |  | Optional|
-|pm\_oneside|[Bool](../types/Bool.md) |  | Optional|
+|unpin|[Bool](../types/Bool.md) | Whether the message should unpinned or pinned | Optional|
+|pm\_oneside|[Bool](../types/Bool.md) | Whether the message should only be pinned on the local side of a one-to-one chat | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The peer where to pin the message | Optional|
-|id|[int](../types/int.md) | The message to pin, can be 0 to unpin any currently pinned messages | Yes|
+|id|[int](../types/int.md) | The message to pin or unpin | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

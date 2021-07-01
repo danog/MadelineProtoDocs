@@ -15,17 +15,17 @@ A message
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |out|[Bool](../types/Bool.md) | Optional|Is this an outgoing message|
-|mentioned|[Bool](../types/Bool.md) | Optional|Whether we were mentioned in this message|
+|mentioned|[Bool](../types/Bool.md) | Optional|Whether we were [mentioned](https://core.telegram.org/api/mentions) in this message|
 |media\_unread|[Bool](../types/Bool.md) | Optional|Whether there are unread media attachments in this message|
 |silent|[Bool](../types/Bool.md) | Optional|Whether this is a silent message (no notification triggered)|
 |post|[Bool](../types/Bool.md) | Optional|Whether this is a channel post|
 |legacy|[Bool](../types/Bool.md) | Optional|This is a legacy message: it has to be refetched with the new layer|
 |id|[int](../types/int.md) | Yes|ID of the message|
-|from\_id|[int](../types/int.md) | Optional|ID of the sender of the message|
-|to\_id|[Peer](../types/Peer.md) | Yes|ID of the chat were the message was sent|
+|from\_id|[int](../types/int.md) | Optional|
+|to\_id|[Peer](../types/Peer.md) | Yes|
 |fwd\_from|[MessageFwdHeader](../types/MessageFwdHeader.md) | Optional|Info about forwarded messages|
 |via\_bot\_id|[int](../types/int.md) | Optional|ID of the inline bot that generated the message|
-|reply\_to\_msg\_id|[int](../types/int.md) | Optional|ID of the message this message replies to|
+|reply\_to\_msg\_id|[int](../types/int.md) | Optional|
 |date|[int](../types/int.md) | Yes|Date of the message|
 |message|[string](../types/string.md) | Yes|The message|
 |media|[MessageMedia](../types/MessageMedia.md) | Optional|Media attachment|
@@ -34,7 +34,7 @@ A message
 |views|[int](../types/int.md) | Optional|View count for channel posts|
 |edit\_date|[int](../types/int.md) | Optional|Last edit date of this message|
 |post\_author|[string](../types/string.md) | Optional|Name of the author of this message for channel posts (with signatures enabled)|
-|grouped\_id|[long](../types/long.md) | Optional|Multiple media messages sent using [messages.sendMultiMedia](../methods/messages.sendMultiMedia.md) with the same grouped ID indicate an album|
+|grouped\_id|[long](../types/long.md) | Optional|Multiple media messages sent using [messages.sendMultiMedia](../methods/messages.sendMultiMedia.md) with the same grouped ID indicate an [album or media group](https://core.telegram.org/api/files#albums-grouped-media)|
 
 
 

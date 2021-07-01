@@ -51,6 +51,7 @@ updates_Difference = updates.getDifference({pts=int, date=int, qts=int, })
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|CDN_METHOD_INVALID|You can't call this method in a CDN DC|
+|400|CONNECTION_DEVICE_MODEL_EMPTY|Device model empty|
 |400|DATE_EMPTY|Date empty|
 |400|PERSISTENT_TIMESTAMP_EMPTY|Persistent timestamp empty|
 |400|PERSISTENT_TIMESTAMP_INVALID|Persistent timestamp invalid|

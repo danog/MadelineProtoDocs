@@ -18,7 +18,7 @@ Extended user info
 |phone\_calls\_available|[Bool](../types/Bool.md) | Optional|Whether this user can make VoIP calls|
 |phone\_calls\_private|[Bool](../types/Bool.md) | Optional|Whether this user's privacy settings allow you to call him|
 |can\_pin\_message|[Bool](../types/Bool.md) | Optional|Whether you can pin messages in the chat with this user, you can do this only for a chat with yourself|
-|has\_scheduled|[Bool](../types/Bool.md) | Optional|Whether scheduled messages are available|
+|has\_scheduled|[Bool](../types/Bool.md) | Optional|Whether [scheduled messages](https://core.telegram.org/api/scheduled-messages) are available|
 |video\_calls\_available|[Bool](../types/Bool.md) | Optional|Whether the user can receive video calls|
 |user|[User](../types/User.md) | Optional|Remaining user info|
 |about|[string](../types/string.md) | Optional|Bio of the user|
@@ -26,7 +26,7 @@ Extended user info
 |profile\_photo|[Photo](../types/Photo.md) | Optional|Profile photo|
 |notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Yes|Notification settings|
 |bot\_info|[BotInfo](../types/BotInfo.md) | Optional|For bots, info about the bot (bot commands, etc)|
-|pinned\_msg\_id|[int](../types/int.md) | Optional|Pinned message ID, you can only pin messages in a chat with yourself|
+|pinned\_msg\_id|[int](../types/int.md) | Optional|Message ID of the last [pinned message](https://core.telegram.org/api/pin)|
 |common\_chats\_count|[int](../types/int.md) | Yes|Chats in common with this user|
 |folder\_id|[int](../types/int.md) | Optional|[Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders)|
 

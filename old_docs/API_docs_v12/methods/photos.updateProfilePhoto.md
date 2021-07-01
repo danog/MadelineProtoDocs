@@ -57,5 +57,6 @@ UserProfilePhoto = photos.updateProfilePhoto({id=InputPhoto, crop=InputPhotoCrop
 |400|PHOTO_ID_INVALID|Photo ID invalid|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |-500|No workers running|Internal error|
+|-503|Timeout|Timeout while fetching data|
 
 

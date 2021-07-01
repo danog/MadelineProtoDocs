@@ -16,8 +16,8 @@ Updates current user profile photo.
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |file|[File path or InputFile](../types/InputFile.md) | File saved in parts by means of [upload.saveFilePart](../methods/upload.saveFilePart.md) method | Optional|
-|video|[File path or InputFile](../types/InputFile.md) |  | Optional|
-|video\_start\_ts|[double](../types/double.md) |  | Optional|
+|video|[File path or InputFile](../types/InputFile.md) | [Animated profile picture](https://core.telegram.org/api/files#animated-profile-pictures) video | Optional|
+|video\_start\_ts|[double](../types/double.md) | Floating point UNIX timestamp in seconds, indicating the frame of the video that should be used as static preview. | Optional|
 
 
 ### Return type: [photos.Photo](../types/photos.Photo.md)

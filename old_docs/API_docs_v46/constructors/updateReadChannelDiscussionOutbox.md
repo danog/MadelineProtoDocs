@@ -1,6 +1,6 @@
 ---
 title: updateReadChannelDiscussionOutbox
-description: updateReadChannelDiscussionOutbox attributes, type and example
+description: Outgoing comments in a [discussion thread](https://core.telegram.org/api/threads) were marked as read
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateReadChannelDiscussionOutbox  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Outgoing comments in a [discussion thread](https://core.telegram.org/api/threads) were marked as read
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel\_id|[int](../types/int.md) | Yes|
-|top\_msg\_id|[int](../types/int.md) | Yes|
-|read\_max\_id|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|channel\_id|[int](../types/int.md) | Yes|[Supergroup ID](https://core.telegram.org/api/channel)|
+|top\_msg\_id|[int](../types/int.md) | Yes|ID of the group message that started the [thread](https://core.telegram.org/api/threads)|
+|read\_max\_id|[int](../types/int.md) | Yes|Message ID of latest read outgoing message for this [thread](https://core.telegram.org/api/threads)|
 
 
 

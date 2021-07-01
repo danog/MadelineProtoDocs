@@ -1,6 +1,6 @@
 ---
 title: help.countriesList
-description: help.countriesList attributes, type and example
+description: Name, ISO code, localized name and phone codes/patterns of all available countries
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_countriesList.html
 ---
@@ -9,11 +9,13 @@ redirect_from: /API_docs/constructors/help_countriesList.html
 
 
 
+Name, ISO code, localized name and phone codes/patterns of all available countries
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|countries|Array of [help.Country](../constructors/help.Country.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|countries|Array of [help.Country](../constructors/help.Country.md) | Yes|Name, ISO code, localized name and phone codes/patterns of all available countries|
 |hash|[int](../types/int.md) | Yes|
 
 

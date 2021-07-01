@@ -1,6 +1,6 @@
 ---
 title: phoneConnectionWebrtc
-description: phoneConnectionWebrtc attributes, type and example
+description: WebRTC connection parameters
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneConnectionWebrtc  
@@ -8,18 +8,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+WebRTC connection parameters
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|turn|[Bool](../types/Bool.md) | Optional|
-|stun|[Bool](../types/Bool.md) | Optional|
-|id|[long](../types/long.md) | Yes|
-|ip|[string](../types/string.md) | Yes|
-|ipv6|[string](../types/string.md) | Yes|
-|port|[int](../types/int.md) | Yes|
-|username|[string](../types/string.md) | Yes|
-|password|[string](../types/string.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|turn|[Bool](../types/Bool.md) | Optional|Whether this is a TURN endpoint|
+|stun|[Bool](../types/Bool.md) | Optional|Whether this is a STUN endpoint|
+|id|[long](../types/long.md) | Yes|Endpoint ID|
+|ip|[string](../types/string.md) | Yes|IP address|
+|ipv6|[string](../types/string.md) | Yes|IPv6 address|
+|port|[int](../types/int.md) | Yes|Port|
+|username|[string](../types/string.md) | Yes|Username|
+|password|[string](../types/string.md) | Yes|Password|
 
 
 

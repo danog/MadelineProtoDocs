@@ -1,6 +1,6 @@
 ---
 title: updateDeleteScheduledMessages
-description: Some scheduled messages were deleted
+description: Some [scheduled messages](https://core.telegram.org/api/scheduled-messages) were deleted from the schedule queue of a chat
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateDeleteScheduledMessages  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Some scheduled messages were deleted
+Some [scheduled messages](https://core.telegram.org/api/scheduled-messages) were deleted from the schedule queue of a chat
 
 ### Attributes:
 

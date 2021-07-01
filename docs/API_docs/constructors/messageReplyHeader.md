@@ -1,6 +1,6 @@
 ---
 title: messageReplyHeader
-description: messageReplyHeader attributes, type and example
+description: Message replies and [thread](https://core.telegram.org/api/threads) information
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageReplyHeader  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Message replies and [thread](https://core.telegram.org/api/threads) information
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|reply\_to\_msg\_id|[int](../types/int.md) | Yes|
-|reply\_to\_peer\_id|[Peer](../types/Peer.md) | Optional|
-|reply\_to\_top\_id|[int](../types/int.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|reply\_to\_msg\_id|[int](../types/int.md) | Yes|ID of message to which this message is replying|
+|reply\_to\_peer\_id|[Peer](../types/Peer.md) | Optional|For replies sent in [channel discussion threads](https://core.telegram.org/api/threads) of which the current user is not a member, the discussion group ID|
+|reply\_to\_top\_id|[int](../types/int.md) | Optional|ID of the message that started this [message thread](https://core.telegram.org/api/threads)|
 
 
 

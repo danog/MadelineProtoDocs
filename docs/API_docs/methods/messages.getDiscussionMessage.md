@@ -1,6 +1,6 @@
 ---
 title: messages.getDiscussionMessage
-description: messages.getDiscussionMessage parameters, return type and example
+description: Get [discussion message](https://core.telegram.org/api/threads) from the [associated discussion group](https://core.telegram.org/api/discussion) of a channel to show it on top of the comment section, without actually joining the group
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getDiscussionMessage.html
 ---
@@ -9,12 +9,14 @@ redirect_from: /API_docs/methods/messages_getDiscussionMessage.html
 
 
 
+Get [discussion message](https://core.telegram.org/api/threads) from the [associated discussion group](https://core.telegram.org/api/discussion) of a channel to show it on top of the comment section, without actually joining the group
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
-|msg\_id|[int](../types/int.md) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | [Channel ID](https://core.telegram.org/api/channel) | Optional|
+|msg\_id|[int](../types/int.md) | Message ID | Yes|
 
 
 ### Return type: [messages.DiscussionMessage](../types/messages.DiscussionMessage.md)

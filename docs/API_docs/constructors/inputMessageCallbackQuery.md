@@ -1,6 +1,6 @@
 ---
 title: inputMessageCallbackQuery
-description: inputMessageCallbackQuery attributes, type and example
+description: Used by bots for fetching information about the message that originated a callback query
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessageCallbackQuery  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Used by bots for fetching information about the message that originated a callback query
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](../types/int.md) | Yes|
-|query\_id|[long](../types/long.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](../types/int.md) | Yes|Message ID|
+|query\_id|[long](../types/long.md) | Yes|Callback query ID|
 
 
 

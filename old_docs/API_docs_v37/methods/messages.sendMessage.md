@@ -25,7 +25,7 @@ Sends a message to a chat
 |reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Reply markup for sending bot buttons | Optional|
 |entities|Array of [MessageEntity](../types/MessageEntity.md) | Message [entities](https://core.telegram.org/api/entities) for sending styled text | Optional|
 |parse\_mode| [string](../types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
-|schedule\_date|[int](../types/int.md) | Scheduled message date for scheduled messages | Optional|
+|schedule\_date|[int](../types/int.md) | Scheduled message date for [scheduled messages](https://core.telegram.org/api/scheduled-messages) | Optional|
 
 
 ### Return type: [Updates](../types/Updates.md)

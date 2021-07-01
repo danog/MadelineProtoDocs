@@ -1,6 +1,6 @@
 ---
 title: messages.messageViews
-description: messages.messageViews attributes, type and example
+description: View, forward counter + info about replies
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_messageViews.html
 ---
@@ -9,13 +9,15 @@ redirect_from: /API_docs/constructors/messages_messageViews.html
 
 
 
+View, forward counter + info about replies
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|views|Array of [MessageViews](../types/MessageViews.md) | Yes|
-|chats|Array of [Chat](../types/Chat.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|views|Array of [MessageViews](../types/MessageViews.md) | Yes|View, forward counter + info about replies|
+|chats|Array of [Chat](../types/Chat.md) | Yes|Chats mentioned in constructor|
+|users|Array of [User](../types/User.md) | Yes|Users mentioned in constructor|
 
 
 

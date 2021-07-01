@@ -1,6 +1,6 @@
 ---
 title: channels.getGroupsForDiscussion
-description: Get all groups that can be used as [discussion groups](https://telegram.org/blog/privacy-discussions-web-bots)
+description: Get all groups that can be used as [discussion groups](https://core.telegram.org/api/discussion).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_getGroupsForDiscussion.html
 ---
@@ -9,7 +9,10 @@ redirect_from: /API_docs/methods/channels_getGroupsForDiscussion.html
 
 
 
-Get all groups that can be used as [discussion groups](https://telegram.org/blog/privacy-discussions-web-bots)
+Get all groups that can be used as [discussion groups](https://core.telegram.org/api/discussion).
+
+Returned [legacy group chats](https://core.telegram.org/api/channel) must be first upgraded to [supergroups](https://core.telegram.org/api/channel) before they can be set as a discussion group.  
+To set a returned supergroup as a discussion group, access to its old messages must be enabled using [channels.togglePreHistoryHidden](../methods/channels.togglePreHistoryHidden.md), first.
 
 
 

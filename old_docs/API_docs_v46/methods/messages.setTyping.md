@@ -16,7 +16,7 @@ Sends a current user typing event (see [SendMessageAction](../types/SendMessageA
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Target user or group | Optional|
-|top\_msg\_id|[int](../types/int.md) |  | Optional|
+|top\_msg\_id|[int](../types/int.md) | [Thread ID](https://core.telegram.org/api/threads) | Optional|
 |action|[SendMessageAction](../types/SendMessageAction.md) | Type of action<br>Parameter added in [Layer 17](https://core.telegram.org/api/layers#layer-17). | Yes|
 
 

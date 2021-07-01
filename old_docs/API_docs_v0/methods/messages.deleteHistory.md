@@ -49,6 +49,7 @@ messages_AffectedHistory = messages.deleteHistory({peer=InputPeer, offset=int, }
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|CHAT_ID_INVALID|The provided chat id is invalid|
 |400|MESSAGE_ID_INVALID|The provided message id is invalid|
 |400|MSG_ID_INVALID|Invalid message ID provided|

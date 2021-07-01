@@ -17,9 +17,9 @@ Search for messages and peers globally
 |----------|---------------|-------------|----------|
 |folder\_id|[int](../types/int.md) | [Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders) | Optional|
 |q|[string](../types/string.md) | Query | Yes|
-|filter|[MessagesFilter](../types/MessagesFilter.md) |  | Optional|
-|min\_date|[int](../types/int.md) |  | Yes|
-|max\_date|[int](../types/int.md) |  | Yes|
+|filter|[MessagesFilter](../types/MessagesFilter.md) | Global search filter | Optional|
+|min\_date|[int](../types/int.md) | If a positive value was specified, the method will return only messages with date bigger than min\_date | Yes|
+|max\_date|[int](../types/int.md) | If a positive value was transferred, the method will return only messages with date smaller than max\_date | Yes|
 |offset\_rate|[int](../types/int.md) | Initially 0, then set to the [`next_rate` parameter of messages.messagesSlice](../constructors/messages.messagesSlice.md) | Yes|
 |offset\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
 |offset\_id|[int](../types/int.md) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|

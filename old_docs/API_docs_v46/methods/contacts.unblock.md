@@ -15,7 +15,7 @@ Deletes the user from the blacklist.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
+|id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | User ID | Optional|
 
 
 ### Return type: [Bool](../types/Bool.md)

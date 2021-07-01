@@ -1,6 +1,6 @@
 ---
 title: peerBlocked
-description: peerBlocked attributes, type and example
+description: Information about a blocked peer
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: peerBlocked  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Information about a blocked peer
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer\_id|[Peer](../types/Peer.md) | Yes|
-|date|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer\_id|[Peer](../types/Peer.md) | Yes|Peer ID|
+|date|[int](../types/int.md) | Yes|When was the peer blocked|
 
 
 

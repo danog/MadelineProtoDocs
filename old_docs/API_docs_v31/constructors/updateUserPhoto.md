@@ -15,9 +15,9 @@ Change of contact's profile photo.
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |user\_id|[int](../types/int.md) | Yes|User identifier|
-|date|[int](../types/int.md) | Yes|Date of photo update.<br>Parameter was added in [second layer](?layer=2).|
+|date|[int](../types/int.md) | Yes|Date of photo update.|
 |photo|[UserProfilePhoto](../types/UserProfilePhoto.md) | Optional|New profile photo|
-|previous|[Bool](../types/Bool.md) | Yes|([boolTrue](../constructors/boolTrue.md)), if one of the previously used photos is set a profile photo.<br>Parameter was added in [second layer](?layer=2).|
+|previous|[Bool](../types/Bool.md) | Yes|([boolTrue](../constructors/boolTrue.md)), if one of the previously used photos is set a profile photo.|
 
 
 

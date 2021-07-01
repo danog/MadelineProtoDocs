@@ -1,6 +1,6 @@
 ---
 title: messages.discussionMessage
-description: messages.discussionMessage attributes, type and example
+description: Information about a [message thread](https://core.telegram.org/api/threads)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_discussionMessage.html
 ---
@@ -9,16 +9,18 @@ redirect_from: /API_docs/constructors/messages_discussionMessage.html
 
 
 
+Information about a [message thread](https://core.telegram.org/api/threads)
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|messages|Array of [Message](../types/Message.md) | Yes|
-|max\_id|[int](../types/int.md) | Optional|
-|read\_inbox\_max\_id|[int](../types/int.md) | Optional|
-|read\_outbox\_max\_id|[int](../types/int.md) | Optional|
-|chats|Array of [Chat](../types/Chat.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|messages|Array of [Message](../types/Message.md) | Yes|Discussion messages|
+|max\_id|[int](../types/int.md) | Optional|Message ID of latest reply in this [thread](https://core.telegram.org/api/threads)|
+|read\_inbox\_max\_id|[int](../types/int.md) | Optional|Message ID of latest read incoming message in this [thread](https://core.telegram.org/api/threads)|
+|read\_outbox\_max\_id|[int](../types/int.md) | Optional|Message ID of latest read outgoing message in this [thread](https://core.telegram.org/api/threads)|
+|chats|Array of [Chat](../types/Chat.md) | Yes|Chats mentioned in constructor|
+|users|Array of [User](../types/User.md) | Yes|Users mentioned in constructor|
 
 
 

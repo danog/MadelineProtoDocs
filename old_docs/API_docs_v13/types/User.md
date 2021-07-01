@@ -13,6 +13,8 @@ The following syntaxes can also be used:
 ```php
 $User = '@username'; // Username
 
+$User = $update; // Update objects received in the event handler
+
 $User = 'me'; // The currently logged-in user
 
 $User = 44700; // bot API id (users)
@@ -22,9 +24,6 @@ $User = -10038575794; // bot API id (channels)
 $User = 'https://t.me/danogentili'; // t.me URLs
 $User = 'https://t.me/joinchat/asfln1-21fa_'; // t.me invite links
 
-$User = 'user#44700'; // tg-cli style id (users)
-$User = 'chat#492772765'; // tg-cli style id (chats)
-$User = 'channel#38575794'; // tg-cli style id (channels)
 ```
 
 A [Chat](Chat.md), a [User](User.md), an [InputPeer](InputPeer.md), an [InputDialogPeer](InputDialogPeer.md), an [InputNotifyPeer](InputNotifyPeer.md), an [InputUser](InputUser.md), an [InputChannel](InputChannel.md), a [Peer](Peer.md), an [DialogPeer](DialogPeer.md), [NotifyPeer](NotifyPeer.md), or a [Chat](Chat.md) object can also be used.

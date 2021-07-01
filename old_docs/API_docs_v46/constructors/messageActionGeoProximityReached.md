@@ -1,6 +1,6 @@
 ---
 title: messageActionGeoProximityReached
-description: messageActionGeoProximityReached attributes, type and example
+description: A user of the chat is now in proximity of another user
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionGeoProximityReached  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A user of the chat is now in proximity of another user
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|from\_id|[Peer](../types/Peer.md) | Yes|
-|to\_id|[Peer](../types/Peer.md) | Yes|
-|distance|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|from\_id|[Peer](../types/Peer.md) | Yes|The user or chat that is now in proximity of `to_id`|
+|to\_id|[Peer](../types/Peer.md) | Yes|The user or chat that subscribed to [live geolocation proximity alerts](https://core.telegram.org/api/live-location#proximity-alert)|
+|distance|[int](../types/int.md) | Yes|Distance, in meters (0-100000)|
 
 
 

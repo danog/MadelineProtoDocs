@@ -1,6 +1,6 @@
 ---
 title: updateChannelMessageForwards
-description: updateChannelMessageForwards attributes, type and example
+description: The forward counter of a message in a channel has changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelMessageForwards  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+The forward counter of a message in a channel has changed
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel\_id|[int](../types/int.md) | Yes|
-|id|[int](../types/int.md) | Yes|
-|forwards|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|channel\_id|[int](../types/int.md) | Yes|Channel ID|
+|id|[int](../types/int.md) | Yes|ID of the message|
+|forwards|[int](../types/int.md) | Yes|New forward counter|
 
 
 

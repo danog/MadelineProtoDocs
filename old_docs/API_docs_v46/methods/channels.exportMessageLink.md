@@ -15,8 +15,8 @@ Get link and embed info of a message in a [channel/supergroup](https://core.tele
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|grouped|[Bool](../types/Bool.md) |  | Optional|
-|thread|[Bool](../types/Bool.md) |  | Optional|
+|grouped|[Bool](../types/Bool.md) | Whether to include other grouped media (for albums) | Optional|
+|thread|[Bool](../types/Bool.md) | Whether to also include a thread ID, if available, inside of the link | Optional|
 |channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Channel | Optional|
 |id|[int](../types/int.md) | Message ID | Yes|
 

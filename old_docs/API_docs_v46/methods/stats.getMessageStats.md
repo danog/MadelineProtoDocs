@@ -1,6 +1,6 @@
 ---
 title: stats.getMessageStats
-description: stats.getMessageStats parameters, return type and example
+description: Get [message statistics](https://core.telegram.org/api/stats)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/stats_getMessageStats.html
 ---
@@ -9,13 +9,15 @@ redirect_from: /API_docs/methods/stats_getMessageStats.html
 
 
 
+Get [message statistics](https://core.telegram.org/api/stats)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|dark|[Bool](../types/Bool.md) | Optional|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|
-|msg\_id|[int](../types/int.md) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|dark|[Bool](../types/Bool.md) | Whether to enable dark theme for graph colors | Optional|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Channel ID | Optional|
+|msg\_id|[int](../types/int.md) | Message ID | Yes|
 
 
 ### Return type: [stats.MessageStats](../types/stats.MessageStats.md)

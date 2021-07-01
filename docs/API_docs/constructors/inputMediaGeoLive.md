@@ -1,6 +1,6 @@
 ---
 title: inputMediaGeoLive
-description: Live geographical location
+description: [Live geolocation](https://core.telegram.org/api/live-location)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaGeoLive  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Live geographical location
+[Live geolocation](https://core.telegram.org/api/live-location)
 
 ### Attributes:
 
@@ -16,9 +16,9 @@ Live geographical location
 |----------|---------------|----------|-------------|
 |stopped|[Bool](../types/Bool.md) | Optional|Whether sending of the geolocation was stopped|
 |geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|Current geolocation|
-|heading|[int](../types/int.md) | Optional|
+|heading|[int](../types/int.md) | Optional|For [live locations](https://core.telegram.org/api/live-location), a direction in which the location moves, in degrees; 1-360.|
 |period|[int](../types/int.md) | Optional|Validity period of the current location|
-|proximity\_notification\_radius|[int](../types/int.md) | Optional|
+|proximity\_notification\_radius|[int](../types/int.md) | Optional|For [live locations](https://core.telegram.org/api/live-location), a maximum distance to another chat member for proximity alerts, in meters (0-100000)|
 
 
 

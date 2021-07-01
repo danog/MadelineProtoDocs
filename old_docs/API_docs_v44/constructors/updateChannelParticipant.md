@@ -1,6 +1,6 @@
 ---
 title: updateChannelParticipant
-description: updateChannelParticipant attributes, type and example
+description: A participant has left, joined, was banned or admined in a [channel or supergroup](https://core.telegram.org/api/channel).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelParticipant  
@@ -8,16 +8,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A participant has left, joined, was banned or admined in a [channel or supergroup](https://core.telegram.org/api/channel).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel\_id|[int](../types/int.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|user\_id|[int](../types/int.md) | Yes|
-|prev\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Optional|
-|new\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Optional|
-|qts|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|channel\_id|[int](../types/int.md) | Yes|Channel ID|
+|date|[int](../types/int.md) | Yes|Date of the event|
+|user\_id|[int](../types/int.md) | Yes|User in question|
+|prev\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Optional|Previous participant status|
+|new\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Optional|New participant status|
+|qts|[int](../types/int.md) | Yes|[PTS](https://core.telegram.org/api/updates)|
 
 
 

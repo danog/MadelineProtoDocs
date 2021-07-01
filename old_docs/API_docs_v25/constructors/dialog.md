@@ -20,7 +20,7 @@ Chat
 |read\_inbox\_max\_id|[int](../types/int.md) | Yes|Position up to which all incoming messages are read.|
 |read\_outbox\_max\_id|[int](../types/int.md) | Yes|Position up to which all outgoing messages are read.|
 |unread\_count|[int](../types/int.md) | Yes|Number of unread messages|
-|unread\_mentions\_count|[int](../types/int.md) | Yes|Number of unread mentions|
+|unread\_mentions\_count|[int](../types/int.md) | Yes|Number of [unread mentions](https://core.telegram.org/api/mentions)|
 |notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Yes|Notification settings|
 |pts|[int](../types/int.md) | Optional|[PTS](https://core.telegram.org/api/updates)|
 |draft|[DraftMessage](../types/DraftMessage.md) | Optional|Message draft|

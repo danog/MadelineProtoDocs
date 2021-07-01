@@ -1,6 +1,6 @@
 ---
 title: statsGroupTopInviter
-description: statsGroupTopInviter attributes, type and example
+description: Information about an active supergroup inviter
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: statsGroupTopInviter  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Information about an active supergroup inviter
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|user\_id|[int](../types/int.md) | Yes|
-|invitations|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|user\_id|[int](../types/int.md) | Yes|User ID|
+|invitations|[int](../types/int.md) | Yes|Number of invitations for [statistics](https://core.telegram.org/api/stats) period in consideration|
 
 
 

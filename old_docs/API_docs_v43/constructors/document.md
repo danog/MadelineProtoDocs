@@ -21,7 +21,7 @@ Document
 |mime\_type|[string](../types/string.md) | Yes|MIME type|
 |size|[int](../types/int.md) | Yes|Size|
 |thumbs|Array of [PhotoSize](../types/PhotoSize.md) | Optional|Thumbnails|
-|video\_thumbs|Array of [VideoSize](../types/VideoSize.md) | Optional|
+|video\_thumbs|Array of [VideoSize](../types/VideoSize.md) | Optional|Video thumbnails|
 |dc\_id|[int](../types/int.md) | Yes|DC ID|
 |attributes|Array of [DocumentAttribute](../types/DocumentAttribute.md) | Yes|Attributes|
 

@@ -16,15 +16,15 @@ A message
 |----------|---------------|----------|-------------|
 |unread|[Bool](../types/Bool.md) | Optional|
 |out|[Bool](../types/Bool.md) | Optional|Is this an outgoing message|
-|mentioned|[Bool](../types/Bool.md) | Optional|Whether we were mentioned in this message|
+|mentioned|[Bool](../types/Bool.md) | Optional|Whether we were [mentioned](https://core.telegram.org/api/mentions) in this message|
 |media\_unread|[Bool](../types/Bool.md) | Optional|Whether there are unread media attachments in this message|
 |id|[int](../types/int.md) | Yes|ID of the message|
-|from\_id|[int](../types/int.md) | Optional|ID of the sender of the message|
-|to\_id|[Peer](../types/Peer.md) | Yes|ID of the chat were the message was sent|
+|from\_id|[int](../types/int.md) | Optional|
+|to\_id|[Peer](../types/Peer.md) | Yes|
 |fwd\_from\_id|[Peer](../types/Peer.md) | Optional|
 |fwd\_date|[int](../types/int.md) | Optional|
 |via\_bot\_id|[int](../types/int.md) | Optional|ID of the inline bot that generated the message|
-|reply\_to\_msg\_id|[int](../types/int.md) | Optional|ID of the message this message replies to|
+|reply\_to\_msg\_id|[int](../types/int.md) | Optional|
 |date|[int](../types/int.md) | Yes|Date of the message|
 |message|[string](../types/string.md) | Yes|The message|
 |media|[MessageMedia](../types/MessageMedia.md) | Optional|Media attachment|

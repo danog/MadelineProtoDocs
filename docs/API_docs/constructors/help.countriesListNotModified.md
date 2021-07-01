@@ -1,6 +1,6 @@
 ---
 title: help.countriesListNotModified
-description: help.countriesListNotModified attributes, type and example
+description: The country list has not changed
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_countriesListNotModified.html
 ---
@@ -8,6 +8,8 @@ redirect_from: /API_docs/constructors/help_countriesListNotModified.html
 [Back to constructors index](index.md)
 
 
+
+The country list has not changed
 
 
 

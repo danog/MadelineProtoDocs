@@ -21,9 +21,9 @@ Indicates a service message
 |post|[Bool](../types/Bool.md) | Optional|Whether it's a channel post|
 |legacy|[Bool](../types/Bool.md) | Optional|This is a legacy message: it has to be refetched with the new layer|
 |id|[int](../types/int.md) | Yes|Message ID|
-|from\_id|[Peer](../types/Peer.md) | Optional|
-|peer\_id|[Peer](../types/Peer.md) | Yes|
-|reply\_to|[MessageReplyHeader](../types/MessageReplyHeader.md) | Optional|
+|from\_id|[Peer](../types/Peer.md) | Optional|ID of the sender of this message|
+|peer\_id|[Peer](../types/Peer.md) | Yes|Sender of service message|
+|reply\_to|[MessageReplyHeader](../types/MessageReplyHeader.md) | Optional|Reply (thread) information|
 |date|[int](../types/int.md) | Yes|Message date|
 |action|[MessageAction](../types/MessageAction.md) | Optional|Event connected with the service message|
 

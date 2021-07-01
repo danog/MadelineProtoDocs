@@ -1,6 +1,6 @@
 ---
 title: globalPrivacySettings
-description: globalPrivacySettings attributes, type and example
+description: Global privacy settings
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: globalPrivacySettings  
@@ -8,11 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Global privacy settings
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|archive\_and\_mute\_new\_noncontact\_peers|[Bool](../types/Bool.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|archive\_and\_mute\_new\_noncontact\_peers|[Bool](../types/Bool.md) | Optional|Whether to archive and mute new chats from non-contacts|
 
 
 

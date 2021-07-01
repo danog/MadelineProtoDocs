@@ -1,6 +1,6 @@
 ---
 title: photoSizeProgressive
-description: photoSizeProgressive attributes, type and example
+description: Progressively encoded photosize
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: photoSizeProgressive  
@@ -8,15 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Progressively encoded photosize
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|type|[string](../types/string.md) | Yes|
-|location|[FileLocation](../types/FileLocation.md) | Yes|
-|w|[int](../types/int.md) | Yes|
-|h|[int](../types/int.md) | Yes|
-|sizes|Array of [int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|type|[string](../types/string.md) | Yes|Photosize type|
+|location|[FileLocation](../types/FileLocation.md) | Yes|File location|
+|w|[int](../types/int.md) | Yes|Photo width|
+|h|[int](../types/int.md) | Yes|Photo height|
+|sizes|Array of [int](../types/int.md) | Yes|Sizes of progressive JPEG file prefixes, which can be used to preliminarily show the image.|
 
 
 

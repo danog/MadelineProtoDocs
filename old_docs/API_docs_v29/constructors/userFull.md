@@ -24,7 +24,7 @@ Extended user info
 |profile\_photo|[Photo](../types/Photo.md) | Optional|Profile photo|
 |notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Yes|Notification settings|
 |bot\_info|[BotInfo](../types/BotInfo.md) | Optional|For bots, info about the bot (bot commands, etc)|
-|pinned\_msg\_id|[int](../types/int.md) | Optional|Pinned message ID, you can only pin messages in a chat with yourself|
+|pinned\_msg\_id|[int](../types/int.md) | Optional|Message ID of the last [pinned message](https://core.telegram.org/api/pin)|
 |common\_chats\_count|[int](../types/int.md) | Yes|Chats in common with this user|
 
 

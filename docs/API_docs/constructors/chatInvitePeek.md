@@ -1,6 +1,6 @@
 ---
 title: chatInvitePeek
-description: chatInvitePeek attributes, type and example
+description: A chat invitation that also allows peeking into the group to read messages without joining it.
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatInvitePeek  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A chat invitation that also allows peeking into the group to read messages without joining it.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chat|[Chat](../types/Chat.md) | Optional|
-|expires|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|chat|[Chat](../types/Chat.md) | Optional|Chat information|
+|expires|[int](../types/int.md) | Yes|Read-only anonymous access to this group will be revoked at this date|
 
 
 

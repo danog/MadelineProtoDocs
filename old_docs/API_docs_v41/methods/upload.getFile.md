@@ -65,6 +65,7 @@ upload_File = upload.getFile({precise=Bool, cdn_supported=Bool, location=InputFi
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |406|FILEREF_UPGRADE_NEEDED|The client has to be updated in order to support [file references](https://core.telegram.org/api/file_reference)|
 |401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
+|-500|No workers running|Internal error|
 |-503|Timeout|Timeout while fetching data|
 
 

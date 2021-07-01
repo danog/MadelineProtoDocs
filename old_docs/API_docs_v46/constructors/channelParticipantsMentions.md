@@ -1,6 +1,6 @@
 ---
 title: channelParticipantsMentions
-description: channelParticipantsMentions attributes, type and example
+description: This filter is used when looking for supergroup members to mention.  
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantsMentions  
@@ -8,12 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+This filter is used when looking for supergroup members to mention.  
+This filter will automatically remove anonymous admins, and return even non-participant users that replied to a specific [thread](https://core.telegram.org/api/threads) through the [comment section](https://core.telegram.org/api/threads#channel-comments) of a channel.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|q|[string](../types/string.md) | Optional|
-|top\_msg\_id|[int](../types/int.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|q|[string](../types/string.md) | Optional|Filter by user name or username|
+|top\_msg\_id|[int](../types/int.md) | Optional|Look only for users that posted in this [thread](https://core.telegram.org/api/threads)|
 
 
 

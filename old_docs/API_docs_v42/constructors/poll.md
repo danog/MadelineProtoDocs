@@ -22,7 +22,7 @@ Poll
 |question|[string](../types/string.md) | Yes|The question of the poll|
 |answers|Array of [PollAnswer](../types/PollAnswer.md) | Yes|The possible answers, vote using [messages.sendVote](../methods/messages.sendVote.md).|
 |close\_period|[int](../types/int.md) | Optional|Amount of time in seconds the poll will be active after creation, 5-600. Can't be used together with close\_date.|
-|close\_date|[int](../types/int.md) | Optional|Point in time (Unix timestamp) when the poll will be automatically closed. Must be at least 5 and no more than 600 seconds in the future; can't be used together with open\_period.|
+|close\_date|[int](../types/int.md) | Optional|Point in time (Unix timestamp) when the poll will be automatically closed. Must be at least 5 and no more than 600 seconds in the future; can't be used together with close\_period.|
 
 
 

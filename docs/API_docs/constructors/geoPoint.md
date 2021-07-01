@@ -17,7 +17,7 @@ GeoPoint.
 |long|[double](../types/double.md) | Yes|Longtitude|
 |lat|[double](../types/double.md) | Yes|Latitude|
 |access\_hash|[long](../types/long.md) | Yes|Access hash|
-|accuracy\_radius|[int](../types/int.md) | Optional|
+|accuracy\_radius|[int](../types/int.md) | Optional|The estimated horizontal accuracy of the location, in meters; as defined by the sender.|
 
 
 

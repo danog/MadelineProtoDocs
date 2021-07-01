@@ -20,8 +20,8 @@ Peer settings
 |share\_contact|[Bool](../types/Bool.md) | Optional|Whether we can share the user's contact|
 |need\_contacts\_exception|[Bool](../types/Bool.md) | Optional|Whether a special exception for contacts is needed|
 |report\_geo|[Bool](../types/Bool.md) | Optional|Whether we can report a geogroup is irrelevant for this location|
-|autoarchived|[Bool](../types/Bool.md) | Optional|
-|geo\_distance|[int](../types/int.md) | Optional|
+|autoarchived|[Bool](../types/Bool.md) | Optional|Whether this peer was automatically archived according to [privacy settings](../constructors/globalPrivacySettings.md)|
+|geo\_distance|[int](../types/int.md) | Optional|Distance in meters between us and this peer|
 
 
 

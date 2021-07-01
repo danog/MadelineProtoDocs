@@ -1,6 +1,6 @@
 ---
 title: channels.setDiscussionGroup
-description: Associate a group to a channel as [discussion group](https://telegram.org/blog/privacy-discussions-web-bots) for that channel
+description: Associate a group to a channel as [discussion group](https://core.telegram.org/api/discussion) for that channel
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_setDiscussionGroup.html
 ---
@@ -9,14 +9,14 @@ redirect_from: /API_docs/methods/channels_setDiscussionGroup.html
 
 
 
-Associate a group to a channel as [discussion group](https://telegram.org/blog/privacy-discussions-web-bots) for that channel
+Associate a group to a channel as [discussion group](https://core.telegram.org/api/discussion) for that channel
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |broadcast|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Channel | Optional|
-|group|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Discussion group to associate to the channel | Optional|
+|group|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | [Discussion group](https://core.telegram.org/api/discussion) to associate to the channel | Optional|
 
 
 ### Return type: [Bool](../types/Bool.md)

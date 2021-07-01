@@ -1,6 +1,6 @@
 ---
 title: updatePeerBlocked
-description: updatePeerBlocked attributes, type and example
+description: A peer was blocked
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatePeerBlocked  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A peer was blocked
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer\_id|[Peer](../types/Peer.md) | Yes|
-|blocked|[Bool](../types/Bool.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer\_id|[Peer](../types/Peer.md) | Yes|The blocked peer|
+|blocked|[Bool](../types/Bool.md) | Yes|Whether the peer was blocked or unblocked|
 
 
 

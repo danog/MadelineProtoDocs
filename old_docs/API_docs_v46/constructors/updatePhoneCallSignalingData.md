@@ -1,6 +1,6 @@
 ---
 title: updatePhoneCallSignalingData
-description: updatePhoneCallSignalingData attributes, type and example
+description: Incoming phone call signaling payload
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatePhoneCallSignalingData  
@@ -8,12 +8,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Incoming phone call signaling payload
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|phone\_call\_id|[long](../types/long.md) | Yes|
-|data|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|phone\_call\_id|[long](../types/long.md) | Yes|Phone call ID|
+|data|[bytes](../types/bytes.md) | Yes|Signaling payload|
 
 
 

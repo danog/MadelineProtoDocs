@@ -1,6 +1,6 @@
 ---
 title: phone.sendSignalingData
-description: phone.sendSignalingData parameters, return type and example
+description: Send VoIP signaling data
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/phone_sendSignalingData.html
 ---
@@ -9,12 +9,14 @@ redirect_from: /API_docs/methods/phone_sendSignalingData.html
 
 
 
+Send VoIP signaling data
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[InputPhoneCall](../types/InputPhoneCall.md) | Yes|
-|data|[bytes](../types/bytes.md) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[InputPhoneCall](../types/InputPhoneCall.md) | Phone call | Yes|
+|data|[bytes](../types/bytes.md) | Signaling payload | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

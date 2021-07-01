@@ -1,6 +1,6 @@
 ---
 title: updatePinnedChannelMessages
-description: updatePinnedChannelMessages attributes, type and example
+description: Messages were pinned/unpinned in a [channel/supergroup](https://core.telegram.org/api/channel)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatePinnedChannelMessages  
@@ -8,15 +8,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Messages were pinned/unpinned in a [channel/supergroup](https://core.telegram.org/api/channel)
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|pinned|[Bool](../types/Bool.md) | Optional|
-|channel\_id|[int](../types/int.md) | Yes|
-|messages|Array of [int](../types/int.md) | Yes|
-|pts|[int](../types/int.md) | Yes|
-|pts\_count|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|pinned|[Bool](../types/Bool.md) | Optional|Whether the messages were pinned or unpinned|
+|channel\_id|[int](../types/int.md) | Yes|Channel ID|
+|messages|Array of [int](../types/int.md) | Yes|Messages|
+|pts|[int](../types/int.md) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|
+|pts\_count|[int](../types/int.md) | Yes|[Number of events that were generated](https://core.telegram.org/api/updates)|
 
 
 

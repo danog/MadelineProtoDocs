@@ -1,6 +1,6 @@
 ---
 title: messages.getReplies
-description: messages.getReplies parameters, return type and example
+description: Get messages in a reply thread
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getReplies.html
 ---
@@ -9,19 +9,21 @@ redirect_from: /API_docs/methods/messages_getReplies.html
 
 
 
+Get messages in a reply thread
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
-|msg\_id|[int](../types/int.md) | Yes|
-|offset\_id|[int](../types/int.md) | Yes|
-|offset\_date|[int](../types/int.md) | Yes|
-|add\_offset|[int](../types/int.md) | Yes|
-|limit|[int](../types/int.md) | Yes|
-|max\_id|[int](../types/int.md) | Yes|
-|min\_id|[int](../types/int.md) | Yes|
-|hash|Array of [int](../types/int.md) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Peer | Optional|
+|msg\_id|[int](../types/int.md) | Message ID | Yes|
+|offset\_id|[int](../types/int.md) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
+|offset\_date|[int](../types/int.md) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
+|add\_offset|[int](../types/int.md) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
+|limit|[int](../types/int.md) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
+|max\_id|[int](../types/int.md) | If a positive value was transferred, the method will return only messages with ID smaller than max\_id | Yes|
+|min\_id|[int](../types/int.md) | If a positive value was transferred, the method will return only messages with ID bigger than min\_id | Yes|
+|hash|Array of [int](../types/int.md) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.Messages](../types/messages.Messages.md)

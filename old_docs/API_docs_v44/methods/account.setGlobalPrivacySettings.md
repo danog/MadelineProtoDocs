@@ -1,6 +1,6 @@
 ---
 title: account.setGlobalPrivacySettings
-description: account.setGlobalPrivacySettings parameters, return type and example
+description: Set global privacy settings
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_setGlobalPrivacySettings.html
 ---
@@ -9,11 +9,13 @@ redirect_from: /API_docs/methods/account_setGlobalPrivacySettings.html
 
 
 
+Set global privacy settings
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|settings|[GlobalPrivacySettings](../types/GlobalPrivacySettings.md) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|settings|[GlobalPrivacySettings](../types/GlobalPrivacySettings.md) | Global privacy settings | Yes|
 
 
 ### Return type: [GlobalPrivacySettings](../types/GlobalPrivacySettings.md)

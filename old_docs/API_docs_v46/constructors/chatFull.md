@@ -15,7 +15,7 @@ Detailed chat info
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |can\_set\_username|[Bool](../types/Bool.md) | Optional|Can we change the username of this chat|
-|has\_scheduled|[Bool](../types/Bool.md) | Optional|Whether scheduled messages are available|
+|has\_scheduled|[Bool](../types/Bool.md) | Optional|Whether [scheduled messages](https://core.telegram.org/api/scheduled-messages) are available|
 |id|[int](../types/int.md) | Yes|ID of the chat|
 |about|[string](../types/string.md) | Yes|About string for this chat|
 |participants|[ChatParticipants](../types/ChatParticipants.md) | Yes|Participant list|
@@ -23,7 +23,7 @@ Detailed chat info
 |notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Yes|Notification settings|
 |exported\_invite|[ExportedChatInvite](../types/ExportedChatInvite.md) | Yes|Chat invite|
 |bot\_info|Array of [BotInfo](../types/BotInfo.md) | Optional|Info about bots that are in this chat|
-|pinned\_msg\_id|[int](../types/int.md) | Optional|Message ID of the pinned message|
+|pinned\_msg\_id|[int](../types/int.md) | Optional|Message ID of the last [pinned message](https://core.telegram.org/api/pin)|
 |folder\_id|[int](../types/int.md) | Optional|[Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders)|
 
 

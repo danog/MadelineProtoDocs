@@ -44,3 +44,10 @@ Or, if you're into Lua:
 messages_Messages = messages.getMessages({id={int}, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|-503|Timeout|Timeout while fetching data|
+
+

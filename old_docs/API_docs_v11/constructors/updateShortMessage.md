@@ -27,7 +27,7 @@ Info about a message sent to (received from) another user
 |fwd\_from\_id|[Peer](../types/Peer.md) | Optional|
 |fwd\_date|[int](../types/int.md) | Optional|
 |via\_bot\_id|[int](../types/int.md) | Optional|Info about the inline bot used to generate this message|
-|reply\_to\_msg\_id|[int](../types/int.md) | Optional|ID of the message this message replies to|
+|reply\_to\_msg\_id|[int](../types/int.md) | Optional|
 |entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|[Entities](https://core.telegram.org/api/entities) for styled text|
 
 

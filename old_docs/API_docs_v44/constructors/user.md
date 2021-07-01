@@ -27,7 +27,7 @@ Indicates info about a certain user
 |bot\_inline\_geo|[Bool](../types/Bool.md) | Optional|Whether the bot can request our geolocation in inline mode|
 |support|[Bool](../types/Bool.md) | Optional|Whether this is an official support user|
 |scam|[Bool](../types/Bool.md) | Optional|This may be a scam user|
-|apply\_min\_photo|[Bool](../types/Bool.md) | Optional|
+|apply\_min\_photo|[Bool](../types/Bool.md) | Optional|If set, the profile picture for this user should be refetched|
 |id|[int](../types/int.md) | Yes|ID of the user|
 |access\_hash|[long](../types/long.md) | Optional|Access hash of the user|
 |first\_name|[string](../types/string.md) | Optional|First name|

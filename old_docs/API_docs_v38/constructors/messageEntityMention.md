@@ -1,6 +1,6 @@
 ---
 title: messageEntityMention
-description: Message entity mentioning the current user
+description: Message entity [mentioning](https://core.telegram.org/api/mentions) the current user
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageEntityMention  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message entity mentioning the current user
+Message entity [mentioning](https://core.telegram.org/api/mentions) the current user
 
 ### Attributes:
 

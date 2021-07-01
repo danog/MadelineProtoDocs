@@ -1,6 +1,6 @@
 ---
 title: messageViews
-description: messageViews attributes, type and example
+description: View, forward counter + info about replies of a specific message
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageViews  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+View, forward counter + info about replies of a specific message
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|views|[int](../types/int.md) | Optional|
-|forwards|[int](../types/int.md) | Optional|
-|replies|[MessageReplies](../types/MessageReplies.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|views|[int](../types/int.md) | Optional|Viewcount of message|
+|forwards|[int](../types/int.md) | Optional|Forward count of message|
+|replies|[MessageReplies](../types/MessageReplies.md) | Optional|Reply and [thread](https://core.telegram.org/api/threads) information of message|
 
 
 

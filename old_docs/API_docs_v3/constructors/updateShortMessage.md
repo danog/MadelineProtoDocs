@@ -22,7 +22,7 @@ Info about a message sent to (received from) another user
 |date|[int](../types/int.md) | Yes|[date](https://core.telegram.org/api/updates)|
 |fwd\_from\_id|[int](../types/int.md) | Optional|
 |fwd\_date|[int](../types/int.md) | Optional|
-|reply\_to\_msg\_id|[int](../types/int.md) | Optional|ID of the message this message replies to|
+|reply\_to\_msg\_id|[int](../types/int.md) | Optional|
 
 
 

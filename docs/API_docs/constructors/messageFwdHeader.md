@@ -14,7 +14,7 @@ Info about a forwarded message
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|from\_id|[Peer](../types/Peer.md) | Optional|
+|from\_id|[Peer](../types/Peer.md) | Optional|The ID of the user that originally sent the message|
 |from\_name|[string](../types/string.md) | Optional|The name of the user that originally sent the message|
 |date|[int](../types/int.md) | Yes|When was the message originally sent|
 |channel\_post|[int](../types/int.md) | Optional|ID of the channel message that was forwarded|

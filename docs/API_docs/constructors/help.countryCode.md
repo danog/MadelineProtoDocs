@@ -1,6 +1,6 @@
 ---
 title: help.countryCode
-description: help.countryCode attributes, type and example
+description: Country code and phone number pattern of a specific country
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_countryCode.html
 ---
@@ -9,13 +9,15 @@ redirect_from: /API_docs/constructors/help_countryCode.html
 
 
 
+Country code and phone number pattern of a specific country
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|country\_code|[string](../types/string.md) | Yes|
-|prefixes|Array of [string](../types/string.md) | Optional|
-|patterns|Array of [string](../types/string.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|country\_code|[string](../types/string.md) | Yes|ISO country code|
+|prefixes|Array of [string](../types/string.md) | Optional|Possible phone prefixes|
+|patterns|Array of [string](../types/string.md) | Optional|Phone patterns: for example, `XXX XXX XXX`|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: updateNewScheduledMessage
-description: New incoming scheduled message
+description: A message was added to the [schedule queue of a chat](https://core.telegram.org/api/scheduled-messages)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateNewScheduledMessage  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-New incoming scheduled message
+A message was added to the [schedule queue of a chat](https://core.telegram.org/api/scheduled-messages)
 
 ### Attributes:
 

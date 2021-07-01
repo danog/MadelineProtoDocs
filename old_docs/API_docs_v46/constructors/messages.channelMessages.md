@@ -18,7 +18,7 @@ Channel messages
 |inexact|[Bool](../types/Bool.md) | Optional|If set, returned results may be inexact|
 |pts|[int](../types/int.md) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|
 |count|[int](../types/int.md) | Yes|Total number of results were found server-side (may not be all included here)|
-|offset\_id\_offset|[int](../types/int.md) | Optional|
+|offset\_id\_offset|[int](../types/int.md) | Optional|Indicates the absolute position of `messages[0]` within the total result set with count `count`. <br>This is useful, for example, if the result was fetched using `offset_id`, and we need to display a `progress/total` counter (like `photo 134 of 200`, for all media in a chat, we could simply use `photo ${offset_id_offset} of ${count}`.|
 |messages|Array of [Message](../types/Message.md) | Yes|Found messages|
 |chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
 |users|Array of [User](../types/User.md) | Yes|Users|

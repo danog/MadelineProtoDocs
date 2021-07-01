@@ -1,6 +1,6 @@
 ---
 title: help.country
-description: help.country attributes, type and example
+description: Name, ISO code, localized name and phone codes/patterns of a specific country
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_country.html
 ---
@@ -9,15 +9,17 @@ redirect_from: /API_docs/constructors/help_country.html
 
 
 
+Name, ISO code, localized name and phone codes/patterns of a specific country
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hidden|[Bool](../types/Bool.md) | Optional|
-|iso2|[string](../types/string.md) | Yes|
-|default\_name|[string](../types/string.md) | Yes|
-|name|[string](../types/string.md) | Optional|
-|country\_codes|Array of [help.CountryCode](../constructors/help.CountryCode.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|hidden|[Bool](../types/Bool.md) | Optional|Whether this country should not be shown in the list|
+|iso2|[string](../types/string.md) | Yes|ISO code of country|
+|default\_name|[string](../types/string.md) | Yes|Name of the country in the country's language|
+|name|[string](../types/string.md) | Optional|Name of the country in the user's language, if different from the original name|
+|country\_codes|Array of [help.CountryCode](../constructors/help.CountryCode.md) | Yes|Phone codes/patterns|
 
 
 

@@ -14,7 +14,7 @@ Group profile photo.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|has\_video|[Bool](../types/Bool.md) | Optional|
+|has\_video|[Bool](../types/Bool.md) | Optional|Whether the user has an animated profile picture|
 |photo\_small|[FileLocation](../types/FileLocation.md) | Yes|Location of the file corresponding to the small thumbnail for group profile photo|
 |photo\_big|[FileLocation](../types/FileLocation.md) | Yes|Location of the file corresponding to the small thumbnail for group profile photo|
 |dc\_id|[int](../types/int.md) | Yes|DC where this photo is stored|

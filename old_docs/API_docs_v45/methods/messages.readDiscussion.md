@@ -1,6 +1,6 @@
 ---
 title: messages.readDiscussion
-description: messages.readDiscussion parameters, return type and example
+description: Mark a [thread](https://core.telegram.org/api/threads) as read
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_readDiscussion.html
 ---
@@ -9,13 +9,15 @@ redirect_from: /API_docs/methods/messages_readDiscussion.html
 
 
 
+Mark a [thread](https://core.telegram.org/api/threads) as read
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
-|msg\_id|[int](../types/int.md) | Yes|
-|read\_max\_id|[int](../types/int.md) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Group ID | Optional|
+|msg\_id|[int](../types/int.md) | ID of message that started the thread | Yes|
+|read\_max\_id|[int](../types/int.md) | ID up to which thread messages were read | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

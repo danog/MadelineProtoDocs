@@ -18,7 +18,7 @@ Incomplete list of messages and auxiliary data.
 |inexact|[Bool](../types/Bool.md) | Optional|If set, indicates that the results may be inexact|
 |count|[int](../types/int.md) | Yes|Total number of messages in the list|
 |next\_rate|[int](../types/int.md) | Optional|Rate to use in the `offset_rate` parameter in the next call to [messages.searchGlobal](../methods/messages.searchGlobal.md)|
-|offset\_id\_offset|[int](../types/int.md) | Optional|
+|offset\_id\_offset|[int](../types/int.md) | Optional|Indicates the absolute position of `messages[0]` within the total result set with count `count`. <br>This is useful, for example, if the result was fetched using `offset_id`, and we need to display a `progress/total` counter (like `photo 134 of 200`, for all media in a chat, we could simply use `photo ${offset_id_offset} of ${count}`.|
 |messages|Array of [Message](../types/Message.md) | Yes|List of messages|
 |chats|Array of [Chat](../types/Chat.md) | Yes|List of chats mentioned in messages|
 |users|Array of [User](../types/User.md) | Yes|List of users mentioned in messages and chats|

@@ -1,6 +1,6 @@
 ---
 title: help.getCountriesList
-description: help.getCountriesList parameters, return type and example
+description: Get name, ISO code, localized name and phone codes/patterns of all available countries
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getCountriesList.html
 ---
@@ -9,12 +9,14 @@ redirect_from: /API_docs/methods/help_getCountriesList.html
 
 
 
+Get name, ISO code, localized name and phone codes/patterns of all available countries
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|lang\_code|[string](../types/string.md) | Yes|
-|hash|Array of [int](../types/int.md) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|lang\_code|[string](../types/string.md) | Language code of the current user | Yes|
+|hash|Array of [int](../types/int.md) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [help.CountriesList](../types/help.CountriesList.md)

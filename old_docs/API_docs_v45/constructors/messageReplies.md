@@ -1,6 +1,6 @@
 ---
 title: messageReplies
-description: messageReplies attributes, type and example
+description: Info about [the comment section of a channel post, or a simple message thread](https://core.telegram.org/api/threads)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageReplies  
@@ -8,17 +8,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Info about [the comment section of a channel post, or a simple message thread](https://core.telegram.org/api/threads)
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|comments|[Bool](../types/Bool.md) | Optional|
-|replies|[int](../types/int.md) | Yes|
-|replies\_pts|[int](../types/int.md) | Yes|
-|recent\_repliers|Array of [Peer](../types/Peer.md) | Optional|
-|channel\_id|[int](../types/int.md) | Optional|
-|max\_id|[int](../types/int.md) | Optional|
-|read\_max\_id|[int](../types/int.md) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|comments|[Bool](../types/Bool.md) | Optional|Whether this constructor contains information about the [comment section of a channel post, or a simple message thread](https://core.telegram.org/api/threads)|
+|replies|[int](../types/int.md) | Yes|Contains the total number of replies in this thread or comment section.|
+|replies\_pts|[int](../types/int.md) | Yes|[PTS](https://core.telegram.org/api/updates) of the message that started this thread.|
+|recent\_repliers|Array of [Peer](../types/Peer.md) | Optional|For channel post comments, contains information about the last few comment posters for a specific thread, to show a small list of commenter profile pictures in client previews.|
+|channel\_id|[int](../types/int.md) | Optional|For channel post comments, contains the ID of the associated [discussion supergroup](https://core.telegram.org/api/discussion)|
+|max\_id|[int](../types/int.md) | Optional|ID of the latest message in this thread or comment section.|
+|read\_max\_id|[int](../types/int.md) | Optional|Contains the ID of the latest read message in this thread or comment section.|
 
 
 

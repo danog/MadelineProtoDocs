@@ -20,7 +20,7 @@ Contents of an encrypted message.
 |entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|Message [entities](https://core.telegram.org/api/entities) for styled text (parameter added in layer 45)|
 |via\_bot\_name|[string](../types/string.md) | Optional|Specifies the ID of the inline bot that generated the message (parameter added in layer 45)|
 |reply\_to\_random\_id|[long](../types/long.md) | Optional|Random message ID of the message this message replies to (parameter added in layer 45)|
-|grouped\_id|[long](../types/long.md) | Optional|Random group ID, assigned by the author of message.<br>Multiple encrypted messages with a photo attached and with the same group ID indicate an album (parameter added in layer 45)|
+|grouped\_id|[long](../types/long.md) | Optional|Random group ID, assigned by the author of message.<br>Multiple encrypted messages with a photo attached and with the same group ID indicate an [album or grouped media](https://core.telegram.org/api/files#albums-grouped-media) (parameter added in layer 45)|
 
 
 

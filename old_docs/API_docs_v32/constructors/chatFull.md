@@ -22,7 +22,7 @@ Detailed chat info
 |notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Yes|Notification settings|
 |exported\_invite|[ExportedChatInvite](../types/ExportedChatInvite.md) | Yes|Chat invite|
 |bot\_info|Array of [BotInfo](../types/BotInfo.md) | Optional|Info about bots that are in this chat|
-|pinned\_msg\_id|[int](../types/int.md) | Optional|Message ID of the pinned message|
+|pinned\_msg\_id|[int](../types/int.md) | Optional|Message ID of the last [pinned message](https://core.telegram.org/api/pin)|
 
 
 

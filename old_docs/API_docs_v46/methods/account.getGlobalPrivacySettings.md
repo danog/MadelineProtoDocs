@@ -1,6 +1,6 @@
 ---
 title: account.getGlobalPrivacySettings
-description: account.getGlobalPrivacySettings parameters, return type and example
+description: Get global privacy settings
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getGlobalPrivacySettings.html
 ---
@@ -8,6 +8,8 @@ redirect_from: /API_docs/methods/account_getGlobalPrivacySettings.html
 [Back to methods index](index.md)
 
 
+
+Get global privacy settings
 
 
 

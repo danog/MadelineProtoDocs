@@ -31,7 +31,7 @@ Full info about a [channel/supergroup](https://core.telegram.org/api/channel)
 |bot\_info|Array of [BotInfo](../types/BotInfo.md) | Yes|Info about bots in the channel/supergrup|
 |migrated\_from\_chat\_id|[int](../types/int.md) | Optional|The chat ID from which this group was [migrated](https://core.telegram.org/api/channel)|
 |migrated\_from\_max\_id|[int](../types/int.md) | Optional|The message ID in the original chat at which this group was [migrated](https://core.telegram.org/api/channel)|
-|pinned\_msg\_id|[int](../types/int.md) | Optional|Message ID of the pinned message|
+|pinned\_msg\_id|[int](../types/int.md) | Optional|Message ID of the last [pinned message](https://core.telegram.org/api/pin)|
 
 
 

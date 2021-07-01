@@ -53,6 +53,7 @@ updates_ChannelDifference = updates.getChannelDifference({peer=InputPeer, filter
 |------|----------|---------------|
 |400|CHANNEL_INVALID|The provided channel is invalid|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
+|400|CONNECTION_DEVICE_MODEL_EMPTY|Device model empty|
 |400|FROM_MESSAGE_BOT_DISABLED|Bots can't use fromMessage min constructors|
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |400|PERSISTENT_TIMESTAMP_EMPTY|Persistent timestamp empty|

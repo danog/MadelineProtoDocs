@@ -14,10 +14,10 @@ Info about a forwarded message
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|from\_id|[int](../types/int.md) | Optional|The ID of the user that originally sent the message|
+|from\_id|[int](../types/int.md) | Optional|
 |from\_name|[string](../types/string.md) | Optional|The name of the user that originally sent the message|
 |date|[int](../types/int.md) | Yes|When was the message originally sent|
-|channel\_id|[int](../types/int.md) | Optional|ID of the channel from which the message was forwarded|
+|channel\_id|[int](../types/int.md) | Optional|
 |channel\_post|[int](../types/int.md) | Optional|ID of the channel message that was forwarded|
 |post\_author|[string](../types/string.md) | Optional|For channels and if signatures are enabled, author of the channel message|
 |saved\_from\_peer|[Peer](../types/Peer.md) | Optional|Only for messages forwarded to the current user (inputPeerSelf), full info about the user/channel that originally sent the message|

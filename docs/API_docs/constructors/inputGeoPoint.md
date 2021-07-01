@@ -16,7 +16,7 @@ Defines a GeoPoint by its coordinates.
 |----------|---------------|----------|-------------|
 |lat|[double](../types/double.md) | Yes|Latitide|
 |long|[double](../types/double.md) | Yes|Longtitude|
-|accuracy\_radius|[int](../types/int.md) | Optional|
+|accuracy\_radius|[int](../types/int.md) | Optional|The estimated horizontal accuracy of the location, in meters; as defined by the sender.|
 
 
 

@@ -17,7 +17,7 @@ Incomplete list of blocked users.
 |----------|---------------|----------|-------------|
 |count|[int](../types/int.md) | Yes|Total number of elements in the list|
 |blocked|Array of [PeerBlocked](../types/PeerBlocked.md) | Yes|List of blocked users|
-|chats|Array of [Chat](../types/Chat.md) | Yes|
+|chats|Array of [Chat](../types/Chat.md) | Yes|Blocked chats|
 |users|Array of [User](../types/User.md) | Yes|List of users|
 
 

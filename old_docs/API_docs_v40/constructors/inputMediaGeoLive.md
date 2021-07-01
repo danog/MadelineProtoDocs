@@ -1,6 +1,6 @@
 ---
 title: inputMediaGeoLive
-description: Live geographical location
+description: [Live geolocation](https://core.telegram.org/api/live-location)
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaGeoLive  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Live geographical location
+[Live geolocation](https://core.telegram.org/api/live-location)
 
 ### Attributes:
 

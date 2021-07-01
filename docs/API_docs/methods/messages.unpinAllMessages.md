@@ -1,6 +1,6 @@
 ---
 title: messages.unpinAllMessages
-description: messages.unpinAllMessages parameters, return type and example
+description: [Unpin](https://core.telegram.org/api/pin) all pinned messages
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_unpinAllMessages.html
 ---
@@ -9,11 +9,13 @@ redirect_from: /API_docs/methods/messages_unpinAllMessages.html
 
 
 
+[Unpin](https://core.telegram.org/api/pin) all pinned messages
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Chat where to unpin | Optional|
 
 
 ### Return type: [messages.AffectedHistory](../types/messages.AffectedHistory.md)

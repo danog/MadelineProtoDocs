@@ -15,7 +15,7 @@ Adds the user to the blacklist.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | User ID | Optional|
+|id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) |  | Optional|
 
 
 ### Return type: [Bool](../types/Bool.md)

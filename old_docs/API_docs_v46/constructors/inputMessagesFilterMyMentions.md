@@ -1,6 +1,6 @@
 ---
 title: inputMessagesFilterMyMentions
-description: Return only messages where the current user was mentioned
+description: Return only messages where the current user was [mentioned](https://core.telegram.org/api/mentions).
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterMyMentions  
@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Return only messages where the current user was mentioned
+Return only messages where the current user was [mentioned](https://core.telegram.org/api/mentions).
 
 
 

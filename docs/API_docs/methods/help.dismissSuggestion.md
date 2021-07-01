@@ -1,6 +1,6 @@
 ---
 title: help.dismissSuggestion
-description: help.dismissSuggestion parameters, return type and example
+description: Dismiss a suggestion
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_dismissSuggestion.html
 ---
@@ -9,11 +9,13 @@ redirect_from: /API_docs/methods/help_dismissSuggestion.html
 
 
 
+Dismiss a suggestion
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|suggestion|[string](../types/string.md) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|suggestion|[string](../types/string.md) | Suggestion | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)

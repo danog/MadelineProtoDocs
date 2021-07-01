@@ -20,7 +20,7 @@ Full info about a [channel/supergroup](https://core.telegram.org/api/channel)
 |hidden\_prehistory|[Bool](../types/Bool.md) | Optional|Is the history before we joined hidden to us?|
 |can\_set\_location|[Bool](../types/Bool.md) | Optional|Can we set the geolocation of this group (for geogroups)|
 |has\_scheduled|[Bool](../types/Bool.md) | Optional|Whether scheduled messages are available|
-|can\_view\_stats|[Bool](../types/Bool.md) | Optional|Can the user view [channel statistics](https://core.telegram.org/api/stats) for this channel|
+|can\_view\_stats|[Bool](../types/Bool.md) | Optional|Can the user view [channel/supergroup statistics](https://core.telegram.org/api/stats)|
 |id|[int](../types/int.md) | Yes|ID of the channel|
 |about|[string](../types/string.md) | Yes|Info about the channel|
 |participants\_count|[int](../types/int.md) | Optional|Number of participants of the channel|
@@ -37,11 +37,11 @@ Full info about a [channel/supergroup](https://core.telegram.org/api/channel)
 |bot\_info|Array of [BotInfo](../types/BotInfo.md) | Yes|Info about bots in the channel/supergrup|
 |migrated\_from\_chat\_id|[int](../types/int.md) | Optional|The chat ID from which this group was [migrated](https://core.telegram.org/api/channel)|
 |migrated\_from\_max\_id|[int](../types/int.md) | Optional|The message ID in the original chat at which this group was [migrated](https://core.telegram.org/api/channel)|
-|pinned\_msg\_id|[int](../types/int.md) | Optional|Message ID of the pinned message|
+|pinned\_msg\_id|[int](../types/int.md) | Optional|Message ID of the last [pinned message](https://core.telegram.org/api/pin)|
 |stickerset|[StickerSet](../types/StickerSet.md) | Optional|Associated stickerset|
 |available\_min\_id|[int](../types/int.md) | Optional|Identifier of a maximum unavailable message in a channel due to hidden history.|
 |folder\_id|[int](../types/int.md) | Optional|[Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders)|
-|linked\_chat\_id|[int](../types/int.md) | Optional|ID of the linked discussion chat for channels|
+|linked\_chat\_id|[int](../types/int.md) | Optional|ID of the linked [discussion chat](https://core.telegram.org/api/discussion) for channels|
 |location|[ChannelLocation](../types/ChannelLocation.md) | Optional|Location of the geogroup|
 |slowmode\_seconds|[int](../types/int.md) | Optional|If specified, users in supergroups will only be able to send one message every `slowmode_seconds` seconds|
 |slowmode\_next\_send\_date|[int](../types/int.md) | Optional|Indicates when the user will be allowed to send another message in the supergroup (unixdate)|

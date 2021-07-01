@@ -1,6 +1,6 @@
 ---
 title: stats.getMessagePublicForwards
-description: stats.getMessagePublicForwards parameters, return type and example
+description: Obtains a list of messages, indicating to which other public channels was a channel message forwarded.  
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/stats_getMessagePublicForwards.html
 ---
@@ -9,16 +9,19 @@ redirect_from: /API_docs/methods/stats_getMessagePublicForwards.html
 
 
 
+Obtains a list of messages, indicating to which other public channels was a channel message forwarded.  
+Will return a list of [messages](../constructors/message.md) with `peer_id` equal to the public channel to which this message was forwarded.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|
-|msg\_id|[int](../types/int.md) | Yes|
-|offset\_rate|[int](../types/int.md) | Yes|
-|offset\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
-|offset\_id|[int](../types/int.md) | Yes|
-|limit|[int](../types/int.md) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Source channel | Optional|
+|msg\_id|[int](../types/int.md) | Source message ID | Yes|
+|offset\_rate|[int](../types/int.md) | Initially 0, then set to the `next_rate` parameter of [messages.messagesSlice](../constructors/messages.messagesSlice.md) | Yes|
+|offset\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
+|offset\_id|[int](../types/int.md) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
+|limit|[int](../types/int.md) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
 
 
 ### Return type: [messages.Messages](../types/messages.Messages.md)

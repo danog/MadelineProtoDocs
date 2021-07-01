@@ -1,6 +1,6 @@
 ---
 title: statsGroupTopPoster
-description: statsGroupTopPoster attributes, type and example
+description: Information about an active user in a supergroup
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: statsGroupTopPoster  
@@ -8,13 +8,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Information about an active user in a supergroup
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|user\_id|[int](../types/int.md) | Yes|
-|messages|[int](../types/int.md) | Yes|
-|avg\_chars|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|user\_id|[int](../types/int.md) | Yes|User ID|
+|messages|[int](../types/int.md) | Yes|Number of messages for [statistics](https://core.telegram.org/api/stats) period in consideration|
+|avg\_chars|[int](../types/int.md) | Yes|Average number of characters per message|
 
 
 

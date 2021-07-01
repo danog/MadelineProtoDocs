@@ -17,7 +17,7 @@ Pin a message
 |----------|---------------|-------------|----------|
 |silent|[Bool](../types/Bool.md) | Pin the message silently, without triggering a notification | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The peer where to pin the message | Optional|
-|id|[int](../types/int.md) | The message to pin, can be 0 to unpin any currently pinned messages | Yes|
+|id|[int](../types/int.md) | The message to pin or unpin | Yes|
 
 
 ### Return type: [Updates](../types/Updates.md)

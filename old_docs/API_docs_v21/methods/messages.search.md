@@ -17,7 +17,7 @@ Gets back found messages
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | User or chat, histories with which are searched, or [(inputPeerEmpty)](../constructors/inputPeerEmpty.md) constructor for global search | Optional|
 |q|[string](../types/string.md) | Text search request | Yes|
-|from\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Only return messages sent by the specified user ID | Optional|
+|from\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) |  | Optional|
 |filter|[MessagesFilter](../types/MessagesFilter.md) | Filter to return only specified message types | Optional|
 |min\_date|[int](../types/int.md) | If a positive value was transferred, only messages with a sending date bigger than the transferred one will be returned | Yes|
 |max\_date|[int](../types/int.md) | If a positive value was transferred, only messages with a sending date smaller than the transferred one will be returned | Yes|

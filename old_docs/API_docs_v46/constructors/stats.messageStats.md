@@ -1,6 +1,6 @@
 ---
 title: stats.messageStats
-description: stats.messageStats attributes, type and example
+description: Message statistics
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/stats_messageStats.html
 ---
@@ -9,11 +9,13 @@ redirect_from: /API_docs/constructors/stats_messageStats.html
 
 
 
+Message statistics
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|views\_graph|[StatsGraph](../types/StatsGraph.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|views\_graph|[StatsGraph](../types/StatsGraph.md) | Yes|Message view graph|
 
 
 

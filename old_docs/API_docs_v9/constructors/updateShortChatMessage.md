@@ -27,7 +27,7 @@ Shortened constructor containing info on one new incoming text message from a ch
 |date|[int](../types/int.md) | Yes|[date](https://core.telegram.org/api/updates)|
 |fwd\_from\_id|[Peer](../types/Peer.md) | Optional|
 |fwd\_date|[int](../types/int.md) | Optional|
-|reply\_to\_msg\_id|[int](../types/int.md) | Optional|ID of the message this message replies to|
+|reply\_to\_msg\_id|[int](../types/int.md) | Optional|
 |entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|[Entities](https://core.telegram.org/api/entities) for styled text|
 
 

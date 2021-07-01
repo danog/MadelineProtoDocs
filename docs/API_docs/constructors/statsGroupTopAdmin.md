@@ -1,6 +1,6 @@
 ---
 title: statsGroupTopAdmin
-description: statsGroupTopAdmin attributes, type and example
+description: Information about an active admin in a supergroup
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: statsGroupTopAdmin  
@@ -8,14 +8,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Information about an active admin in a supergroup
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|user\_id|[int](../types/int.md) | Yes|
-|deleted|[int](../types/int.md) | Yes|
-|kicked|[int](../types/int.md) | Yes|
-|banned|[int](../types/int.md) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|user\_id|[int](../types/int.md) | Yes|User ID|
+|deleted|[int](../types/int.md) | Yes|Number of deleted messages for [statistics](https://core.telegram.org/api/stats) period in consideration|
+|kicked|[int](../types/int.md) | Yes|Number of kicked users for [statistics](https://core.telegram.org/api/stats) period in consideration|
+|banned|[int](../types/int.md) | Yes|Number of banned users for [statistics](https://core.telegram.org/api/stats) period in consideration|
 
 
 

@@ -44,3 +44,10 @@ Or, if you're into Lua:
 Vector_of_int = contacts.getContactIDs({hash={int}, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|-503|Timeout|Timeout while fetching data|
+
+

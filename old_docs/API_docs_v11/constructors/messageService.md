@@ -19,8 +19,8 @@ Indicates a service message
 |mentioned|[Bool](../types/Bool.md) | Optional|Whether we were mentioned in the message|
 |media\_unread|[Bool](../types/Bool.md) | Optional|Whether the message contains unread media|
 |id|[int](../types/int.md) | Yes|Message ID|
-|from\_id|[int](../types/int.md) | Optional|ID of the sender of this message|
-|to\_id|[Peer](../types/Peer.md) | Yes|ID of the destination of the message|
+|from\_id|[int](../types/int.md) | Optional|
+|to\_id|[Peer](../types/Peer.md) | Yes|
 |date|[int](../types/int.md) | Yes|Message date|
 |action|[MessageAction](../types/MessageAction.md) | Optional|Event connected with the service message|
 

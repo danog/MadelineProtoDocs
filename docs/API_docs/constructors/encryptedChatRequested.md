@@ -14,7 +14,7 @@ Request to create an encrypted chat.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|folder\_id|[int](../types/int.md) | Optional|
+|folder\_id|[int](../types/int.md) | Optional|[Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders)|
 |id|[int](../types/int.md) | Yes|Chat ID|
 |access\_hash|[long](../types/long.md) | Yes|Check sum depending on user ID|
 |date|[int](../types/int.md) | Yes|Chat creation date|

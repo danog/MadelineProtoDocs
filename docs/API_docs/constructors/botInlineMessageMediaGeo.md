@@ -15,9 +15,9 @@ Send a geolocation
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |geo|[GeoPoint](../types/GeoPoint.md) | Optional|Geolocation|
-|heading|[int](../types/int.md) | Optional|
+|heading|[int](../types/int.md) | Optional|For [live locations](https://core.telegram.org/api/live-location), a direction in which the location moves, in degrees; 1-360.|
 |period|[int](../types/int.md) | Optional|Validity period|
-|proximity\_notification\_radius|[int](../types/int.md) | Optional|
+|proximity\_notification\_radius|[int](../types/int.md) | Optional|For [live locations](https://core.telegram.org/api/live-location), a maximum distance to another chat member for proximity alerts, in meters (0-100000).|
 |reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Inline keyboard|
 
 
