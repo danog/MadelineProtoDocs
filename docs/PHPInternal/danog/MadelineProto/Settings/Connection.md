@@ -49,7 +49,6 @@ Connection settings.
 * `setUseDoH(bool $useDoH): self`
 * `getBindTo(): ?string`
 * `setBindTo(?string $bindTo): self`
-* `hasChanged(): bool`
 
 ## Methods:
 ### `getProtocol(): string`
@@ -352,12 +351,6 @@ Set bind on specific address and port.
 
 Parameters:
 * `$bindTo`: `?string` Bind on specific address and port.  
-
-
-
-### `hasChanged(): bool`
-
-Get whether this setting was changed, also applies changes.
 
 
 

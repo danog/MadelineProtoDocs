@@ -60,7 +60,7 @@ Event handler.
 * `extractBotAPIFile(array $info): ?array`
 * `fileGetContents(string $url): \Amp\Promise`
 * `first((\Promise|\Generator)[] $promises): \Amp\Promise`
-* `flock(string $file, int $operation, float $polling, ?\Promise $token, ?callable $failureCb): \Amp\Promise<?callable>`
+* `flock(string $file, int $operation, float $polling, ?\Promise $token, ?callable $failureCb)`
 * `fromSupergroup(int $id): float|int`
 * `fullChatLastUpdated(mixed $id): \Amp\Promise<int>`
 * `fullGetSelf(): \Amp\Promise<array|bool>`
@@ -101,18 +101,20 @@ Event handler.
 * `getSettings(): mixed`
 * `getTL(): mixed`
 * `getVar(object $obj, string $var): mixed`
+* `getWebMessage(string $message)`
 * `getWebTemplate(): mixed`
 * `hasAllAuth(): mixed`
 * `hasEventHandler(): mixed`
 * `hasReportPeers(): mixed`
 * `hasSecretChat(array|int $chat): mixed`
 * `hasVar(object $obj, string $var): bool`
-* `importAuthorization(mixed $authorization): \Amp\Promise`
+* `importAuthorization(array<int, string> $authorization, int $mainDcID): \Amp\Promise`
 * `inflateStripped(string $stripped): \string JPG payload`
 * `initSelfRestart(): mixed`
 * `isAltervista(): bool`
 * `isArrayOrAlike(mixed $var): bool`
 * `isIpc(): mixed`
+* `isIpcWorker(): mixed`
 * `isSupergroup(int $id): bool`
 * `logger(string $param, int $level, string $file): mixed`
 * `logout(): \Amp\Promise`
@@ -172,7 +174,7 @@ Event handler.
 * `unpackFileId(string $fileId): mixed`
 * `unpackSignedInt(string $value): int`
 * `unpackSignedLong(string $value): int`
-* `unpackSignedLongString(string $value): string`
+* `unpackSignedLongString(string|int|array $value): string`
 * `unsetEventHandler(bool $disableUpdateHandling): mixed`
 * `update2fa(array $params): \Amp\Promise`
 * `updateSettings(\danog\MadelineProto\SettingsAbstract $settings): \Amp\Promise`
@@ -892,7 +894,7 @@ Parameters:
 
 
 
-### `flock(string $file, int $operation, float $polling, ?\Promise $token, ?callable $failureCb): \Amp\Promise<?callable>`
+### `flock(string $file, int $operation, float $polling, ?\Promise $token, ?callable $failureCb)`
 
 Asynchronously lock a file
 Resolves with a callbable that MUST eventually be called in order to release the lock.
@@ -908,7 +910,6 @@ Parameters:
 
 #### See also: 
 * `\Promise`
-* `\Amp\Promise`
 
 
 
@@ -1474,6 +1475,16 @@ Parameters:
 
 
 
+### `getWebMessage(string $message)`
+
+Get a message to show to the user when starting the bot.
+
+
+Parameters:
+* `$message`: `string`   
+
+
+
 ### `getWebTemplate(): mixed`
 
 Get web template.
@@ -1564,13 +1575,14 @@ Parameters:
 
 
 
-### `importAuthorization(mixed $authorization): \Amp\Promise`
+### `importAuthorization(array<int, string> $authorization, int $mainDcID): \Amp\Promise`
 
 Import authorization.
 
 
 Parameters:
-* `$authorization`: `mixed` Authorization info  
+* `$authorization`: `array<int, string>` Authorization info  
+* `$mainDcID`: `int` Main DC ID  
 
 
 #### See also: 
@@ -1625,6 +1637,21 @@ Parameters:
 ### `isIpc(): mixed`
 
 Whether we're an IPC client instance.
+
+
+Fully typed return value:
+```
+bool|\Amp\Promise<bool>
+```
+#### See also: 
+* `\Amp\Promise`
+
+
+
+
+### `isIpcWorker(): mixed`
+
+Whether we're an IPC server process (as opposed to an event handler).
 
 
 Fully typed return value:
@@ -2450,13 +2477,13 @@ Parameters:
 
 
 
-### `unpackSignedLongString(string $value): string`
+### `unpackSignedLongString(string|int|array $value): string`
 
 Unpack base256 signed long to string.
 
 
 Parameters:
-* `$value`: `string` base256 long  
+* `$value`: `string|int|array` base256 long  
 
 
 

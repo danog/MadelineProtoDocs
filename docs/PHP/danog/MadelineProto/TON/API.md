@@ -26,11 +26,12 @@ TON API.
 * `call(\Generator|\Promise|mixed $promise): \Amp\Promise`
 * `callFork(\Generator|\Promise $promise, ?\Generator|\Promise $actual, string $file): \Amp\Promise|mixed`
 * `callForkDefer(\Generator|\Promise $promise): void`
+* `closeConnection(string $message): void`
 * `connect(string $config): \Amp\Promise`
 * `echo(string $string): \Amp\Promise`
 * `end(array $what): mixed`
 * `first((\Promise|\Generator)[] $promises): \Amp\Promise`
-* `flock(string $file, int $operation, float $polling, ?\Promise $token, ?callable $failureCb): \Amp\Promise<?callable>`
+* `flock(string $file, int $operation, float $polling, ?\Promise $token, ?callable $failureCb)`
 * `genVectorHash(array $ints): \int Vector hash`
 * `getExtensionFromLocation(mixed $location, string $default): string`
 * `getExtensionFromMime(string $mime): string`
@@ -70,7 +71,7 @@ TON API.
 * `unpackDouble(string $value): float`
 * `unpackSignedInt(string $value): int`
 * `unpackSignedLong(string $value): int`
-* `unpackSignedLongString(string $value): string`
+* `unpackSignedLongString(string|int|array $value): string`
 * `wait(\Generator|\Promise $promise, bool $ignoreSignal): mixed`
 * `async(bool $async): void`
 * `init(): void`
@@ -237,6 +238,16 @@ Parameters:
 
 
 
+### `closeConnection(string $message): void`
+
+Close connection with client, connected via web.
+
+
+Parameters:
+* `$message`: `string` Message  
+
+
+
 ### `connect(string $config): \Amp\Promise`
 
 Connect to the lite endpoints specified in the config file.
@@ -294,7 +305,7 @@ Parameters:
 
 
 
-### `flock(string $file, int $operation, float $polling, ?\Promise $token, ?callable $failureCb): \Amp\Promise<?callable>`
+### `flock(string $file, int $operation, float $polling, ?\Promise $token, ?callable $failureCb)`
 
 Asynchronously lock a file
 Resolves with a callbable that MUST eventually be called in order to release the lock.
@@ -310,7 +321,6 @@ Parameters:
 
 #### See also: 
 * `\Promise`
-* `\Amp\Promise`
 
 
 
@@ -797,13 +807,13 @@ Parameters:
 
 
 
-### `unpackSignedLongString(string $value): string`
+### `unpackSignedLongString(string|int|array $value): string`
 
 Unpack base256 signed long to string.
 
 
 Parameters:
-* `$value`: `string` base256 long  
+* `$value`: `string|int|array` base256 long  
 
 
 

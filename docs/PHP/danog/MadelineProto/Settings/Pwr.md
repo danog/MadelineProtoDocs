@@ -20,7 +20,6 @@ PWRTelegram settings.
 * `setRequests(bool $requests): self`
 * `getDbToken(): string`
 * `setDbToken(string $dbToken): self`
-* `hasChanged(): bool`
 
 ## Methods:
 ### `getRequests(): bool`
@@ -52,12 +51,6 @@ Set DB token.
 
 Parameters:
 * `$dbToken`: `string` DB token.  
-
-
-
-### `hasChanged(): bool`
-
-Get whether this setting was changed, also applies changes.
 
 
 

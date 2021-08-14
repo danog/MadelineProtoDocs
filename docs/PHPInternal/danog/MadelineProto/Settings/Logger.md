@@ -23,7 +23,6 @@ Logger settings.
 * `setLevel(): self`
 * `getMaxSize(): int`
 * `setMaxSize(int $maxSize): self`
-* `hasChanged(): bool`
 
 ## Methods:
 ### `getType()`
@@ -79,12 +78,6 @@ Set maximum filesize for logger, in case of file logging.
 
 Parameters:
 * `$maxSize`: `int` Maximum filesize for logger, in case of file logging.  
-
-
-
-### `hasChanged(): bool`
-
-Get whether this setting was changed, also applies changes.
 
 
 

@@ -18,7 +18,7 @@ Manages datacenters.
 * `setDataCenterConnections(array $saved): void`
 * `setVoIPEndpoints(array $endpoints): void`
 * `dcConnect(string $dc_number, int $id): \Generator<bool>`
-* `generateContexts(int $dc_number, string $uri, \Amp\Socket\ConnectContext $context): array`
+* `generateContexts(int $dc_number, string $uri, \Amp\Socket\ConnectContext $context): \danog\MadelineProto\Stream\ConnectionContext[]`
 * `getAPI(): \danog\MadelineProto\MTProto`
 * `getHTTPClient(): \Amp\Http\Client\HttpClient`
 * `getCookieJar(): \Amp\Http\Client\Cookie\CookieJar`
@@ -72,7 +72,7 @@ Parameters:
 
 
 
-### `generateContexts(int $dc_number, string $uri, \Amp\Socket\ConnectContext $context): array`
+### `generateContexts(int $dc_number, string $uri, \Amp\Socket\ConnectContext $context): \danog\MadelineProto\Stream\ConnectionContext[]`
 
 Generate contexts.
 
@@ -85,6 +85,7 @@ Parameters:
 
 #### See also: 
 * `\Amp\Socket\ConnectContext`
+* [`\danog\MadelineProto\Stream\ConnectionContext`: Connection context class.](./Stream/ConnectionContext.md)
 
 
 

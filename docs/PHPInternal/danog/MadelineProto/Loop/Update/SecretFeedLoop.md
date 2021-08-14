@@ -20,6 +20,7 @@ Secret feed loop.
 * `pause(?int $time): \Promise Resolved when the loop is resumed`
 * `resume(): \Promise Resolved when the loop is paused again`
 * `resumeDefer(): \Promise Resolved when the loop is paused again`
+* `resumeDeferOnce(): \Promise Resolved when the loop is paused again`
 * `start(): bool`
 * `isRunning(): bool`
 * `signal(mixed|\Throwable $what): void`
@@ -71,6 +72,14 @@ Return value: Resolved when the loop is paused again
 
 Defer resuming the loop to next tick.
 
+
+Return value: Resolved when the loop is paused again
+
+
+### `resumeDeferOnce(): \Promise Resolved when the loop is paused again`
+
+Defer resuming the loop to next tick.
+Multiple consecutive calls will yield only one resume.
 
 Return value: Resolved when the loop is paused again
 

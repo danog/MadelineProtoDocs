@@ -18,7 +18,6 @@ Serialization settings.
 ## Method list:
 * `getInterval(): int`
 * `setInterval(int $interval): self`
-* `hasChanged(): bool`
 
 ## Methods:
 ### `getInterval(): int`
@@ -34,12 +33,6 @@ Set serialization interval, in seconds.
 
 Parameters:
 * `$interval`: `int` Serialization interval, in seconds.  
-
-
-
-### `hasChanged(): bool`
-
-Get whether this setting was changed, also applies changes.
 
 
 

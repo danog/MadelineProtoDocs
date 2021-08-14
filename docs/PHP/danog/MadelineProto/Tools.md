@@ -15,6 +15,10 @@ Some tools.
 
 
 
+## Constants
+* `danog\MadelineProto\Tools::ALL_MIMES`: 
+
+
 ## Method list:
 * `genVectorHash(array $ints): \int Vector hash`
 * `randomInt(int $modulus): int`
@@ -22,7 +26,7 @@ Some tools.
 * `posmod(int $a, int $b): \int Modulo`
 * `unpackSignedInt(string $value): int`
 * `unpackSignedLong(string $value): int`
-* `unpackSignedLongString(string $value): string`
+* `unpackSignedLongString(string|int|array $value): string`
 * `packSignedInt(int $value): string`
 * `packSignedLong(int $value): string`
 * `packUnsignedInt(int $value): string`
@@ -40,7 +44,7 @@ Some tools.
 * `callForkDefer(\Generator|\Amp\Promise $promise): void`
 * `rethrow(\Throwable $e, string $file): void`
 * `after(\Generator|\Amp\Promise $a, \Generator|\Amp\Promise $b): \Amp\Promise`
-* `flock(string $file, int $operation, float $polling, ?\Amp\Promise $token, ?callable $failureCb): \Amp\Promise<?callable>`
+* `flock(string $file, int $operation, float $polling, ?\Amp\Promise $token, ?callable $failureCb)`
 * `sleep(int|float $time): \Amp\Promise`
 * `readLine(string $prompt): \Amp\Promise<string>`
 * `echo(string $string): \Amp\Promise`
@@ -51,6 +55,7 @@ Some tools.
 * `rleDecode(string $string): string`
 * `rleEncode(string $string): string`
 * `inflateStripped(string $stripped): \string JPG payload`
+* `closeConnection(string $message): void`
 * `end(array $what): mixed`
 * `isAltervista(): bool`
 * `hasVar(object $obj, string $var): bool`
@@ -136,13 +141,13 @@ Parameters:
 
 
 
-### `unpackSignedLongString(string $value): string`
+### `unpackSignedLongString(string|int|array $value): string`
 
 Unpack base256 signed long to string.
 
 
 Parameters:
-* `$value`: `string` base256 long  
+* `$value`: `string|int|array` base256 long  
 
 
 
@@ -417,7 +422,7 @@ Parameters:
 
 
 
-### `flock(string $file, int $operation, float $polling, ?\Amp\Promise $token, ?callable $failureCb): \Amp\Promise<?callable>`
+### `flock(string $file, int $operation, float $polling, ?\Amp\Promise $token, ?callable $failureCb)`
 
 Asynchronously lock a file
 Resolves with a callbable that MUST eventually be called in order to release the lock.
@@ -552,6 +557,16 @@ Parameters:
 
 
 Return value: JPG payload
+
+
+### `closeConnection(string $message): void`
+
+Close connection with client, connected via web.
+
+
+Parameters:
+* `$message`: `string` Message  
+
 
 
 ### `end(array $what): mixed`

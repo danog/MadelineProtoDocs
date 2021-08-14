@@ -20,6 +20,7 @@ Manages message ids.
 * `getMaxId(bool $incoming): mixed`
 * `reset(): void`
 * `createInstance(\danog\MadelineProto\Connection $session): self`
+* `cleanup(): void`
 * `toString(string $messageId): string`
 
 ## Methods:
@@ -68,6 +69,12 @@ Parameters:
 #### See also: 
 * `\danog\MadelineProto\Connection`
 
+
+
+
+### `cleanup(): void`
+
+Cleanup incoming and outgoing messages.
 
 
 

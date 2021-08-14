@@ -18,7 +18,6 @@ IPC server settings.
 ## Method list:
 * `getSlow(): bool`
 * `setSlow(bool $slow): self`
-* `hasChanged(): bool`
 
 ## Methods:
 ### `getSlow(): bool`
@@ -34,12 +33,6 @@ WARNING: this will cause slow startup if enabled.
 
 Parameters:
 * `$slow`: `bool` WARNING: this will cause slow startup if enabled.  
-
-
-
-### `hasChanged(): bool`
-
-Get whether this setting was changed, also applies changes.
 
 
 

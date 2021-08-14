@@ -189,7 +189,7 @@ Parameters:
 
 Fully typed return value:
 ```
-array{0: mixed, 1: \Amp\Promise}
+array{0: mixed, 1: \Amp\Promise[]}
 ```
 #### See also: 
 * `\resource`

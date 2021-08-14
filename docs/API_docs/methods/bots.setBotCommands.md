@@ -15,6 +15,8 @@ Set bot command list
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|scope|[BotCommandScope](../types/BotCommandScope.md) |  | Yes|
+|lang\_code|[string](../types/string.md) |  | Yes|
 |commands|Array of [BotCommand](../types/BotCommand.md) | Bot commands | Yes|
 
 
@@ -35,12 +37,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->bots->setBotCommands(['commands' => [BotCommand, BotCommand], ]);
+$Bool = $MadelineProto->bots->setBotCommands(['scope' => BotCommandScope, 'lang_code' => 'string', 'commands' => [BotCommand, BotCommand], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Bool = bots.setBotCommands({commands={BotCommand}, })
+Bool = bots.setBotCommands({scope=BotCommandScope, lang_code='string', commands={BotCommand}, })
 ```
 

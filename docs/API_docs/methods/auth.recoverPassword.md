@@ -16,6 +16,7 @@ Reset the [2FA password](https://core.telegram.org/api/srp) using the recovery c
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |code|[string](../types/string.md) | Code received via email | Yes|
+|new\_settings|[account.PasswordInputSettings](../types/account.PasswordInputSettings.md) |  | Optional|
 
 
 ### Return type: [auth.Authorization](../types/auth.Authorization.md)
@@ -35,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_Authorization = $MadelineProto->auth->recoverPassword(['code' => 'string', ]);
+$auth_Authorization = $MadelineProto->auth->recoverPassword(['code' => 'string', 'new_settings' => account.PasswordInputSettings, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth_Authorization = auth.recoverPassword({code='string', })
+auth_Authorization = auth.recoverPassword({code='string', new_settings=account.PasswordInputSettings, })
 ```
 
 ### Errors

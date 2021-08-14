@@ -20,7 +20,6 @@ Manages logging in and out.
 * `stop(): void`
 * `restart(): void`
 * `loopFork(): \Amp\Promise`
-* `closeConnection(string $message): void`
 
 ## Methods:
 ### `initSelfRestart(): void`
@@ -64,16 +63,6 @@ Start MadelineProto's update handling loop in background.
 #### See also: 
 * `\Amp\Promise`
 
-
-
-
-### `closeConnection(string $message): void`
-
-Close connection with client, connected via web.
-
-
-Parameters:
-* `$message`: `string` Message  
 
 
 

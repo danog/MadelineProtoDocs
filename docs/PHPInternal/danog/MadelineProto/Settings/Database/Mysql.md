@@ -40,7 +40,6 @@ MySQL backend settings.
 * `setEnableFullPeerDb(bool $enableFullPeerDb): self`
 * `getEnablePeerInfoDb(): bool`
 * `setEnablePeerInfoDb(bool $enablePeerInfoDb): self`
-* `hasChanged(): bool`
 
 ## Methods:
 ### `getMaxConnections(): int`
@@ -238,12 +237,6 @@ Set whether to enable the peer info database. If disabled, will break getInfo.
 
 Parameters:
 * `$enablePeerInfoDb`: `bool` Whether to enable the peer info database. If disabled, will break getInfo.  
-
-
-
-### `hasChanged(): bool`
-
-Get whether this setting was changed, also applies changes.
 
 
 

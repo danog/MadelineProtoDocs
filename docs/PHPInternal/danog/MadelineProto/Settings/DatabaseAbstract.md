@@ -25,7 +25,6 @@ Base class for storage backends.
 * `setEnableFullPeerDb(bool $enableFullPeerDb): self`
 * `getEnablePeerInfoDb(): bool`
 * `setEnablePeerInfoDb(bool $enablePeerInfoDb): self`
-* `hasChanged(): bool`
 
 ## Methods:
 ### `getEnableFileReferenceDb(): bool`
@@ -105,12 +104,6 @@ Set whether to enable the peer info database. If disabled, will break getInfo.
 
 Parameters:
 * `$enablePeerInfoDb`: `bool` Whether to enable the peer info database. If disabled, will break getInfo.  
-
-
-
-### `hasChanged(): bool`
-
-Get whether this setting was changed, also applies changes.
 
 
 

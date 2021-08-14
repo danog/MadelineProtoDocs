@@ -19,7 +19,7 @@ Manages storage of VoIP server config.
 * `get(): \array The settings`
 * `updateDefault(array $configDefault): void`
 * `getDefault(): \array The settings`
-* `getFinal(): void`
+* `getFinal(): array`
 
 ## Methods:
 ### `update(array $config): void`
@@ -58,7 +58,7 @@ Get default shared call settings.
 Return value: The settings
 
 
-### `getFinal(): void`
+### `getFinal(): array`
 
 Get final settings.
 

@@ -22,6 +22,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [photoPathSize](../constructors/photoPathSize.md)  
 
+[photoSize\_23](../constructors/photoSize_23.md)  
+
+[photoCachedSize\_23](../constructors/photoCachedSize_23.md)  
+
 
 
 ### Methods that return an object of this type (methods):
@@ -39,4 +43,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [photoSizeProgressive](../constructors/photoSizeProgressive.md)  
 
 [photoPathSize](../constructors/photoPathSize.md)  
+
+[photoSize\_23](../constructors/photoSize_23.md)  
+
+[photoCachedSize\_23](../constructors/photoCachedSize_23.md)  
 

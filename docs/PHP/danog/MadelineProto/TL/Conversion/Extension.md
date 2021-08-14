@@ -15,6 +15,10 @@ Manages generation of extensions for files.
 
 
 
+## Constants
+* `danog\MadelineProto\TL\Conversion\Extension::ALL_MIMES`: 
+
+
 ## Method list:
 * `getMimeFromExtension(string $extension, string $default): string`
 * `getExtensionFromMime(string $mime): string`

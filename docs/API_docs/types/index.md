@@ -20,6 +20,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [BotCommand](BotCommand.md)<a name="BotCommand"></a>  
 
+[BotCommandScope](BotCommandScope.md)<a name="BotCommandScope"></a>  
+
 [BotInfo](BotInfo.md)<a name="BotInfo"></a>  
 
 [BotInlineMessage](BotInlineMessage.md)<a name="BotInlineMessage"></a>  
@@ -48,11 +50,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [ChatAdminRights](ChatAdminRights.md)<a name="ChatAdminRights"></a>  
 
+[ChatAdminWithInvites](ChatAdminWithInvites.md)<a name="ChatAdminWithInvites"></a>  
+
 [ChatBannedRights](ChatBannedRights.md)<a name="ChatBannedRights"></a>  
 
 [ChatFull](ChatFull.md)<a name="ChatFull"></a>  
 
 [ChatInvite](ChatInvite.md)<a name="ChatInvite"></a>  
+
+[ChatInviteImporter](ChatInviteImporter.md)<a name="ChatInviteImporter"></a>  
 
 [ChatOnlines](ChatOnlines.md)<a name="ChatOnlines"></a>  
 
@@ -130,11 +136,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [GlobalPrivacySettings](GlobalPrivacySettings.md)<a name="GlobalPrivacySettings"></a>  
 
+[GroupCall](GroupCall.md)<a name="GroupCall"></a>  
+
+[GroupCallParticipant](GroupCallParticipant.md)<a name="GroupCallParticipant"></a>  
+
+[GroupCallParticipantVideo](GroupCallParticipantVideo.md)<a name="GroupCallParticipantVideo"></a>  
+
+[GroupCallParticipantVideoSourceGroup](GroupCallParticipantVideoSourceGroup.md)<a name="GroupCallParticipantVideoSourceGroup"></a>  
+
 [HighScore](HighScore.md)<a name="HighScore"></a>  
 
 [ImportedContact](ImportedContact.md)<a name="ImportedContact"></a>  
 
 [InlineBotSwitchPM](InlineBotSwitchPM.md)<a name="InlineBotSwitchPM"></a>  
+
+[InlineQueryPeerType](InlineQueryPeerType.md)<a name="InlineQueryPeerType"></a>  
 
 [InputAppEvent](InputAppEvent.md)<a name="InputAppEvent"></a>  
 
@@ -171,6 +187,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [InputGame](InputGame.md)<a name="InputGame"></a>  
 
 [InputGeoPoint](InputGeoPoint.md)<a name="InputGeoPoint"></a>  
+
+[InputGroupCall](InputGroupCall.md)<a name="InputGroupCall"></a>  
 
 [InputMedia](InputMedia.md)<a name="InputMedia"></a>  
 
@@ -448,6 +466,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [account.PrivacyRules](account.PrivacyRules.md)<a name="account.PrivacyRules"></a>  
 
+[account.ResetPasswordResult](account.ResetPasswordResult.md)<a name="account.ResetPasswordResult"></a>  
+
 [account.SentEmailCode](account.SentEmailCode.md)<a name="account.SentEmailCode"></a>  
 
 [account.Takeout](account.Takeout.md)<a name="account.Takeout"></a>  
@@ -524,6 +544,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [long](long.md)<a name="long"></a>  
 
+[messages.AffectedFoundMessages](messages.AffectedFoundMessages.md)<a name="messages.AffectedFoundMessages"></a>  
+
 [messages.AffectedHistory](messages.AffectedHistory.md)<a name="messages.AffectedHistory"></a>  
 
 [messages.AffectedMessages](messages.AffectedMessages.md)<a name="messages.AffectedMessages"></a>  
@@ -536,15 +558,25 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messages.BotResults](messages.BotResults.md)<a name="messages.BotResults"></a>  
 
+[messages.ChatAdminsWithInvites](messages.ChatAdminsWithInvites.md)<a name="messages.ChatAdminsWithInvites"></a>  
+
 [messages.ChatFull](messages.ChatFull.md)<a name="messages.ChatFull"></a>  
 
+[messages.ChatInviteImporters](messages.ChatInviteImporters.md)<a name="messages.ChatInviteImporters"></a>  
+
 [messages.Chats](messages.Chats.md)<a name="messages.Chats"></a>  
+
+[messages.CheckedHistoryImportPeer](messages.CheckedHistoryImportPeer.md)<a name="messages.CheckedHistoryImportPeer"></a>  
 
 [messages.DhConfig](messages.DhConfig.md)<a name="messages.DhConfig"></a>  
 
 [messages.Dialogs](messages.Dialogs.md)<a name="messages.Dialogs"></a>  
 
 [messages.DiscussionMessage](messages.DiscussionMessage.md)<a name="messages.DiscussionMessage"></a>  
+
+[messages.ExportedChatInvite](messages.ExportedChatInvite.md)<a name="messages.ExportedChatInvite"></a>  
+
+[messages.ExportedChatInvites](messages.ExportedChatInvites.md)<a name="messages.ExportedChatInvites"></a>  
 
 [messages.FavedStickers](messages.FavedStickers.md)<a name="messages.FavedStickers"></a>  
 
@@ -553,6 +585,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [messages.FoundStickerSets](messages.FoundStickerSets.md)<a name="messages.FoundStickerSets"></a>  
 
 [messages.HighScores](messages.HighScores.md)<a name="messages.HighScores"></a>  
+
+[messages.HistoryImport](messages.HistoryImport.md)<a name="messages.HistoryImport"></a>  
+
+[messages.HistoryImportParsed](messages.HistoryImportParsed.md)<a name="messages.HistoryImportParsed"></a>  
 
 [messages.InactiveChats](messages.InactiveChats.md)<a name="messages.InactiveChats"></a>  
 
@@ -592,6 +628,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [payments.ValidatedRequestedInfo](payments.ValidatedRequestedInfo.md)<a name="payments.ValidatedRequestedInfo"></a>  
 
+[phone.ExportedGroupCallInvite](phone.ExportedGroupCallInvite.md)<a name="phone.ExportedGroupCallInvite"></a>  
+
+[phone.GroupCall](phone.GroupCall.md)<a name="phone.GroupCall"></a>  
+
+[phone.GroupParticipants](phone.GroupParticipants.md)<a name="phone.GroupParticipants"></a>  
+
+[phone.JoinAsPeers](phone.JoinAsPeers.md)<a name="phone.JoinAsPeers"></a>  
+
 [phone.PhoneCall](phone.PhoneCall.md)<a name="phone.PhoneCall"></a>  
 
 [photos.Photo](photos.Photo.md)<a name="photos.Photo"></a>  
@@ -603,6 +647,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [stats.MegagroupStats](stats.MegagroupStats.md)<a name="stats.MegagroupStats"></a>  
 
 [stats.MessageStats](stats.MessageStats.md)<a name="stats.MessageStats"></a>  
+
+[stickers.SuggestedShortName](stickers.SuggestedShortName.md)<a name="stickers.SuggestedShortName"></a>  
 
 [storage.FileType](storage.FileType.md)<a name="storage.FileType"></a>  
 

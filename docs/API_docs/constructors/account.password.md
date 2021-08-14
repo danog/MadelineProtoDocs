@@ -26,6 +26,7 @@ Configuration for two-factor authorization
 |new\_algo|[PasswordKdfAlgo](../types/PasswordKdfAlgo.md) | Yes|The [KDF algorithm for SRP two-factor authentication](https://core.telegram.org/api/srp) to use when creating new passwords|
 |new\_secure\_algo|[SecurePasswordKdfAlgo](../types/SecurePasswordKdfAlgo.md) | Yes|The KDF algorithm for telegram [passport](https://core.telegram.org/passport)|
 |secure\_random|[bytes](../types/bytes.md) | Yes|Secure random string|
+|pending\_reset\_date|[int](../types/int.md) | Optional|
 
 
 
@@ -35,14 +36,14 @@ Configuration for two-factor authorization
 ### Example:
 
 ```php
-$account_password = ['_' => 'account.password', 'has_recovery' => Bool, 'has_secure_values' => Bool, 'has_password' => Bool, 'current_algo' => PasswordKdfAlgo, 'srp_B' => 'bytes', 'srp_id' => long, 'hint' => 'string', 'email_unconfirmed_pattern' => 'string', 'new_algo' => PasswordKdfAlgo, 'new_secure_algo' => SecurePasswordKdfAlgo, 'secure_random' => 'bytes'];
+$account_password = ['_' => 'account.password', 'has_recovery' => Bool, 'has_secure_values' => Bool, 'has_password' => Bool, 'current_algo' => PasswordKdfAlgo, 'srp_B' => 'bytes', 'srp_id' => long, 'hint' => 'string', 'email_unconfirmed_pattern' => 'string', 'new_algo' => PasswordKdfAlgo, 'new_secure_algo' => SecurePasswordKdfAlgo, 'secure_random' => 'bytes', 'pending_reset_date' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-account_password={_='account.password', has_recovery=Bool, has_secure_values=Bool, has_password=Bool, current_algo=PasswordKdfAlgo, srp_B='bytes', srp_id=long, hint='string', email_unconfirmed_pattern='string', new_algo=PasswordKdfAlgo, new_secure_algo=SecurePasswordKdfAlgo, secure_random='bytes'}
+account_password={_='account.password', has_recovery=Bool, has_secure_values=Bool, has_password=Bool, current_algo=PasswordKdfAlgo, srp_B='bytes', srp_id=long, hint='string', email_unconfirmed_pattern='string', new_algo=PasswordKdfAlgo, new_secure_algo=SecurePasswordKdfAlgo, secure_random='bytes', pending_reset_date=int}
 
 ```
 

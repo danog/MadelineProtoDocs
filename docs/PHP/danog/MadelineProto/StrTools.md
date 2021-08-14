@@ -15,6 +15,10 @@ Some tools.
 
 
 
+## Constants
+* `danog\MadelineProto\StrTools::ALL_MIMES`: 
+
+
 ## Method list:
 * `toCamelCase(string $input): string`
 * `toSnakeCase(string $input): string`

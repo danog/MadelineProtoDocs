@@ -23,7 +23,6 @@ Cryptography settings.
 * `setPfs(bool $pfs): self`
 * `getMaxAuthTries(): int`
 * `setMaxAuthTries(int $maxAuthTries): self`
-* `hasChanged(): bool`
 
 ## Methods:
 ### `getRsaKeys(): array`
@@ -87,12 +86,6 @@ Set max tries for generating auth key.
 
 Parameters:
 * `$maxAuthTries`: `int` Max tries for generating auth key  
-
-
-
-### `hasChanged(): bool`
-
-Get whether this setting was changed, also applies changes.
 
 
 

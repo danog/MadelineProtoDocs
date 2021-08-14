@@ -15,12 +15,14 @@ IPC client.
 
 
 ## Method list:
+* `giveInstanceBySession(string $session): \danog\MadelineProto\Ipc\Client`
 * `loop(callable $callback): \Generator`
 * `unreference(): void`
 * `isIpc(): bool`
 * `uploadFromUrl(string|\danog\MadelineProto\FileCallbackInterface $url, int $size, string $fileName, callable $cb, bool $encrypted): \Generator`
 * `uploadFromCallable(mixed $callable, int $size, string $mime, string $fileName, callable $cb, bool $seekable, bool $encrypted): \Generator`
 * `uploadFromTgfile(mixed $media, callable $cb, bool $encrypted): \Generator`
+* `methodCallAsyncRead(string $method, array|\Generator $args, array $aargs): \Generator`
 * `downloadToDir(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $dir, callable $cb): \Generator Downloaded file path`
 * `downloadToFile(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $file, callable $cb): \Generator Downloaded file path`
 * `downloadToCallable(mixed $messageMedia, callable|\danog\MadelineProto\FileCallbackInterface $callable, callable $cb, bool $seekable, int $offset, int $end, int $part_size): \Generator`
@@ -39,6 +41,16 @@ IPC client.
 * `uploadFromStream(mixed $stream, int $size, string $mime, string $fileName, callable $cb, bool $encrypted): \Generator`
 
 ## Methods:
+### `giveInstanceBySession(string $session): \danog\MadelineProto\Ipc\Client`
+
+Returns an instance of a client by session name.
+
+
+Parameters:
+* `$session`: `string`   
+
+
+
 ### `loop(callable $callback): \Generator`
 
 Run the provided async callable.
@@ -132,6 +144,27 @@ Fully typed return value:
 #### See also: 
 * `\Amp\Ipc\Sync\ChannelledSocket`
 * `\Amp\Promise`
+* `\Generator`
+
+
+
+
+### `methodCallAsyncRead(string $method, array|\Generator $args, array $aargs): \Generator`
+
+Call method and wait asynchronously for response.
+If the $aargs['noResponse'] is true, will not wait for a response.
+
+Parameters:
+* `$method`: `string` Method name  
+* `$args`: `array|\Generator` Arguments  
+  Full type:
+  ```
+  array|\Generator<mixed, mixed, mixed, array>
+  ```
+* `$aargs`: `array` Additional arguments  
+
+
+#### See also: 
 * `\Generator`
 
 

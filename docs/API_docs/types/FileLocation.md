@@ -10,8 +10,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[fileLocationToBeDeprecated](../constructors/fileLocationToBeDeprecated.md)  
-
 [fileLocationUnavailable\_23](../constructors/fileLocationUnavailable_23.md)  
 
 [fileLocation\_23](../constructors/fileLocation_23.md)  
@@ -21,8 +19,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Methods that return an object of this type (methods):
 
 
-
-[fileLocationToBeDeprecated](../constructors/fileLocationToBeDeprecated.md)  
 
 [fileLocationUnavailable\_23](../constructors/fileLocationUnavailable_23.md)  
 

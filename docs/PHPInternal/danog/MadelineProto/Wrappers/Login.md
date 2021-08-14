@@ -19,7 +19,7 @@ Manages logging in and out.
 * `botLogin(string $token): \Generator`
 * `phoneLogin(string $number, int $sms_type): \Generator`
 * `completePhoneLogin(string $code): \Generator`
-* `importAuthorization(mixed $authorization): \Generator`
+* `importAuthorization(array<int, string> $authorization, int $mainDcID): \Generator`
 * `exportAuthorization(): \Generator`
 * `completeSignup(string $first_name, string $last_name): \Generator`
 * `complete2faLogin(string $password): \Generator`
@@ -83,13 +83,14 @@ Parameters:
 
 
 
-### `importAuthorization(mixed $authorization): \Generator`
+### `importAuthorization(array<int, string> $authorization, int $mainDcID): \Generator`
 
 Import authorization.
 
 
 Parameters:
-* `$authorization`: `mixed` Authorization info  
+* `$authorization`: `array<int, string>` Authorization info  
+* `$mainDcID`: `int` Main DC ID  
 
 
 #### See also: 

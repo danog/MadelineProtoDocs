@@ -21,7 +21,6 @@ Peer database settings.
 * `setFullFetch(bool $fullFetch): self`
 * `getCacheAllPeersOnStartup(): bool`
 * `setCacheAllPeersOnStartup(bool $cacheAllPeersOnStartup): self`
-* `hasChanged(): bool`
 
 ## Methods:
 ### `getFullInfoCacheTime(): int`
@@ -69,12 +68,6 @@ Set whether to cache all peers on startup for userbots.
 
 Parameters:
 * `$cacheAllPeersOnStartup`: `bool` Whether to cache all peers on startup for userbots.  
-
-
-
-### `hasChanged(): bool`
-
-Get whether this setting was changed, also applies changes.
 
 
 

@@ -27,7 +27,6 @@ TL schema settings.
 * `setSecretSchema(string $secretSchema): self`
 * `getOther(): array`
 * `setOther(array $other): self`
-* `hasChanged(): bool`
 
 ## Methods:
 ### `needsUpgrade(): bool`
@@ -119,12 +118,6 @@ Set the value of other.
 
 Parameters:
 * `$other`: `array`   
-
-
-
-### `hasChanged(): bool`
-
-Get whether this setting was changed, also applies changes.
 
 
 

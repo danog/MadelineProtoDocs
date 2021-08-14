@@ -15,6 +15,8 @@ IPC server.
 
 
 ## Constants
+* `danog\MadelineProto\Ipc\Server::VERSION`: Server version.
+
 * `danog\MadelineProto\Ipc\Server::SHUTDOWN`: Shutdown server.
 
 

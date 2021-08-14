@@ -18,7 +18,6 @@ Secret chat settings.
 ## Method list:
 * `getAccept(): bool|int[]`
 * `setAccept(bool|int[] $accept): self`
-* `hasChanged(): bool`
 
 ## Methods:
 ### `getAccept(): bool|int[]`
@@ -34,12 +33,6 @@ Set boolean or array of IDs.
 
 Parameters:
 * `$accept`: `bool|int[]` Boolean or array of IDs  
-
-
-
-### `hasChanged(): bool`
-
-Get whether this setting was changed, also applies changes.
 
 
 

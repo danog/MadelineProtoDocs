@@ -16,7 +16,7 @@ Manages obfuscated2 encryption/decryption
 
 ## Method list:
 * `connect(\danog\MadelineProto\Stream\ConnectionContext $ctx): \Generator`
-* `setExtra(void $data): void`
+* `setExtra(array $extra): void`
 * `disconnect(): \Amp\Promise`
 * `getWriteBufferGenerator(int $length): \Generator`
 * `getReadBufferGenerator(int $length): \Generator`
@@ -44,13 +44,13 @@ Parameters:
 
 
 
-### `setExtra(void $data): void`
+### `setExtra(array $extra): void`
 
-Does nothing.
+Set extra
 
 
 Parameters:
-* `$data`: `void` Nothing  
+* `$extra`: `array` Extra  
 
 
 

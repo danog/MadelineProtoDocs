@@ -23,7 +23,6 @@ File management settings.
 * `setDownloadParallelChunks(int $downloadParallelChunks): self`
 * `getReportBrokenMedia(): bool`
 * `setReportBrokenMedia(bool $reportBrokenMedia): self`
-* `hasChanged(): bool`
 
 ## Methods:
 ### `getAllowAutomaticUpload(): bool`
@@ -87,12 +86,6 @@ Set whether to report undownloadable media to TSF.
 
 Parameters:
 * `$reportBrokenMedia`: `bool` Whether to report undownloadable media to TSF  
-
-
-
-### `hasChanged(): bool`
-
-Get whether this setting was changed, also applies changes.
 
 
 

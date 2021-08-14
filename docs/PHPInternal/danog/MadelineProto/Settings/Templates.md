@@ -17,7 +17,6 @@ Web and CLI template settings for login.
 ## Method list:
 * `getHtmlTemplate(): string`
 * `setHtmlTemplate(string $htmlTemplate): self`
-* `hasChanged(): bool`
 
 ## Methods:
 ### `getHtmlTemplate(): string`
@@ -33,12 +32,6 @@ Set web template used for querying app information.
 
 Parameters:
 * `$htmlTemplate`: `string` Web template used for querying app information.  
-
-
-
-### `hasChanged(): bool`
-
-Get whether this setting was changed, also applies changes.
 
 
 

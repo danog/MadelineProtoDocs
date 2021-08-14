@@ -28,7 +28,6 @@ RPC settings.
 * `setLimitCallQueue(int $limitCallQueue): self`
 * `getGzipEncodeIfGt(): int`
 * `setGzipEncodeIfGt(int $gzipEncodeIfGt): self`
-* `hasChanged(): bool`
 
 ## Methods:
 ### `getRpcTimeout(): int`
@@ -124,12 +123,6 @@ Set encode payload with GZIP if bigger than.
 
 Parameters:
 * `$gzipEncodeIfGt`: `int` Encode payload with GZIP if bigger than  
-
-
-
-### `hasChanged(): bool`
-
-Get whether this setting was changed, also applies changes.
 
 
 

@@ -1,0 +1,38 @@
+---
+title: groupCallParticipantVideo
+description: groupCallParticipantVideo attributes, type and example
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+---
+# Constructor: groupCallParticipantVideo  
+[Back to constructors index](index.md)
+
+
+
+### Attributes:
+
+| Name     |    Type       | Required |
+|----------|---------------|----------|
+|paused|[Bool](../types/Bool.md) | Optional|
+|endpoint|[string](../types/string.md) | Yes|
+|source\_groups|Array of [GroupCallParticipantVideoSourceGroup](../types/GroupCallParticipantVideoSourceGroup.md) | Yes|
+
+
+
+### Type: [GroupCallParticipantVideo](../types/GroupCallParticipantVideo.md)
+
+
+### Example:
+
+```php
+$groupCallParticipantVideo = ['_' => 'groupCallParticipantVideo', 'paused' => Bool, 'endpoint' => 'string', 'source_groups' => [GroupCallParticipantVideoSourceGroup, GroupCallParticipantVideoSourceGroup]];
+```  
+
+
+Or, if you're into Lua:
+
+```lua
+groupCallParticipantVideo={_='groupCallParticipantVideo', paused=Bool, endpoint='string', source_groups={GroupCallParticipantVideoSourceGroup}}
+
+```
+
+

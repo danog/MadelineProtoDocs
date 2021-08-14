@@ -48,7 +48,8 @@ Settings class used for configuring MadelineProto.
 * `setIpc(\danog\MadelineProto\Settings\Ipc $ipc): self`
 * `getTemplates(): \danog\MadelineProto\Settings\Templates`
 * `setTemplates(\danog\MadelineProto\Settings\Templates $templates): self`
-* `hasChanged(): bool`
+* `getVoip(): \danog\MadelineProto\Settings\VoIP`
+* `setVoip(\danog\MadelineProto\Settings\VoIP $voip): self`
 
 ## Methods:
 ### `merge(\danog\MadelineProto\SettingsAbstract $settings): void`
@@ -452,9 +453,29 @@ Parameters:
 
 
 
-### `hasChanged(): bool`
+### `getVoip(): \danog\MadelineProto\Settings\VoIP`
 
-Get whether this setting was changed, also applies changes.
+Get voIP settings.
+
+
+#### See also: 
+* [`\danog\MadelineProto\Settings\VoIP`: VoIP settings.](./Settings/VoIP.md)
+
+
+
+
+### `setVoip(\danog\MadelineProto\Settings\VoIP $voip): self`
+
+Set voIP settings.
+
+
+Parameters:
+* `$voip`: `\danog\MadelineProto\Settings\VoIP` VoIP settings.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\Settings\VoIP`: VoIP settings.](./Settings/VoIP.md)
+
 
 
 

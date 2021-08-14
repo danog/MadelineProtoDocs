@@ -164,8 +164,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updatePhoneCallSignalingData](../constructors/updatePhoneCallSignalingData.md)  
 
-[updateChannelParticipant](../constructors/updateChannelParticipant.md)  
-
 [updateChannelMessageForwards](../constructors/updateChannelMessageForwards.md)  
 
 [updateReadChannelDiscussionInbox](../constructors/updateReadChannelDiscussionInbox.md)  
@@ -179,6 +177,24 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [updatePinnedMessages](../constructors/updatePinnedMessages.md)  
 
 [updatePinnedChannelMessages](../constructors/updatePinnedChannelMessages.md)  
+
+[updateChat](../constructors/updateChat.md)  
+
+[updateGroupCallParticipants](../constructors/updateGroupCallParticipants.md)  
+
+[updateGroupCall](../constructors/updateGroupCall.md)  
+
+[updatePeerHistoryTTL](../constructors/updatePeerHistoryTTL.md)  
+
+[updateChatParticipant](../constructors/updateChatParticipant.md)  
+
+[updateChannelParticipant](../constructors/updateChannelParticipant.md)  
+
+[updateBotStopped](../constructors/updateBotStopped.md)  
+
+[updateGroupCallConnection](../constructors/updateGroupCallConnection.md)  
+
+[updateBotCommands](../constructors/updateBotCommands.md)  
 
 
 
@@ -340,8 +356,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updatePhoneCallSignalingData](../constructors/updatePhoneCallSignalingData.md)  
 
-[updateChannelParticipant](../constructors/updateChannelParticipant.md)  
-
 [updateChannelMessageForwards](../constructors/updateChannelMessageForwards.md)  
 
 [updateReadChannelDiscussionInbox](../constructors/updateReadChannelDiscussionInbox.md)  
@@ -355,4 +369,22 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [updatePinnedMessages](../constructors/updatePinnedMessages.md)  
 
 [updatePinnedChannelMessages](../constructors/updatePinnedChannelMessages.md)  
+
+[updateChat](../constructors/updateChat.md)  
+
+[updateGroupCallParticipants](../constructors/updateGroupCallParticipants.md)  
+
+[updateGroupCall](../constructors/updateGroupCall.md)  
+
+[updatePeerHistoryTTL](../constructors/updatePeerHistoryTTL.md)  
+
+[updateChatParticipant](../constructors/updateChatParticipant.md)  
+
+[updateChannelParticipant](../constructors/updateChannelParticipant.md)  
+
+[updateBotStopped](../constructors/updateBotStopped.md)  
+
+[updateGroupCallConnection](../constructors/updateGroupCallConnection.md)  
+
+[updateBotCommands](../constructors/updateBotCommands.md)  
 

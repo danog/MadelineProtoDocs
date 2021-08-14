@@ -17,7 +17,7 @@ Manages MTProto session-specific data.
 ## Method list:
 * `resetSession(): void`
 * `createSession(): void`
-* `backupSession(): array`
+* `backupSession(): \danog\MadelineProto\MTProto\OutgoingMessage[]`
 * `ackOutgoingMessageId(string|int $message_id): bool`
 * `gotResponseForOutgoingMessage(\danog\MadelineProto\MTProto\OutgoingMessage $message): void`
 * `ackIncomingMessage(\danog\MadelineProto\MTProto\IncomingMessage $message): void`
@@ -47,9 +47,14 @@ Create MTProto session if needed.
 
 
 
-### `backupSession(): array`
+### `backupSession(): \danog\MadelineProto\MTProto\OutgoingMessage[]`
 
 Backup eventual unsent messages before session deletion.
+
+
+#### See also: 
+* `\danog\MadelineProto\MTProto\OutgoingMessage`
+
 
 
 

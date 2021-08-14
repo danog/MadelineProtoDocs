@@ -31,7 +31,6 @@ App information.
 * `setLangCode(string $langCode): self`
 * `getLangPack(): string`
 * `setLangPack(string $langPack): self`
-* `hasChanged(): bool`
 
 ## Methods:
 ### `hasApiInfo(): bool`
@@ -149,12 +148,6 @@ Set language pack.
 
 Parameters:
 * `$langPack`: `string` Language pack.  
-
-
-
-### `hasChanged(): bool`
-
-Get whether this setting was changed, also applies changes.
 
 
 

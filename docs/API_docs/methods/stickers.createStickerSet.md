@@ -22,6 +22,7 @@ Create a stickerset, bots only.
 |short\_name|[string](../types/string.md) | Sticker set name. Can contain only English letters, digits and underscores. Must end with *"*by*<bot username="">"</bot>* (*<bot_username></bot_username>* is case insensitive); 1-64 characters | Yes|
 |thumb|[MessageMedia, Update, Message or InputDocument](../types/InputDocument.md) | Thumbnail | Optional|
 |stickers|Array of [InputStickerSetItem](../types/InputStickerSetItem.md) | Stickers | Yes|
+|software|[string](../types/string.md) |  | Optional|
 
 
 ### Return type: [messages.StickerSet](../types/messages.StickerSet.md)
@@ -41,13 +42,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_StickerSet = $MadelineProto->stickers->createStickerSet(['masks' => Bool, 'animated' => Bool, 'user_id' => InputUser, 'title' => 'string', 'short_name' => 'string', 'thumb' => InputDocument, 'stickers' => [InputStickerSetItem, InputStickerSetItem], ]);
+$messages_StickerSet = $MadelineProto->stickers->createStickerSet(['masks' => Bool, 'animated' => Bool, 'user_id' => InputUser, 'title' => 'string', 'short_name' => 'string', 'thumb' => InputDocument, 'stickers' => [InputStickerSetItem, InputStickerSetItem], 'software' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_StickerSet = stickers.createStickerSet({masks=Bool, animated=Bool, user_id=InputUser, title='string', short_name='string', thumb=InputDocument, stickers={InputStickerSetItem}, })
+messages_StickerSet = stickers.createStickerSet({masks=Bool, animated=Bool, user_id=InputUser, title='string', short_name='string', thumb=InputDocument, stickers={InputStickerSetItem}, software='string', })
 ```
 
 ### Errors

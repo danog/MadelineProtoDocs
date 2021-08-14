@@ -19,6 +19,7 @@ Manages message ids.
 * `checkMessageId(string $newMessageId, array $aargs): void`
 * `generateMessageId(): string`
 * `getMaxId(bool $incoming): mixed`
+* `cleanup(): void`
 * `toString(string $messageId): string`
 
 ## Methods:
@@ -61,6 +62,12 @@ Get maximum message ID.
 
 Parameters:
 * `$incoming`: `bool` Incoming or outgoing message ID  
+
+
+
+### `cleanup(): void`
+
+Cleanup incoming and outgoing messages.
 
 
 
