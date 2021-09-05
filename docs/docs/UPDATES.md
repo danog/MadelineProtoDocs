@@ -9,6 +9,7 @@ Update handling can be done in different ways:
 
 * [Self-restart on webhosts](#self-restart-on-webhosts)
 * [Async Event driven](#async-event-driven)
+  * [Built-in database driver](#built-in-database-driver)
 * [Async Event driven multi-account](#async-event-driven-multiaccount)
 * [Noop (default)](#noop)
 * [Fetch all updates from the beginning](#fetch-all-updates-from-the-beginning)
@@ -64,6 +65,21 @@ class MyEventHandler extends EventHandler
      * @var int|string Username or ID of bot admin
      */
     const ADMIN = "danogentili"; // Change this
+
+    /**
+     * List of properties automatically stored in database (MySQL, Postgres, redis or memory).
+     * @see https://docs.madelineproto.xyz/docs/DATABASE.html
+     * @var array
+     */
+    protected static array $dbProperties = [
+        'dataStoredOnDb' => 'array'
+    ];
+
+    /**
+     * @var DbArray<array>
+     */
+    protected $dataStoredOnDb;
+
     /**
      * Get peer(s) where to report errors
      *
@@ -110,6 +126,31 @@ class MyEventHandler extends EventHandler
         if (isset($update['message']['media']) && $update['message']['media']['_'] !== 'messageMediaGame') {
             yield $this->messages->sendMedia(['peer' => $update, 'message' => $update['message']['message'], 'media' => $update]);
         }
+
+        // You can also use the built-in MadelineProto MySQL async driver!
+
+        // Can be anything serializable, an array, an int, an object
+        $myData = [];
+
+        // Use the isset method to check whether some data exists in the database
+        if (yield $this->dataStoredOnDb->isset('yourKey')) {
+            // Always yield when fetching data
+            $myData = yield $this->dataStoredOnDb['yourKey'];
+        }
+        $this->dataStoredOnDb['yourKey'] = $myData + ['moreStuff' => 'yay'];
+
+        $this->dataStoredOnDb['otherKey'] = 0;
+        unset($this->dataStoredOnDb['otherKey']);
+
+        $this->logger("Count: ".(yield $this->dataStoredOnDb->count()));
+
+        // You can even use an async iterator to iterate over the data
+        $iterator = $this->dataStoredOnDb->getIterator();
+        while (yield $iterator->advance()) {
+            [$key, $value] = $iterator->getCurrent();
+            $this->logger($key);
+            $this->logger($value);
+        }
     }
 }
 $settings = [
@@ -153,6 +194,59 @@ The update handling loop is started by the `$MadelineProto->loop()` method, and 
 
 To forecfully restart and apply changes made to the event handler class, call `$MadelineProto->restart();`.  
 
+### Built-in database driver
+
+You can also directly connect thee  using the same [async MySQL/Postgres/Redis ORM](/docs/DATABASE.md) used by MadelineProto internally.  
+
+To do so, simply declare a static `$dbProperties` property to initialize the async database mapper:  
+```php
+class MyEventHandler extends EventHandler
+{
+    /**
+     * List of properties automatically stored in database (MySQL, Postgres, redis or memory).
+     * @see https://docs.madelineproto.xyz/docs/DATABASE.html
+     * @var array
+     */
+    protected static array $dbProperties = [
+        'dataStoredOnDb' => 'array'
+    ];
+
+    /**
+     * @var DbArray<array>
+     */
+    protected $dataStoredOnDb;
+
+    // ...
+```
+
+And use the newly created `$dataStoredOnDb` property to access the database:  
+```php
+// Can be anything serializable, an array, an int, an object
+$myData = [];
+
+// Use the isset method to check whether some data exists in the database
+if (yield $this->dataStoredOnDb->isset('yourKey')) {
+    // Always yield when fetching data
+    $myData = yield $this->dataStoredOnDb['yourKey'];
+}
+$this->dataStoredOnDb['yourKey'] = $myData + ['moreStuff' => 'yay'];
+
+$this->dataStoredOnDb['otherKey'] = 0;
+unset($this->dataStoredOnDb['otherKey']);
+
+$this->logger("Count: ".(yield $this->dataStoredOnDb->count()));
+
+// You can even use an async iterator to iterate over the data!
+$iterator = $this->dataStoredOnDb->getIterator();
+while (yield $iterator->advance()) {
+    [$key, $value] = $iterator->getCurrent();
+    $this->logger($key);
+    $this->logger($value);
+}
+```
+
+The returned iterator is an async [Amp iterator](https://amphp.org/amp/iterators/#iterator-consumption), that yields an array with the key, followed by the value.  
+[Psalm](https://psalm.dev) generics typing is supported.  
 
 ## Async event driven (multiaccount)
 
