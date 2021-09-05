@@ -60,7 +60,52 @@ Get protocol identifier.
 ### `setProtocol(class-string<\danog\MadelineProto\Stream\MTProtoBufferInterface> $protocol): self`
 
 Set protocol identifier.
+Available MTProto transport protocols (smaller overhead is better):
 
+* `\danog\MadelineProto\Stream\MTProtoTransport\AbridgedStream`: Lightest protocol available
+  * Overhead: Very small
+  * Minimum envelope length: 1 byte (length)
+  * Maximum envelope length: 4 bytes (length)
+
+* `\danog\MadelineProto\Stream\MTProtoTransport\IntermediateStream`: I guess they like having multiple protocols
+  * Overhead: small
+  * Minimum envelope length: 4 bytes (length)
+  * Maximum envelope length: 4 bytes (length)
+
+* `\danog\MadelineProto\Stream\MTProtoTransport\IntermediatePaddedStream`: Padded version of the intermediate protocol, to use with obfuscation enabled to bypass ISP blocks
+  * Overhead: small-medium
+  * Minimum envelope length: random
+  * Maximum envelope length: random
+
+* `\danog\MadelineProto\Stream\MTProtoTransport\FullStream`: The basic MTProto transport protocol
+  * Overhead: medium
+  * Minimum envelope length: 12 bytes (length+seqno+crc)
+  * Maximum envelope length: 12 bytes (length+seqno+crc)
+  * Pros:
+    * Initial integrity check with crc32
+    * Transport sequence number check
+
+  * Cons:
+    * Initial integrity check with crc32 is not that useful since the TCP protocol already uses it internally
+    * Transport sequence number check is also not that useful since transport sequence numbers are not encrypted and thus cannot be used to avoid replay attacks, and MadelineProto already uses MTProto sequence numbers and message ids for that.
+
+* `\danog\MadelineProto\Stream\MTProtoTransport\HttpStream`: MTProto over HTTP for browsers and webhosts
+  * Overhead: medium
+  * Pros:
+    * Can be used on restricted webhosts or browsers
+  * Cons:
+    * Very big envelope length
+
+* `\danog\MadelineProto\Stream\MTProtoTransport\HttpsStream`: MTProto over HTTPS for browsers and webhosts, very secure
+  * Overhead: high
+  * Pros:
+    * Can be used on restricted webhosts or browsers
+    * Provides an additional layer of security by trasmitting data over TLS
+    * Integrity checks with HMAC built into TLS
+    * Sequence number checks built into TLS
+  * Cons:
+    * Very big envelope length
+    * Requires an additional round of encryption
 
 Parameters:
 * `$protocol`: `class-string<\danog\MadelineProto\Stream\MTProtoBufferInterface>` Protocol identifier  
@@ -234,13 +279,13 @@ Parameters:
 
 ### `getObfuscated(): bool`
 
-Get whether to use the obfuscated protocol.
+Get whether to use the obfuscated protocol: useful to bypass ISP blocks.
 
 
 
 ### `setObfuscated(bool $obfuscated): self`
 
-Set whether to use the obfuscated protocol.
+Set whether to use the obfuscated protocol: useful to bypass ISP blocks.
 
 
 Parameters:
@@ -277,8 +322,12 @@ Get transport identifier.
 
 ### `setTransport(class-string<\danog\MadelineProto\Stream\RawStreamInterface> $transport): self`
 
-Set transport identifier.
+Sets the transport protocol to use when connecting to telegram.
+Not supported by HTTP and HTTPS protocols, obfuscation must be enabled.
 
+* `danog\MadelineProto\Stream\Transport`: Default TCP transport
+* `danog\MadelineProto\Stream\WsTransport`: Plain websocket transport
+* `danog\MadelineProto\Stream\WssTransport`: TLS websocket transport
 
 Parameters:
 * `$transport`: `class-string<\danog\MadelineProto\Stream\RawStreamInterface>` Transport identifier.  

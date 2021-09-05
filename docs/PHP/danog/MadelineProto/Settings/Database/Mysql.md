@@ -1,6 +1,6 @@
 ---
 title: danog\MadelineProto\Settings\Database\Mysql: MySQL backend settings.
-description: 
+description: MariaDb 10.2+ or Mysql 5.6+ required.
 
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -12,7 +12,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 MySQL backend settings.  
 
-
+MariaDb 10.2+ or Mysql 5.6+ required.
 
 
 ## Method list:
@@ -139,6 +139,10 @@ Get for how long to keep records in memory after last read, for cached backends.
 
 Set for how long to keep records in memory after last read, for cached backends.
 The cache TTL identifier can be a string like '+5 minutes'.
+When data is retrieved from a database it is stored in memory.
+This helps to reduce latency, improve speed and reduce mysql/postgres/redis load.
+Data will be removed from the cache if last access was more than this amount of time.
+Clean up is done once per minute.
 
 Parameters:
 * `$cacheTtl`: `int|string` For how long to keep records in memory after last read, for cached backends.  

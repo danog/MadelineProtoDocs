@@ -1,6 +1,6 @@
 ---
 title: Settings
-description: MadelineProto has lots of settings that can be used to modify the behaviour of the library.
+description: MadelineProto has lots of settings that can be used to modify the behaviour of the library.  
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Settings

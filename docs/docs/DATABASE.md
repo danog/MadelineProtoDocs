@@ -1,6 +1,6 @@
 ---
 title: Database
-description: MadelineProto can keep part of its data in a MySQL, Postgres, Redis database
+description: By default madelineProto keeps all data and caches in memory: chats, file references, username cache, etc.  
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Database
@@ -55,3 +55,5 @@ $settings = (new \danog\MadelineProto\Settings\Database\Redis)
 ```php
 $settings = new \danog\MadelineProto\Settings\Database\Memory;
 ```
+
+<a href="https://docs.madelineproto.xyz/docs/SETTINGS.html">Next section</a>

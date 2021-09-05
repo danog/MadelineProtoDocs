@@ -46,7 +46,7 @@ Parameters:
 
 ### `setExtra(array $extra): void`
 
-Set extra
+Set extra.
 
 
 Parameters:

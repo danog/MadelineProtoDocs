@@ -295,4 +295,4 @@ You can use the `resetUpdateState` method to reset the update state and fetch al
 $MadelineProto->resetUpdateState();
 ```
 
-<a href="https://docs.madelineproto.xyz/docs/SETTINGS.html">Next section</a>
+<a href="https://docs.madelineproto.xyz/docs/DATABASE.html">Next section</a>

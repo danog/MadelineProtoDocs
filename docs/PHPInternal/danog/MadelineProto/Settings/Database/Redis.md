@@ -84,6 +84,10 @@ Get for how long to keep records in memory after last read, for cached backends.
 
 Set for how long to keep records in memory after last read, for cached backends.
 The cache TTL identifier can be a string like '+5 minutes'.
+When data is retrieved from a database it is stored in memory.
+This helps to reduce latency, improve speed and reduce mysql/postgres/redis load.
+Data will be removed from the cache if last access was more than this amount of time.
+Clean up is done once per minute.
 
 Parameters:
 * `$cacheTtl`: `int|string` For how long to keep records in memory after last read, for cached backends.  

@@ -18,7 +18,7 @@ DB array interface.
 * `getArrayCopy(): \Amp\Promise`
 * `isset(string|int $key): \Amp\Promise`
 * `offsetGet(string|int $index): \Amp\Promise`
-* `offsetSet(string|int $index, mixed $value): void`
+* `offsetSet(string|int $index, mixed $value): \Amp\Promise`
 * `offsetUnset(string|int $index): \Amp\Promise`
 * `count(): \Amp\Promise<int>`
 * `clear(): \Amp\Promise`
@@ -81,7 +81,7 @@ Fully typed return value:
 
 
 
-### `offsetSet(string|int $index, mixed $value): void`
+### `offsetSet(string|int $index, mixed $value): \Amp\Promise`
 
 Set element.
 
@@ -97,6 +97,7 @@ Parameters:
 
 #### See also: 
 * `\T`
+* `\Amp\Promise`
 
 
 
