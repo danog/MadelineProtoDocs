@@ -17,12 +17,12 @@ Databases and tables will be created automatically.
 You can also directly connect the [event handler](/docs/UPDATES.html#built-in-database-driver) using the same async MySQL/Postgres/Redis ORM used by MadelineProto internally.  
 
 Related settings:  
-* [\danog\MadelineProto\Settings\Database\Memory: Memory backend settings.](/PHP/danog/MadelineProto/Settings/Database/Memory.md)
-* [\danog\MadelineProto\Settings\Database\Mysql: MySQL backend settings.](/PHP/danog/MadelineProto/Settings/Database/Mysql.md) MariaDb 10.2+ or Mysql 5.6+ required.
-* [\danog\MadelineProto\Settings\Database\Postgres: Postgres backend settings.](/PHP/danog/MadelineProto/Settings/Database/Postgres.md)
-* [\danog\MadelineProto\Settings\Database\Redis: Redis backend settings.](/PHP/danog/MadelineProto/Settings/Database/Redis.md)
+* [\danog\MadelineProto\Settings\Database\Memory: Memory backend settings.](../PHP/danog/MadelineProto/Settings/Database/Memory.md)
+* [\danog\MadelineProto\Settings\Database\Mysql: MySQL backend settings.](../PHP/danog/MadelineProto/Settings/Database/Mysql.md) MariaDb 10.2+ or Mysql 5.6+ required.
+* [\danog\MadelineProto\Settings\Database\Postgres: Postgres backend settings.](../PHP/danog/MadelineProto/Settings/Database/Postgres.md)
+* [\danog\MadelineProto\Settings\Database\Redis: Redis backend settings.](../PHP/danog/MadelineProto/Settings/Database/Redis.md)
 
-See [the settings documentation for more info](/docs/SETTINGS.md).  
+See [the settings documentation for more info](SETTINGS.md).  
 
 ### Mysql example (low memory usage):
 
