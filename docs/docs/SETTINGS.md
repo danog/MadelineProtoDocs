@@ -12,7 +12,6 @@ These settings are controlled by the following classes:
 * [\danog\MadelineProto\Settings\Auth: Cryptography settings.](../PHP/danog/MadelineProto/Settings/Auth.md)
 * [\danog\MadelineProto\Settings\Connection: Connection settings.](../PHP/danog/MadelineProto/Settings/Connection.md)
 * [\danog\MadelineProto\Settings\Files: File management settings.](../PHP/danog/MadelineProto/Settings/Files.md)
-* [\danog\MadelineProto\Settings\Ipc: IPC server settings.](../PHP/danog/MadelineProto/Settings/Ipc.md)
 * [\danog\MadelineProto\Settings\Logger: Logger settings.](../PHP/danog/MadelineProto/Settings/Logger.md)
 * [\danog\MadelineProto\Settings\Peer: Peer database settings.](../PHP/danog/MadelineProto/Settings/Peer.md)
 * [\danog\MadelineProto\Settings\Pwr: PWRTelegram settings.](../PHP/danog/MadelineProto/Settings/Pwr.md)
