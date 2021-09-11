@@ -48,7 +48,7 @@ You will get to choose if login as user, or as bot.
 
 ### API ID
 
-Before logging in, you must obtain an [API ID](https://docs.madelineproto.xyz/docs/SETTINGS.html#settingsapp_info) (if you're using the [automatic mode you don't have to do this](#automatic-now-fully-async)).  
+Before logging in, you must obtain an [API ID](https://docs.madelineproto.xyz/docs/SETTINGS.html) (if you're using the [automatic mode you don't have to do this](#automatic-now-fully-async)).  
 You can do that either by logging in to [my.telegram.org](https://my.telegram.org) and getting your API ID/hash, or automatically, by using MadelineProto's `MyTelegramOrgWrapper` API:
 
 ```php

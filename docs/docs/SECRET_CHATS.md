@@ -23,7 +23,7 @@ $secret_chat = yield $MadelineProto->requestSecretChat($InputUser);
 
 ## Accepting secret chats ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
 
-Secret chats are accepted or refused automatically, based on a value in the [settings](SETTINGS.html#settingssecret_chatsaccept_chats) (by default MadelineProto is set to accept all secret chats).
+Secret chats are accepted or refused automatically, based on a value in the [settings](SETTINGS.html) (by default MadelineProto is set to accept all secret chats).
 
 Before sending any message, you must check if the secret chat was accepted by the other client with the following method:
 

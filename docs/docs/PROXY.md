@@ -18,88 +18,78 @@ You can use a proxy with MadelineProto.
 ## How to set a proxy
 
 In order to set a proxy for MadelineProto, you have to modify the [settings](SETTINGS.html).  
-Legacy proxy names are allowed (`\HttpProxy`, `\SocksProxy`), but not recommended.
-The recommended way of getting proxy names to set in the settings is through the `getName` method of the new [proxy interface](#build-your-proxy).  
+You can set multiple proxies, and let MadelineProto choose the best one.  
+
 
 ```php
 use danog\MadelineProto\Stream\MTProtoTransport\ObfuscatedStream;
 use danog\MadelineProto\Stream\Proxy\HttpProxy;
 use danog\MadelineProto\Stream\Proxy\SocksProxy;
+use danog\MadelineProto\Settings\Connection;
 use my\Custom\Namespace\MyProxy;
 
-$settings['connection_settings']['all']['proxy'] = ObfuscatedStream::getName();
-// ...
-$settings['connection_settings']['all']['proxy'] = HttpProxy::getName();
-// ...
-$settings['connection_settings']['all']['proxy'] = SocksProxy::getName();
-// ...
-$settings['connection_settings']['all']['proxy'] = MyProxy::getName();
-```
-
-You can also set multiple proxies:
-
-## Multiple proxies with automatic switch
-
-To set multiple proxies, and let MadelineProto choose the best one, simply assign arrays of proxy and proxy extras to the appropriate settings.  
-You can also use [iterable objects](https://www.php.net/manual/en/class.iterator.php) instead of arrays of proxy settings to dynamically change the proxies used without reloading the settings.  
-
-```php
-use danog\MadelineProto\Stream\MTProtoTransport\ObfuscatedStream;
-use danog\MadelineProto\Stream\Proxy\HttpProxy;
-use danog\MadelineProto\Stream\Proxy\SocksProxy;
-use my\Custom\Namespace\MyProxy;
-
-$settings['connection_settings']['all']['proxy'] = [
-    ObfuscatedStream::getName(),
-    ObfuscatedStream::getName(),
-    HttpProxy::getName(),
-    SocksProxy::getName(),
-    MyProxy::getName()
-];
-$settings['connection_settings']['all']['proxy_extra'] = [
+$settings = new Connection;
+$settings->addProxy(
+    ObfuscatedStream::class, 
     [
         'address' => 'magtg.com',
         'port'    =>  443,
         'secret'  => 'dd.....'
-    ],
+    ]
+);
+$settings->addProxy(
+    ObfuscatedStream::class, 
     [
-        'address' => '1.2.3.4',
+        'address' => 'magtg2.com',
         'port'    =>  443,
         'secret'  => 'dd.....'
-    ],
+    ]
+);
+$settings->addProxy(
+    HttpProxy::class,
     [
         'address'  => '0.0.0.0',
         'port'     =>  80,
         'username' => 'user',
         'password' => 'pass'
     ],
+);
+$settings->addProxy(
+    SocksProxy::class,
     [
-        'address' => '0.0.0.0',
-        'port'    =>  242,
+        'address'  => '0.0.0.0',
+        'port'     =>  80,
         'username' => 'user',
         'password' => 'pass'
     ],
+);
+$settings->addProxy(
+    MyProxy::class,
     [
-        'address' => '0.0.0.0',
-        'port'    =>  242,
-        'custom' => 'args',
+        'custom' => 'data'
     ],
-];
+);
+
+$MadelineProto->updateSettings($settings);
 ```
 
 ## MTProxy
 
 ```php
+use danog\MadelineProto\Settings\Connection;
 use danog\MadelineProto\Stream\MTProtoTransport\ObfuscatedStream;
 
-$settings['connection_settings']['all']['proxy'] = ObfuscatedStream::getName();
-$settings['connection_settings']['all']['proxy_extra'] = [
-    'address' => '0.0.0.0',
-    'port'    =>  443,
-    'secret'  => 'dd.....'
-];
+$settings = new Connection;
+$settings->addProxy(
+    ObfuscatedStream::class, 
+    [
+        'address' => 'magtg.com',
+        'port'    =>  443,
+        'secret'  => 'dd.....'
+    ]
+);
 
-$MadelineProto = new \danog\MadelineProto\API('session.madeline', $settings);
+$MadelineProto->updateSettings($settings);
 ```
 
 Both normal and `dd` secrets are supported, the transport is changed automatically by MadelineProto.
@@ -111,13 +101,16 @@ No password:
 ```php
 use danog\MadelineProto\Stream\Proxy\SocksProxy;
 
-$settings['connection_settings']['all']['proxy'] = SocksProxy::getName();
-$settings['connection_settings']['all']['proxy_extra'] = [
-    'address'  => '0.0.0.0',
-    'port'     =>  2343,
-];
+$settings = new Connection;
+$settings->addProxy(
+    SocksProxy::class, 
+    [
+        'address'  => '0.0.0.0',
+        'port'     =>  2343,
+    ]
+);
 
-$MadelineProto = new \danog\MadelineProto\API('session.madeline', $settings);
+$MadelineProto->updateSettings($settings);
 ```
 
 
@@ -126,17 +119,19 @@ With password:
 ```php
 use danog\MadelineProto\Stream\Proxy\SocksProxy;
 
-$settings['connection_settings']['all']['proxy'] = SocksProxy::getName();
-$settings['connection_settings']['all']['proxy_extra'] = [
-    'address'  => '0.0.0.0',
-    'port'     =>  2343,
-    'username' => 'username',
-    'password' => 'password',
-];
+$settings = new Connection;
+$settings->addProxy(
+    SocksProxy::class, 
+    [
+        'address'  => '0.0.0.0',
+        'port'     =>  2343,
+        'username' => 'username',
+        'password' => 'password',
+    ]
+);
 
-$MadelineProto = new \danog\MadelineProto\API('session.madeline', $settings);
+$MadelineProto->updateSettings($settings);
 ```
-
 ## HTTP proxy
 
 No password:
@@ -144,13 +139,16 @@ No password:
 ```php
 use danog\MadelineProto\Stream\Proxy\HttpProxy;
 
-$settings['connection_settings']['all']['proxy'] = HttpProxy::getName();
-$settings['connection_settings']['all']['proxy_extra'] = [
-    'address'  => '0.0.0.0',
-    'port'     =>  2343,
-];
+$settings = new Connection;
+$settings->addProxy(
+    HttpProxy::class, 
+    [
+        'address'  => '0.0.0.0',
+        'port'     =>  2343,
+    ]
+);
 
-$MadelineProto = new \danog\MadelineProto\API('session.madeline', $settings);
+$MadelineProto->updateSettings($settings);
 ```
 
 
@@ -159,17 +157,19 @@ With password:
 ```php
 use danog\MadelineProto\Stream\Proxy\HttpProxy;
 
-$settings['connection_settings']['all']['proxy'] = HttpProxy::getName();
-$settings['connection_settings']['all']['proxy_extra'] = [
-    'address'  => '0.0.0.0',
-    'port'     =>  2343,
-    'username' => 'username',
-    'password' => 'password',
-];
+$settings = new Connection;
+$settings->addProxy(
+    HttpProxy::class, 
+    [
+        'address'  => '0.0.0.0',
+        'port'     =>  2343,
+        'username' => 'username',
+        'password' => 'password',
+    ]
+);
 
-$MadelineProto = new \danog\MadelineProto\API('session.madeline', $settings);
+$MadelineProto->updateSettings($settings);
 ```
-
 
 ## Build your proxy
 

@@ -1,46 +1,24 @@
 ---
 title: Logging
-description: MadelineProto provides a unified class for logging messages to the logging destination defined in [settings](SETTINGS.html#settingslogger).  
+description: MadelineProto provides a unified class for logging messages to the logging destination defined in settings
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Logging
 
-MadelineProto provides a unified class for logging messages to the logging destination defined in [settings](SETTINGS.html#settingslogger).  
+MadelineProto provides a unified class for logging messages to the logging destination defined in [settings](SETTINGS.html).  
 
-Use the [settings](SETTINGS.html#settingslogger) to modify the default logging destination and log verbosity:  
-
-## `$settings['logger']` 
-
-Logger settings
-
-### `$settings['logger']['logger']`
-Default: `\danog\MadelineProto\Logger::ECHO_LOGGER` if running from CLI, `\danog\MadelineProto\Logger::FILE_LOGGER` if running from browser  
-Description: logger mode, available logger modes:
-
-* `\danog\MadelineProto\Logger::DEFAULT_LOGGER` - Log to the default logger destination
-* `\danog\MadelineProto\Logger::FILE_LOGGER` - Log to file in `$settings['logger']['logger_param']`
-* `\danog\MadelineProto\Logger::ECHO_LOGGER` - Echo logs
-* `\danog\MadelineProto\Logger::CALLABLE_LOGGER` - Call callable provided in `$settings['logger']['logger_param']`. logger_param must accept two parameters: array $message, int $level
-
-### `$settings['logger']['param']`
-Default: `__DIR__.'/Madeline.log'`  
-Description: optional logger parameter, for modes that require it
-
-### `$settings['logger']['logger_level']`
-Default: `\danog\MadelineProto\Logger::VERBOSE`  
-Description: What logger messages to show
+Use the [settings class](../PHP/danog/MadelineProto/Settings/Logger.md) to modify the default logging destination and log verbosity:  
 
 ## Example:  
 ```php
 use danog\MadelineProto\Logger;
+use danog\MadelineProto\Settings\Logger as LoggerSettings;
 
-$settings = [
-    'logger' => [
-        'logger_level' => Logger::VERBOSE,
-        //'logger' => Logger::ECHO_LOGGER // Can be omitted to use default values
-    ]
-];
-$MadelineProto = new \danog\MadelineProto\API('session.madeline', $settings);
+$settings = (new LoggerSettings)
+    ->setType(Logger::FILE_LOGGER)
+    ->setExtra('custom.log')
+    ->setMaxSize(50*1024*1024);
+$MadelineProto->updateSettings($settings);
 ```
 
 Note: when running from web, MadelineProto will also automatically enable logging of **PHP errors** (not MadelineProto logs) to `MadelineProto.log`, located in the same directory as the script that loaded MadelineProto.  
