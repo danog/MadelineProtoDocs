@@ -50,11 +50,14 @@ Bool = upload.saveFilePart({file_id=long, file_part=int, bytes='bytes', })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|CONNECTION_SYSTEM_EMPTY|Connection system empty|
 |400|FILE_PART_EMPTY|The provided file part is empty|
 |400|FILE_PART_INVALID|The file part number is invalid|
 |400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
+|-3002|All workers are busy. Active_queries = X|All workers are busy. Active_queries = X|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
+|-500|No workers running|Internal error|
 |-503|Timeout|Timeout while fetching data|
 
 

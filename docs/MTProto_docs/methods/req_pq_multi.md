@@ -41,3 +41,11 @@ Or, if you're into Lua:
 ResPQ = req_pq_multi({nonce=int128, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|UNKNOWN_ERROR|Internal error|
+|-500|Invalid msgs_state_req query|Invalid msgs_state_req query|
+
+

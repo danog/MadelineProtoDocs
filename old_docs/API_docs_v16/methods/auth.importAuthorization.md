@@ -50,6 +50,7 @@ auth_Authorization = auth.importAuthorization({id=int, bytes='bytes', })
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|AUTH_BYTES_INVALID|The provided authorization is invalid|
+|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
 |400|USER_ID_INVALID|The provided user ID is invalid|
 
 

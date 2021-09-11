@@ -54,14 +54,20 @@ updates_ChannelDifference = updates.getChannelDifference({channel=InputChannel, 
 |400|CHANNEL_INVALID|The provided channel is invalid|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|CONNECTION_DEVICE_MODEL_EMPTY|Device model empty|
+|400|CONNECTION_SYSTEM_LANG_CODE_EMPTY|The system_lang_code field is empty|
 |400|FROM_MESSAGE_BOT_DISABLED|Bots can't use fromMessage min constructors|
+|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |400|PERSISTENT_TIMESTAMP_EMPTY|Persistent timestamp empty|
 |400|PERSISTENT_TIMESTAMP_INVALID|Persistent timestamp invalid|
 |400|PINNED_DIALOGS_TOO_MUCH|Too many pinned dialogs|
 |400|RANGES_INVALID|Invalid range provided|
+|400|USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
+|-3002|All workers are busy. Active_queries = X|All workers are busy. Active_queries = X|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
+|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
 |403|CHANNEL_PUBLIC_GROUP_NA|channel/supergroup not available|
+|403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 |-500|No workers running|Internal error|
 |-504|memory limit exit|Internal error|
 |-503|Timeout|Timeout while fetching data|

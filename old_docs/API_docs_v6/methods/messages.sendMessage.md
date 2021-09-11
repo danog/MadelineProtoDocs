@@ -113,8 +113,10 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 |400|CHAT_ID_INVALID|The provided chat id is invalid|
 |400|CHAT_RESTRICTED|You can't send messages in this chat, you were restricted|
 |400|ENCRYPTION_DECLINED|The secret chat was declined|
+|400|ENTITIES_TOO_LONG|You provided too many styled message entities|
 |400|ENTITY_MENTION_USER_INVALID|You mentioned an invalid user|
 |400|FROM_MESSAGE_BOT_DISABLED|Bots can't use fromMessage min constructors|
+|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
 |400|INPUT_USER_DEACTIVATED|The specified user was deleted|
 |400|MESSAGE_EMPTY|The provided message is empty|
 |400|MESSAGE_TOO_LONG|The provided message is too long|
@@ -129,6 +131,7 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 |400|USER_IS_BLOCKED|You were blocked by this user|
 |400|USER_IS_BOT|Bots can't send messages to other bots|
 |400|YOU_BLOCKED_USER|You blocked this user|
+|-3002|All workers are busy. Active_queries = X|All workers are busy. Active_queries = X|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|

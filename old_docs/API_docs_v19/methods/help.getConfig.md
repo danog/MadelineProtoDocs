@@ -52,9 +52,13 @@ Config = help.getConfig({})
 |400|CONNECTION_SYSTEM_EMPTY|Connection system empty|
 |400|CONNECTION_SYSTEM_LANG_CODE_EMPTY|The system_lang_code field is empty|
 |400|DATA_INVALID|Encrypted data invalid|
+|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
 |400|INPUT_LAYER_INVALID|The provided layer is invalid|
 |400|MSG_ID_INVALID|Invalid message ID provided|
+|400|USERNAME_INVALID|The provided username is not valid|
+|-3002|All workers are busy. Active_queries = X|All workers are busy. Active_queries = X|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
+|403|USER_PRIVACY_RESTRICTED|The user's privacy settings do not allow you to do this|
 |-500|No workers running|Internal error|
 |-503|Timeout|Timeout while fetching data|
 

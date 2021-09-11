@@ -49,5 +49,6 @@ account_PrivacyRules = account.getPrivacy({key=InputPrivacyKey, })
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|PRIVACY_KEY_INVALID|The privacy key is invalid|
+|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
 
 

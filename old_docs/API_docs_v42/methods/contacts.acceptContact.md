@@ -51,5 +51,6 @@ Updates = contacts.acceptContact({id=InputUser, })
 |400|CONTACT_ADD_MISSING|Contact to add is missing|
 |400|CONTACT_ID_INVALID|The provided contact ID is invalid|
 |400|CONTACT_REQ_MISSING|Missing contact request|
+|400|MSG_ID_INVALID|Invalid message ID provided|
 
 

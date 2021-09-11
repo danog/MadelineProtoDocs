@@ -72,6 +72,7 @@ Updates = messages.sendInlineBotResult({silent=Bool, background=Bool, clear_draf
 |400|WEBPAGE_CURL_FAILED|Failure while fetching the webpage with cURL|
 |400|WEBPAGE_MEDIA_EMPTY|Webpage media empty|
 |400|YOU_BLOCKED_USER|You blocked this user|
+|403|CHAT_SEND_GAME_FORBIDDEN|You can't send a game to this chat.|
 |403|CHAT_SEND_GIFS_FORBIDDEN|You can't send gifs in this chat|
 |403|CHAT_SEND_INLINE_FORBIDDEN|You can't send inline messages in this group|
 |403|CHAT_SEND_MEDIA_FORBIDDEN|You can't send media in this chat|

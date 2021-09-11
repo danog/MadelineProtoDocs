@@ -46,3 +46,10 @@ Or, if you're into Lua:
 WallPaper = account.uploadWallPaper({file=InputFile, mime_type='string', settings=WallPaperSettings, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|WALLPAPER_MIME_INVALID|The specified wallpaper MIME type is invalid|
+
+

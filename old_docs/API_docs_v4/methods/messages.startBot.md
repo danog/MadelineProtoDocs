@@ -51,6 +51,7 @@ Updates = messages.startBot({bot=InputUser, chat_id=InputPeer, start_param='stri
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|BOT_INVALID|This is not a valid bot|
+|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 |400|INPUT_USER_DEACTIVATED|The specified user was deleted|
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |400|PEER_ID_INVALID|The provided peer id is invalid|

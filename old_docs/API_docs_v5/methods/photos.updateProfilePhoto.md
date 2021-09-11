@@ -49,6 +49,7 @@ UserProfilePhoto = photos.updateProfilePhoto({id=InputPhoto, crop=InputPhotoCrop
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|ALBUM_PHOTOS_TOO_MANY|Too many |
 |400|FILE_PARTS_INVALID|The number of file parts is invalid|
 |400|IMAGE_PROCESS_FAILED|Failure while processing image|
 |400|LOCATION_INVALID|The provided location is invalid|

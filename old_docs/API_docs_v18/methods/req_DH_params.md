@@ -46,3 +46,10 @@ Or, if you're into Lua:
 Server_DH_Params = req_DH_params({nonce=int128, server_nonce=int128, p='string', q='string', public_key_fingerprint=long, encrypted_data='string', })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|UNKNOWN_ERROR|Internal error|
+
+

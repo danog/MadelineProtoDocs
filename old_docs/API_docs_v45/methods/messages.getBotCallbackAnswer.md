@@ -56,8 +56,10 @@ messages_BotCallbackAnswer = messages.getBotCallbackAnswer({game=Bool, peer=Inpu
 |400|CHANNEL_INVALID|The provided channel is invalid|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|DATA_INVALID|Encrypted data invalid|
+|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
 |400|MESSAGE_ID_INVALID|The provided message id is invalid|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
+|-3002|All workers are busy. Active_queries = X|All workers are busy. Active_queries = X|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |-503|Timeout|Timeout while fetching data|
 

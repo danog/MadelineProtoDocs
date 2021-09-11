@@ -51,6 +51,7 @@ Updates = channels.editAdmin({channel=InputChannel, user_id=InputUser, admin_rig
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|ADMIN_RANK_INVALID|The specified admin rank is invalid.|
 |400|ADMINS_TOO_MUCH|There are too many admins|
 |400|BOT_CHANNELS_NA|Bots can't edit admin privileges|
 |400|BOT_GROUPS_BLOCKED|This bot can't be added to groups|

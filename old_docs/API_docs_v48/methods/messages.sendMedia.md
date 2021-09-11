@@ -119,6 +119,7 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 |400|FILE_PART_LENGTH_INVALID|The length of a file part is invalid|
 |400|FILE_PARTS_INVALID|The number of file parts is invalid|
 |400|IMAGE_PROCESS_FAILED|Failure while processing image|
+|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
 |400|INPUT_USER_DEACTIVATED|The specified user was deleted|
 |400|MD5_CHECKSUM_INVALID|The MD5 checksums do not match|
 |400|MEDIA_CAPTION_TOO_LONG|The caption is too long|
@@ -129,13 +130,16 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 |400|PHOTO_EXT_INVALID|The extension of the photo is invalid|
 |400|PHOTO_INVALID_DIMENSIONS|The photo dimensions are invalid|
 |400|PHOTO_SAVE_FILE_INVALID|Internal issues, try again later|
+|400|POLL_ANSWER_INVALID|One of the poll answers is not acceptable|
 |400|POLL_ANSWERS_INVALID|Invalid poll answers were provided|
 |400|POLL_OPTION_DUPLICATE|Duplicate poll options provided|
 |400|POLL_OPTION_INVALID|Invalid poll option provided|
+|400|POLL_QUESTION_INVALID|One of the poll questions is not acceptable|
 |400|QUIZ_CORRECT_ANSWER_INVALID|An invalid value was provided to the correct_answers field|
 |400|QUIZ_CORRECT_ANSWERS_EMPTY|No correct quiz answer was specified|
 |400|REPLY_MARKUP_BUY_EMPTY|Reply markup for buy button empty|
 |400|REPLY_MARKUP_INVALID|The provided reply markup is invalid|
+|400|SCHEDULE_BOT_NOT_ALLOWED|Bots cannot schedule messages|
 |400|SCHEDULE_TOO_MUCH|There are too many scheduled messages|
 |400|TTL_MEDIA_INVALID|Invalid media Time To Live was provided|
 |400|USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
@@ -147,6 +151,7 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |403|CHAT_SEND_GIFS_FORBIDDEN|You can't send gifs in this chat|
 |403|CHAT_SEND_MEDIA_FORBIDDEN|You can't send media in this chat|
+|403|CHAT_SEND_POLL_FORBIDDEN|You can't send polls in this chat|
 |403|CHAT_SEND_STICKERS_FORBIDDEN|You can't send stickers in this chat.|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 |-504|memory limit exit|Internal error|

@@ -51,5 +51,6 @@ messages_ChatFull = messages.getFullChat({chat_id=InputPeer, })
 |400|CHAT_ID_INVALID|The provided chat id is invalid|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 |401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
+|-503|Timeout|Timeout while fetching data|
 
 

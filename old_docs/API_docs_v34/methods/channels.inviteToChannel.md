@@ -55,6 +55,7 @@ Updates = channels.inviteToChannel({channel=InputChannel, users={InputUser}, })
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 |400|CHAT_INVALID|Invalid chat|
+|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
 |400|INPUT_USER_DEACTIVATED|The specified user was deleted|
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |400|USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|

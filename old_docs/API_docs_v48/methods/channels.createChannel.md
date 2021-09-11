@@ -54,6 +54,7 @@ Updates = channels.createChannel({broadcast=Bool, megagroup=Bool, for_import=Boo
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|CHANNELS_ADMIN_LOCATED_TOO_MUCH|The user has reached the limit of public geogroups|
 |400|CHANNELS_TOO_MUCH|You have joined too many channels/supergroups|
 |400|CHAT_ABOUT_TOO_LONG|Chat about too long|
 |400|CHAT_TITLE_EMPTY|No chat title provided|

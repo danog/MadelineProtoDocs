@@ -48,6 +48,7 @@ messages_Messages = messages.getMessages({id={int}, })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |-503|Timeout|Timeout while fetching data|
 
 

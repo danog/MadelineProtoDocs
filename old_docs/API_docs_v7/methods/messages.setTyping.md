@@ -53,6 +53,7 @@ Bool = messages.setTyping({peer=InputPeer, action=SendMessageAction, })
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 |400|CHAT_ID_INVALID|The provided chat id is invalid|
+|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
 |400|INPUT_USER_DEACTIVATED|The specified user was deleted|
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |400|PEER_ID_INVALID|The provided peer id is invalid|

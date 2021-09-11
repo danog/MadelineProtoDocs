@@ -45,3 +45,10 @@ Or, if you're into Lua:
 Vector_of_messages_SearchCounter = messages.getSearchCounters({peer=InputPeer, filters={MessagesFilter}, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
+
+

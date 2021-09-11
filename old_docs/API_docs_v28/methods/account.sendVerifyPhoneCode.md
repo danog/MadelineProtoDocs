@@ -46,3 +46,10 @@ Or, if you're into Lua:
 auth_SentCode = account.sendVerifyPhoneCode({allow_flashcall=Bool, phone_number='string', current_number=Bool, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|PHONE_NUMBER_INVALID|The phone number is invalid|
+
+

@@ -5,6 +5,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # MadelineProto, a PHP MTProto telegram client
 
+[![phabel.io - PHP transpiler](https://phabel.io/badge)](https://phabel.io)
+
 Created by <a href="https://daniil.it" target="_blank" rel="noopener">Daniil Gentili</a>
 
 Do join the official channel, [@MadelineProto](https://t.me/MadelineProto) and the [support groups](https://t.me/pwrtelegramgroup)!
@@ -105,7 +107,6 @@ You can find examples for nearly every MadelineProto function in
   * [\danog\MadelineProto\Settings\Auth: Cryptography settings.](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/Settings/Auth.html)
   * [\danog\MadelineProto\Settings\Connection: Connection settings.](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/Settings/Connection.html)
   * [\danog\MadelineProto\Settings\Files: File management settings.](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/Settings/Files.html)
-  * [\danog\MadelineProto\Settings\Ipc: IPC server settings.](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/Settings/Ipc.html)
   * [\danog\MadelineProto\Settings\Logger: Logger settings.](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/Settings/Logger.html)
   * [\danog\MadelineProto\Settings\Peer: Peer database settings.](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/Settings/Peer.html)
   * [\danog\MadelineProto\Settings\Pwr: PWRTelegram settings.](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/Settings/Pwr.html)

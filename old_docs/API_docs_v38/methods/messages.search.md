@@ -62,7 +62,7 @@ messages_Messages = messages.search({peer=InputPeer, q='string', from_id=InputUs
 |400|CHANNEL_INVALID|The provided channel is invalid|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
-|400|INPUT_CONSTRUCTOR_INVALID|The provided constructor is invalid|
+|400|INPUT_FILTER_INVALID|The specified filter is invalid|
 |400|INPUT_USER_DEACTIVATED|The specified user was deleted|
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |400|PEER_ID_INVALID|The provided peer id is invalid|

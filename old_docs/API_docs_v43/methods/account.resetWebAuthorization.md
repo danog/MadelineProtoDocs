@@ -44,3 +44,10 @@ Or, if you're into Lua:
 Bool = account.resetWebAuthorization({hash=long, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|HASH_INVALID|The provided hash is invalid|
+
+

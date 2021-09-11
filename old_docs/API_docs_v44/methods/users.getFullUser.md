@@ -49,6 +49,7 @@ UserFull = users.getFullUser({id=InputUser, })
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
+|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |400|USER_ID_INVALID|The provided user ID is invalid|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|

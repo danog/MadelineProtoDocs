@@ -1,6 +1,6 @@
 ---
 title: Logging
-description: MadelineProto provides a unified class for logging messages to the logging destination defined in settings
+description: MadelineProto provides a unified class for logging messages to the logging destination defined in [settings](SETTINGS.html).  
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Logging

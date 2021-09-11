@@ -95,6 +95,7 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|MSG_ID_INVALID|Invalid message ID provided|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 
 

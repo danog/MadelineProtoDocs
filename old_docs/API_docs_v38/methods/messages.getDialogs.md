@@ -55,8 +55,9 @@ messages_Dialogs = messages.getDialogs({exclude_pinned=Bool, folder_id=int, offs
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|FOLDER_ID_INVALID|Invalid folder ID|
-|400|INPUT_CONSTRUCTOR_INVALID|The provided constructor is invalid|
+|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
 |400|OFFSET_PEER_ID_INVALID|The provided offset peer is invalid|
+|-3002|All workers are busy. Active_queries = X|All workers are busy. Active_queries = X|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
 |-504|memory limit exit|Internal error|

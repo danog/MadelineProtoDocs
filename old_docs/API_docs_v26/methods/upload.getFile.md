@@ -60,6 +60,7 @@ upload_File = upload.getFile({location=InputFileLocation, offset=int, limit=int,
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |400|OFFSET_INVALID|The provided offset is invalid|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
+|-3002|All workers are busy. Active_queries = X|All workers are busy. Active_queries = X|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |406|FILEREF_UPGRADE_NEEDED|The client has to be updated in order to support [file references](https://core.telegram.org/api/file_reference)|
 |401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|

@@ -50,6 +50,7 @@ Bool = messages.report({peer=InputPeer, id={int}, reason=ReportReason, })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 
 

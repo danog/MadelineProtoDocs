@@ -57,6 +57,7 @@ If the length of the provided message is bigger than 4096, the message will be s
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 
 

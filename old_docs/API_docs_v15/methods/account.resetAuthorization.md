@@ -50,5 +50,6 @@ Bool = account.resetAuthorization({hash=long, })
 |------|----------|---------------|
 |400|HASH_INVALID|The provided hash is invalid|
 |406|FRESH_RESET_AUTHORISATION_FORBIDDEN|You can't logout other sessions if less than 24 hours have passed since you logged on the current session|
+|-503|Timeout|Timeout while fetching data|
 
 

@@ -59,5 +59,6 @@ channels_AdminLogResults = channels.getAdminLog({channel=InputChannel, q='string
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
+|-503|Timeout|Timeout while fetching data|
 
 

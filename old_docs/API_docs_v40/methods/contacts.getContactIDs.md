@@ -48,6 +48,7 @@ Vector_of_int = contacts.getContactIDs({hash={int}, })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |-503|Timeout|Timeout while fetching data|
 
 

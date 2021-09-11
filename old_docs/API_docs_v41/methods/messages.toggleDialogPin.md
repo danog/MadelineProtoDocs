@@ -49,6 +49,8 @@ Bool = messages.toggleDialogPin({pinned=Bool, peer=InputDialogPeer, })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
+|400|PINNED_DIALOGS_TOO_MUCH|Too many pinned dialogs|
 
 

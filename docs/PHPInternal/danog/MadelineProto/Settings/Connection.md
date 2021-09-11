@@ -236,8 +236,10 @@ array<class-string<\danog\MadelineProto\Stream\StreamInterface>, array>
 
 ### `addProxy(class-string<\danog\MadelineProto\Stream\StreamInterface> $proxy, array $extra): self`
 
-Add proxy identifier to list.
-
+Add proxy identifier to list, one of:
+* `\danog\MadelineProto\Stream\MTProtoTransport\ObfuscatedStream::class`
+* `\danog\MadelineProto\Stream\Proxy\HttpProxy::class`
+* `\danog\MadelineProto\Stream\Proxy\SocksProxy::class`
 
 Parameters:
 * `$proxy`: `class-string<\danog\MadelineProto\Stream\StreamInterface>` Proxy identifier  

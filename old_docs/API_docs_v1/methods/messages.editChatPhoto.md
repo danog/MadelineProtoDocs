@@ -51,7 +51,6 @@ messages_StatedMessage = messages.editChatPhoto({chat_id=InputPeer, photo=InputC
 |------|----------|---------------|
 |400|CHAT_ID_INVALID|The provided chat id is invalid|
 |400|CHAT_NOT_MODIFIED|The pinned message wasn't modified|
-|400|INPUT_CONSTRUCTOR_INVALID|The provided constructor is invalid|
 |400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|PHOTO_CROP_SIZE_SMALL|Photo is too small|

@@ -51,5 +51,6 @@ auth_LoginToken = auth.importLoginToken({token='bytes', })
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|AUTH_TOKEN_EXPIRED|The authorization token has expired|
+|400|AUTH_TOKEN_INVALIDX|The specified auth token is invalid|
 
 

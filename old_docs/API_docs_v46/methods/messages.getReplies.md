@@ -52,3 +52,11 @@ Or, if you're into Lua:
 messages_Messages = messages.getReplies({peer=InputPeer, msg_id=int, offset_id=int, offset_date=int, add_offset=int, limit=int, max_id=int, min_id=int, hash={int}, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|MSG_ID_INVALID|Invalid message ID provided|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
+
+

@@ -55,6 +55,7 @@ Updates = messages.updatePinnedMessage({silent=Bool, peer=InputPeer, id=int, })
 |400|CHAT_NOT_MODIFIED|The pinned message wasn't modified|
 |400|MESSAGE_ID_INVALID|The provided message id is invalid|
 |400|PIN_RESTRICTED|You can't pin messages|
+|400|USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 

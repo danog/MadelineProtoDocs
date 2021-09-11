@@ -55,6 +55,7 @@ Bool = messages.setInlineBotResults({gallery=Bool, private=Bool, query_id=long, 
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|ARTICLE_TITLE_EMPTY|The title of the article is empty|
+|400|AUDIO_TITLE_EMPTY|An empty audio title was provided.|
 |400|BUTTON_DATA_INVALID|The data of one or more of the buttons you provided is invalid|
 |400|BUTTON_TYPE_INVALID|The type of one or more of the buttons you provided is invalid|
 |400|BUTTON_URL_INVALID|Button URL invalid|
@@ -73,6 +74,7 @@ Bool = messages.setInlineBotResults({gallery=Bool, private=Bool, query_id=long, 
 |400|SEND_MESSAGE_MEDIA_INVALID|Invalid media provided|
 |400|SEND_MESSAGE_TYPE_INVALID|The message type is invalid|
 |400|START_PARAM_INVALID|Start parameter invalid|
+|400|VIDEO_TITLE_EMPTY|The specified video title is empty|
 |400|WEBDOCUMENT_INVALID|Invalid webdocument URL provided|
 |400|WEBDOCUMENT_MIME_INVALID|Invalid webdocument mime type provided|
 |400|WEBDOCUMENT_SIZE_TOO_BIG|Webdocument is too big!|

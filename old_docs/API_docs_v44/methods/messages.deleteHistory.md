@@ -56,6 +56,7 @@ messages_AffectedHistory = messages.deleteHistory({just_clear=Bool, revoke=Bool,
 |400|MESSAGE_ID_INVALID|The provided message id is invalid|
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
+|-3002|All workers are busy. Active_queries = X|All workers are busy. Active_queries = X|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |-503|Timeout|Timeout while fetching data|
 

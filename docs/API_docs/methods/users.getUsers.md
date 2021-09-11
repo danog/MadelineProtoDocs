@@ -48,13 +48,19 @@ Vector_of_User = users.getUsers({id={InputUser}, })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|CHANNEL_INVALID|The provided channel is invalid|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
+|400|CONNECTION_DEVICE_MODEL_EMPTY|Device model empty|
+|400|CONNECTION_LANG_PACK_INVALID|Language pack invalid|
 |400|CONNECTION_NOT_INITED|Connection not initialized|
+|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
 |400|INPUT_LAYER_INVALID|The provided layer is invalid|
 |400|MSG_ID_INVALID|Invalid message ID provided|
+|-3002|All workers are busy. Active_queries = X|All workers are busy. Active_queries = X|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
 |401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
+|-500|No workers running|Internal error|
 |-503|Timeout|Timeout while fetching data|
 
 

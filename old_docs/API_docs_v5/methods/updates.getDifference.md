@@ -53,13 +53,17 @@ updates_Difference = updates.getDifference({pts=int, date=int, qts=int, })
 |400|CDN_METHOD_INVALID|You can't call this method in a CDN DC|
 |400|CONNECTION_DEVICE_MODEL_EMPTY|Device model empty|
 |400|DATE_EMPTY|Date empty|
+|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
+|400|MSG_ID_INVALID|Invalid message ID provided|
 |400|PERSISTENT_TIMESTAMP_EMPTY|Persistent timestamp empty|
 |400|PERSISTENT_TIMESTAMP_INVALID|Persistent timestamp invalid|
+|-3002|All workers are busy. Active_queries = X|All workers are busy. Active_queries = X|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
 |401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
 |-500|No workers running|Internal error|
 |-504|memory limit exit|Internal error|
+|-504|memory limit(?)|Internal error|
 |-503|Timeout|Timeout while fetching data|
 
 

@@ -51,10 +51,12 @@ Bool = account.updatePasswordSettings({password=InputCheckPasswordSRP, new_setti
 |------|----------|---------------|
 |400|EMAIL_UNCONFIRMED|Email unconfirmed|
 |400|EMAIL_UNCONFIRMED_X|The provided email isn't confirmed, X is the length of the verification code that was just sent to the email.|
+|400|INPUT_REQUEST_TOO_LONG|The request is too big|
 |400|NEW_SALT_INVALID|The new salt is invalid|
 |400|NEW_SETTINGS_INVALID|The new settings are invalid|
 |400|PASSWORD_HASH_INVALID|The provided password hash is invalid|
 |400|SRP_ID_INVALID|Invalid SRP ID provided|
 |400|SRP_PASSWORD_CHANGED|Password has changed|
+|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
 
 

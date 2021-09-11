@@ -54,7 +54,7 @@ channels_ChannelParticipants = channels.getParticipants({channel=InputChannel, f
 |400|CHANNEL_INVALID|The provided channel is invalid|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
-|400|INPUT_CONSTRUCTOR_INVALID|The provided constructor is invalid|
+|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |-500|No workers running|Internal error|
 |-503|Timeout|Timeout while fetching data|

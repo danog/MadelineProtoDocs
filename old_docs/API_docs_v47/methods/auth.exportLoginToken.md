@@ -49,3 +49,10 @@ Or, if you're into Lua:
 auth_LoginToken = auth.exportLoginToken({api_id=int, api_hash='string', except_ids={int}, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|API_ID_INVALID|API ID invalid|
+
+

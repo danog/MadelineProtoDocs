@@ -50,5 +50,7 @@ Bool = messages.updateDialogFilter({id=int, filter=DialogFilter, })
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|FILTER_ID_INVALID|The specified filter ID is invalid|
+|400|FILTER_INCLUDE_EMPTY|The include_peers vector of the filter is empty|
+|400|FILTER_TITLE_EMPTY|The title field of the filter is empty|
 
 

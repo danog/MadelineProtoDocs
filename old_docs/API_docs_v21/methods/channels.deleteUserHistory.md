@@ -55,5 +55,6 @@ messages_AffectedHistory = channels.deleteUserHistory({channel=InputChannel, use
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |400|USER_ID_INVALID|The provided user ID is invalid|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
+|-503|Timeout|Timeout while fetching data|
 
 
