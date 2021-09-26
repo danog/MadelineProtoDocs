@@ -57,6 +57,7 @@ Updates = channels.editBanned({channel=InputChannel, user_id=InputUser, banned_r
 |400|INPUT_USER_DEACTIVATED|The specified user was deleted|
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |400|PARTICIPANT_ID_INVALID|The specified participant ID is invalid|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|PINNED_DIALOGS_TOO_MUCH|Too many pinned dialogs|
 |400|USER_ADMIN_INVALID|You're not an admin|
 |400|USER_ID_INVALID|The provided user ID is invalid|

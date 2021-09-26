@@ -22,7 +22,7 @@ Get [message statistics](https://core.telegram.org/api/stats)
 
 ### Return type: [stats.MessageStats](../types/stats.MessageStats.md)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
@@ -50,6 +50,7 @@ stats_MessageStats = stats.getMessageStats({dark=Bool, channel=InputChannel, msg
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|CHANNEL_INVALID|The provided channel is invalid|
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 
 

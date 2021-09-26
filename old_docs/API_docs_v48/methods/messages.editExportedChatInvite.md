@@ -46,3 +46,10 @@ Or, if you're into Lua:
 messages_ExportedChatInvite = messages.editExportedChatInvite({revoked=Bool, peer=InputPeer, link='string', expire_date=int, usage_limit=int, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
+
+

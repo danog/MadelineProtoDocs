@@ -26,7 +26,7 @@ Will return a list of [messages](../constructors/message.md) with `peer_id` equa
 
 ### Return type: [messages.Messages](../types/messages.Messages.md)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
