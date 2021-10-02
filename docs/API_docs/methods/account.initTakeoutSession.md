@@ -1,6 +1,6 @@
 ---
 title: account.initTakeoutSession
-description: Intialize account takeout session
+description: Initialize account takeout session
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_initTakeoutSession.html
 ---
@@ -9,7 +9,7 @@ redirect_from: /API_docs/methods/account_initTakeoutSession.html
 
 
 
-Intialize account takeout session
+Initialize account takeout session
 
 ### Parameters:
 
