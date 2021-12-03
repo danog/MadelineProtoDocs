@@ -46,3 +46,10 @@ Or, if you're into Lua:
 account_AuthorizationForm = account.getAuthorizationForm({bot_id=int, scope='string', public_key='string', })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|PUBLIC_KEY_REQUIRED|A public key is required|
+
+

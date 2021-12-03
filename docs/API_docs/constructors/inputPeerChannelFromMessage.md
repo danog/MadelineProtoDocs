@@ -16,7 +16,7 @@ Defines a [min](https://core.telegram.org/api/min) channel that was seen in a ce
 |----------|---------------|----------|-------------|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The chat where the channel's message was seen|
 |msg\_id|[int](../types/int.md) | Yes|The message ID|
-|channel\_id|[int](../types/int.md) | Yes|The identifier of the channel that was seen|
+|channel\_id|[long](../types/long.md) | Yes|
 
 
 
@@ -26,14 +26,14 @@ Defines a [min](https://core.telegram.org/api/min) channel that was seen in a ce
 ### Example:
 
 ```php
-$inputPeerChannelFromMessage = ['_' => 'inputPeerChannelFromMessage', 'peer' => InputPeer, 'msg_id' => int, 'channel_id' => int];
+$inputPeerChannelFromMessage = ['_' => 'inputPeerChannelFromMessage', 'peer' => InputPeer, 'msg_id' => int, 'channel_id' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-inputPeerChannelFromMessage={_='inputPeerChannelFromMessage', peer=InputPeer, msg_id=int, channel_id=int}
+inputPeerChannelFromMessage={_='inputPeerChannelFromMessage', peer=InputPeer, msg_id=int, channel_id=long}
 
 ```
 

@@ -15,7 +15,7 @@ This object contains information about an incoming shipping query.
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |query\_id|[long](../types/long.md) | Yes|Unique query identifier|
-|user\_id|[int](../types/int.md) | Yes|User who sent the query|
+|user\_id|[long](../types/long.md) | Yes|
 |payload|[bytes](../types/bytes.md) | Yes|Bot specified invoice payload|
 |shipping\_address|[PostAddress](../types/PostAddress.md) | Yes|User specified shipping address|
 
@@ -27,14 +27,14 @@ This object contains information about an incoming shipping query.
 ### Example:
 
 ```php
-$updateBotShippingQuery = ['_' => 'updateBotShippingQuery', 'query_id' => long, 'user_id' => int, 'payload' => 'bytes', 'shipping_address' => PostAddress];
+$updateBotShippingQuery = ['_' => 'updateBotShippingQuery', 'query_id' => long, 'user_id' => long, 'payload' => 'bytes', 'shipping_address' => PostAddress];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateBotShippingQuery={_='updateBotShippingQuery', query_id=long, user_id=int, payload='bytes', shipping_address=PostAddress}
+updateBotShippingQuery={_='updateBotShippingQuery', query_id=long, user_id=long, payload='bytes', shipping_address=PostAddress}
 
 ```
 

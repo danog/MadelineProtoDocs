@@ -118,8 +118,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="folders.deleteFolder.html" name="folders.deleteFolder">Delete a peer folder: folders.deleteFolder</a>
 
-* <a href="channels.deleteUserHistory.html" name="channels.deleteUserHistory">Delete all messages sent by a certain user in a supergroup: channels.deleteUserHistory</a>
-
 * <a href="auth.dropTempAuthKeys.html" name="auth.dropTempAuthKeys">Delete all temporary authorization keys except for the ones specified: auth.dropTempAuthKeys</a>
 
 * <a href="contacts.deleteByPhones.html" name="contacts.deleteByPhones">Delete contacts by phone number: contacts.deleteByPhones</a>
@@ -535,8 +533,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="account.resetNotifySettings.html" name="account.resetNotifySettings">Resets all notification settings from users and groups: account.resetNotifySettings</a>
 
 * <a href="contacts.resolveUsername.html" name="contacts.resolveUsername">Resolve a @username to get peer info: contacts.resolveUsername</a>
-
-* <a href="messages.getStatsURL.html" name="messages.getStatsURL">Returns URL with the chat statistics. Currently this method can be used only for channels: messages.getStatsURL</a>
 
 * <a href="account.getAuthorizationForm.html" name="account.getAuthorizationForm">Returns a Telegram Passport authorization form for sharing data with a service: account.getAuthorizationForm</a>
 

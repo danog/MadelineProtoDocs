@@ -12,7 +12,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|chat\_id|[int](../types/int.md) | Yes|
+|chat\_id|[long](../types/long.md) | Yes|
 |call|[GroupCall](../types/GroupCall.md) | Yes|
 
 
@@ -23,14 +23,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```php
-$updateGroupCall = ['_' => 'updateGroupCall', 'chat_id' => int, 'call' => GroupCall];
+$updateGroupCall = ['_' => 'updateGroupCall', 'chat_id' => long, 'call' => GroupCall];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateGroupCall={_='updateGroupCall', chat_id=int, call=GroupCall}
+updateGroupCall={_='updateGroupCall', chat_id=long, call=GroupCall}
 
 ```
 

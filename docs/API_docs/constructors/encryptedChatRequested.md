@@ -18,8 +18,8 @@ Request to create an encrypted chat.
 |id|[int](../types/int.md) | Yes|Chat ID|
 |access\_hash|[long](../types/long.md) | Yes|Check sum depending on user ID|
 |date|[int](../types/int.md) | Yes|Chat creation date|
-|admin\_id|[int](../types/int.md) | Yes|Chat creator ID|
-|participant\_id|[int](../types/int.md) | Yes|ID of second chat participant|
+|admin\_id|[long](../types/long.md) | Yes|
+|participant\_id|[long](../types/long.md) | Yes|
 |g\_a|[bytes](../types/bytes.md) | Yes|`A = g ^ a mod p`, see [Wikipedia](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)|
 
 
@@ -30,14 +30,14 @@ Request to create an encrypted chat.
 ### Example:
 
 ```php
-$encryptedChatRequested = ['_' => 'encryptedChatRequested', 'folder_id' => int, 'id' => int, 'access_hash' => long, 'date' => int, 'admin_id' => int, 'participant_id' => int, 'g_a' => 'bytes'];
+$encryptedChatRequested = ['_' => 'encryptedChatRequested', 'folder_id' => int, 'id' => int, 'access_hash' => long, 'date' => int, 'admin_id' => long, 'participant_id' => long, 'g_a' => 'bytes'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-encryptedChatRequested={_='encryptedChatRequested', folder_id=int, id=int, access_hash=long, date=int, admin_id=int, participant_id=int, g_a='bytes'}
+encryptedChatRequested={_='encryptedChatRequested', folder_id=int, id=int, access_hash=long, date=int, admin_id=long, participant_id=long, g_a='bytes'}
 
 ```
 

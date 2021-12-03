@@ -12,7 +12,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|chat\_id|[int](../types/int.md) | Yes|
+|chat\_id|[long](../types/long.md) | Yes|
 
 
 
@@ -22,14 +22,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```php
-$updateChat = ['_' => 'updateChat', 'chat_id' => int];
+$updateChat = ['_' => 'updateChat', 'chat_id' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateChat={_='updateChat', chat_id=int}
+updateChat={_='updateChat', chat_id=long}
 
 ```
 

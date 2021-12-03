@@ -14,7 +14,7 @@ How a user voted in a poll (reduced constructor, returned if an `option` was pro
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|The user that voted for the queried `option`|
+|user\_id|[long](../types/long.md) | Yes|
 |date|[int](../types/int.md) | Yes|When did the user cast the vote|
 
 
@@ -25,14 +25,14 @@ How a user voted in a poll (reduced constructor, returned if an `option` was pro
 ### Example:
 
 ```php
-$messageUserVoteInputOption = ['_' => 'messageUserVoteInputOption', 'user_id' => int, 'date' => int];
+$messageUserVoteInputOption = ['_' => 'messageUserVoteInputOption', 'user_id' => long, 'date' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messageUserVoteInputOption={_='messageUserVoteInputOption', user_id=int, date=int}
+messageUserVoteInputOption={_='messageUserVoteInputOption', user_id=long, date=int}
 
 ```
 

@@ -50,6 +50,7 @@ messages_ChatFull = channels.getFullChannel({channel=InputChannel, })
 |------|----------|---------------|
 |400|CHANNEL_INVALID|The provided channel is invalid|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
+|400|CHAT_NOT_MODIFIED|The pinned message wasn't modified|
 |400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |-3002|All workers are busy. Active_queries = X|All workers are busy. Active_queries = X|

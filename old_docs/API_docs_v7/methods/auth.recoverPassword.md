@@ -49,5 +49,6 @@ auth_Authorization = auth.recoverPassword({code='string', })
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|CODE_EMPTY|The provided code is empty|
+|400|NEW_SETTINGS_INVALID|The new settings are invalid|
 
 

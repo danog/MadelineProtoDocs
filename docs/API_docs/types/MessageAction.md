@@ -66,6 +66,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionGroupCallScheduled](../constructors/messageActionGroupCallScheduled.md)  
 
+[messageActionSetChatTheme](../constructors/messageActionSetChatTheme.md)  
+
+[messageActionChatJoinedByRequest](../constructors/messageActionChatJoinedByRequest.md)  
+
 
 
 ### Methods that return an object of this type (methods):
@@ -127,4 +131,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [messageActionSetMessagesTTL](../constructors/messageActionSetMessagesTTL.md)  
 
 [messageActionGroupCallScheduled](../constructors/messageActionGroupCallScheduled.md)  
+
+[messageActionSetChatTheme](../constructors/messageActionSetChatTheme.md)  
+
+[messageActionChatJoinedByRequest](../constructors/messageActionChatJoinedByRequest.md)  
 

@@ -14,7 +14,7 @@ A user joined the chat via an invite link
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|inviter\_id|[int](../types/int.md) | Yes|ID of the user that created the invite link|
+|inviter\_id|[long](../types/long.md) | Yes|
 
 
 
@@ -24,14 +24,14 @@ A user joined the chat via an invite link
 ### Example:
 
 ```php
-$messageActionChatJoinedByLink = ['_' => 'messageActionChatJoinedByLink', 'inviter_id' => int];
+$messageActionChatJoinedByLink = ['_' => 'messageActionChatJoinedByLink', 'inviter_id' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messageActionChatJoinedByLink={_='messageActionChatJoinedByLink', inviter_id=int}
+messageActionChatJoinedByLink={_='messageActionChatJoinedByLink', inviter_id=long}
 
 ```
 

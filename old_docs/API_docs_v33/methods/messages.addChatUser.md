@@ -57,6 +57,7 @@ Updates = messages.addChatUser({chat_id=InputPeer, user_id=InputUser, fwd_limit=
 |400|USER_ALREADY_PARTICIPANT|The user is already in the group|
 |400|USER_ID_INVALID|The provided user ID is invalid|
 |400|USER_IS_BLOCKED|You were blocked by this user|
+|400|USER_NOT_MUTUAL_CONTACT|The provided user is not a mutual contact|
 |400|USERS_TOO_MUCH|The maximum number of users has been exceeded (to create a chat, for example)|
 |400|YOU_BLOCKED_USER|You blocked this user|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|

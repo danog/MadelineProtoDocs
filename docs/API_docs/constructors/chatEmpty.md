@@ -14,7 +14,7 @@ Empty constructor, group doesn't exist
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|Group identifier|
+|id|[long](../types/long.md) | Yes|
 
 
 
@@ -24,14 +24,14 @@ Empty constructor, group doesn't exist
 ### Example:
 
 ```php
-$chatEmpty = ['_' => 'chatEmpty', 'id' => int];
+$chatEmpty = ['_' => 'chatEmpty', 'id' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-chatEmpty={_='chatEmpty', id=int}
+chatEmpty={_='chatEmpty', id=long}
 
 ```
 

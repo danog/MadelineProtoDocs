@@ -14,7 +14,7 @@ A new channel is available
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[int](../types/int.md) | Yes|Channel ID|
+|channel\_id|[long](../types/long.md) | Yes|
 
 
 
@@ -24,14 +24,14 @@ A new channel is available
 ### Example:
 
 ```php
-$updateChannel = ['_' => 'updateChannel', 'channel_id' => int];
+$updateChannel = ['_' => 'updateChannel', 'channel_id' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateChannel={_='updateChannel', channel_id=int}
+updateChannel={_='updateChannel', channel_id=long}
 
 ```
 

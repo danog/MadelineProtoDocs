@@ -42,3 +42,10 @@ Or, if you're into Lua:
 Updates = channels.convertToGigagroup({channel=InputChannel, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|PARTICIPANTS_TOO_FEW|Not enough participants|
+
+

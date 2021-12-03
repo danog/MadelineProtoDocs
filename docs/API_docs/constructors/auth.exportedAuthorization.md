@@ -15,7 +15,7 @@ Data for copying of authorization between data centres.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|current user identifier|
+|id|[long](../types/long.md) | Yes|
 |bytes|[bytes](../types/bytes.md) | Yes|authorizes key|
 
 
@@ -26,14 +26,14 @@ Data for copying of authorization between data centres.
 ### Example:
 
 ```php
-$auth_exportedAuthorization = ['_' => 'auth.exportedAuthorization', 'id' => int, 'bytes' => 'bytes'];
+$auth_exportedAuthorization = ['_' => 'auth.exportedAuthorization', 'id' => long, 'bytes' => 'bytes'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-auth_exportedAuthorization={_='auth.exportedAuthorization', id=int, bytes='bytes'}
+auth_exportedAuthorization={_='auth.exportedAuthorization', id=long, bytes='bytes'}
 
 ```
 

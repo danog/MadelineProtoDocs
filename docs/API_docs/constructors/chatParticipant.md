@@ -14,8 +14,8 @@ Group member.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|Member user ID|
-|inviter\_id|[int](../types/int.md) | Yes|ID of the user that added the member to the group|
+|user\_id|[long](../types/long.md) | Yes|
+|inviter\_id|[long](../types/long.md) | Yes|
 |date|[int](../types/int.md) | Yes|Date added to the group|
 
 
@@ -26,14 +26,14 @@ Group member.
 ### Example:
 
 ```php
-$chatParticipant = ['_' => 'chatParticipant', 'user_id' => int, 'inviter_id' => int, 'date' => int];
+$chatParticipant = ['_' => 'chatParticipant', 'user_id' => long, 'inviter_id' => long, 'date' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-chatParticipant={_='chatParticipant', user_id=int, inviter_id=int, date=int}
+chatParticipant={_='chatParticipant', user_id=long, inviter_id=long, date=int}
 
 ```
 

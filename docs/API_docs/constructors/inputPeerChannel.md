@@ -14,7 +14,7 @@ Defines a channel for further interaction.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[int](../types/int.md) | Yes|Channel identifier|
+|channel\_id|[long](../types/long.md) | Yes|
 |access\_hash|[long](../types/long.md) | Yes|**access\_hash** value from the [channel](../constructors/channel.md) constructor|
 
 
@@ -25,14 +25,14 @@ Defines a channel for further interaction.
 ### Example:
 
 ```php
-$inputPeerChannel = ['_' => 'inputPeerChannel', 'channel_id' => int, 'access_hash' => long];
+$inputPeerChannel = ['_' => 'inputPeerChannel', 'channel_id' => long, 'access_hash' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-inputPeerChannel={_='inputPeerChannel', channel_id=int, access_hash=long}
+inputPeerChannel={_='inputPeerChannel', channel_id=long, access_hash=long}
 
 ```
 

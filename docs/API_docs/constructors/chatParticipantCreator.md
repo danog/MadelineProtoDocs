@@ -14,7 +14,7 @@ Represents the creator of the group
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|ID of the user that created the group|
+|user\_id|[long](../types/long.md) | Yes|
 
 
 
@@ -24,14 +24,14 @@ Represents the creator of the group
 ### Example:
 
 ```php
-$chatParticipantCreator = ['_' => 'chatParticipantCreator', 'user_id' => int];
+$chatParticipantCreator = ['_' => 'chatParticipantCreator', 'user_id' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-chatParticipantCreator={_='chatParticipantCreator', user_id=int}
+chatParticipantCreator={_='chatParticipantCreator', user_id=long}
 
 ```
 

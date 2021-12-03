@@ -14,7 +14,7 @@ The forward counter of a message in a channel has changed
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[int](../types/int.md) | Yes|Channel ID|
+|channel\_id|[long](../types/long.md) | Yes|
 |id|[int](../types/int.md) | Yes|ID of the message|
 |forwards|[int](../types/int.md) | Yes|New forward counter|
 
@@ -26,14 +26,14 @@ The forward counter of a message in a channel has changed
 ### Example:
 
 ```php
-$updateChannelMessageForwards = ['_' => 'updateChannelMessageForwards', 'channel_id' => int, 'id' => int, 'forwards' => int];
+$updateChannelMessageForwards = ['_' => 'updateChannelMessageForwards', 'channel_id' => long, 'id' => int, 'forwards' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateChannelMessageForwards={_='updateChannelMessageForwards', channel_id=int, id=int, forwards=int}
+updateChannelMessageForwards={_='updateChannelMessageForwards', channel_id=long, id=int, forwards=int}
 
 ```
 

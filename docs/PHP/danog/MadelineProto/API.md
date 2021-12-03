@@ -86,7 +86,7 @@ Main API wrapper for MadelineProto.
 * `fromSupergroup(int $id): float|int`
 * `fullChatLastUpdated(mixed $id): \Amp\Promise<int>`
 * `fullGetSelf(): \Amp\Promise<array|bool>`
-* `genVectorHash(array $ints): \int Vector hash`
+* `genVectorHash(array $ints): \string Vector hash`
 * `getAllMethods(): mixed`
 * `getAuthorization(): mixed`
 * `getCachedConfig(): mixed`
@@ -993,7 +993,7 @@ Get info about the logged-in user, not cached.
 
 
 
-### `genVectorHash(array $ints): \int Vector hash`
+### `genVectorHash(array $ints): \string Vector hash`
 
 Generate MTProto vector hash.
 

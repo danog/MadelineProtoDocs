@@ -16,7 +16,7 @@ Get scheduled messages
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Peer | Optional|
-|hash|Array of [int](../types/int.md) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|[long](../types/long.md) |  | Yes|
 
 
 ### Return type: [messages.Messages](../types/messages.Messages.md)
@@ -36,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->messages->getScheduledHistory(['peer' => InputPeer, 'hash' => [int, int], ]);
+$messages_Messages = $MadelineProto->messages->getScheduledHistory(['peer' => InputPeer, 'hash' => long, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_Messages = messages.getScheduledHistory({peer=InputPeer, hash={int}, })
+messages_Messages = messages.getScheduledHistory({peer=InputPeer, hash=long, })
 ```
 
 ### Errors

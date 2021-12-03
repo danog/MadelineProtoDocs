@@ -14,7 +14,7 @@ Empty constructor, non-existent user.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|User identifier or `0`|
+|id|[long](../types/long.md) | Yes|
 
 
 
@@ -24,14 +24,14 @@ Empty constructor, non-existent user.
 ### Example:
 
 ```php
-$userEmpty = ['_' => 'userEmpty', 'id' => int];
+$userEmpty = ['_' => 'userEmpty', 'id' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-userEmpty={_='userEmpty', id=int}
+userEmpty={_='userEmpty', id=long}
 
 ```
 

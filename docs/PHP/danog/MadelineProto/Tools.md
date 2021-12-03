@@ -20,7 +20,7 @@ Some tools.
 
 
 ## Method list:
-* `genVectorHash(array $ints): \int Vector hash`
+* `genVectorHash(array $ints): \string Vector hash`
 * `randomInt(int $modulus): int`
 * `random(int $length): \string Random string`
 * `posmod(int $a, int $b): \int Modulo`
@@ -73,7 +73,7 @@ Some tools.
 * `getMimeFromBuffer(string $buffer): string`
 
 ## Methods:
-### `genVectorHash(array $ints): \int Vector hash`
+### `genVectorHash(array $ints): \string Vector hash`
 
 Generate MTProto vector hash.
 

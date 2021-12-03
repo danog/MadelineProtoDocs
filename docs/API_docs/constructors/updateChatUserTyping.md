@@ -14,7 +14,7 @@ The user is preparing a message in a group; typing, recording, uploading, etc. T
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[int](../types/int.md) | Yes|Group id|
+|chat\_id|[long](../types/long.md) | Yes|
 |from\_id|[Peer](../types/Peer.md) | Yes|
 |action|[SendMessageAction](../types/SendMessageAction.md) | Yes|Type of action<br>Parameter added in [Layer 17](https://core.telegram.org/api/layers#layer-17).|
 
@@ -26,14 +26,14 @@ The user is preparing a message in a group; typing, recording, uploading, etc. T
 ### Example:
 
 ```php
-$updateChatUserTyping = ['_' => 'updateChatUserTyping', 'chat_id' => int, 'from_id' => Peer, 'action' => SendMessageAction];
+$updateChatUserTyping = ['_' => 'updateChatUserTyping', 'chat_id' => long, 'from_id' => Peer, 'action' => SendMessageAction];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateChatUserTyping={_='updateChatUserTyping', chat_id=int, from_id=Peer, action=SendMessageAction}
+updateChatUserTyping={_='updateChatUserTyping', chat_id=long, from_id=Peer, action=SendMessageAction}
 
 ```
 

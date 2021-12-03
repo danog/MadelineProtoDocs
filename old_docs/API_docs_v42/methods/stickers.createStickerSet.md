@@ -64,7 +64,10 @@ messages_StickerSet = stickers.createStickerSet({masks=Bool, animated=Bool, user
 |400|STICKER_FILE_INVALID|Sticker file invalid|
 |400|STICKER_PNG_DIMENSIONS|Sticker png dimensions invalid|
 |400|STICKER_PNG_NOPNG|One of the specified stickers is not a valid PNG file|
-|400|STICKER_TGS_NODOC||
+|400|STICKER_TGS_NODOC|Incorrect document type for sticker.|
+|400|STICKER_TGS_NOTGS|Invalid TGS sticker provided.|
+|400|STICKER_THUMB_PNG_NOPNG|Incorrect stickerset thumb file provided, PNG / WEBP expected.|
+|400|STICKER_THUMB_TGS_NOTGS|Incorrect stickerset TGS thumb file provided.|
 |400|STICKERS_EMPTY|No sticker provided|
 |400|USER_ID_INVALID|The provided user ID is invalid|
 

@@ -52,10 +52,12 @@ Updates = messages.updatePinnedMessage({silent=Bool, unpin=Bool, pm_oneside=Bool
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|BOT_ONESIDE_NOT_AVAIL|Bots can't pin messages in PM just for themselves|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 |400|CHAT_NOT_MODIFIED|The pinned message wasn't modified|
 |400|MESSAGE_ID_INVALID|The provided message id is invalid|
+|400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|PIN_RESTRICTED|You can't pin messages|
 |400|USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|

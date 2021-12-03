@@ -18,7 +18,7 @@ Get peer settings
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The peer | Optional|
 
 
-### Return type: [PeerSettings](../types/PeerSettings.md)
+### Return type: [messages.PeerSettings](../types/messages.PeerSettings.md)
 
 ### Can bots use this method: **NO**
 
@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$PeerSettings = $MadelineProto->messages->getPeerSettings(['peer' => InputPeer, ]);
+$messages_PeerSettings = $MadelineProto->messages->getPeerSettings(['peer' => InputPeer, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-PeerSettings = messages.getPeerSettings({peer=InputPeer, })
+messages_PeerSettings = messages.getPeerSettings({peer=InputPeer, })
 ```
 
 ### Errors

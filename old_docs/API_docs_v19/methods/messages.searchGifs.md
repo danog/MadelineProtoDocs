@@ -49,6 +49,7 @@ messages_FoundGifs = messages.searchGifs({q='string', offset=int, })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|METHOD_INVALID|The specified method is invalid|
 |400|SEARCH_QUERY_EMPTY|The search query is empty|
 
 

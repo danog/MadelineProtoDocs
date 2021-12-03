@@ -13,6 +13,8 @@ redirect_from: /API_docs/types/messages_StickerSet.html
 
 [messages.stickerSet](../constructors/messages.stickerSet.md)  
 
+[messages.stickerSetNotModified](../constructors/messages.stickerSetNotModified.md)  
+
 
 
 ### Methods that return an object of this type (methods):
@@ -32,6 +34,8 @@ redirect_from: /API_docs/types/messages_StickerSet.html
 
 
 [messages.stickerSet](../constructors/messages.stickerSet.md)  
+
+[messages.stickerSetNotModified](../constructors/messages.stickerSetNotModified.md)  
 
 [$MadelineProto->messages->getStickerSet](../methods/messages.getStickerSet.md)  
 

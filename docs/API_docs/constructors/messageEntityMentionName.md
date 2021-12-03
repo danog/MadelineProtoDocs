@@ -16,7 +16,7 @@ Message entity representing a [user mention](https://core.telegram.org/api/menti
 |----------|---------------|----------|-------------|
 |offset|[int](../types/int.md) | Yes|Offset of message entity within message (in UTF-8 codepoints)|
 |length|[int](../types/int.md) | Yes|Length of message entity within message (in UTF-8 codepoints)|
-|user\_id|[int](../types/int.md) | Yes|Identifier of the user that was mentioned|
+|user\_id|[long](../types/long.md) | Yes|
 
 
 
@@ -26,14 +26,14 @@ Message entity representing a [user mention](https://core.telegram.org/api/menti
 ### Example:
 
 ```php
-$messageEntityMentionName = ['_' => 'messageEntityMentionName', 'offset' => int, 'length' => int, 'user_id' => int];
+$messageEntityMentionName = ['_' => 'messageEntityMentionName', 'offset' => int, 'length' => int, 'user_id' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messageEntityMentionName={_='messageEntityMentionName', offset=int, length=int, user_id=int}
+messageEntityMentionName={_='messageEntityMentionName', offset=int, length=int, user_id=long}
 
 ```
 

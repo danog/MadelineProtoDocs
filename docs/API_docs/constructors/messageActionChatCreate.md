@@ -15,7 +15,7 @@ Group created
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |title|[string](../types/string.md) | Yes|Group name|
-|users|Array of [int](../types/int.md) | Yes|List of group members|
+|users|Array of [long](../types/long.md) | Yes|List of group members|
 
 
 
@@ -25,14 +25,14 @@ Group created
 ### Example:
 
 ```php
-$messageActionChatCreate = ['_' => 'messageActionChatCreate', 'title' => 'string', 'users' => [int, int]];
+$messageActionChatCreate = ['_' => 'messageActionChatCreate', 'title' => 'string', 'users' => [long, long]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messageActionChatCreate={_='messageActionChatCreate', title='string', users={int}}
+messageActionChatCreate={_='messageActionChatCreate', title='string', users={long}}
 
 ```
 

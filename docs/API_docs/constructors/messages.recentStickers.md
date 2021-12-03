@@ -15,7 +15,7 @@ Recently used stickers
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[int](../types/int.md) | Yes|
+|hash|[long](../types/long.md) | Yes|
 |packs|Array of [StickerPack](../types/StickerPack.md) | Yes|Emojis associated to stickers|
 |stickers|Array of [Document](../types/Document.md) | Yes|Recent stickers|
 |dates|Array of [int](../types/int.md) | Yes|When was each sticker last used|
@@ -28,14 +28,14 @@ Recently used stickers
 ### Example:
 
 ```php
-$messages_recentStickers = ['_' => 'messages.recentStickers', 'hash' => int, 'packs' => [StickerPack, StickerPack], 'stickers' => [Document, Document], 'dates' => [int, int]];
+$messages_recentStickers = ['_' => 'messages.recentStickers', 'hash' => long, 'packs' => [StickerPack, StickerPack], 'stickers' => [Document, Document], 'dates' => [int, int]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages_recentStickers={_='messages.recentStickers', hash=int, packs={StickerPack}, stickers={Document}, dates={int}}
+messages_recentStickers={_='messages.recentStickers', hash=long, packs={StickerPack}, stickers={Document}, dates={int}}
 
 ```
 

@@ -14,7 +14,7 @@ Indicates the chat was [migrated](https://core.telegram.org/api/channel) to the 
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[int](../types/int.md) | Yes|The supergroup it was migrated to|
+|channel\_id|[long](../types/long.md) | Yes|
 
 
 
@@ -24,14 +24,14 @@ Indicates the chat was [migrated](https://core.telegram.org/api/channel) to the 
 ### Example:
 
 ```php
-$messageActionChatMigrateTo = ['_' => 'messageActionChatMigrateTo', 'channel_id' => int];
+$messageActionChatMigrateTo = ['_' => 'messageActionChatMigrateTo', 'channel_id' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messageActionChatMigrateTo={_='messageActionChatMigrateTo', channel_id=int}
+messageActionChatMigrateTo={_='messageActionChatMigrateTo', channel_id=long}
 
 ```
 

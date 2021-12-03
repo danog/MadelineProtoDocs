@@ -20,7 +20,8 @@ Info about a group
 |deactivated|[Bool](../types/Bool.md) | Optional|Whether the group was [migrated](https://core.telegram.org/api/channel)|
 |call\_active|[Bool](../types/Bool.md) | Optional|
 |call\_not\_empty|[Bool](../types/Bool.md) | Optional|
-|id|[int](../types/int.md) | Yes|ID of the group|
+|noforwards|[Bool](../types/Bool.md) | Optional|
+|id|[long](../types/long.md) | Yes|
 |title|[string](../types/string.md) | Yes|Title|
 |photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|Chat photo|
 |participants\_count|[int](../types/int.md) | Yes|Participant count|
@@ -38,14 +39,14 @@ Info about a group
 ### Example:
 
 ```php
-$chat = ['_' => 'chat', 'creator' => Bool, 'kicked' => Bool, 'left' => Bool, 'deactivated' => Bool, 'call_active' => Bool, 'call_not_empty' => Bool, 'id' => int, 'title' => 'string', 'photo' => ChatPhoto, 'participants_count' => int, 'date' => int, 'version' => int, 'migrated_to' => InputChannel, 'admin_rights' => ChatAdminRights, 'default_banned_rights' => ChatBannedRights];
+$chat = ['_' => 'chat', 'creator' => Bool, 'kicked' => Bool, 'left' => Bool, 'deactivated' => Bool, 'call_active' => Bool, 'call_not_empty' => Bool, 'noforwards' => Bool, 'id' => long, 'title' => 'string', 'photo' => ChatPhoto, 'participants_count' => int, 'date' => int, 'version' => int, 'migrated_to' => InputChannel, 'admin_rights' => ChatAdminRights, 'default_banned_rights' => ChatBannedRights];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-chat={_='chat', creator=Bool, kicked=Bool, left=Bool, deactivated=Bool, call_active=Bool, call_not_empty=Bool, id=int, title='string', photo=ChatPhoto, participants_count=int, date=int, version=int, migrated_to=InputChannel, admin_rights=ChatAdminRights, default_banned_rights=ChatBannedRights}
+chat={_='chat', creator=Bool, kicked=Bool, left=Bool, deactivated=Bool, call_active=Bool, call_not_empty=Bool, noforwards=Bool, id=long, title='string', photo=ChatPhoto, participants_count=int, date=int, version=int, migrated_to=InputChannel, admin_rights=ChatAdminRights, default_banned_rights=ChatBannedRights}
 
 ```
 

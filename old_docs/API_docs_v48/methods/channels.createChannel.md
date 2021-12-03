@@ -58,6 +58,7 @@ Updates = channels.createChannel({broadcast=Bool, megagroup=Bool, for_import=Boo
 |400|CHANNELS_TOO_MUCH|You have joined too many channels/supergroups|
 |400|CHAT_ABOUT_TOO_LONG|Chat about too long|
 |400|CHAT_TITLE_EMPTY|No chat title provided|
+|400|INPUT_REQUEST_TOO_LONG|The request is too big|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |406|USER_RESTRICTED|You're spamreported, you can't create channels or chats.|
 |401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|

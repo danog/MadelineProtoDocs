@@ -14,7 +14,7 @@ Information about an active user in a supergroup
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User ID|
+|user\_id|[long](../types/long.md) | Yes|
 |messages|[int](../types/int.md) | Yes|Number of messages for [statistics](https://core.telegram.org/api/stats) period in consideration|
 |avg\_chars|[int](../types/int.md) | Yes|Average number of characters per message|
 
@@ -26,14 +26,14 @@ Information about an active user in a supergroup
 ### Example:
 
 ```php
-$statsGroupTopPoster = ['_' => 'statsGroupTopPoster', 'user_id' => int, 'messages' => int, 'avg_chars' => int];
+$statsGroupTopPoster = ['_' => 'statsGroupTopPoster', 'user_id' => long, 'messages' => int, 'avg_chars' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-statsGroupTopPoster={_='statsGroupTopPoster', user_id=int, messages=int, avg_chars=int}
+statsGroupTopPoster={_='statsGroupTopPoster', user_id=long, messages=int, avg_chars=int}
 
 ```
 

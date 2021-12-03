@@ -14,7 +14,7 @@ The user is preparing a message; typing, recording, uploading, etc. This update 
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User id|
+|user\_id|[long](../types/long.md) | Yes|
 |action|[SendMessageAction](../types/SendMessageAction.md) | Yes|Action type<br>Param added in [Layer 17](https://core.telegram.org/api/layers#layer-17).|
 
 
@@ -25,14 +25,14 @@ The user is preparing a message; typing, recording, uploading, etc. This update 
 ### Example:
 
 ```php
-$updateUserTyping = ['_' => 'updateUserTyping', 'user_id' => int, 'action' => SendMessageAction];
+$updateUserTyping = ['_' => 'updateUserTyping', 'user_id' => long, 'action' => SendMessageAction];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateUserTyping={_='updateUserTyping', user_id=int, action=SendMessageAction}
+updateUserTyping={_='updateUserTyping', user_id=long, action=SendMessageAction}
 
 ```
 

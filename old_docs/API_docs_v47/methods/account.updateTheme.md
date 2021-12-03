@@ -49,3 +49,10 @@ Or, if you're into Lua:
 Theme = account.updateTheme({format='string', theme=InputTheme, slug='string', title='string', document=InputDocument, settings=InputThemeSettings, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|THEME_INVALID|Invalid theme provided|
+
+

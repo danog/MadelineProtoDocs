@@ -15,7 +15,7 @@ Installed themes
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[int](../types/int.md) | Yes|
+|hash|[long](../types/long.md) | Yes|
 |themes|Array of [Theme](../types/Theme.md) | Yes|Themes|
 
 
@@ -26,14 +26,14 @@ Installed themes
 ### Example:
 
 ```php
-$account_themes = ['_' => 'account.themes', 'hash' => int, 'themes' => [Theme, Theme]];
+$account_themes = ['_' => 'account.themes', 'hash' => long, 'themes' => [Theme, Theme]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-account_themes={_='account.themes', hash=int, themes={Theme}}
+account_themes={_='account.themes', hash=long, themes={Theme}}
 
 ```
 

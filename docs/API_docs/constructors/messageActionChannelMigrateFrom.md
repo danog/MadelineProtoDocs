@@ -15,7 +15,7 @@ Indicates the channel was [migrated](https://core.telegram.org/api/channel) from
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |title|[string](../types/string.md) | Yes|The old chat tite|
-|chat\_id|[int](../types/int.md) | Yes|The old chat ID|
+|chat\_id|[long](../types/long.md) | Yes|
 
 
 
@@ -25,14 +25,14 @@ Indicates the channel was [migrated](https://core.telegram.org/api/channel) from
 ### Example:
 
 ```php
-$messageActionChannelMigrateFrom = ['_' => 'messageActionChannelMigrateFrom', 'title' => 'string', 'chat_id' => int];
+$messageActionChannelMigrateFrom = ['_' => 'messageActionChannelMigrateFrom', 'title' => 'string', 'chat_id' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messageActionChannelMigrateFrom={_='messageActionChannelMigrateFrom', title='string', chat_id=int}
+messageActionChannelMigrateFrom={_='messageActionChannelMigrateFrom', title='string', chat_id=long}
 
 ```
 

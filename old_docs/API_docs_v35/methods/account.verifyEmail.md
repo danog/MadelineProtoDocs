@@ -49,6 +49,7 @@ Bool = account.verifyEmail({email='string', code='string', })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|EMAIL_INVALID|The specified email is invalid|
 |400|EMAIL_VERIFY_EXPIRED|The verification email has expired|
 
 

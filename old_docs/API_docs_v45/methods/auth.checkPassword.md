@@ -51,5 +51,6 @@ auth_Authorization = auth.checkPassword({password=InputCheckPasswordSRP, })
 |400|PASSWORD_HASH_INVALID|The provided password hash is invalid|
 |400|SRP_ID_INVALID|Invalid SRP ID provided|
 |400|SRP_PASSWORD_CHANGED|Password has changed|
+|-503|Timeout|Timeout while fetching data|
 
 

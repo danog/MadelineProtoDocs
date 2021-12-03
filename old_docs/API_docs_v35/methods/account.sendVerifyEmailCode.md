@@ -44,3 +44,10 @@ Or, if you're into Lua:
 account_SentEmailCode = account.sendVerifyEmailCode({email='string', })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|EMAIL_INVALID|The specified email is invalid|
+
+

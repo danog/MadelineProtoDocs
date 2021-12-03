@@ -43,6 +43,7 @@ help_SupportName = help.getSupportName({})
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|USER_INVALID|Invalid user provided|
 |403|USER_INVALID|Invalid user provided|
 
 

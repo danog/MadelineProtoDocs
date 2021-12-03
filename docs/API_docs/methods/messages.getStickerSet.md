@@ -16,6 +16,7 @@ Get info about a stickerset
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |stickerset|[InputStickerSet](../types/InputStickerSet.md) | Stickerset | Optional|
+|hash|Array of [int](../types/int.md) |  | Optional|
 
 
 ### Return type: [messages.StickerSet](../types/messages.StickerSet.md)
@@ -35,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_StickerSet = $MadelineProto->messages->getStickerSet(['stickerset' => InputStickerSet, ]);
+$messages_StickerSet = $MadelineProto->messages->getStickerSet(['stickerset' => InputStickerSet, 'hash' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_StickerSet = messages.getStickerSet({stickerset=InputStickerSet, })
+messages_StickerSet = messages.getStickerSet({stickerset=InputStickerSet, hash={int}, })
 ```
 
 ### Errors

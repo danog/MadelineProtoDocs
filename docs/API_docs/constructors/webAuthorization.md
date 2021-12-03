@@ -15,7 +15,7 @@ Represents a bot logged in using the [Telegram login widget](https://core.telegr
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |hash|[long](../types/long.md) | Yes|Authorization hash|
-|bot\_id|[int](../types/int.md) | Yes|Bot ID|
+|bot\_id|[long](../types/long.md) | Yes|
 |domain|[string](../types/string.md) | Yes|The domain name of the website on which the user has logged in.|
 |browser|[string](../types/string.md) | Yes|Browser user-agent|
 |platform|[string](../types/string.md) | Yes|Platform|
@@ -32,14 +32,14 @@ Represents a bot logged in using the [Telegram login widget](https://core.telegr
 ### Example:
 
 ```php
-$webAuthorization = ['_' => 'webAuthorization', 'hash' => long, 'bot_id' => int, 'domain' => 'string', 'browser' => 'string', 'platform' => 'string', 'date_created' => int, 'date_active' => int, 'ip' => 'string', 'region' => 'string'];
+$webAuthorization = ['_' => 'webAuthorization', 'hash' => long, 'bot_id' => long, 'domain' => 'string', 'browser' => 'string', 'platform' => 'string', 'date_created' => int, 'date_active' => int, 'ip' => 'string', 'region' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-webAuthorization={_='webAuthorization', hash=long, bot_id=int, domain='string', browser='string', platform='string', date_created=int, date_active=int, ip='string', region='string'}
+webAuthorization={_='webAuthorization', hash=long, bot_id=long, domain='string', browser='string', platform='string', date_created=int, date_active=int, ip='string', region='string'}
 
 ```
 

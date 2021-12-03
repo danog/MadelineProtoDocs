@@ -19,7 +19,7 @@ Get the participants of a [supergroup/channel](https://core.telegram.org/api/cha
 |filter|[ChannelParticipantsFilter](../types/ChannelParticipantsFilter.md) | Which participant types to fetch | Yes|
 |offset|[int](../types/int.md) | [Offset](https://core.telegram.org/api/offsets) | Yes|
 |limit|[int](../types/int.md) | [Limit](https://core.telegram.org/api/offsets) | Yes|
-|hash|Array of [int](../types/int.md) | [Hash](https://core.telegram.org/api/offsets) | Optional|
+|hash|[long](../types/long.md) |  | Yes|
 
 
 ### Return type: [channels.ChannelParticipants](../types/channels.ChannelParticipants.md)
@@ -39,13 +39,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$channels_ChannelParticipants = $MadelineProto->channels->getParticipants(['channel' => InputChannel, 'filter' => ChannelParticipantsFilter, 'offset' => int, 'limit' => int, 'hash' => [int, int], ]);
+$channels_ChannelParticipants = $MadelineProto->channels->getParticipants(['channel' => InputChannel, 'filter' => ChannelParticipantsFilter, 'offset' => int, 'limit' => int, 'hash' => long, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-channels_ChannelParticipants = channels.getParticipants({channel=InputChannel, filter=ChannelParticipantsFilter, offset=int, limit=int, hash={int}, })
+channels_ChannelParticipants = channels.getParticipants({channel=InputChannel, filter=ChannelParticipantsFilter, offset=int, limit=int, hash=long, })
 ```
 
 ### Errors

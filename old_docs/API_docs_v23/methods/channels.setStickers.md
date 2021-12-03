@@ -51,5 +51,6 @@ Bool = channels.setStickers({channel=InputChannel, stickerset=InputStickerSet, }
 |------|----------|---------------|
 |400|CHANNEL_INVALID|The provided channel is invalid|
 |400|PARTICIPANTS_TOO_FEW|Not enough participants|
+|406|STICKERSET_OWNER_ANONYMOUS|Provided stickerset can't be installed as group stickerset to prevent admin deanonymisation.|
 
 

@@ -15,7 +15,7 @@ Installed wallpapers
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[int](../types/int.md) | Yes|
+|hash|[long](../types/long.md) | Yes|
 |wallpapers|Array of [WallPaper](../types/WallPaper.md) | Yes|Wallpapers|
 
 
@@ -26,14 +26,14 @@ Installed wallpapers
 ### Example:
 
 ```php
-$account_wallPapers = ['_' => 'account.wallPapers', 'hash' => int, 'wallpapers' => [WallPaper, WallPaper]];
+$account_wallPapers = ['_' => 'account.wallPapers', 'hash' => long, 'wallpapers' => [WallPaper, WallPaper]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-account_wallPapers={_='account.wallPapers', hash=int, wallpapers={WallPaper}}
+account_wallPapers={_='account.wallPapers', hash=long, wallpapers={WallPaper}}
 
 ```
 

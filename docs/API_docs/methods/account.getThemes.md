@@ -16,7 +16,7 @@ Get installed themes
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |format|[string](../types/string.md) | Theme format, a string that identifies the theming engines supported by the client | Yes|
-|hash|Array of [int](../types/int.md) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|[long](../types/long.md) |  | Yes|
 
 
 ### Return type: [account.Themes](../types/account.Themes.md)
@@ -36,12 +36,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_Themes = $MadelineProto->account->getThemes(['format' => 'string', 'hash' => [int, int], ]);
+$account_Themes = $MadelineProto->account->getThemes(['format' => 'string', 'hash' => long, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account_Themes = account.getThemes({format='string', hash={int}, })
+account_Themes = account.getThemes({format='string', hash=long, })
 ```
 

@@ -14,7 +14,7 @@ Info about bots (available bot commands, etc)
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|ID of the bot|
+|user\_id|[long](../types/long.md) | Yes|
 |description|[string](../types/string.md) | Yes|Description of the bot|
 |commands|Array of [BotCommand](../types/BotCommand.md) | Yes|Bot commands that can be used in the chat|
 
@@ -26,14 +26,14 @@ Info about bots (available bot commands, etc)
 ### Example:
 
 ```php
-$botInfo = ['_' => 'botInfo', 'user_id' => int, 'description' => 'string', 'commands' => [BotCommand, BotCommand]];
+$botInfo = ['_' => 'botInfo', 'user_id' => long, 'description' => 'string', 'commands' => [BotCommand, BotCommand]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-botInfo={_='botInfo', user_id=int, description='string', commands={BotCommand}}
+botInfo={_='botInfo', user_id=long, description='string', commands={BotCommand}}
 
 ```
 

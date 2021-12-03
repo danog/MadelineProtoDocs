@@ -14,7 +14,7 @@ Information about an active supergroup inviter
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User ID|
+|user\_id|[long](../types/long.md) | Yes|
 |invitations|[int](../types/int.md) | Yes|Number of invitations for [statistics](https://core.telegram.org/api/stats) period in consideration|
 
 
@@ -25,14 +25,14 @@ Information about an active supergroup inviter
 ### Example:
 
 ```php
-$statsGroupTopInviter = ['_' => 'statsGroupTopInviter', 'user_id' => int, 'invitations' => int];
+$statsGroupTopInviter = ['_' => 'statsGroupTopInviter', 'user_id' => long, 'invitations' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-statsGroupTopInviter={_='statsGroupTopInviter', user_id=int, invitations=int}
+statsGroupTopInviter={_='statsGroupTopInviter', user_id=long, invitations=int}
 
 ```
 

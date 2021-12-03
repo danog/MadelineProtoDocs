@@ -14,7 +14,7 @@ The result of an inline query that was chosen by a user and sent to their chat p
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|The user that chose the result|
+|user\_id|[long](../types/long.md) | Yes|
 |query|[string](../types/string.md) | Yes|The query that was used to obtain the result|
 |geo|[GeoPoint](../types/GeoPoint.md) | Optional|Optional. Sender location, only for bots that require user location|
 |id|[string](../types/string.md) | Yes|The unique identifier for the result that was chosen|
@@ -28,14 +28,14 @@ The result of an inline query that was chosen by a user and sent to their chat p
 ### Example:
 
 ```php
-$updateBotInlineSend = ['_' => 'updateBotInlineSend', 'user_id' => int, 'query' => 'string', 'geo' => GeoPoint, 'id' => 'string', 'msg_id' => InputBotInlineMessageID];
+$updateBotInlineSend = ['_' => 'updateBotInlineSend', 'user_id' => long, 'query' => 'string', 'geo' => GeoPoint, 'id' => 'string', 'msg_id' => InputBotInlineMessageID];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateBotInlineSend={_='updateBotInlineSend', user_id=int, query='string', geo=GeoPoint, id='string', msg_id=InputBotInlineMessageID}
+updateBotInlineSend={_='updateBotInlineSend', user_id=long, query='string', geo=GeoPoint, id='string', msg_id=InputBotInlineMessageID}
 
 ```
 

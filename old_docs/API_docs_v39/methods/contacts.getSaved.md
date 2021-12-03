@@ -43,6 +43,7 @@ Vector_of_SavedContact = contacts.getSaved({})
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|TAKEOUT_REQUIRED|A takeout session has to be initialized, first|
 |403|TAKEOUT_REQUIRED|A takeout session has to be initialized, first|
 
 

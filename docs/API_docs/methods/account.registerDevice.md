@@ -20,7 +20,7 @@ Register device to receive [PUSH notifications](https://core.telegram.org/api/pu
 |token|[string](../types/string.md) | Device token | Yes|
 |app\_sandbox|[Bool](../types/Bool.md) | If [(boolTrue)](../constructors/boolTrue.md) is transmitted, a sandbox-certificate will be used during transmission. | Yes|
 |secret|[bytes](../types/bytes.md) | For FCM and APNS VoIP, optional encryption key used to encrypt push notifications | Yes|
-|other\_uids|Array of [int](../types/int.md) | List of user identifiers of other users currently using the client | Yes|
+|other\_uids|Array of [long](../types/long.md) | List of user identifiers of other users currently using the client | Yes|
 
 
 ### Return type: [Bool](../types/Bool.md)
@@ -40,13 +40,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->account->registerDevice(['no_muted' => Bool, 'token_type' => int, 'token' => 'string', 'app_sandbox' => Bool, 'secret' => 'bytes', 'other_uids' => [int, int], ]);
+$Bool = $MadelineProto->account->registerDevice(['no_muted' => Bool, 'token_type' => int, 'token' => 'string', 'app_sandbox' => Bool, 'secret' => 'bytes', 'other_uids' => [long, long], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Bool = account.registerDevice({no_muted=Bool, token_type=int, token='string', app_sandbox=Bool, secret='bytes', other_uids={int}, })
+Bool = account.registerDevice({no_muted=Bool, token_type=int, token='string', app_sandbox=Bool, secret='bytes', other_uids={long}, })
 ```
 
 ### Errors

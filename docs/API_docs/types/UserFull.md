@@ -16,11 +16,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->users->getFullUser](../methods/users.getFullUser.md)  
-
 
 
 [userFull](../constructors/userFull.md)  
-
-[$MadelineProto->users->getFullUser](../methods/users.getFullUser.md)  
 

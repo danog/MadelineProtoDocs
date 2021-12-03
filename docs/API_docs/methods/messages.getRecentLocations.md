@@ -17,7 +17,7 @@ Get live location history of a certain user
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | User | Optional|
 |limit|[int](../types/int.md) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
-|hash|Array of [int](../types/int.md) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|[long](../types/long.md) |  | Yes|
 
 
 ### Return type: [messages.Messages](../types/messages.Messages.md)
@@ -37,12 +37,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->messages->getRecentLocations(['peer' => InputPeer, 'limit' => int, 'hash' => [int, int], ]);
+$messages_Messages = $MadelineProto->messages->getRecentLocations(['peer' => InputPeer, 'limit' => int, 'hash' => long, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_Messages = messages.getRecentLocations({peer=InputPeer, limit=int, hash={int}, })
+messages_Messages = messages.getRecentLocations({peer=InputPeer, limit=int, hash=long, })
 ```
 

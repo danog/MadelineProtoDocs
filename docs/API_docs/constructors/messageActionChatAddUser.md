@@ -14,7 +14,7 @@ New member in the group
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|users|Array of [int](../types/int.md) | Yes|Users that were invited to the chat|
+|users|Array of [long](../types/long.md) | Yes|Users that were invited to the chat|
 
 
 
@@ -24,14 +24,14 @@ New member in the group
 ### Example:
 
 ```php
-$messageActionChatAddUser = ['_' => 'messageActionChatAddUser', 'users' => [int, int]];
+$messageActionChatAddUser = ['_' => 'messageActionChatAddUser', 'users' => [long, long]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messageActionChatAddUser={_='messageActionChatAddUser', users={int}}
+messageActionChatAddUser={_='messageActionChatAddUser', users={long}}
 
 ```
 

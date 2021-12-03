@@ -14,7 +14,7 @@ Changes the user's first name, last name and username.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User identifier|
+|user\_id|[long](../types/long.md) | Yes|
 |first\_name|[string](../types/string.md) | Yes|New first name. Corresponds to the new value of **real\_first\_name** field of the [userFull](../constructors/userFull.md) constructor.|
 |last\_name|[string](../types/string.md) | Yes|New last name. Corresponds to the new value of **real\_last\_name** field of the [userFull](../constructors/userFull.md) constructor.|
 |username|[string](../types/string.md) | Yes|New username.<br>Parameter added in [Layer 18](https://core.telegram.org/api/layers#layer-18).|
@@ -27,14 +27,14 @@ Changes the user's first name, last name and username.
 ### Example:
 
 ```php
-$updateUserName = ['_' => 'updateUserName', 'user_id' => int, 'first_name' => 'string', 'last_name' => 'string', 'username' => 'string'];
+$updateUserName = ['_' => 'updateUserName', 'user_id' => long, 'first_name' => 'string', 'last_name' => 'string', 'username' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateUserName={_='updateUserName', user_id=int, first_name='string', last_name='string', username='string'}
+updateUserName={_='updateUserName', user_id=long, first_name='string', last_name='string', username='string'}
 
 ```
 

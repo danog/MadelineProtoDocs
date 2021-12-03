@@ -14,11 +14,12 @@ redirect_from: /API_docs/methods/phone_getGroupCall.html
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |call|[InputGroupCall](../types/InputGroupCall.md) | Yes|
+|limit|[int](../types/int.md) | Yes|
 
 
 ### Return type: [phone.GroupCall](../types/phone.GroupCall.md)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
@@ -33,12 +34,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$phone_GroupCall = $MadelineProto->phone->getGroupCall(['call' => InputGroupCall, ]);
+$phone_GroupCall = $MadelineProto->phone->getGroupCall(['call' => InputGroupCall, 'limit' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-phone_GroupCall = phone.getGroupCall({call=InputGroupCall, })
+phone_GroupCall = phone.getGroupCall({call=InputGroupCall, limit=int, })
 ```
 

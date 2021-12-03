@@ -360,6 +360,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [SavedContact](SavedContact.md)<a name="SavedContact"></a>  
 
+[SearchResultsCalendarPeriod](SearchResultsCalendarPeriod.md)<a name="SearchResultsCalendarPeriod"></a>  
+
+[SearchResultsPosition](SearchResultsPosition.md)<a name="SearchResultsPosition"></a>  
+
 [SecureCredentialsEncrypted](SecureCredentialsEncrypted.md)<a name="SecureCredentialsEncrypted"></a>  
 
 [SecureData](SecureData.md)<a name="SecureData"></a>  
@@ -385,6 +389,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [SendMessageAction](SendMessageAction.md)<a name="SendMessageAction"></a>  
 
 [ShippingOption](ShippingOption.md)<a name="ShippingOption"></a>  
+
+[SponsoredMessage](SponsoredMessage.md)<a name="SponsoredMessage"></a>  
 
 [StatsAbsValueAndPrev](StatsAbsValueAndPrev.md)<a name="StatsAbsValueAndPrev"></a>  
 
@@ -486,6 +492,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [auth.ExportedAuthorization](auth.ExportedAuthorization.md)<a name="auth.ExportedAuthorization"></a>  
 
+[auth.LoggedOut](auth.LoggedOut.md)<a name="auth.LoggedOut"></a>  
+
 [auth.LoginToken](auth.LoginToken.md)<a name="auth.LoginToken"></a>  
 
 [auth.PasswordRecovery](auth.PasswordRecovery.md)<a name="auth.PasswordRecovery"></a>  
@@ -499,6 +507,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [channels.ChannelParticipant](channels.ChannelParticipant.md)<a name="channels.ChannelParticipant"></a>  
 
 [channels.ChannelParticipants](channels.ChannelParticipants.md)<a name="channels.ChannelParticipants"></a>  
+
+[channels.SendAsPeers](channels.SendAsPeers.md)<a name="channels.SendAsPeers"></a>  
 
 [contacts.Blocked](contacts.Blocked.md)<a name="contacts.Blocked"></a>  
 
@@ -600,13 +610,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messages.PeerDialogs](messages.PeerDialogs.md)<a name="messages.PeerDialogs"></a>  
 
+[messages.PeerSettings](messages.PeerSettings.md)<a name="messages.PeerSettings"></a>  
+
 [messages.RecentStickers](messages.RecentStickers.md)<a name="messages.RecentStickers"></a>  
 
 [messages.SavedGifs](messages.SavedGifs.md)<a name="messages.SavedGifs"></a>  
 
 [messages.SearchCounter](messages.SearchCounter.md)<a name="messages.SearchCounter"></a>  
 
+[messages.SearchResultsCalendar](messages.SearchResultsCalendar.md)<a name="messages.SearchResultsCalendar"></a>  
+
+[messages.SearchResultsPositions](messages.SearchResultsPositions.md)<a name="messages.SearchResultsPositions"></a>  
+
 [messages.SentEncryptedMessage](messages.SentEncryptedMessage.md)<a name="messages.SentEncryptedMessage"></a>  
+
+[messages.SponsoredMessages](messages.SponsoredMessages.md)<a name="messages.SponsoredMessages"></a>  
 
 [messages.StickerSet](messages.StickerSet.md)<a name="messages.StickerSet"></a>  
 
@@ -663,4 +681,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [upload.File](upload.File.md)<a name="upload.File"></a>  
 
 [upload.WebFile](upload.WebFile.md)<a name="upload.WebFile"></a>  
+
+[users.UserFull](users.UserFull.md)<a name="users.UserFull"></a>  
 

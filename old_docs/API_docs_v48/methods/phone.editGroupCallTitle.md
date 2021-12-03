@@ -19,7 +19,7 @@ redirect_from: /API_docs/methods/phone_editGroupCallTitle.html
 
 ### Return type: [Updates](../types/Updates.md)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

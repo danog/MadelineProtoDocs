@@ -14,7 +14,7 @@ Defines a chat for further interaction.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[int](../types/int.md) | Yes|Chat idientifier|
+|chat\_id|[long](../types/long.md) | Yes|
 
 
 
@@ -24,14 +24,14 @@ Defines a chat for further interaction.
 ### Example:
 
 ```php
-$inputPeerChat = ['_' => 'inputPeerChat', 'chat_id' => int];
+$inputPeerChat = ['_' => 'inputPeerChat', 'chat_id' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-inputPeerChat={_='inputPeerChat', chat_id=int}
+inputPeerChat={_='inputPeerChat', chat_id=long}
 
 ```
 

@@ -12,7 +12,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|user\_id|[int](../types/int.md) | Yes|
+|user\_id|[long](../types/long.md) | Yes|
 |date|[int](../types/int.md) | Yes|
 |stopped|[Bool](../types/Bool.md) | Yes|
 |qts|[int](../types/int.md) | Yes|
@@ -25,14 +25,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```php
-$updateBotStopped = ['_' => 'updateBotStopped', 'user_id' => int, 'date' => int, 'stopped' => Bool, 'qts' => int];
+$updateBotStopped = ['_' => 'updateBotStopped', 'user_id' => long, 'date' => int, 'stopped' => Bool, 'qts' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateBotStopped={_='updateBotStopped', user_id=int, date=int, stopped=Bool, qts=int}
+updateBotStopped={_='updateBotStopped', user_id=long, date=int, stopped=Bool, qts=int}
 
 ```
 

@@ -42,3 +42,11 @@ Or, if you're into Lua:
 messages_ChatAdminsWithInvites = messages.getAdminsWithInvites({peer=InputPeer, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
+|403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
+
+

@@ -16,9 +16,11 @@ Export an invite link for a chat
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |legacy\_revoke\_permanent|[Bool](../types/Bool.md) |  | Optional|
+|request\_needed|[Bool](../types/Bool.md) |  | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Chat | Optional|
 |expire\_date|[int](../types/int.md) |  | Optional|
 |usage\_limit|[int](../types/int.md) |  | Optional|
+|title|[string](../types/string.md) |  | Optional|
 
 
 ### Return type: [ExportedChatInvite](../types/ExportedChatInvite.md)
@@ -38,13 +40,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$ExportedChatInvite = $MadelineProto->messages->exportChatInvite(['legacy_revoke_permanent' => Bool, 'peer' => InputPeer, 'expire_date' => int, 'usage_limit' => int, ]);
+$ExportedChatInvite = $MadelineProto->messages->exportChatInvite(['legacy_revoke_permanent' => Bool, 'request_needed' => Bool, 'peer' => InputPeer, 'expire_date' => int, 'usage_limit' => int, 'title' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-ExportedChatInvite = messages.exportChatInvite({legacy_revoke_permanent=Bool, peer=InputPeer, expire_date=int, usage_limit=int, })
+ExportedChatInvite = messages.exportChatInvite({legacy_revoke_permanent=Bool, request_needed=Bool, peer=InputPeer, expire_date=int, usage_limit=int, title='string', })
 ```
 
 ### Errors
@@ -54,7 +56,10 @@ ExportedChatInvite = messages.exportChatInvite({legacy_revoke_permanent=Bool, pe
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 |400|CHAT_ID_INVALID|The provided chat id is invalid|
+|400|EXPIRE_DATE_INVALID|The specified expiration date is invalid|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
+|400|USAGE_LIMIT_INVALID|The specified usage limit is invalid|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 
 

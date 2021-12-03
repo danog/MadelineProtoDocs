@@ -15,7 +15,7 @@ Returns chat basic info on their IDs.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|Array of [int](../types/int.md) | List of chat IDs | Yes|
+|id|Array of [long](../types/long.md) | List of chat IDs | Yes|
 
 
 ### Return type: [messages.Chats](../types/messages.Chats.md)
@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Chats = $MadelineProto->messages->getChats(['id' => [int, int], ]);
+$messages_Chats = $MadelineProto->messages->getChats(['id' => [long, long], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_Chats = messages.getChats({id={int}, })
+messages_Chats = messages.getChats({id={long}, })
 ```
 
 ### Errors

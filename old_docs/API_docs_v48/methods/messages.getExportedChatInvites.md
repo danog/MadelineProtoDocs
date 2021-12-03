@@ -47,3 +47,11 @@ Or, if you're into Lua:
 messages_ExportedChatInvites = messages.getExportedChatInvites({revoked=Bool, peer=InputPeer, admin_id=InputUser, offset_date=int, offset_link='string', limit=int, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|ADMIN_ID_INVALID|The specified admin ID is invalid|
+|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
+
+

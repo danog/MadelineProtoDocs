@@ -56,6 +56,7 @@ Updates = channels.editCreator({channel=InputChannel, user_id=InputUser, passwor
 |400|PASSWORD_MISSING|You must enable 2FA in order to transfer ownership of a channel|
 |400|PASSWORD_TOO_FRESH_X|The password was modified less than 24 hours ago, try again in X seconds|
 |400|SESSION_TOO_FRESH_X|This session was created less than 24 hours ago, try again in X seconds|
+|400|SRP_ID_INVALID|Invalid SRP ID provided|
 |400|USER_ID_INVALID|The provided user ID is invalid|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 

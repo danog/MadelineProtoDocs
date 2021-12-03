@@ -21,6 +21,8 @@ redirect_from: /API_docs/types/account_Themes.html
 
 [$MadelineProto->account->getThemes](../methods/account.getThemes.md)  
 
+[$MadelineProto->account->getChatThemes](../methods/account.getChatThemes.md)  
+
 
 
 [account.themesNotModified](../constructors/account.themesNotModified.md)  
@@ -28,4 +30,6 @@ redirect_from: /API_docs/types/account_Themes.html
 [account.themes](../constructors/account.themes.md)  
 
 [$MadelineProto->account->getThemes](../methods/account.getThemes.md)  
+
+[$MadelineProto->account->getChatThemes](../methods/account.getChatThemes.md)  
 

@@ -18,7 +18,7 @@ Create a theme
 |slug|[string](../types/string.md) | Unique theme ID | Yes|
 |title|[string](../types/string.md) | Theme name | Yes|
 |document|[MessageMedia, Update, Message or InputDocument](../types/InputDocument.md) | Theme file | Optional|
-|settings|[InputThemeSettings](../types/InputThemeSettings.md) | Theme settings | Optional|
+|settings|Array of [InputThemeSettings](../types/InputThemeSettings.md) |  | Optional|
 
 
 ### Return type: [Theme](../types/Theme.md)
@@ -38,12 +38,19 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Theme = $MadelineProto->account->createTheme(['slug' => 'string', 'title' => 'string', 'document' => InputDocument, 'settings' => InputThemeSettings, ]);
+$Theme = $MadelineProto->account->createTheme(['slug' => 'string', 'title' => 'string', 'document' => InputDocument, 'settings' => [InputThemeSettings, InputThemeSettings], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Theme = account.createTheme({slug='string', title='string', document=InputDocument, settings=InputThemeSettings, })
+Theme = account.createTheme({slug='string', title='string', document=InputDocument, settings={InputThemeSettings}, })
 ```
+
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|THEME_MIME_INVALID|The theme's MIME type is invalid|
+
 

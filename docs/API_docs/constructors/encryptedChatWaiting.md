@@ -17,8 +17,8 @@ Chat waiting for approval of second participant.
 |id|[int](../types/int.md) | Yes|Chat ID|
 |access\_hash|[long](../types/long.md) | Yes|Checking sum depending on user ID|
 |date|[int](../types/int.md) | Yes|Date of chat creation|
-|admin\_id|[int](../types/int.md) | Yes|Chat creator ID|
-|participant\_id|[int](../types/int.md) | Yes|ID of second chat participant|
+|admin\_id|[long](../types/long.md) | Yes|
+|participant\_id|[long](../types/long.md) | Yes|
 
 
 
@@ -28,14 +28,14 @@ Chat waiting for approval of second participant.
 ### Example:
 
 ```php
-$encryptedChatWaiting = ['_' => 'encryptedChatWaiting', 'id' => int, 'access_hash' => long, 'date' => int, 'admin_id' => int, 'participant_id' => int];
+$encryptedChatWaiting = ['_' => 'encryptedChatWaiting', 'id' => int, 'access_hash' => long, 'date' => int, 'admin_id' => long, 'participant_id' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-encryptedChatWaiting={_='encryptedChatWaiting', id=int, access_hash=long, date=int, admin_id=int, participant_id=int}
+encryptedChatWaiting={_='encryptedChatWaiting', id=int, access_hash=long, date=int, admin_id=long, participant_id=long}
 
 ```
 

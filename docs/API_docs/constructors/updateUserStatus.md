@@ -14,7 +14,7 @@ Contact status update.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User identifier|
+|user\_id|[long](../types/long.md) | Yes|
 |status|[UserStatus](../types/UserStatus.md) | Optional|New status|
 
 
@@ -25,14 +25,14 @@ Contact status update.
 ### Example:
 
 ```php
-$updateUserStatus = ['_' => 'updateUserStatus', 'user_id' => int, 'status' => UserStatus];
+$updateUserStatus = ['_' => 'updateUserStatus', 'user_id' => long, 'status' => UserStatus];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateUserStatus={_='updateUserStatus', user_id=int, status=UserStatus}
+updateUserStatus={_='updateUserStatus', user_id=long, status=UserStatus}
 
 ```
 

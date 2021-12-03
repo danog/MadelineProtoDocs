@@ -14,10 +14,11 @@ Theme settings
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|message\_colors\_animated|[Bool](../types/Bool.md) | Optional|
 |base\_theme|[BaseTheme](../types/BaseTheme.md) | Yes|Base theme|
 |accent\_color|[int](../types/int.md) | Yes|Accent color, RGB24 format|
-|message\_top\_color|[int](../types/int.md) | Optional|Message gradient color (top), RGB24 format|
-|message\_bottom\_color|[int](../types/int.md) | Optional|Message gradient color (bottom), RGB24 format|
+|outbox\_accent\_color|[int](../types/int.md) | Optional|
+|message\_colors|Array of [int](../types/int.md) | Optional|
 |wallpaper|[WallPaper](../types/WallPaper.md) | Optional|Wallpaper|
 
 
@@ -28,14 +29,14 @@ Theme settings
 ### Example:
 
 ```php
-$themeSettings = ['_' => 'themeSettings', 'base_theme' => BaseTheme, 'accent_color' => int, 'message_top_color' => int, 'message_bottom_color' => int, 'wallpaper' => WallPaper];
+$themeSettings = ['_' => 'themeSettings', 'message_colors_animated' => Bool, 'base_theme' => BaseTheme, 'accent_color' => int, 'outbox_accent_color' => int, 'message_colors' => [int, int], 'wallpaper' => WallPaper];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-themeSettings={_='themeSettings', base_theme=BaseTheme, accent_color=int, message_top_color=int, message_bottom_color=int, wallpaper=WallPaper}
+themeSettings={_='themeSettings', message_colors_animated=Bool, base_theme=BaseTheme, accent_color=int, outbox_accent_color=int, message_colors={int}, wallpaper=WallPaper}
 
 ```
 

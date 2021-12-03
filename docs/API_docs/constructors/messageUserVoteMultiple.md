@@ -14,7 +14,7 @@ How a user voted in a multiple-choice poll
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User ID|
+|user\_id|[long](../types/long.md) | Yes|
 |options|Array of [bytes](../types/bytes.md) | Yes|Options chosen by the user|
 |date|[int](../types/int.md) | Yes|When did the user cast their votes|
 
@@ -26,14 +26,14 @@ How a user voted in a multiple-choice poll
 ### Example:
 
 ```php
-$messageUserVoteMultiple = ['_' => 'messageUserVoteMultiple', 'user_id' => int, 'options' => ['bytes', 'bytes'], 'date' => int];
+$messageUserVoteMultiple = ['_' => 'messageUserVoteMultiple', 'user_id' => long, 'options' => ['bytes', 'bytes'], 'date' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messageUserVoteMultiple={_='messageUserVoteMultiple', user_id=int, options={'bytes'}, date=int}
+messageUserVoteMultiple={_='messageUserVoteMultiple', user_id=long, options={'bytes'}, date=int}
 
 ```
 

@@ -16,7 +16,7 @@ Get recent stickers
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |attached|[Bool](../types/Bool.md) | Get stickers recently attached to photo or video files | Optional|
-|hash|Array of [int](../types/int.md) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|[long](../types/long.md) |  | Yes|
 
 
 ### Return type: [messages.RecentStickers](../types/messages.RecentStickers.md)
@@ -36,12 +36,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_RecentStickers = $MadelineProto->messages->getRecentStickers(['attached' => Bool, 'hash' => [int, int], ]);
+$messages_RecentStickers = $MadelineProto->messages->getRecentStickers(['attached' => Bool, 'hash' => long, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_RecentStickers = messages.getRecentStickers({attached=Bool, hash={int}, })
+messages_RecentStickers = messages.getRecentStickers({attached=Bool, hash=long, })
 ```
 

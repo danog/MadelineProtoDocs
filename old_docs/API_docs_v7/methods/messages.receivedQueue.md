@@ -48,6 +48,7 @@ Vector_of_long = messages.receivedQueue({max_qts=int, })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|MAX_QTS_INVALID|The specified max_qts is invalid|
 |400|MSG_WAIT_FAILED|A waiting call returned an error|
 
 

@@ -62,6 +62,7 @@ updates_Difference = updates.getDifference({pts=int, pts_total_limit=int, date=i
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
 |401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
+|403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 |-500|No workers running|Internal error|
 |-504|memory limit exit|Internal error|
 |-504|memory limit(?)|Internal error|

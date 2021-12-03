@@ -53,6 +53,7 @@ Updates = messages.setGameScore({edit_message=Bool, force=Bool, peer=InputPeer, 
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|BOT_SCORE_NOT_MODIFIED|The score wasn't modified|
 |400|MESSAGE_ID_INVALID|The provided message id is invalid|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|USER_BOT_REQUIRED|This method can only be called by a bot|

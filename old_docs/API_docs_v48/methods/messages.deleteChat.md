@@ -18,7 +18,7 @@ redirect_from: /API_docs/methods/messages_deleteChat.html
 
 ### Return type: [Bool](../types/Bool.md)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
@@ -46,6 +46,7 @@ Bool = messages.deleteChat({chat_id=InputPeer, })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|CHAT_ID_INVALID|The provided chat id is invalid|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 
 

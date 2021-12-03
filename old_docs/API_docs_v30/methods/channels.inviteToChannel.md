@@ -69,6 +69,7 @@ Updates = channels.inviteToChannel({channel=InputChannel, users={InputUser}, })
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 |403|USER_CHANNELS_TOO_MUCH|One of the users you tried to add is already in too many channels/supergroups|
+|403|USER_NOT_MUTUAL_CONTACT|The provided user is not a mutual contact|
 |403|USER_PRIVACY_RESTRICTED|The user's privacy settings do not allow you to do this|
 |-503|Timeout|Timeout while fetching data|
 

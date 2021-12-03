@@ -44,3 +44,12 @@ Or, if you're into Lua:
 Bool = bots.setBotCommands({commands={BotCommand}, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|BOT_COMMAND_DESCRIPTION_INVALID|The specified command description is invalid|
+|400|BOT_COMMAND_INVALID|The specified command is invalid|
+|400|LANG_CODE_INVALID|The specified language code is invalid|
+
+

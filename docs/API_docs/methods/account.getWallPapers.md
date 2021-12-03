@@ -15,7 +15,7 @@ Returns a list of available wallpapers.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [int](../types/int.md) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|[long](../types/long.md) |  | Yes|
 
 
 ### Return type: [account.WallPapers](../types/account.WallPapers.md)
@@ -35,12 +35,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_WallPapers = $MadelineProto->account->getWallPapers(['hash' => [int, int], ]);
+$account_WallPapers = $MadelineProto->account->getWallPapers(['hash' => long, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-account_WallPapers = account.getWallPapers({hash={int}, })
+account_WallPapers = account.getWallPapers({hash=long, })
 ```
 

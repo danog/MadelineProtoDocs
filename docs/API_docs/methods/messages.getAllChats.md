@@ -15,7 +15,7 @@ Get all chats, channels and supergroups
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|except\_ids|Array of [int](../types/int.md) | Except these chats/channels/supergroups | Yes|
+|except\_ids|Array of [long](../types/long.md) | Except these chats/channels/supergroups | Yes|
 
 
 ### Return type: [messages.Chats](../types/messages.Chats.md)
@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Chats = $MadelineProto->messages->getAllChats(['except_ids' => [int, int], ]);
+$messages_Chats = $MadelineProto->messages->getAllChats(['except_ids' => [long, long], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_Chats = messages.getAllChats({except_ids={int}, })
+messages_Chats = messages.getAllChats({except_ids={long}, })
 ```
 
 ### Errors

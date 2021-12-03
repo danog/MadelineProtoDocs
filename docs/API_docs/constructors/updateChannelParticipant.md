@@ -14,10 +14,10 @@ A participant has left, joined, was banned or admined in a [channel or supergrou
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[int](../types/int.md) | Yes|Channel ID|
+|channel\_id|[long](../types/long.md) | Yes|
 |date|[int](../types/int.md) | Yes|Date of the event|
-|actor\_id|[int](../types/int.md) | Yes|
-|user\_id|[int](../types/int.md) | Yes|User in question|
+|actor\_id|[long](../types/long.md) | Yes|
+|user\_id|[long](../types/long.md) | Yes|
 |prev\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Optional|Previous participant status|
 |new\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Optional|New participant status|
 |invite|[ExportedChatInvite](../types/ExportedChatInvite.md) | Optional|
@@ -31,14 +31,14 @@ A participant has left, joined, was banned or admined in a [channel or supergrou
 ### Example:
 
 ```php
-$updateChannelParticipant = ['_' => 'updateChannelParticipant', 'channel_id' => int, 'date' => int, 'actor_id' => int, 'user_id' => int, 'prev_participant' => ChannelParticipant, 'new_participant' => ChannelParticipant, 'invite' => ExportedChatInvite, 'qts' => int];
+$updateChannelParticipant = ['_' => 'updateChannelParticipant', 'channel_id' => long, 'date' => int, 'actor_id' => long, 'user_id' => long, 'prev_participant' => ChannelParticipant, 'new_participant' => ChannelParticipant, 'invite' => ExportedChatInvite, 'qts' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateChannelParticipant={_='updateChannelParticipant', channel_id=int, date=int, actor_id=int, user_id=int, prev_participant=ChannelParticipant, new_participant=ChannelParticipant, invite=ExportedChatInvite, qts=int}
+updateChannelParticipant={_='updateChannelParticipant', channel_id=long, date=int, actor_id=long, user_id=long, prev_participant=ChannelParticipant, new_participant=ChannelParticipant, invite=ExportedChatInvite, qts=int}
 
 ```
 

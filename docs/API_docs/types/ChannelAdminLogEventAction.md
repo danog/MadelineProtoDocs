@@ -74,6 +74,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [channelAdminLogEventActionChangeHistoryTTL](../constructors/channelAdminLogEventActionChangeHistoryTTL.md)  
 
+[channelAdminLogEventActionParticipantJoinByRequest](../constructors/channelAdminLogEventActionParticipantJoinByRequest.md)  
+
+[channelAdminLogEventActionToggleNoForwards](../constructors/channelAdminLogEventActionToggleNoForwards.md)  
+
+[channelAdminLogEventActionSendMessage](../constructors/channelAdminLogEventActionSendMessage.md)  
+
 
 
 ### Methods that return an object of this type (methods):
@@ -143,4 +149,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [channelAdminLogEventActionParticipantVolume](../constructors/channelAdminLogEventActionParticipantVolume.md)  
 
 [channelAdminLogEventActionChangeHistoryTTL](../constructors/channelAdminLogEventActionChangeHistoryTTL.md)  
+
+[channelAdminLogEventActionParticipantJoinByRequest](../constructors/channelAdminLogEventActionParticipantJoinByRequest.md)  
+
+[channelAdminLogEventActionToggleNoForwards](../constructors/channelAdminLogEventActionToggleNoForwards.md)  
+
+[channelAdminLogEventActionSendMessage](../constructors/channelAdminLogEventActionSendMessage.md)  
 

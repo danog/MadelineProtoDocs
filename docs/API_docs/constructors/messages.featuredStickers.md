@@ -15,7 +15,7 @@ Featured stickersets
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[int](../types/int.md) | Yes|
+|hash|[long](../types/long.md) | Yes|
 |count|[int](../types/int.md) | Yes|Total number of featured stickers|
 |sets|Array of [StickerSetCovered](../types/StickerSetCovered.md) | Yes|Featured stickersets|
 |unread|Array of [long](../types/long.md) | Yes|IDs of new featured stickersets|
@@ -28,14 +28,14 @@ Featured stickersets
 ### Example:
 
 ```php
-$messages_featuredStickers = ['_' => 'messages.featuredStickers', 'hash' => int, 'count' => int, 'sets' => [StickerSetCovered, StickerSetCovered], 'unread' => [long, long]];
+$messages_featuredStickers = ['_' => 'messages.featuredStickers', 'hash' => long, 'count' => int, 'sets' => [StickerSetCovered, StickerSetCovered], 'unread' => [long, long]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages_featuredStickers={_='messages.featuredStickers', hash=int, count=int, sets={StickerSetCovered}, unread={long}}
+messages_featuredStickers={_='messages.featuredStickers', hash=long, count=int, sets={StickerSetCovered}, unread={long}}
 
 ```
 

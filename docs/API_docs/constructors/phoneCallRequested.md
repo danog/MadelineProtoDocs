@@ -18,8 +18,8 @@ Requested phone call
 |id|[long](../types/long.md) | Yes|Phone call ID|
 |access\_hash|[long](../types/long.md) | Yes|Access hash|
 |date|[int](../types/int.md) | Yes|When was the phone call created|
-|admin\_id|[int](../types/int.md) | Yes|ID of the creator of the phone call|
-|participant\_id|[int](../types/int.md) | Yes|ID of the other participant of the phone call|
+|admin\_id|[long](../types/long.md) | Yes|
+|participant\_id|[long](../types/long.md) | Yes|
 |g\_a\_hash|[bytes](../types/bytes.md) | Yes|[Parameter for key exchange](https://core.telegram.org/api/end-to-end/voice-calls)|
 |protocol|[PhoneCallProtocol](../types/PhoneCallProtocol.md) | Yes|Call protocol info to be passed to libtgvoip|
 
@@ -31,14 +31,14 @@ Requested phone call
 ### Example:
 
 ```php
-$phoneCallRequested = ['_' => 'phoneCallRequested', 'video' => Bool, 'id' => long, 'access_hash' => long, 'date' => int, 'admin_id' => int, 'participant_id' => int, 'g_a_hash' => 'bytes', 'protocol' => PhoneCallProtocol];
+$phoneCallRequested = ['_' => 'phoneCallRequested', 'video' => Bool, 'id' => long, 'access_hash' => long, 'date' => int, 'admin_id' => long, 'participant_id' => long, 'g_a_hash' => 'bytes', 'protocol' => PhoneCallProtocol];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-phoneCallRequested={_='phoneCallRequested', video=Bool, id=long, access_hash=long, date=int, admin_id=int, participant_id=int, g_a_hash='bytes', protocol=PhoneCallProtocol}
+phoneCallRequested={_='phoneCallRequested', video=Bool, id=long, access_hash=long, date=int, admin_id=long, participant_id=long, g_a_hash='bytes', protocol=PhoneCallProtocol}
 
 ```
 

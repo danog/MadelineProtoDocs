@@ -18,6 +18,8 @@ redirect_from: /API_docs/methods/messages_editExportedChatInvite.html
 |link|[string](../types/string.md) | Yes|
 |expire\_date|[int](../types/int.md) | Optional|
 |usage\_limit|[int](../types/int.md) | Optional|
+|request\_needed|[Bool](../types/Bool.md) | Optional|
+|title|[string](../types/string.md) | Optional|
 
 
 ### Return type: [messages.ExportedChatInvite](../types/messages.ExportedChatInvite.md)
@@ -37,13 +39,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_ExportedChatInvite = $MadelineProto->messages->editExportedChatInvite(['revoked' => Bool, 'peer' => InputPeer, 'link' => 'string', 'expire_date' => int, 'usage_limit' => int, ]);
+$messages_ExportedChatInvite = $MadelineProto->messages->editExportedChatInvite(['revoked' => Bool, 'peer' => InputPeer, 'link' => 'string', 'expire_date' => int, 'usage_limit' => int, 'request_needed' => Bool, 'title' => 'string', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_ExportedChatInvite = messages.editExportedChatInvite({revoked=Bool, peer=InputPeer, link='string', expire_date=int, usage_limit=int, })
+messages_ExportedChatInvite = messages.editExportedChatInvite({revoked=Bool, peer=InputPeer, link='string', expire_date=int, usage_limit=int, request_needed=Bool, title='string', })
 ```
 
 ### Errors

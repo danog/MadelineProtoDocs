@@ -44,3 +44,10 @@ Or, if you're into Lua:
 payments_BankCardData = payments.getBankCardData({number='string', })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|BANK_CARD_NUMBER_INVALID|The specified card number is invalid|
+
+

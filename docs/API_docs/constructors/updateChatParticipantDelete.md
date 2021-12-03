@@ -14,8 +14,8 @@ A member has left the group.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[int](../types/int.md) | Yes|Group ID|
-|user\_id|[int](../types/int.md) | Yes|ID of the user|
+|chat\_id|[long](../types/long.md) | Yes|
+|user\_id|[long](../types/long.md) | Yes|
 |version|[int](../types/int.md) | Yes|Used in basic groups to reorder updates and make sure that all of them was received.|
 
 
@@ -26,14 +26,14 @@ A member has left the group.
 ### Example:
 
 ```php
-$updateChatParticipantDelete = ['_' => 'updateChatParticipantDelete', 'chat_id' => int, 'user_id' => int, 'version' => int];
+$updateChatParticipantDelete = ['_' => 'updateChatParticipantDelete', 'chat_id' => long, 'user_id' => long, 'version' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateChatParticipantDelete={_='updateChatParticipantDelete', chat_id=int, user_id=int, version=int}
+updateChatParticipantDelete={_='updateChatParticipantDelete', chat_id=long, user_id=long, version=int}
 
 ```
 

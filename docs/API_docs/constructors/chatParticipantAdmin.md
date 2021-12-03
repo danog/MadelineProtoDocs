@@ -14,8 +14,8 @@ Chat admin
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|ID of a group member that is admin|
-|inviter\_id|[int](../types/int.md) | Yes|ID of the user that added the member to the group|
+|user\_id|[long](../types/long.md) | Yes|
+|inviter\_id|[long](../types/long.md) | Yes|
 |date|[int](../types/int.md) | Yes|Date when the user was added|
 
 
@@ -26,14 +26,14 @@ Chat admin
 ### Example:
 
 ```php
-$chatParticipantAdmin = ['_' => 'chatParticipantAdmin', 'user_id' => int, 'inviter_id' => int, 'date' => int];
+$chatParticipantAdmin = ['_' => 'chatParticipantAdmin', 'user_id' => long, 'inviter_id' => long, 'date' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-chatParticipantAdmin={_='chatParticipantAdmin', user_id=int, inviter_id=int, date=int}
+chatParticipantAdmin={_='chatParticipantAdmin', user_id=long, inviter_id=long, date=int}
 
 ```
 

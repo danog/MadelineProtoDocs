@@ -16,7 +16,7 @@ Admin log event
 |----------|---------------|----------|-------------|
 |id|[long](../types/long.md) | Yes|Event ID|
 |date|[int](../types/int.md) | Yes|Date|
-|user\_id|[int](../types/int.md) | Yes|User ID|
+|user\_id|[long](../types/long.md) | Yes|
 |action|[ChannelAdminLogEventAction](../types/ChannelAdminLogEventAction.md) | Yes|Action|
 
 
@@ -27,14 +27,14 @@ Admin log event
 ### Example:
 
 ```php
-$channelAdminLogEvent = ['_' => 'channelAdminLogEvent', 'id' => long, 'date' => int, 'user_id' => int, 'action' => ChannelAdminLogEventAction];
+$channelAdminLogEvent = ['_' => 'channelAdminLogEvent', 'id' => long, 'date' => int, 'user_id' => long, 'action' => ChannelAdminLogEventAction];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-channelAdminLogEvent={_='channelAdminLogEvent', id=long, date=int, user_id=int, action=ChannelAdminLogEventAction}
+channelAdminLogEvent={_='channelAdminLogEvent', id=long, date=int, user_id=long, action=ChannelAdminLogEventAction}
 
 ```
 

@@ -14,7 +14,7 @@ Group.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[int](../types/int.md) | Yes|Group identifier|
+|chat\_id|[long](../types/long.md) | Yes|
 
 
 
@@ -24,14 +24,14 @@ Group.
 ### Example:
 
 ```php
-$peerChat = ['_' => 'peerChat', 'chat_id' => int];
+$peerChat = ['_' => 'peerChat', 'chat_id' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-peerChat={_='peerChat', chat_id=int}
+peerChat={_='peerChat', chat_id=long}
 
 ```
 

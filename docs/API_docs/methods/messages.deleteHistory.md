@@ -19,6 +19,8 @@ Deletes communication history.
 |revoke|[Bool](../types/Bool.md) | Whether to delete the message history for all chat participants | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | User or chat, communication history of which will be deleted | Optional|
 |max\_id|[int](../types/int.md) | Maximum ID of message to delete | Yes|
+|min\_date|[int](../types/int.md) |  | Optional|
+|max\_date|[int](../types/int.md) |  | Optional|
 
 
 ### Return type: [messages.AffectedHistory](../types/messages.AffectedHistory.md)
@@ -38,13 +40,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_AffectedHistory = $MadelineProto->messages->deleteHistory(['just_clear' => Bool, 'revoke' => Bool, 'peer' => InputPeer, 'max_id' => int, ]);
+$messages_AffectedHistory = $MadelineProto->messages->deleteHistory(['just_clear' => Bool, 'revoke' => Bool, 'peer' => InputPeer, 'max_id' => int, 'min_date' => int, 'max_date' => int, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_AffectedHistory = messages.deleteHistory({just_clear=Bool, revoke=Bool, peer=InputPeer, max_id=int, })
+messages_AffectedHistory = messages.deleteHistory({just_clear=Bool, revoke=Bool, peer=InputPeer, max_id=int, min_date=int, max_date=int, })
 ```
 
 ### Errors

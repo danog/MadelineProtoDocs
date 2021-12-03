@@ -19,6 +19,7 @@ Information about a [message thread](https://core.telegram.org/api/threads)
 |max\_id|[int](../types/int.md) | Optional|Message ID of latest reply in this [thread](https://core.telegram.org/api/threads)|
 |read\_inbox\_max\_id|[int](../types/int.md) | Optional|Message ID of latest read incoming message in this [thread](https://core.telegram.org/api/threads)|
 |read\_outbox\_max\_id|[int](../types/int.md) | Optional|Message ID of latest read outgoing message in this [thread](https://core.telegram.org/api/threads)|
+|unread\_count|[int](../types/int.md) | Yes|
 |chats|Array of [Chat](../types/Chat.md) | Yes|Chats mentioned in constructor|
 |users|Array of [User](../types/User.md) | Yes|Users mentioned in constructor|
 
@@ -30,14 +31,14 @@ Information about a [message thread](https://core.telegram.org/api/threads)
 ### Example:
 
 ```php
-$messages_discussionMessage = ['_' => 'messages.discussionMessage', 'messages' => [Message, Message], 'max_id' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'chats' => [Chat, Chat], 'users' => [User, User]];
+$messages_discussionMessage = ['_' => 'messages.discussionMessage', 'messages' => [Message, Message], 'max_id' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'unread_count' => int, 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages_discussionMessage={_='messages.discussionMessage', messages={Message}, max_id=int, read_inbox_max_id=int, read_outbox_max_id=int, chats={Chat}, users={User}}
+messages_discussionMessage={_='messages.discussionMessage', messages={Message}, max_id=int, read_inbox_max_id=int, read_outbox_max_id=int, unread_count=int, chats={Chat}, users={User}}
 
 ```
 

@@ -16,8 +16,9 @@ Install a theme
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |dark|[Bool](../types/Bool.md) | Whether to install the dark version | Optional|
-|format|[string](../types/string.md) | Theme format, a string that identifies the theming engines supported by the client | Optional|
 |theme|[InputTheme](../types/InputTheme.md) | Theme to install | Optional|
+|format|[string](../types/string.md) | Theme format, a string that identifies the theming engines supported by the client | Optional|
+|base\_theme|[BaseTheme](../types/BaseTheme.md) |  | Optional|
 
 
 ### Return type: [Bool](../types/Bool.md)
@@ -37,12 +38,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->account->installTheme(['dark' => Bool, 'format' => 'string', 'theme' => InputTheme, ]);
+$Bool = $MadelineProto->account->installTheme(['dark' => Bool, 'theme' => InputTheme, 'format' => 'string', 'base_theme' => BaseTheme, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Bool = account.installTheme({dark=Bool, format='string', theme=InputTheme, })
+Bool = account.installTheme({dark=Bool, theme=InputTheme, format='string', base_theme=BaseTheme, })
 ```
 

@@ -14,7 +14,7 @@ A contact of the current user that is registered in the system.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User identifier|
+|user\_id|[long](../types/long.md) | Yes|
 |mutual|[Bool](../types/Bool.md) | Yes|Current user is in the user's contact list|
 
 
@@ -25,14 +25,14 @@ A contact of the current user that is registered in the system.
 ### Example:
 
 ```php
-$contact = ['_' => 'contact', 'user_id' => int, 'mutual' => Bool];
+$contact = ['_' => 'contact', 'user_id' => long, 'mutual' => Bool];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-contact={_='contact', user_id=int, mutual=Bool}
+contact={_='contact', user_id=long, mutual=Bool}
 
 ```
 

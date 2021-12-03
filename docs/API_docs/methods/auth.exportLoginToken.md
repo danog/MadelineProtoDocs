@@ -20,7 +20,7 @@ For more info, see [login via QR code](https://core.telegram.org/api/qr-login).
 |----------|---------------|-------------|----------|
 |api\_id|[int](../types/int.md) | Application identifier (see. [App configuration](https://core.telegram.org/myapp)) | Yes|
 |api\_hash|[string](../types/string.md) | Application identifier hash (see. [App configuration](https://core.telegram.org/myapp)) | Yes|
-|except\_ids|Array of [int](../types/int.md) | List of already logged-in user IDs, to prevent logging in twice with the same user | Yes|
+|except\_ids|Array of [long](../types/long.md) | List of already logged-in user IDs, to prevent logging in twice with the same user | Yes|
 
 
 ### Return type: [auth.LoginToken](../types/auth.LoginToken.md)
@@ -40,13 +40,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_LoginToken = $MadelineProto->auth->exportLoginToken(['api_id' => int, 'api_hash' => 'string', 'except_ids' => [int, int], ]);
+$auth_LoginToken = $MadelineProto->auth->exportLoginToken(['api_id' => int, 'api_hash' => 'string', 'except_ids' => [long, long], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth_LoginToken = auth.exportLoginToken({api_id=int, api_hash='string', except_ids={int}, })
+auth_LoginToken = auth.exportLoginToken({api_id=int, api_hash='string', except_ids={long}, })
 ```
 
 ### Errors

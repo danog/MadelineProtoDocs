@@ -29,7 +29,7 @@ Indicates info about a certain user
 |scam|[Bool](../types/Bool.md) | Optional|This may be a scam user|
 |apply\_min\_photo|[Bool](../types/Bool.md) | Optional|If set, the profile picture for this user should be refetched|
 |fake|[Bool](../types/Bool.md) | Optional|
-|id|[int](../types/int.md) | Yes|ID of the user|
+|id|[long](../types/long.md) | Yes|
 |access\_hash|[long](../types/long.md) | Optional|Access hash of the user|
 |first\_name|[string](../types/string.md) | Optional|First name|
 |last\_name|[string](../types/string.md) | Optional|Last name|
@@ -50,14 +50,14 @@ Indicates info about a certain user
 ### Example:
 
 ```php
-$user = ['_' => 'user', 'self' => Bool, 'contact' => Bool, 'mutual_contact' => Bool, 'deleted' => Bool, 'bot' => Bool, 'bot_chat_history' => Bool, 'bot_nochats' => Bool, 'verified' => Bool, 'restricted' => Bool, 'min' => Bool, 'bot_inline_geo' => Bool, 'support' => Bool, 'scam' => Bool, 'apply_min_photo' => Bool, 'fake' => Bool, 'id' => int, 'access_hash' => long, 'first_name' => 'string', 'last_name' => 'string', 'username' => 'string', 'phone' => 'string', 'photo' => UserProfilePhoto, 'status' => UserStatus, 'bot_info_version' => int, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'bot_inline_placeholder' => 'string', 'lang_code' => 'string'];
+$user = ['_' => 'user', 'self' => Bool, 'contact' => Bool, 'mutual_contact' => Bool, 'deleted' => Bool, 'bot' => Bool, 'bot_chat_history' => Bool, 'bot_nochats' => Bool, 'verified' => Bool, 'restricted' => Bool, 'min' => Bool, 'bot_inline_geo' => Bool, 'support' => Bool, 'scam' => Bool, 'apply_min_photo' => Bool, 'fake' => Bool, 'id' => long, 'access_hash' => long, 'first_name' => 'string', 'last_name' => 'string', 'username' => 'string', 'phone' => 'string', 'photo' => UserProfilePhoto, 'status' => UserStatus, 'bot_info_version' => int, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'bot_inline_placeholder' => 'string', 'lang_code' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-user={_='user', self=Bool, contact=Bool, mutual_contact=Bool, deleted=Bool, bot=Bool, bot_chat_history=Bool, bot_nochats=Bool, verified=Bool, restricted=Bool, min=Bool, bot_inline_geo=Bool, support=Bool, scam=Bool, apply_min_photo=Bool, fake=Bool, id=int, access_hash=long, first_name='string', last_name='string', username='string', phone='string', photo=UserProfilePhoto, status=UserStatus, bot_info_version=int, restriction_reason={RestrictionReason}, bot_inline_placeholder='string', lang_code='string'}
+user={_='user', self=Bool, contact=Bool, mutual_contact=Bool, deleted=Bool, bot=Bool, bot_chat_history=Bool, bot_nochats=Bool, verified=Bool, restricted=Bool, min=Bool, bot_inline_geo=Bool, support=Bool, scam=Bool, apply_min_photo=Bool, fake=Bool, id=long, access_hash=long, first_name='string', last_name='string', username='string', phone='string', photo=UserProfilePhoto, status=UserStatus, bot_info_version=int, restriction_reason={RestrictionReason}, bot_inline_placeholder='string', lang_code='string'}
 
 ```
 

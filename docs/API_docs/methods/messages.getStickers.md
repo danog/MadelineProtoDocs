@@ -16,7 +16,7 @@ Get stickers by emoji
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |emoticon|[string](../types/string.md) | The emoji | Yes|
-|hash|Array of [int](../types/int.md) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|[long](../types/long.md) |  | Yes|
 
 
 ### Return type: [messages.Stickers](../types/messages.Stickers.md)
@@ -36,12 +36,19 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Stickers = $MadelineProto->messages->getStickers(['emoticon' => 'string', 'hash' => [int, int], ]);
+$messages_Stickers = $MadelineProto->messages->getStickers(['emoticon' => 'string', 'hash' => long, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_Stickers = messages.getStickers({emoticon='string', hash={int}, })
+messages_Stickers = messages.getStickers({emoticon='string', hash=long, })
 ```
+
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|EMOTICON_EMPTY|The emoji is empty|
+
 

@@ -16,7 +16,7 @@ Reports some messages from a user in a supergroup as spam; requires administrato
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Supergroup | Optional|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | ID of the user that sent the spam messages | Optional|
+|participant|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
 |id|Array of [int](../types/int.md) | IDs of spam messages | Yes|
 
 
@@ -37,13 +37,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->channels->reportSpam(['channel' => InputChannel, 'user_id' => InputUser, 'id' => [int, int], ]);
+$Bool = $MadelineProto->channels->reportSpam(['channel' => InputChannel, 'participant' => InputPeer, 'id' => [int, int], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Bool = channels.reportSpam({channel=InputChannel, user_id=InputUser, id={int}, })
+Bool = channels.reportSpam({channel=InputChannel, participant=InputPeer, id={int}, })
 ```
 
 ### Errors

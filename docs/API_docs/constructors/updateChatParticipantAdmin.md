@@ -14,8 +14,8 @@ Admin permissions of a user in a [legacy group](https://core.telegram.org/api/ch
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[int](../types/int.md) | Yes|Chat ID|
-|user\_id|[int](../types/int.md) | Yes|ID of the (de)admined user|
+|chat\_id|[long](../types/long.md) | Yes|
+|user\_id|[long](../types/long.md) | Yes|
 |is\_admin|[Bool](../types/Bool.md) | Yes|Whether the user was rendered admin|
 |version|[int](../types/int.md) | Yes|Used in basic groups to reorder updates and make sure that all of them was received.|
 
@@ -27,14 +27,14 @@ Admin permissions of a user in a [legacy group](https://core.telegram.org/api/ch
 ### Example:
 
 ```php
-$updateChatParticipantAdmin = ['_' => 'updateChatParticipantAdmin', 'chat_id' => int, 'user_id' => int, 'is_admin' => Bool, 'version' => int];
+$updateChatParticipantAdmin = ['_' => 'updateChatParticipantAdmin', 'chat_id' => long, 'user_id' => long, 'is_admin' => Bool, 'version' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateChatParticipantAdmin={_='updateChatParticipantAdmin', chat_id=int, user_id=int, is_admin=Bool, version=int}
+updateChatParticipantAdmin={_='updateChatParticipantAdmin', chat_id=long, user_id=long, is_admin=Bool, version=int}
 
 ```
 

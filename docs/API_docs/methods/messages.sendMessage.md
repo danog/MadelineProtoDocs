@@ -26,6 +26,7 @@ Sends a message to a chat
 |entities|Array of [MessageEntity](../types/MessageEntity.md) | Message [entities](https://core.telegram.org/api/entities) for sending styled text | Optional|
 |parse\_mode| [string](../types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
 |schedule\_date|[int](../types/int.md) | Scheduled message date for [scheduled messages](https://core.telegram.org/api/scheduled-messages) | Optional|
+|send\_as|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
 
 
 ### Return type: [Updates](../types/Updates.md)
@@ -45,13 +46,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendMessage(['no_webpage' => Bool, 'silent' => Bool, 'background' => Bool, 'clear_draft' => Bool, 'peer' => InputPeer, 'reply_to_msg_id' => int, 'message' => 'string', 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', 'schedule_date' => int, ]);
+$Updates = $MadelineProto->messages->sendMessage(['no_webpage' => Bool, 'silent' => Bool, 'background' => Bool, 'clear_draft' => Bool, 'peer' => InputPeer, 'reply_to_msg_id' => int, 'message' => 'string', 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', 'schedule_date' => int, 'send_as' => InputPeer, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Updates = messages.sendMessage({no_webpage=Bool, silent=Bool, background=Bool, clear_draft=Bool, peer=InputPeer, reply_to_msg_id=int, message='string', reply_markup=ReplyMarkup, entities={MessageEntity}, parseMode='string', schedule_date=int, })
+Updates = messages.sendMessage({no_webpage=Bool, silent=Bool, background=Bool, clear_draft=Bool, peer=InputPeer, reply_to_msg_id=int, message='string', reply_markup=ReplyMarkup, entities={MessageEntity}, parseMode='string', schedule_date=int, send_as=InputPeer, })
 ```
 
 
@@ -128,10 +129,14 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|PINNED_DIALOGS_TOO_MUCH|Too many pinned dialogs|
+|400|POLL_OPTION_INVALID|Invalid poll option provided|
 |400|REPLY_MARKUP_INVALID|The provided reply markup is invalid|
+|400|REPLY_MARKUP_TOO_LONG|The specified reply_markup is too long|
 |400|SCHEDULE_BOT_NOT_ALLOWED|Bots cannot schedule messages|
 |400|SCHEDULE_DATE_TOO_LATE|You can't schedule a message this far in the future|
+|400|SCHEDULE_STATUS_PRIVATE|Can't schedule until user is online, if the user's last seen timestamp is hidden by their privacy settings.|
 |400|SCHEDULE_TOO_MUCH|There are too many scheduled messages|
+|400|SEND_AS_PEER_INVALID|You can't send messages as the specified peer|
 |400|USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
 |400|USER_IS_BLOCKED|You were blocked by this user|
 |400|USER_IS_BOT|Bots can't send messages to other bots|
@@ -140,6 +145,7 @@ MadelineProto supports all html entities supported by [html_entity_decode](http:
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 |401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
+|403|USER_IS_BLOCKED|You were blocked by this user|
 |-500|No workers running|Internal error|
 |-504|memory limit exit|Internal error|
 |-503|Timeout|Timeout while fetching data|

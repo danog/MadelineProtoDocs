@@ -12,8 +12,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|user\_id|[int](../types/int.md) | Yes|
+|requested|[Bool](../types/Bool.md) | Optional|
+|user\_id|[long](../types/long.md) | Yes|
 |date|[int](../types/int.md) | Yes|
+|about|[string](../types/string.md) | Optional|
+|approved\_by|[long](../types/long.md) | Optional|
 
 
 
@@ -23,14 +26,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```php
-$chatInviteImporter = ['_' => 'chatInviteImporter', 'user_id' => int, 'date' => int];
+$chatInviteImporter = ['_' => 'chatInviteImporter', 'requested' => Bool, 'user_id' => long, 'date' => int, 'about' => 'string', 'approved_by' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-chatInviteImporter={_='chatInviteImporter', user_id=int, date=int}
+chatInviteImporter={_='chatInviteImporter', requested=Bool, user_id=long, date=int, about='string', approved_by=long}
 
 ```
 

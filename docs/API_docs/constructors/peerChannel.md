@@ -14,7 +14,7 @@ Channel/supergroup
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[int](../types/int.md) | Yes|Channel ID|
+|channel\_id|[long](../types/long.md) | Yes|
 
 
 
@@ -24,14 +24,14 @@ Channel/supergroup
 ### Example:
 
 ```php
-$peerChannel = ['_' => 'peerChannel', 'channel_id' => int];
+$peerChannel = ['_' => 'peerChannel', 'channel_id' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-peerChannel={_='peerChannel', channel_id=int}
+peerChannel={_='peerChannel', channel_id=long}
 
 ```
 

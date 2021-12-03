@@ -55,6 +55,8 @@ auth_Authorization = auth.signIn({phone_number='string', phone_code_hash='string
 |400|PHONE_CODE_INVALID|The provided phone code is invalid|
 |400|PHONE_NUMBER_INVALID|The phone number is invalid|
 |400|PHONE_NUMBER_UNOCCUPIED|The phone number is not yet being used|
+|406|PHONE_NUMBER_INVALID|The phone number is invalid|
+|406|UPDATE_APP_TO_LOGIN|Please update to the latest version of MadelineProto to login.|
 |401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
 
 

@@ -46,3 +46,10 @@ Or, if you're into Lua:
 Bool = account.saveWallPaper({wallpaper=InputWallPaper, unsave=Bool, settings=WallPaperSettings, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|WALLPAPER_INVALID|The specified wallpaper is invalid|
+
+

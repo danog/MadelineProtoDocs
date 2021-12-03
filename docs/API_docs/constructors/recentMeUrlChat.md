@@ -15,7 +15,7 @@ Recent t.me link to a chat
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |url|[string](../types/string.md) | Yes|t.me URL|
-|chat\_id|[int](../types/int.md) | Yes|Chat ID|
+|chat\_id|[long](../types/long.md) | Yes|
 
 
 
@@ -25,14 +25,14 @@ Recent t.me link to a chat
 ### Example:
 
 ```php
-$recentMeUrlChat = ['_' => 'recentMeUrlChat', 'url' => 'string', 'chat_id' => int];
+$recentMeUrlChat = ['_' => 'recentMeUrlChat', 'url' => 'string', 'chat_id' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-recentMeUrlChat={_='recentMeUrlChat', url='string', chat_id=int}
+recentMeUrlChat={_='recentMeUrlChat', url='string', chat_id=long}
 
 ```
 

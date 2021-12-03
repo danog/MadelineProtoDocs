@@ -15,7 +15,7 @@ Found stickersets
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[int](../types/int.md) | Yes|
+|hash|[long](../types/long.md) | Yes|
 |sets|Array of [StickerSetCovered](../types/StickerSetCovered.md) | Yes|Found stickersets|
 
 
@@ -26,14 +26,14 @@ Found stickersets
 ### Example:
 
 ```php
-$messages_foundStickerSets = ['_' => 'messages.foundStickerSets', 'hash' => int, 'sets' => [StickerSetCovered, StickerSetCovered]];
+$messages_foundStickerSets = ['_' => 'messages.foundStickerSets', 'hash' => long, 'sets' => [StickerSetCovered, StickerSetCovered]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages_foundStickerSets={_='messages.foundStickerSets', hash=int, sets={StickerSetCovered}}
+messages_foundStickerSets={_='messages.foundStickerSets', hash=long, sets={StickerSetCovered}}
 
 ```
 

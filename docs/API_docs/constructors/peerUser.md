@@ -14,7 +14,7 @@ Chat partner
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User identifier|
+|user\_id|[long](../types/long.md) | Yes|
 
 
 
@@ -24,14 +24,14 @@ Chat partner
 ### Example:
 
 ```php
-$peerUser = ['_' => 'peerUser', 'user_id' => int];
+$peerUser = ['_' => 'peerUser', 'user_id' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-peerUser={_='peerUser', user_id=int}
+peerUser={_='peerUser', user_id=long}
 
 ```
 

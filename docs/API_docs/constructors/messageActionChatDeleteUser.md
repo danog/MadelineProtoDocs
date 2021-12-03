@@ -14,7 +14,7 @@ User left the group.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|Leaving user ID|
+|user\_id|[long](../types/long.md) | Yes|
 
 
 
@@ -24,14 +24,14 @@ User left the group.
 ### Example:
 
 ```php
-$messageActionChatDeleteUser = ['_' => 'messageActionChatDeleteUser', 'user_id' => int];
+$messageActionChatDeleteUser = ['_' => 'messageActionChatDeleteUser', 'user_id' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messageActionChatDeleteUser={_='messageActionChatDeleteUser', user_id=int}
+messageActionChatDeleteUser={_='messageActionChatDeleteUser', user_id=long}
 
 ```
 

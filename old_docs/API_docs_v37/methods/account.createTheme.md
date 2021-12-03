@@ -46,3 +46,10 @@ Or, if you're into Lua:
 Theme = account.createTheme({slug='string', title='string', document=InputDocument, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|THEME_MIME_INVALID|The theme's MIME type is invalid|
+
+

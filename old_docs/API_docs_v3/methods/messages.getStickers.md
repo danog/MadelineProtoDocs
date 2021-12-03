@@ -45,3 +45,10 @@ Or, if you're into Lua:
 messages_Stickers = messages.getStickers({emoticon='string', hash='string', })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|EMOTICON_EMPTY|The emoji is empty|
+
+

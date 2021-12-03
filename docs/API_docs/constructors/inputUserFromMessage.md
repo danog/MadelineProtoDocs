@@ -16,7 +16,7 @@ Defines a [min](https://core.telegram.org/api/min) user that was seen in a certa
 |----------|---------------|----------|-------------|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The chat where the user was seen|
 |msg\_id|[int](../types/int.md) | Yes|The message ID|
-|user\_id|[int](../types/int.md) | Yes|The identifier of the user that was seen|
+|user\_id|[long](../types/long.md) | Yes|
 
 
 
@@ -26,14 +26,14 @@ Defines a [min](https://core.telegram.org/api/min) user that was seen in a certa
 ### Example:
 
 ```php
-$inputUserFromMessage = ['_' => 'inputUserFromMessage', 'peer' => InputPeer, 'msg_id' => int, 'user_id' => int];
+$inputUserFromMessage = ['_' => 'inputUserFromMessage', 'peer' => InputPeer, 'msg_id' => int, 'user_id' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-inputUserFromMessage={_='inputUserFromMessage', peer=InputPeer, msg_id=int, user_id=int}
+inputUserFromMessage={_='inputUserFromMessage', peer=InputPeer, msg_id=int, user_id=long}
 
 ```
 

@@ -15,7 +15,7 @@ A specific user has voted in a poll
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |poll\_id|[long](../types/long.md) | Yes|Poll ID|
-|user\_id|[int](../types/int.md) | Yes|User ID|
+|user\_id|[long](../types/long.md) | Yes|
 |options|Array of [bytes](../types/bytes.md) | Yes|Chosen option(s)|
 |qts|[int](../types/int.md) | Yes|
 
@@ -27,14 +27,14 @@ A specific user has voted in a poll
 ### Example:
 
 ```php
-$updateMessagePollVote = ['_' => 'updateMessagePollVote', 'poll_id' => long, 'user_id' => int, 'options' => ['bytes', 'bytes'], 'qts' => int];
+$updateMessagePollVote = ['_' => 'updateMessagePollVote', 'poll_id' => long, 'user_id' => long, 'options' => ['bytes', 'bytes'], 'qts' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateMessagePollVote={_='updateMessagePollVote', poll_id=long, user_id=int, options={'bytes'}, qts=int}
+updateMessagePollVote={_='updateMessagePollVote', poll_id=long, user_id=long, options={'bytes'}, qts=int}
 
 ```
 

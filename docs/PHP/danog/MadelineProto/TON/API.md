@@ -32,7 +32,7 @@ TON API.
 * `end(array $what): mixed`
 * `first((\Promise|\Generator)[] $promises): \Amp\Promise`
 * `flock(string $file, int $operation, float $polling, ?\Promise $token, ?callable $failureCb)`
-* `genVectorHash(array $ints): \int Vector hash`
+* `genVectorHash(array $ints): \string Vector hash`
 * `getExtensionFromLocation(mixed $location, string $default): string`
 * `getExtensionFromMime(string $mime): string`
 * `getMethodNamespaces(): mixed`
@@ -325,7 +325,7 @@ Parameters:
 
 
 
-### `genVectorHash(array $ints): \int Vector hash`
+### `genVectorHash(array $ints): \string Vector hash`
 
 Generate MTProto vector hash.
 

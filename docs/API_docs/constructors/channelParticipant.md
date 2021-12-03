@@ -14,7 +14,7 @@ Channel/supergroup participant
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|Pariticipant user ID|
+|user\_id|[long](../types/long.md) | Yes|
 |date|[int](../types/int.md) | Yes|Date joined|
 
 
@@ -25,14 +25,14 @@ Channel/supergroup participant
 ### Example:
 
 ```php
-$channelParticipant = ['_' => 'channelParticipant', 'user_id' => int, 'date' => int];
+$channelParticipant = ['_' => 'channelParticipant', 'user_id' => long, 'date' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-channelParticipant={_='channelParticipant', user_id=int, date=int}
+channelParticipant={_='channelParticipant', user_id=long, date=int}
 
 ```
 

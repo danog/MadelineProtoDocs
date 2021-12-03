@@ -15,7 +15,7 @@ Game highscore
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |pos|[int](../types/int.md) | Yes|Position in highscore list|
-|user\_id|[int](../types/int.md) | Yes|User ID|
+|user\_id|[long](../types/long.md) | Yes|
 |score|[int](../types/int.md) | Yes|Score|
 
 
@@ -26,14 +26,14 @@ Game highscore
 ### Example:
 
 ```php
-$highScore = ['_' => 'highScore', 'pos' => int, 'user_id' => int, 'score' => int];
+$highScore = ['_' => 'highScore', 'pos' => int, 'user_id' => long, 'score' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-highScore={_='highScore', pos=int, user_id=int, score=int}
+highScore={_='highScore', pos=int, user_id=long, score=int}
 
 ```
 

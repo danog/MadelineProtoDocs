@@ -15,7 +15,7 @@ An incoming inline query
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |query\_id|[long](../types/long.md) | Yes|Query ID|
-|user\_id|[int](../types/int.md) | Yes|User that sent the query|
+|user\_id|[long](../types/long.md) | Yes|
 |query|[string](../types/string.md) | Yes|Text of query|
 |geo|[GeoPoint](../types/GeoPoint.md) | Optional|Attached geolocation|
 |peer\_type|[InlineQueryPeerType](../types/InlineQueryPeerType.md) | Optional|
@@ -29,14 +29,14 @@ An incoming inline query
 ### Example:
 
 ```php
-$updateBotInlineQuery = ['_' => 'updateBotInlineQuery', 'query_id' => long, 'user_id' => int, 'query' => 'string', 'geo' => GeoPoint, 'peer_type' => InlineQueryPeerType, 'offset' => 'string'];
+$updateBotInlineQuery = ['_' => 'updateBotInlineQuery', 'query_id' => long, 'user_id' => long, 'query' => 'string', 'geo' => GeoPoint, 'peer_type' => InlineQueryPeerType, 'offset' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateBotInlineQuery={_='updateBotInlineQuery', query_id=long, user_id=int, query='string', geo=GeoPoint, peer_type=InlineQueryPeerType, offset='string'}
+updateBotInlineQuery={_='updateBotInlineQuery', query_id=long, user_id=long, query='string', geo=GeoPoint, peer_type=InlineQueryPeerType, offset='string'}
 
 ```
 

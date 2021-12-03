@@ -14,7 +14,7 @@ A user's phone number was changed
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User ID|
+|user\_id|[long](../types/long.md) | Yes|
 |phone|[string](../types/string.md) | Yes|New phone number|
 
 
@@ -25,14 +25,14 @@ A user's phone number was changed
 ### Example:
 
 ```php
-$updateUserPhone = ['_' => 'updateUserPhone', 'user_id' => int, 'phone' => 'string'];
+$updateUserPhone = ['_' => 'updateUserPhone', 'user_id' => long, 'phone' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateUserPhone={_='updateUserPhone', user_id=int, phone='string'}
+updateUserPhone={_='updateUserPhone', user_id=long, phone='string'}
 
 ```
 

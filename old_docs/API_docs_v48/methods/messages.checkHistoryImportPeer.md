@@ -42,3 +42,10 @@ Or, if you're into Lua:
 messages_CheckedHistoryImportPeer = messages.checkHistoryImportPeer({peer=InputPeer, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|USER_NOT_MUTUAL_CONTACT|The provided user is not a mutual contact|
+
+

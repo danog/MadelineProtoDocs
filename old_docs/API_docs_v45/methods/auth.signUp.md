@@ -59,5 +59,6 @@ auth_Authorization = auth.signUp({phone_number='string', phone_code_hash='string
 |400|PHONE_NUMBER_FLOOD|You asked for the code too many times.|
 |400|PHONE_NUMBER_INVALID|The phone number is invalid|
 |400|PHONE_NUMBER_OCCUPIED|The phone number is already in use|
+|406|PHONE_NUMBER_INVALID|The phone number is invalid|
 
 

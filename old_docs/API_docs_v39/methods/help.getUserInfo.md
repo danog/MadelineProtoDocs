@@ -48,6 +48,7 @@ help_UserInfo = help.getUserInfo({user_id=InputUser, })
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|USER_INVALID|Invalid user provided|
 |403|USER_INVALID|Invalid user provided|
 
 

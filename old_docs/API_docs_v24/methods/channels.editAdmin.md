@@ -50,6 +50,7 @@ Updates = channels.editAdmin({channel=InputChannel, user_id=InputUser, admin_rig
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|ADMIN_RANK_EMOJI_NOT_ALLOWED|An admin rank cannot contain emojis|
 |400|ADMIN_RANK_INVALID|The specified admin rank is invalid.|
 |400|ADMINS_TOO_MUCH|There are too many admins|
 |400|BOT_CHANNELS_NA|Bots can't edit admin privileges|
@@ -58,6 +59,7 @@ Updates = channels.editAdmin({channel=InputChannel, user_id=InputUser, admin_rig
 |400|CHANNEL_INVALID|The provided channel is invalid|
 |400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
+|400|FRESH_CHANGE_ADMINS_FORBIDDEN|You were just elected admin, you can't add or modify other admins yet|
 |400|INPUT_USER_DEACTIVATED|The specified user was deleted|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|USER_BLOCKED|User blocked|
@@ -70,6 +72,7 @@ Updates = channels.editAdmin({channel=InputChannel, user_id=InputUser, admin_rig
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
 |403|RIGHT_FORBIDDEN|Your admin rights do not allow you to do this|
 |403|USER_CHANNELS_TOO_MUCH|One of the users you tried to add is already in too many channels/supergroups|
+|403|USER_NOT_MUTUAL_CONTACT|The provided user is not a mutual contact|
 |403|USER_PRIVACY_RESTRICTED|The user's privacy settings do not allow you to do this|
 |403|USER_RESTRICTED|You're spamreported, you can't create channels or chats.|
 

@@ -14,8 +14,8 @@ The linked chat was changed
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|prev\_value|[int](../types/int.md) | Yes|Previous linked chat|
-|new\_value|[int](../types/int.md) | Yes|New linked chat|
+|prev\_value|[long](../types/long.md) | Yes|
+|new\_value|[long](../types/long.md) | Yes|
 
 
 
@@ -25,14 +25,14 @@ The linked chat was changed
 ### Example:
 
 ```php
-$channelAdminLogEventActionChangeLinkedChat = ['_' => 'channelAdminLogEventActionChangeLinkedChat', 'prev_value' => int, 'new_value' => int];
+$channelAdminLogEventActionChangeLinkedChat = ['_' => 'channelAdminLogEventActionChangeLinkedChat', 'prev_value' => long, 'new_value' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-channelAdminLogEventActionChangeLinkedChat={_='channelAdminLogEventActionChangeLinkedChat', prev_value=int, new_value=int}
+channelAdminLogEventActionChangeLinkedChat={_='channelAdminLogEventActionChangeLinkedChat', prev_value=long, new_value=long}
 
 ```
 

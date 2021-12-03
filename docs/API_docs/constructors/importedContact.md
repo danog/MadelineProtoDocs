@@ -14,7 +14,7 @@ Successfully imported contact.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User identifier|
+|user\_id|[long](../types/long.md) | Yes|
 |client\_id|[long](../types/long.md) | Yes|The contact's client identifier (passed to one of the [InputContact](../types/InputContact.md) constructors)|
 
 
@@ -25,14 +25,14 @@ Successfully imported contact.
 ### Example:
 
 ```php
-$importedContact = ['_' => 'importedContact', 'user_id' => int, 'client_id' => long];
+$importedContact = ['_' => 'importedContact', 'user_id' => long, 'client_id' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-importedContact={_='importedContact', user_id=int, client_id=long}
+importedContact={_='importedContact', user_id=long, client_id=long}
 
 ```
 

@@ -88,6 +88,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->messages->setHistoryTTL](../methods/messages.setHistoryTTL.md)  
 
+[$MadelineProto->messages->setChatTheme](../methods/messages.setChatTheme.md)  
+
+[$MadelineProto->messages->hideChatJoinRequest](../methods/messages.hideChatJoinRequest.md)  
+
+[$MadelineProto->messages->hideAllChatJoinRequests](../methods/messages.hideAllChatJoinRequests.md)  
+
+[$MadelineProto->messages->toggleNoForwards](../methods/messages.toggleNoForwards.md)  
+
 [$MadelineProto->help->getAppChangelog](../methods/help.getAppChangelog.md)  
 
 [$MadelineProto->channels->createChannel](../methods/channels.createChannel.md)  
@@ -227,6 +235,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [$MadelineProto->messages->deleteScheduledMessages](../methods/messages.deleteScheduledMessages.md)  
 
 [$MadelineProto->messages->setHistoryTTL](../methods/messages.setHistoryTTL.md)  
+
+[$MadelineProto->messages->setChatTheme](../methods/messages.setChatTheme.md)  
+
+[$MadelineProto->messages->hideChatJoinRequest](../methods/messages.hideChatJoinRequest.md)  
+
+[$MadelineProto->messages->hideAllChatJoinRequests](../methods/messages.hideAllChatJoinRequests.md)  
+
+[$MadelineProto->messages->toggleNoForwards](../methods/messages.toggleNoForwards.md)  
 
 [$MadelineProto->help->getAppChangelog](../methods/help.getAppChangelog.md)  
 

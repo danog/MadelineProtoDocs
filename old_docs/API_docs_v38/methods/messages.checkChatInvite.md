@@ -54,6 +54,7 @@ ChatInvite = messages.checkChatInvite({hash='string', })
 |400|INVITE_HASH_INVALID|The invite hash is invalid|
 |-3002|All workers are busy. Active_queries = X|All workers are busy. Active_queries = X|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
+|406|INVITE_HASH_EXPIRED|The invite link has expired|
 |401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
 |-503|Timeout|Timeout while fetching data|
 

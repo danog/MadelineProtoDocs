@@ -49,5 +49,6 @@ StatsURL = messages.getStatsURL({peer=InputPeer, })
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
+|400|UNKNOWN_ERROR|Internal error|
 
 

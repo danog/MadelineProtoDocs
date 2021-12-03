@@ -12,6 +12,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputBotInlineMessageID](../constructors/inputBotInlineMessageID.md)  
 
+[inputBotInlineMessageID64](../constructors/inputBotInlineMessageID64.md)  
+
 
 
 ### Methods that return an object of this type (methods):
@@ -19,4 +21,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 [inputBotInlineMessageID](../constructors/inputBotInlineMessageID.md)  
+
+[inputBotInlineMessageID64](../constructors/inputBotInlineMessageID64.md)  
 

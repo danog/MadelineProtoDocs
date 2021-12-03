@@ -51,6 +51,7 @@ photos_Photo = photos.uploadProfilePhoto({file=InputFile, caption='string', geo_
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|ALBUM_PHOTOS_TOO_MANY|Too many |
 |400|FILE_PARTS_INVALID|The number of file parts is invalid|
 |400|IMAGE_PROCESS_FAILED|Failure while processing image|
 |400|PHOTO_CROP_FILE_MISSING|Photo crop file missing|

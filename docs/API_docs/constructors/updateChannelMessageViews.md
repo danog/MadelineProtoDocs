@@ -14,7 +14,7 @@ The view counter of a message in a channel has changed
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[int](../types/int.md) | Yes|Channel ID|
+|channel\_id|[long](../types/long.md) | Yes|
 |id|[int](../types/int.md) | Yes|ID of the message|
 |views|[int](../types/int.md) | Yes|New view counter|
 
@@ -26,14 +26,14 @@ The view counter of a message in a channel has changed
 ### Example:
 
 ```php
-$updateChannelMessageViews = ['_' => 'updateChannelMessageViews', 'channel_id' => int, 'id' => int, 'views' => int];
+$updateChannelMessageViews = ['_' => 'updateChannelMessageViews', 'channel_id' => long, 'id' => int, 'views' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateChannelMessageViews={_='updateChannelMessageViews', channel_id=int, id=int, views=int}
+updateChannelMessageViews={_='updateChannelMessageViews', channel_id=long, id=int, views=int}
 
 ```
 

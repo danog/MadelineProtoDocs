@@ -20,7 +20,7 @@ Update theme
 |slug|[string](../types/string.md) | Unique theme ID | Optional|
 |title|[string](../types/string.md) | Theme name | Optional|
 |document|[MessageMedia, Update, Message or InputDocument](../types/InputDocument.md) | Theme file | Optional|
-|settings|[InputThemeSettings](../types/InputThemeSettings.md) | Theme settings | Optional|
+|settings|Array of [InputThemeSettings](../types/InputThemeSettings.md) |  | Optional|
 
 
 ### Return type: [Theme](../types/Theme.md)
@@ -40,12 +40,19 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Theme = $MadelineProto->account->updateTheme(['format' => 'string', 'theme' => InputTheme, 'slug' => 'string', 'title' => 'string', 'document' => InputDocument, 'settings' => InputThemeSettings, ]);
+$Theme = $MadelineProto->account->updateTheme(['format' => 'string', 'theme' => InputTheme, 'slug' => 'string', 'title' => 'string', 'document' => InputDocument, 'settings' => [InputThemeSettings, InputThemeSettings], ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Theme = account.updateTheme({format='string', theme=InputTheme, slug='string', title='string', document=InputDocument, settings=InputThemeSettings, })
+Theme = account.updateTheme({format='string', theme=InputTheme, slug='string', title='string', document=InputDocument, settings={InputThemeSettings}, })
 ```
+
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|THEME_INVALID|Invalid theme provided|
+
 

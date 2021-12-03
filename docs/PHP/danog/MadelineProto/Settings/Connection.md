@@ -46,6 +46,8 @@ Connection settings.
 * `setRetry(bool $retry): self`
 * `getTimeout(): int`
 * `setTimeout(int $timeout): self`
+* `getPingInterval(): int`
+* `setPingInterval(int $pingInterval): self`
 * `getUseDoH(): bool`
 * `setUseDoH(bool $useDoH): self`
 * `getBindTo(): ?string`
@@ -237,7 +239,7 @@ array<class-string<\danog\MadelineProto\Stream\StreamInterface>, array>
 
 ### `addProxy(class-string<\danog\MadelineProto\Stream\StreamInterface> $proxy, array $extra): self`
 
-Add proxy identifier to list, one of:
+Add proxy identifier to list, one of:.
 * `\danog\MadelineProto\Stream\MTProtoTransport\ObfuscatedStream::class`
 * `\danog\MadelineProto\Stream\Proxy\HttpProxy::class`
 * `\danog\MadelineProto\Stream\Proxy\SocksProxy::class`
@@ -371,6 +373,22 @@ Set connection timeout.
 
 Parameters:
 * `$timeout`: `int` Connection timeout.  
+
+
+
+### `getPingInterval(): int`
+
+Get ping interval.
+
+
+
+### `setPingInterval(int $pingInterval): self`
+
+Set ping interval.
+
+
+Parameters:
+* `$pingInterval`: `int` Ping interval  
 
 
 

@@ -45,3 +45,10 @@ Or, if you're into Lua:
 Bool = account.installWallPaper({wallpaper=InputWallPaper, settings=WallPaperSettings, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|WALLPAPER_INVALID|The specified wallpaper is invalid|
+
+

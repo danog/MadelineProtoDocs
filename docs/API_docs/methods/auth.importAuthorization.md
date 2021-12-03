@@ -15,7 +15,7 @@ Logs in a user using a key transmitted from his native data-centre.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[int](../types/int.md) | User ID | Yes|
+|id|[long](../types/long.md) |  | Yes|
 |bytes|[bytes](../types/bytes.md) | Authorization key | Yes|
 
 
@@ -36,13 +36,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_Authorization = $MadelineProto->auth->importAuthorization(['id' => int, 'bytes' => 'bytes', ]);
+$auth_Authorization = $MadelineProto->auth->importAuthorization(['id' => long, 'bytes' => 'bytes', ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-auth_Authorization = auth.importAuthorization({id=int, bytes='bytes', })
+auth_Authorization = auth.importAuthorization({id=long, bytes='bytes', })
 ```
 
 ### Errors

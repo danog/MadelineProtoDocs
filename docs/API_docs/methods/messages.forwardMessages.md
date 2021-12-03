@@ -18,10 +18,13 @@ Forwards messages by their IDs.
 |silent|[Bool](../types/Bool.md) | Whether to send messages silently (no notification will be triggered on the destination clients) | Optional|
 |background|[Bool](../types/Bool.md) | Whether to send the message in background | Optional|
 |with\_my\_score|[Bool](../types/Bool.md) | When forwarding games, whether to include your score in the game | Optional|
+|drop\_author|[Bool](../types/Bool.md) |  | Optional|
+|drop\_media\_captions|[Bool](../types/Bool.md) |  | Optional|
 |from\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Source of messages | Optional|
 |id|Array of [int](../types/int.md) | IDs of messages | Yes|
 |to\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Destination peer | Optional|
 |schedule\_date|[int](../types/int.md) | Scheduled message date for scheduled messages | Optional|
+|send\_as|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
 
 
 ### Return type: [Updates](../types/Updates.md)
@@ -41,13 +44,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->forwardMessages(['silent' => Bool, 'background' => Bool, 'with_my_score' => Bool, 'from_peer' => InputPeer, 'id' => [int, int], 'to_peer' => InputPeer, 'schedule_date' => int, ]);
+$Updates = $MadelineProto->messages->forwardMessages(['silent' => Bool, 'background' => Bool, 'with_my_score' => Bool, 'drop_author' => Bool, 'drop_media_captions' => Bool, 'from_peer' => InputPeer, 'id' => [int, int], 'to_peer' => InputPeer, 'schedule_date' => int, 'send_as' => InputPeer, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Updates = messages.forwardMessages({silent=Bool, background=Bool, with_my_score=Bool, from_peer=InputPeer, id={int}, to_peer=InputPeer, schedule_date=int, })
+Updates = messages.forwardMessages({silent=Bool, background=Bool, with_my_score=Bool, drop_author=Bool, drop_media_captions=Bool, from_peer=InputPeer, id={int}, to_peer=InputPeer, schedule_date=int, send_as=InputPeer, })
 ```
 
 ### Errors
@@ -70,7 +73,9 @@ Updates = messages.forwardMessages({silent=Bool, background=Bool, with_my_score=
 |400|MSG_ID_INVALID|Invalid message ID provided|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|RANDOM_ID_INVALID|A provided random ID is invalid|
+|400|SCHEDULE_DATE_TOO_LATE|You can't schedule a message this far in the future|
 |400|SCHEDULE_TOO_MUCH|There are too many scheduled messages|
+|400|SEND_AS_PEER_INVALID|You can't send messages as the specified peer|
 |400|SLOWMODE_MULTI_MSGS_DISABLED|Slowmode is enabled, you cannot forward multiple messages to this group.|
 |400|USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
 |400|USER_IS_BLOCKED|You were blocked by this user|
@@ -84,6 +89,7 @@ Updates = messages.forwardMessages({silent=Bool, background=Bool, with_my_score=
 |403|CHAT_SEND_POLL_FORBIDDEN|You can't send polls in this chat|
 |403|CHAT_SEND_STICKERS_FORBIDDEN|You can't send stickers in this chat.|
 |403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
+|403|USER_IS_BLOCKED|You were blocked by this user|
 |-503|Timeout|Timeout while fetching data|
 
 

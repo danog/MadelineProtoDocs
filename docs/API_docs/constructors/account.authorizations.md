@@ -15,6 +15,7 @@ Logged-in sessions
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|authorization\_ttl\_days|[int](../types/int.md) | Yes|
 |authorizations|Array of [Authorization](../types/Authorization.md) | Yes|Logged-in sessions|
 
 
@@ -25,14 +26,14 @@ Logged-in sessions
 ### Example:
 
 ```php
-$account_authorizations = ['_' => 'account.authorizations', 'authorizations' => [Authorization, Authorization]];
+$account_authorizations = ['_' => 'account.authorizations', 'authorization_ttl_days' => int, 'authorizations' => [Authorization, Authorization]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-account_authorizations={_='account.authorizations', authorizations={Authorization}}
+account_authorizations={_='account.authorizations', authorization_ttl_days=int, authorizations={Authorization}}
 
 ```
 

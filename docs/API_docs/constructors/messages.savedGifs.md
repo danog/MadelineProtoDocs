@@ -15,7 +15,7 @@ Saved gifs
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[int](../types/int.md) | Yes|
+|hash|[long](../types/long.md) | Yes|
 |gifs|Array of [Document](../types/Document.md) | Yes|List of saved gifs|
 
 
@@ -26,14 +26,14 @@ Saved gifs
 ### Example:
 
 ```php
-$messages_savedGifs = ['_' => 'messages.savedGifs', 'hash' => int, 'gifs' => [Document, Document]];
+$messages_savedGifs = ['_' => 'messages.savedGifs', 'hash' => long, 'gifs' => [Document, Document]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-messages_savedGifs={_='messages.savedGifs', hash=int, gifs={Document}}
+messages_savedGifs={_='messages.savedGifs', hash=long, gifs={Document}}
 
 ```
 

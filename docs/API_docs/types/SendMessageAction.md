@@ -40,6 +40,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [sendMessageHistoryImportAction](../constructors/sendMessageHistoryImportAction.md)  
 
+[sendMessageChooseStickerAction](../constructors/sendMessageChooseStickerAction.md)  
+
+[sendMessageEmojiInteraction](../constructors/sendMessageEmojiInteraction.md)  
+
+[sendMessageEmojiInteractionSeen](../constructors/sendMessageEmojiInteractionSeen.md)  
+
 [sendMessageUploadVideoAction\_17](../constructors/sendMessageUploadVideoAction_17.md)  
 
 [sendMessageUploadAudioAction\_17](../constructors/sendMessageUploadAudioAction_17.md)  
@@ -83,6 +89,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [speakingInGroupCallAction](../constructors/speakingInGroupCallAction.md)  
 
 [sendMessageHistoryImportAction](../constructors/sendMessageHistoryImportAction.md)  
+
+[sendMessageChooseStickerAction](../constructors/sendMessageChooseStickerAction.md)  
+
+[sendMessageEmojiInteraction](../constructors/sendMessageEmojiInteraction.md)  
+
+[sendMessageEmojiInteractionSeen](../constructors/sendMessageEmojiInteractionSeen.md)  
 
 [sendMessageUploadVideoAction\_17](../constructors/sendMessageUploadVideoAction_17.md)  
 

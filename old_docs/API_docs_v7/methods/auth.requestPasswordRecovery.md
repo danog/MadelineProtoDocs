@@ -44,5 +44,6 @@ auth_PasswordRecovery = auth.requestPasswordRecovery({})
 | Code | Type     | Description   |
 |------|----------|---------------|
 |400|PASSWORD_EMPTY|The provided password is empty|
+|400|PASSWORD_RECOVERY_NA|No email was set, can't recover password via email.|
 
 

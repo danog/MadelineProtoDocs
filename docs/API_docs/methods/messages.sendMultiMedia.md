@@ -22,6 +22,7 @@ Send an [album or grouped media](https://core.telegram.org/api/files#albums-grou
 |reply\_to\_msg\_id|[int](../types/int.md) | The message to reply to | Optional|
 |multi\_media|Array of [InputSingleMedia](../types/InputSingleMedia.md) | The medias to send | Yes|
 |schedule\_date|[int](../types/int.md) | Scheduled message date for scheduled messages | Optional|
+|send\_as|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
 
 
 ### Return type: [Updates](../types/Updates.md)
@@ -41,13 +42,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendMultiMedia(['silent' => Bool, 'background' => Bool, 'clear_draft' => Bool, 'peer' => InputPeer, 'reply_to_msg_id' => int, 'multi_media' => [InputSingleMedia, InputSingleMedia], 'schedule_date' => int, ]);
+$Updates = $MadelineProto->messages->sendMultiMedia(['silent' => Bool, 'background' => Bool, 'clear_draft' => Bool, 'peer' => InputPeer, 'reply_to_msg_id' => int, 'multi_media' => [InputSingleMedia, InputSingleMedia], 'schedule_date' => int, 'send_as' => InputPeer, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Updates = messages.sendMultiMedia({silent=Bool, background=Bool, clear_draft=Bool, peer=InputPeer, reply_to_msg_id=int, multi_media={InputSingleMedia}, schedule_date=int, })
+Updates = messages.sendMultiMedia({silent=Bool, background=Bool, clear_draft=Bool, peer=InputPeer, reply_to_msg_id=int, multi_media={InputSingleMedia}, schedule_date=int, send_as=InputPeer, })
 ```
 
 ### Errors
@@ -63,6 +64,7 @@ Updates = messages.sendMultiMedia({silent=Bool, background=Bool, clear_draft=Boo
 |400|MULTI_MEDIA_TOO_LONG|Too many media files for album|
 |400|PEER_ID_INVALID|The provided peer id is invalid|
 |400|RANDOM_ID_EMPTY|Random ID empty|
+|400|SCHEDULE_DATE_TOO_LATE|You can't schedule a message this far in the future|
 |400|SCHEDULE_TOO_MUCH|There are too many scheduled messages|
 |406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
 

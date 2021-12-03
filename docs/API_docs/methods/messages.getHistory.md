@@ -22,7 +22,7 @@ Gets back the conversation history with one interlocutor / within a chat
 |limit|[int](../types/int.md) | Number of results to return | Yes|
 |max\_id|[int](../types/int.md) | If a positive value was transferred, the method will return only messages with IDs less than **max\_id** | Yes|
 |min\_id|[int](../types/int.md) | If a positive value was transferred, the method will return only messages with IDs more than **min\_id** | Yes|
-|hash|Array of [int](../types/int.md) | [Result hash](https://core.telegram.org/api/offsets) | Optional|
+|hash|[long](../types/long.md) |  | Yes|
 
 
 ### Return type: [messages.Messages](../types/messages.Messages.md)
@@ -42,13 +42,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->messages->getHistory(['peer' => InputPeer, 'offset_id' => int, 'offset_date' => int, 'add_offset' => int, 'limit' => int, 'max_id' => int, 'min_id' => int, 'hash' => [int, int], ]);
+$messages_Messages = $MadelineProto->messages->getHistory(['peer' => InputPeer, 'offset_id' => int, 'offset_date' => int, 'add_offset' => int, 'limit' => int, 'max_id' => int, 'min_id' => int, 'hash' => long, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_Messages = messages.getHistory({peer=InputPeer, offset_id=int, offset_date=int, add_offset=int, limit=int, max_id=int, min_id=int, hash={int}, })
+messages_Messages = messages.getHistory({peer=InputPeer, offset_id=int, offset_date=int, add_offset=int, limit=int, max_id=int, min_id=int, hash=long, })
 ```
 
 ### Errors

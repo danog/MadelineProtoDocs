@@ -17,7 +17,7 @@ Search for stickersets
 |----------|---------------|-------------|----------|
 |exclude\_featured|[Bool](../types/Bool.md) | Exclude featured stickersets from results | Optional|
 |q|[string](../types/string.md) | Query string | Yes|
-|hash|Array of [int](../types/int.md) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|[long](../types/long.md) |  | Yes|
 
 
 ### Return type: [messages.FoundStickerSets](../types/messages.FoundStickerSets.md)
@@ -37,12 +37,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_FoundStickerSets = $MadelineProto->messages->searchStickerSets(['exclude_featured' => Bool, 'q' => 'string', 'hash' => [int, int], ]);
+$messages_FoundStickerSets = $MadelineProto->messages->searchStickerSets(['exclude_featured' => Bool, 'q' => 'string', 'hash' => long, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_FoundStickerSets = messages.searchStickerSets({exclude_featured=Bool, q='string', hash={int}, })
+messages_FoundStickerSets = messages.searchStickerSets({exclude_featured=Bool, q='string', hash=long, })
 ```
 

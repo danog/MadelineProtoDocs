@@ -14,7 +14,7 @@ Change of contact's profile photo.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User identifier|
+|user\_id|[long](../types/long.md) | Yes|
 |date|[int](../types/int.md) | Yes|Date of photo update.|
 |photo|[UserProfilePhoto](../types/UserProfilePhoto.md) | Optional|New profile photo|
 |previous|[Bool](../types/Bool.md) | Yes|([boolTrue](../constructors/boolTrue.md)), if one of the previously used photos is set a profile photo.|
@@ -27,14 +27,14 @@ Change of contact's profile photo.
 ### Example:
 
 ```php
-$updateUserPhoto = ['_' => 'updateUserPhoto', 'user_id' => int, 'date' => int, 'photo' => UserProfilePhoto, 'previous' => Bool];
+$updateUserPhoto = ['_' => 'updateUserPhoto', 'user_id' => long, 'date' => int, 'photo' => UserProfilePhoto, 'previous' => Bool];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateUserPhoto={_='updateUserPhoto', user_id=int, date=int, photo=UserProfilePhoto, previous=Bool}
+updateUserPhoto={_='updateUserPhoto', user_id=long, date=int, photo=UserProfilePhoto, previous=Bool}
 
 ```
 

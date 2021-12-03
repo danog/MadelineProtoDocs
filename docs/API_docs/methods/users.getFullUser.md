@@ -18,7 +18,7 @@ Returns extended user info by ID.
 |id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | User ID | Optional|
 
 
-### Return type: [UserFull](../types/UserFull.md)
+### Return type: [users.UserFull](../types/users.UserFull.md)
 
 ### Can bots use this method: **YES**
 
@@ -35,13 +35,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$UserFull = $MadelineProto->users->getFullUser(['id' => InputUser, ]);
+$users_UserFull = $MadelineProto->users->getFullUser(['id' => InputUser, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-UserFull = users.getFullUser({id=InputUser, })
+users_UserFull = users.getFullUser({id=InputUser, })
 ```
 
 ### Errors

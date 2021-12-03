@@ -19,6 +19,8 @@ redirect_from: /API_docs/types/auth_SentCodeType.html
 
 [auth.sentCodeTypeFlashCall](../constructors/auth.sentCodeTypeFlashCall.md)  
 
+[auth.sentCodeTypeMissedCall](../constructors/auth.sentCodeTypeMissedCall.md)  
+
 
 
 ### Methods that return an object of this type (methods):
@@ -32,4 +34,6 @@ redirect_from: /API_docs/types/auth_SentCodeType.html
 [auth.sentCodeTypeCall](../constructors/auth.sentCodeTypeCall.md)  
 
 [auth.sentCodeTypeFlashCall](../constructors/auth.sentCodeTypeFlashCall.md)  
+
+[auth.sentCodeTypeMissedCall](../constructors/auth.sentCodeTypeMissedCall.md)  
 

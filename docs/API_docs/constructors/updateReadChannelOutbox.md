@@ -14,7 +14,7 @@ Outgoing messages in a [channel/supergroup](https://core.telegram.org/api/channe
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[int](../types/int.md) | Yes|Channel/supergroup ID|
+|channel\_id|[long](../types/long.md) | Yes|
 |max\_id|[int](../types/int.md) | Yes|Position up to which all outgoing messages are read.|
 
 
@@ -25,14 +25,14 @@ Outgoing messages in a [channel/supergroup](https://core.telegram.org/api/channe
 ### Example:
 
 ```php
-$updateReadChannelOutbox = ['_' => 'updateReadChannelOutbox', 'channel_id' => int, 'max_id' => int];
+$updateReadChannelOutbox = ['_' => 'updateReadChannelOutbox', 'channel_id' => long, 'max_id' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateReadChannelOutbox={_='updateReadChannelOutbox', channel_id=int, max_id=int}
+updateReadChannelOutbox={_='updateReadChannelOutbox', channel_id=long, max_id=int}
 
 ```
 

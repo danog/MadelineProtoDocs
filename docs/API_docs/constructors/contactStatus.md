@@ -14,7 +14,7 @@ Contact status: online / offline.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User identifier|
+|user\_id|[long](../types/long.md) | Yes|
 |status|[UserStatus](../types/UserStatus.md) | Optional|Online status|
 
 
@@ -25,14 +25,14 @@ Contact status: online / offline.
 ### Example:
 
 ```php
-$contactStatus = ['_' => 'contactStatus', 'user_id' => int, 'status' => UserStatus];
+$contactStatus = ['_' => 'contactStatus', 'user_id' => long, 'status' => UserStatus];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-contactStatus={_='contactStatus', user_id=int, status=UserStatus}
+contactStatus={_='contactStatus', user_id=long, status=UserStatus}
 
 ```
 

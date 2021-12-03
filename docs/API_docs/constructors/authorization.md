@@ -17,6 +17,8 @@ Logged-in session
 |current|[Bool](../types/Bool.md) | Optional|Whether this is the current session|
 |official\_app|[Bool](../types/Bool.md) | Optional|Whether the session is from an official app|
 |password\_pending|[Bool](../types/Bool.md) | Optional|Whether the session is still waiting for a 2FA password|
+|encrypted\_requests\_disabled|[Bool](../types/Bool.md) | Optional|
+|call\_requests\_disabled|[Bool](../types/Bool.md) | Optional|
 |hash|[long](../types/long.md) | Yes|Identifier|
 |device\_model|[string](../types/string.md) | Yes|Device model|
 |platform|[string](../types/string.md) | Yes|Platform|
@@ -38,14 +40,14 @@ Logged-in session
 ### Example:
 
 ```php
-$authorization = ['_' => 'authorization', 'current' => Bool, 'official_app' => Bool, 'password_pending' => Bool, 'hash' => long, 'device_model' => 'string', 'platform' => 'string', 'system_version' => 'string', 'api_id' => int, 'app_name' => 'string', 'app_version' => 'string', 'date_created' => int, 'date_active' => int, 'ip' => 'string', 'country' => 'string', 'region' => 'string'];
+$authorization = ['_' => 'authorization', 'current' => Bool, 'official_app' => Bool, 'password_pending' => Bool, 'encrypted_requests_disabled' => Bool, 'call_requests_disabled' => Bool, 'hash' => long, 'device_model' => 'string', 'platform' => 'string', 'system_version' => 'string', 'api_id' => int, 'app_name' => 'string', 'app_version' => 'string', 'date_created' => int, 'date_active' => int, 'ip' => 'string', 'country' => 'string', 'region' => 'string'];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-authorization={_='authorization', current=Bool, official_app=Bool, password_pending=Bool, hash=long, device_model='string', platform='string', system_version='string', api_id=int, app_name='string', app_version='string', date_created=int, date_active=int, ip='string', country='string', region='string'}
+authorization={_='authorization', current=Bool, official_app=Bool, password_pending=Bool, encrypted_requests_disabled=Bool, call_requests_disabled=Bool, hash=long, device_model='string', platform='string', system_version='string', api_id=int, app_name='string', app_version='string', date_created=int, date_active=int, ip='string', country='string', region='string'}
 
 ```
 

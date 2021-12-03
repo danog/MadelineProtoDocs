@@ -15,7 +15,7 @@ If the difference is too long or if the channel isn't currently in the states, s
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[int](../types/int.md) | Yes|The channel|
+|channel\_id|[long](../types/long.md) | Yes|
 |pts|[int](../types/int.md) | Optional|The [PTS](https://core.telegram.org/api/updates).|
 
 
@@ -26,14 +26,14 @@ If the difference is too long or if the channel isn't currently in the states, s
 ### Example:
 
 ```php
-$updateChannelTooLong = ['_' => 'updateChannelTooLong', 'channel_id' => int, 'pts' => int];
+$updateChannelTooLong = ['_' => 'updateChannelTooLong', 'channel_id' => long, 'pts' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateChannelTooLong={_='updateChannelTooLong', channel_id=int, pts=int}
+updateChannelTooLong={_='updateChannelTooLong', channel_id=long, pts=int}
 
 ```
 

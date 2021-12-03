@@ -43,3 +43,11 @@ Or, if you're into Lua:
 Updates = messages.setHistoryTTL({peer=InputPeer, period=int, })
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|400|CHAT_NOT_MODIFIED|The pinned message wasn't modified|
+|400|TTL_PERIOD_INVALID|The specified TTL period is invalid|
+
+

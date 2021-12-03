@@ -19,7 +19,7 @@ redirect_from: /API_docs/methods/phone_joinGroupCallPresentation.html
 
 ### Return type: [Updates](../types/Updates.md)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
@@ -42,4 +42,11 @@ Or, if you're into Lua:
 ```lua
 Updates = phone.joinGroupCallPresentation({call=InputGroupCall, params=DataJSON, })
 ```
+
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|403|PARTICIPANT_JOIN_MISSING|Trying to enable a presentation, when the user hasn't joined the Video Chat with [phone.joinGroupCall](/method/phone.joinGroupCall)|
+
 

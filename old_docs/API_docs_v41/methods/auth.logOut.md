@@ -39,3 +39,10 @@ Or, if you're into Lua:
 Bool = auth.logOut({})
 ```
 
+### Errors
+
+| Code | Type     | Description   |
+|------|----------|---------------|
+|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
+
+

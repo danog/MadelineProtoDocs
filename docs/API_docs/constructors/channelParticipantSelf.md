@@ -14,8 +14,9 @@ Myself
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[int](../types/int.md) | Yes|User ID|
-|inviter\_id|[int](../types/int.md) | Yes|User that invited me to the channel/supergroup|
+|via\_request|[Bool](../types/Bool.md) | Optional|
+|user\_id|[long](../types/long.md) | Yes|
+|inviter\_id|[long](../types/long.md) | Yes|
 |date|[int](../types/int.md) | Yes|When did I join the channel/supergroup|
 
 
@@ -26,14 +27,14 @@ Myself
 ### Example:
 
 ```php
-$channelParticipantSelf = ['_' => 'channelParticipantSelf', 'user_id' => int, 'inviter_id' => int, 'date' => int];
+$channelParticipantSelf = ['_' => 'channelParticipantSelf', 'via_request' => Bool, 'user_id' => long, 'inviter_id' => long, 'date' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-channelParticipantSelf={_='channelParticipantSelf', user_id=int, inviter_id=int, date=int}
+channelParticipantSelf={_='channelParticipantSelf', via_request=Bool, user_id=long, inviter_id=long, date=int}
 
 ```
 

@@ -54,5 +54,6 @@ Bool = channels.setDiscussionGroup({broadcast=InputChannel, group=InputChannel, 
 |400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
 |400|LINK_NOT_MODIFIED|Discussion link not modified|
 |400|MEGAGROUP_ID_INVALID|Invalid supergroup ID|
+|400|MEGAGROUP_PREHISTORY_HIDDEN|Group with hidden history for new members can't be set as discussion groups|
 
 

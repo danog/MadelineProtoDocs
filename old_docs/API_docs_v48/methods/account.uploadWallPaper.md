@@ -50,6 +50,7 @@ WallPaper = account.uploadWallPaper({file=InputFile, mime_type='string', setting
 
 | Code | Type     | Description   |
 |------|----------|---------------|
+|400|WALLPAPER_FILE_INVALID|The specified wallpaper file is invalid|
 |400|WALLPAPER_MIME_INVALID|The specified wallpaper MIME type is invalid|
 
 

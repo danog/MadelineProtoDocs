@@ -30,13 +30,13 @@ Channel/supergroup info
 |call\_not\_empty|[Bool](../types/Bool.md) | Optional|
 |fake|[Bool](../types/Bool.md) | Optional|
 |gigagroup|[Bool](../types/Bool.md) | Optional|
-|id|[int](../types/int.md) | Yes|ID of the channel|
+|noforwards|[Bool](../types/Bool.md) | Optional|
+|id|[long](../types/long.md) | Yes|
 |access\_hash|[long](../types/long.md) | Optional|Access hash|
 |title|[string](../types/string.md) | Yes|Title|
 |username|[string](../types/string.md) | Optional|Username|
 |photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|Profile photo|
 |date|[int](../types/int.md) | Yes|Date when the user joined the supergroup/channel, or if the user isn't a member, its creation date|
-|version|[int](../types/int.md) | Yes|Version of the channel (always `0`)|
 |restriction\_reason|Array of [RestrictionReason](../types/RestrictionReason.md) | Optional|Contains the reason why access to this channel must be restricted.|
 |admin\_rights|[ChatAdminRights](../types/ChatAdminRights.md) | Optional|Admin rights of the user in this channel (see [rights](https://core.telegram.org/api/rights))|
 |banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Optional|Banned rights of the user in this channel (see [rights](https://core.telegram.org/api/rights))|
@@ -51,14 +51,14 @@ Channel/supergroup info
 ### Example:
 
 ```php
-$channel = ['_' => 'channel', 'creator' => Bool, 'left' => Bool, 'broadcast' => Bool, 'verified' => Bool, 'megagroup' => Bool, 'restricted' => Bool, 'signatures' => Bool, 'min' => Bool, 'scam' => Bool, 'has_link' => Bool, 'has_geo' => Bool, 'slowmode_enabled' => Bool, 'call_active' => Bool, 'call_not_empty' => Bool, 'fake' => Bool, 'gigagroup' => Bool, 'id' => int, 'access_hash' => long, 'title' => 'string', 'username' => 'string', 'photo' => ChatPhoto, 'date' => int, 'version' => int, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'admin_rights' => ChatAdminRights, 'banned_rights' => ChatBannedRights, 'default_banned_rights' => ChatBannedRights, 'participants_count' => int];
+$channel = ['_' => 'channel', 'creator' => Bool, 'left' => Bool, 'broadcast' => Bool, 'verified' => Bool, 'megagroup' => Bool, 'restricted' => Bool, 'signatures' => Bool, 'min' => Bool, 'scam' => Bool, 'has_link' => Bool, 'has_geo' => Bool, 'slowmode_enabled' => Bool, 'call_active' => Bool, 'call_not_empty' => Bool, 'fake' => Bool, 'gigagroup' => Bool, 'noforwards' => Bool, 'id' => long, 'access_hash' => long, 'title' => 'string', 'username' => 'string', 'photo' => ChatPhoto, 'date' => int, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'admin_rights' => ChatAdminRights, 'banned_rights' => ChatBannedRights, 'default_banned_rights' => ChatBannedRights, 'participants_count' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-channel={_='channel', creator=Bool, left=Bool, broadcast=Bool, verified=Bool, megagroup=Bool, restricted=Bool, signatures=Bool, min=Bool, scam=Bool, has_link=Bool, has_geo=Bool, slowmode_enabled=Bool, call_active=Bool, call_not_empty=Bool, fake=Bool, gigagroup=Bool, id=int, access_hash=long, title='string', username='string', photo=ChatPhoto, date=int, version=int, restriction_reason={RestrictionReason}, admin_rights=ChatAdminRights, banned_rights=ChatBannedRights, default_banned_rights=ChatBannedRights, participants_count=int}
+channel={_='channel', creator=Bool, left=Bool, broadcast=Bool, verified=Bool, megagroup=Bool, restricted=Bool, signatures=Bool, min=Bool, scam=Bool, has_link=Bool, has_geo=Bool, slowmode_enabled=Bool, call_active=Bool, call_not_empty=Bool, fake=Bool, gigagroup=Bool, noforwards=Bool, id=long, access_hash=long, title='string', username='string', photo=ChatPhoto, date=int, restriction_reason={RestrictionReason}, admin_rights=ChatAdminRights, banned_rights=ChatBannedRights, default_banned_rights=ChatBannedRights, participants_count=int}
 
 ```
 

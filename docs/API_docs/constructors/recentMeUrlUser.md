@@ -15,7 +15,7 @@ Recent t.me link to a user
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |url|[string](../types/string.md) | Yes|URL|
-|user\_id|[int](../types/int.md) | Yes|User ID|
+|user\_id|[long](../types/long.md) | Yes|
 
 
 
@@ -25,14 +25,14 @@ Recent t.me link to a user
 ### Example:
 
 ```php
-$recentMeUrlUser = ['_' => 'recentMeUrlUser', 'url' => 'string', 'user_id' => int];
+$recentMeUrlUser = ['_' => 'recentMeUrlUser', 'url' => 'string', 'user_id' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-recentMeUrlUser={_='recentMeUrlUser', url='string', user_id=int}
+recentMeUrlUser={_='recentMeUrlUser', url='string', user_id=long}
 
 ```
 

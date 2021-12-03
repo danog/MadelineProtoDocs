@@ -15,7 +15,7 @@ Get all installed stickers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [int](../types/int.md) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|[long](../types/long.md) |  | Yes|
 
 
 ### Return type: [messages.AllStickers](../types/messages.AllStickers.md)
@@ -35,12 +35,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_AllStickers = $MadelineProto->messages->getAllStickers(['hash' => [int, int], ]);
+$messages_AllStickers = $MadelineProto->messages->getAllStickers(['hash' => long, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-messages_AllStickers = messages.getAllStickers({hash={int}, })
+messages_AllStickers = messages.getAllStickers({hash=long, })
 ```
 

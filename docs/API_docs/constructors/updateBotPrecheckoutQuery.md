@@ -15,7 +15,7 @@ This object contains information about an incoming pre-checkout query.
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |query\_id|[long](../types/long.md) | Yes|Unique query identifier|
-|user\_id|[int](../types/int.md) | Yes|User who sent the query|
+|user\_id|[long](../types/long.md) | Yes|
 |payload|[bytes](../types/bytes.md) | Yes|Bot specified invoice payload|
 |info|[PaymentRequestedInfo](../types/PaymentRequestedInfo.md) | Optional|Order info provided by the user|
 |shipping\_option\_id|[string](../types/string.md) | Optional|Identifier of the shipping option chosen by the user|
@@ -30,14 +30,14 @@ This object contains information about an incoming pre-checkout query.
 ### Example:
 
 ```php
-$updateBotPrecheckoutQuery = ['_' => 'updateBotPrecheckoutQuery', 'query_id' => long, 'user_id' => int, 'payload' => 'bytes', 'info' => PaymentRequestedInfo, 'shipping_option_id' => 'string', 'currency' => 'string', 'total_amount' => long];
+$updateBotPrecheckoutQuery = ['_' => 'updateBotPrecheckoutQuery', 'query_id' => long, 'user_id' => long, 'payload' => 'bytes', 'info' => PaymentRequestedInfo, 'shipping_option_id' => 'string', 'currency' => 'string', 'total_amount' => long];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateBotPrecheckoutQuery={_='updateBotPrecheckoutQuery', query_id=long, user_id=int, payload='bytes', info=PaymentRequestedInfo, shipping_option_id='string', currency='string', total_amount=long}
+updateBotPrecheckoutQuery={_='updateBotPrecheckoutQuery', query_id=long, user_id=long, payload='bytes', info=PaymentRequestedInfo, shipping_option_id='string', currency='string', total_amount=long}
 
 ```
 

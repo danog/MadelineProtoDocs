@@ -13,7 +13,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |peer|[Peer](../types/Peer.md) | Yes|
-|bot\_id|[int](../types/int.md) | Yes|
+|bot\_id|[long](../types/long.md) | Yes|
 |commands|Array of [BotCommand](../types/BotCommand.md) | Yes|
 
 
@@ -24,14 +24,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```php
-$updateBotCommands = ['_' => 'updateBotCommands', 'peer' => Peer, 'bot_id' => int, 'commands' => [BotCommand, BotCommand]];
+$updateBotCommands = ['_' => 'updateBotCommands', 'peer' => Peer, 'bot_id' => long, 'commands' => [BotCommand, BotCommand]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-updateBotCommands={_='updateBotCommands', peer=Peer, bot_id=int, commands={BotCommand}}
+updateBotCommands={_='updateBotCommands', peer=Peer, bot_id=long, commands={BotCommand}}
 
 ```
 

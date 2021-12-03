@@ -14,7 +14,7 @@ Allow only certain users
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|users|Array of [int](../types/int.md) | Yes|Allowed users|
+|users|Array of [long](../types/long.md) | Yes|Allowed users|
 
 
 
@@ -24,14 +24,14 @@ Allow only certain users
 ### Example:
 
 ```php
-$privacyValueAllowUsers = ['_' => 'privacyValueAllowUsers', 'users' => [int, int]];
+$privacyValueAllowUsers = ['_' => 'privacyValueAllowUsers', 'users' => [long, long]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-privacyValueAllowUsers={_='privacyValueAllowUsers', users={int}}
+privacyValueAllowUsers={_='privacyValueAllowUsers', users={long}}
 
 ```
 

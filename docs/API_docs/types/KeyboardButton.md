@@ -53,6 +53,10 @@ You can also access the properties of the constructor as a normal array, for exa
 
 [keyboardButtonRequestPoll](../constructors/keyboardButtonRequestPoll.md)  
 
+[inputKeyboardButtonUserProfile](../constructors/inputKeyboardButtonUserProfile.md)  
+
+[keyboardButtonUserProfile](../constructors/keyboardButtonUserProfile.md)  
+
 
 
 ### Methods that return an object of this type (methods):
@@ -80,4 +84,8 @@ You can also access the properties of the constructor as a normal array, for exa
 [inputKeyboardButtonUrlAuth](../constructors/inputKeyboardButtonUrlAuth.md)  
 
 [keyboardButtonRequestPoll](../constructors/keyboardButtonRequestPoll.md)  
+
+[inputKeyboardButtonUserProfile](../constructors/inputKeyboardButtonUserProfile.md)  
+
+[keyboardButtonUserProfile](../constructors/keyboardButtonUserProfile.md)  
 

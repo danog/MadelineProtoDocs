@@ -14,7 +14,7 @@ Disallow only participants of certain chats
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chats|Array of [int](../types/int.md) | Yes|Disallowed chats|
+|chats|Array of [long](../types/long.md) | Yes|Disallowed chats|
 
 
 
@@ -24,14 +24,14 @@ Disallow only participants of certain chats
 ### Example:
 
 ```php
-$privacyValueDisallowChatParticipants = ['_' => 'privacyValueDisallowChatParticipants', 'chats' => [int, int]];
+$privacyValueDisallowChatParticipants = ['_' => 'privacyValueDisallowChatParticipants', 'chats' => [long, long]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-privacyValueDisallowChatParticipants={_='privacyValueDisallowChatParticipants', chats={int}}
+privacyValueDisallowChatParticipants={_='privacyValueDisallowChatParticipants', chats={long}}
 
 ```
 
