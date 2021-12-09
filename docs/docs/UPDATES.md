@@ -54,6 +54,7 @@ use danog\MadelineProto\EventHandler;
 use danog\MadelineProto\Tools;
 use danog\MadelineProto\API;
 use danog\MadelineProto\Logger;
+use danog\MadelineProto\Settings;
 use danog\MadelineProto\RPCErrorException;
 
 /**
@@ -153,17 +154,11 @@ class MyEventHandler extends EventHandler
         }
     }
 }
-$settings = [
-    'logger' => [
-        'logger_level' => 5
-    ],
-    'serialization' => [
-        'serialization_interval' => 30,
-    ],
-];
 
-$MadelineProto = new API('bot.madeline', $settings);
-$MadelineProto->startAndLoop(MyEventHandler::class);
+$settings = new Settings;
+$settings->getLogger()->setLevel(Logger::LEVEL_ULTRA_VERBOSE);
+
+MyEventHandler::startAndLoop('bot.madeline', $settings);
 ```
 
 This will create an event handler class `MyEventHandler`, create a MadelineProto session, and set the event handler class to our newly created event handler.
