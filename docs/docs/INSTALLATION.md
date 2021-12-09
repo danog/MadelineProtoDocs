@@ -48,7 +48,7 @@ composer.json:
     "description": "Project description",
     "type": "project",
     "require": {
-        "danog/madelineproto": "^6"
+        "danog/madelineproto": "^7"
     },
     "license": "AGPL-3.0-only",
     "authors": [
@@ -81,7 +81,7 @@ require_once 'vendor/autoload.php';
 Simply require the package:  
 
 ```bash
-composer require danog/madelineproto
+composer require "danog/madelineproto:^7"
 ```
 
 <a href="https://docs.madelineproto.xyz/docs/UPDATES.html">Next section</a>
