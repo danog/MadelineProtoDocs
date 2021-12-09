@@ -16,8 +16,6 @@ Cryptography settings.
 
 
 ## Method list:
-* `getRsaKeys(): array`
-* `setRsaKeys(array $rsaKeys): self`
 * `getDefaultTempAuthKeyExpiresIn(): int`
 * `setDefaultTempAuthKeyExpiresIn(int $defaultTempAuthKeyExpiresIn): self`
 * `getPfs(): bool`
@@ -26,22 +24,6 @@ Cryptography settings.
 * `setMaxAuthTries(int $maxAuthTries): self`
 
 ## Methods:
-### `getRsaKeys(): array`
-
-Get MTProto public keys array.
-
-
-
-### `setRsaKeys(array $rsaKeys): self`
-
-Set MTProto public keys array.
-
-
-Parameters:
-* `$rsaKeys`: `array` MTProto public keys array.  
-
-
-
 ### `getDefaultTempAuthKeyExpiresIn(): int`
 
 Get validity period of the binding of temporary and permanent keys.

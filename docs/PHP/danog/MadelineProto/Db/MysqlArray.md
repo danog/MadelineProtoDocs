@@ -18,12 +18,11 @@ MySQL database backend.
 ## Method list:
 * `initStartup(): \Generator`
 * `initConnection(\danog\MadelineProto\Settings\Database\Mysql $settings): \Generator`
-* `isset( $key): \Promise<bool> true if the offset exists, otherwise false`
-* `offsetUnset(string|int $index): \Amp\Promise`
+* `isset(mixed $key): \Promise<bool> true if the offset exists, otherwise false`
+* `unset(string|int $index): \Amp\Promise<array>`
 * `count(): \Promise<int> The number of elements or public properties in the associated
 array or object, respectively.`
 * `clear(): \Amp\Promise`
-* `offsetSet(string|int $index,  $value)`
 * `getTable(): string`
 * `setTable(string $table): self`
 * `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
@@ -56,19 +55,19 @@ Parameters:
 
 
 
-### `isset( $key): \Promise<bool> true if the offset exists, otherwise false`
+### `isset(mixed $key): \Promise<bool> true if the offset exists, otherwise false`
 
 Check if key isset.
 
 
 Parameters:
-* `$key`: ``   
+* `$key`: `mixed`   
 
 
 Return value: true if the offset exists, otherwise false
 
 
-### `offsetUnset(string|int $index): \Amp\Promise`
+### `unset(string|int $index): \Amp\Promise<array>`
 
 Unset value for an offset.
 
@@ -103,19 +102,6 @@ Clear all elements.
 #### See also: 
 * `\Amp\Promise`
 
-
-
-
-### `offsetSet(string|int $index,  $value)`
-
-Set value for an offset.
-
-
-Parameters:
-* `$index`: `string|int` <p>
-The index to set for.
-</p>  
-* `$value`: ``   
 
 
 

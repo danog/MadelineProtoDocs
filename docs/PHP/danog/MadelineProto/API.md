@@ -83,7 +83,7 @@ Main API wrapper for MadelineProto.
 * `fileGetContents(string $url): \Amp\Promise`
 * `first((\Promise|\Generator)[] $promises): \Amp\Promise`
 * `flock(string $file, int $operation, float $polling, ?\Promise $token, ?callable $failureCb)`
-* `fromSupergroup(int $id): float|int`
+* `fromSupergroup(int $id): int`
 * `fullChatLastUpdated(mixed $id): \Amp\Promise<int>`
 * `fullGetSelf(): \Amp\Promise<array|bool>`
 * `genVectorHash(array $ints): \string Vector hash`
@@ -190,7 +190,7 @@ Main API wrapper for MadelineProto.
 * `timeoutWithDefault(\Promise|\Generator $promise, int $timeout, mixed $default): \Amp\Promise<\TReturn>|\Promise<\TReturnAlt>`
 * `toCamelCase(string $input): string`
 * `toSnakeCase(string $input): string`
-* `toSupergroup(int $id): float|int`
+* `toSupergroup(int $id): int`
 * `typeEscape(string $type): string`
 * `unpackDouble(string $value): float`
 * `unpackFileId(string $fileId): mixed`
@@ -957,7 +957,7 @@ Parameters:
 
 
 
-### `fromSupergroup(int $id): float|int`
+### `fromSupergroup(int $id): int`
 
 Convert bot API channel ID to MTProto channel ID.
 
@@ -2451,7 +2451,7 @@ Parameters:
 
 
 
-### `toSupergroup(int $id): float|int`
+### `toSupergroup(int $id): int`
 
 Convert MTProto channel ID to bot API channel ID.
 

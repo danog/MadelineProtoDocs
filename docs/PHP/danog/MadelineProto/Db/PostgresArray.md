@@ -18,9 +18,9 @@ Postgres database backend.
 ## Method list:
 * `initStartup(): \Generator`
 * `initConnection(\danog\MadelineProto\Settings\Database\Postgres $settings): \Generator`
-* `offsetSet(string|int $index,  $value)`
-* `isset( $key): \Promise<bool> true if the offset exists, otherwise false`
-* `offsetUnset(string|int $index): \Amp\Promise`
+* `set(string|int $index,  $value)`
+* `isset(mixed $key): \Promise<bool> true if the offset exists, otherwise false`
+* `unset(string|int $index): \Amp\Promise<array>`
 * `count(): \Promise<int> The number of elements or public properties in the associated
 array or object, respectively.`
 * `clear(): \Amp\Promise`
@@ -56,7 +56,7 @@ Parameters:
 
 
 
-### `offsetSet(string|int $index,  $value)`
+### `set(string|int $index,  $value)`
 
 Set value for an offset.
 
@@ -69,19 +69,19 @@ The index to set for.
 
 
 
-### `isset( $key): \Promise<bool> true if the offset exists, otherwise false`
+### `isset(mixed $key): \Promise<bool> true if the offset exists, otherwise false`
 
 Check if key isset.
 
 
 Parameters:
-* `$key`: ``   
+* `$key`: `mixed`   
 
 
 Return value: true if the offset exists, otherwise false
 
 
-### `offsetUnset(string|int $index): \Amp\Promise`
+### `unset(string|int $index): \Amp\Promise<array>`
 
 Unset value for an offset.
 

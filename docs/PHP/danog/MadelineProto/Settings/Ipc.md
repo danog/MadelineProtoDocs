@@ -17,22 +17,11 @@ IPC server settings.
 
 ## Method list:
 * `getSlow(): bool`
-* `setSlow(bool $slow): self`
 
 ## Methods:
 ### `getSlow(): bool`
 
 Get WARNING: this will cause slow startup if enabled.
-
-
-
-### `setSlow(bool $slow): self`
-
-Whether to force full deserialization of instance, without using the IPC server/client.
-WARNING: this will cause slow startup if enabled.
-
-Parameters:
-* `$slow`: `bool` WARNING: this will cause slow startup if enabled.  
 
 
 

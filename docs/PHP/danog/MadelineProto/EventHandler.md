@@ -16,6 +16,7 @@ Event handler.
 
 
 ## Method list:
+* `startAndLoop(string $session, \danog\MadelineProto\SettingsAbstract $settings): void`
 * `getReportPeers(): array|string|int`
 * `getAPI(): \danog\MadelineProto\MTProto`
 * `MTProtoToBotAPI(array $data): \Amp\Promise<array>`
@@ -62,7 +63,7 @@ Event handler.
 * `fileGetContents(string $url): \Amp\Promise`
 * `first((\Promise|\Generator)[] $promises): \Amp\Promise`
 * `flock(string $file, int $operation, float $polling, ?\Promise $token, ?callable $failureCb)`
-* `fromSupergroup(int $id): float|int`
+* `fromSupergroup(int $id): int`
 * `fullChatLastUpdated(mixed $id): \Amp\Promise<int>`
 * `fullGetSelf(): \Amp\Promise<array|bool>`
 * `genVectorHash(array $ints): \string Vector hash`
@@ -169,7 +170,7 @@ Event handler.
 * `timeoutWithDefault(\Promise|\Generator $promise, int $timeout, mixed $default): \Amp\Promise<\TReturn>|\Promise<\TReturnAlt>`
 * `toCamelCase(string $input): string`
 * `toSnakeCase(string $input): string`
-* `toSupergroup(int $id): float|int`
+* `toSupergroup(int $id): int`
 * `typeEscape(string $type): string`
 * `unpackDouble(string $value): float`
 * `unpackFileId(string $fileId): mixed`
@@ -193,6 +194,22 @@ Event handler.
 * `forceInit(bool $inited): void`
 
 ## Methods:
+### `startAndLoop(string $session, \danog\MadelineProto\SettingsAbstract $settings): void`
+
+Start MadelineProto and the event handler (enables async).
+Also initializes error reporting, catching and reporting all errors surfacing from the event loop.
+
+Parameters:
+* `$session`: `string` Session name  
+* `$settings`: `\danog\MadelineProto\SettingsAbstract` Settings  
+
+
+#### See also: 
+* `\danog\MadelineProto\SettingsAbstract`
+
+
+
+
 ### `getReportPeers(): array|string|int`
 
 Get peers where to send error reports.
@@ -915,7 +932,7 @@ Parameters:
 
 
 
-### `fromSupergroup(int $id): float|int`
+### `fromSupergroup(int $id): int`
 
 Convert bot API channel ID to MTProto channel ID.
 
@@ -2409,7 +2426,7 @@ Parameters:
 
 
 
-### `toSupergroup(int $id): float|int`
+### `toSupergroup(int $id): int`
 
 Convert MTProto channel ID to bot API channel ID.
 

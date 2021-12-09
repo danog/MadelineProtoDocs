@@ -20,10 +20,6 @@ RPC settings.
 * `setRpcTimeout(int $rpcTimeout): self`
 * `getFloodTimeout(): int`
 * `setFloodTimeout(int $floodTimeout): self`
-* `getLimitIncoming(): int`
-* `setLimitIncoming(int $limitIncoming): self`
-* `getLimitOutgoing(): int`
-* `setLimitOutgoing(int $limitOutgoing): self`
 * `getLimitCallQueue(): int`
 * `setLimitCallQueue(int $limitCallQueue): self`
 * `getGzipEncodeIfGt(): int`
@@ -59,38 +55,6 @@ Set flood timeout: if FLOOD_WAIT_ time is bigger than this, throw exception inst
 
 Parameters:
 * `$floodTimeout`: `int` Flood timeout: if FLOOD_WAIT_ time is bigger than this, throw exception instead of waiting asynchronously  
-
-
-
-### `getLimitIncoming(): int`
-
-Get maximum number of messages to be stored in the incoming queue.
-
-
-
-### `setLimitIncoming(int $limitIncoming): self`
-
-Set maximum number of messages to be stored in the incoming queue.
-
-
-Parameters:
-* `$limitIncoming`: `int` Maximum number of messages to be stored in the incoming queue  
-
-
-
-### `getLimitOutgoing(): int`
-
-Get maximum number of messages to be stored in the outgoing queue.
-
-
-
-### `setLimitOutgoing(int $limitOutgoing): self`
-
-Set maximum number of messages to be stored in the outgoing queue.
-
-
-Parameters:
-* `$limitOutgoing`: `int` Maximum number of messages to be stored in the outgoing queue  
 
 
 

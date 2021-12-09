@@ -18,9 +18,10 @@ DB array interface.
 ## Method list:
 * `getArrayCopy(): \Amp\Promise`
 * `isset(string|int $key): \Amp\Promise`
+* `unset(string|int $key): \Amp\Promise`
+* `set(string|int $index, mixed $value): \Amp\Promise`
 * `offsetGet(string|int $index): \Amp\Promise`
-* `offsetSet(string|int $index, mixed $value): \Amp\Promise`
-* `offsetUnset(string|int $index): \Amp\Promise`
+* `offsetSet(string|int $index, mixed $value): void`
 * `count(): \Amp\Promise<int>`
 * `clear(): \Amp\Promise`
 * `getIterator()`
@@ -62,27 +63,26 @@ Fully typed return value:
 
 
 
-### `offsetGet(string|int $index): \Amp\Promise`
+### `unset(string|int $key): \Amp\Promise`
 
-Get element.
+Unset element.
 
 
 Parameters:
-* `$index`: `string|int`   
+* `$key`: `string|int`   
 
 
 Fully typed return value:
 ```
-\Amp\Promise<\T>
+\Amp\Promise<mixed>
 ```
 #### See also: 
-* `\T`
 * `\Amp\Promise`
 
 
 
 
-### `offsetSet(string|int $index, mixed $value): \Amp\Promise`
+### `set(string|int $index, mixed $value): \Amp\Promise`
 
 Set element.
 
@@ -103,17 +103,42 @@ Parameters:
 
 
 
-### `offsetUnset(string|int $index): \Amp\Promise`
+### `offsetGet(string|int $index): \Amp\Promise`
 
-Unset element.
+Get element.
 
 
 Parameters:
-* `$index`: `string|int` Offset  
+* `$index`: `string|int`   
+
+
+Fully typed return value:
+```
+\Amp\Promise<\T>
+```
+#### See also: 
+* `\T`
+* `\Amp\Promise`
+
+
+
+
+### `offsetSet(string|int $index, mixed $value): void`
+
+Set element.
+
+
+Parameters:
+* `$index`: `string|int`   
+* `$value`: `mixed`   
+  Full type:
+  ```
+  \T
+  ```
 
 
 #### See also: 
-* `\Amp\Promise`
+* `\T`
 
 
 

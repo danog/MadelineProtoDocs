@@ -18,9 +18,8 @@ Redis database backend.
 ## Method list:
 * `initStartup(): \Generator`
 * `initConnection(\danog\MadelineProto\Settings\Database\Redis $settings): \Generator`
-* `offsetSet(string $index,  $value)`
+* `set(string $index,  $value)`
 * `isset( $key): \Promise<bool> true if the offset exists, otherwise false`
-* `offsetUnset(string $index): \Amp\Promise`
 * `getArrayCopy(): \Amp\Promise<array>`
 * `count(): \Promise<int> The number of elements or public properties in the associated
 array or object, respectively.`
@@ -57,7 +56,7 @@ Parameters:
 
 
 
-### `offsetSet(string $index,  $value)`
+### `set(string $index,  $value)`
 
 Set value for an offset.
 
@@ -80,23 +79,6 @@ Parameters:
 
 
 Return value: true if the offset exists, otherwise false
-
-
-### `offsetUnset(string $index): \Amp\Promise`
-
-Unset value for an offset.
-
-
-Parameters:
-* `$index`: `string` <p>
-The offset to unset.
-</p>  
-
-
-#### See also: 
-* `\Amp\Promise`
-
-
 
 
 ### `getArrayCopy(): \Amp\Promise<array>`
