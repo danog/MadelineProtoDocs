@@ -121,6 +121,7 @@ Main API wrapper for MadelineProto.
 * `getSecretChat(array|int $chat): mixed`
 * `getSelf(): array|bool`
 * `getSettings(): mixed`
+* `getSponsoredMessages(int|array $peer): \Amp\Promise`
 * `getTL(): mixed`
 * `getVar(object $obj, string $var): mixed`
 * `getWebMessage(string $message)`
@@ -206,6 +207,7 @@ Main API wrapper for MadelineProto.
 * `uploadFromStream(mixed $stream, int $size, string $mime, string $fileName, callable $cb, bool $encrypted): \Amp\Promise`
 * `uploadFromTgfile(mixed $media, callable $cb, bool $encrypted): \Amp\Promise`
 * `uploadFromUrl(string|\danog\MadelineProto\FileCallbackInterface $url, int $size, string $fileName, callable $cb, bool $encrypted): \Amp\Promise`
+* `viewSponsoredMessage(int|array $peer): \Amp\Promise Bool`
 * `wait(\Generator|\Promise $promise, bool $ignoreSignal): mixed`
 * `async(bool $async): void`
 * `init(): void`
@@ -1491,6 +1493,23 @@ Fully typed return value:
 
 
 
+### `getSponsoredMessages(int|array $peer): \Amp\Promise`
+
+Get sponsored messages for channel.
+This method will return an array of [sponsored message objects](https://docs.madelineproto.xyz/API_docs/constructors/sponsoredMessage.html).
+
+See [the API documentation](https://core.telegram.org/api/sponsored-messages) for more info on how to handle sponsored messages.
+
+Parameters:
+* `$peer`: `int|array` Channel ID, or Update, or Message, or Peer.  
+
+
+#### See also: 
+* `\Amp\Promise`
+
+
+
+
 ### `getTL(): mixed`
 
 Get TL serializer.
@@ -2718,6 +2737,18 @@ Fully typed return value:
 * `\Amp\Promise`
 
 
+
+
+### `viewSponsoredMessage(int|array $peer): \Amp\Promise Bool`
+
+Mark sponsored message as read.
+
+
+Parameters:
+* `$peer`: `int|array` Channel ID, or Update, or Message, or Peer.  
+
+
+Return value: Bool
 
 
 ### `wait(\Generator|\Promise $promise, bool $ignoreSignal): mixed`
