@@ -13,7 +13,6 @@ Update handling can be done in different ways:
   * [Built-in database driver](#built-in-database-driver)
 * [Async Event driven multi-account](#async-event-driven-multiaccount)
 * [Noop (default)](#noop)
-* [Fetch all updates from the beginning](#fetch-all-updates-from-the-beginning)
 
 
 ## Self-restart on webhosts
