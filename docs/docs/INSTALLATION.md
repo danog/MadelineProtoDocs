@@ -25,11 +25,8 @@ require_once 'madeline.php';
 
 This code will automatically download, auto-update and include MadelineProto.
 
-If you want, you can set a `MADELINE_BRANCH` constant before including `madeline.php`, that will define which branch of MadelineProto madeline.php should load.  
-When the constant is not set, the latest stable release is loaded.  
-If the value is an empty string, the `master` branch is loaded.
-Otherwise, the selected branch name or tag is loaded.  
-
+`madeline.php` is not compatible with pre-existing composer installs, [please install MadelineProto using composer](#simple-manual) if you already have a composer project.  
+The composer check may be disabled for very special cases like joomla installs by defining `const MADELINE_ALLOW_COMPOSER = true;` before including `madeline.php`.  
 
 ## Simple (manual)
 
