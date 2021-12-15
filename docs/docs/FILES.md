@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 MadelineProto provides **fully parallelized** wrapper methods to upload and download files that support bot API file ids, direct upload by URL and file renaming.
 
-Maximum file size is of 1.5 GB.
+Maximum file size is of 2 GB.
 
 Example bot: [`downloadRenameBot.php`](https://github.com/danog/MadelineProto/blob/master/examples/downloadRenameBot.php) - download files by URL and rename Telegram files using this async parallelized bot!
 
