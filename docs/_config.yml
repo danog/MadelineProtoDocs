@@ -4,6 +4,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
 
+color_scheme: dark
+
 url: https://docs.madelineproto.xyz
 logo: https://docs.madelineproto.xyz/logo.png
 
