@@ -1,6 +1,6 @@
 ---
-title: contacts.topPeersNotModified
-description: Top peer info hasn't changed
+title: "contacts.topPeersNotModified"
+description: "Top peer info hasn't changed"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/contacts_topPeersNotModified.html
 ---

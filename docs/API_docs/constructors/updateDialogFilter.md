@@ -1,6 +1,6 @@
 ---
-title: updateDialogFilter
-description: A new [folder](https://core.telegram.org/api/folders) was added
+title: "updateDialogFilter"
+description: "A new folder was added"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateDialogFilter  

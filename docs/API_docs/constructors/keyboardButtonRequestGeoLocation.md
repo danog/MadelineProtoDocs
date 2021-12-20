@@ -1,6 +1,6 @@
 ---
-title: keyboardButtonRequestGeoLocation
-description: Button to request a user's geolocation
+title: "keyboardButtonRequestGeoLocation"
+description: "Button to request a user's geolocation"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: keyboardButtonRequestGeoLocation  

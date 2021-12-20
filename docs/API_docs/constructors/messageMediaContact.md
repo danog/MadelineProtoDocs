@@ -1,6 +1,6 @@
 ---
-title: messageMediaContact
-description: Attached contact.
+title: "messageMediaContact"
+description: "Attached contact."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaContact  

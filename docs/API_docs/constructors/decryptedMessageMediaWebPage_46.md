@@ -1,6 +1,6 @@
 ---
-title: decryptedMessageMediaWebPage
-description: Webpage preview
+title: "decryptedMessageMediaWebPage"
+description: "Webpage preview"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaWebPage\_46  

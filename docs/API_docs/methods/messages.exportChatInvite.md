@@ -1,6 +1,6 @@
 ---
-title: messages.exportChatInvite
-description: Export an invite link for a chat
+title: "messages.exportChatInvite"
+description: "Export an invite link for a chat"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_exportChatInvite.html
 ---

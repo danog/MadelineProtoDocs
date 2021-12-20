@@ -1,6 +1,6 @@
 ---
-title: decryptedMessageActionAcceptKey
-description: Accept new key
+title: "decryptedMessageActionAcceptKey"
+description: "Accept new key"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionAcceptKey\_20  

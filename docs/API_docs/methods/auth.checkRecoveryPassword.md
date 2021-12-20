@@ -1,6 +1,6 @@
 ---
-title: auth.checkRecoveryPassword
-description: auth.checkRecoveryPassword parameters, return type and example
+title: "auth.checkRecoveryPassword"
+description: "auth.checkRecoveryPassword parameters, return type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_checkRecoveryPassword.html
 ---

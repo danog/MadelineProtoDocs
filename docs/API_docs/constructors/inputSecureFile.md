@@ -1,6 +1,6 @@
 ---
-title: inputSecureFile
-description: Preuploaded [passport](https://core.telegram.org/passport) file, for more info [see the passport docs »](https://core.telegram.org/passport/encryption#inputsecurefile)
+title: "inputSecureFile"
+description: "Preuploaded passport file, for more info see the passport docs »"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputSecureFile  

@@ -1,6 +1,6 @@
 ---
-title: inputWallPaperSlug
-description: Wallpaper by slug (a unique ID)
+title: "inputWallPaperSlug"
+description: "Wallpaper by slug (a unique ID)"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputWallPaperSlug  

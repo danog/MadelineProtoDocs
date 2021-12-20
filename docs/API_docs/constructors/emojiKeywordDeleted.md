@@ -1,6 +1,6 @@
 ---
-title: emojiKeywordDeleted
-description: Deleted emoji keyword
+title: "emojiKeywordDeleted"
+description: "Deleted emoji keyword"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: emojiKeywordDeleted  

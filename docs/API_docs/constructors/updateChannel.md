@@ -1,6 +1,6 @@
 ---
-title: updateChannel
-description: A new channel is available
+title: "updateChannel"
+description: "A new channel is available"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannel  

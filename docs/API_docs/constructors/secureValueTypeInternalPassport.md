@@ -1,6 +1,6 @@
 ---
-title: secureValueTypeInternalPassport
-description: Internal [passport](https://core.telegram.org/passport)
+title: "secureValueTypeInternalPassport"
+description: "Internal passport"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueTypeInternalPassport  

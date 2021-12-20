@@ -1,6 +1,6 @@
 ---
-title: secureSecretSettings
-description: Secure settings
+title: "secureSecretSettings"
+description: "Secure settings"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureSecretSettings  

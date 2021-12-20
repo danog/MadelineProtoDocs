@@ -1,6 +1,6 @@
 ---
-title: danog\MadelineProto\Settings\Templates: Web and CLI template settings for login.
-description: 
+title: "danog\\MadelineProto\\Settings\\Templates: Web and CLI template settings for login."
+description: ""
 
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---

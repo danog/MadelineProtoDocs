@@ -1,6 +1,6 @@
 ---
-title: secureValueTypeRentalAgreement
-description: Rental agreement
+title: "secureValueTypeRentalAgreement"
+description: "Rental agreement"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueTypeRentalAgreement  

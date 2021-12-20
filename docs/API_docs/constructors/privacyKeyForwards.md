@@ -1,6 +1,6 @@
 ---
-title: privacyKeyForwards
-description: Whether messages forwarded from the user will be [anonymously forwarded](https://telegram.org/blog/unsend-privacy-emoji#anonymous-forwarding)
+title: "privacyKeyForwards"
+description: "Whether messages forwarded from the user will be anonymously forwarded"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: privacyKeyForwards  

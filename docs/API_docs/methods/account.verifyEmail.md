@@ -1,6 +1,6 @@
 ---
-title: account.verifyEmail
-description: Verify an email address for telegram [passport](https://core.telegram.org/passport).
+title: "account.verifyEmail"
+description: "Verify an email address for telegram [passport](https://core.telegram.org/passport)."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_verifyEmail.html
 ---

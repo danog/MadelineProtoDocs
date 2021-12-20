@@ -1,6 +1,6 @@
 ---
-title: danog\MadelineProto\VoIPServerConfig: Manages storage of VoIP server config.
-description: 
+title: "danog\\MadelineProto\\VoIPServerConfig: Manages storage of VoIP server config."
+description: ""
 
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---

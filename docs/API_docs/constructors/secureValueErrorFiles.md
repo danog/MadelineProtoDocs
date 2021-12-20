@@ -1,6 +1,6 @@
 ---
-title: secureValueErrorFiles
-description: Represents an issue with a list of scans. The error is considered resolved when the list of files containing the scans changes.
+title: "secureValueErrorFiles"
+description: "Represents an issue with a list of scans. The error is considered resolved when the list of files containing the scans changes."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueErrorFiles  

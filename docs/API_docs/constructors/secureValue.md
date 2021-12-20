@@ -1,6 +1,6 @@
 ---
-title: secureValue
-description: Secure value
+title: "secureValue"
+description: "Secure value"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValue  

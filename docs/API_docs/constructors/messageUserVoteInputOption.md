@@ -1,6 +1,6 @@
 ---
-title: messageUserVoteInputOption
-description: How a user voted in a poll (reduced constructor, returned if an `option` was provided to [messages.getPollVotes](../methods/messages.getPollVotes.md))
+title: "messageUserVoteInputOption"
+description: "How a user voted in a poll (reduced constructor, returned if an option was provided to messages.getPollVotes)"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageUserVoteInputOption  

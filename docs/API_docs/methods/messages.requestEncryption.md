@@ -1,6 +1,6 @@
 ---
-title: messages.requestEncryption
-description: Sends a request to start a secret chat to the user.
+title: "messages.requestEncryption"
+description: "Sends a request to start a secret chat to the user."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_requestEncryption.html
 ---

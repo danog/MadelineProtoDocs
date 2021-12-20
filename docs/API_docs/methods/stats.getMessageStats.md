@@ -1,6 +1,6 @@
 ---
-title: stats.getMessageStats
-description: Get [message statistics](https://core.telegram.org/api/stats)
+title: "stats.getMessageStats"
+description: "Get [message statistics](https://core.telegram.org/api/stats)"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/stats_getMessageStats.html
 ---

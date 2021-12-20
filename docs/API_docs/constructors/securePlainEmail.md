@@ -1,6 +1,6 @@
 ---
-title: securePlainEmail
-description: Email address to use in [telegram passport](https://core.telegram.org/passport): [it must be verified, first »](https://core.telegram.org/passport/encryption#secureplaindata).
+title: "securePlainEmail"
+description: "Email address to use in telegram passport: it must be verified, first »."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: securePlainEmail  

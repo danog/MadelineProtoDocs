@@ -1,6 +1,6 @@
 ---
-title: account.confirmPasswordEmail
-description: Verify an email to use as [2FA recovery method](https://core.telegram.org/api/srp).
+title: "account.confirmPasswordEmail"
+description: "Verify an email to use as [2FA recovery method](https://core.telegram.org/api/srp)."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_confirmPasswordEmail.html
 ---

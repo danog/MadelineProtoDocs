@@ -1,6 +1,6 @@
 ---
-title: keyboardButtonRequestPhone
-description: Button to request a user's phone number
+title: "keyboardButtonRequestPhone"
+description: "Button to request a user's phone number"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: keyboardButtonRequestPhone  

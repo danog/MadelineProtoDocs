@@ -1,6 +1,6 @@
 ---
-title: postAddress
-description: Shipping address
+title: "postAddress"
+description: "Shipping address"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: postAddress  

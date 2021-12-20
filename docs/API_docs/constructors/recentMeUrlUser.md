@@ -1,6 +1,6 @@
 ---
-title: recentMeUrlUser
-description: Recent t.me link to a user
+title: "recentMeUrlUser"
+description: "Recent t.me link to a user"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: recentMeUrlUser  

@@ -1,6 +1,6 @@
 ---
-title: chat
-description: Info about a group
+title: "chat"
+description: "Info about a group"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chat  

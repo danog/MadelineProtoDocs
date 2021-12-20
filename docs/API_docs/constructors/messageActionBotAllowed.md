@@ -1,6 +1,6 @@
 ---
-title: messageActionBotAllowed
-description: The domain name of the website on which the user has logged in. [More about Telegram Login »](https://core.telegram.org/widgets/login)
+title: "messageActionBotAllowed"
+description: "The domain name of the website on which the user has logged in. More about Telegram Login »"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionBotAllowed  

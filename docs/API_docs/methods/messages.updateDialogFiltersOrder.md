@@ -1,6 +1,6 @@
 ---
-title: messages.updateDialogFiltersOrder
-description: Reorder [folders](https://core.telegram.org/api/folders)
+title: "messages.updateDialogFiltersOrder"
+description: "Reorder [folders](https://core.telegram.org/api/folders)"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_updateDialogFiltersOrder.html
 ---

@@ -1,6 +1,6 @@
 ---
-title: messageFwdHeader
-description: Info about a forwarded message
+title: "messageFwdHeader"
+description: "Info about a forwarded message"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageFwdHeader  

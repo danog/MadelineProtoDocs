@@ -1,6 +1,6 @@
 ---
-title: updateNewEncryptedMessage
-description: New encrypted message.
+title: "updateNewEncryptedMessage"
+description: "New encrypted message."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateNewEncryptedMessage  

@@ -1,6 +1,6 @@
 ---
-title: channels.convertToGigagroup
-description: channels.convertToGigagroup parameters, return type and example
+title: "channels.convertToGigagroup"
+description: "channels.convertToGigagroup parameters, return type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_convertToGigagroup.html
 ---

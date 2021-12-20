@@ -1,6 +1,6 @@
 ---
-title: auth.sentCodeTypeApp
-description: The code was sent through the telegram app
+title: "auth.sentCodeTypeApp"
+description: "The code was sent through the telegram app"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/auth_sentCodeTypeApp.html
 ---

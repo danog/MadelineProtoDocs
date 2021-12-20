@@ -1,6 +1,6 @@
 ---
-title: danog\MadelineProto\RPCErrorException: Indicates an error returned by Telegram's API.
-description: 
+title: "danog\\MadelineProto\\RPCErrorException: Indicates an error returned by Telegram's API."
+description: ""
 
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---

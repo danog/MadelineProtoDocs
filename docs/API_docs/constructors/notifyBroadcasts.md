@@ -1,6 +1,6 @@
 ---
-title: notifyBroadcasts
-description: Channel notification settings
+title: "notifyBroadcasts"
+description: "Channel notification settings"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: notifyBroadcasts  

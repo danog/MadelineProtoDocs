@@ -1,6 +1,6 @@
 ---
-title: inputMediaDocumentExternal
-description: Document that will be downloaded by the telegram servers
+title: "inputMediaDocumentExternal"
+description: "Document that will be downloaded by the telegram servers"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaDocumentExternal  

@@ -1,6 +1,6 @@
 ---
-title: pageListItemText
-description: List item
+title: "pageListItemText"
+description: "List item"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageListItemText  

@@ -1,6 +1,6 @@
 ---
-title: inputSingleMedia
-description: A single media in an [album or grouped media](https://core.telegram.org/api/files#albums-grouped-media) sent with [messages.sendMultiMedia](../methods/messages.sendMultiMedia.md).
+title: "inputSingleMedia"
+description: "A single media in an album or grouped media sent with messages.sendMultiMedia."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputSingleMedia  

@@ -1,6 +1,6 @@
 ---
-title: help.getConfig
-description: Returns current configuration, including data center configuration.
+title: "help.getConfig"
+description: "Returns current configuration, including data center configuration."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getConfig.html
 ---

@@ -1,6 +1,6 @@
 ---
-title: help.getPassportConfig
-description: Get [passport](https://core.telegram.org/passport) configuration
+title: "help.getPassportConfig"
+description: "Get [passport](https://core.telegram.org/passport) configuration"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getPassportConfig.html
 ---

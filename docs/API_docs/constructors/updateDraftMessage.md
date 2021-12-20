@@ -1,6 +1,6 @@
 ---
-title: updateDraftMessage
-description: Notifies a change of a message [draft](https://core.telegram.org/api/drafts).
+title: "updateDraftMessage"
+description: "Notifies a change of a message draft."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateDraftMessage  

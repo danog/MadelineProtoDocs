@@ -1,6 +1,6 @@
 ---
-title: messageEntityTextUrl
-description: Message entity representing a [text url](https://google.com): for in-text urls like <https://google.com> use [messageEntityUrl](../constructors/messageEntityUrl.md).
+title: "messageEntityTextUrl"
+description: "Message entity representing a text url: for in-text urls like https://google.com use messageEntityUrl."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageEntityTextUrl  

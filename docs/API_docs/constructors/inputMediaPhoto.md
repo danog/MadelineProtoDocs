@@ -1,6 +1,6 @@
 ---
-title: inputMediaPhoto
-description: Forwarded photo
+title: "inputMediaPhoto"
+description: "Forwarded photo"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaPhoto  

@@ -1,6 +1,6 @@
 ---
-title: channelAdminLogEventActionParticipantToggleBan
-description: The banned [rights](https://core.telegram.org/api/rights) of a user were changed
+title: "channelAdminLogEventActionParticipantToggleBan"
+description: "The banned rights of a user were changed"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionParticipantToggleBan  

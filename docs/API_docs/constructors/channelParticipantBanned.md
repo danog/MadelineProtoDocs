@@ -1,6 +1,6 @@
 ---
-title: channelParticipantBanned
-description: Banned/kicked user
+title: "channelParticipantBanned"
+description: "Banned/kicked user"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantBanned  

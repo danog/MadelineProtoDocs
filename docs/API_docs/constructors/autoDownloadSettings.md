@@ -1,6 +1,6 @@
 ---
-title: autoDownloadSettings
-description: Autodownload settings
+title: "autoDownloadSettings"
+description: "Autodownload settings"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: autoDownloadSettings  

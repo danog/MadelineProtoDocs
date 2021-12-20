@@ -1,6 +1,6 @@
 ---
-title: botInlineMessageMediaGeo
-description: Send a geolocation
+title: "botInlineMessageMediaGeo"
+description: "Send a geolocation"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: botInlineMessageMediaGeo  

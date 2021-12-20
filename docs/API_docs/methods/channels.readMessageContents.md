@@ -1,6 +1,6 @@
 ---
-title: channels.readMessageContents
-description: Mark [channel/supergroup](https://core.telegram.org/api/channel) message contents as read
+title: "channels.readMessageContents"
+description: "Mark [channel/supergroup](https://core.telegram.org/api/channel) message contents as read"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_readMessageContents.html
 ---

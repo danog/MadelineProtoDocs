@@ -1,6 +1,6 @@
 ---
-title: peerSettings
-description: Peer settings
+title: "peerSettings"
+description: "Peer settings"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: peerSettings  

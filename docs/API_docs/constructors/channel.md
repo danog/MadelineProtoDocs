@@ -1,6 +1,6 @@
 ---
-title: channel
-description: Channel/supergroup info
+title: "channel"
+description: "Channel/supergroup info"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channel  

@@ -1,6 +1,6 @@
 ---
-title: encryptedChat
-description: Encrypted chat
+title: "encryptedChat"
+description: "Encrypted chat"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: encryptedChat  

@@ -1,6 +1,6 @@
 ---
-title: channelParticipantSelf
-description: Myself
+title: "channelParticipantSelf"
+description: "Myself"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantSelf  

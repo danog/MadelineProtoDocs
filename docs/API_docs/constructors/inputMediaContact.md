@@ -1,6 +1,6 @@
 ---
-title: inputMediaContact
-description: Phonebook contact
+title: "inputMediaContact"
+description: "Phonebook contact"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaContact  

@@ -1,6 +1,6 @@
 ---
-title: account.finishTakeoutSession
-description: Finish account takeout session
+title: "account.finishTakeoutSession"
+description: "Finish account takeout session"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_finishTakeoutSession.html
 ---

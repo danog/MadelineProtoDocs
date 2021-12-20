@@ -1,6 +1,6 @@
 ---
-title: inputSecureValue
-description: Secure value, [for more info see the passport docs »](https://core.telegram.org/passport/encryption#encryption)
+title: "inputSecureValue"
+description: "Secure value, for more info see the passport docs »"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputSecureValue  

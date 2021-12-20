@@ -1,6 +1,6 @@
 ---
-title: help.getTermsOfServiceUpdate
-description: Look for updates of telegram's terms of service
+title: "help.getTermsOfServiceUpdate"
+description: "Look for updates of telegram's terms of service"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getTermsOfServiceUpdate.html
 ---

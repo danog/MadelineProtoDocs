@@ -1,6 +1,6 @@
 ---
-title: updateChatDefaultBannedRights
-description: Default banned rights in a [normal chat](https://core.telegram.org/api/channel) were updated
+title: "updateChatDefaultBannedRights"
+description: "Default banned rights in a normal chat were updated"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChatDefaultBannedRights  

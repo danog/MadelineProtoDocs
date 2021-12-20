@@ -1,6 +1,6 @@
 ---
-title: messages.toggleStickerSets
-description: Apply changes to multiple stickersets
+title: "messages.toggleStickerSets"
+description: "Apply changes to multiple stickersets"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_toggleStickerSets.html
 ---

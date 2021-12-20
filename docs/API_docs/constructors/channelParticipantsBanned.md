@@ -1,6 +1,6 @@
 ---
-title: channelParticipantsBanned
-description: Fetch only banned participants
+title: "channelParticipantsBanned"
+description: "Fetch only banned participants"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantsBanned  

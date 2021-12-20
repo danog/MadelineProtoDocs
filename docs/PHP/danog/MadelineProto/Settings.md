@@ -1,6 +1,6 @@
 ---
-title: danog\MadelineProto\Settings: Settings class used for configuring MadelineProto.
-description: 
+title: "danog\\MadelineProto\\Settings: Settings class used for configuring MadelineProto."
+description: ""
 
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---

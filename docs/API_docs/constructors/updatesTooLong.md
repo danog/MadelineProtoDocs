@@ -1,6 +1,6 @@
 ---
-title: updatesTooLong
-description: Too many updates, it is necessary to execute [updates.getDifference](../methods/updates.getDifference.md).
+title: "updatesTooLong"
+description: "Too many updates, it is necessary to execute updates.getDifference."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatesTooLong  

@@ -1,6 +1,6 @@
 ---
-title: inputFileLocation
-description: DEPRECATED location of a photo
+title: "inputFileLocation"
+description: "DEPRECATED location of a photo"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputFileLocation  

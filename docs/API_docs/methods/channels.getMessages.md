@@ -1,6 +1,6 @@
 ---
-title: channels.getMessages
-description: Get [channel/supergroup](https://core.telegram.org/api/channel) messages
+title: "channels.getMessages"
+description: "Get [channel/supergroup](https://core.telegram.org/api/channel) messages"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_getMessages.html
 ---

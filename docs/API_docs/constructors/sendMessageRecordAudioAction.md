@@ -1,6 +1,6 @@
 ---
-title: sendMessageRecordAudioAction
-description: User is recording a voice message.
+title: "sendMessageRecordAudioAction"
+description: "User is recording a voice message."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageRecordAudioAction  

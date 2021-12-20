@@ -1,6 +1,6 @@
 ---
-title: phone.acceptCall
-description: Accept incoming call
+title: "phone.acceptCall"
+description: "Accept incoming call"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/phone_acceptCall.html
 ---

@@ -1,6 +1,6 @@
 ---
-title: config
-description: Current configuration
+title: "config"
+description: "Current configuration"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: config  

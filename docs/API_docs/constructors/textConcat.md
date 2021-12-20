@@ -1,6 +1,6 @@
 ---
-title: textConcat
-description: Concatenation of rich texts
+title: "textConcat"
+description: "Concatenation of rich texts"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textConcat  

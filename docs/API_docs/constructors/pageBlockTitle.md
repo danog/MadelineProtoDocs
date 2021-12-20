@@ -1,6 +1,6 @@
 ---
-title: pageBlockTitle
-description: Title
+title: "pageBlockTitle"
+description: "Title"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockTitle  

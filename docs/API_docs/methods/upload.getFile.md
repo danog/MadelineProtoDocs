@@ -1,6 +1,6 @@
 ---
-title: upload.getFile
-description: Returns content of a whole file or its part.
+title: "upload.getFile"
+description: "Returns content of a whole file or its part."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/upload_getFile.html
 ---

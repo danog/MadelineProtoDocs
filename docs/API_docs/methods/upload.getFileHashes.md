@@ -1,6 +1,6 @@
 ---
-title: upload.getFileHashes
-description: Get SHA256 hashes for verifying downloaded files
+title: "upload.getFileHashes"
+description: "Get SHA256 hashes for verifying downloaded files"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/upload_getFileHashes.html
 ---

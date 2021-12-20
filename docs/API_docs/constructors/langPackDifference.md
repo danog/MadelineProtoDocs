@@ -1,6 +1,6 @@
 ---
-title: langPackDifference
-description: Changes to the app's localization pack
+title: "langPackDifference"
+description: "Changes to the app's localization pack"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: langPackDifference  

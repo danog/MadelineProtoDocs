@@ -1,6 +1,6 @@
 ---
-title: account.getPrivacy
-description: Get privacy settings of current account
+title: "account.getPrivacy"
+description: "Get privacy settings of current account"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getPrivacy.html
 ---

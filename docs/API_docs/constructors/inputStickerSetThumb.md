@@ -1,6 +1,6 @@
 ---
-title: inputStickerSetThumb
-description: Location of stickerset thumbnail (see [files](https://core.telegram.org/api/files))
+title: "inputStickerSetThumb"
+description: "Location of stickerset thumbnail (see files)"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputStickerSetThumb  

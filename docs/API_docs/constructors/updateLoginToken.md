@@ -1,6 +1,6 @@
 ---
-title: updateLoginToken
-description: A login token (for login via QR code) was accepted.
+title: "updateLoginToken"
+description: "A login token (for login via QR code) was accepted."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateLoginToken  

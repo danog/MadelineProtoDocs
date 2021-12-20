@@ -1,6 +1,6 @@
 ---
-title: privacyKeyStatusTimestamp
-description: Whether we can see the last online timestamp
+title: "privacyKeyStatusTimestamp"
+description: "Whether we can see the last online timestamp"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: privacyKeyStatusTimestamp  

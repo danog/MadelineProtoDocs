@@ -1,6 +1,6 @@
 ---
-title: maskCoords
-description: Position on a photo where a mask should be placed
+title: "maskCoords"
+description: "Position on a photo where a mask should be placed"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: maskCoords  

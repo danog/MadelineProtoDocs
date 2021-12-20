@@ -1,6 +1,6 @@
 ---
-title: photoSize
-description: Image description.
+title: "photoSize"
+description: "Image description."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: photoSize\_23  

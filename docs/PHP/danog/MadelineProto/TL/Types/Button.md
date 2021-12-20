@@ -1,6 +1,6 @@
 ---
-title: danog\MadelineProto\TL\Types\Button: Clickable button.
-description: 
+title: "danog\\MadelineProto\\TL\\Types\\Button: Clickable button."
+description: ""
 
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---

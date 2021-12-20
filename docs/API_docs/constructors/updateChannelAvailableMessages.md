@@ -1,6 +1,6 @@
 ---
-title: updateChannelAvailableMessages
-description: The history of a [channel/supergroup](https://core.telegram.org/api/channel) was hidden.
+title: "updateChannelAvailableMessages"
+description: "The history of a channel/supergroup was hidden."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelAvailableMessages  

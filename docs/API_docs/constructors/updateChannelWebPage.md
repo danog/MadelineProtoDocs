@@ -1,6 +1,6 @@
 ---
-title: updateChannelWebPage
-description: A webpage preview of a link in a [channel/supergroup](https://core.telegram.org/api/channel) message was generated
+title: "updateChannelWebPage"
+description: "A webpage preview of a link in a channel/supergroup message was generated"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelWebPage  

@@ -1,6 +1,6 @@
 ---
-title: pollAnswerVoters
-description: A poll answer, and how users voted on it
+title: "pollAnswerVoters"
+description: "A poll answer, and how users voted on it"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pollAnswerVoters  

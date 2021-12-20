@@ -1,6 +1,6 @@
 ---
-title: messages.uninstallStickerSet
-description: Uninstall a stickerset
+title: "messages.uninstallStickerSet"
+description: "Uninstall a stickerset"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_uninstallStickerSet.html
 ---

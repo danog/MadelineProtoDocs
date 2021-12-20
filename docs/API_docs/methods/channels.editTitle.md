@@ -1,6 +1,6 @@
 ---
-title: channels.editTitle
-description: Edit the name of a [channel/supergroup](https://core.telegram.org/api/channel)
+title: "channels.editTitle"
+description: "Edit the name of a [channel/supergroup](https://core.telegram.org/api/channel)"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_editTitle.html
 ---

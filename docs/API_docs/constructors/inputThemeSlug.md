@@ -1,6 +1,6 @@
 ---
-title: inputThemeSlug
-description: Theme by theme ID
+title: "inputThemeSlug"
+description: "Theme by theme ID"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputThemeSlug  

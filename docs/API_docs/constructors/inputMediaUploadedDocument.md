@@ -1,6 +1,6 @@
 ---
-title: inputMediaUploadedDocument
-description: New document
+title: "inputMediaUploadedDocument"
+description: "New document"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaUploadedDocument  

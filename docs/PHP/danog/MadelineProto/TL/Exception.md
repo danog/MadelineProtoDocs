@@ -1,6 +1,6 @@
 ---
-title: danog\MadelineProto\TL\Exception: TL deserialization exception.
-description: 
+title: "danog\\MadelineProto\\TL\\Exception: TL deserialization exception."
+description: ""
 
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---

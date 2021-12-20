@@ -1,6 +1,6 @@
 ---
-title: messages.affectedMessages
-description: Events affected by operation
+title: "messages.affectedMessages"
+description: "Events affected by operation"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_affectedMessages.html
 ---

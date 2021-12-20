@@ -1,6 +1,6 @@
 ---
-title: pageBlockFooter
-description: Page footer
+title: "pageBlockFooter"
+description: "Page footer"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockFooter  

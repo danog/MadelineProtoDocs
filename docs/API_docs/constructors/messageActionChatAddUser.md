@@ -1,6 +1,6 @@
 ---
-title: messageActionChatAddUser
-description: New member in the group
+title: "messageActionChatAddUser"
+description: "New member in the group"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChatAddUser  

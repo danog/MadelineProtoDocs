@@ -1,6 +1,6 @@
 ---
-title: dialogFilter
-description: Dialog filter AKA [folder](https://core.telegram.org/api/folders)
+title: "dialogFilter"
+description: "Dialog filter AKA folder"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: dialogFilter  

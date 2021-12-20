@@ -1,6 +1,6 @@
 ---
-title: help.termsOfServiceUpdateEmpty
-description: No changes were made to telegram's terms of service
+title: "help.termsOfServiceUpdateEmpty"
+description: "No changes were made to telegram's terms of service"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_termsOfServiceUpdateEmpty.html
 ---

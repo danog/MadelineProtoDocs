@@ -1,6 +1,6 @@
 ---
-title: messages.favedStickers
-description: Favorited stickers
+title: "messages.favedStickers"
+description: "Favorited stickers"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_favedStickers.html
 ---

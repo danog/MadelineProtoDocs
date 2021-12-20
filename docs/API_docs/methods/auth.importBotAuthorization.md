@@ -1,6 +1,6 @@
 ---
-title: auth.importBotAuthorization
-description: Login as a bot
+title: "auth.importBotAuthorization"
+description: "Login as a bot"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_importBotAuthorization.html
 ---

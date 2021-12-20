@@ -1,6 +1,6 @@
 ---
-title: baseThemeArctic
-description: Arctic theme
+title: "baseThemeArctic"
+description: "Arctic theme"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: baseThemeArctic  

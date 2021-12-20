@@ -1,6 +1,6 @@
 ---
-title: inputMessageCallbackQuery
-description: Used by bots for fetching information about the message that originated a callback query
+title: "inputMessageCallbackQuery"
+description: "Used by bots for fetching information about the message that originated a callback query"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessageCallbackQuery  

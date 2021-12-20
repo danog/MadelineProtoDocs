@@ -1,6 +1,6 @@
 ---
-title: messageMediaDocument
-description: Document (video, audio, voice, sticker, any media type except photo)
+title: "messageMediaDocument"
+description: "Document (video, audio, voice, sticker, any media type except photo)"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaDocument  

@@ -1,6 +1,6 @@
 ---
-title: decryptedMessageMediaVenue
-description: Venue
+title: "decryptedMessageMediaVenue"
+description: "Venue"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaVenue\_46  

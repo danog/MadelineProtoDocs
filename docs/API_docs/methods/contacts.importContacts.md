@@ -1,6 +1,6 @@
 ---
-title: contacts.importContacts
-description: Imports contacts: saves a full list on the server, adds already registered contacts to the contact list, returns added contacts and their info.
+title: "contacts.importContacts"
+description: "Imports contacts: saves a full list on the server, adds already registered contacts to the contact list, returns added contacts and their info."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_importContacts.html
 ---

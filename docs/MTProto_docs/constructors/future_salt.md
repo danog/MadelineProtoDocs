@@ -1,6 +1,6 @@
 ---
-title: future_salt
-description: future_salt attributes, type and example
+title: "future_salt"
+description: "future_salt attributes, type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: future\_salt  

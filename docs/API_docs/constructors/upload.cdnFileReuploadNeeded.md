@@ -1,6 +1,6 @@
 ---
-title: upload.cdnFileReuploadNeeded
-description: The file was cleared from the temporary RAM cache of the [CDN](https://core.telegram.org/cdn) and has to be reuploaded.
+title: "upload.cdnFileReuploadNeeded"
+description: "The file was cleared from the temporary RAM cache of the CDN and has to be reuploaded."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/upload_cdnFileReuploadNeeded.html
 ---

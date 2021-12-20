@@ -1,6 +1,6 @@
 ---
-title: messageEntityEmail
-description: Message entity representing an <email@example.com>.
+title: "messageEntityEmail"
+description: "Message entity representing an email@example.com."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageEntityEmail  

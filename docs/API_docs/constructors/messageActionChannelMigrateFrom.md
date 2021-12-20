@@ -1,6 +1,6 @@
 ---
-title: messageActionChannelMigrateFrom
-description: Indicates the channel was [migrated](https://core.telegram.org/api/channel) from the specified chat
+title: "messageActionChannelMigrateFrom"
+description: "Indicates the channel was migrated from the specified chat"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChannelMigrateFrom  

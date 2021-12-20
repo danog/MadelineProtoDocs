@@ -1,6 +1,6 @@
 ---
-title: inputChannelFromMessage
-description: Defines a [min](https://core.telegram.org/api/min) channel that was seen in a certain message of a certain chat.
+title: "inputChannelFromMessage"
+description: "Defines a min channel that was seen in a certain message of a certain chat."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputChannelFromMessage  

@@ -1,6 +1,6 @@
 ---
-title: botInfo
-description: Info about bots (available bot commands, etc)
+title: "botInfo"
+description: "Info about bots (available bot commands, etc)"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: botInfo  

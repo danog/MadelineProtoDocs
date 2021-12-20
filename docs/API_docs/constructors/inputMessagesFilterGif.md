@@ -1,6 +1,6 @@
 ---
-title: inputMessagesFilterGif
-description: Return only messages containing gifs
+title: "inputMessagesFilterGif"
+description: "Return only messages containing gifs"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterGif  

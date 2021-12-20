@@ -1,6 +1,6 @@
 ---
-title: contacts.getContactIDs
-description: Get contact by telegram IDs
+title: "contacts.getContactIDs"
+description: "Get contact by telegram IDs"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_getContactIDs.html
 ---

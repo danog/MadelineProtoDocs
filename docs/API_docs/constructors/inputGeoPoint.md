@@ -1,6 +1,6 @@
 ---
-title: inputGeoPoint
-description: Defines a GeoPoint by its coordinates.
+title: "inputGeoPoint"
+description: "Defines a GeoPoint by its coordinates."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputGeoPoint  

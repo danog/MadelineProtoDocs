@@ -1,6 +1,6 @@
 ---
-title: auth.logOut
-description: Logs out the user.
+title: "auth.logOut"
+description: "Logs out the user."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_logOut.html
 ---

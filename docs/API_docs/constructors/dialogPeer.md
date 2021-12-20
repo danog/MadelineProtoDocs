@@ -1,6 +1,6 @@
 ---
-title: dialogPeer
-description: Peer
+title: "dialogPeer"
+description: "Peer"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: dialogPeer  

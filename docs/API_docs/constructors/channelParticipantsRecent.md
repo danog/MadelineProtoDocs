@@ -1,6 +1,6 @@
 ---
-title: channelParticipantsRecent
-description: Fetch only recent participants
+title: "channelParticipantsRecent"
+description: "Fetch only recent participants"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantsRecent  

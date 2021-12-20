@@ -1,6 +1,6 @@
 ---
-title: channels.channelParticipant
-description: Represents a channel participant
+title: "channels.channelParticipant"
+description: "Represents a channel participant"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/channels_channelParticipant.html
 ---

@@ -1,6 +1,6 @@
 ---
-title: messages.searchGlobal
-description: Search for messages and peers globally
+title: "messages.searchGlobal"
+description: "Search for messages and peers globally"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_searchGlobal.html
 ---

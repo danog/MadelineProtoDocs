@@ -1,6 +1,6 @@
 ---
-title: encryptedChatWaiting
-description: Chat waiting for approval of second participant.
+title: "encryptedChatWaiting"
+description: "Chat waiting for approval of second participant."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: encryptedChatWaiting  

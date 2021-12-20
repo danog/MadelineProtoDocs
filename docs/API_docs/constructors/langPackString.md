@@ -1,6 +1,6 @@
 ---
-title: langPackString
-description: Translated localization string
+title: "langPackString"
+description: "Translated localization string"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: langPackString  

@@ -1,6 +1,6 @@
 ---
-title: channelAdminLogEventActionParticipantLeave
-description: A user left the channel/supergroup (in the case of big groups, info of the user that has joined isn't shown)
+title: "channelAdminLogEventActionParticipantLeave"
+description: "A user left the channel/supergroup (in the case of big groups, info of the user that has joined isn't shown)"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionParticipantLeave  

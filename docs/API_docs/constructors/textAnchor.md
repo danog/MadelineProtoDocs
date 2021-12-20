@@ -1,6 +1,6 @@
 ---
-title: textAnchor
-description: Text linking to another section of the page
+title: "textAnchor"
+description: "Text linking to another section of the page"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textAnchor  

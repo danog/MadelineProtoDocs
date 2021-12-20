@@ -1,6 +1,6 @@
 ---
-title: messages.sendMedia
-description: Send a media
+title: "messages.sendMedia"
+description: "Send a media"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_sendMedia.html
 ---

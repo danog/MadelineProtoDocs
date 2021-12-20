@@ -1,6 +1,6 @@
 ---
-title: messageActionChatEditTitle
-description: Group name changed.
+title: "messageActionChatEditTitle"
+description: "Group name changed."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChatEditTitle  

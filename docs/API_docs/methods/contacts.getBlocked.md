@@ -1,6 +1,6 @@
 ---
-title: contacts.getBlocked
-description: Returns the list of blocked users.
+title: "contacts.getBlocked"
+description: "Returns the list of blocked users."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_getBlocked.html
 ---

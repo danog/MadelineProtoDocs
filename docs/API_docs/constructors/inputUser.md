@@ -1,6 +1,6 @@
 ---
-title: inputUser
-description: Defines a user for further interaction.
+title: "inputUser"
+description: "Defines a user for further interaction."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputUser  

@@ -1,6 +1,6 @@
 ---
-title: inputPeerChannel
-description: Defines a channel for further interaction.
+title: "inputPeerChannel"
+description: "Defines a channel for further interaction."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPeerChannel  

@@ -1,6 +1,6 @@
 ---
-title: messageActionChatEditPhoto
-description: Group profile changed
+title: "messageActionChatEditPhoto"
+description: "Group profile changed"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChatEditPhoto  

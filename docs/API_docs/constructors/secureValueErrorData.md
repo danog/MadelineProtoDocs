@@ -1,6 +1,6 @@
 ---
-title: secureValueErrorData
-description: Represents an issue in one of the data fields that was provided by the user. The error is considered resolved when the field's value changes.
+title: "secureValueErrorData"
+description: "Represents an issue in one of the data fields that was provided by the user. The error is considered resolved when the field's value changes."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueErrorData  

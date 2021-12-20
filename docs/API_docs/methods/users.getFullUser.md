@@ -1,6 +1,6 @@
 ---
-title: users.getFullUser
-description: Returns extended user info by ID.
+title: "users.getFullUser"
+description: "Returns extended user info by ID."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/users_getFullUser.html
 ---

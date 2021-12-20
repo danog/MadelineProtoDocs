@@ -1,6 +1,6 @@
 ---
-title: draftMessage
-description: Represents a message [draft](https://core.telegram.org/api/drafts).
+title: "draftMessage"
+description: "Represents a message draft."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: draftMessage  

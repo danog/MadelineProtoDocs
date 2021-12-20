@@ -1,6 +1,6 @@
 ---
-title: inputReportReasonOther
-description: Other
+title: "inputReportReasonOther"
+description: "Other"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputReportReasonOther  

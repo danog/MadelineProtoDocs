@@ -1,6 +1,6 @@
 ---
-title: paymentRequestedInfo
-description: Order info provided by the user
+title: "paymentRequestedInfo"
+description: "Order info provided by the user"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: paymentRequestedInfo  

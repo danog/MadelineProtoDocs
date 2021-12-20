@@ -1,6 +1,6 @@
 ---
-title: updateReadChannelInbox
-description: Incoming messages in a [channel/supergroup](https://core.telegram.org/api/channel) were read
+title: "updateReadChannelInbox"
+description: "Incoming messages in a channel/supergroup were read"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateReadChannelInbox  

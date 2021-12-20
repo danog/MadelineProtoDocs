@@ -1,6 +1,6 @@
 ---
-title: contacts.resetSaved
-description: Delete saved contacts
+title: "contacts.resetSaved"
+description: "Delete saved contacts"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_resetSaved.html
 ---

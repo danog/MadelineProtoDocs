@@ -1,6 +1,6 @@
 ---
-title: textBold
-description: **Bold** text
+title: "textBold"
+description: "Bold text"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textBold  

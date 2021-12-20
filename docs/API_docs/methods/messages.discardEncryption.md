@@ -1,6 +1,6 @@
 ---
-title: messages.discardEncryption
-description: Cancels a request for creation and/or delete info on secret chat.
+title: "messages.discardEncryption"
+description: "Cancels a request for creation and/or delete info on secret chat."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_discardEncryption.html
 ---

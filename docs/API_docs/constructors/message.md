@@ -1,6 +1,6 @@
 ---
-title: message
-description: A message
+title: "message"
+description: "A message"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: message  

@@ -1,6 +1,6 @@
 ---
-title: messageRange
-description: Indicates a range of chat messages
+title: "messageRange"
+description: "Indicates a range of chat messages"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageRange  

@@ -1,6 +1,6 @@
 ---
-title: channelAdminLogEventActionDefaultBannedRights
-description: The default banned rights were modified
+title: "channelAdminLogEventActionDefaultBannedRights"
+description: "The default banned rights were modified"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionDefaultBannedRights  

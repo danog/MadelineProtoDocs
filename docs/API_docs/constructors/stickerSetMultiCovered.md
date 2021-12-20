@@ -1,6 +1,6 @@
 ---
-title: stickerSetMultiCovered
-description: Stickerset, with a specific stickers as preview
+title: "stickerSetMultiCovered"
+description: "Stickerset, with a specific stickers as preview"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: stickerSetMultiCovered  

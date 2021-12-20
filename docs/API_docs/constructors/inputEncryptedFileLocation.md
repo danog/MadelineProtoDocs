@@ -1,6 +1,6 @@
 ---
-title: inputEncryptedFileLocation
-description: Location of encrypted secret chat file.
+title: "inputEncryptedFileLocation"
+description: "Location of encrypted secret chat file."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputEncryptedFileLocation  

@@ -1,6 +1,6 @@
 ---
-title: inputUserEmpty
-description: Empty constructor, does not define a user.
+title: "inputUserEmpty"
+description: "Empty constructor, does not define a user."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputUserEmpty  

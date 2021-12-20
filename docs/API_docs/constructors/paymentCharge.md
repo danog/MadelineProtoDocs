@@ -1,6 +1,6 @@
 ---
-title: paymentCharge
-description: Payment identifier
+title: "paymentCharge"
+description: "Payment identifier"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: paymentCharge  

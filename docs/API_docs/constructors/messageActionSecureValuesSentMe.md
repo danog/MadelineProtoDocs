@@ -1,6 +1,6 @@
 ---
-title: messageActionSecureValuesSentMe
-description: Secure [telegram passport](https://core.telegram.org/passport) values were received
+title: "messageActionSecureValuesSentMe"
+description: "Secure telegram passport values were received"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionSecureValuesSentMe  

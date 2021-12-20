@@ -1,6 +1,6 @@
 ---
-title: searchResultsCalendarPeriod
-description: searchResultsCalendarPeriod attributes, type and example
+title: "searchResultsCalendarPeriod"
+description: "searchResultsCalendarPeriod attributes, type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: searchResultsCalendarPeriod  

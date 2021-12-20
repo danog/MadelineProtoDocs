@@ -1,6 +1,6 @@
 ---
-title: contacts.deleteContacts
-description: Deletes several contacts from the list.
+title: "contacts.deleteContacts"
+description: "Deletes several contacts from the list."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_deleteContacts.html
 ---

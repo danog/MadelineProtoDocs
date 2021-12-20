@@ -1,6 +1,6 @@
 ---
-title: help.getDeepLinkInfo
-description: Get info about a `t.me` link
+title: "help.getDeepLinkInfo"
+description: "Get info about a `t.me` link"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getDeepLinkInfo.html
 ---

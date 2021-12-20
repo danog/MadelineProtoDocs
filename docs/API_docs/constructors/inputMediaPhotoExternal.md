@@ -1,6 +1,6 @@
 ---
-title: inputMediaPhotoExternal
-description: New photo that will be uploaded by the server using the specified URL
+title: "inputMediaPhotoExternal"
+description: "New photo that will be uploaded by the server using the specified URL"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaPhotoExternal  

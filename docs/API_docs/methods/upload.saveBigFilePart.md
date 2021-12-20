@@ -1,6 +1,6 @@
 ---
-title: upload.saveBigFilePart
-description: Saves a part of a large file (over 10Mb in size) to be later passed to one of the methods.
+title: "upload.saveBigFilePart"
+description: "Saves a part of a large file (over 10Mb in size) to be later passed to one of the methods."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/upload_saveBigFilePart.html
 ---

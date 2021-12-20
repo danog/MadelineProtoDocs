@@ -1,6 +1,6 @@
 ---
-title: updateEncryption
-description: Change of state in an encrypted chat.
+title: "updateEncryption"
+description: "Change of state in an encrypted chat."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateEncryption  

@@ -1,6 +1,6 @@
 ---
-title: messageMediaDice
-description: [Dice-based animated sticker](https://core.telegram.org/api/dice)
+title: "messageMediaDice"
+description: "Dice-based animated sticker"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaDice  

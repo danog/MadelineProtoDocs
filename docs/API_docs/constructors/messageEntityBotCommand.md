@@ -1,6 +1,6 @@
 ---
-title: messageEntityBotCommand
-description: Message entity representing a bot /command
+title: "messageEntityBotCommand"
+description: "Message entity representing a bot /command"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageEntityBotCommand  

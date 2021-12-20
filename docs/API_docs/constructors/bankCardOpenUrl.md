@@ -1,6 +1,6 @@
 ---
-title: bankCardOpenUrl
-description: Credit card info URL provided by the bank
+title: "bankCardOpenUrl"
+description: "Credit card info URL provided by the bank"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: bankCardOpenUrl  

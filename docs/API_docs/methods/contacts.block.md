@@ -1,6 +1,6 @@
 ---
-title: contacts.block
-description: Adds the user to the blacklist.
+title: "contacts.block"
+description: "Adds the user to the blacklist."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_block.html
 ---

@@ -1,6 +1,6 @@
 ---
-title: updateWebPage
-description: An [instant view](https://instantview.telegram.org) webpage preview was generated
+title: "updateWebPage"
+description: "An instant view webpage preview was generated"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateWebPage  

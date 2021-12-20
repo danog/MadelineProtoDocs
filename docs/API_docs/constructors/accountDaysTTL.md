@@ -1,6 +1,6 @@
 ---
-title: accountDaysTTL
-description: Time to live in days of the current account
+title: "accountDaysTTL"
+description: "Time to live in days of the current account"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: accountDaysTTL  

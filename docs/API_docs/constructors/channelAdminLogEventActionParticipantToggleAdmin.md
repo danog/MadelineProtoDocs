@@ -1,6 +1,6 @@
 ---
-title: channelAdminLogEventActionParticipantToggleAdmin
-description: The admin [rights](https://core.telegram.org/api/rights) of a user were changed
+title: "channelAdminLogEventActionParticipantToggleAdmin"
+description: "The admin rights of a user were changed"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionParticipantToggleAdmin  

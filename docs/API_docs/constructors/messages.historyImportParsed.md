@@ -1,6 +1,6 @@
 ---
-title: messages.historyImportParsed
-description: messages.historyImportParsed attributes, type and example
+title: "messages.historyImportParsed"
+description: "messages.historyImportParsed attributes, type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_historyImportParsed.html
 ---

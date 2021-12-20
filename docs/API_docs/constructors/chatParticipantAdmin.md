@@ -1,6 +1,6 @@
 ---
-title: chatParticipantAdmin
-description: Chat admin
+title: "chatParticipantAdmin"
+description: "Chat admin"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatParticipantAdmin  

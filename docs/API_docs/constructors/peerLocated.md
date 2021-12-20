@@ -1,6 +1,6 @@
 ---
-title: peerLocated
-description: Peer geolocated nearby
+title: "peerLocated"
+description: "Peer geolocated nearby"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: peerLocated  

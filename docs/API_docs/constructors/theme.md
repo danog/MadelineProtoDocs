@@ -1,6 +1,6 @@
 ---
-title: theme
-description: Theme
+title: "theme"
+description: "Theme"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: theme  

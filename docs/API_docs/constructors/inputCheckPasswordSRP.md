@@ -1,6 +1,6 @@
 ---
-title: inputCheckPasswordSRP
-description: Constructor for checking the validity of a 2FA SRP password (see [SRP](https://core.telegram.org/api/srp))
+title: "inputCheckPasswordSRP"
+description: "Constructor for checking the validity of a 2FA SRP password (see SRP)"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputCheckPasswordSRP  

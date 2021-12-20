@@ -1,6 +1,6 @@
 ---
-title: photos.updateProfilePhoto
-description: Installs a previously uploaded photo as a profile photo.
+title: "photos.updateProfilePhoto"
+description: "Installs a previously uploaded photo as a profile photo."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/photos_updateProfilePhoto.html
 ---

@@ -1,6 +1,6 @@
 ---
-title: inputReportReasonChildAbuse
-description: Report for child abuse
+title: "inputReportReasonChildAbuse"
+description: "Report for child abuse"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputReportReasonChildAbuse  

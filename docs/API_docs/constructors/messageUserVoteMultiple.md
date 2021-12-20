@@ -1,6 +1,6 @@
 ---
-title: messageUserVoteMultiple
-description: How a user voted in a multiple-choice poll
+title: "messageUserVoteMultiple"
+description: "How a user voted in a multiple-choice poll"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageUserVoteMultiple  

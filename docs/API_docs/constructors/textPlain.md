@@ -1,6 +1,6 @@
 ---
-title: textPlain
-description: Plain text
+title: "textPlain"
+description: "Plain text"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textPlain  

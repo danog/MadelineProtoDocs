@@ -1,6 +1,6 @@
 ---
-title: rpc_error
-description: rpc_error attributes, type and example
+title: "rpc_error"
+description: "rpc_error attributes, type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: rpc\_error  

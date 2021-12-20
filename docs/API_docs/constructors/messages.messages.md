@@ -1,6 +1,6 @@
 ---
-title: messages.messages
-description: Full list of messages with auxilary data.
+title: "messages.messages"
+description: "Full list of messages with auxilary data."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_messages.html
 ---

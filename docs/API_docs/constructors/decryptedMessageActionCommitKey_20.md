@@ -1,6 +1,6 @@
 ---
-title: decryptedMessageActionCommitKey
-description: Commit new key, see [rekeying process](https://core.telegram.org/api/end-to-end/pfs)
+title: "decryptedMessageActionCommitKey"
+description: "Commit new key, see rekeying process"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionCommitKey\_20  

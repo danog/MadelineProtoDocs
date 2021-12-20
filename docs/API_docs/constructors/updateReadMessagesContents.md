@@ -1,6 +1,6 @@
 ---
-title: updateReadMessagesContents
-description: Contents of messages in the common [message box](https://core.telegram.org/api/updates) were read
+title: "updateReadMessagesContents"
+description: "Contents of messages in the common message box were read"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateReadMessagesContents  

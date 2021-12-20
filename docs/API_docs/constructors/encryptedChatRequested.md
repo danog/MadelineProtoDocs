@@ -1,6 +1,6 @@
 ---
-title: encryptedChatRequested
-description: Request to create an encrypted chat.
+title: "encryptedChatRequested"
+description: "Request to create an encrypted chat."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: encryptedChatRequested  

@@ -1,6 +1,6 @@
 ---
-title: phoneConnectionWebrtc
-description: WebRTC connection parameters
+title: "phoneConnectionWebrtc"
+description: "WebRTC connection parameters"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneConnectionWebrtc  

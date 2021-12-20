@@ -1,6 +1,6 @@
 ---
-title: inputMessageID
-description: Message by ID
+title: "inputMessageID"
+description: "Message by ID"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessageID  

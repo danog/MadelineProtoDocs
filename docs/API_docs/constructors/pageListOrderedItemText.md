@@ -1,6 +1,6 @@
 ---
-title: pageListOrderedItemText
-description: Ordered list of text items
+title: "pageListOrderedItemText"
+description: "Ordered list of text items"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageListOrderedItemText  

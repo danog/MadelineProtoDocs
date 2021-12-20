@@ -1,6 +1,6 @@
 ---
-title: messageUserVote
-description: How a user voted in a poll
+title: "messageUserVote"
+description: "How a user voted in a poll"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageUserVote  

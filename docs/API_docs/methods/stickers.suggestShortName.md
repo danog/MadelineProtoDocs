@@ -1,6 +1,6 @@
 ---
-title: stickers.suggestShortName
-description: stickers.suggestShortName parameters, return type and example
+title: "stickers.suggestShortName"
+description: "stickers.suggestShortName parameters, return type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/stickers_suggestShortName.html
 ---

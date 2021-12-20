@@ -1,6 +1,6 @@
 ---
-title: inputAppEvent
-description: Event that occured in the application.
+title: "inputAppEvent"
+description: "Event that occured in the application."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputAppEvent  

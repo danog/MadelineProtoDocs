@@ -1,6 +1,6 @@
 ---
-title: updateChannelTooLong
-description: There are new updates in the specified channel, the client must fetch them.  
+title: "updateChannelTooLong"
+description: "There are new updates in the specified channel, the client must fetch them.  "
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelTooLong  

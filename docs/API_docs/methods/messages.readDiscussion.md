@@ -1,6 +1,6 @@
 ---
-title: messages.readDiscussion
-description: Mark a [thread](https://core.telegram.org/api/threads) as read
+title: "messages.readDiscussion"
+description: "Mark a [thread](https://core.telegram.org/api/threads) as read"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_readDiscussion.html
 ---

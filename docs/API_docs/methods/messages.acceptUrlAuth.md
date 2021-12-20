@@ -1,6 +1,6 @@
 ---
-title: messages.acceptUrlAuth
-description: Use this to accept a Seamless Telegram Login authorization request, for more info [click here »](https://core.telegram.org/api/url-authorization)
+title: "messages.acceptUrlAuth"
+description: "Use this to accept a Seamless Telegram Login authorization request, for more info [click here »](https://core.telegram.org/api/url-authorization)"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_acceptUrlAuth.html
 ---

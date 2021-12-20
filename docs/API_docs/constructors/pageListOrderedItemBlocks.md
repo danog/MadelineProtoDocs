@@ -1,6 +1,6 @@
 ---
-title: pageListOrderedItemBlocks
-description: Ordered list of [IV](https://instantview.telegram.org) blocks
+title: "pageListOrderedItemBlocks"
+description: "Ordered list of IV blocks"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageListOrderedItemBlocks  

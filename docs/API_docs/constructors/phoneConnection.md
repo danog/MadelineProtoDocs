@@ -1,6 +1,6 @@
 ---
-title: phoneConnection
-description: Identifies an endpoint that can be used to connect to the other user in a phone call
+title: "phoneConnection"
+description: "Identifies an endpoint that can be used to connect to the other user in a phone call"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneConnection  

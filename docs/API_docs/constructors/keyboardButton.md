@@ -1,6 +1,6 @@
 ---
-title: keyboardButton
-description: Bot keyboard button
+title: "keyboardButton"
+description: "Bot keyboard button"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: keyboardButton  

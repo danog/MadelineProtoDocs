@@ -1,6 +1,6 @@
 ---
-title: stickerSetCovered
-description: Stickerset, with a specific sticker as preview
+title: "stickerSetCovered"
+description: "Stickerset, with a specific sticker as preview"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: stickerSetCovered  

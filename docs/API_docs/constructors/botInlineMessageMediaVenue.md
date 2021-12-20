@@ -1,6 +1,6 @@
 ---
-title: botInlineMessageMediaVenue
-description: Send a venue
+title: "botInlineMessageMediaVenue"
+description: "Send a venue"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: botInlineMessageMediaVenue  

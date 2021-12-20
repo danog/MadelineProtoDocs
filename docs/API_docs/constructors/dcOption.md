@@ -1,6 +1,6 @@
 ---
-title: dcOption
-description: Data centre
+title: "dcOption"
+description: "Data centre"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: dcOption  

@@ -1,6 +1,6 @@
 ---
-title: documentAttributeImageSize
-description: Defines the width and height of an image uploaded as document
+title: "documentAttributeImageSize"
+description: "Defines the width and height of an image uploaded as document"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: documentAttributeImageSize  

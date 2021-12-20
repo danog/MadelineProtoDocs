@@ -1,6 +1,6 @@
 ---
-title: help.setBotUpdatesStatus
-description: Informs the server about the number of pending bot updates if they haven't been processed for a long time; for bots only
+title: "help.setBotUpdatesStatus"
+description: "Informs the server about the number of pending bot updates if they haven't been processed for a long time; for bots only"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_setBotUpdatesStatus.html
 ---

@@ -1,6 +1,6 @@
 ---
-title: invoice
-description: Invoice
+title: "invoice"
+description: "Invoice"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: invoice  

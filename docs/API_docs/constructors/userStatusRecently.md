@@ -1,6 +1,6 @@
 ---
-title: userStatusRecently
-description: Online status: last seen recently
+title: "userStatusRecently"
+description: "Online status: last seen recently"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userStatusRecently  

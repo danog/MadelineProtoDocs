@@ -1,6 +1,6 @@
 ---
-title: upload.reuploadCdnFile
-description: Request a reupload of a certain file to a [CDN DC](https://core.telegram.org/cdn).
+title: "upload.reuploadCdnFile"
+description: "Request a reupload of a certain file to a [CDN DC](https://core.telegram.org/cdn)."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/upload_reuploadCdnFile.html
 ---

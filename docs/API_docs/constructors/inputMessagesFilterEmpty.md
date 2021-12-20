@@ -1,6 +1,6 @@
 ---
-title: inputMessagesFilterEmpty
-description: Filter is absent.
+title: "inputMessagesFilterEmpty"
+description: "Filter is absent."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterEmpty  

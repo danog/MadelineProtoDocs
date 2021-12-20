@@ -1,6 +1,6 @@
 ---
-title: messageActionGameScore
-description: Someone scored in a game
+title: "messageActionGameScore"
+description: "Someone scored in a game"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionGameScore  

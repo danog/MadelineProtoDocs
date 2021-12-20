@@ -1,6 +1,6 @@
 ---
-title: topPeerCategoryGroups
-description: Often-opened groups and supergroups
+title: "topPeerCategoryGroups"
+description: "Often-opened groups and supergroups"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: topPeerCategoryGroups  

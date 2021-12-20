@@ -1,6 +1,6 @@
 ---
-title: textItalic
-description: *Italic* text
+title: "textItalic"
+description: "Italic text"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textItalic  

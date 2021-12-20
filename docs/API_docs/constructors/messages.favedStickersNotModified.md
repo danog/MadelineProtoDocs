@@ -1,6 +1,6 @@
 ---
-title: messages.favedStickersNotModified
-description: No new favorited stickers were found
+title: "messages.favedStickersNotModified"
+description: "No new favorited stickers were found"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_favedStickersNotModified.html
 ---

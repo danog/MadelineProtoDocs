@@ -1,6 +1,6 @@
 ---
-title: inputBotInlineMessageGame
-description: A game
+title: "inputBotInlineMessageGame"
+description: "A game"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputBotInlineMessageGame  

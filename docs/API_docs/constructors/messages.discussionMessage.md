@@ -1,6 +1,6 @@
 ---
-title: messages.discussionMessage
-description: Information about a [message thread](https://core.telegram.org/api/threads)
+title: "messages.discussionMessage"
+description: "Information about a message thread"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_discussionMessage.html
 ---

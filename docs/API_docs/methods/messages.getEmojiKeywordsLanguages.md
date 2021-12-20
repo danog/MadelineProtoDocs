@@ -1,6 +1,6 @@
 ---
-title: messages.getEmojiKeywordsLanguages
-description: Get info about an emoji keyword localization
+title: "messages.getEmojiKeywordsLanguages"
+description: "Get info about an emoji keyword localization"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getEmojiKeywordsLanguages.html
 ---

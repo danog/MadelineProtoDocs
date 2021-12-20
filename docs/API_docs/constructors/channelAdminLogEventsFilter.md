@@ -1,6 +1,6 @@
 ---
-title: channelAdminLogEventsFilter
-description: Filter only certain admin log events
+title: "channelAdminLogEventsFilter"
+description: "Filter only certain admin log events"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventsFilter  

@@ -1,6 +1,6 @@
 ---
-title: updateUserPhoto
-description: Change of contact's profile photo.
+title: "updateUserPhoto"
+description: "Change of contact's profile photo."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateUserPhoto  

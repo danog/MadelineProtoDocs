@@ -1,6 +1,6 @@
 ---
-title: inputFileBig
-description: Assigns a big file (over 10Mb in size), saved in part using the method [upload.saveBigFilePart](../methods/upload.saveBigFilePart.md).
+title: "inputFileBig"
+description: "Assigns a big file (over 10Mb in size), saved in part using the method upload.saveBigFilePart."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputFileBig  

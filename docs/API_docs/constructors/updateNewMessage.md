@@ -1,6 +1,6 @@
 ---
-title: updateNewMessage
-description: New message in a private chat or in a [legacy group](https://core.telegram.org/api/channel).
+title: "updateNewMessage"
+description: "New message in a private chat or in a legacy group."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateNewMessage  

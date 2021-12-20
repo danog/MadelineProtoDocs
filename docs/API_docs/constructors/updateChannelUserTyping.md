@@ -1,6 +1,6 @@
 ---
-title: updateChannelUserTyping
-description: A user is typing in a [supergroup, channel](https://core.telegram.org/api/channel) or [message thread](https://core.telegram.org/api/threads)
+title: "updateChannelUserTyping"
+description: "A user is typing in a supergroup, channel or message thread"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelUserTyping  

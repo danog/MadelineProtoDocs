@@ -1,6 +1,6 @@
 ---
-title: secureCredentialsEncrypted
-description: Encrypted credentials required to decrypt [telegram passport](https://core.telegram.org/passport) data.
+title: "secureCredentialsEncrypted"
+description: "Encrypted credentials required to decrypt telegram passport data."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureCredentialsEncrypted  

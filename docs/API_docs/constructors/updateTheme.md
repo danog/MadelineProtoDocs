@@ -1,6 +1,6 @@
 ---
-title: updateTheme
-description: A cloud theme was updated
+title: "updateTheme"
+description: "A cloud theme was updated"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateTheme  

@@ -1,6 +1,6 @@
 ---
-title: inputGameShortName
-description: Game by short name
+title: "inputGameShortName"
+description: "Game by short name"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputGameShortName  

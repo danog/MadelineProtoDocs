@@ -1,6 +1,6 @@
 ---
-title: messages.getUnreadMentions
-description: Get unread messages where we were mentioned
+title: "messages.getUnreadMentions"
+description: "Get unread messages where we were mentioned"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getUnreadMentions.html
 ---

@@ -1,6 +1,6 @@
 ---
-title: auth.sendCode
-description: Send the verification code for login
+title: "auth.sendCode"
+description: "Send the verification code for login"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_sendCode.html
 ---

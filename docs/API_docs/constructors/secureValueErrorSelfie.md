@@ -1,6 +1,6 @@
 ---
-title: secureValueErrorSelfie
-description: Represents an issue with the selfie with a document. The error is considered resolved when the file with the selfie changes.
+title: "secureValueErrorSelfie"
+description: "Represents an issue with the selfie with a document. The error is considered resolved when the file with the selfie changes."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueErrorSelfie  

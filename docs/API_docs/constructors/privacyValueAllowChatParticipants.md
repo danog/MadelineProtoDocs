@@ -1,6 +1,6 @@
 ---
-title: privacyValueAllowChatParticipants
-description: Allow all participants of certain chats
+title: "privacyValueAllowChatParticipants"
+description: "Allow all participants of certain chats"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: privacyValueAllowChatParticipants  

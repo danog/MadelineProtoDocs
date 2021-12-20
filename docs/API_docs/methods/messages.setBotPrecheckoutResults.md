@@ -1,6 +1,6 @@
 ---
-title: messages.setBotPrecheckoutResults
-description: Once the user has confirmed their payment and shipping details, the bot receives an [updateBotPrecheckoutQuery](../constructors/updateBotPrecheckoutQuery.md) update.  
+title: "messages.setBotPrecheckoutResults"
+description: "Once the user has confirmed their payment and shipping details, the bot receives an [updateBotPrecheckoutQuery](../constructors/updateBotPrecheckoutQuery.md) update.  "
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_setBotPrecheckoutResults.html
 ---

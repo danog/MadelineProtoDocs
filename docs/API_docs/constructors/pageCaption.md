@@ -1,6 +1,6 @@
 ---
-title: pageCaption
-description: Page caption
+title: "pageCaption"
+description: "Page caption"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageCaption  

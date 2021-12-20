@@ -1,6 +1,6 @@
 ---
-title: inputDocument
-description: Defines a video for subsequent interaction.
+title: "inputDocument"
+description: "Defines a video for subsequent interaction."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputDocument  

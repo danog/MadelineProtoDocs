@@ -1,6 +1,6 @@
 ---
-title: inputStickerSetItem
-description: Sticker in a stickerset
+title: "inputStickerSetItem"
+description: "Sticker in a stickerset"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputStickerSetItem  

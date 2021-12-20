@@ -1,6 +1,6 @@
 ---
-title: inputClientProxy
-description: Info about an [MTProxy](https://core.telegram.org/mtproto/mtproto-transports#transport-obfuscation) used to connect.
+title: "inputClientProxy"
+description: "Info about an MTProxy used to connect."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputClientProxy  

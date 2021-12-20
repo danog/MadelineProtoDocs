@@ -1,6 +1,6 @@
 ---
-title: destroy_session
-description: destroy_session parameters, return type and example
+title: "destroy_session"
+description: "destroy_session parameters, return type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: destroy\_session

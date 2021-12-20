@@ -1,6 +1,6 @@
 ---
-title: updateGroupCallParticipants
-description: updateGroupCallParticipants attributes, type and example
+title: "updateGroupCallParticipants"
+description: "updateGroupCallParticipants attributes, type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateGroupCallParticipants  

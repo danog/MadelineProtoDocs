@@ -1,6 +1,6 @@
 ---
-title: peerUser
-description: Chat partner
+title: "peerUser"
+description: "Chat partner"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: peerUser  

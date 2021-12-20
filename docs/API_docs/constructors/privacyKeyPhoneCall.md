@@ -1,6 +1,6 @@
 ---
-title: privacyKeyPhoneCall
-description: Whether the user accepts phone calls
+title: "privacyKeyPhoneCall"
+description: "Whether the user accepts phone calls"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: privacyKeyPhoneCall  

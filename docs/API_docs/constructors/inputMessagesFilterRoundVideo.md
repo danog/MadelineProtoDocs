@@ -1,6 +1,6 @@
 ---
-title: inputMessagesFilterRoundVideo
-description: Return only round videos
+title: "inputMessagesFilterRoundVideo"
+description: "Return only round videos"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterRoundVideo  

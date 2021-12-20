@@ -1,6 +1,6 @@
 ---
-title: auth.signUp
-description: Registers a validated phone number in the system.
+title: "auth.signUp"
+description: "Registers a validated phone number in the system."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_signUp.html
 ---

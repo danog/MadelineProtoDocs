@@ -1,6 +1,6 @@
 ---
-title: replyKeyboardForceReply
-description: Force the user to send a reply
+title: "replyKeyboardForceReply"
+description: "Force the user to send a reply"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: replyKeyboardForceReply  

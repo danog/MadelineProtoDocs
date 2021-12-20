@@ -1,6 +1,6 @@
 ---
-title: account.getNotifySettings
-description: Gets current notification settings for a given user/group, from all users/all groups.
+title: "account.getNotifySettings"
+description: "Gets current notification settings for a given user/group, from all users/all groups."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getNotifySettings.html
 ---

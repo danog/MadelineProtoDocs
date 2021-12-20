@@ -1,6 +1,6 @@
 ---
-title: danog\MadelineProto\Settings\AppInfo: App information.
-description: 
+title: "danog\\MadelineProto\\Settings\\AppInfo: App information."
+description: ""
 
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---

@@ -1,6 +1,6 @@
 ---
-title: messages.setInlineGameScore
-description: Use this method to set the score of the specified user in a game sent as an inline message (bots only).
+title: "messages.setInlineGameScore"
+description: "Use this method to set the score of the specified user in a game sent as an inline message (bots only)."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_setInlineGameScore.html
 ---

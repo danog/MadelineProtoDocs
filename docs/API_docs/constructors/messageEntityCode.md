@@ -1,6 +1,6 @@
 ---
-title: messageEntityCode
-description: Message entity representing a `codeblock`.
+title: "messageEntityCode"
+description: "Message entity representing a codeblock."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageEntityCode  

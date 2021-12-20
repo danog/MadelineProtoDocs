@@ -1,6 +1,6 @@
 ---
-title: keyboardButtonBuy
-description: Button to buy a product
+title: "keyboardButtonBuy"
+description: "Button to buy a product"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: keyboardButtonBuy  

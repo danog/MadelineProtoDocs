@@ -1,6 +1,6 @@
 ---
-title: inputStickeredMediaDocument
-description: A document with stickers attached
+title: "inputStickeredMediaDocument"
+description: "A document with stickers attached"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputStickeredMediaDocument  

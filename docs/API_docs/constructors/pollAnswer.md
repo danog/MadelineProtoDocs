@@ -1,6 +1,6 @@
 ---
-title: pollAnswer
-description: A possible answer of a poll
+title: "pollAnswer"
+description: "A possible answer of a poll"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pollAnswer  

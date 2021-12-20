@@ -1,6 +1,6 @@
 ---
-title: inputEncryptedFile
-description: Sets forwarded encrypted file for attachment.
+title: "inputEncryptedFile"
+description: "Sets forwarded encrypted file for attachment."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputEncryptedFile  

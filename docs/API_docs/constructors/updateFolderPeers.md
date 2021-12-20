@@ -1,6 +1,6 @@
 ---
-title: updateFolderPeers
-description: The peer list of a [peer folder](https://core.telegram.org/api/folders#peer-folders) was updated
+title: "updateFolderPeers"
+description: "The peer list of a peer folder was updated"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateFolderPeers  

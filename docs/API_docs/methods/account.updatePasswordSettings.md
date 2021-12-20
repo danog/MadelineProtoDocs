@@ -1,6 +1,6 @@
 ---
-title: account.updatePasswordSettings
-description: Set a new 2FA password
+title: "account.updatePasswordSettings"
+description: "Set a new 2FA password"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_updatePasswordSettings.html
 ---

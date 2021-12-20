@@ -1,6 +1,6 @@
 ---
-title: rpc_drop_answer
-description: rpc_drop_answer parameters, return type and example
+title: "rpc_drop_answer"
+description: "rpc_drop_answer parameters, return type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: rpc\_drop\_answer

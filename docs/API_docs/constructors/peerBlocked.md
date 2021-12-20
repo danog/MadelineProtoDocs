@@ -1,6 +1,6 @@
 ---
-title: peerBlocked
-description: Information about a blocked peer
+title: "peerBlocked"
+description: "Information about a blocked peer"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: peerBlocked  

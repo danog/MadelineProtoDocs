@@ -1,6 +1,6 @@
 ---
-title: channelAdminLogEventActionChangePhoto
-description: The channel/supergroup's picture was changed
+title: "channelAdminLogEventActionChangePhoto"
+description: "The channel/supergroup's picture was changed"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionChangePhoto  

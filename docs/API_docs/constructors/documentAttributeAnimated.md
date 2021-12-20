@@ -1,6 +1,6 @@
 ---
-title: documentAttributeAnimated
-description: Defines an animated GIF
+title: "documentAttributeAnimated"
+description: "Defines an animated GIF"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: documentAttributeAnimated  

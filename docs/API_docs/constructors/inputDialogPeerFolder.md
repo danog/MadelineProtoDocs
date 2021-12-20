@@ -1,6 +1,6 @@
 ---
-title: inputDialogPeerFolder
-description: All peers in a [peer folder](https://core.telegram.org/api/folders#peer-folders)
+title: "inputDialogPeerFolder"
+description: "All peers in a peer folder"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputDialogPeerFolder  

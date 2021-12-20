@@ -1,6 +1,6 @@
 ---
-title: securePasswordKdfAlgoSHA512
-description: SHA512 KDF algo
+title: "securePasswordKdfAlgoSHA512"
+description: "SHA512 KDF algo"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: securePasswordKdfAlgoSHA512  

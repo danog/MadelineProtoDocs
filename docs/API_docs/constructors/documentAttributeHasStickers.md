@@ -1,6 +1,6 @@
 ---
-title: documentAttributeHasStickers
-description: Whether the current document has stickers attached
+title: "documentAttributeHasStickers"
+description: "Whether the current document has stickers attached"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: documentAttributeHasStickers  

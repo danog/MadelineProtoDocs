@@ -1,6 +1,6 @@
 ---
-title: statsURL
-description: URL with chat statistics
+title: "statsURL"
+description: "URL with chat statistics"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: statsURL  

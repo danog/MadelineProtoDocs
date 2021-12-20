@@ -1,6 +1,6 @@
 ---
-title: messageEntityItalic
-description: Message entity representing *italic text*.
+title: "messageEntityItalic"
+description: "Message entity representing italic text."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageEntityItalic  

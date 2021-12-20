@@ -1,6 +1,6 @@
 ---
-title: %s
-description: %s
+title: "%s"
+description: "%s"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # %2$s

@@ -1,6 +1,6 @@
 ---
-title: keyboardButtonCallback
-description: Callback button
+title: "keyboardButtonCallback"
+description: "Callback button"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: keyboardButtonCallback  

@@ -1,6 +1,6 @@
 ---
-title: initConnection
-description: Initialize connection
+title: "initConnection"
+description: "Initialize connection"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: initConnection

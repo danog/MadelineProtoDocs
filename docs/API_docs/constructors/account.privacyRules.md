@@ -1,6 +1,6 @@
 ---
-title: account.privacyRules
-description: Privacy rules
+title: "account.privacyRules"
+description: "Privacy rules"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_privacyRules.html
 ---

@@ -1,6 +1,6 @@
 ---
-title: recentMeUrlChatInvite
-description: Recent t.me invite link to a chat
+title: "recentMeUrlChatInvite"
+description: "Recent t.me invite link to a chat"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: recentMeUrlChatInvite  

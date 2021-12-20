@@ -1,6 +1,6 @@
 ---
-title: encryptedFile
-description: Encrypted file.
+title: "encryptedFile"
+description: "Encrypted file."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: encryptedFile  

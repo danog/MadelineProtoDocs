@@ -1,6 +1,6 @@
 ---
-title: peerSelfLocated
-description: Current peer
+title: "peerSelfLocated"
+description: "Current peer"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: peerSelfLocated  

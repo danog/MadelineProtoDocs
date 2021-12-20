@@ -1,6 +1,6 @@
 ---
-title: help.countriesList
-description: Name, ISO code, localized name and phone codes/patterns of all available countries
+title: "help.countriesList"
+description: "Name, ISO code, localized name and phone codes/patterns of all available countries"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_countriesList.html
 ---

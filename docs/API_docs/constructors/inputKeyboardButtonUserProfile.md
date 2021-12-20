@@ -1,6 +1,6 @@
 ---
-title: inputKeyboardButtonUserProfile
-description: inputKeyboardButtonUserProfile attributes, type and example
+title: "inputKeyboardButtonUserProfile"
+description: "inputKeyboardButtonUserProfile attributes, type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputKeyboardButtonUserProfile  

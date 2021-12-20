@@ -1,6 +1,6 @@
 ---
-title: upload.file
-description: File content.
+title: "upload.file"
+description: "File content."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/upload_file.html
 ---

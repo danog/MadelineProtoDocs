@@ -1,6 +1,6 @@
 ---
-title: updateBotCallbackQuery
-description: A callback button was pressed, and the button data was sent to the bot that created the button
+title: "updateBotCallbackQuery"
+description: "A callback button was pressed, and the button data was sent to the bot that created the button"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotCallbackQuery  

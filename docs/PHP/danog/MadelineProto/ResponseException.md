@@ -1,6 +1,6 @@
 ---
-title: danog\MadelineProto\ResponseException: Indicates an error thrown when an unexpected response is received from telegram's servers.
-description: 
+title: "danog\\MadelineProto\\ResponseException: Indicates an error thrown when an unexpected response is received from telegram's servers."
+description: ""
 
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---

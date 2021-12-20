@@ -1,6 +1,6 @@
 ---
-title: phoneCallDiscardReasonDisconnect
-description: The phone call was disconnected
+title: "phoneCallDiscardReasonDisconnect"
+description: "The phone call was disconnected"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneCallDiscardReasonDisconnect  

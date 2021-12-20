@@ -1,6 +1,6 @@
 ---
-title: jsonBool
-description: JSON boolean value
+title: "jsonBool"
+description: "JSON boolean value"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: jsonBool  

@@ -1,6 +1,6 @@
 ---
-title: importedContact
-description: Successfully imported contact.
+title: "importedContact"
+description: "Successfully imported contact."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: importedContact  

@@ -1,6 +1,6 @@
 ---
-title: danog\MadelineProto\MyTelegramOrgWrapper: Wrapper for my.telegram.org.
-description: 
+title: "danog\\MadelineProto\\MyTelegramOrgWrapper: Wrapper for my.telegram.org."
+description: ""
 
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---

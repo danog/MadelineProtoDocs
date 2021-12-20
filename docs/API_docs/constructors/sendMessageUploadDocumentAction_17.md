@@ -1,6 +1,6 @@
 ---
-title: sendMessageUploadDocumentAction
-description: User is uploading a file.
+title: "sendMessageUploadDocumentAction"
+description: "User is uploading a file."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageUploadDocumentAction\_17  

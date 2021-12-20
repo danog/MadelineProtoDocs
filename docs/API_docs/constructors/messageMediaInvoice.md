@@ -1,6 +1,6 @@
 ---
-title: messageMediaInvoice
-description: Invoice
+title: "messageMediaInvoice"
+description: "Invoice"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaInvoice  

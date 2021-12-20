@@ -1,6 +1,6 @@
 ---
-title: help.promoDataEmpty
-description: No PSA/MTProxy info is available
+title: "help.promoDataEmpty"
+description: "No PSA/MTProxy info is available"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_promoDataEmpty.html
 ---

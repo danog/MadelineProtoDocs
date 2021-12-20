@@ -1,6 +1,6 @@
 ---
-title: dialog
-description: Chat
+title: "dialog"
+description: "Chat"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: dialog  

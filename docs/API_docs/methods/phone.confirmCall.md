@@ -1,6 +1,6 @@
 ---
-title: phone.confirmCall
-description: [Complete phone call E2E encryption key exchange »](https://core.telegram.org/api/end-to-end/voice-calls)
+title: "phone.confirmCall"
+description: "[Complete phone call E2E encryption key exchange »](https://core.telegram.org/api/end-to-end/voice-calls)"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/phone_confirmCall.html
 ---

@@ -1,6 +1,6 @@
 ---
-title: auth.acceptLoginToken
-description: Accept QR code login token, logging in the app that generated it.
+title: "auth.acceptLoginToken"
+description: "Accept QR code login token, logging in the app that generated it."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_acceptLoginToken.html
 ---

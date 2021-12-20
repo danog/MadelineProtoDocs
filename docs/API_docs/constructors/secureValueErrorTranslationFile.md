@@ -1,6 +1,6 @@
 ---
-title: secureValueErrorTranslationFile
-description: Represents an issue with one of the files that constitute the translation of a document. The error is considered resolved when the file changes.
+title: "secureValueErrorTranslationFile"
+description: "Represents an issue with one of the files that constitute the translation of a document. The error is considered resolved when the file changes."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueErrorTranslationFile  

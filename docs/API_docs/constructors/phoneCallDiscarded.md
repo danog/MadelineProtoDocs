@@ -1,6 +1,6 @@
 ---
-title: phoneCallDiscarded
-description: Indicates a discarded phone call
+title: "phoneCallDiscarded"
+description: "Indicates a discarded phone call"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneCallDiscarded  

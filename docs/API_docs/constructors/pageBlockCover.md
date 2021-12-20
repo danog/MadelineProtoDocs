@@ -1,6 +1,6 @@
 ---
-title: pageBlockCover
-description: A page cover
+title: "pageBlockCover"
+description: "A page cover"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockCover  

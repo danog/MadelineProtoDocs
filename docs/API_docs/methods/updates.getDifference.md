@@ -1,6 +1,6 @@
 ---
-title: updates.getDifference
-description: Get new [updates](https://core.telegram.org/api/updates).
+title: "updates.getDifference"
+description: "Get new [updates](https://core.telegram.org/api/updates)."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/updates_getDifference.html
 ---

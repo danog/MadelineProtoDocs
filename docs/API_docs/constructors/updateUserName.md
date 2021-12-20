@@ -1,6 +1,6 @@
 ---
-title: updateUserName
-description: Changes the user's first name, last name and username.
+title: "updateUserName"
+description: "Changes the user's first name, last name and username."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateUserName  

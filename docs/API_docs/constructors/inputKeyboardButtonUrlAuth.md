@@ -1,6 +1,6 @@
 ---
-title: inputKeyboardButtonUrlAuth
-description: Button to request a user to [authorize](../methods/messages.acceptUrlAuth.md) via URL using [Seamless Telegram Login](https://telegram.org/blog/privacy-discussions-web-bots#meet-seamless-web-bots).
+title: "inputKeyboardButtonUrlAuth"
+description: "Button to request a user to authorize via URL using Seamless Telegram Login."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputKeyboardButtonUrlAuth  

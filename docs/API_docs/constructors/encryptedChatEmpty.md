@@ -1,6 +1,6 @@
 ---
-title: encryptedChatEmpty
-description: Empty constructor.
+title: "encryptedChatEmpty"
+description: "Empty constructor."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: encryptedChatEmpty  

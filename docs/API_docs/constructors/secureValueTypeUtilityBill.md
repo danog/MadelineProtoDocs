@@ -1,6 +1,6 @@
 ---
-title: secureValueTypeUtilityBill
-description: Utility bill
+title: "secureValueTypeUtilityBill"
+description: "Utility bill"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueTypeUtilityBill  

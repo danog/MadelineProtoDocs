@@ -1,6 +1,6 @@
 ---
-title: channelParticipantsSearch
-description: Query participants by name
+title: "channelParticipantsSearch"
+description: "Query participants by name"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantsSearch  

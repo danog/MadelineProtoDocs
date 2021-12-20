@@ -1,6 +1,6 @@
 ---
-title: textEmail
-description: Rich text email link
+title: "textEmail"
+description: "Rich text email link"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textEmail  

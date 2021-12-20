@@ -1,6 +1,6 @@
 ---
-title: messages.votesList
-description: How users voted in a poll
+title: "messages.votesList"
+description: "How users voted in a poll"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_votesList.html
 ---

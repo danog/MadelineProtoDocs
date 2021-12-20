@@ -1,6 +1,6 @@
 ---
-title: pageTableRow
-description: Table row
+title: "pageTableRow"
+description: "Table row"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageTableRow  

@@ -1,6 +1,6 @@
 ---
-title: messages.setInlineBotResults
-description: Answer an inline query, for bots only
+title: "messages.setInlineBotResults"
+description: "Answer an inline query, for bots only"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_setInlineBotResults.html
 ---

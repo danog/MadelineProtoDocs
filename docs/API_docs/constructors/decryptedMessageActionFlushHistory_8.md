@@ -1,6 +1,6 @@
 ---
-title: decryptedMessageActionFlushHistory
-description: The entire message history has been deleted.
+title: "decryptedMessageActionFlushHistory"
+description: "The entire message history has been deleted."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionFlushHistory\_8  

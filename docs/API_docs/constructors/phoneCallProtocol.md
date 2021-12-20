@@ -1,6 +1,6 @@
 ---
-title: phoneCallProtocol
-description: Protocol info for libtgvoip
+title: "phoneCallProtocol"
+description: "Protocol info for libtgvoip"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneCallProtocol  

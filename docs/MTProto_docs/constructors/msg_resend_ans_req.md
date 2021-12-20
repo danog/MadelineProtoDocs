@@ -1,6 +1,6 @@
 ---
-title: msg_resend_ans_req
-description: msg_resend_ans_req attributes, type and example
+title: "msg_resend_ans_req"
+description: "msg_resend_ans_req attributes, type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: msg\_resend\_ans\_req  

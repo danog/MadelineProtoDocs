@@ -1,6 +1,6 @@
 ---
-title: document
-description: Document
+title: "document"
+description: "Document"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: document  

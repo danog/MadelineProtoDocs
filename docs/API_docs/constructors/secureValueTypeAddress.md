@@ -1,6 +1,6 @@
 ---
-title: secureValueTypeAddress
-description: Address
+title: "secureValueTypeAddress"
+description: "Address"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueTypeAddress  

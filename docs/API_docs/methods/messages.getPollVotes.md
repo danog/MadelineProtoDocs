@@ -1,6 +1,6 @@
 ---
-title: messages.getPollVotes
-description: Get poll results for non-anonymous polls
+title: "messages.getPollVotes"
+description: "Get poll results for non-anonymous polls"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getPollVotes.html
 ---

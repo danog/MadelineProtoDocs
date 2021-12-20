@@ -1,6 +1,6 @@
 ---
-title: statsDateRangeDays
-description: [Channel statistics](https://core.telegram.org/api/stats) date range
+title: "statsDateRangeDays"
+description: "Channel statistics date range"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: statsDateRangeDays  

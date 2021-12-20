@@ -1,6 +1,6 @@
 ---
-title: botInlineMediaResult
-description: Media result
+title: "botInlineMediaResult"
+description: "Media result"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: botInlineMediaResult  

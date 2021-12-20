@@ -1,6 +1,6 @@
 ---
-title: groupCallParticipantVideo
-description: groupCallParticipantVideo attributes, type and example
+title: "groupCallParticipantVideo"
+description: "groupCallParticipantVideo attributes, type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: groupCallParticipantVideo  

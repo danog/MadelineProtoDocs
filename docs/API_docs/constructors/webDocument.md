@@ -1,6 +1,6 @@
 ---
-title: webDocument
-description: Remote document
+title: "webDocument"
+description: "Remote document"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: webDocument  

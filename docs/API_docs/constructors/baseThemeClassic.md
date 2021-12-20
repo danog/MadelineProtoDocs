@@ -1,6 +1,6 @@
 ---
-title: baseThemeClassic
-description: Classic theme
+title: "baseThemeClassic"
+description: "Classic theme"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: baseThemeClassic  

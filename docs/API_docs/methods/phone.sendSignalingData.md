@@ -1,6 +1,6 @@
 ---
-title: phone.sendSignalingData
-description: Send VoIP signaling data
+title: "phone.sendSignalingData"
+description: "Send VoIP signaling data"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/phone_sendSignalingData.html
 ---

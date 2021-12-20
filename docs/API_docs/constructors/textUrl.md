@@ -1,6 +1,6 @@
 ---
-title: textUrl
-description: Link
+title: "textUrl"
+description: "Link"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textUrl  

@@ -1,6 +1,6 @@
 ---
-title: chatPhoto
-description: Group profile photo.
+title: "chatPhoto"
+description: "Group profile photo."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatPhoto  

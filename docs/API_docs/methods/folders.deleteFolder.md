@@ -1,6 +1,6 @@
 ---
-title: folders.deleteFolder
-description: Delete a [peer folder](https://core.telegram.org/api/folders#peer-folders)
+title: "folders.deleteFolder"
+description: "Delete a [peer folder](https://core.telegram.org/api/folders#peer-folders)"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/folders_deleteFolder.html
 ---

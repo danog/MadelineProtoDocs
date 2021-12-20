@@ -1,6 +1,6 @@
 ---
-title: channelLocationEmpty
-description: No location (normal supergroup)
+title: "channelLocationEmpty"
+description: "No location (normal supergroup)"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelLocationEmpty  

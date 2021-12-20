@@ -1,6 +1,6 @@
 ---
-title: danog\MadelineProto\Tools: Some tools.
-description: 
+title: "danog\\MadelineProto\\Tools: Some tools."
+description: ""
 
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---

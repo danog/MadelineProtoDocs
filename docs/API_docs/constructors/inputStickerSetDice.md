@@ -1,6 +1,6 @@
 ---
-title: inputStickerSetDice
-description: Used for fetching [animated dice stickers](https://core.telegram.org/api/dice)
+title: "inputStickerSetDice"
+description: "Used for fetching animated dice stickers"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputStickerSetDice  

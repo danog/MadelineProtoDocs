@@ -1,6 +1,6 @@
 ---
-title: channelAdminLogEventActionParticipantInvite
-description: A user was invited to the group
+title: "channelAdminLogEventActionParticipantInvite"
+description: "A user was invited to the group"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionParticipantInvite  

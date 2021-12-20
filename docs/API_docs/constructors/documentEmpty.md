@@ -1,6 +1,6 @@
 ---
-title: documentEmpty
-description: Empty constructor, document doesn't exist.
+title: "documentEmpty"
+description: "Empty constructor, document doesn't exist."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: documentEmpty  

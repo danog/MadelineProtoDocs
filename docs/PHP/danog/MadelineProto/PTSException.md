@@ -1,6 +1,6 @@
 ---
-title: danog\MadelineProto\PTSException: Internal error indicating a problem with Telegram's servers.
-description: 
+title: "danog\\MadelineProto\\PTSException: Internal error indicating a problem with Telegram's servers."
+description: ""
 
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---

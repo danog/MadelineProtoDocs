@@ -1,6 +1,6 @@
 ---
-title: inputMediaUploadedPhoto
-description: Photo
+title: "inputMediaUploadedPhoto"
+description: "Photo"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaUploadedPhoto  

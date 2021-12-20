@@ -1,6 +1,6 @@
 ---
-title: folderPeer
-description: Peer in a folder
+title: "folderPeer"
+description: "Peer in a folder"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: folderPeer  

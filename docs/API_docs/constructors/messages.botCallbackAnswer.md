@@ -1,6 +1,6 @@
 ---
-title: messages.botCallbackAnswer
-description: Callback answer sent by the bot in response to a button press
+title: "messages.botCallbackAnswer"
+description: "Callback answer sent by the bot in response to a button press"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_botCallbackAnswer.html
 ---

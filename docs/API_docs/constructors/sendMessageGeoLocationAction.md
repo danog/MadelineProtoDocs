@@ -1,6 +1,6 @@
 ---
-title: sendMessageGeoLocationAction
-description: User is selecting a location to share.
+title: "sendMessageGeoLocationAction"
+description: "User is selecting a location to share."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageGeoLocationAction  

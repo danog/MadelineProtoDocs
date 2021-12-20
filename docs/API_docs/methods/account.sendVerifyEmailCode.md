@@ -1,6 +1,6 @@
 ---
-title: account.sendVerifyEmailCode
-description: Send the verification email code for telegram [passport](https://core.telegram.org/passport).
+title: "account.sendVerifyEmailCode"
+description: "Send the verification email code for telegram [passport](https://core.telegram.org/passport)."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_sendVerifyEmailCode.html
 ---

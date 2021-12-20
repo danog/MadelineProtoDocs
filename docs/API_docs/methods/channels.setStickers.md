@@ -1,6 +1,6 @@
 ---
-title: channels.setStickers
-description: Associate a stickerset to the supergroup
+title: "channels.setStickers"
+description: "Associate a stickerset to the supergroup"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_setStickers.html
 ---

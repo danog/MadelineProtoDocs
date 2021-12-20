@@ -1,6 +1,6 @@
 ---
-title: secureValueErrorFile
-description: Represents an issue with a document scan. The error is considered resolved when the file with the document scan changes.
+title: "secureValueErrorFile"
+description: "Represents an issue with a document scan. The error is considered resolved when the file with the document scan changes."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueErrorFile  

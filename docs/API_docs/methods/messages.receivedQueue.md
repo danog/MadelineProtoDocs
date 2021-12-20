@@ -1,6 +1,6 @@
 ---
-title: messages.receivedQueue
-description: Confirms receipt of messages in a secret chat by client, cancels push notifications.
+title: "messages.receivedQueue"
+description: "Confirms receipt of messages in a secret chat by client, cancels push notifications."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_receivedQueue.html
 ---

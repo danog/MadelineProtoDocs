@@ -1,6 +1,6 @@
 ---
-title: messages.getFullChat
-description: Returns full chat info according to its ID.
+title: "messages.getFullChat"
+description: "Returns full chat info according to its ID."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getFullChat.html
 ---

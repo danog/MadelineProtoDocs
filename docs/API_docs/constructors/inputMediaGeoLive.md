@@ -1,6 +1,6 @@
 ---
-title: inputMediaGeoLive
-description: [Live geolocation](https://core.telegram.org/api/live-location)
+title: "inputMediaGeoLive"
+description: "Live geolocation"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaGeoLive  

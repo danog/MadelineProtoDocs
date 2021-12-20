@@ -1,6 +1,6 @@
 ---
-title: help.dismissSuggestion
-description: Dismiss a suggestion
+title: "help.dismissSuggestion"
+description: "Dismiss a suggestion"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_dismissSuggestion.html
 ---

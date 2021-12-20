@@ -1,6 +1,6 @@
 ---
-title: updateChatParticipantAdd
-description: New group member.
+title: "updateChatParticipantAdd"
+description: "New group member."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChatParticipantAdd  

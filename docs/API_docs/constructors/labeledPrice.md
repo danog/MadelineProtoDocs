@@ -1,6 +1,6 @@
 ---
-title: labeledPrice
-description: This object represents a portion of the price for goods or services.
+title: "labeledPrice"
+description: "This object represents a portion of the price for goods or services."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: labeledPrice  

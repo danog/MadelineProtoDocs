@@ -1,6 +1,6 @@
 ---
-title: secureValueHash
-description: Secure value hash
+title: "secureValueHash"
+description: "Secure value hash"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueHash  

@@ -1,6 +1,6 @@
 ---
-title: stickers.checkShortName
-description: stickers.checkShortName parameters, return type and example
+title: "stickers.checkShortName"
+description: "stickers.checkShortName parameters, return type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/stickers_checkShortName.html
 ---

@@ -1,6 +1,6 @@
 ---
-title: messages.faveSticker
-description: Mark a sticker as favorite
+title: "messages.faveSticker"
+description: "Mark a sticker as favorite"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_faveSticker.html
 ---

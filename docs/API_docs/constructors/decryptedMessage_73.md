@@ -1,6 +1,6 @@
 ---
-title: decryptedMessage
-description: Contents of an encrypted message.
+title: "decryptedMessage"
+description: "Contents of an encrypted message."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessage\_73  

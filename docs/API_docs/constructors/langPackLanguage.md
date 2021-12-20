@@ -1,6 +1,6 @@
 ---
-title: langPackLanguage
-description: Identifies a localization pack
+title: "langPackLanguage"
+description: "Identifies a localization pack"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: langPackLanguage  

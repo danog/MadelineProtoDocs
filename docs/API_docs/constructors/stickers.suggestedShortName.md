@@ -1,6 +1,6 @@
 ---
-title: stickers.suggestedShortName
-description: stickers.suggestedShortName attributes, type and example
+title: "stickers.suggestedShortName"
+description: "stickers.suggestedShortName attributes, type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/stickers_suggestedShortName.html
 ---

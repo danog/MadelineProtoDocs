@@ -1,6 +1,6 @@
 ---
-title: messages.getDhConfig
-description: Returns configuration parameters for Diffie-Hellman key generation. Can also return a random sequence of bytes of required length.
+title: "messages.getDhConfig"
+description: "Returns configuration parameters for Diffie-Hellman key generation. Can also return a random sequence of bytes of required length."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getDhConfig.html
 ---

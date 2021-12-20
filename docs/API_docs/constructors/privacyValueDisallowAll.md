@@ -1,6 +1,6 @@
 ---
-title: privacyValueDisallowAll
-description: Disallow all users
+title: "privacyValueDisallowAll"
+description: "Disallow all users"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: privacyValueDisallowAll  

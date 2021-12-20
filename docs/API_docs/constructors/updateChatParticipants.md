@@ -1,6 +1,6 @@
 ---
-title: updateChatParticipants
-description: Composition of chat participants changed.
+title: "updateChatParticipants"
+description: "Composition of chat participants changed."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChatParticipants  

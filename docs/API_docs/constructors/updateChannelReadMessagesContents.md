@@ -1,6 +1,6 @@
 ---
-title: updateChannelReadMessagesContents
-description: The specified [channel/supergroup](https://core.telegram.org/api/channel) messages were read
+title: "updateChannelReadMessagesContents"
+description: "The specified channel/supergroup messages were read"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelReadMessagesContents  

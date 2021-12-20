@@ -1,6 +1,6 @@
 ---
-title: updateReadChannelDiscussionOutbox
-description: Outgoing comments in a [discussion thread](https://core.telegram.org/api/threads) were marked as read
+title: "updateReadChannelDiscussionOutbox"
+description: "Outgoing comments in a discussion thread were marked as read"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateReadChannelDiscussionOutbox  

@@ -1,6 +1,6 @@
 ---
-title: inputPaymentCredentialsSaved
-description: Saved payment credentials
+title: "inputPaymentCredentialsSaved"
+description: "Saved payment credentials"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPaymentCredentialsSaved  

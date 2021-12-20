@@ -1,6 +1,6 @@
 ---
-title: topPeer
-description: Top peer
+title: "topPeer"
+description: "Top peer"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: topPeer  

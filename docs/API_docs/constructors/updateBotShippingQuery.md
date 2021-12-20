@@ -1,6 +1,6 @@
 ---
-title: updateBotShippingQuery
-description: This object contains information about an incoming shipping query.
+title: "updateBotShippingQuery"
+description: "This object contains information about an incoming shipping query."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotShippingQuery  

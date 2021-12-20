@@ -1,6 +1,6 @@
 ---
-title: messages.updateDialogFilter
-description: Update [folder](https://core.telegram.org/api/folders)
+title: "messages.updateDialogFilter"
+description: "Update [folder](https://core.telegram.org/api/folders)"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_updateDialogFilter.html
 ---

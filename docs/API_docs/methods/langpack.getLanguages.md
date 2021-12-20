@@ -1,6 +1,6 @@
 ---
-title: langpack.getLanguages
-description: Get information about all languages in a localization pack
+title: "langpack.getLanguages"
+description: "Get information about all languages in a localization pack"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/langpack_getLanguages.html
 ---

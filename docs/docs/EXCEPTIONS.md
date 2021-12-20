@@ -1,6 +1,6 @@
 ---
-title: Exceptions
-description: MadelineProto can throw lots of different exceptions.  
+title: "Exceptions"
+description: "MadelineProto can throw lots of different exceptions.  "
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Exceptions

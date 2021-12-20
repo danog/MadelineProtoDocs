@@ -1,6 +1,6 @@
 ---
-title: channels.createChannel
-description: Create a [supergroup/channel](https://core.telegram.org/api/channel).
+title: "channels.createChannel"
+description: "Create a [supergroup/channel](https://core.telegram.org/api/channel)."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_createChannel.html
 ---

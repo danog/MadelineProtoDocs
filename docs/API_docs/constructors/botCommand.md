@@ -1,6 +1,6 @@
 ---
-title: botCommand
-description: Describes a bot command that can be used in a chat
+title: "botCommand"
+description: "Describes a bot command that can be used in a chat"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: botCommand  

@@ -1,6 +1,6 @@
 ---
-title: updateEditChannelMessage
-description: A message was edited in a [channel/supergroup](https://core.telegram.org/api/channel)
+title: "updateEditChannelMessage"
+description: "A message was edited in a channel/supergroup"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateEditChannelMessage  

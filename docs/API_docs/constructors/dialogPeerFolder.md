@@ -1,6 +1,6 @@
 ---
-title: dialogPeerFolder
-description: [Peer folder](https://core.telegram.org/api/folders#peer-folders)
+title: "dialogPeerFolder"
+description: "Peer folder"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: dialogPeerFolder  

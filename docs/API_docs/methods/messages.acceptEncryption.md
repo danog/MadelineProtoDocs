@@ -1,6 +1,6 @@
 ---
-title: messages.acceptEncryption
-description: Confirms creation of a secret chat
+title: "messages.acceptEncryption"
+description: "Confirms creation of a secret chat"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_acceptEncryption.html
 ---

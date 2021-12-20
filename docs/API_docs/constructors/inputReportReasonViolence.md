@@ -1,6 +1,6 @@
 ---
-title: inputReportReasonViolence
-description: Report for violence
+title: "inputReportReasonViolence"
+description: "Report for violence"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputReportReasonViolence  

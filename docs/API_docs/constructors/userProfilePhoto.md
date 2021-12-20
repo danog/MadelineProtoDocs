@@ -1,6 +1,6 @@
 ---
-title: userProfilePhoto
-description: User profile photo.
+title: "userProfilePhoto"
+description: "User profile photo."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userProfilePhoto  

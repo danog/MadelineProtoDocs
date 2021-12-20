@@ -1,6 +1,6 @@
 ---
-title: bind_auth_key_inner
-description: bind_auth_key_inner attributes, type and example
+title: "bind_auth_key_inner"
+description: "bind_auth_key_inner attributes, type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: bind\_auth\_key\_inner  

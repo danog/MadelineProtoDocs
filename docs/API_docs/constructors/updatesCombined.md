@@ -1,6 +1,6 @@
 ---
-title: updatesCombined
-description: Constructor for a group of updates.
+title: "updatesCombined"
+description: "Constructor for a group of updates."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatesCombined  

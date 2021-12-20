@@ -1,6 +1,6 @@
 ---
-title: pageBlockKicker
-description: Kicker
+title: "pageBlockKicker"
+description: "Kicker"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockKicker  

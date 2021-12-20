@@ -1,6 +1,6 @@
 ---
-title: messages.forwardMessages
-description: Forwards messages by their IDs.
+title: "messages.forwardMessages"
+description: "Forwards messages by their IDs."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_forwardMessages.html
 ---

@@ -1,6 +1,6 @@
 ---
-title: req_DH_params
-description: req_DH_params parameters, return type and example
+title: "req_DH_params"
+description: "req_DH_params parameters, return type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: req\_DH\_params

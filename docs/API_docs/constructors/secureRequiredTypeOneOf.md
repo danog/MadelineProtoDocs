@@ -1,6 +1,6 @@
 ---
-title: secureRequiredTypeOneOf
-description: One of
+title: "secureRequiredTypeOneOf"
+description: "One of"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureRequiredTypeOneOf  

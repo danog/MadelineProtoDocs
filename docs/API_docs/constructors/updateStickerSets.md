@@ -1,6 +1,6 @@
 ---
-title: updateStickerSets
-description: Installed stickersets have changed, the client should refetch them using [messages.getAllStickers](https://core.telegram.org/method/messages.getAllStickers)
+title: "updateStickerSets"
+description: "Installed stickersets have changed, the client should refetch them using messages.getAllStickers"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateStickerSets  

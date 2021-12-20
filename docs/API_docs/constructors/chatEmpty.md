@@ -1,6 +1,6 @@
 ---
-title: chatEmpty
-description: Empty constructor, group doesn't exist
+title: "chatEmpty"
+description: "Empty constructor, group doesn't exist"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatEmpty  

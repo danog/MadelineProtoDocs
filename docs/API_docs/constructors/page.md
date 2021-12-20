@@ -1,6 +1,6 @@
 ---
-title: page
-description: [Instant view](https://instantview.telegram.org) page
+title: "page"
+description: "Instant view page"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: page  

@@ -1,6 +1,6 @@
 ---
-title: danog\MadelineProto\Settings\SecretChats: Secret chat settings.
-description: 
+title: "danog\\MadelineProto\\Settings\\SecretChats: Secret chat settings."
+description: ""
 
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---

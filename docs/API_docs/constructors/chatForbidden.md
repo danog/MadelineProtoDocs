@@ -1,6 +1,6 @@
 ---
-title: chatForbidden
-description: A group to which the user has no access. E.g., because the user was kicked from the group.
+title: "chatForbidden"
+description: "A group to which the user has no access. E.g., because the user was kicked from the group."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatForbidden  

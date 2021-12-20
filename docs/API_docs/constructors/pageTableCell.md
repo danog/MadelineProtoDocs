@@ -1,6 +1,6 @@
 ---
-title: pageTableCell
-description: Table cell
+title: "pageTableCell"
+description: "Table cell"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageTableCell  

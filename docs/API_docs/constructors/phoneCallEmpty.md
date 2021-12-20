@@ -1,6 +1,6 @@
 ---
-title: phoneCallEmpty
-description: Empty constructor
+title: "phoneCallEmpty"
+description: "Empty constructor"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneCallEmpty  

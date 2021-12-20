@@ -1,6 +1,6 @@
 ---
-title: messageEntityMentionName
-description: Message entity representing a [user mention](https://core.telegram.org/api/mentions): for *creating* a mention use [inputMessageEntityMentionName](../constructors/inputMessageEntityMentionName.md).
+title: "messageEntityMentionName"
+description: "Message entity representing a user mention: for creating a mention use inputMessageEntityMentionName."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageEntityMentionName  

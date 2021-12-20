@@ -1,6 +1,6 @@
 ---
-title: codeSettings
-description: Settings used by telegram servers for sending the confirm code.
+title: "codeSettings"
+description: "Settings used by telegram servers for sending the confirm code."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: codeSettings  

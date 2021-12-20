@@ -1,6 +1,6 @@
 ---
-title: updatePrivacy
-description: Privacy rules were changed
+title: "updatePrivacy"
+description: "Privacy rules were changed"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatePrivacy  

@@ -1,6 +1,6 @@
 ---
-title: messages.readEncryptedHistory
-description: Marks message history within a secret chat as read.
+title: "messages.readEncryptedHistory"
+description: "Marks message history within a secret chat as read."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_readEncryptedHistory.html
 ---

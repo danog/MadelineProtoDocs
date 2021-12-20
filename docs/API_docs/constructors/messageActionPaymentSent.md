@@ -1,6 +1,6 @@
 ---
-title: messageActionPaymentSent
-description: A payment was sent
+title: "messageActionPaymentSent"
+description: "A payment was sent"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionPaymentSent  

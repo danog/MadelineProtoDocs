@@ -1,6 +1,6 @@
 ---
-title: pageBlockPreformatted
-description: Preformatted (`<pre>` text)
+title: "pageBlockPreformatted"
+description: "Preformatted (<pre> text)"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockPreformatted  

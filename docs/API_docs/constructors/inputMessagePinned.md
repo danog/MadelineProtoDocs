@@ -1,6 +1,6 @@
 ---
-title: inputMessagePinned
-description: Pinned message
+title: "inputMessagePinned"
+description: "Pinned message"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagePinned  

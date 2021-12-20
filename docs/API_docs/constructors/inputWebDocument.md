@@ -1,6 +1,6 @@
 ---
-title: inputWebDocument
-description: The document
+title: "inputWebDocument"
+description: "The document"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputWebDocument  

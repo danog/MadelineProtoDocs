@@ -1,6 +1,6 @@
 ---
-title: chatParticipantsForbidden
-description: Info on members is unavailable
+title: "chatParticipantsForbidden"
+description: "Info on members is unavailable"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatParticipantsForbidden  

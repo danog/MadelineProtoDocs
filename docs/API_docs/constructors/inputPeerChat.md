@@ -1,6 +1,6 @@
 ---
-title: inputPeerChat
-description: Defines a chat for further interaction.
+title: "inputPeerChat"
+description: "Defines a chat for further interaction."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPeerChat  

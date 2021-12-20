@@ -1,6 +1,6 @@
 ---
-title: updates.getChannelDifference
-description: Returns the difference between the current state of updates of a certain channel and transmitted.
+title: "updates.getChannelDifference"
+description: "Returns the difference between the current state of updates of a certain channel and transmitted."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/updates_getChannelDifference.html
 ---

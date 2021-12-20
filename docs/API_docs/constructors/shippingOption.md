@@ -1,6 +1,6 @@
 ---
-title: shippingOption
-description: Shipping option
+title: "shippingOption"
+description: "Shipping option"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: shippingOption  

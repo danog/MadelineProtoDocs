@@ -1,6 +1,6 @@
 ---
-title: pageBlockRelatedArticles
-description: Related articles
+title: "pageBlockRelatedArticles"
+description: "Related articles"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockRelatedArticles  

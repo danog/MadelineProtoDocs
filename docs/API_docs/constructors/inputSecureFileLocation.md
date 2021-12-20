@@ -1,6 +1,6 @@
 ---
-title: inputSecureFileLocation
-description: Location of encrypted telegram [passport](https://core.telegram.org/passport) file.
+title: "inputSecureFileLocation"
+description: "Location of encrypted telegram passport file."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputSecureFileLocation  

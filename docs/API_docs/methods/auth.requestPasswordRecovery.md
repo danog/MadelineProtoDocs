@@ -1,6 +1,6 @@
 ---
-title: auth.requestPasswordRecovery
-description: Request recovery code of a [2FA password](https://core.telegram.org/api/srp), only for accounts with a [recovery email configured](https://core.telegram.org/api/srp#email-verification).
+title: "auth.requestPasswordRecovery"
+description: "Request recovery code of a [2FA password](https://core.telegram.org/api/srp), only for accounts with a [recovery email configured](https://core.telegram.org/api/srp#email-verification)."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_requestPasswordRecovery.html
 ---

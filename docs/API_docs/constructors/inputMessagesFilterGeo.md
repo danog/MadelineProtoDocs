@@ -1,6 +1,6 @@
 ---
-title: inputMessagesFilterGeo
-description: Return only messages containing geolocations
+title: "inputMessagesFilterGeo"
+description: "Return only messages containing geolocations"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterGeo  

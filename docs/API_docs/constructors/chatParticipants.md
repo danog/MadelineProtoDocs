@@ -1,6 +1,6 @@
 ---
-title: chatParticipants
-description: Group members.
+title: "chatParticipants"
+description: "Group members."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatParticipants  

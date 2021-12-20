@@ -1,6 +1,6 @@
 ---
-title: Using methods
-description: There are simplifications for many, if not all of, these methods.
+title: "Using methods"
+description: "There are simplifications for many, if not all of, these methods."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Using methods

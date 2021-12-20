@@ -1,6 +1,6 @@
 ---
-title: messageEntityBold
-description: Message entity representing **bold text**.
+title: "messageEntityBold"
+description: "Message entity representing bold text."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageEntityBold  

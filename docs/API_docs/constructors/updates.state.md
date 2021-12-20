@@ -1,6 +1,6 @@
 ---
-title: updates.state
-description: Updates state.
+title: "updates.state"
+description: "Updates state."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/updates_state.html
 ---

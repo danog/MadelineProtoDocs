@@ -1,6 +1,6 @@
 ---
-title: messages.clearRecentStickers
-description: Clear recent stickers
+title: "messages.clearRecentStickers"
+description: "Clear recent stickers"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_clearRecentStickers.html
 ---

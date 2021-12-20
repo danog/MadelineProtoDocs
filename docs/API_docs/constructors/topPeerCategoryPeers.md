@@ -1,6 +1,6 @@
 ---
-title: topPeerCategoryPeers
-description: Top peer category
+title: "topPeerCategoryPeers"
+description: "Top peer category"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: topPeerCategoryPeers  

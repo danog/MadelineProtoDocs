@@ -1,6 +1,6 @@
 ---
-title: p_q_inner_data_temp_dc
-description: p_q_inner_data_temp_dc attributes, type and example
+title: "p_q_inner_data_temp_dc"
+description: "p_q_inner_data_temp_dc attributes, type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: p\_q\_inner\_data\_temp\_dc  

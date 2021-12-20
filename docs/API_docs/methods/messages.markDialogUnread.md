@@ -1,6 +1,6 @@
 ---
-title: messages.markDialogUnread
-description: Manually mark dialog as unread
+title: "messages.markDialogUnread"
+description: "Manually mark dialog as unread"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_markDialogUnread.html
 ---

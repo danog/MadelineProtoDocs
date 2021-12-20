@@ -1,6 +1,6 @@
 ---
-title: photos.photos
-description: Full list of photos with auxiliary data.
+title: "photos.photos"
+description: "Full list of photos with auxiliary data."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/photos_photos.html
 ---

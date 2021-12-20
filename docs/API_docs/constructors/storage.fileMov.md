@@ -1,6 +1,6 @@
 ---
-title: storage.fileMov
-description: Quicktime video. MIME type: `video/quicktime`.
+title: "storage.fileMov"
+description: "Quicktime video. MIME type: video/quicktime."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/storage_fileMov.html
 ---

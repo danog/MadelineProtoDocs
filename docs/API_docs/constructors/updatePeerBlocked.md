@@ -1,6 +1,6 @@
 ---
-title: updatePeerBlocked
-description: A peer was blocked
+title: "updatePeerBlocked"
+description: "A peer was blocked"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatePeerBlocked  

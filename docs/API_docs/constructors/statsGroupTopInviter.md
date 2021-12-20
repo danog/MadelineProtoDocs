@@ -1,6 +1,6 @@
 ---
-title: statsGroupTopInviter
-description: Information about an active supergroup inviter
+title: "statsGroupTopInviter"
+description: "Information about an active supergroup inviter"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: statsGroupTopInviter  

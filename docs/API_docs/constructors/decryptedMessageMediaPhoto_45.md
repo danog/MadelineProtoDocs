@@ -1,6 +1,6 @@
 ---
-title: decryptedMessageMediaPhoto
-description: Photo attached to an encrypted message.
+title: "decryptedMessageMediaPhoto"
+description: "Photo attached to an encrypted message."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaPhoto\_45  

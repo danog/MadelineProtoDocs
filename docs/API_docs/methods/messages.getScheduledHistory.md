@@ -1,6 +1,6 @@
 ---
-title: messages.getScheduledHistory
-description: Get scheduled messages
+title: "messages.getScheduledHistory"
+description: "Get scheduled messages"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getScheduledHistory.html
 ---

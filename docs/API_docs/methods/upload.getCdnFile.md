@@ -1,6 +1,6 @@
 ---
-title: upload.getCdnFile
-description: Download a [CDN](https://core.telegram.org/cdn) file.
+title: "upload.getCdnFile"
+description: "Download a [CDN](https://core.telegram.org/cdn) file."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/upload_getCdnFile.html
 ---

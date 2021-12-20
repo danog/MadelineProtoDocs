@@ -1,6 +1,6 @@
 ---
-title: inputDocumentFileLocation
-description: Document location (video, voice, audio, basically every type except photo)
+title: "inputDocumentFileLocation"
+description: "Document location (video, voice, audio, basically every type except photo)"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputDocumentFileLocation  

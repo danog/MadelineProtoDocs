@@ -1,6 +1,6 @@
 ---
-title: sendMessageTypingAction
-description: User is typing.
+title: "sendMessageTypingAction"
+description: "User is typing."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageTypingAction  

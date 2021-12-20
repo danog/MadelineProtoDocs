@@ -1,6 +1,6 @@
 ---
-title: channelAdminLogEventActionExportedInviteEdit
-description: channelAdminLogEventActionExportedInviteEdit attributes, type and example
+title: "channelAdminLogEventActionExportedInviteEdit"
+description: "channelAdminLogEventActionExportedInviteEdit attributes, type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionExportedInviteEdit  

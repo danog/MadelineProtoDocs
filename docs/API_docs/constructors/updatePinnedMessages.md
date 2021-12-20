@@ -1,6 +1,6 @@
 ---
-title: updatePinnedMessages
-description: Some messages were pinned in a chat
+title: "updatePinnedMessages"
+description: "Some messages were pinned in a chat"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatePinnedMessages  

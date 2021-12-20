@@ -1,6 +1,6 @@
 ---
-title: updateChatParticipantDelete
-description: A member has left the group.
+title: "updateChatParticipantDelete"
+description: "A member has left the group."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChatParticipantDelete  

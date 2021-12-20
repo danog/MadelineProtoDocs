@@ -1,6 +1,6 @@
 ---
-title: contacts.acceptContact
-description: If the [peer settings](../constructors/peerSettings.md) of a new user allow us to add him as contact, add that user as contact
+title: "contacts.acceptContact"
+description: "If the [peer settings](../constructors/peerSettings.md) of a new user allow us to add him as contact, add that user as contact"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_acceptContact.html
 ---

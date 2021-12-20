@@ -1,6 +1,6 @@
 ---
-title: webPageEmpty
-description: No preview is available for the webpage
+title: "webPageEmpty"
+description: "No preview is available for the webpage"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: webPageEmpty  

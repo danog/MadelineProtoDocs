@@ -1,6 +1,6 @@
 ---
-title: updatePeerSettings
-description: Settings of a certain peer have changed
+title: "updatePeerSettings"
+description: "Settings of a certain peer have changed"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatePeerSettings  

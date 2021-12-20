@@ -1,4 +1,4 @@
-remote_theme: pmarsceill/just-the-docs
+theme: "just-the-docs"
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -17,8 +17,4 @@ author:
   twitter: DaniilGentili
   
 include: [".well-known"]
-
-plugins:
-  - jekyll-redirect-from
-
 repository: danog/madelineproto

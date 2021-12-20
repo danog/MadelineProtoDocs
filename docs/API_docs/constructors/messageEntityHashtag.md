@@ -1,6 +1,6 @@
 ---
-title: messageEntityHashtag
-description: **\#hashtag** message entity
+title: "messageEntityHashtag"
+description: "#hashtag message entity"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageEntityHashtag  

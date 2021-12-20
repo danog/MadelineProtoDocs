@@ -1,6 +1,6 @@
 ---
-title: account.themesNotModified
-description: No new themes were installed
+title: "account.themesNotModified"
+description: "No new themes were installed"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_themesNotModified.html
 ---

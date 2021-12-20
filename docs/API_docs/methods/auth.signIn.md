@@ -1,6 +1,6 @@
 ---
-title: auth.signIn
-description: Signs in a user with a validated phone number.
+title: "auth.signIn"
+description: "Signs in a user with a validated phone number."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_signIn.html
 ---

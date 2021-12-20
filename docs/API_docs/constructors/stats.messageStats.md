@@ -1,6 +1,6 @@
 ---
-title: stats.messageStats
-description: Message statistics
+title: "stats.messageStats"
+description: "Message statistics"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/stats_messageStats.html
 ---

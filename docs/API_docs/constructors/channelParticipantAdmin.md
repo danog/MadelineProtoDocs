@@ -1,6 +1,6 @@
 ---
-title: channelParticipantAdmin
-description: Admin
+title: "channelParticipantAdmin"
+description: "Admin"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantAdmin  

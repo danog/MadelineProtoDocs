@@ -1,6 +1,6 @@
 ---
-title: channelAdminLogEventActionChangeLocation
-description: The geogroup location was changed
+title: "channelAdminLogEventActionChangeLocation"
+description: "The geogroup location was changed"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionChangeLocation  

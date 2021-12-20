@@ -1,6 +1,6 @@
 ---
-title: sendMessageChooseContactAction
-description: User is selecting a contact to share.
+title: "sendMessageChooseContactAction"
+description: "User is selecting a contact to share."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageChooseContactAction  

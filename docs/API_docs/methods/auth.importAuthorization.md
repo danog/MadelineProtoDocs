@@ -1,6 +1,6 @@
 ---
-title: auth.importAuthorization
-description: Logs in a user using a key transmitted from his native data-centre.
+title: "auth.importAuthorization"
+description: "Logs in a user using a key transmitted from his native data-centre."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_importAuthorization.html
 ---

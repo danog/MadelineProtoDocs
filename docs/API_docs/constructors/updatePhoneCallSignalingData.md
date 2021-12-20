@@ -1,6 +1,6 @@
 ---
-title: updatePhoneCallSignalingData
-description: Incoming phone call signaling payload
+title: "updatePhoneCallSignalingData"
+description: "Incoming phone call signaling payload"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatePhoneCallSignalingData  

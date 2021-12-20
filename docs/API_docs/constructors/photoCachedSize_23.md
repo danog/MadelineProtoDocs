@@ -1,6 +1,6 @@
 ---
-title: photoCachedSize
-description: Description of an image and its content.
+title: "photoCachedSize"
+description: "Description of an image and its content."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: photoCachedSize\_23  

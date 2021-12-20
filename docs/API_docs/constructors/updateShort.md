@@ -1,6 +1,6 @@
 ---
-title: updateShort
-description: Shortened constructor containing info on one update not requiring auxiliary data
+title: "updateShort"
+description: "Shortened constructor containing info on one update not requiring auxiliary data"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateShort  

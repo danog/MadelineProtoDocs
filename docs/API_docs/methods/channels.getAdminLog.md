@@ -1,6 +1,6 @@
 ---
-title: channels.getAdminLog
-description: Get the admin log of a [channel/supergroup](https://core.telegram.org/api/channel)
+title: "channels.getAdminLog"
+description: "Get the admin log of a [channel/supergroup](https://core.telegram.org/api/channel)"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_getAdminLog.html
 ---

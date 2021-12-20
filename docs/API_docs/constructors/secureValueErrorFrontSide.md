@@ -1,6 +1,6 @@
 ---
-title: secureValueErrorFrontSide
-description: Represents an issue with the front side of a document. The error is considered resolved when the file with the front side of the document changes.
+title: "secureValueErrorFrontSide"
+description: "Represents an issue with the front side of a document. The error is considered resolved when the file with the front side of the document changes."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueErrorFrontSide  

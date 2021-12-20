@@ -1,6 +1,6 @@
 ---
-title: danog\MadelineProto\Files\Server: MadelineProto fileserver.
-description: 
+title: "danog\\MadelineProto\\Files\\Server: MadelineProto fileserver."
+description: ""
 
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---

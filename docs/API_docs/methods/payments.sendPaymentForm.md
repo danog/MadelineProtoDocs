@@ -1,6 +1,6 @@
 ---
-title: payments.sendPaymentForm
-description: Send compiled payment form
+title: "payments.sendPaymentForm"
+description: "Send compiled payment form"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/payments_sendPaymentForm.html
 ---

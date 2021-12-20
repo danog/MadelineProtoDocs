@@ -1,6 +1,6 @@
 ---
-title: chatInviteExported
-description: Exported chat invite
+title: "chatInviteExported"
+description: "Exported chat invite"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatInviteExported  

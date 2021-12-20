@@ -1,6 +1,6 @@
 ---
-title: danog\MadelineProto\Settings\Database\DatabaseAbstract: Base class for database backends.
-description: 
+title: "danog\\MadelineProto\\Settings\\Database\\DatabaseAbstract: Base class for database backends."
+description: ""
 
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---

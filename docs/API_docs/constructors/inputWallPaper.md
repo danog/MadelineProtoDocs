@@ -1,6 +1,6 @@
 ---
-title: inputWallPaper
-description: Wallpaper
+title: "inputWallPaper"
+description: "Wallpaper"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputWallPaper  

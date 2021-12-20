@@ -1,6 +1,6 @@
 ---
-title: updateDialogFilterOrder
-description: New [folder](https://core.telegram.org/api/folders) order
+title: "updateDialogFilterOrder"
+description: "New folder order"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateDialogFilterOrder  

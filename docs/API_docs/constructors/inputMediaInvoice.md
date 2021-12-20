@@ -1,6 +1,6 @@
 ---
-title: inputMediaInvoice
-description: Generated invoice of a [bot payment](https://core.telegram.org/bots/payments)
+title: "inputMediaInvoice"
+description: "Generated invoice of a bot payment"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaInvoice  

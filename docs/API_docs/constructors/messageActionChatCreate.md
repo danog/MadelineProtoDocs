@@ -1,6 +1,6 @@
 ---
-title: messageActionChatCreate
-description: Group created
+title: "messageActionChatCreate"
+description: "Group created"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChatCreate  

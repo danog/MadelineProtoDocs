@@ -1,6 +1,6 @@
 ---
-title: updateShortMessage
-description: Info about a message sent to (received from) another user
+title: "updateShortMessage"
+description: "Info about a message sent to (received from) another user"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateShortMessage  

@@ -1,6 +1,6 @@
 ---
-title: phone.discardCall
-description: Refuse or end running call
+title: "phone.discardCall"
+description: "Refuse or end running call"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/phone_discardCall.html
 ---

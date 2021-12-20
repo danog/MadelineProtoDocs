@@ -1,6 +1,6 @@
 ---
-title: messages.hidePeerSettingsBar
-description: Should be called after the user hides the report spam/add as contact bar of a new chat, effectively prevents the user from executing the actions specified in the [peer's settings](../constructors/peerSettings.md).
+title: "messages.hidePeerSettingsBar"
+description: "Should be called after the user hides the report spam/add as contact bar of a new chat, effectively prevents the user from executing the actions specified in the [peer's settings](../constructors/peerSettings.md)."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_hidePeerSettingsBar.html
 ---

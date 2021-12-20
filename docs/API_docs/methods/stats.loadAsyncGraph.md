@@ -1,6 +1,6 @@
 ---
-title: stats.loadAsyncGraph
-description: Load [channel statistics graph](https://core.telegram.org/api/stats) asynchronously
+title: "stats.loadAsyncGraph"
+description: "Load [channel statistics graph](https://core.telegram.org/api/stats) asynchronously"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/stats_loadAsyncGraph.html
 ---

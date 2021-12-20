@@ -1,6 +1,6 @@
 ---
-title: secureData
-description: Secure [passport](https://core.telegram.org/passport) data, for more info [see the passport docs »](https://core.telegram.org/passport/encryption#securedata)
+title: "secureData"
+description: "Secure passport data, for more info see the passport docs »"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureData  

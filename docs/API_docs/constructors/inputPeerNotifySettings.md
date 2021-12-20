@@ -1,6 +1,6 @@
 ---
-title: inputPeerNotifySettings
-description: Notification settings.
+title: "inputPeerNotifySettings"
+description: "Notification settings."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPeerNotifySettings  

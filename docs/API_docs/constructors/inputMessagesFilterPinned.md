@@ -1,6 +1,6 @@
 ---
-title: inputMessagesFilterPinned
-description: Fetch only pinned messages
+title: "inputMessagesFilterPinned"
+description: "Fetch only pinned messages"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterPinned  

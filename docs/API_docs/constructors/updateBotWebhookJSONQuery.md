@@ -1,6 +1,6 @@
 ---
-title: updateBotWebhookJSONQuery
-description: A new incoming query; for bots only
+title: "updateBotWebhookJSONQuery"
+description: "A new incoming query; for bots only"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotWebhookJSONQuery  

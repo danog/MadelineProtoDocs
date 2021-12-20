@@ -1,6 +1,6 @@
 ---
-title: channelMessagesFilter
-description: Filter for getting only certain types of channel messages
+title: "channelMessagesFilter"
+description: "Filter for getting only certain types of channel messages"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelMessagesFilter  

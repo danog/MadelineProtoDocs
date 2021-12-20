@@ -1,6 +1,6 @@
 ---
-title: updateNewStickerSet
-description: A new stickerset was installed
+title: "updateNewStickerSet"
+description: "A new stickerset was installed"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateNewStickerSet  

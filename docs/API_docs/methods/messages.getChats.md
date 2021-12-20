@@ -1,6 +1,6 @@
 ---
-title: messages.getChats
-description: Returns chat basic info on their IDs.
+title: "messages.getChats"
+description: "Returns chat basic info on their IDs."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getChats.html
 ---

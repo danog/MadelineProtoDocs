@@ -1,6 +1,6 @@
 ---
-title: messageMediaGeo
-description: Attached map.
+title: "messageMediaGeo"
+description: "Attached map."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaGeo  

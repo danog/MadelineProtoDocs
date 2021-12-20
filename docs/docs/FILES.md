@@ -1,6 +1,6 @@
 ---
-title: Uploading and downloading files
-description: MadelineProto provides **fully parallelized** wrapper methods to upload and download files that support bot API file ids, direct upload by URL and file renaming.
+title: "Uploading and downloading files"
+description: "MadelineProto provides fully parallelized wrapper methods to upload and download files that support bot API file ids, direct upload by URL and file renaming."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Uploading and downloading files

@@ -1,6 +1,6 @@
 ---
-title: inputMediaDocument
-description: Forwarded document
+title: "inputMediaDocument"
+description: "Forwarded document"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaDocument  

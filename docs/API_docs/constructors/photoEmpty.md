@@ -1,6 +1,6 @@
 ---
-title: photoEmpty
-description: Empty constructor, non-existent photo
+title: "photoEmpty"
+description: "Empty constructor, non-existent photo"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: photoEmpty  

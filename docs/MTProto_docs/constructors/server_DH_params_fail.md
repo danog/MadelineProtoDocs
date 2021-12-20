@@ -1,6 +1,6 @@
 ---
-title: server_DH_params_fail
-description: server_DH_params_fail attributes, type and example
+title: "server_DH_params_fail"
+description: "server_DH_params_fail attributes, type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: server\_DH\_params\_fail  

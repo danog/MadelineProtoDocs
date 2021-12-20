@@ -1,6 +1,6 @@
 ---
-title: upload.webFile
-description: Represents a chunk of an [HTTP webfile](https://core.telegram.org/api/files) downloaded through telegram's secure MTProto servers
+title: "upload.webFile"
+description: "Represents a chunk of an HTTP webfile downloaded through telegram's secure MTProto servers"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/upload_webFile.html
 ---

@@ -1,6 +1,6 @@
 ---
-title: messages.allStickersNotModified
-description: Info about all installed stickers hasn't changed
+title: "messages.allStickersNotModified"
+description: "Info about all installed stickers hasn't changed"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_allStickersNotModified.html
 ---

@@ -1,6 +1,6 @@
 ---
-title: updateDeleteChannelMessages
-description: Some messages in a [supergroup/channel](https://core.telegram.org/api/channel) were deleted
+title: "updateDeleteChannelMessages"
+description: "Some messages in a supergroup/channel were deleted"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateDeleteChannelMessages  

@@ -1,6 +1,6 @@
 ---
-title: pageBlockDivider
-description: An empty block separating a page
+title: "pageBlockDivider"
+description: "An empty block separating a page"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockDivider  

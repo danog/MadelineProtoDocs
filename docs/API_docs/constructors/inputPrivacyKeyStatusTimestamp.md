@@ -1,6 +1,6 @@
 ---
-title: inputPrivacyKeyStatusTimestamp
-description: Whether we can see the exact last online timestamp of the user
+title: "inputPrivacyKeyStatusTimestamp"
+description: "Whether we can see the exact last online timestamp of the user"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPrivacyKeyStatusTimestamp  

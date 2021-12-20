@@ -1,6 +1,6 @@
 ---
-title: danog/madelineproto
-description: PHP implementation of telegram's MTProto protocol.
+title: "danog/madelineproto"
+description: "PHP implementation of telegram's MTProto protocol."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # `danog/madelineproto`

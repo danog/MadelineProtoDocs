@@ -1,6 +1,6 @@
 ---
-title: updateChatParticipantAdmin
-description: Admin permissions of a user in a [legacy group](https://core.telegram.org/api/channel) were changed
+title: "updateChatParticipantAdmin"
+description: "Admin permissions of a user in a legacy group were changed"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChatParticipantAdmin  

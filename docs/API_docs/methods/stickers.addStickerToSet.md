@@ -1,6 +1,6 @@
 ---
-title: stickers.addStickerToSet
-description: Add a sticker to a stickerset, bots only. The sticker set must have been created by the bot.
+title: "stickers.addStickerToSet"
+description: "Add a sticker to a stickerset, bots only. The sticker set must have been created by the bot."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/stickers_addStickerToSet.html
 ---

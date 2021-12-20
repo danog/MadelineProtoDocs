@@ -1,6 +1,6 @@
 ---
-title: topPeerCategoryChannels
-description: Most frequently visited channels
+title: "topPeerCategoryChannels"
+description: "Most frequently visited channels"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: topPeerCategoryChannels  

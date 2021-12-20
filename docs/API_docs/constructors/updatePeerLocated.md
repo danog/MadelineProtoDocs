@@ -1,6 +1,6 @@
 ---
-title: updatePeerLocated
-description: List of peers near you was updated
+title: "updatePeerLocated"
+description: "List of peers near you was updated"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatePeerLocated  

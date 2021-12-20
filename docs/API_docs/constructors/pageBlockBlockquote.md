@@ -1,6 +1,6 @@
 ---
-title: pageBlockBlockquote
-description: Quote (equivalent to the HTML `<blockquote>`)
+title: "pageBlockBlockquote"
+description: "Quote (equivalent to the HTML <blockquote>)"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockBlockquote  

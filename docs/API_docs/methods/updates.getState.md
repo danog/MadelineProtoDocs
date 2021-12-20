@@ -1,6 +1,6 @@
 ---
-title: updates.getState
-description: Returns a current state of updates.
+title: "updates.getState"
+description: "Returns a current state of updates."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/updates_getState.html
 ---

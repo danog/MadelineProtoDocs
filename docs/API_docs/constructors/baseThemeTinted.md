@@ -1,6 +1,6 @@
 ---
-title: baseThemeTinted
-description: Tinted theme
+title: "baseThemeTinted"
+description: "Tinted theme"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: baseThemeTinted  

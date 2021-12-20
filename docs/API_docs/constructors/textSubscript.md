@@ -1,6 +1,6 @@
 ---
-title: textSubscript
-description: Subscript text
+title: "textSubscript"
+description: "Subscript text"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textSubscript  

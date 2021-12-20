@@ -1,6 +1,6 @@
 ---
-title: upload.saveFilePart
-description: Saves a part of file for futher sending to one of the methods.
+title: "upload.saveFilePart"
+description: "Saves a part of file for futher sending to one of the methods."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/upload_saveFilePart.html
 ---

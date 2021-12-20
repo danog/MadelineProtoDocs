@@ -1,6 +1,6 @@
 ---
-title: inputStickerSetID
-description: Stickerset by ID
+title: "inputStickerSetID"
+description: "Stickerset by ID"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputStickerSetID  

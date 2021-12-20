@@ -1,6 +1,6 @@
 ---
-title: inputMediaDice
-description: Send a [dice-based animated sticker](https://core.telegram.org/api/dice)
+title: "inputMediaDice"
+description: "Send a dice-based animated sticker"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaDice  

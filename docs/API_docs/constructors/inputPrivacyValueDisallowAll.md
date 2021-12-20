@@ -1,6 +1,6 @@
 ---
-title: inputPrivacyValueDisallowAll
-description: Disallow all
+title: "inputPrivacyValueDisallowAll"
+description: "Disallow all"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPrivacyValueDisallowAll  

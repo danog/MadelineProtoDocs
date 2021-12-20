@@ -1,6 +1,6 @@
 ---
-title: decryptedMessageLayer
-description: Sets the layer number for the contents of an encrypted message.
+title: "decryptedMessageLayer"
+description: "Sets the layer number for the contents of an encrypted message."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageLayer\_17  

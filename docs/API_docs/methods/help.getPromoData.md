@@ -1,6 +1,6 @@
 ---
-title: help.getPromoData
-description: Get MTProxy/Public Service Announcement information
+title: "help.getPromoData"
+description: "Get MTProxy/Public Service Announcement information"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getPromoData.html
 ---

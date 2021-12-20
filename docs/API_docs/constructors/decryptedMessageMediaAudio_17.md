@@ -1,6 +1,6 @@
 ---
-title: decryptedMessageMediaAudio
-description: Audio file attached to a secret chat message.
+title: "decryptedMessageMediaAudio"
+description: "Audio file attached to a secret chat message."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaAudio\_17  

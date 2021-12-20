@@ -1,6 +1,6 @@
 ---
-title: messageMediaPhoto
-description: Attached photo.
+title: "messageMediaPhoto"
+description: "Attached photo."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaPhoto  

@@ -1,6 +1,6 @@
 ---
-title: updateReadHistoryOutbox
-description: Outgoing messages were read
+title: "updateReadHistoryOutbox"
+description: "Outgoing messages were read"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateReadHistoryOutbox  

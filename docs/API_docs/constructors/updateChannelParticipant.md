@@ -1,6 +1,6 @@
 ---
-title: updateChannelParticipant
-description: A participant has left, joined, was banned or admined in a [channel or supergroup](https://core.telegram.org/api/channel).
+title: "updateChannelParticipant"
+description: "A participant has left, joined, was banned or admined in a channel or supergroup."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelParticipant  

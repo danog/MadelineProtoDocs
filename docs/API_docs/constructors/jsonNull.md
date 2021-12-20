@@ -1,6 +1,6 @@
 ---
-title: jsonNull
-description: null JSON value
+title: "jsonNull"
+description: "null JSON value"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: jsonNull  

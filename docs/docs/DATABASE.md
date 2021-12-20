@@ -1,6 +1,6 @@
 ---
-title: Database
-description: By default madelineProto keeps all data and caches in memory: chats, file references, username cache, etc.  
+title: "Database"
+description: "By default madelineProto keeps all data and caches in memory: chats, file references, username cache, etc.  "
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Database

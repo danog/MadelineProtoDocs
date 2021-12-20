@@ -1,6 +1,6 @@
 ---
-title: channelAdminLogEventActionChangeUsername
-description: Channel/supergroup username was changed
+title: "channelAdminLogEventActionChangeUsername"
+description: "Channel/supergroup username was changed"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionChangeUsername  

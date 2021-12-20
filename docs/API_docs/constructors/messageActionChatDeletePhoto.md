@@ -1,6 +1,6 @@
 ---
-title: messageActionChatDeletePhoto
-description: Group profile photo removed.
+title: "messageActionChatDeletePhoto"
+description: "Group profile photo removed."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChatDeletePhoto  

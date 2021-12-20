@@ -1,6 +1,6 @@
 ---
-title: rsa_public_key
-description: rsa_public_key attributes, type and example
+title: "rsa_public_key"
+description: "rsa_public_key attributes, type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: rsa\_public\_key  

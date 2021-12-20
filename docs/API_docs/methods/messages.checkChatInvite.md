@@ -1,6 +1,6 @@
 ---
-title: messages.checkChatInvite
-description: Check the validity of a chat invite link and get basic info about it
+title: "messages.checkChatInvite"
+description: "Check the validity of a chat invite link and get basic info about it"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_checkChatInvite.html
 ---

@@ -1,6 +1,6 @@
 ---
-title: securePasswordKdfAlgoUnknown
-description: Unknown KDF algo (most likely the client has to be updated)
+title: "securePasswordKdfAlgoUnknown"
+description: "Unknown KDF algo (most likely the client has to be updated)"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: securePasswordKdfAlgoUnknown  

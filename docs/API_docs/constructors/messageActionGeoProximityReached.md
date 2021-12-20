@@ -1,6 +1,6 @@
 ---
-title: messageActionGeoProximityReached
-description: A user of the chat is now in proximity of another user
+title: "messageActionGeoProximityReached"
+description: "A user of the chat is now in proximity of another user"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionGeoProximityReached  

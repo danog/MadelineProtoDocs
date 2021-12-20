@@ -1,6 +1,6 @@
 ---
-title: userEmpty
-description: Empty constructor, non-existent user.
+title: "userEmpty"
+description: "Empty constructor, non-existent user."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userEmpty  

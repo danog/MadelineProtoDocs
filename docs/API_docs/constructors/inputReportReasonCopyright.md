@@ -1,6 +1,6 @@
 ---
-title: inputReportReasonCopyright
-description: Report for copyrighted content
+title: "inputReportReasonCopyright"
+description: "Report for copyrighted content"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputReportReasonCopyright  

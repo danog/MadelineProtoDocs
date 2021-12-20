@@ -1,6 +1,6 @@
 ---
-title: statsPercentValue
-description: [Channel statistics percentage](https://core.telegram.org/api/stats).  
+title: "statsPercentValue"
+description: "Channel statistics percentage.  "
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: statsPercentValue  

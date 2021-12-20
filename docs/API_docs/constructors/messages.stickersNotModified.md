@@ -1,6 +1,6 @@
 ---
-title: messages.stickersNotModified
-description: No new stickers were found for the given query
+title: "messages.stickersNotModified"
+description: "No new stickers were found for the given query"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_stickersNotModified.html
 ---

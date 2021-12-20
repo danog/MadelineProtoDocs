@@ -1,6 +1,6 @@
 ---
-title: channelAdminLogEventActionToggleSignatures
-description: Channel signatures were enabled/disabled
+title: "channelAdminLogEventActionToggleSignatures"
+description: "Channel signatures were enabled/disabled"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionToggleSignatures  

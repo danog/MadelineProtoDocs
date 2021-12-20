@@ -1,6 +1,6 @@
 ---
-title: messages.hideAllChatJoinRequests
-description: messages.hideAllChatJoinRequests parameters, return type and example
+title: "messages.hideAllChatJoinRequests"
+description: "messages.hideAllChatJoinRequests parameters, return type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_hideAllChatJoinRequests.html
 ---

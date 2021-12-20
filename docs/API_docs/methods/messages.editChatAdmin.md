@@ -1,6 +1,6 @@
 ---
-title: messages.editChatAdmin
-description: Make a user admin in a [legacy group](https://core.telegram.org/api/channel).
+title: "messages.editChatAdmin"
+description: "Make a user admin in a [legacy group](https://core.telegram.org/api/channel)."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_editChatAdmin.html
 ---

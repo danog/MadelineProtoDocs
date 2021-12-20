@@ -1,6 +1,6 @@
 ---
-title: channelParticipantsKicked
-description: Fetch only kicked participants
+title: "channelParticipantsKicked"
+description: "Fetch only kicked participants"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantsKicked  

@@ -1,6 +1,6 @@
 ---
-title: channelAdminLogEventActionTogglePreHistoryHidden
-description: The hidden prehistory setting was [changed](../methods/channels.togglePreHistoryHidden.md)
+title: "channelAdminLogEventActionTogglePreHistoryHidden"
+description: "The hidden prehistory setting was changed"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionTogglePreHistoryHidden  

@@ -1,6 +1,6 @@
 ---
-title: baseThemeNight
-description: Night theme
+title: "baseThemeNight"
+description: "Night theme"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: baseThemeNight  

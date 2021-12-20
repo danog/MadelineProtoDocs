@@ -1,6 +1,6 @@
 ---
-title: payments.validateRequestedInfo
-description: Submit requested order information for validation
+title: "payments.validateRequestedInfo"
+description: "Submit requested order information for validation"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/payments_validateRequestedInfo.html
 ---

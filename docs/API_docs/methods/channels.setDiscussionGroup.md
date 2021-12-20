@@ -1,6 +1,6 @@
 ---
-title: channels.setDiscussionGroup
-description: Associate a group to a channel as [discussion group](https://core.telegram.org/api/discussion) for that channel
+title: "channels.setDiscussionGroup"
+description: "Associate a group to a channel as [discussion group](https://core.telegram.org/api/discussion) for that channel"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_setDiscussionGroup.html
 ---

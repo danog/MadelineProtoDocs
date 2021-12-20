@@ -1,6 +1,6 @@
 ---
-title: decryptedMessageActionRequestKey
-description: Request rekeying, see [rekeying process](https://core.telegram.org/api/end-to-end/pfs)
+title: "decryptedMessageActionRequestKey"
+description: "Request rekeying, see rekeying process"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionRequestKey\_20  

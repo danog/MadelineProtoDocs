@@ -1,6 +1,6 @@
 ---
-title: nearestDc
-description: Nearest data centre, according to geo-ip.
+title: "nearestDc"
+description: "Nearest data centre, according to geo-ip."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: nearestDc  

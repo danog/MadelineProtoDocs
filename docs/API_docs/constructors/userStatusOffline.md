@@ -1,6 +1,6 @@
 ---
-title: userStatusOffline
-description: The user's offline status.
+title: "userStatusOffline"
+description: "The user's offline status."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userStatusOffline  

@@ -1,6 +1,6 @@
 ---
-title: statsGraphAsync
-description: This [channel statistics graph](https://core.telegram.org/api/stats) must be generated asynchronously using [stats.loadAsyncGraph](../methods/stats.loadAsyncGraph.md) to reduce server load
+title: "statsGraphAsync"
+description: "This channel statistics graph must be generated asynchronously using stats.loadAsyncGraph to reduce server load"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: statsGraphAsync  

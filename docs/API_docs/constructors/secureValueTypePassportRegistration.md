@@ -1,6 +1,6 @@
 ---
-title: secureValueTypePassportRegistration
-description: Internal registration [passport](https://core.telegram.org/passport)
+title: "secureValueTypePassportRegistration"
+description: "Internal registration passport"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueTypePassportRegistration  

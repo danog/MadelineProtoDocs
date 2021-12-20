@@ -1,6 +1,6 @@
 ---
-title: messageActionChatDeleteUser
-description: User left the group.
+title: "messageActionChatDeleteUser"
+description: "User left the group."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChatDeleteUser  

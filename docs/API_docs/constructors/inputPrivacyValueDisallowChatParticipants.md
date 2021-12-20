@@ -1,6 +1,6 @@
 ---
-title: inputPrivacyValueDisallowChatParticipants
-description: Disallow only participants of certain chats
+title: "inputPrivacyValueDisallowChatParticipants"
+description: "Disallow only participants of certain chats"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPrivacyValueDisallowChatParticipants  

@@ -1,6 +1,6 @@
 ---
-title: encryptedChatDiscarded
-description: Discarded or deleted chat.
+title: "encryptedChatDiscarded"
+description: "Discarded or deleted chat."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: encryptedChatDiscarded  

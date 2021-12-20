@@ -1,6 +1,6 @@
 ---
-title: channels.editLocation
-description: Edit location of geogroup
+title: "channels.editLocation"
+description: "Edit location of geogroup"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_editLocation.html
 ---

@@ -1,6 +1,6 @@
 ---
-title: channelParticipantsContacts
-description: Fetch only participants that are also contacts
+title: "channelParticipantsContacts"
+description: "Fetch only participants that are also contacts"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantsContacts  

@@ -1,6 +1,6 @@
 ---
-title: updateDialogPinned
-description: A dialog was pinned/unpinned
+title: "updateDialogPinned"
+description: "A dialog was pinned/unpinned"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateDialogPinned  

@@ -1,6 +1,6 @@
 ---
-title: channelFull
-description: Full info about a [channel/supergroup](https://core.telegram.org/api/channel)
+title: "channelFull"
+description: "Full info about a channel/supergroup"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelFull  

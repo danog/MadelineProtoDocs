@@ -1,6 +1,6 @@
 ---
-title: messages.sendMultiMedia
-description: Send an [album or grouped media](https://core.telegram.org/api/files#albums-grouped-media)
+title: "messages.sendMultiMedia"
+description: "Send an [album or grouped media](https://core.telegram.org/api/files#albums-grouped-media)"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_sendMultiMedia.html
 ---

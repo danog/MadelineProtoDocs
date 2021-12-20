@@ -1,6 +1,6 @@
 ---
-title: contacts.resolveUsername
-description: Resolve a @username to get peer info
+title: "contacts.resolveUsername"
+description: "Resolve a @username to get peer info"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_resolveUsername.html
 ---

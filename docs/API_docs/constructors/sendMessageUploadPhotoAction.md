@@ -1,6 +1,6 @@
 ---
-title: sendMessageUploadPhotoAction
-description: User is uploading a photo.
+title: "sendMessageUploadPhotoAction"
+description: "User is uploading a photo."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageUploadPhotoAction  

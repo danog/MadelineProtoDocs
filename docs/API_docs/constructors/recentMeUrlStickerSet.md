@@ -1,6 +1,6 @@
 ---
-title: recentMeUrlStickerSet
-description: Recent t.me stickerset installation URL
+title: "recentMeUrlStickerSet"
+description: "Recent t.me stickerset installation URL"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: recentMeUrlStickerSet  

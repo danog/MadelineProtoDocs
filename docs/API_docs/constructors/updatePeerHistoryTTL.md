@@ -1,6 +1,6 @@
 ---
-title: updatePeerHistoryTTL
-description: updatePeerHistoryTTL attributes, type and example
+title: "updatePeerHistoryTTL"
+description: "updatePeerHistoryTTL attributes, type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatePeerHistoryTTL  

@@ -1,6 +1,6 @@
 ---
-title: channelAdminLogEventActionChangeAbout
-description: The description was changed
+title: "channelAdminLogEventActionChangeAbout"
+description: "The description was changed"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionChangeAbout  

@@ -1,6 +1,6 @@
 ---
-title: botInlineResult
-description: Generic result
+title: "botInlineResult"
+description: "Generic result"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: botInlineResult  

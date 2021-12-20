@@ -1,6 +1,6 @@
 ---
-title: messages.readFeaturedStickers
-description: Mark new featured stickers as read
+title: "messages.readFeaturedStickers"
+description: "Mark new featured stickers as read"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_readFeaturedStickers.html
 ---

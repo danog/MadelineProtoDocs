@@ -1,6 +1,6 @@
 ---
-title: account.resetPasswordRequestedWait
-description: account.resetPasswordRequestedWait attributes, type and example
+title: "account.resetPasswordRequestedWait"
+description: "account.resetPasswordRequestedWait attributes, type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_resetPasswordRequestedWait.html
 ---

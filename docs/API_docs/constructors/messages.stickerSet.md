@@ -1,6 +1,6 @@
 ---
-title: messages.stickerSet
-description: Stickerset and stickers inside it
+title: "messages.stickerSet"
+description: "Stickerset and stickers inside it"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_stickerSet.html
 ---

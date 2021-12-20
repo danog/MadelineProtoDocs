@@ -1,6 +1,6 @@
 ---
-title: authorization
-description: Logged-in session
+title: "authorization"
+description: "Logged-in session"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: authorization  

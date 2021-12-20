@@ -1,6 +1,6 @@
 ---
-title: documentAttributeAudio
-description: Represents an audio file
+title: "documentAttributeAudio"
+description: "Represents an audio file"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: documentAttributeAudio  

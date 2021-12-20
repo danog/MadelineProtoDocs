@@ -1,6 +1,6 @@
 ---
-title: wallPaperSettings
-description: Wallpaper settings
+title: "wallPaperSettings"
+description: "Wallpaper settings"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: wallPaperSettings  

@@ -1,6 +1,6 @@
 ---
-title: messageReplyHeader
-description: Message replies and [thread](https://core.telegram.org/api/threads) information
+title: "messageReplyHeader"
+description: "Message replies and thread information"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageReplyHeader  

@@ -1,6 +1,6 @@
 ---
-title: danog\MadelineProto\Exception: Basic exception.
-description: 
+title: "danog\\MadelineProto\\Exception: Basic exception."
+description: ""
 
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---

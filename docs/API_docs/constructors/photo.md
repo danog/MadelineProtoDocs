@@ -1,6 +1,6 @@
 ---
-title: photo
-description: Photo
+title: "photo"
+description: "Photo"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: photo  

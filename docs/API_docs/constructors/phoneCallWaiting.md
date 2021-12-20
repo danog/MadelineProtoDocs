@@ -1,6 +1,6 @@
 ---
-title: phoneCallWaiting
-description: Incoming phone call
+title: "phoneCallWaiting"
+description: "Incoming phone call"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneCallWaiting  

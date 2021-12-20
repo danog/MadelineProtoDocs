@@ -1,6 +1,6 @@
 ---
-title: stats.getMegagroupStats
-description: Get [supergroup statistics](https://core.telegram.org/api/stats)
+title: "stats.getMegagroupStats"
+description: "Get [supergroup statistics](https://core.telegram.org/api/stats)"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/stats_getMegagroupStats.html
 ---

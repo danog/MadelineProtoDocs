@@ -1,6 +1,6 @@
 ---
-title: inputPrivacyValueAllowContacts
-description: Allow only contacts
+title: "inputPrivacyValueAllowContacts"
+description: "Allow only contacts"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPrivacyValueAllowContacts  

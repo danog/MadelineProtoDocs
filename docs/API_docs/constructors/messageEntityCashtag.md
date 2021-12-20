@@ -1,6 +1,6 @@
 ---
-title: messageEntityCashtag
-description: Message entity representing a **$cashtag**.
+title: "messageEntityCashtag"
+description: "Message entity representing a $cashtag."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageEntityCashtag  

@@ -1,6 +1,6 @@
 ---
-title: messages.reportSpam
-description: Report a new incoming chat for spam, if the [peer settings](../constructors/peerSettings.md) of the chat allow us to do that
+title: "messages.reportSpam"
+description: "Report a new incoming chat for spam, if the [peer settings](../constructors/peerSettings.md) of the chat allow us to do that"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_reportSpam.html
 ---

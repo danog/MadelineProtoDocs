@@ -1,6 +1,6 @@
 ---
-title: documentAttributeSticker
-description: Defines a sticker
+title: "documentAttributeSticker"
+description: "Defines a sticker"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: documentAttributeSticker\_55  

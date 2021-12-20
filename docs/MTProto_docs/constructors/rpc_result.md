@@ -1,6 +1,6 @@
 ---
-title: rpc_result
-description: rpc_result attributes, type and example
+title: "rpc_result"
+description: "rpc_result attributes, type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: rpc\_result  

@@ -1,6 +1,6 @@
 ---
-title: auth.checkPassword
-description: Try logging to an account protected by a [2FA password](https://core.telegram.org/api/srp).
+title: "auth.checkPassword"
+description: "Try logging to an account protected by a [2FA password](https://core.telegram.org/api/srp)."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_checkPassword.html
 ---

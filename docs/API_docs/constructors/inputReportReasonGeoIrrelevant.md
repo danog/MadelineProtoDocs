@@ -1,6 +1,6 @@
 ---
-title: inputReportReasonGeoIrrelevant
-description: Report an irrelevant geogroup
+title: "inputReportReasonGeoIrrelevant"
+description: "Report an irrelevant geogroup"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputReportReasonGeoIrrelevant  

@@ -1,6 +1,6 @@
 ---
-title: highScore
-description: Game highscore
+title: "highScore"
+description: "Game highscore"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: highScore  

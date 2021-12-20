@@ -1,6 +1,6 @@
 ---
-title: globalPrivacySettings
-description: Global privacy settings
+title: "globalPrivacySettings"
+description: "Global privacy settings"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: globalPrivacySettings  

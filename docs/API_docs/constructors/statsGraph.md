@@ -1,6 +1,6 @@
 ---
-title: statsGraph
-description: [Channel statistics graph](https://core.telegram.org/api/stats)
+title: "statsGraph"
+description: "Channel statistics graph"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: statsGraph  

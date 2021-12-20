@@ -1,6 +1,6 @@
 ---
-title: messageMediaGeoLive
-description: Indicates a [live geolocation](https://core.telegram.org/api/live-location)
+title: "messageMediaGeoLive"
+description: "Indicates a live geolocation"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaGeoLive  

@@ -1,6 +1,6 @@
 ---
-title: ping_delay_disconnect
-description: ping_delay_disconnect parameters, return type and example
+title: "ping_delay_disconnect"
+description: "ping_delay_disconnect parameters, return type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: ping\_delay\_disconnect

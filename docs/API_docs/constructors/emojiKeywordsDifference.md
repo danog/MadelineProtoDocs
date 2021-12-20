@@ -1,6 +1,6 @@
 ---
-title: emojiKeywordsDifference
-description: Changes to emoji keywords
+title: "emojiKeywordsDifference"
+description: "Changes to emoji keywords"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: emojiKeywordsDifference  

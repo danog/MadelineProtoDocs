@@ -1,6 +1,6 @@
 ---
-title: themeSettings
-description: Theme settings
+title: "themeSettings"
+description: "Theme settings"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: themeSettings  

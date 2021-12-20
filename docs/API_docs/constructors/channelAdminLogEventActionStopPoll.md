@@ -1,6 +1,6 @@
 ---
-title: channelAdminLogEventActionStopPoll
-description: A poll was stopped
+title: "channelAdminLogEventActionStopPoll"
+description: "A poll was stopped"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionStopPoll  

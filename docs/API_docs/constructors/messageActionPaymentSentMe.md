@@ -1,6 +1,6 @@
 ---
-title: messageActionPaymentSentMe
-description: A user just sent a payment to me (a bot)
+title: "messageActionPaymentSentMe"
+description: "A user just sent a payment to me (a bot)"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionPaymentSentMe  

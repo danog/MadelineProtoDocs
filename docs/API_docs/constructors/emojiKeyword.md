@@ -1,6 +1,6 @@
 ---
-title: emojiKeyword
-description: Emoji keyword
+title: "emojiKeyword"
+description: "Emoji keyword"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: emojiKeyword  

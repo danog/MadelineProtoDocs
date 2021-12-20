@@ -1,6 +1,6 @@
 ---
-title: upload.getCdnFileHashes
-description: Get SHA256 hashes for verifying downloaded [CDN](https://core.telegram.org/cdn) files
+title: "upload.getCdnFileHashes"
+description: "Get SHA256 hashes for verifying downloaded [CDN](https://core.telegram.org/cdn) files"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/upload_getCdnFileHashes.html
 ---

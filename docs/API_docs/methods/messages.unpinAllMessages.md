@@ -1,6 +1,6 @@
 ---
-title: messages.unpinAllMessages
-description: [Unpin](https://core.telegram.org/api/pin) all pinned messages
+title: "messages.unpinAllMessages"
+description: "[Unpin](https://core.telegram.org/api/pin) all pinned messages"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_unpinAllMessages.html
 ---

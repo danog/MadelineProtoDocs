@@ -1,6 +1,6 @@
 ---
-title: messages.sendEncrypted
-description: Sends a text message to a secret chat.
+title: "messages.sendEncrypted"
+description: "Sends a text message to a secret chat."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_sendEncrypted.html
 ---

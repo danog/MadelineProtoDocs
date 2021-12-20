@@ -1,6 +1,6 @@
 ---
-title: securePasswordKdfAlgoPBKDF2HMACSHA512iter100000
-description: PBKDF2 with SHA512 and 100000 iterations KDF algo
+title: "securePasswordKdfAlgoPBKDF2HMACSHA512iter100000"
+description: "PBKDF2 with SHA512 and 100000 iterations KDF algo"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: securePasswordKdfAlgoPBKDF2HMACSHA512iter100000  

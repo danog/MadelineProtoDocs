@@ -1,6 +1,6 @@
 ---
-title: auth.resetAuthorizations
-description: Terminates all user's authorized sessions except for the current one.
+title: "auth.resetAuthorizations"
+description: "Terminates all user's authorized sessions except for the current one."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_resetAuthorizations.html
 ---

@@ -1,6 +1,6 @@
 ---
-title: danog\MadelineProto\Settings\Files: File management settings.
-description: 
+title: "danog\\MadelineProto\\Settings\\Files: File management settings."
+description: ""
 
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---

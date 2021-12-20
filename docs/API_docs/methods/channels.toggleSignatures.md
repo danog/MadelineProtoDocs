@@ -1,6 +1,6 @@
 ---
-title: channels.toggleSignatures
-description: Enable/disable message signatures in channels
+title: "channels.toggleSignatures"
+description: "Enable/disable message signatures in channels"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_toggleSignatures.html
 ---

@@ -1,6 +1,6 @@
 ---
-title: pageRelatedArticle
-description: Related article
+title: "pageRelatedArticle"
+description: "Related article"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageRelatedArticle  

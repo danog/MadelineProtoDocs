@@ -1,6 +1,6 @@
 ---
-title: set_client_DH_params
-description: set_client_DH_params parameters, return type and example
+title: "set_client_DH_params"
+description: "set_client_DH_params parameters, return type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: set\_client\_DH\_params

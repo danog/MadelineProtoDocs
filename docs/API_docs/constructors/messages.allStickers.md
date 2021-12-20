@@ -1,6 +1,6 @@
 ---
-title: messages.allStickers
-description: Info about all installed stickers
+title: "messages.allStickers"
+description: "Info about all installed stickers"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_allStickers.html
 ---

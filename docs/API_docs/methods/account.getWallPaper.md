@@ -1,6 +1,6 @@
 ---
-title: account.getWallPaper
-description: Get info about a certain wallpaper
+title: "account.getWallPaper"
+description: "Get info about a certain wallpaper"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getWallPaper.html
 ---

@@ -1,6 +1,6 @@
 ---
-title: updateGeoLiveViewed
-description: Live geoposition message was viewed
+title: "updateGeoLiveViewed"
+description: "Live geoposition message was viewed"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateGeoLiveViewed  

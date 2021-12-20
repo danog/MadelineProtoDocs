@@ -1,6 +1,6 @@
 ---
-title: stickers.setStickerSetThumb
-description: Set stickerset thumbnail
+title: "stickers.setStickerSetThumb"
+description: "Set stickerset thumbnail"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/stickers_setStickerSetThumb.html
 ---

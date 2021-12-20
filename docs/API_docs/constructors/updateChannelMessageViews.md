@@ -1,6 +1,6 @@
 ---
-title: updateChannelMessageViews
-description: The view counter of a message in a channel has changed
+title: "updateChannelMessageViews"
+description: "The view counter of a message in a channel has changed"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelMessageViews  

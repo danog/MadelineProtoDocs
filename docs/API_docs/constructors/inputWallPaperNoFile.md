@@ -1,6 +1,6 @@
 ---
-title: inputWallPaperNoFile
-description: Wallpaper with no file
+title: "inputWallPaperNoFile"
+description: "Wallpaper with no file"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputWallPaperNoFile  

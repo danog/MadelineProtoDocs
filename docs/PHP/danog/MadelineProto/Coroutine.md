@@ -1,8 +1,6 @@
 ---
-title: danog\MadelineProto\Coroutine: Creates a promise from a generator function yielding promises.
-description: When a promise is yielded, execution of the generator is interrupted until the promise is resolved. A success
-value is sent into the generator, while a failure reason is thrown into the generator. Using a coroutine,
-asynchronous code can be written without callbacks and be structured like synchronous code.
+title: "danog\\MadelineProto\\Coroutine: Creates a promise from a generator function yielding promises."
+description: "When a promise is yielded, execution of the generator is interrupted until the promise is resolved. A success\nvalue is sent into the generator, while a failure reason is thrown into the generator. Using a coroutine,\nasynchronous code can be written without callbacks and be structured like synchronous code."
 
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---

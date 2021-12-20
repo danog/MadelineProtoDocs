@@ -1,6 +1,6 @@
 ---
-title: account.getWallPapers
-description: Returns a list of available wallpapers.
+title: "account.getWallPapers"
+description: "Returns a list of available wallpapers."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getWallPapers.html
 ---

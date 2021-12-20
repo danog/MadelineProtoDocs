@@ -1,6 +1,6 @@
 ---
-title: inputMessageReplyTo
-description: Message to which the specified message replies to
+title: "inputMessageReplyTo"
+description: "Message to which the specified message replies to"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessageReplyTo  

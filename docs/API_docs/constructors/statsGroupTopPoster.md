@@ -1,6 +1,6 @@
 ---
-title: statsGroupTopPoster
-description: Information about an active user in a supergroup
+title: "statsGroupTopPoster"
+description: "Information about an active user in a supergroup"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: statsGroupTopPoster  

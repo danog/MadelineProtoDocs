@@ -1,6 +1,6 @@
 ---
-title: inputMessagesFilterContacts
-description: Return only messages containing contacts
+title: "inputMessagesFilterContacts"
+description: "Return only messages containing contacts"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterContacts  

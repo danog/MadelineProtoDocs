@@ -1,6 +1,6 @@
 ---
-title: chatInviteAlready
-description: The user has already joined this chat
+title: "chatInviteAlready"
+description: "The user has already joined this chat"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatInviteAlready  

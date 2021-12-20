@@ -1,6 +1,6 @@
 ---
-title: exportedMessageLink
-description: Link to a message in a supergroup/channel
+title: "exportedMessageLink"
+description: "Link to a message in a supergroup/channel"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: exportedMessageLink  

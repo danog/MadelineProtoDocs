@@ -1,6 +1,6 @@
 ---
-title: Installation
-description: There are various ways to install MadelineProto:
+title: "Installation"
+description: "There are various ways to install MadelineProto:"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Installation

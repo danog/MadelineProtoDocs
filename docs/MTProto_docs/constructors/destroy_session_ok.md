@@ -1,6 +1,6 @@
 ---
-title: destroy_session_ok
-description: destroy_session_ok attributes, type and example
+title: "destroy_session_ok"
+description: "destroy_session_ok attributes, type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: destroy\_session\_ok  

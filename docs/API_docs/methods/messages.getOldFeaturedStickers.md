@@ -1,6 +1,6 @@
 ---
-title: messages.getOldFeaturedStickers
-description: Method for fetching previously featured stickers
+title: "messages.getOldFeaturedStickers"
+description: "Method for fetching previously featured stickers"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getOldFeaturedStickers.html
 ---

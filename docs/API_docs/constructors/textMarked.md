@@ -1,6 +1,6 @@
 ---
-title: textMarked
-description: Highlighted text
+title: "textMarked"
+description: "Highlighted text"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textMarked  

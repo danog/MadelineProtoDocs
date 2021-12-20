@@ -1,6 +1,6 @@
 ---
-title: client_DH_inner_data
-description: client_DH_inner_data attributes, type and example
+title: "client_DH_inner_data"
+description: "client_DH_inner_data attributes, type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: client\_DH\_inner\_data  

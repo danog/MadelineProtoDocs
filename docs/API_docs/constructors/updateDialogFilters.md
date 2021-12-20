@@ -1,6 +1,6 @@
 ---
-title: updateDialogFilters
-description: Clients should update [folder](https://core.telegram.org/api/folders) info
+title: "updateDialogFilters"
+description: "Clients should update folder info"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateDialogFilters  

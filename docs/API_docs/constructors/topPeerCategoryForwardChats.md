@@ -1,6 +1,6 @@
 ---
-title: topPeerCategoryForwardChats
-description: Chats to which the users often forwards messages to
+title: "topPeerCategoryForwardChats"
+description: "Chats to which the users often forwards messages to"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: topPeerCategoryForwardChats  

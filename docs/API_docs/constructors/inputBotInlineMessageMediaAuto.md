@@ -1,6 +1,6 @@
 ---
-title: inputBotInlineMessageMediaAuto
-description: A media
+title: "inputBotInlineMessageMediaAuto"
+description: "A media"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputBotInlineMessageMediaAuto  

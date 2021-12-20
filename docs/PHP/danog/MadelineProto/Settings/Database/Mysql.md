@@ -1,6 +1,6 @@
 ---
-title: danog\MadelineProto\Settings\Database\Mysql: MySQL backend settings.
-description: MariaDb 10.2+ or Mysql 5.6+ required.
+title: "danog\\MadelineProto\\Settings\\Database\\Mysql: MySQL backend settings."
+description: "MariaDb 10.2+ or Mysql 5.6+ required."
 
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---

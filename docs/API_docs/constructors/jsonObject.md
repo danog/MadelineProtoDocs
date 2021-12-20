@@ -1,6 +1,6 @@
 ---
-title: jsonObject
-description: JSON object value
+title: "jsonObject"
+description: "JSON object value"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: jsonObject  

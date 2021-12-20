@@ -1,6 +1,6 @@
 ---
-title: inputPhoneContact
-description: Phone contact. The `client_id` is just an arbitrary contact ID: it should be set, for example, to an incremental number when using [contacts.importContacts](../methods/contacts.importContacts.md), in order to retry importing only the contacts that weren't imported successfully.
+title: "inputPhoneContact"
+description: "Phone contact. The client_id is just an arbitrary contact ID: it should be set, for example, to an incremental number when using contacts.importContacts, in order to retry importing only the contacts that weren't imported successfully."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPhoneContact  

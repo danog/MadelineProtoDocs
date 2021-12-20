@@ -1,6 +1,6 @@
 ---
-title: auth.authorization
-description: Contains user authorization info.
+title: "auth.authorization"
+description: "Contains user authorization info."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/auth_authorization.html
 ---

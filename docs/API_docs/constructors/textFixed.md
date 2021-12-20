@@ -1,6 +1,6 @@
 ---
-title: textFixed
-description: `fixed-width` rich text
+title: "textFixed"
+description: "fixed-width rich text"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textFixed  

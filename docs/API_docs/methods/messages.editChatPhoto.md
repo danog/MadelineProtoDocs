@@ -1,6 +1,6 @@
 ---
-title: messages.editChatPhoto
-description: Changes chat photo and sends a service message on it
+title: "messages.editChatPhoto"
+description: "Changes chat photo and sends a service message on it"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_editChatPhoto.html
 ---

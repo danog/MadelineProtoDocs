@@ -1,6 +1,6 @@
 ---
-title: folder
-description: Folder
+title: "folder"
+description: "Folder"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: folder  

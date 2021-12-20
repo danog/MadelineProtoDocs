@@ -1,6 +1,6 @@
 ---
-title: messageViews
-description: View, forward counter + info about replies of a specific message
+title: "messageViews"
+description: "View, forward counter + info about replies of a specific message"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageViews  

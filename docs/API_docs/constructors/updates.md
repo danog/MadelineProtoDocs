@@ -1,6 +1,6 @@
 ---
-title: updates
-description: Full constructor of updates
+title: "updates"
+description: "Full constructor of updates"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updates  

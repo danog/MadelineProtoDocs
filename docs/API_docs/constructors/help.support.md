@@ -1,6 +1,6 @@
 ---
-title: help.support
-description: Info on support user.
+title: "help.support"
+description: "Info on support user."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_support.html
 ---

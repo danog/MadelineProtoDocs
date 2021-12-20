@@ -1,6 +1,6 @@
 ---
-title: pageBlockTable
-description: Table
+title: "pageBlockTable"
+description: "Table"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockTable  

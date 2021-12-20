@@ -1,6 +1,6 @@
 ---
-title: messages.checkedHistoryImportPeer
-description: messages.checkedHistoryImportPeer attributes, type and example
+title: "messages.checkedHistoryImportPeer"
+description: "messages.checkedHistoryImportPeer attributes, type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_checkedHistoryImportPeer.html
 ---

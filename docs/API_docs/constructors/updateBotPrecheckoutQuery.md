@@ -1,6 +1,6 @@
 ---
-title: updateBotPrecheckoutQuery
-description: This object contains information about an incoming pre-checkout query.
+title: "updateBotPrecheckoutQuery"
+description: "This object contains information about an incoming pre-checkout query."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotPrecheckoutQuery  

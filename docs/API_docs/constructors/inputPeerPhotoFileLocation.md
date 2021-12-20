@@ -1,6 +1,6 @@
 ---
-title: inputPeerPhotoFileLocation
-description: Location of profile photo of channel/group/supergroup/user
+title: "inputPeerPhotoFileLocation"
+description: "Location of profile photo of channel/group/supergroup/user"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPeerPhotoFileLocation  

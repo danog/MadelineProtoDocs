@@ -1,6 +1,6 @@
 ---
-title: updateChannelMessageForwards
-description: The forward counter of a message in a channel has changed
+title: "updateChannelMessageForwards"
+description: "The forward counter of a message in a channel has changed"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelMessageForwards  

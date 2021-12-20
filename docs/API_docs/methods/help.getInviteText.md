@@ -1,6 +1,6 @@
 ---
-title: help.getInviteText
-description: Returns localized text of a text message with an invitation.
+title: "help.getInviteText"
+description: "Returns localized text of a text message with an invitation."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getInviteText.html
 ---

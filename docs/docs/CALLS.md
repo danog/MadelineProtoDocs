@@ -1,6 +1,6 @@
 ---
-title: Telegram VoIP phone calls
-description: MadelineProto provides an easy wrapper to work with phone calls.
+title: "Telegram VoIP phone calls"
+description: "MadelineProto provides an easy wrapper to work with phone calls."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Telegram VoIP phone calls

@@ -1,6 +1,6 @@
 ---
-title: inputPhoneCall
-description: Phone call
+title: "inputPhoneCall"
+description: "Phone call"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPhoneCall  

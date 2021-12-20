@@ -1,6 +1,6 @@
 ---
-title: get_future_salts
-description: get_future_salts parameters, return type and example
+title: "get_future_salts"
+description: "get_future_salts parameters, return type and example"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: get\_future\_salts
