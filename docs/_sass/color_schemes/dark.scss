@@ -16,9 +16,6 @@ $search-background-color: $grey-dk-250;
 $table-background-color: $grey-dk-250;
 $feedback-color: darken($sidebar-color, 3%);
 
-.theme-light-button {
-    display: block;
-}
 .theme-dark-button {
-    display: none;
+    display: none !important;
 }

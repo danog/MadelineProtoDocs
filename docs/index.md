@@ -1,5 +1,5 @@
 ---
-title: MadelineProto documentation
+title: MadelineProto
 description: PHP client/server for the telegram MTProto protocol (a better tg-cli)
 nav_order: 1
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
