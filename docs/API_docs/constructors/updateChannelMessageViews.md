@@ -1,6 +1,7 @@
 ---
 title: "updateChannelMessageViews"
 description: "The view counter of a message in a channel has changed"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelMessageViews  

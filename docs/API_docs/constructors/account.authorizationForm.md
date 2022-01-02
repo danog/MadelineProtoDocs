@@ -1,6 +1,7 @@
 ---
 title: "account.authorizationForm"
 description: "Telegram Passport authorization form"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_authorizationForm.html
 ---

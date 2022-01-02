@@ -1,6 +1,7 @@
 ---
 title: "contacts.blockedSlice"
 description: "Incomplete list of blocked users."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/contacts_blockedSlice.html
 ---

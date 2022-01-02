@@ -1,6 +1,7 @@
 ---
 title: messages.RecentStickers
 description: constructors and methods of type messages.RecentStickers
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/messages_RecentStickers.html
 ---

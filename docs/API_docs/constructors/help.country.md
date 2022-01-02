@@ -1,6 +1,7 @@
 ---
 title: "help.country"
 description: "Name, ISO code, localized name and phone codes/patterns of a specific country"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_country.html
 ---

@@ -1,6 +1,7 @@
 ---
 title: "channelLocation"
 description: "Geographical location of supergroup (geogroups)"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelLocation  

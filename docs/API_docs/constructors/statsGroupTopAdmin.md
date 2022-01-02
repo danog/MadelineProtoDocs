@@ -1,6 +1,7 @@
 ---
 title: "statsGroupTopAdmin"
 description: "Information about an active admin in a supergroup"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: statsGroupTopAdmin  

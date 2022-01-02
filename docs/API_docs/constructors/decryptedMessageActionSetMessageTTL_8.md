@@ -1,6 +1,7 @@
 ---
 title: "decryptedMessageActionSetMessageTTL"
 description: "Setting of a message lifetime after reading."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionSetMessageTTL\_8  

@@ -1,9 +1,10 @@
 ---
-title: "MadelineProto API documentation (layer 135)"
+title: "Telegram RPC API"
 description: "MadelineProto API documentation (layer 135)"
+has_children: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# MadelineProto API documentation (layer 135)
+# Telegram RPC API
 
 [Back to main documentation](..)  
 

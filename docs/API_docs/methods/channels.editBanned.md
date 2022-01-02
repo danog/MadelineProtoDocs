@@ -1,6 +1,8 @@
 ---
 title: "channels.editBanned"
 description: "Ban/unban/kick a user in a [supergroup/channel](https://core.telegram.org/api/channel)."
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_editBanned.html
 ---

@@ -1,6 +1,7 @@
 ---
 title: "inputStickerSetDice"
 description: "Used for fetching animated dice stickers"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputStickerSetDice  

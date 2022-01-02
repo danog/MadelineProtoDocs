@@ -1,6 +1,7 @@
 ---
 title: %s
 description: constructors and methods of type %1$s
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png%s
 ---
 # Type: %s

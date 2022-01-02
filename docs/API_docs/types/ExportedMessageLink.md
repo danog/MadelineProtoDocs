@@ -1,6 +1,7 @@
 ---
 title: ExportedMessageLink
 description: constructors and methods of type ExportedMessageLink
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: ExportedMessageLink

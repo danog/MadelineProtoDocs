@@ -1,6 +1,7 @@
 ---
 title: "help.countriesListNotModified"
 description: "The country list has not changed"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_countriesListNotModified.html
 ---

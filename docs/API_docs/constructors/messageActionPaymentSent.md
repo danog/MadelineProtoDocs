@@ -1,6 +1,7 @@
 ---
 title: "messageActionPaymentSent"
 description: "A payment was sent"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionPaymentSent  

@@ -1,6 +1,7 @@
 ---
 title: "inputMediaDocument"
 description: "Forwarded document"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaDocument  

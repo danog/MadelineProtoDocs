@@ -1,6 +1,7 @@
 ---
 title: "updatePtsChanged"
 description: "Common message box sequence PTS has changed, state has to be refetched using updates.getState"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatePtsChanged  

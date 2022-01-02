@@ -1,6 +1,8 @@
 ---
 title: "account.reportPeer"
 description: "Report a peer for violation of telegram's Terms of Service"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_reportPeer.html
 ---

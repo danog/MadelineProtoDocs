@@ -1,6 +1,7 @@
 ---
 title: "updateFavedStickers"
 description: "The list of favorited stickers was changed, the client should call messages.getFavedStickers to refetch the new list"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateFavedStickers  

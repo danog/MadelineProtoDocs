@@ -1,6 +1,8 @@
 ---
 title: "messages.receivedQueue"
-description: "Confirms receipt of messages in a secret chat by client, cancels push notifications."
+description: "You cannot use this method directly"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_receivedQueue.html
 ---
@@ -9,7 +11,7 @@ redirect_from: /API_docs/methods/messages_receivedQueue.html
 
 
 
-Confirms receipt of messages in a secret chat by client, cancels push notifications.
+You cannot use this method directly
 
 ### Parameters:
 

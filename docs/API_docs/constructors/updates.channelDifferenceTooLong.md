@@ -1,6 +1,7 @@
 ---
 title: "updates.channelDifferenceTooLong"
 description: "The provided pts + limit < remote pts. Simply, there are too many updates to be fetched (more than limit), the client has to resolve the update gap in one of the following ways"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/updates_channelDifferenceTooLong.html
 ---

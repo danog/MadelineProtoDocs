@@ -1,6 +1,7 @@
 ---
 title: "langPackStringPluralized"
 description: "A language pack string which has different forms based on the number of some object it mentions. See https://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html for more info"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: langPackStringPluralized  

@@ -1,6 +1,7 @@
 ---
 title: "messageActionCustomAction"
 description: "Custom action (most likely not supported by the current layer, an upgrade might be needed)"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionCustomAction  

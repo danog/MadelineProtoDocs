@@ -1,6 +1,7 @@
 ---
 title: "inputPhotoLegacyFileLocation"
 description: "Legacy photo file location"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPhotoLegacyFileLocation  

@@ -1,6 +1,7 @@
 ---
 title: "Lua binding"
 description: "The lua binding makes use of the Lua php extension."
+nav_order: 19
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Lua binding

@@ -1,6 +1,8 @@
 ---
 title: "messages.getChats"
 description: "Returns chat basic info on their IDs."
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getChats.html
 ---

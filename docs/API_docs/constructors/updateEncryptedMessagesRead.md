@@ -1,6 +1,7 @@
 ---
 title: "updateEncryptedMessagesRead"
 description: "Communication history in an encrypted chat was marked as read."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateEncryptedMessagesRead  

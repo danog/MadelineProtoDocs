@@ -1,6 +1,8 @@
 ---
 title: "messages.getSearchCounters"
 description: "Get the number of results that would be found by a [messages.search](../methods/messages.search.md) call with the same parameters"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getSearchCounters.html
 ---

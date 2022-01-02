@@ -1,6 +1,7 @@
 ---
 title: "userStatusEmpty"
 description: "User status has not been set yet."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userStatusEmpty  

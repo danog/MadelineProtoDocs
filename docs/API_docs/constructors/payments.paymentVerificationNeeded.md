@@ -1,6 +1,7 @@
 ---
 title: "payments.paymentVerificationNeeded"
 description: "Payment was not successful, additional verification is needed"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/payments_paymentVerificationNeeded.html
 ---

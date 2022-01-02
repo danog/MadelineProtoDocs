@@ -1,6 +1,8 @@
 ---
 title: "stickers.changeStickerPosition"
 description: "Changes the absolute position of a sticker in the set to which it belongs; for bots only. The sticker set must have been created by the bot"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/stickers_changeStickerPosition.html
 ---

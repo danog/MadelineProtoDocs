@@ -1,6 +1,7 @@
 ---
 title: "updateReadMessagesContents"
 description: "Contents of messages in the common message box were read"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateReadMessagesContents  

@@ -1,6 +1,8 @@
 ---
 title: "messages.setBotCallbackAnswer"
 description: "Set the callback answer to a user button press (bots only)"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_setBotCallbackAnswer.html
 ---

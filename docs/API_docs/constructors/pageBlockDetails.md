@@ -1,6 +1,7 @@
 ---
 title: "pageBlockDetails"
 description: "A collapsible details block"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockDetails  

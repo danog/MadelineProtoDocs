@@ -1,6 +1,8 @@
 ---
 title: "messages.getFullChat"
-description: "Returns full chat info according to its ID."
+description: "You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info)"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getFullChat.html
 ---
@@ -9,7 +11,7 @@ redirect_from: /API_docs/methods/messages_getFullChat.html
 
 
 
-Returns full chat info according to its ID.
+You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info)
 
 ### Parameters:
 

@@ -1,6 +1,7 @@
 ---
 title: "updateBotPrecheckoutQuery"
 description: "This object contains information about an incoming pre-checkout query."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotPrecheckoutQuery  

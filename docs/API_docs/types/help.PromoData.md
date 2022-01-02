@@ -1,6 +1,7 @@
 ---
 title: help.PromoData
 description: constructors and methods of type help.PromoData
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/help_PromoData.html
 ---

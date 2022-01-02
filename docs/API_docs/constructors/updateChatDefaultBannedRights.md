@@ -1,6 +1,7 @@
 ---
 title: "updateChatDefaultBannedRights"
 description: "Default banned rights in a normal chat were updated"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChatDefaultBannedRights  

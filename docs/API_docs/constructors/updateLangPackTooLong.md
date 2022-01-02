@@ -1,6 +1,7 @@
 ---
 title: "updateLangPackTooLong"
 description: "A language pack has changed, the client should manually fetch the changed strings using langpack.getDifference"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateLangPackTooLong  

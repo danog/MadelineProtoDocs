@@ -1,6 +1,7 @@
 ---
 title: "auth.loginTokenSuccess"
 description: "Login via token (QR code) succeded!"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/auth_loginTokenSuccess.html
 ---

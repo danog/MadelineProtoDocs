@@ -1,6 +1,8 @@
 ---
 title: "help.getCountriesList"
 description: "Get name, ISO code, localized name and phone codes/patterns of all available countries"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getCountriesList.html
 ---

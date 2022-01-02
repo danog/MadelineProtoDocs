@@ -1,6 +1,8 @@
 ---
 title: "auth.checkPassword"
-description: "Try logging to an account protected by a [2FA password](https://core.telegram.org/api/srp)."
+description: "You cannot use this method directly, use the complete2falogin method instead (see https://docs.madelineproto.xyz for more info)"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_checkPassword.html
 ---
@@ -9,7 +11,7 @@ redirect_from: /API_docs/methods/auth_checkPassword.html
 
 
 
-Try logging to an account protected by a [2FA password](https://core.telegram.org/api/srp).
+You cannot use this method directly, use the complete2falogin method instead (see https://docs.madelineproto.xyz for more info)
 
 ### Parameters:
 

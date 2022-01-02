@@ -1,6 +1,7 @@
 ---
 title: "updateDraftMessage"
 description: "Notifies a change of a message draft."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateDraftMessage  

@@ -1,6 +1,7 @@
 ---
 title: "updateChannelWebPage"
 description: "A webpage preview of a link in a channel/supergroup message was generated"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelWebPage  

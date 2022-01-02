@@ -1,6 +1,7 @@
 ---
 title: "updateReadChannelDiscussionOutbox"
 description: "Outgoing comments in a discussion thread were marked as read"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateReadChannelDiscussionOutbox  

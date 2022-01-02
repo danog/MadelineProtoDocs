@@ -1,6 +1,7 @@
 ---
 title: "user"
 description: "Indicates info about a certain user"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: user  

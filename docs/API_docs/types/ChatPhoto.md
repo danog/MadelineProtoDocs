@@ -1,6 +1,7 @@
 ---
 title: ChatPhoto
 description: constructors and methods of type ChatPhoto
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: ChatPhoto

@@ -1,6 +1,8 @@
 ---
 title: "account.getWebAuthorizations"
 description: "Get web [login widget](https://core.telegram.org/widgets/login) authorizations"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getWebAuthorizations.html
 ---

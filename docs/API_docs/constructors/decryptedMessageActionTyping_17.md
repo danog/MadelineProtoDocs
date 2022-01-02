@@ -1,6 +1,7 @@
 ---
 title: "decryptedMessageActionTyping"
 description: "User is preparing a message: typing, recording, uploading, etc."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionTyping\_17  

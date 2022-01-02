@@ -1,6 +1,7 @@
 ---
 title: "updateInlineBotCallbackQuery"
 description: "This notification is received by bots when a button is pressed"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateInlineBotCallbackQuery  

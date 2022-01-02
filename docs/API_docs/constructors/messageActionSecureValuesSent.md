@@ -1,6 +1,7 @@
 ---
 title: "messageActionSecureValuesSent"
 description: "Request for secure telegram passport values was sent"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionSecureValuesSent  

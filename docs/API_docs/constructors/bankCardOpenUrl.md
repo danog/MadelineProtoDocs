@@ -1,6 +1,7 @@
 ---
 title: "bankCardOpenUrl"
 description: "Credit card info URL provided by the bank"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: bankCardOpenUrl  

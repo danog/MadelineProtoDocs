@@ -1,6 +1,8 @@
 ---
 title: "account.saveAutoDownloadSettings"
 description: "Change media autodownload settings"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_saveAutoDownloadSettings.html
 ---

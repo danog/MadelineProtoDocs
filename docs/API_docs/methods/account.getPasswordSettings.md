@@ -1,6 +1,8 @@
 ---
 title: "account.getPasswordSettings"
-description: "Get private info associated to the password info (recovery email, telegram [passport](https://core.telegram.org/passport) info &amp; so on)"
+description: "You cannot use this method directly; use $MadelineProto->update2fa($params), instead (see https://docs.madelineproto.xyz for more info)"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getPasswordSettings.html
 ---
@@ -9,7 +11,7 @@ redirect_from: /API_docs/methods/account_getPasswordSettings.html
 
 
 
-Get private info associated to the password info (recovery email, telegram [passport](https://core.telegram.org/passport) info &amp; so on)
+You cannot use this method directly; use $MadelineProto->update2fa($params), instead (see https://docs.madelineproto.xyz for more info)
 
 ### Parameters:
 

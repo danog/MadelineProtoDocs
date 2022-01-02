@@ -1,6 +1,8 @@
 ---
 title: "auth.importAuthorization"
-description: "Logs in a user using a key transmitted from his native data-centre."
+description: "You cannot use this method directly, use $MadelineProto->importAuthorization($authorization) instead, see https://docs.madelineproto.xyz/docs/LOGIN.html"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_importAuthorization.html
 ---
@@ -9,7 +11,7 @@ redirect_from: /API_docs/methods/auth_importAuthorization.html
 
 
 
-Logs in a user using a key transmitted from his native data-centre.
+You cannot use this method directly, use $MadelineProto->importAuthorization($authorization) instead, see https://docs.madelineproto.xyz/docs/LOGIN.html
 
 ### Parameters:
 

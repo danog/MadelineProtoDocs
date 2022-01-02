@@ -1,6 +1,7 @@
 ---
 title: "updateReadChannelOutbox"
 description: "Outgoing messages in a channel/supergroup were read"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateReadChannelOutbox  

@@ -1,6 +1,8 @@
 ---
 title: "messages.toggleStickerSets"
 description: "Apply changes to multiple stickersets"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_toggleStickerSets.html
 ---

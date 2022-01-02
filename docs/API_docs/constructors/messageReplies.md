@@ -1,6 +1,7 @@
 ---
 title: "messageReplies"
 description: "Info about the comment section of a channel post, or a simple message thread"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageReplies  

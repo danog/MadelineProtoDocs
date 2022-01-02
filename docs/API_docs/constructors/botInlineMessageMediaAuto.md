@@ -1,6 +1,7 @@
 ---
 title: "botInlineMessageMediaAuto"
 description: "Send whatever media is attached to the botInlineMediaResult"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: botInlineMessageMediaAuto  

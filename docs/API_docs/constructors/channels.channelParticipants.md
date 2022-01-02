@@ -1,6 +1,7 @@
 ---
 title: "channels.channelParticipants"
 description: "Represents multiple channel participants"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/channels_channelParticipants.html
 ---

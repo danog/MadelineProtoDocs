@@ -1,6 +1,8 @@
 ---
 title: "account.checkUsername"
 description: "Validates a username and checks availability."
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_checkUsername.html
 ---

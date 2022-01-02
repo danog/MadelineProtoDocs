@@ -1,6 +1,7 @@
 ---
 title: "channelParticipantCreator"
 description: "Channel/supergroup creator"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantCreator  

@@ -1,6 +1,7 @@
 ---
 title: "secureData"
 description: "Secure passport data, for more info see the passport docs »"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureData  

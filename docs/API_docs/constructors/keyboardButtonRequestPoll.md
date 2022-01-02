@@ -1,6 +1,7 @@
 ---
 title: "keyboardButtonRequestPoll"
 description: "A button that allows the user to create and send a poll when pressed; available only in private"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: keyboardButtonRequestPoll  

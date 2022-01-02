@@ -1,6 +1,7 @@
 ---
 title: "webPagePending"
 description: "A preview of the webpage is currently being generated"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: webPagePending  

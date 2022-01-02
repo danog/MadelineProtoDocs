@@ -1,6 +1,8 @@
 ---
 title: "auth.importLoginToken"
 description: "Login using a redirected login token, generated in case of DC mismatch during [QR code login](https://core.telegram.org/api/qr-login)."
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_importLoginToken.html
 ---

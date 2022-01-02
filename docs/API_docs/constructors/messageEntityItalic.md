@@ -1,6 +1,7 @@
 ---
 title: "messageEntityItalic"
 description: "Message entity representing italic text."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageEntityItalic  

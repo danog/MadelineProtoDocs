@@ -1,6 +1,7 @@
 ---
 title: phone.GroupCall
 description: constructors and methods of type phone.GroupCall
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/phone_GroupCall.html
 ---

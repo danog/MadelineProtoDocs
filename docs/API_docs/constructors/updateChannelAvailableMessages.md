@@ -1,6 +1,7 @@
 ---
 title: "updateChannelAvailableMessages"
 description: "The history of a channel/supergroup was hidden."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelAvailableMessages  

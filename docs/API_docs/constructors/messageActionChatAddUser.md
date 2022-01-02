@@ -1,6 +1,7 @@
 ---
 title: "messageActionChatAddUser"
 description: "New member in the group"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChatAddUser  

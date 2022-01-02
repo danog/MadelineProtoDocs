@@ -1,6 +1,7 @@
 ---
 title: "decryptedMessageMediaDocument"
 description: "Document attached to a message in a secret chat."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaDocument\_45  

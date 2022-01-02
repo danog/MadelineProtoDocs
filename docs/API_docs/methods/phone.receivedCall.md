@@ -1,6 +1,8 @@
 ---
 title: "phone.receivedCall"
 description: "Optional: notify the server that the user is currently busy in a call: this will automatically refuse all incoming phone calls until the current phone call is ended."
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/phone_receivedCall.html
 ---

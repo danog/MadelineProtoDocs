@@ -1,6 +1,8 @@
 ---
 title: "auth.exportAuthorization"
-description: "Returns data for copying authorization to another data-centre."
+description: "You cannot use this method directly, use $MadelineProto->exportAuthorization() instead, see https://docs.madelineproto.xyz/docs/LOGIN.html"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_exportAuthorization.html
 ---
@@ -9,7 +11,7 @@ redirect_from: /API_docs/methods/auth_exportAuthorization.html
 
 
 
-Returns data for copying authorization to another data-centre.
+You cannot use this method directly, use $MadelineProto->exportAuthorization() instead, see https://docs.madelineproto.xyz/docs/LOGIN.html
 
 ### Parameters:
 

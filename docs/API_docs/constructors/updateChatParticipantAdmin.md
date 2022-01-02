@@ -1,6 +1,7 @@
 ---
 title: "updateChatParticipantAdmin"
 description: "Admin permissions of a user in a legacy group were changed"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChatParticipantAdmin  

@@ -1,6 +1,7 @@
 ---
 title: "chatBannedRights"
 description: "Represents the rights of a normal user in a supergroup/channel/chat. In this case, the flags are inverted: if set, a flag does not allow a user to do X."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatBannedRights  

@@ -1,6 +1,7 @@
 ---
 title: "cdnPublicKey"
 description: "Public key to use only during handshakes to CDN DCs."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: cdnPublicKey  

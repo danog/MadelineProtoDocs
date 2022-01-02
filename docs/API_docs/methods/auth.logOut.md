@@ -1,6 +1,8 @@
 ---
 title: "auth.logOut"
-description: "Logs out the user."
+description: "You cannot use this method directly, use the logout method instead (see https://docs.madelineproto.xyz for more info)"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_logOut.html
 ---
@@ -9,7 +11,7 @@ redirect_from: /API_docs/methods/auth_logOut.html
 
 
 
-Logs out the user.
+You cannot use this method directly, use the logout method instead (see https://docs.madelineproto.xyz for more info)
 
 
 

@@ -1,6 +1,7 @@
 ---
 title: "fileHash"
 description: "SHA256 Hash of an uploaded file, to be checked for validity after download"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: fileHash  

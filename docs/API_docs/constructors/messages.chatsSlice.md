@@ -1,6 +1,7 @@
 ---
 title: "messages.chatsSlice"
 description: "Partial list of chats, more would have to be fetched with pagination"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_chatsSlice.html
 ---

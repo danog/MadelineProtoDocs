@@ -1,6 +1,8 @@
 ---
 title: "messages.getWebPage"
 description: "Get [instant view](https://instantview.telegram.org) page"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getWebPage.html
 ---

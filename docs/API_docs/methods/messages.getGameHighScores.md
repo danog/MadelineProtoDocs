@@ -1,6 +1,8 @@
 ---
 title: "messages.getGameHighScores"
 description: "Get highscores of a game"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getGameHighScores.html
 ---

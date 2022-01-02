@@ -1,6 +1,7 @@
 ---
 title: "stickerPack"
 description: "A stickerpack is a group of stickers associated to the same emoji.  "
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: stickerPack  

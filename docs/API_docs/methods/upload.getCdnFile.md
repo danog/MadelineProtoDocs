@@ -1,6 +1,8 @@
 ---
 title: "upload.getCdnFile"
-description: "Download a [CDN](https://core.telegram.org/cdn) file."
+description: "You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/upload_getCdnFile.html
 ---
@@ -9,7 +11,7 @@ redirect_from: /API_docs/methods/upload_getCdnFile.html
 
 
 
-Download a [CDN](https://core.telegram.org/cdn) file.
+You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info
 
 ### Parameters:
 

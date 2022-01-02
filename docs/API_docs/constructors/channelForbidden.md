@@ -1,6 +1,7 @@
 ---
 title: "channelForbidden"
 description: "Indicates a channel/supergroup we can't access because we were banned, or for some other reason."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelForbidden  

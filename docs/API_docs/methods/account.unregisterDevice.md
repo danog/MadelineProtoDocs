@@ -1,6 +1,8 @@
 ---
 title: "account.unregisterDevice"
 description: "Deletes a device by its token, stops sending PUSH-notifications to it."
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_unregisterDevice.html
 ---

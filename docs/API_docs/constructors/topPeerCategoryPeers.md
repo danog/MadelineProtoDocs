@@ -1,6 +1,7 @@
 ---
 title: "topPeerCategoryPeers"
 description: "Top peer category"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: topPeerCategoryPeers  

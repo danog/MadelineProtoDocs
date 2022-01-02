@@ -1,6 +1,8 @@
 ---
 title: "updates.getChannelDifference"
-description: "Returns the difference between the current state of updates of a certain channel and transmitted."
+description: "You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/updates_getChannelDifference.html
 ---
@@ -9,7 +11,7 @@ redirect_from: /API_docs/methods/updates_getChannelDifference.html
 
 
 
-Returns the difference between the current state of updates of a certain channel and transmitted.
+You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates
 
 ### Parameters:
 

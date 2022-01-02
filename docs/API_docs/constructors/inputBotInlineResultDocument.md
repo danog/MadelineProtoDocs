@@ -1,6 +1,7 @@
 ---
 title: "inputBotInlineResultDocument"
 description: "Document (media of any type except for photos)"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputBotInlineResultDocument  

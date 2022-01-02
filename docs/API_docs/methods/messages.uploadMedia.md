@@ -1,6 +1,8 @@
 ---
 title: "messages.uploadMedia"
 description: "Upload a file and associate it to a chat (without actually sending it to the chat)"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_uploadMedia.html
 ---

@@ -1,6 +1,7 @@
 ---
 title: photos.Photo
 description: constructors and methods of type photos.Photo
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/photos_Photo.html
 ---

@@ -1,6 +1,7 @@
 ---
 title: "secureValueErrorFiles"
 description: "Represents an issue with a list of scans. The error is considered resolved when the list of files containing the scans changes."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueErrorFiles  

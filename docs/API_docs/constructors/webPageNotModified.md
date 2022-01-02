@@ -1,6 +1,7 @@
 ---
 title: "webPageNotModified"
 description: "The preview of the webpage hasn't changed"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: webPageNotModified  

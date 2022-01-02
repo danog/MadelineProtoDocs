@@ -1,6 +1,7 @@
 ---
 title: "messageEntityPre"
 description: "Message entity representing a preformatted codeblock, allowing the user to specify a programming language for the codeblock."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageEntityPre  

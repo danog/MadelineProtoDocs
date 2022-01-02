@@ -1,6 +1,7 @@
 ---
 title: "statsAbsValueAndPrev"
 description: "Statistics value couple; intial and final value for period of time currently in consideration"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: statsAbsValueAndPrev  

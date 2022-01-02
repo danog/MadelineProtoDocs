@@ -1,6 +1,8 @@
 ---
 title: "contacts.getSaved"
 description: "Get all contacts"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_getSaved.html
 ---

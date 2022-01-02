@@ -1,6 +1,7 @@
 ---
 title: "chatInvitePeek"
 description: "A chat invitation that also allows peeking into the group to read messages without joining it."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatInvitePeek  

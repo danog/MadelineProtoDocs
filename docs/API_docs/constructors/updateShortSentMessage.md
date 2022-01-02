@@ -1,6 +1,7 @@
 ---
 title: "updateShortSentMessage"
 description: "Shortened constructor containing info on one outgoing message to a contact (the destination chat has to be extracted from the method call that returned this object)."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateShortSentMessage  

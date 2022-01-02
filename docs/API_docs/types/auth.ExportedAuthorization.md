@@ -1,6 +1,7 @@
 ---
 title: auth.ExportedAuthorization
 description: constructors and methods of type auth.ExportedAuthorization
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/auth_ExportedAuthorization.html
 ---

@@ -1,6 +1,7 @@
 ---
 title: "channelParticipantsBanned"
 description: "Fetch only banned participants"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantsBanned  

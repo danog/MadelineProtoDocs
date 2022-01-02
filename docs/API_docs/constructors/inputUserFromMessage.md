@@ -1,6 +1,7 @@
 ---
 title: "inputUserFromMessage"
 description: "Defines a min user that was seen in a certain message of a certain chat."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputUserFromMessage  

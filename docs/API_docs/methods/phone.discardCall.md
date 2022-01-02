@@ -1,6 +1,8 @@
 ---
 title: "phone.discardCall"
-description: "Refuse or end running call"
+description: "You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/phone_discardCall.html
 ---
@@ -9,7 +11,7 @@ redirect_from: /API_docs/methods/phone_discardCall.html
 
 
 
-Refuse or end running call
+You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls
 
 ### Parameters:
 

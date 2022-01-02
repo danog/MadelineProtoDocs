@@ -1,6 +1,7 @@
 ---
 title: "payments.validatedRequestedInfo"
 description: "Validated user-provided info"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/payments_validatedRequestedInfo.html
 ---

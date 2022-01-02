@@ -1,6 +1,7 @@
 ---
 title: "inputChatUploadedPhoto"
 description: "New photo to be set as group profile photo."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputChatUploadedPhoto  

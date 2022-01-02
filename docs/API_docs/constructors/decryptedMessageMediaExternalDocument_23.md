@@ -1,6 +1,7 @@
 ---
 title: "decryptedMessageMediaExternalDocument"
 description: "Non-e2e documented forwarded from non-secret chat"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaExternalDocument\_23  

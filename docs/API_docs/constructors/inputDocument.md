@@ -1,6 +1,7 @@
 ---
 title: "inputDocument"
 description: "Defines a video for subsequent interaction."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputDocument  

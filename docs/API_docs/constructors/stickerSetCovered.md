@@ -1,6 +1,7 @@
 ---
 title: "stickerSetCovered"
 description: "Stickerset, with a specific sticker as preview"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: stickerSetCovered  

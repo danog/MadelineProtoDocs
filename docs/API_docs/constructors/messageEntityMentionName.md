@@ -1,6 +1,7 @@
 ---
 title: "messageEntityMentionName"
 description: "Message entity representing a user mention: for creating a mention use inputMessageEntityMentionName."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageEntityMentionName  

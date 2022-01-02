@@ -1,6 +1,8 @@
 ---
 title: "upload.getWebFile"
 description: "Returns content of an HTTP file or a part, by proxying the request through telegram."
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/upload_getWebFile.html
 ---

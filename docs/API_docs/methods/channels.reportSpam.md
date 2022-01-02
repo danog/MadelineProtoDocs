@@ -1,6 +1,8 @@
 ---
 title: "channels.reportSpam"
 description: "Reports some messages from a user in a supergroup as spam; requires administrator rights in the supergroup"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_reportSpam.html
 ---

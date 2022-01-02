@@ -1,6 +1,7 @@
 ---
 title: "updateShortChatMessage"
 description: "Shortened constructor containing info on one new incoming text message from a chat"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateShortChatMessage  

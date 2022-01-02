@@ -1,6 +1,7 @@
 ---
 title: "contacts.topPeers"
 description: "Top peers"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/contacts_topPeers.html
 ---

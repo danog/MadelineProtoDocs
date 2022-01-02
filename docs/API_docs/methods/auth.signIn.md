@@ -1,6 +1,8 @@
 ---
 title: "auth.signIn"
-description: "Signs in a user with a validated phone number."
+description: "You cannot use this method directly, use the completePhoneLogin method instead (see https://docs.madelineproto.xyz for more info)"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_signIn.html
 ---
@@ -9,7 +11,7 @@ redirect_from: /API_docs/methods/auth_signIn.html
 
 
 
-Signs in a user with a validated phone number.
+You cannot use this method directly, use the completePhoneLogin method instead (see https://docs.madelineproto.xyz for more info)
 
 ### Parameters:
 

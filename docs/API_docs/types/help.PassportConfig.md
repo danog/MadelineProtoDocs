@@ -1,6 +1,7 @@
 ---
 title: help.PassportConfig
 description: constructors and methods of type help.PassportConfig
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/help_PassportConfig.html
 ---

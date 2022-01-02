@@ -1,6 +1,7 @@
 ---
 title: "inputEncryptedFileUploaded"
 description: "Sets new encrypted file saved by parts using upload.saveFilePart method."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputEncryptedFileUploaded  

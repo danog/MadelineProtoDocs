@@ -1,6 +1,7 @@
 ---
 title: "securePasswordKdfAlgoSHA512"
 description: "SHA512 KDF algo"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: securePasswordKdfAlgoSHA512  

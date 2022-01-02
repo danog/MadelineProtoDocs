@@ -1,6 +1,7 @@
 ---
 title: "messages.archivedStickers"
 description: "Archived stickersets"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_archivedStickers.html
 ---

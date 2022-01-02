@@ -1,6 +1,7 @@
 ---
 title: "Handling updates (new messages)"
 description: "Update handling can be done in different ways: "
+nav_order: 6
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Handling updates (new messages)

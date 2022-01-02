@@ -1,6 +1,8 @@
 ---
 title: "auth.signUp"
-description: "Registers a validated phone number in the system."
+description: "You cannot use this method directly, use the completeSignup method instead (see https://docs.madelineproto.xyz for more info)"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_signUp.html
 ---
@@ -9,7 +11,7 @@ redirect_from: /API_docs/methods/auth_signUp.html
 
 
 
-Registers a validated phone number in the system.
+You cannot use this method directly, use the completeSignup method instead (see https://docs.madelineproto.xyz for more info)
 
 ### Parameters:
 

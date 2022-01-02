@@ -1,6 +1,7 @@
 ---
 title: "messageActionBotAllowed"
 description: "The domain name of the website on which the user has logged in. More about Telegram Login »"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionBotAllowed  

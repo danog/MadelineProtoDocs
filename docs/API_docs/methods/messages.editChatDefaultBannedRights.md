@@ -1,6 +1,8 @@
 ---
 title: "messages.editChatDefaultBannedRights"
 description: "Edit the default banned rights of a [channel/supergroup/group](https://core.telegram.org/api/channel)."
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_editChatDefaultBannedRights.html
 ---

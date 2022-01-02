@@ -1,6 +1,7 @@
 ---
 title: "account.passwordInputSettings"
 description: "Settings for setting up a new password"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_passwordInputSettings.html
 ---

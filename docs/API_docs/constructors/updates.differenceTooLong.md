@@ -1,6 +1,7 @@
 ---
 title: "updates.differenceTooLong"
 description: "The difference is too long, and the specified state must be used to refetch updates."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/updates_differenceTooLong.html
 ---

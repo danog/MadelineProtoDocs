@@ -1,6 +1,7 @@
 ---
 title: "auth.loginTokenMigrateTo"
 description: "Repeat the query to the specified DC"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/auth_loginTokenMigrateTo.html
 ---

@@ -1,6 +1,7 @@
 ---
 title: "help.termsOfServiceUpdate"
 description: "Info about an update of telegram's terms of service. If the terms of service are declined, then the account.deleteAccount method should be called with the reason 'Decline ToS update'"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_termsOfServiceUpdate.html
 ---

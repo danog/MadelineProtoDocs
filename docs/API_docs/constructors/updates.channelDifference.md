@@ -1,6 +1,7 @@
 ---
 title: "updates.channelDifference"
 description: "The new updates"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/updates_channelDifference.html
 ---

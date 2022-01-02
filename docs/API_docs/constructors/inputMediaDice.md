@@ -1,6 +1,7 @@
 ---
 title: "inputMediaDice"
 description: "Send a dice-based animated sticker"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaDice  

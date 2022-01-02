@@ -1,6 +1,7 @@
 ---
 title: "inputMessageCallbackQuery"
 description: "Used by bots for fetching information about the message that originated a callback query"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessageCallbackQuery  

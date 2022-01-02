@@ -1,6 +1,7 @@
 ---
 title: "statsGraphAsync"
 description: "This channel statistics graph must be generated asynchronously using stats.loadAsyncGraph to reduce server load"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: statsGraphAsync  

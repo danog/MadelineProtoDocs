@@ -1,6 +1,8 @@
 ---
 title: "messages.updateDialogFiltersOrder"
 description: "Reorder [folders](https://core.telegram.org/api/folders)"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_updateDialogFiltersOrder.html
 ---

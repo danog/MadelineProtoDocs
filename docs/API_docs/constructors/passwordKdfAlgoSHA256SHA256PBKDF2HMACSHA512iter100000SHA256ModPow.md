@@ -1,6 +1,7 @@
 ---
 title: "passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow"
 description: "This key derivation algorithm defines that SRP 2FA login must be used"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow  

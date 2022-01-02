@@ -1,6 +1,7 @@
 ---
 title: "urlAuthResultRequest"
 description: "Details about the authorization request, for more info click here »"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: urlAuthResultRequest  

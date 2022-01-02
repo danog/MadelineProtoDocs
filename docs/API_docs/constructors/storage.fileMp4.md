@@ -1,6 +1,7 @@
 ---
 title: "storage.fileMp4"
 description: "MPEG-4 video. MIME type: video/mp4."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/storage_fileMp4.html
 ---

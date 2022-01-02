@@ -1,6 +1,8 @@
 ---
 title: "auth.importBotAuthorization"
-description: "Login as a bot"
+description: "You cannot use this method directly, use the botLogin method instead (see https://docs.madelineproto.xyz for more info)"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_importBotAuthorization.html
 ---
@@ -9,7 +11,7 @@ redirect_from: /API_docs/methods/auth_importBotAuthorization.html
 
 
 
-Login as a bot
+You cannot use this method directly, use the botLogin method instead (see https://docs.madelineproto.xyz for more info)
 
 ### Parameters:
 

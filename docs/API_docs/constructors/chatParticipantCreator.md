@@ -1,6 +1,7 @@
 ---
 title: "chatParticipantCreator"
 description: "Represents the creator of the group"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatParticipantCreator  

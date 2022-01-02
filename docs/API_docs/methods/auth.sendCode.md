@@ -1,6 +1,8 @@
 ---
 title: "auth.sendCode"
-description: "Send the verification code for login"
+description: "You cannot use this method directly, use the phoneLogin method instead (see https://docs.madelineproto.xyz for more info)"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_sendCode.html
 ---
@@ -9,7 +11,7 @@ redirect_from: /API_docs/methods/auth_sendCode.html
 
 
 
-Send the verification code for login
+You cannot use this method directly, use the phoneLogin method instead (see https://docs.madelineproto.xyz for more info)
 
 ### Parameters:
 

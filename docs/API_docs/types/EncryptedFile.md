@@ -1,6 +1,7 @@
 ---
 title: EncryptedFile
 description: constructors and methods of type EncryptedFile
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: EncryptedFile

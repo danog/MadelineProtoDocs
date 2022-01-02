@@ -1,6 +1,7 @@
 ---
 title: "inputMediaVenue"
 description: "Can be used to send a venue geolocation."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaVenue  

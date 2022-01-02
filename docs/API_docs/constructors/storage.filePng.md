@@ -1,6 +1,7 @@
 ---
 title: "storage.filePng"
 description: "PNG image. MIME type: image/png."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/storage_filePng.html
 ---

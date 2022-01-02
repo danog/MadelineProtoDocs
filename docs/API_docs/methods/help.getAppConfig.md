@@ -1,6 +1,8 @@
 ---
 title: "help.getAppConfig"
 description: "Get app-specific configuration, see [client configuration](https://core.telegram.org/api/config#client-configuration) for more info on the result."
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getAppConfig.html
 ---

@@ -1,6 +1,7 @@
 ---
 title: "userStatusLastWeek"
 description: "Online status: last seen last week"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userStatusLastWeek  

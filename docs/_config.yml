@@ -1,13 +1,13 @@
-theme: "just-the-docs"
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-redirect-from
-
 color_scheme: dark
 
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-default-layout
+
 url: https://docs.madelineproto.xyz
-logo: https://docs.madelineproto.xyz/logo.png
+logo: logo.png
 
 twitter:
   username: DaniilGentili

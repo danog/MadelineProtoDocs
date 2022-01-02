@@ -1,6 +1,7 @@
 ---
 title: "channels.sendAsPeers"
 description: "channels.sendAsPeers attributes, type and example"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/channels_sendAsPeers.html
 ---

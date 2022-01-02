@@ -1,6 +1,8 @@
 ---
 title: "phone.confirmCall"
-description: "[Complete phone call E2E encryption key exchange »](https://core.telegram.org/api/end-to-end/voice-calls)"
+description: "You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/phone_confirmCall.html
 ---
@@ -9,7 +11,7 @@ redirect_from: /API_docs/methods/phone_confirmCall.html
 
 
 
-[Complete phone call E2E encryption key exchange »](https://core.telegram.org/api/end-to-end/voice-calls)
+You cannot use this method directly, see https://docs.madelineproto.xyz#calls for more info on handling calls
 
 ### Parameters:
 

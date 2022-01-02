@@ -1,6 +1,8 @@
 ---
 title: "upload.getFileHashes"
-description: "Get SHA256 hashes for verifying downloaded files"
+description: "You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/upload_getFileHashes.html
 ---
@@ -9,7 +11,7 @@ redirect_from: /API_docs/methods/upload_getFileHashes.html
 
 
 
-Get SHA256 hashes for verifying downloaded files
+You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info
 
 ### Parameters:
 

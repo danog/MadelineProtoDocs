@@ -1,6 +1,8 @@
 ---
 title: "messages.sendMedia"
 description: "Send a media"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_sendMedia.html
 ---

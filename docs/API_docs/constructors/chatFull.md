@@ -1,6 +1,7 @@
 ---
 title: "chatFull"
 description: "Detailed chat info"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatFull  

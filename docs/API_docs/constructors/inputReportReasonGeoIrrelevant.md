@@ -1,6 +1,7 @@
 ---
 title: "inputReportReasonGeoIrrelevant"
 description: "Report an irrelevant geogroup"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputReportReasonGeoIrrelevant  

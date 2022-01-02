@@ -1,6 +1,7 @@
 ---
 title: "pageBlockAuthorDate"
 description: "Author and date of creation of article"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockAuthorDate  

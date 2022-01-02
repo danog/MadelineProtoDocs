@@ -1,6 +1,8 @@
 ---
 title: "help.setBotUpdatesStatus"
 description: "Informs the server about the number of pending bot updates if they haven't been processed for a long time; for bots only"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_setBotUpdatesStatus.html
 ---

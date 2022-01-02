@@ -1,6 +1,7 @@
 ---
 title: "secureValueErrorTranslationFiles"
 description: "Represents an issue with the translated version of a document. The error is considered resolved when a file with the document translation changes."
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueErrorTranslationFiles  

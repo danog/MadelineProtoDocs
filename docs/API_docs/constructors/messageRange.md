@@ -1,6 +1,7 @@
 ---
 title: "messageRange"
 description: "Indicates a range of chat messages"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageRange  

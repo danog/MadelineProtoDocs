@@ -1,6 +1,8 @@
 ---
 title: "auth.bindTempAuthKey"
-description: "Binds a temporary authorization key `temp_auth_key_id` to the permanent authorization key `perm_auth_key_id`. Each permanent key may only be bound to one temporary key at a time, binding a new temporary key overwrites the previous one."
+description: "You cannot use this method directly, instead modify the PFS and default_temp_auth_key_expires_in settings, see https://docs.madelineproto.xyz/docs/SETTINGS.html for more info"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_bindTempAuthKey.html
 ---
@@ -9,9 +11,7 @@ redirect_from: /API_docs/methods/auth_bindTempAuthKey.html
 
 
 
-Binds a temporary authorization key `temp_auth_key_id` to the permanent authorization key `perm_auth_key_id`. Each permanent key may only be bound to one temporary key at a time, binding a new temporary key overwrites the previous one.
-
-For more information, see [Perfect Forward Secrecy](https://core.telegram.org/api/pfs).
+You cannot use this method directly, instead modify the PFS and default_temp_auth_key_expires_in settings, see https://docs.madelineproto.xyz/docs/SETTINGS.html for more info
 
 ### Parameters:
 

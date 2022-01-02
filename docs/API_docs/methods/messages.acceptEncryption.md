@@ -1,6 +1,8 @@
 ---
 title: "messages.acceptEncryption"
-description: "Confirms creation of a secret chat"
+description: "You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling secret chats"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_acceptEncryption.html
 ---
@@ -9,7 +11,7 @@ redirect_from: /API_docs/methods/messages_acceptEncryption.html
 
 
 
-Confirms creation of a secret chat
+You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling secret chats
 
 ### Parameters:
 

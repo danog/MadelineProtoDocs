@@ -1,6 +1,7 @@
 ---
 title: "messageActionChannelMigrateFrom"
 description: "Indicates the channel was migrated from the specified chat"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChannelMigrateFrom  

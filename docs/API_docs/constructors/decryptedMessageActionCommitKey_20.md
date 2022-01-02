@@ -1,6 +1,7 @@
 ---
 title: "decryptedMessageActionCommitKey"
 description: "Commit new key, see rekeying process"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionCommitKey\_20  

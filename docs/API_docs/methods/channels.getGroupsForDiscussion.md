@@ -1,6 +1,8 @@
 ---
 title: "channels.getGroupsForDiscussion"
 description: "Get all groups that can be used as [discussion groups](https://core.telegram.org/api/discussion)."
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_getGroupsForDiscussion.html
 ---

@@ -1,6 +1,7 @@
 ---
 title: PageListOrderedItem
 description: constructors and methods of type PageListOrderedItem
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: PageListOrderedItem

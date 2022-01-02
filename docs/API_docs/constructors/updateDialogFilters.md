@@ -1,6 +1,7 @@
 ---
 title: "updateDialogFilters"
 description: "Clients should update folder info"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateDialogFilters  

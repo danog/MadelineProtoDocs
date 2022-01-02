@@ -1,6 +1,8 @@
 ---
 title: "upload.saveBigFilePart"
-description: "Saves a part of a large file (over 10Mb in size) to be later passed to one of the methods."
+description: "You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/upload_saveBigFilePart.html
 ---
@@ -9,7 +11,7 @@ redirect_from: /API_docs/methods/upload_saveBigFilePart.html
 
 
 
-Saves a part of a large file (over 10Mb in size) to be later passed to one of the methods.
+You cannot use this method directly, use the upload, downloadToStream, downloadToFile, downloadToDir methods instead; see https://docs.madelineproto.xyz for more info
 
 ### Parameters:
 

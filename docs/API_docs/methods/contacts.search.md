@@ -1,6 +1,8 @@
 ---
 title: "contacts.search"
 description: "Returns users found by username substring."
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_search.html
 ---

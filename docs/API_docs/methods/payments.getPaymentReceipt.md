@@ -1,6 +1,8 @@
 ---
 title: "payments.getPaymentReceipt"
 description: "Get payment receipt"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/payments_getPaymentReceipt.html
 ---

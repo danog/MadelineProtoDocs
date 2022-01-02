@@ -1,6 +1,7 @@
 ---
 title: upload.File
 description: constructors and methods of type upload.File
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/upload_File.html
 ---

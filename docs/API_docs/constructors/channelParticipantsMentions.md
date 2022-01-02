@@ -1,6 +1,7 @@
 ---
 title: "channelParticipantsMentions"
 description: "This filter is used when looking for supergroup members to mention.  "
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantsMentions  

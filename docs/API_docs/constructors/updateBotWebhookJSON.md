@@ -1,6 +1,7 @@
 ---
 title: "updateBotWebhookJSON"
 description: "A new incoming event; for bots only"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotWebhookJSON  

@@ -1,6 +1,8 @@
 ---
 title: "invokeWithoutUpdates"
 description: "Invoke a request without subscribing the used connection for [updates](https://core.telegram.org/api/updates) (this is enabled by default for [file queries](https://core.telegram.org/api/files))."
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: invokeWithoutUpdates

@@ -1,6 +1,7 @@
 ---
 title: "inputPhotoFileLocation"
 description: "Use this object to download a photo with upload.getFile method"
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPhotoFileLocation  

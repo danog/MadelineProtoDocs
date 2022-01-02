@@ -1,6 +1,8 @@
 ---
 title: "messages.receivedMessages"
 description: "Confirms receipt of messages by a client, cancels PUSH-notification sending."
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_receivedMessages.html
 ---
