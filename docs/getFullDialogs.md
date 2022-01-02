@@ -2,6 +2,8 @@
 title: getFullDialogs
 description: getFullDialogs parameters, return type and example
 redirect_from: /get_full_dialogs.html
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 ---
 ## Method: getDialogs  
 

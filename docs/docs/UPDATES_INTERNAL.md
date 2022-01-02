@@ -1,6 +1,7 @@
 ---
 title: Working with updates in MTProto
 description: Apart from the basic operations required to work with MTProto update sequences, implementations also have to take care to postpone updates received via the socket while filling gaps in the event and Update sequences, as well as avoid filling gaps in the same sequence.
+nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 

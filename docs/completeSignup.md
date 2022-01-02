@@ -2,6 +2,8 @@
 title: completeSignup
 description: completeSignup parameters, return type and example
 redirect_from: /complete_signup.html
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 ---
 ## Method: completeSignup  
 

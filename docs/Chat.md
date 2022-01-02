@@ -1,6 +1,7 @@
 ---
 title: PWRTelegram chat
 description: chat attributes, type and example
+nav_exclude: true
 ---
 ## Constructor: PWRTelegram chat  
 

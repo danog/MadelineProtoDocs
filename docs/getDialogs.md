@@ -2,6 +2,8 @@
 title: getDialogs
 description: getDialogs parameters, return type and example
 redirect_from: /get_dialogs.html
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 ---
 ## Method: getDialogs  
 

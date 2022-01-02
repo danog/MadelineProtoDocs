@@ -2,6 +2,8 @@
 title: requestSecretChat
 description: requestSecretChat parameters, return type and example
 redirect_from: /request_secret_chat.html
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 ---
 ## Method: requestSecretChat  
 

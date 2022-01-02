@@ -2,6 +2,8 @@
 title: getPwrChat
 description: getPwrChat parameters, return type and example
 redirect_from: /get_pwr_chat.html
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 ---
 ## Method: getPwrChat  
 

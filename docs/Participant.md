@@ -1,6 +1,7 @@
 ---
 title: Participant
 description: PWRTelegram participant attributes, type and example
+nav_exclude: true
 ---
 ## Constructor: PWRTelegram chat participant  
 

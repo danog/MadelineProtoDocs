@@ -2,6 +2,8 @@
 title: update2fa
 description: Update 2FA password
 redirect_from: /update_2fa.html
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 ---
 ## Method: update2fa  
 

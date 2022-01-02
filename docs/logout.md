@@ -1,6 +1,8 @@
 ---
 title: logout
 description: logout parameters, return type and example
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 ---
 ## Method: logout  
 

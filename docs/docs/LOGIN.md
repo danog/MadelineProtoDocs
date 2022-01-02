@@ -1,7 +1,7 @@
 ---
 title: "Login"
 description: "There are many ways you can login with MadelineProto."
-nav_order: 2
+nav_order: 5
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Login

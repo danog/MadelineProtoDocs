@@ -2,6 +2,8 @@
 title: getSelf
 description: getSelf parameters, return type and example
 redirect_from: /get_self.html
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 ---
 ## Method: getSelf  
 

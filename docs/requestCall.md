@@ -2,6 +2,8 @@
 title: requestCall
 description: requestCall parameters, return type and example
 redirect_from: /requestCall.html
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 ---
 ## Method: requestCall  
 

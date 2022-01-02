@@ -1,7 +1,7 @@
 ---
 title: "Getting info about chats"
 description: "There are various methods that can be used to fetch info about chats, based on bot API id, tg-cli ID, Peer, User, Chat objects."
-nav_order: 15
+nav_order: 18
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Getting info about chats

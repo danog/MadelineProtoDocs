@@ -1,6 +1,7 @@
 ---
 title: chat info
 description: chat attributes, type and example
+nav_exclude: true
 ---
 ## Constructor: Info  
 

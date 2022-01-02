@@ -1,6 +1,8 @@
 ---
 title: botLogin
 description: botLogin parameters, return type and example
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 redirect_from: /bot_login.html
 ---
 ## Method: botLogin  

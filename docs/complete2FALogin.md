@@ -1,6 +1,8 @@
 ---
 title: complete2falogin
 description: complete2falogin parameters, return type and example
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 redirect_from: /complete_2fa_login.html
 redirect_from: /complete2falogin.html
 redirect_from: /complete2FAlogin.html

@@ -2,6 +2,8 @@
 title: completePhoneLogin
 description: completePhoneLogin parameters, return type and example
 redirect_from: /complete_phone_login.html
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 ---
 ## Method: complete\_phone\_login  
 

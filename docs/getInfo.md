@@ -2,6 +2,8 @@
 title: getInfo
 description: getInfo parameters, return type and example
 redirect_from: /get_info.html
+grand_parent: "Telegram RPC API"
+parent: "Methods"
 ---
 ## Method: getInfo  
 

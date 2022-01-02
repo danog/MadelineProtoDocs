@@ -1,6 +1,7 @@
 ---
 title: full chat info
 description: chat attributes, type and example
+nav_exclude: true
 ---
 ## Constructor: FullInfo  
 

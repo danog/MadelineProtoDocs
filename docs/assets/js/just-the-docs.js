@@ -36,6 +36,13 @@ function initNav() {
     }
   });
 
+  for (const btn of document.getElementsByClassName('theme-dark-button')) {
+    btn.addEventListener('click', () => jtd.setTheme('dark'));
+  }
+  for (const btn of document.getElementsByClassName('theme-light-button')) {
+    btn.addEventListener('click', () => jtd.setTheme('light'));
+  }
+
   const siteNav = document.getElementById('site-nav');
   const mainHeader = document.getElementById('main-header');
   const menuButton = document.getElementById('menu-button');
@@ -70,7 +77,7 @@ function initNav() {
 
 function initSearch() {
   var request = new XMLHttpRequest();
-  request.open('GET', '{{ "assets/js/search-data.json" | absolute_url }}', true);
+  request.open('GET', '/assets/js/search-data.json', true);
 
   request.onload = function(){
     if (request.status >= 200 && request.status < 400) {
@@ -455,7 +462,7 @@ jtd.getTheme = function() {
 
 jtd.setTheme = function(theme) {
   var cssFile = document.querySelector('[rel="stylesheet"]');
-  cssFile.setAttribute('href', '{{ "assets/css/just-the-docs-" | absolute_url }}' + theme + '.css');
+  cssFile.setAttribute('href', '/assets/css/just-the-docs-' + theme + '.css');
 }
 
 // Document ready

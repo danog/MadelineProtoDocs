@@ -18,10 +18,10 @@
     align-items: flex-end;
   }
 
-  @include mq(lg) {
+  /*@include mq(lg) {
     width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
     min-width: $nav-width;
-  }
+  }*/
 }
 
 .main {
@@ -31,11 +31,11 @@
     margin-left: $nav-width-md;
   }
 
-  @include mq(lg) {
+  /*@include mq(lg) {
     margin-left: calc(
       (100% - #{$nav-width + $content-width}) / 2 + #{$nav-width}
     );
-  }
+  }*/
 }
 
 .main-content-wrap {
