@@ -1,14 +1,12 @@
 #!/bin/bash -e
 
-wget https://go.dev/dl/go1.17.5.linux-amd64.tar.gz
-tar -xzf go1.17.5.linux-amd64.tar.gz
-
-export PATH=$PWD/go/bin:$PATH
-
-go version
-
 cd docs
-go get github.com/danog/gojekyll
-gem install rouge
 gojekyll clean
 gojekyll build
+rm -rf ../../_site
+cp -a _site ../../
+cd ..
+
+git checkout gh-pages
+rm -rf *
+cp -a ../_site/* .
