@@ -1,0 +1,3 @@
+[submodule "gojekyll"]
+	path = gojekyll
+	url = https://github.com/danog/gojekyll
