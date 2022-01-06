@@ -17,6 +17,7 @@ DB array interface.
 
 
 ## Method list:
+* `unreference(): void`
 * `getArrayCopy(): \Amp\Promise`
 * `isset(string|int $key): \Amp\Promise`
 * `unset(string|int $key): \Amp\Promise`
@@ -29,6 +30,12 @@ DB array interface.
 * `getInstance(string $table, null|\danog\MadelineProto\Db\DbType|array $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise<self>`
 
 ## Methods:
+### `unreference(): void`
+
+Unreference instance to allow destruction.
+
+
+
 ### `getArrayCopy(): \Amp\Promise`
 
 Get Array copy.

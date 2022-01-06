@@ -20,6 +20,7 @@ Send a media
 |silent|[Bool](../types/Bool.md) | Send message silently (no notification should be triggered) | Optional|
 |background|[Bool](../types/Bool.md) | Send message in background | Optional|
 |clear\_draft|[Bool](../types/Bool.md) | Clear the draft | Optional|
+|noforwards|[Bool](../types/Bool.md) |  | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Destination | Optional|
 |reply\_to\_msg\_id|[int](../types/int.md) | Message ID to which this message should reply to | Optional|
 |media|[MessageMedia, Update, Message or InputMedia](../types/InputMedia.md) | Attached media | Optional|
@@ -48,13 +49,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendMedia(['silent' => Bool, 'background' => Bool, 'clear_draft' => Bool, 'peer' => InputPeer, 'reply_to_msg_id' => int, 'media' => InputMedia, 'message' => 'string', 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', 'schedule_date' => int, 'send_as' => InputPeer, ]);
+$Updates = $MadelineProto->messages->sendMedia(['silent' => Bool, 'background' => Bool, 'clear_draft' => Bool, 'noforwards' => Bool, 'peer' => InputPeer, 'reply_to_msg_id' => int, 'media' => InputMedia, 'message' => 'string', 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', 'schedule_date' => int, 'send_as' => InputPeer, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Updates = messages.sendMedia({silent=Bool, background=Bool, clear_draft=Bool, peer=InputPeer, reply_to_msg_id=int, media=InputMedia, message='string', reply_markup=ReplyMarkup, entities={MessageEntity}, parseMode='string', schedule_date=int, send_as=InputPeer, })
+Updates = messages.sendMedia({silent=Bool, background=Bool, clear_draft=Bool, noforwards=Bool, peer=InputPeer, reply_to_msg_id=int, media=InputMedia, message='string', reply_markup=ReplyMarkup, entities={MessageEntity}, parseMode='string', schedule_date=int, send_as=InputPeer, })
 ```
 
 

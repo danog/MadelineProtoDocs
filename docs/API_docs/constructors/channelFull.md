@@ -57,6 +57,7 @@ Full info about a [channel/supergroup](https://core.telegram.org/api/channel)
 |requests\_pending|[int](../types/int.md) | Optional|
 |recent\_requesters|Array of [long](../types/long.md) | Optional|
 |default\_send\_as|[Peer](../types/Peer.md) | Optional|
+|available\_reactions|Array of [string](../types/string.md) | Optional|
 
 
 
@@ -66,14 +67,14 @@ Full info about a [channel/supergroup](https://core.telegram.org/api/channel)
 ### Example:
 
 ```php
-$channelFull = ['_' => 'channelFull', 'can_view_participants' => Bool, 'can_set_username' => Bool, 'can_set_stickers' => Bool, 'hidden_prehistory' => Bool, 'can_set_location' => Bool, 'has_scheduled' => Bool, 'can_view_stats' => Bool, 'blocked' => Bool, 'id' => long, 'about' => 'string', 'participants_count' => int, 'admins_count' => int, 'kicked_count' => int, 'banned_count' => int, 'online_count' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'unread_count' => int, 'chat_photo' => Photo, 'notify_settings' => PeerNotifySettings, 'exported_invite' => ExportedChatInvite, 'bot_info' => [BotInfo, BotInfo], 'migrated_from_chat_id' => long, 'migrated_from_max_id' => int, 'pinned_msg_id' => int, 'stickerset' => StickerSet, 'available_min_id' => int, 'folder_id' => int, 'linked_chat_id' => long, 'location' => ChannelLocation, 'slowmode_seconds' => int, 'slowmode_next_send_date' => int, 'stats_dc' => int, 'pts' => int, 'call' => InputGroupCall, 'ttl_period' => int, 'pending_suggestions' => ['string', 'string'], 'groupcall_default_join_as' => Peer, 'theme_emoticon' => 'string', 'requests_pending' => int, 'recent_requesters' => [long, long], 'default_send_as' => Peer];
+$channelFull = ['_' => 'channelFull', 'can_view_participants' => Bool, 'can_set_username' => Bool, 'can_set_stickers' => Bool, 'hidden_prehistory' => Bool, 'can_set_location' => Bool, 'has_scheduled' => Bool, 'can_view_stats' => Bool, 'blocked' => Bool, 'id' => long, 'about' => 'string', 'participants_count' => int, 'admins_count' => int, 'kicked_count' => int, 'banned_count' => int, 'online_count' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'unread_count' => int, 'chat_photo' => Photo, 'notify_settings' => PeerNotifySettings, 'exported_invite' => ExportedChatInvite, 'bot_info' => [BotInfo, BotInfo], 'migrated_from_chat_id' => long, 'migrated_from_max_id' => int, 'pinned_msg_id' => int, 'stickerset' => StickerSet, 'available_min_id' => int, 'folder_id' => int, 'linked_chat_id' => long, 'location' => ChannelLocation, 'slowmode_seconds' => int, 'slowmode_next_send_date' => int, 'stats_dc' => int, 'pts' => int, 'call' => InputGroupCall, 'ttl_period' => int, 'pending_suggestions' => ['string', 'string'], 'groupcall_default_join_as' => Peer, 'theme_emoticon' => 'string', 'requests_pending' => int, 'recent_requesters' => [long, long], 'default_send_as' => Peer, 'available_reactions' => ['string', 'string']];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-channelFull={_='channelFull', can_view_participants=Bool, can_set_username=Bool, can_set_stickers=Bool, hidden_prehistory=Bool, can_set_location=Bool, has_scheduled=Bool, can_view_stats=Bool, blocked=Bool, id=long, about='string', participants_count=int, admins_count=int, kicked_count=int, banned_count=int, online_count=int, read_inbox_max_id=int, read_outbox_max_id=int, unread_count=int, chat_photo=Photo, notify_settings=PeerNotifySettings, exported_invite=ExportedChatInvite, bot_info={BotInfo}, migrated_from_chat_id=long, migrated_from_max_id=int, pinned_msg_id=int, stickerset=StickerSet, available_min_id=int, folder_id=int, linked_chat_id=long, location=ChannelLocation, slowmode_seconds=int, slowmode_next_send_date=int, stats_dc=int, pts=int, call=InputGroupCall, ttl_period=int, pending_suggestions={'string'}, groupcall_default_join_as=Peer, theme_emoticon='string', requests_pending=int, recent_requesters={long}, default_send_as=Peer}
+channelFull={_='channelFull', can_view_participants=Bool, can_set_username=Bool, can_set_stickers=Bool, hidden_prehistory=Bool, can_set_location=Bool, has_scheduled=Bool, can_view_stats=Bool, blocked=Bool, id=long, about='string', participants_count=int, admins_count=int, kicked_count=int, banned_count=int, online_count=int, read_inbox_max_id=int, read_outbox_max_id=int, unread_count=int, chat_photo=Photo, notify_settings=PeerNotifySettings, exported_invite=ExportedChatInvite, bot_info={BotInfo}, migrated_from_chat_id=long, migrated_from_max_id=int, pinned_msg_id=int, stickerset=StickerSet, available_min_id=int, folder_id=int, linked_chat_id=long, location=ChannelLocation, slowmode_seconds=int, slowmode_next_send_date=int, stats_dc=int, pts=int, call=InputGroupCall, ttl_period=int, pending_suggestions={'string'}, groupcall_default_join_as=Peer, theme_emoticon='string', requests_pending=int, recent_requesters={long}, default_send_as=Peer, available_reactions={'string'}}
 
 ```
 

@@ -20,6 +20,7 @@ Send an [album or grouped media](https://core.telegram.org/api/files#albums-grou
 |silent|[Bool](../types/Bool.md) | Whether to send the album silently (no notification triggered) | Optional|
 |background|[Bool](../types/Bool.md) | Send in background? | Optional|
 |clear\_draft|[Bool](../types/Bool.md) | Whether to clear [drafts](https://core.telegram.org/api/drafts) | Optional|
+|noforwards|[Bool](../types/Bool.md) |  | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The destination chat | Optional|
 |reply\_to\_msg\_id|[int](../types/int.md) | The message to reply to | Optional|
 |multi\_media|Array of [InputSingleMedia](../types/InputSingleMedia.md) | The medias to send | Yes|
@@ -44,13 +45,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendMultiMedia(['silent' => Bool, 'background' => Bool, 'clear_draft' => Bool, 'peer' => InputPeer, 'reply_to_msg_id' => int, 'multi_media' => [InputSingleMedia, InputSingleMedia], 'schedule_date' => int, 'send_as' => InputPeer, ]);
+$Updates = $MadelineProto->messages->sendMultiMedia(['silent' => Bool, 'background' => Bool, 'clear_draft' => Bool, 'noforwards' => Bool, 'peer' => InputPeer, 'reply_to_msg_id' => int, 'multi_media' => [InputSingleMedia, InputSingleMedia], 'schedule_date' => int, 'send_as' => InputPeer, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Updates = messages.sendMultiMedia({silent=Bool, background=Bool, clear_draft=Bool, peer=InputPeer, reply_to_msg_id=int, multi_media={InputSingleMedia}, schedule_date=int, send_as=InputPeer, })
+Updates = messages.sendMultiMedia({silent=Bool, background=Bool, clear_draft=Bool, noforwards=Bool, peer=InputPeer, reply_to_msg_id=int, multi_media={InputSingleMedia}, schedule_date=int, send_as=InputPeer, })
 ```
 
 ### Errors

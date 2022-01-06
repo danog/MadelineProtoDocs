@@ -72,4 +72,4 @@ $secret_chat = yield $MadelineProto->getSecretChat($chat);
 
 This method gets info about a certain chat.
 
-<a href="https://docs.madelineproto.xyz/docs/LUA.html">Next section</a>
+<a href="https://docs.madelineproto.xyz/docs/PROXY.html">Next section</a>

@@ -1,7 +1,7 @@
 ---
 title: "Web templates for `$MadelineProto->start()`"
 description: "You get the web template used for the $MadelineProto->start() web UI thusly:"
-nav_order: 27
+nav_order: 26
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Web templates for `$MadelineProto->start()`

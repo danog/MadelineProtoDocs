@@ -13,7 +13,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|from\_id|[Peer](../types/Peer.md) | Yes|
+|from\_id|[Peer](../types/Peer.md) | Optional|
+|chat\_invite|[ChatInvite](../types/ChatInvite.md) | Optional|
+|chat\_invite\_hash|[string](../types/string.md) | Optional|
 |channel\_post|[int](../types/int.md) | Optional|
 |start\_param|[string](../types/string.md) | Optional|
 |message|[string](../types/string.md) | Yes|
@@ -27,14 +29,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```php
-$sponsoredMessage = ['_' => 'sponsoredMessage', 'from_id' => Peer, 'channel_post' => int, 'start_param' => 'string', 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]];
+$sponsoredMessage = ['_' => 'sponsoredMessage', 'from_id' => Peer, 'chat_invite' => ChatInvite, 'chat_invite_hash' => 'string', 'channel_post' => int, 'start_param' => 'string', 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-sponsoredMessage={_='sponsoredMessage', from_id=Peer, channel_post=int, start_param='string', message='string', entities={MessageEntity}}
+sponsoredMessage={_='sponsoredMessage', from_id=Peer, chat_invite=ChatInvite, chat_invite_hash='string', channel_post=int, start_param='string', message='string', entities={MessageEntity}}
 
 ```
 

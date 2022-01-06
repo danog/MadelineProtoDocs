@@ -22,6 +22,7 @@ Forwards messages by their IDs.
 |with\_my\_score|[Bool](../types/Bool.md) | When forwarding games, whether to include your score in the game | Optional|
 |drop\_author|[Bool](../types/Bool.md) |  | Optional|
 |drop\_media\_captions|[Bool](../types/Bool.md) |  | Optional|
+|noforwards|[Bool](../types/Bool.md) |  | Optional|
 |from\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Source of messages | Optional|
 |id|Array of [int](../types/int.md) | IDs of messages | Yes|
 |to\_peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Destination peer | Optional|
@@ -46,13 +47,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->forwardMessages(['silent' => Bool, 'background' => Bool, 'with_my_score' => Bool, 'drop_author' => Bool, 'drop_media_captions' => Bool, 'from_peer' => InputPeer, 'id' => [int, int], 'to_peer' => InputPeer, 'schedule_date' => int, 'send_as' => InputPeer, ]);
+$Updates = $MadelineProto->messages->forwardMessages(['silent' => Bool, 'background' => Bool, 'with_my_score' => Bool, 'drop_author' => Bool, 'drop_media_captions' => Bool, 'noforwards' => Bool, 'from_peer' => InputPeer, 'id' => [int, int], 'to_peer' => InputPeer, 'schedule_date' => int, 'send_as' => InputPeer, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Updates = messages.forwardMessages({silent=Bool, background=Bool, with_my_score=Bool, drop_author=Bool, drop_media_captions=Bool, from_peer=InputPeer, id={int}, to_peer=InputPeer, schedule_date=int, send_as=InputPeer, })
+Updates = messages.forwardMessages({silent=Bool, background=Bool, with_my_score=Bool, drop_author=Bool, drop_media_captions=Bool, noforwards=Bool, from_peer=InputPeer, id={int}, to_peer=InputPeer, schedule_date=int, send_as=InputPeer, })
 ```
 
 ### Errors

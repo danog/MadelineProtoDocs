@@ -917,7 +917,7 @@ $MadelineProto->[messages->faveSticker](messages.faveSticker.md)(\['id' => [Inpu
 
 ***
 <br><br>
-$MadelineProto->[messages->forwardMessages](messages.forwardMessages.md)(\['silent' => [Bool](../types/Bool.md), 'background' => [Bool](../types/Bool.md), 'with_my_score' => [Bool](../types/Bool.md), 'drop_author' => [Bool](../types/Bool.md), 'drop_media_captions' => [Bool](../types/Bool.md), 'from_peer' => [InputPeer](../types/InputPeer.md), 'id' => \[[int](../types/int.md)\], 'to_peer' => [InputPeer](../types/InputPeer.md), 'schedule_date' => [int](../types/int.md), 'send_as' => [InputPeer](../types/InputPeer.md), \]) === [$Updates](../types/Updates.md)<a name="messages.forwardMessages"></a>  
+$MadelineProto->[messages->forwardMessages](messages.forwardMessages.md)(\['silent' => [Bool](../types/Bool.md), 'background' => [Bool](../types/Bool.md), 'with_my_score' => [Bool](../types/Bool.md), 'drop_author' => [Bool](../types/Bool.md), 'drop_media_captions' => [Bool](../types/Bool.md), 'noforwards' => [Bool](../types/Bool.md), 'from_peer' => [InputPeer](../types/InputPeer.md), 'id' => \[[int](../types/int.md)\], 'to_peer' => [InputPeer](../types/InputPeer.md), 'schedule_date' => [int](../types/int.md), 'send_as' => [InputPeer](../types/InputPeer.md), \]) === [$Updates](../types/Updates.md)<a name="messages.forwardMessages"></a>  
 
 ***
 <br><br>
@@ -942,6 +942,10 @@ $MadelineProto->[messages->getArchivedStickers](messages.getArchivedStickers.md)
 ***
 <br><br>
 $MadelineProto->[messages->getAttachedStickers](messages.getAttachedStickers.md)(\['media' => [InputStickeredMedia](../types/InputStickeredMedia.md), \]) === [$Vector\_of\_StickerSetCovered](../types/StickerSetCovered.md)<a name="messages.getAttachedStickers"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->getAvailableReactions](messages.getAvailableReactions.md)(\['hash' => [int](../types/int.md), \]) === [$messages.AvailableReactions](../types/messages.AvailableReactions.md)<a name="messages.getAvailableReactions"></a>  
 
 ***
 <br><br>
@@ -1045,11 +1049,19 @@ $MadelineProto->[messages->getMessageEditData](messages.getMessageEditData.md)(\
 
 ***
 <br><br>
+$MadelineProto->[messages->getMessageReactionsList](messages.getMessageReactionsList.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'id' => [int](../types/int.md), 'reaction' => [string](../types/string.md), 'offset' => [string](../types/string.md), 'limit' => [int](../types/int.md), \]) === [$messages.MessageReactionsList](../types/messages.MessageReactionsList.md)<a name="messages.getMessageReactionsList"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->getMessageReadParticipants](messages.getMessageReadParticipants.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'msg_id' => [int](../types/int.md), \]) === [$Vector\_of\_long](../types/long.md)<a name="messages.getMessageReadParticipants"></a>  
 
 ***
 <br><br>
 $MadelineProto->[messages->getMessages](messages.getMessages.md)(\['id' => \[[InputMessage](../types/InputMessage.md)\], \]) === [$messages.Messages](../types/messages.Messages.md)<a name="messages.getMessages"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->getMessagesReactions](messages.getMessagesReactions.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'id' => \[[int](../types/int.md)\], \]) === [$Updates](../types/Updates.md)<a name="messages.getMessagesReactions"></a>  
 
 ***
 <br><br>
@@ -1285,15 +1297,19 @@ $MadelineProto->[messages->sendInlineBotResult](messages.sendInlineBotResult.md)
 
 ***
 <br><br>
-$MadelineProto->[messages->sendMedia](messages.sendMedia.md)(\['silent' => [Bool](../types/Bool.md), 'background' => [Bool](../types/Bool.md), 'clear_draft' => [Bool](../types/Bool.md), 'peer' => [InputPeer](../types/InputPeer.md), 'reply_to_msg_id' => [int](../types/int.md), 'media' => [InputMedia](../types/InputMedia.md), 'message' => [string](../types/string.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], 'schedule_date' => [int](../types/int.md), 'send_as' => [InputPeer](../types/InputPeer.md), \]) === [$Updates](../types/Updates.md)<a name="messages.sendMedia"></a>  
+$MadelineProto->[messages->sendMedia](messages.sendMedia.md)(\['silent' => [Bool](../types/Bool.md), 'background' => [Bool](../types/Bool.md), 'clear_draft' => [Bool](../types/Bool.md), 'noforwards' => [Bool](../types/Bool.md), 'peer' => [InputPeer](../types/InputPeer.md), 'reply_to_msg_id' => [int](../types/int.md), 'media' => [InputMedia](../types/InputMedia.md), 'message' => [string](../types/string.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], 'schedule_date' => [int](../types/int.md), 'send_as' => [InputPeer](../types/InputPeer.md), \]) === [$Updates](../types/Updates.md)<a name="messages.sendMedia"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->sendMessage](messages.sendMessage.md)(\['no_webpage' => [Bool](../types/Bool.md), 'silent' => [Bool](../types/Bool.md), 'background' => [Bool](../types/Bool.md), 'clear_draft' => [Bool](../types/Bool.md), 'peer' => [InputPeer](../types/InputPeer.md), 'reply_to_msg_id' => [int](../types/int.md), 'message' => [string](../types/string.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], 'schedule_date' => [int](../types/int.md), 'send_as' => [InputPeer](../types/InputPeer.md), \]) === [$Updates](../types/Updates.md)<a name="messages.sendMessage"></a>  
+$MadelineProto->[messages->sendMessage](messages.sendMessage.md)(\['no_webpage' => [Bool](../types/Bool.md), 'silent' => [Bool](../types/Bool.md), 'background' => [Bool](../types/Bool.md), 'clear_draft' => [Bool](../types/Bool.md), 'noforwards' => [Bool](../types/Bool.md), 'peer' => [InputPeer](../types/InputPeer.md), 'reply_to_msg_id' => [int](../types/int.md), 'message' => [string](../types/string.md), 'reply_markup' => [ReplyMarkup](../types/ReplyMarkup.md), 'entities' => \[[MessageEntity](../types/MessageEntity.md)\], 'schedule_date' => [int](../types/int.md), 'send_as' => [InputPeer](../types/InputPeer.md), \]) === [$Updates](../types/Updates.md)<a name="messages.sendMessage"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->sendMultiMedia](messages.sendMultiMedia.md)(\['silent' => [Bool](../types/Bool.md), 'background' => [Bool](../types/Bool.md), 'clear_draft' => [Bool](../types/Bool.md), 'peer' => [InputPeer](../types/InputPeer.md), 'reply_to_msg_id' => [int](../types/int.md), 'multi_media' => \[[InputSingleMedia](../types/InputSingleMedia.md)\], 'schedule_date' => [int](../types/int.md), 'send_as' => [InputPeer](../types/InputPeer.md), \]) === [$Updates](../types/Updates.md)<a name="messages.sendMultiMedia"></a>  
+$MadelineProto->[messages->sendMultiMedia](messages.sendMultiMedia.md)(\['silent' => [Bool](../types/Bool.md), 'background' => [Bool](../types/Bool.md), 'clear_draft' => [Bool](../types/Bool.md), 'noforwards' => [Bool](../types/Bool.md), 'peer' => [InputPeer](../types/InputPeer.md), 'reply_to_msg_id' => [int](../types/int.md), 'multi_media' => \[[InputSingleMedia](../types/InputSingleMedia.md)\], 'schedule_date' => [int](../types/int.md), 'send_as' => [InputPeer](../types/InputPeer.md), \]) === [$Updates](../types/Updates.md)<a name="messages.sendMultiMedia"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->sendReaction](messages.sendReaction.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'msg_id' => [int](../types/int.md), 'reaction' => [string](../types/string.md), \]) === [$Updates](../types/Updates.md)<a name="messages.sendReaction"></a>  
 
 ***
 <br><br>
@@ -1321,7 +1337,15 @@ $MadelineProto->[messages->setBotShippingResults](messages.setBotShippingResults
 
 ***
 <br><br>
+$MadelineProto->[messages->setChatAvailableReactions](messages.setChatAvailableReactions.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'available_reactions' => \[[string](../types/string.md)\], \]) === [$Updates](../types/Updates.md)<a name="messages.setChatAvailableReactions"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->setChatTheme](messages.setChatTheme.md)(\['peer' => [InputPeer](../types/InputPeer.md), 'emoticon' => [string](../types/string.md), \]) === [$Updates](../types/Updates.md)<a name="messages.setChatTheme"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->setDefaultReaction](messages.setDefaultReaction.md)(\['reaction' => [string](../types/string.md), \]) === [$Bool](../types/Bool.md)<a name="messages.setDefaultReaction"></a>  
 
 ***
 <br><br>

@@ -201,6 +201,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateBotChatInviteRequester](../constructors/updateBotChatInviteRequester.md)  
 
+[updateMessageReactions](../constructors/updateMessageReactions.md)  
+
 
 
 ### Methods that return an object of this type (methods):
@@ -396,4 +398,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [updatePendingJoinRequests](../constructors/updatePendingJoinRequests.md)  
 
 [updateBotChatInviteRequester](../constructors/updateBotChatInviteRequester.md)  
+
+[updateMessageReactions](../constructors/updateMessageReactions.md)  
 

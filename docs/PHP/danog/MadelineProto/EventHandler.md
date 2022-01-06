@@ -19,7 +19,6 @@ Event handler.
 ## Method list:
 * `startAndLoop(string $session, \danog\MadelineProto\SettingsAbstract $settings): void`
 * `getReportPeers(): array|string|int`
-* `getAPI(): \danog\MadelineProto\MTProto`
 * `MTProtoToBotAPI(array $data): \Amp\Promise<array>`
 * `MTProtoToTd(mixed $params): \Amp\Promise`
 * `MTProtoToTdcli(mixed $params): \Amp\Promise`
@@ -52,11 +51,11 @@ Event handler.
 * `discardCall(array $call, array $reason, array $rating, bool $need_debug): \Amp\Promise`
 * `discardSecretChat(int $chat): \Amp\Promise`
 * `downloadToBrowser(array|string $messageMedia, callable $cb): \Amp\Promise`
-* `downloadToCallable(mixed $messageMedia, callable|\danog\MadelineProto\FileCallbackInterface $callable, callable $cb, bool $seekable, int $offset, int $end, int $part_size): \Amp\Promise`
-* `downloadToDir(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $dir, callable $cb): \Amp\Promise`
-* `downloadToFile(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $file, callable $cb): \Amp\Promise Downloaded file path`
+* `downloadToCallable(mixed $messageMedia, callable|\FileCallbackInterface $callable, callable $cb, bool $seekable, int $offset, int $end, int $part_size): \Amp\Promise`
+* `downloadToDir(mixed $messageMedia, string|\FileCallbackInterface $dir, callable $cb): \Amp\Promise`
+* `downloadToFile(mixed $messageMedia, string|\FileCallbackInterface $file, callable $cb): \Amp\Promise Downloaded file path`
 * `downloadToResponse(array|string $messageMedia, \ServerRequest $request, callable $cb): \Amp\Promise Returned response`
-* `downloadToStream(mixed $messageMedia, mixed|\danog\MadelineProto\FileCallbackInterface $stream, callable $cb, int $offset, int $end): \Amp\Promise`
+* `downloadToStream(mixed $messageMedia, mixed|\FileCallbackInterface $stream, callable $cb, int $offset, int $end): \Amp\Promise`
 * `echo(string $string): \Amp\Promise`
 * `end(array $what): mixed`
 * `exportAuthorization(): \Amp\Promise`
@@ -74,6 +73,9 @@ Event handler.
 * `getCall(int $call): mixed`
 * `getCdnConfig(string $datacenter): \Amp\Promise`
 * `getConfig(array $config, array $options): \Amp\Promise`
+* `getConstructorBeforeCallbacks(): mixed`
+* `getConstructorCallbacks(): mixed`
+* `getConstructorSerializeCallbacks(): mixed`
 * `getDNSClient(): mixed`
 * `getDataCenterConnections(): mixed`
 * `getDataCenterId(): int|string`
@@ -91,6 +93,8 @@ Event handler.
 * `getId(mixed $id): int`
 * `getInfo(mixed $id, bool $recursive): \Amp\Promise Info object`
 * `getLogger()`
+* `getMethodBeforeCallbacks(): mixed`
+* `getMethodCallbacks(): mixed`
 * `getMethodNamespaces(): mixed`
 * `getMethodsNamespaced(): mixed`
 * `getMimeFromBuffer(string $buffer): string`
@@ -104,6 +108,7 @@ Event handler.
 * `getSettings(): mixed`
 * `getSponsoredMessages(int|array $peer): \Amp\Promise`
 * `getTL(): mixed`
+* `getTypeMismatchCallbacks(): mixed`
 * `getVar(object $obj, string $var): mixed`
 * `getWebMessage(string $message)`
 * `getWebTemplate(): mixed`
@@ -152,9 +157,8 @@ Event handler.
 * `rleDecode(string $string): string`
 * `rleEncode(string $string): string`
 * `secretChatStatus(int $chat): mixed`
-* `serializeAll(): void`
 * `setCallback(callable $callback): mixed`
-* `setEventHandler(class-string<\danog\MadelineProto\EventHandler> $eventHandler): \Amp\Promise`
+* `setEventHandler(class-string<\EventHandler> $eventHandler): \Amp\Promise`
 * `setNoop(): mixed`
 * `setReportPeers(int|string $userOrId): \Amp\Promise`
 * `setVar(object $obj, string $var, mixed $val): void`
@@ -181,20 +185,16 @@ Event handler.
 * `unpackSignedLongString(string|int|array $value): string`
 * `unsetEventHandler(bool $disableUpdateHandling): mixed`
 * `update2fa(array $params): \Amp\Promise`
-* `updateSettings(\danog\MadelineProto\SettingsAbstract $settings): \Amp\Promise`
-* `upload(\danog\MadelineProto\FileCallbackInterface|string|array $file, string $fileName, callable $cb, bool $encrypted): \Amp\Promise`
-* `uploadEncrypted(\danog\MadelineProto\FileCallbackInterface|string|array $file, string $fileName, callable $cb): \Amp\Promise`
+* `updateSettings(\SettingsAbstract $settings): \Amp\Promise`
+* `upload(\FileCallbackInterface|string|array $file, string $fileName, callable $cb, bool $encrypted): \Amp\Promise`
+* `uploadEncrypted(\FileCallbackInterface|string|array $file, string $fileName, callable $cb): \Amp\Promise`
 * `uploadFromCallable(mixed $callable, int $size, string $mime, string $fileName, callable $cb, bool $seekable, bool $encrypted): \Amp\Promise`
 * `uploadFromStream(mixed $stream, int $size, string $mime, string $fileName, callable $cb, bool $encrypted): \Amp\Promise`
 * `uploadFromTgfile(mixed $media, callable $cb, bool $encrypted): \Amp\Promise`
-* `uploadFromUrl(string|\danog\MadelineProto\FileCallbackInterface $url, int $size, string $fileName, callable $cb, bool $encrypted): \Amp\Promise`
+* `uploadFromUrl(string|\FileCallbackInterface $url, int $size, string $fileName, callable $cb, bool $encrypted): \Amp\Promise`
 * `viewSponsoredMessage(int|array $peer): \Amp\Promise Bool`
 * `wait(\Generator|\Promise $promise, bool $ignoreSignal): mixed`
 * `async(bool $async): void`
-* `init(): void`
-* `initAsynchronously(): \Generator`
-* `inited(): bool`
-* `forceInit(bool $inited): void`
 
 ## Methods:
 ### `startAndLoop(string $session, \danog\MadelineProto\SettingsAbstract $settings): void`
@@ -216,17 +216,6 @@ Parameters:
 ### `getReportPeers(): array|string|int`
 
 Get peers where to send error reports.
-
-
-
-### `getAPI(): \danog\MadelineProto\MTProto`
-
-Get API instance.
-
-
-#### See also: 
-* `\danog\MadelineProto\MTProto`
-
 
 
 
@@ -706,7 +695,7 @@ Parameters:
 
 
 
-### `downloadToCallable(mixed $messageMedia, callable|\danog\MadelineProto\FileCallbackInterface $callable, callable $cb, bool $seekable, int $offset, int $end, int $part_size): \Amp\Promise`
+### `downloadToCallable(mixed $messageMedia, callable|\FileCallbackInterface $callable, callable $cb, bool $seekable, int $offset, int $end, int $part_size): \Amp\Promise`
 
 Download file to callable.
 The callable must accept two parameters: string $payload, int $offset
@@ -715,7 +704,7 @@ The callable should return the number of written bytes.
 
 Parameters:
 * `$messageMedia`: `mixed` File to download  
-* `$callable`: `callable|\danog\MadelineProto\FileCallbackInterface` Chunk callback  
+* `$callable`: `callable|\FileCallbackInterface` Chunk callback  
 * `$cb`: `callable` Status callback (DEPRECATED, use FileCallbackInterface)  
 * `$seekable`: `bool` Whether the callable can be called out of order  
 * `$offset`: `int` Offset where to start downloading  
@@ -728,20 +717,20 @@ Fully typed return value:
 \Amp\Promise<true>
 ```
 #### See also: 
-* [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](./FileCallbackInterface.md)
+* `\FileCallbackInterface`
 * `\Amp\Promise`
 
 
 
 
-### `downloadToDir(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $dir, callable $cb): \Amp\Promise`
+### `downloadToDir(mixed $messageMedia, string|\FileCallbackInterface $dir, callable $cb): \Amp\Promise`
 
 Download file to directory.
 
 
 Parameters:
 * `$messageMedia`: `mixed` File to download  
-* `$dir`: `string|\danog\MadelineProto\FileCallbackInterface` Directory where to download the file  
+* `$dir`: `string|\FileCallbackInterface` Directory where to download the file  
 * `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
 
 
@@ -750,20 +739,20 @@ Fully typed return value:
 \Amp\Promise<false|string>
 ```
 #### See also: 
-* [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](./FileCallbackInterface.md)
+* `\FileCallbackInterface`
 * `\Amp\Promise`
 
 
 
 
-### `downloadToFile(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $file, callable $cb): \Amp\Promise Downloaded file path`
+### `downloadToFile(mixed $messageMedia, string|\FileCallbackInterface $file, callable $cb): \Amp\Promise Downloaded file path`
 
 Download file.
 
 
 Parameters:
 * `$messageMedia`: `mixed` File to download  
-* `$file`: `string|\danog\MadelineProto\FileCallbackInterface` Downloaded file path  
+* `$file`: `string|\FileCallbackInterface` Downloaded file path  
 * `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
 
 
@@ -774,7 +763,7 @@ Fully typed return value:
 \Amp\Promise<false|string>
 ```
 #### See also: 
-* [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](./FileCallbackInterface.md)
+* `\FileCallbackInterface`
 * `\Amp\Promise`
 
 
@@ -805,14 +794,14 @@ Fully typed return value:
 
 
 
-### `downloadToStream(mixed $messageMedia, mixed|\danog\MadelineProto\FileCallbackInterface $stream, callable $cb, int $offset, int $end): \Amp\Promise`
+### `downloadToStream(mixed $messageMedia, mixed|\FileCallbackInterface $stream, callable $cb, int $offset, int $end): \Amp\Promise`
 
 Download file to stream.
 
 
 Parameters:
 * `$messageMedia`: `mixed` File to download  
-* `$stream`: `mixed|\danog\MadelineProto\FileCallbackInterface` Stream where to download file  
+* `$stream`: `mixed|\FileCallbackInterface` Stream where to download file  
 * `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
 * `$offset`: `int` Offset where to start downloading  
 * `$end`: `int` Offset where to end download  
@@ -823,7 +812,7 @@ Fully typed return value:
 \Amp\Promise<mixed>
 ```
 #### See also: 
-* [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](./FileCallbackInterface.md)
+* `\FileCallbackInterface`
 * `\Amp\Promise`
 
 
@@ -1078,6 +1067,51 @@ Parameters:
 
 
 
+### `getConstructorBeforeCallbacks(): mixed`
+
+Called right before deserialization of object.
+Pass only the constructor name
+
+Fully typed return value:
+```
+array|\Amp\Promise<array>
+```
+#### See also: 
+* `\Amp\Promise`
+
+
+
+
+### `getConstructorCallbacks(): mixed`
+
+Called right after deserialization of object, passing the final object.
+
+
+Fully typed return value:
+```
+array|\Amp\Promise<array>
+```
+#### See also: 
+* `\Amp\Promise`
+
+
+
+
+### `getConstructorSerializeCallbacks(): mixed`
+
+Called right before serialization of constructor.
+Passed the object, will return a modified version.
+
+Fully typed return value:
+```
+array|\Amp\Promise<array>
+```
+#### See also: 
+* `\Amp\Promise`
+
+
+
+
 ### `getDNSClient(): mixed`
 
 Get async DNS client.
@@ -1101,10 +1135,10 @@ Get all datacenter connections.
 
 Fully typed return value:
 ```
-array<\danog\MadelineProto\DataCenterConnection>|\Amp\Promise<array<\danog\MadelineProto\DataCenterConnection>>
+array<\DataCenterConnection>|\Amp\Promise<array<\DataCenterConnection>>
 ```
 #### See also: 
-* `\danog\MadelineProto\DataCenterConnection`
+* `\DataCenterConnection`
 * `\Amp\Promise`
 
 
@@ -1164,7 +1198,7 @@ Fully typed return value:
 \danog\MadelineProto\EventHandler|\Amp\Promise<\danog\MadelineProto\EventHandler>
 ```
 #### See also: 
-* [`\danog\MadelineProto\EventHandler`: Event handler.](./EventHandler.md)
+* [`\danog\MadelineProto\EventHandler`: Event handler.](../EventHandler.md)
 * `\Amp\Promise`
 
 
@@ -1325,6 +1359,36 @@ Get logger.
 
 
 
+### `getMethodBeforeCallbacks(): mixed`
+
+Called right before serialization of method starts.
+Pass the method name
+
+Fully typed return value:
+```
+array|\Amp\Promise<array>
+```
+#### See also: 
+* `\Amp\Promise`
+
+
+
+
+### `getMethodCallbacks(): mixed`
+
+Called right before serialization of method starts.
+Pass the method name
+
+Fully typed return value:
+```
+array|\Amp\Promise<array>
+```
+#### See also: 
+* `\Amp\Promise`
+
+
+
+
 ### `getMethodNamespaces(): mixed`
 
 Get TL namespaces.
@@ -1463,7 +1527,7 @@ Fully typed return value:
 \danog\MadelineProto\Settings|\Amp\Promise<\danog\MadelineProto\Settings>
 ```
 #### See also: 
-* [`\danog\MadelineProto\Settings`: Settings class used for configuring MadelineProto.](./Settings.md)
+* [`\danog\MadelineProto\Settings`: Settings class used for configuring MadelineProto.](../Settings.md)
 * `\Amp\Promise`
 
 
@@ -1497,6 +1561,22 @@ Fully typed return value:
 ```
 #### See also: 
 * `\danog\MadelineProto\TL\TL`
+* `\Amp\Promise`
+
+
+
+
+### `getTypeMismatchCallbacks(): mixed`
+
+Called if objects of the specified type cannot be serialized.
+Passed the unserializable object,
+will try to convert it to an object of the proper type.
+
+Fully typed return value:
+```
+array|\Amp\Promise<array>
+```
+#### See also: 
 * `\Amp\Promise`
 
 
@@ -2145,12 +2225,6 @@ int|\Amp\Promise<int>
 
 
 
-### `serializeAll(): void`
-
-Serialize all instances.
-CALLED ONLY ON SHUTDOWN.
-
-
 ### `setCallback(callable $callback): mixed`
 
 Set update handling callback.
@@ -2170,17 +2244,17 @@ void|\Amp\Promise<void>
 
 
 
-### `setEventHandler(class-string<\danog\MadelineProto\EventHandler> $eventHandler): \Amp\Promise`
+### `setEventHandler(class-string<\EventHandler> $eventHandler): \Amp\Promise`
 
 Set event handler.
 
 
 Parameters:
-* `$eventHandler`: `class-string<\danog\MadelineProto\EventHandler>` Event handler  
+* `$eventHandler`: `class-string<\EventHandler>` Event handler  
 
 
 #### See also: 
-* [`\danog\MadelineProto\EventHandler`: Event handler.](./EventHandler.md)
+* `\EventHandler`
 * `\Amp\Promise`
 
 
@@ -2559,29 +2633,29 @@ Parameters:
 
 
 
-### `updateSettings(\danog\MadelineProto\SettingsAbstract $settings): \Amp\Promise`
+### `updateSettings(\SettingsAbstract $settings): \Amp\Promise`
 
 Parse, update and store settings.
 
 
 Parameters:
-* `$settings`: `\danog\MadelineProto\SettingsAbstract` Settings  
+* `$settings`: `\SettingsAbstract` Settings  
 
 
 #### See also: 
-* `\danog\MadelineProto\SettingsAbstract`
+* `\SettingsAbstract`
 * `\Amp\Promise`
 
 
 
 
-### `upload(\danog\MadelineProto\FileCallbackInterface|string|array $file, string $fileName, callable $cb, bool $encrypted): \Amp\Promise`
+### `upload(\FileCallbackInterface|string|array $file, string $fileName, callable $cb, bool $encrypted): \Amp\Promise`
 
 Upload file.
 
 
 Parameters:
-* `$file`: `\danog\MadelineProto\FileCallbackInterface|string|array` File, URL or Telegram file to upload  
+* `$file`: `\FileCallbackInterface|string|array` File, URL or Telegram file to upload  
 * `$fileName`: `string` File name  
 * `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
 * `$encrypted`: `bool` Whether to encrypt file for secret chats  
@@ -2592,19 +2666,19 @@ Fully typed return value:
 \Amp\Promise<mixed>
 ```
 #### See also: 
-* [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](./FileCallbackInterface.md)
+* `\FileCallbackInterface`
 * `\Amp\Promise`
 
 
 
 
-### `uploadEncrypted(\danog\MadelineProto\FileCallbackInterface|string|array $file, string $fileName, callable $cb): \Amp\Promise`
+### `uploadEncrypted(\FileCallbackInterface|string|array $file, string $fileName, callable $cb): \Amp\Promise`
 
 Upload file to secret chat.
 
 
 Parameters:
-* `$file`: `\danog\MadelineProto\FileCallbackInterface|string|array` File, URL or Telegram file to upload  
+* `$file`: `\FileCallbackInterface|string|array` File, URL or Telegram file to upload  
 * `$fileName`: `string` File name  
 * `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
 
@@ -2614,7 +2688,7 @@ Fully typed return value:
 \Amp\Promise<mixed>
 ```
 #### See also: 
-* [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](./FileCallbackInterface.md)
+* `\FileCallbackInterface`
 * `\Amp\Promise`
 
 
@@ -2691,13 +2765,13 @@ Fully typed return value:
 
 
 
-### `uploadFromUrl(string|\danog\MadelineProto\FileCallbackInterface $url, int $size, string $fileName, callable $cb, bool $encrypted): \Amp\Promise`
+### `uploadFromUrl(string|\FileCallbackInterface $url, int $size, string $fileName, callable $cb, bool $encrypted): \Amp\Promise`
 
 Upload file from URL.
 
 
 Parameters:
-* `$url`: `string|\danog\MadelineProto\FileCallbackInterface` URL of file  
+* `$url`: `string|\FileCallbackInterface` URL of file  
 * `$size`: `int` Size of file  
 * `$fileName`: `string` File name  
 * `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
@@ -2709,7 +2783,7 @@ Fully typed return value:
 \Amp\Promise<mixed>
 ```
 #### See also: 
-* [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](./FileCallbackInterface.md)
+* `\FileCallbackInterface`
 * `\Amp\Promise`
 
 
@@ -2751,39 +2825,6 @@ Enable or disable async.
 
 Parameters:
 * `$async`: `bool` Whether to enable or disable async  
-
-
-
-### `init(): void`
-
-Blockingly init.
-
-
-
-### `initAsynchronously(): \Generator`
-
-Asynchronously init.
-
-
-#### See also: 
-* `\Generator`
-
-
-
-
-### `inited(): bool`
-
-Check if we've already inited.
-
-
-
-### `forceInit(bool $inited): void`
-
-Mark instance as (de)inited forcefully.
-
-
-Parameters:
-* `$inited`: `bool` Whether to mark the instance as inited or deinited  
 
 
 

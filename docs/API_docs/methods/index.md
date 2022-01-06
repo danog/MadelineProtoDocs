@@ -243,6 +243,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getFeaturedStickers.html" name="messages.getFeaturedStickers">Get featured stickers: messages.getFeaturedStickers</a>
 
+* <a href="messages.getMessageReactionsList.html" name="messages.getMessageReactionsList">Get full message reaction list: messages.getMessageReactionsList</a>
+
 * <a href="account.getGlobalPrivacySettings.html" name="account.getGlobalPrivacySettings">Get global privacy settings: account.getGlobalPrivacySettings</a>
 
 * <a href="messages.getInlineGameHighScores.html" name="messages.getInlineGameHighScores">Get highscores of a game sent using an inline bot: messages.getInlineGameHighScores</a>
@@ -290,6 +292,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="account.getAutoDownloadSettings.html" name="account.getAutoDownloadSettings">Get media autodownload settings: account.getAutoDownloadSettings</a>
 
 * <a href="messages.getSplitRanges.html" name="messages.getSplitRanges">Get message ranges for saving the user's chat history: messages.getSplitRanges</a>
+
+* <a href="messages.getMessagesReactions.html" name="messages.getMessagesReactions">Get message reactions: messages.getMessagesReactions</a>
 
 * <a href="messages.getReplies.html" name="messages.getReplies">Get messages in a reply thread: messages.getReplies</a>
 
@@ -566,6 +570,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="account.sendConfirmPhoneCode.html" name="account.sendConfirmPhoneCode">Send confirmation code to cancel account deletion, for more info click here »: account.sendConfirmPhoneCode</a>
 
 * <a href="phone.saveCallDebug.html" name="phone.saveCallDebug">Send phone call debug data to server: phone.saveCallDebug</a>
+
+* <a href="messages.sendReaction.html" name="messages.sendReaction">Send reaction to message: messages.sendReaction</a>
 
 * <a href="messages.sendScheduledMessages.html" name="messages.sendScheduledMessages">Send scheduled messages right away: messages.sendScheduledMessages</a>
 

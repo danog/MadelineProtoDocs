@@ -21,6 +21,7 @@ Sends a message to a chat
 |silent|[Bool](../types/Bool.md) | Send this message silently (no notifications for the receivers) | Optional|
 |background|[Bool](../types/Bool.md) | Send this message as background message | Optional|
 |clear\_draft|[Bool](../types/Bool.md) | Clear the draft field | Optional|
+|noforwards|[Bool](../types/Bool.md) |  | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The destination where the message will be sent | Optional|
 |reply\_to\_msg\_id|[int](../types/int.md) | The message ID to which this message will reply to | Optional|
 |message|[string](../types/string.md) | The message | Yes|
@@ -48,13 +49,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendMessage(['no_webpage' => Bool, 'silent' => Bool, 'background' => Bool, 'clear_draft' => Bool, 'peer' => InputPeer, 'reply_to_msg_id' => int, 'message' => 'string', 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', 'schedule_date' => int, 'send_as' => InputPeer, ]);
+$Updates = $MadelineProto->messages->sendMessage(['no_webpage' => Bool, 'silent' => Bool, 'background' => Bool, 'clear_draft' => Bool, 'noforwards' => Bool, 'peer' => InputPeer, 'reply_to_msg_id' => int, 'message' => 'string', 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', 'schedule_date' => int, 'send_as' => InputPeer, ]);
 ```
 
 Or, if you're into Lua:
 
 ```lua
-Updates = messages.sendMessage({no_webpage=Bool, silent=Bool, background=Bool, clear_draft=Bool, peer=InputPeer, reply_to_msg_id=int, message='string', reply_markup=ReplyMarkup, entities={MessageEntity}, parseMode='string', schedule_date=int, send_as=InputPeer, })
+Updates = messages.sendMessage({no_webpage=Bool, silent=Bool, background=Bool, clear_draft=Bool, noforwards=Bool, peer=InputPeer, reply_to_msg_id=int, message='string', reply_markup=ReplyMarkup, entities={MessageEntity}, parseMode='string', schedule_date=int, send_as=InputPeer, })
 ```
 
 

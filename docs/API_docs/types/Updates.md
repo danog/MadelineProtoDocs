@@ -97,6 +97,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->messages->toggleNoForwards](../methods/messages.toggleNoForwards.md)  
 
+[$MadelineProto->messages->sendReaction](../methods/messages.sendReaction.md)  
+
+[$MadelineProto->messages->getMessagesReactions](../methods/messages.getMessagesReactions.md)  
+
+[$MadelineProto->messages->setChatAvailableReactions](../methods/messages.setChatAvailableReactions.md)  
+
 [$MadelineProto->help->getAppChangelog](../methods/help.getAppChangelog.md)  
 
 [$MadelineProto->channels->createChannel](../methods/channels.createChannel.md)  
@@ -244,6 +250,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [$MadelineProto->messages->hideAllChatJoinRequests](../methods/messages.hideAllChatJoinRequests.md)  
 
 [$MadelineProto->messages->toggleNoForwards](../methods/messages.toggleNoForwards.md)  
+
+[$MadelineProto->messages->sendReaction](../methods/messages.sendReaction.md)  
+
+[$MadelineProto->messages->getMessagesReactions](../methods/messages.getMessagesReactions.md)  
+
+[$MadelineProto->messages->setChatAvailableReactions](../methods/messages.setChatAvailableReactions.md)  
 
 [$MadelineProto->help->getAppChangelog](../methods/help.getAppChangelog.md)  
 

@@ -72,7 +72,6 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\TL\Conversion\Exception: TL conversion exception.](danog/MadelineProto/TL/Conversion/Exception.md)
 * [\danog\MadelineProto\TL\Types\Button: Clickable button.](danog/MadelineProto/TL/Types/Button.md)
 * [\danog\MadelineProto\TL\Types\Bytes: Bytes wrapper.](danog/MadelineProto/TL/Types/Bytes.md)
-* [\danog\MadelineProto\TON\API: TON API.](danog/MadelineProto/TON/API.md)
 
 ## Traits
 * [\danog\MadelineProto\Db\DbPropertiesTrait: Include this trait and call DbPropertiesTrait::initDb to use MadelineProto's database backend for properties.](danog/MadelineProto/Db/DbPropertiesTrait.md)

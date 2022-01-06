@@ -13,6 +13,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [AutoDownloadSettings](AutoDownloadSettings.md)<a name="AutoDownloadSettings"></a>  
 
+[AvailableReaction](AvailableReaction.md)<a name="AvailableReaction"></a>  
+
 [BankCardOpenUrl](BankCardOpenUrl.md)<a name="BankCardOpenUrl"></a>  
 
 [BaseTheme](BaseTheme.md)<a name="BaseTheme"></a>  
@@ -269,9 +271,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [MessageRange](MessageRange.md)<a name="MessageRange"></a>  
 
+[MessageReactions](MessageReactions.md)<a name="MessageReactions"></a>  
+
 [MessageReplies](MessageReplies.md)<a name="MessageReplies"></a>  
 
 [MessageReplyHeader](MessageReplyHeader.md)<a name="MessageReplyHeader"></a>  
+
+[MessageUserReaction](MessageUserReaction.md)<a name="MessageUserReaction"></a>  
 
 [MessageUserVote](MessageUserVote.md)<a name="MessageUserVote"></a>  
 
@@ -346,6 +352,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [PrivacyKey](PrivacyKey.md)<a name="PrivacyKey"></a>  
 
 [PrivacyRule](PrivacyRule.md)<a name="PrivacyRule"></a>  
+
+[ReactionCount](ReactionCount.md)<a name="ReactionCount"></a>  
 
 [ReceivedNotifyMessage](ReceivedNotifyMessage.md)<a name="ReceivedNotifyMessage"></a>  
 
@@ -565,6 +573,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messages.ArchivedStickers](messages.ArchivedStickers.md)<a name="messages.ArchivedStickers"></a>  
 
+[messages.AvailableReactions](messages.AvailableReactions.md)<a name="messages.AvailableReactions"></a>  
+
 [messages.BotCallbackAnswer](messages.BotCallbackAnswer.md)<a name="messages.BotCallbackAnswer"></a>  
 
 [messages.BotResults](messages.BotResults.md)<a name="messages.BotResults"></a>  
@@ -604,6 +614,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [messages.InactiveChats](messages.InactiveChats.md)<a name="messages.InactiveChats"></a>  
 
 [messages.MessageEditData](messages.MessageEditData.md)<a name="messages.MessageEditData"></a>  
+
+[messages.MessageReactionsList](messages.MessageReactionsList.md)<a name="messages.MessageReactionsList"></a>  
 
 [messages.MessageViews](messages.MessageViews.md)<a name="messages.MessageViews"></a>  
 

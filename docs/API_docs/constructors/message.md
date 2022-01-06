@@ -42,6 +42,7 @@ A message
 |edit\_date|[int](../types/int.md) | Optional|Last edit date of this message|
 |post\_author|[string](../types/string.md) | Optional|Name of the author of this message for channel posts (with signatures enabled)|
 |grouped\_id|[long](../types/long.md) | Optional|Multiple media messages sent using [messages.sendMultiMedia](../methods/messages.sendMultiMedia.md) with the same grouped ID indicate an [album or media group](https://core.telegram.org/api/files#albums-grouped-media)|
+|reactions|[MessageReactions](../types/MessageReactions.md) | Optional|
 |restriction\_reason|Array of [RestrictionReason](../types/RestrictionReason.md) | Optional|Contains the reason why access to this message must be restricted.|
 |ttl\_period|[int](../types/int.md) | Optional|
 
@@ -53,14 +54,14 @@ A message
 ### Example:
 
 ```php
-$message = ['_' => 'message', 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'silent' => Bool, 'post' => Bool, 'from_scheduled' => Bool, 'legacy' => Bool, 'edit_hide' => Bool, 'pinned' => Bool, 'noforwards' => Bool, 'id' => int, 'from_id' => Peer, 'peer_id' => Peer, 'fwd_from' => MessageFwdHeader, 'via_bot_id' => long, 'reply_to' => MessageReplyHeader, 'date' => int, 'message' => 'string', 'media' => MessageMedia, 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'views' => int, 'forwards' => int, 'replies' => MessageReplies, 'edit_date' => int, 'post_author' => 'string', 'grouped_id' => long, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'ttl_period' => int];
+$message = ['_' => 'message', 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'silent' => Bool, 'post' => Bool, 'from_scheduled' => Bool, 'legacy' => Bool, 'edit_hide' => Bool, 'pinned' => Bool, 'noforwards' => Bool, 'id' => int, 'from_id' => Peer, 'peer_id' => Peer, 'fwd_from' => MessageFwdHeader, 'via_bot_id' => long, 'reply_to' => MessageReplyHeader, 'date' => int, 'message' => 'string', 'media' => MessageMedia, 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'views' => int, 'forwards' => int, 'replies' => MessageReplies, 'edit_date' => int, 'post_author' => 'string', 'grouped_id' => long, 'reactions' => MessageReactions, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'ttl_period' => int];
 ```  
 
 
 Or, if you're into Lua:
 
 ```lua
-message={_='message', out=Bool, mentioned=Bool, media_unread=Bool, silent=Bool, post=Bool, from_scheduled=Bool, legacy=Bool, edit_hide=Bool, pinned=Bool, noforwards=Bool, id=int, from_id=Peer, peer_id=Peer, fwd_from=MessageFwdHeader, via_bot_id=long, reply_to=MessageReplyHeader, date=int, message='string', media=MessageMedia, reply_markup=ReplyMarkup, entities={MessageEntity}, views=int, forwards=int, replies=MessageReplies, edit_date=int, post_author='string', grouped_id=long, restriction_reason={RestrictionReason}, ttl_period=int}
+message={_='message', out=Bool, mentioned=Bool, media_unread=Bool, silent=Bool, post=Bool, from_scheduled=Bool, legacy=Bool, edit_hide=Bool, pinned=Bool, noforwards=Bool, id=int, from_id=Peer, peer_id=Peer, fwd_from=MessageFwdHeader, via_bot_id=long, reply_to=MessageReplyHeader, date=int, message='string', media=MessageMedia, reply_markup=ReplyMarkup, entities={MessageEntity}, views=int, forwards=int, replies=MessageReplies, edit_date=int, post_author='string', grouped_id=long, reactions=MessageReactions, restriction_reason={RestrictionReason}, ttl_period=int}
 
 ```
 
