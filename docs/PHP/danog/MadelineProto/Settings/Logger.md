@@ -51,6 +51,7 @@ Set extra parameter for logger.
 
 
 Parameters:
+
 * `$extra`: `null|callable|string` Extra parameter for logger.  
 
 
@@ -79,6 +80,7 @@ Set maximum filesize for logger, in case of file logging.
 
 
 Parameters:
+
 * `$maxSize`: `int` Maximum filesize for logger, in case of file logging.  
 
 

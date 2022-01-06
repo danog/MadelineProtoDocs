@@ -52,6 +52,7 @@ Set API ID.
 
 
 Parameters:
+
 * `$apiId`: `int` API ID.  
 
 
@@ -68,6 +69,7 @@ Set API hash.
 
 
 Parameters:
+
 * `$apiHash`: `string` API hash.  
 
 
@@ -84,6 +86,7 @@ Set device model.
 
 
 Parameters:
+
 * `$deviceModel`: `string` Device model.  
 
 
@@ -100,6 +103,7 @@ Set system version.
 
 
 Parameters:
+
 * `$systemVersion`: `string` System version.  
 
 
@@ -116,6 +120,7 @@ Set app version.
 
 
 Parameters:
+
 * `$appVersion`: `string` App version.  
 
 
@@ -132,6 +137,7 @@ Set language code.
 
 
 Parameters:
+
 * `$langCode`: `string` Language code.  
 
 
@@ -148,6 +154,7 @@ Set language pack.
 
 
 Parameters:
+
 * `$langPack`: `string` Language pack.  
 
 

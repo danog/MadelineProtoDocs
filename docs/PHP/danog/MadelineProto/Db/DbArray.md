@@ -58,6 +58,7 @@ Check if element is set.
 
 
 Parameters:
+
 * `$key`: `string|int`   
 
 
@@ -77,6 +78,7 @@ Unset element.
 
 
 Parameters:
+
 * `$key`: `string|int`   
 
 
@@ -96,6 +98,7 @@ Set element.
 
 
 Parameters:
+
 * `$index`: `string|int`   
 * `$value`: `mixed`   
   Full type:
@@ -117,6 +120,7 @@ Get element.
 
 
 Parameters:
+
 * `$index`: `string|int`   
 
 
@@ -137,6 +141,7 @@ Set element.
 
 
 Parameters:
+
 * `$index`: `string|int`   
 * `$value`: `mixed`   
   Full type:
@@ -185,6 +190,7 @@ Get iterator.
 
 
 Parameters:
+
 * `$table`: `string`   
 * `$previous`: `null|\danog\MadelineProto\Db\DbType|array`   
 * `$settings`: `\danog\MadelineProto\Settings\Database\DatabaseAbstract`   

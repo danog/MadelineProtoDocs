@@ -37,6 +37,7 @@ Set localized error name.
 
 
 Parameters:
+
 * `$localization`: `string`   
 
 
@@ -47,6 +48,7 @@ Update TL trace.
 
 
 Parameters:
+
 * `$trace`: `array`   
 
 
@@ -63,6 +65,7 @@ Set TL trace.
 
 
 Parameters:
+
 * `$tlTrace`: `string` TL trace  
 
 
@@ -73,6 +76,7 @@ Generate async trace.
 
 
 Parameters:
+
 * `$init`: `string` Method name  
 * `$trace`: `array` Async trace  
 

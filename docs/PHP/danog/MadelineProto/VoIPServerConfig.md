@@ -30,6 +30,7 @@ Update shared call settings.
 
 
 Parameters:
+
 * `$config`: `array` The settings  
 
 
@@ -48,6 +49,7 @@ Update default shared call settings.
 
 
 Parameters:
+
 * `$configDefault`: `array` The settings  
 
 

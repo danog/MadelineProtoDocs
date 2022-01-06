@@ -33,6 +33,7 @@ asynchronous code can be written without callbacks and be structured like synchr
 
 
 Parameters:
+
 * `$reason`: `\Throwable` Failure reason.  
 
 
@@ -48,6 +49,7 @@ Get data at an array offset asynchronously.
 
 
 Parameters:
+
 * `$offset`: `mixed` Offset  
 
 

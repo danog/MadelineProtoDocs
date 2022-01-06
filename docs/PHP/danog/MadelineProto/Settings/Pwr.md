@@ -35,6 +35,7 @@ Set whether to try resolving usernames using PWRTelegram DB.
 
 
 Parameters:
+
 * `$requests`: `bool` Whether to try resolving usernames using PWRTelegram DB.  
 
 
@@ -51,6 +52,7 @@ Set DB token.
 
 
 Parameters:
+
 * `$dbToken`: `string` DB token.  
 
 

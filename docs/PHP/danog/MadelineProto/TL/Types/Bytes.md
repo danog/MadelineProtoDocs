@@ -36,6 +36,7 @@ Set char at offset.
 
 
 Parameters:
+
 * `$offset`: `int|null` Offset  
 * `$value`: `string` Char  
 
@@ -47,6 +48,7 @@ Get char at offset.
 
 
 Parameters:
+
 * `$offset`: `int` Name  
 
 
@@ -57,6 +59,7 @@ Unset char at offset.
 
 
 Parameters:
+
 * `$offset`: `int` Offset  
 
 
@@ -67,6 +70,7 @@ Check if char at offset exists.
 
 
 Parameters:
+
 * `$offset`: `int` Offset  
 
 

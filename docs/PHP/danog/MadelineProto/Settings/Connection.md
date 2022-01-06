@@ -112,6 +112,7 @@ Available MTProto transport protocols (smaller overhead is better):
     * Requires an additional round of encryption
 
 Parameters:
+
 * `$protocol`: `class-string<\danog\MadelineProto\Stream\MTProtoBufferInterface>` Protocol identifier  
 
 
@@ -133,6 +134,7 @@ Set whether to use ipv6.
 
 
 Parameters:
+
 * `$ipv6`: `bool` Whether to use ipv6  
 
 
@@ -149,6 +151,7 @@ Set subdomains of web.telegram.org for https protocol.
 
 
 Parameters:
+
 * `$sslSubdomains`: `array` Subdomains of web.telegram.org for https protocol.  
 
 
@@ -165,6 +168,7 @@ Set minimum media socket count.
 
 
 Parameters:
+
 * `$minMediaSocketCount`: `int` Minimum media socket count.  
 
 
@@ -181,6 +185,7 @@ Set maximum media socket count.
 
 
 Parameters:
+
 * `$maxMediaSocketCount`: `int` Maximum media socket count.  
 
 
@@ -197,6 +202,7 @@ Set robin period (seconds).
 
 
 Parameters:
+
 * `$robinPeriod`: `int` Robin period (seconds).  
 
 
@@ -219,6 +225,7 @@ Set default DC ID.
 
 
 Parameters:
+
 * `$defaultDc`: `int` Default DC ID.  
 
 
@@ -246,6 +253,7 @@ Add proxy identifier to list, one of:.
 * `\danog\MadelineProto\Stream\Proxy\SocksProxy::class`
 
 Parameters:
+
 * `$proxy`: `class-string<\danog\MadelineProto\Stream\StreamInterface>` Proxy identifier  
 * `$extra`: `array` Extra  
 
@@ -262,6 +270,7 @@ Set proxies.
 
 
 Parameters:
+
 * `$proxies`: `array` Proxies  
 
 
@@ -278,6 +287,7 @@ Remove specific proxy pair.
 
 
 Parameters:
+
 * `$proxy`: `string`   
 * `$extra`: `array`   
 
@@ -295,6 +305,7 @@ Set whether to use the obfuscated protocol: useful to bypass ISP blocks.
 
 
 Parameters:
+
 * `$obfuscated`: `bool` Whether to use the obfuscated protocol.  
 
 
@@ -311,6 +322,7 @@ Set whether we're in test mode.
 
 
 Parameters:
+
 * `$testMode`: `bool` Whether we're in test mode.  
 
 
@@ -336,6 +348,7 @@ Not supported by HTTP and HTTPS protocols, obfuscation must be enabled.
 * `danog\MadelineProto\Stream\WssTransport`: TLS websocket transport
 
 Parameters:
+
 * `$transport`: `class-string<\danog\MadelineProto\Stream\RawStreamInterface>` Transport identifier.  
 
 
@@ -357,6 +370,7 @@ Set whether to retry connection.
 
 
 Parameters:
+
 * `$retry`: `bool` Whether to retry connection.  
 
 
@@ -373,6 +387,7 @@ Set connection timeout.
 
 
 Parameters:
+
 * `$timeout`: `int` Connection timeout.  
 
 
@@ -389,6 +404,7 @@ Set ping interval.
 
 
 Parameters:
+
 * `$pingInterval`: `int` Ping interval  
 
 
@@ -405,6 +421,7 @@ Set whether to use DNS over HTTPS.
 
 
 Parameters:
+
 * `$useDoH`: `bool` Whether to use DNS over HTTPS  
 
 
@@ -421,6 +438,7 @@ Set bind on specific address and port.
 
 
 Parameters:
+
 * `$bindTo`: `?string` Bind on specific address and port.  
 
 

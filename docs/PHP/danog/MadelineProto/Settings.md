@@ -59,6 +59,7 @@ Merge another instance of settings.
 
 
 Parameters:
+
 * `$settings`: `\danog\MadelineProto\SettingsAbstract` Settings  
 
 
@@ -86,6 +87,7 @@ Set default DC ID.
 
 
 Parameters:
+
 * `$dc`: `int` DC ID  
 
 
@@ -107,6 +109,7 @@ Set app information.
 
 
 Parameters:
+
 * `$appInfo`: `\danog\MadelineProto\Settings\AppInfo` App information.  
 
 
@@ -133,6 +136,7 @@ Set cryptography settings.
 
 
 Parameters:
+
 * `$auth`: `\danog\MadelineProto\Settings\Auth` Cryptography settings.  
 
 
@@ -159,6 +163,7 @@ Set connection settings.
 
 
 Parameters:
+
 * `$connection`: `\danog\MadelineProto\Settings\Connection` Connection settings.  
 
 
@@ -185,6 +190,7 @@ Set file management settings.
 
 
 Parameters:
+
 * `$files`: `\danog\MadelineProto\Settings\Files` File management settings.  
 
 
@@ -211,6 +217,7 @@ Set logger settings.
 
 
 Parameters:
+
 * `$logger`: `\danog\MadelineProto\Settings\Logger` Logger settings.  
 
 
@@ -237,6 +244,7 @@ Set peer database settings.
 
 
 Parameters:
+
 * `$peer`: `\danog\MadelineProto\Settings\Peer` Peer database settings.  
 
 
@@ -263,6 +271,7 @@ Set PWRTelegram settings.
 
 
 Parameters:
+
 * `$pwr`: `\danog\MadelineProto\Settings\Pwr` PWRTelegram settings.  
 
 
@@ -289,6 +298,7 @@ Set RPC settings.
 
 
 Parameters:
+
 * `$rpc`: `\danog\MadelineProto\Settings\RPC` RPC settings.  
 
 
@@ -315,6 +325,7 @@ Set secret chat settings.
 
 
 Parameters:
+
 * `$secretChats`: `\danog\MadelineProto\Settings\SecretChats` Secret chat settings.  
 
 
@@ -341,6 +352,7 @@ Set serialization settings.
 
 
 Parameters:
+
 * `$serialization`: `\danog\MadelineProto\Settings\Serialization` Serialization settings.  
 
 
@@ -367,6 +379,7 @@ Set TL schema settings.
 
 
 Parameters:
+
 * `$schema`: `\danog\MadelineProto\Settings\TLSchema` TL schema settings.  
 
 
@@ -393,6 +406,7 @@ Set database settings.
 
 
 Parameters:
+
 * `$db`: `\danog\MadelineProto\Settings\DatabaseAbstract` DatabaseAbstract settings.  
 
 
@@ -419,6 +433,7 @@ Set IPC server settings.
 
 
 Parameters:
+
 * `$ipc`: `\danog\MadelineProto\Settings\Ipc` IPC server settings.  
 
 
@@ -445,6 +460,7 @@ Set template settings.
 
 
 Parameters:
+
 * `$templates`: `\danog\MadelineProto\Settings\Templates` Template settings  
 
 
@@ -471,6 +487,7 @@ Set voIP settings.
 
 
 Parameters:
+
 * `$voip`: `\danog\MadelineProto\Settings\VoIP` VoIP settings.  
 
 

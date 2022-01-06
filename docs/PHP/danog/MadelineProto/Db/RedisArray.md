@@ -47,6 +47,7 @@ Initialize connection.
 
 
 Parameters:
+
 * `$settings`: `\danog\MadelineProto\Settings\Database\Redis`   
 
 
@@ -63,6 +64,7 @@ Set value for an offset.
 
 
 Parameters:
+
 * `$index`: `string` <p>
 The index to set for.
 </p>  
@@ -76,6 +78,7 @@ Check if key isset.
 
 
 Parameters:
+
 * `$key`: ``   
 
 
@@ -126,6 +129,7 @@ Set the value of table.
 
 
 Parameters:
+
 * `$table`: `string`   
 
 
@@ -136,6 +140,7 @@ Parameters:
 
 
 Parameters:
+
 * `$table`: `string`   
 * `$previous`: `\danog\MadelineProto\Db\DbArray|array|null`   
 * `$settings`: `\danog\MadelineProto\Settings\Database\DatabaseAbstract`   

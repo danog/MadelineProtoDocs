@@ -32,6 +32,7 @@ $MadelineProto->logger($message, $level);
 
 `$message` is a string, an integer, an array, or any json-encodable object.  
 `$level` (optional) is one of the following constants:
+
 * `\danog\MadelineProto\Logger::FATAL_ERROR` - Indicates a fatal error
 * `\danog\MadelineProto\Logger::ERROR` - Indicates a recoverable error
 * `\danog\MadelineProto\Logger::NOTICE` - Indicates an info message

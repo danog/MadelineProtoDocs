@@ -43,6 +43,7 @@ Set whether to cleanup the memory before serializing.
 
 
 Parameters:
+
 * `$cleanup`: `bool` Whether to cleanup the memory before serializing.  
 
 
@@ -59,6 +60,7 @@ Set whether to enable the file reference database. If disabled, will break file 
 
 
 Parameters:
+
 * `$enableFileReferenceDb`: `bool` Whether to enable the file reference database. If disabled, will break file downloads.  
 
 
@@ -75,6 +77,7 @@ Set whether to enable the min database. If disabled, will break sendMessage (and
 
 
 Parameters:
+
 * `$enableMinDb`: `bool` Whether to enable the min database. If disabled, will break sendMessage (and other methods) in certain conditions.  
 
 
@@ -91,6 +94,7 @@ Set whether to enable the username database. If disabled, will break sendMessage
 
 
 Parameters:
+
 * `$enableUsernameDb`: `bool` Whether to enable the username database. If disabled, will break sendMessage (and other methods) with usernames.  
 
 
@@ -107,6 +111,7 @@ Set whether to enable the full peer info database. If disabled, will break getFu
 
 
 Parameters:
+
 * `$enableFullPeerDb`: `bool` Whether to enable the full peer info database. If disabled, will break getFullInfo.  
 
 
@@ -123,6 +128,7 @@ Set whether to enable the peer info database. If disabled, will break getInfo.
 
 
 Parameters:
+
 * `$enablePeerInfoDb`: `bool` Whether to enable the peer info database. If disabled, will break getInfo.  
 
 

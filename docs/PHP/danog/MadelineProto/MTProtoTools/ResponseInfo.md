@@ -31,6 +31,7 @@ Parse headers.
 
 
 Parameters:
+
 * `$method`: `string` HTTP method  
 * `$headers`: `array` HTTP headers  
 * `$messageMedia`: `array` Media info  

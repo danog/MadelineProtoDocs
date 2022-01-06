@@ -61,6 +61,7 @@ Set the value of table.
 
 
 Parameters:
+
 * `$table`: `string`   
 
 
@@ -71,6 +72,7 @@ Parameters:
 
 
 Parameters:
+
 * `$table`: `string`   
 * `$previous`: `\danog\MadelineProto\Db\DbArray|array|null`   
 * `$settings`: `\danog\MadelineProto\Settings\Database\DatabaseAbstract`   
@@ -110,6 +112,7 @@ Check if element is set.
 
 
 Parameters:
+
 * `$key`: `string|int`   
 
 
@@ -129,6 +132,7 @@ Unset element.
 
 
 Parameters:
+
 * `$key`: `string|int`   
 
 
@@ -148,6 +152,7 @@ Set element.
 
 
 Parameters:
+
 * `$index`: `string|int`   
 * `$value`: `mixed`   
   Full type:
@@ -169,6 +174,7 @@ Get element.
 
 
 Parameters:
+
 * `$index`: `string|int`   
 
 

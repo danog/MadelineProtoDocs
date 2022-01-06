@@ -56,6 +56,7 @@ Set maximum connection limit.
 
 
 Parameters:
+
 * `$maxConnections`: `int` Maximum connection limit.  
 
 
@@ -72,6 +73,7 @@ Set idle timeout.
 
 
 Parameters:
+
 * `$idleTimeout`: `int` Idle timeout.  
 
 
@@ -88,6 +90,7 @@ Set database name.
 
 
 Parameters:
+
 * `$database`: `string` Database name.  
 
 
@@ -104,6 +107,7 @@ Set username.
 
 
 Parameters:
+
 * `$username`: `string` Username.  
 
 
@@ -120,6 +124,7 @@ Set database URI.
 
 
 Parameters:
+
 * `$uri`: `string` Database URI.  
 
 
@@ -146,6 +151,7 @@ Data will be removed from the cache if last access was more than this amount of 
 Clean up is done once per minute.
 
 Parameters:
+
 * `$cacheTtl`: `int|string` For how long to keep records in memory after last read, for cached backends.  
 
 
@@ -162,6 +168,7 @@ Set password.
 
 
 Parameters:
+
 * `$password`: `string` Password.  
 
 
@@ -178,6 +185,7 @@ Set whether to enable the file reference database. If disabled, will break file 
 
 
 Parameters:
+
 * `$enableFileReferenceDb`: `bool` Whether to enable the file reference database. If disabled, will break file downloads.  
 
 
@@ -194,6 +202,7 @@ Set whether to enable the min database. If disabled, will break sendMessage (and
 
 
 Parameters:
+
 * `$enableMinDb`: `bool` Whether to enable the min database. If disabled, will break sendMessage (and other methods) in certain conditions.  
 
 
@@ -210,6 +219,7 @@ Set whether to enable the username database. If disabled, will break sendMessage
 
 
 Parameters:
+
 * `$enableUsernameDb`: `bool` Whether to enable the username database. If disabled, will break sendMessage (and other methods) with usernames.  
 
 
@@ -226,6 +236,7 @@ Set whether to enable the full peer info database. If disabled, will break getFu
 
 
 Parameters:
+
 * `$enableFullPeerDb`: `bool` Whether to enable the full peer info database. If disabled, will break getFullInfo.  
 
 
@@ -242,6 +253,7 @@ Set whether to enable the peer info database. If disabled, will break getInfo.
 
 
 Parameters:
+
 * `$enablePeerInfoDb`: `bool` Whether to enable the peer info database. If disabled, will break getInfo.  
 
 

@@ -32,6 +32,7 @@ Complain about missing extensions.
 
 
 Parameters:
+
 * `$extensionName`: `string` Extension name  
 
 
@@ -54,6 +55,7 @@ Update TL trace.
 
 
 Parameters:
+
 * `$trace`: `array`   
 
 
@@ -70,6 +72,7 @@ Set TL trace.
 
 
 Parameters:
+
 * `$tlTrace`: `string` TL trace  
 
 
@@ -80,6 +83,7 @@ Generate async trace.
 
 
 Parameters:
+
 * `$init`: `string` Method name  
 * `$trace`: `array` Async trace  
 

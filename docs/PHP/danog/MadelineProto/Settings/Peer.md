@@ -37,6 +37,7 @@ Set cache time for full peer information (seconds).
 
 
 Parameters:
+
 * `$fullInfoCacheTime`: `int` Cache time for full peer information (seconds).  
 
 
@@ -53,6 +54,7 @@ Set should madeline fetch the full member list of every group it meets?
 
 
 Parameters:
+
 * `$fullFetch`: `bool` Should madeline fetch the full member list of every group it meets?  
 
 
@@ -69,6 +71,7 @@ Set whether to cache all peers on startup for userbots.
 
 
 Parameters:
+
 * `$cacheAllPeersOnStartup`: `bool` Whether to cache all peers on startup for userbots.  
 
 

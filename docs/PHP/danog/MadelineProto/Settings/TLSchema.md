@@ -55,6 +55,7 @@ Set TL layer version.
 
 
 Parameters:
+
 * `$layer`: `int` TL layer version.  
 
 
@@ -71,6 +72,7 @@ Set MTProto schema path.
 
 
 Parameters:
+
 * `$MTProtoSchema`: `string` MTProto schema path.  
 
 
@@ -87,6 +89,7 @@ Set API schema path.
 
 
 Parameters:
+
 * `$APISchema`: `string` API schema path.  
 
 
@@ -103,6 +106,7 @@ Set secret schema path.
 
 
 Parameters:
+
 * `$secretSchema`: `string` Secret schema path.  
 
 
@@ -119,6 +123,7 @@ Set the value of other.
 
 
 Parameters:
+
 * `$other`: `array`   
 
 

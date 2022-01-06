@@ -39,6 +39,7 @@ Set RPC timeout.
 
 
 Parameters:
+
 * `$rpcTimeout`: `int` RPC timeout.  
 
 
@@ -55,6 +56,7 @@ Set flood timeout: if FLOOD_WAIT_ time is bigger than this, throw exception inst
 
 
 Parameters:
+
 * `$floodTimeout`: `int` Flood timeout: if FLOOD_WAIT_ time is bigger than this, throw exception instead of waiting asynchronously  
 
 
@@ -71,6 +73,7 @@ Set maximum number of messages to consider when using call queues.
 
 
 Parameters:
+
 * `$limitCallQueue`: `int` Maximum number of messages to consider when using call queues  
 
 
@@ -87,6 +90,7 @@ Set encode payload with GZIP if bigger than.
 
 
 Parameters:
+
 * `$gzipEncodeIfGt`: `int` Encode payload with GZIP if bigger than  
 
 

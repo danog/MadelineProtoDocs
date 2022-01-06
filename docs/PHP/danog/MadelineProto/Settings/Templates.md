@@ -33,6 +33,7 @@ Set web template used for querying app information.
 
 
 Parameters:
+
 * `$htmlTemplate`: `string` Web template used for querying app information.  
 
 

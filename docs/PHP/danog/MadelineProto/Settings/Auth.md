@@ -37,6 +37,7 @@ Set validity period of the binding of temporary and permanent keys.
 
 
 Parameters:
+
 * `$defaultTempAuthKeyExpiresIn`: `int` Validity period of the binding of temporary and permanent keys.  
 
 
@@ -53,6 +54,7 @@ Set whether to use PFS.
 
 
 Parameters:
+
 * `$pfs`: `bool` Whether to use PFS  
 
 
@@ -69,6 +71,7 @@ Set max tries for generating auth key.
 
 
 Parameters:
+
 * `$maxAuthTries`: `int` Max tries for generating auth key  
 
 

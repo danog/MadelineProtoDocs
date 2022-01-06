@@ -31,6 +31,7 @@ Click on button.
 
 
 Parameters:
+
 * `$donotwait`: `bool` Whether to wait for the result of the method  
 
 
@@ -47,6 +48,7 @@ Set button info.
 
 
 Parameters:
+
 * `$name`: `` Offset  
 * `$value`: `mixed` Value  
 
@@ -58,6 +60,7 @@ Get button info.
 
 
 Parameters:
+
 * `$name`: `` Field name  
 
 
@@ -68,6 +71,7 @@ Unset button info.
 
 
 Parameters:
+
 * `$name`: `` Offset  
 
 
@@ -78,6 +82,7 @@ Check if button field exists.
 
 
 Parameters:
+
 * `$name`: `` Offset  
 
 

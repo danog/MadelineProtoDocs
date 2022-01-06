@@ -616,6 +616,7 @@ $loop->start();
 ```
 The callback will be bound to the GenericLoop instance: this means that you will be able to use `$this` as if the callback were actually the `loop` function (you can access the API property, use the pause/waitSignal methods & so on).  
 The return value of the callable can be:  
+
 * A number - the loop will be paused for the specified number of seconds
 * `GenericLoop::STOP` - The loop will stop
 * `GenericLoop::PAUSE` - The loop will pause forever (or until the `resume` method is called on the loop object from outside the loop)

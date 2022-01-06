@@ -203,6 +203,7 @@ Start MadelineProto and the event handler (enables async).
 Also initializes error reporting, catching and reporting all errors surfacing from the event loop.
 
 Parameters:
+
 * `$session`: `string` Session name  
 * `$settings`: `\danog\MadelineProto\SettingsAbstract` Settings  
 
@@ -225,6 +226,7 @@ Convert MTProto parameters to bot API parameters.
 
 
 Parameters:
+
 * `$data`: `array` Data  
 
 
@@ -240,6 +242,7 @@ MTProto to TD params.
 
 
 Parameters:
+
 * `$params`: `mixed` Params  
 
 
@@ -255,6 +258,7 @@ MTProto to TDCLI params.
 
 
 Parameters:
+
 * `$params`: `mixed` Params  
 
 
@@ -270,6 +274,7 @@ Accept call.
 
 
 Parameters:
+
 * `$call`: `array` Call  
 
 
@@ -285,6 +290,7 @@ Accept secret chat.
 
 
 Parameters:
+
 * `$params`: `array` Secret chat ID  
 
 
@@ -311,6 +317,7 @@ Add user info.
 
 
 Parameters:
+
 * `$user`: `array` User info  
 
 
@@ -326,6 +333,7 @@ Call promise $b after promise $a.
 
 
 Parameters:
+
 * `$a`: `\Generator|\Promise` Promise A  
 * `$b`: `\Generator|\Promise` Promise B  
 
@@ -344,6 +352,7 @@ Returns a promise that succeeds when all promises succeed, and fails if any prom
 Returned promise succeeds with an array of values used to succeed each contained promise, with keys corresponding to the array of promises.
 
 Parameters:
+
 * `$promises`: `(\Generator|\Promise)[]` Promises  
 
 
@@ -361,6 +370,7 @@ Returns a promise that is resolved when all promises are resolved. The returned 
 
 
 Parameters:
+
 * `$promises`: `(\Promise|\Generator)[]` Promises  
 
 
@@ -378,6 +388,7 @@ Create array.
 
 
 Parameters:
+
 * `$params`: `mixed` Params  
 
 
@@ -388,6 +399,7 @@ base64URL decode.
 
 
 Parameters:
+
 * `$data`: `string` Data to decode  
 
 
@@ -398,6 +410,7 @@ Base64URL encode.
 
 
 Parameters:
+
 * `$data`: `string` Data to encode  
 
 
@@ -408,6 +421,7 @@ Convert bot API parameters to MTProto parameters.
 
 
 Parameters:
+
 * `$arguments`: `array` Arguments  
 
 
@@ -423,6 +437,7 @@ Login as bot.
 
 
 Parameters:
+
 * `$token`: `string` Bot token  
 
 
@@ -438,6 +453,7 @@ Convert generator, promise or any other value to a promise.
 
 
 Parameters:
+
 * `$promise`: `\Generator|\Promise|mixed`   
   Full type:
   ```
@@ -464,6 +480,7 @@ Call promise in background.
 
 
 Parameters:
+
 * `$promise`: `\Generator|\Promise` Promise to resolve  
 * `$actual`: `?\Generator|\Promise` Promise to resolve instead of $promise  
 * `$file`: `string` File  
@@ -483,6 +500,7 @@ Call promise in background, deferring execution.
 
 
 Parameters:
+
 * `$promise`: `\Generator|\Promise` Promise to resolve  
 
 
@@ -499,6 +517,7 @@ Get call status.
 
 
 Parameters:
+
 * `$id`: `int` Call ID  
 
 
@@ -540,6 +559,7 @@ Close connection with client, connected via web.
 
 
 Parameters:
+
 * `$message`: `string` Message  
 
 
@@ -550,6 +570,7 @@ Complete 2FA login.
 
 
 Parameters:
+
 * `$password`: `string` Password  
 
 
@@ -565,6 +586,7 @@ Complete call handshake.
 
 
 Parameters:
+
 * `$params`: `array` Params  
 
 
@@ -580,6 +602,7 @@ Complet user login using login code.
 
 
 Parameters:
+
 * `$code`: `string` Login code  
 
 
@@ -595,6 +618,7 @@ Complete signup to Telegram.
 
 
 Parameters:
+
 * `$first_name`: `string` First name  
 * `$last_name`: `string` Last name  
 
@@ -611,6 +635,7 @@ Confirm call.
 
 
 Parameters:
+
 * `$params`: `array` Params  
 
 
@@ -626,6 +651,7 @@ Connects to all datacenters and if necessary creates authorization keys, binds t
 
 
 Parameters:
+
 * `$reconnectAll`: `bool` Whether to reconnect to all DCs  
 
 
@@ -652,6 +678,7 @@ Discard call.
 
 
 Parameters:
+
 * `$call`: `array` Call  
 * `$reason`: `array`   
 * `$rating`: `array` Rating  
@@ -670,6 +697,7 @@ Discard secret chat.
 
 
 Parameters:
+
 * `$chat`: `int` Secret chat ID  
 
 
@@ -685,6 +713,7 @@ Download file to browser.
 Supports HEAD requests and content-ranges for parallel and resumed downloads.
 
 Parameters:
+
 * `$messageMedia`: `array|string` File to download  
 * `$cb`: `callable` Status callback (can also use FileCallback)  
 
@@ -703,6 +732,7 @@ The callable will be called (possibly out of order, depending on the value of $s
 The callable should return the number of written bytes.
 
 Parameters:
+
 * `$messageMedia`: `mixed` File to download  
 * `$callable`: `callable|\FileCallbackInterface` Chunk callback  
 * `$cb`: `callable` Status callback (DEPRECATED, use FileCallbackInterface)  
@@ -729,6 +759,7 @@ Download file to directory.
 
 
 Parameters:
+
 * `$messageMedia`: `mixed` File to download  
 * `$dir`: `string|\FileCallbackInterface` Directory where to download the file  
 * `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
@@ -751,6 +782,7 @@ Download file.
 
 
 Parameters:
+
 * `$messageMedia`: `mixed` File to download  
 * `$file`: `string|\FileCallbackInterface` Downloaded file path  
 * `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
@@ -775,6 +807,7 @@ Download file to amphp/http-server response.
 Supports HEAD requests and content-ranges for parallel and resumed downloads.
 
 Parameters:
+
 * `$messageMedia`: `array|string` File to download  
 * `$request`: `\ServerRequest` Request  
 * `$cb`: `callable` Status callback (can also use FileCallback)  
@@ -800,6 +833,7 @@ Download file to stream.
 
 
 Parameters:
+
 * `$messageMedia`: `mixed` File to download  
 * `$stream`: `mixed|\FileCallbackInterface` Stream where to download file  
 * `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
@@ -824,6 +858,7 @@ Asynchronously write to stdout/browser.
 
 
 Parameters:
+
 * `$string`: `string` Message to echo  
 
 
@@ -839,6 +874,7 @@ Get final element of array.
 
 
 Parameters:
+
 * `$what`: `array` Array  
 
 
@@ -864,6 +900,7 @@ Extract file info from bot API message.
 
 
 Parameters:
+
 * `$info`: `array` Bot API message object  
 
 
@@ -874,6 +911,7 @@ Get contents of remote file asynchronously.
 
 
 Parameters:
+
 * `$url`: `string` URL  
 
 
@@ -893,6 +931,7 @@ Returns a promise that succeeds when the first promise succeeds, and fails only 
 
 
 Parameters:
+
 * `$promises`: `(\Promise|\Generator)[]` Promises  
 
 
@@ -911,6 +950,7 @@ Resolves with a callbable that MUST eventually be called in order to release the
 
 
 Parameters:
+
 * `$file`: `string` File to lock  
 * `$operation`: `int` Locking mode  
 * `$polling`: `float` Polling interval  
@@ -930,6 +970,7 @@ Convert bot API channel ID to MTProto channel ID.
 
 
 Parameters:
+
 * `$id`: `int` Bot API channel ID  
 
 
@@ -940,6 +981,7 @@ When were full info for this chat last cached.
 
 
 Parameters:
+
 * `$id`: `mixed` Chat ID  
 
 
@@ -966,6 +1008,7 @@ Generate MTProto vector hash.
 
 
 Parameters:
+
 * `$ints`: `array` IDs  
 
 
@@ -1023,6 +1066,7 @@ Get call info.
 
 
 Parameters:
+
 * `$call`: `int` Call ID  
 
 
@@ -1042,6 +1086,7 @@ Store RSA keys for CDN datacenters.
 
 
 Parameters:
+
 * `$datacenter`: `string` DC ID  
 
 
@@ -1057,6 +1102,7 @@ Get cached (or eventually re-fetch) server-side config.
 
 
 Parameters:
+
 * `$config`: `array` Current config  
 * `$options`: `array` Options for method call  
 
@@ -1156,6 +1202,7 @@ Get dialog peers.
 
 
 Parameters:
+
 * `$force`: `bool` Whether to refetch all dialogs ignoring cache  
 
 
@@ -1179,6 +1226,7 @@ Returns an array with the following structure:.
 `$info['size']` - The file size
 
 Parameters:
+
 * `$messageMedia`: `mixed` File ID  
 
 
@@ -1210,6 +1258,7 @@ Get extension from file location.
 
 
 Parameters:
+
 * `$location`: `mixed` File location  
 * `$default`: `string` Default extension  
 
@@ -1221,6 +1270,7 @@ Get extension from mime type.
 
 
 Parameters:
+
 * `$mime`: `string` MIME type  
 
 
@@ -1231,6 +1281,7 @@ Get info about file.
 
 
 Parameters:
+
 * `$constructor`: `mixed` File ID  
 
 
@@ -1246,6 +1297,7 @@ Get folder ID from object.
 
 
 Parameters:
+
 * `$id`: `mixed` Object  
 
 
@@ -1256,6 +1308,7 @@ Get full info of all dialogs.
 
 
 Parameters:
+
 * `$force`: `bool` Whether to refetch all dialogs ignoring cache  
 
 
@@ -1271,6 +1324,7 @@ Get full info about peer, returns an FullInfo object.
 
 
 Parameters:
+
 * `$id`: `mixed` Peer  
 
 
@@ -1324,6 +1378,7 @@ Get bot API ID from peer object.
 
 
 Parameters:
+
 * `$id`: `mixed` Peer  
 
 
@@ -1334,6 +1389,7 @@ Get info about peer, returns an Info object.
 
 
 Parameters:
+
 * `$id`: `mixed` Peer  
 * `$recursive`: `bool` Internal  
 
@@ -1425,6 +1481,7 @@ Get mime type from buffer.
 
 
 Parameters:
+
 * `$buffer`: `string` Buffer  
 
 
@@ -1435,6 +1492,7 @@ Get mime type from file extension.
 
 
 Parameters:
+
 * `$extension`: `string` File extension  
 * `$default`: `string` Default mime type  
 
@@ -1446,6 +1504,7 @@ Get mime type of file.
 
 
 Parameters:
+
 * `$file`: `string` File  
 
 
@@ -1460,6 +1519,7 @@ Returns an array with the following structure:.
 `$info['size']` - The file size
 
 Parameters:
+
 * `$messageMedia`: `mixed` File ID  
 
 
@@ -1481,6 +1541,7 @@ Get full info about peer (including full list of channel members), returns a Cha
 
 
 Parameters:
+
 * `$id`: `mixed` Peer  
 
 
@@ -1498,6 +1559,7 @@ Get secret chat.
 
 
 Parameters:
+
 * `$chat`: `array|int` Secret chat ID  
 
 
@@ -1541,6 +1603,7 @@ This method will return an array of [sponsored message objects](https://docs.mad
 See [the API documentation](https://core.telegram.org/api/sponsored-messages) for more info on how to handle sponsored messages.
 
 Parameters:
+
 * `$peer`: `int|array` Channel ID, or Update, or Message, or Peer.  
 
 
@@ -1588,6 +1651,7 @@ Accesses a private variable from an object.
 
 
 Parameters:
+
 * `$obj`: `object` Object  
 * `$var`: `string` Attribute name  
 
@@ -1599,6 +1663,7 @@ Get a message to show to the user when starting the bot.
 
 
 Parameters:
+
 * `$message`: `string`   
 
 
@@ -1669,6 +1734,7 @@ Check whether secret chat exists.
 
 
 Parameters:
+
 * `$chat`: `array|int` Secret chat ID  
 
 
@@ -1688,6 +1754,7 @@ Checks private property exists in an object.
 
 
 Parameters:
+
 * `$obj`: `object` Object  
 * `$var`: `string` Attribute name  
 
@@ -1699,6 +1766,7 @@ Import authorization.
 
 
 Parameters:
+
 * `$authorization`: `array<int, string>` Authorization info  
 * `$mainDcID`: `int` Main DC ID  
 
@@ -1715,6 +1783,7 @@ Inflate stripped photosize to full JPG payload.
 
 
 Parameters:
+
 * `$stripped`: `string` Stripped photosize  
 
 
@@ -1748,6 +1817,7 @@ Check if is array or similar (traversable && countable && arrayAccess).
 
 
 Parameters:
+
 * `$var`: `mixed` Value to check  
 
 
@@ -1788,6 +1858,7 @@ Check whether provided bot API ID is a channel.
 
 
 Parameters:
+
 * `$id`: `int` Bot API ID  
 
 
@@ -1798,6 +1869,7 @@ Logger.
 
 
 Parameters:
+
 * `$param`: `string` Parameter  
 * `$level`: `int` Logging level  
 * `$file`: `string` File where the message originated  
@@ -1830,6 +1902,7 @@ Start MadelineProto's update handling loop, or run the provided async callable.
 
 
 Parameters:
+
 * `$callback`: `callable|null` Async callable to run  
 
 
@@ -1856,6 +1929,7 @@ Escape string for markdown.
 
 
 Parameters:
+
 * `$hwat`: `string` String to escape  
 
 
@@ -1866,6 +1940,7 @@ Telegram UTF-8 multibyte split.
 
 
 Parameters:
+
 * `$text`: `string` Text  
 * `$length`: `int` Length  
 
@@ -1877,6 +1952,7 @@ Get Telegram UTF-8 length of string.
 
 
 Parameters:
+
 * `$text`: `string` Text  
 
 
@@ -1887,6 +1963,7 @@ Telegram UTF-8 multibyte substring.
 
 
 Parameters:
+
 * `$text`: `string` Text to substring  
 * `$offset`: `int` Offset  
 * `$length`: `?int` Length  
@@ -1899,6 +1976,7 @@ Call method and wait asynchronously for response.
 If the $aargs['noResponse'] is true, will not wait for a response.
 
 Parameters:
+
 * `$method`: `string` Method name  
 * `$args`: `array|\Generator` Arguments  
   Full type:
@@ -1921,6 +1999,7 @@ Call method and make sure it is asynchronously sent.
 
 
 Parameters:
+
 * `$method`: `string` Method name  
 * `$args`: `array|\Generator` Arguments  
   Full type:
@@ -1943,6 +2022,7 @@ Escape method name.
 
 
 Parameters:
+
 * `$method`: `string` Method name  
 
 
@@ -1953,6 +2033,7 @@ Convert double to binary version.
 
 
 Parameters:
+
 * `$value`: `float` Value to convert  
 
 
@@ -1963,6 +2044,7 @@ Convert integer to base256 signed int.
 
 
 Parameters:
+
 * `$value`: `int` Value to convert  
 
 
@@ -1973,6 +2055,7 @@ Convert integer to base256 long.
 
 
 Parameters:
+
 * `$value`: `int` Value to convert  
 
 
@@ -1983,6 +2066,7 @@ Convert value to unsigned base256 int.
 
 
 Parameters:
+
 * `$value`: `int` Value  
 
 
@@ -1993,6 +2077,7 @@ Check if peer is present in internal peer database.
 
 
 Parameters:
+
 * `$id`: `mixed` Peer  
 
 
@@ -2012,6 +2097,7 @@ Login as user.
 
 
 Parameters:
+
 * `$number`: `string` Phone number  
 * `$sms_type`: `int` SMS type  
 
@@ -2029,6 +2115,7 @@ Works just like the % (modulus) operator, only returns always a postive number.
 
 
 Parameters:
+
 * `$a`: `int` A  
 * `$b`: `int` B  
 
@@ -2042,6 +2129,7 @@ Get random string of specified length.
 
 
 Parameters:
+
 * `$length`: `int` Length  
 
 
@@ -2054,6 +2142,7 @@ Get random integer.
 
 
 Parameters:
+
 * `$modulus`: `int` Modulus  
 
 
@@ -2064,6 +2153,7 @@ Asynchronously read line.
 
 
 Parameters:
+
 * `$prompt`: `string` Prompt  
 
 
@@ -2079,6 +2169,7 @@ Rekey secret chat.
 
 
 Parameters:
+
 * `$chat`: `int` Secret chat to rekey  
 
 
@@ -2094,6 +2185,7 @@ Report an error to the previously set peer.
 
 
 Parameters:
+
 * `$message`: `string` Error to report  
 * `$parseMode`: `string` Parse mode  
 
@@ -2110,6 +2202,7 @@ Request VoIP call.
 
 
 Parameters:
+
 * `$user`: `mixed` User  
 
 
@@ -2125,6 +2218,7 @@ Request secret chat.
 
 
 Parameters:
+
 * `$user`: `mixed` User to start secret chat with  
 
 
@@ -2155,6 +2249,7 @@ Resolve username (use getInfo instead).
 
 
 Parameters:
+
 * `$username`: `string` Username  
 
 
@@ -2176,6 +2271,7 @@ Rethrow error catched in strand.
 
 
 Parameters:
+
 * `$e`: `\Throwable` Exception  
 * `$file`: `string` File where the strand started  
 
@@ -2192,6 +2288,7 @@ null-byte RLE decode.
 
 
 Parameters:
+
 * `$string`: `string` Data to decode  
 
 
@@ -2202,6 +2299,7 @@ null-byte RLE encode.
 
 
 Parameters:
+
 * `$string`: `string` Data to encode  
 
 
@@ -2212,6 +2310,7 @@ Get secret chat status.
 
 
 Parameters:
+
 * `$chat`: `int` Chat ID  
 
 
@@ -2231,6 +2330,7 @@ Set update handling callback.
 
 
 Parameters:
+
 * `$callback`: `callable` Callback  
 
 
@@ -2250,6 +2350,7 @@ Set event handler.
 
 
 Parameters:
+
 * `$eventHandler`: `class-string<\EventHandler>` Event handler  
 
 
@@ -2281,6 +2382,7 @@ Set peer(s) where to send errors occurred in the event loop.
 
 
 Parameters:
+
 * `$userOrId`: `int|string` Username(s) or peer ID(s)  
 
 
@@ -2296,6 +2398,7 @@ Sets a private variable in an object.
 
 
 Parameters:
+
 * `$obj`: `object` Object  
 * `$var`: `string` Attribute name  
 * `$val`: `mixed` Attribute value  
@@ -2308,6 +2411,7 @@ Set web template.
 
 
 Parameters:
+
 * `$template`: `string` Template  
 
 
@@ -2327,6 +2431,7 @@ Set webhook update handler.
 
 
 Parameters:
+
 * `$hook_url`: `string` Webhook URL  
 * `$pem_path`: `string` PEM path for self-signed certificate  
 
@@ -2362,6 +2467,7 @@ Asynchronously sleep.
 
 
 Parameters:
+
 * `$time`: `int|float` Number of seconds to sleep for  
 
 
@@ -2377,6 +2483,7 @@ Resolves with a two-item array delineating successful and failed Promise results
 The returned promise will only fail if the given number of required promises fail.
 
 Parameters:
+
 * `$promises`: `(\Promise|\Generator)[]` Promises  
 
 
@@ -2411,6 +2518,7 @@ Convert TD to MTProto parameters.
 
 
 Parameters:
+
 * `$params`: `array` Parameters  
 
 
@@ -2426,6 +2534,7 @@ Convert TD parameters to tdcli.
 
 
 Parameters:
+
 * `$params`: `mixed` Parameters  
 
 
@@ -2436,6 +2545,7 @@ Convert tdcli parameters to tdcli.
 
 
 Parameters:
+
 * `$params`: `array` Params  
 * `$key`: `array` Key  
 
@@ -2456,6 +2566,7 @@ Create an artificial timeout for any \Generator or Promise.
 
 
 Parameters:
+
 * `$promise`: `\Generator|\Promise`   
 * `$timeout`: `int`   
 
@@ -2476,6 +2587,7 @@ If the promise is resolved before the timeout expires, the result is returned
 If the timeout expires before the promise is resolved, a default value is returned
 
 Parameters:
+
 * `$promise`: `\Promise|\Generator` Promise to which the timeout is applied.  
   Full type:
   ```
@@ -2506,6 +2618,7 @@ Convert to camelCase.
 
 
 Parameters:
+
 * `$input`: `string` String  
 
 
@@ -2516,6 +2629,7 @@ Convert to snake_case.
 
 
 Parameters:
+
 * `$input`: `string` String  
 
 
@@ -2526,6 +2640,7 @@ Convert MTProto channel ID to bot API channel ID.
 
 
 Parameters:
+
 * `$id`: `int` MTProto channel ID  
 
 
@@ -2536,6 +2651,7 @@ Escape type name.
 
 
 Parameters:
+
 * `$type`: `string` String to escape  
 
 
@@ -2546,6 +2662,7 @@ Unpack binary double.
 
 
 Parameters:
+
 * `$value`: `string` Value to unpack  
 
 
@@ -2556,6 +2673,7 @@ Unpack bot API file ID.
 
 
 Parameters:
+
 * `$fileId`: `string` Bot API file ID  
 
 
@@ -2575,6 +2693,7 @@ Unpack base256 signed int.
 
 
 Parameters:
+
 * `$value`: `string` base256 int  
 
 
@@ -2585,6 +2704,7 @@ Unpack base256 signed long.
 
 
 Parameters:
+
 * `$value`: `string` base256 long  
 
 
@@ -2595,6 +2715,7 @@ Unpack base256 signed long to string.
 
 
 Parameters:
+
 * `$value`: `string|int|array` base256 long  
 
 
@@ -2605,6 +2726,7 @@ Unset event handler.
 
 
 Parameters:
+
 * `$disableUpdateHandling`: `bool` Whether to also disable internal update handling (will cause errors, otherwise will simply use the NOOP handler)  
 
 
@@ -2624,6 +2746,7 @@ Update the 2FA password.
 The params array can contain password, new_password, email and hint params.
 
 Parameters:
+
 * `$params`: `array` The params  
 
 
@@ -2639,6 +2762,7 @@ Parse, update and store settings.
 
 
 Parameters:
+
 * `$settings`: `\SettingsAbstract` Settings  
 
 
@@ -2655,6 +2779,7 @@ Upload file.
 
 
 Parameters:
+
 * `$file`: `\FileCallbackInterface|string|array` File, URL or Telegram file to upload  
 * `$fileName`: `string` File name  
 * `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
@@ -2678,6 +2803,7 @@ Upload file to secret chat.
 
 
 Parameters:
+
 * `$file`: `\FileCallbackInterface|string|array` File, URL or Telegram file to upload  
 * `$fileName`: `string` File name  
 * `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
@@ -2701,6 +2827,7 @@ The callable must accept two parameters: int $offset, int $size
 The callable must return a string with the contest of the file at the specified offset and size.
 
 Parameters:
+
 * `$callable`: `mixed` Callable  
 * `$size`: `int` File size  
 * `$mime`: `string` Mime type  
@@ -2726,6 +2853,7 @@ Upload file from stream.
 
 
 Parameters:
+
 * `$stream`: `mixed` PHP resource or AMPHP async stream  
 * `$size`: `int` File size  
 * `$mime`: `string` Mime type  
@@ -2750,6 +2878,7 @@ Reupload telegram file.
 
 
 Parameters:
+
 * `$media`: `mixed` Telegram file  
 * `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
 * `$encrypted`: `bool` Whether to encrypt file for secret chats  
@@ -2771,6 +2900,7 @@ Upload file from URL.
 
 
 Parameters:
+
 * `$url`: `string|\FileCallbackInterface` URL of file  
 * `$size`: `int` Size of file  
 * `$fileName`: `string` File name  
@@ -2795,6 +2925,7 @@ Mark sponsored message as read.
 
 
 Parameters:
+
 * `$peer`: `int|array` Channel ID, or Update, or Message, or Peer.  
 
 
@@ -2807,6 +2938,7 @@ Synchronously wait for a promise|generator.
 
 
 Parameters:
+
 * `$promise`: `\Generator|\Promise` The promise to wait for  
 * `$ignoreSignal`: `bool` Whether to ignore shutdown signals  
 
@@ -2824,6 +2956,7 @@ Enable or disable async.
 
 
 Parameters:
+
 * `$async`: `bool` Whether to enable or disable async  
 
 

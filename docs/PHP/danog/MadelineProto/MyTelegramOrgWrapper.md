@@ -33,6 +33,7 @@ Login.
 
 
 Parameters:
+
 * `$number`: `string` Phone number  
 
 
@@ -48,6 +49,7 @@ Complete login.
 
 
 Parameters:
+
 * `$password`: `string` Password  
 
 
@@ -91,6 +93,7 @@ Create an app.
 
 
 Parameters:
+
 * `$settings`: `array` App parameters  
 
 
@@ -106,6 +109,7 @@ Enable or disable async.
 
 
 Parameters:
+
 * `$async`: `bool` Async  
 
 
@@ -116,6 +120,7 @@ Run specified callable synchronously.
 
 
 Parameters:
+
 * `$callable`: `callable` Callable  
 
 

@@ -39,6 +39,7 @@ Convert to camelCase.
 
 
 Parameters:
+
 * `$input`: `string` String  
 
 
@@ -49,6 +50,7 @@ Convert to snake_case.
 
 
 Parameters:
+
 * `$input`: `string` String  
 
 
@@ -59,6 +61,7 @@ Escape string for markdown.
 
 
 Parameters:
+
 * `$hwat`: `string` String to escape  
 
 
@@ -69,6 +72,7 @@ Escape type name.
 
 
 Parameters:
+
 * `$type`: `string` String to escape  
 
 
@@ -79,6 +83,7 @@ Escape method name.
 
 
 Parameters:
+
 * `$method`: `string` Method name  
 
 
@@ -89,6 +94,7 @@ Get mime type from file extension.
 
 
 Parameters:
+
 * `$extension`: `string` File extension  
 * `$default`: `string` Default mime type  
 
@@ -100,6 +106,7 @@ Get extension from mime type.
 
 
 Parameters:
+
 * `$mime`: `string` MIME type  
 
 
@@ -110,6 +117,7 @@ Get extension from file location.
 
 
 Parameters:
+
 * `$location`: `mixed` File location  
 * `$default`: `string` Default extension  
 
@@ -121,6 +129,7 @@ Get mime type of file.
 
 
 Parameters:
+
 * `$file`: `string` File  
 
 
@@ -131,6 +140,7 @@ Get mime type from buffer.
 
 
 Parameters:
+
 * `$buffer`: `string` Buffer  
 
 

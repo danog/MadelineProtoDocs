@@ -64,6 +64,7 @@ Tip: if you receive an error (or nothing), [send us](https://t.me/pwrtelegramgro
 ## Examples
 
 You can find examples for nearly every MadelineProto function in
+
 * [magnaluna webradio](https://magna.madelineproto.xyz) - Multifeatured Telegram VoIP webradio
 * [`downloadRenameBot.php`](https://github.com/danog/MadelineProto/blob/master/examples/downloadRenameBot.php) - download files by URL and rename Telegram files using this async parallelized bot!
 * [`bot.php`](https://github.com/danog/MadelineProto/blob/master/examples/bot.php) - examples for sending normal messages, downloading any media

@@ -32,6 +32,7 @@ Get instance.
 
 
 Parameters:
+
 * `$table`: `string`   
 * `$previous`: `mixed`   
 * `$settings`: `\danog\MadelineProto\Settings\Database\Memory`   

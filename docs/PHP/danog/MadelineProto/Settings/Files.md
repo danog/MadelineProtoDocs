@@ -39,6 +39,7 @@ Set allow automatic upload of files from file paths present in constructors?
 
 
 Parameters:
+
 * `$allowAutomaticUpload`: `bool` Allow automatic upload of files from file paths present in constructors?  
 
 
@@ -55,6 +56,7 @@ Set upload parallel chunk count.
 
 
 Parameters:
+
 * `$uploadParallelChunks`: `int` Upload parallel chunk count  
 
 
@@ -71,6 +73,7 @@ Set download parallel chunk count.
 
 
 Parameters:
+
 * `$downloadParallelChunks`: `int` Download parallel chunk count  
 
 
@@ -87,6 +90,7 @@ Set whether to report undownloadable media to TSF.
 
 
 Parameters:
+
 * `$reportBrokenMedia`: `bool` Whether to report undownloadable media to TSF  
 
 

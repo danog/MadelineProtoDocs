@@ -33,6 +33,7 @@ Set boolean or array of IDs.
 
 
 Parameters:
+
 * `$accept`: `bool|int[]` Boolean or array of IDs  
 
 

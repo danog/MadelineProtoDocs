@@ -33,6 +33,7 @@ Set whether to preload all songs in memory.
 
 
 Parameters:
+
 * `$preloadAudio`: `bool` Whether to preload all songs in memory  
 
 

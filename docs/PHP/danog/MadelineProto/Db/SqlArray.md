@@ -35,6 +35,7 @@ Check if key isset.
 
 
 Parameters:
+
 * `$key`: `mixed`   
 
 
@@ -47,6 +48,7 @@ Unset value for an offset.
 
 
 Parameters:
+
 * `$index`: `string|int` <p>
 The offset to unset.
 </p>  
@@ -108,6 +110,7 @@ Set the value of table.
 
 
 Parameters:
+
 * `$table`: `string`   
 
 
@@ -118,6 +121,7 @@ Parameters:
 
 
 Parameters:
+
 * `$table`: `string`   
 * `$previous`: `\danog\MadelineProto\Db\DbArray|array|null`   
 * `$settings`: `\danog\MadelineProto\Settings\Database\DatabaseAbstract`   

@@ -34,6 +34,7 @@ Logs with an arbitrary level.
 
 
 Parameters:
+
 * `$level`: `mixed`   
 * `$message`: `string`   
 * `$context`: `array`   
@@ -46,6 +47,7 @@ System is unusable.
 
 
 Parameters:
+
 * `$message`: `string`   
 * `$context`: `array`   
 
@@ -58,6 +60,7 @@ Example: Entire website down, database unavailable, etc. This should
 trigger the SMS alerts and wake you up.
 
 Parameters:
+
 * `$message`: `string`   
 * `$context`: `array`   
 
@@ -69,6 +72,7 @@ Critical conditions.
 Example: Application component unavailable, unexpected exception.
 
 Parameters:
+
 * `$message`: `string`   
 * `$context`: `array`   
 
@@ -81,6 +85,7 @@ be logged and monitored.
 
 
 Parameters:
+
 * `$message`: `string`   
 * `$context`: `array`   
 
@@ -93,6 +98,7 @@ Example: Use of deprecated APIs, poor use of an API, undesirable things
 that are not necessarily wrong.
 
 Parameters:
+
 * `$message`: `string`   
 * `$context`: `array`   
 
@@ -104,6 +110,7 @@ Normal but significant events.
 
 
 Parameters:
+
 * `$message`: `string`   
 * `$context`: `array`   
 
@@ -115,6 +122,7 @@ Interesting events.
 Example: User logs in, SQL logs.
 
 Parameters:
+
 * `$message`: `string`   
 * `$context`: `array`   
 
@@ -126,6 +134,7 @@ Detailed debug information.
 
 
 Parameters:
+
 * `$message`: `string`   
 * `$context`: `array`   
 

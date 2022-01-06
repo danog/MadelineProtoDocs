@@ -51,6 +51,7 @@ Construct global static logger from MadelineProto settings.
 
 
 Parameters:
+
 * `$settings`: `\danog\MadelineProto\Settings\Logger` Settings instance  
 
 
@@ -66,6 +67,7 @@ Log a message.
 
 
 Parameters:
+
 * `$param`: `mixed` Message  
 * `$level`: `int` Logging level  
 
@@ -77,6 +79,7 @@ Log a message.
 
 
 Parameters:
+
 * `$param`: `mixed` Message to log  
 * `$level`: `int` Logging level  
 * `$file`: `string` File that originated the message  

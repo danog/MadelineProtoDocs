@@ -34,6 +34,7 @@ Add a callback for script shutdown.
 
 
 Parameters:
+
 * `$callback`: `callable` The callback to set  
 * `$id`: `null|string` The optional callback ID  
 
@@ -47,6 +48,7 @@ Remove a callback from the script shutdown callable list.
 
 
 Parameters:
+
 * `$id`: `null|string|int` The optional callback ID  
 
 

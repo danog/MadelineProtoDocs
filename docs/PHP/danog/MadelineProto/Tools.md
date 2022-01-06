@@ -80,6 +80,7 @@ Generate MTProto vector hash.
 
 
 Parameters:
+
 * `$ints`: `array` IDs  
 
 
@@ -92,6 +93,7 @@ Get random integer.
 
 
 Parameters:
+
 * `$modulus`: `int` Modulus  
 
 
@@ -102,6 +104,7 @@ Get random string of specified length.
 
 
 Parameters:
+
 * `$length`: `int` Length  
 
 
@@ -115,6 +118,7 @@ Works just like the % (modulus) operator, only returns always a postive number.
 
 
 Parameters:
+
 * `$a`: `int` A  
 * `$b`: `int` B  
 
@@ -128,6 +132,7 @@ Unpack base256 signed int.
 
 
 Parameters:
+
 * `$value`: `string` base256 int  
 
 
@@ -138,6 +143,7 @@ Unpack base256 signed long.
 
 
 Parameters:
+
 * `$value`: `string` base256 long  
 
 
@@ -148,6 +154,7 @@ Unpack base256 signed long to string.
 
 
 Parameters:
+
 * `$value`: `string|int|array` base256 long  
 
 
@@ -158,6 +165,7 @@ Convert integer to base256 signed int.
 
 
 Parameters:
+
 * `$value`: `int` Value to convert  
 
 
@@ -168,6 +176,7 @@ Convert integer to base256 long.
 
 
 Parameters:
+
 * `$value`: `int` Value to convert  
 
 
@@ -178,6 +187,7 @@ Convert value to unsigned base256 int.
 
 
 Parameters:
+
 * `$value`: `int` Value  
 
 
@@ -188,6 +198,7 @@ Convert double to binary version.
 
 
 Parameters:
+
 * `$value`: `float` Value to convert  
 
 
@@ -198,6 +209,7 @@ Unpack binary double.
 
 
 Parameters:
+
 * `$value`: `string` Value to unpack  
 
 
@@ -208,6 +220,7 @@ Synchronously wait for a promise|generator.
 
 
 Parameters:
+
 * `$promise`: `\Generator|\Amp\Promise` The promise to wait for  
 * `$ignoreSignal`: `bool` Whether to ignore shutdown signals  
 
@@ -225,6 +238,7 @@ Returns a promise that succeeds when all promises succeed, and fails if any prom
 Returned promise succeeds with an array of values used to succeed each contained promise, with keys corresponding to the array of promises.
 
 Parameters:
+
 * `$promises`: `(\Generator|\Amp\Promise)[]` Promises  
 
 
@@ -241,6 +255,7 @@ Returns a promise that is resolved when all promises are resolved. The returned 
 
 
 Parameters:
+
 * `$promises`: `(\Amp\Promise|\Generator)[]` Promises  
 
 
@@ -257,6 +272,7 @@ Resolves with a two-item array delineating successful and failed Promise results
 The returned promise will only fail if the given number of required promises fail.
 
 Parameters:
+
 * `$promises`: `(\Amp\Promise|\Generator)[]` Promises  
 
 
@@ -273,6 +289,7 @@ Returns a promise that succeeds when the first promise succeeds, and fails only 
 
 
 Parameters:
+
 * `$promises`: `(\Amp\Promise|\Generator)[]` Promises  
 
 
@@ -289,6 +306,7 @@ Create an artificial timeout for any \Generator or Promise.
 
 
 Parameters:
+
 * `$promise`: `\Generator|\Amp\Promise`   
 * `$timeout`: `int`   
 
@@ -308,6 +326,7 @@ If the promise is resolved before the timeout expires, the result is returned
 If the timeout expires before the promise is resolved, a default value is returned
 
 Parameters:
+
 * `$promise`: `\Amp\Promise|\Generator` Promise to which the timeout is applied.  
   Full type:
   ```
@@ -337,6 +356,7 @@ Convert generator, promise or any other value to a promise.
 
 
 Parameters:
+
 * `$promise`: `\Generator|\Amp\Promise|mixed`   
   Full type:
   ```
@@ -362,6 +382,7 @@ Call promise in background.
 
 
 Parameters:
+
 * `$promise`: `\Generator|\Amp\Promise` Promise to resolve  
 * `$actual`: `?\Generator|\Amp\Promise` Promise to resolve instead of $promise  
 * `$file`: `string` File  
@@ -380,6 +401,7 @@ Call promise in background, deferring execution.
 
 
 Parameters:
+
 * `$promise`: `\Generator|\Amp\Promise` Promise to resolve  
 
 
@@ -396,6 +418,7 @@ Rethrow error catched in strand.
 
 
 Parameters:
+
 * `$e`: `\Throwable` Exception  
 * `$file`: `string` File where the strand started  
 
@@ -412,6 +435,7 @@ Call promise $b after promise $a.
 
 
 Parameters:
+
 * `$a`: `\Generator|\Amp\Promise` Promise A  
 * `$b`: `\Generator|\Amp\Promise` Promise B  
 
@@ -430,6 +454,7 @@ Resolves with a callbable that MUST eventually be called in order to release the
 
 
 Parameters:
+
 * `$file`: `string` File to lock  
 * `$operation`: `int` Locking mode  
 * `$polling`: `float` Polling interval  
@@ -449,6 +474,7 @@ Asynchronously sleep.
 
 
 Parameters:
+
 * `$time`: `int|float` Number of seconds to sleep for  
 
 
@@ -464,6 +490,7 @@ Asynchronously read line.
 
 
 Parameters:
+
 * `$prompt`: `string` Prompt  
 
 
@@ -479,6 +506,7 @@ Asynchronously write to stdout/browser.
 
 
 Parameters:
+
 * `$string`: `string` Message to echo  
 
 
@@ -494,6 +522,7 @@ Check if is array or similar (traversable && countable && arrayAccess).
 
 
 Parameters:
+
 * `$var`: `mixed` Value to check  
 
 
@@ -504,6 +533,7 @@ Create array.
 
 
 Parameters:
+
 * `$params`: `mixed` Params  
 
 
@@ -514,6 +544,7 @@ base64URL decode.
 
 
 Parameters:
+
 * `$data`: `string` Data to decode  
 
 
@@ -524,6 +555,7 @@ Base64URL encode.
 
 
 Parameters:
+
 * `$data`: `string` Data to encode  
 
 
@@ -534,6 +566,7 @@ null-byte RLE decode.
 
 
 Parameters:
+
 * `$string`: `string` Data to decode  
 
 
@@ -544,6 +577,7 @@ null-byte RLE encode.
 
 
 Parameters:
+
 * `$string`: `string` Data to encode  
 
 
@@ -554,6 +588,7 @@ Inflate stripped photosize to full JPG payload.
 
 
 Parameters:
+
 * `$stripped`: `string` Stripped photosize  
 
 
@@ -566,6 +601,7 @@ Close connection with client, connected via web.
 
 
 Parameters:
+
 * `$message`: `string` Message  
 
 
@@ -576,6 +612,7 @@ Get final element of array.
 
 
 Parameters:
+
 * `$what`: `array` Array  
 
 
@@ -592,6 +629,7 @@ Checks private property exists in an object.
 
 
 Parameters:
+
 * `$obj`: `object` Object  
 * `$var`: `string` Attribute name  
 
@@ -603,6 +641,7 @@ Accesses a private variable from an object.
 
 
 Parameters:
+
 * `$obj`: `object` Object  
 * `$var`: `string` Attribute name  
 
@@ -614,6 +653,7 @@ Sets a private variable in an object.
 
 
 Parameters:
+
 * `$obj`: `object` Object  
 * `$var`: `string` Attribute name  
 * `$val`: `mixed` Attribute value  
@@ -626,6 +666,7 @@ Convert to camelCase.
 
 
 Parameters:
+
 * `$input`: `string` String  
 
 
@@ -636,6 +677,7 @@ Convert to snake_case.
 
 
 Parameters:
+
 * `$input`: `string` String  
 
 
@@ -646,6 +688,7 @@ Escape string for markdown.
 
 
 Parameters:
+
 * `$hwat`: `string` String to escape  
 
 
@@ -656,6 +699,7 @@ Escape type name.
 
 
 Parameters:
+
 * `$type`: `string` String to escape  
 
 
@@ -666,6 +710,7 @@ Escape method name.
 
 
 Parameters:
+
 * `$method`: `string` Method name  
 
 
@@ -676,6 +721,7 @@ Get mime type from file extension.
 
 
 Parameters:
+
 * `$extension`: `string` File extension  
 * `$default`: `string` Default mime type  
 
@@ -687,6 +733,7 @@ Get extension from mime type.
 
 
 Parameters:
+
 * `$mime`: `string` MIME type  
 
 
@@ -697,6 +744,7 @@ Get extension from file location.
 
 
 Parameters:
+
 * `$location`: `mixed` File location  
 * `$default`: `string` Default extension  
 
@@ -708,6 +756,7 @@ Get mime type of file.
 
 
 Parameters:
+
 * `$file`: `string` File  
 
 
@@ -718,6 +767,7 @@ Get mime type from buffer.
 
 
 Parameters:
+
 * `$buffer`: `string` Buffer  
 
 
