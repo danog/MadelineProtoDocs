@@ -1,5 +1,5 @@
 name: build
-on: [create]
+on: [push]
 jobs:
   run:
     runs-on: Linux
