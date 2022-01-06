@@ -1,0 +1,16 @@
+name: build
+on: [create]
+jobs:
+  run:
+    runs-on: Linux
+    name: GitHub Pages build
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
+          submodules: false
+
+      - name: Build
+        run: |
+          ./build.sh
