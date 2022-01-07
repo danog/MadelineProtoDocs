@@ -173,6 +173,7 @@ body {
   position: relative;
   padding-bottom: $sp-10;
   overflow-y: scroll;
+  overflow-wrap: break-word;
 
   @include mq(md) {
     position: static;
