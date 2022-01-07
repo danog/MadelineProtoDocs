@@ -103,7 +103,7 @@ if ($authorization['_'] === 'account.needSignup') {
 First, you must call `phoneLogin` to send the verification code, see [here for the parameters and the result](https://docs.madelineproto.xyz/phoneLogin.html).  
 Then, use `completePhoneLogin` to complete the login, see [here for the parameters and the result](https://docs.madelineproto.xyz/completePhoneLogin.html).  
 
-Use `complete2falogin` to complete the login to an account with 2FA enabled, see [here for the parameters and the result](https://docs.madelineproto.xyz/complete2falogin.html).    
+Use `complete2falogin` to complete the login to an account with 2FA enabled, see [here for the parameters and the result](https://docs.madelineproto.xyz/complete2FALogin.html).  
 
 If the account does not have an account, use `completeSignup` to signup, see [here for the parameters and the result](https://docs.madelineproto.xyz/completeSignup.html).  
 

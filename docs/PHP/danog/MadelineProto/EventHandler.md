@@ -1246,7 +1246,7 @@ Fully typed return value:
 \danog\MadelineProto\EventHandler|\Amp\Promise<\danog\MadelineProto\EventHandler>
 ```
 #### See also: 
-* [`\danog\MadelineProto\EventHandler`: Event handler.](../EventHandler.html)
+* [`\danog\MadelineProto\EventHandler`: Event handler.](EventHandler.html)
 * `\Amp\Promise`
 
 
@@ -1589,7 +1589,7 @@ Fully typed return value:
 \danog\MadelineProto\Settings|\Amp\Promise<\danog\MadelineProto\Settings>
 ```
 #### See also: 
-* [`\danog\MadelineProto\Settings`: Settings class used for configuring MadelineProto.](../Settings.html)
+* [`\danog\MadelineProto\Settings`: Settings class used for configuring MadelineProto.](Settings.html)
 * `\Amp\Promise`
 
 
