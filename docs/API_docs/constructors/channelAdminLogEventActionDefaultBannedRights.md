@@ -28,13 +28,3 @@ The default banned rights were modified
 ```php
 $channelAdminLogEventActionDefaultBannedRights = ['_' => 'channelAdminLogEventActionDefaultBannedRights', 'prev_banned_rights' => ChatBannedRights, 'new_banned_rights' => ChatBannedRights];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionDefaultBannedRights={_='channelAdminLogEventActionDefaultBannedRights', prev_banned_rights=ChatBannedRights, new_banned_rights=ChatBannedRights}
-
-```
-
-

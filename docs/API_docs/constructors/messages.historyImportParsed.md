@@ -28,13 +28,3 @@ redirect_from: /API_docs/constructors/messages_historyImportParsed.html
 ```php
 $messages_historyImportParsed = ['_' => 'messages.historyImportParsed', 'pm' => Bool, 'group' => Bool, 'title' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_historyImportParsed={_='messages.historyImportParsed', pm=Bool, group=Bool, title='string'}
-
-```
-
-

@@ -32,16 +32,6 @@ Send a contact
 $botInlineMessageMediaContact = ['_' => 'botInlineMessageMediaContact', 'phone_number' => 'string', 'first_name' => 'string', 'last_name' => 'string', 'vcard' => 'string', 'reply_markup' => ReplyMarkup];
 ```  
 
-
-Or, if you're into Lua:
-
-```lua
-botInlineMessageMediaContact={_='botInlineMessageMediaContact', phone_number='string', first_name='string', last_name='string', vcard='string', reply_markup=ReplyMarkup}
-
-```
-
-
-
 ## Usage of reply_markup
 
 You can provide bot API reply_markup objects here.  

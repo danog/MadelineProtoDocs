@@ -42,9 +42,3 @@ $MadelineProto->start();
 $messages_Messages = $MadelineProto->messages->getRecentLocations(['peer' => InputPeer, 'limit' => int, 'hash' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_Messages = messages.getRecentLocations({peer=InputPeer, limit=int, hash=long, })
-```
-

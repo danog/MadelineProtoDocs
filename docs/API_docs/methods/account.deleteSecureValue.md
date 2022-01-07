@@ -40,9 +40,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->deleteSecureValue(['types' => [SecureValueType, SecureValueType], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.deleteSecureValue({types={SecureValueType}, })
-```
-

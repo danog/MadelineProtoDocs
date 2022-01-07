@@ -27,13 +27,3 @@ Current peer
 ```php
 $peerSelfLocated = ['_' => 'peerSelfLocated', 'expires' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-peerSelfLocated={_='peerSelfLocated', expires=int}
-
-```
-
-

@@ -22,13 +22,3 @@ Whether messages forwarded from the user will be [anonymously forwarded](https:/
 ```php
 $privacyKeyForwards = ['_' => 'privacyKeyForwards'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-privacyKeyForwards={_='privacyKeyForwards'}
-
-```
-
-

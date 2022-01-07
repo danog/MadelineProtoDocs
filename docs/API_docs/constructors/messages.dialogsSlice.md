@@ -32,13 +32,3 @@ Incomplete list of dialogs with messages and auxiliary data.
 ```php
 $messages_dialogsSlice = ['_' => 'messages.dialogsSlice', 'count' => int, 'dialogs' => [Dialog, Dialog], 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_dialogsSlice={_='messages.dialogsSlice', count=int, dialogs={Dialog}, messages={Message}, chats={Chat}, users={User}}
-
-```
-
-

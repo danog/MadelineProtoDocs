@@ -27,13 +27,3 @@ Button to start a game
 ```php
 $keyboardButtonGame = ['_' => 'keyboardButtonGame', 'text' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-keyboardButtonGame={_='keyboardButtonGame', text='string'}
-
-```
-
-

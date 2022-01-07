@@ -22,13 +22,3 @@ The phone call was discared because the user is busy in another call
 ```php
 $phoneCallDiscardReasonBusy = ['_' => 'phoneCallDiscardReasonBusy'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-phoneCallDiscardReasonBusy={_='phoneCallDiscardReasonBusy'}
-
-```
-
-

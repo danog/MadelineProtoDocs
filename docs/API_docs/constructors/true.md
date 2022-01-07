@@ -22,13 +22,3 @@ See [predefined identifiers](https://core.telegram.org/mtproto/TL-formal#predefi
 ```php
 $true = ['_' => 'true'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-true={_='true'}
-
-```
-
-

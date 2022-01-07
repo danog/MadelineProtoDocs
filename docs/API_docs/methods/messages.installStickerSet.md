@@ -41,12 +41,6 @@ $MadelineProto->start();
 $messages_StickerSetInstallResult = $MadelineProto->messages->installStickerSet(['stickerset' => InputStickerSet, 'archived' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_StickerSetInstallResult = messages.installStickerSet({stickerset=InputStickerSet, archived=Bool, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

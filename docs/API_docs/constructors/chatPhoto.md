@@ -30,13 +30,3 @@ Group profile photo.
 ```php
 $chatPhoto = ['_' => 'chatPhoto', 'has_video' => Bool, 'photo_id' => long, 'stripped_thumb' => 'bytes', 'dc_id' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-chatPhoto={_='chatPhoto', has_video=Bool, photo_id=long, stripped_thumb='bytes', dc_id=int}
-
-```
-
-

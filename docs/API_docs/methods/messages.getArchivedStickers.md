@@ -42,9 +42,3 @@ $MadelineProto->start();
 $messages_ArchivedStickers = $MadelineProto->messages->getArchivedStickers(['masks' => Bool, 'offset_id' => long, 'limit' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_ArchivedStickers = messages.getArchivedStickers({masks=Bool, offset_id=long, limit=int, })
-```
-

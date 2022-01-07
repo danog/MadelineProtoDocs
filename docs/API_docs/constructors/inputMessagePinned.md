@@ -22,13 +22,3 @@ Pinned message
 ```php
 $inputMessagePinned = ['_' => 'inputMessagePinned'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMessagePinned={_='inputMessagePinned'}
-
-```
-
-

@@ -27,13 +27,3 @@ User is uploading a round video
 ```php
 $sendMessageUploadRoundAction = ['_' => 'sendMessageUploadRoundAction', 'progress' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-sendMessageUploadRoundAction={_='sendMessageUploadRoundAction', progress=int}
-
-```
-
-

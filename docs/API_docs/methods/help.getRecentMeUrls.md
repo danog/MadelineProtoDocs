@@ -40,9 +40,3 @@ $MadelineProto->start();
 $help_RecentMeUrls = $MadelineProto->help->getRecentMeUrls(['referer' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-help_RecentMeUrls = help.getRecentMeUrls({referer='string', })
-```
-

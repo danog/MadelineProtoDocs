@@ -27,13 +27,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $dialogPeerFolder = ['_' => 'dialogPeerFolder', 'folder_id' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-dialogPeerFolder={_='dialogPeerFolder', folder_id=int}
-
-```
-
-

@@ -23,13 +23,3 @@ The country list has not changed
 ```php
 $help_countriesListNotModified = ['_' => 'help.countriesListNotModified'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-help_countriesListNotModified={_='help.countriesListNotModified'}
-
-```
-
-

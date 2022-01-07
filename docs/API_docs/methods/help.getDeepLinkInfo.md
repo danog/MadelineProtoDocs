@@ -40,9 +40,3 @@ $MadelineProto->start();
 $help_DeepLinkInfo = $MadelineProto->help->getDeepLinkInfo(['path' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-help_DeepLinkInfo = help.getDeepLinkInfo({path='string', })
-```
-

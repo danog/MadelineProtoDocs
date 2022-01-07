@@ -35,12 +35,6 @@ $MadelineProto->start();
 $Vector_of_SavedContact = $MadelineProto->contacts->getSaved();
 ```
 
-Or, if you're into Lua:
-
-```lua
-Vector_of_SavedContact = contacts.getSaved({})
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->channels->deleteChannel(['channel' => InputChannel, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = channels.deleteChannel({channel=InputChannel, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

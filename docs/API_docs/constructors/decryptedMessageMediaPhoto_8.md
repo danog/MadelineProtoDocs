@@ -32,13 +32,3 @@ Photo attached to an encrypted message.
 ```php
 $decryptedMessageMediaPhoto_8 = ['_' => 'decryptedMessageMediaPhoto', 'thumb' => 'bytes', 'thumb_w' => int, 'thumb_h' => int, 'w' => int, 'h' => int, 'size' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-decryptedMessageMediaPhoto_8={_='decryptedMessageMediaPhoto', thumb='bytes', thumb_w=int, thumb_h=int, w=int, h=int, size=int}
-
-```
-
-

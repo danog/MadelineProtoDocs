@@ -23,13 +23,3 @@ No further results were found
 ```php
 $messages_foundStickerSetsNotModified = ['_' => 'messages.foundStickerSetsNotModified'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_foundStickerSetsNotModified={_='messages.foundStickerSetsNotModified'}
-
-```
-
-

@@ -35,9 +35,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->resendPasswordEmail();
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.resendPasswordEmail({})
-```
-

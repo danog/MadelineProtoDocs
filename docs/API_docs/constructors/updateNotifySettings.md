@@ -28,13 +28,3 @@ Changes in notification settings.
 ```php
 $updateNotifySettings = ['_' => 'updateNotifySettings', 'peer' => NotifyPeer, 'notify_settings' => PeerNotifySettings];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateNotifySettings={_='updateNotifySettings', peer=NotifyPeer, notify_settings=PeerNotifySettings}
-
-```
-
-

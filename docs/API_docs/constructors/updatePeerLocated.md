@@ -27,13 +27,3 @@ List of peers near you was updated
 ```php
 $updatePeerLocated = ['_' => 'updatePeerLocated', 'peers' => [PeerLocated, PeerLocated]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updatePeerLocated={_='updatePeerLocated', peers={PeerLocated}}
-
-```
-
-

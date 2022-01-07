@@ -40,9 +40,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->readFeaturedStickers(['id' => [long, long], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.readFeaturedStickers({id={long}, })
-```
-

@@ -42,12 +42,6 @@ $MadelineProto->start();
 $messages_MessageViews = $MadelineProto->messages->getMessagesViews(['peer' => InputPeer, 'id' => [int, int], 'increment' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_MessageViews = messages.getMessagesViews({peer=InputPeer, id={int}, increment=Bool, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

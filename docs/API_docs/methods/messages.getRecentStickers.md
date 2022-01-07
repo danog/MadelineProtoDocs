@@ -41,9 +41,3 @@ $MadelineProto->start();
 $messages_RecentStickers = $MadelineProto->messages->getRecentStickers(['attached' => Bool, 'hash' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_RecentStickers = messages.getRecentStickers({attached=Bool, hash=long, })
-```
-

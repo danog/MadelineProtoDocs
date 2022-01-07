@@ -27,13 +27,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $updatePendingJoinRequests = ['_' => 'updatePendingJoinRequests', 'peer' => Peer, 'requests_pending' => int, 'recent_requesters' => [long, long]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updatePendingJoinRequests={_='updatePendingJoinRequests', peer=Peer, requests_pending=int, recent_requesters={long}}
-
-```
-
-

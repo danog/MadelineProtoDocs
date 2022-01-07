@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->readEncryptedHistory(['peer' => InputEncryptedChat, 'max_date' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.readEncryptedHistory({peer=InputEncryptedChat, max_date=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -28,13 +28,3 @@ Game by short name
 ```php
 $inputGameShortName = ['_' => 'inputGameShortName', 'bot_id' => InputUser, 'short_name' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputGameShortName={_='inputGameShortName', bot_id=InputUser, short_name='string'}
-
-```
-
-

@@ -21,13 +21,3 @@ redirect_from: /API_docs/constructors/messages_stickerSetNotModified.html
 ```php
 $messages_stickerSetNotModified = ['_' => 'messages.stickerSetNotModified'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_stickerSetNotModified={_='messages.stickerSetNotModified'}
-
-```
-
-

@@ -29,13 +29,3 @@ No events.
 ```php
 $updates_differenceEmpty = ['_' => 'updates.differenceEmpty', 'date' => int, 'seq' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updates_differenceEmpty={_='updates.differenceEmpty', date=int, seq=int}
-
-```
-
-

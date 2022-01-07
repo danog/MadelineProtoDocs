@@ -27,13 +27,3 @@ A notification stating the API layer that is used by the client. You should use 
 ```php
 $decryptedMessageActionNotifyLayer_17 = ['_' => 'decryptedMessageActionNotifyLayer', 'layer' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-decryptedMessageActionNotifyLayer_17={_='decryptedMessageActionNotifyLayer', layer=int}
-
-```
-
-

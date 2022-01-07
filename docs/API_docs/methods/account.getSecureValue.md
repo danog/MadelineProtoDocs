@@ -40,9 +40,3 @@ $MadelineProto->start();
 $Vector_of_SecureValue = $MadelineProto->account->getSecureValue(['types' => [SecureValueType, SecureValueType], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Vector_of_SecureValue = account.getSecureValue({types={SecureValueType}, })
-```
-

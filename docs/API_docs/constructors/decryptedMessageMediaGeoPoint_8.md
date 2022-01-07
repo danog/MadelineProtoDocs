@@ -28,13 +28,3 @@ GeoPont attached to an encrypted message.
 ```php
 $decryptedMessageMediaGeoPoint_8 = ['_' => 'decryptedMessageMediaGeoPoint', 'lat' => double, 'long' => double];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-decryptedMessageMediaGeoPoint_8={_='decryptedMessageMediaGeoPoint', lat=double, long=double}
-
-```
-
-

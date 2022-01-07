@@ -22,13 +22,3 @@ The phone call was ended normally
 ```php
 $phoneCallDiscardReasonHangup = ['_' => 'phoneCallDiscardReasonHangup'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-phoneCallDiscardReasonHangup={_='phoneCallDiscardReasonHangup'}
-
-```
-
-

@@ -35,12 +35,6 @@ $MadelineProto->start();
 $NearestDc = $MadelineProto->help->getNearestDc();
 ```
 
-Or, if you're into Lua:
-
-```lua
-NearestDc = help.getNearestDc({})
-```
-
 ### Errors
 
 | Code | Type     | Description   |

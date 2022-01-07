@@ -27,13 +27,3 @@ Send a [dice-based animated sticker](https://core.telegram.org/api/dice)
 ```php
 $inputMediaDice = ['_' => 'inputMediaDice', 'emoticon' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMediaDice={_='inputMediaDice', emoticon='string'}
-
-```
-
-

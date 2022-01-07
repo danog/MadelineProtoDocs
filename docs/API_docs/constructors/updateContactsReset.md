@@ -22,13 +22,3 @@ All contacts were deleted
 ```php
 $updateContactsReset = ['_' => 'updateContactsReset'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateContactsReset={_='updateContactsReset'}
-
-```
-
-

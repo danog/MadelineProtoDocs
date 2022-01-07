@@ -28,13 +28,3 @@ The history of a [channel/supergroup](https://core.telegram.org/api/channel) was
 ```php
 $updateChannelAvailableMessages = ['_' => 'updateChannelAvailableMessages', 'channel_id' => long, 'available_min_id' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateChannelAvailableMessages={_='updateChannelAvailableMessages', channel_id=long, available_min_id=int}
-
-```
-
-

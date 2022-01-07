@@ -29,13 +29,3 @@ Reactions
 ```php
 $reactionCount = ['_' => 'reactionCount', 'chosen' => Bool, 'reaction' => 'string', 'count' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-reactionCount={_='reactionCount', chosen=Bool, reaction='string', count=int}
-
-```
-
-

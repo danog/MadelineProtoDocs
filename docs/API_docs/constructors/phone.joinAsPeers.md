@@ -28,13 +28,3 @@ redirect_from: /API_docs/constructors/phone_joinAsPeers.html
 ```php
 $phone_joinAsPeers = ['_' => 'phone.joinAsPeers', 'peers' => [Peer, Peer], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-phone_joinAsPeers={_='phone.joinAsPeers', peers={Peer}, chats={Chat}, users={User}}
-
-```
-
-

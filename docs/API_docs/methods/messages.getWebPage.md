@@ -41,12 +41,6 @@ $MadelineProto->start();
 $WebPage = $MadelineProto->messages->getWebPage(['url' => 'string', 'hash' => [int, int], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-WebPage = messages.getWebPage({url='string', hash={int}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

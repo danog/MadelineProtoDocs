@@ -22,13 +22,3 @@ Fetch only pinned messages
 ```php
 $inputMessagesFilterPinned = ['_' => 'inputMessagesFilterPinned'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMessagesFilterPinned={_='inputMessagesFilterPinned'}
-
-```
-
-

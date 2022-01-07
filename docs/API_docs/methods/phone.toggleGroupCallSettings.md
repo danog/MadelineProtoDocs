@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->phone->toggleGroupCallSettings(['reset_invite_hash' => Bool, 'call' => InputGroupCall, 'join_muted' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = phone.toggleGroupCallSettings({reset_invite_hash=Bool, call=InputGroupCall, join_muted=Bool, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

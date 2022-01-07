@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->checkUsername(['username' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.checkUsername({username='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->migrateChat(['chat_id' => InputPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.migrateChat({chat_id=InputPeer, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

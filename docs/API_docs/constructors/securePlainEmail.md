@@ -27,13 +27,3 @@ Email address to use in [telegram passport](https://core.telegram.org/passport):
 ```php
 $securePlainEmail = ['_' => 'securePlainEmail', 'email' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-securePlainEmail={_='securePlainEmail', email='string'}
-
-```
-
-

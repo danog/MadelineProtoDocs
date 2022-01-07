@@ -40,12 +40,6 @@ $MadelineProto->start();
 $messages_Chats = $MadelineProto->channels->getChannels(['id' => [InputChannel, InputChannel], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_Chats = channels.getChannels({id={InputChannel}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

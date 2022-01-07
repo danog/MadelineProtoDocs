@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->contacts->acceptContact(['id' => InputUser, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = contacts.acceptContact({id=InputUser, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

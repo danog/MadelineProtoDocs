@@ -28,13 +28,3 @@ Recovery info of a [2FA password](https://core.telegram.org/api/srp), only for a
 ```php
 $auth_passwordRecovery = ['_' => 'auth.passwordRecovery', 'email_pattern' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-auth_passwordRecovery={_='auth.passwordRecovery', email_pattern='string'}
-
-```
-
-

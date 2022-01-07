@@ -40,12 +40,6 @@ $MadelineProto->start();
 $messages_Chats = $MadelineProto->channels->getLeftChannels(['offset' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_Chats = channels.getLeftChannels({offset=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

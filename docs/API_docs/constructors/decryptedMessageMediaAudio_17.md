@@ -29,13 +29,3 @@ Audio file attached to a secret chat message.
 ```php
 $decryptedMessageMediaAudio_17 = ['_' => 'decryptedMessageMediaAudio', 'duration' => int, 'mime_type' => 'string', 'size' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-decryptedMessageMediaAudio_17={_='decryptedMessageMediaAudio', duration=int, mime_type='string', size=int}
-
-```
-
-

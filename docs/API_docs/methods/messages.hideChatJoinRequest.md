@@ -40,9 +40,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->hideChatJoinRequest(['approved' => Bool, 'peer' => InputPeer, 'user_id' => InputUser, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.hideChatJoinRequest({approved=Bool, peer=InputPeer, user_id=InputUser, })
-```
-

@@ -30,16 +30,6 @@ Send whatever media is attached to the [botInlineMediaResult](../constructors/bo
 $botInlineMessageMediaAuto = ['_' => 'botInlineMessageMediaAuto', 'message' => 'string', 'entities' => [MessageEntity, MessageEntity], 'reply_markup' => ReplyMarkup];
 ```  
 
-
-Or, if you're into Lua:
-
-```lua
-botInlineMessageMediaAuto={_='botInlineMessageMediaAuto', message='string', entities={MessageEntity}, reply_markup=ReplyMarkup}
-
-```
-
-
-
 ## Usage of reply_markup
 
 You can provide bot API reply_markup objects here.  

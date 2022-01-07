@@ -33,13 +33,3 @@ A language pack string which has different forms based on the number of some obj
 ```php
 $langPackStringPluralized = ['_' => 'langPackStringPluralized', 'key' => 'string', 'zero_value' => 'string', 'one_value' => 'string', 'two_value' => 'string', 'few_value' => 'string', 'many_value' => 'string', 'other_value' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-langPackStringPluralized={_='langPackStringPluralized', key='string', zero_value='string', one_value='string', two_value='string', few_value='string', many_value='string', other_value='string'}
-
-```
-
-

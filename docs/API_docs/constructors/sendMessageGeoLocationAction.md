@@ -22,13 +22,3 @@ User is selecting a location to share.
 ```php
 $sendMessageGeoLocationAction = ['_' => 'sendMessageGeoLocationAction'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-sendMessageGeoLocationAction={_='sendMessageGeoLocationAction'}
-
-```
-
-

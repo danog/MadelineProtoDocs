@@ -23,13 +23,3 @@ No updates are available for the application.
 ```php
 $help_noAppUpdate = ['_' => 'help.noAppUpdate'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-help_noAppUpdate={_='help.noAppUpdate'}
-
-```
-
-

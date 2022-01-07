@@ -27,13 +27,3 @@ Bot or inline keyboard
 ```php
 $replyInlineMarkup = ['_' => 'replyInlineMarkup', 'rows' => [KeyboardButtonRow, KeyboardButtonRow]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-replyInlineMarkup={_='replyInlineMarkup', rows={KeyboardButtonRow}}
-
-```
-
-

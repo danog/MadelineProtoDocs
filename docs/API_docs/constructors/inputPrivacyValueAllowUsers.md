@@ -27,13 +27,3 @@ Allow only certain users
 ```php
 $inputPrivacyValueAllowUsers = ['_' => 'inputPrivacyValueAllowUsers', 'users' => [InputUser, InputUser]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPrivacyValueAllowUsers={_='inputPrivacyValueAllowUsers', users={InputUser}}
-
-```
-
-

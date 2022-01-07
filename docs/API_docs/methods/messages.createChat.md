@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->createChat(['users' => [InputUser, InputUser], 'title' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.createChat({users={InputUser}, title='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

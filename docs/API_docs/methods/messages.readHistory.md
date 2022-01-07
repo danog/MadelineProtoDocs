@@ -41,12 +41,6 @@ $MadelineProto->start();
 $messages_AffectedMessages = $MadelineProto->messages->readHistory(['peer' => InputPeer, 'max_id' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_AffectedMessages = messages.readHistory({peer=InputPeer, max_id=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -27,13 +27,3 @@ An error occurred while generating the [statistics graph](https://core.telegram.
 ```php
 $statsGraphError = ['_' => 'statsGraphError', 'error' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-statsGraphError={_='statsGraphError', error='string'}
-
-```
-
-

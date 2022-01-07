@@ -22,13 +22,3 @@ The phone call was missed
 ```php
 $phoneCallDiscardReasonMissed = ['_' => 'phoneCallDiscardReasonMissed'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-phoneCallDiscardReasonMissed={_='phoneCallDiscardReasonMissed'}
-
-```
-
-

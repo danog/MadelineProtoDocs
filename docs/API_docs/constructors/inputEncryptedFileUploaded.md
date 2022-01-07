@@ -30,13 +30,3 @@ Sets new encrypted file saved by parts using upload.saveFilePart method.
 ```php
 $inputEncryptedFileUploaded = ['_' => 'inputEncryptedFileUploaded', 'id' => long, 'parts' => int, 'md5_checksum' => 'string', 'key_fingerprint' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputEncryptedFileUploaded={_='inputEncryptedFileUploaded', id=long, parts=int, md5_checksum='string', key_fingerprint=int}
-
-```
-
-

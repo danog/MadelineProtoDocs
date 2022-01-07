@@ -29,13 +29,3 @@ If the difference is too long or if the channel isn't currently in the states, s
 ```php
 $updateChannelTooLong = ['_' => 'updateChannelTooLong', 'channel_id' => long, 'pts' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateChannelTooLong={_='updateChannelTooLong', channel_id=long, pts=int}
-
-```
-
-

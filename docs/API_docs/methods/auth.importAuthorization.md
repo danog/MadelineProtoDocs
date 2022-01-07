@@ -41,12 +41,6 @@ $MadelineProto->start();
 $auth_Authorization = $MadelineProto->auth->importAuthorization(['id' => long, 'bytes' => 'bytes', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-auth_Authorization = auth.importAuthorization({id=long, bytes='bytes', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

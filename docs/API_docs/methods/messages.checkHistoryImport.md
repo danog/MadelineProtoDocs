@@ -38,9 +38,3 @@ $MadelineProto->start();
 $messages_HistoryImportParsed = $MadelineProto->messages->checkHistoryImport(['import_head' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_HistoryImportParsed = messages.checkHistoryImport({import_head='string', })
-```
-

@@ -38,12 +38,6 @@ $MadelineProto->start();
 $messages_CheckedHistoryImportPeer = $MadelineProto->messages->checkHistoryImportPeer(['peer' => InputPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_CheckedHistoryImportPeer = messages.checkHistoryImportPeer({peer=InputPeer, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

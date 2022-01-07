@@ -35,9 +35,3 @@ $MadelineProto->start();
 $Vector_of_DialogFilter = $MadelineProto->messages->getDialogFilters();
 ```
 
-Or, if you're into Lua:
-
-```lua
-Vector_of_DialogFilter = messages.getDialogFilters({})
-```
-

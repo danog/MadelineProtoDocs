@@ -28,13 +28,3 @@ Theme
 ```php
 $inputTheme = ['_' => 'inputTheme', 'id' => long, 'access_hash' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputTheme={_='inputTheme', id=long, access_hash=long}
-
-```
-
-

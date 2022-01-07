@@ -41,9 +41,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->account->getNotifyExceptions(['compare_sound' => Bool, 'peer' => InputNotifyPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = account.getNotifyExceptions({compare_sound=Bool, peer=InputNotifyPeer, })
-```
-

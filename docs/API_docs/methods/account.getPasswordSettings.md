@@ -40,12 +40,6 @@ $MadelineProto->start();
 $account_PasswordSettings = $MadelineProto->account->getPasswordSettings(['password' => InputCheckPasswordSRP, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-account_PasswordSettings = account.getPasswordSettings({password=InputCheckPasswordSRP, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

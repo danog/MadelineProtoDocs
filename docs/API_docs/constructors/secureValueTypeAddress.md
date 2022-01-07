@@ -22,13 +22,3 @@ Address
 ```php
 $secureValueTypeAddress = ['_' => 'secureValueTypeAddress'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureValueTypeAddress={_='secureValueTypeAddress'}
-
-```
-
-

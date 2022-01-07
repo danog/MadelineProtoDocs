@@ -30,13 +30,3 @@ Affected part of communication history with the user or in a chat.
 ```php
 $messages_affectedHistory = ['_' => 'messages.affectedHistory', 'pts' => int, 'pts_count' => int, 'offset' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_affectedHistory={_='messages.affectedHistory', pts=int, pts_count=int, offset=int}
-
-```
-
-

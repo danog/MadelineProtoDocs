@@ -22,13 +22,3 @@ There is no password
 ```php
 $inputCheckPasswordEmpty = ['_' => 'inputCheckPasswordEmpty'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputCheckPasswordEmpty={_='inputCheckPasswordEmpty'}
-
-```
-
-

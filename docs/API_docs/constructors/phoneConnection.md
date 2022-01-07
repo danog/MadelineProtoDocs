@@ -31,13 +31,3 @@ Identifies an endpoint that can be used to connect to the other user in a phone 
 ```php
 $phoneConnection = ['_' => 'phoneConnection', 'id' => long, 'ip' => 'string', 'ipv6' => 'string', 'port' => int, 'peer_tag' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-phoneConnection={_='phoneConnection', id=long, ip='string', ipv6='string', port=int, peer_tag='bytes'}
-
-```
-
-

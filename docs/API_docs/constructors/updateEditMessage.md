@@ -29,13 +29,3 @@ A message was edited
 ```php
 $updateEditMessage = ['_' => 'updateEditMessage', 'message' => Message, 'pts' => int, 'pts_count' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateEditMessage={_='updateEditMessage', message=Message, pts=int, pts_count=int}
-
-```
-
-

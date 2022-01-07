@@ -38,12 +38,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->auth->checkRecoveryPassword(['code' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = auth.checkRecoveryPassword({code='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

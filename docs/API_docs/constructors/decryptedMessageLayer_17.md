@@ -30,13 +30,3 @@ Sets the layer number for the contents of an encrypted message.
 ```php
 $decryptedMessageLayer_17 = ['_' => 'decryptedMessageLayer', 'layer' => int, 'in_seq_no' => int, 'out_seq_no' => int, 'message' => DecryptedMessage];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-decryptedMessageLayer_17={_='decryptedMessageLayer', layer=int, in_seq_no=int, out_seq_no=int, message=DecryptedMessage}
-
-```
-
-

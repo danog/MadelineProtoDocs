@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->contacts->resetTopPeerRating(['category' => TopPeerCategory, 'peer' => InputPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = contacts.resetTopPeerRating({category=TopPeerCategory, peer=InputPeer, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

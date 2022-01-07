@@ -22,13 +22,3 @@ Empty constructor.
 ```php
 $messageMediaEmpty = ['_' => 'messageMediaEmpty'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageMediaEmpty={_='messageMediaEmpty'}
-
-```
-
-

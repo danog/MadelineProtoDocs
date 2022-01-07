@@ -28,13 +28,3 @@ Collage of media
 ```php
 $pageBlockCollage = ['_' => 'pageBlockCollage', 'items' => [PageBlock, PageBlock], 'caption' => PageCaption];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockCollage={_='pageBlockCollage', items={PageBlock}, caption=PageCaption}
-
-```
-
-

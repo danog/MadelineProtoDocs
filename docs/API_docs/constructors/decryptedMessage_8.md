@@ -28,13 +28,3 @@ Contents of an encrypted message.
 ```php
 $decryptedMessage_8 = ['_' => 'decryptedMessage', 'message' => 'string', 'media' => DecryptedMessageMedia];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-decryptedMessage_8={_='decryptedMessage', message='string', media=DecryptedMessageMedia}
-
-```
-
-

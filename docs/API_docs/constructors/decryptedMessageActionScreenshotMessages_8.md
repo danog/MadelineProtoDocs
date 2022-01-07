@@ -27,13 +27,3 @@ A screenshot was taken.
 ```php
 $decryptedMessageActionScreenshotMessages_8 = ['_' => 'decryptedMessageActionScreenshotMessages', 'random_ids' => [long, long]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-decryptedMessageActionScreenshotMessages_8={_='decryptedMessageActionScreenshotMessages', random_ids={long}}
-
-```
-
-

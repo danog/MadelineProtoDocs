@@ -22,13 +22,3 @@ Whether people will be able to see the user's profile picture
 ```php
 $inputPrivacyKeyProfilePhoto = ['_' => 'inputPrivacyKeyProfilePhoto'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPrivacyKeyProfilePhoto={_='inputPrivacyKeyProfilePhoto'}
-
-```
-
-

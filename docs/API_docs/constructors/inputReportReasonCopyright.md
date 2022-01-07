@@ -22,13 +22,3 @@ Report for copyrighted content
 ```php
 $inputReportReasonCopyright = ['_' => 'inputReportReasonCopyright'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputReportReasonCopyright={_='inputReportReasonCopyright'}
-
-```
-
-

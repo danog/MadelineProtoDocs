@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->updatePasswordSettings(['password' => InputCheckPasswordSRP, 'new_settings' => account.PasswordInputSettings, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.updatePasswordSettings({password=InputCheckPasswordSRP, new_settings=account.PasswordInputSettings, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

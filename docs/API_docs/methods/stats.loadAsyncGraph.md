@@ -41,12 +41,6 @@ $MadelineProto->start();
 $StatsGraph = $MadelineProto->stats->loadAsyncGraph(['token' => 'string', 'x' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-StatsGraph = stats.loadAsyncGraph({token='string', x=long, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

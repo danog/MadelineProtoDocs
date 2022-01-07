@@ -27,13 +27,3 @@ Custom action (most likely not supported by the current layer, an upgrade might 
 ```php
 $messageActionCustomAction = ['_' => 'messageActionCustomAction', 'message' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionCustomAction={_='messageActionCustomAction', message='string'}
-
-```
-
-

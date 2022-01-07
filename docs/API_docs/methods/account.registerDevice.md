@@ -45,12 +45,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->registerDevice(['no_muted' => Bool, 'token_type' => int, 'token' => 'string', 'app_sandbox' => Bool, 'secret' => 'bytes', 'other_uids' => [long, long], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.registerDevice({no_muted=Bool, token_type=int, token='string', app_sandbox=Bool, secret='bytes', other_uids={long}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

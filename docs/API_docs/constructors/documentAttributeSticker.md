@@ -30,13 +30,3 @@ Defines a sticker
 ```php
 $documentAttributeSticker = ['_' => 'documentAttributeSticker', 'mask' => Bool, 'alt' => 'string', 'stickerset' => InputStickerSet, 'mask_coords' => MaskCoords];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-documentAttributeSticker={_='documentAttributeSticker', mask=Bool, alt='string', stickerset=InputStickerSet, mask_coords=MaskCoords}
-
-```
-
-

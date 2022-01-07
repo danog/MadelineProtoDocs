@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->editChatTitle(['chat_id' => InputPeer, 'title' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.editChatTitle({chat_id=InputPeer, title='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

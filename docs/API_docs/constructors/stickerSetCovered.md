@@ -28,13 +28,3 @@ Stickerset, with a specific sticker as preview
 ```php
 $stickerSetCovered = ['_' => 'stickerSetCovered', 'set' => StickerSet, 'cover' => Document];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-stickerSetCovered={_='stickerSetCovered', set=StickerSet, cover=Document}
-
-```
-
-

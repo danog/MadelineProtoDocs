@@ -30,13 +30,3 @@ A poll answer, and how users voted on it
 ```php
 $pollAnswerVoters = ['_' => 'pollAnswerVoters', 'chosen' => Bool, 'correct' => Bool, 'option' => 'bytes', 'voters' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pollAnswerVoters={_='pollAnswerVoters', chosen=Bool, correct=Bool, option='bytes', voters=int}
-
-```
-
-

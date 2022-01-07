@@ -28,13 +28,3 @@ A chat invitation that also allows peeking into the group to read messages witho
 ```php
 $chatInvitePeek = ['_' => 'chatInvitePeek', 'chat' => Chat, 'expires' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-chatInvitePeek={_='chatInvitePeek', chat=Chat, expires=int}
-
-```
-
-

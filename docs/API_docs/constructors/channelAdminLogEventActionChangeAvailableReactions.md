@@ -26,13 +26,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $channelAdminLogEventActionChangeAvailableReactions = ['_' => 'channelAdminLogEventActionChangeAvailableReactions', 'prev_value' => ['string', 'string'], 'new_value' => ['string', 'string']];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionChangeAvailableReactions={_='channelAdminLogEventActionChangeAvailableReactions', prev_value={'string'}, new_value={'string'}}
-
-```
-
-

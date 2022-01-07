@@ -32,13 +32,3 @@ Indicates a discarded phone call
 ```php
 $phoneCallDiscarded = ['_' => 'phoneCallDiscarded', 'need_rating' => Bool, 'need_debug' => Bool, 'video' => Bool, 'id' => long, 'reason' => PhoneCallDiscardReason, 'duration' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-phoneCallDiscarded={_='phoneCallDiscarded', need_rating=Bool, need_debug=Bool, video=Bool, id=long, reason=PhoneCallDiscardReason, duration=int}
-
-```
-
-

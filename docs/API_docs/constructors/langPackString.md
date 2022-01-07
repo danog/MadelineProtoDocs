@@ -28,13 +28,3 @@ Translated localization string
 ```php
 $langPackString = ['_' => 'langPackString', 'key' => 'string', 'value' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-langPackString={_='langPackString', key='string', value='string'}
-
-```
-
-

@@ -41,12 +41,6 @@ $MadelineProto->start();
 $messages_Messages = $MadelineProto->messages->getScheduledHistory(['peer' => InputPeer, 'hash' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_Messages = messages.getScheduledHistory({peer=InputPeer, hash=long, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

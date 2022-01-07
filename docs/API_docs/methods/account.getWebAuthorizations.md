@@ -35,9 +35,3 @@ $MadelineProto->start();
 $account_WebAuthorizations = $MadelineProto->account->getWebAuthorizations();
 ```
 
-Or, if you're into Lua:
-
-```lua
-account_WebAuthorizations = account.getWebAuthorizations({})
-```
-

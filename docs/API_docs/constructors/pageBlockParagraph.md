@@ -27,13 +27,3 @@ A paragraph
 ```php
 $pageBlockParagraph = ['_' => 'pageBlockParagraph', 'text' => RichText];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockParagraph={_='pageBlockParagraph', text=RichText}
-
-```
-
-

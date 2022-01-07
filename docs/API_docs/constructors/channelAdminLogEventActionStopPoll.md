@@ -27,13 +27,3 @@ A poll was stopped
 ```php
 $channelAdminLogEventActionStopPoll = ['_' => 'channelAdminLogEventActionStopPoll', 'message' => Message];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionStopPoll={_='channelAdminLogEventActionStopPoll', message=Message}
-
-```
-
-

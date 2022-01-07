@@ -29,13 +29,3 @@ SHA256 Hash of an uploaded file, to be checked for validity after download
 ```php
 $fileHash = ['_' => 'fileHash', 'offset' => int, 'limit' => int, 'hash' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-fileHash={_='fileHash', offset=int, limit=int, hash='bytes'}
-
-```
-
-

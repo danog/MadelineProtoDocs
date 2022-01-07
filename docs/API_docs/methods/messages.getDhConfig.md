@@ -41,12 +41,6 @@ $MadelineProto->start();
 $messages_DhConfig = $MadelineProto->messages->getDhConfig(['version' => int, 'random_length' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_DhConfig = messages.getDhConfig({version=int, random_length=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

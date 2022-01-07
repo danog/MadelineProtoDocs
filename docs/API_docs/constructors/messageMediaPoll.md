@@ -28,13 +28,3 @@ Poll
 ```php
 $messageMediaPoll = ['_' => 'messageMediaPoll', 'poll' => Poll, 'results' => PollResults];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageMediaPoll={_='messageMediaPoll', poll=Poll, results=PollResults}
-
-```
-
-

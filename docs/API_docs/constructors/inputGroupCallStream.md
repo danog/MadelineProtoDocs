@@ -29,13 +29,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $inputGroupCallStream = ['_' => 'inputGroupCallStream', 'call' => InputGroupCall, 'time_ms' => long, 'scale' => int, 'video_channel' => int, 'video_quality' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputGroupCallStream={_='inputGroupCallStream', call=InputGroupCall, time_ms=long, scale=int, video_channel=int, video_quality=int}
-
-```
-
-

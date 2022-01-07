@@ -22,13 +22,3 @@ Return only messages containing voice notes
 ```php
 $inputMessagesFilterVoice = ['_' => 'inputMessagesFilterVoice'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMessagesFilterVoice={_='inputMessagesFilterVoice'}
-
-```
-
-

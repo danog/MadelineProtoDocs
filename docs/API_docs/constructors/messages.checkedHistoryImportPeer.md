@@ -26,13 +26,3 @@ redirect_from: /API_docs/constructors/messages_checkedHistoryImportPeer.html
 ```php
 $messages_checkedHistoryImportPeer = ['_' => 'messages.checkedHistoryImportPeer', 'confirm_text' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_checkedHistoryImportPeer={_='messages.checkedHistoryImportPeer', confirm_text='string'}
-
-```
-
-

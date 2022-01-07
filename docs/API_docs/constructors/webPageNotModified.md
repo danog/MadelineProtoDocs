@@ -27,13 +27,3 @@ The preview of the webpage hasn't changed
 ```php
 $webPageNotModified = ['_' => 'webPageNotModified', 'cached_page_views' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-webPageNotModified={_='webPageNotModified', cached_page_views=int}
-
-```
-
-

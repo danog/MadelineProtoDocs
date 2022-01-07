@@ -27,13 +27,3 @@ Kicker
 ```php
 $pageBlockKicker = ['_' => 'pageBlockKicker', 'text' => RichText];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockKicker={_='pageBlockKicker', text=RichText}
-
-```
-
-

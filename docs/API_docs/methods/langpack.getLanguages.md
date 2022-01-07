@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Vector_of_LangPackLanguage = $MadelineProto->langpack->getLanguages(['lang_pack' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Vector_of_LangPackLanguage = langpack.getLanguages({lang_pack='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

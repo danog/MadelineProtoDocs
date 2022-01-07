@@ -28,16 +28,6 @@ A game
 $inputBotInlineMessageGame = ['_' => 'inputBotInlineMessageGame', 'reply_markup' => ReplyMarkup];
 ```  
 
-
-Or, if you're into Lua:
-
-```lua
-inputBotInlineMessageGame={_='inputBotInlineMessageGame', reply_markup=ReplyMarkup}
-
-```
-
-
-
 ## Usage of reply_markup
 
 You can provide bot API reply_markup objects here.  

@@ -31,13 +31,3 @@ Chat waiting for approval of second participant.
 ```php
 $encryptedChatWaiting = ['_' => 'encryptedChatWaiting', 'id' => int, 'access_hash' => long, 'date' => int, 'admin_id' => long, 'participant_id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-encryptedChatWaiting={_='encryptedChatWaiting', id=int, access_hash=long, date=int, admin_id=long, participant_id=long}
-
-```
-
-

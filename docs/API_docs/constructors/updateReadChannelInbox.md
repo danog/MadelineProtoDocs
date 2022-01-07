@@ -31,13 +31,3 @@ Incoming messages in a [channel/supergroup](https://core.telegram.org/api/channe
 ```php
 $updateReadChannelInbox = ['_' => 'updateReadChannelInbox', 'folder_id' => int, 'channel_id' => long, 'max_id' => int, 'still_unread_count' => int, 'pts' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateReadChannelInbox={_='updateReadChannelInbox', folder_id=int, channel_id=long, max_id=int, still_unread_count=int, pts=int}
-
-```
-
-

@@ -31,13 +31,3 @@ New set of configuring parameters.
 ```php
 $messages_dhConfig = ['_' => 'messages.dhConfig', 'g' => int, 'p' => 'bytes', 'version' => int, 'random' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_dhConfig={_='messages.dhConfig', g=int, p='bytes', version=int, random='bytes'}
-
-```
-
-

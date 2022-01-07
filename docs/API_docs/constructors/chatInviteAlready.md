@@ -27,13 +27,3 @@ The user has already joined this chat
 ```php
 $chatInviteAlready = ['_' => 'chatInviteAlready', 'chat' => Chat];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-chatInviteAlready={_='chatInviteAlready', chat=Chat}
-
-```
-
-

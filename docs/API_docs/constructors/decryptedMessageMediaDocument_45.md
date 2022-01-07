@@ -33,13 +33,3 @@ Document attached to a message in a secret chat.
 ```php
 $decryptedMessageMediaDocument_45 = ['_' => 'decryptedMessageMediaDocument', 'thumb' => 'bytes', 'thumb_w' => int, 'thumb_h' => int, 'mime_type' => 'string', 'size' => int, 'attributes' => [DocumentAttribute, DocumentAttribute], 'caption' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-decryptedMessageMediaDocument_45={_='decryptedMessageMediaDocument', thumb='bytes', thumb_w=int, thumb_h=int, mime_type='string', size=int, attributes={DocumentAttribute}, caption='string'}
-
-```
-
-

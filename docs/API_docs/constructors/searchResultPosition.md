@@ -27,13 +27,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $searchResultPosition = ['_' => 'searchResultPosition', 'msg_id' => int, 'date' => int, 'offset' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-searchResultPosition={_='searchResultPosition', msg_id=int, date=int, offset=int}
-
-```
-
-

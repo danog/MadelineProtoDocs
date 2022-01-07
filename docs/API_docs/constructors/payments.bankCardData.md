@@ -29,13 +29,3 @@ Credit card info, provided by the card's bank(s)
 ```php
 $payments_bankCardData = ['_' => 'payments.bankCardData', 'title' => 'string', 'open_urls' => [BankCardOpenUrl, BankCardOpenUrl]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-payments_bankCardData={_='payments.bankCardData', title='string', open_urls={BankCardOpenUrl}}
-
-```
-
-

@@ -47,12 +47,6 @@ $MadelineProto->start();
 $messages_Messages = $MadelineProto->messages->getHistory(['peer' => InputPeer, 'offset_id' => int, 'offset_date' => int, 'add_offset' => int, 'limit' => int, 'max_id' => int, 'min_id' => int, 'hash' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_Messages = messages.getHistory({peer=InputPeer, offset_id=int, offset_date=int, add_offset=int, limit=int, max_id=int, min_id=int, hash=long, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

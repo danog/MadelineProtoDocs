@@ -26,13 +26,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $channelAdminLogEventActionExportedInviteEdit = ['_' => 'channelAdminLogEventActionExportedInviteEdit', 'prev_invite' => ExportedChatInvite, 'new_invite' => ExportedChatInvite];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionExportedInviteEdit={_='channelAdminLogEventActionExportedInviteEdit', prev_invite=ExportedChatInvite, new_invite=ExportedChatInvite}
-
-```
-
-

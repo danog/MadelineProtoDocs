@@ -40,9 +40,3 @@ $MadelineProto->start();
 $messages_AffectedMessages = $MadelineProto->messages->readMessageContents(['id' => [int, int], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_AffectedMessages = messages.readMessageContents({id={int}, })
-```
-

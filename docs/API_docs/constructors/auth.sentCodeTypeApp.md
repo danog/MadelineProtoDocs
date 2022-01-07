@@ -28,13 +28,3 @@ The code was sent through the telegram app
 ```php
 $auth_sentCodeTypeApp = ['_' => 'auth.sentCodeTypeApp', 'length' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-auth_sentCodeTypeApp={_='auth.sentCodeTypeApp', length=int}
-
-```
-
-

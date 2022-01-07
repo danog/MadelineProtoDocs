@@ -28,13 +28,3 @@ Recent t.me link to a chat
 ```php
 $recentMeUrlChat = ['_' => 'recentMeUrlChat', 'url' => 'string', 'chat_id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-recentMeUrlChat={_='recentMeUrlChat', url='string', chat_id=long}
-
-```
-
-

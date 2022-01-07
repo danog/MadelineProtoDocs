@@ -27,13 +27,3 @@ Empty constructor, document doesn't exist.
 ```php
 $documentEmpty = ['_' => 'documentEmpty', 'id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-documentEmpty={_='documentEmpty', id=long}
-
-```
-
-

@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->discardEncryption(['delete_history' => Bool, 'chat_id' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.discardEncryption({delete_history=Bool, chat_id=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

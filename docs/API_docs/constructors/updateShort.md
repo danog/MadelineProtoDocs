@@ -28,13 +28,3 @@ Shortened constructor containing info on one update not requiring auxiliary data
 ```php
 $updateShort = ['_' => 'updateShort', 'update' => Update, 'date' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateShort={_='updateShort', update=Update, date=int}
-
-```
-
-

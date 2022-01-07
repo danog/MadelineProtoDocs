@@ -42,12 +42,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->sendVote(['peer' => InputPeer, 'msg_id' => int, 'options' => ['bytes', 'bytes'], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.sendVote({peer=InputPeer, msg_id=int, options={'bytes'}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

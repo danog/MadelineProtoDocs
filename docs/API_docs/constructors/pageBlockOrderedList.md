@@ -27,13 +27,3 @@ Ordered list of IV blocks
 ```php
 $pageBlockOrderedList = ['_' => 'pageBlockOrderedList', 'items' => [PageListOrderedItem, PageListOrderedItem]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockOrderedList={_='pageBlockOrderedList', items={PageListOrderedItem}}
-
-```
-
-

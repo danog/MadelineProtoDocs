@@ -41,9 +41,3 @@ $MadelineProto->start();
 $LangPackLanguage = $MadelineProto->langpack->getLanguage(['lang_pack' => 'string', 'lang_code' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-LangPackLanguage = langpack.getLanguage({lang_pack='string', lang_code='string', })
-```
-

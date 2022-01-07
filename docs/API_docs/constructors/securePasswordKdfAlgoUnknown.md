@@ -22,13 +22,3 @@ Unknown KDF algo (most likely the client has to be updated)
 ```php
 $securePasswordKdfAlgoUnknown = ['_' => 'securePasswordKdfAlgoUnknown'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-securePasswordKdfAlgoUnknown={_='securePasswordKdfAlgoUnknown'}
-
-```
-
-

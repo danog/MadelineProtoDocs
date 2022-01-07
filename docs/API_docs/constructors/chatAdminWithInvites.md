@@ -27,13 +27,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $chatAdminWithInvites = ['_' => 'chatAdminWithInvites', 'admin_id' => long, 'invites_count' => int, 'revoked_invites_count' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-chatAdminWithInvites={_='chatAdminWithInvites', admin_id=long, invites_count=int, revoked_invites_count=int}
-
-```
-
-

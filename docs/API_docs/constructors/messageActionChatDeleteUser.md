@@ -27,13 +27,3 @@ User left the group.
 ```php
 $messageActionChatDeleteUser = ['_' => 'messageActionChatDeleteUser', 'user_id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionChatDeleteUser={_='messageActionChatDeleteUser', user_id=long}
-
-```
-
-

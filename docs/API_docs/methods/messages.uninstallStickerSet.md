@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->uninstallStickerSet(['stickerset' => InputStickerSet, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.uninstallStickerSet({stickerset=InputStickerSet, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -40,9 +40,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->auth->dropTempAuthKeys(['except_auth_keys' => [long, long], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = auth.dropTempAuthKeys({except_auth_keys={long}, })
-```
-

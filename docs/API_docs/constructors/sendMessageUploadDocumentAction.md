@@ -27,13 +27,3 @@ User is uploading a file.
 ```php
 $sendMessageUploadDocumentAction = ['_' => 'sendMessageUploadDocumentAction', 'progress' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-sendMessageUploadDocumentAction={_='sendMessageUploadDocumentAction', progress=int}
-
-```
-
-

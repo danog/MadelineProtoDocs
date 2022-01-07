@@ -27,13 +27,3 @@ JSON boolean value
 ```php
 $jsonBool = ['_' => 'jsonBool', 'value' => Bool];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-jsonBool={_='jsonBool', value=Bool}
-
-```
-
-

@@ -27,13 +27,3 @@ URL with chat statistics
 ```php
 $statsURL = ['_' => 'statsURL', 'url' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-statsURL={_='statsURL', url='string'}
-
-```
-
-

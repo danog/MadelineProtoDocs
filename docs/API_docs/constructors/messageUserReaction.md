@@ -28,13 +28,3 @@ Message reaction
 ```php
 $messageUserReaction = ['_' => 'messageUserReaction', 'user_id' => long, 'reaction' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageUserReaction={_='messageUserReaction', user_id=long, reaction='string'}
-
-```
-
-

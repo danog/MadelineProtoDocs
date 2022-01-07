@@ -23,13 +23,3 @@ GIF image. MIME type: `image/gif`.
 ```php
 $storage_fileGif = ['_' => 'storage.fileGif'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-storage_fileGif={_='storage.fileGif'}
-
-```
-
-

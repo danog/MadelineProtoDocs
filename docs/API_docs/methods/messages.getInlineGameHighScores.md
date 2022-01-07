@@ -41,12 +41,6 @@ $MadelineProto->start();
 $messages_HighScores = $MadelineProto->messages->getInlineGameHighScores(['id' => InputBotInlineMessageID, 'user_id' => InputUser, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_HighScores = messages.getInlineGameHighScores({id=InputBotInlineMessageID, user_id=InputUser, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -27,13 +27,3 @@ Wallpaper by slug (a unique ID)
 ```php
 $inputWallPaperSlug = ['_' => 'inputWallPaperSlug', 'slug' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputWallPaperSlug={_='inputWallPaperSlug', slug='string'}
-
-```
-
-

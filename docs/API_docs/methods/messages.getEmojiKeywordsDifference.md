@@ -41,9 +41,3 @@ $MadelineProto->start();
 $EmojiKeywordsDifference = $MadelineProto->messages->getEmojiKeywordsDifference(['lang_code' => 'string', 'from_version' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-EmojiKeywordsDifference = messages.getEmojiKeywordsDifference({lang_code='string', from_version=int, })
-```
-

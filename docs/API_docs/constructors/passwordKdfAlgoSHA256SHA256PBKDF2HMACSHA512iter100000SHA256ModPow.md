@@ -30,13 +30,3 @@ This key derivation algorithm defines that [SRP 2FA login](https://core.telegram
 ```php
 $passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow = ['_' => 'passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow', 'salt1' => 'bytes', 'salt2' => 'bytes', 'g' => int, 'p' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow={_='passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow', salt1='bytes', salt2='bytes', g=int, p='bytes'}
-
-```
-
-

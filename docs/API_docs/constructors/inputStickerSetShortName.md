@@ -27,13 +27,3 @@ Stickerset by short name, from `tg://addstickers?set=short_name`
 ```php
 $inputStickerSetShortName = ['_' => 'inputStickerSetShortName', 'short_name' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputStickerSetShortName={_='inputStickerSetShortName', short_name='string'}
-
-```
-
-

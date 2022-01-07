@@ -27,13 +27,3 @@ List item
 ```php
 $pageListItemText = ['_' => 'pageListItemText', 'text' => RichText];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageListItemText={_='pageListItemText', text=RichText}
-
-```
-
-

@@ -30,13 +30,3 @@ Message reactions
 ```php
 $messageReactions = ['_' => 'messageReactions', 'min' => Bool, 'can_see_list' => Bool, 'results' => [ReactionCount, ReactionCount], 'recent_reactons' => [MessageUserReaction, MessageUserReaction]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageReactions={_='messageReactions', min=Bool, can_see_list=Bool, results={ReactionCount}, recent_reactons={MessageUserReaction}}
-
-```
-
-

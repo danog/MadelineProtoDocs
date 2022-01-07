@@ -28,13 +28,3 @@ Message entity representing a bot /command
 ```php
 $messageEntityBotCommand = ['_' => 'messageEntityBotCommand', 'offset' => int, 'length' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageEntityBotCommand={_='messageEntityBotCommand', offset=int, length=int}
-
-```
-
-

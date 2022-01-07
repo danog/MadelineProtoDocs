@@ -30,13 +30,3 @@ Favorited stickers
 ```php
 $messages_favedStickers = ['_' => 'messages.favedStickers', 'hash' => long, 'packs' => [StickerPack, StickerPack], 'stickers' => [Document, Document]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_favedStickers={_='messages.favedStickers', hash=long, packs={StickerPack}, stickers={Document}}
-
-```
-
-

@@ -43,9 +43,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->toggleStickerSets(['uninstall' => Bool, 'archive' => Bool, 'unarchive' => Bool, 'stickersets' => [InputStickerSet, InputStickerSet], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.toggleStickerSets({uninstall=Bool, archive=Bool, unarchive=Bool, stickersets={InputStickerSet}, })
-```
-

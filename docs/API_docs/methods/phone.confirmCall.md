@@ -43,12 +43,6 @@ $MadelineProto->start();
 $phone_PhoneCall = $MadelineProto->phone->confirmCall(['peer' => InputPhoneCall, 'g_a' => 'bytes', 'key_fingerprint' => long, 'protocol' => PhoneCallProtocol, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-phone_PhoneCall = phone.confirmCall({peer=InputPhoneCall, g_a='bytes', key_fingerprint=long, protocol=PhoneCallProtocol, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

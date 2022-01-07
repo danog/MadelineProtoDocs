@@ -29,13 +29,3 @@ Name, ISO code, localized name and phone codes/patterns of all available countri
 ```php
 $help_countriesList = ['_' => 'help.countriesList', 'countries' => [help.Country, help.Country], 'hash' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-help_countriesList={_='help.countriesList', countries={help.Country}, hash=int}
-
-```
-
-

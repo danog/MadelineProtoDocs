@@ -42,12 +42,6 @@ $MadelineProto->start();
 $MessageMedia = $MadelineProto->messages->getWebPagePreview(['message' => 'string', 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-MessageMedia = messages.getWebPagePreview({message='string', entities={MessageEntity}, parseMode='string', })
-```
-
 
 ## Return value 
 

@@ -40,9 +40,3 @@ $MadelineProto->start();
 $messages_AllStickers = $MadelineProto->messages->getMaskStickers(['hash' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_AllStickers = messages.getMaskStickers({hash=long, })
-```
-

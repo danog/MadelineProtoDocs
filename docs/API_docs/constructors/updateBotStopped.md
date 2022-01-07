@@ -28,13 +28,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $updateBotStopped = ['_' => 'updateBotStopped', 'user_id' => long, 'date' => int, 'stopped' => Bool, 'qts' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateBotStopped={_='updateBotStopped', user_id=long, date=int, stopped=Bool, qts=int}
-
-```
-
-

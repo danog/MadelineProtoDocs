@@ -22,13 +22,3 @@ Temporary registration
 ```php
 $secureValueTypeTemporaryRegistration = ['_' => 'secureValueTypeTemporaryRegistration'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureValueTypeTemporaryRegistration={_='secureValueTypeTemporaryRegistration'}
-
-```
-
-

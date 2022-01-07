@@ -28,13 +28,3 @@ Successfully imported contact.
 ```php
 $importedContact = ['_' => 'importedContact', 'user_id' => long, 'client_id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-importedContact={_='importedContact', user_id=long, client_id=long}
-
-```
-
-

@@ -29,13 +29,3 @@ Found stickers
 ```php
 $messages_stickers = ['_' => 'messages.stickers', 'hash' => long, 'stickers' => [Document, Document]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_stickers={_='messages.stickers', hash=long, stickers={Document}}
-
-```
-
-

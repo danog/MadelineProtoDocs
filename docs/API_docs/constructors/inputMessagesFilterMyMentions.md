@@ -22,13 +22,3 @@ Return only messages where the current user was [mentioned](https://core.telegra
 ```php
 $inputMessagesFilterMyMentions = ['_' => 'inputMessagesFilterMyMentions'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMessagesFilterMyMentions={_='inputMessagesFilterMyMentions'}
-
-```
-
-

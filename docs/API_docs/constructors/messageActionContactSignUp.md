@@ -22,13 +22,3 @@ A contact just signed up to telegram
 ```php
 $messageActionContactSignUp = ['_' => 'messageActionContactSignUp'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionContactSignUp={_='messageActionContactSignUp'}
-
-```
-
-

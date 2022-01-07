@@ -28,13 +28,3 @@ The user is preparing a message; typing, recording, uploading, etc. This update 
 ```php
 $updateUserTyping = ['_' => 'updateUserTyping', 'user_id' => long, 'action' => SendMessageAction];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateUserTyping={_='updateUserTyping', user_id=long, action=SendMessageAction}
-
-```
-
-

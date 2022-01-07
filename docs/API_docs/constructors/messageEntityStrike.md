@@ -28,13 +28,3 @@ Message entity representing <del>strikethrough</del> text.
 ```php
 $messageEntityStrike = ['_' => 'messageEntityStrike', 'offset' => int, 'length' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageEntityStrike={_='messageEntityStrike', offset=int, length=int}
-
-```
-
-

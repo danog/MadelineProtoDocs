@@ -27,13 +27,3 @@ Table row
 ```php
 $pageTableRow = ['_' => 'pageTableRow', 'cells' => [PageTableCell, PageTableCell]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageTableRow={_='pageTableRow', cells={PageTableCell}}
-
-```
-
-

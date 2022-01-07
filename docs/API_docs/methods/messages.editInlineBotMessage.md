@@ -46,12 +46,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->editInlineBotMessage(['no_webpage' => Bool, 'id' => InputBotInlineMessageID, 'message' => 'string', 'media' => InputMedia, 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.editInlineBotMessage({no_webpage=Bool, id=InputBotInlineMessageID, message='string', media=InputMedia, reply_markup=ReplyMarkup, entities={MessageEntity}, parseMode='string', })
-```
-
 
 ## Usage of reply_markup
 

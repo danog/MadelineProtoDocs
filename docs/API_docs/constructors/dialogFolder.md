@@ -34,13 +34,3 @@ Dialog in folder
 ```php
 $dialogFolder = ['_' => 'dialogFolder', 'pinned' => Bool, 'folder' => Folder, 'peer' => Peer, 'top_message' => int, 'unread_muted_peers_count' => int, 'unread_unmuted_peers_count' => int, 'unread_muted_messages_count' => int, 'unread_unmuted_messages_count' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-dialogFolder={_='dialogFolder', pinned=Bool, folder=Folder, peer=Peer, top_message=int, unread_muted_peers_count=int, unread_unmuted_peers_count=int, unread_muted_messages_count=int, unread_unmuted_messages_count=int}
-
-```
-
-

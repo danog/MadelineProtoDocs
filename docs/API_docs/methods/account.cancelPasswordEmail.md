@@ -35,9 +35,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->cancelPasswordEmail();
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.cancelPasswordEmail({})
-```
-

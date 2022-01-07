@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->channels->joinChannel(['channel' => InputChannel, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = channels.joinChannel({channel=InputChannel, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

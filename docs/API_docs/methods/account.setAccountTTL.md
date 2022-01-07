@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->setAccountTTL(['ttl' => AccountDaysTTL, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.setAccountTTL({ttl=AccountDaysTTL, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

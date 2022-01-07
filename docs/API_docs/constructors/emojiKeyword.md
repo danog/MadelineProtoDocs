@@ -28,13 +28,3 @@ Emoji keyword
 ```php
 $emojiKeyword = ['_' => 'emojiKeyword', 'keyword' => 'string', 'emoticons' => ['string', 'string']];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-emojiKeyword={_='emojiKeyword', keyword='string', emoticons={'string'}}
-
-```
-
-

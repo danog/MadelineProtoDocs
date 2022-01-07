@@ -28,13 +28,3 @@ Payment was not successful, additional verification is needed
 ```php
 $payments_paymentVerificationNeeded = ['_' => 'payments.paymentVerificationNeeded', 'url' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-payments_paymentVerificationNeeded={_='payments.paymentVerificationNeeded', url='string'}
-
-```
-
-

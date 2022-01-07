@@ -27,13 +27,3 @@ Webpage preview
 ```php
 $decryptedMessageMediaWebPage_46 = ['_' => 'decryptedMessageMediaWebPage', 'url' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-decryptedMessageMediaWebPage_46={_='decryptedMessageMediaWebPage', url='string'}
-
-```
-
-

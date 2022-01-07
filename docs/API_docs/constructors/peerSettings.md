@@ -38,13 +38,3 @@ Peer settings
 ```php
 $peerSettings = ['_' => 'peerSettings', 'report_spam' => Bool, 'add_contact' => Bool, 'block_contact' => Bool, 'share_contact' => Bool, 'need_contacts_exception' => Bool, 'report_geo' => Bool, 'autoarchived' => Bool, 'invite_members' => Bool, 'request_chat_broadcast' => Bool, 'geo_distance' => int, 'request_chat_title' => 'string', 'request_chat_date' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-peerSettings={_='peerSettings', report_spam=Bool, add_contact=Bool, block_contact=Bool, share_contact=Bool, need_contacts_exception=Bool, report_geo=Bool, autoarchived=Bool, invite_members=Bool, request_chat_broadcast=Bool, geo_distance=int, request_chat_title='string', request_chat_date=int}
-
-```
-
-

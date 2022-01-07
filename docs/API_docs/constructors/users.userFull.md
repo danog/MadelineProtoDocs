@@ -28,13 +28,3 @@ redirect_from: /API_docs/constructors/users_userFull.html
 ```php
 $users_userFull = ['_' => 'users.userFull', 'full_user' => UserFull, 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-users_userFull={_='users.userFull', full_user=UserFull, chats={Chat}, users={User}}
-
-```
-
-

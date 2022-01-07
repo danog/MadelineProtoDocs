@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Vector_of_int = $MadelineProto->contacts->getContactIDs(['hash' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Vector_of_int = contacts.getContactIDs({hash=long, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -22,13 +22,3 @@ Return only messages containing gifs
 ```php
 $inputMessagesFilterGif = ['_' => 'inputMessagesFilterGif'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMessagesFilterGif={_='inputMessagesFilterGif'}
-
-```
-
-

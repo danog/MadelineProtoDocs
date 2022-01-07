@@ -31,13 +31,3 @@ Full constructor of updates
 ```php
 $updates = ['_' => 'updates', 'updates' => [Update, Update], 'users' => [User, User], 'chats' => [Chat, Chat], 'date' => int, 'seq' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updates={_='updates', updates={Update}, users={User}, chats={Chat}, date=int, seq=int}
-
-```
-
-

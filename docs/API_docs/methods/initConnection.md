@@ -48,12 +48,6 @@ $MadelineProto->start();
 $X = $MadelineProto->initConnection(['api_id' => int, 'device_model' => 'string', 'system_version' => 'string', 'app_version' => 'string', 'system_lang_code' => 'string', 'lang_pack' => 'string', 'lang_code' => 'string', 'proxy' => InputClientProxy, 'params' => JSONValue, 'query' => !X, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-X = initConnection({api_id=int, device_model='string', system_version='string', app_version='string', system_lang_code='string', lang_pack='string', lang_code='string', proxy=InputClientProxy, params=JSONValue, query=!X, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

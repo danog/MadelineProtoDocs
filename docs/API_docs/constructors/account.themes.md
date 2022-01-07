@@ -29,13 +29,3 @@ Installed themes
 ```php
 $account_themes = ['_' => 'account.themes', 'hash' => long, 'themes' => [Theme, Theme]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-account_themes={_='account.themes', hash=long, themes={Theme}}
-
-```
-
-

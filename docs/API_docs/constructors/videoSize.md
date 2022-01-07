@@ -31,13 +31,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $videoSize = ['_' => 'videoSize', 'type' => 'string', 'w' => int, 'h' => int, 'size' => int, 'video_start_ts' => double];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-videoSize={_='videoSize', type='string', w=int, h=int, size=int, video_start_ts=double}
-
-```
-
-

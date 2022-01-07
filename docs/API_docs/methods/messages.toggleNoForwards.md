@@ -39,9 +39,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->toggleNoForwards(['peer' => InputPeer, 'enabled' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.toggleNoForwards({peer=InputPeer, enabled=Bool, })
-```
-

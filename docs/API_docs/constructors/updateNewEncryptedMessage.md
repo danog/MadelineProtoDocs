@@ -28,13 +28,3 @@ New encrypted message.
 ```php
 $updateNewEncryptedMessage = ['_' => 'updateNewEncryptedMessage', 'message' => EncryptedMessage, 'qts' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateNewEncryptedMessage={_='updateNewEncryptedMessage', message=EncryptedMessage, qts=int}
-
-```
-
-

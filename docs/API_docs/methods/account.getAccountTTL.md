@@ -35,9 +35,3 @@ $MadelineProto->start();
 $AccountDaysTTL = $MadelineProto->account->getAccountTTL();
 ```
 
-Or, if you're into Lua:
-
-```lua
-AccountDaysTTL = account.getAccountTTL({})
-```
-

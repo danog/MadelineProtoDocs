@@ -23,13 +23,3 @@ No new wallpapers were found
 ```php
 $account_wallPapersNotModified = ['_' => 'account.wallPapersNotModified'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-account_wallPapersNotModified={_='account.wallPapersNotModified'}
-
-```
-
-

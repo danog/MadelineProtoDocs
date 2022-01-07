@@ -44,12 +44,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->phone->discardCall(['video' => Bool, 'peer' => InputPhoneCall, 'duration' => int, 'reason' => PhoneCallDiscardReason, 'connection_id' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = phone.discardCall({video=Bool, peer=InputPhoneCall, duration=int, reason=PhoneCallDiscardReason, connection_id=long, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

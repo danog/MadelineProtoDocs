@@ -25,13 +25,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $messageActionSetMessagesTTL = ['_' => 'messageActionSetMessagesTTL', 'period' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionSetMessagesTTL={_='messageActionSetMessagesTTL', period=int}
-
-```
-
-

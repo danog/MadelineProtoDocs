@@ -22,13 +22,3 @@ Users we've chatted most frequently with
 ```php
 $topPeerCategoryCorrespondents = ['_' => 'topPeerCategoryCorrespondents'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-topPeerCategoryCorrespondents={_='topPeerCategoryCorrespondents'}
-
-```
-
-

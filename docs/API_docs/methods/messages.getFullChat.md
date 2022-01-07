@@ -40,12 +40,6 @@ $MadelineProto->start();
 $messages_ChatFull = $MadelineProto->messages->getFullChat(['chat_id' => InputPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_ChatFull = messages.getFullChat({chat_id=InputPeer, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

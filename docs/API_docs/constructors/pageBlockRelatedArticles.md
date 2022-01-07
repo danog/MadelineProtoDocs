@@ -28,13 +28,3 @@ Related articles
 ```php
 $pageBlockRelatedArticles = ['_' => 'pageBlockRelatedArticles', 'title' => RichText, 'articles' => [PageRelatedArticle, PageRelatedArticle]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockRelatedArticles={_='pageBlockRelatedArticles', title=RichText, articles={PageRelatedArticle}}
-
-```
-
-

@@ -21,13 +21,3 @@ redirect_from: /API_docs/constructors/auth_codeTypeMissedCall.html
 ```php
 $auth_codeTypeMissedCall = ['_' => 'auth.codeTypeMissedCall'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-auth_codeTypeMissedCall={_='auth.codeTypeMissedCall'}
-
-```
-
-

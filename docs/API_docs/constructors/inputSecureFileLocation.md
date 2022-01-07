@@ -28,13 +28,3 @@ Location of encrypted telegram [passport](https://core.telegram.org/passport) fi
 ```php
 $inputSecureFileLocation = ['_' => 'inputSecureFileLocation', 'id' => long, 'access_hash' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputSecureFileLocation={_='inputSecureFileLocation', id=long, access_hash=long}
-
-```
-
-

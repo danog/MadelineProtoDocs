@@ -22,13 +22,3 @@ Report for pornography
 ```php
 $inputReportReasonPornography = ['_' => 'inputReportReasonPornography'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputReportReasonPornography={_='inputReportReasonPornography'}
-
-```
-
-

@@ -41,12 +41,6 @@ $MadelineProto->start();
 $payments_PaymentReceipt = $MadelineProto->payments->getPaymentReceipt(['peer' => InputPeer, 'msg_id' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-payments_PaymentReceipt = payments.getPaymentReceipt({peer=InputPeer, msg_id=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

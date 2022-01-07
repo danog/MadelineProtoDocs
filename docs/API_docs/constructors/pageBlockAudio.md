@@ -28,13 +28,3 @@ Audio
 ```php
 $pageBlockAudio = ['_' => 'pageBlockAudio', 'audio_id' => long, 'caption' => PageCaption];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockAudio={_='pageBlockAudio', audio_id=long, caption=PageCaption}
-
-```
-
-

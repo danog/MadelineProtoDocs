@@ -22,13 +22,3 @@ Driver's license
 ```php
 $secureValueTypeDriverLicense = ['_' => 'secureValueTypeDriverLicense'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureValueTypeDriverLicense={_='secureValueTypeDriverLicense'}
-
-```
-
-

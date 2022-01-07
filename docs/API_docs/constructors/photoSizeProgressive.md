@@ -30,13 +30,3 @@ Progressively encoded photosize
 ```php
 $photoSizeProgressive = ['_' => 'photoSizeProgressive', 'type' => 'string', 'w' => int, 'h' => int, 'sizes' => [int, int]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-photoSizeProgressive={_='photoSizeProgressive', type='string', w=int, h=int, sizes={int}}
-
-```
-
-

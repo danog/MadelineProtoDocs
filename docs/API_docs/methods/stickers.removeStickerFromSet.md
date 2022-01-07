@@ -40,12 +40,6 @@ $MadelineProto->start();
 $messages_StickerSet = $MadelineProto->stickers->removeStickerFromSet(['sticker' => InputDocument, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_StickerSet = stickers.removeStickerFromSet({sticker=InputDocument, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

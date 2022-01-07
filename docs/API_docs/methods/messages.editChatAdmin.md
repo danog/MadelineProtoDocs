@@ -42,12 +42,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->editChatAdmin(['chat_id' => InputPeer, 'user_id' => InputUser, 'is_admin' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.editChatAdmin({chat_id=InputPeer, user_id=InputUser, is_admin=Bool, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

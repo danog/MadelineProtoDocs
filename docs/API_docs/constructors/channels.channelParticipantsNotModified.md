@@ -23,13 +23,3 @@ No new participant info could be found
 ```php
 $channels_channelParticipantsNotModified = ['_' => 'channels.channelParticipantsNotModified'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channels_channelParticipantsNotModified={_='channels.channelParticipantsNotModified'}
-
-```
-
-

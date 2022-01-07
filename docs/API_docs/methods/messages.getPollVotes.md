@@ -44,12 +44,6 @@ $MadelineProto->start();
 $messages_VotesList = $MadelineProto->messages->getPollVotes(['peer' => InputPeer, 'id' => int, 'option' => 'bytes', 'offset' => 'string', 'limit' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_VotesList = messages.getPollVotes({peer=InputPeer, id=int, option='bytes', offset='string', limit=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

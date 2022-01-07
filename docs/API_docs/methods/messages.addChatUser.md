@@ -42,12 +42,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->addChatUser(['chat_id' => InputPeer, 'user_id' => InputUser, 'fwd_limit' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.addChatUser({chat_id=InputPeer, user_id=InputUser, fwd_limit=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

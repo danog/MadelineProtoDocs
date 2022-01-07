@@ -29,13 +29,3 @@ Telegram [passport](https://core.telegram.org/passport) configuration
 ```php
 $help_passportConfig = ['_' => 'help.passportConfig', 'hash' => int, 'countries_langs' => DataJSON];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-help_passportConfig={_='help.passportConfig', hash=int, countries_langs=DataJSON}
-
-```
-
-

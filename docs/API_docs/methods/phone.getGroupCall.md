@@ -39,9 +39,3 @@ $MadelineProto->start();
 $phone_GroupCall = $MadelineProto->phone->getGroupCall(['call' => InputGroupCall, 'limit' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-phone_GroupCall = phone.getGroupCall({call=InputGroupCall, limit=int, })
-```
-

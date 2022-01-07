@@ -28,13 +28,3 @@ Deleted emoji keyword
 ```php
 $emojiKeywordDeleted = ['_' => 'emojiKeywordDeleted', 'keyword' => 'string', 'emoticons' => ['string', 'string']];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-emojiKeywordDeleted={_='emojiKeywordDeleted', keyword='string', emoticons={'string'}}
-
-```
-
-

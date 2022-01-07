@@ -22,13 +22,3 @@ User status has not been set yet.
 ```php
 $userStatusEmpty = ['_' => 'userStatusEmpty'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-userStatusEmpty={_='userStatusEmpty'}
-
-```
-
-

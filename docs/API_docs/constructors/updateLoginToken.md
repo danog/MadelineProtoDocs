@@ -22,13 +22,3 @@ A login token (for login via QR code) was accepted.
 ```php
 $updateLoginToken = ['_' => 'updateLoginToken'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateLoginToken={_='updateLoginToken'}
-
-```
-
-

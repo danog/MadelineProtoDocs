@@ -40,12 +40,6 @@ $MadelineProto->start();
 $messages_PeerDialogs = $MadelineProto->messages->getPinnedDialogs(['folder_id' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_PeerDialogs = messages.getPinnedDialogs({folder_id=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -42,13 +42,3 @@ redirect_from: /API_docs/constructors/stats_broadcastStats.html
 ```php
 $stats_broadcastStats = ['_' => 'stats.broadcastStats', 'period' => StatsDateRangeDays, 'followers' => StatsAbsValueAndPrev, 'views_per_post' => StatsAbsValueAndPrev, 'shares_per_post' => StatsAbsValueAndPrev, 'enabled_notifications' => StatsPercentValue, 'growth_graph' => StatsGraph, 'followers_graph' => StatsGraph, 'mute_graph' => StatsGraph, 'top_hours_graph' => StatsGraph, 'interactions_graph' => StatsGraph, 'iv_interactions_graph' => StatsGraph, 'views_by_source_graph' => StatsGraph, 'new_followers_by_source_graph' => StatsGraph, 'languages_graph' => StatsGraph, 'recent_message_interactions' => [MessageInteractionCounters, MessageInteractionCounters]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-stats_broadcastStats={_='stats.broadcastStats', period=StatsDateRangeDays, followers=StatsAbsValueAndPrev, views_per_post=StatsAbsValueAndPrev, shares_per_post=StatsAbsValueAndPrev, enabled_notifications=StatsPercentValue, growth_graph=StatsGraph, followers_graph=StatsGraph, mute_graph=StatsGraph, top_hours_graph=StatsGraph, interactions_graph=StatsGraph, iv_interactions_graph=StatsGraph, views_by_source_graph=StatsGraph, new_followers_by_source_graph=StatsGraph, languages_graph=StatsGraph, recent_message_interactions={MessageInteractionCounters}}
-
-```
-
-

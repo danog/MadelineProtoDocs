@@ -27,13 +27,3 @@ Time to live in days of the current account
 ```php
 $accountDaysTTL = ['_' => 'accountDaysTTL', 'days' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-accountDaysTTL={_='accountDaysTTL', days=int}
-
-```
-
-

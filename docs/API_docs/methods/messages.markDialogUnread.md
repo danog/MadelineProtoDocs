@@ -41,9 +41,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->markDialogUnread(['unread' => Bool, 'peer' => InputDialogPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.markDialogUnread({unread=Bool, peer=InputDialogPeer, })
-```
-

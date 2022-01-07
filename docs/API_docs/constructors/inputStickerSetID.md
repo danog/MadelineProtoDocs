@@ -28,13 +28,3 @@ Stickerset by ID
 ```php
 $inputStickerSetID = ['_' => 'inputStickerSetID', 'id' => long, 'access_hash' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputStickerSetID={_='inputStickerSetID', id=long, access_hash=long}
-
-```
-
-

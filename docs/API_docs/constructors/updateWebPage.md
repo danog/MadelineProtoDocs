@@ -29,13 +29,3 @@ An [instant view](https://instantview.telegram.org) webpage preview was generate
 ```php
 $updateWebPage = ['_' => 'updateWebPage', 'webpage' => WebPage, 'pts' => int, 'pts_count' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateWebPage={_='updateWebPage', webpage=WebPage, pts=int, pts_count=int}
-
-```
-
-

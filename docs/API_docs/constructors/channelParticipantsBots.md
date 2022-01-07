@@ -22,13 +22,3 @@ Fetch only bot participants
 ```php
 $channelParticipantsBots = ['_' => 'channelParticipantsBots'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelParticipantsBots={_='channelParticipantsBots'}
-
-```
-
-

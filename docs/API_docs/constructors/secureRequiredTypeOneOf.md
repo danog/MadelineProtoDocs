@@ -27,13 +27,3 @@ One of
 ```php
 $secureRequiredTypeOneOf = ['_' => 'secureRequiredTypeOneOf', 'types' => [SecureRequiredType, SecureRequiredType]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureRequiredTypeOneOf={_='secureRequiredTypeOneOf', types={SecureRequiredType}}
-
-```
-
-

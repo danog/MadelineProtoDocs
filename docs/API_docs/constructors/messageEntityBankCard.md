@@ -28,13 +28,3 @@ Indicates a credit card number
 ```php
 $messageEntityBankCard = ['_' => 'messageEntityBankCard', 'offset' => int, 'length' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageEntityBankCard={_='messageEntityBankCard', offset=int, length=int}
-
-```
-
-

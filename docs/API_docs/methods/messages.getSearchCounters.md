@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Vector_of_messages_SearchCounter = $MadelineProto->messages->getSearchCounters(['peer' => InputPeer, 'filters' => [MessagesFilter, MessagesFilter], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Vector_of_messages_SearchCounter = messages.getSearchCounters({peer=InputPeer, filters={MessagesFilter}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

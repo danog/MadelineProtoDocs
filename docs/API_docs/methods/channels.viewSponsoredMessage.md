@@ -38,12 +38,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->channels->viewSponsoredMessage(['channel' => InputChannel, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = channels.viewSponsoredMessage({channel=InputChannel, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

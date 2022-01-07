@@ -28,13 +28,3 @@ Preuploaded [passport](https://core.telegram.org/passport) file, for more info [
 ```php
 $inputSecureFile = ['_' => 'inputSecureFile', 'id' => long, 'access_hash' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputSecureFile={_='inputSecureFile', id=long, access_hash=long}
-
-```
-
-

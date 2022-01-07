@@ -27,13 +27,3 @@ User is preparing a message: typing, recording, uploading, etc.
 ```php
 $decryptedMessageActionTyping_17 = ['_' => 'decryptedMessageActionTyping', 'action' => SendMessageAction];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-decryptedMessageActionTyping_17={_='decryptedMessageActionTyping', action=SendMessageAction}
-
-```
-
-

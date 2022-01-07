@@ -28,13 +28,3 @@ Document that will be downloaded by the telegram servers
 ```php
 $inputMediaDocumentExternal = ['_' => 'inputMediaDocumentExternal', 'url' => 'string', 'ttl_seconds' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMediaDocumentExternal={_='inputMediaDocumentExternal', url='string', ttl_seconds=int}
-
-```
-
-

@@ -22,13 +22,3 @@ Empty constructor for takeout
 ```php
 $inputTakeoutFileLocation = ['_' => 'inputTakeoutFileLocation'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputTakeoutFileLocation={_='inputTakeoutFileLocation'}
-
-```
-
-

@@ -27,13 +27,3 @@ Wallpaper with no file
 ```php
 $inputWallPaperNoFile = ['_' => 'inputWallPaperNoFile', 'id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputWallPaperNoFile={_='inputWallPaperNoFile', id=long}
-
-```
-
-

@@ -27,13 +27,3 @@ Page header
 ```php
 $pageBlockHeader = ['_' => 'pageBlockHeader', 'text' => RichText];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockHeader={_='pageBlockHeader', text=RichText}
-
-```
-
-

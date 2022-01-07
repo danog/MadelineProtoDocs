@@ -27,13 +27,3 @@ Group profile changed
 ```php
 $messageActionChatEditPhoto = ['_' => 'messageActionChatEditPhoto', 'photo' => Photo];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionChatEditPhoto={_='messageActionChatEditPhoto', photo=Photo}
-
-```
-
-

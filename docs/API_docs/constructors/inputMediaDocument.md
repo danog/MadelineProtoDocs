@@ -29,13 +29,3 @@ Forwarded document
 ```php
 $inputMediaDocument = ['_' => 'inputMediaDocument', 'id' => InputDocument, 'ttl_seconds' => int, 'query' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMediaDocument={_='inputMediaDocument', id=InputDocument, ttl_seconds=int, query='string'}
-
-```
-
-

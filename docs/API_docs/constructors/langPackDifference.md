@@ -30,13 +30,3 @@ Changes to the app's localization pack
 ```php
 $langPackDifference = ['_' => 'langPackDifference', 'lang_code' => 'string', 'from_version' => int, 'version' => int, 'strings' => [LangPackString, LangPackString]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-langPackDifference={_='langPackDifference', lang_code='string', from_version=int, version=int, strings={LangPackString}}
-
-```
-
-

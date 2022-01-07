@@ -23,13 +23,3 @@ Info about all installed stickers hasn't changed
 ```php
 $messages_allStickersNotModified = ['_' => 'messages.allStickersNotModified'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_allStickersNotModified={_='messages.allStickersNotModified'}
-
-```
-
-

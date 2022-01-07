@@ -40,12 +40,6 @@ $MadelineProto->start();
 $contacts_ResolvedPeer = $MadelineProto->contacts->resolveUsername(['username' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-contacts_ResolvedPeer = contacts.resolveUsername({username='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

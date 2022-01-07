@@ -23,13 +23,3 @@ Type of verification code that will be sent next if you call the resendCode meth
 ```php
 $auth_codeTypeSms = ['_' => 'auth.codeTypeSms'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-auth_codeTypeSms={_='auth.codeTypeSms'}
-
-```
-
-

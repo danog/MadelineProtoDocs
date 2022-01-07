@@ -22,13 +22,3 @@ Phone
 ```php
 $secureValueTypePhone = ['_' => 'secureValueTypePhone'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureValueTypePhone={_='secureValueTypePhone'}
-
-```
-
-

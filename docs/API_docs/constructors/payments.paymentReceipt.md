@@ -41,13 +41,3 @@ Receipt
 ```php
 $payments_paymentReceipt = ['_' => 'payments.paymentReceipt', 'date' => int, 'bot_id' => long, 'provider_id' => long, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'invoice' => Invoice, 'info' => PaymentRequestedInfo, 'shipping' => ShippingOption, 'tip_amount' => long, 'currency' => 'string', 'total_amount' => long, 'credentials_title' => 'string', 'users' => [User, User]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-payments_paymentReceipt={_='payments.paymentReceipt', date=int, bot_id=long, provider_id=long, title='string', description='string', photo=WebDocument, invoice=Invoice, info=PaymentRequestedInfo, shipping=ShippingOption, tip_amount=long, currency='string', total_amount=long, credentials_title='string', users={User}}
-
-```
-
-

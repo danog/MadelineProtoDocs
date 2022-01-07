@@ -28,13 +28,3 @@ The bot requested the user to message him in private
 ```php
 $inlineBotSwitchPM = ['_' => 'inlineBotSwitchPM', 'text' => 'string', 'start_param' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inlineBotSwitchPM={_='inlineBotSwitchPM', text='string', start_param='string'}
-
-```
-
-

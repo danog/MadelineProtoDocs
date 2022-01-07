@@ -28,13 +28,3 @@ A preview of the webpage is currently being generated
 ```php
 $webPagePending = ['_' => 'webPagePending', 'id' => long, 'date' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-webPagePending={_='webPagePending', id=long, date=int}
-
-```
-
-

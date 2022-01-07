@@ -31,13 +31,3 @@ Info on succesfully imported contacts.
 ```php
 $contacts_importedContacts = ['_' => 'contacts.importedContacts', 'imported' => [ImportedContact, ImportedContact], 'popular_invites' => [PopularContact, PopularContact], 'retry_contacts' => [long, long], 'users' => [User, User]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-contacts_importedContacts={_='contacts.importedContacts', imported={ImportedContact}, popular_invites={PopularContact}, retry_contacts={long}, users={User}}
-
-```
-
-

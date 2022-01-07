@@ -29,13 +29,3 @@ Defines a video
 ```php
 $documentAttributeVideo_23 = ['_' => 'documentAttributeVideo', 'duration' => int, 'w' => int, 'h' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-documentAttributeVideo_23={_='documentAttributeVideo', duration=int, w=int, h=int}
-
-```
-
-

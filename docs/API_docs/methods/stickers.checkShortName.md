@@ -38,12 +38,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->stickers->checkShortName(['short_name' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = stickers.checkShortName({short_name='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

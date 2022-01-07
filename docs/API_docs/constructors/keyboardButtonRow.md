@@ -27,13 +27,3 @@ Inline keyboard row
 ```php
 $keyboardButtonRow = ['_' => 'keyboardButtonRow', 'buttons' => [KeyboardButton, KeyboardButton]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-keyboardButtonRow={_='keyboardButtonRow', buttons={KeyboardButton}}
-
-```
-
-

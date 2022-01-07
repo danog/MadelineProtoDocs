@@ -30,13 +30,3 @@ Admin permissions of a user in a [legacy group](https://core.telegram.org/api/ch
 ```php
 $updateChatParticipantAdmin = ['_' => 'updateChatParticipantAdmin', 'chat_id' => long, 'user_id' => long, 'is_admin' => Bool, 'version' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateChatParticipantAdmin={_='updateChatParticipantAdmin', chat_id=long, user_id=long, is_admin=Bool, version=int}
-
-```
-
-

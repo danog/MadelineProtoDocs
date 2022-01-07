@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->updateDialogFilter(['id' => int, 'filter' => DialogFilter, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.updateDialogFilter({id=int, filter=DialogFilter, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

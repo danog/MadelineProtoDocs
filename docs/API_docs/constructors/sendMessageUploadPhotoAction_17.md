@@ -22,13 +22,3 @@ User is uploading a photo.
 ```php
 $sendMessageUploadPhotoAction_17 = ['_' => 'sendMessageUploadPhotoAction'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-sendMessageUploadPhotoAction_17={_='sendMessageUploadPhotoAction'}
-
-```
-
-

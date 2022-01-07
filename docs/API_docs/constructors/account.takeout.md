@@ -28,13 +28,3 @@ Takout info
 ```php
 $account_takeout = ['_' => 'account.takeout', 'id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-account_takeout={_='account.takeout', id=long}
-
-```
-
-

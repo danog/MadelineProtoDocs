@@ -33,13 +33,3 @@ Video attached to an encrypted message.
 ```php
 $decryptedMessageMediaVideo_8 = ['_' => 'decryptedMessageMediaVideo', 'thumb' => 'bytes', 'thumb_w' => int, 'thumb_h' => int, 'duration' => int, 'w' => int, 'h' => int, 'size' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-decryptedMessageMediaVideo_8={_='decryptedMessageMediaVideo', thumb='bytes', thumb_w=int, thumb_h=int, duration=int, w=int, h=int, size=int}
-
-```
-
-

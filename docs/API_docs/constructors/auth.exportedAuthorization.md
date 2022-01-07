@@ -29,13 +29,3 @@ Data for copying of authorization between data centres.
 ```php
 $auth_exportedAuthorization = ['_' => 'auth.exportedAuthorization', 'id' => long, 'bytes' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-auth_exportedAuthorization={_='auth.exportedAuthorization', id=long, bytes='bytes'}
-
-```
-
-

@@ -39,9 +39,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->deleteExportedChatInvite(['peer' => InputPeer, 'link' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.deleteExportedChatInvite({peer=InputPeer, link='string', })
-```
-

@@ -40,12 +40,6 @@ $MadelineProto->start();
 $auth_ExportedAuthorization = $MadelineProto->auth->exportAuthorization(['dc_id' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-auth_ExportedAuthorization = auth.exportAuthorization({dc_id=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

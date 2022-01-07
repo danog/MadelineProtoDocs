@@ -30,13 +30,3 @@ Phone contact. The `client_id` is just an arbitrary contact ID: it should be set
 ```php
 $inputPhoneContact = ['_' => 'inputPhoneContact', 'client_id' => long, 'phone' => 'string', 'first_name' => 'string', 'last_name' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPhoneContact={_='inputPhoneContact', client_id=long, phone='string', first_name='string', last_name='string'}
-
-```
-
-

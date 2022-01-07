@@ -27,13 +27,3 @@ Abort rekeying
 ```php
 $decryptedMessageActionAbortKey_20 = ['_' => 'decryptedMessageActionAbortKey', 'exchange_id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-decryptedMessageActionAbortKey_20={_='decryptedMessageActionAbortKey', exchange_id=long}
-
-```
-
-

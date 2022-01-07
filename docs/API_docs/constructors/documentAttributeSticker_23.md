@@ -22,13 +22,3 @@ Defines a sticker
 ```php
 $documentAttributeSticker_23 = ['_' => 'documentAttributeSticker'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-documentAttributeSticker_23={_='documentAttributeSticker'}
-
-```
-
-

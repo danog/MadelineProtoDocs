@@ -28,13 +28,3 @@ The code was sent via SMS
 ```php
 $auth_sentCodeTypeSms = ['_' => 'auth.sentCodeTypeSms', 'length' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-auth_sentCodeTypeSms={_='auth.sentCodeTypeSms', length=int}
-
-```
-
-

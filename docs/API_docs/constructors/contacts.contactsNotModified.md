@@ -23,13 +23,3 @@ Contact list on the server is the same as the list on the client.
 ```php
 $contacts_contactsNotModified = ['_' => 'contacts.contactsNotModified'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-contacts_contactsNotModified={_='contacts.contactsNotModified'}
-
-```
-
-

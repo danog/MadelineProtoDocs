@@ -30,13 +30,3 @@ Media autodownload settings
 ```php
 $account_autoDownloadSettings = ['_' => 'account.autoDownloadSettings', 'low' => AutoDownloadSettings, 'medium' => AutoDownloadSettings, 'high' => AutoDownloadSettings];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-account_autoDownloadSettings={_='account.autoDownloadSettings', low=AutoDownloadSettings, medium=AutoDownloadSettings, high=AutoDownloadSettings}
-
-```
-
-

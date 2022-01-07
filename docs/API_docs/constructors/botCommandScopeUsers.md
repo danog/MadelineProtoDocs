@@ -20,13 +20,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $botCommandScopeUsers = ['_' => 'botCommandScopeUsers'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-botCommandScopeUsers={_='botCommandScopeUsers'}
-
-```
-
-

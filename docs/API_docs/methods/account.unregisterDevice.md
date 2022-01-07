@@ -42,12 +42,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->unregisterDevice(['token_type' => int, 'token' => 'string', 'other_uids' => [long, long], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.unregisterDevice({token_type=int, token='string', other_uids={long}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

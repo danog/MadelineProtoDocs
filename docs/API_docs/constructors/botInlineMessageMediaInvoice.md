@@ -33,16 +33,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 $botInlineMessageMediaInvoice = ['_' => 'botInlineMessageMediaInvoice', 'shipping_address_requested' => Bool, 'test' => Bool, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'currency' => 'string', 'total_amount' => long, 'reply_markup' => ReplyMarkup];
 ```  
 
-
-Or, if you're into Lua:
-
-```lua
-botInlineMessageMediaInvoice={_='botInlineMessageMediaInvoice', shipping_address_requested=Bool, test=Bool, title='string', description='string', photo=WebDocument, currency='string', total_amount=long, reply_markup=ReplyMarkup}
-
-```
-
-
-
 ## Usage of reply_markup
 
 You can provide bot API reply_markup objects here.  

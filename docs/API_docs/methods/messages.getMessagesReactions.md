@@ -41,9 +41,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->getMessagesReactions(['peer' => InputPeer, 'id' => [int, int], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.getMessagesReactions({peer=InputPeer, id={int}, })
-```
-

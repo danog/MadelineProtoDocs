@@ -40,9 +40,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->setContactSignUpNotification(['silent' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.setContactSignUpNotification({silent=Bool, })
-```
-

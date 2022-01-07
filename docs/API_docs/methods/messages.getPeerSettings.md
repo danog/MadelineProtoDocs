@@ -40,12 +40,6 @@ $MadelineProto->start();
 $messages_PeerSettings = $MadelineProto->messages->getPeerSettings(['peer' => InputPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_PeerSettings = messages.getPeerSettings({peer=InputPeer, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

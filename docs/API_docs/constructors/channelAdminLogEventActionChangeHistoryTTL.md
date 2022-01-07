@@ -26,13 +26,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $channelAdminLogEventActionChangeHistoryTTL = ['_' => 'channelAdminLogEventActionChangeHistoryTTL', 'prev_value' => int, 'new_value' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionChangeHistoryTTL={_='channelAdminLogEventActionChangeHistoryTTL', prev_value=int, new_value=int}
-
-```
-
-

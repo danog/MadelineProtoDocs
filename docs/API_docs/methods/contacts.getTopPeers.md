@@ -50,12 +50,6 @@ $MadelineProto->start();
 $contacts_TopPeers = $MadelineProto->contacts->getTopPeers(['correspondents' => Bool, 'bots_pm' => Bool, 'bots_inline' => Bool, 'phone_calls' => Bool, 'forward_users' => Bool, 'forward_chats' => Bool, 'groups' => Bool, 'channels' => Bool, 'offset' => int, 'limit' => int, 'hash' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-contacts_TopPeers = contacts.getTopPeers({correspondents=Bool, bots_pm=Bool, bots_inline=Bool, phone_calls=Bool, forward_users=Bool, forward_chats=Bool, groups=Bool, channels=Bool, offset=int, limit=int, hash=long, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

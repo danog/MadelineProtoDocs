@@ -26,13 +26,3 @@ redirect_from: /API_docs/constructors/stickers_suggestedShortName.html
 ```php
 $stickers_suggestedShortName = ['_' => 'stickers.suggestedShortName', 'short_name' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-stickers_suggestedShortName={_='stickers.suggestedShortName', short_name='string'}
-
-```
-
-

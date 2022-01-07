@@ -41,9 +41,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->phone->sendSignalingData(['peer' => InputPhoneCall, 'data' => 'bytes', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = phone.sendSignalingData({peer=InputPhoneCall, data='bytes', })
-```
-

@@ -22,13 +22,3 @@ Personal details
 ```php
 $secureValueTypePersonalDetails = ['_' => 'secureValueTypePersonalDetails'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureValueTypePersonalDetails={_='secureValueTypePersonalDetails'}
-
-```
-
-

@@ -41,9 +41,3 @@ $MadelineProto->start();
 $messages_SearchResultsCalendar = $MadelineProto->messages->getSearchResultsCalendar(['peer' => InputPeer, 'filter' => MessagesFilter, 'offset_id' => int, 'offset_date' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_SearchResultsCalendar = messages.getSearchResultsCalendar({peer=InputPeer, filter=MessagesFilter, offset_id=int, offset_date=int, })
-```
-

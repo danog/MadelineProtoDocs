@@ -29,13 +29,3 @@ Represents an issue with one of the files that constitute the translation of a d
 ```php
 $secureValueErrorTranslationFile = ['_' => 'secureValueErrorTranslationFile', 'type' => SecureValueType, 'file_hash' => 'bytes', 'text' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureValueErrorTranslationFile={_='secureValueErrorTranslationFile', type=SecureValueType, file_hash='bytes', text='string'}
-
-```
-
-

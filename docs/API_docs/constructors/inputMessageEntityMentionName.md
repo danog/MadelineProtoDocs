@@ -29,13 +29,3 @@ Message entity that can be used to create a user [user mention](https://core.tel
 ```php
 $inputMessageEntityMentionName = ['_' => 'inputMessageEntityMentionName', 'offset' => int, 'length' => int, 'user_id' => InputUser];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMessageEntityMentionName={_='inputMessageEntityMentionName', offset=int, length=int, user_id=InputUser}
-
-```
-
-

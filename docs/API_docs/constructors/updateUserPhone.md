@@ -28,13 +28,3 @@ A user's phone number was changed
 ```php
 $updateUserPhone = ['_' => 'updateUserPhone', 'user_id' => long, 'phone' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateUserPhone={_='updateUserPhone', user_id=long, phone='string'}
-
-```
-
-

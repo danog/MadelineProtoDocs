@@ -42,12 +42,6 @@ $MadelineProto->start();
 $messages_SentEncryptedMessage = $MadelineProto->messages->sendEncrypted(['silent' => Bool, 'peer' => InputEncryptedChat, 'data' => 'bytes', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_SentEncryptedMessage = messages.sendEncrypted({silent=Bool, peer=InputEncryptedChat, data='bytes', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

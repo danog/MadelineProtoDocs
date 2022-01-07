@@ -28,13 +28,3 @@ Statistics value couple; intial and final value for period of time currently in 
 ```php
 $statsAbsValueAndPrev = ['_' => 'statsAbsValueAndPrev', 'current' => double, 'previous' => double];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-statsAbsValueAndPrev={_='statsAbsValueAndPrev', current=double, previous=double}
-
-```
-
-

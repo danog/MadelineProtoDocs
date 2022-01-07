@@ -28,13 +28,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $groupCallParticipantVideo = ['_' => 'groupCallParticipantVideo', 'paused' => Bool, 'endpoint' => 'string', 'source_groups' => [GroupCallParticipantVideoSourceGroup, GroupCallParticipantVideoSourceGroup], 'audio_source' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-groupCallParticipantVideo={_='groupCallParticipantVideo', paused=Bool, endpoint='string', source_groups={GroupCallParticipantVideoSourceGroup}, audio_source=int}
-
-```
-
-

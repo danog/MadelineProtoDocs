@@ -26,13 +26,3 @@ redirect_from: /API_docs/constructors/auth_loggedOut.html
 ```php
 $auth_loggedOut = ['_' => 'auth.loggedOut', 'future_auth_token' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-auth_loggedOut={_='auth.loggedOut', future_auth_token='bytes'}
-
-```
-
-

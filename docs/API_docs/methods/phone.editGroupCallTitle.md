@@ -39,9 +39,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->phone->editGroupCallTitle(['call' => InputGroupCall, 'title' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = phone.editGroupCallTitle({call=InputGroupCall, title='string', })
-```
-

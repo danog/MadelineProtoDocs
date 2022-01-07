@@ -23,13 +23,3 @@ Internal use
 ```php
 $help_userInfoEmpty = ['_' => 'help.userInfoEmpty'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-help_userInfoEmpty={_='help.userInfoEmpty'}
-
-```
-
-

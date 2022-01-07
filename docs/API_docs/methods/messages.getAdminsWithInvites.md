@@ -38,12 +38,6 @@ $MadelineProto->start();
 $messages_ChatAdminsWithInvites = $MadelineProto->messages->getAdminsWithInvites(['peer' => InputPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_ChatAdminsWithInvites = messages.getAdminsWithInvites({peer=InputPeer, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

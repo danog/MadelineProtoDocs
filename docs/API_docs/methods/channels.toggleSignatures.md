@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->channels->toggleSignatures(['channel' => InputChannel, 'enabled' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = channels.toggleSignatures({channel=InputChannel, enabled=Bool, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

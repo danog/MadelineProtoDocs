@@ -28,13 +28,3 @@ Location of stickerset thumbnail (see [files](https://core.telegram.org/api/file
 ```php
 $inputStickerSetThumb = ['_' => 'inputStickerSetThumb', 'stickerset' => InputStickerSet, 'thumb_version' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputStickerSetThumb={_='inputStickerSetThumb', stickerset=InputStickerSet, thumb_version=int}
-
-```
-
-

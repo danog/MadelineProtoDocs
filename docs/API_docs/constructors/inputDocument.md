@@ -29,13 +29,3 @@ Defines a video for subsequent interaction.
 ```php
 $inputDocument = ['_' => 'inputDocument', 'id' => long, 'access_hash' => long, 'file_reference' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputDocument={_='inputDocument', id=long, access_hash=long, file_reference='bytes'}
-
-```
-
-

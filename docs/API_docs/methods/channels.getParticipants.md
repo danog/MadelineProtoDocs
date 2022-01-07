@@ -44,12 +44,6 @@ $MadelineProto->start();
 $channels_ChannelParticipants = $MadelineProto->channels->getParticipants(['channel' => InputChannel, 'filter' => ChannelParticipantsFilter, 'offset' => int, 'limit' => int, 'hash' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-channels_ChannelParticipants = channels.getParticipants({channel=InputChannel, filter=ChannelParticipantsFilter, offset=int, limit=int, hash=long, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

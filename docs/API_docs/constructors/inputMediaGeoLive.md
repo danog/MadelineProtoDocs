@@ -31,13 +31,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $inputMediaGeoLive = ['_' => 'inputMediaGeoLive', 'stopped' => Bool, 'geo_point' => InputGeoPoint, 'heading' => int, 'period' => int, 'proximity_notification_radius' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMediaGeoLive={_='inputMediaGeoLive', stopped=Bool, geo_point=InputGeoPoint, heading=int, period=int, proximity_notification_radius=int}
-
-```
-
-

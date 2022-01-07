@@ -25,13 +25,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $channelAdminLogEventActionStartGroupCall = ['_' => 'channelAdminLogEventActionStartGroupCall', 'call' => InputGroupCall];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionStartGroupCall={_='channelAdminLogEventActionStartGroupCall', call=InputGroupCall}
-
-```
-
-

@@ -28,13 +28,3 @@ Message entity [mentioning](https://core.telegram.org/api/mentions) the current 
 ```php
 $messageEntityMention = ['_' => 'messageEntityMention', 'offset' => int, 'length' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageEntityMention={_='messageEntityMention', offset=int, length=int}
-
-```
-
-

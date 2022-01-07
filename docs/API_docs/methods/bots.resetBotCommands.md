@@ -39,9 +39,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->bots->resetBotCommands(['scope' => BotCommandScope, 'lang_code' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = bots.resetBotCommands({scope=BotCommandScope, lang_code='string', })
-```
-

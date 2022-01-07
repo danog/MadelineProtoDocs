@@ -40,9 +40,3 @@ $MadelineProto->start();
 $Vector_of_StickerSetCovered = $MadelineProto->messages->getAttachedStickers(['media' => InputStickeredMedia, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Vector_of_StickerSetCovered = messages.getAttachedStickers({media=InputStickeredMedia, })
-```
-

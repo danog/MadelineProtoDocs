@@ -43,12 +43,6 @@ $MadelineProto->start();
 $messages_ExportedChatInvites = $MadelineProto->messages->getExportedChatInvites(['revoked' => Bool, 'peer' => InputPeer, 'admin_id' => InputUser, 'offset_date' => int, 'offset_link' => 'string', 'limit' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_ExportedChatInvites = messages.getExportedChatInvites({revoked=Bool, peer=InputPeer, admin_id=InputUser, offset_date=int, offset_link='string', limit=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

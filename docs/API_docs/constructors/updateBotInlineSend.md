@@ -31,13 +31,3 @@ The result of an inline query that was chosen by a user and sent to their chat p
 ```php
 $updateBotInlineSend = ['_' => 'updateBotInlineSend', 'user_id' => long, 'query' => 'string', 'geo' => GeoPoint, 'id' => 'string', 'msg_id' => InputBotInlineMessageID];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateBotInlineSend={_='updateBotInlineSend', user_id=long, query='string', geo=GeoPoint, id='string', msg_id=InputBotInlineMessageID}
-
-```
-
-

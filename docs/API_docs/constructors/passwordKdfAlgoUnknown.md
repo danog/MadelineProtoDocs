@@ -22,13 +22,3 @@ Unknown KDF (most likely, the client is outdated and does not support the specif
 ```php
 $passwordKdfAlgoUnknown = ['_' => 'passwordKdfAlgoUnknown'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-passwordKdfAlgoUnknown={_='passwordKdfAlgoUnknown'}
-
-```
-
-

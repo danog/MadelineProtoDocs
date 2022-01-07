@@ -42,12 +42,6 @@ $MadelineProto->start();
 $WallPaper = $MadelineProto->account->uploadWallPaper(['file' => InputFile, 'mime_type' => 'string', 'settings' => WallPaperSettings, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-WallPaper = account.uploadWallPaper({file=InputFile, mime_type='string', settings=WallPaperSettings, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

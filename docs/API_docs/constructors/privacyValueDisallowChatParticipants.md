@@ -27,13 +27,3 @@ Disallow only participants of certain chats
 ```php
 $privacyValueDisallowChatParticipants = ['_' => 'privacyValueDisallowChatParticipants', 'chats' => [long, long]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-privacyValueDisallowChatParticipants={_='privacyValueDisallowChatParticipants', chats={long}}
-
-```
-
-

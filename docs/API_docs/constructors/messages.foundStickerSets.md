@@ -29,13 +29,3 @@ Found stickersets
 ```php
 $messages_foundStickerSets = ['_' => 'messages.foundStickerSets', 'hash' => long, 'sets' => [StickerSetCovered, StickerSetCovered]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_foundStickerSets={_='messages.foundStickerSets', hash=long, sets={StickerSetCovered}}
-
-```
-
-

@@ -44,9 +44,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->acceptAuthorization(['bot_id' => long, 'scope' => 'string', 'public_key' => 'string', 'value_hashes' => [SecureValueHash, SecureValueHash], 'credentials' => SecureCredentialsEncrypted, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.acceptAuthorization({bot_id=long, scope='string', public_key='string', value_hashes={SecureValueHash}, credentials=SecureCredentialsEncrypted, })
-```
-

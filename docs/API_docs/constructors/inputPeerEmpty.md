@@ -22,13 +22,3 @@ An empty constructor, no user or chat is defined.
 ```php
 $inputPeerEmpty = ['_' => 'inputPeerEmpty'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPeerEmpty={_='inputPeerEmpty'}
-
-```
-
-

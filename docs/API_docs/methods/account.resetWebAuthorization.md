@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->resetWebAuthorization(['hash' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.resetWebAuthorization({hash=long, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

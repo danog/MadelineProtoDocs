@@ -26,13 +26,3 @@ redirect_from: /API_docs/constructors/phone_exportedGroupCallInvite.html
 ```php
 $phone_exportedGroupCallInvite = ['_' => 'phone.exportedGroupCallInvite', 'link' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-phone_exportedGroupCallInvite={_='phone.exportedGroupCallInvite', link='string'}
-
-```
-
-

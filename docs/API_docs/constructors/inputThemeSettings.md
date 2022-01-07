@@ -33,13 +33,3 @@ Theme settings
 ```php
 $inputThemeSettings = ['_' => 'inputThemeSettings', 'message_colors_animated' => Bool, 'base_theme' => BaseTheme, 'accent_color' => int, 'outbox_accent_color' => int, 'message_colors' => [int, int], 'wallpaper' => InputWallPaper, 'wallpaper_settings' => WallPaperSettings];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputThemeSettings={_='inputThemeSettings', message_colors_animated=Bool, base_theme=BaseTheme, accent_color=int, outbox_accent_color=int, message_colors={int}, wallpaper=InputWallPaper, wallpaper_settings=WallPaperSettings}
-
-```
-
-

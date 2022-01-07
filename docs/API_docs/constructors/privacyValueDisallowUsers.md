@@ -27,13 +27,3 @@ Disallow only certain users
 ```php
 $privacyValueDisallowUsers = ['_' => 'privacyValueDisallowUsers', 'users' => [long, long]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-privacyValueDisallowUsers={_='privacyValueDisallowUsers', users={long}}
-
-```
-
-

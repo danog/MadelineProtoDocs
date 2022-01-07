@@ -30,13 +30,3 @@ Order info provided by the user
 ```php
 $paymentRequestedInfo = ['_' => 'paymentRequestedInfo', 'name' => 'string', 'phone' => 'string', 'email' => 'string', 'shipping_address' => PostAddress];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-paymentRequestedInfo={_='paymentRequestedInfo', name='string', phone='string', email='string', shipping_address=PostAddress}
-
-```
-
-

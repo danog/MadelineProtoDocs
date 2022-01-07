@@ -30,13 +30,3 @@ Country code and phone number pattern of a specific country
 ```php
 $help_countryCode = ['_' => 'help.countryCode', 'country_code' => 'string', 'prefixes' => ['string', 'string'], 'patterns' => ['string', 'string']];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-help_countryCode={_='help.countryCode', country_code='string', prefixes={'string'}, patterns={'string'}}
-
-```
-
-

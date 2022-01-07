@@ -22,13 +22,3 @@ Chat history was cleared
 ```php
 $messageActionHistoryClear = ['_' => 'messageActionHistoryClear'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionHistoryClear={_='messageActionHistoryClear'}
-
-```
-
-

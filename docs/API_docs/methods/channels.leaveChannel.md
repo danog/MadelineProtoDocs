@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->channels->leaveChannel(['channel' => InputChannel, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = channels.leaveChannel({channel=InputChannel, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

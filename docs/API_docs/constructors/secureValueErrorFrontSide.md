@@ -29,13 +29,3 @@ Represents an issue with the front side of a document. The error is considered r
 ```php
 $secureValueErrorFrontSide = ['_' => 'secureValueErrorFrontSide', 'type' => SecureValueType, 'file_hash' => 'bytes', 'text' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureValueErrorFrontSide={_='secureValueErrorFrontSide', type=SecureValueType, file_hash='bytes', text='string'}
-
-```
-
-

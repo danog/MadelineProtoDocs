@@ -28,13 +28,3 @@ Channel/supergroup username was changed
 ```php
 $channelAdminLogEventActionChangeUsername = ['_' => 'channelAdminLogEventActionChangeUsername', 'prev_value' => 'string', 'new_value' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionChangeUsername={_='channelAdminLogEventActionChangeUsername', prev_value='string', new_value='string'}
-
-```
-
-

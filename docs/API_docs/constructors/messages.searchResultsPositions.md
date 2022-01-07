@@ -27,13 +27,3 @@ redirect_from: /API_docs/constructors/messages_searchResultsPositions.html
 ```php
 $messages_searchResultsPositions = ['_' => 'messages.searchResultsPositions', 'count' => int, 'positions' => [SearchResultsPosition, SearchResultsPosition]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_searchResultsPositions={_='messages.searchResultsPositions', count=int, positions={SearchResultsPosition}}
-
-```
-
-

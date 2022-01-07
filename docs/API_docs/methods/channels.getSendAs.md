@@ -38,9 +38,3 @@ $MadelineProto->start();
 $channels_SendAsPeers = $MadelineProto->channels->getSendAs(['peer' => InputPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-channels_SendAsPeers = channels.getSendAs({peer=InputPeer, })
-```
-

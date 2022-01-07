@@ -28,13 +28,3 @@ An account with this phone number doesn't exist on telegram: the user has to [en
 ```php
 $auth_authorizationSignUpRequired = ['_' => 'auth.authorizationSignUpRequired', 'terms_of_service' => help.TermsOfService];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-auth_authorizationSignUpRequired={_='auth.authorizationSignUpRequired', terms_of_service=help.TermsOfService}
-
-```
-
-

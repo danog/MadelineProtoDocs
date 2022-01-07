@@ -42,12 +42,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->readDiscussion(['peer' => InputPeer, 'msg_id' => int, 'read_max_id' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.readDiscussion({peer=InputPeer, msg_id=int, read_max_id=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

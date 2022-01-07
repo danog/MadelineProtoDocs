@@ -29,13 +29,3 @@ Force the user to send a reply
 ```php
 $replyKeyboardForceReply = ['_' => 'replyKeyboardForceReply', 'single_use' => Bool, 'selective' => Bool, 'placeholder' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-replyKeyboardForceReply={_='replyKeyboardForceReply', single_use=Bool, selective=Bool, placeholder='string'}
-
-```
-
-

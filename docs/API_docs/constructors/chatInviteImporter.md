@@ -29,13 +29,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $chatInviteImporter = ['_' => 'chatInviteImporter', 'requested' => Bool, 'user_id' => long, 'date' => int, 'about' => 'string', 'approved_by' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-chatInviteImporter={_='chatInviteImporter', requested=Bool, user_id=long, date=int, about='string', approved_by=long}
-
-```
-
-

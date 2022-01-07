@@ -20,13 +20,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $inlineQueryPeerTypeMegagroup = ['_' => 'inlineQueryPeerTypeMegagroup'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inlineQueryPeerTypeMegagroup={_='inlineQueryPeerTypeMegagroup'}
-
-```
-
-

@@ -28,13 +28,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $statsGraph = ['_' => 'statsGraph', 'json' => DataJSON, 'zoom_token' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-statsGraph={_='statsGraph', json=DataJSON, zoom_token='string'}
-
-```
-
-

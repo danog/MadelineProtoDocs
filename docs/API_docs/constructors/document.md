@@ -36,13 +36,3 @@ Document
 ```php
 $document = ['_' => 'document', 'id' => long, 'access_hash' => long, 'file_reference' => 'bytes', 'date' => int, 'mime_type' => 'string', 'size' => int, 'thumbs' => [PhotoSize, PhotoSize], 'video_thumbs' => [VideoSize, VideoSize], 'dc_id' => int, 'attributes' => [DocumentAttribute, DocumentAttribute]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-document={_='document', id=long, access_hash=long, file_reference='bytes', date=int, mime_type='string', size=int, thumbs={PhotoSize}, video_thumbs={VideoSize}, dc_id=int, attributes={DocumentAttribute}}
-
-```
-
-

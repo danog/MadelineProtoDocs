@@ -28,13 +28,3 @@ Message entity representing an <email@example.com>.
 ```php
 $messageEntityEmail = ['_' => 'messageEntityEmail', 'offset' => int, 'length' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageEntityEmail={_='messageEntityEmail', offset=int, length=int}
-
-```
-
-

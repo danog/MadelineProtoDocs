@@ -41,13 +41,3 @@ Info about a message sent to (received from) another user
 ```php
 $updateShortMessage = ['_' => 'updateShortMessage', 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'silent' => Bool, 'id' => int, 'user_id' => long, 'message' => 'string', 'pts' => int, 'pts_count' => int, 'date' => int, 'fwd_from' => MessageFwdHeader, 'via_bot_id' => long, 'reply_to' => MessageReplyHeader, 'entities' => [MessageEntity, MessageEntity], 'ttl_period' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateShortMessage={_='updateShortMessage', out=Bool, mentioned=Bool, media_unread=Bool, silent=Bool, id=int, user_id=long, message='string', pts=int, pts_count=int, date=int, fwd_from=MessageFwdHeader, via_bot_id=long, reply_to=MessageReplyHeader, entities={MessageEntity}, ttl_period=int}
-
-```
-
-

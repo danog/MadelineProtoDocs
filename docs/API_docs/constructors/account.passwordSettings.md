@@ -29,13 +29,3 @@ Private info associated to the password info (recovery email, telegram [passport
 ```php
 $account_passwordSettings = ['_' => 'account.passwordSettings', 'email' => 'string', 'secure_settings' => SecureSecretSettings];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-account_passwordSettings={_='account.passwordSettings', email='string', secure_settings=SecureSecretSettings}
-
-```
-
-

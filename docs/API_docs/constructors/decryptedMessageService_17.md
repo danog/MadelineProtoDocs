@@ -27,13 +27,3 @@ Contents of an encrypted service message.
 ```php
 $decryptedMessageService_17 = ['_' => 'decryptedMessageService', 'action' => DecryptedMessageAction];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-decryptedMessageService_17={_='decryptedMessageService', action=DecryptedMessageAction}
-
-```
-
-

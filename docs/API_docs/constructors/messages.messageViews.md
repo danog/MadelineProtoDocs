@@ -30,13 +30,3 @@ View, forward counter + info about replies
 ```php
 $messages_messageViews = ['_' => 'messages.messageViews', 'views' => [MessageViews, MessageViews], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_messageViews={_='messages.messageViews', views={MessageViews}, chats={Chat}, users={User}}
-
-```
-
-

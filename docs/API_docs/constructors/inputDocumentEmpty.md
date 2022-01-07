@@ -22,13 +22,3 @@ Empty constructor.
 ```php
 $inputDocumentEmpty = ['_' => 'inputDocumentEmpty'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputDocumentEmpty={_='inputDocumentEmpty'}
-
-```
-
-

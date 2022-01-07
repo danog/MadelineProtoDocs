@@ -39,12 +39,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->setChatTheme(['peer' => InputPeer, 'emoticon' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.setChatTheme({peer=InputPeer, emoticon='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

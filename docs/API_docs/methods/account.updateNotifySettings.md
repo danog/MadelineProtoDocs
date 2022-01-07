@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->updateNotifySettings(['peer' => InputNotifyPeer, 'settings' => InputPeerNotifySettings, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.updateNotifySettings({peer=InputNotifyPeer, settings=InputPeerNotifySettings, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

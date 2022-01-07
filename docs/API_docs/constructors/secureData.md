@@ -29,13 +29,3 @@ Secure [passport](https://core.telegram.org/passport) data, for more info [see t
 ```php
 $secureData = ['_' => 'secureData', 'data' => 'bytes', 'data_hash' => 'bytes', 'secret' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureData={_='secureData', data='bytes', data_hash='bytes', secret='bytes'}
-
-```
-
-

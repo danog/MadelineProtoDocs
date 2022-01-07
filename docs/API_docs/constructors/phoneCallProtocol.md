@@ -31,13 +31,3 @@ Protocol info for libtgvoip
 ```php
 $phoneCallProtocol = ['_' => 'phoneCallProtocol', 'udp_p2p' => Bool, 'udp_reflector' => Bool, 'min_layer' => int, 'max_layer' => int, 'library_versions' => ['string', 'string']];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-phoneCallProtocol={_='phoneCallProtocol', udp_p2p=Bool, udp_reflector=Bool, min_layer=int, max_layer=int, library_versions={'string'}}
-
-```
-
-

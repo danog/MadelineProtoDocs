@@ -27,13 +27,3 @@ JSON string
 ```php
 $jsonString = ['_' => 'jsonString', 'value' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-jsonString={_='jsonString', value='string'}
-
-```
-
-

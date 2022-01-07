@@ -22,13 +22,3 @@ Identity card
 ```php
 $secureValueTypeIdentityCard = ['_' => 'secureValueTypeIdentityCard'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureValueTypeIdentityCard={_='secureValueTypeIdentityCard'}
-
-```
-
-

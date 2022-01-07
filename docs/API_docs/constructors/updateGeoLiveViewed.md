@@ -28,13 +28,3 @@ Live geoposition message was viewed
 ```php
 $updateGeoLiveViewed = ['_' => 'updateGeoLiveViewed', 'peer' => Peer, 'msg_id' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateGeoLiveViewed={_='updateGeoLiveViewed', peer=Peer, msg_id=int}
-
-```
-
-

@@ -22,13 +22,3 @@ Fetch only admin participants
 ```php
 $channelParticipantsAdmins = ['_' => 'channelParticipantsAdmins'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelParticipantsAdmins={_='channelParticipantsAdmins'}
-
-```
-
-

@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->channels->setStickers(['channel' => InputChannel, 'stickerset' => InputStickerSet, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = channels.setStickers({channel=InputChannel, stickerset=InputStickerSet, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

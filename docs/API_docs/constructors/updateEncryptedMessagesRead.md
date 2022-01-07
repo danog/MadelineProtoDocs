@@ -29,13 +29,3 @@ Communication history in an encrypted chat was marked as read.
 ```php
 $updateEncryptedMessagesRead = ['_' => 'updateEncryptedMessagesRead', 'chat_id' => int, 'max_date' => int, 'date' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateEncryptedMessagesRead={_='updateEncryptedMessagesRead', chat_id=int, max_date=int, date=int}
-
-```
-
-

@@ -29,13 +29,3 @@ Details about the authorization request, for more info [click here »](https://c
 ```php
 $urlAuthResultRequest = ['_' => 'urlAuthResultRequest', 'request_write_access' => Bool, 'bot' => User, 'domain' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-urlAuthResultRequest={_='urlAuthResultRequest', request_write_access=Bool, bot=User, domain='string'}
-
-```
-
-

@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->channels->readMessageContents(['channel' => InputChannel, 'id' => [int, int], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = channels.readMessageContents({channel=InputChannel, id={int}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->phone->receivedCall(['peer' => InputPhoneCall, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = phone.receivedCall({peer=InputPhoneCall, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

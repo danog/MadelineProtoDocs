@@ -22,13 +22,3 @@ Return only round videos and voice notes
 ```php
 $inputMessagesFilterRoundVoice = ['_' => 'inputMessagesFilterRoundVoice'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMessagesFilterRoundVoice={_='inputMessagesFilterRoundVoice'}
-
-```
-
-

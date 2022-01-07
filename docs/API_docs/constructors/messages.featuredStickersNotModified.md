@@ -28,13 +28,3 @@ Featured stickers haven't changed
 ```php
 $messages_featuredStickersNotModified = ['_' => 'messages.featuredStickersNotModified', 'count' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_featuredStickersNotModified={_='messages.featuredStickersNotModified', count=int}
-
-```
-
-

@@ -27,13 +27,3 @@ Title
 ```php
 $pageBlockTitle = ['_' => 'pageBlockTitle', 'text' => RichText];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockTitle={_='pageBlockTitle', text=RichText}
-
-```
-
-

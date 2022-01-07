@@ -35,12 +35,6 @@ $MadelineProto->start();
 $Vector_of_ContactStatus = $MadelineProto->contacts->getStatuses();
 ```
 
-Or, if you're into Lua:
-
-```lua
-Vector_of_ContactStatus = contacts.getStatuses({})
-```
-
 ### Errors
 
 | Code | Type     | Description   |

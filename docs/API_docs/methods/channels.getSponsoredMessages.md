@@ -38,9 +38,3 @@ $MadelineProto->start();
 $messages_SponsoredMessages = $MadelineProto->channels->getSponsoredMessages(['channel' => InputChannel, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_SponsoredMessages = channels.getSponsoredMessages({channel=InputChannel, })
-```
-

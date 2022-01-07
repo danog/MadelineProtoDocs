@@ -43,12 +43,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->phone->setCallRating(['user_initiative' => Bool, 'peer' => InputPhoneCall, 'rating' => int, 'comment' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = phone.setCallRating({user_initiative=Bool, peer=InputPhoneCall, rating=int, comment='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->finishTakeoutSession(['success' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.finishTakeoutSession({success=Bool, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

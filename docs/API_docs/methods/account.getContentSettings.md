@@ -35,9 +35,3 @@ $MadelineProto->start();
 $account_ContentSettings = $MadelineProto->account->getContentSettings();
 ```
 
-Or, if you're into Lua:
-
-```lua
-account_ContentSettings = account.getContentSettings({})
-```
-

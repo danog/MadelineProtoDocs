@@ -29,13 +29,3 @@ How a user voted in a multiple-choice poll
 ```php
 $messageUserVoteMultiple = ['_' => 'messageUserVoteMultiple', 'user_id' => long, 'options' => ['bytes', 'bytes'], 'date' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageUserVoteMultiple={_='messageUserVoteMultiple', user_id=long, options={'bytes'}, date=int}
-
-```
-
-

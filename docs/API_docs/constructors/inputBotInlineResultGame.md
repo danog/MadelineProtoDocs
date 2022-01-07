@@ -29,13 +29,3 @@ Game
 ```php
 $inputBotInlineResultGame = ['_' => 'inputBotInlineResultGame', 'id' => 'string', 'short_name' => 'string', 'send_message' => InputBotInlineMessage];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputBotInlineResultGame={_='inputBotInlineResultGame', id='string', short_name='string', send_message=InputBotInlineMessage}
-
-```
-
-

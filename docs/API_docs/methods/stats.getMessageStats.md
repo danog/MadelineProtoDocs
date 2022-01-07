@@ -42,12 +42,6 @@ $MadelineProto->start();
 $stats_MessageStats = $MadelineProto->stats->getMessageStats(['dark' => Bool, 'channel' => InputChannel, 'msg_id' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-stats_MessageStats = stats.getMessageStats({dark=Bool, channel=InputChannel, msg_id=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

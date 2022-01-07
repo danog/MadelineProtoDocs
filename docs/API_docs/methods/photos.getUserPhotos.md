@@ -43,12 +43,6 @@ $MadelineProto->start();
 $photos_Photos = $MadelineProto->photos->getUserPhotos(['user_id' => InputUser, 'offset' => int, 'max_id' => long, 'limit' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-photos_Photos = photos.getUserPhotos({user_id=InputUser, offset=int, max_id=long, limit=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -26,13 +26,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $inputKeyboardButtonUserProfile = ['_' => 'inputKeyboardButtonUserProfile', 'text' => 'string', 'user_id' => InputUser];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputKeyboardButtonUserProfile={_='inputKeyboardButtonUserProfile', text='string', user_id=InputUser}
-
-```
-
-

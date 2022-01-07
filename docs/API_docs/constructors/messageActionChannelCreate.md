@@ -27,13 +27,3 @@ The channel was created
 ```php
 $messageActionChannelCreate = ['_' => 'messageActionChannelCreate', 'title' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionChannelCreate={_='messageActionChannelCreate', title='string'}
-
-```
-
-

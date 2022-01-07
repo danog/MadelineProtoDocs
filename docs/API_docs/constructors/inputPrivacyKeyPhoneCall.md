@@ -22,13 +22,3 @@ Whether the user will accept phone calls
 ```php
 $inputPrivacyKeyPhoneCall = ['_' => 'inputPrivacyKeyPhoneCall'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPrivacyKeyPhoneCall={_='inputPrivacyKeyPhoneCall'}
-
-```
-
-

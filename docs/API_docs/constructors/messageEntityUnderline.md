@@ -28,13 +28,3 @@ Message entity representing underlined text.
 ```php
 $messageEntityUnderline = ['_' => 'messageEntityUnderline', 'offset' => int, 'length' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageEntityUnderline={_='messageEntityUnderline', offset=int, length=int}
-
-```
-
-

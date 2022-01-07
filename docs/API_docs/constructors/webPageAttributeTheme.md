@@ -28,13 +28,3 @@ Page theme
 ```php
 $webPageAttributeTheme = ['_' => 'webPageAttributeTheme', 'documents' => [Document, Document], 'settings' => ThemeSettings];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-webPageAttributeTheme={_='webPageAttributeTheme', documents={Document}, settings=ThemeSettings}
-
-```
-
-

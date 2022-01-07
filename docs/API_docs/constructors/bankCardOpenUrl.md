@@ -28,13 +28,3 @@ Credit card info URL provided by the bank
 ```php
 $bankCardOpenUrl = ['_' => 'bankCardOpenUrl', 'url' => 'string', 'name' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-bankCardOpenUrl={_='bankCardOpenUrl', url='string', name='string'}
-
-```
-
-

@@ -27,13 +27,3 @@ The hidden prehistory setting was [changed](../methods/channels.togglePreHistory
 ```php
 $channelAdminLogEventActionTogglePreHistoryHidden = ['_' => 'channelAdminLogEventActionTogglePreHistoryHidden', 'new_value' => Bool];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionTogglePreHistoryHidden={_='channelAdminLogEventActionTogglePreHistoryHidden', new_value=Bool}
-
-```
-
-

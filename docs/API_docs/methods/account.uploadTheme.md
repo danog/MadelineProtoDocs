@@ -43,12 +43,6 @@ $MadelineProto->start();
 $Document = $MadelineProto->account->uploadTheme(['file' => InputFile, 'thumb' => InputFile, 'file_name' => 'string', 'mime_type' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Document = account.uploadTheme({file=InputFile, thumb=InputFile, file_name='string', mime_type='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

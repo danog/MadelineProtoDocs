@@ -27,13 +27,3 @@ Group name changed.
 ```php
 $messageActionChatEditTitle = ['_' => 'messageActionChatEditTitle', 'title' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionChatEditTitle={_='messageActionChatEditTitle', title='string'}
-
-```
-
-

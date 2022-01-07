@@ -37,13 +37,3 @@ The `n` position indicates where the mask should be placed:
 ```php
 $maskCoords = ['_' => 'maskCoords', 'n' => int, 'x' => double, 'y' => double, 'zoom' => double];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-maskCoords={_='maskCoords', n=int, x=double, y=double, zoom=double}
-
-```
-
-

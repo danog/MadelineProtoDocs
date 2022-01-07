@@ -29,13 +29,3 @@ Defines a GeoPoint by its coordinates.
 ```php
 $inputGeoPoint = ['_' => 'inputGeoPoint', 'lat' => double, 'long' => double, 'accuracy_radius' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputGeoPoint={_='inputGeoPoint', lat=double, long=double, accuracy_radius=int}
-
-```
-
-

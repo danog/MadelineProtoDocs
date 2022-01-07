@@ -35,12 +35,6 @@ $MadelineProto->start();
 $auth_LoggedOut = $MadelineProto->auth->logOut();
 ```
 
-Or, if you're into Lua:
-
-```lua
-auth_LoggedOut = auth.logOut({})
-```
-
 ### Errors
 
 | Code | Type     | Description   |

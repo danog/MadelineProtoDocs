@@ -30,13 +30,3 @@ Video
 ```php
 $pageBlockVideo = ['_' => 'pageBlockVideo', 'autoplay' => Bool, 'loop' => Bool, 'video_id' => long, 'caption' => PageCaption];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockVideo={_='pageBlockVideo', autoplay=Bool, loop=Bool, video_id=long, caption=PageCaption}
-
-```
-
-

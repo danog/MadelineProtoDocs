@@ -22,13 +22,3 @@ Return only messages containing audio files
 ```php
 $inputMessagesFilterMusic = ['_' => 'inputMessagesFilterMusic'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMessagesFilterMusic={_='inputMessagesFilterMusic'}
-
-```
-
-

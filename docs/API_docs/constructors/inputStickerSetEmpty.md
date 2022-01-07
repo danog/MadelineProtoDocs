@@ -22,13 +22,3 @@ Empty constructor
 ```php
 $inputStickerSetEmpty = ['_' => 'inputStickerSetEmpty'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputStickerSetEmpty={_='inputStickerSetEmpty'}
-
-```
-
-

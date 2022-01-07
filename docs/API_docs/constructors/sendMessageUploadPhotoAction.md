@@ -27,13 +27,3 @@ User is uploading a photo.
 ```php
 $sendMessageUploadPhotoAction = ['_' => 'sendMessageUploadPhotoAction', 'progress' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-sendMessageUploadPhotoAction={_='sendMessageUploadPhotoAction', progress=int}
-
-```
-
-

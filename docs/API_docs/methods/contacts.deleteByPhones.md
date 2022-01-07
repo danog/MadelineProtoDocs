@@ -40,9 +40,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->contacts->deleteByPhones(['phones' => ['string', 'string'], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = contacts.deleteByPhones({phones={'string'}, })
-```
-

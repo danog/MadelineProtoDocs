@@ -22,13 +22,3 @@ Current version of the client does not support this media type.
 ```php
 $messageMediaUnsupported = ['_' => 'messageMediaUnsupported'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageMediaUnsupported={_='messageMediaUnsupported'}
-
-```
-
-

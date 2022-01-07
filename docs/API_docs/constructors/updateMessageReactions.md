@@ -29,13 +29,3 @@ New message reactions are available
 ```php
 $updateMessageReactions = ['_' => 'updateMessageReactions', 'peer' => Peer, 'msg_id' => int, 'reactions' => MessageReactions];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateMessageReactions={_='updateMessageReactions', peer=Peer, msg_id=int, reactions=MessageReactions}
-
-```
-
-

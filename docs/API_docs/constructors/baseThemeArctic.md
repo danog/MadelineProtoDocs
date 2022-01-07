@@ -22,13 +22,3 @@ Arctic theme
 ```php
 $baseThemeArctic = ['_' => 'baseThemeArctic'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-baseThemeArctic={_='baseThemeArctic'}
-
-```
-
-

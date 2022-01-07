@@ -27,13 +27,3 @@ User is uploading a video.
 ```php
 $sendMessageUploadVideoAction = ['_' => 'sendMessageUploadVideoAction', 'progress' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-sendMessageUploadVideoAction={_='sendMessageUploadVideoAction', progress=int}
-
-```
-
-

@@ -27,13 +27,3 @@ Request for secure [telegram passport](https://core.telegram.org/passport) value
 ```php
 $messageActionSecureValuesSent = ['_' => 'messageActionSecureValuesSent', 'types' => [SecureValueType, SecureValueType]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionSecureValuesSent={_='messageActionSecureValuesSent', types={SecureValueType}}
-
-```
-
-

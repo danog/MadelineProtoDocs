@@ -28,13 +28,3 @@ A new [folder](https://core.telegram.org/api/folders) was added
 ```php
 $updateDialogFilter = ['_' => 'updateDialogFilter', 'id' => int, 'filter' => DialogFilter];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateDialogFilter={_='updateDialogFilter', id=int, filter=DialogFilter}
-
-```
-
-

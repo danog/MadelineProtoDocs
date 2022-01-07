@@ -29,13 +29,3 @@ Button to force a user to switch to inline mode Pressing the button will prompt 
 ```php
 $keyboardButtonSwitchInline = ['_' => 'keyboardButtonSwitchInline', 'same_peer' => Bool, 'text' => 'string', 'query' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-keyboardButtonSwitchInline={_='keyboardButtonSwitchInline', same_peer=Bool, text='string', query='string'}
-
-```
-
-

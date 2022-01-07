@@ -35,12 +35,6 @@ $MadelineProto->start();
 $Config = $MadelineProto->help->getConfig();
 ```
 
-Or, if you're into Lua:
-
-```lua
-Config = help.getConfig({})
-```
-
 ### Errors
 
 | Code | Type     | Description   |

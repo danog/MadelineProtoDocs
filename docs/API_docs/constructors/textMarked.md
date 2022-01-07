@@ -27,13 +27,3 @@ Highlighted text
 ```php
 $textMarked = ['_' => 'textMarked', 'text' => RichText];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-textMarked={_='textMarked', text=RichText}
-
-```
-
-

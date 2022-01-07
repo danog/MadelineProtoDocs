@@ -44,12 +44,6 @@ $MadelineProto->start();
 $messages_ExportedChatInvite = $MadelineProto->messages->editExportedChatInvite(['revoked' => Bool, 'peer' => InputPeer, 'link' => 'string', 'expire_date' => int, 'usage_limit' => int, 'request_needed' => Bool, 'title' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_ExportedChatInvite = messages.editExportedChatInvite({revoked=Bool, peer=InputPeer, link='string', expire_date=int, usage_limit=int, request_needed=Bool, title='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

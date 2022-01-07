@@ -40,9 +40,3 @@ $MadelineProto->start();
 $help_PassportConfig = $MadelineProto->help->getPassportConfig(['hash' => [int, int], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-help_PassportConfig = help.getPassportConfig({hash={int}, })
-```
-

@@ -39,9 +39,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->phone->saveDefaultGroupCallJoinAs(['peer' => InputPeer, 'join_as' => InputPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = phone.saveDefaultGroupCallJoinAs({peer=InputPeer, join_as=InputPeer, })
-```
-

@@ -22,13 +22,3 @@ A user left the channel/supergroup (in the case of big groups, info of the user 
 ```php
 $channelAdminLogEventActionParticipantLeave = ['_' => 'channelAdminLogEventActionParticipantLeave'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionParticipantLeave={_='channelAdminLogEventActionParticipantLeave'}
-
-```
-
-

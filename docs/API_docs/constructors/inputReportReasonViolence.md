@@ -22,13 +22,3 @@ Report for violence
 ```php
 $inputReportReasonViolence = ['_' => 'inputReportReasonViolence'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputReportReasonViolence={_='inputReportReasonViolence'}
-
-```
-
-

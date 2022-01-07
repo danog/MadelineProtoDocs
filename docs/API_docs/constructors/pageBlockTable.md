@@ -30,13 +30,3 @@ Table
 ```php
 $pageBlockTable = ['_' => 'pageBlockTable', 'bordered' => Bool, 'striped' => Bool, 'title' => RichText, 'rows' => [PageTableRow, PageTableRow]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockTable={_='pageBlockTable', bordered=Bool, striped=Bool, title=RichText, rows={PageTableRow}}
-
-```
-
-

@@ -29,13 +29,3 @@ Archived stickersets
 ```php
 $messages_archivedStickers = ['_' => 'messages.archivedStickers', 'count' => int, 'sets' => [StickerSetCovered, StickerSetCovered]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_archivedStickers={_='messages.archivedStickers', count=int, sets={StickerSetCovered}}
-
-```
-
-

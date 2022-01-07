@@ -22,13 +22,3 @@ Return only messages containing geolocations
 ```php
 $inputMessagesFilterGeo = ['_' => 'inputMessagesFilterGeo'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMessagesFilterGeo={_='inputMessagesFilterGeo'}
-
-```
-
-

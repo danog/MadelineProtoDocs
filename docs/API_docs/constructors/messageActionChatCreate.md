@@ -28,13 +28,3 @@ Group created
 ```php
 $messageActionChatCreate = ['_' => 'messageActionChatCreate', 'title' => 'string', 'users' => [long, long]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionChatCreate={_='messageActionChatCreate', title='string', users={long}}
-
-```
-
-

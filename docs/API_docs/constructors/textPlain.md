@@ -27,13 +27,3 @@ Plain text
 ```php
 $textPlain = ['_' => 'textPlain', 'text' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-textPlain={_='textPlain', text='string'}
-
-```
-
-

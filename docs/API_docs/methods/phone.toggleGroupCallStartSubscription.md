@@ -39,9 +39,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->phone->toggleGroupCallStartSubscription(['call' => InputGroupCall, 'subscribed' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = phone.toggleGroupCallStartSubscription({call=InputGroupCall, subscribed=Bool, })
-```
-

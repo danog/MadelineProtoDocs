@@ -43,12 +43,6 @@ $MadelineProto->start();
 $auth_SentCode = $MadelineProto->auth->sendCode(['phone_number' => 'string', 'api_id' => int, 'api_hash' => 'string', 'settings' => CodeSettings, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-auth_SentCode = auth.sendCode({phone_number='string', api_id=int, api_hash='string', settings=CodeSettings, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

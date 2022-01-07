@@ -29,13 +29,3 @@ Info on support user.
 ```php
 $help_support = ['_' => 'help.support', 'phone_number' => 'string', 'user' => User];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-help_support={_='help.support', phone_number='string', user=User}
-
-```
-
-

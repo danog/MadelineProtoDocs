@@ -22,13 +22,3 @@ Clients should update [folder](https://core.telegram.org/api/folders) info
 ```php
 $updateDialogFilters = ['_' => 'updateDialogFilters'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateDialogFilters={_='updateDialogFilters'}
-
-```
-
-

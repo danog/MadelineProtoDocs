@@ -44,12 +44,6 @@ $MadelineProto->start();
 $messages_BotCallbackAnswer = $MadelineProto->messages->getBotCallbackAnswer(['game' => Bool, 'peer' => InputPeer, 'msg_id' => int, 'data' => 'bytes', 'password' => InputCheckPasswordSRP, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_BotCallbackAnswer = messages.getBotCallbackAnswer({game=Bool, peer=InputPeer, msg_id=int, data='bytes', password=InputCheckPasswordSRP, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

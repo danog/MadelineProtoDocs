@@ -22,13 +22,3 @@ Empty constructor, does not define a user.
 ```php
 $inputUserEmpty = ['_' => 'inputUserEmpty'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputUserEmpty={_='inputUserEmpty'}
-
-```
-
-

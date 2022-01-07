@@ -40,12 +40,6 @@ $MadelineProto->start();
 $auth_Authorization = $MadelineProto->auth->checkPassword(['password' => InputCheckPasswordSRP, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-auth_Authorization = auth.checkPassword({password=InputCheckPasswordSRP, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -44,12 +44,6 @@ $MadelineProto->start();
 $Authorization = $MadelineProto->auth->acceptLoginToken(['token' => 'bytes', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Authorization = auth.acceptLoginToken({token='bytes', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

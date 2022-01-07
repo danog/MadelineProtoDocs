@@ -42,12 +42,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->sendReaction(['peer' => InputPeer, 'msg_id' => int, 'reaction' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.sendReaction({peer=InputPeer, msg_id=int, reaction='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

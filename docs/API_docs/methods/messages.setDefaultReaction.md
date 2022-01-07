@@ -38,9 +38,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->setDefaultReaction(['reaction' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.setDefaultReaction({reaction='string', })
-```
-

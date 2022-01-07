@@ -28,13 +28,3 @@ Defines a channel for further interaction.
 ```php
 $inputPeerChannel = ['_' => 'inputPeerChannel', 'channel_id' => long, 'access_hash' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPeerChannel={_='inputPeerChannel', channel_id=long, access_hash=long}
-
-```
-
-

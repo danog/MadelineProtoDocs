@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->faveSticker(['id' => InputDocument, 'unfave' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.faveSticker({id=InputDocument, unfave=Bool, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

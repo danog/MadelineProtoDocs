@@ -34,13 +34,3 @@ WebRTC connection parameters
 ```php
 $phoneConnectionWebrtc = ['_' => 'phoneConnectionWebrtc', 'turn' => Bool, 'stun' => Bool, 'id' => long, 'ip' => 'string', 'ipv6' => 'string', 'port' => int, 'username' => 'string', 'password' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-phoneConnectionWebrtc={_='phoneConnectionWebrtc', turn=Bool, stun=Bool, id=long, ip='string', ipv6='string', port=int, username='string', password='string'}
-
-```
-
-

@@ -27,13 +27,3 @@ Empty constructor. Image with this thumbnail is unavailable.
 ```php
 $photoSizeEmpty = ['_' => 'photoSizeEmpty', 'type' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-photoSizeEmpty={_='photoSizeEmpty', type='string'}
-
-```
-
-

@@ -28,13 +28,3 @@ Popular contact
 ```php
 $popularContact = ['_' => 'popularContact', 'client_id' => long, 'importers' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-popularContact={_='popularContact', client_id=long, importers=int}
-
-```
-
-

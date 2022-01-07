@@ -28,13 +28,3 @@ Author and date of creation of article
 ```php
 $pageBlockAuthorDate = ['_' => 'pageBlockAuthorDate', 'author' => RichText, 'published_date' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockAuthorDate={_='pageBlockAuthorDate', author=RichText, published_date=int}
-
-```
-
-

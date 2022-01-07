@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Vector_of_FileHash = $MadelineProto->upload->getCdnFileHashes(['file_token' => 'bytes', 'offset' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Vector_of_FileHash = upload.getCdnFileHashes({file_token='bytes', offset=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

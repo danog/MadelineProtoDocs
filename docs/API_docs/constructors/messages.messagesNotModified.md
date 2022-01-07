@@ -28,13 +28,3 @@ No new messages matching the query were found
 ```php
 $messages_messagesNotModified = ['_' => 'messages.messagesNotModified', 'count' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_messagesNotModified={_='messages.messagesNotModified', count=int}
-
-```
-
-

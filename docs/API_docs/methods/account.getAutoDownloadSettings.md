@@ -35,9 +35,3 @@ $MadelineProto->start();
 $account_AutoDownloadSettings = $MadelineProto->account->getAutoDownloadSettings();
 ```
 
-Or, if you're into Lua:
-
-```lua
-account_AutoDownloadSettings = account.getAutoDownloadSettings({})
-```
-

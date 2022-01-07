@@ -27,13 +27,3 @@ Deleted messages.
 ```php
 $decryptedMessageActionDeleteMessages_8 = ['_' => 'decryptedMessageActionDeleteMessages', 'random_ids' => [long, long]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-decryptedMessageActionDeleteMessages_8={_='decryptedMessageActionDeleteMessages', random_ids={long}}
-
-```
-
-

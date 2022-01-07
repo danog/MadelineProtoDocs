@@ -29,13 +29,3 @@ A member has left the group.
 ```php
 $updateChatParticipantDelete = ['_' => 'updateChatParticipantDelete', 'chat_id' => long, 'user_id' => long, 'version' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateChatParticipantDelete={_='updateChatParticipantDelete', chat_id=long, user_id=long, version=int}
-
-```
-
-

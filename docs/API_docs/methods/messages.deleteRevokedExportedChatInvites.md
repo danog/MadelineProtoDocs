@@ -39,9 +39,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->deleteRevokedExportedChatInvites(['peer' => InputPeer, 'admin_id' => InputUser, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.deleteRevokedExportedChatInvites({peer=InputPeer, admin_id=InputUser, })
-```
-

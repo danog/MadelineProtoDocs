@@ -22,13 +22,3 @@ The server-side configuration has changed; the client should re-fetch the config
 ```php
 $updateConfig = ['_' => 'updateConfig'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateConfig={_='updateConfig'}
-
-```
-
-

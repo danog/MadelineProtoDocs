@@ -22,13 +22,3 @@ Bank statement
 ```php
 $secureValueTypeBankStatement = ['_' => 'secureValueTypeBankStatement'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureValueTypeBankStatement={_='secureValueTypeBankStatement'}
-
-```
-
-

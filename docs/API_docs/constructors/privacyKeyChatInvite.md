@@ -22,13 +22,3 @@ Whether the user can be invited to chats
 ```php
 $privacyKeyChatInvite = ['_' => 'privacyKeyChatInvite'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-privacyKeyChatInvite={_='privacyKeyChatInvite'}
-
-```
-
-

@@ -42,12 +42,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->reorderPinnedDialogs(['force' => Bool, 'folder_id' => int, 'order' => [InputDialogPeer, InputDialogPeer], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.reorderPinnedDialogs({force=Bool, folder_id=int, order={InputDialogPeer}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

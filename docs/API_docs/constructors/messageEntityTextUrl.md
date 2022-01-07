@@ -29,13 +29,3 @@ Message entity representing a [text url](https://google.com): for in-text urls l
 ```php
 $messageEntityTextUrl = ['_' => 'messageEntityTextUrl', 'offset' => int, 'length' => int, 'url' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageEntityTextUrl={_='messageEntityTextUrl', offset=int, length=int, url='string'}
-
-```
-
-

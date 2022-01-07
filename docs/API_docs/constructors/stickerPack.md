@@ -29,13 +29,3 @@ It is **not** a sticker pack the way it is usually intended, you may be looking 
 ```php
 $stickerPack = ['_' => 'stickerPack', 'emoticon' => 'string', 'documents' => [long, long]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-stickerPack={_='stickerPack', emoticon='string', documents={long}}
-
-```
-
-

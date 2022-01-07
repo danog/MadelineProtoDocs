@@ -40,12 +40,6 @@ $MadelineProto->start();
 $X = $MadelineProto->invokeWithLayer(['layer' => int, 'query' => !X, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-X = invokeWithLayer({layer=int, query=!X, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

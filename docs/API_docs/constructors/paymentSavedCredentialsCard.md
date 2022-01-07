@@ -28,13 +28,3 @@ Saved credit card
 ```php
 $paymentSavedCredentialsCard = ['_' => 'paymentSavedCredentialsCard', 'id' => 'string', 'title' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-paymentSavedCredentialsCard={_='paymentSavedCredentialsCard', id='string', title='string'}
-
-```
-
-

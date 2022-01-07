@@ -22,13 +22,3 @@ Report an irrelevant geogroup
 ```php
 $inputReportReasonGeoIrrelevant = ['_' => 'inputReportReasonGeoIrrelevant'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputReportReasonGeoIrrelevant={_='inputReportReasonGeoIrrelevant'}
-
-```
-
-

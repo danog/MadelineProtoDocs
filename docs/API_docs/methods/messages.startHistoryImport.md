@@ -39,12 +39,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->startHistoryImport(['peer' => InputPeer, 'import_id' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.startHistoryImport({peer=InputPeer, import_id=long, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->channels->inviteToChannel(['channel' => InputChannel, 'users' => [InputUser, InputUser], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = channels.inviteToChannel({channel=InputChannel, users={InputUser}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

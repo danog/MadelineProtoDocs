@@ -26,13 +26,3 @@ redirect_from: /API_docs/constructors/account_resetPasswordRequestedWait.html
 ```php
 $account_resetPasswordRequestedWait = ['_' => 'account.resetPasswordRequestedWait', 'until_date' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-account_resetPasswordRequestedWait={_='account.resetPasswordRequestedWait', until_date=int}
-
-```
-
-

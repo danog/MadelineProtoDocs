@@ -39,12 +39,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->phone->inviteToGroupCall(['call' => InputGroupCall, 'users' => [InputUser, InputUser], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = phone.inviteToGroupCall({call=InputGroupCall, users={InputUser}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -42,12 +42,6 @@ $MadelineProto->start();
 $account_AuthorizationForm = $MadelineProto->account->getAuthorizationForm(['bot_id' => long, 'scope' => 'string', 'public_key' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-account_AuthorizationForm = account.getAuthorizationForm({bot_id=long, scope='string', public_key='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -27,13 +27,3 @@ Button to buy a product
 ```php
 $keyboardButtonBuy = ['_' => 'keyboardButtonBuy', 'text' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-keyboardButtonBuy={_='keyboardButtonBuy', text='string'}
-
-```
-
-

@@ -27,13 +27,3 @@ Number of online users in a chat
 ```php
 $chatOnlines = ['_' => 'chatOnlines', 'onlines' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-chatOnlines={_='chatOnlines', onlines=int}
-
-```
-
-

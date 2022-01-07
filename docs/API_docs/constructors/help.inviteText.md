@@ -28,13 +28,3 @@ Text of a text message with an invitation to install Telegram.
 ```php
 $help_inviteText = ['_' => 'help.inviteText', 'message' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-help_inviteText={_='help.inviteText', message='string'}
-
-```
-
-

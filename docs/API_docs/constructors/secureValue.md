@@ -35,13 +35,3 @@ Secure value
 ```php
 $secureValue = ['_' => 'secureValue', 'type' => SecureValueType, 'data' => SecureData, 'front_side' => SecureFile, 'reverse_side' => SecureFile, 'selfie' => SecureFile, 'translation' => [SecureFile, SecureFile], 'files' => [SecureFile, SecureFile], 'plain_data' => SecurePlainData, 'hash' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureValue={_='secureValue', type=SecureValueType, data=SecureData, front_side=SecureFile, reverse_side=SecureFile, selfie=SecureFile, translation={SecureFile}, files={SecureFile}, plain_data=SecurePlainData, hash='bytes'}
-
-```
-
-

@@ -27,13 +27,3 @@ Hide sent bot keyboard
 ```php
 $replyKeyboardHide = ['_' => 'replyKeyboardHide', 'selective' => Bool];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-replyKeyboardHide={_='replyKeyboardHide', selective=Bool}
-
-```
-
-

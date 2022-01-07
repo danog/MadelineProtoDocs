@@ -28,13 +28,3 @@ Commit new key, see [rekeying process](https://core.telegram.org/api/end-to-end/
 ```php
 $decryptedMessageActionCommitKey_20 = ['_' => 'decryptedMessageActionCommitKey', 'exchange_id' => long, 'key_fingerprint' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-decryptedMessageActionCommitKey_20={_='decryptedMessageActionCommitKey', exchange_id=long, key_fingerprint=long}
-
-```
-
-

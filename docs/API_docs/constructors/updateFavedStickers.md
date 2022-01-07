@@ -22,13 +22,3 @@ The list of favorited stickers was changed, the client should call [messages.get
 ```php
 $updateFavedStickers = ['_' => 'updateFavedStickers'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateFavedStickers={_='updateFavedStickers'}
-
-```
-
-

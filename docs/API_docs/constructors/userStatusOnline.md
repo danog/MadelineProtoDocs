@@ -27,13 +27,3 @@ Online status of the user.
 ```php
 $userStatusOnline = ['_' => 'userStatusOnline', 'expires' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-userStatusOnline={_='userStatusOnline', expires=int}
-
-```
-
-

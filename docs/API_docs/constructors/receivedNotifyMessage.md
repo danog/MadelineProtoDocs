@@ -27,13 +27,3 @@ Message ID, for which PUSH-notifications were cancelled.
 ```php
 $receivedNotifyMessage = ['_' => 'receivedNotifyMessage', 'id' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-receivedNotifyMessage={_='receivedNotifyMessage', id=int}
-
-```
-
-

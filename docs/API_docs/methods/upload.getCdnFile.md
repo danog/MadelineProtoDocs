@@ -42,9 +42,3 @@ $MadelineProto->start();
 $upload_CdnFile = $MadelineProto->upload->getCdnFile(['file_token' => 'bytes', 'offset' => int, 'limit' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-upload_CdnFile = upload.getCdnFile({file_token='bytes', offset=int, limit=int, })
-```
-

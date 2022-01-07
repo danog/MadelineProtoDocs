@@ -28,13 +28,3 @@ Document (video, audio, voice, sticker, any media type except photo)
 ```php
 $messageMediaDocument = ['_' => 'messageMediaDocument', 'document' => Document, 'ttl_seconds' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageMediaDocument={_='messageMediaDocument', document=Document, ttl_seconds=int}
-
-```
-
-

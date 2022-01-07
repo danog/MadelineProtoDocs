@@ -28,13 +28,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $fileLocation_23 = ['_' => 'fileLocation', 'dc_id' => int, 'volume_id' => long, 'local_id' => int, 'secret' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-fileLocation_23={_='fileLocation', dc_id=int, volume_id=long, local_id=int, secret=long}
-
-```
-
-

@@ -28,13 +28,3 @@ New photo that will be uploaded by the server using the specified URL
 ```php
 $inputMediaPhotoExternal = ['_' => 'inputMediaPhotoExternal', 'url' => 'string', 'ttl_seconds' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMediaPhotoExternal={_='inputMediaPhotoExternal', url='string', ttl_seconds=int}
-
-```
-
-

@@ -44,12 +44,6 @@ $MadelineProto->start();
 $updates_ChannelDifference = $MadelineProto->updates->getChannelDifference(['force' => Bool, 'channel' => InputChannel, 'filter' => ChannelMessagesFilter, 'pts' => int, 'limit' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-updates_ChannelDifference = updates.getChannelDifference({force=Bool, channel=InputChannel, filter=ChannelMessagesFilter, pts=int, limit=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

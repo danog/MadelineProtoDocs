@@ -28,13 +28,3 @@ Change of state in an encrypted chat.
 ```php
 $updateEncryption = ['_' => 'updateEncryption', 'chat' => EncryptedChat, 'date' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateEncryption={_='updateEncryption', chat=EncryptedChat, date=int}
-
-```
-
-

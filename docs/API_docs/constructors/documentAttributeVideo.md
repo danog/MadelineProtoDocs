@@ -31,13 +31,3 @@ Defines a video
 ```php
 $documentAttributeVideo = ['_' => 'documentAttributeVideo', 'round_message' => Bool, 'supports_streaming' => Bool, 'duration' => int, 'w' => int, 'h' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-documentAttributeVideo={_='documentAttributeVideo', round_message=Bool, supports_streaming=Bool, duration=int, w=int, h=int}
-
-```
-
-

@@ -28,13 +28,3 @@ Contact status update.
 ```php
 $updateUserStatus = ['_' => 'updateUserStatus', 'user_id' => long, 'status' => UserStatus];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateUserStatus={_='updateUserStatus', user_id=long, status=UserStatus}
-
-```
-
-

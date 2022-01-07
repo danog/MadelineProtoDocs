@@ -29,13 +29,3 @@ View, forward counter + info about replies of a specific message
 ```php
 $messageViews = ['_' => 'messageViews', 'views' => int, 'forwards' => int, 'replies' => MessageReplies];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageViews={_='messageViews', views=int, forwards=int, replies=MessageReplies}
-
-```
-
-

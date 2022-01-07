@@ -45,12 +45,6 @@ $MadelineProto->start();
 $messages_AffectedHistory = $MadelineProto->messages->deleteHistory(['just_clear' => Bool, 'revoke' => Bool, 'peer' => InputPeer, 'max_id' => int, 'min_date' => int, 'max_date' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_AffectedHistory = messages.deleteHistory({just_clear=Bool, revoke=Bool, peer=InputPeer, max_id=int, min_date=int, max_date=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -30,13 +30,3 @@ redirect_from: /API_docs/constructors/phone_groupCall.html
 ```php
 $phone_groupCall = ['_' => 'phone.groupCall', 'call' => GroupCall, 'participants' => [GroupCallParticipant, GroupCallParticipant], 'participants_next_offset' => 'string', 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-phone_groupCall={_='phone.groupCall', call=GroupCall, participants={GroupCallParticipant}, participants_next_offset='string', chats={Chat}, users={User}}
-
-```
-
-

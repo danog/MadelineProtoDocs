@@ -22,13 +22,3 @@ Allow all users
 ```php
 $privacyValueAllowAll = ['_' => 'privacyValueAllowAll'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-privacyValueAllowAll={_='privacyValueAllowAll'}
-
-```
-
-

@@ -22,13 +22,3 @@ User is recording a video.
 ```php
 $sendMessageRecordVideoAction = ['_' => 'sendMessageRecordVideoAction'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-sendMessageRecordVideoAction={_='sendMessageRecordVideoAction'}
-
-```
-
-

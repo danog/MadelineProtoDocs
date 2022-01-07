@@ -41,12 +41,6 @@ $MadelineProto->start();
 $messages_StickerSet = $MadelineProto->stickers->setStickerSetThumb(['stickerset' => InputStickerSet, 'thumb' => InputDocument, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_StickerSet = stickers.setStickerSetThumb({stickerset=InputStickerSet, thumb=InputDocument, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

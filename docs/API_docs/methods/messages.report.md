@@ -43,12 +43,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->report(['peer' => InputPeer, 'id' => [int, int], 'reason' => ReportReason, 'message' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.report({peer=InputPeer, id={int}, reason=ReportReason, message='string', })
-```
-
 
 ## Return value 
 

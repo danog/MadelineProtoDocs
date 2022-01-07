@@ -28,13 +28,3 @@ Creates an encrypted chat.
 ```php
 $inputEncryptedChat = ['_' => 'inputEncryptedChat', 'chat_id' => int, 'access_hash' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputEncryptedChat={_='inputEncryptedChat', chat_id=int, access_hash=long}
-
-```
-
-

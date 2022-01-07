@@ -43,12 +43,6 @@ $MadelineProto->start();
 $phone_PhoneCall = $MadelineProto->phone->requestCall(['video' => Bool, 'user_id' => InputUser, 'g_a_hash' => 'bytes', 'protocol' => PhoneCallProtocol, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-phone_PhoneCall = phone.requestCall({video=Bool, user_id=InputUser, g_a_hash='bytes', protocol=PhoneCallProtocol, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

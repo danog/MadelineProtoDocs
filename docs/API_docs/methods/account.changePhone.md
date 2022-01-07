@@ -42,12 +42,6 @@ $MadelineProto->start();
 $User = $MadelineProto->account->changePhone(['phone_number' => 'string', 'phone_code_hash' => 'string', 'phone_code' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-User = account.changePhone({phone_number='string', phone_code_hash='string', phone_code='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

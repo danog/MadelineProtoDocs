@@ -22,13 +22,3 @@ A user has joined the group (in the case of big groups, info of the user that ha
 ```php
 $channelAdminLogEventActionParticipantJoin = ['_' => 'channelAdminLogEventActionParticipantJoin'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionParticipantJoin={_='channelAdminLogEventActionParticipantJoin'}
-
-```
-
-

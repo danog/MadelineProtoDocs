@@ -45,12 +45,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->phone->editGroupCallParticipant(['call' => InputGroupCall, 'participant' => InputPeer, 'muted' => Bool, 'volume' => int, 'raise_hand' => Bool, 'video_stopped' => Bool, 'video_paused' => Bool, 'presentation_paused' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = phone.editGroupCallParticipant({call=InputGroupCall, participant=InputPeer, muted=Bool, volume=int, raise_hand=Bool, video_stopped=Bool, video_paused=Bool, presentation_paused=Bool, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -22,13 +22,3 @@ Online status: last seen last month
 ```php
 $userStatusLastMonth = ['_' => 'userStatusLastMonth'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-userStatusLastMonth={_='userStatusLastMonth'}
-
-```
-
-

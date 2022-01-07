@@ -42,9 +42,3 @@ $MadelineProto->start();
 $messages_FeaturedStickers = $MadelineProto->messages->getOldFeaturedStickers(['offset' => int, 'limit' => int, 'hash' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_FeaturedStickers = messages.getOldFeaturedStickers({offset=int, limit=int, hash=long, })
-```
-

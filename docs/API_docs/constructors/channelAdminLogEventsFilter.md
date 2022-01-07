@@ -43,13 +43,3 @@ Filter only certain admin log events
 ```php
 $channelAdminLogEventsFilter = ['_' => 'channelAdminLogEventsFilter', 'join' => Bool, 'leave' => Bool, 'invite' => Bool, 'ban' => Bool, 'unban' => Bool, 'kick' => Bool, 'unkick' => Bool, 'promote' => Bool, 'demote' => Bool, 'info' => Bool, 'settings' => Bool, 'pinned' => Bool, 'edit' => Bool, 'delete' => Bool, 'group_call' => Bool, 'invites' => Bool, 'send' => Bool];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventsFilter={_='channelAdminLogEventsFilter', join=Bool, leave=Bool, invite=Bool, ban=Bool, unban=Bool, kick=Bool, unkick=Bool, promote=Bool, demote=Bool, info=Bool, settings=Bool, pinned=Bool, edit=Bool, delete=Bool, group_call=Bool, invites=Bool, send=Bool}
-
-```
-
-

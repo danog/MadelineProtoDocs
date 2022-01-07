@@ -28,13 +28,3 @@ A message was edited
 ```php
 $channelAdminLogEventActionEditMessage = ['_' => 'channelAdminLogEventActionEditMessage', 'prev_message' => Message, 'new_message' => Message];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionEditMessage={_='channelAdminLogEventActionEditMessage', prev_message=Message, new_message=Message}
-
-```
-
-

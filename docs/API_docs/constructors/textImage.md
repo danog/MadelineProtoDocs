@@ -29,13 +29,3 @@ Inline image
 ```php
 $textImage = ['_' => 'textImage', 'document_id' => long, 'w' => int, 'h' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-textImage={_='textImage', document_id=long, w=int, h=int}
-
-```
-
-

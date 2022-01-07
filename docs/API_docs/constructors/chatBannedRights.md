@@ -39,13 +39,3 @@ Represents the rights of a normal user in a [supergroup/channel/chat](https://co
 ```php
 $chatBannedRights = ['_' => 'chatBannedRights', 'view_messages' => Bool, 'send_messages' => Bool, 'send_media' => Bool, 'send_stickers' => Bool, 'send_gifs' => Bool, 'send_games' => Bool, 'send_inline' => Bool, 'embed_links' => Bool, 'send_polls' => Bool, 'change_info' => Bool, 'invite_users' => Bool, 'pin_messages' => Bool, 'until_date' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-chatBannedRights={_='chatBannedRights', view_messages=Bool, send_messages=Bool, send_media=Bool, send_stickers=Bool, send_gifs=Bool, send_games=Bool, send_inline=Bool, embed_links=Bool, send_polls=Bool, change_info=Bool, invite_users=Bool, pin_messages=Bool, until_date=int}
-
-```
-
-

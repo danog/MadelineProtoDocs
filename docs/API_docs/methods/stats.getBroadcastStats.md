@@ -41,12 +41,6 @@ $MadelineProto->start();
 $stats_BroadcastStats = $MadelineProto->stats->getBroadcastStats(['dark' => Bool, 'channel' => InputChannel, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-stats_BroadcastStats = stats.getBroadcastStats({dark=Bool, channel=InputChannel, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

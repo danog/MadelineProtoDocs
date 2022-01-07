@@ -29,13 +29,3 @@ Shipping option
 ```php
 $shippingOption = ['_' => 'shippingOption', 'id' => 'string', 'title' => 'string', 'prices' => [LabeledPrice, LabeledPrice]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-shippingOption={_='shippingOption', id='string', title='string', prices={LabeledPrice}}
-
-```
-
-

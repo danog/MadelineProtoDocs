@@ -29,13 +29,3 @@ Logged-in sessions
 ```php
 $account_authorizations = ['_' => 'account.authorizations', 'authorization_ttl_days' => int, 'authorizations' => [Authorization, Authorization]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-account_authorizations={_='account.authorizations', authorization_ttl_days=int, authorizations={Authorization}}
-
-```
-
-

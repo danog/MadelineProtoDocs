@@ -28,13 +28,3 @@ Attached photo.
 ```php
 $messageMediaPhoto = ['_' => 'messageMediaPhoto', 'photo' => Photo, 'ttl_seconds' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageMediaPhoto={_='messageMediaPhoto', photo=Photo, ttl_seconds=int}
-
-```
-
-

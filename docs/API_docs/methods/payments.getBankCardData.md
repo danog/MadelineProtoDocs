@@ -40,12 +40,6 @@ $MadelineProto->start();
 $payments_BankCardData = $MadelineProto->payments->getBankCardData(['number' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-payments_BankCardData = payments.getBankCardData({number='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

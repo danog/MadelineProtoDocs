@@ -35,9 +35,3 @@ $MadelineProto->start();
 $help_InviteText = $MadelineProto->help->getInviteText();
 ```
 
-Or, if you're into Lua:
-
-```lua
-help_InviteText = help.getInviteText({})
-```
-

@@ -30,13 +30,3 @@ Stickerset and stickers inside it
 ```php
 $messages_stickerSet = ['_' => 'messages.stickerSet', 'set' => StickerSet, 'packs' => [StickerPack, StickerPack], 'documents' => [Document, Document]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_stickerSet={_='messages.stickerSet', set=StickerSet, packs={StickerPack}, documents={Document}}
-
-```
-
-

@@ -22,13 +22,3 @@ Details about an accepted authorization request, for more info [click here »](h
 ```php
 $urlAuthResultDefault = ['_' => 'urlAuthResultDefault'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-urlAuthResultDefault={_='urlAuthResultDefault'}
-
-```
-
-

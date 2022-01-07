@@ -22,13 +22,3 @@ User is recording a voice message.
 ```php
 $sendMessageRecordAudioAction = ['_' => 'sendMessageRecordAudioAction'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-sendMessageRecordAudioAction={_='sendMessageRecordAudioAction'}
-
-```
-
-

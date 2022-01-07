@@ -29,13 +29,3 @@ Saved gifs
 ```php
 $messages_savedGifs = ['_' => 'messages.savedGifs', 'hash' => long, 'gifs' => [Document, Document]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_savedGifs={_='messages.savedGifs', hash=long, gifs={Document}}
-
-```
-
-

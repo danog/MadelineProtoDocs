@@ -35,9 +35,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->contacts->resetSaved();
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = contacts.resetSaved({})
-```
-

@@ -23,13 +23,3 @@ Deep link info empty
 ```php
 $help_deepLinkInfoEmpty = ['_' => 'help.deepLinkInfoEmpty'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-help_deepLinkInfoEmpty={_='help.deepLinkInfoEmpty'}
-
-```
-
-

@@ -32,13 +32,3 @@ Dialog info of multiple peers
 ```php
 $messages_peerDialogs = ['_' => 'messages.peerDialogs', 'dialogs' => [Dialog, Dialog], 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User], 'state' => updates.State];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_peerDialogs={_='messages.peerDialogs', dialogs={Dialog}, messages={Message}, chats={Chat}, users={User}, state=updates.State}
-
-```
-
-

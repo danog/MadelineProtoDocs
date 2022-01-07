@@ -44,12 +44,6 @@ $MadelineProto->start();
 $messages_ChatInviteImporters = $MadelineProto->messages->getChatInviteImporters(['requested' => Bool, 'peer' => InputPeer, 'link' => 'string', 'q' => 'string', 'offset_date' => int, 'offset_user' => InputUser, 'limit' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_ChatInviteImporters = messages.getChatInviteImporters({requested=Bool, peer=InputPeer, link='string', q='string', offset_date=int, offset_user=InputUser, limit=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

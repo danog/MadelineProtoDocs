@@ -27,13 +27,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $textFixed = ['_' => 'textFixed', 'text' => RichText];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-textFixed={_='textFixed', text=RichText}
-
-```
-
-

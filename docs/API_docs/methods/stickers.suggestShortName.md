@@ -38,12 +38,6 @@ $MadelineProto->start();
 $stickers_SuggestedShortName = $MadelineProto->stickers->suggestShortName(['title' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-stickers_SuggestedShortName = stickers.suggestShortName({title='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

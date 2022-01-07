@@ -39,13 +39,3 @@ Payment form
 ```php
 $payments_paymentForm = ['_' => 'payments.paymentForm', 'can_save_credentials' => Bool, 'password_missing' => Bool, 'form_id' => long, 'bot_id' => long, 'invoice' => Invoice, 'provider_id' => long, 'url' => 'string', 'native_provider' => 'string', 'native_params' => DataJSON, 'saved_info' => PaymentRequestedInfo, 'saved_credentials' => PaymentSavedCredentials, 'users' => [User, User]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-payments_paymentForm={_='payments.paymentForm', can_save_credentials=Bool, password_missing=Bool, form_id=long, bot_id=long, invoice=Invoice, provider_id=long, url='string', native_provider='string', native_params=DataJSON, saved_info=PaymentRequestedInfo, saved_credentials=PaymentSavedCredentials, users={User}}
-
-```
-
-

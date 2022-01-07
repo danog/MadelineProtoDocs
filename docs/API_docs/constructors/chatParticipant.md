@@ -29,13 +29,3 @@ Group member.
 ```php
 $chatParticipant = ['_' => 'chatParticipant', 'user_id' => long, 'inviter_id' => long, 'date' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-chatParticipant={_='chatParticipant', user_id=long, inviter_id=long, date=int}
-
-```
-
-

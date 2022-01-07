@@ -40,9 +40,3 @@ $MadelineProto->start();
 $Vector_of_WallPaper = $MadelineProto->account->getMultiWallPapers(['wallpapers' => [InputWallPaper, InputWallPaper], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Vector_of_WallPaper = account.getMultiWallPapers({wallpapers={InputWallPaper}, })
-```
-

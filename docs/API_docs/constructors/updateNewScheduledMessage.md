@@ -27,13 +27,3 @@ A message was added to the [schedule queue of a chat](https://core.telegram.org/
 ```php
 $updateNewScheduledMessage = ['_' => 'updateNewScheduledMessage', 'message' => Message];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateNewScheduledMessage={_='updateNewScheduledMessage', message=Message}
-
-```
-
-

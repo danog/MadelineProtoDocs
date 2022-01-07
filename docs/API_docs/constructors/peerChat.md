@@ -27,13 +27,3 @@ Group.
 ```php
 $peerChat = ['_' => 'peerChat', 'chat_id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-peerChat={_='peerChat', chat_id=long}
-
-```
-
-

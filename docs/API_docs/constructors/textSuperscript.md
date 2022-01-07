@@ -27,13 +27,3 @@ Superscript text
 ```php
 $textSuperscript = ['_' => 'textSuperscript', 'text' => RichText];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-textSuperscript={_='textSuperscript', text=RichText}
-
-```
-
-

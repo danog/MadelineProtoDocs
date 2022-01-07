@@ -27,13 +27,3 @@ Channel signatures were enabled/disabled
 ```php
 $channelAdminLogEventActionToggleSignatures = ['_' => 'channelAdminLogEventActionToggleSignatures', 'new_value' => Bool];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionToggleSignatures={_='channelAdminLogEventActionToggleSignatures', new_value=Bool}
-
-```
-
-

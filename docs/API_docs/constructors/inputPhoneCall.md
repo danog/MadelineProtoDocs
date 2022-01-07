@@ -28,13 +28,3 @@ Phone call
 ```php
 $inputPhoneCall = ['_' => 'inputPhoneCall', 'id' => long, 'access_hash' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPhoneCall={_='inputPhoneCall', id=long, access_hash=long}
-
-```
-
-

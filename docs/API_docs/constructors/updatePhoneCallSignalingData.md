@@ -28,13 +28,3 @@ Incoming phone call signaling payload
 ```php
 $updatePhoneCallSignalingData = ['_' => 'updatePhoneCallSignalingData', 'phone_call_id' => long, 'data' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updatePhoneCallSignalingData={_='updatePhoneCallSignalingData', phone_call_id=long, data='bytes'}
-
-```
-
-

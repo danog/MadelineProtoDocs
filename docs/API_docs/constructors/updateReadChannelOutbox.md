@@ -28,13 +28,3 @@ Outgoing messages in a [channel/supergroup](https://core.telegram.org/api/channe
 ```php
 $updateReadChannelOutbox = ['_' => 'updateReadChannelOutbox', 'channel_id' => long, 'max_id' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateReadChannelOutbox={_='updateReadChannelOutbox', channel_id=long, max_id=int}
-
-```
-
-

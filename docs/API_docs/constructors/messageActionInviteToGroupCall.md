@@ -26,13 +26,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $messageActionInviteToGroupCall = ['_' => 'messageActionInviteToGroupCall', 'call' => InputGroupCall, 'users' => [long, long]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionInviteToGroupCall={_='messageActionInviteToGroupCall', call=InputGroupCall, users={long}}
-
-```
-
-

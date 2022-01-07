@@ -30,13 +30,3 @@ Encrypted message.
 ```php
 $encryptedMessage = ['_' => 'encryptedMessage', 'chat_id' => int, 'date' => int, 'decrypted_message' => DecryptedMessage, 'file' => EncryptedFile];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-encryptedMessage={_='encryptedMessage', chat_id=int, date=int, decrypted_message=DecryptedMessage, file=EncryptedFile}
-
-```
-
-

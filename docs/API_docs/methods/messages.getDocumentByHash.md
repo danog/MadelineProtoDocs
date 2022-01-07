@@ -42,12 +42,6 @@ $MadelineProto->start();
 $Document = $MadelineProto->messages->getDocumentByHash(['sha256' => 'bytes', 'size' => int, 'mime_type' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Document = messages.getDocumentByHash({sha256='bytes', size=int, mime_type='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

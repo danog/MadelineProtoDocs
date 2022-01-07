@@ -42,9 +42,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->phone->toggleGroupCallRecord(['start' => Bool, 'video' => Bool, 'call' => InputGroupCall, 'title' => 'string', 'video_portrait' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = phone.toggleGroupCallRecord({start=Bool, video=Bool, call=InputGroupCall, title='string', video_portrait=Bool, })
-```
-

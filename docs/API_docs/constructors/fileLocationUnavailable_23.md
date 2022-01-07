@@ -27,13 +27,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $fileLocationUnavailable_23 = ['_' => 'fileLocationUnavailable', 'volume_id' => long, 'local_id' => int, 'secret' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-fileLocationUnavailable_23={_='fileLocationUnavailable', volume_id=long, local_id=int, secret=long}
-
-```
-
-

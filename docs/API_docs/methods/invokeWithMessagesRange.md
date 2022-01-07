@@ -40,9 +40,3 @@ $MadelineProto->start();
 $X = $MadelineProto->invokeWithMessagesRange(['range' => MessageRange, 'query' => !X, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-X = invokeWithMessagesRange({range=MessageRange, query=!X, })
-```
-

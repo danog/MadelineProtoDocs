@@ -30,13 +30,3 @@ Privacy rules
 ```php
 $account_privacyRules = ['_' => 'account.privacyRules', 'rules' => [PrivacyRule, PrivacyRule], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-account_privacyRules={_='account.privacyRules', rules={PrivacyRule}, chats={Chat}, users={User}}
-
-```
-
-

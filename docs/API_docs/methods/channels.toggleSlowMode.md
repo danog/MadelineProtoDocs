@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->channels->toggleSlowMode(['channel' => InputChannel, 'seconds' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = channels.toggleSlowMode({channel=InputChannel, seconds=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

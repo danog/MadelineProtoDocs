@@ -40,9 +40,3 @@ $MadelineProto->start();
 $Vector_of_EmojiLanguage = $MadelineProto->messages->getEmojiKeywordsLanguages(['lang_codes' => ['string', 'string'], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Vector_of_EmojiLanguage = messages.getEmojiKeywordsLanguages({lang_codes={'string'}, })
-```
-

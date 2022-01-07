@@ -42,9 +42,3 @@ $MadelineProto->start();
 $phone_GroupParticipants = $MadelineProto->phone->getGroupParticipants(['call' => InputGroupCall, 'ids' => [InputPeer, InputPeer], 'sources' => [int, int], 'offset' => 'string', 'limit' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-phone_GroupParticipants = phone.getGroupParticipants({call=InputGroupCall, ids={InputPeer}, sources={int}, offset='string', limit=int, })
-```
-

@@ -28,13 +28,3 @@ Recent t.me stickerset installation URL
 ```php
 $recentMeUrlStickerSet = ['_' => 'recentMeUrlStickerSet', 'url' => 'string', 'set' => StickerSetCovered];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-recentMeUrlStickerSet={_='recentMeUrlStickerSet', url='string', set=StickerSetCovered}
-
-```
-
-

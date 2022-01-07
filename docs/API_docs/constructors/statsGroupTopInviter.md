@@ -28,13 +28,3 @@ Information about an active supergroup inviter
 ```php
 $statsGroupTopInviter = ['_' => 'statsGroupTopInviter', 'user_id' => long, 'invitations' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-statsGroupTopInviter={_='statsGroupTopInviter', user_id=long, invitations=int}
-
-```
-
-

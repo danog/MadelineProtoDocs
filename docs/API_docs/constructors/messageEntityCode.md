@@ -28,13 +28,3 @@ Message entity representing a `codeblock`.
 ```php
 $messageEntityCode = ['_' => 'messageEntityCode', 'offset' => int, 'length' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageEntityCode={_='messageEntityCode', offset=int, length=int}
-
-```
-
-

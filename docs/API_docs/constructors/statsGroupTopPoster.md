@@ -29,13 +29,3 @@ Information about an active user in a supergroup
 ```php
 $statsGroupTopPoster = ['_' => 'statsGroupTopPoster', 'user_id' => long, 'messages' => int, 'avg_chars' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-statsGroupTopPoster={_='statsGroupTopPoster', user_id=long, messages=int, avg_chars=int}
-
-```
-
-

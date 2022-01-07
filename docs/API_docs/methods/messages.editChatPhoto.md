@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->editChatPhoto(['chat_id' => InputPeer, 'photo' => InputChatPhoto, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.editChatPhoto({chat_id=InputPeer, photo=InputChatPhoto, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -30,13 +30,3 @@ File content.
 ```php
 $upload_file = ['_' => 'upload.file', 'type' => storage.FileType, 'mtime' => int, 'bytes' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-upload_file={_='upload.file', type=storage.FileType, mtime=int, bytes='bytes'}
-
-```
-
-

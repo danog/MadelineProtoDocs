@@ -40,12 +40,6 @@ $MadelineProto->start();
 $ChatInvite = $MadelineProto->messages->checkChatInvite(['hash' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-ChatInvite = messages.checkChatInvite({hash='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

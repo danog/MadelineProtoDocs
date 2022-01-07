@@ -44,12 +44,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->setBotPrecheckoutResults(['success' => Bool, 'query_id' => long, 'error' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.setBotPrecheckoutResults({success=Bool, query_id=long, error='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -23,13 +23,3 @@ Unknown type.
 ```php
 $storage_fileUnknown = ['_' => 'storage.fileUnknown'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-storage_fileUnknown={_='storage.fileUnknown'}
-
-```
-
-

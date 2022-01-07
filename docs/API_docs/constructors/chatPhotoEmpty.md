@@ -22,13 +22,3 @@ Group photo is not set.
 ```php
 $chatPhotoEmpty = ['_' => 'chatPhotoEmpty'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-chatPhotoEmpty={_='chatPhotoEmpty'}
-
-```
-
-

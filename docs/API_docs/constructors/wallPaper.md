@@ -35,13 +35,3 @@ Wallpaper settings.
 ```php
 $wallPaper = ['_' => 'wallPaper', 'id' => long, 'creator' => Bool, 'default' => Bool, 'pattern' => Bool, 'dark' => Bool, 'access_hash' => long, 'slug' => 'string', 'document' => Document, 'settings' => WallPaperSettings];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-wallPaper={_='wallPaper', id=long, creator=Bool, default=Bool, pattern=Bool, dark=Bool, access_hash=long, slug='string', document=Document, settings=WallPaperSettings}
-
-```
-
-

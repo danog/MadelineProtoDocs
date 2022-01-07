@@ -35,12 +35,6 @@ $MadelineProto->start();
 $help_TermsOfServiceUpdate = $MadelineProto->help->getTermsOfServiceUpdate();
 ```
 
-Or, if you're into Lua:
-
-```lua
-help_TermsOfServiceUpdate = help.getTermsOfServiceUpdate({})
-```
-
 ### Errors
 
 | Code | Type     | Description   |

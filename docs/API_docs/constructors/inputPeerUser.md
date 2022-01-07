@@ -28,13 +28,3 @@ Defines a user for further interaction.
 ```php
 $inputPeerUser = ['_' => 'inputPeerUser', 'user_id' => long, 'access_hash' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPeerUser={_='inputPeerUser', user_id=long, access_hash=long}
-
-```
-
-

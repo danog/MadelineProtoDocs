@@ -29,13 +29,3 @@ Full list of photos with auxiliary data.
 ```php
 $photos_photos = ['_' => 'photos.photos', 'photos' => [Photo, Photo], 'users' => [User, User]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-photos_photos={_='photos.photos', photos={Photo}, users={User}}
-
-```
-
-

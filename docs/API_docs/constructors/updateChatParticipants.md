@@ -27,13 +27,3 @@ Composition of chat participants changed.
 ```php
 $updateChatParticipants = ['_' => 'updateChatParticipants', 'participants' => ChatParticipants];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateChatParticipants={_='updateChatParticipants', participants=ChatParticipants}
-
-```
-
-

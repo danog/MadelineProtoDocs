@@ -29,13 +29,3 @@ Location of profile photo of channel/group/supergroup/user
 ```php
 $inputPeerPhotoFileLocation = ['_' => 'inputPeerPhotoFileLocation', 'big' => Bool, 'peer' => InputPeer, 'photo_id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPeerPhotoFileLocation={_='inputPeerPhotoFileLocation', big=Bool, peer=InputPeer, photo_id=long}
-
-```
-
-

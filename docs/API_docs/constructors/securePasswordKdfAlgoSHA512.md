@@ -27,13 +27,3 @@ SHA512 KDF algo
 ```php
 $securePasswordKdfAlgoSHA512 = ['_' => 'securePasswordKdfAlgoSHA512', 'salt' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-securePasswordKdfAlgoSHA512={_='securePasswordKdfAlgoSHA512', salt='bytes'}
-
-```
-
-

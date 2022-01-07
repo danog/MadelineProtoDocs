@@ -40,12 +40,6 @@ $MadelineProto->start();
 $account_SentEmailCode = $MadelineProto->account->sendVerifyEmailCode(['email' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-account_SentEmailCode = account.sendVerifyEmailCode({email='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

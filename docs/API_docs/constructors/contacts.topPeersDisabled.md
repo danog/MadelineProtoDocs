@@ -23,13 +23,3 @@ Top peers disabled
 ```php
 $contacts_topPeersDisabled = ['_' => 'contacts.topPeersDisabled'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-contacts_topPeersDisabled={_='contacts.topPeersDisabled'}
-
-```
-
-

@@ -42,12 +42,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->channels->editLocation(['channel' => InputChannel, 'geo_point' => InputGeoPoint, 'address' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = channels.editLocation({channel=InputChannel, geo_point=InputGeoPoint, address='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

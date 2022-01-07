@@ -30,13 +30,3 @@ Information about an active admin in a supergroup
 ```php
 $statsGroupTopAdmin = ['_' => 'statsGroupTopAdmin', 'user_id' => long, 'deleted' => int, 'kicked' => int, 'banned' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-statsGroupTopAdmin={_='statsGroupTopAdmin', user_id=long, deleted=int, kicked=int, banned=int}
-
-```
-
-

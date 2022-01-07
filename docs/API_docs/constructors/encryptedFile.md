@@ -31,13 +31,3 @@ Encrypted file.
 ```php
 $encryptedFile = ['_' => 'encryptedFile', 'id' => long, 'access_hash' => long, 'size' => int, 'dc_id' => int, 'key_fingerprint' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-encryptedFile={_='encryptedFile', id=long, access_hash=long, size=int, dc_id=int, key_fingerprint=int}
-
-```
-
-

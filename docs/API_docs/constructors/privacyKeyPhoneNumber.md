@@ -22,13 +22,3 @@ Whether the user allows us to see his phone number
 ```php
 $privacyKeyPhoneNumber = ['_' => 'privacyKeyPhoneNumber'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-privacyKeyPhoneNumber={_='privacyKeyPhoneNumber'}
-
-```
-
-

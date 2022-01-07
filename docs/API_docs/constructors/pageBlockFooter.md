@@ -27,13 +27,3 @@ Page footer
 ```php
 $pageBlockFooter = ['_' => 'pageBlockFooter', 'text' => RichText];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockFooter={_='pageBlockFooter', text=RichText}
-
-```
-
-

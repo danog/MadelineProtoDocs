@@ -26,13 +26,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $updateGroupCallConnection = ['_' => 'updateGroupCallConnection', 'presentation' => Bool, 'params' => DataJSON];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateGroupCallConnection={_='updateGroupCallConnection', presentation=Bool, params=DataJSON}
-
-```
-
-

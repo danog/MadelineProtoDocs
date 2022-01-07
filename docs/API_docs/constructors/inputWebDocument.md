@@ -30,13 +30,3 @@ The document
 ```php
 $inputWebDocument = ['_' => 'inputWebDocument', 'url' => 'string', 'size' => int, 'mime_type' => 'string', 'attributes' => [DocumentAttribute, DocumentAttribute]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputWebDocument={_='inputWebDocument', url='string', size=int, mime_type='string', attributes={DocumentAttribute}}
-
-```
-
-

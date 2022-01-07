@@ -40,12 +40,6 @@ $MadelineProto->start();
 $contacts_Contacts = $MadelineProto->contacts->getContacts(['hash' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-contacts_Contacts = contacts.getContacts({hash=long, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

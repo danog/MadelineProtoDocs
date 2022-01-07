@@ -29,13 +29,3 @@ Top peer category
 ```php
 $topPeerCategoryPeers = ['_' => 'topPeerCategoryPeers', 'category' => TopPeerCategory, 'count' => int, 'peers' => [TopPeer, TopPeer]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-topPeerCategoryPeers={_='topPeerCategoryPeers', category=TopPeerCategory, count=int, peers={TopPeer}}
-
-```
-
-

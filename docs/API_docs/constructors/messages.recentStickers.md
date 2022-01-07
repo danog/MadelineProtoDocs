@@ -31,13 +31,3 @@ Recently used stickers
 ```php
 $messages_recentStickers = ['_' => 'messages.recentStickers', 'hash' => long, 'packs' => [StickerPack, StickerPack], 'stickers' => [Document, Document], 'dates' => [int, int]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_recentStickers={_='messages.recentStickers', hash=long, packs={StickerPack}, stickers={Document}, dates={int}}
-
-```
-
-

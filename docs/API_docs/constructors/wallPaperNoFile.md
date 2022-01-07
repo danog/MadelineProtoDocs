@@ -30,13 +30,3 @@ No file wallpaper
 ```php
 $wallPaperNoFile = ['_' => 'wallPaperNoFile', 'id' => long, 'default' => Bool, 'dark' => Bool, 'settings' => WallPaperSettings];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-wallPaperNoFile={_='wallPaperNoFile', id=long, default=Bool, dark=Bool, settings=WallPaperSettings}
-
-```
-
-

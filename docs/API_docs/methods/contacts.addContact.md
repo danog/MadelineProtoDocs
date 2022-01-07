@@ -46,12 +46,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->contacts->addContact(['add_phone_privacy_exception' => Bool, 'id' => InputUser, 'first_name' => 'string', 'last_name' => 'string', 'phone' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = contacts.addContact({add_phone_privacy_exception=Bool, id=InputUser, first_name='string', last_name='string', phone='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

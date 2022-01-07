@@ -22,13 +22,3 @@ No filter
 ```php
 $channelMessagesFilterEmpty = ['_' => 'channelMessagesFilterEmpty'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelMessagesFilterEmpty={_='channelMessagesFilterEmpty'}
-
-```
-
-

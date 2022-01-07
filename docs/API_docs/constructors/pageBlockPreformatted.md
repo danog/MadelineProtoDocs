@@ -28,13 +28,3 @@ Preformatted (`<pre>` text)
 ```php
 $pageBlockPreformatted = ['_' => 'pageBlockPreformatted', 'text' => RichText, 'language' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockPreformatted={_='pageBlockPreformatted', text=RichText, language='string'}
-
-```
-
-

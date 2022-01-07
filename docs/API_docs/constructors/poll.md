@@ -35,13 +35,3 @@ Poll
 ```php
 $poll = ['_' => 'poll', 'id' => long, 'closed' => Bool, 'public_voters' => Bool, 'multiple_choice' => Bool, 'quiz' => Bool, 'question' => 'string', 'answers' => [PollAnswer, PollAnswer], 'close_period' => int, 'close_date' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-poll={_='poll', id=long, closed=Bool, public_voters=Bool, multiple_choice=Bool, quiz=Bool, question='string', answers={PollAnswer}, close_period=int, close_date=int}
-
-```
-
-

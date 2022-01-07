@@ -27,13 +27,3 @@ Subheader
 ```php
 $pageBlockSubheader = ['_' => 'pageBlockSubheader', 'text' => RichText];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockSubheader={_='pageBlockSubheader', text=RichText}
-
-```
-
-

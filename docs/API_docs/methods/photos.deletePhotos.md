@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Vector_of_long = $MadelineProto->photos->deletePhotos(['id' => [InputPhoto, InputPhoto], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Vector_of_long = photos.deletePhotos({id={InputPhoto}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

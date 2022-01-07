@@ -32,13 +32,3 @@ Name, ISO code, localized name and phone codes/patterns of a specific country
 ```php
 $help_country = ['_' => 'help.country', 'hidden' => Bool, 'iso2' => 'string', 'default_name' => 'string', 'name' => 'string', 'country_codes' => [help.CountryCode, help.CountryCode]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-help_country={_='help.country', hidden=Bool, iso2='string', default_name='string', name='string', country_codes={help.CountryCode}}
-
-```
-
-

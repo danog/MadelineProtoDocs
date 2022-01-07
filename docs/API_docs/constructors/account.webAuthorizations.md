@@ -29,13 +29,3 @@ Web authorizations
 ```php
 $account_webAuthorizations = ['_' => 'account.webAuthorizations', 'authorizations' => [WebAuthorization, WebAuthorization], 'users' => [User, User]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-account_webAuthorizations={_='account.webAuthorizations', authorizations={WebAuthorization}, users={User}}
-
-```
-
-

@@ -50,12 +50,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->forwardMessages(['silent' => Bool, 'background' => Bool, 'with_my_score' => Bool, 'drop_author' => Bool, 'drop_media_captions' => Bool, 'noforwards' => Bool, 'from_peer' => InputPeer, 'id' => [int, int], 'to_peer' => InputPeer, 'schedule_date' => int, 'send_as' => InputPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.forwardMessages({silent=Bool, background=Bool, with_my_score=Bool, drop_author=Bool, drop_media_captions=Bool, noforwards=Bool, from_peer=InputPeer, id={int}, to_peer=InputPeer, schedule_date=int, send_as=InputPeer, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

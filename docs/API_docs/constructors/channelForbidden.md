@@ -32,13 +32,3 @@ Indicates a channel/supergroup we can't access because we were banned, or for so
 ```php
 $channelForbidden = ['_' => 'channelForbidden', 'broadcast' => Bool, 'megagroup' => Bool, 'id' => long, 'access_hash' => long, 'title' => 'string', 'until_date' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelForbidden={_='channelForbidden', broadcast=Bool, megagroup=Bool, id=long, access_hash=long, title='string', until_date=int}
-
-```
-
-

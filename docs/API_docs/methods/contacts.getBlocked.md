@@ -41,9 +41,3 @@ $MadelineProto->start();
 $contacts_Blocked = $MadelineProto->contacts->getBlocked(['offset' => int, 'limit' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-contacts_Blocked = contacts.getBlocked({offset=int, limit=int, })
-```
-

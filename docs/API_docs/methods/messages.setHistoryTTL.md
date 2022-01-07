@@ -39,12 +39,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->setHistoryTTL(['peer' => InputPeer, 'period' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.setHistoryTTL({peer=InputPeer, period=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

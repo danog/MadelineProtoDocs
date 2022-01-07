@@ -27,13 +27,3 @@ Changes in the data center configuration options.
 ```php
 $updateDcOptions = ['_' => 'updateDcOptions', 'dc_options' => [DcOption, DcOption]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateDcOptions={_='updateDcOptions', dc_options={DcOption}}
-
-```
-
-

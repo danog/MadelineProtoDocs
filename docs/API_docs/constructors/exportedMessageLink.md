@@ -28,13 +28,3 @@ Link to a message in a supergroup/channel
 ```php
 $exportedMessageLink = ['_' => 'exportedMessageLink', 'link' => 'string', 'html' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-exportedMessageLink={_='exportedMessageLink', link='string', html='string'}
-
-```
-
-

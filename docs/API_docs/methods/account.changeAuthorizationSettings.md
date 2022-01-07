@@ -40,9 +40,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->changeAuthorizationSettings(['hash' => long, 'encrypted_requests_disabled' => Bool, 'call_requests_disabled' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.changeAuthorizationSettings({hash=long, encrypted_requests_disabled=Bool, call_requests_disabled=Bool, })
-```
-

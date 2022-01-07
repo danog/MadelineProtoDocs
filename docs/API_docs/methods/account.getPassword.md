@@ -35,9 +35,3 @@ $MadelineProto->start();
 $account_Password = $MadelineProto->account->getPassword();
 ```
 
-Or, if you're into Lua:
-
-```lua
-account_Password = account.getPassword({})
-```
-

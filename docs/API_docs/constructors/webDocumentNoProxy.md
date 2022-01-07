@@ -30,13 +30,3 @@ Remote document that can be downloaded without [proxying through telegram](https
 ```php
 $webDocumentNoProxy = ['_' => 'webDocumentNoProxy', 'url' => 'string', 'size' => int, 'mime_type' => 'string', 'attributes' => [DocumentAttribute, DocumentAttribute]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-webDocumentNoProxy={_='webDocumentNoProxy', url='string', size=int, mime_type='string', attributes={DocumentAttribute}}
-
-```
-
-

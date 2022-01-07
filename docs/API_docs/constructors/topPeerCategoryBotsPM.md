@@ -22,13 +22,3 @@ Most used bots
 ```php
 $topPeerCategoryBotsPM = ['_' => 'topPeerCategoryBotsPM'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-topPeerCategoryBotsPM={_='topPeerCategoryBotsPM'}
-
-```
-
-

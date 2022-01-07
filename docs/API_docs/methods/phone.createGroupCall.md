@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->phone->createGroupCall(['peer' => InputPeer, 'title' => 'string', 'schedule_date' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = phone.createGroupCall({peer=InputPeer, title='string', schedule_date=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

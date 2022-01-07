@@ -31,13 +31,3 @@ How users voted in a poll
 ```php
 $messages_votesList = ['_' => 'messages.votesList', 'count' => int, 'votes' => [MessageUserVote, MessageUserVote], 'users' => [User, User], 'next_offset' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_votesList={_='messages.votesList', count=int, votes={MessageUserVote}, users={User}, next_offset='string'}
-
-```
-
-

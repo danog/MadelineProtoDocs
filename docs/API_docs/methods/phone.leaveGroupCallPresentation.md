@@ -38,9 +38,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->phone->leaveGroupCallPresentation(['call' => InputGroupCall, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = phone.leaveGroupCallPresentation({call=InputGroupCall, })
-```
-

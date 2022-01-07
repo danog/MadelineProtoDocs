@@ -22,13 +22,3 @@ Night theme
 ```php
 $baseThemeNight = ['_' => 'baseThemeNight'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-baseThemeNight={_='baseThemeNight'}
-
-```
-
-

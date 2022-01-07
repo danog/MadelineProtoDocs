@@ -42,12 +42,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->bots->setBotCommands(['scope' => BotCommandScope, 'lang_code' => 'string', 'commands' => [BotCommand, BotCommand], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = bots.setBotCommands({scope=BotCommandScope, lang_code='string', commands={BotCommand}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

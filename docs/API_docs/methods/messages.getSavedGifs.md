@@ -40,9 +40,3 @@ $MadelineProto->start();
 $messages_SavedGifs = $MadelineProto->messages->getSavedGifs(['hash' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_SavedGifs = messages.getSavedGifs({hash=long, })
-```
-

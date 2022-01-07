@@ -40,12 +40,6 @@ $MadelineProto->start();
 $messages_AffectedHistory = $MadelineProto->messages->readMentions(['peer' => InputPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_AffectedHistory = messages.readMentions({peer=InputPeer, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

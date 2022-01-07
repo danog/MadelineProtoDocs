@@ -40,12 +40,6 @@ $MadelineProto->start();
 $messages_Chats = $MadelineProto->messages->getAllChats(['except_ids' => [long, long], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_Chats = messages.getAllChats({except_ids={long}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

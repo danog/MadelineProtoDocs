@@ -27,13 +27,3 @@ Represents an audio file
 ```php
 $documentAttributeAudio_23 = ['_' => 'documentAttributeAudio', 'duration' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-documentAttributeAudio_23={_='documentAttributeAudio', duration=int}
-
-```
-
-

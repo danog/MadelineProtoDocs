@@ -35,9 +35,3 @@ $MadelineProto->start();
 $Vector_of_DialogPeer = $MadelineProto->messages->getDialogUnreadMarks();
 ```
 
-Or, if you're into Lua:
-
-```lua
-Vector_of_DialogPeer = messages.getDialogUnreadMarks({})
-```
-

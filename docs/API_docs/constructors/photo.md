@@ -34,13 +34,3 @@ Photo
 ```php
 $photo = ['_' => 'photo', 'has_stickers' => Bool, 'id' => long, 'access_hash' => long, 'file_reference' => 'bytes', 'date' => int, 'sizes' => [PhotoSize, PhotoSize], 'video_sizes' => [VideoSize, VideoSize], 'dc_id' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-photo={_='photo', has_stickers=Bool, id=long, access_hash=long, file_reference='bytes', date=int, sizes={PhotoSize}, video_sizes={VideoSize}, dc_id=int}
-
-```
-
-

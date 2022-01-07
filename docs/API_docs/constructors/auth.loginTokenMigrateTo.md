@@ -29,13 +29,3 @@ Repeat the query to the specified DC
 ```php
 $auth_loginTokenMigrateTo = ['_' => 'auth.loginTokenMigrateTo', 'dc_id' => int, 'token' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-auth_loginTokenMigrateTo={_='auth.loginTokenMigrateTo', dc_id=int, token='bytes'}
-
-```
-
-

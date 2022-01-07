@@ -29,13 +29,3 @@ The results of a poll have changed
 ```php
 $updateMessagePoll = ['_' => 'updateMessagePoll', 'poll_id' => long, 'poll' => Poll, 'results' => PollResults];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateMessagePoll={_='updateMessagePoll', poll_id=long, poll=Poll, results=PollResults}
-
-```
-
-

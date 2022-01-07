@@ -28,13 +28,3 @@ Location of encrypted secret chat file.
 ```php
 $inputEncryptedFileLocation = ['_' => 'inputEncryptedFileLocation', 'id' => long, 'access_hash' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputEncryptedFileLocation={_='inputEncryptedFileLocation', id=long, access_hash=long}
-
-```
-
-

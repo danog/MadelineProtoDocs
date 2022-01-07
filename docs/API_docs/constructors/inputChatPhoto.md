@@ -27,13 +27,3 @@ Existing photo to be set as a chat profile photo.
 ```php
 $inputChatPhoto = ['_' => 'inputChatPhoto', 'id' => InputPhoto];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputChatPhoto={_='inputChatPhoto', id=InputPhoto}
-
-```
-
-

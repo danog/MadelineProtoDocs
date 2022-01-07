@@ -42,12 +42,6 @@ $MadelineProto->start();
 $phone_PhoneCall = $MadelineProto->phone->acceptCall(['peer' => InputPhoneCall, 'g_b' => 'bytes', 'protocol' => PhoneCallProtocol, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-phone_PhoneCall = phone.acceptCall({peer=InputPhoneCall, g_b='bytes', protocol=PhoneCallProtocol, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

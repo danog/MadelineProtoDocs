@@ -27,13 +27,3 @@ A new stickerset was installed
 ```php
 $updateNewStickerSet = ['_' => 'updateNewStickerSet', 'stickerset' => messages.StickerSet];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateNewStickerSet={_='updateNewStickerSet', stickerset=messages.StickerSet}
-
-```
-
-

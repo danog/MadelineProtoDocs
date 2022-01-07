@@ -28,13 +28,3 @@ Empty constructor, non-existent message.
 ```php
 $messageEmpty = ['_' => 'messageEmpty', 'id' => int, 'peer_id' => Peer];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageEmpty={_='messageEmpty', id=int, peer_id=Peer}
-
-```
-
-

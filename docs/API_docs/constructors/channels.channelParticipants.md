@@ -31,13 +31,3 @@ Represents multiple channel participants
 ```php
 $channels_channelParticipants = ['_' => 'channels.channelParticipants', 'count' => int, 'participants' => [ChannelParticipant, ChannelParticipant], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channels_channelParticipants={_='channels.channelParticipants', count=int, participants={ChannelParticipant}, chats={Chat}, users={User}}
-
-```
-
-

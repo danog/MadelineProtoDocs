@@ -40,9 +40,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->help->acceptTermsOfService(['id' => DataJSON, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = help.acceptTermsOfService({id=DataJSON, })
-```
-

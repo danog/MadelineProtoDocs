@@ -30,13 +30,3 @@ User profile photo.
 ```php
 $userProfilePhoto = ['_' => 'userProfilePhoto', 'has_video' => Bool, 'photo_id' => long, 'stripped_thumb' => 'bytes', 'dc_id' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-userProfilePhoto={_='userProfilePhoto', has_video=Bool, photo_id=long, stripped_thumb='bytes', dc_id=int}
-
-```
-
-

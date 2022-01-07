@@ -22,13 +22,3 @@ Internal [passport](https://core.telegram.org/passport)
 ```php
 $secureValueTypeInternalPassport = ['_' => 'secureValueTypeInternalPassport'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureValueTypeInternalPassport={_='secureValueTypeInternalPassport'}
-
-```
-
-

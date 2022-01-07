@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->channels->togglePreHistoryHidden(['channel' => InputChannel, 'enabled' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = channels.togglePreHistoryHidden({channel=InputChannel, enabled=Bool, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

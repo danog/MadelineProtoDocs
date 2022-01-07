@@ -34,13 +34,3 @@ MTProxy/Public Service Announcement information
 ```php
 $help_promoData = ['_' => 'help.promoData', 'proxy' => Bool, 'expires' => int, 'peer' => Peer, 'chats' => [Chat, Chat], 'users' => [User, User], 'psa_type' => 'string', 'psa_message' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-help_promoData={_='help.promoData', proxy=Bool, expires=int, peer=Peer, chats={Chat}, users={User}, psa_type='string', psa_message='string'}
-
-```
-
-

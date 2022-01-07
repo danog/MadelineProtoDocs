@@ -27,13 +27,3 @@ Configuration for [CDN](https://core.telegram.org/cdn) file downloads.
 ```php
 $cdnConfig = ['_' => 'cdnConfig', 'public_keys' => [CdnPublicKey, CdnPublicKey]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-cdnConfig={_='cdnConfig', public_keys={CdnPublicKey}}
-
-```
-
-

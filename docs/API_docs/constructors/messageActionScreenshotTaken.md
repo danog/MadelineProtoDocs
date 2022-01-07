@@ -22,13 +22,3 @@ A screenshot of the chat was taken
 ```php
 $messageActionScreenshotTaken = ['_' => 'messageActionScreenshotTaken'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionScreenshotTaken={_='messageActionScreenshotTaken'}
-
-```
-
-

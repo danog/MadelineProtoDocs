@@ -27,13 +27,3 @@ Apple pay payment credentials
 ```php
 $inputPaymentCredentialsApplePay = ['_' => 'inputPaymentCredentialsApplePay', 'payment_data' => DataJSON];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPaymentCredentialsApplePay={_='inputPaymentCredentialsApplePay', payment_data=DataJSON}
-
-```
-
-

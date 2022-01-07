@@ -27,13 +27,3 @@ Represents a json-encoded object
 ```php
 $dataJSON = ['_' => 'dataJSON', 'data' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-dataJSON={_='dataJSON', data='string'}
-
-```
-
-

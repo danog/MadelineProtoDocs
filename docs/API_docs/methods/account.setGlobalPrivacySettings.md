@@ -40,12 +40,6 @@ $MadelineProto->start();
 $GlobalPrivacySettings = $MadelineProto->account->setGlobalPrivacySettings(['settings' => GlobalPrivacySettings, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-GlobalPrivacySettings = account.setGlobalPrivacySettings({settings=GlobalPrivacySettings, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -27,13 +27,3 @@ A user was invited to the group
 ```php
 $channelAdminLogEventActionParticipantInvite = ['_' => 'channelAdminLogEventActionParticipantInvite', 'participant' => ChannelParticipant];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionParticipantInvite={_='channelAdminLogEventActionParticipantInvite', participant=ChannelParticipant}
-
-```
-
-

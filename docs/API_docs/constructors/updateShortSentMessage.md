@@ -34,13 +34,3 @@ Shortened constructor containing info on one outgoing message to a contact (the 
 ```php
 $updateShortSentMessage = ['_' => 'updateShortSentMessage', 'out' => Bool, 'id' => int, 'pts' => int, 'pts_count' => int, 'date' => int, 'media' => MessageMedia, 'entities' => [MessageEntity, MessageEntity], 'ttl_period' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateShortSentMessage={_='updateShortSentMessage', out=Bool, id=int, pts=int, pts_count=int, date=int, media=MessageMedia, entities={MessageEntity}, ttl_period=int}
-
-```
-
-

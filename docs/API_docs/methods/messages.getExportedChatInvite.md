@@ -39,9 +39,3 @@ $MadelineProto->start();
 $messages_ExportedChatInvite = $MadelineProto->messages->getExportedChatInvite(['peer' => InputPeer, 'link' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_ExportedChatInvite = messages.getExportedChatInvite({peer=InputPeer, link='string', })
-```
-

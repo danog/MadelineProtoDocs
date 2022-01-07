@@ -28,13 +28,3 @@ Settings of a certain peer have changed
 ```php
 $updatePeerSettings = ['_' => 'updatePeerSettings', 'peer' => Peer, 'settings' => PeerSettings];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updatePeerSettings={_='updatePeerSettings', peer=Peer, settings=PeerSettings}
-
-```
-
-

@@ -41,9 +41,3 @@ $MadelineProto->start();
 $account_Themes = $MadelineProto->account->getThemes(['format' => 'string', 'hash' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-account_Themes = account.getThemes({format='string', hash=long, })
-```
-

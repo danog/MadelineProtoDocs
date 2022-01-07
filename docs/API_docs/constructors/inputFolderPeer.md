@@ -28,13 +28,3 @@ Peer in a folder
 ```php
 $inputFolderPeer = ['_' => 'inputFolderPeer', 'peer' => InputPeer, 'folder_id' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputFolderPeer={_='inputFolderPeer', peer=InputPeer, folder_id=int}
-
-```
-
-

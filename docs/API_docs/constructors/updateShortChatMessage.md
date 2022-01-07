@@ -42,13 +42,3 @@ Shortened constructor containing info on one new incoming text message from a ch
 ```php
 $updateShortChatMessage = ['_' => 'updateShortChatMessage', 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'silent' => Bool, 'id' => int, 'from_id' => long, 'chat_id' => long, 'message' => 'string', 'pts' => int, 'pts_count' => int, 'date' => int, 'fwd_from' => MessageFwdHeader, 'via_bot_id' => long, 'reply_to' => MessageReplyHeader, 'entities' => [MessageEntity, MessageEntity], 'ttl_period' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateShortChatMessage={_='updateShortChatMessage', out=Bool, mentioned=Bool, media_unread=Bool, silent=Bool, id=int, from_id=long, chat_id=long, message='string', pts=int, pts_count=int, date=int, fwd_from=MessageFwdHeader, via_bot_id=long, reply_to=MessageReplyHeader, entities={MessageEntity}, ttl_period=int}
-
-```
-
-

@@ -44,12 +44,6 @@ $MadelineProto->start();
 $messages_BotResults = $MadelineProto->messages->getInlineBotResults(['bot' => InputUser, 'peer' => InputPeer, 'geo_point' => InputGeoPoint, 'query' => 'string', 'offset' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_BotResults = messages.getInlineBotResults({bot=InputUser, peer=InputPeer, geo_point=InputGeoPoint, query='string', offset='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

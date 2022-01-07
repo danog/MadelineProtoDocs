@@ -29,13 +29,3 @@ Message interaction counters
 ```php
 $messageInteractionCounters = ['_' => 'messageInteractionCounters', 'msg_id' => int, 'views' => int, 'forwards' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageInteractionCounters={_='messageInteractionCounters', msg_id=int, views=int, forwards=int}
-
-```
-
-

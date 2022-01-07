@@ -40,12 +40,6 @@ $MadelineProto->start();
 $users_UserFull = $MadelineProto->users->getFullUser(['id' => InputUser, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-users_UserFull = users.getFullUser({id=InputUser, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

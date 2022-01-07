@@ -29,13 +29,3 @@ Installed wallpapers
 ```php
 $account_wallPapers = ['_' => 'account.wallPapers', 'hash' => long, 'wallpapers' => [WallPaper, WallPaper]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-account_wallPapers={_='account.wallPapers', hash=long, wallpapers={WallPaper}}
-
-```
-
-

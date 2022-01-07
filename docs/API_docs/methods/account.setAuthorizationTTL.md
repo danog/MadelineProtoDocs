@@ -38,9 +38,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->setAuthorizationTTL(['authorization_ttl_days' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.setAuthorizationTTL({authorization_ttl_days=int, })
-```
-

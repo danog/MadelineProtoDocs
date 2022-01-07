@@ -34,13 +34,3 @@ Incoming phone call
 ```php
 $phoneCallWaiting = ['_' => 'phoneCallWaiting', 'video' => Bool, 'id' => long, 'access_hash' => long, 'date' => int, 'admin_id' => long, 'participant_id' => long, 'protocol' => PhoneCallProtocol, 'receive_date' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-phoneCallWaiting={_='phoneCallWaiting', video=Bool, id=long, access_hash=long, date=int, admin_id=long, participant_id=long, protocol=PhoneCallProtocol, receive_date=int}
-
-```
-
-

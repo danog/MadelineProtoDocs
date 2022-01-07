@@ -29,13 +29,3 @@ Messages were deleted.
 ```php
 $updateDeleteMessages = ['_' => 'updateDeleteMessages', 'messages' => [int, int], 'pts' => int, 'pts_count' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateDeleteMessages={_='updateDeleteMessages', messages={int}, pts=int, pts_count=int}
-
-```
-
-

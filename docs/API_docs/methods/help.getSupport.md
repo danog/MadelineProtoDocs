@@ -35,9 +35,3 @@ $MadelineProto->start();
 $help_Support = $MadelineProto->help->getSupport();
 ```
 
-Or, if you're into Lua:
-
-```lua
-help_Support = help.getSupport({})
-```
-

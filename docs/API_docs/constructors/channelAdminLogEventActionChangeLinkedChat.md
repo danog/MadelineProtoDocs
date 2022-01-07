@@ -28,13 +28,3 @@ The linked chat was changed
 ```php
 $channelAdminLogEventActionChangeLinkedChat = ['_' => 'channelAdminLogEventActionChangeLinkedChat', 'prev_value' => long, 'new_value' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionChangeLinkedChat={_='channelAdminLogEventActionChangeLinkedChat', prev_value=long, new_value=long}
-
-```
-
-

@@ -28,13 +28,3 @@ No PSA/MTProxy info is available
 ```php
 $help_promoDataEmpty = ['_' => 'help.promoDataEmpty', 'expires' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-help_promoDataEmpty={_='help.promoDataEmpty', expires=int}
-
-```
-
-

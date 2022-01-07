@@ -22,13 +22,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $updatePtsChanged = ['_' => 'updatePtsChanged'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updatePtsChanged={_='updatePtsChanged'}
-
-```
-
-

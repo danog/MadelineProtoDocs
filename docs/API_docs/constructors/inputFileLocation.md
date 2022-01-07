@@ -30,13 +30,3 @@ DEPRECATED location of a photo
 ```php
 $inputFileLocation = ['_' => 'inputFileLocation', 'volume_id' => long, 'local_id' => int, 'secret' => long, 'file_reference' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputFileLocation={_='inputFileLocation', volume_id=long, local_id=int, secret=long, file_reference='bytes'}
-
-```
-
-

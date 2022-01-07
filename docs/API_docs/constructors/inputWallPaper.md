@@ -28,13 +28,3 @@ Wallpaper
 ```php
 $inputWallPaper = ['_' => 'inputWallPaper', 'id' => long, 'access_hash' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputWallPaper={_='inputWallPaper', id=long, access_hash=long}
-
-```
-
-

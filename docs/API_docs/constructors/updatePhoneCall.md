@@ -27,13 +27,3 @@ An incoming phone call
 ```php
 $updatePhoneCall = ['_' => 'updatePhoneCall', 'phone_call' => PhoneCall];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updatePhoneCall={_='updatePhoneCall', phone_call=PhoneCall}
-
-```
-
-

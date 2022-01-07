@@ -27,13 +27,3 @@ User is uploading a voice message.
 ```php
 $sendMessageUploadAudioAction = ['_' => 'sendMessageUploadAudioAction', 'progress' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-sendMessageUploadAudioAction={_='sendMessageUploadAudioAction', progress=int}
-
-```
-
-

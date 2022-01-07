@@ -28,13 +28,3 @@ redirect_from: /API_docs/constructors/messages_exportedChatInviteReplaced.html
 ```php
 $messages_exportedChatInviteReplaced = ['_' => 'messages.exportedChatInviteReplaced', 'invite' => ExportedChatInvite, 'new_invite' => ExportedChatInvite, 'users' => [User, User]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_exportedChatInviteReplaced={_='messages.exportedChatInviteReplaced', invite=ExportedChatInvite, new_invite=ExportedChatInvite, users={User}}
-
-```
-
-

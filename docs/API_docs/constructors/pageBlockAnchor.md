@@ -27,13 +27,3 @@ Link to section within the page itself (like `<a href="#target">anchor</a>`)
 ```php
 $pageBlockAnchor = ['_' => 'pageBlockAnchor', 'name' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockAnchor={_='pageBlockAnchor', name='string'}
-
-```
-
-

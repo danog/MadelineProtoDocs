@@ -22,13 +22,3 @@ Profile photo has not been set, or was hidden.
 ```php
 $userProfilePhotoEmpty = ['_' => 'userProfilePhotoEmpty'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-userProfilePhotoEmpty={_='userProfilePhotoEmpty'}
-
-```
-
-

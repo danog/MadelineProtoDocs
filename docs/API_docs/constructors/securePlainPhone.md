@@ -27,13 +27,3 @@ Phone number to use in [telegram passport](https://core.telegram.org/passport): 
 ```php
 $securePlainPhone = ['_' => 'securePlainPhone', 'phone' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-securePlainPhone={_='securePlainPhone', phone='string'}
-
-```
-
-

@@ -22,13 +22,3 @@ Tinted theme
 ```php
 $baseThemeTinted = ['_' => 'baseThemeTinted'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-baseThemeTinted={_='baseThemeTinted'}
-
-```
-
-

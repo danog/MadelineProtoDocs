@@ -27,13 +27,3 @@ No preview is available for the webpage
 ```php
 $webPageEmpty = ['_' => 'webPageEmpty', 'id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-webPageEmpty={_='webPageEmpty', id=long}
-
-```
-
-

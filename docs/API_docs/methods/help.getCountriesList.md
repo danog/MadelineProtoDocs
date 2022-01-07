@@ -41,9 +41,3 @@ $MadelineProto->start();
 $help_CountriesList = $MadelineProto->help->getCountriesList(['lang_code' => 'string', 'hash' => [int, int], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-help_CountriesList = help.getCountriesList({lang_code='string', hash={int}, })
-```
-

@@ -43,12 +43,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->phone->joinGroupCall(['muted' => Bool, 'video_stopped' => Bool, 'call' => InputGroupCall, 'join_as' => InputPeer, 'invite_hash' => 'string', 'params' => DataJSON, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = phone.joinGroupCall({muted=Bool, video_stopped=Bool, call=InputGroupCall, join_as=InputPeer, invite_hash='string', params=DataJSON, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

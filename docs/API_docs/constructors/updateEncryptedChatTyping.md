@@ -27,13 +27,3 @@ Interlocutor is typing a message in an encrypted chat. Update period is 6 second
 ```php
 $updateEncryptedChatTyping = ['_' => 'updateEncryptedChatTyping', 'chat_id' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateEncryptedChatTyping={_='updateEncryptedChatTyping', chat_id=int}
-
-```
-
-

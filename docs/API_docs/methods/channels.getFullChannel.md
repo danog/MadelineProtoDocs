@@ -40,12 +40,6 @@ $MadelineProto->start();
 $messages_ChatFull = $MadelineProto->channels->getFullChannel(['channel' => InputChannel, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_ChatFull = channels.getFullChannel({channel=InputChannel, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

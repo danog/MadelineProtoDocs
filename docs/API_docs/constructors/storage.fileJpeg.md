@@ -23,13 +23,3 @@ JPEG image. MIME type: `image/jpeg`.
 ```php
 $storage_fileJpeg = ['_' => 'storage.fileJpeg'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-storage_fileJpeg={_='storage.fileJpeg'}
-
-```
-
-

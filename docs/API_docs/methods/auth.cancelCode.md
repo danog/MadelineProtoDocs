@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->auth->cancelCode(['phone_number' => 'string', 'phone_code_hash' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = auth.cancelCode({phone_number='string', phone_code_hash='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

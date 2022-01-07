@@ -42,13 +42,3 @@ Info about a group
 ```php
 $chat = ['_' => 'chat', 'creator' => Bool, 'kicked' => Bool, 'left' => Bool, 'deactivated' => Bool, 'call_active' => Bool, 'call_not_empty' => Bool, 'noforwards' => Bool, 'id' => long, 'title' => 'string', 'photo' => ChatPhoto, 'participants_count' => int, 'date' => int, 'version' => int, 'migrated_to' => InputChannel, 'admin_rights' => ChatAdminRights, 'default_banned_rights' => ChatBannedRights];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-chat={_='chat', creator=Bool, kicked=Bool, left=Bool, deactivated=Bool, call_active=Bool, call_not_empty=Bool, noforwards=Bool, id=long, title='string', photo=ChatPhoto, participants_count=int, date=int, version=int, migrated_to=InputChannel, admin_rights=ChatAdminRights, default_banned_rights=ChatBannedRights}
-
-```
-
-

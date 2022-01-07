@@ -41,9 +41,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->saveTheme(['theme' => InputTheme, 'unsave' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.saveTheme({theme=InputTheme, unsave=Bool, })
-```
-

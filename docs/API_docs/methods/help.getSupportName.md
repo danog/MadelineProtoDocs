@@ -35,12 +35,6 @@ $MadelineProto->start();
 $help_SupportName = $MadelineProto->help->getSupportName();
 ```
 
-Or, if you're into Lua:
-
-```lua
-help_SupportName = help.getSupportName({})
-```
-
 ### Errors
 
 | Code | Type     | Description   |

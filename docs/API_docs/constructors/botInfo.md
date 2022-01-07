@@ -29,13 +29,3 @@ Info about bots (available bot commands, etc)
 ```php
 $botInfo = ['_' => 'botInfo', 'user_id' => long, 'description' => 'string', 'commands' => [BotCommand, BotCommand]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-botInfo={_='botInfo', user_id=long, description='string', commands={BotCommand}}
-
-```
-
-

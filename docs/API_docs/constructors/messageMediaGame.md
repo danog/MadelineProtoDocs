@@ -27,13 +27,3 @@ Telegram game
 ```php
 $messageMediaGame = ['_' => 'messageMediaGame', 'game' => Game];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageMediaGame={_='messageMediaGame', game=Game}
-
-```
-
-

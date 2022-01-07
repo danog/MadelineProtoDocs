@@ -23,13 +23,3 @@ No new stickers were found for the given query
 ```php
 $messages_stickersNotModified = ['_' => 'messages.stickersNotModified'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_stickersNotModified={_='messages.stickersNotModified'}
-
-```
-
-

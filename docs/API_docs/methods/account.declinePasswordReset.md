@@ -33,12 +33,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->declinePasswordReset();
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.declinePasswordReset({})
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -22,13 +22,3 @@ User is selecting a contact to share.
 ```php
 $sendMessageChooseContactAction = ['_' => 'sendMessageChooseContactAction'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-sendMessageChooseContactAction={_='sendMessageChooseContactAction'}
-
-```
-
-

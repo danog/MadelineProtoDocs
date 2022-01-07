@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Vector_of_long = $MadelineProto->messages->receivedQueue(['max_qts' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Vector_of_long = messages.receivedQueue({max_qts=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

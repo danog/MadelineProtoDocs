@@ -41,12 +41,6 @@ $MadelineProto->start();
 $messages_StickerSet = $MadelineProto->messages->getStickerSet(['stickerset' => InputStickerSet, 'hash' => [int, int], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_StickerSet = messages.getStickerSet({stickerset=InputStickerSet, hash={int}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

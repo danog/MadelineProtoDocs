@@ -30,13 +30,3 @@ Image description.
 ```php
 $photoSize = ['_' => 'photoSize', 'type' => 'string', 'w' => int, 'h' => int, 'size' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-photoSize={_='photoSize', type='string', w=int, h=int, size=int}
-
-```
-
-

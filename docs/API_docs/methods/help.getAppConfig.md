@@ -35,9 +35,3 @@ $MadelineProto->start();
 $JSONValue = $MadelineProto->help->getAppConfig();
 ```
 
-Or, if you're into Lua:
-
-```lua
-JSONValue = help.getAppConfig({})
-```
-

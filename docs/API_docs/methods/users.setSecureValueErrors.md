@@ -43,12 +43,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->users->setSecureValueErrors(['id' => InputUser, 'errors' => [SecureValueError, SecureValueError], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = users.setSecureValueErrors({id=InputUser, errors={SecureValueError}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

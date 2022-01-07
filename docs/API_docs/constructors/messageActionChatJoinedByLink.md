@@ -27,13 +27,3 @@ A user joined the chat via an invite link
 ```php
 $messageActionChatJoinedByLink = ['_' => 'messageActionChatJoinedByLink', 'inviter_id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionChatJoinedByLink={_='messageActionChatJoinedByLink', inviter_id=long}
-
-```
-
-

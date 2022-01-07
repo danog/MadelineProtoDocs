@@ -22,13 +22,3 @@ The saved gif list has changed, the client should refetch it using [messages.get
 ```php
 $updateSavedGifs = ['_' => 'updateSavedGifs'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateSavedGifs={_='updateSavedGifs'}
-
-```
-
-

@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->help->setBotUpdatesStatus(['pending_updates_count' => int, 'message' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = help.setBotUpdatesStatus({pending_updates_count=int, message='string', })
-```
-
 
 ## Return value 
 

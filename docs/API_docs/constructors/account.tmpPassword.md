@@ -29,13 +29,3 @@ Temporary payment password
 ```php
 $account_tmpPassword = ['_' => 'account.tmpPassword', 'tmp_password' => 'bytes', 'valid_until' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-account_tmpPassword={_='account.tmpPassword', tmp_password='bytes', valid_until=int}
-
-```
-
-

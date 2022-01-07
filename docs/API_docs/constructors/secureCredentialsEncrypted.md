@@ -29,13 +29,3 @@ Encrypted credentials required to decrypt [telegram passport](https://core.teleg
 ```php
 $secureCredentialsEncrypted = ['_' => 'secureCredentialsEncrypted', 'data' => 'bytes', 'hash' => 'bytes', 'secret' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureCredentialsEncrypted={_='secureCredentialsEncrypted', data='bytes', hash='bytes', secret='bytes'}
-
-```
-
-

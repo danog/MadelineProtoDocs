@@ -28,13 +28,3 @@ The description was changed
 ```php
 $channelAdminLogEventActionChangeAbout = ['_' => 'channelAdminLogEventActionChangeAbout', 'prev_value' => 'string', 'new_value' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionChangeAbout={_='channelAdminLogEventActionChangeAbout', prev_value='string', new_value='string'}
-
-```
-
-

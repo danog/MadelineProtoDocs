@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->channels->setDiscussionGroup(['broadcast' => InputChannel, 'group' => InputChannel, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = channels.setDiscussionGroup({broadcast=InputChannel, group=InputChannel, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

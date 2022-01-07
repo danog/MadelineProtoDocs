@@ -39,9 +39,3 @@ $MadelineProto->start();
 $Vector_of_BotCommand = $MadelineProto->bots->getBotCommands(['scope' => BotCommandScope, 'lang_code' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Vector_of_BotCommand = bots.getBotCommands({scope=BotCommandScope, lang_code='string', })
-```
-

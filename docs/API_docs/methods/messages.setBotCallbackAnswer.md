@@ -44,12 +44,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->setBotCallbackAnswer(['alert' => Bool, 'query_id' => long, 'message' => 'string', 'url' => 'string', 'cache_time' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.setBotCallbackAnswer({alert=Bool, query_id=long, message='string', url='string', cache_time=int, })
-```
-
 
 ## Return value 
 

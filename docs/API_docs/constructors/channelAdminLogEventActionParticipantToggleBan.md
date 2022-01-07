@@ -28,13 +28,3 @@ The banned [rights](https://core.telegram.org/api/rights) of a user were changed
 ```php
 $channelAdminLogEventActionParticipantToggleBan = ['_' => 'channelAdminLogEventActionParticipantToggleBan', 'prev_participant' => ChannelParticipant, 'new_participant' => ChannelParticipant];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionParticipantToggleBan={_='channelAdminLogEventActionParticipantToggleBan', prev_participant=ChannelParticipant, new_participant=ChannelParticipant}
-
-```
-
-

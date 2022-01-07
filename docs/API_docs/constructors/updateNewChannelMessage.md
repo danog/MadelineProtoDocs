@@ -29,13 +29,3 @@ A new message was sent in a [channel/supergroup](https://core.telegram.org/api/c
 ```php
 $updateNewChannelMessage = ['_' => 'updateNewChannelMessage', 'message' => Message, 'pts' => int, 'pts_count' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateNewChannelMessage={_='updateNewChannelMessage', message=Message, pts=int, pts_count=int}
-
-```
-
-

@@ -27,13 +27,3 @@ Query participants by name
 ```php
 $channelParticipantsSearch = ['_' => 'channelParticipantsSearch', 'q' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelParticipantsSearch={_='channelParticipantsSearch', q='string'}
-
-```
-
-

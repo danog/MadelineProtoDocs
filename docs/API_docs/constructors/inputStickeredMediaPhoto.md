@@ -27,13 +27,3 @@ A photo with stickers attached
 ```php
 $inputStickeredMediaPhoto = ['_' => 'inputStickeredMediaPhoto', 'id' => InputPhoto];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputStickeredMediaPhoto={_='inputStickeredMediaPhoto', id=InputPhoto}
-
-```
-
-

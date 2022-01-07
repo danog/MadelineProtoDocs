@@ -28,13 +28,3 @@ Message entity representing **bold text**.
 ```php
 $messageEntityBold = ['_' => 'messageEntityBold', 'offset' => int, 'length' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageEntityBold={_='messageEntityBold', offset=int, length=int}
-
-```
-
-

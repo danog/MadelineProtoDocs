@@ -22,13 +22,3 @@ Group profile photo removed.
 ```php
 $messageActionChatDeletePhoto = ['_' => 'messageActionChatDeletePhoto'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionChatDeletePhoto={_='messageActionChatDeletePhoto'}
-
-```
-
-

@@ -42,12 +42,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->channels->editBanned(['channel' => InputChannel, 'participant' => InputPeer, 'banned_rights' => ChatBannedRights, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = channels.editBanned({channel=InputChannel, participant=InputPeer, banned_rights=ChatBannedRights, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

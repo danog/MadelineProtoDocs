@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->channels->readHistory(['channel' => InputChannel, 'max_id' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = channels.readHistory({channel=InputChannel, max_id=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

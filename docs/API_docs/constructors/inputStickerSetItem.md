@@ -29,13 +29,3 @@ Sticker in a stickerset
 ```php
 $inputStickerSetItem = ['_' => 'inputStickerSetItem', 'document' => InputDocument, 'emoji' => 'string', 'mask_coords' => MaskCoords];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputStickerSetItem={_='inputStickerSetItem', document=InputDocument, emoji='string', mask_coords=MaskCoords}
-
-```
-
-

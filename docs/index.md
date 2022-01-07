@@ -64,7 +64,6 @@ Tip: if you receive an error (or nothing), [send us](https://t.me/pwrtelegramgro
 ## Examples
 
 You can find examples for nearly every MadelineProto function in
-
 * [magnaluna webradio](https://magna.madelineproto.xyz) - Multifeatured Telegram VoIP webradio
 * [`downloadRenameBot.php`](https://github.com/danog/MadelineProto/blob/master/examples/downloadRenameBot.php) - download files by URL and rename Telegram files using this async parallelized bot!
 * [`bot.php`](https://github.com/danog/MadelineProto/blob/master/examples/bot.php) - examples for sending normal messages, downloading any media
@@ -95,7 +94,6 @@ You can find examples for nearly every MadelineProto function in
     * [Built-in database driver](https://docs.madelineproto.xyz/docs/UPDATES.html#built-in-database-driver)
   * [Async Event driven multi-account](https://docs.madelineproto.xyz/docs/UPDATES.html#async-event-driven-multiaccount)
   * [Noop (default)](https://docs.madelineproto.xyz/docs/UPDATES.html#noop)
-  * [Fetch all updates from the beginning](https://docs.madelineproto.xyz/docs/UPDATES.html#fetch-all-updates-from-the-beginning)
 * [Database](https://docs.madelineproto.xyz/docs/DATABASE.html)
   * [\danog\MadelineProto\Settings\Database\Memory: Memory backend settings.](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/Settings/Database/Memory.html)
   * [\danog\MadelineProto\Settings\Database\Mysql: MySQL backend settings.](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/Settings/Database/Mysql.html)

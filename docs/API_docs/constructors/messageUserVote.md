@@ -29,13 +29,3 @@ How a user voted in a poll
 ```php
 $messageUserVote = ['_' => 'messageUserVote', 'user_id' => long, 'option' => 'bytes', 'date' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageUserVote={_='messageUserVote', user_id=long, option='bytes', date=int}
-
-```
-
-

@@ -37,13 +37,3 @@ Theme
 ```php
 $theme = ['_' => 'theme', 'creator' => Bool, 'default' => Bool, 'for_chat' => Bool, 'id' => long, 'access_hash' => long, 'slug' => 'string', 'title' => 'string', 'document' => Document, 'settings' => [ThemeSettings, ThemeSettings], 'emoticon' => 'string', 'installs_count' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-theme={_='theme', creator=Bool, default=Bool, for_chat=Bool, id=long, access_hash=long, slug='string', title='string', document=Document, settings={ThemeSettings}, emoticon='string', installs_count=int}
-
-```
-
-

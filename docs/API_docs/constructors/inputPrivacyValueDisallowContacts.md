@@ -22,13 +22,3 @@ Disallow only contacts
 ```php
 $inputPrivacyValueDisallowContacts = ['_' => 'inputPrivacyValueDisallowContacts'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPrivacyValueDisallowContacts={_='inputPrivacyValueDisallowContacts'}
-
-```
-
-

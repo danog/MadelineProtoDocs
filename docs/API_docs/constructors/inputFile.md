@@ -30,13 +30,3 @@ Defines a file saved in parts using the method [upload.saveFilePart](../methods/
 ```php
 $inputFile = ['_' => 'inputFile', 'id' => long, 'parts' => int, 'name' => 'string', 'md5_checksum' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputFile={_='inputFile', id=long, parts=int, name='string', md5_checksum='string'}
-
-```
-
-

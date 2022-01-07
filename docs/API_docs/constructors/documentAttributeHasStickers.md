@@ -22,13 +22,3 @@ Whether the current document has stickers attached
 ```php
 $documentAttributeHasStickers = ['_' => 'documentAttributeHasStickers'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-documentAttributeHasStickers={_='documentAttributeHasStickers'}
-
-```
-
-

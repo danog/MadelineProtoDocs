@@ -28,13 +28,3 @@ Someone scored in a game
 ```php
 $messageActionGameScore = ['_' => 'messageActionGameScore', 'game_id' => long, 'score' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionGameScore={_='messageActionGameScore', game_id=long, score=int}
-
-```
-
-

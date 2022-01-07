@@ -29,13 +29,3 @@ Defines a [min](https://core.telegram.org/api/min) channel that was seen in a ce
 ```php
 $inputChannelFromMessage = ['_' => 'inputChannelFromMessage', 'peer' => InputPeer, 'msg_id' => int, 'channel_id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputChannelFromMessage={_='inputChannelFromMessage', peer=InputPeer, msg_id=int, channel_id=long}
-
-```
-
-

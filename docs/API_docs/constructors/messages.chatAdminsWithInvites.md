@@ -27,13 +27,3 @@ redirect_from: /API_docs/constructors/messages_chatAdminsWithInvites.html
 ```php
 $messages_chatAdminsWithInvites = ['_' => 'messages.chatAdminsWithInvites', 'admins' => [ChatAdminWithInvites, ChatAdminWithInvites], 'users' => [User, User]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_chatAdminsWithInvites={_='messages.chatAdminsWithInvites', admins={ChatAdminWithInvites}, users={User}}
-
-```
-
-

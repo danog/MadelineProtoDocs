@@ -28,13 +28,3 @@ Rich text email link
 ```php
 $textEmail = ['_' => 'textEmail', 'text' => RichText, 'email' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-textEmail={_='textEmail', text=RichText, email='string'}
-
-```
-
-

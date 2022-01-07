@@ -41,12 +41,6 @@ $MadelineProto->start();
 $DataJSON = $MadelineProto->bots->sendCustomRequest(['custom_method' => 'string', 'params' => DataJSON, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-DataJSON = bots.sendCustomRequest({custom_method='string', params=DataJSON, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -30,13 +30,3 @@ GeoPoint.
 ```php
 $geoPoint = ['_' => 'geoPoint', 'long' => double, 'lat' => double, 'access_hash' => long, 'accuracy_radius' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-geoPoint={_='geoPoint', long=double, lat=double, access_hash=long, accuracy_radius=int}
-
-```
-
-

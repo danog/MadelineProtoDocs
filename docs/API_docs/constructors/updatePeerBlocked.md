@@ -28,13 +28,3 @@ A peer was blocked
 ```php
 $updatePeerBlocked = ['_' => 'updatePeerBlocked', 'peer_id' => Peer, 'blocked' => Bool];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updatePeerBlocked={_='updatePeerBlocked', peer_id=Peer, blocked=Bool}
-
-```
-
-

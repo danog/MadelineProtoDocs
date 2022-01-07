@@ -43,12 +43,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->channels->editAdmin(['channel' => InputChannel, 'user_id' => InputUser, 'admin_rights' => ChatAdminRights, 'rank' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = channels.editAdmin({channel=InputChannel, user_id=InputUser, admin_rights=ChatAdminRights, rank='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

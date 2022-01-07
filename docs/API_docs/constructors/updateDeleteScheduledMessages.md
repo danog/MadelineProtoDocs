@@ -28,13 +28,3 @@ Some [scheduled messages](https://core.telegram.org/api/scheduled-messages) were
 ```php
 $updateDeleteScheduledMessages = ['_' => 'updateDeleteScheduledMessages', 'peer' => Peer, 'messages' => [int, int]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateDeleteScheduledMessages={_='updateDeleteScheduledMessages', peer=Peer, messages={int}}
-
-```
-
-

@@ -40,13 +40,3 @@ Represents a stickerset (stickerpack)
 ```php
 $stickerSet = ['_' => 'stickerSet', 'archived' => Bool, 'official' => Bool, 'masks' => Bool, 'animated' => Bool, 'installed_date' => int, 'id' => long, 'access_hash' => long, 'title' => 'string', 'short_name' => 'string', 'thumbs' => [PhotoSize, PhotoSize], 'thumb_dc_id' => int, 'thumb_version' => int, 'count' => int, 'hash' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-stickerSet={_='stickerSet', archived=Bool, official=Bool, masks=Bool, animated=Bool, installed_date=int, id=long, access_hash=long, title='string', short_name='string', thumbs={PhotoSize}, thumb_dc_id=int, thumb_version=int, count=int, hash=int}
-
-```
-
-

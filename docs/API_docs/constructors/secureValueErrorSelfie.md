@@ -29,13 +29,3 @@ Represents an issue with the selfie with a document. The error is considered res
 ```php
 $secureValueErrorSelfie = ['_' => 'secureValueErrorSelfie', 'type' => SecureValueType, 'file_hash' => 'bytes', 'text' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureValueErrorSelfie={_='secureValueErrorSelfie', type=SecureValueType, file_hash='bytes', text='string'}
-
-```
-
-

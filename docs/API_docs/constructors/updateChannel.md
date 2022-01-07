@@ -27,13 +27,3 @@ A new channel is available
 ```php
 $updateChannel = ['_' => 'updateChannel', 'channel_id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateChannel={_='updateChannel', channel_id=long}
-
-```
-
-

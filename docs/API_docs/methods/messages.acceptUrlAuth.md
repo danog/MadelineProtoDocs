@@ -44,9 +44,3 @@ $MadelineProto->start();
 $UrlAuthResult = $MadelineProto->messages->acceptUrlAuth(['write_allowed' => Bool, 'peer' => InputPeer, 'msg_id' => int, 'button_id' => int, 'url' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-UrlAuthResult = messages.acceptUrlAuth({write_allowed=Bool, peer=InputPeer, msg_id=int, button_id=int, url='string', })
-```
-

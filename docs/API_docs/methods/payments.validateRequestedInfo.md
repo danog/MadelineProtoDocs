@@ -43,12 +43,6 @@ $MadelineProto->start();
 $payments_ValidatedRequestedInfo = $MadelineProto->payments->validateRequestedInfo(['save' => Bool, 'peer' => InputPeer, 'msg_id' => int, 'info' => PaymentRequestedInfo, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-payments_ValidatedRequestedInfo = payments.validateRequestedInfo({save=Bool, peer=InputPeer, msg_id=int, info=PaymentRequestedInfo, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

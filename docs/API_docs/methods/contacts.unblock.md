@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->contacts->unblock(['id' => InputPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = contacts.unblock({id=InputPeer, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

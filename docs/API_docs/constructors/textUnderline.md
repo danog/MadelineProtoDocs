@@ -27,13 +27,3 @@ Underlined text
 ```php
 $textUnderline = ['_' => 'textUnderline', 'text' => RichText];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-textUnderline={_='textUnderline', text=RichText}
-
-```
-
-

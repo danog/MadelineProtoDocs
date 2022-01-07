@@ -22,13 +22,3 @@ Unsupported IV element
 ```php
 $pageBlockUnsupported = ['_' => 'pageBlockUnsupported'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockUnsupported={_='pageBlockUnsupported'}
-
-```
-
-

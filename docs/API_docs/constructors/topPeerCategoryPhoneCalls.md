@@ -22,13 +22,3 @@ Most frequently called users
 ```php
 $topPeerCategoryPhoneCalls = ['_' => 'topPeerCategoryPhoneCalls'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-topPeerCategoryPhoneCalls={_='topPeerCategoryPhoneCalls'}
-
-```
-
-

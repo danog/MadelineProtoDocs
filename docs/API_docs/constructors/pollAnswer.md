@@ -28,13 +28,3 @@ A possible answer of a poll
 ```php
 $pollAnswer = ['_' => 'pollAnswer', 'text' => 'string', 'option' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pollAnswer={_='pollAnswer', text='string', option='bytes'}
-
-```
-
-

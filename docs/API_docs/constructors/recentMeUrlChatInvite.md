@@ -28,13 +28,3 @@ Recent t.me invite link to a chat
 ```php
 $recentMeUrlChatInvite = ['_' => 'recentMeUrlChatInvite', 'url' => 'string', 'chat_invite' => ChatInvite];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-recentMeUrlChatInvite={_='recentMeUrlChatInvite', url='string', chat_invite=ChatInvite}
-
-```
-
-

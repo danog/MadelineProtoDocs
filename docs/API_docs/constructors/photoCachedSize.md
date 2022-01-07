@@ -30,13 +30,3 @@ Description of an image and its content.
 ```php
 $photoCachedSize = ['_' => 'photoCachedSize', 'type' => 'string', 'w' => int, 'h' => int, 'bytes' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-photoCachedSize={_='photoCachedSize', type='string', w=int, h=int, bytes='bytes'}
-
-```
-
-

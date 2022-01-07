@@ -28,13 +28,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $inputBotInlineMessageID64 = ['_' => 'inputBotInlineMessageID64', 'dc_id' => int, 'owner_id' => long, 'id' => int, 'access_hash' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputBotInlineMessageID64={_='inputBotInlineMessageID64', dc_id=int, owner_id=long, id=int, access_hash=long}
-
-```
-
-

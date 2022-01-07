@@ -22,13 +22,3 @@ Channel notification settings
 ```php
 $notifyBroadcasts = ['_' => 'notifyBroadcasts'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-notifyBroadcasts={_='notifyBroadcasts'}
-
-```
-
-

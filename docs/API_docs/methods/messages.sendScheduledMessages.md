@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->sendScheduledMessages(['peer' => InputPeer, 'id' => [int, int], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.sendScheduledMessages({peer=InputPeer, id={int}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

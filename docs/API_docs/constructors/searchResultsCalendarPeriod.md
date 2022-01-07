@@ -28,13 +28,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $searchResultsCalendarPeriod = ['_' => 'searchResultsCalendarPeriod', 'date' => int, 'min_msg_id' => int, 'max_msg_id' => int, 'count' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-searchResultsCalendarPeriod={_='searchResultsCalendarPeriod', date=int, min_msg_id=int, max_msg_id=int, count=int}
-
-```
-
-

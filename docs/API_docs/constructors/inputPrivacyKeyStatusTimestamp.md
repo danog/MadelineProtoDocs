@@ -22,13 +22,3 @@ Whether we can see the exact last online timestamp of the user
 ```php
 $inputPrivacyKeyStatusTimestamp = ['_' => 'inputPrivacyKeyStatusTimestamp'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPrivacyKeyStatusTimestamp={_='inputPrivacyKeyStatusTimestamp'}
-
-```
-
-

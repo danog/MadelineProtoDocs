@@ -43,9 +43,3 @@ $MadelineProto->start();
 $UrlAuthResult = $MadelineProto->messages->requestUrlAuth(['peer' => InputPeer, 'msg_id' => int, 'button_id' => int, 'url' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-UrlAuthResult = messages.requestUrlAuth({peer=InputPeer, msg_id=int, button_id=int, url='string', })
-```
-

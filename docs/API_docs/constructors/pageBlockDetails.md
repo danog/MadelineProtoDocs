@@ -29,13 +29,3 @@ A collapsible details block
 ```php
 $pageBlockDetails = ['_' => 'pageBlockDetails', 'open' => Bool, 'blocks' => [PageBlock, PageBlock], 'title' => RichText];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockDetails={_='pageBlockDetails', open=Bool, blocks={PageBlock}, title=RichText}
-
-```
-
-

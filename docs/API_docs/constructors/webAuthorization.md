@@ -35,13 +35,3 @@ Represents a bot logged in using the [Telegram login widget](https://core.telegr
 ```php
 $webAuthorization = ['_' => 'webAuthorization', 'hash' => long, 'bot_id' => long, 'domain' => 'string', 'browser' => 'string', 'platform' => 'string', 'date_created' => int, 'date_active' => int, 'ip' => 'string', 'region' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-webAuthorization={_='webAuthorization', hash=long, bot_id=long, domain='string', browser='string', platform='string', date_created=int, date_active=int, ip='string', region='string'}
-
-```
-
-

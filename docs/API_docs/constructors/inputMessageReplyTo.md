@@ -27,13 +27,3 @@ Message to which the specified message replies to
 ```php
 $inputMessageReplyTo = ['_' => 'inputMessageReplyTo', 'id' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMessageReplyTo={_='inputMessageReplyTo', id=int}
-
-```
-
-

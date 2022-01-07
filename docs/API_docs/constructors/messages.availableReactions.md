@@ -27,13 +27,3 @@ redirect_from: /API_docs/constructors/messages_availableReactions.html
 ```php
 $messages_availableReactions = ['_' => 'messages.availableReactions', 'hash' => int, 'reactions' => [AvailableReaction, AvailableReaction]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_availableReactions={_='messages.availableReactions', hash=int, reactions={AvailableReaction}}
-
-```
-
-

@@ -29,13 +29,3 @@ New photo to be set as group profile photo.
 ```php
 $inputChatUploadedPhoto = ['_' => 'inputChatUploadedPhoto', 'file' => InputFile, 'video' => InputFile, 'video_start_ts' => double];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputChatUploadedPhoto={_='inputChatUploadedPhoto', file=InputFile, video=InputFile, video_start_ts=double}
-
-```
-
-

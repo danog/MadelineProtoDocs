@@ -29,13 +29,3 @@ Defines a photo for further interaction.
 ```php
 $inputPhoto = ['_' => 'inputPhoto', 'id' => long, 'access_hash' => long, 'file_reference' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPhoto={_='inputPhoto', id=long, access_hash=long, file_reference='bytes'}
-
-```
-
-

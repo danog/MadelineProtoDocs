@@ -28,13 +28,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $statsDateRangeDays = ['_' => 'statsDateRangeDays', 'min_date' => int, 'max_date' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-statsDateRangeDays={_='statsDateRangeDays', min_date=int, max_date=int}
-
-```
-
-

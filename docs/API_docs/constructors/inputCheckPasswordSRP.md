@@ -29,13 +29,3 @@ Constructor for checking the validity of a 2FA SRP password (see [SRP](https://c
 ```php
 $inputCheckPasswordSRP = ['_' => 'inputCheckPasswordSRP', 'srp_id' => long, 'A' => 'bytes', 'M1' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputCheckPasswordSRP={_='inputCheckPasswordSRP', srp_id=long, A='bytes', M1='bytes'}
-
-```
-
-

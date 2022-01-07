@@ -25,13 +25,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $channelAdminLogEventActionToggleNoForwards = ['_' => 'channelAdminLogEventActionToggleNoForwards', 'new_value' => Bool];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionToggleNoForwards={_='channelAdminLogEventActionToggleNoForwards', new_value=Bool}
-
-```
-
-

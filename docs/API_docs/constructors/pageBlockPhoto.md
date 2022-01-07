@@ -30,13 +30,3 @@ A photo
 ```php
 $pageBlockPhoto = ['_' => 'pageBlockPhoto', 'photo_id' => long, 'caption' => PageCaption, 'url' => 'string', 'webpage_id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockPhoto={_='pageBlockPhoto', photo_id=long, caption=PageCaption, url='string', webpage_id=long}
-
-```
-
-

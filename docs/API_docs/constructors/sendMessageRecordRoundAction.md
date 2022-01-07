@@ -22,13 +22,3 @@ User is recording a round video to share
 ```php
 $sendMessageRecordRoundAction = ['_' => 'sendMessageRecordRoundAction'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-sendMessageRecordRoundAction={_='sendMessageRecordRoundAction'}
-
-```
-
-

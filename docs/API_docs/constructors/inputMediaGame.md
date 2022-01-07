@@ -27,13 +27,3 @@ A game
 ```php
 $inputMediaGame = ['_' => 'inputMediaGame', 'id' => InputGame];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMediaGame={_='inputMediaGame', id=InputGame}
-
-```
-
-

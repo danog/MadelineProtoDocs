@@ -28,13 +28,3 @@ Privacy rules were changed
 ```php
 $updatePrivacy = ['_' => 'updatePrivacy', 'key' => PrivacyKey, 'rules' => [PrivacyRule, PrivacyRule]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updatePrivacy={_='updatePrivacy', key=PrivacyKey, rules={PrivacyRule}}
-
-```
-
-

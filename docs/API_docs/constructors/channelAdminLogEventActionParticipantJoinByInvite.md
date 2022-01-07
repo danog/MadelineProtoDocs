@@ -25,13 +25,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $channelAdminLogEventActionParticipantJoinByInvite = ['_' => 'channelAdminLogEventActionParticipantJoinByInvite', 'invite' => ExportedChatInvite];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionParticipantJoinByInvite={_='channelAdminLogEventActionParticipantJoinByInvite', invite=ExportedChatInvite}
-
-```
-
-

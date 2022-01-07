@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->confirmPhone(['phone_code_hash' => 'string', 'phone_code' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.confirmPhone({phone_code_hash='string', phone_code='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

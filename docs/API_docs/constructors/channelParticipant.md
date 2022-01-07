@@ -28,13 +28,3 @@ Channel/supergroup participant
 ```php
 $channelParticipant = ['_' => 'channelParticipant', 'user_id' => long, 'date' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelParticipant={_='channelParticipant', user_id=long, date=int}
-
-```
-
-

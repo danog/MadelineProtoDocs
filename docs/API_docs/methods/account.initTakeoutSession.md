@@ -46,12 +46,6 @@ $MadelineProto->start();
 $account_Takeout = $MadelineProto->account->initTakeoutSession(['contacts' => Bool, 'message_users' => Bool, 'message_chats' => Bool, 'message_megagroups' => Bool, 'message_channels' => Bool, 'files' => Bool, 'file_max_size' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-account_Takeout = account.initTakeoutSession({contacts=Bool, message_users=Bool, message_chats=Bool, message_megagroups=Bool, message_channels=Bool, files=Bool, file_max_size=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

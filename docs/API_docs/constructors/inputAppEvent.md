@@ -30,13 +30,3 @@ Event that occured in the application.
 ```php
 $inputAppEvent = ['_' => 'inputAppEvent', 'time' => double, 'type' => 'string', 'peer' => long, 'data' => JSONValue];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputAppEvent={_='inputAppEvent', time=double, type='string', peer=long, data=JSONValue}
-
-```
-
-

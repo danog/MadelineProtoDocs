@@ -27,13 +27,3 @@ Button to request a user's geolocation
 ```php
 $keyboardButtonRequestGeoLocation = ['_' => 'keyboardButtonRequestGeoLocation', 'text' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-keyboardButtonRequestGeoLocation={_='keyboardButtonRequestGeoLocation', text='string'}
-
-```
-
-

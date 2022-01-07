@@ -42,9 +42,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->saveAutoDownloadSettings(['low' => Bool, 'high' => Bool, 'settings' => AutoDownloadSettings, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.saveAutoDownloadSettings({low=Bool, high=Bool, settings=AutoDownloadSettings, })
-```
-

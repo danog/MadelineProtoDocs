@@ -42,9 +42,3 @@ $MadelineProto->start();
 $messages_FoundStickerSets = $MadelineProto->messages->searchStickerSets(['exclude_featured' => Bool, 'q' => 'string', 'hash' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_FoundStickerSets = messages.searchStickerSets({exclude_featured=Bool, q='string', hash=long, })
-```
-

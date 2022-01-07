@@ -22,13 +22,3 @@ The entire message history has been deleted.
 ```php
 $decryptedMessageActionFlushHistory_8 = ['_' => 'decryptedMessageActionFlushHistory'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-decryptedMessageActionFlushHistory_8={_='decryptedMessageActionFlushHistory'}
-
-```
-
-

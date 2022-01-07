@@ -27,13 +27,3 @@ Sent message with **random\_id** client identifier was assigned an identifier.
 ```php
 $updateMessageID = ['_' => 'updateMessageID', 'id' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateMessageID={_='updateMessageID', id=int}
-
-```
-
-

@@ -28,13 +28,3 @@ Contact status: online / offline.
 ```php
 $contactStatus = ['_' => 'contactStatus', 'user_id' => long, 'status' => UserStatus];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-contactStatus={_='contactStatus', user_id=long, status=UserStatus}
-
-```
-
-

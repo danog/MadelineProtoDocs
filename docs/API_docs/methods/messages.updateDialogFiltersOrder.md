@@ -40,9 +40,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->updateDialogFiltersOrder(['order' => [int, int], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.updateDialogFiltersOrder({order={int}, })
-```
-

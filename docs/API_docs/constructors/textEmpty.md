@@ -22,13 +22,3 @@ Empty rich text element
 ```php
 $textEmpty = ['_' => 'textEmpty'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-textEmpty={_='textEmpty'}
-
-```
-
-

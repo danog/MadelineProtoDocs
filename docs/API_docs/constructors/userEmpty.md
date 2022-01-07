@@ -27,13 +27,3 @@ Empty constructor, non-existent user.
 ```php
 $userEmpty = ['_' => 'userEmpty', 'id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-userEmpty={_='userEmpty', id=long}
-
-```
-
-

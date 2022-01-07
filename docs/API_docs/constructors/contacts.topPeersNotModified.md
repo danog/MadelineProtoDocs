@@ -23,13 +23,3 @@ Top peer info hasn't changed
 ```php
 $contacts_topPeersNotModified = ['_' => 'contacts.topPeersNotModified'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-contacts_topPeersNotModified={_='contacts.topPeersNotModified'}
-
-```
-
-

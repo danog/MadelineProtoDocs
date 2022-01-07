@@ -27,13 +27,3 @@ Button to request a user's phone number
 ```php
 $keyboardButtonRequestPhone = ['_' => 'keyboardButtonRequestPhone', 'text' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-keyboardButtonRequestPhone={_='keyboardButtonRequestPhone', text='string'}
-
-```
-
-

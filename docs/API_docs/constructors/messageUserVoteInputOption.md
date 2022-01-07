@@ -28,13 +28,3 @@ How a user voted in a poll (reduced constructor, returned if an `option` was pro
 ```php
 $messageUserVoteInputOption = ['_' => 'messageUserVoteInputOption', 'user_id' => long, 'date' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageUserVoteInputOption={_='messageUserVoteInputOption', user_id=long, date=int}
-
-```
-
-

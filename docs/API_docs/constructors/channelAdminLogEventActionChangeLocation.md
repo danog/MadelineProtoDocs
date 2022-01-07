@@ -28,13 +28,3 @@ The geogroup location was changed
 ```php
 $channelAdminLogEventActionChangeLocation = ['_' => 'channelAdminLogEventActionChangeLocation', 'prev_value' => ChannelLocation, 'new_value' => ChannelLocation];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionChangeLocation={_='channelAdminLogEventActionChangeLocation', prev_value=ChannelLocation, new_value=ChannelLocation}
-
-```
-
-

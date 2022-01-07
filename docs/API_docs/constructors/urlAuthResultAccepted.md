@@ -27,13 +27,3 @@ Details about an accepted authorization request, for more info [click here »](h
 ```php
 $urlAuthResultAccepted = ['_' => 'urlAuthResultAccepted', 'url' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-urlAuthResultAccepted={_='urlAuthResultAccepted', url='string'}
-
-```
-
-

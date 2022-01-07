@@ -23,13 +23,3 @@ Part of a bigger file.
 ```php
 $storage_filePartial = ['_' => 'storage.filePartial'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-storage_filePartial={_='storage.filePartial'}
-
-```
-
-

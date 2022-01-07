@@ -28,13 +28,3 @@ Page caption
 ```php
 $pageCaption = ['_' => 'pageCaption', 'text' => RichText, 'credit' => RichText];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageCaption={_='pageCaption', text=RichText, credit=RichText}
-
-```
-
-

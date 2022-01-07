@@ -40,9 +40,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->clearRecentStickers(['attached' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.clearRecentStickers({attached=Bool, })
-```
-

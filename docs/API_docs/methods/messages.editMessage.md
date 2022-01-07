@@ -48,12 +48,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->editMessage(['no_webpage' => Bool, 'peer' => InputPeer, 'id' => int, 'message' => 'string', 'media' => InputMedia, 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', 'schedule_date' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.editMessage({no_webpage=Bool, peer=InputPeer, id=int, message='string', media=InputMedia, reply_markup=ReplyMarkup, entities={MessageEntity}, parseMode='string', schedule_date=int, })
-```
-
 
 ## Usage of reply_markup
 

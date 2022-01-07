@@ -34,13 +34,3 @@ Autodownload settings
 ```php
 $autoDownloadSettings = ['_' => 'autoDownloadSettings', 'disabled' => Bool, 'video_preload_large' => Bool, 'audio_preload_next' => Bool, 'phonecalls_less_data' => Bool, 'photo_size_max' => int, 'video_size_max' => int, 'file_size_max' => int, 'video_upload_maxbitrate' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-autoDownloadSettings={_='autoDownloadSettings', disabled=Bool, video_preload_large=Bool, audio_preload_next=Bool, phonecalls_less_data=Bool, photo_size_max=int, video_size_max=int, file_size_max=int, video_upload_maxbitrate=int}
-
-```
-
-

@@ -29,13 +29,3 @@ Photo
 ```php
 $inputMediaUploadedPhoto = ['_' => 'inputMediaUploadedPhoto', 'file' => InputFile, 'stickers' => [InputDocument, InputDocument], 'ttl_seconds' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMediaUploadedPhoto={_='inputMediaUploadedPhoto', file=InputFile, stickers={InputDocument}, ttl_seconds=int}
-
-```
-
-

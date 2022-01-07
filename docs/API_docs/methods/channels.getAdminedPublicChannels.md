@@ -41,9 +41,3 @@ $MadelineProto->start();
 $messages_Chats = $MadelineProto->channels->getAdminedPublicChannels(['by_location' => Bool, 'check_limit' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_Chats = channels.getAdminedPublicChannels({by_location=Bool, check_limit=Bool, })
-```
-

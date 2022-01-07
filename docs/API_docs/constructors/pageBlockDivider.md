@@ -22,13 +22,3 @@ An empty block separating a page
 ```php
 $pageBlockDivider = ['_' => 'pageBlockDivider'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockDivider={_='pageBlockDivider'}
-
-```
-
-

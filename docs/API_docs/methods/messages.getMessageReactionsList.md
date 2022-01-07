@@ -44,9 +44,3 @@ $MadelineProto->start();
 $messages_MessageReactionsList = $MadelineProto->messages->getMessageReactionsList(['peer' => InputPeer, 'id' => int, 'reaction' => 'string', 'offset' => 'string', 'limit' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_MessageReactionsList = messages.getMessageReactionsList({peer=InputPeer, id=int, reaction='string', offset='string', limit=int, })
-```
-

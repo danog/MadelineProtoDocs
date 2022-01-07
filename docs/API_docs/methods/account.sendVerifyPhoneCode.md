@@ -41,12 +41,6 @@ $MadelineProto->start();
 $auth_SentCode = $MadelineProto->account->sendVerifyPhoneCode(['phone_number' => 'string', 'settings' => CodeSettings, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-auth_SentCode = account.sendVerifyPhoneCode({phone_number='string', settings=CodeSettings, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

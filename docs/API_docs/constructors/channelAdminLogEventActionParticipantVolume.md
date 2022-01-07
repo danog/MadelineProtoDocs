@@ -25,13 +25,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $channelAdminLogEventActionParticipantVolume = ['_' => 'channelAdminLogEventActionParticipantVolume', 'participant' => GroupCallParticipant];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionParticipantVolume={_='channelAdminLogEventActionParticipantVolume', participant=GroupCallParticipant}
-
-```
-
-

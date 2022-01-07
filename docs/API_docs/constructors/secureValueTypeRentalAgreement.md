@@ -22,13 +22,3 @@ Rental agreement
 ```php
 $secureValueTypeRentalAgreement = ['_' => 'secureValueTypeRentalAgreement'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureValueTypeRentalAgreement={_='secureValueTypeRentalAgreement'}
-
-```
-
-

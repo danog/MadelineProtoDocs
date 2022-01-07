@@ -42,12 +42,6 @@ $MadelineProto->start();
 $contacts_ImportedContacts = $MadelineProto->contacts->importContacts(['contacts' => [InputContact, InputContact], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-contacts_ImportedContacts = contacts.importContacts({contacts={InputContact}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

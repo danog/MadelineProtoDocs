@@ -30,13 +30,3 @@ Indicates a [live geolocation](https://core.telegram.org/api/live-location)
 ```php
 $messageMediaGeoLive = ['_' => 'messageMediaGeoLive', 'geo' => GeoPoint, 'heading' => int, 'period' => int, 'proximity_notification_radius' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageMediaGeoLive={_='messageMediaGeoLive', geo=GeoPoint, heading=int, period=int, proximity_notification_radius=int}
-
-```
-
-

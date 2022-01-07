@@ -29,13 +29,3 @@ Represents a sent inline message from the perspective of a bot
 ```php
 $inputBotInlineMessageID = ['_' => 'inputBotInlineMessageID', 'dc_id' => int, 'id' => long, 'access_hash' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputBotInlineMessageID={_='inputBotInlineMessageID', dc_id=int, id=long, access_hash=long}
-
-```
-
-

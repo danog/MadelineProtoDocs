@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->reportEncryptedSpam(['peer' => InputEncryptedChat, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.reportEncryptedSpam({peer=InputEncryptedChat, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

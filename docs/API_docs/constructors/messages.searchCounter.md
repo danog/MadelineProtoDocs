@@ -30,13 +30,3 @@ Indicates how many results would be found by a [messages.search](../methods/mess
 ```php
 $messages_searchCounter = ['_' => 'messages.searchCounter', 'inexact' => Bool, 'filter' => MessagesFilter, 'count' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_searchCounter={_='messages.searchCounter', inexact=Bool, filter=MessagesFilter, count=int}
-
-```
-
-

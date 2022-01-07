@@ -29,13 +29,3 @@ New message in a private chat or in a [legacy group](https://core.telegram.org/a
 ```php
 $updateNewMessage = ['_' => 'updateNewMessage', 'message' => Message, 'pts' => int, 'pts_count' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateNewMessage={_='updateNewMessage', message=Message, pts=int, pts_count=int}
-
-```
-
-

@@ -22,13 +22,3 @@ The recent sticker list was updated
 ```php
 $updateRecentStickers = ['_' => 'updateRecentStickers'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateRecentStickers={_='updateRecentStickers'}
-
-```
-
-

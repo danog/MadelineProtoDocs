@@ -27,13 +27,3 @@ Invites were enabled/disabled
 ```php
 $channelAdminLogEventActionToggleInvites = ['_' => 'channelAdminLogEventActionToggleInvites', 'new_value' => Bool];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionToggleInvites={_='channelAdminLogEventActionToggleInvites', new_value=Bool}
-
-```
-
-

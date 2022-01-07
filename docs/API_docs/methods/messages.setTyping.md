@@ -42,12 +42,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->setTyping(['peer' => InputPeer, 'top_msg_id' => int, 'action' => SendMessageAction, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.setTyping({peer=InputPeer, top_msg_id=int, action=SendMessageAction, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

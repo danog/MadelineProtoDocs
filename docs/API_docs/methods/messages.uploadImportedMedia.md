@@ -41,9 +41,3 @@ $MadelineProto->start();
 $MessageMedia = $MadelineProto->messages->uploadImportedMedia(['peer' => InputPeer, 'import_id' => long, 'file_name' => 'string', 'media' => InputMedia, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-MessageMedia = messages.uploadImportedMedia({peer=InputPeer, import_id=long, file_name='string', media=InputMedia, })
-```
-

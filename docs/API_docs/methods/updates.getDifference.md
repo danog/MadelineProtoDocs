@@ -43,12 +43,6 @@ $MadelineProto->start();
 $updates_Difference = $MadelineProto->updates->getDifference(['pts' => int, 'pts_total_limit' => int, 'date' => int, 'qts' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-updates_Difference = updates.getDifference({pts=int, pts_total_limit=int, date=int, qts=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

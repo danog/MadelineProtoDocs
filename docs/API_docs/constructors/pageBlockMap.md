@@ -31,13 +31,3 @@ A map
 ```php
 $pageBlockMap = ['_' => 'pageBlockMap', 'geo' => GeoPoint, 'zoom' => int, 'w' => int, 'h' => int, 'caption' => PageCaption];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockMap={_='pageBlockMap', geo=GeoPoint, zoom=int, w=int, h=int, caption=PageCaption}
-
-```
-
-

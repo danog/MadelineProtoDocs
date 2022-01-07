@@ -30,13 +30,3 @@ A specific user has voted in a poll
 ```php
 $updateMessagePollVote = ['_' => 'updateMessagePollVote', 'poll_id' => long, 'user_id' => long, 'options' => ['bytes', 'bytes'], 'qts' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateMessagePollVote={_='updateMessagePollVote', poll_id=long, user_id=long, options={'bytes'}, qts=int}
-
-```
-
-

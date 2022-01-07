@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->bots->answerWebhookJSONQuery(['query_id' => long, 'data' => DataJSON, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = bots.answerWebhookJSONQuery({query_id=long, data=DataJSON, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

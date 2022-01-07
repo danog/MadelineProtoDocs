@@ -38,9 +38,3 @@ $MadelineProto->start();
 $messages_AvailableReactions = $MadelineProto->messages->getAvailableReactions(['hash' => [int, int], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_AvailableReactions = messages.getAvailableReactions({hash={int}, })
-```
-

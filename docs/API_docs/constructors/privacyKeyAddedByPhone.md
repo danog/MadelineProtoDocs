@@ -22,13 +22,3 @@ Whether people can add you to their contact list by your phone number
 ```php
 $privacyKeyAddedByPhone = ['_' => 'privacyKeyAddedByPhone'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-privacyKeyAddedByPhone={_='privacyKeyAddedByPhone'}
-
-```
-
-

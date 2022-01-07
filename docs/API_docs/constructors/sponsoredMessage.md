@@ -31,13 +31,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $sponsoredMessage = ['_' => 'sponsoredMessage', 'from_id' => Peer, 'chat_invite' => ChatInvite, 'chat_invite_hash' => 'string', 'channel_post' => int, 'start_param' => 'string', 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-sponsoredMessage={_='sponsoredMessage', from_id=Peer, chat_invite=ChatInvite, chat_invite_hash='string', channel_post=int, start_param='string', message='string', entities={MessageEntity}}
-
-```
-
-

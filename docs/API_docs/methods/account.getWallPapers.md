@@ -40,9 +40,3 @@ $MadelineProto->start();
 $account_WallPapers = $MadelineProto->account->getWallPapers(['hash' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-account_WallPapers = account.getWallPapers({hash=long, })
-```
-

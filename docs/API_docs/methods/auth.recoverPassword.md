@@ -41,12 +41,6 @@ $MadelineProto->start();
 $auth_Authorization = $MadelineProto->auth->recoverPassword(['code' => 'string', 'new_settings' => account.PasswordInputSettings, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-auth_Authorization = auth.recoverPassword({code='string', new_settings=account.PasswordInputSettings, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

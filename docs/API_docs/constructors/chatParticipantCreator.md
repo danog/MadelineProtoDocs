@@ -27,13 +27,3 @@ Represents the creator of the group
 ```php
 $chatParticipantCreator = ['_' => 'chatParticipantCreator', 'user_id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-chatParticipantCreator={_='chatParticipantCreator', user_id=long}
-
-```
-
-

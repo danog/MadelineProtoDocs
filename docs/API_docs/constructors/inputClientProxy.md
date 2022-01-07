@@ -28,13 +28,3 @@ Info about an [MTProxy](https://core.telegram.org/mtproto/mtproto-transports#tra
 ```php
 $inputClientProxy = ['_' => 'inputClientProxy', 'address' => 'string', 'port' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputClientProxy={_='inputClientProxy', address='string', port=int}
-
-```
-
-

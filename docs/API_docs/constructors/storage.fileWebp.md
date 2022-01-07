@@ -23,13 +23,3 @@ WEBP image. MIME type: `image/webp`.
 ```php
 $storage_fileWebp = ['_' => 'storage.fileWebp'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-storage_fileWebp={_='storage.fileWebp'}
-
-```
-
-

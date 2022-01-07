@@ -28,13 +28,3 @@ JSON key: value pair
 ```php
 $jsonObjectValue = ['_' => 'jsonObjectValue', 'key' => 'string', 'value' => JSONValue];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-jsonObjectValue={_='jsonObjectValue', key='string', value=JSONValue}
-
-```
-
-

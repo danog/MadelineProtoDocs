@@ -22,13 +22,3 @@ Whether the user can be invited to chats
 ```php
 $inputPrivacyKeyChatInvite = ['_' => 'inputPrivacyKeyChatInvite'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPrivacyKeyChatInvite={_='inputPrivacyKeyChatInvite'}
-
-```
-
-

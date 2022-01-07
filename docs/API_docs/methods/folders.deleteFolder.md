@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->folders->deleteFolder(['folder_id' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = folders.deleteFolder({folder_id=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

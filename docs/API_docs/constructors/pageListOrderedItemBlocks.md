@@ -28,13 +28,3 @@ Ordered list of [IV](https://instantview.telegram.org) blocks
 ```php
 $pageListOrderedItemBlocks = ['_' => 'pageListOrderedItemBlocks', 'num' => 'string', 'blocks' => [PageBlock, PageBlock]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageListOrderedItemBlocks={_='pageListOrderedItemBlocks', num='string', blocks={PageBlock}}
-
-```
-
-

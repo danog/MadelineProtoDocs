@@ -32,13 +32,3 @@ Constructor for a group of updates.
 ```php
 $updatesCombined = ['_' => 'updatesCombined', 'updates' => [Update, Update], 'users' => [User, User], 'chats' => [Chat, Chat], 'date' => int, 'seq_start' => int, 'seq' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updatesCombined={_='updatesCombined', updates={Update}, users={User}, chats={Chat}, date=int, seq_start=int, seq=int}
-
-```
-
-

@@ -35,9 +35,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->clearAllDrafts();
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.clearAllDrafts({})
-```
-

@@ -28,13 +28,3 @@ A button that allows the user to create and send a poll when pressed; available 
 ```php
 $keyboardButtonRequestPoll = ['_' => 'keyboardButtonRequestPoll', 'quiz' => Bool, 'text' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-keyboardButtonRequestPoll={_='keyboardButtonRequestPoll', quiz=Bool, text='string'}
-
-```
-
-

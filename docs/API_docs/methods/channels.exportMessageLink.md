@@ -43,12 +43,6 @@ $MadelineProto->start();
 $ExportedMessageLink = $MadelineProto->channels->exportMessageLink(['grouped' => Bool, 'thread' => Bool, 'channel' => InputChannel, 'id' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-ExportedMessageLink = channels.exportMessageLink({grouped=Bool, thread=Bool, channel=InputChannel, id=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

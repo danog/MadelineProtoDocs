@@ -28,13 +28,3 @@ Message statistics
 ```php
 $stats_messageStats = ['_' => 'stats.messageStats', 'views_graph' => StatsGraph];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-stats_messageStats={_='stats.messageStats', views_graph=StatsGraph}
-
-```
-
-

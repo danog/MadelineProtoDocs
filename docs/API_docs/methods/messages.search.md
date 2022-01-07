@@ -52,12 +52,6 @@ $MadelineProto->start();
 $messages_Messages = $MadelineProto->messages->search(['peer' => InputPeer, 'q' => 'string', 'from_id' => InputPeer, 'top_msg_id' => int, 'filter' => MessagesFilter, 'min_date' => int, 'max_date' => int, 'offset_id' => int, 'add_offset' => int, 'limit' => int, 'max_id' => int, 'min_id' => int, 'hash' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_Messages = messages.search({peer=InputPeer, q='string', from_id=InputPeer, top_msg_id=int, filter=MessagesFilter, min_date=int, max_date=int, offset_id=int, add_offset=int, limit=int, max_id=int, min_id=int, hash=long, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

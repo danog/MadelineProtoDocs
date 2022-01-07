@@ -29,13 +29,3 @@ Info about all installed stickers
 ```php
 $messages_allStickers = ['_' => 'messages.allStickers', 'hash' => long, 'sets' => [StickerSet, StickerSet]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_allStickers={_='messages.allStickers', hash=long, sets={StickerSet}}
-
-```
-
-

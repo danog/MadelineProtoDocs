@@ -40,9 +40,3 @@ $MadelineProto->start();
 $messages_FavedStickers = $MadelineProto->messages->getFavedStickers(['hash' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_FavedStickers = messages.getFavedStickers({hash=long, })
-```
-

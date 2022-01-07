@@ -28,13 +28,3 @@ Forwarded photo
 ```php
 $inputMediaPhoto = ['_' => 'inputMediaPhoto', 'id' => InputPhoto, 'ttl_seconds' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMediaPhoto={_='inputMediaPhoto', id=InputPhoto, ttl_seconds=int}
-
-```
-
-

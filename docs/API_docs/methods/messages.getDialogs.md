@@ -46,12 +46,6 @@ $MadelineProto->start();
 $messages_Dialogs = $MadelineProto->messages->getDialogs(['exclude_pinned' => Bool, 'folder_id' => int, 'offset_date' => int, 'offset_id' => int, 'offset_peer' => InputPeer, 'limit' => int, 'hash' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_Dialogs = messages.getDialogs({exclude_pinned=Bool, folder_id=int, offset_date=int, offset_id=int, offset_peer=InputPeer, limit=int, hash=long, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -28,13 +28,3 @@ Message entity representing a phone number.
 ```php
 $messageEntityPhone = ['_' => 'messageEntityPhone', 'offset' => int, 'length' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageEntityPhone={_='messageEntityPhone', offset=int, length=int}
-
-```
-
-

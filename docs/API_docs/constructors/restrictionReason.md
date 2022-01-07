@@ -31,13 +31,3 @@ Contains the reason why access to a certain object must be restricted. Clients a
 ```php
 $restrictionReason = ['_' => 'restrictionReason', 'platform' => 'string', 'reason' => 'string', 'text' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-restrictionReason={_='restrictionReason', platform='string', reason='string', text='string'}
-
-```
-
-

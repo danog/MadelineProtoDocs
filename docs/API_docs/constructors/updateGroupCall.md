@@ -26,13 +26,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $updateGroupCall = ['_' => 'updateGroupCall', 'chat_id' => long, 'call' => GroupCall];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateGroupCall={_='updateGroupCall', chat_id=long, call=GroupCall}
-
-```
-
-

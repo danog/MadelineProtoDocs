@@ -28,13 +28,3 @@ Filter for getting only certain types of channel messages
 ```php
 $channelMessagesFilter = ['_' => 'channelMessagesFilter', 'exclude_new_messages' => Bool, 'ranges' => [MessageRange, MessageRange]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelMessagesFilter={_='channelMessagesFilter', exclude_new_messages=Bool, ranges={MessageRange}}
-
-```
-
-

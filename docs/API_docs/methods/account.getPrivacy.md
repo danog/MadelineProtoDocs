@@ -40,12 +40,6 @@ $MadelineProto->start();
 $account_PrivacyRules = $MadelineProto->account->getPrivacy(['key' => InputPrivacyKey, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-account_PrivacyRules = account.getPrivacy({key=InputPrivacyKey, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

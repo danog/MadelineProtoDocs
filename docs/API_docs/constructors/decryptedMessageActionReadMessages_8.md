@@ -27,13 +27,3 @@ Messages marked as read.
 ```php
 $decryptedMessageActionReadMessages_8 = ['_' => 'decryptedMessageActionReadMessages', 'random_ids' => [long, long]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-decryptedMessageActionReadMessages_8={_='decryptedMessageActionReadMessages', random_ids={long}}
-
-```
-
-

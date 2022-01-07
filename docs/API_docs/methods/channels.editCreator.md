@@ -42,12 +42,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->channels->editCreator(['channel' => InputChannel, 'user_id' => InputUser, 'password' => InputCheckPasswordSRP, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = channels.editCreator({channel=InputChannel, user_id=InputUser, password=InputCheckPasswordSRP, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

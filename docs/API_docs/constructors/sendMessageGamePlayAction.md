@@ -22,13 +22,3 @@ User is playing a game
 ```php
 $sendMessageGamePlayAction = ['_' => 'sendMessageGamePlayAction'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-sendMessageGamePlayAction={_='sendMessageGamePlayAction'}
-
-```
-
-

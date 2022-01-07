@@ -28,13 +28,3 @@ Describes a bot command that can be used in a chat
 ```php
 $botCommand = ['_' => 'botCommand', 'command' => 'string', 'description' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-botCommand={_='botCommand', command='string', description='string'}
-
-```
-
-

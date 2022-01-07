@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Vector_of_FileHash = $MadelineProto->upload->reuploadCdnFile(['file_token' => 'bytes', 'request_token' => 'bytes', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Vector_of_FileHash = upload.reuploadCdnFile({file_token='bytes', request_token='bytes', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

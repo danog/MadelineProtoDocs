@@ -41,9 +41,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->deleteScheduledMessages(['peer' => InputPeer, 'id' => [int, int], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.deleteScheduledMessages({peer=InputPeer, id={int}, })
-```
-

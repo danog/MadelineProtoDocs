@@ -28,13 +28,3 @@ Unknown message entity
 ```php
 $messageEntityUnknown = ['_' => 'messageEntityUnknown', 'offset' => int, 'length' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageEntityUnknown={_='messageEntityUnknown', offset=int, length=int}
-
-```
-
-

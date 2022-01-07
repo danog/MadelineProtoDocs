@@ -22,13 +22,3 @@ Most used inline bots
 ```php
 $topPeerCategoryBotsInline = ['_' => 'topPeerCategoryBotsInline'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-topPeerCategoryBotsInline={_='topPeerCategoryBotsInline'}
-
-```
-
-

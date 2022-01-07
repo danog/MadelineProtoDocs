@@ -22,13 +22,3 @@ Other
 ```php
 $inputReportReasonOther = ['_' => 'inputReportReasonOther'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputReportReasonOther={_='inputReportReasonOther'}
-
-```
-
-

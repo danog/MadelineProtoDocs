@@ -22,13 +22,3 @@ Internal registration [passport](https://core.telegram.org/passport)
 ```php
 $secureValueTypePassportRegistration = ['_' => 'secureValueTypePassportRegistration'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureValueTypePassportRegistration={_='secureValueTypePassportRegistration'}
-
-```
-
-

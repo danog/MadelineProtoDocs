@@ -22,13 +22,3 @@ Empty media content of a message.
 ```php
 $inputMediaEmpty = ['_' => 'inputMediaEmpty'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMediaEmpty={_='inputMediaEmpty'}
-
-```
-
-

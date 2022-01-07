@@ -27,13 +27,3 @@ A participant that left the channel/supergroup
 ```php
 $channelParticipantLeft = ['_' => 'channelParticipantLeft', 'peer' => Peer];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelParticipantLeft={_='channelParticipantLeft', peer=Peer}
-
-```
-
-

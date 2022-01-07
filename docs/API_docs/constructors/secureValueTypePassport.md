@@ -22,13 +22,3 @@ Passport
 ```php
 $secureValueTypePassport = ['_' => 'secureValueTypePassport'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureValueTypePassport={_='secureValueTypePassport'}
-
-```
-
-

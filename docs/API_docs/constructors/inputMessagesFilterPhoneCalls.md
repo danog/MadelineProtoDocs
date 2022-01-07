@@ -27,13 +27,3 @@ Return only phone calls
 ```php
 $inputMessagesFilterPhoneCalls = ['_' => 'inputMessagesFilterPhoneCalls', 'missed' => Bool];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMessagesFilterPhoneCalls={_='inputMessagesFilterPhoneCalls', missed=Bool}
-
-```
-
-

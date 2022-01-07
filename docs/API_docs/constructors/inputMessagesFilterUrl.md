@@ -22,13 +22,3 @@ Return only messages containing URLs
 ```php
 $inputMessagesFilterUrl = ['_' => 'inputMessagesFilterUrl'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMessagesFilterUrl={_='inputMessagesFilterUrl'}
-
-```
-
-

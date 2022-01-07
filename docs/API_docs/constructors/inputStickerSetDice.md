@@ -27,13 +27,3 @@ Used for fetching [animated dice stickers](https://core.telegram.org/api/dice)
 ```php
 $inputStickerSetDice = ['_' => 'inputStickerSetDice', 'emoticon' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputStickerSetDice={_='inputStickerSetDice', emoticon='string'}
-
-```
-
-

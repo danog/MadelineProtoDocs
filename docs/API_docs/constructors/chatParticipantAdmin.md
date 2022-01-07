@@ -29,13 +29,3 @@ Chat admin
 ```php
 $chatParticipantAdmin = ['_' => 'chatParticipantAdmin', 'user_id' => long, 'inviter_id' => long, 'date' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-chatParticipantAdmin={_='chatParticipantAdmin', user_id=long, inviter_id=long, date=int}
-
-```
-
-

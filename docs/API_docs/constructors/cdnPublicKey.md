@@ -28,13 +28,3 @@ Public key to use **only** during handshakes to [CDN](https://core.telegram.org/
 ```php
 $cdnPublicKey = ['_' => 'cdnPublicKey', 'dc_id' => int, 'public_key' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-cdnPublicKey={_='cdnPublicKey', dc_id=int, public_key='string'}
-
-```
-
-

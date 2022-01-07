@@ -31,13 +31,3 @@ Banned/kicked user
 ```php
 $channelParticipantBanned = ['_' => 'channelParticipantBanned', 'left' => Bool, 'peer' => Peer, 'kicked_by' => long, 'date' => int, 'banned_rights' => ChatBannedRights];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelParticipantBanned={_='channelParticipantBanned', left=Bool, peer=Peer, kicked_by=long, date=int, banned_rights=ChatBannedRights}
-
-```
-
-

@@ -42,12 +42,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->deleteChatUser(['revoke_history' => Bool, 'chat_id' => InputPeer, 'user_id' => InputUser, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.deleteChatUser({revoke_history=Bool, chat_id=InputPeer, user_id=InputUser, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

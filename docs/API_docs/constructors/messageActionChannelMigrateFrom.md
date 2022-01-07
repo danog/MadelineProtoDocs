@@ -28,13 +28,3 @@ Indicates the channel was [migrated](https://core.telegram.org/api/channel) from
 ```php
 $messageActionChannelMigrateFrom = ['_' => 'messageActionChannelMigrateFrom', 'title' => 'string', 'chat_id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionChannelMigrateFrom={_='messageActionChannelMigrateFrom', title='string', chat_id=long}
-
-```
-
-

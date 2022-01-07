@@ -40,9 +40,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->help->hidePromoData(['peer' => InputPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = help.hidePromoData({peer=InputPeer, })
-```
-

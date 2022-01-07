@@ -28,13 +28,3 @@ Localized name for telegram support
 ```php
 $help_supportName = ['_' => 'help.supportName', 'name' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-help_supportName={_='help.supportName', name='string'}
-
-```
-
-

@@ -43,12 +43,6 @@ $MadelineProto->start();
 $Theme = $MadelineProto->account->createTheme(['slug' => 'string', 'title' => 'string', 'document' => InputDocument, 'settings' => [InputThemeSettings, InputThemeSettings], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Theme = account.createTheme({slug='string', title='string', document=InputDocument, settings={InputThemeSettings}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

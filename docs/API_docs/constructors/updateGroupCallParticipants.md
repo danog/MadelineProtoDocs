@@ -27,13 +27,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $updateGroupCallParticipants = ['_' => 'updateGroupCallParticipants', 'call' => InputGroupCall, 'participants' => [GroupCallParticipant, GroupCallParticipant], 'version' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateGroupCallParticipants={_='updateGroupCallParticipants', call=InputGroupCall, participants={GroupCallParticipant}, version=int}
-
-```
-
-

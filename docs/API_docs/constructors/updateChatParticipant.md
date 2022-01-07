@@ -32,13 +32,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $updateChatParticipant = ['_' => 'updateChatParticipant', 'chat_id' => long, 'date' => int, 'actor_id' => long, 'user_id' => long, 'prev_participant' => ChatParticipant, 'new_participant' => ChatParticipant, 'invite' => ExportedChatInvite, 'qts' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateChatParticipant={_='updateChatParticipant', chat_id=long, date=int, actor_id=long, user_id=long, prev_participant=ChatParticipant, new_participant=ChatParticipant, invite=ExportedChatInvite, qts=int}
-
-```
-
-

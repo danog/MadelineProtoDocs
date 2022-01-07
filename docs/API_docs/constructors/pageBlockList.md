@@ -27,13 +27,3 @@ Unordered list of IV blocks
 ```php
 $pageBlockList = ['_' => 'pageBlockList', 'items' => [PageListItem, PageListItem]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockList={_='pageBlockList', items={PageListItem}}
-
-```
-
-

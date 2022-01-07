@@ -27,13 +27,3 @@ A cloud theme was updated
 ```php
 $updateTheme = ['_' => 'updateTheme', 'theme' => Theme];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateTheme={_='updateTheme', theme=Theme}
-
-```
-
-

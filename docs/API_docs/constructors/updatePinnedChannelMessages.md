@@ -31,13 +31,3 @@ Messages were pinned/unpinned in a [channel/supergroup](https://core.telegram.or
 ```php
 $updatePinnedChannelMessages = ['_' => 'updatePinnedChannelMessages', 'pinned' => Bool, 'channel_id' => long, 'messages' => [int, int], 'pts' => int, 'pts_count' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updatePinnedChannelMessages={_='updatePinnedChannelMessages', pinned=Bool, channel_id=long, messages={int}, pts=int, pts_count=int}
-
-```
-
-

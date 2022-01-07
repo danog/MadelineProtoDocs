@@ -28,13 +28,3 @@ Dialogs haven't changed
 ```php
 $messages_dialogsNotModified = ['_' => 'messages.dialogsNotModified', 'count' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_dialogsNotModified={_='messages.dialogsNotModified', count=int}
-
-```
-
-

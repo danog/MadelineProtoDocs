@@ -43,12 +43,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->upload->saveBigFilePart(['file_id' => long, 'file_part' => int, 'file_total_parts' => int, 'bytes' => 'bytes', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = upload.saveBigFilePart({file_id=long, file_part=int, file_total_parts=int, bytes='bytes', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

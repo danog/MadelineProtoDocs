@@ -40,12 +40,6 @@ $MadelineProto->start();
 $WallPaper = $MadelineProto->account->getWallPaper(['wallpaper' => InputWallPaper, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-WallPaper = account.getWallPaper({wallpaper=InputWallPaper, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

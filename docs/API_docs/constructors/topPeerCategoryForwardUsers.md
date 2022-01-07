@@ -22,13 +22,3 @@ Users to which the users often forwards messages to
 ```php
 $topPeerCategoryForwardUsers = ['_' => 'topPeerCategoryForwardUsers'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-topPeerCategoryForwardUsers={_='topPeerCategoryForwardUsers'}
-
-```
-
-

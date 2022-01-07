@@ -40,9 +40,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->hidePeerSettingsBar(['peer' => InputPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.hidePeerSettingsBar({peer=InputPeer, })
-```
-

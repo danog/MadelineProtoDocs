@@ -41,9 +41,3 @@ $MadelineProto->start();
 $EncryptedFile = $MadelineProto->messages->uploadEncryptedFile(['peer' => InputEncryptedChat, 'file' => InputEncryptedFile, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-EncryptedFile = messages.uploadEncryptedFile({peer=InputEncryptedChat, file=InputEncryptedFile, })
-```
-

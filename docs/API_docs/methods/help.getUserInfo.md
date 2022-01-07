@@ -40,12 +40,6 @@ $MadelineProto->start();
 $help_UserInfo = $MadelineProto->help->getUserInfo(['user_id' => InputUser, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-help_UserInfo = help.getUserInfo({user_id=InputUser, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

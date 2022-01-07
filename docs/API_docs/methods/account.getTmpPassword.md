@@ -41,12 +41,6 @@ $MadelineProto->start();
 $account_TmpPassword = $MadelineProto->account->getTmpPassword(['password' => InputCheckPasswordSRP, 'period' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-account_TmpPassword = account.getTmpPassword({password=InputCheckPasswordSRP, period=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

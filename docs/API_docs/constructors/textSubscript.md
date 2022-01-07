@@ -27,13 +27,3 @@ Subscript text
 ```php
 $textSubscript = ['_' => 'textSubscript', 'text' => RichText];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-textSubscript={_='textSubscript', text=RichText}
-
-```
-
-

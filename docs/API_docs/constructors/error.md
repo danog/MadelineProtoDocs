@@ -28,13 +28,3 @@ Error.
 ```php
 $error = ['_' => 'error', 'code' => int, 'text' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-error={_='error', code=int, text='string'}
-
-```
-
-

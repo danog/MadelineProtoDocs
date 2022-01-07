@@ -22,13 +22,3 @@ Defines an animated GIF
 ```php
 $documentAttributeAnimated = ['_' => 'documentAttributeAnimated'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-documentAttributeAnimated={_='documentAttributeAnimated'}
-
-```
-
-

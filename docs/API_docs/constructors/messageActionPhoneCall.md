@@ -30,13 +30,3 @@ A phone call
 ```php
 $messageActionPhoneCall = ['_' => 'messageActionPhoneCall', 'video' => Bool, 'call_id' => long, 'reason' => PhoneCallDiscardReason, 'duration' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionPhoneCall={_='messageActionPhoneCall', video=Bool, call_id=long, reason=PhoneCallDiscardReason, duration=int}
-
-```
-
-

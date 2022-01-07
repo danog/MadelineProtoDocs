@@ -28,13 +28,3 @@ Used by bots for fetching information about the message that originated a callba
 ```php
 $inputMessageCallbackQuery = ['_' => 'inputMessageCallbackQuery', 'id' => int, 'query_id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMessageCallbackQuery={_='inputMessageCallbackQuery', id=int, query_id=long}
-
-```
-
-

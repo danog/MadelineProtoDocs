@@ -33,9 +33,3 @@ $MadelineProto->start();
 $account_ResetPasswordResult = $MadelineProto->account->resetPassword();
 ```
 
-Or, if you're into Lua:
-
-```lua
-account_ResetPasswordResult = account.resetPassword({})
-```
-

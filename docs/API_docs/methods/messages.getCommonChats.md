@@ -42,12 +42,6 @@ $MadelineProto->start();
 $messages_Chats = $MadelineProto->messages->getCommonChats(['user_id' => InputUser, 'max_id' => long, 'limit' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_Chats = messages.getCommonChats({user_id=InputUser, max_id=long, limit=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

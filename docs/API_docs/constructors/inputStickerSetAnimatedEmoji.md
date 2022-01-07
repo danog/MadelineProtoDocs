@@ -22,13 +22,3 @@ Animated emojis stickerset
 ```php
 $inputStickerSetAnimatedEmoji = ['_' => 'inputStickerSetAnimatedEmoji'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputStickerSetAnimatedEmoji={_='inputStickerSetAnimatedEmoji'}
-
-```
-
-

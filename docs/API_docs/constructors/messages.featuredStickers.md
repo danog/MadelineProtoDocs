@@ -31,13 +31,3 @@ Featured stickersets
 ```php
 $messages_featuredStickers = ['_' => 'messages.featuredStickers', 'hash' => long, 'count' => int, 'sets' => [StickerSetCovered, StickerSetCovered], 'unread' => [long, long]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_featuredStickers={_='messages.featuredStickers', hash=long, count=int, sets={StickerSetCovered}, unread={long}}
-
-```
-
-

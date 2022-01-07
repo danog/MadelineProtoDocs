@@ -26,13 +26,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $messageActionGroupCallScheduled = ['_' => 'messageActionGroupCallScheduled', 'call' => InputGroupCall, 'schedule_date' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionGroupCallScheduled={_='messageActionGroupCallScheduled', call=InputGroupCall, schedule_date=int}
-
-```
-
-

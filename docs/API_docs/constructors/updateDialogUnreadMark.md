@@ -28,13 +28,3 @@ The manual unread mark of a chat was changed
 ```php
 $updateDialogUnreadMark = ['_' => 'updateDialogUnreadMark', 'unread' => Bool, 'peer' => DialogPeer];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateDialogUnreadMark={_='updateDialogUnreadMark', unread=Bool, peer=DialogPeer}
-
-```
-
-

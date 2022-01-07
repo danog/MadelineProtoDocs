@@ -29,13 +29,3 @@ Callback button
 ```php
 $keyboardButtonCallback = ['_' => 'keyboardButtonCallback', 'requires_password' => Bool, 'text' => 'string', 'data' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-keyboardButtonCallback={_='keyboardButtonCallback', requires_password=Bool, text='string', data='bytes'}
-
-```
-
-

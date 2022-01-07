@@ -28,13 +28,3 @@ A payment was sent
 ```php
 $messageActionPaymentSent = ['_' => 'messageActionPaymentSent', 'currency' => 'string', 'total_amount' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionPaymentSent={_='messageActionPaymentSent', currency='string', total_amount=long}
-
-```
-
-

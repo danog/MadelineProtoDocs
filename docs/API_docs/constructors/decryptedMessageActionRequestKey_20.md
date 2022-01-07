@@ -28,13 +28,3 @@ Request rekeying, see [rekeying process](https://core.telegram.org/api/end-to-en
 ```php
 $decryptedMessageActionRequestKey_20 = ['_' => 'decryptedMessageActionRequestKey', 'exchange_id' => long, 'g_a' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-decryptedMessageActionRequestKey_20={_='decryptedMessageActionRequestKey', exchange_id=long, g_a='bytes'}
-
-```
-
-

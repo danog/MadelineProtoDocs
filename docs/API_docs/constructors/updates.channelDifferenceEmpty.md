@@ -30,13 +30,3 @@ There are no new updates
 ```php
 $updates_channelDifferenceEmpty = ['_' => 'updates.channelDifferenceEmpty', 'final' => Bool, 'pts' => int, 'timeout' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updates_channelDifferenceEmpty={_='updates.channelDifferenceEmpty', final=Bool, pts=int, timeout=int}
-
-```
-
-

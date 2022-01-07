@@ -43,12 +43,6 @@ $MadelineProto->start();
 $auth_Authorization = $MadelineProto->auth->signUp(['phone_number' => 'string', 'phone_code_hash' => 'string', 'first_name' => 'string', 'last_name' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-auth_Authorization = auth.signUp({phone_number='string', phone_code_hash='string', first_name='string', last_name='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

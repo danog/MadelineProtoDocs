@@ -27,13 +27,3 @@ A new incoming event; for bots only
 ```php
 $updateBotWebhookJSON = ['_' => 'updateBotWebhookJSON', 'data' => DataJSON];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateBotWebhookJSON={_='updateBotWebhookJSON', data=DataJSON}
-
-```
-
-

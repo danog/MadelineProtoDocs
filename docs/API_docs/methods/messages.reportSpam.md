@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->reportSpam(['peer' => InputPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.reportSpam({peer=InputPeer, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

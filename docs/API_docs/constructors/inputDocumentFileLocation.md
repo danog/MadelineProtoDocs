@@ -30,13 +30,3 @@ Document location (video, voice, audio, basically every type except photo)
 ```php
 $inputDocumentFileLocation = ['_' => 'inputDocumentFileLocation', 'id' => long, 'access_hash' => long, 'file_reference' => 'bytes', 'thumb_size' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputDocumentFileLocation={_='inputDocumentFileLocation', id=long, access_hash=long, file_reference='bytes', thumb_size='string'}
-
-```
-
-

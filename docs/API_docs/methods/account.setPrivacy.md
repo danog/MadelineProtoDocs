@@ -41,12 +41,6 @@ $MadelineProto->start();
 $account_PrivacyRules = $MadelineProto->account->setPrivacy(['key' => InputPrivacyKey, 'rules' => [InputPrivacyRule, InputPrivacyRule], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-account_PrivacyRules = account.setPrivacy({key=InputPrivacyKey, rules={InputPrivacyRule}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

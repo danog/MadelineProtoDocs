@@ -29,13 +29,3 @@ Login token (for [QR code login](https://core.telegram.org/api/qr-login))
 ```php
 $auth_loginToken = ['_' => 'auth.loginToken', 'expires' => int, 'token' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-auth_loginToken={_='auth.loginToken', expires=int, token='bytes'}
-
-```
-
-

@@ -30,13 +30,3 @@ Photo
 ```php
 $inputBotInlineResultPhoto = ['_' => 'inputBotInlineResultPhoto', 'id' => 'string', 'type' => 'string', 'photo' => InputPhoto, 'send_message' => InputBotInlineMessage];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputBotInlineResultPhoto={_='inputBotInlineResultPhoto', id='string', type='string', photo=InputPhoto, send_message=InputBotInlineMessage}
-
-```
-
-

@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->phone->saveCallDebug(['peer' => InputPhoneCall, 'debug' => DataJSON, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = phone.saveCallDebug({peer=InputPhoneCall, debug=DataJSON, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

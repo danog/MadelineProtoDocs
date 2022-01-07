@@ -25,13 +25,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $sendMessageHistoryImportAction = ['_' => 'sendMessageHistoryImportAction', 'progress' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-sendMessageHistoryImportAction={_='sendMessageHistoryImportAction', progress=int}
-
-```
-
-

@@ -31,13 +31,3 @@ Contains info about a sent verification code.
 ```php
 $auth_sentCode = ['_' => 'auth.sentCode', 'type' => auth.SentCodeType, 'phone_code_hash' => 'string', 'next_type' => auth.CodeType, 'timeout' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-auth_sentCode={_='auth.sentCode', type=auth.SentCodeType, phone_code_hash='string', next_type=auth.CodeType, timeout=int}
-
-```
-
-

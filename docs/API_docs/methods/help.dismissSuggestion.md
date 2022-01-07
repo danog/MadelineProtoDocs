@@ -41,9 +41,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->help->dismissSuggestion(['peer' => InputPeer, 'suggestion' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = help.dismissSuggestion({peer=InputPeer, suggestion='string', })
-```
-

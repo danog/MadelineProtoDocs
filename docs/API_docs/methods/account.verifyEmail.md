@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->verifyEmail(['email' => 'string', 'code' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.verifyEmail({email='string', code='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -28,13 +28,3 @@ Sets forwarded encrypted file for attachment.
 ```php
 $inputEncryptedFile = ['_' => 'inputEncryptedFile', 'id' => long, 'access_hash' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputEncryptedFile={_='inputEncryptedFile', id=long, access_hash=long}
-
-```
-
-

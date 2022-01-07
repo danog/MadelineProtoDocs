@@ -22,13 +22,3 @@ Classic theme
 ```php
 $baseThemeClassic = ['_' => 'baseThemeClassic'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-baseThemeClassic={_='baseThemeClassic'}
-
-```
-
-

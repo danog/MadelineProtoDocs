@@ -42,12 +42,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->startBot(['bot' => InputUser, 'peer' => InputPeer, 'start_param' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.startBot({bot=InputUser, peer=InputPeer, start_param='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

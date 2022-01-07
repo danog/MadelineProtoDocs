@@ -28,13 +28,3 @@ Notifies a change of a message [draft](https://core.telegram.org/api/drafts).
 ```php
 $updateDraftMessage = ['_' => 'updateDraftMessage', 'peer' => Peer, 'draft' => DraftMessage];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateDraftMessage={_='updateDraftMessage', peer=Peer, draft=DraftMessage}
-
-```
-
-

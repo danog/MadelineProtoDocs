@@ -22,13 +22,3 @@ Installed stickersets have changed, the client should refetch them using [messag
 ```php
 $updateStickerSets = ['_' => 'updateStickerSets'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateStickerSets={_='updateStickerSets'}
-
-```
-
-

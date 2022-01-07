@@ -27,13 +27,3 @@ Emoji language
 ```php
 $emojiLanguage = ['_' => 'emojiLanguage', 'lang_code' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-emojiLanguage={_='emojiLanguage', lang_code='string'}
-
-```
-
-

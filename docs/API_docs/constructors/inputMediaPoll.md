@@ -30,13 +30,3 @@ A poll
 ```php
 $inputMediaPoll = ['_' => 'inputMediaPoll', 'poll' => Poll, 'correct_answers' => ['bytes', 'bytes'], 'solution' => 'string', 'solution_entities' => [MessageEntity, MessageEntity]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMediaPoll={_='inputMediaPoll', poll=Poll, correct_answers={'bytes'}, solution='string', solution_entities={MessageEntity}}
-
-```
-
-

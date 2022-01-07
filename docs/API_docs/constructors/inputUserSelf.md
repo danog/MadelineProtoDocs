@@ -22,13 +22,3 @@ Defines the current user.
 ```php
 $inputUserSelf = ['_' => 'inputUserSelf'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputUserSelf={_='inputUserSelf'}
-
-```
-
-

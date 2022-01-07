@@ -38,9 +38,3 @@ $MadelineProto->start();
 $messages_AffectedFoundMessages = $MadelineProto->messages->deletePhoneCallHistory(['revoke' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_AffectedFoundMessages = messages.deletePhoneCallHistory({revoke=Bool, })
-```
-

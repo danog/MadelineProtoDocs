@@ -40,13 +40,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $groupCall = ['_' => 'groupCall', 'join_muted' => Bool, 'can_change_join_muted' => Bool, 'join_date_asc' => Bool, 'schedule_start_subscribed' => Bool, 'can_start_video' => Bool, 'record_video_active' => Bool, 'id' => long, 'access_hash' => long, 'participants_count' => int, 'title' => 'string', 'stream_dc_id' => int, 'record_start_date' => int, 'schedule_date' => int, 'unmuted_video_count' => int, 'unmuted_video_limit' => int, 'version' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-groupCall={_='groupCall', join_muted=Bool, can_change_join_muted=Bool, join_date_asc=Bool, schedule_start_subscribed=Bool, can_start_video=Bool, record_video_active=Bool, id=long, access_hash=long, participants_count=int, title='string', stream_dc_id=int, record_start_date=int, schedule_date=int, unmuted_video_count=int, unmuted_video_limit=int, version=int}
-
-```
-
-

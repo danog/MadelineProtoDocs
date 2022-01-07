@@ -22,13 +22,3 @@ User is typing.
 ```php
 $sendMessageTypingAction = ['_' => 'sendMessageTypingAction'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-sendMessageTypingAction={_='sendMessageTypingAction'}
-
-```
-
-

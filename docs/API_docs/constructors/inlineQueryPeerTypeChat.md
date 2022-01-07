@@ -20,13 +20,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $inlineQueryPeerTypeChat = ['_' => 'inlineQueryPeerTypeChat'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inlineQueryPeerTypeChat={_='inlineQueryPeerTypeChat'}
-
-```
-
-

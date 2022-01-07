@@ -40,9 +40,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->help->saveAppLog(['events' => [InputAppEvent, InputAppEvent], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = help.saveAppLog({events={InputAppEvent}, })
-```
-

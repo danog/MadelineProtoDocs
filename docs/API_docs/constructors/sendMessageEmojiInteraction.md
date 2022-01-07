@@ -27,13 +27,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $sendMessageEmojiInteraction = ['_' => 'sendMessageEmojiInteraction', 'emoticon' => 'string', 'msg_id' => int, 'interaction' => DataJSON];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-sendMessageEmojiInteraction={_='sendMessageEmojiInteraction', emoticon='string', msg_id=int, interaction=DataJSON}
-
-```
-
-

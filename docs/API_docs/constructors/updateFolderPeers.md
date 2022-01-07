@@ -29,13 +29,3 @@ The peer list of a [peer folder](https://core.telegram.org/api/folders#peer-fold
 ```php
 $updateFolderPeers = ['_' => 'updateFolderPeers', 'folder_peers' => [FolderPeer, FolderPeer], 'pts' => int, 'pts_count' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateFolderPeers={_='updateFolderPeers', folder_peers={FolderPeer}, pts=int, pts_count=int}
-
-```
-
-

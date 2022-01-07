@@ -31,13 +31,3 @@ Users found by name substring and auxiliary data.
 ```php
 $contacts_found = ['_' => 'contacts.found', 'my_results' => [Peer, Peer], 'results' => [Peer, Peer], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-contacts_found={_='contacts.found', my_results={Peer}, results={Peer}, chats={Chat}, users={User}}
-
-```
-
-

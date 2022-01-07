@@ -22,13 +22,3 @@ Whether P2P connections in phone calls are allowed
 ```php
 $privacyKeyPhoneP2P = ['_' => 'privacyKeyPhoneP2P'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-privacyKeyPhoneP2P={_='privacyKeyPhoneP2P'}
-
-```
-
-

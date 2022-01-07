@@ -27,13 +27,3 @@ Empty constructor, group doesn't exist
 ```php
 $chatEmpty = ['_' => 'chatEmpty', 'id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-chatEmpty={_='chatEmpty', id=long}
-
-```
-
-

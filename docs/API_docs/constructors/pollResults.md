@@ -32,13 +32,3 @@ Results of poll
 ```php
 $pollResults = ['_' => 'pollResults', 'min' => Bool, 'results' => [PollAnswerVoters, PollAnswerVoters], 'total_voters' => int, 'recent_voters' => [long, long], 'solution' => 'string', 'solution_entities' => [MessageEntity, MessageEntity]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pollResults={_='pollResults', min=Bool, results={PollAnswerVoters}, total_voters=int, recent_voters={long}, solution='string', solution_entities={MessageEntity}}
-
-```
-
-

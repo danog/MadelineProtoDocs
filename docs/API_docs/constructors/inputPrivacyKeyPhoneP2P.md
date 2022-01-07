@@ -22,13 +22,3 @@ Whether the user allows P2P communication during VoIP calls
 ```php
 $inputPrivacyKeyPhoneP2P = ['_' => 'inputPrivacyKeyPhoneP2P'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPrivacyKeyPhoneP2P={_='inputPrivacyKeyPhoneP2P'}
-
-```
-
-

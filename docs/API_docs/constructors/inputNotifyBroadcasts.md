@@ -22,13 +22,3 @@ All [channels](https://core.telegram.org/api/channel)
 ```php
 $inputNotifyBroadcasts = ['_' => 'inputNotifyBroadcasts'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputNotifyBroadcasts={_='inputNotifyBroadcasts'}
-
-```
-
-

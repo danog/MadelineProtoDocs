@@ -32,16 +32,6 @@ Send a geolocation
 $botInlineMessageMediaGeo = ['_' => 'botInlineMessageMediaGeo', 'geo' => GeoPoint, 'heading' => int, 'period' => int, 'proximity_notification_radius' => int, 'reply_markup' => ReplyMarkup];
 ```  
 
-
-Or, if you're into Lua:
-
-```lua
-botInlineMessageMediaGeo={_='botInlineMessageMediaGeo', geo=GeoPoint, heading=int, period=int, proximity_notification_radius=int, reply_markup=ReplyMarkup}
-
-```
-
-
-
 ## Usage of reply_markup
 
 You can provide bot API reply_markup objects here.  

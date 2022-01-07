@@ -22,13 +22,3 @@ Online status: last seen recently
 ```php
 $userStatusRecently = ['_' => 'userStatusRecently'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-userStatusRecently={_='userStatusRecently'}
-
-```
-
-

@@ -28,13 +28,3 @@ Recent t.me link to a user
 ```php
 $recentMeUrlUser = ['_' => 'recentMeUrlUser', 'url' => 'string', 'user_id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-recentMeUrlUser={_='recentMeUrlUser', url='string', user_id=long}
-
-```
-
-

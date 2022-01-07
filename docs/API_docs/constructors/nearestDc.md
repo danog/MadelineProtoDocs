@@ -29,13 +29,3 @@ Nearest data centre, according to geo-ip.
 ```php
 $nearestDc = ['_' => 'nearestDc', 'country' => 'string', 'this_dc' => int, 'nearest_dc' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-nearestDc={_='nearestDc', country='string', this_dc=int, nearest_dc=int}
-
-```
-
-

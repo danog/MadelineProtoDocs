@@ -31,13 +31,3 @@ Bot keyboard
 ```php
 $replyKeyboardMarkup = ['_' => 'replyKeyboardMarkup', 'resize' => Bool, 'single_use' => Bool, 'selective' => Bool, 'rows' => [KeyboardButtonRow, KeyboardButtonRow], 'placeholder' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-replyKeyboardMarkup={_='replyKeyboardMarkup', resize=Bool, single_use=Bool, selective=Bool, rows={KeyboardButtonRow}, placeholder='string'}
-
-```
-
-

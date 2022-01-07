@@ -38,12 +38,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->deleteChat(['chat_id' => InputPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.deleteChat({chat_id=InputPeer, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

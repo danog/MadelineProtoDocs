@@ -42,12 +42,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->contacts->getLocated(['background' => Bool, 'geo_point' => InputGeoPoint, 'self_expires' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = contacts.getLocated({background=Bool, geo_point=InputGeoPoint, self_expires=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

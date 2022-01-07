@@ -30,13 +30,3 @@ Admin log event
 ```php
 $channelAdminLogEvent = ['_' => 'channelAdminLogEvent', 'id' => long, 'date' => int, 'user_id' => long, 'action' => ChannelAdminLogEventAction];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEvent={_='channelAdminLogEvent', id=long, date=int, user_id=long, action=ChannelAdminLogEventAction}
-
-```
-
-

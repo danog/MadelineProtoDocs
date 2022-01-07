@@ -28,13 +28,3 @@ Pullquote
 ```php
 $pageBlockPullquote = ['_' => 'pageBlockPullquote', 'text' => RichText, 'caption' => RichText];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockPullquote={_='pageBlockPullquote', text=RichText, caption=RichText}
-
-```
-
-

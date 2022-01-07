@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->channels->editTitle(['channel' => InputChannel, 'title' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = channels.editTitle({channel=InputChannel, title='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

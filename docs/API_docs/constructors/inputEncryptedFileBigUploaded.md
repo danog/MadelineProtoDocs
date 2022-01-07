@@ -29,13 +29,3 @@ Assigns a new big encrypted file (over 10Mb in size), saved in parts using the m
 ```php
 $inputEncryptedFileBigUploaded = ['_' => 'inputEncryptedFileBigUploaded', 'id' => long, 'parts' => int, 'key_fingerprint' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputEncryptedFileBigUploaded={_='inputEncryptedFileBigUploaded', id=long, parts=int, key_fingerprint=int}
-
-```
-
-

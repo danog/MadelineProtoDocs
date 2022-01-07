@@ -28,13 +28,3 @@ Rich text linked to a phone number
 ```php
 $textPhone = ['_' => 'textPhone', 'text' => RichText, 'phone' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-textPhone={_='textPhone', text=RichText, phone='string'}
-
-```
-
-

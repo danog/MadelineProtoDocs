@@ -22,13 +22,3 @@ Filter for messages containing videos.
 ```php
 $inputMessagesFilterVideo = ['_' => 'inputMessagesFilterVideo'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMessagesFilterVideo={_='inputMessagesFilterVideo'}
-
-```
-
-

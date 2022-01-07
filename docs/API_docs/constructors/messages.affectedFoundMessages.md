@@ -29,13 +29,3 @@ redirect_from: /API_docs/constructors/messages_affectedFoundMessages.html
 ```php
 $messages_affectedFoundMessages = ['_' => 'messages.affectedFoundMessages', 'pts' => int, 'pts_count' => int, 'offset' => int, 'messages' => [int, int]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_affectedFoundMessages={_='messages.affectedFoundMessages', pts=int, pts_count=int, offset=int, messages={int}}
-
-```
-
-

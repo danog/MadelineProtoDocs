@@ -22,13 +22,3 @@ Allow all contacts
 ```php
 $privacyValueAllowContacts = ['_' => 'privacyValueAllowContacts'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-privacyValueAllowContacts={_='privacyValueAllowContacts'}
-
-```
-
-

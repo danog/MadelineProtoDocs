@@ -35,12 +35,6 @@ $MadelineProto->start();
 $updates_State = $MadelineProto->updates->getState();
 ```
 
-Or, if you're into Lua:
-
-```lua
-updates_State = updates.getState({})
-```
-
 ### Errors
 
 | Code | Type     | Description   |

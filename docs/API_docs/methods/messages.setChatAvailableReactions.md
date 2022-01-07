@@ -39,9 +39,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->setChatAvailableReactions(['peer' => InputPeer, 'available_reactions' => ['string', 'string'], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.setChatAvailableReactions({peer=InputPeer, available_reactions={'string'}, })
-```
-

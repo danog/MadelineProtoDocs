@@ -22,13 +22,3 @@ Empty constructor.
 ```php
 $geoPointEmpty = ['_' => 'geoPointEmpty'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-geoPointEmpty={_='geoPointEmpty'}
-
-```
-
-

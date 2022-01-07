@@ -42,12 +42,6 @@ $MadelineProto->start();
 $payments_PaymentForm = $MadelineProto->payments->getPaymentForm(['peer' => InputPeer, 'msg_id' => int, 'theme_params' => DataJSON, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-payments_PaymentForm = payments.getPaymentForm({peer=InputPeer, msg_id=int, theme_params=DataJSON, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

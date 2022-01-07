@@ -42,12 +42,6 @@ $MadelineProto->start();
 $Theme = $MadelineProto->account->getTheme(['format' => 'string', 'theme' => InputTheme, 'document_id' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Theme = account.getTheme({format='string', theme=InputTheme, document_id=long, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -28,13 +28,3 @@ Location of a remote HTTP(s) file
 ```php
 $inputWebFileLocation = ['_' => 'inputWebFileLocation', 'url' => 'string', 'access_hash' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputWebFileLocation={_='inputWebFileLocation', url='string', access_hash=long}
-
-```
-
-

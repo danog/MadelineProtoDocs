@@ -28,13 +28,3 @@ The specified [channel/supergroup](https://core.telegram.org/api/channel) messag
 ```php
 $updateChannelReadMessagesContents = ['_' => 'updateChannelReadMessagesContents', 'channel_id' => long, 'messages' => [int, int]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateChannelReadMessagesContents={_='updateChannelReadMessagesContents', channel_id=long, messages={int}}
-
-```
-
-

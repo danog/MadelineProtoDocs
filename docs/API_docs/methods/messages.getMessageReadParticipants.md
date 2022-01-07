@@ -39,12 +39,6 @@ $MadelineProto->start();
 $Vector_of_long = $MadelineProto->messages->getMessageReadParticipants(['peer' => InputPeer, 'msg_id' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Vector_of_long = messages.getMessageReadParticipants({peer=InputPeer, msg_id=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

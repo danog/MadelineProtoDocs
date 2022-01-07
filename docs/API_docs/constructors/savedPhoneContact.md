@@ -30,13 +30,3 @@ Saved contact
 ```php
 $savedPhoneContact = ['_' => 'savedPhoneContact', 'phone' => 'string', 'first_name' => 'string', 'last_name' => 'string', 'date' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-savedPhoneContact={_='savedPhoneContact', phone='string', first_name='string', last_name='string', date=int}
-
-```
-
-

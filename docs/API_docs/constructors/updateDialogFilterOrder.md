@@ -27,13 +27,3 @@ New [folder](https://core.telegram.org/api/folders) order
 ```php
 $updateDialogFilterOrder = ['_' => 'updateDialogFilterOrder', 'order' => [int, int]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateDialogFilterOrder={_='updateDialogFilterOrder', order={int}}
-
-```
-
-

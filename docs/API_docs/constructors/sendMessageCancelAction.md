@@ -22,13 +22,3 @@ Invalidate all previous action updates. E.g. when user deletes entered text or a
 ```php
 $sendMessageCancelAction = ['_' => 'sendMessageCancelAction'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-sendMessageCancelAction={_='sendMessageCancelAction'}
-
-```
-
-

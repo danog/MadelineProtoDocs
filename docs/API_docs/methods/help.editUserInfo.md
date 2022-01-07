@@ -43,12 +43,6 @@ $MadelineProto->start();
 $help_UserInfo = $MadelineProto->help->editUserInfo(['user_id' => InputUser, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-help_UserInfo = help.editUserInfo({user_id=InputUser, message='string', entities={MessageEntity}, parseMode='string', })
-```
-
 
 ## Return value 
 

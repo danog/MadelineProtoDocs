@@ -29,13 +29,3 @@ Message entity representing a preformatted `codeblock`, allowing the user to spe
 ```php
 $messageEntityPre = ['_' => 'messageEntityPre', 'offset' => int, 'length' => int, 'language' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageEntityPre={_='messageEntityPre', offset=int, length=int, language='string'}
-
-```
-
-

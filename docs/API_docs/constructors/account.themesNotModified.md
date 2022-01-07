@@ -23,13 +23,3 @@ No new themes were installed
 ```php
 $account_themesNotModified = ['_' => 'account.themesNotModified'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-account_themesNotModified={_='account.themesNotModified'}
-
-```
-
-

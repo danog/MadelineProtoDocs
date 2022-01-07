@@ -28,13 +28,3 @@ redirect_from: /API_docs/constructors/channels_sendAsPeers.html
 ```php
 $channels_sendAsPeers = ['_' => 'channels.sendAsPeers', 'peers' => [Peer, Peer], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channels_sendAsPeers={_='channels.sendAsPeers', peers={Peer}, chats={Chat}, users={User}}
-
-```
-
-

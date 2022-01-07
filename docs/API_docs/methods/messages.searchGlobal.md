@@ -48,12 +48,6 @@ $MadelineProto->start();
 $messages_Messages = $MadelineProto->messages->searchGlobal(['folder_id' => int, 'q' => 'string', 'filter' => MessagesFilter, 'min_date' => int, 'max_date' => int, 'offset_rate' => int, 'offset_peer' => InputPeer, 'offset_id' => int, 'limit' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_Messages = messages.searchGlobal({folder_id=int, q='string', filter=MessagesFilter, min_date=int, max_date=int, offset_rate=int, offset_peer=InputPeer, offset_id=int, limit=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

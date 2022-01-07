@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->toggleDialogPin(['pinned' => Bool, 'peer' => InputDialogPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.toggleDialogPin({pinned=Bool, peer=InputDialogPeer, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

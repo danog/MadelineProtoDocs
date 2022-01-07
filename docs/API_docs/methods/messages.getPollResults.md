@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->getPollResults(['peer' => InputPeer, 'msg_id' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.getPollResults({peer=InputPeer, msg_id=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -28,13 +28,3 @@ Login via token (QR code) succeded!
 ```php
 $auth_loginTokenSuccess = ['_' => 'auth.loginTokenSuccess', 'authorization' => auth.Authorization];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-auth_loginTokenSuccess={_='auth.loginTokenSuccess', authorization=auth.Authorization}
-
-```
-
-

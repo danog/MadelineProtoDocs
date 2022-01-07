@@ -29,13 +29,3 @@ redirect_from: /API_docs/constructors/messages_messageReactionsList.html
 ```php
 $messages_messageReactionsList = ['_' => 'messages.messageReactionsList', 'count' => int, 'reactions' => [MessageUserReaction, MessageUserReaction], 'users' => [User, User], 'next_offset' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_messageReactionsList={_='messages.messageReactionsList', count=int, reactions={MessageUserReaction}, users={User}, next_offset='string'}
-
-```
-
-

@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->confirmPasswordEmail(['code' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.confirmPasswordEmail({code='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -23,13 +23,3 @@ PDF document image. MIME type: `application/pdf`.
 ```php
 $storage_filePdf = ['_' => 'storage.filePdf'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-storage_filePdf={_='storage.filePdf'}
-
-```
-
-

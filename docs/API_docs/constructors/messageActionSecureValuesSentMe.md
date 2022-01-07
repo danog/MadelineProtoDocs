@@ -28,13 +28,3 @@ Secure [telegram passport](https://core.telegram.org/passport) values were recei
 ```php
 $messageActionSecureValuesSentMe = ['_' => 'messageActionSecureValuesSentMe', 'values' => [SecureValue, SecureValue], 'credentials' => SecureCredentialsEncrypted];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionSecureValuesSentMe={_='messageActionSecureValuesSentMe', values={SecureValue}, credentials=SecureCredentialsEncrypted}
-
-```
-
-

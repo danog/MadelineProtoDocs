@@ -27,13 +27,3 @@ redirect_from: /API_docs/constructors/auth_sentCodeTypeMissedCall.html
 ```php
 $auth_sentCodeTypeMissedCall = ['_' => 'auth.sentCodeTypeMissedCall', 'prefix' => 'string', 'length' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-auth_sentCodeTypeMissedCall={_='auth.sentCodeTypeMissedCall', prefix='string', length=int}
-
-```
-
-

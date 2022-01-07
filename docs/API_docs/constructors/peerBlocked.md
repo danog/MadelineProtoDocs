@@ -28,13 +28,3 @@ Information about a blocked peer
 ```php
 $peerBlocked = ['_' => 'peerBlocked', 'peer_id' => Peer, 'date' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-peerBlocked={_='peerBlocked', peer_id=Peer, date=int}
-
-```
-
-

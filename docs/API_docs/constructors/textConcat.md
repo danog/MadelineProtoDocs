@@ -27,13 +27,3 @@ Concatenation of rich texts
 ```php
 $textConcat = ['_' => 'textConcat', 'texts' => [RichText, RichText]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-textConcat={_='textConcat', texts={RichText}}
-
-```
-
-

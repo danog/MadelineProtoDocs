@@ -21,13 +21,3 @@ redirect_from: /API_docs/constructors/messages_availableReactionsNotModified.htm
 ```php
 $messages_availableReactionsNotModified = ['_' => 'messages.availableReactionsNotModified'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_availableReactionsNotModified={_='messages.availableReactionsNotModified'}
-
-```
-
-

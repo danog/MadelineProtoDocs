@@ -42,12 +42,6 @@ $MadelineProto->start();
 $EncryptedChat = $MadelineProto->messages->acceptEncryption(['peer' => InputEncryptedChat, 'g_b' => 'bytes', 'key_fingerprint' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-EncryptedChat = messages.acceptEncryption({peer=InputEncryptedChat, g_b='bytes', key_fingerprint=long, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -28,13 +28,3 @@ Request for the other party in a Secret Chat to automatically resend a contiguou
 ```php
 $decryptedMessageActionResend_17 = ['_' => 'decryptedMessageActionResend', 'start_seq_no' => int, 'end_seq_no' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-decryptedMessageActionResend_17={_='decryptedMessageActionResend', start_seq_no=int, end_seq_no=int}
-
-```
-
-

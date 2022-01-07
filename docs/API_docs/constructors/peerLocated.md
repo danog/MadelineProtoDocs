@@ -29,13 +29,3 @@ Peer geolocated nearby
 ```php
 $peerLocated = ['_' => 'peerLocated', 'peer' => Peer, 'expires' => int, 'distance' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-peerLocated={_='peerLocated', peer=Peer, expires=int, distance=int}
-
-```
-
-

@@ -27,13 +27,3 @@ Theme by theme ID
 ```php
 $inputThemeSlug = ['_' => 'inputThemeSlug', 'slug' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputThemeSlug={_='inputThemeSlug', slug='string'}
-
-```
-
-

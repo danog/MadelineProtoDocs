@@ -22,13 +22,3 @@ User is uploading a file.
 ```php
 $sendMessageUploadDocumentAction_17 = ['_' => 'sendMessageUploadDocumentAction'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-sendMessageUploadDocumentAction_17={_='sendMessageUploadDocumentAction'}
-
-```
-
-

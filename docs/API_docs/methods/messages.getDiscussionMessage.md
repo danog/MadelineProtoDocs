@@ -41,12 +41,6 @@ $MadelineProto->start();
 $messages_DiscussionMessage = $MadelineProto->messages->getDiscussionMessage(['peer' => InputPeer, 'msg_id' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_DiscussionMessage = messages.getDiscussionMessage({peer=InputPeer, msg_id=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

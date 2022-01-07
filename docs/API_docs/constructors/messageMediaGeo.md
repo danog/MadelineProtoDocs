@@ -27,13 +27,3 @@ Attached map.
 ```php
 $messageMediaGeo = ['_' => 'messageMediaGeo', 'geo' => GeoPoint];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageMediaGeo={_='messageMediaGeo', geo=GeoPoint}
-
-```
-
-

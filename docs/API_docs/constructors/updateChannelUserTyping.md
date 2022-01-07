@@ -30,13 +30,3 @@ A user is typing in a [supergroup, channel](https://core.telegram.org/api/channe
 ```php
 $updateChannelUserTyping = ['_' => 'updateChannelUserTyping', 'channel_id' => long, 'top_msg_id' => int, 'from_id' => Peer, 'action' => SendMessageAction];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateChannelUserTyping={_='updateChannelUserTyping', channel_id=long, top_msg_id=int, from_id=Peer, action=SendMessageAction}
-
-```
-
-

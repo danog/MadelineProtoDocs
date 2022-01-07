@@ -26,13 +26,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $inputGroupCall = ['_' => 'inputGroupCall', 'id' => long, 'access_hash' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputGroupCall={_='inputGroupCall', id=long, access_hash=long}
-
-```
-
-

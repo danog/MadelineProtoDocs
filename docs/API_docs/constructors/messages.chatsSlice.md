@@ -29,13 +29,3 @@ Partial list of chats, more would have to be fetched with [pagination](https://c
 ```php
 $messages_chatsSlice = ['_' => 'messages.chatsSlice', 'count' => int, 'chats' => [Chat, Chat]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_chatsSlice={_='messages.chatsSlice', count=int, chats={Chat}}
-
-```
-
-

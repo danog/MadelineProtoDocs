@@ -43,12 +43,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->auth->bindTempAuthKey(['perm_auth_key_id' => long, 'nonce' => long, 'expires_at' => int, 'encrypted_message' => 'bytes', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = auth.bindTempAuthKey({perm_auth_key_id=long, nonce=long, expires_at=int, encrypted_message='bytes', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

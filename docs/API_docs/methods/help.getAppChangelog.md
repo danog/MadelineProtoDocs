@@ -41,9 +41,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->help->getAppChangelog(['prev_app_version' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = help.getAppChangelog({prev_app_version='string', })
-```
-

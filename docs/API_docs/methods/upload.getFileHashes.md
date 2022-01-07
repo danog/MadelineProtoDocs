@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Vector_of_FileHash = $MadelineProto->upload->getFileHashes(['location' => InputFileLocation, 'offset' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Vector_of_FileHash = upload.getFileHashes({location=InputFileLocation, offset=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

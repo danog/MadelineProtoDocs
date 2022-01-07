@@ -39,13 +39,3 @@ Indicates a service message
 ```php
 $messageService = ['_' => 'messageService', 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'silent' => Bool, 'post' => Bool, 'legacy' => Bool, 'id' => int, 'from_id' => Peer, 'peer_id' => Peer, 'reply_to' => MessageReplyHeader, 'date' => int, 'action' => MessageAction, 'ttl_period' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageService={_='messageService', out=Bool, mentioned=Bool, media_unread=Bool, silent=Bool, post=Bool, legacy=Bool, id=int, from_id=Peer, peer_id=Peer, reply_to=MessageReplyHeader, date=int, action=MessageAction, ttl_period=int}
-
-```
-
-

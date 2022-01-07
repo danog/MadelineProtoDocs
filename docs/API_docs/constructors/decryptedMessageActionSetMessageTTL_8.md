@@ -29,13 +29,3 @@ Upon receiving such message the client shall start deleting of all messages of a
 ```php
 $decryptedMessageActionSetMessageTTL_8 = ['_' => 'decryptedMessageActionSetMessageTTL', 'ttl_seconds' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-decryptedMessageActionSetMessageTTL_8={_='decryptedMessageActionSetMessageTTL', ttl_seconds=int}
-
-```
-
-

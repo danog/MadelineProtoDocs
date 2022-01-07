@@ -21,13 +21,3 @@ redirect_from: /API_docs/constructors/account_resetPasswordOk.html
 ```php
 $account_resetPasswordOk = ['_' => 'account.resetPasswordOk'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-account_resetPasswordOk={_='account.resetPasswordOk'}
-
-```
-
-

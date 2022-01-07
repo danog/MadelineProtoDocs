@@ -29,13 +29,3 @@ Represents an issue with the reverse side of a document. The error is considered
 ```php
 $secureValueErrorReverseSide = ['_' => 'secureValueErrorReverseSide', 'type' => SecureValueType, 'file_hash' => 'bytes', 'text' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureValueErrorReverseSide={_='secureValueErrorReverseSide', type=SecureValueType, file_hash='bytes', text='string'}
-
-```
-
-

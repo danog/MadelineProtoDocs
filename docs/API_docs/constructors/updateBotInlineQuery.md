@@ -32,13 +32,3 @@ An incoming inline query
 ```php
 $updateBotInlineQuery = ['_' => 'updateBotInlineQuery', 'query_id' => long, 'user_id' => long, 'query' => 'string', 'geo' => GeoPoint, 'peer_type' => InlineQueryPeerType, 'offset' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateBotInlineQuery={_='updateBotInlineQuery', query_id=long, user_id=long, query='string', geo=GeoPoint, peer_type=InlineQueryPeerType, offset='string'}
-
-```
-
-

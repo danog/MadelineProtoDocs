@@ -40,12 +40,6 @@ $MadelineProto->start();
 $PeerNotifySettings = $MadelineProto->account->getNotifySettings(['peer' => InputNotifyPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-PeerNotifySettings = account.getNotifySettings({peer=InputNotifyPeer, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

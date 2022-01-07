@@ -22,13 +22,3 @@ Fetch only recent participants
 ```php
 $channelParticipantsRecent = ['_' => 'channelParticipantsRecent'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelParticipantsRecent={_='channelParticipantsRecent'}
-
-```
-
-

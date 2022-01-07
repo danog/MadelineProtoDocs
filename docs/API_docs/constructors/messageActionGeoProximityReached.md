@@ -29,13 +29,3 @@ A user of the chat is now in proximity of another user
 ```php
 $messageActionGeoProximityReached = ['_' => 'messageActionGeoProximityReached', 'from_id' => Peer, 'to_id' => Peer, 'distance' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionGeoProximityReached={_='messageActionGeoProximityReached', from_id=Peer, to_id=Peer, distance=int}
-
-```
-
-

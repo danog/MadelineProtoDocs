@@ -27,13 +27,3 @@ A document with stickers attached
 ```php
 $inputStickeredMediaDocument = ['_' => 'inputStickeredMediaDocument', 'id' => InputDocument];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputStickeredMediaDocument={_='inputStickeredMediaDocument', id=InputDocument}
-
-```
-
-

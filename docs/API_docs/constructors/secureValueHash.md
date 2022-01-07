@@ -28,13 +28,3 @@ Secure value hash
 ```php
 $secureValueHash = ['_' => 'secureValueHash', 'type' => SecureValueType, 'hash' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureValueHash={_='secureValueHash', type=SecureValueType, hash='bytes'}
-
-```
-
-

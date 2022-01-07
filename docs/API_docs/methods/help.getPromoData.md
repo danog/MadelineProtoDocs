@@ -35,9 +35,3 @@ $MadelineProto->start();
 $help_PromoData = $MadelineProto->help->getPromoData();
 ```
 
-Or, if you're into Lua:
-
-```lua
-help_PromoData = help.getPromoData({})
-```
-

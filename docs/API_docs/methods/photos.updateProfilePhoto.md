@@ -40,12 +40,6 @@ $MadelineProto->start();
 $photos_Photo = $MadelineProto->photos->updateProfilePhoto(['id' => InputPhoto, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-photos_Photo = photos.updateProfilePhoto({id=InputPhoto, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -27,13 +27,3 @@ Preview of webpage
 ```php
 $messageMediaWebPage = ['_' => 'messageMediaWebPage', 'webpage' => WebPage];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageMediaWebPage={_='messageMediaWebPage', webpage=WebPage}
-
-```
-
-

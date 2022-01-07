@@ -38,9 +38,3 @@ $MadelineProto->start();
 $account_Themes = $MadelineProto->account->getChatThemes(['hash' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-account_Themes = account.getChatThemes({hash=long, })
-```
-

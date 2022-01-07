@@ -40,12 +40,6 @@ $MadelineProto->start();
 $X = $MadelineProto->invokeWithTakeout(['takeout_id' => long, 'query' => !X, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-X = invokeWithTakeout({takeout_id=long, query=!X, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

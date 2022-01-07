@@ -32,13 +32,3 @@ Legacy photo file location
 ```php
 $inputPhotoLegacyFileLocation = ['_' => 'inputPhotoLegacyFileLocation', 'id' => long, 'access_hash' => long, 'file_reference' => 'bytes', 'volume_id' => long, 'local_id' => int, 'secret' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPhotoLegacyFileLocation={_='inputPhotoLegacyFileLocation', id=long, access_hash=long, file_reference='bytes', volume_id=long, local_id=int, secret=long}
-
-```
-
-

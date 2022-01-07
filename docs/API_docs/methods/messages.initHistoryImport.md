@@ -40,12 +40,6 @@ $MadelineProto->start();
 $messages_HistoryImport = $MadelineProto->messages->initHistoryImport(['peer' => InputPeer, 'file' => InputFile, 'media_count' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_HistoryImport = messages.initHistoryImport({peer=InputPeer, file=InputFile, media_count=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -29,13 +29,3 @@ Validated user-provided info
 ```php
 $payments_validatedRequestedInfo = ['_' => 'payments.validatedRequestedInfo', 'id' => 'string', 'shipping_options' => [ShippingOption, ShippingOption]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-payments_validatedRequestedInfo={_='payments.validatedRequestedInfo', id='string', shipping_options={ShippingOption}}
-
-```
-
-

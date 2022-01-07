@@ -29,13 +29,3 @@ Contents of messages in the common [message box](https://core.telegram.org/api/u
 ```php
 $updateReadMessagesContents = ['_' => 'updateReadMessagesContents', 'messages' => [int, int], 'pts' => int, 'pts_count' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateReadMessagesContents={_='updateReadMessagesContents', messages={int}, pts=int, pts_count=int}
-
-```
-
-

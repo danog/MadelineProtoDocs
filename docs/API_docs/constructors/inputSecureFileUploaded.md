@@ -31,13 +31,3 @@ Uploaded secure file, for more info [see the passport docs »](https://core.tele
 ```php
 $inputSecureFileUploaded = ['_' => 'inputSecureFileUploaded', 'id' => long, 'parts' => int, 'md5_checksum' => 'string', 'file_hash' => 'bytes', 'secret' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputSecureFileUploaded={_='inputSecureFileUploaded', id=long, parts=int, md5_checksum='string', file_hash='bytes', secret='bytes'}
-
-```
-
-

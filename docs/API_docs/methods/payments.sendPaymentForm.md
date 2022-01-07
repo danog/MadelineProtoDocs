@@ -46,12 +46,6 @@ $MadelineProto->start();
 $payments_PaymentResult = $MadelineProto->payments->sendPaymentForm(['form_id' => long, 'peer' => InputPeer, 'msg_id' => int, 'requested_info_id' => 'string', 'shipping_option_id' => 'string', 'credentials' => InputPaymentCredentials, 'tip_amount' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-payments_PaymentResult = payments.sendPaymentForm({form_id=long, peer=InputPeer, msg_id=int, requested_info_id='string', shipping_option_id='string', credentials=InputPaymentCredentials, tip_amount=long, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

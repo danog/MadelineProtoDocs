@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->updateStatus(['offline' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.updateStatus({offline=Bool, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

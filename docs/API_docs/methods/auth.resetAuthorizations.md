@@ -37,12 +37,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->auth->resetAuthorizations();
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = auth.resetAuthorizations({})
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -22,13 +22,3 @@ Filter for messages containing documents.
 ```php
 $inputMessagesFilterDocument = ['_' => 'inputMessagesFilterDocument'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMessagesFilterDocument={_='inputMessagesFilterDocument'}
-
-```
-
-

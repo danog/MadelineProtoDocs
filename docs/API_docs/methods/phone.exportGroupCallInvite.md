@@ -39,9 +39,3 @@ $MadelineProto->start();
 $phone_ExportedGroupCallInvite = $MadelineProto->phone->exportGroupCallInvite(['can_self_unmute' => Bool, 'call' => InputGroupCall, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-phone_ExportedGroupCallInvite = phone.exportGroupCallInvite({can_self_unmute=Bool, call=InputGroupCall, })
-```
-

@@ -27,13 +27,3 @@ A language pack has changed, the client should manually fetch the changed string
 ```php
 $updateLangPackTooLong = ['_' => 'updateLangPackTooLong', 'lang_code' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateLangPackTooLong={_='updateLangPackTooLong', lang_code='string'}
-
-```
-
-

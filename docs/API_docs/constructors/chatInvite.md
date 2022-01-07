@@ -36,13 +36,3 @@ Chat invite info
 ```php
 $chatInvite = ['_' => 'chatInvite', 'channel' => Bool, 'broadcast' => Bool, 'public' => Bool, 'megagroup' => Bool, 'request_needed' => Bool, 'title' => 'string', 'about' => 'string', 'photo' => Photo, 'participants_count' => int, 'participants' => [User, User]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-chatInvite={_='chatInvite', channel=Bool, broadcast=Bool, public=Bool, megagroup=Bool, request_needed=Bool, title='string', about='string', photo=Photo, participants_count=int, participants={User}}
-
-```
-
-

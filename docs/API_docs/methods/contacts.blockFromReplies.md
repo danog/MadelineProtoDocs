@@ -43,9 +43,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->contacts->blockFromReplies(['delete_message' => Bool, 'delete_history' => Bool, 'report_spam' => Bool, 'msg_id' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = contacts.blockFromReplies({delete_message=Bool, delete_history=Bool, report_spam=Bool, msg_id=int, })
-```
-

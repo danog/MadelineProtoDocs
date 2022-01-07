@@ -27,13 +27,3 @@ Global privacy settings
 ```php
 $globalPrivacySettings = ['_' => 'globalPrivacySettings', 'archive_and_mute_new_noncontact_peers' => Bool];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-globalPrivacySettings={_='globalPrivacySettings', archive_and_mute_new_noncontact_peers=Bool}
-
-```
-
-

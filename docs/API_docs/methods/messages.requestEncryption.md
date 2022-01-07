@@ -41,12 +41,6 @@ $MadelineProto->start();
 $EncryptedChat = $MadelineProto->messages->requestEncryption(['user_id' => InputUser, 'g_a' => 'bytes', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-EncryptedChat = messages.requestEncryption({user_id=InputUser, g_a='bytes', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -27,13 +27,3 @@ The user's offline status.
 ```php
 $userStatusOffline = ['_' => 'userStatusOffline', 'was_online' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-userStatusOffline={_='userStatusOffline', was_online=int}
-
-```
-
-

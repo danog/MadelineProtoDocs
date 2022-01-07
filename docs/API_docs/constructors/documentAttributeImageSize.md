@@ -28,13 +28,3 @@ Defines the width and height of an image uploaded as document
 ```php
 $documentAttributeImageSize = ['_' => 'documentAttributeImageSize', 'w' => int, 'h' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-documentAttributeImageSize={_='documentAttributeImageSize', w=int, h=int}
-
-```
-
-

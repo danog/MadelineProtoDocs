@@ -28,13 +28,3 @@ Geographical location of supergroup (geogroups)
 ```php
 $channelLocation = ['_' => 'channelLocation', 'geo_point' => GeoPoint, 'address' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelLocation={_='channelLocation', geo_point=GeoPoint, address='string'}
-
-```
-
-

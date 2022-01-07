@@ -22,13 +22,3 @@ Represents the absence of a channel
 ```php
 $inputChannelEmpty = ['_' => 'inputChannelEmpty'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputChannelEmpty={_='inputChannelEmpty'}
-
-```
-
-

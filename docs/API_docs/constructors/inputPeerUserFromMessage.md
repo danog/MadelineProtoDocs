@@ -29,13 +29,3 @@ Defines a [min](https://core.telegram.org/api/min) user that was seen in a certa
 ```php
 $inputPeerUserFromMessage = ['_' => 'inputPeerUserFromMessage', 'peer' => InputPeer, 'msg_id' => int, 'user_id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPeerUserFromMessage={_='inputPeerUserFromMessage', peer=InputPeer, msg_id=int, user_id=long}
-
-```
-
-

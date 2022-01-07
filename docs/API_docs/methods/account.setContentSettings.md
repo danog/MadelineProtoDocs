@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->setContentSettings(['sensitive_enabled' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.setContentSettings({sensitive_enabled=Bool, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

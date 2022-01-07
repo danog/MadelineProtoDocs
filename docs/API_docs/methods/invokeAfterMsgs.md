@@ -40,9 +40,3 @@ $MadelineProto->start();
 $X = $MadelineProto->invokeAfterMsgs(['msg_ids' => [long, long], 'query' => !X, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-X = invokeAfterMsgs({msg_ids={long}, query=!X, })
-```
-

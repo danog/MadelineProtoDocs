@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->editChatAbout(['peer' => InputPeer, 'about' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.editChatAbout({peer=InputPeer, about='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

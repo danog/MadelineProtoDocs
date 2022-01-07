@@ -41,9 +41,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->payments->clearSavedInfo(['credentials' => Bool, 'info' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = payments.clearSavedInfo({credentials=Bool, info=Bool, })
-```
-

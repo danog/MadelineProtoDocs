@@ -30,13 +30,3 @@ Myself
 ```php
 $channelParticipantSelf = ['_' => 'channelParticipantSelf', 'via_request' => Bool, 'user_id' => long, 'inviter_id' => long, 'date' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelParticipantSelf={_='channelParticipantSelf', via_request=Bool, user_id=long, inviter_id=long, date=int}
-
-```
-
-

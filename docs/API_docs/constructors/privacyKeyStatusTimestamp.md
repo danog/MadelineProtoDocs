@@ -22,13 +22,3 @@ Whether we can see the last online timestamp
 ```php
 $privacyKeyStatusTimestamp = ['_' => 'privacyKeyStatusTimestamp'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-privacyKeyStatusTimestamp={_='privacyKeyStatusTimestamp'}
-
-```
-
-

@@ -42,12 +42,6 @@ $MadelineProto->start();
 $upload_WebFile = $MadelineProto->upload->getWebFile(['location' => InputWebFileLocation, 'offset' => int, 'limit' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-upload_WebFile = upload.getWebFile({location=InputWebFileLocation, offset=int, limit=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -35,9 +35,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->getAllDrafts();
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.getAllDrafts({})
-```
-

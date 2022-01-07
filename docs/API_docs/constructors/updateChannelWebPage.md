@@ -30,13 +30,3 @@ A webpage preview of a link in a [channel/supergroup](https://core.telegram.org/
 ```php
 $updateChannelWebPage = ['_' => 'updateChannelWebPage', 'channel_id' => long, 'webpage' => WebPage, 'pts' => int, 'pts_count' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateChannelWebPage={_='updateChannelWebPage', channel_id=long, webpage=WebPage, pts=int, pts_count=int}
-
-```
-
-

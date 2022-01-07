@@ -22,13 +22,3 @@ Day theme
 ```php
 $baseThemeDay = ['_' => 'baseThemeDay'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-baseThemeDay={_='baseThemeDay'}
-
-```
-
-

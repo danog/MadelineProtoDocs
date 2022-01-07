@@ -27,13 +27,3 @@ Fetch only kicked participants
 ```php
 $channelParticipantsKicked = ['_' => 'channelParticipantsKicked', 'q' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelParticipantsKicked={_='channelParticipantsKicked', q='string'}
-
-```
-
-

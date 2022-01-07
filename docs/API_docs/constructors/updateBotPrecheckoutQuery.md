@@ -33,13 +33,3 @@ This object contains information about an incoming pre-checkout query.
 ```php
 $updateBotPrecheckoutQuery = ['_' => 'updateBotPrecheckoutQuery', 'query_id' => long, 'user_id' => long, 'payload' => 'bytes', 'info' => PaymentRequestedInfo, 'shipping_option_id' => 'string', 'currency' => 'string', 'total_amount' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateBotPrecheckoutQuery={_='updateBotPrecheckoutQuery', query_id=long, user_id=long, payload='bytes', info=PaymentRequestedInfo, shipping_option_id='string', currency='string', total_amount=long}
-
-```
-
-

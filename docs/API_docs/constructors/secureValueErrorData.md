@@ -30,13 +30,3 @@ Represents an issue in one of the data fields that was provided by the user. The
 ```php
 $secureValueErrorData = ['_' => 'secureValueErrorData', 'type' => SecureValueType, 'data_hash' => 'bytes', 'field' => 'string', 'text' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureValueErrorData={_='secureValueErrorData', type=SecureValueType, data_hash='bytes', field='string', text='string'}
-
-```
-
-

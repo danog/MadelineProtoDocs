@@ -26,13 +26,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $groupCallParticipantVideoSourceGroup = ['_' => 'groupCallParticipantVideoSourceGroup', 'semantics' => 'string', 'sources' => [int, int]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-groupCallParticipantVideoSourceGroup={_='groupCallParticipantVideoSourceGroup', semantics='string', sources={int}}
-
-```
-
-

@@ -41,12 +41,6 @@ $MadelineProto->start();
 $stats_MegagroupStats = $MadelineProto->stats->getMegagroupStats(['dark' => Bool, 'channel' => InputChannel, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-stats_MegagroupStats = stats.getMegagroupStats({dark=Bool, channel=InputChannel, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -22,13 +22,3 @@ Utility bill
 ```php
 $secureValueTypeUtilityBill = ['_' => 'secureValueTypeUtilityBill'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureValueTypeUtilityBill={_='secureValueTypeUtilityBill'}
-
-```
-
-

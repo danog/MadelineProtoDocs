@@ -22,13 +22,3 @@ Allow all users
 ```php
 $inputPrivacyValueAllowAll = ['_' => 'inputPrivacyValueAllowAll'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPrivacyValueAllowAll={_='inputPrivacyValueAllowAll'}
-
-```
-
-

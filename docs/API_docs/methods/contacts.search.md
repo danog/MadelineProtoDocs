@@ -41,12 +41,6 @@ $MadelineProto->start();
 $contacts_Found = $MadelineProto->contacts->search(['q' => 'string', 'limit' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-contacts_Found = contacts.search({q='string', limit=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

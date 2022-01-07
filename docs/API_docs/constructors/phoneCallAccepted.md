@@ -34,13 +34,3 @@ An accepted phone call
 ```php
 $phoneCallAccepted = ['_' => 'phoneCallAccepted', 'video' => Bool, 'id' => long, 'access_hash' => long, 'date' => int, 'admin_id' => long, 'participant_id' => long, 'g_b' => 'bytes', 'protocol' => PhoneCallProtocol];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-phoneCallAccepted={_='phoneCallAccepted', video=Bool, id=long, access_hash=long, date=int, admin_id=long, participant_id=long, g_b='bytes', protocol=PhoneCallProtocol}
-
-```
-
-

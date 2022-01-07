@@ -22,13 +22,3 @@ Empty constructor.
 ```php
 $inputPhotoEmpty = ['_' => 'inputPhotoEmpty'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPhotoEmpty={_='inputPhotoEmpty'}
-
-```
-
-

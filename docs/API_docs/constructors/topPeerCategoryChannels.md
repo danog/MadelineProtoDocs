@@ -22,13 +22,3 @@ Most frequently visited channels
 ```php
 $topPeerCategoryChannels = ['_' => 'topPeerCategoryChannels'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-topPeerCategoryChannels={_='topPeerCategoryChannels'}
-
-```
-
-

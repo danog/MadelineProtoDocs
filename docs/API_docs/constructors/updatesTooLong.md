@@ -22,13 +22,3 @@ Too many updates, it is necessary to execute [updates.getDifference](../methods/
 ```php
 $updatesTooLong = ['_' => 'updatesTooLong'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updatesTooLong={_='updatesTooLong'}
-
-```
-
-

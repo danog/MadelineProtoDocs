@@ -22,13 +22,3 @@ Empty constructor
 ```php
 $secureFileEmpty = ['_' => 'secureFileEmpty'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureFileEmpty={_='secureFileEmpty'}
-
-```
-
-

@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->installWallPaper(['wallpaper' => InputWallPaper, 'settings' => WallPaperSettings, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.installWallPaper({wallpaper=InputWallPaper, settings=WallPaperSettings, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

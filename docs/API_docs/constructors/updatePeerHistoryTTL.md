@@ -26,13 +26,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $updatePeerHistoryTTL = ['_' => 'updatePeerHistoryTTL', 'peer' => Peer, 'ttl_period' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updatePeerHistoryTTL={_='updatePeerHistoryTTL', peer=Peer, ttl_period=int}
-
-```
-
-

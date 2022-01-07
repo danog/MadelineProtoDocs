@@ -41,12 +41,6 @@ $MadelineProto->start();
 $LangPackDifference = $MadelineProto->langpack->getLangPack(['lang_pack' => 'string', 'lang_code' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-LangPackDifference = langpack.getLangPack({lang_pack='string', lang_code='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

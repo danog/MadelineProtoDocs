@@ -27,13 +27,3 @@ Fetch only participants that are also contacts
 ```php
 $channelParticipantsContacts = ['_' => 'channelParticipantsContacts', 'q' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelParticipantsContacts={_='channelParticipantsContacts', q='string'}
-
-```
-
-

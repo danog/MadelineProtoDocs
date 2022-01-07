@@ -29,13 +29,3 @@ Compute the percentage simply by doing `part * total / 100`
 ```php
 $statsPercentValue = ['_' => 'statsPercentValue', 'part' => double, 'total' => double];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-statsPercentValue={_='statsPercentValue', part=double, total=double}
-
-```
-
-

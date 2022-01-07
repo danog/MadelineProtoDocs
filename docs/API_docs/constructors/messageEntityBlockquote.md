@@ -28,13 +28,3 @@ Message entity representing a block quote.
 ```php
 $messageEntityBlockquote = ['_' => 'messageEntityBlockquote', 'offset' => int, 'length' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageEntityBlockquote={_='messageEntityBlockquote', offset=int, length=int}
-
-```
-
-

@@ -22,13 +22,3 @@ Report for child abuse
 ```php
 $inputReportReasonChildAbuse = ['_' => 'inputReportReasonChildAbuse'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputReportReasonChildAbuse={_='inputReportReasonChildAbuse'}
-
-```
-
-

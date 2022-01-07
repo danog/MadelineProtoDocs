@@ -27,13 +27,3 @@ This [channel statistics graph](https://core.telegram.org/api/stats) must be gen
 ```php
 $statsGraphAsync = ['_' => 'statsGraphAsync', 'token' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-statsGraphAsync={_='statsGraphAsync', token='string'}
-
-```
-
-

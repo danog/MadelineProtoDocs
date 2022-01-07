@@ -44,12 +44,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->updatePinnedMessage(['silent' => Bool, 'unpin' => Bool, 'pm_oneside' => Bool, 'peer' => InputPeer, 'id' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.updatePinnedMessage({silent=Bool, unpin=Bool, pm_oneside=Bool, peer=InputPeer, id=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

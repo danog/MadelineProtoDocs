@@ -28,13 +28,3 @@ Indicates an already sent game
 ```php
 $inputGameID = ['_' => 'inputGameID', 'id' => long, 'access_hash' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputGameID={_='inputGameID', id=long, access_hash=long}
-
-```
-
-

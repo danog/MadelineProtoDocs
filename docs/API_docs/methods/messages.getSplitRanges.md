@@ -35,9 +35,3 @@ $MadelineProto->start();
 $Vector_of_MessageRange = $MadelineProto->messages->getSplitRanges();
 ```
 
-Or, if you're into Lua:
-
-```lua
-Vector_of_MessageRange = messages.getSplitRanges({})
-```
-

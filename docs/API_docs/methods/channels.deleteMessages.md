@@ -41,12 +41,6 @@ $MadelineProto->start();
 $messages_AffectedMessages = $MadelineProto->channels->deleteMessages(['channel' => InputChannel, 'id' => [int, int], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_AffectedMessages = channels.deleteMessages({channel=InputChannel, id={int}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

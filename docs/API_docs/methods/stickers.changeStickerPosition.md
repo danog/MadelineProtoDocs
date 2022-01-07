@@ -41,12 +41,6 @@ $MadelineProto->start();
 $messages_StickerSet = $MadelineProto->stickers->changeStickerPosition(['sticker' => InputDocument, 'position' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_StickerSet = stickers.changeStickerPosition({sticker=InputDocument, position=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

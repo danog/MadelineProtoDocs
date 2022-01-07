@@ -41,12 +41,6 @@ $MadelineProto->start();
 $channels_ChannelParticipant = $MadelineProto->channels->getParticipant(['channel' => InputChannel, 'participant' => InputPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-channels_ChannelParticipant = channels.getParticipant({channel=InputChannel, participant=InputPeer, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

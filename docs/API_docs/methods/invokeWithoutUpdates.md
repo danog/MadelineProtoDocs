@@ -39,9 +39,3 @@ $MadelineProto->start();
 $X = $MadelineProto->invokeWithoutUpdates(['query' => !X, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-X = invokeWithoutUpdates({query=!X, })
-```
-

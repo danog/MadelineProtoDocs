@@ -27,13 +27,3 @@ Allow only participants of certain chats
 ```php
 $inputPrivacyValueAllowChatParticipants = ['_' => 'inputPrivacyValueAllowChatParticipants', 'chats' => [long, long]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPrivacyValueAllowChatParticipants={_='inputPrivacyValueAllowChatParticipants', chats={long}}
-
-```
-
-

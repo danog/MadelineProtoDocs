@@ -22,13 +22,3 @@ Chats to which the users often forwards messages to
 ```php
 $topPeerCategoryForwardChats = ['_' => 'topPeerCategoryForwardChats'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-topPeerCategoryForwardChats={_='topPeerCategoryForwardChats'}
-
-```
-
-

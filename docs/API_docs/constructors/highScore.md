@@ -29,13 +29,3 @@ Game highscore
 ```php
 $highScore = ['_' => 'highScore', 'pos' => int, 'user_id' => long, 'score' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-highScore={_='highScore', pos=int, user_id=long, score=int}
-
-```
-
-

@@ -27,13 +27,3 @@ JSON numeric value
 ```php
 $jsonNumber = ['_' => 'jsonNumber', 'value' => double];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-jsonNumber={_='jsonNumber', value=double}
-
-```
-
-

@@ -28,13 +28,3 @@ Represents a channel
 ```php
 $inputChannel = ['_' => 'inputChannel', 'channel_id' => long, 'access_hash' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputChannel={_='inputChannel', channel_id=long, access_hash=long}
-
-```
-
-

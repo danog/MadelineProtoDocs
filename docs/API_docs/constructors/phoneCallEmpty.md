@@ -27,13 +27,3 @@ Empty constructor
 ```php
 $phoneCallEmpty = ['_' => 'phoneCallEmpty', 'id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-phoneCallEmpty={_='phoneCallEmpty', id=long}
-
-```
-
-

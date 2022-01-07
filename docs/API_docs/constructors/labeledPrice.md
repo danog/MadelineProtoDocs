@@ -28,13 +28,3 @@ This object represents a portion of the price for goods or services.
 ```php
 $labeledPrice = ['_' => 'labeledPrice', 'label' => 'string', 'amount' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-labeledPrice={_='labeledPrice', label='string', amount=long}
-
-```
-
-

@@ -31,13 +31,3 @@ Attached contact.
 ```php
 $messageMediaContact = ['_' => 'messageMediaContact', 'phone_number' => 'string', 'first_name' => 'string', 'last_name' => 'string', 'vcard' => 'string', 'user_id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageMediaContact={_='messageMediaContact', phone_number='string', first_name='string', last_name='string', vcard='string', user_id=long}
-
-```
-
-

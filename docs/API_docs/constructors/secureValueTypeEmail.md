@@ -22,13 +22,3 @@ Email
 ```php
 $secureValueTypeEmail = ['_' => 'secureValueTypeEmail'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureValueTypeEmail={_='secureValueTypeEmail'}
-
-```
-
-

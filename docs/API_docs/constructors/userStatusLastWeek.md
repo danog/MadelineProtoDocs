@@ -22,13 +22,3 @@ Online status: last seen last week
 ```php
 $userStatusLastWeek = ['_' => 'userStatusLastWeek'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-userStatusLastWeek={_='userStatusLastWeek'}
-
-```
-
-

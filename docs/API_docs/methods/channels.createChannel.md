@@ -46,12 +46,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->channels->createChannel(['broadcast' => Bool, 'megagroup' => Bool, 'for_import' => Bool, 'title' => 'string', 'about' => 'string', 'geo_point' => InputGeoPoint, 'address' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = channels.createChannel({broadcast=Bool, megagroup=Bool, for_import=Bool, title='string', about='string', geo_point=InputGeoPoint, address='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

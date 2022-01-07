@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->folders->editPeerFolders(['folder_peers' => [InputFolderPeer, InputFolderPeer], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = folders.editPeerFolders({folder_peers={InputFolderPeer}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

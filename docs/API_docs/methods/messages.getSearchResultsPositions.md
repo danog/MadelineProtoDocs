@@ -41,9 +41,3 @@ $MadelineProto->start();
 $messages_SearchResultsPositions = $MadelineProto->messages->getSearchResultsPositions(['peer' => InputPeer, 'filter' => MessagesFilter, 'offset_id' => int, 'limit' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_SearchResultsPositions = messages.getSearchResultsPositions({peer=InputPeer, filter=MessagesFilter, offset_id=int, limit=int, })
-```
-

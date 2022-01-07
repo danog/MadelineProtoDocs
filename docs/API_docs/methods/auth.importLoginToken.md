@@ -42,12 +42,6 @@ $MadelineProto->start();
 $auth_LoginToken = $MadelineProto->auth->importLoginToken(['token' => 'bytes', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-auth_LoginToken = auth.importLoginToken({token='bytes', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

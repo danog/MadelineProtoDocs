@@ -30,13 +30,3 @@ Deep linking info
 ```php
 $help_deepLinkInfo = ['_' => 'help.deepLinkInfo', 'update_app' => Bool, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-help_deepLinkInfo={_='help.deepLinkInfo', update_app=Bool, message='string', entities={MessageEntity}}
-
-```
-
-

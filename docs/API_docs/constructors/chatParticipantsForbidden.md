@@ -28,13 +28,3 @@ Info on members is unavailable
 ```php
 $chatParticipantsForbidden = ['_' => 'chatParticipantsForbidden', 'chat_id' => long, 'self_participant' => ChatParticipant];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-chatParticipantsForbidden={_='chatParticipantsForbidden', chat_id=long, self_participant=ChatParticipant}
-
-```
-
-

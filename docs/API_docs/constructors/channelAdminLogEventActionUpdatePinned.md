@@ -27,13 +27,3 @@ A message was pinned
 ```php
 $channelAdminLogEventActionUpdatePinned = ['_' => 'channelAdminLogEventActionUpdatePinned', 'message' => Message];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionUpdatePinned={_='channelAdminLogEventActionUpdatePinned', message=Message}
-
-```
-
-

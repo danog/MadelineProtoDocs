@@ -30,13 +30,3 @@ Change of contact's profile photo.
 ```php
 $updateUserPhoto = ['_' => 'updateUserPhoto', 'user_id' => long, 'date' => int, 'photo' => UserProfilePhoto, 'previous' => Bool];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateUserPhoto={_='updateUserPhoto', user_id=long, date=int, photo=UserProfilePhoto, previous=Bool}
-
-```
-
-

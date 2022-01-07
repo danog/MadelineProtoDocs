@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->reportProfilePhoto(['peer' => InputPeer, 'photo_id' => InputPhoto, 'reason' => ReportReason, 'message' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.reportProfilePhoto({peer=InputPeer, photo_id=InputPhoto, reason=ReportReason, message='string', })
-```
-
 
 ## Return value 
 

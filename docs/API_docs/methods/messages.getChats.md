@@ -40,12 +40,6 @@ $MadelineProto->start();
 $messages_Chats = $MadelineProto->messages->getChats(['id' => [long, long], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_Chats = messages.getChats({id={long}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

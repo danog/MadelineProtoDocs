@@ -22,13 +22,3 @@ No location (normal supergroup)
 ```php
 $channelLocationEmpty = ['_' => 'channelLocationEmpty'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelLocationEmpty={_='channelLocationEmpty'}
-
-```
-
-

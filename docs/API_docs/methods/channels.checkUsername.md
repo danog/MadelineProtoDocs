@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->channels->checkUsername(['channel' => InputChannel, 'username' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = channels.checkUsername({channel=InputChannel, username='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

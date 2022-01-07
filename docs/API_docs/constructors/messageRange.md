@@ -28,13 +28,3 @@ Indicates a range of chat messages
 ```php
 $messageRange = ['_' => 'messageRange', 'min_id' => int, 'max_id' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageRange={_='messageRange', min_id=int, max_id=int}
-
-```
-
-

@@ -27,13 +27,3 @@ Empty draft
 ```php
 $draftMessageEmpty = ['_' => 'draftMessageEmpty', 'date' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-draftMessageEmpty={_='draftMessageEmpty', date=int}
-
-```
-
-

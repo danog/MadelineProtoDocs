@@ -29,13 +29,3 @@ The user is preparing a message in a group; typing, recording, uploading, etc. T
 ```php
 $updateChatUserTyping = ['_' => 'updateChatUserTyping', 'chat_id' => long, 'from_id' => Peer, 'action' => SendMessageAction];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateChatUserTyping={_='updateChatUserTyping', chat_id=long, from_id=Peer, action=SendMessageAction}
-
-```
-
-

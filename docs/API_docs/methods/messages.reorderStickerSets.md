@@ -41,9 +41,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->reorderStickerSets(['masks' => Bool, 'order' => [long, long], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.reorderStickerSets({masks=Bool, order={long}, })
-```
-

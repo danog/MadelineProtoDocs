@@ -31,13 +31,3 @@ Contains user authorization info.
 ```php
 $auth_authorization = ['_' => 'auth.authorization', 'setup_password_required' => Bool, 'otherwise_relogin_days' => int, 'tmp_sessions' => int, 'user' => User];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-auth_authorization={_='auth.authorization', setup_password_required=Bool, otherwise_relogin_days=int, tmp_sessions=int, user=User}
-
-```
-
-

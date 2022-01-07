@@ -29,13 +29,3 @@ Secure value error
 ```php
 $secureValueError = ['_' => 'secureValueError', 'type' => SecureValueType, 'hash' => 'bytes', 'text' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureValueError={_='secureValueError', type=SecureValueType, hash='bytes', text='string'}
-
-```
-
-

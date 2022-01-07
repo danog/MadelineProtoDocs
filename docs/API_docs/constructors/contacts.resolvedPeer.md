@@ -30,13 +30,3 @@ Resolved peer
 ```php
 $contacts_resolvedPeer = ['_' => 'contacts.resolvedPeer', 'peer' => Peer, 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-contacts_resolvedPeer={_='contacts.resolvedPeer', peer=Peer, chats={Chat}, users={User}}
-
-```
-
-

@@ -28,13 +28,3 @@ Message entity representing a **$cashtag**.
 ```php
 $messageEntityCashtag = ['_' => 'messageEntityCashtag', 'offset' => int, 'length' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageEntityCashtag={_='messageEntityCashtag', offset=int, length=int}
-
-```
-
-

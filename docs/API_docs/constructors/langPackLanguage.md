@@ -37,13 +37,3 @@ Identifies a localization pack
 ```php
 $langPackLanguage = ['_' => 'langPackLanguage', 'official' => Bool, 'rtl' => Bool, 'beta' => Bool, 'name' => 'string', 'native_name' => 'string', 'lang_code' => 'string', 'base_lang_code' => 'string', 'plural_code' => 'string', 'strings_count' => int, 'translated_count' => int, 'translations_url' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-langPackLanguage={_='langPackLanguage', official=Bool, rtl=Bool, beta=Bool, name='string', native_name='string', lang_code='string', base_lang_code='string', plural_code='string', strings_count=int, translated_count=int, translations_url='string'}
-
-```
-
-

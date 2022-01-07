@@ -28,13 +28,3 @@ Payment credentials
 ```php
 $inputPaymentCredentials = ['_' => 'inputPaymentCredentials', 'save' => Bool, 'data' => DataJSON];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPaymentCredentials={_='inputPaymentCredentials', save=Bool, data=DataJSON}
-
-```
-
-

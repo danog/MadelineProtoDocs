@@ -31,13 +31,3 @@ Some messages were pinned in a chat
 ```php
 $updatePinnedMessages = ['_' => 'updatePinnedMessages', 'pinned' => Bool, 'peer' => Peer, 'messages' => [int, int], 'pts' => int, 'pts_count' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updatePinnedMessages={_='updatePinnedMessages', pinned=Bool, peer=Peer, messages={int}, pts=int, pts_count=int}
-
-```
-
-

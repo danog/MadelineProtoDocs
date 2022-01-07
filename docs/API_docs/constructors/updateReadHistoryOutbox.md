@@ -30,13 +30,3 @@ Outgoing messages were read
 ```php
 $updateReadHistoryOutbox = ['_' => 'updateReadHistoryOutbox', 'peer' => Peer, 'max_id' => int, 'pts' => int, 'pts_count' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateReadHistoryOutbox={_='updateReadHistoryOutbox', peer=Peer, max_id=int, pts=int, pts_count=int}
-
-```
-
-

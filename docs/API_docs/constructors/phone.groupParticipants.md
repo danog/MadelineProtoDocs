@@ -31,13 +31,3 @@ redirect_from: /API_docs/constructors/phone_groupParticipants.html
 ```php
 $phone_groupParticipants = ['_' => 'phone.groupParticipants', 'count' => int, 'participants' => [GroupCallParticipant, GroupCallParticipant], 'next_offset' => 'string', 'chats' => [Chat, Chat], 'users' => [User, User], 'version' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-phone_groupParticipants={_='phone.groupParticipants', count=int, participants={GroupCallParticipant}, next_offset='string', chats={Chat}, users={User}, version=int}
-
-```
-
-

@@ -30,13 +30,3 @@ Notification settings.
 ```php
 $peerNotifySettings = ['_' => 'peerNotifySettings', 'show_previews' => Bool, 'silent' => Bool, 'mute_until' => int, 'sound' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-peerNotifySettings={_='peerNotifySettings', show_previews=Bool, silent=Bool, mute_until=int, sound='string'}
-
-```
-
-

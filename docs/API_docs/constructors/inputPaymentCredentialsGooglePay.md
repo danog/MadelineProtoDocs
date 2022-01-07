@@ -25,13 +25,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $inputPaymentCredentialsGooglePay = ['_' => 'inputPaymentCredentialsGooglePay', 'payment_token' => DataJSON];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPaymentCredentialsGooglePay={_='inputPaymentCredentialsGooglePay', payment_token=DataJSON}
-
-```
-
-

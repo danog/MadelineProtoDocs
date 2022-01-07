@@ -22,13 +22,3 @@ Return only chat photo changes
 ```php
 $inputMessagesFilterChatPhotos = ['_' => 'inputMessagesFilterChatPhotos'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMessagesFilterChatPhotos={_='inputMessagesFilterChatPhotos'}
-
-```
-
-

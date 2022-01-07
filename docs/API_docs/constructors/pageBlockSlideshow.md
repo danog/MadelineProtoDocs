@@ -28,13 +28,3 @@ Slideshow
 ```php
 $pageBlockSlideshow = ['_' => 'pageBlockSlideshow', 'items' => [PageBlock, PageBlock], 'caption' => PageCaption];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockSlideshow={_='pageBlockSlideshow', items={PageBlock}, caption=PageCaption}
-
-```
-
-

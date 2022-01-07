@@ -38,12 +38,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->channels->convertToGigagroup(['channel' => InputChannel, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = channels.convertToGigagroup({channel=InputChannel, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

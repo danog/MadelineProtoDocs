@@ -25,13 +25,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $channelAdminLogEventActionToggleGroupCallSetting = ['_' => 'channelAdminLogEventActionToggleGroupCallSetting', 'join_muted' => Bool];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionToggleGroupCallSetting={_='channelAdminLogEventActionToggleGroupCallSetting', join_muted=Bool}
-
-```
-
-

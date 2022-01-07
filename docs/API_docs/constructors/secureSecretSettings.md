@@ -29,13 +29,3 @@ Secure settings
 ```php
 $secureSecretSettings = ['_' => 'secureSecretSettings', 'secure_algo' => SecurePasswordKdfAlgo, 'secure_secret' => 'bytes', 'secure_secret_id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureSecretSettings={_='secureSecretSettings', secure_algo=SecurePasswordKdfAlgo, secure_secret='bytes', secure_secret_id=long}
-
-```
-
-

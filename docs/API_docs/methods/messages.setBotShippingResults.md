@@ -42,12 +42,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->setBotShippingResults(['query_id' => long, 'error' => 'string', 'shipping_options' => [ShippingOption, ShippingOption], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.setBotShippingResults({query_id=long, error='string', shipping_options={ShippingOption}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

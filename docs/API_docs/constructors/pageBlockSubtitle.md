@@ -27,13 +27,3 @@ Subtitle
 ```php
 $pageBlockSubtitle = ['_' => 'pageBlockSubtitle', 'text' => RichText];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockSubtitle={_='pageBlockSubtitle', text=RichText}
-
-```
-
-

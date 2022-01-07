@@ -28,13 +28,3 @@ The order of stickersets was changed
 ```php
 $updateStickerSetsOrder = ['_' => 'updateStickerSetsOrder', 'masks' => Bool, 'order' => [long, long]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateStickerSetsOrder={_='updateStickerSetsOrder', masks=Bool, order={long}}
-
-```
-
-

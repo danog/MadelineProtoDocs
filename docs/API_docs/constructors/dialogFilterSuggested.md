@@ -28,13 +28,3 @@ Suggested [folders](https://core.telegram.org/api/folders)
 ```php
 $dialogFilterSuggested = ['_' => 'dialogFilterSuggested', 'filter' => DialogFilter, 'description' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-dialogFilterSuggested={_='dialogFilterSuggested', filter=DialogFilter, description='string'}
-
-```
-
-

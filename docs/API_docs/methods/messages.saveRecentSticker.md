@@ -42,12 +42,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->saveRecentSticker(['attached' => Bool, 'id' => InputDocument, 'unsave' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.saveRecentSticker({attached=Bool, id=InputDocument, unsave=Bool, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

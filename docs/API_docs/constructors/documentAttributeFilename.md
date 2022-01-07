@@ -27,13 +27,3 @@ A simple document with a file name
 ```php
 $documentAttributeFilename = ['_' => 'documentAttributeFilename', 'file_name' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-documentAttributeFilename={_='documentAttributeFilename', file_name='string'}
-
-```
-
-

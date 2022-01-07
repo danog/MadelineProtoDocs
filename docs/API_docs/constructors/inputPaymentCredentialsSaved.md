@@ -28,13 +28,3 @@ Saved payment credentials
 ```php
 $inputPaymentCredentialsSaved = ['_' => 'inputPaymentCredentialsSaved', 'id' => 'string', 'tmp_password' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPaymentCredentialsSaved={_='inputPaymentCredentialsSaved', id='string', tmp_password='bytes'}
-
-```
-
-

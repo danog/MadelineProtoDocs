@@ -22,13 +22,3 @@ Some featured stickers were marked as read
 ```php
 $updateReadFeaturedStickers = ['_' => 'updateReadFeaturedStickers'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateReadFeaturedStickers={_='updateReadFeaturedStickers'}
-
-```
-
-

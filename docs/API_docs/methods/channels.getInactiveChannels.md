@@ -35,9 +35,3 @@ $MadelineProto->start();
 $messages_InactiveChats = $MadelineProto->channels->getInactiveChannels();
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_InactiveChats = channels.getInactiveChannels({})
-```
-

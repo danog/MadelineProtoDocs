@@ -30,13 +30,3 @@ Changes to emoji keywords
 ```php
 $emojiKeywordsDifference = ['_' => 'emojiKeywordsDifference', 'lang_code' => 'string', 'from_version' => int, 'version' => int, 'keywords' => [EmojiKeyword, EmojiKeyword]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-emojiKeywordsDifference={_='emojiKeywordsDifference', lang_code='string', from_version=int, version=int, keywords={EmojiKeyword}}
-
-```
-
-

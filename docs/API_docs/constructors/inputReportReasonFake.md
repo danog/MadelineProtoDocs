@@ -20,13 +20,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $inputReportReasonFake = ['_' => 'inputReportReasonFake'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputReportReasonFake={_='inputReportReasonFake'}
-
-```
-
-

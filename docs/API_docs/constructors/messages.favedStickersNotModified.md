@@ -23,13 +23,3 @@ No new favorited stickers were found
 ```php
 $messages_favedStickersNotModified = ['_' => 'messages.favedStickersNotModified'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_favedStickersNotModified={_='messages.favedStickersNotModified'}
-
-```
-
-

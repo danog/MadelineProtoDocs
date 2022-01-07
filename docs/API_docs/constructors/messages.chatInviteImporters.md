@@ -28,13 +28,3 @@ redirect_from: /API_docs/constructors/messages_chatInviteImporters.html
 ```php
 $messages_chatInviteImporters = ['_' => 'messages.chatInviteImporters', 'count' => int, 'importers' => [ChatInviteImporter, ChatInviteImporter], 'users' => [User, User]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_chatInviteImporters={_='messages.chatInviteImporters', count=int, importers={ChatInviteImporter}, users={User}}
-
-```
-
-

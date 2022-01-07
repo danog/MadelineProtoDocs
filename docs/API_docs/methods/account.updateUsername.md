@@ -40,12 +40,6 @@ $MadelineProto->start();
 $User = $MadelineProto->account->updateUsername(['username' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-User = account.updateUsername({username='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

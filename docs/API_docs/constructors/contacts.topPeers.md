@@ -30,13 +30,3 @@ Top peers
 ```php
 $contacts_topPeers = ['_' => 'contacts.topPeers', 'categories' => [TopPeerCategoryPeers, TopPeerCategoryPeers], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-contacts_topPeers={_='contacts.topPeers', categories={TopPeerCategoryPeers}, chats={Chat}, users={User}}
-
-```
-
-

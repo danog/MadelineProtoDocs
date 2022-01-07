@@ -29,13 +29,3 @@ Channel/supergroup creator
 ```php
 $channelParticipantCreator = ['_' => 'channelParticipantCreator', 'user_id' => long, 'admin_rights' => ChatAdminRights, 'rank' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelParticipantCreator={_='channelParticipantCreator', user_id=long, admin_rights=ChatAdminRights, rank='string'}
-
-```
-
-

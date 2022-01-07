@@ -33,13 +33,3 @@ Request to create an encrypted chat.
 ```php
 $encryptedChatRequested = ['_' => 'encryptedChatRequested', 'folder_id' => int, 'id' => int, 'access_hash' => long, 'date' => int, 'admin_id' => long, 'participant_id' => long, 'g_a' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-encryptedChatRequested={_='encryptedChatRequested', folder_id=int, id=int, access_hash=long, date=int, admin_id=long, participant_id=long, g_a='bytes'}
-
-```
-
-

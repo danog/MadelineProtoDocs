@@ -42,12 +42,6 @@ $MadelineProto->start();
 $photos_Photo = $MadelineProto->photos->uploadProfilePhoto(['file' => InputFile, 'video' => InputFile, 'video_start_ts' => double, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-photos_Photo = photos.uploadProfilePhoto({file=InputFile, video=InputFile, video_start_ts=double, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

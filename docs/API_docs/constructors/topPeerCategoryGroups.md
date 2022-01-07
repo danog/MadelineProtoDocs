@@ -22,13 +22,3 @@ Often-opened groups and supergroups
 ```php
 $topPeerCategoryGroups = ['_' => 'topPeerCategoryGroups'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-topPeerCategoryGroups={_='topPeerCategoryGroups'}
-
-```
-
-

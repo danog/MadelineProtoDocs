@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->sendScreenshotNotification(['peer' => InputPeer, 'reply_to_msg_id' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.sendScreenshotNotification({peer=InputPeer, reply_to_msg_id=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

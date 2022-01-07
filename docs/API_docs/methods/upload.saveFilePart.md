@@ -42,12 +42,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->upload->saveFilePart(['file_id' => long, 'file_part' => int, 'bytes' => 'bytes', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = upload.saveFilePart({file_id=long, file_part=int, bytes='bytes', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

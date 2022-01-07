@@ -29,13 +29,3 @@ Represents an issue with the translated version of a document. The error is cons
 ```php
 $secureValueErrorTranslationFiles = ['_' => 'secureValueErrorTranslationFiles', 'type' => SecureValueType, 'file_hash' => ['bytes', 'bytes'], 'text' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureValueErrorTranslationFiles={_='secureValueErrorTranslationFiles', type=SecureValueType, file_hash={'bytes'}, text='string'}
-
-```
-
-

@@ -39,9 +39,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->saveDefaultSendAs(['peer' => InputPeer, 'send_as' => InputPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.saveDefaultSendAs({peer=InputPeer, send_as=InputPeer, })
-```
-

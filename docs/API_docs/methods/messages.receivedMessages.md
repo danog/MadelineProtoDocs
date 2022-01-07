@@ -40,9 +40,3 @@ $MadelineProto->start();
 $Vector_of_ReceivedNotifyMessage = $MadelineProto->messages->receivedMessages(['max_id' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Vector_of_ReceivedNotifyMessage = messages.receivedMessages({max_id=int, })
-```
-

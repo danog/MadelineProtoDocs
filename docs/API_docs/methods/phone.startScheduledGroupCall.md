@@ -38,9 +38,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->phone->startScheduledGroupCall(['call' => InputGroupCall, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = phone.startScheduledGroupCall({call=InputGroupCall, })
-```
-

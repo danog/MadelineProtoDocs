@@ -22,13 +22,3 @@ Return only messages containing contacts
 ```php
 $inputMessagesFilterContacts = ['_' => 'inputMessagesFilterContacts'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMessagesFilterContacts={_='inputMessagesFilterContacts'}
-
-```
-
-

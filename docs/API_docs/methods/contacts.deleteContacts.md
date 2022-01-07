@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->contacts->deleteContacts(['id' => [InputUser, InputUser], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = contacts.deleteContacts({id={InputUser}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

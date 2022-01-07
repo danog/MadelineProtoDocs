@@ -34,13 +34,3 @@ Wallpaper settings
 ```php
 $wallPaperSettings = ['_' => 'wallPaperSettings', 'blur' => Bool, 'motion' => Bool, 'background_color' => int, 'second_background_color' => int, 'third_background_color' => int, 'fourth_background_color' => int, 'intensity' => int, 'rotation' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-wallPaperSettings={_='wallPaperSettings', blur=Bool, motion=Bool, background_color=int, second_background_color=int, third_background_color=int, fourth_background_color=int, intensity=int, rotation=int}
-
-```
-
-

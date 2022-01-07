@@ -22,13 +22,3 @@ Empty constructor, remove group photo.
 ```php
 $inputChatPhotoEmpty = ['_' => 'inputChatPhotoEmpty'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputChatPhotoEmpty={_='inputChatPhotoEmpty'}
-
-```
-
-

@@ -42,12 +42,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->channels->reportSpam(['channel' => InputChannel, 'participant' => InputPeer, 'id' => [int, int], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = channels.reportSpam({channel=InputChannel, participant=InputPeer, id={int}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

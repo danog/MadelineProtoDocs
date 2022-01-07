@@ -35,12 +35,6 @@ $MadelineProto->start();
 $CdnConfig = $MadelineProto->help->getCdnConfig();
 ```
 
-Or, if you're into Lua:
-
-```lua
-CdnConfig = help.getCdnConfig({})
-```
-
 ### Errors
 
 | Code | Type     | Description   |

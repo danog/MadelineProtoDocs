@@ -28,13 +28,3 @@ Ordered list of text items
 ```php
 $pageListOrderedItemText = ['_' => 'pageListOrderedItemText', 'num' => 'string', 'text' => RichText];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageListOrderedItemText={_='pageListOrderedItemText', num='string', text=RichText}
-
-```
-
-

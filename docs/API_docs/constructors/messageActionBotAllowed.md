@@ -27,13 +27,3 @@ The domain name of the website on which the user has logged in. [More about Tele
 ```php
 $messageActionBotAllowed = ['_' => 'messageActionBotAllowed', 'domain' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionBotAllowed={_='messageActionBotAllowed', domain='string'}
-
-```
-
-

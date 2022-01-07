@@ -29,13 +29,3 @@ Saved server-side order information
 ```php
 $payments_savedInfo = ['_' => 'payments.savedInfo', 'has_saved_credentials' => Bool, 'saved_info' => PaymentRequestedInfo];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-payments_savedInfo={_='payments.savedInfo', has_saved_credentials=Bool, saved_info=PaymentRequestedInfo}
-
-```
-
-

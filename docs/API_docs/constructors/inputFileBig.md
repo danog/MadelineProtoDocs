@@ -29,13 +29,3 @@ Assigns a big file (over 10Mb in size), saved in part using the method [upload.s
 ```php
 $inputFileBig = ['_' => 'inputFileBig', 'id' => long, 'parts' => int, 'name' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputFileBig={_='inputFileBig', id=long, parts=int, name='string'}
-
-```
-
-

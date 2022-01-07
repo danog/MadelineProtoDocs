@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->setEncryptedTyping(['peer' => InputEncryptedChat, 'typing' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.setEncryptedTyping({peer=InputEncryptedChat, typing=Bool, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

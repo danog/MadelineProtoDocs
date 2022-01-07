@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->saveGif(['id' => InputDocument, 'unsave' => Bool, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.saveGif({id=InputDocument, unsave=Bool, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

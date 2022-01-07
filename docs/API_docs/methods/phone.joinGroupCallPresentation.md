@@ -39,12 +39,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->phone->joinGroupCallPresentation(['call' => InputGroupCall, 'params' => DataJSON, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = phone.joinGroupCallPresentation({call=InputGroupCall, params=DataJSON, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

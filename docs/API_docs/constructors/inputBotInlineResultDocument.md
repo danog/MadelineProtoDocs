@@ -32,13 +32,3 @@ Document (media of any type except for photos)
 ```php
 $inputBotInlineResultDocument = ['_' => 'inputBotInlineResultDocument', 'id' => 'string', 'type' => 'string', 'title' => 'string', 'description' => 'string', 'document' => InputDocument, 'send_message' => InputBotInlineMessage];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputBotInlineResultDocument={_='inputBotInlineResultDocument', id='string', type='string', title='string', description='string', document=InputDocument, send_message=InputBotInlineMessage}
-
-```
-
-

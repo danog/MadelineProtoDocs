@@ -27,13 +27,3 @@ Deleted localization string
 ```php
 $langPackStringDeleted = ['_' => 'langPackStringDeleted', 'key' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-langPackStringDeleted={_='langPackStringDeleted', key='string'}
-
-```
-
-

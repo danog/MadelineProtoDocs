@@ -42,12 +42,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->saveWallPaper(['wallpaper' => InputWallPaper, 'unsave' => Bool, 'settings' => WallPaperSettings, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.saveWallPaper({wallpaper=InputWallPaper, unsave=Bool, settings=WallPaperSettings, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -30,13 +30,3 @@ Some messages in a [supergroup/channel](https://core.telegram.org/api/channel) w
 ```php
 $updateDeleteChannelMessages = ['_' => 'updateDeleteChannelMessages', 'channel_id' => long, 'messages' => [int, int], 'pts' => int, 'pts_count' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateDeleteChannelMessages={_='updateDeleteChannelMessages', channel_id=long, messages={int}, pts=int, pts_count=int}
-
-```
-
-

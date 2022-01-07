@@ -28,13 +28,3 @@ Text linking to another section of the page
 ```php
 $textAnchor = ['_' => 'textAnchor', 'text' => RichText, 'name' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-textAnchor={_='textAnchor', text=RichText, name='string'}
-
-```
-
-

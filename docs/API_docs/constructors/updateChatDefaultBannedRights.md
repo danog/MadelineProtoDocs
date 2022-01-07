@@ -29,13 +29,3 @@ Default banned rights in a [normal chat](https://core.telegram.org/api/channel) 
 ```php
 $updateChatDefaultBannedRights = ['_' => 'updateChatDefaultBannedRights', 'peer' => Peer, 'default_banned_rights' => ChatBannedRights, 'version' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateChatDefaultBannedRights={_='updateChatDefaultBannedRights', peer=Peer, default_banned_rights=ChatBannedRights, version=int}
-
-```
-
-

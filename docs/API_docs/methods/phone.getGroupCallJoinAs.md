@@ -38,9 +38,3 @@ $MadelineProto->start();
 $phone_JoinAsPeers = $MadelineProto->phone->getGroupCallJoinAs(['peer' => InputPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-phone_JoinAsPeers = phone.getGroupCallJoinAs({peer=InputPeer, })
-```
-

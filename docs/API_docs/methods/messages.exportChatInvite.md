@@ -45,12 +45,6 @@ $MadelineProto->start();
 $ExportedChatInvite = $MadelineProto->messages->exportChatInvite(['legacy_revoke_permanent' => Bool, 'request_needed' => Bool, 'peer' => InputPeer, 'expire_date' => int, 'usage_limit' => int, 'title' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-ExportedChatInvite = messages.exportChatInvite({legacy_revoke_permanent=Bool, request_needed=Bool, peer=InputPeer, expire_date=int, usage_limit=int, title='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

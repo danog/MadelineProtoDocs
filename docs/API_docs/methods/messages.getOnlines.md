@@ -40,12 +40,6 @@ $MadelineProto->start();
 $ChatOnlines = $MadelineProto->messages->getOnlines(['peer' => InputPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-ChatOnlines = messages.getOnlines({peer=InputPeer, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -29,13 +29,3 @@ Photo with auxiliary data.
 ```php
 $photos_photo = ['_' => 'photos.photo', 'photo' => Photo, 'users' => [User, User]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-photos_photo={_='photos.photo', photo=Photo, users={User}}
-
-```
-
-

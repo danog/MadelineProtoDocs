@@ -40,9 +40,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->updateDeviceLocked(['period' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.updateDeviceLocked({period=int, })
-```
-

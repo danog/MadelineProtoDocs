@@ -27,13 +27,3 @@ Defines a chat for further interaction.
 ```php
 $inputPeerChat = ['_' => 'inputPeerChat', 'chat_id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPeerChat={_='inputPeerChat', chat_id=long}
-
-```
-
-

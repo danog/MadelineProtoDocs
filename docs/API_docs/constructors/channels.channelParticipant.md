@@ -30,13 +30,3 @@ Represents a channel participant
 ```php
 $channels_channelParticipant = ['_' => 'channels.channelParticipant', 'participant' => ChannelParticipant, 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channels_channelParticipant={_='channels.channelParticipant', participant=ChannelParticipant, chats={Chat}, users={User}}
-
-```
-
-

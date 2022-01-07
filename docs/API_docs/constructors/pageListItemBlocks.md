@@ -27,13 +27,3 @@ List item
 ```php
 $pageListItemBlocks = ['_' => 'pageListItemBlocks', 'blocks' => [PageBlock, PageBlock]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageListItemBlocks={_='pageListItemBlocks', blocks={PageBlock}}
-
-```
-
-

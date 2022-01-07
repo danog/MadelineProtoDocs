@@ -52,12 +52,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->sendMedia(['silent' => Bool, 'background' => Bool, 'clear_draft' => Bool, 'noforwards' => Bool, 'peer' => InputPeer, 'reply_to_msg_id' => int, 'media' => InputMedia, 'message' => 'string', 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', 'schedule_date' => int, 'send_as' => InputPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.sendMedia({silent=Bool, background=Bool, clear_draft=Bool, noforwards=Bool, peer=InputPeer, reply_to_msg_id=int, media=InputMedia, message='string', reply_markup=ReplyMarkup, entities={MessageEntity}, parseMode='string', schedule_date=int, send_as=InputPeer, })
-```
-
 
 ## Usage of reply_markup
 

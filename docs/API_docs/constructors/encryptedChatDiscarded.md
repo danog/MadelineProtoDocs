@@ -28,13 +28,3 @@ Discarded or deleted chat.
 ```php
 $encryptedChatDiscarded = ['_' => 'encryptedChatDiscarded', 'history_deleted' => Bool, 'id' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-encryptedChatDiscarded={_='encryptedChatDiscarded', history_deleted=Bool, id=int}
-
-```
-
-

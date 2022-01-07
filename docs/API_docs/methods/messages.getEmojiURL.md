@@ -40,9 +40,3 @@ $MadelineProto->start();
 $EmojiURL = $MadelineProto->messages->getEmojiURL(['lang_code' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-EmojiURL = messages.getEmojiURL({lang_code='string', })
-```
-

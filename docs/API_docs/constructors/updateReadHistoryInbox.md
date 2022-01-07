@@ -32,13 +32,3 @@ Incoming messages were read
 ```php
 $updateReadHistoryInbox = ['_' => 'updateReadHistoryInbox', 'folder_id' => int, 'peer' => Peer, 'max_id' => int, 'still_unread_count' => int, 'pts' => int, 'pts_count' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateReadHistoryInbox={_='updateReadHistoryInbox', folder_id=int, peer=Peer, max_id=int, still_unread_count=int, pts=int, pts_count=int}
-
-```
-
-

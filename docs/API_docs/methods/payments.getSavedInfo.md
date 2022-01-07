@@ -35,9 +35,3 @@ $MadelineProto->start();
 $payments_SavedInfo = $MadelineProto->payments->getSavedInfo();
 ```
 
-Or, if you're into Lua:
-
-```lua
-payments_SavedInfo = payments.getSavedInfo({})
-```
-

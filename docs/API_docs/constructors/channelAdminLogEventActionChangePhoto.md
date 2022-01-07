@@ -28,13 +28,3 @@ The channel/supergroup's picture was changed
 ```php
 $channelAdminLogEventActionChangePhoto = ['_' => 'channelAdminLogEventActionChangePhoto', 'prev_photo' => Photo, 'new_photo' => Photo];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionChangePhoto={_='channelAdminLogEventActionChangePhoto', prev_photo=Photo, new_photo=Photo}
-
-```
-
-

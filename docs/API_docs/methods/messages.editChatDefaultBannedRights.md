@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->editChatDefaultBannedRights(['peer' => InputPeer, 'banned_rights' => ChatBannedRights, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.editChatDefaultBannedRights({peer=InputPeer, banned_rights=ChatBannedRights, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

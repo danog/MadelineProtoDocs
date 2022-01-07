@@ -23,13 +23,3 @@ Password configuration not modified
 ```php
 $help_passportConfigNotModified = ['_' => 'help.passportConfigNotModified'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-help_passportConfigNotModified={_='help.passportConfigNotModified'}
-
-```
-
-

@@ -27,13 +27,3 @@ An HTTP URL which can be used to automatically log in into translation platform 
 ```php
 $emojiURL = ['_' => 'emojiURL', 'url' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-emojiURL={_='emojiURL', url='string'}
-
-```
-
-

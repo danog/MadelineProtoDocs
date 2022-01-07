@@ -41,12 +41,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->channels->editPhoto(['channel' => InputChannel, 'photo' => InputChatPhoto, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = channels.editPhoto({channel=InputChannel, photo=InputChatPhoto, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

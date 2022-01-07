@@ -41,12 +41,6 @@ $MadelineProto->start();
 $messages_Messages = $MadelineProto->channels->getMessages(['channel' => InputChannel, 'id' => [InputMessage, InputMessage], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_Messages = channels.getMessages({channel=InputChannel, id={InputMessage}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

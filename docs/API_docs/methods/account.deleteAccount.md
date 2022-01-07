@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->deleteAccount(['reason' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = account.deleteAccount({reason='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

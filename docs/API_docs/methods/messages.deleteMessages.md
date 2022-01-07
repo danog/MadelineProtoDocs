@@ -41,12 +41,6 @@ $MadelineProto->start();
 $messages_AffectedMessages = $MadelineProto->messages->deleteMessages(['revoke' => Bool, 'id' => [int, int], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_AffectedMessages = messages.deleteMessages({revoke=Bool, id={int}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

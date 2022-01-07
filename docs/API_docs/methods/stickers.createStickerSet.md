@@ -47,12 +47,6 @@ $MadelineProto->start();
 $messages_StickerSet = $MadelineProto->stickers->createStickerSet(['masks' => Bool, 'animated' => Bool, 'user_id' => InputUser, 'title' => 'string', 'short_name' => 'string', 'thumb' => InputDocument, 'stickers' => [InputStickerSetItem, InputStickerSetItem], 'software' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_StickerSet = stickers.createStickerSet({masks=Bool, animated=Bool, user_id=InputUser, title='string', short_name='string', thumb=InputDocument, stickers={InputStickerSetItem}, software='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

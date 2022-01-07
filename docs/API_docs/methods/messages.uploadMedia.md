@@ -41,12 +41,6 @@ $MadelineProto->start();
 $MessageMedia = $MadelineProto->messages->uploadMedia(['peer' => InputPeer, 'media' => InputMedia, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-MessageMedia = messages.uploadMedia({peer=InputPeer, media=InputMedia, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

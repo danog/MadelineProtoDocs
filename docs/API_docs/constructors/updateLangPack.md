@@ -27,13 +27,3 @@ Language pack updated
 ```php
 $updateLangPack = ['_' => 'updateLangPack', 'difference' => LangPackDifference];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateLangPack={_='updateLangPack', difference=LangPackDifference}
-
-```
-
-

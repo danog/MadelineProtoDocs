@@ -41,12 +41,6 @@ $MadelineProto->start();
 $messages_Stickers = $MadelineProto->messages->getStickers(['emoticon' => 'string', 'hash' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_Stickers = messages.getStickers({emoticon='string', hash=long, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -30,13 +30,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $updateBotChatInviteRequester = ['_' => 'updateBotChatInviteRequester', 'peer' => Peer, 'date' => int, 'user_id' => long, 'about' => 'string', 'invite' => ExportedChatInvite, 'qts' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateBotChatInviteRequester={_='updateBotChatInviteRequester', peer=Peer, date=int, user_id=long, about='string', invite=ExportedChatInvite, qts=int}
-
-```
-
-

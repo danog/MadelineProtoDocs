@@ -29,13 +29,3 @@ Link
 ```php
 $textUrl = ['_' => 'textUrl', 'text' => RichText, 'url' => 'string', 'webpage_id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-textUrl={_='textUrl', text=RichText, url='string', webpage_id=long}
-
-```
-
-

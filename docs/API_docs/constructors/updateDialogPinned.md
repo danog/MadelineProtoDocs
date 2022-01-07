@@ -29,13 +29,3 @@ A dialog was pinned/unpinned
 ```php
 $updateDialogPinned = ['_' => 'updateDialogPinned', 'pinned' => Bool, 'folder_id' => int, 'peer' => DialogPeer];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateDialogPinned={_='updateDialogPinned', pinned=Bool, folder_id=int, peer=DialogPeer}
-
-```
-
-

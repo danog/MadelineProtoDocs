@@ -27,13 +27,3 @@ New member in the group
 ```php
 $messageActionChatAddUser = ['_' => 'messageActionChatAddUser', 'users' => [long, long]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionChatAddUser={_='messageActionChatAddUser', users={long}}
-
-```
-
-

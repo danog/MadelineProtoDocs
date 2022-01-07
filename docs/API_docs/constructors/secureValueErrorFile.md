@@ -29,13 +29,3 @@ Represents an issue with a document scan. The error is considered resolved when 
 ```php
 $secureValueErrorFile = ['_' => 'secureValueErrorFile', 'type' => SecureValueType, 'file_hash' => 'bytes', 'text' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-secureValueErrorFile={_='secureValueErrorFile', type=SecureValueType, file_hash='bytes', text='string'}
-
-```
-
-

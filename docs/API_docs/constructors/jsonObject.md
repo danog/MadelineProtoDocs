@@ -27,13 +27,3 @@ JSON object value
 ```php
 $jsonObject = ['_' => 'jsonObject', 'value' => [JSONObjectValue, JSONObjectValue]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-jsonObject={_='jsonObject', value={JSONObjectValue}}
-
-```
-
-

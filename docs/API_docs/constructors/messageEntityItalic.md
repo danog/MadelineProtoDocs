@@ -28,13 +28,3 @@ Message entity representing *italic text*.
 ```php
 $messageEntityItalic = ['_' => 'messageEntityItalic', 'offset' => int, 'length' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageEntityItalic={_='messageEntityItalic', offset=int, length=int}
-
-```
-
-

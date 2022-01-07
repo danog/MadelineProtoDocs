@@ -34,13 +34,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $page = ['_' => 'page', 'part' => Bool, 'rtl' => Bool, 'v2' => Bool, 'url' => 'string', 'blocks' => [PageBlock, PageBlock], 'photos' => [Photo, Photo], 'documents' => [Document, Document], 'views' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-page={_='page', part=Bool, rtl=Bool, v2=Bool, url='string', blocks={PageBlock}, photos={Photo}, documents={Document}, views=int}
-
-```
-
-

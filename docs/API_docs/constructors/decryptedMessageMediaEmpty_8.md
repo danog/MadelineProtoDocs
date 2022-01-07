@@ -22,13 +22,3 @@ Empty constructor, no media content.
 ```php
 $decryptedMessageMediaEmpty_8 = ['_' => 'decryptedMessageMediaEmpty'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-decryptedMessageMediaEmpty_8={_='decryptedMessageMediaEmpty'}
-
-```
-
-

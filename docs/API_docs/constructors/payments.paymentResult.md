@@ -28,13 +28,3 @@ Payment result
 ```php
 $payments_paymentResult = ['_' => 'payments.paymentResult', 'updates' => Updates];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-payments_paymentResult={_='payments.paymentResult', updates=Updates}
-
-```
-
-

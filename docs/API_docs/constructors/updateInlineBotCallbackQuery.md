@@ -32,13 +32,3 @@ This notification is received by bots when a button is pressed
 ```php
 $updateInlineBotCallbackQuery = ['_' => 'updateInlineBotCallbackQuery', 'query_id' => long, 'user_id' => long, 'msg_id' => InputBotInlineMessageID, 'chat_instance' => long, 'data' => 'bytes', 'game_short_name' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateInlineBotCallbackQuery={_='updateInlineBotCallbackQuery', query_id=long, user_id=long, msg_id=InputBotInlineMessageID, chat_instance=long, data='bytes', game_short_name='string'}
-
-```
-
-

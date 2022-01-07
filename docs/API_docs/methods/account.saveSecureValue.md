@@ -41,12 +41,6 @@ $MadelineProto->start();
 $SecureValue = $MadelineProto->account->saveSecureValue(['value' => InputSecureValue, 'secure_secret_id' => long, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-SecureValue = account.saveSecureValue({value=InputSecureValue, secure_secret_id=long, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

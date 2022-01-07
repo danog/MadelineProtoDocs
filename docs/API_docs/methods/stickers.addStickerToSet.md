@@ -41,12 +41,6 @@ $MadelineProto->start();
 $messages_StickerSet = $MadelineProto->stickers->addStickerToSet(['stickerset' => InputStickerSet, 'sticker' => InputStickerSetItem, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_StickerSet = stickers.addStickerToSet({stickerset=InputStickerSet, sticker=InputStickerSetItem, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

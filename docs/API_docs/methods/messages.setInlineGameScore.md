@@ -44,12 +44,6 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->setInlineGameScore(['edit_message' => Bool, 'force' => Bool, 'id' => InputBotInlineMessageID, 'user_id' => InputUser, 'score' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Bool = messages.setInlineGameScore({edit_message=Bool, force=Bool, id=InputBotInlineMessageID, user_id=InputUser, score=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

@@ -28,13 +28,3 @@ Pinned dialogs were updated
 ```php
 $updatePinnedDialogs = ['_' => 'updatePinnedDialogs', 'folder_id' => int, 'order' => [DialogPeer, DialogPeer]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updatePinnedDialogs={_='updatePinnedDialogs', folder_id=int, order={DialogPeer}}
-
-```
-
-

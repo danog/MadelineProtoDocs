@@ -22,13 +22,3 @@ Return only round videos
 ```php
 $inputMessagesFilterRoundVideo = ['_' => 'inputMessagesFilterRoundVideo'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMessagesFilterRoundVideo={_='inputMessagesFilterRoundVideo'}
-
-```
-
-

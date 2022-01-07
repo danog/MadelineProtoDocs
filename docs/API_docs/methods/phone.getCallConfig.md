@@ -35,12 +35,6 @@ $MadelineProto->start();
 $DataJSON = $MadelineProto->phone->getCallConfig();
 ```
 
-Or, if you're into Lua:
-
-```lua
-DataJSON = phone.getCallConfig({})
-```
-
 ### Errors
 
 | Code | Type     | Description   |

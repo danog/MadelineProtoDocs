@@ -41,12 +41,6 @@ $MadelineProto->start();
 $messages_Messages = $MadelineProto->messages->getScheduledMessages(['peer' => InputPeer, 'id' => [int, int], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_Messages = messages.getScheduledMessages({peer=InputPeer, id={int}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

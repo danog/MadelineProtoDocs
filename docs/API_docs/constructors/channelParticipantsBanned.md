@@ -27,13 +27,3 @@ Fetch only banned participants
 ```php
 $channelParticipantsBanned = ['_' => 'channelParticipantsBanned', 'q' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelParticipantsBanned={_='channelParticipantsBanned', q='string'}
-
-```
-
-

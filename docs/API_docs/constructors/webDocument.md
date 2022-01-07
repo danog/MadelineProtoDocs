@@ -31,13 +31,3 @@ Remote document
 ```php
 $webDocument = ['_' => 'webDocument', 'url' => 'string', 'access_hash' => long, 'size' => int, 'mime_type' => 'string', 'attributes' => [DocumentAttribute, DocumentAttribute]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-webDocument={_='webDocument', url='string', access_hash=long, size=int, mime_type='string', attributes={DocumentAttribute}}
-
-```
-
-

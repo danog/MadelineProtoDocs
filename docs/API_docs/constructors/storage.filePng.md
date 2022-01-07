@@ -23,13 +23,3 @@ PNG image. MIME type: `image/png`.
 ```php
 $storage_filePng = ['_' => 'storage.filePng'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-storage_filePng={_='storage.filePng'}
-
-```
-
-

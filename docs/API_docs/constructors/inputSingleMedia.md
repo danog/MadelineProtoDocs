@@ -29,13 +29,3 @@ A single media in an [album or grouped media](https://core.telegram.org/api/file
 ```php
 $inputSingleMedia = ['_' => 'inputSingleMedia', 'media' => InputMedia, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputSingleMedia={_='inputSingleMedia', media=InputMedia, message='string', entities={MessageEntity}}
-
-```
-
-

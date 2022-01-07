@@ -29,13 +29,3 @@ The forward counter of a message in a channel has changed
 ```php
 $updateChannelMessageForwards = ['_' => 'updateChannelMessageForwards', 'channel_id' => long, 'id' => int, 'forwards' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateChannelMessageForwards={_='updateChannelMessageForwards', channel_id=long, id=int, forwards=int}
-
-```
-
-

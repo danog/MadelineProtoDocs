@@ -28,13 +28,3 @@ Stickerset, with a specific stickers as preview
 ```php
 $stickerSetMultiCovered = ['_' => 'stickerSetMultiCovered', 'set' => StickerSet, 'covers' => [Document, Document]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-stickerSetMultiCovered={_='stickerSetMultiCovered', set=StickerSet, covers={Document}}
-
-```
-
-

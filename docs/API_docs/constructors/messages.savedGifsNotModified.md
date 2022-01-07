@@ -23,13 +23,3 @@ No new saved gifs were found
 ```php
 $messages_savedGifsNotModified = ['_' => 'messages.savedGifsNotModified'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_savedGifsNotModified={_='messages.savedGifsNotModified'}
-
-```
-
-

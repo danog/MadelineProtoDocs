@@ -27,13 +27,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $groupCallDiscarded = ['_' => 'groupCallDiscarded', 'id' => long, 'access_hash' => long, 'duration' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-groupCallDiscarded={_='groupCallDiscarded', id=long, access_hash=long, duration=int}
-
-```
-
-

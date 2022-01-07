@@ -28,13 +28,3 @@ The difference is [too long](https://core.telegram.org/api/updates#recovering-ga
 ```php
 $updates_differenceTooLong = ['_' => 'updates.differenceTooLong', 'pts' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updates_differenceTooLong={_='updates.differenceTooLong', pts=int}
-
-```
-
-

@@ -39,9 +39,3 @@ $MadelineProto->start();
 $messages_AffectedHistory = $MadelineProto->channels->deleteParticipantHistory(['channel' => InputChannel, 'participant' => InputPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_AffectedHistory = channels.deleteParticipantHistory({channel=InputChannel, participant=InputPeer, })
-```
-

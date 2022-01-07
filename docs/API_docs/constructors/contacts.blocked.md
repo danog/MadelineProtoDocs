@@ -30,13 +30,3 @@ Full list of blocked users.
 ```php
 $contacts_blocked = ['_' => 'contacts.blocked', 'blocked' => [PeerBlocked, PeerBlocked], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-contacts_blocked={_='contacts.blocked', blocked={PeerBlocked}, chats={Chat}, users={User}}
-
-```
-
-

@@ -27,13 +27,3 @@ Map.
 ```php
 $inputMediaGeoPoint = ['_' => 'inputMediaGeoPoint', 'geo_point' => InputGeoPoint];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMediaGeoPoint={_='inputMediaGeoPoint', geo_point=InputGeoPoint}
-
-```
-
-

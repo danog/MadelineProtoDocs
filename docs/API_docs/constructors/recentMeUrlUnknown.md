@@ -27,13 +27,3 @@ Unknown t.me url
 ```php
 $recentMeUrlUnknown = ['_' => 'recentMeUrlUnknown', 'url' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-recentMeUrlUnknown={_='recentMeUrlUnknown', url='string'}
-
-```
-
-

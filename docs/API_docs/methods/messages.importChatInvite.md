@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->importChatInvite(['hash' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.importChatInvite({hash='string', })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

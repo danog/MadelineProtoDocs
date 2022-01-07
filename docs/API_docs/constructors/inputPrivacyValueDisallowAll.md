@@ -22,13 +22,3 @@ Disallow all
 ```php
 $inputPrivacyValueDisallowAll = ['_' => 'inputPrivacyValueDisallowAll'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputPrivacyValueDisallowAll={_='inputPrivacyValueDisallowAll'}
-
-```
-
-

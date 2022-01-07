@@ -27,13 +27,3 @@ Message by ID
 ```php
 $inputMessageID = ['_' => 'inputMessageID', 'id' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputMessageID={_='inputMessageID', id=int}
-
-```
-
-

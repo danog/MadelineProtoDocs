@@ -22,13 +22,3 @@ Report for spam
 ```php
 $inputReportReasonSpam = ['_' => 'inputReportReasonSpam'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-inputReportReasonSpam={_='inputReportReasonSpam'}
-
-```
-
-

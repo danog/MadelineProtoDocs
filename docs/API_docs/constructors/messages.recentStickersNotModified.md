@@ -23,13 +23,3 @@ No new recent sticker was found
 ```php
 $messages_recentStickersNotModified = ['_' => 'messages.recentStickersNotModified'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messages_recentStickersNotModified={_='messages.recentStickersNotModified'}
-
-```
-
-

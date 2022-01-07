@@ -29,13 +29,3 @@ A message was edited in a [channel/supergroup](https://core.telegram.org/api/cha
 ```php
 $updateEditChannelMessage = ['_' => 'updateEditChannelMessage', 'message' => Message, 'pts' => int, 'pts_count' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateEditChannelMessage={_='updateEditChannelMessage', message=Message, pts=int, pts_count=int}
-
-```
-
-

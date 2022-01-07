@@ -27,13 +27,3 @@ JSON array
 ```php
 $jsonArray = ['_' => 'jsonArray', 'value' => [JSONValue, JSONValue]];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-jsonArray={_='jsonArray', value={JSONValue}}
-
-```
-
-

@@ -28,13 +28,3 @@ Top peer
 ```php
 $topPeer = ['_' => 'topPeer', 'peer' => Peer, 'rating' => double];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-topPeer={_='topPeer', peer=Peer, rating=double}
-
-```
-
-

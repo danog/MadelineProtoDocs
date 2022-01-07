@@ -28,13 +28,3 @@ Channel/supergroup title was changed
 ```php
 $channelAdminLogEventActionChangeTitle = ['_' => 'channelAdminLogEventActionChangeTitle', 'prev_value' => 'string', 'new_value' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionChangeTitle={_='channelAdminLogEventActionChangeTitle', prev_value='string', new_value='string'}
-
-```
-
-

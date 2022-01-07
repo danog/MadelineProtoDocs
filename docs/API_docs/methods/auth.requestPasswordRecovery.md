@@ -35,12 +35,6 @@ $MadelineProto->start();
 $auth_PasswordRecovery = $MadelineProto->auth->requestPasswordRecovery();
 ```
 
-Or, if you're into Lua:
-
-```lua
-auth_PasswordRecovery = auth.requestPasswordRecovery({})
-```
-
 ### Errors
 
 | Code | Type     | Description   |

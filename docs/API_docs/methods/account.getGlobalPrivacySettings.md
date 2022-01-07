@@ -35,9 +35,3 @@ $MadelineProto->start();
 $GlobalPrivacySettings = $MadelineProto->account->getGlobalPrivacySettings();
 ```
 
-Or, if you're into Lua:
-
-```lua
-GlobalPrivacySettings = account.getGlobalPrivacySettings({})
-```
-

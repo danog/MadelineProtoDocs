@@ -31,13 +31,3 @@ New group member.
 ```php
 $updateChatParticipantAdd = ['_' => 'updateChatParticipantAdd', 'chat_id' => long, 'user_id' => long, 'inviter_id' => long, 'date' => int, 'version' => int];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-updateChatParticipantAdd={_='updateChatParticipantAdd', chat_id=long, user_id=long, inviter_id=long, date=int, version=int}
-
-```
-
-

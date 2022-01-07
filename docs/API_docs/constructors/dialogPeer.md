@@ -27,13 +27,3 @@ Peer
 ```php
 $dialogPeer = ['_' => 'dialogPeer', 'peer' => Peer];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-dialogPeer={_='dialogPeer', peer=Peer}
-
-```
-
-

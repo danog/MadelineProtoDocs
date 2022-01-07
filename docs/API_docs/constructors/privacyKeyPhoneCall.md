@@ -22,13 +22,3 @@ Whether the user accepts phone calls
 ```php
 $privacyKeyPhoneCall = ['_' => 'privacyKeyPhoneCall'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-privacyKeyPhoneCall={_='privacyKeyPhoneCall'}
-
-```
-
-

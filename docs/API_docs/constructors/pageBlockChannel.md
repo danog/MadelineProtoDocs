@@ -27,13 +27,3 @@ Reference to a telegram channel
 ```php
 $pageBlockChannel = ['_' => 'pageBlockChannel', 'channel' => Chat];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-pageBlockChannel={_='pageBlockChannel', channel=Chat}
-
-```
-
-

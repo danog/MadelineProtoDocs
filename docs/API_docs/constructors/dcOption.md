@@ -35,13 +35,3 @@ Data centre
 ```php
 $dcOption = ['_' => 'dcOption', 'ipv6' => Bool, 'media_only' => Bool, 'tcpo_only' => Bool, 'cdn' => Bool, 'static' => Bool, 'id' => int, 'ip_address' => 'string', 'port' => int, 'secret' => 'bytes'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-dcOption={_='dcOption', ipv6=Bool, media_only=Bool, tcpo_only=Bool, cdn=Bool, static=Bool, id=int, ip_address='string', port=int, secret='bytes'}
-
-```
-
-

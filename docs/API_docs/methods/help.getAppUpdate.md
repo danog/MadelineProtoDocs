@@ -40,9 +40,3 @@ $MadelineProto->start();
 $help_AppUpdate = $MadelineProto->help->getAppUpdate(['source' => 'string', ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-help_AppUpdate = help.getAppUpdate({source='string', })
-```
-

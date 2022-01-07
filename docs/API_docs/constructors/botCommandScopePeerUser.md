@@ -26,13 +26,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ```php
 $botCommandScopePeerUser = ['_' => 'botCommandScopePeerUser', 'peer' => InputPeer, 'user_id' => InputUser];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-botCommandScopePeerUser={_='botCommandScopePeerUser', peer=InputPeer, user_id=InputUser}
-
-```
-
-

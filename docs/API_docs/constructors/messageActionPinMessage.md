@@ -22,13 +22,3 @@ A message was pinned
 ```php
 $messageActionPinMessage = ['_' => 'messageActionPinMessage'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-messageActionPinMessage={_='messageActionPinMessage'}
-
-```
-
-

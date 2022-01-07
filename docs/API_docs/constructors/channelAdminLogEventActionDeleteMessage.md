@@ -27,13 +27,3 @@ A message was deleted
 ```php
 $channelAdminLogEventActionDeleteMessage = ['_' => 'channelAdminLogEventActionDeleteMessage', 'message' => Message];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-channelAdminLogEventActionDeleteMessage={_='channelAdminLogEventActionDeleteMessage', message=Message}
-
-```
-
-

@@ -28,13 +28,3 @@ URL button
 ```php
 $keyboardButtonUrl = ['_' => 'keyboardButtonUrl', 'text' => 'string', 'url' => 'string'];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-keyboardButtonUrl={_='keyboardButtonUrl', text='string', url='string'}
-
-```
-
-

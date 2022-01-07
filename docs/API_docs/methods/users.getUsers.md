@@ -40,12 +40,6 @@ $MadelineProto->start();
 $Vector_of_User = $MadelineProto->users->getUsers(['id' => [InputUser, InputUser], ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Vector_of_User = users.getUsers({id={InputUser}, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

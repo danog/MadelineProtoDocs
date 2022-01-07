@@ -48,12 +48,6 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->sendMultiMedia(['silent' => Bool, 'background' => Bool, 'clear_draft' => Bool, 'noforwards' => Bool, 'peer' => InputPeer, 'reply_to_msg_id' => int, 'multi_media' => [InputSingleMedia, InputSingleMedia], 'schedule_date' => int, 'send_as' => InputPeer, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Updates = messages.sendMultiMedia({silent=Bool, background=Bool, clear_draft=Bool, noforwards=Bool, peer=InputPeer, reply_to_msg_id=int, multi_media={InputSingleMedia}, schedule_date=int, send_as=InputPeer, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |

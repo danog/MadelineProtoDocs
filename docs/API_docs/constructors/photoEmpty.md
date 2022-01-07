@@ -27,13 +27,3 @@ Empty constructor, non-existent photo
 ```php
 $photoEmpty = ['_' => 'photoEmpty', 'id' => long];
 ```  
-
-
-Or, if you're into Lua:
-
-```lua
-photoEmpty={_='photoEmpty', id=long}
-
-```
-
-

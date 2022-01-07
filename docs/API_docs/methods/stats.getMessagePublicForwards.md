@@ -46,12 +46,6 @@ $MadelineProto->start();
 $messages_Messages = $MadelineProto->stats->getMessagePublicForwards(['channel' => InputChannel, 'msg_id' => int, 'offset_rate' => int, 'offset_peer' => InputPeer, 'offset_id' => int, 'limit' => int, ]);
 ```
 
-Or, if you're into Lua:
-
-```lua
-messages_Messages = stats.getMessagePublicForwards({channel=InputChannel, msg_id=int, offset_rate=int, offset_peer=InputPeer, offset_id=int, limit=int, })
-```
-
 ### Errors
 
 | Code | Type     | Description   |
