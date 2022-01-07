@@ -1,16 +1,12 @@
----
-title: "Web templates for `$MadelineProto->start()`"
+https://docs.madelineproto.xyz/PHP/danog/MadelineProto/Settings/Templates.html---
+title: "Web templates for $MadelineProto->start()"
 description: "You get the web template used for the $MadelineProto->start() web UI thusly:"
 nav_order: 26
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Web templates for `$MadelineProto->start()`
 
-You get the web template used for the `$MadelineProto->start()` web UI thusly:
-
-```php
-$template = yield $MadelineProto->getWebTemplate();
-```
+You modify the web template used for the `$MadelineProto->start()` and API ID web UI in the [settings &raquo;](https://docs.madelineproto.xyz/docs/SETTINGS.html), [`\danog\MadelineProto\Settings\Templates`](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/Settings/Templates.html) class.  
 
 By default, it is equal to:
 ```html
@@ -28,11 +24,6 @@ By default, it is equal to:
         <p>%s</p>
         </body>
 </html>
-```
-
-To modify the web template, use:
-```php
-yield $MadelineProto->setWebTemplate($new_template);
 ```
 
 The new template must have a structure similar the the default template.

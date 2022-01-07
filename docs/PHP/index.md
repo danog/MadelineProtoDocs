@@ -1,6 +1,6 @@
 ---
-description: "PHP implementation of telegram's MTProto protocol."
-title: "danog/madelineproto"
+description: "MadelineProto PHP API reference"
+title: "MadelineProto API"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 has_children: "true"
 nav_order: "2"
