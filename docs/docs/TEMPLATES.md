@@ -1,12 +1,14 @@
 ---
 title: "Web templates for `$MadelineProto->start()`"
-description: "You modify the web template used for the $MadelineProto->start() and API ID web UI in the settings », \danog\MadelineProto\Settings\Templates class.  "
+description: "The web template used for the $MadelineProto->start() and API ID web UIs can be changed."
 nav_order: 26
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Web templates for `$MadelineProto->start()`
 
-You modify the web template used for the `$MadelineProto->start()` and API ID web UI in the [settings &raquo;](https://docs.madelineproto.xyz/docs/SETTINGS.html), [`\danog\MadelineProto\Settings\Templates`](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/Settings/Templates.html) class.  
+The web template used for the `$MadelineProto->start()` and API ID web UIs can be changed.
+
+The change is made in the [settings &raquo;](https://docs.madelineproto.xyz/docs/SETTINGS.html), [`\danog\MadelineProto\Settings\Templates`](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/Settings/Templates.html) class.  
 
 By default, it is equal to:
 ```html
