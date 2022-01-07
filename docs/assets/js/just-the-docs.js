@@ -461,9 +461,12 @@ jtd.getTheme = function() {
 }
 
 jtd.setTheme = function(theme) {
+  if (!theme || theme === 'null') theme = 'light';
+  window.localStorage.setItem('theme', theme);
   var cssFile = document.querySelector('[rel="stylesheet"]');
   cssFile.setAttribute('href', '/assets/css/just-the-docs-' + theme + '.css');
 }
+jtd.setTheme(window.localStorage.getItem('theme'));
 
 // Document ready
 

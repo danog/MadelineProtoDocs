@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 There are many ways you can login with MadelineProto.
 
 * [Getting permission to use the telegram API](#getting-permission-to-use-the-telegram-api)
-* [Automatic](#automatic-now-fully-async)
+* [Automatic](#automatic)
 * [Manual (user)](#manual-user)
   * [API ID](#api-id)
 * [Manual (bot)](#manual-bot)
@@ -49,7 +49,7 @@ You will get to choose if login as user, or as bot.
 
 ### API ID
 
-Before logging in, you must obtain an [API ID](https://docs.madelineproto.xyz/docs/SETTINGS.html) (if you're using the [automatic mode you don't have to do this](#automatic-now-fully-async)).  
+Before logging in, you must obtain an [API ID](https://docs.madelineproto.xyz/docs/SETTINGS.html) (if you're using the [automatic mode you don't have to do this](#automatic)).  
 You can do that either by logging in to [my.telegram.org](https://my.telegram.org) and getting your API ID/hash, or automatically, by using MadelineProto's `MyTelegramOrgWrapper` API:
 
 ```php
@@ -87,7 +87,7 @@ The readline wrapper (see [Async](ASYNC.html)) can also be used with the the `My
 The constructor of the API is optional, and can be an array of [MadelineProto settings](https://docs.madelineproto.xyz/docs/SETTINGS.html): it can be used to set proxy info (only HTTP and SOCKS is supported for this).    
 
 
-After you provide an API ID, you can then login (if you're using the [automatic mode you don't have to do this](#automatic-now-fully-async)).  
+After you provide an API ID, you can then login (if you're using the [automatic mode you don't have to do this](#automatic)).  
 
 ```php
 yield $MadelineProto->phoneLogin(yield $MadelineProto->readline('Enter your phone number: '));

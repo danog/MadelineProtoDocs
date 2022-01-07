@@ -8,10 +8,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 There are two ways to get a list of all chats, depending if you logged in as a user, or as a bot.
 
-* [Dialog list](#getDialogs-now-fully-async)
-* [Full dialog info](#getFullDialogs-now-fully-async)
+* [Dialog list](#getDialogs)
+* [Full dialog info](#getFullDialogs)
 
-## getDialogs ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
+## getDialogs
 ```php
 $dialogs = yield $MadelineProto->getDialogs();
 foreach ($dialogs as $peer) {
@@ -21,7 +21,7 @@ foreach ($dialogs as $peer) {
 
 `getDialogs` will return a full list of all chats you're member of, see [here for the parameters and the result](https://docs.madelineproto.xyz/getDialogs.html)
 
-## getFullDialogs ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
+## getFullDialogs
 ```php
 $dialogs = yield $MadelineProto->getFullDialogs();
 foreach ($dialogs as $dialog) {

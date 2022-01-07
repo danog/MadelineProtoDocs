@@ -8,12 +8,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 MadelineProto provides wrappers to work with secret chats.
 
-* [Requesting secret chats](#requesting-secret-chats-now-fully-async)
-* [Accepting secret chats](#accepting-secret-chats-now-fully-async)
-* [Checking secret chat status](#checking-secret-chat-status-now-fully-async)
-* [Sending secret messages](#sending-secret-messages-now-fully-async)
+* [Requesting secret chats](#requesting-secret-chats)
+* [Accepting secret chats](#accepting-secret-chats)
+* [Checking secret chat status](#checking-secret-chat-status)
+* [Sending secret messages](#sending-secret-messages)
 
-## Requesting secret chats ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
+## Requesting secret chats
 
 ```php
 $secret_chat = yield $MadelineProto->requestSecretChat($InputUser);
@@ -22,13 +22,13 @@ $secret_chat = yield $MadelineProto->requestSecretChat($InputUser);
 [`requestSecretChat`](https://docs.madelineproto.xyz/requestSecretChat.html) requests a secret secret chat to the [InputUser](https://docs.madelineproto.xyz/API_docs/types/InputUser.html), ID, or username specified, and returns the secret chat ID.
 
 
-## Accepting secret chats ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
+## Accepting secret chats
 
 Secret chats are accepted or refused automatically, based on a value in the [settings](SETTINGS.html) (by default MadelineProto is set to accept all secret chats).
 
 Before sending any message, you must check if the secret chat was accepted by the other client with the following method:
 
-## Checking secret chat status ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
+## Checking secret chat status
 
 ```php
 $status = yield $MadelineProto->secretChatStatus($chat);
@@ -36,7 +36,7 @@ $status = yield $MadelineProto->secretChatStatus($chat);
 
 $status is `\danog\MadelineProto\MTProto::SECRET_EMPTY` if the chat cannot be found in the local database, `MTProto::SECRET_REQUESTED` if the chat was requested but not yet accepted, and `MTProto::SECRET_READY` if it is a valid accepted secret chat.
 
-## Sending secret messages ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html))
+## Sending secret messages
 
 [Full example](https://github.com/danog/MadelineProto/blob/master/secret_bot.php)
 
