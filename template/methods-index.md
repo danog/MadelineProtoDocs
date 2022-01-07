@@ -4,6 +4,7 @@ description: What do you want to do?
 parent: "Telegram RPC API"
 has_children: true
 nav_order: 3
+has_toc: false
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # What do you want to do?  

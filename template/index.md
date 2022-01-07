@@ -2,6 +2,7 @@
 title: "Telegram RPC API"
 description: "%s"
 has_children: true
+has_toc: false
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Telegram RPC API
