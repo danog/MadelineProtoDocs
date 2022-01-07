@@ -63,7 +63,7 @@ composer.json:
 }
 ```
 
-Then run:
+Then run (composer v2+ is required):
 ```bash
 composer update
 ```
@@ -76,7 +76,7 @@ require_once 'vendor/autoload.php';
 
 ## Composer from existing project
 
-Simply require the package:  
+Simply require the package (composer v2+ is required):  
 
 ```bash
 composer require "danog/madelineproto:^7"
