@@ -11,17 +11,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[channelParticipant](../constructors/channelParticipant.md)  
+[channelParticipant](/API_docs/constructors/channelParticipant.md)  
 
-[channelParticipantSelf](../constructors/channelParticipantSelf.md)  
+[channelParticipantSelf](/API_docs/constructors/channelParticipantSelf.md)  
 
-[channelParticipantCreator](../constructors/channelParticipantCreator.md)  
+[channelParticipantCreator](/API_docs/constructors/channelParticipantCreator.md)  
 
-[channelParticipantAdmin](../constructors/channelParticipantAdmin.md)  
+[channelParticipantAdmin](/API_docs/constructors/channelParticipantAdmin.md)  
 
-[channelParticipantBanned](../constructors/channelParticipantBanned.md)  
+[channelParticipantBanned](/API_docs/constructors/channelParticipantBanned.md)  
 
-[channelParticipantLeft](../constructors/channelParticipantLeft.md)  
+[channelParticipantLeft](/API_docs/constructors/channelParticipantLeft.md)  
 
 
 
@@ -29,15 +29,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[channelParticipant](../constructors/channelParticipant.md)  
+[channelParticipant](/API_docs/constructors/channelParticipant.md)  
 
-[channelParticipantSelf](../constructors/channelParticipantSelf.md)  
+[channelParticipantSelf](/API_docs/constructors/channelParticipantSelf.md)  
 
-[channelParticipantCreator](../constructors/channelParticipantCreator.md)  
+[channelParticipantCreator](/API_docs/constructors/channelParticipantCreator.md)  
 
-[channelParticipantAdmin](../constructors/channelParticipantAdmin.md)  
+[channelParticipantAdmin](/API_docs/constructors/channelParticipantAdmin.md)  
 
-[channelParticipantBanned](../constructors/channelParticipantBanned.md)  
+[channelParticipantBanned](/API_docs/constructors/channelParticipantBanned.md)  
 
-[channelParticipantLeft](../constructors/channelParticipantLeft.md)  
+[channelParticipantLeft](/API_docs/constructors/channelParticipantLeft.md)  
 

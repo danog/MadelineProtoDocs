@@ -11,17 +11,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[exportedMessageLink](../constructors/exportedMessageLink.md)  
+[exportedMessageLink](/API_docs/constructors/exportedMessageLink.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->channels->exportMessageLink](../methods/channels.exportMessageLink.md)  
+[$MadelineProto->channels->exportMessageLink](/API_docs/methods/channels.exportMessageLink.md)  
 
 
 
-[exportedMessageLink](../constructors/exportedMessageLink.md)  
+[exportedMessageLink](/API_docs/constructors/exportedMessageLink.md)  
 
-[$MadelineProto->channels->exportMessageLink](../methods/channels.exportMessageLink.md)  
+[$MadelineProto->channels->exportMessageLink](/API_docs/methods/channels.exportMessageLink.md)  
 

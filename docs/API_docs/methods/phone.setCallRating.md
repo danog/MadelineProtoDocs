@@ -17,13 +17,13 @@ Rate a call
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|user\_initiative|[Bool](../types/Bool.md) | Whether the user decided on their own initiative to rate the call | Optional|
-|peer|[InputPhoneCall](../types/InputPhoneCall.md) | The call to rate | Yes|
-|rating|[int](../types/int.md) | Rating in `1-5` stars | Yes|
-|comment|[string](../types/string.md) | An additional comment | Yes|
+|user\_initiative|[Bool](/API_docs/types/Bool.md) | Whether the user decided on their own initiative to rate the call | Optional|
+|peer|[InputPhoneCall](/API_docs/types/InputPhoneCall.md) | The call to rate | Yes|
+|rating|[int](/API_docs/types/int.md) | Rating in `1-5` stars | Yes|
+|comment|[string](/API_docs/types/string.md) | An additional comment | Yes|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

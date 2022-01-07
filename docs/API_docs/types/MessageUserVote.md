@@ -11,11 +11,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[messageUserVote](../constructors/messageUserVote.md)  
+[messageUserVote](/API_docs/constructors/messageUserVote.md)  
 
-[messageUserVoteInputOption](../constructors/messageUserVoteInputOption.md)  
+[messageUserVoteInputOption](/API_docs/constructors/messageUserVoteInputOption.md)  
 
-[messageUserVoteMultiple](../constructors/messageUserVoteMultiple.md)  
+[messageUserVoteMultiple](/API_docs/constructors/messageUserVoteMultiple.md)  
 
 
 
@@ -23,9 +23,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[messageUserVote](../constructors/messageUserVote.md)  
+[messageUserVote](/API_docs/constructors/messageUserVote.md)  
 
-[messageUserVoteInputOption](../constructors/messageUserVoteInputOption.md)  
+[messageUserVoteInputOption](/API_docs/constructors/messageUserVoteInputOption.md)  
 
-[messageUserVoteMultiple](../constructors/messageUserVoteMultiple.md)  
+[messageUserVoteMultiple](/API_docs/constructors/messageUserVoteMultiple.md)  
 

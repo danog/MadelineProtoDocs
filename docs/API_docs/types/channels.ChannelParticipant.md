@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/channels_ChannelParticipant.html
 
 ### Possible values (constructors):
 
-[channels.channelParticipant](../constructors/channels.channelParticipant.md)  
+[channels.channelParticipant](/API_docs/constructors/channels.channelParticipant.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->channels->getParticipant](../methods/channels.getParticipant.md)  
+[$MadelineProto->channels->getParticipant](/API_docs/methods/channels.getParticipant.md)  
 
 
 
-[channels.channelParticipant](../constructors/channels.channelParticipant.md)  
+[channels.channelParticipant](/API_docs/constructors/channels.channelParticipant.md)  
 
-[$MadelineProto->channels->getParticipant](../methods/channels.getParticipant.md)  
+[$MadelineProto->channels->getParticipant](/API_docs/methods/channels.getParticipant.md)  
 

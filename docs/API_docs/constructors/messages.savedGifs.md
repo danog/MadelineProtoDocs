@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_savedGifs.html
 ---
 # Constructor: messages.savedGifs  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,12 +16,12 @@ Saved gifs
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[long](../types/long.md) | Yes|
-|gifs|Array of [Document](../types/Document.md) | Yes|List of saved gifs|
+|hash|[long](/API_docs/types/long.md) | Yes|
+|gifs|Array of [Document](/API_docs/types/Document.md) | Yes|List of saved gifs|
 
 
 
-### Type: [messages.SavedGifs](../types/messages.SavedGifs.md)
+### Type: [messages.SavedGifs](/API_docs/types/messages.SavedGifs.md)
 
 
 ### Example:

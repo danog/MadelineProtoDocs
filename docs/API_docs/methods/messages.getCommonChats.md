@@ -17,12 +17,12 @@ Get chats in common with a user
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | User ID | Optional|
-|max\_id|[long](../types/long.md) |  | Yes|
-|limit|[int](../types/int.md) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | User ID | Optional|
+|max\_id|[long](/API_docs/types/long.md) |  | Yes|
+|limit|[int](/API_docs/types/int.md) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
 
 
-### Return type: [messages.Chats](../types/messages.Chats.md)
+### Return type: [messages.Chats](/API_docs/types/messages.Chats.md)
 
 ### Can bots use this method: **NO**
 

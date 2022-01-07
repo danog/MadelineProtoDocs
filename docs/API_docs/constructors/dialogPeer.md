@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: dialogPeer  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Peer
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](../types/Peer.md) | Yes|Peer|
+|peer|[Peer](/API_docs/types/Peer.md) | Yes|Peer|
 
 
 
-### Type: [DialogPeer](../types/DialogPeer.md)
+### Type: [DialogPeer](/API_docs/types/DialogPeer.md)
 
 
 ### Example:

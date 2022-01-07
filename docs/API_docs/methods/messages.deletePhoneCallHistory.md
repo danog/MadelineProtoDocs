@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/messages_deletePhoneCallHistory.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|revoke|[Bool](../types/Bool.md) | Optional|
+|revoke|[Bool](/API_docs/types/Bool.md) | Optional|
 
 
-### Return type: [messages.AffectedFoundMessages](../types/messages.AffectedFoundMessages.md)
+### Return type: [messages.AffectedFoundMessages](/API_docs/types/messages.AffectedFoundMessages.md)
 
 ### Can bots use this method: **NO**
 

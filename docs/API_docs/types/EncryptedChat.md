@@ -11,37 +11,37 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[encryptedChatEmpty](../constructors/encryptedChatEmpty.md)  
+[encryptedChatEmpty](/API_docs/constructors/encryptedChatEmpty.md)  
 
-[encryptedChatWaiting](../constructors/encryptedChatWaiting.md)  
+[encryptedChatWaiting](/API_docs/constructors/encryptedChatWaiting.md)  
 
-[encryptedChatRequested](../constructors/encryptedChatRequested.md)  
+[encryptedChatRequested](/API_docs/constructors/encryptedChatRequested.md)  
 
-[encryptedChat](../constructors/encryptedChat.md)  
+[encryptedChat](/API_docs/constructors/encryptedChat.md)  
 
-[encryptedChatDiscarded](../constructors/encryptedChatDiscarded.md)  
+[encryptedChatDiscarded](/API_docs/constructors/encryptedChatDiscarded.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->requestEncryption](../methods/messages.requestEncryption.md)  
+[$MadelineProto->messages->requestEncryption](/API_docs/methods/messages.requestEncryption.md)  
 
-[$MadelineProto->messages->acceptEncryption](../methods/messages.acceptEncryption.md)  
+[$MadelineProto->messages->acceptEncryption](/API_docs/methods/messages.acceptEncryption.md)  
 
 
 
-[encryptedChatEmpty](../constructors/encryptedChatEmpty.md)  
+[encryptedChatEmpty](/API_docs/constructors/encryptedChatEmpty.md)  
 
-[encryptedChatWaiting](../constructors/encryptedChatWaiting.md)  
+[encryptedChatWaiting](/API_docs/constructors/encryptedChatWaiting.md)  
 
-[encryptedChatRequested](../constructors/encryptedChatRequested.md)  
+[encryptedChatRequested](/API_docs/constructors/encryptedChatRequested.md)  
 
-[encryptedChat](../constructors/encryptedChat.md)  
+[encryptedChat](/API_docs/constructors/encryptedChat.md)  
 
-[encryptedChatDiscarded](../constructors/encryptedChatDiscarded.md)  
+[encryptedChatDiscarded](/API_docs/constructors/encryptedChatDiscarded.md)  
 
-[$MadelineProto->messages->requestEncryption](../methods/messages.requestEncryption.md)  
+[$MadelineProto->messages->requestEncryption](/API_docs/methods/messages.requestEncryption.md)  
 
-[$MadelineProto->messages->acceptEncryption](../methods/messages.acceptEncryption.md)  
+[$MadelineProto->messages->acceptEncryption](/API_docs/methods/messages.acceptEncryption.md)  
 

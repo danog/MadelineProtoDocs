@@ -11,13 +11,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[phoneCallDiscardReasonMissed](../constructors/phoneCallDiscardReasonMissed.md)  
+[phoneCallDiscardReasonMissed](/API_docs/constructors/phoneCallDiscardReasonMissed.md)  
 
-[phoneCallDiscardReasonDisconnect](../constructors/phoneCallDiscardReasonDisconnect.md)  
+[phoneCallDiscardReasonDisconnect](/API_docs/constructors/phoneCallDiscardReasonDisconnect.md)  
 
-[phoneCallDiscardReasonHangup](../constructors/phoneCallDiscardReasonHangup.md)  
+[phoneCallDiscardReasonHangup](/API_docs/constructors/phoneCallDiscardReasonHangup.md)  
 
-[phoneCallDiscardReasonBusy](../constructors/phoneCallDiscardReasonBusy.md)  
+[phoneCallDiscardReasonBusy](/API_docs/constructors/phoneCallDiscardReasonBusy.md)  
 
 
 
@@ -25,11 +25,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[phoneCallDiscardReasonMissed](../constructors/phoneCallDiscardReasonMissed.md)  
+[phoneCallDiscardReasonMissed](/API_docs/constructors/phoneCallDiscardReasonMissed.md)  
 
-[phoneCallDiscardReasonDisconnect](../constructors/phoneCallDiscardReasonDisconnect.md)  
+[phoneCallDiscardReasonDisconnect](/API_docs/constructors/phoneCallDiscardReasonDisconnect.md)  
 
-[phoneCallDiscardReasonHangup](../constructors/phoneCallDiscardReasonHangup.md)  
+[phoneCallDiscardReasonHangup](/API_docs/constructors/phoneCallDiscardReasonHangup.md)  
 
-[phoneCallDiscardReasonBusy](../constructors/phoneCallDiscardReasonBusy.md)  
+[phoneCallDiscardReasonBusy](/API_docs/constructors/phoneCallDiscardReasonBusy.md)  
 

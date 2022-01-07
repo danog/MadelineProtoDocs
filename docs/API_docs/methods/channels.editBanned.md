@@ -17,12 +17,12 @@ Ban/unban/kick a user in a [supergroup/channel](https://core.telegram.org/api/ch
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The [supergroup/channel](https://core.telegram.org/api/channel). | Optional|
-|participant|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
-|banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | The banned rights | Yes|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | The [supergroup/channel](https://core.telegram.org/api/channel). | Optional|
+|participant|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) |  | Optional|
+|banned\_rights|[ChatBannedRights](/API_docs/types/ChatBannedRights.md) | The banned rights | Yes|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **YES**
 

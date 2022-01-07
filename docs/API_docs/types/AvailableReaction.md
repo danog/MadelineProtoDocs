@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[availableReaction](../constructors/availableReaction.md)  
+[availableReaction](/API_docs/constructors/availableReaction.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[availableReaction](../constructors/availableReaction.md)  
+[availableReaction](/API_docs/constructors/availableReaction.md)  
 

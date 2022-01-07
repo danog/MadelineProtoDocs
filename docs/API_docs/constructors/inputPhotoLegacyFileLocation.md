@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPhotoLegacyFileLocation  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,16 +15,16 @@ Legacy photo file location
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|Photo ID|
-|access\_hash|[long](../types/long.md) | Yes|Access hash|
-|file\_reference|[bytes](../types/bytes.md) | Yes|File reference|
-|volume\_id|[long](../types/long.md) | Yes|Volume ID|
-|local\_id|[int](../types/int.md) | Yes|Local ID|
-|secret|[long](../types/long.md) | Yes|Secret|
+|id|[long](/API_docs/types/long.md) | Yes|Photo ID|
+|access\_hash|[long](/API_docs/types/long.md) | Yes|Access hash|
+|file\_reference|[bytes](/API_docs/types/bytes.md) | Yes|File reference|
+|volume\_id|[long](/API_docs/types/long.md) | Yes|Volume ID|
+|local\_id|[int](/API_docs/types/int.md) | Yes|Local ID|
+|secret|[long](/API_docs/types/long.md) | Yes|Secret|
 
 
 
-### Type: [InputFileLocation](../types/InputFileLocation.md)
+### Type: [InputFileLocation](/API_docs/types/InputFileLocation.md)
 
 
 ### Example:

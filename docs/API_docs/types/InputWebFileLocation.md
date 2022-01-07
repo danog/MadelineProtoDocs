@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputWebFileLocation](../constructors/inputWebFileLocation.md)  
+[inputWebFileLocation](/API_docs/constructors/inputWebFileLocation.md)  
 
-[inputWebFileGeoPointLocation](../constructors/inputWebFileGeoPointLocation.md)  
+[inputWebFileGeoPointLocation](/API_docs/constructors/inputWebFileGeoPointLocation.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputWebFileLocation](../constructors/inputWebFileLocation.md)  
+[inputWebFileLocation](/API_docs/constructors/inputWebFileLocation.md)  
 
-[inputWebFileGeoPointLocation](../constructors/inputWebFileGeoPointLocation.md)  
+[inputWebFileGeoPointLocation](/API_docs/constructors/inputWebFileGeoPointLocation.md)  
 

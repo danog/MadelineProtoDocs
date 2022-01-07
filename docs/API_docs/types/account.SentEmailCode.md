@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/account_SentEmailCode.html
 
 ### Possible values (constructors):
 
-[account.sentEmailCode](../constructors/account.sentEmailCode.md)  
+[account.sentEmailCode](/API_docs/constructors/account.sentEmailCode.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->sendVerifyEmailCode](../methods/account.sendVerifyEmailCode.md)  
+[$MadelineProto->account->sendVerifyEmailCode](/API_docs/methods/account.sendVerifyEmailCode.md)  
 
 
 
-[account.sentEmailCode](../constructors/account.sentEmailCode.md)  
+[account.sentEmailCode](/API_docs/constructors/account.sentEmailCode.md)  
 
-[$MadelineProto->account->sendVerifyEmailCode](../methods/account.sendVerifyEmailCode.md)  
+[$MadelineProto->account->sendVerifyEmailCode](/API_docs/methods/account.sendVerifyEmailCode.md)  
 

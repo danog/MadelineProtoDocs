@@ -11,15 +11,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[baseThemeClassic](../constructors/baseThemeClassic.md)  
+[baseThemeClassic](/API_docs/constructors/baseThemeClassic.md)  
 
-[baseThemeDay](../constructors/baseThemeDay.md)  
+[baseThemeDay](/API_docs/constructors/baseThemeDay.md)  
 
-[baseThemeNight](../constructors/baseThemeNight.md)  
+[baseThemeNight](/API_docs/constructors/baseThemeNight.md)  
 
-[baseThemeTinted](../constructors/baseThemeTinted.md)  
+[baseThemeTinted](/API_docs/constructors/baseThemeTinted.md)  
 
-[baseThemeArctic](../constructors/baseThemeArctic.md)  
+[baseThemeArctic](/API_docs/constructors/baseThemeArctic.md)  
 
 
 
@@ -27,13 +27,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[baseThemeClassic](../constructors/baseThemeClassic.md)  
+[baseThemeClassic](/API_docs/constructors/baseThemeClassic.md)  
 
-[baseThemeDay](../constructors/baseThemeDay.md)  
+[baseThemeDay](/API_docs/constructors/baseThemeDay.md)  
 
-[baseThemeNight](../constructors/baseThemeNight.md)  
+[baseThemeNight](/API_docs/constructors/baseThemeNight.md)  
 
-[baseThemeTinted](../constructors/baseThemeTinted.md)  
+[baseThemeTinted](/API_docs/constructors/baseThemeTinted.md)  
 
-[baseThemeArctic](../constructors/baseThemeArctic.md)  
+[baseThemeArctic](/API_docs/constructors/baseThemeArctic.md)  
 

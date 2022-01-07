@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: paymentCharge  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ Payment identifier
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[string](../types/string.md) | Yes|Telegram payment identifier|
-|provider\_charge\_id|[string](../types/string.md) | Yes|Provider payment identifier|
+|id|[string](/API_docs/types/string.md) | Yes|Telegram payment identifier|
+|provider\_charge\_id|[string](/API_docs/types/string.md) | Yes|Provider payment identifier|
 
 
 
-### Type: [PaymentCharge](../types/PaymentCharge.md)
+### Type: [PaymentCharge](/API_docs/types/PaymentCharge.md)
 
 
 ### Example:

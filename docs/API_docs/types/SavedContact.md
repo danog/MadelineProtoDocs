@@ -11,17 +11,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[savedPhoneContact](../constructors/savedPhoneContact.md)  
+[savedPhoneContact](/API_docs/constructors/savedPhoneContact.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->contacts->getSaved](../methods/contacts.getSaved.md)  
+[$MadelineProto->contacts->getSaved](/API_docs/methods/contacts.getSaved.md)  
 
 
 
-[savedPhoneContact](../constructors/savedPhoneContact.md)  
+[savedPhoneContact](/API_docs/constructors/savedPhoneContact.md)  
 
-[$MadelineProto->contacts->getSaved](../methods/contacts.getSaved.md)  
+[$MadelineProto->contacts->getSaved](/API_docs/methods/contacts.getSaved.md)  
 

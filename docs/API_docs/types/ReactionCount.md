@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[reactionCount](../constructors/reactionCount.md)  
+[reactionCount](/API_docs/constructors/reactionCount.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[reactionCount](../constructors/reactionCount.md)  
+[reactionCount](/API_docs/constructors/reactionCount.md)  
 

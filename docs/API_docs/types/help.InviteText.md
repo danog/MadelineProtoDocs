@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/help_InviteText.html
 
 ### Possible values (constructors):
 
-[help.inviteText](../constructors/help.inviteText.md)  
+[help.inviteText](/API_docs/constructors/help.inviteText.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->help->getInviteText](../methods/help.getInviteText.md)  
+[$MadelineProto->help->getInviteText](/API_docs/methods/help.getInviteText.md)  
 
 
 
-[help.inviteText](../constructors/help.inviteText.md)  
+[help.inviteText](/API_docs/constructors/help.inviteText.md)  
 
-[$MadelineProto->help->getInviteText](../methods/help.getInviteText.md)  
+[$MadelineProto->help->getInviteText](/API_docs/methods/help.getInviteText.md)  
 

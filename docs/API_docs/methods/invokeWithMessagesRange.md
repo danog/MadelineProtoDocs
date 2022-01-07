@@ -16,11 +16,11 @@ Invoke with the given message range
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|range|[MessageRange](../types/MessageRange.md) | Message range | Yes|
-|query|[!X](../types/!X.md) | Query | Yes|
+|range|[MessageRange](/API_docs/types/MessageRange.md) | Message range | Yes|
+|query|[!X](/API_docs/types/!X.md) | Query | Yes|
 
 
-### Return type: [X](../types/X.md)
+### Return type: [X](/API_docs/types/X.md)
 
 ### Can bots use this method: **YES**
 

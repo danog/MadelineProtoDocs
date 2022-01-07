@@ -17,10 +17,10 @@ Report a secret chat for spam
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | The secret chat to report | Yes|
+|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](/API_docs/types/InputEncryptedChat.md) | The secret chat to report | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockTable  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,14 +15,14 @@ Table
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|bordered|[Bool](../types/Bool.md) | Optional|Does the table have a visible border?|
-|striped|[Bool](../types/Bool.md) | Optional|Is the table striped?|
-|title|[RichText](../types/RichText.md) | Yes|Title|
-|rows|Array of [PageTableRow](../types/PageTableRow.md) | Yes|Table rows|
+|bordered|[Bool](/API_docs/types/Bool.md) | Optional|Does the table have a visible border?|
+|striped|[Bool](/API_docs/types/Bool.md) | Optional|Is the table striped?|
+|title|[RichText](/API_docs/types/RichText.md) | Yes|Title|
+|rows|Array of [PageTableRow](/API_docs/types/PageTableRow.md) | Yes|Table rows|
 
 
 
-### Type: [PageBlock](../types/PageBlock.md)
+### Type: [PageBlock](/API_docs/types/PageBlock.md)
 
 
 ### Example:

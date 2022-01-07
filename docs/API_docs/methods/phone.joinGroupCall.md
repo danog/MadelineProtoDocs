@@ -15,15 +15,15 @@ redirect_from: /API_docs/methods/phone_joinGroupCall.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|muted|[Bool](../types/Bool.md) | Optional|
-|video\_stopped|[Bool](../types/Bool.md) | Optional|
-|call|[InputGroupCall](../types/InputGroupCall.md) | Yes|
-|join\_as|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
-|invite\_hash|[string](../types/string.md) | Optional|
-|params|[DataJSON](../types/DataJSON.md) | Yes|
+|muted|[Bool](/API_docs/types/Bool.md) | Optional|
+|video\_stopped|[Bool](/API_docs/types/Bool.md) | Optional|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.md) | Yes|
+|join\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
+|invite\_hash|[string](/API_docs/types/string.md) | Optional|
+|params|[DataJSON](/API_docs/types/DataJSON.md) | Yes|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

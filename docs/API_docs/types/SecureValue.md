@@ -11,25 +11,25 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[secureValue](../constructors/secureValue.md)  
+[secureValue](/API_docs/constructors/secureValue.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->getAllSecureValues](../methods/account.getAllSecureValues.md)  
+[$MadelineProto->account->getAllSecureValues](/API_docs/methods/account.getAllSecureValues.md)  
 
-[$MadelineProto->account->getSecureValue](../methods/account.getSecureValue.md)  
+[$MadelineProto->account->getSecureValue](/API_docs/methods/account.getSecureValue.md)  
 
-[$MadelineProto->account->saveSecureValue](../methods/account.saveSecureValue.md)  
+[$MadelineProto->account->saveSecureValue](/API_docs/methods/account.saveSecureValue.md)  
 
 
 
-[secureValue](../constructors/secureValue.md)  
+[secureValue](/API_docs/constructors/secureValue.md)  
 
-[$MadelineProto->account->getAllSecureValues](../methods/account.getAllSecureValues.md)  
+[$MadelineProto->account->getAllSecureValues](/API_docs/methods/account.getAllSecureValues.md)  
 
-[$MadelineProto->account->getSecureValue](../methods/account.getSecureValue.md)  
+[$MadelineProto->account->getSecureValue](/API_docs/methods/account.getSecureValue.md)  
 
-[$MadelineProto->account->saveSecureValue](../methods/account.saveSecureValue.md)  
+[$MadelineProto->account->saveSecureValue](/API_docs/methods/account.saveSecureValue.md)  
 

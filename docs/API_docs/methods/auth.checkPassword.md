@@ -17,10 +17,10 @@ You cannot use this method directly, use the complete2falogin method instead (se
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|password|[InputCheckPasswordSRP](../types/InputCheckPasswordSRP.md) | The account's password (see [SRP](https://core.telegram.org/api/srp)) | Yes|
+|password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.md) | The account's password (see [SRP](https://core.telegram.org/api/srp)) | Yes|
 
 
-### Return type: [auth.Authorization](../types/auth.Authorization.md)
+### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.md)
 
 ### Can bots use this method: **NO**
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: dataJSON  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Represents a json-encoded object
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|data|[string](../types/string.md) | Yes|JSON-encoded object|
+|data|[string](/API_docs/types/string.md) | Yes|JSON-encoded object|
 
 
 
-### Type: [DataJSON](../types/DataJSON.md)
+### Type: [DataJSON](/API_docs/types/DataJSON.md)
 
 
 ### Example:

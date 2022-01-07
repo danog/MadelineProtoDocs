@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: topPeerCategoryCorrespondents  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,7 +14,7 @@ Users we've chatted most frequently with
 
 
 
-### Type: [TopPeerCategory](../types/TopPeerCategory.md)
+### Type: [TopPeerCategory](/API_docs/types/TopPeerCategory.md)
 
 
 ### Example:

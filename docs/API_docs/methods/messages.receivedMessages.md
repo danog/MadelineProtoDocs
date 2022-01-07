@@ -17,10 +17,10 @@ Confirms receipt of messages by a client, cancels PUSH-notification sending.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|max\_id|[int](../types/int.md) | Maximum message ID available in a client. | Yes|
+|max\_id|[int](/API_docs/types/int.md) | Maximum message ID available in a client. | Yes|
 
 
-### Return type: [Vector\_of\_ReceivedNotifyMessage](../types/ReceivedNotifyMessage.md)
+### Return type: [Vector\_of\_ReceivedNotifyMessage](/API_docs/types/ReceivedNotifyMessage.md)
 
 ### Can bots use this method: **NO**
 

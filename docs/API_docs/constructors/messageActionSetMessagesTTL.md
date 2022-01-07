@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionSetMessagesTTL  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -13,11 +13,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|period|[int](../types/int.md) | Yes|
+|period|[int](/API_docs/types/int.md) | Yes|
 
 
 
-### Type: [MessageAction](../types/MessageAction.md)
+### Type: [MessageAction](/API_docs/types/MessageAction.md)
 
 
 ### Example:

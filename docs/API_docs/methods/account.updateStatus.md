@@ -17,10 +17,10 @@ Updates online user status.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|offline|[Bool](../types/Bool.md) | If [(boolTrue)](../constructors/boolTrue.md) is transmitted, user status will change to [(userStatusOffline)](../constructors/userStatusOffline.md). | Yes|
+|offline|[Bool](/API_docs/types/Bool.md) | If [(boolTrue)](../constructors/boolTrue.md) is transmitted, user status will change to [(userStatusOffline)](../constructors/userStatusOffline.md). | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

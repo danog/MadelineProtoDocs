@@ -17,14 +17,14 @@ Sends a Telegram Passport authorization form, effectively sharing data with the 
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|bot\_id|[long](../types/long.md) |  | Yes|
-|scope|[string](../types/string.md) | Telegram Passport element types requested by the service | Yes|
-|public\_key|[string](../types/string.md) | Service's public key | Yes|
-|value\_hashes|Array of [SecureValueHash](../types/SecureValueHash.md) | Types of values sent and their hashes | Yes|
-|credentials|[SecureCredentialsEncrypted](../types/SecureCredentialsEncrypted.md) | Encrypted values | Yes|
+|bot\_id|[long](/API_docs/types/long.md) |  | Yes|
+|scope|[string](/API_docs/types/string.md) | Telegram Passport element types requested by the service | Yes|
+|public\_key|[string](/API_docs/types/string.md) | Service's public key | Yes|
+|value\_hashes|Array of [SecureValueHash](/API_docs/types/SecureValueHash.md) | Types of values sent and their hashes | Yes|
+|credentials|[SecureCredentialsEncrypted](/API_docs/types/SecureCredentialsEncrypted.md) | Encrypted values | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

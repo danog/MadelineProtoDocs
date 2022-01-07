@@ -17,10 +17,10 @@ Get saved GIFs
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[long](../types/long.md) |  | Yes|
+|hash|[long](/API_docs/types/long.md) |  | Yes|
 
 
-### Return type: [messages.SavedGifs](../types/messages.SavedGifs.md)
+### Return type: [messages.SavedGifs](/API_docs/types/messages.SavedGifs.md)
 
 ### Can bots use this method: **NO**
 

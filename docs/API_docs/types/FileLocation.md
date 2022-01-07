@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[fileLocationUnavailable\_23](../constructors/fileLocationUnavailable_23.md)  
+[fileLocationUnavailable\_23](/API_docs/constructors/fileLocationUnavailable_23.md)  
 
-[fileLocation\_23](../constructors/fileLocation_23.md)  
+[fileLocation\_23](/API_docs/constructors/fileLocation_23.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[fileLocationUnavailable\_23](../constructors/fileLocationUnavailable_23.md)  
+[fileLocationUnavailable\_23](/API_docs/constructors/fileLocationUnavailable_23.md)  
 
-[fileLocation\_23](../constructors/fileLocation_23.md)  
+[fileLocation\_23](/API_docs/constructors/fileLocation_23.md)  
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageEntityTextUrl  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,13 +15,13 @@ Message entity representing a [text url](https://google.com): for in-text urls l
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|offset|[int](../types/int.md) | Yes|Offset of message entity within message (in UTF-8 codepoints)|
-|length|[int](../types/int.md) | Yes|Length of message entity within message (in UTF-8 codepoints)|
-|url|[string](../types/string.md) | Yes|The actual URL|
+|offset|[int](/API_docs/types/int.md) | Yes|Offset of message entity within message (in UTF-8 codepoints)|
+|length|[int](/API_docs/types/int.md) | Yes|Length of message entity within message (in UTF-8 codepoints)|
+|url|[string](/API_docs/types/string.md) | Yes|The actual URL|
 
 
 
-### Type: [MessageEntity](../types/MessageEntity.md)
+### Type: [MessageEntity](/API_docs/types/MessageEntity.md)
 
 
 ### Example:

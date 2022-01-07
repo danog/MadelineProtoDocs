@@ -15,7 +15,7 @@ Returns current configuration, including data center configuration.
 
 
 
-### Return type: [Config](../types/Config.md)
+### Return type: [Config](/API_docs/types/Config.md)
 
 ### Can bots use this method: **YES**
 

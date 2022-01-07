@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputFile  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,14 +15,14 @@ Defines a file saved in parts using the method [upload.saveFilePart](../methods/
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|Random file identifier created by the client|
-|parts|[int](../types/int.md) | Yes|Number of parts saved|
-|name|[string](../types/string.md) | Yes|Full name of the file|
-|md5\_checksum|[string](../types/string.md) | Yes|In case the file's [md5-hash](https://en.wikipedia.org/wiki/MD5#MD5_hashes) was passed, contents of the file will be checked prior to use|
+|id|[long](/API_docs/types/long.md) | Yes|Random file identifier created by the client|
+|parts|[int](/API_docs/types/int.md) | Yes|Number of parts saved|
+|name|[string](/API_docs/types/string.md) | Yes|Full name of the file|
+|md5\_checksum|[string](/API_docs/types/string.md) | Yes|In case the file's [md5-hash](https://en.wikipedia.org/wiki/MD5#MD5_hashes) was passed, contents of the file will be checked prior to use|
 
 
 
-### Type: [InputFile](../types/InputFile.md)
+### Type: [InputFile](/API_docs/types/InputFile.md)
 
 
 ### Example:

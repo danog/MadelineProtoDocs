@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputStickerSetThumb  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ Location of stickerset thumbnail (see [files](https://core.telegram.org/api/file
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|stickerset|[InputStickerSet](../types/InputStickerSet.md) | Optional|Sticker set|
-|thumb\_version|[int](../types/int.md) | Yes|
+|stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.md) | Optional|Sticker set|
+|thumb\_version|[int](/API_docs/types/int.md) | Yes|
 
 
 
-### Type: [InputFileLocation](../types/InputFileLocation.md)
+### Type: [InputFileLocation](/API_docs/types/InputFileLocation.md)
 
 
 ### Example:

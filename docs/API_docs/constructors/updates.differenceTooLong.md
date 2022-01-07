@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/updates_differenceTooLong.html
 ---
 # Constructor: updates.differenceTooLong  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,11 +16,11 @@ The difference is [too long](https://core.telegram.org/api/updates#recovering-ga
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|pts|[int](../types/int.md) | Yes|The new state to use.|
+|pts|[int](/API_docs/types/int.md) | Yes|The new state to use.|
 
 
 
-### Type: [updates.Difference](../types/updates.Difference.md)
+### Type: [updates.Difference](/API_docs/types/updates.Difference.md)
 
 
 ### Example:

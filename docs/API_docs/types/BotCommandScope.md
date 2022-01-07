@@ -11,19 +11,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[botCommandScopeDefault](../constructors/botCommandScopeDefault.md)  
+[botCommandScopeDefault](/API_docs/constructors/botCommandScopeDefault.md)  
 
-[botCommandScopeUsers](../constructors/botCommandScopeUsers.md)  
+[botCommandScopeUsers](/API_docs/constructors/botCommandScopeUsers.md)  
 
-[botCommandScopeChats](../constructors/botCommandScopeChats.md)  
+[botCommandScopeChats](/API_docs/constructors/botCommandScopeChats.md)  
 
-[botCommandScopeChatAdmins](../constructors/botCommandScopeChatAdmins.md)  
+[botCommandScopeChatAdmins](/API_docs/constructors/botCommandScopeChatAdmins.md)  
 
-[botCommandScopePeer](../constructors/botCommandScopePeer.md)  
+[botCommandScopePeer](/API_docs/constructors/botCommandScopePeer.md)  
 
-[botCommandScopePeerAdmins](../constructors/botCommandScopePeerAdmins.md)  
+[botCommandScopePeerAdmins](/API_docs/constructors/botCommandScopePeerAdmins.md)  
 
-[botCommandScopePeerUser](../constructors/botCommandScopePeerUser.md)  
+[botCommandScopePeerUser](/API_docs/constructors/botCommandScopePeerUser.md)  
 
 
 
@@ -31,17 +31,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[botCommandScopeDefault](../constructors/botCommandScopeDefault.md)  
+[botCommandScopeDefault](/API_docs/constructors/botCommandScopeDefault.md)  
 
-[botCommandScopeUsers](../constructors/botCommandScopeUsers.md)  
+[botCommandScopeUsers](/API_docs/constructors/botCommandScopeUsers.md)  
 
-[botCommandScopeChats](../constructors/botCommandScopeChats.md)  
+[botCommandScopeChats](/API_docs/constructors/botCommandScopeChats.md)  
 
-[botCommandScopeChatAdmins](../constructors/botCommandScopeChatAdmins.md)  
+[botCommandScopeChatAdmins](/API_docs/constructors/botCommandScopeChatAdmins.md)  
 
-[botCommandScopePeer](../constructors/botCommandScopePeer.md)  
+[botCommandScopePeer](/API_docs/constructors/botCommandScopePeer.md)  
 
-[botCommandScopePeerAdmins](../constructors/botCommandScopePeerAdmins.md)  
+[botCommandScopePeerAdmins](/API_docs/constructors/botCommandScopePeerAdmins.md)  
 
-[botCommandScopePeerUser](../constructors/botCommandScopePeerUser.md)  
+[botCommandScopePeerUser](/API_docs/constructors/botCommandScopePeerUser.md)  
 

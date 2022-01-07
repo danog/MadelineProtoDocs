@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaContact  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,14 +15,14 @@ Phonebook contact
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|phone\_number|[string](../types/string.md) | Yes|Phone number|
-|first\_name|[string](../types/string.md) | Yes|Contact's first name|
-|last\_name|[string](../types/string.md) | Yes|Contact's last name|
-|vcard|[string](../types/string.md) | Yes|Contact vcard|
+|phone\_number|[string](/API_docs/types/string.md) | Yes|Phone number|
+|first\_name|[string](/API_docs/types/string.md) | Yes|Contact's first name|
+|last\_name|[string](/API_docs/types/string.md) | Yes|Contact's last name|
+|vcard|[string](/API_docs/types/string.md) | Yes|Contact vcard|
 
 
 
-### Type: [InputMedia](../types/InputMedia.md)
+### Type: [InputMedia](/API_docs/types/InputMedia.md)
 
 
 ### Example:

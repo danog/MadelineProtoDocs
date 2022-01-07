@@ -17,11 +17,11 @@ Check if a username is free and can be assigned to a channel/supergroup
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The [channel/supergroup](https://core.telegram.org/api/channel) that will assigned the specified username | Optional|
-|username|[string](../types/string.md) | The username to check | Yes|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | The [channel/supergroup](https://core.telegram.org/api/channel) that will assigned the specified username | Optional|
+|username|[string](/API_docs/types/string.md) | The username to check | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

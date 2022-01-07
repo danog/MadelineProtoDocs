@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/auth_authorization.html
 ---
 # Constructor: auth.authorization  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,14 +16,14 @@ Contains user authorization info.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|setup\_password\_required|[Bool](../types/Bool.md) | Optional|
-|otherwise\_relogin\_days|[int](../types/int.md) | Optional|
-|tmp\_sessions|[int](../types/int.md) | Optional|Temporary [passport](https://core.telegram.org/passport) sessions|
-|user|[User](../types/User.md) | Optional|Info on authorized user|
+|setup\_password\_required|[Bool](/API_docs/types/Bool.md) | Optional|
+|otherwise\_relogin\_days|[int](/API_docs/types/int.md) | Optional|
+|tmp\_sessions|[int](/API_docs/types/int.md) | Optional|Temporary [passport](https://core.telegram.org/passport) sessions|
+|user|[User](/API_docs/types/User.md) | Optional|Info on authorized user|
 
 
 
-### Type: [auth.Authorization](../types/auth.Authorization.md)
+### Type: [auth.Authorization](/API_docs/types/auth.Authorization.md)
 
 
 ### Example:

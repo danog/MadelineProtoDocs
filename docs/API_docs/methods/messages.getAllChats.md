@@ -17,10 +17,10 @@ Get all chats, channels and supergroups
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|except\_ids|Array of [long](../types/long.md) | Except these chats/channels/supergroups | Yes|
+|except\_ids|Array of [long](/API_docs/types/long.md) | Except these chats/channels/supergroups | Yes|
 
 
-### Return type: [messages.Chats](../types/messages.Chats.md)
+### Return type: [messages.Chats](/API_docs/types/messages.Chats.md)
 
 ### Can bots use this method: **NO**
 

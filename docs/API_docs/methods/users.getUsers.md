@@ -17,10 +17,10 @@ Returns basic user info according to their identifiers.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | List of user identifiers | Yes|
+|id|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | List of user identifiers | Yes|
 
 
-### Return type: [Vector\_of\_User](../types/User.md)
+### Return type: [Vector\_of\_User](/API_docs/types/User.md)
 
 ### Can bots use this method: **YES**
 

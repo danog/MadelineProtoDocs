@@ -34,13 +34,13 @@ A [Chat](Chat.md), a [User](User.md), an [InputPeer](InputPeer.md), an [InputDia
 
 ### Possible values (constructors):
 
-[notifyPeer](../constructors/notifyPeer.md)  
+[notifyPeer](/API_docs/constructors/notifyPeer.md)  
 
-[notifyUsers](../constructors/notifyUsers.md)  
+[notifyUsers](/API_docs/constructors/notifyUsers.md)  
 
-[notifyChats](../constructors/notifyChats.md)  
+[notifyChats](/API_docs/constructors/notifyChats.md)  
 
-[notifyBroadcasts](../constructors/notifyBroadcasts.md)  
+[notifyBroadcasts](/API_docs/constructors/notifyBroadcasts.md)  
 
 
 
@@ -48,11 +48,11 @@ A [Chat](Chat.md), a [User](User.md), an [InputPeer](InputPeer.md), an [InputDia
 
 
 
-[notifyPeer](../constructors/notifyPeer.md)  
+[notifyPeer](/API_docs/constructors/notifyPeer.md)  
 
-[notifyUsers](../constructors/notifyUsers.md)  
+[notifyUsers](/API_docs/constructors/notifyUsers.md)  
 
-[notifyChats](../constructors/notifyChats.md)  
+[notifyChats](/API_docs/constructors/notifyChats.md)  
 
-[notifyBroadcasts](../constructors/notifyBroadcasts.md)  
+[notifyBroadcasts](/API_docs/constructors/notifyBroadcasts.md)  
 

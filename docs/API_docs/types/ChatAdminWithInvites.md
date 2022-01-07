@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[chatAdminWithInvites](../constructors/chatAdminWithInvites.md)  
+[chatAdminWithInvites](/API_docs/constructors/chatAdminWithInvites.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[chatAdminWithInvites](../constructors/chatAdminWithInvites.md)  
+[chatAdminWithInvites](/API_docs/constructors/chatAdminWithInvites.md)  
 

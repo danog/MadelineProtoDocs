@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[secureData](../constructors/secureData.md)  
+[secureData](/API_docs/constructors/secureData.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[secureData](../constructors/secureData.md)  
+[secureData](/API_docs/constructors/secureData.md)  
 

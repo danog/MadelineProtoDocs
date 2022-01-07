@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/channels_channelParticipants.html
 ---
 # Constructor: channels.channelParticipants  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,14 +16,14 @@ Represents multiple channel participants
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|count|[int](../types/int.md) | Yes|Total number of participants that correspond to the given query|
-|participants|Array of [ChannelParticipant](../types/ChannelParticipant.md) | Yes|Participants|
-|chats|Array of [Chat](../types/Chat.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|Users mentioned in participant info|
+|count|[int](/API_docs/types/int.md) | Yes|Total number of participants that correspond to the given query|
+|participants|Array of [ChannelParticipant](/API_docs/types/ChannelParticipant.md) | Yes|Participants|
+|chats|Array of [Chat](/API_docs/types/Chat.md) | Yes|
+|users|Array of [User](/API_docs/types/User.md) | Yes|Users mentioned in participant info|
 
 
 
-### Type: [channels.ChannelParticipants](../types/channels.ChannelParticipants.md)
+### Type: [channels.ChannelParticipants](/API_docs/types/channels.ChannelParticipants.md)
 
 
 ### Example:

@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[bankCardOpenUrl](../constructors/bankCardOpenUrl.md)  
+[bankCardOpenUrl](/API_docs/constructors/bankCardOpenUrl.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[bankCardOpenUrl](../constructors/bankCardOpenUrl.md)  
+[bankCardOpenUrl](/API_docs/constructors/bankCardOpenUrl.md)  
 

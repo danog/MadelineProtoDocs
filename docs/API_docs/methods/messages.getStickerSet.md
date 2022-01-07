@@ -17,11 +17,11 @@ Get info about a stickerset
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|stickerset|[InputStickerSet](../types/InputStickerSet.md) | Stickerset | Optional|
-|hash|Array of [int](../types/int.md) |  | Optional|
+|stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.md) | Stickerset | Optional|
+|hash|Array of [int](/API_docs/types/int.md) |  | Optional|
 
 
-### Return type: [messages.StickerSet](../types/messages.StickerSet.md)
+### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.md)
 
 ### Can bots use this method: **YES**
 

@@ -15,33 +15,33 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->invokeAfterMsg](../methods/invokeAfterMsg.md)  
+[$MadelineProto->invokeAfterMsg](/API_docs/methods/invokeAfterMsg.md)  
 
-[$MadelineProto->invokeAfterMsgs](../methods/invokeAfterMsgs.md)  
+[$MadelineProto->invokeAfterMsgs](/API_docs/methods/invokeAfterMsgs.md)  
 
-[$MadelineProto->initConnection](../methods/initConnection.md)  
+[$MadelineProto->initConnection](/API_docs/methods/initConnection.md)  
 
-[$MadelineProto->invokeWithLayer](../methods/invokeWithLayer.md)  
+[$MadelineProto->invokeWithLayer](/API_docs/methods/invokeWithLayer.md)  
 
-[$MadelineProto->invokeWithoutUpdates](../methods/invokeWithoutUpdates.md)  
+[$MadelineProto->invokeWithoutUpdates](/API_docs/methods/invokeWithoutUpdates.md)  
 
-[$MadelineProto->invokeWithMessagesRange](../methods/invokeWithMessagesRange.md)  
+[$MadelineProto->invokeWithMessagesRange](/API_docs/methods/invokeWithMessagesRange.md)  
 
-[$MadelineProto->invokeWithTakeout](../methods/invokeWithTakeout.md)  
+[$MadelineProto->invokeWithTakeout](/API_docs/methods/invokeWithTakeout.md)  
 
 
 
-[$MadelineProto->invokeAfterMsg](../methods/invokeAfterMsg.md)  
+[$MadelineProto->invokeAfterMsg](/API_docs/methods/invokeAfterMsg.md)  
 
-[$MadelineProto->invokeAfterMsgs](../methods/invokeAfterMsgs.md)  
+[$MadelineProto->invokeAfterMsgs](/API_docs/methods/invokeAfterMsgs.md)  
 
-[$MadelineProto->initConnection](../methods/initConnection.md)  
+[$MadelineProto->initConnection](/API_docs/methods/initConnection.md)  
 
-[$MadelineProto->invokeWithLayer](../methods/invokeWithLayer.md)  
+[$MadelineProto->invokeWithLayer](/API_docs/methods/invokeWithLayer.md)  
 
-[$MadelineProto->invokeWithoutUpdates](../methods/invokeWithoutUpdates.md)  
+[$MadelineProto->invokeWithoutUpdates](/API_docs/methods/invokeWithoutUpdates.md)  
 
-[$MadelineProto->invokeWithMessagesRange](../methods/invokeWithMessagesRange.md)  
+[$MadelineProto->invokeWithMessagesRange](/API_docs/methods/invokeWithMessagesRange.md)  
 
-[$MadelineProto->invokeWithTakeout](../methods/invokeWithTakeout.md)  
+[$MadelineProto->invokeWithTakeout](/API_docs/methods/invokeWithTakeout.md)  
 

@@ -15,12 +15,12 @@ redirect_from: /API_docs/methods/account_changeAuthorizationSettings.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|hash|[long](../types/long.md) | Yes|
-|encrypted\_requests\_disabled|[Bool](../types/Bool.md) | Optional|
-|call\_requests\_disabled|[Bool](../types/Bool.md) | Optional|
+|hash|[long](/API_docs/types/long.md) | Yes|
+|encrypted\_requests\_disabled|[Bool](/API_docs/types/Bool.md) | Optional|
+|call\_requests\_disabled|[Bool](/API_docs/types/Bool.md) | Optional|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **YES**
 

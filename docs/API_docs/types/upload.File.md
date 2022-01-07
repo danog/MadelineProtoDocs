@@ -12,21 +12,21 @@ redirect_from: /API_docs/types/upload_File.html
 
 ### Possible values (constructors):
 
-[upload.file](../constructors/upload.file.md)  
+[upload.file](/API_docs/constructors/upload.file.md)  
 
-[upload.fileCdnRedirect](../constructors/upload.fileCdnRedirect.md)  
+[upload.fileCdnRedirect](/API_docs/constructors/upload.fileCdnRedirect.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->upload->getFile](../methods/upload.getFile.md)  
+[$MadelineProto->upload->getFile](/API_docs/methods/upload.getFile.md)  
 
 
 
-[upload.file](../constructors/upload.file.md)  
+[upload.file](/API_docs/constructors/upload.file.md)  
 
-[upload.fileCdnRedirect](../constructors/upload.fileCdnRedirect.md)  
+[upload.fileCdnRedirect](/API_docs/constructors/upload.fileCdnRedirect.md)  
 
-[$MadelineProto->upload->getFile](../methods/upload.getFile.md)  
+[$MadelineProto->upload->getFile](/API_docs/methods/upload.getFile.md)  
 

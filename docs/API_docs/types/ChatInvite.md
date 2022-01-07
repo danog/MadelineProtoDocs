@@ -11,25 +11,25 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[chatInviteAlready](../constructors/chatInviteAlready.md)  
+[chatInviteAlready](/API_docs/constructors/chatInviteAlready.md)  
 
-[chatInvite](../constructors/chatInvite.md)  
+[chatInvite](/API_docs/constructors/chatInvite.md)  
 
-[chatInvitePeek](../constructors/chatInvitePeek.md)  
+[chatInvitePeek](/API_docs/constructors/chatInvitePeek.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->checkChatInvite](../methods/messages.checkChatInvite.md)  
+[$MadelineProto->messages->checkChatInvite](/API_docs/methods/messages.checkChatInvite.md)  
 
 
 
-[chatInviteAlready](../constructors/chatInviteAlready.md)  
+[chatInviteAlready](/API_docs/constructors/chatInviteAlready.md)  
 
-[chatInvite](../constructors/chatInvite.md)  
+[chatInvite](/API_docs/constructors/chatInvite.md)  
 
-[chatInvitePeek](../constructors/chatInvitePeek.md)  
+[chatInvitePeek](/API_docs/constructors/chatInvitePeek.md)  
 
-[$MadelineProto->messages->checkChatInvite](../methods/messages.checkChatInvite.md)  
+[$MadelineProto->messages->checkChatInvite](/API_docs/methods/messages.checkChatInvite.md)  
 

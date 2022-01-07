@@ -11,15 +11,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[recentMeUrlUnknown](../constructors/recentMeUrlUnknown.md)  
+[recentMeUrlUnknown](/API_docs/constructors/recentMeUrlUnknown.md)  
 
-[recentMeUrlUser](../constructors/recentMeUrlUser.md)  
+[recentMeUrlUser](/API_docs/constructors/recentMeUrlUser.md)  
 
-[recentMeUrlChat](../constructors/recentMeUrlChat.md)  
+[recentMeUrlChat](/API_docs/constructors/recentMeUrlChat.md)  
 
-[recentMeUrlChatInvite](../constructors/recentMeUrlChatInvite.md)  
+[recentMeUrlChatInvite](/API_docs/constructors/recentMeUrlChatInvite.md)  
 
-[recentMeUrlStickerSet](../constructors/recentMeUrlStickerSet.md)  
+[recentMeUrlStickerSet](/API_docs/constructors/recentMeUrlStickerSet.md)  
 
 
 
@@ -27,13 +27,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[recentMeUrlUnknown](../constructors/recentMeUrlUnknown.md)  
+[recentMeUrlUnknown](/API_docs/constructors/recentMeUrlUnknown.md)  
 
-[recentMeUrlUser](../constructors/recentMeUrlUser.md)  
+[recentMeUrlUser](/API_docs/constructors/recentMeUrlUser.md)  
 
-[recentMeUrlChat](../constructors/recentMeUrlChat.md)  
+[recentMeUrlChat](/API_docs/constructors/recentMeUrlChat.md)  
 
-[recentMeUrlChatInvite](../constructors/recentMeUrlChatInvite.md)  
+[recentMeUrlChatInvite](/API_docs/constructors/recentMeUrlChatInvite.md)  
 
-[recentMeUrlStickerSet](../constructors/recentMeUrlStickerSet.md)  
+[recentMeUrlStickerSet](/API_docs/constructors/recentMeUrlStickerSet.md)  
 

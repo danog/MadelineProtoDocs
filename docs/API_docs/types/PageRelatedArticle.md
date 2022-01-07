@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[pageRelatedArticle](../constructors/pageRelatedArticle.md)  
+[pageRelatedArticle](/API_docs/constructors/pageRelatedArticle.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[pageRelatedArticle](../constructors/pageRelatedArticle.md)  
+[pageRelatedArticle](/API_docs/constructors/pageRelatedArticle.md)  
 

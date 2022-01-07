@@ -17,10 +17,10 @@ Join a channel/supergroup
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Channel/supergroup to join | Optional|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | Channel/supergroup to join | Optional|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

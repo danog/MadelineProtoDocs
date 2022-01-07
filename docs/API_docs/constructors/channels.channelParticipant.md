@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/channels_channelParticipant.html
 ---
 # Constructor: channels.channelParticipant  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,13 +16,13 @@ Represents a channel participant
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|participant|[ChannelParticipant](../types/ChannelParticipant.md) | Yes|The channel participant|
-|chats|Array of [Chat](../types/Chat.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|Users|
+|participant|[ChannelParticipant](/API_docs/types/ChannelParticipant.md) | Yes|The channel participant|
+|chats|Array of [Chat](/API_docs/types/Chat.md) | Yes|
+|users|Array of [User](/API_docs/types/User.md) | Yes|Users|
 
 
 
-### Type: [channels.ChannelParticipant](../types/channels.ChannelParticipant.md)
+### Type: [channels.ChannelParticipant](/API_docs/types/channels.ChannelParticipant.md)
 
 
 ### Example:

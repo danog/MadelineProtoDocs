@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[groupCallDiscarded](../constructors/groupCallDiscarded.md)  
+[groupCallDiscarded](/API_docs/constructors/groupCallDiscarded.md)  
 
-[groupCall](../constructors/groupCall.md)  
+[groupCall](/API_docs/constructors/groupCall.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[groupCallDiscarded](../constructors/groupCallDiscarded.md)  
+[groupCallDiscarded](/API_docs/constructors/groupCallDiscarded.md)  
 
-[groupCall](../constructors/groupCall.md)  
+[groupCall](/API_docs/constructors/groupCall.md)  
 

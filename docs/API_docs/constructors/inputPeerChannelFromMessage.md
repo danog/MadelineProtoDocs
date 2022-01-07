@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPeerChannelFromMessage  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,13 +15,13 @@ Defines a [min](https://core.telegram.org/api/min) channel that was seen in a ce
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The chat where the channel's message was seen|
-|msg\_id|[int](../types/int.md) | Yes|The message ID|
-|channel\_id|[long](../types/long.md) | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|The chat where the channel's message was seen|
+|msg\_id|[int](/API_docs/types/int.md) | Yes|The message ID|
+|channel\_id|[long](/API_docs/types/long.md) | Yes|
 
 
 
-### Type: [InputPeer](../types/InputPeer.md)
+### Type: [InputPeer](/API_docs/types/InputPeer.md)
 
 
 ### Example:

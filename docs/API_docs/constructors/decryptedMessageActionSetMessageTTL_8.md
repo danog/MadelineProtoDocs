@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionSetMessageTTL\_8  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -17,11 +17,11 @@ Upon receiving such message the client shall start deleting of all messages of a
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|ttl\_seconds|[int](../types/int.md) | Yes|Lifetime in seconds|
+|ttl\_seconds|[int](/API_docs/types/int.md) | Yes|Lifetime in seconds|
 
 
 
-### Type: [DecryptedMessageAction](../types/DecryptedMessageAction.md)
+### Type: [DecryptedMessageAction](/API_docs/types/DecryptedMessageAction.md)
 
 
 ### Example:

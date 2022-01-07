@@ -13,7 +13,7 @@ redirect_from: /API_docs/methods/account_resetPassword.html
 
 
 
-### Return type: [account.ResetPasswordResult](../types/account.ResetPasswordResult.md)
+### Return type: [account.ResetPasswordResult](/API_docs/types/account.ResetPasswordResult.md)
 
 ### Can bots use this method: **NO**
 

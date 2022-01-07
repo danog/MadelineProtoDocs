@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: keyboardButtonUserProfile  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -13,12 +13,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|text|[string](../types/string.md) | Yes|
-|user\_id|[long](../types/long.md) | Yes|
+|text|[string](/API_docs/types/string.md) | Yes|
+|user\_id|[long](/API_docs/types/long.md) | Yes|
 
 
 
-### Type: [KeyboardButton](../types/KeyboardButton.md)
+### Type: [KeyboardButton](/API_docs/types/KeyboardButton.md)
 
 
 ### Example:

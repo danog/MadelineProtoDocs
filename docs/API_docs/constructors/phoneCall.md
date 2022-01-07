@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneCall  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,22 +15,22 @@ Phone call
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|p2p\_allowed|[Bool](../types/Bool.md) | Optional|Whether P2P connection to the other peer is allowed|
-|video|[Bool](../types/Bool.md) | Optional|Whether this is a video call|
-|id|[long](../types/long.md) | Yes|Call ID|
-|access\_hash|[long](../types/long.md) | Yes|Access hash|
-|date|[int](../types/int.md) | Yes|Date of creation of the call|
-|admin\_id|[long](../types/long.md) | Yes|
-|participant\_id|[long](../types/long.md) | Yes|
-|g\_a\_or\_b|[bytes](../types/bytes.md) | Yes|[Parameter for key exchange](https://core.telegram.org/api/end-to-end/voice-calls)|
-|key\_fingerprint|[long](../types/long.md) | Yes|[Key fingerprint](https://core.telegram.org/api/end-to-end/voice-calls)|
-|protocol|[PhoneCallProtocol](../types/PhoneCallProtocol.md) | Yes|Call protocol info to be passed to libtgvoip|
-|connections|Array of [PhoneConnection](../types/PhoneConnection.md) | Yes|List of endpoints the user can connect to to exchange call data|
-|start\_date|[int](../types/int.md) | Yes|When was the call actually started|
+|p2p\_allowed|[Bool](/API_docs/types/Bool.md) | Optional|Whether P2P connection to the other peer is allowed|
+|video|[Bool](/API_docs/types/Bool.md) | Optional|Whether this is a video call|
+|id|[long](/API_docs/types/long.md) | Yes|Call ID|
+|access\_hash|[long](/API_docs/types/long.md) | Yes|Access hash|
+|date|[int](/API_docs/types/int.md) | Yes|Date of creation of the call|
+|admin\_id|[long](/API_docs/types/long.md) | Yes|
+|participant\_id|[long](/API_docs/types/long.md) | Yes|
+|g\_a\_or\_b|[bytes](/API_docs/types/bytes.md) | Yes|[Parameter for key exchange](https://core.telegram.org/api/end-to-end/voice-calls)|
+|key\_fingerprint|[long](/API_docs/types/long.md) | Yes|[Key fingerprint](https://core.telegram.org/api/end-to-end/voice-calls)|
+|protocol|[PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.md) | Yes|Call protocol info to be passed to libtgvoip|
+|connections|Array of [PhoneConnection](/API_docs/types/PhoneConnection.md) | Yes|List of endpoints the user can connect to to exchange call data|
+|start\_date|[int](/API_docs/types/int.md) | Yes|When was the call actually started|
 
 
 
-### Type: [PhoneCall](../types/PhoneCall.md)
+### Type: [PhoneCall](/API_docs/types/PhoneCall.md)
 
 
 ### Example:

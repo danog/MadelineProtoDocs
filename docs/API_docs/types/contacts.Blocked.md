@@ -12,21 +12,21 @@ redirect_from: /API_docs/types/contacts_Blocked.html
 
 ### Possible values (constructors):
 
-[contacts.blocked](../constructors/contacts.blocked.md)  
+[contacts.blocked](/API_docs/constructors/contacts.blocked.md)  
 
-[contacts.blockedSlice](../constructors/contacts.blockedSlice.md)  
+[contacts.blockedSlice](/API_docs/constructors/contacts.blockedSlice.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->contacts->getBlocked](../methods/contacts.getBlocked.md)  
+[$MadelineProto->contacts->getBlocked](/API_docs/methods/contacts.getBlocked.md)  
 
 
 
-[contacts.blocked](../constructors/contacts.blocked.md)  
+[contacts.blocked](/API_docs/constructors/contacts.blocked.md)  
 
-[contacts.blockedSlice](../constructors/contacts.blockedSlice.md)  
+[contacts.blockedSlice](/API_docs/constructors/contacts.blockedSlice.md)  
 
-[$MadelineProto->contacts->getBlocked](../methods/contacts.getBlocked.md)  
+[$MadelineProto->contacts->getBlocked](/API_docs/methods/contacts.getBlocked.md)  
 

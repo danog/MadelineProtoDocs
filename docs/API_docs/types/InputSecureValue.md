@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputSecureValue](../constructors/inputSecureValue.md)  
+[inputSecureValue](/API_docs/constructors/inputSecureValue.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputSecureValue](../constructors/inputSecureValue.md)  
+[inputSecureValue](/API_docs/constructors/inputSecureValue.md)  
 

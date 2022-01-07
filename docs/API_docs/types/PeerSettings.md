@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[peerSettings](../constructors/peerSettings.md)  
+[peerSettings](/API_docs/constructors/peerSettings.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[peerSettings](../constructors/peerSettings.md)  
+[peerSettings](/API_docs/constructors/peerSettings.md)  
 

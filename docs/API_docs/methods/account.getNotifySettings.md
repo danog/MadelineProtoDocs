@@ -17,10 +17,10 @@ Gets current notification settings for a given user/group, from all users/all gr
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputNotifyPeer](../types/InputNotifyPeer.md) | Notification source | Yes|
+|peer|[Username, chat ID, Update, Message or InputNotifyPeer](/API_docs/types/InputNotifyPeer.md) | Notification source | Yes|
 
 
-### Return type: [PeerNotifySettings](../types/PeerNotifySettings.md)
+### Return type: [PeerNotifySettings](/API_docs/types/PeerNotifySettings.md)
 
 ### Can bots use this method: **NO**
 

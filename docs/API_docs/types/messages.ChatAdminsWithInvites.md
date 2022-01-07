@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/messages_ChatAdminsWithInvites.html
 
 ### Possible values (constructors):
 
-[messages.chatAdminsWithInvites](../constructors/messages.chatAdminsWithInvites.md)  
+[messages.chatAdminsWithInvites](/API_docs/constructors/messages.chatAdminsWithInvites.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getAdminsWithInvites](../methods/messages.getAdminsWithInvites.md)  
+[$MadelineProto->messages->getAdminsWithInvites](/API_docs/methods/messages.getAdminsWithInvites.md)  
 
 
 
-[messages.chatAdminsWithInvites](../constructors/messages.chatAdminsWithInvites.md)  
+[messages.chatAdminsWithInvites](/API_docs/constructors/messages.chatAdminsWithInvites.md)  
 
-[$MadelineProto->messages->getAdminsWithInvites](../methods/messages.getAdminsWithInvites.md)  
+[$MadelineProto->messages->getAdminsWithInvites](/API_docs/methods/messages.getAdminsWithInvites.md)  
 

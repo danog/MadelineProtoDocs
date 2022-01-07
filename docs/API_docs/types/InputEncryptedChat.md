@@ -19,7 +19,7 @@ $InputEncryptedChat = -147286699; // Numeric chat id returned by requestSecretCh
 
 ### Possible values (constructors):
 
-[inputEncryptedChat](../constructors/inputEncryptedChat.md)  
+[inputEncryptedChat](/API_docs/constructors/inputEncryptedChat.md)  
 
 
 
@@ -27,5 +27,5 @@ $InputEncryptedChat = -147286699; // Numeric chat id returned by requestSecretCh
 
 
 
-[inputEncryptedChat](../constructors/inputEncryptedChat.md)  
+[inputEncryptedChat](/API_docs/constructors/inputEncryptedChat.md)  
 

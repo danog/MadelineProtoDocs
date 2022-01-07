@@ -17,13 +17,13 @@ Get more info about a Seamless Telegram Login authorization request, for more in
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Peer where the message is located | Optional|
-|msg\_id|[int](../types/int.md) | The message | Optional|
-|button\_id|[int](../types/int.md) | The ID of the button with the authorization request | Optional|
-|url|[string](../types/string.md) |  | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Peer where the message is located | Optional|
+|msg\_id|[int](/API_docs/types/int.md) | The message | Optional|
+|button\_id|[int](/API_docs/types/int.md) | The ID of the button with the authorization request | Optional|
+|url|[string](/API_docs/types/string.md) |  | Optional|
 
 
-### Return type: [UrlAuthResult](../types/UrlAuthResult.md)
+### Return type: [UrlAuthResult](/API_docs/types/UrlAuthResult.md)
 
 ### Can bots use this method: **NO**
 

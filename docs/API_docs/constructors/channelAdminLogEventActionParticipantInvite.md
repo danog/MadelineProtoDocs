@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionParticipantInvite  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ A user was invited to the group
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|participant|[ChannelParticipant](../types/ChannelParticipant.md) | Yes|The user that was invited|
+|participant|[ChannelParticipant](/API_docs/types/ChannelParticipant.md) | Yes|The user that was invited|
 
 
 
-### Type: [ChannelAdminLogEventAction](../types/ChannelAdminLogEventAction.md)
+### Type: [ChannelAdminLogEventAction](/API_docs/types/ChannelAdminLogEventAction.md)
 
 
 ### Example:

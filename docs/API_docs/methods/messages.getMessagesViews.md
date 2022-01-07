@@ -17,12 +17,12 @@ Get and increase the view counter of a message sent or forwarded from a [channel
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Peer where the message was found | Optional|
-|id|Array of [int](../types/int.md) | ID of message | Yes|
-|increment|[Bool](../types/Bool.md) | Whether to mark the message as viewed and increment the view counter | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Peer where the message was found | Optional|
+|id|Array of [int](/API_docs/types/int.md) | ID of message | Yes|
+|increment|[Bool](/API_docs/types/Bool.md) | Whether to mark the message as viewed and increment the view counter | Yes|
 
 
-### Return type: [messages.MessageViews](../types/messages.MessageViews.md)
+### Return type: [messages.MessageViews](/API_docs/types/messages.MessageViews.md)
 
 ### Can bots use this method: **NO**
 

@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[messageReplyHeader](../constructors/messageReplyHeader.md)  
+[messageReplyHeader](/API_docs/constructors/messageReplyHeader.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[messageReplyHeader](../constructors/messageReplyHeader.md)  
+[messageReplyHeader](/API_docs/constructors/messageReplyHeader.md)  
 

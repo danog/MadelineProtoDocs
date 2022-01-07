@@ -17,17 +17,17 @@ Gets back the conversation history with one interlocutor / within a chat
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Target peer | Optional|
-|offset\_id|[int](../types/int.md) | Only return messages starting from the specified message ID | Yes|
-|offset\_date|[int](../types/int.md) | Only return messages sent before the specified date | Yes|
-|add\_offset|[int](../types/int.md) | Number of list elements to be skipped, negative values are also accepted. | Yes|
-|limit|[int](../types/int.md) | Number of results to return | Yes|
-|max\_id|[int](../types/int.md) | If a positive value was transferred, the method will return only messages with IDs less than **max\_id** | Yes|
-|min\_id|[int](../types/int.md) | If a positive value was transferred, the method will return only messages with IDs more than **min\_id** | Yes|
-|hash|[long](../types/long.md) |  | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Target peer | Optional|
+|offset\_id|[int](/API_docs/types/int.md) | Only return messages starting from the specified message ID | Yes|
+|offset\_date|[int](/API_docs/types/int.md) | Only return messages sent before the specified date | Yes|
+|add\_offset|[int](/API_docs/types/int.md) | Number of list elements to be skipped, negative values are also accepted. | Yes|
+|limit|[int](/API_docs/types/int.md) | Number of results to return | Yes|
+|max\_id|[int](/API_docs/types/int.md) | If a positive value was transferred, the method will return only messages with IDs less than **max\_id** | Yes|
+|min\_id|[int](/API_docs/types/int.md) | If a positive value was transferred, the method will return only messages with IDs more than **min\_id** | Yes|
+|hash|[long](/API_docs/types/long.md) |  | Yes|
 
 
-### Return type: [messages.Messages](../types/messages.Messages.md)
+### Return type: [messages.Messages](/API_docs/types/messages.Messages.md)
 
 ### Can bots use this method: **NO**
 

@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_historyImport.html
 ---
 # Constructor: messages.historyImport  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,11 +14,11 @@ redirect_from: /API_docs/constructors/messages_historyImport.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|id|[long](../types/long.md) | Yes|
+|id|[long](/API_docs/types/long.md) | Yes|
 
 
 
-### Type: [messages.HistoryImport](../types/messages.HistoryImport.md)
+### Type: [messages.HistoryImport](/API_docs/types/messages.HistoryImport.md)
 
 
 ### Example:

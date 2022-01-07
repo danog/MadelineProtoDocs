@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputBotInlineMessageMediaVenue  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,17 +15,17 @@ Venue
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|Geolocation|
-|title|[string](../types/string.md) | Yes|Venue name|
-|address|[string](../types/string.md) | Yes|Address|
-|provider|[string](../types/string.md) | Yes|Venue provider: currently only "foursquare" needs to be supported|
-|venue\_id|[string](../types/string.md) | Yes|Venue ID in the provider's database|
-|venue\_type|[string](../types/string.md) | Yes|Venue type in the provider's database|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Optional|Inline keyboard|
+|geo\_point|[InputGeoPoint](/API_docs/types/InputGeoPoint.md) | Optional|Geolocation|
+|title|[string](/API_docs/types/string.md) | Yes|Venue name|
+|address|[string](/API_docs/types/string.md) | Yes|Address|
+|provider|[string](/API_docs/types/string.md) | Yes|Venue provider: currently only "foursquare" needs to be supported|
+|venue\_id|[string](/API_docs/types/string.md) | Yes|Venue ID in the provider's database|
+|venue\_type|[string](/API_docs/types/string.md) | Yes|Venue type in the provider's database|
+|reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.md) | Optional|Inline keyboard|
 
 
 
-### Type: [InputBotInlineMessage](../types/InputBotInlineMessage.md)
+### Type: [InputBotInlineMessage](/API_docs/types/InputBotInlineMessage.md)
 
 
 ### Example:

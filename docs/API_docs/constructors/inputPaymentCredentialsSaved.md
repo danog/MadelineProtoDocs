@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPaymentCredentialsSaved  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ Saved payment credentials
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[string](../types/string.md) | Yes|Credential ID|
-|tmp\_password|[bytes](../types/bytes.md) | Yes|Temporary password|
+|id|[string](/API_docs/types/string.md) | Yes|Credential ID|
+|tmp\_password|[bytes](/API_docs/types/bytes.md) | Yes|Temporary password|
 
 
 
-### Type: [InputPaymentCredentials](../types/InputPaymentCredentials.md)
+### Type: [InputPaymentCredentials](/API_docs/types/InputPaymentCredentials.md)
 
 
 ### Example:

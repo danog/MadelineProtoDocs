@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: popularContact  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ Popular contact
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|client\_id|[long](../types/long.md) | Yes|Contact identifier|
-|importers|[int](../types/int.md) | Yes|How many people imported this contact|
+|client\_id|[long](/API_docs/types/long.md) | Yes|Contact identifier|
+|importers|[int](/API_docs/types/int.md) | Yes|How many people imported this contact|
 
 
 
-### Type: [PopularContact](../types/PopularContact.md)
+### Type: [PopularContact](/API_docs/types/PopularContact.md)
 
 
 ### Example:

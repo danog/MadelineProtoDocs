@@ -17,11 +17,11 @@ Get [channel/supergroup](https://core.telegram.org/api/channel) messages
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Channel/supergroup | Optional|
-|id|Array of [Message ID or InputMessage](../types/InputMessage.md) | IDs of messages to get | Yes|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | Channel/supergroup | Optional|
+|id|Array of [Message ID or InputMessage](/API_docs/types/InputMessage.md) | IDs of messages to get | Yes|
 
 
-### Return type: [messages.Messages](../types/messages.Messages.md)
+### Return type: [messages.Messages](/API_docs/types/messages.Messages.md)
 
 ### Can bots use this method: **YES**
 

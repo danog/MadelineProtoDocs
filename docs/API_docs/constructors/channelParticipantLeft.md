@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantLeft  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ A participant that left the channel/supergroup
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](../types/Peer.md) | Yes|
+|peer|[Peer](/API_docs/types/Peer.md) | Yes|
 
 
 
-### Type: [ChannelParticipant](../types/ChannelParticipant.md)
+### Type: [ChannelParticipant](/API_docs/types/ChannelParticipant.md)
 
 
 ### Example:

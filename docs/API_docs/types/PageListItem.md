@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[pageListItemText](../constructors/pageListItemText.md)  
+[pageListItemText](/API_docs/constructors/pageListItemText.md)  
 
-[pageListItemBlocks](../constructors/pageListItemBlocks.md)  
+[pageListItemBlocks](/API_docs/constructors/pageListItemBlocks.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[pageListItemText](../constructors/pageListItemText.md)  
+[pageListItemText](/API_docs/constructors/pageListItemText.md)  
 
-[pageListItemBlocks](../constructors/pageListItemBlocks.md)  
+[pageListItemBlocks](/API_docs/constructors/pageListItemBlocks.md)  
 

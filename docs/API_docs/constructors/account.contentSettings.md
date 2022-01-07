@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_contentSettings.html
 ---
 # Constructor: account.contentSettings  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,12 +16,12 @@ Sensitive content settings
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|sensitive\_enabled|[Bool](../types/Bool.md) | Optional|Whether viewing of sensitive (NSFW) content is enabled|
-|sensitive\_can\_change|[Bool](../types/Bool.md) | Optional|Whether the current client can change the sensitive content settings to view NSFW content|
+|sensitive\_enabled|[Bool](/API_docs/types/Bool.md) | Optional|Whether viewing of sensitive (NSFW) content is enabled|
+|sensitive\_can\_change|[Bool](/API_docs/types/Bool.md) | Optional|Whether the current client can change the sensitive content settings to view NSFW content|
 
 
 
-### Type: [account.ContentSettings](../types/account.ContentSettings.md)
+### Type: [account.ContentSettings](/API_docs/types/account.ContentSettings.md)
 
 
 ### Example:

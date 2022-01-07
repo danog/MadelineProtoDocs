@@ -17,14 +17,14 @@ Use this to accept a Seamless Telegram Login authorization request, for more inf
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|write\_allowed|[Bool](../types/Bool.md) | Set this flag to allow the bot to send messages to you (if requested) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The location of the message | Optional|
-|msg\_id|[int](../types/int.md) | Message ID of the message with the login button | Optional|
-|button\_id|[int](../types/int.md) | ID of the login button | Optional|
-|url|[string](../types/string.md) |  | Optional|
+|write\_allowed|[Bool](/API_docs/types/Bool.md) | Set this flag to allow the bot to send messages to you (if requested) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | The location of the message | Optional|
+|msg\_id|[int](/API_docs/types/int.md) | Message ID of the message with the login button | Optional|
+|button\_id|[int](/API_docs/types/int.md) | ID of the login button | Optional|
+|url|[string](/API_docs/types/string.md) |  | Optional|
 
 
-### Return type: [UrlAuthResult](../types/UrlAuthResult.md)
+### Return type: [UrlAuthResult](/API_docs/types/UrlAuthResult.md)
 
 ### Can bots use this method: **NO**
 

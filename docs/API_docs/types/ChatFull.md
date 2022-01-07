@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[chatFull](../constructors/chatFull.md)  
+[chatFull](/API_docs/constructors/chatFull.md)  
 
-[channelFull](../constructors/channelFull.md)  
+[channelFull](/API_docs/constructors/channelFull.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[chatFull](../constructors/chatFull.md)  
+[chatFull](/API_docs/constructors/chatFull.md)  
 
-[channelFull](../constructors/channelFull.md)  
+[channelFull](/API_docs/constructors/channelFull.md)  
 

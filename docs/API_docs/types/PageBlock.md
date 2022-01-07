@@ -11,63 +11,63 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[pageBlockUnsupported](../constructors/pageBlockUnsupported.md)  
+[pageBlockUnsupported](/API_docs/constructors/pageBlockUnsupported.md)  
 
-[pageBlockTitle](../constructors/pageBlockTitle.md)  
+[pageBlockTitle](/API_docs/constructors/pageBlockTitle.md)  
 
-[pageBlockSubtitle](../constructors/pageBlockSubtitle.md)  
+[pageBlockSubtitle](/API_docs/constructors/pageBlockSubtitle.md)  
 
-[pageBlockAuthorDate](../constructors/pageBlockAuthorDate.md)  
+[pageBlockAuthorDate](/API_docs/constructors/pageBlockAuthorDate.md)  
 
-[pageBlockHeader](../constructors/pageBlockHeader.md)  
+[pageBlockHeader](/API_docs/constructors/pageBlockHeader.md)  
 
-[pageBlockSubheader](../constructors/pageBlockSubheader.md)  
+[pageBlockSubheader](/API_docs/constructors/pageBlockSubheader.md)  
 
-[pageBlockParagraph](../constructors/pageBlockParagraph.md)  
+[pageBlockParagraph](/API_docs/constructors/pageBlockParagraph.md)  
 
-[pageBlockPreformatted](../constructors/pageBlockPreformatted.md)  
+[pageBlockPreformatted](/API_docs/constructors/pageBlockPreformatted.md)  
 
-[pageBlockFooter](../constructors/pageBlockFooter.md)  
+[pageBlockFooter](/API_docs/constructors/pageBlockFooter.md)  
 
-[pageBlockDivider](../constructors/pageBlockDivider.md)  
+[pageBlockDivider](/API_docs/constructors/pageBlockDivider.md)  
 
-[pageBlockAnchor](../constructors/pageBlockAnchor.md)  
+[pageBlockAnchor](/API_docs/constructors/pageBlockAnchor.md)  
 
-[pageBlockList](../constructors/pageBlockList.md)  
+[pageBlockList](/API_docs/constructors/pageBlockList.md)  
 
-[pageBlockBlockquote](../constructors/pageBlockBlockquote.md)  
+[pageBlockBlockquote](/API_docs/constructors/pageBlockBlockquote.md)  
 
-[pageBlockPullquote](../constructors/pageBlockPullquote.md)  
+[pageBlockPullquote](/API_docs/constructors/pageBlockPullquote.md)  
 
-[pageBlockPhoto](../constructors/pageBlockPhoto.md)  
+[pageBlockPhoto](/API_docs/constructors/pageBlockPhoto.md)  
 
-[pageBlockVideo](../constructors/pageBlockVideo.md)  
+[pageBlockVideo](/API_docs/constructors/pageBlockVideo.md)  
 
-[pageBlockCover](../constructors/pageBlockCover.md)  
+[pageBlockCover](/API_docs/constructors/pageBlockCover.md)  
 
-[pageBlockEmbed](../constructors/pageBlockEmbed.md)  
+[pageBlockEmbed](/API_docs/constructors/pageBlockEmbed.md)  
 
-[pageBlockEmbedPost](../constructors/pageBlockEmbedPost.md)  
+[pageBlockEmbedPost](/API_docs/constructors/pageBlockEmbedPost.md)  
 
-[pageBlockCollage](../constructors/pageBlockCollage.md)  
+[pageBlockCollage](/API_docs/constructors/pageBlockCollage.md)  
 
-[pageBlockSlideshow](../constructors/pageBlockSlideshow.md)  
+[pageBlockSlideshow](/API_docs/constructors/pageBlockSlideshow.md)  
 
-[pageBlockChannel](../constructors/pageBlockChannel.md)  
+[pageBlockChannel](/API_docs/constructors/pageBlockChannel.md)  
 
-[pageBlockAudio](../constructors/pageBlockAudio.md)  
+[pageBlockAudio](/API_docs/constructors/pageBlockAudio.md)  
 
-[pageBlockKicker](../constructors/pageBlockKicker.md)  
+[pageBlockKicker](/API_docs/constructors/pageBlockKicker.md)  
 
-[pageBlockTable](../constructors/pageBlockTable.md)  
+[pageBlockTable](/API_docs/constructors/pageBlockTable.md)  
 
-[pageBlockOrderedList](../constructors/pageBlockOrderedList.md)  
+[pageBlockOrderedList](/API_docs/constructors/pageBlockOrderedList.md)  
 
-[pageBlockDetails](../constructors/pageBlockDetails.md)  
+[pageBlockDetails](/API_docs/constructors/pageBlockDetails.md)  
 
-[pageBlockRelatedArticles](../constructors/pageBlockRelatedArticles.md)  
+[pageBlockRelatedArticles](/API_docs/constructors/pageBlockRelatedArticles.md)  
 
-[pageBlockMap](../constructors/pageBlockMap.md)  
+[pageBlockMap](/API_docs/constructors/pageBlockMap.md)  
 
 
 
@@ -75,61 +75,61 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[pageBlockUnsupported](../constructors/pageBlockUnsupported.md)  
+[pageBlockUnsupported](/API_docs/constructors/pageBlockUnsupported.md)  
 
-[pageBlockTitle](../constructors/pageBlockTitle.md)  
+[pageBlockTitle](/API_docs/constructors/pageBlockTitle.md)  
 
-[pageBlockSubtitle](../constructors/pageBlockSubtitle.md)  
+[pageBlockSubtitle](/API_docs/constructors/pageBlockSubtitle.md)  
 
-[pageBlockAuthorDate](../constructors/pageBlockAuthorDate.md)  
+[pageBlockAuthorDate](/API_docs/constructors/pageBlockAuthorDate.md)  
 
-[pageBlockHeader](../constructors/pageBlockHeader.md)  
+[pageBlockHeader](/API_docs/constructors/pageBlockHeader.md)  
 
-[pageBlockSubheader](../constructors/pageBlockSubheader.md)  
+[pageBlockSubheader](/API_docs/constructors/pageBlockSubheader.md)  
 
-[pageBlockParagraph](../constructors/pageBlockParagraph.md)  
+[pageBlockParagraph](/API_docs/constructors/pageBlockParagraph.md)  
 
-[pageBlockPreformatted](../constructors/pageBlockPreformatted.md)  
+[pageBlockPreformatted](/API_docs/constructors/pageBlockPreformatted.md)  
 
-[pageBlockFooter](../constructors/pageBlockFooter.md)  
+[pageBlockFooter](/API_docs/constructors/pageBlockFooter.md)  
 
-[pageBlockDivider](../constructors/pageBlockDivider.md)  
+[pageBlockDivider](/API_docs/constructors/pageBlockDivider.md)  
 
-[pageBlockAnchor](../constructors/pageBlockAnchor.md)  
+[pageBlockAnchor](/API_docs/constructors/pageBlockAnchor.md)  
 
-[pageBlockList](../constructors/pageBlockList.md)  
+[pageBlockList](/API_docs/constructors/pageBlockList.md)  
 
-[pageBlockBlockquote](../constructors/pageBlockBlockquote.md)  
+[pageBlockBlockquote](/API_docs/constructors/pageBlockBlockquote.md)  
 
-[pageBlockPullquote](../constructors/pageBlockPullquote.md)  
+[pageBlockPullquote](/API_docs/constructors/pageBlockPullquote.md)  
 
-[pageBlockPhoto](../constructors/pageBlockPhoto.md)  
+[pageBlockPhoto](/API_docs/constructors/pageBlockPhoto.md)  
 
-[pageBlockVideo](../constructors/pageBlockVideo.md)  
+[pageBlockVideo](/API_docs/constructors/pageBlockVideo.md)  
 
-[pageBlockCover](../constructors/pageBlockCover.md)  
+[pageBlockCover](/API_docs/constructors/pageBlockCover.md)  
 
-[pageBlockEmbed](../constructors/pageBlockEmbed.md)  
+[pageBlockEmbed](/API_docs/constructors/pageBlockEmbed.md)  
 
-[pageBlockEmbedPost](../constructors/pageBlockEmbedPost.md)  
+[pageBlockEmbedPost](/API_docs/constructors/pageBlockEmbedPost.md)  
 
-[pageBlockCollage](../constructors/pageBlockCollage.md)  
+[pageBlockCollage](/API_docs/constructors/pageBlockCollage.md)  
 
-[pageBlockSlideshow](../constructors/pageBlockSlideshow.md)  
+[pageBlockSlideshow](/API_docs/constructors/pageBlockSlideshow.md)  
 
-[pageBlockChannel](../constructors/pageBlockChannel.md)  
+[pageBlockChannel](/API_docs/constructors/pageBlockChannel.md)  
 
-[pageBlockAudio](../constructors/pageBlockAudio.md)  
+[pageBlockAudio](/API_docs/constructors/pageBlockAudio.md)  
 
-[pageBlockKicker](../constructors/pageBlockKicker.md)  
+[pageBlockKicker](/API_docs/constructors/pageBlockKicker.md)  
 
-[pageBlockTable](../constructors/pageBlockTable.md)  
+[pageBlockTable](/API_docs/constructors/pageBlockTable.md)  
 
-[pageBlockOrderedList](../constructors/pageBlockOrderedList.md)  
+[pageBlockOrderedList](/API_docs/constructors/pageBlockOrderedList.md)  
 
-[pageBlockDetails](../constructors/pageBlockDetails.md)  
+[pageBlockDetails](/API_docs/constructors/pageBlockDetails.md)  
 
-[pageBlockRelatedArticles](../constructors/pageBlockRelatedArticles.md)  
+[pageBlockRelatedArticles](/API_docs/constructors/pageBlockRelatedArticles.md)  
 
-[pageBlockMap](../constructors/pageBlockMap.md)  
+[pageBlockMap](/API_docs/constructors/pageBlockMap.md)  
 

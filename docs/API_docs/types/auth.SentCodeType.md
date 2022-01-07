@@ -12,15 +12,15 @@ redirect_from: /API_docs/types/auth_SentCodeType.html
 
 ### Possible values (constructors):
 
-[auth.sentCodeTypeApp](../constructors/auth.sentCodeTypeApp.md)  
+[auth.sentCodeTypeApp](/API_docs/constructors/auth.sentCodeTypeApp.md)  
 
-[auth.sentCodeTypeSms](../constructors/auth.sentCodeTypeSms.md)  
+[auth.sentCodeTypeSms](/API_docs/constructors/auth.sentCodeTypeSms.md)  
 
-[auth.sentCodeTypeCall](../constructors/auth.sentCodeTypeCall.md)  
+[auth.sentCodeTypeCall](/API_docs/constructors/auth.sentCodeTypeCall.md)  
 
-[auth.sentCodeTypeFlashCall](../constructors/auth.sentCodeTypeFlashCall.md)  
+[auth.sentCodeTypeFlashCall](/API_docs/constructors/auth.sentCodeTypeFlashCall.md)  
 
-[auth.sentCodeTypeMissedCall](../constructors/auth.sentCodeTypeMissedCall.md)  
+[auth.sentCodeTypeMissedCall](/API_docs/constructors/auth.sentCodeTypeMissedCall.md)  
 
 
 
@@ -28,13 +28,13 @@ redirect_from: /API_docs/types/auth_SentCodeType.html
 
 
 
-[auth.sentCodeTypeApp](../constructors/auth.sentCodeTypeApp.md)  
+[auth.sentCodeTypeApp](/API_docs/constructors/auth.sentCodeTypeApp.md)  
 
-[auth.sentCodeTypeSms](../constructors/auth.sentCodeTypeSms.md)  
+[auth.sentCodeTypeSms](/API_docs/constructors/auth.sentCodeTypeSms.md)  
 
-[auth.sentCodeTypeCall](../constructors/auth.sentCodeTypeCall.md)  
+[auth.sentCodeTypeCall](/API_docs/constructors/auth.sentCodeTypeCall.md)  
 
-[auth.sentCodeTypeFlashCall](../constructors/auth.sentCodeTypeFlashCall.md)  
+[auth.sentCodeTypeFlashCall](/API_docs/constructors/auth.sentCodeTypeFlashCall.md)  
 
-[auth.sentCodeTypeMissedCall](../constructors/auth.sentCodeTypeMissedCall.md)  
+[auth.sentCodeTypeMissedCall](/API_docs/constructors/auth.sentCodeTypeMissedCall.md)  
 

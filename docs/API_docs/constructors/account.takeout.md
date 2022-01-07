@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_takeout.html
 ---
 # Constructor: account.takeout  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,11 +16,11 @@ Takout info
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|Takeout ID|
+|id|[long](/API_docs/types/long.md) | Yes|Takeout ID|
 
 
 
-### Type: [account.Takeout](../types/account.Takeout.md)
+### Type: [account.Takeout](/API_docs/types/account.Takeout.md)
 
 
 ### Example:

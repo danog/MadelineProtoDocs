@@ -17,12 +17,12 @@ Get live location history of a certain user
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | User | Optional|
-|limit|[int](../types/int.md) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
-|hash|[long](../types/long.md) |  | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | User | Optional|
+|limit|[int](/API_docs/types/int.md) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
+|hash|[long](/API_docs/types/long.md) |  | Yes|
 
 
-### Return type: [messages.Messages](../types/messages.Messages.md)
+### Return type: [messages.Messages](/API_docs/types/messages.Messages.md)
 
 ### Can bots use this method: **NO**
 

@@ -17,11 +17,11 @@ Creates a new chat.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|users|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | List of user IDs to be invited | Yes|
-|title|[string](../types/string.md) | Chat name | Yes|
+|users|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | List of user IDs to be invited | Yes|
+|title|[string](/API_docs/types/string.md) | Chat name | Yes|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

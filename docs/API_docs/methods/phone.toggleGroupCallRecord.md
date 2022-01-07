@@ -15,14 +15,14 @@ redirect_from: /API_docs/methods/phone_toggleGroupCallRecord.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|start|[Bool](../types/Bool.md) | Optional|
-|video|[Bool](../types/Bool.md) | Optional|
-|call|[InputGroupCall](../types/InputGroupCall.md) | Yes|
-|title|[string](../types/string.md) | Optional|
-|video\_portrait|[Bool](../types/Bool.md) | Optional|
+|start|[Bool](/API_docs/types/Bool.md) | Optional|
+|video|[Bool](/API_docs/types/Bool.md) | Optional|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.md) | Yes|
+|title|[string](/API_docs/types/string.md) | Optional|
+|video\_portrait|[Bool](/API_docs/types/Bool.md) | Optional|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

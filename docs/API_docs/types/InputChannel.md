@@ -34,11 +34,11 @@ A [Chat](Chat.md), a [User](User.md), an [InputPeer](InputPeer.md), an [InputDia
 
 ### Possible values (constructors):
 
-[inputChannelEmpty](../constructors/inputChannelEmpty.md)  
+[inputChannelEmpty](/API_docs/constructors/inputChannelEmpty.md)  
 
-[inputChannel](../constructors/inputChannel.md)  
+[inputChannel](/API_docs/constructors/inputChannel.md)  
 
-[inputChannelFromMessage](../constructors/inputChannelFromMessage.md)  
+[inputChannelFromMessage](/API_docs/constructors/inputChannelFromMessage.md)  
 
 
 
@@ -46,9 +46,9 @@ A [Chat](Chat.md), a [User](User.md), an [InputPeer](InputPeer.md), an [InputDia
 
 
 
-[inputChannelEmpty](../constructors/inputChannelEmpty.md)  
+[inputChannelEmpty](/API_docs/constructors/inputChannelEmpty.md)  
 
-[inputChannel](../constructors/inputChannel.md)  
+[inputChannel](/API_docs/constructors/inputChannel.md)  
 
-[inputChannelFromMessage](../constructors/inputChannelFromMessage.md)  
+[inputChannelFromMessage](/API_docs/constructors/inputChannelFromMessage.md)  
 

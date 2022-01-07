@@ -17,11 +17,11 @@ Confirm a phone number to cancel account deletion, for more info [click here »]
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_code\_hash|[string](../types/string.md) | Phone code hash, for more info [click here »](https://core.telegram.org/api/account-deletion) | Yes|
-|phone\_code|[string](../types/string.md) | SMS code, for more info [click here »](https://core.telegram.org/api/account-deletion) | Yes|
+|phone\_code\_hash|[string](/API_docs/types/string.md) | Phone code hash, for more info [click here »](https://core.telegram.org/api/account-deletion) | Yes|
+|phone\_code|[string](/API_docs/types/string.md) | SMS code, for more info [click here »](https://core.telegram.org/api/account-deletion) | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

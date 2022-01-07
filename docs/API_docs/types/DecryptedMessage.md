@@ -11,17 +11,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[decryptedMessage\_8](../constructors/decryptedMessage_8.md)  
+[decryptedMessage\_8](/API_docs/constructors/decryptedMessage_8.md)  
 
-[decryptedMessageService\_8](../constructors/decryptedMessageService_8.md)  
+[decryptedMessageService\_8](/API_docs/constructors/decryptedMessageService_8.md)  
 
-[decryptedMessage\_17](../constructors/decryptedMessage_17.md)  
+[decryptedMessage\_17](/API_docs/constructors/decryptedMessage_17.md)  
 
-[decryptedMessageService\_17](../constructors/decryptedMessageService_17.md)  
+[decryptedMessageService\_17](/API_docs/constructors/decryptedMessageService_17.md)  
 
-[decryptedMessage\_45](../constructors/decryptedMessage_45.md)  
+[decryptedMessage\_45](/API_docs/constructors/decryptedMessage_45.md)  
 
-[decryptedMessage\_73](../constructors/decryptedMessage_73.md)  
+[decryptedMessage\_73](/API_docs/constructors/decryptedMessage_73.md)  
 
 
 
@@ -29,15 +29,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[decryptedMessage\_8](../constructors/decryptedMessage_8.md)  
+[decryptedMessage\_8](/API_docs/constructors/decryptedMessage_8.md)  
 
-[decryptedMessageService\_8](../constructors/decryptedMessageService_8.md)  
+[decryptedMessageService\_8](/API_docs/constructors/decryptedMessageService_8.md)  
 
-[decryptedMessage\_17](../constructors/decryptedMessage_17.md)  
+[decryptedMessage\_17](/API_docs/constructors/decryptedMessage_17.md)  
 
-[decryptedMessageService\_17](../constructors/decryptedMessageService_17.md)  
+[decryptedMessageService\_17](/API_docs/constructors/decryptedMessageService_17.md)  
 
-[decryptedMessage\_45](../constructors/decryptedMessage_45.md)  
+[decryptedMessage\_45](/API_docs/constructors/decryptedMessage_45.md)  
 
-[decryptedMessage\_73](../constructors/decryptedMessage_73.md)  
+[decryptedMessage\_73](/API_docs/constructors/decryptedMessage_73.md)  
 

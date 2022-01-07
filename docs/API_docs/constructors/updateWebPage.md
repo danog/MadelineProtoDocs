@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateWebPage  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,13 +15,13 @@ An [instant view](https://instantview.telegram.org) webpage preview was generate
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|webpage|[WebPage](../types/WebPage.md) | Optional|Webpage preview|
-|pts|[int](../types/int.md) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|
-|pts\_count|[int](../types/int.md) | Yes|[Number of events that were generated](https://core.telegram.org/api/updates)|
+|webpage|[WebPage](/API_docs/types/WebPage.md) | Optional|Webpage preview|
+|pts|[int](/API_docs/types/int.md) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|
+|pts\_count|[int](/API_docs/types/int.md) | Yes|[Number of events that were generated](https://core.telegram.org/api/updates)|
 
 
 
-### Type: [Update](../types/Update.md)
+### Type: [Update](/API_docs/types/Update.md)
 
 
 ### Example:

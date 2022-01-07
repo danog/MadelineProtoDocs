@@ -11,21 +11,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[privacyKeyStatusTimestamp](../constructors/privacyKeyStatusTimestamp.md)  
+[privacyKeyStatusTimestamp](/API_docs/constructors/privacyKeyStatusTimestamp.md)  
 
-[privacyKeyChatInvite](../constructors/privacyKeyChatInvite.md)  
+[privacyKeyChatInvite](/API_docs/constructors/privacyKeyChatInvite.md)  
 
-[privacyKeyPhoneCall](../constructors/privacyKeyPhoneCall.md)  
+[privacyKeyPhoneCall](/API_docs/constructors/privacyKeyPhoneCall.md)  
 
-[privacyKeyPhoneP2P](../constructors/privacyKeyPhoneP2P.md)  
+[privacyKeyPhoneP2P](/API_docs/constructors/privacyKeyPhoneP2P.md)  
 
-[privacyKeyForwards](../constructors/privacyKeyForwards.md)  
+[privacyKeyForwards](/API_docs/constructors/privacyKeyForwards.md)  
 
-[privacyKeyProfilePhoto](../constructors/privacyKeyProfilePhoto.md)  
+[privacyKeyProfilePhoto](/API_docs/constructors/privacyKeyProfilePhoto.md)  
 
-[privacyKeyPhoneNumber](../constructors/privacyKeyPhoneNumber.md)  
+[privacyKeyPhoneNumber](/API_docs/constructors/privacyKeyPhoneNumber.md)  
 
-[privacyKeyAddedByPhone](../constructors/privacyKeyAddedByPhone.md)  
+[privacyKeyAddedByPhone](/API_docs/constructors/privacyKeyAddedByPhone.md)  
 
 
 
@@ -33,19 +33,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[privacyKeyStatusTimestamp](../constructors/privacyKeyStatusTimestamp.md)  
+[privacyKeyStatusTimestamp](/API_docs/constructors/privacyKeyStatusTimestamp.md)  
 
-[privacyKeyChatInvite](../constructors/privacyKeyChatInvite.md)  
+[privacyKeyChatInvite](/API_docs/constructors/privacyKeyChatInvite.md)  
 
-[privacyKeyPhoneCall](../constructors/privacyKeyPhoneCall.md)  
+[privacyKeyPhoneCall](/API_docs/constructors/privacyKeyPhoneCall.md)  
 
-[privacyKeyPhoneP2P](../constructors/privacyKeyPhoneP2P.md)  
+[privacyKeyPhoneP2P](/API_docs/constructors/privacyKeyPhoneP2P.md)  
 
-[privacyKeyForwards](../constructors/privacyKeyForwards.md)  
+[privacyKeyForwards](/API_docs/constructors/privacyKeyForwards.md)  
 
-[privacyKeyProfilePhoto](../constructors/privacyKeyProfilePhoto.md)  
+[privacyKeyProfilePhoto](/API_docs/constructors/privacyKeyProfilePhoto.md)  
 
-[privacyKeyPhoneNumber](../constructors/privacyKeyPhoneNumber.md)  
+[privacyKeyPhoneNumber](/API_docs/constructors/privacyKeyPhoneNumber.md)  
 
-[privacyKeyAddedByPhone](../constructors/privacyKeyAddedByPhone.md)  
+[privacyKeyAddedByPhone](/API_docs/constructors/privacyKeyAddedByPhone.md)  
 

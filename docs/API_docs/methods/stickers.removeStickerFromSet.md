@@ -17,10 +17,10 @@ Remove a sticker from the set where it belongs, bots only. The sticker set must 
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|sticker|[MessageMedia, Update, Message or InputDocument](../types/InputDocument.md) | The sticker to remove | Optional|
+|sticker|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.md) | The sticker to remove | Optional|
 
 
-### Return type: [messages.StickerSet](../types/messages.StickerSet.md)
+### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.md)
 
 ### Can bots use this method: **YES**
 

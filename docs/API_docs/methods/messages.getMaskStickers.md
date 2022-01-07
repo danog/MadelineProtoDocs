@@ -17,10 +17,10 @@ Get installed mask stickers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[long](../types/long.md) |  | Yes|
+|hash|[long](/API_docs/types/long.md) |  | Yes|
 
 
-### Return type: [messages.AllStickers](../types/messages.AllStickers.md)
+### Return type: [messages.AllStickers](/API_docs/types/messages.AllStickers.md)
 
 ### Can bots use this method: **NO**
 

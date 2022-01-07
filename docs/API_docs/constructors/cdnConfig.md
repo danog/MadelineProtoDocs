@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: cdnConfig  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Configuration for [CDN](https://core.telegram.org/cdn) file downloads.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|public\_keys|Array of [CdnPublicKey](../types/CdnPublicKey.md) | Yes|Vector of public keys to use **only** during handshakes to [CDN](https://core.telegram.org/cdn) DCs.|
+|public\_keys|Array of [CdnPublicKey](/API_docs/types/CdnPublicKey.md) | Yes|Vector of public keys to use **only** during handshakes to [CDN](https://core.telegram.org/cdn) DCs.|
 
 
 
-### Type: [CdnConfig](../types/CdnConfig.md)
+### Type: [CdnConfig](/API_docs/types/CdnConfig.md)
 
 
 ### Example:

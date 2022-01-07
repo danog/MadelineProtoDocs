@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[highScore](../constructors/highScore.md)  
+[highScore](/API_docs/constructors/highScore.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[highScore](../constructors/highScore.md)  
+[highScore](/API_docs/constructors/highScore.md)  
 

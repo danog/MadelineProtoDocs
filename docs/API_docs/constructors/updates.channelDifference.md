@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/updates_channelDifference.html
 ---
 # Constructor: updates.channelDifference  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,17 +16,17 @@ The new updates
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|final|[Bool](../types/Bool.md) | Optional|Whether there are more updates to be fetched using getDifference, starting from the provided `pts`|
-|pts|[int](../types/int.md) | Yes|The [PTS](https://core.telegram.org/api/updates) from which to start getting updates the next time|
-|timeout|[int](../types/int.md) | Optional|Clients are supposed to refetch the channel difference after timeout seconds have elapsed|
-|new\_messages|Array of [Message](../types/Message.md) | Yes|New messages|
-|other\_updates|Array of [Update](../types/Update.md) | Yes|Other updates|
-|chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
-|users|Array of [User](../types/User.md) | Yes|Users|
+|final|[Bool](/API_docs/types/Bool.md) | Optional|Whether there are more updates to be fetched using getDifference, starting from the provided `pts`|
+|pts|[int](/API_docs/types/int.md) | Yes|The [PTS](https://core.telegram.org/api/updates) from which to start getting updates the next time|
+|timeout|[int](/API_docs/types/int.md) | Optional|Clients are supposed to refetch the channel difference after timeout seconds have elapsed|
+|new\_messages|Array of [Message](/API_docs/types/Message.md) | Yes|New messages|
+|other\_updates|Array of [Update](/API_docs/types/Update.md) | Yes|Other updates|
+|chats|Array of [Chat](/API_docs/types/Chat.md) | Yes|Chats|
+|users|Array of [User](/API_docs/types/User.md) | Yes|Users|
 
 
 
-### Type: [updates.ChannelDifference](../types/updates.ChannelDifference.md)
+### Type: [updates.ChannelDifference](/API_docs/types/updates.ChannelDifference.md)
 
 
 ### Example:

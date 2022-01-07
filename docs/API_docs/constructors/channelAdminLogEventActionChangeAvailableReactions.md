@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionChangeAvailableReactions  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -13,12 +13,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|prev\_value|Array of [string](../types/string.md) | Yes|
-|new\_value|Array of [string](../types/string.md) | Yes|
+|prev\_value|Array of [string](/API_docs/types/string.md) | Yes|
+|new\_value|Array of [string](/API_docs/types/string.md) | Yes|
 
 
 
-### Type: [ChannelAdminLogEventAction](../types/ChannelAdminLogEventAction.md)
+### Type: [ChannelAdminLogEventAction](/API_docs/types/ChannelAdminLogEventAction.md)
 
 
 ### Example:

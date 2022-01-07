@@ -15,12 +15,12 @@ redirect_from: /API_docs/methods/phone_createGroupCall.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
-|title|[string](../types/string.md) | Optional|
-|schedule\_date|[int](../types/int.md) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
+|title|[string](/API_docs/types/string.md) | Optional|
+|schedule\_date|[int](/API_docs/types/int.md) | Optional|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

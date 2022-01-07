@@ -17,11 +17,11 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|location|[InputFileLocation](../types/InputFileLocation.md) | File | Yes|
-|offset|[int](../types/int.md) | Offset from which to get file hashes | Yes|
+|location|[InputFileLocation](/API_docs/types/InputFileLocation.md) | File | Yes|
+|offset|[int](/API_docs/types/int.md) | Offset from which to get file hashes | Yes|
 
 
-### Return type: [Vector\_of\_FileHash](../types/FileHash.md)
+### Return type: [Vector\_of\_FileHash](/API_docs/types/FileHash.md)
 
 ### Can bots use this method: **YES**
 

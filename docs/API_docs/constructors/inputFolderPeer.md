@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputFolderPeer  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ Peer in a folder
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|Peer|
-|folder\_id|[int](../types/int.md) | Yes|[Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders)|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|Peer|
+|folder\_id|[int](/API_docs/types/int.md) | Yes|[Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders)|
 
 
 
-### Type: [InputFolderPeer](../types/InputFolderPeer.md)
+### Type: [InputFolderPeer](/API_docs/types/InputFolderPeer.md)
 
 
 ### Example:

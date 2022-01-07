@@ -17,12 +17,12 @@ Get contacts near you
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|background|[Bool](../types/Bool.md) | While the geolocation of the current user is public, clients should update it in the background every half-an-hour or so, while setting this flag. <br>Do this only if the new location is more than 1 KM away from the previous one, or if the previous location is unknown. | Optional|
-|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Geolocation | Optional|
-|self\_expires|[int](../types/int.md) | If set, the geolocation of the current user will be public for the specified number of seconds; pass 0x7fffffff to disable expiry, 0 to make the current geolocation private; if the flag isn't set, no changes will be applied. | Optional|
+|background|[Bool](/API_docs/types/Bool.md) | While the geolocation of the current user is public, clients should update it in the background every half-an-hour or so, while setting this flag. <br>Do this only if the new location is more than 1 KM away from the previous one, or if the previous location is unknown. | Optional|
+|geo\_point|[InputGeoPoint](/API_docs/types/InputGeoPoint.md) | Geolocation | Optional|
+|self\_expires|[int](/API_docs/types/int.md) | If set, the geolocation of the current user will be public for the specified number of seconds; pass 0x7fffffff to disable expiry, 0 to make the current geolocation private; if the flag isn't set, no changes will be applied. | Optional|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

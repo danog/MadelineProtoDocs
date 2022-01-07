@@ -16,10 +16,10 @@ Invoke a request without subscribing the used connection for [updates](https://c
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|query|[!X](../types/!X.md) | The query | Yes|
+|query|[!X](/API_docs/types/!X.md) | The query | Yes|
 
 
-### Return type: [X](../types/X.md)
+### Return type: [X](/API_docs/types/X.md)
 
 ### Can bots use this method: **YES**
 

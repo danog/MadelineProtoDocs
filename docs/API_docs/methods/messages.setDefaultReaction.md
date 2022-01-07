@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/messages_setDefaultReaction.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|reaction|[string](../types/string.md) | Yes|
+|reaction|[string](/API_docs/types/string.md) | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **YES**
 

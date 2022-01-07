@@ -17,11 +17,11 @@ Clear saved payment information
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|credentials|[Bool](../types/Bool.md) | Remove saved payment credentials | Optional|
-|info|[Bool](../types/Bool.md) | Clear the last order settings saved by the user | Optional|
+|credentials|[Bool](/API_docs/types/Bool.md) | Remove saved payment credentials | Optional|
+|info|[Bool](/API_docs/types/Bool.md) | Clear the last order settings saved by the user | Optional|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

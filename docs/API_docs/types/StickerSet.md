@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[stickerSet](../constructors/stickerSet.md)  
+[stickerSet](/API_docs/constructors/stickerSet.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[stickerSet](../constructors/stickerSet.md)  
+[stickerSet](/API_docs/constructors/stickerSet.md)  
 

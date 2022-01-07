@@ -12,25 +12,25 @@ redirect_from: /API_docs/types/messages_ExportedChatInvite.html
 
 ### Possible values (constructors):
 
-[messages.exportedChatInvite](../constructors/messages.exportedChatInvite.md)  
+[messages.exportedChatInvite](/API_docs/constructors/messages.exportedChatInvite.md)  
 
-[messages.exportedChatInviteReplaced](../constructors/messages.exportedChatInviteReplaced.md)  
+[messages.exportedChatInviteReplaced](/API_docs/constructors/messages.exportedChatInviteReplaced.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getExportedChatInvite](../methods/messages.getExportedChatInvite.md)  
+[$MadelineProto->messages->getExportedChatInvite](/API_docs/methods/messages.getExportedChatInvite.md)  
 
-[$MadelineProto->messages->editExportedChatInvite](../methods/messages.editExportedChatInvite.md)  
+[$MadelineProto->messages->editExportedChatInvite](/API_docs/methods/messages.editExportedChatInvite.md)  
 
 
 
-[messages.exportedChatInvite](../constructors/messages.exportedChatInvite.md)  
+[messages.exportedChatInvite](/API_docs/constructors/messages.exportedChatInvite.md)  
 
-[messages.exportedChatInviteReplaced](../constructors/messages.exportedChatInviteReplaced.md)  
+[messages.exportedChatInviteReplaced](/API_docs/constructors/messages.exportedChatInviteReplaced.md)  
 
-[$MadelineProto->messages->getExportedChatInvite](../methods/messages.getExportedChatInvite.md)  
+[$MadelineProto->messages->getExportedChatInvite](/API_docs/methods/messages.getExportedChatInvite.md)  
 
-[$MadelineProto->messages->editExportedChatInvite](../methods/messages.editExportedChatInvite.md)  
+[$MadelineProto->messages->editExportedChatInvite](/API_docs/methods/messages.editExportedChatInvite.md)  
 

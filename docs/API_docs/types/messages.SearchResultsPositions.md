@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/messages_SearchResultsPositions.html
 
 ### Possible values (constructors):
 
-[messages.searchResultsPositions](../constructors/messages.searchResultsPositions.md)  
+[messages.searchResultsPositions](/API_docs/constructors/messages.searchResultsPositions.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getSearchResultsPositions](../methods/messages.getSearchResultsPositions.md)  
+[$MadelineProto->messages->getSearchResultsPositions](/API_docs/methods/messages.getSearchResultsPositions.md)  
 
 
 
-[messages.searchResultsPositions](../constructors/messages.searchResultsPositions.md)  
+[messages.searchResultsPositions](/API_docs/constructors/messages.searchResultsPositions.md)  
 
-[$MadelineProto->messages->getSearchResultsPositions](../methods/messages.getSearchResultsPositions.md)  
+[$MadelineProto->messages->getSearchResultsPositions](/API_docs/methods/messages.getSearchResultsPositions.md)  
 

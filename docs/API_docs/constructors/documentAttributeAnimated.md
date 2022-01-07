@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: documentAttributeAnimated  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,7 +14,7 @@ Defines an animated GIF
 
 
 
-### Type: [DocumentAttribute](../types/DocumentAttribute.md)
+### Type: [DocumentAttribute](/API_docs/types/DocumentAttribute.md)
 
 
 ### Example:

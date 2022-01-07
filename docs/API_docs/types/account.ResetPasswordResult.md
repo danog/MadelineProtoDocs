@@ -12,25 +12,25 @@ redirect_from: /API_docs/types/account_ResetPasswordResult.html
 
 ### Possible values (constructors):
 
-[account.resetPasswordFailedWait](../constructors/account.resetPasswordFailedWait.md)  
+[account.resetPasswordFailedWait](/API_docs/constructors/account.resetPasswordFailedWait.md)  
 
-[account.resetPasswordRequestedWait](../constructors/account.resetPasswordRequestedWait.md)  
+[account.resetPasswordRequestedWait](/API_docs/constructors/account.resetPasswordRequestedWait.md)  
 
-[account.resetPasswordOk](../constructors/account.resetPasswordOk.md)  
+[account.resetPasswordOk](/API_docs/constructors/account.resetPasswordOk.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->resetPassword](../methods/account.resetPassword.md)  
+[$MadelineProto->account->resetPassword](/API_docs/methods/account.resetPassword.md)  
 
 
 
-[account.resetPasswordFailedWait](../constructors/account.resetPasswordFailedWait.md)  
+[account.resetPasswordFailedWait](/API_docs/constructors/account.resetPasswordFailedWait.md)  
 
-[account.resetPasswordRequestedWait](../constructors/account.resetPasswordRequestedWait.md)  
+[account.resetPasswordRequestedWait](/API_docs/constructors/account.resetPasswordRequestedWait.md)  
 
-[account.resetPasswordOk](../constructors/account.resetPasswordOk.md)  
+[account.resetPasswordOk](/API_docs/constructors/account.resetPasswordOk.md)  
 
-[$MadelineProto->account->resetPassword](../methods/account.resetPassword.md)  
+[$MadelineProto->account->resetPassword](/API_docs/methods/account.resetPassword.md)  
 

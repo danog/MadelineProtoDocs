@@ -15,11 +15,11 @@ redirect_from: /API_docs/methods/messages_deleteRevokedExportedChatInvites.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
-|admin\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
+|admin\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | Optional|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

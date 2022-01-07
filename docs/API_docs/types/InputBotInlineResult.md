@@ -11,13 +11,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputBotInlineResult](../constructors/inputBotInlineResult.md)  
+[inputBotInlineResult](/API_docs/constructors/inputBotInlineResult.md)  
 
-[inputBotInlineResultPhoto](../constructors/inputBotInlineResultPhoto.md)  
+[inputBotInlineResultPhoto](/API_docs/constructors/inputBotInlineResultPhoto.md)  
 
-[inputBotInlineResultDocument](../constructors/inputBotInlineResultDocument.md)  
+[inputBotInlineResultDocument](/API_docs/constructors/inputBotInlineResultDocument.md)  
 
-[inputBotInlineResultGame](../constructors/inputBotInlineResultGame.md)  
+[inputBotInlineResultGame](/API_docs/constructors/inputBotInlineResultGame.md)  
 
 
 
@@ -25,11 +25,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputBotInlineResult](../constructors/inputBotInlineResult.md)  
+[inputBotInlineResult](/API_docs/constructors/inputBotInlineResult.md)  
 
-[inputBotInlineResultPhoto](../constructors/inputBotInlineResultPhoto.md)  
+[inputBotInlineResultPhoto](/API_docs/constructors/inputBotInlineResultPhoto.md)  
 
-[inputBotInlineResultDocument](../constructors/inputBotInlineResultDocument.md)  
+[inputBotInlineResultDocument](/API_docs/constructors/inputBotInlineResultDocument.md)  
 
-[inputBotInlineResultGame](../constructors/inputBotInlineResultGame.md)  
+[inputBotInlineResultGame](/API_docs/constructors/inputBotInlineResultGame.md)  
 

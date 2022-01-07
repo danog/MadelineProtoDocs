@@ -17,10 +17,10 @@ Log out an active [authorized session](https://core.telegram.org/api/auth) by it
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[long](../types/long.md) | Session hash | Yes|
+|hash|[long](/API_docs/types/long.md) | Session hash | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

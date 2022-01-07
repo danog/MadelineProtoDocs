@@ -12,21 +12,21 @@ redirect_from: /API_docs/types/account_PrivacyRules.html
 
 ### Possible values (constructors):
 
-[account.privacyRules](../constructors/account.privacyRules.md)  
+[account.privacyRules](/API_docs/constructors/account.privacyRules.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->getPrivacy](../methods/account.getPrivacy.md)  
+[$MadelineProto->account->getPrivacy](/API_docs/methods/account.getPrivacy.md)  
 
-[$MadelineProto->account->setPrivacy](../methods/account.setPrivacy.md)  
+[$MadelineProto->account->setPrivacy](/API_docs/methods/account.setPrivacy.md)  
 
 
 
-[account.privacyRules](../constructors/account.privacyRules.md)  
+[account.privacyRules](/API_docs/constructors/account.privacyRules.md)  
 
-[$MadelineProto->account->getPrivacy](../methods/account.getPrivacy.md)  
+[$MadelineProto->account->getPrivacy](/API_docs/methods/account.getPrivacy.md)  
 
-[$MadelineProto->account->setPrivacy](../methods/account.setPrivacy.md)  
+[$MadelineProto->account->setPrivacy](/API_docs/methods/account.setPrivacy.md)  
 

@@ -11,45 +11,45 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[messageEntityUnknown](../constructors/messageEntityUnknown.md)  
+[messageEntityUnknown](/API_docs/constructors/messageEntityUnknown.md)  
 
-[messageEntityMention](../constructors/messageEntityMention.md)  
+[messageEntityMention](/API_docs/constructors/messageEntityMention.md)  
 
-[messageEntityHashtag](../constructors/messageEntityHashtag.md)  
+[messageEntityHashtag](/API_docs/constructors/messageEntityHashtag.md)  
 
-[messageEntityBotCommand](../constructors/messageEntityBotCommand.md)  
+[messageEntityBotCommand](/API_docs/constructors/messageEntityBotCommand.md)  
 
-[messageEntityUrl](../constructors/messageEntityUrl.md)  
+[messageEntityUrl](/API_docs/constructors/messageEntityUrl.md)  
 
-[messageEntityEmail](../constructors/messageEntityEmail.md)  
+[messageEntityEmail](/API_docs/constructors/messageEntityEmail.md)  
 
-[messageEntityBold](../constructors/messageEntityBold.md)  
+[messageEntityBold](/API_docs/constructors/messageEntityBold.md)  
 
-[messageEntityItalic](../constructors/messageEntityItalic.md)  
+[messageEntityItalic](/API_docs/constructors/messageEntityItalic.md)  
 
-[messageEntityCode](../constructors/messageEntityCode.md)  
+[messageEntityCode](/API_docs/constructors/messageEntityCode.md)  
 
-[messageEntityPre](../constructors/messageEntityPre.md)  
+[messageEntityPre](/API_docs/constructors/messageEntityPre.md)  
 
-[messageEntityTextUrl](../constructors/messageEntityTextUrl.md)  
+[messageEntityTextUrl](/API_docs/constructors/messageEntityTextUrl.md)  
 
-[messageEntityMentionName](../constructors/messageEntityMentionName.md)  
+[messageEntityMentionName](/API_docs/constructors/messageEntityMentionName.md)  
 
-[inputMessageEntityMentionName](../constructors/inputMessageEntityMentionName.md)  
+[inputMessageEntityMentionName](/API_docs/constructors/inputMessageEntityMentionName.md)  
 
-[messageEntityPhone](../constructors/messageEntityPhone.md)  
+[messageEntityPhone](/API_docs/constructors/messageEntityPhone.md)  
 
-[messageEntityCashtag](../constructors/messageEntityCashtag.md)  
+[messageEntityCashtag](/API_docs/constructors/messageEntityCashtag.md)  
 
-[messageEntityUnderline](../constructors/messageEntityUnderline.md)  
+[messageEntityUnderline](/API_docs/constructors/messageEntityUnderline.md)  
 
-[messageEntityStrike](../constructors/messageEntityStrike.md)  
+[messageEntityStrike](/API_docs/constructors/messageEntityStrike.md)  
 
-[messageEntityBlockquote](../constructors/messageEntityBlockquote.md)  
+[messageEntityBlockquote](/API_docs/constructors/messageEntityBlockquote.md)  
 
-[messageEntityBankCard](../constructors/messageEntityBankCard.md)  
+[messageEntityBankCard](/API_docs/constructors/messageEntityBankCard.md)  
 
-[messageEntitySpoiler](../constructors/messageEntitySpoiler.md)  
+[messageEntitySpoiler](/API_docs/constructors/messageEntitySpoiler.md)  
 
 
 
@@ -57,43 +57,43 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[messageEntityUnknown](../constructors/messageEntityUnknown.md)  
+[messageEntityUnknown](/API_docs/constructors/messageEntityUnknown.md)  
 
-[messageEntityMention](../constructors/messageEntityMention.md)  
+[messageEntityMention](/API_docs/constructors/messageEntityMention.md)  
 
-[messageEntityHashtag](../constructors/messageEntityHashtag.md)  
+[messageEntityHashtag](/API_docs/constructors/messageEntityHashtag.md)  
 
-[messageEntityBotCommand](../constructors/messageEntityBotCommand.md)  
+[messageEntityBotCommand](/API_docs/constructors/messageEntityBotCommand.md)  
 
-[messageEntityUrl](../constructors/messageEntityUrl.md)  
+[messageEntityUrl](/API_docs/constructors/messageEntityUrl.md)  
 
-[messageEntityEmail](../constructors/messageEntityEmail.md)  
+[messageEntityEmail](/API_docs/constructors/messageEntityEmail.md)  
 
-[messageEntityBold](../constructors/messageEntityBold.md)  
+[messageEntityBold](/API_docs/constructors/messageEntityBold.md)  
 
-[messageEntityItalic](../constructors/messageEntityItalic.md)  
+[messageEntityItalic](/API_docs/constructors/messageEntityItalic.md)  
 
-[messageEntityCode](../constructors/messageEntityCode.md)  
+[messageEntityCode](/API_docs/constructors/messageEntityCode.md)  
 
-[messageEntityPre](../constructors/messageEntityPre.md)  
+[messageEntityPre](/API_docs/constructors/messageEntityPre.md)  
 
-[messageEntityTextUrl](../constructors/messageEntityTextUrl.md)  
+[messageEntityTextUrl](/API_docs/constructors/messageEntityTextUrl.md)  
 
-[messageEntityMentionName](../constructors/messageEntityMentionName.md)  
+[messageEntityMentionName](/API_docs/constructors/messageEntityMentionName.md)  
 
-[inputMessageEntityMentionName](../constructors/inputMessageEntityMentionName.md)  
+[inputMessageEntityMentionName](/API_docs/constructors/inputMessageEntityMentionName.md)  
 
-[messageEntityPhone](../constructors/messageEntityPhone.md)  
+[messageEntityPhone](/API_docs/constructors/messageEntityPhone.md)  
 
-[messageEntityCashtag](../constructors/messageEntityCashtag.md)  
+[messageEntityCashtag](/API_docs/constructors/messageEntityCashtag.md)  
 
-[messageEntityUnderline](../constructors/messageEntityUnderline.md)  
+[messageEntityUnderline](/API_docs/constructors/messageEntityUnderline.md)  
 
-[messageEntityStrike](../constructors/messageEntityStrike.md)  
+[messageEntityStrike](/API_docs/constructors/messageEntityStrike.md)  
 
-[messageEntityBlockquote](../constructors/messageEntityBlockquote.md)  
+[messageEntityBlockquote](/API_docs/constructors/messageEntityBlockquote.md)  
 
-[messageEntityBankCard](../constructors/messageEntityBankCard.md)  
+[messageEntityBankCard](/API_docs/constructors/messageEntityBankCard.md)  
 
-[messageEntitySpoiler](../constructors/messageEntitySpoiler.md)  
+[messageEntitySpoiler](/API_docs/constructors/messageEntitySpoiler.md)  
 

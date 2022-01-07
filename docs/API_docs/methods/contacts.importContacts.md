@@ -19,10 +19,10 @@ Use [contacts.addContact](../methods/contacts.addContact.md) to add Telegram con
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|contacts|Array of [InputContact](../types/InputContact.md) | List of contacts to import | Yes|
+|contacts|Array of [InputContact](/API_docs/types/InputContact.md) | List of contacts to import | Yes|
 
 
-### Return type: [contacts.ImportedContacts](../types/contacts.ImportedContacts.md)
+### Return type: [contacts.ImportedContacts](/API_docs/types/contacts.ImportedContacts.md)
 
 ### Can bots use this method: **NO**
 

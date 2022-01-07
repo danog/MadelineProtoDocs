@@ -17,11 +17,11 @@ Send typing event by the current user to a secret chat.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | Secret chat ID | Yes|
-|typing|[Bool](../types/Bool.md) | Typing.<br>**Possible values**:<br>[(boolTrue)](../constructors/boolTrue.md), if the user started typing and more than **5 seconds** have passed since the last request<br>[(boolFalse)](../constructors/boolFalse.md), if the user stopped typing | Yes|
+|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](/API_docs/types/InputEncryptedChat.md) | Secret chat ID | Yes|
+|typing|[Bool](/API_docs/types/Bool.md) | Typing.<br>**Possible values**:<br>[(boolTrue)](../constructors/boolTrue.md), if the user started typing and more than **5 seconds** have passed since the last request<br>[(boolFalse)](../constructors/boolFalse.md), if the user stopped typing | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

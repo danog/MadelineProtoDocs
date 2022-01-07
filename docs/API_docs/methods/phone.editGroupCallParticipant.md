@@ -15,17 +15,17 @@ redirect_from: /API_docs/methods/phone_editGroupCallParticipant.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|call|[InputGroupCall](../types/InputGroupCall.md) | Yes|
-|participant|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
-|muted|[Bool](../types/Bool.md) | Optional|
-|volume|[int](../types/int.md) | Optional|
-|raise\_hand|[Bool](../types/Bool.md) | Optional|
-|video\_stopped|[Bool](../types/Bool.md) | Optional|
-|video\_paused|[Bool](../types/Bool.md) | Optional|
-|presentation\_paused|[Bool](../types/Bool.md) | Optional|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.md) | Yes|
+|participant|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
+|muted|[Bool](/API_docs/types/Bool.md) | Optional|
+|volume|[int](/API_docs/types/int.md) | Optional|
+|raise\_hand|[Bool](/API_docs/types/Bool.md) | Optional|
+|video\_stopped|[Bool](/API_docs/types/Bool.md) | Optional|
+|video\_paused|[Bool](/API_docs/types/Bool.md) | Optional|
+|presentation\_paused|[Bool](/API_docs/types/Bool.md) | Optional|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

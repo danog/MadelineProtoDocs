@@ -17,10 +17,10 @@ Send the verification email code for telegram [passport](https://core.telegram.o
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|email|[string](../types/string.md) | The email where to send the code | Yes|
+|email|[string](/API_docs/types/string.md) | The email where to send the code | Yes|
 
 
-### Return type: [account.SentEmailCode](../types/account.SentEmailCode.md)
+### Return type: [account.SentEmailCode](/API_docs/types/account.SentEmailCode.md)
 
 ### Can bots use this method: **NO**
 

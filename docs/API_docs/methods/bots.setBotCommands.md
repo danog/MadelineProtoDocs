@@ -17,12 +17,12 @@ Set bot command list
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|scope|[BotCommandScope](../types/BotCommandScope.md) |  | Yes|
-|lang\_code|[string](../types/string.md) |  | Yes|
-|commands|Array of [BotCommand](../types/BotCommand.md) | Bot commands | Yes|
+|scope|[BotCommandScope](/API_docs/types/BotCommandScope.md) |  | Yes|
+|lang\_code|[string](/API_docs/types/string.md) |  | Yes|
+|commands|Array of [BotCommand](/API_docs/types/BotCommand.md) | Bot commands | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **YES**
 

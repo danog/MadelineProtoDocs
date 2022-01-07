@@ -17,11 +17,11 @@ Changes the absolute position of a sticker in the set to which it belongs; for b
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|sticker|[MessageMedia, Update, Message or InputDocument](../types/InputDocument.md) | The sticker | Optional|
-|position|[int](../types/int.md) | The new position of the sticker, zero-based | Yes|
+|sticker|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.md) | The sticker | Optional|
+|position|[int](/API_docs/types/int.md) | The new position of the sticker, zero-based | Yes|
 
 
-### Return type: [messages.StickerSet](../types/messages.StickerSet.md)
+### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.md)
 
 ### Can bots use this method: **YES**
 

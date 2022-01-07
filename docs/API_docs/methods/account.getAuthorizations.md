@@ -15,7 +15,7 @@ Get logged-in sessions
 
 
 
-### Return type: [account.Authorizations](../types/account.Authorizations.md)
+### Return type: [account.Authorizations](/API_docs/types/account.Authorizations.md)
 
 ### Can bots use this method: **NO**
 

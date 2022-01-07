@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelFull  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,53 +15,53 @@ Full info about a [channel/supergroup](https://core.telegram.org/api/channel)
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|can\_view\_participants|[Bool](../types/Bool.md) | Optional|Can we vew the participant list?|
-|can\_set\_username|[Bool](../types/Bool.md) | Optional|Can we set the channel's username?|
-|can\_set\_stickers|[Bool](../types/Bool.md) | Optional|Can we [associate](../methods/channels.setStickers.md) a stickerpack to the supergroup?|
-|hidden\_prehistory|[Bool](../types/Bool.md) | Optional|Is the history before we joined hidden to us?|
-|can\_set\_location|[Bool](../types/Bool.md) | Optional|Can we set the geolocation of this group (for geogroups)|
-|has\_scheduled|[Bool](../types/Bool.md) | Optional|Whether scheduled messages are available|
-|can\_view\_stats|[Bool](../types/Bool.md) | Optional|Can the user view [channel/supergroup statistics](https://core.telegram.org/api/stats)|
-|blocked|[Bool](../types/Bool.md) | Optional|Whether any anonymous admin of this supergroup was blocked: if set, you won't receive messages from anonymous group admins in [discussion replies via @replies](https://core.telegram.org/api/discussion)|
-|id|[long](../types/long.md) | Yes|
-|about|[string](../types/string.md) | Yes|Info about the channel|
-|participants\_count|[int](../types/int.md) | Optional|Number of participants of the channel|
-|admins\_count|[int](../types/int.md) | Optional|Number of channel admins|
-|kicked\_count|[int](../types/int.md) | Optional|Number of users [kicked](https://core.telegram.org/api/rights) from the channel|
-|banned\_count|[int](../types/int.md) | Optional|Number of users [banned](https://core.telegram.org/api/rights) from the channel|
-|online\_count|[int](../types/int.md) | Optional|Number of users currently online|
-|read\_inbox\_max\_id|[int](../types/int.md) | Yes|Position up to which all incoming messages are read.|
-|read\_outbox\_max\_id|[int](../types/int.md) | Yes|Position up to which all outgoing messages are read.|
-|unread\_count|[int](../types/int.md) | Yes|Count of unread messages|
-|chat\_photo|[Photo](../types/Photo.md) | Optional|Channel picture|
-|notify\_settings|[PeerNotifySettings](../types/PeerNotifySettings.md) | Yes|Notification settings|
-|exported\_invite|[ExportedChatInvite](../types/ExportedChatInvite.md) | Optional|Invite link|
-|bot\_info|Array of [BotInfo](../types/BotInfo.md) | Yes|Info about bots in the channel/supergrup|
-|migrated\_from\_chat\_id|[long](../types/long.md) | Optional|
-|migrated\_from\_max\_id|[int](../types/int.md) | Optional|The message ID in the original chat at which this group was [migrated](https://core.telegram.org/api/channel)|
-|pinned\_msg\_id|[int](../types/int.md) | Optional|Message ID of the last [pinned message](https://core.telegram.org/api/pin)|
-|stickerset|[StickerSet](../types/StickerSet.md) | Optional|Associated stickerset|
-|available\_min\_id|[int](../types/int.md) | Optional|Identifier of a maximum unavailable message in a channel due to hidden history.|
-|folder\_id|[int](../types/int.md) | Optional|[Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders)|
-|linked\_chat\_id|[long](../types/long.md) | Optional|
-|location|[ChannelLocation](../types/ChannelLocation.md) | Optional|Location of the geogroup|
-|slowmode\_seconds|[int](../types/int.md) | Optional|If specified, users in supergroups will only be able to send one message every `slowmode_seconds` seconds|
-|slowmode\_next\_send\_date|[int](../types/int.md) | Optional|Indicates when the user will be allowed to send another message in the supergroup (unixdate)|
-|stats\_dc|[int](../types/int.md) | Optional|If set, specifies the DC to use for fetching channel statistics|
-|pts|[int](../types/int.md) | Yes|Latest [PTS](https://core.telegram.org/api/updates) for this channel|
-|call|[InputGroupCall](../types/InputGroupCall.md) | Optional|
-|ttl\_period|[int](../types/int.md) | Optional|
-|pending\_suggestions|Array of [string](../types/string.md) | Optional|
-|groupcall\_default\_join\_as|[Peer](../types/Peer.md) | Optional|
-|theme\_emoticon|[string](../types/string.md) | Optional|
-|requests\_pending|[int](../types/int.md) | Optional|
-|recent\_requesters|Array of [long](../types/long.md) | Optional|
-|default\_send\_as|[Peer](../types/Peer.md) | Optional|
-|available\_reactions|Array of [string](../types/string.md) | Optional|
+|can\_view\_participants|[Bool](/API_docs/types/Bool.md) | Optional|Can we vew the participant list?|
+|can\_set\_username|[Bool](/API_docs/types/Bool.md) | Optional|Can we set the channel's username?|
+|can\_set\_stickers|[Bool](/API_docs/types/Bool.md) | Optional|Can we [associate](../methods/channels.setStickers.md) a stickerpack to the supergroup?|
+|hidden\_prehistory|[Bool](/API_docs/types/Bool.md) | Optional|Is the history before we joined hidden to us?|
+|can\_set\_location|[Bool](/API_docs/types/Bool.md) | Optional|Can we set the geolocation of this group (for geogroups)|
+|has\_scheduled|[Bool](/API_docs/types/Bool.md) | Optional|Whether scheduled messages are available|
+|can\_view\_stats|[Bool](/API_docs/types/Bool.md) | Optional|Can the user view [channel/supergroup statistics](https://core.telegram.org/api/stats)|
+|blocked|[Bool](/API_docs/types/Bool.md) | Optional|Whether any anonymous admin of this supergroup was blocked: if set, you won't receive messages from anonymous group admins in [discussion replies via @replies](https://core.telegram.org/api/discussion)|
+|id|[long](/API_docs/types/long.md) | Yes|
+|about|[string](/API_docs/types/string.md) | Yes|Info about the channel|
+|participants\_count|[int](/API_docs/types/int.md) | Optional|Number of participants of the channel|
+|admins\_count|[int](/API_docs/types/int.md) | Optional|Number of channel admins|
+|kicked\_count|[int](/API_docs/types/int.md) | Optional|Number of users [kicked](https://core.telegram.org/api/rights) from the channel|
+|banned\_count|[int](/API_docs/types/int.md) | Optional|Number of users [banned](https://core.telegram.org/api/rights) from the channel|
+|online\_count|[int](/API_docs/types/int.md) | Optional|Number of users currently online|
+|read\_inbox\_max\_id|[int](/API_docs/types/int.md) | Yes|Position up to which all incoming messages are read.|
+|read\_outbox\_max\_id|[int](/API_docs/types/int.md) | Yes|Position up to which all outgoing messages are read.|
+|unread\_count|[int](/API_docs/types/int.md) | Yes|Count of unread messages|
+|chat\_photo|[Photo](/API_docs/types/Photo.md) | Optional|Channel picture|
+|notify\_settings|[PeerNotifySettings](/API_docs/types/PeerNotifySettings.md) | Yes|Notification settings|
+|exported\_invite|[ExportedChatInvite](/API_docs/types/ExportedChatInvite.md) | Optional|Invite link|
+|bot\_info|Array of [BotInfo](/API_docs/types/BotInfo.md) | Yes|Info about bots in the channel/supergrup|
+|migrated\_from\_chat\_id|[long](/API_docs/types/long.md) | Optional|
+|migrated\_from\_max\_id|[int](/API_docs/types/int.md) | Optional|The message ID in the original chat at which this group was [migrated](https://core.telegram.org/api/channel)|
+|pinned\_msg\_id|[int](/API_docs/types/int.md) | Optional|Message ID of the last [pinned message](https://core.telegram.org/api/pin)|
+|stickerset|[StickerSet](/API_docs/types/StickerSet.md) | Optional|Associated stickerset|
+|available\_min\_id|[int](/API_docs/types/int.md) | Optional|Identifier of a maximum unavailable message in a channel due to hidden history.|
+|folder\_id|[int](/API_docs/types/int.md) | Optional|[Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders)|
+|linked\_chat\_id|[long](/API_docs/types/long.md) | Optional|
+|location|[ChannelLocation](/API_docs/types/ChannelLocation.md) | Optional|Location of the geogroup|
+|slowmode\_seconds|[int](/API_docs/types/int.md) | Optional|If specified, users in supergroups will only be able to send one message every `slowmode_seconds` seconds|
+|slowmode\_next\_send\_date|[int](/API_docs/types/int.md) | Optional|Indicates when the user will be allowed to send another message in the supergroup (unixdate)|
+|stats\_dc|[int](/API_docs/types/int.md) | Optional|If set, specifies the DC to use for fetching channel statistics|
+|pts|[int](/API_docs/types/int.md) | Yes|Latest [PTS](https://core.telegram.org/api/updates) for this channel|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.md) | Optional|
+|ttl\_period|[int](/API_docs/types/int.md) | Optional|
+|pending\_suggestions|Array of [string](/API_docs/types/string.md) | Optional|
+|groupcall\_default\_join\_as|[Peer](/API_docs/types/Peer.md) | Optional|
+|theme\_emoticon|[string](/API_docs/types/string.md) | Optional|
+|requests\_pending|[int](/API_docs/types/int.md) | Optional|
+|recent\_requesters|Array of [long](/API_docs/types/long.md) | Optional|
+|default\_send\_as|[Peer](/API_docs/types/Peer.md) | Optional|
+|available\_reactions|Array of [string](/API_docs/types/string.md) | Optional|
 
 
 
-### Type: [ChatFull](../types/ChatFull.md)
+### Type: [ChatFull](/API_docs/types/ChatFull.md)
 
 
 ### Example:

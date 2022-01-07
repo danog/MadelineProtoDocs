@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageUserVoteInputOption  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ How a user voted in a poll (reduced constructor, returned if an `option` was pro
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](../types/long.md) | Yes|
-|date|[int](../types/int.md) | Yes|When did the user cast the vote|
+|user\_id|[long](/API_docs/types/long.md) | Yes|
+|date|[int](/API_docs/types/int.md) | Yes|When did the user cast the vote|
 
 
 
-### Type: [MessageUserVote](../types/MessageUserVote.md)
+### Type: [MessageUserVote](/API_docs/types/MessageUserVote.md)
 
 
 ### Example:

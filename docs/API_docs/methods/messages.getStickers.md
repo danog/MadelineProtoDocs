@@ -17,11 +17,11 @@ Get stickers by emoji
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|emoticon|[string](../types/string.md) | The emoji | Yes|
-|hash|[long](../types/long.md) |  | Yes|
+|emoticon|[string](/API_docs/types/string.md) | The emoji | Yes|
+|hash|[long](/API_docs/types/long.md) |  | Yes|
 
 
-### Return type: [messages.Stickers](../types/messages.Stickers.md)
+### Return type: [messages.Stickers](/API_docs/types/messages.Stickers.md)
 
 ### Can bots use this method: **NO**
 

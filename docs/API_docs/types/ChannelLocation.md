@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[channelLocationEmpty](../constructors/channelLocationEmpty.md)  
+[channelLocationEmpty](/API_docs/constructors/channelLocationEmpty.md)  
 
-[channelLocation](../constructors/channelLocation.md)  
+[channelLocation](/API_docs/constructors/channelLocation.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[channelLocationEmpty](../constructors/channelLocationEmpty.md)  
+[channelLocationEmpty](/API_docs/constructors/channelLocationEmpty.md)  
 
-[channelLocation](../constructors/channelLocation.md)  
+[channelLocation](/API_docs/constructors/channelLocation.md)  
 

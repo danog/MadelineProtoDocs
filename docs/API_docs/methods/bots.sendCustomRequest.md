@@ -17,11 +17,11 @@ Sends a custom request; for bots only
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|custom\_method|[string](../types/string.md) | The method name | Yes|
-|params|[DataJSON](../types/DataJSON.md) | JSON-serialized method parameters | Yes|
+|custom\_method|[string](/API_docs/types/string.md) | The method name | Yes|
+|params|[DataJSON](/API_docs/types/DataJSON.md) | JSON-serialized method parameters | Yes|
 
 
-### Return type: [DataJSON](../types/DataJSON.md)
+### Return type: [DataJSON](/API_docs/types/DataJSON.md)
 
 ### Can bots use this method: **YES**
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: botCommandScopePeerUser  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -13,12 +13,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[InputPeer](../types/InputPeer.md) | Optional|
-|user\_id|[InputUser](../types/InputUser.md) | Optional|
+|peer|[InputPeer](/API_docs/types/InputPeer.md) | Optional|
+|user\_id|[InputUser](/API_docs/types/InputUser.md) | Optional|
 
 
 
-### Type: [BotCommandScope](../types/BotCommandScope.md)
+### Type: [BotCommandScope](/API_docs/types/BotCommandScope.md)
 
 
 ### Example:

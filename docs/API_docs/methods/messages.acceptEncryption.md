@@ -17,12 +17,12 @@ You cannot use this method directly, see https://docs.madelineproto.xyz for more
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | Secret chat ID | Yes|
-|g\_b|[bytes](../types/bytes.md) | `B = g ^ b mod p`, see [Wikipedia](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange) | Yes|
-|key\_fingerprint|[long](../types/long.md) | 64-bit fingerprint of the received key | Yes|
+|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](/API_docs/types/InputEncryptedChat.md) | Secret chat ID | Yes|
+|g\_b|[bytes](/API_docs/types/bytes.md) | `B = g ^ b mod p`, see [Wikipedia](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange) | Yes|
+|key\_fingerprint|[long](/API_docs/types/long.md) | 64-bit fingerprint of the received key | Yes|
 
 
-### Return type: [EncryptedChat](../types/EncryptedChat.md)
+### Return type: [EncryptedChat](/API_docs/types/EncryptedChat.md)
 
 ### Can bots use this method: **NO**
 

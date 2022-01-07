@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_stickerSetInstallResultSuccess.html
 ---
 # Constructor: messages.stickerSetInstallResultSuccess  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,7 +15,7 @@ The stickerset was installed successfully
 
 
 
-### Type: [messages.StickerSetInstallResult](../types/messages.StickerSetInstallResult.md)
+### Type: [messages.StickerSetInstallResult](/API_docs/types/messages.StickerSetInstallResult.md)
 
 
 ### Example:

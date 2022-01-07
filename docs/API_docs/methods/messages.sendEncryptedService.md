@@ -17,11 +17,11 @@ Sends a service message to a secret chat.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | Secret chat ID | Yes|
-|data|[bytes](../types/bytes.md) | TL-serialization of  [DecryptedMessage](../types/DecryptedMessage.md) type, encrypted with a key generated during chat initialization | Yes|
+|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](/API_docs/types/InputEncryptedChat.md) | Secret chat ID | Yes|
+|data|[bytes](/API_docs/types/bytes.md) | TL-serialization of  [DecryptedMessage](../types/DecryptedMessage.md) type, encrypted with a key generated during chat initialization | Yes|
 
 
-### Return type: [messages.SentEncryptedMessage](../types/messages.SentEncryptedMessage.md)
+### Return type: [messages.SentEncryptedMessage](/API_docs/types/messages.SentEncryptedMessage.md)
 
 ### Can bots use this method: **NO**
 

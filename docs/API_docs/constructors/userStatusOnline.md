@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userStatusOnline  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Online status of the user.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|expires|[int](../types/int.md) | Yes|Time to expiration of the current online status|
+|expires|[int](/API_docs/types/int.md) | Yes|Time to expiration of the current online status|
 
 
 
-### Type: [UserStatus](../types/UserStatus.md)
+### Type: [UserStatus](/API_docs/types/UserStatus.md)
 
 
 ### Example:

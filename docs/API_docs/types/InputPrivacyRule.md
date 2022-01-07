@@ -11,21 +11,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputPrivacyValueAllowContacts](../constructors/inputPrivacyValueAllowContacts.md)  
+[inputPrivacyValueAllowContacts](/API_docs/constructors/inputPrivacyValueAllowContacts.md)  
 
-[inputPrivacyValueAllowAll](../constructors/inputPrivacyValueAllowAll.md)  
+[inputPrivacyValueAllowAll](/API_docs/constructors/inputPrivacyValueAllowAll.md)  
 
-[inputPrivacyValueAllowUsers](../constructors/inputPrivacyValueAllowUsers.md)  
+[inputPrivacyValueAllowUsers](/API_docs/constructors/inputPrivacyValueAllowUsers.md)  
 
-[inputPrivacyValueDisallowContacts](../constructors/inputPrivacyValueDisallowContacts.md)  
+[inputPrivacyValueDisallowContacts](/API_docs/constructors/inputPrivacyValueDisallowContacts.md)  
 
-[inputPrivacyValueDisallowAll](../constructors/inputPrivacyValueDisallowAll.md)  
+[inputPrivacyValueDisallowAll](/API_docs/constructors/inputPrivacyValueDisallowAll.md)  
 
-[inputPrivacyValueDisallowUsers](../constructors/inputPrivacyValueDisallowUsers.md)  
+[inputPrivacyValueDisallowUsers](/API_docs/constructors/inputPrivacyValueDisallowUsers.md)  
 
-[inputPrivacyValueAllowChatParticipants](../constructors/inputPrivacyValueAllowChatParticipants.md)  
+[inputPrivacyValueAllowChatParticipants](/API_docs/constructors/inputPrivacyValueAllowChatParticipants.md)  
 
-[inputPrivacyValueDisallowChatParticipants](../constructors/inputPrivacyValueDisallowChatParticipants.md)  
+[inputPrivacyValueDisallowChatParticipants](/API_docs/constructors/inputPrivacyValueDisallowChatParticipants.md)  
 
 
 
@@ -33,19 +33,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputPrivacyValueAllowContacts](../constructors/inputPrivacyValueAllowContacts.md)  
+[inputPrivacyValueAllowContacts](/API_docs/constructors/inputPrivacyValueAllowContacts.md)  
 
-[inputPrivacyValueAllowAll](../constructors/inputPrivacyValueAllowAll.md)  
+[inputPrivacyValueAllowAll](/API_docs/constructors/inputPrivacyValueAllowAll.md)  
 
-[inputPrivacyValueAllowUsers](../constructors/inputPrivacyValueAllowUsers.md)  
+[inputPrivacyValueAllowUsers](/API_docs/constructors/inputPrivacyValueAllowUsers.md)  
 
-[inputPrivacyValueDisallowContacts](../constructors/inputPrivacyValueDisallowContacts.md)  
+[inputPrivacyValueDisallowContacts](/API_docs/constructors/inputPrivacyValueDisallowContacts.md)  
 
-[inputPrivacyValueDisallowAll](../constructors/inputPrivacyValueDisallowAll.md)  
+[inputPrivacyValueDisallowAll](/API_docs/constructors/inputPrivacyValueDisallowAll.md)  
 
-[inputPrivacyValueDisallowUsers](../constructors/inputPrivacyValueDisallowUsers.md)  
+[inputPrivacyValueDisallowUsers](/API_docs/constructors/inputPrivacyValueDisallowUsers.md)  
 
-[inputPrivacyValueAllowChatParticipants](../constructors/inputPrivacyValueAllowChatParticipants.md)  
+[inputPrivacyValueAllowChatParticipants](/API_docs/constructors/inputPrivacyValueAllowChatParticipants.md)  
 
-[inputPrivacyValueDisallowChatParticipants](../constructors/inputPrivacyValueDisallowChatParticipants.md)  
+[inputPrivacyValueDisallowChatParticipants](/API_docs/constructors/inputPrivacyValueDisallowChatParticipants.md)  
 

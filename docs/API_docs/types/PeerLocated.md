@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[peerLocated](../constructors/peerLocated.md)  
+[peerLocated](/API_docs/constructors/peerLocated.md)  
 
-[peerSelfLocated](../constructors/peerSelfLocated.md)  
+[peerSelfLocated](/API_docs/constructors/peerSelfLocated.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[peerLocated](../constructors/peerLocated.md)  
+[peerLocated](/API_docs/constructors/peerLocated.md)  
 
-[peerSelfLocated](../constructors/peerSelfLocated.md)  
+[peerSelfLocated](/API_docs/constructors/peerSelfLocated.md)  
 

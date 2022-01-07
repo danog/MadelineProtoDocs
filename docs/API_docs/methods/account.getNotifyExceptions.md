@@ -17,11 +17,11 @@ Returns list of chats with non-default notification settings
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|compare\_sound|[Bool](../types/Bool.md) | If true, chats with non-default sound will also be returned | Optional|
-|peer|[Username, chat ID, Update, Message or InputNotifyPeer](../types/InputNotifyPeer.md) | If specified, only chats of the specified category will be returned | Optional|
+|compare\_sound|[Bool](/API_docs/types/Bool.md) | If true, chats with non-default sound will also be returned | Optional|
+|peer|[Username, chat ID, Update, Message or InputNotifyPeer](/API_docs/types/InputNotifyPeer.md) | If specified, only chats of the specified category will be returned | Optional|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

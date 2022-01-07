@@ -17,11 +17,11 @@ Verify an email address for telegram [passport](https://core.telegram.org/passpo
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|email|[string](../types/string.md) | The email to verify | Yes|
-|code|[string](../types/string.md) | The verification code that was received | Yes|
+|email|[string](/API_docs/types/string.md) | The email to verify | Yes|
+|code|[string](/API_docs/types/string.md) | The verification code that was received | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

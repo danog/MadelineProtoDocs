@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/phone_joinAsPeers.html
 ---
 # Constructor: phone.joinAsPeers  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,13 +14,13 @@ redirect_from: /API_docs/constructors/phone_joinAsPeers.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peers|Array of [Peer](../types/Peer.md) | Yes|
-|chats|Array of [Chat](../types/Chat.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+|peers|Array of [Peer](/API_docs/types/Peer.md) | Yes|
+|chats|Array of [Chat](/API_docs/types/Chat.md) | Yes|
+|users|Array of [User](/API_docs/types/User.md) | Yes|
 
 
 
-### Type: [phone.JoinAsPeers](../types/phone.JoinAsPeers.md)
+### Type: [phone.JoinAsPeers](/API_docs/types/phone.JoinAsPeers.md)
 
 
 ### Example:

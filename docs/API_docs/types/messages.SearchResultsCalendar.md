@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/messages_SearchResultsCalendar.html
 
 ### Possible values (constructors):
 
-[messages.searchResultsCalendar](../constructors/messages.searchResultsCalendar.md)  
+[messages.searchResultsCalendar](/API_docs/constructors/messages.searchResultsCalendar.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getSearchResultsCalendar](../methods/messages.getSearchResultsCalendar.md)  
+[$MadelineProto->messages->getSearchResultsCalendar](/API_docs/methods/messages.getSearchResultsCalendar.md)  
 
 
 
-[messages.searchResultsCalendar](../constructors/messages.searchResultsCalendar.md)  
+[messages.searchResultsCalendar](/API_docs/constructors/messages.searchResultsCalendar.md)  
 
-[$MadelineProto->messages->getSearchResultsCalendar](../methods/messages.getSearchResultsCalendar.md)  
+[$MadelineProto->messages->getSearchResultsCalendar](/API_docs/methods/messages.getSearchResultsCalendar.md)  
 

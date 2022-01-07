@@ -19,9 +19,9 @@ You can also use async streams, HTTP response objects, and [much more](https://d
 
 ### Possible values (constructors):
 
-[inputFile](../constructors/inputFile.md)  
+[inputFile](/API_docs/constructors/inputFile.md)  
 
-[inputFileBig](../constructors/inputFileBig.md)  
+[inputFileBig](/API_docs/constructors/inputFileBig.md)  
 
 
 
@@ -29,7 +29,7 @@ You can also use async streams, HTTP response objects, and [much more](https://d
 
 
 
-[inputFile](../constructors/inputFile.md)  
+[inputFile](/API_docs/constructors/inputFile.md)  
 
-[inputFileBig](../constructors/inputFileBig.md)  
+[inputFileBig](/API_docs/constructors/inputFileBig.md)  
 

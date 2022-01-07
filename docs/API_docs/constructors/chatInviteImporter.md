@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatInviteImporter  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -13,15 +13,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|requested|[Bool](../types/Bool.md) | Optional|
-|user\_id|[long](../types/long.md) | Yes|
-|date|[int](../types/int.md) | Yes|
-|about|[string](../types/string.md) | Optional|
-|approved\_by|[long](../types/long.md) | Optional|
+|requested|[Bool](/API_docs/types/Bool.md) | Optional|
+|user\_id|[long](/API_docs/types/long.md) | Yes|
+|date|[int](/API_docs/types/int.md) | Yes|
+|about|[string](/API_docs/types/string.md) | Optional|
+|approved\_by|[long](/API_docs/types/long.md) | Optional|
 
 
 
-### Type: [ChatInviteImporter](../types/ChatInviteImporter.md)
+### Type: [ChatInviteImporter](/API_docs/types/ChatInviteImporter.md)
 
 
 ### Example:

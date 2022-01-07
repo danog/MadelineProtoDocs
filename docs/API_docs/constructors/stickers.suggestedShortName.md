@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/stickers_suggestedShortName.html
 ---
 # Constructor: stickers.suggestedShortName  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,11 +14,11 @@ redirect_from: /API_docs/constructors/stickers_suggestedShortName.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|short\_name|[string](../types/string.md) | Yes|
+|short\_name|[string](/API_docs/types/string.md) | Yes|
 
 
 
-### Type: [stickers.SuggestedShortName](../types/stickers.SuggestedShortName.md)
+### Type: [stickers.SuggestedShortName](/API_docs/types/stickers.SuggestedShortName.md)
 
 
 ### Example:

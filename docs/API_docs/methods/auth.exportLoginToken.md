@@ -20,12 +20,12 @@ For more info, see [login via QR code](https://core.telegram.org/api/qr-login).
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|api\_id|[int](../types/int.md) | Application identifier (see. [App configuration](https://core.telegram.org/myapp)) | Yes|
-|api\_hash|[string](../types/string.md) | Application identifier hash (see. [App configuration](https://core.telegram.org/myapp)) | Yes|
-|except\_ids|Array of [long](../types/long.md) | List of already logged-in user IDs, to prevent logging in twice with the same user | Yes|
+|api\_id|[int](/API_docs/types/int.md) | Application identifier (see. [App configuration](https://core.telegram.org/myapp)) | Yes|
+|api\_hash|[string](/API_docs/types/string.md) | Application identifier hash (see. [App configuration](https://core.telegram.org/myapp)) | Yes|
+|except\_ids|Array of [long](/API_docs/types/long.md) | List of already logged-in user IDs, to prevent logging in twice with the same user | Yes|
 
 
-### Return type: [auth.LoginToken](../types/auth.LoginToken.md)
+### Return type: [auth.LoginToken](/API_docs/types/auth.LoginToken.md)
 
 ### Can bots use this method: **NO**
 

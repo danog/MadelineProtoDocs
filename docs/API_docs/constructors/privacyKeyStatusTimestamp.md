@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: privacyKeyStatusTimestamp  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,7 +14,7 @@ Whether we can see the last online timestamp
 
 
 
-### Type: [PrivacyKey](../types/PrivacyKey.md)
+### Type: [PrivacyKey](/API_docs/types/PrivacyKey.md)
 
 
 ### Example:

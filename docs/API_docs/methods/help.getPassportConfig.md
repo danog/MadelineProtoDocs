@@ -17,10 +17,10 @@ Get [passport](https://core.telegram.org/passport) configuration
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [int](../types/int.md) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [int](/API_docs/types/int.md) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
-### Return type: [help.PassportConfig](../types/help.PassportConfig.md)
+### Return type: [help.PassportConfig](/API_docs/types/help.PassportConfig.md)
 
 ### Can bots use this method: **NO**
 

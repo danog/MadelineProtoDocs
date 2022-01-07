@@ -11,25 +11,25 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[documentEmpty](../constructors/documentEmpty.md)  
+[documentEmpty](/API_docs/constructors/documentEmpty.md)  
 
-[document](../constructors/document.md)  
+[document](/API_docs/constructors/document.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->uploadTheme](../methods/account.uploadTheme.md)  
+[$MadelineProto->account->uploadTheme](/API_docs/methods/account.uploadTheme.md)  
 
-[$MadelineProto->messages->getDocumentByHash](../methods/messages.getDocumentByHash.md)  
+[$MadelineProto->messages->getDocumentByHash](/API_docs/methods/messages.getDocumentByHash.md)  
 
 
 
-[documentEmpty](../constructors/documentEmpty.md)  
+[documentEmpty](/API_docs/constructors/documentEmpty.md)  
 
-[document](../constructors/document.md)  
+[document](/API_docs/constructors/document.md)  
 
-[$MadelineProto->account->uploadTheme](../methods/account.uploadTheme.md)  
+[$MadelineProto->account->uploadTheme](/API_docs/methods/account.uploadTheme.md)  
 
-[$MadelineProto->messages->getDocumentByHash](../methods/messages.getDocumentByHash.md)  
+[$MadelineProto->messages->getDocumentByHash](/API_docs/methods/messages.getDocumentByHash.md)  
 

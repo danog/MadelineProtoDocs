@@ -17,10 +17,10 @@ Get pinned dialogs
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|folder\_id|[int](../types/int.md) | [Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders) | Yes|
+|folder\_id|[int](/API_docs/types/int.md) | [Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders) | Yes|
 
 
-### Return type: [messages.PeerDialogs](../types/messages.PeerDialogs.md)
+### Return type: [messages.PeerDialogs](/API_docs/types/messages.PeerDialogs.md)
 
 ### Can bots use this method: **NO**
 

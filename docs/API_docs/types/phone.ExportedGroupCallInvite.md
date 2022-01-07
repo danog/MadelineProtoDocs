@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/phone_ExportedGroupCallInvite.html
 
 ### Possible values (constructors):
 
-[phone.exportedGroupCallInvite](../constructors/phone.exportedGroupCallInvite.md)  
+[phone.exportedGroupCallInvite](/API_docs/constructors/phone.exportedGroupCallInvite.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->phone->exportGroupCallInvite](../methods/phone.exportGroupCallInvite.md)  
+[$MadelineProto->phone->exportGroupCallInvite](/API_docs/methods/phone.exportGroupCallInvite.md)  
 
 
 
-[phone.exportedGroupCallInvite](../constructors/phone.exportedGroupCallInvite.md)  
+[phone.exportedGroupCallInvite](/API_docs/constructors/phone.exportedGroupCallInvite.md)  
 
-[$MadelineProto->phone->exportGroupCallInvite](../methods/phone.exportGroupCallInvite.md)  
+[$MadelineProto->phone->exportGroupCallInvite](/API_docs/methods/phone.exportGroupCallInvite.md)  
 

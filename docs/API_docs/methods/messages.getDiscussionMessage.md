@@ -17,11 +17,11 @@ Get [discussion message](https://core.telegram.org/api/threads) from the [associ
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | [Channel ID](https://core.telegram.org/api/channel) | Optional|
-|msg\_id|[int](../types/int.md) | Message ID | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | [Channel ID](https://core.telegram.org/api/channel) | Optional|
+|msg\_id|[int](/API_docs/types/int.md) | Message ID | Yes|
 
 
-### Return type: [messages.DiscussionMessage](../types/messages.DiscussionMessage.md)
+### Return type: [messages.DiscussionMessage](/API_docs/types/messages.DiscussionMessage.md)
 
 ### Can bots use this method: **NO**
 

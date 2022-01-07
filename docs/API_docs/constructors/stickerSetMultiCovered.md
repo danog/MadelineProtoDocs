@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: stickerSetMultiCovered  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ Stickerset, with a specific stickers as preview
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|set|[StickerSet](../types/StickerSet.md) | Yes|Stickerset|
-|covers|Array of [Document](../types/Document.md) | Yes|Preview stickers|
+|set|[StickerSet](/API_docs/types/StickerSet.md) | Yes|Stickerset|
+|covers|Array of [Document](/API_docs/types/Document.md) | Yes|Preview stickers|
 
 
 
-### Type: [StickerSetCovered](../types/StickerSetCovered.md)
+### Type: [StickerSetCovered](/API_docs/types/StickerSetCovered.md)
 
 
 ### Example:

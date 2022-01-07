@@ -11,17 +11,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[botCommand](../constructors/botCommand.md)  
+[botCommand](/API_docs/constructors/botCommand.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->bots->getBotCommands](../methods/bots.getBotCommands.md)  
+[$MadelineProto->bots->getBotCommands](/API_docs/methods/bots.getBotCommands.md)  
 
 
 
-[botCommand](../constructors/botCommand.md)  
+[botCommand](/API_docs/constructors/botCommand.md)  
 
-[$MadelineProto->bots->getBotCommands](../methods/bots.getBotCommands.md)  
+[$MadelineProto->bots->getBotCommands](/API_docs/methods/bots.getBotCommands.md)  
 

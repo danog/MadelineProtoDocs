@@ -17,13 +17,13 @@ Internal use
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | User | Optional|
-|message|[string](../types/string.md) | Message | Yes|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | [Message entities for styled text](https://core.telegram.org/api/entities) | Yes|
-|parse\_mode| [string](../types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | User | Optional|
+|message|[string](/API_docs/types/string.md) | Message | Yes|
+|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.md) | [Message entities for styled text](https://core.telegram.org/api/entities) | Yes|
+|parse\_mode| [string](/API_docs/types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
 
 
-### Return type: [help.UserInfo](../types/help.UserInfo.md)
+### Return type: [help.UserInfo](/API_docs/types/help.UserInfo.md)
 
 ### Can bots use this method: **NO**
 

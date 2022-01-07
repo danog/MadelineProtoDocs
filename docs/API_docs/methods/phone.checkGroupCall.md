@@ -15,11 +15,11 @@ redirect_from: /API_docs/methods/phone_checkGroupCall.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|call|[InputGroupCall](../types/InputGroupCall.md) | Yes|
-|sources|Array of [int](../types/int.md) | Yes|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.md) | Yes|
+|sources|Array of [int](/API_docs/types/int.md) | Yes|
 
 
-### Return type: [Vector\_of\_int](../types/int.md)
+### Return type: [Vector\_of\_int](/API_docs/types/int.md)
 
 ### Can bots use this method: **NO**
 

@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/payments_PaymentForm.html
 
 ### Possible values (constructors):
 
-[payments.paymentForm](../constructors/payments.paymentForm.md)  
+[payments.paymentForm](/API_docs/constructors/payments.paymentForm.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->payments->getPaymentForm](../methods/payments.getPaymentForm.md)  
+[$MadelineProto->payments->getPaymentForm](/API_docs/methods/payments.getPaymentForm.md)  
 
 
 
-[payments.paymentForm](../constructors/payments.paymentForm.md)  
+[payments.paymentForm](/API_docs/constructors/payments.paymentForm.md)  
 
-[$MadelineProto->payments->getPaymentForm](../methods/payments.getPaymentForm.md)  
+[$MadelineProto->payments->getPaymentForm](/API_docs/methods/payments.getPaymentForm.md)  
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputGeoPoint  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,13 +15,13 @@ Defines a GeoPoint by its coordinates.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|lat|[double](../types/double.md) | Yes|Latitide|
-|long|[double](../types/double.md) | Yes|Longtitude|
-|accuracy\_radius|[int](../types/int.md) | Optional|The estimated horizontal accuracy of the location, in meters; as defined by the sender.|
+|lat|[double](/API_docs/types/double.md) | Yes|Latitide|
+|long|[double](/API_docs/types/double.md) | Yes|Longtitude|
+|accuracy\_radius|[int](/API_docs/types/int.md) | Optional|The estimated horizontal accuracy of the location, in meters; as defined by the sender.|
 
 
 
-### Type: [InputGeoPoint](../types/InputGeoPoint.md)
+### Type: [InputGeoPoint](/API_docs/types/InputGeoPoint.md)
 
 
 ### Example:

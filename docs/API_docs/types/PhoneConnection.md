@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[phoneConnection](../constructors/phoneConnection.md)  
+[phoneConnection](/API_docs/constructors/phoneConnection.md)  
 
-[phoneConnectionWebrtc](../constructors/phoneConnectionWebrtc.md)  
+[phoneConnectionWebrtc](/API_docs/constructors/phoneConnectionWebrtc.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[phoneConnection](../constructors/phoneConnection.md)  
+[phoneConnection](/API_docs/constructors/phoneConnection.md)  
 
-[phoneConnectionWebrtc](../constructors/phoneConnectionWebrtc.md)  
+[phoneConnectionWebrtc](/API_docs/constructors/phoneConnectionWebrtc.md)  
 

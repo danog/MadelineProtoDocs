@@ -15,7 +15,7 @@ Get all contacts
 
 
 
-### Return type: [Vector\_of\_SavedContact](../types/SavedContact.md)
+### Return type: [Vector\_of\_SavedContact](/API_docs/types/SavedContact.md)
 
 ### Can bots use this method: **NO**
 

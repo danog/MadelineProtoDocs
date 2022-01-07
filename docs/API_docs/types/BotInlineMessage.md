@@ -11,17 +11,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[botInlineMessageMediaAuto](../constructors/botInlineMessageMediaAuto.md)  
+[botInlineMessageMediaAuto](/API_docs/constructors/botInlineMessageMediaAuto.md)  
 
-[botInlineMessageText](../constructors/botInlineMessageText.md)  
+[botInlineMessageText](/API_docs/constructors/botInlineMessageText.md)  
 
-[botInlineMessageMediaGeo](../constructors/botInlineMessageMediaGeo.md)  
+[botInlineMessageMediaGeo](/API_docs/constructors/botInlineMessageMediaGeo.md)  
 
-[botInlineMessageMediaVenue](../constructors/botInlineMessageMediaVenue.md)  
+[botInlineMessageMediaVenue](/API_docs/constructors/botInlineMessageMediaVenue.md)  
 
-[botInlineMessageMediaContact](../constructors/botInlineMessageMediaContact.md)  
+[botInlineMessageMediaContact](/API_docs/constructors/botInlineMessageMediaContact.md)  
 
-[botInlineMessageMediaInvoice](../constructors/botInlineMessageMediaInvoice.md)  
+[botInlineMessageMediaInvoice](/API_docs/constructors/botInlineMessageMediaInvoice.md)  
 
 
 
@@ -29,15 +29,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[botInlineMessageMediaAuto](../constructors/botInlineMessageMediaAuto.md)  
+[botInlineMessageMediaAuto](/API_docs/constructors/botInlineMessageMediaAuto.md)  
 
-[botInlineMessageText](../constructors/botInlineMessageText.md)  
+[botInlineMessageText](/API_docs/constructors/botInlineMessageText.md)  
 
-[botInlineMessageMediaGeo](../constructors/botInlineMessageMediaGeo.md)  
+[botInlineMessageMediaGeo](/API_docs/constructors/botInlineMessageMediaGeo.md)  
 
-[botInlineMessageMediaVenue](../constructors/botInlineMessageMediaVenue.md)  
+[botInlineMessageMediaVenue](/API_docs/constructors/botInlineMessageMediaVenue.md)  
 
-[botInlineMessageMediaContact](../constructors/botInlineMessageMediaContact.md)  
+[botInlineMessageMediaContact](/API_docs/constructors/botInlineMessageMediaContact.md)  
 
-[botInlineMessageMediaInvoice](../constructors/botInlineMessageMediaInvoice.md)  
+[botInlineMessageMediaInvoice](/API_docs/constructors/botInlineMessageMediaInvoice.md)  
 

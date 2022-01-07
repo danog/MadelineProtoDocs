@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/users_userFull.html
 ---
 # Constructor: users.userFull  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,13 +14,13 @@ redirect_from: /API_docs/constructors/users_userFull.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|full\_user|[UserFull](../types/UserFull.md) | Yes|
-|chats|Array of [Chat](../types/Chat.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+|full\_user|[UserFull](/API_docs/types/UserFull.md) | Yes|
+|chats|Array of [Chat](/API_docs/types/Chat.md) | Yes|
+|users|Array of [User](/API_docs/types/User.md) | Yes|
 
 
 
-### Type: [users.UserFull](../types/users.UserFull.md)
+### Type: [users.UserFull](/API_docs/types/users.UserFull.md)
 
 
 ### Example:

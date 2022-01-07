@@ -21,10 +21,10 @@ For more info, see [login via QR code](https://core.telegram.org/api/qr-login).
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|token|[bytes](../types/bytes.md) | Login token embedded in QR code, for more info, see [login via QR code](https://core.telegram.org/api/qr-login). | Yes|
+|token|[bytes](/API_docs/types/bytes.md) | Login token embedded in QR code, for more info, see [login via QR code](https://core.telegram.org/api/qr-login). | Yes|
 
 
-### Return type: [Authorization](../types/Authorization.md)
+### Return type: [Authorization](/API_docs/types/Authorization.md)
 
 ### Can bots use this method: **NO**
 

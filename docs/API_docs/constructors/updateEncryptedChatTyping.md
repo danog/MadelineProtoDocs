@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateEncryptedChatTyping  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Interlocutor is typing a message in an encrypted chat. Update period is 6 second
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[int](../types/int.md) | Yes|Chat ID|
+|chat\_id|[int](/API_docs/types/int.md) | Yes|Chat ID|
 
 
 
-### Type: [Update](../types/Update.md)
+### Type: [Update](/API_docs/types/Update.md)
 
 
 ### Example:

@@ -17,10 +17,10 @@ Get info about a certain wallpaper
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|wallpaper|[InputWallPaper](../types/InputWallPaper.md) | The wallpaper to get info about | Yes|
+|wallpaper|[InputWallPaper](/API_docs/types/InputWallPaper.md) | The wallpaper to get info about | Yes|
 
 
-### Return type: [WallPaper](../types/WallPaper.md)
+### Return type: [WallPaper](/API_docs/types/WallPaper.md)
 
 ### Can bots use this method: **NO**
 

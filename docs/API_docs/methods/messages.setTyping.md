@@ -17,12 +17,12 @@ Sends a current user typing event (see [SendMessageAction](../types/SendMessageA
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Target user or group | Optional|
-|top\_msg\_id|[int](../types/int.md) | [Thread ID](https://core.telegram.org/api/threads) | Optional|
-|action|[SendMessageAction](../types/SendMessageAction.md) | Type of action<br>Parameter added in [Layer 17](https://core.telegram.org/api/layers#layer-17). | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Target user or group | Optional|
+|top\_msg\_id|[int](/API_docs/types/int.md) | [Thread ID](https://core.telegram.org/api/threads) | Optional|
+|action|[SendMessageAction](/API_docs/types/SendMessageAction.md) | Type of action<br>Parameter added in [Layer 17](https://core.telegram.org/api/layers#layer-17). | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **YES**
 

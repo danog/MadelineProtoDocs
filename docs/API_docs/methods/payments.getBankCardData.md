@@ -17,10 +17,10 @@ Get info about a credit card
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|number|[string](../types/string.md) | Credit card number | Yes|
+|number|[string](/API_docs/types/string.md) | Credit card number | Yes|
 
 
-### Return type: [payments.BankCardData](../types/payments.BankCardData.md)
+### Return type: [payments.BankCardData](/API_docs/types/payments.BankCardData.md)
 
 ### Can bots use this method: **NO**
 

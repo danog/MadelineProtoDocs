@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_discussionMessage.html
 ---
 # Constructor: messages.discussionMessage  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,17 +16,17 @@ Information about a [message thread](https://core.telegram.org/api/threads)
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|messages|Array of [Message](../types/Message.md) | Yes|Discussion messages|
-|max\_id|[int](../types/int.md) | Optional|Message ID of latest reply in this [thread](https://core.telegram.org/api/threads)|
-|read\_inbox\_max\_id|[int](../types/int.md) | Optional|Message ID of latest read incoming message in this [thread](https://core.telegram.org/api/threads)|
-|read\_outbox\_max\_id|[int](../types/int.md) | Optional|Message ID of latest read outgoing message in this [thread](https://core.telegram.org/api/threads)|
-|unread\_count|[int](../types/int.md) | Yes|
-|chats|Array of [Chat](../types/Chat.md) | Yes|Chats mentioned in constructor|
-|users|Array of [User](../types/User.md) | Yes|Users mentioned in constructor|
+|messages|Array of [Message](/API_docs/types/Message.md) | Yes|Discussion messages|
+|max\_id|[int](/API_docs/types/int.md) | Optional|Message ID of latest reply in this [thread](https://core.telegram.org/api/threads)|
+|read\_inbox\_max\_id|[int](/API_docs/types/int.md) | Optional|Message ID of latest read incoming message in this [thread](https://core.telegram.org/api/threads)|
+|read\_outbox\_max\_id|[int](/API_docs/types/int.md) | Optional|Message ID of latest read outgoing message in this [thread](https://core.telegram.org/api/threads)|
+|unread\_count|[int](/API_docs/types/int.md) | Yes|
+|chats|Array of [Chat](/API_docs/types/Chat.md) | Yes|Chats mentioned in constructor|
+|users|Array of [User](/API_docs/types/User.md) | Yes|Users mentioned in constructor|
 
 
 
-### Type: [messages.DiscussionMessage](../types/messages.DiscussionMessage.md)
+### Type: [messages.DiscussionMessage](/API_docs/types/messages.DiscussionMessage.md)
 
 
 ### Example:

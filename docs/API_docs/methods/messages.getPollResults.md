@@ -17,11 +17,11 @@ Get poll results
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Peer where the poll was found | Optional|
-|msg\_id|[int](../types/int.md) | Message ID of poll message | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Peer where the poll was found | Optional|
+|msg\_id|[int](/API_docs/types/int.md) | Message ID of poll message | Yes|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

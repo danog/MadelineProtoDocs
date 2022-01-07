@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_featuredStickersNotModified.html
 ---
 # Constructor: messages.featuredStickersNotModified  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,11 +16,11 @@ Featured stickers haven't changed
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|count|[int](../types/int.md) | Yes|Total number of featured stickers|
+|count|[int](/API_docs/types/int.md) | Yes|Total number of featured stickers|
 
 
 
-### Type: [messages.FeaturedStickers](../types/messages.FeaturedStickers.md)
+### Type: [messages.FeaturedStickers](/API_docs/types/messages.FeaturedStickers.md)
 
 
 ### Example:

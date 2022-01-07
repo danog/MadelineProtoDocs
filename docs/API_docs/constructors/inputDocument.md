@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputDocument  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,13 +15,13 @@ Defines a video for subsequent interaction.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|Document ID|
-|access\_hash|[long](../types/long.md) | Yes|**access\_hash** parameter from the [document](../constructors/document.md) constructor|
-|file\_reference|[bytes](../types/bytes.md) | Yes|[File reference](https://core.telegram.org/api/file_reference)|
+|id|[long](/API_docs/types/long.md) | Yes|Document ID|
+|access\_hash|[long](/API_docs/types/long.md) | Yes|**access\_hash** parameter from the [document](../constructors/document.md) constructor|
+|file\_reference|[bytes](/API_docs/types/bytes.md) | Yes|[File reference](https://core.telegram.org/api/file_reference)|
 
 
 
-### Type: [InputDocument](../types/InputDocument.md)
+### Type: [InputDocument](/API_docs/types/InputDocument.md)
 
 
 ### Example:

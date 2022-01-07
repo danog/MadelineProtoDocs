@@ -19,10 +19,10 @@ For more info, see [login via QR code](https://core.telegram.org/api/qr-login).
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|token|[bytes](../types/bytes.md) | Login token | Yes|
+|token|[bytes](/API_docs/types/bytes.md) | Login token | Yes|
 
 
-### Return type: [auth.LoginToken](../types/auth.LoginToken.md)
+### Return type: [auth.LoginToken](/API_docs/types/auth.LoginToken.md)
 
 ### Can bots use this method: **NO**
 

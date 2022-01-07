@@ -17,11 +17,11 @@ Resend the login code via another medium, the phone code type is determined by t
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](../types/string.md) | The phone number | Yes|
-|phone\_code\_hash|[string](../types/string.md) | The phone code hash obtained from [auth.sendCode](../methods/auth.sendCode.md) | Yes|
+|phone\_number|[string](/API_docs/types/string.md) | The phone number | Yes|
+|phone\_code\_hash|[string](/API_docs/types/string.md) | The phone code hash obtained from [auth.sendCode](../methods/auth.sendCode.md) | Yes|
 
 
-### Return type: [auth.SentCode](../types/auth.SentCode.md)
+### Return type: [auth.SentCode](/API_docs/types/auth.SentCode.md)
 
 ### Can bots use this method: **NO**
 

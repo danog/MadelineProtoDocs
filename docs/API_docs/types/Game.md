@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[game](../constructors/game.md)  
+[game](/API_docs/constructors/game.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[game](../constructors/game.md)  
+[game](/API_docs/constructors/game.md)  
 

@@ -17,10 +17,10 @@ Optional: notify the server that the user is currently busy in a call: this will
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[InputPhoneCall](../types/InputPhoneCall.md) | The phone call we're currently in | Yes|
+|peer|[InputPhoneCall](/API_docs/types/InputPhoneCall.md) | The phone call we're currently in | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

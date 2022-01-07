@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPhoto  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,13 +15,13 @@ Defines a photo for further interaction.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|Photo identifier|
-|access\_hash|[long](../types/long.md) | Yes|**access\_hash** value from the [photo](../constructors/photo.md) constructor|
-|file\_reference|[bytes](../types/bytes.md) | Yes|[File reference](https://core.telegram.org/api/file_reference)|
+|id|[long](/API_docs/types/long.md) | Yes|Photo identifier|
+|access\_hash|[long](/API_docs/types/long.md) | Yes|**access\_hash** value from the [photo](../constructors/photo.md) constructor|
+|file\_reference|[bytes](/API_docs/types/bytes.md) | Yes|[File reference](https://core.telegram.org/api/file_reference)|
 
 
 
-### Type: [InputPhoto](../types/InputPhoto.md)
+### Type: [InputPhoto](/API_docs/types/InputPhoto.md)
 
 
 ### Example:

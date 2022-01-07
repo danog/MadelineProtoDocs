@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inlineBotSwitchPM](../constructors/inlineBotSwitchPM.md)  
+[inlineBotSwitchPM](/API_docs/constructors/inlineBotSwitchPM.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inlineBotSwitchPM](../constructors/inlineBotSwitchPM.md)  
+[inlineBotSwitchPM](/API_docs/constructors/inlineBotSwitchPM.md)  
 

@@ -12,7 +12,7 @@ redirect_from: /API_docs/types/help_TermsOfService.html
 
 ### Possible values (constructors):
 
-[help.termsOfService](../constructors/help.termsOfService.md)  
+[help.termsOfService](/API_docs/constructors/help.termsOfService.md)  
 
 
 
@@ -20,5 +20,5 @@ redirect_from: /API_docs/types/help_TermsOfService.html
 
 
 
-[help.termsOfService](../constructors/help.termsOfService.md)  
+[help.termsOfService](/API_docs/constructors/help.termsOfService.md)  
 

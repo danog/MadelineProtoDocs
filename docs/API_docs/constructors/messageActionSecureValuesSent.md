@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionSecureValuesSent  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Request for secure [telegram passport](https://core.telegram.org/passport) value
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|types|Array of [SecureValueType](../types/SecureValueType.md) | Yes|Secure value types|
+|types|Array of [SecureValueType](/API_docs/types/SecureValueType.md) | Yes|Secure value types|
 
 
 
-### Type: [MessageAction](../types/MessageAction.md)
+### Type: [MessageAction](/API_docs/types/MessageAction.md)
 
 
 ### Example:

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaPoll  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ Poll
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|poll|[Poll](../types/Poll.md) | Yes|The poll|
-|results|[PollResults](../types/PollResults.md) | Yes|The results of the poll|
+|poll|[Poll](/API_docs/types/Poll.md) | Yes|The poll|
+|results|[PollResults](/API_docs/types/PollResults.md) | Yes|The results of the poll|
 
 
 
-### Type: [MessageMedia](../types/MessageMedia.md)
+### Type: [MessageMedia](/API_docs/types/MessageMedia.md)
 
 
 ### Example:

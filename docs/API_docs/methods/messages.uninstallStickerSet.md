@@ -17,10 +17,10 @@ Uninstall a stickerset
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|stickerset|[InputStickerSet](../types/InputStickerSet.md) | The stickerset to uninstall | Optional|
+|stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.md) | The stickerset to uninstall | Optional|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

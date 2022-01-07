@@ -15,7 +15,7 @@ Get app-specific configuration, see [client configuration](https://core.telegram
 
 
 
-### Return type: [JSONValue](../types/JSONValue.md)
+### Return type: [JSONValue](/API_docs/types/JSONValue.md)
 
 ### Can bots use this method: **NO**
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: statsGraph  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|json|[DataJSON](../types/DataJSON.md) | Yes|Statistics data|
-|zoom\_token|[string](../types/string.md) | Optional|Zoom token|
+|json|[DataJSON](/API_docs/types/DataJSON.md) | Yes|Statistics data|
+|zoom\_token|[string](/API_docs/types/string.md) | Optional|Zoom token|
 
 
 
-### Type: [StatsGraph](../types/StatsGraph.md)
+### Type: [StatsGraph](/API_docs/types/StatsGraph.md)
 
 
 ### Example:

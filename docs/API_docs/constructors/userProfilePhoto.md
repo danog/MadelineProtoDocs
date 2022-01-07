@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userProfilePhoto  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,14 +15,14 @@ User profile photo.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|has\_video|[Bool](../types/Bool.md) | Optional|Whether an [animated profile picture](https://core.telegram.org/api/files#animated-profile-pictures) is available for this user|
-|photo\_id|[long](../types/long.md) | Yes|Identifier of the respective photo<br>Parameter added in [Layer 2](https://core.telegram.org/api/layers#layer-2)|
-|stripped\_thumb|[bytes](../types/bytes.md) | Optional|
-|dc\_id|[int](../types/int.md) | Yes|DC ID where the photo is stored|
+|has\_video|[Bool](/API_docs/types/Bool.md) | Optional|Whether an [animated profile picture](https://core.telegram.org/api/files#animated-profile-pictures) is available for this user|
+|photo\_id|[long](/API_docs/types/long.md) | Yes|Identifier of the respective photo<br>Parameter added in [Layer 2](https://core.telegram.org/api/layers#layer-2)|
+|stripped\_thumb|[bytes](/API_docs/types/bytes.md) | Optional|
+|dc\_id|[int](/API_docs/types/int.md) | Yes|DC ID where the photo is stored|
 
 
 
-### Type: [UserProfilePhoto](../types/UserProfilePhoto.md)
+### Type: [UserProfilePhoto](/API_docs/types/UserProfilePhoto.md)
 
 
 ### Example:

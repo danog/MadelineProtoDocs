@@ -11,21 +11,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[langPackLanguage](../constructors/langPackLanguage.md)  
+[langPackLanguage](/API_docs/constructors/langPackLanguage.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->langpack->getLanguages](../methods/langpack.getLanguages.md)  
+[$MadelineProto->langpack->getLanguages](/API_docs/methods/langpack.getLanguages.md)  
 
-[$MadelineProto->langpack->getLanguage](../methods/langpack.getLanguage.md)  
+[$MadelineProto->langpack->getLanguage](/API_docs/methods/langpack.getLanguage.md)  
 
 
 
-[langPackLanguage](../constructors/langPackLanguage.md)  
+[langPackLanguage](/API_docs/constructors/langPackLanguage.md)  
 
-[$MadelineProto->langpack->getLanguages](../methods/langpack.getLanguages.md)  
+[$MadelineProto->langpack->getLanguages](/API_docs/methods/langpack.getLanguages.md)  
 
-[$MadelineProto->langpack->getLanguage](../methods/langpack.getLanguage.md)  
+[$MadelineProto->langpack->getLanguage](/API_docs/methods/langpack.getLanguage.md)  
 

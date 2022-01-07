@@ -15,7 +15,7 @@ Get message ranges for saving the user's chat history
 
 
 
-### Return type: [Vector\_of\_MessageRange](../types/MessageRange.md)
+### Return type: [Vector\_of\_MessageRange](/API_docs/types/MessageRange.md)
 
 ### Can bots use this method: **NO**
 

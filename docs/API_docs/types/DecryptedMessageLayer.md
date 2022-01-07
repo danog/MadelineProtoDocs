@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[decryptedMessageLayer\_17](../constructors/decryptedMessageLayer_17.md)  
+[decryptedMessageLayer\_17](/API_docs/constructors/decryptedMessageLayer_17.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[decryptedMessageLayer\_17](../constructors/decryptedMessageLayer_17.md)  
+[decryptedMessageLayer\_17](/API_docs/constructors/decryptedMessageLayer_17.md)  
 

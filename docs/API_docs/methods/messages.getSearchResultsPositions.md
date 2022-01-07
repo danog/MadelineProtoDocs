@@ -15,13 +15,13 @@ redirect_from: /API_docs/methods/messages_getSearchResultsPositions.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
-|filter|[MessagesFilter](../types/MessagesFilter.md) | Optional|
-|offset\_id|[int](../types/int.md) | Yes|
-|limit|[int](../types/int.md) | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
+|filter|[MessagesFilter](/API_docs/types/MessagesFilter.md) | Optional|
+|offset\_id|[int](/API_docs/types/int.md) | Yes|
+|limit|[int](/API_docs/types/int.md) | Yes|
 
 
-### Return type: [messages.SearchResultsPositions](../types/messages.SearchResultsPositions.md)
+### Return type: [messages.SearchResultsPositions](/API_docs/types/messages.SearchResultsPositions.md)
 
 ### Can bots use this method: **YES**
 

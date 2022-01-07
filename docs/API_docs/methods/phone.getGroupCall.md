@@ -15,11 +15,11 @@ redirect_from: /API_docs/methods/phone_getGroupCall.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|call|[InputGroupCall](../types/InputGroupCall.md) | Yes|
-|limit|[int](../types/int.md) | Yes|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.md) | Yes|
+|limit|[int](/API_docs/types/int.md) | Yes|
 
 
-### Return type: [phone.GroupCall](../types/phone.GroupCall.md)
+### Return type: [phone.GroupCall](/API_docs/types/phone.GroupCall.md)
 
 ### Can bots use this method: **NO**
 

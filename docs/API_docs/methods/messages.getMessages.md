@@ -17,10 +17,10 @@ Returns the list of messages by their IDs.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|Array of [Message ID or InputMessage](../types/InputMessage.md) | Message ID list | Yes|
+|id|Array of [Message ID or InputMessage](/API_docs/types/InputMessage.md) | Message ID list | Yes|
 
 
-### Return type: [messages.Messages](../types/messages.Messages.md)
+### Return type: [messages.Messages](/API_docs/types/messages.Messages.md)
 
 ### Can bots use this method: **YES**
 

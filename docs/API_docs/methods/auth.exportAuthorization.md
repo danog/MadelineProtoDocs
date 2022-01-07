@@ -17,10 +17,10 @@ You cannot use this method directly, use $MadelineProto->exportAuthorization() i
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|dc\_id|[int](../types/int.md) | Number of a target data-centre | Yes|
+|dc\_id|[int](/API_docs/types/int.md) | Number of a target data-centre | Yes|
 
 
-### Return type: [auth.ExportedAuthorization](../types/auth.ExportedAuthorization.md)
+### Return type: [auth.ExportedAuthorization](/API_docs/types/auth.ExportedAuthorization.md)
 
 ### Can bots use this method: **YES**
 

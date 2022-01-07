@@ -17,15 +17,15 @@ Deletes communication history.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|just\_clear|[Bool](../types/Bool.md) | Just clear history for the current user, without actually removing messages for every chat user | Optional|
-|revoke|[Bool](../types/Bool.md) | Whether to delete the message history for all chat participants | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | User or chat, communication history of which will be deleted | Optional|
-|max\_id|[int](../types/int.md) | Maximum ID of message to delete | Yes|
-|min\_date|[int](../types/int.md) |  | Optional|
-|max\_date|[int](../types/int.md) |  | Optional|
+|just\_clear|[Bool](/API_docs/types/Bool.md) | Just clear history for the current user, without actually removing messages for every chat user | Optional|
+|revoke|[Bool](/API_docs/types/Bool.md) | Whether to delete the message history for all chat participants | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | User or chat, communication history of which will be deleted | Optional|
+|max\_id|[int](/API_docs/types/int.md) | Maximum ID of message to delete | Yes|
+|min\_date|[int](/API_docs/types/int.md) |  | Optional|
+|max\_date|[int](/API_docs/types/int.md) |  | Optional|
 
 
-### Return type: [messages.AffectedHistory](../types/messages.AffectedHistory.md)
+### Return type: [messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.md)
 
 ### Can bots use this method: **NO**
 

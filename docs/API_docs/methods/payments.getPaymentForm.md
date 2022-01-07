@@ -17,12 +17,12 @@ Get a payment form
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
-|msg\_id|[int](../types/int.md) | Message ID of payment form | Yes|
-|theme\_params|[DataJSON](../types/DataJSON.md) |  | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) |  | Optional|
+|msg\_id|[int](/API_docs/types/int.md) | Message ID of payment form | Yes|
+|theme\_params|[DataJSON](/API_docs/types/DataJSON.md) |  | Optional|
 
 
-### Return type: [payments.PaymentForm](../types/payments.PaymentForm.md)
+### Return type: [payments.PaymentForm](/API_docs/types/payments.PaymentForm.md)
 
 ### Can bots use this method: **NO**
 

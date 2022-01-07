@@ -17,11 +17,11 @@ Get [channels/supergroups/geogroups](https://core.telegram.org/api/channel) we'r
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|by\_location|[Bool](../types/Bool.md) | Get geogroups | Optional|
-|check\_limit|[Bool](../types/Bool.md) | If set and the user has reached the limit of owned public [channels/supergroups/geogroups](https://core.telegram.org/api/channel), instead of returning the channel list one of the specified [errors](#possible-errors) will be returned.<br>Useful to check if a new public channel can indeed be created, even before asking the user to enter a channel username to use in [channels.checkUsername](../methods/channels.checkUsername.md)/[channels.updateUsername](../methods/channels.updateUsername.md). | Optional|
+|by\_location|[Bool](/API_docs/types/Bool.md) | Get geogroups | Optional|
+|check\_limit|[Bool](/API_docs/types/Bool.md) | If set and the user has reached the limit of owned public [channels/supergroups/geogroups](https://core.telegram.org/api/channel), instead of returning the channel list one of the specified [errors](#possible-errors) will be returned.<br>Useful to check if a new public channel can indeed be created, even before asking the user to enter a channel username to use in [channels.checkUsername](../methods/channels.checkUsername.md)/[channels.updateUsername](../methods/channels.updateUsername.md). | Optional|
 
 
-### Return type: [messages.Chats](../types/messages.Chats.md)
+### Return type: [messages.Chats](/API_docs/types/messages.Chats.md)
 
 ### Can bots use this method: **NO**
 

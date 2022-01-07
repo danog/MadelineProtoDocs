@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: globalPrivacySettings  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Global privacy settings
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|archive\_and\_mute\_new\_noncontact\_peers|[Bool](../types/Bool.md) | Optional|Whether to archive and mute new chats from non-contacts|
+|archive\_and\_mute\_new\_noncontact\_peers|[Bool](/API_docs/types/Bool.md) | Optional|Whether to archive and mute new chats from non-contacts|
 
 
 
-### Type: [GlobalPrivacySettings](../types/GlobalPrivacySettings.md)
+### Type: [GlobalPrivacySettings](/API_docs/types/GlobalPrivacySettings.md)
 
 
 ### Example:

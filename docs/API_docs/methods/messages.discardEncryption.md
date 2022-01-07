@@ -17,11 +17,11 @@ You cannot use this method directly, see https://docs.madelineproto.xyz for more
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|delete\_history|[Bool](../types/Bool.md) |  | Optional|
-|chat\_id|[int](../types/int.md) | Secret chat ID | Yes|
+|delete\_history|[Bool](/API_docs/types/Bool.md) |  | Optional|
+|chat\_id|[int](/API_docs/types/int.md) | Secret chat ID | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

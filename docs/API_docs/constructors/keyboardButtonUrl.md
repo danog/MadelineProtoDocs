@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: keyboardButtonUrl  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ URL button
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|text|[string](../types/string.md) | Yes|Button label|
-|url|[string](../types/string.md) | Yes|URL|
+|text|[string](/API_docs/types/string.md) | Yes|Button label|
+|url|[string](/API_docs/types/string.md) | Yes|URL|
 
 
 
-### Type: [KeyboardButton](../types/KeyboardButton.md)
+### Type: [KeyboardButton](/API_docs/types/KeyboardButton.md)
 
 
 ### Example:

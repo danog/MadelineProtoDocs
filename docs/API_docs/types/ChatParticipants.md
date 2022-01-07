@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[chatParticipantsForbidden](../constructors/chatParticipantsForbidden.md)  
+[chatParticipantsForbidden](/API_docs/constructors/chatParticipantsForbidden.md)  
 
-[chatParticipants](../constructors/chatParticipants.md)  
+[chatParticipants](/API_docs/constructors/chatParticipants.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[chatParticipantsForbidden](../constructors/chatParticipantsForbidden.md)  
+[chatParticipantsForbidden](/API_docs/constructors/chatParticipantsForbidden.md)  
 
-[chatParticipants](../constructors/chatParticipants.md)  
+[chatParticipants](/API_docs/constructors/chatParticipants.md)  
 

@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputAppEvent](../constructors/inputAppEvent.md)  
+[inputAppEvent](/API_docs/constructors/inputAppEvent.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputAppEvent](../constructors/inputAppEvent.md)  
+[inputAppEvent](/API_docs/constructors/inputAppEvent.md)  
 

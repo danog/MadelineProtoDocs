@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/messages_ArchivedStickers.html
 
 ### Possible values (constructors):
 
-[messages.archivedStickers](../constructors/messages.archivedStickers.md)  
+[messages.archivedStickers](/API_docs/constructors/messages.archivedStickers.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getArchivedStickers](../methods/messages.getArchivedStickers.md)  
+[$MadelineProto->messages->getArchivedStickers](/API_docs/methods/messages.getArchivedStickers.md)  
 
 
 
-[messages.archivedStickers](../constructors/messages.archivedStickers.md)  
+[messages.archivedStickers](/API_docs/constructors/messages.archivedStickers.md)  
 
-[$MadelineProto->messages->getArchivedStickers](../methods/messages.getArchivedStickers.md)  
+[$MadelineProto->messages->getArchivedStickers](/API_docs/methods/messages.getArchivedStickers.md)  
 

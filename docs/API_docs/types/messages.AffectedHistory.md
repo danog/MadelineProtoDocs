@@ -12,29 +12,29 @@ redirect_from: /API_docs/types/messages_AffectedHistory.html
 
 ### Possible values (constructors):
 
-[messages.affectedHistory](../constructors/messages.affectedHistory.md)  
+[messages.affectedHistory](/API_docs/constructors/messages.affectedHistory.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->deleteHistory](../methods/messages.deleteHistory.md)  
+[$MadelineProto->messages->deleteHistory](/API_docs/methods/messages.deleteHistory.md)  
 
-[$MadelineProto->messages->readMentions](../methods/messages.readMentions.md)  
+[$MadelineProto->messages->readMentions](/API_docs/methods/messages.readMentions.md)  
 
-[$MadelineProto->messages->unpinAllMessages](../methods/messages.unpinAllMessages.md)  
+[$MadelineProto->messages->unpinAllMessages](/API_docs/methods/messages.unpinAllMessages.md)  
 
-[$MadelineProto->channels->deleteParticipantHistory](../methods/channels.deleteParticipantHistory.md)  
+[$MadelineProto->channels->deleteParticipantHistory](/API_docs/methods/channels.deleteParticipantHistory.md)  
 
 
 
-[messages.affectedHistory](../constructors/messages.affectedHistory.md)  
+[messages.affectedHistory](/API_docs/constructors/messages.affectedHistory.md)  
 
-[$MadelineProto->messages->deleteHistory](../methods/messages.deleteHistory.md)  
+[$MadelineProto->messages->deleteHistory](/API_docs/methods/messages.deleteHistory.md)  
 
-[$MadelineProto->messages->readMentions](../methods/messages.readMentions.md)  
+[$MadelineProto->messages->readMentions](/API_docs/methods/messages.readMentions.md)  
 
-[$MadelineProto->messages->unpinAllMessages](../methods/messages.unpinAllMessages.md)  
+[$MadelineProto->messages->unpinAllMessages](/API_docs/methods/messages.unpinAllMessages.md)  
 
-[$MadelineProto->channels->deleteParticipantHistory](../methods/channels.deleteParticipantHistory.md)  
+[$MadelineProto->channels->deleteParticipantHistory](/API_docs/methods/channels.deleteParticipantHistory.md)  
 

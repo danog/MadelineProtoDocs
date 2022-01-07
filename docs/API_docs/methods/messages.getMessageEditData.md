@@ -17,11 +17,11 @@ Find out if a media message's caption can be edited
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Peer where the media was sent | Optional|
-|id|[int](../types/int.md) | ID of message | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Peer where the media was sent | Optional|
+|id|[int](/API_docs/types/int.md) | ID of message | Yes|
 
 
-### Return type: [messages.MessageEditData](../types/messages.MessageEditData.md)
+### Return type: [messages.MessageEditData](/API_docs/types/messages.MessageEditData.md)
 
 ### Can bots use this method: **NO**
 

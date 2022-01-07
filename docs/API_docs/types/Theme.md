@@ -11,25 +11,25 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[theme](../constructors/theme.md)  
+[theme](/API_docs/constructors/theme.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->createTheme](../methods/account.createTheme.md)  
+[$MadelineProto->account->createTheme](/API_docs/methods/account.createTheme.md)  
 
-[$MadelineProto->account->updateTheme](../methods/account.updateTheme.md)  
+[$MadelineProto->account->updateTheme](/API_docs/methods/account.updateTheme.md)  
 
-[$MadelineProto->account->getTheme](../methods/account.getTheme.md)  
+[$MadelineProto->account->getTheme](/API_docs/methods/account.getTheme.md)  
 
 
 
-[theme](../constructors/theme.md)  
+[theme](/API_docs/constructors/theme.md)  
 
-[$MadelineProto->account->createTheme](../methods/account.createTheme.md)  
+[$MadelineProto->account->createTheme](/API_docs/methods/account.createTheme.md)  
 
-[$MadelineProto->account->updateTheme](../methods/account.updateTheme.md)  
+[$MadelineProto->account->updateTheme](/API_docs/methods/account.updateTheme.md)  
 
-[$MadelineProto->account->getTheme](../methods/account.getTheme.md)  
+[$MadelineProto->account->getTheme](/API_docs/methods/account.getTheme.md)  
 

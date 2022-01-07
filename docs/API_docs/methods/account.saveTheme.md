@@ -17,11 +17,11 @@ Save a theme
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|theme|[InputTheme](../types/InputTheme.md) | Theme to save | Yes|
-|unsave|[Bool](../types/Bool.md) | Unsave | Yes|
+|theme|[InputTheme](/API_docs/types/InputTheme.md) | Theme to save | Yes|
+|unsave|[Bool](/API_docs/types/Bool.md) | Unsave | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

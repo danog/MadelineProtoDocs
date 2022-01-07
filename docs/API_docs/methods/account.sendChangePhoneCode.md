@@ -17,11 +17,11 @@ Verify a new phone number to associate to the current account
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](../types/string.md) | New phone number | Yes|
-|settings|[CodeSettings](../types/CodeSettings.md) | Phone code settings | Yes|
+|phone\_number|[string](/API_docs/types/string.md) | New phone number | Yes|
+|settings|[CodeSettings](/API_docs/types/CodeSettings.md) | Phone code settings | Yes|
 
 
-### Return type: [auth.SentCode](../types/auth.SentCode.md)
+### Return type: [auth.SentCode](/API_docs/types/auth.SentCode.md)
 
 ### Can bots use this method: **NO**
 

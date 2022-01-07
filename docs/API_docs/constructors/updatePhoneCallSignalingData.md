@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatePhoneCallSignalingData  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ Incoming phone call signaling payload
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|phone\_call\_id|[long](../types/long.md) | Yes|Phone call ID|
-|data|[bytes](../types/bytes.md) | Yes|Signaling payload|
+|phone\_call\_id|[long](/API_docs/types/long.md) | Yes|Phone call ID|
+|data|[bytes](/API_docs/types/bytes.md) | Yes|Signaling payload|
 
 
 
-### Type: [Update](../types/Update.md)
+### Type: [Update](/API_docs/types/Update.md)
 
 
 ### Example:

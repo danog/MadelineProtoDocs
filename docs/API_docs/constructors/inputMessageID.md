@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessageID  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Message by ID
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|Message ID|
+|id|[int](/API_docs/types/int.md) | Yes|Message ID|
 
 
 
-### Type: [InputMessage](../types/InputMessage.md)
+### Type: [InputMessage](/API_docs/types/InputMessage.md)
 
 
 ### Example:

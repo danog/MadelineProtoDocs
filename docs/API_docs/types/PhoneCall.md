@@ -186,17 +186,17 @@ After modifying it, you must always parse the new configuration with a call to `
 
 ### Possible values (constructors):
 
-[phoneCallEmpty](../constructors/phoneCallEmpty.md)  
+[phoneCallEmpty](/API_docs/constructors/phoneCallEmpty.md)  
 
-[phoneCallWaiting](../constructors/phoneCallWaiting.md)  
+[phoneCallWaiting](/API_docs/constructors/phoneCallWaiting.md)  
 
-[phoneCallRequested](../constructors/phoneCallRequested.md)  
+[phoneCallRequested](/API_docs/constructors/phoneCallRequested.md)  
 
-[phoneCallAccepted](../constructors/phoneCallAccepted.md)  
+[phoneCallAccepted](/API_docs/constructors/phoneCallAccepted.md)  
 
-[phoneCall](../constructors/phoneCall.md)  
+[phoneCall](/API_docs/constructors/phoneCall.md)  
 
-[phoneCallDiscarded](../constructors/phoneCallDiscarded.md)  
+[phoneCallDiscarded](/API_docs/constructors/phoneCallDiscarded.md)  
 
 
 
@@ -204,15 +204,15 @@ After modifying it, you must always parse the new configuration with a call to `
 
 
 
-[phoneCallEmpty](../constructors/phoneCallEmpty.md)  
+[phoneCallEmpty](/API_docs/constructors/phoneCallEmpty.md)  
 
-[phoneCallWaiting](../constructors/phoneCallWaiting.md)  
+[phoneCallWaiting](/API_docs/constructors/phoneCallWaiting.md)  
 
-[phoneCallRequested](../constructors/phoneCallRequested.md)  
+[phoneCallRequested](/API_docs/constructors/phoneCallRequested.md)  
 
-[phoneCallAccepted](../constructors/phoneCallAccepted.md)  
+[phoneCallAccepted](/API_docs/constructors/phoneCallAccepted.md)  
 
-[phoneCall](../constructors/phoneCall.md)  
+[phoneCall](/API_docs/constructors/phoneCall.md)  
 
-[phoneCallDiscarded](../constructors/phoneCallDiscarded.md)  
+[phoneCallDiscarded](/API_docs/constructors/phoneCallDiscarded.md)  
 

@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/payments_BankCardData.html
 
 ### Possible values (constructors):
 
-[payments.bankCardData](../constructors/payments.bankCardData.md)  
+[payments.bankCardData](/API_docs/constructors/payments.bankCardData.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->payments->getBankCardData](../methods/payments.getBankCardData.md)  
+[$MadelineProto->payments->getBankCardData](/API_docs/methods/payments.getBankCardData.md)  
 
 
 
-[payments.bankCardData](../constructors/payments.bankCardData.md)  
+[payments.bankCardData](/API_docs/constructors/payments.bankCardData.md)  
 
-[$MadelineProto->payments->getBankCardData](../methods/payments.getBankCardData.md)  
+[$MadelineProto->payments->getBankCardData](/API_docs/methods/payments.getBankCardData.md)  
 

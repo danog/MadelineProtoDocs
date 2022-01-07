@@ -17,14 +17,14 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|precise|[Bool](../types/Bool.md) | Disable some checks on limit and offset values, useful for example to stream videos by keyframes | Optional|
-|cdn\_supported|[Bool](../types/Bool.md) | Whether the current client supports [CDN downloads](https://core.telegram.org/cdn) | Optional|
-|location|[InputFileLocation](../types/InputFileLocation.md) | File location | Yes|
-|offset|[int](../types/int.md) | Number of bytes to be skipped | Yes|
-|limit|[int](../types/int.md) | Number of bytes to be returned | Yes|
+|precise|[Bool](/API_docs/types/Bool.md) | Disable some checks on limit and offset values, useful for example to stream videos by keyframes | Optional|
+|cdn\_supported|[Bool](/API_docs/types/Bool.md) | Whether the current client supports [CDN downloads](https://core.telegram.org/cdn) | Optional|
+|location|[InputFileLocation](/API_docs/types/InputFileLocation.md) | File location | Yes|
+|offset|[int](/API_docs/types/int.md) | Number of bytes to be skipped | Yes|
+|limit|[int](/API_docs/types/int.md) | Number of bytes to be returned | Yes|
 
 
-### Return type: [upload.File](../types/upload.File.md)
+### Return type: [upload.File](/API_docs/types/upload.File.md)
 
 ### Can bots use this method: **YES**
 

@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[dialog](../constructors/dialog.md)  
+[dialog](/API_docs/constructors/dialog.md)  
 
-[dialogFolder](../constructors/dialogFolder.md)  
+[dialogFolder](/API_docs/constructors/dialogFolder.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[dialog](../constructors/dialog.md)  
+[dialog](/API_docs/constructors/dialog.md)  
 
-[dialogFolder](../constructors/dialogFolder.md)  
+[dialogFolder](/API_docs/constructors/dialogFolder.md)  
 

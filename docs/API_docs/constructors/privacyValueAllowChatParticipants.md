@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: privacyValueAllowChatParticipants  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Allow all participants of certain chats
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chats|Array of [long](../types/long.md) | Yes|Allowed chats|
+|chats|Array of [long](/API_docs/types/long.md) | Yes|Allowed chats|
 
 
 
-### Type: [PrivacyRule](../types/PrivacyRule.md)
+### Type: [PrivacyRule](/API_docs/types/PrivacyRule.md)
 
 
 ### Example:

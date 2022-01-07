@@ -17,16 +17,16 @@ Edit an inline bot message
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|no\_webpage|[Bool](../types/Bool.md) | Disable webpage preview | Optional|
-|id|[InputBotInlineMessageID](../types/InputBotInlineMessageID.md) | Sent inline message ID | Yes|
-|message|[string](../types/string.md) | Message | Optional|
-|media|[MessageMedia, Update, Message or InputMedia](../types/InputMedia.md) | Media | Optional|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Reply markup for inline keyboards | Optional|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | [Message entities for styled text](https://core.telegram.org/api/entities) | Optional|
-|parse\_mode| [string](../types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
+|no\_webpage|[Bool](/API_docs/types/Bool.md) | Disable webpage preview | Optional|
+|id|[InputBotInlineMessageID](/API_docs/types/InputBotInlineMessageID.md) | Sent inline message ID | Yes|
+|message|[string](/API_docs/types/string.md) | Message | Optional|
+|media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.md) | Media | Optional|
+|reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.md) | Reply markup for inline keyboards | Optional|
+|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.md) | [Message entities for styled text](https://core.telegram.org/api/entities) | Optional|
+|parse\_mode| [string](/API_docs/types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **YES**
 

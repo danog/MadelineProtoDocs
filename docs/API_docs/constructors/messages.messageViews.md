@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_messageViews.html
 ---
 # Constructor: messages.messageViews  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,13 +16,13 @@ View, forward counter + info about replies
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|views|Array of [MessageViews](../types/MessageViews.md) | Yes|View, forward counter + info about replies|
-|chats|Array of [Chat](../types/Chat.md) | Yes|Chats mentioned in constructor|
-|users|Array of [User](../types/User.md) | Yes|Users mentioned in constructor|
+|views|Array of [MessageViews](/API_docs/types/MessageViews.md) | Yes|View, forward counter + info about replies|
+|chats|Array of [Chat](/API_docs/types/Chat.md) | Yes|Chats mentioned in constructor|
+|users|Array of [User](/API_docs/types/User.md) | Yes|Users mentioned in constructor|
 
 
 
-### Type: [messages.MessageViews](../types/messages.MessageViews.md)
+### Type: [messages.MessageViews](/API_docs/types/messages.MessageViews.md)
 
 
 ### Example:

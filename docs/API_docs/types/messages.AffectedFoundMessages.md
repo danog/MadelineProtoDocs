@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/messages_AffectedFoundMessages.html
 
 ### Possible values (constructors):
 
-[messages.affectedFoundMessages](../constructors/messages.affectedFoundMessages.md)  
+[messages.affectedFoundMessages](/API_docs/constructors/messages.affectedFoundMessages.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->deletePhoneCallHistory](../methods/messages.deletePhoneCallHistory.md)  
+[$MadelineProto->messages->deletePhoneCallHistory](/API_docs/methods/messages.deletePhoneCallHistory.md)  
 
 
 
-[messages.affectedFoundMessages](../constructors/messages.affectedFoundMessages.md)  
+[messages.affectedFoundMessages](/API_docs/constructors/messages.affectedFoundMessages.md)  
 
-[$MadelineProto->messages->deletePhoneCallHistory](../methods/messages.deletePhoneCallHistory.md)  
+[$MadelineProto->messages->deletePhoneCallHistory](/API_docs/methods/messages.deletePhoneCallHistory.md)  
 

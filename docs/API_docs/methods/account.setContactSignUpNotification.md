@@ -17,10 +17,10 @@ Toggle contact sign up notifications
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|silent|[Bool](../types/Bool.md) | Whether to disable contact sign up notifications | Yes|
+|silent|[Bool](/API_docs/types/Bool.md) | Whether to disable contact sign up notifications | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

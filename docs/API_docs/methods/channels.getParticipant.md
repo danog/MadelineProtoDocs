@@ -17,11 +17,11 @@ Get info about a [channel/supergroup](https://core.telegram.org/api/channel) par
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Channel/supergroup | Optional|
-|participant|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | Channel/supergroup | Optional|
+|participant|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) |  | Optional|
 
 
-### Return type: [channels.ChannelParticipant](../types/channels.ChannelParticipant.md)
+### Return type: [channels.ChannelParticipant](/API_docs/types/channels.ChannelParticipant.md)
 
 ### Can bots use this method: **YES**
 

@@ -11,21 +11,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[stickerSetCovered](../constructors/stickerSetCovered.md)  
+[stickerSetCovered](/API_docs/constructors/stickerSetCovered.md)  
 
-[stickerSetMultiCovered](../constructors/stickerSetMultiCovered.md)  
+[stickerSetMultiCovered](/API_docs/constructors/stickerSetMultiCovered.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getAttachedStickers](../methods/messages.getAttachedStickers.md)  
+[$MadelineProto->messages->getAttachedStickers](/API_docs/methods/messages.getAttachedStickers.md)  
 
 
 
-[stickerSetCovered](../constructors/stickerSetCovered.md)  
+[stickerSetCovered](/API_docs/constructors/stickerSetCovered.md)  
 
-[stickerSetMultiCovered](../constructors/stickerSetMultiCovered.md)  
+[stickerSetMultiCovered](/API_docs/constructors/stickerSetMultiCovered.md)  
 
-[$MadelineProto->messages->getAttachedStickers](../methods/messages.getAttachedStickers.md)  
+[$MadelineProto->messages->getAttachedStickers](/API_docs/methods/messages.getAttachedStickers.md)  
 

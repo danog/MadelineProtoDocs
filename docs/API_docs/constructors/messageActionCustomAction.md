@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionCustomAction  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Custom action (most likely not supported by the current layer, an upgrade might 
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|message|[string](../types/string.md) | Yes|Action message|
+|message|[string](/API_docs/types/string.md) | Yes|Action message|
 
 
 
-### Type: [MessageAction](../types/MessageAction.md)
+### Type: [MessageAction](/API_docs/types/MessageAction.md)
 
 
 ### Example:

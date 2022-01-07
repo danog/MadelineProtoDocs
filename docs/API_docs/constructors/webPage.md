@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: webPage  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,28 +15,28 @@ Webpage preview
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|Preview ID|
-|url|[string](../types/string.md) | Yes|URL of previewed webpage|
-|display\_url|[string](../types/string.md) | Yes|Webpage URL to be displayed to the user|
-|hash|[int](../types/int.md) | Yes|
-|type|[string](../types/string.md) | Optional|Type of the web page. Can be: article, photo, audio, video, document, profile, app, or something else|
-|site\_name|[string](../types/string.md) | Optional|Short name of the site (e.g., Google Docs, App Store)|
-|title|[string](../types/string.md) | Optional|Title of the content|
-|description|[string](../types/string.md) | Optional|Content description|
-|photo|[Photo](../types/Photo.md) | Optional|Image representing the content|
-|embed\_url|[string](../types/string.md) | Optional|URL to show in the embedded preview|
-|embed\_type|[string](../types/string.md) | Optional|MIME type of the embedded preview, (e.g., text/html or video/mp4)|
-|embed\_width|[int](../types/int.md) | Optional|Width of the embedded preview|
-|embed\_height|[int](../types/int.md) | Optional|Height of the embedded preview|
-|duration|[int](../types/int.md) | Optional|Duration of the content, in seconds|
-|author|[string](../types/string.md) | Optional|Author of the content|
-|document|[Document](../types/Document.md) | Optional|Preview of the content as a media file|
-|cached\_page|[Page](../types/Page.md) | Optional|Page contents in [instant view](https://instantview.telegram.org) format|
-|attributes|Array of [WebPageAttribute](../types/WebPageAttribute.md) | Optional|Webpage attributes|
+|id|[long](/API_docs/types/long.md) | Yes|Preview ID|
+|url|[string](/API_docs/types/string.md) | Yes|URL of previewed webpage|
+|display\_url|[string](/API_docs/types/string.md) | Yes|Webpage URL to be displayed to the user|
+|hash|[int](/API_docs/types/int.md) | Yes|
+|type|[string](/API_docs/types/string.md) | Optional|Type of the web page. Can be: article, photo, audio, video, document, profile, app, or something else|
+|site\_name|[string](/API_docs/types/string.md) | Optional|Short name of the site (e.g., Google Docs, App Store)|
+|title|[string](/API_docs/types/string.md) | Optional|Title of the content|
+|description|[string](/API_docs/types/string.md) | Optional|Content description|
+|photo|[Photo](/API_docs/types/Photo.md) | Optional|Image representing the content|
+|embed\_url|[string](/API_docs/types/string.md) | Optional|URL to show in the embedded preview|
+|embed\_type|[string](/API_docs/types/string.md) | Optional|MIME type of the embedded preview, (e.g., text/html or video/mp4)|
+|embed\_width|[int](/API_docs/types/int.md) | Optional|Width of the embedded preview|
+|embed\_height|[int](/API_docs/types/int.md) | Optional|Height of the embedded preview|
+|duration|[int](/API_docs/types/int.md) | Optional|Duration of the content, in seconds|
+|author|[string](/API_docs/types/string.md) | Optional|Author of the content|
+|document|[Document](/API_docs/types/Document.md) | Optional|Preview of the content as a media file|
+|cached\_page|[Page](/API_docs/types/Page.md) | Optional|Page contents in [instant view](https://instantview.telegram.org) format|
+|attributes|Array of [WebPageAttribute](/API_docs/types/WebPageAttribute.md) | Optional|Webpage attributes|
 
 
 
-### Type: [WebPage](../types/WebPage.md)
+### Type: [WebPage](/API_docs/types/WebPage.md)
 
 
 ### Example:

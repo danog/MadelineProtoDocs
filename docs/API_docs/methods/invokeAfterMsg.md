@@ -16,11 +16,11 @@ Invokes a query after successfull completion of one of the previous queries.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|msg\_id|[long](../types/long.md) | Message identifier on which a current query depends | Yes|
-|query|[!X](../types/!X.md) | The query itself | Yes|
+|msg\_id|[long](/API_docs/types/long.md) | Message identifier on which a current query depends | Yes|
+|query|[!X](/API_docs/types/!X.md) | The query itself | Yes|
 
 
-### Return type: [X](../types/X.md)
+### Return type: [X](/API_docs/types/X.md)
 
 ### Can bots use this method: **YES**
 

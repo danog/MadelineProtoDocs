@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaGeo  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Attached map.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|geo|[GeoPoint](../types/GeoPoint.md) | Optional|GeoPoint|
+|geo|[GeoPoint](/API_docs/types/GeoPoint.md) | Optional|GeoPoint|
 
 
 
-### Type: [MessageMedia](../types/MessageMedia.md)
+### Type: [MessageMedia](/API_docs/types/MessageMedia.md)
 
 
 ### Example:

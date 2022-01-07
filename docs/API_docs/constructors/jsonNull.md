@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: jsonNull  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,7 +14,7 @@ null JSON value
 
 
 
-### Type: [JSONValue](../types/JSONValue.md)
+### Type: [JSONValue](/API_docs/types/JSONValue.md)
 
 
 ### Example:

@@ -17,10 +17,10 @@ Get info about [channels/supergroups](https://core.telegram.org/api/channel)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|Array of [Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | IDs of channels/supergroups to get info about | Yes|
+|id|Array of [Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | IDs of channels/supergroups to get info about | Yes|
 
 
-### Return type: [messages.Chats](../types/messages.Chats.md)
+### Return type: [messages.Chats](/API_docs/types/messages.Chats.md)
 
 ### Can bots use this method: **YES**
 

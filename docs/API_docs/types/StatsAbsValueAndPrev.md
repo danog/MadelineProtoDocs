@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[statsAbsValueAndPrev](../constructors/statsAbsValueAndPrev.md)  
+[statsAbsValueAndPrev](/API_docs/constructors/statsAbsValueAndPrev.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[statsAbsValueAndPrev](../constructors/statsAbsValueAndPrev.md)  
+[statsAbsValueAndPrev](/API_docs/constructors/statsAbsValueAndPrev.md)  
 

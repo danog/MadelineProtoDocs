@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/channels_AdminLogResults.html
 
 ### Possible values (constructors):
 
-[channels.adminLogResults](../constructors/channels.adminLogResults.md)  
+[channels.adminLogResults](/API_docs/constructors/channels.adminLogResults.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->channels->getAdminLog](../methods/channels.getAdminLog.md)  
+[$MadelineProto->channels->getAdminLog](/API_docs/methods/channels.getAdminLog.md)  
 
 
 
-[channels.adminLogResults](../constructors/channels.adminLogResults.md)  
+[channels.adminLogResults](/API_docs/constructors/channels.adminLogResults.md)  
 
-[$MadelineProto->channels->getAdminLog](../methods/channels.getAdminLog.md)  
+[$MadelineProto->channels->getAdminLog](/API_docs/methods/channels.getAdminLog.md)  
 

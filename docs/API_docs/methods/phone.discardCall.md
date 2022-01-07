@@ -17,14 +17,14 @@ You cannot use this method directly, see https://docs.madelineproto.xyz#calls fo
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|video|[Bool](../types/Bool.md) | Whether this is a video call | Optional|
-|peer|[InputPhoneCall](../types/InputPhoneCall.md) | The phone call | Yes|
-|duration|[int](../types/int.md) | Call duration | Yes|
-|reason|[PhoneCallDiscardReason](../types/PhoneCallDiscardReason.md) | Why was the call discarded | Yes|
-|connection\_id|[long](../types/long.md) | Preferred libtgvoip relay ID | Yes|
+|video|[Bool](/API_docs/types/Bool.md) | Whether this is a video call | Optional|
+|peer|[InputPhoneCall](/API_docs/types/InputPhoneCall.md) | The phone call | Yes|
+|duration|[int](/API_docs/types/int.md) | Call duration | Yes|
+|reason|[PhoneCallDiscardReason](/API_docs/types/PhoneCallDiscardReason.md) | Why was the call discarded | Yes|
+|connection\_id|[long](/API_docs/types/long.md) | Preferred libtgvoip relay ID | Yes|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

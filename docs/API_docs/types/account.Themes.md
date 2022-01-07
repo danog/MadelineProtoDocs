@@ -12,25 +12,25 @@ redirect_from: /API_docs/types/account_Themes.html
 
 ### Possible values (constructors):
 
-[account.themesNotModified](../constructors/account.themesNotModified.md)  
+[account.themesNotModified](/API_docs/constructors/account.themesNotModified.md)  
 
-[account.themes](../constructors/account.themes.md)  
+[account.themes](/API_docs/constructors/account.themes.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->getThemes](../methods/account.getThemes.md)  
+[$MadelineProto->account->getThemes](/API_docs/methods/account.getThemes.md)  
 
-[$MadelineProto->account->getChatThemes](../methods/account.getChatThemes.md)  
+[$MadelineProto->account->getChatThemes](/API_docs/methods/account.getChatThemes.md)  
 
 
 
-[account.themesNotModified](../constructors/account.themesNotModified.md)  
+[account.themesNotModified](/API_docs/constructors/account.themesNotModified.md)  
 
-[account.themes](../constructors/account.themes.md)  
+[account.themes](/API_docs/constructors/account.themes.md)  
 
-[$MadelineProto->account->getThemes](../methods/account.getThemes.md)  
+[$MadelineProto->account->getThemes](/API_docs/methods/account.getThemes.md)  
 
-[$MadelineProto->account->getChatThemes](../methods/account.getChatThemes.md)  
+[$MadelineProto->account->getChatThemes](/API_docs/methods/account.getChatThemes.md)  
 

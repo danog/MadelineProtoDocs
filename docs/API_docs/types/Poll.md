@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[poll](../constructors/poll.md)  
+[poll](/API_docs/constructors/poll.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[poll](../constructors/poll.md)  
+[poll](/API_docs/constructors/poll.md)  
 

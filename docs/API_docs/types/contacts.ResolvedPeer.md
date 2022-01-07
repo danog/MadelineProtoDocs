@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/contacts_ResolvedPeer.html
 
 ### Possible values (constructors):
 
-[contacts.resolvedPeer](../constructors/contacts.resolvedPeer.md)  
+[contacts.resolvedPeer](/API_docs/constructors/contacts.resolvedPeer.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->contacts->resolveUsername](../methods/contacts.resolveUsername.md)  
+[$MadelineProto->contacts->resolveUsername](/API_docs/methods/contacts.resolveUsername.md)  
 
 
 
-[contacts.resolvedPeer](../constructors/contacts.resolvedPeer.md)  
+[contacts.resolvedPeer](/API_docs/constructors/contacts.resolvedPeer.md)  
 
-[$MadelineProto->contacts->resolveUsername](../methods/contacts.resolveUsername.md)  
+[$MadelineProto->contacts->resolveUsername](/API_docs/methods/contacts.resolveUsername.md)  
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantsContacts  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Fetch only participants that are also contacts
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|q|[string](../types/string.md) | Yes|Optional search query for searching contact participants by name|
+|q|[string](/API_docs/types/string.md) | Yes|Optional search query for searching contact participants by name|
 
 
 
-### Type: [ChannelParticipantsFilter](../types/ChannelParticipantsFilter.md)
+### Type: [ChannelParticipantsFilter](/API_docs/types/ChannelParticipantsFilter.md)
 
 
 ### Example:

@@ -15,7 +15,7 @@ Get inactive channels and supergroups
 
 
 
-### Return type: [messages.InactiveChats](../types/messages.InactiveChats.md)
+### Return type: [messages.InactiveChats](/API_docs/types/messages.InactiveChats.md)
 
 ### Can bots use this method: **NO**
 

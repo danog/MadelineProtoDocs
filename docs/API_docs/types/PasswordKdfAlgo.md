@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[passwordKdfAlgoUnknown](../constructors/passwordKdfAlgoUnknown.md)  
+[passwordKdfAlgoUnknown](/API_docs/constructors/passwordKdfAlgoUnknown.md)  
 
-[passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow](../constructors/passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow.md)  
+[passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow](/API_docs/constructors/passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[passwordKdfAlgoUnknown](../constructors/passwordKdfAlgoUnknown.md)  
+[passwordKdfAlgoUnknown](/API_docs/constructors/passwordKdfAlgoUnknown.md)  
 
-[passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow](../constructors/passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow.md)  
+[passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow](/API_docs/constructors/passwordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow.md)  
 

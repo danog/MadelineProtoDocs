@@ -17,10 +17,10 @@ Installs a previously uploaded photo as a profile photo.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[MessageMedia, Update, Message or InputPhoto](../types/InputPhoto.md) | Input photo | Optional|
+|id|[MessageMedia, Update, Message or InputPhoto](/API_docs/types/InputPhoto.md) | Input photo | Optional|
 
 
-### Return type: [photos.Photo](../types/photos.Photo.md)
+### Return type: [photos.Photo](/API_docs/types/photos.Photo.md)
 
 ### Can bots use this method: **NO**
 

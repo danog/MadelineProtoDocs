@@ -15,11 +15,11 @@ redirect_from: /API_docs/methods/phone_editGroupCallTitle.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|call|[InputGroupCall](../types/InputGroupCall.md) | Yes|
-|title|[string](../types/string.md) | Yes|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.md) | Yes|
+|title|[string](/API_docs/types/string.md) | Yes|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

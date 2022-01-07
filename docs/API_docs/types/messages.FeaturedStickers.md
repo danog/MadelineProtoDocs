@@ -12,25 +12,25 @@ redirect_from: /API_docs/types/messages_FeaturedStickers.html
 
 ### Possible values (constructors):
 
-[messages.featuredStickersNotModified](../constructors/messages.featuredStickersNotModified.md)  
+[messages.featuredStickersNotModified](/API_docs/constructors/messages.featuredStickersNotModified.md)  
 
-[messages.featuredStickers](../constructors/messages.featuredStickers.md)  
+[messages.featuredStickers](/API_docs/constructors/messages.featuredStickers.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getFeaturedStickers](../methods/messages.getFeaturedStickers.md)  
+[$MadelineProto->messages->getFeaturedStickers](/API_docs/methods/messages.getFeaturedStickers.md)  
 
-[$MadelineProto->messages->getOldFeaturedStickers](../methods/messages.getOldFeaturedStickers.md)  
+[$MadelineProto->messages->getOldFeaturedStickers](/API_docs/methods/messages.getOldFeaturedStickers.md)  
 
 
 
-[messages.featuredStickersNotModified](../constructors/messages.featuredStickersNotModified.md)  
+[messages.featuredStickersNotModified](/API_docs/constructors/messages.featuredStickersNotModified.md)  
 
-[messages.featuredStickers](../constructors/messages.featuredStickers.md)  
+[messages.featuredStickers](/API_docs/constructors/messages.featuredStickers.md)  
 
-[$MadelineProto->messages->getFeaturedStickers](../methods/messages.getFeaturedStickers.md)  
+[$MadelineProto->messages->getFeaturedStickers](/API_docs/methods/messages.getFeaturedStickers.md)  
 
-[$MadelineProto->messages->getOldFeaturedStickers](../methods/messages.getOldFeaturedStickers.md)  
+[$MadelineProto->messages->getOldFeaturedStickers](/API_docs/methods/messages.getOldFeaturedStickers.md)  
 

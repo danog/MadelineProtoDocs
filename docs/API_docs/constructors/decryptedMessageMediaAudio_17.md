@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaAudio\_17  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,13 +15,13 @@ Audio file attached to a secret chat message.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|duration|[int](../types/int.md) | Yes|Audio duration in seconds|
-|mime\_type|[string](../types/string.md) | Yes|MIME-type of the audio file<br>Parameter added in [Layer 13](https://core.telegram.org/api/layers#layer-13).|
-|size|[int](../types/int.md) | Yes|File size|
+|duration|[int](/API_docs/types/int.md) | Yes|Audio duration in seconds|
+|mime\_type|[string](/API_docs/types/string.md) | Yes|MIME-type of the audio file<br>Parameter added in [Layer 13](https://core.telegram.org/api/layers#layer-13).|
+|size|[int](/API_docs/types/int.md) | Yes|File size|
 
 
 
-### Type: [DecryptedMessageMedia](../types/DecryptedMessageMedia.md)
+### Type: [DecryptedMessageMedia](/API_docs/types/DecryptedMessageMedia.md)
 
 
 ### Example:

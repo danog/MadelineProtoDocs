@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/channels_SendAsPeers.html
 
 ### Possible values (constructors):
 
-[channels.sendAsPeers](../constructors/channels.sendAsPeers.md)  
+[channels.sendAsPeers](/API_docs/constructors/channels.sendAsPeers.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->channels->getSendAs](../methods/channels.getSendAs.md)  
+[$MadelineProto->channels->getSendAs](/API_docs/methods/channels.getSendAs.md)  
 
 
 
-[channels.sendAsPeers](../constructors/channels.sendAsPeers.md)  
+[channels.sendAsPeers](/API_docs/constructors/channels.sendAsPeers.md)  
 
-[$MadelineProto->channels->getSendAs](../methods/channels.getSendAs.md)  
+[$MadelineProto->channels->getSendAs](/API_docs/methods/channels.getSendAs.md)  
 

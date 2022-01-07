@@ -15,7 +15,7 @@ Look for updates of telegram's terms of service
 
 
 
-### Return type: [help.TermsOfServiceUpdate](../types/help.TermsOfServiceUpdate.md)
+### Return type: [help.TermsOfServiceUpdate](/API_docs/types/help.TermsOfServiceUpdate.md)
 
 ### Can bots use this method: **NO**
 

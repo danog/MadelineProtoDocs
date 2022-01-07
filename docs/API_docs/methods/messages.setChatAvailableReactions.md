@@ -15,11 +15,11 @@ redirect_from: /API_docs/methods/messages_setChatAvailableReactions.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
-|available\_reactions|Array of [string](../types/string.md) | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
+|available\_reactions|Array of [string](/API_docs/types/string.md) | Yes|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **YES**
 

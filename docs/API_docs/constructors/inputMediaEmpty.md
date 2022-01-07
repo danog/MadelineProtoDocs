@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaEmpty  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,7 +14,7 @@ Empty media content of a message.
 
 
 
-### Type: [InputMedia](../types/InputMedia.md)
+### Type: [InputMedia](/API_docs/types/InputMedia.md)
 
 
 ### Example:

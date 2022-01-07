@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/account_ContentSettings.html
 
 ### Possible values (constructors):
 
-[account.contentSettings](../constructors/account.contentSettings.md)  
+[account.contentSettings](/API_docs/constructors/account.contentSettings.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->getContentSettings](../methods/account.getContentSettings.md)  
+[$MadelineProto->account->getContentSettings](/API_docs/methods/account.getContentSettings.md)  
 
 
 
-[account.contentSettings](../constructors/account.contentSettings.md)  
+[account.contentSettings](/API_docs/constructors/account.contentSettings.md)  
 
-[$MadelineProto->account->getContentSettings](../methods/account.getContentSettings.md)  
+[$MadelineProto->account->getContentSettings](/API_docs/methods/account.getContentSettings.md)  
 

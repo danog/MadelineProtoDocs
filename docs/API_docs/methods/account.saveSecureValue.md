@@ -17,11 +17,11 @@ Securely save [Telegram Passport](https://core.telegram.org/passport) document, 
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|value|[InputSecureValue](../types/InputSecureValue.md) | Secure value, [for more info see the passport docs »](https://core.telegram.org/passport/encryption#encryption) | Yes|
-|secure\_secret\_id|[long](../types/long.md) | Passport secret hash, [for more info see the passport docs »](https://core.telegram.org/passport/encryption#encryption) | Yes|
+|value|[InputSecureValue](/API_docs/types/InputSecureValue.md) | Secure value, [for more info see the passport docs »](https://core.telegram.org/passport/encryption#encryption) | Yes|
+|secure\_secret\_id|[long](/API_docs/types/long.md) | Passport secret hash, [for more info see the passport docs »](https://core.telegram.org/passport/encryption#encryption) | Yes|
 
 
-### Return type: [SecureValue](../types/SecureValue.md)
+### Return type: [SecureValue](/API_docs/types/SecureValue.md)
 
 ### Can bots use this method: **NO**
 

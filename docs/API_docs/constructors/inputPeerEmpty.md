@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPeerEmpty  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,7 +14,7 @@ An empty constructor, no user or chat is defined.
 
 
 
-### Type: [InputPeer](../types/InputPeer.md)
+### Type: [InputPeer](/API_docs/types/InputPeer.md)
 
 
 ### Example:

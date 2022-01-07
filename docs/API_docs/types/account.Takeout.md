@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/account_Takeout.html
 
 ### Possible values (constructors):
 
-[account.takeout](../constructors/account.takeout.md)  
+[account.takeout](/API_docs/constructors/account.takeout.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->initTakeoutSession](../methods/account.initTakeoutSession.md)  
+[$MadelineProto->account->initTakeoutSession](/API_docs/methods/account.initTakeoutSession.md)  
 
 
 
-[account.takeout](../constructors/account.takeout.md)  
+[account.takeout](/API_docs/constructors/account.takeout.md)  
 
-[$MadelineProto->account->initTakeoutSession](../methods/account.initTakeoutSession.md)  
+[$MadelineProto->account->initTakeoutSession](/API_docs/methods/account.initTakeoutSession.md)  
 

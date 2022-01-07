@@ -17,10 +17,10 @@ Check the validity of a chat invite link and get basic info about it
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[string](../types/string.md) | Invite hash in `t.me/joinchat/hash` | Yes|
+|hash|[string](/API_docs/types/string.md) | Invite hash in `t.me/joinchat/hash` | Yes|
 
 
-### Return type: [ChatInvite](../types/ChatInvite.md)
+### Return type: [ChatInvite](/API_docs/types/ChatInvite.md)
 
 ### Can bots use this method: **NO**
 

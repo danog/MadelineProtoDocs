@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/messages_DiscussionMessage.html
 
 ### Possible values (constructors):
 
-[messages.discussionMessage](../constructors/messages.discussionMessage.md)  
+[messages.discussionMessage](/API_docs/constructors/messages.discussionMessage.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getDiscussionMessage](../methods/messages.getDiscussionMessage.md)  
+[$MadelineProto->messages->getDiscussionMessage](/API_docs/methods/messages.getDiscussionMessage.md)  
 
 
 
-[messages.discussionMessage](../constructors/messages.discussionMessage.md)  
+[messages.discussionMessage](/API_docs/constructors/messages.discussionMessage.md)  
 
-[$MadelineProto->messages->getDiscussionMessage](../methods/messages.getDiscussionMessage.md)  
+[$MadelineProto->messages->getDiscussionMessage](/API_docs/methods/messages.getDiscussionMessage.md)  
 

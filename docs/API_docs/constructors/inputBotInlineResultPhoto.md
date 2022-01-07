@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputBotInlineResultPhoto  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,14 +15,14 @@ Photo
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[string](../types/string.md) | Yes|Result ID|
-|type|[string](../types/string.md) | Yes|Result type (see [bot API docs](https://core.telegram.org/bots/api#inlinequeryresult))|
-|photo|[MessageMedia, Message, Update or InputPhoto](../types/InputPhoto.md) | Optional|Photo to send|
-|send\_message|[InputBotInlineMessage](../types/InputBotInlineMessage.md) | Yes|Message to send when the result is selected|
+|id|[string](/API_docs/types/string.md) | Yes|Result ID|
+|type|[string](/API_docs/types/string.md) | Yes|Result type (see [bot API docs](https://core.telegram.org/bots/api#inlinequeryresult))|
+|photo|[MessageMedia, Message, Update or InputPhoto](/API_docs/types/InputPhoto.md) | Optional|Photo to send|
+|send\_message|[InputBotInlineMessage](/API_docs/types/InputBotInlineMessage.md) | Yes|Message to send when the result is selected|
 
 
 
-### Type: [InputBotInlineResult](../types/InputBotInlineResult.md)
+### Type: [InputBotInlineResult](/API_docs/types/InputBotInlineResult.md)
 
 
 ### Example:

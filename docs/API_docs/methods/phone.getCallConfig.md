@@ -15,7 +15,7 @@ Get phone call configuration to be passed to libtgvoip's shared config
 
 
 
-### Return type: [DataJSON](../types/DataJSON.md)
+### Return type: [DataJSON](/API_docs/types/DataJSON.md)
 
 ### Can bots use this method: **NO**
 

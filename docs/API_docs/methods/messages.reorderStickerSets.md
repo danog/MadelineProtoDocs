@@ -17,11 +17,11 @@ Reorder installed stickersets
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|masks|[Bool](../types/Bool.md) | Reorder mask stickersets | Optional|
-|order|Array of [long](../types/long.md) | New stickerset order by stickerset IDs | Yes|
+|masks|[Bool](/API_docs/types/Bool.md) | Reorder mask stickersets | Optional|
+|order|Array of [long](/API_docs/types/long.md) | New stickerset order by stickerset IDs | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

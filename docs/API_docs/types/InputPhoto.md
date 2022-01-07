@@ -12,9 +12,9 @@ You can also provide a [MessageMedia](MessageMedia.md), [Message](Message.md), [
 
 ### Possible values (constructors):
 
-[inputPhotoEmpty](../constructors/inputPhotoEmpty.md)  
+[inputPhotoEmpty](/API_docs/constructors/inputPhotoEmpty.md)  
 
-[inputPhoto](../constructors/inputPhoto.md)  
+[inputPhoto](/API_docs/constructors/inputPhoto.md)  
 
 
 
@@ -22,7 +22,7 @@ You can also provide a [MessageMedia](MessageMedia.md), [Message](Message.md), [
 
 
 
-[inputPhotoEmpty](../constructors/inputPhotoEmpty.md)  
+[inputPhotoEmpty](/API_docs/constructors/inputPhotoEmpty.md)  
 
-[inputPhoto](../constructors/inputPhoto.md)  
+[inputPhoto](/API_docs/constructors/inputPhoto.md)  
 

@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputPhoneContact](../constructors/inputPhoneContact.md)  
+[inputPhoneContact](/API_docs/constructors/inputPhoneContact.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputPhoneContact](../constructors/inputPhoneContact.md)  
+[inputPhoneContact](/API_docs/constructors/inputPhoneContact.md)  
 

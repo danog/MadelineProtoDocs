@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotShippingQuery  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,14 +15,14 @@ This object contains information about an incoming shipping query.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|query\_id|[long](../types/long.md) | Yes|Unique query identifier|
-|user\_id|[long](../types/long.md) | Yes|
-|payload|[bytes](../types/bytes.md) | Yes|Bot specified invoice payload|
-|shipping\_address|[PostAddress](../types/PostAddress.md) | Yes|User specified shipping address|
+|query\_id|[long](/API_docs/types/long.md) | Yes|Unique query identifier|
+|user\_id|[long](/API_docs/types/long.md) | Yes|
+|payload|[bytes](/API_docs/types/bytes.md) | Yes|Bot specified invoice payload|
+|shipping\_address|[PostAddress](/API_docs/types/PostAddress.md) | Yes|User specified shipping address|
 
 
 
-### Type: [Update](../types/Update.md)
+### Type: [Update](/API_docs/types/Update.md)
 
 
 ### Example:

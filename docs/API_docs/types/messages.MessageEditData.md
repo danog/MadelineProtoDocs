@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/messages_MessageEditData.html
 
 ### Possible values (constructors):
 
-[messages.messageEditData](../constructors/messages.messageEditData.md)  
+[messages.messageEditData](/API_docs/constructors/messages.messageEditData.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getMessageEditData](../methods/messages.getMessageEditData.md)  
+[$MadelineProto->messages->getMessageEditData](/API_docs/methods/messages.getMessageEditData.md)  
 
 
 
-[messages.messageEditData](../constructors/messages.messageEditData.md)  
+[messages.messageEditData](/API_docs/constructors/messages.messageEditData.md)  
 
-[$MadelineProto->messages->getMessageEditData](../methods/messages.getMessageEditData.md)  
+[$MadelineProto->messages->getMessageEditData](/API_docs/methods/messages.getMessageEditData.md)  
 

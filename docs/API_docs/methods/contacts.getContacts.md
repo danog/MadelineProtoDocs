@@ -17,10 +17,10 @@ Returns the current user's contact list.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[long](../types/long.md) |  | Yes|
+|hash|[long](/API_docs/types/long.md) |  | Yes|
 
 
-### Return type: [contacts.Contacts](../types/contacts.Contacts.md)
+### Return type: [contacts.Contacts](/API_docs/types/contacts.Contacts.md)
 
 ### Can bots use this method: **NO**
 

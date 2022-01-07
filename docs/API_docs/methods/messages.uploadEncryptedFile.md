@@ -17,11 +17,11 @@ Upload encrypted file and associate it to a secret chat
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | The secret chat to associate the file to | Yes|
-|file|[File path or InputEncryptedFile](../types/InputEncryptedFile.md) | The file | Optional|
+|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](/API_docs/types/InputEncryptedChat.md) | The secret chat to associate the file to | Yes|
+|file|[File path or InputEncryptedFile](/API_docs/types/InputEncryptedFile.md) | The file | Optional|
 
 
-### Return type: [EncryptedFile](../types/EncryptedFile.md)
+### Return type: [EncryptedFile](/API_docs/types/EncryptedFile.md)
 
 ### Can bots use this method: **NO**
 

@@ -17,11 +17,11 @@ Send phone call debug data to server
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[InputPhoneCall](../types/InputPhoneCall.md) | Phone call | Yes|
-|debug|[DataJSON](../types/DataJSON.md) | Debug statistics obtained from libtgvoip | Yes|
+|peer|[InputPhoneCall](/API_docs/types/InputPhoneCall.md) | Phone call | Yes|
+|debug|[DataJSON](/API_docs/types/DataJSON.md) | Debug statistics obtained from libtgvoip | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

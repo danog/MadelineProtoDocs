@@ -17,22 +17,22 @@ Sends a message to a chat
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|no\_webpage|[Bool](../types/Bool.md) | Set this flag to disable generation of the webpage preview | Optional|
-|silent|[Bool](../types/Bool.md) | Send this message silently (no notifications for the receivers) | Optional|
-|background|[Bool](../types/Bool.md) | Send this message as background message | Optional|
-|clear\_draft|[Bool](../types/Bool.md) | Clear the draft field | Optional|
-|noforwards|[Bool](../types/Bool.md) |  | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The destination where the message will be sent | Optional|
-|reply\_to\_msg\_id|[int](../types/int.md) | The message ID to which this message will reply to | Optional|
-|message|[string](../types/string.md) | The message | Yes|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Reply markup for sending bot buttons | Optional|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | Message [entities](https://core.telegram.org/api/entities) for sending styled text | Optional|
-|parse\_mode| [string](../types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
-|schedule\_date|[int](../types/int.md) | Scheduled message date for [scheduled messages](https://core.telegram.org/api/scheduled-messages) | Optional|
-|send\_as|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
+|no\_webpage|[Bool](/API_docs/types/Bool.md) | Set this flag to disable generation of the webpage preview | Optional|
+|silent|[Bool](/API_docs/types/Bool.md) | Send this message silently (no notifications for the receivers) | Optional|
+|background|[Bool](/API_docs/types/Bool.md) | Send this message as background message | Optional|
+|clear\_draft|[Bool](/API_docs/types/Bool.md) | Clear the draft field | Optional|
+|noforwards|[Bool](/API_docs/types/Bool.md) |  | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | The destination where the message will be sent | Optional|
+|reply\_to\_msg\_id|[int](/API_docs/types/int.md) | The message ID to which this message will reply to | Optional|
+|message|[string](/API_docs/types/string.md) | The message | Yes|
+|reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.md) | Reply markup for sending bot buttons | Optional|
+|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.md) | Message [entities](https://core.telegram.org/api/entities) for sending styled text | Optional|
+|parse\_mode| [string](/API_docs/types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
+|schedule\_date|[int](/API_docs/types/int.md) | Scheduled message date for [scheduled messages](https://core.telegram.org/api/scheduled-messages) | Optional|
+|send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) |  | Optional|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **YES**
 

@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_dhConfig.html
 ---
 # Constructor: messages.dhConfig  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,14 +16,14 @@ New set of configuring parameters.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|g|[int](../types/int.md) | Yes|New value **prime**, see [Wikipedia](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)|
-|p|[bytes](../types/bytes.md) | Yes|New value **primitive root**, see [Wikipedia](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)|
-|version|[int](../types/int.md) | Yes|Vestion of set of parameters|
-|random|[bytes](../types/bytes.md) | Yes|Random sequence of bytes of assigned length|
+|g|[int](/API_docs/types/int.md) | Yes|New value **prime**, see [Wikipedia](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)|
+|p|[bytes](/API_docs/types/bytes.md) | Yes|New value **primitive root**, see [Wikipedia](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)|
+|version|[int](/API_docs/types/int.md) | Yes|Vestion of set of parameters|
+|random|[bytes](/API_docs/types/bytes.md) | Yes|Random sequence of bytes of assigned length|
 
 
 
-### Type: [messages.DhConfig](../types/messages.DhConfig.md)
+### Type: [messages.DhConfig](/API_docs/types/messages.DhConfig.md)
 
 
 ### Example:

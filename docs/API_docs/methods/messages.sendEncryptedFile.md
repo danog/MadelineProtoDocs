@@ -17,13 +17,13 @@ Sends a message with a file attachment to a secret chat
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|silent|[Bool](../types/Bool.md) | Whether to send the file without triggering a notification | Optional|
-|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | Secret chat ID | Yes|
-|data|[bytes](../types/bytes.md) | TL-serialization of [DecryptedMessage](../types/DecryptedMessage.md) type, encrypted with a key generated during chat initialization | Yes|
-|file|[File path or InputEncryptedFile](../types/InputEncryptedFile.md) | File attachment for the secret chat | Optional|
+|silent|[Bool](/API_docs/types/Bool.md) | Whether to send the file without triggering a notification | Optional|
+|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](/API_docs/types/InputEncryptedChat.md) | Secret chat ID | Yes|
+|data|[bytes](/API_docs/types/bytes.md) | TL-serialization of [DecryptedMessage](../types/DecryptedMessage.md) type, encrypted with a key generated during chat initialization | Yes|
+|file|[File path or InputEncryptedFile](/API_docs/types/InputEncryptedFile.md) | File attachment for the secret chat | Optional|
 
 
-### Return type: [messages.SentEncryptedMessage](../types/messages.SentEncryptedMessage.md)
+### Return type: [messages.SentEncryptedMessage](/API_docs/types/messages.SentEncryptedMessage.md)
 
 ### Can bots use this method: **NO**
 

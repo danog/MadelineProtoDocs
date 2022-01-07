@@ -19,11 +19,11 @@ Use this if the data submitted by the user doesn't satisfy the standards your se
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The user | Optional|
-|errors|Array of [SecureValueError](../types/SecureValueError.md) | Errors | Yes|
+|id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | The user | Optional|
+|errors|Array of [SecureValueError](/API_docs/types/SecureValueError.md) | Errors | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **YES**
 

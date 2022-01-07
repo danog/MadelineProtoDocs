@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/channels_adminLogResults.html
 ---
 # Constructor: channels.adminLogResults  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,13 +16,13 @@ Admin log events
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|events|Array of [ChannelAdminLogEvent](../types/ChannelAdminLogEvent.md) | Yes|Admin log events|
-|chats|Array of [Chat](../types/Chat.md) | Yes|Chats mentioned in events|
-|users|Array of [User](../types/User.md) | Yes|Users mentioned in events|
+|events|Array of [ChannelAdminLogEvent](/API_docs/types/ChannelAdminLogEvent.md) | Yes|Admin log events|
+|chats|Array of [Chat](/API_docs/types/Chat.md) | Yes|Chats mentioned in events|
+|users|Array of [User](/API_docs/types/User.md) | Yes|Users mentioned in events|
 
 
 
-### Type: [channels.AdminLogResults](../types/channels.AdminLogResults.md)
+### Type: [channels.AdminLogResults](/API_docs/types/channels.AdminLogResults.md)
 
 
 ### Example:

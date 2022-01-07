@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[webAuthorization](../constructors/webAuthorization.md)  
+[webAuthorization](/API_docs/constructors/webAuthorization.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[webAuthorization](../constructors/webAuthorization.md)  
+[webAuthorization](/API_docs/constructors/webAuthorization.md)  
 

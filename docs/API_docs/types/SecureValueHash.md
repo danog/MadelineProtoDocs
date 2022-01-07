@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[secureValueHash](../constructors/secureValueHash.md)  
+[secureValueHash](/API_docs/constructors/secureValueHash.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[secureValueHash](../constructors/secureValueHash.md)  
+[secureValueHash](/API_docs/constructors/secureValueHash.md)  
 

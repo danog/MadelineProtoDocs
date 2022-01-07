@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/storage_fileWebp.html
 ---
 # Constructor: storage.fileWebp  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,7 +15,7 @@ WEBP image. MIME type: `image/webp`.
 
 
 
-### Type: [storage.FileType](../types/storage.FileType.md)
+### Type: [storage.FileType](/API_docs/types/storage.FileType.md)
 
 
 ### Example:

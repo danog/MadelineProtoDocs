@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/payments_ValidatedRequestedInfo.html
 
 ### Possible values (constructors):
 
-[payments.validatedRequestedInfo](../constructors/payments.validatedRequestedInfo.md)  
+[payments.validatedRequestedInfo](/API_docs/constructors/payments.validatedRequestedInfo.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->payments->validateRequestedInfo](../methods/payments.validateRequestedInfo.md)  
+[$MadelineProto->payments->validateRequestedInfo](/API_docs/methods/payments.validateRequestedInfo.md)  
 
 
 
-[payments.validatedRequestedInfo](../constructors/payments.validatedRequestedInfo.md)  
+[payments.validatedRequestedInfo](/API_docs/constructors/payments.validatedRequestedInfo.md)  
 
-[$MadelineProto->payments->validateRequestedInfo](../methods/payments.validateRequestedInfo.md)  
+[$MadelineProto->payments->validateRequestedInfo](/API_docs/methods/payments.validateRequestedInfo.md)  
 

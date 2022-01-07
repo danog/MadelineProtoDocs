@@ -15,11 +15,11 @@ redirect_from: /API_docs/methods/channels_deleteParticipantHistory.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|
-|participant|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | Optional|
+|participant|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
 
 
-### Return type: [messages.AffectedHistory](../types/messages.AffectedHistory.md)
+### Return type: [messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.md)
 
 ### Can bots use this method: **YES**
 

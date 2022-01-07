@@ -17,22 +17,22 @@ Send a media
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|silent|[Bool](../types/Bool.md) | Send message silently (no notification should be triggered) | Optional|
-|background|[Bool](../types/Bool.md) | Send message in background | Optional|
-|clear\_draft|[Bool](../types/Bool.md) | Clear the draft | Optional|
-|noforwards|[Bool](../types/Bool.md) |  | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Destination | Optional|
-|reply\_to\_msg\_id|[int](../types/int.md) | Message ID to which this message should reply to | Optional|
-|media|[MessageMedia, Update, Message or InputMedia](../types/InputMedia.md) | Attached media | Optional|
-|message|[string](../types/string.md) | Caption | Yes|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Reply markup for bot keyboards | Optional|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | Message [entities](https://core.telegram.org/api/entities) for styled text | Optional|
-|parse\_mode| [string](../types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
-|schedule\_date|[int](../types/int.md) | Scheduled message date for [scheduled messages](https://core.telegram.org/api/scheduled-messages) | Optional|
-|send\_as|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
+|silent|[Bool](/API_docs/types/Bool.md) | Send message silently (no notification should be triggered) | Optional|
+|background|[Bool](/API_docs/types/Bool.md) | Send message in background | Optional|
+|clear\_draft|[Bool](/API_docs/types/Bool.md) | Clear the draft | Optional|
+|noforwards|[Bool](/API_docs/types/Bool.md) |  | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Destination | Optional|
+|reply\_to\_msg\_id|[int](/API_docs/types/int.md) | Message ID to which this message should reply to | Optional|
+|media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.md) | Attached media | Optional|
+|message|[string](/API_docs/types/string.md) | Caption | Yes|
+|reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.md) | Reply markup for bot keyboards | Optional|
+|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.md) | Message [entities](https://core.telegram.org/api/entities) for styled text | Optional|
+|parse\_mode| [string](/API_docs/types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
+|schedule\_date|[int](/API_docs/types/int.md) | Scheduled message date for [scheduled messages](https://core.telegram.org/api/scheduled-messages) | Optional|
+|send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) |  | Optional|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **YES**
 

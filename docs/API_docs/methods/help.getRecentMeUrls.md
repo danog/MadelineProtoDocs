@@ -17,10 +17,10 @@ Get recently used `t.me` links
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|referer|[string](../types/string.md) | Referer | Yes|
+|referer|[string](/API_docs/types/string.md) | Referer | Yes|
 
 
-### Return type: [help.RecentMeUrls](../types/help.RecentMeUrls.md)
+### Return type: [help.RecentMeUrls](/API_docs/types/help.RecentMeUrls.md)
 
 ### Can bots use this method: **NO**
 

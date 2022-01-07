@@ -17,13 +17,13 @@ Upload theme
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|file|[File path or InputFile](../types/InputFile.md) | Theme file uploaded as described in [files »](https://core.telegram.org/api/files) | Yes|
-|thumb|[File path or InputFile](../types/InputFile.md) | Thumbnail | Optional|
-|file\_name|[string](../types/string.md) | File name | Yes|
-|mime\_type|[string](../types/string.md) | MIME type, must be `application/x-tgtheme-{format}`, where `format` depends on the client | Yes|
+|file|[File path or InputFile](/API_docs/types/InputFile.md) | Theme file uploaded as described in [files »](https://core.telegram.org/api/files) | Yes|
+|thumb|[File path or InputFile](/API_docs/types/InputFile.md) | Thumbnail | Optional|
+|file\_name|[string](/API_docs/types/string.md) | File name | Yes|
+|mime\_type|[string](/API_docs/types/string.md) | MIME type, must be `application/x-tgtheme-{format}`, where `format` depends on the client | Yes|
 
 
-### Return type: [Document](../types/Document.md)
+### Return type: [Document](/API_docs/types/Document.md)
 
 ### Can bots use this method: **NO**
 

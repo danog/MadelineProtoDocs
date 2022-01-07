@@ -12,21 +12,21 @@ redirect_from: /API_docs/types/messages_SavedGifs.html
 
 ### Possible values (constructors):
 
-[messages.savedGifsNotModified](../constructors/messages.savedGifsNotModified.md)  
+[messages.savedGifsNotModified](/API_docs/constructors/messages.savedGifsNotModified.md)  
 
-[messages.savedGifs](../constructors/messages.savedGifs.md)  
+[messages.savedGifs](/API_docs/constructors/messages.savedGifs.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getSavedGifs](../methods/messages.getSavedGifs.md)  
+[$MadelineProto->messages->getSavedGifs](/API_docs/methods/messages.getSavedGifs.md)  
 
 
 
-[messages.savedGifsNotModified](../constructors/messages.savedGifsNotModified.md)  
+[messages.savedGifsNotModified](/API_docs/constructors/messages.savedGifsNotModified.md)  
 
-[messages.savedGifs](../constructors/messages.savedGifs.md)  
+[messages.savedGifs](/API_docs/constructors/messages.savedGifs.md)  
 
-[$MadelineProto->messages->getSavedGifs](../methods/messages.getSavedGifs.md)  
+[$MadelineProto->messages->getSavedGifs](/API_docs/methods/messages.getSavedGifs.md)  
 

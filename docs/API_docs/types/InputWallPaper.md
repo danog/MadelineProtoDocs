@@ -11,11 +11,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputWallPaper](../constructors/inputWallPaper.md)  
+[inputWallPaper](/API_docs/constructors/inputWallPaper.md)  
 
-[inputWallPaperSlug](../constructors/inputWallPaperSlug.md)  
+[inputWallPaperSlug](/API_docs/constructors/inputWallPaperSlug.md)  
 
-[inputWallPaperNoFile](../constructors/inputWallPaperNoFile.md)  
+[inputWallPaperNoFile](/API_docs/constructors/inputWallPaperNoFile.md)  
 
 
 
@@ -23,9 +23,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputWallPaper](../constructors/inputWallPaper.md)  
+[inputWallPaper](/API_docs/constructors/inputWallPaper.md)  
 
-[inputWallPaperSlug](../constructors/inputWallPaperSlug.md)  
+[inputWallPaperSlug](/API_docs/constructors/inputWallPaperSlug.md)  
 
-[inputWallPaperNoFile](../constructors/inputWallPaperNoFile.md)  
+[inputWallPaperNoFile](/API_docs/constructors/inputWallPaperNoFile.md)  
 

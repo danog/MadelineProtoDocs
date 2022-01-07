@@ -12,21 +12,21 @@ redirect_from: /API_docs/types/help_DeepLinkInfo.html
 
 ### Possible values (constructors):
 
-[help.deepLinkInfoEmpty](../constructors/help.deepLinkInfoEmpty.md)  
+[help.deepLinkInfoEmpty](/API_docs/constructors/help.deepLinkInfoEmpty.md)  
 
-[help.deepLinkInfo](../constructors/help.deepLinkInfo.md)  
+[help.deepLinkInfo](/API_docs/constructors/help.deepLinkInfo.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->help->getDeepLinkInfo](../methods/help.getDeepLinkInfo.md)  
+[$MadelineProto->help->getDeepLinkInfo](/API_docs/methods/help.getDeepLinkInfo.md)  
 
 
 
-[help.deepLinkInfoEmpty](../constructors/help.deepLinkInfoEmpty.md)  
+[help.deepLinkInfoEmpty](/API_docs/constructors/help.deepLinkInfoEmpty.md)  
 
-[help.deepLinkInfo](../constructors/help.deepLinkInfo.md)  
+[help.deepLinkInfo](/API_docs/constructors/help.deepLinkInfo.md)  
 
-[$MadelineProto->help->getDeepLinkInfo](../methods/help.getDeepLinkInfo.md)  
+[$MadelineProto->help->getDeepLinkInfo](/API_docs/methods/help.getDeepLinkInfo.md)  
 

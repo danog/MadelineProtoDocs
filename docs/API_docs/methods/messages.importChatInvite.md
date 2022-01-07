@@ -17,10 +17,10 @@ Import a chat invite and join a private chat/supergroup/channel
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[string](../types/string.md) | `hash` from `t.me/joinchat/hash` | Yes|
+|hash|[string](/API_docs/types/string.md) | `hash` from `t.me/joinchat/hash` | Yes|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

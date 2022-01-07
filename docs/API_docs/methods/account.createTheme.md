@@ -17,13 +17,13 @@ Create a theme
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|slug|[string](../types/string.md) | Unique theme ID | Yes|
-|title|[string](../types/string.md) | Theme name | Yes|
-|document|[MessageMedia, Update, Message or InputDocument](../types/InputDocument.md) | Theme file | Optional|
-|settings|Array of [InputThemeSettings](../types/InputThemeSettings.md) |  | Optional|
+|slug|[string](/API_docs/types/string.md) | Unique theme ID | Yes|
+|title|[string](/API_docs/types/string.md) | Theme name | Yes|
+|document|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.md) | Theme file | Optional|
+|settings|Array of [InputThemeSettings](/API_docs/types/InputThemeSettings.md) |  | Optional|
 
 
-### Return type: [Theme](../types/Theme.md)
+### Return type: [Theme](/API_docs/types/Theme.md)
 
 ### Can bots use this method: **NO**
 

@@ -17,12 +17,12 @@ Install/uninstall wallpaper
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|wallpaper|[InputWallPaper](../types/InputWallPaper.md) | Wallpaper to save | Yes|
-|unsave|[Bool](../types/Bool.md) | Uninstall wallpaper? | Yes|
-|settings|[WallPaperSettings](../types/WallPaperSettings.md) | Wallpaper settings | Yes|
+|wallpaper|[InputWallPaper](/API_docs/types/InputWallPaper.md) | Wallpaper to save | Yes|
+|unsave|[Bool](/API_docs/types/Bool.md) | Uninstall wallpaper? | Yes|
+|settings|[WallPaperSettings](/API_docs/types/WallPaperSettings.md) | Wallpaper settings | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

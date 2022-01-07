@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[phoneCallProtocol](../constructors/phoneCallProtocol.md)  
+[phoneCallProtocol](/API_docs/constructors/phoneCallProtocol.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[phoneCallProtocol](../constructors/phoneCallProtocol.md)  
+[phoneCallProtocol](/API_docs/constructors/phoneCallProtocol.md)  
 

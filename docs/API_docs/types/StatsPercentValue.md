@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[statsPercentValue](../constructors/statsPercentValue.md)  
+[statsPercentValue](/API_docs/constructors/statsPercentValue.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[statsPercentValue](../constructors/statsPercentValue.md)  
+[statsPercentValue](/API_docs/constructors/statsPercentValue.md)  
 

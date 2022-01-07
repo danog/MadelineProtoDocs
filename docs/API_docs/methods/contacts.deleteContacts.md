@@ -17,10 +17,10 @@ Deletes several contacts from the list.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | User ID list | Yes|
+|id|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | User ID list | Yes|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

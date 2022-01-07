@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaUploadedDocument  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,18 +15,18 @@ New document
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|nosound\_video|[Bool](../types/Bool.md) | Optional|Whether the specified document is a video file with no audio tracks (a GIF animation (even as MPEG4), for example)|
-|force\_file|[Bool](../types/Bool.md) | Optional|Force the media file to be uploaded as document|
-|file|[File path or InputFile](../types/InputFile.md) | Yes|The [uploaded file](https://core.telegram.org/api/files)|
-|thumb|[File path or InputFile](../types/InputFile.md) | Optional|Thumbnail of the document, uploaded as for the file|
-|mime\_type|[string](../types/string.md) | Optional|MIME type of document|
-|attributes|Array of [DocumentAttribute](../types/DocumentAttribute.md) | Yes|Attributes that specify the type of the document (video, audio, voice, sticker, etc.)|
-|stickers|Array of [MessageMedia, Message, Update or InputDocument](../types/InputDocument.md) | Optional|Attached stickers|
-|ttl\_seconds|[int](../types/int.md) | Optional|Time to live in seconds of self-destructing document|
+|nosound\_video|[Bool](/API_docs/types/Bool.md) | Optional|Whether the specified document is a video file with no audio tracks (a GIF animation (even as MPEG4), for example)|
+|force\_file|[Bool](/API_docs/types/Bool.md) | Optional|Force the media file to be uploaded as document|
+|file|[File path or InputFile](/API_docs/types/InputFile.md) | Yes|The [uploaded file](https://core.telegram.org/api/files)|
+|thumb|[File path or InputFile](/API_docs/types/InputFile.md) | Optional|Thumbnail of the document, uploaded as for the file|
+|mime\_type|[string](/API_docs/types/string.md) | Optional|MIME type of document|
+|attributes|Array of [DocumentAttribute](/API_docs/types/DocumentAttribute.md) | Yes|Attributes that specify the type of the document (video, audio, voice, sticker, etc.)|
+|stickers|Array of [MessageMedia, Message, Update or InputDocument](/API_docs/types/InputDocument.md) | Optional|Attached stickers|
+|ttl\_seconds|[int](/API_docs/types/int.md) | Optional|Time to live in seconds of self-destructing document|
 
 
 
-### Type: [InputMedia](../types/InputMedia.md)
+### Type: [InputMedia](/API_docs/types/InputMedia.md)
 
 
 ### Example:

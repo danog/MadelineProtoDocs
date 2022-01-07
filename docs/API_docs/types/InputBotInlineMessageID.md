@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputBotInlineMessageID](../constructors/inputBotInlineMessageID.md)  
+[inputBotInlineMessageID](/API_docs/constructors/inputBotInlineMessageID.md)  
 
-[inputBotInlineMessageID64](../constructors/inputBotInlineMessageID64.md)  
+[inputBotInlineMessageID64](/API_docs/constructors/inputBotInlineMessageID64.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputBotInlineMessageID](../constructors/inputBotInlineMessageID.md)  
+[inputBotInlineMessageID](/API_docs/constructors/inputBotInlineMessageID.md)  
 
-[inputBotInlineMessageID64](../constructors/inputBotInlineMessageID64.md)  
+[inputBotInlineMessageID64](/API_docs/constructors/inputBotInlineMessageID64.md)  
 

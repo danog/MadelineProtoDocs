@@ -16,11 +16,11 @@ Invoke the specified query using the specified API [layer](https://core.telegram
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|layer|[int](../types/int.md) | The layer to use | Yes|
-|query|[!X](../types/!X.md) | The query | Yes|
+|layer|[int](/API_docs/types/int.md) | The layer to use | Yes|
+|query|[!X](/API_docs/types/!X.md) | The query | Yes|
 
 
-### Return type: [X](../types/X.md)
+### Return type: [X](/API_docs/types/X.md)
 
 ### Can bots use this method: **YES**
 

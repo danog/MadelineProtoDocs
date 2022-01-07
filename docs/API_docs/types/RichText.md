@@ -11,37 +11,37 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[textEmpty](../constructors/textEmpty.md)  
+[textEmpty](/API_docs/constructors/textEmpty.md)  
 
-[textPlain](../constructors/textPlain.md)  
+[textPlain](/API_docs/constructors/textPlain.md)  
 
-[textBold](../constructors/textBold.md)  
+[textBold](/API_docs/constructors/textBold.md)  
 
-[textItalic](../constructors/textItalic.md)  
+[textItalic](/API_docs/constructors/textItalic.md)  
 
-[textUnderline](../constructors/textUnderline.md)  
+[textUnderline](/API_docs/constructors/textUnderline.md)  
 
-[textStrike](../constructors/textStrike.md)  
+[textStrike](/API_docs/constructors/textStrike.md)  
 
-[textFixed](../constructors/textFixed.md)  
+[textFixed](/API_docs/constructors/textFixed.md)  
 
-[textUrl](../constructors/textUrl.md)  
+[textUrl](/API_docs/constructors/textUrl.md)  
 
-[textEmail](../constructors/textEmail.md)  
+[textEmail](/API_docs/constructors/textEmail.md)  
 
-[textConcat](../constructors/textConcat.md)  
+[textConcat](/API_docs/constructors/textConcat.md)  
 
-[textSubscript](../constructors/textSubscript.md)  
+[textSubscript](/API_docs/constructors/textSubscript.md)  
 
-[textSuperscript](../constructors/textSuperscript.md)  
+[textSuperscript](/API_docs/constructors/textSuperscript.md)  
 
-[textMarked](../constructors/textMarked.md)  
+[textMarked](/API_docs/constructors/textMarked.md)  
 
-[textPhone](../constructors/textPhone.md)  
+[textPhone](/API_docs/constructors/textPhone.md)  
 
-[textImage](../constructors/textImage.md)  
+[textImage](/API_docs/constructors/textImage.md)  
 
-[textAnchor](../constructors/textAnchor.md)  
+[textAnchor](/API_docs/constructors/textAnchor.md)  
 
 
 
@@ -49,35 +49,35 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[textEmpty](../constructors/textEmpty.md)  
+[textEmpty](/API_docs/constructors/textEmpty.md)  
 
-[textPlain](../constructors/textPlain.md)  
+[textPlain](/API_docs/constructors/textPlain.md)  
 
-[textBold](../constructors/textBold.md)  
+[textBold](/API_docs/constructors/textBold.md)  
 
-[textItalic](../constructors/textItalic.md)  
+[textItalic](/API_docs/constructors/textItalic.md)  
 
-[textUnderline](../constructors/textUnderline.md)  
+[textUnderline](/API_docs/constructors/textUnderline.md)  
 
-[textStrike](../constructors/textStrike.md)  
+[textStrike](/API_docs/constructors/textStrike.md)  
 
-[textFixed](../constructors/textFixed.md)  
+[textFixed](/API_docs/constructors/textFixed.md)  
 
-[textUrl](../constructors/textUrl.md)  
+[textUrl](/API_docs/constructors/textUrl.md)  
 
-[textEmail](../constructors/textEmail.md)  
+[textEmail](/API_docs/constructors/textEmail.md)  
 
-[textConcat](../constructors/textConcat.md)  
+[textConcat](/API_docs/constructors/textConcat.md)  
 
-[textSubscript](../constructors/textSubscript.md)  
+[textSubscript](/API_docs/constructors/textSubscript.md)  
 
-[textSuperscript](../constructors/textSuperscript.md)  
+[textSuperscript](/API_docs/constructors/textSuperscript.md)  
 
-[textMarked](../constructors/textMarked.md)  
+[textMarked](/API_docs/constructors/textMarked.md)  
 
-[textPhone](../constructors/textPhone.md)  
+[textPhone](/API_docs/constructors/textPhone.md)  
 
-[textImage](../constructors/textImage.md)  
+[textImage](/API_docs/constructors/textImage.md)  
 
-[textAnchor](../constructors/textAnchor.md)  
+[textAnchor](/API_docs/constructors/textAnchor.md)  
 

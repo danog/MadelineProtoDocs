@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: exportedMessageLink  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ Link to a message in a supergroup/channel
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|link|[string](../types/string.md) | Yes|URL|
-|html|[string](../types/string.md) | Yes|Embed code|
+|link|[string](/API_docs/types/string.md) | Yes|URL|
+|html|[string](/API_docs/types/string.md) | Yes|Embed code|
 
 
 
-### Type: [ExportedMessageLink](../types/ExportedMessageLink.md)
+### Type: [ExportedMessageLink](/API_docs/types/ExportedMessageLink.md)
 
 
 ### Example:

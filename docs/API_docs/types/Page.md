@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[page](../constructors/page.md)  
+[page](/API_docs/constructors/page.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[page](../constructors/page.md)  
+[page](/API_docs/constructors/page.md)  
 

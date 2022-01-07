@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[jsonObjectValue](../constructors/jsonObjectValue.md)  
+[jsonObjectValue](/API_docs/constructors/jsonObjectValue.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[jsonObjectValue](../constructors/jsonObjectValue.md)  
+[jsonObjectValue](/API_docs/constructors/jsonObjectValue.md)  
 

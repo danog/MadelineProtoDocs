@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaVenue  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,16 +15,16 @@ Venue
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|geo|[GeoPoint](../types/GeoPoint.md) | Optional|Geolocation of venue|
-|title|[string](../types/string.md) | Yes|Venue name|
-|address|[string](../types/string.md) | Yes|Address|
-|provider|[string](../types/string.md) | Yes|Venue provider: currently only "foursquare" needs to be supported|
-|venue\_id|[string](../types/string.md) | Yes|Venue ID in the provider's database|
-|venue\_type|[string](../types/string.md) | Yes|Venue type in the provider's database|
+|geo|[GeoPoint](/API_docs/types/GeoPoint.md) | Optional|Geolocation of venue|
+|title|[string](/API_docs/types/string.md) | Yes|Venue name|
+|address|[string](/API_docs/types/string.md) | Yes|Address|
+|provider|[string](/API_docs/types/string.md) | Yes|Venue provider: currently only "foursquare" needs to be supported|
+|venue\_id|[string](/API_docs/types/string.md) | Yes|Venue ID in the provider's database|
+|venue\_type|[string](/API_docs/types/string.md) | Yes|Venue type in the provider's database|
 
 
 
-### Type: [MessageMedia](../types/MessageMedia.md)
+### Type: [MessageMedia](/API_docs/types/MessageMedia.md)
 
 
 ### Example:

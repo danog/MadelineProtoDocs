@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/contacts_ImportedContacts.html
 
 ### Possible values (constructors):
 
-[contacts.importedContacts](../constructors/contacts.importedContacts.md)  
+[contacts.importedContacts](/API_docs/constructors/contacts.importedContacts.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->contacts->importContacts](../methods/contacts.importContacts.md)  
+[$MadelineProto->contacts->importContacts](/API_docs/methods/contacts.importContacts.md)  
 
 
 
-[contacts.importedContacts](../constructors/contacts.importedContacts.md)  
+[contacts.importedContacts](/API_docs/constructors/contacts.importedContacts.md)  
 
-[$MadelineProto->contacts->importContacts](../methods/contacts.importContacts.md)  
+[$MadelineProto->contacts->importContacts](/API_docs/methods/contacts.importContacts.md)  
 

@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_support.html
 ---
 # Constructor: help.support  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,12 +16,12 @@ Info on support user.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|phone\_number|[string](../types/string.md) | Yes|Phone number|
-|user|[User](../types/User.md) | Optional|User|
+|phone\_number|[string](/API_docs/types/string.md) | Yes|Phone number|
+|user|[User](/API_docs/types/User.md) | Optional|User|
 
 
 
-### Type: [help.Support](../types/help.Support.md)
+### Type: [help.Support](/API_docs/types/help.Support.md)
 
 
 ### Example:

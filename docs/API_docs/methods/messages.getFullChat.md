@@ -17,10 +17,10 @@ You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo me
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
+|chat\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) |  | Optional|
 
 
-### Return type: [messages.ChatFull](../types/messages.ChatFull.md)
+### Return type: [messages.ChatFull](/API_docs/types/messages.ChatFull.md)
 
 ### Can bots use this method: **YES**
 

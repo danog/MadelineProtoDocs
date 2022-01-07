@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValue  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,19 +15,19 @@ Secure value
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|type|[SecureValueType](../types/SecureValueType.md) | Yes|Secure [passport](https://core.telegram.org/passport) value type|
-|data|[SecureData](../types/SecureData.md) | Optional|Encrypted [Telegram Passport](https://core.telegram.org/passport) element data|
-|front\_side|[SecureFile](../types/SecureFile.md) | Optional|Encrypted [passport](https://core.telegram.org/passport) file with the front side of the document|
-|reverse\_side|[SecureFile](../types/SecureFile.md) | Optional|Encrypted [passport](https://core.telegram.org/passport) file with the reverse side of the document|
-|selfie|[SecureFile](../types/SecureFile.md) | Optional|Encrypted [passport](https://core.telegram.org/passport) file with a selfie of the user holding the document|
-|translation|Array of [SecureFile](../types/SecureFile.md) | Optional|Array of encrypted [passport](https://core.telegram.org/passport) files with translated versions of the provided documents|
-|files|Array of [SecureFile](../types/SecureFile.md) | Optional|Array of encrypted [passport](https://core.telegram.org/passport) files with photos the of the documents|
-|plain\_data|[SecurePlainData](../types/SecurePlainData.md) | Optional|Plaintext verified [passport](https://core.telegram.org/passport) data|
-|hash|[bytes](../types/bytes.md) | Yes|Data hash|
+|type|[SecureValueType](/API_docs/types/SecureValueType.md) | Yes|Secure [passport](https://core.telegram.org/passport) value type|
+|data|[SecureData](/API_docs/types/SecureData.md) | Optional|Encrypted [Telegram Passport](https://core.telegram.org/passport) element data|
+|front\_side|[SecureFile](/API_docs/types/SecureFile.md) | Optional|Encrypted [passport](https://core.telegram.org/passport) file with the front side of the document|
+|reverse\_side|[SecureFile](/API_docs/types/SecureFile.md) | Optional|Encrypted [passport](https://core.telegram.org/passport) file with the reverse side of the document|
+|selfie|[SecureFile](/API_docs/types/SecureFile.md) | Optional|Encrypted [passport](https://core.telegram.org/passport) file with a selfie of the user holding the document|
+|translation|Array of [SecureFile](/API_docs/types/SecureFile.md) | Optional|Array of encrypted [passport](https://core.telegram.org/passport) files with translated versions of the provided documents|
+|files|Array of [SecureFile](/API_docs/types/SecureFile.md) | Optional|Array of encrypted [passport](https://core.telegram.org/passport) files with photos the of the documents|
+|plain\_data|[SecurePlainData](/API_docs/types/SecurePlainData.md) | Optional|Plaintext verified [passport](https://core.telegram.org/passport) data|
+|hash|[bytes](/API_docs/types/bytes.md) | Yes|Data hash|
 
 
 
-### Type: [SecureValue](../types/SecureValue.md)
+### Type: [SecureValue](/API_docs/types/SecureValue.md)
 
 
 ### Example:

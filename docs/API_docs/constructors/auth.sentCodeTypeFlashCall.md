@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/auth_sentCodeTypeFlashCall.html
 ---
 # Constructor: auth.sentCodeTypeFlashCall  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,11 +16,11 @@ The code will be sent via a flash phone call, that will be closed immediately. T
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|pattern|[string](../types/string.md) | Yes|[pattern](https://core.telegram.org/api/pattern) to match|
+|pattern|[string](/API_docs/types/string.md) | Yes|[pattern](https://core.telegram.org/api/pattern) to match|
 
 
 
-### Type: [auth.SentCodeType](../types/auth.SentCodeType.md)
+### Type: [auth.SentCodeType](/API_docs/types/auth.SentCodeType.md)
 
 
 ### Example:

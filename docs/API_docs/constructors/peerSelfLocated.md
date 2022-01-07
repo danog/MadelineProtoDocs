@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: peerSelfLocated  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Current peer
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|expires|[int](../types/int.md) | Yes|Expiry of geolocation info for current peer|
+|expires|[int](/API_docs/types/int.md) | Yes|Expiry of geolocation info for current peer|
 
 
 
-### Type: [PeerLocated](../types/PeerLocated.md)
+### Type: [PeerLocated](/API_docs/types/PeerLocated.md)
 
 
 ### Example:

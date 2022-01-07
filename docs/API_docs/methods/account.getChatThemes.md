@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/account_getChatThemes.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|hash|[long](../types/long.md) | Yes|
+|hash|[long](/API_docs/types/long.md) | Yes|
 
 
-### Return type: [account.Themes](../types/account.Themes.md)
+### Return type: [account.Themes](/API_docs/types/account.Themes.md)
 
 ### Can bots use this method: **NO**
 

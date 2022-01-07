@@ -11,77 +11,77 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[channelAdminLogEventActionChangeTitle](../constructors/channelAdminLogEventActionChangeTitle.md)  
+[channelAdminLogEventActionChangeTitle](/API_docs/constructors/channelAdminLogEventActionChangeTitle.md)  
 
-[channelAdminLogEventActionChangeAbout](../constructors/channelAdminLogEventActionChangeAbout.md)  
+[channelAdminLogEventActionChangeAbout](/API_docs/constructors/channelAdminLogEventActionChangeAbout.md)  
 
-[channelAdminLogEventActionChangeUsername](../constructors/channelAdminLogEventActionChangeUsername.md)  
+[channelAdminLogEventActionChangeUsername](/API_docs/constructors/channelAdminLogEventActionChangeUsername.md)  
 
-[channelAdminLogEventActionChangePhoto](../constructors/channelAdminLogEventActionChangePhoto.md)  
+[channelAdminLogEventActionChangePhoto](/API_docs/constructors/channelAdminLogEventActionChangePhoto.md)  
 
-[channelAdminLogEventActionToggleInvites](../constructors/channelAdminLogEventActionToggleInvites.md)  
+[channelAdminLogEventActionToggleInvites](/API_docs/constructors/channelAdminLogEventActionToggleInvites.md)  
 
-[channelAdminLogEventActionToggleSignatures](../constructors/channelAdminLogEventActionToggleSignatures.md)  
+[channelAdminLogEventActionToggleSignatures](/API_docs/constructors/channelAdminLogEventActionToggleSignatures.md)  
 
-[channelAdminLogEventActionUpdatePinned](../constructors/channelAdminLogEventActionUpdatePinned.md)  
+[channelAdminLogEventActionUpdatePinned](/API_docs/constructors/channelAdminLogEventActionUpdatePinned.md)  
 
-[channelAdminLogEventActionEditMessage](../constructors/channelAdminLogEventActionEditMessage.md)  
+[channelAdminLogEventActionEditMessage](/API_docs/constructors/channelAdminLogEventActionEditMessage.md)  
 
-[channelAdminLogEventActionDeleteMessage](../constructors/channelAdminLogEventActionDeleteMessage.md)  
+[channelAdminLogEventActionDeleteMessage](/API_docs/constructors/channelAdminLogEventActionDeleteMessage.md)  
 
-[channelAdminLogEventActionParticipantJoin](../constructors/channelAdminLogEventActionParticipantJoin.md)  
+[channelAdminLogEventActionParticipantJoin](/API_docs/constructors/channelAdminLogEventActionParticipantJoin.md)  
 
-[channelAdminLogEventActionParticipantLeave](../constructors/channelAdminLogEventActionParticipantLeave.md)  
+[channelAdminLogEventActionParticipantLeave](/API_docs/constructors/channelAdminLogEventActionParticipantLeave.md)  
 
-[channelAdminLogEventActionParticipantInvite](../constructors/channelAdminLogEventActionParticipantInvite.md)  
+[channelAdminLogEventActionParticipantInvite](/API_docs/constructors/channelAdminLogEventActionParticipantInvite.md)  
 
-[channelAdminLogEventActionParticipantToggleBan](../constructors/channelAdminLogEventActionParticipantToggleBan.md)  
+[channelAdminLogEventActionParticipantToggleBan](/API_docs/constructors/channelAdminLogEventActionParticipantToggleBan.md)  
 
-[channelAdminLogEventActionParticipantToggleAdmin](../constructors/channelAdminLogEventActionParticipantToggleAdmin.md)  
+[channelAdminLogEventActionParticipantToggleAdmin](/API_docs/constructors/channelAdminLogEventActionParticipantToggleAdmin.md)  
 
-[channelAdminLogEventActionChangeStickerSet](../constructors/channelAdminLogEventActionChangeStickerSet.md)  
+[channelAdminLogEventActionChangeStickerSet](/API_docs/constructors/channelAdminLogEventActionChangeStickerSet.md)  
 
-[channelAdminLogEventActionTogglePreHistoryHidden](../constructors/channelAdminLogEventActionTogglePreHistoryHidden.md)  
+[channelAdminLogEventActionTogglePreHistoryHidden](/API_docs/constructors/channelAdminLogEventActionTogglePreHistoryHidden.md)  
 
-[channelAdminLogEventActionDefaultBannedRights](../constructors/channelAdminLogEventActionDefaultBannedRights.md)  
+[channelAdminLogEventActionDefaultBannedRights](/API_docs/constructors/channelAdminLogEventActionDefaultBannedRights.md)  
 
-[channelAdminLogEventActionStopPoll](../constructors/channelAdminLogEventActionStopPoll.md)  
+[channelAdminLogEventActionStopPoll](/API_docs/constructors/channelAdminLogEventActionStopPoll.md)  
 
-[channelAdminLogEventActionChangeLinkedChat](../constructors/channelAdminLogEventActionChangeLinkedChat.md)  
+[channelAdminLogEventActionChangeLinkedChat](/API_docs/constructors/channelAdminLogEventActionChangeLinkedChat.md)  
 
-[channelAdminLogEventActionChangeLocation](../constructors/channelAdminLogEventActionChangeLocation.md)  
+[channelAdminLogEventActionChangeLocation](/API_docs/constructors/channelAdminLogEventActionChangeLocation.md)  
 
-[channelAdminLogEventActionToggleSlowMode](../constructors/channelAdminLogEventActionToggleSlowMode.md)  
+[channelAdminLogEventActionToggleSlowMode](/API_docs/constructors/channelAdminLogEventActionToggleSlowMode.md)  
 
-[channelAdminLogEventActionStartGroupCall](../constructors/channelAdminLogEventActionStartGroupCall.md)  
+[channelAdminLogEventActionStartGroupCall](/API_docs/constructors/channelAdminLogEventActionStartGroupCall.md)  
 
-[channelAdminLogEventActionDiscardGroupCall](../constructors/channelAdminLogEventActionDiscardGroupCall.md)  
+[channelAdminLogEventActionDiscardGroupCall](/API_docs/constructors/channelAdminLogEventActionDiscardGroupCall.md)  
 
-[channelAdminLogEventActionParticipantMute](../constructors/channelAdminLogEventActionParticipantMute.md)  
+[channelAdminLogEventActionParticipantMute](/API_docs/constructors/channelAdminLogEventActionParticipantMute.md)  
 
-[channelAdminLogEventActionParticipantUnmute](../constructors/channelAdminLogEventActionParticipantUnmute.md)  
+[channelAdminLogEventActionParticipantUnmute](/API_docs/constructors/channelAdminLogEventActionParticipantUnmute.md)  
 
-[channelAdminLogEventActionToggleGroupCallSetting](../constructors/channelAdminLogEventActionToggleGroupCallSetting.md)  
+[channelAdminLogEventActionToggleGroupCallSetting](/API_docs/constructors/channelAdminLogEventActionToggleGroupCallSetting.md)  
 
-[channelAdminLogEventActionParticipantJoinByInvite](../constructors/channelAdminLogEventActionParticipantJoinByInvite.md)  
+[channelAdminLogEventActionParticipantJoinByInvite](/API_docs/constructors/channelAdminLogEventActionParticipantJoinByInvite.md)  
 
-[channelAdminLogEventActionExportedInviteDelete](../constructors/channelAdminLogEventActionExportedInviteDelete.md)  
+[channelAdminLogEventActionExportedInviteDelete](/API_docs/constructors/channelAdminLogEventActionExportedInviteDelete.md)  
 
-[channelAdminLogEventActionExportedInviteRevoke](../constructors/channelAdminLogEventActionExportedInviteRevoke.md)  
+[channelAdminLogEventActionExportedInviteRevoke](/API_docs/constructors/channelAdminLogEventActionExportedInviteRevoke.md)  
 
-[channelAdminLogEventActionExportedInviteEdit](../constructors/channelAdminLogEventActionExportedInviteEdit.md)  
+[channelAdminLogEventActionExportedInviteEdit](/API_docs/constructors/channelAdminLogEventActionExportedInviteEdit.md)  
 
-[channelAdminLogEventActionParticipantVolume](../constructors/channelAdminLogEventActionParticipantVolume.md)  
+[channelAdminLogEventActionParticipantVolume](/API_docs/constructors/channelAdminLogEventActionParticipantVolume.md)  
 
-[channelAdminLogEventActionChangeHistoryTTL](../constructors/channelAdminLogEventActionChangeHistoryTTL.md)  
+[channelAdminLogEventActionChangeHistoryTTL](/API_docs/constructors/channelAdminLogEventActionChangeHistoryTTL.md)  
 
-[channelAdminLogEventActionParticipantJoinByRequest](../constructors/channelAdminLogEventActionParticipantJoinByRequest.md)  
+[channelAdminLogEventActionParticipantJoinByRequest](/API_docs/constructors/channelAdminLogEventActionParticipantJoinByRequest.md)  
 
-[channelAdminLogEventActionToggleNoForwards](../constructors/channelAdminLogEventActionToggleNoForwards.md)  
+[channelAdminLogEventActionToggleNoForwards](/API_docs/constructors/channelAdminLogEventActionToggleNoForwards.md)  
 
-[channelAdminLogEventActionSendMessage](../constructors/channelAdminLogEventActionSendMessage.md)  
+[channelAdminLogEventActionSendMessage](/API_docs/constructors/channelAdminLogEventActionSendMessage.md)  
 
-[channelAdminLogEventActionChangeAvailableReactions](../constructors/channelAdminLogEventActionChangeAvailableReactions.md)  
+[channelAdminLogEventActionChangeAvailableReactions](/API_docs/constructors/channelAdminLogEventActionChangeAvailableReactions.md)  
 
 
 
@@ -89,75 +89,75 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[channelAdminLogEventActionChangeTitle](../constructors/channelAdminLogEventActionChangeTitle.md)  
+[channelAdminLogEventActionChangeTitle](/API_docs/constructors/channelAdminLogEventActionChangeTitle.md)  
 
-[channelAdminLogEventActionChangeAbout](../constructors/channelAdminLogEventActionChangeAbout.md)  
+[channelAdminLogEventActionChangeAbout](/API_docs/constructors/channelAdminLogEventActionChangeAbout.md)  
 
-[channelAdminLogEventActionChangeUsername](../constructors/channelAdminLogEventActionChangeUsername.md)  
+[channelAdminLogEventActionChangeUsername](/API_docs/constructors/channelAdminLogEventActionChangeUsername.md)  
 
-[channelAdminLogEventActionChangePhoto](../constructors/channelAdminLogEventActionChangePhoto.md)  
+[channelAdminLogEventActionChangePhoto](/API_docs/constructors/channelAdminLogEventActionChangePhoto.md)  
 
-[channelAdminLogEventActionToggleInvites](../constructors/channelAdminLogEventActionToggleInvites.md)  
+[channelAdminLogEventActionToggleInvites](/API_docs/constructors/channelAdminLogEventActionToggleInvites.md)  
 
-[channelAdminLogEventActionToggleSignatures](../constructors/channelAdminLogEventActionToggleSignatures.md)  
+[channelAdminLogEventActionToggleSignatures](/API_docs/constructors/channelAdminLogEventActionToggleSignatures.md)  
 
-[channelAdminLogEventActionUpdatePinned](../constructors/channelAdminLogEventActionUpdatePinned.md)  
+[channelAdminLogEventActionUpdatePinned](/API_docs/constructors/channelAdminLogEventActionUpdatePinned.md)  
 
-[channelAdminLogEventActionEditMessage](../constructors/channelAdminLogEventActionEditMessage.md)  
+[channelAdminLogEventActionEditMessage](/API_docs/constructors/channelAdminLogEventActionEditMessage.md)  
 
-[channelAdminLogEventActionDeleteMessage](../constructors/channelAdminLogEventActionDeleteMessage.md)  
+[channelAdminLogEventActionDeleteMessage](/API_docs/constructors/channelAdminLogEventActionDeleteMessage.md)  
 
-[channelAdminLogEventActionParticipantJoin](../constructors/channelAdminLogEventActionParticipantJoin.md)  
+[channelAdminLogEventActionParticipantJoin](/API_docs/constructors/channelAdminLogEventActionParticipantJoin.md)  
 
-[channelAdminLogEventActionParticipantLeave](../constructors/channelAdminLogEventActionParticipantLeave.md)  
+[channelAdminLogEventActionParticipantLeave](/API_docs/constructors/channelAdminLogEventActionParticipantLeave.md)  
 
-[channelAdminLogEventActionParticipantInvite](../constructors/channelAdminLogEventActionParticipantInvite.md)  
+[channelAdminLogEventActionParticipantInvite](/API_docs/constructors/channelAdminLogEventActionParticipantInvite.md)  
 
-[channelAdminLogEventActionParticipantToggleBan](../constructors/channelAdminLogEventActionParticipantToggleBan.md)  
+[channelAdminLogEventActionParticipantToggleBan](/API_docs/constructors/channelAdminLogEventActionParticipantToggleBan.md)  
 
-[channelAdminLogEventActionParticipantToggleAdmin](../constructors/channelAdminLogEventActionParticipantToggleAdmin.md)  
+[channelAdminLogEventActionParticipantToggleAdmin](/API_docs/constructors/channelAdminLogEventActionParticipantToggleAdmin.md)  
 
-[channelAdminLogEventActionChangeStickerSet](../constructors/channelAdminLogEventActionChangeStickerSet.md)  
+[channelAdminLogEventActionChangeStickerSet](/API_docs/constructors/channelAdminLogEventActionChangeStickerSet.md)  
 
-[channelAdminLogEventActionTogglePreHistoryHidden](../constructors/channelAdminLogEventActionTogglePreHistoryHidden.md)  
+[channelAdminLogEventActionTogglePreHistoryHidden](/API_docs/constructors/channelAdminLogEventActionTogglePreHistoryHidden.md)  
 
-[channelAdminLogEventActionDefaultBannedRights](../constructors/channelAdminLogEventActionDefaultBannedRights.md)  
+[channelAdminLogEventActionDefaultBannedRights](/API_docs/constructors/channelAdminLogEventActionDefaultBannedRights.md)  
 
-[channelAdminLogEventActionStopPoll](../constructors/channelAdminLogEventActionStopPoll.md)  
+[channelAdminLogEventActionStopPoll](/API_docs/constructors/channelAdminLogEventActionStopPoll.md)  
 
-[channelAdminLogEventActionChangeLinkedChat](../constructors/channelAdminLogEventActionChangeLinkedChat.md)  
+[channelAdminLogEventActionChangeLinkedChat](/API_docs/constructors/channelAdminLogEventActionChangeLinkedChat.md)  
 
-[channelAdminLogEventActionChangeLocation](../constructors/channelAdminLogEventActionChangeLocation.md)  
+[channelAdminLogEventActionChangeLocation](/API_docs/constructors/channelAdminLogEventActionChangeLocation.md)  
 
-[channelAdminLogEventActionToggleSlowMode](../constructors/channelAdminLogEventActionToggleSlowMode.md)  
+[channelAdminLogEventActionToggleSlowMode](/API_docs/constructors/channelAdminLogEventActionToggleSlowMode.md)  
 
-[channelAdminLogEventActionStartGroupCall](../constructors/channelAdminLogEventActionStartGroupCall.md)  
+[channelAdminLogEventActionStartGroupCall](/API_docs/constructors/channelAdminLogEventActionStartGroupCall.md)  
 
-[channelAdminLogEventActionDiscardGroupCall](../constructors/channelAdminLogEventActionDiscardGroupCall.md)  
+[channelAdminLogEventActionDiscardGroupCall](/API_docs/constructors/channelAdminLogEventActionDiscardGroupCall.md)  
 
-[channelAdminLogEventActionParticipantMute](../constructors/channelAdminLogEventActionParticipantMute.md)  
+[channelAdminLogEventActionParticipantMute](/API_docs/constructors/channelAdminLogEventActionParticipantMute.md)  
 
-[channelAdminLogEventActionParticipantUnmute](../constructors/channelAdminLogEventActionParticipantUnmute.md)  
+[channelAdminLogEventActionParticipantUnmute](/API_docs/constructors/channelAdminLogEventActionParticipantUnmute.md)  
 
-[channelAdminLogEventActionToggleGroupCallSetting](../constructors/channelAdminLogEventActionToggleGroupCallSetting.md)  
+[channelAdminLogEventActionToggleGroupCallSetting](/API_docs/constructors/channelAdminLogEventActionToggleGroupCallSetting.md)  
 
-[channelAdminLogEventActionParticipantJoinByInvite](../constructors/channelAdminLogEventActionParticipantJoinByInvite.md)  
+[channelAdminLogEventActionParticipantJoinByInvite](/API_docs/constructors/channelAdminLogEventActionParticipantJoinByInvite.md)  
 
-[channelAdminLogEventActionExportedInviteDelete](../constructors/channelAdminLogEventActionExportedInviteDelete.md)  
+[channelAdminLogEventActionExportedInviteDelete](/API_docs/constructors/channelAdminLogEventActionExportedInviteDelete.md)  
 
-[channelAdminLogEventActionExportedInviteRevoke](../constructors/channelAdminLogEventActionExportedInviteRevoke.md)  
+[channelAdminLogEventActionExportedInviteRevoke](/API_docs/constructors/channelAdminLogEventActionExportedInviteRevoke.md)  
 
-[channelAdminLogEventActionExportedInviteEdit](../constructors/channelAdminLogEventActionExportedInviteEdit.md)  
+[channelAdminLogEventActionExportedInviteEdit](/API_docs/constructors/channelAdminLogEventActionExportedInviteEdit.md)  
 
-[channelAdminLogEventActionParticipantVolume](../constructors/channelAdminLogEventActionParticipantVolume.md)  
+[channelAdminLogEventActionParticipantVolume](/API_docs/constructors/channelAdminLogEventActionParticipantVolume.md)  
 
-[channelAdminLogEventActionChangeHistoryTTL](../constructors/channelAdminLogEventActionChangeHistoryTTL.md)  
+[channelAdminLogEventActionChangeHistoryTTL](/API_docs/constructors/channelAdminLogEventActionChangeHistoryTTL.md)  
 
-[channelAdminLogEventActionParticipantJoinByRequest](../constructors/channelAdminLogEventActionParticipantJoinByRequest.md)  
+[channelAdminLogEventActionParticipantJoinByRequest](/API_docs/constructors/channelAdminLogEventActionParticipantJoinByRequest.md)  
 
-[channelAdminLogEventActionToggleNoForwards](../constructors/channelAdminLogEventActionToggleNoForwards.md)  
+[channelAdminLogEventActionToggleNoForwards](/API_docs/constructors/channelAdminLogEventActionToggleNoForwards.md)  
 
-[channelAdminLogEventActionSendMessage](../constructors/channelAdminLogEventActionSendMessage.md)  
+[channelAdminLogEventActionSendMessage](/API_docs/constructors/channelAdminLogEventActionSendMessage.md)  
 
-[channelAdminLogEventActionChangeAvailableReactions](../constructors/channelAdminLogEventActionChangeAvailableReactions.md)  
+[channelAdminLogEventActionChangeAvailableReactions](/API_docs/constructors/channelAdminLogEventActionChangeAvailableReactions.md)  
 

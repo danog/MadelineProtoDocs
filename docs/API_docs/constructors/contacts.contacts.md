@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/contacts_contacts.html
 ---
 # Constructor: contacts.contacts  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,13 +16,13 @@ The current user's contact list and info on users.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|contacts|Array of [Contact](../types/Contact.md) | Yes|Contact list|
-|saved\_count|[int](../types/int.md) | Yes|Number of contacts that were saved successfully|
-|users|Array of [User](../types/User.md) | Yes|User list|
+|contacts|Array of [Contact](/API_docs/types/Contact.md) | Yes|Contact list|
+|saved\_count|[int](/API_docs/types/int.md) | Yes|Number of contacts that were saved successfully|
+|users|Array of [User](/API_docs/types/User.md) | Yes|User list|
 
 
 
-### Type: [contacts.Contacts](../types/contacts.Contacts.md)
+### Type: [contacts.Contacts](/API_docs/types/contacts.Contacts.md)
 
 
 ### Example:

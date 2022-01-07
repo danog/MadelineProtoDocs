@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_availableReactions.html
 ---
 # Constructor: messages.availableReactions  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,12 +14,12 @@ redirect_from: /API_docs/constructors/messages_availableReactions.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|hash|[int](../types/int.md) | Yes|
-|reactions|Array of [AvailableReaction](../types/AvailableReaction.md) | Yes|
+|hash|[int](/API_docs/types/int.md) | Yes|
+|reactions|Array of [AvailableReaction](/API_docs/types/AvailableReaction.md) | Yes|
 
 
 
-### Type: [messages.AvailableReactions](../types/messages.AvailableReactions.md)
+### Type: [messages.AvailableReactions](/API_docs/types/messages.AvailableReactions.md)
 
 
 ### Example:

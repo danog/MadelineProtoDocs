@@ -12,41 +12,41 @@ redirect_from: /API_docs/types/messages_StickerSet.html
 
 ### Possible values (constructors):
 
-[messages.stickerSet](../constructors/messages.stickerSet.md)  
+[messages.stickerSet](/API_docs/constructors/messages.stickerSet.md)  
 
-[messages.stickerSetNotModified](../constructors/messages.stickerSetNotModified.md)  
+[messages.stickerSetNotModified](/API_docs/constructors/messages.stickerSetNotModified.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getStickerSet](../methods/messages.getStickerSet.md)  
+[$MadelineProto->messages->getStickerSet](/API_docs/methods/messages.getStickerSet.md)  
 
-[$MadelineProto->stickers->createStickerSet](../methods/stickers.createStickerSet.md)  
+[$MadelineProto->stickers->createStickerSet](/API_docs/methods/stickers.createStickerSet.md)  
 
-[$MadelineProto->stickers->removeStickerFromSet](../methods/stickers.removeStickerFromSet.md)  
+[$MadelineProto->stickers->removeStickerFromSet](/API_docs/methods/stickers.removeStickerFromSet.md)  
 
-[$MadelineProto->stickers->changeStickerPosition](../methods/stickers.changeStickerPosition.md)  
+[$MadelineProto->stickers->changeStickerPosition](/API_docs/methods/stickers.changeStickerPosition.md)  
 
-[$MadelineProto->stickers->addStickerToSet](../methods/stickers.addStickerToSet.md)  
+[$MadelineProto->stickers->addStickerToSet](/API_docs/methods/stickers.addStickerToSet.md)  
 
-[$MadelineProto->stickers->setStickerSetThumb](../methods/stickers.setStickerSetThumb.md)  
+[$MadelineProto->stickers->setStickerSetThumb](/API_docs/methods/stickers.setStickerSetThumb.md)  
 
 
 
-[messages.stickerSet](../constructors/messages.stickerSet.md)  
+[messages.stickerSet](/API_docs/constructors/messages.stickerSet.md)  
 
-[messages.stickerSetNotModified](../constructors/messages.stickerSetNotModified.md)  
+[messages.stickerSetNotModified](/API_docs/constructors/messages.stickerSetNotModified.md)  
 
-[$MadelineProto->messages->getStickerSet](../methods/messages.getStickerSet.md)  
+[$MadelineProto->messages->getStickerSet](/API_docs/methods/messages.getStickerSet.md)  
 
-[$MadelineProto->stickers->createStickerSet](../methods/stickers.createStickerSet.md)  
+[$MadelineProto->stickers->createStickerSet](/API_docs/methods/stickers.createStickerSet.md)  
 
-[$MadelineProto->stickers->removeStickerFromSet](../methods/stickers.removeStickerFromSet.md)  
+[$MadelineProto->stickers->removeStickerFromSet](/API_docs/methods/stickers.removeStickerFromSet.md)  
 
-[$MadelineProto->stickers->changeStickerPosition](../methods/stickers.changeStickerPosition.md)  
+[$MadelineProto->stickers->changeStickerPosition](/API_docs/methods/stickers.changeStickerPosition.md)  
 
-[$MadelineProto->stickers->addStickerToSet](../methods/stickers.addStickerToSet.md)  
+[$MadelineProto->stickers->addStickerToSet](/API_docs/methods/stickers.addStickerToSet.md)  
 
-[$MadelineProto->stickers->setStickerSetThumb](../methods/stickers.setStickerSetThumb.md)  
+[$MadelineProto->stickers->setStickerSetThumb](/API_docs/methods/stickers.setStickerSetThumb.md)  
 

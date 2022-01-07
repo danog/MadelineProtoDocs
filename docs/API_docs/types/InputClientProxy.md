@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputClientProxy](../constructors/inputClientProxy.md)  
+[inputClientProxy](/API_docs/constructors/inputClientProxy.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputClientProxy](../constructors/inputClientProxy.md)  
+[inputClientProxy](/API_docs/constructors/inputClientProxy.md)  
 

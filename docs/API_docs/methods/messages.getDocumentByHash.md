@@ -17,12 +17,12 @@ Get a document by its SHA256 hash, mainly used for gifs
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|sha256|[bytes](../types/bytes.md) | SHA256 of file | Yes|
-|size|[int](../types/int.md) | Size of the file in bytes | Yes|
-|mime\_type|[string](../types/string.md) | Mime type | Yes|
+|sha256|[bytes](/API_docs/types/bytes.md) | SHA256 of file | Yes|
+|size|[int](/API_docs/types/int.md) | Size of the file in bytes | Yes|
+|mime\_type|[string](/API_docs/types/string.md) | Mime type | Yes|
 
 
-### Return type: [Document](../types/Document.md)
+### Return type: [Document](/API_docs/types/Document.md)
 
 ### Can bots use this method: **YES**
 

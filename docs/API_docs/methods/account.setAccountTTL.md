@@ -17,10 +17,10 @@ Set account self-destruction period
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|ttl|[AccountDaysTTL](../types/AccountDaysTTL.md) | Time to live in days | Yes|
+|ttl|[AccountDaysTTL](/API_docs/types/AccountDaysTTL.md) | Time to live in days | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: langPackLanguage  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,21 +15,21 @@ Identifies a localization pack
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|official|[Bool](../types/Bool.md) | Optional|Whether the language pack is official|
-|rtl|[Bool](../types/Bool.md) | Optional|Is this a localization pack for an RTL language|
-|beta|[Bool](../types/Bool.md) | Optional|Is this a beta localization pack?|
-|name|[string](../types/string.md) | Yes|Language name|
-|native\_name|[string](../types/string.md) | Yes|Language name in the language itself|
-|lang\_code|[string](../types/string.md) | Yes|Language code (pack identifier)|
-|base\_lang\_code|[string](../types/string.md) | Optional|Identifier of a base language pack; may be empty. If a string is missed in the language pack, then it should be fetched from base language pack. Unsupported in custom language packs|
-|plural\_code|[string](../types/string.md) | Yes|A language code to be used to apply plural forms. See [https://www.unicode.org/cldr/charts/latest/supplemental/language\_plural\_rules.html](https://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html) for more info|
-|strings\_count|[int](../types/int.md) | Yes|Total number of non-deleted strings from the language pack|
-|translated\_count|[int](../types/int.md) | Yes|Total number of translated strings from the language pack|
-|translations\_url|[string](../types/string.md) | Yes|Link to language translation interface; empty for custom local language packs|
+|official|[Bool](/API_docs/types/Bool.md) | Optional|Whether the language pack is official|
+|rtl|[Bool](/API_docs/types/Bool.md) | Optional|Is this a localization pack for an RTL language|
+|beta|[Bool](/API_docs/types/Bool.md) | Optional|Is this a beta localization pack?|
+|name|[string](/API_docs/types/string.md) | Yes|Language name|
+|native\_name|[string](/API_docs/types/string.md) | Yes|Language name in the language itself|
+|lang\_code|[string](/API_docs/types/string.md) | Yes|Language code (pack identifier)|
+|base\_lang\_code|[string](/API_docs/types/string.md) | Optional|Identifier of a base language pack; may be empty. If a string is missed in the language pack, then it should be fetched from base language pack. Unsupported in custom language packs|
+|plural\_code|[string](/API_docs/types/string.md) | Yes|A language code to be used to apply plural forms. See [https://www.unicode.org/cldr/charts/latest/supplemental/language\_plural\_rules.html](https://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html) for more info|
+|strings\_count|[int](/API_docs/types/int.md) | Yes|Total number of non-deleted strings from the language pack|
+|translated\_count|[int](/API_docs/types/int.md) | Yes|Total number of translated strings from the language pack|
+|translations\_url|[string](/API_docs/types/string.md) | Yes|Link to language translation interface; empty for custom local language packs|
 
 
 
-### Type: [LangPackLanguage](../types/LangPackLanguage.md)
+### Type: [LangPackLanguage](/API_docs/types/LangPackLanguage.md)
 
 
 ### Example:

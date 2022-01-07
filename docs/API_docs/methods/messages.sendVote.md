@@ -17,12 +17,12 @@ Vote in a [poll](../constructors/poll.md)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat where the poll was sent | Optional|
-|msg\_id|[int](../types/int.md) | The message ID of the poll | Yes|
-|options|Array of [bytes](../types/bytes.md) | The options that were chosen | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | The chat where the poll was sent | Optional|
+|msg\_id|[int](/API_docs/types/int.md) | The message ID of the poll | Yes|
+|options|Array of [bytes](/API_docs/types/bytes.md) | The options that were chosen | Yes|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

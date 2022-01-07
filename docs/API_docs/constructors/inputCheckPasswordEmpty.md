@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputCheckPasswordEmpty  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,7 +14,7 @@ There is no password
 
 
 
-### Type: [InputCheckPasswordSRP](../types/InputCheckPasswordSRP.md)
+### Type: [InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.md)
 
 
 ### Example:

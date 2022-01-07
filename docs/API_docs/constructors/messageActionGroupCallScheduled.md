@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionGroupCallScheduled  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -13,12 +13,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|call|[InputGroupCall](../types/InputGroupCall.md) | Yes|
-|schedule\_date|[int](../types/int.md) | Yes|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.md) | Yes|
+|schedule\_date|[int](/API_docs/types/int.md) | Yes|
 
 
 
-### Type: [MessageAction](../types/MessageAction.md)
+### Type: [MessageAction](/API_docs/types/MessageAction.md)
 
 
 ### Example:

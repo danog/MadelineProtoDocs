@@ -12,21 +12,21 @@ redirect_from: /API_docs/types/account_WallPapers.html
 
 ### Possible values (constructors):
 
-[account.wallPapersNotModified](../constructors/account.wallPapersNotModified.md)  
+[account.wallPapersNotModified](/API_docs/constructors/account.wallPapersNotModified.md)  
 
-[account.wallPapers](../constructors/account.wallPapers.md)  
+[account.wallPapers](/API_docs/constructors/account.wallPapers.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->getWallPapers](../methods/account.getWallPapers.md)  
+[$MadelineProto->account->getWallPapers](/API_docs/methods/account.getWallPapers.md)  
 
 
 
-[account.wallPapersNotModified](../constructors/account.wallPapersNotModified.md)  
+[account.wallPapersNotModified](/API_docs/constructors/account.wallPapersNotModified.md)  
 
-[account.wallPapers](../constructors/account.wallPapers.md)  
+[account.wallPapers](/API_docs/constructors/account.wallPapers.md)  
 
-[$MadelineProto->account->getWallPapers](../methods/account.getWallPapers.md)  
+[$MadelineProto->account->getWallPapers](/API_docs/methods/account.getWallPapers.md)  
 

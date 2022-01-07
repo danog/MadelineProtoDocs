@@ -11,65 +11,65 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[messageActionEmpty](../constructors/messageActionEmpty.md)  
+[messageActionEmpty](/API_docs/constructors/messageActionEmpty.md)  
 
-[messageActionChatCreate](../constructors/messageActionChatCreate.md)  
+[messageActionChatCreate](/API_docs/constructors/messageActionChatCreate.md)  
 
-[messageActionChatEditTitle](../constructors/messageActionChatEditTitle.md)  
+[messageActionChatEditTitle](/API_docs/constructors/messageActionChatEditTitle.md)  
 
-[messageActionChatEditPhoto](../constructors/messageActionChatEditPhoto.md)  
+[messageActionChatEditPhoto](/API_docs/constructors/messageActionChatEditPhoto.md)  
 
-[messageActionChatDeletePhoto](../constructors/messageActionChatDeletePhoto.md)  
+[messageActionChatDeletePhoto](/API_docs/constructors/messageActionChatDeletePhoto.md)  
 
-[messageActionChatAddUser](../constructors/messageActionChatAddUser.md)  
+[messageActionChatAddUser](/API_docs/constructors/messageActionChatAddUser.md)  
 
-[messageActionChatDeleteUser](../constructors/messageActionChatDeleteUser.md)  
+[messageActionChatDeleteUser](/API_docs/constructors/messageActionChatDeleteUser.md)  
 
-[messageActionChatJoinedByLink](../constructors/messageActionChatJoinedByLink.md)  
+[messageActionChatJoinedByLink](/API_docs/constructors/messageActionChatJoinedByLink.md)  
 
-[messageActionChannelCreate](../constructors/messageActionChannelCreate.md)  
+[messageActionChannelCreate](/API_docs/constructors/messageActionChannelCreate.md)  
 
-[messageActionChatMigrateTo](../constructors/messageActionChatMigrateTo.md)  
+[messageActionChatMigrateTo](/API_docs/constructors/messageActionChatMigrateTo.md)  
 
-[messageActionChannelMigrateFrom](../constructors/messageActionChannelMigrateFrom.md)  
+[messageActionChannelMigrateFrom](/API_docs/constructors/messageActionChannelMigrateFrom.md)  
 
-[messageActionPinMessage](../constructors/messageActionPinMessage.md)  
+[messageActionPinMessage](/API_docs/constructors/messageActionPinMessage.md)  
 
-[messageActionHistoryClear](../constructors/messageActionHistoryClear.md)  
+[messageActionHistoryClear](/API_docs/constructors/messageActionHistoryClear.md)  
 
-[messageActionGameScore](../constructors/messageActionGameScore.md)  
+[messageActionGameScore](/API_docs/constructors/messageActionGameScore.md)  
 
-[messageActionPaymentSentMe](../constructors/messageActionPaymentSentMe.md)  
+[messageActionPaymentSentMe](/API_docs/constructors/messageActionPaymentSentMe.md)  
 
-[messageActionPaymentSent](../constructors/messageActionPaymentSent.md)  
+[messageActionPaymentSent](/API_docs/constructors/messageActionPaymentSent.md)  
 
-[messageActionPhoneCall](../constructors/messageActionPhoneCall.md)  
+[messageActionPhoneCall](/API_docs/constructors/messageActionPhoneCall.md)  
 
-[messageActionScreenshotTaken](../constructors/messageActionScreenshotTaken.md)  
+[messageActionScreenshotTaken](/API_docs/constructors/messageActionScreenshotTaken.md)  
 
-[messageActionCustomAction](../constructors/messageActionCustomAction.md)  
+[messageActionCustomAction](/API_docs/constructors/messageActionCustomAction.md)  
 
-[messageActionBotAllowed](../constructors/messageActionBotAllowed.md)  
+[messageActionBotAllowed](/API_docs/constructors/messageActionBotAllowed.md)  
 
-[messageActionSecureValuesSentMe](../constructors/messageActionSecureValuesSentMe.md)  
+[messageActionSecureValuesSentMe](/API_docs/constructors/messageActionSecureValuesSentMe.md)  
 
-[messageActionSecureValuesSent](../constructors/messageActionSecureValuesSent.md)  
+[messageActionSecureValuesSent](/API_docs/constructors/messageActionSecureValuesSent.md)  
 
-[messageActionContactSignUp](../constructors/messageActionContactSignUp.md)  
+[messageActionContactSignUp](/API_docs/constructors/messageActionContactSignUp.md)  
 
-[messageActionGeoProximityReached](../constructors/messageActionGeoProximityReached.md)  
+[messageActionGeoProximityReached](/API_docs/constructors/messageActionGeoProximityReached.md)  
 
-[messageActionGroupCall](../constructors/messageActionGroupCall.md)  
+[messageActionGroupCall](/API_docs/constructors/messageActionGroupCall.md)  
 
-[messageActionInviteToGroupCall](../constructors/messageActionInviteToGroupCall.md)  
+[messageActionInviteToGroupCall](/API_docs/constructors/messageActionInviteToGroupCall.md)  
 
-[messageActionSetMessagesTTL](../constructors/messageActionSetMessagesTTL.md)  
+[messageActionSetMessagesTTL](/API_docs/constructors/messageActionSetMessagesTTL.md)  
 
-[messageActionGroupCallScheduled](../constructors/messageActionGroupCallScheduled.md)  
+[messageActionGroupCallScheduled](/API_docs/constructors/messageActionGroupCallScheduled.md)  
 
-[messageActionSetChatTheme](../constructors/messageActionSetChatTheme.md)  
+[messageActionSetChatTheme](/API_docs/constructors/messageActionSetChatTheme.md)  
 
-[messageActionChatJoinedByRequest](../constructors/messageActionChatJoinedByRequest.md)  
+[messageActionChatJoinedByRequest](/API_docs/constructors/messageActionChatJoinedByRequest.md)  
 
 
 
@@ -77,63 +77,63 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[messageActionEmpty](../constructors/messageActionEmpty.md)  
+[messageActionEmpty](/API_docs/constructors/messageActionEmpty.md)  
 
-[messageActionChatCreate](../constructors/messageActionChatCreate.md)  
+[messageActionChatCreate](/API_docs/constructors/messageActionChatCreate.md)  
 
-[messageActionChatEditTitle](../constructors/messageActionChatEditTitle.md)  
+[messageActionChatEditTitle](/API_docs/constructors/messageActionChatEditTitle.md)  
 
-[messageActionChatEditPhoto](../constructors/messageActionChatEditPhoto.md)  
+[messageActionChatEditPhoto](/API_docs/constructors/messageActionChatEditPhoto.md)  
 
-[messageActionChatDeletePhoto](../constructors/messageActionChatDeletePhoto.md)  
+[messageActionChatDeletePhoto](/API_docs/constructors/messageActionChatDeletePhoto.md)  
 
-[messageActionChatAddUser](../constructors/messageActionChatAddUser.md)  
+[messageActionChatAddUser](/API_docs/constructors/messageActionChatAddUser.md)  
 
-[messageActionChatDeleteUser](../constructors/messageActionChatDeleteUser.md)  
+[messageActionChatDeleteUser](/API_docs/constructors/messageActionChatDeleteUser.md)  
 
-[messageActionChatJoinedByLink](../constructors/messageActionChatJoinedByLink.md)  
+[messageActionChatJoinedByLink](/API_docs/constructors/messageActionChatJoinedByLink.md)  
 
-[messageActionChannelCreate](../constructors/messageActionChannelCreate.md)  
+[messageActionChannelCreate](/API_docs/constructors/messageActionChannelCreate.md)  
 
-[messageActionChatMigrateTo](../constructors/messageActionChatMigrateTo.md)  
+[messageActionChatMigrateTo](/API_docs/constructors/messageActionChatMigrateTo.md)  
 
-[messageActionChannelMigrateFrom](../constructors/messageActionChannelMigrateFrom.md)  
+[messageActionChannelMigrateFrom](/API_docs/constructors/messageActionChannelMigrateFrom.md)  
 
-[messageActionPinMessage](../constructors/messageActionPinMessage.md)  
+[messageActionPinMessage](/API_docs/constructors/messageActionPinMessage.md)  
 
-[messageActionHistoryClear](../constructors/messageActionHistoryClear.md)  
+[messageActionHistoryClear](/API_docs/constructors/messageActionHistoryClear.md)  
 
-[messageActionGameScore](../constructors/messageActionGameScore.md)  
+[messageActionGameScore](/API_docs/constructors/messageActionGameScore.md)  
 
-[messageActionPaymentSentMe](../constructors/messageActionPaymentSentMe.md)  
+[messageActionPaymentSentMe](/API_docs/constructors/messageActionPaymentSentMe.md)  
 
-[messageActionPaymentSent](../constructors/messageActionPaymentSent.md)  
+[messageActionPaymentSent](/API_docs/constructors/messageActionPaymentSent.md)  
 
-[messageActionPhoneCall](../constructors/messageActionPhoneCall.md)  
+[messageActionPhoneCall](/API_docs/constructors/messageActionPhoneCall.md)  
 
-[messageActionScreenshotTaken](../constructors/messageActionScreenshotTaken.md)  
+[messageActionScreenshotTaken](/API_docs/constructors/messageActionScreenshotTaken.md)  
 
-[messageActionCustomAction](../constructors/messageActionCustomAction.md)  
+[messageActionCustomAction](/API_docs/constructors/messageActionCustomAction.md)  
 
-[messageActionBotAllowed](../constructors/messageActionBotAllowed.md)  
+[messageActionBotAllowed](/API_docs/constructors/messageActionBotAllowed.md)  
 
-[messageActionSecureValuesSentMe](../constructors/messageActionSecureValuesSentMe.md)  
+[messageActionSecureValuesSentMe](/API_docs/constructors/messageActionSecureValuesSentMe.md)  
 
-[messageActionSecureValuesSent](../constructors/messageActionSecureValuesSent.md)  
+[messageActionSecureValuesSent](/API_docs/constructors/messageActionSecureValuesSent.md)  
 
-[messageActionContactSignUp](../constructors/messageActionContactSignUp.md)  
+[messageActionContactSignUp](/API_docs/constructors/messageActionContactSignUp.md)  
 
-[messageActionGeoProximityReached](../constructors/messageActionGeoProximityReached.md)  
+[messageActionGeoProximityReached](/API_docs/constructors/messageActionGeoProximityReached.md)  
 
-[messageActionGroupCall](../constructors/messageActionGroupCall.md)  
+[messageActionGroupCall](/API_docs/constructors/messageActionGroupCall.md)  
 
-[messageActionInviteToGroupCall](../constructors/messageActionInviteToGroupCall.md)  
+[messageActionInviteToGroupCall](/API_docs/constructors/messageActionInviteToGroupCall.md)  
 
-[messageActionSetMessagesTTL](../constructors/messageActionSetMessagesTTL.md)  
+[messageActionSetMessagesTTL](/API_docs/constructors/messageActionSetMessagesTTL.md)  
 
-[messageActionGroupCallScheduled](../constructors/messageActionGroupCallScheduled.md)  
+[messageActionGroupCallScheduled](/API_docs/constructors/messageActionGroupCallScheduled.md)  
 
-[messageActionSetChatTheme](../constructors/messageActionSetChatTheme.md)  
+[messageActionSetChatTheme](/API_docs/constructors/messageActionSetChatTheme.md)  
 
-[messageActionChatJoinedByRequest](../constructors/messageActionChatJoinedByRequest.md)  
+[messageActionChatJoinedByRequest](/API_docs/constructors/messageActionChatJoinedByRequest.md)  
 

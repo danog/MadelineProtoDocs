@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_promoDataEmpty.html
 ---
 # Constructor: help.promoDataEmpty  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,11 +16,11 @@ No PSA/MTProxy info is available
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|expires|[int](../types/int.md) | Yes|Re-fetch PSA/MTProxy info after the specified number of seconds|
+|expires|[int](/API_docs/types/int.md) | Yes|Re-fetch PSA/MTProxy info after the specified number of seconds|
 
 
 
-### Type: [help.PromoData](../types/help.PromoData.md)
+### Type: [help.PromoData](/API_docs/types/help.PromoData.md)
 
 
 ### Example:

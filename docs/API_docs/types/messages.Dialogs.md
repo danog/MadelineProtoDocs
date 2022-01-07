@@ -12,25 +12,25 @@ redirect_from: /API_docs/types/messages_Dialogs.html
 
 ### Possible values (constructors):
 
-[messages.dialogs](../constructors/messages.dialogs.md)  
+[messages.dialogs](/API_docs/constructors/messages.dialogs.md)  
 
-[messages.dialogsSlice](../constructors/messages.dialogsSlice.md)  
+[messages.dialogsSlice](/API_docs/constructors/messages.dialogsSlice.md)  
 
-[messages.dialogsNotModified](../constructors/messages.dialogsNotModified.md)  
+[messages.dialogsNotModified](/API_docs/constructors/messages.dialogsNotModified.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getDialogs](../methods/messages.getDialogs.md)  
+[$MadelineProto->messages->getDialogs](/API_docs/methods/messages.getDialogs.md)  
 
 
 
-[messages.dialogs](../constructors/messages.dialogs.md)  
+[messages.dialogs](/API_docs/constructors/messages.dialogs.md)  
 
-[messages.dialogsSlice](../constructors/messages.dialogsSlice.md)  
+[messages.dialogsSlice](/API_docs/constructors/messages.dialogsSlice.md)  
 
-[messages.dialogsNotModified](../constructors/messages.dialogsNotModified.md)  
+[messages.dialogsNotModified](/API_docs/constructors/messages.dialogsNotModified.md)  
 
-[$MadelineProto->messages->getDialogs](../methods/messages.getDialogs.md)  
+[$MadelineProto->messages->getDialogs](/API_docs/methods/messages.getDialogs.md)  
 

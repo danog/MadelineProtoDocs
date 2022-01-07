@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: statsGroupTopAdmin  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,14 +15,14 @@ Information about an active admin in a supergroup
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](../types/long.md) | Yes|
-|deleted|[int](../types/int.md) | Yes|Number of deleted messages for [statistics](https://core.telegram.org/api/stats) period in consideration|
-|kicked|[int](../types/int.md) | Yes|Number of kicked users for [statistics](https://core.telegram.org/api/stats) period in consideration|
-|banned|[int](../types/int.md) | Yes|Number of banned users for [statistics](https://core.telegram.org/api/stats) period in consideration|
+|user\_id|[long](/API_docs/types/long.md) | Yes|
+|deleted|[int](/API_docs/types/int.md) | Yes|Number of deleted messages for [statistics](https://core.telegram.org/api/stats) period in consideration|
+|kicked|[int](/API_docs/types/int.md) | Yes|Number of kicked users for [statistics](https://core.telegram.org/api/stats) period in consideration|
+|banned|[int](/API_docs/types/int.md) | Yes|Number of banned users for [statistics](https://core.telegram.org/api/stats) period in consideration|
 
 
 
-### Type: [StatsGroupTopAdmin](../types/StatsGroupTopAdmin.md)
+### Type: [StatsGroupTopAdmin](/API_docs/types/StatsGroupTopAdmin.md)
 
 
 ### Example:

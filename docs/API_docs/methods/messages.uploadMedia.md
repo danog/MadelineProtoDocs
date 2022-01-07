@@ -17,11 +17,11 @@ Upload a file and associate it to a chat (without actually sending it to the cha
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat, can be an [inputPeerEmpty](../constructors/inputPeerEmpty.md) for bots | Optional|
-|media|[MessageMedia, Update, Message or InputMedia](../types/InputMedia.md) | File uploaded in chunks as described in [files »](https://core.telegram.org/api/files) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | The chat, can be an [inputPeerEmpty](../constructors/inputPeerEmpty.md) for bots | Optional|
+|media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.md) | File uploaded in chunks as described in [files »](https://core.telegram.org/api/files) | Optional|
 
 
-### Return type: [MessageMedia](../types/MessageMedia.md)
+### Return type: [MessageMedia](/API_docs/types/MessageMedia.md)
 
 ### Can bots use this method: **YES**
 

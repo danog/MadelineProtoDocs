@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputPeerNotifySettings](../constructors/inputPeerNotifySettings.md)  
+[inputPeerNotifySettings](/API_docs/constructors/inputPeerNotifySettings.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputPeerNotifySettings](../constructors/inputPeerNotifySettings.md)  
+[inputPeerNotifySettings](/API_docs/constructors/inputPeerNotifySettings.md)  
 

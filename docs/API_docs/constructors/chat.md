@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chat  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,26 +15,26 @@ Info about a group
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|creator|[Bool](../types/Bool.md) | Optional|Whether the current user is the creator of the group|
-|kicked|[Bool](../types/Bool.md) | Optional|Whether the current user was kicked from the group|
-|left|[Bool](../types/Bool.md) | Optional|Whether the current user has left the group|
-|deactivated|[Bool](../types/Bool.md) | Optional|Whether the group was [migrated](https://core.telegram.org/api/channel)|
-|call\_active|[Bool](../types/Bool.md) | Optional|
-|call\_not\_empty|[Bool](../types/Bool.md) | Optional|
-|noforwards|[Bool](../types/Bool.md) | Optional|
-|id|[long](../types/long.md) | Yes|
-|title|[string](../types/string.md) | Yes|Title|
-|photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|Chat photo|
-|participants\_count|[int](../types/int.md) | Yes|Participant count|
-|date|[int](../types/int.md) | Yes|Date of creation of the group|
-|version|[int](../types/int.md) | Yes|Used in basic groups to reorder updates and make sure that all of them were received.|
-|migrated\_to|[InputChannel](../types/InputChannel.md) | Optional|Means this chat was [upgraded](https://core.telegram.org/api/channel) to a supergroup|
-|admin\_rights|[ChatAdminRights](../types/ChatAdminRights.md) | Optional|[Admin rights](https://core.telegram.org/api/rights) of the user in the group|
-|default\_banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Optional|[Default banned rights](https://core.telegram.org/api/rights) of all users in the group|
+|creator|[Bool](/API_docs/types/Bool.md) | Optional|Whether the current user is the creator of the group|
+|kicked|[Bool](/API_docs/types/Bool.md) | Optional|Whether the current user was kicked from the group|
+|left|[Bool](/API_docs/types/Bool.md) | Optional|Whether the current user has left the group|
+|deactivated|[Bool](/API_docs/types/Bool.md) | Optional|Whether the group was [migrated](https://core.telegram.org/api/channel)|
+|call\_active|[Bool](/API_docs/types/Bool.md) | Optional|
+|call\_not\_empty|[Bool](/API_docs/types/Bool.md) | Optional|
+|noforwards|[Bool](/API_docs/types/Bool.md) | Optional|
+|id|[long](/API_docs/types/long.md) | Yes|
+|title|[string](/API_docs/types/string.md) | Yes|Title|
+|photo|[ChatPhoto](/API_docs/types/ChatPhoto.md) | Optional|Chat photo|
+|participants\_count|[int](/API_docs/types/int.md) | Yes|Participant count|
+|date|[int](/API_docs/types/int.md) | Yes|Date of creation of the group|
+|version|[int](/API_docs/types/int.md) | Yes|Used in basic groups to reorder updates and make sure that all of them were received.|
+|migrated\_to|[InputChannel](/API_docs/types/InputChannel.md) | Optional|Means this chat was [upgraded](https://core.telegram.org/api/channel) to a supergroup|
+|admin\_rights|[ChatAdminRights](/API_docs/types/ChatAdminRights.md) | Optional|[Admin rights](https://core.telegram.org/api/rights) of the user in the group|
+|default\_banned\_rights|[ChatBannedRights](/API_docs/types/ChatBannedRights.md) | Optional|[Default banned rights](https://core.telegram.org/api/rights) of all users in the group|
 
 
 
-### Type: [Chat](../types/Chat.md)
+### Type: [Chat](/API_docs/types/Chat.md)
 
 
 ### Example:

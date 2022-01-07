@@ -17,17 +17,17 @@ Create a stickerset, bots only.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|masks|[Bool](../types/Bool.md) | Whether this is a mask stickerset | Optional|
-|animated|[Bool](../types/Bool.md) | Whether this is an animated stickerset | Optional|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Stickerset owner | Optional|
-|title|[string](../types/string.md) | Stickerset name, `1-64` chars | Yes|
-|short\_name|[string](../types/string.md) | Sticker set name. Can contain only English letters, digits and underscores. Must end with *"*by*<bot username="">"</bot>* (*<bot_username></bot_username>* is case insensitive); 1-64 characters | Yes|
-|thumb|[MessageMedia, Update, Message or InputDocument](../types/InputDocument.md) | Thumbnail | Optional|
-|stickers|Array of [InputStickerSetItem](../types/InputStickerSetItem.md) | Stickers | Yes|
-|software|[string](../types/string.md) |  | Optional|
+|masks|[Bool](/API_docs/types/Bool.md) | Whether this is a mask stickerset | Optional|
+|animated|[Bool](/API_docs/types/Bool.md) | Whether this is an animated stickerset | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | Stickerset owner | Optional|
+|title|[string](/API_docs/types/string.md) | Stickerset name, `1-64` chars | Yes|
+|short\_name|[string](/API_docs/types/string.md) | Sticker set name. Can contain only English letters, digits and underscores. Must end with *"*by*<bot username="">"</bot>* (*<bot_username></bot_username>* is case insensitive); 1-64 characters | Yes|
+|thumb|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.md) | Thumbnail | Optional|
+|stickers|Array of [InputStickerSetItem](/API_docs/types/InputStickerSetItem.md) | Stickers | Yes|
+|software|[string](/API_docs/types/string.md) |  | Optional|
 
 
-### Return type: [messages.StickerSet](../types/messages.StickerSet.md)
+### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.md)
 
 ### Can bots use this method: **YES**
 

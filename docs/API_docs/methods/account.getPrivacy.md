@@ -17,10 +17,10 @@ Get privacy settings of current account
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|key|[InputPrivacyKey](../types/InputPrivacyKey.md) | Peer category whose privacy settings should be fetched | Yes|
+|key|[InputPrivacyKey](/API_docs/types/InputPrivacyKey.md) | Peer category whose privacy settings should be fetched | Yes|
 
 
-### Return type: [account.PrivacyRules](../types/account.PrivacyRules.md)
+### Return type: [account.PrivacyRules](/API_docs/types/account.PrivacyRules.md)
 
 ### Can bots use this method: **NO**
 

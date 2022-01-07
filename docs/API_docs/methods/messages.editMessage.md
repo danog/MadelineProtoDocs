@@ -17,18 +17,18 @@ Edit message
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|no\_webpage|[Bool](../types/Bool.md) | Disable webpage preview | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Where was the message sent | Optional|
-|id|[int](../types/int.md) | ID of the message to edit | Yes|
-|message|[string](../types/string.md) | New message | Optional|
-|media|[MessageMedia, Update, Message or InputMedia](../types/InputMedia.md) | New attached media | Optional|
-|reply\_markup|[ReplyMarkup](../types/ReplyMarkup.md) | Reply markup for inline keyboards | Optional|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | [Message entities for styled text](https://core.telegram.org/api/entities) | Optional|
-|parse\_mode| [string](../types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
-|schedule\_date|[int](../types/int.md) | Scheduled message date for [scheduled messages](https://core.telegram.org/api/scheduled-messages) | Optional|
+|no\_webpage|[Bool](/API_docs/types/Bool.md) | Disable webpage preview | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Where was the message sent | Optional|
+|id|[int](/API_docs/types/int.md) | ID of the message to edit | Yes|
+|message|[string](/API_docs/types/string.md) | New message | Optional|
+|media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.md) | New attached media | Optional|
+|reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.md) | Reply markup for inline keyboards | Optional|
+|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.md) | [Message entities for styled text](https://core.telegram.org/api/entities) | Optional|
+|parse\_mode| [string](/API_docs/types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
+|schedule\_date|[int](/API_docs/types/int.md) | Scheduled message date for [scheduled messages](https://core.telegram.org/api/scheduled-messages) | Optional|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **YES**
 

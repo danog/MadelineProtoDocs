@@ -15,7 +15,7 @@ Returns the list of contact statuses.
 
 
 
-### Return type: [Vector\_of\_ContactStatus](../types/ContactStatus.md)
+### Return type: [Vector\_of\_ContactStatus](/API_docs/types/ContactStatus.md)
 
 ### Can bots use this method: **NO**
 

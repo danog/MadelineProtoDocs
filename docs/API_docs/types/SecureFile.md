@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[secureFileEmpty](../constructors/secureFileEmpty.md)  
+[secureFileEmpty](/API_docs/constructors/secureFileEmpty.md)  
 
-[secureFile](../constructors/secureFile.md)  
+[secureFile](/API_docs/constructors/secureFile.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[secureFileEmpty](../constructors/secureFileEmpty.md)  
+[secureFileEmpty](/API_docs/constructors/secureFileEmpty.md)  
 
-[secureFile](../constructors/secureFile.md)  
+[secureFile](/API_docs/constructors/secureFile.md)  
 

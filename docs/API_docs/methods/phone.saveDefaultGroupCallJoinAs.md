@@ -15,11 +15,11 @@ redirect_from: /API_docs/methods/phone_saveDefaultGroupCallJoinAs.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
-|join\_as|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
+|join\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

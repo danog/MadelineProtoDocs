@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[chatAdminRights](../constructors/chatAdminRights.md)  
+[chatAdminRights](/API_docs/constructors/chatAdminRights.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[chatAdminRights](../constructors/chatAdminRights.md)  
+[chatAdminRights](/API_docs/constructors/chatAdminRights.md)  
 

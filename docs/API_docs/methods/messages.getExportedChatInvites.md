@@ -15,15 +15,15 @@ redirect_from: /API_docs/methods/messages_getExportedChatInvites.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|revoked|[Bool](../types/Bool.md) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
-|admin\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|
-|offset\_date|[int](../types/int.md) | Optional|
-|offset\_link|[string](../types/string.md) | Optional|
-|limit|[int](../types/int.md) | Yes|
+|revoked|[Bool](/API_docs/types/Bool.md) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
+|admin\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | Optional|
+|offset\_date|[int](/API_docs/types/int.md) | Optional|
+|offset\_link|[string](/API_docs/types/string.md) | Optional|
+|limit|[int](/API_docs/types/int.md) | Yes|
 
 
-### Return type: [messages.ExportedChatInvites](../types/messages.ExportedChatInvites.md)
+### Return type: [messages.ExportedChatInvites](/API_docs/types/messages.ExportedChatInvites.md)
 
 ### Can bots use this method: **NO**
 

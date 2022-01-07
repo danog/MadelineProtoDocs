@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/help_RecentMeUrls.html
 
 ### Possible values (constructors):
 
-[help.recentMeUrls](../constructors/help.recentMeUrls.md)  
+[help.recentMeUrls](/API_docs/constructors/help.recentMeUrls.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->help->getRecentMeUrls](../methods/help.getRecentMeUrls.md)  
+[$MadelineProto->help->getRecentMeUrls](/API_docs/methods/help.getRecentMeUrls.md)  
 
 
 
-[help.recentMeUrls](../constructors/help.recentMeUrls.md)  
+[help.recentMeUrls](/API_docs/constructors/help.recentMeUrls.md)  
 
-[$MadelineProto->help->getRecentMeUrls](../methods/help.getRecentMeUrls.md)  
+[$MadelineProto->help->getRecentMeUrls](/API_docs/methods/help.getRecentMeUrls.md)  
 

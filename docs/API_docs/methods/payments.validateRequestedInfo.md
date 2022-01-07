@@ -17,13 +17,13 @@ Submit requested order information for validation
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|save|[Bool](../types/Bool.md) | Save order information to re-use it for future orders | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
-|msg\_id|[int](../types/int.md) | Message ID of payment form | Yes|
-|info|[PaymentRequestedInfo](../types/PaymentRequestedInfo.md) | Requested order information | Yes|
+|save|[Bool](/API_docs/types/Bool.md) | Save order information to re-use it for future orders | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) |  | Optional|
+|msg\_id|[int](/API_docs/types/int.md) | Message ID of payment form | Yes|
+|info|[PaymentRequestedInfo](/API_docs/types/PaymentRequestedInfo.md) | Requested order information | Yes|
 
 
-### Return type: [payments.ValidatedRequestedInfo](../types/payments.ValidatedRequestedInfo.md)
+### Return type: [payments.ValidatedRequestedInfo](/API_docs/types/payments.ValidatedRequestedInfo.md)
 
 ### Can bots use this method: **NO**
 

@@ -34,13 +34,13 @@ A [Chat](Chat.md), a [User](User.md), an [InputPeer](InputPeer.md), an [InputDia
 
 ### Possible values (constructors):
 
-[inputUserEmpty](../constructors/inputUserEmpty.md)  
+[inputUserEmpty](/API_docs/constructors/inputUserEmpty.md)  
 
-[inputUserSelf](../constructors/inputUserSelf.md)  
+[inputUserSelf](/API_docs/constructors/inputUserSelf.md)  
 
-[inputUser](../constructors/inputUser.md)  
+[inputUser](/API_docs/constructors/inputUser.md)  
 
-[inputUserFromMessage](../constructors/inputUserFromMessage.md)  
+[inputUserFromMessage](/API_docs/constructors/inputUserFromMessage.md)  
 
 
 
@@ -48,11 +48,11 @@ A [Chat](Chat.md), a [User](User.md), an [InputPeer](InputPeer.md), an [InputDia
 
 
 
-[inputUserEmpty](../constructors/inputUserEmpty.md)  
+[inputUserEmpty](/API_docs/constructors/inputUserEmpty.md)  
 
-[inputUserSelf](../constructors/inputUserSelf.md)  
+[inputUserSelf](/API_docs/constructors/inputUserSelf.md)  
 
-[inputUser](../constructors/inputUser.md)  
+[inputUser](/API_docs/constructors/inputUser.md)  
 
-[inputUserFromMessage](../constructors/inputUserFromMessage.md)  
+[inputUserFromMessage](/API_docs/constructors/inputUserFromMessage.md)  
 

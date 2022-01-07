@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: geoPoint  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,14 +15,14 @@ GeoPoint.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|long|[double](../types/double.md) | Yes|Longtitude|
-|lat|[double](../types/double.md) | Yes|Latitude|
-|access\_hash|[long](../types/long.md) | Yes|Access hash|
-|accuracy\_radius|[int](../types/int.md) | Optional|The estimated horizontal accuracy of the location, in meters; as defined by the sender.|
+|long|[double](/API_docs/types/double.md) | Yes|Longtitude|
+|lat|[double](/API_docs/types/double.md) | Yes|Latitude|
+|access\_hash|[long](/API_docs/types/long.md) | Yes|Access hash|
+|accuracy\_radius|[int](/API_docs/types/int.md) | Optional|The estimated horizontal accuracy of the location, in meters; as defined by the sender.|
 
 
 
-### Type: [GeoPoint](../types/GeoPoint.md)
+### Type: [GeoPoint](/API_docs/types/GeoPoint.md)
 
 
 ### Example:

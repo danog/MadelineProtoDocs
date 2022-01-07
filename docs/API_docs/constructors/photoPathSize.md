@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: photoPathSize  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ Messages with animated stickers can have a compressed svg (&lt; 300 bytes) to sh
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|type|[string](../types/string.md) | Yes|Always `j`|
-|bytes|[bytes](../types/bytes.md) | Yes|Compressed SVG path payload, [see here for decompression instructions](https://core.telegram.org/api/files#vector-thumbnails)|
+|type|[string](/API_docs/types/string.md) | Yes|Always `j`|
+|bytes|[bytes](/API_docs/types/bytes.md) | Yes|Compressed SVG path payload, [see here for decompression instructions](https://core.telegram.org/api/files#vector-thumbnails)|
 
 
 
-### Type: [PhotoSize](../types/PhotoSize.md)
+### Type: [PhotoSize](/API_docs/types/PhotoSize.md)
 
 
 ### Example:

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageListItemBlocks  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ List item
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|blocks|Array of [PageBlock](../types/PageBlock.md) | Yes|Blocks|
+|blocks|Array of [PageBlock](/API_docs/types/PageBlock.md) | Yes|Blocks|
 
 
 
-### Type: [PageListItem](../types/PageListItem.md)
+### Type: [PageListItem](/API_docs/types/PageListItem.md)
 
 
 ### Example:

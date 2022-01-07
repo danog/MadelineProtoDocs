@@ -15,14 +15,14 @@ redirect_from: /API_docs/methods/phone_getGroupParticipants.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|call|[InputGroupCall](../types/InputGroupCall.md) | Yes|
-|ids|Array of [Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Yes|
-|sources|Array of [int](../types/int.md) | Yes|
-|offset|[string](../types/string.md) | Yes|
-|limit|[int](../types/int.md) | Yes|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.md) | Yes|
+|ids|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Yes|
+|sources|Array of [int](/API_docs/types/int.md) | Yes|
+|offset|[string](/API_docs/types/string.md) | Yes|
+|limit|[int](/API_docs/types/int.md) | Yes|
 
 
-### Return type: [phone.GroupParticipants](../types/phone.GroupParticipants.md)
+### Return type: [phone.GroupParticipants](/API_docs/types/phone.GroupParticipants.md)
 
 ### Can bots use this method: **NO**
 

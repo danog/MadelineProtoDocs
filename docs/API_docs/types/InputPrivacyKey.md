@@ -11,21 +11,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputPrivacyKeyStatusTimestamp](../constructors/inputPrivacyKeyStatusTimestamp.md)  
+[inputPrivacyKeyStatusTimestamp](/API_docs/constructors/inputPrivacyKeyStatusTimestamp.md)  
 
-[inputPrivacyKeyChatInvite](../constructors/inputPrivacyKeyChatInvite.md)  
+[inputPrivacyKeyChatInvite](/API_docs/constructors/inputPrivacyKeyChatInvite.md)  
 
-[inputPrivacyKeyPhoneCall](../constructors/inputPrivacyKeyPhoneCall.md)  
+[inputPrivacyKeyPhoneCall](/API_docs/constructors/inputPrivacyKeyPhoneCall.md)  
 
-[inputPrivacyKeyPhoneP2P](../constructors/inputPrivacyKeyPhoneP2P.md)  
+[inputPrivacyKeyPhoneP2P](/API_docs/constructors/inputPrivacyKeyPhoneP2P.md)  
 
-[inputPrivacyKeyForwards](../constructors/inputPrivacyKeyForwards.md)  
+[inputPrivacyKeyForwards](/API_docs/constructors/inputPrivacyKeyForwards.md)  
 
-[inputPrivacyKeyProfilePhoto](../constructors/inputPrivacyKeyProfilePhoto.md)  
+[inputPrivacyKeyProfilePhoto](/API_docs/constructors/inputPrivacyKeyProfilePhoto.md)  
 
-[inputPrivacyKeyPhoneNumber](../constructors/inputPrivacyKeyPhoneNumber.md)  
+[inputPrivacyKeyPhoneNumber](/API_docs/constructors/inputPrivacyKeyPhoneNumber.md)  
 
-[inputPrivacyKeyAddedByPhone](../constructors/inputPrivacyKeyAddedByPhone.md)  
+[inputPrivacyKeyAddedByPhone](/API_docs/constructors/inputPrivacyKeyAddedByPhone.md)  
 
 
 
@@ -33,19 +33,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputPrivacyKeyStatusTimestamp](../constructors/inputPrivacyKeyStatusTimestamp.md)  
+[inputPrivacyKeyStatusTimestamp](/API_docs/constructors/inputPrivacyKeyStatusTimestamp.md)  
 
-[inputPrivacyKeyChatInvite](../constructors/inputPrivacyKeyChatInvite.md)  
+[inputPrivacyKeyChatInvite](/API_docs/constructors/inputPrivacyKeyChatInvite.md)  
 
-[inputPrivacyKeyPhoneCall](../constructors/inputPrivacyKeyPhoneCall.md)  
+[inputPrivacyKeyPhoneCall](/API_docs/constructors/inputPrivacyKeyPhoneCall.md)  
 
-[inputPrivacyKeyPhoneP2P](../constructors/inputPrivacyKeyPhoneP2P.md)  
+[inputPrivacyKeyPhoneP2P](/API_docs/constructors/inputPrivacyKeyPhoneP2P.md)  
 
-[inputPrivacyKeyForwards](../constructors/inputPrivacyKeyForwards.md)  
+[inputPrivacyKeyForwards](/API_docs/constructors/inputPrivacyKeyForwards.md)  
 
-[inputPrivacyKeyProfilePhoto](../constructors/inputPrivacyKeyProfilePhoto.md)  
+[inputPrivacyKeyProfilePhoto](/API_docs/constructors/inputPrivacyKeyProfilePhoto.md)  
 
-[inputPrivacyKeyPhoneNumber](../constructors/inputPrivacyKeyPhoneNumber.md)  
+[inputPrivacyKeyPhoneNumber](/API_docs/constructors/inputPrivacyKeyPhoneNumber.md)  
 
-[inputPrivacyKeyAddedByPhone](../constructors/inputPrivacyKeyAddedByPhone.md)  
+[inputPrivacyKeyAddedByPhone](/API_docs/constructors/inputPrivacyKeyAddedByPhone.md)  
 

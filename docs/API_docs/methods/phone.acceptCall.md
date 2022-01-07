@@ -17,12 +17,12 @@ You cannot use this method directly, see https://docs.madelineproto.xyz#calls fo
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[InputPhoneCall](../types/InputPhoneCall.md) | The call to accept | Yes|
-|g\_b|[bytes](../types/bytes.md) | [Parameter for E2E encryption key exchange »](https://core.telegram.org/api/end-to-end/voice-calls) | Yes|
-|protocol|[PhoneCallProtocol](../types/PhoneCallProtocol.md) | Phone call settings | Yes|
+|peer|[InputPhoneCall](/API_docs/types/InputPhoneCall.md) | The call to accept | Yes|
+|g\_b|[bytes](/API_docs/types/bytes.md) | [Parameter for E2E encryption key exchange »](https://core.telegram.org/api/end-to-end/voice-calls) | Yes|
+|protocol|[PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.md) | Phone call settings | Yes|
 
 
-### Return type: [phone.PhoneCall](../types/phone.PhoneCall.md)
+### Return type: [phone.PhoneCall](/API_docs/types/phone.PhoneCall.md)
 
 ### Can bots use this method: **NO**
 

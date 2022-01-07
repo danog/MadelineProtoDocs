@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_termsOfServiceUpdate.html
 ---
 # Constructor: help.termsOfServiceUpdate  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,12 +16,12 @@ Info about an update of telegram's terms of service. If the terms of service are
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|expires|[int](../types/int.md) | Yes|New TOS updates will have to be queried using [help.getTermsOfServiceUpdate](../methods/help.getTermsOfServiceUpdate.md) in `expires` seconds|
-|terms\_of\_service|[help.TermsOfService](../constructors/help.TermsOfService.md) | Yes|New terms of service|
+|expires|[int](/API_docs/types/int.md) | Yes|New TOS updates will have to be queried using [help.getTermsOfServiceUpdate](../methods/help.getTermsOfServiceUpdate.md) in `expires` seconds|
+|terms\_of\_service|[help.TermsOfService](/API_docs/constructors/help.TermsOfService.md) | Yes|New terms of service|
 
 
 
-### Type: [help.TermsOfServiceUpdate](../types/help.TermsOfServiceUpdate.md)
+### Type: [help.TermsOfServiceUpdate](/API_docs/types/help.TermsOfServiceUpdate.md)
 
 
 ### Example:

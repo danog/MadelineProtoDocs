@@ -12,21 +12,21 @@ redirect_from: /API_docs/types/channels_ChannelParticipants.html
 
 ### Possible values (constructors):
 
-[channels.channelParticipants](../constructors/channels.channelParticipants.md)  
+[channels.channelParticipants](/API_docs/constructors/channels.channelParticipants.md)  
 
-[channels.channelParticipantsNotModified](../constructors/channels.channelParticipantsNotModified.md)  
+[channels.channelParticipantsNotModified](/API_docs/constructors/channels.channelParticipantsNotModified.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->channels->getParticipants](../methods/channels.getParticipants.md)  
+[$MadelineProto->channels->getParticipants](/API_docs/methods/channels.getParticipants.md)  
 
 
 
-[channels.channelParticipants](../constructors/channels.channelParticipants.md)  
+[channels.channelParticipants](/API_docs/constructors/channels.channelParticipants.md)  
 
-[channels.channelParticipantsNotModified](../constructors/channels.channelParticipantsNotModified.md)  
+[channels.channelParticipantsNotModified](/API_docs/constructors/channels.channelParticipantsNotModified.md)  
 
-[$MadelineProto->channels->getParticipants](../methods/channels.getParticipants.md)  
+[$MadelineProto->channels->getParticipants](/API_docs/methods/channels.getParticipants.md)  
 

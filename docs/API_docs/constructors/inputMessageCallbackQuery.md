@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessageCallbackQuery  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ Used by bots for fetching information about the message that originated a callba
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|Message ID|
-|query\_id|[long](../types/long.md) | Yes|Callback query ID|
+|id|[int](/API_docs/types/int.md) | Yes|Message ID|
+|query\_id|[long](/API_docs/types/long.md) | Yes|Callback query ID|
 
 
 
-### Type: [InputMessage](../types/InputMessage.md)
+### Type: [InputMessage](/API_docs/types/InputMessage.md)
 
 
 ### Example:

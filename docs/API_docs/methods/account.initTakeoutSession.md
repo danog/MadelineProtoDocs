@@ -17,16 +17,16 @@ Intialize account takeout session
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|contacts|[Bool](../types/Bool.md) | Whether to export contacts | Optional|
-|message\_users|[Bool](../types/Bool.md) | Whether to export messages in private chats | Optional|
-|message\_chats|[Bool](../types/Bool.md) | Whether to export messages in [legacy groups](https://core.telegram.org/api/channel) | Optional|
-|message\_megagroups|[Bool](../types/Bool.md) | Whether to export messages in [supergroups](https://core.telegram.org/api/channel) | Optional|
-|message\_channels|[Bool](../types/Bool.md) | Whether to export messages in [channels](https://core.telegram.org/api/channel) | Optional|
-|files|[Bool](../types/Bool.md) | Whether to export files | Optional|
-|file\_max\_size|[int](../types/int.md) | Maximum size of files to export | Optional|
+|contacts|[Bool](/API_docs/types/Bool.md) | Whether to export contacts | Optional|
+|message\_users|[Bool](/API_docs/types/Bool.md) | Whether to export messages in private chats | Optional|
+|message\_chats|[Bool](/API_docs/types/Bool.md) | Whether to export messages in [legacy groups](https://core.telegram.org/api/channel) | Optional|
+|message\_megagroups|[Bool](/API_docs/types/Bool.md) | Whether to export messages in [supergroups](https://core.telegram.org/api/channel) | Optional|
+|message\_channels|[Bool](/API_docs/types/Bool.md) | Whether to export messages in [channels](https://core.telegram.org/api/channel) | Optional|
+|files|[Bool](/API_docs/types/Bool.md) | Whether to export files | Optional|
+|file\_max\_size|[int](/API_docs/types/int.md) | Maximum size of files to export | Optional|
 
 
-### Return type: [account.Takeout](../types/account.Takeout.md)
+### Return type: [account.Takeout](/API_docs/types/account.Takeout.md)
 
 ### Can bots use this method: **NO**
 

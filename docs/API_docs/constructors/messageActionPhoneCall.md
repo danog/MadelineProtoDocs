@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionPhoneCall  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,14 +15,14 @@ A phone call
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|video|[Bool](../types/Bool.md) | Optional|Is this a video call?|
-|call\_id|[long](../types/long.md) | Yes|Call ID|
-|reason|[PhoneCallDiscardReason](../types/PhoneCallDiscardReason.md) | Optional|If the call has ended, the reason why it ended|
-|duration|[int](../types/int.md) | Optional|Duration of the call in seconds|
+|video|[Bool](/API_docs/types/Bool.md) | Optional|Is this a video call?|
+|call\_id|[long](/API_docs/types/long.md) | Yes|Call ID|
+|reason|[PhoneCallDiscardReason](/API_docs/types/PhoneCallDiscardReason.md) | Optional|If the call has ended, the reason why it ended|
+|duration|[int](/API_docs/types/int.md) | Optional|Duration of the call in seconds|
 
 
 
-### Type: [MessageAction](../types/MessageAction.md)
+### Type: [MessageAction](/API_docs/types/MessageAction.md)
 
 
 ### Example:

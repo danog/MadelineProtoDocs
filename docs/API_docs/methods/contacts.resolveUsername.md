@@ -17,10 +17,10 @@ You cannot use this method directly, use the resolveUsername, getPwrChat, getInf
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|username|[string](../types/string.md) | @username to resolve | Yes|
+|username|[string](/API_docs/types/string.md) | @username to resolve | Yes|
 
 
-### Return type: [contacts.ResolvedPeer](../types/contacts.ResolvedPeer.md)
+### Return type: [contacts.ResolvedPeer](/API_docs/types/contacts.ResolvedPeer.md)
 
 ### Can bots use this method: **YES**
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: page  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,18 +15,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|part|[Bool](../types/Bool.md) | Optional|Indicates that not full page preview is available to the client and it will need to fetch full Instant View from the server using [messages.getWebPagePreview](../methods/messages.getWebPagePreview.md).|
-|rtl|[Bool](../types/Bool.md) | Optional|Whether the page contains RTL text|
-|v2|[Bool](../types/Bool.md) | Optional|Whether this is an [IV v2](https://instantview.telegram.org/docs#what-39s-new-in-2-0) page|
-|url|[string](../types/string.md) | Yes|Original page HTTP URL|
-|blocks|Array of [PageBlock](../types/PageBlock.md) | Yes|Page elements (like with HTML elements, only as TL constructors)|
-|photos|Array of [Photo](../types/Photo.md) | Yes|Photos in page|
-|documents|Array of [Document](../types/Document.md) | Yes|Media in page|
-|views|[int](../types/int.md) | Optional|Viewcount|
+|part|[Bool](/API_docs/types/Bool.md) | Optional|Indicates that not full page preview is available to the client and it will need to fetch full Instant View from the server using [messages.getWebPagePreview](../methods/messages.getWebPagePreview.md).|
+|rtl|[Bool](/API_docs/types/Bool.md) | Optional|Whether the page contains RTL text|
+|v2|[Bool](/API_docs/types/Bool.md) | Optional|Whether this is an [IV v2](https://instantview.telegram.org/docs#what-39s-new-in-2-0) page|
+|url|[string](/API_docs/types/string.md) | Yes|Original page HTTP URL|
+|blocks|Array of [PageBlock](/API_docs/types/PageBlock.md) | Yes|Page elements (like with HTML elements, only as TL constructors)|
+|photos|Array of [Photo](/API_docs/types/Photo.md) | Yes|Photos in page|
+|documents|Array of [Document](/API_docs/types/Document.md) | Yes|Media in page|
+|views|[int](/API_docs/types/int.md) | Optional|Viewcount|
 
 
 
-### Type: [Page](../types/Page.md)
+### Type: [Page](/API_docs/types/Page.md)
 
 
 ### Example:

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionExportedInviteEdit  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -13,12 +13,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|prev\_invite|[ExportedChatInvite](../types/ExportedChatInvite.md) | Yes|
-|new\_invite|[ExportedChatInvite](../types/ExportedChatInvite.md) | Yes|
+|prev\_invite|[ExportedChatInvite](/API_docs/types/ExportedChatInvite.md) | Yes|
+|new\_invite|[ExportedChatInvite](/API_docs/types/ExportedChatInvite.md) | Yes|
 
 
 
-### Type: [ChannelAdminLogEventAction](../types/ChannelAdminLogEventAction.md)
+### Type: [ChannelAdminLogEventAction](/API_docs/types/ChannelAdminLogEventAction.md)
 
 
 ### Example:

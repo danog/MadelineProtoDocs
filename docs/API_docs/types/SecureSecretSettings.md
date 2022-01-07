@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[secureSecretSettings](../constructors/secureSecretSettings.md)  
+[secureSecretSettings](/API_docs/constructors/secureSecretSettings.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[secureSecretSettings](../constructors/secureSecretSettings.md)  
+[secureSecretSettings](/API_docs/constructors/secureSecretSettings.md)  
 

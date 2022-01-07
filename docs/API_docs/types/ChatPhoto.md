@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[chatPhotoEmpty](../constructors/chatPhotoEmpty.md)  
+[chatPhotoEmpty](/API_docs/constructors/chatPhotoEmpty.md)  
 
-[chatPhoto](../constructors/chatPhoto.md)  
+[chatPhoto](/API_docs/constructors/chatPhoto.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[chatPhotoEmpty](../constructors/chatPhotoEmpty.md)  
+[chatPhotoEmpty](/API_docs/constructors/chatPhotoEmpty.md)  
 
-[chatPhoto](../constructors/chatPhoto.md)  
+[chatPhoto](/API_docs/constructors/chatPhoto.md)  
 

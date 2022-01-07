@@ -17,13 +17,13 @@ You cannot use this method directly, see https://docs.madelineproto.xyz#calls fo
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|video|[Bool](../types/Bool.md) | Whether to start a video call | Optional|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Destination of the phone call | Optional|
-|g\_a\_hash|[bytes](../types/bytes.md) | [Parameter for E2E encryption key exchange »](https://core.telegram.org/api/end-to-end/voice-calls) | Yes|
-|protocol|[PhoneCallProtocol](../types/PhoneCallProtocol.md) | Phone call settings | Yes|
+|video|[Bool](/API_docs/types/Bool.md) | Whether to start a video call | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | Destination of the phone call | Optional|
+|g\_a\_hash|[bytes](/API_docs/types/bytes.md) | [Parameter for E2E encryption key exchange »](https://core.telegram.org/api/end-to-end/voice-calls) | Yes|
+|protocol|[PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.md) | Phone call settings | Yes|
 
 
-### Return type: [phone.PhoneCall](../types/phone.PhoneCall.md)
+### Return type: [phone.PhoneCall](/API_docs/types/phone.PhoneCall.md)
 
 ### Can bots use this method: **NO**
 

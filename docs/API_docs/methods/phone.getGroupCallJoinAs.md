@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/phone_getGroupCallJoinAs.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
 
 
-### Return type: [phone.JoinAsPeers](../types/phone.JoinAsPeers.md)
+### Return type: [phone.JoinAsPeers](/API_docs/types/phone.JoinAsPeers.md)
 
 ### Can bots use this method: **NO**
 

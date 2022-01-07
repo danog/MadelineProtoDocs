@@ -17,11 +17,11 @@ You cannot use this method directly; use $MadelineProto->update2fa($params), ins
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|password|[InputCheckPasswordSRP](../types/InputCheckPasswordSRP.md) | The old password (see [SRP](https://core.telegram.org/api/srp)) | Yes|
-|new\_settings|[account.PasswordInputSettings](../types/account.PasswordInputSettings.md) | The new password (see [SRP](https://core.telegram.org/api/srp)) | Yes|
+|password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.md) | The old password (see [SRP](https://core.telegram.org/api/srp)) | Yes|
+|new\_settings|[account.PasswordInputSettings](/API_docs/types/account.PasswordInputSettings.md) | The new password (see [SRP](https://core.telegram.org/api/srp)) | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

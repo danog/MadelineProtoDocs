@@ -11,21 +11,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[globalPrivacySettings](../constructors/globalPrivacySettings.md)  
+[globalPrivacySettings](/API_docs/constructors/globalPrivacySettings.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->getGlobalPrivacySettings](../methods/account.getGlobalPrivacySettings.md)  
+[$MadelineProto->account->getGlobalPrivacySettings](/API_docs/methods/account.getGlobalPrivacySettings.md)  
 
-[$MadelineProto->account->setGlobalPrivacySettings](../methods/account.setGlobalPrivacySettings.md)  
+[$MadelineProto->account->setGlobalPrivacySettings](/API_docs/methods/account.setGlobalPrivacySettings.md)  
 
 
 
-[globalPrivacySettings](../constructors/globalPrivacySettings.md)  
+[globalPrivacySettings](/API_docs/constructors/globalPrivacySettings.md)  
 
-[$MadelineProto->account->getGlobalPrivacySettings](../methods/account.getGlobalPrivacySettings.md)  
+[$MadelineProto->account->getGlobalPrivacySettings](/API_docs/methods/account.getGlobalPrivacySettings.md)  
 
-[$MadelineProto->account->setGlobalPrivacySettings](../methods/account.setGlobalPrivacySettings.md)  
+[$MadelineProto->account->setGlobalPrivacySettings](/API_docs/methods/account.setGlobalPrivacySettings.md)  
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatPhotoEmpty  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,7 +14,7 @@ Group photo is not set.
 
 
 
-### Type: [ChatPhoto](../types/ChatPhoto.md)
+### Type: [ChatPhoto](/API_docs/types/ChatPhoto.md)
 
 
 ### Example:

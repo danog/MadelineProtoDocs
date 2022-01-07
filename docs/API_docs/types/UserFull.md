@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[userFull](../constructors/userFull.md)  
+[userFull](/API_docs/constructors/userFull.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[userFull](../constructors/userFull.md)  
+[userFull](/API_docs/constructors/userFull.md)  
 

@@ -17,11 +17,11 @@ Get [channel statistics](https://core.telegram.org/api/stats)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|dark|[Bool](../types/Bool.md) | Whether to enable dark theme for graph colors | Optional|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel | Optional|
+|dark|[Bool](/API_docs/types/Bool.md) | Whether to enable dark theme for graph colors | Optional|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | The channel | Optional|
 
 
-### Return type: [stats.BroadcastStats](../types/stats.BroadcastStats.md)
+### Return type: [stats.BroadcastStats](/API_docs/types/stats.BroadcastStats.md)
 
 ### Can bots use this method: **NO**
 

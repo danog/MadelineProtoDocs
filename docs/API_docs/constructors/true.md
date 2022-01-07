@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: true  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,7 +14,7 @@ See [predefined identifiers](https://core.telegram.org/mtproto/TL-formal#predefi
 
 
 
-### Type: [True](../types/True.md)
+### Type: [True](/API_docs/types/True.md)
 
 
 ### Example:

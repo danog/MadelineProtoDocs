@@ -11,29 +11,29 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[webPageEmpty](../constructors/webPageEmpty.md)  
+[webPageEmpty](/API_docs/constructors/webPageEmpty.md)  
 
-[webPagePending](../constructors/webPagePending.md)  
+[webPagePending](/API_docs/constructors/webPagePending.md)  
 
-[webPage](../constructors/webPage.md)  
+[webPage](/API_docs/constructors/webPage.md)  
 
-[webPageNotModified](../constructors/webPageNotModified.md)  
+[webPageNotModified](/API_docs/constructors/webPageNotModified.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getWebPage](../methods/messages.getWebPage.md)  
+[$MadelineProto->messages->getWebPage](/API_docs/methods/messages.getWebPage.md)  
 
 
 
-[webPageEmpty](../constructors/webPageEmpty.md)  
+[webPageEmpty](/API_docs/constructors/webPageEmpty.md)  
 
-[webPagePending](../constructors/webPagePending.md)  
+[webPagePending](/API_docs/constructors/webPagePending.md)  
 
-[webPage](../constructors/webPage.md)  
+[webPage](/API_docs/constructors/webPage.md)  
 
-[webPageNotModified](../constructors/webPageNotModified.md)  
+[webPageNotModified](/API_docs/constructors/webPageNotModified.md)  
 
-[$MadelineProto->messages->getWebPage](../methods/messages.getWebPage.md)  
+[$MadelineProto->messages->getWebPage](/API_docs/methods/messages.getWebPage.md)  
 

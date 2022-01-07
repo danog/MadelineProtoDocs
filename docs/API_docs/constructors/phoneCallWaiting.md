@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: phoneCallWaiting  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,18 +15,18 @@ Incoming phone call
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|video|[Bool](../types/Bool.md) | Optional|Is this a video call|
-|id|[long](../types/long.md) | Yes|Call ID|
-|access\_hash|[long](../types/long.md) | Yes|Access hash|
-|date|[int](../types/int.md) | Yes|Date|
-|admin\_id|[long](../types/long.md) | Yes|
-|participant\_id|[long](../types/long.md) | Yes|
-|protocol|[PhoneCallProtocol](../types/PhoneCallProtocol.md) | Yes|Phone call protocol info|
-|receive\_date|[int](../types/int.md) | Optional|When was the phone call received|
+|video|[Bool](/API_docs/types/Bool.md) | Optional|Is this a video call|
+|id|[long](/API_docs/types/long.md) | Yes|Call ID|
+|access\_hash|[long](/API_docs/types/long.md) | Yes|Access hash|
+|date|[int](/API_docs/types/int.md) | Yes|Date|
+|admin\_id|[long](/API_docs/types/long.md) | Yes|
+|participant\_id|[long](/API_docs/types/long.md) | Yes|
+|protocol|[PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.md) | Yes|Phone call protocol info|
+|receive\_date|[int](/API_docs/types/int.md) | Optional|When was the phone call received|
 
 
 
-### Type: [PhoneCall](../types/PhoneCall.md)
+### Type: [PhoneCall](/API_docs/types/PhoneCall.md)
 
 
 ### Example:

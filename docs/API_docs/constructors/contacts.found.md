@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/contacts_found.html
 ---
 # Constructor: contacts.found  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,14 +16,14 @@ Users found by name substring and auxiliary data.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|my\_results|Array of [Peer](../types/Peer.md) | Yes|Personalized results|
-|results|Array of [Peer](../types/Peer.md) | Yes|List of found user identifiers|
-|chats|Array of [Chat](../types/Chat.md) | Yes|Found chats|
-|users|Array of [User](../types/User.md) | Yes|List of users|
+|my\_results|Array of [Peer](/API_docs/types/Peer.md) | Yes|Personalized results|
+|results|Array of [Peer](/API_docs/types/Peer.md) | Yes|List of found user identifiers|
+|chats|Array of [Chat](/API_docs/types/Chat.md) | Yes|Found chats|
+|users|Array of [User](/API_docs/types/User.md) | Yes|List of users|
 
 
 
-### Type: [contacts.Found](../types/contacts.Found.md)
+### Type: [contacts.Found](/API_docs/types/contacts.Found.md)
 
 
 ### Example:

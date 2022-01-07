@@ -12,21 +12,21 @@ redirect_from: /API_docs/types/messages_FavedStickers.html
 
 ### Possible values (constructors):
 
-[messages.favedStickersNotModified](../constructors/messages.favedStickersNotModified.md)  
+[messages.favedStickersNotModified](/API_docs/constructors/messages.favedStickersNotModified.md)  
 
-[messages.favedStickers](../constructors/messages.favedStickers.md)  
+[messages.favedStickers](/API_docs/constructors/messages.favedStickers.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getFavedStickers](../methods/messages.getFavedStickers.md)  
+[$MadelineProto->messages->getFavedStickers](/API_docs/methods/messages.getFavedStickers.md)  
 
 
 
-[messages.favedStickersNotModified](../constructors/messages.favedStickersNotModified.md)  
+[messages.favedStickersNotModified](/API_docs/constructors/messages.favedStickersNotModified.md)  
 
-[messages.favedStickers](../constructors/messages.favedStickers.md)  
+[messages.favedStickers](/API_docs/constructors/messages.favedStickers.md)  
 
-[$MadelineProto->messages->getFavedStickers](../methods/messages.getFavedStickers.md)  
+[$MadelineProto->messages->getFavedStickers](/API_docs/methods/messages.getFavedStickers.md)  
 

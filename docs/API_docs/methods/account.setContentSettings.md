@@ -17,10 +17,10 @@ Set sensitive content settings (for viewing or hiding NSFW content)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|sensitive\_enabled|[Bool](../types/Bool.md) | Enable NSFW content | Optional|
+|sensitive\_enabled|[Bool](/API_docs/types/Bool.md) | Enable NSFW content | Optional|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

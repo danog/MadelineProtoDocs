@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: notifyBroadcasts  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,7 +14,7 @@ Channel notification settings
 
 
 
-### Type: [NotifyPeer](../types/NotifyPeer.md)
+### Type: [NotifyPeer](/API_docs/types/NotifyPeer.md)
 
 
 ### Example:

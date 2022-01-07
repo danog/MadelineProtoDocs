@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: fileHash  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,13 +15,13 @@ SHA256 Hash of an uploaded file, to be checked for validity after download
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|offset|[int](../types/int.md) | Yes|Offset from where to start computing SHA-256 hash|
-|limit|[int](../types/int.md) | Yes|Length|
-|hash|[bytes](../types/bytes.md) | Yes|SHA-256 Hash of file chunk, to be checked for validity after download|
+|offset|[int](/API_docs/types/int.md) | Yes|Offset from where to start computing SHA-256 hash|
+|limit|[int](/API_docs/types/int.md) | Yes|Length|
+|hash|[bytes](/API_docs/types/bytes.md) | Yes|SHA-256 Hash of file chunk, to be checked for validity after download|
 
 
 
-### Type: [FileHash](../types/FileHash.md)
+### Type: [FileHash](/API_docs/types/FileHash.md)
 
 
 ### Example:

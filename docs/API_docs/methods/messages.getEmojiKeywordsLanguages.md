@@ -17,10 +17,10 @@ Get info about an emoji keyword localization
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|lang\_codes|Array of [string](../types/string.md) | Language codes | Yes|
+|lang\_codes|Array of [string](/API_docs/types/string.md) | Language codes | Yes|
 
 
-### Return type: [Vector\_of\_EmojiLanguage](../types/EmojiLanguage.md)
+### Return type: [Vector\_of\_EmojiLanguage](/API_docs/types/EmojiLanguage.md)
 
 ### Can bots use this method: **NO**
 

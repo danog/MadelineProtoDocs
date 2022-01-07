@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/channels_getSendAs.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
 
 
-### Return type: [channels.SendAsPeers](../types/channels.SendAsPeers.md)
+### Return type: [channels.SendAsPeers](/API_docs/types/channels.SendAsPeers.md)
 
 ### Can bots use this method: **YES**
 

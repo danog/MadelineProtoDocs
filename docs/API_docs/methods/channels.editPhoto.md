@@ -17,11 +17,11 @@ Change the photo of a [channel/supergroup](https://core.telegram.org/api/channel
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Channel/supergroup whose photo should be edited | Optional|
-|photo|[InputChatPhoto](../types/InputChatPhoto.md) | New photo | Optional|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | Channel/supergroup whose photo should be edited | Optional|
+|photo|[InputChatPhoto](/API_docs/types/InputChatPhoto.md) | New photo | Optional|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **YES**
 

@@ -17,11 +17,11 @@ Get [supergroup statistics](https://core.telegram.org/api/stats)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|dark|[Bool](../types/Bool.md) | Whether to enable dark theme for graph colors | Optional|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | [Supergroup ID](https://core.telegram.org/api/channel) | Optional|
+|dark|[Bool](/API_docs/types/Bool.md) | Whether to enable dark theme for graph colors | Optional|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | [Supergroup ID](https://core.telegram.org/api/channel) | Optional|
 
 
-### Return type: [stats.MegagroupStats](../types/stats.MegagroupStats.md)
+### Return type: [stats.MegagroupStats](/API_docs/types/stats.MegagroupStats.md)
 
 ### Can bots use this method: **NO**
 

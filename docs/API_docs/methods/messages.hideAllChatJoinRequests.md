@@ -15,12 +15,12 @@ redirect_from: /API_docs/methods/messages_hideAllChatJoinRequests.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|approved|[Bool](../types/Bool.md) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
-|link|[string](../types/string.md) | Optional|
+|approved|[Bool](/API_docs/types/Bool.md) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
+|link|[string](/API_docs/types/string.md) | Optional|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **YES**
 

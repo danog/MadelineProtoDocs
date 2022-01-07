@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: documentAttributeVideo\_23  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,13 +15,13 @@ Defines a video
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|duration|[int](../types/int.md) | Optional|Duration in seconds|
-|w|[int](../types/int.md) | Optional|Video width|
-|h|[int](../types/int.md) | Optional|Video height|
+|duration|[int](/API_docs/types/int.md) | Optional|Duration in seconds|
+|w|[int](/API_docs/types/int.md) | Optional|Video width|
+|h|[int](/API_docs/types/int.md) | Optional|Video height|
 
 
 
-### Type: [DocumentAttribute](../types/DocumentAttribute.md)
+### Type: [DocumentAttribute](/API_docs/types/DocumentAttribute.md)
 
 
 ### Example:

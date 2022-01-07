@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/upload_WebFile.html
 
 ### Possible values (constructors):
 
-[upload.webFile](../constructors/upload.webFile.md)  
+[upload.webFile](/API_docs/constructors/upload.webFile.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->upload->getWebFile](../methods/upload.getWebFile.md)  
+[$MadelineProto->upload->getWebFile](/API_docs/methods/upload.getWebFile.md)  
 
 
 
-[upload.webFile](../constructors/upload.webFile.md)  
+[upload.webFile](/API_docs/constructors/upload.webFile.md)  
 
-[$MadelineProto->upload->getWebFile](../methods/upload.getWebFile.md)  
+[$MadelineProto->upload->getWebFile](/API_docs/methods/upload.getWebFile.md)  
 

@@ -17,11 +17,11 @@ Invite users to a channel/supergroup
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Channel/supergroup | Optional|
-|users|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Users to invite | Yes|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | Channel/supergroup | Optional|
+|users|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | Users to invite | Yes|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

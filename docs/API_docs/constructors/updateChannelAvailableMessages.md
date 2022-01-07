@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelAvailableMessages  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ The history of a [channel/supergroup](https://core.telegram.org/api/channel) was
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[long](../types/long.md) | Yes|
-|available\_min\_id|[int](../types/int.md) | Yes|Identifier of a maximum unavailable message in a channel due to hidden history.|
+|channel\_id|[long](/API_docs/types/long.md) | Yes|
+|available\_min\_id|[int](/API_docs/types/int.md) | Yes|Identifier of a maximum unavailable message in a channel due to hidden history.|
 
 
 
-### Type: [Update](../types/Update.md)
+### Type: [Update](/API_docs/types/Update.md)
 
 
 ### Example:

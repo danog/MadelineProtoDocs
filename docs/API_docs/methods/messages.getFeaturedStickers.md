@@ -17,10 +17,10 @@ Get featured stickers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[long](../types/long.md) |  | Yes|
+|hash|[long](/API_docs/types/long.md) |  | Yes|
 
 
-### Return type: [messages.FeaturedStickers](../types/messages.FeaturedStickers.md)
+### Return type: [messages.FeaturedStickers](/API_docs/types/messages.FeaturedStickers.md)
 
 ### Can bots use this method: **NO**
 

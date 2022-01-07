@@ -11,17 +11,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[userStatusEmpty](../constructors/userStatusEmpty.md)  
+[userStatusEmpty](/API_docs/constructors/userStatusEmpty.md)  
 
-[userStatusOnline](../constructors/userStatusOnline.md)  
+[userStatusOnline](/API_docs/constructors/userStatusOnline.md)  
 
-[userStatusOffline](../constructors/userStatusOffline.md)  
+[userStatusOffline](/API_docs/constructors/userStatusOffline.md)  
 
-[userStatusRecently](../constructors/userStatusRecently.md)  
+[userStatusRecently](/API_docs/constructors/userStatusRecently.md)  
 
-[userStatusLastWeek](../constructors/userStatusLastWeek.md)  
+[userStatusLastWeek](/API_docs/constructors/userStatusLastWeek.md)  
 
-[userStatusLastMonth](../constructors/userStatusLastMonth.md)  
+[userStatusLastMonth](/API_docs/constructors/userStatusLastMonth.md)  
 
 
 
@@ -29,15 +29,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[userStatusEmpty](../constructors/userStatusEmpty.md)  
+[userStatusEmpty](/API_docs/constructors/userStatusEmpty.md)  
 
-[userStatusOnline](../constructors/userStatusOnline.md)  
+[userStatusOnline](/API_docs/constructors/userStatusOnline.md)  
 
-[userStatusOffline](../constructors/userStatusOffline.md)  
+[userStatusOffline](/API_docs/constructors/userStatusOffline.md)  
 
-[userStatusRecently](../constructors/userStatusRecently.md)  
+[userStatusRecently](/API_docs/constructors/userStatusRecently.md)  
 
-[userStatusLastWeek](../constructors/userStatusLastWeek.md)  
+[userStatusLastWeek](/API_docs/constructors/userStatusLastWeek.md)  
 
-[userStatusLastMonth](../constructors/userStatusLastMonth.md)  
+[userStatusLastMonth](/API_docs/constructors/userStatusLastMonth.md)  
 

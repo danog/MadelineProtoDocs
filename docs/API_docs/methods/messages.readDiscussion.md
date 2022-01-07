@@ -17,12 +17,12 @@ Mark a [thread](https://core.telegram.org/api/threads) as read
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Group ID | Optional|
-|msg\_id|[int](../types/int.md) | ID of message that started the thread | Yes|
-|read\_max\_id|[int](../types/int.md) | ID up to which thread messages were read | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Group ID | Optional|
+|msg\_id|[int](/API_docs/types/int.md) | ID of message that started the thread | Yes|
+|read\_max\_id|[int](/API_docs/types/int.md) | ID up to which thread messages were read | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

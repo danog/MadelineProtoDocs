@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[wallPaperSettings](../constructors/wallPaperSettings.md)  
+[wallPaperSettings](/API_docs/constructors/wallPaperSettings.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[wallPaperSettings](../constructors/wallPaperSettings.md)  
+[wallPaperSettings](/API_docs/constructors/wallPaperSettings.md)  
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaVenue\_46  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,16 +15,16 @@ Venue
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|lat|[double](../types/double.md) | Yes|Latitude of venue|
-|long|[double](../types/double.md) | Yes|Longitude of venue|
-|title|[string](../types/string.md) | Yes|Venue name|
-|address|[string](../types/string.md) | Yes|Address|
-|provider|[string](../types/string.md) | Yes|Venue provider: currently only "foursquare" needs to be supported|
-|venue\_id|[string](../types/string.md) | Yes|Venue ID in the provider's database|
+|lat|[double](/API_docs/types/double.md) | Yes|Latitude of venue|
+|long|[double](/API_docs/types/double.md) | Yes|Longitude of venue|
+|title|[string](/API_docs/types/string.md) | Yes|Venue name|
+|address|[string](/API_docs/types/string.md) | Yes|Address|
+|provider|[string](/API_docs/types/string.md) | Yes|Venue provider: currently only "foursquare" needs to be supported|
+|venue\_id|[string](/API_docs/types/string.md) | Yes|Venue ID in the provider's database|
 
 
 
-### Type: [DecryptedMessageMedia](../types/DecryptedMessageMedia.md)
+### Type: [DecryptedMessageMedia](/API_docs/types/DecryptedMessageMedia.md)
 
 
 ### Example:

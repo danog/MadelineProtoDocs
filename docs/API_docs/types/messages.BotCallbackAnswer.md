@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/messages_BotCallbackAnswer.html
 
 ### Possible values (constructors):
 
-[messages.botCallbackAnswer](../constructors/messages.botCallbackAnswer.md)  
+[messages.botCallbackAnswer](/API_docs/constructors/messages.botCallbackAnswer.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getBotCallbackAnswer](../methods/messages.getBotCallbackAnswer.md)  
+[$MadelineProto->messages->getBotCallbackAnswer](/API_docs/methods/messages.getBotCallbackAnswer.md)  
 
 
 
-[messages.botCallbackAnswer](../constructors/messages.botCallbackAnswer.md)  
+[messages.botCallbackAnswer](/API_docs/constructors/messages.botCallbackAnswer.md)  
 
-[$MadelineProto->messages->getBotCallbackAnswer](../methods/messages.getBotCallbackAnswer.md)  
+[$MadelineProto->messages->getBotCallbackAnswer](/API_docs/methods/messages.getBotCallbackAnswer.md)  
 

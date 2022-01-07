@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[webDocument](../constructors/webDocument.md)  
+[webDocument](/API_docs/constructors/webDocument.md)  
 
-[webDocumentNoProxy](../constructors/webDocumentNoProxy.md)  
+[webDocumentNoProxy](/API_docs/constructors/webDocumentNoProxy.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[webDocument](../constructors/webDocument.md)  
+[webDocument](/API_docs/constructors/webDocument.md)  
 
-[webDocumentNoProxy](../constructors/webDocumentNoProxy.md)  
+[webDocumentNoProxy](/API_docs/constructors/webDocumentNoProxy.md)  
 

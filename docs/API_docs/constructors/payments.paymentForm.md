@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/payments_paymentForm.html
 ---
 # Constructor: payments.paymentForm  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,22 +16,22 @@ Payment form
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|can\_save\_credentials|[Bool](../types/Bool.md) | Optional|Whether the user can choose to save credentials.|
-|password\_missing|[Bool](../types/Bool.md) | Optional|Indicates that the user can save payment credentials, but only after setting up a [2FA password](https://core.telegram.org/api/srp) (currently the account doesn't have a [2FA password](https://core.telegram.org/api/srp))|
-|form\_id|[long](../types/long.md) | Yes|
-|bot\_id|[long](../types/long.md) | Yes|
-|invoice|[Invoice](../types/Invoice.md) | Yes|Invoice|
-|provider\_id|[long](../types/long.md) | Yes|
-|url|[string](../types/string.md) | Yes|Payment form URL|
-|native\_provider|[string](../types/string.md) | Optional|Payment provider name.<br>One of the following:<br>\- `stripe`|
-|native\_params|[DataJSON](../types/DataJSON.md) | Optional|Contains information about the payment provider, if available, to support it natively without the need for opening the URL.<br>A JSON object that can contain the following fields:<br><br>\- `publishable_key`: Stripe API publishable key<br>\- `apple_pay_merchant_id`: Apple Pay merchant ID<br>\- `android_pay_public_key`: Android Pay public key<br>\- `android_pay_bgcolor`: Android Pay form background color<br>\- `android_pay_inverse`: Whether to use the dark theme in the Android Pay form<br>\- `need_country`: True, if the user country must be provided,<br>\- `need_zip`: True, if the user ZIP/postal code must be provided,<br>\- `need_cardholder_name`: True, if the cardholder name must be provided<br>|
-|saved\_info|[PaymentRequestedInfo](../types/PaymentRequestedInfo.md) | Optional|Saved server-side order information|
-|saved\_credentials|[PaymentSavedCredentials](../types/PaymentSavedCredentials.md) | Optional|Contains information about saved card credentials|
-|users|Array of [User](../types/User.md) | Yes|Users|
+|can\_save\_credentials|[Bool](/API_docs/types/Bool.md) | Optional|Whether the user can choose to save credentials.|
+|password\_missing|[Bool](/API_docs/types/Bool.md) | Optional|Indicates that the user can save payment credentials, but only after setting up a [2FA password](https://core.telegram.org/api/srp) (currently the account doesn't have a [2FA password](https://core.telegram.org/api/srp))|
+|form\_id|[long](/API_docs/types/long.md) | Yes|
+|bot\_id|[long](/API_docs/types/long.md) | Yes|
+|invoice|[Invoice](/API_docs/types/Invoice.md) | Yes|Invoice|
+|provider\_id|[long](/API_docs/types/long.md) | Yes|
+|url|[string](/API_docs/types/string.md) | Yes|Payment form URL|
+|native\_provider|[string](/API_docs/types/string.md) | Optional|Payment provider name.<br>One of the following:<br>\- `stripe`|
+|native\_params|[DataJSON](/API_docs/types/DataJSON.md) | Optional|Contains information about the payment provider, if available, to support it natively without the need for opening the URL.<br>A JSON object that can contain the following fields:<br><br>\- `publishable_key`: Stripe API publishable key<br>\- `apple_pay_merchant_id`: Apple Pay merchant ID<br>\- `android_pay_public_key`: Android Pay public key<br>\- `android_pay_bgcolor`: Android Pay form background color<br>\- `android_pay_inverse`: Whether to use the dark theme in the Android Pay form<br>\- `need_country`: True, if the user country must be provided,<br>\- `need_zip`: True, if the user ZIP/postal code must be provided,<br>\- `need_cardholder_name`: True, if the cardholder name must be provided<br>|
+|saved\_info|[PaymentRequestedInfo](/API_docs/types/PaymentRequestedInfo.md) | Optional|Saved server-side order information|
+|saved\_credentials|[PaymentSavedCredentials](/API_docs/types/PaymentSavedCredentials.md) | Optional|Contains information about saved card credentials|
+|users|Array of [User](/API_docs/types/User.md) | Yes|Users|
 
 
 
-### Type: [payments.PaymentForm](../types/payments.PaymentForm.md)
+### Type: [payments.PaymentForm](/API_docs/types/payments.PaymentForm.md)
 
 
 ### Example:

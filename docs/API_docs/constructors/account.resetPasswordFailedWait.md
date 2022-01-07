@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_resetPasswordFailedWait.html
 ---
 # Constructor: account.resetPasswordFailedWait  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,11 +14,11 @@ redirect_from: /API_docs/constructors/account_resetPasswordFailedWait.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|retry\_date|[int](../types/int.md) | Yes|
+|retry\_date|[int](/API_docs/types/int.md) | Yes|
 
 
 
-### Type: [account.ResetPasswordResult](../types/account.ResetPasswordResult.md)
+### Type: [account.ResetPasswordResult](/API_docs/types/account.ResetPasswordResult.md)
 
 
 ### Example:

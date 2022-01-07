@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputStickerSetItem](../constructors/inputStickerSetItem.md)  
+[inputStickerSetItem](/API_docs/constructors/inputStickerSetItem.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputStickerSetItem](../constructors/inputStickerSetItem.md)  
+[inputStickerSetItem](/API_docs/constructors/inputStickerSetItem.md)  
 

@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[securePlainPhone](../constructors/securePlainPhone.md)  
+[securePlainPhone](/API_docs/constructors/securePlainPhone.md)  
 
-[securePlainEmail](../constructors/securePlainEmail.md)  
+[securePlainEmail](/API_docs/constructors/securePlainEmail.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[securePlainPhone](../constructors/securePlainPhone.md)  
+[securePlainPhone](/API_docs/constructors/securePlainPhone.md)  
 
-[securePlainEmail](../constructors/securePlainEmail.md)  
+[securePlainEmail](/API_docs/constructors/securePlainEmail.md)  
 

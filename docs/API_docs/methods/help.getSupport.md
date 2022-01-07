@@ -15,7 +15,7 @@ Returns the support user for the 'ask a question' feature.
 
 
 
-### Return type: [help.Support](../types/help.Support.md)
+### Return type: [help.Support](/API_docs/types/help.Support.md)
 
 ### Can bots use this method: **NO**
 

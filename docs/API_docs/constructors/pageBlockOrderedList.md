@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockOrderedList  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Ordered list of IV blocks
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|items|Array of [PageListOrderedItem](../types/PageListOrderedItem.md) | Yes|List items|
+|items|Array of [PageListOrderedItem](/API_docs/types/PageListOrderedItem.md) | Yes|List items|
 
 
 
-### Type: [PageBlock](../types/PageBlock.md)
+### Type: [PageBlock](/API_docs/types/PageBlock.md)
 
 
 ### Example:

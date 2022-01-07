@@ -17,10 +17,10 @@ Get count of online users in a chat
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | The chat | Optional|
 
 
-### Return type: [ChatOnlines](../types/ChatOnlines.md)
+### Return type: [ChatOnlines](/API_docs/types/ChatOnlines.md)
 
 ### Can bots use this method: **NO**
 

@@ -17,11 +17,11 @@ Associate a stickerset to the supergroup
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Supergroup | Optional|
-|stickerset|[InputStickerSet](../types/InputStickerSet.md) | The stickerset to associate | Optional|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | Supergroup | Optional|
+|stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.md) | The stickerset to associate | Optional|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **YES**
 

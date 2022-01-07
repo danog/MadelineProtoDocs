@@ -17,11 +17,11 @@ Change privacy settings of current account
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|key|[InputPrivacyKey](../types/InputPrivacyKey.md) | Peers to which the privacy rules apply | Yes|
-|rules|Array of [InputPrivacyRule](../types/InputPrivacyRule.md) | New privacy rules | Yes|
+|key|[InputPrivacyKey](/API_docs/types/InputPrivacyKey.md) | Peers to which the privacy rules apply | Yes|
+|rules|Array of [InputPrivacyRule](/API_docs/types/InputPrivacyRule.md) | New privacy rules | Yes|
 
 
-### Return type: [account.PrivacyRules](../types/account.PrivacyRules.md)
+### Return type: [account.PrivacyRules](/API_docs/types/account.PrivacyRules.md)
 
 ### Can bots use this method: **NO**
 

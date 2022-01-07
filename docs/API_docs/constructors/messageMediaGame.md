@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaGame  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Telegram game
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|game|[Game](../types/Game.md) | Yes|Game|
+|game|[Game](/API_docs/types/Game.md) | Yes|Game|
 
 
 
-### Type: [MessageMedia](../types/MessageMedia.md)
+### Type: [MessageMedia](/API_docs/types/MessageMedia.md)
 
 
 ### Example:

@@ -17,10 +17,10 @@ Get contact by telegram IDs
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[long](../types/long.md) |  | Yes|
+|hash|[long](/API_docs/types/long.md) |  | Yes|
 
 
-### Return type: [Vector\_of\_int](../types/int.md)
+### Return type: [Vector\_of\_int](/API_docs/types/int.md)
 
 ### Can bots use this method: **NO**
 

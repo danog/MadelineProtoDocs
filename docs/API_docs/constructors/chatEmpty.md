@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatEmpty  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Empty constructor, group doesn't exist
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|
+|id|[long](/API_docs/types/long.md) | Yes|
 
 
 
-### Type: [Chat](../types/Chat.md)
+### Type: [Chat](/API_docs/types/Chat.md)
 
 
 ### Example:

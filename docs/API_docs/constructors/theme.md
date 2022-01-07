@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: theme  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,21 +15,21 @@ Theme
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|creator|[Bool](../types/Bool.md) | Optional|Whether the current user is the creator of this theme|
-|default|[Bool](../types/Bool.md) | Optional|Whether this is the default theme|
-|for\_chat|[Bool](../types/Bool.md) | Optional|
-|id|[long](../types/long.md) | Yes|Theme ID|
-|access\_hash|[long](../types/long.md) | Yes|Theme access hash|
-|slug|[string](../types/string.md) | Yes|Unique theme ID|
-|title|[string](../types/string.md) | Yes|Theme name|
-|document|[Document](../types/Document.md) | Optional|Theme|
-|settings|Array of [ThemeSettings](../types/ThemeSettings.md) | Optional|
-|emoticon|[string](../types/string.md) | Optional|
-|installs\_count|[int](../types/int.md) | Optional|Installation count|
+|creator|[Bool](/API_docs/types/Bool.md) | Optional|Whether the current user is the creator of this theme|
+|default|[Bool](/API_docs/types/Bool.md) | Optional|Whether this is the default theme|
+|for\_chat|[Bool](/API_docs/types/Bool.md) | Optional|
+|id|[long](/API_docs/types/long.md) | Yes|Theme ID|
+|access\_hash|[long](/API_docs/types/long.md) | Yes|Theme access hash|
+|slug|[string](/API_docs/types/string.md) | Yes|Unique theme ID|
+|title|[string](/API_docs/types/string.md) | Yes|Theme name|
+|document|[Document](/API_docs/types/Document.md) | Optional|Theme|
+|settings|Array of [ThemeSettings](/API_docs/types/ThemeSettings.md) | Optional|
+|emoticon|[string](/API_docs/types/string.md) | Optional|
+|installs\_count|[int](/API_docs/types/int.md) | Optional|Installation count|
 
 
 
-### Type: [Theme](../types/Theme.md)
+### Type: [Theme](/API_docs/types/Theme.md)
 
 
 ### Example:

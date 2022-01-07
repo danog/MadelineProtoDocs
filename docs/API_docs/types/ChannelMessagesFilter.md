@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[channelMessagesFilterEmpty](../constructors/channelMessagesFilterEmpty.md)  
+[channelMessagesFilterEmpty](/API_docs/constructors/channelMessagesFilterEmpty.md)  
 
-[channelMessagesFilter](../constructors/channelMessagesFilter.md)  
+[channelMessagesFilter](/API_docs/constructors/channelMessagesFilter.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[channelMessagesFilterEmpty](../constructors/channelMessagesFilterEmpty.md)  
+[channelMessagesFilterEmpty](/API_docs/constructors/channelMessagesFilterEmpty.md)  
 
-[channelMessagesFilter](../constructors/channelMessagesFilter.md)  
+[channelMessagesFilter](/API_docs/constructors/channelMessagesFilter.md)  
 

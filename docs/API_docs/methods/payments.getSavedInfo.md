@@ -15,7 +15,7 @@ Get saved payment information
 
 
 
-### Return type: [payments.SavedInfo](../types/payments.SavedInfo.md)
+### Return type: [payments.SavedInfo](/API_docs/types/payments.SavedInfo.md)
 
 ### Can bots use this method: **NO**
 

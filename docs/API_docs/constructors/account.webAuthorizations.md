@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_webAuthorizations.html
 ---
 # Constructor: account.webAuthorizations  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,12 +16,12 @@ Web authorizations
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|authorizations|Array of [WebAuthorization](../types/WebAuthorization.md) | Yes|Web authorization list|
-|users|Array of [User](../types/User.md) | Yes|Users|
+|authorizations|Array of [WebAuthorization](/API_docs/types/WebAuthorization.md) | Yes|Web authorization list|
+|users|Array of [User](/API_docs/types/User.md) | Yes|Users|
 
 
 
-### Type: [account.WebAuthorizations](../types/account.WebAuthorizations.md)
+### Type: [account.WebAuthorizations](/API_docs/types/account.WebAuthorizations.md)
 
 
 ### Example:

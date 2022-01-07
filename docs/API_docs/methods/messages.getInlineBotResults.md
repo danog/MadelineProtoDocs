@@ -17,14 +17,14 @@ Query an inline bot
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|bot|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The bot to query | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The currently opened chat | Optional|
-|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | The geolocation, if requested | Optional|
-|query|[string](../types/string.md) | The query | Yes|
-|offset|[string](../types/string.md) | The offset within the results, will be passed directly as-is to the bot. | Yes|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | The bot to query | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | The currently opened chat | Optional|
+|geo\_point|[InputGeoPoint](/API_docs/types/InputGeoPoint.md) | The geolocation, if requested | Optional|
+|query|[string](/API_docs/types/string.md) | The query | Yes|
+|offset|[string](/API_docs/types/string.md) | The offset within the results, will be passed directly as-is to the bot. | Yes|
 
 
-### Return type: [messages.BotResults](../types/messages.BotResults.md)
+### Return type: [messages.BotResults](/API_docs/types/messages.BotResults.md)
 
 ### Can bots use this method: **NO**
 

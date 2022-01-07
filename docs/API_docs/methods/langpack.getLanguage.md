@@ -17,11 +17,11 @@ Get information about a language in a localization pack
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|lang\_pack|[string](../types/string.md) | Language pack name | Yes|
-|lang\_code|[string](../types/string.md) | Language code | Yes|
+|lang\_pack|[string](/API_docs/types/string.md) | Language pack name | Yes|
+|lang\_code|[string](/API_docs/types/string.md) | Language code | Yes|
 
 
-### Return type: [LangPackLanguage](../types/LangPackLanguage.md)
+### Return type: [LangPackLanguage](/API_docs/types/LangPackLanguage.md)
 
 ### Can bots use this method: **NO**
 

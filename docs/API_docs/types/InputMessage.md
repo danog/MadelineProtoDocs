@@ -18,13 +18,13 @@ $InputMessage = 142; // Numeric message ID
 
 ### Possible values (constructors):
 
-[inputMessageID](../constructors/inputMessageID.md)  
+[inputMessageID](/API_docs/constructors/inputMessageID.md)  
 
-[inputMessageReplyTo](../constructors/inputMessageReplyTo.md)  
+[inputMessageReplyTo](/API_docs/constructors/inputMessageReplyTo.md)  
 
-[inputMessagePinned](../constructors/inputMessagePinned.md)  
+[inputMessagePinned](/API_docs/constructors/inputMessagePinned.md)  
 
-[inputMessageCallbackQuery](../constructors/inputMessageCallbackQuery.md)  
+[inputMessageCallbackQuery](/API_docs/constructors/inputMessageCallbackQuery.md)  
 
 
 
@@ -32,11 +32,11 @@ $InputMessage = 142; // Numeric message ID
 
 
 
-[inputMessageID](../constructors/inputMessageID.md)  
+[inputMessageID](/API_docs/constructors/inputMessageID.md)  
 
-[inputMessageReplyTo](../constructors/inputMessageReplyTo.md)  
+[inputMessageReplyTo](/API_docs/constructors/inputMessageReplyTo.md)  
 
-[inputMessagePinned](../constructors/inputMessagePinned.md)  
+[inputMessagePinned](/API_docs/constructors/inputMessagePinned.md)  
 
-[inputMessageCallbackQuery](../constructors/inputMessageCallbackQuery.md)  
+[inputMessageCallbackQuery](/API_docs/constructors/inputMessageCallbackQuery.md)  
 

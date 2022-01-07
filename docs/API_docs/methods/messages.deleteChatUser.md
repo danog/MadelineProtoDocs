@@ -17,12 +17,12 @@ Deletes a user from a chat and sends a service message on it.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|revoke\_history|[Bool](../types/Bool.md) |  | Optional|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | User ID to be deleted | Optional|
+|revoke\_history|[Bool](/API_docs/types/Bool.md) |  | Optional|
+|chat\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) |  | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | User ID to be deleted | Optional|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **YES**
 

@@ -11,21 +11,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputReportReasonSpam](../constructors/inputReportReasonSpam.md)  
+[inputReportReasonSpam](/API_docs/constructors/inputReportReasonSpam.md)  
 
-[inputReportReasonViolence](../constructors/inputReportReasonViolence.md)  
+[inputReportReasonViolence](/API_docs/constructors/inputReportReasonViolence.md)  
 
-[inputReportReasonPornography](../constructors/inputReportReasonPornography.md)  
+[inputReportReasonPornography](/API_docs/constructors/inputReportReasonPornography.md)  
 
-[inputReportReasonChildAbuse](../constructors/inputReportReasonChildAbuse.md)  
+[inputReportReasonChildAbuse](/API_docs/constructors/inputReportReasonChildAbuse.md)  
 
-[inputReportReasonOther](../constructors/inputReportReasonOther.md)  
+[inputReportReasonOther](/API_docs/constructors/inputReportReasonOther.md)  
 
-[inputReportReasonCopyright](../constructors/inputReportReasonCopyright.md)  
+[inputReportReasonCopyright](/API_docs/constructors/inputReportReasonCopyright.md)  
 
-[inputReportReasonGeoIrrelevant](../constructors/inputReportReasonGeoIrrelevant.md)  
+[inputReportReasonGeoIrrelevant](/API_docs/constructors/inputReportReasonGeoIrrelevant.md)  
 
-[inputReportReasonFake](../constructors/inputReportReasonFake.md)  
+[inputReportReasonFake](/API_docs/constructors/inputReportReasonFake.md)  
 
 
 
@@ -33,19 +33,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputReportReasonSpam](../constructors/inputReportReasonSpam.md)  
+[inputReportReasonSpam](/API_docs/constructors/inputReportReasonSpam.md)  
 
-[inputReportReasonViolence](../constructors/inputReportReasonViolence.md)  
+[inputReportReasonViolence](/API_docs/constructors/inputReportReasonViolence.md)  
 
-[inputReportReasonPornography](../constructors/inputReportReasonPornography.md)  
+[inputReportReasonPornography](/API_docs/constructors/inputReportReasonPornography.md)  
 
-[inputReportReasonChildAbuse](../constructors/inputReportReasonChildAbuse.md)  
+[inputReportReasonChildAbuse](/API_docs/constructors/inputReportReasonChildAbuse.md)  
 
-[inputReportReasonOther](../constructors/inputReportReasonOther.md)  
+[inputReportReasonOther](/API_docs/constructors/inputReportReasonOther.md)  
 
-[inputReportReasonCopyright](../constructors/inputReportReasonCopyright.md)  
+[inputReportReasonCopyright](/API_docs/constructors/inputReportReasonCopyright.md)  
 
-[inputReportReasonGeoIrrelevant](../constructors/inputReportReasonGeoIrrelevant.md)  
+[inputReportReasonGeoIrrelevant](/API_docs/constructors/inputReportReasonGeoIrrelevant.md)  
 
-[inputReportReasonFake](../constructors/inputReportReasonFake.md)  
+[inputReportReasonFake](/API_docs/constructors/inputReportReasonFake.md)  
 

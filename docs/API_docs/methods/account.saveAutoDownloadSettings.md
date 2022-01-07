@@ -17,12 +17,12 @@ Change media autodownload settings
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|low|[Bool](../types/Bool.md) | Whether to save settings in the low data usage preset | Optional|
-|high|[Bool](../types/Bool.md) | Whether to save settings in the high data usage preset | Optional|
-|settings|[AutoDownloadSettings](../types/AutoDownloadSettings.md) | Media autodownload settings | Yes|
+|low|[Bool](/API_docs/types/Bool.md) | Whether to save settings in the low data usage preset | Optional|
+|high|[Bool](/API_docs/types/Bool.md) | Whether to save settings in the high data usage preset | Optional|
+|settings|[AutoDownloadSettings](/API_docs/types/AutoDownloadSettings.md) | Media autodownload settings | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

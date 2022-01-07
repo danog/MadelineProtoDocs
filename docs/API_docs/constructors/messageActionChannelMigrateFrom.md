@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChannelMigrateFrom  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ Indicates the channel was [migrated](https://core.telegram.org/api/channel) from
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|title|[string](../types/string.md) | Yes|The old chat tite|
-|chat\_id|[long](../types/long.md) | Yes|
+|title|[string](/API_docs/types/string.md) | Yes|The old chat tite|
+|chat\_id|[long](/API_docs/types/long.md) | Yes|
 
 
 
-### Type: [MessageAction](../types/MessageAction.md)
+### Type: [MessageAction](/API_docs/types/MessageAction.md)
 
 
 ### Example:

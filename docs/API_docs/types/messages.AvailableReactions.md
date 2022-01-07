@@ -12,21 +12,21 @@ redirect_from: /API_docs/types/messages_AvailableReactions.html
 
 ### Possible values (constructors):
 
-[messages.availableReactionsNotModified](../constructors/messages.availableReactionsNotModified.md)  
+[messages.availableReactionsNotModified](/API_docs/constructors/messages.availableReactionsNotModified.md)  
 
-[messages.availableReactions](../constructors/messages.availableReactions.md)  
+[messages.availableReactions](/API_docs/constructors/messages.availableReactions.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getAvailableReactions](../methods/messages.getAvailableReactions.md)  
+[$MadelineProto->messages->getAvailableReactions](/API_docs/methods/messages.getAvailableReactions.md)  
 
 
 
-[messages.availableReactionsNotModified](../constructors/messages.availableReactionsNotModified.md)  
+[messages.availableReactionsNotModified](/API_docs/constructors/messages.availableReactionsNotModified.md)  
 
-[messages.availableReactions](../constructors/messages.availableReactions.md)  
+[messages.availableReactions](/API_docs/constructors/messages.availableReactions.md)  
 
-[$MadelineProto->messages->getAvailableReactions](../methods/messages.getAvailableReactions.md)  
+[$MadelineProto->messages->getAvailableReactions](/API_docs/methods/messages.getAvailableReactions.md)  
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: statsPercentValue  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,12 +16,12 @@ Compute the percentage simply by doing `part * total / 100`
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|part|[double](../types/double.md) | Yes|Partial value|
-|total|[double](../types/double.md) | Yes|Total value|
+|part|[double](/API_docs/types/double.md) | Yes|Partial value|
+|total|[double](/API_docs/types/double.md) | Yes|Total value|
 
 
 
-### Type: [StatsPercentValue](../types/StatsPercentValue.md)
+### Type: [StatsPercentValue](/API_docs/types/StatsPercentValue.md)
 
 
 ### Example:

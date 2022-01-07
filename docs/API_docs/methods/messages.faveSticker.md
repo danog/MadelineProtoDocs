@@ -17,11 +17,11 @@ Mark a sticker as favorite
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[MessageMedia, Update, Message or InputDocument](../types/InputDocument.md) | Sticker to mark as favorite | Optional|
-|unfave|[Bool](../types/Bool.md) | Unfavorite | Yes|
+|id|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.md) | Sticker to mark as favorite | Optional|
+|unfave|[Bool](/API_docs/types/Bool.md) | Unfavorite | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

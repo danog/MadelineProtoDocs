@@ -12,21 +12,21 @@ redirect_from: /API_docs/types/help_PassportConfig.html
 
 ### Possible values (constructors):
 
-[help.passportConfigNotModified](../constructors/help.passportConfigNotModified.md)  
+[help.passportConfigNotModified](/API_docs/constructors/help.passportConfigNotModified.md)  
 
-[help.passportConfig](../constructors/help.passportConfig.md)  
+[help.passportConfig](/API_docs/constructors/help.passportConfig.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->help->getPassportConfig](../methods/help.getPassportConfig.md)  
+[$MadelineProto->help->getPassportConfig](/API_docs/methods/help.getPassportConfig.md)  
 
 
 
-[help.passportConfigNotModified](../constructors/help.passportConfigNotModified.md)  
+[help.passportConfigNotModified](/API_docs/constructors/help.passportConfigNotModified.md)  
 
-[help.passportConfig](../constructors/help.passportConfig.md)  
+[help.passportConfig](/API_docs/constructors/help.passportConfig.md)  
 
-[$MadelineProto->help->getPassportConfig](../methods/help.getPassportConfig.md)  
+[$MadelineProto->help->getPassportConfig](/API_docs/methods/help.getPassportConfig.md)  
 

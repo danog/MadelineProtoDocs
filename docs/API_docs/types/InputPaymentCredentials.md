@@ -11,13 +11,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputPaymentCredentialsSaved](../constructors/inputPaymentCredentialsSaved.md)  
+[inputPaymentCredentialsSaved](/API_docs/constructors/inputPaymentCredentialsSaved.md)  
 
-[inputPaymentCredentials](../constructors/inputPaymentCredentials.md)  
+[inputPaymentCredentials](/API_docs/constructors/inputPaymentCredentials.md)  
 
-[inputPaymentCredentialsApplePay](../constructors/inputPaymentCredentialsApplePay.md)  
+[inputPaymentCredentialsApplePay](/API_docs/constructors/inputPaymentCredentialsApplePay.md)  
 
-[inputPaymentCredentialsGooglePay](../constructors/inputPaymentCredentialsGooglePay.md)  
+[inputPaymentCredentialsGooglePay](/API_docs/constructors/inputPaymentCredentialsGooglePay.md)  
 
 
 
@@ -25,11 +25,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputPaymentCredentialsSaved](../constructors/inputPaymentCredentialsSaved.md)  
+[inputPaymentCredentialsSaved](/API_docs/constructors/inputPaymentCredentialsSaved.md)  
 
-[inputPaymentCredentials](../constructors/inputPaymentCredentials.md)  
+[inputPaymentCredentials](/API_docs/constructors/inputPaymentCredentials.md)  
 
-[inputPaymentCredentialsApplePay](../constructors/inputPaymentCredentialsApplePay.md)  
+[inputPaymentCredentialsApplePay](/API_docs/constructors/inputPaymentCredentialsApplePay.md)  
 
-[inputPaymentCredentialsGooglePay](../constructors/inputPaymentCredentialsGooglePay.md)  
+[inputPaymentCredentialsGooglePay](/API_docs/constructors/inputPaymentCredentialsGooglePay.md)  
 

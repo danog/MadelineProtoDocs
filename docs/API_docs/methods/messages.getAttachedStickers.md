@@ -17,10 +17,10 @@ Get stickers attached to a photo or video
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|media|[InputStickeredMedia](../types/InputStickeredMedia.md) | Stickered media | Yes|
+|media|[InputStickeredMedia](/API_docs/types/InputStickeredMedia.md) | Stickered media | Yes|
 
 
-### Return type: [Vector\_of\_StickerSetCovered](../types/StickerSetCovered.md)
+### Return type: [Vector\_of\_StickerSetCovered](/API_docs/types/StickerSetCovered.md)
 
 ### Can bots use this method: **NO**
 

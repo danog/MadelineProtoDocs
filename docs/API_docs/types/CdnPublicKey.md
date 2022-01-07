@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[cdnPublicKey](../constructors/cdnPublicKey.md)  
+[cdnPublicKey](/API_docs/constructors/cdnPublicKey.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[cdnPublicKey](../constructors/cdnPublicKey.md)  
+[cdnPublicKey](/API_docs/constructors/cdnPublicKey.md)  
 

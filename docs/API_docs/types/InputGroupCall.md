@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputGroupCall](../constructors/inputGroupCall.md)  
+[inputGroupCall](/API_docs/constructors/inputGroupCall.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputGroupCall](../constructors/inputGroupCall.md)  
+[inputGroupCall](/API_docs/constructors/inputGroupCall.md)  
 

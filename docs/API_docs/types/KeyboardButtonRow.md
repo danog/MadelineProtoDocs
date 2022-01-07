@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[keyboardButtonRow](../constructors/keyboardButtonRow.md)  
+[keyboardButtonRow](/API_docs/constructors/keyboardButtonRow.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[keyboardButtonRow](../constructors/keyboardButtonRow.md)  
+[keyboardButtonRow](/API_docs/constructors/keyboardButtonRow.md)  
 

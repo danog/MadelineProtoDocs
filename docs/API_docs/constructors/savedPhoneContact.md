@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: savedPhoneContact  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,14 +15,14 @@ Saved contact
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|phone|[string](../types/string.md) | Yes|Phone number|
-|first\_name|[string](../types/string.md) | Yes|First name|
-|last\_name|[string](../types/string.md) | Yes|Last name|
-|date|[int](../types/int.md) | Yes|Date added|
+|phone|[string](/API_docs/types/string.md) | Yes|Phone number|
+|first\_name|[string](/API_docs/types/string.md) | Yes|First name|
+|last\_name|[string](/API_docs/types/string.md) | Yes|Last name|
+|date|[int](/API_docs/types/int.md) | Yes|Date added|
 
 
 
-### Type: [SavedContact](../types/SavedContact.md)
+### Type: [SavedContact](/API_docs/types/SavedContact.md)
 
 
 ### Example:

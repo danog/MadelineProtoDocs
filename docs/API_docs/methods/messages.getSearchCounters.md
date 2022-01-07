@@ -17,11 +17,11 @@ Get the number of results that would be found by a [messages.search](../methods/
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Peer where to search | Optional|
-|filters|Array of [MessagesFilter](../types/MessagesFilter.md) | Search filters | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Peer where to search | Optional|
+|filters|Array of [MessagesFilter](/API_docs/types/MessagesFilter.md) | Search filters | Yes|
 
 
-### Return type: [Vector\_of\_messages.SearchCounter](../types/messages.SearchCounter.md)
+### Return type: [Vector\_of\_messages.SearchCounter](/API_docs/types/messages.SearchCounter.md)
 
 ### Can bots use this method: **NO**
 

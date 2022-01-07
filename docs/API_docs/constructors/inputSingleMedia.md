@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputSingleMedia  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,13 +15,13 @@ A single media in an [album or grouped media](https://core.telegram.org/api/file
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|media|[MessageMedia, Message, Update or InputMedia](../types/InputMedia.md) | Optional|The media|
-|message|[string](../types/string.md) | Yes|A caption for the media|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|Message [entities](https://core.telegram.org/api/entities) for styled text|
+|media|[MessageMedia, Message, Update or InputMedia](/API_docs/types/InputMedia.md) | Optional|The media|
+|message|[string](/API_docs/types/string.md) | Yes|A caption for the media|
+|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.md) | Optional|Message [entities](https://core.telegram.org/api/entities) for styled text|
 
 
 
-### Type: [InputSingleMedia](../types/InputSingleMedia.md)
+### Type: [InputSingleMedia](/API_docs/types/InputSingleMedia.md)
 
 
 ### Example:

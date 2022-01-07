@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/messages_SearchCounter.html
 
 ### Possible values (constructors):
 
-[messages.searchCounter](../constructors/messages.searchCounter.md)  
+[messages.searchCounter](/API_docs/constructors/messages.searchCounter.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getSearchCounters](../methods/messages.getSearchCounters.md)  
+[$MadelineProto->messages->getSearchCounters](/API_docs/methods/messages.getSearchCounters.md)  
 
 
 
-[messages.searchCounter](../constructors/messages.searchCounter.md)  
+[messages.searchCounter](/API_docs/constructors/messages.searchCounter.md)  
 
-[$MadelineProto->messages->getSearchCounters](../methods/messages.getSearchCounters.md)  
+[$MadelineProto->messages->getSearchCounters](/API_docs/methods/messages.getSearchCounters.md)  
 

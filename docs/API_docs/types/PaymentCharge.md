@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[paymentCharge](../constructors/paymentCharge.md)  
+[paymentCharge](/API_docs/constructors/paymentCharge.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[paymentCharge](../constructors/paymentCharge.md)  
+[paymentCharge](/API_docs/constructors/paymentCharge.md)  
 

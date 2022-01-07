@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_themes.html
 ---
 # Constructor: account.themes  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,12 +16,12 @@ Installed themes
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[long](../types/long.md) | Yes|
-|themes|Array of [Theme](../types/Theme.md) | Yes|Themes|
+|hash|[long](/API_docs/types/long.md) | Yes|
+|themes|Array of [Theme](/API_docs/types/Theme.md) | Yes|Themes|
 
 
 
-### Type: [account.Themes](../types/account.Themes.md)
+### Type: [account.Themes](/API_docs/types/account.Themes.md)
 
 
 ### Example:

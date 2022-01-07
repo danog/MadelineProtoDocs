@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_foundStickerSetsNotModified.html
 ---
 # Constructor: messages.foundStickerSetsNotModified  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,7 +15,7 @@ No further results were found
 
 
 
-### Type: [messages.FoundStickerSets](../types/messages.FoundStickerSets.md)
+### Type: [messages.FoundStickerSets](/API_docs/types/messages.FoundStickerSets.md)
 
 
 ### Example:

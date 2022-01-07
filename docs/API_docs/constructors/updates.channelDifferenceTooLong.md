@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/updates_channelDifferenceTooLong.html
 ---
 # Constructor: updates.channelDifferenceTooLong  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -21,16 +21,16 @@ The provided `pts + limit < remote pts`. Simply, there are too many updates to b
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|final|[Bool](../types/Bool.md) | Optional|Whether there are more updates that must be fetched (always false)|
-|timeout|[int](../types/int.md) | Optional|Clients are supposed to refetch the channel difference after timeout seconds have elapsed|
-|dialog|[Dialog](../types/Dialog.md) | Yes|Dialog containing the latest [PTS](https://core.telegram.org/api/updates) that can be used to reset the channel state|
-|messages|Array of [Message](../types/Message.md) | Yes|The latest messages|
-|chats|Array of [Chat](../types/Chat.md) | Yes|Chats from messages|
-|users|Array of [User](../types/User.md) | Yes|Users from messages|
+|final|[Bool](/API_docs/types/Bool.md) | Optional|Whether there are more updates that must be fetched (always false)|
+|timeout|[int](/API_docs/types/int.md) | Optional|Clients are supposed to refetch the channel difference after timeout seconds have elapsed|
+|dialog|[Dialog](/API_docs/types/Dialog.md) | Yes|Dialog containing the latest [PTS](https://core.telegram.org/api/updates) that can be used to reset the channel state|
+|messages|Array of [Message](/API_docs/types/Message.md) | Yes|The latest messages|
+|chats|Array of [Chat](/API_docs/types/Chat.md) | Yes|Chats from messages|
+|users|Array of [User](/API_docs/types/User.md) | Yes|Users from messages|
 
 
 
-### Type: [updates.ChannelDifference](../types/updates.ChannelDifference.md)
+### Type: [updates.ChannelDifference](/API_docs/types/updates.ChannelDifference.md)
 
 
 ### Example:

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: privacyValueAllowUsers  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Allow only certain users
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|users|Array of [long](../types/long.md) | Yes|Allowed users|
+|users|Array of [long](/API_docs/types/long.md) | Yes|Allowed users|
 
 
 
-### Type: [PrivacyRule](../types/PrivacyRule.md)
+### Type: [PrivacyRule](/API_docs/types/PrivacyRule.md)
 
 
 ### Example:

@@ -17,11 +17,11 @@ Reset the [2FA password](https://core.telegram.org/api/srp) using the recovery c
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|code|[string](../types/string.md) | Code received via email | Yes|
-|new\_settings|[account.PasswordInputSettings](../types/account.PasswordInputSettings.md) |  | Optional|
+|code|[string](/API_docs/types/string.md) | Code received via email | Yes|
+|new\_settings|[account.PasswordInputSettings](/API_docs/types/account.PasswordInputSettings.md) |  | Optional|
 
 
-### Return type: [auth.Authorization](../types/auth.Authorization.md)
+### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.md)
 
 ### Can bots use this method: **NO**
 

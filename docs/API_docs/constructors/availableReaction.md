@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: availableReaction  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -13,18 +13,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|inactive|[Bool](../types/Bool.md) | Optional|
-|reaction|[string](../types/string.md) | Yes|
-|title|[string](../types/string.md) | Yes|
-|static\_icon|[Document](../types/Document.md) | Optional|
-|appear\_animation|[Document](../types/Document.md) | Optional|
-|select\_animation|[Document](../types/Document.md) | Optional|
-|activate\_animation|[Document](../types/Document.md) | Optional|
-|effect\_animation|[Document](../types/Document.md) | Optional|
+|inactive|[Bool](/API_docs/types/Bool.md) | Optional|
+|reaction|[string](/API_docs/types/string.md) | Yes|
+|title|[string](/API_docs/types/string.md) | Yes|
+|static\_icon|[Document](/API_docs/types/Document.md) | Optional|
+|appear\_animation|[Document](/API_docs/types/Document.md) | Optional|
+|select\_animation|[Document](/API_docs/types/Document.md) | Optional|
+|activate\_animation|[Document](/API_docs/types/Document.md) | Optional|
+|effect\_animation|[Document](/API_docs/types/Document.md) | Optional|
 
 
 
-### Type: [AvailableReaction](../types/AvailableReaction.md)
+### Type: [AvailableReaction](/API_docs/types/AvailableReaction.md)
 
 
 ### Example:

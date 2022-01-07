@@ -17,12 +17,12 @@ Get highscores of a game
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Where was the game sent | Optional|
-|id|[int](../types/int.md) | ID of message with game media attachment | Yes|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Get high scores made by a certain user | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Where was the game sent | Optional|
+|id|[int](/API_docs/types/int.md) | ID of message with game media attachment | Yes|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | Get high scores made by a certain user | Optional|
 
 
-### Return type: [messages.HighScores](../types/messages.HighScores.md)
+### Return type: [messages.HighScores](/API_docs/types/messages.HighScores.md)
 
 ### Can bots use this method: **YES**
 

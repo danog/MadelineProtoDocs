@@ -17,12 +17,12 @@ Transfer channel ownership
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Channel | Optional|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | New channel owner | Optional|
-|password|[InputCheckPasswordSRP](../types/InputCheckPasswordSRP.md) | [2FA password](https://core.telegram.org/api/srp) of account | Yes|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | Channel | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | New channel owner | Optional|
+|password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.md) | [2FA password](https://core.telegram.org/api/srp) of account | Yes|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

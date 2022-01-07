@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputGroupCallStream  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -13,15 +13,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|call|[InputGroupCall](../types/InputGroupCall.md) | Yes|
-|time\_ms|[long](../types/long.md) | Yes|
-|scale|[int](../types/int.md) | Yes|
-|video\_channel|[int](../types/int.md) | Optional|
-|video\_quality|[int](../types/int.md) | Optional|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.md) | Yes|
+|time\_ms|[long](/API_docs/types/long.md) | Yes|
+|scale|[int](/API_docs/types/int.md) | Yes|
+|video\_channel|[int](/API_docs/types/int.md) | Optional|
+|video\_quality|[int](/API_docs/types/int.md) | Optional|
 
 
 
-### Type: [InputFileLocation](../types/InputFileLocation.md)
+### Type: [InputFileLocation](/API_docs/types/InputFileLocation.md)
 
 
 ### Example:

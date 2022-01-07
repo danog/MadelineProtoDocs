@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: keyboardButtonSwitchInline  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,13 +15,13 @@ Button to force a user to switch to inline mode Pressing the button will prompt 
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|same\_peer|[Bool](../types/Bool.md) | Optional|If set, pressing the button will insert the bot‘s username and the specified inline `query` in the current chat's input field.|
-|text|[string](../types/string.md) | Yes|Button label|
-|query|[string](../types/string.md) | Yes|The inline query to use|
+|same\_peer|[Bool](/API_docs/types/Bool.md) | Optional|If set, pressing the button will insert the bot‘s username and the specified inline `query` in the current chat's input field.|
+|text|[string](/API_docs/types/string.md) | Yes|Button label|
+|query|[string](/API_docs/types/string.md) | Yes|The inline query to use|
 
 
 
-### Type: [KeyboardButton](../types/KeyboardButton.md)
+### Type: [KeyboardButton](/API_docs/types/KeyboardButton.md)
 
 
 ### Example:

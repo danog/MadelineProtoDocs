@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/stickers_suggestShortName.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|title|[string](../types/string.md) | Yes|
+|title|[string](/API_docs/types/string.md) | Yes|
 
 
-### Return type: [stickers.SuggestedShortName](../types/stickers.SuggestedShortName.md)
+### Return type: [stickers.SuggestedShortName](/API_docs/types/stickers.SuggestedShortName.md)
 
 ### Can bots use this method: **NO**
 

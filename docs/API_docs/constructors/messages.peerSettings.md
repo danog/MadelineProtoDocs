@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_peerSettings.html
 ---
 # Constructor: messages.peerSettings  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,13 +14,13 @@ redirect_from: /API_docs/constructors/messages_peerSettings.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|settings|[PeerSettings](../types/PeerSettings.md) | Yes|
-|chats|Array of [Chat](../types/Chat.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+|settings|[PeerSettings](/API_docs/types/PeerSettings.md) | Yes|
+|chats|Array of [Chat](/API_docs/types/Chat.md) | Yes|
+|users|Array of [User](/API_docs/types/User.md) | Yes|
 
 
 
-### Type: [messages.PeerSettings](../types/messages.PeerSettings.md)
+### Type: [messages.PeerSettings](/API_docs/types/messages.PeerSettings.md)
 
 
 ### Example:

@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_termsOfServiceUpdateEmpty.html
 ---
 # Constructor: help.termsOfServiceUpdateEmpty  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,11 +16,11 @@ No changes were made to telegram's terms of service
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|expires|[int](../types/int.md) | Yes|New TOS updates will have to be queried using [help.getTermsOfServiceUpdate](../methods/help.getTermsOfServiceUpdate.md) in `expires` seconds|
+|expires|[int](/API_docs/types/int.md) | Yes|New TOS updates will have to be queried using [help.getTermsOfServiceUpdate](../methods/help.getTermsOfServiceUpdate.md) in `expires` seconds|
 
 
 
-### Type: [help.TermsOfServiceUpdate](../types/help.TermsOfServiceUpdate.md)
+### Type: [help.TermsOfServiceUpdate](/API_docs/types/help.TermsOfServiceUpdate.md)
 
 
 ### Example:

@@ -12,25 +12,25 @@ redirect_from: /API_docs/types/help_UserInfo.html
 
 ### Possible values (constructors):
 
-[help.userInfoEmpty](../constructors/help.userInfoEmpty.md)  
+[help.userInfoEmpty](/API_docs/constructors/help.userInfoEmpty.md)  
 
-[help.userInfo](../constructors/help.userInfo.md)  
+[help.userInfo](/API_docs/constructors/help.userInfo.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->help->getUserInfo](../methods/help.getUserInfo.md)  
+[$MadelineProto->help->getUserInfo](/API_docs/methods/help.getUserInfo.md)  
 
-[$MadelineProto->help->editUserInfo](../methods/help.editUserInfo.md)  
+[$MadelineProto->help->editUserInfo](/API_docs/methods/help.editUserInfo.md)  
 
 
 
-[help.userInfoEmpty](../constructors/help.userInfoEmpty.md)  
+[help.userInfoEmpty](/API_docs/constructors/help.userInfoEmpty.md)  
 
-[help.userInfo](../constructors/help.userInfo.md)  
+[help.userInfo](/API_docs/constructors/help.userInfo.md)  
 
-[$MadelineProto->help->getUserInfo](../methods/help.getUserInfo.md)  
+[$MadelineProto->help->getUserInfo](/API_docs/methods/help.getUserInfo.md)  
 
-[$MadelineProto->help->editUserInfo](../methods/help.editUserInfo.md)  
+[$MadelineProto->help->editUserInfo](/API_docs/methods/help.editUserInfo.md)  
 

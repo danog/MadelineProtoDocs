@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: keyboardButtonUrlAuth  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,14 +15,14 @@ Button to request a user to authorize via URL using [Seamless Telegram Login](ht
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|text|[string](../types/string.md) | Yes|Button label|
-|fwd\_text|[string](../types/string.md) | Optional|New text of the button in forwarded messages.|
-|url|[string](../types/string.md) | Yes|An HTTP URL to be opened with user authorization data added to the query string when the button is pressed. If the user refuses to provide authorization data, the original URL without information about the user will be opened. The data added is the same as described in [Receiving authorization data](https://core.telegram.org/widgets/login#receiving-authorization-data).<br><br>**NOTE**: Services must **always** check the hash of the received data to verify the authentication and the integrity of the data as described in [Checking authorization](https://core.telegram.org/widgets/login#checking-authorization).|
-|button\_id|[int](../types/int.md) | Yes|ID of the button to pass to [messages.requestUrlAuth](../methods/messages.requestUrlAuth.md)|
+|text|[string](/API_docs/types/string.md) | Yes|Button label|
+|fwd\_text|[string](/API_docs/types/string.md) | Optional|New text of the button in forwarded messages.|
+|url|[string](/API_docs/types/string.md) | Yes|An HTTP URL to be opened with user authorization data added to the query string when the button is pressed. If the user refuses to provide authorization data, the original URL without information about the user will be opened. The data added is the same as described in [Receiving authorization data](https://core.telegram.org/widgets/login#receiving-authorization-data).<br><br>**NOTE**: Services must **always** check the hash of the received data to verify the authentication and the integrity of the data as described in [Checking authorization](https://core.telegram.org/widgets/login#checking-authorization).|
+|button\_id|[int](/API_docs/types/int.md) | Yes|ID of the button to pass to [messages.requestUrlAuth](../methods/messages.requestUrlAuth.md)|
 
 
 
-### Type: [KeyboardButton](../types/KeyboardButton.md)
+### Type: [KeyboardButton](/API_docs/types/KeyboardButton.md)
 
 
 ### Example:

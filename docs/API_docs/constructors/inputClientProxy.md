@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputClientProxy  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ Info about an [MTProxy](https://core.telegram.org/mtproto/mtproto-transports#tra
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|address|[string](../types/string.md) | Yes|Proxy address|
-|port|[int](../types/int.md) | Yes|Proxy port|
+|address|[string](/API_docs/types/string.md) | Yes|Proxy address|
+|port|[int](/API_docs/types/int.md) | Yes|Proxy port|
 
 
 
-### Type: [InputClientProxy](../types/InputClientProxy.md)
+### Type: [InputClientProxy](/API_docs/types/InputClientProxy.md)
 
 
 ### Example:

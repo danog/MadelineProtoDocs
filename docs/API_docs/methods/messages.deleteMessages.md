@@ -17,11 +17,11 @@ Deletes messages by their identifiers.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|revoke|[Bool](../types/Bool.md) | Whether to delete messages for all participants of the chat | Optional|
-|id|Array of [int](../types/int.md) | Message ID list | Yes|
+|revoke|[Bool](/API_docs/types/Bool.md) | Whether to delete messages for all participants of the chat | Optional|
+|id|Array of [int](/API_docs/types/int.md) | Message ID list | Yes|
 
 
-### Return type: [messages.AffectedMessages](../types/messages.AffectedMessages.md)
+### Return type: [messages.AffectedMessages](/API_docs/types/messages.AffectedMessages.md)
 
 ### Can bots use this method: **YES**
 

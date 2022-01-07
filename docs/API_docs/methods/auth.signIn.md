@@ -17,12 +17,12 @@ You cannot use this method directly, use the completePhoneLogin method instead (
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](../types/string.md) | Phone number in the international format | Yes|
-|phone\_code\_hash|[string](../types/string.md) | SMS-message ID, obtained from [auth.sendCode](../methods/auth.sendCode.md) | Yes|
-|phone\_code|[string](../types/string.md) | Valid numerical code from the SMS-message | Yes|
+|phone\_number|[string](/API_docs/types/string.md) | Phone number in the international format | Yes|
+|phone\_code\_hash|[string](/API_docs/types/string.md) | SMS-message ID, obtained from [auth.sendCode](../methods/auth.sendCode.md) | Yes|
+|phone\_code|[string](/API_docs/types/string.md) | Valid numerical code from the SMS-message | Yes|
 
 
-### Return type: [auth.Authorization](../types/auth.Authorization.md)
+### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.md)
 
 ### Can bots use this method: **NO**
 

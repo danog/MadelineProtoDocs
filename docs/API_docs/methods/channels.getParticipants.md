@@ -17,14 +17,14 @@ Get the participants of a [supergroup/channel](https://core.telegram.org/api/cha
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Channel | Optional|
-|filter|[ChannelParticipantsFilter](../types/ChannelParticipantsFilter.md) | Which participant types to fetch | Yes|
-|offset|[int](../types/int.md) | [Offset](https://core.telegram.org/api/offsets) | Yes|
-|limit|[int](../types/int.md) | [Limit](https://core.telegram.org/api/offsets) | Yes|
-|hash|[long](../types/long.md) |  | Yes|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | Channel | Optional|
+|filter|[ChannelParticipantsFilter](/API_docs/types/ChannelParticipantsFilter.md) | Which participant types to fetch | Yes|
+|offset|[int](/API_docs/types/int.md) | [Offset](https://core.telegram.org/api/offsets) | Yes|
+|limit|[int](/API_docs/types/int.md) | [Limit](https://core.telegram.org/api/offsets) | Yes|
+|hash|[long](/API_docs/types/long.md) |  | Yes|
 
 
-### Return type: [channels.ChannelParticipants](../types/channels.ChannelParticipants.md)
+### Return type: [channels.ChannelParticipants](/API_docs/types/channels.ChannelParticipants.md)
 
 ### Can bots use this method: **YES**
 

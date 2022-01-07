@@ -17,10 +17,10 @@ Deletes profile photos.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|Array of [MessageMedia, Update, Message or InputPhoto](../types/InputPhoto.md) | Input photos to delete | Yes|
+|id|Array of [MessageMedia, Update, Message or InputPhoto](/API_docs/types/InputPhoto.md) | Input photos to delete | Yes|
 
 
-### Return type: [Vector\_of\_long](../types/long.md)
+### Return type: [Vector\_of\_long](/API_docs/types/long.md)
 
 ### Can bots use this method: **NO**
 

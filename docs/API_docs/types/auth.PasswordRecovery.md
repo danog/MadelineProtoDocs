@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/auth_PasswordRecovery.html
 
 ### Possible values (constructors):
 
-[auth.passwordRecovery](../constructors/auth.passwordRecovery.md)  
+[auth.passwordRecovery](/API_docs/constructors/auth.passwordRecovery.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->auth->requestPasswordRecovery](../methods/auth.requestPasswordRecovery.md)  
+[$MadelineProto->auth->requestPasswordRecovery](/API_docs/methods/auth.requestPasswordRecovery.md)  
 
 
 
-[auth.passwordRecovery](../constructors/auth.passwordRecovery.md)  
+[auth.passwordRecovery](/API_docs/constructors/auth.passwordRecovery.md)  
 
-[$MadelineProto->auth->requestPasswordRecovery](../methods/auth.requestPasswordRecovery.md)  
+[$MadelineProto->auth->requestPasswordRecovery](/API_docs/methods/auth.requestPasswordRecovery.md)  
 

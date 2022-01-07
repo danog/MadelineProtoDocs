@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[channelAdminLogEventsFilter](../constructors/channelAdminLogEventsFilter.md)  
+[channelAdminLogEventsFilter](/API_docs/constructors/channelAdminLogEventsFilter.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[channelAdminLogEventsFilter](../constructors/channelAdminLogEventsFilter.md)  
+[channelAdminLogEventsFilter](/API_docs/constructors/channelAdminLogEventsFilter.md)  
 

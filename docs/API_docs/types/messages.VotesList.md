@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/messages_VotesList.html
 
 ### Possible values (constructors):
 
-[messages.votesList](../constructors/messages.votesList.md)  
+[messages.votesList](/API_docs/constructors/messages.votesList.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getPollVotes](../methods/messages.getPollVotes.md)  
+[$MadelineProto->messages->getPollVotes](/API_docs/methods/messages.getPollVotes.md)  
 
 
 
-[messages.votesList](../constructors/messages.votesList.md)  
+[messages.votesList](/API_docs/constructors/messages.votesList.md)  
 
-[$MadelineProto->messages->getPollVotes](../methods/messages.getPollVotes.md)  
+[$MadelineProto->messages->getPollVotes](/API_docs/methods/messages.getPollVotes.md)  
 

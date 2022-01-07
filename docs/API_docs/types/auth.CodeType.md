@@ -12,13 +12,13 @@ redirect_from: /API_docs/types/auth_CodeType.html
 
 ### Possible values (constructors):
 
-[auth.codeTypeSms](../constructors/auth.codeTypeSms.md)  
+[auth.codeTypeSms](/API_docs/constructors/auth.codeTypeSms.md)  
 
-[auth.codeTypeCall](../constructors/auth.codeTypeCall.md)  
+[auth.codeTypeCall](/API_docs/constructors/auth.codeTypeCall.md)  
 
-[auth.codeTypeFlashCall](../constructors/auth.codeTypeFlashCall.md)  
+[auth.codeTypeFlashCall](/API_docs/constructors/auth.codeTypeFlashCall.md)  
 
-[auth.codeTypeMissedCall](../constructors/auth.codeTypeMissedCall.md)  
+[auth.codeTypeMissedCall](/API_docs/constructors/auth.codeTypeMissedCall.md)  
 
 
 
@@ -26,11 +26,11 @@ redirect_from: /API_docs/types/auth_CodeType.html
 
 
 
-[auth.codeTypeSms](../constructors/auth.codeTypeSms.md)  
+[auth.codeTypeSms](/API_docs/constructors/auth.codeTypeSms.md)  
 
-[auth.codeTypeCall](../constructors/auth.codeTypeCall.md)  
+[auth.codeTypeCall](/API_docs/constructors/auth.codeTypeCall.md)  
 
-[auth.codeTypeFlashCall](../constructors/auth.codeTypeFlashCall.md)  
+[auth.codeTypeFlashCall](/API_docs/constructors/auth.codeTypeFlashCall.md)  
 
-[auth.codeTypeMissedCall](../constructors/auth.codeTypeMissedCall.md)  
+[auth.codeTypeMissedCall](/API_docs/constructors/auth.codeTypeMissedCall.md)  
 

@@ -17,12 +17,12 @@ Get [message statistics](https://core.telegram.org/api/stats)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|dark|[Bool](../types/Bool.md) | Whether to enable dark theme for graph colors | Optional|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Channel ID | Optional|
-|msg\_id|[int](../types/int.md) | Message ID | Yes|
+|dark|[Bool](/API_docs/types/Bool.md) | Whether to enable dark theme for graph colors | Optional|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | Channel ID | Optional|
+|msg\_id|[int](/API_docs/types/int.md) | Message ID | Yes|
 
 
-### Return type: [stats.MessageStats](../types/stats.MessageStats.md)
+### Return type: [stats.MessageStats](/API_docs/types/stats.MessageStats.md)
 
 ### Can bots use this method: **NO**
 

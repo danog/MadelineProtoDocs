@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageViews  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,13 +15,13 @@ View, forward counter + info about replies of a specific message
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|views|[int](../types/int.md) | Optional|Viewcount of message|
-|forwards|[int](../types/int.md) | Optional|Forward count of message|
-|replies|[MessageReplies](../types/MessageReplies.md) | Optional|Reply and [thread](https://core.telegram.org/api/threads) information of message|
+|views|[int](/API_docs/types/int.md) | Optional|Viewcount of message|
+|forwards|[int](/API_docs/types/int.md) | Optional|Forward count of message|
+|replies|[MessageReplies](/API_docs/types/MessageReplies.md) | Optional|Reply and [thread](https://core.telegram.org/api/threads) information of message|
 
 
 
-### Type: [MessageViews](../types/MessageViews.md)
+### Type: [MessageViews](/API_docs/types/MessageViews.md)
 
 
 ### Example:

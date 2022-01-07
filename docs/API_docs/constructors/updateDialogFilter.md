@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateDialogFilter  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ A new [folder](https://core.telegram.org/api/folders) was added
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|[Folder](https://core.telegram.org/api/folders) ID|
-|filter|[DialogFilter](../types/DialogFilter.md) | Optional|[Folder](https://core.telegram.org/api/folders) info|
+|id|[int](/API_docs/types/int.md) | Yes|[Folder](https://core.telegram.org/api/folders) ID|
+|filter|[DialogFilter](/API_docs/types/DialogFilter.md) | Optional|[Folder](https://core.telegram.org/api/folders) info|
 
 
 
-### Type: [Update](../types/Update.md)
+### Type: [Update](/API_docs/types/Update.md)
 
 
 ### Example:

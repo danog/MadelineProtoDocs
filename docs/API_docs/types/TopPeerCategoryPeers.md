@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[topPeerCategoryPeers](../constructors/topPeerCategoryPeers.md)  
+[topPeerCategoryPeers](/API_docs/constructors/topPeerCategoryPeers.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[topPeerCategoryPeers](../constructors/topPeerCategoryPeers.md)  
+[topPeerCategoryPeers](/API_docs/constructors/topPeerCategoryPeers.md)  
 

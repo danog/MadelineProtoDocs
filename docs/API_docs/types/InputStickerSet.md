@@ -11,17 +11,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputStickerSetEmpty](../constructors/inputStickerSetEmpty.md)  
+[inputStickerSetEmpty](/API_docs/constructors/inputStickerSetEmpty.md)  
 
-[inputStickerSetID](../constructors/inputStickerSetID.md)  
+[inputStickerSetID](/API_docs/constructors/inputStickerSetID.md)  
 
-[inputStickerSetShortName](../constructors/inputStickerSetShortName.md)  
+[inputStickerSetShortName](/API_docs/constructors/inputStickerSetShortName.md)  
 
-[inputStickerSetAnimatedEmoji](../constructors/inputStickerSetAnimatedEmoji.md)  
+[inputStickerSetAnimatedEmoji](/API_docs/constructors/inputStickerSetAnimatedEmoji.md)  
 
-[inputStickerSetDice](../constructors/inputStickerSetDice.md)  
+[inputStickerSetDice](/API_docs/constructors/inputStickerSetDice.md)  
 
-[inputStickerSetAnimatedEmojiAnimations](../constructors/inputStickerSetAnimatedEmojiAnimations.md)  
+[inputStickerSetAnimatedEmojiAnimations](/API_docs/constructors/inputStickerSetAnimatedEmojiAnimations.md)  
 
 
 
@@ -29,15 +29,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputStickerSetEmpty](../constructors/inputStickerSetEmpty.md)  
+[inputStickerSetEmpty](/API_docs/constructors/inputStickerSetEmpty.md)  
 
-[inputStickerSetID](../constructors/inputStickerSetID.md)  
+[inputStickerSetID](/API_docs/constructors/inputStickerSetID.md)  
 
-[inputStickerSetShortName](../constructors/inputStickerSetShortName.md)  
+[inputStickerSetShortName](/API_docs/constructors/inputStickerSetShortName.md)  
 
-[inputStickerSetAnimatedEmoji](../constructors/inputStickerSetAnimatedEmoji.md)  
+[inputStickerSetAnimatedEmoji](/API_docs/constructors/inputStickerSetAnimatedEmoji.md)  
 
-[inputStickerSetDice](../constructors/inputStickerSetDice.md)  
+[inputStickerSetDice](/API_docs/constructors/inputStickerSetDice.md)  
 
-[inputStickerSetAnimatedEmojiAnimations](../constructors/inputStickerSetAnimatedEmojiAnimations.md)  
+[inputStickerSetAnimatedEmojiAnimations](/API_docs/constructors/inputStickerSetAnimatedEmojiAnimations.md)  
 

@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/account_Password.html
 
 ### Possible values (constructors):
 
-[account.password](../constructors/account.password.md)  
+[account.password](/API_docs/constructors/account.password.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->getPassword](../methods/account.getPassword.md)  
+[$MadelineProto->account->getPassword](/API_docs/methods/account.getPassword.md)  
 
 
 
-[account.password](../constructors/account.password.md)  
+[account.password](/API_docs/constructors/account.password.md)  
 
-[$MadelineProto->account->getPassword](../methods/account.getPassword.md)  
+[$MadelineProto->account->getPassword](/API_docs/methods/account.getPassword.md)  
 

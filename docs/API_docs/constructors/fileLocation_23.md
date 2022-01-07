@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: fileLocation\_23  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -13,14 +13,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|dc\_id|[int](../types/int.md) | Yes|
-|volume\_id|[long](../types/long.md) | Yes|
-|local\_id|[int](../types/int.md) | Yes|
-|secret|[long](../types/long.md) | Yes|
+|dc\_id|[int](/API_docs/types/int.md) | Yes|
+|volume\_id|[long](/API_docs/types/long.md) | Yes|
+|local\_id|[int](/API_docs/types/int.md) | Yes|
+|secret|[long](/API_docs/types/long.md) | Yes|
 
 
 
-### Type: [FileLocation](../types/FileLocation.md)
+### Type: [FileLocation](/API_docs/types/FileLocation.md)
 
 
 ### Example:

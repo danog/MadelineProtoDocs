@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[stickerPack](../constructors/stickerPack.md)  
+[stickerPack](/API_docs/constructors/stickerPack.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[stickerPack](../constructors/stickerPack.md)  
+[stickerPack](/API_docs/constructors/stickerPack.md)  
 

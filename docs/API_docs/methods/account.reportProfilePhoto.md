@@ -15,13 +15,13 @@ redirect_from: /API_docs/methods/account_reportProfilePhoto.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
-|photo\_id|[MessageMedia, Update, Message or InputPhoto](../types/InputPhoto.md) | Optional|
-|reason|[ReportReason](../types/ReportReason.md) | Yes|
-|message|[string](../types/string.md) | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
+|photo\_id|[MessageMedia, Update, Message or InputPhoto](/API_docs/types/InputPhoto.md) | Optional|
+|reason|[ReportReason](/API_docs/types/ReportReason.md) | Yes|
+|message|[string](/API_docs/types/string.md) | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

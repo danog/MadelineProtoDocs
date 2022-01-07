@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputGameID](../constructors/inputGameID.md)  
+[inputGameID](/API_docs/constructors/inputGameID.md)  
 
-[inputGameShortName](../constructors/inputGameShortName.md)  
+[inputGameShortName](/API_docs/constructors/inputGameShortName.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputGameID](../constructors/inputGameID.md)  
+[inputGameID](/API_docs/constructors/inputGameID.md)  
 
-[inputGameShortName](../constructors/inputGameShortName.md)  
+[inputGameShortName](/API_docs/constructors/inputGameShortName.md)  
 

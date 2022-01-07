@@ -17,12 +17,12 @@ Get preview of webpage
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|message|[string](../types/string.md) | Message from which to extract the preview | Yes|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | [Message entities for styled text](https://core.telegram.org/api/entities) | Optional|
-|parse\_mode| [string](../types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
+|message|[string](/API_docs/types/string.md) | Message from which to extract the preview | Yes|
+|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.md) | [Message entities for styled text](https://core.telegram.org/api/entities) | Optional|
+|parse\_mode| [string](/API_docs/types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
 
 
-### Return type: [MessageMedia](../types/MessageMedia.md)
+### Return type: [MessageMedia](/API_docs/types/MessageMedia.md)
 
 ### Can bots use this method: **NO**
 

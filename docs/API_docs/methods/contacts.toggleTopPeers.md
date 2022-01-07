@@ -17,10 +17,10 @@ Enable/disable [top peers](https://core.telegram.org/api/top-rating)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|enabled|[Bool](../types/Bool.md) | Enable/disable | Yes|
+|enabled|[Bool](/API_docs/types/Bool.md) | Enable/disable | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

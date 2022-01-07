@@ -17,10 +17,10 @@ Delete the user's account from the telegram servers. Can be used, for example, t
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|reason|[string](../types/string.md) | Why is the account being deleted, can be empty | Yes|
+|reason|[string](/API_docs/types/string.md) | Why is the account being deleted, can be empty | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

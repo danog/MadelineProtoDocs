@@ -11,15 +11,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inlineQueryPeerTypeSameBotPM](../constructors/inlineQueryPeerTypeSameBotPM.md)  
+[inlineQueryPeerTypeSameBotPM](/API_docs/constructors/inlineQueryPeerTypeSameBotPM.md)  
 
-[inlineQueryPeerTypePM](../constructors/inlineQueryPeerTypePM.md)  
+[inlineQueryPeerTypePM](/API_docs/constructors/inlineQueryPeerTypePM.md)  
 
-[inlineQueryPeerTypeChat](../constructors/inlineQueryPeerTypeChat.md)  
+[inlineQueryPeerTypeChat](/API_docs/constructors/inlineQueryPeerTypeChat.md)  
 
-[inlineQueryPeerTypeMegagroup](../constructors/inlineQueryPeerTypeMegagroup.md)  
+[inlineQueryPeerTypeMegagroup](/API_docs/constructors/inlineQueryPeerTypeMegagroup.md)  
 
-[inlineQueryPeerTypeBroadcast](../constructors/inlineQueryPeerTypeBroadcast.md)  
+[inlineQueryPeerTypeBroadcast](/API_docs/constructors/inlineQueryPeerTypeBroadcast.md)  
 
 
 
@@ -27,13 +27,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inlineQueryPeerTypeSameBotPM](../constructors/inlineQueryPeerTypeSameBotPM.md)  
+[inlineQueryPeerTypeSameBotPM](/API_docs/constructors/inlineQueryPeerTypeSameBotPM.md)  
 
-[inlineQueryPeerTypePM](../constructors/inlineQueryPeerTypePM.md)  
+[inlineQueryPeerTypePM](/API_docs/constructors/inlineQueryPeerTypePM.md)  
 
-[inlineQueryPeerTypeChat](../constructors/inlineQueryPeerTypeChat.md)  
+[inlineQueryPeerTypeChat](/API_docs/constructors/inlineQueryPeerTypeChat.md)  
 
-[inlineQueryPeerTypeMegagroup](../constructors/inlineQueryPeerTypeMegagroup.md)  
+[inlineQueryPeerTypeMegagroup](/API_docs/constructors/inlineQueryPeerTypeMegagroup.md)  
 
-[inlineQueryPeerTypeBroadcast](../constructors/inlineQueryPeerTypeBroadcast.md)  
+[inlineQueryPeerTypeBroadcast](/API_docs/constructors/inlineQueryPeerTypeBroadcast.md)  
 

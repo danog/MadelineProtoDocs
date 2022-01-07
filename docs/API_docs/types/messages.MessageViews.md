@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/messages_MessageViews.html
 
 ### Possible values (constructors):
 
-[messages.messageViews](../constructors/messages.messageViews.md)  
+[messages.messageViews](/API_docs/constructors/messages.messageViews.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getMessagesViews](../methods/messages.getMessagesViews.md)  
+[$MadelineProto->messages->getMessagesViews](/API_docs/methods/messages.getMessagesViews.md)  
 
 
 
-[messages.messageViews](../constructors/messages.messageViews.md)  
+[messages.messageViews](/API_docs/constructors/messages.messageViews.md)  
 
-[$MadelineProto->messages->getMessagesViews](../methods/messages.getMessagesViews.md)  
+[$MadelineProto->messages->getMessagesViews](/API_docs/methods/messages.getMessagesViews.md)  
 

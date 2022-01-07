@@ -17,11 +17,11 @@ You cannot use this method directly, use $MadelineProto->importAuthorization($au
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[long](../types/long.md) |  | Yes|
-|bytes|[bytes](../types/bytes.md) | Authorization key | Yes|
+|id|[long](/API_docs/types/long.md) |  | Yes|
+|bytes|[bytes](/API_docs/types/bytes.md) | Authorization key | Yes|
 
 
-### Return type: [auth.Authorization](../types/auth.Authorization.md)
+### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.md)
 
 ### Can bots use this method: **YES**
 

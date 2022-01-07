@@ -12,21 +12,21 @@ redirect_from: /API_docs/types/contacts_Contacts.html
 
 ### Possible values (constructors):
 
-[contacts.contactsNotModified](../constructors/contacts.contactsNotModified.md)  
+[contacts.contactsNotModified](/API_docs/constructors/contacts.contactsNotModified.md)  
 
-[contacts.contacts](../constructors/contacts.contacts.md)  
+[contacts.contacts](/API_docs/constructors/contacts.contacts.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->contacts->getContacts](../methods/contacts.getContacts.md)  
+[$MadelineProto->contacts->getContacts](/API_docs/methods/contacts.getContacts.md)  
 
 
 
-[contacts.contactsNotModified](../constructors/contacts.contactsNotModified.md)  
+[contacts.contactsNotModified](/API_docs/constructors/contacts.contactsNotModified.md)  
 
-[contacts.contacts](../constructors/contacts.contacts.md)  
+[contacts.contacts](/API_docs/constructors/contacts.contacts.md)  
 
-[$MadelineProto->contacts->getContacts](../methods/contacts.getContacts.md)  
+[$MadelineProto->contacts->getContacts](/API_docs/methods/contacts.getContacts.md)  
 

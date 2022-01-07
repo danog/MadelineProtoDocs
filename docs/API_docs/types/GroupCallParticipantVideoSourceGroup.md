@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[groupCallParticipantVideoSourceGroup](../constructors/groupCallParticipantVideoSourceGroup.md)  
+[groupCallParticipantVideoSourceGroup](/API_docs/constructors/groupCallParticipantVideoSourceGroup.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[groupCallParticipantVideoSourceGroup](../constructors/groupCallParticipantVideoSourceGroup.md)  
+[groupCallParticipantVideoSourceGroup](/API_docs/constructors/groupCallParticipantVideoSourceGroup.md)  
 

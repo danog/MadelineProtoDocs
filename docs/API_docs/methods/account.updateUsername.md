@@ -17,10 +17,10 @@ Changes username for the current user.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|username|[string](../types/string.md) | username or empty string if username is to be removed<br>Accepted characters: a-z (case-insensitive), 0-9 and underscores.<br>Length: 5-32 characters. | Yes|
+|username|[string](/API_docs/types/string.md) | username or empty string if username is to be removed<br>Accepted characters: a-z (case-insensitive), 0-9 and underscores.<br>Length: 5-32 characters. | Yes|
 
 
-### Return type: [User](../types/User.md)
+### Return type: [User](/API_docs/types/User.md)
 
 ### Can bots use this method: **NO**
 

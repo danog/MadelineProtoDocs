@@ -17,12 +17,12 @@ If you sent an invoice requesting a shipping address and the parameter is\_flexi
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|query\_id|[long](../types/long.md) | Unique identifier for the query to be answered | Yes|
-|error|[string](../types/string.md) | Error message in human readable form that explains why it is impossible to complete the order (e.g. "Sorry, delivery to your desired address is unavailable'). Telegram will display this message to the user. | Optional|
-|shipping\_options|Array of [ShippingOption](../types/ShippingOption.md) | A vector of available shipping options. | Optional|
+|query\_id|[long](/API_docs/types/long.md) | Unique identifier for the query to be answered | Yes|
+|error|[string](/API_docs/types/string.md) | Error message in human readable form that explains why it is impossible to complete the order (e.g. "Sorry, delivery to your desired address is unavailable'). Telegram will display this message to the user. | Optional|
+|shipping\_options|Array of [ShippingOption](/API_docs/types/ShippingOption.md) | A vector of available shipping options. | Optional|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **YES**
 

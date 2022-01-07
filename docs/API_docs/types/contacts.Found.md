@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/contacts_Found.html
 
 ### Possible values (constructors):
 
-[contacts.found](../constructors/contacts.found.md)  
+[contacts.found](/API_docs/constructors/contacts.found.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->contacts->search](../methods/contacts.search.md)  
+[$MadelineProto->contacts->search](/API_docs/methods/contacts.search.md)  
 
 
 
-[contacts.found](../constructors/contacts.found.md)  
+[contacts.found](/API_docs/constructors/contacts.found.md)  
 
-[$MadelineProto->contacts->search](../methods/contacts.search.md)  
+[$MadelineProto->contacts->search](/API_docs/methods/contacts.search.md)  
 

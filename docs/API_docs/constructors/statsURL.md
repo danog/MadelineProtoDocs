@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: statsURL  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ URL with chat statistics
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|url|[string](../types/string.md) | Yes|Chat statistics|
+|url|[string](/API_docs/types/string.md) | Yes|Chat statistics|
 
 
 
-### Type: [StatsURL](../types/StatsURL.md)
+### Type: [StatsURL](/API_docs/types/StatsURL.md)
 
 
 ### Example:

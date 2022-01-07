@@ -17,10 +17,10 @@ Returns chat basic info on their IDs.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|Array of [long](../types/long.md) | List of chat IDs | Yes|
+|id|Array of [long](/API_docs/types/long.md) | List of chat IDs | Yes|
 
 
-### Return type: [messages.Chats](../types/messages.Chats.md)
+### Return type: [messages.Chats](/API_docs/types/messages.Chats.md)
 
 ### Can bots use this method: **YES**
 

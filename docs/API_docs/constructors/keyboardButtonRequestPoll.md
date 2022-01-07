@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: keyboardButtonRequestPoll  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ A button that allows the user to create and send a poll when pressed; available 
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|quiz|[Bool](../types/Bool.md) | Optional|If set, only quiz polls can be sent|
-|text|[string](../types/string.md) | Yes|Button text|
+|quiz|[Bool](/API_docs/types/Bool.md) | Optional|If set, only quiz polls can be sent|
+|text|[string](/API_docs/types/string.md) | Yes|Button text|
 
 
 
-### Type: [KeyboardButton](../types/KeyboardButton.md)
+### Type: [KeyboardButton](/API_docs/types/KeyboardButton.md)
 
 
 ### Example:

@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/account_setAuthorizationTTL.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|authorization\_ttl\_days|[int](../types/int.md) | Yes|
+|authorization\_ttl\_days|[int](/API_docs/types/int.md) | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **YES**
 

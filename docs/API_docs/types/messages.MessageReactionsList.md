@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/messages_MessageReactionsList.html
 
 ### Possible values (constructors):
 
-[messages.messageReactionsList](../constructors/messages.messageReactionsList.md)  
+[messages.messageReactionsList](/API_docs/constructors/messages.messageReactionsList.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getMessageReactionsList](../methods/messages.getMessageReactionsList.md)  
+[$MadelineProto->messages->getMessageReactionsList](/API_docs/methods/messages.getMessageReactionsList.md)  
 
 
 
-[messages.messageReactionsList](../constructors/messages.messageReactionsList.md)  
+[messages.messageReactionsList](/API_docs/constructors/messages.messageReactionsList.md)  
 
-[$MadelineProto->messages->getMessageReactionsList](../methods/messages.getMessageReactionsList.md)  
+[$MadelineProto->messages->getMessageReactionsList](/API_docs/methods/messages.getMessageReactionsList.md)  
 

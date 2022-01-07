@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pollResults  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,16 +15,16 @@ Results of poll
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|min|[Bool](../types/Bool.md) | Optional|Similar to [min](https://core.telegram.org/api/min) objects, used for poll constructors that are the same for all users so they don't have option chosen by the current user (you can use [messages.getPollResults](../methods/messages.getPollResults.md) to get the full poll results).|
-|results|Array of [PollAnswerVoters](../types/PollAnswerVoters.md) | Optional|Poll results|
-|total\_voters|[int](../types/int.md) | Optional|Total number of people that voted in the poll|
-|recent\_voters|Array of [long](../types/long.md) | Optional|IDs of the last users that recently voted in the poll|
-|solution|[string](../types/string.md) | Optional|Explanation of quiz solution|
-|solution\_entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|[Message entities for styled text in quiz solution](https://core.telegram.org/api/entities)|
+|min|[Bool](/API_docs/types/Bool.md) | Optional|Similar to [min](https://core.telegram.org/api/min) objects, used for poll constructors that are the same for all users so they don't have option chosen by the current user (you can use [messages.getPollResults](../methods/messages.getPollResults.md) to get the full poll results).|
+|results|Array of [PollAnswerVoters](/API_docs/types/PollAnswerVoters.md) | Optional|Poll results|
+|total\_voters|[int](/API_docs/types/int.md) | Optional|Total number of people that voted in the poll|
+|recent\_voters|Array of [long](/API_docs/types/long.md) | Optional|IDs of the last users that recently voted in the poll|
+|solution|[string](/API_docs/types/string.md) | Optional|Explanation of quiz solution|
+|solution\_entities|Array of [MessageEntity](/API_docs/types/MessageEntity.md) | Optional|[Message entities for styled text in quiz solution](https://core.telegram.org/api/entities)|
 
 
 
-### Type: [PollResults](../types/PollResults.md)
+### Type: [PollResults](/API_docs/types/PollResults.md)
 
 
 ### Example:

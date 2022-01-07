@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatesCombined  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,16 +15,16 @@ Constructor for a group of updates.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|updates|Array of [Update](../types/Update.md) | Yes|List of updates|
-|users|Array of [User](../types/User.md) | Yes|List of users mentioned in updates|
-|chats|Array of [Chat](../types/Chat.md) | Yes|List of chats mentioned in updates|
-|date|[int](../types/int.md) | Yes|Current date|
-|seq\_start|[int](../types/int.md) | Yes|Value **seq** for the earliest update in a group|
-|seq|[int](../types/int.md) | Yes|Value **seq** for the latest update in a group|
+|updates|Array of [Update](/API_docs/types/Update.md) | Yes|List of updates|
+|users|Array of [User](/API_docs/types/User.md) | Yes|List of users mentioned in updates|
+|chats|Array of [Chat](/API_docs/types/Chat.md) | Yes|List of chats mentioned in updates|
+|date|[int](/API_docs/types/int.md) | Yes|Current date|
+|seq\_start|[int](/API_docs/types/int.md) | Yes|Value **seq** for the earliest update in a group|
+|seq|[int](/API_docs/types/int.md) | Yes|Value **seq** for the latest update in a group|
 
 
 
-### Type: [Updates](../types/Updates.md)
+### Type: [Updates](/API_docs/types/Updates.md)
 
 
 ### Example:

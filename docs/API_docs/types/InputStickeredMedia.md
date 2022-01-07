@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputStickeredMediaPhoto](../constructors/inputStickeredMediaPhoto.md)  
+[inputStickeredMediaPhoto](/API_docs/constructors/inputStickeredMediaPhoto.md)  
 
-[inputStickeredMediaDocument](../constructors/inputStickeredMediaDocument.md)  
+[inputStickeredMediaDocument](/API_docs/constructors/inputStickeredMediaDocument.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputStickeredMediaPhoto](../constructors/inputStickeredMediaPhoto.md)  
+[inputStickeredMediaPhoto](/API_docs/constructors/inputStickeredMediaPhoto.md)  
 
-[inputStickeredMediaDocument](../constructors/inputStickeredMediaDocument.md)  
+[inputStickeredMediaDocument](/API_docs/constructors/inputStickeredMediaDocument.md)  
 

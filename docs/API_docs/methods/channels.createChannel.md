@@ -17,16 +17,16 @@ Create a [supergroup/channel](https://core.telegram.org/api/channel).
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|broadcast|[Bool](../types/Bool.md) | Whether to create a [channel](https://core.telegram.org/api/channel) | Optional|
-|megagroup|[Bool](../types/Bool.md) | Whether to create a [supergroup](https://core.telegram.org/api/channel) | Optional|
-|for\_import|[Bool](../types/Bool.md) |  | Optional|
-|title|[string](../types/string.md) | Channel title | Yes|
-|about|[string](../types/string.md) | Channel description | Yes|
-|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Geogroup location | Optional|
-|address|[string](../types/string.md) | Geogroup address | Optional|
+|broadcast|[Bool](/API_docs/types/Bool.md) | Whether to create a [channel](https://core.telegram.org/api/channel) | Optional|
+|megagroup|[Bool](/API_docs/types/Bool.md) | Whether to create a [supergroup](https://core.telegram.org/api/channel) | Optional|
+|for\_import|[Bool](/API_docs/types/Bool.md) |  | Optional|
+|title|[string](/API_docs/types/string.md) | Channel title | Yes|
+|about|[string](/API_docs/types/string.md) | Channel description | Yes|
+|geo\_point|[InputGeoPoint](/API_docs/types/InputGeoPoint.md) | Geogroup location | Optional|
+|address|[string](/API_docs/types/string.md) | Geogroup address | Optional|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

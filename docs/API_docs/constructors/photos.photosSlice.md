@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/photos_photosSlice.html
 ---
 # Constructor: photos.photosSlice  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,13 +16,13 @@ Incomplete list of photos with auxiliary data.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|count|[int](../types/int.md) | Yes|Total number of photos|
-|photos|Array of [Photo](../types/Photo.md) | Yes|List of photos|
-|users|Array of [User](../types/User.md) | Yes|List of mentioned users|
+|count|[int](/API_docs/types/int.md) | Yes|Total number of photos|
+|photos|Array of [Photo](/API_docs/types/Photo.md) | Yes|List of photos|
+|users|Array of [User](/API_docs/types/User.md) | Yes|List of mentioned users|
 
 
 
-### Type: [photos.Photos](../types/photos.Photos.md)
+### Type: [photos.Photos](/API_docs/types/photos.Photos.md)
 
 
 ### Example:

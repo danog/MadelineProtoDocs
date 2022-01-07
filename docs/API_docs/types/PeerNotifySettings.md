@@ -11,17 +11,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[peerNotifySettings](../constructors/peerNotifySettings.md)  
+[peerNotifySettings](/API_docs/constructors/peerNotifySettings.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->getNotifySettings](../methods/account.getNotifySettings.md)  
+[$MadelineProto->account->getNotifySettings](/API_docs/methods/account.getNotifySettings.md)  
 
 
 
-[peerNotifySettings](../constructors/peerNotifySettings.md)  
+[peerNotifySettings](/API_docs/constructors/peerNotifySettings.md)  
 
-[$MadelineProto->account->getNotifySettings](../methods/account.getNotifySettings.md)  
+[$MadelineProto->account->getNotifySettings](/API_docs/methods/account.getNotifySettings.md)  
 

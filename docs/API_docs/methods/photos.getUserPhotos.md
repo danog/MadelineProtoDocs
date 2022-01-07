@@ -17,13 +17,13 @@ Returns the list of user photos.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | User ID | Optional|
-|offset|[int](../types/int.md) | Number of list elements to be skipped | Yes|
-|max\_id|[long](../types/long.md) | If a positive value was transferred, the method will return only photos with IDs less than the set one | Yes|
-|limit|[int](../types/int.md) | Number of list elements to be returned | Yes|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | User ID | Optional|
+|offset|[int](/API_docs/types/int.md) | Number of list elements to be skipped | Yes|
+|max\_id|[long](/API_docs/types/long.md) | If a positive value was transferred, the method will return only photos with IDs less than the set one | Yes|
+|limit|[int](/API_docs/types/int.md) | Number of list elements to be returned | Yes|
 
 
-### Return type: [photos.Photos](../types/photos.Photos.md)
+### Return type: [photos.Photos](/API_docs/types/photos.Photos.md)
 
 ### Can bots use this method: **YES**
 

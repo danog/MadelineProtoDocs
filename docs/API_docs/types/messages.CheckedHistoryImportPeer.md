@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/messages_CheckedHistoryImportPeer.html
 
 ### Possible values (constructors):
 
-[messages.checkedHistoryImportPeer](../constructors/messages.checkedHistoryImportPeer.md)  
+[messages.checkedHistoryImportPeer](/API_docs/constructors/messages.checkedHistoryImportPeer.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->checkHistoryImportPeer](../methods/messages.checkHistoryImportPeer.md)  
+[$MadelineProto->messages->checkHistoryImportPeer](/API_docs/methods/messages.checkHistoryImportPeer.md)  
 
 
 
-[messages.checkedHistoryImportPeer](../constructors/messages.checkedHistoryImportPeer.md)  
+[messages.checkedHistoryImportPeer](/API_docs/constructors/messages.checkedHistoryImportPeer.md)  
 
-[$MadelineProto->messages->checkHistoryImportPeer](../methods/messages.checkHistoryImportPeer.md)  
+[$MadelineProto->messages->checkHistoryImportPeer](/API_docs/methods/messages.checkHistoryImportPeer.md)  
 

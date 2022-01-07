@@ -15,11 +15,11 @@ redirect_from: /API_docs/methods/phone_exportGroupCallInvite.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|can\_self\_unmute|[Bool](../types/Bool.md) | Optional|
-|call|[InputGroupCall](../types/InputGroupCall.md) | Yes|
+|can\_self\_unmute|[Bool](/API_docs/types/Bool.md) | Optional|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.md) | Yes|
 
 
-### Return type: [phone.ExportedGroupCallInvite](../types/phone.ExportedGroupCallInvite.md)
+### Return type: [phone.ExportedGroupCallInvite](/API_docs/types/phone.ExportedGroupCallInvite.md)
 
 ### Can bots use this method: **NO**
 

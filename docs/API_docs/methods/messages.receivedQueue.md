@@ -17,10 +17,10 @@ You cannot use this method directly
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|max\_qts|[int](../types/int.md) | Maximum qts value available at the client | Yes|
+|max\_qts|[int](/API_docs/types/int.md) | Maximum qts value available at the client | Yes|
 
 
-### Return type: [Vector\_of\_long](../types/long.md)
+### Return type: [Vector\_of\_long](/API_docs/types/long.md)
 
 ### Can bots use this method: **NO**
 

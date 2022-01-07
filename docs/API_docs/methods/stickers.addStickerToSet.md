@@ -17,11 +17,11 @@ Add a sticker to a stickerset, bots only. The sticker set must have been created
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|stickerset|[InputStickerSet](../types/InputStickerSet.md) | The stickerset | Optional|
-|sticker|[InputStickerSetItem](../types/InputStickerSetItem.md) | The sticker | Yes|
+|stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.md) | The stickerset | Optional|
+|sticker|[InputStickerSetItem](/API_docs/types/InputStickerSetItem.md) | The sticker | Yes|
 
 
-### Return type: [messages.StickerSet](../types/messages.StickerSet.md)
+### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.md)
 
 ### Can bots use this method: **YES**
 

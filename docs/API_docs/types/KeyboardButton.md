@@ -32,31 +32,31 @@ You can also access the properties of the constructor as a normal array, for exa
 
 ### Possible values (constructors):
 
-[keyboardButton](../constructors/keyboardButton.md)  
+[keyboardButton](/API_docs/constructors/keyboardButton.md)  
 
-[keyboardButtonUrl](../constructors/keyboardButtonUrl.md)  
+[keyboardButtonUrl](/API_docs/constructors/keyboardButtonUrl.md)  
 
-[keyboardButtonCallback](../constructors/keyboardButtonCallback.md)  
+[keyboardButtonCallback](/API_docs/constructors/keyboardButtonCallback.md)  
 
-[keyboardButtonRequestPhone](../constructors/keyboardButtonRequestPhone.md)  
+[keyboardButtonRequestPhone](/API_docs/constructors/keyboardButtonRequestPhone.md)  
 
-[keyboardButtonRequestGeoLocation](../constructors/keyboardButtonRequestGeoLocation.md)  
+[keyboardButtonRequestGeoLocation](/API_docs/constructors/keyboardButtonRequestGeoLocation.md)  
 
-[keyboardButtonSwitchInline](../constructors/keyboardButtonSwitchInline.md)  
+[keyboardButtonSwitchInline](/API_docs/constructors/keyboardButtonSwitchInline.md)  
 
-[keyboardButtonGame](../constructors/keyboardButtonGame.md)  
+[keyboardButtonGame](/API_docs/constructors/keyboardButtonGame.md)  
 
-[keyboardButtonBuy](../constructors/keyboardButtonBuy.md)  
+[keyboardButtonBuy](/API_docs/constructors/keyboardButtonBuy.md)  
 
-[keyboardButtonUrlAuth](../constructors/keyboardButtonUrlAuth.md)  
+[keyboardButtonUrlAuth](/API_docs/constructors/keyboardButtonUrlAuth.md)  
 
-[inputKeyboardButtonUrlAuth](../constructors/inputKeyboardButtonUrlAuth.md)  
+[inputKeyboardButtonUrlAuth](/API_docs/constructors/inputKeyboardButtonUrlAuth.md)  
 
-[keyboardButtonRequestPoll](../constructors/keyboardButtonRequestPoll.md)  
+[keyboardButtonRequestPoll](/API_docs/constructors/keyboardButtonRequestPoll.md)  
 
-[inputKeyboardButtonUserProfile](../constructors/inputKeyboardButtonUserProfile.md)  
+[inputKeyboardButtonUserProfile](/API_docs/constructors/inputKeyboardButtonUserProfile.md)  
 
-[keyboardButtonUserProfile](../constructors/keyboardButtonUserProfile.md)  
+[keyboardButtonUserProfile](/API_docs/constructors/keyboardButtonUserProfile.md)  
 
 
 
@@ -64,29 +64,29 @@ You can also access the properties of the constructor as a normal array, for exa
 
 
 
-[keyboardButton](../constructors/keyboardButton.md)  
+[keyboardButton](/API_docs/constructors/keyboardButton.md)  
 
-[keyboardButtonUrl](../constructors/keyboardButtonUrl.md)  
+[keyboardButtonUrl](/API_docs/constructors/keyboardButtonUrl.md)  
 
-[keyboardButtonCallback](../constructors/keyboardButtonCallback.md)  
+[keyboardButtonCallback](/API_docs/constructors/keyboardButtonCallback.md)  
 
-[keyboardButtonRequestPhone](../constructors/keyboardButtonRequestPhone.md)  
+[keyboardButtonRequestPhone](/API_docs/constructors/keyboardButtonRequestPhone.md)  
 
-[keyboardButtonRequestGeoLocation](../constructors/keyboardButtonRequestGeoLocation.md)  
+[keyboardButtonRequestGeoLocation](/API_docs/constructors/keyboardButtonRequestGeoLocation.md)  
 
-[keyboardButtonSwitchInline](../constructors/keyboardButtonSwitchInline.md)  
+[keyboardButtonSwitchInline](/API_docs/constructors/keyboardButtonSwitchInline.md)  
 
-[keyboardButtonGame](../constructors/keyboardButtonGame.md)  
+[keyboardButtonGame](/API_docs/constructors/keyboardButtonGame.md)  
 
-[keyboardButtonBuy](../constructors/keyboardButtonBuy.md)  
+[keyboardButtonBuy](/API_docs/constructors/keyboardButtonBuy.md)  
 
-[keyboardButtonUrlAuth](../constructors/keyboardButtonUrlAuth.md)  
+[keyboardButtonUrlAuth](/API_docs/constructors/keyboardButtonUrlAuth.md)  
 
-[inputKeyboardButtonUrlAuth](../constructors/inputKeyboardButtonUrlAuth.md)  
+[inputKeyboardButtonUrlAuth](/API_docs/constructors/inputKeyboardButtonUrlAuth.md)  
 
-[keyboardButtonRequestPoll](../constructors/keyboardButtonRequestPoll.md)  
+[keyboardButtonRequestPoll](/API_docs/constructors/keyboardButtonRequestPoll.md)  
 
-[inputKeyboardButtonUserProfile](../constructors/inputKeyboardButtonUserProfile.md)  
+[inputKeyboardButtonUserProfile](/API_docs/constructors/inputKeyboardButtonUserProfile.md)  
 
-[keyboardButtonUserProfile](../constructors/keyboardButtonUserProfile.md)  
+[keyboardButtonUserProfile](/API_docs/constructors/keyboardButtonUserProfile.md)  
 

@@ -17,12 +17,12 @@ Method for fetching previously featured stickers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|offset|[int](../types/int.md) | Offset | Yes|
-|limit|[int](../types/int.md) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
-|hash|[long](../types/long.md) |  | Yes|
+|offset|[int](/API_docs/types/int.md) | Offset | Yes|
+|limit|[int](/API_docs/types/int.md) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
+|hash|[long](/API_docs/types/long.md) |  | Yes|
 
 
-### Return type: [messages.FeaturedStickers](../types/messages.FeaturedStickers.md)
+### Return type: [messages.FeaturedStickers](/API_docs/types/messages.FeaturedStickers.md)
 
 ### Can bots use this method: **NO**
 

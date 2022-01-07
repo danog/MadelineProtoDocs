@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[photoEmpty](../constructors/photoEmpty.md)  
+[photoEmpty](/API_docs/constructors/photoEmpty.md)  
 
-[photo](../constructors/photo.md)  
+[photo](/API_docs/constructors/photo.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[photoEmpty](../constructors/photoEmpty.md)  
+[photoEmpty](/API_docs/constructors/photoEmpty.md)  
 
-[photo](../constructors/photo.md)  
+[photo](/API_docs/constructors/photo.md)  
 

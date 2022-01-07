@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[themeSettings](../constructors/themeSettings.md)  
+[themeSettings](/API_docs/constructors/themeSettings.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[themeSettings](../constructors/themeSettings.md)  
+[themeSettings](/API_docs/constructors/themeSettings.md)  
 

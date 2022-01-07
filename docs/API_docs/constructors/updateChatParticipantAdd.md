@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChatParticipantAdd  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,15 +15,15 @@ New group member.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[long](../types/long.md) | Yes|
-|user\_id|[long](../types/long.md) | Yes|
-|inviter\_id|[long](../types/long.md) | Yes|
-|date|[int](../types/int.md) | Yes|When was the participant added|
-|version|[int](../types/int.md) | Yes|Chat version number|
+|chat\_id|[long](/API_docs/types/long.md) | Yes|
+|user\_id|[long](/API_docs/types/long.md) | Yes|
+|inviter\_id|[long](/API_docs/types/long.md) | Yes|
+|date|[int](/API_docs/types/int.md) | Yes|When was the participant added|
+|version|[int](/API_docs/types/int.md) | Yes|Chat version number|
 
 
 
-### Type: [Update](../types/Update.md)
+### Type: [Update](/API_docs/types/Update.md)
 
 
 ### Example:

@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/auth_ExportedAuthorization.html
 
 ### Possible values (constructors):
 
-[auth.exportedAuthorization](../constructors/auth.exportedAuthorization.md)  
+[auth.exportedAuthorization](/API_docs/constructors/auth.exportedAuthorization.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->auth->exportAuthorization](../methods/auth.exportAuthorization.md)  
+[$MadelineProto->auth->exportAuthorization](/API_docs/methods/auth.exportAuthorization.md)  
 
 
 
-[auth.exportedAuthorization](../constructors/auth.exportedAuthorization.md)  
+[auth.exportedAuthorization](/API_docs/constructors/auth.exportedAuthorization.md)  
 
-[$MadelineProto->auth->exportAuthorization](../methods/auth.exportAuthorization.md)  
+[$MadelineProto->auth->exportAuthorization](/API_docs/methods/auth.exportAuthorization.md)  
 

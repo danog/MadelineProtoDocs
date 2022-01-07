@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputThemeSettings  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,17 +15,17 @@ Theme settings
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|message\_colors\_animated|[Bool](../types/Bool.md) | Optional|
-|base\_theme|[BaseTheme](../types/BaseTheme.md) | Yes|Default theme on which this theme is based|
-|accent\_color|[int](../types/int.md) | Yes|Accent color, RGB24 format|
-|outbox\_accent\_color|[int](../types/int.md) | Optional|
-|message\_colors|Array of [int](../types/int.md) | Optional|
-|wallpaper|[InputWallPaper](../types/InputWallPaper.md) | Optional|Wallpaper|
-|wallpaper\_settings|[WallPaperSettings](../types/WallPaperSettings.md) | Optional|Wallpaper settings|
+|message\_colors\_animated|[Bool](/API_docs/types/Bool.md) | Optional|
+|base\_theme|[BaseTheme](/API_docs/types/BaseTheme.md) | Yes|Default theme on which this theme is based|
+|accent\_color|[int](/API_docs/types/int.md) | Yes|Accent color, RGB24 format|
+|outbox\_accent\_color|[int](/API_docs/types/int.md) | Optional|
+|message\_colors|Array of [int](/API_docs/types/int.md) | Optional|
+|wallpaper|[InputWallPaper](/API_docs/types/InputWallPaper.md) | Optional|Wallpaper|
+|wallpaper\_settings|[WallPaperSettings](/API_docs/types/WallPaperSettings.md) | Optional|Wallpaper settings|
 
 
 
-### Type: [InputThemeSettings](../types/InputThemeSettings.md)
+### Type: [InputThemeSettings](/API_docs/types/InputThemeSettings.md)
 
 
 ### Example:

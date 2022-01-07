@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: stickerPack  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,12 +16,12 @@ It is **not** a sticker pack the way it is usually intended, you may be looking 
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|emoticon|[string](../types/string.md) | Yes|Emoji|
-|documents|Array of [long](../types/long.md) | Yes|Stickers|
+|emoticon|[string](/API_docs/types/string.md) | Yes|Emoji|
+|documents|Array of [long](/API_docs/types/long.md) | Yes|Stickers|
 
 
 
-### Type: [StickerPack](../types/StickerPack.md)
+### Type: [StickerPack](/API_docs/types/StickerPack.md)
 
 
 ### Example:

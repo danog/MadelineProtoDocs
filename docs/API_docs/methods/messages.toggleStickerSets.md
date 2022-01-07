@@ -17,13 +17,13 @@ Apply changes to multiple stickersets
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|uninstall|[Bool](../types/Bool.md) | Uninstall the specified stickersets | Optional|
-|archive|[Bool](../types/Bool.md) | Archive the specified stickersets | Optional|
-|unarchive|[Bool](../types/Bool.md) | Unarchive the specified stickersets | Optional|
-|stickersets|Array of [InputStickerSet](../types/InputStickerSet.md) | Stickersets to act upon | Yes|
+|uninstall|[Bool](/API_docs/types/Bool.md) | Uninstall the specified stickersets | Optional|
+|archive|[Bool](/API_docs/types/Bool.md) | Archive the specified stickersets | Optional|
+|unarchive|[Bool](/API_docs/types/Bool.md) | Unarchive the specified stickersets | Optional|
+|stickersets|Array of [InputStickerSet](/API_docs/types/InputStickerSet.md) | Stickersets to act upon | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

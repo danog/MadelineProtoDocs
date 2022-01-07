@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/storage_fileMp4.html
 ---
 # Constructor: storage.fileMp4  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,7 +15,7 @@ MPEG-4 video. MIME type: `video/mp4`.
 
 
 
-### Type: [storage.FileType](../types/storage.FileType.md)
+### Type: [storage.FileType](/API_docs/types/storage.FileType.md)
 
 
 ### Example:

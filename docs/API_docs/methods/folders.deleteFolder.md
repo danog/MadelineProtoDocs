@@ -17,10 +17,10 @@ Delete a [peer folder](https://core.telegram.org/api/folders#peer-folders)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|folder\_id|[int](../types/int.md) | [Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders) | Yes|
+|folder\_id|[int](/API_docs/types/int.md) | [Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders) | Yes|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

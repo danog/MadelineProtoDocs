@@ -11,17 +11,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[emojiLanguage](../constructors/emojiLanguage.md)  
+[emojiLanguage](/API_docs/constructors/emojiLanguage.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getEmojiKeywordsLanguages](../methods/messages.getEmojiKeywordsLanguages.md)  
+[$MadelineProto->messages->getEmojiKeywordsLanguages](/API_docs/methods/messages.getEmojiKeywordsLanguages.md)  
 
 
 
-[emojiLanguage](../constructors/emojiLanguage.md)  
+[emojiLanguage](/API_docs/constructors/emojiLanguage.md)  
 
-[$MadelineProto->messages->getEmojiKeywordsLanguages](../methods/messages.getEmojiKeywordsLanguages.md)  
+[$MadelineProto->messages->getEmojiKeywordsLanguages](/API_docs/methods/messages.getEmojiKeywordsLanguages.md)  
 

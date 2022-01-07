@@ -17,10 +17,10 @@ Returns a list of available wallpapers.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[long](../types/long.md) |  | Yes|
+|hash|[long](/API_docs/types/long.md) |  | Yes|
 
 
-### Return type: [account.WallPapers](../types/account.WallPapers.md)
+### Return type: [account.WallPapers](/API_docs/types/account.WallPapers.md)
 
 ### Can bots use this method: **NO**
 

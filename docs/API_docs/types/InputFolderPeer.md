@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputFolderPeer](../constructors/inputFolderPeer.md)  
+[inputFolderPeer](/API_docs/constructors/inputFolderPeer.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputFolderPeer](../constructors/inputFolderPeer.md)  
+[inputFolderPeer](/API_docs/constructors/inputFolderPeer.md)  
 

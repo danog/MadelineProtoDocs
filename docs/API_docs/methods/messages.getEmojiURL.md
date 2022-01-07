@@ -17,10 +17,10 @@ Returns an HTTP URL which can be used to automatically log in into translation p
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|lang\_code|[string](../types/string.md) | Language code for which the emoji replacements will be suggested | Yes|
+|lang\_code|[string](/API_docs/types/string.md) | Language code for which the emoji replacements will be suggested | Yes|
 
 
-### Return type: [EmojiURL](../types/EmojiURL.md)
+### Return type: [EmojiURL](/API_docs/types/EmojiURL.md)
 
 ### Can bots use this method: **NO**
 

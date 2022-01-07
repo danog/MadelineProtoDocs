@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/stickers_SuggestedShortName.html
 
 ### Possible values (constructors):
 
-[stickers.suggestedShortName](../constructors/stickers.suggestedShortName.md)  
+[stickers.suggestedShortName](/API_docs/constructors/stickers.suggestedShortName.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->stickers->suggestShortName](../methods/stickers.suggestShortName.md)  
+[$MadelineProto->stickers->suggestShortName](/API_docs/methods/stickers.suggestShortName.md)  
 
 
 
-[stickers.suggestedShortName](../constructors/stickers.suggestedShortName.md)  
+[stickers.suggestedShortName](/API_docs/constructors/stickers.suggestedShortName.md)  
 
-[$MadelineProto->stickers->suggestShortName](../methods/stickers.suggestShortName.md)  
+[$MadelineProto->stickers->suggestShortName](/API_docs/methods/stickers.suggestShortName.md)  
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: emojiLanguage  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Emoji language
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|lang\_code|[string](../types/string.md) | Yes|Language code|
+|lang\_code|[string](/API_docs/types/string.md) | Yes|Language code|
 
 
 
-### Type: [EmojiLanguage](../types/EmojiLanguage.md)
+### Type: [EmojiLanguage](/API_docs/types/EmojiLanguage.md)
 
 
 ### Example:

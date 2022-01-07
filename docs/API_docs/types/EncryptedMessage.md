@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[encryptedMessage](../constructors/encryptedMessage.md)  
+[encryptedMessage](/API_docs/constructors/encryptedMessage.md)  
 
-[encryptedMessageService](../constructors/encryptedMessageService.md)  
+[encryptedMessageService](/API_docs/constructors/encryptedMessageService.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[encryptedMessage](../constructors/encryptedMessage.md)  
+[encryptedMessage](/API_docs/constructors/encryptedMessage.md)  
 
-[encryptedMessageService](../constructors/encryptedMessageService.md)  
+[encryptedMessageService](/API_docs/constructors/encryptedMessageService.md)  
 

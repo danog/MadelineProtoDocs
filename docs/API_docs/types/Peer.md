@@ -34,11 +34,11 @@ A [Chat](Chat.md), a [User](User.md), an [InputPeer](InputPeer.md), an [InputDia
 
 ### Possible values (constructors):
 
-[peerUser](../constructors/peerUser.md)  
+[peerUser](/API_docs/constructors/peerUser.md)  
 
-[peerChat](../constructors/peerChat.md)  
+[peerChat](/API_docs/constructors/peerChat.md)  
 
-[peerChannel](../constructors/peerChannel.md)  
+[peerChannel](/API_docs/constructors/peerChannel.md)  
 
 
 
@@ -46,9 +46,9 @@ A [Chat](Chat.md), a [User](User.md), an [InputPeer](InputPeer.md), an [InputDia
 
 
 
-[peerUser](../constructors/peerUser.md)  
+[peerUser](/API_docs/constructors/peerUser.md)  
 
-[peerChat](../constructors/peerChat.md)  
+[peerChat](/API_docs/constructors/peerChat.md)  
 
-[peerChannel](../constructors/peerChannel.md)  
+[peerChannel](/API_docs/constructors/peerChannel.md)  
 

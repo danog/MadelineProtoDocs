@@ -11,13 +11,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[replyKeyboardHide](../constructors/replyKeyboardHide.md)  
+[replyKeyboardHide](/API_docs/constructors/replyKeyboardHide.md)  
 
-[replyKeyboardForceReply](../constructors/replyKeyboardForceReply.md)  
+[replyKeyboardForceReply](/API_docs/constructors/replyKeyboardForceReply.md)  
 
-[replyKeyboardMarkup](../constructors/replyKeyboardMarkup.md)  
+[replyKeyboardMarkup](/API_docs/constructors/replyKeyboardMarkup.md)  
 
-[replyInlineMarkup](../constructors/replyInlineMarkup.md)  
+[replyInlineMarkup](/API_docs/constructors/replyInlineMarkup.md)  
 
 
 
@@ -25,11 +25,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[replyKeyboardHide](../constructors/replyKeyboardHide.md)  
+[replyKeyboardHide](/API_docs/constructors/replyKeyboardHide.md)  
 
-[replyKeyboardForceReply](../constructors/replyKeyboardForceReply.md)  
+[replyKeyboardForceReply](/API_docs/constructors/replyKeyboardForceReply.md)  
 
-[replyKeyboardMarkup](../constructors/replyKeyboardMarkup.md)  
+[replyKeyboardMarkup](/API_docs/constructors/replyKeyboardMarkup.md)  
 
-[replyInlineMarkup](../constructors/replyInlineMarkup.md)  
+[replyInlineMarkup](/API_docs/constructors/replyInlineMarkup.md)  
 

@@ -12,25 +12,25 @@ redirect_from: /API_docs/types/phone_PhoneCall.html
 
 ### Possible values (constructors):
 
-[phone.phoneCall](../constructors/phone.phoneCall.md)  
+[phone.phoneCall](/API_docs/constructors/phone.phoneCall.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->phone->requestCall](../methods/phone.requestCall.md)  
+[$MadelineProto->phone->requestCall](/API_docs/methods/phone.requestCall.md)  
 
-[$MadelineProto->phone->acceptCall](../methods/phone.acceptCall.md)  
+[$MadelineProto->phone->acceptCall](/API_docs/methods/phone.acceptCall.md)  
 
-[$MadelineProto->phone->confirmCall](../methods/phone.confirmCall.md)  
+[$MadelineProto->phone->confirmCall](/API_docs/methods/phone.confirmCall.md)  
 
 
 
-[phone.phoneCall](../constructors/phone.phoneCall.md)  
+[phone.phoneCall](/API_docs/constructors/phone.phoneCall.md)  
 
-[$MadelineProto->phone->requestCall](../methods/phone.requestCall.md)  
+[$MadelineProto->phone->requestCall](/API_docs/methods/phone.requestCall.md)  
 
-[$MadelineProto->phone->acceptCall](../methods/phone.acceptCall.md)  
+[$MadelineProto->phone->acceptCall](/API_docs/methods/phone.acceptCall.md)  
 
-[$MadelineProto->phone->confirmCall](../methods/phone.confirmCall.md)  
+[$MadelineProto->phone->confirmCall](/API_docs/methods/phone.confirmCall.md)  
 

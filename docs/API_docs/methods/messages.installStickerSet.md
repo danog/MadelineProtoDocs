@@ -17,11 +17,11 @@ Install a stickerset
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|stickerset|[InputStickerSet](../types/InputStickerSet.md) | Stickerset to install | Optional|
-|archived|[Bool](../types/Bool.md) | Whether to archive stickerset | Yes|
+|stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.md) | Stickerset to install | Optional|
+|archived|[Bool](/API_docs/types/Bool.md) | Whether to archive stickerset | Yes|
 
 
-### Return type: [messages.StickerSetInstallResult](../types/messages.StickerSetInstallResult.md)
+### Return type: [messages.StickerSetInstallResult](/API_docs/types/messages.StickerSetInstallResult.md)
 
 ### Can bots use this method: **NO**
 

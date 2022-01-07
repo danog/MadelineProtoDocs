@@ -12,69 +12,69 @@ redirect_from: /API_docs/types/messages_Messages.html
 
 ### Possible values (constructors):
 
-[messages.messages](../constructors/messages.messages.md)  
+[messages.messages](/API_docs/constructors/messages.messages.md)  
 
-[messages.messagesSlice](../constructors/messages.messagesSlice.md)  
+[messages.messagesSlice](/API_docs/constructors/messages.messagesSlice.md)  
 
-[messages.channelMessages](../constructors/messages.channelMessages.md)  
+[messages.channelMessages](/API_docs/constructors/messages.channelMessages.md)  
 
-[messages.messagesNotModified](../constructors/messages.messagesNotModified.md)  
+[messages.messagesNotModified](/API_docs/constructors/messages.messagesNotModified.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getMessages](../methods/messages.getMessages.md)  
+[$MadelineProto->messages->getMessages](/API_docs/methods/messages.getMessages.md)  
 
-[$MadelineProto->messages->getHistory](../methods/messages.getHistory.md)  
+[$MadelineProto->messages->getHistory](/API_docs/methods/messages.getHistory.md)  
 
-[$MadelineProto->messages->search](../methods/messages.search.md)  
+[$MadelineProto->messages->search](/API_docs/methods/messages.search.md)  
 
-[$MadelineProto->messages->searchGlobal](../methods/messages.searchGlobal.md)  
+[$MadelineProto->messages->searchGlobal](/API_docs/methods/messages.searchGlobal.md)  
 
-[$MadelineProto->messages->getUnreadMentions](../methods/messages.getUnreadMentions.md)  
+[$MadelineProto->messages->getUnreadMentions](/API_docs/methods/messages.getUnreadMentions.md)  
 
-[$MadelineProto->messages->getRecentLocations](../methods/messages.getRecentLocations.md)  
+[$MadelineProto->messages->getRecentLocations](/API_docs/methods/messages.getRecentLocations.md)  
 
-[$MadelineProto->messages->getScheduledHistory](../methods/messages.getScheduledHistory.md)  
+[$MadelineProto->messages->getScheduledHistory](/API_docs/methods/messages.getScheduledHistory.md)  
 
-[$MadelineProto->messages->getScheduledMessages](../methods/messages.getScheduledMessages.md)  
+[$MadelineProto->messages->getScheduledMessages](/API_docs/methods/messages.getScheduledMessages.md)  
 
-[$MadelineProto->messages->getReplies](../methods/messages.getReplies.md)  
+[$MadelineProto->messages->getReplies](/API_docs/methods/messages.getReplies.md)  
 
-[$MadelineProto->channels->getMessages](../methods/channels.getMessages.md)  
+[$MadelineProto->channels->getMessages](/API_docs/methods/channels.getMessages.md)  
 
-[$MadelineProto->stats->getMessagePublicForwards](../methods/stats.getMessagePublicForwards.md)  
+[$MadelineProto->stats->getMessagePublicForwards](/API_docs/methods/stats.getMessagePublicForwards.md)  
 
 
 
-[messages.messages](../constructors/messages.messages.md)  
+[messages.messages](/API_docs/constructors/messages.messages.md)  
 
-[messages.messagesSlice](../constructors/messages.messagesSlice.md)  
+[messages.messagesSlice](/API_docs/constructors/messages.messagesSlice.md)  
 
-[messages.channelMessages](../constructors/messages.channelMessages.md)  
+[messages.channelMessages](/API_docs/constructors/messages.channelMessages.md)  
 
-[messages.messagesNotModified](../constructors/messages.messagesNotModified.md)  
+[messages.messagesNotModified](/API_docs/constructors/messages.messagesNotModified.md)  
 
-[$MadelineProto->messages->getMessages](../methods/messages.getMessages.md)  
+[$MadelineProto->messages->getMessages](/API_docs/methods/messages.getMessages.md)  
 
-[$MadelineProto->messages->getHistory](../methods/messages.getHistory.md)  
+[$MadelineProto->messages->getHistory](/API_docs/methods/messages.getHistory.md)  
 
-[$MadelineProto->messages->search](../methods/messages.search.md)  
+[$MadelineProto->messages->search](/API_docs/methods/messages.search.md)  
 
-[$MadelineProto->messages->searchGlobal](../methods/messages.searchGlobal.md)  
+[$MadelineProto->messages->searchGlobal](/API_docs/methods/messages.searchGlobal.md)  
 
-[$MadelineProto->messages->getUnreadMentions](../methods/messages.getUnreadMentions.md)  
+[$MadelineProto->messages->getUnreadMentions](/API_docs/methods/messages.getUnreadMentions.md)  
 
-[$MadelineProto->messages->getRecentLocations](../methods/messages.getRecentLocations.md)  
+[$MadelineProto->messages->getRecentLocations](/API_docs/methods/messages.getRecentLocations.md)  
 
-[$MadelineProto->messages->getScheduledHistory](../methods/messages.getScheduledHistory.md)  
+[$MadelineProto->messages->getScheduledHistory](/API_docs/methods/messages.getScheduledHistory.md)  
 
-[$MadelineProto->messages->getScheduledMessages](../methods/messages.getScheduledMessages.md)  
+[$MadelineProto->messages->getScheduledMessages](/API_docs/methods/messages.getScheduledMessages.md)  
 
-[$MadelineProto->messages->getReplies](../methods/messages.getReplies.md)  
+[$MadelineProto->messages->getReplies](/API_docs/methods/messages.getReplies.md)  
 
-[$MadelineProto->channels->getMessages](../methods/channels.getMessages.md)  
+[$MadelineProto->channels->getMessages](/API_docs/methods/channels.getMessages.md)  
 
-[$MadelineProto->stats->getMessagePublicForwards](../methods/stats.getMessagePublicForwards.md)  
+[$MadelineProto->stats->getMessagePublicForwards](/API_docs/methods/stats.getMessagePublicForwards.md)  
 

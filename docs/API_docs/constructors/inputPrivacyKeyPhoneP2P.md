@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPrivacyKeyPhoneP2P  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,7 +14,7 @@ Whether the user allows P2P communication during VoIP calls
 
 
 
-### Type: [InputPrivacyKey](../types/InputPrivacyKey.md)
+### Type: [InputPrivacyKey](/API_docs/types/InputPrivacyKey.md)
 
 
 ### Example:

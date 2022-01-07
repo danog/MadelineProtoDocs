@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_passportConfigNotModified.html
 ---
 # Constructor: help.passportConfigNotModified  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,7 +15,7 @@ Password configuration not modified
 
 
 
-### Type: [help.PassportConfig](../types/help.PassportConfig.md)
+### Type: [help.PassportConfig](/API_docs/types/help.PassportConfig.md)
 
 
 ### Example:

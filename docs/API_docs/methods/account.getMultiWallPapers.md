@@ -17,10 +17,10 @@ Get info about multiple wallpapers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|wallpapers|Array of [InputWallPaper](../types/InputWallPaper.md) | Wallpapers to fetch info about | Yes|
+|wallpapers|Array of [InputWallPaper](/API_docs/types/InputWallPaper.md) | Wallpapers to fetch info about | Yes|
 
 
-### Return type: [Vector\_of\_WallPaper](../types/WallPaper.md)
+### Return type: [Vector\_of\_WallPaper](/API_docs/types/WallPaper.md)
 
 ### Can bots use this method: **NO**
 

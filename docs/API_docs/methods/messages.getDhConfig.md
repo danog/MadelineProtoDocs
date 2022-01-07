@@ -17,11 +17,11 @@ You cannot use this method directly, instead use $MadelineProto->getDhConfig();
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|version|[int](../types/int.md) | Value of the **version** parameter from [messages.dhConfig](../constructors/messages.dhConfig.md), avialable at the client | Yes|
-|random\_length|[int](../types/int.md) | Length of the required random sequence | Yes|
+|version|[int](/API_docs/types/int.md) | Value of the **version** parameter from [messages.dhConfig](../constructors/messages.dhConfig.md), avialable at the client | Yes|
+|random\_length|[int](/API_docs/types/int.md) | Length of the required random sequence | Yes|
 
 
-### Return type: [messages.DhConfig](../types/messages.DhConfig.md)
+### Return type: [messages.DhConfig](/API_docs/types/messages.DhConfig.md)
 
 ### Can bots use this method: **NO**
 

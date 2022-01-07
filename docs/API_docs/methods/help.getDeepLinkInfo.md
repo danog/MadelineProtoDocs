@@ -17,10 +17,10 @@ Get info about a `t.me` link
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|path|[string](../types/string.md) | Path in `t.me/path` | Yes|
+|path|[string](/API_docs/types/string.md) | Path in `t.me/path` | Yes|
 
 
-### Return type: [help.DeepLinkInfo](../types/help.DeepLinkInfo.md)
+### Return type: [help.DeepLinkInfo](/API_docs/types/help.DeepLinkInfo.md)
 
 ### Can bots use this method: **NO**
 

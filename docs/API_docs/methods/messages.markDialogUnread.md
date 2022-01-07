@@ -17,11 +17,11 @@ Manually mark dialog as unread
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|unread|[Bool](../types/Bool.md) | Mark as unread/read | Optional|
-|peer|[Username, chat ID, Update, Message or InputDialogPeer](../types/InputDialogPeer.md) | Dialog | Yes|
+|unread|[Bool](/API_docs/types/Bool.md) | Mark as unread/read | Optional|
+|peer|[Username, chat ID, Update, Message or InputDialogPeer](/API_docs/types/InputDialogPeer.md) | Dialog | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

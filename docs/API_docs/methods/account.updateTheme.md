@@ -17,15 +17,15 @@ Update theme
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|format|[string](../types/string.md) | Theme format, a string that identifies the theming engines supported by the client | Yes|
-|theme|[InputTheme](../types/InputTheme.md) | Theme to update | Yes|
-|slug|[string](../types/string.md) | Unique theme ID | Optional|
-|title|[string](../types/string.md) | Theme name | Optional|
-|document|[MessageMedia, Update, Message or InputDocument](../types/InputDocument.md) | Theme file | Optional|
-|settings|Array of [InputThemeSettings](../types/InputThemeSettings.md) |  | Optional|
+|format|[string](/API_docs/types/string.md) | Theme format, a string that identifies the theming engines supported by the client | Yes|
+|theme|[InputTheme](/API_docs/types/InputTheme.md) | Theme to update | Yes|
+|slug|[string](/API_docs/types/string.md) | Unique theme ID | Optional|
+|title|[string](/API_docs/types/string.md) | Theme name | Optional|
+|document|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.md) | Theme file | Optional|
+|settings|Array of [InputThemeSettings](/API_docs/types/InputThemeSettings.md) |  | Optional|
 
 
-### Return type: [Theme](../types/Theme.md)
+### Return type: [Theme](/API_docs/types/Theme.md)
 
 ### Can bots use this method: **NO**
 

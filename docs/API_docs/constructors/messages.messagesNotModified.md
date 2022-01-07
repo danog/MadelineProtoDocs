@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_messagesNotModified.html
 ---
 # Constructor: messages.messagesNotModified  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,11 +16,11 @@ No new messages matching the query were found
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|count|[int](../types/int.md) | Yes|Number of results found server-side by the given query|
+|count|[int](/API_docs/types/int.md) | Yes|Number of results found server-side by the given query|
 
 
 
-### Type: [messages.Messages](../types/messages.Messages.md)
+### Type: [messages.Messages](/API_docs/types/messages.Messages.md)
 
 
 ### Example:

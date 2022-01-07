@@ -12,9 +12,9 @@ You can also provide a [MessageMedia](MessageMedia.md), [Message](Message.md), [
 
 ### Possible values (constructors):
 
-[inputDocumentEmpty](../constructors/inputDocumentEmpty.md)  
+[inputDocumentEmpty](/API_docs/constructors/inputDocumentEmpty.md)  
 
-[inputDocument](../constructors/inputDocument.md)  
+[inputDocument](/API_docs/constructors/inputDocument.md)  
 
 
 
@@ -22,7 +22,7 @@ You can also provide a [MessageMedia](MessageMedia.md), [Message](Message.md), [
 
 
 
-[inputDocumentEmpty](../constructors/inputDocumentEmpty.md)  
+[inputDocumentEmpty](/API_docs/constructors/inputDocumentEmpty.md)  
 
-[inputDocument](../constructors/inputDocument.md)  
+[inputDocument](/API_docs/constructors/inputDocument.md)  
 

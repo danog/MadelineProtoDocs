@@ -11,21 +11,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[photoSizeEmpty](../constructors/photoSizeEmpty.md)  
+[photoSizeEmpty](/API_docs/constructors/photoSizeEmpty.md)  
 
-[photoSize](../constructors/photoSize.md)  
+[photoSize](/API_docs/constructors/photoSize.md)  
 
-[photoCachedSize](../constructors/photoCachedSize.md)  
+[photoCachedSize](/API_docs/constructors/photoCachedSize.md)  
 
-[photoStrippedSize](../constructors/photoStrippedSize.md)  
+[photoStrippedSize](/API_docs/constructors/photoStrippedSize.md)  
 
-[photoSizeProgressive](../constructors/photoSizeProgressive.md)  
+[photoSizeProgressive](/API_docs/constructors/photoSizeProgressive.md)  
 
-[photoPathSize](../constructors/photoPathSize.md)  
+[photoPathSize](/API_docs/constructors/photoPathSize.md)  
 
-[photoSize\_23](../constructors/photoSize_23.md)  
+[photoSize\_23](/API_docs/constructors/photoSize_23.md)  
 
-[photoCachedSize\_23](../constructors/photoCachedSize_23.md)  
+[photoCachedSize\_23](/API_docs/constructors/photoCachedSize_23.md)  
 
 
 
@@ -33,19 +33,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[photoSizeEmpty](../constructors/photoSizeEmpty.md)  
+[photoSizeEmpty](/API_docs/constructors/photoSizeEmpty.md)  
 
-[photoSize](../constructors/photoSize.md)  
+[photoSize](/API_docs/constructors/photoSize.md)  
 
-[photoCachedSize](../constructors/photoCachedSize.md)  
+[photoCachedSize](/API_docs/constructors/photoCachedSize.md)  
 
-[photoStrippedSize](../constructors/photoStrippedSize.md)  
+[photoStrippedSize](/API_docs/constructors/photoStrippedSize.md)  
 
-[photoSizeProgressive](../constructors/photoSizeProgressive.md)  
+[photoSizeProgressive](/API_docs/constructors/photoSizeProgressive.md)  
 
-[photoPathSize](../constructors/photoPathSize.md)  
+[photoPathSize](/API_docs/constructors/photoPathSize.md)  
 
-[photoSize\_23](../constructors/photoSize_23.md)  
+[photoSize\_23](/API_docs/constructors/photoSize_23.md)  
 
-[photoCachedSize\_23](../constructors/photoCachedSize_23.md)  
+[photoCachedSize\_23](/API_docs/constructors/photoCachedSize_23.md)  
 

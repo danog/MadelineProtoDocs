@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateShortMessage  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,25 +15,25 @@ Info about a message sent to (received from) another user
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|out|[Bool](../types/Bool.md) | Optional|Whether the message is outgoing|
-|mentioned|[Bool](../types/Bool.md) | Optional|Whether we were mentioned in the message|
-|media\_unread|[Bool](../types/Bool.md) | Optional|Whether there are some **unread** mentions in this message|
-|silent|[Bool](../types/Bool.md) | Optional|If true, the message is a silent message, no notifications should be triggered|
-|id|[int](../types/int.md) | Yes|The message ID|
-|user\_id|[long](../types/long.md) | Yes|
-|message|[string](../types/string.md) | Yes|The message|
-|pts|[int](../types/int.md) | Yes|[PTS](https://core.telegram.org/api/updates)|
-|pts\_count|[int](../types/int.md) | Yes|[PTS count](https://core.telegram.org/api/updates)|
-|date|[int](../types/int.md) | Yes|[date](https://core.telegram.org/api/updates)|
-|fwd\_from|[MessageFwdHeader](../types/MessageFwdHeader.md) | Optional|Info about a forwarded message|
-|via\_bot\_id|[long](../types/long.md) | Optional|
-|reply\_to|[MessageReplyHeader](../types/MessageReplyHeader.md) | Optional|Reply and [thread](https://core.telegram.org/api/threads) information|
-|entities|Array of [MessageEntity](../types/MessageEntity.md) | Optional|[Entities](https://core.telegram.org/api/entities) for styled text|
-|ttl\_period|[int](../types/int.md) | Optional|
+|out|[Bool](/API_docs/types/Bool.md) | Optional|Whether the message is outgoing|
+|mentioned|[Bool](/API_docs/types/Bool.md) | Optional|Whether we were mentioned in the message|
+|media\_unread|[Bool](/API_docs/types/Bool.md) | Optional|Whether there are some **unread** mentions in this message|
+|silent|[Bool](/API_docs/types/Bool.md) | Optional|If true, the message is a silent message, no notifications should be triggered|
+|id|[int](/API_docs/types/int.md) | Yes|The message ID|
+|user\_id|[long](/API_docs/types/long.md) | Yes|
+|message|[string](/API_docs/types/string.md) | Yes|The message|
+|pts|[int](/API_docs/types/int.md) | Yes|[PTS](https://core.telegram.org/api/updates)|
+|pts\_count|[int](/API_docs/types/int.md) | Yes|[PTS count](https://core.telegram.org/api/updates)|
+|date|[int](/API_docs/types/int.md) | Yes|[date](https://core.telegram.org/api/updates)|
+|fwd\_from|[MessageFwdHeader](/API_docs/types/MessageFwdHeader.md) | Optional|Info about a forwarded message|
+|via\_bot\_id|[long](/API_docs/types/long.md) | Optional|
+|reply\_to|[MessageReplyHeader](/API_docs/types/MessageReplyHeader.md) | Optional|Reply and [thread](https://core.telegram.org/api/threads) information|
+|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.md) | Optional|[Entities](https://core.telegram.org/api/entities) for styled text|
+|ttl\_period|[int](/API_docs/types/int.md) | Optional|
 
 
 
-### Type: [Updates](../types/Updates.md)
+### Type: [Updates](/API_docs/types/Updates.md)
 
 
 ### Example:

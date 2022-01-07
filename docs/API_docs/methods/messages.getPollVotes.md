@@ -17,14 +17,14 @@ Get poll results for non-anonymous polls
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Chat where the poll was sent | Optional|
-|id|[int](../types/int.md) | Message ID | Yes|
-|option|[bytes](../types/bytes.md) | Get only results for the specified poll `option` | Optional|
-|offset|[string](../types/string.md) | Offset for results, taken from the `next_offset` field of [messages.votesList](../constructors/messages.votesList.md), initially an empty string. <br>Note: if no more results are available, the method call will return an empty `next_offset`; thus, avoid providing the `next_offset` returned in [messages.votesList](../constructors/messages.votesList.md) if it is empty, to avoid an infinite loop. | Optional|
-|limit|[int](../types/int.md) | Number of results to return | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Chat where the poll was sent | Optional|
+|id|[int](/API_docs/types/int.md) | Message ID | Yes|
+|option|[bytes](/API_docs/types/bytes.md) | Get only results for the specified poll `option` | Optional|
+|offset|[string](/API_docs/types/string.md) | Offset for results, taken from the `next_offset` field of [messages.votesList](../constructors/messages.votesList.md), initially an empty string. <br>Note: if no more results are available, the method call will return an empty `next_offset`; thus, avoid providing the `next_offset` returned in [messages.votesList](../constructors/messages.votesList.md) if it is empty, to avoid an infinite loop. | Optional|
+|limit|[int](/API_docs/types/int.md) | Number of results to return | Yes|
 
 
-### Return type: [messages.VotesList](../types/messages.VotesList.md)
+### Return type: [messages.VotesList](/API_docs/types/messages.VotesList.md)
 
 ### Can bots use this method: **NO**
 

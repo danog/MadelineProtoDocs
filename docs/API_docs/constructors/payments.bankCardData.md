@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/payments_bankCardData.html
 ---
 # Constructor: payments.bankCardData  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,12 +16,12 @@ Credit card info, provided by the card's bank(s)
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|title|[string](../types/string.md) | Yes|Credit card title|
-|open\_urls|Array of [BankCardOpenUrl](../types/BankCardOpenUrl.md) | Yes|Info URL(s) provided by the card's bank(s)|
+|title|[string](/API_docs/types/string.md) | Yes|Credit card title|
+|open\_urls|Array of [BankCardOpenUrl](/API_docs/types/BankCardOpenUrl.md) | Yes|Info URL(s) provided by the card's bank(s)|
 
 
 
-### Type: [payments.BankCardData](../types/payments.BankCardData.md)
+### Type: [payments.BankCardData](/API_docs/types/payments.BankCardData.md)
 
 
 ### Example:

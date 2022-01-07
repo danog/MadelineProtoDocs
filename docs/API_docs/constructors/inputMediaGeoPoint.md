@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaGeoPoint  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Map.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | Optional|GeoPoint|
+|geo\_point|[InputGeoPoint](/API_docs/types/InputGeoPoint.md) | Optional|GeoPoint|
 
 
 
-### Type: [InputMedia](../types/InputMedia.md)
+### Type: [InputMedia](/API_docs/types/InputMedia.md)
 
 
 ### Example:

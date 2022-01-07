@@ -17,11 +17,11 @@ Edit the default banned rights of a [channel/supergroup/group](https://core.tele
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The peer | Optional|
-|banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | The new global rights | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | The peer | Optional|
+|banned\_rights|[ChatBannedRights](/API_docs/types/ChatBannedRights.md) | The new global rights | Yes|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **YES**
 

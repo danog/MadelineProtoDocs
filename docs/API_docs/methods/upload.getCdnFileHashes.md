@@ -17,11 +17,11 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|file\_token|[bytes](../types/bytes.md) | File | Yes|
-|offset|[int](../types/int.md) | Offset from which to start getting hashes | Yes|
+|file\_token|[bytes](/API_docs/types/bytes.md) | File | Yes|
+|offset|[int](/API_docs/types/int.md) | Offset from which to start getting hashes | Yes|
 
 
-### Return type: [Vector\_of\_FileHash](../types/FileHash.md)
+### Return type: [Vector\_of\_FileHash](/API_docs/types/FileHash.md)
 
 ### Can bots use this method: **YES**
 

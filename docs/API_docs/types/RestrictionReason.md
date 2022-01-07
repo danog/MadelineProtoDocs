@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[restrictionReason](../constructors/restrictionReason.md)  
+[restrictionReason](/API_docs/constructors/restrictionReason.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[restrictionReason](../constructors/restrictionReason.md)  
+[restrictionReason](/API_docs/constructors/restrictionReason.md)  
 

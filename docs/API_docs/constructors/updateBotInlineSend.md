@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotInlineSend  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,15 +15,15 @@ The result of an inline query that was chosen by a user and sent to their chat p
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](../types/long.md) | Yes|
-|query|[string](../types/string.md) | Yes|The query that was used to obtain the result|
-|geo|[GeoPoint](../types/GeoPoint.md) | Optional|Optional. Sender location, only for bots that require user location|
-|id|[string](../types/string.md) | Yes|The unique identifier for the result that was chosen|
-|msg\_id|[InputBotInlineMessageID](../types/InputBotInlineMessageID.md) | Optional|Identifier of the sent inline message. Available only if there is an inline keyboard attached to the message. Will be also received in callback queries and can be used to edit the message.|
+|user\_id|[long](/API_docs/types/long.md) | Yes|
+|query|[string](/API_docs/types/string.md) | Yes|The query that was used to obtain the result|
+|geo|[GeoPoint](/API_docs/types/GeoPoint.md) | Optional|Optional. Sender location, only for bots that require user location|
+|id|[string](/API_docs/types/string.md) | Yes|The unique identifier for the result that was chosen|
+|msg\_id|[InputBotInlineMessageID](/API_docs/types/InputBotInlineMessageID.md) | Optional|Identifier of the sent inline message. Available only if there is an inline keyboard attached to the message. Will be also received in callback queries and can be used to edit the message.|
 
 
 
-### Type: [Update](../types/Update.md)
+### Type: [Update](/API_docs/types/Update.md)
 
 
 ### Example:

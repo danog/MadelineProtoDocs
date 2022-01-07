@@ -19,13 +19,13 @@ You can also use async streams, HTTP response objects, and [much more](https://d
 
 ### Possible values (constructors):
 
-[inputEncryptedFileEmpty](../constructors/inputEncryptedFileEmpty.md)  
+[inputEncryptedFileEmpty](/API_docs/constructors/inputEncryptedFileEmpty.md)  
 
-[inputEncryptedFileUploaded](../constructors/inputEncryptedFileUploaded.md)  
+[inputEncryptedFileUploaded](/API_docs/constructors/inputEncryptedFileUploaded.md)  
 
-[inputEncryptedFile](../constructors/inputEncryptedFile.md)  
+[inputEncryptedFile](/API_docs/constructors/inputEncryptedFile.md)  
 
-[inputEncryptedFileBigUploaded](../constructors/inputEncryptedFileBigUploaded.md)  
+[inputEncryptedFileBigUploaded](/API_docs/constructors/inputEncryptedFileBigUploaded.md)  
 
 
 
@@ -33,11 +33,11 @@ You can also use async streams, HTTP response objects, and [much more](https://d
 
 
 
-[inputEncryptedFileEmpty](../constructors/inputEncryptedFileEmpty.md)  
+[inputEncryptedFileEmpty](/API_docs/constructors/inputEncryptedFileEmpty.md)  
 
-[inputEncryptedFileUploaded](../constructors/inputEncryptedFileUploaded.md)  
+[inputEncryptedFileUploaded](/API_docs/constructors/inputEncryptedFileUploaded.md)  
 
-[inputEncryptedFile](../constructors/inputEncryptedFile.md)  
+[inputEncryptedFile](/API_docs/constructors/inputEncryptedFile.md)  
 
-[inputEncryptedFileBigUploaded](../constructors/inputEncryptedFileBigUploaded.md)  
+[inputEncryptedFileBigUploaded](/API_docs/constructors/inputEncryptedFileBigUploaded.md)  
 

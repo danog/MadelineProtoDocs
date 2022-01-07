@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: contactStatus  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ Contact status: online / offline.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](../types/long.md) | Yes|
-|status|[UserStatus](../types/UserStatus.md) | Optional|Online status|
+|user\_id|[long](/API_docs/types/long.md) | Yes|
+|status|[UserStatus](/API_docs/types/UserStatus.md) | Optional|Online status|
 
 
 
-### Type: [ContactStatus](../types/ContactStatus.md)
+### Type: [ContactStatus](/API_docs/types/ContactStatus.md)
 
 
 ### Example:

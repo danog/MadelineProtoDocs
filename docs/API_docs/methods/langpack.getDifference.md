@@ -17,12 +17,12 @@ Get new strings in languagepack
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|lang\_pack|[string](../types/string.md) | Language pack | Yes|
-|lang\_code|[string](../types/string.md) | Language code | Yes|
-|from\_version|[int](../types/int.md) | Previous localization pack version | Yes|
+|lang\_pack|[string](/API_docs/types/string.md) | Language pack | Yes|
+|lang\_code|[string](/API_docs/types/string.md) | Language code | Yes|
+|from\_version|[int](/API_docs/types/int.md) | Previous localization pack version | Yes|
 
 
-### Return type: [LangPackDifference](../types/LangPackDifference.md)
+### Return type: [LangPackDifference](/API_docs/types/LangPackDifference.md)
 
 ### Can bots use this method: **NO**
 

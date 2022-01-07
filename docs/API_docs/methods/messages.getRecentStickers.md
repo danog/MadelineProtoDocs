@@ -17,11 +17,11 @@ Get recent stickers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|attached|[Bool](../types/Bool.md) | Get stickers recently attached to photo or video files | Optional|
-|hash|[long](../types/long.md) |  | Yes|
+|attached|[Bool](/API_docs/types/Bool.md) | Get stickers recently attached to photo or video files | Optional|
+|hash|[long](/API_docs/types/long.md) |  | Yes|
 
 
-### Return type: [messages.RecentStickers](../types/messages.RecentStickers.md)
+### Return type: [messages.RecentStickers](/API_docs/types/messages.RecentStickers.md)
 
 ### Can bots use this method: **NO**
 

@@ -15,11 +15,11 @@ redirect_from: /API_docs/methods/bots_resetBotCommands.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|scope|[BotCommandScope](../types/BotCommandScope.md) | Yes|
-|lang\_code|[string](../types/string.md) | Yes|
+|scope|[BotCommandScope](/API_docs/types/BotCommandScope.md) | Yes|
+|lang\_code|[string](/API_docs/types/string.md) | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **YES**
 

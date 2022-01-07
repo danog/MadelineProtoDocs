@@ -12,25 +12,25 @@ redirect_from: /API_docs/types/storage_FileType.html
 
 ### Possible values (constructors):
 
-[storage.fileUnknown](../constructors/storage.fileUnknown.md)  
+[storage.fileUnknown](/API_docs/constructors/storage.fileUnknown.md)  
 
-[storage.filePartial](../constructors/storage.filePartial.md)  
+[storage.filePartial](/API_docs/constructors/storage.filePartial.md)  
 
-[storage.fileJpeg](../constructors/storage.fileJpeg.md)  
+[storage.fileJpeg](/API_docs/constructors/storage.fileJpeg.md)  
 
-[storage.fileGif](../constructors/storage.fileGif.md)  
+[storage.fileGif](/API_docs/constructors/storage.fileGif.md)  
 
-[storage.filePng](../constructors/storage.filePng.md)  
+[storage.filePng](/API_docs/constructors/storage.filePng.md)  
 
-[storage.filePdf](../constructors/storage.filePdf.md)  
+[storage.filePdf](/API_docs/constructors/storage.filePdf.md)  
 
-[storage.fileMp3](../constructors/storage.fileMp3.md)  
+[storage.fileMp3](/API_docs/constructors/storage.fileMp3.md)  
 
-[storage.fileMov](../constructors/storage.fileMov.md)  
+[storage.fileMov](/API_docs/constructors/storage.fileMov.md)  
 
-[storage.fileMp4](../constructors/storage.fileMp4.md)  
+[storage.fileMp4](/API_docs/constructors/storage.fileMp4.md)  
 
-[storage.fileWebp](../constructors/storage.fileWebp.md)  
+[storage.fileWebp](/API_docs/constructors/storage.fileWebp.md)  
 
 
 
@@ -38,23 +38,23 @@ redirect_from: /API_docs/types/storage_FileType.html
 
 
 
-[storage.fileUnknown](../constructors/storage.fileUnknown.md)  
+[storage.fileUnknown](/API_docs/constructors/storage.fileUnknown.md)  
 
-[storage.filePartial](../constructors/storage.filePartial.md)  
+[storage.filePartial](/API_docs/constructors/storage.filePartial.md)  
 
-[storage.fileJpeg](../constructors/storage.fileJpeg.md)  
+[storage.fileJpeg](/API_docs/constructors/storage.fileJpeg.md)  
 
-[storage.fileGif](../constructors/storage.fileGif.md)  
+[storage.fileGif](/API_docs/constructors/storage.fileGif.md)  
 
-[storage.filePng](../constructors/storage.filePng.md)  
+[storage.filePng](/API_docs/constructors/storage.filePng.md)  
 
-[storage.filePdf](../constructors/storage.filePdf.md)  
+[storage.filePdf](/API_docs/constructors/storage.filePdf.md)  
 
-[storage.fileMp3](../constructors/storage.fileMp3.md)  
+[storage.fileMp3](/API_docs/constructors/storage.fileMp3.md)  
 
-[storage.fileMov](../constructors/storage.fileMov.md)  
+[storage.fileMov](/API_docs/constructors/storage.fileMov.md)  
 
-[storage.fileMp4](../constructors/storage.fileMp4.md)  
+[storage.fileMp4](/API_docs/constructors/storage.fileMp4.md)  
 
-[storage.fileWebp](../constructors/storage.fileWebp.md)  
+[storage.fileWebp](/API_docs/constructors/storage.fileWebp.md)  
 

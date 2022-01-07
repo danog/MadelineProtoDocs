@@ -15,7 +15,7 @@ Get days to live of account
 
 
 
-### Return type: [AccountDaysTTL](../types/AccountDaysTTL.md)
+### Return type: [AccountDaysTTL](/API_docs/types/AccountDaysTTL.md)
 
 ### Can bots use this method: **NO**
 

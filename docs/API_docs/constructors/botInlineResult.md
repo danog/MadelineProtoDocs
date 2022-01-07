@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: botInlineResult  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,18 +15,18 @@ Generic result
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[string](../types/string.md) | Yes|Result ID|
-|type|[string](../types/string.md) | Yes|Result type (see [bot API docs](https://core.telegram.org/bots/api#inlinequeryresult))|
-|title|[string](../types/string.md) | Optional|Result title|
-|description|[string](../types/string.md) | Optional|Result description|
-|url|[string](../types/string.md) | Optional|URL of article or webpage|
-|thumb|[WebDocument](../types/WebDocument.md) | Optional|Thumbnail for the result|
-|content|[WebDocument](../types/WebDocument.md) | Optional|Content of the result|
-|send\_message|[BotInlineMessage](../types/BotInlineMessage.md) | Yes|Message to send|
+|id|[string](/API_docs/types/string.md) | Yes|Result ID|
+|type|[string](/API_docs/types/string.md) | Yes|Result type (see [bot API docs](https://core.telegram.org/bots/api#inlinequeryresult))|
+|title|[string](/API_docs/types/string.md) | Optional|Result title|
+|description|[string](/API_docs/types/string.md) | Optional|Result description|
+|url|[string](/API_docs/types/string.md) | Optional|URL of article or webpage|
+|thumb|[WebDocument](/API_docs/types/WebDocument.md) | Optional|Thumbnail for the result|
+|content|[WebDocument](/API_docs/types/WebDocument.md) | Optional|Content of the result|
+|send\_message|[BotInlineMessage](/API_docs/types/BotInlineMessage.md) | Yes|Message to send|
 
 
 
-### Type: [BotInlineResult](../types/BotInlineResult.md)
+### Type: [BotInlineResult](/API_docs/types/BotInlineResult.md)
 
 
 ### Example:

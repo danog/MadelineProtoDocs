@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/auth_checkRecoveryPassword.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|code|[string](../types/string.md) | Yes|
+|code|[string](/API_docs/types/string.md) | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

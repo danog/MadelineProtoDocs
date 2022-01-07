@@ -17,13 +17,13 @@ Install a theme
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|dark|[Bool](../types/Bool.md) | Whether to install the dark version | Optional|
-|theme|[InputTheme](../types/InputTheme.md) | Theme to install | Optional|
-|format|[string](../types/string.md) | Theme format, a string that identifies the theming engines supported by the client | Optional|
-|base\_theme|[BaseTheme](../types/BaseTheme.md) |  | Optional|
+|dark|[Bool](/API_docs/types/Bool.md) | Whether to install the dark version | Optional|
+|theme|[InputTheme](/API_docs/types/InputTheme.md) | Theme to install | Optional|
+|format|[string](/API_docs/types/string.md) | Theme format, a string that identifies the theming engines supported by the client | Optional|
+|base\_theme|[BaseTheme](/API_docs/types/BaseTheme.md) |  | Optional|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/stats_MegagroupStats.html
 
 ### Possible values (constructors):
 
-[stats.megagroupStats](../constructors/stats.megagroupStats.md)  
+[stats.megagroupStats](/API_docs/constructors/stats.megagroupStats.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->stats->getMegagroupStats](../methods/stats.getMegagroupStats.md)  
+[$MadelineProto->stats->getMegagroupStats](/API_docs/methods/stats.getMegagroupStats.md)  
 
 
 
-[stats.megagroupStats](../constructors/stats.megagroupStats.md)  
+[stats.megagroupStats](/API_docs/constructors/stats.megagroupStats.md)  
 
-[$MadelineProto->stats->getMegagroupStats](../methods/stats.getMegagroupStats.md)  
+[$MadelineProto->stats->getMegagroupStats](/API_docs/methods/stats.getMegagroupStats.md)  
 

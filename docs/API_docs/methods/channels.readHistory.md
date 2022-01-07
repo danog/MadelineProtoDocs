@@ -17,11 +17,11 @@ Mark [channel/supergroup](https://core.telegram.org/api/channel) history as read
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | [Channel/supergroup](https://core.telegram.org/api/channel) | Optional|
-|max\_id|[int](../types/int.md) | ID of message up to which messages should be marked as read | Yes|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | [Channel/supergroup](https://core.telegram.org/api/channel) | Optional|
+|max\_id|[int](/API_docs/types/int.md) | ID of message up to which messages should be marked as read | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

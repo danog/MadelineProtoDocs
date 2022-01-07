@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelParticipant  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,18 +15,18 @@ A participant has left, joined, was banned or admined in a [channel or supergrou
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[long](../types/long.md) | Yes|
-|date|[int](../types/int.md) | Yes|Date of the event|
-|actor\_id|[long](../types/long.md) | Yes|
-|user\_id|[long](../types/long.md) | Yes|
-|prev\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Optional|Previous participant status|
-|new\_participant|[ChannelParticipant](../types/ChannelParticipant.md) | Optional|New participant status|
-|invite|[ExportedChatInvite](../types/ExportedChatInvite.md) | Optional|
-|qts|[int](../types/int.md) | Yes|[PTS](https://core.telegram.org/api/updates)|
+|channel\_id|[long](/API_docs/types/long.md) | Yes|
+|date|[int](/API_docs/types/int.md) | Yes|Date of the event|
+|actor\_id|[long](/API_docs/types/long.md) | Yes|
+|user\_id|[long](/API_docs/types/long.md) | Yes|
+|prev\_participant|[ChannelParticipant](/API_docs/types/ChannelParticipant.md) | Optional|Previous participant status|
+|new\_participant|[ChannelParticipant](/API_docs/types/ChannelParticipant.md) | Optional|New participant status|
+|invite|[ExportedChatInvite](/API_docs/types/ExportedChatInvite.md) | Optional|
+|qts|[int](/API_docs/types/int.md) | Yes|[PTS](https://core.telegram.org/api/updates)|
 
 
 
-### Type: [Update](../types/Update.md)
+### Type: [Update](/API_docs/types/Update.md)
 
 
 ### Example:

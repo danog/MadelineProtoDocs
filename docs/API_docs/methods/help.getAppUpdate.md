@@ -17,10 +17,10 @@ Returns information on update availability for the current application.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|source|[string](../types/string.md) | Source | Yes|
+|source|[string](/API_docs/types/string.md) | Source | Yes|
 
 
-### Return type: [help.AppUpdate](../types/help.AppUpdate.md)
+### Return type: [help.AppUpdate](/API_docs/types/help.AppUpdate.md)
 
 ### Can bots use this method: **NO**
 

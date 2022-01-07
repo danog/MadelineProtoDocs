@@ -17,10 +17,10 @@ Accept the new terms of service
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[DataJSON](../types/DataJSON.md) | ID of terms of service | Yes|
+|id|[DataJSON](/API_docs/types/DataJSON.md) | ID of terms of service | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

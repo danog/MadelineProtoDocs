@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: webPagePending  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ A preview of the webpage is currently being generated
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|ID of preview|
-|date|[int](../types/int.md) | Yes|When was the processing started|
+|id|[long](/API_docs/types/long.md) | Yes|ID of preview|
+|date|[int](/API_docs/types/int.md) | Yes|When was the processing started|
 
 
 
-### Type: [WebPage](../types/WebPage.md)
+### Type: [WebPage](/API_docs/types/WebPage.md)
 
 
 ### Example:

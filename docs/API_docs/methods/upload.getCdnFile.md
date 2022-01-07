@@ -17,12 +17,12 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|file\_token|[bytes](../types/bytes.md) | File token | Yes|
-|offset|[int](../types/int.md) | Offset of chunk to download | Yes|
-|limit|[int](../types/int.md) | Length of chunk to download | Yes|
+|file\_token|[bytes](/API_docs/types/bytes.md) | File token | Yes|
+|offset|[int](/API_docs/types/int.md) | Offset of chunk to download | Yes|
+|limit|[int](/API_docs/types/int.md) | Length of chunk to download | Yes|
 
 
-### Return type: [upload.CdnFile](../types/upload.CdnFile.md)
+### Return type: [upload.CdnFile](/API_docs/types/upload.CdnFile.md)
 
 ### Can bots use this method: **NO**
 

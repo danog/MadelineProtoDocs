@@ -17,10 +17,10 @@ Verify an email to use as [2FA recovery method](https://core.telegram.org/api/sr
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|code|[string](../types/string.md) | The phone code that was received after [setting a recovery email](https://core.telegram.org/api/srp#email-verification) | Yes|
+|code|[string](/API_docs/types/string.md) | The phone code that was received after [setting a recovery email](https://core.telegram.org/api/srp#email-verification) | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

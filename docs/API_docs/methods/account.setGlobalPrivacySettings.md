@@ -17,10 +17,10 @@ Set global privacy settings
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|settings|[GlobalPrivacySettings](../types/GlobalPrivacySettings.md) | Global privacy settings | Yes|
+|settings|[GlobalPrivacySettings](/API_docs/types/GlobalPrivacySettings.md) | Global privacy settings | Yes|
 
 
-### Return type: [GlobalPrivacySettings](../types/GlobalPrivacySettings.md)
+### Return type: [GlobalPrivacySettings](/API_docs/types/GlobalPrivacySettings.md)
 
 ### Can bots use this method: **NO**
 

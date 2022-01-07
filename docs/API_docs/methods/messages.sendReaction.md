@@ -17,12 +17,12 @@ Send reaction to message
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Peer | Optional|
-|msg\_id|[int](../types/int.md) | Message ID to react to | Yes|
-|reaction|[string](../types/string.md) | Reaction (a UTF8 emoji) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Peer | Optional|
+|msg\_id|[int](/API_docs/types/int.md) | Message ID to react to | Yes|
+|reaction|[string](/API_docs/types/string.md) | Reaction (a UTF8 emoji) | Optional|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **YES**
 

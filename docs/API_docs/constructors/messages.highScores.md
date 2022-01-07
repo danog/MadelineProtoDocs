@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_highScores.html
 ---
 # Constructor: messages.highScores  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,12 +16,12 @@ Highscores in a game
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|scores|Array of [HighScore](../types/HighScore.md) | Yes|Highscores|
-|users|Array of [User](../types/User.md) | Yes|Users, associated to the highscores|
+|scores|Array of [HighScore](/API_docs/types/HighScore.md) | Yes|Highscores|
+|users|Array of [User](/API_docs/types/User.md) | Yes|Users, associated to the highscores|
 
 
 
-### Type: [messages.HighScores](../types/messages.HighScores.md)
+### Type: [messages.HighScores](/API_docs/types/messages.HighScores.md)
 
 
 ### Example:

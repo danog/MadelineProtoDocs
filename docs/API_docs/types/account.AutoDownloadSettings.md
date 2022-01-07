@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/account_AutoDownloadSettings.html
 
 ### Possible values (constructors):
 
-[account.autoDownloadSettings](../constructors/account.autoDownloadSettings.md)  
+[account.autoDownloadSettings](/API_docs/constructors/account.autoDownloadSettings.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->getAutoDownloadSettings](../methods/account.getAutoDownloadSettings.md)  
+[$MadelineProto->account->getAutoDownloadSettings](/API_docs/methods/account.getAutoDownloadSettings.md)  
 
 
 
-[account.autoDownloadSettings](../constructors/account.autoDownloadSettings.md)  
+[account.autoDownloadSettings](/API_docs/constructors/account.autoDownloadSettings.md)  
 
-[$MadelineProto->account->getAutoDownloadSettings](../methods/account.getAutoDownloadSettings.md)  
+[$MadelineProto->account->getAutoDownloadSettings](/API_docs/methods/account.getAutoDownloadSettings.md)  
 

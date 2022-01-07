@@ -17,11 +17,11 @@ Pin/unpin a dialog
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|pinned|[Bool](../types/Bool.md) | Whether to pin or unpin the dialog | Optional|
-|peer|[Username, chat ID, Update, Message or InputDialogPeer](../types/InputDialogPeer.md) | The dialog to pin | Yes|
+|pinned|[Bool](/API_docs/types/Bool.md) | Whether to pin or unpin the dialog | Optional|
+|peer|[Username, chat ID, Update, Message or InputDialogPeer](/API_docs/types/InputDialogPeer.md) | The dialog to pin | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

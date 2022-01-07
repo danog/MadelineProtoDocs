@@ -15,12 +15,12 @@ redirect_from: /API_docs/methods/messages_initHistoryImport.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
-|file|[File path or InputFile](../types/InputFile.md) | Yes|
-|media\_count|[int](../types/int.md) | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
+|file|[File path or InputFile](/API_docs/types/InputFile.md) | Yes|
+|media\_count|[int](/API_docs/types/int.md) | Yes|
 
 
-### Return type: [messages.HistoryImport](../types/messages.HistoryImport.md)
+### Return type: [messages.HistoryImport](/API_docs/types/messages.HistoryImport.md)
 
 ### Can bots use this method: **NO**
 

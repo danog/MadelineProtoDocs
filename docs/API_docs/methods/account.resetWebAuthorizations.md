@@ -15,7 +15,7 @@ Reset all active web [telegram login](https://core.telegram.org/widgets/login) s
 
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

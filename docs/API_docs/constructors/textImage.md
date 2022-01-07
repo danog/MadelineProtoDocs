@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textImage  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,13 +15,13 @@ Inline image
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|document\_id|[long](../types/long.md) | Yes|Document ID|
-|w|[int](../types/int.md) | Yes|Width|
-|h|[int](../types/int.md) | Yes|Height|
+|document\_id|[long](/API_docs/types/long.md) | Yes|Document ID|
+|w|[int](/API_docs/types/int.md) | Yes|Width|
+|h|[int](/API_docs/types/int.md) | Yes|Height|
 
 
 
-### Type: [RichText](../types/RichText.md)
+### Type: [RichText](/API_docs/types/RichText.md)
 
 
 ### Example:

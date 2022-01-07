@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[secureCredentialsEncrypted](../constructors/secureCredentialsEncrypted.md)  
+[secureCredentialsEncrypted](/API_docs/constructors/secureCredentialsEncrypted.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[secureCredentialsEncrypted](../constructors/secureCredentialsEncrypted.md)  
+[secureCredentialsEncrypted](/API_docs/constructors/secureCredentialsEncrypted.md)  
 

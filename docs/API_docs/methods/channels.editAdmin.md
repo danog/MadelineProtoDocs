@@ -17,13 +17,13 @@ Modify the admin rights of a user in a [supergroup/channel](https://core.telegra
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The [supergroup/channel](https://core.telegram.org/api/channel). | Optional|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The ID of the user whose admin rights should be modified | Optional|
-|admin\_rights|[ChatAdminRights](../types/ChatAdminRights.md) | The admin rights | Yes|
-|rank|[string](../types/string.md) | Indicates the role (rank) of the admin in the group: just an arbitrary string | Yes|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | The [supergroup/channel](https://core.telegram.org/api/channel). | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | The ID of the user whose admin rights should be modified | Optional|
+|admin\_rights|[ChatAdminRights](/API_docs/types/ChatAdminRights.md) | The admin rights | Yes|
+|rank|[string](/API_docs/types/string.md) | Indicates the role (rank) of the admin in the group: just an arbitrary string | Yes|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **YES**
 

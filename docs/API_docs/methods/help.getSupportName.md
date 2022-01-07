@@ -15,7 +15,7 @@ Get localized name of the telegram support user
 
 
 
-### Return type: [help.SupportName](../types/help.SupportName.md)
+### Return type: [help.SupportName](/API_docs/types/help.SupportName.md)
 
 ### Can bots use this method: **NO**
 

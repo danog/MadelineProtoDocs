@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/channels_getSponsoredMessages.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Optional|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | Optional|
 
 
-### Return type: [messages.SponsoredMessages](../types/messages.SponsoredMessages.md)
+### Return type: [messages.SponsoredMessages](/API_docs/types/messages.SponsoredMessages.md)
 
 ### Can bots use this method: **NO**
 

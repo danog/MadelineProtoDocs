@@ -17,13 +17,13 @@ You cannot use this method directly, see https://docs.madelineproto.xyz for more
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|pts|[int](../types/int.md) | PTS, see [updates](https://core.telegram.org/api/updates). | Yes|
-|pts\_total\_limit|[int](../types/int.md) | For fast updating: if provided and `pts + pts_total_limit < remote pts`, [updates.differenceTooLong](../constructors/updates.differenceTooLong.md) will be returned.<br>Simply tells the server to not return the difference if it is bigger than `pts_total_limit`<br>If the remote pts is too big (&gt; ~4000000), this field will default to 1000000 | Optional|
-|date|[int](../types/int.md) | date, see [updates](https://core.telegram.org/api/updates). | Yes|
-|qts|[int](../types/int.md) | QTS, see [updates](https://core.telegram.org/api/updates). | Yes|
+|pts|[int](/API_docs/types/int.md) | PTS, see [updates](https://core.telegram.org/api/updates). | Yes|
+|pts\_total\_limit|[int](/API_docs/types/int.md) | For fast updating: if provided and `pts + pts_total_limit < remote pts`, [updates.differenceTooLong](../constructors/updates.differenceTooLong.md) will be returned.<br>Simply tells the server to not return the difference if it is bigger than `pts_total_limit`<br>If the remote pts is too big (&gt; ~4000000), this field will default to 1000000 | Optional|
+|date|[int](/API_docs/types/int.md) | date, see [updates](https://core.telegram.org/api/updates). | Yes|
+|qts|[int](/API_docs/types/int.md) | QTS, see [updates](https://core.telegram.org/api/updates). | Yes|
 
 
-### Return type: [updates.Difference](../types/updates.Difference.md)
+### Return type: [updates.Difference](/API_docs/types/updates.Difference.md)
 
 ### Can bots use this method: **YES**
 

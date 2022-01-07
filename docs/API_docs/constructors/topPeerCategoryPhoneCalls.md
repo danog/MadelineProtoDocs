@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: topPeerCategoryPhoneCalls  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,7 +14,7 @@ Most frequently called users
 
 
 
-### Type: [TopPeerCategory](../types/TopPeerCategory.md)
+### Type: [TopPeerCategory](/API_docs/types/TopPeerCategory.md)
 
 
 ### Example:

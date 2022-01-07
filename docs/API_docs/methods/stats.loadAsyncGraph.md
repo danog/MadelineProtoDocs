@@ -17,11 +17,11 @@ Load [channel statistics graph](https://core.telegram.org/api/stats) asynchronou
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|token|[string](../types/string.md) | Graph token from [statsGraphAsync](../constructors/statsGraphAsync.md) constructor | Yes|
-|x|[long](../types/long.md) | Zoom value, if required | Optional|
+|token|[string](/API_docs/types/string.md) | Graph token from [statsGraphAsync](../constructors/statsGraphAsync.md) constructor | Yes|
+|x|[long](/API_docs/types/long.md) | Zoom value, if required | Optional|
 
 
-### Return type: [StatsGraph](../types/StatsGraph.md)
+### Return type: [StatsGraph](/API_docs/types/StatsGraph.md)
 
 ### Can bots use this method: **NO**
 

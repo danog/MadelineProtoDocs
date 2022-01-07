@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[secureRequiredType](../constructors/secureRequiredType.md)  
+[secureRequiredType](/API_docs/constructors/secureRequiredType.md)  
 
-[secureRequiredTypeOneOf](../constructors/secureRequiredTypeOneOf.md)  
+[secureRequiredTypeOneOf](/API_docs/constructors/secureRequiredTypeOneOf.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[secureRequiredType](../constructors/secureRequiredType.md)  
+[secureRequiredType](/API_docs/constructors/secureRequiredType.md)  
 
-[secureRequiredTypeOneOf](../constructors/secureRequiredTypeOneOf.md)  
+[secureRequiredTypeOneOf](/API_docs/constructors/secureRequiredTypeOneOf.md)  
 

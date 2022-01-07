@@ -12,7 +12,7 @@ redirect_from: /API_docs/types/help_CountryCode.html
 
 ### Possible values (constructors):
 
-[help.countryCode](../constructors/help.countryCode.md)  
+[help.countryCode](/API_docs/constructors/help.countryCode.md)  
 
 
 
@@ -20,5 +20,5 @@ redirect_from: /API_docs/types/help_CountryCode.html
 
 
 
-[help.countryCode](../constructors/help.countryCode.md)  
+[help.countryCode](/API_docs/constructors/help.countryCode.md)  
 

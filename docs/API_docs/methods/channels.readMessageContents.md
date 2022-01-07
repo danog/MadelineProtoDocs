@@ -17,11 +17,11 @@ Mark [channel/supergroup](https://core.telegram.org/api/channel) message content
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | [Channel/supergroup](https://core.telegram.org/api/channel) | Optional|
-|id|Array of [int](../types/int.md) | IDs of messages whose contents should be marked as read | Yes|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | [Channel/supergroup](https://core.telegram.org/api/channel) | Optional|
+|id|Array of [int](/API_docs/types/int.md) | IDs of messages whose contents should be marked as read | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

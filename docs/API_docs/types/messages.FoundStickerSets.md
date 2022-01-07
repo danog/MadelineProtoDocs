@@ -12,21 +12,21 @@ redirect_from: /API_docs/types/messages_FoundStickerSets.html
 
 ### Possible values (constructors):
 
-[messages.foundStickerSetsNotModified](../constructors/messages.foundStickerSetsNotModified.md)  
+[messages.foundStickerSetsNotModified](/API_docs/constructors/messages.foundStickerSetsNotModified.md)  
 
-[messages.foundStickerSets](../constructors/messages.foundStickerSets.md)  
+[messages.foundStickerSets](/API_docs/constructors/messages.foundStickerSets.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->searchStickerSets](../methods/messages.searchStickerSets.md)  
+[$MadelineProto->messages->searchStickerSets](/API_docs/methods/messages.searchStickerSets.md)  
 
 
 
-[messages.foundStickerSetsNotModified](../constructors/messages.foundStickerSetsNotModified.md)  
+[messages.foundStickerSetsNotModified](/API_docs/constructors/messages.foundStickerSetsNotModified.md)  
 
-[messages.foundStickerSets](../constructors/messages.foundStickerSets.md)  
+[messages.foundStickerSets](/API_docs/constructors/messages.foundStickerSets.md)  
 
-[$MadelineProto->messages->searchStickerSets](../methods/messages.searchStickerSets.md)  
+[$MadelineProto->messages->searchStickerSets](/API_docs/methods/messages.searchStickerSets.md)  
 

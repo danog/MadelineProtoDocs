@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/phone_GroupCall.html
 
 ### Possible values (constructors):
 
-[phone.groupCall](../constructors/phone.groupCall.md)  
+[phone.groupCall](/API_docs/constructors/phone.groupCall.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->phone->getGroupCall](../methods/phone.getGroupCall.md)  
+[$MadelineProto->phone->getGroupCall](/API_docs/methods/phone.getGroupCall.md)  
 
 
 
-[phone.groupCall](../constructors/phone.groupCall.md)  
+[phone.groupCall](/API_docs/constructors/phone.groupCall.md)  
 
-[$MadelineProto->phone->getGroupCall](../methods/phone.getGroupCall.md)  
+[$MadelineProto->phone->getGroupCall](/API_docs/methods/phone.getGroupCall.md)  
 

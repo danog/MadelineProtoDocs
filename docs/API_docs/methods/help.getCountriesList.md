@@ -17,11 +17,11 @@ Get name, ISO code, localized name and phone codes/patterns of all available cou
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|lang\_code|[string](../types/string.md) | Language code of the current user | Yes|
-|hash|Array of [int](../types/int.md) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|lang\_code|[string](/API_docs/types/string.md) | Language code of the current user | Yes|
+|hash|Array of [int](/API_docs/types/int.md) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
-### Return type: [help.CountriesList](../types/help.CountriesList.md)
+### Return type: [help.CountriesList](/API_docs/types/help.CountriesList.md)
 
 ### Can bots use this method: **NO**
 

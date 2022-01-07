@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageUploadDocumentAction  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ User is uploading a file.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|progress|[int](../types/int.md) | Yes|Progress percentage|
+|progress|[int](/API_docs/types/int.md) | Yes|Progress percentage|
 
 
 
-### Type: [SendMessageAction](../types/SendMessageAction.md)
+### Type: [SendMessageAction](/API_docs/types/SendMessageAction.md)
 
 
 ### Example:

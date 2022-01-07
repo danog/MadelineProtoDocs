@@ -17,12 +17,12 @@ Get all archived stickers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|masks|[Bool](../types/Bool.md) | Get mask stickers | Optional|
-|offset\_id|[long](../types/long.md) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
-|limit|[int](../types/int.md) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
+|masks|[Bool](/API_docs/types/Bool.md) | Get mask stickers | Optional|
+|offset\_id|[long](/API_docs/types/long.md) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
+|limit|[int](/API_docs/types/int.md) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
 
 
-### Return type: [messages.ArchivedStickers](../types/messages.ArchivedStickers.md)
+### Return type: [messages.ArchivedStickers](/API_docs/types/messages.ArchivedStickers.md)
 
 ### Can bots use this method: **NO**
 

@@ -17,11 +17,11 @@ Get payment receipt
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
-|msg\_id|[int](../types/int.md) | Message ID of receipt | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) |  | Optional|
+|msg\_id|[int](/API_docs/types/int.md) | Message ID of receipt | Yes|
 
 
-### Return type: [payments.PaymentReceipt](../types/payments.PaymentReceipt.md)
+### Return type: [payments.PaymentReceipt](/API_docs/types/payments.PaymentReceipt.md)
 
 ### Can bots use this method: **NO**
 

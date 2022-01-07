@@ -17,11 +17,11 @@ Get installed themes
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|format|[string](../types/string.md) | Theme format, a string that identifies the theming engines supported by the client | Yes|
-|hash|[long](../types/long.md) |  | Yes|
+|format|[string](/API_docs/types/string.md) | Theme format, a string that identifies the theming engines supported by the client | Yes|
+|hash|[long](/API_docs/types/long.md) |  | Yes|
 
 
-### Return type: [account.Themes](../types/account.Themes.md)
+### Return type: [account.Themes](/API_docs/types/account.Themes.md)
 
 ### Can bots use this method: **NO**
 

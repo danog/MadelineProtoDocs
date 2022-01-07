@@ -15,7 +15,7 @@ Resend the code to verify an email to use as [2FA recovery method](https://core.
 
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

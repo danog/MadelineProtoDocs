@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: privacyValueDisallowContacts  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,7 +14,7 @@ Disallow only contacts
 
 
 
-### Type: [PrivacyRule](../types/PrivacyRule.md)
+### Type: [PrivacyRule](/API_docs/types/PrivacyRule.md)
 
 
 ### Example:

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: webPageAttributeTheme  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ Page theme
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|documents|Array of [Document](../types/Document.md) | Optional|Theme files|
-|settings|[ThemeSettings](../types/ThemeSettings.md) | Optional|Theme settings|
+|documents|Array of [Document](/API_docs/types/Document.md) | Optional|Theme files|
+|settings|[ThemeSettings](/API_docs/types/ThemeSettings.md) | Optional|Theme settings|
 
 
 
-### Type: [WebPageAttribute](../types/WebPageAttribute.md)
+### Type: [WebPageAttribute](/API_docs/types/WebPageAttribute.md)
 
 
 ### Example:

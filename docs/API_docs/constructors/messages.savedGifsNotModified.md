@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_savedGifsNotModified.html
 ---
 # Constructor: messages.savedGifsNotModified  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,7 +15,7 @@ No new saved gifs were found
 
 
 
-### Type: [messages.SavedGifs](../types/messages.SavedGifs.md)
+### Type: [messages.SavedGifs](/API_docs/types/messages.SavedGifs.md)
 
 
 ### Example:

@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_affectedFoundMessages.html
 ---
 # Constructor: messages.affectedFoundMessages  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,14 +14,14 @@ redirect_from: /API_docs/constructors/messages_affectedFoundMessages.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|pts|[int](../types/int.md) | Yes|
-|pts\_count|[int](../types/int.md) | Yes|
-|offset|[int](../types/int.md) | Yes|
-|messages|Array of [int](../types/int.md) | Yes|
+|pts|[int](/API_docs/types/int.md) | Yes|
+|pts\_count|[int](/API_docs/types/int.md) | Yes|
+|offset|[int](/API_docs/types/int.md) | Yes|
+|messages|Array of [int](/API_docs/types/int.md) | Yes|
 
 
 
-### Type: [messages.AffectedFoundMessages](../types/messages.AffectedFoundMessages.md)
+### Type: [messages.AffectedFoundMessages](/API_docs/types/messages.AffectedFoundMessages.md)
 
 
 ### Example:

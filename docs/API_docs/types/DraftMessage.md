@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[draftMessageEmpty](../constructors/draftMessageEmpty.md)  
+[draftMessageEmpty](/API_docs/constructors/draftMessageEmpty.md)  
 
-[draftMessage](../constructors/draftMessage.md)  
+[draftMessage](/API_docs/constructors/draftMessage.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[draftMessageEmpty](../constructors/draftMessageEmpty.md)  
+[draftMessageEmpty](/API_docs/constructors/draftMessageEmpty.md)  
 
-[draftMessage](../constructors/draftMessage.md)  
+[draftMessage](/API_docs/constructors/draftMessage.md)  
 

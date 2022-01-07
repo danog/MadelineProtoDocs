@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaWebPage  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Preview of webpage
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|webpage|[WebPage](../types/WebPage.md) | Optional|Webpage preview|
+|webpage|[WebPage](/API_docs/types/WebPage.md) | Optional|Webpage preview|
 
 
 
-### Type: [MessageMedia](../types/MessageMedia.md)
+### Type: [MessageMedia](/API_docs/types/MessageMedia.md)
 
 
 ### Example:

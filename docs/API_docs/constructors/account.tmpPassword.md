@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_tmpPassword.html
 ---
 # Constructor: account.tmpPassword  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,12 +16,12 @@ Temporary payment password
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|tmp\_password|[bytes](../types/bytes.md) | Yes|Temporary password|
-|valid\_until|[int](../types/int.md) | Yes|Validity period|
+|tmp\_password|[bytes](/API_docs/types/bytes.md) | Yes|Temporary password|
+|valid\_until|[int](/API_docs/types/int.md) | Yes|Validity period|
 
 
 
-### Type: [account.TmpPassword](../types/account.TmpPassword.md)
+### Type: [account.TmpPassword](/API_docs/types/account.TmpPassword.md)
 
 
 ### Example:

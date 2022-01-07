@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/messages_HistoryImportParsed.html
 
 ### Possible values (constructors):
 
-[messages.historyImportParsed](../constructors/messages.historyImportParsed.md)  
+[messages.historyImportParsed](/API_docs/constructors/messages.historyImportParsed.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->checkHistoryImport](../methods/messages.checkHistoryImport.md)  
+[$MadelineProto->messages->checkHistoryImport](/API_docs/methods/messages.checkHistoryImport.md)  
 
 
 
-[messages.historyImportParsed](../constructors/messages.historyImportParsed.md)  
+[messages.historyImportParsed](/API_docs/constructors/messages.historyImportParsed.md)  
 
-[$MadelineProto->messages->checkHistoryImport](../methods/messages.checkHistoryImport.md)  
+[$MadelineProto->messages->checkHistoryImport](/API_docs/methods/messages.checkHistoryImport.md)  
 

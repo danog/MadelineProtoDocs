@@ -17,11 +17,11 @@ Get [instant view](https://instantview.telegram.org) page
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|url|[string](../types/string.md) | URL of IV page to fetch | Yes|
-|hash|Array of [int](../types/int.md) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|url|[string](/API_docs/types/string.md) | URL of IV page to fetch | Yes|
+|hash|Array of [int](/API_docs/types/int.md) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
-### Return type: [WebPage](../types/WebPage.md)
+### Return type: [WebPage](/API_docs/types/WebPage.md)
 
 ### Can bots use this method: **NO**
 

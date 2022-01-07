@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: themeSettings  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,16 +15,16 @@ Theme settings
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|message\_colors\_animated|[Bool](../types/Bool.md) | Optional|
-|base\_theme|[BaseTheme](../types/BaseTheme.md) | Yes|Base theme|
-|accent\_color|[int](../types/int.md) | Yes|Accent color, RGB24 format|
-|outbox\_accent\_color|[int](../types/int.md) | Optional|
-|message\_colors|Array of [int](../types/int.md) | Optional|
-|wallpaper|[WallPaper](../types/WallPaper.md) | Optional|Wallpaper|
+|message\_colors\_animated|[Bool](/API_docs/types/Bool.md) | Optional|
+|base\_theme|[BaseTheme](/API_docs/types/BaseTheme.md) | Yes|Base theme|
+|accent\_color|[int](/API_docs/types/int.md) | Yes|Accent color, RGB24 format|
+|outbox\_accent\_color|[int](/API_docs/types/int.md) | Optional|
+|message\_colors|Array of [int](/API_docs/types/int.md) | Optional|
+|wallpaper|[WallPaper](/API_docs/types/WallPaper.md) | Optional|Wallpaper|
 
 
 
-### Type: [ThemeSettings](../types/ThemeSettings.md)
+### Type: [ThemeSettings](/API_docs/types/ThemeSettings.md)
 
 
 ### Example:

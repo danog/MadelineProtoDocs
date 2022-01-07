@@ -17,10 +17,10 @@ Clear recent stickers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|attached|[Bool](../types/Bool.md) | Set this flag to clear the list of stickers recently attached to photo or video files | Optional|
+|attached|[Bool](/API_docs/types/Bool.md) | Set this flag to clear the list of stickers recently attached to photo or video files | Optional|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

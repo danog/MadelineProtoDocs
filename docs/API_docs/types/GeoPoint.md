@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[geoPointEmpty](../constructors/geoPointEmpty.md)  
+[geoPointEmpty](/API_docs/constructors/geoPointEmpty.md)  
 
-[geoPoint](../constructors/geoPoint.md)  
+[geoPoint](/API_docs/constructors/geoPoint.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[geoPointEmpty](../constructors/geoPointEmpty.md)  
+[geoPointEmpty](/API_docs/constructors/geoPointEmpty.md)  
 
-[geoPoint](../constructors/geoPoint.md)  
+[geoPoint](/API_docs/constructors/geoPoint.md)  
 

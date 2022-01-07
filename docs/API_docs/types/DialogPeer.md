@@ -34,21 +34,21 @@ A [Chat](Chat.md), a [User](User.md), an [InputPeer](InputPeer.md), an [InputDia
 
 ### Possible values (constructors):
 
-[dialogPeer](../constructors/dialogPeer.md)  
+[dialogPeer](/API_docs/constructors/dialogPeer.md)  
 
-[dialogPeerFolder](../constructors/dialogPeerFolder.md)  
+[dialogPeerFolder](/API_docs/constructors/dialogPeerFolder.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getDialogUnreadMarks](../methods/messages.getDialogUnreadMarks.md)  
+[$MadelineProto->messages->getDialogUnreadMarks](/API_docs/methods/messages.getDialogUnreadMarks.md)  
 
 
 
-[dialogPeer](../constructors/dialogPeer.md)  
+[dialogPeer](/API_docs/constructors/dialogPeer.md)  
 
-[dialogPeerFolder](../constructors/dialogPeerFolder.md)  
+[dialogPeerFolder](/API_docs/constructors/dialogPeerFolder.md)  
 
-[$MadelineProto->messages->getDialogUnreadMarks](../methods/messages.getDialogUnreadMarks.md)  
+[$MadelineProto->messages->getDialogUnreadMarks](/API_docs/methods/messages.getDialogUnreadMarks.md)  
 

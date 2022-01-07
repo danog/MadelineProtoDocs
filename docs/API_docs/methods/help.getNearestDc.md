@@ -15,7 +15,7 @@ Returns info on data centre nearest to the user.
 
 
 
-### Return type: [NearestDc](../types/NearestDc.md)
+### Return type: [NearestDc](/API_docs/types/NearestDc.md)
 
 ### Can bots use this method: **NO**
 

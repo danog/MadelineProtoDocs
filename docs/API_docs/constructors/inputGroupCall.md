@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputGroupCall  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -13,12 +13,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|id|[long](../types/long.md) | Yes|
-|access\_hash|[long](../types/long.md) | Yes|
+|id|[long](/API_docs/types/long.md) | Yes|
+|access\_hash|[long](/API_docs/types/long.md) | Yes|
 
 
 
-### Type: [InputGroupCall](../types/InputGroupCall.md)
+### Type: [InputGroupCall](/API_docs/types/InputGroupCall.md)
 
 
 ### Example:

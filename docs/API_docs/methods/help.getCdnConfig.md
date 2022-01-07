@@ -15,7 +15,7 @@ Get configuration for [CDN](https://core.telegram.org/cdn) file downloads.
 
 
 
-### Return type: [CdnConfig](../types/CdnConfig.md)
+### Return type: [CdnConfig](/API_docs/types/CdnConfig.md)
 
 ### Can bots use this method: **YES**
 

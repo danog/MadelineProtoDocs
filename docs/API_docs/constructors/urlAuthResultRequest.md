@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: urlAuthResultRequest  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,13 +15,13 @@ Details about the authorization request, for more info [click here »](https://c
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|request\_write\_access|[Bool](../types/Bool.md) | Optional|Whether the bot would like to send messages to the user|
-|bot|[User](../types/User.md) | Optional|Username of a bot, which will be used for user authorization. If not specified, the current bot's username will be assumed. The url's domain must be the same as the domain linked with the bot. See [Linking your domain to the bot](https://core.telegram.org/widgets/login#linking-your-domain-to-the-bot) for more details.|
-|domain|[string](../types/string.md) | Yes|The domain name of the website on which the user will log in.|
+|request\_write\_access|[Bool](/API_docs/types/Bool.md) | Optional|Whether the bot would like to send messages to the user|
+|bot|[User](/API_docs/types/User.md) | Optional|Username of a bot, which will be used for user authorization. If not specified, the current bot's username will be assumed. The url's domain must be the same as the domain linked with the bot. See [Linking your domain to the bot](https://core.telegram.org/widgets/login#linking-your-domain-to-the-bot) for more details.|
+|domain|[string](/API_docs/types/string.md) | Yes|The domain name of the website on which the user will log in.|
 
 
 
-### Type: [UrlAuthResult](../types/UrlAuthResult.md)
+### Type: [UrlAuthResult](/API_docs/types/UrlAuthResult.md)
 
 
 ### Example:

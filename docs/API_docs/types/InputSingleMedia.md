@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputSingleMedia](../constructors/inputSingleMedia.md)  
+[inputSingleMedia](/API_docs/constructors/inputSingleMedia.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputSingleMedia](../constructors/inputSingleMedia.md)  
+[inputSingleMedia](/API_docs/constructors/inputSingleMedia.md)  
 

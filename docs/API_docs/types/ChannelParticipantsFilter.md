@@ -11,21 +11,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[channelParticipantsRecent](../constructors/channelParticipantsRecent.md)  
+[channelParticipantsRecent](/API_docs/constructors/channelParticipantsRecent.md)  
 
-[channelParticipantsAdmins](../constructors/channelParticipantsAdmins.md)  
+[channelParticipantsAdmins](/API_docs/constructors/channelParticipantsAdmins.md)  
 
-[channelParticipantsKicked](../constructors/channelParticipantsKicked.md)  
+[channelParticipantsKicked](/API_docs/constructors/channelParticipantsKicked.md)  
 
-[channelParticipantsBots](../constructors/channelParticipantsBots.md)  
+[channelParticipantsBots](/API_docs/constructors/channelParticipantsBots.md)  
 
-[channelParticipantsBanned](../constructors/channelParticipantsBanned.md)  
+[channelParticipantsBanned](/API_docs/constructors/channelParticipantsBanned.md)  
 
-[channelParticipantsSearch](../constructors/channelParticipantsSearch.md)  
+[channelParticipantsSearch](/API_docs/constructors/channelParticipantsSearch.md)  
 
-[channelParticipantsContacts](../constructors/channelParticipantsContacts.md)  
+[channelParticipantsContacts](/API_docs/constructors/channelParticipantsContacts.md)  
 
-[channelParticipantsMentions](../constructors/channelParticipantsMentions.md)  
+[channelParticipantsMentions](/API_docs/constructors/channelParticipantsMentions.md)  
 
 
 
@@ -33,19 +33,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[channelParticipantsRecent](../constructors/channelParticipantsRecent.md)  
+[channelParticipantsRecent](/API_docs/constructors/channelParticipantsRecent.md)  
 
-[channelParticipantsAdmins](../constructors/channelParticipantsAdmins.md)  
+[channelParticipantsAdmins](/API_docs/constructors/channelParticipantsAdmins.md)  
 
-[channelParticipantsKicked](../constructors/channelParticipantsKicked.md)  
+[channelParticipantsKicked](/API_docs/constructors/channelParticipantsKicked.md)  
 
-[channelParticipantsBots](../constructors/channelParticipantsBots.md)  
+[channelParticipantsBots](/API_docs/constructors/channelParticipantsBots.md)  
 
-[channelParticipantsBanned](../constructors/channelParticipantsBanned.md)  
+[channelParticipantsBanned](/API_docs/constructors/channelParticipantsBanned.md)  
 
-[channelParticipantsSearch](../constructors/channelParticipantsSearch.md)  
+[channelParticipantsSearch](/API_docs/constructors/channelParticipantsSearch.md)  
 
-[channelParticipantsContacts](../constructors/channelParticipantsContacts.md)  
+[channelParticipantsContacts](/API_docs/constructors/channelParticipantsContacts.md)  
 
-[channelParticipantsMentions](../constructors/channelParticipantsMentions.md)  
+[channelParticipantsMentions](/API_docs/constructors/channelParticipantsMentions.md)  
 

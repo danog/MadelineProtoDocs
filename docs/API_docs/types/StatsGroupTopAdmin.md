@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[statsGroupTopAdmin](../constructors/statsGroupTopAdmin.md)  
+[statsGroupTopAdmin](/API_docs/constructors/statsGroupTopAdmin.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[statsGroupTopAdmin](../constructors/statsGroupTopAdmin.md)  
+[statsGroupTopAdmin](/API_docs/constructors/statsGroupTopAdmin.md)  
 

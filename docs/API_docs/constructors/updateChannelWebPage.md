@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelWebPage  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,14 +15,14 @@ A webpage preview of a link in a [channel/supergroup](https://core.telegram.org/
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[long](../types/long.md) | Yes|
-|webpage|[WebPage](../types/WebPage.md) | Optional|Generated webpage preview|
-|pts|[int](../types/int.md) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|
-|pts\_count|[int](../types/int.md) | Yes|[Number of events that were generated](https://core.telegram.org/api/updates)|
+|channel\_id|[long](/API_docs/types/long.md) | Yes|
+|webpage|[WebPage](/API_docs/types/WebPage.md) | Optional|Generated webpage preview|
+|pts|[int](/API_docs/types/int.md) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|
+|pts\_count|[int](/API_docs/types/int.md) | Yes|[Number of events that were generated](https://core.telegram.org/api/updates)|
 
 
 
-### Type: [Update](../types/Update.md)
+### Type: [Update](/API_docs/types/Update.md)
 
 
 ### Example:

@@ -12,25 +12,25 @@ redirect_from: /API_docs/types/updates_ChannelDifference.html
 
 ### Possible values (constructors):
 
-[updates.channelDifferenceEmpty](../constructors/updates.channelDifferenceEmpty.md)  
+[updates.channelDifferenceEmpty](/API_docs/constructors/updates.channelDifferenceEmpty.md)  
 
-[updates.channelDifferenceTooLong](../constructors/updates.channelDifferenceTooLong.md)  
+[updates.channelDifferenceTooLong](/API_docs/constructors/updates.channelDifferenceTooLong.md)  
 
-[updates.channelDifference](../constructors/updates.channelDifference.md)  
+[updates.channelDifference](/API_docs/constructors/updates.channelDifference.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->updates->getChannelDifference](../methods/updates.getChannelDifference.md)  
+[$MadelineProto->updates->getChannelDifference](/API_docs/methods/updates.getChannelDifference.md)  
 
 
 
-[updates.channelDifferenceEmpty](../constructors/updates.channelDifferenceEmpty.md)  
+[updates.channelDifferenceEmpty](/API_docs/constructors/updates.channelDifferenceEmpty.md)  
 
-[updates.channelDifferenceTooLong](../constructors/updates.channelDifferenceTooLong.md)  
+[updates.channelDifferenceTooLong](/API_docs/constructors/updates.channelDifferenceTooLong.md)  
 
-[updates.channelDifference](../constructors/updates.channelDifference.md)  
+[updates.channelDifference](/API_docs/constructors/updates.channelDifference.md)  
 
-[$MadelineProto->updates->getChannelDifference](../methods/updates.getChannelDifference.md)  
+[$MadelineProto->updates->getChannelDifference](/API_docs/methods/updates.getChannelDifference.md)  
 

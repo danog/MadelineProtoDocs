@@ -17,11 +17,11 @@ Returns users found by username substring.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|q|[string](../types/string.md) | Target substring | Yes|
-|limit|[int](../types/int.md) | Maximum number of users to be returned | Yes|
+|q|[string](/API_docs/types/string.md) | Target substring | Yes|
+|limit|[int](/API_docs/types/int.md) | Maximum number of users to be returned | Yes|
 
 
-### Return type: [contacts.Found](../types/contacts.Found.md)
+### Return type: [contacts.Found](/API_docs/types/contacts.Found.md)
 
 ### Can bots use this method: **NO**
 

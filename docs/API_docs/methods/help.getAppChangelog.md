@@ -18,10 +18,10 @@ Typically, an [updates](../constructors/updates.md) constructor will be returned
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|prev\_app\_version|[string](../types/string.md) | Previous app version | Yes|
+|prev\_app\_version|[string](/API_docs/types/string.md) | Previous app version | Yes|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

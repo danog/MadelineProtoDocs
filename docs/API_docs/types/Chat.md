@@ -34,15 +34,15 @@ A [Chat](Chat.md), a [User](User.md), an [InputPeer](InputPeer.md), an [InputDia
 
 ### Possible values (constructors):
 
-[chatEmpty](../constructors/chatEmpty.md)  
+[chatEmpty](/API_docs/constructors/chatEmpty.md)  
 
-[chat](../constructors/chat.md)  
+[chat](/API_docs/constructors/chat.md)  
 
-[chatForbidden](../constructors/chatForbidden.md)  
+[chatForbidden](/API_docs/constructors/chatForbidden.md)  
 
-[channel](../constructors/channel.md)  
+[channel](/API_docs/constructors/channel.md)  
 
-[channelForbidden](../constructors/channelForbidden.md)  
+[channelForbidden](/API_docs/constructors/channelForbidden.md)  
 
 
 
@@ -50,13 +50,13 @@ A [Chat](Chat.md), a [User](User.md), an [InputPeer](InputPeer.md), an [InputDia
 
 
 
-[chatEmpty](../constructors/chatEmpty.md)  
+[chatEmpty](/API_docs/constructors/chatEmpty.md)  
 
-[chat](../constructors/chat.md)  
+[chat](/API_docs/constructors/chat.md)  
 
-[chatForbidden](../constructors/chatForbidden.md)  
+[chatForbidden](/API_docs/constructors/chatForbidden.md)  
 
-[channel](../constructors/channel.md)  
+[channel](/API_docs/constructors/channel.md)  
 
-[channelForbidden](../constructors/channelForbidden.md)  
+[channelForbidden](/API_docs/constructors/channelForbidden.md)  
 

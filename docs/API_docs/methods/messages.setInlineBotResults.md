@@ -17,16 +17,16 @@ Answer an inline query, for bots only
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|gallery|[Bool](../types/Bool.md) | Set this flag if the results are composed of media files | Optional|
-|private|[Bool](../types/Bool.md) | Set this flag if results may be cached on the server side only for the user that sent the query. By default, results may be returned to any user who sends the same query | Optional|
-|query\_id|[long](../types/long.md) | Unique identifier for the answered query | Yes|
-|results|Array of [InputBotInlineResult](../types/InputBotInlineResult.md) | Vector of results for the inline query | Yes|
-|cache\_time|[int](../types/int.md) | The maximum amount of time in seconds that the result of the inline query may be cached on the server. Defaults to 300. | Yes|
-|next\_offset|[string](../types/string.md) | Pass the offset that a client should send in the next query with the same text to receive more results. Pass an empty string if there are no more results or if you don‘t support pagination. Offset length can’t exceed 64 bytes. | Optional|
-|switch\_pm|[InlineBotSwitchPM](../types/InlineBotSwitchPM.md) | If passed, clients will display a button with specified text that switches the user to a private chat with the bot and sends the bot a start message with a certain parameter. | Optional|
+|gallery|[Bool](/API_docs/types/Bool.md) | Set this flag if the results are composed of media files | Optional|
+|private|[Bool](/API_docs/types/Bool.md) | Set this flag if results may be cached on the server side only for the user that sent the query. By default, results may be returned to any user who sends the same query | Optional|
+|query\_id|[long](/API_docs/types/long.md) | Unique identifier for the answered query | Yes|
+|results|Array of [InputBotInlineResult](/API_docs/types/InputBotInlineResult.md) | Vector of results for the inline query | Yes|
+|cache\_time|[int](/API_docs/types/int.md) | The maximum amount of time in seconds that the result of the inline query may be cached on the server. Defaults to 300. | Yes|
+|next\_offset|[string](/API_docs/types/string.md) | Pass the offset that a client should send in the next query with the same text to receive more results. Pass an empty string if there are no more results or if you don‘t support pagination. Offset length can’t exceed 64 bytes. | Optional|
+|switch\_pm|[InlineBotSwitchPM](/API_docs/types/InlineBotSwitchPM.md) | If passed, clients will display a button with specified text that switches the user to a private chat with the bot and sends the bot a start message with a certain parameter. | Optional|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **YES**
 

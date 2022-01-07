@@ -11,17 +11,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[chatOnlines](../constructors/chatOnlines.md)  
+[chatOnlines](/API_docs/constructors/chatOnlines.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getOnlines](../methods/messages.getOnlines.md)  
+[$MadelineProto->messages->getOnlines](/API_docs/methods/messages.getOnlines.md)  
 
 
 
-[chatOnlines](../constructors/chatOnlines.md)  
+[chatOnlines](/API_docs/constructors/chatOnlines.md)  
 
-[$MadelineProto->messages->getOnlines](../methods/messages.getOnlines.md)  
+[$MadelineProto->messages->getOnlines](/API_docs/methods/messages.getOnlines.md)  
 

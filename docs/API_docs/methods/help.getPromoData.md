@@ -15,7 +15,7 @@ Get MTProxy/Public Service Announcement information
 
 
 
-### Return type: [help.PromoData](../types/help.PromoData.md)
+### Return type: [help.PromoData](/API_docs/types/help.PromoData.md)
 
 ### Can bots use this method: **NO**
 

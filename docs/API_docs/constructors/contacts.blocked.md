@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/contacts_blocked.html
 ---
 # Constructor: contacts.blocked  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,13 +16,13 @@ Full list of blocked users.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|blocked|Array of [PeerBlocked](../types/PeerBlocked.md) | Yes|List of blocked users|
-|chats|Array of [Chat](../types/Chat.md) | Yes|Blocked chats|
-|users|Array of [User](../types/User.md) | Yes|List of users|
+|blocked|Array of [PeerBlocked](/API_docs/types/PeerBlocked.md) | Yes|List of blocked users|
+|chats|Array of [Chat](/API_docs/types/Chat.md) | Yes|Blocked chats|
+|users|Array of [User](/API_docs/types/User.md) | Yes|List of users|
 
 
 
-### Type: [contacts.Blocked](../types/contacts.Blocked.md)
+### Type: [contacts.Blocked](/API_docs/types/contacts.Blocked.md)
 
 
 ### Example:

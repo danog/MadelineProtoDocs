@@ -11,73 +11,73 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[messageMediaEmpty](../constructors/messageMediaEmpty.md)  
+[messageMediaEmpty](/API_docs/constructors/messageMediaEmpty.md)  
 
-[messageMediaPhoto](../constructors/messageMediaPhoto.md)  
+[messageMediaPhoto](/API_docs/constructors/messageMediaPhoto.md)  
 
-[messageMediaGeo](../constructors/messageMediaGeo.md)  
+[messageMediaGeo](/API_docs/constructors/messageMediaGeo.md)  
 
-[messageMediaContact](../constructors/messageMediaContact.md)  
+[messageMediaContact](/API_docs/constructors/messageMediaContact.md)  
 
-[messageMediaUnsupported](../constructors/messageMediaUnsupported.md)  
+[messageMediaUnsupported](/API_docs/constructors/messageMediaUnsupported.md)  
 
-[messageMediaDocument](../constructors/messageMediaDocument.md)  
+[messageMediaDocument](/API_docs/constructors/messageMediaDocument.md)  
 
-[messageMediaWebPage](../constructors/messageMediaWebPage.md)  
+[messageMediaWebPage](/API_docs/constructors/messageMediaWebPage.md)  
 
-[messageMediaVenue](../constructors/messageMediaVenue.md)  
+[messageMediaVenue](/API_docs/constructors/messageMediaVenue.md)  
 
-[messageMediaGame](../constructors/messageMediaGame.md)  
+[messageMediaGame](/API_docs/constructors/messageMediaGame.md)  
 
-[messageMediaInvoice](../constructors/messageMediaInvoice.md)  
+[messageMediaInvoice](/API_docs/constructors/messageMediaInvoice.md)  
 
-[messageMediaGeoLive](../constructors/messageMediaGeoLive.md)  
+[messageMediaGeoLive](/API_docs/constructors/messageMediaGeoLive.md)  
 
-[messageMediaPoll](../constructors/messageMediaPoll.md)  
+[messageMediaPoll](/API_docs/constructors/messageMediaPoll.md)  
 
-[messageMediaDice](../constructors/messageMediaDice.md)  
+[messageMediaDice](/API_docs/constructors/messageMediaDice.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getWebPagePreview](../methods/messages.getWebPagePreview.md)  
+[$MadelineProto->messages->getWebPagePreview](/API_docs/methods/messages.getWebPagePreview.md)  
 
-[$MadelineProto->messages->uploadMedia](../methods/messages.uploadMedia.md)  
+[$MadelineProto->messages->uploadMedia](/API_docs/methods/messages.uploadMedia.md)  
 
-[$MadelineProto->messages->uploadImportedMedia](../methods/messages.uploadImportedMedia.md)  
+[$MadelineProto->messages->uploadImportedMedia](/API_docs/methods/messages.uploadImportedMedia.md)  
 
 
 
-[messageMediaEmpty](../constructors/messageMediaEmpty.md)  
+[messageMediaEmpty](/API_docs/constructors/messageMediaEmpty.md)  
 
-[messageMediaPhoto](../constructors/messageMediaPhoto.md)  
+[messageMediaPhoto](/API_docs/constructors/messageMediaPhoto.md)  
 
-[messageMediaGeo](../constructors/messageMediaGeo.md)  
+[messageMediaGeo](/API_docs/constructors/messageMediaGeo.md)  
 
-[messageMediaContact](../constructors/messageMediaContact.md)  
+[messageMediaContact](/API_docs/constructors/messageMediaContact.md)  
 
-[messageMediaUnsupported](../constructors/messageMediaUnsupported.md)  
+[messageMediaUnsupported](/API_docs/constructors/messageMediaUnsupported.md)  
 
-[messageMediaDocument](../constructors/messageMediaDocument.md)  
+[messageMediaDocument](/API_docs/constructors/messageMediaDocument.md)  
 
-[messageMediaWebPage](../constructors/messageMediaWebPage.md)  
+[messageMediaWebPage](/API_docs/constructors/messageMediaWebPage.md)  
 
-[messageMediaVenue](../constructors/messageMediaVenue.md)  
+[messageMediaVenue](/API_docs/constructors/messageMediaVenue.md)  
 
-[messageMediaGame](../constructors/messageMediaGame.md)  
+[messageMediaGame](/API_docs/constructors/messageMediaGame.md)  
 
-[messageMediaInvoice](../constructors/messageMediaInvoice.md)  
+[messageMediaInvoice](/API_docs/constructors/messageMediaInvoice.md)  
 
-[messageMediaGeoLive](../constructors/messageMediaGeoLive.md)  
+[messageMediaGeoLive](/API_docs/constructors/messageMediaGeoLive.md)  
 
-[messageMediaPoll](../constructors/messageMediaPoll.md)  
+[messageMediaPoll](/API_docs/constructors/messageMediaPoll.md)  
 
-[messageMediaDice](../constructors/messageMediaDice.md)  
+[messageMediaDice](/API_docs/constructors/messageMediaDice.md)  
 
-[$MadelineProto->messages->getWebPagePreview](../methods/messages.getWebPagePreview.md)  
+[$MadelineProto->messages->getWebPagePreview](/API_docs/methods/messages.getWebPagePreview.md)  
 
-[$MadelineProto->messages->uploadMedia](../methods/messages.uploadMedia.md)  
+[$MadelineProto->messages->uploadMedia](/API_docs/methods/messages.uploadMedia.md)  
 
-[$MadelineProto->messages->uploadImportedMedia](../methods/messages.uploadImportedMedia.md)  
+[$MadelineProto->messages->uploadImportedMedia](/API_docs/methods/messages.uploadImportedMedia.md)  
 

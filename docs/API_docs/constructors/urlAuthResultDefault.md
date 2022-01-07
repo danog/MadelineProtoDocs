@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: urlAuthResultDefault  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,7 +14,7 @@ Details about an accepted authorization request, for more info [click here »](h
 
 
 
-### Type: [UrlAuthResult](../types/UrlAuthResult.md)
+### Type: [UrlAuthResult](/API_docs/types/UrlAuthResult.md)
 
 
 ### Example:

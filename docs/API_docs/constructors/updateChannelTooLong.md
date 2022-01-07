@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChannelTooLong  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,12 +16,12 @@ If the difference is too long or if the channel isn't currently in the states, s
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[long](../types/long.md) | Yes|
-|pts|[int](../types/int.md) | Optional|The [PTS](https://core.telegram.org/api/updates).|
+|channel\_id|[long](/API_docs/types/long.md) | Yes|
+|pts|[int](/API_docs/types/int.md) | Optional|The [PTS](https://core.telegram.org/api/updates).|
 
 
 
-### Type: [Update](../types/Update.md)
+### Type: [Update](/API_docs/types/Update.md)
 
 
 ### Example:

@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[webPageAttributeTheme](../constructors/webPageAttributeTheme.md)  
+[webPageAttributeTheme](/API_docs/constructors/webPageAttributeTheme.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[webPageAttributeTheme](../constructors/webPageAttributeTheme.md)  
+[webPageAttributeTheme](/API_docs/constructors/webPageAttributeTheme.md)  
 

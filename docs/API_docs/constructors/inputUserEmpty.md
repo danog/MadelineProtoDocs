@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputUserEmpty  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,7 +14,7 @@ Empty constructor, does not define a user.
 
 
 
-### Type: [InputUser](../types/InputUser.md)
+### Type: [InputUser](/API_docs/types/InputUser.md)
 
 
 ### Example:

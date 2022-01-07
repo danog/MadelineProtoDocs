@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/messages_PeerSettings.html
 
 ### Possible values (constructors):
 
-[messages.peerSettings](../constructors/messages.peerSettings.md)  
+[messages.peerSettings](/API_docs/constructors/messages.peerSettings.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getPeerSettings](../methods/messages.getPeerSettings.md)  
+[$MadelineProto->messages->getPeerSettings](/API_docs/methods/messages.getPeerSettings.md)  
 
 
 
-[messages.peerSettings](../constructors/messages.peerSettings.md)  
+[messages.peerSettings](/API_docs/constructors/messages.peerSettings.md)  
 
-[$MadelineProto->messages->getPeerSettings](../methods/messages.getPeerSettings.md)  
+[$MadelineProto->messages->getPeerSettings](/API_docs/methods/messages.getPeerSettings.md)  
 

@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[labeledPrice](../constructors/labeledPrice.md)  
+[labeledPrice](/API_docs/constructors/labeledPrice.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[labeledPrice](../constructors/labeledPrice.md)  
+[labeledPrice](/API_docs/constructors/labeledPrice.md)  
 

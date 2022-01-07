@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueTypePersonalDetails  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,7 +14,7 @@ Personal details
 
 
 
-### Type: [SecureValueType](../types/SecureValueType.md)
+### Type: [SecureValueType](/API_docs/types/SecureValueType.md)
 
 
 ### Example:

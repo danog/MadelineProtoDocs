@@ -15,11 +15,11 @@ redirect_from: /API_docs/methods/phone_joinGroupCallPresentation.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|call|[InputGroupCall](../types/InputGroupCall.md) | Yes|
-|params|[DataJSON](../types/DataJSON.md) | Yes|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.md) | Yes|
+|params|[DataJSON](/API_docs/types/DataJSON.md) | Yes|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

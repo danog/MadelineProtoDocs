@@ -11,29 +11,29 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[documentAttributeImageSize](../constructors/documentAttributeImageSize.md)  
+[documentAttributeImageSize](/API_docs/constructors/documentAttributeImageSize.md)  
 
-[documentAttributeAnimated](../constructors/documentAttributeAnimated.md)  
+[documentAttributeAnimated](/API_docs/constructors/documentAttributeAnimated.md)  
 
-[documentAttributeSticker](../constructors/documentAttributeSticker.md)  
+[documentAttributeSticker](/API_docs/constructors/documentAttributeSticker.md)  
 
-[documentAttributeVideo](../constructors/documentAttributeVideo.md)  
+[documentAttributeVideo](/API_docs/constructors/documentAttributeVideo.md)  
 
-[documentAttributeAudio](../constructors/documentAttributeAudio.md)  
+[documentAttributeAudio](/API_docs/constructors/documentAttributeAudio.md)  
 
-[documentAttributeFilename](../constructors/documentAttributeFilename.md)  
+[documentAttributeFilename](/API_docs/constructors/documentAttributeFilename.md)  
 
-[documentAttributeHasStickers](../constructors/documentAttributeHasStickers.md)  
+[documentAttributeHasStickers](/API_docs/constructors/documentAttributeHasStickers.md)  
 
-[documentAttributeSticker\_23](../constructors/documentAttributeSticker_23.md)  
+[documentAttributeSticker\_23](/API_docs/constructors/documentAttributeSticker_23.md)  
 
-[documentAttributeVideo\_23](../constructors/documentAttributeVideo_23.md)  
+[documentAttributeVideo\_23](/API_docs/constructors/documentAttributeVideo_23.md)  
 
-[documentAttributeAudio\_23](../constructors/documentAttributeAudio_23.md)  
+[documentAttributeAudio\_23](/API_docs/constructors/documentAttributeAudio_23.md)  
 
-[documentAttributeAudio\_46](../constructors/documentAttributeAudio_46.md)  
+[documentAttributeAudio\_46](/API_docs/constructors/documentAttributeAudio_46.md)  
 
-[documentAttributeSticker\_55](../constructors/documentAttributeSticker_55.md)  
+[documentAttributeSticker\_55](/API_docs/constructors/documentAttributeSticker_55.md)  
 
 
 
@@ -41,27 +41,27 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[documentAttributeImageSize](../constructors/documentAttributeImageSize.md)  
+[documentAttributeImageSize](/API_docs/constructors/documentAttributeImageSize.md)  
 
-[documentAttributeAnimated](../constructors/documentAttributeAnimated.md)  
+[documentAttributeAnimated](/API_docs/constructors/documentAttributeAnimated.md)  
 
-[documentAttributeSticker](../constructors/documentAttributeSticker.md)  
+[documentAttributeSticker](/API_docs/constructors/documentAttributeSticker.md)  
 
-[documentAttributeVideo](../constructors/documentAttributeVideo.md)  
+[documentAttributeVideo](/API_docs/constructors/documentAttributeVideo.md)  
 
-[documentAttributeAudio](../constructors/documentAttributeAudio.md)  
+[documentAttributeAudio](/API_docs/constructors/documentAttributeAudio.md)  
 
-[documentAttributeFilename](../constructors/documentAttributeFilename.md)  
+[documentAttributeFilename](/API_docs/constructors/documentAttributeFilename.md)  
 
-[documentAttributeHasStickers](../constructors/documentAttributeHasStickers.md)  
+[documentAttributeHasStickers](/API_docs/constructors/documentAttributeHasStickers.md)  
 
-[documentAttributeSticker\_23](../constructors/documentAttributeSticker_23.md)  
+[documentAttributeSticker\_23](/API_docs/constructors/documentAttributeSticker_23.md)  
 
-[documentAttributeVideo\_23](../constructors/documentAttributeVideo_23.md)  
+[documentAttributeVideo\_23](/API_docs/constructors/documentAttributeVideo_23.md)  
 
-[documentAttributeAudio\_23](../constructors/documentAttributeAudio_23.md)  
+[documentAttributeAudio\_23](/API_docs/constructors/documentAttributeAudio_23.md)  
 
-[documentAttributeAudio\_46](../constructors/documentAttributeAudio_46.md)  
+[documentAttributeAudio\_46](/API_docs/constructors/documentAttributeAudio_46.md)  
 
-[documentAttributeSticker\_55](../constructors/documentAttributeSticker_55.md)  
+[documentAttributeSticker\_55](/API_docs/constructors/documentAttributeSticker_55.md)  
 

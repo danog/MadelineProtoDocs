@@ -15,13 +15,13 @@ redirect_from: /API_docs/methods/messages_uploadImportedMedia.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
-|import\_id|[long](../types/long.md) | Yes|
-|file\_name|[string](../types/string.md) | Yes|
-|media|[MessageMedia, Update, Message or InputMedia](../types/InputMedia.md) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
+|import\_id|[long](/API_docs/types/long.md) | Yes|
+|file\_name|[string](/API_docs/types/string.md) | Yes|
+|media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.md) | Optional|
 
 
-### Return type: [MessageMedia](../types/MessageMedia.md)
+### Return type: [MessageMedia](/API_docs/types/MessageMedia.md)
 
 ### Can bots use this method: **NO**
 

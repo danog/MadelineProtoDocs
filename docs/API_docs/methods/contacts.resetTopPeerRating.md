@@ -17,11 +17,11 @@ Reset [rating](https://core.telegram.org/api/top-rating) of top peer
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|category|[TopPeerCategory](../types/TopPeerCategory.md) | Top peer category | Yes|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Peer whose rating should be reset | Optional|
+|category|[TopPeerCategory](/API_docs/types/TopPeerCategory.md) | Top peer category | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Peer whose rating should be reset | Optional|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

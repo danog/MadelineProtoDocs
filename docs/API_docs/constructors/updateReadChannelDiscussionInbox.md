@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateReadChannelDiscussionInbox  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,15 +15,15 @@ Incoming comments in a [discussion thread](https://core.telegram.org/api/threads
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[long](../types/long.md) | Yes|
-|top\_msg\_id|[int](../types/int.md) | Yes|ID of the group message that started the [thread](https://core.telegram.org/api/threads) (message in linked discussion group)|
-|read\_max\_id|[int](../types/int.md) | Yes|Message ID of latest read incoming message for this [thread](https://core.telegram.org/api/threads)|
-|broadcast\_id|[long](../types/long.md) | Optional|
-|broadcast\_post|[int](../types/int.md) | Optional|If set, contains the ID of the channel post that started the the [comment thread](https://core.telegram.org/api/threads)|
+|channel\_id|[long](/API_docs/types/long.md) | Yes|
+|top\_msg\_id|[int](/API_docs/types/int.md) | Yes|ID of the group message that started the [thread](https://core.telegram.org/api/threads) (message in linked discussion group)|
+|read\_max\_id|[int](/API_docs/types/int.md) | Yes|Message ID of latest read incoming message for this [thread](https://core.telegram.org/api/threads)|
+|broadcast\_id|[long](/API_docs/types/long.md) | Optional|
+|broadcast\_post|[int](/API_docs/types/int.md) | Optional|If set, contains the ID of the channel post that started the the [comment thread](https://core.telegram.org/api/threads)|
 
 
 
-### Type: [Update](../types/Update.md)
+### Type: [Update](/API_docs/types/Update.md)
 
 
 ### Example:

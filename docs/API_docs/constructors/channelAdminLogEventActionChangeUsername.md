@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionChangeUsername  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ Channel/supergroup username was changed
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|prev\_value|[string](../types/string.md) | Yes|Old username|
-|new\_value|[string](../types/string.md) | Yes|New username|
+|prev\_value|[string](/API_docs/types/string.md) | Yes|Old username|
+|new\_value|[string](/API_docs/types/string.md) | Yes|New username|
 
 
 
-### Type: [ChannelAdminLogEventAction](../types/ChannelAdminLogEventAction.md)
+### Type: [ChannelAdminLogEventAction](/API_docs/types/ChannelAdminLogEventAction.md)
 
 
 ### Example:

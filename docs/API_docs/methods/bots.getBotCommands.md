@@ -15,11 +15,11 @@ redirect_from: /API_docs/methods/bots_getBotCommands.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|scope|[BotCommandScope](../types/BotCommandScope.md) | Yes|
-|lang\_code|[string](../types/string.md) | Yes|
+|scope|[BotCommandScope](/API_docs/types/BotCommandScope.md) | Yes|
+|lang\_code|[string](/API_docs/types/string.md) | Yes|
 
 
-### Return type: [Vector\_of\_BotCommand](../types/BotCommand.md)
+### Return type: [Vector\_of\_BotCommand](/API_docs/types/BotCommand.md)
 
 ### Can bots use this method: **YES**
 

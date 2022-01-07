@@ -11,25 +11,25 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[statsGraphAsync](../constructors/statsGraphAsync.md)  
+[statsGraphAsync](/API_docs/constructors/statsGraphAsync.md)  
 
-[statsGraphError](../constructors/statsGraphError.md)  
+[statsGraphError](/API_docs/constructors/statsGraphError.md)  
 
-[statsGraph](../constructors/statsGraph.md)  
+[statsGraph](/API_docs/constructors/statsGraph.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->stats->loadAsyncGraph](../methods/stats.loadAsyncGraph.md)  
+[$MadelineProto->stats->loadAsyncGraph](/API_docs/methods/stats.loadAsyncGraph.md)  
 
 
 
-[statsGraphAsync](../constructors/statsGraphAsync.md)  
+[statsGraphAsync](/API_docs/constructors/statsGraphAsync.md)  
 
-[statsGraphError](../constructors/statsGraphError.md)  
+[statsGraphError](/API_docs/constructors/statsGraphError.md)  
 
-[statsGraph](../constructors/statsGraph.md)  
+[statsGraph](/API_docs/constructors/statsGraph.md)  
 
-[$MadelineProto->stats->loadAsyncGraph](../methods/stats.loadAsyncGraph.md)  
+[$MadelineProto->stats->loadAsyncGraph](/API_docs/methods/stats.loadAsyncGraph.md)  
 

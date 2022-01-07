@@ -17,10 +17,10 @@ Reorder [folders](https://core.telegram.org/api/folders)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|order|Array of [int](../types/int.md) | New [folder](https://core.telegram.org/api/folders) order | Yes|
+|order|Array of [int](/API_docs/types/int.md) | New [folder](https://core.telegram.org/api/folders) order | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

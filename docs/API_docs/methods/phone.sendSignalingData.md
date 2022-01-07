@@ -17,11 +17,11 @@ Send VoIP signaling data
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[InputPhoneCall](../types/InputPhoneCall.md) | Phone call | Yes|
-|data|[bytes](../types/bytes.md) | Signaling payload | Yes|
+|peer|[InputPhoneCall](/API_docs/types/InputPhoneCall.md) | Phone call | Yes|
+|data|[bytes](/API_docs/types/bytes.md) | Signaling payload | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

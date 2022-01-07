@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_countriesList.html
 ---
 # Constructor: help.countriesList  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,12 +16,12 @@ Name, ISO code, localized name and phone codes/patterns of all available countri
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|countries|Array of [help.Country](../constructors/help.Country.md) | Yes|Name, ISO code, localized name and phone codes/patterns of all available countries|
-|hash|[int](../types/int.md) | Yes|
+|countries|Array of [help.Country](/API_docs/constructors/help.Country.md) | Yes|Name, ISO code, localized name and phone codes/patterns of all available countries|
+|hash|[int](/API_docs/types/int.md) | Yes|
 
 
 
-### Type: [help.CountriesList](../types/help.CountriesList.md)
+### Type: [help.CountriesList](/API_docs/types/help.CountriesList.md)
 
 
 ### Example:

@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[videoSize](../constructors/videoSize.md)  
+[videoSize](/API_docs/constructors/videoSize.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[videoSize](../constructors/videoSize.md)  
+[videoSize](/API_docs/constructors/videoSize.md)  
 

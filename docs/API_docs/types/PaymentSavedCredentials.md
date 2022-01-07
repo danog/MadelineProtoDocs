@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[paymentSavedCredentialsCard](../constructors/paymentSavedCredentialsCard.md)  
+[paymentSavedCredentialsCard](/API_docs/constructors/paymentSavedCredentialsCard.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[paymentSavedCredentialsCard](../constructors/paymentSavedCredentialsCard.md)  
+[paymentSavedCredentialsCard](/API_docs/constructors/paymentSavedCredentialsCard.md)  
 

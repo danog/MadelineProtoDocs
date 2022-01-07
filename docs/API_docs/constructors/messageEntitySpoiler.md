@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageEntitySpoiler  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -13,12 +13,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|offset|[int](../types/int.md) | Yes|
-|length|[int](../types/int.md) | Yes|
+|offset|[int](/API_docs/types/int.md) | Yes|
+|length|[int](/API_docs/types/int.md) | Yes|
 
 
 
-### Type: [MessageEntity](../types/MessageEntity.md)
+### Type: [MessageEntity](/API_docs/types/MessageEntity.md)
 
 
 ### Example:

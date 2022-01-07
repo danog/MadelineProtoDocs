@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessageReplyTo  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Message to which the specified message replies to
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](../types/int.md) | Yes|ID of the message that replies to the message we need|
+|id|[int](/API_docs/types/int.md) | Yes|ID of the message that replies to the message we need|
 
 
 
-### Type: [InputMessage](../types/InputMessage.md)
+### Type: [InputMessage](/API_docs/types/InputMessage.md)
 
 
 ### Example:

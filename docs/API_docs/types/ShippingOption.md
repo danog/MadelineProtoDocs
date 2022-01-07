@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[shippingOption](../constructors/shippingOption.md)  
+[shippingOption](/API_docs/constructors/shippingOption.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[shippingOption](../constructors/shippingOption.md)  
+[shippingOption](/API_docs/constructors/shippingOption.md)  
 

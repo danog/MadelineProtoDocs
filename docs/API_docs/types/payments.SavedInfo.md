@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/payments_SavedInfo.html
 
 ### Possible values (constructors):
 
-[payments.savedInfo](../constructors/payments.savedInfo.md)  
+[payments.savedInfo](/API_docs/constructors/payments.savedInfo.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->payments->getSavedInfo](../methods/payments.getSavedInfo.md)  
+[$MadelineProto->payments->getSavedInfo](/API_docs/methods/payments.getSavedInfo.md)  
 
 
 
-[payments.savedInfo](../constructors/payments.savedInfo.md)  
+[payments.savedInfo](/API_docs/constructors/payments.savedInfo.md)  
 
-[$MadelineProto->payments->getSavedInfo](../methods/payments.getSavedInfo.md)  
+[$MadelineProto->payments->getSavedInfo](/API_docs/methods/payments.getSavedInfo.md)  
 

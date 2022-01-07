@@ -17,11 +17,11 @@ Send confirmation code to cancel account deletion, for more info [click here »]
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[string](../types/string.md) | The hash from the service notification, for more info [click here »](https://core.telegram.org/api/account-deletion) | Yes|
-|settings|[CodeSettings](../types/CodeSettings.md) | Phone code settings | Yes|
+|hash|[string](/API_docs/types/string.md) | The hash from the service notification, for more info [click here »](https://core.telegram.org/api/account-deletion) | Yes|
+|settings|[CodeSettings](/API_docs/types/CodeSettings.md) | Phone code settings | Yes|
 
 
-### Return type: [auth.SentCode](../types/auth.SentCode.md)
+### Return type: [auth.SentCode](/API_docs/types/auth.SentCode.md)
 
 ### Can bots use this method: **NO**
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPeerChat  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Defines a chat for further interaction.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[long](../types/long.md) | Yes|
+|chat\_id|[long](/API_docs/types/long.md) | Yes|
 
 
 
-### Type: [InputPeer](../types/InputPeer.md)
+### Type: [InputPeer](/API_docs/types/InputPeer.md)
 
 
 ### Example:

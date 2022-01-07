@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockAudio  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ Audio
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|audio\_id|[long](../types/long.md) | Yes|Audio ID (to be fetched from the container [page](../constructors/page.md) constructor|
-|caption|[PageCaption](../types/PageCaption.md) | Yes|Audio caption|
+|audio\_id|[long](/API_docs/types/long.md) | Yes|Audio ID (to be fetched from the container [page](../constructors/page.md) constructor|
+|caption|[PageCaption](/API_docs/types/PageCaption.md) | Yes|Audio caption|
 
 
 
-### Type: [PageBlock](../types/PageBlock.md)
+### Type: [PageBlock](/API_docs/types/PageBlock.md)
 
 
 ### Example:

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: peerLocated  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,13 +15,13 @@ Peer geolocated nearby
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](../types/Peer.md) | Yes|Peer|
-|expires|[int](../types/int.md) | Yes|Validity period of current data|
-|distance|[int](../types/int.md) | Yes|Distance from the peer in meters|
+|peer|[Peer](/API_docs/types/Peer.md) | Yes|Peer|
+|expires|[int](/API_docs/types/int.md) | Yes|Validity period of current data|
+|distance|[int](/API_docs/types/int.md) | Yes|Distance from the peer in meters|
 
 
 
-### Type: [PeerLocated](../types/PeerLocated.md)
+### Type: [PeerLocated](/API_docs/types/PeerLocated.md)
 
 
 ### Example:

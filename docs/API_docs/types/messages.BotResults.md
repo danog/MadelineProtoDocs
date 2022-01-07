@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/messages_BotResults.html
 
 ### Possible values (constructors):
 
-[messages.botResults](../constructors/messages.botResults.md)  
+[messages.botResults](/API_docs/constructors/messages.botResults.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getInlineBotResults](../methods/messages.getInlineBotResults.md)  
+[$MadelineProto->messages->getInlineBotResults](/API_docs/methods/messages.getInlineBotResults.md)  
 
 
 
-[messages.botResults](../constructors/messages.botResults.md)  
+[messages.botResults](/API_docs/constructors/messages.botResults.md)  
 
-[$MadelineProto->messages->getInlineBotResults](../methods/messages.getInlineBotResults.md)  
+[$MadelineProto->messages->getInlineBotResults](/API_docs/methods/messages.getInlineBotResults.md)  
 

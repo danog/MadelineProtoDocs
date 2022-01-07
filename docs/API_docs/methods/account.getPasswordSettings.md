@@ -17,10 +17,10 @@ You cannot use this method directly; use $MadelineProto->update2fa($params), ins
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|password|[InputCheckPasswordSRP](../types/InputCheckPasswordSRP.md) | The password (see [SRP](https://core.telegram.org/api/srp)) | Yes|
+|password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.md) | The password (see [SRP](https://core.telegram.org/api/srp)) | Yes|
 
 
-### Return type: [account.PasswordSettings](../types/account.PasswordSettings.md)
+### Return type: [account.PasswordSettings](/API_docs/types/account.PasswordSettings.md)
 
 ### Can bots use this method: **NO**
 

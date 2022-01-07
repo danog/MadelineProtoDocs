@@ -11,19 +11,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputBotInlineMessageMediaAuto](../constructors/inputBotInlineMessageMediaAuto.md)  
+[inputBotInlineMessageMediaAuto](/API_docs/constructors/inputBotInlineMessageMediaAuto.md)  
 
-[inputBotInlineMessageText](../constructors/inputBotInlineMessageText.md)  
+[inputBotInlineMessageText](/API_docs/constructors/inputBotInlineMessageText.md)  
 
-[inputBotInlineMessageMediaGeo](../constructors/inputBotInlineMessageMediaGeo.md)  
+[inputBotInlineMessageMediaGeo](/API_docs/constructors/inputBotInlineMessageMediaGeo.md)  
 
-[inputBotInlineMessageMediaVenue](../constructors/inputBotInlineMessageMediaVenue.md)  
+[inputBotInlineMessageMediaVenue](/API_docs/constructors/inputBotInlineMessageMediaVenue.md)  
 
-[inputBotInlineMessageMediaContact](../constructors/inputBotInlineMessageMediaContact.md)  
+[inputBotInlineMessageMediaContact](/API_docs/constructors/inputBotInlineMessageMediaContact.md)  
 
-[inputBotInlineMessageGame](../constructors/inputBotInlineMessageGame.md)  
+[inputBotInlineMessageGame](/API_docs/constructors/inputBotInlineMessageGame.md)  
 
-[inputBotInlineMessageMediaInvoice](../constructors/inputBotInlineMessageMediaInvoice.md)  
+[inputBotInlineMessageMediaInvoice](/API_docs/constructors/inputBotInlineMessageMediaInvoice.md)  
 
 
 
@@ -31,17 +31,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputBotInlineMessageMediaAuto](../constructors/inputBotInlineMessageMediaAuto.md)  
+[inputBotInlineMessageMediaAuto](/API_docs/constructors/inputBotInlineMessageMediaAuto.md)  
 
-[inputBotInlineMessageText](../constructors/inputBotInlineMessageText.md)  
+[inputBotInlineMessageText](/API_docs/constructors/inputBotInlineMessageText.md)  
 
-[inputBotInlineMessageMediaGeo](../constructors/inputBotInlineMessageMediaGeo.md)  
+[inputBotInlineMessageMediaGeo](/API_docs/constructors/inputBotInlineMessageMediaGeo.md)  
 
-[inputBotInlineMessageMediaVenue](../constructors/inputBotInlineMessageMediaVenue.md)  
+[inputBotInlineMessageMediaVenue](/API_docs/constructors/inputBotInlineMessageMediaVenue.md)  
 
-[inputBotInlineMessageMediaContact](../constructors/inputBotInlineMessageMediaContact.md)  
+[inputBotInlineMessageMediaContact](/API_docs/constructors/inputBotInlineMessageMediaContact.md)  
 
-[inputBotInlineMessageGame](../constructors/inputBotInlineMessageGame.md)  
+[inputBotInlineMessageGame](/API_docs/constructors/inputBotInlineMessageGame.md)  
 
-[inputBotInlineMessageMediaInvoice](../constructors/inputBotInlineMessageMediaInvoice.md)  
+[inputBotInlineMessageMediaInvoice](/API_docs/constructors/inputBotInlineMessageMediaInvoice.md)  
 

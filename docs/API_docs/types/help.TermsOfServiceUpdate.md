@@ -12,21 +12,21 @@ redirect_from: /API_docs/types/help_TermsOfServiceUpdate.html
 
 ### Possible values (constructors):
 
-[help.termsOfServiceUpdateEmpty](../constructors/help.termsOfServiceUpdateEmpty.md)  
+[help.termsOfServiceUpdateEmpty](/API_docs/constructors/help.termsOfServiceUpdateEmpty.md)  
 
-[help.termsOfServiceUpdate](../constructors/help.termsOfServiceUpdate.md)  
+[help.termsOfServiceUpdate](/API_docs/constructors/help.termsOfServiceUpdate.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->help->getTermsOfServiceUpdate](../methods/help.getTermsOfServiceUpdate.md)  
+[$MadelineProto->help->getTermsOfServiceUpdate](/API_docs/methods/help.getTermsOfServiceUpdate.md)  
 
 
 
-[help.termsOfServiceUpdateEmpty](../constructors/help.termsOfServiceUpdateEmpty.md)  
+[help.termsOfServiceUpdateEmpty](/API_docs/constructors/help.termsOfServiceUpdateEmpty.md)  
 
-[help.termsOfServiceUpdate](../constructors/help.termsOfServiceUpdate.md)  
+[help.termsOfServiceUpdate](/API_docs/constructors/help.termsOfServiceUpdate.md)  
 
-[$MadelineProto->help->getTermsOfServiceUpdate](../methods/help.getTermsOfServiceUpdate.md)  
+[$MadelineProto->help->getTermsOfServiceUpdate](/API_docs/methods/help.getTermsOfServiceUpdate.md)  
 

@@ -16,11 +16,11 @@ Invoke a method within a takeout session
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|takeout\_id|[long](../types/long.md) | Takeout session ID | Yes|
-|query|[!X](../types/!X.md) | Query | Yes|
+|takeout\_id|[long](/API_docs/types/long.md) | Takeout session ID | Yes|
+|query|[!X](/API_docs/types/!X.md) | Query | Yes|
 
 
-### Return type: [X](../types/X.md)
+### Return type: [X](/API_docs/types/X.md)
 
 ### Can bots use this method: **YES**
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaGame  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ A game
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[InputGame](../types/InputGame.md) | Yes|The game to forward|
+|id|[InputGame](/API_docs/types/InputGame.md) | Yes|The game to forward|
 
 
 
-### Type: [InputMedia](../types/InputMedia.md)
+### Type: [InputMedia](/API_docs/types/InputMedia.md)
 
 
 ### Example:

@@ -12,21 +12,21 @@ redirect_from: /API_docs/types/upload_CdnFile.html
 
 ### Possible values (constructors):
 
-[upload.cdnFileReuploadNeeded](../constructors/upload.cdnFileReuploadNeeded.md)  
+[upload.cdnFileReuploadNeeded](/API_docs/constructors/upload.cdnFileReuploadNeeded.md)  
 
-[upload.cdnFile](../constructors/upload.cdnFile.md)  
+[upload.cdnFile](/API_docs/constructors/upload.cdnFile.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->upload->getCdnFile](../methods/upload.getCdnFile.md)  
+[$MadelineProto->upload->getCdnFile](/API_docs/methods/upload.getCdnFile.md)  
 
 
 
-[upload.cdnFileReuploadNeeded](../constructors/upload.cdnFileReuploadNeeded.md)  
+[upload.cdnFileReuploadNeeded](/API_docs/constructors/upload.cdnFileReuploadNeeded.md)  
 
-[upload.cdnFile](../constructors/upload.cdnFile.md)  
+[upload.cdnFile](/API_docs/constructors/upload.cdnFile.md)  
 
-[$MadelineProto->upload->getCdnFile](../methods/upload.getCdnFile.md)  
+[$MadelineProto->upload->getCdnFile](/API_docs/methods/upload.getCdnFile.md)  
 

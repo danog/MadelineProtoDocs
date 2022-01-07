@@ -17,10 +17,10 @@ Adds the user to the blacklist.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | User ID | Optional|
+|id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | User ID | Optional|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

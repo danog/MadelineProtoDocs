@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/messages_checkHistoryImportPeer.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
 
 
-### Return type: [messages.CheckedHistoryImportPeer](../types/messages.CheckedHistoryImportPeer.md)
+### Return type: [messages.CheckedHistoryImportPeer](/API_docs/types/messages.CheckedHistoryImportPeer.md)
 
 ### Can bots use this method: **NO**
 

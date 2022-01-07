@@ -17,10 +17,10 @@ Get faved stickers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[long](../types/long.md) |  | Yes|
+|hash|[long](/API_docs/types/long.md) |  | Yes|
 
 
-### Return type: [messages.FavedStickers](../types/messages.FavedStickers.md)
+### Return type: [messages.FavedStickers](/API_docs/types/messages.FavedStickers.md)
 
 ### Can bots use this method: **NO**
 

@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/messages_getAvailableReactions.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|hash|Array of [int](../types/int.md) | Optional|
+|hash|Array of [int](/API_docs/types/int.md) | Optional|
 
 
-### Return type: [messages.AvailableReactions](../types/messages.AvailableReactions.md)
+### Return type: [messages.AvailableReactions](/API_docs/types/messages.AvailableReactions.md)
 
 ### Can bots use this method: **YES**
 

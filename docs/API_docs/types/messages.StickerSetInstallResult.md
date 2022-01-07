@@ -12,21 +12,21 @@ redirect_from: /API_docs/types/messages_StickerSetInstallResult.html
 
 ### Possible values (constructors):
 
-[messages.stickerSetInstallResultSuccess](../constructors/messages.stickerSetInstallResultSuccess.md)  
+[messages.stickerSetInstallResultSuccess](/API_docs/constructors/messages.stickerSetInstallResultSuccess.md)  
 
-[messages.stickerSetInstallResultArchive](../constructors/messages.stickerSetInstallResultArchive.md)  
+[messages.stickerSetInstallResultArchive](/API_docs/constructors/messages.stickerSetInstallResultArchive.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->installStickerSet](../methods/messages.installStickerSet.md)  
+[$MadelineProto->messages->installStickerSet](/API_docs/methods/messages.installStickerSet.md)  
 
 
 
-[messages.stickerSetInstallResultSuccess](../constructors/messages.stickerSetInstallResultSuccess.md)  
+[messages.stickerSetInstallResultSuccess](/API_docs/constructors/messages.stickerSetInstallResultSuccess.md)  
 
-[messages.stickerSetInstallResultArchive](../constructors/messages.stickerSetInstallResultArchive.md)  
+[messages.stickerSetInstallResultArchive](/API_docs/constructors/messages.stickerSetInstallResultArchive.md)  
 
-[$MadelineProto->messages->installStickerSet](../methods/messages.installStickerSet.md)  
+[$MadelineProto->messages->installStickerSet](/API_docs/methods/messages.installStickerSet.md)  
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: jsonNumber  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ JSON numeric value
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|value|[double](../types/double.md) | Yes|Value|
+|value|[double](/API_docs/types/double.md) | Yes|Value|
 
 
 
-### Type: [JSONValue](../types/JSONValue.md)
+### Type: [JSONValue](/API_docs/types/JSONValue.md)
 
 
 ### Example:

@@ -12,35 +12,35 @@ You can also provide a [MessageMedia](MessageMedia.md), [Message](Message.md), [
 
 ### Possible values (constructors):
 
-[inputMediaEmpty](../constructors/inputMediaEmpty.md)  
+[inputMediaEmpty](/API_docs/constructors/inputMediaEmpty.md)  
 
-[inputMediaUploadedPhoto](../constructors/inputMediaUploadedPhoto.md)  
+[inputMediaUploadedPhoto](/API_docs/constructors/inputMediaUploadedPhoto.md)  
 
-[inputMediaPhoto](../constructors/inputMediaPhoto.md)  
+[inputMediaPhoto](/API_docs/constructors/inputMediaPhoto.md)  
 
-[inputMediaGeoPoint](../constructors/inputMediaGeoPoint.md)  
+[inputMediaGeoPoint](/API_docs/constructors/inputMediaGeoPoint.md)  
 
-[inputMediaContact](../constructors/inputMediaContact.md)  
+[inputMediaContact](/API_docs/constructors/inputMediaContact.md)  
 
-[inputMediaUploadedDocument](../constructors/inputMediaUploadedDocument.md)  
+[inputMediaUploadedDocument](/API_docs/constructors/inputMediaUploadedDocument.md)  
 
-[inputMediaDocument](../constructors/inputMediaDocument.md)  
+[inputMediaDocument](/API_docs/constructors/inputMediaDocument.md)  
 
-[inputMediaVenue](../constructors/inputMediaVenue.md)  
+[inputMediaVenue](/API_docs/constructors/inputMediaVenue.md)  
 
-[inputMediaPhotoExternal](../constructors/inputMediaPhotoExternal.md)  
+[inputMediaPhotoExternal](/API_docs/constructors/inputMediaPhotoExternal.md)  
 
-[inputMediaDocumentExternal](../constructors/inputMediaDocumentExternal.md)  
+[inputMediaDocumentExternal](/API_docs/constructors/inputMediaDocumentExternal.md)  
 
-[inputMediaGame](../constructors/inputMediaGame.md)  
+[inputMediaGame](/API_docs/constructors/inputMediaGame.md)  
 
-[inputMediaInvoice](../constructors/inputMediaInvoice.md)  
+[inputMediaInvoice](/API_docs/constructors/inputMediaInvoice.md)  
 
-[inputMediaGeoLive](../constructors/inputMediaGeoLive.md)  
+[inputMediaGeoLive](/API_docs/constructors/inputMediaGeoLive.md)  
 
-[inputMediaPoll](../constructors/inputMediaPoll.md)  
+[inputMediaPoll](/API_docs/constructors/inputMediaPoll.md)  
 
-[inputMediaDice](../constructors/inputMediaDice.md)  
+[inputMediaDice](/API_docs/constructors/inputMediaDice.md)  
 
 
 
@@ -48,33 +48,33 @@ You can also provide a [MessageMedia](MessageMedia.md), [Message](Message.md), [
 
 
 
-[inputMediaEmpty](../constructors/inputMediaEmpty.md)  
+[inputMediaEmpty](/API_docs/constructors/inputMediaEmpty.md)  
 
-[inputMediaUploadedPhoto](../constructors/inputMediaUploadedPhoto.md)  
+[inputMediaUploadedPhoto](/API_docs/constructors/inputMediaUploadedPhoto.md)  
 
-[inputMediaPhoto](../constructors/inputMediaPhoto.md)  
+[inputMediaPhoto](/API_docs/constructors/inputMediaPhoto.md)  
 
-[inputMediaGeoPoint](../constructors/inputMediaGeoPoint.md)  
+[inputMediaGeoPoint](/API_docs/constructors/inputMediaGeoPoint.md)  
 
-[inputMediaContact](../constructors/inputMediaContact.md)  
+[inputMediaContact](/API_docs/constructors/inputMediaContact.md)  
 
-[inputMediaUploadedDocument](../constructors/inputMediaUploadedDocument.md)  
+[inputMediaUploadedDocument](/API_docs/constructors/inputMediaUploadedDocument.md)  
 
-[inputMediaDocument](../constructors/inputMediaDocument.md)  
+[inputMediaDocument](/API_docs/constructors/inputMediaDocument.md)  
 
-[inputMediaVenue](../constructors/inputMediaVenue.md)  
+[inputMediaVenue](/API_docs/constructors/inputMediaVenue.md)  
 
-[inputMediaPhotoExternal](../constructors/inputMediaPhotoExternal.md)  
+[inputMediaPhotoExternal](/API_docs/constructors/inputMediaPhotoExternal.md)  
 
-[inputMediaDocumentExternal](../constructors/inputMediaDocumentExternal.md)  
+[inputMediaDocumentExternal](/API_docs/constructors/inputMediaDocumentExternal.md)  
 
-[inputMediaGame](../constructors/inputMediaGame.md)  
+[inputMediaGame](/API_docs/constructors/inputMediaGame.md)  
 
-[inputMediaInvoice](../constructors/inputMediaInvoice.md)  
+[inputMediaInvoice](/API_docs/constructors/inputMediaInvoice.md)  
 
-[inputMediaGeoLive](../constructors/inputMediaGeoLive.md)  
+[inputMediaGeoLive](/API_docs/constructors/inputMediaGeoLive.md)  
 
-[inputMediaPoll](../constructors/inputMediaPoll.md)  
+[inputMediaPoll](/API_docs/constructors/inputMediaPoll.md)  
 
-[inputMediaDice](../constructors/inputMediaDice.md)  
+[inputMediaDice](/API_docs/constructors/inputMediaDice.md)  
 

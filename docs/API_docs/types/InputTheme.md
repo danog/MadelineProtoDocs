@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputTheme](../constructors/inputTheme.md)  
+[inputTheme](/API_docs/constructors/inputTheme.md)  
 
-[inputThemeSlug](../constructors/inputThemeSlug.md)  
+[inputThemeSlug](/API_docs/constructors/inputThemeSlug.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputTheme](../constructors/inputTheme.md)  
+[inputTheme](/API_docs/constructors/inputTheme.md)  
 
-[inputThemeSlug](../constructors/inputThemeSlug.md)  
+[inputThemeSlug](/API_docs/constructors/inputThemeSlug.md)  
 

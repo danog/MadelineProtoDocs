@@ -15,7 +15,7 @@ Resets all notification settings from users and groups.
 
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

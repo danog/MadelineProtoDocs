@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChatDefaultBannedRights  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,13 +15,13 @@ Default banned rights in a [normal chat](https://core.telegram.org/api/channel) 
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](../types/Peer.md) | Yes|The chat|
-|default\_banned\_rights|[ChatBannedRights](../types/ChatBannedRights.md) | Yes|New default banned rights|
-|version|[int](../types/int.md) | Yes|Version|
+|peer|[Peer](/API_docs/types/Peer.md) | Yes|The chat|
+|default\_banned\_rights|[ChatBannedRights](/API_docs/types/ChatBannedRights.md) | Yes|New default banned rights|
+|version|[int](/API_docs/types/int.md) | Yes|Version|
 
 
 
-### Type: [Update](../types/Update.md)
+### Type: [Update](/API_docs/types/Update.md)
 
 
 ### Example:

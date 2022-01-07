@@ -17,10 +17,10 @@ Get dialog info of specified peers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peers|Array of [Username, chat ID, Update, Message or InputDialogPeer](../types/InputDialogPeer.md) | Peers | Yes|
+|peers|Array of [Username, chat ID, Update, Message or InputDialogPeer](/API_docs/types/InputDialogPeer.md) | Peers | Yes|
 
 
-### Return type: [messages.PeerDialogs](../types/messages.PeerDialogs.md)
+### Return type: [messages.PeerDialogs](/API_docs/types/messages.PeerDialogs.md)
 
 ### Can bots use this method: **NO**
 

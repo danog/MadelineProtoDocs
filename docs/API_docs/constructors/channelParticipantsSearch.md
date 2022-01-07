@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantsSearch  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Query participants by name
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|q|[string](../types/string.md) | Yes|Search query|
+|q|[string](/API_docs/types/string.md) | Yes|Search query|
 
 
 
-### Type: [ChannelParticipantsFilter](../types/ChannelParticipantsFilter.md)
+### Type: [ChannelParticipantsFilter](/API_docs/types/ChannelParticipantsFilter.md)
 
 
 ### Example:

@@ -17,10 +17,10 @@ Delete stored [Telegram Passport](https://core.telegram.org/passport) documents,
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|types|Array of [SecureValueType](../types/SecureValueType.md) | Document types to delete | Yes|
+|types|Array of [SecureValueType](/API_docs/types/SecureValueType.md) | Document types to delete | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

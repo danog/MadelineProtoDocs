@@ -17,10 +17,10 @@ If the [peer settings](../constructors/peerSettings.md) of a new user allow us t
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The user to add as contact | Optional|
+|id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | The user to add as contact | Optional|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

@@ -17,12 +17,12 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|file\_id|[long](../types/long.md) | Random file identifier created by the client | Yes|
-|file\_part|[int](../types/int.md) | Numerical order of a part | Yes|
-|bytes|[bytes](../types/bytes.md) | Binary data, contend of a part | Yes|
+|file\_id|[long](/API_docs/types/long.md) | Random file identifier created by the client | Yes|
+|file\_part|[int](/API_docs/types/int.md) | Numerical order of a part | Yes|
+|bytes|[bytes](/API_docs/types/bytes.md) | Binary data, contend of a part | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **YES**
 

@@ -12,7 +12,7 @@ redirect_from: /API_docs/types/account_PasswordInputSettings.html
 
 ### Possible values (constructors):
 
-[account.passwordInputSettings](../constructors/account.passwordInputSettings.md)  
+[account.passwordInputSettings](/API_docs/constructors/account.passwordInputSettings.md)  
 
 
 
@@ -20,5 +20,5 @@ redirect_from: /API_docs/types/account_PasswordInputSettings.html
 
 
 
-[account.passwordInputSettings](../constructors/account.passwordInputSettings.md)  
+[account.passwordInputSettings](/API_docs/constructors/account.passwordInputSettings.md)  
 

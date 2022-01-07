@@ -17,11 +17,11 @@ Informs the server about the number of pending bot updates if they haven't been 
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|pending\_updates\_count|[int](../types/int.md) | Number of pending updates | Yes|
-|message|[string](../types/string.md) | Error message, if present | Yes|
+|pending\_updates\_count|[int](/API_docs/types/int.md) | Number of pending updates | Yes|
+|message|[string](/API_docs/types/string.md) | Error message, if present | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **YES**
 

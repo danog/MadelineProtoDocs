@@ -17,15 +17,15 @@ Export an invite link for a chat
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|legacy\_revoke\_permanent|[Bool](../types/Bool.md) |  | Optional|
-|request\_needed|[Bool](../types/Bool.md) |  | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Chat | Optional|
-|expire\_date|[int](../types/int.md) |  | Optional|
-|usage\_limit|[int](../types/int.md) |  | Optional|
-|title|[string](../types/string.md) |  | Optional|
+|legacy\_revoke\_permanent|[Bool](/API_docs/types/Bool.md) |  | Optional|
+|request\_needed|[Bool](/API_docs/types/Bool.md) |  | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Chat | Optional|
+|expire\_date|[int](/API_docs/types/int.md) |  | Optional|
+|usage\_limit|[int](/API_docs/types/int.md) |  | Optional|
+|title|[string](/API_docs/types/string.md) |  | Optional|
 
 
-### Return type: [ExportedChatInvite](../types/ExportedChatInvite.md)
+### Return type: [ExportedChatInvite](/API_docs/types/ExportedChatInvite.md)
 
 ### Can bots use this method: **YES**
 

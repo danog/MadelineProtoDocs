@@ -15,7 +15,7 @@ Save get all message [drafts](https://core.telegram.org/api/drafts).
 
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

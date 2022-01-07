@@ -17,19 +17,19 @@ Send a result obtained using [messages.getInlineBotResults](../methods/messages.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|silent|[Bool](../types/Bool.md) | Whether to send the message silently (no notification will be triggered on the other client) | Optional|
-|background|[Bool](../types/Bool.md) | Whether to send the message in background | Optional|
-|clear\_draft|[Bool](../types/Bool.md) | Whether to clear the [draft](https://core.telegram.org/api/drafts) | Optional|
-|hide\_via|[Bool](../types/Bool.md) | Whether to hide the `via @botname` in the resulting message (only for bot usernames encountered in the [config](../constructors/config.md)) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Destination | Optional|
-|reply\_to\_msg\_id|[int](../types/int.md) | ID of the message this message should reply to | Optional|
-|query\_id|[long](../types/long.md) | Query ID from [messages.getInlineBotResults](../methods/messages.getInlineBotResults.md) | Yes|
-|id|[string](../types/string.md) | Result ID from [messages.getInlineBotResults](../methods/messages.getInlineBotResults.md) | Yes|
-|schedule\_date|[int](../types/int.md) | Scheduled message date for scheduled messages | Optional|
-|send\_as|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
+|silent|[Bool](/API_docs/types/Bool.md) | Whether to send the message silently (no notification will be triggered on the other client) | Optional|
+|background|[Bool](/API_docs/types/Bool.md) | Whether to send the message in background | Optional|
+|clear\_draft|[Bool](/API_docs/types/Bool.md) | Whether to clear the [draft](https://core.telegram.org/api/drafts) | Optional|
+|hide\_via|[Bool](/API_docs/types/Bool.md) | Whether to hide the `via @botname` in the resulting message (only for bot usernames encountered in the [config](../constructors/config.md)) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Destination | Optional|
+|reply\_to\_msg\_id|[int](/API_docs/types/int.md) | ID of the message this message should reply to | Optional|
+|query\_id|[long](/API_docs/types/long.md) | Query ID from [messages.getInlineBotResults](../methods/messages.getInlineBotResults.md) | Yes|
+|id|[string](/API_docs/types/string.md) | Result ID from [messages.getInlineBotResults](../methods/messages.getInlineBotResults.md) | Yes|
+|schedule\_date|[int](/API_docs/types/int.md) | Scheduled message date for scheduled messages | Optional|
+|send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) |  | Optional|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

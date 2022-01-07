@@ -12,21 +12,21 @@ redirect_from: /API_docs/types/help_AppUpdate.html
 
 ### Possible values (constructors):
 
-[help.appUpdate](../constructors/help.appUpdate.md)  
+[help.appUpdate](/API_docs/constructors/help.appUpdate.md)  
 
-[help.noAppUpdate](../constructors/help.noAppUpdate.md)  
+[help.noAppUpdate](/API_docs/constructors/help.noAppUpdate.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->help->getAppUpdate](../methods/help.getAppUpdate.md)  
+[$MadelineProto->help->getAppUpdate](/API_docs/methods/help.getAppUpdate.md)  
 
 
 
-[help.appUpdate](../constructors/help.appUpdate.md)  
+[help.appUpdate](/API_docs/constructors/help.appUpdate.md)  
 
-[help.noAppUpdate](../constructors/help.noAppUpdate.md)  
+[help.noAppUpdate](/API_docs/constructors/help.noAppUpdate.md)  
 
-[$MadelineProto->help->getAppUpdate](../methods/help.getAppUpdate.md)  
+[$MadelineProto->help->getAppUpdate](/API_docs/methods/help.getAppUpdate.md)  
 

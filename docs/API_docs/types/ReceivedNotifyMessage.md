@@ -11,17 +11,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[receivedNotifyMessage](../constructors/receivedNotifyMessage.md)  
+[receivedNotifyMessage](/API_docs/constructors/receivedNotifyMessage.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->receivedMessages](../methods/messages.receivedMessages.md)  
+[$MadelineProto->messages->receivedMessages](/API_docs/methods/messages.receivedMessages.md)  
 
 
 
-[receivedNotifyMessage](../constructors/receivedNotifyMessage.md)  
+[receivedNotifyMessage](/API_docs/constructors/receivedNotifyMessage.md)  
 
-[$MadelineProto->messages->receivedMessages](../methods/messages.receivedMessages.md)  
+[$MadelineProto->messages->receivedMessages](/API_docs/methods/messages.receivedMessages.md)  
 

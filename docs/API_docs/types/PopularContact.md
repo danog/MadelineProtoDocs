@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[popularContact](../constructors/popularContact.md)  
+[popularContact](/API_docs/constructors/popularContact.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[popularContact](../constructors/popularContact.md)  
+[popularContact](/API_docs/constructors/popularContact.md)  
 

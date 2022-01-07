@@ -12,21 +12,21 @@ redirect_from: /API_docs/types/help_PromoData.html
 
 ### Possible values (constructors):
 
-[help.promoDataEmpty](../constructors/help.promoDataEmpty.md)  
+[help.promoDataEmpty](/API_docs/constructors/help.promoDataEmpty.md)  
 
-[help.promoData](../constructors/help.promoData.md)  
+[help.promoData](/API_docs/constructors/help.promoData.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->help->getPromoData](../methods/help.getPromoData.md)  
+[$MadelineProto->help->getPromoData](/API_docs/methods/help.getPromoData.md)  
 
 
 
-[help.promoDataEmpty](../constructors/help.promoDataEmpty.md)  
+[help.promoDataEmpty](/API_docs/constructors/help.promoDataEmpty.md)  
 
-[help.promoData](../constructors/help.promoData.md)  
+[help.promoData](/API_docs/constructors/help.promoData.md)  
 
-[$MadelineProto->help->getPromoData](../methods/help.getPromoData.md)  
+[$MadelineProto->help->getPromoData](/API_docs/methods/help.getPromoData.md)  
 

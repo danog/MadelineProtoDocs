@@ -17,11 +17,11 @@ Marks message history as read.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Target user or group | Optional|
-|max\_id|[int](../types/int.md) | If a positive value is passed, only messages with identifiers less or equal than the given one will be read | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Target user or group | Optional|
+|max\_id|[int](/API_docs/types/int.md) | If a positive value is passed, only messages with identifiers less or equal than the given one will be read | Yes|
 
 
-### Return type: [messages.AffectedMessages](../types/messages.AffectedMessages.md)
+### Return type: [messages.AffectedMessages](/API_docs/types/messages.AffectedMessages.md)
 
 ### Can bots use this method: **NO**
 

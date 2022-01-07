@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[postAddress](../constructors/postAddress.md)  
+[postAddress](/API_docs/constructors/postAddress.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[postAddress](../constructors/postAddress.md)  
+[postAddress](/API_docs/constructors/postAddress.md)  
 

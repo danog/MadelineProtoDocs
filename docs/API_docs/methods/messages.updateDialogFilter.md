@@ -17,11 +17,11 @@ Update [folder](https://core.telegram.org/api/folders)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[int](../types/int.md) | [Folder](https://core.telegram.org/api/folders) ID | Yes|
-|filter|[DialogFilter](../types/DialogFilter.md) | [Folder](https://core.telegram.org/api/folders) info | Optional|
+|id|[int](/API_docs/types/int.md) | [Folder](https://core.telegram.org/api/folders) ID | Yes|
+|filter|[DialogFilter](/API_docs/types/DialogFilter.md) | [Folder](https://core.telegram.org/api/folders) info | Optional|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

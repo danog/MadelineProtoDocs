@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: folder  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,16 +15,16 @@ Folder
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|autofill\_new\_broadcasts|[Bool](../types/Bool.md) | Optional|Automatically add new channels to this folder|
-|autofill\_public\_groups|[Bool](../types/Bool.md) | Optional|Automatically add joined new public supergroups to this folder|
-|autofill\_new\_correspondents|[Bool](../types/Bool.md) | Optional|Automatically add new private chats to this folder|
-|id|[int](../types/int.md) | Yes|Folder ID|
-|title|[string](../types/string.md) | Yes|Folder title|
-|photo|[ChatPhoto](../types/ChatPhoto.md) | Optional|Folder picture|
+|autofill\_new\_broadcasts|[Bool](/API_docs/types/Bool.md) | Optional|Automatically add new channels to this folder|
+|autofill\_public\_groups|[Bool](/API_docs/types/Bool.md) | Optional|Automatically add joined new public supergroups to this folder|
+|autofill\_new\_correspondents|[Bool](/API_docs/types/Bool.md) | Optional|Automatically add new private chats to this folder|
+|id|[int](/API_docs/types/int.md) | Yes|Folder ID|
+|title|[string](/API_docs/types/string.md) | Yes|Folder title|
+|photo|[ChatPhoto](/API_docs/types/ChatPhoto.md) | Optional|Folder picture|
 
 
 
-### Type: [Folder](../types/Folder.md)
+### Type: [Folder](/API_docs/types/Folder.md)
 
 
 ### Example:

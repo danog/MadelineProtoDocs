@@ -11,17 +11,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[cdnConfig](../constructors/cdnConfig.md)  
+[cdnConfig](/API_docs/constructors/cdnConfig.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->help->getCdnConfig](../methods/help.getCdnConfig.md)  
+[$MadelineProto->help->getCdnConfig](/API_docs/methods/help.getCdnConfig.md)  
 
 
 
-[cdnConfig](../constructors/cdnConfig.md)  
+[cdnConfig](/API_docs/constructors/cdnConfig.md)  
 
-[$MadelineProto->help->getCdnConfig](../methods/help.getCdnConfig.md)  
+[$MadelineProto->help->getCdnConfig](/API_docs/methods/help.getCdnConfig.md)  
 

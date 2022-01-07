@@ -34,9 +34,9 @@ A [Chat](Chat.md), a [User](User.md), an [InputPeer](InputPeer.md), an [InputDia
 
 ### Possible values (constructors):
 
-[inputDialogPeer](../constructors/inputDialogPeer.md)  
+[inputDialogPeer](/API_docs/constructors/inputDialogPeer.md)  
 
-[inputDialogPeerFolder](../constructors/inputDialogPeerFolder.md)  
+[inputDialogPeerFolder](/API_docs/constructors/inputDialogPeerFolder.md)  
 
 
 
@@ -44,7 +44,7 @@ A [Chat](Chat.md), a [User](User.md), an [InputPeer](InputPeer.md), an [InputDia
 
 
 
-[inputDialogPeer](../constructors/inputDialogPeer.md)  
+[inputDialogPeer](/API_docs/constructors/inputDialogPeer.md)  
 
-[inputDialogPeerFolder](../constructors/inputDialogPeerFolder.md)  
+[inputDialogPeerFolder](/API_docs/constructors/inputDialogPeerFolder.md)  
 

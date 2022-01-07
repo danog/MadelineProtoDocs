@@ -17,10 +17,10 @@ Delete all temporary authorization keys **except for** the ones specified
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|except\_auth\_keys|Array of [long](../types/long.md) | The auth keys that **shouldn't** be dropped. | Yes|
+|except\_auth\_keys|Array of [long](/API_docs/types/long.md) | The auth keys that **shouldn't** be dropped. | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **YES**
 

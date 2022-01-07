@@ -17,10 +17,10 @@ Get information about all languages in a localization pack
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|lang\_pack|[string](../types/string.md) | Language pack | Yes|
+|lang\_pack|[string](/API_docs/types/string.md) | Language pack | Yes|
 
 
-### Return type: [Vector\_of\_LangPackLanguage](../types/LangPackLanguage.md)
+### Return type: [Vector\_of\_LangPackLanguage](/API_docs/types/LangPackLanguage.md)
 
 ### Can bots use this method: **NO**
 

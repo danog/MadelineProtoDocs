@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/stats_MessageStats.html
 
 ### Possible values (constructors):
 
-[stats.messageStats](../constructors/stats.messageStats.md)  
+[stats.messageStats](/API_docs/constructors/stats.messageStats.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->stats->getMessageStats](../methods/stats.getMessageStats.md)  
+[$MadelineProto->stats->getMessageStats](/API_docs/methods/stats.getMessageStats.md)  
 
 
 
-[stats.messageStats](../constructors/stats.messageStats.md)  
+[stats.messageStats](/API_docs/constructors/stats.messageStats.md)  
 
-[$MadelineProto->stats->getMessageStats](../methods/stats.getMessageStats.md)  
+[$MadelineProto->stats->getMessageStats](/API_docs/methods/stats.getMessageStats.md)  
 

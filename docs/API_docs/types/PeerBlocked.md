@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[peerBlocked](../constructors/peerBlocked.md)  
+[peerBlocked](/API_docs/constructors/peerBlocked.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[peerBlocked](../constructors/peerBlocked.md)  
+[peerBlocked](/API_docs/constructors/peerBlocked.md)  
 

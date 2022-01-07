@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: wallPaperNoFile  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,14 +15,14 @@ No file wallpaper
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|
-|default|[Bool](../types/Bool.md) | Optional|Whether this is the default wallpaper|
-|dark|[Bool](../types/Bool.md) | Optional|Dark mode|
-|settings|[WallPaperSettings](../types/WallPaperSettings.md) | Optional|Wallpaper settings|
+|id|[long](/API_docs/types/long.md) | Yes|
+|default|[Bool](/API_docs/types/Bool.md) | Optional|Whether this is the default wallpaper|
+|dark|[Bool](/API_docs/types/Bool.md) | Optional|Dark mode|
+|settings|[WallPaperSettings](/API_docs/types/WallPaperSettings.md) | Optional|Wallpaper settings|
 
 
 
-### Type: [WallPaper](../types/WallPaper.md)
+### Type: [WallPaper](/API_docs/types/WallPaper.md)
 
 
 ### Example:

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatForbidden  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ A group to which the user has no access. E.g., because the user was kicked from 
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|
-|title|[string](../types/string.md) | Yes|Group name|
+|id|[long](/API_docs/types/long.md) | Yes|
+|title|[string](/API_docs/types/string.md) | Yes|Group name|
 
 
 
-### Type: [Chat](../types/Chat.md)
+### Type: [Chat](/API_docs/types/Chat.md)
 
 
 ### Example:

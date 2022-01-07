@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: recentMeUrlUnknown  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Unknown t.me url
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|url|[string](../types/string.md) | Yes|URL|
+|url|[string](/API_docs/types/string.md) | Yes|URL|
 
 
 
-### Type: [RecentMeUrl](../types/RecentMeUrl.md)
+### Type: [RecentMeUrl](/API_docs/types/RecentMeUrl.md)
 
 
 ### Example:

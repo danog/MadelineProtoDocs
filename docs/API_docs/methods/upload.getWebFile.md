@@ -17,12 +17,12 @@ Returns content of an HTTP file or a part, by proxying the request through teleg
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|location|[InputWebFileLocation](../types/InputWebFileLocation.md) | The file to download | Yes|
-|offset|[int](../types/int.md) | Number of bytes to be skipped | Yes|
-|limit|[int](../types/int.md) | Number of bytes to be returned | Yes|
+|location|[InputWebFileLocation](/API_docs/types/InputWebFileLocation.md) | The file to download | Yes|
+|offset|[int](/API_docs/types/int.md) | Number of bytes to be skipped | Yes|
+|limit|[int](/API_docs/types/int.md) | Number of bytes to be returned | Yes|
 
 
-### Return type: [upload.WebFile](../types/upload.WebFile.md)
+### Return type: [upload.WebFile](/API_docs/types/upload.WebFile.md)
 
 ### Can bots use this method: **NO**
 

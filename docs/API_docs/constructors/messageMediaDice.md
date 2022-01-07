@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaDice  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,12 +15,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|value|[int](../types/int.md) | Yes|[Dice value](https://core.telegram.org/api/dice)|
-|emoticon|[string](../types/string.md) | Yes|The emoji, for now 🏀, 🎲 and 🎯 are supported|
+|value|[int](/API_docs/types/int.md) | Yes|[Dice value](https://core.telegram.org/api/dice)|
+|emoticon|[string](/API_docs/types/string.md) | Yes|The emoji, for now 🏀, 🎲 and 🎯 are supported|
 
 
 
-### Type: [MessageMedia](../types/MessageMedia.md)
+### Type: [MessageMedia](/API_docs/types/MessageMedia.md)
 
 
 ### Example:

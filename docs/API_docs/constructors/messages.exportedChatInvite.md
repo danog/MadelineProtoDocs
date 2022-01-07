@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_exportedChatInvite.html
 ---
 # Constructor: messages.exportedChatInvite  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,12 +14,12 @@ redirect_from: /API_docs/constructors/messages_exportedChatInvite.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|invite|[ExportedChatInvite](../types/ExportedChatInvite.md) | Yes|
-|users|Array of [User](../types/User.md) | Yes|
+|invite|[ExportedChatInvite](/API_docs/types/ExportedChatInvite.md) | Yes|
+|users|Array of [User](/API_docs/types/User.md) | Yes|
 
 
 
-### Type: [messages.ExportedChatInvite](../types/messages.ExportedChatInvite.md)
+### Type: [messages.ExportedChatInvite](/API_docs/types/messages.ExportedChatInvite.md)
 
 
 ### Example:

@@ -17,16 +17,16 @@ Get the admin log of a [channel/supergroup](https://core.telegram.org/api/channe
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Channel | Optional|
-|q|[string](../types/string.md) | Search query, can be empty | Yes|
-|events\_filter|[ChannelAdminLogEventsFilter](../types/ChannelAdminLogEventsFilter.md) | Event filter | Optional|
-|admins|Array of [Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Only show events from these admins | Optional|
-|max\_id|[long](../types/long.md) | Maximum ID of message to return (see [pagination](https://core.telegram.org/api/offsets)) | Yes|
-|min\_id|[long](../types/long.md) | Minimum ID of message to return (see [pagination](https://core.telegram.org/api/offsets)) | Yes|
-|limit|[int](../types/int.md) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | Channel | Optional|
+|q|[string](/API_docs/types/string.md) | Search query, can be empty | Yes|
+|events\_filter|[ChannelAdminLogEventsFilter](/API_docs/types/ChannelAdminLogEventsFilter.md) | Event filter | Optional|
+|admins|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | Only show events from these admins | Optional|
+|max\_id|[long](/API_docs/types/long.md) | Maximum ID of message to return (see [pagination](https://core.telegram.org/api/offsets)) | Yes|
+|min\_id|[long](/API_docs/types/long.md) | Minimum ID of message to return (see [pagination](https://core.telegram.org/api/offsets)) | Yes|
+|limit|[int](/API_docs/types/int.md) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
 
 
-### Return type: [channels.AdminLogResults](../types/channels.AdminLogResults.md)
+### Return type: [channels.AdminLogResults](/API_docs/types/channels.AdminLogResults.md)
 
 ### Can bots use this method: **NO**
 

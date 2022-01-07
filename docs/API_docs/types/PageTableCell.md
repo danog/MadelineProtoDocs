@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[pageTableCell](../constructors/pageTableCell.md)  
+[pageTableCell](/API_docs/constructors/pageTableCell.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[pageTableCell](../constructors/pageTableCell.md)  
+[pageTableCell](/API_docs/constructors/pageTableCell.md)  
 

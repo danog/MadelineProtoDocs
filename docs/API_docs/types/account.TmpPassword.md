@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/account_TmpPassword.html
 
 ### Possible values (constructors):
 
-[account.tmpPassword](../constructors/account.tmpPassword.md)  
+[account.tmpPassword](/API_docs/constructors/account.tmpPassword.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->getTmpPassword](../methods/account.getTmpPassword.md)  
+[$MadelineProto->account->getTmpPassword](/API_docs/methods/account.getTmpPassword.md)  
 
 
 
-[account.tmpPassword](../constructors/account.tmpPassword.md)  
+[account.tmpPassword](/API_docs/constructors/account.tmpPassword.md)  
 
-[$MadelineProto->account->getTmpPassword](../methods/account.getTmpPassword.md)  
+[$MadelineProto->account->getTmpPassword](/API_docs/methods/account.getTmpPassword.md)  
 

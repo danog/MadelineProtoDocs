@@ -17,13 +17,13 @@ Stop getting notifications about [thread replies](https://core.telegram.org/api/
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|delete\_message|[Bool](../types/Bool.md) | Whether to delete the specified message as well | Optional|
-|delete\_history|[Bool](../types/Bool.md) | Whether to delete all `@replies` messages from this user as well | Optional|
-|report\_spam|[Bool](../types/Bool.md) | Whether to also report this user for spam | Optional|
-|msg\_id|[int](../types/int.md) | ID of the message in the [@replies](https://core.telegram.org/api/threads#replies) chat | Yes|
+|delete\_message|[Bool](/API_docs/types/Bool.md) | Whether to delete the specified message as well | Optional|
+|delete\_history|[Bool](/API_docs/types/Bool.md) | Whether to delete all `@replies` messages from this user as well | Optional|
+|report\_spam|[Bool](/API_docs/types/Bool.md) | Whether to also report this user for spam | Optional|
+|msg\_id|[int](/API_docs/types/int.md) | ID of the message in the [@replies](https://core.telegram.org/api/threads#replies) chat | Yes|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

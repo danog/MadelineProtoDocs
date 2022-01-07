@@ -17,12 +17,12 @@ Get theme information
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|format|[string](../types/string.md) | Theme format, a string that identifies the theming engines supported by the client | Yes|
-|theme|[InputTheme](../types/InputTheme.md) | Theme | Yes|
-|document\_id|[long](../types/long.md) | Document ID | Yes|
+|format|[string](/API_docs/types/string.md) | Theme format, a string that identifies the theming engines supported by the client | Yes|
+|theme|[InputTheme](/API_docs/types/InputTheme.md) | Theme | Yes|
+|document\_id|[long](/API_docs/types/long.md) | Document ID | Yes|
 
 
-### Return type: [Theme](../types/Theme.md)
+### Return type: [Theme](/API_docs/types/Theme.md)
 
 ### Can bots use this method: **NO**
 

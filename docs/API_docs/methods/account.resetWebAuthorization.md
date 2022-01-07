@@ -17,10 +17,10 @@ Log out an active web [telegram login](https://core.telegram.org/widgets/login) 
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[long](../types/long.md) | [Session](../constructors/webAuthorization.md) hash | Yes|
+|hash|[long](/API_docs/types/long.md) | [Session](../constructors/webAuthorization.md) hash | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

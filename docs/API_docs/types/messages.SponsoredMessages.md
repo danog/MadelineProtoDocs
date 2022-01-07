@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/messages_SponsoredMessages.html
 
 ### Possible values (constructors):
 
-[messages.sponsoredMessages](../constructors/messages.sponsoredMessages.md)  
+[messages.sponsoredMessages](/API_docs/constructors/messages.sponsoredMessages.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->channels->getSponsoredMessages](../methods/channels.getSponsoredMessages.md)  
+[$MadelineProto->channels->getSponsoredMessages](/API_docs/methods/channels.getSponsoredMessages.md)  
 
 
 
-[messages.sponsoredMessages](../constructors/messages.sponsoredMessages.md)  
+[messages.sponsoredMessages](/API_docs/constructors/messages.sponsoredMessages.md)  
 
-[$MadelineProto->channels->getSponsoredMessages](../methods/channels.getSponsoredMessages.md)  
+[$MadelineProto->channels->getSponsoredMessages](/API_docs/methods/channels.getSponsoredMessages.md)  
 

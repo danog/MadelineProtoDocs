@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[emojiKeyword](../constructors/emojiKeyword.md)  
+[emojiKeyword](/API_docs/constructors/emojiKeyword.md)  
 
-[emojiKeywordDeleted](../constructors/emojiKeywordDeleted.md)  
+[emojiKeywordDeleted](/API_docs/constructors/emojiKeywordDeleted.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[emojiKeyword](../constructors/emojiKeyword.md)  
+[emojiKeyword](/API_docs/constructors/emojiKeyword.md)  
 
-[emojiKeywordDeleted](../constructors/emojiKeywordDeleted.md)  
+[emojiKeywordDeleted](/API_docs/constructors/emojiKeywordDeleted.md)  
 

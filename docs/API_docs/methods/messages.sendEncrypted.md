@@ -17,12 +17,12 @@ Sends a text message to a secret chat.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|silent|[Bool](../types/Bool.md) | Send encrypted message without a notification | Optional|
-|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](../types/InputEncryptedChat.md) | Secret chat ID | Yes|
-|data|[bytes](../types/bytes.md) | TL-serialization of [DecryptedMessage](../types/DecryptedMessage.md) type, encrypted with a key that was created during chat initialization | Yes|
+|silent|[Bool](/API_docs/types/Bool.md) | Send encrypted message without a notification | Optional|
+|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](/API_docs/types/InputEncryptedChat.md) | Secret chat ID | Yes|
+|data|[bytes](/API_docs/types/bytes.md) | TL-serialization of [DecryptedMessage](../types/DecryptedMessage.md) type, encrypted with a key that was created during chat initialization | Yes|
 
 
-### Return type: [messages.SentEncryptedMessage](../types/messages.SentEncryptedMessage.md)
+### Return type: [messages.SentEncryptedMessage](/API_docs/types/messages.SentEncryptedMessage.md)
 
 ### Can bots use this method: **NO**
 

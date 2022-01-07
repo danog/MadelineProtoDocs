@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[importedContact](../constructors/importedContact.md)  
+[importedContact](/API_docs/constructors/importedContact.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[importedContact](../constructors/importedContact.md)  
+[importedContact](/API_docs/constructors/importedContact.md)  
 

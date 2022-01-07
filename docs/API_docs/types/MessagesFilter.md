@@ -11,39 +11,39 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputMessagesFilterEmpty](../constructors/inputMessagesFilterEmpty.md)  
+[inputMessagesFilterEmpty](/API_docs/constructors/inputMessagesFilterEmpty.md)  
 
-[inputMessagesFilterPhotos](../constructors/inputMessagesFilterPhotos.md)  
+[inputMessagesFilterPhotos](/API_docs/constructors/inputMessagesFilterPhotos.md)  
 
-[inputMessagesFilterVideo](../constructors/inputMessagesFilterVideo.md)  
+[inputMessagesFilterVideo](/API_docs/constructors/inputMessagesFilterVideo.md)  
 
-[inputMessagesFilterPhotoVideo](../constructors/inputMessagesFilterPhotoVideo.md)  
+[inputMessagesFilterPhotoVideo](/API_docs/constructors/inputMessagesFilterPhotoVideo.md)  
 
-[inputMessagesFilterDocument](../constructors/inputMessagesFilterDocument.md)  
+[inputMessagesFilterDocument](/API_docs/constructors/inputMessagesFilterDocument.md)  
 
-[inputMessagesFilterUrl](../constructors/inputMessagesFilterUrl.md)  
+[inputMessagesFilterUrl](/API_docs/constructors/inputMessagesFilterUrl.md)  
 
-[inputMessagesFilterGif](../constructors/inputMessagesFilterGif.md)  
+[inputMessagesFilterGif](/API_docs/constructors/inputMessagesFilterGif.md)  
 
-[inputMessagesFilterVoice](../constructors/inputMessagesFilterVoice.md)  
+[inputMessagesFilterVoice](/API_docs/constructors/inputMessagesFilterVoice.md)  
 
-[inputMessagesFilterMusic](../constructors/inputMessagesFilterMusic.md)  
+[inputMessagesFilterMusic](/API_docs/constructors/inputMessagesFilterMusic.md)  
 
-[inputMessagesFilterChatPhotos](../constructors/inputMessagesFilterChatPhotos.md)  
+[inputMessagesFilterChatPhotos](/API_docs/constructors/inputMessagesFilterChatPhotos.md)  
 
-[inputMessagesFilterPhoneCalls](../constructors/inputMessagesFilterPhoneCalls.md)  
+[inputMessagesFilterPhoneCalls](/API_docs/constructors/inputMessagesFilterPhoneCalls.md)  
 
-[inputMessagesFilterRoundVoice](../constructors/inputMessagesFilterRoundVoice.md)  
+[inputMessagesFilterRoundVoice](/API_docs/constructors/inputMessagesFilterRoundVoice.md)  
 
-[inputMessagesFilterRoundVideo](../constructors/inputMessagesFilterRoundVideo.md)  
+[inputMessagesFilterRoundVideo](/API_docs/constructors/inputMessagesFilterRoundVideo.md)  
 
-[inputMessagesFilterMyMentions](../constructors/inputMessagesFilterMyMentions.md)  
+[inputMessagesFilterMyMentions](/API_docs/constructors/inputMessagesFilterMyMentions.md)  
 
-[inputMessagesFilterGeo](../constructors/inputMessagesFilterGeo.md)  
+[inputMessagesFilterGeo](/API_docs/constructors/inputMessagesFilterGeo.md)  
 
-[inputMessagesFilterContacts](../constructors/inputMessagesFilterContacts.md)  
+[inputMessagesFilterContacts](/API_docs/constructors/inputMessagesFilterContacts.md)  
 
-[inputMessagesFilterPinned](../constructors/inputMessagesFilterPinned.md)  
+[inputMessagesFilterPinned](/API_docs/constructors/inputMessagesFilterPinned.md)  
 
 
 
@@ -51,37 +51,37 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputMessagesFilterEmpty](../constructors/inputMessagesFilterEmpty.md)  
+[inputMessagesFilterEmpty](/API_docs/constructors/inputMessagesFilterEmpty.md)  
 
-[inputMessagesFilterPhotos](../constructors/inputMessagesFilterPhotos.md)  
+[inputMessagesFilterPhotos](/API_docs/constructors/inputMessagesFilterPhotos.md)  
 
-[inputMessagesFilterVideo](../constructors/inputMessagesFilterVideo.md)  
+[inputMessagesFilterVideo](/API_docs/constructors/inputMessagesFilterVideo.md)  
 
-[inputMessagesFilterPhotoVideo](../constructors/inputMessagesFilterPhotoVideo.md)  
+[inputMessagesFilterPhotoVideo](/API_docs/constructors/inputMessagesFilterPhotoVideo.md)  
 
-[inputMessagesFilterDocument](../constructors/inputMessagesFilterDocument.md)  
+[inputMessagesFilterDocument](/API_docs/constructors/inputMessagesFilterDocument.md)  
 
-[inputMessagesFilterUrl](../constructors/inputMessagesFilterUrl.md)  
+[inputMessagesFilterUrl](/API_docs/constructors/inputMessagesFilterUrl.md)  
 
-[inputMessagesFilterGif](../constructors/inputMessagesFilterGif.md)  
+[inputMessagesFilterGif](/API_docs/constructors/inputMessagesFilterGif.md)  
 
-[inputMessagesFilterVoice](../constructors/inputMessagesFilterVoice.md)  
+[inputMessagesFilterVoice](/API_docs/constructors/inputMessagesFilterVoice.md)  
 
-[inputMessagesFilterMusic](../constructors/inputMessagesFilterMusic.md)  
+[inputMessagesFilterMusic](/API_docs/constructors/inputMessagesFilterMusic.md)  
 
-[inputMessagesFilterChatPhotos](../constructors/inputMessagesFilterChatPhotos.md)  
+[inputMessagesFilterChatPhotos](/API_docs/constructors/inputMessagesFilterChatPhotos.md)  
 
-[inputMessagesFilterPhoneCalls](../constructors/inputMessagesFilterPhoneCalls.md)  
+[inputMessagesFilterPhoneCalls](/API_docs/constructors/inputMessagesFilterPhoneCalls.md)  
 
-[inputMessagesFilterRoundVoice](../constructors/inputMessagesFilterRoundVoice.md)  
+[inputMessagesFilterRoundVoice](/API_docs/constructors/inputMessagesFilterRoundVoice.md)  
 
-[inputMessagesFilterRoundVideo](../constructors/inputMessagesFilterRoundVideo.md)  
+[inputMessagesFilterRoundVideo](/API_docs/constructors/inputMessagesFilterRoundVideo.md)  
 
-[inputMessagesFilterMyMentions](../constructors/inputMessagesFilterMyMentions.md)  
+[inputMessagesFilterMyMentions](/API_docs/constructors/inputMessagesFilterMyMentions.md)  
 
-[inputMessagesFilterGeo](../constructors/inputMessagesFilterGeo.md)  
+[inputMessagesFilterGeo](/API_docs/constructors/inputMessagesFilterGeo.md)  
 
-[inputMessagesFilterContacts](../constructors/inputMessagesFilterContacts.md)  
+[inputMessagesFilterContacts](/API_docs/constructors/inputMessagesFilterContacts.md)  
 
-[inputMessagesFilterPinned](../constructors/inputMessagesFilterPinned.md)  
+[inputMessagesFilterPinned](/API_docs/constructors/inputMessagesFilterPinned.md)  
 

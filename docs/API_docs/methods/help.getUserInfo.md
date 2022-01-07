@@ -17,10 +17,10 @@ Internal use
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | User ID | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | User ID | Optional|
 
 
-### Return type: [help.UserInfo](../types/help.UserInfo.md)
+### Return type: [help.UserInfo](/API_docs/types/help.UserInfo.md)
 
 ### Can bots use this method: **NO**
 

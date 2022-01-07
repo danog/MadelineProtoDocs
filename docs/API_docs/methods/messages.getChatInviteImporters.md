@@ -15,16 +15,16 @@ redirect_from: /API_docs/methods/messages_getChatInviteImporters.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|requested|[Bool](../types/Bool.md) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|
-|link|[string](../types/string.md) | Optional|
-|q|[string](../types/string.md) | Optional|
-|offset\_date|[int](../types/int.md) | Yes|
-|offset\_user|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | Optional|
-|limit|[int](../types/int.md) | Yes|
+|requested|[Bool](/API_docs/types/Bool.md) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
+|link|[string](/API_docs/types/string.md) | Optional|
+|q|[string](/API_docs/types/string.md) | Optional|
+|offset\_date|[int](/API_docs/types/int.md) | Yes|
+|offset\_user|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | Optional|
+|limit|[int](/API_docs/types/int.md) | Yes|
 
 
-### Return type: [messages.ChatInviteImporters](../types/messages.ChatInviteImporters.md)
+### Return type: [messages.ChatInviteImporters](/API_docs/types/messages.ChatInviteImporters.md)
 
 ### Can bots use this method: **NO**
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagesFilterPhoneCalls  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Return only phone calls
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|missed|[Bool](../types/Bool.md) | Optional|Return only missed phone calls|
+|missed|[Bool](/API_docs/types/Bool.md) | Optional|Return only missed phone calls|
 
 
 
-### Type: [MessagesFilter](../types/MessagesFilter.md)
+### Type: [MessagesFilter](/API_docs/types/MessagesFilter.md)
 
 
 ### Example:

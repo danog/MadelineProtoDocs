@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputCheckPasswordEmpty](../constructors/inputCheckPasswordEmpty.md)  
+[inputCheckPasswordEmpty](/API_docs/constructors/inputCheckPasswordEmpty.md)  
 
-[inputCheckPasswordSRP](../constructors/inputCheckPasswordSRP.md)  
+[inputCheckPasswordSRP](/API_docs/constructors/inputCheckPasswordSRP.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputCheckPasswordEmpty](../constructors/inputCheckPasswordEmpty.md)  
+[inputCheckPasswordEmpty](/API_docs/constructors/inputCheckPasswordEmpty.md)  
 
-[inputCheckPasswordSRP](../constructors/inputCheckPasswordSRP.md)  
+[inputCheckPasswordSRP](/API_docs/constructors/inputCheckPasswordSRP.md)  
 

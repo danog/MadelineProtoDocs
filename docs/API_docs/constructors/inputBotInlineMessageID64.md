@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputBotInlineMessageID64  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -13,14 +13,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|dc\_id|[int](../types/int.md) | Yes|
-|owner\_id|[long](../types/long.md) | Yes|
-|id|[int](../types/int.md) | Yes|
-|access\_hash|[long](../types/long.md) | Yes|
+|dc\_id|[int](/API_docs/types/int.md) | Yes|
+|owner\_id|[long](/API_docs/types/long.md) | Yes|
+|id|[int](/API_docs/types/int.md) | Yes|
+|access\_hash|[long](/API_docs/types/long.md) | Yes|
 
 
 
-### Type: [InputBotInlineMessageID](../types/InputBotInlineMessageID.md)
+### Type: [InputBotInlineMessageID](/API_docs/types/InputBotInlineMessageID.md)
 
 
 ### Example:

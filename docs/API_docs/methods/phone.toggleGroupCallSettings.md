@@ -15,12 +15,12 @@ redirect_from: /API_docs/methods/phone_toggleGroupCallSettings.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|reset\_invite\_hash|[Bool](../types/Bool.md) | Optional|
-|call|[InputGroupCall](../types/InputGroupCall.md) | Yes|
-|join\_muted|[Bool](../types/Bool.md) | Optional|
+|reset\_invite\_hash|[Bool](/API_docs/types/Bool.md) | Optional|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.md) | Yes|
+|join\_muted|[Bool](/API_docs/types/Bool.md) | Optional|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

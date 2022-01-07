@@ -12,21 +12,21 @@ redirect_from: /API_docs/types/messages_Stickers.html
 
 ### Possible values (constructors):
 
-[messages.stickersNotModified](../constructors/messages.stickersNotModified.md)  
+[messages.stickersNotModified](/API_docs/constructors/messages.stickersNotModified.md)  
 
-[messages.stickers](../constructors/messages.stickers.md)  
+[messages.stickers](/API_docs/constructors/messages.stickers.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getStickers](../methods/messages.getStickers.md)  
+[$MadelineProto->messages->getStickers](/API_docs/methods/messages.getStickers.md)  
 
 
 
-[messages.stickersNotModified](../constructors/messages.stickersNotModified.md)  
+[messages.stickersNotModified](/API_docs/constructors/messages.stickersNotModified.md)  
 
-[messages.stickers](../constructors/messages.stickers.md)  
+[messages.stickers](/API_docs/constructors/messages.stickers.md)  
 
-[$MadelineProto->messages->getStickers](../methods/messages.getStickers.md)  
+[$MadelineProto->messages->getStickers](/API_docs/methods/messages.getStickers.md)  
 

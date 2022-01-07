@@ -17,12 +17,12 @@ Returns a Telegram Passport authorization form for sharing data with a service
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|bot\_id|[long](../types/long.md) |  | Yes|
-|scope|[string](../types/string.md) | Telegram Passport element types requested by the service | Yes|
-|public\_key|[string](../types/string.md) | Service's public key | Yes|
+|bot\_id|[long](/API_docs/types/long.md) |  | Yes|
+|scope|[string](/API_docs/types/string.md) | Telegram Passport element types requested by the service | Yes|
+|public\_key|[string](/API_docs/types/string.md) | Service's public key | Yes|
 
 
-### Return type: [account.AuthorizationForm](../types/account.AuthorizationForm.md)
+### Return type: [account.AuthorizationForm](/API_docs/types/account.AuthorizationForm.md)
 
 ### Can bots use this method: **NO**
 

@@ -17,11 +17,11 @@ Edit the description of a [group/supergroup/channel](https://core.telegram.org/a
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The [group/supergroup/channel](https://core.telegram.org/api/channel). | Optional|
-|about|[string](../types/string.md) | The new description | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | The [group/supergroup/channel](https://core.telegram.org/api/channel). | Optional|
+|about|[string](/API_docs/types/string.md) | The new description | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **YES**
 

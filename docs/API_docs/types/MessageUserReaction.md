@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[messageUserReaction](../constructors/messageUserReaction.md)  
+[messageUserReaction](/API_docs/constructors/messageUserReaction.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[messageUserReaction](../constructors/messageUserReaction.md)  
+[messageUserReaction](/API_docs/constructors/messageUserReaction.md)  
 

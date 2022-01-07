@@ -17,10 +17,10 @@ Get a list of [channels/supergroups](https://core.telegram.org/api/channel) we l
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|offset|[int](../types/int.md) | Offset for [pagination](https://core.telegram.org/api/offsets) | Yes|
+|offset|[int](/API_docs/types/int.md) | Offset for [pagination](https://core.telegram.org/api/offsets) | Yes|
 
 
-### Return type: [messages.Chats](../types/messages.Chats.md)
+### Return type: [messages.Chats](/API_docs/types/messages.Chats.md)
 
 ### Can bots use this method: **NO**
 

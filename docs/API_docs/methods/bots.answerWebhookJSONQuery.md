@@ -17,11 +17,11 @@ Answers a custom query; for bots only
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|query\_id|[long](../types/long.md) | Identifier of a custom query | Yes|
-|data|[DataJSON](../types/DataJSON.md) | JSON-serialized answer to the query | Yes|
+|query\_id|[long](/API_docs/types/long.md) | Identifier of a custom query | Yes|
+|data|[DataJSON](/API_docs/types/DataJSON.md) | JSON-serialized answer to the query | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **YES**
 

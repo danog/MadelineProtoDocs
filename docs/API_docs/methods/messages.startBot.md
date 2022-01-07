@@ -17,12 +17,12 @@ Start a conversation with a bot using a [deep linking parameter](https://core.te
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|bot|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The bot | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The chat where to start the bot, can be the bot's private chat or a group | Optional|
-|start\_param|[string](../types/string.md) | [Deep linking parameter](https://core.telegram.org/bots#deep-linking) | Yes|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | The bot | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | The chat where to start the bot, can be the bot's private chat or a group | Optional|
+|start\_param|[string](/API_docs/types/string.md) | [Deep linking parameter](https://core.telegram.org/bots#deep-linking) | Yes|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

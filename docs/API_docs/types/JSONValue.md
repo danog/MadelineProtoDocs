@@ -11,37 +11,37 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[jsonNull](../constructors/jsonNull.md)  
+[jsonNull](/API_docs/constructors/jsonNull.md)  
 
-[jsonBool](../constructors/jsonBool.md)  
+[jsonBool](/API_docs/constructors/jsonBool.md)  
 
-[jsonNumber](../constructors/jsonNumber.md)  
+[jsonNumber](/API_docs/constructors/jsonNumber.md)  
 
-[jsonString](../constructors/jsonString.md)  
+[jsonString](/API_docs/constructors/jsonString.md)  
 
-[jsonArray](../constructors/jsonArray.md)  
+[jsonArray](/API_docs/constructors/jsonArray.md)  
 
-[jsonObject](../constructors/jsonObject.md)  
+[jsonObject](/API_docs/constructors/jsonObject.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->help->getAppConfig](../methods/help.getAppConfig.md)  
+[$MadelineProto->help->getAppConfig](/API_docs/methods/help.getAppConfig.md)  
 
 
 
-[jsonNull](../constructors/jsonNull.md)  
+[jsonNull](/API_docs/constructors/jsonNull.md)  
 
-[jsonBool](../constructors/jsonBool.md)  
+[jsonBool](/API_docs/constructors/jsonBool.md)  
 
-[jsonNumber](../constructors/jsonNumber.md)  
+[jsonNumber](/API_docs/constructors/jsonNumber.md)  
 
-[jsonString](../constructors/jsonString.md)  
+[jsonString](/API_docs/constructors/jsonString.md)  
 
-[jsonArray](../constructors/jsonArray.md)  
+[jsonArray](/API_docs/constructors/jsonArray.md)  
 
-[jsonObject](../constructors/jsonObject.md)  
+[jsonObject](/API_docs/constructors/jsonObject.md)  
 
-[$MadelineProto->help->getAppConfig](../methods/help.getAppConfig.md)  
+[$MadelineProto->help->getAppConfig](/API_docs/methods/help.getAppConfig.md)  
 

@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/messages_ExportedChatInvites.html
 
 ### Possible values (constructors):
 
-[messages.exportedChatInvites](../constructors/messages.exportedChatInvites.md)  
+[messages.exportedChatInvites](/API_docs/constructors/messages.exportedChatInvites.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getExportedChatInvites](../methods/messages.getExportedChatInvites.md)  
+[$MadelineProto->messages->getExportedChatInvites](/API_docs/methods/messages.getExportedChatInvites.md)  
 
 
 
-[messages.exportedChatInvites](../constructors/messages.exportedChatInvites.md)  
+[messages.exportedChatInvites](/API_docs/constructors/messages.exportedChatInvites.md)  
 
-[$MadelineProto->messages->getExportedChatInvites](../methods/messages.getExportedChatInvites.md)  
+[$MadelineProto->messages->getExportedChatInvites](/API_docs/methods/messages.getExportedChatInvites.md)  
 

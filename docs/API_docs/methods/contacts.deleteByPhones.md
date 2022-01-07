@@ -17,10 +17,10 @@ Delete contacts by phone number
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phones|Array of [string](../types/string.md) | Phone numbers | Yes|
+|phones|Array of [string](/API_docs/types/string.md) | Phone numbers | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

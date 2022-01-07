@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: nearestDc  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,13 +15,13 @@ Nearest data centre, according to geo-ip.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|country|[string](../types/string.md) | Yes|Country code determined by geo-ip|
-|this\_dc|[int](../types/int.md) | Yes|Number of current data centre|
-|nearest\_dc|[int](../types/int.md) | Yes|Number of nearest data centre|
+|country|[string](/API_docs/types/string.md) | Yes|Country code determined by geo-ip|
+|this\_dc|[int](/API_docs/types/int.md) | Yes|Number of current data centre|
+|nearest\_dc|[int](/API_docs/types/int.md) | Yes|Number of nearest data centre|
 
 
 
-### Type: [NearestDc](../types/NearestDc.md)
+### Type: [NearestDc](/API_docs/types/NearestDc.md)
 
 
 ### Example:

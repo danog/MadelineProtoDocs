@@ -17,13 +17,13 @@ You cannot use this method directly, use the completeSignup method instead (see 
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](../types/string.md) | Phone number in the international format | Yes|
-|phone\_code\_hash|[string](../types/string.md) | SMS-message ID | Yes|
-|first\_name|[string](../types/string.md) | New user first name | Yes|
-|last\_name|[string](../types/string.md) | New user last name | Yes|
+|phone\_number|[string](/API_docs/types/string.md) | Phone number in the international format | Yes|
+|phone\_code\_hash|[string](/API_docs/types/string.md) | SMS-message ID | Yes|
+|first\_name|[string](/API_docs/types/string.md) | New user first name | Yes|
+|last\_name|[string](/API_docs/types/string.md) | New user last name | Yes|
 
 
-### Return type: [auth.Authorization](../types/auth.Authorization.md)
+### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.md)
 
 ### Can bots use this method: **NO**
 

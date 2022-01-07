@@ -12,25 +12,25 @@ redirect_from: /API_docs/types/contacts_TopPeers.html
 
 ### Possible values (constructors):
 
-[contacts.topPeersNotModified](../constructors/contacts.topPeersNotModified.md)  
+[contacts.topPeersNotModified](/API_docs/constructors/contacts.topPeersNotModified.md)  
 
-[contacts.topPeers](../constructors/contacts.topPeers.md)  
+[contacts.topPeers](/API_docs/constructors/contacts.topPeers.md)  
 
-[contacts.topPeersDisabled](../constructors/contacts.topPeersDisabled.md)  
+[contacts.topPeersDisabled](/API_docs/constructors/contacts.topPeersDisabled.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->contacts->getTopPeers](../methods/contacts.getTopPeers.md)  
+[$MadelineProto->contacts->getTopPeers](/API_docs/methods/contacts.getTopPeers.md)  
 
 
 
-[contacts.topPeersNotModified](../constructors/contacts.topPeersNotModified.md)  
+[contacts.topPeersNotModified](/API_docs/constructors/contacts.topPeersNotModified.md)  
 
-[contacts.topPeers](../constructors/contacts.topPeers.md)  
+[contacts.topPeers](/API_docs/constructors/contacts.topPeers.md)  
 
-[contacts.topPeersDisabled](../constructors/contacts.topPeersDisabled.md)  
+[contacts.topPeersDisabled](/API_docs/constructors/contacts.topPeersDisabled.md)  
 
-[$MadelineProto->contacts->getTopPeers](../methods/contacts.getTopPeers.md)  
+[$MadelineProto->contacts->getTopPeers](/API_docs/methods/contacts.getTopPeers.md)  
 

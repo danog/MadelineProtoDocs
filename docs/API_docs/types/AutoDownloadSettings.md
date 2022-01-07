@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[autoDownloadSettings](../constructors/autoDownloadSettings.md)  
+[autoDownloadSettings](/API_docs/constructors/autoDownloadSettings.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[autoDownloadSettings](../constructors/autoDownloadSettings.md)  
+[autoDownloadSettings](/API_docs/constructors/autoDownloadSettings.md)  
 

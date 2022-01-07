@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/contacts_topPeersNotModified.html
 ---
 # Constructor: contacts.topPeersNotModified  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,7 +15,7 @@ Top peer info hasn't changed
 
 
 
-### Type: [contacts.TopPeers](../types/contacts.TopPeers.md)
+### Type: [contacts.TopPeers](/API_docs/types/contacts.TopPeers.md)
 
 
 ### Example:

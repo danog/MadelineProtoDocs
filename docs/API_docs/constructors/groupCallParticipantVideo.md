@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: groupCallParticipantVideo  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -13,14 +13,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|paused|[Bool](../types/Bool.md) | Optional|
-|endpoint|[string](../types/string.md) | Yes|
-|source\_groups|Array of [GroupCallParticipantVideoSourceGroup](../types/GroupCallParticipantVideoSourceGroup.md) | Yes|
-|audio\_source|[int](../types/int.md) | Optional|
+|paused|[Bool](/API_docs/types/Bool.md) | Optional|
+|endpoint|[string](/API_docs/types/string.md) | Yes|
+|source\_groups|Array of [GroupCallParticipantVideoSourceGroup](/API_docs/types/GroupCallParticipantVideoSourceGroup.md) | Yes|
+|audio\_source|[int](/API_docs/types/int.md) | Optional|
 
 
 
-### Type: [GroupCallParticipantVideo](../types/GroupCallParticipantVideo.md)
+### Type: [GroupCallParticipantVideo](/API_docs/types/GroupCallParticipantVideo.md)
 
 
 ### Example:

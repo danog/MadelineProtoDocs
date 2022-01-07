@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/updates_State.html
 
 ### Possible values (constructors):
 
-[updates.state](../constructors/updates.state.md)  
+[updates.state](/API_docs/constructors/updates.state.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->updates->getState](../methods/updates.getState.md)  
+[$MadelineProto->updates->getState](/API_docs/methods/updates.getState.md)  
 
 
 
-[updates.state](../constructors/updates.state.md)  
+[updates.state](/API_docs/constructors/updates.state.md)  
 
-[$MadelineProto->updates->getState](../methods/updates.getState.md)  
+[$MadelineProto->updates->getState](/API_docs/methods/updates.getState.md)  
 

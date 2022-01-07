@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: securePasswordKdfAlgoSHA512  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ SHA512 KDF algo
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|salt|[bytes](../types/bytes.md) | Yes|Salt|
+|salt|[bytes](/API_docs/types/bytes.md) | Yes|Salt|
 
 
 
-### Type: [SecurePasswordKdfAlgo](../types/SecurePasswordKdfAlgo.md)
+### Type: [SecurePasswordKdfAlgo](/API_docs/types/SecurePasswordKdfAlgo.md)
 
 
 ### Example:

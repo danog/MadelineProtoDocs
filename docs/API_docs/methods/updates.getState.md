@@ -15,7 +15,7 @@ You cannot use this method directly, see https://docs.madelineproto.xyz for more
 
 
 
-### Return type: [updates.State](../types/updates.State.md)
+### Return type: [updates.State](/API_docs/types/updates.State.md)
 
 ### Can bots use this method: **YES**
 

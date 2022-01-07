@@ -34,33 +34,33 @@ A [Chat](Chat.md), a [User](User.md), an [InputPeer](InputPeer.md), an [InputDia
 
 ### Possible values (constructors):
 
-[userEmpty](../constructors/userEmpty.md)  
+[userEmpty](/API_docs/constructors/userEmpty.md)  
 
-[user](../constructors/user.md)  
+[user](/API_docs/constructors/user.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->updateProfile](../methods/account.updateProfile.md)  
+[$MadelineProto->account->updateProfile](/API_docs/methods/account.updateProfile.md)  
 
-[$MadelineProto->account->updateUsername](../methods/account.updateUsername.md)  
+[$MadelineProto->account->updateUsername](/API_docs/methods/account.updateUsername.md)  
 
-[$MadelineProto->account->changePhone](../methods/account.changePhone.md)  
+[$MadelineProto->account->changePhone](/API_docs/methods/account.changePhone.md)  
 
-[$MadelineProto->users->getUsers](../methods/users.getUsers.md)  
+[$MadelineProto->users->getUsers](/API_docs/methods/users.getUsers.md)  
 
 
 
-[userEmpty](../constructors/userEmpty.md)  
+[userEmpty](/API_docs/constructors/userEmpty.md)  
 
-[user](../constructors/user.md)  
+[user](/API_docs/constructors/user.md)  
 
-[$MadelineProto->account->updateProfile](../methods/account.updateProfile.md)  
+[$MadelineProto->account->updateProfile](/API_docs/methods/account.updateProfile.md)  
 
-[$MadelineProto->account->updateUsername](../methods/account.updateUsername.md)  
+[$MadelineProto->account->updateUsername](/API_docs/methods/account.updateUsername.md)  
 
-[$MadelineProto->account->changePhone](../methods/account.changePhone.md)  
+[$MadelineProto->account->changePhone](/API_docs/methods/account.changePhone.md)  
 
-[$MadelineProto->users->getUsers](../methods/users.getUsers.md)  
+[$MadelineProto->users->getUsers](/API_docs/methods/users.getUsers.md)  
 

@@ -12,21 +12,21 @@ redirect_from: /API_docs/types/photos_Photos.html
 
 ### Possible values (constructors):
 
-[photos.photos](../constructors/photos.photos.md)  
+[photos.photos](/API_docs/constructors/photos.photos.md)  
 
-[photos.photosSlice](../constructors/photos.photosSlice.md)  
+[photos.photosSlice](/API_docs/constructors/photos.photosSlice.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->photos->getUserPhotos](../methods/photos.getUserPhotos.md)  
+[$MadelineProto->photos->getUserPhotos](/API_docs/methods/photos.getUserPhotos.md)  
 
 
 
-[photos.photos](../constructors/photos.photos.md)  
+[photos.photos](/API_docs/constructors/photos.photos.md)  
 
-[photos.photosSlice](../constructors/photos.photosSlice.md)  
+[photos.photosSlice](/API_docs/constructors/photos.photosSlice.md)  
 
-[$MadelineProto->photos->getUserPhotos](../methods/photos.getUserPhotos.md)  
+[$MadelineProto->photos->getUserPhotos](/API_docs/methods/photos.getUserPhotos.md)  
 

@@ -17,14 +17,14 @@ Set the callback answer to a user button press (bots only)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|alert|[Bool](../types/Bool.md) | Whether to show the message as a popup instead of a toast notification | Optional|
-|query\_id|[long](../types/long.md) | Query ID | Yes|
-|message|[string](../types/string.md) | Popup to show | Optional|
-|url|[string](../types/string.md) | URL to open | Optional|
-|cache\_time|[int](../types/int.md) | Cache validity | Yes|
+|alert|[Bool](/API_docs/types/Bool.md) | Whether to show the message as a popup instead of a toast notification | Optional|
+|query\_id|[long](/API_docs/types/long.md) | Query ID | Yes|
+|message|[string](/API_docs/types/string.md) | Popup to show | Optional|
+|url|[string](/API_docs/types/string.md) | URL to open | Optional|
+|cache\_time|[int](/API_docs/types/int.md) | Cache validity | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **YES**
 

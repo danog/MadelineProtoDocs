@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/auth_sentCode.html
 ---
 # Constructor: auth.sentCode  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,14 +16,14 @@ Contains info about a sent verification code.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|type|[auth.SentCodeType](../constructors/auth.SentCodeType.md) | Yes|Phone code type|
-|phone\_code\_hash|[string](../types/string.md) | Yes|Phone code hash, to be stored and later re-used with [auth.signIn](../methods/auth.signIn.md)|
-|next\_type|[auth.CodeType](../constructors/auth.CodeType.md) | Optional|Phone code type that will be sent next, if the phone code is not received within `timeout` seconds: to send it use [auth.resendCode](../methods/auth.resendCode.md)|
-|timeout|[int](../types/int.md) | Optional|Timeout for reception of the phone code|
+|type|[auth.SentCodeType](/API_docs/constructors/auth.SentCodeType.md) | Yes|Phone code type|
+|phone\_code\_hash|[string](/API_docs/types/string.md) | Yes|Phone code hash, to be stored and later re-used with [auth.signIn](../methods/auth.signIn.md)|
+|next\_type|[auth.CodeType](/API_docs/constructors/auth.CodeType.md) | Optional|Phone code type that will be sent next, if the phone code is not received within `timeout` seconds: to send it use [auth.resendCode](../methods/auth.resendCode.md)|
+|timeout|[int](/API_docs/types/int.md) | Optional|Timeout for reception of the phone code|
 
 
 
-### Type: [auth.SentCode](../types/auth.SentCode.md)
+### Type: [auth.SentCode](/API_docs/types/auth.SentCode.md)
 
 
 ### Example:

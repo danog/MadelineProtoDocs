@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userStatusEmpty  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -14,7 +14,7 @@ User status has not been set yet.
 
 
 
-### Type: [UserStatus](../types/UserStatus.md)
+### Type: [UserStatus](/API_docs/types/UserStatus.md)
 
 
 ### Example:

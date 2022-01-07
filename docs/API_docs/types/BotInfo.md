@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[botInfo](../constructors/botInfo.md)  
+[botInfo](/API_docs/constructors/botInfo.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[botInfo](../constructors/botInfo.md)  
+[botInfo](/API_docs/constructors/botInfo.md)  
 

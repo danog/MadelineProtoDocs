@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_inviteText.html
 ---
 # Constructor: help.inviteText  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,11 +16,11 @@ Text of a text message with an invitation to install Telegram.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|message|[string](../types/string.md) | Yes|Text of the message|
+|message|[string](/API_docs/types/string.md) | Yes|Text of the message|
 
 
 
-### Type: [help.InviteText](../types/help.InviteText.md)
+### Type: [help.InviteText](/API_docs/types/help.InviteText.md)
 
 
 ### Example:

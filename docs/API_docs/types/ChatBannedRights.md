@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[chatBannedRights](../constructors/chatBannedRights.md)  
+[chatBannedRights](/API_docs/constructors/chatBannedRights.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[chatBannedRights](../constructors/chatBannedRights.md)  
+[chatBannedRights](/API_docs/constructors/chatBannedRights.md)  
 

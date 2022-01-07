@@ -12,33 +12,33 @@ redirect_from: /API_docs/types/auth_SentCode.html
 
 ### Possible values (constructors):
 
-[auth.sentCode](../constructors/auth.sentCode.md)  
+[auth.sentCode](/API_docs/constructors/auth.sentCode.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->auth->sendCode](../methods/auth.sendCode.md)  
+[$MadelineProto->auth->sendCode](/API_docs/methods/auth.sendCode.md)  
 
-[$MadelineProto->auth->resendCode](../methods/auth.resendCode.md)  
+[$MadelineProto->auth->resendCode](/API_docs/methods/auth.resendCode.md)  
 
-[$MadelineProto->account->sendChangePhoneCode](../methods/account.sendChangePhoneCode.md)  
+[$MadelineProto->account->sendChangePhoneCode](/API_docs/methods/account.sendChangePhoneCode.md)  
 
-[$MadelineProto->account->sendConfirmPhoneCode](../methods/account.sendConfirmPhoneCode.md)  
+[$MadelineProto->account->sendConfirmPhoneCode](/API_docs/methods/account.sendConfirmPhoneCode.md)  
 
-[$MadelineProto->account->sendVerifyPhoneCode](../methods/account.sendVerifyPhoneCode.md)  
+[$MadelineProto->account->sendVerifyPhoneCode](/API_docs/methods/account.sendVerifyPhoneCode.md)  
 
 
 
-[auth.sentCode](../constructors/auth.sentCode.md)  
+[auth.sentCode](/API_docs/constructors/auth.sentCode.md)  
 
-[$MadelineProto->auth->sendCode](../methods/auth.sendCode.md)  
+[$MadelineProto->auth->sendCode](/API_docs/methods/auth.sendCode.md)  
 
-[$MadelineProto->auth->resendCode](../methods/auth.resendCode.md)  
+[$MadelineProto->auth->resendCode](/API_docs/methods/auth.resendCode.md)  
 
-[$MadelineProto->account->sendChangePhoneCode](../methods/account.sendChangePhoneCode.md)  
+[$MadelineProto->account->sendChangePhoneCode](/API_docs/methods/account.sendChangePhoneCode.md)  
 
-[$MadelineProto->account->sendConfirmPhoneCode](../methods/account.sendConfirmPhoneCode.md)  
+[$MadelineProto->account->sendConfirmPhoneCode](/API_docs/methods/account.sendConfirmPhoneCode.md)  
 
-[$MadelineProto->account->sendVerifyPhoneCode](../methods/account.sendVerifyPhoneCode.md)  
+[$MadelineProto->account->sendVerifyPhoneCode](/API_docs/methods/account.sendVerifyPhoneCode.md)  
 

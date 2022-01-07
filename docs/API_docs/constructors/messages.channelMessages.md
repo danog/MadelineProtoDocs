@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_channelMessages.html
 ---
 # Constructor: messages.channelMessages  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,17 +16,17 @@ Channel messages
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|inexact|[Bool](../types/Bool.md) | Optional|If set, returned results may be inexact|
-|pts|[int](../types/int.md) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|
-|count|[int](../types/int.md) | Yes|Total number of results were found server-side (may not be all included here)|
-|offset\_id\_offset|[int](../types/int.md) | Optional|Indicates the absolute position of `messages[0]` within the total result set with count `count`. <br>This is useful, for example, if the result was fetched using `offset_id`, and we need to display a `progress/total` counter (like `photo 134 of 200`, for all media in a chat, we could simply use `photo ${offset_id_offset} of ${count}`.|
-|messages|Array of [Message](../types/Message.md) | Yes|Found messages|
-|chats|Array of [Chat](../types/Chat.md) | Yes|Chats|
-|users|Array of [User](../types/User.md) | Yes|Users|
+|inexact|[Bool](/API_docs/types/Bool.md) | Optional|If set, returned results may be inexact|
+|pts|[int](/API_docs/types/int.md) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|
+|count|[int](/API_docs/types/int.md) | Yes|Total number of results were found server-side (may not be all included here)|
+|offset\_id\_offset|[int](/API_docs/types/int.md) | Optional|Indicates the absolute position of `messages[0]` within the total result set with count `count`. <br>This is useful, for example, if the result was fetched using `offset_id`, and we need to display a `progress/total` counter (like `photo 134 of 200`, for all media in a chat, we could simply use `photo ${offset_id_offset} of ${count}`.|
+|messages|Array of [Message](/API_docs/types/Message.md) | Yes|Found messages|
+|chats|Array of [Chat](/API_docs/types/Chat.md) | Yes|Chats|
+|users|Array of [User](/API_docs/types/User.md) | Yes|Users|
 
 
 
-### Type: [messages.Messages](../types/messages.Messages.md)
+### Type: [messages.Messages](/API_docs/types/messages.Messages.md)
 
 
 ### Example:

@@ -11,49 +11,49 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[sendMessageTypingAction](../constructors/sendMessageTypingAction.md)  
+[sendMessageTypingAction](/API_docs/constructors/sendMessageTypingAction.md)  
 
-[sendMessageCancelAction](../constructors/sendMessageCancelAction.md)  
+[sendMessageCancelAction](/API_docs/constructors/sendMessageCancelAction.md)  
 
-[sendMessageRecordVideoAction](../constructors/sendMessageRecordVideoAction.md)  
+[sendMessageRecordVideoAction](/API_docs/constructors/sendMessageRecordVideoAction.md)  
 
-[sendMessageUploadVideoAction](../constructors/sendMessageUploadVideoAction.md)  
+[sendMessageUploadVideoAction](/API_docs/constructors/sendMessageUploadVideoAction.md)  
 
-[sendMessageRecordAudioAction](../constructors/sendMessageRecordAudioAction.md)  
+[sendMessageRecordAudioAction](/API_docs/constructors/sendMessageRecordAudioAction.md)  
 
-[sendMessageUploadAudioAction](../constructors/sendMessageUploadAudioAction.md)  
+[sendMessageUploadAudioAction](/API_docs/constructors/sendMessageUploadAudioAction.md)  
 
-[sendMessageUploadPhotoAction](../constructors/sendMessageUploadPhotoAction.md)  
+[sendMessageUploadPhotoAction](/API_docs/constructors/sendMessageUploadPhotoAction.md)  
 
-[sendMessageUploadDocumentAction](../constructors/sendMessageUploadDocumentAction.md)  
+[sendMessageUploadDocumentAction](/API_docs/constructors/sendMessageUploadDocumentAction.md)  
 
-[sendMessageGeoLocationAction](../constructors/sendMessageGeoLocationAction.md)  
+[sendMessageGeoLocationAction](/API_docs/constructors/sendMessageGeoLocationAction.md)  
 
-[sendMessageChooseContactAction](../constructors/sendMessageChooseContactAction.md)  
+[sendMessageChooseContactAction](/API_docs/constructors/sendMessageChooseContactAction.md)  
 
-[sendMessageGamePlayAction](../constructors/sendMessageGamePlayAction.md)  
+[sendMessageGamePlayAction](/API_docs/constructors/sendMessageGamePlayAction.md)  
 
-[sendMessageRecordRoundAction](../constructors/sendMessageRecordRoundAction.md)  
+[sendMessageRecordRoundAction](/API_docs/constructors/sendMessageRecordRoundAction.md)  
 
-[sendMessageUploadRoundAction](../constructors/sendMessageUploadRoundAction.md)  
+[sendMessageUploadRoundAction](/API_docs/constructors/sendMessageUploadRoundAction.md)  
 
-[speakingInGroupCallAction](../constructors/speakingInGroupCallAction.md)  
+[speakingInGroupCallAction](/API_docs/constructors/speakingInGroupCallAction.md)  
 
-[sendMessageHistoryImportAction](../constructors/sendMessageHistoryImportAction.md)  
+[sendMessageHistoryImportAction](/API_docs/constructors/sendMessageHistoryImportAction.md)  
 
-[sendMessageChooseStickerAction](../constructors/sendMessageChooseStickerAction.md)  
+[sendMessageChooseStickerAction](/API_docs/constructors/sendMessageChooseStickerAction.md)  
 
-[sendMessageEmojiInteraction](../constructors/sendMessageEmojiInteraction.md)  
+[sendMessageEmojiInteraction](/API_docs/constructors/sendMessageEmojiInteraction.md)  
 
-[sendMessageEmojiInteractionSeen](../constructors/sendMessageEmojiInteractionSeen.md)  
+[sendMessageEmojiInteractionSeen](/API_docs/constructors/sendMessageEmojiInteractionSeen.md)  
 
-[sendMessageUploadVideoAction\_17](../constructors/sendMessageUploadVideoAction_17.md)  
+[sendMessageUploadVideoAction\_17](/API_docs/constructors/sendMessageUploadVideoAction_17.md)  
 
-[sendMessageUploadAudioAction\_17](../constructors/sendMessageUploadAudioAction_17.md)  
+[sendMessageUploadAudioAction\_17](/API_docs/constructors/sendMessageUploadAudioAction_17.md)  
 
-[sendMessageUploadPhotoAction\_17](../constructors/sendMessageUploadPhotoAction_17.md)  
+[sendMessageUploadPhotoAction\_17](/API_docs/constructors/sendMessageUploadPhotoAction_17.md)  
 
-[sendMessageUploadDocumentAction\_17](../constructors/sendMessageUploadDocumentAction_17.md)  
+[sendMessageUploadDocumentAction\_17](/API_docs/constructors/sendMessageUploadDocumentAction_17.md)  
 
 
 
@@ -61,47 +61,47 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[sendMessageTypingAction](../constructors/sendMessageTypingAction.md)  
+[sendMessageTypingAction](/API_docs/constructors/sendMessageTypingAction.md)  
 
-[sendMessageCancelAction](../constructors/sendMessageCancelAction.md)  
+[sendMessageCancelAction](/API_docs/constructors/sendMessageCancelAction.md)  
 
-[sendMessageRecordVideoAction](../constructors/sendMessageRecordVideoAction.md)  
+[sendMessageRecordVideoAction](/API_docs/constructors/sendMessageRecordVideoAction.md)  
 
-[sendMessageUploadVideoAction](../constructors/sendMessageUploadVideoAction.md)  
+[sendMessageUploadVideoAction](/API_docs/constructors/sendMessageUploadVideoAction.md)  
 
-[sendMessageRecordAudioAction](../constructors/sendMessageRecordAudioAction.md)  
+[sendMessageRecordAudioAction](/API_docs/constructors/sendMessageRecordAudioAction.md)  
 
-[sendMessageUploadAudioAction](../constructors/sendMessageUploadAudioAction.md)  
+[sendMessageUploadAudioAction](/API_docs/constructors/sendMessageUploadAudioAction.md)  
 
-[sendMessageUploadPhotoAction](../constructors/sendMessageUploadPhotoAction.md)  
+[sendMessageUploadPhotoAction](/API_docs/constructors/sendMessageUploadPhotoAction.md)  
 
-[sendMessageUploadDocumentAction](../constructors/sendMessageUploadDocumentAction.md)  
+[sendMessageUploadDocumentAction](/API_docs/constructors/sendMessageUploadDocumentAction.md)  
 
-[sendMessageGeoLocationAction](../constructors/sendMessageGeoLocationAction.md)  
+[sendMessageGeoLocationAction](/API_docs/constructors/sendMessageGeoLocationAction.md)  
 
-[sendMessageChooseContactAction](../constructors/sendMessageChooseContactAction.md)  
+[sendMessageChooseContactAction](/API_docs/constructors/sendMessageChooseContactAction.md)  
 
-[sendMessageGamePlayAction](../constructors/sendMessageGamePlayAction.md)  
+[sendMessageGamePlayAction](/API_docs/constructors/sendMessageGamePlayAction.md)  
 
-[sendMessageRecordRoundAction](../constructors/sendMessageRecordRoundAction.md)  
+[sendMessageRecordRoundAction](/API_docs/constructors/sendMessageRecordRoundAction.md)  
 
-[sendMessageUploadRoundAction](../constructors/sendMessageUploadRoundAction.md)  
+[sendMessageUploadRoundAction](/API_docs/constructors/sendMessageUploadRoundAction.md)  
 
-[speakingInGroupCallAction](../constructors/speakingInGroupCallAction.md)  
+[speakingInGroupCallAction](/API_docs/constructors/speakingInGroupCallAction.md)  
 
-[sendMessageHistoryImportAction](../constructors/sendMessageHistoryImportAction.md)  
+[sendMessageHistoryImportAction](/API_docs/constructors/sendMessageHistoryImportAction.md)  
 
-[sendMessageChooseStickerAction](../constructors/sendMessageChooseStickerAction.md)  
+[sendMessageChooseStickerAction](/API_docs/constructors/sendMessageChooseStickerAction.md)  
 
-[sendMessageEmojiInteraction](../constructors/sendMessageEmojiInteraction.md)  
+[sendMessageEmojiInteraction](/API_docs/constructors/sendMessageEmojiInteraction.md)  
 
-[sendMessageEmojiInteractionSeen](../constructors/sendMessageEmojiInteractionSeen.md)  
+[sendMessageEmojiInteractionSeen](/API_docs/constructors/sendMessageEmojiInteractionSeen.md)  
 
-[sendMessageUploadVideoAction\_17](../constructors/sendMessageUploadVideoAction_17.md)  
+[sendMessageUploadVideoAction\_17](/API_docs/constructors/sendMessageUploadVideoAction_17.md)  
 
-[sendMessageUploadAudioAction\_17](../constructors/sendMessageUploadAudioAction_17.md)  
+[sendMessageUploadAudioAction\_17](/API_docs/constructors/sendMessageUploadAudioAction_17.md)  
 
-[sendMessageUploadPhotoAction\_17](../constructors/sendMessageUploadPhotoAction_17.md)  
+[sendMessageUploadPhotoAction\_17](/API_docs/constructors/sendMessageUploadPhotoAction_17.md)  
 
-[sendMessageUploadDocumentAction\_17](../constructors/sendMessageUploadDocumentAction_17.md)  
+[sendMessageUploadDocumentAction\_17](/API_docs/constructors/sendMessageUploadDocumentAction_17.md)  
 

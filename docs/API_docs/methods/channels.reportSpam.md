@@ -17,12 +17,12 @@ Reports some messages from a user in a supergroup as spam; requires administrato
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Supergroup | Optional|
-|participant|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
-|id|Array of [int](../types/int.md) | IDs of spam messages | Yes|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | Supergroup | Optional|
+|participant|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) |  | Optional|
+|id|Array of [int](/API_docs/types/int.md) | IDs of spam messages | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

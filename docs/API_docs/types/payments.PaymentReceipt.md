@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/payments_PaymentReceipt.html
 
 ### Possible values (constructors):
 
-[payments.paymentReceipt](../constructors/payments.paymentReceipt.md)  
+[payments.paymentReceipt](/API_docs/constructors/payments.paymentReceipt.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->payments->getPaymentReceipt](../methods/payments.getPaymentReceipt.md)  
+[$MadelineProto->payments->getPaymentReceipt](/API_docs/methods/payments.getPaymentReceipt.md)  
 
 
 
-[payments.paymentReceipt](../constructors/payments.paymentReceipt.md)  
+[payments.paymentReceipt](/API_docs/constructors/payments.paymentReceipt.md)  
 
-[$MadelineProto->payments->getPaymentReceipt](../methods/payments.getPaymentReceipt.md)  
+[$MadelineProto->payments->getPaymentReceipt](/API_docs/methods/payments.getPaymentReceipt.md)  
 

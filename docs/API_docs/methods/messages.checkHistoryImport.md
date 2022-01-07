@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/messages_checkHistoryImport.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|import\_head|[string](../types/string.md) | Yes|
+|import\_head|[string](/API_docs/types/string.md) | Yes|
 
 
-### Return type: [messages.HistoryImportParsed](../types/messages.HistoryImportParsed.md)
+### Return type: [messages.HistoryImportParsed](/API_docs/types/messages.HistoryImportParsed.md)
 
 ### Can bots use this method: **NO**
 

@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/stats_BroadcastStats.html
 
 ### Possible values (constructors):
 
-[stats.broadcastStats](../constructors/stats.broadcastStats.md)  
+[stats.broadcastStats](/API_docs/constructors/stats.broadcastStats.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->stats->getBroadcastStats](../methods/stats.getBroadcastStats.md)  
+[$MadelineProto->stats->getBroadcastStats](/API_docs/methods/stats.getBroadcastStats.md)  
 
 
 
-[stats.broadcastStats](../constructors/stats.broadcastStats.md)  
+[stats.broadcastStats](/API_docs/constructors/stats.broadcastStats.md)  
 
-[$MadelineProto->stats->getBroadcastStats](../methods/stats.getBroadcastStats.md)  
+[$MadelineProto->stats->getBroadcastStats](/API_docs/methods/stats.getBroadcastStats.md)  
 

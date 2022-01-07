@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[searchResultPosition](../constructors/searchResultPosition.md)  
+[searchResultPosition](/API_docs/constructors/searchResultPosition.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[searchResultPosition](../constructors/searchResultPosition.md)  
+[searchResultPosition](/API_docs/constructors/searchResultPosition.md)  
 

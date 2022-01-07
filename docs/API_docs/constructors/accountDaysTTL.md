@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: accountDaysTTL  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Time to live in days of the current account
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|days|[int](../types/int.md) | Yes|This account will self-destruct in the specified number of days|
+|days|[int](/API_docs/types/int.md) | Yes|This account will self-destruct in the specified number of days|
 
 
 
-### Type: [AccountDaysTTL](../types/AccountDaysTTL.md)
+### Type: [AccountDaysTTL](/API_docs/types/AccountDaysTTL.md)
 
 
 ### Example:

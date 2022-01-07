@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/auth_sentCodeTypeSms.html
 ---
 # Constructor: auth.sentCodeTypeSms  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,11 +16,11 @@ The code was sent via SMS
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|length|[int](../types/int.md) | Yes|Length of the code in bytes|
+|length|[int](/API_docs/types/int.md) | Yes|Length of the code in bytes|
 
 
 
-### Type: [auth.SentCodeType](../types/auth.SentCodeType.md)
+### Type: [auth.SentCodeType](/API_docs/types/auth.SentCodeType.md)
 
 
 ### Example:

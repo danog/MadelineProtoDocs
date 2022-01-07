@@ -11,9 +11,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[botInlineResult](../constructors/botInlineResult.md)  
+[botInlineResult](/API_docs/constructors/botInlineResult.md)  
 
-[botInlineMediaResult](../constructors/botInlineMediaResult.md)  
+[botInlineMediaResult](/API_docs/constructors/botInlineMediaResult.md)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[botInlineResult](../constructors/botInlineResult.md)  
+[botInlineResult](/API_docs/constructors/botInlineResult.md)  
 
-[botInlineMediaResult](../constructors/botInlineMediaResult.md)  
+[botInlineMediaResult](/API_docs/constructors/botInlineMediaResult.md)  
 

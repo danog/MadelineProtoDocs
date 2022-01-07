@@ -17,18 +17,18 @@ Send an [album or grouped media](https://core.telegram.org/api/files#albums-grou
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|silent|[Bool](../types/Bool.md) | Whether to send the album silently (no notification triggered) | Optional|
-|background|[Bool](../types/Bool.md) | Send in background? | Optional|
-|clear\_draft|[Bool](../types/Bool.md) | Whether to clear [drafts](https://core.telegram.org/api/drafts) | Optional|
-|noforwards|[Bool](../types/Bool.md) |  | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The destination chat | Optional|
-|reply\_to\_msg\_id|[int](../types/int.md) | The message to reply to | Optional|
-|multi\_media|Array of [InputSingleMedia](../types/InputSingleMedia.md) | The medias to send | Yes|
-|schedule\_date|[int](../types/int.md) | Scheduled message date for scheduled messages | Optional|
-|send\_as|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
+|silent|[Bool](/API_docs/types/Bool.md) | Whether to send the album silently (no notification triggered) | Optional|
+|background|[Bool](/API_docs/types/Bool.md) | Send in background? | Optional|
+|clear\_draft|[Bool](/API_docs/types/Bool.md) | Whether to clear [drafts](https://core.telegram.org/api/drafts) | Optional|
+|noforwards|[Bool](/API_docs/types/Bool.md) |  | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | The destination chat | Optional|
+|reply\_to\_msg\_id|[int](/API_docs/types/int.md) | The message to reply to | Optional|
+|multi\_media|Array of [InputSingleMedia](/API_docs/types/InputSingleMedia.md) | The medias to send | Yes|
+|schedule\_date|[int](/API_docs/types/int.md) | Scheduled message date for scheduled messages | Optional|
+|send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) |  | Optional|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **YES**
 

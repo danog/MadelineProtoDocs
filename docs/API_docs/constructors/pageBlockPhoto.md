@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockPhoto  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,14 +15,14 @@ A photo
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|photo\_id|[long](../types/long.md) | Yes|Photo ID|
-|caption|[PageCaption](../types/PageCaption.md) | Yes|Caption|
-|url|[string](../types/string.md) | Optional|HTTP URL of page the photo leads to when clicked|
-|webpage\_id|[long](../types/long.md) | Optional|ID of preview of the page the photo leads to when clicked|
+|photo\_id|[long](/API_docs/types/long.md) | Yes|Photo ID|
+|caption|[PageCaption](/API_docs/types/PageCaption.md) | Yes|Caption|
+|url|[string](/API_docs/types/string.md) | Optional|HTTP URL of page the photo leads to when clicked|
+|webpage\_id|[long](/API_docs/types/long.md) | Optional|ID of preview of the page the photo leads to when clicked|
 
 
 
-### Type: [PageBlock](../types/PageBlock.md)
+### Type: [PageBlock](/API_docs/types/PageBlock.md)
 
 
 ### Example:

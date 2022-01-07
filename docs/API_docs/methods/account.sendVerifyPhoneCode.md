@@ -17,11 +17,11 @@ Send the verification phone code for telegram [passport](https://core.telegram.o
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](../types/string.md) | The phone number to verify | Yes|
-|settings|[CodeSettings](../types/CodeSettings.md) | Phone code settings | Yes|
+|phone\_number|[string](/API_docs/types/string.md) | The phone number to verify | Yes|
+|settings|[CodeSettings](/API_docs/types/CodeSettings.md) | Phone code settings | Yes|
 
 
-### Return type: [auth.SentCode](../types/auth.SentCode.md)
+### Return type: [auth.SentCode](/API_docs/types/auth.SentCode.md)
 
 ### Can bots use this method: **NO**
 

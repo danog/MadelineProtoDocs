@@ -15,7 +15,7 @@ Get [folders](https://core.telegram.org/api/folders)
 
 
 
-### Return type: [Vector\_of\_DialogFilter](../types/DialogFilter.md)
+### Return type: [Vector\_of\_DialogFilter](/API_docs/types/DialogFilter.md)
 
 ### Can bots use this method: **NO**
 

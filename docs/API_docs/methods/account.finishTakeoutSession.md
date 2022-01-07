@@ -17,10 +17,10 @@ Finish account takeout session
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|success|[Bool](../types/Bool.md) | Data exported successfully | Optional|
+|success|[Bool](/API_docs/types/Bool.md) | Data exported successfully | Optional|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

@@ -12,21 +12,21 @@ redirect_from: /API_docs/types/messages_PeerDialogs.html
 
 ### Possible values (constructors):
 
-[messages.peerDialogs](../constructors/messages.peerDialogs.md)  
+[messages.peerDialogs](/API_docs/constructors/messages.peerDialogs.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getPeerDialogs](../methods/messages.getPeerDialogs.md)  
+[$MadelineProto->messages->getPeerDialogs](/API_docs/methods/messages.getPeerDialogs.md)  
 
-[$MadelineProto->messages->getPinnedDialogs](../methods/messages.getPinnedDialogs.md)  
+[$MadelineProto->messages->getPinnedDialogs](/API_docs/methods/messages.getPinnedDialogs.md)  
 
 
 
-[messages.peerDialogs](../constructors/messages.peerDialogs.md)  
+[messages.peerDialogs](/API_docs/constructors/messages.peerDialogs.md)  
 
-[$MadelineProto->messages->getPeerDialogs](../methods/messages.getPeerDialogs.md)  
+[$MadelineProto->messages->getPeerDialogs](/API_docs/methods/messages.getPeerDialogs.md)  
 
-[$MadelineProto->messages->getPinnedDialogs](../methods/messages.getPinnedDialogs.md)  
+[$MadelineProto->messages->getPinnedDialogs](/API_docs/methods/messages.getPinnedDialogs.md)  
 

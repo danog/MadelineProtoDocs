@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/help_SupportName.html
 
 ### Possible values (constructors):
 
-[help.supportName](../constructors/help.supportName.md)  
+[help.supportName](/API_docs/constructors/help.supportName.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->help->getSupportName](../methods/help.getSupportName.md)  
+[$MadelineProto->help->getSupportName](/API_docs/methods/help.getSupportName.md)  
 
 
 
-[help.supportName](../constructors/help.supportName.md)  
+[help.supportName](/API_docs/constructors/help.supportName.md)  
 
-[$MadelineProto->help->getSupportName](../methods/help.getSupportName.md)  
+[$MadelineProto->help->getSupportName](/API_docs/methods/help.getSupportName.md)  
 

@@ -11,7 +11,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[inputWebDocument](../constructors/inputWebDocument.md)  
+[inputWebDocument](/API_docs/constructors/inputWebDocument.md)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputWebDocument](../constructors/inputWebDocument.md)  
+[inputWebDocument](/API_docs/constructors/inputWebDocument.md)  
 

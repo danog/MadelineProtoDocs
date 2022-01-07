@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatInviteAlready  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ The user has already joined this chat
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat|[Chat](../types/Chat.md) | Optional|The chat connected to the invite|
+|chat|[Chat](/API_docs/types/Chat.md) | Optional|The chat connected to the invite|
 
 
 
-### Type: [ChatInvite](../types/ChatInvite.md)
+### Type: [ChatInvite](/API_docs/types/ChatInvite.md)
 
 
 ### Example:

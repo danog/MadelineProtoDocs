@@ -17,12 +17,12 @@ Get strings from a language pack
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|lang\_pack|[string](../types/string.md) | Language pack name | Yes|
-|lang\_code|[string](../types/string.md) | Language code | Yes|
-|keys|Array of [string](../types/string.md) | Strings to get | Yes|
+|lang\_pack|[string](/API_docs/types/string.md) | Language pack name | Yes|
+|lang\_code|[string](/API_docs/types/string.md) | Language code | Yes|
+|keys|Array of [string](/API_docs/types/string.md) | Strings to get | Yes|
 
 
-### Return type: [Vector\_of\_LangPackString](../types/LangPackString.md)
+### Return type: [Vector\_of\_LangPackString](/API_docs/types/LangPackString.md)
 
 ### Can bots use this method: **NO**
 

@@ -17,12 +17,12 @@ Search for stickersets
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|exclude\_featured|[Bool](../types/Bool.md) | Exclude featured stickersets from results | Optional|
-|q|[string](../types/string.md) | Query string | Yes|
-|hash|[long](../types/long.md) |  | Yes|
+|exclude\_featured|[Bool](/API_docs/types/Bool.md) | Exclude featured stickersets from results | Optional|
+|q|[string](/API_docs/types/string.md) | Query string | Yes|
+|hash|[long](/API_docs/types/long.md) |  | Yes|
 
 
-### Return type: [messages.FoundStickerSets](../types/messages.FoundStickerSets.md)
+### Return type: [messages.FoundStickerSets](/API_docs/types/messages.FoundStickerSets.md)
 
 ### Can bots use this method: **NO**
 

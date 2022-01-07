@@ -17,11 +17,11 @@ Associate a group to a channel as [discussion group](https://core.telegram.org/a
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|broadcast|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | Channel | Optional|
-|group|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | [Discussion group](https://core.telegram.org/api/discussion) to associate to the channel | Optional|
+|broadcast|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | Channel | Optional|
+|group|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | [Discussion group](https://core.telegram.org/api/discussion) to associate to the channel | Optional|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

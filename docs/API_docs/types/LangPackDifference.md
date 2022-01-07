@@ -11,21 +11,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[langPackDifference](../constructors/langPackDifference.md)  
+[langPackDifference](/API_docs/constructors/langPackDifference.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->langpack->getLangPack](../methods/langpack.getLangPack.md)  
+[$MadelineProto->langpack->getLangPack](/API_docs/methods/langpack.getLangPack.md)  
 
-[$MadelineProto->langpack->getDifference](../methods/langpack.getDifference.md)  
+[$MadelineProto->langpack->getDifference](/API_docs/methods/langpack.getDifference.md)  
 
 
 
-[langPackDifference](../constructors/langPackDifference.md)  
+[langPackDifference](/API_docs/constructors/langPackDifference.md)  
 
-[$MadelineProto->langpack->getLangPack](../methods/langpack.getLangPack.md)  
+[$MadelineProto->langpack->getLangPack](/API_docs/methods/langpack.getLangPack.md)  
 
-[$MadelineProto->langpack->getDifference](../methods/langpack.getDifference.md)  
+[$MadelineProto->langpack->getDifference](/API_docs/methods/langpack.getDifference.md)  
 

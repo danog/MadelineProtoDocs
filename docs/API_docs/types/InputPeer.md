@@ -34,19 +34,19 @@ A [Chat](Chat.md), a [User](User.md), an [InputPeer](InputPeer.md), an [InputDia
 
 ### Possible values (constructors):
 
-[inputPeerEmpty](../constructors/inputPeerEmpty.md)  
+[inputPeerEmpty](/API_docs/constructors/inputPeerEmpty.md)  
 
-[inputPeerSelf](../constructors/inputPeerSelf.md)  
+[inputPeerSelf](/API_docs/constructors/inputPeerSelf.md)  
 
-[inputPeerChat](../constructors/inputPeerChat.md)  
+[inputPeerChat](/API_docs/constructors/inputPeerChat.md)  
 
-[inputPeerUser](../constructors/inputPeerUser.md)  
+[inputPeerUser](/API_docs/constructors/inputPeerUser.md)  
 
-[inputPeerChannel](../constructors/inputPeerChannel.md)  
+[inputPeerChannel](/API_docs/constructors/inputPeerChannel.md)  
 
-[inputPeerUserFromMessage](../constructors/inputPeerUserFromMessage.md)  
+[inputPeerUserFromMessage](/API_docs/constructors/inputPeerUserFromMessage.md)  
 
-[inputPeerChannelFromMessage](../constructors/inputPeerChannelFromMessage.md)  
+[inputPeerChannelFromMessage](/API_docs/constructors/inputPeerChannelFromMessage.md)  
 
 
 
@@ -54,17 +54,17 @@ A [Chat](Chat.md), a [User](User.md), an [InputPeer](InputPeer.md), an [InputDia
 
 
 
-[inputPeerEmpty](../constructors/inputPeerEmpty.md)  
+[inputPeerEmpty](/API_docs/constructors/inputPeerEmpty.md)  
 
-[inputPeerSelf](../constructors/inputPeerSelf.md)  
+[inputPeerSelf](/API_docs/constructors/inputPeerSelf.md)  
 
-[inputPeerChat](../constructors/inputPeerChat.md)  
+[inputPeerChat](/API_docs/constructors/inputPeerChat.md)  
 
-[inputPeerUser](../constructors/inputPeerUser.md)  
+[inputPeerUser](/API_docs/constructors/inputPeerUser.md)  
 
-[inputPeerChannel](../constructors/inputPeerChannel.md)  
+[inputPeerChannel](/API_docs/constructors/inputPeerChannel.md)  
 
-[inputPeerUserFromMessage](../constructors/inputPeerUserFromMessage.md)  
+[inputPeerUserFromMessage](/API_docs/constructors/inputPeerUserFromMessage.md)  
 
-[inputPeerChannelFromMessage](../constructors/inputPeerChannelFromMessage.md)  
+[inputPeerChannelFromMessage](/API_docs/constructors/inputPeerChannelFromMessage.md)  
 

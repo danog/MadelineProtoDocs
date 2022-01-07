@@ -12,29 +12,29 @@ redirect_from: /API_docs/types/messages_SentEncryptedMessage.html
 
 ### Possible values (constructors):
 
-[messages.sentEncryptedMessage](../constructors/messages.sentEncryptedMessage.md)  
+[messages.sentEncryptedMessage](/API_docs/constructors/messages.sentEncryptedMessage.md)  
 
-[messages.sentEncryptedFile](../constructors/messages.sentEncryptedFile.md)  
+[messages.sentEncryptedFile](/API_docs/constructors/messages.sentEncryptedFile.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->sendEncrypted](../methods/messages.sendEncrypted.md)  
+[$MadelineProto->messages->sendEncrypted](/API_docs/methods/messages.sendEncrypted.md)  
 
-[$MadelineProto->messages->sendEncryptedFile](../methods/messages.sendEncryptedFile.md)  
+[$MadelineProto->messages->sendEncryptedFile](/API_docs/methods/messages.sendEncryptedFile.md)  
 
-[$MadelineProto->messages->sendEncryptedService](../methods/messages.sendEncryptedService.md)  
+[$MadelineProto->messages->sendEncryptedService](/API_docs/methods/messages.sendEncryptedService.md)  
 
 
 
-[messages.sentEncryptedMessage](../constructors/messages.sentEncryptedMessage.md)  
+[messages.sentEncryptedMessage](/API_docs/constructors/messages.sentEncryptedMessage.md)  
 
-[messages.sentEncryptedFile](../constructors/messages.sentEncryptedFile.md)  
+[messages.sentEncryptedFile](/API_docs/constructors/messages.sentEncryptedFile.md)  
 
-[$MadelineProto->messages->sendEncrypted](../methods/messages.sendEncrypted.md)  
+[$MadelineProto->messages->sendEncrypted](/API_docs/methods/messages.sendEncrypted.md)  
 
-[$MadelineProto->messages->sendEncryptedFile](../methods/messages.sendEncryptedFile.md)  
+[$MadelineProto->messages->sendEncryptedFile](/API_docs/methods/messages.sendEncryptedFile.md)  
 
-[$MadelineProto->messages->sendEncryptedService](../methods/messages.sendEncryptedService.md)  
+[$MadelineProto->messages->sendEncryptedService](/API_docs/methods/messages.sendEncryptedService.md)  
 

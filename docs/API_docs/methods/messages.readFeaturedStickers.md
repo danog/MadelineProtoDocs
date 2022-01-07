@@ -17,10 +17,10 @@ Mark new featured stickers as read
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|Array of [long](../types/long.md) | IDs of stickersets to mark as read | Yes|
+|id|Array of [long](/API_docs/types/long.md) | IDs of stickersets to mark as read | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

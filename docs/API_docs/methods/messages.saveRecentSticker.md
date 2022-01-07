@@ -17,12 +17,12 @@ Add/remove sticker from recent stickers list
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|attached|[Bool](../types/Bool.md) | Whether to add/remove stickers recently attached to photo or video files | Optional|
-|id|[MessageMedia, Update, Message or InputDocument](../types/InputDocument.md) | Sticker | Optional|
-|unsave|[Bool](../types/Bool.md) | Whether to save or unsave the sticker | Yes|
+|attached|[Bool](/API_docs/types/Bool.md) | Whether to add/remove stickers recently attached to photo or video files | Optional|
+|id|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.md) | Sticker | Optional|
+|unsave|[Bool](/API_docs/types/Bool.md) | Whether to save or unsave the sticker | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

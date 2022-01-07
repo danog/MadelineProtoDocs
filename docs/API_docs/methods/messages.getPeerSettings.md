@@ -17,10 +17,10 @@ Get peer settings
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The peer | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | The peer | Optional|
 
 
-### Return type: [messages.PeerSettings](../types/messages.PeerSettings.md)
+### Return type: [messages.PeerSettings](/API_docs/types/messages.PeerSettings.md)
 
 ### Can bots use this method: **NO**
 

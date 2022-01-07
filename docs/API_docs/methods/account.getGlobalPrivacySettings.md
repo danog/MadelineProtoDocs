@@ -15,7 +15,7 @@ Get global privacy settings
 
 
 
-### Return type: [GlobalPrivacySettings](../types/GlobalPrivacySettings.md)
+### Return type: [GlobalPrivacySettings](/API_docs/types/GlobalPrivacySettings.md)
 
 ### Can bots use this method: **NO**
 

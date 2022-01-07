@@ -17,12 +17,12 @@ Edit location of geogroup
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | [Geogroup](https://core.telegram.org/api/channel) | Optional|
-|geo\_point|[InputGeoPoint](../types/InputGeoPoint.md) | New geolocation | Optional|
-|address|[string](../types/string.md) | Address string | Yes|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | [Geogroup](https://core.telegram.org/api/channel) | Optional|
+|geo\_point|[InputGeoPoint](/API_docs/types/InputGeoPoint.md) | New geolocation | Optional|
+|address|[string](/API_docs/types/string.md) | Address string | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

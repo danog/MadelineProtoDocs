@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPeerPhotoFileLocation  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,13 +15,13 @@ Location of profile photo of channel/group/supergroup/user
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|big|[Bool](../types/Bool.md) | Optional|Whether to download the high-quality version of the picture|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Optional|The peer whose profile picture should be downloaded|
-|photo\_id|[long](../types/long.md) | Yes|
+|big|[Bool](/API_docs/types/Bool.md) | Optional|Whether to download the high-quality version of the picture|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|The peer whose profile picture should be downloaded|
+|photo\_id|[long](/API_docs/types/long.md) | Yes|
 
 
 
-### Type: [InputFileLocation](../types/InputFileLocation.md)
+### Type: [InputFileLocation](/API_docs/types/InputFileLocation.md)
 
 
 ### Example:

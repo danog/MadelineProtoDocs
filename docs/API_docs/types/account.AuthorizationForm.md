@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/account_AuthorizationForm.html
 
 ### Possible values (constructors):
 
-[account.authorizationForm](../constructors/account.authorizationForm.md)  
+[account.authorizationForm](/API_docs/constructors/account.authorizationForm.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->getAuthorizationForm](../methods/account.getAuthorizationForm.md)  
+[$MadelineProto->account->getAuthorizationForm](/API_docs/methods/account.getAuthorizationForm.md)  
 
 
 
-[account.authorizationForm](../constructors/account.authorizationForm.md)  
+[account.authorizationForm](/API_docs/constructors/account.authorizationForm.md)  
 
-[$MadelineProto->account->getAuthorizationForm](../methods/account.getAuthorizationForm.md)  
+[$MadelineProto->account->getAuthorizationForm](/API_docs/methods/account.getAuthorizationForm.md)  
 

@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/messages_InactiveChats.html
 
 ### Possible values (constructors):
 
-[messages.inactiveChats](../constructors/messages.inactiveChats.md)  
+[messages.inactiveChats](/API_docs/constructors/messages.inactiveChats.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->channels->getInactiveChannels](../methods/channels.getInactiveChannels.md)  
+[$MadelineProto->channels->getInactiveChannels](/API_docs/methods/channels.getInactiveChannels.md)  
 
 
 
-[messages.inactiveChats](../constructors/messages.inactiveChats.md)  
+[messages.inactiveChats](/API_docs/constructors/messages.inactiveChats.md)  
 
-[$MadelineProto->channels->getInactiveChannels](../methods/channels.getInactiveChannels.md)  
+[$MadelineProto->channels->getInactiveChannels](/API_docs/methods/channels.getInactiveChannels.md)  
 

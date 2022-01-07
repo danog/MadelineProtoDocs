@@ -11,17 +11,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[messageRange](../constructors/messageRange.md)  
+[messageRange](/API_docs/constructors/messageRange.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getSplitRanges](../methods/messages.getSplitRanges.md)  
+[$MadelineProto->messages->getSplitRanges](/API_docs/methods/messages.getSplitRanges.md)  
 
 
 
-[messageRange](../constructors/messageRange.md)  
+[messageRange](/API_docs/constructors/messageRange.md)  
 
-[$MadelineProto->messages->getSplitRanges](../methods/messages.getSplitRanges.md)  
+[$MadelineProto->messages->getSplitRanges](/API_docs/methods/messages.getSplitRanges.md)  
 

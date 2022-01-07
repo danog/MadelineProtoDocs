@@ -17,10 +17,10 @@ redirect_from: /API_docs/methods/messages_unpinAllMessages.html
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | Chat where to unpin | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Chat where to unpin | Optional|
 
 
-### Return type: [messages.AffectedHistory](../types/messages.AffectedHistory.md)
+### Return type: [messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.md)
 
 ### Can bots use this method: **YES**
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: keyboardButtonRow  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Inline keyboard row
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|buttons|Array of [KeyboardButton](../types/KeyboardButton.md) | Yes|Bot or inline keyboard buttons|
+|buttons|Array of [KeyboardButton](/API_docs/types/KeyboardButton.md) | Yes|Bot or inline keyboard buttons|
 
 
 
-### Type: [KeyboardButtonRow](../types/KeyboardButtonRow.md)
+### Type: [KeyboardButtonRow](/API_docs/types/KeyboardButtonRow.md)
 
 
 ### Example:

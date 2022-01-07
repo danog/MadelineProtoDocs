@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateDialogPinned  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,13 +15,13 @@ A dialog was pinned/unpinned
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|pinned|[Bool](../types/Bool.md) | Optional|Whether the dialog was pinned|
-|folder\_id|[int](../types/int.md) | Optional|[Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders)|
-|peer|[DialogPeer](../types/DialogPeer.md) | Yes|The dialog|
+|pinned|[Bool](/API_docs/types/Bool.md) | Optional|Whether the dialog was pinned|
+|folder\_id|[int](/API_docs/types/int.md) | Optional|[Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders)|
+|peer|[DialogPeer](/API_docs/types/DialogPeer.md) | Yes|The dialog|
 
 
 
-### Type: [Update](../types/Update.md)
+### Type: [Update](/API_docs/types/Update.md)
 
 
 ### Example:

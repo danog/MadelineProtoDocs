@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_messages.html
 ---
 # Constructor: messages.messages  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -16,13 +16,13 @@ Full list of messages with auxilary data.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|messages|Array of [Message](../types/Message.md) | Yes|List of messages|
-|chats|Array of [Chat](../types/Chat.md) | Yes|List of chats mentioned in dialogs|
-|users|Array of [User](../types/User.md) | Yes|List of users mentioned in messages and chats|
+|messages|Array of [Message](/API_docs/types/Message.md) | Yes|List of messages|
+|chats|Array of [Chat](/API_docs/types/Chat.md) | Yes|List of chats mentioned in dialogs|
+|users|Array of [User](/API_docs/types/User.md) | Yes|List of users mentioned in messages and chats|
 
 
 
-### Type: [messages.Messages](../types/messages.Messages.md)
+### Type: [messages.Messages](/API_docs/types/messages.Messages.md)
 
 
 ### Example:

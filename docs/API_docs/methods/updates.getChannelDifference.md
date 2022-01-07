@@ -17,14 +17,14 @@ You cannot use this method directly, see https://docs.madelineproto.xyz for more
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|force|[Bool](../types/Bool.md) | Set to true to skip some possibly unneeded updates and reduce server-side load | Optional|
-|channel|[Username, chat ID, Update, Message or InputChannel](../types/InputChannel.md) | The channel | Optional|
-|filter|[ChannelMessagesFilter](../types/ChannelMessagesFilter.md) | Messsage filter | Optional|
-|pts|[int](../types/int.md) | Persistent timestamp (see [updates](https://core.telegram.org/api/updates)) | Yes|
-|limit|[int](../types/int.md) | How many updates to fetch, max `100000`<br>Ordinary (non-bot) users are supposed to pass `10-100` | Yes|
+|force|[Bool](/API_docs/types/Bool.md) | Set to true to skip some possibly unneeded updates and reduce server-side load | Optional|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | The channel | Optional|
+|filter|[ChannelMessagesFilter](/API_docs/types/ChannelMessagesFilter.md) | Messsage filter | Optional|
+|pts|[int](/API_docs/types/int.md) | Persistent timestamp (see [updates](https://core.telegram.org/api/updates)) | Yes|
+|limit|[int](/API_docs/types/int.md) | How many updates to fetch, max `100000`<br>Ordinary (non-bot) users are supposed to pass `10-100` | Yes|
 
 
-### Return type: [updates.ChannelDifference](../types/updates.ChannelDifference.md)
+### Return type: [updates.ChannelDifference](/API_docs/types/updates.ChannelDifference.md)
 
 ### Can bots use this method: **YES**
 

@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/users_UserFull.html
 
 ### Possible values (constructors):
 
-[users.userFull](../constructors/users.userFull.md)  
+[users.userFull](/API_docs/constructors/users.userFull.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->users->getFullUser](../methods/users.getFullUser.md)  
+[$MadelineProto->users->getFullUser](/API_docs/methods/users.getFullUser.md)  
 
 
 
-[users.userFull](../constructors/users.userFull.md)  
+[users.userFull](/API_docs/constructors/users.userFull.md)  
 
-[$MadelineProto->users->getFullUser](../methods/users.getFullUser.md)  
+[$MadelineProto->users->getFullUser](/API_docs/methods/users.getFullUser.md)  
 

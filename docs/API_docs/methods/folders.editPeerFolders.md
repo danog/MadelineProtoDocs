@@ -17,10 +17,10 @@ Edit peers in [peer folder](https://core.telegram.org/api/folders#peer-folders)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|folder\_peers|Array of [InputFolderPeer](../types/InputFolderPeer.md) | New peer list | Yes|
+|folder\_peers|Array of [InputFolderPeer](/API_docs/types/InputFolderPeer.md) | New peer list | Yes|
 
 
-### Return type: [Updates](../types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.md)
 
 ### Can bots use this method: **NO**
 

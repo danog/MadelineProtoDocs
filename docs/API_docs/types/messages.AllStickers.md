@@ -12,25 +12,25 @@ redirect_from: /API_docs/types/messages_AllStickers.html
 
 ### Possible values (constructors):
 
-[messages.allStickersNotModified](../constructors/messages.allStickersNotModified.md)  
+[messages.allStickersNotModified](/API_docs/constructors/messages.allStickersNotModified.md)  
 
-[messages.allStickers](../constructors/messages.allStickers.md)  
+[messages.allStickers](/API_docs/constructors/messages.allStickers.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getAllStickers](../methods/messages.getAllStickers.md)  
+[$MadelineProto->messages->getAllStickers](/API_docs/methods/messages.getAllStickers.md)  
 
-[$MadelineProto->messages->getMaskStickers](../methods/messages.getMaskStickers.md)  
+[$MadelineProto->messages->getMaskStickers](/API_docs/methods/messages.getMaskStickers.md)  
 
 
 
-[messages.allStickersNotModified](../constructors/messages.allStickersNotModified.md)  
+[messages.allStickersNotModified](/API_docs/constructors/messages.allStickersNotModified.md)  
 
-[messages.allStickers](../constructors/messages.allStickers.md)  
+[messages.allStickers](/API_docs/constructors/messages.allStickers.md)  
 
-[$MadelineProto->messages->getAllStickers](../methods/messages.getAllStickers.md)  
+[$MadelineProto->messages->getAllStickers](/API_docs/methods/messages.getAllStickers.md)  
 
-[$MadelineProto->messages->getMaskStickers](../methods/messages.getMaskStickers.md)  
+[$MadelineProto->messages->getMaskStickers](/API_docs/methods/messages.getMaskStickers.md)  
 

@@ -12,29 +12,29 @@ redirect_from: /API_docs/types/updates_Difference.html
 
 ### Possible values (constructors):
 
-[updates.differenceEmpty](../constructors/updates.differenceEmpty.md)  
+[updates.differenceEmpty](/API_docs/constructors/updates.differenceEmpty.md)  
 
-[updates.difference](../constructors/updates.difference.md)  
+[updates.difference](/API_docs/constructors/updates.difference.md)  
 
-[updates.differenceSlice](../constructors/updates.differenceSlice.md)  
+[updates.differenceSlice](/API_docs/constructors/updates.differenceSlice.md)  
 
-[updates.differenceTooLong](../constructors/updates.differenceTooLong.md)  
+[updates.differenceTooLong](/API_docs/constructors/updates.differenceTooLong.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->updates->getDifference](../methods/updates.getDifference.md)  
+[$MadelineProto->updates->getDifference](/API_docs/methods/updates.getDifference.md)  
 
 
 
-[updates.differenceEmpty](../constructors/updates.differenceEmpty.md)  
+[updates.differenceEmpty](/API_docs/constructors/updates.differenceEmpty.md)  
 
-[updates.difference](../constructors/updates.difference.md)  
+[updates.difference](/API_docs/constructors/updates.difference.md)  
 
-[updates.differenceSlice](../constructors/updates.differenceSlice.md)  
+[updates.differenceSlice](/API_docs/constructors/updates.differenceSlice.md)  
 
-[updates.differenceTooLong](../constructors/updates.differenceTooLong.md)  
+[updates.differenceTooLong](/API_docs/constructors/updates.differenceTooLong.md)  
 
-[$MadelineProto->updates->getDifference](../methods/updates.getDifference.md)  
+[$MadelineProto->updates->getDifference](/API_docs/methods/updates.getDifference.md)  
 

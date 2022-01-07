@@ -11,17 +11,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[dialogFilterSuggested](../constructors/dialogFilterSuggested.md)  
+[dialogFilterSuggested](/API_docs/constructors/dialogFilterSuggested.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getSuggestedDialogFilters](../methods/messages.getSuggestedDialogFilters.md)  
+[$MadelineProto->messages->getSuggestedDialogFilters](/API_docs/methods/messages.getSuggestedDialogFilters.md)  
 
 
 
-[dialogFilterSuggested](../constructors/dialogFilterSuggested.md)  
+[dialogFilterSuggested](/API_docs/constructors/dialogFilterSuggested.md)  
 
-[$MadelineProto->messages->getSuggestedDialogFilters](../methods/messages.getSuggestedDialogFilters.md)  
+[$MadelineProto->messages->getSuggestedDialogFilters](/API_docs/methods/messages.getSuggestedDialogFilters.md)  
 

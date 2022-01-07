@@ -11,25 +11,25 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Possible values (constructors):
 
-[langPackString](../constructors/langPackString.md)  
+[langPackString](/API_docs/constructors/langPackString.md)  
 
-[langPackStringPluralized](../constructors/langPackStringPluralized.md)  
+[langPackStringPluralized](/API_docs/constructors/langPackStringPluralized.md)  
 
-[langPackStringDeleted](../constructors/langPackStringDeleted.md)  
+[langPackStringDeleted](/API_docs/constructors/langPackStringDeleted.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->langpack->getStrings](../methods/langpack.getStrings.md)  
+[$MadelineProto->langpack->getStrings](/API_docs/methods/langpack.getStrings.md)  
 
 
 
-[langPackString](../constructors/langPackString.md)  
+[langPackString](/API_docs/constructors/langPackString.md)  
 
-[langPackStringPluralized](../constructors/langPackStringPluralized.md)  
+[langPackStringPluralized](/API_docs/constructors/langPackStringPluralized.md)  
 
-[langPackStringDeleted](../constructors/langPackStringDeleted.md)  
+[langPackStringDeleted](/API_docs/constructors/langPackStringDeleted.md)  
 
-[$MadelineProto->langpack->getStrings](../methods/langpack.getStrings.md)  
+[$MadelineProto->langpack->getStrings](/API_docs/methods/langpack.getStrings.md)  
 

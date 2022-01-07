@@ -17,10 +17,10 @@ Saves logs of application on the server.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|events|Array of [InputAppEvent](../types/InputAppEvent.md) | List of input events | Yes|
+|events|Array of [InputAppEvent](/API_docs/types/InputAppEvent.md) | List of input events | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

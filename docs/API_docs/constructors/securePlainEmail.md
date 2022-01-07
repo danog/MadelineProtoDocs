@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: securePlainEmail  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,11 +15,11 @@ Email address to use in [telegram passport](https://core.telegram.org/passport):
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|email|[string](../types/string.md) | Yes|Email address|
+|email|[string](/API_docs/types/string.md) | Yes|Email address|
 
 
 
-### Type: [SecurePlainData](../types/SecurePlainData.md)
+### Type: [SecurePlainData](/API_docs/types/SecurePlainData.md)
 
 
 ### Example:

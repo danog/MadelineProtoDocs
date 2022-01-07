@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEvent  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,14 +15,14 @@ Admin log event
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](../types/long.md) | Yes|Event ID|
-|date|[int](../types/int.md) | Yes|Date|
-|user\_id|[long](../types/long.md) | Yes|
-|action|[ChannelAdminLogEventAction](../types/ChannelAdminLogEventAction.md) | Yes|Action|
+|id|[long](/API_docs/types/long.md) | Yes|Event ID|
+|date|[int](/API_docs/types/int.md) | Yes|Date|
+|user\_id|[long](/API_docs/types/long.md) | Yes|
+|action|[ChannelAdminLogEventAction](/API_docs/types/ChannelAdminLogEventAction.md) | Yes|Action|
 
 
 
-### Type: [ChannelAdminLogEvent](../types/ChannelAdminLogEvent.md)
+### Type: [ChannelAdminLogEvent](/API_docs/types/ChannelAdminLogEvent.md)
 
 
 ### Example:

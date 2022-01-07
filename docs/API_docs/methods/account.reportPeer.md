@@ -17,12 +17,12 @@ Report a peer for violation of telegram's Terms of Service
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) | The peer to report | Optional|
-|reason|[ReportReason](../types/ReportReason.md) | The reason why this peer is being reported | Yes|
-|message|[string](../types/string.md) |  | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | The peer to report | Optional|
+|reason|[ReportReason](/API_docs/types/ReportReason.md) | The reason why this peer is being reported | Yes|
+|message|[string](/API_docs/types/string.md) |  | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

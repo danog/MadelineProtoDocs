@@ -17,11 +17,11 @@ Edits notification settings from a given user/group, from all users/all groups.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputNotifyPeer](../types/InputNotifyPeer.md) | Notification source | Yes|
-|settings|[InputPeerNotifySettings](../types/InputPeerNotifySettings.md) | Notification settings | Yes|
+|peer|[Username, chat ID, Update, Message or InputNotifyPeer](/API_docs/types/InputNotifyPeer.md) | Notification source | Yes|
+|settings|[InputPeerNotifySettings](/API_docs/types/InputPeerNotifySettings.md) | Notification settings | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

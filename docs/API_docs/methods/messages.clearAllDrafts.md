@@ -15,7 +15,7 @@ Clear all [drafts](https://core.telegram.org/api/drafts).
 
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 

@@ -12,17 +12,17 @@ redirect_from: /API_docs/types/auth_LoggedOut.html
 
 ### Possible values (constructors):
 
-[auth.loggedOut](../constructors/auth.loggedOut.md)  
+[auth.loggedOut](/API_docs/constructors/auth.loggedOut.md)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->auth->logOut](../methods/auth.logOut.md)  
+[$MadelineProto->auth->logOut](/API_docs/methods/auth.logOut.md)  
 
 
 
-[auth.loggedOut](../constructors/auth.loggedOut.md)  
+[auth.loggedOut](/API_docs/constructors/auth.loggedOut.md)  
 
-[$MadelineProto->auth->logOut](../methods/auth.logOut.md)  
+[$MadelineProto->auth->logOut](/API_docs/methods/auth.logOut.md)  
 

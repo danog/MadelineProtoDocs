@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_favedStickersNotModified.html
 ---
 # Constructor: messages.favedStickersNotModified  
-[Back to constructors index](index.md)
+[Back to constructors index](/API_docs/constructors/index.md)
 
 
 
@@ -15,7 +15,7 @@ No new favorited stickers were found
 
 
 
-### Type: [messages.FavedStickers](../types/messages.FavedStickers.md)
+### Type: [messages.FavedStickers](/API_docs/types/messages.FavedStickers.md)
 
 
 ### Example:

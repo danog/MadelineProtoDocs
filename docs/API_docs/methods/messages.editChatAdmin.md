@@ -17,12 +17,12 @@ Make a user admin in a [legacy group](https://core.telegram.org/api/channel).
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](../types/InputPeer.md) |  | Optional|
-|user\_id|[Username, chat ID, Update, Message or InputUser](../types/InputUser.md) | The user to make admin | Optional|
-|is\_admin|[Bool](../types/Bool.md) | Whether to make him admin | Yes|
+|chat\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) |  | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | The user to make admin | Optional|
+|is\_admin|[Bool](/API_docs/types/Bool.md) | Whether to make him admin | Yes|
 
 
-### Return type: [Bool](../types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.md)
 
 ### Can bots use this method: **NO**
 
