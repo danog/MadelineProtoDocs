@@ -1,6 +1,7 @@
 #!/bin/bash -e
 
 git checkout master
+git fetch origin gh-pages
 
 cd docs
 gojekyll clean
