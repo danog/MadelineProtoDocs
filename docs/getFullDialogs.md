@@ -20,7 +20,3 @@ $Dialogs = yield $MadelineProto->getFullDialogs();
 
 Or, if you're into Lua:
 
-```lua
-Dialogs = getFullDialogs()
-```
-

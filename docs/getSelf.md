@@ -20,9 +20,3 @@ No parameters
 $User = yield $MadelineProto->getSelf();
 ```
 
-Or, if you're into Lua:
-
-```lua
-User = getSelf()
-```
-

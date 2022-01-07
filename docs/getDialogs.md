@@ -17,10 +17,3 @@ Gets full list of dialogs
 ```php
 $Peers = yield $MadelineProto->getDialogs();
 ```
-
-Or, if you're into Lua:
-
-```lua
-Peers = getDialogs()
-```
-

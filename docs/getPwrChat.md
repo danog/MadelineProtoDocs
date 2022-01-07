@@ -24,9 +24,3 @@ parent: "Methods"
 $Chat = yield $MadelineProto->getPwrChat($id);
 ```
 
-Or, if you're into Lua:
-
-```lua
-Chat = getPwrChat(id)
-```
-
