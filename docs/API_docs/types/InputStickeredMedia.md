@@ -5,15 +5,15 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputStickeredMedia
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inputStickeredMediaPhoto](/API_docs/constructors/inputStickeredMediaPhoto.md)  
+[inputStickeredMediaPhoto](/API_docs/constructors/inputStickeredMediaPhoto.html)  
 
-[inputStickeredMediaDocument](/API_docs/constructors/inputStickeredMediaDocument.md)  
+[inputStickeredMediaDocument](/API_docs/constructors/inputStickeredMediaDocument.html)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputStickeredMediaPhoto](/API_docs/constructors/inputStickeredMediaPhoto.md)  
+[inputStickeredMediaPhoto](/API_docs/constructors/inputStickeredMediaPhoto.html)  
 
-[inputStickeredMediaDocument](/API_docs/constructors/inputStickeredMediaDocument.md)  
+[inputStickeredMediaDocument](/API_docs/constructors/inputStickeredMediaDocument.html)  
 

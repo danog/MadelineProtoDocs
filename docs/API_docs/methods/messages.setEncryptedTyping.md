@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_setEncryptedTyping.html
 ---
 # Method: messages.setEncryptedTyping
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Send typing event by the current user to a secret chat.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](/API_docs/types/InputEncryptedChat.md) | Secret chat ID | Yes|
-|typing|[Bool](/API_docs/types/Bool.md) | Typing.<br>**Possible values**:<br>[(boolTrue)](../constructors/boolTrue.md), if the user started typing and more than **5 seconds** have passed since the last request<br>[(boolFalse)](../constructors/boolFalse.md), if the user stopped typing | Yes|
+|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](/API_docs/types/InputEncryptedChat.html) | Secret chat ID | Yes|
+|typing|[Bool](/API_docs/types/Bool.html) | Typing.<br>**Possible values**:<br>[(boolTrue)](../constructors/boolTrue.html), if the user started typing and more than **5 seconds** have passed since the last request<br>[(boolFalse)](../constructors/boolFalse.html), if the user stopped typing | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

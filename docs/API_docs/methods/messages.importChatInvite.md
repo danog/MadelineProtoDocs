@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_importChatInvite.html
 ---
 # Method: messages.importChatInvite
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Import a chat invite and join a private chat/supergroup/channel
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[string](/API_docs/types/string.md) | `hash` from `t.me/joinchat/hash` | Yes|
+|hash|[string](/API_docs/types/string.html) | `hash` from `t.me/joinchat/hash` | Yes|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **NO**
 

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/photos_updateProfilePhoto.html
 ---
 # Method: photos.updateProfilePhoto
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Installs a previously uploaded photo as a profile photo.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[MessageMedia, Update, Message or InputPhoto](/API_docs/types/InputPhoto.md) | Input photo | Optional|
+|id|[MessageMedia, Update, Message or InputPhoto](/API_docs/types/InputPhoto.html) | Input photo | Optional|
 
 
-### Return type: [photos.Photo](/API_docs/types/photos.Photo.md)
+### Return type: [photos.Photo](/API_docs/types/photos.Photo.html)
 
 ### Can bots use this method: **NO**
 

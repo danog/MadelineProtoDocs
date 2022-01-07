@@ -6,23 +6,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/messages_SearchCounter.html
 ---
 # Type: messages.SearchCounter
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[messages.searchCounter](/API_docs/constructors/messages.searchCounter.md)  
+[messages.searchCounter](/API_docs/constructors/messages.searchCounter.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getSearchCounters](/API_docs/methods/messages.getSearchCounters.md)  
+[$MadelineProto->messages->getSearchCounters](/API_docs/methods/messages.getSearchCounters.html)  
 
 
 
-[messages.searchCounter](/API_docs/constructors/messages.searchCounter.md)  
+[messages.searchCounter](/API_docs/constructors/messages.searchCounter.html)  
 
-[$MadelineProto->messages->getSearchCounters](/API_docs/methods/messages.getSearchCounters.md)  
+[$MadelineProto->messages->getSearchCounters](/API_docs/methods/messages.getSearchCounters.html)  
 

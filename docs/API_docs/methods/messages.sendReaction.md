@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_sendReaction.html
 ---
 # Method: messages.sendReaction
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Send reaction to message
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Peer | Optional|
-|msg\_id|[int](/API_docs/types/int.md) | Message ID to react to | Yes|
-|reaction|[string](/API_docs/types/string.md) | Reaction (a UTF8 emoji) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | Message ID to react to | Yes|
+|reaction|[string](/API_docs/types/string.html) | Reaction (a UTF8 emoji) | Optional|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **YES**
 

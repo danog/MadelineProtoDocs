@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateReadChannelDiscussionOutbox  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,13 +15,13 @@ Outgoing comments in a [discussion thread](https://core.telegram.org/api/threads
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[long](/API_docs/types/long.md) | Yes|
-|top\_msg\_id|[int](/API_docs/types/int.md) | Yes|ID of the group message that started the [thread](https://core.telegram.org/api/threads)|
-|read\_max\_id|[int](/API_docs/types/int.md) | Yes|Message ID of latest read outgoing message for this [thread](https://core.telegram.org/api/threads)|
+|channel\_id|[long](/API_docs/types/long.html) | Yes|
+|top\_msg\_id|[int](/API_docs/types/int.html) | Yes|ID of the group message that started the [thread](https://core.telegram.org/api/threads)|
+|read\_max\_id|[int](/API_docs/types/int.html) | Yes|Message ID of latest read outgoing message for this [thread](https://core.telegram.org/api/threads)|
 
 
 
-### Type: [Update](/API_docs/types/Update.md)
+### Type: [Update](/API_docs/types/Update.html)
 
 
 ### Example:

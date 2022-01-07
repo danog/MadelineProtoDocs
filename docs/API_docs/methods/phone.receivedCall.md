@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/phone_receivedCall.html
 ---
 # Method: phone.receivedCall
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Optional: notify the server that the user is currently busy in a call: this will
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[InputPhoneCall](/API_docs/types/InputPhoneCall.md) | The phone call we're currently in | Yes|
+|peer|[InputPhoneCall](/API_docs/types/InputPhoneCall.html) | The phone call we're currently in | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

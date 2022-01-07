@@ -5,17 +5,17 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: SecurePasswordKdfAlgo
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[securePasswordKdfAlgoUnknown](/API_docs/constructors/securePasswordKdfAlgoUnknown.md)  
+[securePasswordKdfAlgoUnknown](/API_docs/constructors/securePasswordKdfAlgoUnknown.html)  
 
-[securePasswordKdfAlgoPBKDF2HMACSHA512iter100000](/API_docs/constructors/securePasswordKdfAlgoPBKDF2HMACSHA512iter100000.md)  
+[securePasswordKdfAlgoPBKDF2HMACSHA512iter100000](/API_docs/constructors/securePasswordKdfAlgoPBKDF2HMACSHA512iter100000.html)  
 
-[securePasswordKdfAlgoSHA512](/API_docs/constructors/securePasswordKdfAlgoSHA512.md)  
+[securePasswordKdfAlgoSHA512](/API_docs/constructors/securePasswordKdfAlgoSHA512.html)  
 
 
 
@@ -23,9 +23,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[securePasswordKdfAlgoUnknown](/API_docs/constructors/securePasswordKdfAlgoUnknown.md)  
+[securePasswordKdfAlgoUnknown](/API_docs/constructors/securePasswordKdfAlgoUnknown.html)  
 
-[securePasswordKdfAlgoPBKDF2HMACSHA512iter100000](/API_docs/constructors/securePasswordKdfAlgoPBKDF2HMACSHA512iter100000.md)  
+[securePasswordKdfAlgoPBKDF2HMACSHA512iter100000](/API_docs/constructors/securePasswordKdfAlgoPBKDF2HMACSHA512iter100000.html)  
 
-[securePasswordKdfAlgoSHA512](/API_docs/constructors/securePasswordKdfAlgoSHA512.md)  
+[securePasswordKdfAlgoSHA512](/API_docs/constructors/securePasswordKdfAlgoSHA512.html)  
 

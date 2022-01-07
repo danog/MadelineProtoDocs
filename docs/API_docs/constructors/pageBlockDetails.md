@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockDetails  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,13 +15,13 @@ A collapsible details block
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|open|[Bool](/API_docs/types/Bool.md) | Optional|Whether the block is open by default|
-|blocks|Array of [PageBlock](/API_docs/types/PageBlock.md) | Yes|Block contents|
-|title|[RichText](/API_docs/types/RichText.md) | Yes|Always visible heading for the block|
+|open|[Bool](/API_docs/types/Bool.html) | Optional|Whether the block is open by default|
+|blocks|Array of [PageBlock](/API_docs/types/PageBlock.html) | Yes|Block contents|
+|title|[RichText](/API_docs/types/RichText.html) | Yes|Always visible heading for the block|
 
 
 
-### Type: [PageBlock](/API_docs/types/PageBlock.md)
+### Type: [PageBlock](/API_docs/types/PageBlock.html)
 
 
 ### Example:

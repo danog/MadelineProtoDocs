@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_editChatDefaultBannedRights.html
 ---
 # Method: messages.editChatDefaultBannedRights
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Edit the default banned rights of a [channel/supergroup/group](https://core.tele
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | The peer | Optional|
-|banned\_rights|[ChatBannedRights](/API_docs/types/ChatBannedRights.md) | The new global rights | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer | Optional|
+|banned\_rights|[ChatBannedRights](/API_docs/types/ChatBannedRights.html) | The new global rights | Yes|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **YES**
 

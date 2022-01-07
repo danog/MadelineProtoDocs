@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/phone_getGroupCallJoinAs.html
 ---
 # Method: phone.getGroupCallJoinAs
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/phone_getGroupCallJoinAs.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 
 
-### Return type: [phone.JoinAsPeers](/API_docs/types/phone.JoinAsPeers.md)
+### Return type: [phone.JoinAsPeers](/API_docs/types/phone.JoinAsPeers.html)
 
 ### Can bots use this method: **NO**
 

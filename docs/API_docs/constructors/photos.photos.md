@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/photos_photos.html
 ---
 # Constructor: photos.photos  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,12 +16,12 @@ Full list of photos with auxiliary data.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|photos|Array of [Photo](/API_docs/types/Photo.md) | Yes|List of photos|
-|users|Array of [User](/API_docs/types/User.md) | Yes|List of mentioned users|
+|photos|Array of [Photo](/API_docs/types/Photo.html) | Yes|List of photos|
+|users|Array of [User](/API_docs/types/User.html) | Yes|List of mentioned users|
 
 
 
-### Type: [photos.Photos](/API_docs/types/photos.Photos.md)
+### Type: [photos.Photos](/API_docs/types/photos.Photos.html)
 
 
 ### Example:

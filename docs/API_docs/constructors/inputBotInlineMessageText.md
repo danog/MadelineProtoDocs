@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputBotInlineMessageText  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,14 +15,14 @@ Simple text message
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|no\_webpage|[Bool](/API_docs/types/Bool.md) | Optional|Disable webpage preview|
-|message|[string](/API_docs/types/string.md) | Yes|Message|
-|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.md) | Optional|[Message entities for styled text](https://core.telegram.org/api/entities)|
-|reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.md) | Optional|Inline keyboard|
+|no\_webpage|[Bool](/API_docs/types/Bool.html) | Optional|Disable webpage preview|
+|message|[string](/API_docs/types/string.html) | Yes|Message|
+|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|[Message entities for styled text](https://core.telegram.org/api/entities)|
+|reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.html) | Optional|Inline keyboard|
 
 
 
-### Type: [InputBotInlineMessage](/API_docs/types/InputBotInlineMessage.md)
+### Type: [InputBotInlineMessage](/API_docs/types/InputBotInlineMessage.html)
 
 
 ### Example:

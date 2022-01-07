@@ -1,26 +1,26 @@
 ---
 title: "messages.reportSpam"
-description: "Report a new incoming chat for spam, if the [peer settings](../constructors/peerSettings.md) of the chat allow us to do that"
+description: "Report a new incoming chat for spam, if the [peer settings](../constructors/peerSettings.html) of the chat allow us to do that"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_reportSpam.html
 ---
 # Method: messages.reportSpam
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
-Report a new incoming chat for spam, if the [peer settings](../constructors/peerSettings.md) of the chat allow us to do that
+Report a new incoming chat for spam, if the [peer settings](../constructors/peerSettings.html) of the chat allow us to do that
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Peer to report | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer to report | Optional|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

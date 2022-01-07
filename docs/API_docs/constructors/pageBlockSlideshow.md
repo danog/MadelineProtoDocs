@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockSlideshow  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ Slideshow
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|items|Array of [PageBlock](/API_docs/types/PageBlock.md) | Yes|Slideshow items|
-|caption|[PageCaption](/API_docs/types/PageCaption.md) | Yes|Caption|
+|items|Array of [PageBlock](/API_docs/types/PageBlock.html) | Yes|Slideshow items|
+|caption|[PageCaption](/API_docs/types/PageCaption.html) | Yes|Caption|
 
 
 
-### Type: [PageBlock](/API_docs/types/PageBlock.md)
+### Type: [PageBlock](/API_docs/types/PageBlock.html)
 
 
 ### Example:

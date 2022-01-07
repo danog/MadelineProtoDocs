@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/payments_getSavedInfo.html
 ---
 # Method: payments.getSavedInfo
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ Get saved payment information
 
 
 
-### Return type: [payments.SavedInfo](/API_docs/types/payments.SavedInfo.md)
+### Return type: [payments.SavedInfo](/API_docs/types/payments.SavedInfo.html)
 
 ### Can bots use this method: **NO**
 

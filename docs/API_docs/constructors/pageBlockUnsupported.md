@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockUnsupported  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -14,7 +14,7 @@ Unsupported IV element
 
 
 
-### Type: [PageBlock](/API_docs/types/PageBlock.md)
+### Type: [PageBlock](/API_docs/types/PageBlock.html)
 
 
 ### Example:

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/phone_exportGroupCallInvite.html
 ---
 # Method: phone.exportGroupCallInvite
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,11 +15,11 @@ redirect_from: /API_docs/methods/phone_exportGroupCallInvite.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|can\_self\_unmute|[Bool](/API_docs/types/Bool.md) | Optional|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.md) | Yes|
+|can\_self\_unmute|[Bool](/API_docs/types/Bool.html) | Optional|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
 
 
-### Return type: [phone.ExportedGroupCallInvite](/API_docs/types/phone.ExportedGroupCallInvite.md)
+### Return type: [phone.ExportedGroupCallInvite](/API_docs/types/phone.ExportedGroupCallInvite.html)
 
 ### Can bots use this method: **NO**
 

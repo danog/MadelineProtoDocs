@@ -5,15 +5,15 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: PeerLocated
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[peerLocated](/API_docs/constructors/peerLocated.md)  
+[peerLocated](/API_docs/constructors/peerLocated.html)  
 
-[peerSelfLocated](/API_docs/constructors/peerSelfLocated.md)  
+[peerSelfLocated](/API_docs/constructors/peerSelfLocated.html)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[peerLocated](/API_docs/constructors/peerLocated.md)  
+[peerLocated](/API_docs/constructors/peerLocated.html)  
 
-[peerSelfLocated](/API_docs/constructors/peerSelfLocated.md)  
+[peerSelfLocated](/API_docs/constructors/peerSelfLocated.html)  
 

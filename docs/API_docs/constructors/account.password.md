@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_password.html
 ---
 # Constructor: account.password  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,22 +16,22 @@ Configuration for two-factor authorization
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|has\_recovery|[Bool](/API_docs/types/Bool.md) | Optional|Whether the user has a recovery method configured|
-|has\_secure\_values|[Bool](/API_docs/types/Bool.md) | Optional|Whether telegram [passport](https://core.telegram.org/passport) is enabled|
-|has\_password|[Bool](/API_docs/types/Bool.md) | Optional|Whether the user has a password|
-|current\_algo|[PasswordKdfAlgo](/API_docs/types/PasswordKdfAlgo.md) | Optional|The [KDF algorithm for SRP two-factor authentication](https://core.telegram.org/api/srp) of the current password|
-|srp\_B|[bytes](/API_docs/types/bytes.md) | Optional|Srp B param for [SRP authorization](https://core.telegram.org/api/srp)|
-|srp\_id|[long](/API_docs/types/long.md) | Optional|Srp ID param for [SRP authorization](https://core.telegram.org/api/srp)|
-|hint|[string](/API_docs/types/string.md) | Optional|Text hint for the password|
-|email\_unconfirmed\_pattern|[string](/API_docs/types/string.md) | Optional|A [password recovery email](https://core.telegram.org/api/srp#email-verification) with the specified [pattern](https://core.telegram.org/api/pattern) is still awaiting verification|
-|new\_algo|[PasswordKdfAlgo](/API_docs/types/PasswordKdfAlgo.md) | Yes|The [KDF algorithm for SRP two-factor authentication](https://core.telegram.org/api/srp) to use when creating new passwords|
-|new\_secure\_algo|[SecurePasswordKdfAlgo](/API_docs/types/SecurePasswordKdfAlgo.md) | Yes|The KDF algorithm for telegram [passport](https://core.telegram.org/passport)|
-|secure\_random|[bytes](/API_docs/types/bytes.md) | Yes|Secure random string|
-|pending\_reset\_date|[int](/API_docs/types/int.md) | Optional|
+|has\_recovery|[Bool](/API_docs/types/Bool.html) | Optional|Whether the user has a recovery method configured|
+|has\_secure\_values|[Bool](/API_docs/types/Bool.html) | Optional|Whether telegram [passport](https://core.telegram.org/passport) is enabled|
+|has\_password|[Bool](/API_docs/types/Bool.html) | Optional|Whether the user has a password|
+|current\_algo|[PasswordKdfAlgo](/API_docs/types/PasswordKdfAlgo.html) | Optional|The [KDF algorithm for SRP two-factor authentication](https://core.telegram.org/api/srp) of the current password|
+|srp\_B|[bytes](/API_docs/types/bytes.html) | Optional|Srp B param for [SRP authorization](https://core.telegram.org/api/srp)|
+|srp\_id|[long](/API_docs/types/long.html) | Optional|Srp ID param for [SRP authorization](https://core.telegram.org/api/srp)|
+|hint|[string](/API_docs/types/string.html) | Optional|Text hint for the password|
+|email\_unconfirmed\_pattern|[string](/API_docs/types/string.html) | Optional|A [password recovery email](https://core.telegram.org/api/srp#email-verification) with the specified [pattern](https://core.telegram.org/api/pattern) is still awaiting verification|
+|new\_algo|[PasswordKdfAlgo](/API_docs/types/PasswordKdfAlgo.html) | Yes|The [KDF algorithm for SRP two-factor authentication](https://core.telegram.org/api/srp) to use when creating new passwords|
+|new\_secure\_algo|[SecurePasswordKdfAlgo](/API_docs/types/SecurePasswordKdfAlgo.html) | Yes|The KDF algorithm for telegram [passport](https://core.telegram.org/passport)|
+|secure\_random|[bytes](/API_docs/types/bytes.html) | Yes|Secure random string|
+|pending\_reset\_date|[int](/API_docs/types/int.html) | Optional|
 
 
 
-### Type: [account.Password](/API_docs/types/account.Password.md)
+### Type: [account.Password](/API_docs/types/account.Password.html)
 
 
 ### Example:

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getArchivedStickers.html
 ---
 # Method: messages.getArchivedStickers
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Get all archived stickers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|masks|[Bool](/API_docs/types/Bool.md) | Get mask stickers | Optional|
-|offset\_id|[long](/API_docs/types/long.md) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
-|limit|[int](/API_docs/types/int.md) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
+|masks|[Bool](/API_docs/types/Bool.html) | Get mask stickers | Optional|
+|offset\_id|[long](/API_docs/types/long.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
 
 
-### Return type: [messages.ArchivedStickers](/API_docs/types/messages.ArchivedStickers.md)
+### Return type: [messages.ArchivedStickers](/API_docs/types/messages.ArchivedStickers.html)
 
 ### Can bots use this method: **NO**
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageUserVote  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,13 +15,13 @@ How a user voted in a poll
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.md) | Yes|
-|option|[bytes](/API_docs/types/bytes.md) | Yes|The option chosen by the user|
-|date|[int](/API_docs/types/int.md) | Yes|When did the user cast the vote|
+|user\_id|[long](/API_docs/types/long.html) | Yes|
+|option|[bytes](/API_docs/types/bytes.html) | Yes|The option chosen by the user|
+|date|[int](/API_docs/types/int.html) | Yes|When did the user cast the vote|
 
 
 
-### Type: [MessageUserVote](/API_docs/types/MessageUserVote.md)
+### Type: [MessageUserVote](/API_docs/types/MessageUserVote.html)
 
 
 ### Example:

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_toggleTopPeers.html
 ---
 # Method: contacts.toggleTopPeers
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Enable/disable [top peers](https://core.telegram.org/api/top-rating)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|enabled|[Bool](/API_docs/types/Bool.md) | Enable/disable | Yes|
+|enabled|[Bool](/API_docs/types/Bool.html) | Enable/disable | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

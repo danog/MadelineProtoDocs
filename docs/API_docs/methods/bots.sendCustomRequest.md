@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/bots_sendCustomRequest.html
 ---
 # Method: bots.sendCustomRequest
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Sends a custom request; for bots only
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|custom\_method|[string](/API_docs/types/string.md) | The method name | Yes|
-|params|[DataJSON](/API_docs/types/DataJSON.md) | JSON-serialized method parameters | Yes|
+|custom\_method|[string](/API_docs/types/string.html) | The method name | Yes|
+|params|[DataJSON](/API_docs/types/DataJSON.html) | JSON-serialized method parameters | Yes|
 
 
-### Return type: [DataJSON](/API_docs/types/DataJSON.md)
+### Return type: [DataJSON](/API_docs/types/DataJSON.html)
 
 ### Can bots use this method: **YES**
 

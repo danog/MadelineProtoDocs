@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: privacyKeyChatInvite  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -14,7 +14,7 @@ Whether the user can be invited to chats
 
 
 
-### Type: [PrivacyKey](/API_docs/types/PrivacyKey.md)
+### Type: [PrivacyKey](/API_docs/types/PrivacyKey.html)
 
 
 ### Example:

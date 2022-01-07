@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_setAuthorizationTTL.html
 ---
 # Method: account.setAuthorizationTTL
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/account_setAuthorizationTTL.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|authorization\_ttl\_days|[int](/API_docs/types/int.md) | Yes|
+|authorization\_ttl\_days|[int](/API_docs/types/int.html) | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **YES**
 

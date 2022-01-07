@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_deleteHistory.html
 ---
 # Method: messages.deleteHistory
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,15 +17,15 @@ Deletes communication history.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|just\_clear|[Bool](/API_docs/types/Bool.md) | Just clear history for the current user, without actually removing messages for every chat user | Optional|
-|revoke|[Bool](/API_docs/types/Bool.md) | Whether to delete the message history for all chat participants | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | User or chat, communication history of which will be deleted | Optional|
-|max\_id|[int](/API_docs/types/int.md) | Maximum ID of message to delete | Yes|
-|min\_date|[int](/API_docs/types/int.md) |  | Optional|
-|max\_date|[int](/API_docs/types/int.md) |  | Optional|
+|just\_clear|[Bool](/API_docs/types/Bool.html) | Just clear history for the current user, without actually removing messages for every chat user | Optional|
+|revoke|[Bool](/API_docs/types/Bool.html) | Whether to delete the message history for all chat participants | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | User or chat, communication history of which will be deleted | Optional|
+|max\_id|[int](/API_docs/types/int.html) | Maximum ID of message to delete | Yes|
+|min\_date|[int](/API_docs/types/int.html) |  | Optional|
+|max\_date|[int](/API_docs/types/int.html) |  | Optional|
 
 
-### Return type: [messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.md)
+### Return type: [messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.html)
 
 ### Can bots use this method: **NO**
 

@@ -7,18 +7,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_getGroupsForDiscussion.html
 ---
 # Method: channels.getGroupsForDiscussion
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
 Get all groups that can be used as [discussion groups](https://core.telegram.org/api/discussion).
 
 Returned [legacy group chats](https://core.telegram.org/api/channel) must be first upgraded to [supergroups](https://core.telegram.org/api/channel) before they can be set as a discussion group.  
-To set a returned supergroup as a discussion group, access to its old messages must be enabled using [channels.togglePreHistoryHidden](../methods/channels.togglePreHistoryHidden.md), first.
+To set a returned supergroup as a discussion group, access to its old messages must be enabled using [channels.togglePreHistoryHidden](../methods/channels.togglePreHistoryHidden.html), first.
 
 
 
-### Return type: [messages.Chats](/API_docs/types/messages.Chats.md)
+### Return type: [messages.Chats](/API_docs/types/messages.Chats.html)
 
 ### Can bots use this method: **NO**
 

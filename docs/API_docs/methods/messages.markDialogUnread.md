@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_markDialogUnread.html
 ---
 # Method: messages.markDialogUnread
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Manually mark dialog as unread
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|unread|[Bool](/API_docs/types/Bool.md) | Mark as unread/read | Optional|
-|peer|[Username, chat ID, Update, Message or InputDialogPeer](/API_docs/types/InputDialogPeer.md) | Dialog | Yes|
+|unread|[Bool](/API_docs/types/Bool.html) | Mark as unread/read | Optional|
+|peer|[Username, chat ID, Update, Message or InputDialogPeer](/API_docs/types/InputDialogPeer.html) | Dialog | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

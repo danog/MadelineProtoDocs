@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_uploadWallPaper.html
 ---
 # Method: account.uploadWallPaper
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Create and upload a new wallpaper
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|file|[File path or InputFile](/API_docs/types/InputFile.md) | The JPG/PNG wallpaper | Yes|
-|mime\_type|[string](/API_docs/types/string.md) | MIME type of uploaded wallpaper | Yes|
-|settings|[WallPaperSettings](/API_docs/types/WallPaperSettings.md) | Wallpaper settings | Yes|
+|file|[File path or InputFile](/API_docs/types/InputFile.html) | The JPG/PNG wallpaper | Yes|
+|mime\_type|[string](/API_docs/types/string.html) | MIME type of uploaded wallpaper | Yes|
+|settings|[WallPaperSettings](/API_docs/types/WallPaperSettings.html) | Wallpaper settings | Yes|
 
 
-### Return type: [WallPaper](/API_docs/types/WallPaper.md)
+### Return type: [WallPaper](/API_docs/types/WallPaper.html)
 
 ### Can bots use this method: **NO**
 

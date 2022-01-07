@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getChatInviteImporters.html
 ---
 # Method: messages.getChatInviteImporters
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,16 +15,16 @@ redirect_from: /API_docs/methods/messages_getChatInviteImporters.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|requested|[Bool](/API_docs/types/Bool.md) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
-|link|[string](/API_docs/types/string.md) | Optional|
-|q|[string](/API_docs/types/string.md) | Optional|
-|offset\_date|[int](/API_docs/types/int.md) | Yes|
-|offset\_user|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | Optional|
-|limit|[int](/API_docs/types/int.md) | Yes|
+|requested|[Bool](/API_docs/types/Bool.html) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+|link|[string](/API_docs/types/string.html) | Optional|
+|q|[string](/API_docs/types/string.html) | Optional|
+|offset\_date|[int](/API_docs/types/int.html) | Yes|
+|offset\_user|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+|limit|[int](/API_docs/types/int.html) | Yes|
 
 
-### Return type: [messages.ChatInviteImporters](/API_docs/types/messages.ChatInviteImporters.md)
+### Return type: [messages.ChatInviteImporters](/API_docs/types/messages.ChatInviteImporters.html)
 
 ### Can bots use this method: **NO**
 

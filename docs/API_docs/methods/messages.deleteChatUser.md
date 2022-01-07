@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_deleteChatUser.html
 ---
 # Method: messages.deleteChatUser
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Deletes a user from a chat and sends a service message on it.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|revoke\_history|[Bool](/API_docs/types/Bool.md) |  | Optional|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) |  | Optional|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | User ID to be deleted | Optional|
+|revoke\_history|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|chat\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | User ID to be deleted | Optional|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **YES**
 

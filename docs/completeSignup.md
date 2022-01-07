@@ -15,7 +15,7 @@ parent: "Methods"
 |first_name| A string with the first name|
 |last_name| Optional, string with the last name|
 
-### Return type: [auth.Authorization](API_docs/types/auth.Authorization.md)
+### Return type: [auth.Authorization](API_docs/types/auth.Authorization.html)
 
 ### Example ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureFile  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,17 +15,17 @@ Secure [passport](https://core.telegram.org/passport) file, for more info [see t
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](/API_docs/types/long.md) | Yes|ID|
-|access\_hash|[long](/API_docs/types/long.md) | Yes|Access hash|
-|size|[int](/API_docs/types/int.md) | Yes|File size|
-|dc\_id|[int](/API_docs/types/int.md) | Yes|DC ID|
-|date|[int](/API_docs/types/int.md) | Yes|Date of upload|
-|file\_hash|[bytes](/API_docs/types/bytes.md) | Yes|File hash|
-|secret|[bytes](/API_docs/types/bytes.md) | Yes|Secret|
+|id|[long](/API_docs/types/long.html) | Yes|ID|
+|access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash|
+|size|[int](/API_docs/types/int.html) | Yes|File size|
+|dc\_id|[int](/API_docs/types/int.html) | Yes|DC ID|
+|date|[int](/API_docs/types/int.html) | Yes|Date of upload|
+|file\_hash|[bytes](/API_docs/types/bytes.html) | Yes|File hash|
+|secret|[bytes](/API_docs/types/bytes.html) | Yes|Secret|
 
 
 
-### Type: [SecureFile](/API_docs/types/SecureFile.md)
+### Type: [SecureFile](/API_docs/types/SecureFile.html)
 
 
 ### Example:

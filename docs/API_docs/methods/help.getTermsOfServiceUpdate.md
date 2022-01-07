@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getTermsOfServiceUpdate.html
 ---
 # Method: help.getTermsOfServiceUpdate
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ Look for updates of telegram's terms of service
 
 
 
-### Return type: [help.TermsOfServiceUpdate](/API_docs/types/help.TermsOfServiceUpdate.md)
+### Return type: [help.TermsOfServiceUpdate](/API_docs/types/help.TermsOfServiceUpdate.html)
 
 ### Can bots use this method: **NO**
 

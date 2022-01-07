@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/payments_clearSavedInfo.html
 ---
 # Method: payments.clearSavedInfo
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Clear saved payment information
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|credentials|[Bool](/API_docs/types/Bool.md) | Remove saved payment credentials | Optional|
-|info|[Bool](/API_docs/types/Bool.md) | Clear the last order settings saved by the user | Optional|
+|credentials|[Bool](/API_docs/types/Bool.html) | Remove saved payment credentials | Optional|
+|info|[Bool](/API_docs/types/Bool.html) | Clear the last order settings saved by the user | Optional|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

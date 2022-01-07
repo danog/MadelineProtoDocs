@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_messageEditData.html
 ---
 # Constructor: messages.messageEditData  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,11 +16,11 @@ Message edit data for media
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|caption|[Bool](/API_docs/types/Bool.md) | Optional|Media caption, if the specified media's caption can be edited|
+|caption|[Bool](/API_docs/types/Bool.html) | Optional|Media caption, if the specified media's caption can be edited|
 
 
 
-### Type: [messages.MessageEditData](/API_docs/types/messages.MessageEditData.md)
+### Type: [messages.MessageEditData](/API_docs/types/messages.MessageEditData.html)
 
 
 ### Example:

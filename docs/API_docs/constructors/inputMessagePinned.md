@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMessagePinned  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -14,7 +14,7 @@ Pinned message
 
 
 
-### Type: [InputMessage](/API_docs/types/InputMessage.md)
+### Type: [InputMessage](/API_docs/types/InputMessage.html)
 
 
 ### Example:

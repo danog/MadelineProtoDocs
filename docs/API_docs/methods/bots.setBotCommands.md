@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/bots_setBotCommands.html
 ---
 # Method: bots.setBotCommands
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Set bot command list
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|scope|[BotCommandScope](/API_docs/types/BotCommandScope.md) |  | Yes|
-|lang\_code|[string](/API_docs/types/string.md) |  | Yes|
-|commands|Array of [BotCommand](/API_docs/types/BotCommand.md) | Bot commands | Yes|
+|scope|[BotCommandScope](/API_docs/types/BotCommandScope.html) |  | Yes|
+|lang\_code|[string](/API_docs/types/string.html) |  | Yes|
+|commands|Array of [BotCommand](/API_docs/types/BotCommand.html) | Bot commands | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **YES**
 

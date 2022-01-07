@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getPromoData.html
 ---
 # Method: help.getPromoData
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ Get MTProxy/Public Service Announcement information
 
 
 
-### Return type: [help.PromoData](/API_docs/types/help.PromoData.md)
+### Return type: [help.PromoData](/API_docs/types/help.PromoData.html)
 
 ### Can bots use this method: **NO**
 

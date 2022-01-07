@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_exportAuthorization.html
 ---
 # Method: auth.exportAuthorization
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ You cannot use this method directly, use $MadelineProto->exportAuthorization() i
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|dc\_id|[int](/API_docs/types/int.md) | Number of a target data-centre | Yes|
+|dc\_id|[int](/API_docs/types/int.html) | Number of a target data-centre | Yes|
 
 
-### Return type: [auth.ExportedAuthorization](/API_docs/types/auth.ExportedAuthorization.md)
+### Return type: [auth.ExportedAuthorization](/API_docs/types/auth.ExportedAuthorization.html)
 
 ### Can bots use this method: **YES**
 

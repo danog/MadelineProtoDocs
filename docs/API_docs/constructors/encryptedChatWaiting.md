@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: encryptedChatWaiting  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,15 +15,15 @@ Chat waiting for approval of second participant.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](/API_docs/types/int.md) | Yes|Chat ID|
-|access\_hash|[long](/API_docs/types/long.md) | Yes|Checking sum depending on user ID|
-|date|[int](/API_docs/types/int.md) | Yes|Date of chat creation|
-|admin\_id|[long](/API_docs/types/long.md) | Yes|
-|participant\_id|[long](/API_docs/types/long.md) | Yes|
+|id|[int](/API_docs/types/int.html) | Yes|Chat ID|
+|access\_hash|[long](/API_docs/types/long.html) | Yes|Checking sum depending on user ID|
+|date|[int](/API_docs/types/int.html) | Yes|Date of chat creation|
+|admin\_id|[long](/API_docs/types/long.html) | Yes|
+|participant\_id|[long](/API_docs/types/long.html) | Yes|
 
 
 
-### Type: [EncryptedChat](/API_docs/types/EncryptedChat.md)
+### Type: [EncryptedChat](/API_docs/types/EncryptedChat.html)
 
 
 ### Example:

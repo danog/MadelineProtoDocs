@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_passportConfig.html
 ---
 # Constructor: help.passportConfig  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,12 +16,12 @@ Telegram [passport](https://core.telegram.org/passport) configuration
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[int](/API_docs/types/int.md) | Yes|
-|countries\_langs|[DataJSON](/API_docs/types/DataJSON.md) | Yes|Localization|
+|hash|[int](/API_docs/types/int.html) | Yes|
+|countries\_langs|[DataJSON](/API_docs/types/DataJSON.html) | Yes|Localization|
 
 
 
-### Type: [help.PassportConfig](/API_docs/types/help.PassportConfig.md)
+### Type: [help.PassportConfig](/API_docs/types/help.PassportConfig.html)
 
 
 ### Example:

@@ -5,31 +5,31 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: ChatInvite
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[chatInviteAlready](/API_docs/constructors/chatInviteAlready.md)  
+[chatInviteAlready](/API_docs/constructors/chatInviteAlready.html)  
 
-[chatInvite](/API_docs/constructors/chatInvite.md)  
+[chatInvite](/API_docs/constructors/chatInvite.html)  
 
-[chatInvitePeek](/API_docs/constructors/chatInvitePeek.md)  
+[chatInvitePeek](/API_docs/constructors/chatInvitePeek.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->checkChatInvite](/API_docs/methods/messages.checkChatInvite.md)  
+[$MadelineProto->messages->checkChatInvite](/API_docs/methods/messages.checkChatInvite.html)  
 
 
 
-[chatInviteAlready](/API_docs/constructors/chatInviteAlready.md)  
+[chatInviteAlready](/API_docs/constructors/chatInviteAlready.html)  
 
-[chatInvite](/API_docs/constructors/chatInvite.md)  
+[chatInvite](/API_docs/constructors/chatInvite.html)  
 
-[chatInvitePeek](/API_docs/constructors/chatInvitePeek.md)  
+[chatInvitePeek](/API_docs/constructors/chatInvitePeek.html)  
 
-[$MadelineProto->messages->checkChatInvite](/API_docs/methods/messages.checkChatInvite.md)  
+[$MadelineProto->messages->checkChatInvite](/API_docs/methods/messages.checkChatInvite.html)  
 

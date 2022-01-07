@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: groupCallParticipant  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -13,29 +13,29 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|muted|[Bool](/API_docs/types/Bool.md) | Optional|
-|left|[Bool](/API_docs/types/Bool.md) | Optional|
-|can\_self\_unmute|[Bool](/API_docs/types/Bool.md) | Optional|
-|just\_joined|[Bool](/API_docs/types/Bool.md) | Optional|
-|versioned|[Bool](/API_docs/types/Bool.md) | Optional|
-|min|[Bool](/API_docs/types/Bool.md) | Optional|
-|muted\_by\_you|[Bool](/API_docs/types/Bool.md) | Optional|
-|volume\_by\_admin|[Bool](/API_docs/types/Bool.md) | Optional|
-|self|[Bool](/API_docs/types/Bool.md) | Optional|
-|video\_joined|[Bool](/API_docs/types/Bool.md) | Optional|
-|peer|[Peer](/API_docs/types/Peer.md) | Yes|
-|date|[int](/API_docs/types/int.md) | Yes|
-|active\_date|[int](/API_docs/types/int.md) | Optional|
-|source|[int](/API_docs/types/int.md) | Yes|
-|volume|[int](/API_docs/types/int.md) | Optional|
-|about|[string](/API_docs/types/string.md) | Optional|
-|raise\_hand\_rating|[long](/API_docs/types/long.md) | Optional|
-|video|[GroupCallParticipantVideo](/API_docs/types/GroupCallParticipantVideo.md) | Optional|
-|presentation|[GroupCallParticipantVideo](/API_docs/types/GroupCallParticipantVideo.md) | Optional|
+|muted|[Bool](/API_docs/types/Bool.html) | Optional|
+|left|[Bool](/API_docs/types/Bool.html) | Optional|
+|can\_self\_unmute|[Bool](/API_docs/types/Bool.html) | Optional|
+|just\_joined|[Bool](/API_docs/types/Bool.html) | Optional|
+|versioned|[Bool](/API_docs/types/Bool.html) | Optional|
+|min|[Bool](/API_docs/types/Bool.html) | Optional|
+|muted\_by\_you|[Bool](/API_docs/types/Bool.html) | Optional|
+|volume\_by\_admin|[Bool](/API_docs/types/Bool.html) | Optional|
+|self|[Bool](/API_docs/types/Bool.html) | Optional|
+|video\_joined|[Bool](/API_docs/types/Bool.html) | Optional|
+|peer|[Peer](/API_docs/types/Peer.html) | Yes|
+|date|[int](/API_docs/types/int.html) | Yes|
+|active\_date|[int](/API_docs/types/int.html) | Optional|
+|source|[int](/API_docs/types/int.html) | Yes|
+|volume|[int](/API_docs/types/int.html) | Optional|
+|about|[string](/API_docs/types/string.html) | Optional|
+|raise\_hand\_rating|[long](/API_docs/types/long.html) | Optional|
+|video|[GroupCallParticipantVideo](/API_docs/types/GroupCallParticipantVideo.html) | Optional|
+|presentation|[GroupCallParticipantVideo](/API_docs/types/GroupCallParticipantVideo.html) | Optional|
 
 
 
-### Type: [GroupCallParticipant](/API_docs/types/GroupCallParticipant.md)
+### Type: [GroupCallParticipant](/API_docs/types/GroupCallParticipant.html)
 
 
 ### Example:

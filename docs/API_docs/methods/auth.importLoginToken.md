@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_importLoginToken.html
 ---
 # Method: auth.importLoginToken
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -19,10 +19,10 @@ For more info, see [login via QR code](https://core.telegram.org/api/qr-login).
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|token|[bytes](/API_docs/types/bytes.md) | Login token | Yes|
+|token|[bytes](/API_docs/types/bytes.html) | Login token | Yes|
 
 
-### Return type: [auth.LoginToken](/API_docs/types/auth.LoginToken.md)
+### Return type: [auth.LoginToken](/API_docs/types/auth.LoginToken.html)
 
 ### Can bots use this method: **NO**
 

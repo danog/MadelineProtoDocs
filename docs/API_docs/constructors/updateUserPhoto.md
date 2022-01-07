@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateUserPhoto  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,14 +15,14 @@ Change of contact's profile photo.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.md) | Yes|
-|date|[int](/API_docs/types/int.md) | Yes|Date of photo update.|
-|photo|[UserProfilePhoto](/API_docs/types/UserProfilePhoto.md) | Optional|New profile photo|
-|previous|[Bool](/API_docs/types/Bool.md) | Yes|([boolTrue](../constructors/boolTrue.md)), if one of the previously used photos is set a profile photo.|
+|user\_id|[long](/API_docs/types/long.html) | Yes|
+|date|[int](/API_docs/types/int.html) | Yes|Date of photo update.|
+|photo|[UserProfilePhoto](/API_docs/types/UserProfilePhoto.html) | Optional|New profile photo|
+|previous|[Bool](/API_docs/types/Bool.html) | Yes|([boolTrue](../constructors/boolTrue.html)), if one of the previously used photos is set a profile photo.|
 
 
 
-### Type: [Update](/API_docs/types/Update.md)
+### Type: [Update](/API_docs/types/Update.html)
 
 
 ### Example:

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: documentEmpty  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,11 +15,11 @@ Empty constructor, document doesn't exist.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](/API_docs/types/long.md) | Yes|Document ID or `0`|
+|id|[long](/API_docs/types/long.html) | Yes|Document ID or `0`|
 
 
 
-### Type: [Document](/API_docs/types/Document.md)
+### Type: [Document](/API_docs/types/Document.html)
 
 
 ### Example:

@@ -5,15 +5,15 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputGame
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inputGameID](/API_docs/constructors/inputGameID.md)  
+[inputGameID](/API_docs/constructors/inputGameID.html)  
 
-[inputGameShortName](/API_docs/constructors/inputGameShortName.md)  
+[inputGameShortName](/API_docs/constructors/inputGameShortName.html)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputGameID](/API_docs/constructors/inputGameID.md)  
+[inputGameID](/API_docs/constructors/inputGameID.html)  
 
-[inputGameShortName](/API_docs/constructors/inputGameShortName.md)  
+[inputGameShortName](/API_docs/constructors/inputGameShortName.html)  
 

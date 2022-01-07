@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: ChatAdminWithInvites
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[chatAdminWithInvites](/API_docs/constructors/chatAdminWithInvites.md)  
+[chatAdminWithInvites](/API_docs/constructors/chatAdminWithInvites.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[chatAdminWithInvites](/API_docs/constructors/chatAdminWithInvites.md)  
+[chatAdminWithInvites](/API_docs/constructors/chatAdminWithInvites.html)  
 

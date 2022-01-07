@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatParticipants  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,13 +15,13 @@ Group members.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[long](/API_docs/types/long.md) | Yes|
-|participants|Array of [ChatParticipant](/API_docs/types/ChatParticipant.md) | Yes|List of group members|
-|version|[int](/API_docs/types/int.md) | Yes|Group version number|
+|chat\_id|[long](/API_docs/types/long.html) | Yes|
+|participants|Array of [ChatParticipant](/API_docs/types/ChatParticipant.html) | Yes|List of group members|
+|version|[int](/API_docs/types/int.html) | Yes|Group version number|
 
 
 
-### Type: [ChatParticipants](/API_docs/types/ChatParticipants.md)
+### Type: [ChatParticipants](/API_docs/types/ChatParticipants.html)
 
 
 ### Example:

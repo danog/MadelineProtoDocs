@@ -7,21 +7,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getAppChangelog.html
 ---
 # Method: help.getAppChangelog
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
 Get changelog of current app.  
-Typically, an [updates](../constructors/updates.md) constructor will be returned, containing one or more [updateServiceNotification](../constructors/updateServiceNotification.md) updates with app-specific changelogs.
+Typically, an [updates](../constructors/updates.html) constructor will be returned, containing one or more [updateServiceNotification](../constructors/updateServiceNotification.html) updates with app-specific changelogs.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|prev\_app\_version|[string](/API_docs/types/string.md) | Previous app version | Yes|
+|prev\_app\_version|[string](/API_docs/types/string.html) | Previous app version | Yes|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **NO**
 

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_updateDialogFilter.html
 ---
 # Method: messages.updateDialogFilter
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Update [folder](https://core.telegram.org/api/folders)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[int](/API_docs/types/int.md) | [Folder](https://core.telegram.org/api/folders) ID | Yes|
-|filter|[DialogFilter](/API_docs/types/DialogFilter.md) | [Folder](https://core.telegram.org/api/folders) info | Optional|
+|id|[int](/API_docs/types/int.html) | [Folder](https://core.telegram.org/api/folders) ID | Yes|
+|filter|[DialogFilter](/API_docs/types/DialogFilter.html) | [Folder](https://core.telegram.org/api/folders) info | Optional|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

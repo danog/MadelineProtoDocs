@@ -6,23 +6,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/contacts_Found.html
 ---
 # Type: contacts.Found
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[contacts.found](/API_docs/constructors/contacts.found.md)  
+[contacts.found](/API_docs/constructors/contacts.found.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->contacts->search](/API_docs/methods/contacts.search.md)  
+[$MadelineProto->contacts->search](/API_docs/methods/contacts.search.html)  
 
 
 
-[contacts.found](/API_docs/constructors/contacts.found.md)  
+[contacts.found](/API_docs/constructors/contacts.found.html)  
 
-[$MadelineProto->contacts->search](/API_docs/methods/contacts.search.md)  
+[$MadelineProto->contacts->search](/API_docs/methods/contacts.search.html)  
 

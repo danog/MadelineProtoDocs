@@ -16,7 +16,7 @@ redirect_from: /complete2FAlogin.html
 |----------|---------------|
 |password| A string with the password|
 
-### Return type: [auth.Authorization](API_docs/types/auth.Authorization.md)
+### Return type: [auth.Authorization](API_docs/types/auth.Authorization.html)
 
 ### Example ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 

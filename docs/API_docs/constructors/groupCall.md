@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: groupCall  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -13,26 +13,26 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|join\_muted|[Bool](/API_docs/types/Bool.md) | Optional|
-|can\_change\_join\_muted|[Bool](/API_docs/types/Bool.md) | Optional|
-|join\_date\_asc|[Bool](/API_docs/types/Bool.md) | Optional|
-|schedule\_start\_subscribed|[Bool](/API_docs/types/Bool.md) | Optional|
-|can\_start\_video|[Bool](/API_docs/types/Bool.md) | Optional|
-|record\_video\_active|[Bool](/API_docs/types/Bool.md) | Optional|
-|id|[long](/API_docs/types/long.md) | Yes|
-|access\_hash|[long](/API_docs/types/long.md) | Yes|
-|participants\_count|[int](/API_docs/types/int.md) | Yes|
-|title|[string](/API_docs/types/string.md) | Optional|
-|stream\_dc\_id|[int](/API_docs/types/int.md) | Optional|
-|record\_start\_date|[int](/API_docs/types/int.md) | Optional|
-|schedule\_date|[int](/API_docs/types/int.md) | Optional|
-|unmuted\_video\_count|[int](/API_docs/types/int.md) | Optional|
-|unmuted\_video\_limit|[int](/API_docs/types/int.md) | Yes|
-|version|[int](/API_docs/types/int.md) | Yes|
+|join\_muted|[Bool](/API_docs/types/Bool.html) | Optional|
+|can\_change\_join\_muted|[Bool](/API_docs/types/Bool.html) | Optional|
+|join\_date\_asc|[Bool](/API_docs/types/Bool.html) | Optional|
+|schedule\_start\_subscribed|[Bool](/API_docs/types/Bool.html) | Optional|
+|can\_start\_video|[Bool](/API_docs/types/Bool.html) | Optional|
+|record\_video\_active|[Bool](/API_docs/types/Bool.html) | Optional|
+|id|[long](/API_docs/types/long.html) | Yes|
+|access\_hash|[long](/API_docs/types/long.html) | Yes|
+|participants\_count|[int](/API_docs/types/int.html) | Yes|
+|title|[string](/API_docs/types/string.html) | Optional|
+|stream\_dc\_id|[int](/API_docs/types/int.html) | Optional|
+|record\_start\_date|[int](/API_docs/types/int.html) | Optional|
+|schedule\_date|[int](/API_docs/types/int.html) | Optional|
+|unmuted\_video\_count|[int](/API_docs/types/int.html) | Optional|
+|unmuted\_video\_limit|[int](/API_docs/types/int.html) | Yes|
+|version|[int](/API_docs/types/int.html) | Yes|
 
 
 
-### Type: [GroupCall](/API_docs/types/GroupCall.md)
+### Type: [GroupCall](/API_docs/types/GroupCall.html)
 
 
 ### Example:

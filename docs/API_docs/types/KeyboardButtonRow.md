@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: KeyboardButtonRow
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[keyboardButtonRow](/API_docs/constructors/keyboardButtonRow.md)  
+[keyboardButtonRow](/API_docs/constructors/keyboardButtonRow.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[keyboardButtonRow](/API_docs/constructors/keyboardButtonRow.md)  
+[keyboardButtonRow](/API_docs/constructors/keyboardButtonRow.html)  
 

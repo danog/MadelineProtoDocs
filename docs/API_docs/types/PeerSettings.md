@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: PeerSettings
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[peerSettings](/API_docs/constructors/peerSettings.md)  
+[peerSettings](/API_docs/constructors/peerSettings.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[peerSettings](/API_docs/constructors/peerSettings.md)  
+[peerSettings](/API_docs/constructors/peerSettings.html)  
 

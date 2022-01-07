@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_editBanned.html
 ---
 # Method: channels.editBanned
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Ban/unban/kick a user in a [supergroup/channel](https://core.telegram.org/api/ch
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | The [supergroup/channel](https://core.telegram.org/api/channel). | Optional|
-|participant|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) |  | Optional|
-|banned\_rights|[ChatBannedRights](/API_docs/types/ChatBannedRights.md) | The banned rights | Yes|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The [supergroup/channel](https://core.telegram.org/api/channel). | Optional|
+|participant|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
+|banned\_rights|[ChatBannedRights](/API_docs/types/ChatBannedRights.html) | The banned rights | Yes|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **YES**
 

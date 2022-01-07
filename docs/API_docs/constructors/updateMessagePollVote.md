@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateMessagePollVote  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,14 +15,14 @@ A specific user has voted in a poll
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|poll\_id|[long](/API_docs/types/long.md) | Yes|Poll ID|
-|user\_id|[long](/API_docs/types/long.md) | Yes|
-|options|Array of [bytes](/API_docs/types/bytes.md) | Yes|Chosen option(s)|
-|qts|[int](/API_docs/types/int.md) | Yes|
+|poll\_id|[long](/API_docs/types/long.html) | Yes|Poll ID|
+|user\_id|[long](/API_docs/types/long.html) | Yes|
+|options|Array of [bytes](/API_docs/types/bytes.html) | Yes|Chosen option(s)|
+|qts|[int](/API_docs/types/int.html) | Yes|
 
 
 
-### Type: [Update](/API_docs/types/Update.md)
+### Type: [Update](/API_docs/types/Update.html)
 
 
 ### Example:

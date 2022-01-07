@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: documentAttributeAudio\_46  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,13 +15,13 @@ Represents an audio file
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|duration|[int](/API_docs/types/int.md) | Optional|Duration in seconds|
-|title|[string](/API_docs/types/string.md) | Yes|Name of song|
-|performer|[string](/API_docs/types/string.md) | Yes|Performer|
+|duration|[int](/API_docs/types/int.html) | Optional|Duration in seconds|
+|title|[string](/API_docs/types/string.html) | Yes|Name of song|
+|performer|[string](/API_docs/types/string.html) | Yes|Performer|
 
 
 
-### Type: [DocumentAttribute](/API_docs/types/DocumentAttribute.md)
+### Type: [DocumentAttribute](/API_docs/types/DocumentAttribute.html)
 
 
 ### Example:

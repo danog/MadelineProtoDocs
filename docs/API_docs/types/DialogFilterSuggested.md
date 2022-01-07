@@ -5,23 +5,23 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: DialogFilterSuggested
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[dialogFilterSuggested](/API_docs/constructors/dialogFilterSuggested.md)  
+[dialogFilterSuggested](/API_docs/constructors/dialogFilterSuggested.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getSuggestedDialogFilters](/API_docs/methods/messages.getSuggestedDialogFilters.md)  
+[$MadelineProto->messages->getSuggestedDialogFilters](/API_docs/methods/messages.getSuggestedDialogFilters.html)  
 
 
 
-[dialogFilterSuggested](/API_docs/constructors/dialogFilterSuggested.md)  
+[dialogFilterSuggested](/API_docs/constructors/dialogFilterSuggested.html)  
 
-[$MadelineProto->messages->getSuggestedDialogFilters](/API_docs/methods/messages.getSuggestedDialogFilters.md)  
+[$MadelineProto->messages->getSuggestedDialogFilters](/API_docs/methods/messages.getSuggestedDialogFilters.html)  
 

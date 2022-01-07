@@ -5,17 +5,17 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: MessageUserVote
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[messageUserVote](/API_docs/constructors/messageUserVote.md)  
+[messageUserVote](/API_docs/constructors/messageUserVote.html)  
 
-[messageUserVoteInputOption](/API_docs/constructors/messageUserVoteInputOption.md)  
+[messageUserVoteInputOption](/API_docs/constructors/messageUserVoteInputOption.html)  
 
-[messageUserVoteMultiple](/API_docs/constructors/messageUserVoteMultiple.md)  
+[messageUserVoteMultiple](/API_docs/constructors/messageUserVoteMultiple.html)  
 
 
 
@@ -23,9 +23,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[messageUserVote](/API_docs/constructors/messageUserVote.md)  
+[messageUserVote](/API_docs/constructors/messageUserVote.html)  
 
-[messageUserVoteInputOption](/API_docs/constructors/messageUserVoteInputOption.md)  
+[messageUserVoteInputOption](/API_docs/constructors/messageUserVoteInputOption.html)  
 
-[messageUserVoteMultiple](/API_docs/constructors/messageUserVoteMultiple.md)  
+[messageUserVoteMultiple](/API_docs/constructors/messageUserVoteMultiple.html)  
 

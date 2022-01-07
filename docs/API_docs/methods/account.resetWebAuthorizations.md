@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_resetWebAuthorizations.html
 ---
 # Method: account.resetWebAuthorizations
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ Reset all active web [telegram login](https://core.telegram.org/widgets/login) s
 
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

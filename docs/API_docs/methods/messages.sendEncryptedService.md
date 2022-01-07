@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_sendEncryptedService.html
 ---
 # Method: messages.sendEncryptedService
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Sends a service message to a secret chat.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](/API_docs/types/InputEncryptedChat.md) | Secret chat ID | Yes|
-|data|[bytes](/API_docs/types/bytes.md) | TL-serialization of  [DecryptedMessage](../types/DecryptedMessage.md) type, encrypted with a key generated during chat initialization | Yes|
+|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](/API_docs/types/InputEncryptedChat.html) | Secret chat ID | Yes|
+|data|[bytes](/API_docs/types/bytes.html) | TL-serialization of  [DecryptedMessage](../types/DecryptedMessage.html) type, encrypted with a key generated during chat initialization | Yes|
 
 
-### Return type: [messages.SentEncryptedMessage](/API_docs/types/messages.SentEncryptedMessage.md)
+### Return type: [messages.SentEncryptedMessage](/API_docs/types/messages.SentEncryptedMessage.html)
 
 ### Can bots use this method: **NO**
 

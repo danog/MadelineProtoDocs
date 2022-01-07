@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getStickers.html
 ---
 # Method: messages.getStickers
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Get stickers by emoji
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|emoticon|[string](/API_docs/types/string.md) | The emoji | Yes|
-|hash|[long](/API_docs/types/long.md) |  | Yes|
+|emoticon|[string](/API_docs/types/string.html) | The emoji | Yes|
+|hash|[long](/API_docs/types/long.html) |  | Yes|
 
 
-### Return type: [messages.Stickers](/API_docs/types/messages.Stickers.md)
+### Return type: [messages.Stickers](/API_docs/types/messages.Stickers.html)
 
 ### Can bots use this method: **NO**
 

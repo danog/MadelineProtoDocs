@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/upload_cdnFileReuploadNeeded.html
 ---
 # Constructor: upload.cdnFileReuploadNeeded  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,11 +16,11 @@ The file was cleared from the temporary RAM cache of the [CDN](https://core.tele
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|request\_token|[bytes](/API_docs/types/bytes.md) | Yes|Request token (see [CDN](https://core.telegram.org/cdn))|
+|request\_token|[bytes](/API_docs/types/bytes.html) | Yes|Request token (see [CDN](https://core.telegram.org/cdn))|
 
 
 
-### Type: [upload.CdnFile](/API_docs/types/upload.CdnFile.md)
+### Type: [upload.CdnFile](/API_docs/types/upload.CdnFile.html)
 
 
 ### Example:

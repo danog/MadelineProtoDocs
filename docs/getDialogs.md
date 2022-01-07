@@ -9,7 +9,7 @@ parent: "Methods"
 
 Gets full list of dialogs
 
-### Return type: Array of [Peer objects](API_docs/types/Peer.md)
+### Return type: Array of [Peer objects](API_docs/types/Peer.html)
 
 ### Example ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 

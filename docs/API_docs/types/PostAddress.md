@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: PostAddress
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[postAddress](/API_docs/constructors/postAddress.md)  
+[postAddress](/API_docs/constructors/postAddress.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[postAddress](/API_docs/constructors/postAddress.md)  
+[postAddress](/API_docs/constructors/postAddress.html)  
 

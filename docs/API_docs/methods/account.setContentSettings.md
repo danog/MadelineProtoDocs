@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_setContentSettings.html
 ---
 # Method: account.setContentSettings
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Set sensitive content settings (for viewing or hiding NSFW content)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|sensitive\_enabled|[Bool](/API_docs/types/Bool.md) | Enable NSFW content | Optional|
+|sensitive\_enabled|[Bool](/API_docs/types/Bool.html) | Enable NSFW content | Optional|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_inviteToChannel.html
 ---
 # Method: channels.inviteToChannel
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Invite users to a channel/supergroup
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | Channel/supergroup | Optional|
-|users|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | Users to invite | Yes|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Channel/supergroup | Optional|
+|users|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Users to invite | Yes|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **NO**
 

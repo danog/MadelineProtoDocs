@@ -5,23 +5,23 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputStickerSet
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inputStickerSetEmpty](/API_docs/constructors/inputStickerSetEmpty.md)  
+[inputStickerSetEmpty](/API_docs/constructors/inputStickerSetEmpty.html)  
 
-[inputStickerSetID](/API_docs/constructors/inputStickerSetID.md)  
+[inputStickerSetID](/API_docs/constructors/inputStickerSetID.html)  
 
-[inputStickerSetShortName](/API_docs/constructors/inputStickerSetShortName.md)  
+[inputStickerSetShortName](/API_docs/constructors/inputStickerSetShortName.html)  
 
-[inputStickerSetAnimatedEmoji](/API_docs/constructors/inputStickerSetAnimatedEmoji.md)  
+[inputStickerSetAnimatedEmoji](/API_docs/constructors/inputStickerSetAnimatedEmoji.html)  
 
-[inputStickerSetDice](/API_docs/constructors/inputStickerSetDice.md)  
+[inputStickerSetDice](/API_docs/constructors/inputStickerSetDice.html)  
 
-[inputStickerSetAnimatedEmojiAnimations](/API_docs/constructors/inputStickerSetAnimatedEmojiAnimations.md)  
+[inputStickerSetAnimatedEmojiAnimations](/API_docs/constructors/inputStickerSetAnimatedEmojiAnimations.html)  
 
 
 
@@ -29,15 +29,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputStickerSetEmpty](/API_docs/constructors/inputStickerSetEmpty.md)  
+[inputStickerSetEmpty](/API_docs/constructors/inputStickerSetEmpty.html)  
 
-[inputStickerSetID](/API_docs/constructors/inputStickerSetID.md)  
+[inputStickerSetID](/API_docs/constructors/inputStickerSetID.html)  
 
-[inputStickerSetShortName](/API_docs/constructors/inputStickerSetShortName.md)  
+[inputStickerSetShortName](/API_docs/constructors/inputStickerSetShortName.html)  
 
-[inputStickerSetAnimatedEmoji](/API_docs/constructors/inputStickerSetAnimatedEmoji.md)  
+[inputStickerSetAnimatedEmoji](/API_docs/constructors/inputStickerSetAnimatedEmoji.html)  
 
-[inputStickerSetDice](/API_docs/constructors/inputStickerSetDice.md)  
+[inputStickerSetDice](/API_docs/constructors/inputStickerSetDice.html)  
 
-[inputStickerSetAnimatedEmojiAnimations](/API_docs/constructors/inputStickerSetAnimatedEmojiAnimations.md)  
+[inputStickerSetAnimatedEmojiAnimations](/API_docs/constructors/inputStickerSetAnimatedEmojiAnimations.html)  
 

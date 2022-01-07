@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockAuthorDate  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ Author and date of creation of article
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|author|[RichText](/API_docs/types/RichText.md) | Yes|Author name|
-|published\_date|[int](/API_docs/types/int.md) | Yes|Date of pubblication|
+|author|[RichText](/API_docs/types/RichText.html) | Yes|Author name|
+|published\_date|[int](/API_docs/types/int.html) | Yes|Date of pubblication|
 
 
 
-### Type: [PageBlock](/API_docs/types/PageBlock.md)
+### Type: [PageBlock](/API_docs/types/PageBlock.html)
 
 
 ### Example:

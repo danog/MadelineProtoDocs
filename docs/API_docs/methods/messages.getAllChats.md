@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getAllChats.html
 ---
 # Method: messages.getAllChats
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Get all chats, channels and supergroups
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|except\_ids|Array of [long](/API_docs/types/long.md) | Except these chats/channels/supergroups | Yes|
+|except\_ids|Array of [long](/API_docs/types/long.html) | Except these chats/channels/supergroups | Yes|
 
 
-### Return type: [messages.Chats](/API_docs/types/messages.Chats.md)
+### Return type: [messages.Chats](/API_docs/types/messages.Chats.html)
 
 ### Can bots use this method: **NO**
 

@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: SecureSecretSettings
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[secureSecretSettings](/API_docs/constructors/secureSecretSettings.md)  
+[secureSecretSettings](/API_docs/constructors/secureSecretSettings.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[secureSecretSettings](/API_docs/constructors/secureSecretSettings.md)  
+[secureSecretSettings](/API_docs/constructors/secureSecretSettings.html)  
 

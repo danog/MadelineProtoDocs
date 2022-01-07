@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: photoCachedSize  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,14 +15,14 @@ Description of an image and its content.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|type|[string](/API_docs/types/string.md) | Yes|Thumbnail type|
-|w|[int](/API_docs/types/int.md) | Yes|Image width|
-|h|[int](/API_docs/types/int.md) | Yes|Image height|
-|bytes|[bytes](/API_docs/types/bytes.md) | Yes|Binary data, file content|
+|type|[string](/API_docs/types/string.html) | Yes|Thumbnail type|
+|w|[int](/API_docs/types/int.html) | Yes|Image width|
+|h|[int](/API_docs/types/int.html) | Yes|Image height|
+|bytes|[bytes](/API_docs/types/bytes.html) | Yes|Binary data, file content|
 
 
 
-### Type: [PhotoSize](/API_docs/types/PhotoSize.md)
+### Type: [PhotoSize](/API_docs/types/PhotoSize.html)
 
 
 ### Example:

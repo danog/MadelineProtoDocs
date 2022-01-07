@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionNotifyLayer\_17  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,11 +15,11 @@ A notification stating the API layer that is used by the client. You should use 
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|layer|[int](/API_docs/types/int.md) | Yes|Layer number, must be **17** or higher (this contructor was introduced in [Layer 17](https://core.telegram.org/api/layers#layer-17)).|
+|layer|[int](/API_docs/types/int.html) | Yes|Layer number, must be **17** or higher (this contructor was introduced in [Layer 17](https://core.telegram.org/api/layers#layer-17)).|
 
 
 
-### Type: [DecryptedMessageAction](/API_docs/types/DecryptedMessageAction.md)
+### Type: [DecryptedMessageAction](/API_docs/types/DecryptedMessageAction.html)
 
 
 ### Example:

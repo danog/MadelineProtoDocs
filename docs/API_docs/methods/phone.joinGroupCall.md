@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/phone_joinGroupCall.html
 ---
 # Method: phone.joinGroupCall
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,15 +15,15 @@ redirect_from: /API_docs/methods/phone_joinGroupCall.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|muted|[Bool](/API_docs/types/Bool.md) | Optional|
-|video\_stopped|[Bool](/API_docs/types/Bool.md) | Optional|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.md) | Yes|
-|join\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
-|invite\_hash|[string](/API_docs/types/string.md) | Optional|
-|params|[DataJSON](/API_docs/types/DataJSON.md) | Yes|
+|muted|[Bool](/API_docs/types/Bool.html) | Optional|
+|video\_stopped|[Bool](/API_docs/types/Bool.html) | Optional|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
+|join\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+|invite\_hash|[string](/API_docs/types/string.html) | Optional|
+|params|[DataJSON](/API_docs/types/DataJSON.html) | Yes|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **NO**
 

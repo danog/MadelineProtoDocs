@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/phone_groupCall.html
 ---
 # Constructor: phone.groupCall  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -14,15 +14,15 @@ redirect_from: /API_docs/constructors/phone_groupCall.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|call|[GroupCall](/API_docs/types/GroupCall.md) | Yes|
-|participants|Array of [GroupCallParticipant](/API_docs/types/GroupCallParticipant.md) | Yes|
-|participants\_next\_offset|[string](/API_docs/types/string.md) | Yes|
-|chats|Array of [Chat](/API_docs/types/Chat.md) | Yes|
-|users|Array of [User](/API_docs/types/User.md) | Yes|
+|call|[GroupCall](/API_docs/types/GroupCall.html) | Yes|
+|participants|Array of [GroupCallParticipant](/API_docs/types/GroupCallParticipant.html) | Yes|
+|participants\_next\_offset|[string](/API_docs/types/string.html) | Yes|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
+|users|Array of [User](/API_docs/types/User.html) | Yes|
 
 
 
-### Type: [phone.GroupCall](/API_docs/types/phone.GroupCall.md)
+### Type: [phone.GroupCall](/API_docs/types/phone.GroupCall.html)
 
 
 ### Example:

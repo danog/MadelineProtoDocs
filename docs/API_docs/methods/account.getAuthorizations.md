@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getAuthorizations.html
 ---
 # Method: account.getAuthorizations
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ Get logged-in sessions
 
 
 
-### Return type: [account.Authorizations](/API_docs/types/account.Authorizations.md)
+### Return type: [account.Authorizations](/API_docs/types/account.Authorizations.html)
 
 ### Can bots use this method: **NO**
 

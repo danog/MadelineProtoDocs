@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_acceptTermsOfService.html
 ---
 # Method: help.acceptTermsOfService
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Accept the new terms of service
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[DataJSON](/API_docs/types/DataJSON.md) | ID of terms of service | Yes|
+|id|[DataJSON](/API_docs/types/DataJSON.html) | ID of terms of service | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

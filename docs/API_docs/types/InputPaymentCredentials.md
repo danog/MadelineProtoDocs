@@ -5,19 +5,19 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputPaymentCredentials
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inputPaymentCredentialsSaved](/API_docs/constructors/inputPaymentCredentialsSaved.md)  
+[inputPaymentCredentialsSaved](/API_docs/constructors/inputPaymentCredentialsSaved.html)  
 
-[inputPaymentCredentials](/API_docs/constructors/inputPaymentCredentials.md)  
+[inputPaymentCredentials](/API_docs/constructors/inputPaymentCredentials.html)  
 
-[inputPaymentCredentialsApplePay](/API_docs/constructors/inputPaymentCredentialsApplePay.md)  
+[inputPaymentCredentialsApplePay](/API_docs/constructors/inputPaymentCredentialsApplePay.html)  
 
-[inputPaymentCredentialsGooglePay](/API_docs/constructors/inputPaymentCredentialsGooglePay.md)  
+[inputPaymentCredentialsGooglePay](/API_docs/constructors/inputPaymentCredentialsGooglePay.html)  
 
 
 
@@ -25,11 +25,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputPaymentCredentialsSaved](/API_docs/constructors/inputPaymentCredentialsSaved.md)  
+[inputPaymentCredentialsSaved](/API_docs/constructors/inputPaymentCredentialsSaved.html)  
 
-[inputPaymentCredentials](/API_docs/constructors/inputPaymentCredentials.md)  
+[inputPaymentCredentials](/API_docs/constructors/inputPaymentCredentials.html)  
 
-[inputPaymentCredentialsApplePay](/API_docs/constructors/inputPaymentCredentialsApplePay.md)  
+[inputPaymentCredentialsApplePay](/API_docs/constructors/inputPaymentCredentialsApplePay.html)  
 
-[inputPaymentCredentialsGooglePay](/API_docs/constructors/inputPaymentCredentialsGooglePay.md)  
+[inputPaymentCredentialsGooglePay](/API_docs/constructors/inputPaymentCredentialsGooglePay.html)  
 

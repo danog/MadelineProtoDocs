@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_faveSticker.html
 ---
 # Method: messages.faveSticker
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Mark a sticker as favorite
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.md) | Sticker to mark as favorite | Optional|
-|unfave|[Bool](/API_docs/types/Bool.md) | Unfavorite | Yes|
+|id|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | Sticker to mark as favorite | Optional|
+|unfave|[Bool](/API_docs/types/Bool.html) | Unfavorite | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

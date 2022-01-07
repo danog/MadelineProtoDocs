@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureSecretSettings  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,13 +15,13 @@ Secure settings
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|secure\_algo|[SecurePasswordKdfAlgo](/API_docs/types/SecurePasswordKdfAlgo.md) | Yes|Secure KDF algo|
-|secure\_secret|[bytes](/API_docs/types/bytes.md) | Yes|Secure secret|
-|secure\_secret\_id|[long](/API_docs/types/long.md) | Yes|Secret ID|
+|secure\_algo|[SecurePasswordKdfAlgo](/API_docs/types/SecurePasswordKdfAlgo.html) | Yes|Secure KDF algo|
+|secure\_secret|[bytes](/API_docs/types/bytes.html) | Yes|Secure secret|
+|secure\_secret\_id|[long](/API_docs/types/long.html) | Yes|Secret ID|
 
 
 
-### Type: [SecureSecretSettings](/API_docs/types/SecureSecretSettings.md)
+### Type: [SecureSecretSettings](/API_docs/types/SecureSecretSettings.html)
 
 
 ### Example:

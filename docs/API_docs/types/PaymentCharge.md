@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: PaymentCharge
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[paymentCharge](/API_docs/constructors/paymentCharge.md)  
+[paymentCharge](/API_docs/constructors/paymentCharge.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[paymentCharge](/API_docs/constructors/paymentCharge.md)  
+[paymentCharge](/API_docs/constructors/paymentCharge.html)  
 

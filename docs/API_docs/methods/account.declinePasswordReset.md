@@ -7,13 +7,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_declinePasswordReset.html
 ---
 # Method: account.declinePasswordReset
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

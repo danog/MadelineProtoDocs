@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getMessagesViews.html
 ---
 # Method: messages.getMessagesViews
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Get and increase the view counter of a message sent or forwarded from a [channel
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Peer where the message was found | Optional|
-|id|Array of [int](/API_docs/types/int.md) | ID of message | Yes|
-|increment|[Bool](/API_docs/types/Bool.md) | Whether to mark the message as viewed and increment the view counter | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where the message was found | Optional|
+|id|Array of [int](/API_docs/types/int.html) | ID of message | Yes|
+|increment|[Bool](/API_docs/types/Bool.html) | Whether to mark the message as viewed and increment the view counter | Yes|
 
 
-### Return type: [messages.MessageViews](/API_docs/types/messages.MessageViews.md)
+### Return type: [messages.MessageViews](/API_docs/types/messages.MessageViews.html)
 
 ### Can bots use this method: **NO**
 

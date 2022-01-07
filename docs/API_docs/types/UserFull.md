@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: UserFull
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[userFull](/API_docs/constructors/userFull.md)  
+[userFull](/API_docs/constructors/userFull.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[userFull](/API_docs/constructors/userFull.md)  
+[userFull](/API_docs/constructors/userFull.html)  
 

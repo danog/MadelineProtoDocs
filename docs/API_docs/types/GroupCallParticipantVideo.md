@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: GroupCallParticipantVideo
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[groupCallParticipantVideo](/API_docs/constructors/groupCallParticipantVideo.md)  
+[groupCallParticipantVideo](/API_docs/constructors/groupCallParticipantVideo.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[groupCallParticipantVideo](/API_docs/constructors/groupCallParticipantVideo.md)  
+[groupCallParticipantVideo](/API_docs/constructors/groupCallParticipantVideo.html)  
 

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/payments_getPaymentForm.html
 ---
 # Method: payments.getPaymentForm
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Get a payment form
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) |  | Optional|
-|msg\_id|[int](/API_docs/types/int.md) | Message ID of payment form | Yes|
-|theme\_params|[DataJSON](/API_docs/types/DataJSON.md) |  | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | Message ID of payment form | Yes|
+|theme\_params|[DataJSON](/API_docs/types/DataJSON.html) |  | Optional|
 
 
-### Return type: [payments.PaymentForm](/API_docs/types/payments.PaymentForm.md)
+### Return type: [payments.PaymentForm](/API_docs/types/payments.PaymentForm.html)
 
 ### Can bots use this method: **NO**
 

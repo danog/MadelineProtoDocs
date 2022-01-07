@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputThemeSettings
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inputThemeSettings](/API_docs/constructors/inputThemeSettings.md)  
+[inputThemeSettings](/API_docs/constructors/inputThemeSettings.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputThemeSettings](/API_docs/constructors/inputThemeSettings.md)  
+[inputThemeSettings](/API_docs/constructors/inputThemeSettings.html)  
 

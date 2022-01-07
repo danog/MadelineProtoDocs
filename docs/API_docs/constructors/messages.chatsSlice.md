@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_chatsSlice.html
 ---
 # Constructor: messages.chatsSlice  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,12 +16,12 @@ Partial list of chats, more would have to be fetched with [pagination](https://c
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|count|[int](/API_docs/types/int.md) | Yes|Total number of results that were found server-side (not all are included in `chats`)|
-|chats|Array of [Chat](/API_docs/types/Chat.md) | Yes|Chats|
+|count|[int](/API_docs/types/int.html) | Yes|Total number of results that were found server-side (not all are included in `chats`)|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Chats|
 
 
 
-### Type: [messages.Chats](/API_docs/types/messages.Chats.md)
+### Type: [messages.Chats](/API_docs/types/messages.Chats.html)
 
 
 ### Example:

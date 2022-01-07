@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/langpack_getDifference.html
 ---
 # Method: langpack.getDifference
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Get new strings in languagepack
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|lang\_pack|[string](/API_docs/types/string.md) | Language pack | Yes|
-|lang\_code|[string](/API_docs/types/string.md) | Language code | Yes|
-|from\_version|[int](/API_docs/types/int.md) | Previous localization pack version | Yes|
+|lang\_pack|[string](/API_docs/types/string.html) | Language pack | Yes|
+|lang\_code|[string](/API_docs/types/string.html) | Language code | Yes|
+|from\_version|[int](/API_docs/types/int.html) | Previous localization pack version | Yes|
 
 
-### Return type: [LangPackDifference](/API_docs/types/LangPackDifference.md)
+### Return type: [LangPackDifference](/API_docs/types/LangPackDifference.html)
 
 ### Can bots use this method: **NO**
 

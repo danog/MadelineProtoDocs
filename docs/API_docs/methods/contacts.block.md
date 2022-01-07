@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_block.html
 ---
 # Method: contacts.block
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Adds the user to the blacklist.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | User ID | Optional|
+|id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | User ID | Optional|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

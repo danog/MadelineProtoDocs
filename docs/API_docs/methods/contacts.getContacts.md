@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_getContacts.html
 ---
 # Method: contacts.getContacts
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Returns the current user's contact list.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[long](/API_docs/types/long.md) |  | Yes|
+|hash|[long](/API_docs/types/long.html) |  | Yes|
 
 
-### Return type: [contacts.Contacts](/API_docs/types/contacts.Contacts.md)
+### Return type: [contacts.Contacts](/API_docs/types/contacts.Contacts.html)
 
 ### Can bots use this method: **NO**
 

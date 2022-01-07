@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_reorderStickerSets.html
 ---
 # Method: messages.reorderStickerSets
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Reorder installed stickersets
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|masks|[Bool](/API_docs/types/Bool.md) | Reorder mask stickersets | Optional|
-|order|Array of [long](/API_docs/types/long.md) | New stickerset order by stickerset IDs | Yes|
+|masks|[Bool](/API_docs/types/Bool.html) | Reorder mask stickersets | Optional|
+|order|Array of [long](/API_docs/types/long.html) | New stickerset order by stickerset IDs | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

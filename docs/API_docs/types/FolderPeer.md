@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: FolderPeer
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[folderPeer](/API_docs/constructors/folderPeer.md)  
+[folderPeer](/API_docs/constructors/folderPeer.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[folderPeer](/API_docs/constructors/folderPeer.md)  
+[folderPeer](/API_docs/constructors/folderPeer.html)  
 

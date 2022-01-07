@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotInlineQuery  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,16 +15,16 @@ An incoming inline query
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|query\_id|[long](/API_docs/types/long.md) | Yes|Query ID|
-|user\_id|[long](/API_docs/types/long.md) | Yes|
-|query|[string](/API_docs/types/string.md) | Yes|Text of query|
-|geo|[GeoPoint](/API_docs/types/GeoPoint.md) | Optional|Attached geolocation|
-|peer\_type|[InlineQueryPeerType](/API_docs/types/InlineQueryPeerType.md) | Optional|
-|offset|[string](/API_docs/types/string.md) | Yes|Offset to navigate through results|
+|query\_id|[long](/API_docs/types/long.html) | Yes|Query ID|
+|user\_id|[long](/API_docs/types/long.html) | Yes|
+|query|[string](/API_docs/types/string.html) | Yes|Text of query|
+|geo|[GeoPoint](/API_docs/types/GeoPoint.html) | Optional|Attached geolocation|
+|peer\_type|[InlineQueryPeerType](/API_docs/types/InlineQueryPeerType.html) | Optional|
+|offset|[string](/API_docs/types/string.html) | Yes|Offset to navigate through results|
 
 
 
-### Type: [Update](/API_docs/types/Update.md)
+### Type: [Update](/API_docs/types/Update.html)
 
 
 ### Example:

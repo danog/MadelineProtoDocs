@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getScheduledHistory.html
 ---
 # Method: messages.getScheduledHistory
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Get scheduled messages
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Peer | Optional|
-|hash|[long](/API_docs/types/long.md) |  | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
+|hash|[long](/API_docs/types/long.html) |  | Yes|
 
 
-### Return type: [messages.Messages](/API_docs/types/messages.Messages.md)
+### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)
 
 ### Can bots use this method: **NO**
 

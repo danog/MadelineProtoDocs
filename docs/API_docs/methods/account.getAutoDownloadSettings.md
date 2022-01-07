@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getAutoDownloadSettings.html
 ---
 # Method: account.getAutoDownloadSettings
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ Get media autodownload settings
 
 
 
-### Return type: [account.AutoDownloadSettings](/API_docs/types/account.AutoDownloadSettings.md)
+### Return type: [account.AutoDownloadSettings](/API_docs/types/account.AutoDownloadSettings.html)
 
 ### Can bots use this method: **NO**
 

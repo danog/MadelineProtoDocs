@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: PhoneCall
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 This is an object of type `\danog\MadelineProto\VoIP`.
 
@@ -186,17 +186,17 @@ After modifying it, you must always parse the new configuration with a call to `
 
 ### Possible values (constructors):
 
-[phoneCallEmpty](/API_docs/constructors/phoneCallEmpty.md)  
+[phoneCallEmpty](/API_docs/constructors/phoneCallEmpty.html)  
 
-[phoneCallWaiting](/API_docs/constructors/phoneCallWaiting.md)  
+[phoneCallWaiting](/API_docs/constructors/phoneCallWaiting.html)  
 
-[phoneCallRequested](/API_docs/constructors/phoneCallRequested.md)  
+[phoneCallRequested](/API_docs/constructors/phoneCallRequested.html)  
 
-[phoneCallAccepted](/API_docs/constructors/phoneCallAccepted.md)  
+[phoneCallAccepted](/API_docs/constructors/phoneCallAccepted.html)  
 
-[phoneCall](/API_docs/constructors/phoneCall.md)  
+[phoneCall](/API_docs/constructors/phoneCall.html)  
 
-[phoneCallDiscarded](/API_docs/constructors/phoneCallDiscarded.md)  
+[phoneCallDiscarded](/API_docs/constructors/phoneCallDiscarded.html)  
 
 
 
@@ -204,15 +204,15 @@ After modifying it, you must always parse the new configuration with a call to `
 
 
 
-[phoneCallEmpty](/API_docs/constructors/phoneCallEmpty.md)  
+[phoneCallEmpty](/API_docs/constructors/phoneCallEmpty.html)  
 
-[phoneCallWaiting](/API_docs/constructors/phoneCallWaiting.md)  
+[phoneCallWaiting](/API_docs/constructors/phoneCallWaiting.html)  
 
-[phoneCallRequested](/API_docs/constructors/phoneCallRequested.md)  
+[phoneCallRequested](/API_docs/constructors/phoneCallRequested.html)  
 
-[phoneCallAccepted](/API_docs/constructors/phoneCallAccepted.md)  
+[phoneCallAccepted](/API_docs/constructors/phoneCallAccepted.html)  
 
-[phoneCall](/API_docs/constructors/phoneCall.md)  
+[phoneCall](/API_docs/constructors/phoneCall.html)  
 
-[phoneCallDiscarded](/API_docs/constructors/phoneCallDiscarded.md)  
+[phoneCallDiscarded](/API_docs/constructors/phoneCallDiscarded.html)  
 

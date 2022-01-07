@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_reportPeer.html
 ---
 # Method: account.reportPeer
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Report a peer for violation of telegram's Terms of Service
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | The peer to report | Optional|
-|reason|[ReportReason](/API_docs/types/ReportReason.md) | The reason why this peer is being reported | Yes|
-|message|[string](/API_docs/types/string.md) |  | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer to report | Optional|
+|reason|[ReportReason](/API_docs/types/ReportReason.html) | The reason why this peer is being reported | Yes|
+|message|[string](/API_docs/types/string.html) |  | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 
@@ -45,7 +45,7 @@ $Bool = $MadelineProto->account->reportPeer(['peer' => InputPeer, 'reason' => Re
 
 ## Return value 
 
-If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [Bool](../types/Bool.md) will be returned instead.
+If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [Bool](../types/Bool.html) will be returned instead.
 
 
 ### Errors

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: encryptedChat  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,17 +15,17 @@ Encrypted chat
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](/API_docs/types/int.md) | Yes|Chat ID|
-|access\_hash|[long](/API_docs/types/long.md) | Yes|Check sum dependant on the user ID|
-|date|[int](/API_docs/types/int.md) | Yes|Date chat was created|
-|admin\_id|[long](/API_docs/types/long.md) | Yes|
-|participant\_id|[long](/API_docs/types/long.md) | Yes|
-|g\_a\_or\_b|[bytes](/API_docs/types/bytes.md) | Yes|`B = g ^ b mod p`, if the currently authorized user is the chat's creator,<br>or `A = g ^ a mod p` otherwise<br>See [Wikipedia](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange) for more info|
-|key\_fingerprint|[long](/API_docs/types/long.md) | Yes|64-bit fingerprint of received key|
+|id|[int](/API_docs/types/int.html) | Yes|Chat ID|
+|access\_hash|[long](/API_docs/types/long.html) | Yes|Check sum dependant on the user ID|
+|date|[int](/API_docs/types/int.html) | Yes|Date chat was created|
+|admin\_id|[long](/API_docs/types/long.html) | Yes|
+|participant\_id|[long](/API_docs/types/long.html) | Yes|
+|g\_a\_or\_b|[bytes](/API_docs/types/bytes.html) | Yes|`B = g ^ b mod p`, if the currently authorized user is the chat's creator,<br>or `A = g ^ a mod p` otherwise<br>See [Wikipedia](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange) for more info|
+|key\_fingerprint|[long](/API_docs/types/long.html) | Yes|64-bit fingerprint of received key|
 
 
 
-### Type: [EncryptedChat](/API_docs/types/EncryptedChat.md)
+### Type: [EncryptedChat](/API_docs/types/EncryptedChat.html)
 
 
 ### Example:

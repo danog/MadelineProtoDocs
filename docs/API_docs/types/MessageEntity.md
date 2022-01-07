@@ -5,51 +5,51 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: MessageEntity
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[messageEntityUnknown](/API_docs/constructors/messageEntityUnknown.md)  
+[messageEntityUnknown](/API_docs/constructors/messageEntityUnknown.html)  
 
-[messageEntityMention](/API_docs/constructors/messageEntityMention.md)  
+[messageEntityMention](/API_docs/constructors/messageEntityMention.html)  
 
-[messageEntityHashtag](/API_docs/constructors/messageEntityHashtag.md)  
+[messageEntityHashtag](/API_docs/constructors/messageEntityHashtag.html)  
 
-[messageEntityBotCommand](/API_docs/constructors/messageEntityBotCommand.md)  
+[messageEntityBotCommand](/API_docs/constructors/messageEntityBotCommand.html)  
 
-[messageEntityUrl](/API_docs/constructors/messageEntityUrl.md)  
+[messageEntityUrl](/API_docs/constructors/messageEntityUrl.html)  
 
-[messageEntityEmail](/API_docs/constructors/messageEntityEmail.md)  
+[messageEntityEmail](/API_docs/constructors/messageEntityEmail.html)  
 
-[messageEntityBold](/API_docs/constructors/messageEntityBold.md)  
+[messageEntityBold](/API_docs/constructors/messageEntityBold.html)  
 
-[messageEntityItalic](/API_docs/constructors/messageEntityItalic.md)  
+[messageEntityItalic](/API_docs/constructors/messageEntityItalic.html)  
 
-[messageEntityCode](/API_docs/constructors/messageEntityCode.md)  
+[messageEntityCode](/API_docs/constructors/messageEntityCode.html)  
 
-[messageEntityPre](/API_docs/constructors/messageEntityPre.md)  
+[messageEntityPre](/API_docs/constructors/messageEntityPre.html)  
 
-[messageEntityTextUrl](/API_docs/constructors/messageEntityTextUrl.md)  
+[messageEntityTextUrl](/API_docs/constructors/messageEntityTextUrl.html)  
 
-[messageEntityMentionName](/API_docs/constructors/messageEntityMentionName.md)  
+[messageEntityMentionName](/API_docs/constructors/messageEntityMentionName.html)  
 
-[inputMessageEntityMentionName](/API_docs/constructors/inputMessageEntityMentionName.md)  
+[inputMessageEntityMentionName](/API_docs/constructors/inputMessageEntityMentionName.html)  
 
-[messageEntityPhone](/API_docs/constructors/messageEntityPhone.md)  
+[messageEntityPhone](/API_docs/constructors/messageEntityPhone.html)  
 
-[messageEntityCashtag](/API_docs/constructors/messageEntityCashtag.md)  
+[messageEntityCashtag](/API_docs/constructors/messageEntityCashtag.html)  
 
-[messageEntityUnderline](/API_docs/constructors/messageEntityUnderline.md)  
+[messageEntityUnderline](/API_docs/constructors/messageEntityUnderline.html)  
 
-[messageEntityStrike](/API_docs/constructors/messageEntityStrike.md)  
+[messageEntityStrike](/API_docs/constructors/messageEntityStrike.html)  
 
-[messageEntityBlockquote](/API_docs/constructors/messageEntityBlockquote.md)  
+[messageEntityBlockquote](/API_docs/constructors/messageEntityBlockquote.html)  
 
-[messageEntityBankCard](/API_docs/constructors/messageEntityBankCard.md)  
+[messageEntityBankCard](/API_docs/constructors/messageEntityBankCard.html)  
 
-[messageEntitySpoiler](/API_docs/constructors/messageEntitySpoiler.md)  
+[messageEntitySpoiler](/API_docs/constructors/messageEntitySpoiler.html)  
 
 
 
@@ -57,43 +57,43 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[messageEntityUnknown](/API_docs/constructors/messageEntityUnknown.md)  
+[messageEntityUnknown](/API_docs/constructors/messageEntityUnknown.html)  
 
-[messageEntityMention](/API_docs/constructors/messageEntityMention.md)  
+[messageEntityMention](/API_docs/constructors/messageEntityMention.html)  
 
-[messageEntityHashtag](/API_docs/constructors/messageEntityHashtag.md)  
+[messageEntityHashtag](/API_docs/constructors/messageEntityHashtag.html)  
 
-[messageEntityBotCommand](/API_docs/constructors/messageEntityBotCommand.md)  
+[messageEntityBotCommand](/API_docs/constructors/messageEntityBotCommand.html)  
 
-[messageEntityUrl](/API_docs/constructors/messageEntityUrl.md)  
+[messageEntityUrl](/API_docs/constructors/messageEntityUrl.html)  
 
-[messageEntityEmail](/API_docs/constructors/messageEntityEmail.md)  
+[messageEntityEmail](/API_docs/constructors/messageEntityEmail.html)  
 
-[messageEntityBold](/API_docs/constructors/messageEntityBold.md)  
+[messageEntityBold](/API_docs/constructors/messageEntityBold.html)  
 
-[messageEntityItalic](/API_docs/constructors/messageEntityItalic.md)  
+[messageEntityItalic](/API_docs/constructors/messageEntityItalic.html)  
 
-[messageEntityCode](/API_docs/constructors/messageEntityCode.md)  
+[messageEntityCode](/API_docs/constructors/messageEntityCode.html)  
 
-[messageEntityPre](/API_docs/constructors/messageEntityPre.md)  
+[messageEntityPre](/API_docs/constructors/messageEntityPre.html)  
 
-[messageEntityTextUrl](/API_docs/constructors/messageEntityTextUrl.md)  
+[messageEntityTextUrl](/API_docs/constructors/messageEntityTextUrl.html)  
 
-[messageEntityMentionName](/API_docs/constructors/messageEntityMentionName.md)  
+[messageEntityMentionName](/API_docs/constructors/messageEntityMentionName.html)  
 
-[inputMessageEntityMentionName](/API_docs/constructors/inputMessageEntityMentionName.md)  
+[inputMessageEntityMentionName](/API_docs/constructors/inputMessageEntityMentionName.html)  
 
-[messageEntityPhone](/API_docs/constructors/messageEntityPhone.md)  
+[messageEntityPhone](/API_docs/constructors/messageEntityPhone.html)  
 
-[messageEntityCashtag](/API_docs/constructors/messageEntityCashtag.md)  
+[messageEntityCashtag](/API_docs/constructors/messageEntityCashtag.html)  
 
-[messageEntityUnderline](/API_docs/constructors/messageEntityUnderline.md)  
+[messageEntityUnderline](/API_docs/constructors/messageEntityUnderline.html)  
 
-[messageEntityStrike](/API_docs/constructors/messageEntityStrike.md)  
+[messageEntityStrike](/API_docs/constructors/messageEntityStrike.html)  
 
-[messageEntityBlockquote](/API_docs/constructors/messageEntityBlockquote.md)  
+[messageEntityBlockquote](/API_docs/constructors/messageEntityBlockquote.html)  
 
-[messageEntityBankCard](/API_docs/constructors/messageEntityBankCard.md)  
+[messageEntityBankCard](/API_docs/constructors/messageEntityBankCard.html)  
 
-[messageEntitySpoiler](/API_docs/constructors/messageEntitySpoiler.md)  
+[messageEntitySpoiler](/API_docs/constructors/messageEntitySpoiler.html)  
 

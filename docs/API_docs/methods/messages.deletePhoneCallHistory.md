@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_deletePhoneCallHistory.html
 ---
 # Method: messages.deletePhoneCallHistory
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/messages_deletePhoneCallHistory.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|revoke|[Bool](/API_docs/types/Bool.md) | Optional|
+|revoke|[Bool](/API_docs/types/Bool.html) | Optional|
 
 
-### Return type: [messages.AffectedFoundMessages](/API_docs/types/messages.AffectedFoundMessages.md)
+### Return type: [messages.AffectedFoundMessages](/API_docs/types/messages.AffectedFoundMessages.html)
 
 ### Can bots use this method: **NO**
 

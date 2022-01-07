@@ -1,27 +1,27 @@
 ---
 title: "auth.recoverPassword"
-description: "Reset the [2FA password](https://core.telegram.org/api/srp) using the recovery code sent using [auth.requestPasswordRecovery](../methods/auth.requestPasswordRecovery.md)."
+description: "Reset the [2FA password](https://core.telegram.org/api/srp) using the recovery code sent using [auth.requestPasswordRecovery](../methods/auth.requestPasswordRecovery.html)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_recoverPassword.html
 ---
 # Method: auth.recoverPassword
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
-Reset the [2FA password](https://core.telegram.org/api/srp) using the recovery code sent using [auth.requestPasswordRecovery](../methods/auth.requestPasswordRecovery.md).
+Reset the [2FA password](https://core.telegram.org/api/srp) using the recovery code sent using [auth.requestPasswordRecovery](../methods/auth.requestPasswordRecovery.html).
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|code|[string](/API_docs/types/string.md) | Code received via email | Yes|
-|new\_settings|[account.PasswordInputSettings](/API_docs/types/account.PasswordInputSettings.md) |  | Optional|
+|code|[string](/API_docs/types/string.html) | Code received via email | Yes|
+|new\_settings|[account.PasswordInputSettings](/API_docs/types/account.PasswordInputSettings.html) |  | Optional|
 
 
-### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.md)
+### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.html)
 
 ### Can bots use this method: **NO**
 

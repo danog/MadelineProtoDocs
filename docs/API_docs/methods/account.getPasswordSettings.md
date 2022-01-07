@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getPasswordSettings.html
 ---
 # Method: account.getPasswordSettings
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ You cannot use this method directly; use $MadelineProto->update2fa($params), ins
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.md) | The password (see [SRP](https://core.telegram.org/api/srp)) | Yes|
+|password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html) | The password (see [SRP](https://core.telegram.org/api/srp)) | Yes|
 
 
-### Return type: [account.PasswordSettings](/API_docs/types/account.PasswordSettings.md)
+### Return type: [account.PasswordSettings](/API_docs/types/account.PasswordSettings.html)
 
 ### Can bots use this method: **NO**
 

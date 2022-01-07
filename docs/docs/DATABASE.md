@@ -19,12 +19,12 @@ You can also directly connect the [event handler](/docs/UPDATES.html#built-in-da
 
 Related settings:  
 
-* [\danog\MadelineProto\Settings\Database\Memory: Memory backend settings.](../PHP/danog/MadelineProto/Settings/Database/Memory.md)
-* [\danog\MadelineProto\Settings\Database\Mysql: MySQL backend settings.](../PHP/danog/MadelineProto/Settings/Database/Mysql.md) MariaDb 10.2+ or Mysql 5.6+ required.
-* [\danog\MadelineProto\Settings\Database\Postgres: Postgres backend settings.](../PHP/danog/MadelineProto/Settings/Database/Postgres.md)
-* [\danog\MadelineProto\Settings\Database\Redis: Redis backend settings.](../PHP/danog/MadelineProto/Settings/Database/Redis.md)
+* [\danog\MadelineProto\Settings\Database\Memory: Memory backend settings.](../PHP/danog/MadelineProto/Settings/Database/Memory.html)
+* [\danog\MadelineProto\Settings\Database\Mysql: MySQL backend settings.](../PHP/danog/MadelineProto/Settings/Database/Mysql.html) MariaDb 10.2+ or Mysql 5.6+ required.
+* [\danog\MadelineProto\Settings\Database\Postgres: Postgres backend settings.](../PHP/danog/MadelineProto/Settings/Database/Postgres.html)
+* [\danog\MadelineProto\Settings\Database\Redis: Redis backend settings.](../PHP/danog/MadelineProto/Settings/Database/Redis.html)
 
-See [the settings documentation for more info](SETTINGS.md).  
+See [the settings documentation for more info](SETTINGS.html).  
 
 ### Mysql example (low memory usage):
 

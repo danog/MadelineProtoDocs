@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_confirmPhone.html
 ---
 # Method: account.confirmPhone
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Confirm a phone number to cancel account deletion, for more info [click here »]
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_code\_hash|[string](/API_docs/types/string.md) | Phone code hash, for more info [click here »](https://core.telegram.org/api/account-deletion) | Yes|
-|phone\_code|[string](/API_docs/types/string.md) | SMS code, for more info [click here »](https://core.telegram.org/api/account-deletion) | Yes|
+|phone\_code\_hash|[string](/API_docs/types/string.html) | Phone code hash, for more info [click here »](https://core.telegram.org/api/account-deletion) | Yes|
+|phone\_code|[string](/API_docs/types/string.html) | SMS code, for more info [click here »](https://core.telegram.org/api/account-deletion) | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

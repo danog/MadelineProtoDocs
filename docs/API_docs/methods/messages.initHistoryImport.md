@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_initHistoryImport.html
 ---
 # Method: messages.initHistoryImport
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,12 +15,12 @@ redirect_from: /API_docs/methods/messages_initHistoryImport.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
-|file|[File path or InputFile](/API_docs/types/InputFile.md) | Yes|
-|media\_count|[int](/API_docs/types/int.md) | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+|file|[File path or InputFile](/API_docs/types/InputFile.html) | Yes|
+|media\_count|[int](/API_docs/types/int.html) | Yes|
 
 
-### Return type: [messages.HistoryImport](/API_docs/types/messages.HistoryImport.md)
+### Return type: [messages.HistoryImport](/API_docs/types/messages.HistoryImport.html)
 
 ### Can bots use this method: **NO**
 

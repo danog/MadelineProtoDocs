@@ -6,21 +6,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/auth_SentCodeType.html
 ---
 # Type: auth.SentCodeType
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[auth.sentCodeTypeApp](/API_docs/constructors/auth.sentCodeTypeApp.md)  
+[auth.sentCodeTypeApp](/API_docs/constructors/auth.sentCodeTypeApp.html)  
 
-[auth.sentCodeTypeSms](/API_docs/constructors/auth.sentCodeTypeSms.md)  
+[auth.sentCodeTypeSms](/API_docs/constructors/auth.sentCodeTypeSms.html)  
 
-[auth.sentCodeTypeCall](/API_docs/constructors/auth.sentCodeTypeCall.md)  
+[auth.sentCodeTypeCall](/API_docs/constructors/auth.sentCodeTypeCall.html)  
 
-[auth.sentCodeTypeFlashCall](/API_docs/constructors/auth.sentCodeTypeFlashCall.md)  
+[auth.sentCodeTypeFlashCall](/API_docs/constructors/auth.sentCodeTypeFlashCall.html)  
 
-[auth.sentCodeTypeMissedCall](/API_docs/constructors/auth.sentCodeTypeMissedCall.md)  
+[auth.sentCodeTypeMissedCall](/API_docs/constructors/auth.sentCodeTypeMissedCall.html)  
 
 
 
@@ -28,13 +28,13 @@ redirect_from: /API_docs/types/auth_SentCodeType.html
 
 
 
-[auth.sentCodeTypeApp](/API_docs/constructors/auth.sentCodeTypeApp.md)  
+[auth.sentCodeTypeApp](/API_docs/constructors/auth.sentCodeTypeApp.html)  
 
-[auth.sentCodeTypeSms](/API_docs/constructors/auth.sentCodeTypeSms.md)  
+[auth.sentCodeTypeSms](/API_docs/constructors/auth.sentCodeTypeSms.html)  
 
-[auth.sentCodeTypeCall](/API_docs/constructors/auth.sentCodeTypeCall.md)  
+[auth.sentCodeTypeCall](/API_docs/constructors/auth.sentCodeTypeCall.html)  
 
-[auth.sentCodeTypeFlashCall](/API_docs/constructors/auth.sentCodeTypeFlashCall.md)  
+[auth.sentCodeTypeFlashCall](/API_docs/constructors/auth.sentCodeTypeFlashCall.html)  
 
-[auth.sentCodeTypeMissedCall](/API_docs/constructors/auth.sentCodeTypeMissedCall.md)  
+[auth.sentCodeTypeMissedCall](/API_docs/constructors/auth.sentCodeTypeMissedCall.html)  
 

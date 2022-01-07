@@ -5,15 +5,15 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: BotInlineResult
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[botInlineResult](/API_docs/constructors/botInlineResult.md)  
+[botInlineResult](/API_docs/constructors/botInlineResult.html)  
 
-[botInlineMediaResult](/API_docs/constructors/botInlineMediaResult.md)  
+[botInlineMediaResult](/API_docs/constructors/botInlineMediaResult.html)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[botInlineResult](/API_docs/constructors/botInlineResult.md)  
+[botInlineResult](/API_docs/constructors/botInlineResult.html)  
 
-[botInlineMediaResult](/API_docs/constructors/botInlineMediaResult.md)  
+[botInlineMediaResult](/API_docs/constructors/botInlineMediaResult.html)  
 

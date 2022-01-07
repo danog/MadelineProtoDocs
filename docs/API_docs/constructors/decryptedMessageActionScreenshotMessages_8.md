@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageActionScreenshotMessages\_8  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,11 +15,11 @@ A screenshot was taken.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|random\_ids|Array of [long](/API_docs/types/long.md) | Yes|List of affected message ids (that appeared on the screenshot)|
+|random\_ids|Array of [long](/API_docs/types/long.html) | Yes|List of affected message ids (that appeared on the screenshot)|
 
 
 
-### Type: [DecryptedMessageAction](/API_docs/types/DecryptedMessageAction.md)
+### Type: [DecryptedMessageAction](/API_docs/types/DecryptedMessageAction.html)
 
 
 ### Example:

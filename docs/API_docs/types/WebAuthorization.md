@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: WebAuthorization
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[webAuthorization](/API_docs/constructors/webAuthorization.md)  
+[webAuthorization](/API_docs/constructors/webAuthorization.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[webAuthorization](/API_docs/constructors/webAuthorization.md)  
+[webAuthorization](/API_docs/constructors/webAuthorization.html)  
 

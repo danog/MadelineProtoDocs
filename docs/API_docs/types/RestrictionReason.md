@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: RestrictionReason
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[restrictionReason](/API_docs/constructors/restrictionReason.md)  
+[restrictionReason](/API_docs/constructors/restrictionReason.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[restrictionReason](/API_docs/constructors/restrictionReason.md)  
+[restrictionReason](/API_docs/constructors/restrictionReason.html)  
 

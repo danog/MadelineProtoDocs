@@ -6,13 +6,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/account_PasswordInputSettings.html
 ---
 # Type: account.PasswordInputSettings
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[account.passwordInputSettings](/API_docs/constructors/account.passwordInputSettings.md)  
+[account.passwordInputSettings](/API_docs/constructors/account.passwordInputSettings.html)  
 
 
 
@@ -20,5 +20,5 @@ redirect_from: /API_docs/types/account_PasswordInputSettings.html
 
 
 
-[account.passwordInputSettings](/API_docs/constructors/account.passwordInputSettings.md)  
+[account.passwordInputSettings](/API_docs/constructors/account.passwordInputSettings.html)  
 

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_toggleDialogPin.html
 ---
 # Method: messages.toggleDialogPin
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Pin/unpin a dialog
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|pinned|[Bool](/API_docs/types/Bool.md) | Whether to pin or unpin the dialog | Optional|
-|peer|[Username, chat ID, Update, Message or InputDialogPeer](/API_docs/types/InputDialogPeer.md) | The dialog to pin | Yes|
+|pinned|[Bool](/API_docs/types/Bool.html) | Whether to pin or unpin the dialog | Optional|
+|peer|[Username, chat ID, Update, Message or InputDialogPeer](/API_docs/types/InputDialogPeer.html) | The dialog to pin | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

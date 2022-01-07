@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getNotifySettings.html
 ---
 # Method: account.getNotifySettings
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Gets current notification settings for a given user/group, from all users/all gr
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputNotifyPeer](/API_docs/types/InputNotifyPeer.md) | Notification source | Yes|
+|peer|[Username, chat ID, Update, Message or InputNotifyPeer](/API_docs/types/InputNotifyPeer.html) | Notification source | Yes|
 
 
-### Return type: [PeerNotifySettings](/API_docs/types/PeerNotifySettings.md)
+### Return type: [PeerNotifySettings](/API_docs/types/PeerNotifySettings.html)
 
 ### Can bots use this method: **NO**
 

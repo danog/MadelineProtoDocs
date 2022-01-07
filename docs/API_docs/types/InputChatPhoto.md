@@ -5,17 +5,17 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputChatPhoto
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inputChatPhotoEmpty](/API_docs/constructors/inputChatPhotoEmpty.md)  
+[inputChatPhotoEmpty](/API_docs/constructors/inputChatPhotoEmpty.html)  
 
-[inputChatUploadedPhoto](/API_docs/constructors/inputChatUploadedPhoto.md)  
+[inputChatUploadedPhoto](/API_docs/constructors/inputChatUploadedPhoto.html)  
 
-[inputChatPhoto](/API_docs/constructors/inputChatPhoto.md)  
+[inputChatPhoto](/API_docs/constructors/inputChatPhoto.html)  
 
 
 
@@ -23,9 +23,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputChatPhotoEmpty](/API_docs/constructors/inputChatPhotoEmpty.md)  
+[inputChatPhotoEmpty](/API_docs/constructors/inputChatPhotoEmpty.html)  
 
-[inputChatUploadedPhoto](/API_docs/constructors/inputChatUploadedPhoto.md)  
+[inputChatUploadedPhoto](/API_docs/constructors/inputChatUploadedPhoto.html)  
 
-[inputChatPhoto](/API_docs/constructors/inputChatPhoto.md)  
+[inputChatPhoto](/API_docs/constructors/inputChatPhoto.html)  
 

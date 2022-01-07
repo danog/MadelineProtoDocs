@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateChatParticipantAdmin  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,14 +15,14 @@ Admin permissions of a user in a [legacy group](https://core.telegram.org/api/ch
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[long](/API_docs/types/long.md) | Yes|
-|user\_id|[long](/API_docs/types/long.md) | Yes|
-|is\_admin|[Bool](/API_docs/types/Bool.md) | Yes|Whether the user was rendered admin|
-|version|[int](/API_docs/types/int.md) | Yes|Used in basic groups to reorder updates and make sure that all of them was received.|
+|chat\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|
+|is\_admin|[Bool](/API_docs/types/Bool.html) | Yes|Whether the user was rendered admin|
+|version|[int](/API_docs/types/int.html) | Yes|Used in basic groups to reorder updates and make sure that all of them was received.|
 
 
 
-### Type: [Update](/API_docs/types/Update.md)
+### Type: [Update](/API_docs/types/Update.html)
 
 
 ### Example:

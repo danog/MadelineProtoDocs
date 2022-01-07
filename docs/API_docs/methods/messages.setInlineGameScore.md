@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_setInlineGameScore.html
 ---
 # Method: messages.setInlineGameScore
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,14 +17,14 @@ Use this method to set the score of the specified user in a game sent as an inli
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|edit\_message|[Bool](/API_docs/types/Bool.md) | Set this flag if the game message should be automatically edited to include the current scoreboard | Optional|
-|force|[Bool](/API_docs/types/Bool.md) | Set this flag if the high score is allowed to decrease. This can be useful when fixing mistakes or banning cheaters | Optional|
-|id|[InputBotInlineMessageID](/API_docs/types/InputBotInlineMessageID.md) | ID of the inline message | Yes|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | User identifier | Optional|
-|score|[int](/API_docs/types/int.md) | New score | Yes|
+|edit\_message|[Bool](/API_docs/types/Bool.html) | Set this flag if the game message should be automatically edited to include the current scoreboard | Optional|
+|force|[Bool](/API_docs/types/Bool.html) | Set this flag if the high score is allowed to decrease. This can be useful when fixing mistakes or banning cheaters | Optional|
+|id|[InputBotInlineMessageID](/API_docs/types/InputBotInlineMessageID.html) | ID of the inline message | Yes|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | User identifier | Optional|
+|score|[int](/API_docs/types/int.html) | New score | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **YES**
 

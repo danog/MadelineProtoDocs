@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: codeSettings  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -17,15 +17,15 @@ Example implementations: [telegram for android](https://github.com/DrKLO/Telegra
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|allow\_flashcall|[Bool](/API_docs/types/Bool.md) | Optional|Whether to allow phone verification via [phone calls](https://core.telegram.org/api/auth).|
-|current\_number|[Bool](/API_docs/types/Bool.md) | Optional|Pass true if the phone number is used on the current device. Ignored if allow\_flashcall is not set.|
-|allow\_app\_hash|[Bool](/API_docs/types/Bool.md) | Optional|If a token that will be included in eventually sent SMSs is required: required in newer versions of android, to use the [android SMS receiver APIs](https://developers.google.com/identity/sms-retriever/overview)|
-|allow\_missed\_call|[Bool](/API_docs/types/Bool.md) | Optional|
-|logout\_tokens|Array of [bytes](/API_docs/types/bytes.md) | Optional|
+|allow\_flashcall|[Bool](/API_docs/types/Bool.html) | Optional|Whether to allow phone verification via [phone calls](https://core.telegram.org/api/auth).|
+|current\_number|[Bool](/API_docs/types/Bool.html) | Optional|Pass true if the phone number is used on the current device. Ignored if allow\_flashcall is not set.|
+|allow\_app\_hash|[Bool](/API_docs/types/Bool.html) | Optional|If a token that will be included in eventually sent SMSs is required: required in newer versions of android, to use the [android SMS receiver APIs](https://developers.google.com/identity/sms-retriever/overview)|
+|allow\_missed\_call|[Bool](/API_docs/types/Bool.html) | Optional|
+|logout\_tokens|Array of [bytes](/API_docs/types/bytes.html) | Optional|
 
 
 
-### Type: [CodeSettings](/API_docs/types/CodeSettings.md)
+### Type: [CodeSettings](/API_docs/types/CodeSettings.html)
 
 
 ### Example:

@@ -6,23 +6,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/messages_ExportedChatInvites.html
 ---
 # Type: messages.ExportedChatInvites
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[messages.exportedChatInvites](/API_docs/constructors/messages.exportedChatInvites.md)  
+[messages.exportedChatInvites](/API_docs/constructors/messages.exportedChatInvites.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getExportedChatInvites](/API_docs/methods/messages.getExportedChatInvites.md)  
+[$MadelineProto->messages->getExportedChatInvites](/API_docs/methods/messages.getExportedChatInvites.html)  
 
 
 
-[messages.exportedChatInvites](/API_docs/constructors/messages.exportedChatInvites.md)  
+[messages.exportedChatInvites](/API_docs/constructors/messages.exportedChatInvites.html)  
 
-[$MadelineProto->messages->getExportedChatInvites](/API_docs/methods/messages.getExportedChatInvites.md)  
+[$MadelineProto->messages->getExportedChatInvites](/API_docs/methods/messages.getExportedChatInvites.html)  
 

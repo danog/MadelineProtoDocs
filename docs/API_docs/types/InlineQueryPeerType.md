@@ -5,21 +5,21 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InlineQueryPeerType
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inlineQueryPeerTypeSameBotPM](/API_docs/constructors/inlineQueryPeerTypeSameBotPM.md)  
+[inlineQueryPeerTypeSameBotPM](/API_docs/constructors/inlineQueryPeerTypeSameBotPM.html)  
 
-[inlineQueryPeerTypePM](/API_docs/constructors/inlineQueryPeerTypePM.md)  
+[inlineQueryPeerTypePM](/API_docs/constructors/inlineQueryPeerTypePM.html)  
 
-[inlineQueryPeerTypeChat](/API_docs/constructors/inlineQueryPeerTypeChat.md)  
+[inlineQueryPeerTypeChat](/API_docs/constructors/inlineQueryPeerTypeChat.html)  
 
-[inlineQueryPeerTypeMegagroup](/API_docs/constructors/inlineQueryPeerTypeMegagroup.md)  
+[inlineQueryPeerTypeMegagroup](/API_docs/constructors/inlineQueryPeerTypeMegagroup.html)  
 
-[inlineQueryPeerTypeBroadcast](/API_docs/constructors/inlineQueryPeerTypeBroadcast.md)  
+[inlineQueryPeerTypeBroadcast](/API_docs/constructors/inlineQueryPeerTypeBroadcast.html)  
 
 
 
@@ -27,13 +27,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inlineQueryPeerTypeSameBotPM](/API_docs/constructors/inlineQueryPeerTypeSameBotPM.md)  
+[inlineQueryPeerTypeSameBotPM](/API_docs/constructors/inlineQueryPeerTypeSameBotPM.html)  
 
-[inlineQueryPeerTypePM](/API_docs/constructors/inlineQueryPeerTypePM.md)  
+[inlineQueryPeerTypePM](/API_docs/constructors/inlineQueryPeerTypePM.html)  
 
-[inlineQueryPeerTypeChat](/API_docs/constructors/inlineQueryPeerTypeChat.md)  
+[inlineQueryPeerTypeChat](/API_docs/constructors/inlineQueryPeerTypeChat.html)  
 
-[inlineQueryPeerTypeMegagroup](/API_docs/constructors/inlineQueryPeerTypeMegagroup.md)  
+[inlineQueryPeerTypeMegagroup](/API_docs/constructors/inlineQueryPeerTypeMegagroup.html)  
 
-[inlineQueryPeerTypeBroadcast](/API_docs/constructors/inlineQueryPeerTypeBroadcast.md)  
+[inlineQueryPeerTypeBroadcast](/API_docs/constructors/inlineQueryPeerTypeBroadcast.html)  
 

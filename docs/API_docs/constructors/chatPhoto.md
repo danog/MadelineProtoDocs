@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatPhoto  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,14 +15,14 @@ Group profile photo.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|has\_video|[Bool](/API_docs/types/Bool.md) | Optional|Whether the user has an animated profile picture|
-|photo\_id|[long](/API_docs/types/long.md) | Yes|
-|stripped\_thumb|[bytes](/API_docs/types/bytes.md) | Optional|
-|dc\_id|[int](/API_docs/types/int.md) | Yes|DC where this photo is stored|
+|has\_video|[Bool](/API_docs/types/Bool.html) | Optional|Whether the user has an animated profile picture|
+|photo\_id|[long](/API_docs/types/long.html) | Yes|
+|stripped\_thumb|[bytes](/API_docs/types/bytes.html) | Optional|
+|dc\_id|[int](/API_docs/types/int.html) | Yes|DC where this photo is stored|
 
 
 
-### Type: [ChatPhoto](/API_docs/types/ChatPhoto.md)
+### Type: [ChatPhoto](/API_docs/types/ChatPhoto.html)
 
 
 ### Example:

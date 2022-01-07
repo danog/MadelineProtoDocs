@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_readFeaturedStickers.html
 ---
 # Method: messages.readFeaturedStickers
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Mark new featured stickers as read
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|Array of [long](/API_docs/types/long.md) | IDs of stickersets to mark as read | Yes|
+|id|Array of [long](/API_docs/types/long.html) | IDs of stickersets to mark as read | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getAdminsWithInvites.html
 ---
 # Method: messages.getAdminsWithInvites
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/messages_getAdminsWithInvites.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 
 
-### Return type: [messages.ChatAdminsWithInvites](/API_docs/types/messages.ChatAdminsWithInvites.md)
+### Return type: [messages.ChatAdminsWithInvites](/API_docs/types/messages.ChatAdminsWithInvites.html)
 
 ### Can bots use this method: **NO**
 

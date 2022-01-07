@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageEmpty  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ Empty constructor, non-existent message.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](/API_docs/types/int.md) | Yes|Message identifier|
-|peer\_id|[Peer](/API_docs/types/Peer.md) | Optional|
+|id|[int](/API_docs/types/int.html) | Yes|Message identifier|
+|peer\_id|[Peer](/API_docs/types/Peer.html) | Optional|
 
 
 
-### Type: [Message](/API_docs/types/Message.md)
+### Type: [Message](/API_docs/types/Message.html)
 
 
 ### Example:

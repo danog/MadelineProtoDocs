@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getGameHighScores.html
 ---
 # Method: messages.getGameHighScores
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Get highscores of a game
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Where was the game sent | Optional|
-|id|[int](/API_docs/types/int.md) | ID of message with game media attachment | Yes|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | Get high scores made by a certain user | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Where was the game sent | Optional|
+|id|[int](/API_docs/types/int.html) | ID of message with game media attachment | Yes|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Get high scores made by a certain user | Optional|
 
 
-### Return type: [messages.HighScores](/API_docs/types/messages.HighScores.md)
+### Return type: [messages.HighScores](/API_docs/types/messages.HighScores.html)
 
 ### Can bots use this method: **YES**
 

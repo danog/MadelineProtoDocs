@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantsMentions  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,12 +16,12 @@ This filter will automatically remove anonymous admins, and return even non-part
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|q|[string](/API_docs/types/string.md) | Optional|Filter by user name or username|
-|top\_msg\_id|[int](/API_docs/types/int.md) | Optional|Look only for users that posted in this [thread](https://core.telegram.org/api/threads)|
+|q|[string](/API_docs/types/string.html) | Optional|Filter by user name or username|
+|top\_msg\_id|[int](/API_docs/types/int.html) | Optional|Look only for users that posted in this [thread](https://core.telegram.org/api/threads)|
 
 
 
-### Type: [ChannelParticipantsFilter](/API_docs/types/ChannelParticipantsFilter.md)
+### Type: [ChannelParticipantsFilter](/API_docs/types/ChannelParticipantsFilter.html)
 
 
 ### Example:

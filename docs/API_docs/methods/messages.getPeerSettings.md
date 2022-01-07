@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getPeerSettings.html
 ---
 # Method: messages.getPeerSettings
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Get peer settings
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | The peer | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer | Optional|
 
 
-### Return type: [messages.PeerSettings](/API_docs/types/messages.PeerSettings.md)
+### Return type: [messages.PeerSettings](/API_docs/types/messages.PeerSettings.html)
 
 ### Can bots use this method: **NO**
 

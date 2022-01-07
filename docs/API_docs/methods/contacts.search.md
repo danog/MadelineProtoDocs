@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_search.html
 ---
 # Method: contacts.search
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Returns users found by username substring.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|q|[string](/API_docs/types/string.md) | Target substring | Yes|
-|limit|[int](/API_docs/types/int.md) | Maximum number of users to be returned | Yes|
+|q|[string](/API_docs/types/string.html) | Target substring | Yes|
+|limit|[int](/API_docs/types/int.html) | Maximum number of users to be returned | Yes|
 
 
-### Return type: [contacts.Found](/API_docs/types/contacts.Found.md)
+### Return type: [contacts.Found](/API_docs/types/contacts.Found.html)
 
 ### Can bots use this method: **NO**
 

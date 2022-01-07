@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_reportProfilePhoto.html
 ---
 # Method: account.reportProfilePhoto
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,13 +15,13 @@ redirect_from: /API_docs/methods/account_reportProfilePhoto.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
-|photo\_id|[MessageMedia, Update, Message or InputPhoto](/API_docs/types/InputPhoto.md) | Optional|
-|reason|[ReportReason](/API_docs/types/ReportReason.md) | Yes|
-|message|[string](/API_docs/types/string.md) | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+|photo\_id|[MessageMedia, Update, Message or InputPhoto](/API_docs/types/InputPhoto.html) | Optional|
+|reason|[ReportReason](/API_docs/types/ReportReason.html) | Yes|
+|message|[string](/API_docs/types/string.html) | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 
@@ -44,6 +44,6 @@ $Bool = $MadelineProto->account->reportProfilePhoto(['peer' => InputPeer, 'photo
 
 ## Return value 
 
-If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [Bool](../types/Bool.md) will be returned instead.
+If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [Bool](../types/Bool.html) will be returned instead.
 
 

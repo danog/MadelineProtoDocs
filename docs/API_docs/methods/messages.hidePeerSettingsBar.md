@@ -1,26 +1,26 @@
 ---
 title: "messages.hidePeerSettingsBar"
-description: "Should be called after the user hides the report spam/add as contact bar of a new chat, effectively prevents the user from executing the actions specified in the [peer's settings](../constructors/peerSettings.md)."
+description: "Should be called after the user hides the report spam/add as contact bar of a new chat, effectively prevents the user from executing the actions specified in the [peer's settings](../constructors/peerSettings.html)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_hidePeerSettingsBar.html
 ---
 # Method: messages.hidePeerSettingsBar
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
-Should be called after the user hides the report spam/add as contact bar of a new chat, effectively prevents the user from executing the actions specified in the [peer's settings](../constructors/peerSettings.md).
+Should be called after the user hides the report spam/add as contact bar of a new chat, effectively prevents the user from executing the actions specified in the [peer's settings](../constructors/peerSettings.html).
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Peer | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

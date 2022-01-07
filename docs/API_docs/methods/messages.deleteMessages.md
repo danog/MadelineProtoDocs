@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_deleteMessages.html
 ---
 # Method: messages.deleteMessages
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Deletes messages by their identifiers.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|revoke|[Bool](/API_docs/types/Bool.md) | Whether to delete messages for all participants of the chat | Optional|
-|id|Array of [int](/API_docs/types/int.md) | Message ID list | Yes|
+|revoke|[Bool](/API_docs/types/Bool.html) | Whether to delete messages for all participants of the chat | Optional|
+|id|Array of [int](/API_docs/types/int.html) | Message ID list | Yes|
 
 
-### Return type: [messages.AffectedMessages](/API_docs/types/messages.AffectedMessages.md)
+### Return type: [messages.AffectedMessages](/API_docs/types/messages.AffectedMessages.html)
 
 ### Can bots use this method: **YES**
 

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_saveAutoDownloadSettings.html
 ---
 # Method: account.saveAutoDownloadSettings
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Change media autodownload settings
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|low|[Bool](/API_docs/types/Bool.md) | Whether to save settings in the low data usage preset | Optional|
-|high|[Bool](/API_docs/types/Bool.md) | Whether to save settings in the high data usage preset | Optional|
-|settings|[AutoDownloadSettings](/API_docs/types/AutoDownloadSettings.md) | Media autodownload settings | Yes|
+|low|[Bool](/API_docs/types/Bool.html) | Whether to save settings in the low data usage preset | Optional|
+|high|[Bool](/API_docs/types/Bool.html) | Whether to save settings in the high data usage preset | Optional|
+|settings|[AutoDownloadSettings](/API_docs/types/AutoDownloadSettings.html) | Media autodownload settings | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

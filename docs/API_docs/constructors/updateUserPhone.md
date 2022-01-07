@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateUserPhone  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ A user's phone number was changed
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.md) | Yes|
-|phone|[string](/API_docs/types/string.md) | Yes|New phone number|
+|user\_id|[long](/API_docs/types/long.html) | Yes|
+|phone|[string](/API_docs/types/string.html) | Yes|New phone number|
 
 
 
-### Type: [Update](/API_docs/types/Update.md)
+### Type: [Update](/API_docs/types/Update.html)
 
 
 ### Example:

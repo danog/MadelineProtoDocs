@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChatEditPhoto  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,11 +15,11 @@ Group profile changed
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|photo|[Photo](/API_docs/types/Photo.md) | Optional|New group pofile photo|
+|photo|[Photo](/API_docs/types/Photo.html) | Optional|New group pofile photo|
 
 
 
-### Type: [MessageAction](/API_docs/types/MessageAction.md)
+### Type: [MessageAction](/API_docs/types/MessageAction.html)
 
 
 ### Example:

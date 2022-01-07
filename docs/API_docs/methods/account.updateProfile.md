@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_updateProfile.html
 ---
 # Method: account.updateProfile
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Updates user profile.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|first\_name|[string](/API_docs/types/string.md) | New user first name | Optional|
-|last\_name|[string](/API_docs/types/string.md) | New user last name | Optional|
-|about|[string](/API_docs/types/string.md) | New bio | Optional|
+|first\_name|[string](/API_docs/types/string.html) | New user first name | Optional|
+|last\_name|[string](/API_docs/types/string.html) | New user last name | Optional|
+|about|[string](/API_docs/types/string.html) | New bio | Optional|
 
 
-### Return type: [User](/API_docs/types/User.md)
+### Return type: [User](/API_docs/types/User.html)
 
 ### Can bots use this method: **NO**
 

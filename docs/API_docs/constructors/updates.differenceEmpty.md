@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/updates_differenceEmpty.html
 ---
 # Constructor: updates.differenceEmpty  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,12 +16,12 @@ No events.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|date|[int](/API_docs/types/int.md) | Yes|Current date|
-|seq|[int](/API_docs/types/int.md) | Yes|Number of sent updates|
+|date|[int](/API_docs/types/int.html) | Yes|Current date|
+|seq|[int](/API_docs/types/int.html) | Yes|Number of sent updates|
 
 
 
-### Type: [updates.Difference](/API_docs/types/updates.Difference.md)
+### Type: [updates.Difference](/API_docs/types/updates.Difference.html)
 
 
 ### Example:

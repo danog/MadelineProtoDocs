@@ -6,23 +6,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/stickers_SuggestedShortName.html
 ---
 # Type: stickers.SuggestedShortName
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[stickers.suggestedShortName](/API_docs/constructors/stickers.suggestedShortName.md)  
+[stickers.suggestedShortName](/API_docs/constructors/stickers.suggestedShortName.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->stickers->suggestShortName](/API_docs/methods/stickers.suggestShortName.md)  
+[$MadelineProto->stickers->suggestShortName](/API_docs/methods/stickers.suggestShortName.html)  
 
 
 
-[stickers.suggestedShortName](/API_docs/constructors/stickers.suggestedShortName.md)  
+[stickers.suggestedShortName](/API_docs/constructors/stickers.suggestedShortName.html)  
 
-[$MadelineProto->stickers->suggestShortName](/API_docs/methods/stickers.suggestShortName.md)  
+[$MadelineProto->stickers->suggestShortName](/API_docs/methods/stickers.suggestShortName.html)  
 

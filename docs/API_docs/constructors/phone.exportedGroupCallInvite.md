@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/phone_exportedGroupCallInvite.html
 ---
 # Constructor: phone.exportedGroupCallInvite  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -14,11 +14,11 @@ redirect_from: /API_docs/constructors/phone_exportedGroupCallInvite.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|link|[string](/API_docs/types/string.md) | Yes|
+|link|[string](/API_docs/types/string.html) | Yes|
 
 
 
-### Type: [phone.ExportedGroupCallInvite](/API_docs/types/phone.ExportedGroupCallInvite.md)
+### Type: [phone.ExportedGroupCallInvite](/API_docs/types/phone.ExportedGroupCallInvite.html)
 
 
 ### Example:

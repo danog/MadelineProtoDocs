@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getDialogUnreadMarks.html
 ---
 # Method: messages.getDialogUnreadMarks
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ Get dialogs manually marked as unread
 
 
 
-### Return type: [Vector\_of\_DialogPeer](/API_docs/types/DialogPeer.md)
+### Return type: [Vector\_of\_DialogPeer](/API_docs/types/DialogPeer.html)
 
 ### Can bots use this method: **NO**
 

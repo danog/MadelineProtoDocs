@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateUserTyping  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ The user is preparing a message; typing, recording, uploading, etc. This update 
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.md) | Yes|
-|action|[SendMessageAction](/API_docs/types/SendMessageAction.md) | Yes|Action type<br>Param added in [Layer 17](https://core.telegram.org/api/layers#layer-17).|
+|user\_id|[long](/API_docs/types/long.html) | Yes|
+|action|[SendMessageAction](/API_docs/types/SendMessageAction.html) | Yes|Action type<br>Param added in [Layer 17](https://core.telegram.org/api/layers#layer-17).|
 
 
 
-### Type: [Update](/API_docs/types/Update.md)
+### Type: [Update](/API_docs/types/Update.html)
 
 
 ### Example:

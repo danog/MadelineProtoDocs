@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/auth_loggedOut.html
 ---
 # Constructor: auth.loggedOut  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -14,11 +14,11 @@ redirect_from: /API_docs/constructors/auth_loggedOut.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|future\_auth\_token|[bytes](/API_docs/types/bytes.md) | Optional|
+|future\_auth\_token|[bytes](/API_docs/types/bytes.html) | Optional|
 
 
 
-### Type: [auth.LoggedOut](/API_docs/types/auth.LoggedOut.md)
+### Type: [auth.LoggedOut](/API_docs/types/auth.LoggedOut.html)
 
 
 ### Example:

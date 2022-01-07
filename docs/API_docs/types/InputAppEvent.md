@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputAppEvent
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inputAppEvent](/API_docs/constructors/inputAppEvent.md)  
+[inputAppEvent](/API_docs/constructors/inputAppEvent.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputAppEvent](/API_docs/constructors/inputAppEvent.md)  
+[inputAppEvent](/API_docs/constructors/inputAppEvent.html)  
 

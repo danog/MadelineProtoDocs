@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/users_getFullUser.html
 ---
 # Method: users.getFullUser
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo me
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | User ID | Optional|
+|id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | User ID | Optional|
 
 
-### Return type: [users.UserFull](/API_docs/types/users.UserFull.md)
+### Return type: [users.UserFull](/API_docs/types/users.UserFull.html)
 
 ### Can bots use this method: **YES**
 

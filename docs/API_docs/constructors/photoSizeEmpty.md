@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: photoSizeEmpty  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,11 +15,11 @@ Empty constructor. Image with this thumbnail is unavailable.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|type|[string](/API_docs/types/string.md) | Yes|Thumbnail type (see. [photoSize](../constructors/photoSize.md))|
+|type|[string](/API_docs/types/string.html) | Yes|Thumbnail type (see. [photoSize](../constructors/photoSize.html))|
 
 
 
-### Type: [PhotoSize](/API_docs/types/PhotoSize.md)
+### Type: [PhotoSize](/API_docs/types/PhotoSize.html)
 
 
 ### Example:

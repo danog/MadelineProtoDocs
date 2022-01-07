@@ -14,9 +14,9 @@ parent: "Methods"
 |----------|---------------|
 |number| A string with the phone number, including the country code|
 
-### Return type: [auth.SentCode](API_docs/types/auth.SentCode.md)
+### Return type: [auth.SentCode](API_docs/types/auth.SentCode.html)
 
-You must then use [completePhoneLogin](completePhoneLogin.md) 
+You must then use [completePhoneLogin](completePhoneLogin.html) 
 
 
 ### Example ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

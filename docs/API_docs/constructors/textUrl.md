@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textUrl  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,13 +15,13 @@ Link
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|text|[RichText](/API_docs/types/RichText.md) | Yes|Text of link|
-|url|[string](/API_docs/types/string.md) | Yes|Webpage HTTP URL|
-|webpage\_id|[long](/API_docs/types/long.md) | Yes|If a preview was already generated for the page, the page ID|
+|text|[RichText](/API_docs/types/RichText.html) | Yes|Text of link|
+|url|[string](/API_docs/types/string.html) | Yes|Webpage HTTP URL|
+|webpage\_id|[long](/API_docs/types/long.html) | Yes|If a preview was already generated for the page, the page ID|
 
 
 
-### Type: [RichText](/API_docs/types/RichText.md)
+### Type: [RichText](/API_docs/types/RichText.html)
 
 
 ### Example:

@@ -6,7 +6,7 @@ parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: invokeWithMessagesRange
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -16,11 +16,11 @@ Invoke with the given message range
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|range|[MessageRange](/API_docs/types/MessageRange.md) | Message range | Yes|
-|query|[!X](/API_docs/types/!X.md) | Query | Yes|
+|range|[MessageRange](/API_docs/types/MessageRange.html) | Message range | Yes|
+|query|[!X](/API_docs/types/!X.html) | Query | Yes|
 
 
-### Return type: [X](/API_docs/types/X.md)
+### Return type: [X](/API_docs/types/X.html)
 
 ### Can bots use this method: **YES**
 

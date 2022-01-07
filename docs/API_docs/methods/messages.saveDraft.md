@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_saveDraft.html
 ---
 # Method: messages.saveDraft
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,15 +17,15 @@ Save a message [draft](https://core.telegram.org/api/drafts) associated to a cha
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|no\_webpage|[Bool](/API_docs/types/Bool.md) | Disable generation of the webpage preview | Optional|
-|reply\_to\_msg\_id|[int](/API_docs/types/int.md) | Message ID the message should reply to | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Destination of the message that should be sent | Optional|
-|message|[string](/API_docs/types/string.md) | The draft | Yes|
-|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.md) | Message [entities](https://core.telegram.org/api/entities) for styled text | Optional|
-|parse\_mode| [string](/API_docs/types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
+|no\_webpage|[Bool](/API_docs/types/Bool.html) | Disable generation of the webpage preview | Optional|
+|reply\_to\_msg\_id|[int](/API_docs/types/int.html) | Message ID the message should reply to | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Destination of the message that should be sent | Optional|
+|message|[string](/API_docs/types/string.html) | The draft | Yes|
+|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Message [entities](https://core.telegram.org/api/entities) for styled text | Optional|
+|parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 
@@ -48,7 +48,7 @@ $Bool = $MadelineProto->messages->saveDraft(['no_webpage' => Bool, 'reply_to_msg
 
 ## Return value 
 
-If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [Bool](../types/Bool.md) will be returned instead.
+If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [Bool](../types/Bool.html) will be returned instead.
 
 
 

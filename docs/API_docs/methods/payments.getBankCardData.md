@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/payments_getBankCardData.html
 ---
 # Method: payments.getBankCardData
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Get info about a credit card
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|number|[string](/API_docs/types/string.md) | Credit card number | Yes|
+|number|[string](/API_docs/types/string.html) | Credit card number | Yes|
 
 
-### Return type: [payments.BankCardData](/API_docs/types/payments.BankCardData.md)
+### Return type: [payments.BankCardData](/API_docs/types/payments.BankCardData.html)
 
 ### Can bots use this method: **NO**
 

@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: LabeledPrice
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[labeledPrice](/API_docs/constructors/labeledPrice.md)  
+[labeledPrice](/API_docs/constructors/labeledPrice.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[labeledPrice](/API_docs/constructors/labeledPrice.md)  
+[labeledPrice](/API_docs/constructors/labeledPrice.html)  
 

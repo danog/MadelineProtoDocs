@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_deleteAccount.html
 ---
 # Method: account.deleteAccount
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Delete the user's account from the telegram servers. Can be used, for example, t
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|reason|[string](/API_docs/types/string.md) | Why is the account being deleted, can be empty | Yes|
+|reason|[string](/API_docs/types/string.html) | Why is the account being deleted, can be empty | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

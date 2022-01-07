@@ -7,26 +7,26 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/stats_getMessagePublicForwards.html
 ---
 # Method: stats.getMessagePublicForwards
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
 Obtains a list of messages, indicating to which other public channels was a channel message forwarded.  
-Will return a list of [messages](../constructors/message.md) with `peer_id` equal to the public channel to which this message was forwarded.
+Will return a list of [messages](../constructors/message.html) with `peer_id` equal to the public channel to which this message was forwarded.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | Source channel | Optional|
-|msg\_id|[int](/API_docs/types/int.md) | Source message ID | Yes|
-|offset\_rate|[int](/API_docs/types/int.md) | Initially 0, then set to the `next_rate` parameter of [messages.messagesSlice](../constructors/messages.messagesSlice.md) | Yes|
-|offset\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
-|offset\_id|[int](/API_docs/types/int.md) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
-|limit|[int](/API_docs/types/int.md) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Source channel | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | Source message ID | Yes|
+|offset\_rate|[int](/API_docs/types/int.html) | Initially 0, then set to the `next_rate` parameter of [messages.messagesSlice](../constructors/messages.messagesSlice.html) | Yes|
+|offset\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
+|offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
 
 
-### Return type: [messages.Messages](/API_docs/types/messages.Messages.md)
+### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)
 
 ### Can bots use this method: **NO**
 

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getMultiWallPapers.html
 ---
 # Method: account.getMultiWallPapers
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Get info about multiple wallpapers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|wallpapers|Array of [InputWallPaper](/API_docs/types/InputWallPaper.md) | Wallpapers to fetch info about | Yes|
+|wallpapers|Array of [InputWallPaper](/API_docs/types/InputWallPaper.html) | Wallpapers to fetch info about | Yes|
 
 
-### Return type: [Vector\_of\_WallPaper](/API_docs/types/WallPaper.md)
+### Return type: [Vector\_of\_WallPaper](/API_docs/types/WallPaper.html)
 
 ### Can bots use this method: **NO**
 

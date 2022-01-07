@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_forwardMessages.html
 ---
 # Method: messages.forwardMessages
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,20 +17,20 @@ Forwards messages by their IDs.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|silent|[Bool](/API_docs/types/Bool.md) | Whether to send messages silently (no notification will be triggered on the destination clients) | Optional|
-|background|[Bool](/API_docs/types/Bool.md) | Whether to send the message in background | Optional|
-|with\_my\_score|[Bool](/API_docs/types/Bool.md) | When forwarding games, whether to include your score in the game | Optional|
-|drop\_author|[Bool](/API_docs/types/Bool.md) |  | Optional|
-|drop\_media\_captions|[Bool](/API_docs/types/Bool.md) |  | Optional|
-|noforwards|[Bool](/API_docs/types/Bool.md) |  | Optional|
-|from\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Source of messages | Optional|
-|id|Array of [int](/API_docs/types/int.md) | IDs of messages | Yes|
-|to\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Destination peer | Optional|
-|schedule\_date|[int](/API_docs/types/int.md) | Scheduled message date for scheduled messages | Optional|
-|send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) |  | Optional|
+|silent|[Bool](/API_docs/types/Bool.html) | Whether to send messages silently (no notification will be triggered on the destination clients) | Optional|
+|background|[Bool](/API_docs/types/Bool.html) | Whether to send the message in background | Optional|
+|with\_my\_score|[Bool](/API_docs/types/Bool.html) | When forwarding games, whether to include your score in the game | Optional|
+|drop\_author|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|drop\_media\_captions|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|noforwards|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|from\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Source of messages | Optional|
+|id|Array of [int](/API_docs/types/int.html) | IDs of messages | Yes|
+|to\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Destination peer | Optional|
+|schedule\_date|[int](/API_docs/types/int.html) | Scheduled message date for scheduled messages | Optional|
+|send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **YES**
 

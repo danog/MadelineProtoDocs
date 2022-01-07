@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getPrivacy.html
 ---
 # Method: account.getPrivacy
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Get privacy settings of current account
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|key|[InputPrivacyKey](/API_docs/types/InputPrivacyKey.md) | Peer category whose privacy settings should be fetched | Yes|
+|key|[InputPrivacyKey](/API_docs/types/InputPrivacyKey.html) | Peer category whose privacy settings should be fetched | Yes|
 
 
-### Return type: [account.PrivacyRules](/API_docs/types/account.PrivacyRules.md)
+### Return type: [account.PrivacyRules](/API_docs/types/account.PrivacyRules.html)
 
 ### Can bots use this method: **NO**
 

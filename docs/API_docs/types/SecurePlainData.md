@@ -5,15 +5,15 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: SecurePlainData
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[securePlainPhone](/API_docs/constructors/securePlainPhone.md)  
+[securePlainPhone](/API_docs/constructors/securePlainPhone.html)  
 
-[securePlainEmail](/API_docs/constructors/securePlainEmail.md)  
+[securePlainEmail](/API_docs/constructors/securePlainEmail.html)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[securePlainPhone](/API_docs/constructors/securePlainPhone.md)  
+[securePlainPhone](/API_docs/constructors/securePlainPhone.html)  
 
-[securePlainEmail](/API_docs/constructors/securePlainEmail.md)  
+[securePlainEmail](/API_docs/constructors/securePlainEmail.html)  
 

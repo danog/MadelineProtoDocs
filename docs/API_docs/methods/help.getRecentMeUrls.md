@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getRecentMeUrls.html
 ---
 # Method: help.getRecentMeUrls
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Get recently used `t.me` links
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|referer|[string](/API_docs/types/string.md) | Referer | Yes|
+|referer|[string](/API_docs/types/string.html) | Referer | Yes|
 
 
-### Return type: [help.RecentMeUrls](/API_docs/types/help.RecentMeUrls.md)
+### Return type: [help.RecentMeUrls](/API_docs/types/help.RecentMeUrls.html)
 
 ### Can bots use this method: **NO**
 

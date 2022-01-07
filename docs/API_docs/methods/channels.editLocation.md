@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_editLocation.html
 ---
 # Method: channels.editLocation
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Edit location of geogroup
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | [Geogroup](https://core.telegram.org/api/channel) | Optional|
-|geo\_point|[InputGeoPoint](/API_docs/types/InputGeoPoint.md) | New geolocation | Optional|
-|address|[string](/API_docs/types/string.md) | Address string | Yes|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | [Geogroup](https://core.telegram.org/api/channel) | Optional|
+|geo\_point|[InputGeoPoint](/API_docs/types/InputGeoPoint.html) | New geolocation | Optional|
+|address|[string](/API_docs/types/string.html) | Address string | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

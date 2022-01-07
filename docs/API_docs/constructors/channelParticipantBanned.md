@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantBanned  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,15 +15,15 @@ Banned/kicked user
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|left|[Bool](/API_docs/types/Bool.md) | Optional|Whether the user has left the group|
-|peer|[Peer](/API_docs/types/Peer.md) | Yes|
-|kicked\_by|[long](/API_docs/types/long.md) | Yes|
-|date|[int](/API_docs/types/int.md) | Yes|When did the user join the group|
-|banned\_rights|[ChatBannedRights](/API_docs/types/ChatBannedRights.md) | Yes|Banned [rights](https://core.telegram.org/api/rights)|
+|left|[Bool](/API_docs/types/Bool.html) | Optional|Whether the user has left the group|
+|peer|[Peer](/API_docs/types/Peer.html) | Yes|
+|kicked\_by|[long](/API_docs/types/long.html) | Yes|
+|date|[int](/API_docs/types/int.html) | Yes|When did the user join the group|
+|banned\_rights|[ChatBannedRights](/API_docs/types/ChatBannedRights.html) | Yes|Banned [rights](https://core.telegram.org/api/rights)|
 
 
 
-### Type: [ChannelParticipant](/API_docs/types/ChannelParticipant.md)
+### Type: [ChannelParticipant](/API_docs/types/ChannelParticipant.html)
 
 
 ### Example:

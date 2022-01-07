@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_checkedHistoryImportPeer.html
 ---
 # Constructor: messages.checkedHistoryImportPeer  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -14,11 +14,11 @@ redirect_from: /API_docs/constructors/messages_checkedHistoryImportPeer.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|confirm\_text|[string](/API_docs/types/string.md) | Yes|
+|confirm\_text|[string](/API_docs/types/string.html) | Yes|
 
 
 
-### Type: [messages.CheckedHistoryImportPeer](/API_docs/types/messages.CheckedHistoryImportPeer.md)
+### Type: [messages.CheckedHistoryImportPeer](/API_docs/types/messages.CheckedHistoryImportPeer.html)
 
 
 ### Example:

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getAppConfig.html
 ---
 # Method: help.getAppConfig
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ Get app-specific configuration, see [client configuration](https://core.telegram
 
 
 
-### Return type: [JSONValue](/API_docs/types/JSONValue.md)
+### Return type: [JSONValue](/API_docs/types/JSONValue.html)
 
 ### Can bots use this method: **NO**
 

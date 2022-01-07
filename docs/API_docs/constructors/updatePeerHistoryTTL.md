@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updatePeerHistoryTTL  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -13,12 +13,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Peer](/API_docs/types/Peer.md) | Yes|
-|ttl\_period|[int](/API_docs/types/int.md) | Optional|
+|peer|[Peer](/API_docs/types/Peer.html) | Yes|
+|ttl\_period|[int](/API_docs/types/int.html) | Optional|
 
 
 
-### Type: [Update](/API_docs/types/Update.md)
+### Type: [Update](/API_docs/types/Update.html)
 
 
 ### Example:

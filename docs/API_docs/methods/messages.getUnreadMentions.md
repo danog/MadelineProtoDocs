@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getUnreadMentions.html
 ---
 # Method: messages.getUnreadMentions
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,15 +17,15 @@ Get unread messages where we were mentioned
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Peer where to look for mentions | Optional|
-|offset\_id|[int](/API_docs/types/int.md) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
-|add\_offset|[int](/API_docs/types/int.md) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
-|limit|[int](/API_docs/types/int.md) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
-|max\_id|[int](/API_docs/types/int.md) | Maximum message ID to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
-|min\_id|[int](/API_docs/types/int.md) | Minimum message ID to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where to look for mentions | Optional|
+|offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
+|add\_offset|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
+|max\_id|[int](/API_docs/types/int.html) | Maximum message ID to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
+|min\_id|[int](/API_docs/types/int.html) | Minimum message ID to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
 
 
-### Return type: [messages.Messages](/API_docs/types/messages.Messages.md)
+### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)
 
 ### Can bots use this method: **NO**
 

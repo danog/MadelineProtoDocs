@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_getTopPeers.html
 ---
 # Method: contacts.getTopPeers
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,20 +17,20 @@ Get most used peers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|correspondents|[Bool](/API_docs/types/Bool.md) | Users we've chatted most frequently with | Optional|
-|bots\_pm|[Bool](/API_docs/types/Bool.md) | Most used bots | Optional|
-|bots\_inline|[Bool](/API_docs/types/Bool.md) | Most used inline bots | Optional|
-|phone\_calls|[Bool](/API_docs/types/Bool.md) | Most frequently called users | Optional|
-|forward\_users|[Bool](/API_docs/types/Bool.md) | Users to which the users often forwards messages to | Optional|
-|forward\_chats|[Bool](/API_docs/types/Bool.md) | Chats to which the users often forwards messages to | Optional|
-|groups|[Bool](/API_docs/types/Bool.md) | Often-opened groups and supergroups | Optional|
-|channels|[Bool](/API_docs/types/Bool.md) | Most frequently visited channels | Optional|
-|offset|[int](/API_docs/types/int.md) | Offset for [pagination](https://core.telegram.org/api/offsets) | Yes|
-|limit|[int](/API_docs/types/int.md) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
-|hash|[long](/API_docs/types/long.md) |  | Yes|
+|correspondents|[Bool](/API_docs/types/Bool.html) | Users we've chatted most frequently with | Optional|
+|bots\_pm|[Bool](/API_docs/types/Bool.html) | Most used bots | Optional|
+|bots\_inline|[Bool](/API_docs/types/Bool.html) | Most used inline bots | Optional|
+|phone\_calls|[Bool](/API_docs/types/Bool.html) | Most frequently called users | Optional|
+|forward\_users|[Bool](/API_docs/types/Bool.html) | Users to which the users often forwards messages to | Optional|
+|forward\_chats|[Bool](/API_docs/types/Bool.html) | Chats to which the users often forwards messages to | Optional|
+|groups|[Bool](/API_docs/types/Bool.html) | Often-opened groups and supergroups | Optional|
+|channels|[Bool](/API_docs/types/Bool.html) | Most frequently visited channels | Optional|
+|offset|[int](/API_docs/types/int.html) | Offset for [pagination](https://core.telegram.org/api/offsets) | Yes|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
+|hash|[long](/API_docs/types/long.html) |  | Yes|
 
 
-### Return type: [contacts.TopPeers](/API_docs/types/contacts.TopPeers.md)
+### Return type: [contacts.TopPeers](/API_docs/types/contacts.TopPeers.html)
 
 ### Can bots use this method: **NO**
 

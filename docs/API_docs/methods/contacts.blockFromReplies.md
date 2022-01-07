@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_blockFromReplies.html
 ---
 # Method: contacts.blockFromReplies
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,13 +17,13 @@ Stop getting notifications about [thread replies](https://core.telegram.org/api/
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|delete\_message|[Bool](/API_docs/types/Bool.md) | Whether to delete the specified message as well | Optional|
-|delete\_history|[Bool](/API_docs/types/Bool.md) | Whether to delete all `@replies` messages from this user as well | Optional|
-|report\_spam|[Bool](/API_docs/types/Bool.md) | Whether to also report this user for spam | Optional|
-|msg\_id|[int](/API_docs/types/int.md) | ID of the message in the [@replies](https://core.telegram.org/api/threads#replies) chat | Yes|
+|delete\_message|[Bool](/API_docs/types/Bool.html) | Whether to delete the specified message as well | Optional|
+|delete\_history|[Bool](/API_docs/types/Bool.html) | Whether to delete all `@replies` messages from this user as well | Optional|
+|report\_spam|[Bool](/API_docs/types/Bool.html) | Whether to also report this user for spam | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | ID of the message in the [@replies](https://core.telegram.org/api/threads#replies) chat | Yes|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **NO**
 

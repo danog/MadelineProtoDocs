@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_acceptUrlAuth.html
 ---
 # Method: messages.acceptUrlAuth
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,14 +17,14 @@ Use this to accept a Seamless Telegram Login authorization request, for more inf
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|write\_allowed|[Bool](/API_docs/types/Bool.md) | Set this flag to allow the bot to send messages to you (if requested) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | The location of the message | Optional|
-|msg\_id|[int](/API_docs/types/int.md) | Message ID of the message with the login button | Optional|
-|button\_id|[int](/API_docs/types/int.md) | ID of the login button | Optional|
-|url|[string](/API_docs/types/string.md) |  | Optional|
+|write\_allowed|[Bool](/API_docs/types/Bool.html) | Set this flag to allow the bot to send messages to you (if requested) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The location of the message | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | Message ID of the message with the login button | Optional|
+|button\_id|[int](/API_docs/types/int.html) | ID of the login button | Optional|
+|url|[string](/API_docs/types/string.html) |  | Optional|
 
 
-### Return type: [UrlAuthResult](/API_docs/types/UrlAuthResult.md)
+### Return type: [UrlAuthResult](/API_docs/types/UrlAuthResult.html)
 
 ### Can bots use this method: **NO**
 

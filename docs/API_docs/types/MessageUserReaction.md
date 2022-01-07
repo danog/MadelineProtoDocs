@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: MessageUserReaction
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[messageUserReaction](/API_docs/constructors/messageUserReaction.md)  
+[messageUserReaction](/API_docs/constructors/messageUserReaction.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[messageUserReaction](/API_docs/constructors/messageUserReaction.md)  
+[messageUserReaction](/API_docs/constructors/messageUserReaction.html)  
 

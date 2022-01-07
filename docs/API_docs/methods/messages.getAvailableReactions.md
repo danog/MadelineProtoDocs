@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getAvailableReactions.html
 ---
 # Method: messages.getAvailableReactions
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/messages_getAvailableReactions.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|hash|Array of [int](/API_docs/types/int.md) | Optional|
+|hash|Array of [int](/API_docs/types/int.html) | Optional|
 
 
-### Return type: [messages.AvailableReactions](/API_docs/types/messages.AvailableReactions.md)
+### Return type: [messages.AvailableReactions](/API_docs/types/messages.AvailableReactions.html)
 
 ### Can bots use this method: **YES**
 

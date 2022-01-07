@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getSearchResultsPositions.html
 ---
 # Method: messages.getSearchResultsPositions
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,13 +15,13 @@ redirect_from: /API_docs/methods/messages_getSearchResultsPositions.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
-|filter|[MessagesFilter](/API_docs/types/MessagesFilter.md) | Optional|
-|offset\_id|[int](/API_docs/types/int.md) | Yes|
-|limit|[int](/API_docs/types/int.md) | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+|filter|[MessagesFilter](/API_docs/types/MessagesFilter.html) | Optional|
+|offset\_id|[int](/API_docs/types/int.html) | Yes|
+|limit|[int](/API_docs/types/int.html) | Yes|
 
 
-### Return type: [messages.SearchResultsPositions](/API_docs/types/messages.SearchResultsPositions.md)
+### Return type: [messages.SearchResultsPositions](/API_docs/types/messages.SearchResultsPositions.html)
 
 ### Can bots use this method: **YES**
 

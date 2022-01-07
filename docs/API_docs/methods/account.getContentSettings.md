@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getContentSettings.html
 ---
 # Method: account.getContentSettings
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ Get sensitive content settings
 
 
 
-### Return type: [account.ContentSettings](/API_docs/types/account.ContentSettings.md)
+### Return type: [account.ContentSettings](/API_docs/types/account.ContentSettings.html)
 
 ### Can bots use this method: **NO**
 

@@ -6,27 +6,27 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/messages_HighScores.html
 ---
 # Type: messages.HighScores
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[messages.highScores](/API_docs/constructors/messages.highScores.md)  
+[messages.highScores](/API_docs/constructors/messages.highScores.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getGameHighScores](/API_docs/methods/messages.getGameHighScores.md)  
+[$MadelineProto->messages->getGameHighScores](/API_docs/methods/messages.getGameHighScores.html)  
 
-[$MadelineProto->messages->getInlineGameHighScores](/API_docs/methods/messages.getInlineGameHighScores.md)  
+[$MadelineProto->messages->getInlineGameHighScores](/API_docs/methods/messages.getInlineGameHighScores.html)  
 
 
 
-[messages.highScores](/API_docs/constructors/messages.highScores.md)  
+[messages.highScores](/API_docs/constructors/messages.highScores.html)  
 
-[$MadelineProto->messages->getGameHighScores](/API_docs/methods/messages.getGameHighScores.md)  
+[$MadelineProto->messages->getGameHighScores](/API_docs/methods/messages.getGameHighScores.html)  
 
-[$MadelineProto->messages->getInlineGameHighScores](/API_docs/methods/messages.getInlineGameHighScores.md)  
+[$MadelineProto->messages->getInlineGameHighScores](/API_docs/methods/messages.getInlineGameHighScores.html)  
 

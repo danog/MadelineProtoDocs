@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_getStatuses.html
 ---
 # Method: contacts.getStatuses
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ Returns the list of contact statuses.
 
 
 
-### Return type: [Vector\_of\_ContactStatus](/API_docs/types/ContactStatus.md)
+### Return type: [Vector\_of\_ContactStatus](/API_docs/types/ContactStatus.html)
 
 ### Can bots use this method: **NO**
 

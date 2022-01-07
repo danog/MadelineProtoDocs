@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageEmojiInteraction  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -13,13 +13,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|emoticon|[string](/API_docs/types/string.md) | Yes|
-|msg\_id|[int](/API_docs/types/int.md) | Yes|
-|interaction|[DataJSON](/API_docs/types/DataJSON.md) | Yes|
+|emoticon|[string](/API_docs/types/string.html) | Yes|
+|msg\_id|[int](/API_docs/types/int.html) | Yes|
+|interaction|[DataJSON](/API_docs/types/DataJSON.html) | Yes|
 
 
 
-### Type: [SendMessageAction](/API_docs/types/SendMessageAction.md)
+### Type: [SendMessageAction](/API_docs/types/SendMessageAction.html)
 
 
 ### Example:

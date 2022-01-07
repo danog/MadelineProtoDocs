@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_cancelCode.html
 ---
 # Method: auth.cancelCode
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Cancel the login verification code
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](/API_docs/types/string.md) | Phone number | Yes|
-|phone\_code\_hash|[string](/API_docs/types/string.md) | Phone code hash from [auth.sendCode](../methods/auth.sendCode.md) | Yes|
+|phone\_number|[string](/API_docs/types/string.html) | Phone number | Yes|
+|phone\_code\_hash|[string](/API_docs/types/string.html) | Phone code hash from [auth.sendCode](../methods/auth.sendCode.html) | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

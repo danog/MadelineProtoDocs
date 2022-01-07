@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: jsonArray  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,11 +15,11 @@ JSON array
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|value|Array of [JSONValue](/API_docs/types/JSONValue.md) | Yes|JSON values|
+|value|Array of [JSONValue](/API_docs/types/JSONValue.html) | Yes|JSON values|
 
 
 
-### Type: [JSONValue](/API_docs/types/JSONValue.md)
+### Type: [JSONValue](/API_docs/types/JSONValue.html)
 
 
 ### Example:

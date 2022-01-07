@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_resetTopPeerRating.html
 ---
 # Method: contacts.resetTopPeerRating
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Reset [rating](https://core.telegram.org/api/top-rating) of top peer
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|category|[TopPeerCategory](/API_docs/types/TopPeerCategory.md) | Top peer category | Yes|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Peer whose rating should be reset | Optional|
+|category|[TopPeerCategory](/API_docs/types/TopPeerCategory.html) | Top peer category | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer whose rating should be reset | Optional|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_getContactIDs.html
 ---
 # Method: contacts.getContactIDs
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Get contact by telegram IDs
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[long](/API_docs/types/long.md) |  | Yes|
+|hash|[long](/API_docs/types/long.html) |  | Yes|
 
 
-### Return type: [Vector\_of\_int](/API_docs/types/int.md)
+### Return type: [Vector\_of\_int](/API_docs/types/int.html)
 
 ### Can bots use this method: **NO**
 

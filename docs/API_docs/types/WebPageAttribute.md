@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: WebPageAttribute
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[webPageAttributeTheme](/API_docs/constructors/webPageAttributeTheme.md)  
+[webPageAttributeTheme](/API_docs/constructors/webPageAttributeTheme.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[webPageAttributeTheme](/API_docs/constructors/webPageAttributeTheme.md)  
+[webPageAttributeTheme](/API_docs/constructors/webPageAttributeTheme.html)  
 

@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: DecryptedMessageLayer
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[decryptedMessageLayer\_17](/API_docs/constructors/decryptedMessageLayer_17.md)  
+[decryptedMessageLayer\_17](/API_docs/constructors/decryptedMessageLayer_17.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[decryptedMessageLayer\_17](/API_docs/constructors/decryptedMessageLayer_17.md)  
+[decryptedMessageLayer\_17](/API_docs/constructors/decryptedMessageLayer_17.html)  
 

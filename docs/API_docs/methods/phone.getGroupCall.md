@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/phone_getGroupCall.html
 ---
 # Method: phone.getGroupCall
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,11 +15,11 @@ redirect_from: /API_docs/methods/phone_getGroupCall.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.md) | Yes|
-|limit|[int](/API_docs/types/int.md) | Yes|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
+|limit|[int](/API_docs/types/int.html) | Yes|
 
 
-### Return type: [phone.GroupCall](/API_docs/types/phone.GroupCall.md)
+### Return type: [phone.GroupCall](/API_docs/types/phone.GroupCall.html)
 
 ### Can bots use this method: **NO**
 

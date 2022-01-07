@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_getChannels.html
 ---
 # Method: channels.getChannels
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Get info about [channels/supergroups](https://core.telegram.org/api/channel)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|Array of [Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | IDs of channels/supergroups to get info about | Yes|
+|id|Array of [Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | IDs of channels/supergroups to get info about | Yes|
 
 
-### Return type: [messages.Chats](/API_docs/types/messages.Chats.md)
+### Return type: [messages.Chats](/API_docs/types/messages.Chats.html)
 
 ### Can bots use this method: **YES**
 

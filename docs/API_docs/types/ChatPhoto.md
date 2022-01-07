@@ -5,15 +5,15 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: ChatPhoto
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[chatPhotoEmpty](/API_docs/constructors/chatPhotoEmpty.md)  
+[chatPhotoEmpty](/API_docs/constructors/chatPhotoEmpty.html)  
 
-[chatPhoto](/API_docs/constructors/chatPhoto.md)  
+[chatPhoto](/API_docs/constructors/chatPhoto.html)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[chatPhotoEmpty](/API_docs/constructors/chatPhotoEmpty.md)  
+[chatPhotoEmpty](/API_docs/constructors/chatPhotoEmpty.html)  
 
-[chatPhoto](/API_docs/constructors/chatPhoto.md)  
+[chatPhoto](/API_docs/constructors/chatPhoto.html)  
 

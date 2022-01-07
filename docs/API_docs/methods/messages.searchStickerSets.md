@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_searchStickerSets.html
 ---
 # Method: messages.searchStickerSets
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Search for stickersets
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|exclude\_featured|[Bool](/API_docs/types/Bool.md) | Exclude featured stickersets from results | Optional|
-|q|[string](/API_docs/types/string.md) | Query string | Yes|
-|hash|[long](/API_docs/types/long.md) |  | Yes|
+|exclude\_featured|[Bool](/API_docs/types/Bool.html) | Exclude featured stickersets from results | Optional|
+|q|[string](/API_docs/types/string.html) | Query string | Yes|
+|hash|[long](/API_docs/types/long.html) |  | Yes|
 
 
-### Return type: [messages.FoundStickerSets](/API_docs/types/messages.FoundStickerSets.md)
+### Return type: [messages.FoundStickerSets](/API_docs/types/messages.FoundStickerSets.html)
 
 ### Can bots use this method: **NO**
 

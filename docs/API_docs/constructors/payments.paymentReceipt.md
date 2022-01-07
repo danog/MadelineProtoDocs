@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/payments_paymentReceipt.html
 ---
 # Constructor: payments.paymentReceipt  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,24 +16,24 @@ Receipt
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|date|[int](/API_docs/types/int.md) | Yes|Date of generation|
-|bot\_id|[long](/API_docs/types/long.md) | Yes|
-|provider\_id|[long](/API_docs/types/long.md) | Yes|
-|title|[string](/API_docs/types/string.md) | Yes|
-|description|[string](/API_docs/types/string.md) | Yes|
-|photo|[WebDocument](/API_docs/types/WebDocument.md) | Optional|
-|invoice|[Invoice](/API_docs/types/Invoice.md) | Yes|Invoice|
-|info|[PaymentRequestedInfo](/API_docs/types/PaymentRequestedInfo.md) | Optional|Info|
-|shipping|[ShippingOption](/API_docs/types/ShippingOption.md) | Optional|Selected shipping option|
-|tip\_amount|[long](/API_docs/types/long.md) | Optional|
-|currency|[string](/API_docs/types/string.md) | Yes|Three-letter ISO 4217 [currency](https://core.telegram.org/bots/payments#supported-currencies) code|
-|total\_amount|[long](/API_docs/types/long.md) | Yes|Total amount in the smallest units of the currency (integer, not float/double). For example, for a price of `US$ 1.45` pass `amount = 145`. See the exp parameter in [currencies.json](https://core.telegram.org/bots/payments/currencies.json), it shows the number of digits past the decimal point for each currency (2 for the majority of currencies).|
-|credentials\_title|[string](/API_docs/types/string.md) | Yes|Payment credential name|
-|users|Array of [User](/API_docs/types/User.md) | Yes|Users|
+|date|[int](/API_docs/types/int.html) | Yes|Date of generation|
+|bot\_id|[long](/API_docs/types/long.html) | Yes|
+|provider\_id|[long](/API_docs/types/long.html) | Yes|
+|title|[string](/API_docs/types/string.html) | Yes|
+|description|[string](/API_docs/types/string.html) | Yes|
+|photo|[WebDocument](/API_docs/types/WebDocument.html) | Optional|
+|invoice|[Invoice](/API_docs/types/Invoice.html) | Yes|Invoice|
+|info|[PaymentRequestedInfo](/API_docs/types/PaymentRequestedInfo.html) | Optional|Info|
+|shipping|[ShippingOption](/API_docs/types/ShippingOption.html) | Optional|Selected shipping option|
+|tip\_amount|[long](/API_docs/types/long.html) | Optional|
+|currency|[string](/API_docs/types/string.html) | Yes|Three-letter ISO 4217 [currency](https://core.telegram.org/bots/payments#supported-currencies) code|
+|total\_amount|[long](/API_docs/types/long.html) | Yes|Total amount in the smallest units of the currency (integer, not float/double). For example, for a price of `US$ 1.45` pass `amount = 145`. See the exp parameter in [currencies.json](https://core.telegram.org/bots/payments/currencies.json), it shows the number of digits past the decimal point for each currency (2 for the majority of currencies).|
+|credentials\_title|[string](/API_docs/types/string.html) | Yes|Payment credential name|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Users|
 
 
 
-### Type: [payments.PaymentReceipt](/API_docs/types/payments.PaymentReceipt.md)
+### Type: [payments.PaymentReceipt](/API_docs/types/payments.PaymentReceipt.html)
 
 
 ### Example:

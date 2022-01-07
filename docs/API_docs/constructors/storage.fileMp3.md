@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/storage_fileMp3.html
 ---
 # Constructor: storage.fileMp3  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,7 +15,7 @@ Mp3 audio. MIME type: `audio/mpeg`.
 
 
 
-### Type: [storage.FileType](/API_docs/types/storage.FileType.md)
+### Type: [storage.FileType](/API_docs/types/storage.FileType.html)
 
 
 ### Example:

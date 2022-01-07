@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_bindTempAuthKey.html
 ---
 # Method: auth.bindTempAuthKey
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,13 +17,13 @@ You cannot use this method directly, instead modify the PFS and default_temp_aut
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|perm\_auth\_key\_id|[long](/API_docs/types/long.md) | Permanent auth\_key\_id to bind to | Yes|
-|nonce|[long](/API_docs/types/long.md) | Random long from [Binding message contents](#binding-message-contents) | Yes|
-|expires\_at|[int](/API_docs/types/int.md) | Unix timestamp to invalidate temporary key, see [Binding message contents](#binding-message-contents) | Yes|
-|encrypted\_message|[bytes](/API_docs/types/bytes.md) | See [Generating encrypted\_message](#generating-encrypted-message) | Yes|
+|perm\_auth\_key\_id|[long](/API_docs/types/long.html) | Permanent auth\_key\_id to bind to | Yes|
+|nonce|[long](/API_docs/types/long.html) | Random long from [Binding message contents](#binding-message-contents) | Yes|
+|expires\_at|[int](/API_docs/types/int.html) | Unix timestamp to invalidate temporary key, see [Binding message contents](#binding-message-contents) | Yes|
+|encrypted\_message|[bytes](/API_docs/types/bytes.html) | See [Generating encrypted\_message](#generating-encrypted-message) | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **YES**
 

@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/upload_cdnFile.html
 ---
 # Constructor: upload.cdnFile  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,11 +16,11 @@ Represent a chunk of a [CDN](https://core.telegram.org/cdn) file.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|bytes|[bytes](/API_docs/types/bytes.md) | Yes|The data|
+|bytes|[bytes](/API_docs/types/bytes.html) | Yes|The data|
 
 
 
-### Type: [upload.CdnFile](/API_docs/types/upload.CdnFile.md)
+### Type: [upload.CdnFile](/API_docs/types/upload.CdnFile.html)
 
 
 ### Example:

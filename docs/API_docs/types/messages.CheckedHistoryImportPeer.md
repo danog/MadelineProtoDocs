@@ -6,23 +6,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/messages_CheckedHistoryImportPeer.html
 ---
 # Type: messages.CheckedHistoryImportPeer
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[messages.checkedHistoryImportPeer](/API_docs/constructors/messages.checkedHistoryImportPeer.md)  
+[messages.checkedHistoryImportPeer](/API_docs/constructors/messages.checkedHistoryImportPeer.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->checkHistoryImportPeer](/API_docs/methods/messages.checkHistoryImportPeer.md)  
+[$MadelineProto->messages->checkHistoryImportPeer](/API_docs/methods/messages.checkHistoryImportPeer.html)  
 
 
 
-[messages.checkedHistoryImportPeer](/API_docs/constructors/messages.checkedHistoryImportPeer.md)  
+[messages.checkedHistoryImportPeer](/API_docs/constructors/messages.checkedHistoryImportPeer.html)  
 
-[$MadelineProto->messages->checkHistoryImportPeer](/API_docs/methods/messages.checkHistoryImportPeer.md)  
+[$MadelineProto->messages->checkHistoryImportPeer](/API_docs/methods/messages.checkHistoryImportPeer.html)  
 

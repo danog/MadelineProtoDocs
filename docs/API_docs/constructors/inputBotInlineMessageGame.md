@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputBotInlineMessageGame  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,11 +15,11 @@ A game
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.md) | Optional|Inline keyboard|
+|reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.html) | Optional|Inline keyboard|
 
 
 
-### Type: [InputBotInlineMessage](/API_docs/types/InputBotInlineMessage.md)
+### Type: [InputBotInlineMessage](/API_docs/types/InputBotInlineMessage.html)
 
 
 ### Example:

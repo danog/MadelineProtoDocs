@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: emojiKeyword  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ Emoji keyword
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|keyword|[string](/API_docs/types/string.md) | Yes|Keyword|
-|emoticons|Array of [string](/API_docs/types/string.md) | Yes|Emojis associated to keyword|
+|keyword|[string](/API_docs/types/string.html) | Yes|Keyword|
+|emoticons|Array of [string](/API_docs/types/string.html) | Yes|Emojis associated to keyword|
 
 
 
-### Type: [EmojiKeyword](/API_docs/types/EmojiKeyword.md)
+### Type: [EmojiKeyword](/API_docs/types/EmojiKeyword.html)
 
 
 ### Example:

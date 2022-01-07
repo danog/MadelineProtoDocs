@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_dropTempAuthKeys.html
 ---
 # Method: auth.dropTempAuthKeys
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Delete all temporary authorization keys **except for** the ones specified
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|except\_auth\_keys|Array of [long](/API_docs/types/long.md) | The auth keys that **shouldn't** be dropped. | Yes|
+|except\_auth\_keys|Array of [long](/API_docs/types/long.html) | The auth keys that **shouldn't** be dropped. | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **YES**
 

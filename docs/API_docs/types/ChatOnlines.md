@@ -5,23 +5,23 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: ChatOnlines
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[chatOnlines](/API_docs/constructors/chatOnlines.md)  
+[chatOnlines](/API_docs/constructors/chatOnlines.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getOnlines](/API_docs/methods/messages.getOnlines.md)  
+[$MadelineProto->messages->getOnlines](/API_docs/methods/messages.getOnlines.html)  
 
 
 
-[chatOnlines](/API_docs/constructors/chatOnlines.md)  
+[chatOnlines](/API_docs/constructors/chatOnlines.html)  
 
-[$MadelineProto->messages->getOnlines](/API_docs/methods/messages.getOnlines.md)  
+[$MadelineProto->messages->getOnlines](/API_docs/methods/messages.getOnlines.html)  
 

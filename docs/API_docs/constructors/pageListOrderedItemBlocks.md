@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageListOrderedItemBlocks  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ Ordered list of [IV](https://instantview.telegram.org) blocks
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|num|[string](/API_docs/types/string.md) | Yes|Number of element within ordered list|
-|blocks|Array of [PageBlock](/API_docs/types/PageBlock.md) | Yes|Item contents|
+|num|[string](/API_docs/types/string.html) | Yes|Number of element within ordered list|
+|blocks|Array of [PageBlock](/API_docs/types/PageBlock.html) | Yes|Item contents|
 
 
 
-### Type: [PageListOrderedItem](/API_docs/types/PageListOrderedItem.md)
+### Type: [PageListOrderedItem](/API_docs/types/PageListOrderedItem.html)
 
 
 ### Example:

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getSplitRanges.html
 ---
 # Method: messages.getSplitRanges
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ Get message ranges for saving the user's chat history
 
 
 
-### Return type: [Vector\_of\_MessageRange](/API_docs/types/MessageRange.md)
+### Return type: [Vector\_of\_MessageRange](/API_docs/types/MessageRange.html)
 
 ### Can bots use this method: **NO**
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputMediaPhoto  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ Forwarded photo
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[MessageMedia, Message, Update or InputPhoto](/API_docs/types/InputPhoto.md) | Optional|Photo to be forwarded|
-|ttl\_seconds|[int](/API_docs/types/int.md) | Optional|Time to live in seconds of self-destructing photo|
+|id|[MessageMedia, Message, Update or InputPhoto](/API_docs/types/InputPhoto.html) | Optional|Photo to be forwarded|
+|ttl\_seconds|[int](/API_docs/types/int.html) | Optional|Time to live in seconds of self-destructing photo|
 
 
 
-### Type: [InputMedia](/API_docs/types/InputMedia.md)
+### Type: [InputMedia](/API_docs/types/InputMedia.html)
 
 
 ### Example:

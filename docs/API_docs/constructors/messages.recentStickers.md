@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_recentStickers.html
 ---
 # Constructor: messages.recentStickers  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,14 +16,14 @@ Recently used stickers
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[long](/API_docs/types/long.md) | Yes|
-|packs|Array of [StickerPack](/API_docs/types/StickerPack.md) | Yes|Emojis associated to stickers|
-|stickers|Array of [Document](/API_docs/types/Document.md) | Yes|Recent stickers|
-|dates|Array of [int](/API_docs/types/int.md) | Yes|When was each sticker last used|
+|hash|[long](/API_docs/types/long.html) | Yes|
+|packs|Array of [StickerPack](/API_docs/types/StickerPack.html) | Yes|Emojis associated to stickers|
+|stickers|Array of [Document](/API_docs/types/Document.html) | Yes|Recent stickers|
+|dates|Array of [int](/API_docs/types/int.html) | Yes|When was each sticker last used|
 
 
 
-### Type: [messages.RecentStickers](/API_docs/types/messages.RecentStickers.md)
+### Type: [messages.RecentStickers](/API_docs/types/messages.RecentStickers.html)
 
 
 ### Example:

@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: HighScore
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[highScore](/API_docs/constructors/highScore.md)  
+[highScore](/API_docs/constructors/highScore.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[highScore](/API_docs/constructors/highScore.md)  
+[highScore](/API_docs/constructors/highScore.html)  
 

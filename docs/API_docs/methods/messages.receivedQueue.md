@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_receivedQueue.html
 ---
 # Method: messages.receivedQueue
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ You cannot use this method directly
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|max\_qts|[int](/API_docs/types/int.md) | Maximum qts value available at the client | Yes|
+|max\_qts|[int](/API_docs/types/int.html) | Maximum qts value available at the client | Yes|
 
 
-### Return type: [Vector\_of\_long](/API_docs/types/long.md)
+### Return type: [Vector\_of\_long](/API_docs/types/long.html)
 
 ### Can bots use this method: **NO**
 

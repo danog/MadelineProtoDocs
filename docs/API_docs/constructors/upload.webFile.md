@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/upload_webFile.html
 ---
 # Constructor: upload.webFile  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,15 +16,15 @@ Represents a chunk of an [HTTP webfile](https://core.telegram.org/api/files) dow
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|size|[int](/API_docs/types/int.md) | Yes|File size|
-|mime\_type|[string](/API_docs/types/string.md) | Yes|Mime type|
-|file\_type|[storage.FileType](/API_docs/constructors/storage.FileType.md) | Yes|File type|
-|mtime|[int](/API_docs/types/int.md) | Yes|Modified time|
-|bytes|[bytes](/API_docs/types/bytes.md) | Yes|Data|
+|size|[int](/API_docs/types/int.html) | Yes|File size|
+|mime\_type|[string](/API_docs/types/string.html) | Yes|Mime type|
+|file\_type|[storage.FileType](/API_docs/constructors/storage.FileType.html) | Yes|File type|
+|mtime|[int](/API_docs/types/int.html) | Yes|Modified time|
+|bytes|[bytes](/API_docs/types/bytes.html) | Yes|Data|
 
 
 
-### Type: [upload.WebFile](/API_docs/types/upload.WebFile.md)
+### Type: [upload.WebFile](/API_docs/types/upload.WebFile.html)
 
 
 ### Example:

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_getFullChannel.html
 ---
 # Method: channels.getFullChannel
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo me
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | The channel to get info about | Optional|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The channel to get info about | Optional|
 
 
-### Return type: [messages.ChatFull](/API_docs/types/messages.ChatFull.md)
+### Return type: [messages.ChatFull](/API_docs/types/messages.ChatFull.html)
 
 ### Can bots use this method: **YES**
 

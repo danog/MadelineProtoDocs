@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_deleteSecureValue.html
 ---
 # Method: account.deleteSecureValue
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Delete stored [Telegram Passport](https://core.telegram.org/passport) documents,
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|types|Array of [SecureValueType](/API_docs/types/SecureValueType.md) | Document types to delete | Yes|
+|types|Array of [SecureValueType](/API_docs/types/SecureValueType.html) | Document types to delete | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

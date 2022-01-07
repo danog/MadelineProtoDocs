@@ -6,51 +6,51 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/messages_Chats.html
 ---
 # Type: messages.Chats
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[messages.chats](/API_docs/constructors/messages.chats.md)  
+[messages.chats](/API_docs/constructors/messages.chats.html)  
 
-[messages.chatsSlice](/API_docs/constructors/messages.chatsSlice.md)  
+[messages.chatsSlice](/API_docs/constructors/messages.chatsSlice.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getChats](/API_docs/methods/messages.getChats.md)  
+[$MadelineProto->messages->getChats](/API_docs/methods/messages.getChats.html)  
 
-[$MadelineProto->messages->getCommonChats](/API_docs/methods/messages.getCommonChats.md)  
+[$MadelineProto->messages->getCommonChats](/API_docs/methods/messages.getCommonChats.html)  
 
-[$MadelineProto->messages->getAllChats](/API_docs/methods/messages.getAllChats.md)  
+[$MadelineProto->messages->getAllChats](/API_docs/methods/messages.getAllChats.html)  
 
-[$MadelineProto->channels->getChannels](/API_docs/methods/channels.getChannels.md)  
+[$MadelineProto->channels->getChannels](/API_docs/methods/channels.getChannels.html)  
 
-[$MadelineProto->channels->getAdminedPublicChannels](/API_docs/methods/channels.getAdminedPublicChannels.md)  
+[$MadelineProto->channels->getAdminedPublicChannels](/API_docs/methods/channels.getAdminedPublicChannels.html)  
 
-[$MadelineProto->channels->getLeftChannels](/API_docs/methods/channels.getLeftChannels.md)  
+[$MadelineProto->channels->getLeftChannels](/API_docs/methods/channels.getLeftChannels.html)  
 
-[$MadelineProto->channels->getGroupsForDiscussion](/API_docs/methods/channels.getGroupsForDiscussion.md)  
+[$MadelineProto->channels->getGroupsForDiscussion](/API_docs/methods/channels.getGroupsForDiscussion.html)  
 
 
 
-[messages.chats](/API_docs/constructors/messages.chats.md)  
+[messages.chats](/API_docs/constructors/messages.chats.html)  
 
-[messages.chatsSlice](/API_docs/constructors/messages.chatsSlice.md)  
+[messages.chatsSlice](/API_docs/constructors/messages.chatsSlice.html)  
 
-[$MadelineProto->messages->getChats](/API_docs/methods/messages.getChats.md)  
+[$MadelineProto->messages->getChats](/API_docs/methods/messages.getChats.html)  
 
-[$MadelineProto->messages->getCommonChats](/API_docs/methods/messages.getCommonChats.md)  
+[$MadelineProto->messages->getCommonChats](/API_docs/methods/messages.getCommonChats.html)  
 
-[$MadelineProto->messages->getAllChats](/API_docs/methods/messages.getAllChats.md)  
+[$MadelineProto->messages->getAllChats](/API_docs/methods/messages.getAllChats.html)  
 
-[$MadelineProto->channels->getChannels](/API_docs/methods/channels.getChannels.md)  
+[$MadelineProto->channels->getChannels](/API_docs/methods/channels.getChannels.html)  
 
-[$MadelineProto->channels->getAdminedPublicChannels](/API_docs/methods/channels.getAdminedPublicChannels.md)  
+[$MadelineProto->channels->getAdminedPublicChannels](/API_docs/methods/channels.getAdminedPublicChannels.html)  
 
-[$MadelineProto->channels->getLeftChannels](/API_docs/methods/channels.getLeftChannels.md)  
+[$MadelineProto->channels->getLeftChannels](/API_docs/methods/channels.getLeftChannels.html)  
 
-[$MadelineProto->channels->getGroupsForDiscussion](/API_docs/methods/channels.getGroupsForDiscussion.md)  
+[$MadelineProto->channels->getGroupsForDiscussion](/API_docs/methods/channels.getGroupsForDiscussion.html)  
 

@@ -1,17 +1,17 @@
 ---
 title: "messages.setBotPrecheckoutResults"
-description: "Once the user has confirmed their payment and shipping details, the bot receives an [updateBotPrecheckoutQuery](../constructors/updateBotPrecheckoutQuery.md) update.  "
+description: "Once the user has confirmed their payment and shipping details, the bot receives an [updateBotPrecheckoutQuery](../constructors/updateBotPrecheckoutQuery.html) update.  "
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_setBotPrecheckoutResults.html
 ---
 # Method: messages.setBotPrecheckoutResults
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
-Once the user has confirmed their payment and shipping details, the bot receives an [updateBotPrecheckoutQuery](../constructors/updateBotPrecheckoutQuery.md) update.  
+Once the user has confirmed their payment and shipping details, the bot receives an [updateBotPrecheckoutQuery](../constructors/updateBotPrecheckoutQuery.html) update.  
 Use this method to respond to such pre-checkout queries.  
 **Note**: Telegram must receive an answer within 10 seconds after the pre-checkout query was sent.
 
@@ -19,12 +19,12 @@ Use this method to respond to such pre-checkout queries.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|success|[Bool](/API_docs/types/Bool.md) | Set this flag if everything is alright (goods are available, etc.) and the bot is ready to proceed with the order, otherwise do not set it, and set the `error` field, instead | Optional|
-|query\_id|[long](/API_docs/types/long.md) | Unique identifier for the query to be answered | Yes|
-|error|[string](/API_docs/types/string.md) | Required if the `success` isn't set. Error message in human readable form that explains the reason for failure to proceed with the checkout (e.g. "Sorry, somebody just bought the last of our amazing black T-shirts while you were busy filling out your payment details. Please choose a different color or garment!"). Telegram will display this message to the user. | Optional|
+|success|[Bool](/API_docs/types/Bool.html) | Set this flag if everything is alright (goods are available, etc.) and the bot is ready to proceed with the order, otherwise do not set it, and set the `error` field, instead | Optional|
+|query\_id|[long](/API_docs/types/long.html) | Unique identifier for the query to be answered | Yes|
+|error|[string](/API_docs/types/string.html) | Required if the `success` isn't set. Error message in human readable form that explains the reason for failure to proceed with the checkout (e.g. "Sorry, somebody just bought the last of our amazing black T-shirts while you were busy filling out your payment details. Please choose a different color or garment!"). Telegram will display this message to the user. | Optional|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **YES**
 

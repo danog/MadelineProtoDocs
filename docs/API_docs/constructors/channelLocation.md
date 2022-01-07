@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelLocation  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ Geographical location of supergroup (geogroups)
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|geo\_point|[GeoPoint](/API_docs/types/GeoPoint.md) | Optional|Geographical location of supergrup|
-|address|[string](/API_docs/types/string.md) | Yes|Textual description of the address|
+|geo\_point|[GeoPoint](/API_docs/types/GeoPoint.html) | Optional|Geographical location of supergrup|
+|address|[string](/API_docs/types/string.html) | Yes|Textual description of the address|
 
 
 
-### Type: [ChannelLocation](/API_docs/types/ChannelLocation.md)
+### Type: [ChannelLocation](/API_docs/types/ChannelLocation.html)
 
 
 ### Example:

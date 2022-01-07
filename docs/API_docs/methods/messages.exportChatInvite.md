@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_exportChatInvite.html
 ---
 # Method: messages.exportChatInvite
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,15 +17,15 @@ Export an invite link for a chat
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|legacy\_revoke\_permanent|[Bool](/API_docs/types/Bool.md) |  | Optional|
-|request\_needed|[Bool](/API_docs/types/Bool.md) |  | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Chat | Optional|
-|expire\_date|[int](/API_docs/types/int.md) |  | Optional|
-|usage\_limit|[int](/API_docs/types/int.md) |  | Optional|
-|title|[string](/API_docs/types/string.md) |  | Optional|
+|legacy\_revoke\_permanent|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|request\_needed|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Chat | Optional|
+|expire\_date|[int](/API_docs/types/int.html) |  | Optional|
+|usage\_limit|[int](/API_docs/types/int.html) |  | Optional|
+|title|[string](/API_docs/types/string.html) |  | Optional|
 
 
-### Return type: [ExportedChatInvite](/API_docs/types/ExportedChatInvite.md)
+### Return type: [ExportedChatInvite](/API_docs/types/ExportedChatInvite.html)
 
 ### Can bots use this method: **YES**
 

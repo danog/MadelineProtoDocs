@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_updateDialogFiltersOrder.html
 ---
 # Method: messages.updateDialogFiltersOrder
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Reorder [folders](https://core.telegram.org/api/folders)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|order|Array of [int](/API_docs/types/int.md) | New [folder](https://core.telegram.org/api/folders) order | Yes|
+|order|Array of [int](/API_docs/types/int.html) | New [folder](https://core.telegram.org/api/folders) order | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

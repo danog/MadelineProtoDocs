@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_getParticipant.html
 ---
 # Method: channels.getParticipant
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Get info about a [channel/supergroup](https://core.telegram.org/api/channel) par
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | Channel/supergroup | Optional|
-|participant|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) |  | Optional|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Channel/supergroup | Optional|
+|participant|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
 
 
-### Return type: [channels.ChannelParticipant](/API_docs/types/channels.ChannelParticipant.md)
+### Return type: [channels.ChannelParticipant](/API_docs/types/channels.ChannelParticipant.html)
 
 ### Can bots use this method: **YES**
 

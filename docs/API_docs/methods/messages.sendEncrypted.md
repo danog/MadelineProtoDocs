@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_sendEncrypted.html
 ---
 # Method: messages.sendEncrypted
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Sends a text message to a secret chat.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|silent|[Bool](/API_docs/types/Bool.md) | Send encrypted message without a notification | Optional|
-|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](/API_docs/types/InputEncryptedChat.md) | Secret chat ID | Yes|
-|data|[bytes](/API_docs/types/bytes.md) | TL-serialization of [DecryptedMessage](../types/DecryptedMessage.md) type, encrypted with a key that was created during chat initialization | Yes|
+|silent|[Bool](/API_docs/types/Bool.html) | Send encrypted message without a notification | Optional|
+|peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](/API_docs/types/InputEncryptedChat.html) | Secret chat ID | Yes|
+|data|[bytes](/API_docs/types/bytes.html) | TL-serialization of [DecryptedMessage](../types/DecryptedMessage.html) type, encrypted with a key that was created during chat initialization | Yes|
 
 
-### Return type: [messages.SentEncryptedMessage](/API_docs/types/messages.SentEncryptedMessage.md)
+### Return type: [messages.SentEncryptedMessage](/API_docs/types/messages.SentEncryptedMessage.html)
 
 ### Can bots use this method: **NO**
 

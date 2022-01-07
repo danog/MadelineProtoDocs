@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/stats_getMessageStats.html
 ---
 # Method: stats.getMessageStats
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Get [message statistics](https://core.telegram.org/api/stats)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|dark|[Bool](/API_docs/types/Bool.md) | Whether to enable dark theme for graph colors | Optional|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | Channel ID | Optional|
-|msg\_id|[int](/API_docs/types/int.md) | Message ID | Yes|
+|dark|[Bool](/API_docs/types/Bool.html) | Whether to enable dark theme for graph colors | Optional|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Channel ID | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | Message ID | Yes|
 
 
-### Return type: [stats.MessageStats](/API_docs/types/stats.MessageStats.md)
+### Return type: [stats.MessageStats](/API_docs/types/stats.MessageStats.html)
 
 ### Can bots use this method: **NO**
 

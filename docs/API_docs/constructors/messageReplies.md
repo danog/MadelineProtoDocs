@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageReplies  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,17 +15,17 @@ Info about [the comment section of a channel post, or a simple message thread](h
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|comments|[Bool](/API_docs/types/Bool.md) | Optional|Whether this constructor contains information about the [comment section of a channel post, or a simple message thread](https://core.telegram.org/api/threads)|
-|replies|[int](/API_docs/types/int.md) | Yes|Contains the total number of replies in this thread or comment section.|
-|replies\_pts|[int](/API_docs/types/int.md) | Yes|[PTS](https://core.telegram.org/api/updates) of the message that started this thread.|
-|recent\_repliers|Array of [Peer](/API_docs/types/Peer.md) | Optional|For channel post comments, contains information about the last few comment posters for a specific thread, to show a small list of commenter profile pictures in client previews.|
-|channel\_id|[long](/API_docs/types/long.md) | Optional|
-|max\_id|[int](/API_docs/types/int.md) | Optional|ID of the latest message in this thread or comment section.|
-|read\_max\_id|[int](/API_docs/types/int.md) | Optional|Contains the ID of the latest read message in this thread or comment section.|
+|comments|[Bool](/API_docs/types/Bool.html) | Optional|Whether this constructor contains information about the [comment section of a channel post, or a simple message thread](https://core.telegram.org/api/threads)|
+|replies|[int](/API_docs/types/int.html) | Yes|Contains the total number of replies in this thread or comment section.|
+|replies\_pts|[int](/API_docs/types/int.html) | Yes|[PTS](https://core.telegram.org/api/updates) of the message that started this thread.|
+|recent\_repliers|Array of [Peer](/API_docs/types/Peer.html) | Optional|For channel post comments, contains information about the last few comment posters for a specific thread, to show a small list of commenter profile pictures in client previews.|
+|channel\_id|[long](/API_docs/types/long.html) | Optional|
+|max\_id|[int](/API_docs/types/int.html) | Optional|ID of the latest message in this thread or comment section.|
+|read\_max\_id|[int](/API_docs/types/int.html) | Optional|Contains the ID of the latest read message in this thread or comment section.|
 
 
 
-### Type: [MessageReplies](/API_docs/types/MessageReplies.md)
+### Type: [MessageReplies](/API_docs/types/MessageReplies.html)
 
 
 ### Example:

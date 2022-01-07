@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getDeepLinkInfo.html
 ---
 # Method: help.getDeepLinkInfo
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Get info about a `t.me` link
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|path|[string](/API_docs/types/string.md) | Path in `t.me/path` | Yes|
+|path|[string](/API_docs/types/string.html) | Path in `t.me/path` | Yes|
 
 
-### Return type: [help.DeepLinkInfo](/API_docs/types/help.DeepLinkInfo.md)
+### Return type: [help.DeepLinkInfo](/API_docs/types/help.DeepLinkInfo.html)
 
 ### Can bots use this method: **NO**
 

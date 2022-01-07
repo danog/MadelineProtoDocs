@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/upload_reuploadCdnFile.html
 ---
 # Method: upload.reuploadCdnFile
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|file\_token|[bytes](/API_docs/types/bytes.md) | File token | Yes|
-|request\_token|[bytes](/API_docs/types/bytes.md) | Request token | Yes|
+|file\_token|[bytes](/API_docs/types/bytes.html) | File token | Yes|
+|request\_token|[bytes](/API_docs/types/bytes.html) | Request token | Yes|
 
 
-### Return type: [Vector\_of\_FileHash](/API_docs/types/FileHash.md)
+### Return type: [Vector\_of\_FileHash](/API_docs/types/FileHash.html)
 
 ### Can bots use this method: **YES**
 

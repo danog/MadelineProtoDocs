@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: TopPeerCategoryPeers
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[topPeerCategoryPeers](/API_docs/constructors/topPeerCategoryPeers.md)  
+[topPeerCategoryPeers](/API_docs/constructors/topPeerCategoryPeers.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[topPeerCategoryPeers](/API_docs/constructors/topPeerCategoryPeers.md)  
+[topPeerCategoryPeers](/API_docs/constructors/topPeerCategoryPeers.html)  
 

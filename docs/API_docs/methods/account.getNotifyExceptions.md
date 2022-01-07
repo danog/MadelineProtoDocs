@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getNotifyExceptions.html
 ---
 # Method: account.getNotifyExceptions
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Returns list of chats with non-default notification settings
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|compare\_sound|[Bool](/API_docs/types/Bool.md) | If true, chats with non-default sound will also be returned | Optional|
-|peer|[Username, chat ID, Update, Message or InputNotifyPeer](/API_docs/types/InputNotifyPeer.md) | If specified, only chats of the specified category will be returned | Optional|
+|compare\_sound|[Bool](/API_docs/types/Bool.html) | If true, chats with non-default sound will also be returned | Optional|
+|peer|[Username, chat ID, Update, Message or InputNotifyPeer](/API_docs/types/InputNotifyPeer.html) | If specified, only chats of the specified category will be returned | Optional|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **NO**
 

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getStickerSet.html
 ---
 # Method: messages.getStickerSet
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Get info about a stickerset
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.md) | Stickerset | Optional|
-|hash|Array of [int](/API_docs/types/int.md) |  | Optional|
+|stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.html) | Stickerset | Optional|
+|hash|Array of [int](/API_docs/types/int.html) |  | Optional|
 
 
-### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.md)
+### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.html)
 
 ### Can bots use this method: **YES**
 

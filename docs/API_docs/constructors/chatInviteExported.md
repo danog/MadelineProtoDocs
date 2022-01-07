@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatInviteExported  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,22 +15,22 @@ Exported chat invite
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|revoked|[Bool](/API_docs/types/Bool.md) | Optional|
-|permanent|[Bool](/API_docs/types/Bool.md) | Optional|
-|request\_needed|[Bool](/API_docs/types/Bool.md) | Optional|
-|link|[string](/API_docs/types/string.md) | Yes|Chat invitation link|
-|admin\_id|[long](/API_docs/types/long.md) | Yes|
-|date|[int](/API_docs/types/int.md) | Yes|
-|start\_date|[int](/API_docs/types/int.md) | Optional|
-|expire\_date|[int](/API_docs/types/int.md) | Optional|
-|usage\_limit|[int](/API_docs/types/int.md) | Optional|
-|usage|[int](/API_docs/types/int.md) | Optional|
-|requested|[int](/API_docs/types/int.md) | Optional|
-|title|[string](/API_docs/types/string.md) | Optional|
+|revoked|[Bool](/API_docs/types/Bool.html) | Optional|
+|permanent|[Bool](/API_docs/types/Bool.html) | Optional|
+|request\_needed|[Bool](/API_docs/types/Bool.html) | Optional|
+|link|[string](/API_docs/types/string.html) | Yes|Chat invitation link|
+|admin\_id|[long](/API_docs/types/long.html) | Yes|
+|date|[int](/API_docs/types/int.html) | Yes|
+|start\_date|[int](/API_docs/types/int.html) | Optional|
+|expire\_date|[int](/API_docs/types/int.html) | Optional|
+|usage\_limit|[int](/API_docs/types/int.html) | Optional|
+|usage|[int](/API_docs/types/int.html) | Optional|
+|requested|[int](/API_docs/types/int.html) | Optional|
+|title|[string](/API_docs/types/string.html) | Optional|
 
 
 
-### Type: [ExportedChatInvite](/API_docs/types/ExportedChatInvite.md)
+### Type: [ExportedChatInvite](/API_docs/types/ExportedChatInvite.html)
 
 
 ### Example:

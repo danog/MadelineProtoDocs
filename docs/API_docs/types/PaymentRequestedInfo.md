@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: PaymentRequestedInfo
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[paymentRequestedInfo](/API_docs/constructors/paymentRequestedInfo.md)  
+[paymentRequestedInfo](/API_docs/constructors/paymentRequestedInfo.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[paymentRequestedInfo](/API_docs/constructors/paymentRequestedInfo.md)  
+[paymentRequestedInfo](/API_docs/constructors/paymentRequestedInfo.html)  
 

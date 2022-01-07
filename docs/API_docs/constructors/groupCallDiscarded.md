@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: groupCallDiscarded  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -13,13 +13,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|id|[long](/API_docs/types/long.md) | Yes|
-|access\_hash|[long](/API_docs/types/long.md) | Yes|
-|duration|[int](/API_docs/types/int.md) | Yes|
+|id|[long](/API_docs/types/long.html) | Yes|
+|access\_hash|[long](/API_docs/types/long.html) | Yes|
+|duration|[int](/API_docs/types/int.html) | Yes|
 
 
 
-### Type: [GroupCall](/API_docs/types/GroupCall.md)
+### Type: [GroupCall](/API_docs/types/GroupCall.html)
 
 
 ### Example:

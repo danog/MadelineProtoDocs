@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_requestPasswordRecovery.html
 ---
 # Method: auth.requestPasswordRecovery
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ Request recovery code of a [2FA password](https://core.telegram.org/api/srp), on
 
 
 
-### Return type: [auth.PasswordRecovery](/API_docs/types/auth.PasswordRecovery.md)
+### Return type: [auth.PasswordRecovery](/API_docs/types/auth.PasswordRecovery.html)
 
 ### Can bots use this method: **NO**
 

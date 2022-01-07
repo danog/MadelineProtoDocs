@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: JSONObjectValue
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[jsonObjectValue](/API_docs/constructors/jsonObjectValue.md)  
+[jsonObjectValue](/API_docs/constructors/jsonObjectValue.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[jsonObjectValue](/API_docs/constructors/jsonObjectValue.md)  
+[jsonObjectValue](/API_docs/constructors/jsonObjectValue.html)  
 

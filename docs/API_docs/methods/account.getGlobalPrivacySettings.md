@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getGlobalPrivacySettings.html
 ---
 # Method: account.getGlobalPrivacySettings
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ Get global privacy settings
 
 
 
-### Return type: [GlobalPrivacySettings](/API_docs/types/GlobalPrivacySettings.md)
+### Return type: [GlobalPrivacySettings](/API_docs/types/GlobalPrivacySettings.html)
 
 ### Can bots use this method: **NO**
 

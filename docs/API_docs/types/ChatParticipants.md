@@ -5,15 +5,15 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: ChatParticipants
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[chatParticipantsForbidden](/API_docs/constructors/chatParticipantsForbidden.md)  
+[chatParticipantsForbidden](/API_docs/constructors/chatParticipantsForbidden.html)  
 
-[chatParticipants](/API_docs/constructors/chatParticipants.md)  
+[chatParticipants](/API_docs/constructors/chatParticipants.html)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[chatParticipantsForbidden](/API_docs/constructors/chatParticipantsForbidden.md)  
+[chatParticipantsForbidden](/API_docs/constructors/chatParticipantsForbidden.html)  
 
-[chatParticipants](/API_docs/constructors/chatParticipants.md)  
+[chatParticipants](/API_docs/constructors/chatParticipants.html)  
 

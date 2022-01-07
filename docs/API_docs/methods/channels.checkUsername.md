@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_checkUsername.html
 ---
 # Method: channels.checkUsername
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Check if a username is free and can be assigned to a channel/supergroup
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | The [channel/supergroup](https://core.telegram.org/api/channel) that will assigned the specified username | Optional|
-|username|[string](/API_docs/types/string.md) | The username to check | Yes|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The [channel/supergroup](https://core.telegram.org/api/channel) that will assigned the specified username | Optional|
+|username|[string](/API_docs/types/string.html) | The username to check | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

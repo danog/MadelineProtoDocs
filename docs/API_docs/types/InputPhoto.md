@@ -5,16 +5,16 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputPhoto
-[Back to types index](index.md)
+[Back to types index](index.html)
 
-You can also provide a [MessageMedia](MessageMedia.md), [Message](Message.md), [Update](Update.md), [Photo](Photo.md) here, MadelineProto will automatically convert it to the right type.
+You can also provide a [MessageMedia](MessageMedia.html), [Message](Message.html), [Update](Update.html), [Photo](Photo.html) here, MadelineProto will automatically convert it to the right type.
 
 
 ### Possible values (constructors):
 
-[inputPhotoEmpty](/API_docs/constructors/inputPhotoEmpty.md)  
+[inputPhotoEmpty](/API_docs/constructors/inputPhotoEmpty.html)  
 
-[inputPhoto](/API_docs/constructors/inputPhoto.md)  
+[inputPhoto](/API_docs/constructors/inputPhoto.html)  
 
 
 
@@ -22,7 +22,7 @@ You can also provide a [MessageMedia](MessageMedia.md), [Message](Message.md), [
 
 
 
-[inputPhotoEmpty](/API_docs/constructors/inputPhotoEmpty.md)  
+[inputPhotoEmpty](/API_docs/constructors/inputPhotoEmpty.html)  
 
-[inputPhoto](/API_docs/constructors/inputPhoto.md)  
+[inputPhoto](/API_docs/constructors/inputPhoto.html)  
 

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getPinnedDialogs.html
 ---
 # Method: messages.getPinnedDialogs
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Get pinned dialogs
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|folder\_id|[int](/API_docs/types/int.md) | [Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders) | Yes|
+|folder\_id|[int](/API_docs/types/int.html) | [Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders) | Yes|
 
 
-### Return type: [messages.PeerDialogs](/API_docs/types/messages.PeerDialogs.md)
+### Return type: [messages.PeerDialogs](/API_docs/types/messages.PeerDialogs.html)
 
 ### Can bots use this method: **NO**
 

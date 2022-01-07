@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: KeyboardButton
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 Clicking these buttons:
 
@@ -20,9 +20,9 @@ $result = $KeyboardButton->click();
 
 * A string - If the button is a keyboardButtonUrl
 
-* [Updates](Updates.md) - If the button is a keyboardButton, the message will be sent to the chat, in reply to the message with the keyboard
+* [Updates](Updates.html) - If the button is a keyboardButton, the message will be sent to the chat, in reply to the message with the keyboard
 
-* [messages.BotCallbackAnswer](messages.BotCallbackAnswer.md) - If the button is a keyboardButtonCallback or a keyboardButtonGame the button will be pressed and the result will be returned
+* [messages.BotCallbackAnswer](messages.BotCallbackAnswer.html) - If the button is a keyboardButtonCallback or a keyboardButtonGame the button will be pressed and the result will be returned
 
 * `false` - If the button is an unsupported button, like keyboardButtonRequestPhone, keyboardButtonRequestGeoLocation, keyboardButtonSwitchInlinekeyboardButtonBuy; you will have to parse data from these buttons manually
 
@@ -32,31 +32,31 @@ You can also access the properties of the constructor as a normal array, for exa
 
 ### Possible values (constructors):
 
-[keyboardButton](/API_docs/constructors/keyboardButton.md)  
+[keyboardButton](/API_docs/constructors/keyboardButton.html)  
 
-[keyboardButtonUrl](/API_docs/constructors/keyboardButtonUrl.md)  
+[keyboardButtonUrl](/API_docs/constructors/keyboardButtonUrl.html)  
 
-[keyboardButtonCallback](/API_docs/constructors/keyboardButtonCallback.md)  
+[keyboardButtonCallback](/API_docs/constructors/keyboardButtonCallback.html)  
 
-[keyboardButtonRequestPhone](/API_docs/constructors/keyboardButtonRequestPhone.md)  
+[keyboardButtonRequestPhone](/API_docs/constructors/keyboardButtonRequestPhone.html)  
 
-[keyboardButtonRequestGeoLocation](/API_docs/constructors/keyboardButtonRequestGeoLocation.md)  
+[keyboardButtonRequestGeoLocation](/API_docs/constructors/keyboardButtonRequestGeoLocation.html)  
 
-[keyboardButtonSwitchInline](/API_docs/constructors/keyboardButtonSwitchInline.md)  
+[keyboardButtonSwitchInline](/API_docs/constructors/keyboardButtonSwitchInline.html)  
 
-[keyboardButtonGame](/API_docs/constructors/keyboardButtonGame.md)  
+[keyboardButtonGame](/API_docs/constructors/keyboardButtonGame.html)  
 
-[keyboardButtonBuy](/API_docs/constructors/keyboardButtonBuy.md)  
+[keyboardButtonBuy](/API_docs/constructors/keyboardButtonBuy.html)  
 
-[keyboardButtonUrlAuth](/API_docs/constructors/keyboardButtonUrlAuth.md)  
+[keyboardButtonUrlAuth](/API_docs/constructors/keyboardButtonUrlAuth.html)  
 
-[inputKeyboardButtonUrlAuth](/API_docs/constructors/inputKeyboardButtonUrlAuth.md)  
+[inputKeyboardButtonUrlAuth](/API_docs/constructors/inputKeyboardButtonUrlAuth.html)  
 
-[keyboardButtonRequestPoll](/API_docs/constructors/keyboardButtonRequestPoll.md)  
+[keyboardButtonRequestPoll](/API_docs/constructors/keyboardButtonRequestPoll.html)  
 
-[inputKeyboardButtonUserProfile](/API_docs/constructors/inputKeyboardButtonUserProfile.md)  
+[inputKeyboardButtonUserProfile](/API_docs/constructors/inputKeyboardButtonUserProfile.html)  
 
-[keyboardButtonUserProfile](/API_docs/constructors/keyboardButtonUserProfile.md)  
+[keyboardButtonUserProfile](/API_docs/constructors/keyboardButtonUserProfile.html)  
 
 
 
@@ -64,29 +64,29 @@ You can also access the properties of the constructor as a normal array, for exa
 
 
 
-[keyboardButton](/API_docs/constructors/keyboardButton.md)  
+[keyboardButton](/API_docs/constructors/keyboardButton.html)  
 
-[keyboardButtonUrl](/API_docs/constructors/keyboardButtonUrl.md)  
+[keyboardButtonUrl](/API_docs/constructors/keyboardButtonUrl.html)  
 
-[keyboardButtonCallback](/API_docs/constructors/keyboardButtonCallback.md)  
+[keyboardButtonCallback](/API_docs/constructors/keyboardButtonCallback.html)  
 
-[keyboardButtonRequestPhone](/API_docs/constructors/keyboardButtonRequestPhone.md)  
+[keyboardButtonRequestPhone](/API_docs/constructors/keyboardButtonRequestPhone.html)  
 
-[keyboardButtonRequestGeoLocation](/API_docs/constructors/keyboardButtonRequestGeoLocation.md)  
+[keyboardButtonRequestGeoLocation](/API_docs/constructors/keyboardButtonRequestGeoLocation.html)  
 
-[keyboardButtonSwitchInline](/API_docs/constructors/keyboardButtonSwitchInline.md)  
+[keyboardButtonSwitchInline](/API_docs/constructors/keyboardButtonSwitchInline.html)  
 
-[keyboardButtonGame](/API_docs/constructors/keyboardButtonGame.md)  
+[keyboardButtonGame](/API_docs/constructors/keyboardButtonGame.html)  
 
-[keyboardButtonBuy](/API_docs/constructors/keyboardButtonBuy.md)  
+[keyboardButtonBuy](/API_docs/constructors/keyboardButtonBuy.html)  
 
-[keyboardButtonUrlAuth](/API_docs/constructors/keyboardButtonUrlAuth.md)  
+[keyboardButtonUrlAuth](/API_docs/constructors/keyboardButtonUrlAuth.html)  
 
-[inputKeyboardButtonUrlAuth](/API_docs/constructors/inputKeyboardButtonUrlAuth.md)  
+[inputKeyboardButtonUrlAuth](/API_docs/constructors/inputKeyboardButtonUrlAuth.html)  
 
-[keyboardButtonRequestPoll](/API_docs/constructors/keyboardButtonRequestPoll.md)  
+[keyboardButtonRequestPoll](/API_docs/constructors/keyboardButtonRequestPoll.html)  
 
-[inputKeyboardButtonUserProfile](/API_docs/constructors/inputKeyboardButtonUserProfile.md)  
+[inputKeyboardButtonUserProfile](/API_docs/constructors/inputKeyboardButtonUserProfile.html)  
 
-[keyboardButtonUserProfile](/API_docs/constructors/keyboardButtonUserProfile.md)  
+[keyboardButtonUserProfile](/API_docs/constructors/keyboardButtonUserProfile.html)  
 

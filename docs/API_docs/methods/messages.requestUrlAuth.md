@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_requestUrlAuth.html
 ---
 # Method: messages.requestUrlAuth
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,13 +17,13 @@ Get more info about a Seamless Telegram Login authorization request, for more in
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Peer where the message is located | Optional|
-|msg\_id|[int](/API_docs/types/int.md) | The message | Optional|
-|button\_id|[int](/API_docs/types/int.md) | The ID of the button with the authorization request | Optional|
-|url|[string](/API_docs/types/string.md) |  | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where the message is located | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | The message | Optional|
+|button\_id|[int](/API_docs/types/int.html) | The ID of the button with the authorization request | Optional|
+|url|[string](/API_docs/types/string.html) |  | Optional|
 
 
-### Return type: [UrlAuthResult](/API_docs/types/UrlAuthResult.md)
+### Return type: [UrlAuthResult](/API_docs/types/UrlAuthResult.html)
 
 ### Can bots use this method: **NO**
 

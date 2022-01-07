@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_resetPasswordRequestedWait.html
 ---
 # Constructor: account.resetPasswordRequestedWait  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -14,11 +14,11 @@ redirect_from: /API_docs/constructors/account_resetPasswordRequestedWait.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|until\_date|[int](/API_docs/types/int.md) | Yes|
+|until\_date|[int](/API_docs/types/int.html) | Yes|
 
 
 
-### Type: [account.ResetPasswordResult](/API_docs/types/account.ResetPasswordResult.md)
+### Type: [account.ResetPasswordResult](/API_docs/types/account.ResetPasswordResult.html)
 
 
 ### Example:

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: jsonObjectValue  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ JSON key: value pair
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|key|[string](/API_docs/types/string.md) | Yes|Key|
-|value|[JSONValue](/API_docs/types/JSONValue.md) | Yes|Value|
+|key|[string](/API_docs/types/string.html) | Yes|Key|
+|value|[JSONValue](/API_docs/types/JSONValue.html) | Yes|Value|
 
 
 
-### Type: [JSONObjectValue](/API_docs/types/JSONObjectValue.md)
+### Type: [JSONObjectValue](/API_docs/types/JSONObjectValue.html)
 
 
 ### Example:

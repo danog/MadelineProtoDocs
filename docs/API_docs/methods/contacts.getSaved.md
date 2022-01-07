@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_getSaved.html
 ---
 # Method: contacts.getSaved
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ Get all contacts
 
 
 
-### Return type: [Vector\_of\_SavedContact](/API_docs/types/SavedContact.md)
+### Return type: [Vector\_of\_SavedContact](/API_docs/types/SavedContact.html)
 
 ### Can bots use this method: **NO**
 

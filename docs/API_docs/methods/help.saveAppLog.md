@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_saveAppLog.html
 ---
 # Method: help.saveAppLog
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Saves logs of application on the server.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|events|Array of [InputAppEvent](/API_docs/types/InputAppEvent.md) | List of input events | Yes|
+|events|Array of [InputAppEvent](/API_docs/types/InputAppEvent.html) | List of input events | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

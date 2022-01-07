@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getSuggestedDialogFilters.html
 ---
 # Method: messages.getSuggestedDialogFilters
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ Get [suggested folders](https://core.telegram.org/api/folders)
 
 
 
-### Return type: [Vector\_of\_DialogFilterSuggested](/API_docs/types/DialogFilterSuggested.md)
+### Return type: [Vector\_of\_DialogFilterSuggested](/API_docs/types/DialogFilterSuggested.html)
 
 ### Can bots use this method: **NO**
 

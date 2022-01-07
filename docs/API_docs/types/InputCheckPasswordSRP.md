@@ -5,15 +5,15 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputCheckPasswordSRP
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inputCheckPasswordEmpty](/API_docs/constructors/inputCheckPasswordEmpty.md)  
+[inputCheckPasswordEmpty](/API_docs/constructors/inputCheckPasswordEmpty.html)  
 
-[inputCheckPasswordSRP](/API_docs/constructors/inputCheckPasswordSRP.md)  
+[inputCheckPasswordSRP](/API_docs/constructors/inputCheckPasswordSRP.html)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputCheckPasswordEmpty](/API_docs/constructors/inputCheckPasswordEmpty.md)  
+[inputCheckPasswordEmpty](/API_docs/constructors/inputCheckPasswordEmpty.html)  
 
-[inputCheckPasswordSRP](/API_docs/constructors/inputCheckPasswordSRP.md)  
+[inputCheckPasswordSRP](/API_docs/constructors/inputCheckPasswordSRP.html)  
 

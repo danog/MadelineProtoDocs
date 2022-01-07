@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getPassword.html
 ---
 # Method: account.getPassword
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ Obtain configuration for two-factor authorization with password
 
 
 
-### Return type: [account.Password](/API_docs/types/account.Password.md)
+### Return type: [account.Password](/API_docs/types/account.Password.html)
 
 ### Can bots use this method: **NO**
 

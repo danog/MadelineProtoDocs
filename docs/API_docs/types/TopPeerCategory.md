@@ -5,27 +5,27 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: TopPeerCategory
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[topPeerCategoryBotsPM](/API_docs/constructors/topPeerCategoryBotsPM.md)  
+[topPeerCategoryBotsPM](/API_docs/constructors/topPeerCategoryBotsPM.html)  
 
-[topPeerCategoryBotsInline](/API_docs/constructors/topPeerCategoryBotsInline.md)  
+[topPeerCategoryBotsInline](/API_docs/constructors/topPeerCategoryBotsInline.html)  
 
-[topPeerCategoryCorrespondents](/API_docs/constructors/topPeerCategoryCorrespondents.md)  
+[topPeerCategoryCorrespondents](/API_docs/constructors/topPeerCategoryCorrespondents.html)  
 
-[topPeerCategoryGroups](/API_docs/constructors/topPeerCategoryGroups.md)  
+[topPeerCategoryGroups](/API_docs/constructors/topPeerCategoryGroups.html)  
 
-[topPeerCategoryChannels](/API_docs/constructors/topPeerCategoryChannels.md)  
+[topPeerCategoryChannels](/API_docs/constructors/topPeerCategoryChannels.html)  
 
-[topPeerCategoryPhoneCalls](/API_docs/constructors/topPeerCategoryPhoneCalls.md)  
+[topPeerCategoryPhoneCalls](/API_docs/constructors/topPeerCategoryPhoneCalls.html)  
 
-[topPeerCategoryForwardUsers](/API_docs/constructors/topPeerCategoryForwardUsers.md)  
+[topPeerCategoryForwardUsers](/API_docs/constructors/topPeerCategoryForwardUsers.html)  
 
-[topPeerCategoryForwardChats](/API_docs/constructors/topPeerCategoryForwardChats.md)  
+[topPeerCategoryForwardChats](/API_docs/constructors/topPeerCategoryForwardChats.html)  
 
 
 
@@ -33,19 +33,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[topPeerCategoryBotsPM](/API_docs/constructors/topPeerCategoryBotsPM.md)  
+[topPeerCategoryBotsPM](/API_docs/constructors/topPeerCategoryBotsPM.html)  
 
-[topPeerCategoryBotsInline](/API_docs/constructors/topPeerCategoryBotsInline.md)  
+[topPeerCategoryBotsInline](/API_docs/constructors/topPeerCategoryBotsInline.html)  
 
-[topPeerCategoryCorrespondents](/API_docs/constructors/topPeerCategoryCorrespondents.md)  
+[topPeerCategoryCorrespondents](/API_docs/constructors/topPeerCategoryCorrespondents.html)  
 
-[topPeerCategoryGroups](/API_docs/constructors/topPeerCategoryGroups.md)  
+[topPeerCategoryGroups](/API_docs/constructors/topPeerCategoryGroups.html)  
 
-[topPeerCategoryChannels](/API_docs/constructors/topPeerCategoryChannels.md)  
+[topPeerCategoryChannels](/API_docs/constructors/topPeerCategoryChannels.html)  
 
-[topPeerCategoryPhoneCalls](/API_docs/constructors/topPeerCategoryPhoneCalls.md)  
+[topPeerCategoryPhoneCalls](/API_docs/constructors/topPeerCategoryPhoneCalls.html)  
 
-[topPeerCategoryForwardUsers](/API_docs/constructors/topPeerCategoryForwardUsers.md)  
+[topPeerCategoryForwardUsers](/API_docs/constructors/topPeerCategoryForwardUsers.html)  
 
-[topPeerCategoryForwardChats](/API_docs/constructors/topPeerCategoryForwardChats.md)  
+[topPeerCategoryForwardChats](/API_docs/constructors/topPeerCategoryForwardChats.html)  
 

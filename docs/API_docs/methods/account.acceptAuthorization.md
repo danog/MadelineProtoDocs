@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_acceptAuthorization.html
 ---
 # Method: account.acceptAuthorization
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,14 +17,14 @@ Sends a Telegram Passport authorization form, effectively sharing data with the 
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|bot\_id|[long](/API_docs/types/long.md) |  | Yes|
-|scope|[string](/API_docs/types/string.md) | Telegram Passport element types requested by the service | Yes|
-|public\_key|[string](/API_docs/types/string.md) | Service's public key | Yes|
-|value\_hashes|Array of [SecureValueHash](/API_docs/types/SecureValueHash.md) | Types of values sent and their hashes | Yes|
-|credentials|[SecureCredentialsEncrypted](/API_docs/types/SecureCredentialsEncrypted.md) | Encrypted values | Yes|
+|bot\_id|[long](/API_docs/types/long.html) |  | Yes|
+|scope|[string](/API_docs/types/string.html) | Telegram Passport element types requested by the service | Yes|
+|public\_key|[string](/API_docs/types/string.html) | Service's public key | Yes|
+|value\_hashes|Array of [SecureValueHash](/API_docs/types/SecureValueHash.html) | Types of values sent and their hashes | Yes|
+|credentials|[SecureCredentialsEncrypted](/API_docs/types/SecureCredentialsEncrypted.html) | Encrypted values | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

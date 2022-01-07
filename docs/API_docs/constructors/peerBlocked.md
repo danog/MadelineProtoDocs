@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: peerBlocked  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ Information about a blocked peer
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer\_id|[Peer](/API_docs/types/Peer.md) | Yes|Peer ID|
-|date|[int](/API_docs/types/int.md) | Yes|When was the peer blocked|
+|peer\_id|[Peer](/API_docs/types/Peer.html) | Yes|Peer ID|
+|date|[int](/API_docs/types/int.html) | Yes|When was the peer blocked|
 
 
 
-### Type: [PeerBlocked](/API_docs/types/PeerBlocked.md)
+### Type: [PeerBlocked](/API_docs/types/PeerBlocked.html)
 
 
 ### Example:

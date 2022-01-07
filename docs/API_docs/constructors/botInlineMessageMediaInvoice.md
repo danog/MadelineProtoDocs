@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: botInlineMessageMediaInvoice  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -13,18 +13,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|shipping\_address\_requested|[Bool](/API_docs/types/Bool.md) | Optional|
-|test|[Bool](/API_docs/types/Bool.md) | Optional|
-|title|[string](/API_docs/types/string.md) | Yes|
-|description|[string](/API_docs/types/string.md) | Yes|
-|photo|[WebDocument](/API_docs/types/WebDocument.md) | Optional|
-|currency|[string](/API_docs/types/string.md) | Yes|
-|total\_amount|[long](/API_docs/types/long.md) | Yes|
-|reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.md) | Optional|
+|shipping\_address\_requested|[Bool](/API_docs/types/Bool.html) | Optional|
+|test|[Bool](/API_docs/types/Bool.html) | Optional|
+|title|[string](/API_docs/types/string.html) | Yes|
+|description|[string](/API_docs/types/string.html) | Yes|
+|photo|[WebDocument](/API_docs/types/WebDocument.html) | Optional|
+|currency|[string](/API_docs/types/string.html) | Yes|
+|total\_amount|[long](/API_docs/types/long.html) | Yes|
+|reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.html) | Optional|
 
 
 
-### Type: [BotInlineMessage](/API_docs/types/BotInlineMessage.md)
+### Type: [BotInlineMessage](/API_docs/types/BotInlineMessage.html)
 
 
 ### Example:

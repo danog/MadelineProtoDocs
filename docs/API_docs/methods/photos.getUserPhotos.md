@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/photos_getUserPhotos.html
 ---
 # Method: photos.getUserPhotos
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,13 +17,13 @@ Returns the list of user photos.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | User ID | Optional|
-|offset|[int](/API_docs/types/int.md) | Number of list elements to be skipped | Yes|
-|max\_id|[long](/API_docs/types/long.md) | If a positive value was transferred, the method will return only photos with IDs less than the set one | Yes|
-|limit|[int](/API_docs/types/int.md) | Number of list elements to be returned | Yes|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | User ID | Optional|
+|offset|[int](/API_docs/types/int.html) | Number of list elements to be skipped | Yes|
+|max\_id|[long](/API_docs/types/long.html) | If a positive value was transferred, the method will return only photos with IDs less than the set one | Yes|
+|limit|[int](/API_docs/types/int.html) | Number of list elements to be returned | Yes|
 
 
-### Return type: [photos.Photos](/API_docs/types/photos.Photos.md)
+### Return type: [photos.Photos](/API_docs/types/photos.Photos.html)
 
 ### Can bots use this method: **YES**
 

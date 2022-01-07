@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: StatsAbsValueAndPrev
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[statsAbsValueAndPrev](/API_docs/constructors/statsAbsValueAndPrev.md)  
+[statsAbsValueAndPrev](/API_docs/constructors/statsAbsValueAndPrev.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[statsAbsValueAndPrev](/API_docs/constructors/statsAbsValueAndPrev.md)  
+[statsAbsValueAndPrev](/API_docs/constructors/statsAbsValueAndPrev.html)  
 

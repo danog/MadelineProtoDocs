@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: WallPaperSettings
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[wallPaperSettings](/API_docs/constructors/wallPaperSettings.md)  
+[wallPaperSettings](/API_docs/constructors/wallPaperSettings.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[wallPaperSettings](/API_docs/constructors/wallPaperSettings.md)  
+[wallPaperSettings](/API_docs/constructors/wallPaperSettings.html)  
 

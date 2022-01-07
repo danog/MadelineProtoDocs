@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_getInactiveChannels.html
 ---
 # Method: channels.getInactiveChannels
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ Get inactive channels and supergroups
 
 
 
-### Return type: [messages.InactiveChats](/API_docs/types/messages.InactiveChats.md)
+### Return type: [messages.InactiveChats](/API_docs/types/messages.InactiveChats.html)
 
 ### Can bots use this method: **NO**
 

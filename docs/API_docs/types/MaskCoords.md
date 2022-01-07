@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: MaskCoords
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[maskCoords](/API_docs/constructors/maskCoords.md)  
+[maskCoords](/API_docs/constructors/maskCoords.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[maskCoords](/API_docs/constructors/maskCoords.md)  
+[maskCoords](/API_docs/constructors/maskCoords.html)  
 

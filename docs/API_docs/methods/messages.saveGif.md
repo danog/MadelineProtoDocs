@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_saveGif.html
 ---
 # Method: messages.saveGif
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Add GIF to saved gifs list
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.md) | GIF to save | Optional|
-|unsave|[Bool](/API_docs/types/Bool.md) | Whether to remove GIF from saved gifs list | Yes|
+|id|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | GIF to save | Optional|
+|unsave|[Bool](/API_docs/types/Bool.html) | Whether to remove GIF from saved gifs list | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

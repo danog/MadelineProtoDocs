@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/users_getUsers.html
 ---
 # Method: users.getUsers
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Returns basic user info according to their identifiers.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | List of user identifiers | Yes|
+|id|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | List of user identifiers | Yes|
 
 
-### Return type: [Vector\_of\_User](/API_docs/types/User.md)
+### Return type: [Vector\_of\_User](/API_docs/types/User.html)
 
 ### Can bots use this method: **YES**
 

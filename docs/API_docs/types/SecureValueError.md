@@ -5,29 +5,29 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: SecureValueError
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[secureValueErrorData](/API_docs/constructors/secureValueErrorData.md)  
+[secureValueErrorData](/API_docs/constructors/secureValueErrorData.html)  
 
-[secureValueErrorFrontSide](/API_docs/constructors/secureValueErrorFrontSide.md)  
+[secureValueErrorFrontSide](/API_docs/constructors/secureValueErrorFrontSide.html)  
 
-[secureValueErrorReverseSide](/API_docs/constructors/secureValueErrorReverseSide.md)  
+[secureValueErrorReverseSide](/API_docs/constructors/secureValueErrorReverseSide.html)  
 
-[secureValueErrorSelfie](/API_docs/constructors/secureValueErrorSelfie.md)  
+[secureValueErrorSelfie](/API_docs/constructors/secureValueErrorSelfie.html)  
 
-[secureValueErrorFile](/API_docs/constructors/secureValueErrorFile.md)  
+[secureValueErrorFile](/API_docs/constructors/secureValueErrorFile.html)  
 
-[secureValueErrorFiles](/API_docs/constructors/secureValueErrorFiles.md)  
+[secureValueErrorFiles](/API_docs/constructors/secureValueErrorFiles.html)  
 
-[secureValueError](/API_docs/constructors/secureValueError.md)  
+[secureValueError](/API_docs/constructors/secureValueError.html)  
 
-[secureValueErrorTranslationFile](/API_docs/constructors/secureValueErrorTranslationFile.md)  
+[secureValueErrorTranslationFile](/API_docs/constructors/secureValueErrorTranslationFile.html)  
 
-[secureValueErrorTranslationFiles](/API_docs/constructors/secureValueErrorTranslationFiles.md)  
+[secureValueErrorTranslationFiles](/API_docs/constructors/secureValueErrorTranslationFiles.html)  
 
 
 
@@ -35,21 +35,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[secureValueErrorData](/API_docs/constructors/secureValueErrorData.md)  
+[secureValueErrorData](/API_docs/constructors/secureValueErrorData.html)  
 
-[secureValueErrorFrontSide](/API_docs/constructors/secureValueErrorFrontSide.md)  
+[secureValueErrorFrontSide](/API_docs/constructors/secureValueErrorFrontSide.html)  
 
-[secureValueErrorReverseSide](/API_docs/constructors/secureValueErrorReverseSide.md)  
+[secureValueErrorReverseSide](/API_docs/constructors/secureValueErrorReverseSide.html)  
 
-[secureValueErrorSelfie](/API_docs/constructors/secureValueErrorSelfie.md)  
+[secureValueErrorSelfie](/API_docs/constructors/secureValueErrorSelfie.html)  
 
-[secureValueErrorFile](/API_docs/constructors/secureValueErrorFile.md)  
+[secureValueErrorFile](/API_docs/constructors/secureValueErrorFile.html)  
 
-[secureValueErrorFiles](/API_docs/constructors/secureValueErrorFiles.md)  
+[secureValueErrorFiles](/API_docs/constructors/secureValueErrorFiles.html)  
 
-[secureValueError](/API_docs/constructors/secureValueError.md)  
+[secureValueError](/API_docs/constructors/secureValueError.html)  
 
-[secureValueErrorTranslationFile](/API_docs/constructors/secureValueErrorTranslationFile.md)  
+[secureValueErrorTranslationFile](/API_docs/constructors/secureValueErrorTranslationFile.html)  
 
-[secureValueErrorTranslationFiles](/API_docs/constructors/secureValueErrorTranslationFiles.md)  
+[secureValueErrorTranslationFiles](/API_docs/constructors/secureValueErrorTranslationFiles.html)  
 

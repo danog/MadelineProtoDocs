@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_createTheme.html
 ---
 # Method: account.createTheme
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,13 +17,13 @@ Create a theme
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|slug|[string](/API_docs/types/string.md) | Unique theme ID | Yes|
-|title|[string](/API_docs/types/string.md) | Theme name | Yes|
-|document|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.md) | Theme file | Optional|
-|settings|Array of [InputThemeSettings](/API_docs/types/InputThemeSettings.md) |  | Optional|
+|slug|[string](/API_docs/types/string.html) | Unique theme ID | Yes|
+|title|[string](/API_docs/types/string.html) | Theme name | Yes|
+|document|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | Theme file | Optional|
+|settings|Array of [InputThemeSettings](/API_docs/types/InputThemeSettings.html) |  | Optional|
 
 
-### Return type: [Theme](/API_docs/types/Theme.md)
+### Return type: [Theme](/API_docs/types/Theme.html)
 
 ### Can bots use this method: **NO**
 

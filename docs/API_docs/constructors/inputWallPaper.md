@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputWallPaper  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ Wallpaper
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](/API_docs/types/long.md) | Yes|Wallpaper ID|
-|access\_hash|[long](/API_docs/types/long.md) | Yes|Access hash|
+|id|[long](/API_docs/types/long.html) | Yes|Wallpaper ID|
+|access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash|
 
 
 
-### Type: [InputWallPaper](/API_docs/types/InputWallPaper.md)
+### Type: [InputWallPaper](/API_docs/types/InputWallPaper.html)
 
 
 ### Example:

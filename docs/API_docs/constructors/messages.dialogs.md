@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_dialogs.html
 ---
 # Constructor: messages.dialogs  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,14 +16,14 @@ Full list of chats with messages and auxiliary data.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|dialogs|Array of [Dialog](/API_docs/types/Dialog.md) | Yes|List of chats|
-|messages|Array of [Message](/API_docs/types/Message.md) | Yes|List of last messages from each chat|
-|chats|Array of [Chat](/API_docs/types/Chat.md) | Yes|List of groups mentioned in the chats|
-|users|Array of [User](/API_docs/types/User.md) | Yes|List of users mentioned in messages and groups|
+|dialogs|Array of [Dialog](/API_docs/types/Dialog.html) | Yes|List of chats|
+|messages|Array of [Message](/API_docs/types/Message.html) | Yes|List of last messages from each chat|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|List of groups mentioned in the chats|
+|users|Array of [User](/API_docs/types/User.html) | Yes|List of users mentioned in messages and groups|
 
 
 
-### Type: [messages.Dialogs](/API_docs/types/messages.Dialogs.md)
+### Type: [messages.Dialogs](/API_docs/types/messages.Dialogs.html)
 
 
 ### Example:

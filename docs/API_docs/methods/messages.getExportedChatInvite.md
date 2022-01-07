@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getExportedChatInvite.html
 ---
 # Method: messages.getExportedChatInvite
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,11 +15,11 @@ redirect_from: /API_docs/methods/messages_getExportedChatInvite.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
-|link|[string](/API_docs/types/string.md) | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+|link|[string](/API_docs/types/string.html) | Yes|
 
 
-### Return type: [messages.ExportedChatInvite](/API_docs/types/messages.ExportedChatInvite.md)
+### Return type: [messages.ExportedChatInvite](/API_docs/types/messages.ExportedChatInvite.html)
 
 ### Can bots use this method: **NO**
 

@@ -191,9 +191,9 @@ To forecfully restart and apply changes made to the event handler class, call `$
 
 ### Built-in database driver
 
-You can also directly connect to any database using the same [async MySQL/Postgres/Redis ORM](DATABASE.md) used by MadelineProto internally.  
+You can also directly connect to any database using the same [async MySQL/Postgres/Redis ORM](DATABASE.html) used by MadelineProto internally.  
 
-To do so, simply [specify the database settings](DATABASE.md), and declare a static `$dbProperties` property to initialize the async database mapper:  
+To do so, simply [specify the database settings](DATABASE.html), and declare a static `$dbProperties` property to initialize the async database mapper:  
 ```php
 class MyEventHandler extends EventHandler
 {

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getConfig.html
 ---
 # Method: help.getConfig
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ Returns current configuration, including data center configuration.
 
 
 
-### Return type: [Config](/API_docs/types/Config.md)
+### Return type: [Config](/API_docs/types/Config.html)
 
 ### Can bots use this method: **YES**
 

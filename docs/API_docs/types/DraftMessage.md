@@ -5,15 +5,15 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: DraftMessage
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[draftMessageEmpty](/API_docs/constructors/draftMessageEmpty.md)  
+[draftMessageEmpty](/API_docs/constructors/draftMessageEmpty.html)  
 
-[draftMessage](/API_docs/constructors/draftMessage.md)  
+[draftMessage](/API_docs/constructors/draftMessage.html)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[draftMessageEmpty](/API_docs/constructors/draftMessageEmpty.md)  
+[draftMessageEmpty](/API_docs/constructors/draftMessageEmpty.html)  
 
-[draftMessage](/API_docs/constructors/draftMessage.md)  
+[draftMessage](/API_docs/constructors/draftMessage.html)  
 

@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_recentMeUrls.html
 ---
 # Constructor: help.recentMeUrls  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,13 +16,13 @@ Recent t.me URLs
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|urls|Array of [RecentMeUrl](/API_docs/types/RecentMeUrl.md) | Yes|URLs|
-|chats|Array of [Chat](/API_docs/types/Chat.md) | Yes|Chats|
-|users|Array of [User](/API_docs/types/User.md) | Yes|Users|
+|urls|Array of [RecentMeUrl](/API_docs/types/RecentMeUrl.html) | Yes|URLs|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Chats|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Users|
 
 
 
-### Type: [help.RecentMeUrls](/API_docs/types/help.RecentMeUrls.md)
+### Type: [help.RecentMeUrls](/API_docs/types/help.RecentMeUrls.html)
 
 
 ### Example:

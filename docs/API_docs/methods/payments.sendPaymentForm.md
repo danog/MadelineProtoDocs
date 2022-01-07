@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/payments_sendPaymentForm.html
 ---
 # Method: payments.sendPaymentForm
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,16 +17,16 @@ Send compiled payment form
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|form\_id|[long](/API_docs/types/long.md) |  | Yes|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) |  | Optional|
-|msg\_id|[int](/API_docs/types/int.md) | Message ID of form | Yes|
-|requested\_info\_id|[string](/API_docs/types/string.md) | ID of saved and validated [order info](../constructors/payments.validatedRequestedInfo.md) | Optional|
-|shipping\_option\_id|[string](/API_docs/types/string.md) | Chosen shipping option ID | Optional|
-|credentials|[InputPaymentCredentials](/API_docs/types/InputPaymentCredentials.md) | Payment credentials | Yes|
-|tip\_amount|[long](/API_docs/types/long.md) |  | Optional|
+|form\_id|[long](/API_docs/types/long.html) |  | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | Message ID of form | Yes|
+|requested\_info\_id|[string](/API_docs/types/string.html) | ID of saved and validated [order info](../constructors/payments.validatedRequestedInfo.html) | Optional|
+|shipping\_option\_id|[string](/API_docs/types/string.html) | Chosen shipping option ID | Optional|
+|credentials|[InputPaymentCredentials](/API_docs/types/InputPaymentCredentials.html) | Payment credentials | Yes|
+|tip\_amount|[long](/API_docs/types/long.html) |  | Optional|
 
 
-### Return type: [payments.PaymentResult](/API_docs/types/payments.PaymentResult.md)
+### Return type: [payments.PaymentResult](/API_docs/types/payments.PaymentResult.html)
 
 ### Can bots use this method: **NO**
 

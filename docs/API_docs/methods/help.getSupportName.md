@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getSupportName.html
 ---
 # Method: help.getSupportName
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ Get localized name of the telegram support user
 
 
 
-### Return type: [help.SupportName](/API_docs/types/help.SupportName.md)
+### Return type: [help.SupportName](/API_docs/types/help.SupportName.html)
 
 ### Can bots use this method: **NO**
 

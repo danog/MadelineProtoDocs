@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueErrorData  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,14 +15,14 @@ Represents an issue in one of the data fields that was provided by the user. The
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|type|[SecureValueType](/API_docs/types/SecureValueType.md) | Yes|The section of the user's Telegram Passport which has the error, one of [secureValueTypePersonalDetails](../constructors/secureValueTypePersonalDetails.md), [secureValueTypePassport](../constructors/secureValueTypePassport.md), [secureValueTypeDriverLicense](../constructors/secureValueTypeDriverLicense.md), [secureValueTypeIdentityCard](../constructors/secureValueTypeIdentityCard.md), [secureValueTypeInternalPassport](../constructors/secureValueTypeInternalPassport.md), [secureValueTypeAddress](../constructors/secureValueTypeAddress.md)|
-|data\_hash|[bytes](/API_docs/types/bytes.md) | Yes|Data hash|
-|field|[string](/API_docs/types/string.md) | Yes|Name of the data field which has the error|
-|text|[string](/API_docs/types/string.md) | Yes|Error message|
+|type|[SecureValueType](/API_docs/types/SecureValueType.html) | Yes|The section of the user's Telegram Passport which has the error, one of [secureValueTypePersonalDetails](../constructors/secureValueTypePersonalDetails.html), [secureValueTypePassport](../constructors/secureValueTypePassport.html), [secureValueTypeDriverLicense](../constructors/secureValueTypeDriverLicense.html), [secureValueTypeIdentityCard](../constructors/secureValueTypeIdentityCard.html), [secureValueTypeInternalPassport](../constructors/secureValueTypeInternalPassport.html), [secureValueTypeAddress](../constructors/secureValueTypeAddress.html)|
+|data\_hash|[bytes](/API_docs/types/bytes.html) | Yes|Data hash|
+|field|[string](/API_docs/types/string.html) | Yes|Name of the data field which has the error|
+|text|[string](/API_docs/types/string.html) | Yes|Error message|
 
 
 
-### Type: [SecureValueError](/API_docs/types/SecureValueError.md)
+### Type: [SecureValueError](/API_docs/types/SecureValueError.html)
 
 
 ### Example:

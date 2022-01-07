@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: PaymentSavedCredentials
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[paymentSavedCredentialsCard](/API_docs/constructors/paymentSavedCredentialsCard.md)  
+[paymentSavedCredentialsCard](/API_docs/constructors/paymentSavedCredentialsCard.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[paymentSavedCredentialsCard](/API_docs/constructors/paymentSavedCredentialsCard.md)  
+[paymentSavedCredentialsCard](/API_docs/constructors/paymentSavedCredentialsCard.html)  
 

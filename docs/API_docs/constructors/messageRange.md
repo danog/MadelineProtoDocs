@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageRange  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ Indicates a range of chat messages
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|min\_id|[int](/API_docs/types/int.md) | Yes|Start of range (message ID)|
-|max\_id|[int](/API_docs/types/int.md) | Yes|End of range (message ID)|
+|min\_id|[int](/API_docs/types/int.html) | Yes|Start of range (message ID)|
+|max\_id|[int](/API_docs/types/int.html) | Yes|End of range (message ID)|
 
 
 
-### Type: [MessageRange](/API_docs/types/MessageRange.md)
+### Type: [MessageRange](/API_docs/types/MessageRange.html)
 
 
 ### Example:

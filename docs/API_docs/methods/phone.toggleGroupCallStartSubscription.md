@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/phone_toggleGroupCallStartSubscription.html
 ---
 # Method: phone.toggleGroupCallStartSubscription
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,11 +15,11 @@ redirect_from: /API_docs/methods/phone_toggleGroupCallStartSubscription.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.md) | Yes|
-|subscribed|[Bool](/API_docs/types/Bool.md) | Yes|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
+|subscribed|[Bool](/API_docs/types/Bool.html) | Yes|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **NO**
 

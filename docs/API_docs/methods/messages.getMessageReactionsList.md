@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getMessageReactionsList.html
 ---
 # Method: messages.getMessageReactionsList
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,14 +17,14 @@ Get full message reaction list
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Peer | Optional|
-|id|[int](/API_docs/types/int.md) | Message ID | Yes|
-|reaction|[string](/API_docs/types/string.md) | Get only reactions of this type (UTF8 emoji) | Optional|
-|offset|[string](/API_docs/types/string.md) | Offset (typically taken from the `next_offset` field of the returned [MessageReactionsList](../types/MessageReactionsList.md)) | Optional|
-|limit|[int](/API_docs/types/int.md) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
+|id|[int](/API_docs/types/int.html) | Message ID | Yes|
+|reaction|[string](/API_docs/types/string.html) | Get only reactions of this type (UTF8 emoji) | Optional|
+|offset|[string](/API_docs/types/string.html) | Offset (typically taken from the `next_offset` field of the returned [MessageReactionsList](../types/MessageReactionsList.html)) | Optional|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
 
 
-### Return type: [messages.MessageReactionsList](/API_docs/types/messages.MessageReactionsList.md)
+### Return type: [messages.MessageReactionsList](/API_docs/types/messages.MessageReactionsList.html)
 
 ### Can bots use this method: **YES**
 

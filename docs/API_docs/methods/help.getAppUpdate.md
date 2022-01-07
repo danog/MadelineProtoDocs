@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getAppUpdate.html
 ---
 # Method: help.getAppUpdate
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Returns information on update availability for the current application.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|source|[string](/API_docs/types/string.md) | Source | Yes|
+|source|[string](/API_docs/types/string.html) | Source | Yes|
 
 
-### Return type: [help.AppUpdate](/API_docs/types/help.AppUpdate.md)
+### Return type: [help.AppUpdate](/API_docs/types/help.AppUpdate.html)
 
 ### Can bots use this method: **NO**
 

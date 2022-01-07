@@ -6,7 +6,7 @@ parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: invokeWithoutUpdates
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -16,10 +16,10 @@ Invoke a request without subscribing the used connection for [updates](https://c
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|query|[!X](/API_docs/types/!X.md) | The query | Yes|
+|query|[!X](/API_docs/types/!X.html) | The query | Yes|
 
 
-### Return type: [X](/API_docs/types/X.md)
+### Return type: [X](/API_docs/types/X.html)
 
 ### Can bots use this method: **YES**
 

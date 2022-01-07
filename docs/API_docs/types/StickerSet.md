@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: StickerSet
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[stickerSet](/API_docs/constructors/stickerSet.md)  
+[stickerSet](/API_docs/constructors/stickerSet.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[stickerSet](/API_docs/constructors/stickerSet.md)  
+[stickerSet](/API_docs/constructors/stickerSet.html)  
 

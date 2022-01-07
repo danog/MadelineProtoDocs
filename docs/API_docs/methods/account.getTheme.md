@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getTheme.html
 ---
 # Method: account.getTheme
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Get theme information
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|format|[string](/API_docs/types/string.md) | Theme format, a string that identifies the theming engines supported by the client | Yes|
-|theme|[InputTheme](/API_docs/types/InputTheme.md) | Theme | Yes|
-|document\_id|[long](/API_docs/types/long.md) | Document ID | Yes|
+|format|[string](/API_docs/types/string.html) | Theme format, a string that identifies the theming engines supported by the client | Yes|
+|theme|[InputTheme](/API_docs/types/InputTheme.html) | Theme | Yes|
+|document\_id|[long](/API_docs/types/long.html) | Document ID | Yes|
 
 
-### Return type: [Theme](/API_docs/types/Theme.md)
+### Return type: [Theme](/API_docs/types/Theme.html)
 
 ### Can bots use this method: **NO**
 

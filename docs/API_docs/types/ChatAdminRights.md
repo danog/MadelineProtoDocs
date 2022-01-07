@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: ChatAdminRights
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[chatAdminRights](/API_docs/constructors/chatAdminRights.md)  
+[chatAdminRights](/API_docs/constructors/chatAdminRights.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[chatAdminRights](/API_docs/constructors/chatAdminRights.md)  
+[chatAdminRights](/API_docs/constructors/chatAdminRights.html)  
 

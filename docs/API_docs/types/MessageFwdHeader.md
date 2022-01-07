@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: MessageFwdHeader
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[messageFwdHeader](/API_docs/constructors/messageFwdHeader.md)  
+[messageFwdHeader](/API_docs/constructors/messageFwdHeader.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[messageFwdHeader](/API_docs/constructors/messageFwdHeader.md)  
+[messageFwdHeader](/API_docs/constructors/messageFwdHeader.html)  
 

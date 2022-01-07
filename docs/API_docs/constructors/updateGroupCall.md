@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateGroupCall  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -13,12 +13,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|chat\_id|[long](/API_docs/types/long.md) | Yes|
-|call|[GroupCall](/API_docs/types/GroupCall.md) | Yes|
+|chat\_id|[long](/API_docs/types/long.html) | Yes|
+|call|[GroupCall](/API_docs/types/GroupCall.html) | Yes|
 
 
 
-### Type: [Update](/API_docs/types/Update.md)
+### Type: [Update](/API_docs/types/Update.html)
 
 
 ### Example:

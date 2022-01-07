@@ -6,23 +6,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/messages_HistoryImportParsed.html
 ---
 # Type: messages.HistoryImportParsed
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[messages.historyImportParsed](/API_docs/constructors/messages.historyImportParsed.md)  
+[messages.historyImportParsed](/API_docs/constructors/messages.historyImportParsed.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->checkHistoryImport](/API_docs/methods/messages.checkHistoryImport.md)  
+[$MadelineProto->messages->checkHistoryImport](/API_docs/methods/messages.checkHistoryImport.html)  
 
 
 
-[messages.historyImportParsed](/API_docs/constructors/messages.historyImportParsed.md)  
+[messages.historyImportParsed](/API_docs/constructors/messages.historyImportParsed.html)  
 
-[$MadelineProto->messages->checkHistoryImport](/API_docs/methods/messages.checkHistoryImport.md)  
+[$MadelineProto->messages->checkHistoryImport](/API_docs/methods/messages.checkHistoryImport.html)  
 

@@ -5,27 +5,27 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: EncryptedFile
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[encryptedFileEmpty](/API_docs/constructors/encryptedFileEmpty.md)  
+[encryptedFileEmpty](/API_docs/constructors/encryptedFileEmpty.html)  
 
-[encryptedFile](/API_docs/constructors/encryptedFile.md)  
+[encryptedFile](/API_docs/constructors/encryptedFile.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->uploadEncryptedFile](/API_docs/methods/messages.uploadEncryptedFile.md)  
+[$MadelineProto->messages->uploadEncryptedFile](/API_docs/methods/messages.uploadEncryptedFile.html)  
 
 
 
-[encryptedFileEmpty](/API_docs/constructors/encryptedFileEmpty.md)  
+[encryptedFileEmpty](/API_docs/constructors/encryptedFileEmpty.html)  
 
-[encryptedFile](/API_docs/constructors/encryptedFile.md)  
+[encryptedFile](/API_docs/constructors/encryptedFile.html)  
 
-[$MadelineProto->messages->uploadEncryptedFile](/API_docs/methods/messages.uploadEncryptedFile.md)  
+[$MadelineProto->messages->uploadEncryptedFile](/API_docs/methods/messages.uploadEncryptedFile.html)  
 

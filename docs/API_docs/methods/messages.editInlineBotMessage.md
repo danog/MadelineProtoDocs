@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_editInlineBotMessage.html
 ---
 # Method: messages.editInlineBotMessage
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,16 +17,16 @@ Edit an inline bot message
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|no\_webpage|[Bool](/API_docs/types/Bool.md) | Disable webpage preview | Optional|
-|id|[InputBotInlineMessageID](/API_docs/types/InputBotInlineMessageID.md) | Sent inline message ID | Yes|
-|message|[string](/API_docs/types/string.md) | Message | Optional|
-|media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.md) | Media | Optional|
-|reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.md) | Reply markup for inline keyboards | Optional|
-|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.md) | [Message entities for styled text](https://core.telegram.org/api/entities) | Optional|
-|parse\_mode| [string](/API_docs/types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
+|no\_webpage|[Bool](/API_docs/types/Bool.html) | Disable webpage preview | Optional|
+|id|[InputBotInlineMessageID](/API_docs/types/InputBotInlineMessageID.html) | Sent inline message ID | Yes|
+|message|[string](/API_docs/types/string.html) | Message | Optional|
+|media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | Media | Optional|
+|reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.html) | Reply markup for inline keyboards | Optional|
+|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | [Message entities for styled text](https://core.telegram.org/api/entities) | Optional|
+|parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **YES**
 
@@ -55,7 +55,7 @@ You can provide bot API reply_markup objects here.
 
 ## Return value 
 
-If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [Bool](../types/Bool.md) will be returned instead.
+If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [Bool](../types/Bool.html) will be returned instead.
 
 
 

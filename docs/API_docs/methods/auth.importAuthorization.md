@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_importAuthorization.html
 ---
 # Method: auth.importAuthorization
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ You cannot use this method directly, use $MadelineProto->importAuthorization($au
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[long](/API_docs/types/long.md) |  | Yes|
-|bytes|[bytes](/API_docs/types/bytes.md) | Authorization key | Yes|
+|id|[long](/API_docs/types/long.html) |  | Yes|
+|bytes|[bytes](/API_docs/types/bytes.html) | Authorization key | Yes|
 
 
-### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.md)
+### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.html)
 
 ### Can bots use this method: **YES**
 

@@ -5,15 +5,15 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: GroupCall
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[groupCallDiscarded](/API_docs/constructors/groupCallDiscarded.md)  
+[groupCallDiscarded](/API_docs/constructors/groupCallDiscarded.html)  
 
-[groupCall](/API_docs/constructors/groupCall.md)  
+[groupCall](/API_docs/constructors/groupCall.html)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[groupCallDiscarded](/API_docs/constructors/groupCallDiscarded.md)  
+[groupCallDiscarded](/API_docs/constructors/groupCallDiscarded.html)  
 
-[groupCall](/API_docs/constructors/groupCall.md)  
+[groupCall](/API_docs/constructors/groupCall.html)  
 

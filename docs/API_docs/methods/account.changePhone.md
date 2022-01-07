@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_changePhone.html
 ---
 # Method: account.changePhone
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Change the phone number of the current account
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](/API_docs/types/string.md) | New phone number | Yes|
-|phone\_code\_hash|[string](/API_docs/types/string.md) | Phone code hash received when calling [account.sendChangePhoneCode](../methods/account.sendChangePhoneCode.md) | Yes|
-|phone\_code|[string](/API_docs/types/string.md) | Phone code received when calling [account.sendChangePhoneCode](../methods/account.sendChangePhoneCode.md) | Yes|
+|phone\_number|[string](/API_docs/types/string.html) | New phone number | Yes|
+|phone\_code\_hash|[string](/API_docs/types/string.html) | Phone code hash received when calling [account.sendChangePhoneCode](../methods/account.sendChangePhoneCode.html) | Yes|
+|phone\_code|[string](/API_docs/types/string.html) | Phone code received when calling [account.sendChangePhoneCode](../methods/account.sendChangePhoneCode.html) | Yes|
 
 
-### Return type: [User](/API_docs/types/User.md)
+### Return type: [User](/API_docs/types/User.html)
 
 ### Can bots use this method: **NO**
 

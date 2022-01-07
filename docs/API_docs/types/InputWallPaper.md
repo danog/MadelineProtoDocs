@@ -5,17 +5,17 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputWallPaper
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inputWallPaper](/API_docs/constructors/inputWallPaper.md)  
+[inputWallPaper](/API_docs/constructors/inputWallPaper.html)  
 
-[inputWallPaperSlug](/API_docs/constructors/inputWallPaperSlug.md)  
+[inputWallPaperSlug](/API_docs/constructors/inputWallPaperSlug.html)  
 
-[inputWallPaperNoFile](/API_docs/constructors/inputWallPaperNoFile.md)  
+[inputWallPaperNoFile](/API_docs/constructors/inputWallPaperNoFile.html)  
 
 
 
@@ -23,9 +23,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputWallPaper](/API_docs/constructors/inputWallPaper.md)  
+[inputWallPaper](/API_docs/constructors/inputWallPaper.html)  
 
-[inputWallPaperSlug](/API_docs/constructors/inputWallPaperSlug.md)  
+[inputWallPaperSlug](/API_docs/constructors/inputWallPaperSlug.html)  
 
-[inputWallPaperNoFile](/API_docs/constructors/inputWallPaperNoFile.md)  
+[inputWallPaperNoFile](/API_docs/constructors/inputWallPaperNoFile.html)  
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockRelatedArticles  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ Related articles
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|title|[RichText](/API_docs/types/RichText.md) | Yes|Title|
-|articles|Array of [PageRelatedArticle](/API_docs/types/PageRelatedArticle.md) | Yes|Related articles|
+|title|[RichText](/API_docs/types/RichText.html) | Yes|Title|
+|articles|Array of [PageRelatedArticle](/API_docs/types/PageRelatedArticle.html) | Yes|Related articles|
 
 
 
-### Type: [PageBlock](/API_docs/types/PageBlock.md)
+### Type: [PageBlock](/API_docs/types/PageBlock.html)
 
 
 ### Example:

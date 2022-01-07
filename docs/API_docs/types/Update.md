@@ -5,203 +5,203 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: Update
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[updateNewMessage](/API_docs/constructors/updateNewMessage.md)  
+[updateNewMessage](/API_docs/constructors/updateNewMessage.html)  
 
-[updateMessageID](/API_docs/constructors/updateMessageID.md)  
+[updateMessageID](/API_docs/constructors/updateMessageID.html)  
 
-[updateDeleteMessages](/API_docs/constructors/updateDeleteMessages.md)  
+[updateDeleteMessages](/API_docs/constructors/updateDeleteMessages.html)  
 
-[updateUserTyping](/API_docs/constructors/updateUserTyping.md)  
+[updateUserTyping](/API_docs/constructors/updateUserTyping.html)  
 
-[updateChatUserTyping](/API_docs/constructors/updateChatUserTyping.md)  
+[updateChatUserTyping](/API_docs/constructors/updateChatUserTyping.html)  
 
-[updateChatParticipants](/API_docs/constructors/updateChatParticipants.md)  
+[updateChatParticipants](/API_docs/constructors/updateChatParticipants.html)  
 
-[updateUserStatus](/API_docs/constructors/updateUserStatus.md)  
+[updateUserStatus](/API_docs/constructors/updateUserStatus.html)  
 
-[updateUserName](/API_docs/constructors/updateUserName.md)  
+[updateUserName](/API_docs/constructors/updateUserName.html)  
 
-[updateUserPhoto](/API_docs/constructors/updateUserPhoto.md)  
+[updateUserPhoto](/API_docs/constructors/updateUserPhoto.html)  
 
-[updateNewEncryptedMessage](/API_docs/constructors/updateNewEncryptedMessage.md)  
+[updateNewEncryptedMessage](/API_docs/constructors/updateNewEncryptedMessage.html)  
 
-[updateEncryptedChatTyping](/API_docs/constructors/updateEncryptedChatTyping.md)  
+[updateEncryptedChatTyping](/API_docs/constructors/updateEncryptedChatTyping.html)  
 
-[updateEncryption](/API_docs/constructors/updateEncryption.md)  
+[updateEncryption](/API_docs/constructors/updateEncryption.html)  
 
-[updateEncryptedMessagesRead](/API_docs/constructors/updateEncryptedMessagesRead.md)  
+[updateEncryptedMessagesRead](/API_docs/constructors/updateEncryptedMessagesRead.html)  
 
-[updateChatParticipantAdd](/API_docs/constructors/updateChatParticipantAdd.md)  
+[updateChatParticipantAdd](/API_docs/constructors/updateChatParticipantAdd.html)  
 
-[updateChatParticipantDelete](/API_docs/constructors/updateChatParticipantDelete.md)  
+[updateChatParticipantDelete](/API_docs/constructors/updateChatParticipantDelete.html)  
 
-[updateDcOptions](/API_docs/constructors/updateDcOptions.md)  
+[updateDcOptions](/API_docs/constructors/updateDcOptions.html)  
 
-[updateNotifySettings](/API_docs/constructors/updateNotifySettings.md)  
+[updateNotifySettings](/API_docs/constructors/updateNotifySettings.html)  
 
-[updateServiceNotification](/API_docs/constructors/updateServiceNotification.md)  
+[updateServiceNotification](/API_docs/constructors/updateServiceNotification.html)  
 
-[updatePrivacy](/API_docs/constructors/updatePrivacy.md)  
+[updatePrivacy](/API_docs/constructors/updatePrivacy.html)  
 
-[updateUserPhone](/API_docs/constructors/updateUserPhone.md)  
+[updateUserPhone](/API_docs/constructors/updateUserPhone.html)  
 
-[updateReadHistoryInbox](/API_docs/constructors/updateReadHistoryInbox.md)  
+[updateReadHistoryInbox](/API_docs/constructors/updateReadHistoryInbox.html)  
 
-[updateReadHistoryOutbox](/API_docs/constructors/updateReadHistoryOutbox.md)  
+[updateReadHistoryOutbox](/API_docs/constructors/updateReadHistoryOutbox.html)  
 
-[updateWebPage](/API_docs/constructors/updateWebPage.md)  
+[updateWebPage](/API_docs/constructors/updateWebPage.html)  
 
-[updateReadMessagesContents](/API_docs/constructors/updateReadMessagesContents.md)  
+[updateReadMessagesContents](/API_docs/constructors/updateReadMessagesContents.html)  
 
-[updateChannelTooLong](/API_docs/constructors/updateChannelTooLong.md)  
+[updateChannelTooLong](/API_docs/constructors/updateChannelTooLong.html)  
 
-[updateChannel](/API_docs/constructors/updateChannel.md)  
+[updateChannel](/API_docs/constructors/updateChannel.html)  
 
-[updateNewChannelMessage](/API_docs/constructors/updateNewChannelMessage.md)  
+[updateNewChannelMessage](/API_docs/constructors/updateNewChannelMessage.html)  
 
-[updateReadChannelInbox](/API_docs/constructors/updateReadChannelInbox.md)  
+[updateReadChannelInbox](/API_docs/constructors/updateReadChannelInbox.html)  
 
-[updateDeleteChannelMessages](/API_docs/constructors/updateDeleteChannelMessages.md)  
+[updateDeleteChannelMessages](/API_docs/constructors/updateDeleteChannelMessages.html)  
 
-[updateChannelMessageViews](/API_docs/constructors/updateChannelMessageViews.md)  
+[updateChannelMessageViews](/API_docs/constructors/updateChannelMessageViews.html)  
 
-[updateChatParticipantAdmin](/API_docs/constructors/updateChatParticipantAdmin.md)  
+[updateChatParticipantAdmin](/API_docs/constructors/updateChatParticipantAdmin.html)  
 
-[updateNewStickerSet](/API_docs/constructors/updateNewStickerSet.md)  
+[updateNewStickerSet](/API_docs/constructors/updateNewStickerSet.html)  
 
-[updateStickerSetsOrder](/API_docs/constructors/updateStickerSetsOrder.md)  
+[updateStickerSetsOrder](/API_docs/constructors/updateStickerSetsOrder.html)  
 
-[updateStickerSets](/API_docs/constructors/updateStickerSets.md)  
+[updateStickerSets](/API_docs/constructors/updateStickerSets.html)  
 
-[updateSavedGifs](/API_docs/constructors/updateSavedGifs.md)  
+[updateSavedGifs](/API_docs/constructors/updateSavedGifs.html)  
 
-[updateBotInlineQuery](/API_docs/constructors/updateBotInlineQuery.md)  
+[updateBotInlineQuery](/API_docs/constructors/updateBotInlineQuery.html)  
 
-[updateBotInlineSend](/API_docs/constructors/updateBotInlineSend.md)  
+[updateBotInlineSend](/API_docs/constructors/updateBotInlineSend.html)  
 
-[updateEditChannelMessage](/API_docs/constructors/updateEditChannelMessage.md)  
+[updateEditChannelMessage](/API_docs/constructors/updateEditChannelMessage.html)  
 
-[updateBotCallbackQuery](/API_docs/constructors/updateBotCallbackQuery.md)  
+[updateBotCallbackQuery](/API_docs/constructors/updateBotCallbackQuery.html)  
 
-[updateEditMessage](/API_docs/constructors/updateEditMessage.md)  
+[updateEditMessage](/API_docs/constructors/updateEditMessage.html)  
 
-[updateInlineBotCallbackQuery](/API_docs/constructors/updateInlineBotCallbackQuery.md)  
+[updateInlineBotCallbackQuery](/API_docs/constructors/updateInlineBotCallbackQuery.html)  
 
-[updateReadChannelOutbox](/API_docs/constructors/updateReadChannelOutbox.md)  
+[updateReadChannelOutbox](/API_docs/constructors/updateReadChannelOutbox.html)  
 
-[updateDraftMessage](/API_docs/constructors/updateDraftMessage.md)  
+[updateDraftMessage](/API_docs/constructors/updateDraftMessage.html)  
 
-[updateReadFeaturedStickers](/API_docs/constructors/updateReadFeaturedStickers.md)  
+[updateReadFeaturedStickers](/API_docs/constructors/updateReadFeaturedStickers.html)  
 
-[updateRecentStickers](/API_docs/constructors/updateRecentStickers.md)  
+[updateRecentStickers](/API_docs/constructors/updateRecentStickers.html)  
 
-[updateConfig](/API_docs/constructors/updateConfig.md)  
+[updateConfig](/API_docs/constructors/updateConfig.html)  
 
-[updatePtsChanged](/API_docs/constructors/updatePtsChanged.md)  
+[updatePtsChanged](/API_docs/constructors/updatePtsChanged.html)  
 
-[updateChannelWebPage](/API_docs/constructors/updateChannelWebPage.md)  
+[updateChannelWebPage](/API_docs/constructors/updateChannelWebPage.html)  
 
-[updateDialogPinned](/API_docs/constructors/updateDialogPinned.md)  
+[updateDialogPinned](/API_docs/constructors/updateDialogPinned.html)  
 
-[updatePinnedDialogs](/API_docs/constructors/updatePinnedDialogs.md)  
+[updatePinnedDialogs](/API_docs/constructors/updatePinnedDialogs.html)  
 
-[updateBotWebhookJSON](/API_docs/constructors/updateBotWebhookJSON.md)  
+[updateBotWebhookJSON](/API_docs/constructors/updateBotWebhookJSON.html)  
 
-[updateBotWebhookJSONQuery](/API_docs/constructors/updateBotWebhookJSONQuery.md)  
+[updateBotWebhookJSONQuery](/API_docs/constructors/updateBotWebhookJSONQuery.html)  
 
-[updateBotShippingQuery](/API_docs/constructors/updateBotShippingQuery.md)  
+[updateBotShippingQuery](/API_docs/constructors/updateBotShippingQuery.html)  
 
-[updateBotPrecheckoutQuery](/API_docs/constructors/updateBotPrecheckoutQuery.md)  
+[updateBotPrecheckoutQuery](/API_docs/constructors/updateBotPrecheckoutQuery.html)  
 
-[updatePhoneCall](/API_docs/constructors/updatePhoneCall.md)  
+[updatePhoneCall](/API_docs/constructors/updatePhoneCall.html)  
 
-[updateLangPackTooLong](/API_docs/constructors/updateLangPackTooLong.md)  
+[updateLangPackTooLong](/API_docs/constructors/updateLangPackTooLong.html)  
 
-[updateLangPack](/API_docs/constructors/updateLangPack.md)  
+[updateLangPack](/API_docs/constructors/updateLangPack.html)  
 
-[updateFavedStickers](/API_docs/constructors/updateFavedStickers.md)  
+[updateFavedStickers](/API_docs/constructors/updateFavedStickers.html)  
 
-[updateChannelReadMessagesContents](/API_docs/constructors/updateChannelReadMessagesContents.md)  
+[updateChannelReadMessagesContents](/API_docs/constructors/updateChannelReadMessagesContents.html)  
 
-[updateContactsReset](/API_docs/constructors/updateContactsReset.md)  
+[updateContactsReset](/API_docs/constructors/updateContactsReset.html)  
 
-[updateChannelAvailableMessages](/API_docs/constructors/updateChannelAvailableMessages.md)  
+[updateChannelAvailableMessages](/API_docs/constructors/updateChannelAvailableMessages.html)  
 
-[updateDialogUnreadMark](/API_docs/constructors/updateDialogUnreadMark.md)  
+[updateDialogUnreadMark](/API_docs/constructors/updateDialogUnreadMark.html)  
 
-[updateMessagePoll](/API_docs/constructors/updateMessagePoll.md)  
+[updateMessagePoll](/API_docs/constructors/updateMessagePoll.html)  
 
-[updateChatDefaultBannedRights](/API_docs/constructors/updateChatDefaultBannedRights.md)  
+[updateChatDefaultBannedRights](/API_docs/constructors/updateChatDefaultBannedRights.html)  
 
-[updateFolderPeers](/API_docs/constructors/updateFolderPeers.md)  
+[updateFolderPeers](/API_docs/constructors/updateFolderPeers.html)  
 
-[updatePeerSettings](/API_docs/constructors/updatePeerSettings.md)  
+[updatePeerSettings](/API_docs/constructors/updatePeerSettings.html)  
 
-[updatePeerLocated](/API_docs/constructors/updatePeerLocated.md)  
+[updatePeerLocated](/API_docs/constructors/updatePeerLocated.html)  
 
-[updateNewScheduledMessage](/API_docs/constructors/updateNewScheduledMessage.md)  
+[updateNewScheduledMessage](/API_docs/constructors/updateNewScheduledMessage.html)  
 
-[updateDeleteScheduledMessages](/API_docs/constructors/updateDeleteScheduledMessages.md)  
+[updateDeleteScheduledMessages](/API_docs/constructors/updateDeleteScheduledMessages.html)  
 
-[updateTheme](/API_docs/constructors/updateTheme.md)  
+[updateTheme](/API_docs/constructors/updateTheme.html)  
 
-[updateGeoLiveViewed](/API_docs/constructors/updateGeoLiveViewed.md)  
+[updateGeoLiveViewed](/API_docs/constructors/updateGeoLiveViewed.html)  
 
-[updateLoginToken](/API_docs/constructors/updateLoginToken.md)  
+[updateLoginToken](/API_docs/constructors/updateLoginToken.html)  
 
-[updateMessagePollVote](/API_docs/constructors/updateMessagePollVote.md)  
+[updateMessagePollVote](/API_docs/constructors/updateMessagePollVote.html)  
 
-[updateDialogFilter](/API_docs/constructors/updateDialogFilter.md)  
+[updateDialogFilter](/API_docs/constructors/updateDialogFilter.html)  
 
-[updateDialogFilterOrder](/API_docs/constructors/updateDialogFilterOrder.md)  
+[updateDialogFilterOrder](/API_docs/constructors/updateDialogFilterOrder.html)  
 
-[updateDialogFilters](/API_docs/constructors/updateDialogFilters.md)  
+[updateDialogFilters](/API_docs/constructors/updateDialogFilters.html)  
 
-[updatePhoneCallSignalingData](/API_docs/constructors/updatePhoneCallSignalingData.md)  
+[updatePhoneCallSignalingData](/API_docs/constructors/updatePhoneCallSignalingData.html)  
 
-[updateChannelMessageForwards](/API_docs/constructors/updateChannelMessageForwards.md)  
+[updateChannelMessageForwards](/API_docs/constructors/updateChannelMessageForwards.html)  
 
-[updateReadChannelDiscussionInbox](/API_docs/constructors/updateReadChannelDiscussionInbox.md)  
+[updateReadChannelDiscussionInbox](/API_docs/constructors/updateReadChannelDiscussionInbox.html)  
 
-[updateReadChannelDiscussionOutbox](/API_docs/constructors/updateReadChannelDiscussionOutbox.md)  
+[updateReadChannelDiscussionOutbox](/API_docs/constructors/updateReadChannelDiscussionOutbox.html)  
 
-[updatePeerBlocked](/API_docs/constructors/updatePeerBlocked.md)  
+[updatePeerBlocked](/API_docs/constructors/updatePeerBlocked.html)  
 
-[updateChannelUserTyping](/API_docs/constructors/updateChannelUserTyping.md)  
+[updateChannelUserTyping](/API_docs/constructors/updateChannelUserTyping.html)  
 
-[updatePinnedMessages](/API_docs/constructors/updatePinnedMessages.md)  
+[updatePinnedMessages](/API_docs/constructors/updatePinnedMessages.html)  
 
-[updatePinnedChannelMessages](/API_docs/constructors/updatePinnedChannelMessages.md)  
+[updatePinnedChannelMessages](/API_docs/constructors/updatePinnedChannelMessages.html)  
 
-[updateChat](/API_docs/constructors/updateChat.md)  
+[updateChat](/API_docs/constructors/updateChat.html)  
 
-[updateGroupCallParticipants](/API_docs/constructors/updateGroupCallParticipants.md)  
+[updateGroupCallParticipants](/API_docs/constructors/updateGroupCallParticipants.html)  
 
-[updateGroupCall](/API_docs/constructors/updateGroupCall.md)  
+[updateGroupCall](/API_docs/constructors/updateGroupCall.html)  
 
-[updatePeerHistoryTTL](/API_docs/constructors/updatePeerHistoryTTL.md)  
+[updatePeerHistoryTTL](/API_docs/constructors/updatePeerHistoryTTL.html)  
 
-[updateChatParticipant](/API_docs/constructors/updateChatParticipant.md)  
+[updateChatParticipant](/API_docs/constructors/updateChatParticipant.html)  
 
-[updateChannelParticipant](/API_docs/constructors/updateChannelParticipant.md)  
+[updateChannelParticipant](/API_docs/constructors/updateChannelParticipant.html)  
 
-[updateBotStopped](/API_docs/constructors/updateBotStopped.md)  
+[updateBotStopped](/API_docs/constructors/updateBotStopped.html)  
 
-[updateGroupCallConnection](/API_docs/constructors/updateGroupCallConnection.md)  
+[updateGroupCallConnection](/API_docs/constructors/updateGroupCallConnection.html)  
 
-[updateBotCommands](/API_docs/constructors/updateBotCommands.md)  
+[updateBotCommands](/API_docs/constructors/updateBotCommands.html)  
 
-[updatePendingJoinRequests](/API_docs/constructors/updatePendingJoinRequests.md)  
+[updatePendingJoinRequests](/API_docs/constructors/updatePendingJoinRequests.html)  
 
-[updateBotChatInviteRequester](/API_docs/constructors/updateBotChatInviteRequester.md)  
+[updateBotChatInviteRequester](/API_docs/constructors/updateBotChatInviteRequester.html)  
 
-[updateMessageReactions](/API_docs/constructors/updateMessageReactions.md)  
+[updateMessageReactions](/API_docs/constructors/updateMessageReactions.html)  
 
 
 
@@ -209,195 +209,195 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[updateNewMessage](/API_docs/constructors/updateNewMessage.md)  
+[updateNewMessage](/API_docs/constructors/updateNewMessage.html)  
 
-[updateMessageID](/API_docs/constructors/updateMessageID.md)  
+[updateMessageID](/API_docs/constructors/updateMessageID.html)  
 
-[updateDeleteMessages](/API_docs/constructors/updateDeleteMessages.md)  
+[updateDeleteMessages](/API_docs/constructors/updateDeleteMessages.html)  
 
-[updateUserTyping](/API_docs/constructors/updateUserTyping.md)  
+[updateUserTyping](/API_docs/constructors/updateUserTyping.html)  
 
-[updateChatUserTyping](/API_docs/constructors/updateChatUserTyping.md)  
+[updateChatUserTyping](/API_docs/constructors/updateChatUserTyping.html)  
 
-[updateChatParticipants](/API_docs/constructors/updateChatParticipants.md)  
+[updateChatParticipants](/API_docs/constructors/updateChatParticipants.html)  
 
-[updateUserStatus](/API_docs/constructors/updateUserStatus.md)  
+[updateUserStatus](/API_docs/constructors/updateUserStatus.html)  
 
-[updateUserName](/API_docs/constructors/updateUserName.md)  
+[updateUserName](/API_docs/constructors/updateUserName.html)  
 
-[updateUserPhoto](/API_docs/constructors/updateUserPhoto.md)  
+[updateUserPhoto](/API_docs/constructors/updateUserPhoto.html)  
 
-[updateNewEncryptedMessage](/API_docs/constructors/updateNewEncryptedMessage.md)  
+[updateNewEncryptedMessage](/API_docs/constructors/updateNewEncryptedMessage.html)  
 
-[updateEncryptedChatTyping](/API_docs/constructors/updateEncryptedChatTyping.md)  
+[updateEncryptedChatTyping](/API_docs/constructors/updateEncryptedChatTyping.html)  
 
-[updateEncryption](/API_docs/constructors/updateEncryption.md)  
+[updateEncryption](/API_docs/constructors/updateEncryption.html)  
 
-[updateEncryptedMessagesRead](/API_docs/constructors/updateEncryptedMessagesRead.md)  
+[updateEncryptedMessagesRead](/API_docs/constructors/updateEncryptedMessagesRead.html)  
 
-[updateChatParticipantAdd](/API_docs/constructors/updateChatParticipantAdd.md)  
+[updateChatParticipantAdd](/API_docs/constructors/updateChatParticipantAdd.html)  
 
-[updateChatParticipantDelete](/API_docs/constructors/updateChatParticipantDelete.md)  
+[updateChatParticipantDelete](/API_docs/constructors/updateChatParticipantDelete.html)  
 
-[updateDcOptions](/API_docs/constructors/updateDcOptions.md)  
+[updateDcOptions](/API_docs/constructors/updateDcOptions.html)  
 
-[updateNotifySettings](/API_docs/constructors/updateNotifySettings.md)  
+[updateNotifySettings](/API_docs/constructors/updateNotifySettings.html)  
 
-[updateServiceNotification](/API_docs/constructors/updateServiceNotification.md)  
+[updateServiceNotification](/API_docs/constructors/updateServiceNotification.html)  
 
-[updatePrivacy](/API_docs/constructors/updatePrivacy.md)  
+[updatePrivacy](/API_docs/constructors/updatePrivacy.html)  
 
-[updateUserPhone](/API_docs/constructors/updateUserPhone.md)  
+[updateUserPhone](/API_docs/constructors/updateUserPhone.html)  
 
-[updateReadHistoryInbox](/API_docs/constructors/updateReadHistoryInbox.md)  
+[updateReadHistoryInbox](/API_docs/constructors/updateReadHistoryInbox.html)  
 
-[updateReadHistoryOutbox](/API_docs/constructors/updateReadHistoryOutbox.md)  
+[updateReadHistoryOutbox](/API_docs/constructors/updateReadHistoryOutbox.html)  
 
-[updateWebPage](/API_docs/constructors/updateWebPage.md)  
+[updateWebPage](/API_docs/constructors/updateWebPage.html)  
 
-[updateReadMessagesContents](/API_docs/constructors/updateReadMessagesContents.md)  
+[updateReadMessagesContents](/API_docs/constructors/updateReadMessagesContents.html)  
 
-[updateChannelTooLong](/API_docs/constructors/updateChannelTooLong.md)  
+[updateChannelTooLong](/API_docs/constructors/updateChannelTooLong.html)  
 
-[updateChannel](/API_docs/constructors/updateChannel.md)  
+[updateChannel](/API_docs/constructors/updateChannel.html)  
 
-[updateNewChannelMessage](/API_docs/constructors/updateNewChannelMessage.md)  
+[updateNewChannelMessage](/API_docs/constructors/updateNewChannelMessage.html)  
 
-[updateReadChannelInbox](/API_docs/constructors/updateReadChannelInbox.md)  
+[updateReadChannelInbox](/API_docs/constructors/updateReadChannelInbox.html)  
 
-[updateDeleteChannelMessages](/API_docs/constructors/updateDeleteChannelMessages.md)  
+[updateDeleteChannelMessages](/API_docs/constructors/updateDeleteChannelMessages.html)  
 
-[updateChannelMessageViews](/API_docs/constructors/updateChannelMessageViews.md)  
+[updateChannelMessageViews](/API_docs/constructors/updateChannelMessageViews.html)  
 
-[updateChatParticipantAdmin](/API_docs/constructors/updateChatParticipantAdmin.md)  
+[updateChatParticipantAdmin](/API_docs/constructors/updateChatParticipantAdmin.html)  
 
-[updateNewStickerSet](/API_docs/constructors/updateNewStickerSet.md)  
+[updateNewStickerSet](/API_docs/constructors/updateNewStickerSet.html)  
 
-[updateStickerSetsOrder](/API_docs/constructors/updateStickerSetsOrder.md)  
+[updateStickerSetsOrder](/API_docs/constructors/updateStickerSetsOrder.html)  
 
-[updateStickerSets](/API_docs/constructors/updateStickerSets.md)  
+[updateStickerSets](/API_docs/constructors/updateStickerSets.html)  
 
-[updateSavedGifs](/API_docs/constructors/updateSavedGifs.md)  
+[updateSavedGifs](/API_docs/constructors/updateSavedGifs.html)  
 
-[updateBotInlineQuery](/API_docs/constructors/updateBotInlineQuery.md)  
+[updateBotInlineQuery](/API_docs/constructors/updateBotInlineQuery.html)  
 
-[updateBotInlineSend](/API_docs/constructors/updateBotInlineSend.md)  
+[updateBotInlineSend](/API_docs/constructors/updateBotInlineSend.html)  
 
-[updateEditChannelMessage](/API_docs/constructors/updateEditChannelMessage.md)  
+[updateEditChannelMessage](/API_docs/constructors/updateEditChannelMessage.html)  
 
-[updateBotCallbackQuery](/API_docs/constructors/updateBotCallbackQuery.md)  
+[updateBotCallbackQuery](/API_docs/constructors/updateBotCallbackQuery.html)  
 
-[updateEditMessage](/API_docs/constructors/updateEditMessage.md)  
+[updateEditMessage](/API_docs/constructors/updateEditMessage.html)  
 
-[updateInlineBotCallbackQuery](/API_docs/constructors/updateInlineBotCallbackQuery.md)  
+[updateInlineBotCallbackQuery](/API_docs/constructors/updateInlineBotCallbackQuery.html)  
 
-[updateReadChannelOutbox](/API_docs/constructors/updateReadChannelOutbox.md)  
+[updateReadChannelOutbox](/API_docs/constructors/updateReadChannelOutbox.html)  
 
-[updateDraftMessage](/API_docs/constructors/updateDraftMessage.md)  
+[updateDraftMessage](/API_docs/constructors/updateDraftMessage.html)  
 
-[updateReadFeaturedStickers](/API_docs/constructors/updateReadFeaturedStickers.md)  
+[updateReadFeaturedStickers](/API_docs/constructors/updateReadFeaturedStickers.html)  
 
-[updateRecentStickers](/API_docs/constructors/updateRecentStickers.md)  
+[updateRecentStickers](/API_docs/constructors/updateRecentStickers.html)  
 
-[updateConfig](/API_docs/constructors/updateConfig.md)  
+[updateConfig](/API_docs/constructors/updateConfig.html)  
 
-[updatePtsChanged](/API_docs/constructors/updatePtsChanged.md)  
+[updatePtsChanged](/API_docs/constructors/updatePtsChanged.html)  
 
-[updateChannelWebPage](/API_docs/constructors/updateChannelWebPage.md)  
+[updateChannelWebPage](/API_docs/constructors/updateChannelWebPage.html)  
 
-[updateDialogPinned](/API_docs/constructors/updateDialogPinned.md)  
+[updateDialogPinned](/API_docs/constructors/updateDialogPinned.html)  
 
-[updatePinnedDialogs](/API_docs/constructors/updatePinnedDialogs.md)  
+[updatePinnedDialogs](/API_docs/constructors/updatePinnedDialogs.html)  
 
-[updateBotWebhookJSON](/API_docs/constructors/updateBotWebhookJSON.md)  
+[updateBotWebhookJSON](/API_docs/constructors/updateBotWebhookJSON.html)  
 
-[updateBotWebhookJSONQuery](/API_docs/constructors/updateBotWebhookJSONQuery.md)  
+[updateBotWebhookJSONQuery](/API_docs/constructors/updateBotWebhookJSONQuery.html)  
 
-[updateBotShippingQuery](/API_docs/constructors/updateBotShippingQuery.md)  
+[updateBotShippingQuery](/API_docs/constructors/updateBotShippingQuery.html)  
 
-[updateBotPrecheckoutQuery](/API_docs/constructors/updateBotPrecheckoutQuery.md)  
+[updateBotPrecheckoutQuery](/API_docs/constructors/updateBotPrecheckoutQuery.html)  
 
-[updatePhoneCall](/API_docs/constructors/updatePhoneCall.md)  
+[updatePhoneCall](/API_docs/constructors/updatePhoneCall.html)  
 
-[updateLangPackTooLong](/API_docs/constructors/updateLangPackTooLong.md)  
+[updateLangPackTooLong](/API_docs/constructors/updateLangPackTooLong.html)  
 
-[updateLangPack](/API_docs/constructors/updateLangPack.md)  
+[updateLangPack](/API_docs/constructors/updateLangPack.html)  
 
-[updateFavedStickers](/API_docs/constructors/updateFavedStickers.md)  
+[updateFavedStickers](/API_docs/constructors/updateFavedStickers.html)  
 
-[updateChannelReadMessagesContents](/API_docs/constructors/updateChannelReadMessagesContents.md)  
+[updateChannelReadMessagesContents](/API_docs/constructors/updateChannelReadMessagesContents.html)  
 
-[updateContactsReset](/API_docs/constructors/updateContactsReset.md)  
+[updateContactsReset](/API_docs/constructors/updateContactsReset.html)  
 
-[updateChannelAvailableMessages](/API_docs/constructors/updateChannelAvailableMessages.md)  
+[updateChannelAvailableMessages](/API_docs/constructors/updateChannelAvailableMessages.html)  
 
-[updateDialogUnreadMark](/API_docs/constructors/updateDialogUnreadMark.md)  
+[updateDialogUnreadMark](/API_docs/constructors/updateDialogUnreadMark.html)  
 
-[updateMessagePoll](/API_docs/constructors/updateMessagePoll.md)  
+[updateMessagePoll](/API_docs/constructors/updateMessagePoll.html)  
 
-[updateChatDefaultBannedRights](/API_docs/constructors/updateChatDefaultBannedRights.md)  
+[updateChatDefaultBannedRights](/API_docs/constructors/updateChatDefaultBannedRights.html)  
 
-[updateFolderPeers](/API_docs/constructors/updateFolderPeers.md)  
+[updateFolderPeers](/API_docs/constructors/updateFolderPeers.html)  
 
-[updatePeerSettings](/API_docs/constructors/updatePeerSettings.md)  
+[updatePeerSettings](/API_docs/constructors/updatePeerSettings.html)  
 
-[updatePeerLocated](/API_docs/constructors/updatePeerLocated.md)  
+[updatePeerLocated](/API_docs/constructors/updatePeerLocated.html)  
 
-[updateNewScheduledMessage](/API_docs/constructors/updateNewScheduledMessage.md)  
+[updateNewScheduledMessage](/API_docs/constructors/updateNewScheduledMessage.html)  
 
-[updateDeleteScheduledMessages](/API_docs/constructors/updateDeleteScheduledMessages.md)  
+[updateDeleteScheduledMessages](/API_docs/constructors/updateDeleteScheduledMessages.html)  
 
-[updateTheme](/API_docs/constructors/updateTheme.md)  
+[updateTheme](/API_docs/constructors/updateTheme.html)  
 
-[updateGeoLiveViewed](/API_docs/constructors/updateGeoLiveViewed.md)  
+[updateGeoLiveViewed](/API_docs/constructors/updateGeoLiveViewed.html)  
 
-[updateLoginToken](/API_docs/constructors/updateLoginToken.md)  
+[updateLoginToken](/API_docs/constructors/updateLoginToken.html)  
 
-[updateMessagePollVote](/API_docs/constructors/updateMessagePollVote.md)  
+[updateMessagePollVote](/API_docs/constructors/updateMessagePollVote.html)  
 
-[updateDialogFilter](/API_docs/constructors/updateDialogFilter.md)  
+[updateDialogFilter](/API_docs/constructors/updateDialogFilter.html)  
 
-[updateDialogFilterOrder](/API_docs/constructors/updateDialogFilterOrder.md)  
+[updateDialogFilterOrder](/API_docs/constructors/updateDialogFilterOrder.html)  
 
-[updateDialogFilters](/API_docs/constructors/updateDialogFilters.md)  
+[updateDialogFilters](/API_docs/constructors/updateDialogFilters.html)  
 
-[updatePhoneCallSignalingData](/API_docs/constructors/updatePhoneCallSignalingData.md)  
+[updatePhoneCallSignalingData](/API_docs/constructors/updatePhoneCallSignalingData.html)  
 
-[updateChannelMessageForwards](/API_docs/constructors/updateChannelMessageForwards.md)  
+[updateChannelMessageForwards](/API_docs/constructors/updateChannelMessageForwards.html)  
 
-[updateReadChannelDiscussionInbox](/API_docs/constructors/updateReadChannelDiscussionInbox.md)  
+[updateReadChannelDiscussionInbox](/API_docs/constructors/updateReadChannelDiscussionInbox.html)  
 
-[updateReadChannelDiscussionOutbox](/API_docs/constructors/updateReadChannelDiscussionOutbox.md)  
+[updateReadChannelDiscussionOutbox](/API_docs/constructors/updateReadChannelDiscussionOutbox.html)  
 
-[updatePeerBlocked](/API_docs/constructors/updatePeerBlocked.md)  
+[updatePeerBlocked](/API_docs/constructors/updatePeerBlocked.html)  
 
-[updateChannelUserTyping](/API_docs/constructors/updateChannelUserTyping.md)  
+[updateChannelUserTyping](/API_docs/constructors/updateChannelUserTyping.html)  
 
-[updatePinnedMessages](/API_docs/constructors/updatePinnedMessages.md)  
+[updatePinnedMessages](/API_docs/constructors/updatePinnedMessages.html)  
 
-[updatePinnedChannelMessages](/API_docs/constructors/updatePinnedChannelMessages.md)  
+[updatePinnedChannelMessages](/API_docs/constructors/updatePinnedChannelMessages.html)  
 
-[updateChat](/API_docs/constructors/updateChat.md)  
+[updateChat](/API_docs/constructors/updateChat.html)  
 
-[updateGroupCallParticipants](/API_docs/constructors/updateGroupCallParticipants.md)  
+[updateGroupCallParticipants](/API_docs/constructors/updateGroupCallParticipants.html)  
 
-[updateGroupCall](/API_docs/constructors/updateGroupCall.md)  
+[updateGroupCall](/API_docs/constructors/updateGroupCall.html)  
 
-[updatePeerHistoryTTL](/API_docs/constructors/updatePeerHistoryTTL.md)  
+[updatePeerHistoryTTL](/API_docs/constructors/updatePeerHistoryTTL.html)  
 
-[updateChatParticipant](/API_docs/constructors/updateChatParticipant.md)  
+[updateChatParticipant](/API_docs/constructors/updateChatParticipant.html)  
 
-[updateChannelParticipant](/API_docs/constructors/updateChannelParticipant.md)  
+[updateChannelParticipant](/API_docs/constructors/updateChannelParticipant.html)  
 
-[updateBotStopped](/API_docs/constructors/updateBotStopped.md)  
+[updateBotStopped](/API_docs/constructors/updateBotStopped.html)  
 
-[updateGroupCallConnection](/API_docs/constructors/updateGroupCallConnection.md)  
+[updateGroupCallConnection](/API_docs/constructors/updateGroupCallConnection.html)  
 
-[updateBotCommands](/API_docs/constructors/updateBotCommands.md)  
+[updateBotCommands](/API_docs/constructors/updateBotCommands.html)  
 
-[updatePendingJoinRequests](/API_docs/constructors/updatePendingJoinRequests.md)  
+[updatePendingJoinRequests](/API_docs/constructors/updatePendingJoinRequests.html)  
 
-[updateBotChatInviteRequester](/API_docs/constructors/updateBotChatInviteRequester.md)  
+[updateBotChatInviteRequester](/API_docs/constructors/updateBotChatInviteRequester.html)  
 
-[updateMessageReactions](/API_docs/constructors/updateMessageReactions.md)  
+[updateMessageReactions](/API_docs/constructors/updateMessageReactions.html)  
 

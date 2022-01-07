@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: statsDateRangeDays  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|min\_date|[int](/API_docs/types/int.md) | Yes|Initial date|
-|max\_date|[int](/API_docs/types/int.md) | Yes|Final date|
+|min\_date|[int](/API_docs/types/int.html) | Yes|Initial date|
+|max\_date|[int](/API_docs/types/int.html) | Yes|Final date|
 
 
 
-### Type: [StatsDateRangeDays](/API_docs/types/StatsDateRangeDays.md)
+### Type: [StatsDateRangeDays](/API_docs/types/StatsDateRangeDays.html)
 
 
 ### Example:

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_verifyPhone.html
 ---
 # Method: account.verifyPhone
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Verify a phone number for telegram [passport](https://core.telegram.org/passport
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](/API_docs/types/string.md) | Phone number | Yes|
-|phone\_code\_hash|[string](/API_docs/types/string.md) | Phone code hash received from the call to [account.sendVerifyPhoneCode](../methods/account.sendVerifyPhoneCode.md) | Yes|
-|phone\_code|[string](/API_docs/types/string.md) | Code received after the call to [account.sendVerifyPhoneCode](../methods/account.sendVerifyPhoneCode.md) | Yes|
+|phone\_number|[string](/API_docs/types/string.html) | Phone number | Yes|
+|phone\_code\_hash|[string](/API_docs/types/string.html) | Phone code hash received from the call to [account.sendVerifyPhoneCode](../methods/account.sendVerifyPhoneCode.html) | Yes|
+|phone\_code|[string](/API_docs/types/string.html) | Code received after the call to [account.sendVerifyPhoneCode](../methods/account.sendVerifyPhoneCode.html) | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

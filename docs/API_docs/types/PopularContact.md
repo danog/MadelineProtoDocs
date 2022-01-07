@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: PopularContact
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[popularContact](/API_docs/constructors/popularContact.md)  
+[popularContact](/API_docs/constructors/popularContact.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[popularContact](/API_docs/constructors/popularContact.md)  
+[popularContact](/API_docs/constructors/popularContact.html)  
 

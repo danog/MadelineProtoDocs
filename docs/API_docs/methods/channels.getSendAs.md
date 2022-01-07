@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_getSendAs.html
 ---
 # Method: channels.getSendAs
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/channels_getSendAs.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 
 
-### Return type: [channels.SendAsPeers](/API_docs/types/channels.SendAsPeers.md)
+### Return type: [channels.SendAsPeers](/API_docs/types/channels.SendAsPeers.html)
 
 ### Can bots use this method: **YES**
 

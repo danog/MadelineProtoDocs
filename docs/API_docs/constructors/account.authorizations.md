@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_authorizations.html
 ---
 # Constructor: account.authorizations  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,12 +16,12 @@ Logged-in sessions
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|authorization\_ttl\_days|[int](/API_docs/types/int.md) | Yes|
-|authorizations|Array of [Authorization](/API_docs/types/Authorization.md) | Yes|Logged-in sessions|
+|authorization\_ttl\_days|[int](/API_docs/types/int.html) | Yes|
+|authorizations|Array of [Authorization](/API_docs/types/Authorization.html) | Yes|Logged-in sessions|
 
 
 
-### Type: [account.Authorizations](/API_docs/types/account.Authorizations.md)
+### Type: [account.Authorizations](/API_docs/types/account.Authorizations.html)
 
 
 ### Example:

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_setDefaultReaction.html
 ---
 # Method: messages.setDefaultReaction
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/messages_setDefaultReaction.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|reaction|[string](/API_docs/types/string.md) | Yes|
+|reaction|[string](/API_docs/types/string.html) | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **YES**
 

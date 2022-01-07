@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_setPrivacy.html
 ---
 # Method: account.setPrivacy
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Change privacy settings of current account
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|key|[InputPrivacyKey](/API_docs/types/InputPrivacyKey.md) | Peers to which the privacy rules apply | Yes|
-|rules|Array of [InputPrivacyRule](/API_docs/types/InputPrivacyRule.md) | New privacy rules | Yes|
+|key|[InputPrivacyKey](/API_docs/types/InputPrivacyKey.html) | Peers to which the privacy rules apply | Yes|
+|rules|Array of [InputPrivacyRule](/API_docs/types/InputPrivacyRule.html) | New privacy rules | Yes|
 
 
-### Return type: [account.PrivacyRules](/API_docs/types/account.PrivacyRules.md)
+### Return type: [account.PrivacyRules](/API_docs/types/account.PrivacyRules.html)
 
 ### Can bots use this method: **NO**
 

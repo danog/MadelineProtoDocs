@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: textPhone  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ Rich text linked to a phone number
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|text|[RichText](/API_docs/types/RichText.md) | Yes|Text|
-|phone|[string](/API_docs/types/string.md) | Yes|Phone number|
+|text|[RichText](/API_docs/types/RichText.html) | Yes|Text|
+|phone|[string](/API_docs/types/string.html) | Yes|Phone number|
 
 
 
-### Type: [RichText](/API_docs/types/RichText.md)
+### Type: [RichText](/API_docs/types/RichText.html)
 
 
 ### Example:

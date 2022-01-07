@@ -1,27 +1,27 @@
 ---
 title: "channels.getAdminedPublicChannels"
-description: "Get [channels/supergroups/geogroups](https://core.telegram.org/api/channel) we're admin in. Usually called when the user exceeds the [limit](../constructors/config.md) for owned public [channels/supergroups/geogroups](https://core.telegram.org/api/channel), and the user is given the choice to remove one of his channels/supergroups/geogroups."
+description: "Get [channels/supergroups/geogroups](https://core.telegram.org/api/channel) we're admin in. Usually called when the user exceeds the [limit](../constructors/config.html) for owned public [channels/supergroups/geogroups](https://core.telegram.org/api/channel), and the user is given the choice to remove one of his channels/supergroups/geogroups."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_getAdminedPublicChannels.html
 ---
 # Method: channels.getAdminedPublicChannels
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
-Get [channels/supergroups/geogroups](https://core.telegram.org/api/channel) we're admin in. Usually called when the user exceeds the [limit](../constructors/config.md) for owned public [channels/supergroups/geogroups](https://core.telegram.org/api/channel), and the user is given the choice to remove one of his channels/supergroups/geogroups.
+Get [channels/supergroups/geogroups](https://core.telegram.org/api/channel) we're admin in. Usually called when the user exceeds the [limit](../constructors/config.html) for owned public [channels/supergroups/geogroups](https://core.telegram.org/api/channel), and the user is given the choice to remove one of his channels/supergroups/geogroups.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|by\_location|[Bool](/API_docs/types/Bool.md) | Get geogroups | Optional|
-|check\_limit|[Bool](/API_docs/types/Bool.md) | If set and the user has reached the limit of owned public [channels/supergroups/geogroups](https://core.telegram.org/api/channel), instead of returning the channel list one of the specified [errors](#possible-errors) will be returned.<br>Useful to check if a new public channel can indeed be created, even before asking the user to enter a channel username to use in [channels.checkUsername](../methods/channels.checkUsername.md)/[channels.updateUsername](../methods/channels.updateUsername.md). | Optional|
+|by\_location|[Bool](/API_docs/types/Bool.html) | Get geogroups | Optional|
+|check\_limit|[Bool](/API_docs/types/Bool.html) | If set and the user has reached the limit of owned public [channels/supergroups/geogroups](https://core.telegram.org/api/channel), instead of returning the channel list one of the specified [errors](#possible-errors) will be returned.<br>Useful to check if a new public channel can indeed be created, even before asking the user to enter a channel username to use in [channels.checkUsername](../methods/channels.checkUsername.html)/[channels.updateUsername](../methods/channels.updateUsername.html). | Optional|
 
 
-### Return type: [messages.Chats](/API_docs/types/messages.Chats.md)
+### Return type: [messages.Chats](/API_docs/types/messages.Chats.html)
 
 ### Can bots use this method: **NO**
 

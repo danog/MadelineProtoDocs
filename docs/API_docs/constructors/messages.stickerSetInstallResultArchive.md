@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_stickerSetInstallResultArchive.html
 ---
 # Constructor: messages.stickerSetInstallResultArchive  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,11 +16,11 @@ The stickerset was installed, but since there are too many stickersets some were
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|sets|Array of [StickerSetCovered](/API_docs/types/StickerSetCovered.md) | Yes|Archived stickersets|
+|sets|Array of [StickerSetCovered](/API_docs/types/StickerSetCovered.html) | Yes|Archived stickersets|
 
 
 
-### Type: [messages.StickerSetInstallResult](/API_docs/types/messages.StickerSetInstallResult.md)
+### Type: [messages.StickerSetInstallResult](/API_docs/types/messages.StickerSetInstallResult.html)
 
 
 ### Example:

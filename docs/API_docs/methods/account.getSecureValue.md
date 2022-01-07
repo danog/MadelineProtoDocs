@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getSecureValue.html
 ---
 # Method: account.getSecureValue
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Get saved [Telegram Passport](https://core.telegram.org/passport) document, [for
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|types|Array of [SecureValueType](/API_docs/types/SecureValueType.md) | Requested value types | Yes|
+|types|Array of [SecureValueType](/API_docs/types/SecureValueType.html) | Requested value types | Yes|
 
 
-### Return type: [Vector\_of\_SecureValue](/API_docs/types/SecureValue.md)
+### Return type: [Vector\_of\_SecureValue](/API_docs/types/SecureValue.html)
 
 ### Can bots use this method: **NO**
 

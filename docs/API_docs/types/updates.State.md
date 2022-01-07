@@ -6,23 +6,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/updates_State.html
 ---
 # Type: updates.State
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[updates.state](/API_docs/constructors/updates.state.md)  
+[updates.state](/API_docs/constructors/updates.state.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->updates->getState](/API_docs/methods/updates.getState.md)  
+[$MadelineProto->updates->getState](/API_docs/methods/updates.getState.html)  
 
 
 
-[updates.state](/API_docs/constructors/updates.state.md)  
+[updates.state](/API_docs/constructors/updates.state.html)  
 
-[$MadelineProto->updates->getState](/API_docs/methods/updates.getState.md)  
+[$MadelineProto->updates->getState](/API_docs/methods/updates.getState.html)  
 

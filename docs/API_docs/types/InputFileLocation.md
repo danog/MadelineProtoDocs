@@ -5,31 +5,31 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputFileLocation
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inputFileLocation](/API_docs/constructors/inputFileLocation.md)  
+[inputFileLocation](/API_docs/constructors/inputFileLocation.html)  
 
-[inputEncryptedFileLocation](/API_docs/constructors/inputEncryptedFileLocation.md)  
+[inputEncryptedFileLocation](/API_docs/constructors/inputEncryptedFileLocation.html)  
 
-[inputDocumentFileLocation](/API_docs/constructors/inputDocumentFileLocation.md)  
+[inputDocumentFileLocation](/API_docs/constructors/inputDocumentFileLocation.html)  
 
-[inputSecureFileLocation](/API_docs/constructors/inputSecureFileLocation.md)  
+[inputSecureFileLocation](/API_docs/constructors/inputSecureFileLocation.html)  
 
-[inputTakeoutFileLocation](/API_docs/constructors/inputTakeoutFileLocation.md)  
+[inputTakeoutFileLocation](/API_docs/constructors/inputTakeoutFileLocation.html)  
 
-[inputPhotoFileLocation](/API_docs/constructors/inputPhotoFileLocation.md)  
+[inputPhotoFileLocation](/API_docs/constructors/inputPhotoFileLocation.html)  
 
-[inputPhotoLegacyFileLocation](/API_docs/constructors/inputPhotoLegacyFileLocation.md)  
+[inputPhotoLegacyFileLocation](/API_docs/constructors/inputPhotoLegacyFileLocation.html)  
 
-[inputPeerPhotoFileLocation](/API_docs/constructors/inputPeerPhotoFileLocation.md)  
+[inputPeerPhotoFileLocation](/API_docs/constructors/inputPeerPhotoFileLocation.html)  
 
-[inputStickerSetThumb](/API_docs/constructors/inputStickerSetThumb.md)  
+[inputStickerSetThumb](/API_docs/constructors/inputStickerSetThumb.html)  
 
-[inputGroupCallStream](/API_docs/constructors/inputGroupCallStream.md)  
+[inputGroupCallStream](/API_docs/constructors/inputGroupCallStream.html)  
 
 
 
@@ -37,23 +37,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputFileLocation](/API_docs/constructors/inputFileLocation.md)  
+[inputFileLocation](/API_docs/constructors/inputFileLocation.html)  
 
-[inputEncryptedFileLocation](/API_docs/constructors/inputEncryptedFileLocation.md)  
+[inputEncryptedFileLocation](/API_docs/constructors/inputEncryptedFileLocation.html)  
 
-[inputDocumentFileLocation](/API_docs/constructors/inputDocumentFileLocation.md)  
+[inputDocumentFileLocation](/API_docs/constructors/inputDocumentFileLocation.html)  
 
-[inputSecureFileLocation](/API_docs/constructors/inputSecureFileLocation.md)  
+[inputSecureFileLocation](/API_docs/constructors/inputSecureFileLocation.html)  
 
-[inputTakeoutFileLocation](/API_docs/constructors/inputTakeoutFileLocation.md)  
+[inputTakeoutFileLocation](/API_docs/constructors/inputTakeoutFileLocation.html)  
 
-[inputPhotoFileLocation](/API_docs/constructors/inputPhotoFileLocation.md)  
+[inputPhotoFileLocation](/API_docs/constructors/inputPhotoFileLocation.html)  
 
-[inputPhotoLegacyFileLocation](/API_docs/constructors/inputPhotoLegacyFileLocation.md)  
+[inputPhotoLegacyFileLocation](/API_docs/constructors/inputPhotoLegacyFileLocation.html)  
 
-[inputPeerPhotoFileLocation](/API_docs/constructors/inputPeerPhotoFileLocation.md)  
+[inputPeerPhotoFileLocation](/API_docs/constructors/inputPeerPhotoFileLocation.html)  
 
-[inputStickerSetThumb](/API_docs/constructors/inputStickerSetThumb.md)  
+[inputStickerSetThumb](/API_docs/constructors/inputStickerSetThumb.html)  
 
-[inputGroupCallStream](/API_docs/constructors/inputGroupCallStream.md)  
+[inputGroupCallStream](/API_docs/constructors/inputGroupCallStream.html)  
 

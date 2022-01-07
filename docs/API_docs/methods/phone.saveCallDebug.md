@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/phone_saveCallDebug.html
 ---
 # Method: phone.saveCallDebug
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Send phone call debug data to server
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[InputPhoneCall](/API_docs/types/InputPhoneCall.md) | Phone call | Yes|
-|debug|[DataJSON](/API_docs/types/DataJSON.md) | Debug statistics obtained from libtgvoip | Yes|
+|peer|[InputPhoneCall](/API_docs/types/InputPhoneCall.html) | Phone call | Yes|
+|debug|[DataJSON](/API_docs/types/DataJSON.html) | Debug statistics obtained from libtgvoip | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

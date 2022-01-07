@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_setBotCallbackAnswer.html
 ---
 # Method: messages.setBotCallbackAnswer
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,14 +17,14 @@ Set the callback answer to a user button press (bots only)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|alert|[Bool](/API_docs/types/Bool.md) | Whether to show the message as a popup instead of a toast notification | Optional|
-|query\_id|[long](/API_docs/types/long.md) | Query ID | Yes|
-|message|[string](/API_docs/types/string.md) | Popup to show | Optional|
-|url|[string](/API_docs/types/string.md) | URL to open | Optional|
-|cache\_time|[int](/API_docs/types/int.md) | Cache validity | Yes|
+|alert|[Bool](/API_docs/types/Bool.html) | Whether to show the message as a popup instead of a toast notification | Optional|
+|query\_id|[long](/API_docs/types/long.html) | Query ID | Yes|
+|message|[string](/API_docs/types/string.html) | Popup to show | Optional|
+|url|[string](/API_docs/types/string.html) | URL to open | Optional|
+|cache\_time|[int](/API_docs/types/int.html) | Cache validity | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **YES**
 
@@ -47,7 +47,7 @@ $Bool = $MadelineProto->messages->setBotCallbackAnswer(['alert' => Bool, 'query_
 
 ## Return value 
 
-If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [Bool](../types/Bool.md) will be returned instead.
+If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [Bool](../types/Bool.html) will be returned instead.
 
 
 ### Errors

@@ -6,7 +6,7 @@ parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: initConnection
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -16,19 +16,19 @@ Initialize connection
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|api\_id|[int](/API_docs/types/int.md) | Application identifier (see. [App configuration](https://core.telegram.org/myapp)) | Yes|
-|device\_model|[string](/API_docs/types/string.md) | Device model | Yes|
-|system\_version|[string](/API_docs/types/string.md) | Operation system version | Yes|
-|app\_version|[string](/API_docs/types/string.md) | Application version | Yes|
-|system\_lang\_code|[string](/API_docs/types/string.md) | Code for the language used on the device's OS, ISO 639-1 standard | Yes|
-|lang\_pack|[string](/API_docs/types/string.md) | Language pack to use | Yes|
-|lang\_code|[string](/API_docs/types/string.md) | Code for the language used on the client, ISO 639-1 standard | Yes|
-|proxy|[InputClientProxy](/API_docs/types/InputClientProxy.md) | Info about an MTProto proxy | Optional|
-|params|[JSONValue](/API_docs/types/JSONValue.md) | Additional initConnection parameters. <br>For now, only the `tz_offset` field is supported, for specifying timezone offset in seconds. | Optional|
-|query|[!X](/API_docs/types/!X.md) | The query itself | Yes|
+|api\_id|[int](/API_docs/types/int.html) | Application identifier (see. [App configuration](https://core.telegram.org/myapp)) | Yes|
+|device\_model|[string](/API_docs/types/string.html) | Device model | Yes|
+|system\_version|[string](/API_docs/types/string.html) | Operation system version | Yes|
+|app\_version|[string](/API_docs/types/string.html) | Application version | Yes|
+|system\_lang\_code|[string](/API_docs/types/string.html) | Code for the language used on the device's OS, ISO 639-1 standard | Yes|
+|lang\_pack|[string](/API_docs/types/string.html) | Language pack to use | Yes|
+|lang\_code|[string](/API_docs/types/string.html) | Code for the language used on the client, ISO 639-1 standard | Yes|
+|proxy|[InputClientProxy](/API_docs/types/InputClientProxy.html) | Info about an MTProto proxy | Optional|
+|params|[JSONValue](/API_docs/types/JSONValue.html) | Additional initConnection parameters. <br>For now, only the `tz_offset` field is supported, for specifying timezone offset in seconds. | Optional|
+|query|[!X](/API_docs/types/!X.html) | The query itself | Yes|
 
 
-### Return type: [X](/API_docs/types/X.md)
+### Return type: [X](/API_docs/types/X.html)
 
 ### Can bots use this method: **YES**
 

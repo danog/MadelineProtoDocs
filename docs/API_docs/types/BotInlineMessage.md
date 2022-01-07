@@ -5,23 +5,23 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: BotInlineMessage
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[botInlineMessageMediaAuto](/API_docs/constructors/botInlineMessageMediaAuto.md)  
+[botInlineMessageMediaAuto](/API_docs/constructors/botInlineMessageMediaAuto.html)  
 
-[botInlineMessageText](/API_docs/constructors/botInlineMessageText.md)  
+[botInlineMessageText](/API_docs/constructors/botInlineMessageText.html)  
 
-[botInlineMessageMediaGeo](/API_docs/constructors/botInlineMessageMediaGeo.md)  
+[botInlineMessageMediaGeo](/API_docs/constructors/botInlineMessageMediaGeo.html)  
 
-[botInlineMessageMediaVenue](/API_docs/constructors/botInlineMessageMediaVenue.md)  
+[botInlineMessageMediaVenue](/API_docs/constructors/botInlineMessageMediaVenue.html)  
 
-[botInlineMessageMediaContact](/API_docs/constructors/botInlineMessageMediaContact.md)  
+[botInlineMessageMediaContact](/API_docs/constructors/botInlineMessageMediaContact.html)  
 
-[botInlineMessageMediaInvoice](/API_docs/constructors/botInlineMessageMediaInvoice.md)  
+[botInlineMessageMediaInvoice](/API_docs/constructors/botInlineMessageMediaInvoice.html)  
 
 
 
@@ -29,15 +29,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[botInlineMessageMediaAuto](/API_docs/constructors/botInlineMessageMediaAuto.md)  
+[botInlineMessageMediaAuto](/API_docs/constructors/botInlineMessageMediaAuto.html)  
 
-[botInlineMessageText](/API_docs/constructors/botInlineMessageText.md)  
+[botInlineMessageText](/API_docs/constructors/botInlineMessageText.html)  
 
-[botInlineMessageMediaGeo](/API_docs/constructors/botInlineMessageMediaGeo.md)  
+[botInlineMessageMediaGeo](/API_docs/constructors/botInlineMessageMediaGeo.html)  
 
-[botInlineMessageMediaVenue](/API_docs/constructors/botInlineMessageMediaVenue.md)  
+[botInlineMessageMediaVenue](/API_docs/constructors/botInlineMessageMediaVenue.html)  
 
-[botInlineMessageMediaContact](/API_docs/constructors/botInlineMessageMediaContact.md)  
+[botInlineMessageMediaContact](/API_docs/constructors/botInlineMessageMediaContact.html)  
 
-[botInlineMessageMediaInvoice](/API_docs/constructors/botInlineMessageMediaInvoice.md)  
+[botInlineMessageMediaInvoice](/API_docs/constructors/botInlineMessageMediaInvoice.html)  
 

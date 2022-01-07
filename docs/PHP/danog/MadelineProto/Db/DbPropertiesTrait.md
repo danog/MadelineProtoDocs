@@ -6,7 +6,7 @@ parent: "MadelineProto API"
 
 ---
 # `danog\MadelineProto\Db\DbPropertiesTrait`
-[Back to index](../../../index.md)
+[Back to index](../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
@@ -16,7 +16,7 @@ Include this trait and call DbPropertiesTrait::initDb to use MadelineProto's dat
 You will have to define a `$dbProperties` static array property, with a list of properties you want to store to a database.
 
 #### See also: 
-* [For a list of allowed property types](./DbPropertiesFactory.md)
+* [For a list of allowed property types](./DbPropertiesFactory.html)
 
 
 

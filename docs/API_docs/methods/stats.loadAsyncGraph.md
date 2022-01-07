@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/stats_loadAsyncGraph.html
 ---
 # Method: stats.loadAsyncGraph
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Load [channel statistics graph](https://core.telegram.org/api/stats) asynchronou
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|token|[string](/API_docs/types/string.md) | Graph token from [statsGraphAsync](../constructors/statsGraphAsync.md) constructor | Yes|
-|x|[long](/API_docs/types/long.md) | Zoom value, if required | Optional|
+|token|[string](/API_docs/types/string.html) | Graph token from [statsGraphAsync](../constructors/statsGraphAsync.html) constructor | Yes|
+|x|[long](/API_docs/types/long.html) | Zoom value, if required | Optional|
 
 
-### Return type: [StatsGraph](/API_docs/types/StatsGraph.md)
+### Return type: [StatsGraph](/API_docs/types/StatsGraph.html)
 
 ### Can bots use this method: **NO**
 

@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_messageReactionsList.html
 ---
 # Constructor: messages.messageReactionsList  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -14,14 +14,14 @@ redirect_from: /API_docs/constructors/messages_messageReactionsList.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|count|[int](/API_docs/types/int.md) | Yes|
-|reactions|Array of [MessageUserReaction](/API_docs/types/MessageUserReaction.md) | Yes|
-|users|Array of [User](/API_docs/types/User.md) | Yes|
-|next\_offset|[string](/API_docs/types/string.md) | Optional|
+|count|[int](/API_docs/types/int.html) | Yes|
+|reactions|Array of [MessageUserReaction](/API_docs/types/MessageUserReaction.html) | Yes|
+|users|Array of [User](/API_docs/types/User.html) | Yes|
+|next\_offset|[string](/API_docs/types/string.html) | Optional|
 
 
 
-### Type: [messages.MessageReactionsList](/API_docs/types/messages.MessageReactionsList.md)
+### Type: [messages.MessageReactionsList](/API_docs/types/messages.MessageReactionsList.html)
 
 
 ### Example:

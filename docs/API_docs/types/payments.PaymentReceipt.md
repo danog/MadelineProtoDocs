@@ -6,23 +6,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/payments_PaymentReceipt.html
 ---
 # Type: payments.PaymentReceipt
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[payments.paymentReceipt](/API_docs/constructors/payments.paymentReceipt.md)  
+[payments.paymentReceipt](/API_docs/constructors/payments.paymentReceipt.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->payments->getPaymentReceipt](/API_docs/methods/payments.getPaymentReceipt.md)  
+[$MadelineProto->payments->getPaymentReceipt](/API_docs/methods/payments.getPaymentReceipt.html)  
 
 
 
-[payments.paymentReceipt](/API_docs/constructors/payments.paymentReceipt.md)  
+[payments.paymentReceipt](/API_docs/constructors/payments.paymentReceipt.html)  
 
-[$MadelineProto->payments->getPaymentReceipt](/API_docs/methods/payments.getPaymentReceipt.md)  
+[$MadelineProto->payments->getPaymentReceipt](/API_docs/methods/payments.getPaymentReceipt.html)  
 

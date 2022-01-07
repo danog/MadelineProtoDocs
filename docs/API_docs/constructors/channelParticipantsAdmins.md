@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantsAdmins  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -14,7 +14,7 @@ Fetch only admin participants
 
 
 
-### Type: [ChannelParticipantsFilter](/API_docs/types/ChannelParticipantsFilter.md)
+### Type: [ChannelParticipantsFilter](/API_docs/types/ChannelParticipantsFilter.html)
 
 
 ### Example:

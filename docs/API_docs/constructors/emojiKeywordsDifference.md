@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: emojiKeywordsDifference  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,14 +15,14 @@ Changes to emoji keywords
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|lang\_code|[string](/API_docs/types/string.md) | Yes|Language code for keywords|
-|from\_version|[int](/API_docs/types/int.md) | Yes|Previous emoji keyword list version|
-|version|[int](/API_docs/types/int.md) | Yes|Current version of emoji keyword list|
-|keywords|Array of [EmojiKeyword](/API_docs/types/EmojiKeyword.md) | Yes|Emojis associated to keywords|
+|lang\_code|[string](/API_docs/types/string.html) | Yes|Language code for keywords|
+|from\_version|[int](/API_docs/types/int.html) | Yes|Previous emoji keyword list version|
+|version|[int](/API_docs/types/int.html) | Yes|Current version of emoji keyword list|
+|keywords|Array of [EmojiKeyword](/API_docs/types/EmojiKeyword.html) | Yes|Emojis associated to keywords|
 
 
 
-### Type: [EmojiKeywordsDifference](/API_docs/types/EmojiKeywordsDifference.md)
+### Type: [EmojiKeywordsDifference](/API_docs/types/EmojiKeywordsDifference.html)
 
 
 ### Example:

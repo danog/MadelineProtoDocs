@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getEmojiKeywordsLanguages.html
 ---
 # Method: messages.getEmojiKeywordsLanguages
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Get info about an emoji keyword localization
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|lang\_codes|Array of [string](/API_docs/types/string.md) | Language codes | Yes|
+|lang\_codes|Array of [string](/API_docs/types/string.html) | Language codes | Yes|
 
 
-### Return type: [Vector\_of\_EmojiLanguage](/API_docs/types/EmojiLanguage.md)
+### Return type: [Vector\_of\_EmojiLanguage](/API_docs/types/EmojiLanguage.html)
 
 ### Can bots use this method: **NO**
 

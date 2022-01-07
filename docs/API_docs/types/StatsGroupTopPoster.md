@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: StatsGroupTopPoster
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[statsGroupTopPoster](/API_docs/constructors/statsGroupTopPoster.md)  
+[statsGroupTopPoster](/API_docs/constructors/statsGroupTopPoster.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[statsGroupTopPoster](/API_docs/constructors/statsGroupTopPoster.md)  
+[statsGroupTopPoster](/API_docs/constructors/statsGroupTopPoster.html)  
 

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getEmojiKeywordsDifference.html
 ---
 # Method: messages.getEmojiKeywordsDifference
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Get changed emoji keywords
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|lang\_code|[string](/API_docs/types/string.md) | Language code | Yes|
-|from\_version|[int](/API_docs/types/int.md) | Previous emoji keyword localization version | Yes|
+|lang\_code|[string](/API_docs/types/string.html) | Language code | Yes|
+|from\_version|[int](/API_docs/types/int.html) | Previous emoji keyword localization version | Yes|
 
 
-### Return type: [EmojiKeywordsDifference](/API_docs/types/EmojiKeywordsDifference.md)
+### Return type: [EmojiKeywordsDifference](/API_docs/types/EmojiKeywordsDifference.html)
 
 ### Can bots use this method: **NO**
 

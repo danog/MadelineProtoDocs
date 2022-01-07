@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/phone_discardCall.html
 ---
 # Method: phone.discardCall
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,14 +17,14 @@ You cannot use this method directly, see https://docs.madelineproto.xyz#calls fo
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|video|[Bool](/API_docs/types/Bool.md) | Whether this is a video call | Optional|
-|peer|[InputPhoneCall](/API_docs/types/InputPhoneCall.md) | The phone call | Yes|
-|duration|[int](/API_docs/types/int.md) | Call duration | Yes|
-|reason|[PhoneCallDiscardReason](/API_docs/types/PhoneCallDiscardReason.md) | Why was the call discarded | Yes|
-|connection\_id|[long](/API_docs/types/long.md) | Preferred libtgvoip relay ID | Yes|
+|video|[Bool](/API_docs/types/Bool.html) | Whether this is a video call | Optional|
+|peer|[InputPhoneCall](/API_docs/types/InputPhoneCall.html) | The phone call | Yes|
+|duration|[int](/API_docs/types/int.html) | Call duration | Yes|
+|reason|[PhoneCallDiscardReason](/API_docs/types/PhoneCallDiscardReason.html) | Why was the call discarded | Yes|
+|connection\_id|[long](/API_docs/types/long.html) | Preferred libtgvoip relay ID | Yes|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **NO**
 

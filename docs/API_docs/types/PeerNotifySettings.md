@@ -5,23 +5,23 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: PeerNotifySettings
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[peerNotifySettings](/API_docs/constructors/peerNotifySettings.md)  
+[peerNotifySettings](/API_docs/constructors/peerNotifySettings.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->getNotifySettings](/API_docs/methods/account.getNotifySettings.md)  
+[$MadelineProto->account->getNotifySettings](/API_docs/methods/account.getNotifySettings.html)  
 
 
 
-[peerNotifySettings](/API_docs/constructors/peerNotifySettings.md)  
+[peerNotifySettings](/API_docs/constructors/peerNotifySettings.html)  
 
-[$MadelineProto->account->getNotifySettings](/API_docs/methods/account.getNotifySettings.md)  
+[$MadelineProto->account->getNotifySettings](/API_docs/methods/account.getNotifySettings.html)  
 

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_sendVerifyPhoneCode.html
 ---
 # Method: account.sendVerifyPhoneCode
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Send the verification phone code for telegram [passport](https://core.telegram.o
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](/API_docs/types/string.md) | The phone number to verify | Yes|
-|settings|[CodeSettings](/API_docs/types/CodeSettings.md) | Phone code settings | Yes|
+|phone\_number|[string](/API_docs/types/string.html) | The phone number to verify | Yes|
+|settings|[CodeSettings](/API_docs/types/CodeSettings.html) | Phone code settings | Yes|
 
 
-### Return type: [auth.SentCode](/API_docs/types/auth.SentCode.md)
+### Return type: [auth.SentCode](/API_docs/types/auth.SentCode.html)
 
 ### Can bots use this method: **NO**
 

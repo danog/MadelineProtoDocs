@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateShort  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ Shortened constructor containing info on one update not requiring auxiliary data
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|update|[Update](/API_docs/types/Update.md) | Yes|Update|
-|date|[int](/API_docs/types/int.md) | Yes|Date of event|
+|update|[Update](/API_docs/types/Update.html) | Yes|Update|
+|date|[int](/API_docs/types/int.html) | Yes|Date of event|
 
 
 
-### Type: [Updates](/API_docs/types/Updates.md)
+### Type: [Updates](/API_docs/types/Updates.html)
 
 
 ### Example:

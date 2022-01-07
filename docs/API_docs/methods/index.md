@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 # What do you want to do?  
 [Go back to API documentation index](..)  
 
-[Go to the old code-version method index](api_index.md)  
+[Go to the old code-version method index](api_index.html)  
 
 * [Logout](https://docs.madelineproto.xyz/logout.html)
 

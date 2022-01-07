@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageTableRow  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,11 +15,11 @@ Table row
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|cells|Array of [PageTableCell](/API_docs/types/PageTableCell.md) | Yes|Table cells|
+|cells|Array of [PageTableCell](/API_docs/types/PageTableCell.html) | Yes|Table cells|
 
 
 
-### Type: [PageTableRow](/API_docs/types/PageTableRow.md)
+### Type: [PageTableRow](/API_docs/types/PageTableRow.html)
 
 
 ### Example:

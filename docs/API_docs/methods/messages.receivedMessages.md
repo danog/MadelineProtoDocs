@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_receivedMessages.html
 ---
 # Method: messages.receivedMessages
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Confirms receipt of messages by a client, cancels PUSH-notification sending.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|max\_id|[int](/API_docs/types/int.md) | Maximum message ID available in a client. | Yes|
+|max\_id|[int](/API_docs/types/int.html) | Maximum message ID available in a client. | Yes|
 
 
-### Return type: [Vector\_of\_ReceivedNotifyMessage](/API_docs/types/ReceivedNotifyMessage.md)
+### Return type: [Vector\_of\_ReceivedNotifyMessage](/API_docs/types/ReceivedNotifyMessage.html)
 
 ### Can bots use this method: **NO**
 

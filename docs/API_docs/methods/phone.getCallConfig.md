@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/phone_getCallConfig.html
 ---
 # Method: phone.getCallConfig
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ Get phone call configuration to be passed to libtgvoip's shared config
 
 
 
-### Return type: [DataJSON](/API_docs/types/DataJSON.md)
+### Return type: [DataJSON](/API_docs/types/DataJSON.html)
 
 ### Can bots use this method: **NO**
 

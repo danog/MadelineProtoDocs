@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_readDiscussion.html
 ---
 # Method: messages.readDiscussion
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Mark a [thread](https://core.telegram.org/api/threads) as read
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Group ID | Optional|
-|msg\_id|[int](/API_docs/types/int.md) | ID of message that started the thread | Yes|
-|read\_max\_id|[int](/API_docs/types/int.md) | ID up to which thread messages were read | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Group ID | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | ID of message that started the thread | Yes|
+|read\_max\_id|[int](/API_docs/types/int.html) | ID up to which thread messages were read | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

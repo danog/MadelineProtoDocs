@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/updates_channelDifferenceEmpty.html
 ---
 # Constructor: updates.channelDifferenceEmpty  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,13 +16,13 @@ There are no new updates
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|final|[Bool](/API_docs/types/Bool.md) | Optional|Whether there are more updates that must be fetched (always false)|
-|pts|[int](/API_docs/types/int.md) | Yes|The latest [PTS](https://core.telegram.org/api/updates)|
-|timeout|[int](/API_docs/types/int.md) | Optional|Clients are supposed to refetch the channel difference after timeout seconds have elapsed|
+|final|[Bool](/API_docs/types/Bool.html) | Optional|Whether there are more updates that must be fetched (always false)|
+|pts|[int](/API_docs/types/int.html) | Yes|The latest [PTS](https://core.telegram.org/api/updates)|
+|timeout|[int](/API_docs/types/int.html) | Optional|Clients are supposed to refetch the channel difference after timeout seconds have elapsed|
 
 
 
-### Type: [updates.ChannelDifference](/API_docs/types/updates.ChannelDifference.md)
+### Type: [updates.ChannelDifference](/API_docs/types/updates.ChannelDifference.html)
 
 
 ### Example:

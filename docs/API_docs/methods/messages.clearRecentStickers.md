@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_clearRecentStickers.html
 ---
 # Method: messages.clearRecentStickers
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Clear recent stickers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|attached|[Bool](/API_docs/types/Bool.md) | Set this flag to clear the list of stickers recently attached to photo or video files | Optional|
+|attached|[Bool](/API_docs/types/Bool.html) | Set this flag to clear the list of stickers recently attached to photo or video files | Optional|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

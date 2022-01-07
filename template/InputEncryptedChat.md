@@ -1,4 +1,4 @@
-You can directly provide the [Update](Update.md) or [EncryptedMessage](EncryptedMessage.md) object here, MadelineProto will automatically extract the destination chat id.
+You can directly provide the [Update](Update.html) or [EncryptedMessage](EncryptedMessage.html) object here, MadelineProto will automatically extract the destination chat id.
 
 The following syntax can also be used:
 

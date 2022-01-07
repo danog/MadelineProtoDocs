@@ -6,7 +6,7 @@ parent: "MadelineProto API"
 
 ---
 # `danog\MadelineProto\Db\MysqlArray`
-[Back to index](../../../index.md)
+[Back to index](../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
@@ -51,7 +51,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Database\Mysql`: MySQL backend settings.](../Settings/Database/Mysql.md)
+* [`\danog\MadelineProto\Settings\Database\Mysql`: MySQL backend settings.](../Settings/Database/Mysql.html)
 * `\Generator`
 
 
@@ -143,8 +143,8 @@ Fully typed return value:
 \Amp\Promise<static>
 ```
 #### See also: 
-* [`\danog\MadelineProto\Db\DbArray`: DB array interface.](./DbArray.md)
-* [`\danog\MadelineProto\Settings\Database\DatabaseAbstract`: Base class for database backends.](../Settings/Database/DatabaseAbstract.md)
+* [`\danog\MadelineProto\Db\DbArray`: DB array interface.](./DbArray.html)
+* [`\danog\MadelineProto\Settings\Database\DatabaseAbstract`: Base class for database backends.](../Settings/Database/DatabaseAbstract.html)
 * `\Amp\Promise`
 
 

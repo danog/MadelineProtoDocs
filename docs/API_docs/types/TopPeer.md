@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: TopPeer
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[topPeer](/API_docs/constructors/topPeer.md)  
+[topPeer](/API_docs/constructors/topPeer.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[topPeer](/API_docs/constructors/topPeer.md)  
+[topPeer](/API_docs/constructors/topPeer.html)  
 

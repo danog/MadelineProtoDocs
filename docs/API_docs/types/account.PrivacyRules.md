@@ -6,27 +6,27 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/account_PrivacyRules.html
 ---
 # Type: account.PrivacyRules
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[account.privacyRules](/API_docs/constructors/account.privacyRules.md)  
+[account.privacyRules](/API_docs/constructors/account.privacyRules.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->getPrivacy](/API_docs/methods/account.getPrivacy.md)  
+[$MadelineProto->account->getPrivacy](/API_docs/methods/account.getPrivacy.html)  
 
-[$MadelineProto->account->setPrivacy](/API_docs/methods/account.setPrivacy.md)  
+[$MadelineProto->account->setPrivacy](/API_docs/methods/account.setPrivacy.html)  
 
 
 
-[account.privacyRules](/API_docs/constructors/account.privacyRules.md)  
+[account.privacyRules](/API_docs/constructors/account.privacyRules.html)  
 
-[$MadelineProto->account->getPrivacy](/API_docs/methods/account.getPrivacy.md)  
+[$MadelineProto->account->getPrivacy](/API_docs/methods/account.getPrivacy.html)  
 
-[$MadelineProto->account->setPrivacy](/API_docs/methods/account.setPrivacy.md)  
+[$MadelineProto->account->setPrivacy](/API_docs/methods/account.setPrivacy.html)  
 

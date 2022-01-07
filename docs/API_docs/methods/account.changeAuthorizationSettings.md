@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_changeAuthorizationSettings.html
 ---
 # Method: account.changeAuthorizationSettings
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,12 +15,12 @@ redirect_from: /API_docs/methods/account_changeAuthorizationSettings.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|hash|[long](/API_docs/types/long.md) | Yes|
-|encrypted\_requests\_disabled|[Bool](/API_docs/types/Bool.md) | Optional|
-|call\_requests\_disabled|[Bool](/API_docs/types/Bool.md) | Optional|
+|hash|[long](/API_docs/types/long.html) | Yes|
+|encrypted\_requests\_disabled|[Bool](/API_docs/types/Bool.html) | Optional|
+|call\_requests\_disabled|[Bool](/API_docs/types/Bool.html) | Optional|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **YES**
 

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getPassportConfig.html
 ---
 # Method: help.getPassportConfig
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Get [passport](https://core.telegram.org/passport) configuration
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [int](/API_docs/types/int.md) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [int](/API_docs/types/int.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
-### Return type: [help.PassportConfig](/API_docs/types/help.PassportConfig.md)
+### Return type: [help.PassportConfig](/API_docs/types/help.PassportConfig.html)
 
 ### Can bots use this method: **NO**
 

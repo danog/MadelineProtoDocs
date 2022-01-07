@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipant  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ Channel/supergroup participant
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.md) | Yes|
-|date|[int](/API_docs/types/int.md) | Yes|Date joined|
+|user\_id|[long](/API_docs/types/long.html) | Yes|
+|date|[int](/API_docs/types/int.html) | Yes|Date joined|
 
 
 
-### Type: [ChannelParticipant](/API_docs/types/ChannelParticipant.md)
+### Type: [ChannelParticipant](/API_docs/types/ChannelParticipant.html)
 
 
 ### Example:

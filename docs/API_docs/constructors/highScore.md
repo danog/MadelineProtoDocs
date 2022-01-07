@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: highScore  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,13 +15,13 @@ Game highscore
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|pos|[int](/API_docs/types/int.md) | Yes|Position in highscore list|
-|user\_id|[long](/API_docs/types/long.md) | Yes|
-|score|[int](/API_docs/types/int.md) | Yes|Score|
+|pos|[int](/API_docs/types/int.html) | Yes|Position in highscore list|
+|user\_id|[long](/API_docs/types/long.html) | Yes|
+|score|[int](/API_docs/types/int.html) | Yes|Score|
 
 
 
-### Type: [HighScore](/API_docs/types/HighScore.md)
+### Type: [HighScore](/API_docs/types/HighScore.html)
 
 
 ### Example:

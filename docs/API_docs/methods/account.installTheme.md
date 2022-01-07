@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_installTheme.html
 ---
 # Method: account.installTheme
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,13 +17,13 @@ Install a theme
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|dark|[Bool](/API_docs/types/Bool.md) | Whether to install the dark version | Optional|
-|theme|[InputTheme](/API_docs/types/InputTheme.md) | Theme to install | Optional|
-|format|[string](/API_docs/types/string.md) | Theme format, a string that identifies the theming engines supported by the client | Optional|
-|base\_theme|[BaseTheme](/API_docs/types/BaseTheme.md) |  | Optional|
+|dark|[Bool](/API_docs/types/Bool.html) | Whether to install the dark version | Optional|
+|theme|[InputTheme](/API_docs/types/InputTheme.html) | Theme to install | Optional|
+|format|[string](/API_docs/types/string.html) | Theme format, a string that identifies the theming engines supported by the client | Optional|
+|base\_theme|[BaseTheme](/API_docs/types/BaseTheme.html) |  | Optional|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

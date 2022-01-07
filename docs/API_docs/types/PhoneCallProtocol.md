@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: PhoneCallProtocol
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[phoneCallProtocol](/API_docs/constructors/phoneCallProtocol.md)  
+[phoneCallProtocol](/API_docs/constructors/phoneCallProtocol.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[phoneCallProtocol](/API_docs/constructors/phoneCallProtocol.md)  
+[phoneCallProtocol](/API_docs/constructors/phoneCallProtocol.html)  
 

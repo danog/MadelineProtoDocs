@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: SecureValueHash
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[secureValueHash](/API_docs/constructors/secureValueHash.md)  
+[secureValueHash](/API_docs/constructors/secureValueHash.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[secureValueHash](/API_docs/constructors/secureValueHash.md)  
+[secureValueHash](/API_docs/constructors/secureValueHash.html)  
 

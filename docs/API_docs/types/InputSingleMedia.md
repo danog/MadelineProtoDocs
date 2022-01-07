@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputSingleMedia
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inputSingleMedia](/API_docs/constructors/inputSingleMedia.md)  
+[inputSingleMedia](/API_docs/constructors/inputSingleMedia.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputSingleMedia](/API_docs/constructors/inputSingleMedia.md)  
+[inputSingleMedia](/API_docs/constructors/inputSingleMedia.html)  
 

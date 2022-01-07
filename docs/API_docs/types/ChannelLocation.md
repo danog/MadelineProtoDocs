@@ -5,15 +5,15 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: ChannelLocation
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[channelLocationEmpty](/API_docs/constructors/channelLocationEmpty.md)  
+[channelLocationEmpty](/API_docs/constructors/channelLocationEmpty.html)  
 
-[channelLocation](/API_docs/constructors/channelLocation.md)  
+[channelLocation](/API_docs/constructors/channelLocation.html)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[channelLocationEmpty](/API_docs/constructors/channelLocationEmpty.md)  
+[channelLocationEmpty](/API_docs/constructors/channelLocationEmpty.html)  
 
-[channelLocation](/API_docs/constructors/channelLocation.md)  
+[channelLocation](/API_docs/constructors/channelLocation.html)  
 

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_setContactSignUpNotification.html
 ---
 # Method: account.setContactSignUpNotification
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Toggle contact sign up notifications
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|silent|[Bool](/API_docs/types/Bool.md) | Whether to disable contact sign up notifications | Yes|
+|silent|[Bool](/API_docs/types/Bool.html) | Whether to disable contact sign up notifications | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

@@ -5,37 +5,37 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: SecureValueType
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[secureValueTypePersonalDetails](/API_docs/constructors/secureValueTypePersonalDetails.md)  
+[secureValueTypePersonalDetails](/API_docs/constructors/secureValueTypePersonalDetails.html)  
 
-[secureValueTypePassport](/API_docs/constructors/secureValueTypePassport.md)  
+[secureValueTypePassport](/API_docs/constructors/secureValueTypePassport.html)  
 
-[secureValueTypeDriverLicense](/API_docs/constructors/secureValueTypeDriverLicense.md)  
+[secureValueTypeDriverLicense](/API_docs/constructors/secureValueTypeDriverLicense.html)  
 
-[secureValueTypeIdentityCard](/API_docs/constructors/secureValueTypeIdentityCard.md)  
+[secureValueTypeIdentityCard](/API_docs/constructors/secureValueTypeIdentityCard.html)  
 
-[secureValueTypeInternalPassport](/API_docs/constructors/secureValueTypeInternalPassport.md)  
+[secureValueTypeInternalPassport](/API_docs/constructors/secureValueTypeInternalPassport.html)  
 
-[secureValueTypeAddress](/API_docs/constructors/secureValueTypeAddress.md)  
+[secureValueTypeAddress](/API_docs/constructors/secureValueTypeAddress.html)  
 
-[secureValueTypeUtilityBill](/API_docs/constructors/secureValueTypeUtilityBill.md)  
+[secureValueTypeUtilityBill](/API_docs/constructors/secureValueTypeUtilityBill.html)  
 
-[secureValueTypeBankStatement](/API_docs/constructors/secureValueTypeBankStatement.md)  
+[secureValueTypeBankStatement](/API_docs/constructors/secureValueTypeBankStatement.html)  
 
-[secureValueTypeRentalAgreement](/API_docs/constructors/secureValueTypeRentalAgreement.md)  
+[secureValueTypeRentalAgreement](/API_docs/constructors/secureValueTypeRentalAgreement.html)  
 
-[secureValueTypePassportRegistration](/API_docs/constructors/secureValueTypePassportRegistration.md)  
+[secureValueTypePassportRegistration](/API_docs/constructors/secureValueTypePassportRegistration.html)  
 
-[secureValueTypeTemporaryRegistration](/API_docs/constructors/secureValueTypeTemporaryRegistration.md)  
+[secureValueTypeTemporaryRegistration](/API_docs/constructors/secureValueTypeTemporaryRegistration.html)  
 
-[secureValueTypePhone](/API_docs/constructors/secureValueTypePhone.md)  
+[secureValueTypePhone](/API_docs/constructors/secureValueTypePhone.html)  
 
-[secureValueTypeEmail](/API_docs/constructors/secureValueTypeEmail.md)  
+[secureValueTypeEmail](/API_docs/constructors/secureValueTypeEmail.html)  
 
 
 
@@ -43,29 +43,29 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[secureValueTypePersonalDetails](/API_docs/constructors/secureValueTypePersonalDetails.md)  
+[secureValueTypePersonalDetails](/API_docs/constructors/secureValueTypePersonalDetails.html)  
 
-[secureValueTypePassport](/API_docs/constructors/secureValueTypePassport.md)  
+[secureValueTypePassport](/API_docs/constructors/secureValueTypePassport.html)  
 
-[secureValueTypeDriverLicense](/API_docs/constructors/secureValueTypeDriverLicense.md)  
+[secureValueTypeDriverLicense](/API_docs/constructors/secureValueTypeDriverLicense.html)  
 
-[secureValueTypeIdentityCard](/API_docs/constructors/secureValueTypeIdentityCard.md)  
+[secureValueTypeIdentityCard](/API_docs/constructors/secureValueTypeIdentityCard.html)  
 
-[secureValueTypeInternalPassport](/API_docs/constructors/secureValueTypeInternalPassport.md)  
+[secureValueTypeInternalPassport](/API_docs/constructors/secureValueTypeInternalPassport.html)  
 
-[secureValueTypeAddress](/API_docs/constructors/secureValueTypeAddress.md)  
+[secureValueTypeAddress](/API_docs/constructors/secureValueTypeAddress.html)  
 
-[secureValueTypeUtilityBill](/API_docs/constructors/secureValueTypeUtilityBill.md)  
+[secureValueTypeUtilityBill](/API_docs/constructors/secureValueTypeUtilityBill.html)  
 
-[secureValueTypeBankStatement](/API_docs/constructors/secureValueTypeBankStatement.md)  
+[secureValueTypeBankStatement](/API_docs/constructors/secureValueTypeBankStatement.html)  
 
-[secureValueTypeRentalAgreement](/API_docs/constructors/secureValueTypeRentalAgreement.md)  
+[secureValueTypeRentalAgreement](/API_docs/constructors/secureValueTypeRentalAgreement.html)  
 
-[secureValueTypePassportRegistration](/API_docs/constructors/secureValueTypePassportRegistration.md)  
+[secureValueTypePassportRegistration](/API_docs/constructors/secureValueTypePassportRegistration.html)  
 
-[secureValueTypeTemporaryRegistration](/API_docs/constructors/secureValueTypeTemporaryRegistration.md)  
+[secureValueTypeTemporaryRegistration](/API_docs/constructors/secureValueTypeTemporaryRegistration.html)  
 
-[secureValueTypePhone](/API_docs/constructors/secureValueTypePhone.md)  
+[secureValueTypePhone](/API_docs/constructors/secureValueTypePhone.html)  
 
-[secureValueTypeEmail](/API_docs/constructors/secureValueTypeEmail.md)  
+[secureValueTypeEmail](/API_docs/constructors/secureValueTypeEmail.html)  
 

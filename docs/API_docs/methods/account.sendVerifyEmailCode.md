@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_sendVerifyEmailCode.html
 ---
 # Method: account.sendVerifyEmailCode
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Send the verification email code for telegram [passport](https://core.telegram.o
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|email|[string](/API_docs/types/string.md) | The email where to send the code | Yes|
+|email|[string](/API_docs/types/string.html) | The email where to send the code | Yes|
 
 
-### Return type: [account.SentEmailCode](/API_docs/types/account.SentEmailCode.md)
+### Return type: [account.SentEmailCode](/API_docs/types/account.SentEmailCode.html)
 
 ### Can bots use this method: **NO**
 

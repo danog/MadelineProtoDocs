@@ -5,15 +5,15 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: SecureRequiredType
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[secureRequiredType](/API_docs/constructors/secureRequiredType.md)  
+[secureRequiredType](/API_docs/constructors/secureRequiredType.html)  
 
-[secureRequiredTypeOneOf](/API_docs/constructors/secureRequiredTypeOneOf.md)  
+[secureRequiredTypeOneOf](/API_docs/constructors/secureRequiredTypeOneOf.html)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[secureRequiredType](/API_docs/constructors/secureRequiredType.md)  
+[secureRequiredType](/API_docs/constructors/secureRequiredType.html)  
 
-[secureRequiredTypeOneOf](/API_docs/constructors/secureRequiredTypeOneOf.md)  
+[secureRequiredTypeOneOf](/API_docs/constructors/secureRequiredTypeOneOf.html)  
 

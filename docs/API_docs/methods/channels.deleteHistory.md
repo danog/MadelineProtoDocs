@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_deleteHistory.html
 ---
 # Method: channels.deleteHistory
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Delete the history of a [supergroup](https://core.telegram.org/api/channel)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | [Supergroup](https://core.telegram.org/api/channel) whose history must be deleted | Optional|
-|max\_id|[int](/API_docs/types/int.md) | ID of message **up to which** the history must be deleted | Yes|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | [Supergroup](https://core.telegram.org/api/channel) whose history must be deleted | Optional|
+|max\_id|[int](/API_docs/types/int.html) | ID of message **up to which** the history must be deleted | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

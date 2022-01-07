@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: peerUser  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,11 +15,11 @@ Chat partner
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.md) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|
 
 
 
-### Type: [Peer](/API_docs/types/Peer.md)
+### Type: [Peer](/API_docs/types/Peer.html)
 
 
 ### Example:

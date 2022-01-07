@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getMessages.html
 ---
 # Method: messages.getMessages
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Returns the list of messages by their IDs.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|Array of [Message ID or InputMessage](/API_docs/types/InputMessage.md) | Message ID list | Yes|
+|id|Array of [Message ID or InputMessage](/API_docs/types/InputMessage.html) | Message ID list | Yes|
 
 
-### Return type: [messages.Messages](/API_docs/types/messages.Messages.md)
+### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)
 
 ### Can bots use this method: **YES**
 

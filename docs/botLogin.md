@@ -14,7 +14,7 @@ redirect_from: /bot_login.html
 |----------|---------------|
 |token| A string with the bot token|
 
-### Return type: [auth.Authorization](API_docs/types/auth.Authorization.md)
+### Return type: [auth.Authorization](API_docs/types/auth.Authorization.html)
 
 ### Example ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 

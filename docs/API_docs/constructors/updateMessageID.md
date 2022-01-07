@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateMessageID  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,11 +15,11 @@ Sent message with **random\_id** client identifier was assigned an identifier.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](/API_docs/types/int.md) | Yes|**id** identifier of a respective [Message](../types/Message.md)|
+|id|[int](/API_docs/types/int.html) | Yes|**id** identifier of a respective [Message](../types/Message.html)|
 
 
 
-### Type: [Update](/API_docs/types/Update.md)
+### Type: [Update](/API_docs/types/Update.html)
 
 
 ### Example:

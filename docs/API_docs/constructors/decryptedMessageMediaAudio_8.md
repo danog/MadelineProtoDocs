@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaAudio\_8  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ Audio file attached to a secret chat message.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|duration|[int](/API_docs/types/int.md) | Yes|Audio duration in seconds|
-|size|[int](/API_docs/types/int.md) | Yes|File size|
+|duration|[int](/API_docs/types/int.html) | Yes|Audio duration in seconds|
+|size|[int](/API_docs/types/int.html) | Yes|File size|
 
 
 
-### Type: [DecryptedMessageMedia](/API_docs/types/DecryptedMessageMedia.md)
+### Type: [DecryptedMessageMedia](/API_docs/types/DecryptedMessageMedia.html)
 
 
 ### Example:

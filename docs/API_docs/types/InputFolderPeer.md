@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputFolderPeer
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inputFolderPeer](/API_docs/constructors/inputFolderPeer.md)  
+[inputFolderPeer](/API_docs/constructors/inputFolderPeer.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputFolderPeer](/API_docs/constructors/inputFolderPeer.md)  
+[inputFolderPeer](/API_docs/constructors/inputFolderPeer.html)  
 

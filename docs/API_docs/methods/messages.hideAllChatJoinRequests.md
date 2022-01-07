@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_hideAllChatJoinRequests.html
 ---
 # Method: messages.hideAllChatJoinRequests
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,12 +15,12 @@ redirect_from: /API_docs/methods/messages_hideAllChatJoinRequests.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|approved|[Bool](/API_docs/types/Bool.md) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
-|link|[string](/API_docs/types/string.md) | Optional|
+|approved|[Bool](/API_docs/types/Bool.html) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+|link|[string](/API_docs/types/string.html) | Optional|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **YES**
 

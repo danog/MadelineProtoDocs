@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/langpack_getLanguages.html
 ---
 # Method: langpack.getLanguages
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Get information about all languages in a localization pack
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|lang\_pack|[string](/API_docs/types/string.md) | Language pack | Yes|
+|lang\_pack|[string](/API_docs/types/string.html) | Language pack | Yes|
 
 
-### Return type: [Vector\_of\_LangPackLanguage](/API_docs/types/LangPackLanguage.md)
+### Return type: [Vector\_of\_LangPackLanguage](/API_docs/types/LangPackLanguage.html)
 
 ### Can bots use this method: **NO**
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputPaymentCredentialsApplePay  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,11 +15,11 @@ Apple pay payment credentials
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|payment\_data|[DataJSON](/API_docs/types/DataJSON.md) | Yes|Payment data|
+|payment\_data|[DataJSON](/API_docs/types/DataJSON.html) | Yes|Payment data|
 
 
 
-### Type: [InputPaymentCredentials](/API_docs/types/InputPaymentCredentials.md)
+### Type: [InputPaymentCredentials](/API_docs/types/InputPaymentCredentials.html)
 
 
 ### Example:

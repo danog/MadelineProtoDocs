@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_acceptLoginToken.html
 ---
 # Method: auth.acceptLoginToken
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -21,10 +21,10 @@ For more info, see [login via QR code](https://core.telegram.org/api/qr-login).
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|token|[bytes](/API_docs/types/bytes.md) | Login token embedded in QR code, for more info, see [login via QR code](https://core.telegram.org/api/qr-login). | Yes|
+|token|[bytes](/API_docs/types/bytes.html) | Login token embedded in QR code, for more info, see [login via QR code](https://core.telegram.org/api/qr-login). | Yes|
 
 
-### Return type: [Authorization](/API_docs/types/Authorization.md)
+### Return type: [Authorization](/API_docs/types/Authorization.html)
 
 ### Can bots use this method: **NO**
 

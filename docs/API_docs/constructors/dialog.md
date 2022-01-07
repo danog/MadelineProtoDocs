@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: dialog  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,22 +15,22 @@ Chat
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|pinned|[Bool](/API_docs/types/Bool.md) | Optional|Is the dialog pinned|
-|unread\_mark|[Bool](/API_docs/types/Bool.md) | Optional|Whether the chat was manually marked as unread|
-|peer|[Peer](/API_docs/types/Peer.md) | Yes|The chat|
-|top\_message|[int](/API_docs/types/int.md) | Yes|The latest message ID|
-|read\_inbox\_max\_id|[int](/API_docs/types/int.md) | Yes|Position up to which all incoming messages are read.|
-|read\_outbox\_max\_id|[int](/API_docs/types/int.md) | Yes|Position up to which all outgoing messages are read.|
-|unread\_count|[int](/API_docs/types/int.md) | Yes|Number of unread messages|
-|unread\_mentions\_count|[int](/API_docs/types/int.md) | Yes|Number of [unread mentions](https://core.telegram.org/api/mentions)|
-|notify\_settings|[PeerNotifySettings](/API_docs/types/PeerNotifySettings.md) | Yes|Notification settings|
-|pts|[int](/API_docs/types/int.md) | Optional|[PTS](https://core.telegram.org/api/updates)|
-|draft|[DraftMessage](/API_docs/types/DraftMessage.md) | Optional|Message draft|
-|folder\_id|[int](/API_docs/types/int.md) | Optional|[Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders)|
+|pinned|[Bool](/API_docs/types/Bool.html) | Optional|Is the dialog pinned|
+|unread\_mark|[Bool](/API_docs/types/Bool.html) | Optional|Whether the chat was manually marked as unread|
+|peer|[Peer](/API_docs/types/Peer.html) | Yes|The chat|
+|top\_message|[int](/API_docs/types/int.html) | Yes|The latest message ID|
+|read\_inbox\_max\_id|[int](/API_docs/types/int.html) | Yes|Position up to which all incoming messages are read.|
+|read\_outbox\_max\_id|[int](/API_docs/types/int.html) | Yes|Position up to which all outgoing messages are read.|
+|unread\_count|[int](/API_docs/types/int.html) | Yes|Number of unread messages|
+|unread\_mentions\_count|[int](/API_docs/types/int.html) | Yes|Number of [unread mentions](https://core.telegram.org/api/mentions)|
+|notify\_settings|[PeerNotifySettings](/API_docs/types/PeerNotifySettings.html) | Yes|Notification settings|
+|pts|[int](/API_docs/types/int.html) | Optional|[PTS](https://core.telegram.org/api/updates)|
+|draft|[DraftMessage](/API_docs/types/DraftMessage.html) | Optional|Message draft|
+|folder\_id|[int](/API_docs/types/int.html) | Optional|[Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders)|
 
 
 
-### Type: [Dialog](/API_docs/types/Dialog.md)
+### Type: [Dialog](/API_docs/types/Dialog.html)
 
 
 ### Example:

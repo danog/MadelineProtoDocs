@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: encryptedChatEmpty  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,11 +15,11 @@ Empty constructor.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](/API_docs/types/int.md) | Yes|Chat ID|
+|id|[int](/API_docs/types/int.html) | Yes|Chat ID|
 
 
 
-### Type: [EncryptedChat](/API_docs/types/EncryptedChat.md)
+### Type: [EncryptedChat](/API_docs/types/EncryptedChat.html)
 
 
 ### Example:

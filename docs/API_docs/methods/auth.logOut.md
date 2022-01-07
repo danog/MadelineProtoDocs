@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_logOut.html
 ---
 # Method: auth.logOut
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ You cannot use this method directly, use the logout method instead (see https://
 
 
 
-### Return type: [auth.LoggedOut](/API_docs/types/auth.LoggedOut.md)
+### Return type: [auth.LoggedOut](/API_docs/types/auth.LoggedOut.html)
 
 ### Can bots use this method: **YES**
 

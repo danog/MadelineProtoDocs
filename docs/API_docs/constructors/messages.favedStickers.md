@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_favedStickers.html
 ---
 # Constructor: messages.favedStickers  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,13 +16,13 @@ Favorited stickers
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[long](/API_docs/types/long.md) | Yes|
-|packs|Array of [StickerPack](/API_docs/types/StickerPack.md) | Yes|Emojis associated to stickers|
-|stickers|Array of [Document](/API_docs/types/Document.md) | Yes|Favorited stickers|
+|hash|[long](/API_docs/types/long.html) | Yes|
+|packs|Array of [StickerPack](/API_docs/types/StickerPack.html) | Yes|Emojis associated to stickers|
+|stickers|Array of [Document](/API_docs/types/Document.html) | Yes|Favorited stickers|
 
 
 
-### Type: [messages.FavedStickers](/API_docs/types/messages.FavedStickers.md)
+### Type: [messages.FavedStickers](/API_docs/types/messages.FavedStickers.html)
 
 
 ### Example:

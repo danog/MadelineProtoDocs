@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_resolveUsername.html
 ---
 # Method: contacts.resolveUsername
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ You cannot use this method directly, use the resolveUsername, getPwrChat, getInf
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|username|[string](/API_docs/types/string.md) | @username to resolve | Yes|
+|username|[string](/API_docs/types/string.html) | @username to resolve | Yes|
 
 
-### Return type: [contacts.ResolvedPeer](/API_docs/types/contacts.ResolvedPeer.md)
+### Return type: [contacts.ResolvedPeer](/API_docs/types/contacts.ResolvedPeer.html)
 
 ### Can bots use this method: **YES**
 

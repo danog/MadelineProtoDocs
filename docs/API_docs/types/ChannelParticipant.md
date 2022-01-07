@@ -5,23 +5,23 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: ChannelParticipant
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[channelParticipant](/API_docs/constructors/channelParticipant.md)  
+[channelParticipant](/API_docs/constructors/channelParticipant.html)  
 
-[channelParticipantSelf](/API_docs/constructors/channelParticipantSelf.md)  
+[channelParticipantSelf](/API_docs/constructors/channelParticipantSelf.html)  
 
-[channelParticipantCreator](/API_docs/constructors/channelParticipantCreator.md)  
+[channelParticipantCreator](/API_docs/constructors/channelParticipantCreator.html)  
 
-[channelParticipantAdmin](/API_docs/constructors/channelParticipantAdmin.md)  
+[channelParticipantAdmin](/API_docs/constructors/channelParticipantAdmin.html)  
 
-[channelParticipantBanned](/API_docs/constructors/channelParticipantBanned.md)  
+[channelParticipantBanned](/API_docs/constructors/channelParticipantBanned.html)  
 
-[channelParticipantLeft](/API_docs/constructors/channelParticipantLeft.md)  
+[channelParticipantLeft](/API_docs/constructors/channelParticipantLeft.html)  
 
 
 
@@ -29,15 +29,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[channelParticipant](/API_docs/constructors/channelParticipant.md)  
+[channelParticipant](/API_docs/constructors/channelParticipant.html)  
 
-[channelParticipantSelf](/API_docs/constructors/channelParticipantSelf.md)  
+[channelParticipantSelf](/API_docs/constructors/channelParticipantSelf.html)  
 
-[channelParticipantCreator](/API_docs/constructors/channelParticipantCreator.md)  
+[channelParticipantCreator](/API_docs/constructors/channelParticipantCreator.html)  
 
-[channelParticipantAdmin](/API_docs/constructors/channelParticipantAdmin.md)  
+[channelParticipantAdmin](/API_docs/constructors/channelParticipantAdmin.html)  
 
-[channelParticipantBanned](/API_docs/constructors/channelParticipantBanned.md)  
+[channelParticipantBanned](/API_docs/constructors/channelParticipantBanned.html)  
 
-[channelParticipantLeft](/API_docs/constructors/channelParticipantLeft.md)  
+[channelParticipantLeft](/API_docs/constructors/channelParticipantLeft.html)  
 

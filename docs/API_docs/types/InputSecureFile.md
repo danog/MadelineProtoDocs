@@ -5,15 +5,15 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputSecureFile
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inputSecureFileUploaded](/API_docs/constructors/inputSecureFileUploaded.md)  
+[inputSecureFileUploaded](/API_docs/constructors/inputSecureFileUploaded.html)  
 
-[inputSecureFile](/API_docs/constructors/inputSecureFile.md)  
+[inputSecureFile](/API_docs/constructors/inputSecureFile.html)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputSecureFileUploaded](/API_docs/constructors/inputSecureFileUploaded.md)  
+[inputSecureFileUploaded](/API_docs/constructors/inputSecureFileUploaded.html)  
 
-[inputSecureFile](/API_docs/constructors/inputSecureFile.md)  
+[inputSecureFile](/API_docs/constructors/inputSecureFile.html)  
 

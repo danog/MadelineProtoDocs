@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: CdnPublicKey
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[cdnPublicKey](/API_docs/constructors/cdnPublicKey.md)  
+[cdnPublicKey](/API_docs/constructors/cdnPublicKey.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[cdnPublicKey](/API_docs/constructors/cdnPublicKey.md)  
+[cdnPublicKey](/API_docs/constructors/cdnPublicKey.html)  
 

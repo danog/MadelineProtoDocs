@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_updateTheme.html
 ---
 # Method: account.updateTheme
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,15 +17,15 @@ Update theme
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|format|[string](/API_docs/types/string.md) | Theme format, a string that identifies the theming engines supported by the client | Yes|
-|theme|[InputTheme](/API_docs/types/InputTheme.md) | Theme to update | Yes|
-|slug|[string](/API_docs/types/string.md) | Unique theme ID | Optional|
-|title|[string](/API_docs/types/string.md) | Theme name | Optional|
-|document|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.md) | Theme file | Optional|
-|settings|Array of [InputThemeSettings](/API_docs/types/InputThemeSettings.md) |  | Optional|
+|format|[string](/API_docs/types/string.html) | Theme format, a string that identifies the theming engines supported by the client | Yes|
+|theme|[InputTheme](/API_docs/types/InputTheme.html) | Theme to update | Yes|
+|slug|[string](/API_docs/types/string.html) | Unique theme ID | Optional|
+|title|[string](/API_docs/types/string.html) | Theme name | Optional|
+|document|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | Theme file | Optional|
+|settings|Array of [InputThemeSettings](/API_docs/types/InputThemeSettings.html) |  | Optional|
 
 
-### Return type: [Theme](/API_docs/types/Theme.md)
+### Return type: [Theme](/API_docs/types/Theme.html)
 
 ### Can bots use this method: **NO**
 

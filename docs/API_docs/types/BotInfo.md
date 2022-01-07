@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: BotInfo
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[botInfo](/API_docs/constructors/botInfo.md)  
+[botInfo](/API_docs/constructors/botInfo.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[botInfo](/API_docs/constructors/botInfo.md)  
+[botInfo](/API_docs/constructors/botInfo.html)  
 

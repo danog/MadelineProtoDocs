@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_createChat.html
 ---
 # Method: messages.createChat
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Creates a new chat.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|users|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | List of user IDs to be invited | Yes|
-|title|[string](/API_docs/types/string.md) | Chat name | Yes|
+|users|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | List of user IDs to be invited | Yes|
+|title|[string](/API_docs/types/string.html) | Chat name | Yes|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **NO**
 

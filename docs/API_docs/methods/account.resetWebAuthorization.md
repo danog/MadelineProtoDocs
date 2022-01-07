@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_resetWebAuthorization.html
 ---
 # Method: account.resetWebAuthorization
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Log out an active web [telegram login](https://core.telegram.org/widgets/login) 
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[long](/API_docs/types/long.md) | [Session](../constructors/webAuthorization.md) hash | Yes|
+|hash|[long](/API_docs/types/long.html) | [Session](../constructors/webAuthorization.html) hash | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

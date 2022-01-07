@@ -6,19 +6,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/auth_CodeType.html
 ---
 # Type: auth.CodeType
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[auth.codeTypeSms](/API_docs/constructors/auth.codeTypeSms.md)  
+[auth.codeTypeSms](/API_docs/constructors/auth.codeTypeSms.html)  
 
-[auth.codeTypeCall](/API_docs/constructors/auth.codeTypeCall.md)  
+[auth.codeTypeCall](/API_docs/constructors/auth.codeTypeCall.html)  
 
-[auth.codeTypeFlashCall](/API_docs/constructors/auth.codeTypeFlashCall.md)  
+[auth.codeTypeFlashCall](/API_docs/constructors/auth.codeTypeFlashCall.html)  
 
-[auth.codeTypeMissedCall](/API_docs/constructors/auth.codeTypeMissedCall.md)  
+[auth.codeTypeMissedCall](/API_docs/constructors/auth.codeTypeMissedCall.html)  
 
 
 
@@ -26,11 +26,11 @@ redirect_from: /API_docs/types/auth_CodeType.html
 
 
 
-[auth.codeTypeSms](/API_docs/constructors/auth.codeTypeSms.md)  
+[auth.codeTypeSms](/API_docs/constructors/auth.codeTypeSms.html)  
 
-[auth.codeTypeCall](/API_docs/constructors/auth.codeTypeCall.md)  
+[auth.codeTypeCall](/API_docs/constructors/auth.codeTypeCall.html)  
 
-[auth.codeTypeFlashCall](/API_docs/constructors/auth.codeTypeFlashCall.md)  
+[auth.codeTypeFlashCall](/API_docs/constructors/auth.codeTypeFlashCall.html)  
 
-[auth.codeTypeMissedCall](/API_docs/constructors/auth.codeTypeMissedCall.md)  
+[auth.codeTypeMissedCall](/API_docs/constructors/auth.codeTypeMissedCall.html)  
 

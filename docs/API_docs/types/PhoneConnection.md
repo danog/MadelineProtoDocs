@@ -5,15 +5,15 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: PhoneConnection
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[phoneConnection](/API_docs/constructors/phoneConnection.md)  
+[phoneConnection](/API_docs/constructors/phoneConnection.html)  
 
-[phoneConnectionWebrtc](/API_docs/constructors/phoneConnectionWebrtc.md)  
+[phoneConnectionWebrtc](/API_docs/constructors/phoneConnectionWebrtc.html)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[phoneConnection](/API_docs/constructors/phoneConnection.md)  
+[phoneConnection](/API_docs/constructors/phoneConnection.html)  
 
-[phoneConnectionWebrtc](/API_docs/constructors/phoneConnectionWebrtc.md)  
+[phoneConnectionWebrtc](/API_docs/constructors/phoneConnectionWebrtc.html)  
 

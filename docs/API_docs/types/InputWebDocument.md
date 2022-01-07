@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputWebDocument
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inputWebDocument](/API_docs/constructors/inputWebDocument.md)  
+[inputWebDocument](/API_docs/constructors/inputWebDocument.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputWebDocument](/API_docs/constructors/inputWebDocument.md)  
+[inputWebDocument](/API_docs/constructors/inputWebDocument.html)  
 

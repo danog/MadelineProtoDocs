@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/phone_setCallRating.html
 ---
 # Method: phone.setCallRating
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,13 +17,13 @@ Rate a call
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|user\_initiative|[Bool](/API_docs/types/Bool.md) | Whether the user decided on their own initiative to rate the call | Optional|
-|peer|[InputPhoneCall](/API_docs/types/InputPhoneCall.md) | The call to rate | Yes|
-|rating|[int](/API_docs/types/int.md) | Rating in `1-5` stars | Yes|
-|comment|[string](/API_docs/types/string.md) | An additional comment | Yes|
+|user\_initiative|[Bool](/API_docs/types/Bool.html) | Whether the user decided on their own initiative to rate the call | Optional|
+|peer|[InputPhoneCall](/API_docs/types/InputPhoneCall.html) | The call to rate | Yes|
+|rating|[int](/API_docs/types/int.html) | Rating in `1-5` stars | Yes|
+|comment|[string](/API_docs/types/string.html) | An additional comment | Yes|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **NO**
 

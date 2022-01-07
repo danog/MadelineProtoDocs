@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getAllStickers.html
 ---
 # Method: messages.getAllStickers
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Get all installed stickers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[long](/API_docs/types/long.md) |  | Yes|
+|hash|[long](/API_docs/types/long.html) |  | Yes|
 
 
-### Return type: [messages.AllStickers](/API_docs/types/messages.AllStickers.md)
+### Return type: [messages.AllStickers](/API_docs/types/messages.AllStickers.html)
 
 ### Can bots use this method: **NO**
 

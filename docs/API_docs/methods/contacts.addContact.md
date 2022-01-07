@@ -7,26 +7,26 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_addContact.html
 ---
 # Method: contacts.addContact
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
 Add an existing telegram user as contact.
 
-Use [contacts.importContacts](../methods/contacts.importContacts.md) to add contacts by phone number, without knowing their Telegram ID.
+Use [contacts.importContacts](../methods/contacts.importContacts.html) to add contacts by phone number, without knowing their Telegram ID.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|add\_phone\_privacy\_exception|[Bool](/API_docs/types/Bool.md) | Allow the other user to see our phone number? | Optional|
-|id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | Telegram ID of the other user | Optional|
-|first\_name|[string](/API_docs/types/string.md) | First name | Yes|
-|last\_name|[string](/API_docs/types/string.md) | Last name | Yes|
-|phone|[string](/API_docs/types/string.md) | User's phone number | Yes|
+|add\_phone\_privacy\_exception|[Bool](/API_docs/types/Bool.html) | Allow the other user to see our phone number? | Optional|
+|id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Telegram ID of the other user | Optional|
+|first\_name|[string](/API_docs/types/string.html) | First name | Yes|
+|last\_name|[string](/API_docs/types/string.html) | Last name | Yes|
+|phone|[string](/API_docs/types/string.html) | User's phone number | Yes|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **NO**
 

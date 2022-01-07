@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/upload_getWebFile.html
 ---
 # Method: upload.getWebFile
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Returns content of an HTTP file or a part, by proxying the request through teleg
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|location|[InputWebFileLocation](/API_docs/types/InputWebFileLocation.md) | The file to download | Yes|
-|offset|[int](/API_docs/types/int.md) | Number of bytes to be skipped | Yes|
-|limit|[int](/API_docs/types/int.md) | Number of bytes to be returned | Yes|
+|location|[InputWebFileLocation](/API_docs/types/InputWebFileLocation.html) | The file to download | Yes|
+|offset|[int](/API_docs/types/int.html) | Number of bytes to be skipped | Yes|
+|limit|[int](/API_docs/types/int.html) | Number of bytes to be returned | Yes|
 
 
-### Return type: [upload.WebFile](/API_docs/types/upload.WebFile.md)
+### Return type: [upload.WebFile](/API_docs/types/upload.WebFile.html)
 
 ### Can bots use this method: **NO**
 

@@ -5,31 +5,31 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: FileHash
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[fileHash](/API_docs/constructors/fileHash.md)  
+[fileHash](/API_docs/constructors/fileHash.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->upload->reuploadCdnFile](/API_docs/methods/upload.reuploadCdnFile.md)  
+[$MadelineProto->upload->reuploadCdnFile](/API_docs/methods/upload.reuploadCdnFile.html)  
 
-[$MadelineProto->upload->getCdnFileHashes](/API_docs/methods/upload.getCdnFileHashes.md)  
+[$MadelineProto->upload->getCdnFileHashes](/API_docs/methods/upload.getCdnFileHashes.html)  
 
-[$MadelineProto->upload->getFileHashes](/API_docs/methods/upload.getFileHashes.md)  
+[$MadelineProto->upload->getFileHashes](/API_docs/methods/upload.getFileHashes.html)  
 
 
 
-[fileHash](/API_docs/constructors/fileHash.md)  
+[fileHash](/API_docs/constructors/fileHash.html)  
 
-[$MadelineProto->upload->reuploadCdnFile](/API_docs/methods/upload.reuploadCdnFile.md)  
+[$MadelineProto->upload->reuploadCdnFile](/API_docs/methods/upload.reuploadCdnFile.html)  
 
-[$MadelineProto->upload->getCdnFileHashes](/API_docs/methods/upload.getCdnFileHashes.md)  
+[$MadelineProto->upload->getCdnFileHashes](/API_docs/methods/upload.getCdnFileHashes.html)  
 
-[$MadelineProto->upload->getFileHashes](/API_docs/methods/upload.getFileHashes.md)  
+[$MadelineProto->upload->getFileHashes](/API_docs/methods/upload.getFileHashes.html)  
 

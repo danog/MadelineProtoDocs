@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionGroupCall  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -13,12 +13,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.md) | Yes|
-|duration|[int](/API_docs/types/int.md) | Optional|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
+|duration|[int](/API_docs/types/int.html) | Optional|
 
 
 
-### Type: [MessageAction](/API_docs/types/MessageAction.md)
+### Type: [MessageAction](/API_docs/types/MessageAction.html)
 
 
 ### Example:

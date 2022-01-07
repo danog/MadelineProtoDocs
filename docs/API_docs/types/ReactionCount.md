@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: ReactionCount
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[reactionCount](/API_docs/constructors/reactionCount.md)  
+[reactionCount](/API_docs/constructors/reactionCount.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[reactionCount](/API_docs/constructors/reactionCount.md)  
+[reactionCount](/API_docs/constructors/reactionCount.html)  
 

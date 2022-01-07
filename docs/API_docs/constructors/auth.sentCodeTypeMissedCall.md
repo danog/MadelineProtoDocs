@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/auth_sentCodeTypeMissedCall.html
 ---
 # Constructor: auth.sentCodeTypeMissedCall  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -14,12 +14,12 @@ redirect_from: /API_docs/constructors/auth_sentCodeTypeMissedCall.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|prefix|[string](/API_docs/types/string.md) | Yes|
-|length|[int](/API_docs/types/int.md) | Yes|
+|prefix|[string](/API_docs/types/string.html) | Yes|
+|length|[int](/API_docs/types/int.html) | Yes|
 
 
 
-### Type: [auth.SentCodeType](/API_docs/types/auth.SentCodeType.md)
+### Type: [auth.SentCodeType](/API_docs/types/auth.SentCodeType.html)
 
 
 ### Example:

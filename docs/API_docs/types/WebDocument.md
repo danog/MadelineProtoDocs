@@ -5,15 +5,15 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: WebDocument
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[webDocument](/API_docs/constructors/webDocument.md)  
+[webDocument](/API_docs/constructors/webDocument.html)  
 
-[webDocumentNoProxy](/API_docs/constructors/webDocumentNoProxy.md)  
+[webDocumentNoProxy](/API_docs/constructors/webDocumentNoProxy.html)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[webDocument](/API_docs/constructors/webDocument.md)  
+[webDocument](/API_docs/constructors/webDocument.html)  
 
-[webDocumentNoProxy](/API_docs/constructors/webDocumentNoProxy.md)  
+[webDocumentNoProxy](/API_docs/constructors/webDocumentNoProxy.html)  
 

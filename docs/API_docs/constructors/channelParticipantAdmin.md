@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelParticipantAdmin  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,18 +15,18 @@ Admin
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|can\_edit|[Bool](/API_docs/types/Bool.md) | Optional|Can this admin promote other admins with the same permissions?|
-|self|[Bool](/API_docs/types/Bool.md) | Optional|Is this the current user|
-|user\_id|[long](/API_docs/types/long.md) | Yes|
-|inviter\_id|[long](/API_docs/types/long.md) | Optional|
-|promoted\_by|[long](/API_docs/types/long.md) | Yes|
-|date|[int](/API_docs/types/int.md) | Yes|When did the user join|
-|admin\_rights|[ChatAdminRights](/API_docs/types/ChatAdminRights.md) | Yes|Admin [rights](https://core.telegram.org/api/rights)|
-|rank|[string](/API_docs/types/string.md) | Optional|The role (rank) of the admin in the group: just an arbitrary string, `admin` by default|
+|can\_edit|[Bool](/API_docs/types/Bool.html) | Optional|Can this admin promote other admins with the same permissions?|
+|self|[Bool](/API_docs/types/Bool.html) | Optional|Is this the current user|
+|user\_id|[long](/API_docs/types/long.html) | Yes|
+|inviter\_id|[long](/API_docs/types/long.html) | Optional|
+|promoted\_by|[long](/API_docs/types/long.html) | Yes|
+|date|[int](/API_docs/types/int.html) | Yes|When did the user join|
+|admin\_rights|[ChatAdminRights](/API_docs/types/ChatAdminRights.html) | Yes|Admin [rights](https://core.telegram.org/api/rights)|
+|rank|[string](/API_docs/types/string.html) | Optional|The role (rank) of the admin in the group: just an arbitrary string, `admin` by default|
 
 
 
-### Type: [ChannelParticipant](/API_docs/types/ChannelParticipant.md)
+### Type: [ChannelParticipant](/API_docs/types/ChannelParticipant.html)
 
 
 ### Example:

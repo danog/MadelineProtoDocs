@@ -6,7 +6,7 @@ parent: "MadelineProto API"
 
 ---
 # `danog\MadelineProto\TL\Conversion\Exception`
-[Back to index](../../../../index.md)
+[Back to index](../../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_updatePinnedMessage.html
 ---
 # Method: messages.updatePinnedMessage
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,14 +17,14 @@ Pin a message
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|silent|[Bool](/API_docs/types/Bool.md) | Pin the message silently, without triggering a notification | Optional|
-|unpin|[Bool](/API_docs/types/Bool.md) | Whether the message should unpinned or pinned | Optional|
-|pm\_oneside|[Bool](/API_docs/types/Bool.md) | Whether the message should only be pinned on the local side of a one-to-one chat | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | The peer where to pin the message | Optional|
-|id|[int](/API_docs/types/int.md) | The message to pin or unpin | Yes|
+|silent|[Bool](/API_docs/types/Bool.html) | Pin the message silently, without triggering a notification | Optional|
+|unpin|[Bool](/API_docs/types/Bool.html) | Whether the message should unpinned or pinned | Optional|
+|pm\_oneside|[Bool](/API_docs/types/Bool.html) | Whether the message should only be pinned on the local side of a one-to-one chat | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer where to pin the message | Optional|
+|id|[int](/API_docs/types/int.html) | The message to pin or unpin | Yes|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **YES**
 

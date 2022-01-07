@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputMessage
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 The following syntax can also be used:
 
@@ -18,13 +18,13 @@ $InputMessage = 142; // Numeric message ID
 
 ### Possible values (constructors):
 
-[inputMessageID](/API_docs/constructors/inputMessageID.md)  
+[inputMessageID](/API_docs/constructors/inputMessageID.html)  
 
-[inputMessageReplyTo](/API_docs/constructors/inputMessageReplyTo.md)  
+[inputMessageReplyTo](/API_docs/constructors/inputMessageReplyTo.html)  
 
-[inputMessagePinned](/API_docs/constructors/inputMessagePinned.md)  
+[inputMessagePinned](/API_docs/constructors/inputMessagePinned.html)  
 
-[inputMessageCallbackQuery](/API_docs/constructors/inputMessageCallbackQuery.md)  
+[inputMessageCallbackQuery](/API_docs/constructors/inputMessageCallbackQuery.html)  
 
 
 
@@ -32,11 +32,11 @@ $InputMessage = 142; // Numeric message ID
 
 
 
-[inputMessageID](/API_docs/constructors/inputMessageID.md)  
+[inputMessageID](/API_docs/constructors/inputMessageID.html)  
 
-[inputMessageReplyTo](/API_docs/constructors/inputMessageReplyTo.md)  
+[inputMessageReplyTo](/API_docs/constructors/inputMessageReplyTo.html)  
 
-[inputMessagePinned](/API_docs/constructors/inputMessagePinned.md)  
+[inputMessagePinned](/API_docs/constructors/inputMessagePinned.html)  
 
-[inputMessageCallbackQuery](/API_docs/constructors/inputMessageCallbackQuery.md)  
+[inputMessageCallbackQuery](/API_docs/constructors/inputMessageCallbackQuery.html)  
 

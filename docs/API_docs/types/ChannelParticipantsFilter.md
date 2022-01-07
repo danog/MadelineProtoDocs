@@ -5,27 +5,27 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: ChannelParticipantsFilter
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[channelParticipantsRecent](/API_docs/constructors/channelParticipantsRecent.md)  
+[channelParticipantsRecent](/API_docs/constructors/channelParticipantsRecent.html)  
 
-[channelParticipantsAdmins](/API_docs/constructors/channelParticipantsAdmins.md)  
+[channelParticipantsAdmins](/API_docs/constructors/channelParticipantsAdmins.html)  
 
-[channelParticipantsKicked](/API_docs/constructors/channelParticipantsKicked.md)  
+[channelParticipantsKicked](/API_docs/constructors/channelParticipantsKicked.html)  
 
-[channelParticipantsBots](/API_docs/constructors/channelParticipantsBots.md)  
+[channelParticipantsBots](/API_docs/constructors/channelParticipantsBots.html)  
 
-[channelParticipantsBanned](/API_docs/constructors/channelParticipantsBanned.md)  
+[channelParticipantsBanned](/API_docs/constructors/channelParticipantsBanned.html)  
 
-[channelParticipantsSearch](/API_docs/constructors/channelParticipantsSearch.md)  
+[channelParticipantsSearch](/API_docs/constructors/channelParticipantsSearch.html)  
 
-[channelParticipantsContacts](/API_docs/constructors/channelParticipantsContacts.md)  
+[channelParticipantsContacts](/API_docs/constructors/channelParticipantsContacts.html)  
 
-[channelParticipantsMentions](/API_docs/constructors/channelParticipantsMentions.md)  
+[channelParticipantsMentions](/API_docs/constructors/channelParticipantsMentions.html)  
 
 
 
@@ -33,19 +33,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[channelParticipantsRecent](/API_docs/constructors/channelParticipantsRecent.md)  
+[channelParticipantsRecent](/API_docs/constructors/channelParticipantsRecent.html)  
 
-[channelParticipantsAdmins](/API_docs/constructors/channelParticipantsAdmins.md)  
+[channelParticipantsAdmins](/API_docs/constructors/channelParticipantsAdmins.html)  
 
-[channelParticipantsKicked](/API_docs/constructors/channelParticipantsKicked.md)  
+[channelParticipantsKicked](/API_docs/constructors/channelParticipantsKicked.html)  
 
-[channelParticipantsBots](/API_docs/constructors/channelParticipantsBots.md)  
+[channelParticipantsBots](/API_docs/constructors/channelParticipantsBots.html)  
 
-[channelParticipantsBanned](/API_docs/constructors/channelParticipantsBanned.md)  
+[channelParticipantsBanned](/API_docs/constructors/channelParticipantsBanned.html)  
 
-[channelParticipantsSearch](/API_docs/constructors/channelParticipantsSearch.md)  
+[channelParticipantsSearch](/API_docs/constructors/channelParticipantsSearch.html)  
 
-[channelParticipantsContacts](/API_docs/constructors/channelParticipantsContacts.md)  
+[channelParticipantsContacts](/API_docs/constructors/channelParticipantsContacts.html)  
 
-[channelParticipantsMentions](/API_docs/constructors/channelParticipantsMentions.md)  
+[channelParticipantsMentions](/API_docs/constructors/channelParticipantsMentions.html)  
 

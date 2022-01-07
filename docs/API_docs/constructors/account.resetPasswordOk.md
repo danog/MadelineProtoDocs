@@ -6,14 +6,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_resetPasswordOk.html
 ---
 # Constructor: account.resetPasswordOk  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
 
 
 
-### Type: [account.ResetPasswordResult](/API_docs/types/account.ResetPasswordResult.md)
+### Type: [account.ResetPasswordResult](/API_docs/types/account.ResetPasswordResult.html)
 
 
 ### Example:

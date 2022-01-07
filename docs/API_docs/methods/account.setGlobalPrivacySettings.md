@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_setGlobalPrivacySettings.html
 ---
 # Method: account.setGlobalPrivacySettings
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Set global privacy settings
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|settings|[GlobalPrivacySettings](/API_docs/types/GlobalPrivacySettings.md) | Global privacy settings | Yes|
+|settings|[GlobalPrivacySettings](/API_docs/types/GlobalPrivacySettings.html) | Global privacy settings | Yes|
 
 
-### Return type: [GlobalPrivacySettings](/API_docs/types/GlobalPrivacySettings.md)
+### Return type: [GlobalPrivacySettings](/API_docs/types/GlobalPrivacySettings.html)
 
 ### Can bots use this method: **NO**
 

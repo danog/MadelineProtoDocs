@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputSecureFile  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ Preuploaded [passport](https://core.telegram.org/passport) file, for more info [
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](/API_docs/types/long.md) | Yes|Secure file ID|
-|access\_hash|[long](/API_docs/types/long.md) | Yes|Secure file access hash|
+|id|[long](/API_docs/types/long.html) | Yes|Secure file ID|
+|access\_hash|[long](/API_docs/types/long.html) | Yes|Secure file access hash|
 
 
 
-### Type: [InputSecureFile](/API_docs/types/InputSecureFile.md)
+### Type: [InputSecureFile](/API_docs/types/InputSecureFile.html)
 
 
 ### Example:

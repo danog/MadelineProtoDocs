@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getAttachedStickers.html
 ---
 # Method: messages.getAttachedStickers
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Get stickers attached to a photo or video
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|media|[InputStickeredMedia](/API_docs/types/InputStickeredMedia.md) | Stickered media | Yes|
+|media|[InputStickeredMedia](/API_docs/types/InputStickeredMedia.html) | Stickered media | Yes|
 
 
-### Return type: [Vector\_of\_StickerSetCovered](/API_docs/types/StickerSetCovered.md)
+### Return type: [Vector\_of\_StickerSetCovered](/API_docs/types/StickerSetCovered.html)
 
 ### Can bots use this method: **NO**
 

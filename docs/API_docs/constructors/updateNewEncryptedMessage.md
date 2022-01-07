@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateNewEncryptedMessage  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ New encrypted message.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|message|[EncryptedMessage](/API_docs/types/EncryptedMessage.md) | Yes|Message|
-|qts|[int](/API_docs/types/int.md) | Yes|New **qts** value|
+|message|[EncryptedMessage](/API_docs/types/EncryptedMessage.html) | Yes|Message|
+|qts|[int](/API_docs/types/int.html) | Yes|New **qts** value|
 
 
 
-### Type: [Update](/API_docs/types/Update.md)
+### Type: [Update](/API_docs/types/Update.html)
 
 
 ### Example:

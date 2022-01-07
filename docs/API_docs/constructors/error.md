@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: error  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ Error.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|code|[int](/API_docs/types/int.md) | Yes|Error code|
-|text|[string](/API_docs/types/string.md) | Yes|Message|
+|code|[int](/API_docs/types/int.html) | Yes|Error code|
+|text|[string](/API_docs/types/string.html) | Yes|Message|
 
 
 
-### Type: [Error](/API_docs/types/Error.md)
+### Type: [Error](/API_docs/types/Error.html)
 
 
 ### Example:

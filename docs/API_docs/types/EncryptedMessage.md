@@ -5,15 +5,15 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: EncryptedMessage
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[encryptedMessage](/API_docs/constructors/encryptedMessage.md)  
+[encryptedMessage](/API_docs/constructors/encryptedMessage.html)  
 
-[encryptedMessageService](/API_docs/constructors/encryptedMessageService.md)  
+[encryptedMessageService](/API_docs/constructors/encryptedMessageService.html)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[encryptedMessage](/API_docs/constructors/encryptedMessage.md)  
+[encryptedMessage](/API_docs/constructors/encryptedMessage.html)  
 
-[encryptedMessageService](/API_docs/constructors/encryptedMessageService.md)  
+[encryptedMessageService](/API_docs/constructors/encryptedMessageService.html)  
 

@@ -6,23 +6,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/account_AuthorizationForm.html
 ---
 # Type: account.AuthorizationForm
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[account.authorizationForm](/API_docs/constructors/account.authorizationForm.md)  
+[account.authorizationForm](/API_docs/constructors/account.authorizationForm.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->account->getAuthorizationForm](/API_docs/methods/account.getAuthorizationForm.md)  
+[$MadelineProto->account->getAuthorizationForm](/API_docs/methods/account.getAuthorizationForm.html)  
 
 
 
-[account.authorizationForm](/API_docs/constructors/account.authorizationForm.md)  
+[account.authorizationForm](/API_docs/constructors/account.authorizationForm.html)  
 
-[$MadelineProto->account->getAuthorizationForm](/API_docs/methods/account.getAuthorizationForm.md)  
+[$MadelineProto->account->getAuthorizationForm](/API_docs/methods/account.getAuthorizationForm.html)  
 

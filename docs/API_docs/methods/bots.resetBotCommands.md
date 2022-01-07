@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/bots_resetBotCommands.html
 ---
 # Method: bots.resetBotCommands
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,11 +15,11 @@ redirect_from: /API_docs/methods/bots_resetBotCommands.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|scope|[BotCommandScope](/API_docs/types/BotCommandScope.md) | Yes|
-|lang\_code|[string](/API_docs/types/string.md) | Yes|
+|scope|[BotCommandScope](/API_docs/types/BotCommandScope.html) | Yes|
+|lang\_code|[string](/API_docs/types/string.html) | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **YES**
 

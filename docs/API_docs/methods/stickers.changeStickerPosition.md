@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/stickers_changeStickerPosition.html
 ---
 # Method: stickers.changeStickerPosition
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Changes the absolute position of a sticker in the set to which it belongs; for b
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|sticker|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.md) | The sticker | Optional|
-|position|[int](/API_docs/types/int.md) | The new position of the sticker, zero-based | Yes|
+|sticker|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | The sticker | Optional|
+|position|[int](/API_docs/types/int.html) | The new position of the sticker, zero-based | Yes|
 
 
-### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.md)
+### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.html)
 
 ### Can bots use this method: **YES**
 

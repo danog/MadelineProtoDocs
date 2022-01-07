@@ -5,15 +5,15 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: Dialog
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[dialog](/API_docs/constructors/dialog.md)  
+[dialog](/API_docs/constructors/dialog.html)  
 
-[dialogFolder](/API_docs/constructors/dialogFolder.md)  
+[dialogFolder](/API_docs/constructors/dialogFolder.html)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[dialog](/API_docs/constructors/dialog.md)  
+[dialog](/API_docs/constructors/dialog.html)  
 
-[dialogFolder](/API_docs/constructors/dialogFolder.md)  
+[dialogFolder](/API_docs/constructors/dialogFolder.html)  
 

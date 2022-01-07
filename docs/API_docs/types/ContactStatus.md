@@ -5,23 +5,23 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: ContactStatus
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[contactStatus](/API_docs/constructors/contactStatus.md)  
+[contactStatus](/API_docs/constructors/contactStatus.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->contacts->getStatuses](/API_docs/methods/contacts.getStatuses.md)  
+[$MadelineProto->contacts->getStatuses](/API_docs/methods/contacts.getStatuses.html)  
 
 
 
-[contactStatus](/API_docs/constructors/contactStatus.md)  
+[contactStatus](/API_docs/constructors/contactStatus.html)  
 
-[$MadelineProto->contacts->getStatuses](/API_docs/methods/contacts.getStatuses.md)  
+[$MadelineProto->contacts->getStatuses](/API_docs/methods/contacts.getStatuses.html)  
 

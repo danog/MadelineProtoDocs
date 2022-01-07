@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: searchResultsCalendarPeriod  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -13,14 +13,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|date|[int](/API_docs/types/int.md) | Yes|
-|min\_msg\_id|[int](/API_docs/types/int.md) | Yes|
-|max\_msg\_id|[int](/API_docs/types/int.md) | Yes|
-|count|[int](/API_docs/types/int.md) | Yes|
+|date|[int](/API_docs/types/int.html) | Yes|
+|min\_msg\_id|[int](/API_docs/types/int.html) | Yes|
+|max\_msg\_id|[int](/API_docs/types/int.html) | Yes|
+|count|[int](/API_docs/types/int.html) | Yes|
 
 
 
-### Type: [SearchResultsCalendarPeriod](/API_docs/types/SearchResultsCalendarPeriod.md)
+### Type: [SearchResultsCalendarPeriod](/API_docs/types/SearchResultsCalendarPeriod.html)
 
 
 ### Example:

@@ -5,16 +5,16 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputDocument
-[Back to types index](index.md)
+[Back to types index](index.html)
 
-You can also provide a [MessageMedia](MessageMedia.md), [Message](Message.md), [Update](Update.md), [Document](Document.md) here, MadelineProto will automatically convert it to the right type.
+You can also provide a [MessageMedia](MessageMedia.html), [Message](Message.html), [Update](Update.html), [Document](Document.html) here, MadelineProto will automatically convert it to the right type.
 
 
 ### Possible values (constructors):
 
-[inputDocumentEmpty](/API_docs/constructors/inputDocumentEmpty.md)  
+[inputDocumentEmpty](/API_docs/constructors/inputDocumentEmpty.html)  
 
-[inputDocument](/API_docs/constructors/inputDocument.md)  
+[inputDocument](/API_docs/constructors/inputDocument.html)  
 
 
 
@@ -22,7 +22,7 @@ You can also provide a [MessageMedia](MessageMedia.md), [Message](Message.md), [
 
 
 
-[inputDocumentEmpty](/API_docs/constructors/inputDocumentEmpty.md)  
+[inputDocumentEmpty](/API_docs/constructors/inputDocumentEmpty.html)  
 
-[inputDocument](/API_docs/constructors/inputDocument.md)  
+[inputDocument](/API_docs/constructors/inputDocument.html)  
 

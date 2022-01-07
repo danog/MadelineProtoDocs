@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_checkHistoryImport.html
 ---
 # Method: messages.checkHistoryImport
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/messages_checkHistoryImport.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|import\_head|[string](/API_docs/types/string.md) | Yes|
+|import\_head|[string](/API_docs/types/string.html) | Yes|
 
 
-### Return type: [messages.HistoryImportParsed](/API_docs/types/messages.HistoryImportParsed.md)
+### Return type: [messages.HistoryImportParsed](/API_docs/types/messages.HistoryImportParsed.html)
 
 ### Can bots use this method: **NO**
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: photoStrippedSize  
-[Back to constructors index](index.md)
+[Back to constructors index](index.html)
 
 
 
@@ -15,13 +15,13 @@ Just the image's content
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|type|[string](../types/string.md) | Yes|Thumbnail type|
-|bytes|[bytes](../types/bytes.md) | Yes|Thumbnail data|
-|inflated|[bytes](../types/bytes.md) | Yes|JPG image data|
+|type|[string](../types/string.html) | Yes|Thumbnail type|
+|bytes|[bytes](../types/bytes.html) | Yes|Thumbnail data|
+|inflated|[bytes](../types/bytes.html) | Yes|JPG image data|
 
 
 
-### Type: [PhotoSize](../types/PhotoSize.md)
+### Type: [PhotoSize](../types/PhotoSize.html)
 
 
 ### Example:

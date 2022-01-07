@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputPeerNotifySettings
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inputPeerNotifySettings](/API_docs/constructors/inputPeerNotifySettings.md)  
+[inputPeerNotifySettings](/API_docs/constructors/inputPeerNotifySettings.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputPeerNotifySettings](/API_docs/constructors/inputPeerNotifySettings.md)  
+[inputPeerNotifySettings](/API_docs/constructors/inputPeerNotifySettings.html)  
 

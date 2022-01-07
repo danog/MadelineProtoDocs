@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/phone_getGroupParticipants.html
 ---
 # Method: phone.getGroupParticipants
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,14 +15,14 @@ redirect_from: /API_docs/methods/phone_getGroupParticipants.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.md) | Yes|
-|ids|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Yes|
-|sources|Array of [int](/API_docs/types/int.md) | Yes|
-|offset|[string](/API_docs/types/string.md) | Yes|
-|limit|[int](/API_docs/types/int.md) | Yes|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
+|ids|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Yes|
+|sources|Array of [int](/API_docs/types/int.html) | Yes|
+|offset|[string](/API_docs/types/string.html) | Yes|
+|limit|[int](/API_docs/types/int.html) | Yes|
 
 
-### Return type: [phone.GroupParticipants](/API_docs/types/phone.GroupParticipants.md)
+### Return type: [phone.GroupParticipants](/API_docs/types/phone.GroupParticipants.html)
 
 ### Can bots use this method: **NO**
 

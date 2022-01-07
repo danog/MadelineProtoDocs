@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/phone_toggleGroupCallRecord.html
 ---
 # Method: phone.toggleGroupCallRecord
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,14 +15,14 @@ redirect_from: /API_docs/methods/phone_toggleGroupCallRecord.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|start|[Bool](/API_docs/types/Bool.md) | Optional|
-|video|[Bool](/API_docs/types/Bool.md) | Optional|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.md) | Yes|
-|title|[string](/API_docs/types/string.md) | Optional|
-|video\_portrait|[Bool](/API_docs/types/Bool.md) | Optional|
+|start|[Bool](/API_docs/types/Bool.html) | Optional|
+|video|[Bool](/API_docs/types/Bool.html) | Optional|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
+|title|[string](/API_docs/types/string.html) | Optional|
+|video\_portrait|[Bool](/API_docs/types/Bool.html) | Optional|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **NO**
 

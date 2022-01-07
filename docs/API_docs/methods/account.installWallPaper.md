@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_installWallPaper.html
 ---
 # Method: account.installWallPaper
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Install wallpaper
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|wallpaper|[InputWallPaper](/API_docs/types/InputWallPaper.md) | Wallpaper to install | Yes|
-|settings|[WallPaperSettings](/API_docs/types/WallPaperSettings.md) | Wallpaper settings | Yes|
+|wallpaper|[InputWallPaper](/API_docs/types/InputWallPaper.html) | Wallpaper to install | Yes|
+|settings|[WallPaperSettings](/API_docs/types/WallPaperSettings.html) | Wallpaper settings | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

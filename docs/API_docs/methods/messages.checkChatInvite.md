@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_checkChatInvite.html
 ---
 # Method: messages.checkChatInvite
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Check the validity of a chat invite link and get basic info about it
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[string](/API_docs/types/string.md) | Invite hash in `t.me/joinchat/hash` | Yes|
+|hash|[string](/API_docs/types/string.html) | Invite hash in `t.me/joinchat/hash` | Yes|
 
 
-### Return type: [ChatInvite](/API_docs/types/ChatInvite.md)
+### Return type: [ChatInvite](/API_docs/types/ChatInvite.html)
 
 ### Can bots use this method: **NO**
 

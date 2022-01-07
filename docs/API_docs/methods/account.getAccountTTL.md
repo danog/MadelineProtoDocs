@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getAccountTTL.html
 ---
 # Method: account.getAccountTTL
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ Get days to live of account
 
 
 
-### Return type: [AccountDaysTTL](/API_docs/types/AccountDaysTTL.md)
+### Return type: [AccountDaysTTL](/API_docs/types/AccountDaysTTL.html)
 
 ### Can bots use this method: **NO**
 

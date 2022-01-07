@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: webPageEmpty  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,11 +15,11 @@ No preview is available for the webpage
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](/API_docs/types/long.md) | Yes|Preview ID|
+|id|[long](/API_docs/types/long.html) | Yes|Preview ID|
 
 
 
-### Type: [WebPage](/API_docs/types/WebPage.md)
+### Type: [WebPage](/API_docs/types/WebPage.html)
 
 
 ### Example:

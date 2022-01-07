@@ -6,7 +6,7 @@ parent: "MadelineProto API"
 
 ---
 # `danog\MadelineProto\EventHandler`
-[Back to index](../../index.md)
+[Back to index](../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
@@ -1246,7 +1246,7 @@ Fully typed return value:
 \danog\MadelineProto\EventHandler|\Amp\Promise<\danog\MadelineProto\EventHandler>
 ```
 #### See also: 
-* [`\danog\MadelineProto\EventHandler`: Event handler.](../EventHandler.md)
+* [`\danog\MadelineProto\EventHandler`: Event handler.](../EventHandler.html)
 * `\Amp\Promise`
 
 
@@ -1589,7 +1589,7 @@ Fully typed return value:
 \danog\MadelineProto\Settings|\Amp\Promise<\danog\MadelineProto\Settings>
 ```
 #### See also: 
-* [`\danog\MadelineProto\Settings`: Settings class used for configuring MadelineProto.](../Settings.md)
+* [`\danog\MadelineProto\Settings`: Settings class used for configuring MadelineProto.](../Settings.html)
 * `\Amp\Promise`
 
 

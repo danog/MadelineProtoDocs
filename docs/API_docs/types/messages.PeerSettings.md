@@ -6,23 +6,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/messages_PeerSettings.html
 ---
 # Type: messages.PeerSettings
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[messages.peerSettings](/API_docs/constructors/messages.peerSettings.md)  
+[messages.peerSettings](/API_docs/constructors/messages.peerSettings.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getPeerSettings](/API_docs/methods/messages.getPeerSettings.md)  
+[$MadelineProto->messages->getPeerSettings](/API_docs/methods/messages.getPeerSettings.html)  
 
 
 
-[messages.peerSettings](/API_docs/constructors/messages.peerSettings.md)  
+[messages.peerSettings](/API_docs/constructors/messages.peerSettings.html)  
 
-[$MadelineProto->messages->getPeerSettings](/API_docs/methods/messages.getPeerSettings.md)  
+[$MadelineProto->messages->getPeerSettings](/API_docs/methods/messages.getPeerSettings.html)  
 

@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: ShippingOption
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[shippingOption](/API_docs/constructors/shippingOption.md)  
+[shippingOption](/API_docs/constructors/shippingOption.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[shippingOption](/API_docs/constructors/shippingOption.md)  
+[shippingOption](/API_docs/constructors/shippingOption.html)  
 

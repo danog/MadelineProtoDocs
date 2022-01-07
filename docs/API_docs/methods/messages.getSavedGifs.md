@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getSavedGifs.html
 ---
 # Method: messages.getSavedGifs
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Get saved GIFs
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[long](/API_docs/types/long.md) |  | Yes|
+|hash|[long](/API_docs/types/long.html) |  | Yes|
 
 
-### Return type: [messages.SavedGifs](/API_docs/types/messages.SavedGifs.md)
+### Return type: [messages.SavedGifs](/API_docs/types/messages.SavedGifs.html)
 
 ### Can bots use this method: **NO**
 

@@ -6,47 +6,47 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/auth_Authorization.html
 ---
 # Type: auth.Authorization
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[auth.authorization](/API_docs/constructors/auth.authorization.md)  
+[auth.authorization](/API_docs/constructors/auth.authorization.html)  
 
-[auth.authorizationSignUpRequired](/API_docs/constructors/auth.authorizationSignUpRequired.md)  
+[auth.authorizationSignUpRequired](/API_docs/constructors/auth.authorizationSignUpRequired.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->auth->signUp](/API_docs/methods/auth.signUp.md)  
+[$MadelineProto->auth->signUp](/API_docs/methods/auth.signUp.html)  
 
-[$MadelineProto->auth->signIn](/API_docs/methods/auth.signIn.md)  
+[$MadelineProto->auth->signIn](/API_docs/methods/auth.signIn.html)  
 
-[$MadelineProto->auth->importAuthorization](/API_docs/methods/auth.importAuthorization.md)  
+[$MadelineProto->auth->importAuthorization](/API_docs/methods/auth.importAuthorization.html)  
 
-[$MadelineProto->auth->importBotAuthorization](/API_docs/methods/auth.importBotAuthorization.md)  
+[$MadelineProto->auth->importBotAuthorization](/API_docs/methods/auth.importBotAuthorization.html)  
 
-[$MadelineProto->auth->checkPassword](/API_docs/methods/auth.checkPassword.md)  
+[$MadelineProto->auth->checkPassword](/API_docs/methods/auth.checkPassword.html)  
 
-[$MadelineProto->auth->recoverPassword](/API_docs/methods/auth.recoverPassword.md)  
+[$MadelineProto->auth->recoverPassword](/API_docs/methods/auth.recoverPassword.html)  
 
 
 
-[auth.authorization](/API_docs/constructors/auth.authorization.md)  
+[auth.authorization](/API_docs/constructors/auth.authorization.html)  
 
-[auth.authorizationSignUpRequired](/API_docs/constructors/auth.authorizationSignUpRequired.md)  
+[auth.authorizationSignUpRequired](/API_docs/constructors/auth.authorizationSignUpRequired.html)  
 
-[$MadelineProto->auth->signUp](/API_docs/methods/auth.signUp.md)  
+[$MadelineProto->auth->signUp](/API_docs/methods/auth.signUp.html)  
 
-[$MadelineProto->auth->signIn](/API_docs/methods/auth.signIn.md)  
+[$MadelineProto->auth->signIn](/API_docs/methods/auth.signIn.html)  
 
-[$MadelineProto->auth->importAuthorization](/API_docs/methods/auth.importAuthorization.md)  
+[$MadelineProto->auth->importAuthorization](/API_docs/methods/auth.importAuthorization.html)  
 
-[$MadelineProto->auth->importBotAuthorization](/API_docs/methods/auth.importBotAuthorization.md)  
+[$MadelineProto->auth->importBotAuthorization](/API_docs/methods/auth.importBotAuthorization.html)  
 
-[$MadelineProto->auth->checkPassword](/API_docs/methods/auth.checkPassword.md)  
+[$MadelineProto->auth->checkPassword](/API_docs/methods/auth.checkPassword.html)  
 
-[$MadelineProto->auth->recoverPassword](/API_docs/methods/auth.recoverPassword.md)  
+[$MadelineProto->auth->recoverPassword](/API_docs/methods/auth.recoverPassword.html)  
 

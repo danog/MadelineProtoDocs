@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: AvailableReaction
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[availableReaction](/API_docs/constructors/availableReaction.md)  
+[availableReaction](/API_docs/constructors/availableReaction.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[availableReaction](/API_docs/constructors/availableReaction.md)  
+[availableReaction](/API_docs/constructors/availableReaction.html)  
 

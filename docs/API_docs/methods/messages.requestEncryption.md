@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_requestEncryption.html
 ---
 # Method: messages.requestEncryption
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ You cannot use this method directly, see https://docs.madelineproto.xyz for more
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | User ID | Optional|
-|g\_a|[bytes](/API_docs/types/bytes.md) | `A = g ^ a mod p`, see [Wikipedia](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange) | Yes|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | User ID | Optional|
+|g\_a|[bytes](/API_docs/types/bytes.html) | `A = g ^ a mod p`, see [Wikipedia](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange) | Yes|
 
 
-### Return type: [EncryptedChat](/API_docs/types/EncryptedChat.md)
+### Return type: [EncryptedChat](/API_docs/types/EncryptedChat.html)
 
 ### Can bots use this method: **NO**
 

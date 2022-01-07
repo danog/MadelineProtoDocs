@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_saveRecentSticker.html
 ---
 # Method: messages.saveRecentSticker
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Add/remove sticker from recent stickers list
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|attached|[Bool](/API_docs/types/Bool.md) | Whether to add/remove stickers recently attached to photo or video files | Optional|
-|id|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.md) | Sticker | Optional|
-|unsave|[Bool](/API_docs/types/Bool.md) | Whether to save or unsave the sticker | Yes|
+|attached|[Bool](/API_docs/types/Bool.html) | Whether to add/remove stickers recently attached to photo or video files | Optional|
+|id|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | Sticker | Optional|
+|unsave|[Bool](/API_docs/types/Bool.html) | Whether to save or unsave the sticker | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

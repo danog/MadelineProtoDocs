@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/photos_uploadProfilePhoto.html
 ---
 # Method: photos.uploadProfilePhoto
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Updates current user profile photo.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|file|[File path or InputFile](/API_docs/types/InputFile.md) | File saved in parts by means of [upload.saveFilePart](../methods/upload.saveFilePart.md) method | Optional|
-|video|[File path or InputFile](/API_docs/types/InputFile.md) | [Animated profile picture](https://core.telegram.org/api/files#animated-profile-pictures) video | Optional|
-|video\_start\_ts|[double](/API_docs/types/double.md) | Floating point UNIX timestamp in seconds, indicating the frame of the video that should be used as static preview. | Optional|
+|file|[File path or InputFile](/API_docs/types/InputFile.html) | File saved in parts by means of [upload.saveFilePart](../methods/upload.saveFilePart.html) method | Optional|
+|video|[File path or InputFile](/API_docs/types/InputFile.html) | [Animated profile picture](https://core.telegram.org/api/files#animated-profile-pictures) video | Optional|
+|video\_start\_ts|[double](/API_docs/types/double.html) | Floating point UNIX timestamp in seconds, indicating the frame of the video that should be used as static preview. | Optional|
 
 
-### Return type: [photos.Photo](/API_docs/types/photos.Photo.md)
+### Return type: [photos.Photo](/API_docs/types/photos.Photo.html)
 
 ### Can bots use this method: **NO**
 

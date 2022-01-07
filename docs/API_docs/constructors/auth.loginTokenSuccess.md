@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/auth_loginTokenSuccess.html
 ---
 # Constructor: auth.loginTokenSuccess  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,11 +16,11 @@ Login via token (QR code) succeded!
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|authorization|[auth.Authorization](/API_docs/constructors/auth.Authorization.md) | Yes|Authorization info|
+|authorization|[auth.Authorization](/API_docs/constructors/auth.Authorization.html) | Yes|Authorization info|
 
 
 
-### Type: [auth.LoginToken](/API_docs/types/auth.LoginToken.md)
+### Type: [auth.LoginToken](/API_docs/types/auth.LoginToken.html)
 
 
 ### Example:

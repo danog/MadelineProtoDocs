@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionDeleteMessage  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,11 +15,11 @@ A message was deleted
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|message|[Message](/API_docs/types/Message.md) | Optional|The message that was deleted|
+|message|[Message](/API_docs/types/Message.html) | Optional|The message that was deleted|
 
 
 
-### Type: [ChannelAdminLogEventAction](/API_docs/types/ChannelAdminLogEventAction.md)
+### Type: [ChannelAdminLogEventAction](/API_docs/types/ChannelAdminLogEventAction.html)
 
 
 ### Example:

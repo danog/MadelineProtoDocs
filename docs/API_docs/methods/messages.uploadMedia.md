@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_uploadMedia.html
 ---
 # Method: messages.uploadMedia
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Upload a file and associate it to a chat (without actually sending it to the cha
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | The chat, can be an [inputPeerEmpty](../constructors/inputPeerEmpty.md) for bots | Optional|
-|media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.md) | File uploaded in chunks as described in [files »](https://core.telegram.org/api/files) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The chat, can be an [inputPeerEmpty](../constructors/inputPeerEmpty.html) for bots | Optional|
+|media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | File uploaded in chunks as described in [files »](https://core.telegram.org/api/files) | Optional|
 
 
-### Return type: [MessageMedia](/API_docs/types/MessageMedia.md)
+### Return type: [MessageMedia](/API_docs/types/MessageMedia.html)
 
 ### Can bots use this method: **YES**
 

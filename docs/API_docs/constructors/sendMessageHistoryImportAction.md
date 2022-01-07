@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: sendMessageHistoryImportAction  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -13,11 +13,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|progress|[int](/API_docs/types/int.md) | Yes|
+|progress|[int](/API_docs/types/int.html) | Yes|
 
 
 
-### Type: [SendMessageAction](/API_docs/types/SendMessageAction.md)
+### Type: [SendMessageAction](/API_docs/types/SendMessageAction.html)
 
 
 ### Example:

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 ## Type: !X  
-[Back to constructor index](index.md)
+[Back to constructor index](index.html)
 
 Represents a TL serialized payload.  
 Typicall yyou would want to provide a simple constructor or a method array here (method name under `_` as with constructors).  

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputChatPhoto  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,11 +15,11 @@ Existing photo to be set as a chat profile photo.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[MessageMedia, Message, Update or InputPhoto](/API_docs/types/InputPhoto.md) | Optional|Existing photo|
+|id|[MessageMedia, Message, Update or InputPhoto](/API_docs/types/InputPhoto.html) | Optional|Existing photo|
 
 
 
-### Type: [InputChatPhoto](/API_docs/types/InputChatPhoto.md)
+### Type: [InputChatPhoto](/API_docs/types/InputChatPhoto.html)
 
 
 ### Example:

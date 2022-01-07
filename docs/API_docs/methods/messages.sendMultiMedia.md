@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_sendMultiMedia.html
 ---
 # Method: messages.sendMultiMedia
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,18 +17,18 @@ Send an [album or grouped media](https://core.telegram.org/api/files#albums-grou
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|silent|[Bool](/API_docs/types/Bool.md) | Whether to send the album silently (no notification triggered) | Optional|
-|background|[Bool](/API_docs/types/Bool.md) | Send in background? | Optional|
-|clear\_draft|[Bool](/API_docs/types/Bool.md) | Whether to clear [drafts](https://core.telegram.org/api/drafts) | Optional|
-|noforwards|[Bool](/API_docs/types/Bool.md) |  | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | The destination chat | Optional|
-|reply\_to\_msg\_id|[int](/API_docs/types/int.md) | The message to reply to | Optional|
-|multi\_media|Array of [InputSingleMedia](/API_docs/types/InputSingleMedia.md) | The medias to send | Yes|
-|schedule\_date|[int](/API_docs/types/int.md) | Scheduled message date for scheduled messages | Optional|
-|send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) |  | Optional|
+|silent|[Bool](/API_docs/types/Bool.html) | Whether to send the album silently (no notification triggered) | Optional|
+|background|[Bool](/API_docs/types/Bool.html) | Send in background? | Optional|
+|clear\_draft|[Bool](/API_docs/types/Bool.html) | Whether to clear [drafts](https://core.telegram.org/api/drafts) | Optional|
+|noforwards|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The destination chat | Optional|
+|reply\_to\_msg\_id|[int](/API_docs/types/int.html) | The message to reply to | Optional|
+|multi\_media|Array of [InputSingleMedia](/API_docs/types/InputSingleMedia.html) | The medias to send | Yes|
+|schedule\_date|[int](/API_docs/types/int.html) | Scheduled message date for scheduled messages | Optional|
+|send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **YES**
 

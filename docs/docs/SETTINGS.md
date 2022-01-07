@@ -9,23 +9,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 MadelineProto has lots of settings that can be used to modify the behaviour of the library.  
 These settings are controlled by the following classes in the `\danog\MadelineProto\Settings` namespace:
 
-* [AppInfo: App information.](../PHP/danog/MadelineProto/Settings/AppInfo.md)
-* [Auth: Cryptography settings.](../PHP/danog/MadelineProto/Settings/Auth.md)
-* [Connection: Connection settings.](../PHP/danog/MadelineProto/Settings/Connection.md)
-* [Files: File management settings.](../PHP/danog/MadelineProto/Settings/Files.md)
-* [Logger: Logger settings.](../PHP/danog/MadelineProto/Settings/Logger.md)
-* [Peer: Peer database settings.](../PHP/danog/MadelineProto/Settings/Peer.md)
-* [Pwr: PWRTelegram settings.](../PHP/danog/MadelineProto/Settings/Pwr.md)
-* [RPC: RPC settings.](../PHP/danog/MadelineProto/Settings/RPC.md)
-* [SecretChats: Secret chat settings.](../PHP/danog/MadelineProto/Settings/SecretChats.md)
-* [Serialization: Serialization settings.](../PHP/danog/MadelineProto/Settings/Serialization.md)
-* [TLSchema: TL schema settings.](../PHP/danog/MadelineProto/Settings/TLSchema.md)
-* [Templates: Web and CLI template settings for login.](../PHP/danog/MadelineProto/Settings/Templates.md)
-* [VoIP: VoIP settings.](../PHP/danog/MadelineProto/Settings/VoIP.md)
-* [Database\Memory: Memory backend settings.](../PHP/danog/MadelineProto/Settings/Database/Memory.md)
-* [Database\Mysql: MySQL backend settings.](../PHP/danog/MadelineProto/Settings/Database/Mysql.md)
-* [Database\Postgres: Postgres backend settings.](../PHP/danog/MadelineProto/Settings/Database/Postgres.md)
-* [Database\Redis: Redis backend settings.](../PHP/danog/MadelineProto/Settings/Database/Redis.md)
+* [AppInfo: App information.](../PHP/danog/MadelineProto/Settings/AppInfo.html)
+* [Auth: Cryptography settings.](../PHP/danog/MadelineProto/Settings/Auth.html)
+* [Connection: Connection settings.](../PHP/danog/MadelineProto/Settings/Connection.html)
+* [Files: File management settings.](../PHP/danog/MadelineProto/Settings/Files.html)
+* [Logger: Logger settings.](../PHP/danog/MadelineProto/Settings/Logger.html)
+* [Peer: Peer database settings.](../PHP/danog/MadelineProto/Settings/Peer.html)
+* [Pwr: PWRTelegram settings.](../PHP/danog/MadelineProto/Settings/Pwr.html)
+* [RPC: RPC settings.](../PHP/danog/MadelineProto/Settings/RPC.html)
+* [SecretChats: Secret chat settings.](../PHP/danog/MadelineProto/Settings/SecretChats.html)
+* [Serialization: Serialization settings.](../PHP/danog/MadelineProto/Settings/Serialization.html)
+* [TLSchema: TL schema settings.](../PHP/danog/MadelineProto/Settings/TLSchema.html)
+* [Templates: Web and CLI template settings for login.](../PHP/danog/MadelineProto/Settings/Templates.html)
+* [VoIP: VoIP settings.](../PHP/danog/MadelineProto/Settings/VoIP.html)
+* [Database\Memory: Memory backend settings.](../PHP/danog/MadelineProto/Settings/Database/Memory.html)
+* [Database\Mysql: MySQL backend settings.](../PHP/danog/MadelineProto/Settings/Database/Mysql.html)
+* [Database\Postgres: Postgres backend settings.](../PHP/danog/MadelineProto/Settings/Database/Postgres.html)
+* [Database\Redis: Redis backend settings.](../PHP/danog/MadelineProto/Settings/Database/Redis.html)
 
 These classes can be instantiated and passed individually to MadelineProto:  
 ```php
@@ -48,7 +48,7 @@ $MadelineProto->updateSettings($settings);
 
 It's recommended you create a separate file that accesses the session just to modify the settings, as it's a very rare operation.  
 
-You can also group settings in a single [\danog\MadelineProto\Settings](../PHP/danog/MadelineProto/Settings.md) object, to quickly modify multiple settings:
+You can also group settings in a single [\danog\MadelineProto\Settings](../PHP/danog/MadelineProto/Settings.html) object, to quickly modify multiple settings:
 
 ```php
 $settings = new \danog\MadelineProto\Settings;

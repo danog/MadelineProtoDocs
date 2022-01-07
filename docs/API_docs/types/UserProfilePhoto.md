@@ -5,15 +5,15 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: UserProfilePhoto
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[userProfilePhotoEmpty](/API_docs/constructors/userProfilePhotoEmpty.md)  
+[userProfilePhotoEmpty](/API_docs/constructors/userProfilePhotoEmpty.html)  
 
-[userProfilePhoto](/API_docs/constructors/userProfilePhoto.md)  
+[userProfilePhoto](/API_docs/constructors/userProfilePhoto.html)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[userProfilePhotoEmpty](/API_docs/constructors/userProfilePhotoEmpty.md)  
+[userProfilePhotoEmpty](/API_docs/constructors/userProfilePhotoEmpty.html)  
 
-[userProfilePhoto](/API_docs/constructors/userProfilePhoto.md)  
+[userProfilePhoto](/API_docs/constructors/userProfilePhoto.html)  
 

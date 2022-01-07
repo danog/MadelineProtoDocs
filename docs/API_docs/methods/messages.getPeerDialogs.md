@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getPeerDialogs.html
 ---
 # Method: messages.getPeerDialogs
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Get dialog info of specified peers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peers|Array of [Username, chat ID, Update, Message or InputDialogPeer](/API_docs/types/InputDialogPeer.md) | Peers | Yes|
+|peers|Array of [Username, chat ID, Update, Message or InputDialogPeer](/API_docs/types/InputDialogPeer.html) | Peers | Yes|
 
 
-### Return type: [messages.PeerDialogs](/API_docs/types/messages.PeerDialogs.md)
+### Return type: [messages.PeerDialogs](/API_docs/types/messages.PeerDialogs.html)
 
 ### Can bots use this method: **NO**
 

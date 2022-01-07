@@ -9,7 +9,7 @@ parent: "Methods"
 
 Gets full list of dialogs
 
-### Return type: Array of [Dialog objects](API_docs/types/Dialog.md)
+### Return type: Array of [Dialog objects](API_docs/types/Dialog.html)
 
 ### Example ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 

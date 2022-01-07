@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 MadelineProto provides a unified class for logging messages to the logging destination defined in [settings](SETTINGS.html).  
 
-Use the [settings class](../PHP/danog/MadelineProto/Settings/Logger.md) to modify the default logging destination and log verbosity:  
+Use the [settings class](../PHP/danog/MadelineProto/Settings/Logger.html) to modify the default logging destination and log verbosity:  
 
 ## Example:  
 ```php

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_editPhoto.html
 ---
 # Method: channels.editPhoto
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Change the photo of a [channel/supergroup](https://core.telegram.org/api/channel
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | Channel/supergroup whose photo should be edited | Optional|
-|photo|[InputChatPhoto](/API_docs/types/InputChatPhoto.md) | New photo | Optional|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Channel/supergroup whose photo should be edited | Optional|
+|photo|[InputChatPhoto](/API_docs/types/InputChatPhoto.html) | New photo | Optional|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **YES**
 

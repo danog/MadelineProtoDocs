@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: restrictionReason  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -17,13 +17,13 @@ Contains the reason why access to a certain object must be restricted. Clients a
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|platform|[string](/API_docs/types/string.md) | Yes|Platform identifier (ios, android, wp, all, etc.), can be concatenated with a dash as separator (`android-ios`, `ios-wp`, etc)|
-|reason|[string](/API_docs/types/string.md) | Yes|Restriction reason (`porno`, `terms`, etc.)|
-|text|[string](/API_docs/types/string.md) | Yes|Error message to be shown to the user|
+|platform|[string](/API_docs/types/string.html) | Yes|Platform identifier (ios, android, wp, all, etc.), can be concatenated with a dash as separator (`android-ios`, `ios-wp`, etc)|
+|reason|[string](/API_docs/types/string.html) | Yes|Restriction reason (`porno`, `terms`, etc.)|
+|text|[string](/API_docs/types/string.html) | Yes|Error message to be shown to the user|
 
 
 
-### Type: [RestrictionReason](/API_docs/types/RestrictionReason.md)
+### Type: [RestrictionReason](/API_docs/types/RestrictionReason.html)
 
 
 ### Example:

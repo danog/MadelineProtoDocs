@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaGeoPoint\_8  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ GeoPont attached to an encrypted message.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|lat|[double](/API_docs/types/double.md) | Yes|Latitude of point|
-|long|[double](/API_docs/types/double.md) | Yes|Longtitude of point|
+|lat|[double](/API_docs/types/double.html) | Yes|Latitude of point|
+|long|[double](/API_docs/types/double.html) | Yes|Longtitude of point|
 
 
 
-### Type: [DecryptedMessageMedia](/API_docs/types/DecryptedMessageMedia.md)
+### Type: [DecryptedMessageMedia](/API_docs/types/DecryptedMessageMedia.html)
 
 
 ### Example:

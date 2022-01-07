@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_searchResultsCalendar.html
 ---
 # Constructor: messages.searchResultsCalendar  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -14,19 +14,19 @@ redirect_from: /API_docs/constructors/messages_searchResultsCalendar.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|inexact|[Bool](/API_docs/types/Bool.md) | Optional|
-|count|[int](/API_docs/types/int.md) | Yes|
-|min\_date|[int](/API_docs/types/int.md) | Yes|
-|min\_msg\_id|[int](/API_docs/types/int.md) | Yes|
-|offset\_id\_offset|[int](/API_docs/types/int.md) | Optional|
-|periods|Array of [SearchResultsCalendarPeriod](/API_docs/types/SearchResultsCalendarPeriod.md) | Yes|
-|messages|Array of [Message](/API_docs/types/Message.md) | Yes|
-|chats|Array of [Chat](/API_docs/types/Chat.md) | Yes|
-|users|Array of [User](/API_docs/types/User.md) | Yes|
+|inexact|[Bool](/API_docs/types/Bool.html) | Optional|
+|count|[int](/API_docs/types/int.html) | Yes|
+|min\_date|[int](/API_docs/types/int.html) | Yes|
+|min\_msg\_id|[int](/API_docs/types/int.html) | Yes|
+|offset\_id\_offset|[int](/API_docs/types/int.html) | Optional|
+|periods|Array of [SearchResultsCalendarPeriod](/API_docs/types/SearchResultsCalendarPeriod.html) | Yes|
+|messages|Array of [Message](/API_docs/types/Message.html) | Yes|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
+|users|Array of [User](/API_docs/types/User.html) | Yes|
 
 
 
-### Type: [messages.SearchResultsCalendar](/API_docs/types/messages.SearchResultsCalendar.md)
+### Type: [messages.SearchResultsCalendar](/API_docs/types/messages.SearchResultsCalendar.html)
 
 
 ### Example:

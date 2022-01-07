@@ -6,7 +6,7 @@ parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: invokeAfterMsg
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -16,11 +16,11 @@ Invokes a query after successfull completion of one of the previous queries.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|msg\_id|[long](/API_docs/types/long.md) | Message identifier on which a current query depends | Yes|
-|query|[!X](/API_docs/types/!X.md) | The query itself | Yes|
+|msg\_id|[long](/API_docs/types/long.html) | Message identifier on which a current query depends | Yes|
+|query|[!X](/API_docs/types/!X.html) | The query itself | Yes|
 
 
-### Return type: [X](/API_docs/types/X.md)
+### Return type: [X](/API_docs/types/X.html)
 
 ### Can bots use this method: **YES**
 

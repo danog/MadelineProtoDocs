@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_exportLoginToken.html
 ---
 # Method: auth.exportLoginToken
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -20,12 +20,12 @@ For more info, see [login via QR code](https://core.telegram.org/api/qr-login).
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|api\_id|[int](/API_docs/types/int.md) | Application identifier (see. [App configuration](https://core.telegram.org/myapp)) | Yes|
-|api\_hash|[string](/API_docs/types/string.md) | Application identifier hash (see. [App configuration](https://core.telegram.org/myapp)) | Yes|
-|except\_ids|Array of [long](/API_docs/types/long.md) | List of already logged-in user IDs, to prevent logging in twice with the same user | Yes|
+|api\_id|[int](/API_docs/types/int.html) | Application identifier (see. [App configuration](https://core.telegram.org/myapp)) | Yes|
+|api\_hash|[string](/API_docs/types/string.html) | Application identifier hash (see. [App configuration](https://core.telegram.org/myapp)) | Yes|
+|except\_ids|Array of [long](/API_docs/types/long.html) | List of already logged-in user IDs, to prevent logging in twice with the same user | Yes|
 
 
-### Return type: [auth.LoginToken](/API_docs/types/auth.LoginToken.md)
+### Return type: [auth.LoginToken](/API_docs/types/auth.LoginToken.html)
 
 ### Can bots use this method: **NO**
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionParticipantJoin  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -14,7 +14,7 @@ A user has joined the group (in the case of big groups, info of the user that ha
 
 
 
-### Type: [ChannelAdminLogEventAction](/API_docs/types/ChannelAdminLogEventAction.md)
+### Type: [ChannelAdminLogEventAction](/API_docs/types/ChannelAdminLogEventAction.html)
 
 
 ### Example:

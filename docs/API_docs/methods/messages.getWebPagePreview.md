@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getWebPagePreview.html
 ---
 # Method: messages.getWebPagePreview
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Get preview of webpage
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|message|[string](/API_docs/types/string.md) | Message from which to extract the preview | Yes|
-|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.md) | [Message entities for styled text](https://core.telegram.org/api/entities) | Optional|
-|parse\_mode| [string](/API_docs/types/string.md) | Whether to parse HTML or Markdown markup in the message| Optional |
+|message|[string](/API_docs/types/string.html) | Message from which to extract the preview | Yes|
+|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | [Message entities for styled text](https://core.telegram.org/api/entities) | Optional|
+|parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
 
 
-### Return type: [MessageMedia](/API_docs/types/MessageMedia.md)
+### Return type: [MessageMedia](/API_docs/types/MessageMedia.html)
 
 ### Can bots use this method: **NO**
 
@@ -45,7 +45,7 @@ $MessageMedia = $MadelineProto->messages->getWebPagePreview(['message' => 'strin
 
 ## Return value 
 
-If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [MessageMedia](../types/MessageMedia.md) will be returned instead.
+If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [MessageMedia](../types/MessageMedia.html) will be returned instead.
 
 
 

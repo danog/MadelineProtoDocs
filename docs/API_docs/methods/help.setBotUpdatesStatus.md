@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_setBotUpdatesStatus.html
 ---
 # Method: help.setBotUpdatesStatus
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Informs the server about the number of pending bot updates if they haven't been 
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|pending\_updates\_count|[int](/API_docs/types/int.md) | Number of pending updates | Yes|
-|message|[string](/API_docs/types/string.md) | Error message, if present | Yes|
+|pending\_updates\_count|[int](/API_docs/types/int.html) | Number of pending updates | Yes|
+|message|[string](/API_docs/types/string.html) | Error message, if present | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **YES**
 
@@ -44,6 +44,6 @@ $Bool = $MadelineProto->help->setBotUpdatesStatus(['pending_updates_count' => in
 
 ## Return value 
 
-If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [Bool](../types/Bool.md) will be returned instead.
+If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [Bool](../types/Bool.html) will be returned instead.
 
 

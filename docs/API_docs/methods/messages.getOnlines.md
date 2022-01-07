@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getOnlines.html
 ---
 # Method: messages.getOnlines
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Get count of online users in a chat
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | The chat | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The chat | Optional|
 
 
-### Return type: [ChatOnlines](/API_docs/types/ChatOnlines.md)
+### Return type: [ChatOnlines](/API_docs/types/ChatOnlines.html)
 
 ### Can bots use this method: **NO**
 

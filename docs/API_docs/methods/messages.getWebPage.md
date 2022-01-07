@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getWebPage.html
 ---
 # Method: messages.getWebPage
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Get [instant view](https://instantview.telegram.org) page
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|url|[string](/API_docs/types/string.md) | URL of IV page to fetch | Yes|
-|hash|Array of [int](/API_docs/types/int.md) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|url|[string](/API_docs/types/string.html) | URL of IV page to fetch | Yes|
+|hash|Array of [int](/API_docs/types/int.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
-### Return type: [WebPage](/API_docs/types/WebPage.md)
+### Return type: [WebPage](/API_docs/types/WebPage.html)
 
 ### Can bots use this method: **NO**
 

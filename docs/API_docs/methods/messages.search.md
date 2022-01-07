@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_search.html
 ---
 # Method: messages.search
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,22 +17,22 @@ Gets back found messages
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | User or chat, histories with which are searched, or [(inputPeerEmpty)](../constructors/inputPeerEmpty.md) constructor for global search | Optional|
-|q|[string](/API_docs/types/string.md) | Text search request | Yes|
-|from\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Only return messages sent by the specified user ID | Optional|
-|top\_msg\_id|[int](/API_docs/types/int.md) | [Thread ID](https://core.telegram.org/api/threads) | Optional|
-|filter|[MessagesFilter](/API_docs/types/MessagesFilter.md) | Filter to return only specified message types | Optional|
-|min\_date|[int](/API_docs/types/int.md) | If a positive value was transferred, only messages with a sending date bigger than the transferred one will be returned | Yes|
-|max\_date|[int](/API_docs/types/int.md) | If a positive value was transferred, only messages with a sending date smaller than the transferred one will be returned | Yes|
-|offset\_id|[int](/API_docs/types/int.md) | Only return messages starting from the specified message ID | Yes|
-|add\_offset|[int](/API_docs/types/int.md) | [Additional offset](https://core.telegram.org/api/offsets) | Yes|
-|limit|[int](/API_docs/types/int.md) | [Number of results to return](https://core.telegram.org/api/offsets) | Yes|
-|max\_id|[int](/API_docs/types/int.md) | [Maximum message ID to return](https://core.telegram.org/api/offsets) | Yes|
-|min\_id|[int](/API_docs/types/int.md) | [Minimum message ID to return](https://core.telegram.org/api/offsets) | Yes|
-|hash|[long](/API_docs/types/long.md) |  | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | User or chat, histories with which are searched, or [(inputPeerEmpty)](../constructors/inputPeerEmpty.html) constructor for global search | Optional|
+|q|[string](/API_docs/types/string.html) | Text search request | Yes|
+|from\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Only return messages sent by the specified user ID | Optional|
+|top\_msg\_id|[int](/API_docs/types/int.html) | [Thread ID](https://core.telegram.org/api/threads) | Optional|
+|filter|[MessagesFilter](/API_docs/types/MessagesFilter.html) | Filter to return only specified message types | Optional|
+|min\_date|[int](/API_docs/types/int.html) | If a positive value was transferred, only messages with a sending date bigger than the transferred one will be returned | Yes|
+|max\_date|[int](/API_docs/types/int.html) | If a positive value was transferred, only messages with a sending date smaller than the transferred one will be returned | Yes|
+|offset\_id|[int](/API_docs/types/int.html) | Only return messages starting from the specified message ID | Yes|
+|add\_offset|[int](/API_docs/types/int.html) | [Additional offset](https://core.telegram.org/api/offsets) | Yes|
+|limit|[int](/API_docs/types/int.html) | [Number of results to return](https://core.telegram.org/api/offsets) | Yes|
+|max\_id|[int](/API_docs/types/int.html) | [Maximum message ID to return](https://core.telegram.org/api/offsets) | Yes|
+|min\_id|[int](/API_docs/types/int.html) | [Minimum message ID to return](https://core.telegram.org/api/offsets) | Yes|
+|hash|[long](/API_docs/types/long.html) |  | Yes|
 
 
-### Return type: [messages.Messages](/API_docs/types/messages.Messages.md)
+### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)
 
 ### Can bots use this method: **NO**
 

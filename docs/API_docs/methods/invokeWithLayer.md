@@ -6,7 +6,7 @@ parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: invokeWithLayer
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -16,11 +16,11 @@ Invoke the specified query using the specified API [layer](https://core.telegram
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|layer|[int](/API_docs/types/int.md) | The layer to use | Yes|
-|query|[!X](/API_docs/types/!X.md) | The query | Yes|
+|layer|[int](/API_docs/types/int.html) | The layer to use | Yes|
+|query|[!X](/API_docs/types/!X.html) | The query | Yes|
 
 
-### Return type: [X](/API_docs/types/X.md)
+### Return type: [X](/API_docs/types/X.html)
 
 ### Can bots use this method: **YES**
 

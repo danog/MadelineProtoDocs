@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageMediaDocument  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ Document (video, audio, voice, sticker, any media type except photo)
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|document|[Document](/API_docs/types/Document.md) | Optional|Attached document|
-|ttl\_seconds|[int](/API_docs/types/int.md) | Optional|Time to live of self-destructing document|
+|document|[Document](/API_docs/types/Document.html) | Optional|Attached document|
+|ttl\_seconds|[int](/API_docs/types/int.html) | Optional|Time to live of self-destructing document|
 
 
 
-### Type: [MessageMedia](/API_docs/types/MessageMedia.md)
+### Type: [MessageMedia](/API_docs/types/MessageMedia.html)
 
 
 ### Example:

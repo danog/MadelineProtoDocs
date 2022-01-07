@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: botInlineMessageMediaContact  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,15 +15,15 @@ Send a contact
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|phone\_number|[string](/API_docs/types/string.md) | Yes|Phone number|
-|first\_name|[string](/API_docs/types/string.md) | Yes|First name|
-|last\_name|[string](/API_docs/types/string.md) | Yes|Last name|
-|vcard|[string](/API_docs/types/string.md) | Yes|VCard info|
-|reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.md) | Optional|Inline keyboard|
+|phone\_number|[string](/API_docs/types/string.html) | Yes|Phone number|
+|first\_name|[string](/API_docs/types/string.html) | Yes|First name|
+|last\_name|[string](/API_docs/types/string.html) | Yes|Last name|
+|vcard|[string](/API_docs/types/string.html) | Yes|VCard info|
+|reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.html) | Optional|Inline keyboard|
 
 
 
-### Type: [BotInlineMessage](/API_docs/types/BotInlineMessage.md)
+### Type: [BotInlineMessage](/API_docs/types/BotInlineMessage.html)
 
 
 ### Example:

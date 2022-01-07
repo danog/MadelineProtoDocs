@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/phone_requestCall.html
 ---
 # Method: phone.requestCall
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,13 +17,13 @@ You cannot use this method directly, see https://docs.madelineproto.xyz#calls fo
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|video|[Bool](/API_docs/types/Bool.md) | Whether to start a video call | Optional|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | Destination of the phone call | Optional|
-|g\_a\_hash|[bytes](/API_docs/types/bytes.md) | [Parameter for E2E encryption key exchange »](https://core.telegram.org/api/end-to-end/voice-calls) | Yes|
-|protocol|[PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.md) | Phone call settings | Yes|
+|video|[Bool](/API_docs/types/Bool.html) | Whether to start a video call | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Destination of the phone call | Optional|
+|g\_a\_hash|[bytes](/API_docs/types/bytes.html) | [Parameter for E2E encryption key exchange »](https://core.telegram.org/api/end-to-end/voice-calls) | Yes|
+|protocol|[PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html) | Phone call settings | Yes|
 
 
-### Return type: [phone.PhoneCall](/API_docs/types/phone.PhoneCall.md)
+### Return type: [phone.PhoneCall](/API_docs/types/phone.PhoneCall.html)
 
 ### Can bots use this method: **NO**
 

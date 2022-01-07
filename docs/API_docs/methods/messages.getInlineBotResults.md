@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getInlineBotResults.html
 ---
 # Method: messages.getInlineBotResults
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,14 +17,14 @@ Query an inline bot
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | The bot to query | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | The currently opened chat | Optional|
-|geo\_point|[InputGeoPoint](/API_docs/types/InputGeoPoint.md) | The geolocation, if requested | Optional|
-|query|[string](/API_docs/types/string.md) | The query | Yes|
-|offset|[string](/API_docs/types/string.md) | The offset within the results, will be passed directly as-is to the bot. | Yes|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The bot to query | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The currently opened chat | Optional|
+|geo\_point|[InputGeoPoint](/API_docs/types/InputGeoPoint.html) | The geolocation, if requested | Optional|
+|query|[string](/API_docs/types/string.html) | The query | Yes|
+|offset|[string](/API_docs/types/string.html) | The offset within the results, will be passed directly as-is to the bot. | Yes|
 
 
-### Return type: [messages.BotResults](/API_docs/types/messages.BotResults.md)
+### Return type: [messages.BotResults](/API_docs/types/messages.BotResults.html)
 
 ### Can bots use this method: **NO**
 

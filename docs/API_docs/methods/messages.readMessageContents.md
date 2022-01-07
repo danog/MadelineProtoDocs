@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_readMessageContents.html
 ---
 # Method: messages.readMessageContents
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Notifies the sender about the recipient having listened a voice message or watch
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|Array of [int](/API_docs/types/int.md) | Message ID list | Yes|
+|id|Array of [int](/API_docs/types/int.html) | Message ID list | Yes|
 
 
-### Return type: [messages.AffectedMessages](/API_docs/types/messages.AffectedMessages.md)
+### Return type: [messages.AffectedMessages](/API_docs/types/messages.AffectedMessages.html)
 
 ### Can bots use this method: **NO**
 

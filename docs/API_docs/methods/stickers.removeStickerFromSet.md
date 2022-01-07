@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/stickers_removeStickerFromSet.html
 ---
 # Method: stickers.removeStickerFromSet
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Remove a sticker from the set where it belongs, bots only. The sticker set must 
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|sticker|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.md) | The sticker to remove | Optional|
+|sticker|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | The sticker to remove | Optional|
 
 
-### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.md)
+### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.html)
 
 ### Can bots use this method: **YES**
 

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/users_setSecureValueErrors.html
 ---
 # Method: users.setSecureValueErrors
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -19,11 +19,11 @@ Use this if the data submitted by the user doesn't satisfy the standards your se
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | The user | Optional|
-|errors|Array of [SecureValueError](/API_docs/types/SecureValueError.md) | Errors | Yes|
+|id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The user | Optional|
+|errors|Array of [SecureValueError](/API_docs/types/SecureValueError.html) | Errors | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **YES**
 

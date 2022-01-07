@@ -5,15 +5,15 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputWebFileLocation
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inputWebFileLocation](/API_docs/constructors/inputWebFileLocation.md)  
+[inputWebFileLocation](/API_docs/constructors/inputWebFileLocation.html)  
 
-[inputWebFileGeoPointLocation](/API_docs/constructors/inputWebFileGeoPointLocation.md)  
+[inputWebFileGeoPointLocation](/API_docs/constructors/inputWebFileGeoPointLocation.html)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputWebFileLocation](/API_docs/constructors/inputWebFileLocation.md)  
+[inputWebFileLocation](/API_docs/constructors/inputWebFileLocation.html)  
 
-[inputWebFileGeoPointLocation](/API_docs/constructors/inputWebFileGeoPointLocation.md)  
+[inputWebFileGeoPointLocation](/API_docs/constructors/inputWebFileGeoPointLocation.html)  
 

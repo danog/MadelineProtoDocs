@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_setAccountTTL.html
 ---
 # Method: account.setAccountTTL
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Set account self-destruction period
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|ttl|[AccountDaysTTL](/API_docs/types/AccountDaysTTL.md) | Time to live in days | Yes|
+|ttl|[AccountDaysTTL](/API_docs/types/AccountDaysTTL.html) | Time to live in days | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

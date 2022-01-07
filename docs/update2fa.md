@@ -15,7 +15,7 @@ The params array can contain password (current password), new_password, email (o
 |----------|---------------|
 |params|An array of parameters|
 
-### Return type: [Bool](API_docs/types/Bool.md)
+### Return type: [Bool](API_docs/types/Bool.html)
 
 ### Example ([now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
 

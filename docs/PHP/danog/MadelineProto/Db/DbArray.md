@@ -6,7 +6,7 @@ parent: "MadelineProto API"
 
 ---
 # `danog\MadelineProto\Db\DbArray`
-[Back to index](../../../index.md)
+[Back to index](../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
@@ -197,7 +197,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Database\DatabaseAbstract`: Base class for database backends.](../Settings/Database/DatabaseAbstract.md)
+* [`\danog\MadelineProto\Settings\Database\DatabaseAbstract`: Base class for database backends.](../Settings/Database/DatabaseAbstract.html)
 * `\Amp\Promise`
 
 

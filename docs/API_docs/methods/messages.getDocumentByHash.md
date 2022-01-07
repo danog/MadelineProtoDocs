@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getDocumentByHash.html
 ---
 # Method: messages.getDocumentByHash
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Get a document by its SHA256 hash, mainly used for gifs
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|sha256|[bytes](/API_docs/types/bytes.md) | SHA256 of file | Yes|
-|size|[int](/API_docs/types/int.md) | Size of the file in bytes | Yes|
-|mime\_type|[string](/API_docs/types/string.md) | Mime type | Yes|
+|sha256|[bytes](/API_docs/types/bytes.html) | SHA256 of file | Yes|
+|size|[int](/API_docs/types/int.html) | Size of the file in bytes | Yes|
+|mime\_type|[string](/API_docs/types/string.html) | Mime type | Yes|
 
 
-### Return type: [Document](/API_docs/types/Document.md)
+### Return type: [Document](/API_docs/types/Document.html)
 
 ### Can bots use this method: **YES**
 

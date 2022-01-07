@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getCdnConfig.html
 ---
 # Method: help.getCdnConfig
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ Get configuration for [CDN](https://core.telegram.org/cdn) file downloads.
 
 
 
-### Return type: [CdnConfig](/API_docs/types/CdnConfig.md)
+### Return type: [CdnConfig](/API_docs/types/CdnConfig.html)
 
 ### Can bots use this method: **YES**
 

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getTmpPassword.html
 ---
 # Method: account.getTmpPassword
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Get temporary payment password
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.md) | SRP password parameters | Yes|
-|period|[int](/API_docs/types/int.md) | Time during which the temporary password will be valid, in seconds; should be between 60 and 86400 | Yes|
+|password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html) | SRP password parameters | Yes|
+|period|[int](/API_docs/types/int.html) | Time during which the temporary password will be valid, in seconds; should be between 60 and 86400 | Yes|
 
 
-### Return type: [account.TmpPassword](/API_docs/types/account.TmpPassword.md)
+### Return type: [account.TmpPassword](/API_docs/types/account.TmpPassword.html)
 
 ### Can bots use this method: **NO**
 

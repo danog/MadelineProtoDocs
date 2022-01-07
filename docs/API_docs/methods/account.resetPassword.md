@@ -7,13 +7,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_resetPassword.html
 ---
 # Method: account.resetPassword
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
 
 
-### Return type: [account.ResetPasswordResult](/API_docs/types/account.ResetPasswordResult.md)
+### Return type: [account.ResetPasswordResult](/API_docs/types/account.ResetPasswordResult.html)
 
 ### Can bots use this method: **NO**
 

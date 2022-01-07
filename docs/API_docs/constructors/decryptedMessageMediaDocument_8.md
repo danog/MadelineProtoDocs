@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: decryptedMessageMediaDocument\_8  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,16 +15,16 @@ Document attached to a message in a secret chat.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|thumb|[bytes](/API_docs/types/bytes.md) | Yes|Thumbnail-file contents (JPEG-file, quality 55, set in a 90x90 square)|
-|thumb\_w|[int](/API_docs/types/int.md) | Yes|Thumbnail width|
-|thumb\_h|[int](/API_docs/types/int.md) | Yes|Thumbnail height|
-|file\_name|[string](/API_docs/types/string.md) | Yes|
-|mime\_type|[string](/API_docs/types/string.md) | Yes|File MIME-type|
-|size|[int](/API_docs/types/int.md) | Yes|Document size|
+|thumb|[bytes](/API_docs/types/bytes.html) | Yes|Thumbnail-file contents (JPEG-file, quality 55, set in a 90x90 square)|
+|thumb\_w|[int](/API_docs/types/int.html) | Yes|Thumbnail width|
+|thumb\_h|[int](/API_docs/types/int.html) | Yes|Thumbnail height|
+|file\_name|[string](/API_docs/types/string.html) | Yes|
+|mime\_type|[string](/API_docs/types/string.html) | Yes|File MIME-type|
+|size|[int](/API_docs/types/int.html) | Yes|Document size|
 
 
 
-### Type: [DecryptedMessageMedia](/API_docs/types/DecryptedMessageMedia.md)
+### Type: [DecryptedMessageMedia](/API_docs/types/DecryptedMessageMedia.html)
 
 
 ### Example:

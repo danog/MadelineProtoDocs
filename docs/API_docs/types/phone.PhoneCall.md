@@ -6,31 +6,31 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/phone_PhoneCall.html
 ---
 # Type: phone.PhoneCall
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[phone.phoneCall](/API_docs/constructors/phone.phoneCall.md)  
+[phone.phoneCall](/API_docs/constructors/phone.phoneCall.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->phone->requestCall](/API_docs/methods/phone.requestCall.md)  
+[$MadelineProto->phone->requestCall](/API_docs/methods/phone.requestCall.html)  
 
-[$MadelineProto->phone->acceptCall](/API_docs/methods/phone.acceptCall.md)  
+[$MadelineProto->phone->acceptCall](/API_docs/methods/phone.acceptCall.html)  
 
-[$MadelineProto->phone->confirmCall](/API_docs/methods/phone.confirmCall.md)  
+[$MadelineProto->phone->confirmCall](/API_docs/methods/phone.confirmCall.html)  
 
 
 
-[phone.phoneCall](/API_docs/constructors/phone.phoneCall.md)  
+[phone.phoneCall](/API_docs/constructors/phone.phoneCall.html)  
 
-[$MadelineProto->phone->requestCall](/API_docs/methods/phone.requestCall.md)  
+[$MadelineProto->phone->requestCall](/API_docs/methods/phone.requestCall.html)  
 
-[$MadelineProto->phone->acceptCall](/API_docs/methods/phone.acceptCall.md)  
+[$MadelineProto->phone->acceptCall](/API_docs/methods/phone.acceptCall.html)  
 
-[$MadelineProto->phone->confirmCall](/API_docs/methods/phone.confirmCall.md)  
+[$MadelineProto->phone->confirmCall](/API_docs/methods/phone.confirmCall.html)  
 

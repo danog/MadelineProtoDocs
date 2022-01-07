@@ -5,23 +5,23 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: NearestDc
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[nearestDc](/API_docs/constructors/nearestDc.md)  
+[nearestDc](/API_docs/constructors/nearestDc.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->help->getNearestDc](/API_docs/methods/help.getNearestDc.md)  
+[$MadelineProto->help->getNearestDc](/API_docs/methods/help.getNearestDc.html)  
 
 
 
-[nearestDc](/API_docs/constructors/nearestDc.md)  
+[nearestDc](/API_docs/constructors/nearestDc.html)  
 
-[$MadelineProto->help->getNearestDc](/API_docs/methods/help.getNearestDc.md)  
+[$MadelineProto->help->getNearestDc](/API_docs/methods/help.getNearestDc.html)  
 

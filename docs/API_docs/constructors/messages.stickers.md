@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_stickers.html
 ---
 # Constructor: messages.stickers  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,12 +16,12 @@ Found stickers
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[long](/API_docs/types/long.md) | Yes|
-|stickers|Array of [Document](/API_docs/types/Document.md) | Yes|Stickers|
+|hash|[long](/API_docs/types/long.html) | Yes|
+|stickers|Array of [Document](/API_docs/types/Document.html) | Yes|Stickers|
 
 
 
-### Type: [messages.Stickers](/API_docs/types/messages.Stickers.md)
+### Type: [messages.Stickers](/API_docs/types/messages.Stickers.html)
 
 
 ### Example:

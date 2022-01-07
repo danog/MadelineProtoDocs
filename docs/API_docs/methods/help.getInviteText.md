@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getInviteText.html
 ---
 # Method: help.getInviteText
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,7 +15,7 @@ Returns localized text of a text message with an invitation.
 
 
 
-### Return type: [help.InviteText](/API_docs/types/help.InviteText.md)
+### Return type: [help.InviteText](/API_docs/types/help.InviteText.html)
 
 ### Can bots use this method: **NO**
 

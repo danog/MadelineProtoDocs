@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: ChannelAdminLogEventsFilter
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[channelAdminLogEventsFilter](/API_docs/constructors/channelAdminLogEventsFilter.md)  
+[channelAdminLogEventsFilter](/API_docs/constructors/channelAdminLogEventsFilter.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[channelAdminLogEventsFilter](/API_docs/constructors/channelAdminLogEventsFilter.md)  
+[channelAdminLogEventsFilter](/API_docs/constructors/channelAdminLogEventsFilter.html)  
 

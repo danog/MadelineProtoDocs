@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_resendCode.html
 ---
 # Method: auth.resendCode
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Resend the login code via another medium, the phone code type is determined by t
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](/API_docs/types/string.md) | The phone number | Yes|
-|phone\_code\_hash|[string](/API_docs/types/string.md) | The phone code hash obtained from [auth.sendCode](../methods/auth.sendCode.md) | Yes|
+|phone\_number|[string](/API_docs/types/string.html) | The phone number | Yes|
+|phone\_code\_hash|[string](/API_docs/types/string.html) | The phone code hash obtained from [auth.sendCode](../methods/auth.sendCode.html) | Yes|
 
 
-### Return type: [auth.SentCode](/API_docs/types/auth.SentCode.md)
+### Return type: [auth.SentCode](/API_docs/types/auth.SentCode.html)
 
 ### Can bots use this method: **NO**
 

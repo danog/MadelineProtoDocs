@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: secureValueErrorFrontSide  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,13 +15,13 @@ Represents an issue with the front side of a document. The error is considered r
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|type|[SecureValueType](/API_docs/types/SecureValueType.md) | Yes|One of [secureValueTypePassport](../constructors/secureValueTypePassport.md), [secureValueTypeDriverLicense](../constructors/secureValueTypeDriverLicense.md), [secureValueTypeIdentityCard](../constructors/secureValueTypeIdentityCard.md), [secureValueTypeInternalPassport](../constructors/secureValueTypeInternalPassport.md)|
-|file\_hash|[bytes](/API_docs/types/bytes.md) | Yes|File hash|
-|text|[string](/API_docs/types/string.md) | Yes|Error message|
+|type|[SecureValueType](/API_docs/types/SecureValueType.html) | Yes|One of [secureValueTypePassport](../constructors/secureValueTypePassport.html), [secureValueTypeDriverLicense](../constructors/secureValueTypeDriverLicense.html), [secureValueTypeIdentityCard](../constructors/secureValueTypeIdentityCard.html), [secureValueTypeInternalPassport](../constructors/secureValueTypeInternalPassport.html)|
+|file\_hash|[bytes](/API_docs/types/bytes.html) | Yes|File hash|
+|text|[string](/API_docs/types/string.html) | Yes|Error message|
 
 
 
-### Type: [SecureValueError](/API_docs/types/SecureValueError.md)
+### Type: [SecureValueError](/API_docs/types/SecureValueError.html)
 
 
 ### Example:

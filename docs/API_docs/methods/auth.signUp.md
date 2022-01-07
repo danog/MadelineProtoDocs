@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_signUp.html
 ---
 # Method: auth.signUp
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,13 +17,13 @@ You cannot use this method directly, use the completeSignup method instead (see 
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](/API_docs/types/string.md) | Phone number in the international format | Yes|
-|phone\_code\_hash|[string](/API_docs/types/string.md) | SMS-message ID | Yes|
-|first\_name|[string](/API_docs/types/string.md) | New user first name | Yes|
-|last\_name|[string](/API_docs/types/string.md) | New user last name | Yes|
+|phone\_number|[string](/API_docs/types/string.html) | Phone number in the international format | Yes|
+|phone\_code\_hash|[string](/API_docs/types/string.html) | SMS-message ID | Yes|
+|first\_name|[string](/API_docs/types/string.html) | New user first name | Yes|
+|last\_name|[string](/API_docs/types/string.html) | New user last name | Yes|
 
 
-### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.md)
+### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.html)
 
 ### Can bots use this method: **NO**
 

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_confirmPasswordEmail.html
 ---
 # Method: account.confirmPasswordEmail
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Verify an email to use as [2FA recovery method](https://core.telegram.org/api/sr
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|code|[string](/API_docs/types/string.md) | The phone code that was received after [setting a recovery email](https://core.telegram.org/api/srp#email-verification) | Yes|
+|code|[string](/API_docs/types/string.html) | The phone code that was received after [setting a recovery email](https://core.telegram.org/api/srp#email-verification) | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

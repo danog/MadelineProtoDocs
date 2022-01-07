@@ -6,13 +6,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/help_Country.html
 ---
 # Type: help.Country
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[help.country](/API_docs/constructors/help.country.md)  
+[help.country](/API_docs/constructors/help.country.html)  
 
 
 
@@ -20,5 +20,5 @@ redirect_from: /API_docs/types/help_Country.html
 
 
 
-[help.country](/API_docs/constructors/help.country.md)  
+[help.country](/API_docs/constructors/help.country.html)  
 

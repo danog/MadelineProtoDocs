@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_recentStickersNotModified.html
 ---
 # Constructor: messages.recentStickersNotModified  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,7 +15,7 @@ No new recent sticker was found
 
 
 
-### Type: [messages.RecentStickers](/API_docs/types/messages.RecentStickers.md)
+### Type: [messages.RecentStickers](/API_docs/types/messages.RecentStickers.html)
 
 
 ### Example:

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: documentAttributeAudio  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,15 +15,15 @@ Represents an audio file
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|voice|[Bool](/API_docs/types/Bool.md) | Optional|Whether this is a voice message|
-|duration|[int](/API_docs/types/int.md) | Optional|Duration in seconds|
-|title|[string](/API_docs/types/string.md) | Optional|Name of song|
-|performer|[string](/API_docs/types/string.md) | Optional|Performer|
-|waveform|[bytes](/API_docs/types/bytes.md) | Optional|Waveform|
+|voice|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a voice message|
+|duration|[int](/API_docs/types/int.html) | Optional|Duration in seconds|
+|title|[string](/API_docs/types/string.html) | Optional|Name of song|
+|performer|[string](/API_docs/types/string.html) | Optional|Performer|
+|waveform|[bytes](/API_docs/types/bytes.html) | Optional|Waveform|
 
 
 
-### Type: [DocumentAttribute](/API_docs/types/DocumentAttribute.md)
+### Type: [DocumentAttribute](/API_docs/types/DocumentAttribute.html)
 
 
 ### Example:

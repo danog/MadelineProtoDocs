@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: messageActionChatJoinedByLink  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,11 +15,11 @@ A user joined the chat via an invite link
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|inviter\_id|[long](/API_docs/types/long.md) | Yes|
+|inviter\_id|[long](/API_docs/types/long.html) | Yes|
 
 
 
-### Type: [MessageAction](/API_docs/types/MessageAction.md)
+### Type: [MessageAction](/API_docs/types/MessageAction.html)
 
 
 ### Example:

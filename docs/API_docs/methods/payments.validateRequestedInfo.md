@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/payments_validateRequestedInfo.html
 ---
 # Method: payments.validateRequestedInfo
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,13 +17,13 @@ Submit requested order information for validation
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|save|[Bool](/API_docs/types/Bool.md) | Save order information to re-use it for future orders | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) |  | Optional|
-|msg\_id|[int](/API_docs/types/int.md) | Message ID of payment form | Yes|
-|info|[PaymentRequestedInfo](/API_docs/types/PaymentRequestedInfo.md) | Requested order information | Yes|
+|save|[Bool](/API_docs/types/Bool.html) | Save order information to re-use it for future orders | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | Message ID of payment form | Yes|
+|info|[PaymentRequestedInfo](/API_docs/types/PaymentRequestedInfo.html) | Requested order information | Yes|
 
 
-### Return type: [payments.ValidatedRequestedInfo](/API_docs/types/payments.ValidatedRequestedInfo.md)
+### Return type: [payments.ValidatedRequestedInfo](/API_docs/types/payments.ValidatedRequestedInfo.html)
 
 ### Can bots use this method: **NO**
 

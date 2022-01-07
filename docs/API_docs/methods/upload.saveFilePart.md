@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/upload_saveFilePart.html
 ---
 # Method: upload.saveFilePart
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|file\_id|[long](/API_docs/types/long.md) | Random file identifier created by the client | Yes|
-|file\_part|[int](/API_docs/types/int.md) | Numerical order of a part | Yes|
-|bytes|[bytes](/API_docs/types/bytes.md) | Binary data, contend of a part | Yes|
+|file\_id|[long](/API_docs/types/long.html) | Random file identifier created by the client | Yes|
+|file\_part|[int](/API_docs/types/int.html) | Numerical order of a part | Yes|
+|bytes|[bytes](/API_docs/types/bytes.html) | Binary data, contend of a part | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **YES**
 

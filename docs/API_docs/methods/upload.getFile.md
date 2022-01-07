@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/upload_getFile.html
 ---
 # Method: upload.getFile
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,14 +17,14 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|precise|[Bool](/API_docs/types/Bool.md) | Disable some checks on limit and offset values, useful for example to stream videos by keyframes | Optional|
-|cdn\_supported|[Bool](/API_docs/types/Bool.md) | Whether the current client supports [CDN downloads](https://core.telegram.org/cdn) | Optional|
-|location|[InputFileLocation](/API_docs/types/InputFileLocation.md) | File location | Yes|
-|offset|[int](/API_docs/types/int.md) | Number of bytes to be skipped | Yes|
-|limit|[int](/API_docs/types/int.md) | Number of bytes to be returned | Yes|
+|precise|[Bool](/API_docs/types/Bool.html) | Disable some checks on limit and offset values, useful for example to stream videos by keyframes | Optional|
+|cdn\_supported|[Bool](/API_docs/types/Bool.html) | Whether the current client supports [CDN downloads](https://core.telegram.org/cdn) | Optional|
+|location|[InputFileLocation](/API_docs/types/InputFileLocation.html) | File location | Yes|
+|offset|[int](/API_docs/types/int.html) | Number of bytes to be skipped | Yes|
+|limit|[int](/API_docs/types/int.html) | Number of bytes to be returned | Yes|
 
 
-### Return type: [upload.File](/API_docs/types/upload.File.md)
+### Return type: [upload.File](/API_docs/types/upload.File.html)
 
 ### Can bots use this method: **YES**
 

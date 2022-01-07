@@ -5,25 +5,25 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputBotInlineMessage
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inputBotInlineMessageMediaAuto](/API_docs/constructors/inputBotInlineMessageMediaAuto.md)  
+[inputBotInlineMessageMediaAuto](/API_docs/constructors/inputBotInlineMessageMediaAuto.html)  
 
-[inputBotInlineMessageText](/API_docs/constructors/inputBotInlineMessageText.md)  
+[inputBotInlineMessageText](/API_docs/constructors/inputBotInlineMessageText.html)  
 
-[inputBotInlineMessageMediaGeo](/API_docs/constructors/inputBotInlineMessageMediaGeo.md)  
+[inputBotInlineMessageMediaGeo](/API_docs/constructors/inputBotInlineMessageMediaGeo.html)  
 
-[inputBotInlineMessageMediaVenue](/API_docs/constructors/inputBotInlineMessageMediaVenue.md)  
+[inputBotInlineMessageMediaVenue](/API_docs/constructors/inputBotInlineMessageMediaVenue.html)  
 
-[inputBotInlineMessageMediaContact](/API_docs/constructors/inputBotInlineMessageMediaContact.md)  
+[inputBotInlineMessageMediaContact](/API_docs/constructors/inputBotInlineMessageMediaContact.html)  
 
-[inputBotInlineMessageGame](/API_docs/constructors/inputBotInlineMessageGame.md)  
+[inputBotInlineMessageGame](/API_docs/constructors/inputBotInlineMessageGame.html)  
 
-[inputBotInlineMessageMediaInvoice](/API_docs/constructors/inputBotInlineMessageMediaInvoice.md)  
+[inputBotInlineMessageMediaInvoice](/API_docs/constructors/inputBotInlineMessageMediaInvoice.html)  
 
 
 
@@ -31,17 +31,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputBotInlineMessageMediaAuto](/API_docs/constructors/inputBotInlineMessageMediaAuto.md)  
+[inputBotInlineMessageMediaAuto](/API_docs/constructors/inputBotInlineMessageMediaAuto.html)  
 
-[inputBotInlineMessageText](/API_docs/constructors/inputBotInlineMessageText.md)  
+[inputBotInlineMessageText](/API_docs/constructors/inputBotInlineMessageText.html)  
 
-[inputBotInlineMessageMediaGeo](/API_docs/constructors/inputBotInlineMessageMediaGeo.md)  
+[inputBotInlineMessageMediaGeo](/API_docs/constructors/inputBotInlineMessageMediaGeo.html)  
 
-[inputBotInlineMessageMediaVenue](/API_docs/constructors/inputBotInlineMessageMediaVenue.md)  
+[inputBotInlineMessageMediaVenue](/API_docs/constructors/inputBotInlineMessageMediaVenue.html)  
 
-[inputBotInlineMessageMediaContact](/API_docs/constructors/inputBotInlineMessageMediaContact.md)  
+[inputBotInlineMessageMediaContact](/API_docs/constructors/inputBotInlineMessageMediaContact.html)  
 
-[inputBotInlineMessageGame](/API_docs/constructors/inputBotInlineMessageGame.md)  
+[inputBotInlineMessageGame](/API_docs/constructors/inputBotInlineMessageGame.html)  
 
-[inputBotInlineMessageMediaInvoice](/API_docs/constructors/inputBotInlineMessageMediaInvoice.md)  
+[inputBotInlineMessageMediaInvoice](/API_docs/constructors/inputBotInlineMessageMediaInvoice.html)  
 

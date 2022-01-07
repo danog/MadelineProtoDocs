@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: cdnPublicKey  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ Public key to use **only** during handshakes to [CDN](https://core.telegram.org/
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|dc\_id|[int](/API_docs/types/int.md) | Yes|[CDN DC](https://core.telegram.org/cdn) ID|
-|public\_key|[string](/API_docs/types/string.md) | Yes|RSA public key|
+|dc\_id|[int](/API_docs/types/int.html) | Yes|[CDN DC](https://core.telegram.org/cdn) ID|
+|public\_key|[string](/API_docs/types/string.html) | Yes|RSA public key|
 
 
 
-### Type: [CdnPublicKey](/API_docs/types/CdnPublicKey.md)
+### Type: [CdnPublicKey](/API_docs/types/CdnPublicKey.html)
 
 
 ### Example:

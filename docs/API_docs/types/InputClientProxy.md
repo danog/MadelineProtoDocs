@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputClientProxy
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inputClientProxy](/API_docs/constructors/inputClientProxy.md)  
+[inputClientProxy](/API_docs/constructors/inputClientProxy.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputClientProxy](/API_docs/constructors/inputClientProxy.md)  
+[inputClientProxy](/API_docs/constructors/inputClientProxy.html)  
 

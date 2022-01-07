@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_privacyRules.html
 ---
 # Constructor: account.privacyRules  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,13 +16,13 @@ Privacy rules
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|rules|Array of [PrivacyRule](/API_docs/types/PrivacyRule.md) | Yes|Privacy rules|
-|chats|Array of [Chat](/API_docs/types/Chat.md) | Yes|Chats to which the rules apply|
-|users|Array of [User](/API_docs/types/User.md) | Yes|Users to which the rules apply|
+|rules|Array of [PrivacyRule](/API_docs/types/PrivacyRule.html) | Yes|Privacy rules|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Chats to which the rules apply|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Users to which the rules apply|
 
 
 
-### Type: [account.PrivacyRules](/API_docs/types/account.PrivacyRules.md)
+### Type: [account.PrivacyRules](/API_docs/types/account.PrivacyRules.html)
 
 
 ### Example:

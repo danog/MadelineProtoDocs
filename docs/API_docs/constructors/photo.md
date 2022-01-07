@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: photo  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,18 +15,18 @@ Photo
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|has\_stickers|[Bool](/API_docs/types/Bool.md) | Optional|Whether the photo has mask stickers attached to it|
-|id|[long](/API_docs/types/long.md) | Yes|ID|
-|access\_hash|[long](/API_docs/types/long.md) | Yes|Access hash|
-|file\_reference|[bytes](/API_docs/types/bytes.md) | Yes|[file reference](https://core.telegram.org/api/file_reference)|
-|date|[int](/API_docs/types/int.md) | Yes|Date of upload|
-|sizes|Array of [PhotoSize](/API_docs/types/PhotoSize.md) | Yes|Available sizes for download|
-|video\_sizes|Array of [VideoSize](/API_docs/types/VideoSize.md) | Optional|[For animated profiles](https://core.telegram.org/api/files#animated-profile-pictures), the MPEG4 videos|
-|dc\_id|[int](/API_docs/types/int.md) | Yes|DC ID to use for download|
+|has\_stickers|[Bool](/API_docs/types/Bool.html) | Optional|Whether the photo has mask stickers attached to it|
+|id|[long](/API_docs/types/long.html) | Yes|ID|
+|access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash|
+|file\_reference|[bytes](/API_docs/types/bytes.html) | Yes|[file reference](https://core.telegram.org/api/file_reference)|
+|date|[int](/API_docs/types/int.html) | Yes|Date of upload|
+|sizes|Array of [PhotoSize](/API_docs/types/PhotoSize.html) | Yes|Available sizes for download|
+|video\_sizes|Array of [VideoSize](/API_docs/types/VideoSize.html) | Optional|[For animated profiles](https://core.telegram.org/api/files#animated-profile-pictures), the MPEG4 videos|
+|dc\_id|[int](/API_docs/types/int.html) | Yes|DC ID to use for download|
 
 
 
-### Type: [Photo](/API_docs/types/Photo.md)
+### Type: [Photo](/API_docs/types/Photo.html)
 
 
 ### Example:

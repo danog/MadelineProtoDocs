@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/payments_savedInfo.html
 ---
 # Constructor: payments.savedInfo  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,12 +16,12 @@ Saved server-side order information
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|has\_saved\_credentials|[Bool](/API_docs/types/Bool.md) | Optional|Whether the user has some saved payment credentials|
-|saved\_info|[PaymentRequestedInfo](/API_docs/types/PaymentRequestedInfo.md) | Optional|Saved server-side order information|
+|has\_saved\_credentials|[Bool](/API_docs/types/Bool.html) | Optional|Whether the user has some saved payment credentials|
+|saved\_info|[PaymentRequestedInfo](/API_docs/types/PaymentRequestedInfo.html) | Optional|Saved server-side order information|
 
 
 
-### Type: [payments.SavedInfo](/API_docs/types/payments.SavedInfo.md)
+### Type: [payments.SavedInfo](/API_docs/types/payments.SavedInfo.html)
 
 
 ### Example:

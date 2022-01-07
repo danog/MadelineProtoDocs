@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: game  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,17 +15,17 @@ Indicates an already sent game
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](/API_docs/types/long.md) | Yes|ID of the game|
-|access\_hash|[long](/API_docs/types/long.md) | Yes|Access hash of the game|
-|short\_name|[string](/API_docs/types/string.md) | Yes|Short name for the game|
-|title|[string](/API_docs/types/string.md) | Yes|Title of the game|
-|description|[string](/API_docs/types/string.md) | Yes|Game description|
-|photo|[Photo](/API_docs/types/Photo.md) | Optional|Game preview|
-|document|[Document](/API_docs/types/Document.md) | Optional|Optional attached document|
+|id|[long](/API_docs/types/long.html) | Yes|ID of the game|
+|access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash of the game|
+|short\_name|[string](/API_docs/types/string.html) | Yes|Short name for the game|
+|title|[string](/API_docs/types/string.html) | Yes|Title of the game|
+|description|[string](/API_docs/types/string.html) | Yes|Game description|
+|photo|[Photo](/API_docs/types/Photo.html) | Optional|Game preview|
+|document|[Document](/API_docs/types/Document.html) | Optional|Optional attached document|
 
 
 
-### Type: [Game](/API_docs/types/Game.md)
+### Type: [Game](/API_docs/types/Game.html)
 
 
 ### Example:

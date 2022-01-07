@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_uploadImportedMedia.html
 ---
 # Method: messages.uploadImportedMedia
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,13 +15,13 @@ redirect_from: /API_docs/methods/messages_uploadImportedMedia.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
-|import\_id|[long](/API_docs/types/long.md) | Yes|
-|file\_name|[string](/API_docs/types/string.md) | Yes|
-|media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.md) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+|import\_id|[long](/API_docs/types/long.html) | Yes|
+|file\_name|[string](/API_docs/types/string.html) | Yes|
+|media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | Optional|
 
 
-### Return type: [MessageMedia](/API_docs/types/MessageMedia.md)
+### Return type: [MessageMedia](/API_docs/types/MessageMedia.html)
 
 ### Can bots use this method: **NO**
 

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/langpack_getStrings.html
 ---
 # Method: langpack.getStrings
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Get strings from a language pack
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|lang\_pack|[string](/API_docs/types/string.md) | Language pack name | Yes|
-|lang\_code|[string](/API_docs/types/string.md) | Language code | Yes|
-|keys|Array of [string](/API_docs/types/string.md) | Strings to get | Yes|
+|lang\_pack|[string](/API_docs/types/string.html) | Language pack name | Yes|
+|lang\_code|[string](/API_docs/types/string.html) | Language code | Yes|
+|keys|Array of [string](/API_docs/types/string.html) | Strings to get | Yes|
 
 
-### Return type: [Vector\_of\_LangPackString](/API_docs/types/LangPackString.md)
+### Return type: [Vector\_of\_LangPackString](/API_docs/types/LangPackString.html)
 
 ### Can bots use this method: **NO**
 

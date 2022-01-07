@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: VideoSize
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[videoSize](/API_docs/constructors/videoSize.md)  
+[videoSize](/API_docs/constructors/videoSize.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[videoSize](/API_docs/constructors/videoSize.md)  
+[videoSize](/API_docs/constructors/videoSize.html)  
 

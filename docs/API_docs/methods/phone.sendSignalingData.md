@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/phone_sendSignalingData.html
 ---
 # Method: phone.sendSignalingData
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Send VoIP signaling data
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[InputPhoneCall](/API_docs/types/InputPhoneCall.md) | Phone call | Yes|
-|data|[bytes](/API_docs/types/bytes.md) | Signaling payload | Yes|
+|peer|[InputPhoneCall](/API_docs/types/InputPhoneCall.html) | Phone call | Yes|
+|data|[bytes](/API_docs/types/bytes.html) | Signaling payload | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

@@ -5,9 +5,9 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputDialogPeer
-[Back to types index](index.md)
+[Back to types index](index.html)
 
-You can directly provide the [Update](Update.md) or [Message](Message.md) object here, MadelineProto will automatically extract the destination chat id.
+You can directly provide the [Update](Update.html) or [Message](Message.html) object here, MadelineProto will automatically extract the destination chat id.
 
 The following syntaxes can also be used:
 
@@ -27,16 +27,16 @@ $InputDialogPeer = 'https://t.me/joinchat/asfln1-21fa_'; // t.me invite links
 
 ```
 
-A [Chat](Chat.md), a [User](User.md), an [InputPeer](InputPeer.md), an [InputDialogPeer](InputDialogPeer.md), an [InputNotifyPeer](InputNotifyPeer.md), an [InputUser](InputUser.md), an [InputChannel](InputChannel.md), a [Peer](Peer.md), an [DialogPeer](DialogPeer.md), [NotifyPeer](NotifyPeer.md), or a [Chat](Chat.md) object can also be used.
+A [Chat](Chat.html), a [User](User.html), an [InputPeer](InputPeer.html), an [InputDialogPeer](InputDialogPeer.html), an [InputNotifyPeer](InputNotifyPeer.html), an [InputUser](InputUser.html), an [InputChannel](InputChannel.html), a [Peer](Peer.html), an [DialogPeer](DialogPeer.html), [NotifyPeer](NotifyPeer.html), or a [Chat](Chat.html) object can also be used.
 
 
 
 
 ### Possible values (constructors):
 
-[inputDialogPeer](/API_docs/constructors/inputDialogPeer.md)  
+[inputDialogPeer](/API_docs/constructors/inputDialogPeer.html)  
 
-[inputDialogPeerFolder](/API_docs/constructors/inputDialogPeerFolder.md)  
+[inputDialogPeerFolder](/API_docs/constructors/inputDialogPeerFolder.html)  
 
 
 
@@ -44,7 +44,7 @@ A [Chat](Chat.md), a [User](User.md), an [InputPeer](InputPeer.md), an [InputDia
 
 
 
-[inputDialogPeer](/API_docs/constructors/inputDialogPeer.md)  
+[inputDialogPeer](/API_docs/constructors/inputDialogPeer.html)  
 
-[inputDialogPeerFolder](/API_docs/constructors/inputDialogPeerFolder.md)  
+[inputDialogPeerFolder](/API_docs/constructors/inputDialogPeerFolder.html)  
 

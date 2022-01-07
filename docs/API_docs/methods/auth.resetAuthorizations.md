@@ -7,17 +7,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_resetAuthorizations.html
 ---
 # Method: auth.resetAuthorizations
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
 Terminates all user's authorized sessions except for the current one.
 
-After calling this method it is necessary to reregister the current device using the method [account.registerDevice](../methods/account.registerDevice.md)
+After calling this method it is necessary to reregister the current device using the method [account.registerDevice](../methods/account.registerDevice.html)
 
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

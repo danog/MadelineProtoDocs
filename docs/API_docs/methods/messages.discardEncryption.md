@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_discardEncryption.html
 ---
 # Method: messages.discardEncryption
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ You cannot use this method directly, see https://docs.madelineproto.xyz for more
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|delete\_history|[Bool](/API_docs/types/Bool.md) |  | Optional|
-|chat\_id|[int](/API_docs/types/int.md) | Secret chat ID | Yes|
+|delete\_history|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|chat\_id|[int](/API_docs/types/int.html) | Secret chat ID | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

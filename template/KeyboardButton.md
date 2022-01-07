@@ -11,9 +11,9 @@ $result = $%s->click();
 
 * A string - If the button is a keyboardButtonUrl
 
-* [Updates](Updates.md) - If the button is a keyboardButton, the message will be sent to the chat, in reply to the message with the keyboard
+* [Updates](Updates.html) - If the button is a keyboardButton, the message will be sent to the chat, in reply to the message with the keyboard
 
-* [messages.BotCallbackAnswer](messages.BotCallbackAnswer.md) - If the button is a keyboardButtonCallback or a keyboardButtonGame the button will be pressed and the result will be returned
+* [messages.BotCallbackAnswer](messages.BotCallbackAnswer.html) - If the button is a keyboardButtonCallback or a keyboardButtonGame the button will be pressed and the result will be returned
 
 * `false` - If the button is an unsupported button, like keyboardButtonRequestPhone, keyboardButtonRequestGeoLocation, keyboardButtonSwitchInlinekeyboardButtonBuy; you will have to parse data from these buttons manually
 

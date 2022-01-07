@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: channelAdminLogEventActionChangeAbout  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ The description was changed
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|prev\_value|[string](/API_docs/types/string.md) | Yes|Previous description|
-|new\_value|[string](/API_docs/types/string.md) | Yes|New description|
+|prev\_value|[string](/API_docs/types/string.html) | Yes|Previous description|
+|new\_value|[string](/API_docs/types/string.html) | Yes|New description|
 
 
 
-### Type: [ChannelAdminLogEventAction](/API_docs/types/ChannelAdminLogEventAction.md)
+### Type: [ChannelAdminLogEventAction](/API_docs/types/ChannelAdminLogEventAction.html)
 
 
 ### Example:

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_toggleSlowMode.html
 ---
 # Method: channels.toggleSlowMode
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Toggle supergroup slow mode: if enabled, users will only be able to send one mes
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.md) | The [supergroup](https://core.telegram.org/api/channel) | Optional|
-|seconds|[int](/API_docs/types/int.md) | Users will only be able to send one message every `seconds` seconds, `0` to disable the limitation | Yes|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The [supergroup](https://core.telegram.org/api/channel) | Optional|
+|seconds|[int](/API_docs/types/int.html) | Users will only be able to send one message every `seconds` seconds, `0` to disable the limitation | Yes|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **NO**
 

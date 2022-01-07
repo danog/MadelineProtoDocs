@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_affectedHistory.html
 ---
 # Constructor: messages.affectedHistory  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,13 +16,13 @@ Affected part of communication history with the user or in a chat.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|pts|[int](/API_docs/types/int.md) | Yes|Number of events occured in a text box|
-|pts\_count|[int](/API_docs/types/int.md) | Yes|Number of affected events|
-|offset|[int](/API_docs/types/int.md) | Yes|If a parameter contains positive value, it is necessary to repeat the method call using the given value; during the proceeding of all the history the value itself shall gradually decrease|
+|pts|[int](/API_docs/types/int.html) | Yes|Number of events occured in a text box|
+|pts\_count|[int](/API_docs/types/int.html) | Yes|Number of affected events|
+|offset|[int](/API_docs/types/int.html) | Yes|If a parameter contains positive value, it is necessary to repeat the method call using the given value; during the proceeding of all the history the value itself shall gradually decrease|
 
 
 
-### Type: [messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.md)
+### Type: [messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.html)
 
 
 ### Example:

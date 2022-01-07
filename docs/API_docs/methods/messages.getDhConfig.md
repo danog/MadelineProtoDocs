@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getDhConfig.html
 ---
 # Method: messages.getDhConfig
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ You cannot use this method directly, instead use $MadelineProto->getDhConfig();
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|version|[int](/API_docs/types/int.md) | Value of the **version** parameter from [messages.dhConfig](../constructors/messages.dhConfig.md), avialable at the client | Yes|
-|random\_length|[int](/API_docs/types/int.md) | Length of the required random sequence | Yes|
+|version|[int](/API_docs/types/int.html) | Value of the **version** parameter from [messages.dhConfig](../constructors/messages.dhConfig.html), avialable at the client | Yes|
+|random\_length|[int](/API_docs/types/int.html) | Length of the required random sequence | Yes|
 
 
-### Return type: [messages.DhConfig](/API_docs/types/messages.DhConfig.md)
+### Return type: [messages.DhConfig](/API_docs/types/messages.DhConfig.html)
 
 ### Can bots use this method: **NO**
 

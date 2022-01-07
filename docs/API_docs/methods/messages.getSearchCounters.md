@@ -1,27 +1,27 @@
 ---
 title: "messages.getSearchCounters"
-description: "Get the number of results that would be found by a [messages.search](../methods/messages.search.md) call with the same parameters"
+description: "Get the number of results that would be found by a [messages.search](../methods/messages.search.html) call with the same parameters"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getSearchCounters.html
 ---
 # Method: messages.getSearchCounters
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
-Get the number of results that would be found by a [messages.search](../methods/messages.search.md) call with the same parameters
+Get the number of results that would be found by a [messages.search](../methods/messages.search.html) call with the same parameters
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Peer where to search | Optional|
-|filters|Array of [MessagesFilter](/API_docs/types/MessagesFilter.md) | Search filters | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where to search | Optional|
+|filters|Array of [MessagesFilter](/API_docs/types/MessagesFilter.html) | Search filters | Yes|
 
 
-### Return type: [Vector\_of\_messages.SearchCounter](/API_docs/types/messages.SearchCounter.md)
+### Return type: [Vector\_of\_messages.SearchCounter](/API_docs/types/messages.SearchCounter.html)
 
 ### Can bots use this method: **NO**
 

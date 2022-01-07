@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: webPageNotModified  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,11 +15,11 @@ The preview of the webpage hasn't changed
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|cached\_page\_views|[int](/API_docs/types/int.md) | Optional|Page view count|
+|cached\_page\_views|[int](/API_docs/types/int.html) | Optional|Page view count|
 
 
 
-### Type: [WebPage](/API_docs/types/WebPage.md)
+### Type: [WebPage](/API_docs/types/WebPage.html)
 
 
 ### Example:

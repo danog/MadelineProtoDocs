@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_toggleStickerSets.html
 ---
 # Method: messages.toggleStickerSets
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,13 +17,13 @@ Apply changes to multiple stickersets
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|uninstall|[Bool](/API_docs/types/Bool.md) | Uninstall the specified stickersets | Optional|
-|archive|[Bool](/API_docs/types/Bool.md) | Archive the specified stickersets | Optional|
-|unarchive|[Bool](/API_docs/types/Bool.md) | Unarchive the specified stickersets | Optional|
-|stickersets|Array of [InputStickerSet](/API_docs/types/InputStickerSet.md) | Stickersets to act upon | Yes|
+|uninstall|[Bool](/API_docs/types/Bool.html) | Uninstall the specified stickersets | Optional|
+|archive|[Bool](/API_docs/types/Bool.html) | Archive the specified stickersets | Optional|
+|unarchive|[Bool](/API_docs/types/Bool.html) | Unarchive the specified stickersets | Optional|
+|stickersets|Array of [InputStickerSet](/API_docs/types/InputStickerSet.html) | Stickersets to act upon | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

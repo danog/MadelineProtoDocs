@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/help_getUserInfo.html
 ---
 # Method: help.getUserInfo
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Internal use
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | User ID | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | User ID | Optional|
 
 
-### Return type: [help.UserInfo](/API_docs/types/help.UserInfo.md)
+### Return type: [help.UserInfo](/API_docs/types/help.UserInfo.html)
 
 ### Can bots use this method: **NO**
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: chatAdminWithInvites  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -13,13 +13,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|admin\_id|[long](/API_docs/types/long.md) | Yes|
-|invites\_count|[int](/API_docs/types/int.md) | Yes|
-|revoked\_invites\_count|[int](/API_docs/types/int.md) | Yes|
+|admin\_id|[long](/API_docs/types/long.html) | Yes|
+|invites\_count|[int](/API_docs/types/int.html) | Yes|
+|revoked\_invites\_count|[int](/API_docs/types/int.html) | Yes|
 
 
 
-### Type: [ChatAdminWithInvites](/API_docs/types/ChatAdminWithInvites.md)
+### Type: [ChatAdminWithInvites](/API_docs/types/ChatAdminWithInvites.html)
 
 
 ### Example:

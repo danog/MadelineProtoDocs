@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: botCommand  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ Describes a bot command that can be used in a chat
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|command|[string](/API_docs/types/string.md) | Yes|`/command` name|
-|description|[string](/API_docs/types/string.md) | Yes|Description of the command|
+|command|[string](/API_docs/types/string.html) | Yes|`/command` name|
+|description|[string](/API_docs/types/string.html) | Yes|Description of the command|
 
 
 
-### Type: [BotCommand](/API_docs/types/BotCommand.md)
+### Type: [BotCommand](/API_docs/types/BotCommand.html)
 
 
 ### Example:

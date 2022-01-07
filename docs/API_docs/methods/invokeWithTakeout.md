@@ -6,7 +6,7 @@ parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Method: invokeWithTakeout
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -16,11 +16,11 @@ Invoke a method within a takeout session
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|takeout\_id|[long](/API_docs/types/long.md) | Takeout session ID | Yes|
-|query|[!X](/API_docs/types/!X.md) | Query | Yes|
+|takeout\_id|[long](/API_docs/types/long.html) | Takeout session ID | Yes|
+|query|[!X](/API_docs/types/!X.html) | Query | Yes|
 
 
-### Return type: [X](/API_docs/types/X.md)
+### Return type: [X](/API_docs/types/X.html)
 
 ### Can bots use this method: **YES**
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: userEmpty  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,11 +15,11 @@ Empty constructor, non-existent user.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](/API_docs/types/long.md) | Yes|
+|id|[long](/API_docs/types/long.html) | Yes|
 
 
 
-### Type: [User](/API_docs/types/User.md)
+### Type: [User](/API_docs/types/User.html)
 
 
 ### Example:

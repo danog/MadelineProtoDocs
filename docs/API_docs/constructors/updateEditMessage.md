@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateEditMessage  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,13 +15,13 @@ A message was edited
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|message|[Message](/API_docs/types/Message.md) | Optional|The new edited message|
-|pts|[int](/API_docs/types/int.md) | Yes|[PTS](https://core.telegram.org/api/updates)|
-|pts\_count|[int](/API_docs/types/int.md) | Yes|[PTS count](https://core.telegram.org/api/updates)|
+|message|[Message](/API_docs/types/Message.html) | Optional|The new edited message|
+|pts|[int](/API_docs/types/int.html) | Yes|[PTS](https://core.telegram.org/api/updates)|
+|pts\_count|[int](/API_docs/types/int.html) | Yes|[PTS count](https://core.telegram.org/api/updates)|
 
 
 
-### Type: [Update](/API_docs/types/Update.md)
+### Type: [Update](/API_docs/types/Update.html)
 
 
 ### Example:

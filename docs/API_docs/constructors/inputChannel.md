@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputChannel  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,12 +15,12 @@ Represents a channel
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[long](/API_docs/types/long.md) | Yes|
-|access\_hash|[long](/API_docs/types/long.md) | Yes|Access hash taken from the [channel](../constructors/channel.md) constructor|
+|channel\_id|[long](/API_docs/types/long.html) | Yes|
+|access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash taken from the [channel](../constructors/channel.html) constructor|
 
 
 
-### Type: [InputChannel](/API_docs/types/InputChannel.md)
+### Type: [InputChannel](/API_docs/types/InputChannel.html)
 
 
 ### Example:

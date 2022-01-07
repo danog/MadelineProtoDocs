@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getAuthorizationForm.html
 ---
 # Method: account.getAuthorizationForm
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Returns a Telegram Passport authorization form for sharing data with a service
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|bot\_id|[long](/API_docs/types/long.md) |  | Yes|
-|scope|[string](/API_docs/types/string.md) | Telegram Passport element types requested by the service | Yes|
-|public\_key|[string](/API_docs/types/string.md) | Service's public key | Yes|
+|bot\_id|[long](/API_docs/types/long.html) |  | Yes|
+|scope|[string](/API_docs/types/string.html) | Telegram Passport element types requested by the service | Yes|
+|public\_key|[string](/API_docs/types/string.html) | Service's public key | Yes|
 
 
-### Return type: [account.AuthorizationForm](/API_docs/types/account.AuthorizationForm.md)
+### Return type: [account.AuthorizationForm](/API_docs/types/account.AuthorizationForm.html)
 
 ### Can bots use this method: **NO**
 

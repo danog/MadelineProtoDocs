@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_editChatAbout.html
 ---
 # Method: messages.editChatAbout
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Edit the description of a [group/supergroup/channel](https://core.telegram.org/a
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | The [group/supergroup/channel](https://core.telegram.org/api/channel). | Optional|
-|about|[string](/API_docs/types/string.md) | The new description | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The [group/supergroup/channel](https://core.telegram.org/api/channel). | Optional|
+|about|[string](/API_docs/types/string.html) | The new description | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **YES**
 

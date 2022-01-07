@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_verifyEmail.html
 ---
 # Method: account.verifyEmail
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Verify an email address for telegram [passport](https://core.telegram.org/passpo
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|email|[string](/API_docs/types/string.md) | The email to verify | Yes|
-|code|[string](/API_docs/types/string.md) | The verification code that was received | Yes|
+|email|[string](/API_docs/types/string.html) | The email to verify | Yes|
+|code|[string](/API_docs/types/string.html) | The verification code that was received | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getChats.html
 ---
 # Method: messages.getChats
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Returns chat basic info on their IDs.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|Array of [long](/API_docs/types/long.md) | List of chat IDs | Yes|
+|id|Array of [long](/API_docs/types/long.html) | List of chat IDs | Yes|
 
 
-### Return type: [messages.Chats](/API_docs/types/messages.Chats.md)
+### Return type: [messages.Chats](/API_docs/types/messages.Chats.html)
 
 ### Can bots use this method: **YES**
 

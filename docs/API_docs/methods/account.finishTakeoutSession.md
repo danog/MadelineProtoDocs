@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_finishTakeoutSession.html
 ---
 # Method: account.finishTakeoutSession
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Finish account takeout session
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|success|[Bool](/API_docs/types/Bool.md) | Data exported successfully | Optional|
+|success|[Bool](/API_docs/types/Bool.html) | Data exported successfully | Optional|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

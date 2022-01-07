@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: SponsoredMessage
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[sponsoredMessage](/API_docs/constructors/sponsoredMessage.md)  
+[sponsoredMessage](/API_docs/constructors/sponsoredMessage.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[sponsoredMessage](/API_docs/constructors/sponsoredMessage.md)  
+[sponsoredMessage](/API_docs/constructors/sponsoredMessage.html)  
 

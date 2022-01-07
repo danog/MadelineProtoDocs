@@ -5,27 +5,27 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: PhotoSize
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[photoSizeEmpty](/API_docs/constructors/photoSizeEmpty.md)  
+[photoSizeEmpty](/API_docs/constructors/photoSizeEmpty.html)  
 
-[photoSize](/API_docs/constructors/photoSize.md)  
+[photoSize](/API_docs/constructors/photoSize.html)  
 
-[photoCachedSize](/API_docs/constructors/photoCachedSize.md)  
+[photoCachedSize](/API_docs/constructors/photoCachedSize.html)  
 
-[photoStrippedSize](/API_docs/constructors/photoStrippedSize.md)  
+[photoStrippedSize](/API_docs/constructors/photoStrippedSize.html)  
 
-[photoSizeProgressive](/API_docs/constructors/photoSizeProgressive.md)  
+[photoSizeProgressive](/API_docs/constructors/photoSizeProgressive.html)  
 
-[photoPathSize](/API_docs/constructors/photoPathSize.md)  
+[photoPathSize](/API_docs/constructors/photoPathSize.html)  
 
-[photoSize\_23](/API_docs/constructors/photoSize_23.md)  
+[photoSize\_23](/API_docs/constructors/photoSize_23.html)  
 
-[photoCachedSize\_23](/API_docs/constructors/photoCachedSize_23.md)  
+[photoCachedSize\_23](/API_docs/constructors/photoCachedSize_23.html)  
 
 
 
@@ -33,19 +33,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[photoSizeEmpty](/API_docs/constructors/photoSizeEmpty.md)  
+[photoSizeEmpty](/API_docs/constructors/photoSizeEmpty.html)  
 
-[photoSize](/API_docs/constructors/photoSize.md)  
+[photoSize](/API_docs/constructors/photoSize.html)  
 
-[photoCachedSize](/API_docs/constructors/photoCachedSize.md)  
+[photoCachedSize](/API_docs/constructors/photoCachedSize.html)  
 
-[photoStrippedSize](/API_docs/constructors/photoStrippedSize.md)  
+[photoStrippedSize](/API_docs/constructors/photoStrippedSize.html)  
 
-[photoSizeProgressive](/API_docs/constructors/photoSizeProgressive.md)  
+[photoSizeProgressive](/API_docs/constructors/photoSizeProgressive.html)  
 
-[photoPathSize](/API_docs/constructors/photoPathSize.md)  
+[photoPathSize](/API_docs/constructors/photoPathSize.html)  
 
-[photoSize\_23](/API_docs/constructors/photoSize_23.md)  
+[photoSize\_23](/API_docs/constructors/photoSize_23.html)  
 
-[photoCachedSize\_23](/API_docs/constructors/photoCachedSize_23.md)  
+[photoCachedSize\_23](/API_docs/constructors/photoCachedSize_23.html)  
 

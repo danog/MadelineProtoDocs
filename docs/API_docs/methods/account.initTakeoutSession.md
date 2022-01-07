@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_initTakeoutSession.html
 ---
 # Method: account.initTakeoutSession
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,16 +17,16 @@ Intialize account takeout session
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|contacts|[Bool](/API_docs/types/Bool.md) | Whether to export contacts | Optional|
-|message\_users|[Bool](/API_docs/types/Bool.md) | Whether to export messages in private chats | Optional|
-|message\_chats|[Bool](/API_docs/types/Bool.md) | Whether to export messages in [legacy groups](https://core.telegram.org/api/channel) | Optional|
-|message\_megagroups|[Bool](/API_docs/types/Bool.md) | Whether to export messages in [supergroups](https://core.telegram.org/api/channel) | Optional|
-|message\_channels|[Bool](/API_docs/types/Bool.md) | Whether to export messages in [channels](https://core.telegram.org/api/channel) | Optional|
-|files|[Bool](/API_docs/types/Bool.md) | Whether to export files | Optional|
-|file\_max\_size|[int](/API_docs/types/int.md) | Maximum size of files to export | Optional|
+|contacts|[Bool](/API_docs/types/Bool.html) | Whether to export contacts | Optional|
+|message\_users|[Bool](/API_docs/types/Bool.html) | Whether to export messages in private chats | Optional|
+|message\_chats|[Bool](/API_docs/types/Bool.html) | Whether to export messages in [legacy groups](https://core.telegram.org/api/channel) | Optional|
+|message\_megagroups|[Bool](/API_docs/types/Bool.html) | Whether to export messages in [supergroups](https://core.telegram.org/api/channel) | Optional|
+|message\_channels|[Bool](/API_docs/types/Bool.html) | Whether to export messages in [channels](https://core.telegram.org/api/channel) | Optional|
+|files|[Bool](/API_docs/types/Bool.html) | Whether to export files | Optional|
+|file\_max\_size|[int](/API_docs/types/int.html) | Maximum size of files to export | Optional|
 
 
-### Return type: [account.Takeout](/API_docs/types/account.Takeout.md)
+### Return type: [account.Takeout](/API_docs/types/account.Takeout.html)
 
 ### Can bots use this method: **NO**
 

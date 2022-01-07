@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputStickerSetItem
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inputStickerSetItem](/API_docs/constructors/inputStickerSetItem.md)  
+[inputStickerSetItem](/API_docs/constructors/inputStickerSetItem.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputStickerSetItem](/API_docs/constructors/inputStickerSetItem.md)  
+[inputStickerSetItem](/API_docs/constructors/inputStickerSetItem.html)  
 

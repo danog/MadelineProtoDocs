@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/stickers_addStickerToSet.html
 ---
 # Method: stickers.addStickerToSet
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Add a sticker to a stickerset, bots only. The sticker set must have been created
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.md) | The stickerset | Optional|
-|sticker|[InputStickerSetItem](/API_docs/types/InputStickerSetItem.md) | The sticker | Yes|
+|stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.html) | The stickerset | Optional|
+|sticker|[InputStickerSetItem](/API_docs/types/InputStickerSetItem.html) | The sticker | Yes|
 
 
-### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.md)
+### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.html)
 
 ### Can bots use this method: **YES**
 

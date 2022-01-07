@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_importBotAuthorization.html
 ---
 # Method: auth.importBotAuthorization
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ You cannot use this method directly, use the botLogin method instead (see https:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|api\_id|[int](/API_docs/types/int.md) | Application identifier (see. [App configuration](https://core.telegram.org/myapp)) | Yes|
-|api\_hash|[string](/API_docs/types/string.md) | Application identifier hash (see. [App configuration](https://core.telegram.org/myapp)) | Yes|
-|bot\_auth\_token|[string](/API_docs/types/string.md) | Bot token (see [bots](https://core.telegram.org/bots)) | Yes|
+|api\_id|[int](/API_docs/types/int.html) | Application identifier (see. [App configuration](https://core.telegram.org/myapp)) | Yes|
+|api\_hash|[string](/API_docs/types/string.html) | Application identifier hash (see. [App configuration](https://core.telegram.org/myapp)) | Yes|
+|bot\_auth\_token|[string](/API_docs/types/string.html) | Bot token (see [bots](https://core.telegram.org/bots)) | Yes|
 
 
-### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.md)
+### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.html)
 
 ### Can bots use this method: **YES**
 

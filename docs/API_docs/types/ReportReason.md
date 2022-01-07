@@ -5,27 +5,27 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: ReportReason
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inputReportReasonSpam](/API_docs/constructors/inputReportReasonSpam.md)  
+[inputReportReasonSpam](/API_docs/constructors/inputReportReasonSpam.html)  
 
-[inputReportReasonViolence](/API_docs/constructors/inputReportReasonViolence.md)  
+[inputReportReasonViolence](/API_docs/constructors/inputReportReasonViolence.html)  
 
-[inputReportReasonPornography](/API_docs/constructors/inputReportReasonPornography.md)  
+[inputReportReasonPornography](/API_docs/constructors/inputReportReasonPornography.html)  
 
-[inputReportReasonChildAbuse](/API_docs/constructors/inputReportReasonChildAbuse.md)  
+[inputReportReasonChildAbuse](/API_docs/constructors/inputReportReasonChildAbuse.html)  
 
-[inputReportReasonOther](/API_docs/constructors/inputReportReasonOther.md)  
+[inputReportReasonOther](/API_docs/constructors/inputReportReasonOther.html)  
 
-[inputReportReasonCopyright](/API_docs/constructors/inputReportReasonCopyright.md)  
+[inputReportReasonCopyright](/API_docs/constructors/inputReportReasonCopyright.html)  
 
-[inputReportReasonGeoIrrelevant](/API_docs/constructors/inputReportReasonGeoIrrelevant.md)  
+[inputReportReasonGeoIrrelevant](/API_docs/constructors/inputReportReasonGeoIrrelevant.html)  
 
-[inputReportReasonFake](/API_docs/constructors/inputReportReasonFake.md)  
+[inputReportReasonFake](/API_docs/constructors/inputReportReasonFake.html)  
 
 
 
@@ -33,19 +33,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputReportReasonSpam](/API_docs/constructors/inputReportReasonSpam.md)  
+[inputReportReasonSpam](/API_docs/constructors/inputReportReasonSpam.html)  
 
-[inputReportReasonViolence](/API_docs/constructors/inputReportReasonViolence.md)  
+[inputReportReasonViolence](/API_docs/constructors/inputReportReasonViolence.html)  
 
-[inputReportReasonPornography](/API_docs/constructors/inputReportReasonPornography.md)  
+[inputReportReasonPornography](/API_docs/constructors/inputReportReasonPornography.html)  
 
-[inputReportReasonChildAbuse](/API_docs/constructors/inputReportReasonChildAbuse.md)  
+[inputReportReasonChildAbuse](/API_docs/constructors/inputReportReasonChildAbuse.html)  
 
-[inputReportReasonOther](/API_docs/constructors/inputReportReasonOther.md)  
+[inputReportReasonOther](/API_docs/constructors/inputReportReasonOther.html)  
 
-[inputReportReasonCopyright](/API_docs/constructors/inputReportReasonCopyright.md)  
+[inputReportReasonCopyright](/API_docs/constructors/inputReportReasonCopyright.html)  
 
-[inputReportReasonGeoIrrelevant](/API_docs/constructors/inputReportReasonGeoIrrelevant.md)  
+[inputReportReasonGeoIrrelevant](/API_docs/constructors/inputReportReasonGeoIrrelevant.html)  
 
-[inputReportReasonFake](/API_docs/constructors/inputReportReasonFake.md)  
+[inputReportReasonFake](/API_docs/constructors/inputReportReasonFake.html)  
 

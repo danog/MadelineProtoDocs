@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: PollResults
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[pollResults](/API_docs/constructors/pollResults.md)  
+[pollResults](/API_docs/constructors/pollResults.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[pollResults](/API_docs/constructors/pollResults.md)  
+[pollResults](/API_docs/constructors/pollResults.html)  
 

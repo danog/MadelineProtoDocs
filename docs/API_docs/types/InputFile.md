@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputFile
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 The following syntax can also be used:
 
@@ -19,9 +19,9 @@ You can also use async streams, HTTP response objects, and [much more](https://d
 
 ### Possible values (constructors):
 
-[inputFile](/API_docs/constructors/inputFile.md)  
+[inputFile](/API_docs/constructors/inputFile.html)  
 
-[inputFileBig](/API_docs/constructors/inputFileBig.md)  
+[inputFileBig](/API_docs/constructors/inputFileBig.html)  
 
 
 
@@ -29,7 +29,7 @@ You can also use async streams, HTTP response objects, and [much more](https://d
 
 
 
-[inputFile](/API_docs/constructors/inputFile.md)  
+[inputFile](/API_docs/constructors/inputFile.html)  
 
-[inputFileBig](/API_docs/constructors/inputFileBig.md)  
+[inputFileBig](/API_docs/constructors/inputFileBig.html)  
 

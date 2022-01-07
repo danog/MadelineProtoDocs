@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getEmojiURL.html
 ---
 # Method: messages.getEmojiURL
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Returns an HTTP URL which can be used to automatically log in into translation p
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|lang\_code|[string](/API_docs/types/string.md) | Language code for which the emoji replacements will be suggested | Yes|
+|lang\_code|[string](/API_docs/types/string.html) | Language code for which the emoji replacements will be suggested | Yes|
 
 
-### Return type: [EmojiURL](/API_docs/types/EmojiURL.md)
+### Return type: [EmojiURL](/API_docs/types/EmojiURL.html)
 
 ### Can bots use this method: **NO**
 

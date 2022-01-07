@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/phone_editGroupCallParticipant.html
 ---
 # Method: phone.editGroupCallParticipant
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -15,17 +15,17 @@ redirect_from: /API_docs/methods/phone_editGroupCallParticipant.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.md) | Yes|
-|participant|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | Optional|
-|muted|[Bool](/API_docs/types/Bool.md) | Optional|
-|volume|[int](/API_docs/types/int.md) | Optional|
-|raise\_hand|[Bool](/API_docs/types/Bool.md) | Optional|
-|video\_stopped|[Bool](/API_docs/types/Bool.md) | Optional|
-|video\_paused|[Bool](/API_docs/types/Bool.md) | Optional|
-|presentation\_paused|[Bool](/API_docs/types/Bool.md) | Optional|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
+|participant|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+|muted|[Bool](/API_docs/types/Bool.html) | Optional|
+|volume|[int](/API_docs/types/int.html) | Optional|
+|raise\_hand|[Bool](/API_docs/types/Bool.html) | Optional|
+|video\_stopped|[Bool](/API_docs/types/Bool.html) | Optional|
+|video\_paused|[Bool](/API_docs/types/Bool.html) | Optional|
+|presentation\_paused|[Bool](/API_docs/types/Bool.html) | Optional|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **NO**
 

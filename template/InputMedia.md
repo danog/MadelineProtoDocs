@@ -1,1 +1,1 @@
-You can also provide a [MessageMedia](MessageMedia.md), [Message](Message.md), [Update](Update.md), [Document](Document.md), [Photo](Photo.md), [InputDocument](InputDocument.md), [InputPhoto](InputPhoto.md) here, MadelineProto will automatically convert it to the right type.
+You can also provide a [MessageMedia](MessageMedia.html), [Message](Message.html), [Update](Update.html), [Document](Document.html), [Photo](Photo.html), [InputDocument](InputDocument.html), [InputPhoto](InputPhoto.html) here, MadelineProto will automatically convert it to the right type.

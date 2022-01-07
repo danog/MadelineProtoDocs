@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/auth_checkPassword.html
 ---
 # Method: auth.checkPassword
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ You cannot use this method directly, use the complete2falogin method instead (se
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.md) | The account's password (see [SRP](https://core.telegram.org/api/srp)) | Yes|
+|password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html) | The account's password (see [SRP](https://core.telegram.org/api/srp)) | Yes|
 
 
-### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.md)
+### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.html)
 
 ### Can bots use this method: **NO**
 

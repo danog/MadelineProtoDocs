@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_chatFull.html
 ---
 # Constructor: messages.chatFull  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,13 +16,13 @@ Extended info on chat and auxiliary data.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|full\_chat|[ChatFull](/API_docs/types/ChatFull.md) | Yes|Extended info on a chat|
-|chats|Array of [Chat](/API_docs/types/Chat.md) | Yes|List containing basic info on chat|
-|users|Array of [User](/API_docs/types/User.md) | Yes|List of users mentioned above|
+|full\_chat|[ChatFull](/API_docs/types/ChatFull.html) | Yes|Extended info on a chat|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|List containing basic info on chat|
+|users|Array of [User](/API_docs/types/User.html) | Yes|List of users mentioned above|
 
 
 
-### Type: [messages.ChatFull](/API_docs/types/messages.ChatFull.md)
+### Type: [messages.ChatFull](/API_docs/types/messages.ChatFull.html)
 
 
 ### Example:

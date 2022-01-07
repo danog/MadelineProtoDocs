@@ -5,45 +5,45 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: MessagesFilter
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inputMessagesFilterEmpty](/API_docs/constructors/inputMessagesFilterEmpty.md)  
+[inputMessagesFilterEmpty](/API_docs/constructors/inputMessagesFilterEmpty.html)  
 
-[inputMessagesFilterPhotos](/API_docs/constructors/inputMessagesFilterPhotos.md)  
+[inputMessagesFilterPhotos](/API_docs/constructors/inputMessagesFilterPhotos.html)  
 
-[inputMessagesFilterVideo](/API_docs/constructors/inputMessagesFilterVideo.md)  
+[inputMessagesFilterVideo](/API_docs/constructors/inputMessagesFilterVideo.html)  
 
-[inputMessagesFilterPhotoVideo](/API_docs/constructors/inputMessagesFilterPhotoVideo.md)  
+[inputMessagesFilterPhotoVideo](/API_docs/constructors/inputMessagesFilterPhotoVideo.html)  
 
-[inputMessagesFilterDocument](/API_docs/constructors/inputMessagesFilterDocument.md)  
+[inputMessagesFilterDocument](/API_docs/constructors/inputMessagesFilterDocument.html)  
 
-[inputMessagesFilterUrl](/API_docs/constructors/inputMessagesFilterUrl.md)  
+[inputMessagesFilterUrl](/API_docs/constructors/inputMessagesFilterUrl.html)  
 
-[inputMessagesFilterGif](/API_docs/constructors/inputMessagesFilterGif.md)  
+[inputMessagesFilterGif](/API_docs/constructors/inputMessagesFilterGif.html)  
 
-[inputMessagesFilterVoice](/API_docs/constructors/inputMessagesFilterVoice.md)  
+[inputMessagesFilterVoice](/API_docs/constructors/inputMessagesFilterVoice.html)  
 
-[inputMessagesFilterMusic](/API_docs/constructors/inputMessagesFilterMusic.md)  
+[inputMessagesFilterMusic](/API_docs/constructors/inputMessagesFilterMusic.html)  
 
-[inputMessagesFilterChatPhotos](/API_docs/constructors/inputMessagesFilterChatPhotos.md)  
+[inputMessagesFilterChatPhotos](/API_docs/constructors/inputMessagesFilterChatPhotos.html)  
 
-[inputMessagesFilterPhoneCalls](/API_docs/constructors/inputMessagesFilterPhoneCalls.md)  
+[inputMessagesFilterPhoneCalls](/API_docs/constructors/inputMessagesFilterPhoneCalls.html)  
 
-[inputMessagesFilterRoundVoice](/API_docs/constructors/inputMessagesFilterRoundVoice.md)  
+[inputMessagesFilterRoundVoice](/API_docs/constructors/inputMessagesFilterRoundVoice.html)  
 
-[inputMessagesFilterRoundVideo](/API_docs/constructors/inputMessagesFilterRoundVideo.md)  
+[inputMessagesFilterRoundVideo](/API_docs/constructors/inputMessagesFilterRoundVideo.html)  
 
-[inputMessagesFilterMyMentions](/API_docs/constructors/inputMessagesFilterMyMentions.md)  
+[inputMessagesFilterMyMentions](/API_docs/constructors/inputMessagesFilterMyMentions.html)  
 
-[inputMessagesFilterGeo](/API_docs/constructors/inputMessagesFilterGeo.md)  
+[inputMessagesFilterGeo](/API_docs/constructors/inputMessagesFilterGeo.html)  
 
-[inputMessagesFilterContacts](/API_docs/constructors/inputMessagesFilterContacts.md)  
+[inputMessagesFilterContacts](/API_docs/constructors/inputMessagesFilterContacts.html)  
 
-[inputMessagesFilterPinned](/API_docs/constructors/inputMessagesFilterPinned.md)  
+[inputMessagesFilterPinned](/API_docs/constructors/inputMessagesFilterPinned.html)  
 
 
 
@@ -51,37 +51,37 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputMessagesFilterEmpty](/API_docs/constructors/inputMessagesFilterEmpty.md)  
+[inputMessagesFilterEmpty](/API_docs/constructors/inputMessagesFilterEmpty.html)  
 
-[inputMessagesFilterPhotos](/API_docs/constructors/inputMessagesFilterPhotos.md)  
+[inputMessagesFilterPhotos](/API_docs/constructors/inputMessagesFilterPhotos.html)  
 
-[inputMessagesFilterVideo](/API_docs/constructors/inputMessagesFilterVideo.md)  
+[inputMessagesFilterVideo](/API_docs/constructors/inputMessagesFilterVideo.html)  
 
-[inputMessagesFilterPhotoVideo](/API_docs/constructors/inputMessagesFilterPhotoVideo.md)  
+[inputMessagesFilterPhotoVideo](/API_docs/constructors/inputMessagesFilterPhotoVideo.html)  
 
-[inputMessagesFilterDocument](/API_docs/constructors/inputMessagesFilterDocument.md)  
+[inputMessagesFilterDocument](/API_docs/constructors/inputMessagesFilterDocument.html)  
 
-[inputMessagesFilterUrl](/API_docs/constructors/inputMessagesFilterUrl.md)  
+[inputMessagesFilterUrl](/API_docs/constructors/inputMessagesFilterUrl.html)  
 
-[inputMessagesFilterGif](/API_docs/constructors/inputMessagesFilterGif.md)  
+[inputMessagesFilterGif](/API_docs/constructors/inputMessagesFilterGif.html)  
 
-[inputMessagesFilterVoice](/API_docs/constructors/inputMessagesFilterVoice.md)  
+[inputMessagesFilterVoice](/API_docs/constructors/inputMessagesFilterVoice.html)  
 
-[inputMessagesFilterMusic](/API_docs/constructors/inputMessagesFilterMusic.md)  
+[inputMessagesFilterMusic](/API_docs/constructors/inputMessagesFilterMusic.html)  
 
-[inputMessagesFilterChatPhotos](/API_docs/constructors/inputMessagesFilterChatPhotos.md)  
+[inputMessagesFilterChatPhotos](/API_docs/constructors/inputMessagesFilterChatPhotos.html)  
 
-[inputMessagesFilterPhoneCalls](/API_docs/constructors/inputMessagesFilterPhoneCalls.md)  
+[inputMessagesFilterPhoneCalls](/API_docs/constructors/inputMessagesFilterPhoneCalls.html)  
 
-[inputMessagesFilterRoundVoice](/API_docs/constructors/inputMessagesFilterRoundVoice.md)  
+[inputMessagesFilterRoundVoice](/API_docs/constructors/inputMessagesFilterRoundVoice.html)  
 
-[inputMessagesFilterRoundVideo](/API_docs/constructors/inputMessagesFilterRoundVideo.md)  
+[inputMessagesFilterRoundVideo](/API_docs/constructors/inputMessagesFilterRoundVideo.html)  
 
-[inputMessagesFilterMyMentions](/API_docs/constructors/inputMessagesFilterMyMentions.md)  
+[inputMessagesFilterMyMentions](/API_docs/constructors/inputMessagesFilterMyMentions.html)  
 
-[inputMessagesFilterGeo](/API_docs/constructors/inputMessagesFilterGeo.md)  
+[inputMessagesFilterGeo](/API_docs/constructors/inputMessagesFilterGeo.html)  
 
-[inputMessagesFilterContacts](/API_docs/constructors/inputMessagesFilterContacts.md)  
+[inputMessagesFilterContacts](/API_docs/constructors/inputMessagesFilterContacts.html)  
 
-[inputMessagesFilterPinned](/API_docs/constructors/inputMessagesFilterPinned.md)  
+[inputMessagesFilterPinned](/API_docs/constructors/inputMessagesFilterPinned.html)  
 

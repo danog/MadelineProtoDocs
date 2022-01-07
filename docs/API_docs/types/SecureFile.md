@@ -5,15 +5,15 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: SecureFile
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[secureFileEmpty](/API_docs/constructors/secureFileEmpty.md)  
+[secureFileEmpty](/API_docs/constructors/secureFileEmpty.html)  
 
-[secureFile](/API_docs/constructors/secureFile.md)  
+[secureFile](/API_docs/constructors/secureFile.html)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[secureFileEmpty](/API_docs/constructors/secureFileEmpty.md)  
+[secureFileEmpty](/API_docs/constructors/secureFileEmpty.html)  
 
-[secureFile](/API_docs/constructors/secureFile.md)  
+[secureFile](/API_docs/constructors/secureFile.html)  
 

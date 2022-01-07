@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: PeerBlocked
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[peerBlocked](/API_docs/constructors/peerBlocked.md)  
+[peerBlocked](/API_docs/constructors/peerBlocked.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[peerBlocked](/API_docs/constructors/peerBlocked.md)  
+[peerBlocked](/API_docs/constructors/peerBlocked.html)  
 

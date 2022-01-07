@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getRecentStickers.html
 ---
 # Method: messages.getRecentStickers
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Get recent stickers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|attached|[Bool](/API_docs/types/Bool.md) | Get stickers recently attached to photo or video files | Optional|
-|hash|[long](/API_docs/types/long.md) |  | Yes|
+|attached|[Bool](/API_docs/types/Bool.html) | Get stickers recently attached to photo or video files | Optional|
+|hash|[long](/API_docs/types/long.html) |  | Yes|
 
 
-### Return type: [messages.RecentStickers](/API_docs/types/messages.RecentStickers.md)
+### Return type: [messages.RecentStickers](/API_docs/types/messages.RecentStickers.html)
 
 ### Can bots use this method: **NO**
 

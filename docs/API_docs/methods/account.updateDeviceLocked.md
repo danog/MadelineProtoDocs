@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_updateDeviceLocked.html
 ---
 # Method: account.updateDeviceLocked
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ When client-side passcode lock feature is enabled, will not show message texts i
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|period|[int](/API_docs/types/int.md) | Inactivity period after which to start hiding message texts in [PUSH notifications](https://core.telegram.org/api/push-updates). | Yes|
+|period|[int](/API_docs/types/int.html) | Inactivity period after which to start hiding message texts in [PUSH notifications](https://core.telegram.org/api/push-updates). | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

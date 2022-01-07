@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_searchResultsPositions.html
 ---
 # Constructor: messages.searchResultsPositions  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -14,12 +14,12 @@ redirect_from: /API_docs/constructors/messages_searchResultsPositions.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|count|[int](/API_docs/types/int.md) | Yes|
-|positions|Array of [SearchResultsPosition](/API_docs/types/SearchResultsPosition.md) | Yes|
+|count|[int](/API_docs/types/int.html) | Yes|
+|positions|Array of [SearchResultsPosition](/API_docs/types/SearchResultsPosition.html) | Yes|
 
 
 
-### Type: [messages.SearchResultsPositions](/API_docs/types/messages.SearchResultsPositions.md)
+### Type: [messages.SearchResultsPositions](/API_docs/types/messages.SearchResultsPositions.html)
 
 
 ### Example:

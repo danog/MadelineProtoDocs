@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_saveWallPaper.html
 ---
 # Method: account.saveWallPaper
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,12 +17,12 @@ Install/uninstall wallpaper
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|wallpaper|[InputWallPaper](/API_docs/types/InputWallPaper.md) | Wallpaper to save | Yes|
-|unsave|[Bool](/API_docs/types/Bool.md) | Uninstall wallpaper? | Yes|
-|settings|[WallPaperSettings](/API_docs/types/WallPaperSettings.md) | Wallpaper settings | Yes|
+|wallpaper|[InputWallPaper](/API_docs/types/InputWallPaper.html) | Wallpaper to save | Yes|
+|unsave|[Bool](/API_docs/types/Bool.html) | Uninstall wallpaper? | Yes|
+|settings|[WallPaperSettings](/API_docs/types/WallPaperSettings.html) | Wallpaper settings | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.md)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 

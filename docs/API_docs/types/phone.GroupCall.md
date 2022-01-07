@@ -6,23 +6,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/phone_GroupCall.html
 ---
 # Type: phone.GroupCall
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[phone.groupCall](/API_docs/constructors/phone.groupCall.md)  
+[phone.groupCall](/API_docs/constructors/phone.groupCall.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->phone->getGroupCall](/API_docs/methods/phone.getGroupCall.md)  
+[$MadelineProto->phone->getGroupCall](/API_docs/methods/phone.getGroupCall.html)  
 
 
 
-[phone.groupCall](/API_docs/constructors/phone.groupCall.md)  
+[phone.groupCall](/API_docs/constructors/phone.groupCall.html)  
 
-[$MadelineProto->phone->getGroupCall](/API_docs/methods/phone.getGroupCall.md)  
+[$MadelineProto->phone->getGroupCall](/API_docs/methods/phone.getGroupCall.html)  
 

@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: BankCardOpenUrl
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[bankCardOpenUrl](/API_docs/constructors/bankCardOpenUrl.md)  
+[bankCardOpenUrl](/API_docs/constructors/bankCardOpenUrl.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[bankCardOpenUrl](/API_docs/constructors/bankCardOpenUrl.md)  
+[bankCardOpenUrl](/API_docs/constructors/bankCardOpenUrl.html)  
 

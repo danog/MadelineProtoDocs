@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: updateBotCommands  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -13,13 +13,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Peer](/API_docs/types/Peer.md) | Yes|
-|bot\_id|[long](/API_docs/types/long.md) | Yes|
-|commands|Array of [BotCommand](/API_docs/types/BotCommand.md) | Yes|
+|peer|[Peer](/API_docs/types/Peer.html) | Yes|
+|bot\_id|[long](/API_docs/types/long.html) | Yes|
+|commands|Array of [BotCommand](/API_docs/types/BotCommand.html) | Yes|
 
 
 
-### Type: [Update](/API_docs/types/Update.md)
+### Type: [Update](/API_docs/types/Update.html)
 
 
 ### Example:

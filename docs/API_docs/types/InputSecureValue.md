@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputSecureValue
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inputSecureValue](/API_docs/constructors/inputSecureValue.md)  
+[inputSecureValue](/API_docs/constructors/inputSecureValue.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputSecureValue](/API_docs/constructors/inputSecureValue.md)  
+[inputSecureValue](/API_docs/constructors/inputSecureValue.html)  
 

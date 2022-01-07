@@ -5,15 +5,15 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputGeoPoint
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[inputGeoPointEmpty](/API_docs/constructors/inputGeoPointEmpty.md)  
+[inputGeoPointEmpty](/API_docs/constructors/inputGeoPointEmpty.html)  
 
-[inputGeoPoint](/API_docs/constructors/inputGeoPoint.md)  
+[inputGeoPoint](/API_docs/constructors/inputGeoPoint.html)  
 
 
 
@@ -21,7 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputGeoPointEmpty](/API_docs/constructors/inputGeoPointEmpty.md)  
+[inputGeoPointEmpty](/API_docs/constructors/inputGeoPointEmpty.html)  
 
-[inputGeoPoint](/API_docs/constructors/inputGeoPoint.md)  
+[inputGeoPoint](/API_docs/constructors/inputGeoPoint.html)  
 

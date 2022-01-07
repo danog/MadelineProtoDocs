@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: receivedNotifyMessage  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,11 +15,11 @@ Message ID, for which PUSH-notifications were cancelled.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[int](/API_docs/types/int.md) | Yes|Message ID, for which PUSH-notifications were canceled|
+|id|[int](/API_docs/types/int.html) | Yes|Message ID, for which PUSH-notifications were canceled|
 
 
 
-### Type: [ReceivedNotifyMessage](/API_docs/types/ReceivedNotifyMessage.md)
+### Type: [ReceivedNotifyMessage](/API_docs/types/ReceivedNotifyMessage.html)
 
 
 ### Example:

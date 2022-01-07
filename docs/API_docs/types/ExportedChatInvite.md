@@ -5,23 +5,23 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: ExportedChatInvite
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[chatInviteExported](/API_docs/constructors/chatInviteExported.md)  
+[chatInviteExported](/API_docs/constructors/chatInviteExported.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->exportChatInvite](/API_docs/methods/messages.exportChatInvite.md)  
+[$MadelineProto->messages->exportChatInvite](/API_docs/methods/messages.exportChatInvite.html)  
 
 
 
-[chatInviteExported](/API_docs/constructors/chatInviteExported.md)  
+[chatInviteExported](/API_docs/constructors/chatInviteExported.html)  
 
-[$MadelineProto->messages->exportChatInvite](/API_docs/methods/messages.exportChatInvite.md)  
+[$MadelineProto->messages->exportChatInvite](/API_docs/methods/messages.exportChatInvite.html)  
 

@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: pageBlockAnchor  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -15,11 +15,11 @@ Link to section within the page itself (like `<a href="#target">anchor</a>`)
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|name|[string](/API_docs/types/string.md) | Yes|Name of target section|
+|name|[string](/API_docs/types/string.html) | Yes|Name of target section|
 
 
 
-### Type: [PageBlock](/API_docs/types/PageBlock.md)
+### Type: [PageBlock](/API_docs/types/PageBlock.html)
 
 
 ### Example:

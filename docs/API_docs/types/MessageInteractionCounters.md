@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: MessageInteractionCounters
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[messageInteractionCounters](/API_docs/constructors/messageInteractionCounters.md)  
+[messageInteractionCounters](/API_docs/constructors/messageInteractionCounters.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[messageInteractionCounters](/API_docs/constructors/messageInteractionCounters.md)  
+[messageInteractionCounters](/API_docs/constructors/messageInteractionCounters.html)  
 

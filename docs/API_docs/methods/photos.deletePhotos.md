@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/photos_deletePhotos.html
 ---
 # Method: photos.deletePhotos
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Deletes profile photos.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|Array of [MessageMedia, Update, Message or InputPhoto](/API_docs/types/InputPhoto.md) | Input photos to delete | Yes|
+|id|Array of [MessageMedia, Update, Message or InputPhoto](/API_docs/types/InputPhoto.html) | Input photos to delete | Yes|
 
 
-### Return type: [Vector\_of\_long](/API_docs/types/long.md)
+### Return type: [Vector\_of\_long](/API_docs/types/long.html)
 
 ### Can bots use this method: **NO**
 

@@ -7,22 +7,22 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_importContacts.html
 ---
 # Method: contacts.importContacts
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
 Imports contacts: saves a full list on the server, adds already registered contacts to the contact list, returns added contacts and their info.
 
-Use [contacts.addContact](../methods/contacts.addContact.md) to add Telegram contacts without actually using their phone number.
+Use [contacts.addContact](../methods/contacts.addContact.html) to add Telegram contacts without actually using their phone number.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|contacts|Array of [InputContact](/API_docs/types/InputContact.md) | List of contacts to import | Yes|
+|contacts|Array of [InputContact](/API_docs/types/InputContact.html) | List of contacts to import | Yes|
 
 
-### Return type: [contacts.ImportedContacts](/API_docs/types/contacts.ImportedContacts.md)
+### Return type: [contacts.ImportedContacts](/API_docs/types/contacts.ImportedContacts.html)
 
 ### Can bots use this method: **NO**
 

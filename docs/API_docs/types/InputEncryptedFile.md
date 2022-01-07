@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: InputEncryptedFile
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 The following syntax can also be used:
 
@@ -19,13 +19,13 @@ You can also use async streams, HTTP response objects, and [much more](https://d
 
 ### Possible values (constructors):
 
-[inputEncryptedFileEmpty](/API_docs/constructors/inputEncryptedFileEmpty.md)  
+[inputEncryptedFileEmpty](/API_docs/constructors/inputEncryptedFileEmpty.html)  
 
-[inputEncryptedFileUploaded](/API_docs/constructors/inputEncryptedFileUploaded.md)  
+[inputEncryptedFileUploaded](/API_docs/constructors/inputEncryptedFileUploaded.html)  
 
-[inputEncryptedFile](/API_docs/constructors/inputEncryptedFile.md)  
+[inputEncryptedFile](/API_docs/constructors/inputEncryptedFile.html)  
 
-[inputEncryptedFileBigUploaded](/API_docs/constructors/inputEncryptedFileBigUploaded.md)  
+[inputEncryptedFileBigUploaded](/API_docs/constructors/inputEncryptedFileBigUploaded.html)  
 
 
 
@@ -33,11 +33,11 @@ You can also use async streams, HTTP response objects, and [much more](https://d
 
 
 
-[inputEncryptedFileEmpty](/API_docs/constructors/inputEncryptedFileEmpty.md)  
+[inputEncryptedFileEmpty](/API_docs/constructors/inputEncryptedFileEmpty.html)  
 
-[inputEncryptedFileUploaded](/API_docs/constructors/inputEncryptedFileUploaded.md)  
+[inputEncryptedFileUploaded](/API_docs/constructors/inputEncryptedFileUploaded.html)  
 
-[inputEncryptedFile](/API_docs/constructors/inputEncryptedFile.md)  
+[inputEncryptedFile](/API_docs/constructors/inputEncryptedFile.html)  
 
-[inputEncryptedFileBigUploaded](/API_docs/constructors/inputEncryptedFileBigUploaded.md)  
+[inputEncryptedFileBigUploaded](/API_docs/constructors/inputEncryptedFileBigUploaded.html)  
 

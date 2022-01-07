@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_getLeftChannels.html
 ---
 # Method: channels.getLeftChannels
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Get a list of [channels/supergroups](https://core.telegram.org/api/channel) we l
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|offset|[int](/API_docs/types/int.md) | Offset for [pagination](https://core.telegram.org/api/offsets) | Yes|
+|offset|[int](/API_docs/types/int.html) | Offset for [pagination](https://core.telegram.org/api/offsets) | Yes|
 
 
-### Return type: [messages.Chats](/API_docs/types/messages.Chats.md)
+### Return type: [messages.Chats](/API_docs/types/messages.Chats.html)
 
 ### Can bots use this method: **NO**
 

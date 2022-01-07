@@ -1,26 +1,26 @@
 ---
 title: "contacts.acceptContact"
-description: "If the [peer settings](../constructors/peerSettings.md) of a new user allow us to add him as contact, add that user as contact"
+description: "If the [peer settings](../constructors/peerSettings.html) of a new user allow us to add him as contact, add that user as contact"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/contacts_acceptContact.html
 ---
 # Method: contacts.acceptContact
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
-If the [peer settings](../constructors/peerSettings.md) of a new user allow us to add him as contact, add that user as contact
+If the [peer settings](../constructors/peerSettings.html) of a new user allow us to add him as contact, add that user as contact
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.md) | The user to add as contact | Optional|
+|id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The user to add as contact | Optional|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **NO**
 

@@ -6,27 +6,27 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/types/messages_FavedStickers.html
 ---
 # Type: messages.FavedStickers
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[messages.favedStickersNotModified](/API_docs/constructors/messages.favedStickersNotModified.md)  
+[messages.favedStickersNotModified](/API_docs/constructors/messages.favedStickersNotModified.html)  
 
-[messages.favedStickers](/API_docs/constructors/messages.favedStickers.md)  
+[messages.favedStickers](/API_docs/constructors/messages.favedStickers.html)  
 
 
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getFavedStickers](/API_docs/methods/messages.getFavedStickers.md)  
+[$MadelineProto->messages->getFavedStickers](/API_docs/methods/messages.getFavedStickers.html)  
 
 
 
-[messages.favedStickersNotModified](/API_docs/constructors/messages.favedStickersNotModified.md)  
+[messages.favedStickersNotModified](/API_docs/constructors/messages.favedStickersNotModified.html)  
 
-[messages.favedStickers](/API_docs/constructors/messages.favedStickers.md)  
+[messages.favedStickers](/API_docs/constructors/messages.favedStickers.html)  
 
-[$MadelineProto->messages->getFavedStickers](/API_docs/methods/messages.getFavedStickers.md)  
+[$MadelineProto->messages->getFavedStickers](/API_docs/methods/messages.getFavedStickers.html)  
 

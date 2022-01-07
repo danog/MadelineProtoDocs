@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/messages_getDiscussionMessage.html
 ---
 # Method: messages.getDiscussionMessage
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,11 +17,11 @@ Get [discussion message](https://core.telegram.org/api/threads) from the [associ
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.md) | [Channel ID](https://core.telegram.org/api/channel) | Optional|
-|msg\_id|[int](/API_docs/types/int.md) | Message ID | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | [Channel ID](https://core.telegram.org/api/channel) | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | Message ID | Yes|
 
 
-### Return type: [messages.DiscussionMessage](/API_docs/types/messages.DiscussionMessage.md)
+### Return type: [messages.DiscussionMessage](/API_docs/types/messages.DiscussionMessage.html)
 
 ### Can bots use this method: **NO**
 

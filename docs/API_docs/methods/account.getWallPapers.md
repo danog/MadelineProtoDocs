@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/account_getWallPapers.html
 ---
 # Method: account.getWallPapers
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,10 +17,10 @@ Returns a list of available wallpapers.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[long](/API_docs/types/long.md) |  | Yes|
+|hash|[long](/API_docs/types/long.html) |  | Yes|
 
 
-### Return type: [account.WallPapers](/API_docs/types/account.WallPapers.md)
+### Return type: [account.WallPapers](/API_docs/types/account.WallPapers.html)
 
 ### Can bots use this method: **NO**
 

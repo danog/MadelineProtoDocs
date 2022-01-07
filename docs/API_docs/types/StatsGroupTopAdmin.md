@@ -5,13 +5,13 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Type: StatsGroupTopAdmin
-[Back to types index](index.md)
+[Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[statsGroupTopAdmin](/API_docs/constructors/statsGroupTopAdmin.md)  
+[statsGroupTopAdmin](/API_docs/constructors/statsGroupTopAdmin.html)  
 
 
 
@@ -19,5 +19,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[statsGroupTopAdmin](/API_docs/constructors/statsGroupTopAdmin.md)  
+[statsGroupTopAdmin](/API_docs/constructors/statsGroupTopAdmin.html)  
 

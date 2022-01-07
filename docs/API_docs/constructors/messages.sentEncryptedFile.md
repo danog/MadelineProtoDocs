@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_sentEncryptedFile.html
 ---
 # Constructor: messages.sentEncryptedFile  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -16,12 +16,12 @@ Message with a file enclosure sent to a protected chat
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|date|[int](/API_docs/types/int.md) | Yes|Sending date|
-|file|[EncryptedFile](/API_docs/types/EncryptedFile.md) | Optional|Attached file|
+|date|[int](/API_docs/types/int.html) | Yes|Sending date|
+|file|[EncryptedFile](/API_docs/types/EncryptedFile.html) | Optional|Attached file|
 
 
 
-### Type: [messages.SentEncryptedMessage](/API_docs/types/messages.SentEncryptedMessage.md)
+### Type: [messages.SentEncryptedMessage](/API_docs/types/messages.SentEncryptedMessage.html)
 
 
 ### Example:

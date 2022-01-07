@@ -7,7 +7,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/methods/channels_createChannel.html
 ---
 # Method: channels.createChannel
-[Back to methods index](index.md)
+[Back to methods index](index.html)
 
 
 
@@ -17,16 +17,16 @@ Create a [supergroup/channel](https://core.telegram.org/api/channel).
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|broadcast|[Bool](/API_docs/types/Bool.md) | Whether to create a [channel](https://core.telegram.org/api/channel) | Optional|
-|megagroup|[Bool](/API_docs/types/Bool.md) | Whether to create a [supergroup](https://core.telegram.org/api/channel) | Optional|
-|for\_import|[Bool](/API_docs/types/Bool.md) |  | Optional|
-|title|[string](/API_docs/types/string.md) | Channel title | Yes|
-|about|[string](/API_docs/types/string.md) | Channel description | Yes|
-|geo\_point|[InputGeoPoint](/API_docs/types/InputGeoPoint.md) | Geogroup location | Optional|
-|address|[string](/API_docs/types/string.md) | Geogroup address | Optional|
+|broadcast|[Bool](/API_docs/types/Bool.html) | Whether to create a [channel](https://core.telegram.org/api/channel) | Optional|
+|megagroup|[Bool](/API_docs/types/Bool.html) | Whether to create a [supergroup](https://core.telegram.org/api/channel) | Optional|
+|for\_import|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|title|[string](/API_docs/types/string.html) | Channel title | Yes|
+|about|[string](/API_docs/types/string.html) | Channel description | Yes|
+|geo\_point|[InputGeoPoint](/API_docs/types/InputGeoPoint.html) | Geogroup location | Optional|
+|address|[string](/API_docs/types/string.html) | Geogroup address | Optional|
 
 
-### Return type: [Updates](/API_docs/types/Updates.md)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **NO**
 

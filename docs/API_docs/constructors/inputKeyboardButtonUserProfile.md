@@ -5,7 +5,7 @@ nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Constructor: inputKeyboardButtonUserProfile  
-[Back to constructors index](/API_docs/constructors/index.md)
+[Back to constructors index](/API_docs/constructors/index.html)
 
 
 
@@ -13,12 +13,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|text|[string](/API_docs/types/string.md) | Yes|
-|user\_id|[InputUser](/API_docs/types/InputUser.md) | Optional|
+|text|[string](/API_docs/types/string.html) | Yes|
+|user\_id|[InputUser](/API_docs/types/InputUser.html) | Optional|
 
 
 
-### Type: [KeyboardButton](/API_docs/types/KeyboardButton.md)
+### Type: [KeyboardButton](/API_docs/types/KeyboardButton.html)
 
 
 ### Example:
