@@ -43,6 +43,14 @@ function initNav() {
     btn.addEventListener('click', () => jtd.setTheme('light'));
   }
 
+  const oReq = new XMLHttpRequest();
+  oReq.addEventListener("load", function () {
+    const stargazers = parseFloat(JSON.parse(this.responseText).stargazers_count);
+    document.getElementById('star-button').innerHTML = "⭐️ "+Math.ceil(stargazers/100)/10+"k";
+  });
+  oReq.open("GET", "https://api.github.com/repos/danog/madelineproto");
+  oReq.send();
+  
   const siteNav = document.getElementById('site-nav');
   const mainHeader = document.getElementById('main-header');
   const menuButton = document.getElementById('menu-button');

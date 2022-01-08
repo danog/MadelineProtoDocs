@@ -18,6 +18,13 @@
       @include fs-3;
     }
 
+    .nav-list-github {
+      line-height: #{($nav-list-item-height-sm - 2 * $sp-1) * 2} !important;
+      @include mq(md) {
+        line-height: #{($nav-list-item-height - 2 * $sp-1) * 2} !important;
+      }
+    }
+
     .nav-list-link {
       display: block;
       min-height: $nav-list-item-height-sm;

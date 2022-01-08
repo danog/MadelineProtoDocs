@@ -90,7 +90,7 @@
 
   @include mq(md) {
     display: block;
-    padding-top: $sp-8;
+    //padding-top: $sp-8;
     padding-bottom: $gutter-spacing-sm;
     overflow-y: auto;
     flex: 1 1 auto;
@@ -115,6 +115,8 @@
   display: flex;
   height: 100%;
   align-items: center;
+  padding-left: $sp-4 !important;
+  padding-right: 0rem !important;
   padding-top: $sp-3;
   padding-bottom: $sp-3;
   color: $body-heading-color;

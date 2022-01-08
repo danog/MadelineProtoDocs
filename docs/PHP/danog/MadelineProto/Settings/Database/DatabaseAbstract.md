@@ -22,9 +22,7 @@ Base class for database backends.
 * `setCacheTtl(int|string $cacheTtl): self`
 * `getPassword(): string`
 * `setPassword(string $password): self`
-* `getDatabase(): string|int`
 * `getUri(): string`
-* `setDatabase(int|string $database): self`
 * `setUri(string $uri): self`
 * `getEnableFileReferenceDb(): bool`
 * `setEnableFileReferenceDb(bool $enableFileReferenceDb): self`
@@ -82,26 +80,9 @@ Parameters:
 
 
 
-### `getDatabase(): string|int`
-
-Get database name/ID.
-
-
-
 ### `getUri(): string`
 
 Get database URI.
-
-
-
-### `setDatabase(int|string $database): self`
-
-Set database name/ID.
-
-
-Parameters:
-
-* `$database`: `int|string`   
 
 
 
