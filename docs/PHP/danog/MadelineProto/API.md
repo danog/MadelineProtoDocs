@@ -1283,7 +1283,7 @@ Fully typed return value:
 \danog\MadelineProto\EventHandler|\Amp\Promise<\danog\MadelineProto\EventHandler>
 ```
 #### See also: 
-* [`\danog\MadelineProto\EventHandler`: Event handler.](EventHandler.html)
+* [`\danog\MadelineProto\EventHandler`: Event handler.](../../danog/MadelineProto/EventHandler.html)
 * `\Amp\Promise`
 
 
@@ -1428,6 +1428,10 @@ Get info about peer, returns an Info object.
 Parameters:
 
 * `$id`: `mixed` Peer  
+  Full type:
+  ```
+  array{_: \TConstructor}|mixed
+  ```
 * `$recursive`: `bool` Internal  
 
 
@@ -1440,6 +1444,7 @@ Fully typed return value:
 ```
 #### See also: 
 * [https://docs.madelineproto.xyz/Info.html](https://docs.madelineproto.xyz/Info.html)
+* `\TConstructor`
 * `\Amp\Promise`
 * `\Generator`
 
@@ -1626,7 +1631,7 @@ Fully typed return value:
 \danog\MadelineProto\Settings|\Amp\Promise<\danog\MadelineProto\Settings>
 ```
 #### See also: 
-* [`\danog\MadelineProto\Settings`: Settings class used for configuring MadelineProto.](Settings.html)
+* [`\danog\MadelineProto\Settings`: Settings class used for configuring MadelineProto.](../../danog/MadelineProto/Settings.html)
 * `\Amp\Promise`
 
 

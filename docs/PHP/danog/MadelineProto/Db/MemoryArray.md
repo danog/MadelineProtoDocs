@@ -39,7 +39,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Database\Memory`: Memory backend settings.](../Settings/Database/Memory.html)
+* [`\danog\MadelineProto\Settings\Database\Memory`: Memory backend settings.](../../../danog/MadelineProto/Settings/Database/Memory.html)
 * `\Amp\Promise`
 
 

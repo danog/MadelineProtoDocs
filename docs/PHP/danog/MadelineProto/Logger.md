@@ -56,7 +56,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Logger`: Logger settings.](./Settings/Logger.html)
+* [`\danog\MadelineProto\Settings\Logger`: Logger settings.](../../danog/MadelineProto/Settings/Logger.html)
 
 
 

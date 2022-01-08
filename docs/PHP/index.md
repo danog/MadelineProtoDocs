@@ -3,7 +3,7 @@ description: "MadelineProto PHP API reference"
 title: "MadelineProto API"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 has_children: "true"
-has_toc: false
+has_toc: "false"
 nav_order: "2"
 
 ---

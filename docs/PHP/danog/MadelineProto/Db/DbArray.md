@@ -197,7 +197,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Database\DatabaseAbstract`: Base class for database backends.](../Settings/Database/DatabaseAbstract.html)
+* [`\danog\MadelineProto\Settings\Database\DatabaseAbstract`: Base class for database backends.](../../../danog/MadelineProto/Settings/Database/DatabaseAbstract.html)
 * `\Amp\Promise`
 
 

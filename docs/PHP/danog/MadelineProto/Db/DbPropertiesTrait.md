@@ -16,7 +16,7 @@ Include this trait and call DbPropertiesTrait::initDb to use MadelineProto's dat
 You will have to define a `$dbProperties` static array property, with a list of properties you want to store to a database.
 
 #### See also: 
-* [For a list of allowed property types](./DbPropertiesFactory.html)
+* [For a list of allowed property types](../../../danog/MadelineProto/Db/DbPropertiesFactory.html)
 
 
 
