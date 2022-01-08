@@ -31,11 +31,5 @@ $photoStrippedSize = ['_' => 'photoStrippedSize', 'type' => 'string', 'bytes' =>
 ```  
 
 
-Or, if you're into Lua:
-
-```lua
-photoStrippedSize={_='photoStrippedSize', type='string', bytes='bytes'}
-
-```
 
 
