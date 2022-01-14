@@ -46,7 +46,7 @@ function initNav() {
   const oReq = new XMLHttpRequest();
   oReq.addEventListener("load", function () {
     const stargazers = parseFloat(JSON.parse(this.responseText).stargazers_count);
-    document.getElementById('star-button').innerHTML = "⭐️ "+Math.ceil(stargazers/100)/10+"k";
+    document.getElementById('star-button').innerHTML = "⭐️ "+Math.floor(stargazers/100)/10+"k";
   });
   oReq.open("GET", "https://api.github.com/repos/danog/madelineproto");
   oReq.send();
