@@ -3,6 +3,13 @@
 git checkout master
 git fetch origin gh-pages
 
+which gojekyll || {
+	mkdir /tmp/bin -p
+	wget https://github.com/danog/gojekyll/releases/latest/download/gojekyll-amd64 -O /tmp/bin/gojekyll
+	chmod +x /tmp/bin/gojekyll
+	export PATH="$PATH:/tmp/bin"
+}
+
 cd docs
 gojekyll clean
 gojekyll build
