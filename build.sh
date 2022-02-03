@@ -1,8 +1,5 @@
 #!/bin/bash -e
 
-git checkout master
-git fetch origin gh-pages
-
 which gojekyll || {
 	# Cloudflare Pages path
 	mkdir -p /tmp/bin
@@ -14,6 +11,8 @@ which gojekyll || {
 	exit 0
 }
 
+git checkout master
+
 cd docs
 gojekyll clean
 gojekyll build
@@ -21,6 +20,7 @@ rm -rf ../../_site
 cp -a _site ../../
 cd ..
 
+git fetch origin gh-pages
 git checkout gh-pages
 rm -rf *
 cp -a ../_site/* .
