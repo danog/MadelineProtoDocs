@@ -4,10 +4,14 @@ git checkout master
 git fetch origin gh-pages
 
 which gojekyll || {
-	mkdir /tmp/bin -p
+	# Cloudflare Pages path
+	mkdir -p /tmp/bin
 	wget https://github.com/danog/gojekyll/releases/latest/download/gojekyll-amd64 -O /tmp/bin/gojekyll
 	chmod +x /tmp/bin/gojekyll
-	export PATH="$PATH:/tmp/bin"
+	cd docs
+	/tmp/bin/gojekyll clean
+	/tmp/bin/gojekyll build
+	exit 0
 }
 
 cd docs
