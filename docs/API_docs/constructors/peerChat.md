@@ -15,7 +15,7 @@ Group.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[long](/API_docs/types/long.html) | Yes|
+|chat\_id|[long](/API_docs/types/long.html) | Yes|Group identifier|
 
 
 

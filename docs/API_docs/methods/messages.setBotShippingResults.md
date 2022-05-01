@@ -18,7 +18,7 @@ If you sent an invoice requesting a shipping address and the parameter is\_flexi
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |query\_id|[long](/API_docs/types/long.html) | Unique identifier for the query to be answered | Yes|
-|error|[string](/API_docs/types/string.html) | Error message in human readable form that explains why it is impossible to complete the order (e.g. "Sorry, delivery to your desired address is unavailable'). Telegram will display this message to the user. | Optional|
+|error|[string](/API_docs/types/string.html) | Error message in human readable form that explains why it is impossible to complete the order (e.g. "Sorry, delivery to your desired address is unavailable"). Telegram will display this message to the user. | Optional|
 |shipping\_options|Array of [ShippingOption](/API_docs/types/ShippingOption.html) | A vector of available shipping options. | Optional|
 
 
@@ -41,11 +41,4 @@ $MadelineProto->start();
 
 $Bool = $MadelineProto->messages->setBotShippingResults(['query_id' => long, 'error' => 'string', 'shipping_options' => [ShippingOption, ShippingOption], ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|QUERY_ID_INVALID|The query ID is invalid|
-
 

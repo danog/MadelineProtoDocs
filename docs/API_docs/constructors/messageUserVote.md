@@ -15,7 +15,7 @@ How a user voted in a poll
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User ID|
 |option|[bytes](/API_docs/types/bytes.html) | Yes|The option chosen by the user|
 |date|[int](/API_docs/types/int.html) | Yes|When did the user cast the vote|
 

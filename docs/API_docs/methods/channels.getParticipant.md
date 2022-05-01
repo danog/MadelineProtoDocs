@@ -18,7 +18,7 @@ Get info about a [channel/supergroup](https://core.telegram.org/api/channel) par
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Channel/supergroup | Optional|
-|participant|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
+|participant|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Participant to get info about | Optional|
 
 
 ### Return type: [channels.ChannelParticipant](/API_docs/types/channels.ChannelParticipant.html)
@@ -40,21 +40,4 @@ $MadelineProto->start();
 
 $channels_ChannelParticipant = $MadelineProto->channels->getParticipant(['channel' => InputChannel, 'participant' => InputPeer, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHANNEL_INVALID|The provided channel is invalid|
-|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
-|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
-|400|MSG_ID_INVALID|Invalid message ID provided|
-|400|PARTICIPANT_ID_INVALID|The specified participant ID is invalid|
-|400|USER_ID_INVALID|The provided user ID is invalid|
-|400|USER_NOT_PARTICIPANT|You're not a member of this supergroup/channel|
-|-3002|All workers are busy. Active_queries = X|All workers are busy. Active_queries = X|
-|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|-503|Timeout|Timeout while fetching data|
-
 

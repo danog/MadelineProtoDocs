@@ -15,9 +15,9 @@ Myself
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|via\_request|[Bool](/API_docs/types/Bool.html) | Optional|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
-|inviter\_id|[long](/API_docs/types/long.html) | Yes|
+|via\_request|[Bool](/API_docs/types/Bool.html) | Optional|Whether I joined upon specific approval of an admin|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User ID|
+|inviter\_id|[long](/API_docs/types/long.html) | Yes|User that invited me to the channel/supergroup|
 |date|[int](/API_docs/types/int.html) | Yes|When did I join the channel/supergroup|
 
 

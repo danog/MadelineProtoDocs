@@ -41,10 +41,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->saveGif(['id' => InputDocument, 'unsave' => Bool, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|GIF_ID_INVALID|The provided GIF ID is invalid|
-
-

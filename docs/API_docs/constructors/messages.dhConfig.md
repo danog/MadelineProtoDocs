@@ -18,7 +18,7 @@ New set of configuring parameters.
 |----------|---------------|----------|-------------|
 |g|[int](/API_docs/types/int.html) | Yes|New value **prime**, see [Wikipedia](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)|
 |p|[bytes](/API_docs/types/bytes.html) | Yes|New value **primitive root**, see [Wikipedia](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)|
-|version|[int](/API_docs/types/int.html) | Yes|Vestion of set of parameters|
+|version|[int](/API_docs/types/int.html) | Yes|Version of set of parameters|
 |random|[bytes](/API_docs/types/bytes.html) | Yes|Random sequence of bytes of assigned length|
 
 

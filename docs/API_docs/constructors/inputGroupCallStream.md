@@ -1,6 +1,6 @@
 ---
 title: "inputGroupCallStream"
-description: "inputGroupCallStream attributes, type and example"
+description: "Chunk of a livestream"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,15 +9,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Chunk of a livestream
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
-|time\_ms|[long](/API_docs/types/long.html) | Yes|
-|scale|[int](/API_docs/types/int.html) | Yes|
-|video\_channel|[int](/API_docs/types/int.html) | Optional|
-|video\_quality|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|Livestream info|
+|time\_ms|[long](/API_docs/types/long.html) | Yes|Timestamp in milliseconds|
+|scale|[int](/API_docs/types/int.html) | Yes|Specifies the duration of the video segment to fetch in milliseconds, by bitshifting `1000` to the right `scale` times: `duration_ms := 1000 >> scale`|
+|video\_channel|[int](/API_docs/types/int.html) | Optional|Selected video channel|
+|video\_quality|[int](/API_docs/types/int.html) | Optional|Selected video quality (0 = lowest, 1 = medium, 2 = best)|
 
 
 

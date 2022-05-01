@@ -17,7 +17,7 @@ Admin log event
 |----------|---------------|----------|-------------|
 |id|[long](/API_docs/types/long.html) | Yes|Event ID|
 |date|[int](/API_docs/types/int.html) | Yes|Date|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User ID|
 |action|[ChannelAdminLogEventAction](/API_docs/types/ChannelAdminLogEventAction.html) | Yes|Action|
 
 

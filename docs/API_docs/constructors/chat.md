@@ -16,13 +16,12 @@ Info about a group
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |creator|[Bool](/API_docs/types/Bool.html) | Optional|Whether the current user is the creator of the group|
-|kicked|[Bool](/API_docs/types/Bool.html) | Optional|Whether the current user was kicked from the group|
 |left|[Bool](/API_docs/types/Bool.html) | Optional|Whether the current user has left the group|
 |deactivated|[Bool](/API_docs/types/Bool.html) | Optional|Whether the group was [migrated](https://core.telegram.org/api/channel)|
-|call\_active|[Bool](/API_docs/types/Bool.html) | Optional|
-|call\_not\_empty|[Bool](/API_docs/types/Bool.html) | Optional|
-|noforwards|[Bool](/API_docs/types/Bool.html) | Optional|
-|id|[long](/API_docs/types/long.html) | Yes|
+|call\_active|[Bool](/API_docs/types/Bool.html) | Optional|Whether a group call is currently active|
+|call\_not\_empty|[Bool](/API_docs/types/Bool.html) | Optional|Whether there's anyone in the group call|
+|noforwards|[Bool](/API_docs/types/Bool.html) | Optional|Whether this group is [protected](https://telegram.org/blog/protected-content-delete-by-date-and-more), thus does not allow forwarding messages from it|
+|id|[long](/API_docs/types/long.html) | Yes|ID of the group|
 |title|[string](/API_docs/types/string.html) | Yes|Title|
 |photo|[ChatPhoto](/API_docs/types/ChatPhoto.html) | Optional|Chat photo|
 |participants\_count|[int](/API_docs/types/int.html) | Yes|Participant count|
@@ -40,5 +39,5 @@ Info about a group
 ### Example:
 
 ```php
-$chat = ['_' => 'chat', 'creator' => Bool, 'kicked' => Bool, 'left' => Bool, 'deactivated' => Bool, 'call_active' => Bool, 'call_not_empty' => Bool, 'noforwards' => Bool, 'id' => long, 'title' => 'string', 'photo' => ChatPhoto, 'participants_count' => int, 'date' => int, 'version' => int, 'migrated_to' => InputChannel, 'admin_rights' => ChatAdminRights, 'default_banned_rights' => ChatBannedRights];
+$chat = ['_' => 'chat', 'creator' => Bool, 'left' => Bool, 'deactivated' => Bool, 'call_active' => Bool, 'call_not_empty' => Bool, 'noforwards' => Bool, 'id' => long, 'title' => 'string', 'photo' => ChatPhoto, 'participants_count' => int, 'date' => int, 'version' => int, 'migrated_to' => InputChannel, 'admin_rights' => ChatAdminRights, 'default_banned_rights' => ChatBannedRights];
 ```  

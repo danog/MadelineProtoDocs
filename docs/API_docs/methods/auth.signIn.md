@@ -42,17 +42,3 @@ $MadelineProto->start();
 $auth_Authorization = $MadelineProto->auth->signIn(['phone_number' => 'string', 'phone_code_hash' => 'string', 'phone_code' => 'string', ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|PHONE_CODE_EMPTY|phone_code is missing|
-|400|PHONE_CODE_EXPIRED|The phone code you provided has expired, this may happen if it was sent to any chat on telegram (if the code is sent through a telegram chat (not the official account) to avoid it append or prepend to the code some chars)|
-|400|PHONE_CODE_INVALID|The provided phone code is invalid|
-|400|PHONE_NUMBER_INVALID|The phone number is invalid|
-|400|PHONE_NUMBER_UNOCCUPIED|The phone number is not yet being used|
-|406|PHONE_NUMBER_INVALID|The phone number is invalid|
-|406|UPDATE_APP_TO_LOGIN|Please update to the latest version of MadelineProto to login.|
-|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
-
-

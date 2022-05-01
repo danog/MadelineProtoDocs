@@ -58,6 +58,10 @@ You can also access the properties of the constructor as a normal array, for exa
 
 [keyboardButtonUserProfile](/API_docs/constructors/keyboardButtonUserProfile.html)  
 
+[keyboardButtonWebView](/API_docs/constructors/keyboardButtonWebView.html)  
+
+[keyboardButtonSimpleWebView](/API_docs/constructors/keyboardButtonSimpleWebView.html)  
+
 
 
 ### Methods that return an object of this type (methods):
@@ -89,4 +93,8 @@ You can also access the properties of the constructor as a normal array, for exa
 [inputKeyboardButtonUserProfile](/API_docs/constructors/inputKeyboardButtonUserProfile.html)  
 
 [keyboardButtonUserProfile](/API_docs/constructors/keyboardButtonUserProfile.html)  
+
+[keyboardButtonWebView](/API_docs/constructors/keyboardButtonWebView.html)  
+
+[keyboardButtonSimpleWebView](/API_docs/constructors/keyboardButtonSimpleWebView.html)  
 

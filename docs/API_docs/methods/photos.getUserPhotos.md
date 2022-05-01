@@ -43,15 +43,3 @@ $MadelineProto->start();
 $photos_Photos = $MadelineProto->photos->getUserPhotos(['user_id' => InputUser, 'offset' => int, 'max_id' => long, 'limit' => int, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
-|400|MAX_ID_INVALID|The provided max ID is invalid|
-|400|MSG_ID_INVALID|Invalid message ID provided|
-|400|USER_ID_INVALID|The provided user ID is invalid|
-|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|-503|Timeout|Timeout while fetching data|
-
-

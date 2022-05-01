@@ -1,6 +1,6 @@
 ---
 title: "updateGroupCallParticipants"
-description: "updateGroupCallParticipants attributes, type and example"
+description: "The participant list of a certain group call has changed"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+The participant list of a certain group call has changed
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
-|participants|Array of [GroupCallParticipant](/API_docs/types/GroupCallParticipant.html) | Yes|
-|version|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|Group call|
+|participants|Array of [GroupCallParticipant](/API_docs/types/GroupCallParticipant.html) | Yes|New participant list|
+|version|[int](/API_docs/types/int.html) | Yes|Version|
 
 
 

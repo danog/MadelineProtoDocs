@@ -15,7 +15,7 @@ Information about an active user in a supergroup
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User ID|
 |messages|[int](/API_docs/types/int.html) | Yes|Number of messages for [statistics](https://core.telegram.org/api/stats) period in consideration|
 |avg\_chars|[int](/API_docs/types/int.html) | Yes|Average number of characters per message|
 

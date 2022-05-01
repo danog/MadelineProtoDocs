@@ -15,7 +15,7 @@ Defines a channel for further interaction.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[long](/API_docs/types/long.html) | Yes|
+|channel\_id|[long](/API_docs/types/long.html) | Yes|Channel identifier|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|**access\_hash** value from the [channel](../constructors/channel.html) constructor|
 
 

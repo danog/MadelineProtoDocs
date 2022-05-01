@@ -1,6 +1,6 @@
 ---
 title: "encryptedFileEmpty"
-description: "Empty constructor, unexisitng file."
+description: "Empty constructor, non-existing file."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Empty constructor, unexisitng file.
+Empty constructor, non-existing file.
 
 
 

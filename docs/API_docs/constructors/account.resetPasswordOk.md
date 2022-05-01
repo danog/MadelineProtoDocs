@@ -1,6 +1,6 @@
 ---
 title: "account.resetPasswordOk"
-description: "account.resetPasswordOk attributes, type and example"
+description: "The 2FA password was reset successfully."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_resetPasswordOk.html
@@ -9,6 +9,8 @@ redirect_from: /API_docs/constructors/account_resetPasswordOk.html
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+The 2FA password was reset successfully.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "messages.getExportedChatInvites"
-description: "messages.getExportedChatInvites parameters, return type and example"
+description: "Get info about the chat invites of a specific chat"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,16 +11,18 @@ redirect_from: /API_docs/methods/messages_getExportedChatInvites.html
 
 
 
+Get info about the chat invites of a specific chat
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|revoked|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|admin\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|offset\_date|[int](/API_docs/types/int.html) | Optional|
-|offset\_link|[string](/API_docs/types/string.html) | Optional|
-|limit|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|revoked|[Bool](/API_docs/types/Bool.html) | Whether to fetch revoked chat invites | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Chat | Optional|
+|admin\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Whether to only fetch chat invites from this admin | Optional|
+|offset\_date|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
+|offset\_link|[string](/API_docs/types/string.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
 
 
 ### Return type: [messages.ExportedChatInvites](/API_docs/types/messages.ExportedChatInvites.html)
@@ -42,12 +44,4 @@ $MadelineProto->start();
 
 $messages_ExportedChatInvites = $MadelineProto->messages->getExportedChatInvites(['revoked' => Bool, 'peer' => InputPeer, 'admin_id' => InputUser, 'offset_date' => int, 'offset_link' => 'string', 'limit' => int, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|ADMIN_ID_INVALID|The specified admin ID is invalid|
-|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
-
 

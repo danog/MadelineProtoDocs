@@ -24,8 +24,8 @@ Represents the rights of an admin in a [channel/supergroup](https://core.telegra
 |pin\_messages|[Bool](/API_docs/types/Bool.html) | Optional|If set, allows the admin to pin messages in the [channel/supergroup](https://core.telegram.org/api/channel)|
 |add\_admins|[Bool](/API_docs/types/Bool.html) | Optional|If set, allows the admin to add other admins with the same (or more limited) permissions in the [channel/supergroup](https://core.telegram.org/api/channel)|
 |anonymous|[Bool](/API_docs/types/Bool.html) | Optional|Whether this admin is anonymous|
-|manage\_call|[Bool](/API_docs/types/Bool.html) | Optional|
-|other|[Bool](/API_docs/types/Bool.html) | Optional|
+|manage\_call|[Bool](/API_docs/types/Bool.html) | Optional|If set, allows the admin to change group call/livestream settings|
+|other|[Bool](/API_docs/types/Bool.html) | Optional|Set this flag if none of the other flags are set, but you still want the user to be an admin.|
 
 
 

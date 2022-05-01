@@ -19,8 +19,8 @@ Wallpaper settings
 |motion|[Bool](/API_docs/types/Bool.html) | Optional|If set, the background needs to be slightly moved when device is rotated|
 |background\_color|[int](/API_docs/types/int.html) | Optional|If set, a PNG pattern is to be combined with the `color` chosen by the user: the main color of the background in RGB24 format|
 |second\_background\_color|[int](/API_docs/types/int.html) | Optional|If set, a PNG pattern is to be combined with the first and second background colors (RGB24 format) in a top-bottom gradient|
-|third\_background\_color|[int](/API_docs/types/int.html) | Optional|
-|fourth\_background\_color|[int](/API_docs/types/int.html) | Optional|
+|third\_background\_color|[int](/API_docs/types/int.html) | Optional|If set, a PNG pattern is to be combined with the first, second and third background colors (RGB24 format) in a freeform gradient|
+|fourth\_background\_color|[int](/API_docs/types/int.html) | Optional|If set, a PNG pattern is to be combined with the first, second, third and fourth background colors (RGB24 format) in a freeform gradient|
 |intensity|[int](/API_docs/types/int.html) | Optional|Intensity of the pattern when it is shown above the main background color, 0-100|
 |rotation|[int](/API_docs/types/int.html) | Optional|Clockwise rotation angle of the gradient, in degrees; 0-359. Should be always divisible by 45|
 

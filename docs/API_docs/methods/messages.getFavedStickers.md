@@ -17,7 +17,7 @@ Get faved stickers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[long](/API_docs/types/long.html) |  | Yes|
+|hash|[long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Yes|
 
 
 ### Return type: [messages.FavedStickers](/API_docs/types/messages.FavedStickers.html)

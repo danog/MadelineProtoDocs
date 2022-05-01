@@ -16,9 +16,9 @@ A specific user has voted in a poll
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |poll\_id|[long](/API_docs/types/long.html) | Yes|Poll ID|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User ID|
 |options|Array of [bytes](/API_docs/types/bytes.html) | Yes|Chosen option(s)|
-|qts|[int](/API_docs/types/int.html) | Yes|
+|qts|[int](/API_docs/types/int.html) | Yes|New **qts** value, see [updates »](https://core.telegram.org/api/updates) for more info.|
 
 
 

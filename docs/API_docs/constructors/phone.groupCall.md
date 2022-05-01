@@ -1,6 +1,6 @@
 ---
 title: "phone.groupCall"
-description: "phone.groupCall attributes, type and example"
+description: "Contains info about a group call, and partial info about its participants."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/phone_groupCall.html
@@ -10,15 +10,17 @@ redirect_from: /API_docs/constructors/phone_groupCall.html
 
 
 
+Contains info about a group call, and partial info about its participants.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|call|[GroupCall](/API_docs/types/GroupCall.html) | Yes|
-|participants|Array of [GroupCallParticipant](/API_docs/types/GroupCallParticipant.html) | Yes|
-|participants\_next\_offset|[string](/API_docs/types/string.html) | Yes|
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|call|[GroupCall](/API_docs/types/GroupCall.html) | Yes|Info about the group call|
+|participants|Array of [GroupCallParticipant](/API_docs/types/GroupCallParticipant.html) | Yes|A partial list of participants.|
+|participants\_next\_offset|[string](/API_docs/types/string.html) | Yes|Next offset to use when fetching the remaining participants using [phone.getGroupParticipants](../methods/phone.getGroupParticipants.html)|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Chats mentioned in the participants vector|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Users mentioned in the participants vector|
 
 
 

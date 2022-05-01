@@ -40,12 +40,3 @@ $MadelineProto->start();
 $account_PrivacyRules = $MadelineProto->account->getPrivacy(['key' => InputPrivacyKey, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|PRIVACY_KEY_INVALID|The privacy key is invalid|
-|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
-|-500|No workers running|Internal error|
-
-

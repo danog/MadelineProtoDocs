@@ -15,9 +15,9 @@ A user is typing in a [supergroup, channel](https://core.telegram.org/api/channe
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[long](/API_docs/types/long.html) | Yes|
+|channel\_id|[long](/API_docs/types/long.html) | Yes|Channel ID|
 |top\_msg\_id|[int](/API_docs/types/int.html) | Optional|[Thread ID](https://core.telegram.org/api/threads)|
-|from\_id|[Peer](/API_docs/types/Peer.html) | Yes|
+|from\_id|[Peer](/API_docs/types/Peer.html) | Yes|The peer that is typing|
 |action|[SendMessageAction](/API_docs/types/SendMessageAction.html) | Yes|Whether the user is typing, sending a media or doing something else|
 
 

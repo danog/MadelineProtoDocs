@@ -1,6 +1,6 @@
 ---
 title: "channels.getSponsoredMessages"
-description: "channels.getSponsoredMessages parameters, return type and example"
+description: "Get a list of sponsored messages"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/channels_getSponsoredMessages.html
 
 
 
+Get a list of sponsored messages
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Peer | Optional|
 
 
 ### Return type: [messages.SponsoredMessages](/API_docs/types/messages.SponsoredMessages.html)

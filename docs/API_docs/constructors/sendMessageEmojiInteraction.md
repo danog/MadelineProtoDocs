@@ -1,6 +1,6 @@
 ---
 title: "sendMessageEmojiInteraction"
-description: "sendMessageEmojiInteraction attributes, type and example"
+description: "User has clicked on an animated emoji triggering a reaction, click here for more info »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+User has clicked on an animated emoji triggering a [reaction, click here for more info »](https://core.telegram.org/api/animated-emojis#emoji-reactions).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|emoticon|[string](/API_docs/types/string.html) | Yes|
-|msg\_id|[int](/API_docs/types/int.html) | Yes|
-|interaction|[DataJSON](/API_docs/types/DataJSON.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|emoticon|[string](/API_docs/types/string.html) | Yes|Emoji|
+|msg\_id|[int](/API_docs/types/int.html) | Yes|Message ID of the animated emoji that was clicked|
+|interaction|[DataJSON](/API_docs/types/DataJSON.html) | Yes|A JSON object with interaction info, [click here for more info »](https://core.telegram.org/api/animated-emojis#emoji-reactions)|
 
 
 

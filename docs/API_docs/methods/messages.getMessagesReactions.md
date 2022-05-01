@@ -1,6 +1,6 @@
 ---
 title: "messages.getMessagesReactions"
-description: "Get message reactions"
+description: "Get [message reactions »](https://core.telegram.org/api/reactions)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/messages_getMessagesReactions.html
 
 
 
-Get message reactions
+Get [message reactions »](https://core.telegram.org/api/reactions)
 
 ### Parameters:
 

@@ -40,10 +40,3 @@ $MadelineProto->start();
 $account_PasswordSettings = $MadelineProto->account->getPasswordSettings(['password' => InputCheckPasswordSRP, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|PASSWORD_HASH_INVALID|The provided password hash is invalid|
-
-

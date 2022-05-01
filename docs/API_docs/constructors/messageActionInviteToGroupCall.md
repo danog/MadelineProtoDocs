@@ -1,6 +1,6 @@
 ---
 title: "messageActionInviteToGroupCall"
-description: "messageActionInviteToGroupCall attributes, type and example"
+description: "A set of users was invited to the group call"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A set of users was invited to the group call
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
-|users|Array of [long](/API_docs/types/long.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|The group call|
+|users|Array of [long](/API_docs/types/long.html) | Yes|The invited users|
 
 
 

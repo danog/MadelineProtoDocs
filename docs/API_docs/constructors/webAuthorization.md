@@ -16,7 +16,7 @@ Represents a bot logged in using the [Telegram login widget](https://core.telegr
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |hash|[long](/API_docs/types/long.html) | Yes|Authorization hash|
-|bot\_id|[long](/API_docs/types/long.html) | Yes|
+|bot\_id|[long](/API_docs/types/long.html) | Yes|Bot ID|
 |domain|[string](/API_docs/types/string.html) | Yes|The domain name of the website on which the user has logged in.|
 |browser|[string](/API_docs/types/string.html) | Yes|Browser user-agent|
 |platform|[string](/API_docs/types/string.html) | Yes|Platform|

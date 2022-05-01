@@ -16,7 +16,7 @@ If the difference is too long or if the channel isn't currently in the states, s
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[long](/API_docs/types/long.html) | Yes|
+|channel\_id|[long](/API_docs/types/long.html) | Yes|The channel|
 |pts|[int](/API_docs/types/int.html) | Optional|The [PTS](https://core.telegram.org/api/updates).|
 
 

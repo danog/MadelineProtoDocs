@@ -19,7 +19,7 @@ Info about [the comment section of a channel post, or a simple message thread](h
 |replies|[int](/API_docs/types/int.html) | Yes|Contains the total number of replies in this thread or comment section.|
 |replies\_pts|[int](/API_docs/types/int.html) | Yes|[PTS](https://core.telegram.org/api/updates) of the message that started this thread.|
 |recent\_repliers|Array of [Peer](/API_docs/types/Peer.html) | Optional|For channel post comments, contains information about the last few comment posters for a specific thread, to show a small list of commenter profile pictures in client previews.|
-|channel\_id|[long](/API_docs/types/long.html) | Optional|
+|channel\_id|[long](/API_docs/types/long.html) | Optional|For channel post comments, contains the ID of the associated [discussion supergroup](https://core.telegram.org/api/discussion)|
 |max\_id|[int](/API_docs/types/int.html) | Optional|ID of the latest message in this thread or comment section.|
 |read\_max\_id|[int](/API_docs/types/int.html) | Optional|Contains the ID of the latest read message in this thread or comment section.|
 

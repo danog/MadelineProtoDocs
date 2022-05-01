@@ -43,10 +43,3 @@ $MadelineProto->start();
 $Document = $MadelineProto->account->uploadTheme(['file' => InputFile, 'thumb' => InputFile, 'file_name' => 'string', 'mime_type' => 'string', ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|THEME_FILE_INVALID|Invalid theme file provided|
-
-

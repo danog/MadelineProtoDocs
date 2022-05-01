@@ -1,6 +1,6 @@
 ---
 title: "messages.availableReactions"
-description: "messages.availableReactions attributes, type and example"
+description: "Animations and metadata associated with message reactions »"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_availableReactions.html
@@ -10,12 +10,14 @@ redirect_from: /API_docs/constructors/messages_availableReactions.html
 
 
 
+Animations and metadata associated with [message reactions »](https://core.telegram.org/api/reactions)
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
 |hash|[int](/API_docs/types/int.html) | Yes|
-|reactions|Array of [AvailableReaction](/API_docs/types/AvailableReaction.html) | Yes|
+|reactions|Array of [AvailableReaction](/API_docs/types/AvailableReaction.html) | Yes|Animations and metadata associated with [message reactions »](https://core.telegram.org/api/reactions)|
 
 
 

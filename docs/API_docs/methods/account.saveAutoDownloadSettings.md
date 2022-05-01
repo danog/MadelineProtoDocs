@@ -17,8 +17,8 @@ Change media autodownload settings
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|low|[Bool](/API_docs/types/Bool.html) | Whether to save settings in the low data usage preset | Optional|
-|high|[Bool](/API_docs/types/Bool.html) | Whether to save settings in the high data usage preset | Optional|
+|low|[Bool](/API_docs/types/Bool.html) | Whether to save media in the low data usage preset | Optional|
+|high|[Bool](/API_docs/types/Bool.html) | Whether to save media in the high data usage preset | Optional|
 |settings|[AutoDownloadSettings](/API_docs/types/AutoDownloadSettings.html) | Media autodownload settings | Yes|
 
 

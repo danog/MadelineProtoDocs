@@ -19,8 +19,8 @@ Request to create an encrypted chat.
 |id|[int](/API_docs/types/int.html) | Yes|Chat ID|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|Check sum depending on user ID|
 |date|[int](/API_docs/types/int.html) | Yes|Chat creation date|
-|admin\_id|[long](/API_docs/types/long.html) | Yes|
-|participant\_id|[long](/API_docs/types/long.html) | Yes|
+|admin\_id|[long](/API_docs/types/long.html) | Yes|Chat creator ID|
+|participant\_id|[long](/API_docs/types/long.html) | Yes|ID of second chat participant|
 |g\_a|[bytes](/API_docs/types/bytes.html) | Yes|`A = g ^ a mod p`, see [Wikipedia](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)|
 
 

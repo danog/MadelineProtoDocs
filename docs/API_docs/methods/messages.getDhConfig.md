@@ -17,7 +17,7 @@ You cannot use this method directly, instead use $MadelineProto->getDhConfig();
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|version|[int](/API_docs/types/int.html) | Value of the **version** parameter from [messages.dhConfig](../constructors/messages.dhConfig.html), avialable at the client | Yes|
+|version|[int](/API_docs/types/int.html) | Value of the **version** parameter from [messages.dhConfig](../constructors/messages.dhConfig.html), available at the client | Yes|
 |random\_length|[int](/API_docs/types/int.html) | Length of the required random sequence | Yes|
 
 
@@ -40,13 +40,4 @@ $MadelineProto->start();
 
 $messages_DhConfig = $MadelineProto->messages->getDhConfig(['version' => int, 'random_length' => int, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
-|400|RANDOM_LENGTH_INVALID|Random length invalid|
-|-503|Timeout|Timeout while fetching data|
-
 

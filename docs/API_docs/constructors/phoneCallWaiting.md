@@ -19,8 +19,8 @@ Incoming phone call
 |id|[long](/API_docs/types/long.html) | Yes|Call ID|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash|
 |date|[int](/API_docs/types/int.html) | Yes|Date|
-|admin\_id|[long](/API_docs/types/long.html) | Yes|
-|participant\_id|[long](/API_docs/types/long.html) | Yes|
+|admin\_id|[long](/API_docs/types/long.html) | Yes|Admin ID|
+|participant\_id|[long](/API_docs/types/long.html) | Yes|Participant ID|
 |protocol|[PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html) | Yes|Phone call protocol info|
 |receive\_date|[int](/API_docs/types/int.html) | Optional|When was the phone call received|
 

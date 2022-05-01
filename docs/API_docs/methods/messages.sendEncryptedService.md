@@ -41,16 +41,3 @@ $MadelineProto->start();
 $messages_SentEncryptedMessage = $MadelineProto->messages->sendEncryptedService(['peer' => InputEncryptedChat, 'data' => 'bytes', ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|DATA_INVALID|Encrypted data invalid|
-|400|ENCRYPTION_DECLINED|The secret chat was declined|
-|400|ENCRYPTION_ID_INVALID|The provided secret chat ID is invalid|
-|400|MSG_WAIT_FAILED|A waiting call returned an error|
-|400|USER_IS_BLOCKED|You were blocked by this user|
-|403|USER_DELETED|You can't send this secret message because the other participant deleted their account.|
-|403|USER_IS_BLOCKED|You were blocked by this user|
-
-

@@ -1,6 +1,6 @@
 ---
 title: "channelAdminLogEventActionStartGroupCall"
-description: "channelAdminLogEventActionStartGroupCall attributes, type and example"
+description: "A group call was started"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A group call was started
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|Group call|
 
 
 

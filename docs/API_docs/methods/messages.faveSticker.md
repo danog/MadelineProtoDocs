@@ -1,6 +1,6 @@
 ---
 title: "messages.faveSticker"
-description: "Mark a sticker as favorite"
+description: "Mark or unmark a sticker as favorite"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,14 @@ redirect_from: /API_docs/methods/messages_faveSticker.html
 
 
 
-Mark a sticker as favorite
+Mark or unmark a sticker as favorite
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | Sticker to mark as favorite | Optional|
-|unfave|[Bool](/API_docs/types/Bool.html) | Unfavorite | Yes|
+|id|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | Sticker in question | Optional|
+|unfave|[Bool](/API_docs/types/Bool.html) | Whether to add or remove a sticker from favorites | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
@@ -40,11 +40,4 @@ $MadelineProto->start();
 
 $Bool = $MadelineProto->messages->faveSticker(['id' => InputDocument, 'unfave' => Bool, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|STICKER_ID_INVALID|The provided sticker ID is invalid|
-
 

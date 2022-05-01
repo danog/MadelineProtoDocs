@@ -16,7 +16,7 @@ This object contains information about an incoming shipping query.
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |query\_id|[long](/API_docs/types/long.html) | Yes|Unique query identifier|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User who sent the query|
 |payload|[bytes](/API_docs/types/bytes.html) | Yes|Bot specified invoice payload|
 |shipping\_address|[PostAddress](/API_docs/types/PostAddress.html) | Yes|User specified shipping address|
 

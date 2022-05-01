@@ -1,6 +1,6 @@
 ---
 title: "phone.saveDefaultGroupCallJoinAs"
-description: "phone.saveDefaultGroupCallJoinAs parameters, return type and example"
+description: "Set the default peer that will be used to join a group call in a specific dialog."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/phone_saveDefaultGroupCallJoinAs.html
 
 
 
+Set the default peer that will be used to join a group call in a specific dialog.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|join\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The dialog | Optional|
+|join\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The default peer that will be used to join group calls in this dialog, presenting yourself as a specific user/channel. | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

@@ -1,6 +1,6 @@
 ---
 title: "messages.sponsoredMessages"
-description: "messages.sponsoredMessages attributes, type and example"
+description: "A set of sponsored messages associated to a channel"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_sponsoredMessages.html
@@ -10,13 +10,15 @@ redirect_from: /API_docs/constructors/messages_sponsoredMessages.html
 
 
 
+A set of sponsored messages associated to a channel
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|messages|Array of [SponsoredMessage](/API_docs/types/SponsoredMessage.html) | Yes|
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|messages|Array of [SponsoredMessage](/API_docs/types/SponsoredMessage.html) | Yes|Sponsored messages|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Chats mentioned in the sponsored messages|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Users mentioned in the sponsored messages|
 
 
 

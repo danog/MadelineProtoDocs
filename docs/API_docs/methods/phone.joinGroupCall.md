@@ -1,6 +1,6 @@
 ---
 title: "phone.joinGroupCall"
-description: "phone.joinGroupCall parameters, return type and example"
+description: "Join a group call"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,16 +11,18 @@ redirect_from: /API_docs/methods/phone_joinGroupCall.html
 
 
 
+Join a group call
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|muted|[Bool](/API_docs/types/Bool.html) | Optional|
-|video\_stopped|[Bool](/API_docs/types/Bool.html) | Optional|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
-|join\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|invite\_hash|[string](/API_docs/types/string.html) | Optional|
-|params|[DataJSON](/API_docs/types/DataJSON.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|muted|[Bool](/API_docs/types/Bool.html) | If set, the user will be muted by default upon joining. | Optional|
+|video\_stopped|[Bool](/API_docs/types/Bool.html) | If set, the user's video will be disabled by default upon joining. | Optional|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | The group call | Yes|
+|join\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Join the group call, presenting yourself as the specified user/channel | Optional|
+|invite\_hash|[string](/API_docs/types/string.html) | The invitation hash from the invite link: `https://t.me/username?voicechat=hash` | Optional|
+|params|[DataJSON](/API_docs/types/DataJSON.html) | WebRTC parameters | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -42,11 +44,4 @@ $MadelineProto->start();
 
 $Updates = $MadelineProto->phone->joinGroupCall(['muted' => Bool, 'video_stopped' => Bool, 'call' => InputGroupCall, 'join_as' => InputPeer, 'invite_hash' => 'string', 'params' => DataJSON, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|GROUPCALL_SSRC_DUPLICATE_MUCH|The app needs to retry joining the group call with a new SSRC value.|
-
 

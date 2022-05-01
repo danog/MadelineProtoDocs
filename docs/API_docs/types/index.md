@@ -9,6 +9,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [AccountDaysTTL](/API_docs/types/AccountDaysTTL.html)<a name="AccountDaysTTL"></a>  
 
+[AttachMenuBot](/API_docs/types/AttachMenuBot.html)<a name="AttachMenuBot"></a>  
+
+[AttachMenuBotIcon](/API_docs/types/AttachMenuBotIcon.html)<a name="AttachMenuBotIcon"></a>  
+
+[AttachMenuBotIconColor](/API_docs/types/AttachMenuBotIconColor.html)<a name="AttachMenuBotIconColor"></a>  
+
+[AttachMenuBots](/API_docs/types/AttachMenuBots.html)<a name="AttachMenuBots"></a>  
+
+[AttachMenuBotsBot](/API_docs/types/AttachMenuBotsBot.html)<a name="AttachMenuBotsBot"></a>  
+
 [Authorization](/API_docs/types/Authorization.html)<a name="Authorization"></a>  
 
 [AutoDownloadSettings](/API_docs/types/AutoDownloadSettings.html)<a name="AutoDownloadSettings"></a>  
@@ -30,6 +40,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [BotInlineMessage](/API_docs/types/BotInlineMessage.html)<a name="BotInlineMessage"></a>  
 
 [BotInlineResult](/API_docs/types/BotInlineResult.html)<a name="BotInlineResult"></a>  
+
+[BotMenuButton](/API_docs/types/BotMenuButton.html)<a name="BotMenuButton"></a>  
 
 [CdnConfig](/API_docs/types/CdnConfig.html)<a name="CdnConfig"></a>  
 
@@ -146,6 +158,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [GroupCallParticipantVideo](/API_docs/types/GroupCallParticipantVideo.html)<a name="GroupCallParticipantVideo"></a>  
 
 [GroupCallParticipantVideoSourceGroup](/API_docs/types/GroupCallParticipantVideoSourceGroup.html)<a name="GroupCallParticipantVideoSourceGroup"></a>  
+
+[GroupCallStreamChannel](/API_docs/types/GroupCallStreamChannel.html)<a name="GroupCallStreamChannel"></a>  
 
 [HighScore](/API_docs/types/HighScore.html)<a name="HighScore"></a>  
 
@@ -269,6 +283,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [MessageMedia](/API_docs/types/MessageMedia.html)<a name="MessageMedia"></a>  
 
+[MessagePeerReaction](/API_docs/types/MessagePeerReaction.html)<a name="MessagePeerReaction"></a>  
+
 [MessageRange](/API_docs/types/MessageRange.html)<a name="MessageRange"></a>  
 
 [MessageReactions](/API_docs/types/MessageReactions.html)<a name="MessageReactions"></a>  
@@ -277,8 +293,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [MessageReplyHeader](/API_docs/types/MessageReplyHeader.html)<a name="MessageReplyHeader"></a>  
 
-[MessageUserReaction](/API_docs/types/MessageUserReaction.html)<a name="MessageUserReaction"></a>  
-
 [MessageUserVote](/API_docs/types/MessageUserVote.html)<a name="MessageUserVote"></a>  
 
 [MessageViews](/API_docs/types/MessageViews.html)<a name="MessageViews"></a>  
@@ -286,6 +300,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [MessagesFilter](/API_docs/types/MessagesFilter.html)<a name="MessagesFilter"></a>  
 
 [NearestDc](/API_docs/types/NearestDc.html)<a name="NearestDc"></a>  
+
+[NotificationSound](/API_docs/types/NotificationSound.html)<a name="NotificationSound"></a>  
 
 [NotifyPeer](/API_docs/types/NotifyPeer.html)<a name="NotifyPeer"></a>  
 
@@ -399,6 +415,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [ShippingOption](/API_docs/types/ShippingOption.html)<a name="ShippingOption"></a>  
 
+[SimpleWebViewResult](/API_docs/types/SimpleWebViewResult.html)<a name="SimpleWebViewResult"></a>  
+
 [SponsoredMessage](/API_docs/types/SponsoredMessage.html)<a name="SponsoredMessage"></a>  
 
 [StatsAbsValueAndPrev](/API_docs/types/StatsAbsValueAndPrev.html)<a name="StatsAbsValueAndPrev"></a>  
@@ -463,6 +481,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [WebPageAttribute](/API_docs/types/WebPageAttribute.html)<a name="WebPageAttribute"></a>  
 
+[WebViewMessageSent](/API_docs/types/WebViewMessageSent.html)<a name="WebViewMessageSent"></a>  
+
+[WebViewResult](/API_docs/types/WebViewResult.html)<a name="WebViewResult"></a>  
+
 [X](/API_docs/types/X.html)<a name="X"></a>  
 
 [account.AuthorizationForm](/API_docs/types/account.AuthorizationForm.html)<a name="account.AuthorizationForm"></a>  
@@ -482,6 +504,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [account.PrivacyRules](/API_docs/types/account.PrivacyRules.html)<a name="account.PrivacyRules"></a>  
 
 [account.ResetPasswordResult](/API_docs/types/account.ResetPasswordResult.html)<a name="account.ResetPasswordResult"></a>  
+
+[account.SavedRingtone](/API_docs/types/account.SavedRingtone.html)<a name="account.SavedRingtone"></a>  
+
+[account.SavedRingtones](/API_docs/types/account.SavedRingtones.html)<a name="account.SavedRingtones"></a>  
 
 [account.SentEmailCode](/API_docs/types/account.SentEmailCode.html)<a name="account.SentEmailCode"></a>  
 
@@ -645,6 +671,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messages.Stickers](/API_docs/types/messages.Stickers.html)<a name="messages.Stickers"></a>  
 
+[messages.TranslatedText](/API_docs/types/messages.TranslatedText.html)<a name="messages.TranslatedText"></a>  
+
 [messages.VotesList](/API_docs/types/messages.VotesList.html)<a name="messages.VotesList"></a>  
 
 [payments.BankCardData](/API_docs/types/payments.BankCardData.html)<a name="payments.BankCardData"></a>  
@@ -662,6 +690,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [phone.ExportedGroupCallInvite](/API_docs/types/phone.ExportedGroupCallInvite.html)<a name="phone.ExportedGroupCallInvite"></a>  
 
 [phone.GroupCall](/API_docs/types/phone.GroupCall.html)<a name="phone.GroupCall"></a>  
+
+[phone.GroupCallStreamChannels](/API_docs/types/phone.GroupCallStreamChannels.html)<a name="phone.GroupCallStreamChannels"></a>  
+
+[phone.GroupCallStreamRtmpUrl](/API_docs/types/phone.GroupCallStreamRtmpUrl.html)<a name="phone.GroupCallStreamRtmpUrl"></a>  
 
 [phone.GroupParticipants](/API_docs/types/phone.GroupParticipants.html)<a name="phone.GroupParticipants"></a>  
 

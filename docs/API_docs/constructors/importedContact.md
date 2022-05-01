@@ -15,7 +15,7 @@ Successfully imported contact.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User identifier|
 |client\_id|[long](/API_docs/types/long.html) | Yes|The contact's client identifier (passed to one of the [InputContact](../types/InputContact.html) constructors)|
 
 

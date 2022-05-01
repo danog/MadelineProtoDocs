@@ -15,7 +15,7 @@ Indicates the chat was [migrated](https://core.telegram.org/api/channel) to the 
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[long](/API_docs/types/long.html) | Yes|
+|channel\_id|[long](/API_docs/types/long.html) | Yes|The supergroup it was migrated to|
 
 
 

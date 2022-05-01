@@ -16,7 +16,7 @@ A poll answer, and how users voted on it
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |chosen|[Bool](/API_docs/types/Bool.html) | Optional|Whether we have chosen this answer|
-|correct|[Bool](/API_docs/types/Bool.html) | Optional|For quizes, whether the option we have chosen is correct|
+|correct|[Bool](/API_docs/types/Bool.html) | Optional|For quizzes, whether the option we have chosen is correct|
 |option|[bytes](/API_docs/types/bytes.html) | Yes|The param that has to be passed to [messages.sendVote](../methods/messages.sendVote.html).|
 |voters|[int](/API_docs/types/int.html) | Yes|How many users voted for this option|
 

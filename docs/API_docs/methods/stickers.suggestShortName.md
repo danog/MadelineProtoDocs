@@ -1,6 +1,6 @@
 ---
 title: "stickers.suggestShortName"
-description: "stickers.suggestShortName parameters, return type and example"
+description: "Suggests a short name for a given stickerpack name"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/stickers_suggestShortName.html
 
 
 
+Suggests a short name for a given stickerpack name
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|title|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|title|[string](/API_docs/types/string.html) | Sticker pack name | Yes|
 
 
 ### Return type: [stickers.SuggestedShortName](/API_docs/types/stickers.SuggestedShortName.html)
@@ -37,11 +39,4 @@ $MadelineProto->start();
 
 $stickers_SuggestedShortName = $MadelineProto->stickers->suggestShortName(['title' => 'string', ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|TITLE_INVALID|The specified stickerpack title is invalid|
-
 

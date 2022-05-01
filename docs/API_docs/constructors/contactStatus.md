@@ -15,7 +15,7 @@ Contact status: online / offline.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User identifier|
 |status|[UserStatus](/API_docs/types/UserStatus.html) | Optional|Online status|
 
 

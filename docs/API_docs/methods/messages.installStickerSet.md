@@ -41,10 +41,3 @@ $MadelineProto->start();
 $messages_StickerSetInstallResult = $MadelineProto->messages->installStickerSet(['stickerset' => InputStickerSet, 'archived' => Bool, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|STICKERSET_INVALID|The provided sticker set is invalid|
-
-

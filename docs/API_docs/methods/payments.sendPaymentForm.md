@@ -17,13 +17,13 @@ Send compiled payment form
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|form\_id|[long](/API_docs/types/long.html) |  | Yes|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
+|form\_id|[long](/API_docs/types/long.html) | Form ID | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer where the payment form was sent | Optional|
 |msg\_id|[int](/API_docs/types/int.html) | Message ID of form | Yes|
 |requested\_info\_id|[string](/API_docs/types/string.html) | ID of saved and validated [order info](../constructors/payments.validatedRequestedInfo.html) | Optional|
 |shipping\_option\_id|[string](/API_docs/types/string.html) | Chosen shipping option ID | Optional|
 |credentials|[InputPaymentCredentials](/API_docs/types/InputPaymentCredentials.html) | Payment credentials | Yes|
-|tip\_amount|[long](/API_docs/types/long.html) |  | Optional|
+|tip\_amount|[long](/API_docs/types/long.html) | Tip, in the smallest units of the currency (integer, not float/double). For example, for a price of `US$ 1.45` pass `amount = 145`. See the exp parameter in [currencies.json](https://core.telegram.org/bots/payments/currencies.json), it shows the number of digits past the decimal point for each currency (2 for the majority of currencies). | Optional|
 
 
 ### Return type: [payments.PaymentResult](/API_docs/types/payments.PaymentResult.html)
@@ -45,11 +45,4 @@ $MadelineProto->start();
 
 $payments_PaymentResult = $MadelineProto->payments->sendPaymentForm(['form_id' => long, 'peer' => InputPeer, 'msg_id' => int, 'requested_info_id' => 'string', 'shipping_option_id' => 'string', 'credentials' => InputPaymentCredentials, 'tip_amount' => long, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|MESSAGE_ID_INVALID|The provided message id is invalid|
-
 

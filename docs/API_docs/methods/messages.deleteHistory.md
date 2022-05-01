@@ -21,8 +21,8 @@ Deletes communication history.
 |revoke|[Bool](/API_docs/types/Bool.html) | Whether to delete the message history for all chat participants | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | User or chat, communication history of which will be deleted | Optional|
 |max\_id|[int](/API_docs/types/int.html) | Maximum ID of message to delete | Yes|
-|min\_date|[int](/API_docs/types/int.html) |  | Optional|
-|max\_date|[int](/API_docs/types/int.html) |  | Optional|
+|min\_date|[int](/API_docs/types/int.html) | Delete all messages newer than this UNIX timestamp | Optional|
+|max\_date|[int](/API_docs/types/int.html) | Delete all messages older than this UNIX timestamp | Optional|
 
 
 ### Return type: [messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.html)
@@ -44,18 +44,4 @@ $MadelineProto->start();
 
 $messages_AffectedHistory = $MadelineProto->messages->deleteHistory(['just_clear' => Bool, 'revoke' => Bool, 'peer' => InputPeer, 'max_id' => int, 'min_date' => int, 'max_date' => int, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|400|CHAT_ID_INVALID|The provided chat id is invalid|
-|400|MESSAGE_ID_INVALID|The provided message id is invalid|
-|400|MSG_ID_INVALID|Invalid message ID provided|
-|400|PEER_ID_INVALID|The provided peer id is invalid|
-|-3002|All workers are busy. Active_queries = X|All workers are busy. Active_queries = X|
-|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|-503|Timeout|Timeout while fetching data|
-
 

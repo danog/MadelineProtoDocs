@@ -17,7 +17,7 @@ Deletes a user from a chat and sends a service message on it.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|revoke\_history|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|revoke\_history|[Bool](/API_docs/types/Bool.html) | Remove the entire chat history of the specified user in this chat. | Optional|
 |chat\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
 |user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | User ID to be deleted | Optional|
 
@@ -41,15 +41,4 @@ $MadelineProto->start();
 
 $Updates = $MadelineProto->messages->deleteChatUser(['revoke_history' => Bool, 'chat_id' => InputPeer, 'user_id' => InputUser, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
-|400|CHAT_ID_INVALID|The provided chat id is invalid|
-|400|PEER_ID_INVALID|The provided peer id is invalid|
-|400|USER_ID_INVALID|The provided user ID is invalid|
-|400|USER_NOT_PARTICIPANT|You're not a member of this supergroup/channel|
-
 

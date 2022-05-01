@@ -17,7 +17,7 @@ You cannot use this method directly, see https://docs.madelineproto.xyz for more
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|delete\_history|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|delete\_history|[Bool](/API_docs/types/Bool.html) | Whether to delete the entire chat history for the other user as well | Optional|
 |chat\_id|[int](/API_docs/types/int.html) | Secret chat ID | Yes|
 
 
@@ -40,13 +40,4 @@ $MadelineProto->start();
 
 $Bool = $MadelineProto->messages->discardEncryption(['delete_history' => Bool, 'chat_id' => int, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHAT_ID_EMPTY|The provided chat ID is empty|
-|400|ENCRYPTION_ALREADY_DECLINED|The secret chat was already declined|
-|400|ENCRYPTION_ID_INVALID|The provided secret chat ID is invalid|
-
 

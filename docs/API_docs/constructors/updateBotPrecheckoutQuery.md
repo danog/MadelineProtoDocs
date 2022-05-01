@@ -16,7 +16,7 @@ This object contains information about an incoming pre-checkout query.
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |query\_id|[long](/API_docs/types/long.html) | Yes|Unique query identifier|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User who sent the query|
 |payload|[bytes](/API_docs/types/bytes.html) | Yes|Bot specified invoice payload|
 |info|[PaymentRequestedInfo](/API_docs/types/PaymentRequestedInfo.html) | Optional|Order info provided by the user|
 |shipping\_option\_id|[string](/API_docs/types/string.html) | Optional|Identifier of the shipping option chosen by the user|

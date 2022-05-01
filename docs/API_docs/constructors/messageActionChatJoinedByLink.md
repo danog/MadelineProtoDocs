@@ -15,7 +15,7 @@ A user joined the chat via an invite link
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|inviter\_id|[long](/API_docs/types/long.html) | Yes|
+|inviter\_id|[long](/API_docs/types/long.html) | Yes|ID of the user that created the invite link|
 
 
 

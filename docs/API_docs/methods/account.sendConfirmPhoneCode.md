@@ -41,10 +41,3 @@ $MadelineProto->start();
 $auth_SentCode = $MadelineProto->account->sendConfirmPhoneCode(['hash' => 'string', 'settings' => CodeSettings, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|HASH_INVALID|The provided hash is invalid|
-
-

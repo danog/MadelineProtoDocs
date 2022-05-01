@@ -1,6 +1,6 @@
 ---
 title: "channelAdminLogEventActionToggleGroupCallSetting"
-description: "channelAdminLogEventActionToggleGroupCallSetting attributes, type and example"
+description: "Group call settings were changed"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Group call settings were changed
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|join\_muted|[Bool](/API_docs/types/Bool.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|join\_muted|[Bool](/API_docs/types/Bool.html) | Yes|Whether all users are muted by default upon joining|
 
 
 

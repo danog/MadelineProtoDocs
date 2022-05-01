@@ -15,7 +15,7 @@ Empty constructor, non-existent user.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](/API_docs/types/long.html) | Yes|
+|id|[long](/API_docs/types/long.html) | Yes|User identifier or `0`|
 
 
 

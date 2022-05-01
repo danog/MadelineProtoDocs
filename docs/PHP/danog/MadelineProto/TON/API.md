@@ -6,7 +6,7 @@ parent: "MadelineProto API"
 
 ---
 # `danog\MadelineProto\TON\API`
-[Back to index](../../../index.html)
+[Back to index](../../../index.md)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
@@ -87,6 +87,7 @@ Call promise $b after promise $a.
 
 
 Parameters:
+
 * `$a`: `\Generator|\Promise` Promise A  
 * `$b`: `\Generator|\Promise` Promise B  
 
@@ -105,6 +106,7 @@ Returns a promise that succeeds when all promises succeed, and fails if any prom
 Returned promise succeeds with an array of values used to succeed each contained promise, with keys corresponding to the array of promises.
 
 Parameters:
+
 * `$promises`: `(\Generator|\Promise)[]` Promises  
 
 
@@ -122,6 +124,7 @@ Returns a promise that is resolved when all promises are resolved. The returned 
 
 
 Parameters:
+
 * `$promises`: `(\Promise|\Generator)[]` Promises  
 
 
@@ -139,6 +142,7 @@ Create array.
 
 
 Parameters:
+
 * `$params`: `mixed` Params  
 
 
@@ -149,6 +153,7 @@ base64URL decode.
 
 
 Parameters:
+
 * `$data`: `string` Data to decode  
 
 
@@ -159,6 +164,7 @@ Base64URL encode.
 
 
 Parameters:
+
 * `$data`: `string` Data to encode  
 
 
@@ -169,6 +175,7 @@ Convert parameters.
 
 
 Parameters:
+
 * `$parameters`: `array` Parameters  
 
 
@@ -184,6 +191,7 @@ Convert generator, promise or any other value to a promise.
 
 
 Parameters:
+
 * `$promise`: `\Generator|\Promise|mixed`   
   Full type:
   ```
@@ -210,6 +218,7 @@ Call promise in background.
 
 
 Parameters:
+
 * `$promise`: `\Generator|\Promise` Promise to resolve  
 * `$actual`: `?\Generator|\Promise` Promise to resolve instead of $promise  
 * `$file`: `string` File  
@@ -229,6 +238,7 @@ Call promise in background, deferring execution.
 
 
 Parameters:
+
 * `$promise`: `\Generator|\Promise` Promise to resolve  
 
 
@@ -245,6 +255,7 @@ Close connection with client, connected via web.
 
 
 Parameters:
+
 * `$message`: `string` Message  
 
 
@@ -255,6 +266,7 @@ Connect to the lite endpoints specified in the config file.
 
 
 Parameters:
+
 * `$config`: `string` Path to config file  
 
 
@@ -270,6 +282,7 @@ Asynchronously write to stdout/browser.
 
 
 Parameters:
+
 * `$string`: `string` Message to echo  
 
 
@@ -285,6 +298,7 @@ Get final element of array.
 
 
 Parameters:
+
 * `$what`: `array` Array  
 
 
@@ -295,6 +309,7 @@ Returns a promise that succeeds when the first promise succeeds, and fails only 
 
 
 Parameters:
+
 * `$promises`: `(\Promise|\Generator)[]` Promises  
 
 
@@ -313,6 +328,7 @@ Resolves with a callbable that MUST eventually be called in order to release the
 
 
 Parameters:
+
 * `$file`: `string` File to lock  
 * `$operation`: `int` Locking mode  
 * `$polling`: `float` Polling interval  
@@ -332,6 +348,7 @@ Generate MTProto vector hash.
 
 
 Parameters:
+
 * `$ints`: `array` IDs  
 
 
@@ -344,6 +361,7 @@ Get extension from file location.
 
 
 Parameters:
+
 * `$location`: `mixed` File location  
 * `$default`: `string` Default extension  
 
@@ -355,6 +373,7 @@ Get extension from mime type.
 
 
 Parameters:
+
 * `$mime`: `string` MIME type  
 
 
@@ -380,6 +399,7 @@ Get mime type from buffer.
 
 
 Parameters:
+
 * `$buffer`: `string` Buffer  
 
 
@@ -390,6 +410,7 @@ Get mime type from file extension.
 
 
 Parameters:
+
 * `$extension`: `string` File extension  
 * `$default`: `string` Default mime type  
 
@@ -401,6 +422,7 @@ Get mime type of file.
 
 
 Parameters:
+
 * `$file`: `string` File  
 
 
@@ -411,6 +433,7 @@ Accesses a private variable from an object.
 
 
 Parameters:
+
 * `$obj`: `object` Object  
 * `$var`: `string` Attribute name  
 
@@ -422,6 +445,7 @@ Checks private property exists in an object.
 
 
 Parameters:
+
 * `$obj`: `object` Object  
 * `$var`: `string` Attribute name  
 
@@ -433,6 +457,7 @@ Inflate stripped photosize to full JPG payload.
 
 
 Parameters:
+
 * `$stripped`: `string` Stripped photosize  
 
 
@@ -451,6 +476,7 @@ Check if is array or similar (traversable && countable && arrayAccess).
 
 
 Parameters:
+
 * `$var`: `mixed` Value to check  
 
 
@@ -461,6 +487,7 @@ Logger.
 
 
 Parameters:
+
 * `$param`: `string` Parameter  
 * `$level`: `int` Logging level  
 * `$file`: `string` File where the message originated  
@@ -482,6 +509,7 @@ Asynchronously run async callable.
 
 
 Parameters:
+
 * `$func`: `callable` Function  
 
 
@@ -497,6 +525,7 @@ Escape string for markdown.
 
 
 Parameters:
+
 * `$hwat`: `string` String to escape  
 
 
@@ -507,6 +536,7 @@ Call lite method.
 
 
 Parameters:
+
 * `$methodName`: `string` Method name  
 * `$args`: `array` Arguments  
 
@@ -523,6 +553,7 @@ Escape method name.
 
 
 Parameters:
+
 * `$method`: `string` Method name  
 
 
@@ -533,6 +564,7 @@ Convert double to binary version.
 
 
 Parameters:
+
 * `$value`: `float` Value to convert  
 
 
@@ -543,6 +575,7 @@ Convert integer to base256 signed int.
 
 
 Parameters:
+
 * `$value`: `int` Value to convert  
 
 
@@ -553,6 +586,7 @@ Convert integer to base256 long.
 
 
 Parameters:
+
 * `$value`: `int` Value to convert  
 
 
@@ -563,6 +597,7 @@ Convert value to unsigned base256 int.
 
 
 Parameters:
+
 * `$value`: `int` Value  
 
 
@@ -574,6 +609,7 @@ Works just like the % (modulus) operator, only returns always a postive number.
 
 
 Parameters:
+
 * `$a`: `int` A  
 * `$b`: `int` B  
 
@@ -587,6 +623,7 @@ Get random string of specified length.
 
 
 Parameters:
+
 * `$length`: `int` Length  
 
 
@@ -599,6 +636,7 @@ Get random integer.
 
 
 Parameters:
+
 * `$modulus`: `int` Modulus  
 
 
@@ -609,6 +647,7 @@ Asynchronously read line.
 
 
 Parameters:
+
 * `$prompt`: `string` Prompt  
 
 
@@ -624,6 +663,7 @@ Rethrow error catched in strand.
 
 
 Parameters:
+
 * `$e`: `\Throwable` Exception  
 * `$file`: `string` File where the strand started  
 
@@ -640,6 +680,7 @@ null-byte RLE decode.
 
 
 Parameters:
+
 * `$string`: `string` Data to decode  
 
 
@@ -650,6 +691,7 @@ null-byte RLE encode.
 
 
 Parameters:
+
 * `$string`: `string` Data to encode  
 
 
@@ -660,6 +702,7 @@ Sets a private variable in an object.
 
 
 Parameters:
+
 * `$obj`: `object` Object  
 * `$var`: `string` Attribute name  
 * `$val`: `mixed` Attribute value  
@@ -672,6 +715,7 @@ Asynchronously sleep.
 
 
 Parameters:
+
 * `$time`: `int|float` Number of seconds to sleep for  
 
 
@@ -687,6 +731,7 @@ Resolves with a two-item array delineating successful and failed Promise results
 The returned promise will only fail if the given number of required promises fail.
 
 Parameters:
+
 * `$promises`: `(\Promise|\Generator)[]` Promises  
 
 
@@ -704,6 +749,7 @@ Create an artificial timeout for any \Generator or Promise.
 
 
 Parameters:
+
 * `$promise`: `\Generator|\Promise`   
 * `$timeout`: `int`   
 
@@ -724,6 +770,7 @@ If the promise is resolved before the timeout expires, the result is returned
 If the timeout expires before the promise is resolved, a default value is returned
 
 Parameters:
+
 * `$promise`: `\Promise|\Generator` Promise to which the timeout is applied.  
   Full type:
   ```
@@ -754,6 +801,7 @@ Convert to camelCase.
 
 
 Parameters:
+
 * `$input`: `string` String  
 
 
@@ -764,6 +812,7 @@ Convert to snake_case.
 
 
 Parameters:
+
 * `$input`: `string` String  
 
 
@@ -774,6 +823,7 @@ Escape type name.
 
 
 Parameters:
+
 * `$type`: `string` String to escape  
 
 
@@ -784,6 +834,7 @@ Unpack binary double.
 
 
 Parameters:
+
 * `$value`: `string` Value to unpack  
 
 
@@ -794,6 +845,7 @@ Unpack base256 signed int.
 
 
 Parameters:
+
 * `$value`: `string` base256 int  
 
 
@@ -804,6 +856,7 @@ Unpack base256 signed long.
 
 
 Parameters:
+
 * `$value`: `string` base256 long  
 
 
@@ -814,6 +867,7 @@ Unpack base256 signed long to string.
 
 
 Parameters:
+
 * `$value`: `string|int|array` base256 long  
 
 
@@ -824,6 +878,7 @@ Synchronously wait for a promise|generator.
 
 
 Parameters:
+
 * `$promise`: `\Generator|\Promise` The promise to wait for  
 * `$ignoreSignal`: `bool` Whether to ignore shutdown signals  
 
@@ -841,6 +896,7 @@ Enable or disable async.
 
 
 Parameters:
+
 * `$async`: `bool` Whether to enable or disable async  
 
 
@@ -874,6 +930,7 @@ Mark instance as (de)inited forcefully.
 
 
 Parameters:
+
 * `$inited`: `bool` Whether to mark the instance as inited or deinited  
 
 

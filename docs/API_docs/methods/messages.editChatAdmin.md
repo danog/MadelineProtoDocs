@@ -1,6 +1,6 @@
 ---
 title: "messages.editChatAdmin"
-description: "Make a user admin in a [legacy group](https://core.telegram.org/api/channel)."
+description: "Make a user admin in a [basic group](https://core.telegram.org/api/channel#basic-groups)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/messages_editChatAdmin.html
 
 
 
-Make a user admin in a [legacy group](https://core.telegram.org/api/channel).
+Make a user admin in a [basic group](https://core.telegram.org/api/channel#basic-groups).
 
 ### Parameters:
 
@@ -19,7 +19,7 @@ Make a user admin in a [legacy group](https://core.telegram.org/api/channel).
 |----------|---------------|-------------|----------|
 |chat\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
 |user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The user to make admin | Optional|
-|is\_admin|[Bool](/API_docs/types/Bool.html) | Whether to make him admin | Yes|
+|is\_admin|[Bool](/API_docs/types/Bool.html) | Whether to make them admin | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
@@ -41,14 +41,4 @@ $MadelineProto->start();
 
 $Bool = $MadelineProto->messages->editChatAdmin(['chat_id' => InputPeer, 'user_id' => InputUser, 'is_admin' => Bool, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHAT_ID_INVALID|The provided chat id is invalid|
-|400|PEER_ID_INVALID|The provided peer id is invalid|
-|400|USER_ID_INVALID|The provided user ID is invalid|
-|400|USER_NOT_PARTICIPANT|You're not a member of this supergroup/channel|
-
 

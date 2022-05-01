@@ -41,10 +41,3 @@ $MadelineProto->start();
 $LangPackDifference = $MadelineProto->langpack->getLangPack(['lang_pack' => 'string', 'lang_code' => 'string', ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|LANG_PACK_INVALID|The provided language pack is invalid|
-
-

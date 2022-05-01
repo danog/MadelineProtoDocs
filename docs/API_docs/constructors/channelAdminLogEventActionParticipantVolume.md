@@ -1,6 +1,6 @@
 ---
 title: "channelAdminLogEventActionParticipantVolume"
-description: "channelAdminLogEventActionParticipantVolume attributes, type and example"
+description: "channelAdminLogEvent.user_id has set the volume of participant.peer to participant.volume"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+channelAdminLogEvent.user\_id has set the volume of participant.peer to participant.volume
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|participant|[GroupCallParticipant](/API_docs/types/GroupCallParticipant.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|participant|[GroupCallParticipant](/API_docs/types/GroupCallParticipant.html) | Yes|The participant whose volume was changed|
 
 
 

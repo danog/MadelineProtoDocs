@@ -1,6 +1,6 @@
 ---
 title: "help.dismissSuggestion"
-description: "Dismiss a suggestion"
+description: "Dismiss a [suggestion, see here for more info »](https://core.telegram.org/api/config#suggestions)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,14 @@ redirect_from: /API_docs/methods/help_dismissSuggestion.html
 
 
 
-Dismiss a suggestion
+Dismiss a [suggestion, see here for more info »](https://core.telegram.org/api/config#suggestions).
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
-|suggestion|[string](/API_docs/types/string.html) | Suggestion | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | In the case of pending suggestions in [channels](../constructors/channelFull.html), the channel ID. | Optional|
+|suggestion|[string](/API_docs/types/string.html) | [Suggestion, see here for more info »](https://core.telegram.org/api/config#suggestions). | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

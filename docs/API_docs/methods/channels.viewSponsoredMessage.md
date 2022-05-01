@@ -1,6 +1,6 @@
 ---
 title: "channels.viewSponsoredMessage"
-description: "channels.viewSponsoredMessage parameters, return type and example"
+description: "Mark a specific sponsored message as read"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/channels_viewSponsoredMessage.html
 
 
 
+Mark a specific sponsored message as read
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Peer | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
@@ -37,11 +39,4 @@ $MadelineProto->start();
 
 $Bool = $MadelineProto->channels->viewSponsoredMessage(['channel' => InputChannel, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|UNKNOWN_ERROR|Internal error|
-
 

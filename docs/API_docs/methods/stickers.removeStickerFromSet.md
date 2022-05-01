@@ -40,11 +40,3 @@ $MadelineProto->start();
 $messages_StickerSet = $MadelineProto->stickers->removeStickerFromSet(['sticker' => InputDocument, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|BOT_MISSING|This method can only be run by a bot|
-|400|STICKER_INVALID|The provided sticker is invalid|
-
-

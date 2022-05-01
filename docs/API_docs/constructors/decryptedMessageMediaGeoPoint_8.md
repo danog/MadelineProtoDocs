@@ -1,6 +1,6 @@
 ---
 title: "decryptedMessageMediaGeoPoint"
-description: "GeoPont attached to an encrypted message."
+description: "GeoPoint attached to an encrypted message."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,14 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-GeoPont attached to an encrypted message.
+GeoPoint attached to an encrypted message.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |lat|[double](/API_docs/types/double.html) | Yes|Latitude of point|
-|long|[double](/API_docs/types/double.html) | Yes|Longtitude of point|
+|long|[double](/API_docs/types/double.html) | Yes|Longitude of point|
 
 
 

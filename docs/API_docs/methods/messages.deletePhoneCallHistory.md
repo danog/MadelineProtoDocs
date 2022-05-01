@@ -1,6 +1,6 @@
 ---
 title: "messages.deletePhoneCallHistory"
-description: "messages.deletePhoneCallHistory parameters, return type and example"
+description: "Delete the entire phone call history."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/messages_deletePhoneCallHistory.html
 
 
 
+Delete the entire phone call history.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|revoke|[Bool](/API_docs/types/Bool.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|revoke|[Bool](/API_docs/types/Bool.html) | Whether to remove phone call history for participants as well | Optional|
 
 
 ### Return type: [messages.AffectedFoundMessages](/API_docs/types/messages.AffectedFoundMessages.html)

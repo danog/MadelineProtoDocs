@@ -1,6 +1,6 @@
 ---
 title: "messages.messageReactionsList"
-description: "messages.messageReactionsList attributes, type and example"
+description: "List of peers that reacted to a specific message"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_messageReactionsList.html
@@ -10,14 +10,17 @@ redirect_from: /API_docs/constructors/messages_messageReactionsList.html
 
 
 
+List of peers that reacted to a specific message
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|count|[int](/API_docs/types/int.html) | Yes|
-|reactions|Array of [MessageUserReaction](/API_docs/types/MessageUserReaction.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
-|next\_offset|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|count|[int](/API_docs/types/int.html) | Yes|Total number of reactions matching query|
+|reactions|Array of [MessagePeerReaction](/API_docs/types/MessagePeerReaction.html) | Yes|List of peers that reacted to a specific message|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Mentioned chats|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Mentioned users|
+|next\_offset|[string](/API_docs/types/string.html) | Optional|If set, indicates the next offset to use to load more results by invoking [messages.getMessageReactionsList](../methods/messages.getMessageReactionsList.html).|
 
 
 
@@ -27,5 +30,5 @@ redirect_from: /API_docs/constructors/messages_messageReactionsList.html
 ### Example:
 
 ```php
-$messages_messageReactionsList = ['_' => 'messages.messageReactionsList', 'count' => int, 'reactions' => [MessageUserReaction, MessageUserReaction], 'users' => [User, User], 'next_offset' => 'string'];
+$messages_messageReactionsList = ['_' => 'messages.messageReactionsList', 'count' => int, 'reactions' => [MessagePeerReaction, MessagePeerReaction], 'chats' => [Chat, Chat], 'users' => [User, User], 'next_offset' => 'string'];
 ```  

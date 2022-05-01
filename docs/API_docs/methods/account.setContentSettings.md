@@ -40,10 +40,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->setContentSettings(['sensitive_enabled' => Bool, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|403|SENSITIVE_CHANGE_FORBIDDEN|You can't change your sensitive content settings.|
-
-

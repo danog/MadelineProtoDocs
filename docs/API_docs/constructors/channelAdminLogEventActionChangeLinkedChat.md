@@ -15,8 +15,8 @@ The linked chat was changed
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|prev\_value|[long](/API_docs/types/long.html) | Yes|
-|new\_value|[long](/API_docs/types/long.html) | Yes|
+|prev\_value|[long](/API_docs/types/long.html) | Yes|Previous linked chat|
+|new\_value|[long](/API_docs/types/long.html) | Yes|New linked chat|
 
 
 

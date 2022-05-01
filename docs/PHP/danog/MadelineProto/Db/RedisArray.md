@@ -6,7 +6,7 @@ parent: "MadelineProto API"
 
 ---
 # `danog\MadelineProto\Db\RedisArray`
-[Back to index](../../../index.html)
+[Back to index](../../../index.md)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
@@ -19,8 +19,8 @@ Redis database backend.
 ## Method list:
 * `initStartup(): \Generator`
 * `initConnection(\danog\MadelineProto\Settings\Database\Redis $settings): \Generator`
-* `set(string $index,  $value)`
-* `isset( $key): \Promise<bool> true if the offset exists, otherwise false`
+* `set(string $index, mixed $value)`
+* `isset(mixed $key): \Promise<bool> true if the offset exists, otherwise false`
 * `getArrayCopy(): \Amp\Promise<array>`
 * `count(): \Promise<int> The number of elements or public properties in the associated
 array or object, respectively.`
@@ -52,13 +52,13 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Database\Redis`: Redis backend settings.](../../../danog/MadelineProto/Settings/Database/Redis.html)
+* [`\danog\MadelineProto\Settings\Database\Redis`: Redis backend settings.](../../../danog/MadelineProto/Settings/Database/Redis.md)
 * `\Generator`
 
 
 
 
-### `set(string $index,  $value)`
+### `set(string $index, mixed $value)`
 
 Set value for an offset.
 
@@ -68,18 +68,18 @@ Parameters:
 * `$index`: `string` <p>
 The index to set for.
 </p>  
-* `$value`: ``   
+* `$value`: `mixed`   
 
 
 
-### `isset( $key): \Promise<bool> true if the offset exists, otherwise false`
+### `isset(mixed $key): \Promise<bool> true if the offset exists, otherwise false`
 
 Check if key isset.
 
 
 Parameters:
 
-* `$key`: ``   
+* `$key`: `mixed`   
 
 
 Return value: true if the offset exists, otherwise false
@@ -151,8 +151,8 @@ Fully typed return value:
 \Amp\Promise<static>
 ```
 #### See also: 
-* [`\danog\MadelineProto\Db\DbArray`: DB array interface.](../../../danog/MadelineProto/Db/DbArray.html)
-* [`\danog\MadelineProto\Settings\Database\DatabaseAbstract`: Base class for database backends.](../../../danog/MadelineProto/Settings/Database/DatabaseAbstract.html)
+* [`\danog\MadelineProto\Db\DbArray`: DB array interface.](../../../danog/MadelineProto/Db/DbArray.md)
+* [`\danog\MadelineProto\Settings\Database\DatabaseAbstract`: Base class for database backends.](../../../danog/MadelineProto/Settings/Database/DatabaseAbstract.md)
 * `\Amp\Promise`
 
 

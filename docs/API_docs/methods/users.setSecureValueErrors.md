@@ -43,10 +43,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->users->setSecureValueErrors(['id' => InputUser, 'errors' => [SecureValueError, SecureValueError], ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|USER_ID_INVALID|The provided user ID is invalid|
-
-

@@ -44,12 +44,3 @@ $MadelineProto->start();
 $messages_VotesList = $MadelineProto->messages->getPollVotes(['peer' => InputPeer, 'id' => int, 'option' => 'bytes', 'offset' => 'string', 'limit' => int, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|MSG_ID_INVALID|Invalid message ID provided|
-|403|BROADCAST_FORBIDDEN|Participants of polls in channels should stay anonymous.|
-|403|POLL_VOTE_REQUIRED|Cast a vote in the poll before calling this method|
-
-

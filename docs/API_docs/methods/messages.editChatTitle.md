@@ -1,6 +1,6 @@
 ---
 title: "messages.editChatTitle"
-description: "Chanages chat name and sends a service message on it."
+description: "Changes chat name and sends a service message on it."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/messages_editChatTitle.html
 
 
 
-Chanages chat name and sends a service message on it.
+Changes chat name and sends a service message on it.
 
 ### Parameters:
 
@@ -40,14 +40,4 @@ $MadelineProto->start();
 
 $Updates = $MadelineProto->messages->editChatTitle(['chat_id' => InputPeer, 'title' => 'string', ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHAT_ID_INVALID|The provided chat id is invalid|
-|400|CHAT_NOT_MODIFIED|The pinned message wasn't modified|
-|400|CHAT_TITLE_EMPTY|No chat title provided|
-|400|PEER_ID_INVALID|The provided peer id is invalid|
-
 

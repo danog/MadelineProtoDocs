@@ -1,6 +1,6 @@
 ---
 title: "langpack.getDifference"
-description: "Get new strings in languagepack"
+description: "Get new strings in language pack"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/langpack_getDifference.html
 
 
 
-Get new strings in languagepack
+Get new strings in language pack
 
 ### Parameters:
 
@@ -41,11 +41,4 @@ $MadelineProto->start();
 
 $LangPackDifference = $MadelineProto->langpack->getDifference(['lang_pack' => 'string', 'lang_code' => 'string', 'from_version' => int, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|LANG_PACK_INVALID|The provided language pack is invalid|
-
 

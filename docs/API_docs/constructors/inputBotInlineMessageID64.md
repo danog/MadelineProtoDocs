@@ -1,6 +1,6 @@
 ---
 title: "inputBotInlineMessageID64"
-description: "inputBotInlineMessageID64 attributes, type and example"
+description: "Represents a sent inline message from the perspective of a bot"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,14 +9,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents a sent inline message from the perspective of a bot
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|dc\_id|[int](/API_docs/types/int.html) | Yes|
-|owner\_id|[long](/API_docs/types/long.html) | Yes|
-|id|[int](/API_docs/types/int.html) | Yes|
-|access\_hash|[long](/API_docs/types/long.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|dc\_id|[int](/API_docs/types/int.html) | Yes|DC ID to use when working with this inline message|
+|owner\_id|[long](/API_docs/types/long.html) | Yes|ID of the owner of this message|
+|id|[int](/API_docs/types/int.html) | Yes|ID of message|
+|access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash of message|
 
 
 

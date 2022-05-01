@@ -17,7 +17,7 @@ Represents a channel participant
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |participant|[ChannelParticipant](/API_docs/types/ChannelParticipant.html) | Yes|The channel participant|
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Mentioned chats|
 |users|Array of [User](/API_docs/types/User.html) | Yes|Users|
 
 

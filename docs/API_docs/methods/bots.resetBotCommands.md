@@ -1,6 +1,6 @@
 ---
 title: "bots.resetBotCommands"
-description: "bots.resetBotCommands parameters, return type and example"
+description: "Clear bot commands for the specified bot scope and language code"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/bots_resetBotCommands.html
 
 
 
+Clear bot commands for the specified bot scope and language code
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|scope|[BotCommandScope](/API_docs/types/BotCommandScope.html) | Yes|
-|lang\_code|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|scope|[BotCommandScope](/API_docs/types/BotCommandScope.html) | Command scope | Yes|
+|lang\_code|[string](/API_docs/types/string.html) | Language code | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

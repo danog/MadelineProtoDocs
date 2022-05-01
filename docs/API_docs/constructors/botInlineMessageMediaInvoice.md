@@ -1,6 +1,6 @@
 ---
 title: "botInlineMessageMediaInvoice"
-description: "botInlineMessageMediaInvoice attributes, type and example"
+description: "Send an invoice"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,18 +9,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Send an invoice
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|shipping\_address\_requested|[Bool](/API_docs/types/Bool.html) | Optional|
-|test|[Bool](/API_docs/types/Bool.html) | Optional|
-|title|[string](/API_docs/types/string.html) | Yes|
-|description|[string](/API_docs/types/string.html) | Yes|
-|photo|[WebDocument](/API_docs/types/WebDocument.html) | Optional|
-|currency|[string](/API_docs/types/string.html) | Yes|
-|total\_amount|[long](/API_docs/types/long.html) | Yes|
-|reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|shipping\_address\_requested|[Bool](/API_docs/types/Bool.html) | Optional|Set this flag if you require the user's shipping address to complete the order|
+|test|[Bool](/API_docs/types/Bool.html) | Optional|Test invoice|
+|title|[string](/API_docs/types/string.html) | Yes|Product name, 1-32 characters|
+|description|[string](/API_docs/types/string.html) | Yes|Product description, 1-255 characters|
+|photo|[WebDocument](/API_docs/types/WebDocument.html) | Optional|Product photo|
+|currency|[string](/API_docs/types/string.html) | Yes|Three-letter ISO 4217 [currency](https://core.telegram.org/bots/payments#supported-currencies) code|
+|total\_amount|[long](/API_docs/types/long.html) | Yes|Total price in the smallest units of the currency (integer, not float/double). For example, for a price of `US$ 1.45` pass `amount = 145`. See the exp parameter in [currencies.json](https://core.telegram.org/bots/payments/currencies.json), it shows the number of digits past the decimal point for each currency (2 for the majority of currencies).|
+|reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.html) | Optional|Inline keyboard|
 
 
 

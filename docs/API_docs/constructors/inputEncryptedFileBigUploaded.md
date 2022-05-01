@@ -1,6 +1,6 @@
 ---
 title: "inputEncryptedFileBigUploaded"
-description: "Assigns a new big encrypted file (over 10Mb in size), saved in parts using the method upload.saveBigFilePart."
+description: "Assigns a new big encrypted file (over 10 MB in size), saved in parts using the method upload.saveBigFilePart."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Assigns a new big encrypted file (over 10Mb in size), saved in parts using the method [upload.saveBigFilePart](../methods/upload.saveBigFilePart.html).
+Assigns a new big encrypted file (over 10 MB in size), saved in parts using the method [upload.saveBigFilePart](../methods/upload.saveBigFilePart.html).
 
 ### Attributes:
 

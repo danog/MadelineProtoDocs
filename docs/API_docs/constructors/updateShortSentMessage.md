@@ -22,7 +22,7 @@ Shortened constructor containing info on one outgoing message to a contact (the 
 |date|[int](/API_docs/types/int.html) | Yes|[date](https://core.telegram.org/api/updates)|
 |media|[MessageMedia](/API_docs/types/MessageMedia.html) | Optional|Attached media|
 |entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|[Entities](https://core.telegram.org/api/entities) for styled text|
-|ttl\_period|[int](/API_docs/types/int.html) | Optional|
+|ttl\_period|[int](/API_docs/types/int.html) | Optional|Time To Live of the message, once message.date+message.ttl\_period === time(), the message will be deleted on the server, and must be deleted locally as well.|
 
 
 

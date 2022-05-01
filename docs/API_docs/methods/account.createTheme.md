@@ -20,7 +20,7 @@ Create a theme
 |slug|[string](/API_docs/types/string.html) | Unique theme ID | Yes|
 |title|[string](/API_docs/types/string.html) | Theme name | Yes|
 |document|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | Theme file | Optional|
-|settings|Array of [InputThemeSettings](/API_docs/types/InputThemeSettings.html) |  | Optional|
+|settings|Array of [InputThemeSettings](/API_docs/types/InputThemeSettings.html) | Theme settings | Optional|
 
 
 ### Return type: [Theme](/API_docs/types/Theme.html)
@@ -42,11 +42,4 @@ $MadelineProto->start();
 
 $Theme = $MadelineProto->account->createTheme(['slug' => 'string', 'title' => 'string', 'document' => InputDocument, 'settings' => [InputThemeSettings, InputThemeSettings], ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|THEME_MIME_INVALID|The theme's MIME type is invalid|
-
 

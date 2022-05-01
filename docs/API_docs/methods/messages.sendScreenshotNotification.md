@@ -41,11 +41,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->sendScreenshotNotification(['peer' => InputPeer, 'reply_to_msg_id' => int, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|PEER_ID_INVALID|The provided peer id is invalid|
-|400|YOU_BLOCKED_USER|You blocked this user|
-
-

@@ -1,6 +1,6 @@
 ---
 title: "account.resetPasswordRequestedWait"
-description: "account.resetPasswordRequestedWait attributes, type and example"
+description: "You successfully requested a password reset, please wait until the specified date before finalizing the reset."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_resetPasswordRequestedWait.html
@@ -10,11 +10,13 @@ redirect_from: /API_docs/constructors/account_resetPasswordRequestedWait.html
 
 
 
+You successfully requested a password reset, please wait until the specified date before finalizing the reset.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|until\_date|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|until\_date|[int](/API_docs/types/int.html) | Yes|Wait until this date before finalizing the reset.|
 
 
 

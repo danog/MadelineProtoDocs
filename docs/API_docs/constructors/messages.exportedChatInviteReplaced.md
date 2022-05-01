@@ -1,6 +1,6 @@
 ---
 title: "messages.exportedChatInviteReplaced"
-description: "messages.exportedChatInviteReplaced attributes, type and example"
+description: "The specified chat invite was replaced with another one"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_exportedChatInviteReplaced.html
@@ -10,13 +10,15 @@ redirect_from: /API_docs/constructors/messages_exportedChatInviteReplaced.html
 
 
 
+The specified chat invite was replaced with another one
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|invite|[ExportedChatInvite](/API_docs/types/ExportedChatInvite.html) | Yes|
-|new\_invite|[ExportedChatInvite](/API_docs/types/ExportedChatInvite.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|invite|[ExportedChatInvite](/API_docs/types/ExportedChatInvite.html) | Yes|The replaced chat invite|
+|new\_invite|[ExportedChatInvite](/API_docs/types/ExportedChatInvite.html) | Yes|The invite that replaces the previous invite|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Mentioned users|
 
 
 

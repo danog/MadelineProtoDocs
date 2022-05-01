@@ -103,6 +103,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->messages->setChatAvailableReactions](/API_docs/methods/messages.setChatAvailableReactions.html)  
 
+[$MadelineProto->messages->sendWebViewData](/API_docs/methods/messages.sendWebViewData.html)  
+
 [$MadelineProto->help->getAppChangelog](/API_docs/methods/help.getAppChangelog.html)  
 
 [$MadelineProto->channels->createChannel](/API_docs/methods/channels.createChannel.html)  
@@ -124,6 +126,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [$MadelineProto->channels->toggleSignatures](/API_docs/methods/channels.toggleSignatures.html)  
 
 [$MadelineProto->channels->editBanned](/API_docs/methods/channels.editBanned.html)  
+
+[$MadelineProto->channels->deleteHistory](/API_docs/methods/channels.deleteHistory.html)  
 
 [$MadelineProto->channels->togglePreHistoryHidden](/API_docs/methods/channels.togglePreHistoryHidden.html)  
 
@@ -257,6 +261,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->messages->setChatAvailableReactions](/API_docs/methods/messages.setChatAvailableReactions.html)  
 
+[$MadelineProto->messages->sendWebViewData](/API_docs/methods/messages.sendWebViewData.html)  
+
 [$MadelineProto->help->getAppChangelog](/API_docs/methods/help.getAppChangelog.html)  
 
 [$MadelineProto->channels->createChannel](/API_docs/methods/channels.createChannel.html)  
@@ -278,6 +284,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [$MadelineProto->channels->toggleSignatures](/API_docs/methods/channels.toggleSignatures.html)  
 
 [$MadelineProto->channels->editBanned](/API_docs/methods/channels.editBanned.html)  
+
+[$MadelineProto->channels->deleteHistory](/API_docs/methods/channels.deleteHistory.html)  
 
 [$MadelineProto->channels->togglePreHistoryHidden](/API_docs/methods/channels.togglePreHistoryHidden.html)  
 

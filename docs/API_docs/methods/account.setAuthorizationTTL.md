@@ -1,6 +1,6 @@
 ---
 title: "account.setAuthorizationTTL"
-description: "account.setAuthorizationTTL parameters, return type and example"
+description: "Set time-to-live of current session"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,16 +11,18 @@ redirect_from: /API_docs/methods/account_setAuthorizationTTL.html
 
 
 
+Set time-to-live of current session
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|authorization\_ttl\_days|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|authorization\_ttl\_days|[int](/API_docs/types/int.html) | Time-to-live of current session in days | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

@@ -1,6 +1,6 @@
 ---
 title: "account.declinePasswordReset"
-description: "account.declinePasswordReset parameters, return type and example"
+description: "Abort a pending 2FA password reset, [see here for more info »](https://core.telegram.org/api/srp#password-reset)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,6 +10,8 @@ redirect_from: /API_docs/methods/account_declinePasswordReset.html
 [Back to methods index](index.html)
 
 
+
+Abort a pending 2FA password reset, [see here for more info »](https://core.telegram.org/api/srp#password-reset)
 
 
 
@@ -32,11 +34,4 @@ $MadelineProto->start();
 
 $Bool = $MadelineProto->account->declinePasswordReset();
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|RESET_REQUEST_MISSING|No password reset is in progress|
-
 

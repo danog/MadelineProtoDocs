@@ -16,8 +16,8 @@ Group profile photo.
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |has\_video|[Bool](/API_docs/types/Bool.html) | Optional|Whether the user has an animated profile picture|
-|photo\_id|[long](/API_docs/types/long.html) | Yes|
-|stripped\_thumb|[bytes](/API_docs/types/bytes.html) | Optional|
+|photo\_id|[long](/API_docs/types/long.html) | Yes|Photo ID|
+|stripped\_thumb|[bytes](/API_docs/types/bytes.html) | Optional|[Stripped thumbnail](https://core.telegram.org/api/files#stripped-thumbnails)|
 |dc\_id|[int](/API_docs/types/int.html) | Yes|DC where this photo is stored|
 
 

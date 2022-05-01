@@ -15,7 +15,7 @@ Outgoing comments in a [discussion thread](https://core.telegram.org/api/threads
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[long](/API_docs/types/long.html) | Yes|
+|channel\_id|[long](/API_docs/types/long.html) | Yes|[Supergroup ID](https://core.telegram.org/api/channel)|
 |top\_msg\_id|[int](/API_docs/types/int.html) | Yes|ID of the group message that started the [thread](https://core.telegram.org/api/threads)|
 |read\_max\_id|[int](/API_docs/types/int.html) | Yes|Message ID of latest read outgoing message for this [thread](https://core.telegram.org/api/threads)|
 

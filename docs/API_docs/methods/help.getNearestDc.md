@@ -1,6 +1,6 @@
 ---
 title: "help.getNearestDc"
-description: "Returns info on data centre nearest to the user."
+description: "Returns info on data center nearest to the user."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/help_getNearestDc.html
 
 
 
-Returns info on data centre nearest to the user.
+Returns info on data center nearest to the user.
 
 
 
@@ -34,12 +34,4 @@ $MadelineProto->start();
 
 $NearestDc = $MadelineProto->help->getNearestDc();
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|-500|No workers running|Internal error|
-
 

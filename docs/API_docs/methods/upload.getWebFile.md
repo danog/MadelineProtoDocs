@@ -42,10 +42,3 @@ $MadelineProto->start();
 $upload_WebFile = $MadelineProto->upload->getWebFile(['location' => InputWebFileLocation, 'offset' => int, 'limit' => int, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|LOCATION_INVALID|The provided location is invalid|
-
-

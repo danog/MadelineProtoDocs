@@ -17,7 +17,7 @@ Defines a [min](https://core.telegram.org/api/min) user that was seen in a certa
 |----------|---------------|----------|-------------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|The chat where the user was seen|
 |msg\_id|[int](/API_docs/types/int.html) | Yes|The message ID|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|The identifier of the user that was seen|
 
 
 

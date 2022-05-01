@@ -41,16 +41,3 @@ $MadelineProto->start();
 $messages_AffectedMessages = $MadelineProto->channels->deleteMessages(['channel' => InputChannel, 'id' => [int, int], ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHANNEL_INVALID|The provided channel is invalid|
-|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|400|MSG_ID_INVALID|Invalid message ID provided|
-|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|403|MESSAGE_DELETE_FORBIDDEN|You can't delete one of the messages you tried to delete, most likely because it is a service message.|
-|-504|memory limit exit|Internal error|
-|-503|Timeout|Timeout while fetching data|
-
-

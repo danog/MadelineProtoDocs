@@ -1,6 +1,6 @@
 ---
 title: "messages.uploadImportedMedia"
-description: "messages.uploadImportedMedia parameters, return type and example"
+description: "Upload a media file associated with an [imported chat, click here for more info »](https://core.telegram.org/api/import)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,16 @@ redirect_from: /API_docs/methods/messages_uploadImportedMedia.html
 
 
 
+Upload a media file associated with an [imported chat, click here for more info »](https://core.telegram.org/api/import).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|import\_id|[long](/API_docs/types/long.html) | Yes|
-|file\_name|[string](/API_docs/types/string.html) | Yes|
-|media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The Telegram chat where the media will be imported | Optional|
+|import\_id|[long](/API_docs/types/long.html) | Identifier of a [history import session](https://core.telegram.org/api/import), returned by [messages.initHistoryImport](../methods/messages.initHistoryImport.html) | Yes|
+|file\_name|[string](/API_docs/types/string.html) | File name | Yes|
+|media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | Media metadata | Optional|
 
 
 ### Return type: [MessageMedia](/API_docs/types/MessageMedia.html)

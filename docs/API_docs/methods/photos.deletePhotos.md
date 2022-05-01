@@ -40,12 +40,3 @@ $MadelineProto->start();
 $Vector_of_long = $MadelineProto->photos->deletePhotos(['id' => [InputPhoto, InputPhoto], ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|-500|No workers running|Internal error|
-|-503|Timeout|Timeout while fetching data|
-
-

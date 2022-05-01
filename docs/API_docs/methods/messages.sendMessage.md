@@ -21,7 +21,7 @@ Sends a message to a chat
 |silent|[Bool](/API_docs/types/Bool.html) | Send this message silently (no notifications for the receivers) | Optional|
 |background|[Bool](/API_docs/types/Bool.html) | Send this message as background message | Optional|
 |clear\_draft|[Bool](/API_docs/types/Bool.html) | Clear the draft field | Optional|
-|noforwards|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|noforwards|[Bool](/API_docs/types/Bool.html) | Only for bots, disallows forwarding and saving of the messages, even if the destination chat doesn't have [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) enabled | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The destination where the message will be sent | Optional|
 |reply\_to\_msg\_id|[int](/API_docs/types/int.html) | The message ID to which this message will reply to | Optional|
 |message|[string](/API_docs/types/string.html) | The message | Yes|
@@ -29,7 +29,7 @@ Sends a message to a chat
 |entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Message [entities](https://core.telegram.org/api/entities) for sending styled text | Optional|
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
 |schedule\_date|[int](/API_docs/types/int.html) | Scheduled message date for [scheduled messages](https://core.telegram.org/api/scheduled-messages) | Optional|
-|send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
+|send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Send this message as the specified peer | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -100,51 +100,3 @@ You can also use normal markdown, note that to create mentions you must use the 
 ```
 
 MadelineProto supports all html entities supported by [html_entity_decode](http://php.net/manual/en/function.html-entity-decode.php).
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|420|SLOWMODE_WAIT_X|Slowmode is enabled in this chat: wait X seconds before sending another message to this chat.|
-|400|BOT_DOMAIN_INVALID|Bot domain invalid|
-|400|BOT_INVALID|This is not a valid bot|
-|400|BUTTON_DATA_INVALID|The data of one or more of the buttons you provided is invalid|
-|400|BUTTON_TYPE_INVALID|The type of one or more of the buttons you provided is invalid|
-|400|BUTTON_URL_INVALID|Button URL invalid|
-|400|CHANNEL_INVALID|The provided channel is invalid|
-|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
-|400|CHAT_ID_INVALID|The provided chat id is invalid|
-|400|CHAT_RESTRICTED|You can't send messages in this chat, you were restricted|
-|400|ENCRYPTION_DECLINED|The secret chat was declined|
-|400|ENTITIES_TOO_LONG|You provided too many styled message entities|
-|400|ENTITY_MENTION_USER_INVALID|You mentioned an invalid user|
-|400|FROM_MESSAGE_BOT_DISABLED|Bots can't use fromMessage min constructors|
-|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
-|400|INPUT_USER_DEACTIVATED|The specified user was deleted|
-|400|MESSAGE_EMPTY|The provided message is empty|
-|400|MESSAGE_TOO_LONG|The provided message is too long|
-|400|MSG_ID_INVALID|Invalid message ID provided|
-|400|PEER_ID_INVALID|The provided peer id is invalid|
-|400|PINNED_DIALOGS_TOO_MUCH|Too many pinned dialogs|
-|400|POLL_OPTION_INVALID|Invalid poll option provided|
-|400|REPLY_MARKUP_INVALID|The provided reply markup is invalid|
-|400|REPLY_MARKUP_TOO_LONG|The specified reply_markup is too long|
-|400|SCHEDULE_BOT_NOT_ALLOWED|Bots cannot schedule messages|
-|400|SCHEDULE_DATE_TOO_LATE|You can't schedule a message this far in the future|
-|400|SCHEDULE_STATUS_PRIVATE|Can't schedule until user is online, if the user's last seen timestamp is hidden by their privacy settings.|
-|400|SCHEDULE_TOO_MUCH|There are too many scheduled messages|
-|400|SEND_AS_PEER_INVALID|You can't send messages as the specified peer|
-|400|USER_BANNED_IN_CHANNEL|You're banned from sending messages in supergroups/channels|
-|400|USER_IS_BLOCKED|You were blocked by this user|
-|400|USER_IS_BOT|Bots can't send messages to other bots|
-|400|YOU_BLOCKED_USER|You blocked this user|
-|-3002|All workers are busy. Active_queries = X|All workers are busy. Active_queries = X|
-|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
-|403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
-|403|USER_IS_BLOCKED|You were blocked by this user|
-|-500|No workers running|Internal error|
-|-504|memory limit exit|Internal error|
-|-503|Timeout|Timeout while fetching data|
-
-

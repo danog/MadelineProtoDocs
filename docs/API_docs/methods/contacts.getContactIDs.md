@@ -17,7 +17,7 @@ Get contact by telegram IDs
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[long](/API_docs/types/long.html) |  | Yes|
+|hash|[long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Yes|
 
 
 ### Return type: [Vector\_of\_int](/API_docs/types/int.html)
@@ -39,12 +39,4 @@ $MadelineProto->start();
 
 $Vector_of_int = $MadelineProto->contacts->getContactIDs(['hash' => long, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|-503|Timeout|Timeout while fetching data|
-
 

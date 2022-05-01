@@ -40,10 +40,3 @@ $MadelineProto->start();
 $messages_PeerDialogs = $MadelineProto->messages->getPinnedDialogs(['folder_id' => int, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|FOLDER_ID_INVALID|Invalid folder ID|
-
-

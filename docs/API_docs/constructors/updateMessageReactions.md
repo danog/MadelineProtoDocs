@@ -1,6 +1,6 @@
 ---
 title: "updateMessageReactions"
-description: "New message reactions are available"
+description: "New message reactions » are available"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-New message reactions are available
+New [message reactions »](https://core.telegram.org/api/reactions) are available
 
 ### Attributes:
 

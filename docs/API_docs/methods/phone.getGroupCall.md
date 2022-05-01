@@ -1,6 +1,6 @@
 ---
 title: "phone.getGroupCall"
-description: "phone.getGroupCall parameters, return type and example"
+description: "Get info about a group call"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/phone_getGroupCall.html
 
 
 
+Get info about a group call
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
-|limit|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | The group call | Yes|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
 
 
 ### Return type: [phone.GroupCall](/API_docs/types/phone.GroupCall.html)

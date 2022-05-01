@@ -15,7 +15,7 @@ A group to which the user has no access. E.g., because the user was kicked from 
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](/API_docs/types/long.html) | Yes|
+|id|[long](/API_docs/types/long.html) | Yes|User identifier|
 |title|[string](/API_docs/types/string.html) | Yes|Group name|
 
 

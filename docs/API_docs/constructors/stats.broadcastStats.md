@@ -29,7 +29,7 @@ redirect_from: /API_docs/constructors/stats_broadcastStats.html
 |iv\_interactions\_graph|[StatsGraph](/API_docs/types/StatsGraph.html) | Yes|IV interactions graph (absolute)|
 |views\_by\_source\_graph|[StatsGraph](/API_docs/types/StatsGraph.html) | Yes|Views by source graph (absolute)|
 |new\_followers\_by\_source\_graph|[StatsGraph](/API_docs/types/StatsGraph.html) | Yes|New followers by source graph (absolute)|
-|languages\_graph|[StatsGraph](/API_docs/types/StatsGraph.html) | Yes|Subscriber language graph (piechart)|
+|languages\_graph|[StatsGraph](/API_docs/types/StatsGraph.html) | Yes|Subscriber language graph (pie chart)|
 |recent\_message\_interactions|Array of [MessageInteractionCounters](/API_docs/types/MessageInteractionCounters.html) | Yes|Recent message interactions|
 
 

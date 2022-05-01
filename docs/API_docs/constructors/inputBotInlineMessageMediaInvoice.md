@@ -1,6 +1,6 @@
 ---
 title: "inputBotInlineMessageMediaInvoice"
-description: "inputBotInlineMessageMediaInvoice attributes, type and example"
+description: "An invoice"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,18 +9,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+An invoice
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|title|[string](/API_docs/types/string.html) | Yes|
-|description|[string](/API_docs/types/string.html) | Yes|
-|photo|[InputWebDocument](/API_docs/types/InputWebDocument.html) | Optional|
-|invoice|[Invoice](/API_docs/types/Invoice.html) | Yes|
-|payload|[bytes](/API_docs/types/bytes.html) | Yes|
-|provider|[string](/API_docs/types/string.html) | Yes|
-|provider\_data|[DataJSON](/API_docs/types/DataJSON.html) | Yes|
-|reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|title|[string](/API_docs/types/string.html) | Yes|Product name, 1-32 characters|
+|description|[string](/API_docs/types/string.html) | Yes|Product description, 1-255 characters|
+|photo|[InputWebDocument](/API_docs/types/InputWebDocument.html) | Optional|Invoice photo|
+|invoice|[Invoice](/API_docs/types/Invoice.html) | Yes|The invoice|
+|payload|[bytes](/API_docs/types/bytes.html) | Yes|Bot-defined invoice payload, 1-128 bytes. This will not be displayed to the user, use for your internal processes.|
+|provider|[string](/API_docs/types/string.html) | Yes|Payments provider token, obtained via [Botfather](https://t.me/botfather)|
+|provider\_data|[DataJSON](/API_docs/types/DataJSON.html) | Yes|A JSON-serialized object for data about the invoice, which will be shared with the payment provider. A detailed description of the required fields should be provided by the payment provider.|
+|reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.html) | Optional|Inline keyboard|
 
 
 

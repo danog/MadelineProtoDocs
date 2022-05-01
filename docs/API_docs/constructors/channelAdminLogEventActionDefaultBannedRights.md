@@ -16,7 +16,7 @@ The default banned rights were modified
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |prev\_banned\_rights|[ChatBannedRights](/API_docs/types/ChatBannedRights.html) | Yes|Previous global [banned rights](https://core.telegram.org/api/rights)|
-|new\_banned\_rights|[ChatBannedRights](/API_docs/types/ChatBannedRights.html) | Yes|New glboal [banned rights](https://core.telegram.org/api/rights).|
+|new\_banned\_rights|[ChatBannedRights](/API_docs/types/ChatBannedRights.html) | Yes|New global [banned rights](https://core.telegram.org/api/rights).|
 
 
 

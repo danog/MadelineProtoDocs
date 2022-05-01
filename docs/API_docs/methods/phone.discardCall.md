@@ -44,11 +44,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->phone->discardCall(['video' => Bool, 'peer' => InputPhoneCall, 'duration' => int, 'reason' => PhoneCallDiscardReason, 'connection_id' => long, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CALL_ALREADY_ACCEPTED|The call was already accepted|
-|400|CALL_PEER_INVALID|The provided call peer object is invalid|
-
-

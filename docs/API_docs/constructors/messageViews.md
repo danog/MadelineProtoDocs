@@ -15,7 +15,7 @@ View, forward counter + info about replies of a specific message
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|views|[int](/API_docs/types/int.html) | Optional|Viewcount of message|
+|views|[int](/API_docs/types/int.html) | Optional|View count of message|
 |forwards|[int](/API_docs/types/int.html) | Optional|Forward count of message|
 |replies|[MessageReplies](/API_docs/types/MessageReplies.html) | Optional|Reply and [thread](https://core.telegram.org/api/threads) information of message|
 

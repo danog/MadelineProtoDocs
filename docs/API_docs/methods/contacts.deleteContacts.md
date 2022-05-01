@@ -40,10 +40,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->contacts->deleteContacts(['id' => [InputUser, InputUser], ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|-503|Timeout|Timeout while fetching data|
-
-

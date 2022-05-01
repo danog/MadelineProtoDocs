@@ -40,12 +40,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->reportSpam(['peer' => InputPeer, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|400|MSG_ID_INVALID|Invalid message ID provided|
-|400|PEER_ID_INVALID|The provided peer id is invalid|
-
-

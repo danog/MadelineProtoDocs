@@ -6,7 +6,7 @@ parent: "MadelineProto API"
 
 ---
 # `danog\MadelineProto\Db\PostgresArray`
-[Back to index](../../../index.html)
+[Back to index](../../../index.md)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
@@ -19,7 +19,7 @@ Postgres database backend.
 ## Method list:
 * `initStartup(): \Generator`
 * `initConnection(\danog\MadelineProto\Settings\Database\Postgres $settings): \Generator`
-* `set(string|int $index,  $value)`
+* `set(string|int $index, mixed $value)`
 * `isset(mixed $key): \Promise<bool> true if the offset exists, otherwise false`
 * `unset(string|int $index): \Amp\Promise<array>`
 * `count(): \Promise<int> The number of elements or public properties in the associated
@@ -52,13 +52,13 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Database\Postgres`: Postgres backend settings.](../../../danog/MadelineProto/Settings/Database/Postgres.html)
+* [`\danog\MadelineProto\Settings\Database\Postgres`: Postgres backend settings.](../../../danog/MadelineProto/Settings/Database/Postgres.md)
 * `\Generator`
 
 
 
 
-### `set(string|int $index,  $value)`
+### `set(string|int $index, mixed $value)`
 
 Set value for an offset.
 
@@ -68,7 +68,7 @@ Parameters:
 * `$index`: `string|int` <p>
 The index to set for.
 </p>  
-* `$value`: ``   
+* `$value`: `mixed`   
 
 
 
@@ -158,8 +158,8 @@ Fully typed return value:
 \Amp\Promise<static>
 ```
 #### See also: 
-* [`\danog\MadelineProto\Db\DbArray`: DB array interface.](../../../danog/MadelineProto/Db/DbArray.html)
-* [`\danog\MadelineProto\Settings\Database\DatabaseAbstract`: Base class for database backends.](../../../danog/MadelineProto/Settings/Database/DatabaseAbstract.html)
+* [`\danog\MadelineProto\Db\DbArray`: DB array interface.](../../../danog/MadelineProto/Db/DbArray.md)
+* [`\danog\MadelineProto\Settings\Database\DatabaseAbstract`: Base class for database backends.](../../../danog/MadelineProto/Settings/Database/DatabaseAbstract.md)
 * `\Amp\Promise`
 
 

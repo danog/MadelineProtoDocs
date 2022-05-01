@@ -42,6 +42,10 @@ redirect_from: /API_docs/types/messages_Messages.html
 
 [$MadelineProto->messages->getReplies](/API_docs/methods/messages.getReplies.html)  
 
+[$MadelineProto->messages->getUnreadReactions](/API_docs/methods/messages.getUnreadReactions.html)  
+
+[$MadelineProto->messages->searchSentMedia](/API_docs/methods/messages.searchSentMedia.html)  
+
 [$MadelineProto->channels->getMessages](/API_docs/methods/channels.getMessages.html)  
 
 [$MadelineProto->stats->getMessagePublicForwards](/API_docs/methods/stats.getMessagePublicForwards.html)  
@@ -73,6 +77,10 @@ redirect_from: /API_docs/types/messages_Messages.html
 [$MadelineProto->messages->getScheduledMessages](/API_docs/methods/messages.getScheduledMessages.html)  
 
 [$MadelineProto->messages->getReplies](/API_docs/methods/messages.getReplies.html)  
+
+[$MadelineProto->messages->getUnreadReactions](/API_docs/methods/messages.getUnreadReactions.html)  
+
+[$MadelineProto->messages->searchSentMedia](/API_docs/methods/messages.searchSentMedia.html)  
 
 [$MadelineProto->channels->getMessages](/API_docs/methods/channels.getMessages.html)  
 

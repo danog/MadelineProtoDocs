@@ -41,10 +41,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->installWallPaper(['wallpaper' => InputWallPaper, 'settings' => WallPaperSettings, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|WALLPAPER_INVALID|The specified wallpaper is invalid|
-
-

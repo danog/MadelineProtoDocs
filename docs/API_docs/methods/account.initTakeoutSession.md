@@ -1,6 +1,6 @@
 ---
 title: "account.initTakeoutSession"
-description: "Intialize account takeout session"
+description: "Initialize account takeout session"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/account_initTakeoutSession.html
 
 
 
-Intialize account takeout session
+Initialize account takeout session
 
 ### Parameters:
 
@@ -19,9 +19,9 @@ Intialize account takeout session
 |----------|---------------|-------------|----------|
 |contacts|[Bool](/API_docs/types/Bool.html) | Whether to export contacts | Optional|
 |message\_users|[Bool](/API_docs/types/Bool.html) | Whether to export messages in private chats | Optional|
-|message\_chats|[Bool](/API_docs/types/Bool.html) | Whether to export messages in [legacy groups](https://core.telegram.org/api/channel) | Optional|
-|message\_megagroups|[Bool](/API_docs/types/Bool.html) | Whether to export messages in [supergroups](https://core.telegram.org/api/channel) | Optional|
-|message\_channels|[Bool](/API_docs/types/Bool.html) | Whether to export messages in [channels](https://core.telegram.org/api/channel) | Optional|
+|message\_chats|[Bool](/API_docs/types/Bool.html) | Whether to export messages in [basic groups](https://core.telegram.org/api/channel#basic-groups) | Optional|
+|message\_megagroups|[Bool](/API_docs/types/Bool.html) | Whether to export messages in [supergroups](https://core.telegram.org/api/channel#supergroups) | Optional|
+|message\_channels|[Bool](/API_docs/types/Bool.html) | Whether to export messages in [channels](https://core.telegram.org/api/channel#channels) | Optional|
 |files|[Bool](/API_docs/types/Bool.html) | Whether to export files | Optional|
 |file\_max\_size|[int](/API_docs/types/int.html) | Maximum size of files to export | Optional|
 
@@ -45,11 +45,4 @@ $MadelineProto->start();
 
 $account_Takeout = $MadelineProto->account->initTakeoutSession(['contacts' => Bool, 'message_users' => Bool, 'message_chats' => Bool, 'message_megagroups' => Bool, 'message_channels' => Bool, 'files' => Bool, 'file_max_size' => int, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|420|TAKEOUT_INIT_DELAY_X|Wait X seconds before initing takeout|
-
 

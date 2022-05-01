@@ -17,7 +17,7 @@ Defines a [min](https://core.telegram.org/api/min) channel that was seen in a ce
 |----------|---------------|----------|-------------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|The chat where the channel's message was seen|
 |msg\_id|[int](/API_docs/types/int.html) | Yes|The message ID|
-|channel\_id|[long](/API_docs/types/long.html) | Yes|
+|channel\_id|[long](/API_docs/types/long.html) | Yes|The identifier of the channel that was seen|
 
 
 

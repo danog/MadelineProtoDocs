@@ -19,7 +19,7 @@ Result of a query to an inline bot
 |gallery|[Bool](/API_docs/types/Bool.html) | Optional|Whether the result is a picture gallery|
 |query\_id|[long](/API_docs/types/long.html) | Yes|Query ID|
 |next\_offset|[string](/API_docs/types/string.html) | Optional|The next offset to use when navigating through results|
-|switch\_pm|[InlineBotSwitchPM](/API_docs/types/InlineBotSwitchPM.html) | Optional|Whether the bot requested the user to message him in private|
+|switch\_pm|[InlineBotSwitchPM](/API_docs/types/InlineBotSwitchPM.html) | Optional|Whether the bot requested the user to message them in private|
 |results|Array of [BotInlineResult](/API_docs/types/BotInlineResult.html) | Yes|The results|
 |cache\_time|[int](/API_docs/types/int.html) | Yes|Caching validity of the results|
 |users|Array of [User](/API_docs/types/User.html) | Yes|Users mentioned in the results|

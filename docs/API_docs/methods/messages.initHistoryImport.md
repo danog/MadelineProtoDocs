@@ -1,6 +1,6 @@
 ---
 title: "messages.initHistoryImport"
-description: "messages.initHistoryImport parameters, return type and example"
+description: "Import chat history from a foreign chat app into a specific Telegram chat, [click here for more info about imported chats »](https://core.telegram.org/api/import)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/messages_initHistoryImport.html
 
 
 
+Import chat history from a foreign chat app into a specific Telegram chat, [click here for more info about imported chats »](https://core.telegram.org/api/import).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|file|[File path or InputFile](/API_docs/types/InputFile.html) | Yes|
-|media\_count|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The Telegram chat where the [history should be imported](https://core.telegram.org/api/import). | Optional|
+|file|[File path or InputFile](/API_docs/types/InputFile.html) | File with messages to import. | Yes|
+|media\_count|[int](/API_docs/types/int.html) | Number of media files associated with the chat that will be uploaded using [messages.uploadImportedMedia](../methods/messages.uploadImportedMedia.html). | Yes|
 
 
 ### Return type: [messages.HistoryImport](/API_docs/types/messages.HistoryImport.html)
@@ -39,13 +41,4 @@ $MadelineProto->start();
 
 $messages_HistoryImport = $MadelineProto->messages->initHistoryImport(['peer' => InputPeer, 'file' => InputFile, 'media_count' => int, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|IMPORT_FILE_INVALID|The specified chat export file is invalid|
-|400|IMPORT_FORMAT_UNRECOGNIZED|The specified chat export file was exported from an unsupported chat app|
-|406|PREVIOUS_CHAT_IMPORT_ACTIVE_WAIT_5MIN|Import for this chat is already in progress, wait 5 minutes before starting a new one.|
-
 

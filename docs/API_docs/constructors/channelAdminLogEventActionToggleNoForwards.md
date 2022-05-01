@@ -1,6 +1,6 @@
 ---
 title: "channelAdminLogEventActionToggleNoForwards"
-description: "channelAdminLogEventActionToggleNoForwards attributes, type and example"
+description: "Forwards were enabled or disabled"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Forwards were enabled or disabled
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|new\_value|[Bool](/API_docs/types/Bool.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|new\_value|[Bool](/API_docs/types/Bool.html) | Yes|Old value|
 
 
 

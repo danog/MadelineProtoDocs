@@ -18,7 +18,7 @@ Submit requested order information for validation
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |save|[Bool](/API_docs/types/Bool.html) | Save order information to re-use it for future orders | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where the payment form was sent | Optional|
 |msg\_id|[int](/API_docs/types/int.html) | Message ID of payment form | Yes|
 |info|[PaymentRequestedInfo](/API_docs/types/PaymentRequestedInfo.html) | Requested order information | Yes|
 
@@ -42,11 +42,4 @@ $MadelineProto->start();
 
 $payments_ValidatedRequestedInfo = $MadelineProto->payments->validateRequestedInfo(['save' => Bool, 'peer' => InputPeer, 'msg_id' => int, 'info' => PaymentRequestedInfo, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|MESSAGE_ID_INVALID|The provided message id is invalid|
-
 

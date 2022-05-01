@@ -1,6 +1,6 @@
 ---
 title: "messages.peerSettings"
-description: "messages.peerSettings attributes, type and example"
+description: "Peer settings"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_peerSettings.html
@@ -10,13 +10,15 @@ redirect_from: /API_docs/constructors/messages_peerSettings.html
 
 
 
+Peer settings
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|settings|[PeerSettings](/API_docs/types/PeerSettings.html) | Yes|
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|settings|[PeerSettings](/API_docs/types/PeerSettings.html) | Yes|Peer settings|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Mentioned chats|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Mentioned users|
 
 
 

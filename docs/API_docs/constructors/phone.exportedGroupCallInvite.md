@@ -1,6 +1,6 @@
 ---
 title: "phone.exportedGroupCallInvite"
-description: "phone.exportedGroupCallInvite attributes, type and example"
+description: "An invite to a group call or livestream"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/phone_exportedGroupCallInvite.html
@@ -10,11 +10,13 @@ redirect_from: /API_docs/constructors/phone_exportedGroupCallInvite.html
 
 
 
+An invite to a group call or livestream
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|link|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|link|[string](/API_docs/types/string.html) | Yes|Invite link|
 
 
 

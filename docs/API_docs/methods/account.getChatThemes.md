@@ -1,6 +1,6 @@
 ---
 title: "account.getChatThemes"
-description: "account.getChatThemes parameters, return type and example"
+description: "Get all available chat themes"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/account_getChatThemes.html
 
 
 
+Get all available chat themes
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|[long](/API_docs/types/long.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|[long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Yes|
 
 
 ### Return type: [account.Themes](/API_docs/types/account.Themes.html)

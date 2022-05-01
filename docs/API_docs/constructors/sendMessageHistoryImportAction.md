@@ -1,6 +1,6 @@
 ---
 title: "sendMessageHistoryImportAction"
-description: "sendMessageHistoryImportAction attributes, type and example"
+description: "Chat history is being imported"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Chat history is being imported
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|progress|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|progress|[int](/API_docs/types/int.html) | Yes|Progress percentage|
 
 
 

@@ -16,7 +16,7 @@ Empty constructor, non-existent message.
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |id|[int](/API_docs/types/int.html) | Yes|Message identifier|
-|peer\_id|[Peer](/API_docs/types/Peer.html) | Optional|
+|peer\_id|[Peer](/API_docs/types/Peer.html) | Optional|Peer ID, the chat where this message was sent|
 
 
 

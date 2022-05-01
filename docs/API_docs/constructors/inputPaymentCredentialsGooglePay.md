@@ -1,6 +1,6 @@
 ---
 title: "inputPaymentCredentialsGooglePay"
-description: "inputPaymentCredentialsGooglePay attributes, type and example"
+description: "Google Pay payment credentials"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Google Pay payment credentials
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|payment\_token|[DataJSON](/API_docs/types/DataJSON.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|payment\_token|[DataJSON](/API_docs/types/DataJSON.html) | Yes|Payment token|
 
 
 

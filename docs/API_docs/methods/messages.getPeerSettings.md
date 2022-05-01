@@ -40,11 +40,3 @@ $MadelineProto->start();
 $messages_PeerSettings = $MadelineProto->messages->getPeerSettings(['peer' => InputPeer, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHANNEL_INVALID|The provided channel is invalid|
-|400|PEER_ID_INVALID|The provided peer id is invalid|
-
-

@@ -18,7 +18,7 @@ Get scheduled messages
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
-|hash|[long](/API_docs/types/long.html) |  | Yes|
+|hash|[long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Yes|
 
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)
@@ -40,12 +40,4 @@ $MadelineProto->start();
 
 $messages_Messages = $MadelineProto->messages->getScheduledHistory(['peer' => InputPeer, 'hash' => long, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
-|400|PEER_ID_INVALID|The provided peer id is invalid|
-
 

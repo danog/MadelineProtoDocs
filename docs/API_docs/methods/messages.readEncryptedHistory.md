@@ -41,10 +41,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->readEncryptedHistory(['peer' => InputEncryptedChat, 'max_date' => int, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|MSG_WAIT_FAILED|A waiting call returned an error|
-
-

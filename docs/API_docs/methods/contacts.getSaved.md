@@ -35,11 +35,3 @@ $MadelineProto->start();
 $Vector_of_SavedContact = $MadelineProto->contacts->getSaved();
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|TAKEOUT_REQUIRED|A takeout session has to be initialized, first|
-|403|TAKEOUT_REQUIRED|A takeout session has to be initialized, first|
-
-

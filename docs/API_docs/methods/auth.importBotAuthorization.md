@@ -42,14 +42,3 @@ $MadelineProto->start();
 $auth_Authorization = $MadelineProto->auth->importBotAuthorization(['api_id' => int, 'api_hash' => 'string', 'bot_auth_token' => 'string', ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|ACCESS_TOKEN_EXPIRED|Access token expired|
-|400|ACCESS_TOKEN_INVALID|Access token invalid|
-|400|API_ID_INVALID|API ID invalid|
-|400|API_ID_PUBLISHED_FLOOD|This API id was published somewhere, you can't use it now|
-|401|AUTH_KEY_INVALID|Auth key invalid|
-
-

@@ -15,7 +15,7 @@ Change of contact's profile photo.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User identifier|
 |date|[int](/API_docs/types/int.html) | Yes|Date of photo update.|
 |photo|[UserProfilePhoto](/API_docs/types/UserProfilePhoto.html) | Optional|New profile photo|
 |previous|[Bool](/API_docs/types/Bool.html) | Yes|([boolTrue](../constructors/boolTrue.html)), if one of the previously used photos is set a profile photo.|

@@ -1,6 +1,6 @@
 ---
 title: "updateGroupCallConnection"
-description: "updateGroupCallConnection attributes, type and example"
+description: "New WebRTC parameters"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+New WebRTC parameters
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|presentation|[Bool](/API_docs/types/Bool.html) | Optional|
-|params|[DataJSON](/API_docs/types/DataJSON.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|presentation|[Bool](/API_docs/types/Bool.html) | Optional|Are these parameters related to the screen capture session currently in progress?|
+|params|[DataJSON](/API_docs/types/DataJSON.html) | Yes|WebRTC parameters|
 
 
 

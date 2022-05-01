@@ -40,10 +40,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->reportEncryptedSpam(['peer' => InputEncryptedChat, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHAT_ID_INVALID|The provided chat id is invalid|
-
-

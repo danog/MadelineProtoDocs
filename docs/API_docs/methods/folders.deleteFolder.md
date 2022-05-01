@@ -40,10 +40,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->folders->deleteFolder(['folder_id' => int, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|FOLDER_ID_EMPTY|An empty folder ID was specified|
-
-

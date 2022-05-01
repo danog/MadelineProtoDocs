@@ -17,7 +17,7 @@ Location of profile photo of channel/group/supergroup/user
 |----------|---------------|----------|-------------|
 |big|[Bool](/API_docs/types/Bool.html) | Optional|Whether to download the high-quality version of the picture|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|The peer whose profile picture should be downloaded|
-|photo\_id|[long](/API_docs/types/long.html) | Yes|
+|photo\_id|[long](/API_docs/types/long.html) | Yes|Photo ID|
 
 
 

@@ -15,7 +15,7 @@ Defines a chat for further interaction.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[long](/API_docs/types/long.html) | Yes|
+|chat\_id|[long](/API_docs/types/long.html) | Yes|Chat identifier|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "contacts.acceptContact"
-description: "If the [peer settings](../constructors/peerSettings.html) of a new user allow us to add him as contact, add that user as contact"
+description: "If the [peer settings](../constructors/peerSettings.html) of a new user allow us to add them as contact, add that user as contact"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/contacts_acceptContact.html
 
 
 
-If the [peer settings](../constructors/peerSettings.html) of a new user allow us to add him as contact, add that user as contact
+If the [peer settings](../constructors/peerSettings.html) of a new user allow us to add them as contact, add that user as contact
 
 ### Parameters:
 
@@ -39,14 +39,4 @@ $MadelineProto->start();
 
 $Updates = $MadelineProto->contacts->acceptContact(['id' => InputUser, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CONTACT_ADD_MISSING|Contact to add is missing|
-|400|CONTACT_ID_INVALID|The provided contact ID is invalid|
-|400|CONTACT_REQ_MISSING|Missing contact request|
-|400|MSG_ID_INVALID|Invalid message ID provided|
-
 

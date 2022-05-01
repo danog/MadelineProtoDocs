@@ -15,7 +15,7 @@ Channel/supergroup creator
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User ID|
 |admin\_rights|[ChatAdminRights](/API_docs/types/ChatAdminRights.html) | Yes|Creator admin rights|
 |rank|[string](/API_docs/types/string.html) | Optional|The role (rank) of the group creator in the group: just an arbitrary string, `admin` by default|
 

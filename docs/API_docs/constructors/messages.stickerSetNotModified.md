@@ -1,6 +1,6 @@
 ---
 title: "messages.stickerSetNotModified"
-description: "messages.stickerSetNotModified attributes, type and example"
+description: "The stickerset hasn't changed"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_stickerSetNotModified.html
@@ -9,6 +9,8 @@ redirect_from: /API_docs/constructors/messages_stickerSetNotModified.html
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+The stickerset hasn't changed
 
 
 

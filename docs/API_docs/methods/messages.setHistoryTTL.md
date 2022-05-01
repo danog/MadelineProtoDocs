@@ -1,6 +1,6 @@
 ---
 title: "messages.setHistoryTTL"
-description: "messages.setHistoryTTL parameters, return type and example"
+description: "Set maximum Time-To-Live of all messages in the specified chat"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/messages_setHistoryTTL.html
 
 
 
+Set maximum Time-To-Live of all messages in the specified chat
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|period|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The dialog | Optional|
+|period|[int](/API_docs/types/int.html) | Automatically delete all messages sent in the chat after this many seconds | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -38,12 +40,4 @@ $MadelineProto->start();
 
 $Updates = $MadelineProto->messages->setHistoryTTL(['peer' => InputPeer, 'period' => int, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHAT_NOT_MODIFIED|The pinned message wasn't modified|
-|400|TTL_PERIOD_INVALID|The specified TTL period is invalid|
-
 

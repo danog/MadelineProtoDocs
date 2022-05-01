@@ -40,11 +40,3 @@ $MadelineProto->start();
 $messages_Chats = $MadelineProto->messages->getChats(['id' => [long, long], ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHAT_ID_INVALID|The provided chat id is invalid|
-|400|PEER_ID_INVALID|The provided peer id is invalid|
-
-

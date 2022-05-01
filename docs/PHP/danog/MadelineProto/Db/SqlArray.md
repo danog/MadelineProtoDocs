@@ -6,7 +6,7 @@ parent: "MadelineProto API"
 
 ---
 # `danog\MadelineProto\Db\SqlArray`
-[Back to index](../../../index.html)
+[Back to index](../../../index.md)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
@@ -132,8 +132,8 @@ Fully typed return value:
 \Amp\Promise<static>
 ```
 #### See also: 
-* [`\danog\MadelineProto\Db\DbArray`: DB array interface.](../../../danog/MadelineProto/Db/DbArray.html)
-* [`\danog\MadelineProto\Settings\Database\DatabaseAbstract`: Base class for database backends.](../../../danog/MadelineProto/Settings/Database/DatabaseAbstract.html)
+* [`\danog\MadelineProto\Db\DbArray`: DB array interface.](../../../danog/MadelineProto/Db/DbArray.md)
+* [`\danog\MadelineProto\Settings\Database\DatabaseAbstract`: Base class for database backends.](../../../danog/MadelineProto/Settings/Database/DatabaseAbstract.md)
 * `\Amp\Promise`
 
 

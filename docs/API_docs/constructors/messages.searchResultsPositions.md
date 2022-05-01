@@ -1,6 +1,6 @@
 ---
 title: "messages.searchResultsPositions"
-description: "messages.searchResultsPositions attributes, type and example"
+description: "Information about sparse positions of messages"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_searchResultsPositions.html
@@ -10,12 +10,14 @@ redirect_from: /API_docs/constructors/messages_searchResultsPositions.html
 
 
 
+Information about sparse positions of messages
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|count|[int](/API_docs/types/int.html) | Yes|
-|positions|Array of [SearchResultsPosition](/API_docs/types/SearchResultsPosition.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|count|[int](/API_docs/types/int.html) | Yes|Total number of found messages|
+|positions|Array of [SearchResultsPosition](/API_docs/types/SearchResultsPosition.html) | Yes|List of message positions|
 
 
 

@@ -24,7 +24,7 @@ Supergroup [statistics](https://core.telegram.org/api/stats)
 |growth\_graph|[StatsGraph](/API_docs/types/StatsGraph.html) | Yes|Supergroup growth graph (absolute subscriber count)|
 |members\_graph|[StatsGraph](/API_docs/types/StatsGraph.html) | Yes|Members growth (relative subscriber count)|
 |new\_members\_by\_source\_graph|[StatsGraph](/API_docs/types/StatsGraph.html) | Yes|New members by source graph|
-|languages\_graph|[StatsGraph](/API_docs/types/StatsGraph.html) | Yes|Subscriber language graph (piechart)|
+|languages\_graph|[StatsGraph](/API_docs/types/StatsGraph.html) | Yes|Subscriber language graph (pie chart)|
 |messages\_graph|[StatsGraph](/API_docs/types/StatsGraph.html) | Yes|Message activity graph (stacked bar graph, message type)|
 |actions\_graph|[StatsGraph](/API_docs/types/StatsGraph.html) | Yes|Group activity graph (deleted, modified messages, blocked users)|
 |top\_hours\_graph|[StatsGraph](/API_docs/types/StatsGraph.html) | Yes|Activity per hour graph (absolute)|

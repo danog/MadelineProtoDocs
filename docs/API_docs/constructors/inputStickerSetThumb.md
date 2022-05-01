@@ -16,7 +16,7 @@ Location of stickerset thumbnail (see [files](https://core.telegram.org/api/file
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.html) | Optional|Sticker set|
-|thumb\_version|[int](/API_docs/types/int.html) | Yes|
+|thumb\_version|[int](/API_docs/types/int.html) | Yes|Thumbnail version|
 
 
 

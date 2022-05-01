@@ -41,11 +41,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->sendScheduledMessages(['peer' => InputPeer, 'id' => [int, int], ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|MESSAGE_ID_INVALID|The provided message id is invalid|
-|400|PEER_ID_INVALID|The provided peer id is invalid|
-
-

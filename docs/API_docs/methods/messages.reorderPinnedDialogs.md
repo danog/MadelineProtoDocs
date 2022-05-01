@@ -42,10 +42,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->reorderPinnedDialogs(['force' => Bool, 'folder_id' => int, 'order' => [InputDialogPeer, InputDialogPeer], ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|PEER_ID_INVALID|The provided peer id is invalid|
-
-

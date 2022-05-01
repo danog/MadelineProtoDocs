@@ -19,7 +19,7 @@ Report a peer for violation of telegram's Terms of Service
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer to report | Optional|
 |reason|[ReportReason](/API_docs/types/ReportReason.html) | The reason why this peer is being reported | Yes|
-|message|[string](/API_docs/types/string.html) |  | Yes|
+|message|[string](/API_docs/types/string.html) | Comment for report moderation | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
@@ -46,13 +46,5 @@ $Bool = $MadelineProto->account->reportPeer(['peer' => InputPeer, 'reason' => Re
 ## Return value 
 
 If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [Bool](../types/Bool.html) will be returned instead.
-
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|400|PEER_ID_INVALID|The provided peer id is invalid|
 
 

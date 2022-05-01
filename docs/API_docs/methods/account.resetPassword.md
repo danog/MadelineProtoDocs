@@ -1,6 +1,6 @@
 ---
 title: "account.resetPassword"
-description: "account.resetPassword parameters, return type and example"
+description: "Initiate a 2FA password reset: can only be used if the user is already logged-in, [see here for more info »](https://core.telegram.org/api/srp#password-reset)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,6 +10,8 @@ redirect_from: /API_docs/methods/account_resetPassword.html
 [Back to methods index](index.html)
 
 
+
+Initiate a 2FA password reset: can only be used if the user is already logged-in, [see here for more info »](https://core.telegram.org/api/srp#password-reset)
 
 
 

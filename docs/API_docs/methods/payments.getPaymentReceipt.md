@@ -17,7 +17,7 @@ Get payment receipt
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer where the payment receipt was sent | Optional|
 |msg\_id|[int](/API_docs/types/int.html) | Message ID of receipt | Yes|
 
 
@@ -40,11 +40,4 @@ $MadelineProto->start();
 
 $payments_PaymentReceipt = $MadelineProto->payments->getPaymentReceipt(['peer' => InputPeer, 'msg_id' => int, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|MESSAGE_ID_INVALID|The provided message id is invalid|
-
 

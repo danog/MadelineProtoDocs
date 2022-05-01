@@ -44,10 +44,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->setBotPrecheckoutResults(['success' => Bool, 'query_id' => long, 'error' => 'string', ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|ERROR_TEXT_EMPTY|The provided error message is empty|
-
-

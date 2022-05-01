@@ -15,7 +15,7 @@ Discarded or deleted chat.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|history\_deleted|[Bool](/API_docs/types/Bool.html) | Optional|
+|history\_deleted|[Bool](/API_docs/types/Bool.html) | Optional|Whether both users of this secret chat should also remove all of its messages|
 |id|[int](/API_docs/types/int.html) | Yes|Chat ID|
 
 

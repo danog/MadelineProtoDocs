@@ -41,14 +41,3 @@ $MadelineProto->start();
 $auth_SentCode = $MadelineProto->account->sendChangePhoneCode(['phone_number' => 'string', 'settings' => CodeSettings, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|PHONE_NUMBER_BANNED|The provided phone number is banned from telegram|
-|400|PHONE_NUMBER_INVALID|The phone number is invalid|
-|400|PHONE_NUMBER_OCCUPIED|The phone number is already in use|
-|406|FRESH_CHANGE_PHONE_FORBIDDEN|You can't change phone number right after logging in, please wait at least 24 hours.|
-|406|PHONE_NUMBER_INVALID|The phone number is invalid|
-
-

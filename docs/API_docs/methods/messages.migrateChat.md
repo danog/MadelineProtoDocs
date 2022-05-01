@@ -1,6 +1,6 @@
 ---
 title: "messages.migrateChat"
-description: "Turn a [legacy group into a supergroup](https://core.telegram.org/api/channel)"
+description: "Turn a [basic group into a supergroup](https://core.telegram.org/api/channel#migration)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/messages_migrateChat.html
 
 
 
-Turn a [legacy group into a supergroup](https://core.telegram.org/api/channel)
+Turn a [basic group into a supergroup](https://core.telegram.org/api/channel#migration)
 
 ### Parameters:
 
@@ -39,15 +39,4 @@ $MadelineProto->start();
 
 $Updates = $MadelineProto->messages->migrateChat(['chat_id' => InputPeer, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHANNELS_TOO_MUCH|You have joined too many channels/supergroups|
-|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
-|400|CHAT_ID_INVALID|The provided chat id is invalid|
-|400|PEER_ID_INVALID|The provided peer id is invalid|
-|403|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
-
 

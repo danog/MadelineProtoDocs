@@ -1,6 +1,6 @@
 ---
 title: "botCommandScopePeerUser"
-description: "botCommandScopePeerUser attributes, type and example"
+description: "The specified bot commands will be valid only for a specific user in the specified group or supergroup."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+The specified bot commands will be valid only for a specific user in the specified [group or supergroup](https://core.telegram.org/api/channel).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|user\_id|[InputUser](/API_docs/types/InputUser.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[InputPeer](/API_docs/types/InputPeer.html) | Optional|The chat|
+|user\_id|[InputUser](/API_docs/types/InputUser.html) | Optional|The user|
 
 
 

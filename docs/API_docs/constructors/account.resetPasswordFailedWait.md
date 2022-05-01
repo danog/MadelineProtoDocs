@@ -1,6 +1,6 @@
 ---
 title: "account.resetPasswordFailedWait"
-description: "account.resetPasswordFailedWait attributes, type and example"
+description: "You recently requested a password reset that was canceled, please wait until the specified date before requesting another reset."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_resetPasswordFailedWait.html
@@ -10,11 +10,13 @@ redirect_from: /API_docs/constructors/account_resetPasswordFailedWait.html
 
 
 
+You recently requested a password reset that was canceled, please wait until the specified date before requesting another reset.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|retry\_date|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|retry\_date|[int](/API_docs/types/int.html) | Yes|Wait until this date before requesting another reset.|
 
 
 

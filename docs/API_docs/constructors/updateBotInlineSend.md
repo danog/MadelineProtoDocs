@@ -15,7 +15,7 @@ The result of an inline query that was chosen by a user and sent to their chat p
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|The user that chose the result|
 |query|[string](/API_docs/types/string.html) | Yes|The query that was used to obtain the result|
 |geo|[GeoPoint](/API_docs/types/GeoPoint.html) | Optional|Optional. Sender location, only for bots that require user location|
 |id|[string](/API_docs/types/string.html) | Yes|The unique identifier for the result that was chosen|

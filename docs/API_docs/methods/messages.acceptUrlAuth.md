@@ -21,7 +21,7 @@ Use this to accept a Seamless Telegram Login authorization request, for more inf
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The location of the message | Optional|
 |msg\_id|[int](/API_docs/types/int.html) | Message ID of the message with the login button | Optional|
 |button\_id|[int](/API_docs/types/int.html) | ID of the login button | Optional|
-|url|[string](/API_docs/types/string.html) |  | Optional|
+|url|[string](/API_docs/types/string.html) | URL used for [link URL authorization, click here for more info »](https://core.telegram.org/api/url-authorization#link-url-authorization) | Optional|
 
 
 ### Return type: [UrlAuthResult](/API_docs/types/UrlAuthResult.html)

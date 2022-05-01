@@ -1,6 +1,6 @@
 ---
 title: "phone.inviteToGroupCall"
-description: "phone.inviteToGroupCall parameters, return type and example"
+description: "Invite a set of users to a group call."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/phone_inviteToGroupCall.html
 
 
 
+Invite a set of users to a group call.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
-|users|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | The group call | Yes|
+|users|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The users to invite. | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -38,11 +40,4 @@ $MadelineProto->start();
 
 $Updates = $MadelineProto->phone->inviteToGroupCall(['call' => InputGroupCall, 'users' => [InputUser, InputUser], ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|403|GROUPCALL_FORBIDDEN|The group call has already ended|
-
 

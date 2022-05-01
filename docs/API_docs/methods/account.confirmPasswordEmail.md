@@ -40,12 +40,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->confirmPasswordEmail(['code' => 'string', ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CODE_INVALID|Code invalid|
-|400|EMAIL_HASH_EXPIRED|Email hash expired|
-|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
-
-

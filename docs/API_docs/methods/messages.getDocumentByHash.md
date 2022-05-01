@@ -42,10 +42,3 @@ $MadelineProto->start();
 $Document = $MadelineProto->messages->getDocumentByHash(['sha256' => 'bytes', 'size' => int, 'mime_type' => 'string', ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|SHA256_HASH_INVALID|The provided SHA256 hash is invalid|
-
-

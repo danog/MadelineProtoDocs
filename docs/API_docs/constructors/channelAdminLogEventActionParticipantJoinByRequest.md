@@ -1,6 +1,6 @@
 ---
 title: "channelAdminLogEventActionParticipantJoinByRequest"
-description: "channelAdminLogEventActionParticipantJoinByRequest attributes, type and example"
+description: "A new member was accepted to the chat by an admin"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A new member was accepted to the chat by an admin
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|invite|[ExportedChatInvite](/API_docs/types/ExportedChatInvite.html) | Yes|
-|approved\_by|[long](/API_docs/types/long.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|invite|[ExportedChatInvite](/API_docs/types/ExportedChatInvite.html) | Yes|The invite link that was used to join the chat|
+|approved\_by|[long](/API_docs/types/long.html) | Yes|ID of the admin that approved the invite|
 
 
 

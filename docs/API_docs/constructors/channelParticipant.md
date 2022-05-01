@@ -15,7 +15,7 @@ Channel/supergroup participant
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|Participant user ID|
 |date|[int](/API_docs/types/int.html) | Yes|Date joined|
 
 

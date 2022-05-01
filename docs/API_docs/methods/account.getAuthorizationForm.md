@@ -17,7 +17,7 @@ Returns a Telegram Passport authorization form for sharing data with a service
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|bot\_id|[long](/API_docs/types/long.html) |  | Yes|
+|bot\_id|[long](/API_docs/types/long.html) | User identifier of the service's bot | Yes|
 |scope|[string](/API_docs/types/string.html) | Telegram Passport element types requested by the service | Yes|
 |public\_key|[string](/API_docs/types/string.html) | Service's public key | Yes|
 
@@ -41,11 +41,4 @@ $MadelineProto->start();
 
 $account_AuthorizationForm = $MadelineProto->account->getAuthorizationForm(['bot_id' => long, 'scope' => 'string', 'public_key' => 'string', ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|PUBLIC_KEY_REQUIRED|A public key is required|
-
 

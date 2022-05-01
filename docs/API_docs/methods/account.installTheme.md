@@ -20,7 +20,7 @@ Install a theme
 |dark|[Bool](/API_docs/types/Bool.html) | Whether to install the dark version | Optional|
 |theme|[InputTheme](/API_docs/types/InputTheme.html) | Theme to install | Optional|
 |format|[string](/API_docs/types/string.html) | Theme format, a string that identifies the theming engines supported by the client | Optional|
-|base\_theme|[BaseTheme](/API_docs/types/BaseTheme.html) |  | Optional|
+|base\_theme|[BaseTheme](/API_docs/types/BaseTheme.html) | Indicates a basic theme provided by all clients | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

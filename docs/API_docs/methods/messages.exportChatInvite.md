@@ -17,12 +17,12 @@ Export an invite link for a chat
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|legacy\_revoke\_permanent|[Bool](/API_docs/types/Bool.html) |  | Optional|
-|request\_needed|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|legacy\_revoke\_permanent|[Bool](/API_docs/types/Bool.html) | Legacy flag, reproducing legacy behavior of this method: if set, revokes all previous links before creating a new one. Kept for bot API BC, should not be used by modern clients. | Optional|
+|request\_needed|[Bool](/API_docs/types/Bool.html) | Whether admin confirmation is required before admitting each separate user into the chat | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Chat | Optional|
-|expire\_date|[int](/API_docs/types/int.html) |  | Optional|
-|usage\_limit|[int](/API_docs/types/int.html) |  | Optional|
-|title|[string](/API_docs/types/string.html) |  | Optional|
+|expire\_date|[int](/API_docs/types/int.html) | Expiration date | Optional|
+|usage\_limit|[int](/API_docs/types/int.html) | Maximum number of users that can join using this link | Optional|
+|title|[string](/API_docs/types/string.html) | Description of the invite link, visible only to administrators | Optional|
 
 
 ### Return type: [ExportedChatInvite](/API_docs/types/ExportedChatInvite.html)
@@ -44,18 +44,4 @@ $MadelineProto->start();
 
 $ExportedChatInvite = $MadelineProto->messages->exportChatInvite(['legacy_revoke_permanent' => Bool, 'request_needed' => Bool, 'peer' => InputPeer, 'expire_date' => int, 'usage_limit' => int, 'title' => 'string', ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
-|400|CHAT_ID_INVALID|The provided chat id is invalid|
-|400|EXPIRE_DATE_INVALID|The specified expiration date is invalid|
-|400|PEER_ID_INVALID|The provided peer id is invalid|
-|400|USAGE_LIMIT_INVALID|The specified usage limit is invalid|
-|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
-
 

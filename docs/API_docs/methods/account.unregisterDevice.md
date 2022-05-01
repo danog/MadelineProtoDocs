@@ -42,10 +42,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->unregisterDevice(['token_type' => int, 'token' => 'string', 'other_uids' => [long, long], ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|TOKEN_INVALID|The provided token is invalid|
-
-

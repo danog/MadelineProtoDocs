@@ -15,7 +15,7 @@ Changes the user's first name, last name and username.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User identifier|
 |first\_name|[string](/API_docs/types/string.html) | Yes|New first name. Corresponds to the new value of **real\_first\_name** field of the [userFull](../constructors/userFull.html) constructor.|
 |last\_name|[string](/API_docs/types/string.html) | Yes|New last name. Corresponds to the new value of **real\_last\_name** field of the [userFull](../constructors/userFull.html) constructor.|
 |username|[string](/API_docs/types/string.html) | Yes|New username.<br>Parameter added in [Layer 18](https://core.telegram.org/api/layers#layer-18).|

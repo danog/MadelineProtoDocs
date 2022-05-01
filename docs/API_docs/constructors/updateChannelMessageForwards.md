@@ -15,7 +15,7 @@ The forward counter of a message in a channel has changed
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[long](/API_docs/types/long.html) | Yes|
+|channel\_id|[long](/API_docs/types/long.html) | Yes|Channel ID|
 |id|[int](/API_docs/types/int.html) | Yes|ID of the message|
 |forwards|[int](/API_docs/types/int.html) | Yes|New forward counter|
 

@@ -41,11 +41,3 @@ $MadelineProto->start();
 $messages_StickerSet = $MadelineProto->stickers->changeStickerPosition(['sticker' => InputDocument, 'position' => int, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|BOT_MISSING|This method can only be run by a bot|
-|400|STICKER_INVALID|The provided sticker is invalid|
-
-

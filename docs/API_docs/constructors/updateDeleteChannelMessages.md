@@ -15,7 +15,7 @@ Some messages in a [supergroup/channel](https://core.telegram.org/api/channel) w
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[long](/API_docs/types/long.html) | Yes|
+|channel\_id|[long](/API_docs/types/long.html) | Yes|Channel ID|
 |messages|Array of [int](/API_docs/types/int.html) | Yes|IDs of messages that were deleted|
 |pts|[int](/API_docs/types/int.html) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|
 |pts\_count|[int](/API_docs/types/int.html) | Yes|[Number of events that were generated](https://core.telegram.org/api/updates)|

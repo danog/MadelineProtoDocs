@@ -15,7 +15,7 @@ Group profile changed
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|photo|[Photo](/API_docs/types/Photo.html) | Optional|New group pofile photo|
+|photo|[Photo](/API_docs/types/Photo.html) | Optional|New group profile photo|
 
 
 

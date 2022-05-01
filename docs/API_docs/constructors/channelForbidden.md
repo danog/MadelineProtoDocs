@@ -17,7 +17,7 @@ Indicates a channel/supergroup we can't access because we were banned, or for so
 |----------|---------------|----------|-------------|
 |broadcast|[Bool](/API_docs/types/Bool.html) | Optional|Is this a channel|
 |megagroup|[Bool](/API_docs/types/Bool.html) | Optional|Is this a supergroup|
-|id|[long](/API_docs/types/long.html) | Yes|
+|id|[long](/API_docs/types/long.html) | Yes|Channel ID|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash|
 |title|[string](/API_docs/types/string.html) | Yes|Title|
 |until\_date|[int](/API_docs/types/int.html) | Optional|The ban is valid until the specified date|

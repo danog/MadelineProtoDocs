@@ -1,6 +1,6 @@
 ---
 title: "phone.getGroupCallJoinAs"
-description: "phone.getGroupCallJoinAs parameters, return type and example"
+description: "Get a list of peers that can be used to join a group call, presenting yourself as a specific user/channel."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/phone_getGroupCallJoinAs.html
 
 
 
+Get a list of peers that can be used to join a group call, presenting yourself as a specific user/channel.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The dialog whose group call or livestream we're trying to join | Optional|
 
 
 ### Return type: [phone.JoinAsPeers](/API_docs/types/phone.JoinAsPeers.html)

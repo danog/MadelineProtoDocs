@@ -43,14 +43,3 @@ $MadelineProto->start();
 $ExportedMessageLink = $MadelineProto->channels->exportMessageLink(['grouped' => Bool, 'thread' => Bool, 'channel' => InputChannel, 'id' => int, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHANNEL_INVALID|The provided channel is invalid|
-|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
-|400|MESSAGE_ID_INVALID|The provided message id is invalid|
-|400|MSG_ID_INVALID|Invalid message ID provided|
-
-

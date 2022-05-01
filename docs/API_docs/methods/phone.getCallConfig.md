@@ -35,11 +35,3 @@ $MadelineProto->start();
 $DataJSON = $MadelineProto->phone->getCallConfig();
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
-|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-
-

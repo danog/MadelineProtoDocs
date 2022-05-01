@@ -41,11 +41,3 @@ $MadelineProto->start();
 $messages_Messages = $MadelineProto->messages->getScheduledMessages(['peer' => InputPeer, 'id' => [int, int], ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
-|400|PEER_ID_INVALID|The provided peer id is invalid|
-
-

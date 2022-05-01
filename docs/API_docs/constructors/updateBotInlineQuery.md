@@ -16,10 +16,10 @@ An incoming inline query
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |query\_id|[long](/API_docs/types/long.html) | Yes|Query ID|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User that sent the query|
 |query|[string](/API_docs/types/string.html) | Yes|Text of query|
 |geo|[GeoPoint](/API_docs/types/GeoPoint.html) | Optional|Attached geolocation|
-|peer\_type|[InlineQueryPeerType](/API_docs/types/InlineQueryPeerType.html) | Optional|
+|peer\_type|[InlineQueryPeerType](/API_docs/types/InlineQueryPeerType.html) | Optional|Type of the chat from which the inline query was sent.|
 |offset|[string](/API_docs/types/string.html) | Yes|Offset to navigate through results|
 
 

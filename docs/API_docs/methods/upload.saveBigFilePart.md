@@ -43,18 +43,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->upload->saveBigFilePart(['file_id' => long, 'file_part' => int, 'file_total_parts' => int, 'bytes' => 'bytes', ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|FILE_PART_EMPTY|The provided file part is empty|
-|400|FILE_PART_INVALID|The file part number is invalid|
-|400|FILE_PART_SIZE_CHANGED|Provided file part size has changed|
-|400|FILE_PART_SIZE_INVALID|The provided file part size is invalid|
-|400|FILE_PART_TOO_BIG|The uploaded file part is too big|
-|400|FILE_PARTS_INVALID|The number of file parts is invalid|
-|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
-|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|-503|Timeout|Timeout while fetching data|
-
-

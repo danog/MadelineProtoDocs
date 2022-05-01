@@ -50,12 +50,3 @@ $Bool = $MadelineProto->messages->setBotCallbackAnswer(['alert' => Bool, 'query_
 If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [Bool](../types/Bool.html) will be returned instead.
 
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|MESSAGE_TOO_LONG|The provided message is too long|
-|400|QUERY_ID_INVALID|The query ID is invalid|
-|400|URL_INVALID|Invalid URL provided|
-
-

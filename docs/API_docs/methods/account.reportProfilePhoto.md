@@ -1,6 +1,6 @@
 ---
 title: "account.reportProfilePhoto"
-description: "account.reportProfilePhoto parameters, return type and example"
+description: "Report a profile photo of a dialog"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,16 @@ redirect_from: /API_docs/methods/account_reportProfilePhoto.html
 
 
 
+Report a profile photo of a dialog
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|photo\_id|[MessageMedia, Update, Message or InputPhoto](/API_docs/types/InputPhoto.html) | Optional|
-|reason|[ReportReason](/API_docs/types/ReportReason.html) | Yes|
-|message|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The dialog | Optional|
+|photo\_id|[MessageMedia, Update, Message or InputPhoto](/API_docs/types/InputPhoto.html) | Dialog photo ID | Optional|
+|reason|[ReportReason](/API_docs/types/ReportReason.html) | Report reason | Yes|
+|message|[string](/API_docs/types/string.html) | Comment for report moderation | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

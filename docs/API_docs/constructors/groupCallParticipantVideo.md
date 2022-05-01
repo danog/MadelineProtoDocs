@@ -1,6 +1,6 @@
 ---
 title: "groupCallParticipantVideo"
-description: "groupCallParticipantVideo attributes, type and example"
+description: "Info about a video stream"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,14 +9,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Info about a video stream
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|paused|[Bool](/API_docs/types/Bool.html) | Optional|
-|endpoint|[string](/API_docs/types/string.html) | Yes|
-|source\_groups|Array of [GroupCallParticipantVideoSourceGroup](/API_docs/types/GroupCallParticipantVideoSourceGroup.html) | Yes|
-|audio\_source|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|paused|[Bool](/API_docs/types/Bool.html) | Optional|Whether the stream is currently paused|
+|endpoint|[string](/API_docs/types/string.html) | Yes|Endpoint|
+|source\_groups|Array of [GroupCallParticipantVideoSourceGroup](/API_docs/types/GroupCallParticipantVideoSourceGroup.html) | Yes|Source groups|
+|audio\_source|[int](/API_docs/types/int.html) | Optional|Audio source ID|
 
 
 

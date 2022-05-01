@@ -42,10 +42,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->readDiscussion(['peer' => InputPeer, 'msg_id' => int, 'read_max_id' => int, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|PEER_ID_INVALID|The provided peer id is invalid|
-
-

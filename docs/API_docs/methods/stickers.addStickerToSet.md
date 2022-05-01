@@ -41,13 +41,3 @@ $MadelineProto->start();
 $messages_StickerSet = $MadelineProto->stickers->addStickerToSet(['stickerset' => InputStickerSet, 'sticker' => InputStickerSetItem, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|BOT_MISSING|This method can only be run by a bot|
-|400|STICKER_PNG_NOPNG|One of the specified stickers is not a valid PNG file|
-|400|STICKER_TGS_NOTGS|Invalid TGS sticker provided.|
-|400|STICKERSET_INVALID|The provided sticker set is invalid|
-
-

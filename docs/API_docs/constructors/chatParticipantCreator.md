@@ -15,7 +15,7 @@ Represents the creator of the group
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|ID of the user that created the group|
 
 
 

@@ -6,7 +6,7 @@ parent: "MadelineProto API"
 
 ---
 # `danog\MadelineProto\Db\DbArray`
-[Back to index](../../../index.html)
+[Back to index](../../../index.md)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
@@ -17,7 +17,6 @@ DB array interface.
 
 
 ## Method list:
-* `unreference(): void`
 * `getArrayCopy(): \Amp\Promise`
 * `isset(string|int $key): \Amp\Promise`
 * `unset(string|int $key): \Amp\Promise`
@@ -30,12 +29,6 @@ DB array interface.
 * `getInstance(string $table, null|\danog\MadelineProto\Db\DbType|array $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise<self>`
 
 ## Methods:
-### `unreference(): void`
-
-Unreference instance to allow destruction.
-
-
-
 ### `getArrayCopy(): \Amp\Promise`
 
 Get Array copy.
@@ -197,7 +190,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Database\DatabaseAbstract`: Base class for database backends.](../../../danog/MadelineProto/Settings/Database/DatabaseAbstract.html)
+* [`\danog\MadelineProto\Settings\Database\DatabaseAbstract`: Base class for database backends.](../../../danog/MadelineProto/Settings/Database/DatabaseAbstract.md)
 * `\Amp\Promise`
 
 

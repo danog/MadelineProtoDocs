@@ -1,6 +1,6 @@
 ---
 title: "messages.deleteChat"
-description: "messages.deleteChat parameters, return type and example"
+description: "Delete a [chat](https://core.telegram.org/api/channel)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/messages_deleteChat.html
 
 
 
+Delete a [chat](https://core.telegram.org/api/channel)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chat\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chat\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
@@ -37,12 +39,4 @@ $MadelineProto->start();
 
 $Bool = $MadelineProto->messages->deleteChat(['chat_id' => InputPeer, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHAT_ID_INVALID|The provided chat id is invalid|
-|400|PEER_ID_INVALID|The provided peer id is invalid|
-
 

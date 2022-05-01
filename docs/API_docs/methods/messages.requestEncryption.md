@@ -41,11 +41,3 @@ $MadelineProto->start();
 $EncryptedChat = $MadelineProto->messages->requestEncryption(['user_id' => InputUser, 'g_a' => 'bytes', ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|DH_G_A_INVALID|g_a invalid|
-|400|USER_ID_INVALID|The provided user ID is invalid|
-
-

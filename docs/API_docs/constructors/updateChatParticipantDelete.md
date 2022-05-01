@@ -15,8 +15,8 @@ A member has left the group.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[long](/API_docs/types/long.html) | Yes|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|chat\_id|[long](/API_docs/types/long.html) | Yes|Group ID|
+|user\_id|[long](/API_docs/types/long.html) | Yes|ID of the user|
 |version|[int](/API_docs/types/int.html) | Yes|Used in basic groups to reorder updates and make sure that all of them was received.|
 
 

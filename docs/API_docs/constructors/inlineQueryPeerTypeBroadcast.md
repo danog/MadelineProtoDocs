@@ -1,6 +1,6 @@
 ---
 title: "inlineQueryPeerTypeBroadcast"
-description: "inlineQueryPeerTypeBroadcast attributes, type and example"
+description: "The inline query was sent in a channel"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -8,6 +8,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+The inline query was sent in a [channel](https://core.telegram.org/api/channel)
 
 
 

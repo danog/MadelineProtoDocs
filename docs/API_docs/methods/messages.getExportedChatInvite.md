@@ -1,6 +1,6 @@
 ---
 title: "messages.getExportedChatInvite"
-description: "messages.getExportedChatInvite parameters, return type and example"
+description: "Get info about a chat invite"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/messages_getExportedChatInvite.html
 
 
 
+Get info about a chat invite
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|link|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Chat | Optional|
+|link|[string](/API_docs/types/string.html) | Invite link | Yes|
 
 
 ### Return type: [messages.ExportedChatInvite](/API_docs/types/messages.ExportedChatInvite.html)

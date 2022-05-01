@@ -1,6 +1,6 @@
 ---
 title: "messages.chatFull"
-description: "Extended info on chat and auxiliary data."
+description: "Full info about a channel, supergroup, gigagroup or basic group."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_chatFull.html
@@ -10,15 +10,15 @@ redirect_from: /API_docs/constructors/messages_chatFull.html
 
 
 
-Extended info on chat and auxiliary data.
+Full info about a [channel](https://core.telegram.org/api/channel#channels), [supergroup](https://core.telegram.org/api/channel#supergroups), [gigagroup](https://core.telegram.org/api/channel#gigagroups) or [basic group](https://core.telegram.org/api/channel#basic-groups).
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|full\_chat|[ChatFull](/API_docs/types/ChatFull.html) | Yes|Extended info on a chat|
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|List containing basic info on chat|
-|users|Array of [User](/API_docs/types/User.html) | Yes|List of users mentioned above|
+|full\_chat|[ChatFull](/API_docs/types/ChatFull.html) | Yes|Full info|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Mentioned chats|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Mentioned users|
 
 
 

@@ -6,7 +6,7 @@ parent: "MadelineProto API"
 
 ---
 # `danog\MadelineProto\TL\Types\Button`
-[Back to index](../../../../index.html)
+[Back to index](../../../../index.md)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
@@ -19,10 +19,10 @@ Clickable button.
 ## Method list:
 * `click(bool $donotwait): mixed`
 * `jsonSerialize(): array`
-* `offsetSet( $name, mixed $value): void`
-* `offsetGet( $name): mixed`
-* `offsetUnset( $name): void`
-* `offsetExists( $name): bool`
+* `offsetSet(mixed $name, mixed $value): void`
+* `offsetGet(mixed $name): mixed`
+* `offsetUnset(mixed $name): void`
+* `offsetExists(mixed $name): bool`
 
 ## Methods:
 ### `click(bool $donotwait): mixed`
@@ -42,48 +42,48 @@ Serialize button.
 
 
 
-### `offsetSet( $name, mixed $value): void`
+### `offsetSet(mixed $name, mixed $value): void`
 
 Set button info.
 
 
 Parameters:
 
-* `$name`: `` Offset  
+* `$name`: `mixed` Offset  
 * `$value`: `mixed` Value  
 
 
 
-### `offsetGet( $name): mixed`
+### `offsetGet(mixed $name): mixed`
 
 Get button info.
 
 
 Parameters:
 
-* `$name`: `` Field name  
+* `$name`: `mixed` Field name  
 
 
 
-### `offsetUnset( $name): void`
+### `offsetUnset(mixed $name): void`
 
 Unset button info.
 
 
 Parameters:
 
-* `$name`: `` Offset  
+* `$name`: `mixed` Offset  
 
 
 
-### `offsetExists( $name): bool`
+### `offsetExists(mixed $name): bool`
 
 Check if button field exists.
 
 
 Parameters:
 
-* `$name`: `` Offset  
+* `$name`: `mixed` Offset  
 
 
 

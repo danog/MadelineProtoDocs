@@ -48,11 +48,3 @@ $MadelineProto->start();
 $messages_Messages = $MadelineProto->messages->searchGlobal(['folder_id' => int, 'q' => 'string', 'filter' => MessagesFilter, 'min_date' => int, 'max_date' => int, 'offset_rate' => int, 'offset_peer' => InputPeer, 'offset_id' => int, 'limit' => int, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|FOLDER_ID_INVALID|Invalid folder ID|
-|400|SEARCH_QUERY_EMPTY|The search query is empty|
-
-

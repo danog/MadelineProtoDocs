@@ -41,10 +41,3 @@ $MadelineProto->start();
 $SecureValue = $MadelineProto->account->saveSecureValue(['value' => InputSecureValue, 'secure_secret_id' => long, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|PASSWORD_REQUIRED|A [2FA password](https://core.telegram.org/api/srp) must be configured to use Telegram Passport|
-
-

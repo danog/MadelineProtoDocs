@@ -41,17 +41,3 @@ $MadelineProto->start();
 $messages_Messages = $MadelineProto->channels->getMessages(['channel' => InputChannel, 'id' => [InputMessage, InputMessage], ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHANNEL_INVALID|The provided channel is invalid|
-|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
-|400|MESSAGE_IDS_EMPTY|No message ids were provided|
-|400|MSG_ID_INVALID|Invalid message ID provided|
-|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|-500|No workers running|Internal error|
-|-503|Timeout|Timeout while fetching data|
-
-

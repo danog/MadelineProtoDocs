@@ -1,6 +1,6 @@
 ---
 title: "messages.startHistoryImport"
-description: "messages.startHistoryImport parameters, return type and example"
+description: "Complete the [history import process](https://core.telegram.org/api/import), importing all messages into the chat.  "
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,15 @@ redirect_from: /API_docs/methods/messages_startHistoryImport.html
 
 
 
+Complete the [history import process](https://core.telegram.org/api/import), importing all messages into the chat.  
+To be called only after initializing the import with [messages.initHistoryImport](../methods/messages.initHistoryImport.html) and uploading all files using [messages.uploadImportedMedia](../methods/messages.uploadImportedMedia.html).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|import\_id|[long](/API_docs/types/long.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The Telegram chat where the messages should be [imported, click here for more info »](https://core.telegram.org/api/import) | Optional|
+|import\_id|[long](/API_docs/types/long.html) | Identifier of a history import session, returned by [messages.initHistoryImport](../methods/messages.initHistoryImport.html). | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
@@ -38,11 +41,4 @@ $MadelineProto->start();
 
 $Bool = $MadelineProto->messages->startHistoryImport(['peer' => InputPeer, 'import_id' => long, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|IMPORT_ID_INVALID|The specified import ID is invalid|
-
 

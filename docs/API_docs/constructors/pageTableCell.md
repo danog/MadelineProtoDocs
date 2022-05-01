@@ -19,7 +19,7 @@ Table cell
 |align\_center|[Bool](/API_docs/types/Bool.html) | Optional|Horizontally centered block|
 |align\_right|[Bool](/API_docs/types/Bool.html) | Optional|Right-aligned block|
 |valign\_middle|[Bool](/API_docs/types/Bool.html) | Optional|Vertically centered block|
-|valign\_bottom|[Bool](/API_docs/types/Bool.html) | Optional|Block vertically-alligned to the bottom|
+|valign\_bottom|[Bool](/API_docs/types/Bool.html) | Optional|Block vertically-aligned to the bottom|
 |text|[RichText](/API_docs/types/RichText.html) | Optional|Content|
 |colspan|[int](/API_docs/types/int.html) | Optional|For how many columns should this cell extend|
 |rowspan|[int](/API_docs/types/int.html) | Optional|For how many rows should this cell extend|

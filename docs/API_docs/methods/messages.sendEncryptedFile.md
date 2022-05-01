@@ -43,14 +43,3 @@ $MadelineProto->start();
 $messages_SentEncryptedMessage = $MadelineProto->messages->sendEncryptedFile(['silent' => Bool, 'peer' => InputEncryptedChat, 'data' => 'bytes', 'file' => InputEncryptedFile, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|DATA_TOO_LONG|Data too long|
-|400|ENCRYPTION_DECLINED|The secret chat was declined|
-|400|FILE_EMTPY|An empty file was provided|
-|400|MD5_CHECKSUM_INVALID|The MD5 checksums do not match|
-|400|MSG_WAIT_FAILED|A waiting call returned an error|
-
-

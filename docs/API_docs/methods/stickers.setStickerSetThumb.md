@@ -41,12 +41,3 @@ $MadelineProto->start();
 $messages_StickerSet = $MadelineProto->stickers->setStickerSetThumb(['stickerset' => InputStickerSet, 'thumb' => InputDocument, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|STICKER_THUMB_PNG_NOPNG|Incorrect stickerset thumb file provided, PNG / WEBP expected.|
-|400|STICKER_THUMB_TGS_NOTGS|Incorrect stickerset TGS thumb file provided.|
-|400|STICKERSET_INVALID|The provided sticker set is invalid|
-
-

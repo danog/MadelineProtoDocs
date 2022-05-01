@@ -40,19 +40,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->channels->leaveChannel(['channel' => InputChannel, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHANNEL_INVALID|The provided channel is invalid|
-|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
-|400|MSG_ID_INVALID|Invalid message ID provided|
-|400|USER_CREATOR|You can't leave this channel, because you're its creator|
-|400|USER_NOT_PARTICIPANT|You're not a member of this supergroup/channel|
-|-3002|All workers are busy. Active_queries = X|All workers are busy. Active_queries = X|
-|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|403|CHANNEL_PUBLIC_GROUP_NA|channel/supergroup not available|
-|-503|Timeout|Timeout while fetching data|
-
-

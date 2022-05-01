@@ -41,12 +41,3 @@ $MadelineProto->start();
 $DataJSON = $MadelineProto->bots->sendCustomRequest(['custom_method' => 'string', 'params' => DataJSON, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|METHOD_INVALID|The specified method is invalid|
-|400|USER_BOT_INVALID|This method can only be called by a bot|
-|403|USER_BOT_INVALID|This method can only be called by a bot|
-
-

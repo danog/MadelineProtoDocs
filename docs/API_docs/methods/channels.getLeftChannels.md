@@ -40,10 +40,3 @@ $MadelineProto->start();
 $messages_Chats = $MadelineProto->channels->getLeftChannels(['offset' => int, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|403|TAKEOUT_REQUIRED|A takeout session has to be initialized, first|
-
-

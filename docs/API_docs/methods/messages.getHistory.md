@@ -24,7 +24,7 @@ Gets back the conversation history with one interlocutor / within a chat
 |limit|[int](/API_docs/types/int.html) | Number of results to return | Yes|
 |max\_id|[int](/API_docs/types/int.html) | If a positive value was transferred, the method will return only messages with IDs less than **max\_id** | Yes|
 |min\_id|[int](/API_docs/types/int.html) | If a positive value was transferred, the method will return only messages with IDs more than **min\_id** | Yes|
-|hash|[long](/API_docs/types/long.html) |  | Yes|
+|hash|[long](/API_docs/types/long.html) | [Result hash](https://core.telegram.org/api/offsets) | Yes|
 
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)
@@ -46,22 +46,4 @@ $MadelineProto->start();
 
 $messages_Messages = $MadelineProto->messages->getHistory(['peer' => InputPeer, 'offset_id' => int, 'offset_date' => int, 'add_offset' => int, 'limit' => int, 'max_id' => int, 'min_id' => int, 'hash' => long, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHANNEL_INVALID|The provided channel is invalid|
-|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|400|CHAT_ID_INVALID|The provided chat id is invalid|
-|400|CONNECTION_DEVICE_MODEL_EMPTY|Device model empty|
-|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
-|400|MSG_ID_INVALID|Invalid message ID provided|
-|400|PEER_ID_INVALID|The provided peer id is invalid|
-|-3002|All workers are busy. Active_queries = X|All workers are busy. Active_queries = X|
-|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
-|-504|memory limit exit|Internal error|
-|-503|Timeout|Timeout while fetching data|
-
 

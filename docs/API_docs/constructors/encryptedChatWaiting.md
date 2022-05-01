@@ -18,8 +18,8 @@ Chat waiting for approval of second participant.
 |id|[int](/API_docs/types/int.html) | Yes|Chat ID|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|Checking sum depending on user ID|
 |date|[int](/API_docs/types/int.html) | Yes|Date of chat creation|
-|admin\_id|[long](/API_docs/types/long.html) | Yes|
-|participant\_id|[long](/API_docs/types/long.html) | Yes|
+|admin\_id|[long](/API_docs/types/long.html) | Yes|Chat creator ID|
+|participant\_id|[long](/API_docs/types/long.html) | Yes|ID of second chat participant|
 
 
 

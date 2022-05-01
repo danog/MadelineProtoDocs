@@ -20,7 +20,7 @@ Information about a [message thread](https://core.telegram.org/api/threads)
 |max\_id|[int](/API_docs/types/int.html) | Optional|Message ID of latest reply in this [thread](https://core.telegram.org/api/threads)|
 |read\_inbox\_max\_id|[int](/API_docs/types/int.html) | Optional|Message ID of latest read incoming message in this [thread](https://core.telegram.org/api/threads)|
 |read\_outbox\_max\_id|[int](/API_docs/types/int.html) | Optional|Message ID of latest read outgoing message in this [thread](https://core.telegram.org/api/threads)|
-|unread\_count|[int](/API_docs/types/int.html) | Yes|
+|unread\_count|[int](/API_docs/types/int.html) | Yes|Number of unread messages|
 |chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Chats mentioned in constructor|
 |users|Array of [User](/API_docs/types/User.html) | Yes|Users mentioned in constructor|
 

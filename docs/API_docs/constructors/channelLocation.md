@@ -15,7 +15,7 @@ Geographical location of supergroup (geogroups)
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|geo\_point|[GeoPoint](/API_docs/types/GeoPoint.html) | Optional|Geographical location of supergrup|
+|geo\_point|[GeoPoint](/API_docs/types/GeoPoint.html) | Optional|Geographical location of supergroup|
 |address|[string](/API_docs/types/string.html) | Yes|Textual description of the address|
 
 

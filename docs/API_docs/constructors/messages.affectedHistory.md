@@ -16,7 +16,7 @@ Affected part of communication history with the user or in a chat.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|pts|[int](/API_docs/types/int.html) | Yes|Number of events occured in a text box|
+|pts|[int](/API_docs/types/int.html) | Yes|Number of events occurred in a text box|
 |pts\_count|[int](/API_docs/types/int.html) | Yes|Number of affected events|
 |offset|[int](/API_docs/types/int.html) | Yes|If a parameter contains positive value, it is necessary to repeat the method call using the given value; during the proceeding of all the history the value itself shall gradually decrease|
 

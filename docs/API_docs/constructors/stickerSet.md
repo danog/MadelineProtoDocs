@@ -19,14 +19,15 @@ Represents a stickerset (stickerpack)
 |official|[Bool](/API_docs/types/Bool.html) | Optional|Is this stickerset official|
 |masks|[Bool](/API_docs/types/Bool.html) | Optional|Is this a mask stickerset|
 |animated|[Bool](/API_docs/types/Bool.html) | Optional|Is this an animated stickerpack|
+|videos|[Bool](/API_docs/types/Bool.html) | Optional|Is this a video stickerpack|
 |installed\_date|[int](/API_docs/types/int.html) | Optional|When was this stickerset installed|
 |id|[long](/API_docs/types/long.html) | Yes|ID of the stickerset|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash of stickerset|
 |title|[string](/API_docs/types/string.html) | Yes|Title of stickerset|
 |short\_name|[string](/API_docs/types/string.html) | Yes|Short name of stickerset to use in `tg://addstickers?set=short_name`|
-|thumbs|Array of [PhotoSize](/API_docs/types/PhotoSize.html) | Optional|
+|thumbs|Array of [PhotoSize](/API_docs/types/PhotoSize.html) | Optional|Stickerset thumbnail|
 |thumb\_dc\_id|[int](/API_docs/types/int.html) | Optional|DC ID of thumbnail|
-|thumb\_version|[int](/API_docs/types/int.html) | Optional|
+|thumb\_version|[int](/API_docs/types/int.html) | Optional|Thumbnail version|
 |count|[int](/API_docs/types/int.html) | Yes|Number of stickers in pack|
 |hash|[int](/API_docs/types/int.html) | Yes|
 
@@ -38,5 +39,5 @@ Represents a stickerset (stickerpack)
 ### Example:
 
 ```php
-$stickerSet = ['_' => 'stickerSet', 'archived' => Bool, 'official' => Bool, 'masks' => Bool, 'animated' => Bool, 'installed_date' => int, 'id' => long, 'access_hash' => long, 'title' => 'string', 'short_name' => 'string', 'thumbs' => [PhotoSize, PhotoSize], 'thumb_dc_id' => int, 'thumb_version' => int, 'count' => int, 'hash' => int];
+$stickerSet = ['_' => 'stickerSet', 'archived' => Bool, 'official' => Bool, 'masks' => Bool, 'animated' => Bool, 'videos' => Bool, 'installed_date' => int, 'id' => long, 'access_hash' => long, 'title' => 'string', 'short_name' => 'string', 'thumbs' => [PhotoSize, PhotoSize], 'thumb_dc_id' => int, 'thumb_version' => int, 'count' => int, 'hash' => int];
 ```  

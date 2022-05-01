@@ -1,6 +1,6 @@
 ---
 title: "auth.codeTypeCall"
-description: "Type of verification code that will be sent next if you call the resendCode method: SMS code"
+description: "The next time, the authentication code is to be delivered via an outgoing phone call."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/auth_codeTypeCall.html
@@ -10,7 +10,7 @@ redirect_from: /API_docs/constructors/auth_codeTypeCall.html
 
 
 
-Type of verification code that will be sent next if you call the resendCode method: SMS code
+The next time, the authentication code is to be delivered via an outgoing phone call.
 
 
 

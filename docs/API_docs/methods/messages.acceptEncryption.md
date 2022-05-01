@@ -42,12 +42,3 @@ $MadelineProto->start();
 $EncryptedChat = $MadelineProto->messages->acceptEncryption(['peer' => InputEncryptedChat, 'g_b' => 'bytes', 'key_fingerprint' => long, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHAT_ID_INVALID|The provided chat id is invalid|
-|400|ENCRYPTION_ALREADY_ACCEPTED|Secret chat already accepted|
-|400|ENCRYPTION_ALREADY_DECLINED|The secret chat was already declined|
-
-

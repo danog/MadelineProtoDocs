@@ -1,6 +1,6 @@
 ---
 title: "phone.toggleGroupCallStartSubscription"
-description: "phone.toggleGroupCallStartSubscription parameters, return type and example"
+description: "Subscribe or unsubscribe to a scheduled group call"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/phone_toggleGroupCallStartSubscription.html
 
 
 
+Subscribe or unsubscribe to a scheduled group call
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
-|subscribed|[Bool](/API_docs/types/Bool.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Scheduled group call | Yes|
+|subscribed|[Bool](/API_docs/types/Bool.html) | Enable or disable subscription | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

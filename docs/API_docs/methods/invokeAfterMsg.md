@@ -1,6 +1,6 @@
 ---
 title: "invokeAfterMsg"
-description: "Invokes a query after successfull completion of one of the previous queries."
+description: "Invokes a query after successful completion of one of the previous queries."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,7 +10,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Invokes a query after successfull completion of one of the previous queries.
+Invokes a query after successful completion of one of the previous queries.
 
 ### Parameters:
 

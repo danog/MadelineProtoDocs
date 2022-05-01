@@ -21,7 +21,7 @@ Related article
 |description|[string](/API_docs/types/string.html) | Optional|Description|
 |photo\_id|[long](/API_docs/types/long.html) | Optional|ID of preview photo|
 |author|[string](/API_docs/types/string.html) | Optional|Author name|
-|published\_date|[int](/API_docs/types/int.html) | Optional|Date of pubblication|
+|published\_date|[int](/API_docs/types/int.html) | Optional|Date of publication|
 
 
 

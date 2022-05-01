@@ -1,6 +1,6 @@
 ---
 title: "channels.convertToGigagroup"
-description: "channels.convertToGigagroup parameters, return type and example"
+description: "Convert a [supergroup](https://core.telegram.org/api/channel) to a [gigagroup](https://core.telegram.org/api/channel), when requested by [channel suggestions](https://core.telegram.org/api/config#channel-suggestions)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/channels_convertToGigagroup.html
 
 
 
+Convert a [supergroup](https://core.telegram.org/api/channel) to a [gigagroup](https://core.telegram.org/api/channel), when requested by [channel suggestions](https://core.telegram.org/api/config#channel-suggestions).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The [supergroup](https://core.telegram.org/api/channel) to convert | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -37,11 +39,4 @@ $MadelineProto->start();
 
 $Updates = $MadelineProto->channels->convertToGigagroup(['channel' => InputChannel, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|PARTICIPANTS_TOO_FEW|Not enough participants|
-
 

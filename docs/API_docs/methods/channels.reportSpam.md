@@ -18,7 +18,7 @@ Reports some messages from a user in a supergroup as spam; requires administrato
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Supergroup | Optional|
-|participant|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
+|participant|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Participant whose messages should be reported | Optional|
 |id|Array of [int](/API_docs/types/int.html) | IDs of spam messages | Yes|
 
 
@@ -41,14 +41,4 @@ $MadelineProto->start();
 
 $Bool = $MadelineProto->channels->reportSpam(['channel' => InputChannel, 'participant' => InputPeer, 'id' => [int, int], ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHANNEL_INVALID|The provided channel is invalid|
-|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
-|400|INPUT_USER_DEACTIVATED|The specified user was deleted|
-|400|USER_ID_INVALID|The provided user ID is invalid|
-
 

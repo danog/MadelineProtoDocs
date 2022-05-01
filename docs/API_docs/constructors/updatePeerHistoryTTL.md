@@ -1,6 +1,6 @@
 ---
 title: "updatePeerHistoryTTL"
-description: "updatePeerHistoryTTL attributes, type and example"
+description: "The Time-To-Live for messages sent by the current user in a specific chat has changed"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+The Time-To-Live for messages sent by the current user in a specific chat has changed
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|
-|ttl\_period|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[Peer](/API_docs/types/Peer.html) | Yes|The chat|
+|ttl\_period|[int](/API_docs/types/int.html) | Optional|The new Time-To-Live|
 
 
 

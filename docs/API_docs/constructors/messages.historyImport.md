@@ -1,6 +1,6 @@
 ---
 title: "messages.historyImport"
-description: "messages.historyImport attributes, type and example"
+description: "ID of a specific chat import session, click here for more info »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_historyImport.html
@@ -10,11 +10,13 @@ redirect_from: /API_docs/constructors/messages_historyImport.html
 
 
 
+ID of a specific [chat import session, click here for more info »](https://core.telegram.org/api/import).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[long](/API_docs/types/long.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[long](/API_docs/types/long.html) | Yes|[History import ID](https://core.telegram.org/api/import)|
 
 
 

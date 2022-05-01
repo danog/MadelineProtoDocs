@@ -19,7 +19,7 @@ Attached contact.
 |first\_name|[string](/API_docs/types/string.html) | Yes|Contact's first name|
 |last\_name|[string](/API_docs/types/string.html) | Yes|Contact's last name|
 |vcard|[string](/API_docs/types/string.html) | Yes|VCARD of contact|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User identifier or `0`, if the user with the given phone number is not registered|
 
 
 

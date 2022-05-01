@@ -40,11 +40,3 @@ $MadelineProto->start();
 $help_UserInfo = $MadelineProto->help->getUserInfo(['user_id' => InputUser, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|USER_INVALID|Invalid user provided|
-|403|USER_INVALID|Invalid user provided|
-
-

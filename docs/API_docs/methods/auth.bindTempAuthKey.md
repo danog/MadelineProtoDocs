@@ -43,15 +43,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->auth->bindTempAuthKey(['perm_auth_key_id' => long, 'nonce' => long, 'expires_at' => int, 'encrypted_message' => 'bytes', ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|ENCRYPTED_MESSAGE_INVALID|Encrypted message invalid|
-|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
-|400|INPUT_REQUEST_TOO_LONG|The request is too big|
-|400|TEMP_AUTH_KEY_EMPTY|No temporary auth key provided|
-|-500|No workers running|Internal error|
-|-503|Timeout|Timeout while fetching data|
-
-

@@ -1,6 +1,6 @@
 ---
 title: "account.changeAuthorizationSettings"
-description: "account.changeAuthorizationSettings parameters, return type and example"
+description: "Change authorization settings"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,18 +11,20 @@ redirect_from: /API_docs/methods/account_changeAuthorizationSettings.html
 
 
 
+Change authorization settings
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|[long](/API_docs/types/long.html) | Yes|
-|encrypted\_requests\_disabled|[Bool](/API_docs/types/Bool.html) | Optional|
-|call\_requests\_disabled|[Bool](/API_docs/types/Bool.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|[long](/API_docs/types/long.html) | Session ID from the [authorization](../constructors/authorization.html) constructor, fetchable using [account.getAuthorizations](../methods/account.getAuthorizations.html) | Yes|
+|encrypted\_requests\_disabled|[Bool](/API_docs/types/Bool.html) | Whether to enable or disable receiving encrypted chats: if the flag is not set, the previous setting is not changed | Optional|
+|call\_requests\_disabled|[Bool](/API_docs/types/Bool.html) | Whether to enable or disable receiving calls: if the flag is not set, the previous setting is not changed | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

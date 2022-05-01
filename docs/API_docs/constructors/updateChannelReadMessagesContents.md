@@ -15,7 +15,7 @@ The specified [channel/supergroup](https://core.telegram.org/api/channel) messag
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[long](/API_docs/types/long.html) | Yes|
+|channel\_id|[long](/API_docs/types/long.html) | Yes|[Channel/supergroup](https://core.telegram.org/api/channel) ID|
 |messages|Array of [int](/API_docs/types/int.html) | Yes|IDs of messages that were read|
 
 

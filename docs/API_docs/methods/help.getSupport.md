@@ -1,6 +1,6 @@
 ---
 title: "help.getSupport"
-description: "Returns the support user for the 'ask a question' feature."
+description: "Returns the support user for the "ask a question" feature."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/help_getSupport.html
 
 
 
-Returns the support user for the 'ask a question' feature.
+Returns the support user for the "ask a question" feature.
 
 
 

@@ -43,10 +43,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->phone->setCallRating(['user_initiative' => Bool, 'peer' => InputPhoneCall, 'rating' => int, 'comment' => 'string', ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CALL_PEER_INVALID|The provided call peer object is invalid|
-
-

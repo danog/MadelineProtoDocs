@@ -1,6 +1,6 @@
 ---
 title: "updateNewMessage"
-description: "New message in a private chat or in a legacy group."
+description: "New message in a private chat or in a basic group."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-New message in a private chat or in a [legacy group](https://core.telegram.org/api/channel).
+New message in a private chat or in a [basic group](https://core.telegram.org/api/channel#basic-groups).
 
 ### Attributes:
 

@@ -35,10 +35,3 @@ $MadelineProto->start();
 $Vector_of_ContactStatus = $MadelineProto->contacts->getStatuses();
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
-
-

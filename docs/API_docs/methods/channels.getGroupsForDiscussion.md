@@ -13,7 +13,7 @@ redirect_from: /API_docs/methods/channels_getGroupsForDiscussion.html
 
 Get all groups that can be used as [discussion groups](https://core.telegram.org/api/discussion).
 
-Returned [legacy group chats](https://core.telegram.org/api/channel) must be first upgraded to [supergroups](https://core.telegram.org/api/channel) before they can be set as a discussion group.  
+Returned [basic group chats](https://core.telegram.org/api/channel#basic-groups) must be first upgraded to [supergroups](https://core.telegram.org/api/channel#supergroups) before they can be set as a discussion group.  
 To set a returned supergroup as a discussion group, access to its old messages must be enabled using [channels.togglePreHistoryHidden](../methods/channels.togglePreHistoryHidden.html), first.
 
 
@@ -37,11 +37,4 @@ $MadelineProto->start();
 
 $messages_Chats = $MadelineProto->channels->getGroupsForDiscussion();
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
-
 

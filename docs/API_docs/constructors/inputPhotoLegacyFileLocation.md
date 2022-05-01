@@ -1,6 +1,6 @@
 ---
 title: "inputPhotoLegacyFileLocation"
-description: "Legacy photo file location"
+description: "DEPRECATED legacy photo file location"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Legacy photo file location
+DEPRECATED legacy photo file location
 
 ### Attributes:
 

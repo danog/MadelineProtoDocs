@@ -40,12 +40,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->checkUsername(['username' => 'string', ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|USERNAME_INVALID|The provided username is not valid|
-|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
-
-

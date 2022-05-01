@@ -1,6 +1,6 @@
 ---
 title: "phone.toggleGroupCallSettings"
-description: "phone.toggleGroupCallSettings parameters, return type and example"
+description: "Change group call settings"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/phone_toggleGroupCallSettings.html
 
 
 
+Change group call settings
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|reset\_invite\_hash|[Bool](/API_docs/types/Bool.html) | Optional|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
-|join\_muted|[Bool](/API_docs/types/Bool.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|reset\_invite\_hash|[Bool](/API_docs/types/Bool.html) | Invalidate existing invite links | Optional|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Group call | Yes|
+|join\_muted|[Bool](/API_docs/types/Bool.html) | Whether all users will that join this group call are muted by default upon joining the group call | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -39,11 +41,4 @@ $MadelineProto->start();
 
 $Updates = $MadelineProto->phone->toggleGroupCallSettings(['reset_invite_hash' => Bool, 'call' => InputGroupCall, 'join_muted' => Bool, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|GROUPCALL_NOT_MODIFIED|Group call settings weren't modified|
-
 

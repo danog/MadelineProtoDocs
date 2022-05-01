@@ -40,10 +40,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->uninstallStickerSet(['stickerset' => InputStickerSet, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|STICKERSET_INVALID|The provided sticker set is invalid|
-
-

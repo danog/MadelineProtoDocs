@@ -27,7 +27,7 @@ Indicates a service message
 |reply\_to|[MessageReplyHeader](/API_docs/types/MessageReplyHeader.html) | Optional|Reply (thread) information|
 |date|[int](/API_docs/types/int.html) | Yes|Message date|
 |action|[MessageAction](/API_docs/types/MessageAction.html) | Optional|Event connected with the service message|
-|ttl\_period|[int](/API_docs/types/int.html) | Optional|
+|ttl\_period|[int](/API_docs/types/int.html) | Optional|Time To Live of the message, once message.date+message.ttl\_period === time(), the message will be deleted on the server, and must be deleted locally as well.|
 
 
 

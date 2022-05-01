@@ -42,10 +42,3 @@ $MadelineProto->start();
 $Vector_of_LangPackString = $MadelineProto->langpack->getStrings(['lang_pack' => 'string', 'lang_code' => 'string', 'keys' => ['string', 'string'], ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|LANG_PACK_INVALID|The provided language pack is invalid|
-
-

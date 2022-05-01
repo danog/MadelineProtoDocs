@@ -1,6 +1,6 @@
 ---
 title: "groupCallParticipantVideoSourceGroup"
-description: "groupCallParticipantVideoSourceGroup attributes, type and example"
+description: "Describes a group of video synchronization source identifiers"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Describes a group of video synchronization source identifiers
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|semantics|[string](/API_docs/types/string.html) | Yes|
-|sources|Array of [int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|semantics|[string](/API_docs/types/string.html) | Yes|SDP semantics|
+|sources|Array of [int](/API_docs/types/int.html) | Yes|Source IDs|
 
 
 

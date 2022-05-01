@@ -16,7 +16,7 @@ Incomplete list of occurred events.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|new\_messages|Array of [Message](/API_docs/types/Message.html) | Yes|List of new messgaes|
+|new\_messages|Array of [Message](/API_docs/types/Message.html) | Yes|List of new messages|
 |new\_encrypted\_messages|Array of [EncryptedMessage](/API_docs/types/EncryptedMessage.html) | Yes|New messages from the [encrypted event sequence](https://core.telegram.org/api/updates)|
 |other\_updates|Array of [Update](/API_docs/types/Update.html) | Yes|List of updates|
 |chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|List of chats mentioned in events|

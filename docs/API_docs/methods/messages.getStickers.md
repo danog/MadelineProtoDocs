@@ -18,7 +18,7 @@ Get stickers by emoji
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |emoticon|[string](/API_docs/types/string.html) | The emoji | Yes|
-|hash|[long](/API_docs/types/long.html) |  | Yes|
+|hash|[long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Yes|
 
 
 ### Return type: [messages.Stickers](/API_docs/types/messages.Stickers.html)
@@ -40,11 +40,4 @@ $MadelineProto->start();
 
 $messages_Stickers = $MadelineProto->messages->getStickers(['emoticon' => 'string', 'hash' => long, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|EMOTICON_EMPTY|The emoji is empty|
-
 

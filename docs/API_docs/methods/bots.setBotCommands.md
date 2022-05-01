@@ -17,8 +17,8 @@ Set bot command list
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|scope|[BotCommandScope](/API_docs/types/BotCommandScope.html) |  | Yes|
-|lang\_code|[string](/API_docs/types/string.html) |  | Yes|
+|scope|[BotCommandScope](/API_docs/types/BotCommandScope.html) | Command scope | Yes|
+|lang\_code|[string](/API_docs/types/string.html) | Language code | Yes|
 |commands|Array of [BotCommand](/API_docs/types/BotCommand.html) | Bot commands | Yes|
 
 
@@ -41,13 +41,4 @@ $MadelineProto->start();
 
 $Bool = $MadelineProto->bots->setBotCommands(['scope' => BotCommandScope, 'lang_code' => 'string', 'commands' => [BotCommand, BotCommand], ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|BOT_COMMAND_DESCRIPTION_INVALID|The specified command description is invalid|
-|400|BOT_COMMAND_INVALID|The specified command is invalid|
-|400|LANG_CODE_INVALID|The specified language code is invalid|
-
 

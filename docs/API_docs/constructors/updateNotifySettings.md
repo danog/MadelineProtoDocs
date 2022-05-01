@@ -15,7 +15,7 @@ Changes in notification settings.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[NotifyPeer](/API_docs/types/NotifyPeer.html) | Yes|Nofication source|
+|peer|[NotifyPeer](/API_docs/types/NotifyPeer.html) | Yes|Notification source|
 |notify\_settings|[PeerNotifySettings](/API_docs/types/PeerNotifySettings.html) | Yes|New notification settings|
 
 

@@ -1,6 +1,6 @@
 ---
 title: "phone.checkGroupCall"
-description: "phone.checkGroupCall parameters, return type and example"
+description: "Check whether the group call Server Forwarding Unit is currently receiving the streams with the specified WebRTC source IDs"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/phone_checkGroupCall.html
 
 
 
+Check whether the group call Server Forwarding Unit is currently receiving the streams with the specified WebRTC source IDs
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
-|sources|Array of [int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Group call | Yes|
+|sources|Array of [int](/API_docs/types/int.html) | Source IDs | Yes|
 
 
 ### Return type: [Vector\_of\_int](/API_docs/types/int.html)

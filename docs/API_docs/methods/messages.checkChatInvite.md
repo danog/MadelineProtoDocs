@@ -17,7 +17,7 @@ Check the validity of a chat invite link and get basic info about it
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[string](/API_docs/types/string.html) | Invite hash in `t.me/joinchat/hash` | Yes|
+|hash|[string](/API_docs/types/string.html) | Invite hash in `t.me/joinchat/hash` or `t.me/+hash` | Yes|
 
 
 ### Return type: [ChatInvite](/API_docs/types/ChatInvite.html)
@@ -39,19 +39,4 @@ $MadelineProto->start();
 
 $ChatInvite = $MadelineProto->messages->checkChatInvite(['hash' => 'string', ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
-|400|INVITE_HASH_EMPTY|The invite hash is empty|
-|400|INVITE_HASH_EXPIRED|The invite link has expired|
-|400|INVITE_HASH_INVALID|The invite hash is invalid|
-|-3002|All workers are busy. Active_queries = X|All workers are busy. Active_queries = X|
-|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|406|INVITE_HASH_EXPIRED|The invite link has expired|
-|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
-|-503|Timeout|Timeout while fetching data|
-
 

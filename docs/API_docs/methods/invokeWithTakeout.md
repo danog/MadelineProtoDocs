@@ -40,10 +40,3 @@ $MadelineProto->start();
 $X = $MadelineProto->invokeWithTakeout(['takeout_id' => long, 'query' => !X, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
-
-

@@ -48,11 +48,3 @@ $MadelineProto->start();
 $X = $MadelineProto->initConnection(['api_id' => int, 'device_model' => 'string', 'system_version' => 'string', 'app_version' => 'string', 'system_lang_code' => 'string', 'lang_pack' => 'string', 'lang_code' => 'string', 'proxy' => InputClientProxy, 'params' => JSONValue, 'query' => !X, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CONNECTION_LAYER_INVALID|Layer invalid|
-|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
-
-

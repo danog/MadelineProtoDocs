@@ -1,6 +1,6 @@
 ---
 title: "statsAbsValueAndPrev"
-description: "Statistics value couple; intial and final value for period of time currently in consideration"
+description: "Statistics value couple; initial and final value for period of time currently in consideration"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Statistics value couple; intial and final value for period of time currently in consideration
+Statistics value couple; initial and final value for period of time currently in consideration
 
 ### Attributes:
 

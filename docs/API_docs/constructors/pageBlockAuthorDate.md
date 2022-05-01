@@ -16,7 +16,7 @@ Author and date of creation of article
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |author|[RichText](/API_docs/types/RichText.html) | Yes|Author name|
-|published\_date|[int](/API_docs/types/int.html) | Yes|Date of pubblication|
+|published\_date|[int](/API_docs/types/int.html) | Yes|Date of publication|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "inputGroupCall"
-description: "inputGroupCall attributes, type and example"
+description: "Points to a specific group call"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Points to a specific group call
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[long](/API_docs/types/long.html) | Yes|
-|access\_hash|[long](/API_docs/types/long.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[long](/API_docs/types/long.html) | Yes|Group call ID|
+|access\_hash|[long](/API_docs/types/long.html) | Yes|Group call access hash|
 
 
 

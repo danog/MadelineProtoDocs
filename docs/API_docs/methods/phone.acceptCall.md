@@ -42,13 +42,3 @@ $MadelineProto->start();
 $phone_PhoneCall = $MadelineProto->phone->acceptCall(['peer' => InputPhoneCall, 'g_b' => 'bytes', 'protocol' => PhoneCallProtocol, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CALL_ALREADY_ACCEPTED|The call was already accepted|
-|400|CALL_ALREADY_DECLINED|The call was already declined|
-|400|CALL_PEER_INVALID|The provided call peer object is invalid|
-|400|CALL_PROTOCOL_FLAGS_INVALID|Call protocol flags invalid|
-
-

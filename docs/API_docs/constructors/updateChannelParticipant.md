@@ -15,14 +15,14 @@ A participant has left, joined, was banned or admined in a [channel or supergrou
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[long](/API_docs/types/long.html) | Yes|
+|channel\_id|[long](/API_docs/types/long.html) | Yes|Channel ID|
 |date|[int](/API_docs/types/int.html) | Yes|Date of the event|
-|actor\_id|[long](/API_docs/types/long.html) | Yes|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|actor\_id|[long](/API_docs/types/long.html) | Yes|User that triggered the change (inviter, admin that kicked the user, or the even the **user\_id** itself)|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User that was affected by the change|
 |prev\_participant|[ChannelParticipant](/API_docs/types/ChannelParticipant.html) | Optional|Previous participant status|
 |new\_participant|[ChannelParticipant](/API_docs/types/ChannelParticipant.html) | Optional|New participant status|
-|invite|[ExportedChatInvite](/API_docs/types/ExportedChatInvite.html) | Optional|
-|qts|[int](/API_docs/types/int.html) | Yes|[PTS](https://core.telegram.org/api/updates)|
+|invite|[ExportedChatInvite](/API_docs/types/ExportedChatInvite.html) | Optional|Chat invite used to join the [channel/supergroup](https://core.telegram.org/api/channel)|
+|qts|[int](/API_docs/types/int.html) | Yes|New **qts** value, see [updates »](https://core.telegram.org/api/updates) for more info.|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "inputStickerSetAnimatedEmojiAnimations"
-description: "inputStickerSetAnimatedEmojiAnimations attributes, type and example"
+description: "Animated emoji reaction stickerset (contains animations to play when a user clicks on a given animated emoji)"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -8,6 +8,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+Animated emoji reaction stickerset (contains animations to play when a user clicks on a given animated emoji)
 
 
 

@@ -40,13 +40,3 @@ $MadelineProto->start();
 $auth_Authorization = $MadelineProto->auth->checkPassword(['password' => InputCheckPasswordSRP, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|PASSWORD_HASH_INVALID|The provided password hash is invalid|
-|400|SRP_ID_INVALID|Invalid SRP ID provided|
-|400|SRP_PASSWORD_CHANGED|Password has changed|
-|-503|Timeout|Timeout while fetching data|
-
-

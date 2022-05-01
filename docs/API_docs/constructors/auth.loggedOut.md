@@ -1,6 +1,6 @@
 ---
 title: "auth.loggedOut"
-description: "auth.loggedOut attributes, type and example"
+description: "Logout token » to be used on subsequent authorizations"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/auth_loggedOut.html
@@ -10,11 +10,13 @@ redirect_from: /API_docs/constructors/auth_loggedOut.html
 
 
 
+[Logout token »](https://core.telegram.org/api/auth#logout-tokens) to be used on subsequent authorizations
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|future\_auth\_token|[bytes](/API_docs/types/bytes.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|future\_auth\_token|[bytes](/API_docs/types/bytes.html) | Optional|[Logout token »](https://core.telegram.org/api/auth#logout-tokens) to be used on subsequent authorizations|
 
 
 

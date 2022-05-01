@@ -42,10 +42,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->channels->editLocation(['channel' => InputChannel, 'geo_point' => InputGeoPoint, 'address' => 'string', ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|MEGAGROUP_REQUIRED|You can only use this method on a supergroup|
-
-

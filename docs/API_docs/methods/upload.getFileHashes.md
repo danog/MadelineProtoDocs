@@ -41,10 +41,3 @@ $MadelineProto->start();
 $Vector_of_FileHash = $MadelineProto->upload->getFileHashes(['location' => InputFileLocation, 'offset' => int, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|LOCATION_INVALID|The provided location is invalid|
-
-

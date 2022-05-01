@@ -16,7 +16,7 @@ Info about all installed stickers
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[long](/API_docs/types/long.html) | Yes|
+|hash|[long](/API_docs/types/long.html) | Yes|[Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
 |sets|Array of [StickerSet](/API_docs/types/StickerSet.html) | Yes|All stickersets|
 
 

@@ -18,8 +18,8 @@ Logged-in session
 |current|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is the current session|
 |official\_app|[Bool](/API_docs/types/Bool.html) | Optional|Whether the session is from an official app|
 |password\_pending|[Bool](/API_docs/types/Bool.html) | Optional|Whether the session is still waiting for a 2FA password|
-|encrypted\_requests\_disabled|[Bool](/API_docs/types/Bool.html) | Optional|
-|call\_requests\_disabled|[Bool](/API_docs/types/Bool.html) | Optional|
+|encrypted\_requests\_disabled|[Bool](/API_docs/types/Bool.html) | Optional|Whether this session will accept encrypted chats|
+|call\_requests\_disabled|[Bool](/API_docs/types/Bool.html) | Optional|Whether this session will accept phone calls|
 |hash|[long](/API_docs/types/long.html) | Yes|Identifier|
 |device\_model|[string](/API_docs/types/string.html) | Yes|Device model|
 |platform|[string](/API_docs/types/string.html) | Yes|Platform|

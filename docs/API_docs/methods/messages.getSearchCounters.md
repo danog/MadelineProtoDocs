@@ -41,10 +41,3 @@ $MadelineProto->start();
 $Vector_of_messages_SearchCounter = $MadelineProto->messages->getSearchCounters(['peer' => InputPeer, 'filters' => [MessagesFilter, MessagesFilter], ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|PEER_ID_INVALID|The provided peer id is invalid|
-
-

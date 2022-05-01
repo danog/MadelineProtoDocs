@@ -1,6 +1,6 @@
 ---
 title: "phone.discardGroupCall"
-description: "phone.discardGroupCall parameters, return type and example"
+description: "Terminate a group call"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/phone_discardGroupCall.html
 
 
 
+Terminate a group call
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | The group call to terminate | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

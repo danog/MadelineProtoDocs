@@ -41,11 +41,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->confirmPhone(['phone_code_hash' => 'string', 'phone_code' => 'string', ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CODE_HASH_INVALID|Code hash invalid|
-|400|PHONE_CODE_EMPTY|phone_code is missing|
-
-

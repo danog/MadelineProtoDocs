@@ -15,8 +15,8 @@ Indicates the channel was [migrated](https://core.telegram.org/api/channel) from
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|title|[string](/API_docs/types/string.html) | Yes|The old chat tite|
-|chat\_id|[long](/API_docs/types/long.html) | Yes|
+|title|[string](/API_docs/types/string.html) | Yes|The old chat title|
+|chat\_id|[long](/API_docs/types/long.html) | Yes|The old chat ID|
 
 
 

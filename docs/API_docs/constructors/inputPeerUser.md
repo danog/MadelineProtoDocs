@@ -15,7 +15,7 @@ Defines a user for further interaction.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User identifier|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|**access\_hash** value from the [user](../constructors/user.html) constructor|
 
 

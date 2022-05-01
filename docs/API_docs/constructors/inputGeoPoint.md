@@ -15,8 +15,8 @@ Defines a GeoPoint by its coordinates.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|lat|[double](/API_docs/types/double.html) | Yes|Latitide|
-|long|[double](/API_docs/types/double.html) | Yes|Longtitude|
+|lat|[double](/API_docs/types/double.html) | Yes|Latitude|
+|long|[double](/API_docs/types/double.html) | Yes|Longitude|
 |accuracy\_radius|[int](/API_docs/types/int.html) | Optional|The estimated horizontal accuracy of the location, in meters; as defined by the sender.|
 
 

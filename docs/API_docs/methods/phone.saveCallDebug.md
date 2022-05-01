@@ -41,11 +41,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->phone->saveCallDebug(['peer' => InputPhoneCall, 'debug' => DataJSON, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CALL_PEER_INVALID|The provided call peer object is invalid|
-|400|DATA_JSON_INVALID|The provided JSON data is invalid|
-
-

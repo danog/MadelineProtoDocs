@@ -1,6 +1,6 @@
 ---
 title: "botCommandScopePeerAdmins"
-description: "botCommandScopePeerAdmins attributes, type and example"
+description: "The specified bot commands will be valid for all admins of the specified group or supergroup."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+The specified bot commands will be valid for all admins of the specified [group or supergroup](https://core.telegram.org/api/channel).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[InputPeer](/API_docs/types/InputPeer.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[InputPeer](/API_docs/types/InputPeer.html) | Optional|The chat|
 
 
 

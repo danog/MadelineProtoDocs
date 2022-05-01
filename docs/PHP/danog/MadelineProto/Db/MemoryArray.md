@@ -6,7 +6,7 @@ parent: "MadelineProto API"
 
 ---
 # `danog\MadelineProto\Db\MemoryArray`
-[Back to index](../../../index.html)
+[Back to index](../../../index.md)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
@@ -39,7 +39,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Database\Memory`: Memory backend settings.](../../../danog/MadelineProto/Settings/Database/Memory.html)
+* [`\danog\MadelineProto\Settings\Database\Memory`: Memory backend settings.](../../../danog/MadelineProto/Settings/Database/Memory.md)
 * `\Amp\Promise`
 
 

@@ -15,7 +15,7 @@ Empty constructor, group doesn't exist
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](/API_docs/types/long.html) | Yes|
+|id|[long](/API_docs/types/long.html) | Yes|Group identifier|
 
 
 

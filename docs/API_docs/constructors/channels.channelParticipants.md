@@ -18,7 +18,7 @@ Represents multiple channel participants
 |----------|---------------|----------|-------------|
 |count|[int](/API_docs/types/int.html) | Yes|Total number of participants that correspond to the given query|
 |participants|Array of [ChannelParticipant](/API_docs/types/ChannelParticipant.html) | Yes|Participants|
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Mentioned chats|
 |users|Array of [User](/API_docs/types/User.html) | Yes|Users mentioned in participant info|
 
 

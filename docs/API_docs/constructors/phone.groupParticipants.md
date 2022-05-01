@@ -1,6 +1,6 @@
 ---
 title: "phone.groupParticipants"
-description: "phone.groupParticipants attributes, type and example"
+description: "Info about the participants of a group call or livestream"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/phone_groupParticipants.html
@@ -10,16 +10,18 @@ redirect_from: /API_docs/constructors/phone_groupParticipants.html
 
 
 
+Info about the participants of a group call or livestream
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|count|[int](/API_docs/types/int.html) | Yes|
-|participants|Array of [GroupCallParticipant](/API_docs/types/GroupCallParticipant.html) | Yes|
-|next\_offset|[string](/API_docs/types/string.html) | Yes|
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
-|version|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|count|[int](/API_docs/types/int.html) | Yes|Number of participants|
+|participants|Array of [GroupCallParticipant](/API_docs/types/GroupCallParticipant.html) | Yes|List of participants|
+|next\_offset|[string](/API_docs/types/string.html) | Yes|If not empty, the specified list of participants is partial, and more participants can be fetched specifying this parameter as `offset` in [phone.getGroupParticipants](../methods/phone.getGroupParticipants.html).|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Mentioned chats|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Mentioned users|
+|version|[int](/API_docs/types/int.html) | Yes|Version info|
 
 
 

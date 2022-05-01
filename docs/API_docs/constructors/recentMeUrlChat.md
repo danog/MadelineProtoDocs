@@ -16,7 +16,7 @@ Recent t.me link to a chat
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |url|[string](/API_docs/types/string.html) | Yes|t.me URL|
-|chat\_id|[long](/API_docs/types/long.html) | Yes|
+|chat\_id|[long](/API_docs/types/long.html) | Yes|Chat ID|
 
 
 

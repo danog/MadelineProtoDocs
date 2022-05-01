@@ -40,10 +40,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->folders->editPeerFolders(['folder_peers' => [InputFolderPeer, InputFolderPeer], ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|FOLDER_ID_INVALID|Invalid folder ID|
-
-

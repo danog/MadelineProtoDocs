@@ -29,9 +29,9 @@ Filter only certain admin log events
 |pinned|[Bool](/API_docs/types/Bool.html) | Optional|[Message pin events](../constructors/channelAdminLogEventActionUpdatePinned.html)|
 |edit|[Bool](/API_docs/types/Bool.html) | Optional|[Message edit events](../constructors/channelAdminLogEventActionEditMessage.html)|
 |delete|[Bool](/API_docs/types/Bool.html) | Optional|[Message deletion events](../constructors/channelAdminLogEventActionDeleteMessage.html)|
-|group\_call|[Bool](/API_docs/types/Bool.html) | Optional|
-|invites|[Bool](/API_docs/types/Bool.html) | Optional|
-|send|[Bool](/API_docs/types/Bool.html) | Optional|
+|group\_call|[Bool](/API_docs/types/Bool.html) | Optional|Group call events|
+|invites|[Bool](/API_docs/types/Bool.html) | Optional|Invite events|
+|send|[Bool](/API_docs/types/Bool.html) | Optional|A message was posted in a channel|
 
 
 

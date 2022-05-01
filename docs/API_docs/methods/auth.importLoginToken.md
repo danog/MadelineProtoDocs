@@ -42,13 +42,3 @@ $MadelineProto->start();
 $auth_LoginToken = $MadelineProto->auth->importLoginToken(['token' => 'bytes', ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|AUTH_TOKEN_ALREADY_ACCEPTED|The specified auth token was already accepted|
-|400|AUTH_TOKEN_EXPIRED|The authorization token has expired|
-|400|AUTH_TOKEN_INVALID|The specified auth token is invalid|
-|400|AUTH_TOKEN_INVALIDX|The specified auth token is invalid|
-
-

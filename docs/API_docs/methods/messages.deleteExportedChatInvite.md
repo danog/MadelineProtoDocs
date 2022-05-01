@@ -1,6 +1,6 @@
 ---
 title: "messages.deleteExportedChatInvite"
-description: "messages.deleteExportedChatInvite parameters, return type and example"
+description: "Delete a chat invite"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/messages_deleteExportedChatInvite.html
 
 
 
+Delete a chat invite
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|link|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
+|link|[string](/API_docs/types/string.html) | Invite link | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

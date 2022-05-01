@@ -29,7 +29,7 @@ Gets back found messages
 |limit|[int](/API_docs/types/int.html) | [Number of results to return](https://core.telegram.org/api/offsets) | Yes|
 |max\_id|[int](/API_docs/types/int.html) | [Maximum message ID to return](https://core.telegram.org/api/offsets) | Yes|
 |min\_id|[int](/API_docs/types/int.html) | [Minimum message ID to return](https://core.telegram.org/api/offsets) | Yes|
-|hash|[long](/API_docs/types/long.html) |  | Yes|
+|hash|[long](/API_docs/types/long.html) | [Hash](https://core.telegram.org/api/offsets) | Yes|
 
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)
@@ -51,23 +51,4 @@ $MadelineProto->start();
 
 $messages_Messages = $MadelineProto->messages->search(['peer' => InputPeer, 'q' => 'string', 'from_id' => InputPeer, 'top_msg_id' => int, 'filter' => MessagesFilter, 'min_date' => int, 'max_date' => int, 'offset_id' => int, 'add_offset' => int, 'limit' => int, 'max_id' => int, 'min_id' => int, 'hash' => long, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHANNEL_INVALID|The provided channel is invalid|
-|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
-|400|FROM_PEER_INVALID|The specified from_id is invalid|
-|400|INPUT_FILTER_INVALID|The specified filter is invalid|
-|400|INPUT_USER_DEACTIVATED|The specified user was deleted|
-|400|MSG_ID_INVALID|Invalid message ID provided|
-|400|PEER_ID_INVALID|The provided peer id is invalid|
-|400|PEER_ID_NOT_SUPPORTED|The provided peer ID is not supported|
-|400|SEARCH_QUERY_EMPTY|The search query is empty|
-|400|USER_ID_INVALID|The provided user ID is invalid|
-|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|-503|Timeout|Timeout while fetching data|
-
 

@@ -23,7 +23,7 @@ Returns the current user dialog list.
 |offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
 |offset\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | [Offset peer for pagination](https://core.telegram.org/api/offsets) | Optional|
 |limit|[int](/API_docs/types/int.html) | Number of list elements to be returned | Yes|
-|hash|[long](/API_docs/types/long.html) |  | Yes|
+|hash|[long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Yes|
 
 
 ### Return type: [messages.Dialogs](/API_docs/types/messages.Dialogs.html)
@@ -45,18 +45,4 @@ $MadelineProto->start();
 
 $messages_Dialogs = $MadelineProto->messages->getDialogs(['exclude_pinned' => Bool, 'folder_id' => int, 'offset_date' => int, 'offset_id' => int, 'offset_peer' => InputPeer, 'limit' => int, 'hash' => long, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|FOLDER_ID_INVALID|Invalid folder ID|
-|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
-|400|OFFSET_PEER_ID_INVALID|The provided offset peer is invalid|
-|-3002|All workers are busy. Active_queries = X|All workers are busy. Active_queries = X|
-|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
-|-504|memory limit exit|Internal error|
-|-503|Timeout|Timeout while fetching data|
-
 

@@ -1,6 +1,6 @@
 ---
 title: "auth.checkRecoveryPassword"
-description: "auth.checkRecoveryPassword parameters, return type and example"
+description: "Check if the [2FA recovery code](https://core.telegram.org/api/srp) sent using [auth.requestPasswordRecovery](../methods/auth.requestPasswordRecovery.html) is valid, before passing it to [auth.recoverPassword](../methods/auth.recoverPassword.html)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/auth_checkRecoveryPassword.html
 
 
 
+Check if the [2FA recovery code](https://core.telegram.org/api/srp) sent using [auth.requestPasswordRecovery](../methods/auth.requestPasswordRecovery.html) is valid, before passing it to [auth.recoverPassword](../methods/auth.recoverPassword.html).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|code|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|code|[string](/API_docs/types/string.html) | Code received via email | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
@@ -37,11 +39,4 @@ $MadelineProto->start();
 
 $Bool = $MadelineProto->auth->checkRecoveryPassword(['code' => 'string', ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|PASSWORD_RECOVERY_EXPIRED|The recovery code has expired|
-
 

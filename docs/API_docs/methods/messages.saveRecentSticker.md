@@ -42,10 +42,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->messages->saveRecentSticker(['attached' => Bool, 'id' => InputDocument, 'unsave' => Bool, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|STICKER_ID_INVALID|The provided sticker ID is invalid|
-
-

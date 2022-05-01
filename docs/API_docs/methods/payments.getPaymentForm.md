@@ -17,9 +17,9 @@ Get a payment form
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer where the payment form was sent | Optional|
 |msg\_id|[int](/API_docs/types/int.html) | Message ID of payment form | Yes|
-|theme\_params|[DataJSON](/API_docs/types/DataJSON.html) |  | Optional|
+|theme\_params|[DataJSON](/API_docs/types/DataJSON.html) | A JSON object with the following keys, containing color theme information (integers, RGB24) to pass to the payment provider, to apply in eventual verification pages: <br>`bg_color` \- Background color <br>`text_color` \- Text color <br>`hint_color` \- Hint text color <br>`link_color` \- Link color <br>`button_color` \- Button color <br>`button_text_color` \- Button text color | Optional|
 
 
 ### Return type: [payments.PaymentForm](/API_docs/types/payments.PaymentForm.html)
@@ -41,11 +41,4 @@ $MadelineProto->start();
 
 $payments_PaymentForm = $MadelineProto->payments->getPaymentForm(['peer' => InputPeer, 'msg_id' => int, 'theme_params' => DataJSON, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|MESSAGE_ID_INVALID|The provided message id is invalid|
-
 

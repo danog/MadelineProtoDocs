@@ -15,9 +15,10 @@ Info about bots (available bot commands, etc)
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|ID of the bot|
 |description|[string](/API_docs/types/string.html) | Yes|Description of the bot|
 |commands|Array of [BotCommand](/API_docs/types/BotCommand.html) | Yes|Bot commands that can be used in the chat|
+|menu\_button|[BotMenuButton](/API_docs/types/BotMenuButton.html) | Yes|
 
 
 
@@ -27,5 +28,5 @@ Info about bots (available bot commands, etc)
 ### Example:
 
 ```php
-$botInfo = ['_' => 'botInfo', 'user_id' => long, 'description' => 'string', 'commands' => [BotCommand, BotCommand]];
+$botInfo = ['_' => 'botInfo', 'user_id' => long, 'description' => 'string', 'commands' => [BotCommand, BotCommand], 'menu_button' => BotMenuButton];
 ```  

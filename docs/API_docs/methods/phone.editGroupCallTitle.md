@@ -1,6 +1,6 @@
 ---
 title: "phone.editGroupCallTitle"
-description: "phone.editGroupCallTitle parameters, return type and example"
+description: "Edit the title of a group call or livestream"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/phone_editGroupCallTitle.html
 
 
 
+Edit the title of a group call or livestream
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
-|title|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Group call | Yes|
+|title|[string](/API_docs/types/string.html) | New title | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

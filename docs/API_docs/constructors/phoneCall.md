@@ -20,8 +20,8 @@ Phone call
 |id|[long](/API_docs/types/long.html) | Yes|Call ID|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash|
 |date|[int](/API_docs/types/int.html) | Yes|Date of creation of the call|
-|admin\_id|[long](/API_docs/types/long.html) | Yes|
-|participant\_id|[long](/API_docs/types/long.html) | Yes|
+|admin\_id|[long](/API_docs/types/long.html) | Yes|User ID of the creator of the call|
+|participant\_id|[long](/API_docs/types/long.html) | Yes|User ID of the other participant in the call|
 |g\_a\_or\_b|[bytes](/API_docs/types/bytes.html) | Yes|[Parameter for key exchange](https://core.telegram.org/api/end-to-end/voice-calls)|
 |key\_fingerprint|[long](/API_docs/types/long.html) | Yes|[Key fingerprint](https://core.telegram.org/api/end-to-end/voice-calls)|
 |protocol|[PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html) | Yes|Call protocol info to be passed to libtgvoip|

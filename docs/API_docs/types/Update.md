@@ -203,6 +203,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateMessageReactions](/API_docs/constructors/updateMessageReactions.html)  
 
+[updateAttachMenuBots](/API_docs/constructors/updateAttachMenuBots.html)  
+
+[updateWebViewResultSent](/API_docs/constructors/updateWebViewResultSent.html)  
+
+[updateBotMenuButton](/API_docs/constructors/updateBotMenuButton.html)  
+
+[updateSavedRingtones](/API_docs/constructors/updateSavedRingtones.html)  
+
 
 
 ### Methods that return an object of this type (methods):
@@ -400,4 +408,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [updateBotChatInviteRequester](/API_docs/constructors/updateBotChatInviteRequester.html)  
 
 [updateMessageReactions](/API_docs/constructors/updateMessageReactions.html)  
+
+[updateAttachMenuBots](/API_docs/constructors/updateAttachMenuBots.html)  
+
+[updateWebViewResultSent](/API_docs/constructors/updateWebViewResultSent.html)  
+
+[updateBotMenuButton](/API_docs/constructors/updateBotMenuButton.html)  
+
+[updateSavedRingtones](/API_docs/constructors/updateSavedRingtones.html)  
 

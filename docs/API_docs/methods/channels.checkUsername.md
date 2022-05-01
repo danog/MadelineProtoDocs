@@ -41,13 +41,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->channels->checkUsername(['channel' => InputChannel, 'username' => 'string', ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHANNEL_INVALID|The provided channel is invalid|
-|400|CHANNELS_ADMIN_PUBLIC_TOO_MUCH|You're admin of too many public channels, make some channels private to change the username of this channel|
-|400|CHAT_ID_INVALID|The provided chat id is invalid|
-|400|USERNAME_INVALID|The provided username is not valid|
-
-

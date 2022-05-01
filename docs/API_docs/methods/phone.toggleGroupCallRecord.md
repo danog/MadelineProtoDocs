@@ -1,6 +1,6 @@
 ---
 title: "phone.toggleGroupCallRecord"
-description: "phone.toggleGroupCallRecord parameters, return type and example"
+description: "Start or stop recording a group call: the recorded audio and video streams will be automatically sent to `Saved messages` (the chat with ourselves)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,15 +11,17 @@ redirect_from: /API_docs/methods/phone_toggleGroupCallRecord.html
 
 
 
+Start or stop recording a group call: the recorded audio and video streams will be automatically sent to `Saved messages` (the chat with ourselves).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|start|[Bool](/API_docs/types/Bool.html) | Optional|
-|video|[Bool](/API_docs/types/Bool.html) | Optional|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
-|title|[string](/API_docs/types/string.html) | Optional|
-|video\_portrait|[Bool](/API_docs/types/Bool.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|start|[Bool](/API_docs/types/Bool.html) | Whether to start or stop recording | Optional|
+|video|[Bool](/API_docs/types/Bool.html) | Whether to also record video streams | Optional|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | The group call or livestream | Yes|
+|title|[string](/API_docs/types/string.html) | Recording title | Optional|
+|video\_portrait|[Bool](/API_docs/types/Bool.html) | If video stream recording is enabled, whether to record in portrait or landscape mode | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

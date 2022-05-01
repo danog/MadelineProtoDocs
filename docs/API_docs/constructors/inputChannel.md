@@ -15,7 +15,7 @@ Represents a channel
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[long](/API_docs/types/long.html) | Yes|
+|channel\_id|[long](/API_docs/types/long.html) | Yes|Channel ID|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash taken from the [channel](../constructors/channel.html) constructor|
 
 

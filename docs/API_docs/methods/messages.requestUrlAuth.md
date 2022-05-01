@@ -20,7 +20,7 @@ Get more info about a Seamless Telegram Login authorization request, for more in
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where the message is located | Optional|
 |msg\_id|[int](/API_docs/types/int.html) | The message | Optional|
 |button\_id|[int](/API_docs/types/int.html) | The ID of the button with the authorization request | Optional|
-|url|[string](/API_docs/types/string.html) |  | Optional|
+|url|[string](/API_docs/types/string.html) | URL used for [link URL authorization, click here for more info »](https://core.telegram.org/api/url-authorization#link-url-authorization) | Optional|
 
 
 ### Return type: [UrlAuthResult](/API_docs/types/UrlAuthResult.html)

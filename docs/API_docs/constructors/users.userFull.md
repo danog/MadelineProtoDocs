@@ -1,6 +1,6 @@
 ---
 title: "users.userFull"
-description: "users.userFull attributes, type and example"
+description: "Full user information"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/users_userFull.html
@@ -10,13 +10,15 @@ redirect_from: /API_docs/constructors/users_userFull.html
 
 
 
+Full user information
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|full\_user|[UserFull](/API_docs/types/UserFull.html) | Yes|
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|full\_user|[UserFull](/API_docs/types/UserFull.html) | Yes|Full user information|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Mentioned chats|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Mentioned users|
 
 
 

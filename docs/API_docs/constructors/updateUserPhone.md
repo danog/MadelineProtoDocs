@@ -15,7 +15,7 @@ A user's phone number was changed
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User ID|
 |phone|[string](/API_docs/types/string.html) | Yes|New phone number|
 
 

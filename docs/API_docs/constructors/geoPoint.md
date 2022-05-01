@@ -15,7 +15,7 @@ GeoPoint.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|long|[double](/API_docs/types/double.html) | Yes|Longtitude|
+|long|[double](/API_docs/types/double.html) | Yes|Longitude|
 |lat|[double](/API_docs/types/double.html) | Yes|Latitude|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash|
 |accuracy\_radius|[int](/API_docs/types/int.html) | Optional|The estimated horizontal accuracy of the location, in meters; as defined by the sender.|

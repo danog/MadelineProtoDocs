@@ -41,11 +41,3 @@ $MadelineProto->start();
 $Vector_of_FileHash = $MadelineProto->upload->getCdnFileHashes(['file_token' => 'bytes', 'offset' => int, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CDN_METHOD_INVALID|You can't call this method in a CDN DC|
-|400|RSA_DECRYPT_FAILED|Internal RSA decryption failed|
-
-

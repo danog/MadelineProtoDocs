@@ -16,7 +16,7 @@ This notification is received by bots when a button is pressed
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |query\_id|[long](/API_docs/types/long.html) | Yes|Query ID|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|ID of the user that pressed the button|
 |msg\_id|[InputBotInlineMessageID](/API_docs/types/InputBotInlineMessageID.html) | Yes|ID of the inline message with the button|
 |chat\_instance|[long](/API_docs/types/long.html) | Yes|Global identifier, uniquely corresponding to the chat to which the message with the callback button was sent. Useful for high scores in games.|
 |data|[bytes](/API_docs/types/bytes.html) | Optional|Data associated with the callback button. Be aware that a bad client can send arbitrary data in this field.|

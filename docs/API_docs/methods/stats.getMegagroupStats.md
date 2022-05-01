@@ -41,12 +41,3 @@ $MadelineProto->start();
 $stats_MegagroupStats = $MadelineProto->stats->getMegagroupStats(['dark' => Bool, 'channel' => InputChannel, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHANNEL_INVALID|The provided channel is invalid|
-|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
-|400|MEGAGROUP_REQUIRED|You can only use this method on a supergroup|
-
-

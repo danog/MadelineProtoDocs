@@ -22,7 +22,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |blocks|Array of [PageBlock](/API_docs/types/PageBlock.html) | Yes|Page elements (like with HTML elements, only as TL constructors)|
 |photos|Array of [Photo](/API_docs/types/Photo.html) | Yes|Photos in page|
 |documents|Array of [Document](/API_docs/types/Document.html) | Yes|Media in page|
-|views|[int](/API_docs/types/int.html) | Optional|Viewcount|
+|views|[int](/API_docs/types/int.html) | Optional|View count|
 
 
 

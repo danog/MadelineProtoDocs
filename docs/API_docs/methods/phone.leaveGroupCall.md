@@ -1,6 +1,6 @@
 ---
 title: "phone.leaveGroupCall"
-description: "phone.leaveGroupCall parameters, return type and example"
+description: "Leave a group call"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/phone_leaveGroupCall.html
 
 
 
+Leave a group call
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
-|source|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | The group call | Yes|
+|source|[int](/API_docs/types/int.html) | Your source ID | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

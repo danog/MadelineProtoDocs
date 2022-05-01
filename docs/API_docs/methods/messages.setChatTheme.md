@@ -1,6 +1,6 @@
 ---
 title: "messages.setChatTheme"
-description: "messages.setChatTheme parameters, return type and example"
+description: "Change the chat theme of a certain chat"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/messages_setChatTheme.html
 
 
 
+Change the chat theme of a certain chat
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|emoticon|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Private chat where to change theme | Optional|
+|emoticon|[string](/API_docs/types/string.html) | Emoji, identifying a specific chat theme; a list of chat themes can be fetched using [account.getChatThemes](../methods/account.getChatThemes.html) | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -38,12 +40,4 @@ $MadelineProto->start();
 
 $Updates = $MadelineProto->messages->setChatTheme(['peer' => InputPeer, 'emoticon' => 'string', ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|EMOJI_INVALID|The specified theme emoji is valid|
-|400|EMOJI_NOT_MODIFIED|The theme wasn't changed|
-
 

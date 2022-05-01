@@ -1,6 +1,6 @@
 ---
 title: "sendMessageChooseStickerAction"
-description: "sendMessageChooseStickerAction attributes, type and example"
+description: "User is choosing a sticker"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -8,6 +8,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+User is choosing a sticker
 
 
 

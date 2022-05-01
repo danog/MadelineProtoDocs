@@ -18,7 +18,7 @@ Notification settings.
 |show\_previews|[Bool](/API_docs/types/Bool.html) | Optional|If the text of the message shall be displayed in notification|
 |silent|[Bool](/API_docs/types/Bool.html) | Optional|Peer was muted?|
 |mute\_until|[int](/API_docs/types/int.html) | Optional|Date until which all notifications shall be switched off|
-|sound|[string](/API_docs/types/string.html) | Optional|Name of an audio file for notification|
+|sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|
 
 
 
@@ -28,5 +28,5 @@ Notification settings.
 ### Example:
 
 ```php
-$inputPeerNotifySettings = ['_' => 'inputPeerNotifySettings', 'show_previews' => Bool, 'silent' => Bool, 'mute_until' => int, 'sound' => 'string'];
+$inputPeerNotifySettings = ['_' => 'inputPeerNotifySettings', 'show_previews' => Bool, 'silent' => Bool, 'mute_until' => int, 'sound' => NotificationSound];
 ```  

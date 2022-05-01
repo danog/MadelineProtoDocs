@@ -1,6 +1,6 @@
 ---
 title: "inputWallPaperNoFile"
-description: "Wallpaper with no file"
+description: "Wallpaper with no file access hash, used for example when deleting (unsave=true) wallpapers using account.saveWallPaper, specifying just the wallpaper ID."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Wallpaper with no file
+Wallpaper with no file access hash, used for example when deleting (`unsave=true`) wallpapers using [account.saveWallPaper](../methods/account.saveWallPaper.html), specifying just the wallpaper ID.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](/API_docs/types/long.html) | Yes|
+|id|[long](/API_docs/types/long.html) | Yes|Wallpaper ID|
 
 
 

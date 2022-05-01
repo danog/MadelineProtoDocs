@@ -17,7 +17,7 @@ You cannot use this method directly, use $MadelineProto->importAuthorization($au
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[long](/API_docs/types/long.html) |  | Yes|
+|id|[long](/API_docs/types/long.html) | User ID | Yes|
 |bytes|[bytes](/API_docs/types/bytes.html) | Authorization key | Yes|
 
 
@@ -40,13 +40,4 @@ $MadelineProto->start();
 
 $auth_Authorization = $MadelineProto->auth->importAuthorization(['id' => long, 'bytes' => 'bytes', ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|AUTH_BYTES_INVALID|The provided authorization is invalid|
-|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
-|400|USER_ID_INVALID|The provided user ID is invalid|
-
 

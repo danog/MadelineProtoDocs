@@ -1,6 +1,6 @@
 ---
 title: "channelAdminLogEventActionChangeAvailableReactions"
-description: "channelAdminLogEventActionChangeAvailableReactions attributes, type and example"
+description: "The set of allowed message reactions » for this channel has changed"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+The set of allowed [message reactions »](https://core.telegram.org/api/reactions) for this channel has changed
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|prev\_value|Array of [string](/API_docs/types/string.html) | Yes|
-|new\_value|Array of [string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|prev\_value|Array of [string](/API_docs/types/string.html) | Yes|Previously allowed reaction emojis|
+|new\_value|Array of [string](/API_docs/types/string.html) | Yes|New allowed reaction emojis|
 
 
 

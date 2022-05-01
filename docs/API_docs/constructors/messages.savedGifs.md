@@ -16,7 +16,7 @@ Saved gifs
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[long](/API_docs/types/long.html) | Yes|
+|hash|[long](/API_docs/types/long.html) | Yes|[Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
 |gifs|Array of [Document](/API_docs/types/Document.html) | Yes|List of saved gifs|
 
 

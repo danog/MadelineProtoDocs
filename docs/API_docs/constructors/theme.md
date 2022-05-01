@@ -17,14 +17,14 @@ Theme
 |----------|---------------|----------|-------------|
 |creator|[Bool](/API_docs/types/Bool.html) | Optional|Whether the current user is the creator of this theme|
 |default|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is the default theme|
-|for\_chat|[Bool](/API_docs/types/Bool.html) | Optional|
+|for\_chat|[Bool](/API_docs/types/Bool.html) | Optional|Whether this theme is meant to be used as a [chat theme](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts)|
 |id|[long](/API_docs/types/long.html) | Yes|Theme ID|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|Theme access hash|
 |slug|[string](/API_docs/types/string.html) | Yes|Unique theme ID|
 |title|[string](/API_docs/types/string.html) | Yes|Theme name|
 |document|[Document](/API_docs/types/Document.html) | Optional|Theme|
-|settings|Array of [ThemeSettings](/API_docs/types/ThemeSettings.html) | Optional|
-|emoticon|[string](/API_docs/types/string.html) | Optional|
+|settings|Array of [ThemeSettings](/API_docs/types/ThemeSettings.html) | Optional|Theme settings|
+|emoticon|[string](/API_docs/types/string.html) | Optional|Theme emoji|
 |installs\_count|[int](/API_docs/types/int.html) | Optional|Installation count|
 
 

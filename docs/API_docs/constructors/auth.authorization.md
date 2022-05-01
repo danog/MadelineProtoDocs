@@ -16,8 +16,8 @@ Contains user authorization info.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|setup\_password\_required|[Bool](/API_docs/types/Bool.html) | Optional|
-|otherwise\_relogin\_days|[int](/API_docs/types/int.html) | Optional|
+|setup\_password\_required|[Bool](/API_docs/types/Bool.html) | Optional|Suggests the user to set up a 2-step verification password to be able to log in again|
+|otherwise\_relogin\_days|[int](/API_docs/types/int.html) | Optional|Iff setup\_password\_required is set and the user declines to set a 2-step verification password, they will be able to log into their account via SMS again only after this many days pass.|
 |tmp\_sessions|[int](/API_docs/types/int.html) | Optional|Temporary [passport](https://core.telegram.org/passport) sessions|
 |user|[User](/API_docs/types/User.html) | Optional|Info on authorized user|
 

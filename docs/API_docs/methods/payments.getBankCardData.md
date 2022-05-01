@@ -40,10 +40,3 @@ $MadelineProto->start();
 $payments_BankCardData = $MadelineProto->payments->getBankCardData(['number' => 'string', ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|BANK_CARD_NUMBER_INVALID|The specified card number is invalid|
-
-

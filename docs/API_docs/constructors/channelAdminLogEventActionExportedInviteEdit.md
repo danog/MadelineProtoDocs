@@ -1,6 +1,6 @@
 ---
 title: "channelAdminLogEventActionExportedInviteEdit"
-description: "channelAdminLogEventActionExportedInviteEdit attributes, type and example"
+description: "A chat invite was edited"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A chat invite was edited
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|prev\_invite|[ExportedChatInvite](/API_docs/types/ExportedChatInvite.html) | Yes|
-|new\_invite|[ExportedChatInvite](/API_docs/types/ExportedChatInvite.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|prev\_invite|[ExportedChatInvite](/API_docs/types/ExportedChatInvite.html) | Yes|Previous chat invite information|
+|new\_invite|[ExportedChatInvite](/API_docs/types/ExportedChatInvite.html) | Yes|New chat invite information|
 
 
 

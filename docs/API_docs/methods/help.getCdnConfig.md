@@ -35,17 +35,3 @@ $MadelineProto->start();
 $CdnConfig = $MadelineProto->help->getCdnConfig();
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CONNECTION_LANG_PACK_INVALID|Language pack invalid|
-|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
-|-3002|All workers are busy. Active_queries = X|All workers are busy. Active_queries = X|
-|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|401|AUTH_KEY_PERM_EMPTY|The temporary auth key must be binded to the permanent auth key to use these methods.|
-|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
-|-500|No workers running|Internal error|
-|-503|Timeout|Timeout while fetching data|
-
-

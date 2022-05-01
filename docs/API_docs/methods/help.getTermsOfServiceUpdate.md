@@ -35,12 +35,3 @@ $MadelineProto->start();
 $help_TermsOfServiceUpdate = $MadelineProto->help->getTermsOfServiceUpdate();
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|-3002|All workers are busy. Active_queries = X|All workers are busy. Active_queries = X|
-|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
-
-

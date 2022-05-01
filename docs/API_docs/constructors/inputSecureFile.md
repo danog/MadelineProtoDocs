@@ -1,6 +1,6 @@
 ---
 title: "inputSecureFile"
-description: "Preuploaded passport file, for more info see the passport docs »"
+description: "Pre-uploaded passport file, for more info see the passport docs »"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Preuploaded [passport](https://core.telegram.org/passport) file, for more info [see the passport docs »](https://core.telegram.org/passport/encryption#inputsecurefile)
+Pre-uploaded [passport](https://core.telegram.org/passport) file, for more info [see the passport docs »](https://core.telegram.org/passport/encryption#inputsecurefile)
 
 ### Attributes:
 

@@ -1,6 +1,6 @@
 ---
 title: "messages.saveDefaultSendAs"
-description: "messages.saveDefaultSendAs parameters, return type and example"
+description: "Change the default peer that should be used when sending messages to a specific group"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,17 +11,19 @@ redirect_from: /API_docs/methods/messages_saveDefaultSendAs.html
 
 
 
+Change the default peer that should be used when sending messages to a specific group
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Group | Optional|
+|send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The default peer that should be used when sending messages to the group | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

@@ -18,7 +18,7 @@ Ban/unban/kick a user in a [supergroup/channel](https://core.telegram.org/api/ch
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The [supergroup/channel](https://core.telegram.org/api/channel). | Optional|
-|participant|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
+|participant|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Participant to ban | Optional|
 |banned\_rights|[ChatBannedRights](/API_docs/types/ChatBannedRights.html) | The banned rights | Yes|
 
 
@@ -41,22 +41,4 @@ $MadelineProto->start();
 
 $Updates = $MadelineProto->channels->editBanned(['channel' => InputChannel, 'participant' => InputPeer, 'banned_rights' => ChatBannedRights, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHANNEL_ADD_INVALID|Internal error|
-|400|CHANNEL_INVALID|The provided channel is invalid|
-|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|400|CHAT_ADMIN_REQUIRED|You must be an admin in this chat to do this|
-|400|INPUT_USER_DEACTIVATED|The specified user was deleted|
-|400|MSG_ID_INVALID|Invalid message ID provided|
-|400|PARTICIPANT_ID_INVALID|The specified participant ID is invalid|
-|400|PEER_ID_INVALID|The provided peer id is invalid|
-|400|PINNED_DIALOGS_TOO_MUCH|Too many pinned dialogs|
-|400|USER_ADMIN_INVALID|You're not an admin|
-|400|USER_ID_INVALID|The provided user ID is invalid|
-|403|CHAT_WRITE_FORBIDDEN|You can't write in this chat|
-
 

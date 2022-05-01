@@ -17,7 +17,7 @@ You cannot use this method directly, use $MadelineProto->exportAuthorization() i
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|dc\_id|[int](/API_docs/types/int.html) | Number of a target data-centre | Yes|
+|dc\_id|[int](/API_docs/types/int.html) | Number of a target data-center | Yes|
 
 
 ### Return type: [auth.ExportedAuthorization](/API_docs/types/auth.ExportedAuthorization.html)
@@ -39,14 +39,4 @@ $MadelineProto->start();
 
 $auth_ExportedAuthorization = $MadelineProto->auth->exportAuthorization(['dc_id' => int, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|DC_ID_INVALID|The provided DC ID is invalid|
-|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-|401|SESSION_PASSWORD_NEEDED|2FA is enabled, use a password to login|
-|-503|Timeout|Timeout while fetching data|
-
 

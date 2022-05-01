@@ -19,9 +19,9 @@ Chat invite info
 |broadcast|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a [channel](https://core.telegram.org/api/channel)|
 |public|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a public [channel/supergroup](https://core.telegram.org/api/channel)|
 |megagroup|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a [supergroup](https://core.telegram.org/api/channel)|
-|request\_needed|[Bool](/API_docs/types/Bool.html) | Optional|
+|request\_needed|[Bool](/API_docs/types/Bool.html) | Optional|Whether the [join request »](https://core.telegram.org/api/invites#join-requests) must be first approved by an administrator|
 |title|[string](/API_docs/types/string.html) | Yes|Chat/supergroup/channel title|
-|about|[string](/API_docs/types/string.html) | Optional|
+|about|[string](/API_docs/types/string.html) | Optional|Description of the group of channel|
 |photo|[Photo](/API_docs/types/Photo.html) | Optional|Chat/supergroup/channel photo|
 |participants\_count|[int](/API_docs/types/int.html) | Yes|Participant count|
 |participants|Array of [User](/API_docs/types/User.html) | Optional|A few of the participants that are in the group|

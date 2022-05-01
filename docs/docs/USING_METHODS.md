@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 There are simplifications for many, if not all of, these methods.
 
-A list of all of the methods that can be called with MadelineProto can be found here: [here (layer 136)](https://docs.madelineproto.xyz/API_docs/).
+A list of all of the methods that can be called with MadelineProto can be found here: [here (layer 140)](https://docs.madelineproto.xyz/API_docs/).
 
  [Now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html)
 

@@ -40,10 +40,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->setAccountTTL(['ttl' => AccountDaysTTL, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|TTL_DAYS_INVALID|The provided TTL is invalid|
-
-

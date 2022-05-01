@@ -16,7 +16,7 @@ Image description.
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |type|[string](/API_docs/types/string.html) | Yes|Thumbnail type|
-|location|[FileLocation](/API_docs/types/FileLocation.html) | Yes|File location|
+|location|[FileLocation](/API_docs/types/FileLocation.html) | Yes|
 |w|[int](/API_docs/types/int.html) | Yes|Image width|
 |h|[int](/API_docs/types/int.html) | Yes|Image height|
 |size|[int](/API_docs/types/int.html) | Yes|File size|

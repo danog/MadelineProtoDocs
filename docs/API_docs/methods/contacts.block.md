@@ -40,13 +40,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->contacts->block(['id' => InputPeer, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CONTACT_ID_INVALID|The provided contact ID is invalid|
-|400|INPUT_USER_DEACTIVATED|The specified user was deleted|
-|400|MSG_ID_INVALID|Invalid message ID provided|
-|400|PEER_ID_INVALID|The provided peer id is invalid|
-
-

@@ -1,6 +1,6 @@
 ---
 title: "phone.joinGroupCallPresentation"
-description: "phone.joinGroupCallPresentation parameters, return type and example"
+description: "Start screen sharing in a call"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/phone_joinGroupCallPresentation.html
 
 
 
+Start screen sharing in a call
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
-|params|[DataJSON](/API_docs/types/DataJSON.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | The group call | Yes|
+|params|[DataJSON](/API_docs/types/DataJSON.html) | WebRTC parameters | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -38,11 +40,4 @@ $MadelineProto->start();
 
 $Updates = $MadelineProto->phone->joinGroupCallPresentation(['call' => InputGroupCall, 'params' => DataJSON, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|403|PARTICIPANT_JOIN_MISSING|Trying to enable a presentation, when the user hasn't joined the Video Chat with [phone.joinGroupCall](/method/phone.joinGroupCall)|
-
 

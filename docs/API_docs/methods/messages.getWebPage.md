@@ -41,10 +41,3 @@ $MadelineProto->start();
 $WebPage = $MadelineProto->messages->getWebPage(['url' => 'string', 'hash' => [int, int], ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|WC_CONVERT_URL_INVALID|WC convert URL invalid|
-
-

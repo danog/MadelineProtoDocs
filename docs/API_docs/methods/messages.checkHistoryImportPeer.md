@@ -1,6 +1,6 @@
 ---
 title: "messages.checkHistoryImportPeer"
-description: "messages.checkHistoryImportPeer parameters, return type and example"
+description: "Check whether chat history exported from another chat app can be [imported into a specific Telegram chat, click here for more info »](https://core.telegram.org/api/import)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,15 @@ redirect_from: /API_docs/methods/messages_checkHistoryImportPeer.html
 
 
 
+Check whether chat history exported from another chat app can be [imported into a specific Telegram chat, click here for more info »](https://core.telegram.org/api/import).
+
+If the check succeeds, and no RPC errors are returned, a [messages.CheckedHistoryImportPeer](../types/messages.CheckedHistoryImportPeer.html) constructor will be returned, with a confirmation text to be shown to the user, before actually initializing the import.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The chat where we want to [import history »](https://core.telegram.org/api/import). | Optional|
 
 
 ### Return type: [messages.CheckedHistoryImportPeer](/API_docs/types/messages.CheckedHistoryImportPeer.html)
@@ -37,11 +41,4 @@ $MadelineProto->start();
 
 $messages_CheckedHistoryImportPeer = $MadelineProto->messages->checkHistoryImportPeer(['peer' => InputPeer, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|USER_NOT_MUTUAL_CONTACT|The provided user is not a mutual contact|
-
 

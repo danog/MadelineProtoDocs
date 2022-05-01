@@ -1,6 +1,6 @@
 ---
 title: "dcOption"
-description: "Data centre"
+description: "Data center"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Data centre
+Data center
 
 ### Attributes:
 

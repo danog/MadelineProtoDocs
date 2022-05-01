@@ -17,7 +17,7 @@ Forwarded document
 |----------|---------------|----------|-------------|
 |id|[MessageMedia, Message, Update or InputDocument](/API_docs/types/InputDocument.html) | Optional|The document to be forwarded.|
 |ttl\_seconds|[int](/API_docs/types/int.html) | Optional|Time to live of self-destructing document|
-|query|[string](/API_docs/types/string.html) | Optional|
+|query|[string](/API_docs/types/string.html) | Optional|Text query or emoji that was used by the user to find this sticker or GIF: used to improve search result relevance.|
 
 
 

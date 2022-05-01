@@ -18,7 +18,7 @@ Reset the [2FA password](https://core.telegram.org/api/srp) using the recovery c
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |code|[string](/API_docs/types/string.html) | Code received via email | Yes|
-|new\_settings|[account.PasswordInputSettings](/API_docs/types/account.PasswordInputSettings.html) |  | Optional|
+|new\_settings|[account.PasswordInputSettings](/API_docs/types/account.PasswordInputSettings.html) | New password | Optional|
 
 
 ### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.html)
@@ -40,12 +40,4 @@ $MadelineProto->start();
 
 $auth_Authorization = $MadelineProto->auth->recoverPassword(['code' => 'string', 'new_settings' => account.PasswordInputSettings, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CODE_EMPTY|The provided code is empty|
-|400|NEW_SETTINGS_INVALID|The new settings are invalid|
-
 

@@ -17,7 +17,7 @@ Message entity representing a [user mention](https://core.telegram.org/api/menti
 |----------|---------------|----------|-------------|
 |offset|[int](/API_docs/types/int.html) | Yes|Offset of message entity within message (in UTF-8 codepoints)|
 |length|[int](/API_docs/types/int.html) | Yes|Length of message entity within message (in UTF-8 codepoints)|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|Identifier of the user that was mentioned|
 
 
 

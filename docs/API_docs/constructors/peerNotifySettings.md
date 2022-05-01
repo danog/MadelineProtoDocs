@@ -18,7 +18,9 @@ Notification settings.
 |show\_previews|[Bool](/API_docs/types/Bool.html) | Optional|Display text in notifications|
 |silent|[Bool](/API_docs/types/Bool.html) | Optional|Mute peer?|
 |mute\_until|[int](/API_docs/types/int.html) | Optional|Mute all notifications until this date|
-|sound|[string](/API_docs/types/string.html) | Optional|Audio file name for notifications|
+|ios\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|
+|android\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|
+|other\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|
 
 
 
@@ -28,5 +30,5 @@ Notification settings.
 ### Example:
 
 ```php
-$peerNotifySettings = ['_' => 'peerNotifySettings', 'show_previews' => Bool, 'silent' => Bool, 'mute_until' => int, 'sound' => 'string'];
+$peerNotifySettings = ['_' => 'peerNotifySettings', 'show_previews' => Bool, 'silent' => Bool, 'mute_until' => int, 'ios_sound' => NotificationSound, 'android_sound' => NotificationSound, 'other_sound' => NotificationSound];
 ```  

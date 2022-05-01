@@ -16,7 +16,7 @@ Logged-in sessions
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|authorization\_ttl\_days|[int](/API_docs/types/int.html) | Yes|
+|authorization\_ttl\_days|[int](/API_docs/types/int.html) | Yes|Time-to-live of session|
 |authorizations|Array of [Authorization](/API_docs/types/Authorization.html) | Yes|Logged-in sessions|
 
 

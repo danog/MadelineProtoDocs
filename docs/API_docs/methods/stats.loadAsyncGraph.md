@@ -41,13 +41,3 @@ $MadelineProto->start();
 $StatsGraph = $MadelineProto->stats->loadAsyncGraph(['token' => 'string', 'x' => long, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|GRAPH_EXPIRED_RELOAD|This graph has expired, please obtain a new graph token|
-|400|GRAPH_INVALID_RELOAD|Invalid graph token provided, please reload the stats and provide the updated token|
-|400|GRAPH_OUTDATED_RELOAD|The graph is outdated, please get a new async token using stats.getBroadcastStats|
-|-503|Timeout|Timeout while fetching data|
-
-

@@ -1,6 +1,6 @@
 ---
 title: "updateBotCommands"
-description: "updateBotCommands attributes, type and example"
+description: "The command set of a certain bot in a certain chat has changed."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+The [command set](https://core.telegram.org/bots/api#june-25-2021) of a certain bot in a certain chat has changed.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|
-|bot\_id|[long](/API_docs/types/long.html) | Yes|
-|commands|Array of [BotCommand](/API_docs/types/BotCommand.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[Peer](/API_docs/types/Peer.html) | Yes|The affected chat|
+|bot\_id|[long](/API_docs/types/long.html) | Yes|ID of the bot that changed its command set|
+|commands|Array of [BotCommand](/API_docs/types/BotCommand.html) | Yes|New bot commands|
 
 
 

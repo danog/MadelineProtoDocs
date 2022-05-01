@@ -1,6 +1,6 @@
 ---
 title: "messages.getAvailableReactions"
-description: "messages.getAvailableReactions parameters, return type and example"
+description: "Obtain available [message reactions »](https://core.telegram.org/api/reactions)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,16 +11,18 @@ redirect_from: /API_docs/methods/messages_getAvailableReactions.html
 
 
 
+Obtain available [message reactions »](https://core.telegram.org/api/reactions)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|Array of [int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|Array of [int](/API_docs/types/int.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.AvailableReactions](/API_docs/types/messages.AvailableReactions.html)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

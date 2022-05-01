@@ -1,6 +1,6 @@
 ---
 title: "messages.setChatAvailableReactions"
-description: "messages.setChatAvailableReactions parameters, return type and example"
+description: "Change the set of [message reactions »](https://core.telegram.org/api/reactions) that can be used in a certain group, supergroup or channel"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,17 +11,19 @@ redirect_from: /API_docs/methods/messages_setChatAvailableReactions.html
 
 
 
+Change the set of [message reactions »](https://core.telegram.org/api/reactions) that can be used in a certain group, supergroup or channel
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|available\_reactions|Array of [string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Group where to apply changes | Optional|
+|available\_reactions|Array of [string](/API_docs/types/string.html) | Allowed reaction emojis | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

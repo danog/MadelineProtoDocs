@@ -1,6 +1,6 @@
 ---
 title: "channels.sendAsPeers"
-description: "channels.sendAsPeers attributes, type and example"
+description: "A list of peers that can be used to send messages in a specific group"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/channels_sendAsPeers.html
@@ -10,13 +10,15 @@ redirect_from: /API_docs/constructors/channels_sendAsPeers.html
 
 
 
+A list of peers that can be used to send messages in a specific group
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peers|Array of [Peer](/API_docs/types/Peer.html) | Yes|
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peers|Array of [Peer](/API_docs/types/Peer.html) | Yes|Peers that can be used to send messages to the group|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Mentioned chats|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Mentioned users|
 
 
 

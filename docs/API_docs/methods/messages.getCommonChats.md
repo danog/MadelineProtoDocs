@@ -18,7 +18,7 @@ Get chats in common with a user
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | User ID | Optional|
-|max\_id|[long](/API_docs/types/long.html) |  | Yes|
+|max\_id|[long](/API_docs/types/long.html) | Maximum ID of chat to return (see [pagination](https://core.telegram.org/api/offsets)) | Yes|
 |limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
 
 
@@ -41,12 +41,4 @@ $MadelineProto->start();
 
 $messages_Chats = $MadelineProto->messages->getCommonChats(['user_id' => InputUser, 'max_id' => long, 'limit' => int, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|MSG_ID_INVALID|Invalid message ID provided|
-|400|USER_ID_INVALID|The provided user ID is invalid|
-
 

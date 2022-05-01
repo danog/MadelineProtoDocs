@@ -71,6 +71,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionChatJoinedByRequest](/API_docs/constructors/messageActionChatJoinedByRequest.html)  
 
+[messageActionWebViewDataSentMe](/API_docs/constructors/messageActionWebViewDataSentMe.html)  
+
+[messageActionWebViewDataSent](/API_docs/constructors/messageActionWebViewDataSent.html)  
+
 
 
 ### Methods that return an object of this type (methods):
@@ -136,4 +140,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [messageActionSetChatTheme](/API_docs/constructors/messageActionSetChatTheme.html)  
 
 [messageActionChatJoinedByRequest](/API_docs/constructors/messageActionChatJoinedByRequest.html)  
+
+[messageActionWebViewDataSentMe](/API_docs/constructors/messageActionWebViewDataSentMe.html)  
+
+[messageActionWebViewDataSent](/API_docs/constructors/messageActionWebViewDataSent.html)  
 

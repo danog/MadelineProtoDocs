@@ -46,15 +46,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->contacts->addContact(['add_phone_privacy_exception' => Bool, 'id' => InputUser, 'first_name' => 'string', 'last_name' => 'string', 'phone' => 'string', ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-|400|CONTACT_ID_INVALID|The provided contact ID is invalid|
-|400|CONTACT_NAME_EMPTY|Contact name empty|
-|400|INPUT_FETCH_FAIL|Failed deserializing TL payload|
-|400|MSG_ID_INVALID|Invalid message ID provided|
-|406|AUTH_KEY_DUPLICATED|An auth key with the same ID was already generated|
-
-

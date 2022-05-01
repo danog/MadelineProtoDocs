@@ -27,12 +27,12 @@ Channel/supergroup info
 |has\_link|[Bool](/API_docs/types/Bool.html) | Optional|Whether this channel has a private join link|
 |has\_geo|[Bool](/API_docs/types/Bool.html) | Optional|Whether this chanel has a geoposition|
 |slowmode\_enabled|[Bool](/API_docs/types/Bool.html) | Optional|Whether slow mode is enabled for groups to prevent flood in chat|
-|call\_active|[Bool](/API_docs/types/Bool.html) | Optional|
-|call\_not\_empty|[Bool](/API_docs/types/Bool.html) | Optional|
-|fake|[Bool](/API_docs/types/Bool.html) | Optional|
-|gigagroup|[Bool](/API_docs/types/Bool.html) | Optional|
-|noforwards|[Bool](/API_docs/types/Bool.html) | Optional|
-|id|[long](/API_docs/types/long.html) | Yes|
+|call\_active|[Bool](/API_docs/types/Bool.html) | Optional|Whether a group call or livestream is currently active|
+|call\_not\_empty|[Bool](/API_docs/types/Bool.html) | Optional|Whether there's anyone in the group call or livestream|
+|fake|[Bool](/API_docs/types/Bool.html) | Optional|If set, this [supergroup/channel](https://core.telegram.org/api/channel) was reported by many users as a fake or scam: be careful when interacting with it.|
+|gigagroup|[Bool](/API_docs/types/Bool.html) | Optional|Whether this [supergroup](https://core.telegram.org/api/channel) is a gigagroup|
+|noforwards|[Bool](/API_docs/types/Bool.html) | Optional|Whether this channel or group is [protected](https://telegram.org/blog/protected-content-delete-by-date-and-more), thus does not allow forwarding messages from it|
+|id|[long](/API_docs/types/long.html) | Yes|ID of the channel|
 |access\_hash|[long](/API_docs/types/long.html) | Optional|Access hash|
 |title|[string](/API_docs/types/string.html) | Yes|Title|
 |username|[string](/API_docs/types/string.html) | Optional|Username|

@@ -1,6 +1,6 @@
 ---
 title: "messageActionSetMessagesTTL"
-description: "messageActionSetMessagesTTL attributes, type and example"
+description: "The Time-To-Live of messages in this chat was changed."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+The Time-To-Live of messages in this chat was changed.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|period|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|period|[int](/API_docs/types/int.html) | Yes|New Time-To-Live|
 
 
 

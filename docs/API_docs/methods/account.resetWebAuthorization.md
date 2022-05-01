@@ -40,10 +40,3 @@ $MadelineProto->start();
 $Bool = $MadelineProto->account->resetWebAuthorization(['hash' => long, ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|HASH_INVALID|The provided hash is invalid|
-
-

@@ -1,6 +1,6 @@
 ---
 title: "sendMessageEmojiInteractionSeen"
-description: "sendMessageEmojiInteractionSeen attributes, type and example"
+description: "User is watching an animated emoji reaction triggered by another user, click here for more info »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+User is watching an animated emoji reaction triggered by another user, [click here for more info »](https://core.telegram.org/api/animated-emojis#emoji-reactions).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|emoticon|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|emoticon|[string](/API_docs/types/string.html) | Yes|Emoji|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "keyboardButtonUserProfile"
-description: "keyboardButtonUserProfile attributes, type and example"
+description: "Button that links directly to a user profile"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Button that links directly to a user profile
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|text|[string](/API_docs/types/string.html) | Yes|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|text|[string](/API_docs/types/string.html) | Yes|Button text|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User ID|
 
 
 

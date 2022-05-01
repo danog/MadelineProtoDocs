@@ -6,7 +6,7 @@ parent: "MadelineProto API"
 
 ---
 # `danog\MadelineProto\Settings`
-[Back to index](../../index.html)
+[Back to index](../../index.md)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
@@ -98,7 +98,7 @@ Get app information.
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\AppInfo`: App information.](../../danog/MadelineProto/Settings/AppInfo.html)
+* [`\danog\MadelineProto\Settings\AppInfo`: App information.](../../danog/MadelineProto/Settings/AppInfo.md)
 
 
 
@@ -114,7 +114,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\AppInfo`: App information.](../../danog/MadelineProto/Settings/AppInfo.html)
+* [`\danog\MadelineProto\Settings\AppInfo`: App information.](../../danog/MadelineProto/Settings/AppInfo.md)
 
 
 
@@ -125,7 +125,7 @@ Get cryptography settings.
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Auth`: Cryptography settings.](../../danog/MadelineProto/Settings/Auth.html)
+* [`\danog\MadelineProto\Settings\Auth`: Cryptography settings.](../../danog/MadelineProto/Settings/Auth.md)
 
 
 
@@ -141,7 +141,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Auth`: Cryptography settings.](../../danog/MadelineProto/Settings/Auth.html)
+* [`\danog\MadelineProto\Settings\Auth`: Cryptography settings.](../../danog/MadelineProto/Settings/Auth.md)
 
 
 
@@ -152,7 +152,7 @@ Get connection settings.
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Connection`: Connection settings.](../../danog/MadelineProto/Settings/Connection.html)
+* [`\danog\MadelineProto\Settings\Connection`: Connection settings.](../../danog/MadelineProto/Settings/Connection.md)
 
 
 
@@ -168,7 +168,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Connection`: Connection settings.](../../danog/MadelineProto/Settings/Connection.html)
+* [`\danog\MadelineProto\Settings\Connection`: Connection settings.](../../danog/MadelineProto/Settings/Connection.md)
 
 
 
@@ -179,7 +179,7 @@ Get file management settings.
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Files`: File management settings.](../../danog/MadelineProto/Settings/Files.html)
+* [`\danog\MadelineProto\Settings\Files`: File management settings.](../../danog/MadelineProto/Settings/Files.md)
 
 
 
@@ -195,7 +195,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Files`: File management settings.](../../danog/MadelineProto/Settings/Files.html)
+* [`\danog\MadelineProto\Settings\Files`: File management settings.](../../danog/MadelineProto/Settings/Files.md)
 
 
 
@@ -206,7 +206,7 @@ Get logger settings.
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Logger`: Logger settings.](../../danog/MadelineProto/Settings/Logger.html)
+* [`\danog\MadelineProto\Settings\Logger`: Logger settings.](../../danog/MadelineProto/Settings/Logger.md)
 
 
 
@@ -222,7 +222,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Logger`: Logger settings.](../../danog/MadelineProto/Settings/Logger.html)
+* [`\danog\MadelineProto\Settings\Logger`: Logger settings.](../../danog/MadelineProto/Settings/Logger.md)
 
 
 
@@ -233,7 +233,7 @@ Get peer database settings.
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Peer`: Peer database settings.](../../danog/MadelineProto/Settings/Peer.html)
+* [`\danog\MadelineProto\Settings\Peer`: Peer database settings.](../../danog/MadelineProto/Settings/Peer.md)
 
 
 
@@ -249,7 +249,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Peer`: Peer database settings.](../../danog/MadelineProto/Settings/Peer.html)
+* [`\danog\MadelineProto\Settings\Peer`: Peer database settings.](../../danog/MadelineProto/Settings/Peer.md)
 
 
 
@@ -260,7 +260,7 @@ Get PWRTelegram settings.
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Pwr`: PWRTelegram settings.](../../danog/MadelineProto/Settings/Pwr.html)
+* [`\danog\MadelineProto\Settings\Pwr`: PWRTelegram settings.](../../danog/MadelineProto/Settings/Pwr.md)
 
 
 
@@ -276,7 +276,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Pwr`: PWRTelegram settings.](../../danog/MadelineProto/Settings/Pwr.html)
+* [`\danog\MadelineProto\Settings\Pwr`: PWRTelegram settings.](../../danog/MadelineProto/Settings/Pwr.md)
 
 
 
@@ -287,7 +287,7 @@ Get RPC settings.
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\RPC`: RPC settings.](../../danog/MadelineProto/Settings/RPC.html)
+* [`\danog\MadelineProto\Settings\RPC`: RPC settings.](../../danog/MadelineProto/Settings/RPC.md)
 
 
 
@@ -303,7 +303,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\RPC`: RPC settings.](../../danog/MadelineProto/Settings/RPC.html)
+* [`\danog\MadelineProto\Settings\RPC`: RPC settings.](../../danog/MadelineProto/Settings/RPC.md)
 
 
 
@@ -314,7 +314,7 @@ Get secret chat settings.
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\SecretChats`: Secret chat settings.](../../danog/MadelineProto/Settings/SecretChats.html)
+* [`\danog\MadelineProto\Settings\SecretChats`: Secret chat settings.](../../danog/MadelineProto/Settings/SecretChats.md)
 
 
 
@@ -330,7 +330,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\SecretChats`: Secret chat settings.](../../danog/MadelineProto/Settings/SecretChats.html)
+* [`\danog\MadelineProto\Settings\SecretChats`: Secret chat settings.](../../danog/MadelineProto/Settings/SecretChats.md)
 
 
 
@@ -341,7 +341,7 @@ Get serialization settings.
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Serialization`: Serialization settings.](../../danog/MadelineProto/Settings/Serialization.html)
+* [`\danog\MadelineProto\Settings\Serialization`: Serialization settings.](../../danog/MadelineProto/Settings/Serialization.md)
 
 
 
@@ -357,7 +357,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Serialization`: Serialization settings.](../../danog/MadelineProto/Settings/Serialization.html)
+* [`\danog\MadelineProto\Settings\Serialization`: Serialization settings.](../../danog/MadelineProto/Settings/Serialization.md)
 
 
 
@@ -368,7 +368,7 @@ Get TL schema settings.
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\TLSchema`: TL schema settings.](../../danog/MadelineProto/Settings/TLSchema.html)
+* [`\danog\MadelineProto\Settings\TLSchema`: TL schema settings.](../../danog/MadelineProto/Settings/TLSchema.md)
 
 
 
@@ -384,7 +384,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\TLSchema`: TL schema settings.](../../danog/MadelineProto/Settings/TLSchema.html)
+* [`\danog\MadelineProto\Settings\TLSchema`: TL schema settings.](../../danog/MadelineProto/Settings/TLSchema.md)
 
 
 
@@ -395,7 +395,7 @@ Get database settings.
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\DatabaseAbstract`: Base class for storage backends.](../../danog/MadelineProto/Settings/DatabaseAbstract.html)
+* [`\danog\MadelineProto\Settings\DatabaseAbstract`: Base class for storage backends.](../../danog/MadelineProto/Settings/DatabaseAbstract.md)
 
 
 
@@ -411,7 +411,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\DatabaseAbstract`: Base class for storage backends.](../../danog/MadelineProto/Settings/DatabaseAbstract.html)
+* [`\danog\MadelineProto\Settings\DatabaseAbstract`: Base class for storage backends.](../../danog/MadelineProto/Settings/DatabaseAbstract.md)
 
 
 
@@ -422,7 +422,7 @@ Get IPC server settings.
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Ipc`: IPC server settings.](../../danog/MadelineProto/Settings/Ipc.html)
+* [`\danog\MadelineProto\Settings\Ipc`: IPC server settings.](../../danog/MadelineProto/Settings/Ipc.md)
 
 
 
@@ -438,7 +438,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Ipc`: IPC server settings.](../../danog/MadelineProto/Settings/Ipc.html)
+* [`\danog\MadelineProto\Settings\Ipc`: IPC server settings.](../../danog/MadelineProto/Settings/Ipc.md)
 
 
 
@@ -449,7 +449,7 @@ Get template settings.
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Templates`: Web and CLI template settings for login.](../../danog/MadelineProto/Settings/Templates.html)
+* [`\danog\MadelineProto\Settings\Templates`: Web and CLI template settings for login.](../../danog/MadelineProto/Settings/Templates.md)
 
 
 
@@ -465,7 +465,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Templates`: Web and CLI template settings for login.](../../danog/MadelineProto/Settings/Templates.html)
+* [`\danog\MadelineProto\Settings\Templates`: Web and CLI template settings for login.](../../danog/MadelineProto/Settings/Templates.md)
 
 
 
@@ -476,7 +476,7 @@ Get voIP settings.
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\VoIP`: VoIP settings.](../../danog/MadelineProto/Settings/VoIP.html)
+* [`\danog\MadelineProto\Settings\VoIP`: VoIP settings.](../../danog/MadelineProto/Settings/VoIP.md)
 
 
 
@@ -492,7 +492,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\VoIP`: VoIP settings.](../../danog/MadelineProto/Settings/VoIP.html)
+* [`\danog\MadelineProto\Settings\VoIP`: VoIP settings.](../../danog/MadelineProto/Settings/VoIP.md)
 
 
 

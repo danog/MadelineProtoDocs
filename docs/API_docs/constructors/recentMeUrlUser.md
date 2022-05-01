@@ -16,7 +16,7 @@ Recent t.me link to a user
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |url|[string](/API_docs/types/string.html) | Yes|URL|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User ID|
 
 
 

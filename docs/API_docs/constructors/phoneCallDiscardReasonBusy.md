@@ -1,6 +1,6 @@
 ---
 title: "phoneCallDiscardReasonBusy"
-description: "The phone call was discared because the user is busy in another call"
+description: "The phone call was discarded because the user is busy in another call"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-The phone call was discared because the user is busy in another call
+The phone call was discarded because the user is busy in another call
 
 
 

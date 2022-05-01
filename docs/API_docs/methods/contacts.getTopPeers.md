@@ -27,7 +27,7 @@ Get most used peers
 |channels|[Bool](/API_docs/types/Bool.html) | Most frequently visited channels | Optional|
 |offset|[int](/API_docs/types/int.html) | Offset for [pagination](https://core.telegram.org/api/offsets) | Yes|
 |limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
-|hash|[long](/API_docs/types/long.html) |  | Yes|
+|hash|[long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Yes|
 
 
 ### Return type: [contacts.TopPeers](/API_docs/types/contacts.TopPeers.html)
@@ -49,11 +49,4 @@ $MadelineProto->start();
 
 $contacts_TopPeers = $MadelineProto->contacts->getTopPeers(['correspondents' => Bool, 'bots_pm' => Bool, 'bots_inline' => Bool, 'phone_calls' => Bool, 'forward_users' => Bool, 'forward_chats' => Bool, 'groups' => Bool, 'channels' => Bool, 'offset' => int, 'limit' => int, 'hash' => long, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|TYPES_EMPTY|No top peer type was provided|
-
 

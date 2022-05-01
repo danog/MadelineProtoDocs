@@ -1,6 +1,6 @@
 ---
 title: "messages.hideChatJoinRequest"
-description: "messages.hideChatJoinRequest parameters, return type and example"
+description: "Dismiss or approve a chat [join request](https://core.telegram.org/api/invites#join-requests) related to a specific chat or channel."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/messages_hideChatJoinRequest.html
 
 
 
+Dismiss or approve a chat [join request](https://core.telegram.org/api/invites#join-requests) related to a specific chat or channel.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|approved|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|approved|[Bool](/API_docs/types/Bool.html) | Whether to dismiss or approve the chat [join request »](https://core.telegram.org/api/invites#join-requests) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The chat or channel | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The user whose [join request »](https://core.telegram.org/api/invites#join-requests) should be dismissed or approved | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

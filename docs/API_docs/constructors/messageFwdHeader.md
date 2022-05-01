@@ -15,7 +15,7 @@ Info about a forwarded message
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|imported|[Bool](/API_docs/types/Bool.html) | Optional|
+|imported|[Bool](/API_docs/types/Bool.html) | Optional|Whether this message was [imported from a foreign chat service, click here for more info »](https://core.telegram.org/api/import)|
 |from\_id|[Peer](/API_docs/types/Peer.html) | Optional|The ID of the user that originally sent the message|
 |from\_name|[string](/API_docs/types/string.html) | Optional|The name of the user that originally sent the message|
 |date|[int](/API_docs/types/int.html) | Yes|When was the message originally sent|

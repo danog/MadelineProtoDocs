@@ -1,6 +1,6 @@
 ---
 title: "channelAdminLogEventActionParticipantMute"
-description: "channelAdminLogEventActionParticipantMute attributes, type and example"
+description: "A group call participant was muted"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A group call participant was muted
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|participant|[GroupCallParticipant](/API_docs/types/GroupCallParticipant.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|participant|[GroupCallParticipant](/API_docs/types/GroupCallParticipant.html) | Yes|The participant that was muted|
 
 
 

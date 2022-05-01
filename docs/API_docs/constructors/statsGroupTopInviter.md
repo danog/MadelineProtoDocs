@@ -15,7 +15,7 @@ Information about an active supergroup inviter
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User ID|
 |invitations|[int](/API_docs/types/int.html) | Yes|Number of invitations for [statistics](https://core.telegram.org/api/stats) period in consideration|
 
 

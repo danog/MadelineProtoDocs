@@ -18,7 +18,7 @@ Get info about a stickerset
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.html) | Stickerset | Optional|
-|hash|Array of [int](/API_docs/types/int.html) |  | Optional|
+|hash|Array of [int](/API_docs/types/int.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.html)
@@ -40,11 +40,4 @@ $MadelineProto->start();
 
 $messages_StickerSet = $MadelineProto->messages->getStickerSet(['stickerset' => InputStickerSet, 'hash' => [int, int], ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|STICKERSET_INVALID|The provided sticker set is invalid|
-
 

@@ -45,10 +45,3 @@ $MadelineProto->start();
 $auth_LoginToken = $MadelineProto->auth->exportLoginToken(['api_id' => int, 'api_hash' => 'string', 'except_ids' => [long, long], ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|API_ID_INVALID|API ID invalid|
-
-

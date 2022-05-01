@@ -41,10 +41,3 @@ $MadelineProto->start();
 $Vector_of_FileHash = $MadelineProto->upload->reuploadCdnFile(['file_token' => 'bytes', 'request_token' => 'bytes', ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|RSA_DECRYPT_FAILED|Internal RSA decryption failed|
-
-

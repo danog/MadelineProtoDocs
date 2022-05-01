@@ -1,6 +1,6 @@
 ---
 title: "inputAppEvent"
-description: "Event that occured in the application."
+description: "Event that occurred in the application."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Event that occured in the application.
+Event that occurred in the application.
 
 ### Attributes:
 

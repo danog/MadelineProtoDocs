@@ -15,7 +15,7 @@ The history of a [channel/supergroup](https://core.telegram.org/api/channel) was
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|channel\_id|[long](/API_docs/types/long.html) | Yes|
+|channel\_id|[long](/API_docs/types/long.html) | Yes|Channel/supergroup ID|
 |available\_min\_id|[int](/API_docs/types/int.html) | Yes|Identifier of a maximum unavailable message in a channel due to hidden history.|
 
 

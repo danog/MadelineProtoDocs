@@ -27,6 +27,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputReportReasonFake](/API_docs/constructors/inputReportReasonFake.html)  
 
+[inputReportReasonIllegalDrugs](/API_docs/constructors/inputReportReasonIllegalDrugs.html)  
+
+[inputReportReasonPersonalDetails](/API_docs/constructors/inputReportReasonPersonalDetails.html)  
+
 
 
 ### Methods that return an object of this type (methods):
@@ -48,4 +52,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [inputReportReasonGeoIrrelevant](/API_docs/constructors/inputReportReasonGeoIrrelevant.html)  
 
 [inputReportReasonFake](/API_docs/constructors/inputReportReasonFake.html)  
+
+[inputReportReasonIllegalDrugs](/API_docs/constructors/inputReportReasonIllegalDrugs.html)  
+
+[inputReportReasonPersonalDetails](/API_docs/constructors/inputReportReasonPersonalDetails.html)  
 

@@ -1,6 +1,6 @@
 ---
 title: "messages.chatInviteImporters"
-description: "messages.chatInviteImporters attributes, type and example"
+description: "Info about the users that joined the chat using a specific chat invite"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_chatInviteImporters.html
@@ -10,13 +10,15 @@ redirect_from: /API_docs/constructors/messages_chatInviteImporters.html
 
 
 
+Info about the users that joined the chat using a specific chat invite
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|count|[int](/API_docs/types/int.html) | Yes|
-|importers|Array of [ChatInviteImporter](/API_docs/types/ChatInviteImporter.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|count|[int](/API_docs/types/int.html) | Yes|Number of users that joined|
+|importers|Array of [ChatInviteImporter](/API_docs/types/ChatInviteImporter.html) | Yes|The users that joined|
+|users|Array of [User](/API_docs/types/User.html) | Yes|The users that joined|
 
 
 

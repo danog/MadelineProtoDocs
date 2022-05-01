@@ -41,14 +41,3 @@ $MadelineProto->start();
 $Updates = $MadelineProto->messages->createChat(['users' => [InputUser, InputUser], 'title' => 'string', ]);
 ```
 
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHAT_INVALID|Invalid chat|
-|400|CHAT_TITLE_EMPTY|No chat title provided|
-|400|INPUT_USER_DEACTIVATED|The specified user was deleted|
-|400|USERS_TOO_FEW|Not enough users (to create a chat, for example)|
-|403|USER_RESTRICTED|You're spamreported, you can't create channels or chats.|
-
-

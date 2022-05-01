@@ -15,7 +15,7 @@ Group members.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[long](/API_docs/types/long.html) | Yes|
+|chat\_id|[long](/API_docs/types/long.html) | Yes|Group identifier|
 |participants|Array of [ChatParticipant](/API_docs/types/ChatParticipant.html) | Yes|List of group members|
 |version|[int](/API_docs/types/int.html) | Yes|Group version number|
 

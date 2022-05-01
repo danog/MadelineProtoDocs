@@ -1,6 +1,6 @@
 ---
 title: "updateGroupCall"
-description: "updateGroupCall attributes, type and example"
+description: "A new groupcall was started"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A new groupcall was started
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chat\_id|[long](/API_docs/types/long.html) | Yes|
-|call|[GroupCall](/API_docs/types/GroupCall.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|chat\_id|[long](/API_docs/types/long.html) | Yes|The [channel/supergroup](https://core.telegram.org/api/channel) where this group call or livestream takes place|
+|call|[GroupCall](/API_docs/types/GroupCall.html) | Yes|Info about the group call or livestream|
 
 
 

@@ -17,11 +17,12 @@ Delete the history of a [supergroup](https://core.telegram.org/api/channel)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|for\_everyone|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | [Supergroup](https://core.telegram.org/api/channel) whose history must be deleted | Optional|
 |max\_id|[int](/API_docs/types/int.html) | ID of message **up to which** the history must be deleted | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.html)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can bots use this method: **NO**
 
@@ -38,14 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->channels->deleteHistory(['channel' => InputChannel, 'max_id' => int, ]);
+$Updates = $MadelineProto->channels->deleteHistory(['for_everyone' => Bool, 'channel' => InputChannel, 'max_id' => int, ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|CHANNEL_INVALID|The provided channel is invalid|
-|400|CHANNEL_PRIVATE|You haven't joined this channel/supergroup|
-
 

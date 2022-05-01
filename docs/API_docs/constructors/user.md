@@ -29,8 +29,9 @@ Indicates info about a certain user
 |support|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is an official support user|
 |scam|[Bool](/API_docs/types/Bool.html) | Optional|This may be a scam user|
 |apply\_min\_photo|[Bool](/API_docs/types/Bool.html) | Optional|If set, the profile picture for this user should be refetched|
-|fake|[Bool](/API_docs/types/Bool.html) | Optional|
-|id|[long](/API_docs/types/long.html) | Yes|
+|fake|[Bool](/API_docs/types/Bool.html) | Optional|If set, this user was reported by many users as a fake or scam user: be careful when interacting with them.|
+|bot\_attach\_menu|[Bool](/API_docs/types/Bool.html) | Optional|
+|id|[long](/API_docs/types/long.html) | Yes|ID of the user|
 |access\_hash|[long](/API_docs/types/long.html) | Optional|Access hash of the user|
 |first\_name|[string](/API_docs/types/string.html) | Optional|First name|
 |last\_name|[string](/API_docs/types/string.html) | Optional|Last name|
@@ -51,5 +52,5 @@ Indicates info about a certain user
 ### Example:
 
 ```php
-$user = ['_' => 'user', 'self' => Bool, 'contact' => Bool, 'mutual_contact' => Bool, 'deleted' => Bool, 'bot' => Bool, 'bot_chat_history' => Bool, 'bot_nochats' => Bool, 'verified' => Bool, 'restricted' => Bool, 'min' => Bool, 'bot_inline_geo' => Bool, 'support' => Bool, 'scam' => Bool, 'apply_min_photo' => Bool, 'fake' => Bool, 'id' => long, 'access_hash' => long, 'first_name' => 'string', 'last_name' => 'string', 'username' => 'string', 'phone' => 'string', 'photo' => UserProfilePhoto, 'status' => UserStatus, 'bot_info_version' => int, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'bot_inline_placeholder' => 'string', 'lang_code' => 'string'];
+$user = ['_' => 'user', 'self' => Bool, 'contact' => Bool, 'mutual_contact' => Bool, 'deleted' => Bool, 'bot' => Bool, 'bot_chat_history' => Bool, 'bot_nochats' => Bool, 'verified' => Bool, 'restricted' => Bool, 'min' => Bool, 'bot_inline_geo' => Bool, 'support' => Bool, 'scam' => Bool, 'apply_min_photo' => Bool, 'fake' => Bool, 'bot_attach_menu' => Bool, 'id' => long, 'access_hash' => long, 'first_name' => 'string', 'last_name' => 'string', 'username' => 'string', 'phone' => 'string', 'photo' => UserProfilePhoto, 'status' => UserStatus, 'bot_info_version' => int, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'bot_inline_placeholder' => 'string', 'lang_code' => 'string'];
 ```  

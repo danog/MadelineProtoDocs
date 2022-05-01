@@ -15,7 +15,7 @@ How a user voted in a poll (reduced constructor, returned if an `option` was pro
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|The user that voted for the queried `option`|
 |date|[int](/API_docs/types/int.html) | Yes|When did the user cast the vote|
 
 

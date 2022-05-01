@@ -15,9 +15,9 @@ New group member.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[long](/API_docs/types/long.html) | Yes|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
-|inviter\_id|[long](/API_docs/types/long.html) | Yes|
+|chat\_id|[long](/API_docs/types/long.html) | Yes|Group ID|
+|user\_id|[long](/API_docs/types/long.html) | Yes|ID of the new member|
+|inviter\_id|[long](/API_docs/types/long.html) | Yes|ID of the user, who added member to the group|
 |date|[int](/API_docs/types/int.html) | Yes|When was the participant added|
 |version|[int](/API_docs/types/int.html) | Yes|Chat version number|
 

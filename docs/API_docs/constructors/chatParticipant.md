@@ -15,8 +15,8 @@ Group member.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
-|inviter\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|Member user ID|
+|inviter\_id|[long](/API_docs/types/long.html) | Yes|ID of the user that added the member to the group|
 |date|[int](/API_docs/types/int.html) | Yes|Date added to the group|
 
 

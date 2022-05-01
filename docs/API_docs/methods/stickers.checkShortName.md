@@ -1,6 +1,6 @@
 ---
 title: "stickers.checkShortName"
-description: "stickers.checkShortName parameters, return type and example"
+description: "Check whether the given short name is available"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/stickers_checkShortName.html
 
 
 
+Check whether the given short name is available
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|short\_name|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|short\_name|[string](/API_docs/types/string.html) | Short name | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
@@ -37,12 +39,4 @@ $MadelineProto->start();
 
 $Bool = $MadelineProto->stickers->checkShortName(['short_name' => 'string', ]);
 ```
-
-### Errors
-
-| Code | Type     | Description   |
-|------|----------|---------------|
-|400|SHORT_NAME_INVALID|The specified short name is invalid|
-|400|SHORT_NAME_OCCUPIED|The specified short name is already in use|
-
 

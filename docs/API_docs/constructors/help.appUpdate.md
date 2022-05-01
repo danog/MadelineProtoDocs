@@ -23,7 +23,7 @@ An update is available for the application.
 |entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Yes|[Message entities for styled text](https://core.telegram.org/api/entities)|
 |document|[Document](/API_docs/types/Document.html) | Optional|Application binary|
 |url|[string](/API_docs/types/string.html) | Optional|Application download URL|
-|sticker|[Document](/API_docs/types/Document.html) | Optional|
+|sticker|[Document](/API_docs/types/Document.html) | Optional|Associated sticker|
 
 
 

@@ -15,7 +15,7 @@ A contact of the current user that is registered in the system.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User identifier|
 |mutual|[Bool](/API_docs/types/Bool.html) | Yes|Current user is in the user's contact list|
 
 
