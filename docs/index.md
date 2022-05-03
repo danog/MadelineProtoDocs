@@ -10,6 +10,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 Created by <a href="https://daniil.it" target="_blank" rel="noopener">Daniil Gentili</a>
 
+`#StandWithUkraine 🇺🇦`
+
 Do join the official channel, [@MadelineProto](https://t.me/MadelineProto) and the [support groups](https://t.me/pwrtelegramgroup)!
 
 [Now with Telegram TON blockchain integration](https://github.com/danog/MadelineProto/blob/master/ton/README.md)!

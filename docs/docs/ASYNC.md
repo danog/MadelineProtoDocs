@@ -391,7 +391,7 @@ A basic loop, capable of running in background (asynchronously) the code contain
 
 [Interface](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/LoopInterface.php):  
 ```php
-namespace danog\MadelineProto\Loop;
+namespace danog\Loop;
 
 interface LoopInterface
 {
@@ -427,7 +427,7 @@ The `__toString` method still has to be implemented in order to get the name of 
 By default, an instance of MadelineProto MUST be passed to the constructor of the function, or **if** a custom constructor is defined, the `$this->API` property MUST be set to an instance of MadelineProto.  
 
 ```php
-use danog\MadelineProto\Loop\Impl\Loop;
+use danog\Loop;
 class MyLoop extends Loop
 {
     private $callable;
@@ -469,7 +469,7 @@ A way more useful loop that exposes APIs to pause and resume the execution of th
 
 [Interface](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/ResumableLoopInterface.php):  
 ```php
-namespace danog\MadelineProto\Loop;
+namespace danog\Loop;
 
 interface ResumableLoopInterface extends LoopInterface
 {
@@ -500,7 +500,7 @@ Yet another loop interface that exposes APIs to send signals to the loop, useful
 
 [Interface](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/SignalLoopInterface.php):  
 ```php
-namespace danog\MadelineProto\Loop;
+namespace danog\Loop;
 
 interface SignalLoopInterface extends LoopInterface
 {
@@ -535,7 +535,7 @@ This is what you would usually use to build a full async loop.
 All loop interfaces and loop implementations are combined into one single abstract class you can extend.  
 
 ```php
-use danog\MadelineProto\Loop\Impl\ResumableSignalLoop;
+use danog\Loop\ResumableSignalLoop;
 class MySuperLoop extends ResumableSignalLoop
 {
     private $timeout;
@@ -602,7 +602,7 @@ The constructor accepts three parameters:
 
 Example:
 ```php
-use danog\MadelineProto\Loop\Generic\GenericLoop;
+use danog\Loop\Generic\GenericLoop;
 $loop = new GenericLoop(
     $MadelineProto,
     function () {
@@ -642,7 +642,7 @@ The constructor accepts four parameters:
 
 Example:
 ```php
-use danog\MadelineProto\Loop\Generic\PeriodicLoop;
+use danog\Loop\Generic\PeriodicLoop;
 $loop = new PeriodicLoop(
     $MadelineProto,
     function () use (&$loop) {
