@@ -24,7 +24,7 @@ Powered by [amphp](https://amphp.org), MadelineProto wraps the AMPHP APIs to pro
       * [Async sleep](#async-sleep-does-not-block-the-main-thread)
       * [Async readline](#async-readline-does-not-block-the-main-thread)
       * [Async echo](#async-echo-does-not-block-the-main-thread)
-      * [MadelineProto artax HTTP client](#madelineproto-artax-http-client)
+      * [MadelineProto HTTP client](#madelineproto-http-client)
       * [Async forking](#async-forking-does-green-thread-forking)
       * [Async flock](#async-flock)
       * [Combining async operations](#combining-async-operations)
@@ -275,22 +275,22 @@ $res = yield $MadelineProto->readLine('Optional prompt');
 yield $MadelineProto->echo('Hello'.PHP_EOL);
 ```
 
-#### MadelineProto artax HTTP client
+#### MadelineProto HTTP client
 
-When using amphp's [artax](https://amphp.org/artax) to make high-speed asynchronous HTTP requests (downloading files, etc.), use MadelineProto's modified Artax client, instead.  
+When using amphp's [http-client](https://amphp.org/http-client) to make high-speed asynchronous HTTP requests (downloading files, etc.), use MadelineProto's modified http-client client, instead.  
 It automatically supports the socks/HTTP proxies specified in MadelineProto's settings (will use proxies only if the file can't be downloaded normally), and soon DoH for greater security.  
 
-To use MadelineProto's artax client, instead of creating artax's default client:  
+To use MadelineProto's http-client client, instead of creating an http-client instance:  
 ```php
-$client = new Amp\Artax\DefaultClient;
+$client = \Amp\Http\Client\HttpClientBuilder::buildDefault();
 ```
 
-Simply get MadelineProto's artax client:  
+Simply get MadelineProto's HTTP client:  
 ```php
 $client = $MadelineProto->getHTTPClient();
 ```
 
-From here it's like in the [artax docs](https://amphp.org/artax).  
+From here it's like in the [http-client docs](https://amphp.org/http-client).  
 
 MadelineProto also provides a simplified async version of `file_get_contents`:  
 ```php
