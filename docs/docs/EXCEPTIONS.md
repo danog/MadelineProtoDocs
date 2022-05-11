@@ -48,7 +48,7 @@ try {
 Every exception features a custom stack trace called `pretty TL trace`, that makes finding bugs **really** easy:
 
 ```text
-php > $MadelineProto->messages->sendMessage(['peer' => '@dd', 'message' => 'hi']);
+php > $MadelineProto->messages->sendMessage(peer: '@dd', message: 'hi');
 
 Uncaught \danog\MadelineProto\Exception: This peer is not present in the internal peer database in /home/pwrtelegram/cleanMadeline/src/danog/MadelineProto/MTProtoTools/PeerHandler.php:330
 Revision: 63823fc3cc5070bd8a1ebe91e60e1fd583a2f37f

@@ -130,7 +130,7 @@ class EventHandler extends \danog\MadelineProto\EventHandler
     }
     public function sm($peer, $message)
     {
-        yield $this->messages->sendMessage(['peer' => $peer, 'message' => $message, 'reply_to_msg_id' => isset($update['message']['id']) ? $update['message']['id'] : null, 'parse_mode' => 'HTML']);
+        yield $this->messages->sendMessage(peer: $peer, message: $message, reply_to_msg_id: isset($update['message']['id']) ? $update['message']['id'] : null, parse_mode: 'HTML');
     }
 }
 ```
@@ -143,7 +143,7 @@ $MadelineProto->setCallback(function ($update) use ($MadelineProto) {
         return;
     }
     yield $MadelineProto->sleep(3);
-    yield $MadelineProto->messages->sendMessage(['peer' => $update, 'message' => 'Hi after 3 seconds']);
+    yield $MadelineProto->messages->sendMessage(peer: $update, message: 'Hi after 3 seconds');
 });
 ```
 
@@ -151,7 +151,7 @@ $MadelineProto->setCallback(function ($update) use ($MadelineProto) {
 ```php
 $MadelineProto->async(true);
 $MadelineProto->loop(function () use ($MadelineProto) {
-    yield $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => 'hi']);
+    yield $MadelineProto->messages->sendMessage(peer: '...', message: 'hi');
     // You can also have an asynchronous get_updates (deprecated) loop in here, if you want to; just don't forget to use yield for all MadelineProto functions.
 });
 ```
@@ -562,10 +562,8 @@ class MySuperLoop extends ResumableSignalLoop
             $t = time() - $t;
             
             $result = yield $MadelineProto->messages->sendMessage(
-                [
-                    'peer'    => '...',
-                    'message' => "Resumed after $t seconds of timeout"
-                ]
+                peer:    '...',
+                message: "Resumed after $t seconds of timeout"
             );
         }
     }
@@ -606,7 +604,7 @@ use danog\Loop\Generic\GenericLoop;
 $loop = new GenericLoop(
     $MadelineProto,
     function () {
-        yield $this->API->messages->sendMessage(['peer' => '...', 'message' => 'Hi every 2 seconds']);
+        yield $this->API->messages->sendMessage(peer: '...', message: 'Hi every 2 seconds');
 
         return 2;
     },
@@ -646,7 +644,7 @@ use danog\Loop\Generic\PeriodicLoop;
 $loop = new PeriodicLoop(
     $MadelineProto,
     function () use (&$loop) {
-        yield $this->API->messages->sendMessage(['peer' => '...', 'message' => 'Hi every 2 seconds']);
+        yield $this->API->messages->sendMessage(peer: '...', message: 'Hi every 2 seconds');
     },
     "My super loop",
     2

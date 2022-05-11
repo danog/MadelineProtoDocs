@@ -15,7 +15,7 @@ There are two ways to get a list of all chats, depending if you logged in as a u
 ```php
 $dialogs = yield $MadelineProto->getDialogs();
 foreach ($dialogs as $peer) {
-    yield $MadelineProto->messages->sendMessage(['peer' => $peer, 'message' => 'Hi! Testing MadelineProto broadcasting!']);
+    yield $MadelineProto->messages->sendMessage(peer: $peer, message: 'Hi! Testing MadelineProto broadcasting!');
 }
 ```
 
