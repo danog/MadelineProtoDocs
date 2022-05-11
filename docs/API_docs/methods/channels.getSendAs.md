@@ -37,6 +37,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$channels_SendAsPeers = $MadelineProto->channels->getSendAs(['peer' => InputPeer, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$channels_SendAsPeers = $MadelineProto->channels->getSendAs(peer: InputPeer, );
 ```
 

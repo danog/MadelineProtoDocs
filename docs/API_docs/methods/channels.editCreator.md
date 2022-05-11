@@ -39,6 +39,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->channels->editCreator(['channel' => InputChannel, 'user_id' => InputUser, 'password' => InputCheckPasswordSRP, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Updates = $MadelineProto->channels->editCreator(channel: InputChannel, user_id: InputUser, password: InputCheckPasswordSRP, );
 ```
 

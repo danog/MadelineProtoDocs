@@ -45,6 +45,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->messages->searchGlobal(['folder_id' => int, 'q' => 'string', 'filter' => MessagesFilter, 'min_date' => int, 'max_date' => int, 'offset_rate' => int, 'offset_peer' => InputPeer, 'offset_id' => int, 'limit' => int, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$messages_Messages = $MadelineProto->messages->searchGlobal(folder_id: int, q: 'string', filter: MessagesFilter, min_date: int, max_date: int, offset_rate: int, offset_peer: InputPeer, offset_id: int, limit: int, );
 ```
 

@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_SentCode = $MadelineProto->auth->resendCode(['phone_number' => 'string', 'phone_code_hash' => 'string', ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$auth_SentCode = $MadelineProto->auth->resendCode(phone_number: 'string', phone_code_hash: 'string', );
 ```
 

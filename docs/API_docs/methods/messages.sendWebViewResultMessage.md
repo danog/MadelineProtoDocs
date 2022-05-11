@@ -36,6 +36,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$WebViewMessageSent = $MadelineProto->messages->sendWebViewResultMessage(['bot_query_id' => 'string', 'result' => InputBotInlineResult, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$WebViewMessageSent = $MadelineProto->messages->sendWebViewResultMessage(bot_query_id: 'string', result: InputBotInlineResult, );
 ```
 

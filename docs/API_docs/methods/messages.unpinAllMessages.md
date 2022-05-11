@@ -37,6 +37,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_AffectedHistory = $MadelineProto->messages->unpinAllMessages(['peer' => InputPeer, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$messages_AffectedHistory = $MadelineProto->messages->unpinAllMessages(peer: InputPeer, );
 ```
 

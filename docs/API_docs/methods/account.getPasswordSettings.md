@@ -37,6 +37,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_PasswordSettings = $MadelineProto->account->getPasswordSettings(['password' => InputCheckPasswordSRP, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$account_PasswordSettings = $MadelineProto->account->getPasswordSettings(password: InputCheckPasswordSRP, );
 ```
 

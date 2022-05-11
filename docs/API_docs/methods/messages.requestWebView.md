@@ -42,6 +42,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$WebViewResult = $MadelineProto->messages->requestWebView(['from_bot_menu' => Bool, 'silent' => Bool, 'peer' => InputPeer, 'bot' => InputUser, 'url' => 'string', 'start_param' => 'string', 'theme_params' => DataJSON, 'reply_to_msg_id' => int, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$WebViewResult = $MadelineProto->messages->requestWebView(from_bot_menu: Bool, silent: Bool, peer: InputPeer, bot: InputUser, url: 'string', start_param: 'string', theme_params: DataJSON, reply_to_msg_id: int, );
 ```
 

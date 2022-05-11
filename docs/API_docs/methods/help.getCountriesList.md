@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_CountriesList = $MadelineProto->help->getCountriesList(['lang_code' => 'string', 'hash' => [int, int], ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$help_CountriesList = $MadelineProto->help->getCountriesList(lang_code: 'string', hash: [int, int], );
 ```
 

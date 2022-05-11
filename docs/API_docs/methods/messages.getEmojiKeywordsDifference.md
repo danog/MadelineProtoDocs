@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$EmojiKeywordsDifference = $MadelineProto->messages->getEmojiKeywordsDifference(['lang_code' => 'string', 'from_version' => int, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$EmojiKeywordsDifference = $MadelineProto->messages->getEmojiKeywordsDifference(lang_code: 'string', from_version: int, );
 ```
 

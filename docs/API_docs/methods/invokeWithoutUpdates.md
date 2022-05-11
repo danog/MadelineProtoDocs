@@ -36,6 +36,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$X = $MadelineProto->invokeWithoutUpdates(['query' => !X, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$X = $MadelineProto->invokeWithoutUpdates(query: !X, );
 ```
 

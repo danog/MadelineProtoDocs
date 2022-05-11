@@ -41,6 +41,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_BotCallbackAnswer = $MadelineProto->messages->getBotCallbackAnswer(['game' => Bool, 'peer' => InputPeer, 'msg_id' => int, 'data' => 'bytes', 'password' => InputCheckPasswordSRP, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$messages_BotCallbackAnswer = $MadelineProto->messages->getBotCallbackAnswer(game: Bool, peer: InputPeer, msg_id: int, data: 'bytes', password: InputCheckPasswordSRP, );
 ```
 

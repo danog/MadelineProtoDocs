@@ -40,7 +40,8 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->report(['peer' => InputPeer, 'id' => [int, int], 'reason' => ReportReason, 'message' => 'string', ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Bool = $MadelineProto->messages->report(peer: InputPeer, id: [int, int], reason: ReportReason, message: 'string', );
 ```
 
 

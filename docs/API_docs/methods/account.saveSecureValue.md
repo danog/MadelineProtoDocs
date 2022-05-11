@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$SecureValue = $MadelineProto->account->saveSecureValue(['value' => InputSecureValue, 'secure_secret_id' => long, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$SecureValue = $MadelineProto->account->saveSecureValue(value: InputSecureValue, secure_secret_id: long, );
 ```
 

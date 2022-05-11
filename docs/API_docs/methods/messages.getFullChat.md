@@ -37,6 +37,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_ChatFull = $MadelineProto->messages->getFullChat(['chat_id' => InputPeer, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$messages_ChatFull = $MadelineProto->messages->getFullChat(chat_id: InputPeer, );
 ```
 

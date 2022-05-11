@@ -42,6 +42,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_SearchResultsPositions = $MadelineProto->messages->getSearchResultsPositions(['peer' => InputPeer, 'filter' => MessagesFilter, 'offset_id' => int, 'limit' => int, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$messages_SearchResultsPositions = $MadelineProto->messages->getSearchResultsPositions(peer: InputPeer, filter: MessagesFilter, offset_id: int, limit: int, );
 ```
 

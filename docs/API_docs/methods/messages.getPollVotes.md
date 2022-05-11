@@ -41,6 +41,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_VotesList = $MadelineProto->messages->getPollVotes(['peer' => InputPeer, 'id' => int, 'option' => 'bytes', 'offset' => 'string', 'limit' => int, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$messages_VotesList = $MadelineProto->messages->getPollVotes(peer: InputPeer, id: int, option: 'bytes', offset: 'string', limit: int, );
 ```
 

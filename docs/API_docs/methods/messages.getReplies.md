@@ -45,6 +45,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->messages->getReplies(['peer' => InputPeer, 'msg_id' => int, 'offset_id' => int, 'offset_date' => int, 'add_offset' => int, 'limit' => int, 'max_id' => int, 'min_id' => int, 'hash' => long, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$messages_Messages = $MadelineProto->messages->getReplies(peer: InputPeer, msg_id: int, offset_id: int, offset_date: int, add_offset: int, limit: int, max_id: int, min_id: int, hash: long, );
 ```
 

@@ -39,6 +39,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$upload_CdnFile = $MadelineProto->upload->getCdnFile(['file_token' => 'bytes', 'offset' => int, 'limit' => int, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$upload_CdnFile = $MadelineProto->upload->getCdnFile(file_token: 'bytes', offset: int, limit: int, );
 ```
 

@@ -42,6 +42,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->account->registerDevice(['no_muted' => Bool, 'token_type' => int, 'token' => 'string', 'app_sandbox' => Bool, 'secret' => 'bytes', 'other_uids' => [long, long], ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Bool = $MadelineProto->account->registerDevice(no_muted: Bool, token_type: int, token: 'string', app_sandbox: Bool, secret: 'bytes', other_uids: [long, long], );
 ```
 

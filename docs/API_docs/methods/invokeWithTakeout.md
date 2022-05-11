@@ -37,6 +37,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$X = $MadelineProto->invokeWithTakeout(['takeout_id' => long, 'query' => !X, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$X = $MadelineProto->invokeWithTakeout(takeout_id: long, query: !X, );
 ```
 

@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_MessageEditData = $MadelineProto->messages->getMessageEditData(['peer' => InputPeer, 'id' => int, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$messages_MessageEditData = $MadelineProto->messages->getMessageEditData(peer: InputPeer, id: int, );
 ```
 

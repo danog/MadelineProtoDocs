@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$payments_PaymentReceipt = $MadelineProto->payments->getPaymentReceipt(['peer' => InputPeer, 'msg_id' => int, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$payments_PaymentReceipt = $MadelineProto->payments->getPaymentReceipt(peer: InputPeer, msg_id: int, );
 ```
 

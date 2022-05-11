@@ -39,6 +39,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$User = $MadelineProto->account->changePhone(['phone_number' => 'string', 'phone_code_hash' => 'string', 'phone_code' => 'string', ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$User = $MadelineProto->account->changePhone(phone_number: 'string', phone_code_hash: 'string', phone_code: 'string', );
 ```
 

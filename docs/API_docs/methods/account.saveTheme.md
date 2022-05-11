@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->account->saveTheme(['theme' => InputTheme, 'unsave' => Bool, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Bool = $MadelineProto->account->saveTheme(theme: InputTheme, unsave: Bool, );
 ```
 

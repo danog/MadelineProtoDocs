@@ -36,6 +36,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_SavedRingtone = $MadelineProto->account->saveRingtone(['id' => InputDocument, 'unsave' => Bool, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$account_SavedRingtone = $MadelineProto->account->saveRingtone(id: InputDocument, unsave: Bool, );
 ```
 

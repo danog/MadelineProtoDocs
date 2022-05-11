@@ -40,6 +40,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->phone->createGroupCall(['rtmp_stream' => Bool, 'peer' => InputPeer, 'title' => 'string', 'schedule_date' => int, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Updates = $MadelineProto->phone->createGroupCall(rtmp_stream: Bool, peer: InputPeer, title: 'string', schedule_date: int, );
 ```
 

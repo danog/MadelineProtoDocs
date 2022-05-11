@@ -39,6 +39,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$User = $MadelineProto->account->updateProfile(['first_name' => 'string', 'last_name' => 'string', 'about' => 'string', ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$User = $MadelineProto->account->updateProfile(first_name: 'string', last_name: 'string', about: 'string', );
 ```
 

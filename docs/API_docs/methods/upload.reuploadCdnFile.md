@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_FileHash = $MadelineProto->upload->reuploadCdnFile(['file_token' => 'bytes', 'request_token' => 'bytes', ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Vector_of_FileHash = $MadelineProto->upload->reuploadCdnFile(file_token: 'bytes', request_token: 'bytes', );
 ```
 

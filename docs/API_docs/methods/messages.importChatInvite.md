@@ -37,6 +37,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->importChatInvite(['hash' => 'string', ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Updates = $MadelineProto->messages->importChatInvite(hash: 'string', );
 ```
 

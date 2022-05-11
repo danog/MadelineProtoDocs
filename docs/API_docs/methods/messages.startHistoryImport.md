@@ -39,6 +39,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->startHistoryImport(['peer' => InputPeer, 'import_id' => long, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Bool = $MadelineProto->messages->startHistoryImport(peer: InputPeer, import_id: long, );
 ```
 

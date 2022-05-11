@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->phone->saveDefaultGroupCallJoinAs(['peer' => InputPeer, 'join_as' => InputPeer, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Bool = $MadelineProto->phone->saveDefaultGroupCallJoinAs(peer: InputPeer, join_as: InputPeer, );
 ```
 

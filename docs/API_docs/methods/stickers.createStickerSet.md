@@ -45,6 +45,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_StickerSet = $MadelineProto->stickers->createStickerSet(['masks' => Bool, 'animated' => Bool, 'videos' => Bool, 'user_id' => InputUser, 'title' => 'string', 'short_name' => 'string', 'thumb' => InputDocument, 'stickers' => [InputStickerSetItem, InputStickerSetItem], 'software' => 'string', ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$messages_StickerSet = $MadelineProto->stickers->createStickerSet(masks: Bool, animated: Bool, videos: Bool, user_id: InputUser, title: 'string', short_name: 'string', thumb: InputDocument, stickers: [InputStickerSetItem, InputStickerSetItem], software: 'string', );
 ```
 

@@ -39,6 +39,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$photos_Photo = $MadelineProto->photos->uploadProfilePhoto(['file' => InputFile, 'video' => InputFile, 'video_start_ts' => double, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$photos_Photo = $MadelineProto->photos->uploadProfilePhoto(file: InputFile, video: InputFile, video_start_ts: double, );
 ```
 

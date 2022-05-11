@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->channels->setStickers(['channel' => InputChannel, 'stickerset' => InputStickerSet, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Bool = $MadelineProto->channels->setStickers(channel: InputChannel, stickerset: InputStickerSet, );
 ```
 

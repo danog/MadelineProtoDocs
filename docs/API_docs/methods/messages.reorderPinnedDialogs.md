@@ -39,6 +39,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->reorderPinnedDialogs(['force' => Bool, 'folder_id' => int, 'order' => [InputDialogPeer, InputDialogPeer], ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Bool = $MadelineProto->messages->reorderPinnedDialogs(force: Bool, folder_id: int, order: [InputDialogPeer, InputDialogPeer], );
 ```
 

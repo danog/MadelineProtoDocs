@@ -35,6 +35,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$BotMenuButton = $MadelineProto->bots->getBotMenuButton(['user_id' => InputUser, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$BotMenuButton = $MadelineProto->bots->getBotMenuButton(user_id: InputUser, );
 ```
 

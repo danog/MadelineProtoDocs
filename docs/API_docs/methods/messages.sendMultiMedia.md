@@ -45,6 +45,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendMultiMedia(['silent' => Bool, 'background' => Bool, 'clear_draft' => Bool, 'noforwards' => Bool, 'peer' => InputPeer, 'reply_to_msg_id' => int, 'multi_media' => [InputSingleMedia, InputSingleMedia], 'schedule_date' => int, 'send_as' => InputPeer, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Updates = $MadelineProto->messages->sendMultiMedia(silent: Bool, background: Bool, clear_draft: Bool, noforwards: Bool, peer: InputPeer, reply_to_msg_id: int, multi_media: [InputSingleMedia, InputSingleMedia], schedule_date: int, send_as: InputPeer, );
 ```
 

@@ -43,6 +43,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->channels->createChannel(['broadcast' => Bool, 'megagroup' => Bool, 'for_import' => Bool, 'title' => 'string', 'about' => 'string', 'geo_point' => InputGeoPoint, 'address' => 'string', ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Updates = $MadelineProto->channels->createChannel(broadcast: Bool, megagroup: Bool, for_import: Bool, title: 'string', about: 'string', geo_point: InputGeoPoint, address: 'string', );
 ```
 

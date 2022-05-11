@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Chats = $MadelineProto->channels->getAdminedPublicChannels(['by_location' => Bool, 'check_limit' => Bool, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$messages_Chats = $MadelineProto->channels->getAdminedPublicChannels(by_location: Bool, check_limit: Bool, );
 ```
 

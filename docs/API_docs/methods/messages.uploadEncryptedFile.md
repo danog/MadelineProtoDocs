@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$EncryptedFile = $MadelineProto->messages->uploadEncryptedFile(['peer' => InputEncryptedChat, 'file' => InputEncryptedFile, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$EncryptedFile = $MadelineProto->messages->uploadEncryptedFile(peer: InputEncryptedChat, file: InputEncryptedFile, );
 ```
 

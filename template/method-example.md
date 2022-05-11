@@ -10,6 +10,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$%s = $MadelineProto->%s([%s]);
+// PHP 8+ syntax, use an array on PHP 7.
+$%s = $MadelineProto->%s(%s);
 ```
 

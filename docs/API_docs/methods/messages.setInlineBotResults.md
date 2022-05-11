@@ -43,6 +43,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->setInlineBotResults(['gallery' => Bool, 'private' => Bool, 'query_id' => long, 'results' => [InputBotInlineResult, InputBotInlineResult], 'cache_time' => int, 'next_offset' => 'string', 'switch_pm' => InlineBotSwitchPM, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Bool = $MadelineProto->messages->setInlineBotResults(gallery: Bool, private: Bool, query_id: long, results: [InputBotInlineResult, InputBotInlineResult], cache_time: int, next_offset: 'string', switch_pm: InlineBotSwitchPM, );
 ```
 

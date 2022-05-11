@@ -40,6 +40,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->toggleStickerSets(['uninstall' => Bool, 'archive' => Bool, 'unarchive' => Bool, 'stickersets' => [InputStickerSet, InputStickerSet], ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Bool = $MadelineProto->messages->toggleStickerSets(uninstall: Bool, archive: Bool, unarchive: Bool, stickersets: [InputStickerSet, InputStickerSet], );
 ```
 

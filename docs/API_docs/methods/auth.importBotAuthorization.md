@@ -39,6 +39,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_Authorization = $MadelineProto->auth->importBotAuthorization(['api_id' => int, 'api_hash' => 'string', 'bot_auth_token' => 'string', ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$auth_Authorization = $MadelineProto->auth->importBotAuthorization(api_id: int, api_hash: 'string', bot_auth_token: 'string', );
 ```
 

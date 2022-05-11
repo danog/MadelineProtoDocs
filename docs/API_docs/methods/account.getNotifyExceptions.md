@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->account->getNotifyExceptions(['compare_sound' => Bool, 'peer' => InputNotifyPeer, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Updates = $MadelineProto->account->getNotifyExceptions(compare_sound: Bool, peer: InputNotifyPeer, );
 ```
 

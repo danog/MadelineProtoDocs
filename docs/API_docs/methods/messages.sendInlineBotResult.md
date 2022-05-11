@@ -46,6 +46,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendInlineBotResult(['silent' => Bool, 'background' => Bool, 'clear_draft' => Bool, 'hide_via' => Bool, 'peer' => InputPeer, 'reply_to_msg_id' => int, 'query_id' => long, 'id' => 'string', 'schedule_date' => int, 'send_as' => InputPeer, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Updates = $MadelineProto->messages->sendInlineBotResult(silent: Bool, background: Bool, clear_draft: Bool, hide_via: Bool, peer: InputPeer, reply_to_msg_id: int, query_id: long, id: 'string', schedule_date: int, send_as: InputPeer, );
 ```
 

@@ -47,6 +47,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->forwardMessages(['silent' => Bool, 'background' => Bool, 'with_my_score' => Bool, 'drop_author' => Bool, 'drop_media_captions' => Bool, 'noforwards' => Bool, 'from_peer' => InputPeer, 'id' => [int, int], 'to_peer' => InputPeer, 'schedule_date' => int, 'send_as' => InputPeer, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Updates = $MadelineProto->messages->forwardMessages(silent: Bool, background: Bool, with_my_score: Bool, drop_author: Bool, drop_media_captions: Bool, noforwards: Bool, from_peer: InputPeer, id: [int, int], to_peer: InputPeer, schedule_date: int, send_as: InputPeer, );
 ```
 

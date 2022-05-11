@@ -40,6 +40,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendReaction(['big' => Bool, 'peer' => InputPeer, 'msg_id' => int, 'reaction' => 'string', ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Updates = $MadelineProto->messages->sendReaction(big: Bool, peer: InputPeer, msg_id: int, reaction: 'string', );
 ```
 

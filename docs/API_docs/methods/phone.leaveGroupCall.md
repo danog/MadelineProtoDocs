@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->phone->leaveGroupCall(['call' => InputGroupCall, 'source' => int, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Updates = $MadelineProto->phone->leaveGroupCall(call: InputGroupCall, source: int, );
 ```
 

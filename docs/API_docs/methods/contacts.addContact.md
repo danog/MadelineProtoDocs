@@ -43,6 +43,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->contacts->addContact(['add_phone_privacy_exception' => Bool, 'id' => InputUser, 'first_name' => 'string', 'last_name' => 'string', 'phone' => 'string', ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Updates = $MadelineProto->contacts->addContact(add_phone_privacy_exception: Bool, id: InputUser, first_name: 'string', last_name: 'string', phone: 'string', );
 ```
 

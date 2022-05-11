@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_Authorization = $MadelineProto->auth->recoverPassword(['code' => 'string', 'new_settings' => account.PasswordInputSettings, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$auth_Authorization = $MadelineProto->auth->recoverPassword(code: 'string', new_settings: account.PasswordInputSettings, );
 ```
 

@@ -40,6 +40,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$phone_PhoneCall = $MadelineProto->phone->confirmCall(['peer' => InputPhoneCall, 'g_a' => 'bytes', 'key_fingerprint' => long, 'protocol' => PhoneCallProtocol, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$phone_PhoneCall = $MadelineProto->phone->confirmCall(peer: InputPhoneCall, g_a: 'bytes', key_fingerprint: long, protocol: PhoneCallProtocol, );
 ```
 

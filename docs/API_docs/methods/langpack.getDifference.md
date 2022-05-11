@@ -39,6 +39,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$LangPackDifference = $MadelineProto->langpack->getDifference(['lang_pack' => 'string', 'lang_code' => 'string', 'from_version' => int, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$LangPackDifference = $MadelineProto->langpack->getDifference(lang_pack: 'string', lang_code: 'string', from_version: int, );
 ```
 

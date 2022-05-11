@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$EncryptedChat = $MadelineProto->messages->requestEncryption(['user_id' => InputUser, 'g_a' => 'bytes', ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$EncryptedChat = $MadelineProto->messages->requestEncryption(user_id: InputUser, g_a: 'bytes', );
 ```
 

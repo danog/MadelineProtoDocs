@@ -50,6 +50,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->phone->editGroupCallParticipant(['call' => InputGroupCall, 'participant' => InputPeer, 'muted' => Bool, 'volume' => int, 'raise_hand' => Bool, 'video_stopped' => Bool, 'video_paused' => Bool, 'presentation_paused' => Bool, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Updates = $MadelineProto->phone->editGroupCallParticipant(call: InputGroupCall, participant: InputPeer, muted: Bool, volume: int, raise_hand: Bool, video_stopped: Bool, video_paused: Bool, presentation_paused: Bool, );
 ```
 

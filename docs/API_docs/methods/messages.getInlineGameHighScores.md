@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_HighScores = $MadelineProto->messages->getInlineGameHighScores(['id' => InputBotInlineMessageID, 'user_id' => InputUser, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$messages_HighScores = $MadelineProto->messages->getInlineGameHighScores(id: InputBotInlineMessageID, user_id: InputUser, );
 ```
 

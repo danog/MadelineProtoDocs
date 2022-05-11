@@ -39,6 +39,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts_ImportedContacts = $MadelineProto->contacts->importContacts(['contacts' => [InputContact, InputContact], ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$contacts_ImportedContacts = $MadelineProto->contacts->importContacts(contacts: [InputContact, InputContact], );
 ```
 

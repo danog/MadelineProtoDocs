@@ -41,6 +41,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_TranslatedText = $MadelineProto->messages->translateText(['peer' => InputPeer, 'msg_id' => int, 'text' => 'string', 'from_lang' => 'string', 'to_lang' => 'string', ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$messages_TranslatedText = $MadelineProto->messages->translateText(peer: InputPeer, msg_id: int, text: 'string', from_lang: 'string', to_lang: 'string', );
 ```
 

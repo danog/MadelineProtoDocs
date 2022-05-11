@@ -39,6 +39,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_FeaturedStickers = $MadelineProto->messages->getOldFeaturedStickers(['offset' => int, 'limit' => int, 'hash' => long, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$messages_FeaturedStickers = $MadelineProto->messages->getOldFeaturedStickers(offset: int, limit: int, hash: long, );
 ```
 

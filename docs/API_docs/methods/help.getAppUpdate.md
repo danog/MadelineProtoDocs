@@ -37,6 +37,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_AppUpdate = $MadelineProto->help->getAppUpdate(['source' => 'string', ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$help_AppUpdate = $MadelineProto->help->getAppUpdate(source: 'string', );
 ```
 

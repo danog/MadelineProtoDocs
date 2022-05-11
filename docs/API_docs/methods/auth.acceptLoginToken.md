@@ -41,6 +41,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Authorization = $MadelineProto->auth->acceptLoginToken(['token' => 'bytes', ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Authorization = $MadelineProto->auth->acceptLoginToken(token: 'bytes', );
 ```
 

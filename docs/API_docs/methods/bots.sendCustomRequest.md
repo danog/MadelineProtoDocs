@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$DataJSON = $MadelineProto->bots->sendCustomRequest(['custom_method' => 'string', 'params' => DataJSON, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$DataJSON = $MadelineProto->bots->sendCustomRequest(custom_method: 'string', params: DataJSON, );
 ```
 

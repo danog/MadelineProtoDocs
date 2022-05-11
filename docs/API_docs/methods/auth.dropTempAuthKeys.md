@@ -37,6 +37,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->auth->dropTempAuthKeys(['except_auth_keys' => [long, long], ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Bool = $MadelineProto->auth->dropTempAuthKeys(except_auth_keys: [long, long], );
 ```
 

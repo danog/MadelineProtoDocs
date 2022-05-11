@@ -41,6 +41,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$upload_File = $MadelineProto->upload->getFile(['precise' => Bool, 'cdn_supported' => Bool, 'location' => InputFileLocation, 'offset' => int, 'limit' => int, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$upload_File = $MadelineProto->upload->getFile(precise: Bool, cdn_supported: Bool, location: InputFileLocation, offset: int, limit: int, );
 ```
 

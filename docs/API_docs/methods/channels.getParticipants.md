@@ -41,6 +41,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$channels_ChannelParticipants = $MadelineProto->channels->getParticipants(['channel' => InputChannel, 'filter' => ChannelParticipantsFilter, 'offset' => int, 'limit' => int, 'hash' => long, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$channels_ChannelParticipants = $MadelineProto->channels->getParticipants(channel: InputChannel, filter: ChannelParticipantsFilter, offset: int, limit: int, hash: long, );
 ```
 

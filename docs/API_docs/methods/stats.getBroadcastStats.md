@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$stats_BroadcastStats = $MadelineProto->stats->getBroadcastStats(['dark' => Bool, 'channel' => InputChannel, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$stats_BroadcastStats = $MadelineProto->stats->getBroadcastStats(dark: Bool, channel: InputChannel, );
 ```
 

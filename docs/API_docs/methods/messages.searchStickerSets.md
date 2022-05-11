@@ -39,6 +39,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_FoundStickerSets = $MadelineProto->messages->searchStickerSets(['exclude_featured' => Bool, 'q' => 'string', 'hash' => long, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$messages_FoundStickerSets = $MadelineProto->messages->searchStickerSets(exclude_featured: Bool, q: 'string', hash: long, );
 ```
 

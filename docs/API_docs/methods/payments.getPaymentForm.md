@@ -39,6 +39,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$payments_PaymentForm = $MadelineProto->payments->getPaymentForm(['peer' => InputPeer, 'msg_id' => int, 'theme_params' => DataJSON, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$payments_PaymentForm = $MadelineProto->payments->getPaymentForm(peer: InputPeer, msg_id: int, theme_params: DataJSON, );
 ```
 

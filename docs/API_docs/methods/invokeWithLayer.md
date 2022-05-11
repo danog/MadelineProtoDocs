@@ -37,6 +37,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$X = $MadelineProto->invokeWithLayer(['layer' => int, 'query' => !X, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$X = $MadelineProto->invokeWithLayer(layer: int, query: !X, );
 ```
 

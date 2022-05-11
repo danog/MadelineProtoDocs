@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_StickerSetInstallResult = $MadelineProto->messages->installStickerSet(['stickerset' => InputStickerSet, 'archived' => Bool, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$messages_StickerSetInstallResult = $MadelineProto->messages->installStickerSet(stickerset: InputStickerSet, archived: Bool, );
 ```
 

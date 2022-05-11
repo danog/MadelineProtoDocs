@@ -42,6 +42,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->messages->getUnreadMentions(['peer' => InputPeer, 'offset_id' => int, 'add_offset' => int, 'limit' => int, 'max_id' => int, 'min_id' => int, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$messages_Messages = $MadelineProto->messages->getUnreadMentions(peer: InputPeer, offset_id: int, add_offset: int, limit: int, max_id: int, min_id: int, );
 ```
 

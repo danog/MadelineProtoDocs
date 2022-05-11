@@ -37,6 +37,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$ChatOnlines = $MadelineProto->messages->getOnlines(['peer' => InputPeer, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$ChatOnlines = $MadelineProto->messages->getOnlines(peer: InputPeer, );
 ```
 

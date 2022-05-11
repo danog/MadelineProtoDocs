@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts_Found = $MadelineProto->contacts->search(['q' => 'string', 'limit' => int, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$contacts_Found = $MadelineProto->contacts->search(q: 'string', limit: int, );
 ```
 

@@ -35,6 +35,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->bots->setBotGroupDefaultAdminRights(['admin_rights' => ChatAdminRights, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Bool = $MadelineProto->bots->setBotGroupDefaultAdminRights(admin_rights: ChatAdminRights, );
 ```
 

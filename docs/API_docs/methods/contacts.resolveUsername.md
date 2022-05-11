@@ -37,6 +37,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts_ResolvedPeer = $MadelineProto->contacts->resolveUsername(['username' => 'string', ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$contacts_ResolvedPeer = $MadelineProto->contacts->resolveUsername(username: 'string', );
 ```
 

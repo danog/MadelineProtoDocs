@@ -40,6 +40,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Theme = $MadelineProto->account->createTheme(['slug' => 'string', 'title' => 'string', 'document' => InputDocument, 'settings' => [InputThemeSettings, InputThemeSettings], ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Theme = $MadelineProto->account->createTheme(slug: 'string', title: 'string', document: InputDocument, settings: [InputThemeSettings, InputThemeSettings], );
 ```
 

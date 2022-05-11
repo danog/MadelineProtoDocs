@@ -43,7 +43,8 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->editInlineBotMessage(['no_webpage' => Bool, 'id' => InputBotInlineMessageID, 'message' => 'string', 'media' => InputMedia, 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity], 'parse_mode' => 'string', ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Bool = $MadelineProto->messages->editInlineBotMessage(no_webpage: Bool, id: InputBotInlineMessageID, message: 'string', media: InputMedia, reply_markup: ReplyMarkup, entities: [MessageEntity, MessageEntity], parse_mode: 'string', );
 ```
 
 

@@ -39,6 +39,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->bots->setBotCommands(['scope' => BotCommandScope, 'lang_code' => 'string', 'commands' => [BotCommand, BotCommand], ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Bool = $MadelineProto->bots->setBotCommands(scope: BotCommandScope, lang_code: 'string', commands: [BotCommand, BotCommand], );
 ```
 

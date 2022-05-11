@@ -37,6 +37,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->channels->joinChannel(['channel' => InputChannel, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Updates = $MadelineProto->channels->joinChannel(channel: InputChannel, );
 ```
 

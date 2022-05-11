@@ -37,6 +37,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$payments_BankCardData = $MadelineProto->payments->getBankCardData(['number' => 'string', ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$payments_BankCardData = $MadelineProto->payments->getBankCardData(number: 'string', );
 ```
 

@@ -43,6 +43,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Dialogs = $MadelineProto->messages->getDialogs(['exclude_pinned' => Bool, 'folder_id' => int, 'offset_date' => int, 'offset_id' => int, 'offset_peer' => InputPeer, 'limit' => int, 'hash' => long, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$messages_Dialogs = $MadelineProto->messages->getDialogs(exclude_pinned: Bool, folder_id: int, offset_date: int, offset_id: int, offset_peer: InputPeer, limit: int, hash: long, );
 ```
 

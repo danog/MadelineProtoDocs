@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_Themes = $MadelineProto->account->getThemes(['format' => 'string', 'hash' => long, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$account_Themes = $MadelineProto->account->getThemes(format: 'string', hash: long, );
 ```
 

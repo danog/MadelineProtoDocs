@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$phone_GroupCall = $MadelineProto->phone->getGroupCall(['call' => InputGroupCall, 'limit' => int, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$phone_GroupCall = $MadelineProto->phone->getGroupCall(call: InputGroupCall, limit: int, );
 ```
 

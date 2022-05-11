@@ -37,6 +37,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_DeepLinkInfo = $MadelineProto->help->getDeepLinkInfo(['path' => 'string', ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$help_DeepLinkInfo = $MadelineProto->help->getDeepLinkInfo(path: 'string', );
 ```
 

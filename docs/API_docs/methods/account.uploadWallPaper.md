@@ -39,6 +39,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$WallPaper = $MadelineProto->account->uploadWallPaper(['file' => InputFile, 'mime_type' => 'string', 'settings' => WallPaperSettings, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$WallPaper = $MadelineProto->account->uploadWallPaper(file: InputFile, mime_type: 'string', settings: WallPaperSettings, );
 ```
 

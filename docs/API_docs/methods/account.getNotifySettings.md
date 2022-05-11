@@ -37,6 +37,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$PeerNotifySettings = $MadelineProto->account->getNotifySettings(['peer' => InputNotifyPeer, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$PeerNotifySettings = $MadelineProto->account->getNotifySettings(peer: InputNotifyPeer, );
 ```
 

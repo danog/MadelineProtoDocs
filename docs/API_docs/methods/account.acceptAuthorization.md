@@ -41,6 +41,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->account->acceptAuthorization(['bot_id' => long, 'scope' => 'string', 'public_key' => 'string', 'value_hashes' => [SecureValueHash, SecureValueHash], 'credentials' => SecureCredentialsEncrypted, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Bool = $MadelineProto->account->acceptAuthorization(bot_id: long, scope: 'string', public_key: 'string', value_hashes: [SecureValueHash, SecureValueHash], credentials: SecureCredentialsEncrypted, );
 ```
 

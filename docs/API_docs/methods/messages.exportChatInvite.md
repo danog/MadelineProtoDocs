@@ -42,6 +42,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$ExportedChatInvite = $MadelineProto->messages->exportChatInvite(['legacy_revoke_permanent' => Bool, 'request_needed' => Bool, 'peer' => InputPeer, 'expire_date' => int, 'usage_limit' => int, 'title' => 'string', ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$ExportedChatInvite = $MadelineProto->messages->exportChatInvite(legacy_revoke_permanent: Bool, request_needed: Bool, peer: InputPeer, expire_date: int, usage_limit: int, title: 'string', );
 ```
 

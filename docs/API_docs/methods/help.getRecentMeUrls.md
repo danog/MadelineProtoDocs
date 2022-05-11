@@ -37,6 +37,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_RecentMeUrls = $MadelineProto->help->getRecentMeUrls(['referer' => 'string', ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$help_RecentMeUrls = $MadelineProto->help->getRecentMeUrls(referer: 'string', );
 ```
 

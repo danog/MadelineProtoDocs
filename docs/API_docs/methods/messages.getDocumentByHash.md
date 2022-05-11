@@ -39,6 +39,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Document = $MadelineProto->messages->getDocumentByHash(['sha256' => 'bytes', 'size' => int, 'mime_type' => 'string', ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Document = $MadelineProto->messages->getDocumentByHash(sha256: 'bytes', size: int, mime_type: 'string', );
 ```
 

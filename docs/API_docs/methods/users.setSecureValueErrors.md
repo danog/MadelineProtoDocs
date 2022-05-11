@@ -40,6 +40,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->users->setSecureValueErrors(['id' => InputUser, 'errors' => [SecureValueError, SecureValueError], ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Bool = $MadelineProto->users->setSecureValueErrors(id: InputUser, errors: [SecureValueError, SecureValueError], );
 ```
 

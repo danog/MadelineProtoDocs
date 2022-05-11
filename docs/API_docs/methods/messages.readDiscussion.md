@@ -39,6 +39,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->readDiscussion(['peer' => InputPeer, 'msg_id' => int, 'read_max_id' => int, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Bool = $MadelineProto->messages->readDiscussion(peer: InputPeer, msg_id: int, read_max_id: int, );
 ```
 

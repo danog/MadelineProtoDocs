@@ -38,6 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$LangPackLanguage = $MadelineProto->langpack->getLanguage(['lang_pack' => 'string', 'lang_code' => 'string', ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$LangPackLanguage = $MadelineProto->langpack->getLanguage(lang_pack: 'string', lang_code: 'string', );
 ```
 

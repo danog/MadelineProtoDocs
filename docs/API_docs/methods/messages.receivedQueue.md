@@ -37,6 +37,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_long = $MadelineProto->messages->receivedQueue(['max_qts' => int, ]);
+// PHP 8+ syntax, use an array on PHP 7.
+$Vector_of_long = $MadelineProto->messages->receivedQueue(max_qts: int, );
 ```
 
