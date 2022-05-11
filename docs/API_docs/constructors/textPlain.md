@@ -25,5 +25,6 @@ Plain text
 ### Example:
 
 ```php
+
 $textPlain = ['_' => 'textPlain', 'text' => 'string'];
 ```  

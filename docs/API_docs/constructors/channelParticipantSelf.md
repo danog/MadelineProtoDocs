@@ -28,5 +28,6 @@ Myself
 ### Example:
 
 ```php
+
 $channelParticipantSelf = ['_' => 'channelParticipantSelf', 'via_request' => Bool, 'user_id' => long, 'inviter_id' => long, 'date' => int];
 ```  

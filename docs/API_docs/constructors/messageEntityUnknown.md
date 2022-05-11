@@ -26,5 +26,6 @@ Unknown message entity
 ### Example:
 
 ```php
+
 $messageEntityUnknown = ['_' => 'messageEntityUnknown', 'offset' => int, 'length' => int];
 ```  

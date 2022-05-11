@@ -20,5 +20,6 @@ Empty constructor.
 ### Example:
 
 ```php
+
 $geoPointEmpty = ['_' => 'geoPointEmpty'];
 ```  

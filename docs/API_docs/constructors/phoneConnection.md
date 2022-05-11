@@ -29,5 +29,6 @@ Identifies an endpoint that can be used to connect to the other user in a phone 
 ### Example:
 
 ```php
+
 $phoneConnection = ['_' => 'phoneConnection', 'id' => long, 'ip' => 'string', 'ipv6' => 'string', 'port' => int, 'peer_tag' => 'bytes'];
 ```  

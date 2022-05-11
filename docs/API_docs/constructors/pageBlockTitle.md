@@ -25,5 +25,6 @@ Title
 ### Example:
 
 ```php
+
 $pageBlockTitle = ['_' => 'pageBlockTitle', 'text' => RichText];
 ```  

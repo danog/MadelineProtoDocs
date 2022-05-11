@@ -25,5 +25,6 @@ The specified bot commands will be valid only in a specific dialog.
 ### Example:
 
 ```php
+
 $botCommandScopePeer = ['_' => 'botCommandScopePeer', 'peer' => InputPeer];
 ```  

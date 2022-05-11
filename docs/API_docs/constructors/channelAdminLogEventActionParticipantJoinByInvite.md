@@ -25,5 +25,6 @@ A user joined the [supergroup/channel](https://core.telegram.org/api/channel) us
 ### Example:
 
 ```php
+
 $channelAdminLogEventActionParticipantJoinByInvite = ['_' => 'channelAdminLogEventActionParticipantJoinByInvite', 'invite' => ExportedChatInvite];
 ```  

@@ -31,5 +31,6 @@ Indicates an already sent game
 ### Example:
 
 ```php
+
 $game = ['_' => 'game', 'id' => long, 'access_hash' => long, 'short_name' => 'string', 'title' => 'string', 'description' => 'string', 'photo' => Photo, 'document' => Document];
 ```  

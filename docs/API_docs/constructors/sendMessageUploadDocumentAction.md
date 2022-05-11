@@ -25,5 +25,6 @@ User is uploading a file.
 ### Example:
 
 ```php
+
 $sendMessageUploadDocumentAction = ['_' => 'sendMessageUploadDocumentAction', 'progress' => int];
 ```  

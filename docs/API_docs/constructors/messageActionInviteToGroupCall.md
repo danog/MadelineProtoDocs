@@ -26,5 +26,6 @@ A set of users was invited to the group call
 ### Example:
 
 ```php
+
 $messageActionInviteToGroupCall = ['_' => 'messageActionInviteToGroupCall', 'call' => InputGroupCall, 'users' => [long, long]];
 ```  

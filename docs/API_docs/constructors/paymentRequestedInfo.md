@@ -28,5 +28,6 @@ Order info provided by the user
 ### Example:
 
 ```php
+
 $paymentRequestedInfo = ['_' => 'paymentRequestedInfo', 'name' => 'string', 'phone' => 'string', 'email' => 'string', 'shipping_address' => PostAddress];
 ```  

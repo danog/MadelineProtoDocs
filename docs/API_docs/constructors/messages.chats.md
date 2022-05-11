@@ -26,5 +26,6 @@ List of chats with auxiliary data.
 ### Example:
 
 ```php
+
 $messages_chats = ['_' => 'messages.chats', 'chats' => [Chat, Chat]];
 ```  

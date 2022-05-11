@@ -31,5 +31,6 @@ Video attached to an encrypted message.
 ### Example:
 
 ```php
+
 $decryptedMessageMediaVideo_8 = ['_' => 'decryptedMessageMediaVideo', 'thumb' => 'bytes', 'thumb_w' => int, 'thumb_h' => int, 'duration' => int, 'w' => int, 'h' => int, 'size' => int];
 ```  

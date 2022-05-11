@@ -26,5 +26,6 @@ The banned [rights](https://core.telegram.org/api/rights) of a user were changed
 ### Example:
 
 ```php
+
 $channelAdminLogEventActionParticipantToggleBan = ['_' => 'channelAdminLogEventActionParticipantToggleBan', 'prev_participant' => ChannelParticipant, 'new_participant' => ChannelParticipant];
 ```  

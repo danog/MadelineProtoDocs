@@ -26,5 +26,6 @@ Dialogs haven't changed
 ### Example:
 
 ```php
+
 $messages_dialogsNotModified = ['_' => 'messages.dialogsNotModified', 'count' => int];
 ```  

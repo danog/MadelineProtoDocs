@@ -25,5 +25,6 @@ Chat partner
 ### Example:
 
 ```php
+
 $peerUser = ['_' => 'peerUser', 'user_id' => long];
 ```  

@@ -25,5 +25,6 @@ A message was deleted
 ### Example:
 
 ```php
+
 $channelAdminLogEventActionDeleteMessage = ['_' => 'channelAdminLogEventActionDeleteMessage', 'message' => Message];
 ```  

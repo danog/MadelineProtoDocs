@@ -25,5 +25,6 @@ A user was invited to the group
 ### Example:
 
 ```php
+
 $channelAdminLogEventActionParticipantInvite = ['_' => 'channelAdminLogEventActionParticipantInvite', 'participant' => ChannelParticipant];
 ```  

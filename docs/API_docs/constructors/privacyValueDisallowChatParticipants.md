@@ -25,5 +25,6 @@ Disallow only participants of certain chats
 ### Example:
 
 ```php
+
 $privacyValueDisallowChatParticipants = ['_' => 'privacyValueDisallowChatParticipants', 'chats' => [long, long]];
 ```  

@@ -26,5 +26,6 @@ The stickerset was installed, but since there are too many stickersets some were
 ### Example:
 
 ```php
+
 $messages_stickerSetInstallResultArchive = ['_' => 'messages.stickerSetInstallResultArchive', 'sets' => [StickerSetCovered, StickerSetCovered]];
 ```  

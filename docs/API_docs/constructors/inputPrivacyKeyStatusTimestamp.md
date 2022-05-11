@@ -20,5 +20,6 @@ Whether we can see the exact last online timestamp of the user
 ### Example:
 
 ```php
+
 $inputPrivacyKeyStatusTimestamp = ['_' => 'inputPrivacyKeyStatusTimestamp'];
 ```  

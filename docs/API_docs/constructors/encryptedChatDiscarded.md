@@ -26,5 +26,6 @@ Discarded or deleted chat.
 ### Example:
 
 ```php
+
 $encryptedChatDiscarded = ['_' => 'encryptedChatDiscarded', 'history_deleted' => Bool, 'id' => int];
 ```  

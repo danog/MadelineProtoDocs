@@ -28,5 +28,6 @@ A user is typing in a [supergroup, channel](https://core.telegram.org/api/channe
 ### Example:
 
 ```php
+
 $updateChannelUserTyping = ['_' => 'updateChannelUserTyping', 'channel_id' => long, 'top_msg_id' => int, 'from_id' => Peer, 'action' => SendMessageAction];
 ```  

@@ -22,14 +22,15 @@ A game
 ### Type: [InputBotInlineMessage](/API_docs/types/InputBotInlineMessage.html)
 
 
-### Example:
-
-```php
-$inputBotInlineMessageGame = ['_' => 'inputBotInlineMessageGame', 'reply_markup' => ReplyMarkup];
-```  
 
 ## Usage of reply_markup
 
 You can provide bot API reply_markup objects here.  
 
 
+### Example:
+
+```php
+
+$inputBotInlineMessageGame = ['_' => 'inputBotInlineMessageGame', 'reply_markup' => ReplyMarkup];
+```  

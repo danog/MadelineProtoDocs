@@ -25,5 +25,6 @@ A new chat is available
 ### Example:
 
 ```php
+
 $updateChat = ['_' => 'updateChat', 'chat_id' => long];
 ```  

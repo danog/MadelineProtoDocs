@@ -27,5 +27,6 @@ A new incoming query; for bots only
 ### Example:
 
 ```php
+
 $updateBotWebhookJSONQuery = ['_' => 'updateBotWebhookJSONQuery', 'query_id' => long, 'data' => DataJSON, 'timeout' => int];
 ```  

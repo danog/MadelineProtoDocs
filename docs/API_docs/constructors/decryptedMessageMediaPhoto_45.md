@@ -31,5 +31,6 @@ Photo attached to an encrypted message.
 ### Example:
 
 ```php
+
 $decryptedMessageMediaPhoto_45 = ['_' => 'decryptedMessageMediaPhoto', 'thumb' => 'bytes', 'thumb_w' => int, 'thumb_h' => int, 'w' => int, 'h' => int, 'size' => int, 'caption' => 'string'];
 ```  

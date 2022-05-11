@@ -20,5 +20,6 @@ Channel notification settings
 ### Example:
 
 ```php
+
 $notifyBroadcasts = ['_' => 'notifyBroadcasts'];
 ```  

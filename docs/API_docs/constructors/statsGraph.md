@@ -26,5 +26,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```php
+
 $statsGraph = ['_' => 'statsGraph', 'json' => DataJSON, 'zoom_token' => 'string'];
 ```  

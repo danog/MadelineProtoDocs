@@ -32,5 +32,6 @@ MTProxy/Public Service Announcement information
 ### Example:
 
 ```php
+
 $help_promoData = ['_' => 'help.promoData', 'proxy' => Bool, 'expires' => int, 'peer' => Peer, 'chats' => [Chat, Chat], 'users' => [User, User], 'psa_type' => 'string', 'psa_message' => 'string'];
 ```  

@@ -26,5 +26,6 @@ You successfully requested a password reset, please wait until the specified dat
 ### Example:
 
 ```php
+
 $account_resetPasswordRequestedWait = ['_' => 'account.resetPasswordRequestedWait', 'until_date' => int];
 ```  

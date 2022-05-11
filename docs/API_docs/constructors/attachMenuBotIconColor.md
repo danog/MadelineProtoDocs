@@ -24,5 +24,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```php
+
 $attachMenuBotIconColor = ['_' => 'attachMenuBotIconColor', 'name' => 'string', 'color' => int];
 ```  

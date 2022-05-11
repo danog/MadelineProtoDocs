@@ -27,5 +27,6 @@ A message was edited
 ### Example:
 
 ```php
+
 $updateEditMessage = ['_' => 'updateEditMessage', 'message' => Message, 'pts' => int, 'pts_count' => int];
 ```  

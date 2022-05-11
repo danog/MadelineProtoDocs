@@ -27,5 +27,6 @@ Group members.
 ### Example:
 
 ```php
+
 $chatParticipants = ['_' => 'chatParticipants', 'chat_id' => long, 'participants' => [ChatParticipant, ChatParticipant], 'version' => int];
 ```  

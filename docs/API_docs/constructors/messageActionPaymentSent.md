@@ -26,5 +26,6 @@ A payment was sent
 ### Example:
 
 ```php
+
 $messageActionPaymentSent = ['_' => 'messageActionPaymentSent', 'currency' => 'string', 'total_amount' => long];
 ```  

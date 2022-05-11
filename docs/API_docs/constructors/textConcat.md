@@ -25,5 +25,6 @@ Concatenation of rich texts
 ### Example:
 
 ```php
+
 $textConcat = ['_' => 'textConcat', 'texts' => [RichText, RichText]];
 ```  

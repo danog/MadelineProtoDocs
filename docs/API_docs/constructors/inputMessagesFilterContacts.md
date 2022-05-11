@@ -20,5 +20,6 @@ Return only messages containing contacts
 ### Example:
 
 ```php
+
 $inputMessagesFilterContacts = ['_' => 'inputMessagesFilterContacts'];
 ```  

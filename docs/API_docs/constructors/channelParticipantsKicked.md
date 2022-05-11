@@ -25,5 +25,6 @@ Fetch only kicked participants
 ### Example:
 
 ```php
+
 $channelParticipantsKicked = ['_' => 'channelParticipantsKicked', 'q' => 'string'];
 ```  

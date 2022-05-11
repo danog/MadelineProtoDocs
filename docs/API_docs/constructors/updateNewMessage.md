@@ -27,5 +27,6 @@ New message in a private chat or in a [basic group](https://core.telegram.org/ap
 ### Example:
 
 ```php
+
 $updateNewMessage = ['_' => 'updateNewMessage', 'message' => Message, 'pts' => int, 'pts_count' => int];
 ```  

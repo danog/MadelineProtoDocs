@@ -21,5 +21,6 @@ No new favorited stickers were found
 ### Example:
 
 ```php
+
 $messages_favedStickersNotModified = ['_' => 'messages.favedStickersNotModified'];
 ```  

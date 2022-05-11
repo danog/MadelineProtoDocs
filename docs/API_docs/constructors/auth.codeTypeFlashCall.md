@@ -21,5 +21,6 @@ The next time, the authentication code will be delivered via an immediately canc
 ### Example:
 
 ```php
+
 $auth_codeTypeFlashCall = ['_' => 'auth.codeTypeFlashCall'];
 ```  

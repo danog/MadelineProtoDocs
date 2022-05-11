@@ -26,5 +26,6 @@ The file was cleared from the temporary RAM cache of the [CDN](https://core.tele
 ### Example:
 
 ```php
+
 $upload_cdnFileReuploadNeeded = ['_' => 'upload.cdnFileReuploadNeeded', 'request_token' => 'bytes'];
 ```  

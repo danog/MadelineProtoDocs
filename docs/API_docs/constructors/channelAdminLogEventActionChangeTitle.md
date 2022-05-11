@@ -26,5 +26,6 @@ Channel/supergroup title was changed
 ### Example:
 
 ```php
+
 $channelAdminLogEventActionChangeTitle = ['_' => 'channelAdminLogEventActionChangeTitle', 'prev_value' => 'string', 'new_value' => 'string'];
 ```  

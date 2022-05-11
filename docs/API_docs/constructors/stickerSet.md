@@ -39,5 +39,6 @@ Represents a stickerset (stickerpack)
 ### Example:
 
 ```php
+
 $stickerSet = ['_' => 'stickerSet', 'archived' => Bool, 'official' => Bool, 'masks' => Bool, 'animated' => Bool, 'videos' => Bool, 'installed_date' => int, 'id' => long, 'access_hash' => long, 'title' => 'string', 'short_name' => 'string', 'thumbs' => [PhotoSize, PhotoSize], 'thumb_dc_id' => int, 'thumb_version' => int, 'count' => int, 'hash' => int];
 ```  

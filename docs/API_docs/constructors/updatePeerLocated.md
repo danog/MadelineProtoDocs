@@ -25,5 +25,6 @@ List of peers near you was updated
 ### Example:
 
 ```php
+
 $updatePeerLocated = ['_' => 'updatePeerLocated', 'peers' => [PeerLocated, PeerLocated]];
 ```  

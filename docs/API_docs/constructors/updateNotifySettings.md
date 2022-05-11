@@ -26,5 +26,6 @@ Changes in notification settings.
 ### Example:
 
 ```php
+
 $updateNotifySettings = ['_' => 'updateNotifySettings', 'peer' => NotifyPeer, 'notify_settings' => PeerNotifySettings];
 ```  

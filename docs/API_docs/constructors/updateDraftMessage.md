@@ -26,5 +26,6 @@ Notifies a change of a message [draft](https://core.telegram.org/api/drafts).
 ### Example:
 
 ```php
+
 $updateDraftMessage = ['_' => 'updateDraftMessage', 'peer' => Peer, 'draft' => DraftMessage];
 ```  

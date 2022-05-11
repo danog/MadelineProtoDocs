@@ -29,5 +29,6 @@ Users found by name substring and auxiliary data.
 ### Example:
 
 ```php
+
 $contacts_found = ['_' => 'contacts.found', 'my_results' => [Peer, Peer], 'results' => [Peer, Peer], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

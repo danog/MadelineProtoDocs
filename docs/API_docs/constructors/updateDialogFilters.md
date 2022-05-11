@@ -20,5 +20,6 @@ Clients should update [folder](https://core.telegram.org/api/folders) info
 ### Example:
 
 ```php
+
 $updateDialogFilters = ['_' => 'updateDialogFilters'];
 ```  

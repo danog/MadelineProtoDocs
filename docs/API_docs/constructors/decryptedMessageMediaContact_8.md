@@ -28,5 +28,6 @@ Contact attached to an encrypted message.
 ### Example:
 
 ```php
+
 $decryptedMessageMediaContact_8 = ['_' => 'decryptedMessageMediaContact', 'phone_number' => 'string', 'first_name' => 'string', 'last_name' => 'string', 'user_id' => int];
 ```  

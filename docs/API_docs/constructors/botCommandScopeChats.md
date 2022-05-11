@@ -20,5 +20,6 @@ The specified bot commands will be valid in all [groups and supergroups](https:/
 ### Example:
 
 ```php
+
 $botCommandScopeChats = ['_' => 'botCommandScopeChats'];
 ```  

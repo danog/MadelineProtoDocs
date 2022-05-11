@@ -25,5 +25,6 @@ The Time-To-Live of messages in this chat was changed.
 ### Example:
 
 ```php
+
 $messageActionSetMessagesTTL = ['_' => 'messageActionSetMessagesTTL', 'period' => int];
 ```  

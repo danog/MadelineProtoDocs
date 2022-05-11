@@ -25,5 +25,6 @@ A language pack has changed, the client should manually fetch the changed string
 ### Example:
 
 ```php
+
 $updateLangPackTooLong = ['_' => 'updateLangPackTooLong', 'lang_code' => 'string'];
 ```  

@@ -20,5 +20,6 @@ Profile photo has not been set, or was hidden.
 ### Example:
 
 ```php
+
 $userProfilePhotoEmpty = ['_' => 'userProfilePhotoEmpty'];
 ```  

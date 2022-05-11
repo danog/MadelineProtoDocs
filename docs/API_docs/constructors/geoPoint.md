@@ -28,5 +28,6 @@ GeoPoint.
 ### Example:
 
 ```php
+
 $geoPoint = ['_' => 'geoPoint', 'long' => double, 'lat' => double, 'access_hash' => long, 'accuracy_radius' => int];
 ```  

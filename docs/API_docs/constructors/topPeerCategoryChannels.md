@@ -20,5 +20,6 @@ Most frequently visited channels
 ### Example:
 
 ```php
+
 $topPeerCategoryChannels = ['_' => 'topPeerCategoryChannels'];
 ```  

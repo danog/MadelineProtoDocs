@@ -31,5 +31,6 @@ Request to create an encrypted chat.
 ### Example:
 
 ```php
+
 $encryptedChatRequested = ['_' => 'encryptedChatRequested', 'folder_id' => int, 'id' => int, 'access_hash' => long, 'date' => int, 'admin_id' => long, 'participant_id' => long, 'g_a' => 'bytes'];
 ```  

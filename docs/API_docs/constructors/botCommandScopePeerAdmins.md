@@ -25,5 +25,6 @@ The specified bot commands will be valid for all admins of the specified [group 
 ### Example:
 
 ```php
+
 $botCommandScopePeerAdmins = ['_' => 'botCommandScopePeerAdmins', 'peer' => InputPeer];
 ```  

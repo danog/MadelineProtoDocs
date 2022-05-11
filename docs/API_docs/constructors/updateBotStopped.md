@@ -28,5 +28,6 @@ A bot was stopped or re-started.
 ### Example:
 
 ```php
+
 $updateBotStopped = ['_' => 'updateBotStopped', 'user_id' => long, 'date' => int, 'stopped' => Bool, 'qts' => int];
 ```  

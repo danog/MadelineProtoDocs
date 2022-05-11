@@ -26,5 +26,6 @@ Contact status update.
 ### Example:
 
 ```php
+
 $updateUserStatus = ['_' => 'updateUserStatus', 'user_id' => long, 'status' => UserStatus];
 ```  

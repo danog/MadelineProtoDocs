@@ -28,5 +28,6 @@ A poll
 ### Example:
 
 ```php
+
 $inputMediaPoll = ['_' => 'inputMediaPoll', 'poll' => Poll, 'correct_answers' => ['bytes', 'bytes'], 'solution' => 'string', 'solution_entities' => [MessageEntity, MessageEntity]];
 ```  

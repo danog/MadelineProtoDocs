@@ -20,5 +20,6 @@ NOOP action
 ### Example:
 
 ```php
+
 $decryptedMessageActionNoop_20 = ['_' => 'decryptedMessageActionNoop'];
 ```  

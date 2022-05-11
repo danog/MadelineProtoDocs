@@ -21,5 +21,6 @@ No new wallpapers were found
 ### Example:
 
 ```php
+
 $account_wallPapersNotModified = ['_' => 'account.wallPapersNotModified'];
 ```  

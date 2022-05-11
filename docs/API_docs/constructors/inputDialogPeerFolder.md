@@ -25,5 +25,6 @@ All peers in a [peer folder](https://core.telegram.org/api/folders#peer-folders)
 ### Example:
 
 ```php
+
 $inputDialogPeerFolder = ['_' => 'inputDialogPeerFolder', 'folder_id' => int];
 ```  

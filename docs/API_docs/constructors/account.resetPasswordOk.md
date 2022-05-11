@@ -21,5 +21,6 @@ The 2FA password was reset successfully.
 ### Example:
 
 ```php
+
 $account_resetPasswordOk = ['_' => 'account.resetPasswordOk'];
 ```  

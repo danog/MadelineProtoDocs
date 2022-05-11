@@ -26,5 +26,6 @@ Login via token (QR code) succeeded!
 ### Example:
 
 ```php
+
 $auth_loginTokenSuccess = ['_' => 'auth.loginTokenSuccess', 'authorization' => auth.Authorization];
 ```  

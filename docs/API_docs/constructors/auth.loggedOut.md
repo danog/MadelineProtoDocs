@@ -26,5 +26,6 @@ redirect_from: /API_docs/constructors/auth_loggedOut.html
 ### Example:
 
 ```php
+
 $auth_loggedOut = ['_' => 'auth.loggedOut', 'future_auth_token' => 'bytes'];
 ```  

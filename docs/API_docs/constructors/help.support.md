@@ -27,5 +27,6 @@ Info on support user.
 ### Example:
 
 ```php
+
 $help_support = ['_' => 'help.support', 'phone_number' => 'string', 'user' => User];
 ```  

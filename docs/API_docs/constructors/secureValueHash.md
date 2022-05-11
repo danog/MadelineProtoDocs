@@ -26,5 +26,6 @@ Secure value hash
 ### Example:
 
 ```php
+
 $secureValueHash = ['_' => 'secureValueHash', 'type' => SecureValueType, 'hash' => 'bytes'];
 ```  

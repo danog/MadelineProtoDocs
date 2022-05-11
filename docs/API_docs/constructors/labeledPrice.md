@@ -26,5 +26,6 @@ This object represents a portion of the price for goods or services.
 ### Example:
 
 ```php
+
 $labeledPrice = ['_' => 'labeledPrice', 'label' => 'string', 'amount' => long];
 ```  

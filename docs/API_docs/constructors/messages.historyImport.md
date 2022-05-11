@@ -26,5 +26,6 @@ ID of a specific [chat import session, click here for more info »](https://core
 ### Example:
 
 ```php
+
 $messages_historyImport = ['_' => 'messages.historyImport', 'id' => long];
 ```  

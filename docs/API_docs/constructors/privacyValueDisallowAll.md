@@ -20,5 +20,6 @@ Disallow all users
 ### Example:
 
 ```php
+
 $privacyValueDisallowAll = ['_' => 'privacyValueDisallowAll'];
 ```  

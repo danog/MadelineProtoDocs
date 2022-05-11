@@ -20,5 +20,6 @@ Often-opened groups and supergroups
 ### Example:
 
 ```php
+
 $topPeerCategoryGroups = ['_' => 'topPeerCategoryGroups'];
 ```  

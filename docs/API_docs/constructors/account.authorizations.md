@@ -27,5 +27,6 @@ Logged-in sessions
 ### Example:
 
 ```php
+
 $account_authorizations = ['_' => 'account.authorizations', 'authorization_ttl_days' => int, 'authorizations' => [Authorization, Authorization]];
 ```  

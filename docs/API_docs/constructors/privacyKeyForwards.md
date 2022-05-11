@@ -20,5 +20,6 @@ Whether messages forwarded from the user will be [anonymously forwarded](https:/
 ### Example:
 
 ```php
+
 $privacyKeyForwards = ['_' => 'privacyKeyForwards'];
 ```  

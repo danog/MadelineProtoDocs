@@ -26,5 +26,6 @@ Stickerset, with a specific stickers as preview
 ### Example:
 
 ```php
+
 $stickerSetMultiCovered = ['_' => 'stickerSetMultiCovered', 'set' => StickerSet, 'covers' => [Document, Document]];
 ```  

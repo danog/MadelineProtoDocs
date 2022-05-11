@@ -26,5 +26,6 @@ Secure [telegram passport](https://core.telegram.org/passport) values were recei
 ### Example:
 
 ```php
+
 $messageActionSecureValuesSentMe = ['_' => 'messageActionSecureValuesSentMe', 'values' => [SecureValue, SecureValue], 'credentials' => SecureCredentialsEncrypted];
 ```  

@@ -25,5 +25,6 @@ One of
 ### Example:
 
 ```php
+
 $secureRequiredTypeOneOf = ['_' => 'secureRequiredTypeOneOf', 'types' => [SecureRequiredType, SecureRequiredType]];
 ```  

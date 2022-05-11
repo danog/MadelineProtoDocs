@@ -26,5 +26,6 @@ Related articles
 ### Example:
 
 ```php
+
 $pageBlockRelatedArticles = ['_' => 'pageBlockRelatedArticles', 'title' => RichText, 'articles' => [PageRelatedArticle, PageRelatedArticle]];
 ```  

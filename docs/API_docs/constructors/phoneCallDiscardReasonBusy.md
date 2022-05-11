@@ -20,5 +20,6 @@ The phone call was discarded because the user is busy in another call
 ### Example:
 
 ```php
+
 $phoneCallDiscardReasonBusy = ['_' => 'phoneCallDiscardReasonBusy'];
 ```  

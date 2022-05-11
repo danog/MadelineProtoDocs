@@ -20,5 +20,6 @@ The specified bot commands will be valid only for chat administrators, in all [g
 ### Example:
 
 ```php
+
 $botCommandScopeChatAdmins = ['_' => 'botCommandScopeChatAdmins'];
 ```  

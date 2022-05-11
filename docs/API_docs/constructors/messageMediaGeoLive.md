@@ -28,5 +28,6 @@ Indicates a [live geolocation](https://core.telegram.org/api/live-location)
 ### Example:
 
 ```php
+
 $messageMediaGeoLive = ['_' => 'messageMediaGeoLive', 'geo' => GeoPoint, 'heading' => int, 'period' => int, 'proximity_notification_radius' => int];
 ```  

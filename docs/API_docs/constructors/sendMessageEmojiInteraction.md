@@ -27,5 +27,6 @@ User has clicked on an animated emoji triggering a [reaction, click here for mor
 ### Example:
 
 ```php
+
 $sendMessageEmojiInteraction = ['_' => 'sendMessageEmojiInteraction', 'emoticon' => 'string', 'msg_id' => int, 'interaction' => DataJSON];
 ```  

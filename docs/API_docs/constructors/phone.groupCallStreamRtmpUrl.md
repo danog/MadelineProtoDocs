@@ -27,5 +27,6 @@ RTMP URL and stream key to be used in streaming software
 ### Example:
 
 ```php
+
 $phone_groupCallStreamRtmpUrl = ['_' => 'phone.groupCallStreamRtmpUrl', 'url' => 'string', 'key' => 'string'];
 ```  

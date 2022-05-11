@@ -26,5 +26,6 @@ Represents a channel
 ### Example:
 
 ```php
+
 $inputChannel = ['_' => 'inputChannel', 'channel_id' => long, 'access_hash' => long];
 ```  

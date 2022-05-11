@@ -28,14 +28,15 @@ Send a venue
 ### Type: [BotInlineMessage](/API_docs/types/BotInlineMessage.html)
 
 
-### Example:
-
-```php
-$botInlineMessageMediaVenue = ['_' => 'botInlineMessageMediaVenue', 'geo' => GeoPoint, 'title' => 'string', 'address' => 'string', 'provider' => 'string', 'venue_id' => 'string', 'venue_type' => 'string', 'reply_markup' => ReplyMarkup];
-```  
 
 ## Usage of reply_markup
 
 You can provide bot API reply_markup objects here.  
 
 
+### Example:
+
+```php
+
+$botInlineMessageMediaVenue = ['_' => 'botInlineMessageMediaVenue', 'geo' => GeoPoint, 'title' => 'string', 'address' => 'string', 'provider' => 'string', 'venue_id' => 'string', 'venue_type' => 'string', 'reply_markup' => ReplyMarkup];
+```  

@@ -26,5 +26,6 @@ A message was edited
 ### Example:
 
 ```php
+
 $channelAdminLogEventActionEditMessage = ['_' => 'channelAdminLogEventActionEditMessage', 'prev_message' => Message, 'new_message' => Message];
 ```  

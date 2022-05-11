@@ -26,5 +26,6 @@ Message entity representing *italic text*.
 ### Example:
 
 ```php
+
 $messageEntityItalic = ['_' => 'messageEntityItalic', 'offset' => int, 'length' => int];
 ```  

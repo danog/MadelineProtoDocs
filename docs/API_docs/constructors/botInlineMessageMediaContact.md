@@ -26,14 +26,15 @@ Send a contact
 ### Type: [BotInlineMessage](/API_docs/types/BotInlineMessage.html)
 
 
-### Example:
-
-```php
-$botInlineMessageMediaContact = ['_' => 'botInlineMessageMediaContact', 'phone_number' => 'string', 'first_name' => 'string', 'last_name' => 'string', 'vcard' => 'string', 'reply_markup' => ReplyMarkup];
-```  
 
 ## Usage of reply_markup
 
 You can provide bot API reply_markup objects here.  
 
 
+### Example:
+
+```php
+
+$botInlineMessageMediaContact = ['_' => 'botInlineMessageMediaContact', 'phone_number' => 'string', 'first_name' => 'string', 'last_name' => 'string', 'vcard' => 'string', 'reply_markup' => ReplyMarkup];
+```  

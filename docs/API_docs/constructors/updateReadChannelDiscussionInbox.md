@@ -29,5 +29,6 @@ Incoming comments in a [discussion thread](https://core.telegram.org/api/threads
 ### Example:
 
 ```php
+
 $updateReadChannelDiscussionInbox = ['_' => 'updateReadChannelDiscussionInbox', 'channel_id' => long, 'top_msg_id' => int, 'read_max_id' => int, 'broadcast_id' => long, 'broadcast_post' => int];
 ```  

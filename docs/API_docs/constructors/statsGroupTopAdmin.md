@@ -28,5 +28,6 @@ Information about an active admin in a supergroup
 ### Example:
 
 ```php
+
 $statsGroupTopAdmin = ['_' => 'statsGroupTopAdmin', 'user_id' => long, 'deleted' => int, 'kicked' => int, 'banned' => int];
 ```  

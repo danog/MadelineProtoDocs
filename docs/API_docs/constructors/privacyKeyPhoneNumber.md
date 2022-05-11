@@ -20,5 +20,6 @@ Whether the user allows us to see his phone number
 ### Example:
 
 ```php
+
 $privacyKeyPhoneNumber = ['_' => 'privacyKeyPhoneNumber'];
 ```  

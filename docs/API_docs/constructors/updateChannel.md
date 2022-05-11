@@ -25,5 +25,6 @@ A new channel is available
 ### Example:
 
 ```php
+
 $updateChannel = ['_' => 'updateChannel', 'channel_id' => long];
 ```  

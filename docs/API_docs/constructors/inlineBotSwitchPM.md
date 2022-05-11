@@ -26,5 +26,6 @@ The bot requested the user to message them in private
 ### Example:
 
 ```php
+
 $inlineBotSwitchPM = ['_' => 'inlineBotSwitchPM', 'text' => 'string', 'start_param' => 'string'];
 ```  

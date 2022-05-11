@@ -30,5 +30,6 @@ Document (media of any type except for photos)
 ### Example:
 
 ```php
+
 $inputBotInlineResultDocument = ['_' => 'inputBotInlineResultDocument', 'id' => 'string', 'type' => 'string', 'title' => 'string', 'description' => 'string', 'document' => InputDocument, 'send_message' => InputBotInlineMessage];
 ```  

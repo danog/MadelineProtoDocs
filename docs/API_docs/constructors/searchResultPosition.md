@@ -27,5 +27,6 @@ Information about a message in a specific position
 ### Example:
 
 ```php
+
 $searchResultPosition = ['_' => 'searchResultPosition', 'msg_id' => int, 'date' => int, 'offset' => int];
 ```  

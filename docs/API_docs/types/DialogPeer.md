@@ -27,7 +27,19 @@ $DialogPeer = 'https://t.me/joinchat/asfln1-21fa_'; // t.me invite links
 
 ```
 
-A [Chat](Chat.html), a [User](User.html), an [InputPeer](InputPeer.html), an [InputDialogPeer](InputDialogPeer.html), an [InputNotifyPeer](InputNotifyPeer.html), an [InputUser](InputUser.html), an [InputChannel](InputChannel.html), a [Peer](Peer.html), an [DialogPeer](DialogPeer.html), [NotifyPeer](NotifyPeer.html), or a [Chat](Chat.html) object can also be used.
+You can also provide one of the following objects, instead, MadelineProto will handle conversion automatically:  
+
+- [Chat](Chat.html)
+- [User](User.html)
+- [InputPeer](InputPeer.html)
+- [InputDialogPeer](InputDialogPeer.html)
+- [InputNotifyPeer](InputNotifyPeer.html)
+- [InputUser](InputUser.html)
+- [InputChannel](InputChannel.html)
+- [Peer](Peer.html)
+- [DialogPeer](DialogPeer.html)
+- [NotifyPeer](NotifyPeer.html)
+- [Chat](Chat.html)
 
 
 

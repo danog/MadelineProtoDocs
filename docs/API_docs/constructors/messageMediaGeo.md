@@ -25,5 +25,6 @@ Attached map.
 ### Example:
 
 ```php
+
 $messageMediaGeo = ['_' => 'messageMediaGeo', 'geo' => GeoPoint];
 ```  

@@ -27,5 +27,6 @@ Inline image
 ### Example:
 
 ```php
+
 $textImage = ['_' => 'textImage', 'document_id' => long, 'w' => int, 'h' => int];
 ```  

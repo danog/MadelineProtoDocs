@@ -25,5 +25,6 @@ The user's offline status.
 ### Example:
 
 ```php
+
 $userStatusOffline = ['_' => 'userStatusOffline', 'was_online' => int];
 ```  

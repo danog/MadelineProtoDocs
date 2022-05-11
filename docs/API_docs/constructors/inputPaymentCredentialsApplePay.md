@@ -25,5 +25,6 @@ Apple pay payment credentials
 ### Example:
 
 ```php
+
 $inputPaymentCredentialsApplePay = ['_' => 'inputPaymentCredentialsApplePay', 'payment_data' => DataJSON];
 ```  

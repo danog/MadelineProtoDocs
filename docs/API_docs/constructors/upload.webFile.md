@@ -30,5 +30,6 @@ Represents a chunk of an [HTTP webfile](https://core.telegram.org/api/files) dow
 ### Example:
 
 ```php
+
 $upload_webFile = ['_' => 'upload.webFile', 'size' => int, 'mime_type' => 'string', 'file_type' => storage.FileType, 'mtime' => int, 'bytes' => 'bytes'];
 ```  

@@ -28,5 +28,6 @@ Encrypted message.
 ### Example:
 
 ```php
+
 $encryptedMessage = ['_' => 'encryptedMessage', 'chat_id' => int, 'date' => int, 'decrypted_message' => DecryptedMessage, 'file' => EncryptedFile];
 ```  

@@ -27,5 +27,6 @@ Installed themes
 ### Example:
 
 ```php
+
 $account_themes = ['_' => 'account.themes', 'hash' => long, 'themes' => [Theme, Theme]];
 ```  

@@ -27,5 +27,6 @@ A new message was sent in a [channel/supergroup](https://core.telegram.org/api/c
 ### Example:
 
 ```php
+
 $updateNewChannelMessage = ['_' => 'updateNewChannelMessage', 'message' => Message, 'pts' => int, 'pts_count' => int];
 ```  

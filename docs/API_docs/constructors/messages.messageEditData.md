@@ -26,5 +26,6 @@ Message edit data for media
 ### Example:
 
 ```php
+
 $messages_messageEditData = ['_' => 'messages.messageEditData', 'caption' => Bool];
 ```  

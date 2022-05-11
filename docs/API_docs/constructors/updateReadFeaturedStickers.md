@@ -20,5 +20,6 @@ Some featured stickers were marked as read
 ### Example:
 
 ```php
+
 $updateReadFeaturedStickers = ['_' => 'updateReadFeaturedStickers'];
 ```  

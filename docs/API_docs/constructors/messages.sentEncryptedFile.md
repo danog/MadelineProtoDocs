@@ -27,5 +27,6 @@ Message with a file enclosure sent to a protected chat
 ### Example:
 
 ```php
+
 $messages_sentEncryptedFile = ['_' => 'messages.sentEncryptedFile', 'date' => int, 'file' => EncryptedFile];
 ```  

@@ -26,5 +26,6 @@ Represent a chunk of a [CDN](https://core.telegram.org/cdn) file.
 ### Example:
 
 ```php
+
 $upload_cdnFile = ['_' => 'upload.cdnFile', 'bytes' => 'bytes'];
 ```  

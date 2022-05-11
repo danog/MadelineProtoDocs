@@ -25,5 +25,6 @@ Forwards were enabled or disabled
 ### Example:
 
 ```php
+
 $channelAdminLogEventActionToggleNoForwards = ['_' => 'channelAdminLogEventActionToggleNoForwards', 'new_value' => Bool];
 ```  

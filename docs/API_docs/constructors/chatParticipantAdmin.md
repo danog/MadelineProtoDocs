@@ -27,5 +27,6 @@ Chat admin
 ### Example:
 
 ```php
+
 $chatParticipantAdmin = ['_' => 'chatParticipantAdmin', 'user_id' => long, 'inviter_id' => long, 'date' => int];
 ```  

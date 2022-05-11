@@ -26,5 +26,6 @@ Indicates a range of chat messages
 ### Example:
 
 ```php
+
 $messageRange = ['_' => 'messageRange', 'min_id' => int, 'max_id' => int];
 ```  

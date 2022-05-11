@@ -20,5 +20,6 @@ The specified bot commands will only be valid in all private chats with users.
 ### Example:
 
 ```php
+
 $botCommandScopeUsers = ['_' => 'botCommandScopeUsers'];
 ```  

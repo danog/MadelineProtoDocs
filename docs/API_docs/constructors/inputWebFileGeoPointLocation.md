@@ -30,5 +30,6 @@ Geolocation
 ### Example:
 
 ```php
+
 $inputWebFileGeoPointLocation = ['_' => 'inputWebFileGeoPointLocation', 'geo_point' => InputGeoPoint, 'access_hash' => long, 'w' => int, 'h' => int, 'zoom' => int, 'scale' => int];
 ```  

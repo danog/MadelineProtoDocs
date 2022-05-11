@@ -28,5 +28,6 @@ Remote document that can be downloaded without [proxying through telegram](https
 ### Example:
 
 ```php
+
 $webDocumentNoProxy = ['_' => 'webDocumentNoProxy', 'url' => 'string', 'size' => int, 'mime_type' => 'string', 'attributes' => [DocumentAttribute, DocumentAttribute]];
 ```  

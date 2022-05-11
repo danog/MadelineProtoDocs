@@ -26,5 +26,6 @@ The description was changed
 ### Example:
 
 ```php
+
 $channelAdminLogEventActionChangeAbout = ['_' => 'channelAdminLogEventActionChangeAbout', 'prev_value' => 'string', 'new_value' => 'string'];
 ```  

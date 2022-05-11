@@ -26,5 +26,6 @@ Pinned dialogs were updated
 ### Example:
 
 ```php
+
 $updatePinnedDialogs = ['_' => 'updatePinnedDialogs', 'folder_id' => int, 'order' => [DialogPeer, DialogPeer]];
 ```  

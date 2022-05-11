@@ -25,5 +25,6 @@ A photo with stickers attached
 ### Example:
 
 ```php
+
 $inputStickeredMediaPhoto = ['_' => 'inputStickeredMediaPhoto', 'id' => InputPhoto];
 ```  

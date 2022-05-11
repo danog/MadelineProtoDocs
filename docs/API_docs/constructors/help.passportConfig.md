@@ -27,5 +27,6 @@ Telegram [passport](https://core.telegram.org/passport) configuration
 ### Example:
 
 ```php
+
 $help_passportConfig = ['_' => 'help.passportConfig', 'hash' => int, 'countries_langs' => DataJSON];
 ```  

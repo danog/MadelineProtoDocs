@@ -28,5 +28,6 @@ Document location (video, voice, audio, basically every type except photo)
 ### Example:
 
 ```php
+
 $inputDocumentFileLocation = ['_' => 'inputDocumentFileLocation', 'id' => long, 'access_hash' => long, 'file_reference' => 'bytes', 'thumb_size' => 'string'];
 ```  

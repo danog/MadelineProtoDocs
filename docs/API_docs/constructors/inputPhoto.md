@@ -27,5 +27,6 @@ Defines a photo for further interaction.
 ### Example:
 
 ```php
+
 $inputPhoto = ['_' => 'inputPhoto', 'id' => long, 'access_hash' => long, 'file_reference' => 'bytes'];
 ```  

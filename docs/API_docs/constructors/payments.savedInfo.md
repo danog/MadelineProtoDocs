@@ -27,5 +27,6 @@ Saved server-side order information
 ### Example:
 
 ```php
+
 $payments_savedInfo = ['_' => 'payments.savedInfo', 'has_saved_credentials' => Bool, 'saved_info' => PaymentRequestedInfo];
 ```  

@@ -27,5 +27,6 @@ Details about the authorization request, for more info [click here »](https://c
 ### Example:
 
 ```php
+
 $urlAuthResultRequest = ['_' => 'urlAuthResultRequest', 'request_write_access' => Bool, 'bot' => User, 'domain' => 'string'];
 ```  

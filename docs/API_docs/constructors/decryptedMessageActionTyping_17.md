@@ -25,5 +25,6 @@ User is preparing a message: typing, recording, uploading, etc.
 ### Example:
 
 ```php
+
 $decryptedMessageActionTyping_17 = ['_' => 'decryptedMessageActionTyping', 'action' => SendMessageAction];
 ```  

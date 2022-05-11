@@ -28,5 +28,6 @@ The document
 ### Example:
 
 ```php
+
 $inputWebDocument = ['_' => 'inputWebDocument', 'url' => 'string', 'size' => int, 'mime_type' => 'string', 'attributes' => [DocumentAttribute, DocumentAttribute]];
 ```  

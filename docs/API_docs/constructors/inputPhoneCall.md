@@ -26,5 +26,6 @@ Phone call
 ### Example:
 
 ```php
+
 $inputPhoneCall = ['_' => 'inputPhoneCall', 'id' => long, 'access_hash' => long];
 ```  

@@ -26,5 +26,6 @@ Pre-uploaded [passport](https://core.telegram.org/passport) file, for more info 
 ### Example:
 
 ```php
+
 $inputSecureFile = ['_' => 'inputSecureFile', 'id' => long, 'access_hash' => long];
 ```  

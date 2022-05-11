@@ -26,5 +26,6 @@ Button that links directly to a user profile
 ### Example:
 
 ```php
+
 $inputKeyboardButtonUserProfile = ['_' => 'inputKeyboardButtonUserProfile', 'text' => 'string', 'user_id' => InputUser];
 ```  

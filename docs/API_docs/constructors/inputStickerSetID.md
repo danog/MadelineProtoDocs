@@ -26,5 +26,6 @@ Stickerset by ID
 ### Example:
 
 ```php
+
 $inputStickerSetID = ['_' => 'inputStickerSetID', 'id' => long, 'access_hash' => long];
 ```  

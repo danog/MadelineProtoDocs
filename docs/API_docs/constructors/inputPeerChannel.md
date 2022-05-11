@@ -26,5 +26,6 @@ Defines a channel for further interaction.
 ### Example:
 
 ```php
+
 $inputPeerChannel = ['_' => 'inputPeerChannel', 'channel_id' => long, 'access_hash' => long];
 ```  

@@ -25,5 +25,6 @@ Fetch only participants that are also contacts
 ### Example:
 
 ```php
+
 $channelParticipantsContacts = ['_' => 'channelParticipantsContacts', 'q' => 'string'];
 ```  

@@ -27,5 +27,6 @@ Information about sparse positions of messages
 ### Example:
 
 ```php
+
 $messages_searchResultsPositions = ['_' => 'messages.searchResultsPositions', 'count' => int, 'positions' => [SearchResultsPosition, SearchResultsPosition]];
 ```  

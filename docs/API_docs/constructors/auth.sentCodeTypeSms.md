@@ -26,5 +26,6 @@ The code was sent via SMS
 ### Example:
 
 ```php
+
 $auth_sentCodeTypeSms = ['_' => 'auth.sentCodeTypeSms', 'length' => int];
 ```  

@@ -26,5 +26,6 @@ Attached photo.
 ### Example:
 
 ```php
+
 $messageMediaPhoto = ['_' => 'messageMediaPhoto', 'photo' => Photo, 'ttl_seconds' => int];
 ```  

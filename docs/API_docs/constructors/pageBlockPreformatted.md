@@ -26,5 +26,6 @@ Preformatted (`<pre>` text)
 ### Example:
 
 ```php
+
 $pageBlockPreformatted = ['_' => 'pageBlockPreformatted', 'text' => RichText, 'language' => 'string'];
 ```  

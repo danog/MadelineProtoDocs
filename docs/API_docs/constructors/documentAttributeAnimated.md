@@ -20,5 +20,6 @@ Defines an animated GIF
 ### Example:
 
 ```php
+
 $documentAttributeAnimated = ['_' => 'documentAttributeAnimated'];
 ```  

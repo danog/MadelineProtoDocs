@@ -26,5 +26,6 @@ An account with this phone number doesn't exist on telegram: the user has to [en
 ### Example:
 
 ```php
+
 $auth_authorizationSignUpRequired = ['_' => 'auth.authorizationSignUpRequired', 'terms_of_service' => help.TermsOfService];
 ```  

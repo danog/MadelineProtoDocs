@@ -20,5 +20,6 @@ A screenshot of the chat was taken
 ### Example:
 
 ```php
+
 $messageActionScreenshotTaken = ['_' => 'messageActionScreenshotTaken'];
 ```  

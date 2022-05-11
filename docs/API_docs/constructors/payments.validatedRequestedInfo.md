@@ -27,5 +27,6 @@ Validated user-provided info
 ### Example:
 
 ```php
+
 $payments_validatedRequestedInfo = ['_' => 'payments.validatedRequestedInfo', 'id' => 'string', 'shipping_options' => [ShippingOption, ShippingOption]];
 ```  

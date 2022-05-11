@@ -27,5 +27,6 @@ This filter will automatically remove anonymous admins, and return even non-part
 ### Example:
 
 ```php
+
 $channelParticipantsMentions = ['_' => 'channelParticipantsMentions', 'q' => 'string', 'top_msg_id' => int];
 ```  

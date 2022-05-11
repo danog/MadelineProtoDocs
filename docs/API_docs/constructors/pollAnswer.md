@@ -26,5 +26,6 @@ A possible answer of a poll
 ### Example:
 
 ```php
+
 $pollAnswer = ['_' => 'pollAnswer', 'text' => 'string', 'option' => 'bytes'];
 ```  

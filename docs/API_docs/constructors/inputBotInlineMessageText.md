@@ -25,14 +25,15 @@ Simple text message
 ### Type: [InputBotInlineMessage](/API_docs/types/InputBotInlineMessage.html)
 
 
-### Example:
-
-```php
-$inputBotInlineMessageText = ['_' => 'inputBotInlineMessageText', 'no_webpage' => Bool, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity], 'reply_markup' => ReplyMarkup];
-```  
 
 ## Usage of reply_markup
 
 You can provide bot API reply_markup objects here.  
 
 
+### Example:
+
+```php
+
+$inputBotInlineMessageText = ['_' => 'inputBotInlineMessageText', 'no_webpage' => Bool, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity], 'reply_markup' => ReplyMarkup];
+```  

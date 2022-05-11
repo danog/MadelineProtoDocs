@@ -28,5 +28,6 @@ A poll answer, and how users voted on it
 ### Example:
 
 ```php
+
 $pollAnswerVoters = ['_' => 'pollAnswerVoters', 'chosen' => Bool, 'correct' => Bool, 'option' => 'bytes', 'voters' => int];
 ```  

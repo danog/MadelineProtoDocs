@@ -20,5 +20,6 @@ User is recording a voice message.
 ### Example:
 
 ```php
+
 $sendMessageRecordAudioAction = ['_' => 'sendMessageRecordAudioAction'];
 ```  

@@ -26,5 +26,6 @@ A group to which the user has no access. E.g., because the user was kicked from 
 ### Example:
 
 ```php
+
 $chatForbidden = ['_' => 'chatForbidden', 'id' => long, 'title' => 'string'];
 ```  

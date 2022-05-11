@@ -20,5 +20,6 @@ All [channels](https://core.telegram.org/api/channel)
 ### Example:
 
 ```php
+
 $inputNotifyBroadcasts = ['_' => 'inputNotifyBroadcasts'];
 ```  

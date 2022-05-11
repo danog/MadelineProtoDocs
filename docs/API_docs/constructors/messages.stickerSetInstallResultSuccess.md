@@ -21,5 +21,6 @@ The stickerset was installed successfully
 ### Example:
 
 ```php
+
 $messages_stickerSetInstallResultSuccess = ['_' => 'messages.stickerSetInstallResultSuccess'];
 ```  

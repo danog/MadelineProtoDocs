@@ -30,5 +30,6 @@ Venue
 ### Example:
 
 ```php
+
 $messageMediaVenue = ['_' => 'messageMediaVenue', 'geo' => GeoPoint, 'title' => 'string', 'address' => 'string', 'provider' => 'string', 'venue_id' => 'string', 'venue_type' => 'string'];
 ```  

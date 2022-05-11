@@ -28,5 +28,6 @@ Top peers
 ### Example:
 
 ```php
+
 $contacts_topPeers = ['_' => 'contacts.topPeers', 'categories' => [TopPeerCategoryPeers, TopPeerCategoryPeers], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

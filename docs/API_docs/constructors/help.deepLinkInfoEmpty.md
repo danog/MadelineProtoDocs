@@ -21,5 +21,6 @@ Deep link info empty
 ### Example:
 
 ```php
+
 $help_deepLinkInfoEmpty = ['_' => 'help.deepLinkInfoEmpty'];
 ```  

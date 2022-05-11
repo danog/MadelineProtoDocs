@@ -27,5 +27,6 @@ Found stickers
 ### Example:
 
 ```php
+
 $messages_stickers = ['_' => 'messages.stickers', 'hash' => long, 'stickers' => [Document, Document]];
 ```  

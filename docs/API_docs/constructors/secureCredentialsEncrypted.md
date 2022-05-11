@@ -27,5 +27,6 @@ Encrypted credentials required to decrypt [telegram passport](https://core.teleg
 ### Example:
 
 ```php
+
 $secureCredentialsEncrypted = ['_' => 'secureCredentialsEncrypted', 'data' => 'bytes', 'hash' => 'bytes', 'secret' => 'bytes'];
 ```  

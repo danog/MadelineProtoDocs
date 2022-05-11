@@ -27,5 +27,6 @@ A message was edited in a [channel/supergroup](https://core.telegram.org/api/cha
 ### Example:
 
 ```php
+
 $updateEditChannelMessage = ['_' => 'updateEditChannelMessage', 'message' => Message, 'pts' => int, 'pts_count' => int];
 ```  

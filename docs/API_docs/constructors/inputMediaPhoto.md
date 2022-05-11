@@ -26,5 +26,6 @@ Forwarded photo
 ### Example:
 
 ```php
+
 $inputMediaPhoto = ['_' => 'inputMediaPhoto', 'id' => InputPhoto, 'ttl_seconds' => int];
 ```  

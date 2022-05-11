@@ -26,5 +26,6 @@ An invite to a group call or livestream
 ### Example:
 
 ```php
+
 $phone_exportedGroupCallInvite = ['_' => 'phone.exportedGroupCallInvite', 'link' => 'string'];
 ```  

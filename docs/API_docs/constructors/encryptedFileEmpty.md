@@ -20,5 +20,6 @@ Empty constructor, non-existing file.
 ### Example:
 
 ```php
+
 $encryptedFileEmpty = ['_' => 'encryptedFileEmpty'];
 ```  

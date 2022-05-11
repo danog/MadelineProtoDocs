@@ -25,5 +25,6 @@ User is watching an animated emoji reaction triggered by another user, [click he
 ### Example:
 
 ```php
+
 $sendMessageEmojiInteractionSeen = ['_' => 'sendMessageEmojiInteractionSeen', 'emoticon' => 'string'];
 ```  

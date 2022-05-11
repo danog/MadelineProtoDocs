@@ -20,5 +20,6 @@ No location (normal supergroup)
 ### Example:
 
 ```php
+
 $channelLocationEmpty = ['_' => 'channelLocationEmpty'];
 ```  

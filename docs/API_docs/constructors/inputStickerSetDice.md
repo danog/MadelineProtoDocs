@@ -25,5 +25,6 @@ Used for fetching [animated dice stickers](https://core.telegram.org/api/dice)
 ### Example:
 
 ```php
+
 $inputStickerSetDice = ['_' => 'inputStickerSetDice', 'emoticon' => 'string'];
 ```  

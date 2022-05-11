@@ -26,5 +26,6 @@ Payment identifier
 ### Example:
 
 ```php
+
 $paymentCharge = ['_' => 'paymentCharge', 'id' => 'string', 'provider_charge_id' => 'string'];
 ```  

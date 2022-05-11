@@ -25,5 +25,6 @@ Empty constructor, non-existent photo
 ### Example:
 
 ```php
+
 $photoEmpty = ['_' => 'photoEmpty', 'id' => long];
 ```  

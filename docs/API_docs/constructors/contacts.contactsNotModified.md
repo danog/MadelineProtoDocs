@@ -21,5 +21,6 @@ Contact list on the server is the same as the list on the client.
 ### Example:
 
 ```php
+
 $contacts_contactsNotModified = ['_' => 'contacts.contactsNotModified'];
 ```  

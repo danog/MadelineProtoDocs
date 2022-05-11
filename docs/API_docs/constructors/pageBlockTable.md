@@ -28,5 +28,6 @@ Table
 ### Example:
 
 ```php
+
 $pageBlockTable = ['_' => 'pageBlockTable', 'bordered' => Bool, 'striped' => Bool, 'title' => RichText, 'rows' => [PageTableRow, PageTableRow]];
 ```  

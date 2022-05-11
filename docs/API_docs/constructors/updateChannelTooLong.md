@@ -27,5 +27,6 @@ If the difference is too long or if the channel isn't currently in the states, s
 ### Example:
 
 ```php
+
 $updateChannelTooLong = ['_' => 'updateChannelTooLong', 'channel_id' => long, 'pts' => int];
 ```  

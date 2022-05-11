@@ -20,5 +20,6 @@ Current version of the client does not support this media type.
 ### Example:
 
 ```php
+
 $messageMediaUnsupported = ['_' => 'messageMediaUnsupported'];
 ```  

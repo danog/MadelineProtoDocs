@@ -30,5 +30,6 @@ Multiple searchResultsCalendarPeriod constructors are returned in [messages.sear
 ### Example:
 
 ```php
+
 $searchResultsCalendarPeriod = ['_' => 'searchResultsCalendarPeriod', 'date' => int, 'min_msg_id' => int, 'max_msg_id' => int, 'count' => int];
 ```  

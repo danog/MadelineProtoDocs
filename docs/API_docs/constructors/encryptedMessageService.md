@@ -27,5 +27,6 @@ Encrypted service message
 ### Example:
 
 ```php
+
 $encryptedMessageService = ['_' => 'encryptedMessageService', 'chat_id' => int, 'date' => int, 'decrypted_message' => DecryptedMessage];
 ```  

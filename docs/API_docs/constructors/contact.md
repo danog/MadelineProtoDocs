@@ -26,5 +26,6 @@ A contact of the current user that is registered in the system.
 ### Example:
 
 ```php
+
 $contact = ['_' => 'contact', 'user_id' => long, 'mutual' => Bool];
 ```  

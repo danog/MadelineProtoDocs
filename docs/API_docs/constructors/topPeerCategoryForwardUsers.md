@@ -20,5 +20,6 @@ Users to which the users often forwards messages to
 ### Example:
 
 ```php
+
 $topPeerCategoryForwardUsers = ['_' => 'topPeerCategoryForwardUsers'];
 ```  

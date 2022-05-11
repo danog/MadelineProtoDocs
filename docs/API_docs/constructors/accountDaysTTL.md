@@ -25,5 +25,6 @@ Time to live in days of the current account
 ### Example:
 
 ```php
+
 $accountDaysTTL = ['_' => 'accountDaysTTL', 'days' => int];
 ```  

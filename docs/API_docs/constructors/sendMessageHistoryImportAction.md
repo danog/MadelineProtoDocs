@@ -25,5 +25,6 @@ Chat history is being imported
 ### Example:
 
 ```php
+
 $sendMessageHistoryImportAction = ['_' => 'sendMessageHistoryImportAction', 'progress' => int];
 ```  

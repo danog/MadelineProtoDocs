@@ -20,5 +20,6 @@ Invalidate all previous action updates. E.g. when user deletes entered text or a
 ### Example:
 
 ```php
+
 $sendMessageCancelAction = ['_' => 'sendMessageCancelAction'];
 ```  

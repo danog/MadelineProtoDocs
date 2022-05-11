@@ -14,8 +14,6 @@ Created by <a href="https://daniil.it" target="_blank" rel="noopener">Daniil Gen
 
 Do join the official channel, [@MadelineProto](https://t.me/MadelineProto) and the [support groups](https://t.me/pwrtelegramgroup)!
 
-[Now with Telegram TON blockchain integration](https://github.com/danog/MadelineProto/blob/master/ton/README.md)!
-
 <a href="https://telegram.org/apps" target="_blank" rel="noopener">Approved by Telegram!</a>
 
 ## What's this?
@@ -194,7 +192,7 @@ You can find examples for nearly every MadelineProto function in
         * [Async sleep](https://docs.madelineproto.xyz/docs/ASYNC.html#async-sleep-does-not-block-the-main-thread)
         * [Async readline](https://docs.madelineproto.xyz/docs/ASYNC.html#async-readline-does-not-block-the-main-thread)
         * [Async echo](https://docs.madelineproto.xyz/docs/ASYNC.html#async-echo-does-not-block-the-main-thread)
-        * [MadelineProto artax HTTP client](https://docs.madelineproto.xyz/docs/ASYNC.html#madelineproto-artax-http-client)
+        * [MadelineProto HTTP client](https://docs.madelineproto.xyz/docs/ASYNC.html#madelineproto-http-client)
         * [Async forking](https://docs.madelineproto.xyz/docs/ASYNC.html#async-forking-does-green-thread-forking)
         * [Async flock](https://docs.madelineproto.xyz/docs/ASYNC.html#async-flock)
         * [Combining async operations](https://docs.madelineproto.xyz/docs/ASYNC.html#combining-async-operations)

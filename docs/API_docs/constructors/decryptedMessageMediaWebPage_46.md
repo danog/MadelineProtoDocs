@@ -25,5 +25,6 @@ Webpage preview
 ### Example:
 
 ```php
+
 $decryptedMessageMediaWebPage_46 = ['_' => 'decryptedMessageMediaWebPage', 'url' => 'string'];
 ```  

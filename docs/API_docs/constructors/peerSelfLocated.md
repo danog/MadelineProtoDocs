@@ -25,5 +25,6 @@ Current peer
 ### Example:
 
 ```php
+
 $peerSelfLocated = ['_' => 'peerSelfLocated', 'expires' => int];
 ```  

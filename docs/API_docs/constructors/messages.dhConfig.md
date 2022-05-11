@@ -29,5 +29,6 @@ New set of configuring parameters.
 ### Example:
 
 ```php
+
 $messages_dhConfig = ['_' => 'messages.dhConfig', 'g' => int, 'p' => 'bytes', 'version' => int, 'random' => 'bytes'];
 ```  

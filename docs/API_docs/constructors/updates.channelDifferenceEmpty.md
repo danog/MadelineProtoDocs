@@ -28,5 +28,6 @@ There are no new updates
 ### Example:
 
 ```php
+
 $updates_channelDifferenceEmpty = ['_' => 'updates.channelDifferenceEmpty', 'final' => Bool, 'pts' => int, 'timeout' => int];
 ```  

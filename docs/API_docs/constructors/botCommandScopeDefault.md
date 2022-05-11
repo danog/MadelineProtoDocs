@@ -20,5 +20,6 @@ The commands will be valid in all dialogs
 ### Example:
 
 ```php
+
 $botCommandScopeDefault = ['_' => 'botCommandScopeDefault'];
 ```  

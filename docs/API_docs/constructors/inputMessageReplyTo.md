@@ -25,5 +25,6 @@ Message to which the specified message replies to
 ### Example:
 
 ```php
+
 $inputMessageReplyTo = ['_' => 'inputMessageReplyTo', 'id' => int];
 ```  

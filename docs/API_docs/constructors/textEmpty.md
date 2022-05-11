@@ -20,5 +20,6 @@ Empty rich text element
 ### Example:
 
 ```php
+
 $textEmpty = ['_' => 'textEmpty'];
 ```  

@@ -26,5 +26,6 @@ The manual unread mark of a chat was changed
 ### Example:
 
 ```php
+
 $updateDialogUnreadMark = ['_' => 'updateDialogUnreadMark', 'unread' => Bool, 'peer' => DialogPeer];
 ```  

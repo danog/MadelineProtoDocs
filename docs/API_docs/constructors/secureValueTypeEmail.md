@@ -20,5 +20,6 @@ Email
 ### Example:
 
 ```php
+
 $secureValueTypeEmail = ['_' => 'secureValueTypeEmail'];
 ```  

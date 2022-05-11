@@ -27,5 +27,6 @@ Info about an RTMP stream in a group call or livestream
 ### Example:
 
 ```php
+
 $groupCallStreamChannel = ['_' => 'groupCallStreamChannel', 'channel' => int, 'scale' => int, 'last_timestamp_ms' => long];
 ```  

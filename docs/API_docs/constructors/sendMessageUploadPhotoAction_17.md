@@ -20,5 +20,6 @@ User is uploading a photo.
 ### Example:
 
 ```php
+
 $sendMessageUploadPhotoAction_17 = ['_' => 'sendMessageUploadPhotoAction'];
 ```  

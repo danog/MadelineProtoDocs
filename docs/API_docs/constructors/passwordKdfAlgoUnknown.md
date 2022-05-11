@@ -20,5 +20,6 @@ Unknown KDF (most likely, the client is outdated and does not support the specif
 ### Example:
 
 ```php
+
 $passwordKdfAlgoUnknown = ['_' => 'passwordKdfAlgoUnknown'];
 ```  

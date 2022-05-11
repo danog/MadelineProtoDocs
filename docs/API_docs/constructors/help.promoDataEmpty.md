@@ -26,5 +26,6 @@ No PSA/MTProxy info is available
 ### Example:
 
 ```php
+
 $help_promoDataEmpty = ['_' => 'help.promoDataEmpty', 'expires' => int];
 ```  

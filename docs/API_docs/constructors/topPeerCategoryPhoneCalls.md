@@ -20,5 +20,6 @@ Most frequently called users
 ### Example:
 
 ```php
+
 $topPeerCategoryPhoneCalls = ['_' => 'topPeerCategoryPhoneCalls'];
 ```  

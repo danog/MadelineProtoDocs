@@ -27,5 +27,6 @@ Message entity representing a [user mention](https://core.telegram.org/api/menti
 ### Example:
 
 ```php
+
 $messageEntityMentionName = ['_' => 'messageEntityMentionName', 'offset' => int, 'length' => int, 'user_id' => long];
 ```  

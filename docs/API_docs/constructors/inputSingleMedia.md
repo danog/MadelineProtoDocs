@@ -27,5 +27,6 @@ A single media in an [album or grouped media](https://core.telegram.org/api/file
 ### Example:
 
 ```php
+
 $inputSingleMedia = ['_' => 'inputSingleMedia', 'media' => InputMedia, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]];
 ```  

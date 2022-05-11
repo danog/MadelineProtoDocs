@@ -28,5 +28,6 @@ Admin log event
 ### Example:
 
 ```php
+
 $channelAdminLogEvent = ['_' => 'channelAdminLogEvent', 'id' => long, 'date' => int, 'user_id' => long, 'action' => ChannelAdminLogEventAction];
 ```  

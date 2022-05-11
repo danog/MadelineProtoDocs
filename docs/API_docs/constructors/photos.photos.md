@@ -27,5 +27,6 @@ Full list of photos with auxiliary data.
 ### Example:
 
 ```php
+
 $photos_photos = ['_' => 'photos.photos', 'photos' => [Photo, Photo], 'users' => [User, User]];
 ```  

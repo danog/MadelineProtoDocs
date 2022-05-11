@@ -20,5 +20,6 @@ Return only messages containing voice notes
 ### Example:
 
 ```php
+
 $inputMessagesFilterVoice = ['_' => 'inputMessagesFilterVoice'];
 ```  

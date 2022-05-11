@@ -25,5 +25,6 @@ New member in the group
 ### Example:
 
 ```php
+
 $messageActionChatAddUser = ['_' => 'messageActionChatAddUser', 'users' => [long, long]];
 ```  

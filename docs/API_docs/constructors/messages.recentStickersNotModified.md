@@ -21,5 +21,6 @@ No new recent sticker was found
 ### Example:
 
 ```php
+
 $messages_recentStickersNotModified = ['_' => 'messages.recentStickersNotModified'];
 ```  

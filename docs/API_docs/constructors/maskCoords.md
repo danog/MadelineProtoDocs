@@ -35,5 +35,6 @@ The `n` position indicates where the mask should be placed:
 ### Example:
 
 ```php
+
 $maskCoords = ['_' => 'maskCoords', 'n' => int, 'x' => double, 'y' => double, 'zoom' => double];
 ```  

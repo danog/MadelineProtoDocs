@@ -27,5 +27,6 @@ Message interaction counters
 ### Example:
 
 ```php
+
 $messageInteractionCounters = ['_' => 'messageInteractionCounters', 'msg_id' => int, 'views' => int, 'forwards' => int];
 ```  

@@ -26,5 +26,6 @@ The supergroup's stickerset was changed
 ### Example:
 
 ```php
+
 $channelAdminLogEventActionChangeStickerSet = ['_' => 'channelAdminLogEventActionChangeStickerSet', 'prev_stickerset' => InputStickerSet, 'new_stickerset' => InputStickerSet];
 ```  

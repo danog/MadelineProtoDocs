@@ -28,5 +28,6 @@ Defines a file saved in parts using the method [upload.saveFilePart](../methods/
 ### Example:
 
 ```php
+
 $inputFile = ['_' => 'inputFile', 'id' => long, 'parts' => int, 'name' => 'string', 'md5_checksum' => 'string'];
 ```  

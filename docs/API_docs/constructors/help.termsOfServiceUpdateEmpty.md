@@ -26,5 +26,6 @@ No changes were made to telegram's terms of service
 ### Example:
 
 ```php
+
 $help_termsOfServiceUpdateEmpty = ['_' => 'help.termsOfServiceUpdateEmpty', 'expires' => int];
 ```  

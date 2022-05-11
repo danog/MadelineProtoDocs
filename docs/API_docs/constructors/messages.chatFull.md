@@ -28,5 +28,6 @@ Full info about a [channel](https://core.telegram.org/api/channel#channels), [su
 ### Example:
 
 ```php
+
 $messages_chatFull = ['_' => 'messages.chatFull', 'full_chat' => ChatFull, 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

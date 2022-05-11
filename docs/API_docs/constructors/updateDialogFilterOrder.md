@@ -25,5 +25,6 @@ New [folder](https://core.telegram.org/api/folders) order
 ### Example:
 
 ```php
+
 $updateDialogFilterOrder = ['_' => 'updateDialogFilterOrder', 'order' => [int, int]];
 ```  

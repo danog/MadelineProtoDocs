@@ -28,5 +28,6 @@ Info about a video stream
 ### Example:
 
 ```php
+
 $groupCallParticipantVideo = ['_' => 'groupCallParticipantVideo', 'paused' => Bool, 'endpoint' => 'string', 'source_groups' => [GroupCallParticipantVideoSourceGroup, GroupCallParticipantVideoSourceGroup], 'audio_source' => int];
 ```  

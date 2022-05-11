@@ -25,5 +25,6 @@ Stickerset by short name, from `tg://addstickers?set=short_name`
 ### Example:
 
 ```php
+
 $inputStickerSetShortName = ['_' => 'inputStickerSetShortName', 'short_name' => 'string'];
 ```  

@@ -25,5 +25,6 @@ Configuration for [CDN](https://core.telegram.org/cdn) file downloads.
 ### Example:
 
 ```php
+
 $cdnConfig = ['_' => 'cdnConfig', 'public_keys' => [CdnPublicKey, CdnPublicKey]];
 ```  

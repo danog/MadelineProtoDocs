@@ -30,5 +30,6 @@ Updates state.
 ### Example:
 
 ```php
+
 $updates_state = ['_' => 'updates.state', 'pts' => int, 'qts' => int, 'date' => int, 'seq' => int, 'unread_count' => int];
 ```  

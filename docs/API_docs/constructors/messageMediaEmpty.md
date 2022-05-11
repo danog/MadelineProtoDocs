@@ -20,5 +20,6 @@ Empty constructor.
 ### Example:
 
 ```php
+
 $messageMediaEmpty = ['_' => 'messageMediaEmpty'];
 ```  

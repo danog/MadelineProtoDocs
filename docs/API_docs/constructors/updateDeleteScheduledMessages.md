@@ -26,5 +26,6 @@ Some [scheduled messages](https://core.telegram.org/api/scheduled-messages) were
 ### Example:
 
 ```php
+
 $updateDeleteScheduledMessages = ['_' => 'updateDeleteScheduledMessages', 'peer' => Peer, 'messages' => [int, int]];
 ```  

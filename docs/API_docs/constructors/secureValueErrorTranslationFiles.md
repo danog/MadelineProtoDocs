@@ -27,5 +27,6 @@ Represents an issue with the translated version of a document. The error is cons
 ### Example:
 
 ```php
+
 $secureValueErrorTranslationFiles = ['_' => 'secureValueErrorTranslationFiles', 'type' => SecureValueType, 'file_hash' => ['bytes', 'bytes'], 'text' => 'string'];
 ```  

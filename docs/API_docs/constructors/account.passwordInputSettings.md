@@ -30,5 +30,6 @@ Settings for setting up a new password
 ### Example:
 
 ```php
+
 $account_passwordInputSettings = ['_' => 'account.passwordInputSettings', 'new_algo' => PasswordKdfAlgo, 'new_password_hash' => 'bytes', 'hint' => 'string', 'email' => 'string', 'new_secure_settings' => SecureSecretSettings];
 ```  

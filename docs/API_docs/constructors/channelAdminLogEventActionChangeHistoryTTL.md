@@ -26,5 +26,6 @@ The Time-To-Live of messages in this chat was changed
 ### Example:
 
 ```php
+
 $channelAdminLogEventActionChangeHistoryTTL = ['_' => 'channelAdminLogEventActionChangeHistoryTTL', 'prev_value' => int, 'new_value' => int];
 ```  

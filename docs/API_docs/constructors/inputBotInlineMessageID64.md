@@ -28,5 +28,6 @@ Represents a sent inline message from the perspective of a bot
 ### Example:
 
 ```php
+
 $inputBotInlineMessageID64 = ['_' => 'inputBotInlineMessageID64', 'dc_id' => int, 'owner_id' => long, 'id' => int, 'access_hash' => long];
 ```  

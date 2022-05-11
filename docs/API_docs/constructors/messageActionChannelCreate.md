@@ -25,5 +25,6 @@ The channel was created
 ### Example:
 
 ```php
+
 $messageActionChannelCreate = ['_' => 'messageActionChannelCreate', 'title' => 'string'];
 ```  

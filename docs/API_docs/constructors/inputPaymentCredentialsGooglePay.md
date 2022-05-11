@@ -25,5 +25,6 @@ Google Pay payment credentials
 ### Example:
 
 ```php
+
 $inputPaymentCredentialsGooglePay = ['_' => 'inputPaymentCredentialsGooglePay', 'payment_token' => DataJSON];
 ```  

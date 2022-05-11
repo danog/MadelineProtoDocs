@@ -25,5 +25,6 @@ Channel/supergroup
 ### Example:
 
 ```php
+
 $peerChannel = ['_' => 'peerChannel', 'channel_id' => long];
 ```  

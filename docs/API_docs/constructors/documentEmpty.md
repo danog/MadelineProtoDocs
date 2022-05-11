@@ -25,5 +25,6 @@ Empty constructor, document doesn't exist.
 ### Example:
 
 ```php
+
 $documentEmpty = ['_' => 'documentEmpty', 'id' => long];
 ```  

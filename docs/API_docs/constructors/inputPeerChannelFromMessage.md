@@ -27,5 +27,6 @@ Defines a [min](https://core.telegram.org/api/min) channel that was seen in a ce
 ### Example:
 
 ```php
+
 $inputPeerChannelFromMessage = ['_' => 'inputPeerChannelFromMessage', 'peer' => InputPeer, 'msg_id' => int, 'channel_id' => long];
 ```  

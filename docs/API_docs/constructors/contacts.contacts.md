@@ -28,5 +28,6 @@ The current user's contact list and info on users.
 ### Example:
 
 ```php
+
 $contacts_contacts = ['_' => 'contacts.contacts', 'contacts' => [Contact, Contact], 'saved_count' => int, 'users' => [User, User]];
 ```  

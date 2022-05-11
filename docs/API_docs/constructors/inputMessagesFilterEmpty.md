@@ -20,5 +20,6 @@ Filter is absent.
 ### Example:
 
 ```php
+
 $inputMessagesFilterEmpty = ['_' => 'inputMessagesFilterEmpty'];
 ```  

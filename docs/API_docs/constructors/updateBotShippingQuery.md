@@ -28,5 +28,6 @@ This object contains information about an incoming shipping query.
 ### Example:
 
 ```php
+
 $updateBotShippingQuery = ['_' => 'updateBotShippingQuery', 'query_id' => long, 'user_id' => long, 'payload' => 'bytes', 'shipping_address' => PostAddress];
 ```  

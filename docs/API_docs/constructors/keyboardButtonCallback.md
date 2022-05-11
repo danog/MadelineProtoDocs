@@ -27,5 +27,6 @@ Callback button
 ### Example:
 
 ```php
+
 $keyboardButtonCallback = ['_' => 'keyboardButtonCallback', 'requires_password' => Bool, 'text' => 'string', 'data' => 'bytes'];
 ```  

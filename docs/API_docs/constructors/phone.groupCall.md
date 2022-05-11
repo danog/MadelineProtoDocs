@@ -30,5 +30,6 @@ Contains info about a group call, and partial info about its participants.
 ### Example:
 
 ```php
+
 $phone_groupCall = ['_' => 'phone.groupCall', 'call' => GroupCall, 'participants' => [GroupCallParticipant, GroupCallParticipant], 'participants_next_offset' => 'string', 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

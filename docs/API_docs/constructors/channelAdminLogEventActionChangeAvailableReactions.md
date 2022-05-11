@@ -26,5 +26,6 @@ The set of allowed [message reactions »](https://core.telegram.org/api/reaction
 ### Example:
 
 ```php
+
 $channelAdminLogEventActionChangeAvailableReactions = ['_' => 'channelAdminLogEventActionChangeAvailableReactions', 'prev_value' => ['string', 'string'], 'new_value' => ['string', 'string']];
 ```  

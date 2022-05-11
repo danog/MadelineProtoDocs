@@ -20,5 +20,6 @@ A contact just signed up to telegram
 ### Example:
 
 ```php
+
 $messageActionContactSignUp = ['_' => 'messageActionContactSignUp'];
 ```  

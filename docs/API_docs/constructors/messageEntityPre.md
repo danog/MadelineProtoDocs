@@ -27,5 +27,6 @@ Message entity representing a preformatted `codeblock`, allowing the user to spe
 ### Example:
 
 ```php
+
 $messageEntityPre = ['_' => 'messageEntityPre', 'offset' => int, 'length' => int, 'language' => 'string'];
 ```  

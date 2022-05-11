@@ -30,5 +30,6 @@ The file must be downloaded from a [CDN DC](https://core.telegram.org/cdn).
 ### Example:
 
 ```php
+
 $upload_fileCdnRedirect = ['_' => 'upload.fileCdnRedirect', 'dc_id' => int, 'file_token' => 'bytes', 'encryption_key' => 'bytes', 'encryption_iv' => 'bytes', 'file_hashes' => [FileHash, FileHash]];
 ```  

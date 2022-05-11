@@ -25,5 +25,6 @@ Request for secure [telegram passport](https://core.telegram.org/passport) value
 ### Example:
 
 ```php
+
 $messageActionSecureValuesSent = ['_' => 'messageActionSecureValuesSent', 'types' => [SecureValueType, SecureValueType]];
 ```  

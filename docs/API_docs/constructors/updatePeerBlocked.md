@@ -26,5 +26,6 @@ A peer was blocked
 ### Example:
 
 ```php
+
 $updatePeerBlocked = ['_' => 'updatePeerBlocked', 'peer_id' => Peer, 'blocked' => Bool];
 ```  

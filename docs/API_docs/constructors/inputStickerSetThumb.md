@@ -26,5 +26,6 @@ Location of stickerset thumbnail (see [files](https://core.telegram.org/api/file
 ### Example:
 
 ```php
+
 $inputStickerSetThumb = ['_' => 'inputStickerSetThumb', 'stickerset' => InputStickerSet, 'thumb_version' => int];
 ```  

@@ -20,5 +20,6 @@ Disallow only contacts
 ### Example:
 
 ```php
+
 $inputPrivacyValueDisallowContacts = ['_' => 'inputPrivacyValueDisallowContacts'];
 ```  

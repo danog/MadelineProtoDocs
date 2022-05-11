@@ -20,5 +20,6 @@ Driver's license
 ### Example:
 
 ```php
+
 $secureValueTypeDriverLicense = ['_' => 'secureValueTypeDriverLicense'];
 ```  

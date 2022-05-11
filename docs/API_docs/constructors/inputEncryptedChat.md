@@ -26,5 +26,6 @@ Creates an encrypted chat.
 ### Example:
 
 ```php
+
 $inputEncryptedChat = ['_' => 'inputEncryptedChat', 'chat_id' => int, 'access_hash' => long];
 ```  

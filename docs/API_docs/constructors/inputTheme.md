@@ -26,5 +26,6 @@ Theme
 ### Example:
 
 ```php
+
 $inputTheme = ['_' => 'inputTheme', 'id' => long, 'access_hash' => long];
 ```  

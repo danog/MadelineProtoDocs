@@ -27,5 +27,6 @@ The user is preparing a message in a group; typing, recording, uploading, etc. T
 ### Example:
 
 ```php
+
 $updateChatUserTyping = ['_' => 'updateChatUserTyping', 'chat_id' => long, 'from_id' => Peer, 'action' => SendMessageAction];
 ```  

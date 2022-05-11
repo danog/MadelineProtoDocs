@@ -28,5 +28,6 @@ Outgoing messages were read
 ### Example:
 
 ```php
+
 $updateReadHistoryOutbox = ['_' => 'updateReadHistoryOutbox', 'peer' => Peer, 'max_id' => int, 'pts' => int, 'pts_count' => int];
 ```  

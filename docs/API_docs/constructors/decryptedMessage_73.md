@@ -31,5 +31,6 @@ Contents of an encrypted message.
 ### Example:
 
 ```php
+
 $decryptedMessage_73 = ['_' => 'decryptedMessage', 'ttl' => int, 'message' => 'string', 'media' => DecryptedMessageMedia, 'entities' => [MessageEntity, MessageEntity], 'via_bot_name' => 'string', 'reply_to_random_id' => long, 'grouped_id' => long];
 ```  

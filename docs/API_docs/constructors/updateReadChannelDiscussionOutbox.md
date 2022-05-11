@@ -27,5 +27,6 @@ Outgoing comments in a [discussion thread](https://core.telegram.org/api/threads
 ### Example:
 
 ```php
+
 $updateReadChannelDiscussionOutbox = ['_' => 'updateReadChannelDiscussionOutbox', 'channel_id' => long, 'top_msg_id' => int, 'read_max_id' => int];
 ```  

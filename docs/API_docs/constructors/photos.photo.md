@@ -27,5 +27,6 @@ Photo with auxiliary data.
 ### Example:
 
 ```php
+
 $photos_photo = ['_' => 'photos.photo', 'photo' => Photo, 'users' => [User, User]];
 ```  

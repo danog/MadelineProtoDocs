@@ -25,5 +25,6 @@ Button to buy a product
 ### Example:
 
 ```php
+
 $keyboardButtonBuy = ['_' => 'keyboardButtonBuy', 'text' => 'string'];
 ```  

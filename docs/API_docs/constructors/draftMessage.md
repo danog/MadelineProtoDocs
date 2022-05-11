@@ -29,5 +29,6 @@ Represents a message [draft](https://core.telegram.org/api/drafts).
 ### Example:
 
 ```php
+
 $draftMessage = ['_' => 'draftMessage', 'no_webpage' => Bool, 'reply_to_msg_id' => int, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity], 'date' => int];
 ```  

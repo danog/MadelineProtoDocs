@@ -21,5 +21,6 @@ PNG image. MIME type: `image/png`.
 ### Example:
 
 ```php
+
 $storage_filePng = ['_' => 'storage.filePng'];
 ```  

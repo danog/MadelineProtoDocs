@@ -25,5 +25,6 @@ Changes in the data center configuration options.
 ### Example:
 
 ```php
+
 $updateDcOptions = ['_' => 'updateDcOptions', 'dc_options' => [DcOption, DcOption]];
 ```  

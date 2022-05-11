@@ -26,5 +26,6 @@ Geographical location of supergroup (geogroups)
 ### Example:
 
 ```php
+
 $channelLocation = ['_' => 'channelLocation', 'geo_point' => GeoPoint, 'address' => 'string'];
 ```  

@@ -25,5 +25,6 @@ Empty constructor.
 ### Example:
 
 ```php
+
 $encryptedChatEmpty = ['_' => 'encryptedChatEmpty', 'id' => int];
 ```  

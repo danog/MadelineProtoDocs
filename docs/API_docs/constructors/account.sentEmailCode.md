@@ -27,5 +27,6 @@ The sent email code
 ### Example:
 
 ```php
+
 $account_sentEmailCode = ['_' => 'account.sentEmailCode', 'email_pattern' => 'string', 'length' => int];
 ```  

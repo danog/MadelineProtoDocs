@@ -25,5 +25,6 @@ A group call participant was unmuted
 ### Example:
 
 ```php
+
 $channelAdminLogEventActionParticipantUnmute = ['_' => 'channelAdminLogEventActionParticipantUnmute', 'participant' => GroupCallParticipant];
 ```  

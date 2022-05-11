@@ -20,5 +20,6 @@ The inline query was sent in a [chat](https://core.telegram.org/api/channel)
 ### Example:
 
 ```php
+
 $inlineQueryPeerTypeChat = ['_' => 'inlineQueryPeerTypeChat'];
 ```  

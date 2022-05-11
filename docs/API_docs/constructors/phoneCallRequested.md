@@ -32,5 +32,6 @@ Requested phone call
 ### Example:
 
 ```php
+
 $phoneCallRequested = ['_' => 'phoneCallRequested', 'video' => Bool, 'id' => long, 'access_hash' => long, 'date' => int, 'admin_id' => long, 'participant_id' => long, 'g_a_hash' => 'bytes', 'protocol' => PhoneCallProtocol];
 ```  

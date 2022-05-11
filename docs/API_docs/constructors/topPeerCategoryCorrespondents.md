@@ -20,5 +20,6 @@ Users we've chatted most frequently with
 ### Example:
 
 ```php
+
 $topPeerCategoryCorrespondents = ['_' => 'topPeerCategoryCorrespondents'];
 ```  

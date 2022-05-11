@@ -20,5 +20,6 @@ Report for copyrighted content
 ### Example:
 
 ```php
+
 $inputReportReasonCopyright = ['_' => 'inputReportReasonCopyright'];
 ```  

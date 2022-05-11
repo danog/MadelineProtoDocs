@@ -20,5 +20,6 @@ The list of favorited stickers was changed, the client should call [messages.get
 ### Example:
 
 ```php
+
 $updateFavedStickers = ['_' => 'updateFavedStickers'];
 ```  

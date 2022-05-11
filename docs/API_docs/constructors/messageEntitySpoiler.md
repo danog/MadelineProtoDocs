@@ -26,5 +26,6 @@ Message entity representing a spoiler
 ### Example:
 
 ```php
+
 $messageEntitySpoiler = ['_' => 'messageEntitySpoiler', 'offset' => int, 'length' => int];
 ```  

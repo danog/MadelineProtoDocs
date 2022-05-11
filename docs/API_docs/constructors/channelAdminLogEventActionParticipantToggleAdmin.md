@@ -26,5 +26,6 @@ The admin [rights](https://core.telegram.org/api/rights) of a user were changed
 ### Example:
 
 ```php
+
 $channelAdminLogEventActionParticipantToggleAdmin = ['_' => 'channelAdminLogEventActionParticipantToggleAdmin', 'prev_participant' => ChannelParticipant, 'new_participant' => ChannelParticipant];
 ```  

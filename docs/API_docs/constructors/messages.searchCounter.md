@@ -28,5 +28,6 @@ Indicates how many results would be found by a [messages.search](../methods/mess
 ### Example:
 
 ```php
+
 $messages_searchCounter = ['_' => 'messages.searchCounter', 'inexact' => Bool, 'filter' => MessagesFilter, 'count' => int];
 ```  

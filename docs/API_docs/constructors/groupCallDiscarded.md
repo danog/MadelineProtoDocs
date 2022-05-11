@@ -27,5 +27,6 @@ An ended group call
 ### Example:
 
 ```php
+
 $groupCallDiscarded = ['_' => 'groupCallDiscarded', 'id' => long, 'access_hash' => long, 'duration' => int];
 ```  

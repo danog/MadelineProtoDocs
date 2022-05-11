@@ -26,5 +26,6 @@ Defines a user for further interaction.
 ### Example:
 
 ```php
+
 $inputUser = ['_' => 'inputUser', 'user_id' => long, 'access_hash' => long];
 ```  

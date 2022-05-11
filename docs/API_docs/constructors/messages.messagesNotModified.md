@@ -26,5 +26,6 @@ No new messages matching the query were found
 ### Example:
 
 ```php
+
 $messages_messagesNotModified = ['_' => 'messages.messagesNotModified', 'count' => int];
 ```  

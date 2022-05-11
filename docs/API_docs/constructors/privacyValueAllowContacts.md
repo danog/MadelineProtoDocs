@@ -20,5 +20,6 @@ Allow all contacts
 ### Example:
 
 ```php
+
 $privacyValueAllowContacts = ['_' => 'privacyValueAllowContacts'];
 ```  

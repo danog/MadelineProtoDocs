@@ -20,5 +20,6 @@ The phone call was disconnected
 ### Example:
 
 ```php
+
 $phoneCallDiscardReasonDisconnect = ['_' => 'phoneCallDiscardReasonDisconnect'];
 ```  

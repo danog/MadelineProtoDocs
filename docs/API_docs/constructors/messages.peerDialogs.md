@@ -30,5 +30,6 @@ Dialog info of multiple peers
 ### Example:
 
 ```php
+
 $messages_peerDialogs = ['_' => 'messages.peerDialogs', 'dialogs' => [Dialog, Dialog], 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User], 'state' => updates.State];
 ```  

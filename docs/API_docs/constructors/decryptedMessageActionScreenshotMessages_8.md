@@ -25,5 +25,6 @@ A screenshot was taken.
 ### Example:
 
 ```php
+
 $decryptedMessageActionScreenshotMessages_8 = ['_' => 'decryptedMessageActionScreenshotMessages', 'random_ids' => [long, long]];
 ```  

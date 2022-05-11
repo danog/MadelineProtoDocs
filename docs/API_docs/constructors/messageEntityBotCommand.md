@@ -26,5 +26,6 @@ Message entity representing a bot /command
 ### Example:
 
 ```php
+
 $messageEntityBotCommand = ['_' => 'messageEntityBotCommand', 'offset' => int, 'length' => int];
 ```  

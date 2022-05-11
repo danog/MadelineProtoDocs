@@ -25,5 +25,6 @@ Language pack updated
 ### Example:
 
 ```php
+
 $updateLangPack = ['_' => 'updateLangPack', 'difference' => LangPackDifference];
 ```  

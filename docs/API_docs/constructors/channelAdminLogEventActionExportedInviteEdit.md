@@ -26,5 +26,6 @@ A chat invite was edited
 ### Example:
 
 ```php
+
 $channelAdminLogEventActionExportedInviteEdit = ['_' => 'channelAdminLogEventActionExportedInviteEdit', 'prev_invite' => ExportedChatInvite, 'new_invite' => ExportedChatInvite];
 ```  

@@ -29,5 +29,6 @@ Contains the reason why access to a certain object must be restricted. Clients a
 ### Example:
 
 ```php
+
 $restrictionReason = ['_' => 'restrictionReason', 'platform' => 'string', 'reason' => 'string', 'text' => 'string'];
 ```  

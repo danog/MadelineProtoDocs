@@ -26,5 +26,6 @@ Contents of an encrypted message.
 ### Example:
 
 ```php
+
 $decryptedMessage_8 = ['_' => 'decryptedMessage', 'message' => 'string', 'media' => DecryptedMessageMedia];
 ```  

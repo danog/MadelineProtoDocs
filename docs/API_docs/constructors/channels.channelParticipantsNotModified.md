@@ -21,5 +21,6 @@ No new participant info could be found
 ### Example:
 
 ```php
+
 $channels_channelParticipantsNotModified = ['_' => 'channels.channelParticipantsNotModified'];
 ```  

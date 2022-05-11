@@ -20,5 +20,6 @@ The server-side configuration has changed; the client should re-fetch the config
 ### Example:
 
 ```php
+
 $updateConfig = ['_' => 'updateConfig'];
 ```  

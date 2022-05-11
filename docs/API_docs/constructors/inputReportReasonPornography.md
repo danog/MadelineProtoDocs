@@ -20,5 +20,6 @@ Report for pornography
 ### Example:
 
 ```php
+
 $inputReportReasonPornography = ['_' => 'inputReportReasonPornography'];
 ```  

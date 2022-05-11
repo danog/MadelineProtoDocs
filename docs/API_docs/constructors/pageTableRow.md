@@ -25,5 +25,6 @@ Table row
 ### Example:
 
 ```php
+
 $pageTableRow = ['_' => 'pageTableRow', 'cells' => [PageTableCell, PageTableCell]];
 ```  

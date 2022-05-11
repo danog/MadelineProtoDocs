@@ -26,5 +26,6 @@ Saved credit card
 ### Example:
 
 ```php
+
 $paymentSavedCredentialsCard = ['_' => 'paymentSavedCredentialsCard', 'id' => 'string', 'title' => 'string'];
 ```  

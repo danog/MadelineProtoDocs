@@ -32,5 +32,6 @@ Result of a query to an inline bot
 ### Example:
 
 ```php
+
 $messages_botResults = ['_' => 'messages.botResults', 'gallery' => Bool, 'query_id' => long, 'next_offset' => 'string', 'switch_pm' => InlineBotSwitchPM, 'results' => [BotInlineResult, BotInlineResult], 'cache_time' => int, 'users' => [User, User]];
 ```  

@@ -26,5 +26,6 @@ Contact status: online / offline.
 ### Example:
 
 ```php
+
 $contactStatus = ['_' => 'contactStatus', 'user_id' => long, 'status' => UserStatus];
 ```  

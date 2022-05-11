@@ -28,5 +28,6 @@ Represents an issue in one of the data fields that was provided by the user. The
 ### Example:
 
 ```php
+
 $secureValueErrorData = ['_' => 'secureValueErrorData', 'type' => SecureValueType, 'data_hash' => 'bytes', 'field' => 'string', 'text' => 'string'];
 ```  

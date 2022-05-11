@@ -28,5 +28,6 @@ Defines a sticker
 ### Example:
 
 ```php
+
 $documentAttributeSticker = ['_' => 'documentAttributeSticker', 'mask' => Bool, 'alt' => 'string', 'stickerset' => InputStickerSet, 'mask_coords' => MaskCoords];
 ```  

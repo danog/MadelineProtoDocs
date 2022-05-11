@@ -27,5 +27,6 @@ The [command set](https://core.telegram.org/bots/api#june-25-2021) of a certain 
 ### Example:
 
 ```php
+
 $updateBotCommands = ['_' => 'updateBotCommands', 'peer' => Peer, 'bot_id' => long, 'commands' => [BotCommand, BotCommand]];
 ```  

@@ -28,5 +28,6 @@ The specified chat invite was replaced with another one
 ### Example:
 
 ```php
+
 $messages_exportedChatInviteReplaced = ['_' => 'messages.exportedChatInviteReplaced', 'invite' => ExportedChatInvite, 'new_invite' => ExportedChatInvite, 'users' => [User, User]];
 ```  

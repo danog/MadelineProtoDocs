@@ -20,5 +20,6 @@ The phone call was ended normally
 ### Example:
 
 ```php
+
 $phoneCallDiscardReasonHangup = ['_' => 'phoneCallDiscardReasonHangup'];
 ```  

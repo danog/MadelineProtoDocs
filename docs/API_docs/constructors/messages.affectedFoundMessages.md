@@ -29,5 +29,6 @@ Messages found and affected by changes
 ### Example:
 
 ```php
+
 $messages_affectedFoundMessages = ['_' => 'messages.affectedFoundMessages', 'pts' => int, 'pts_count' => int, 'offset' => int, 'messages' => [int, int]];
 ```  

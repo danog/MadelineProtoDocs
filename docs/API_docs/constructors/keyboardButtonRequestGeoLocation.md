@@ -25,5 +25,6 @@ Button to request a user's geolocation
 ### Example:
 
 ```php
+
 $keyboardButtonRequestGeoLocation = ['_' => 'keyboardButtonRequestGeoLocation', 'text' => 'string'];
 ```  

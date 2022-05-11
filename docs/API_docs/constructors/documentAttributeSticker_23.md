@@ -20,5 +20,6 @@ Defines a sticker
 ### Example:
 
 ```php
+
 $documentAttributeSticker_23 = ['_' => 'documentAttributeSticker'];
 ```  

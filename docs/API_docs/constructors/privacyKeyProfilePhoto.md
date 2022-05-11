@@ -20,5 +20,6 @@ Whether the profile picture of the user is visible
 ### Example:
 
 ```php
+
 $privacyKeyProfilePhoto = ['_' => 'privacyKeyProfilePhoto'];
 ```  

@@ -20,5 +20,6 @@ Return only messages containing geolocations
 ### Example:
 
 ```php
+
 $inputMessagesFilterGeo = ['_' => 'inputMessagesFilterGeo'];
 ```  

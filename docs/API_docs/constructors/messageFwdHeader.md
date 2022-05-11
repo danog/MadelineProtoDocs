@@ -33,5 +33,6 @@ Info about a forwarded message
 ### Example:
 
 ```php
+
 $messageFwdHeader = ['_' => 'messageFwdHeader', 'imported' => Bool, 'from_id' => Peer, 'from_name' => 'string', 'date' => int, 'channel_post' => int, 'post_author' => 'string', 'saved_from_peer' => Peer, 'saved_from_msg_id' => int, 'psa_type' => 'string'];
 ```  

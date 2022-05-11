@@ -25,5 +25,6 @@ Defines a chat for further interaction.
 ### Example:
 
 ```php
+
 $inputPeerChat = ['_' => 'inputPeerChat', 'chat_id' => long];
 ```  

@@ -28,5 +28,6 @@ Admin log events
 ### Example:
 
 ```php
+
 $channels_adminLogResults = ['_' => 'channels.adminLogResults', 'events' => [ChannelAdminLogEvent, ChannelAdminLogEvent], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

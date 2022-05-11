@@ -27,5 +27,6 @@ The code will be sent via a flash phone call, that will be closed immediately. T
 ### Example:
 
 ```php
+
 $auth_sentCodeTypeMissedCall = ['_' => 'auth.sentCodeTypeMissedCall', 'prefix' => 'string', 'length' => int];
 ```  

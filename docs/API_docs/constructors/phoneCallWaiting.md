@@ -32,5 +32,6 @@ Incoming phone call
 ### Example:
 
 ```php
+
 $phoneCallWaiting = ['_' => 'phoneCallWaiting', 'video' => Bool, 'id' => long, 'access_hash' => long, 'date' => int, 'admin_id' => long, 'participant_id' => long, 'protocol' => PhoneCallProtocol, 'receive_date' => int];
 ```  

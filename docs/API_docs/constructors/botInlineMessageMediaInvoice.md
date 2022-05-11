@@ -29,14 +29,15 @@ Send an invoice
 ### Type: [BotInlineMessage](/API_docs/types/BotInlineMessage.html)
 
 
-### Example:
-
-```php
-$botInlineMessageMediaInvoice = ['_' => 'botInlineMessageMediaInvoice', 'shipping_address_requested' => Bool, 'test' => Bool, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'currency' => 'string', 'total_amount' => long, 'reply_markup' => ReplyMarkup];
-```  
 
 ## Usage of reply_markup
 
 You can provide bot API reply_markup objects here.  
 
 
+### Example:
+
+```php
+
+$botInlineMessageMediaInvoice = ['_' => 'botInlineMessageMediaInvoice', 'shipping_address_requested' => Bool, 'test' => Bool, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'currency' => 'string', 'total_amount' => long, 'reply_markup' => ReplyMarkup];
+```  

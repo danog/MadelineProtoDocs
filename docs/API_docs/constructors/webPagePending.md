@@ -26,5 +26,6 @@ A preview of the webpage is currently being generated
 ### Example:
 
 ```php
+
 $webPagePending = ['_' => 'webPagePending', 'id' => long, 'date' => int];
 ```  

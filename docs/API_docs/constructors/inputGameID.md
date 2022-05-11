@@ -26,5 +26,6 @@ Indicates an already sent game
 ### Example:
 
 ```php
+
 $inputGameID = ['_' => 'inputGameID', 'id' => long, 'access_hash' => long];
 ```  

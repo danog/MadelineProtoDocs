@@ -20,5 +20,6 @@ Too many updates, it is necessary to execute [updates.getDifference](../methods/
 ### Example:
 
 ```php
+
 $updatesTooLong = ['_' => 'updatesTooLong'];
 ```  

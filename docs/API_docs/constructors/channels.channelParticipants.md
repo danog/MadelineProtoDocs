@@ -29,5 +29,6 @@ Represents multiple channel participants
 ### Example:
 
 ```php
+
 $channels_channelParticipants = ['_' => 'channels.channelParticipants', 'count' => int, 'participants' => [ChannelParticipant, ChannelParticipant], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

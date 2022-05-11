@@ -31,5 +31,6 @@ A callback button was pressed, and the button data was sent to the bot that crea
 ### Example:
 
 ```php
+
 $updateBotCallbackQuery = ['_' => 'updateBotCallbackQuery', 'query_id' => long, 'user_id' => long, 'peer' => Peer, 'msg_id' => int, 'chat_instance' => long, 'data' => 'bytes', 'game_short_name' => 'string'];
 ```  

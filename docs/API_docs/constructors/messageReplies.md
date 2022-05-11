@@ -31,5 +31,6 @@ Info about [the comment section of a channel post, or a simple message thread](h
 ### Example:
 
 ```php
+
 $messageReplies = ['_' => 'messageReplies', 'comments' => Bool, 'replies' => int, 'replies_pts' => int, 'recent_repliers' => [Peer, Peer], 'channel_id' => long, 'max_id' => int, 'read_max_id' => int];
 ```  

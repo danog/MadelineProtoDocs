@@ -20,5 +20,6 @@ There is no password
 ### Example:
 
 ```php
+
 $inputCheckPasswordEmpty = ['_' => 'inputCheckPasswordEmpty'];
 ```  

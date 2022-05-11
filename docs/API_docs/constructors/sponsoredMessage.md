@@ -31,5 +31,6 @@ A [sponsored message](https://core.telegram.org/api/sponsored-messages).
 ### Example:
 
 ```php
+
 $sponsoredMessage = ['_' => 'sponsoredMessage', 'from_id' => Peer, 'chat_invite' => ChatInvite, 'chat_invite_hash' => 'string', 'channel_post' => int, 'start_param' => 'string', 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]];
 ```  

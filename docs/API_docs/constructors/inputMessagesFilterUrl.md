@@ -20,5 +20,6 @@ Return only messages containing URLs
 ### Example:
 
 ```php
+
 $inputMessagesFilterUrl = ['_' => 'inputMessagesFilterUrl'];
 ```  

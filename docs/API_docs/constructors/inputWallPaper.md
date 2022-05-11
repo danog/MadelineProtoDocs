@@ -26,5 +26,6 @@ Wallpaper
 ### Example:
 
 ```php
+
 $inputWallPaper = ['_' => 'inputWallPaper', 'id' => long, 'access_hash' => long];
 ```  

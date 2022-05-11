@@ -46,5 +46,6 @@ It should be also noted that some messages like live location messages shouldn't
 ### Example:
 
 ```php
+
 $updates_channelDifferenceTooLong = ['_' => 'updates.channelDifferenceTooLong', 'final' => Bool, 'timeout' => int, 'dialog' => Dialog, 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

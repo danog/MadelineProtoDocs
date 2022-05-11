@@ -26,5 +26,6 @@ Quote (equivalent to the HTML `<blockquote>`)
 ### Example:
 
 ```php
+
 $pageBlockBlockquote = ['_' => 'pageBlockBlockquote', 'text' => RichText, 'caption' => RichText];
 ```  

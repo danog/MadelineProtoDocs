@@ -42,5 +42,6 @@ Webpage preview
 ### Example:
 
 ```php
+
 $webPage = ['_' => 'webPage', 'id' => long, 'url' => 'string', 'display_url' => 'string', 'hash' => int, 'type' => 'string', 'site_name' => 'string', 'title' => 'string', 'description' => 'string', 'photo' => Photo, 'embed_url' => 'string', 'embed_type' => 'string', 'embed_width' => int, 'embed_height' => int, 'duration' => int, 'author' => 'string', 'document' => Document, 'cached_page' => Page, 'attributes' => [WebPageAttribute, WebPageAttribute]];
 ```  

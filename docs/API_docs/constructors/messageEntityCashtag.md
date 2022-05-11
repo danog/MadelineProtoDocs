@@ -26,5 +26,6 @@ Message entity representing a **$cashtag**.
 ### Example:
 
 ```php
+
 $messageEntityCashtag = ['_' => 'messageEntityCashtag', 'offset' => int, 'length' => int];
 ```  

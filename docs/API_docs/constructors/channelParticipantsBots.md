@@ -20,5 +20,6 @@ Fetch only bot participants
 ### Example:
 
 ```php
+
 $channelParticipantsBots = ['_' => 'channelParticipantsBots'];
 ```  

@@ -26,5 +26,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```php
+
 $attachMenuBot = ['_' => 'attachMenuBot', 'inactive' => Bool, 'bot_id' => long, 'short_name' => 'string', 'icons' => [AttachMenuBotIcon, AttachMenuBotIcon]];
 ```  

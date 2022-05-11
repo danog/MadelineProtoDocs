@@ -27,5 +27,6 @@ Animations and metadata associated with [message reactions »](https://core.tele
 ### Example:
 
 ```php
+
 $messages_availableReactions = ['_' => 'messages.availableReactions', 'hash' => int, 'reactions' => [AvailableReaction, AvailableReaction]];
 ```  

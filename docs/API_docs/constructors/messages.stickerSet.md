@@ -28,5 +28,6 @@ Stickerset and stickers inside it
 ### Example:
 
 ```php
+
 $messages_stickerSet = ['_' => 'messages.stickerSet', 'set' => StickerSet, 'packs' => [StickerPack, StickerPack], 'documents' => [Document, Document]];
 ```  

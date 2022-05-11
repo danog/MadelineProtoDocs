@@ -20,5 +20,6 @@ Chats to which the users often forwards messages to
 ### Example:
 
 ```php
+
 $topPeerCategoryForwardChats = ['_' => 'topPeerCategoryForwardChats'];
 ```  

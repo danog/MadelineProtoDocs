@@ -25,5 +25,6 @@ Composition of chat participants changed.
 ### Example:
 
 ```php
+
 $updateChatParticipants = ['_' => 'updateChatParticipants', 'participants' => ChatParticipants];
 ```  

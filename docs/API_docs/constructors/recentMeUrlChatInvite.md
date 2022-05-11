@@ -26,5 +26,6 @@ Recent t.me invite link to a chat
 ### Example:
 
 ```php
+
 $recentMeUrlChatInvite = ['_' => 'recentMeUrlChatInvite', 'url' => 'string', 'chat_invite' => ChatInvite];
 ```  

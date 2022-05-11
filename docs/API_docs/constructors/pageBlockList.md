@@ -25,5 +25,6 @@ Unordered list of IV blocks
 ### Example:
 
 ```php
+
 $pageBlockList = ['_' => 'pageBlockList', 'items' => [PageListItem, PageListItem]];
 ```  

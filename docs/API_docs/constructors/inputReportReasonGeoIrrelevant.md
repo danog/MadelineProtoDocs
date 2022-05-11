@@ -20,5 +20,6 @@ Report an irrelevant geogroup
 ### Example:
 
 ```php
+
 $inputReportReasonGeoIrrelevant = ['_' => 'inputReportReasonGeoIrrelevant'];
 ```  

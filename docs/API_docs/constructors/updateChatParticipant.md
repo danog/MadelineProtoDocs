@@ -32,5 +32,6 @@ A user has joined or left a specific chat
 ### Example:
 
 ```php
+
 $updateChatParticipant = ['_' => 'updateChatParticipant', 'chat_id' => long, 'date' => int, 'actor_id' => long, 'user_id' => long, 'prev_participant' => ChatParticipant, 'new_participant' => ChatParticipant, 'invite' => ExportedChatInvite, 'qts' => int];
 ```  

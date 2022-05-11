@@ -29,5 +29,6 @@ Button to request a user to [authorize](../methods/messages.acceptUrlAuth.html) 
 ### Example:
 
 ```php
+
 $inputKeyboardButtonUrlAuth = ['_' => 'inputKeyboardButtonUrlAuth', 'request_write_access' => Bool, 'text' => 'string', 'fwd_text' => 'string', 'url' => 'string', 'bot' => InputUser];
 ```  

@@ -25,5 +25,6 @@ Deleted messages.
 ### Example:
 
 ```php
+
 $decryptedMessageActionDeleteMessages_8 = ['_' => 'decryptedMessageActionDeleteMessages', 'random_ids' => [long, long]];
 ```  

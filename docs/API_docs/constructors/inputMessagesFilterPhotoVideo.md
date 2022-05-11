@@ -20,5 +20,6 @@ Filter for messages containing photos or videos.
 ### Example:
 
 ```php
+
 $inputMessagesFilterPhotoVideo = ['_' => 'inputMessagesFilterPhotoVideo'];
 ```  

@@ -26,5 +26,6 @@ A user's phone number was changed
 ### Example:
 
 ```php
+
 $updateUserPhone = ['_' => 'updateUserPhone', 'user_id' => long, 'phone' => 'string'];
 ```  

@@ -26,5 +26,6 @@ The group call has ended
 ### Example:
 
 ```php
+
 $messageActionGroupCall = ['_' => 'messageActionGroupCall', 'call' => InputGroupCall, 'duration' => int];
 ```  

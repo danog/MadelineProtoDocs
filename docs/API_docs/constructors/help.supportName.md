@@ -26,5 +26,6 @@ Localized name for telegram support
 ### Example:
 
 ```php
+
 $help_supportName = ['_' => 'help.supportName', 'name' => 'string'];
 ```  

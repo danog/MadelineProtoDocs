@@ -26,5 +26,6 @@ Message entity [mentioning](https://core.telegram.org/api/mentions) the current 
 ### Example:
 
 ```php
+
 $messageEntityMention = ['_' => 'messageEntityMention', 'offset' => int, 'length' => int];
 ```  

@@ -27,5 +27,6 @@ Found stickersets
 ### Example:
 
 ```php
+
 $messages_foundStickerSets = ['_' => 'messages.foundStickerSets', 'hash' => long, 'sets' => [StickerSetCovered, StickerSetCovered]];
 ```  

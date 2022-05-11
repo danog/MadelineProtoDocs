@@ -30,5 +30,6 @@ List of peers that reacted to a specific message
 ### Example:
 
 ```php
+
 $messages_messageReactionsList = ['_' => 'messages.messageReactionsList', 'count' => int, 'reactions' => [MessagePeerReaction, MessagePeerReaction], 'chats' => [Chat, Chat], 'users' => [User, User], 'next_offset' => 'string'];
 ```  

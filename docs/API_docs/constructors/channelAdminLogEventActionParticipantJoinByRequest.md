@@ -26,5 +26,6 @@ A new member was accepted to the chat by an admin
 ### Example:
 
 ```php
+
 $channelAdminLogEventActionParticipantJoinByRequest = ['_' => 'channelAdminLogEventActionParticipantJoinByRequest', 'invite' => ExportedChatInvite, 'approved_by' => long];
 ```  

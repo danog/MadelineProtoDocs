@@ -26,5 +26,6 @@ Saved payment credentials
 ### Example:
 
 ```php
+
 $inputPaymentCredentialsSaved = ['_' => 'inputPaymentCredentialsSaved', 'id' => 'string', 'tmp_password' => 'bytes'];
 ```  

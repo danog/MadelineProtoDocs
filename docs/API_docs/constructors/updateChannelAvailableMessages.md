@@ -26,5 +26,6 @@ The history of a [channel/supergroup](https://core.telegram.org/api/channel) was
 ### Example:
 
 ```php
+
 $updateChannelAvailableMessages = ['_' => 'updateChannelAvailableMessages', 'channel_id' => long, 'available_min_id' => int];
 ```  

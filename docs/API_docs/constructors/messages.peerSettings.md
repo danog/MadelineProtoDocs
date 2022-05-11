@@ -28,5 +28,6 @@ Peer settings
 ### Example:
 
 ```php
+
 $messages_peerSettings = ['_' => 'messages.peerSettings', 'settings' => PeerSettings, 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

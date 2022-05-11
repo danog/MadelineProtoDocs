@@ -29,5 +29,6 @@ Protocol info for libtgvoip
 ### Example:
 
 ```php
+
 $phoneCallProtocol = ['_' => 'phoneCallProtocol', 'udp_p2p' => Bool, 'udp_reflector' => Bool, 'min_layer' => int, 'max_layer' => int, 'library_versions' => ['string', 'string']];
 ```  

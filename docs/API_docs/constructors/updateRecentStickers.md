@@ -20,5 +20,6 @@ The recent sticker list was updated
 ### Example:
 
 ```php
+
 $updateRecentStickers = ['_' => 'updateRecentStickers'];
 ```  

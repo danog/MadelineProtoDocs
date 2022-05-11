@@ -26,5 +26,6 @@ Messages with animated stickers can have a compressed svg (&lt; 300 bytes) to sh
 ### Example:
 
 ```php
+
 $photoPathSize = ['_' => 'photoPathSize', 'type' => 'string', 'bytes' => 'bytes'];
 ```  

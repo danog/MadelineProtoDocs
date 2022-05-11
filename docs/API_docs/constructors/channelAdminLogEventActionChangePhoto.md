@@ -26,5 +26,6 @@ The channel/supergroup's picture was changed
 ### Example:
 
 ```php
+
 $channelAdminLogEventActionChangePhoto = ['_' => 'channelAdminLogEventActionChangePhoto', 'prev_photo' => Photo, 'new_photo' => Photo];
 ```  

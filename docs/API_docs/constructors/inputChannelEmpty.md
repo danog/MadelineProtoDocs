@@ -20,5 +20,6 @@ Represents the absence of a channel
 ### Example:
 
 ```php
+
 $inputChannelEmpty = ['_' => 'inputChannelEmpty'];
 ```  

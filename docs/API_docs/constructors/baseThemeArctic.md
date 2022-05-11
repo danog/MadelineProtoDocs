@@ -20,5 +20,6 @@ Arctic theme
 ### Example:
 
 ```php
+
 $baseThemeArctic = ['_' => 'baseThemeArctic'];
 ```  

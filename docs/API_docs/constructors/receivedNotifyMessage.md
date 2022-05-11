@@ -25,5 +25,6 @@ Message ID, for which PUSH-notifications were cancelled.
 ### Example:
 
 ```php
+
 $receivedNotifyMessage = ['_' => 'receivedNotifyMessage', 'id' => int];
 ```  

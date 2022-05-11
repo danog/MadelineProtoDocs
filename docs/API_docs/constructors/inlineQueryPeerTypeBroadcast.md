@@ -20,5 +20,6 @@ The inline query was sent in a [channel](https://core.telegram.org/api/channel)
 ### Example:
 
 ```php
+
 $inlineQueryPeerTypeBroadcast = ['_' => 'inlineQueryPeerTypeBroadcast'];
 ```  

@@ -28,5 +28,6 @@ Privacy rules
 ### Example:
 
 ```php
+
 $account_privacyRules = ['_' => 'account.privacyRules', 'rules' => [PrivacyRule, PrivacyRule], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

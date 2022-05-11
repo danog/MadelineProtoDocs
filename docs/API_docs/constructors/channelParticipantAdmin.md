@@ -32,5 +32,6 @@ Admin
 ### Example:
 
 ```php
+
 $channelParticipantAdmin = ['_' => 'channelParticipantAdmin', 'can_edit' => Bool, 'self' => Bool, 'user_id' => long, 'inviter_id' => long, 'promoted_by' => long, 'date' => int, 'admin_rights' => ChatAdminRights, 'rank' => 'string'];
 ```  

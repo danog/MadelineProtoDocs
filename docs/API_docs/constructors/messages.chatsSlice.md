@@ -27,5 +27,6 @@ Partial list of chats, more would have to be fetched with [pagination](https://c
 ### Example:
 
 ```php
+
 $messages_chatsSlice = ['_' => 'messages.chatsSlice', 'count' => int, 'chats' => [Chat, Chat]];
 ```  

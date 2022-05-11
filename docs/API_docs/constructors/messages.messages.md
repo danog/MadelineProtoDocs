@@ -28,5 +28,6 @@ Full list of messages with auxiliary data.
 ### Example:
 
 ```php
+
 $messages_messages = ['_' => 'messages.messages', 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

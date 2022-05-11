@@ -33,5 +33,6 @@ An update is available for the application.
 ### Example:
 
 ```php
+
 $help_appUpdate = ['_' => 'help.appUpdate', 'can_not_skip' => Bool, 'id' => int, 'version' => 'string', 'text' => 'string', 'entities' => [MessageEntity, MessageEntity], 'document' => Document, 'url' => 'string', 'sticker' => Document];
 ```  

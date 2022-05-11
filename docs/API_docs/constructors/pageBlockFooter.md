@@ -25,5 +25,6 @@ Page footer
 ### Example:
 
 ```php
+
 $pageBlockFooter = ['_' => 'pageBlockFooter', 'text' => RichText];
 ```  

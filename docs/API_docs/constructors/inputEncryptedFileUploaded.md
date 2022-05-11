@@ -28,5 +28,6 @@ Sets new encrypted file saved by parts using upload.saveFilePart method.
 ### Example:
 
 ```php
+
 $inputEncryptedFileUploaded = ['_' => 'inputEncryptedFileUploaded', 'id' => long, 'parts' => int, 'md5_checksum' => 'string', 'key_fingerprint' => int];
 ```  

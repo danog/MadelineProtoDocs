@@ -28,5 +28,6 @@ Inactive chat list
 ### Example:
 
 ```php
+
 $messages_inactiveChats = ['_' => 'messages.inactiveChats', 'dates' => [int, int], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

@@ -27,5 +27,6 @@ Message entity representing a [text url](https://google.com): for in-text urls l
 ### Example:
 
 ```php
+
 $messageEntityTextUrl = ['_' => 'messageEntityTextUrl', 'offset' => int, 'length' => int, 'url' => 'string'];
 ```  

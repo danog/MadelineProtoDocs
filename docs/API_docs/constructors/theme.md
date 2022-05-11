@@ -35,5 +35,6 @@ Theme
 ### Example:
 
 ```php
+
 $theme = ['_' => 'theme', 'creator' => Bool, 'default' => Bool, 'for_chat' => Bool, 'id' => long, 'access_hash' => long, 'slug' => 'string', 'title' => 'string', 'document' => Document, 'settings' => [ThemeSettings, ThemeSettings], 'emoticon' => 'string', 'installs_count' => int];
 ```  

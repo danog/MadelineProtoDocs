@@ -25,5 +25,6 @@ JSON string
 ### Example:
 
 ```php
+
 $jsonString = ['_' => 'jsonString', 'value' => 'string'];
 ```  

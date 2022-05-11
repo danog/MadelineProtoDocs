@@ -20,5 +20,6 @@ An empty block separating a page
 ### Example:
 
 ```php
+
 $pageBlockDivider = ['_' => 'pageBlockDivider'];
 ```  

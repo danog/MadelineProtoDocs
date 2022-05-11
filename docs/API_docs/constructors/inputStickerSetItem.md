@@ -27,5 +27,6 @@ Sticker in a stickerset
 ### Example:
 
 ```php
+
 $inputStickerSetItem = ['_' => 'inputStickerSetItem', 'document' => InputDocument, 'emoji' => 'string', 'mask_coords' => MaskCoords];
 ```  

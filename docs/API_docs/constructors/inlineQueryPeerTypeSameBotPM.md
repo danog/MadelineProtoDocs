@@ -20,5 +20,6 @@ The inline query was sent in a private chat with the bot itself
 ### Example:
 
 ```php
+
 $inlineQueryPeerTypeSameBotPM = ['_' => 'inlineQueryPeerTypeSameBotPM'];
 ```  

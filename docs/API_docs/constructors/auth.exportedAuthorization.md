@@ -27,5 +27,6 @@ Data for copying of authorization between data centers.
 ### Example:
 
 ```php
+
 $auth_exportedAuthorization = ['_' => 'auth.exportedAuthorization', 'id' => long, 'bytes' => 'bytes'];
 ```  

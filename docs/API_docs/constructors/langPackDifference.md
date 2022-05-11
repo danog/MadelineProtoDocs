@@ -28,5 +28,6 @@ Changes to the app's localization pack
 ### Example:
 
 ```php
+
 $langPackDifference = ['_' => 'langPackDifference', 'lang_code' => 'string', 'from_version' => int, 'version' => int, 'strings' => [LangPackString, LangPackString]];
 ```  

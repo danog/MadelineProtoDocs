@@ -27,5 +27,6 @@ Archived stickersets
 ### Example:
 
 ```php
+
 $messages_archivedStickers = ['_' => 'messages.archivedStickers', 'count' => int, 'sets' => [StickerSetCovered, StickerSetCovered]];
 ```  

@@ -20,5 +20,6 @@ Fetch only pinned messages
 ### Example:
 
 ```php
+
 $inputMessagesFilterPinned = ['_' => 'inputMessagesFilterPinned'];
 ```  

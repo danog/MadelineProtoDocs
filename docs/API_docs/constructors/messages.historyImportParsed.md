@@ -29,5 +29,6 @@ If neither the `pm` or `group` flags are set, the specified chat export was gene
 ### Example:
 
 ```php
+
 $messages_historyImportParsed = ['_' => 'messages.historyImportParsed', 'pm' => Bool, 'group' => Bool, 'title' => 'string'];
 ```  

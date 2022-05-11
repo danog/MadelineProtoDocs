@@ -27,5 +27,6 @@ Info about a chat invite
 ### Example:
 
 ```php
+
 $messages_exportedChatInvite = ['_' => 'messages.exportedChatInvite', 'invite' => ExportedChatInvite, 'users' => [User, User]];
 ```  

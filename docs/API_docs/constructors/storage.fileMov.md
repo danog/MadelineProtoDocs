@@ -21,5 +21,6 @@ Quicktime video. MIME type: `video/quicktime`.
 ### Example:
 
 ```php
+
 $storage_fileMov = ['_' => 'storage.fileMov'];
 ```  

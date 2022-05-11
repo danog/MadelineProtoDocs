@@ -21,5 +21,6 @@ Internal use
 ### Example:
 
 ```php
+
 $help_userInfoEmpty = ['_' => 'help.userInfoEmpty'];
 ```  

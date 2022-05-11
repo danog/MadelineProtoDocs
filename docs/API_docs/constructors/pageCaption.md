@@ -26,5 +26,6 @@ Page caption
 ### Example:
 
 ```php
+
 $pageCaption = ['_' => 'pageCaption', 'text' => RichText, 'credit' => RichText];
 ```  

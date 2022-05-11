@@ -25,5 +25,6 @@ Existing photo to be set as a chat profile photo.
 ### Example:
 
 ```php
+
 $inputChatPhoto = ['_' => 'inputChatPhoto', 'id' => InputPhoto];
 ```  

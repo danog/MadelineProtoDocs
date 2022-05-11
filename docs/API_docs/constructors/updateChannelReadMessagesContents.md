@@ -26,5 +26,6 @@ The specified [channel/supergroup](https://core.telegram.org/api/channel) messag
 ### Example:
 
 ```php
+
 $updateChannelReadMessagesContents = ['_' => 'updateChannelReadMessagesContents', 'channel_id' => long, 'messages' => [int, int]];
 ```  

@@ -31,5 +31,6 @@ Media result
 ### Example:
 
 ```php
+
 $botInlineMediaResult = ['_' => 'botInlineMediaResult', 'id' => 'string', 'type' => 'string', 'photo' => Photo, 'document' => Document, 'title' => 'string', 'description' => 'string', 'send_message' => BotInlineMessage];
 ```  

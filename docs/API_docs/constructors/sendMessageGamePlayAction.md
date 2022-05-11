@@ -20,5 +20,6 @@ User is playing a game
 ### Example:
 
 ```php
+
 $sendMessageGamePlayAction = ['_' => 'sendMessageGamePlayAction'];
 ```  

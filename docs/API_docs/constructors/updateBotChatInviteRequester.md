@@ -30,5 +30,6 @@ Someone has requested to join a chat or channel (bots only, users will receive a
 ### Example:
 
 ```php
+
 $updateBotChatInviteRequester = ['_' => 'updateBotChatInviteRequester', 'peer' => Peer, 'date' => int, 'user_id' => long, 'about' => 'string', 'invite' => ExportedChatInvite, 'qts' => int];
 ```  

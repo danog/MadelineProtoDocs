@@ -26,5 +26,6 @@ Live geoposition message was viewed
 ### Example:
 
 ```php
+
 $updateGeoLiveViewed = ['_' => 'updateGeoLiveViewed', 'peer' => Peer, 'msg_id' => int];
 ```  

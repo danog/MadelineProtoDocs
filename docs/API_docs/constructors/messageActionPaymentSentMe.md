@@ -30,5 +30,6 @@ A user just sent a payment to me (a bot)
 ### Example:
 
 ```php
+
 $messageActionPaymentSentMe = ['_' => 'messageActionPaymentSentMe', 'currency' => 'string', 'total_amount' => long, 'payload' => 'bytes', 'info' => PaymentRequestedInfo, 'shipping_option_id' => 'string', 'charge' => PaymentCharge];
 ```  
