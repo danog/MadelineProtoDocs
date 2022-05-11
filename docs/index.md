@@ -46,7 +46,7 @@ if (!$me['bot']) {
     $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => "Hi!\nThanks for creating MadelineProto (PHP 7)! <3"]);
 
     // This example uses PHP 8.0+ syntax with named arguments
-    $MadelineProto->messages->sendMessage(peer: '@danogentili', message: "Hi!\nThanks for creating MadelineProto (PHP 8)! <3"]);
+    $MadelineProto->messages->sendMessage(peer: '@danogentili', message: "Hi!\nThanks for creating MadelineProto (PHP 8)! <3");
     $MadelineProto->channels->joinChannel(channel: '@MadelineProto');
 
     try {
