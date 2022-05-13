@@ -27,7 +27,6 @@ Changes to emoji keywords
 
 ### Example:
 
-```php
-
+```
 $emojiKeywordsDifference = ['_' => 'emojiKeywordsDifference', 'lang_code' => 'string', 'from_version' => int, 'version' => int, 'keywords' => [EmojiKeyword, EmojiKeyword]];
 ```  

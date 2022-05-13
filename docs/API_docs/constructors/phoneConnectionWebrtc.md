@@ -31,7 +31,6 @@ WebRTC connection parameters
 
 ### Example:
 
-```php
-
+```
 $phoneConnectionWebrtc = ['_' => 'phoneConnectionWebrtc', 'turn' => Bool, 'stun' => Bool, 'id' => long, 'ip' => 'string', 'ipv6' => 'string', 'port' => int, 'username' => 'string', 'password' => 'string'];
 ```  

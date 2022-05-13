@@ -19,7 +19,6 @@ Temporary registration
 
 ### Example:
 
-```php
-
+```
 $secureValueTypeTemporaryRegistration = ['_' => 'secureValueTypeTemporaryRegistration'];
 ```  

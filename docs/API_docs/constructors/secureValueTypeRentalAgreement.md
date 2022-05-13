@@ -19,7 +19,6 @@ Rental agreement
 
 ### Example:
 
-```php
-
+```
 $secureValueTypeRentalAgreement = ['_' => 'secureValueTypeRentalAgreement'];
 ```  

@@ -24,7 +24,6 @@ Sent message with **random\_id** client identifier was assigned an identifier.
 
 ### Example:
 
-```php
-
+```
 $updateMessageID = ['_' => 'updateMessageID', 'id' => int];
 ```  

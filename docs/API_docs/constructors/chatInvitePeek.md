@@ -25,7 +25,6 @@ A chat invitation that also allows peeking into the group to read messages witho
 
 ### Example:
 
-```php
-
+```
 $chatInvitePeek = ['_' => 'chatInvitePeek', 'chat' => Chat, 'expires' => int];
 ```  

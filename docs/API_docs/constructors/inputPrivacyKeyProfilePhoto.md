@@ -19,7 +19,6 @@ Whether people will be able to see the user's profile picture
 
 ### Example:
 
-```php
-
+```
 $inputPrivacyKeyProfilePhoto = ['_' => 'inputPrivacyKeyProfilePhoto'];
 ```  

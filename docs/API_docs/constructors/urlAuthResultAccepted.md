@@ -24,7 +24,6 @@ Details about an accepted authorization request, for more info [click here »](h
 
 ### Example:
 
-```php
-
+```
 $urlAuthResultAccepted = ['_' => 'urlAuthResultAccepted', 'url' => 'string'];
 ```  

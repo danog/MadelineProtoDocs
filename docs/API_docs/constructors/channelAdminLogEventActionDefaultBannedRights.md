@@ -25,7 +25,6 @@ The default banned rights were modified
 
 ### Example:
 
-```php
-
+```
 $channelAdminLogEventActionDefaultBannedRights = ['_' => 'channelAdminLogEventActionDefaultBannedRights', 'prev_banned_rights' => ChatBannedRights, 'new_banned_rights' => ChatBannedRights];
 ```  

@@ -20,7 +20,6 @@ No new stickers were found for the given query
 
 ### Example:
 
-```php
-
+```
 $messages_stickersNotModified = ['_' => 'messages.stickersNotModified'];
 ```  

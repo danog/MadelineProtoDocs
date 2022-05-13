@@ -31,7 +31,6 @@ An inline bot result
 
 ### Example:
 
-```php
-
+```
 $inputBotInlineResult = ['_' => 'inputBotInlineResult', 'id' => 'string', 'type' => 'string', 'title' => 'string', 'description' => 'string', 'url' => 'string', 'thumb' => InputWebDocument, 'content' => InputWebDocument, 'send_message' => InputBotInlineMessage];
 ```  

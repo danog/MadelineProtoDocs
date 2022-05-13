@@ -28,7 +28,6 @@ Info on successfully imported contacts.
 
 ### Example:
 
-```php
-
+```
 $contacts_importedContacts = ['_' => 'contacts.importedContacts', 'imported' => [ImportedContact, ImportedContact], 'popular_invites' => [PopularContact, PopularContact], 'retry_contacts' => [long, long], 'users' => [User, User]];
 ```  

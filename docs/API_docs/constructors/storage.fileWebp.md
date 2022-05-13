@@ -20,7 +20,6 @@ WEBP image. MIME type: `image/webp`.
 
 ### Example:
 
-```php
-
+```
 $storage_fileWebp = ['_' => 'storage.fileWebp'];
 ```  

@@ -27,7 +27,6 @@ Affected part of communication history with the user or in a chat.
 
 ### Example:
 
-```php
-
+```
 $messages_affectedHistory = ['_' => 'messages.affectedHistory', 'pts' => int, 'pts_count' => int, 'offset' => int];
 ```  

@@ -24,7 +24,6 @@ Wallpaper with no file access hash, used for example when deleting (`unsave=true
 
 ### Example:
 
-```php
-
+```
 $inputWallPaperNoFile = ['_' => 'inputWallPaperNoFile', 'id' => long];
 ```  

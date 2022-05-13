@@ -24,7 +24,6 @@ Allow only certain users
 
 ### Example:
 
-```php
-
+```
 $inputPrivacyValueAllowUsers = ['_' => 'inputPrivacyValueAllowUsers', 'users' => [InputUser, InputUser]];
 ```  

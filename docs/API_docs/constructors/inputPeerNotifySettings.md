@@ -27,7 +27,6 @@ Notification settings.
 
 ### Example:
 
-```php
-
+```
 $inputPeerNotifySettings = ['_' => 'inputPeerNotifySettings', 'show_previews' => Bool, 'silent' => Bool, 'mute_until' => int, 'sound' => NotificationSound];
 ```  

@@ -24,7 +24,6 @@ Subheader
 
 ### Example:
 
-```php
-
+```
 $pageBlockSubheader = ['_' => 'pageBlockSubheader', 'text' => RichText];
 ```  

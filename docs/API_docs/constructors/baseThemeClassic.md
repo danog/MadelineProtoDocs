@@ -19,7 +19,6 @@ Classic theme
 
 ### Example:
 
-```php
-
+```
 $baseThemeClassic = ['_' => 'baseThemeClassic'];
 ```  

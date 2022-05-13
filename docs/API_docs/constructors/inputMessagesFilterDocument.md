@@ -19,7 +19,6 @@ Filter for messages containing documents.
 
 ### Example:
 
-```php
-
+```
 $inputMessagesFilterDocument = ['_' => 'inputMessagesFilterDocument'];
 ```  

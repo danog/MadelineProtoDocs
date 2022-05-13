@@ -25,7 +25,6 @@ Successfully imported contact.
 
 ### Example:
 
-```php
-
+```
 $importedContact = ['_' => 'importedContact', 'user_id' => long, 'client_id' => long];
 ```  

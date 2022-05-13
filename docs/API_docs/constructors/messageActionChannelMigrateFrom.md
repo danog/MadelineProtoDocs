@@ -25,7 +25,6 @@ Indicates the channel was [migrated](https://core.telegram.org/api/channel) from
 
 ### Example:
 
-```php
-
+```
 $messageActionChannelMigrateFrom = ['_' => 'messageActionChannelMigrateFrom', 'title' => 'string', 'chat_id' => long];
 ```  

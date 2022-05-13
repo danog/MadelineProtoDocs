@@ -20,7 +20,6 @@ No new saved gifs were found
 
 ### Example:
 
-```php
-
+```
 $messages_savedGifsNotModified = ['_' => 'messages.savedGifsNotModified'];
 ```  

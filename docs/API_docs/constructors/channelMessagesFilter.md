@@ -25,7 +25,6 @@ Filter for getting only certain types of channel messages
 
 ### Example:
 
-```php
-
+```
 $channelMessagesFilter = ['_' => 'channelMessagesFilter', 'exclude_new_messages' => Bool, 'ranges' => [MessageRange, MessageRange]];
 ```  

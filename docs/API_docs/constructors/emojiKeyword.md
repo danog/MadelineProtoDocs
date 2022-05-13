@@ -25,7 +25,6 @@ Emoji keyword
 
 ### Example:
 
-```php
-
+```
 $emojiKeyword = ['_' => 'emojiKeyword', 'keyword' => 'string', 'emoticons' => ['string', 'string']];
 ```  

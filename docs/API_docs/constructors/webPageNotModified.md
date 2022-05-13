@@ -24,7 +24,6 @@ The preview of the webpage hasn't changed
 
 ### Example:
 
-```php
-
+```
 $webPageNotModified = ['_' => 'webPageNotModified', 'cached_page_views' => int];
 ```  

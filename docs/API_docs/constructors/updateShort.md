@@ -25,7 +25,6 @@ Shortened constructor containing info on one update not requiring auxiliary data
 
 ### Example:
 
-```php
-
+```
 $updateShort = ['_' => 'updateShort', 'update' => Update, 'date' => int];
 ```  

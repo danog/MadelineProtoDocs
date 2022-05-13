@@ -20,6 +20,7 @@ Data center
 |tcpo\_only|[Bool](/API_docs/types/Bool.html) | Optional|Whether this DC only supports connection with [transport obfuscation](https://core.telegram.org/mtproto/mtproto-transports#transport-obfuscation)|
 |cdn|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a [CDN DC](https://core.telegram.org/cdn).|
 |static|[Bool](/API_docs/types/Bool.html) | Optional|If set, this IP should be used when connecting through a proxy|
+|this\_port\_only|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[int](/API_docs/types/int.html) | Yes|DC ID|
 |ip\_address|[string](/API_docs/types/string.html) | Yes|IP address of DC|
 |port|[int](/API_docs/types/int.html) | Yes|Port|
@@ -32,7 +33,6 @@ Data center
 
 ### Example:
 
-```php
-
-$dcOption = ['_' => 'dcOption', 'ipv6' => Bool, 'media_only' => Bool, 'tcpo_only' => Bool, 'cdn' => Bool, 'static' => Bool, 'id' => int, 'ip_address' => 'string', 'port' => int, 'secret' => 'bytes'];
+```
+$dcOption = ['_' => 'dcOption', 'ipv6' => Bool, 'media_only' => Bool, 'tcpo_only' => Bool, 'cdn' => Bool, 'static' => Bool, 'this_port_only' => Bool, 'id' => int, 'ip_address' => 'string', 'port' => int, 'secret' => 'bytes'];
 ```  

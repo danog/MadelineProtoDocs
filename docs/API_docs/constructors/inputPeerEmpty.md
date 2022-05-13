@@ -19,7 +19,6 @@ An empty constructor, no user or chat is defined.
 
 ### Example:
 
-```php
-
+```
 $inputPeerEmpty = ['_' => 'inputPeerEmpty'];
 ```  

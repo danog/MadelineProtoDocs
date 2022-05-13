@@ -15,6 +15,7 @@ Message replies and [thread](https://core.telegram.org/api/threads) information
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|reply\_to\_scheduled|[Bool](/API_docs/types/Bool.html) | Optional|
 |reply\_to\_msg\_id|[int](/API_docs/types/int.html) | Yes|ID of message to which this message is replying|
 |reply\_to\_peer\_id|[Peer](/API_docs/types/Peer.html) | Optional|For replies sent in [channel discussion threads](https://core.telegram.org/api/threads) of which the current user is not a member, the discussion group ID|
 |reply\_to\_top\_id|[int](/API_docs/types/int.html) | Optional|ID of the message that started this [message thread](https://core.telegram.org/api/threads)|
@@ -26,7 +27,6 @@ Message replies and [thread](https://core.telegram.org/api/threads) information
 
 ### Example:
 
-```php
-
-$messageReplyHeader = ['_' => 'messageReplyHeader', 'reply_to_msg_id' => int, 'reply_to_peer_id' => Peer, 'reply_to_top_id' => int];
+```
+$messageReplyHeader = ['_' => 'messageReplyHeader', 'reply_to_scheduled' => Bool, 'reply_to_msg_id' => int, 'reply_to_peer_id' => Peer, 'reply_to_top_id' => int];
 ```  

@@ -25,7 +25,6 @@ JSON key: value pair
 
 ### Example:
 
-```php
-
+```
 $jsonObjectValue = ['_' => 'jsonObjectValue', 'key' => 'string', 'value' => JSONValue];
 ```  

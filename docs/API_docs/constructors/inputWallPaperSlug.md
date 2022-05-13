@@ -24,7 +24,6 @@ Wallpaper by slug (a unique ID)
 
 ### Example:
 
-```php
-
+```
 $inputWallPaperSlug = ['_' => 'inputWallPaperSlug', 'slug' => 'string'];
 ```  

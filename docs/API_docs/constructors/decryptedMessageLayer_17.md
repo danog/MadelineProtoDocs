@@ -27,7 +27,6 @@ Sets the layer number for the contents of an encrypted message.
 
 ### Example:
 
-```php
-
+```
 $decryptedMessageLayer_17 = ['_' => 'decryptedMessageLayer', 'layer' => int, 'in_seq_no' => int, 'out_seq_no' => int, 'message' => DecryptedMessage];
 ```  

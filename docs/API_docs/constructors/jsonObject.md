@@ -24,7 +24,6 @@ JSON object value
 
 ### Example:
 
-```php
-
+```
 $jsonObject = ['_' => 'jsonObject', 'value' => [JSONObjectValue, JSONObjectValue]];
 ```  

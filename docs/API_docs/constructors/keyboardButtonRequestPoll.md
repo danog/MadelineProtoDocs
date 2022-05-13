@@ -25,7 +25,6 @@ A button that allows the user to create and send a poll when pressed; available 
 
 ### Example:
 
-```php
-
+```
 $keyboardButtonRequestPoll = ['_' => 'keyboardButtonRequestPoll', 'quiz' => Bool, 'text' => 'string'];
 ```  

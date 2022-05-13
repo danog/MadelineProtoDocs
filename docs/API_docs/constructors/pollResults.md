@@ -29,7 +29,6 @@ Results of poll
 
 ### Example:
 
-```php
-
+```
 $pollResults = ['_' => 'pollResults', 'min' => Bool, 'results' => [PollAnswerVoters, PollAnswerVoters], 'total_voters' => int, 'recent_voters' => [long, long], 'solution' => 'string', 'solution_entities' => [MessageEntity, MessageEntity]];
 ```  

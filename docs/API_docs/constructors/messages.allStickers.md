@@ -26,7 +26,6 @@ Info about all installed stickers
 
 ### Example:
 
-```php
-
+```
 $messages_allStickers = ['_' => 'messages.allStickers', 'hash' => long, 'sets' => [StickerSet, StickerSet]];
 ```  

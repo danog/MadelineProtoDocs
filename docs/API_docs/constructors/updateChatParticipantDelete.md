@@ -26,7 +26,6 @@ A member has left the group.
 
 ### Example:
 
-```php
-
+```
 $updateChatParticipantDelete = ['_' => 'updateChatParticipantDelete', 'chat_id' => long, 'user_id' => long, 'version' => int];
 ```  

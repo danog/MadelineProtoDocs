@@ -27,7 +27,6 @@ Full user information
 
 ### Example:
 
-```php
-
+```
 $users_userFull = ['_' => 'users.userFull', 'full_user' => UserFull, 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

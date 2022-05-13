@@ -35,7 +35,6 @@ Phone call
 
 ### Example:
 
-```php
-
+```
 $phoneCall = ['_' => 'phoneCall', 'p2p_allowed' => Bool, 'video' => Bool, 'id' => long, 'access_hash' => long, 'date' => int, 'admin_id' => long, 'participant_id' => long, 'g_a_or_b' => 'bytes', 'key_fingerprint' => long, 'protocol' => PhoneCallProtocol, 'connections' => [PhoneConnection, PhoneConnection], 'start_date' => int];
 ```  

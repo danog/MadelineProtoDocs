@@ -19,7 +19,6 @@ Night theme
 
 ### Example:
 
-```php
-
+```
 $baseThemeNight = ['_' => 'baseThemeNight'];
 ```  

@@ -28,7 +28,6 @@ Contains user authorization info.
 
 ### Example:
 
-```php
-
+```
 $auth_authorization = ['_' => 'auth.authorization', 'setup_password_required' => Bool, 'otherwise_relogin_days' => int, 'tmp_sessions' => int, 'user' => User];
 ```  

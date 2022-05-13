@@ -27,7 +27,6 @@ Info about bots (available bot commands, etc)
 
 ### Example:
 
-```php
-
+```
 $botInfo = ['_' => 'botInfo', 'user_id' => long, 'description' => 'string', 'commands' => [BotCommand, BotCommand], 'menu_button' => BotMenuButton];
 ```  

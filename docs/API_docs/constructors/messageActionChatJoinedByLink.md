@@ -24,7 +24,6 @@ A user joined the chat via an invite link
 
 ### Example:
 
-```php
-
+```
 $messageActionChatJoinedByLink = ['_' => 'messageActionChatJoinedByLink', 'inviter_id' => long];
 ```  

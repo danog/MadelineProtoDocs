@@ -25,7 +25,6 @@ A group call was scheduled
 
 ### Example:
 
-```php
-
+```
 $messageActionGroupCallScheduled = ['_' => 'messageActionGroupCallScheduled', 'call' => InputGroupCall, 'schedule_date' => int];
 ```  

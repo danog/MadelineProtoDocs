@@ -26,7 +26,6 @@ A user of the chat is now in proximity of another user
 
 ### Example:
 
-```php
-
+```
 $messageActionGeoProximityReached = ['_' => 'messageActionGeoProximityReached', 'from_id' => Peer, 'to_id' => Peer, 'distance' => int];
 ```  

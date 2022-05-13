@@ -29,7 +29,6 @@ Venue
 
 ### Example:
 
-```php
-
+```
 $decryptedMessageMediaVenue_46 = ['_' => 'decryptedMessageMediaVenue', 'lat' => double, 'long' => double, 'title' => 'string', 'address' => 'string', 'provider' => 'string', 'venue_id' => 'string'];
 ```  

@@ -25,7 +25,6 @@ Link to a message in a supergroup/channel
 
 ### Example:
 
-```php
-
+```
 $exportedMessageLink = ['_' => 'exportedMessageLink', 'link' => 'string', 'html' => 'string'];
 ```  

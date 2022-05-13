@@ -27,7 +27,6 @@ A set of sponsored messages associated to a channel
 
 ### Example:
 
-```php
-
+```
 $messages_sponsoredMessages = ['_' => 'messages.sponsoredMessages', 'messages' => [SponsoredMessage, SponsoredMessage], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

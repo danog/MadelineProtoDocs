@@ -26,7 +26,6 @@ Private info associated to the password info (recovery email, telegram [passport
 
 ### Example:
 
-```php
-
+```
 $account_passwordSettings = ['_' => 'account.passwordSettings', 'email' => 'string', 'secure_settings' => SecureSecretSettings];
 ```  

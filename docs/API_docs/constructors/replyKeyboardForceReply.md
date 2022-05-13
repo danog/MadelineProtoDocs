@@ -26,7 +26,6 @@ Force the user to send a reply
 
 ### Example:
 
-```php
-
+```
 $replyKeyboardForceReply = ['_' => 'replyKeyboardForceReply', 'single_use' => Bool, 'selective' => Bool, 'placeholder' => 'string'];
 ```  

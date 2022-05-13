@@ -25,7 +25,6 @@ The geogroup location was changed
 
 ### Example:
 
-```php
-
+```
 $channelAdminLogEventActionChangeLocation = ['_' => 'channelAdminLogEventActionChangeLocation', 'prev_value' => ChannelLocation, 'new_value' => ChannelLocation];
 ```  

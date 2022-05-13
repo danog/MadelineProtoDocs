@@ -24,7 +24,6 @@ Custom action (most likely not supported by the current layer, an upgrade might 
 
 ### Example:
 
-```php
-
+```
 $messageActionCustomAction = ['_' => 'messageActionCustomAction', 'message' => 'string'];
 ```  

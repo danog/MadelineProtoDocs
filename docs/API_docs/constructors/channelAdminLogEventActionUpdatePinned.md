@@ -24,7 +24,6 @@ A message was pinned
 
 ### Example:
 
-```php
-
+```
 $channelAdminLogEventActionUpdatePinned = ['_' => 'channelAdminLogEventActionUpdatePinned', 'message' => Message];
 ```  

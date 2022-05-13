@@ -26,7 +26,6 @@ Repeat the query to the specified DC
 
 ### Example:
 
-```php
-
+```
 $auth_loginTokenMigrateTo = ['_' => 'auth.loginTokenMigrateTo', 'dc_id' => int, 'token' => 'bytes'];
 ```  

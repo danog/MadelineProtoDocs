@@ -27,7 +27,6 @@ Represents a channel participant
 
 ### Example:
 
-```php
-
+```
 $channels_channelParticipant = ['_' => 'channels.channelParticipant', 'participant' => ChannelParticipant, 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

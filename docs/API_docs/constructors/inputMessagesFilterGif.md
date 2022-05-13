@@ -19,7 +19,6 @@ Return only messages containing gifs
 
 ### Example:
 
-```php
-
+```
 $inputMessagesFilterGif = ['_' => 'inputMessagesFilterGif'];
 ```  

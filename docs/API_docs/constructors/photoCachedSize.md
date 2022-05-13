@@ -27,7 +27,6 @@ Description of an image and its content.
 
 ### Example:
 
-```php
-
+```
 $photoCachedSize = ['_' => 'photoCachedSize', 'type' => 'string', 'w' => int, 'h' => int, 'bytes' => 'bytes'];
 ```  

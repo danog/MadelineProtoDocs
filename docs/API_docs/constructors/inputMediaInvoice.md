@@ -31,7 +31,6 @@ Generated invoice of a [bot payment](https://core.telegram.org/bots/payments)
 
 ### Example:
 
-```php
-
+```
 $inputMediaInvoice = ['_' => 'inputMediaInvoice', 'title' => 'string', 'description' => 'string', 'photo' => InputWebDocument, 'invoice' => Invoice, 'payload' => 'bytes', 'provider' => 'string', 'provider_data' => DataJSON, 'start_param' => 'string'];
 ```  

@@ -26,7 +26,6 @@ Communication history in an encrypted chat was marked as read.
 
 ### Example:
 
-```php
-
+```
 $updateEncryptedMessagesRead = ['_' => 'updateEncryptedMessagesRead', 'chat_id' => int, 'max_date' => int, 'date' => int];
 ```  

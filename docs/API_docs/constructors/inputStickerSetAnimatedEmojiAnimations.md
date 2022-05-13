@@ -19,7 +19,6 @@ Animated emoji reaction stickerset (contains animations to play when a user clic
 
 ### Example:
 
-```php
-
+```
 $inputStickerSetAnimatedEmojiAnimations = ['_' => 'inputStickerSetAnimatedEmojiAnimations'];
 ```  

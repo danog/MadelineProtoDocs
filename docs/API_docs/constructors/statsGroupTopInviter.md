@@ -25,7 +25,6 @@ Information about an active supergroup inviter
 
 ### Example:
 
-```php
-
+```
 $statsGroupTopInviter = ['_' => 'statsGroupTopInviter', 'user_id' => long, 'invitations' => int];
 ```  

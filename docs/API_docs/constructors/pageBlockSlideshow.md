@@ -25,7 +25,6 @@ Slideshow
 
 ### Example:
 
-```php
-
+```
 $pageBlockSlideshow = ['_' => 'pageBlockSlideshow', 'items' => [PageBlock, PageBlock], 'caption' => PageCaption];
 ```  

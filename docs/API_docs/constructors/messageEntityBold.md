@@ -25,7 +25,6 @@ Message entity representing **bold text**.
 
 ### Example:
 
-```php
-
+```
 $messageEntityBold = ['_' => 'messageEntityBold', 'offset' => int, 'length' => int];
 ```  

@@ -19,7 +19,6 @@ Whether we can see the last online timestamp
 
 ### Example:
 
-```php
-
+```
 $privacyKeyStatusTimestamp = ['_' => 'privacyKeyStatusTimestamp'];
 ```  

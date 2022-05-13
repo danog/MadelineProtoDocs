@@ -26,7 +26,6 @@ Messages were deleted.
 
 ### Example:
 
-```php
-
+```
 $updateDeleteMessages = ['_' => 'updateDeleteMessages', 'messages' => [int, int], 'pts' => int, 'pts_count' => int];
 ```  

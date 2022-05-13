@@ -24,7 +24,6 @@ PBKDF2 with SHA512 and 100000 iterations KDF algo
 
 ### Example:
 
-```php
-
+```
 $securePasswordKdfAlgoPBKDF2HMACSHA512iter100000 = ['_' => 'securePasswordKdfAlgoPBKDF2HMACSHA512iter100000', 'salt' => 'bytes'];
 ```  

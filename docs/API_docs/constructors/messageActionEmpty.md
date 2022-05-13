@@ -19,7 +19,6 @@ Empty constructor.
 
 ### Example:
 
-```php
-
+```
 $messageActionEmpty = ['_' => 'messageActionEmpty'];
 ```  

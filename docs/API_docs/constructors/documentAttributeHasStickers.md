@@ -19,7 +19,6 @@ Whether the current document has stickers attached
 
 ### Example:
 
-```php
-
+```
 $documentAttributeHasStickers = ['_' => 'documentAttributeHasStickers'];
 ```  

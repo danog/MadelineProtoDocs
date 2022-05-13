@@ -25,7 +25,6 @@ Document (video, audio, voice, sticker, any media type except photo)
 
 ### Example:
 
-```php
-
+```
 $messageMediaDocument = ['_' => 'messageMediaDocument', 'document' => Document, 'ttl_seconds' => int];
 ```  

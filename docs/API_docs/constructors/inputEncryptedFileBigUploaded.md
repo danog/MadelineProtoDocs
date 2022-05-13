@@ -26,7 +26,6 @@ Assigns a new big encrypted file (over 10 MB in size), saved in parts using the 
 
 ### Example:
 
-```php
-
+```
 $inputEncryptedFileBigUploaded = ['_' => 'inputEncryptedFileBigUploaded', 'id' => long, 'parts' => int, 'key_fingerprint' => int];
 ```  

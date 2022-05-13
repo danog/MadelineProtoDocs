@@ -26,7 +26,6 @@ Represents an issue with a list of scans. The error is considered resolved when 
 
 ### Example:
 
-```php
-
+```
 $secureValueErrorFiles = ['_' => 'secureValueErrorFiles', 'type' => SecureValueType, 'file_hash' => ['bytes', 'bytes'], 'text' => 'string'];
 ```  

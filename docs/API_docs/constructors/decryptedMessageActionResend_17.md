@@ -25,7 +25,6 @@ Request for the other party in a Secret Chat to automatically resend a contiguou
 
 ### Example:
 
-```php
-
+```
 $decryptedMessageActionResend_17 = ['_' => 'decryptedMessageActionResend', 'start_seq_no' => int, 'end_seq_no' => int];
 ```  

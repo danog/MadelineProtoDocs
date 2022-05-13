@@ -26,7 +26,6 @@ Secure [passport](https://core.telegram.org/passport) data, for more info [see t
 
 ### Example:
 
-```php
-
+```
 $secureData = ['_' => 'secureData', 'data' => 'bytes', 'data_hash' => 'bytes', 'secret' => 'bytes'];
 ```  

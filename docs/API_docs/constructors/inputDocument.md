@@ -26,7 +26,6 @@ Defines a video for subsequent interaction.
 
 ### Example:
 
-```php
-
+```
 $inputDocument = ['_' => 'inputDocument', 'id' => long, 'access_hash' => long, 'file_reference' => 'bytes'];
 ```  

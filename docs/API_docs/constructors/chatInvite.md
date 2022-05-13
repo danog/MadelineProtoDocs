@@ -33,7 +33,6 @@ Chat invite info
 
 ### Example:
 
-```php
-
+```
 $chatInvite = ['_' => 'chatInvite', 'channel' => Bool, 'broadcast' => Bool, 'public' => Bool, 'megagroup' => Bool, 'request_needed' => Bool, 'title' => 'string', 'about' => 'string', 'photo' => Photo, 'participants_count' => int, 'participants' => [User, User]];
 ```  

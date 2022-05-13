@@ -24,7 +24,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```php
-
+```
 $dialogPeerFolder = ['_' => 'dialogPeerFolder', 'folder_id' => int];
 ```  

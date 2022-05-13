@@ -24,7 +24,6 @@ Interlocutor is typing a message in an encrypted chat. Update period is 6 second
 
 ### Example:
 
-```php
-
+```
 $updateEncryptedChatTyping = ['_' => 'updateEncryptedChatTyping', 'chat_id' => int];
 ```  

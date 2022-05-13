@@ -26,7 +26,6 @@ Highscores in a game
 
 ### Example:
 
-```php
-
+```
 $messages_highScores = ['_' => 'messages.highScores', 'scores' => [HighScore, HighScore], 'users' => [User, User]];
 ```  

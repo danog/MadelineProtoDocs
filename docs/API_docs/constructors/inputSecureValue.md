@@ -31,7 +31,6 @@ Secure value, [for more info see the passport docs »](https://core.telegram.org
 
 ### Example:
 
-```php
-
+```
 $inputSecureValue = ['_' => 'inputSecureValue', 'type' => SecureValueType, 'data' => SecureData, 'front_side' => InputSecureFile, 'reverse_side' => InputSecureFile, 'selfie' => InputSecureFile, 'translation' => [InputSecureFile, InputSecureFile], 'files' => [InputSecureFile, InputSecureFile], 'plain_data' => SecurePlainData];
 ```  

@@ -26,7 +26,6 @@ Game highscore
 
 ### Example:
 
-```php
-
+```
 $highScore = ['_' => 'highScore', 'pos' => int, 'user_id' => long, 'score' => int];
 ```  

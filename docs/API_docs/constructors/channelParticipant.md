@@ -25,7 +25,6 @@ Channel/supergroup participant
 
 ### Example:
 
-```php
-
+```
 $channelParticipant = ['_' => 'channelParticipant', 'user_id' => long, 'date' => int];
 ```  

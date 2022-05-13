@@ -24,7 +24,6 @@ Inline keyboard row
 
 ### Example:
 
-```php
-
+```
 $keyboardButtonRow = ['_' => 'keyboardButtonRow', 'buttons' => [KeyboardButton, KeyboardButton]];
 ```  

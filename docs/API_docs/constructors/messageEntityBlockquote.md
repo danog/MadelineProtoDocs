@@ -25,7 +25,6 @@ Message entity representing a block quote.
 
 ### Example:
 
-```php
-
+```
 $messageEntityBlockquote = ['_' => 'messageEntityBlockquote', 'offset' => int, 'length' => int];
 ```  

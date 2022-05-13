@@ -19,7 +19,6 @@ Online status: last seen last week
 
 ### Example:
 
-```php
-
+```
 $userStatusLastWeek = ['_' => 'userStatusLastWeek'];
 ```  

@@ -19,7 +19,6 @@ Whether the user accepts phone calls
 
 ### Example:
 
-```php
-
+```
 $privacyKeyPhoneCall = ['_' => 'privacyKeyPhoneCall'];
 ```  

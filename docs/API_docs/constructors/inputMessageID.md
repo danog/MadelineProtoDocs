@@ -24,7 +24,6 @@ Message by ID
 
 ### Example:
 
-```php
-
+```
 $inputMessageID = ['_' => 'inputMessageID', 'id' => int];
 ```  

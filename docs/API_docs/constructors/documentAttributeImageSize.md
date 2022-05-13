@@ -25,7 +25,6 @@ Defines the width and height of an image uploaded as document
 
 ### Example:
 
-```php
-
+```
 $documentAttributeImageSize = ['_' => 'documentAttributeImageSize', 'w' => int, 'h' => int];
 ```  

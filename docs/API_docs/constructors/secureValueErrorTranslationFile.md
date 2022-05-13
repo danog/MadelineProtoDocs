@@ -26,7 +26,6 @@ Represents an issue with one of the files that constitute the translation of a d
 
 ### Example:
 
-```php
-
+```
 $secureValueErrorTranslationFile = ['_' => 'secureValueErrorTranslationFile', 'type' => SecureValueType, 'file_hash' => 'bytes', 'text' => 'string'];
 ```  

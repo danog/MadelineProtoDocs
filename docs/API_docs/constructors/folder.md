@@ -29,7 +29,6 @@ Folder
 
 ### Example:
 
-```php
-
+```
 $folder = ['_' => 'folder', 'autofill_new_broadcasts' => Bool, 'autofill_public_groups' => Bool, 'autofill_new_correspondents' => Bool, 'id' => int, 'title' => 'string', 'photo' => ChatPhoto];
 ```  

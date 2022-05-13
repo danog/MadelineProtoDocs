@@ -29,7 +29,6 @@ Indicates a discarded phone call
 
 ### Example:
 
-```php
-
+```
 $phoneCallDiscarded = ['_' => 'phoneCallDiscarded', 'need_rating' => Bool, 'need_debug' => Bool, 'video' => Bool, 'id' => long, 'reason' => PhoneCallDiscardReason, 'duration' => int];
 ```  

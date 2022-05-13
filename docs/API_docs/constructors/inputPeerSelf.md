@@ -19,7 +19,6 @@ Defines the current user.
 
 ### Example:
 
-```php
-
+```
 $inputPeerSelf = ['_' => 'inputPeerSelf'];
 ```  

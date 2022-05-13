@@ -28,7 +28,6 @@ Full constructor of updates
 
 ### Example:
 
-```php
-
+```
 $updates = ['_' => 'updates', 'updates' => [Update, Update], 'users' => [User, User], 'chats' => [Chat, Chat], 'date' => int, 'seq' => int];
 ```  

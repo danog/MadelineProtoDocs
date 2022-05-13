@@ -20,7 +20,6 @@ No new reactions are available
 
 ### Example:
 
-```php
-
+```
 $messages_availableReactionsNotModified = ['_' => 'messages.availableReactionsNotModified'];
 ```  

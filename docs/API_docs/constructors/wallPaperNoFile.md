@@ -28,7 +28,6 @@ Also used for some default wallpapers which contain only colours.
 
 ### Example:
 
-```php
-
+```
 $wallPaperNoFile = ['_' => 'wallPaperNoFile', 'id' => long, 'default' => Bool, 'dark' => Bool, 'settings' => WallPaperSettings];
 ```  

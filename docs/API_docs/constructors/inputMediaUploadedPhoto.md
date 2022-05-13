@@ -26,7 +26,6 @@ Photo
 
 ### Example:
 
-```php
-
+```
 $inputMediaUploadedPhoto = ['_' => 'inputMediaUploadedPhoto', 'file' => InputFile, 'stickers' => [InputDocument, InputDocument], 'ttl_seconds' => int];
 ```  

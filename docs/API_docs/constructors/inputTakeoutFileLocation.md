@@ -19,7 +19,6 @@ Empty constructor for takeout
 
 ### Example:
 
-```php
-
+```
 $inputTakeoutFileLocation = ['_' => 'inputTakeoutFileLocation'];
 ```  

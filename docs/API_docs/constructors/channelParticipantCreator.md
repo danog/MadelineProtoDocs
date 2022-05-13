@@ -26,7 +26,6 @@ Channel/supergroup creator
 
 ### Example:
 
-```php
-
+```
 $channelParticipantCreator = ['_' => 'channelParticipantCreator', 'user_id' => long, 'admin_rights' => ChatAdminRights, 'rank' => 'string'];
 ```  

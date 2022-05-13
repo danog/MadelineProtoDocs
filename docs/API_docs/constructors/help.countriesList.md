@@ -26,7 +26,6 @@ Name, ISO code, localized name and phone codes/patterns of all available countri
 
 ### Example:
 
-```php
-
+```
 $help_countriesList = ['_' => 'help.countriesList', 'countries' => [help.Country, help.Country], 'hash' => int];
 ```  

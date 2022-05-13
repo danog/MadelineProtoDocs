@@ -25,7 +25,6 @@ Info about RTMP streams in a group call or livestream
 
 ### Example:
 
-```php
-
+```
 $phone_groupCallStreamChannels = ['_' => 'phone.groupCallStreamChannels', 'channels' => [GroupCallStreamChannel, GroupCallStreamChannel]];
 ```  

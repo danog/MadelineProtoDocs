@@ -25,7 +25,6 @@ Ordered list of [IV](https://instantview.telegram.org) blocks
 
 ### Example:
 
-```php
-
+```
 $pageListOrderedItemBlocks = ['_' => 'pageListOrderedItemBlocks', 'num' => 'string', 'blocks' => [PageBlock, PageBlock]];
 ```  

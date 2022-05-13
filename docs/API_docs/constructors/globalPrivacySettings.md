@@ -24,7 +24,6 @@ Global privacy settings
 
 ### Example:
 
-```php
-
+```
 $globalPrivacySettings = ['_' => 'globalPrivacySettings', 'archive_and_mute_new_noncontact_peers' => Bool];
 ```  

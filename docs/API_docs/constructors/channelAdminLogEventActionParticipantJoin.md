@@ -19,7 +19,6 @@ A user has joined the group (in the case of big groups, info of the user that ha
 
 ### Example:
 
-```php
-
+```
 $channelAdminLogEventActionParticipantJoin = ['_' => 'channelAdminLogEventActionParticipantJoin'];
 ```  

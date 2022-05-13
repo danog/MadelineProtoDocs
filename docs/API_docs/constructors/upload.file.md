@@ -27,7 +27,6 @@ File content.
 
 ### Example:
 
-```php
-
+```
 $upload_file = ['_' => 'upload.file', 'type' => storage.FileType, 'mtime' => int, 'bytes' => 'bytes'];
 ```  

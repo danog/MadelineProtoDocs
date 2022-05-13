@@ -26,7 +26,6 @@ Login token (for [QR code login](https://core.telegram.org/api/qr-login))
 
 ### Example:
 
-```php
-
+```
 $auth_loginToken = ['_' => 'auth.loginToken', 'expires' => int, 'token' => 'bytes'];
 ```  

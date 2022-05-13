@@ -25,7 +25,6 @@ Message entity representing underlined text.
 
 ### Example:
 
-```php
-
+```
 $messageEntityUnderline = ['_' => 'messageEntityUnderline', 'offset' => int, 'length' => int];
 ```  

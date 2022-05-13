@@ -26,7 +26,6 @@ Credit card info, provided by the card's bank(s)
 
 ### Example:
 
-```php
-
+```
 $payments_bankCardData = ['_' => 'payments.bankCardData', 'title' => 'string', 'open_urls' => [BankCardOpenUrl, BankCardOpenUrl]];
 ```  

@@ -25,7 +25,6 @@ Takeout info
 
 ### Example:
 
-```php
-
+```
 $account_takeout = ['_' => 'account.takeout', 'id' => long];
 ```  

@@ -19,7 +19,6 @@ Phone
 
 ### Example:
 
-```php
-
+```
 $secureValueTypePhone = ['_' => 'secureValueTypePhone'];
 ```  

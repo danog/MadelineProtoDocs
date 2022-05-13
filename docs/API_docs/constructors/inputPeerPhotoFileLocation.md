@@ -26,7 +26,6 @@ Location of profile photo of channel/group/supergroup/user
 
 ### Example:
 
-```php
-
+```
 $inputPeerPhotoFileLocation = ['_' => 'inputPeerPhotoFileLocation', 'big' => Bool, 'peer' => InputPeer, 'photo_id' => long];
 ```  

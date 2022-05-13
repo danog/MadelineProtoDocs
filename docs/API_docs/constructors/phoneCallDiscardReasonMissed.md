@@ -19,7 +19,6 @@ The phone call was missed
 
 ### Example:
 
-```php
-
+```
 $phoneCallDiscardReasonMissed = ['_' => 'phoneCallDiscardReasonMissed'];
 ```  

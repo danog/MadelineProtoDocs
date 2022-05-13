@@ -19,7 +19,6 @@ User is recording a video.
 
 ### Example:
 
-```php
-
+```
 $sendMessageRecordVideoAction = ['_' => 'sendMessageRecordVideoAction'];
 ```  

@@ -25,7 +25,6 @@ Public key to use **only** during handshakes to [CDN](https://core.telegram.org/
 
 ### Example:
 
-```php
-
+```
 $cdnPublicKey = ['_' => 'cdnPublicKey', 'dc_id' => int, 'public_key' => 'string'];
 ```  

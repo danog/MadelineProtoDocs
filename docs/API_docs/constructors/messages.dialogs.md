@@ -28,7 +28,6 @@ Full list of chats with messages and auxiliary data.
 
 ### Example:
 
-```php
-
+```
 $messages_dialogs = ['_' => 'messages.dialogs', 'dialogs' => [Dialog, Dialog], 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

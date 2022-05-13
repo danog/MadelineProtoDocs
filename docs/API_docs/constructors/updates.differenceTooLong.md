@@ -25,7 +25,6 @@ The difference is [too long](https://core.telegram.org/api/updates#recovering-ga
 
 ### Example:
 
-```php
-
+```
 $updates_differenceTooLong = ['_' => 'updates.differenceTooLong', 'pts' => int];
 ```  

@@ -24,7 +24,6 @@ Button to start a game
 
 ### Example:
 
-```php
-
+```
 $keyboardButtonGame = ['_' => 'keyboardButtonGame', 'text' => 'string'];
 ```  

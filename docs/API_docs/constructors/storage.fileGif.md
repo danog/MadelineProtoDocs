@@ -20,7 +20,6 @@ GIF image. MIME type: `image/gif`.
 
 ### Example:
 
-```php
-
+```
 $storage_fileGif = ['_' => 'storage.fileGif'];
 ```  

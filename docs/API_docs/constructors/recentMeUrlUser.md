@@ -25,7 +25,6 @@ Recent t.me link to a user
 
 ### Example:
 
-```php
-
+```
 $recentMeUrlUser = ['_' => 'recentMeUrlUser', 'url' => 'string', 'user_id' => long];
 ```  

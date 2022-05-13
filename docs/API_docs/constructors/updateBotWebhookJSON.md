@@ -24,7 +24,6 @@ A new incoming event; for bots only
 
 ### Example:
 
-```php
-
+```
 $updateBotWebhookJSON = ['_' => 'updateBotWebhookJSON', 'data' => DataJSON];
 ```  

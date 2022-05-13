@@ -24,7 +24,6 @@ Bot or inline keyboard
 
 ### Example:
 
-```php
-
+```
 $replyInlineMarkup = ['_' => 'replyInlineMarkup', 'rows' => [KeyboardButtonRow, KeyboardButtonRow]];
 ```  

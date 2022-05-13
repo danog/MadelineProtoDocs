@@ -28,7 +28,6 @@ Recently used stickers
 
 ### Example:
 
-```php
-
+```
 $messages_recentStickers = ['_' => 'messages.recentStickers', 'hash' => long, 'packs' => [StickerPack, StickerPack], 'stickers' => [Document, Document], 'dates' => [int, int]];
 ```  

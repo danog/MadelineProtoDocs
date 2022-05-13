@@ -24,7 +24,6 @@ Preview of webpage
 
 ### Example:
 
-```php
-
+```
 $messageMediaWebPage = ['_' => 'messageMediaWebPage', 'webpage' => WebPage];
 ```  

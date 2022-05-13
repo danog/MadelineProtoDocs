@@ -27,7 +27,6 @@ How a certain peer reacted to the message
 
 ### Example:
 
-```php
-
+```
 $messagePeerReaction = ['_' => 'messagePeerReaction', 'big' => Bool, 'unread' => Bool, 'peer_id' => Peer, 'reaction' => 'string'];
 ```  

@@ -27,7 +27,6 @@ Use this object to download a photo with [upload.getFile](../methods/upload.getF
 
 ### Example:
 
-```php
-
+```
 $inputPhotoFileLocation = ['_' => 'inputPhotoFileLocation', 'id' => long, 'access_hash' => long, 'file_reference' => 'bytes', 'thumb_size' => 'string'];
 ```  

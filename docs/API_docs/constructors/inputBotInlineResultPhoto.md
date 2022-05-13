@@ -27,7 +27,6 @@ Photo
 
 ### Example:
 
-```php
-
+```
 $inputBotInlineResultPhoto = ['_' => 'inputBotInlineResultPhoto', 'id' => 'string', 'type' => 'string', 'photo' => InputPhoto, 'send_message' => InputBotInlineMessage];
 ```  

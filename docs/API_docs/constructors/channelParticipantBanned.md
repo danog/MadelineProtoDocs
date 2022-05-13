@@ -28,7 +28,6 @@ Banned/kicked user
 
 ### Example:
 
-```php
-
+```
 $channelParticipantBanned = ['_' => 'channelParticipantBanned', 'left' => Bool, 'peer' => Peer, 'kicked_by' => long, 'date' => int, 'banned_rights' => ChatBannedRights];
 ```  

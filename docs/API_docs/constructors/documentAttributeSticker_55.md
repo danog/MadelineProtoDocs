@@ -25,7 +25,6 @@ Defines a sticker
 
 ### Example:
 
-```php
-
+```
 $documentAttributeSticker_55 = ['_' => 'documentAttributeSticker', 'alt' => 'string', 'stickerset' => InputStickerSet];
 ```  

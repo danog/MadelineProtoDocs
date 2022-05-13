@@ -25,7 +25,6 @@ Author and date of creation of article
 
 ### Example:
 
-```php
-
+```
 $pageBlockAuthorDate = ['_' => 'pageBlockAuthorDate', 'author' => RichText, 'published_date' => int];
 ```  

@@ -24,7 +24,6 @@ Group.
 
 ### Example:
 
-```php
-
+```
 $peerChat = ['_' => 'peerChat', 'chat_id' => long];
 ```  

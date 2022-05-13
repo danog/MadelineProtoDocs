@@ -29,7 +29,6 @@ Info about the latest telegram Terms Of Service
 
 ### Example:
 
-```php
-
+```
 $help_termsOfService = ['_' => 'help.termsOfService', 'popup' => Bool, 'id' => DataJSON, 'text' => 'string', 'entities' => [MessageEntity, MessageEntity], 'min_age_confirm' => int];
 ```  

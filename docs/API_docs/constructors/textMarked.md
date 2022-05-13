@@ -24,7 +24,6 @@ Highlighted text
 
 ### Example:
 
-```php
-
+```
 $textMarked = ['_' => 'textMarked', 'text' => RichText];
 ```  

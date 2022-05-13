@@ -27,7 +27,6 @@ A specific user has voted in a poll
 
 ### Example:
 
-```php
-
+```
 $updateMessagePollVote = ['_' => 'updateMessagePollVote', 'poll_id' => long, 'user_id' => long, 'options' => ['bytes', 'bytes'], 'qts' => int];
 ```  

@@ -26,7 +26,6 @@ Sensitive content settings
 
 ### Example:
 
-```php
-
+```
 $account_contentSettings = ['_' => 'account.contentSettings', 'sensitive_enabled' => Bool, 'sensitive_can_change' => Bool];
 ```  

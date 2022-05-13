@@ -26,7 +26,6 @@ Defines a [min](https://core.telegram.org/api/min) user that was seen in a certa
 
 ### Example:
 
-```php
-
+```
 $inputUserFromMessage = ['_' => 'inputUserFromMessage', 'peer' => InputPeer, 'msg_id' => int, 'user_id' => long];
 ```  

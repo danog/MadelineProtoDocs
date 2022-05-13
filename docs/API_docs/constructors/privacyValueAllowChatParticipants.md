@@ -24,7 +24,6 @@ Allow all participants of certain chats
 
 ### Example:
 
-```php
-
+```
 $privacyValueAllowChatParticipants = ['_' => 'privacyValueAllowChatParticipants', 'chats' => [long, long]];
 ```  

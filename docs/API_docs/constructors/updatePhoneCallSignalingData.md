@@ -25,7 +25,6 @@ Incoming phone call signaling payload
 
 ### Example:
 
-```php
-
+```
 $updatePhoneCallSignalingData = ['_' => 'updatePhoneCallSignalingData', 'phone_call_id' => long, 'data' => 'bytes'];
 ```  

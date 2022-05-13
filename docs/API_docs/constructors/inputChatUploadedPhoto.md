@@ -26,7 +26,6 @@ New photo to be set as group profile photo.
 
 ### Example:
 
-```php
-
+```
 $inputChatUploadedPhoto = ['_' => 'inputChatUploadedPhoto', 'file' => InputFile, 'video' => InputFile, 'video_start_ts' => double];
 ```  

@@ -26,7 +26,6 @@ Saved gifs
 
 ### Example:
 
-```php
-
+```
 $messages_savedGifs = ['_' => 'messages.savedGifs', 'hash' => long, 'gifs' => [Document, Document]];
 ```  

@@ -24,7 +24,6 @@ A message was posted in a channel
 
 ### Example:
 
-```php
-
+```
 $channelAdminLogEventActionSendMessage = ['_' => 'channelAdminLogEventActionSendMessage', 'message' => Message];
 ```  

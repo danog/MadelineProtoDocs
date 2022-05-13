@@ -25,7 +25,6 @@ How a user voted in a poll (reduced constructor, returned if an `option` was pro
 
 ### Example:
 
-```php
-
+```
 $messageUserVoteInputOption = ['_' => 'messageUserVoteInputOption', 'user_id' => long, 'date' => int];
 ```  

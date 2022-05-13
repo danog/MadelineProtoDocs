@@ -29,7 +29,6 @@ Can be used to send a venue geolocation.
 
 ### Example:
 
-```php
-
+```
 $inputMediaVenue = ['_' => 'inputMediaVenue', 'geo_point' => InputGeoPoint, 'title' => 'string', 'address' => 'string', 'provider' => 'string', 'venue_id' => 'string', 'venue_type' => 'string'];
 ```  

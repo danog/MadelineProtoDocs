@@ -25,7 +25,6 @@ A new [folder](https://core.telegram.org/api/folders) was added
 
 ### Example:
 
-```php
-
+```
 $updateDialogFilter = ['_' => 'updateDialogFilter', 'id' => int, 'filter' => DialogFilter];
 ```  

@@ -27,7 +27,6 @@ Incomplete list of photos with auxiliary data.
 
 ### Example:
 
-```php
-
+```
 $photos_photosSlice = ['_' => 'photos.photosSlice', 'count' => int, 'photos' => [Photo, Photo], 'users' => [User, User]];
 ```  

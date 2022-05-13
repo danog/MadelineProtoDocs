@@ -25,7 +25,6 @@ Credit card info URL provided by the bank
 
 ### Example:
 
-```php
-
+```
 $bankCardOpenUrl = ['_' => 'bankCardOpenUrl', 'url' => 'string', 'name' => 'string'];
 ```  

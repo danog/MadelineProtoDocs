@@ -31,7 +31,6 @@ Generic result
 
 ### Example:
 
-```php
-
+```
 $botInlineResult = ['_' => 'botInlineResult', 'id' => 'string', 'type' => 'string', 'title' => 'string', 'description' => 'string', 'url' => 'string', 'thumb' => WebDocument, 'content' => WebDocument, 'send_message' => BotInlineMessage];
 ```  

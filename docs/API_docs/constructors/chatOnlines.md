@@ -24,7 +24,6 @@ Number of online users in a chat
 
 ### Example:
 
-```php
-
+```
 $chatOnlines = ['_' => 'chatOnlines', 'onlines' => int];
 ```  

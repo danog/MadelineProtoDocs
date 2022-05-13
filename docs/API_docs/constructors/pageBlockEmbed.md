@@ -31,7 +31,6 @@ An embedded webpage
 
 ### Example:
 
-```php
-
+```
 $pageBlockEmbed = ['_' => 'pageBlockEmbed', 'full_width' => Bool, 'allow_scrolling' => Bool, 'url' => 'string', 'html' => 'string', 'poster_photo_id' => long, 'w' => int, 'h' => int, 'caption' => PageCaption];
 ```  

@@ -19,7 +19,6 @@ A user left the channel/supergroup (in the case of big groups, info of the user 
 
 ### Example:
 
-```php
-
+```
 $channelAdminLogEventActionParticipantLeave = ['_' => 'channelAdminLogEventActionParticipantLeave'];
 ```  

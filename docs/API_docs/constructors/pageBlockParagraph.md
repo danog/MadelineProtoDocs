@@ -24,7 +24,6 @@ A paragraph
 
 ### Example:
 
-```php
-
+```
 $pageBlockParagraph = ['_' => 'pageBlockParagraph', 'text' => RichText];
 ```  

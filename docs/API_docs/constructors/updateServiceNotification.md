@@ -31,7 +31,6 @@ The app must show the message to the user upon receiving this update. In case th
 
 ### Example:
 
-```php
-
+```
 $updateServiceNotification = ['_' => 'updateServiceNotification', 'popup' => Bool, 'inbox_date' => int, 'type' => 'string', 'message' => 'string', 'media' => MessageMedia, 'entities' => [MessageEntity, MessageEntity]];
 ```  

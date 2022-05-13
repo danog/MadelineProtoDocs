@@ -25,7 +25,6 @@ The specified bot commands will be valid only for a specific user in the specifi
 
 ### Example:
 
-```php
-
+```
 $botCommandScopePeerUser = ['_' => 'botCommandScopePeerUser', 'peer' => InputPeer, 'user_id' => InputUser];
 ```  

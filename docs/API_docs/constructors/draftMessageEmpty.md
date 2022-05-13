@@ -24,7 +24,6 @@ Empty draft
 
 ### Example:
 
-```php
-
+```
 $draftMessageEmpty = ['_' => 'draftMessageEmpty', 'date' => int];
 ```  

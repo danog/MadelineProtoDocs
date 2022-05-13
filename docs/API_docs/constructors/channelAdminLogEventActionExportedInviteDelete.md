@@ -24,7 +24,6 @@ A chat invite was deleted
 
 ### Example:
 
-```php
-
+```
 $channelAdminLogEventActionExportedInviteDelete = ['_' => 'channelAdminLogEventActionExportedInviteDelete', 'invite' => ExportedChatInvite];
 ```  

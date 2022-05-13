@@ -26,7 +26,6 @@ Accept new key
 
 ### Example:
 
-```php
-
+```
 $decryptedMessageActionAcceptKey_20 = ['_' => 'decryptedMessageActionAcceptKey', 'exchange_id' => long, 'g_b' => 'bytes', 'key_fingerprint' => long];
 ```  

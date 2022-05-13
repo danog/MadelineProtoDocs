@@ -25,7 +25,6 @@ New encrypted message.
 
 ### Example:
 
-```php
-
+```
 $updateNewEncryptedMessage = ['_' => 'updateNewEncryptedMessage', 'message' => EncryptedMessage, 'qts' => int];
 ```  

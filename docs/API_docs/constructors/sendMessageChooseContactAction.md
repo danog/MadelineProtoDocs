@@ -19,7 +19,6 @@ User is selecting a contact to share.
 
 ### Example:
 
-```php
-
+```
 $sendMessageChooseContactAction = ['_' => 'sendMessageChooseContactAction'];
 ```  

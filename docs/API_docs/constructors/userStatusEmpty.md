@@ -19,7 +19,6 @@ User status has not been set yet.
 
 ### Example:
 
-```php
-
+```
 $userStatusEmpty = ['_' => 'userStatusEmpty'];
 ```  

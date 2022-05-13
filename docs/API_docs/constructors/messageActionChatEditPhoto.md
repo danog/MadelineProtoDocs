@@ -24,7 +24,6 @@ Group profile changed
 
 ### Example:
 
-```php
-
+```
 $messageActionChatEditPhoto = ['_' => 'messageActionChatEditPhoto', 'photo' => Photo];
 ```  

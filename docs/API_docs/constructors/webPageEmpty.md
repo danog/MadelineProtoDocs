@@ -24,7 +24,6 @@ No preview is available for the webpage
 
 ### Example:
 
-```php
-
+```
 $webPageEmpty = ['_' => 'webPageEmpty', 'id' => long];
 ```  

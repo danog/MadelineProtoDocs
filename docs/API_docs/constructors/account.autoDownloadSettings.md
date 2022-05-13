@@ -27,7 +27,6 @@ Media autodownload settings
 
 ### Example:
 
-```php
-
+```
 $account_autoDownloadSettings = ['_' => 'account.autoDownloadSettings', 'low' => AutoDownloadSettings, 'medium' => AutoDownloadSettings, 'high' => AutoDownloadSettings];
 ```  

@@ -30,7 +30,6 @@ Related article
 
 ### Example:
 
-```php
-
+```
 $pageRelatedArticle = ['_' => 'pageRelatedArticle', 'url' => 'string', 'webpage_id' => long, 'title' => 'string', 'description' => 'string', 'photo_id' => long, 'author' => 'string', 'published_date' => int];
 ```  

@@ -25,7 +25,6 @@ Settings of a certain peer have changed
 
 ### Example:
 
-```php
-
+```
 $updatePeerSettings = ['_' => 'updatePeerSettings', 'peer' => Peer, 'settings' => PeerSettings];
 ```  

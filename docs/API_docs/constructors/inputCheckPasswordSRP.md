@@ -26,7 +26,6 @@ Constructor for checking the validity of a 2FA SRP password (see [SRP](https://c
 
 ### Example:
 
-```php
-
+```
 $inputCheckPasswordSRP = ['_' => 'inputCheckPasswordSRP', 'srp_id' => long, 'A' => 'bytes', 'M1' => 'bytes'];
 ```  

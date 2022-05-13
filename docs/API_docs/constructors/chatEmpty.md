@@ -24,7 +24,6 @@ Empty constructor, group doesn't exist
 
 ### Example:
 
-```php
-
+```
 $chatEmpty = ['_' => 'chatEmpty', 'id' => long];
 ```  

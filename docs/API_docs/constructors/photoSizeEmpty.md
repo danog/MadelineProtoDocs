@@ -24,7 +24,6 @@ Empty constructor. Image with this thumbnail is unavailable.
 
 ### Example:
 
-```php
-
+```
 $photoSizeEmpty = ['_' => 'photoSizeEmpty', 'type' => 'string'];
 ```  

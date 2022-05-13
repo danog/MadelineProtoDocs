@@ -19,7 +19,6 @@ Group profile photo removed.
 
 ### Example:
 
-```php
-
+```
 $messageActionChatDeletePhoto = ['_' => 'messageActionChatDeletePhoto'];
 ```  

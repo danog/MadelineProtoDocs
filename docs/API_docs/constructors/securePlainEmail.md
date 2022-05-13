@@ -24,7 +24,6 @@ Email address to use in [telegram passport](https://core.telegram.org/passport):
 
 ### Example:
 
-```php
-
+```
 $securePlainEmail = ['_' => 'securePlainEmail', 'email' => 'string'];
 ```  

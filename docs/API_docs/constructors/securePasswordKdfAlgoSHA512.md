@@ -24,7 +24,6 @@ SHA512 KDF algo
 
 ### Example:
 
-```php
-
+```
 $securePasswordKdfAlgoSHA512 = ['_' => 'securePasswordKdfAlgoSHA512', 'salt' => 'bytes'];
 ```  

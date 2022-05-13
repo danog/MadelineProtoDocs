@@ -25,7 +25,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```php
-
+```
 $statsDateRangeDays = ['_' => 'statsDateRangeDays', 'min_date' => int, 'max_date' => int];
 ```  

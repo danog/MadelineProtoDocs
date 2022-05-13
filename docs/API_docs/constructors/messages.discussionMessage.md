@@ -31,7 +31,6 @@ Information about a [message thread](https://core.telegram.org/api/threads)
 
 ### Example:
 
-```php
-
+```
 $messages_discussionMessage = ['_' => 'messages.discussionMessage', 'messages' => [Message, Message], 'max_id' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'unread_count' => int, 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

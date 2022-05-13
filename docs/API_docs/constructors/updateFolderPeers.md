@@ -26,7 +26,6 @@ The peer list of a [peer folder](https://core.telegram.org/api/folders#peer-fold
 
 ### Example:
 
-```php
-
+```
 $updateFolderPeers = ['_' => 'updateFolderPeers', 'folder_peers' => [FolderPeer, FolderPeer], 'pts' => int, 'pts_count' => int];
 ```  

@@ -25,7 +25,6 @@ Configuring parameters did not change.
 
 ### Example:
 
-```php
-
+```
 $messages_dhConfigNotModified = ['_' => 'messages.dhConfigNotModified', 'random' => 'bytes'];
 ```  

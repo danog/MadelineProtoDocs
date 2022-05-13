@@ -26,7 +26,6 @@ Info about an update of telegram's terms of service. If the terms of service are
 
 ### Example:
 
-```php
-
+```
 $help_termsOfServiceUpdate = ['_' => 'help.termsOfServiceUpdate', 'expires' => int, 'terms_of_service' => help.TermsOfService];
 ```  

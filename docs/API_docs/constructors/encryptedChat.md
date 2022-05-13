@@ -30,7 +30,6 @@ Encrypted chat
 
 ### Example:
 
-```php
-
+```
 $encryptedChat = ['_' => 'encryptedChat', 'id' => int, 'access_hash' => long, 'date' => int, 'admin_id' => long, 'participant_id' => long, 'g_a_or_b' => 'bytes', 'key_fingerprint' => long];
 ```  

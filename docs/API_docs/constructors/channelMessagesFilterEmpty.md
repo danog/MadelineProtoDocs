@@ -19,7 +19,6 @@ No filter
 
 ### Example:
 
-```php
-
+```
 $channelMessagesFilterEmpty = ['_' => 'channelMessagesFilterEmpty'];
 ```  

@@ -27,7 +27,6 @@ Full list of blocked users.
 
 ### Example:
 
-```php
-
+```
 $contacts_blocked = ['_' => 'contacts.blocked', 'blocked' => [PeerBlocked, PeerBlocked], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

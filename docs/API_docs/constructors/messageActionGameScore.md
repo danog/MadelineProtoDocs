@@ -25,7 +25,6 @@ Someone scored in a game
 
 ### Example:
 
-```php
-
+```
 $messageActionGameScore = ['_' => 'messageActionGameScore', 'game_id' => long, 'score' => int];
 ```  

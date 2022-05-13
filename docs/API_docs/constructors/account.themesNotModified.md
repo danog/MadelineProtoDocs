@@ -20,7 +20,6 @@ No new themes were installed
 
 ### Example:
 
-```php
-
+```
 $account_themesNotModified = ['_' => 'account.themesNotModified'];
 ```  

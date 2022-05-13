@@ -19,7 +19,6 @@ Fetch only recent participants
 
 ### Example:
 
-```php
-
+```
 $channelParticipantsRecent = ['_' => 'channelParticipantsRecent'];
 ```  

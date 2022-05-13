@@ -19,7 +19,6 @@ Whether the user allows P2P communication during VoIP calls
 
 ### Example:
 
-```php
-
+```
 $inputPrivacyKeyPhoneP2P = ['_' => 'inputPrivacyKeyPhoneP2P'];
 ```  

@@ -20,7 +20,6 @@ Top peers disabled
 
 ### Example:
 
-```php
-
+```
 $contacts_topPeersDisabled = ['_' => 'contacts.topPeersDisabled'];
 ```  

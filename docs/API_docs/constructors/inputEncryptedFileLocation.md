@@ -25,7 +25,6 @@ Location of encrypted secret chat file.
 
 ### Example:
 
-```php
-
+```
 $inputEncryptedFileLocation = ['_' => 'inputEncryptedFileLocation', 'id' => long, 'access_hash' => long];
 ```  

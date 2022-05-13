@@ -28,7 +28,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```php
-
+```
 $videoSize = ['_' => 'videoSize', 'type' => 'string', 'w' => int, 'h' => int, 'size' => int, 'video_start_ts' => double];
 ```  

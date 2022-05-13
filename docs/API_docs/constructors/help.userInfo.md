@@ -28,7 +28,6 @@ Internal use
 
 ### Example:
 
-```php
-
+```
 $help_userInfo = ['_' => 'help.userInfo', 'message' => 'string', 'entities' => [MessageEntity, MessageEntity], 'author' => 'string', 'date' => int];
 ```  

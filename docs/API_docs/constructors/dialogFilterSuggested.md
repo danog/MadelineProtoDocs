@@ -25,7 +25,6 @@ Suggested [folders](https://core.telegram.org/api/folders)
 
 ### Example:
 
-```php
-
+```
 $dialogFilterSuggested = ['_' => 'dialogFilterSuggested', 'filter' => DialogFilter, 'description' => 'string'];
 ```  

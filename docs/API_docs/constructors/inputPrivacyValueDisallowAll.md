@@ -19,7 +19,6 @@ Disallow all
 
 ### Example:
 
-```php
-
+```
 $inputPrivacyValueDisallowAll = ['_' => 'inputPrivacyValueDisallowAll'];
 ```  

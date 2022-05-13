@@ -24,7 +24,6 @@ Subscript text
 
 ### Example:
 
-```php
-
+```
 $textSubscript = ['_' => 'textSubscript', 'text' => RichText];
 ```  

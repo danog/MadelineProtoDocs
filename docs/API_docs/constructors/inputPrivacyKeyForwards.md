@@ -19,7 +19,6 @@ Whether messages forwarded from this user will be [anonymous](https://telegram.o
 
 ### Example:
 
-```php
-
+```
 $inputPrivacyKeyForwards = ['_' => 'inputPrivacyKeyForwards'];
 ```  

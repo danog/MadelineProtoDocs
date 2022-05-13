@@ -19,7 +19,6 @@ The inline query was sent in a [supergroup](https://core.telegram.org/api/channe
 
 ### Example:
 
-```php
-
+```
 $inlineQueryPeerTypeMegagroup = ['_' => 'inlineQueryPeerTypeMegagroup'];
 ```  

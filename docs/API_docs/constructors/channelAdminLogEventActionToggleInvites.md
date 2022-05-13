@@ -24,7 +24,6 @@ Invites were enabled/disabled
 
 ### Example:
 
-```php
-
+```
 $channelAdminLogEventActionToggleInvites = ['_' => 'channelAdminLogEventActionToggleInvites', 'new_value' => Bool];
 ```  

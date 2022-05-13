@@ -31,7 +31,6 @@ Table cell
 
 ### Example:
 
-```php
-
+```
 $pageTableCell = ['_' => 'pageTableCell', 'header' => Bool, 'align_center' => Bool, 'align_right' => Bool, 'valign_middle' => Bool, 'valign_bottom' => Bool, 'text' => RichText, 'colspan' => int, 'rowspan' => int];
 ```  

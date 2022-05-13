@@ -27,7 +27,6 @@ Phone contact. The `client_id` is just an arbitrary contact ID: it should be set
 
 ### Example:
 
-```php
-
+```
 $inputPhoneContact = ['_' => 'inputPhoneContact', 'client_id' => long, 'phone' => 'string', 'first_name' => 'string', 'last_name' => 'string'];
 ```  

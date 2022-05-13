@@ -24,7 +24,6 @@ An error occurred while generating the [statistics graph](https://core.telegram.
 
 ### Example:
 
-```php
-
+```
 $statsGraphError = ['_' => 'statsGraphError', 'error' => 'string'];
 ```  

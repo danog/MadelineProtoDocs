@@ -27,7 +27,6 @@ Change of contact's profile photo.
 
 ### Example:
 
-```php
-
+```
 $updateUserPhoto = ['_' => 'updateUserPhoto', 'user_id' => long, 'date' => int, 'photo' => UserProfilePhoto, 'previous' => Bool];
 ```  

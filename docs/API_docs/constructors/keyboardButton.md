@@ -24,7 +24,6 @@ Bot keyboard button
 
 ### Example:
 
-```php
-
+```
 $keyboardButton = ['_' => 'keyboardButton', 'text' => 'string'];
 ```  

@@ -28,7 +28,6 @@ Incomplete list of blocked users.
 
 ### Example:
 
-```php
-
+```
 $contacts_blockedSlice = ['_' => 'contacts.blockedSlice', 'count' => int, 'blocked' => [PeerBlocked, PeerBlocked], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

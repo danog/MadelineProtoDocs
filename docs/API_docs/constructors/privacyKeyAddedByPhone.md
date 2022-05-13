@@ -19,7 +19,6 @@ Whether people can add you to their contact list by your phone number
 
 ### Example:
 
-```php
-
+```
 $privacyKeyAddedByPhone = ['_' => 'privacyKeyAddedByPhone'];
 ```  

@@ -26,7 +26,6 @@ Web authorizations
 
 ### Example:
 
-```php
-
+```
 $account_webAuthorizations = ['_' => 'account.webAuthorizations', 'authorizations' => [WebAuthorization, WebAuthorization], 'users' => [User, User]];
 ```  

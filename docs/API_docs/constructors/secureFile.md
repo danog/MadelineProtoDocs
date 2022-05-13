@@ -30,7 +30,6 @@ Secure [passport](https://core.telegram.org/passport) file, for more info [see t
 
 ### Example:
 
-```php
-
+```
 $secureFile = ['_' => 'secureFile', 'id' => long, 'access_hash' => long, 'size' => int, 'dc_id' => int, 'date' => int, 'file_hash' => 'bytes', 'secret' => 'bytes'];
 ```  

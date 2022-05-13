@@ -25,7 +25,6 @@ The order of stickersets was changed
 
 ### Example:
 
-```php
-
+```
 $updateStickerSetsOrder = ['_' => 'updateStickerSetsOrder', 'masks' => Bool, 'order' => [long, long]];
 ```  

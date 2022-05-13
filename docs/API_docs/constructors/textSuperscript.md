@@ -24,7 +24,6 @@ Superscript text
 
 ### Example:
 
-```php
-
+```
 $textSuperscript = ['_' => 'textSuperscript', 'text' => RichText];
 ```  

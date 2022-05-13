@@ -24,7 +24,6 @@ Empty constructor, non-existent user.
 
 ### Example:
 
-```php
-
+```
 $userEmpty = ['_' => 'userEmpty', 'id' => long];
 ```  

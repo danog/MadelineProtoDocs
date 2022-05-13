@@ -27,7 +27,6 @@ Progressively encoded photosize
 
 ### Example:
 
-```php
-
+```
 $photoSizeProgressive = ['_' => 'photoSizeProgressive', 'type' => 'string', 'w' => int, 'h' => int, 'sizes' => [int, int]];
 ```  

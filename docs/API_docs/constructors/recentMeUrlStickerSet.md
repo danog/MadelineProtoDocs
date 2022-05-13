@@ -25,7 +25,6 @@ Recent t.me stickerset installation URL
 
 ### Example:
 
-```php
-
+```
 $recentMeUrlStickerSet = ['_' => 'recentMeUrlStickerSet', 'url' => 'string', 'set' => StickerSetCovered];
 ```  

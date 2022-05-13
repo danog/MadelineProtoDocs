@@ -27,7 +27,6 @@ Resolved peer
 
 ### Example:
 
-```php
-
+```
 $contacts_resolvedPeer = ['_' => 'contacts.resolvedPeer', 'peer' => Peer, 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

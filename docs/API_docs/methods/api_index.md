@@ -1625,6 +1625,10 @@ $MadelineProto->[phone->saveCallDebug](/API_docs/methods/phone.saveCallDebug.htm
 
 ***
 <br><br>
+$MadelineProto->[phone->saveCallLog](/API_docs/methods/phone.saveCallLog.html)(\[peer: [InputPhoneCall](/API_docs/types/InputPhoneCall.html), file: [InputFile](/API_docs/types/InputFile.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="phone.saveCallLog"></a>  
+
+***
+<br><br>
 $MadelineProto->[phone->saveDefaultGroupCallJoinAs](/API_docs/methods/phone.saveDefaultGroupCallJoinAs.html)(\[peer: [InputPeer](/API_docs/types/InputPeer.html), join_as: [InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="phone.saveDefaultGroupCallJoinAs"></a>  
 
 ***

@@ -27,7 +27,6 @@ A photo
 
 ### Example:
 
-```php
-
+```
 $pageBlockPhoto = ['_' => 'pageBlockPhoto', 'photo_id' => long, 'caption' => PageCaption, 'url' => 'string', 'webpage_id' => long];
 ```  

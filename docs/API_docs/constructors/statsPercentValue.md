@@ -26,7 +26,6 @@ Compute the percentage simply by doing `part * total / 100`
 
 ### Example:
 
-```php
-
+```
 $statsPercentValue = ['_' => 'statsPercentValue', 'part' => double, 'total' => double];
 ```  

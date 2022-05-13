@@ -24,7 +24,6 @@ channelAdminLogEvent.user\_id has set the volume of participant.peer to particip
 
 ### Example:
 
-```php
-
+```
 $channelAdminLogEventActionParticipantVolume = ['_' => 'channelAdminLogEventActionParticipantVolume', 'participant' => GroupCallParticipant];
 ```  

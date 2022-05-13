@@ -27,7 +27,6 @@ Changes the user's first name, last name and username.
 
 ### Example:
 
-```php
-
+```
 $updateUserName = ['_' => 'updateUserName', 'user_id' => long, 'first_name' => 'string', 'last_name' => 'string', 'username' => 'string'];
 ```  

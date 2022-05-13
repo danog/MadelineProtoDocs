@@ -25,7 +25,6 @@ The linked chat was changed
 
 ### Example:
 
-```php
-
+```
 $channelAdminLogEventActionChangeLinkedChat = ['_' => 'channelAdminLogEventActionChangeLinkedChat', 'prev_value' => long, 'new_value' => long];
 ```  

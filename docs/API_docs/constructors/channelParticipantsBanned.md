@@ -24,7 +24,6 @@ Fetch only banned participants
 
 ### Example:
 
-```php
-
+```
 $channelParticipantsBanned = ['_' => 'channelParticipantsBanned', 'q' => 'string'];
 ```  

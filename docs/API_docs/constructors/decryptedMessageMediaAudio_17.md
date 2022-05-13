@@ -26,7 +26,6 @@ Audio file attached to a secret chat message.
 
 ### Example:
 
-```php
-
+```
 $decryptedMessageMediaAudio_17 = ['_' => 'decryptedMessageMediaAudio', 'duration' => int, 'mime_type' => 'string', 'size' => int];
 ```  

@@ -25,7 +25,6 @@ Points to a specific group call
 
 ### Example:
 
-```php
-
+```
 $inputGroupCall = ['_' => 'inputGroupCall', 'id' => long, 'access_hash' => long];
 ```  

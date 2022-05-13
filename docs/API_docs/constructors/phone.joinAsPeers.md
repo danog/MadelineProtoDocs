@@ -27,7 +27,6 @@ A list of peers that can be used to join a group call, presenting yourself as a 
 
 ### Example:
 
-```php
-
+```
 $phone_joinAsPeers = ['_' => 'phone.joinAsPeers', 'peers' => [Peer, Peer], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

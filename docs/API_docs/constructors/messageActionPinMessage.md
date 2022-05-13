@@ -19,7 +19,6 @@ A message was pinned
 
 ### Example:
 
-```php
-
+```
 $messageActionPinMessage = ['_' => 'messageActionPinMessage'];
 ```  

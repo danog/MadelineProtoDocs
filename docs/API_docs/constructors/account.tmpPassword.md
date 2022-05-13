@@ -26,7 +26,6 @@ Temporary payment password
 
 ### Example:
 
-```php
-
+```
 $account_tmpPassword = ['_' => 'account.tmpPassword', 'tmp_password' => 'bytes', 'valid_until' => int];
 ```  

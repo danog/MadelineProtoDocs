@@ -19,7 +19,6 @@ Whether people will be able to see the user's phone number
 
 ### Example:
 
-```php
-
+```
 $inputPrivacyKeyPhoneNumber = ['_' => 'inputPrivacyKeyPhoneNumber'];
 ```  

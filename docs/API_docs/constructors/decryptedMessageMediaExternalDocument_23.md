@@ -31,7 +31,6 @@ Non-e2e documented forwarded from non-secret chat
 
 ### Example:
 
-```php
-
+```
 $decryptedMessageMediaExternalDocument_23 = ['_' => 'decryptedMessageMediaExternalDocument', 'id' => long, 'access_hash' => long, 'date' => int, 'mime_type' => 'string', 'size' => int, 'thumb' => PhotoSize, 'dc_id' => int, 'attributes' => [DocumentAttribute, DocumentAttribute]];
 ```  

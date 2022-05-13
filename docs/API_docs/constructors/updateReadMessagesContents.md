@@ -26,7 +26,6 @@ Contents of messages in the common [message box](https://core.telegram.org/api/u
 
 ### Example:
 
-```php
-
+```
 $updateReadMessagesContents = ['_' => 'updateReadMessagesContents', 'messages' => [int, int], 'pts' => int, 'pts_count' => int];
 ```  

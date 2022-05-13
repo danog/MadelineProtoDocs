@@ -19,7 +19,6 @@ Group photo is not set.
 
 ### Example:
 
-```php
-
+```
 $chatPhotoEmpty = ['_' => 'chatPhotoEmpty'];
 ```  

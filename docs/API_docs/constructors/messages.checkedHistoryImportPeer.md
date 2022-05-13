@@ -25,7 +25,6 @@ Contains a confirmation text to be shown to the user, upon [importing chat histo
 
 ### Example:
 
-```php
-
+```
 $messages_checkedHistoryImportPeer = ['_' => 'messages.checkedHistoryImportPeer', 'confirm_text' => 'string'];
 ```  

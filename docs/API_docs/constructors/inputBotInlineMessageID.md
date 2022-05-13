@@ -26,7 +26,6 @@ Represents a sent inline message from the perspective of a bot (legacy construct
 
 ### Example:
 
-```php
-
+```
 $inputBotInlineMessageID = ['_' => 'inputBotInlineMessageID', 'dc_id' => int, 'id' => long, 'access_hash' => long];
 ```  

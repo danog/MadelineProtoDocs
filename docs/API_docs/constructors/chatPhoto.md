@@ -27,7 +27,6 @@ Group profile photo.
 
 ### Example:
 
-```php
-
+```
 $chatPhoto = ['_' => 'chatPhoto', 'has_video' => Bool, 'photo_id' => long, 'stripped_thumb' => 'bytes', 'dc_id' => int];
 ```  

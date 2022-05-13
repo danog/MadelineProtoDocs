@@ -25,7 +25,6 @@ Game by short name
 
 ### Example:
 
-```php
-
+```
 $inputGameShortName = ['_' => 'inputGameShortName', 'bot_id' => InputUser, 'short_name' => 'string'];
 ```  

@@ -24,7 +24,6 @@ Link to section within the page itself (like `<a href="#target">anchor</a>`)
 
 ### Example:
 
-```php
-
+```
 $pageBlockAnchor = ['_' => 'pageBlockAnchor', 'name' => 'string'];
 ```  

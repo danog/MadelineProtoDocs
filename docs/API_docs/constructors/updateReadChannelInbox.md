@@ -28,7 +28,6 @@ Incoming messages in a [channel/supergroup](https://core.telegram.org/api/channe
 
 ### Example:
 
-```php
-
+```
 $updateReadChannelInbox = ['_' => 'updateReadChannelInbox', 'folder_id' => int, 'channel_id' => long, 'max_id' => int, 'still_unread_count' => int, 'pts' => int];
 ```  

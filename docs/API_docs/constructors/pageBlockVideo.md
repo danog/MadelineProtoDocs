@@ -27,7 +27,6 @@ Video
 
 ### Example:
 
-```php
-
+```
 $pageBlockVideo = ['_' => 'pageBlockVideo', 'autoplay' => Bool, 'loop' => Bool, 'video_id' => long, 'caption' => PageCaption];
 ```  

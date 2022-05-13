@@ -24,7 +24,6 @@ URL with chat statistics
 
 ### Example:
 
-```php
-
+```
 $statsURL = ['_' => 'statsURL', 'url' => 'string'];
 ```  

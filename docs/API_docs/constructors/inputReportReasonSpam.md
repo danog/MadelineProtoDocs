@@ -19,7 +19,6 @@ Report for spam
 
 ### Example:
 
-```php
-
+```
 $inputReportReasonSpam = ['_' => 'inputReportReasonSpam'];
 ```  

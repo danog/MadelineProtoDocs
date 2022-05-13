@@ -25,7 +25,6 @@ A new groupcall was started
 
 ### Example:
 
-```php
-
+```
 $updateGroupCall = ['_' => 'updateGroupCall', 'chat_id' => long, 'call' => GroupCall];
 ```  

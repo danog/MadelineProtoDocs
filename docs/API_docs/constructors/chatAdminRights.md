@@ -34,7 +34,6 @@ Represents the rights of an admin in a [channel/supergroup](https://core.telegra
 
 ### Example:
 
-```php
-
+```
 $chatAdminRights = ['_' => 'chatAdminRights', 'change_info' => Bool, 'post_messages' => Bool, 'edit_messages' => Bool, 'delete_messages' => Bool, 'ban_users' => Bool, 'invite_users' => Bool, 'pin_messages' => Bool, 'add_admins' => Bool, 'anonymous' => Bool, 'manage_call' => Bool, 'other' => Bool];
 ```  

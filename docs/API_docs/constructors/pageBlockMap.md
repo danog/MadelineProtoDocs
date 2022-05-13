@@ -28,7 +28,6 @@ A map
 
 ### Example:
 
-```php
-
+```
 $pageBlockMap = ['_' => 'pageBlockMap', 'geo' => GeoPoint, 'zoom' => int, 'w' => int, 'h' => int, 'caption' => PageCaption];
 ```  

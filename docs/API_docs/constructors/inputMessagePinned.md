@@ -19,7 +19,6 @@ Pinned message
 
 ### Example:
 
-```php
-
+```
 $inputMessagePinned = ['_' => 'inputMessagePinned'];
 ```  

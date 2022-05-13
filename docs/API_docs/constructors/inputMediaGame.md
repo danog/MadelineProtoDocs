@@ -24,7 +24,6 @@ A game
 
 ### Example:
 
-```php
-
+```
 $inputMediaGame = ['_' => 'inputMediaGame', 'id' => InputGame];
 ```  

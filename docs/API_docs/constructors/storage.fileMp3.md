@@ -20,7 +20,6 @@ Mp3 audio. MIME type: `audio/mpeg`.
 
 ### Example:
 
-```php
-
+```
 $storage_fileMp3 = ['_' => 'storage.fileMp3'];
 ```  

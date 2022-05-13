@@ -25,7 +25,6 @@ Statistics value couple; initial and final value for period of time currently in
 
 ### Example:
 
-```php
-
+```
 $statsAbsValueAndPrev = ['_' => 'statsAbsValueAndPrev', 'current' => double, 'previous' => double];
 ```  

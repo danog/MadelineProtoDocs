@@ -20,7 +20,6 @@ Info about all installed stickers hasn't changed
 
 ### Example:
 
-```php
-
+```
 $messages_allStickersNotModified = ['_' => 'messages.allStickersNotModified'];
 ```  

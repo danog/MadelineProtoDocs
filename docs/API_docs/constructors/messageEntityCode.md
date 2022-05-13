@@ -25,7 +25,6 @@ Message entity representing a `codeblock`.
 
 ### Example:
 
-```php
-
+```
 $messageEntityCode = ['_' => 'messageEntityCode', 'offset' => int, 'length' => int];
 ```  

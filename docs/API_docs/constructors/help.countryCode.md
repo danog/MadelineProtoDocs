@@ -27,7 +27,6 @@ Country code and phone number pattern of a specific country
 
 ### Example:
 
-```php
-
+```
 $help_countryCode = ['_' => 'help.countryCode', 'country_code' => 'string', 'prefixes' => ['string', 'string'], 'patterns' => ['string', 'string']];
 ```  

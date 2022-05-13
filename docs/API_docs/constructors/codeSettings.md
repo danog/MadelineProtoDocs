@@ -30,7 +30,6 @@ Example implementations: [telegram for android](https://github.com/DrKLO/Telegra
 
 ### Example:
 
-```php
-
+```
 $codeSettings = ['_' => 'codeSettings', 'allow_flashcall' => Bool, 'current_number' => Bool, 'allow_app_hash' => Bool, 'allow_missed_call' => Bool, 'logout_tokens' => ['bytes', 'bytes']];
 ```  

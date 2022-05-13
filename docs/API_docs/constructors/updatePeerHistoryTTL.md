@@ -25,7 +25,6 @@ The Time-To-Live for messages sent by the current user in a specific chat has ch
 
 ### Example:
 
-```php
-
+```
 $updatePeerHistoryTTL = ['_' => 'updatePeerHistoryTTL', 'peer' => Peer, 'ttl_period' => int];
 ```  

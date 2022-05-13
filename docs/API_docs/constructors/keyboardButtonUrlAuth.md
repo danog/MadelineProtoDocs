@@ -27,7 +27,6 @@ Button to request a user to authorize via URL using [Seamless Telegram Login](ht
 
 ### Example:
 
-```php
-
+```
 $keyboardButtonUrlAuth = ['_' => 'keyboardButtonUrlAuth', 'text' => 'string', 'fwd_text' => 'string', 'url' => 'string', 'button_id' => int];
 ```  

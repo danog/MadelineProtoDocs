@@ -24,7 +24,6 @@ Contents of an encrypted service message.
 
 ### Example:
 
-```php
-
+```
 $decryptedMessageService_17 = ['_' => 'decryptedMessageService', 'action' => DecryptedMessageAction];
 ```  

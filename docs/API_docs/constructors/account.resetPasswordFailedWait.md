@@ -25,7 +25,6 @@ You recently requested a password reset that was canceled, please wait until the
 
 ### Example:
 
-```php
-
+```
 $account_resetPasswordFailedWait = ['_' => 'account.resetPasswordFailedWait', 'retry_date' => int];
 ```  

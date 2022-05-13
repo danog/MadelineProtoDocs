@@ -27,7 +27,6 @@ Favorited stickers
 
 ### Example:
 
-```php
-
+```
 $messages_favedStickers = ['_' => 'messages.favedStickers', 'hash' => long, 'packs' => [StickerPack, StickerPack], 'stickers' => [Document, Document]];
 ```  

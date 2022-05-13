@@ -19,7 +19,6 @@ Filter for messages containing videos.
 
 ### Example:
 
-```php
-
+```
 $inputMessagesFilterVideo = ['_' => 'inputMessagesFilterVideo'];
 ```  

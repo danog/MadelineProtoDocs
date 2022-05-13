@@ -24,7 +24,6 @@ JSON boolean value
 
 ### Example:
 
-```php
-
+```
 $jsonBool = ['_' => 'jsonBool', 'value' => Bool];
 ```  

@@ -25,7 +25,6 @@ Message entity representing an <email@example.com>.
 
 ### Example:
 
-```php
-
+```
 $messageEntityEmail = ['_' => 'messageEntityEmail', 'offset' => int, 'length' => int];
 ```  

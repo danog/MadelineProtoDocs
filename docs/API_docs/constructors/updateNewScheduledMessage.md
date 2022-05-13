@@ -24,7 +24,6 @@ A message was added to the [schedule queue of a chat](https://core.telegram.org/
 
 ### Example:
 
-```php
-
+```
 $updateNewScheduledMessage = ['_' => 'updateNewScheduledMessage', 'message' => Message];
 ```  

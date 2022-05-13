@@ -25,7 +25,6 @@ The user is preparing a message; typing, recording, uploading, etc. This update 
 
 ### Example:
 
-```php
-
+```
 $updateUserTyping = ['_' => 'updateUserTyping', 'user_id' => long, 'action' => SendMessageAction];
 ```  

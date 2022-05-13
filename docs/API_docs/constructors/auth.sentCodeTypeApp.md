@@ -25,7 +25,6 @@ The code was sent through the telegram app
 
 ### Example:
 
-```php
-
+```
 $auth_sentCodeTypeApp = ['_' => 'auth.sentCodeTypeApp', 'length' => int];
 ```  

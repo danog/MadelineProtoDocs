@@ -19,7 +19,6 @@ Passport
 
 ### Example:
 
-```php
-
+```
 $secureValueTypePassport = ['_' => 'secureValueTypePassport'];
 ```  

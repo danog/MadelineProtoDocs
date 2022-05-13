@@ -19,7 +19,6 @@ Return only messages containing audio files
 
 ### Example:
 
-```php
-
+```
 $inputMessagesFilterMusic = ['_' => 'inputMessagesFilterMusic'];
 ```  

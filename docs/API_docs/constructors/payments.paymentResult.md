@@ -25,7 +25,6 @@ Payment result
 
 ### Example:
 
-```php
-
+```
 $payments_paymentResult = ['_' => 'payments.paymentResult', 'updates' => Updates];
 ```  

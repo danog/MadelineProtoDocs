@@ -31,7 +31,6 @@ The new updates
 
 ### Example:
 
-```php
-
+```
 $updates_channelDifference = ['_' => 'updates.channelDifference', 'final' => Bool, 'pts' => int, 'timeout' => int, 'new_messages' => [Message, Message], 'other_updates' => [Update, Update], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

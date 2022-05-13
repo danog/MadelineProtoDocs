@@ -24,7 +24,6 @@ Represents a json-encoded object
 
 ### Example:
 
-```php
-
+```
 $dataJSON = ['_' => 'dataJSON', 'data' => 'string'];
 ```  

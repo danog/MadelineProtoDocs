@@ -25,7 +25,6 @@ Popular contact
 
 ### Example:
 
-```php
-
+```
 $popularContact = ['_' => 'popularContact', 'client_id' => long, 'importers' => int];
 ```  

@@ -24,7 +24,6 @@ Group name changed.
 
 ### Example:
 
-```php
-
+```
 $messageActionChatEditTitle = ['_' => 'messageActionChatEditTitle', 'title' => 'string'];
 ```  

@@ -25,7 +25,6 @@ A suggested short name for a stickerpack
 
 ### Example:
 
-```php
-
+```
 $stickers_suggestedShortName = ['_' => 'stickers.suggestedShortName', 'short_name' => 'string'];
 ```  

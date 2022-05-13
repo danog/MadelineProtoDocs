@@ -24,7 +24,6 @@ The hidden prehistory setting was [changed](../methods/channels.togglePreHistory
 
 ### Example:
 
-```php
-
+```
 $channelAdminLogEventActionTogglePreHistoryHidden = ['_' => 'channelAdminLogEventActionTogglePreHistoryHidden', 'new_value' => Bool];
 ```  

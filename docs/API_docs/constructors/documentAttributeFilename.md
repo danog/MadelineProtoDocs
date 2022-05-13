@@ -24,7 +24,6 @@ A simple document with a file name
 
 ### Example:
 
-```php
-
+```
 $documentAttributeFilename = ['_' => 'documentAttributeFilename', 'file_name' => 'string'];
 ```  

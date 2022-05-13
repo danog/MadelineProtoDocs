@@ -27,7 +27,6 @@ Some messages in a [supergroup/channel](https://core.telegram.org/api/channel) w
 
 ### Example:
 
-```php
-
+```
 $updateDeleteChannelMessages = ['_' => 'updateDeleteChannelMessages', 'channel_id' => long, 'messages' => [int, int], 'pts' => int, 'pts_count' => int];
 ```  

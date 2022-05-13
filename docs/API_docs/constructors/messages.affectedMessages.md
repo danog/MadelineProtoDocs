@@ -26,7 +26,6 @@ Events affected by operation
 
 ### Example:
 
-```php
-
+```
 $messages_affectedMessages = ['_' => 'messages.affectedMessages', 'pts' => int, 'pts_count' => int];
 ```  

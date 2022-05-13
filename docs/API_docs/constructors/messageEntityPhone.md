@@ -25,7 +25,6 @@ Message entity representing a phone number.
 
 ### Example:
 
-```php
-
+```
 $messageEntityPhone = ['_' => 'messageEntityPhone', 'offset' => int, 'length' => int];
 ```  

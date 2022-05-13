@@ -24,7 +24,6 @@ Kicker
 
 ### Example:
 
-```php
-
+```
 $pageBlockKicker = ['_' => 'pageBlockKicker', 'text' => RichText];
 ```  

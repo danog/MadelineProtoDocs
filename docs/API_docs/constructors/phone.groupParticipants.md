@@ -30,7 +30,6 @@ Info about the participants of a group call or livestream
 
 ### Example:
 
-```php
-
+```
 $phone_groupParticipants = ['_' => 'phone.groupParticipants', 'count' => int, 'participants' => [GroupCallParticipant, GroupCallParticipant], 'next_offset' => 'string', 'chats' => [Chat, Chat], 'users' => [User, User], 'version' => int];
 ```  

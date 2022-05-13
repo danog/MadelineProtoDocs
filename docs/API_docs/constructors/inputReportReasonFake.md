@@ -19,7 +19,6 @@ Report for impersonation
 
 ### Example:
 
-```php
-
+```
 $inputReportReasonFake = ['_' => 'inputReportReasonFake'];
 ```  

@@ -26,7 +26,6 @@ The results of a poll have changed
 
 ### Example:
 
-```php
-
+```
 $updateMessagePoll = ['_' => 'updateMessagePoll', 'poll_id' => long, 'poll' => Poll, 'results' => PollResults];
 ```  

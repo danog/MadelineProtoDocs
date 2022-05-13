@@ -24,7 +24,6 @@ The domain name of the website on which the user has logged in. [More about Tele
 
 ### Example:
 
-```php
-
+```
 $messageActionBotAllowed = ['_' => 'messageActionBotAllowed', 'domain' => 'string'];
 ```  

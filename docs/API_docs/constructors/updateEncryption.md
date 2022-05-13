@@ -25,7 +25,6 @@ Change of state in an encrypted chat.
 
 ### Example:
 
-```php
-
+```
 $updateEncryption = ['_' => 'updateEncryption', 'chat' => EncryptedChat, 'date' => int];
 ```  

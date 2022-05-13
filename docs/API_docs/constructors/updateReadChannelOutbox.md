@@ -25,7 +25,6 @@ Outgoing messages in a [channel/supergroup](https://core.telegram.org/api/channe
 
 ### Example:
 
-```php
-
+```
 $updateReadChannelOutbox = ['_' => 'updateReadChannelOutbox', 'channel_id' => long, 'max_id' => int];
 ```  

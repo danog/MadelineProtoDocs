@@ -27,7 +27,6 @@ Admin permissions of a user in a [basic group](https://core.telegram.org/api/cha
 
 ### Example:
 
-```php
-
+```
 $updateChatParticipantAdmin = ['_' => 'updateChatParticipantAdmin', 'chat_id' => long, 'user_id' => long, 'is_admin' => Bool, 'version' => int];
 ```  

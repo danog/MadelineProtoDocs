@@ -19,7 +19,6 @@ Empty media content of a message.
 
 ### Example:
 
-```php
-
+```
 $inputMediaEmpty = ['_' => 'inputMediaEmpty'];
 ```  

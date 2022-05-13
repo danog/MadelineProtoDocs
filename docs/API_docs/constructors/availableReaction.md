@@ -33,7 +33,6 @@ Animations associated with a message reaction
 
 ### Example:
 
-```php
-
+```
 $availableReaction = ['_' => 'availableReaction', 'inactive' => Bool, 'reaction' => 'string', 'title' => 'string', 'static_icon' => Document, 'appear_animation' => Document, 'select_animation' => Document, 'activate_animation' => Document, 'effect_animation' => Document, 'around_animation' => Document, 'center_icon' => Document];
 ```  

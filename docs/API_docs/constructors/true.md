@@ -19,7 +19,6 @@ See [predefined identifiers](https://core.telegram.org/mtproto/TL-formal#predefi
 
 ### Example:
 
-```php
-
+```
 $true = ['_' => 'true'];
 ```  

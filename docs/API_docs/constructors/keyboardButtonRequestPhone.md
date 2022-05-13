@@ -24,7 +24,6 @@ Button to request a user's phone number
 
 ### Example:
 
-```php
-
+```
 $keyboardButtonRequestPhone = ['_' => 'keyboardButtonRequestPhone', 'text' => 'string'];
 ```  

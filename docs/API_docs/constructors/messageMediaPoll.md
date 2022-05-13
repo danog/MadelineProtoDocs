@@ -25,7 +25,6 @@ Poll
 
 ### Example:
 
-```php
-
+```
 $messageMediaPoll = ['_' => 'messageMediaPoll', 'poll' => Poll, 'results' => PollResults];
 ```  

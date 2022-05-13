@@ -25,7 +25,6 @@ Information about a blocked peer
 
 ### Example:
 
-```php
-
+```
 $peerBlocked = ['_' => 'peerBlocked', 'peer_id' => Peer, 'date' => int];
 ```  

@@ -25,7 +25,6 @@ Describes a bot command that can be used in a chat
 
 ### Example:
 
-```php
-
+```
 $botCommand = ['_' => 'botCommand', 'command' => 'string', 'description' => 'string'];
 ```  

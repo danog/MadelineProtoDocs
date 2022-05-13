@@ -27,7 +27,6 @@ Image description.
 
 ### Example:
 
-```php
-
+```
 $photoSize = ['_' => 'photoSize', 'type' => 'string', 'w' => int, 'h' => int, 'size' => int];
 ```  

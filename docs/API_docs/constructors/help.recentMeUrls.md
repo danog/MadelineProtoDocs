@@ -27,7 +27,6 @@ Recent t.me URLs
 
 ### Example:
 
-```php
-
+```
 $help_recentMeUrls = ['_' => 'help.recentMeUrls', 'urls' => [RecentMeUrl, RecentMeUrl], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

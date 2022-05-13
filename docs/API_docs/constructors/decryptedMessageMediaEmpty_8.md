@@ -19,7 +19,6 @@ Empty constructor, no media content.
 
 ### Example:
 
-```php
-
+```
 $decryptedMessageMediaEmpty_8 = ['_' => 'decryptedMessageMediaEmpty'];
 ```  

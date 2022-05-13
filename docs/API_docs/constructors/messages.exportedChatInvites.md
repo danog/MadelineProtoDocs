@@ -27,7 +27,6 @@ Info about chat invites exported by a certain admin.
 
 ### Example:
 
-```php
-
+```
 $messages_exportedChatInvites = ['_' => 'messages.exportedChatInvites', 'count' => int, 'invites' => [ExportedChatInvite, ExportedChatInvite], 'users' => [User, User]];
 ```  

@@ -19,7 +19,6 @@ The entire message history has been deleted.
 
 ### Example:
 
-```php
-
+```
 $decryptedMessageActionFlushHistory_8 = ['_' => 'decryptedMessageActionFlushHistory'];
 ```  

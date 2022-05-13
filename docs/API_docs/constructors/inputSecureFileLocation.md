@@ -25,7 +25,6 @@ Location of encrypted telegram [passport](https://core.telegram.org/passport) fi
 
 ### Example:
 
-```php
-
+```
 $inputSecureFileLocation = ['_' => 'inputSecureFileLocation', 'id' => long, 'access_hash' => long];
 ```  

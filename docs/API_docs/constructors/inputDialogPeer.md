@@ -24,7 +24,6 @@ A peer
 
 ### Example:
 
-```php
-
+```
 $inputDialogPeer = ['_' => 'inputDialogPeer', 'peer' => InputPeer];
 ```  

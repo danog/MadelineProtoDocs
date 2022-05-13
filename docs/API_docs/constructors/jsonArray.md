@@ -24,7 +24,6 @@ JSON array
 
 ### Example:
 
-```php
-
+```
 $jsonArray = ['_' => 'jsonArray', 'value' => [JSONValue, JSONValue]];
 ```  

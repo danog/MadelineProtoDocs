@@ -25,7 +25,6 @@ Info on members is unavailable
 
 ### Example:
 
-```php
-
+```
 $chatParticipantsForbidden = ['_' => 'chatParticipantsForbidden', 'chat_id' => long, 'self_participant' => ChatParticipant];
 ```  

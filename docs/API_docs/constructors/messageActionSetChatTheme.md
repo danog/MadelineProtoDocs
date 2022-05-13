@@ -24,7 +24,6 @@ The chat theme was changed
 
 ### Example:
 
-```php
-
+```
 $messageActionSetChatTheme = ['_' => 'messageActionSetChatTheme', 'emoticon' => 'string'];
 ```  

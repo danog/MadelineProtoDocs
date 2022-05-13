@@ -19,7 +19,6 @@ The inline query was sent in a private chat
 
 ### Example:
 
-```php
-
+```
 $inlineQueryPeerTypePM = ['_' => 'inlineQueryPeerTypePM'];
 ```  

@@ -32,7 +32,6 @@ You can provide bot API reply_markup objects here.
 
 ### Example:
 
-```php
-
+```
 $botInlineMessageMediaAuto = ['_' => 'botInlineMessageMediaAuto', 'message' => 'string', 'entities' => [MessageEntity, MessageEntity], 'reply_markup' => ReplyMarkup];
 ```  

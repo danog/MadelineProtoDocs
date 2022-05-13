@@ -26,7 +26,6 @@ No events.
 
 ### Example:
 
-```php
-
+```
 $updates_differenceEmpty = ['_' => 'updates.differenceEmpty', 'date' => int, 'seq' => int];
 ```  

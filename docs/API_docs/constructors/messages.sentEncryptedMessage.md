@@ -25,7 +25,6 @@ Message without file attachments sent to an encrypted file.
 
 ### Example:
 
-```php
-
+```
 $messages_sentEncryptedMessage = ['_' => 'messages.sentEncryptedMessage', 'date' => int];
 ```  

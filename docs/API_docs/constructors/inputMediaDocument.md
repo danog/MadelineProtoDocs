@@ -26,7 +26,6 @@ Forwarded document
 
 ### Example:
 
-```php
-
+```
 $inputMediaDocument = ['_' => 'inputMediaDocument', 'id' => InputDocument, 'ttl_seconds' => int, 'query' => 'string'];
 ```  

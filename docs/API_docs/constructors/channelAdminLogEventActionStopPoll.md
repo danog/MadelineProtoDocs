@@ -24,7 +24,6 @@ A poll was stopped
 
 ### Example:
 
-```php
-
+```
 $channelAdminLogEventActionStopPoll = ['_' => 'channelAdminLogEventActionStopPoll', 'message' => Message];
 ```  

@@ -20,7 +20,6 @@ Password configuration not modified
 
 ### Example:
 
-```php
-
+```
 $help_passportConfigNotModified = ['_' => 'help.passportConfigNotModified'];
 ```  

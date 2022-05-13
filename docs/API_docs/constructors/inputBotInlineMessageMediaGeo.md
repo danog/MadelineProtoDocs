@@ -34,7 +34,6 @@ You can provide bot API reply_markup objects here.
 
 ### Example:
 
-```php
-
+```
 $inputBotInlineMessageMediaGeo = ['_' => 'inputBotInlineMessageMediaGeo', 'geo_point' => InputGeoPoint, 'heading' => int, 'period' => int, 'proximity_notification_radius' => int, 'reply_markup' => ReplyMarkup];
 ```  

@@ -26,7 +26,6 @@ Nearest data center, according to geo-ip.
 
 ### Example:
 
-```php
-
+```
 $nearestDc = ['_' => 'nearestDc', 'country' => 'string', 'this_dc' => int, 'nearest_dc' => int];
 ```  

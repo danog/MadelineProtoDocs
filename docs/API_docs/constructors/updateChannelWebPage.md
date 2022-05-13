@@ -27,7 +27,6 @@ A webpage preview of a link in a [channel/supergroup](https://core.telegram.org/
 
 ### Example:
 
-```php
-
+```
 $updateChannelWebPage = ['_' => 'updateChannelWebPage', 'channel_id' => long, 'webpage' => WebPage, 'pts' => int, 'pts_count' => int];
 ```  

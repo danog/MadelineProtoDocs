@@ -25,7 +25,6 @@ Featured stickers haven't changed
 
 ### Example:
 
-```php
-
+```
 $messages_featuredStickersNotModified = ['_' => 'messages.featuredStickersNotModified', 'count' => int];
 ```  

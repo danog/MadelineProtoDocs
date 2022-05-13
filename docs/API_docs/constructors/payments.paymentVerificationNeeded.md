@@ -25,7 +25,6 @@ Payment was not successful, additional verification is needed
 
 ### Example:
 
-```php
-
+```
 $payments_paymentVerificationNeeded = ['_' => 'payments.paymentVerificationNeeded', 'url' => 'string'];
 ```  

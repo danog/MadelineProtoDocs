@@ -27,7 +27,6 @@ Event that occurred in the application.
 
 ### Example:
 
-```php
-
+```
 $inputAppEvent = ['_' => 'inputAppEvent', 'time' => double, 'type' => 'string', 'peer' => long, 'data' => JSONValue];
 ```  

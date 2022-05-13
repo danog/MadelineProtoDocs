@@ -35,7 +35,6 @@ Invoice
 
 ### Example:
 
-```php
-
+```
 $invoice = ['_' => 'invoice', 'test' => Bool, 'name_requested' => Bool, 'phone_requested' => Bool, 'email_requested' => Bool, 'shipping_address_requested' => Bool, 'flexible' => Bool, 'phone_to_provider' => Bool, 'email_to_provider' => Bool, 'currency' => 'string', 'prices' => [LabeledPrice, LabeledPrice], 'max_tip_amount' => long, 'suggested_tip_amounts' => [long, long]];
 ```  

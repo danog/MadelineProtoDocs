@@ -24,7 +24,6 @@ A specific invite link was revoked
 
 ### Example:
 
-```php
-
+```
 $channelAdminLogEventActionExportedInviteRevoke = ['_' => 'channelAdminLogEventActionExportedInviteRevoke', 'invite' => ExportedChatInvite];
 ```  

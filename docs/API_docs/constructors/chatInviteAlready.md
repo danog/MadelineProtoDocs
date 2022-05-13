@@ -24,7 +24,6 @@ The user has already joined this chat
 
 ### Example:
 
-```php
-
+```
 $chatInviteAlready = ['_' => 'chatInviteAlready', 'chat' => Chat];
 ```  

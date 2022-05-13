@@ -19,7 +19,6 @@ Details about an accepted authorization request, for more info [click here »](h
 
 ### Example:
 
-```php
-
+```
 $urlAuthResultDefault = ['_' => 'urlAuthResultDefault'];
 ```  

@@ -28,7 +28,6 @@ How users voted in a poll
 
 ### Example:
 
-```php
-
+```
 $messages_votesList = ['_' => 'messages.votesList', 'count' => int, 'votes' => [MessageUserVote, MessageUserVote], 'users' => [User, User], 'next_offset' => 'string'];
 ```  

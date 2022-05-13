@@ -25,7 +25,6 @@ Text of a text message with an invitation to install Telegram.
 
 ### Example:
 
-```php
-
+```
 $help_inviteText = ['_' => 'help.inviteText', 'message' => 'string'];
 ```  

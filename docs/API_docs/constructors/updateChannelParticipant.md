@@ -31,7 +31,6 @@ A participant has left, joined, was banned or admined in a [channel or supergrou
 
 ### Example:
 
-```php
-
+```
 $updateChannelParticipant = ['_' => 'updateChannelParticipant', 'channel_id' => long, 'date' => int, 'actor_id' => long, 'user_id' => long, 'prev_participant' => ChannelParticipant, 'new_participant' => ChannelParticipant, 'invite' => ExportedChatInvite, 'qts' => int];
 ```  

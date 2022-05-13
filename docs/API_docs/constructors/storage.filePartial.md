@@ -20,7 +20,6 @@ Part of a bigger file.
 
 ### Example:
 
-```php
-
+```
 $storage_filePartial = ['_' => 'storage.filePartial'];
 ```  

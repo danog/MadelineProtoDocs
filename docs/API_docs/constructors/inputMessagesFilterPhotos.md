@@ -19,7 +19,6 @@ Filter for messages containing photos.
 
 ### Example:
 
-```php
-
+```
 $inputMessagesFilterPhotos = ['_' => 'inputMessagesFilterPhotos'];
 ```  

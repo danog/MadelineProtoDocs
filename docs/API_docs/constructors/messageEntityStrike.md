@@ -25,7 +25,6 @@ Message entity representing <del>strikethrough</del> text.
 
 ### Example:
 
-```php
-
+```
 $messageEntityStrike = ['_' => 'messageEntityStrike', 'offset' => int, 'length' => int];
 ```  

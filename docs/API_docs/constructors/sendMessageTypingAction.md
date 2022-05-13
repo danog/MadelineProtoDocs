@@ -19,7 +19,6 @@ User is typing.
 
 ### Example:
 
-```php
-
+```
 $sendMessageTypingAction = ['_' => 'sendMessageTypingAction'];
 ```  

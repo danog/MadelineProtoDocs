@@ -24,7 +24,6 @@ Send a [dice-based animated sticker](https://core.telegram.org/api/dice)
 
 ### Example:
 
-```php
-
+```
 $inputMediaDice = ['_' => 'inputMediaDice', 'emoticon' => 'string'];
 ```  

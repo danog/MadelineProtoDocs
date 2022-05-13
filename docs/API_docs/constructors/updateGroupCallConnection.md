@@ -25,7 +25,6 @@ New WebRTC parameters
 
 ### Example:
 
-```php
-
+```
 $updateGroupCallConnection = ['_' => 'updateGroupCallConnection', 'presentation' => Bool, 'params' => DataJSON];
 ```  

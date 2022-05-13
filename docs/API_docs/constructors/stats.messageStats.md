@@ -25,7 +25,6 @@ Message statistics
 
 ### Example:
 
-```php
-
+```
 $stats_messageStats = ['_' => 'stats.messageStats', 'views_graph' => StatsGraph];
 ```  

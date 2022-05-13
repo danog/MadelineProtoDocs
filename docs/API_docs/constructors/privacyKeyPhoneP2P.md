@@ -19,7 +19,6 @@ Whether P2P connections in phone calls are allowed
 
 ### Example:
 
-```php
-
+```
 $privacyKeyPhoneP2P = ['_' => 'privacyKeyPhoneP2P'];
 ```  

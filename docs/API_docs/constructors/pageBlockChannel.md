@@ -24,7 +24,6 @@ Reference to a telegram channel
 
 ### Example:
 
-```php
-
+```
 $pageBlockChannel = ['_' => 'pageBlockChannel', 'channel' => Chat];
 ```  

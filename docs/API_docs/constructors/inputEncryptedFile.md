@@ -25,7 +25,6 @@ Sets forwarded encrypted file for attachment.
 
 ### Example:
 
-```php
-
+```
 $inputEncryptedFile = ['_' => 'inputEncryptedFile', 'id' => long, 'access_hash' => long];
 ```  

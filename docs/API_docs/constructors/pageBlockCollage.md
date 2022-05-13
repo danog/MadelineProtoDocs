@@ -25,7 +25,6 @@ Collage of media
 
 ### Example:
 
-```php
-
+```
 $pageBlockCollage = ['_' => 'pageBlockCollage', 'items' => [PageBlock, PageBlock], 'caption' => PageCaption];
 ```  

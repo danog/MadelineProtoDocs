@@ -19,7 +19,6 @@ The saved gif list has changed, the client should refetch it using [messages.get
 
 ### Example:
 
-```php
-
+```
 $updateSavedGifs = ['_' => 'updateSavedGifs'];
 ```  

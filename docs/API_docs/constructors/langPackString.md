@@ -25,7 +25,6 @@ Translated localization string
 
 ### Example:
 
-```php
-
+```
 $langPackString = ['_' => 'langPackString', 'key' => 'string', 'value' => 'string'];
 ```  

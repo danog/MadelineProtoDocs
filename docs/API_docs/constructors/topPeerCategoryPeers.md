@@ -26,7 +26,6 @@ Top peer category
 
 ### Example:
 
-```php
-
+```
 $topPeerCategoryPeers = ['_' => 'topPeerCategoryPeers', 'category' => TopPeerCategory, 'count' => int, 'peers' => [TopPeer, TopPeer]];
 ```  

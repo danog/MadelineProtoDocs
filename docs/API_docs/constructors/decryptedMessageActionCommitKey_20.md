@@ -25,7 +25,6 @@ Commit new key, see [rekeying process](https://core.telegram.org/api/end-to-end/
 
 ### Example:
 
-```php
-
+```
 $decryptedMessageActionCommitKey_20 = ['_' => 'decryptedMessageActionCommitKey', 'exchange_id' => long, 'key_fingerprint' => long];
 ```  

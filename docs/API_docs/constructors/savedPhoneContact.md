@@ -27,7 +27,6 @@ Saved contact
 
 ### Example:
 
-```php
-
+```
 $savedPhoneContact = ['_' => 'savedPhoneContact', 'phone' => 'string', 'first_name' => 'string', 'last_name' => 'string', 'date' => int];
 ```  

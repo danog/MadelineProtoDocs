@@ -28,7 +28,6 @@ Chunk of a livestream
 
 ### Example:
 
-```php
-
+```
 $inputGroupCallStream = ['_' => 'inputGroupCallStream', 'call' => InputGroupCall, 'time_ms' => long, 'scale' => int, 'video_channel' => int, 'video_quality' => int];
 ```  

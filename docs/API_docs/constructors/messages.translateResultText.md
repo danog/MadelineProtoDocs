@@ -25,7 +25,6 @@ Translated text
 
 ### Example:
 
-```php
-
+```
 $messages_translateResultText = ['_' => 'messages.translateResultText', 'text' => 'string'];
 ```  

@@ -28,7 +28,6 @@ Defines a video
 
 ### Example:
 
-```php
-
+```
 $documentAttributeVideo = ['_' => 'documentAttributeVideo', 'round_message' => Bool, 'supports_streaming' => Bool, 'duration' => int, 'w' => int, 'h' => int];
 ```  

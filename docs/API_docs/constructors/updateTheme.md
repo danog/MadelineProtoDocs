@@ -24,7 +24,6 @@ A cloud theme was updated
 
 ### Example:
 
-```php
-
+```
 $updateTheme = ['_' => 'updateTheme', 'theme' => Theme];
 ```  

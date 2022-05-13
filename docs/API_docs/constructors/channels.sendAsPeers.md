@@ -27,7 +27,6 @@ A list of peers that can be used to send messages in a specific group
 
 ### Example:
 
-```php
-
+```
 $channels_sendAsPeers = ['_' => 'channels.sendAsPeers', 'peers' => [Peer, Peer], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

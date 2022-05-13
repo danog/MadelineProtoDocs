@@ -23,7 +23,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Example:
 
-```php
-
+```
 $updateBotMenuButton = ['_' => 'updateBotMenuButton', 'bot_id' => long, 'button' => BotMenuButton];
 ```  

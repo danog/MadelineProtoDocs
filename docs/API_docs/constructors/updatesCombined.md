@@ -29,7 +29,6 @@ Constructor for a group of updates.
 
 ### Example:
 
-```php
-
+```
 $updatesCombined = ['_' => 'updatesCombined', 'updates' => [Update, Update], 'users' => [User, User], 'chats' => [Chat, Chat], 'date' => int, 'seq_start' => int, 'seq' => int];
 ```  

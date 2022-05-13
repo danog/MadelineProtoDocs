@@ -24,7 +24,6 @@ A notification stating the API layer that is used by the client. You should use 
 
 ### Example:
 
-```php
-
+```
 $decryptedMessageActionNotifyLayer_17 = ['_' => 'decryptedMessageActionNotifyLayer', 'layer' => int];
 ```  

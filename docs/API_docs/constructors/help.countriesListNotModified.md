@@ -20,7 +20,6 @@ The country list has not changed
 
 ### Example:
 
-```php
-
+```
 $help_countriesListNotModified = ['_' => 'help.countriesListNotModified'];
 ```  

@@ -24,7 +24,6 @@ Online status of the user.
 
 ### Example:
 
-```php
-
+```
 $userStatusOnline = ['_' => 'userStatusOnline', 'expires' => int];
 ```  

@@ -27,7 +27,6 @@ Info about the users that joined the chat using a specific chat invite
 
 ### Example:
 
-```php
-
+```
 $messages_chatInviteImporters = ['_' => 'messages.chatInviteImporters', 'count' => int, 'importers' => [ChatInviteImporter, ChatInviteImporter], 'users' => [User, User]];
 ```  

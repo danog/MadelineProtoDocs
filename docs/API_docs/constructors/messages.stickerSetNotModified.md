@@ -20,7 +20,6 @@ The stickerset hasn't changed
 
 ### Example:
 
-```php
-
+```
 $messages_stickerSetNotModified = ['_' => 'messages.stickerSetNotModified'];
 ```  

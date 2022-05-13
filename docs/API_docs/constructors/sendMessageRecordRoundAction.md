@@ -19,7 +19,6 @@ User is recording a round video to share
 
 ### Example:
 
-```php
-
+```
 $sendMessageRecordRoundAction = ['_' => 'sendMessageRecordRoundAction'];
 ```  

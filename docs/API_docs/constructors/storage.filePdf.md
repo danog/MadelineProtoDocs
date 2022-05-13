@@ -20,7 +20,6 @@ PDF document image. MIME type: `application/pdf`.
 
 ### Example:
 
-```php
-
+```
 $storage_filePdf = ['_' => 'storage.filePdf'];
 ```  

@@ -20,7 +20,6 @@ The next time, the authentication code is to be delivered via an outgoing phone 
 
 ### Example:
 
-```php
-
+```
 $auth_codeTypeCall = ['_' => 'auth.codeTypeCall'];
 ```  

@@ -20,7 +20,6 @@ Top peer info hasn't changed
 
 ### Example:
 
-```php
-
+```
 $contacts_topPeersNotModified = ['_' => 'contacts.topPeersNotModified'];
 ```  

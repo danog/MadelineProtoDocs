@@ -24,7 +24,6 @@ A group call was started
 
 ### Example:
 
-```php
-
+```
 $channelAdminLogEventActionStartGroupCall = ['_' => 'channelAdminLogEventActionStartGroupCall', 'call' => InputGroupCall];
 ```  

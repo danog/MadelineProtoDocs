@@ -27,7 +27,6 @@ Required type
 
 ### Example:
 
-```php
-
+```
 $secureRequiredType = ['_' => 'secureRequiredType', 'native_names' => Bool, 'selfie_required' => Bool, 'translation_required' => Bool, 'type' => SecureValueType];
 ```  

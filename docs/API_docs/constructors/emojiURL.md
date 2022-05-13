@@ -24,7 +24,6 @@ An HTTP URL which can be used to automatically log in into translation platform 
 
 ### Example:
 
-```php
-
+```
 $emojiURL = ['_' => 'emojiURL', 'url' => 'string'];
 ```  

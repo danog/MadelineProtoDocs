@@ -25,7 +25,6 @@ Deleted emoji keyword
 
 ### Example:
 
-```php
-
+```
 $emojiKeywordDeleted = ['_' => 'emojiKeywordDeleted', 'keyword' => 'string', 'emoticons' => ['string', 'string']];
 ```  

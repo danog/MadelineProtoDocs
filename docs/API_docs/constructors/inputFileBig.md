@@ -26,7 +26,6 @@ Assigns a big file (over 10 MB in size), saved in part using the method [upload.
 
 ### Example:
 
-```php
-
+```
 $inputFileBig = ['_' => 'inputFileBig', 'id' => long, 'parts' => int, 'name' => 'string'];
 ```  

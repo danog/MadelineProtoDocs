@@ -19,7 +19,6 @@ Utility bill
 
 ### Example:
 
-```php
-
+```
 $secureValueTypeUtilityBill = ['_' => 'secureValueTypeUtilityBill'];
 ```  

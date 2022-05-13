@@ -26,7 +26,6 @@ It is **not** a sticker pack the way it is usually intended, you may be looking 
 
 ### Example:
 
-```php
-
+```
 $stickerPack = ['_' => 'stickerPack', 'emoticon' => 'string', 'documents' => [long, long]];
 ```  

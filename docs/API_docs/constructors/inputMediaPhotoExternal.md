@@ -25,7 +25,6 @@ New photo that will be uploaded by the server using the specified URL
 
 ### Example:
 
-```php
-
+```
 $inputMediaPhotoExternal = ['_' => 'inputMediaPhotoExternal', 'url' => 'string', 'ttl_seconds' => int];
 ```  

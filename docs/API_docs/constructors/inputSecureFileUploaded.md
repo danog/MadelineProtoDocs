@@ -28,7 +28,6 @@ Uploaded secure file, for more info [see the passport docs »](https://core.tele
 
 ### Example:
 
-```php
-
+```
 $inputSecureFileUploaded = ['_' => 'inputSecureFileUploaded', 'id' => long, 'parts' => int, 'md5_checksum' => 'string', 'file_hash' => 'bytes', 'secret' => 'bytes'];
 ```  

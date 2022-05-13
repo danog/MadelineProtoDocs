@@ -26,7 +26,6 @@ Defines a GeoPoint by its coordinates.
 
 ### Example:
 
-```php
-
+```
 $inputGeoPoint = ['_' => 'inputGeoPoint', 'lat' => double, 'long' => double, 'accuracy_radius' => int];
 ```  

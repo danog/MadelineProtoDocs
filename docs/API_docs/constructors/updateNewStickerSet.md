@@ -24,7 +24,6 @@ A new stickerset was installed
 
 ### Example:
 
-```php
-
+```
 $updateNewStickerSet = ['_' => 'updateNewStickerSet', 'stickerset' => messages.StickerSet];
 ```  

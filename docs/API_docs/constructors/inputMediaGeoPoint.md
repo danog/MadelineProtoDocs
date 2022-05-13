@@ -24,7 +24,6 @@ Map.
 
 ### Example:
 
-```php
-
+```
 $inputMediaGeoPoint = ['_' => 'inputMediaGeoPoint', 'geo_point' => InputGeoPoint];
 ```  

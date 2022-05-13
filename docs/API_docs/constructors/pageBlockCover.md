@@ -24,7 +24,6 @@ A page cover
 
 ### Example:
 
-```php
-
+```
 $pageBlockCover = ['_' => 'pageBlockCover', 'cover' => PageBlock];
 ```  

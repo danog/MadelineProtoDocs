@@ -25,7 +25,6 @@ Info about an [MTProxy](https://core.telegram.org/mtproto/mtproto-transports#tra
 
 ### Example:
 
-```php
-
+```
 $inputClientProxy = ['_' => 'inputClientProxy', 'address' => 'string', 'port' => int];
 ```  

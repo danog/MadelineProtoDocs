@@ -26,7 +26,6 @@ Someone has requested to join a chat or channel
 
 ### Example:
 
-```php
-
+```
 $updatePendingJoinRequests = ['_' => 'updatePendingJoinRequests', 'peer' => Peer, 'requests_pending' => int, 'recent_requesters' => [long, long]];
 ```  

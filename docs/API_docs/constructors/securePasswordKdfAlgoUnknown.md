@@ -19,7 +19,6 @@ Unknown KDF algo (most likely the client has to be updated)
 
 ### Example:
 
-```php
-
+```
 $securePasswordKdfAlgoUnknown = ['_' => 'securePasswordKdfAlgoUnknown'];
 ```  

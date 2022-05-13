@@ -26,7 +26,6 @@ A dialog was pinned/unpinned
 
 ### Example:
 
-```php
-
+```
 $updateDialogPinned = ['_' => 'updateDialogPinned', 'pinned' => Bool, 'folder_id' => int, 'peer' => DialogPeer];
 ```  

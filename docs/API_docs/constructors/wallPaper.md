@@ -32,7 +32,6 @@ Wallpaper settings.
 
 ### Example:
 
-```php
-
+```
 $wallPaper = ['_' => 'wallPaper', 'id' => long, 'creator' => Bool, 'default' => Bool, 'pattern' => Bool, 'dark' => Bool, 'access_hash' => long, 'slug' => 'string', 'document' => Document, 'settings' => WallPaperSettings];
 ```  

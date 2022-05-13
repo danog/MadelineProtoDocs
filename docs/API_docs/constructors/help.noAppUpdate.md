@@ -20,7 +20,6 @@ No updates are available for the application.
 
 ### Example:
 
-```php
-
+```
 $help_noAppUpdate = ['_' => 'help.noAppUpdate'];
 ```  

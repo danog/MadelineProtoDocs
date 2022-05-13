@@ -25,7 +25,6 @@ Rich text linked to a phone number
 
 ### Example:
 
-```php
-
+```
 $textPhone = ['_' => 'textPhone', 'text' => RichText, 'phone' => 'string'];
 ```  

@@ -20,7 +20,6 @@ No translation is available
 
 ### Example:
 
-```php
-
+```
 $messages_translateNoResult = ['_' => 'messages.translateNoResult'];
 ```  

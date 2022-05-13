@@ -24,7 +24,6 @@ List item
 
 ### Example:
 
-```php
-
+```
 $pageListItemText = ['_' => 'pageListItemText', 'text' => RichText];
 ```  

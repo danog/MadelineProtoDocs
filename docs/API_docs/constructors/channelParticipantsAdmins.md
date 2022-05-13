@@ -19,7 +19,6 @@ Fetch only admin participants
 
 ### Example:
 
-```php
-
+```
 $channelParticipantsAdmins = ['_' => 'channelParticipantsAdmins'];
 ```  

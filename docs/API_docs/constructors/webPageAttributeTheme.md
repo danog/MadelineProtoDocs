@@ -25,7 +25,6 @@ Page theme
 
 ### Example:
 
-```php
-
+```
 $webPageAttributeTheme = ['_' => 'webPageAttributeTheme', 'documents' => [Document, Document], 'settings' => ThemeSettings];
 ```  

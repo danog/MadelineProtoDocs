@@ -24,7 +24,6 @@ Represents the creator of the group
 
 ### Example:
 
-```php
-
+```
 $chatParticipantCreator = ['_' => 'chatParticipantCreator', 'user_id' => long];
 ```  

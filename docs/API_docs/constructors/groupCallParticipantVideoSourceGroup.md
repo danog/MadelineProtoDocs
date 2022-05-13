@@ -25,7 +25,6 @@ Describes a group of video synchronization source identifiers
 
 ### Example:
 
-```php
-
+```
 $groupCallParticipantVideoSourceGroup = ['_' => 'groupCallParticipantVideoSourceGroup', 'semantics' => 'string', 'sources' => [int, int]];
 ```  

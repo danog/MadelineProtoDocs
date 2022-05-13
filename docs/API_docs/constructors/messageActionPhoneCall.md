@@ -27,7 +27,6 @@ A phone call
 
 ### Example:
 
-```php
-
+```
 $messageActionPhoneCall = ['_' => 'messageActionPhoneCall', 'video' => Bool, 'call_id' => long, 'reason' => PhoneCallDiscardReason, 'duration' => int];
 ```  

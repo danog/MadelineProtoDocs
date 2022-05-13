@@ -26,7 +26,6 @@ Group member.
 
 ### Example:
 
-```php
-
+```
 $chatParticipant = ['_' => 'chatParticipant', 'user_id' => long, 'inviter_id' => long, 'date' => int];
 ```  

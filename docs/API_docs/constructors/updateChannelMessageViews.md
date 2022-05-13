@@ -26,7 +26,6 @@ The view counter of a message in a channel has changed
 
 ### Example:
 
-```php
-
+```
 $updateChannelMessageViews = ['_' => 'updateChannelMessageViews', 'channel_id' => long, 'id' => int, 'views' => int];
 ```  

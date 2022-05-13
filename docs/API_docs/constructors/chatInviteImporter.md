@@ -28,7 +28,6 @@ When and which user joined the chat using a chat invite
 
 ### Example:
 
-```php
-
+```
 $chatInviteImporter = ['_' => 'chatInviteImporter', 'requested' => Bool, 'user_id' => long, 'date' => int, 'about' => 'string', 'approved_by' => long];
 ```  

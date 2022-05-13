@@ -25,7 +25,6 @@ Defines a user for further interaction.
 
 ### Example:
 
-```php
-
+```
 $inputPeerUser = ['_' => 'inputPeerUser', 'user_id' => long, 'access_hash' => long];
 ```  

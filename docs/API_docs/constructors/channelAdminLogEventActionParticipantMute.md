@@ -24,7 +24,6 @@ A group call participant was muted
 
 ### Example:
 
-```php
-
+```
 $channelAdminLogEventActionParticipantMute = ['_' => 'channelAdminLogEventActionParticipantMute', 'participant' => GroupCallParticipant];
 ```  

@@ -25,7 +25,6 @@ Privacy rules were changed
 
 ### Example:
 
-```php
-
+```
 $updatePrivacy = ['_' => 'updatePrivacy', 'key' => PrivacyKey, 'rules' => [PrivacyRule, PrivacyRule]];
 ```  

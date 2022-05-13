@@ -24,7 +24,6 @@ Phone number to use in [telegram passport](https://core.telegram.org/passport): 
 
 ### Example:
 
-```php
-
+```
 $securePlainPhone = ['_' => 'securePlainPhone', 'phone' => 'string'];
 ```  

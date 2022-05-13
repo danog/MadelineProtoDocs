@@ -31,7 +31,6 @@ Incomplete list of messages and auxiliary data.
 
 ### Example:
 
-```php
-
+```
 $messages_messagesSlice = ['_' => 'messages.messagesSlice', 'inexact' => Bool, 'count' => int, 'next_rate' => int, 'offset_id_offset' => int, 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

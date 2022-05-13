@@ -26,7 +26,6 @@ Shipping option
 
 ### Example:
 
-```php
-
+```
 $shippingOption = ['_' => 'shippingOption', 'id' => 'string', 'title' => 'string', 'prices' => [LabeledPrice, LabeledPrice]];
 ```  

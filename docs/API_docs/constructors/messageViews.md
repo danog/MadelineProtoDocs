@@ -26,7 +26,6 @@ View, forward counter + info about replies of a specific message
 
 ### Example:
 
-```php
-
+```
 $messageViews = ['_' => 'messageViews', 'views' => int, 'forwards' => int, 'replies' => MessageReplies];
 ```  

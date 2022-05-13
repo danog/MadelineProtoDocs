@@ -28,7 +28,6 @@ Chat waiting for approval of second participant.
 
 ### Example:
 
-```php
-
+```
 $encryptedChatWaiting = ['_' => 'encryptedChatWaiting', 'id' => int, 'access_hash' => long, 'date' => int, 'admin_id' => long, 'participant_id' => long];
 ```  

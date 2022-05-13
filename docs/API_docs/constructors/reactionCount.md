@@ -26,7 +26,6 @@ Reactions
 
 ### Example:
 
-```php
-
+```
 $reactionCount = ['_' => 'reactionCount', 'chosen' => Bool, 'reaction' => 'string', 'count' => int];
 ```  

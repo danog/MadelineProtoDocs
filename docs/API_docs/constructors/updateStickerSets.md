@@ -19,7 +19,6 @@ Installed stickersets have changed, the client should refetch them using [messag
 
 ### Example:
 
-```php
-
+```
 $updateStickerSets = ['_' => 'updateStickerSets'];
 ```  

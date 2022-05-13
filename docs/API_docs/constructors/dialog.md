@@ -36,7 +36,6 @@ Chat
 
 ### Example:
 
-```php
-
+```
 $dialog = ['_' => 'dialog', 'pinned' => Bool, 'unread_mark' => Bool, 'peer' => Peer, 'top_message' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'unread_count' => int, 'unread_mentions_count' => int, 'unread_reactions_count' => int, 'notify_settings' => PeerNotifySettings, 'pts' => int, 'draft' => DraftMessage, 'folder_id' => int];
 ```  

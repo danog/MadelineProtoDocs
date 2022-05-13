@@ -26,7 +26,6 @@ The forward counter of a message in a channel has changed
 
 ### Example:
 
-```php
-
+```
 $updateChannelMessageForwards = ['_' => 'updateChannelMessageForwards', 'channel_id' => long, 'id' => int, 'forwards' => int];
 ```  

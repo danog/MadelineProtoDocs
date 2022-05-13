@@ -27,7 +27,6 @@ DEPRECATED location of a photo
 
 ### Example:
 
-```php
-
+```
 $inputFileLocation = ['_' => 'inputFileLocation', 'volume_id' => long, 'local_id' => int, 'secret' => long, 'file_reference' => 'bytes'];
 ```  

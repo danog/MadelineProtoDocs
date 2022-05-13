@@ -26,7 +26,6 @@ Represents an issue with the reverse side of a document. The error is considered
 
 ### Example:
 
-```php
-
+```
 $secureValueErrorReverseSide = ['_' => 'secureValueErrorReverseSide', 'type' => SecureValueType, 'file_hash' => 'bytes', 'text' => 'string'];
 ```  

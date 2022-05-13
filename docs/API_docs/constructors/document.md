@@ -33,7 +33,6 @@ Document
 
 ### Example:
 
-```php
-
+```
 $document = ['_' => 'document', 'id' => long, 'access_hash' => long, 'file_reference' => 'bytes', 'date' => int, 'mime_type' => 'string', 'size' => int, 'thumbs' => [PhotoSize, PhotoSize], 'video_thumbs' => [VideoSize, VideoSize], 'dc_id' => int, 'attributes' => [DocumentAttribute, DocumentAttribute]];
 ```  

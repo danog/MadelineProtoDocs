@@ -25,7 +25,6 @@ The code will be sent via a phone call: a synthesized voice will tell the user w
 
 ### Example:
 
-```php
-
+```
 $auth_sentCodeTypeCall = ['_' => 'auth.sentCodeTypeCall', 'length' => int];
 ```  

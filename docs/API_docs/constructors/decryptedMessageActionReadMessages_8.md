@@ -24,7 +24,6 @@ Messages marked as read.
 
 ### Example:
 
-```php
-
+```
 $decryptedMessageActionReadMessages_8 = ['_' => 'decryptedMessageActionReadMessages', 'random_ids' => [long, long]];
 ```  

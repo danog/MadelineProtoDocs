@@ -20,7 +20,6 @@ No further results were found
 
 ### Example:
 
-```php
-
+```
 $messages_foundStickerSetsNotModified = ['_' => 'messages.foundStickerSetsNotModified'];
 ```  

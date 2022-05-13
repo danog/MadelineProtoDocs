@@ -25,7 +25,6 @@ Payment credentials
 
 ### Example:
 
-```php
-
+```
 $inputPaymentCredentials = ['_' => 'inputPaymentCredentials', 'save' => Bool, 'data' => DataJSON];
 ```  

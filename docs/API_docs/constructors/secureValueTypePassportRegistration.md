@@ -19,7 +19,6 @@ Internal registration [passport](https://core.telegram.org/passport)
 
 ### Example:
 
-```php
-
+```
 $secureValueTypePassportRegistration = ['_' => 'secureValueTypePassportRegistration'];
 ```  

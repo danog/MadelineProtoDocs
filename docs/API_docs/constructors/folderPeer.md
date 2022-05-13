@@ -25,7 +25,6 @@ Peer in a folder
 
 ### Example:
 
-```php
-
+```
 $folderPeer = ['_' => 'folderPeer', 'peer' => Peer, 'folder_id' => int];
 ```  

@@ -25,7 +25,6 @@ Channel/supergroup username was changed
 
 ### Example:
 
-```php
-
+```
 $channelAdminLogEventActionChangeUsername = ['_' => 'channelAdminLogEventActionChangeUsername', 'prev_value' => 'string', 'new_value' => 'string'];
 ```  

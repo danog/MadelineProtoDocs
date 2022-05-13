@@ -24,7 +24,6 @@ Channel signatures were enabled/disabled
 
 ### Example:
 
-```php
-
+```
 $channelAdminLogEventActionToggleSignatures = ['_' => 'channelAdminLogEventActionToggleSignatures', 'new_value' => Bool];
 ```  

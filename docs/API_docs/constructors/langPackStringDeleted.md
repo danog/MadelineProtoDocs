@@ -24,7 +24,6 @@ Deleted localization string
 
 ### Example:
 
-```php
-
+```
 $langPackStringDeleted = ['_' => 'langPackStringDeleted', 'key' => 'string'];
 ```  

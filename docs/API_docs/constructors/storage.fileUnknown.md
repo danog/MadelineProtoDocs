@@ -20,7 +20,6 @@ Unknown type.
 
 ### Example:
 
-```php
-
+```
 $storage_fileUnknown = ['_' => 'storage.fileUnknown'];
 ```  

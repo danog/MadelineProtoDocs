@@ -24,7 +24,6 @@ A group call was terminated
 
 ### Example:
 
-```php
-
+```
 $channelAdminLogEventActionDiscardGroupCall = ['_' => 'channelAdminLogEventActionDiscardGroupCall', 'call' => InputGroupCall];
 ```  

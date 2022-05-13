@@ -28,7 +28,6 @@ Some messages were pinned in a chat
 
 ### Example:
 
-```php
-
+```
 $updatePinnedMessages = ['_' => 'updatePinnedMessages', 'pinned' => Bool, 'peer' => Peer, 'messages' => [int, int], 'pts' => int, 'pts_count' => int];
 ```  

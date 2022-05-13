@@ -26,7 +26,6 @@ An [instant view](https://instantview.telegram.org) webpage preview was generate
 
 ### Example:
 
-```php
-
+```
 $updateWebPage = ['_' => 'updateWebPage', 'webpage' => WebPage, 'pts' => int, 'pts_count' => int];
 ```  

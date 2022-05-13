@@ -26,7 +26,6 @@ SHA256 Hash of an uploaded file, to be checked for validity after download
 
 ### Example:
 
-```php
-
+```
 $fileHash = ['_' => 'fileHash', 'offset' => int, 'limit' => int, 'hash' => 'bytes'];
 ```  
