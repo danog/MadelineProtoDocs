@@ -62,6 +62,9 @@ Some tools.
 * `hasVar(object $obj, string $var): bool`
 * `getVar(object $obj, string $var): mixed`
 * `setVar(object $obj, string $var, mixed $val): void`
+* `mbStrlen(string $text): float|int`
+* `mbSubstr(string $text, int $offset, ?int $length): string`
+* `mbStrSplit(string $text, int $length): array`
 * `toCamelCase(string $input): string`
 * `toSnakeCase(string $input): string`
 * `markdownEscape(string $hwat): string`
@@ -657,6 +660,42 @@ Parameters:
 * `$obj`: `object` Object  
 * `$var`: `string` Attribute name  
 * `$val`: `mixed` Attribute value  
+
+
+
+### `mbStrlen(string $text): float|int`
+
+Get Telegram UTF-8 length of string.
+
+
+Parameters:
+
+* `$text`: `string` Text  
+
+
+
+### `mbSubstr(string $text, int $offset, ?int $length): string`
+
+Telegram UTF-8 multibyte substring.
+
+
+Parameters:
+
+* `$text`: `string` Text to substring  
+* `$offset`: `int` Offset  
+* `$length`: `?int` Length  
+
+
+
+### `mbStrSplit(string $text, int $length): array`
+
+Telegram UTF-8 multibyte split.
+
+
+Parameters:
+
+* `$text`: `string` Text  
+* `$length`: `int` Length  
 
 
 
