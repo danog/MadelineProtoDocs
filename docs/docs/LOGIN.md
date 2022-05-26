@@ -133,6 +133,6 @@ If you want to logout, you can use the logout function, see [here for the parame
 $result = yield $MadelineProto->update2fa(['password' => 'current password', 'new_password' => 'New password', 'email' => 'daniil@daniil.it', 'hint' => 'ponies']);
 ```
 
-If you want to logout, you can use the update2fa function, see [here for the parameters and the result](https://docs.madelineproto.xyz/update2fa.html).  
+If you want to change the password, you can use the update2fa function, see [here for the parameters and the result](https://docs.madelineproto.xyz/update2fa.html).  
 
 <a href="https://docs.madelineproto.xyz/docs/FEATURES.html">Next section</a>
