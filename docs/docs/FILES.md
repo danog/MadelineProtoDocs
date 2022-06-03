@@ -52,7 +52,7 @@ It can contain [lots of various objects](https://docs.madelineproto.xyz/API_docs
 ### Security notice
 
 Be careful when calling methods with user-provided parameters: the upload function may be used to access and send any file.  
-To disable automatic uploads by file name (disabled by default), [use the appropriate setting](../PHP/danog/MadelineProto/Settings/Files.html#setallowautomaticuploadbool-allowautomaticupload-self) and upload files [manually](#reusing-uploaded-files).
+To disable automatic uploads by file name (disabled by default), [use the appropriate setting](../PHP/danog/MadelineProto/Settings/Files.html#setallowautomaticuploadbool-allowautomaticupload-self) OR upload files [manually](#reusing-uploaded-files).
 
 
 ### [inputMediaUploadedPhoto](https://docs.madelineproto.xyz/API_docs/constructors/inputMediaUploadedPhoto.html)
