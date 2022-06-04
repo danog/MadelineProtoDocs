@@ -3,6 +3,7 @@ pipeline:
     image: 192.168.69.1:5000/gojekyll
     when:
       branch: master
+      event: push
     secrets:
       - DEPLOY_KEY
     commands:
