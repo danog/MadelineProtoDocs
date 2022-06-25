@@ -20,6 +20,7 @@ redirect_from: /API_docs/methods/messages_prolongWebView.html
 |bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
 |query\_id|[long](/API_docs/types/long.html) | Yes|
 |reply\_to\_msg\_id|[int](/API_docs/types/int.html) | Optional|
+|send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
@@ -40,6 +41,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Bool = $MadelineProto->messages->prolongWebView(silent: Bool, peer: InputPeer, bot: InputUser, query_id: long, reply_to_msg_id: int, );
+$Bool = $MadelineProto->messages->prolongWebView(silent: Bool, peer: InputPeer, bot: InputUser, query_id: long, reply_to_msg_id: int, send_as: InputPeer, );
 ```
 

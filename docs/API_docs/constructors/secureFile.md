@@ -17,7 +17,7 @@ Secure [passport](https://core.telegram.org/passport) file, for more info [see t
 |----------|---------------|----------|-------------|
 |id|[long](/API_docs/types/long.html) | Yes|ID|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash|
-|size|[int](/API_docs/types/int.html) | Yes|File size|
+|size|[long](/API_docs/types/long.html) | Yes|
 |dc\_id|[int](/API_docs/types/int.html) | Yes|DC ID|
 |date|[int](/API_docs/types/int.html) | Yes|Date of upload|
 |file\_hash|[bytes](/API_docs/types/bytes.html) | Yes|File hash|
@@ -31,5 +31,5 @@ Secure [passport](https://core.telegram.org/passport) file, for more info [see t
 ### Example:
 
 ```
-$secureFile = ['_' => 'secureFile', 'id' => long, 'access_hash' => long, 'size' => int, 'dc_id' => int, 'date' => int, 'file_hash' => 'bytes', 'secret' => 'bytes'];
+$secureFile = ['_' => 'secureFile', 'id' => long, 'access_hash' => long, 'size' => long, 'dc_id' => int, 'date' => int, 'file_hash' => 'bytes', 'secret' => 'bytes'];
 ```  

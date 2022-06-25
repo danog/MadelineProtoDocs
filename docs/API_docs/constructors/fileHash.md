@@ -15,7 +15,7 @@ SHA256 Hash of an uploaded file, to be checked for validity after download
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|offset|[int](/API_docs/types/int.html) | Yes|Offset from where to start computing SHA-256 hash|
+|offset|[long](/API_docs/types/long.html) | Yes|
 |limit|[int](/API_docs/types/int.html) | Yes|Length|
 |hash|[bytes](/API_docs/types/bytes.html) | Yes|SHA-256 Hash of file chunk, to be checked for validity after download|
 
@@ -27,5 +27,5 @@ SHA256 Hash of an uploaded file, to be checked for validity after download
 ### Example:
 
 ```
-$fileHash = ['_' => 'fileHash', 'offset' => int, 'limit' => int, 'hash' => 'bytes'];
+$fileHash = ['_' => 'fileHash', 'offset' => long, 'limit' => int, 'hash' => 'bytes'];
 ```  

@@ -18,8 +18,7 @@ Send compiled payment form
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |form\_id|[long](/API_docs/types/long.html) | Form ID | Yes|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer where the payment form was sent | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | Message ID of form | Yes|
+|invoice|[InputInvoice](/API_docs/types/InputInvoice.html) |  | Yes|
 |requested\_info\_id|[string](/API_docs/types/string.html) | ID of saved and validated [order info](../constructors/payments.validatedRequestedInfo.html) | Optional|
 |shipping\_option\_id|[string](/API_docs/types/string.html) | Chosen shipping option ID | Optional|
 |credentials|[InputPaymentCredentials](/API_docs/types/InputPaymentCredentials.html) | Payment credentials | Yes|
@@ -44,6 +43,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$payments_PaymentResult = $MadelineProto->payments->sendPaymentForm(form_id: long, peer: InputPeer, msg_id: int, requested_info_id: 'string', shipping_option_id: 'string', credentials: InputPaymentCredentials, tip_amount: long, );
+$payments_PaymentResult = $MadelineProto->payments->sendPaymentForm(form_id: long, invoice: InputInvoice, requested_info_id: 'string', shipping_option_id: 'string', credentials: InputPaymentCredentials, tip_amount: long, );
 ```
 

@@ -20,7 +20,7 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 |precise|[Bool](/API_docs/types/Bool.html) | Disable some checks on limit and offset values, useful for example to stream videos by keyframes | Optional|
 |cdn\_supported|[Bool](/API_docs/types/Bool.html) | Whether the current client supports [CDN downloads](https://core.telegram.org/cdn) | Optional|
 |location|[InputFileLocation](/API_docs/types/InputFileLocation.html) | File location | Yes|
-|offset|[int](/API_docs/types/int.html) | Number of bytes to be skipped | Yes|
+|offset|[long](/API_docs/types/long.html) |  | Yes|
 |limit|[int](/API_docs/types/int.html) | Number of bytes to be returned | Yes|
 
 
@@ -42,6 +42,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$upload_File = $MadelineProto->upload->getFile(precise: Bool, cdn_supported: Bool, location: InputFileLocation, offset: int, limit: int, );
+$upload_File = $MadelineProto->upload->getFile(precise: Bool, cdn_supported: Bool, location: InputFileLocation, offset: long, limit: int, );
 ```
 

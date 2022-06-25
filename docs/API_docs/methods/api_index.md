@@ -177,7 +177,7 @@ $MadelineProto->[account->getWebAuthorizations](/API_docs/methods/account.getWeb
 
 ***
 <br><br>
-$MadelineProto->[account->initTakeoutSession](/API_docs/methods/account.initTakeoutSession.html)(\[contacts: [Bool](/API_docs/types/Bool.html), message_users: [Bool](/API_docs/types/Bool.html), message_chats: [Bool](/API_docs/types/Bool.html), message_megagroups: [Bool](/API_docs/types/Bool.html), message_channels: [Bool](/API_docs/types/Bool.html), files: [Bool](/API_docs/types/Bool.html), file_max_size: [int](/API_docs/types/int.html), \]) === [$account.Takeout](/API_docs/types/account.Takeout.html)<a name="account.initTakeoutSession"></a>  
+$MadelineProto->[account->initTakeoutSession](/API_docs/methods/account.initTakeoutSession.html)(\[contacts: [Bool](/API_docs/types/Bool.html), message_users: [Bool](/API_docs/types/Bool.html), message_chats: [Bool](/API_docs/types/Bool.html), message_megagroups: [Bool](/API_docs/types/Bool.html), message_channels: [Bool](/API_docs/types/Bool.html), files: [Bool](/API_docs/types/Bool.html), file_max_size: [long](/API_docs/types/long.html), \]) === [$account.Takeout](/API_docs/types/account.Takeout.html)<a name="account.initTakeoutSession"></a>  
 
 ***
 <br><br>
@@ -589,6 +589,14 @@ $MadelineProto->[channels->setStickers](/API_docs/methods/channels.setStickers.h
 
 ***
 <br><br>
+$MadelineProto->[channels->toggleJoinRequest](/API_docs/methods/channels.toggleJoinRequest.html)(\[channel: [InputChannel](/API_docs/types/InputChannel.html), enabled: [Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.toggleJoinRequest"></a>  
+
+***
+<br><br>
+$MadelineProto->[channels->toggleJoinToSend](/API_docs/methods/channels.toggleJoinToSend.html)(\[channel: [InputChannel](/API_docs/types/InputChannel.html), enabled: [Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.toggleJoinToSend"></a>  
+
+***
+<br><br>
 $MadelineProto->[channels->togglePreHistoryHidden](/API_docs/methods/channels.togglePreHistoryHidden.html)(\[channel: [InputChannel](/API_docs/types/InputChannel.html), enabled: [Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.togglePreHistoryHidden"></a>  
 
 ***
@@ -750,6 +758,10 @@ $MadelineProto->[help->getNearestDc](/API_docs/methods/help.getNearestDc.html)(\
 ***
 <br><br>
 $MadelineProto->[help->getPassportConfig](/API_docs/methods/help.getPassportConfig.html)(\[hash: [int](/API_docs/types/int.html), \]) === [$help.PassportConfig](/API_docs/types/help.PassportConfig.html)<a name="help.getPassportConfig"></a>  
+
+***
+<br><br>
+$MadelineProto->[help->getPremiumPromo](/API_docs/methods/help.getPremiumPromo.html)(\[\]) === [$help.PremiumPromo](/API_docs/types/help.PremiumPromo.html)<a name="help.getPremiumPromo"></a>  
 
 ***
 <br><br>
@@ -1025,7 +1037,7 @@ $MadelineProto->[messages->getDiscussionMessage](/API_docs/methods/messages.getD
 
 ***
 <br><br>
-$MadelineProto->[messages->getDocumentByHash](/API_docs/methods/messages.getDocumentByHash.html)(\[sha256: [bytes](/API_docs/types/bytes.html), size: [int](/API_docs/types/int.html), mime_type: [string](/API_docs/types/string.html), \]) === [$Document](/API_docs/types/Document.html)<a name="messages.getDocumentByHash"></a>  
+$MadelineProto->[messages->getDocumentByHash](/API_docs/methods/messages.getDocumentByHash.html)(\[sha256: [bytes](/API_docs/types/bytes.html), size: [long](/API_docs/types/long.html), mime_type: [string](/API_docs/types/string.html), \]) === [$Document](/API_docs/types/Document.html)<a name="messages.getDocumentByHash"></a>  
 
 ***
 <br><br>
@@ -1237,7 +1249,11 @@ $MadelineProto->[messages->migrateChat](/API_docs/methods/messages.migrateChat.h
 
 ***
 <br><br>
-$MadelineProto->[messages->prolongWebView](/API_docs/methods/messages.prolongWebView.html)(\[silent: [Bool](/API_docs/types/Bool.html), peer: [InputPeer](/API_docs/types/InputPeer.html), bot: [InputUser](/API_docs/types/InputUser.html), query_id: [long](/API_docs/types/long.html), reply_to_msg_id: [int](/API_docs/types/int.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.prolongWebView"></a>  
+$MadelineProto->[messages->prolongWebView](/API_docs/methods/messages.prolongWebView.html)(\[silent: [Bool](/API_docs/types/Bool.html), peer: [InputPeer](/API_docs/types/InputPeer.html), bot: [InputUser](/API_docs/types/InputUser.html), query_id: [long](/API_docs/types/long.html), reply_to_msg_id: [int](/API_docs/types/int.html), send_as: [InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.prolongWebView"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->rateTranscribedAudio](/API_docs/methods/messages.rateTranscribedAudio.html)(\[peer: [InputPeer](/API_docs/types/InputPeer.html), msg_id: [int](/API_docs/types/int.html), transcription_id: [long](/API_docs/types/long.html), good: [Bool](/API_docs/types/Bool.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.rateTranscribedAudio"></a>  
 
 ***
 <br><br>
@@ -1309,7 +1325,7 @@ $MadelineProto->[messages->requestUrlAuth](/API_docs/methods/messages.requestUrl
 
 ***
 <br><br>
-$MadelineProto->[messages->requestWebView](/API_docs/methods/messages.requestWebView.html)(\[from_bot_menu: [Bool](/API_docs/types/Bool.html), silent: [Bool](/API_docs/types/Bool.html), peer: [InputPeer](/API_docs/types/InputPeer.html), bot: [InputUser](/API_docs/types/InputUser.html), url: [string](/API_docs/types/string.html), start_param: [string](/API_docs/types/string.html), theme_params: [DataJSON](/API_docs/types/DataJSON.html), reply_to_msg_id: [int](/API_docs/types/int.html), \]) === [$WebViewResult](/API_docs/types/WebViewResult.html)<a name="messages.requestWebView"></a>  
+$MadelineProto->[messages->requestWebView](/API_docs/methods/messages.requestWebView.html)(\[from_bot_menu: [Bool](/API_docs/types/Bool.html), silent: [Bool](/API_docs/types/Bool.html), peer: [InputPeer](/API_docs/types/InputPeer.html), bot: [InputUser](/API_docs/types/InputUser.html), url: [string](/API_docs/types/string.html), start_param: [string](/API_docs/types/string.html), theme_params: [DataJSON](/API_docs/types/DataJSON.html), reply_to_msg_id: [int](/API_docs/types/int.html), send_as: [InputPeer](/API_docs/types/InputPeer.html), \]) === [$WebViewResult](/API_docs/types/WebViewResult.html)<a name="messages.requestWebView"></a>  
 
 ***
 <br><br>
@@ -1469,6 +1485,10 @@ $MadelineProto->[messages->toggleStickerSets](/API_docs/methods/messages.toggleS
 
 ***
 <br><br>
+$MadelineProto->[messages->transcribeAudio](/API_docs/methods/messages.transcribeAudio.html)(\[peer: [InputPeer](/API_docs/types/InputPeer.html), msg_id: [int](/API_docs/types/int.html), \]) === [$messages.TranscribedAudio](/API_docs/types/messages.TranscribedAudio.html)<a name="messages.transcribeAudio"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->translateText](/API_docs/methods/messages.translateText.html)(\[peer: [InputPeer](/API_docs/types/InputPeer.html), msg_id: [int](/API_docs/types/int.html), text: [string](/API_docs/types/string.html), from_lang: [string](/API_docs/types/string.html), to_lang: [string](/API_docs/types/string.html), \]) === [$messages.TranslatedText](/API_docs/types/messages.TranslatedText.html)<a name="messages.translateText"></a>  
 
 ***
@@ -1505,7 +1525,23 @@ $MadelineProto->[messages->uploadMedia](/API_docs/methods/messages.uploadMedia.h
 
 ***
 <br><br>
+$MadelineProto->[payments->assignAppStoreTransaction](/API_docs/methods/payments.assignAppStoreTransaction.html)(\[restore: [Bool](/API_docs/types/Bool.html), transaction_id: [string](/API_docs/types/string.html), receipt: [bytes](/API_docs/types/bytes.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.assignAppStoreTransaction"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->assignPlayMarketTransaction](/API_docs/methods/payments.assignPlayMarketTransaction.html)(\[purchase_token: [string](/API_docs/types/string.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.assignPlayMarketTransaction"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->canPurchasePremium](/API_docs/methods/payments.canPurchasePremium.html)(\[\]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.canPurchasePremium"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->clearSavedInfo](/API_docs/methods/payments.clearSavedInfo.html)(\[credentials: [Bool](/API_docs/types/Bool.html), info: [Bool](/API_docs/types/Bool.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.clearSavedInfo"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->exportInvoice](/API_docs/methods/payments.exportInvoice.html)(\[invoice_media: [InputMedia](/API_docs/types/InputMedia.html), \]) === [$payments.ExportedInvoice](/API_docs/types/payments.ExportedInvoice.html)<a name="payments.exportInvoice"></a>  
 
 ***
 <br><br>
@@ -1513,7 +1549,7 @@ $MadelineProto->[payments->getBankCardData](/API_docs/methods/payments.getBankCa
 
 ***
 <br><br>
-$MadelineProto->[payments->getPaymentForm](/API_docs/methods/payments.getPaymentForm.html)(\[peer: [InputPeer](/API_docs/types/InputPeer.html), msg_id: [int](/API_docs/types/int.html), theme_params: [DataJSON](/API_docs/types/DataJSON.html), \]) === [$payments.PaymentForm](/API_docs/types/payments.PaymentForm.html)<a name="payments.getPaymentForm"></a>  
+$MadelineProto->[payments->getPaymentForm](/API_docs/methods/payments.getPaymentForm.html)(\[invoice: [InputInvoice](/API_docs/types/InputInvoice.html), theme_params: [DataJSON](/API_docs/types/DataJSON.html), \]) === [$payments.PaymentForm](/API_docs/types/payments.PaymentForm.html)<a name="payments.getPaymentForm"></a>  
 
 ***
 <br><br>
@@ -1525,11 +1561,19 @@ $MadelineProto->[payments->getSavedInfo](/API_docs/methods/payments.getSavedInfo
 
 ***
 <br><br>
-$MadelineProto->[payments->sendPaymentForm](/API_docs/methods/payments.sendPaymentForm.html)(\[form_id: [long](/API_docs/types/long.html), peer: [InputPeer](/API_docs/types/InputPeer.html), msg_id: [int](/API_docs/types/int.html), requested_info_id: [string](/API_docs/types/string.html), shipping_option_id: [string](/API_docs/types/string.html), credentials: [InputPaymentCredentials](/API_docs/types/InputPaymentCredentials.html), tip_amount: [long](/API_docs/types/long.html), \]) === [$payments.PaymentResult](/API_docs/types/payments.PaymentResult.html)<a name="payments.sendPaymentForm"></a>  
+$MadelineProto->[payments->requestRecurringPayment](/API_docs/methods/payments.requestRecurringPayment.html)(\[user_id: [InputUser](/API_docs/types/InputUser.html), recurring_init_charge: [string](/API_docs/types/string.html), invoice_media: [InputMedia](/API_docs/types/InputMedia.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.requestRecurringPayment"></a>  
 
 ***
 <br><br>
-$MadelineProto->[payments->validateRequestedInfo](/API_docs/methods/payments.validateRequestedInfo.html)(\[save: [Bool](/API_docs/types/Bool.html), peer: [InputPeer](/API_docs/types/InputPeer.html), msg_id: [int](/API_docs/types/int.html), info: [PaymentRequestedInfo](/API_docs/types/PaymentRequestedInfo.html), \]) === [$payments.ValidatedRequestedInfo](/API_docs/types/payments.ValidatedRequestedInfo.html)<a name="payments.validateRequestedInfo"></a>  
+$MadelineProto->[payments->restorePlayMarketReceipt](/API_docs/methods/payments.restorePlayMarketReceipt.html)(\[receipt: [bytes](/API_docs/types/bytes.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.restorePlayMarketReceipt"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->sendPaymentForm](/API_docs/methods/payments.sendPaymentForm.html)(\[form_id: [long](/API_docs/types/long.html), invoice: [InputInvoice](/API_docs/types/InputInvoice.html), requested_info_id: [string](/API_docs/types/string.html), shipping_option_id: [string](/API_docs/types/string.html), credentials: [InputPaymentCredentials](/API_docs/types/InputPaymentCredentials.html), tip_amount: [long](/API_docs/types/long.html), \]) === [$payments.PaymentResult](/API_docs/types/payments.PaymentResult.html)<a name="payments.sendPaymentForm"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->validateRequestedInfo](/API_docs/methods/payments.validateRequestedInfo.html)(\[save: [Bool](/API_docs/types/Bool.html), invoice: [InputInvoice](/API_docs/types/InputInvoice.html), info: [PaymentRequestedInfo](/API_docs/types/PaymentRequestedInfo.html), \]) === [$payments.ValidatedRequestedInfo](/API_docs/types/payments.ValidatedRequestedInfo.html)<a name="payments.validateRequestedInfo"></a>  
 
 ***
 <br><br>
@@ -1733,19 +1777,19 @@ $MadelineProto->[updates->getState](/API_docs/methods/updates.getState.html)(\[\
 
 ***
 <br><br>
-$MadelineProto->[upload->getCdnFile](/API_docs/methods/upload.getCdnFile.html)(\[file_token: [bytes](/API_docs/types/bytes.html), offset: [int](/API_docs/types/int.html), limit: [int](/API_docs/types/int.html), \]) === [$upload.CdnFile](/API_docs/types/upload.CdnFile.html)<a name="upload.getCdnFile"></a>  
+$MadelineProto->[upload->getCdnFile](/API_docs/methods/upload.getCdnFile.html)(\[file_token: [bytes](/API_docs/types/bytes.html), offset: [long](/API_docs/types/long.html), limit: [int](/API_docs/types/int.html), \]) === [$upload.CdnFile](/API_docs/types/upload.CdnFile.html)<a name="upload.getCdnFile"></a>  
 
 ***
 <br><br>
-$MadelineProto->[upload->getCdnFileHashes](/API_docs/methods/upload.getCdnFileHashes.html)(\[file_token: [bytes](/API_docs/types/bytes.html), offset: [int](/API_docs/types/int.html), \]) === [$Vector\_of\_FileHash](/API_docs/types/FileHash.html)<a name="upload.getCdnFileHashes"></a>  
+$MadelineProto->[upload->getCdnFileHashes](/API_docs/methods/upload.getCdnFileHashes.html)(\[file_token: [bytes](/API_docs/types/bytes.html), offset: [long](/API_docs/types/long.html), \]) === [$Vector\_of\_FileHash](/API_docs/types/FileHash.html)<a name="upload.getCdnFileHashes"></a>  
 
 ***
 <br><br>
-$MadelineProto->[upload->getFile](/API_docs/methods/upload.getFile.html)(\[precise: [Bool](/API_docs/types/Bool.html), cdn_supported: [Bool](/API_docs/types/Bool.html), location: [InputFileLocation](/API_docs/types/InputFileLocation.html), offset: [int](/API_docs/types/int.html), limit: [int](/API_docs/types/int.html), \]) === [$upload.File](/API_docs/types/upload.File.html)<a name="upload.getFile"></a>  
+$MadelineProto->[upload->getFile](/API_docs/methods/upload.getFile.html)(\[precise: [Bool](/API_docs/types/Bool.html), cdn_supported: [Bool](/API_docs/types/Bool.html), location: [InputFileLocation](/API_docs/types/InputFileLocation.html), offset: [long](/API_docs/types/long.html), limit: [int](/API_docs/types/int.html), \]) === [$upload.File](/API_docs/types/upload.File.html)<a name="upload.getFile"></a>  
 
 ***
 <br><br>
-$MadelineProto->[upload->getFileHashes](/API_docs/methods/upload.getFileHashes.html)(\[location: [InputFileLocation](/API_docs/types/InputFileLocation.html), offset: [int](/API_docs/types/int.html), \]) === [$Vector\_of\_FileHash](/API_docs/types/FileHash.html)<a name="upload.getFileHashes"></a>  
+$MadelineProto->[upload->getFileHashes](/API_docs/methods/upload.getFileHashes.html)(\[location: [InputFileLocation](/API_docs/types/InputFileLocation.html), offset: [long](/API_docs/types/long.html), \]) === [$Vector\_of\_FileHash](/API_docs/types/FileHash.html)<a name="upload.getFileHashes"></a>  
 
 ***
 <br><br>

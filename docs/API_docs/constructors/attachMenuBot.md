@@ -14,8 +14,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |inactive|[Bool](/API_docs/types/Bool.html) | Optional|
+|has\_settings|[Bool](/API_docs/types/Bool.html) | Optional|
 |bot\_id|[long](/API_docs/types/long.html) | Yes|
 |short\_name|[string](/API_docs/types/string.html) | Yes|
+|peer\_types|Array of [AttachMenuPeerType](/API_docs/types/AttachMenuPeerType.html) | Yes|
 |icons|Array of [AttachMenuBotIcon](/API_docs/types/AttachMenuBotIcon.html) | Yes|
 
 
@@ -26,5 +28,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$attachMenuBot = ['_' => 'attachMenuBot', 'inactive' => Bool, 'bot_id' => long, 'short_name' => 'string', 'icons' => [AttachMenuBotIcon, AttachMenuBotIcon]];
+$attachMenuBot = ['_' => 'attachMenuBot', 'inactive' => Bool, 'has_settings' => Bool, 'bot_id' => long, 'short_name' => 'string', 'peer_types' => [AttachMenuPeerType, AttachMenuPeerType], 'icons' => [AttachMenuBotIcon, AttachMenuBotIcon]];
 ```  

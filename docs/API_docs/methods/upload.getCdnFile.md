@@ -18,7 +18,7 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |file\_token|[bytes](/API_docs/types/bytes.html) | File token | Yes|
-|offset|[int](/API_docs/types/int.html) | Offset of chunk to download | Yes|
+|offset|[long](/API_docs/types/long.html) |  | Yes|
 |limit|[int](/API_docs/types/int.html) | Length of chunk to download | Yes|
 
 
@@ -40,6 +40,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$upload_CdnFile = $MadelineProto->upload->getCdnFile(file_token: 'bytes', offset: int, limit: int, );
+$upload_CdnFile = $MadelineProto->upload->getCdnFile(file_token: 'bytes', offset: long, limit: int, );
 ```
 

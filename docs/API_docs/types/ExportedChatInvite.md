@@ -13,6 +13,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [chatInviteExported](/API_docs/constructors/chatInviteExported.html)  
 
+[chatInvitePublicJoinRequests](/API_docs/constructors/chatInvitePublicJoinRequests.html)  
+
 
 
 ### Methods that return an object of this type (methods):
@@ -22,6 +24,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 [chatInviteExported](/API_docs/constructors/chatInviteExported.html)  
+
+[chatInvitePublicJoinRequests](/API_docs/constructors/chatInvitePublicJoinRequests.html)  
 
 [$MadelineProto->messages->exportChatInvite](/API_docs/methods/messages.exportChatInvite.html)  
 

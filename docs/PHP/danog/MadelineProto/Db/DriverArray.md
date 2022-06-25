@@ -21,9 +21,9 @@ Array caching trait.
 * `initStartup(): \Generator`
 * `getTable(): string`
 * `setTable(string $table): self`
+* `isset(mixed $key): \Promise<bool> true if the offset exists, otherwise false`
 * `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
 * `getArrayCopy(): \Amp\Promise`
-* `isset(string|int $key): \Amp\Promise`
 * `unset(string|int $key): \Amp\Promise`
 * `set(string|int $index, mixed $value): \Amp\Promise`
 * `offsetGet(string|int $index): \Amp\Promise`
@@ -66,6 +66,19 @@ Parameters:
 
 
 
+### `isset(mixed $key): \Promise<bool> true if the offset exists, otherwise false`
+
+Check if key isset.
+
+
+Parameters:
+
+* `$key`: `mixed`   
+
+
+Return value: true if the offset exists, otherwise false
+
+
 ### `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
 
 
@@ -101,26 +114,6 @@ Fully typed return value:
 ```
 #### See also: 
 * `\T`
-* `\Amp\Promise`
-
-
-
-
-### `isset(string|int $key): \Amp\Promise`
-
-Check if element is set.
-
-
-Parameters:
-
-* `$key`: `string|int`   
-
-
-Fully typed return value:
-```
-\Amp\Promise<bool>
-```
-#### See also: 
 * `\Amp\Promise`
 
 

@@ -13,6 +13,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [dialogFilter](/API_docs/constructors/dialogFilter.html)  
 
+[dialogFilterDefault](/API_docs/constructors/dialogFilterDefault.html)  
+
 
 
 ### Methods that return an object of this type (methods):
@@ -22,6 +24,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 [dialogFilter](/API_docs/constructors/dialogFilter.html)  
+
+[dialogFilterDefault](/API_docs/constructors/dialogFilterDefault.html)  
 
 [$MadelineProto->messages->getDialogFilters](/API_docs/methods/messages.getDialogFilters.html)  
 

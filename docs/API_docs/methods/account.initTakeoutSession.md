@@ -23,7 +23,7 @@ Initialize account takeout session
 |message\_megagroups|[Bool](/API_docs/types/Bool.html) | Whether to export messages in [supergroups](https://core.telegram.org/api/channel#supergroups) | Optional|
 |message\_channels|[Bool](/API_docs/types/Bool.html) | Whether to export messages in [channels](https://core.telegram.org/api/channel#channels) | Optional|
 |files|[Bool](/API_docs/types/Bool.html) | Whether to export files | Optional|
-|file\_max\_size|[int](/API_docs/types/int.html) | Maximum size of files to export | Optional|
+|file\_max\_size|[long](/API_docs/types/long.html) |  | Optional|
 
 
 ### Return type: [account.Takeout](/API_docs/types/account.Takeout.html)
@@ -44,6 +44,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$account_Takeout = $MadelineProto->account->initTakeoutSession(contacts: Bool, message_users: Bool, message_chats: Bool, message_megagroups: Bool, message_channels: Bool, files: Bool, file_max_size: int, );
+$account_Takeout = $MadelineProto->account->initTakeoutSession(contacts: Bool, message_users: Bool, message_chats: Bool, message_megagroups: Bool, message_channels: Bool, files: Bool, file_max_size: long, );
 ```
 

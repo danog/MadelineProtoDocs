@@ -15,6 +15,7 @@ Document (video, audio, voice, sticker, any media type except photo)
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|nopremium|[Bool](/API_docs/types/Bool.html) | Optional|
 |document|[Document](/API_docs/types/Document.html) | Optional|Attached document|
 |ttl\_seconds|[int](/API_docs/types/int.html) | Optional|Time to live of self-destructing document|
 
@@ -26,5 +27,5 @@ Document (video, audio, voice, sticker, any media type except photo)
 ### Example:
 
 ```
-$messageMediaDocument = ['_' => 'messageMediaDocument', 'document' => Document, 'ttl_seconds' => int];
+$messageMediaDocument = ['_' => 'messageMediaDocument', 'nopremium' => Bool, 'document' => Document, 'ttl_seconds' => int];
 ```  

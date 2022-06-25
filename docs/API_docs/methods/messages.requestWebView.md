@@ -23,6 +23,7 @@ redirect_from: /API_docs/methods/messages_requestWebView.html
 |start\_param|[string](/API_docs/types/string.html) | Optional|
 |theme\_params|[DataJSON](/API_docs/types/DataJSON.html) | Optional|
 |reply\_to\_msg\_id|[int](/API_docs/types/int.html) | Optional|
+|send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 
 
 ### Return type: [WebViewResult](/API_docs/types/WebViewResult.html)
@@ -43,6 +44,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$WebViewResult = $MadelineProto->messages->requestWebView(from_bot_menu: Bool, silent: Bool, peer: InputPeer, bot: InputUser, url: 'string', start_param: 'string', theme_params: DataJSON, reply_to_msg_id: int, );
+$WebViewResult = $MadelineProto->messages->requestWebView(from_bot_menu: Bool, silent: Bool, peer: InputPeer, bot: InputUser, url: 'string', start_param: 'string', theme_params: DataJSON, reply_to_msg_id: int, send_as: InputPeer, );
 ```
 

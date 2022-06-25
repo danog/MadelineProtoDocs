@@ -16,6 +16,7 @@ Animations associated with a message reaction
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |inactive|[Bool](/API_docs/types/Bool.html) | Optional|If not set, the reaction can be added to new messages and enabled in chats.|
+|premium|[Bool](/API_docs/types/Bool.html) | Optional|
 |reaction|[string](/API_docs/types/string.html) | Yes|Reaction emoji|
 |title|[string](/API_docs/types/string.html) | Yes|Reaction description|
 |static\_icon|[Document](/API_docs/types/Document.html) | Optional|Static icon for the reaction|
@@ -34,5 +35,5 @@ Animations associated with a message reaction
 ### Example:
 
 ```
-$availableReaction = ['_' => 'availableReaction', 'inactive' => Bool, 'reaction' => 'string', 'title' => 'string', 'static_icon' => Document, 'appear_animation' => Document, 'select_animation' => Document, 'activate_animation' => Document, 'effect_animation' => Document, 'around_animation' => Document, 'center_icon' => Document];
+$availableReaction = ['_' => 'availableReaction', 'inactive' => Bool, 'premium' => Bool, 'reaction' => 'string', 'title' => 'string', 'static_icon' => Document, 'appear_animation' => Document, 'select_animation' => Document, 'activate_animation' => Document, 'effect_animation' => Document, 'around_animation' => Document, 'center_icon' => Document];
 ```  

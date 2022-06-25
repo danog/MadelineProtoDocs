@@ -20,6 +20,9 @@ Payment form
 |password\_missing|[Bool](/API_docs/types/Bool.html) | Optional|Indicates that the user can save payment credentials, but only after setting up a [2FA password](https://core.telegram.org/api/srp) (currently the account doesn't have a [2FA password](https://core.telegram.org/api/srp))|
 |form\_id|[long](/API_docs/types/long.html) | Yes|Form ID|
 |bot\_id|[long](/API_docs/types/long.html) | Yes|Bot ID|
+|title|[string](/API_docs/types/string.html) | Yes|
+|description|[string](/API_docs/types/string.html) | Yes|
+|photo|[WebDocument](/API_docs/types/WebDocument.html) | Optional|
 |invoice|[Invoice](/API_docs/types/Invoice.html) | Yes|Invoice|
 |provider\_id|[long](/API_docs/types/long.html) | Yes|Payment provider ID.|
 |url|[string](/API_docs/types/string.html) | Yes|Payment form URL|
@@ -37,5 +40,5 @@ Payment form
 ### Example:
 
 ```
-$payments_paymentForm = ['_' => 'payments.paymentForm', 'can_save_credentials' => Bool, 'password_missing' => Bool, 'form_id' => long, 'bot_id' => long, 'invoice' => Invoice, 'provider_id' => long, 'url' => 'string', 'native_provider' => 'string', 'native_params' => DataJSON, 'saved_info' => PaymentRequestedInfo, 'saved_credentials' => PaymentSavedCredentials, 'users' => [User, User]];
+$payments_paymentForm = ['_' => 'payments.paymentForm', 'can_save_credentials' => Bool, 'password_missing' => Bool, 'form_id' => long, 'bot_id' => long, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'invoice' => Invoice, 'provider_id' => long, 'url' => 'string', 'native_provider' => 'string', 'native_params' => DataJSON, 'saved_info' => PaymentRequestedInfo, 'saved_credentials' => PaymentSavedCredentials, 'users' => [User, User]];
 ```  

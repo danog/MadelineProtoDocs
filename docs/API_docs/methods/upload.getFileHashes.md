@@ -18,7 +18,7 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |location|[InputFileLocation](/API_docs/types/InputFileLocation.html) | File | Yes|
-|offset|[int](/API_docs/types/int.html) | Offset from which to get file hashes | Yes|
+|offset|[long](/API_docs/types/long.html) |  | Yes|
 
 
 ### Return type: [Vector\_of\_FileHash](/API_docs/types/FileHash.html)
@@ -39,6 +39,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Vector_of_FileHash = $MadelineProto->upload->getFileHashes(location: InputFileLocation, offset: int, );
+$Vector_of_FileHash = $MadelineProto->upload->getFileHashes(location: InputFileLocation, offset: long, );
 ```
 

@@ -20,13 +20,13 @@ Redis database backend.
 * `initStartup(): \Generator`
 * `initConnection(\danog\MadelineProto\Settings\Database\Redis $settings): \Generator`
 * `set(string $index, mixed $value)`
-* `isset(mixed $key): \Promise<bool> true if the offset exists, otherwise false`
 * `getArrayCopy(): \Amp\Promise<array>`
 * `count(): \Promise<int> The number of elements or public properties in the associated
 array or object, respectively.`
 * `clear(): \Amp\Promise`
 * `getTable(): string`
 * `setTable(string $table): self`
+* `isset(mixed $key): \Promise<bool> true if the offset exists, otherwise false`
 * `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
 
 ## Methods:
@@ -70,19 +70,6 @@ The index to set for.
 </p>  
 * `$value`: `mixed`   
 
-
-
-### `isset(mixed $key): \Promise<bool> true if the offset exists, otherwise false`
-
-Check if key isset.
-
-
-Parameters:
-
-* `$key`: `mixed`   
-
-
-Return value: true if the offset exists, otherwise false
 
 
 ### `getArrayCopy(): \Amp\Promise<array>`
@@ -132,6 +119,19 @@ Parameters:
 
 * `$table`: `string`   
 
+
+
+### `isset(mixed $key): \Promise<bool> true if the offset exists, otherwise false`
+
+Check if key isset.
+
+
+Parameters:
+
+* `$key`: `mixed`   
+
+
+Return value: true if the offset exists, otherwise false
 
 
 ### `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`

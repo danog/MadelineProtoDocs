@@ -18,14 +18,6 @@ PSR-3 wrapper for MadelineProto's Logger.
 
 ## Method list:
 * `log(mixed $level, string $message, array $context): void`
-* `emergency(string $message, array $context): void`
-* `alert(string $message, array $context): void`
-* `critical(string $message, array $context): void`
-* `error(string $message, array $context): void`
-* `warning(string $message, array $context): void`
-* `notice(string $message, array $context): void`
-* `info(string $message, array $context): void`
-* `debug(string $message, array $context): void`
 
 ## Methods:
 ### `log(mixed $level, string $message, array $context): void`
@@ -36,105 +28,6 @@ Logs with an arbitrary level.
 Parameters:
 
 * `$level`: `mixed`   
-* `$message`: `string`   
-* `$context`: `array`   
-
-
-
-### `emergency(string $message, array $context): void`
-
-System is unusable.
-
-
-Parameters:
-
-* `$message`: `string`   
-* `$context`: `array`   
-
-
-
-### `alert(string $message, array $context): void`
-
-Action must be taken immediately.
-Example: Entire website down, database unavailable, etc. This should
-trigger the SMS alerts and wake you up.
-
-Parameters:
-
-* `$message`: `string`   
-* `$context`: `array`   
-
-
-
-### `critical(string $message, array $context): void`
-
-Critical conditions.
-Example: Application component unavailable, unexpected exception.
-
-Parameters:
-
-* `$message`: `string`   
-* `$context`: `array`   
-
-
-
-### `error(string $message, array $context): void`
-
-Runtime errors that do not require immediate action but should typically
-be logged and monitored.
-
-
-Parameters:
-
-* `$message`: `string`   
-* `$context`: `array`   
-
-
-
-### `warning(string $message, array $context): void`
-
-Exceptional occurrences that are not errors.
-Example: Use of deprecated APIs, poor use of an API, undesirable things
-that are not necessarily wrong.
-
-Parameters:
-
-* `$message`: `string`   
-* `$context`: `array`   
-
-
-
-### `notice(string $message, array $context): void`
-
-Normal but significant events.
-
-
-Parameters:
-
-* `$message`: `string`   
-* `$context`: `array`   
-
-
-
-### `info(string $message, array $context): void`
-
-Interesting events.
-Example: User logs in, SQL logs.
-
-Parameters:
-
-* `$message`: `string`   
-* `$context`: `array`   
-
-
-
-### `debug(string $message, array $context): void`
-
-Detailed debug information.
-
-
-Parameters:
-
 * `$message`: `string`   
 * `$context`: `array`   
 

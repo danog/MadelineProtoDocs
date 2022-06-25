@@ -18,8 +18,7 @@ Submit requested order information for validation
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |save|[Bool](/API_docs/types/Bool.html) | Save order information to re-use it for future orders | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where the payment form was sent | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | Message ID of payment form | Yes|
+|invoice|[InputInvoice](/API_docs/types/InputInvoice.html) |  | Yes|
 |info|[PaymentRequestedInfo](/API_docs/types/PaymentRequestedInfo.html) | Requested order information | Yes|
 
 
@@ -41,6 +40,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$payments_ValidatedRequestedInfo = $MadelineProto->payments->validateRequestedInfo(save: Bool, peer: InputPeer, msg_id: int, info: PaymentRequestedInfo, );
+$payments_ValidatedRequestedInfo = $MadelineProto->payments->validateRequestedInfo(save: Bool, invoice: InputInvoice, info: PaymentRequestedInfo, );
 ```
 

@@ -17,7 +17,7 @@ Encrypted file.
 |----------|---------------|----------|-------------|
 |id|[long](/API_docs/types/long.html) | Yes|File ID|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|Checking sum depending on user ID|
-|size|[int](/API_docs/types/int.html) | Yes|File size in bytes|
+|size|[long](/API_docs/types/long.html) | Yes|
 |dc\_id|[int](/API_docs/types/int.html) | Yes|Number of data center|
 |key\_fingerprint|[int](/API_docs/types/int.html) | Yes|32-bit fingerprint of key used for file encryption|
 
@@ -29,5 +29,5 @@ Encrypted file.
 ### Example:
 
 ```
-$encryptedFile = ['_' => 'encryptedFile', 'id' => long, 'access_hash' => long, 'size' => int, 'dc_id' => int, 'key_fingerprint' => int];
+$encryptedFile = ['_' => 'encryptedFile', 'id' => long, 'access_hash' => long, 'size' => long, 'dc_id' => int, 'key_fingerprint' => int];
 ```  

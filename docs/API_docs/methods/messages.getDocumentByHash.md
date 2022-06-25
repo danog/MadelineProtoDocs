@@ -18,7 +18,7 @@ Get a document by its SHA256 hash, mainly used for gifs
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |sha256|[bytes](/API_docs/types/bytes.html) | SHA256 of file | Yes|
-|size|[int](/API_docs/types/int.html) | Size of the file in bytes | Yes|
+|size|[long](/API_docs/types/long.html) |  | Yes|
 |mime\_type|[string](/API_docs/types/string.html) | Mime type | Yes|
 
 
@@ -40,6 +40,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Document = $MadelineProto->messages->getDocumentByHash(sha256: 'bytes', size: int, mime_type: 'string', );
+$Document = $MadelineProto->messages->getDocumentByHash(sha256: 'bytes', size: long, mime_type: 'string', );
 ```
 

@@ -211,6 +211,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateSavedRingtones](/API_docs/constructors/updateSavedRingtones.html)  
 
+[updateTranscribedAudio](/API_docs/constructors/updateTranscribedAudio.html)  
+
 
 
 ### Methods that return an object of this type (methods):
@@ -416,4 +418,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [updateBotMenuButton](/API_docs/constructors/updateBotMenuButton.html)  
 
 [updateSavedRingtones](/API_docs/constructors/updateSavedRingtones.html)  
+
+[updateTranscribedAudio](/API_docs/constructors/updateTranscribedAudio.html)  
 

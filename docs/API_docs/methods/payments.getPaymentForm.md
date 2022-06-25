@@ -17,8 +17,7 @@ Get a payment form
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer where the payment form was sent | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | Message ID of payment form | Yes|
+|invoice|[InputInvoice](/API_docs/types/InputInvoice.html) |  | Yes|
 |theme\_params|[DataJSON](/API_docs/types/DataJSON.html) | A JSON object with the following keys, containing color theme information (integers, RGB24) to pass to the payment provider, to apply in eventual verification pages: <br>`bg_color` \- Background color <br>`text_color` \- Text color <br>`hint_color` \- Hint text color <br>`link_color` \- Link color <br>`button_color` \- Button color <br>`button_text_color` \- Button text color | Optional|
 
 
@@ -40,6 +39,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$payments_PaymentForm = $MadelineProto->payments->getPaymentForm(peer: InputPeer, msg_id: int, theme_params: DataJSON, );
+$payments_PaymentForm = $MadelineProto->payments->getPaymentForm(invoice: InputInvoice, theme_params: DataJSON, );
 ```
 

@@ -19,13 +19,13 @@ MySQL database backend.
 ## Method list:
 * `initStartup(): \Generator`
 * `initConnection(\danog\MadelineProto\Settings\Database\Mysql $settings): \Generator`
-* `isset(mixed $key): \Promise<bool> true if the offset exists, otherwise false`
+* `getIterator()`
 * `unset(string|int $index): \Amp\Promise<array>`
 * `count(): \Promise<int> The number of elements or public properties in the associated
 array or object, respectively.`
-* `clear(): \Amp\Promise`
+* `clear(): \Amp\Promise<\Amp\Sql\CommandResult>`
 * `getTable(): string`
-* `setTable(string $table): self`
+* `isset(mixed $key): \Promise<bool> true if the offset exists, otherwise false`
 * `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
 
 ## Methods:
@@ -57,17 +57,10 @@ Parameters:
 
 
 
-### `isset(mixed $key): \Promise<bool> true if the offset exists, otherwise false`
-
-Check if key isset.
+### `getIterator()`
 
 
-Parameters:
 
-* `$key`: `mixed`   
-
-
-Return value: true if the offset exists, otherwise false
 
 
 ### `unset(string|int $index): \Amp\Promise<array>`
@@ -98,12 +91,13 @@ Return value: The number of elements or public properties in the associated
 array or object, respectively.
 
 
-### `clear(): \Amp\Promise`
+### `clear(): \Amp\Promise<\Amp\Sql\CommandResult>`
 
 Clear all elements.
 
 
 #### See also: 
+* `\Amp\Sql\CommandResult`
 * `\Amp\Promise`
 
 
@@ -115,15 +109,17 @@ Get the value of table.
 
 
 
-### `setTable(string $table): self`
+### `isset(mixed $key): \Promise<bool> true if the offset exists, otherwise false`
 
-Set the value of table.
+Check if key isset.
 
 
 Parameters:
 
-* `$table`: `string`   
+* `$key`: `mixed`   
 
+
+Return value: true if the offset exists, otherwise false
 
 
 ### `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`

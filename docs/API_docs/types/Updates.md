@@ -137,6 +137,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->channels->convertToGigagroup](/API_docs/methods/channels.convertToGigagroup.html)  
 
+[$MadelineProto->channels->toggleJoinToSend](/API_docs/methods/channels.toggleJoinToSend.html)  
+
+[$MadelineProto->channels->toggleJoinRequest](/API_docs/methods/channels.toggleJoinRequest.html)  
+
+[$MadelineProto->payments->assignAppStoreTransaction](/API_docs/methods/payments.assignAppStoreTransaction.html)  
+
+[$MadelineProto->payments->assignPlayMarketTransaction](/API_docs/methods/payments.assignPlayMarketTransaction.html)  
+
+[$MadelineProto->payments->restorePlayMarketReceipt](/API_docs/methods/payments.restorePlayMarketReceipt.html)  
+
+[$MadelineProto->payments->requestRecurringPayment](/API_docs/methods/payments.requestRecurringPayment.html)  
+
 [$MadelineProto->phone->discardCall](/API_docs/methods/phone.discardCall.html)  
 
 [$MadelineProto->phone->setCallRating](/API_docs/methods/phone.setCallRating.html)  
@@ -294,6 +306,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [$MadelineProto->channels->toggleSlowMode](/API_docs/methods/channels.toggleSlowMode.html)  
 
 [$MadelineProto->channels->convertToGigagroup](/API_docs/methods/channels.convertToGigagroup.html)  
+
+[$MadelineProto->channels->toggleJoinToSend](/API_docs/methods/channels.toggleJoinToSend.html)  
+
+[$MadelineProto->channels->toggleJoinRequest](/API_docs/methods/channels.toggleJoinRequest.html)  
+
+[$MadelineProto->payments->assignAppStoreTransaction](/API_docs/methods/payments.assignAppStoreTransaction.html)  
+
+[$MadelineProto->payments->assignPlayMarketTransaction](/API_docs/methods/payments.assignPlayMarketTransaction.html)  
+
+[$MadelineProto->payments->restorePlayMarketReceipt](/API_docs/methods/payments.restorePlayMarketReceipt.html)  
+
+[$MadelineProto->payments->requestRecurringPayment](/API_docs/methods/payments.requestRecurringPayment.html)  
 
 [$MadelineProto->phone->discardCall](/API_docs/methods/phone.discardCall.html)  
 

@@ -19,6 +19,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [AttachMenuBotsBot](/API_docs/types/AttachMenuBotsBot.html)<a name="AttachMenuBotsBot"></a>  
 
+[AttachMenuPeerType](/API_docs/types/AttachMenuPeerType.html)<a name="AttachMenuPeerType"></a>  
+
 [Authorization](/API_docs/types/Authorization.html)<a name="Authorization"></a>  
 
 [AutoDownloadSettings](/API_docs/types/AutoDownloadSettings.html)<a name="AutoDownloadSettings"></a>  
@@ -206,6 +208,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [InputGeoPoint](/API_docs/types/InputGeoPoint.html)<a name="InputGeoPoint"></a>  
 
 [InputGroupCall](/API_docs/types/InputGroupCall.html)<a name="InputGroupCall"></a>  
+
+[InputInvoice](/API_docs/types/InputInvoice.html)<a name="InputInvoice"></a>  
 
 [InputMedia](/API_docs/types/InputMedia.html)<a name="InputMedia"></a>  
 
@@ -571,6 +575,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [help.PassportConfig](/API_docs/types/help.PassportConfig.html)<a name="help.PassportConfig"></a>  
 
+[help.PremiumPromo](/API_docs/types/help.PremiumPromo.html)<a name="help.PremiumPromo"></a>  
+
 [help.PromoData](/API_docs/types/help.PromoData.html)<a name="help.PromoData"></a>  
 
 [help.RecentMeUrls](/API_docs/types/help.RecentMeUrls.html)<a name="help.RecentMeUrls"></a>  
@@ -671,11 +677,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messages.Stickers](/API_docs/types/messages.Stickers.html)<a name="messages.Stickers"></a>  
 
+[messages.TranscribedAudio](/API_docs/types/messages.TranscribedAudio.html)<a name="messages.TranscribedAudio"></a>  
+
 [messages.TranslatedText](/API_docs/types/messages.TranslatedText.html)<a name="messages.TranslatedText"></a>  
 
 [messages.VotesList](/API_docs/types/messages.VotesList.html)<a name="messages.VotesList"></a>  
 
 [payments.BankCardData](/API_docs/types/payments.BankCardData.html)<a name="payments.BankCardData"></a>  
+
+[payments.ExportedInvoice](/API_docs/types/payments.ExportedInvoice.html)<a name="payments.ExportedInvoice"></a>  
 
 [payments.PaymentForm](/API_docs/types/payments.PaymentForm.html)<a name="payments.PaymentForm"></a>  
 
