@@ -17,7 +17,7 @@ Update handling can be done in different ways:
 
 ## Self-restart on webhosts
 
-When running the `loop()` method via web, MadelineProto will automatically enable a **magical self-restart hack** (callback ID `restarter`), to keep the bot running even on webhosts with limited execution time.  
+When running the event handler via web, MadelineProto will automatically enable a **magical self-restart hack** (callback ID `restarter`), to keep the bot running even on webhosts with limited execution time.  
 
 Locking will also be handled automatically (as well as disconnection from the user that opened the page), so even if you start the script via web several times, only one instance will be running at a time (no need to do flocking manually!).  
 
@@ -185,8 +185,6 @@ $this->messages->sendMessage(['peer' => '@danogentili', 'message' => 'hi']);
 
 If you intend to use your own constructor in the event handler, make sure to call the parent construtor with the only parameter provided to your constructor.
 
-The update handling loop is started by the `$MadelineProto->loop()` method, and it will automatically restart the script if execution time runs out.
-
 To forecfully restart and apply changes made to the event handler class, call `$MadelineProto->restart();`.  
 
 ### Built-in database driver
@@ -269,7 +267,7 @@ API::startAndLoopMulti($MadelineProtos, MyEventHandler::class);
 
 This will create an event handler class `EventHandler`, create a **combined** MadelineProto session with session files `bot.madeline`, `user.madeline`, `user2.madeline`, and set the event handler class to our newly created event handler.
 
-Usage is the same as for [the normal event handler](#async-event-driven), with the difference that by using `loopFork`, multiple accounts can receive and handle updates in parallel, each with its own event handler instance.
+Usage is the same as for [the normal event handler](#async-event-driven), with the difference is that multiple accounts can receive and handle updates in parallel, each with its own event handler instance.
 
 ## Noop
 
