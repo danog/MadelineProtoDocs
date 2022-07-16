@@ -33,8 +33,6 @@ Settings class used for configuring MadelineProto.
 * `setLogger(\danog\MadelineProto\Settings\Logger $logger): self`
 * `getPeer(): \danog\MadelineProto\Settings\Peer`
 * `setPeer(\danog\MadelineProto\Settings\Peer $peer): self`
-* `getPwr(): \danog\MadelineProto\Settings\Pwr`
-* `setPwr(\danog\MadelineProto\Settings\Pwr $pwr): self`
 * `getRpc(): \danog\MadelineProto\Settings\RPC`
 * `setRpc(\danog\MadelineProto\Settings\RPC $rpc): self`
 * `getSecretChats(): \danog\MadelineProto\Settings\SecretChats`
@@ -250,33 +248,6 @@ Parameters:
 
 #### See also: 
 * [`\danog\MadelineProto\Settings\Peer`: Peer database settings.](../../danog/MadelineProto/Settings/Peer.md)
-
-
-
-
-### `getPwr(): \danog\MadelineProto\Settings\Pwr`
-
-Get PWRTelegram settings.
-
-
-#### See also: 
-* [`\danog\MadelineProto\Settings\Pwr`: PWRTelegram settings.](../../danog/MadelineProto/Settings/Pwr.md)
-
-
-
-
-### `setPwr(\danog\MadelineProto\Settings\Pwr $pwr): self`
-
-Set PWRTelegram settings.
-
-
-Parameters:
-
-* `$pwr`: `\danog\MadelineProto\Settings\Pwr` PWRTelegram settings.  
-
-
-#### See also: 
-* [`\danog\MadelineProto\Settings\Pwr`: PWRTelegram settings.](../../danog/MadelineProto/Settings/Pwr.md)
 
 
 

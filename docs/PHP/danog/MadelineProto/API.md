@@ -120,7 +120,7 @@ Main API wrapper for MadelineProto.
 * `getPsrLogger()`
 * `getPwrChat(mixed $id): \Amp\Promise Chat object`
 * `getSecretChat(array|int $chat): mixed`
-* `getSelf(): array|bool`
+* `getSelf(): mixed`
 * `getSettings(): mixed`
 * `getSponsoredMessages(int|array $peer): \Amp\Promise`
 * `getTL(): mixed`
@@ -139,6 +139,7 @@ Main API wrapper for MadelineProto.
 * `isArrayOrAlike(mixed $var): bool`
 * `isIpc(): mixed`
 * `isIpcWorker(): mixed`
+* `isPremium()`
 * `isSupergroup(int $id): bool`
 * `logger(string $param, int $level, string $file): mixed`
 * `logout(): \Amp\Promise`
@@ -161,6 +162,8 @@ Main API wrapper for MadelineProto.
 * `random(int $length): \string Random string`
 * `randomInt(int $modulus): int`
 * `readLine(string $prompt): \Amp\Promise<string>`
+* `refreshFullPeerCache(mixed $id): \Amp\Promise`
+* `refreshPeerCache(mixed $id): \Amp\Promise`
 * `rekey(int $chat): \Amp\Promise`
 * `report(string $message, string $parseMode): \Amp\Promise`
 * `requestCall(mixed $user): \Amp\Promise`
@@ -1541,9 +1544,18 @@ array|\Amp\Promise<array>
 
 
 
-### `getSelf(): array|bool`
+### `getSelf(): mixed`
 
 Get info about the logged-in user, cached.
+Use fullGetSelf to bypass the cache.
+
+Fully typed return value:
+```
+array|false|\Amp\Promise<array|false>
+```
+#### See also: 
+* `\Amp\Promise`
+
 
 
 
@@ -1801,6 +1813,12 @@ bool|\Amp\Promise<bool>
 #### See also: 
 * `\Amp\Promise`
 
+
+
+
+### `isPremium()`
+
+Returns whether the current user is a premium user, cached.
 
 
 
@@ -2107,6 +2125,38 @@ Asynchronously read line.
 Parameters:
 
 * `$prompt`: `string` Prompt  
+
+
+#### See also: 
+* `\Amp\Promise`
+
+
+
+
+### `refreshFullPeerCache(mixed $id): \Amp\Promise`
+
+Refresh full peer cache for a certain peer.
+
+
+Parameters:
+
+* `$id`: `mixed`   
+
+
+#### See also: 
+* `\Amp\Promise`
+
+
+
+
+### `refreshPeerCache(mixed $id): \Amp\Promise`
+
+Refresh peer cache for a certain peer.
+
+
+Parameters:
+
+* `$id`: `mixed`   
 
 
 #### See also: 
