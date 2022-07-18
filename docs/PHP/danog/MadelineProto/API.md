@@ -2140,7 +2140,7 @@ Refresh full peer cache for a certain peer.
 
 Parameters:
 
-* `$id`: `mixed`   
+* `$id`: `mixed` The peer to refresh  
 
 
 #### See also: 
@@ -2156,7 +2156,7 @@ Refresh peer cache for a certain peer.
 
 Parameters:
 
-* `$id`: `mixed`   
+* `$id`: `mixed` The peer to refresh  
 
 
 #### See also: 
