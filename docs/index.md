@@ -35,6 +35,7 @@ if (!file_exists('madeline.php')) {
 include 'madeline.php';
 
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->async(false);
 $MadelineProto->start();
 
 $me = $MadelineProto->getSelf();
