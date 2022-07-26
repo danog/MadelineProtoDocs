@@ -26,11 +26,3 @@ redirect_from: /API_docs/types/messages_AllStickers.html
 
 
 
-[messages.allStickersNotModified](/API_docs/constructors/messages.allStickersNotModified.html)  
-
-[messages.allStickers](/API_docs/constructors/messages.allStickers.html)  
-
-[$MadelineProto->messages->getAllStickers](/API_docs/methods/messages.getAllStickers.html)  
-
-[$MadelineProto->messages->getMaskStickers](/API_docs/methods/messages.getMaskStickers.html)  
-

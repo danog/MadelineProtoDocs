@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/messages_MessageViews.html
 
 
 
-[messages.messageViews](/API_docs/constructors/messages.messageViews.html)  
-
-[$MadelineProto->messages->getMessagesViews](/API_docs/methods/messages.getMessagesViews.html)  
-

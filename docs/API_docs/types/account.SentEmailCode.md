@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/account_SentEmailCode.html
 
 
 
-[account.sentEmailCode](/API_docs/constructors/account.sentEmailCode.html)  
-
-[$MadelineProto->account->sendVerifyEmailCode](/API_docs/methods/account.sendVerifyEmailCode.html)  
-

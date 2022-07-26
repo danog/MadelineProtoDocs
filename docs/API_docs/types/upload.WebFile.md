@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/upload_WebFile.html
 
 
 
-[upload.webFile](/API_docs/constructors/upload.webFile.html)  
-
-[$MadelineProto->upload->getWebFile](/API_docs/methods/upload.getWebFile.html)  
-

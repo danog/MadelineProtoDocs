@@ -31,17 +31,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputBotInlineMessageMediaAuto](/API_docs/constructors/inputBotInlineMessageMediaAuto.html)  
-
-[inputBotInlineMessageText](/API_docs/constructors/inputBotInlineMessageText.html)  
-
-[inputBotInlineMessageMediaGeo](/API_docs/constructors/inputBotInlineMessageMediaGeo.html)  
-
-[inputBotInlineMessageMediaVenue](/API_docs/constructors/inputBotInlineMessageMediaVenue.html)  
-
-[inputBotInlineMessageMediaContact](/API_docs/constructors/inputBotInlineMessageMediaContact.html)  
-
-[inputBotInlineMessageGame](/API_docs/constructors/inputBotInlineMessageGame.html)  
-
-[inputBotInlineMessageMediaInvoice](/API_docs/constructors/inputBotInlineMessageMediaInvoice.html)  
-

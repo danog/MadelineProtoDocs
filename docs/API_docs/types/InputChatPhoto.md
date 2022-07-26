@@ -23,9 +23,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputChatPhotoEmpty](/API_docs/constructors/inputChatPhotoEmpty.html)  
-
-[inputChatUploadedPhoto](/API_docs/constructors/inputChatUploadedPhoto.html)  
-
-[inputChatPhoto](/API_docs/constructors/inputChatPhoto.html)  
-

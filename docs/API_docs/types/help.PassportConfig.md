@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/help_PassportConfig.html
 
 
 
-[help.passportConfigNotModified](/API_docs/constructors/help.passportConfigNotModified.html)  
-
-[help.passportConfig](/API_docs/constructors/help.passportConfig.html)  
-
-[$MadelineProto->help->getPassportConfig](/API_docs/methods/help.getPassportConfig.html)  
-

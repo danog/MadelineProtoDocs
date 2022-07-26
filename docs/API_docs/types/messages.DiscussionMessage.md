@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/messages_DiscussionMessage.html
 
 
 
-[messages.discussionMessage](/API_docs/constructors/messages.discussionMessage.html)  
-
-[$MadelineProto->messages->getDiscussionMessage](/API_docs/methods/messages.getDiscussionMessage.html)  
-

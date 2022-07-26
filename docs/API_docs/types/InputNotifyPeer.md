@@ -60,11 +60,3 @@ You can also provide one of the following objects, instead, MadelineProto will h
 
 
 
-[inputNotifyPeer](/API_docs/constructors/inputNotifyPeer.html)  
-
-[inputNotifyUsers](/API_docs/constructors/inputNotifyUsers.html)  
-
-[inputNotifyChats](/API_docs/constructors/inputNotifyChats.html)  
-
-[inputNotifyBroadcasts](/API_docs/constructors/inputNotifyBroadcasts.html)  
-

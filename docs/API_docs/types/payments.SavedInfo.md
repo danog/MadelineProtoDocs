@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/payments_SavedInfo.html
 
 
 
-[payments.savedInfo](/API_docs/constructors/payments.savedInfo.html)  
-
-[$MadelineProto->payments->getSavedInfo](/API_docs/methods/payments.getSavedInfo.html)  
-

@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/account_WallPapers.html
 
 
 
-[account.wallPapersNotModified](/API_docs/constructors/account.wallPapersNotModified.html)  
-
-[account.wallPapers](/API_docs/constructors/account.wallPapers.html)  
-
-[$MadelineProto->account->getWallPapers](/API_docs/methods/account.getWallPapers.html)  
-

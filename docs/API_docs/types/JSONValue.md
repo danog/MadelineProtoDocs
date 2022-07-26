@@ -31,17 +31,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[jsonNull](/API_docs/constructors/jsonNull.html)  
-
-[jsonBool](/API_docs/constructors/jsonBool.html)  
-
-[jsonNumber](/API_docs/constructors/jsonNumber.html)  
-
-[jsonString](/API_docs/constructors/jsonString.html)  
-
-[jsonArray](/API_docs/constructors/jsonArray.html)  
-
-[jsonObject](/API_docs/constructors/jsonObject.html)  
-
-[$MadelineProto->help->getAppConfig](/API_docs/methods/help.getAppConfig.html)  
-

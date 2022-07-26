@@ -58,9 +58,3 @@ You can also provide one of the following objects, instead, MadelineProto will h
 
 
 
-[dialogPeer](/API_docs/constructors/dialogPeer.html)  
-
-[dialogPeerFolder](/API_docs/constructors/dialogPeerFolder.html)  
-
-[$MadelineProto->messages->getDialogUnreadMarks](/API_docs/methods/messages.getDialogUnreadMarks.html)  
-

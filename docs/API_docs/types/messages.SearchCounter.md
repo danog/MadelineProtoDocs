@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/messages_SearchCounter.html
 
 
 
-[messages.searchCounter](/API_docs/constructors/messages.searchCounter.html)  
-
-[$MadelineProto->messages->getSearchCounters](/API_docs/methods/messages.getSearchCounters.html)  
-

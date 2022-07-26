@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/account_ContentSettings.html
 
 
 
-[account.contentSettings](/API_docs/constructors/account.contentSettings.html)  
-
-[$MadelineProto->account->getContentSettings](/API_docs/methods/account.getContentSettings.html)  
-

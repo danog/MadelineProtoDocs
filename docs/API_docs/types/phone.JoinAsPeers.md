@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/phone_JoinAsPeers.html
 
 
 
-[phone.joinAsPeers](/API_docs/constructors/phone.joinAsPeers.html)  
-
-[$MadelineProto->phone->getGroupCallJoinAs](/API_docs/methods/phone.getGroupCallJoinAs.html)  
-

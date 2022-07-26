@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/stats_MessageStats.html
 
 
 
-[stats.messageStats](/API_docs/constructors/stats.messageStats.html)  
-
-[$MadelineProto->stats->getMessageStats](/API_docs/methods/stats.getMessageStats.html)  
-

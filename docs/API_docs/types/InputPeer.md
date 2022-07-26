@@ -66,17 +66,3 @@ You can also provide one of the following objects, instead, MadelineProto will h
 
 
 
-[inputPeerEmpty](/API_docs/constructors/inputPeerEmpty.html)  
-
-[inputPeerSelf](/API_docs/constructors/inputPeerSelf.html)  
-
-[inputPeerChat](/API_docs/constructors/inputPeerChat.html)  
-
-[inputPeerUser](/API_docs/constructors/inputPeerUser.html)  
-
-[inputPeerChannel](/API_docs/constructors/inputPeerChannel.html)  
-
-[inputPeerUserFromMessage](/API_docs/constructors/inputPeerUserFromMessage.html)  
-
-[inputPeerChannelFromMessage](/API_docs/constructors/inputPeerChannelFromMessage.html)  
-

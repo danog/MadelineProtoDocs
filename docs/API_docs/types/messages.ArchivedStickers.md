@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/messages_ArchivedStickers.html
 
 
 
-[messages.archivedStickers](/API_docs/constructors/messages.archivedStickers.html)  
-
-[$MadelineProto->messages->getArchivedStickers](/API_docs/methods/messages.getArchivedStickers.html)  
-

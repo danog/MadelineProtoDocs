@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/messages_ChatAdminsWithInvites.html
 
 
 
-[messages.chatAdminsWithInvites](/API_docs/constructors/messages.chatAdminsWithInvites.html)  
-
-[$MadelineProto->messages->getAdminsWithInvites](/API_docs/methods/messages.getAdminsWithInvites.html)  
-

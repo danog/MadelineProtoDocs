@@ -19,5 +19,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[groupCallParticipantVideo](/API_docs/constructors/groupCallParticipantVideo.html)  
-

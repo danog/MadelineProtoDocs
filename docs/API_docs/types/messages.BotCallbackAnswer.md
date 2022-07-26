@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/messages_BotCallbackAnswer.html
 
 
 
-[messages.botCallbackAnswer](/API_docs/constructors/messages.botCallbackAnswer.html)  
-
-[$MadelineProto->messages->getBotCallbackAnswer](/API_docs/methods/messages.getBotCallbackAnswer.html)  
-

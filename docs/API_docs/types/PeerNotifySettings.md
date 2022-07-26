@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[peerNotifySettings](/API_docs/constructors/peerNotifySettings.html)  
-
-[$MadelineProto->account->getNotifySettings](/API_docs/methods/account.getNotifySettings.html)  
-

@@ -41,27 +41,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[documentAttributeImageSize](/API_docs/constructors/documentAttributeImageSize.html)  
-
-[documentAttributeAnimated](/API_docs/constructors/documentAttributeAnimated.html)  
-
-[documentAttributeSticker](/API_docs/constructors/documentAttributeSticker.html)  
-
-[documentAttributeVideo](/API_docs/constructors/documentAttributeVideo.html)  
-
-[documentAttributeAudio](/API_docs/constructors/documentAttributeAudio.html)  
-
-[documentAttributeFilename](/API_docs/constructors/documentAttributeFilename.html)  
-
-[documentAttributeHasStickers](/API_docs/constructors/documentAttributeHasStickers.html)  
-
-[documentAttributeSticker\_23](/API_docs/constructors/documentAttributeSticker_23.html)  
-
-[documentAttributeVideo\_23](/API_docs/constructors/documentAttributeVideo_23.html)  
-
-[documentAttributeAudio\_23](/API_docs/constructors/documentAttributeAudio_23.html)  
-
-[documentAttributeAudio\_46](/API_docs/constructors/documentAttributeAudio_46.html)  
-
-[documentAttributeSticker\_55](/API_docs/constructors/documentAttributeSticker_55.html)  
-

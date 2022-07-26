@@ -27,13 +27,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[attachMenuPeerTypeSameBotPM](/API_docs/constructors/attachMenuPeerTypeSameBotPM.html)  
-
-[attachMenuPeerTypeBotPM](/API_docs/constructors/attachMenuPeerTypeBotPM.html)  
-
-[attachMenuPeerTypePM](/API_docs/constructors/attachMenuPeerTypePM.html)  
-
-[attachMenuPeerTypeChat](/API_docs/constructors/attachMenuPeerTypeChat.html)  
-
-[attachMenuPeerTypeBroadcast](/API_docs/constructors/attachMenuPeerTypeBroadcast.html)  
-

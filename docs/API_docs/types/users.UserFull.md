@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/users_UserFull.html
 
 
 
-[users.userFull](/API_docs/constructors/users.userFull.html)  
-
-[$MadelineProto->users->getFullUser](/API_docs/methods/users.getFullUser.html)  
-

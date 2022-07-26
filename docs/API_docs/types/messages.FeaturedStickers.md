@@ -26,11 +26,3 @@ redirect_from: /API_docs/types/messages_FeaturedStickers.html
 
 
 
-[messages.featuredStickersNotModified](/API_docs/constructors/messages.featuredStickersNotModified.html)  
-
-[messages.featuredStickers](/API_docs/constructors/messages.featuredStickers.html)  
-
-[$MadelineProto->messages->getFeaturedStickers](/API_docs/methods/messages.getFeaturedStickers.html)  
-
-[$MadelineProto->messages->getOldFeaturedStickers](/API_docs/methods/messages.getOldFeaturedStickers.html)  
-

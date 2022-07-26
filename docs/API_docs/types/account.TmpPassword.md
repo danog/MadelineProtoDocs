@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/account_TmpPassword.html
 
 
 
-[account.tmpPassword](/API_docs/constructors/account.tmpPassword.html)  
-
-[$MadelineProto->account->getTmpPassword](/API_docs/methods/account.getTmpPassword.html)  
-

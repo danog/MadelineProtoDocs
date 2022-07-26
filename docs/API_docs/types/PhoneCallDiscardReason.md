@@ -25,11 +25,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[phoneCallDiscardReasonMissed](/API_docs/constructors/phoneCallDiscardReasonMissed.html)  
-
-[phoneCallDiscardReasonDisconnect](/API_docs/constructors/phoneCallDiscardReasonDisconnect.html)  
-
-[phoneCallDiscardReasonHangup](/API_docs/constructors/phoneCallDiscardReasonHangup.html)  
-
-[phoneCallDiscardReasonBusy](/API_docs/constructors/phoneCallDiscardReasonBusy.html)  
-

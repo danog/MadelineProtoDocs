@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/help_CountriesList.html
 
 
 
-[help.countriesListNotModified](/API_docs/constructors/help.countriesListNotModified.html)  
-
-[help.countriesList](/API_docs/constructors/help.countriesList.html)  
-
-[$MadelineProto->help->getCountriesList](/API_docs/methods/help.getCountriesList.html)  
-

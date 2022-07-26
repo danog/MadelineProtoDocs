@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/account_Authorizations.html
 
 
 
-[account.authorizations](/API_docs/constructors/account.authorizations.html)  
-
-[$MadelineProto->account->getAuthorizations](/API_docs/methods/account.getAuthorizations.html)  
-

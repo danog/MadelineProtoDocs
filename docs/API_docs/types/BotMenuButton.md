@@ -25,11 +25,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[botMenuButtonDefault](/API_docs/constructors/botMenuButtonDefault.html)  
-
-[botMenuButtonCommands](/API_docs/constructors/botMenuButtonCommands.html)  
-
-[botMenuButton](/API_docs/constructors/botMenuButton.html)  
-
-[$MadelineProto->bots->getBotMenuButton](/API_docs/methods/bots.getBotMenuButton.html)  
-

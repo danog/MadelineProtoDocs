@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/account_Password.html
 
 
 
-[account.password](/API_docs/constructors/account.password.html)  
-
-[$MadelineProto->account->getPassword](/API_docs/methods/account.getPassword.html)  
-

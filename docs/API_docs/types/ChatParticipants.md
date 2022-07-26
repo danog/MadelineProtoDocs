@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[chatParticipantsForbidden](/API_docs/constructors/chatParticipantsForbidden.html)  
-
-[chatParticipants](/API_docs/constructors/chatParticipants.html)  
-

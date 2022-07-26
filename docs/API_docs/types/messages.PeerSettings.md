@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/messages_PeerSettings.html
 
 
 
-[messages.peerSettings](/API_docs/constructors/messages.peerSettings.html)  
-
-[$MadelineProto->messages->getPeerSettings](/API_docs/methods/messages.getPeerSettings.html)  
-

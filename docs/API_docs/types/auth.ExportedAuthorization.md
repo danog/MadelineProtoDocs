@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/auth_ExportedAuthorization.html
 
 
 
-[auth.exportedAuthorization](/API_docs/constructors/auth.exportedAuthorization.html)  
-
-[$MadelineProto->auth->exportAuthorization](/API_docs/methods/auth.exportAuthorization.html)  
-

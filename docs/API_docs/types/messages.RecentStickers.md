@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/messages_RecentStickers.html
 
 
 
-[messages.recentStickersNotModified](/API_docs/constructors/messages.recentStickersNotModified.html)  
-
-[messages.recentStickers](/API_docs/constructors/messages.recentStickers.html)  
-
-[$MadelineProto->messages->getRecentStickers](/API_docs/methods/messages.getRecentStickers.html)  
-

@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[messageRange](/API_docs/constructors/messageRange.html)  
-
-[$MadelineProto->messages->getSplitRanges](/API_docs/methods/messages.getSplitRanges.html)  
-

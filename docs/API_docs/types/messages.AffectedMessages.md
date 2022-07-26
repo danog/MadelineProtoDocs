@@ -28,13 +28,3 @@ redirect_from: /API_docs/types/messages_AffectedMessages.html
 
 
 
-[messages.affectedMessages](/API_docs/constructors/messages.affectedMessages.html)  
-
-[$MadelineProto->messages->readHistory](/API_docs/methods/messages.readHistory.html)  
-
-[$MadelineProto->messages->deleteMessages](/API_docs/methods/messages.deleteMessages.html)  
-
-[$MadelineProto->messages->readMessageContents](/API_docs/methods/messages.readMessageContents.html)  
-
-[$MadelineProto->channels->deleteMessages](/API_docs/methods/channels.deleteMessages.html)  
-

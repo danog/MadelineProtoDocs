@@ -36,21 +36,3 @@ redirect_from: /API_docs/types/messages_Chats.html
 
 
 
-[messages.chats](/API_docs/constructors/messages.chats.html)  
-
-[messages.chatsSlice](/API_docs/constructors/messages.chatsSlice.html)  
-
-[$MadelineProto->messages->getChats](/API_docs/methods/messages.getChats.html)  
-
-[$MadelineProto->messages->getCommonChats](/API_docs/methods/messages.getCommonChats.html)  
-
-[$MadelineProto->messages->getAllChats](/API_docs/methods/messages.getAllChats.html)  
-
-[$MadelineProto->channels->getChannels](/API_docs/methods/channels.getChannels.html)  
-
-[$MadelineProto->channels->getAdminedPublicChannels](/API_docs/methods/channels.getAdminedPublicChannels.html)  
-
-[$MadelineProto->channels->getLeftChannels](/API_docs/methods/channels.getLeftChannels.html)  
-
-[$MadelineProto->channels->getGroupsForDiscussion](/API_docs/methods/channels.getGroupsForDiscussion.html)  
-

@@ -62,13 +62,3 @@ You can also provide one of the following objects, instead, MadelineProto will h
 
 
 
-[chatEmpty](/API_docs/constructors/chatEmpty.html)  
-
-[chat](/API_docs/constructors/chat.html)  
-
-[chatForbidden](/API_docs/constructors/chatForbidden.html)  
-
-[channel](/API_docs/constructors/channel.html)  
-
-[channelForbidden](/API_docs/constructors/channelForbidden.html)  
-

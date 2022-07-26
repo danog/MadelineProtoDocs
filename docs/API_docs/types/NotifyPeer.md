@@ -60,11 +60,3 @@ You can also provide one of the following objects, instead, MadelineProto will h
 
 
 
-[notifyPeer](/API_docs/constructors/notifyPeer.html)  
-
-[notifyUsers](/API_docs/constructors/notifyUsers.html)  
-
-[notifyChats](/API_docs/constructors/notifyChats.html)  
-
-[notifyBroadcasts](/API_docs/constructors/notifyBroadcasts.html)  
-

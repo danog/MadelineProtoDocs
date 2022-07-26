@@ -29,15 +29,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[userStatusEmpty](/API_docs/constructors/userStatusEmpty.html)  
-
-[userStatusOnline](/API_docs/constructors/userStatusOnline.html)  
-
-[userStatusOffline](/API_docs/constructors/userStatusOffline.html)  
-
-[userStatusRecently](/API_docs/constructors/userStatusRecently.html)  
-
-[userStatusLastWeek](/API_docs/constructors/userStatusLastWeek.html)  
-
-[userStatusLastMonth](/API_docs/constructors/userStatusLastMonth.html)  
-

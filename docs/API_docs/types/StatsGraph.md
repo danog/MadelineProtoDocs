@@ -25,11 +25,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[statsGraphAsync](/API_docs/constructors/statsGraphAsync.html)  
-
-[statsGraphError](/API_docs/constructors/statsGraphError.html)  
-
-[statsGraph](/API_docs/constructors/statsGraph.html)  
-
-[$MadelineProto->stats->loadAsyncGraph](/API_docs/methods/stats.loadAsyncGraph.html)  
-

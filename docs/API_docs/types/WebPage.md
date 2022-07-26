@@ -27,13 +27,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[webPageEmpty](/API_docs/constructors/webPageEmpty.html)  
-
-[webPagePending](/API_docs/constructors/webPagePending.html)  
-
-[webPage](/API_docs/constructors/webPage.html)  
-
-[webPageNotModified](/API_docs/constructors/webPageNotModified.html)  
-
-[$MadelineProto->messages->getWebPage](/API_docs/methods/messages.getWebPage.html)  
-

@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[exportedMessageLink](/API_docs/constructors/exportedMessageLink.html)  
-
-[$MadelineProto->channels->exportMessageLink](/API_docs/methods/channels.exportMessageLink.html)  
-

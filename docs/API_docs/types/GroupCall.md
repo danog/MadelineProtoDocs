@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[groupCallDiscarded](/API_docs/constructors/groupCallDiscarded.html)  
-
-[groupCall](/API_docs/constructors/groupCall.html)  
-

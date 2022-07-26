@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/photos_Photos.html
 
 
 
-[photos.photos](/API_docs/constructors/photos.photos.html)  
-
-[photos.photosSlice](/API_docs/constructors/photos.photosSlice.html)  
-
-[$MadelineProto->photos->getUserPhotos](/API_docs/methods/photos.getUserPhotos.html)  
-

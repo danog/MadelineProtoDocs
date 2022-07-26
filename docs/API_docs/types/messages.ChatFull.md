@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/messages_ChatFull.html
 
 
 
-[messages.chatFull](/API_docs/constructors/messages.chatFull.html)  
-
-[$MadelineProto->messages->getFullChat](/API_docs/methods/messages.getFullChat.html)  
-
-[$MadelineProto->channels->getFullChannel](/API_docs/methods/channels.getFullChannel.html)  
-

@@ -26,11 +26,3 @@ redirect_from: /API_docs/types/contacts_TopPeers.html
 
 
 
-[contacts.topPeersNotModified](/API_docs/constructors/contacts.topPeersNotModified.html)  
-
-[contacts.topPeers](/API_docs/constructors/contacts.topPeers.html)  
-
-[contacts.topPeersDisabled](/API_docs/constructors/contacts.topPeersDisabled.html)  
-
-[$MadelineProto->contacts->getTopPeers](/API_docs/methods/contacts.getTopPeers.html)  
-

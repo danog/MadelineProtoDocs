@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/payments_ExportedInvoice.html
 
 
 
-[payments.exportedInvoice](/API_docs/constructors/payments.exportedInvoice.html)  
-
-[$MadelineProto->payments->exportInvoice](/API_docs/methods/payments.exportInvoice.html)  
-

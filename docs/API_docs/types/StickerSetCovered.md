@@ -23,9 +23,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[stickerSetCovered](/API_docs/constructors/stickerSetCovered.html)  
-
-[stickerSetMultiCovered](/API_docs/constructors/stickerSetMultiCovered.html)  
-
-[$MadelineProto->messages->getAttachedStickers](/API_docs/methods/messages.getAttachedStickers.html)  
-

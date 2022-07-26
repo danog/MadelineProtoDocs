@@ -23,9 +23,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[globalPrivacySettings](/API_docs/constructors/globalPrivacySettings.html)  
-
-[$MadelineProto->account->getGlobalPrivacySettings](/API_docs/methods/account.getGlobalPrivacySettings.html)  
-
-[$MadelineProto->account->setGlobalPrivacySettings](/API_docs/methods/account.setGlobalPrivacySettings.html)  
-

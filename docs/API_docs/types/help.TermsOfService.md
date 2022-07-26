@@ -20,5 +20,3 @@ redirect_from: /API_docs/types/help_TermsOfService.html
 
 
 
-[help.termsOfService](/API_docs/constructors/help.termsOfService.html)  
-

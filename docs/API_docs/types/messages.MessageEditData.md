@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/messages_MessageEditData.html
 
 
 
-[messages.messageEditData](/API_docs/constructors/messages.messageEditData.html)  
-
-[$MadelineProto->messages->getMessageEditData](/API_docs/methods/messages.getMessageEditData.html)  
-

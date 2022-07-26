@@ -23,9 +23,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[securePasswordKdfAlgoUnknown](/API_docs/constructors/securePasswordKdfAlgoUnknown.html)  
-
-[securePasswordKdfAlgoPBKDF2HMACSHA512iter100000](/API_docs/constructors/securePasswordKdfAlgoPBKDF2HMACSHA512iter100000.html)  
-
-[securePasswordKdfAlgoSHA512](/API_docs/constructors/securePasswordKdfAlgoSHA512.html)  
-

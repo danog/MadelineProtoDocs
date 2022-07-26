@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/phone_ExportedGroupCallInvite.html
 
 
 
-[phone.exportedGroupCallInvite](/API_docs/constructors/phone.exportedGroupCallInvite.html)  
-
-[$MadelineProto->phone->exportGroupCallInvite](/API_docs/methods/phone.exportGroupCallInvite.html)  
-

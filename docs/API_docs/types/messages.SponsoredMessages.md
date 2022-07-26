@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/messages_SponsoredMessages.html
 
 
 
-[messages.sponsoredMessages](/API_docs/constructors/messages.sponsoredMessages.html)  
-
-[$MadelineProto->channels->getSponsoredMessages](/API_docs/methods/channels.getSponsoredMessages.html)  
-

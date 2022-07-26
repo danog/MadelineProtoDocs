@@ -20,5 +20,3 @@ redirect_from: /API_docs/types/help_Country.html
 
 
 
-[help.country](/API_docs/constructors/help.country.html)  
-

@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/messages_HistoryImportParsed.html
 
 
 
-[messages.historyImportParsed](/API_docs/constructors/messages.historyImportParsed.html)  
-
-[$MadelineProto->messages->checkHistoryImport](/API_docs/methods/messages.checkHistoryImport.html)  
-

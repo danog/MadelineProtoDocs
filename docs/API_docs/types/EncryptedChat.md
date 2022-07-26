@@ -31,17 +31,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[encryptedChatEmpty](/API_docs/constructors/encryptedChatEmpty.html)  
-
-[encryptedChatWaiting](/API_docs/constructors/encryptedChatWaiting.html)  
-
-[encryptedChatRequested](/API_docs/constructors/encryptedChatRequested.html)  
-
-[encryptedChat](/API_docs/constructors/encryptedChat.html)  
-
-[encryptedChatDiscarded](/API_docs/constructors/encryptedChatDiscarded.html)  
-
-[$MadelineProto->messages->requestEncryption](/API_docs/methods/messages.requestEncryption.html)  
-
-[$MadelineProto->messages->acceptEncryption](/API_docs/methods/messages.acceptEncryption.html)  
-

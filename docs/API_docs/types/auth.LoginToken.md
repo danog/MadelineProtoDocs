@@ -28,13 +28,3 @@ redirect_from: /API_docs/types/auth_LoginToken.html
 
 
 
-[auth.loginToken](/API_docs/constructors/auth.loginToken.html)  
-
-[auth.loginTokenMigrateTo](/API_docs/constructors/auth.loginTokenMigrateTo.html)  
-
-[auth.loginTokenSuccess](/API_docs/constructors/auth.loginTokenSuccess.html)  
-
-[$MadelineProto->auth->exportLoginToken](/API_docs/methods/auth.exportLoginToken.html)  
-
-[$MadelineProto->auth->importLoginToken](/API_docs/methods/auth.importLoginToken.html)  
-

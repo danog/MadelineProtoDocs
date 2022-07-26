@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/contacts_Found.html
 
 
 
-[contacts.found](/API_docs/constructors/contacts.found.html)  
-
-[$MadelineProto->contacts->search](/API_docs/methods/contacts.search.html)  
-

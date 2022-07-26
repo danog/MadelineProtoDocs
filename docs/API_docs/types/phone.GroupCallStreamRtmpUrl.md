@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/phone_GroupCallStreamRtmpUrl.html
 
 
 
-[phone.groupCallStreamRtmpUrl](/API_docs/constructors/phone.groupCallStreamRtmpUrl.html)  
-
-[$MadelineProto->phone->getGroupCallStreamRtmpUrl](/API_docs/methods/phone.getGroupCallStreamRtmpUrl.html)  
-

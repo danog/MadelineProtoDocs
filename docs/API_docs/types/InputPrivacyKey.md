@@ -33,19 +33,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputPrivacyKeyStatusTimestamp](/API_docs/constructors/inputPrivacyKeyStatusTimestamp.html)  
-
-[inputPrivacyKeyChatInvite](/API_docs/constructors/inputPrivacyKeyChatInvite.html)  
-
-[inputPrivacyKeyPhoneCall](/API_docs/constructors/inputPrivacyKeyPhoneCall.html)  
-
-[inputPrivacyKeyPhoneP2P](/API_docs/constructors/inputPrivacyKeyPhoneP2P.html)  
-
-[inputPrivacyKeyForwards](/API_docs/constructors/inputPrivacyKeyForwards.html)  
-
-[inputPrivacyKeyProfilePhoto](/API_docs/constructors/inputPrivacyKeyProfilePhoto.html)  
-
-[inputPrivacyKeyPhoneNumber](/API_docs/constructors/inputPrivacyKeyPhoneNumber.html)  
-
-[inputPrivacyKeyAddedByPhone](/API_docs/constructors/inputPrivacyKeyAddedByPhone.html)  
-

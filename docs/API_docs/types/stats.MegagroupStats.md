@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/stats_MegagroupStats.html
 
 
 
-[stats.megagroupStats](/API_docs/constructors/stats.megagroupStats.html)  
-
-[$MadelineProto->stats->getMegagroupStats](/API_docs/methods/stats.getMegagroupStats.html)  
-

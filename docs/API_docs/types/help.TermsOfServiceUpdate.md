@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/help_TermsOfServiceUpdate.html
 
 
 
-[help.termsOfServiceUpdateEmpty](/API_docs/constructors/help.termsOfServiceUpdateEmpty.html)  
-
-[help.termsOfServiceUpdate](/API_docs/constructors/help.termsOfServiceUpdate.html)  
-
-[$MadelineProto->help->getTermsOfServiceUpdate](/API_docs/methods/help.getTermsOfServiceUpdate.html)  
-

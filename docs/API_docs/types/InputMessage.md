@@ -32,11 +32,3 @@ $InputMessage = 142; // Numeric message ID
 
 
 
-[inputMessageID](/API_docs/constructors/inputMessageID.html)  
-
-[inputMessageReplyTo](/API_docs/constructors/inputMessageReplyTo.html)  
-
-[inputMessagePinned](/API_docs/constructors/inputMessagePinned.html)  
-
-[inputMessageCallbackQuery](/API_docs/constructors/inputMessageCallbackQuery.html)  
-

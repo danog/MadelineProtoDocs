@@ -19,5 +19,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[decryptedMessageLayer\_17](/API_docs/constructors/decryptedMessageLayer_17.html)  
-

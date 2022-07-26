@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/help_Support.html
 
 
 
-[help.support](/API_docs/constructors/help.support.html)  
-
-[$MadelineProto->help->getSupport](/API_docs/methods/help.getSupport.html)  
-

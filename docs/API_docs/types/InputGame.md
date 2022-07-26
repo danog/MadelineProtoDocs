@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputGameID](/API_docs/constructors/inputGameID.html)  
-
-[inputGameShortName](/API_docs/constructors/inputGameShortName.html)  
-

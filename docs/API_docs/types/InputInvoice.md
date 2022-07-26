@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputInvoiceMessage](/API_docs/constructors/inputInvoiceMessage.html)  
-
-[inputInvoiceSlug](/API_docs/constructors/inputInvoiceSlug.html)  
-

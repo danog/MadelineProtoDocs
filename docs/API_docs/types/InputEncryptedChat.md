@@ -27,5 +27,3 @@ $InputEncryptedChat = -147286699; // Numeric chat id returned by requestSecretCh
 
 
 
-[inputEncryptedChat](/API_docs/constructors/inputEncryptedChat.html)  
-

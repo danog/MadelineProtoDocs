@@ -33,19 +33,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[topPeerCategoryBotsPM](/API_docs/constructors/topPeerCategoryBotsPM.html)  
-
-[topPeerCategoryBotsInline](/API_docs/constructors/topPeerCategoryBotsInline.html)  
-
-[topPeerCategoryCorrespondents](/API_docs/constructors/topPeerCategoryCorrespondents.html)  
-
-[topPeerCategoryGroups](/API_docs/constructors/topPeerCategoryGroups.html)  
-
-[topPeerCategoryChannels](/API_docs/constructors/topPeerCategoryChannels.html)  
-
-[topPeerCategoryPhoneCalls](/API_docs/constructors/topPeerCategoryPhoneCalls.html)  
-
-[topPeerCategoryForwardUsers](/API_docs/constructors/topPeerCategoryForwardUsers.html)  
-
-[topPeerCategoryForwardChats](/API_docs/constructors/topPeerCategoryForwardChats.html)  
-

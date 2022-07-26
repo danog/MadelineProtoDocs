@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/auth_PasswordRecovery.html
 
 
 
-[auth.passwordRecovery](/API_docs/constructors/auth.passwordRecovery.html)  
-
-[$MadelineProto->auth->requestPasswordRecovery](/API_docs/methods/auth.requestPasswordRecovery.html)  
-

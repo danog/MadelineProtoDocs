@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/upload_File.html
 
 
 
-[upload.file](/API_docs/constructors/upload.file.html)  
-
-[upload.fileCdnRedirect](/API_docs/constructors/upload.fileCdnRedirect.html)  
-
-[$MadelineProto->upload->getFile](/API_docs/methods/upload.getFile.html)  
-

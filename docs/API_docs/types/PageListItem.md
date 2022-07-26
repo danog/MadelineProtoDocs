@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[pageListItemText](/API_docs/constructors/pageListItemText.html)  
-
-[pageListItemBlocks](/API_docs/constructors/pageListItemBlocks.html)  
-

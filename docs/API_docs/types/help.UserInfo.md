@@ -26,11 +26,3 @@ redirect_from: /API_docs/types/help_UserInfo.html
 
 
 
-[help.userInfoEmpty](/API_docs/constructors/help.userInfoEmpty.html)  
-
-[help.userInfo](/API_docs/constructors/help.userInfo.html)  
-
-[$MadelineProto->help->getUserInfo](/API_docs/methods/help.getUserInfo.html)  
-
-[$MadelineProto->help->editUserInfo](/API_docs/methods/help.editUserInfo.html)  
-

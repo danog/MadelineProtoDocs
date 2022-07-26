@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[authorization](/API_docs/constructors/authorization.html)  
-
-[$MadelineProto->auth->acceptLoginToken](/API_docs/methods/auth.acceptLoginToken.html)  
-

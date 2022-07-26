@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/messages_StickerSetInstallResult.html
 
 
 
-[messages.stickerSetInstallResultSuccess](/API_docs/constructors/messages.stickerSetInstallResultSuccess.html)  
-
-[messages.stickerSetInstallResultArchive](/API_docs/constructors/messages.stickerSetInstallResultArchive.html)  
-
-[$MadelineProto->messages->installStickerSet](/API_docs/methods/messages.installStickerSet.html)  
-

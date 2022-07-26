@@ -23,9 +23,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[attachMenuBotsNotModified](/API_docs/constructors/attachMenuBotsNotModified.html)  
-
-[attachMenuBots](/API_docs/constructors/attachMenuBots.html)  
-
-[$MadelineProto->messages->getAttachMenuBots](/API_docs/methods/messages.getAttachMenuBots.html)  
-

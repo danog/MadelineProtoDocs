@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/help_PremiumPromo.html
 
 
 
-[help.premiumPromo](/API_docs/constructors/help.premiumPromo.html)  
-
-[$MadelineProto->help->getPremiumPromo](/API_docs/methods/help.getPremiumPromo.html)  
-

@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/messages_PeerDialogs.html
 
 
 
-[messages.peerDialogs](/API_docs/constructors/messages.peerDialogs.html)  
-
-[$MadelineProto->messages->getPeerDialogs](/API_docs/methods/messages.getPeerDialogs.html)  
-
-[$MadelineProto->messages->getPinnedDialogs](/API_docs/methods/messages.getPinnedDialogs.html)  
-

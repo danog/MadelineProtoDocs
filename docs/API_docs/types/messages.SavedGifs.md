@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/messages_SavedGifs.html
 
 
 
-[messages.savedGifsNotModified](/API_docs/constructors/messages.savedGifsNotModified.html)  
-
-[messages.savedGifs](/API_docs/constructors/messages.savedGifs.html)  
-
-[$MadelineProto->messages->getSavedGifs](/API_docs/methods/messages.getSavedGifs.html)  
-

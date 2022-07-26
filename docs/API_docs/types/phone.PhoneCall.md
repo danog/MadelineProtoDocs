@@ -26,11 +26,3 @@ redirect_from: /API_docs/types/phone_PhoneCall.html
 
 
 
-[phone.phoneCall](/API_docs/constructors/phone.phoneCall.html)  
-
-[$MadelineProto->phone->requestCall](/API_docs/methods/phone.requestCall.html)  
-
-[$MadelineProto->phone->acceptCall](/API_docs/methods/phone.acceptCall.html)  
-
-[$MadelineProto->phone->confirmCall](/API_docs/methods/phone.confirmCall.html)  
-

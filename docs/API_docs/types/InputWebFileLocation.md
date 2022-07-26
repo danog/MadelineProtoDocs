@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputWebFileLocation](/API_docs/constructors/inputWebFileLocation.html)  
-
-[inputWebFileGeoPointLocation](/API_docs/constructors/inputWebFileGeoPointLocation.html)  
-

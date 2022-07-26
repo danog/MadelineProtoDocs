@@ -64,15 +64,3 @@ You can also provide one of the following objects, instead, MadelineProto will h
 
 
 
-[userEmpty](/API_docs/constructors/userEmpty.html)  
-
-[user](/API_docs/constructors/user.html)  
-
-[$MadelineProto->account->updateProfile](/API_docs/methods/account.updateProfile.html)  
-
-[$MadelineProto->account->updateUsername](/API_docs/methods/account.updateUsername.html)  
-
-[$MadelineProto->account->changePhone](/API_docs/methods/account.changePhone.html)  
-
-[$MadelineProto->users->getUsers](/API_docs/methods/users.getUsers.html)  
-

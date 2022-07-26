@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/messages_BotResults.html
 
 
 
-[messages.botResults](/API_docs/constructors/messages.botResults.html)  
-
-[$MadelineProto->messages->getInlineBotResults](/API_docs/methods/messages.getInlineBotResults.html)  
-

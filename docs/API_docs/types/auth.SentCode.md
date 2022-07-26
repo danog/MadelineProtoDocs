@@ -30,15 +30,3 @@ redirect_from: /API_docs/types/auth_SentCode.html
 
 
 
-[auth.sentCode](/API_docs/constructors/auth.sentCode.html)  
-
-[$MadelineProto->auth->sendCode](/API_docs/methods/auth.sendCode.html)  
-
-[$MadelineProto->auth->resendCode](/API_docs/methods/auth.resendCode.html)  
-
-[$MadelineProto->account->sendChangePhoneCode](/API_docs/methods/account.sendChangePhoneCode.html)  
-
-[$MadelineProto->account->sendConfirmPhoneCode](/API_docs/methods/account.sendConfirmPhoneCode.html)  
-
-[$MadelineProto->account->sendVerifyPhoneCode](/API_docs/methods/account.sendVerifyPhoneCode.html)  
-

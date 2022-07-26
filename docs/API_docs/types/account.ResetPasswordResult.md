@@ -26,11 +26,3 @@ redirect_from: /API_docs/types/account_ResetPasswordResult.html
 
 
 
-[account.resetPasswordFailedWait](/API_docs/constructors/account.resetPasswordFailedWait.html)  
-
-[account.resetPasswordRequestedWait](/API_docs/constructors/account.resetPasswordRequestedWait.html)  
-
-[account.resetPasswordOk](/API_docs/constructors/account.resetPasswordOk.html)  
-
-[$MadelineProto->account->resetPassword](/API_docs/methods/account.resetPassword.html)  
-

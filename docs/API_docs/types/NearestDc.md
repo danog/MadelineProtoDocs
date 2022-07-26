@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[nearestDc](/API_docs/constructors/nearestDc.html)  
-
-[$MadelineProto->help->getNearestDc](/API_docs/methods/help.getNearestDc.html)  
-

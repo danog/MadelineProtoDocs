@@ -56,7 +56,3 @@ You can also provide one of the following objects, instead, MadelineProto will h
 
 
 
-[inputDialogPeer](/API_docs/constructors/inputDialogPeer.html)  
-
-[inputDialogPeerFolder](/API_docs/constructors/inputDialogPeerFolder.html)  
-

@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/phone_GroupCall.html
 
 
 
-[phone.groupCall](/API_docs/constructors/phone.groupCall.html)  
-
-[$MadelineProto->phone->getGroupCall](/API_docs/methods/phone.getGroupCall.html)  
-

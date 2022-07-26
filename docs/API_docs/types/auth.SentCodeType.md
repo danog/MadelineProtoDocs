@@ -28,13 +28,3 @@ redirect_from: /API_docs/types/auth_SentCodeType.html
 
 
 
-[auth.sentCodeTypeApp](/API_docs/constructors/auth.sentCodeTypeApp.html)  
-
-[auth.sentCodeTypeSms](/API_docs/constructors/auth.sentCodeTypeSms.html)  
-
-[auth.sentCodeTypeCall](/API_docs/constructors/auth.sentCodeTypeCall.html)  
-
-[auth.sentCodeTypeFlashCall](/API_docs/constructors/auth.sentCodeTypeFlashCall.html)  
-
-[auth.sentCodeTypeMissedCall](/API_docs/constructors/auth.sentCodeTypeMissedCall.html)  
-

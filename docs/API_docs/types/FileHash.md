@@ -25,11 +25,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[fileHash](/API_docs/constructors/fileHash.html)  
-
-[$MadelineProto->upload->reuploadCdnFile](/API_docs/methods/upload.reuploadCdnFile.html)  
-
-[$MadelineProto->upload->getCdnFileHashes](/API_docs/methods/upload.getCdnFileHashes.html)  
-
-[$MadelineProto->upload->getFileHashes](/API_docs/methods/upload.getFileHashes.html)  
-

@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/help_PromoData.html
 
 
 
-[help.promoDataEmpty](/API_docs/constructors/help.promoDataEmpty.html)  
-
-[help.promoData](/API_docs/constructors/help.promoData.html)  
-
-[$MadelineProto->help->getPromoData](/API_docs/methods/help.getPromoData.html)  
-

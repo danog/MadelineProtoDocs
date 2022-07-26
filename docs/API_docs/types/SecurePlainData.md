@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[securePlainPhone](/API_docs/constructors/securePlainPhone.html)  
-
-[securePlainEmail](/API_docs/constructors/securePlainEmail.html)  
-

@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[emojiURL](/API_docs/constructors/emojiURL.html)  
-
-[$MadelineProto->messages->getEmojiURL](/API_docs/methods/messages.getEmojiURL.html)  
-

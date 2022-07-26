@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/messages_Stickers.html
 
 
 
-[messages.stickersNotModified](/API_docs/constructors/messages.stickersNotModified.html)  
-
-[messages.stickers](/API_docs/constructors/messages.stickers.html)  
-
-[$MadelineProto->messages->getStickers](/API_docs/methods/messages.getStickers.html)  
-

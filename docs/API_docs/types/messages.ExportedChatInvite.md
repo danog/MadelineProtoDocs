@@ -26,11 +26,3 @@ redirect_from: /API_docs/types/messages_ExportedChatInvite.html
 
 
 
-[messages.exportedChatInvite](/API_docs/constructors/messages.exportedChatInvite.html)  
-
-[messages.exportedChatInviteReplaced](/API_docs/constructors/messages.exportedChatInviteReplaced.html)  
-
-[$MadelineProto->messages->getExportedChatInvite](/API_docs/methods/messages.getExportedChatInvite.html)  
-
-[$MadelineProto->messages->editExportedChatInvite](/API_docs/methods/messages.editExportedChatInvite.html)  
-

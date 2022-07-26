@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[webViewMessageSent](/API_docs/constructors/webViewMessageSent.html)  
-
-[$MadelineProto->messages->sendWebViewResultMessage](/API_docs/methods/messages.sendWebViewResultMessage.html)  
-

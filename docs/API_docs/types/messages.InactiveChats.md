@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/messages_InactiveChats.html
 
 
 
-[messages.inactiveChats](/API_docs/constructors/messages.inactiveChats.html)  
-
-[$MadelineProto->channels->getInactiveChannels](/API_docs/methods/channels.getInactiveChannels.html)  
-

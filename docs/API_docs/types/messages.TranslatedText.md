@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/messages_TranslatedText.html
 
 
 
-[messages.translateNoResult](/API_docs/constructors/messages.translateNoResult.html)  
-
-[messages.translateResultText](/API_docs/constructors/messages.translateResultText.html)  
-
-[$MadelineProto->messages->translateText](/API_docs/methods/messages.translateText.html)  
-

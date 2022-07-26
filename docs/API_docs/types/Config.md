@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[config](/API_docs/constructors/config.html)  
-
-[$MadelineProto->help->getConfig](/API_docs/methods/help.getConfig.html)  
-

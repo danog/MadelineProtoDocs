@@ -25,11 +25,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[theme](/API_docs/constructors/theme.html)  
-
-[$MadelineProto->account->createTheme](/API_docs/methods/account.createTheme.html)  
-
-[$MadelineProto->account->updateTheme](/API_docs/methods/account.updateTheme.html)  
-
-[$MadelineProto->account->getTheme](/API_docs/methods/account.getTheme.html)  
-

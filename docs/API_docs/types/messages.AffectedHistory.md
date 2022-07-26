@@ -30,15 +30,3 @@ redirect_from: /API_docs/types/messages_AffectedHistory.html
 
 
 
-[messages.affectedHistory](/API_docs/constructors/messages.affectedHistory.html)  
-
-[$MadelineProto->messages->deleteHistory](/API_docs/methods/messages.deleteHistory.html)  
-
-[$MadelineProto->messages->readMentions](/API_docs/methods/messages.readMentions.html)  
-
-[$MadelineProto->messages->unpinAllMessages](/API_docs/methods/messages.unpinAllMessages.html)  
-
-[$MadelineProto->messages->readReactions](/API_docs/methods/messages.readReactions.html)  
-
-[$MadelineProto->channels->deleteParticipantHistory](/API_docs/methods/channels.deleteParticipantHistory.html)  
-

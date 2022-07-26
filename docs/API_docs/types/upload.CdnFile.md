@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/upload_CdnFile.html
 
 
 
-[upload.cdnFileReuploadNeeded](/API_docs/constructors/upload.cdnFileReuploadNeeded.html)  
-
-[upload.cdnFile](/API_docs/constructors/upload.cdnFile.html)  
-
-[$MadelineProto->upload->getCdnFile](/API_docs/methods/upload.getCdnFile.html)  
-

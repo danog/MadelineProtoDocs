@@ -20,5 +20,3 @@ redirect_from: /API_docs/types/account_PasswordInputSettings.html
 
 
 
-[account.passwordInputSettings](/API_docs/constructors/account.passwordInputSettings.html)  
-

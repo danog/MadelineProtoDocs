@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/contacts_ImportedContacts.html
 
 
 
-[contacts.importedContacts](/API_docs/constructors/contacts.importedContacts.html)  
-
-[$MadelineProto->contacts->importContacts](/API_docs/methods/contacts.importContacts.html)  
-

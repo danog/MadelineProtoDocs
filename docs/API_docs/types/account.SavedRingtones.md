@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/account_SavedRingtones.html
 
 
 
-[account.savedRingtonesNotModified](/API_docs/constructors/account.savedRingtonesNotModified.html)  
-
-[account.savedRingtones](/API_docs/constructors/account.savedRingtones.html)  
-
-[$MadelineProto->account->getSavedRingtones](/API_docs/methods/account.getSavedRingtones.html)  
-

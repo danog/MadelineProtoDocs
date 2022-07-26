@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/help_DeepLinkInfo.html
 
 
 
-[help.deepLinkInfoEmpty](/API_docs/constructors/help.deepLinkInfoEmpty.html)  
-
-[help.deepLinkInfo](/API_docs/constructors/help.deepLinkInfo.html)  
-
-[$MadelineProto->help->getDeepLinkInfo](/API_docs/methods/help.getDeepLinkInfo.html)  
-

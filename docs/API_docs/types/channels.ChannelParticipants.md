@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/channels_ChannelParticipants.html
 
 
 
-[channels.channelParticipants](/API_docs/constructors/channels.channelParticipants.html)  
-
-[channels.channelParticipantsNotModified](/API_docs/constructors/channels.channelParticipantsNotModified.html)  
-
-[$MadelineProto->channels->getParticipants](/API_docs/methods/channels.getParticipants.html)  
-

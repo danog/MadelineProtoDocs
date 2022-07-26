@@ -31,17 +31,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[$MadelineProto->invokeAfterMsg](/API_docs/methods/invokeAfterMsg.html)  
-
-[$MadelineProto->invokeAfterMsgs](/API_docs/methods/invokeAfterMsgs.html)  
-
-[$MadelineProto->initConnection](/API_docs/methods/initConnection.html)  
-
-[$MadelineProto->invokeWithLayer](/API_docs/methods/invokeWithLayer.html)  
-
-[$MadelineProto->invokeWithoutUpdates](/API_docs/methods/invokeWithoutUpdates.html)  
-
-[$MadelineProto->invokeWithMessagesRange](/API_docs/methods/invokeWithMessagesRange.html)  
-
-[$MadelineProto->invokeWithTakeout](/API_docs/methods/invokeWithTakeout.html)  
-

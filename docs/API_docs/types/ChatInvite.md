@@ -25,11 +25,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[chatInviteAlready](/API_docs/constructors/chatInviteAlready.html)  
-
-[chatInvite](/API_docs/constructors/chatInvite.html)  
-
-[chatInvitePeek](/API_docs/constructors/chatInvitePeek.html)  
-
-[$MadelineProto->messages->checkChatInvite](/API_docs/methods/messages.checkChatInvite.html)  
-

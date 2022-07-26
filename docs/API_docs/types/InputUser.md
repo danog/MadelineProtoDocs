@@ -60,11 +60,3 @@ You can also provide one of the following objects, instead, MadelineProto will h
 
 
 
-[inputUserEmpty](/API_docs/constructors/inputUserEmpty.html)  
-
-[inputUserSelf](/API_docs/constructors/inputUserSelf.html)  
-
-[inputUser](/API_docs/constructors/inputUser.html)  
-
-[inputUserFromMessage](/API_docs/constructors/inputUserFromMessage.html)  
-

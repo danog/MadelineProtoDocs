@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/help_AppUpdate.html
 
 
 
-[help.appUpdate](/API_docs/constructors/help.appUpdate.html)  
-
-[help.noAppUpdate](/API_docs/constructors/help.noAppUpdate.html)  
-
-[$MadelineProto->help->getAppUpdate](/API_docs/methods/help.getAppUpdate.html)  
-

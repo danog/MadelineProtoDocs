@@ -19,5 +19,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[cdnPublicKey](/API_docs/constructors/cdnPublicKey.html)  
-

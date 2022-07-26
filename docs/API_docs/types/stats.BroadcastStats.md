@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/stats_BroadcastStats.html
 
 
 
-[stats.broadcastStats](/API_docs/constructors/stats.broadcastStats.html)  
-
-[$MadelineProto->stats->getBroadcastStats](/API_docs/methods/stats.getBroadcastStats.html)  
-

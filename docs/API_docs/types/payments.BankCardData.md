@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/payments_BankCardData.html
 
 
 
-[payments.bankCardData](/API_docs/constructors/payments.bankCardData.html)  
-
-[$MadelineProto->payments->getBankCardData](/API_docs/methods/payments.getBankCardData.html)  
-

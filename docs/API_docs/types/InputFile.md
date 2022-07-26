@@ -29,7 +29,3 @@ You can also use async streams, HTTP response objects, and [much more](https://d
 
 
 
-[inputFile](/API_docs/constructors/inputFile.html)  
-
-[inputFileBig](/API_docs/constructors/inputFileBig.html)  
-

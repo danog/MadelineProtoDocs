@@ -204,15 +204,3 @@ After modifying it, you must always parse the new configuration with a call to `
 
 
 
-[phoneCallEmpty](/API_docs/constructors/phoneCallEmpty.html)  
-
-[phoneCallWaiting](/API_docs/constructors/phoneCallWaiting.html)  
-
-[phoneCallRequested](/API_docs/constructors/phoneCallRequested.html)  
-
-[phoneCallAccepted](/API_docs/constructors/phoneCallAccepted.html)  
-
-[phoneCall](/API_docs/constructors/phoneCall.html)  
-
-[phoneCallDiscarded](/API_docs/constructors/phoneCallDiscarded.html)  
-

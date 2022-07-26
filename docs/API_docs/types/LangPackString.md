@@ -25,11 +25,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[langPackString](/API_docs/constructors/langPackString.html)  
-
-[langPackStringPluralized](/API_docs/constructors/langPackStringPluralized.html)  
-
-[langPackStringDeleted](/API_docs/constructors/langPackStringDeleted.html)  
-
-[$MadelineProto->langpack->getStrings](/API_docs/methods/langpack.getStrings.html)  
-

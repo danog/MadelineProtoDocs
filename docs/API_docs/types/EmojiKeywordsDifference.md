@@ -23,9 +23,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[emojiKeywordsDifference](/API_docs/constructors/emojiKeywordsDifference.html)  
-
-[$MadelineProto->messages->getEmojiKeywords](/API_docs/methods/messages.getEmojiKeywords.html)  
-
-[$MadelineProto->messages->getEmojiKeywordsDifference](/API_docs/methods/messages.getEmojiKeywordsDifference.html)  
-

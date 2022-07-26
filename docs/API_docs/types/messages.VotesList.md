@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/messages_VotesList.html
 
 
 
-[messages.votesList](/API_docs/constructors/messages.votesList.html)  
-
-[$MadelineProto->messages->getPollVotes](/API_docs/methods/messages.getPollVotes.html)  
-

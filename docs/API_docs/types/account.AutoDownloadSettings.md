@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/account_AutoDownloadSettings.html
 
 
 
-[account.autoDownloadSettings](/API_docs/constructors/account.autoDownloadSettings.html)  
-
-[$MadelineProto->account->getAutoDownloadSettings](/API_docs/methods/account.getAutoDownloadSettings.html)  
-

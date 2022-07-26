@@ -28,13 +28,3 @@ redirect_from: /API_docs/types/messages_SentEncryptedMessage.html
 
 
 
-[messages.sentEncryptedMessage](/API_docs/constructors/messages.sentEncryptedMessage.html)  
-
-[messages.sentEncryptedFile](/API_docs/constructors/messages.sentEncryptedFile.html)  
-
-[$MadelineProto->messages->sendEncrypted](/API_docs/methods/messages.sendEncrypted.html)  
-
-[$MadelineProto->messages->sendEncryptedFile](/API_docs/methods/messages.sendEncryptedFile.html)  
-
-[$MadelineProto->messages->sendEncryptedService](/API_docs/methods/messages.sendEncryptedService.html)  
-

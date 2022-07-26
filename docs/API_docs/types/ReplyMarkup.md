@@ -31,11 +31,3 @@ For simplicity, you can also provide a bot API markup object, one of:
 
 
 
-[replyKeyboardHide](/API_docs/constructors/replyKeyboardHide.html)  
-
-[replyKeyboardForceReply](/API_docs/constructors/replyKeyboardForceReply.html)  
-
-[replyKeyboardMarkup](/API_docs/constructors/replyKeyboardMarkup.html)  
-
-[replyInlineMarkup](/API_docs/constructors/replyInlineMarkup.html)  
-

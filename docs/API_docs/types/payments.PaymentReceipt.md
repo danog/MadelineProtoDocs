@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/payments_PaymentReceipt.html
 
 
 
-[payments.paymentReceipt](/API_docs/constructors/payments.paymentReceipt.html)  
-
-[$MadelineProto->payments->getPaymentReceipt](/API_docs/methods/payments.getPaymentReceipt.html)  
-

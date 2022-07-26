@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/stickers_SuggestedShortName.html
 
 
 
-[stickers.suggestedShortName](/API_docs/constructors/stickers.suggestedShortName.html)  
-
-[$MadelineProto->stickers->suggestShortName](/API_docs/methods/stickers.suggestShortName.html)  
-

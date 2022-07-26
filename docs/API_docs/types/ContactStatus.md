@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[contactStatus](/API_docs/constructors/contactStatus.html)  
-
-[$MadelineProto->contacts->getStatuses](/API_docs/methods/contacts.getStatuses.html)  
-

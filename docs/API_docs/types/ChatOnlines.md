@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[chatOnlines](/API_docs/constructors/chatOnlines.html)  
-
-[$MadelineProto->messages->getOnlines](/API_docs/methods/messages.getOnlines.html)  
-

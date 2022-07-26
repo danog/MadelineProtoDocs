@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/contacts_Blocked.html
 
 
 
-[contacts.blocked](/API_docs/constructors/contacts.blocked.html)  
-
-[contacts.blockedSlice](/API_docs/constructors/contacts.blockedSlice.html)  
-
-[$MadelineProto->contacts->getBlocked](/API_docs/methods/contacts.getBlocked.html)  
-

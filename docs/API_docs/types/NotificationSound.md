@@ -25,11 +25,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[notificationSoundDefault](/API_docs/constructors/notificationSoundDefault.html)  
-
-[notificationSoundNone](/API_docs/constructors/notificationSoundNone.html)  
-
-[notificationSoundLocal](/API_docs/constructors/notificationSoundLocal.html)  
-
-[notificationSoundRingtone](/API_docs/constructors/notificationSoundRingtone.html)  
-

@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/messages_CheckedHistoryImportPeer.html
 
 
 
-[messages.checkedHistoryImportPeer](/API_docs/constructors/messages.checkedHistoryImportPeer.html)  
-
-[$MadelineProto->messages->checkHistoryImportPeer](/API_docs/methods/messages.checkHistoryImportPeer.html)  
-

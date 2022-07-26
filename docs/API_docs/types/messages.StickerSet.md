@@ -34,19 +34,3 @@ redirect_from: /API_docs/types/messages_StickerSet.html
 
 
 
-[messages.stickerSet](/API_docs/constructors/messages.stickerSet.html)  
-
-[messages.stickerSetNotModified](/API_docs/constructors/messages.stickerSetNotModified.html)  
-
-[$MadelineProto->messages->getStickerSet](/API_docs/methods/messages.getStickerSet.html)  
-
-[$MadelineProto->stickers->createStickerSet](/API_docs/methods/stickers.createStickerSet.html)  
-
-[$MadelineProto->stickers->removeStickerFromSet](/API_docs/methods/stickers.removeStickerFromSet.html)  
-
-[$MadelineProto->stickers->changeStickerPosition](/API_docs/methods/stickers.changeStickerPosition.html)  
-
-[$MadelineProto->stickers->addStickerToSet](/API_docs/methods/stickers.addStickerToSet.html)  
-
-[$MadelineProto->stickers->setStickerSetThumb](/API_docs/methods/stickers.setStickerSetThumb.html)  
-

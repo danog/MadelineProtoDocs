@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/messages_DhConfig.html
 
 
 
-[messages.dhConfigNotModified](/API_docs/constructors/messages.dhConfigNotModified.html)  
-
-[messages.dhConfig](/API_docs/constructors/messages.dhConfig.html)  
-
-[$MadelineProto->messages->getDhConfig](/API_docs/methods/messages.getDhConfig.html)  
-

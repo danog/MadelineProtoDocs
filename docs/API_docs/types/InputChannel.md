@@ -58,9 +58,3 @@ You can also provide one of the following objects, instead, MadelineProto will h
 
 
 
-[inputChannelEmpty](/API_docs/constructors/inputChannelEmpty.html)  
-
-[inputChannel](/API_docs/constructors/inputChannel.html)  
-
-[inputChannelFromMessage](/API_docs/constructors/inputChannelFromMessage.html)  
-

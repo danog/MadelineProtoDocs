@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[phoneConnection](/API_docs/constructors/phoneConnection.html)  
-
-[phoneConnectionWebrtc](/API_docs/constructors/phoneConnectionWebrtc.html)  
-

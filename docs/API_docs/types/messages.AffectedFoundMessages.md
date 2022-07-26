@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/messages_AffectedFoundMessages.html
 
 
 
-[messages.affectedFoundMessages](/API_docs/constructors/messages.affectedFoundMessages.html)  
-
-[$MadelineProto->messages->deletePhoneCallHistory](/API_docs/methods/messages.deletePhoneCallHistory.html)  
-

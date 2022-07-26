@@ -22,7 +22,3 @@ You can also provide a [MessageMedia](MessageMedia.html), [Message](Message.html
 
 
 
-[inputPhotoEmpty](/API_docs/constructors/inputPhotoEmpty.html)  
-
-[inputPhoto](/API_docs/constructors/inputPhoto.html)  
-

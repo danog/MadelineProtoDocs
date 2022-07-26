@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/account_WebAuthorizations.html
 
 
 
-[account.webAuthorizations](/API_docs/constructors/account.webAuthorizations.html)  
-
-[$MadelineProto->account->getWebAuthorizations](/API_docs/methods/account.getWebAuthorizations.html)  
-

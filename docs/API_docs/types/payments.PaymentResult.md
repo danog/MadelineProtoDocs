@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/payments_PaymentResult.html
 
 
 
-[payments.paymentResult](/API_docs/constructors/payments.paymentResult.html)  
-
-[payments.paymentVerificationNeeded](/API_docs/constructors/payments.paymentVerificationNeeded.html)  
-
-[$MadelineProto->payments->sendPaymentForm](/API_docs/methods/payments.sendPaymentForm.html)  
-

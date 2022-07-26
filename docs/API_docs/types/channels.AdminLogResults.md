@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/channels_AdminLogResults.html
 
 
 
-[channels.adminLogResults](/API_docs/constructors/channels.adminLogResults.html)  
-
-[$MadelineProto->channels->getAdminLog](/API_docs/methods/channels.getAdminLog.html)  
-

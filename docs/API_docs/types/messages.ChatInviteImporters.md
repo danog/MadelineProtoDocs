@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/messages_ChatInviteImporters.html
 
 
 
-[messages.chatInviteImporters](/API_docs/constructors/messages.chatInviteImporters.html)  
-
-[$MadelineProto->messages->getChatInviteImporters](/API_docs/methods/messages.getChatInviteImporters.html)  
-

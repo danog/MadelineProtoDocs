@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/payments_PaymentForm.html
 
 
 
-[payments.paymentForm](/API_docs/constructors/payments.paymentForm.html)  
-
-[$MadelineProto->payments->getPaymentForm](/API_docs/methods/payments.getPaymentForm.html)  
-

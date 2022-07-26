@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/messages_FoundStickerSets.html
 
 
 
-[messages.foundStickerSetsNotModified](/API_docs/constructors/messages.foundStickerSetsNotModified.html)  
-
-[messages.foundStickerSets](/API_docs/constructors/messages.foundStickerSets.html)  
-
-[$MadelineProto->messages->searchStickerSets](/API_docs/methods/messages.searchStickerSets.html)  
-

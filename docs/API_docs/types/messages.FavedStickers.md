@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/messages_FavedStickers.html
 
 
 
-[messages.favedStickersNotModified](/API_docs/constructors/messages.favedStickersNotModified.html)  
-
-[messages.favedStickers](/API_docs/constructors/messages.favedStickers.html)  
-
-[$MadelineProto->messages->getFavedStickers](/API_docs/methods/messages.getFavedStickers.html)  
-

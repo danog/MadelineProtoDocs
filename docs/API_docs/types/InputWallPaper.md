@@ -23,9 +23,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputWallPaper](/API_docs/constructors/inputWallPaper.html)  
-
-[inputWallPaperSlug](/API_docs/constructors/inputWallPaperSlug.html)  
-
-[inputWallPaperNoFile](/API_docs/constructors/inputWallPaperNoFile.html)  
-

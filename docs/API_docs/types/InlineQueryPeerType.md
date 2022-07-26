@@ -27,13 +27,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inlineQueryPeerTypeSameBotPM](/API_docs/constructors/inlineQueryPeerTypeSameBotPM.html)  
-
-[inlineQueryPeerTypePM](/API_docs/constructors/inlineQueryPeerTypePM.html)  
-
-[inlineQueryPeerTypeChat](/API_docs/constructors/inlineQueryPeerTypeChat.html)  
-
-[inlineQueryPeerTypeMegagroup](/API_docs/constructors/inlineQueryPeerTypeMegagroup.html)  
-
-[inlineQueryPeerTypeBroadcast](/API_docs/constructors/inlineQueryPeerTypeBroadcast.html)  
-

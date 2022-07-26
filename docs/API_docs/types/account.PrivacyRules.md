@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/account_PrivacyRules.html
 
 
 
-[account.privacyRules](/API_docs/constructors/account.privacyRules.html)  
-
-[$MadelineProto->account->getPrivacy](/API_docs/methods/account.getPrivacy.html)  
-
-[$MadelineProto->account->setPrivacy](/API_docs/methods/account.setPrivacy.html)  
-

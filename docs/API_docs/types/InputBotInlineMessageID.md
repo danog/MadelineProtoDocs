@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputBotInlineMessageID](/API_docs/constructors/inputBotInlineMessageID.html)  
-
-[inputBotInlineMessageID64](/API_docs/constructors/inputBotInlineMessageID64.html)  
-

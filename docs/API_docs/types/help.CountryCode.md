@@ -20,5 +20,3 @@ redirect_from: /API_docs/types/help_CountryCode.html
 
 
 
-[help.countryCode](/API_docs/constructors/help.countryCode.html)  
-

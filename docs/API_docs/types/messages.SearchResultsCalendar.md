@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/messages_SearchResultsCalendar.html
 
 
 
-[messages.searchResultsCalendar](/API_docs/constructors/messages.searchResultsCalendar.html)  
-
-[$MadelineProto->messages->getSearchResultsCalendar](/API_docs/methods/messages.getSearchResultsCalendar.html)  
-

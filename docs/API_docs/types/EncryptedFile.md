@@ -23,9 +23,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[encryptedFileEmpty](/API_docs/constructors/encryptedFileEmpty.html)  
-
-[encryptedFile](/API_docs/constructors/encryptedFile.html)  
-
-[$MadelineProto->messages->uploadEncryptedFile](/API_docs/methods/messages.uploadEncryptedFile.html)  
-

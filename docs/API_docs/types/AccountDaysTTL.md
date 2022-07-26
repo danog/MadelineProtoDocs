@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[accountDaysTTL](/API_docs/constructors/accountDaysTTL.html)  
-
-[$MadelineProto->account->getAccountTTL](/API_docs/methods/account.getAccountTTL.html)  
-

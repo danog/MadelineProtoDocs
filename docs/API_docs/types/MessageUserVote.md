@@ -23,9 +23,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[messageUserVote](/API_docs/constructors/messageUserVote.html)  
-
-[messageUserVoteInputOption](/API_docs/constructors/messageUserVoteInputOption.html)  
-
-[messageUserVoteMultiple](/API_docs/constructors/messageUserVoteMultiple.html)  
-

@@ -33,11 +33,3 @@ You can also use async streams, HTTP response objects, and [much more](https://d
 
 
 
-[inputEncryptedFileEmpty](/API_docs/constructors/inputEncryptedFileEmpty.html)  
-
-[inputEncryptedFileUploaded](/API_docs/constructors/inputEncryptedFileUploaded.html)  
-
-[inputEncryptedFile](/API_docs/constructors/inputEncryptedFile.html)  
-
-[inputEncryptedFileBigUploaded](/API_docs/constructors/inputEncryptedFileBigUploaded.html)  
-

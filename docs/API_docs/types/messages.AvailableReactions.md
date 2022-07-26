@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/messages_AvailableReactions.html
 
 
 
-[messages.availableReactionsNotModified](/API_docs/constructors/messages.availableReactionsNotModified.html)  
-
-[messages.availableReactions](/API_docs/constructors/messages.availableReactions.html)  
-
-[$MadelineProto->messages->getAvailableReactions](/API_docs/methods/messages.getAvailableReactions.html)  
-

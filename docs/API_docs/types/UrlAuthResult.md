@@ -27,13 +27,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[urlAuthResultRequest](/API_docs/constructors/urlAuthResultRequest.html)  
-
-[urlAuthResultAccepted](/API_docs/constructors/urlAuthResultAccepted.html)  
-
-[urlAuthResultDefault](/API_docs/constructors/urlAuthResultDefault.html)  
-
-[$MadelineProto->messages->requestUrlAuth](/API_docs/methods/messages.requestUrlAuth.html)  
-
-[$MadelineProto->messages->acceptUrlAuth](/API_docs/methods/messages.acceptUrlAuth.html)  
-

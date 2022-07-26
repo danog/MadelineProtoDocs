@@ -27,13 +27,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[baseThemeClassic](/API_docs/constructors/baseThemeClassic.html)  
-
-[baseThemeDay](/API_docs/constructors/baseThemeDay.html)  
-
-[baseThemeNight](/API_docs/constructors/baseThemeNight.html)  
-
-[baseThemeTinted](/API_docs/constructors/baseThemeTinted.html)  
-
-[baseThemeArctic](/API_docs/constructors/baseThemeArctic.html)  
-

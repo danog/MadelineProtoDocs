@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/auth_LoggedOut.html
 
 
 
-[auth.loggedOut](/API_docs/constructors/auth.loggedOut.html)  
-
-[$MadelineProto->auth->logOut](/API_docs/methods/auth.logOut.html)  
-

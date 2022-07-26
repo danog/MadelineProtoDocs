@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/messages_SearchResultsPositions.html
 
 
 
-[messages.searchResultsPositions](/API_docs/constructors/messages.searchResultsPositions.html)  
-
-[$MadelineProto->messages->getSearchResultsPositions](/API_docs/methods/messages.getSearchResultsPositions.html)  
-

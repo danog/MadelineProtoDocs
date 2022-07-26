@@ -58,9 +58,3 @@ You can also provide one of the following objects, instead, MadelineProto will h
 
 
 
-[peerUser](/API_docs/constructors/peerUser.html)  
-
-[peerChat](/API_docs/constructors/peerChat.html)  
-
-[peerChannel](/API_docs/constructors/peerChannel.html)  
-

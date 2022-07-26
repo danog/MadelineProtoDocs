@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[receivedNotifyMessage](/API_docs/constructors/receivedNotifyMessage.html)  
-
-[$MadelineProto->messages->receivedMessages](/API_docs/methods/messages.receivedMessages.html)  
-

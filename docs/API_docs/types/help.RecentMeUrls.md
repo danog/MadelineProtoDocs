@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/help_RecentMeUrls.html
 
 
 
-[help.recentMeUrls](/API_docs/constructors/help.recentMeUrls.html)  
-
-[$MadelineProto->help->getRecentMeUrls](/API_docs/methods/help.getRecentMeUrls.html)  
-

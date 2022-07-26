@@ -25,11 +25,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputPaymentCredentialsSaved](/API_docs/constructors/inputPaymentCredentialsSaved.html)  
-
-[inputPaymentCredentials](/API_docs/constructors/inputPaymentCredentials.html)  
-
-[inputPaymentCredentialsApplePay](/API_docs/constructors/inputPaymentCredentialsApplePay.html)  
-
-[inputPaymentCredentialsGooglePay](/API_docs/constructors/inputPaymentCredentialsGooglePay.html)  
-

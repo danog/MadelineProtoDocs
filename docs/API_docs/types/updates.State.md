@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/updates_State.html
 
 
 
-[updates.state](/API_docs/constructors/updates.state.html)  
-
-[$MadelineProto->updates->getState](/API_docs/methods/updates.getState.html)  
-

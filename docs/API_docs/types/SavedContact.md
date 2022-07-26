@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[savedPhoneContact](/API_docs/constructors/savedPhoneContact.html)  
-
-[$MadelineProto->contacts->getSaved](/API_docs/methods/contacts.getSaved.html)  
-

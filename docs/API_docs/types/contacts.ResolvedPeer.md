@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/contacts_ResolvedPeer.html
 
 
 
-[contacts.resolvedPeer](/API_docs/constructors/contacts.resolvedPeer.html)  
-
-[$MadelineProto->contacts->resolveUsername](/API_docs/methods/contacts.resolveUsername.html)  
-
-[$MadelineProto->contacts->resolvePhone](/API_docs/methods/contacts.resolvePhone.html)  
-

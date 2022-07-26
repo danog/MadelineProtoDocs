@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/messages_HighScores.html
 
 
 
-[messages.highScores](/API_docs/constructors/messages.highScores.html)  
-
-[$MadelineProto->messages->getGameHighScores](/API_docs/methods/messages.getGameHighScores.html)  
-
-[$MadelineProto->messages->getInlineGameHighScores](/API_docs/methods/messages.getInlineGameHighScores.html)  
-

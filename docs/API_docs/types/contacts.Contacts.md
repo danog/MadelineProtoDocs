@@ -24,9 +24,3 @@ redirect_from: /API_docs/types/contacts_Contacts.html
 
 
 
-[contacts.contactsNotModified](/API_docs/constructors/contacts.contactsNotModified.html)  
-
-[contacts.contacts](/API_docs/constructors/contacts.contacts.html)  
-
-[$MadelineProto->contacts->getContacts](/API_docs/methods/contacts.getContacts.html)  
-

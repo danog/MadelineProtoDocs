@@ -43,29 +43,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[secureValueTypePersonalDetails](/API_docs/constructors/secureValueTypePersonalDetails.html)  
-
-[secureValueTypePassport](/API_docs/constructors/secureValueTypePassport.html)  
-
-[secureValueTypeDriverLicense](/API_docs/constructors/secureValueTypeDriverLicense.html)  
-
-[secureValueTypeIdentityCard](/API_docs/constructors/secureValueTypeIdentityCard.html)  
-
-[secureValueTypeInternalPassport](/API_docs/constructors/secureValueTypeInternalPassport.html)  
-
-[secureValueTypeAddress](/API_docs/constructors/secureValueTypeAddress.html)  
-
-[secureValueTypeUtilityBill](/API_docs/constructors/secureValueTypeUtilityBill.html)  
-
-[secureValueTypeBankStatement](/API_docs/constructors/secureValueTypeBankStatement.html)  
-
-[secureValueTypeRentalAgreement](/API_docs/constructors/secureValueTypeRentalAgreement.html)  
-
-[secureValueTypePassportRegistration](/API_docs/constructors/secureValueTypePassportRegistration.html)  
-
-[secureValueTypeTemporaryRegistration](/API_docs/constructors/secureValueTypeTemporaryRegistration.html)  
-
-[secureValueTypePhone](/API_docs/constructors/secureValueTypePhone.html)  
-
-[secureValueTypeEmail](/API_docs/constructors/secureValueTypeEmail.html)  
-

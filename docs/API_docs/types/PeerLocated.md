@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[peerLocated](/API_docs/constructors/peerLocated.html)  
-
-[peerSelfLocated](/API_docs/constructors/peerSelfLocated.html)  
-

@@ -29,15 +29,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputStickerSetEmpty](/API_docs/constructors/inputStickerSetEmpty.html)  
-
-[inputStickerSetID](/API_docs/constructors/inputStickerSetID.html)  
-
-[inputStickerSetShortName](/API_docs/constructors/inputStickerSetShortName.html)  
-
-[inputStickerSetAnimatedEmoji](/API_docs/constructors/inputStickerSetAnimatedEmoji.html)  
-
-[inputStickerSetDice](/API_docs/constructors/inputStickerSetDice.html)  
-
-[inputStickerSetAnimatedEmojiAnimations](/API_docs/constructors/inputStickerSetAnimatedEmojiAnimations.html)  
-

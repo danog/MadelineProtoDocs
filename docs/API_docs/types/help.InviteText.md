@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/help_InviteText.html
 
 
 
-[help.inviteText](/API_docs/constructors/help.inviteText.html)  
-
-[$MadelineProto->help->getInviteText](/API_docs/methods/help.getInviteText.html)  
-

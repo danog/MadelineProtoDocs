@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/messages_MessageReactionsList.html
 
 
 
-[messages.messageReactionsList](/API_docs/constructors/messages.messageReactionsList.html)  
-
-[$MadelineProto->messages->getMessageReactionsList](/API_docs/methods/messages.getMessageReactionsList.html)  
-

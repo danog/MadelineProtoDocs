@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[encryptedMessage](/API_docs/constructors/encryptedMessage.html)  
-
-[encryptedMessageService](/API_docs/constructors/encryptedMessageService.html)  
-

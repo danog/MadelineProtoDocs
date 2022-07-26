@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[channelLocationEmpty](/API_docs/constructors/channelLocationEmpty.html)  
-
-[channelLocation](/API_docs/constructors/channelLocation.html)  
-

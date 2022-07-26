@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/channels_SendAsPeers.html
 
 
 
-[channels.sendAsPeers](/API_docs/constructors/channels.sendAsPeers.html)  
-
-[$MadelineProto->channels->getSendAs](/API_docs/methods/channels.getSendAs.html)  
-

@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/payments_ValidatedRequestedInfo.html
 
 
 
-[payments.validatedRequestedInfo](/API_docs/constructors/payments.validatedRequestedInfo.html)  
-
-[$MadelineProto->payments->validateRequestedInfo](/API_docs/methods/payments.validateRequestedInfo.html)  
-

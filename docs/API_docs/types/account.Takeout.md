@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/account_Takeout.html
 
 
 
-[account.takeout](/API_docs/constructors/account.takeout.html)  
-
-[$MadelineProto->account->initTakeoutSession](/API_docs/methods/account.initTakeoutSession.html)  
-

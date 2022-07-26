@@ -33,19 +33,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[channelParticipantsRecent](/API_docs/constructors/channelParticipantsRecent.html)  
-
-[channelParticipantsAdmins](/API_docs/constructors/channelParticipantsAdmins.html)  
-
-[channelParticipantsKicked](/API_docs/constructors/channelParticipantsKicked.html)  
-
-[channelParticipantsBots](/API_docs/constructors/channelParticipantsBots.html)  
-
-[channelParticipantsBanned](/API_docs/constructors/channelParticipantsBanned.html)  
-
-[channelParticipantsSearch](/API_docs/constructors/channelParticipantsSearch.html)  
-
-[channelParticipantsContacts](/API_docs/constructors/channelParticipantsContacts.html)  
-
-[channelParticipantsMentions](/API_docs/constructors/channelParticipantsMentions.html)  
-

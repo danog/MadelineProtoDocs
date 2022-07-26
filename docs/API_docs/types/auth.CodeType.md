@@ -26,11 +26,3 @@ redirect_from: /API_docs/types/auth_CodeType.html
 
 
 
-[auth.codeTypeSms](/API_docs/constructors/auth.codeTypeSms.html)  
-
-[auth.codeTypeCall](/API_docs/constructors/auth.codeTypeCall.html)  
-
-[auth.codeTypeFlashCall](/API_docs/constructors/auth.codeTypeFlashCall.html)  
-
-[auth.codeTypeMissedCall](/API_docs/constructors/auth.codeTypeMissedCall.html)  
-

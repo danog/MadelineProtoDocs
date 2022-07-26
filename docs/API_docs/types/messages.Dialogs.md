@@ -26,11 +26,3 @@ redirect_from: /API_docs/types/messages_Dialogs.html
 
 
 
-[messages.dialogs](/API_docs/constructors/messages.dialogs.html)  
-
-[messages.dialogsSlice](/API_docs/constructors/messages.dialogsSlice.html)  
-
-[messages.dialogsNotModified](/API_docs/constructors/messages.dialogsNotModified.html)  
-
-[$MadelineProto->messages->getDialogs](/API_docs/methods/messages.getDialogs.html)  
-

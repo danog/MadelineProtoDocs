@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[inputCheckPasswordEmpty](/API_docs/constructors/inputCheckPasswordEmpty.html)  
-
-[inputCheckPasswordSRP](/API_docs/constructors/inputCheckPasswordSRP.html)  
-

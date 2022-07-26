@@ -21,7 +21,3 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-[fileLocationUnavailable\_23](/API_docs/constructors/fileLocationUnavailable_23.html)  
-
-[fileLocation\_23](/API_docs/constructors/fileLocation_23.html)  
-

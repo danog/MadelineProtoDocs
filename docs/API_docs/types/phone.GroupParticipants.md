@@ -22,7 +22,3 @@ redirect_from: /API_docs/types/phone_GroupParticipants.html
 
 
 
-[phone.groupParticipants](/API_docs/constructors/phone.groupParticipants.html)  
-
-[$MadelineProto->phone->getGroupParticipants](/API_docs/methods/phone.getGroupParticipants.html)  
-
