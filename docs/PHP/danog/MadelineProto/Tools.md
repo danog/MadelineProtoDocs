@@ -64,7 +64,7 @@ Some tools.
 * `setVar(object $obj, string $var, mixed $val): void`
 * `mbStrlen(string $text): float|int`
 * `mbSubstr(string $text, int $offset, ?int $length): string`
-* `mbStrSplit(string $text, int $length): array`
+* `mbStrSplit(string $text, int $length): string[]`
 * `toCamelCase(string $input): string`
 * `toSnakeCase(string $input): string`
 * `markdownEscape(string $hwat): string`
@@ -687,7 +687,7 @@ Parameters:
 
 
 
-### `mbStrSplit(string $text, int $length): array`
+### `mbStrSplit(string $text, int $length): string[]`
 
 Telegram UTF-8 multibyte split.
 

@@ -146,7 +146,7 @@ Main API wrapper for MadelineProto.
 * `loop(callable|null $callback): \Amp\Promise`
 * `loopFork(): \Amp\Promise`
 * `markdownEscape(string $hwat): string`
-* `mbStrSplit(string $text, int $length): array`
+* `mbStrSplit(string $text, int $length): string[]`
 * `mbStrlen(string $text): float|int`
 * `mbSubstr(string $text, int $offset, ?int $length): string`
 * `methodCall(string $method, array|\Generator $args, array $aargs): \Amp\Promise`
@@ -1904,7 +1904,7 @@ Parameters:
 
 
 
-### `mbStrSplit(string $text, int $length): array`
+### `mbStrSplit(string $text, int $length): string[]`
 
 Telegram UTF-8 multibyte split.
 
