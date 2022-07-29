@@ -69,6 +69,7 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\Settings\Database\Postgres: Postgres backend settings.](danog/MadelineProto/Settings/Database/Postgres.md)
 * [\danog\MadelineProto\Settings\Database\Redis: Redis backend settings.](danog/MadelineProto/Settings/Database/Redis.md)
 * [\danog\MadelineProto\TL\Exception: TL deserialization exception.](danog/MadelineProto/TL/Exception.md)
+* [\danog\MadelineProto\TL\Conversion\Entities: Entities module.](danog/MadelineProto/TL/Conversion/Entities.md)
 * [\danog\MadelineProto\TL\Conversion\Exception: TL conversion exception.](danog/MadelineProto/TL/Conversion/Exception.md)
 * [\danog\MadelineProto\TL\Types\Button: Clickable button.](danog/MadelineProto/TL/Types/Button.md)
 * [\danog\MadelineProto\TL\Types\Bytes: Bytes wrapper.](danog/MadelineProto/TL/Types/Bytes.md)

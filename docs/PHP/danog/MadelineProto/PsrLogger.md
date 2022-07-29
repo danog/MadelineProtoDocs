@@ -18,6 +18,14 @@ PSR-3 wrapper for MadelineProto's Logger.
 
 ## Method list:
 * `log(mixed $level, string $message, array $context): void`
+* `emergency(string|\Stringable $message, array $context): void`
+* `alert(string|\Stringable $message, array $context): void`
+* `critical(string|\Stringable $message, array $context): void`
+* `error(string|\Stringable $message, array $context): void`
+* `warning(string|\Stringable $message, array $context): void`
+* `notice(string|\Stringable $message, array $context): void`
+* `info(string|\Stringable $message, array $context): void`
+* `debug(string|\Stringable $message, array $context): void`
 
 ## Methods:
 ### `log(mixed $level, string $message, array $context): void`
@@ -30,6 +38,145 @@ Parameters:
 * `$level`: `mixed`   
 * `$message`: `string`   
 * `$context`: `array`   
+
+
+
+### `emergency(string|\Stringable $message, array $context): void`
+
+System is unusable.
+
+
+Parameters:
+
+* `$message`: `string|\Stringable`   
+* `$context`: `array`   
+
+
+#### See also: 
+* `\Stringable`
+
+
+
+
+### `alert(string|\Stringable $message, array $context): void`
+
+Action must be taken immediately.
+Example: Entire website down, database unavailable, etc. This should
+trigger the SMS alerts and wake you up.
+
+Parameters:
+
+* `$message`: `string|\Stringable`   
+* `$context`: `array`   
+
+
+#### See also: 
+* `\Stringable`
+
+
+
+
+### `critical(string|\Stringable $message, array $context): void`
+
+Critical conditions.
+Example: Application component unavailable, unexpected exception.
+
+Parameters:
+
+* `$message`: `string|\Stringable`   
+* `$context`: `array`   
+
+
+#### See also: 
+* `\Stringable`
+
+
+
+
+### `error(string|\Stringable $message, array $context): void`
+
+Runtime errors that do not require immediate action but should typically
+be logged and monitored.
+
+
+Parameters:
+
+* `$message`: `string|\Stringable`   
+* `$context`: `array`   
+
+
+#### See also: 
+* `\Stringable`
+
+
+
+
+### `warning(string|\Stringable $message, array $context): void`
+
+Exceptional occurrences that are not errors.
+Example: Use of deprecated APIs, poor use of an API, undesirable things
+that are not necessarily wrong.
+
+Parameters:
+
+* `$message`: `string|\Stringable`   
+* `$context`: `array`   
+
+
+#### See also: 
+* `\Stringable`
+
+
+
+
+### `notice(string|\Stringable $message, array $context): void`
+
+Normal but significant events.
+
+
+Parameters:
+
+* `$message`: `string|\Stringable`   
+* `$context`: `array`   
+
+
+#### See also: 
+* `\Stringable`
+
+
+
+
+### `info(string|\Stringable $message, array $context): void`
+
+Interesting events.
+Example: User logs in, SQL logs.
+
+Parameters:
+
+* `$message`: `string|\Stringable`   
+* `$context`: `array`   
+
+
+#### See also: 
+* `\Stringable`
+
+
+
+
+### `debug(string|\Stringable $message, array $context): void`
+
+Detailed debug information.
+
+
+Parameters:
+
+* `$message`: `string|\Stringable`   
+* `$context`: `array`   
+
+
+#### See also: 
+* `\Stringable`
+
 
 
 

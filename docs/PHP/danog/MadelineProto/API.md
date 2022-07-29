@@ -53,7 +53,7 @@ Main API wrapper for MadelineProto.
 * `arr(mixed $params): array`
 * `base64urlDecode(string $data): string`
 * `base64urlEncode(string $data): string`
-* `botAPIToMTProto(array $arguments): \Amp\Promise<array>`
+* `botAPIToMTProto(array $arguments): mixed`
 * `botLogin(string $token): \Amp\Promise`
 * `call(\Generator|\Promise|mixed $promise): \Amp\Promise`
 * `callFork(\Generator|\Promise $promise, ?\Generator|\Promise $actual, string $file): \Amp\Promise|mixed`
@@ -456,7 +456,7 @@ Parameters:
 
 
 
-### `botAPIToMTProto(array $arguments): \Amp\Promise<array>`
+### `botAPIToMTProto(array $arguments): mixed`
 
 Convert bot API parameters to MTProto parameters.
 
@@ -466,6 +466,10 @@ Parameters:
 * `$arguments`: `array` Arguments  
 
 
+Fully typed return value:
+```
+array|\Amp\Promise<array>
+```
 #### See also: 
 * `\Amp\Promise`
 
