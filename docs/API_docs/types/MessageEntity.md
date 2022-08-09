@@ -51,6 +51,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageEntitySpoiler](/API_docs/constructors/messageEntitySpoiler.html)  
 
+[messageEntityCustomEmoji](/API_docs/constructors/messageEntityCustomEmoji.html)  
+
 
 
 ### Methods that return an object of this type (methods):

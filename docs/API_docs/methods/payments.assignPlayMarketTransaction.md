@@ -15,7 +15,8 @@ redirect_from: /API_docs/methods/payments_assignPlayMarketTransaction.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|purchase\_token|[string](/API_docs/types/string.html) | Yes|
+|receipt|[DataJSON](/API_docs/types/DataJSON.html) | Yes|
+|purpose|[InputStorePaymentPurpose](/API_docs/types/InputStorePaymentPurpose.html) | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -36,6 +37,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Updates = $MadelineProto->payments->assignPlayMarketTransaction(purchase_token: 'string', );
+$Updates = $MadelineProto->payments->assignPlayMarketTransaction(receipt: DataJSON, purpose: InputStorePaymentPurpose, );
 ```
 

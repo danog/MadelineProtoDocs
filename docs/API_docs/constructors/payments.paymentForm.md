@@ -28,8 +28,9 @@ Payment form
 |url|[string](/API_docs/types/string.html) | Yes|Payment form URL|
 |native\_provider|[string](/API_docs/types/string.html) | Optional|Payment provider name.<br>One of the following:<br>\- `stripe`|
 |native\_params|[DataJSON](/API_docs/types/DataJSON.html) | Optional|Contains information about the payment provider, if available, to support it natively without the need for opening the URL.<br>A JSON object that can contain the following fields:<br><br>\- `apple_pay_merchant_id`: Apple Pay merchant ID<br>\- `google_pay_public_key`: Google Pay public key<br>\- `need_country`: True, if the user country must be provided,<br>\- `need_zip`: True, if the user ZIP/postal code must be provided,<br>\- `need_cardholder_name`: True, if the cardholder name must be provided<br>|
+|additional\_methods|Array of [PaymentFormMethod](/API_docs/types/PaymentFormMethod.html) | Optional|
 |saved\_info|[PaymentRequestedInfo](/API_docs/types/PaymentRequestedInfo.html) | Optional|Saved server-side order information|
-|saved\_credentials|[PaymentSavedCredentials](/API_docs/types/PaymentSavedCredentials.html) | Optional|Contains information about saved card credentials|
+|saved\_credentials|Array of [PaymentSavedCredentials](/API_docs/types/PaymentSavedCredentials.html) | Optional|
 |users|Array of [User](/API_docs/types/User.html) | Yes|Users|
 
 
@@ -40,5 +41,5 @@ Payment form
 ### Example:
 
 ```
-$payments_paymentForm = ['_' => 'payments.paymentForm', 'can_save_credentials' => Bool, 'password_missing' => Bool, 'form_id' => long, 'bot_id' => long, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'invoice' => Invoice, 'provider_id' => long, 'url' => 'string', 'native_provider' => 'string', 'native_params' => DataJSON, 'saved_info' => PaymentRequestedInfo, 'saved_credentials' => PaymentSavedCredentials, 'users' => [User, User]];
+$payments_paymentForm = ['_' => 'payments.paymentForm', 'can_save_credentials' => Bool, 'password_missing' => Bool, 'form_id' => long, 'bot_id' => long, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'invoice' => Invoice, 'provider_id' => long, 'url' => 'string', 'native_provider' => 'string', 'native_params' => DataJSON, 'additional_methods' => [PaymentFormMethod, PaymentFormMethod], 'saved_info' => PaymentRequestedInfo, 'saved_credentials' => [PaymentSavedCredentials, PaymentSavedCredentials], 'users' => [User, User]];
 ```  

@@ -18,6 +18,7 @@ Delete the user's account from the telegram servers. Can be used, for example, t
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |reason|[string](/API_docs/types/string.html) | Why is the account being deleted, can be empty | Yes|
+|password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html) |  | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
@@ -38,6 +39,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Bool = $MadelineProto->account->deleteAccount(reason: 'string', );
+$Bool = $MadelineProto->account->deleteAccount(reason: 'string', password: InputCheckPasswordSRP, );
 ```
 

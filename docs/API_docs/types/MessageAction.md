@@ -75,6 +75,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionWebViewDataSent](/API_docs/constructors/messageActionWebViewDataSent.html)  
 
+[messageActionGiftPremium](/API_docs/constructors/messageActionGiftPremium.html)  
+
 
 
 ### Methods that return an object of this type (methods):

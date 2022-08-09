@@ -145,8 +145,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->payments->assignPlayMarketTransaction](/API_docs/methods/payments.assignPlayMarketTransaction.html)  
 
-[$MadelineProto->payments->restorePlayMarketReceipt](/API_docs/methods/payments.restorePlayMarketReceipt.html)  
-
 [$MadelineProto->payments->requestRecurringPayment](/API_docs/methods/payments.requestRecurringPayment.html)  
 
 [$MadelineProto->phone->discardCall](/API_docs/methods/phone.discardCall.html)  

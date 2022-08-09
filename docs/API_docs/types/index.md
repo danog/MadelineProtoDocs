@@ -243,6 +243,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [InputStickeredMedia](/API_docs/types/InputStickeredMedia.html)<a name="InputStickeredMedia"></a>  
 
+[InputStorePaymentPurpose](/API_docs/types/InputStorePaymentPurpose.html)<a name="InputStorePaymentPurpose"></a>  
+
 [InputTheme](/API_docs/types/InputTheme.html)<a name="InputTheme"></a>  
 
 [InputThemeSettings](/API_docs/types/InputThemeSettings.html)<a name="InputThemeSettings"></a>  
@@ -331,6 +333,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [PaymentCharge](/API_docs/types/PaymentCharge.html)<a name="PaymentCharge"></a>  
 
+[PaymentFormMethod](/API_docs/types/PaymentFormMethod.html)<a name="PaymentFormMethod"></a>  
+
 [PaymentRequestedInfo](/API_docs/types/PaymentRequestedInfo.html)<a name="PaymentRequestedInfo"></a>  
 
 [PaymentSavedCredentials](/API_docs/types/PaymentSavedCredentials.html)<a name="PaymentSavedCredentials"></a>  
@@ -368,6 +372,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [PopularContact](/API_docs/types/PopularContact.html)<a name="PopularContact"></a>  
 
 [PostAddress](/API_docs/types/PostAddress.html)<a name="PostAddress"></a>  
+
+[PremiumGiftOption](/API_docs/types/PremiumGiftOption.html)<a name="PremiumGiftOption"></a>  
 
 [PrivacyKey](/API_docs/types/PrivacyKey.html)<a name="PrivacyKey"></a>  
 

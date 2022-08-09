@@ -15,9 +15,8 @@ redirect_from: /API_docs/methods/payments_assignAppStoreTransaction.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|restore|[Bool](/API_docs/types/Bool.html) | Optional|
-|transaction\_id|[string](/API_docs/types/string.html) | Yes|
 |receipt|[bytes](/API_docs/types/bytes.html) | Yes|
+|purpose|[InputStorePaymentPurpose](/API_docs/types/InputStorePaymentPurpose.html) | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -38,6 +37,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Updates = $MadelineProto->payments->assignAppStoreTransaction(restore: Bool, transaction_id: 'string', receipt: 'bytes', );
+$Updates = $MadelineProto->payments->assignAppStoreTransaction(receipt: 'bytes', purpose: InputStorePaymentPurpose, );
 ```
 

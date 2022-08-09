@@ -15,6 +15,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputWebFileGeoPointLocation](/API_docs/constructors/inputWebFileGeoPointLocation.html)  
 
+[inputWebFileAudioAlbumThumbLocation](/API_docs/constructors/inputWebFileAudioAlbumThumbLocation.html)  
+
 
 
 ### Methods that return an object of this type (methods):

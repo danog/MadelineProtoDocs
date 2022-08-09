@@ -25,6 +25,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [documentAttributeHasStickers](/API_docs/constructors/documentAttributeHasStickers.html)  
 
+[documentAttributeCustomEmoji](/API_docs/constructors/documentAttributeCustomEmoji.html)  
+
 [documentAttributeSticker\_23](/API_docs/constructors/documentAttributeSticker_23.html)  
 
 [documentAttributeVideo\_23](/API_docs/constructors/documentAttributeVideo_23.html)  

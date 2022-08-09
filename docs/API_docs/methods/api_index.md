@@ -73,7 +73,7 @@ $MadelineProto->[account->declinePasswordReset](/API_docs/methods/account.declin
 
 ***
 <br><br>
-$MadelineProto->[account->deleteAccount](/API_docs/methods/account.deleteAccount.html)(\[reason: [string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.deleteAccount"></a>  
+$MadelineProto->[account->deleteAccount](/API_docs/methods/account.deleteAccount.html)(\[reason: [string](/API_docs/types/string.html), password: [InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.deleteAccount"></a>  
 
 ***
 <br><br>
@@ -981,7 +981,7 @@ $MadelineProto->[messages->getAllStickers](/API_docs/methods/messages.getAllStic
 
 ***
 <br><br>
-$MadelineProto->[messages->getArchivedStickers](/API_docs/methods/messages.getArchivedStickers.html)(\[masks: [Bool](/API_docs/types/Bool.html), offset_id: [long](/API_docs/types/long.html), limit: [int](/API_docs/types/int.html), \]) === [$messages.ArchivedStickers](/API_docs/types/messages.ArchivedStickers.html)<a name="messages.getArchivedStickers"></a>  
+$MadelineProto->[messages->getArchivedStickers](/API_docs/methods/messages.getArchivedStickers.html)(\[masks: [Bool](/API_docs/types/Bool.html), emojis: [Bool](/API_docs/types/Bool.html), offset_id: [long](/API_docs/types/long.html), limit: [int](/API_docs/types/int.html), \]) === [$messages.ArchivedStickers](/API_docs/types/messages.ArchivedStickers.html)<a name="messages.getArchivedStickers"></a>  
 
 ***
 <br><br>
@@ -1014,6 +1014,10 @@ $MadelineProto->[messages->getChats](/API_docs/methods/messages.getChats.html)(\
 ***
 <br><br>
 $MadelineProto->[messages->getCommonChats](/API_docs/methods/messages.getCommonChats.html)(\[user_id: [InputUser](/API_docs/types/InputUser.html), max_id: [long](/API_docs/types/long.html), limit: [int](/API_docs/types/int.html), \]) === [$messages.Chats](/API_docs/types/messages.Chats.html)<a name="messages.getCommonChats"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->getCustomEmojiDocuments](/API_docs/methods/messages.getCustomEmojiDocuments.html)(\[document_id: \[[long](/API_docs/types/long.html)\], \]) === [$Vector\_of\_Document](/API_docs/types/Document.html)<a name="messages.getCustomEmojiDocuments"></a>  
 
 ***
 <br><br>
@@ -1053,6 +1057,10 @@ $MadelineProto->[messages->getEmojiKeywordsLanguages](/API_docs/methods/messages
 
 ***
 <br><br>
+$MadelineProto->[messages->getEmojiStickers](/API_docs/methods/messages.getEmojiStickers.html)(\[hash: [long](/API_docs/types/long.html), \]) === [$messages.AllStickers](/API_docs/types/messages.AllStickers.html)<a name="messages.getEmojiStickers"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->getEmojiURL](/API_docs/methods/messages.getEmojiURL.html)(\[lang_code: [string](/API_docs/types/string.html), \]) === [$EmojiURL](/API_docs/types/EmojiURL.html)<a name="messages.getEmojiURL"></a>  
 
 ***
@@ -1066,6 +1074,10 @@ $MadelineProto->[messages->getExportedChatInvites](/API_docs/methods/messages.ge
 ***
 <br><br>
 $MadelineProto->[messages->getFavedStickers](/API_docs/methods/messages.getFavedStickers.html)(\[hash: [long](/API_docs/types/long.html), \]) === [$messages.FavedStickers](/API_docs/types/messages.FavedStickers.html)<a name="messages.getFavedStickers"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->getFeaturedEmojiStickers](/API_docs/methods/messages.getFeaturedEmojiStickers.html)(\[hash: [long](/API_docs/types/long.html), \]) === [$messages.FeaturedStickers](/API_docs/types/messages.FeaturedStickers.html)<a name="messages.getFeaturedEmojiStickers"></a>  
 
 ***
 <br><br>
@@ -1297,7 +1309,7 @@ $MadelineProto->[messages->reorderPinnedDialogs](/API_docs/methods/messages.reor
 
 ***
 <br><br>
-$MadelineProto->[messages->reorderStickerSets](/API_docs/methods/messages.reorderStickerSets.html)(\[masks: [Bool](/API_docs/types/Bool.html), order: \[[long](/API_docs/types/long.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.reorderStickerSets"></a>  
+$MadelineProto->[messages->reorderStickerSets](/API_docs/methods/messages.reorderStickerSets.html)(\[masks: [Bool](/API_docs/types/Bool.html), emojis: [Bool](/API_docs/types/Bool.html), order: \[[long](/API_docs/types/long.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.reorderStickerSets"></a>  
 
 ***
 <br><br>
@@ -1525,15 +1537,15 @@ $MadelineProto->[messages->uploadMedia](/API_docs/methods/messages.uploadMedia.h
 
 ***
 <br><br>
-$MadelineProto->[payments->assignAppStoreTransaction](/API_docs/methods/payments.assignAppStoreTransaction.html)(\[restore: [Bool](/API_docs/types/Bool.html), transaction_id: [string](/API_docs/types/string.html), receipt: [bytes](/API_docs/types/bytes.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.assignAppStoreTransaction"></a>  
+$MadelineProto->[payments->assignAppStoreTransaction](/API_docs/methods/payments.assignAppStoreTransaction.html)(\[receipt: [bytes](/API_docs/types/bytes.html), purpose: [InputStorePaymentPurpose](/API_docs/types/InputStorePaymentPurpose.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.assignAppStoreTransaction"></a>  
 
 ***
 <br><br>
-$MadelineProto->[payments->assignPlayMarketTransaction](/API_docs/methods/payments.assignPlayMarketTransaction.html)(\[purchase_token: [string](/API_docs/types/string.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.assignPlayMarketTransaction"></a>  
+$MadelineProto->[payments->assignPlayMarketTransaction](/API_docs/methods/payments.assignPlayMarketTransaction.html)(\[receipt: [DataJSON](/API_docs/types/DataJSON.html), purpose: [InputStorePaymentPurpose](/API_docs/types/InputStorePaymentPurpose.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.assignPlayMarketTransaction"></a>  
 
 ***
 <br><br>
-$MadelineProto->[payments->canPurchasePremium](/API_docs/methods/payments.canPurchasePremium.html)(\[\]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.canPurchasePremium"></a>  
+$MadelineProto->[payments->canPurchasePremium](/API_docs/methods/payments.canPurchasePremium.html)(\[purpose: [InputStorePaymentPurpose](/API_docs/types/InputStorePaymentPurpose.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.canPurchasePremium"></a>  
 
 ***
 <br><br>
@@ -1562,10 +1574,6 @@ $MadelineProto->[payments->getSavedInfo](/API_docs/methods/payments.getSavedInfo
 ***
 <br><br>
 $MadelineProto->[payments->requestRecurringPayment](/API_docs/methods/payments.requestRecurringPayment.html)(\[user_id: [InputUser](/API_docs/types/InputUser.html), recurring_init_charge: [string](/API_docs/types/string.html), invoice_media: [InputMedia](/API_docs/types/InputMedia.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.requestRecurringPayment"></a>  
-
-***
-<br><br>
-$MadelineProto->[payments->restorePlayMarketReceipt](/API_docs/methods/payments.restorePlayMarketReceipt.html)(\[receipt: [bytes](/API_docs/types/bytes.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.restorePlayMarketReceipt"></a>  
 
 ***
 <br><br>

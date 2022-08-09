@@ -24,5 +24,7 @@ redirect_from: /API_docs/types/messages_FeaturedStickers.html
 
 [$MadelineProto->messages->getOldFeaturedStickers](/API_docs/methods/messages.getOldFeaturedStickers.html)  
 
+[$MadelineProto->messages->getFeaturedEmojiStickers](/API_docs/methods/messages.getFeaturedEmojiStickers.html)  
+
 
 

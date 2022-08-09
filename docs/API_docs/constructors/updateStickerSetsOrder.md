@@ -16,6 +16,7 @@ The order of stickersets was changed
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |masks|[Bool](/API_docs/types/Bool.html) | Optional|Whether the updated stickers are mask stickers|
+|emojis|[Bool](/API_docs/types/Bool.html) | Optional|
 |order|Array of [long](/API_docs/types/long.html) | Yes|New sticker order by sticker ID|
 
 
@@ -26,5 +27,5 @@ The order of stickersets was changed
 ### Example:
 
 ```
-$updateStickerSetsOrder = ['_' => 'updateStickerSetsOrder', 'masks' => Bool, 'order' => [long, long]];
+$updateStickerSetsOrder = ['_' => 'updateStickerSetsOrder', 'masks' => Bool, 'emojis' => Bool, 'order' => [long, long]];
 ```  

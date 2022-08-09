@@ -24,5 +24,7 @@ redirect_from: /API_docs/types/messages_AllStickers.html
 
 [$MadelineProto->messages->getMaskStickers](/API_docs/methods/messages.getMaskStickers.html)  
 
+[$MadelineProto->messages->getEmojiStickers](/API_docs/methods/messages.getEmojiStickers.html)  
+
 
 

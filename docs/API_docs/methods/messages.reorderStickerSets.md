@@ -18,6 +18,7 @@ Reorder installed stickersets
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |masks|[Bool](/API_docs/types/Bool.html) | Reorder mask stickersets | Optional|
+|emojis|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |order|Array of [long](/API_docs/types/long.html) | New stickerset order by stickerset IDs | Yes|
 
 
@@ -39,6 +40,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Bool = $MadelineProto->messages->reorderStickerSets(masks: Bool, order: [long, long], );
+$Bool = $MadelineProto->messages->reorderStickerSets(masks: Bool, emojis: Bool, order: [long, long], );
 ```
 

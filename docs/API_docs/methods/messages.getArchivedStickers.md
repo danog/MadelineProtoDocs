@@ -18,6 +18,7 @@ Get all archived stickers
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |masks|[Bool](/API_docs/types/Bool.html) | Get mask stickers | Optional|
+|emojis|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |offset\_id|[long](/API_docs/types/long.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
 |limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
 
@@ -40,6 +41,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$messages_ArchivedStickers = $MadelineProto->messages->getArchivedStickers(masks: Bool, offset_id: long, limit: int, );
+$messages_ArchivedStickers = $MadelineProto->messages->getArchivedStickers(masks: Bool, emojis: Bool, offset_id: long, limit: int, );
 ```
 

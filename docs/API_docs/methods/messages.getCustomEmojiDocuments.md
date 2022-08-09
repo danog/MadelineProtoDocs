@@ -1,12 +1,12 @@
 ---
-title: "payments.canPurchasePremium"
-description: "payments.canPurchasePremium parameters, return type and example"
+title: "messages.getCustomEmojiDocuments"
+description: "messages.getCustomEmojiDocuments parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/payments_canPurchasePremium.html
+redirect_from: /API_docs/methods/messages_getCustomEmojiDocuments.html
 ---
-# Method: payments.canPurchasePremium
+# Method: messages.getCustomEmojiDocuments
 [Back to methods index](index.html)
 
 
@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/payments_canPurchasePremium.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|purpose|[InputStorePaymentPurpose](/API_docs/types/InputStorePaymentPurpose.html) | Yes|
+|document\_id|Array of [long](/API_docs/types/long.html) | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.html)
+### Return type: [Vector\_of\_Document](/API_docs/types/Document.html)
 
 ### Can bots use this method: **YES**
 
@@ -36,6 +36,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Bool = $MadelineProto->payments->canPurchasePremium(purpose: InputStorePaymentPurpose, );
+$Vector_of_Document = $MadelineProto->messages->getCustomEmojiDocuments(document_id: [long, long], );
 ```
 

@@ -1,12 +1,12 @@
 ---
-title: "payments.restorePlayMarketReceipt"
-description: "payments.restorePlayMarketReceipt parameters, return type and example"
+title: "messages.getEmojiStickers"
+description: "messages.getEmojiStickers parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/payments_restorePlayMarketReceipt.html
+redirect_from: /API_docs/methods/messages_getEmojiStickers.html
 ---
-# Method: payments.restorePlayMarketReceipt
+# Method: messages.getEmojiStickers
 [Back to methods index](index.html)
 
 
@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/payments_restorePlayMarketReceipt.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|receipt|[bytes](/API_docs/types/bytes.html) | Yes|
+|hash|[long](/API_docs/types/long.html) | Yes|
 
 
-### Return type: [Updates](/API_docs/types/Updates.html)
+### Return type: [messages.AllStickers](/API_docs/types/messages.AllStickers.html)
 
 ### Can bots use this method: **YES**
 
@@ -36,6 +36,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Updates = $MadelineProto->payments->restorePlayMarketReceipt(receipt: 'bytes', );
+$messages_AllStickers = $MadelineProto->messages->getEmojiStickers(hash: long, );
 ```
 
