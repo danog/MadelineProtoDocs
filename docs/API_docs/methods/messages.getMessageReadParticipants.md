@@ -18,7 +18,7 @@ Get which users read a specific message: only available for groups and supergrou
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Dialog | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | Message ID | Yes|
+|msg\_id|[int](/API_docs/types/int.html) | Message ID | Optional|
 
 
 ### Return type: [Vector\_of\_long](/API_docs/types/long.html)

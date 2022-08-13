@@ -18,7 +18,7 @@ Mark [channel/supergroup](https://core.telegram.org/api/channel) history as read
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | [Channel/supergroup](https://core.telegram.org/api/channel) | Optional|
-|max\_id|[int](/API_docs/types/int.html) | ID of message up to which messages should be marked as read | Yes|
+|max\_id|[int](/API_docs/types/int.html) | ID of message up to which messages should be marked as read | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

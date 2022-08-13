@@ -17,7 +17,7 @@ You cannot use this method directly
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|max\_qts|[int](/API_docs/types/int.html) | Maximum qts value available at the client | Yes|
+|max\_qts|[int](/API_docs/types/int.html) | Maximum qts value available at the client | Optional|
 
 
 ### Return type: [Vector\_of\_long](/API_docs/types/long.html)

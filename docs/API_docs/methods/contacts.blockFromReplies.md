@@ -20,7 +20,7 @@ Stop getting notifications about [thread replies](https://core.telegram.org/api/
 |delete\_message|[Bool](/API_docs/types/Bool.html) | Whether to delete the specified message as well | Optional|
 |delete\_history|[Bool](/API_docs/types/Bool.html) | Whether to delete all `@replies` messages from this user as well | Optional|
 |report\_spam|[Bool](/API_docs/types/Bool.html) | Whether to also report this user for spam | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | ID of the message in the [@replies](https://core.telegram.org/api/threads#replies) chat | Yes|
+|msg\_id|[int](/API_docs/types/int.html) | ID of the message in the [@replies](https://core.telegram.org/api/threads#replies) chat | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

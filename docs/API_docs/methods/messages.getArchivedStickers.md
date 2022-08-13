@@ -20,7 +20,7 @@ Get all archived stickers
 |masks|[Bool](/API_docs/types/Bool.html) | Get mask stickers | Optional|
 |emojis|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |offset\_id|[long](/API_docs/types/long.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
-|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [messages.ArchivedStickers](/API_docs/types/messages.ArchivedStickers.html)

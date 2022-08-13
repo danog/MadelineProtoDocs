@@ -25,8 +25,8 @@ Get most used peers
 |forward\_chats|[Bool](/API_docs/types/Bool.html) | Chats to which the users often forwards messages to | Optional|
 |groups|[Bool](/API_docs/types/Bool.html) | Often-opened groups and supergroups | Optional|
 |channels|[Bool](/API_docs/types/Bool.html) | Most frequently visited channels | Optional|
-|offset|[int](/API_docs/types/int.html) | Offset for [pagination](https://core.telegram.org/api/offsets) | Yes|
-|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
+|offset|[int](/API_docs/types/int.html) | Offset for [pagination](https://core.telegram.org/api/offsets) | Optional|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 |hash|[long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Yes|
 
 

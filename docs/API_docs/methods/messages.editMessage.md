@@ -19,7 +19,7 @@ Edit message
 |----------|---------------|-------------|----------|
 |no\_webpage|[Bool](/API_docs/types/Bool.html) | Disable webpage preview | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Where was the message sent | Optional|
-|id|[int](/API_docs/types/int.html) | ID of the message to edit | Yes|
+|id|[int](/API_docs/types/int.html) | ID of the message to edit | Optional|
 |message|[string](/API_docs/types/string.html) | New message | Optional|
 |media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | New attached media | Optional|
 |reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.html) | Reply markup for inline keyboards | Optional|

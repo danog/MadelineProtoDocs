@@ -19,8 +19,8 @@ Get the participants of a [supergroup/channel](https://core.telegram.org/api/cha
 |----------|---------------|-------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Channel | Optional|
 |filter|[ChannelParticipantsFilter](/API_docs/types/ChannelParticipantsFilter.html) | Which participant types to fetch | Yes|
-|offset|[int](/API_docs/types/int.html) | [Offset](https://core.telegram.org/api/offsets) | Yes|
-|limit|[int](/API_docs/types/int.html) | [Limit](https://core.telegram.org/api/offsets) | Yes|
+|offset|[int](/API_docs/types/int.html) | [Offset](https://core.telegram.org/api/offsets) | Optional|
+|limit|[int](/API_docs/types/int.html) | [Limit](https://core.telegram.org/api/offsets) | Optional|
 |hash|[long](/API_docs/types/long.html) | [Hash](https://core.telegram.org/api/offsets) | Yes|
 
 

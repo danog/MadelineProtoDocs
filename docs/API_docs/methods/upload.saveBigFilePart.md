@@ -18,8 +18,8 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |file\_id|[long](/API_docs/types/long.html) | Random file id, created by the client | Yes|
-|file\_part|[int](/API_docs/types/int.html) | Part sequence number | Yes|
-|file\_total\_parts|[int](/API_docs/types/int.html) | Total number of parts | Yes|
+|file\_part|[int](/API_docs/types/int.html) | Part sequence number | Optional|
+|file\_total\_parts|[int](/API_docs/types/int.html) | Total number of parts | Optional|
 |bytes|[bytes](/API_docs/types/bytes.html) | Binary data, part contents | Yes|
 
 

@@ -18,7 +18,7 @@ Get [discussion message](https://core.telegram.org/api/threads) from the [associ
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | [Channel ID](https://core.telegram.org/api/channel) | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | Message ID | Yes|
+|msg\_id|[int](/API_docs/types/int.html) | Message ID | Optional|
 
 
 ### Return type: [messages.DiscussionMessage](/API_docs/types/messages.DiscussionMessage.html)

@@ -18,7 +18,7 @@ Get poll results
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where the poll was found | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | Message ID of poll message | Yes|
+|msg\_id|[int](/API_docs/types/int.html) | Message ID of poll message | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

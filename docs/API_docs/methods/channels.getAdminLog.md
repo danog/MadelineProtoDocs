@@ -23,7 +23,7 @@ Get the admin log of a [channel/supergroup](https://core.telegram.org/api/channe
 |admins|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Only show events from these admins | Optional|
 |max\_id|[long](/API_docs/types/long.html) | Maximum ID of message to return (see [pagination](https://core.telegram.org/api/offsets)) | Yes|
 |min\_id|[long](/API_docs/types/long.html) | Minimum ID of message to return (see [pagination](https://core.telegram.org/api/offsets)) | Yes|
-|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [channels.AdminLogResults](/API_docs/types/channels.AdminLogResults.html)

@@ -22,7 +22,7 @@ Get info about the chat invites of a specific chat
 |admin\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Whether to only fetch chat invites from this admin | Optional|
 |offset\_date|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
 |offset\_link|[string](/API_docs/types/string.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
-|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [messages.ExportedChatInvites](/API_docs/types/messages.ExportedChatInvites.html)

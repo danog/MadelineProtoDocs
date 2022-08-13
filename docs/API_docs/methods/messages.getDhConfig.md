@@ -17,8 +17,8 @@ You cannot use this method directly, instead use $MadelineProto->getDhConfig();
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|version|[int](/API_docs/types/int.html) | Value of the **version** parameter from [messages.dhConfig](../constructors/messages.dhConfig.html), available at the client | Yes|
-|random\_length|[int](/API_docs/types/int.html) | Length of the required random sequence | Yes|
+|version|[int](/API_docs/types/int.html) | Value of the **version** parameter from [messages.dhConfig](../constructors/messages.dhConfig.html), available at the client | Optional|
+|random\_length|[int](/API_docs/types/int.html) | Length of the required random sequence | Optional|
 
 
 ### Return type: [messages.DhConfig](/API_docs/types/messages.DhConfig.html)

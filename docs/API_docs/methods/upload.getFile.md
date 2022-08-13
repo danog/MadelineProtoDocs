@@ -21,7 +21,7 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 |cdn\_supported|[Bool](/API_docs/types/Bool.html) | Whether the current client supports [CDN downloads](https://core.telegram.org/cdn) | Optional|
 |location|[InputFileLocation](/API_docs/types/InputFileLocation.html) | File location | Yes|
 |offset|[long](/API_docs/types/long.html) |  | Yes|
-|limit|[int](/API_docs/types/int.html) | Number of bytes to be returned | Yes|
+|limit|[int](/API_docs/types/int.html) | Number of bytes to be returned | Optional|
 
 
 ### Return type: [upload.File](/API_docs/types/upload.File.html)

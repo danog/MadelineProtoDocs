@@ -18,7 +18,7 @@ Vote in a [poll](../constructors/poll.html)
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The chat where the poll was sent | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | The message ID of the poll | Yes|
+|msg\_id|[int](/API_docs/types/int.html) | The message ID of the poll | Optional|
 |options|Array of [bytes](/API_docs/types/bytes.html) | The options that were chosen | Yes|
 
 

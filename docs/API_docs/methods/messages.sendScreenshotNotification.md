@@ -18,7 +18,7 @@ Notify the other user in a private chat that a screenshot of the chat was taken
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Other user | Optional|
-|reply\_to\_msg\_id|[int](/API_docs/types/int.html) | ID of message that was screenshotted, can be 0 | Yes|
+|reply\_to\_msg\_id|[int](/API_docs/types/int.html) | ID of message that was screenshotted, can be 0 | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

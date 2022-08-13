@@ -17,7 +17,7 @@ You cannot use this method directly, use $MadelineProto->exportAuthorization() i
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|dc\_id|[int](/API_docs/types/int.html) | Number of a target data-center | Yes|
+|dc\_id|[int](/API_docs/types/int.html) | Number of a target data-center | Optional|
 
 
 ### Return type: [auth.ExportedAuthorization](/API_docs/types/auth.ExportedAuthorization.html)

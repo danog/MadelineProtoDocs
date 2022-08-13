@@ -21,7 +21,7 @@ Use this method to set the score of the specified user in a game sent as an inli
 |force|[Bool](/API_docs/types/Bool.html) | Set this flag if the high score is allowed to decrease. This can be useful when fixing mistakes or banning cheaters | Optional|
 |id|[InputBotInlineMessageID](/API_docs/types/InputBotInlineMessageID.html) | ID of the inline message | Yes|
 |user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | User identifier | Optional|
-|score|[int](/API_docs/types/int.html) | New score | Yes|
+|score|[int](/API_docs/types/int.html) | New score | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

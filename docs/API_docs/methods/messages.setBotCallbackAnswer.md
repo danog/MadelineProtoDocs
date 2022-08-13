@@ -21,7 +21,7 @@ Set the callback answer to a user button press (bots only)
 |query\_id|[long](/API_docs/types/long.html) | Query ID | Yes|
 |message|[string](/API_docs/types/string.html) | Popup to show | Optional|
 |url|[string](/API_docs/types/string.html) | URL to open | Optional|
-|cache\_time|[int](/API_docs/types/int.html) | Cache validity | Yes|
+|cache\_time|[int](/API_docs/types/int.html) | Cache validity | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

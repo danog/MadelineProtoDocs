@@ -17,7 +17,7 @@ Get a list of [channels/supergroups](https://core.telegram.org/api/channel) we l
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|offset|[int](/API_docs/types/int.html) | Offset for [pagination](https://core.telegram.org/api/offsets) | Yes|
+|offset|[int](/API_docs/types/int.html) | Offset for [pagination](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [messages.Chats](/API_docs/types/messages.Chats.html)

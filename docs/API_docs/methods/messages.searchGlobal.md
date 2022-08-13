@@ -20,12 +20,12 @@ Search for messages and peers globally
 |folder\_id|[int](/API_docs/types/int.html) | [Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders) | Optional|
 |q|[string](/API_docs/types/string.html) | Query | Yes|
 |filter|[MessagesFilter](/API_docs/types/MessagesFilter.html) | Global search filter | Optional|
-|min\_date|[int](/API_docs/types/int.html) | If a positive value was specified, the method will return only messages with date bigger than min\_date | Yes|
-|max\_date|[int](/API_docs/types/int.html) | If a positive value was transferred, the method will return only messages with date smaller than max\_date | Yes|
-|offset\_rate|[int](/API_docs/types/int.html) | Initially 0, then set to the [`next_rate` parameter of messages.messagesSlice](../constructors/messages.messagesSlice.html) | Yes|
+|min\_date|[int](/API_docs/types/int.html) | If a positive value was specified, the method will return only messages with date bigger than min\_date | Optional|
+|max\_date|[int](/API_docs/types/int.html) | If a positive value was transferred, the method will return only messages with date smaller than max\_date | Optional|
+|offset\_rate|[int](/API_docs/types/int.html) | Initially 0, then set to the [`next_rate` parameter of messages.messagesSlice](../constructors/messages.messagesSlice.html) | Optional|
 |offset\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
-|offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
-|limit|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
+|offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
+|limit|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)

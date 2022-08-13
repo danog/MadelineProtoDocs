@@ -19,7 +19,7 @@ You cannot use this method directly, see https://docs.madelineproto.xyz#calls fo
 |----------|---------------|-------------|----------|
 |video|[Bool](/API_docs/types/Bool.html) | Whether this is a video call | Optional|
 |peer|[InputPhoneCall](/API_docs/types/InputPhoneCall.html) | The phone call | Yes|
-|duration|[int](/API_docs/types/int.html) | Call duration | Yes|
+|duration|[int](/API_docs/types/int.html) | Call duration | Optional|
 |reason|[PhoneCallDiscardReason](/API_docs/types/PhoneCallDiscardReason.html) | Why was the call discarded | Yes|
 |connection\_id|[long](/API_docs/types/long.html) | Preferred libtgvoip relay ID | Yes|
 

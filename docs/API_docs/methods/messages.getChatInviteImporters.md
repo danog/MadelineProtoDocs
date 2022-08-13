@@ -21,9 +21,9 @@ Get info about the users that joined the chat using a specific chat invite
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Chat | Optional|
 |link|[string](/API_docs/types/string.html) | Invite link | Optional|
 |q|[string](/API_docs/types/string.html) | Search for a user in the pending [join requests »](https://core.telegram.org/api/invites#join-requests) list: only available when the `requested` flag is set, cannot be used together with a specific `link`. | Optional|
-|offset\_date|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
+|offset\_date|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
 |offset\_user|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | User ID for [pagination](https://core.telegram.org/api/offsets) | Optional|
-|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [messages.ChatInviteImporters](/API_docs/types/messages.ChatInviteImporters.html)

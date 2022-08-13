@@ -18,13 +18,13 @@ Get messages in a reply thread
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | Message ID | Yes|
-|offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
-|offset\_date|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
-|add\_offset|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
-|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
-|max\_id|[int](/API_docs/types/int.html) | If a positive value was transferred, the method will return only messages with ID smaller than max\_id | Yes|
-|min\_id|[int](/API_docs/types/int.html) | If a positive value was transferred, the method will return only messages with ID bigger than min\_id | Yes|
+|msg\_id|[int](/API_docs/types/int.html) | Message ID | Optional|
+|offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
+|offset\_date|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
+|add\_offset|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
+|max\_id|[int](/API_docs/types/int.html) | If a positive value was transferred, the method will return only messages with ID smaller than max\_id | Optional|
+|min\_id|[int](/API_docs/types/int.html) | If a positive value was transferred, the method will return only messages with ID bigger than min\_id | Optional|
 |hash|[long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Yes|
 
 

@@ -18,7 +18,7 @@ Changes the absolute position of a sticker in the set to which it belongs; for b
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |sticker|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | The sticker | Optional|
-|position|[int](/API_docs/types/int.html) | The new position of the sticker, zero-based | Yes|
+|position|[int](/API_docs/types/int.html) | The new position of the sticker, zero-based | Optional|
 
 
 ### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.html)

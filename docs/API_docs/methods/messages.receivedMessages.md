@@ -17,7 +17,7 @@ Confirms receipt of messages by a client, cancels PUSH-notification sending.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|max\_id|[int](/API_docs/types/int.html) | Maximum message ID available in a client. | Yes|
+|max\_id|[int](/API_docs/types/int.html) | Maximum message ID available in a client. | Optional|
 
 
 ### Return type: [Vector\_of\_ReceivedNotifyMessage](/API_docs/types/ReceivedNotifyMessage.html)

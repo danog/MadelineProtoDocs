@@ -18,8 +18,8 @@ Mark a [thread](https://core.telegram.org/api/threads) as read
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Group ID | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | ID of message that started the thread | Yes|
-|read\_max\_id|[int](/API_docs/types/int.html) | ID up to which thread messages were read | Yes|
+|msg\_id|[int](/API_docs/types/int.html) | ID of message that started the thread | Optional|
+|read\_max\_id|[int](/API_docs/types/int.html) | ID up to which thread messages were read | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

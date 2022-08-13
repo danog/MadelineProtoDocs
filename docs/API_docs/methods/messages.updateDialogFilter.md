@@ -17,7 +17,7 @@ Update [folder](https://core.telegram.org/api/folders)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|id|[int](/API_docs/types/int.html) | [Folder](https://core.telegram.org/api/folders) ID | Yes|
+|id|[int](/API_docs/types/int.html) | [Folder](https://core.telegram.org/api/folders) ID | Optional|
 |filter|[DialogFilter](/API_docs/types/DialogFilter.html) | [Folder](https://core.telegram.org/api/folders) info | Optional|
 
 

@@ -19,7 +19,7 @@ Adds a user to a chat and sends a service message on it.
 |----------|---------------|-------------|----------|
 |chat\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
 |user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | User ID to be added | Optional|
-|fwd\_limit|[int](/API_docs/types/int.html) | Number of last messages to be forwarded | Yes|
+|fwd\_limit|[int](/API_docs/types/int.html) | Number of last messages to be forwarded | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

@@ -18,16 +18,16 @@ Get unread reactions to messages you sent
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
-|offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
-|add\_offset|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
-|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
-|max\_id|[int](/API_docs/types/int.html) | Only return reactions for messages up until this message ID | Yes|
-|min\_id|[int](/API_docs/types/int.html) | Only return reactions for messages starting from this message ID | Yes|
+|offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
+|add\_offset|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
+|max\_id|[int](/API_docs/types/int.html) | Only return reactions for messages up until this message ID | Optional|
+|min\_id|[int](/API_docs/types/int.html) | Only return reactions for messages starting from this message ID | Optional|
 
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

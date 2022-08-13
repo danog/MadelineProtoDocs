@@ -16,7 +16,7 @@ Initialize connection
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|api\_id|[int](/API_docs/types/int.html) | Application identifier (see. [App configuration](https://core.telegram.org/myapp)) | Yes|
+|api\_id|[int](/API_docs/types/int.html) | Application identifier (see. [App configuration](https://core.telegram.org/myapp)) | Optional|
 |device\_model|[string](/API_docs/types/string.html) | Device model | Yes|
 |system\_version|[string](/API_docs/types/string.html) | Operation system version | Yes|
 |app\_version|[string](/API_docs/types/string.html) | Application version | Yes|

@@ -77,6 +77,7 @@ Event handler.
 * `getDNSClient(): mixed`
 * `getDataCenterConnections(): mixed`
 * `getDataCenterId(): int|string`
+* `getDhConfig(): \Amp\Promise<array>`
 * `getDialogs(bool $force): \Amp\Promise`
 * `getDownloadInfo(mixed $messageMedia): \Amp\Promise<array>`
 * `getEventHandler(): mixed`
@@ -1166,6 +1167,17 @@ array<\danog\MadelineProto\DataCenterConnection>|\Amp\Promise<array<\danog\Madel
 ### `getDataCenterId(): int|string`
 
 Get main DC ID.
+
+
+
+### `getDhConfig(): \Amp\Promise<array>`
+
+Get diffie-hellman configuration.
+
+
+#### See also: 
+* `\Amp\Promise`
+
 
 
 

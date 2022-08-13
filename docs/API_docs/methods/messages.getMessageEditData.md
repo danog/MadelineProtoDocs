@@ -18,7 +18,7 @@ Find out if a media message's caption can be edited
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where the media was sent | Optional|
-|id|[int](/API_docs/types/int.html) | ID of message | Yes|
+|id|[int](/API_docs/types/int.html) | ID of message | Optional|
 
 
 ### Return type: [messages.MessageEditData](/API_docs/types/messages.MessageEditData.html)

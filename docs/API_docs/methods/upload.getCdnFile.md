@@ -19,7 +19,7 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 |----------|---------------|-------------|----------|
 |file\_token|[bytes](/API_docs/types/bytes.html) | File token | Yes|
 |offset|[long](/API_docs/types/long.html) |  | Yes|
-|limit|[int](/API_docs/types/int.html) | Length of chunk to download | Yes|
+|limit|[int](/API_docs/types/int.html) | Length of chunk to download | Optional|
 
 
 ### Return type: [upload.CdnFile](/API_docs/types/upload.CdnFile.html)

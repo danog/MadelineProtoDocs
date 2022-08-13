@@ -19,7 +19,7 @@ Press an inline callback button and get a callback answer from the bot
 |----------|---------------|-------------|----------|
 |game|[Bool](/API_docs/types/Bool.html) | Whether this is a "play game" button | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Where was the inline keyboard sent | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | ID of the Message with the inline keyboard | Yes|
+|msg\_id|[int](/API_docs/types/int.html) | ID of the Message with the inline keyboard | Optional|
 |data|[bytes](/API_docs/types/bytes.html) | Callback data | Optional|
 |password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html) | For buttons [requiring you to verify your identity with your 2FA password](../constructors/keyboardButtonCallback.html), the SRP payload generated using [SRP](https://core.telegram.org/api/srp). | Optional|
 

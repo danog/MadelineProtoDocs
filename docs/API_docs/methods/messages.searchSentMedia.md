@@ -20,7 +20,7 @@ This method does not support pagination.
 |----------|---------------|-------------|----------|
 |q|[string](/API_docs/types/string.html) | Optional search query | Yes|
 |filter|[MessagesFilter](/API_docs/types/MessagesFilter.html) | Message filter | Optional|
-|limit|[int](/API_docs/types/int.html) | Maximum number of results to return (max 100). | Yes|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return (max 100). | Optional|
 
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)

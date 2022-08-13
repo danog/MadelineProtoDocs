@@ -16,7 +16,7 @@ Invoke the specified query using the specified API [layer](https://core.telegram
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|layer|[int](/API_docs/types/int.html) | The layer to use | Yes|
+|layer|[int](/API_docs/types/int.html) | The layer to use | Optional|
 |query|[!X](/API_docs/types/!X.html) | The query | Yes|
 
 

@@ -19,7 +19,7 @@ Import chat history from a foreign chat app into a specific Telegram chat, [clic
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The Telegram chat where the [history should be imported](https://core.telegram.org/api/import). | Optional|
 |file|[File path or InputFile](/API_docs/types/InputFile.html) | File with messages to import. | Yes|
-|media\_count|[int](/API_docs/types/int.html) | Number of media files associated with the chat that will be uploaded using [messages.uploadImportedMedia](../methods/messages.uploadImportedMedia.html). | Yes|
+|media\_count|[int](/API_docs/types/int.html) | Number of media files associated with the chat that will be uploaded using [messages.uploadImportedMedia](../methods/messages.uploadImportedMedia.html). | Optional|
 
 
 ### Return type: [messages.HistoryImport](/API_docs/types/messages.HistoryImport.html)

@@ -17,7 +17,7 @@ Informs the server about the number of pending bot updates if they haven't been 
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|pending\_updates\_count|[int](/API_docs/types/int.html) | Number of pending updates | Yes|
+|pending\_updates\_count|[int](/API_docs/types/int.html) | Number of pending updates | Optional|
 |message|[string](/API_docs/types/string.html) | Error message, if present | Yes|
 
 

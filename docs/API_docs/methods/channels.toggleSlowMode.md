@@ -18,7 +18,7 @@ Toggle supergroup slow mode: if enabled, users will only be able to send one mes
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The [supergroup](https://core.telegram.org/api/channel) | Optional|
-|seconds|[int](/API_docs/types/int.html) | Users will only be able to send one message every `seconds` seconds, `0` to disable the limitation | Yes|
+|seconds|[int](/API_docs/types/int.html) | Users will only be able to send one message every `seconds` seconds, `0` to disable the limitation | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

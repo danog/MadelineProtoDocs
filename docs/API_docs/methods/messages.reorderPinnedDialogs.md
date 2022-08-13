@@ -18,7 +18,7 @@ Reorder pinned dialogs
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |force|[Bool](/API_docs/types/Bool.html) | If set, dialogs pinned server-side but not present in the `order` field will be unpinned. | Optional|
-|folder\_id|[int](/API_docs/types/int.html) | [Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders) | Yes|
+|folder\_id|[int](/API_docs/types/int.html) | [Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders) | Optional|
 |order|Array of [Username, chat ID, Update, Message or InputDialogPeer](/API_docs/types/InputDialogPeer.html) | New dialog order | Yes|
 
 

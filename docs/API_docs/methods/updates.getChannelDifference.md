@@ -20,8 +20,8 @@ You cannot use this method directly, see https://docs.madelineproto.xyz for more
 |force|[Bool](/API_docs/types/Bool.html) | Set to true to skip some possibly unneeded updates and reduce server-side load | Optional|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The channel | Optional|
 |filter|[ChannelMessagesFilter](/API_docs/types/ChannelMessagesFilter.html) | Messsage filter | Optional|
-|pts|[int](/API_docs/types/int.html) | Persistent timestamp (see [updates](https://core.telegram.org/api/updates)) | Yes|
-|limit|[int](/API_docs/types/int.html) | How many updates to fetch, max `100000`<br>Ordinary (non-bot) users are supposed to pass `10-100` | Yes|
+|pts|[int](/API_docs/types/int.html) | Persistent timestamp (see [updates](https://core.telegram.org/api/updates)) | Optional|
+|limit|[int](/API_docs/types/int.html) | How many updates to fetch, max `100000`<br>Ordinary (non-bot) users are supposed to pass `10-100` | Optional|
 
 
 ### Return type: [updates.ChannelDifference](/API_docs/types/updates.ChannelDifference.html)

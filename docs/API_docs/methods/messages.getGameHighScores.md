@@ -18,7 +18,7 @@ Get highscores of a game
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Where was the game sent | Optional|
-|id|[int](/API_docs/types/int.html) | ID of message with game media attachment | Yes|
+|id|[int](/API_docs/types/int.html) | ID of message with game media attachment | Optional|
 |user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Get high scores made by a certain user | Optional|
 
 

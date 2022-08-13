@@ -19,7 +19,7 @@ Get new strings in language pack
 |----------|---------------|-------------|----------|
 |lang\_pack|[string](/API_docs/types/string.html) | Language pack | Yes|
 |lang\_code|[string](/API_docs/types/string.html) | Language code | Yes|
-|from\_version|[int](/API_docs/types/int.html) | Previous localization pack version | Yes|
+|from\_version|[int](/API_docs/types/int.html) | Previous localization pack version | Optional|
 
 
 ### Return type: [LangPackDifference](/API_docs/types/LangPackDifference.html)

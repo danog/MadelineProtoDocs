@@ -18,7 +18,7 @@ You cannot use this method directly, see https://docs.madelineproto.xyz for more
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |delete\_history|[Bool](/API_docs/types/Bool.html) | Whether to delete the entire chat history for the other user as well | Optional|
-|chat\_id|[int](/API_docs/types/int.html) | Secret chat ID | Yes|
+|chat\_id|[int](/API_docs/types/int.html) | Secret chat ID | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

@@ -18,11 +18,11 @@ Get unread messages where we were mentioned
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where to look for mentions | Optional|
-|offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
-|add\_offset|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
-|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
-|max\_id|[int](/API_docs/types/int.html) | Maximum message ID to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
-|min\_id|[int](/API_docs/types/int.html) | Minimum message ID to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
+|offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
+|add\_offset|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
+|max\_id|[int](/API_docs/types/int.html) | Maximum message ID to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
+|min\_id|[int](/API_docs/types/int.html) | Minimum message ID to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)

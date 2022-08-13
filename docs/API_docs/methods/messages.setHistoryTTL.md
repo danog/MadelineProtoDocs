@@ -18,7 +18,7 @@ Set maximum Time-To-Live of all messages in the specified chat
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The dialog | Optional|
-|period|[int](/API_docs/types/int.html) | Automatically delete all messages sent in the chat after this many seconds | Yes|
+|period|[int](/API_docs/types/int.html) | Automatically delete all messages sent in the chat after this many seconds | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

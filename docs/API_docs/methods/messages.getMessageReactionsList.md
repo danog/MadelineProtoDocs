@@ -18,10 +18,10 @@ Get [message reaction](https://core.telegram.org/api/reactions) list, along with
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
-|id|[int](/API_docs/types/int.html) | Message ID | Yes|
+|id|[int](/API_docs/types/int.html) | Message ID | Optional|
 |reaction|[string](/API_docs/types/string.html) | Get only reactions of this type (UTF8 emoji) | Optional|
 |offset|[string](/API_docs/types/string.html) | Offset (typically taken from the `next_offset` field of the returned [messages.MessageReactionsList](../types/messages.MessageReactionsList.html)) | Optional|
-|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [messages.MessageReactionsList](/API_docs/types/messages.MessageReactionsList.html)

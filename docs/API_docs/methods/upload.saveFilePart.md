@@ -18,7 +18,7 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |file\_id|[long](/API_docs/types/long.html) | Random file identifier created by the client | Yes|
-|file\_part|[int](/API_docs/types/int.html) | Numerical order of a part | Yes|
+|file\_part|[int](/API_docs/types/int.html) | Numerical order of a part | Optional|
 |bytes|[bytes](/API_docs/types/bytes.html) | Binary data, contend of a part | Yes|
 
 

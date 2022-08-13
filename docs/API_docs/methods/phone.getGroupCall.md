@@ -18,7 +18,7 @@ Get info about a group call
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | The group call | Yes|
-|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [phone.GroupCall](/API_docs/types/phone.GroupCall.html)

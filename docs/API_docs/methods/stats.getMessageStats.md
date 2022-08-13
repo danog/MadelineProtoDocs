@@ -19,7 +19,7 @@ Get [message statistics](https://core.telegram.org/api/stats)
 |----------|---------------|-------------|----------|
 |dark|[Bool](/API_docs/types/Bool.html) | Whether to enable dark theme for graph colors | Optional|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Channel ID | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | Message ID | Yes|
+|msg\_id|[int](/API_docs/types/int.html) | Message ID | Optional|
 
 
 ### Return type: [stats.MessageStats](/API_docs/types/stats.MessageStats.html)

@@ -23,7 +23,7 @@ Delete all messages sent by a specific participant of a given supergroup
 
 ### Return type: [messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.html)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

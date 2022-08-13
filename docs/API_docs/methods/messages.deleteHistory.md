@@ -20,7 +20,7 @@ Deletes communication history.
 |just\_clear|[Bool](/API_docs/types/Bool.html) | Just clear history for the current user, without actually removing messages for every chat user | Optional|
 |revoke|[Bool](/API_docs/types/Bool.html) | Whether to delete the message history for all chat participants | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | User or chat, communication history of which will be deleted | Optional|
-|max\_id|[int](/API_docs/types/int.html) | Maximum ID of message to delete | Yes|
+|max\_id|[int](/API_docs/types/int.html) | Maximum ID of message to delete | Optional|
 |min\_date|[int](/API_docs/types/int.html) | Delete all messages newer than this UNIX timestamp | Optional|
 |max\_date|[int](/API_docs/types/int.html) | Delete all messages older than this UNIX timestamp | Optional|
 

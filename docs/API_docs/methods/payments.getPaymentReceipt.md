@@ -18,7 +18,7 @@ Get payment receipt
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer where the payment receipt was sent | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | Message ID of receipt | Yes|
+|msg\_id|[int](/API_docs/types/int.html) | Message ID of receipt | Optional|
 
 
 ### Return type: [payments.PaymentReceipt](/API_docs/types/payments.PaymentReceipt.html)

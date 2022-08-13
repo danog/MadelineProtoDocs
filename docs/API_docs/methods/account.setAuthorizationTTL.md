@@ -17,7 +17,7 @@ Set time-to-live of current session
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|authorization\_ttl\_days|[int](/API_docs/types/int.html) | Time-to-live of current session in days | Yes|
+|authorization\_ttl\_days|[int](/API_docs/types/int.html) | Time-to-live of current session in days | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

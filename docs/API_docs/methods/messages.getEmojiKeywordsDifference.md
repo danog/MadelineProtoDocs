@@ -18,7 +18,7 @@ Get changed emoji keywords
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |lang\_code|[string](/API_docs/types/string.html) | Language code | Yes|
-|from\_version|[int](/API_docs/types/int.html) | Previous emoji keyword localization version | Yes|
+|from\_version|[int](/API_docs/types/int.html) | Previous emoji keyword localization version | Optional|
 
 
 ### Return type: [EmojiKeywordsDifference](/API_docs/types/EmojiKeywordsDifference.html)

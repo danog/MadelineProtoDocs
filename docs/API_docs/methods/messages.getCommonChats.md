@@ -19,7 +19,7 @@ Get chats in common with a user
 |----------|---------------|-------------|----------|
 |user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | User ID | Optional|
 |max\_id|[long](/API_docs/types/long.html) | Maximum ID of chat to return (see [pagination](https://core.telegram.org/api/offsets)) | Yes|
-|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Yes|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [messages.Chats](/API_docs/types/messages.Chats.html)

@@ -19,7 +19,7 @@ You cannot use this method directly, instead modify the PFS and default_temp_aut
 |----------|---------------|-------------|----------|
 |perm\_auth\_key\_id|[long](/API_docs/types/long.html) | Permanent auth\_key\_id to bind to | Yes|
 |nonce|[long](/API_docs/types/long.html) | Random long from [Binding message contents](#binding-message-contents) | Yes|
-|expires\_at|[int](/API_docs/types/int.html) | Unix timestamp to invalidate temporary key, see [Binding message contents](#binding-message-contents) | Yes|
+|expires\_at|[int](/API_docs/types/int.html) | Unix timestamp to invalidate temporary key, see [Binding message contents](#binding-message-contents) | Optional|
 |encrypted\_message|[bytes](/API_docs/types/bytes.html) | See [Generating encrypted\_message](#generating-encrypted-message) | Yes|
 
 

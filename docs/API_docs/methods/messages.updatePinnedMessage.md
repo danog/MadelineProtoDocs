@@ -21,7 +21,7 @@ Pin a message
 |unpin|[Bool](/API_docs/types/Bool.html) | Whether the message should unpinned or pinned | Optional|
 |pm\_oneside|[Bool](/API_docs/types/Bool.html) | Whether the message should only be pinned on the local side of a one-to-one chat | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer where to pin the message | Optional|
-|id|[int](/API_docs/types/int.html) | The message to pin or unpin | Yes|
+|id|[int](/API_docs/types/int.html) | The message to pin or unpin | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

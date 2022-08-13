@@ -17,8 +17,8 @@ Returns the list of blocked users.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|offset|[int](/API_docs/types/int.html) | The number of list elements to be skipped | Yes|
-|limit|[int](/API_docs/types/int.html) | The number of list elements to be returned | Yes|
+|offset|[int](/API_docs/types/int.html) | The number of list elements to be skipped | Optional|
+|limit|[int](/API_docs/types/int.html) | The number of list elements to be returned | Optional|
 
 
 ### Return type: [contacts.Blocked](/API_docs/types/contacts.Blocked.html)

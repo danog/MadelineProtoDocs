@@ -18,8 +18,8 @@ Returns content of an HTTP file or a part, by proxying the request through teleg
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |location|[InputWebFileLocation](/API_docs/types/InputWebFileLocation.html) | The file to download | Yes|
-|offset|[int](/API_docs/types/int.html) | Number of bytes to be skipped | Yes|
-|limit|[int](/API_docs/types/int.html) | Number of bytes to be returned | Yes|
+|offset|[int](/API_docs/types/int.html) | Number of bytes to be skipped | Optional|
+|limit|[int](/API_docs/types/int.html) | Number of bytes to be returned | Optional|
 
 
 ### Return type: [upload.WebFile](/API_docs/types/upload.WebFile.html)

@@ -18,7 +18,7 @@ Leave a group call
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | The group call | Yes|
-|source|[int](/API_docs/types/int.html) | Your source ID | Yes|
+|source|[int](/API_docs/types/int.html) | Your source ID | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

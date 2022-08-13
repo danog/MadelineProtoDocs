@@ -20,7 +20,7 @@ Get link and embed info of a message in a [channel/supergroup](https://core.tele
 |grouped|[Bool](/API_docs/types/Bool.html) | Whether to include other grouped media (for albums) | Optional|
 |thread|[Bool](/API_docs/types/Bool.html) | Whether to also include a thread ID, if available, inside of the link | Optional|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Channel | Optional|
-|id|[int](/API_docs/types/int.html) | Message ID | Yes|
+|id|[int](/API_docs/types/int.html) | Message ID | Optional|
 
 
 ### Return type: [ExportedMessageLink](/API_docs/types/ExportedMessageLink.html)

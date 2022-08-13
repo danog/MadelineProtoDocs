@@ -18,7 +18,7 @@ Returns users found by username substring.
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |q|[string](/API_docs/types/string.html) | Target substring | Yes|
-|limit|[int](/API_docs/types/int.html) | Maximum number of users to be returned | Yes|
+|limit|[int](/API_docs/types/int.html) | Maximum number of users to be returned | Optional|
 
 
 ### Return type: [contacts.Found](/API_docs/types/contacts.Found.html)

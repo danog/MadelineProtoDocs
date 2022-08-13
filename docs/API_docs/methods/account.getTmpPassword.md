@@ -18,7 +18,7 @@ Get temporary payment password
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html) | SRP password parameters | Yes|
-|period|[int](/API_docs/types/int.html) | Time during which the temporary password will be valid, in seconds; should be between 60 and 86400 | Yes|
+|period|[int](/API_docs/types/int.html) | Time during which the temporary password will be valid, in seconds; should be between 60 and 86400 | Optional|
 
 
 ### Return type: [account.TmpPassword](/API_docs/types/account.TmpPassword.html)

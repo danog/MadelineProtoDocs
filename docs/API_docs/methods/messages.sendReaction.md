@@ -19,7 +19,7 @@ React to message
 |----------|---------------|-------------|----------|
 |big|[Bool](/API_docs/types/Bool.html) | Whether a bigger and longer reaction should be shown | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | Message ID to react to | Yes|
+|msg\_id|[int](/API_docs/types/int.html) | Message ID to react to | Optional|
 |reaction|[string](/API_docs/types/string.html) | Reaction (a UTF8 emoji) | Optional|
 
 
