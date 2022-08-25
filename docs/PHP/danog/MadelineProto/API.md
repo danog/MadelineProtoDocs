@@ -71,7 +71,7 @@ Main API wrapper for MadelineProto.
 * `declineTos(): \Amp\Promise`
 * `discardCall(array $call, array $reason, array $rating, bool $need_debug): \Amp\Promise`
 * `discardSecretChat(int $chat): \Amp\Promise`
-* `downloadToBrowser(array|string $messageMedia, callable $cb): \Amp\Promise`
+* `downloadToBrowser(array|string $messageMedia, ?callable $cb, ?int $size): \Amp\Promise`
 * `downloadToCallable(mixed $messageMedia, callable|\danog\MadelineProto\FileCallbackInterface $callable, callable $cb, bool $seekable, int $offset, int $end, int $part_size): \Amp\Promise`
 * `downloadToDir(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $dir, callable $cb): \Amp\Promise`
 * `downloadToFile(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $file, callable $cb): \Amp\Promise Downloaded file path`
@@ -755,7 +755,7 @@ Parameters:
 
 
 
-### `downloadToBrowser(array|string $messageMedia, callable $cb): \Amp\Promise`
+### `downloadToBrowser(array|string $messageMedia, ?callable $cb, ?int $size): \Amp\Promise`
 
 Download file to browser.
 Supports HEAD requests and content-ranges for parallel and resumed downloads.
@@ -763,7 +763,8 @@ Supports HEAD requests and content-ranges for parallel and resumed downloads.
 Parameters:
 
 * `$messageMedia`: `array|string` File to download  
-* `$cb`: `callable` Status callback (can also use FileCallback)  
+* `$cb`: `?callable` Status callback (can also use FileCallback)  
+* `$size`: `?int` Size of file to download, required for bot API file IDs.  
 
 
 #### See also: 
