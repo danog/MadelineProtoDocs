@@ -15,7 +15,7 @@ redirect_from: /API_docs/methods/messages_getEmojiStickers.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|hash|[long](/API_docs/types/long.html) | Yes|
+|hash|[long](/API_docs/types/long.html) | Optional|
 
 
 ### Return type: [messages.AllStickers](/API_docs/types/messages.AllStickers.html)

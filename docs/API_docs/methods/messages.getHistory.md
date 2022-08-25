@@ -11,6 +11,9 @@ redirect_from: /API_docs/methods/messages_getHistory.html
 
 
 
+# Warning: flood wait
+**Warning: this method is prone to rate limiting with flood waits, please use the [event handler, instead &raquo;](/docs/UPDATES.html#async-event-driven)**
+
 Gets back the conversation history with one interlocutor / within a chat
 
 ### Parameters:

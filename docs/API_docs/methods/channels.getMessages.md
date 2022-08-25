@@ -11,6 +11,9 @@ redirect_from: /API_docs/methods/channels_getMessages.html
 
 
 
+# Warning: flood wait
+**Warning: this method is prone to rate limiting with flood waits, please use the [event handler, instead &raquo;](/docs/UPDATES.html#async-event-driven)**
+
 Get [channel/supergroup](https://core.telegram.org/api/channel) messages
 
 ### Parameters:

@@ -15,7 +15,7 @@ redirect_from: /API_docs/methods/messages_getAttachMenuBots.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|hash|[long](/API_docs/types/long.html) | Yes|
+|hash|[long](/API_docs/types/long.html) | Optional|
 
 
 ### Return type: [AttachMenuBots](/API_docs/types/AttachMenuBots.html)

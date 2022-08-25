@@ -11,6 +11,9 @@ redirect_from: /API_docs/methods/messages_getMessages.html
 
 
 
+# Warning: flood wait
+**Warning: this method is prone to rate limiting with flood waits, please use the [event handler, instead &raquo;](/docs/UPDATES.html#async-event-driven)**
+
 Returns the list of messages by their IDs.
 
 ### Parameters:

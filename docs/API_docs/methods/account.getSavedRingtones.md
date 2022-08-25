@@ -15,7 +15,7 @@ redirect_from: /API_docs/methods/account_getSavedRingtones.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|hash|[long](/API_docs/types/long.html) | Yes|
+|hash|[long](/API_docs/types/long.html) | Optional|
 
 
 ### Return type: [account.SavedRingtones](/API_docs/types/account.SavedRingtones.html)

@@ -1573,10 +1573,6 @@ $MadelineProto->[payments->getSavedInfo](/API_docs/methods/payments.getSavedInfo
 
 ***
 <br><br>
-$MadelineProto->[payments->requestRecurringPayment](/API_docs/methods/payments.requestRecurringPayment.html)(\[user_id: [InputUser](/API_docs/types/InputUser.html), recurring_init_charge: [string](/API_docs/types/string.html), invoice_media: [InputMedia](/API_docs/types/InputMedia.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.requestRecurringPayment"></a>  
-
-***
-<br><br>
 $MadelineProto->[payments->sendPaymentForm](/API_docs/methods/payments.sendPaymentForm.html)(\[form_id: [long](/API_docs/types/long.html), invoice: [InputInvoice](/API_docs/types/InputInvoice.html), requested_info_id: [string](/API_docs/types/string.html), shipping_option_id: [string](/API_docs/types/string.html), credentials: [InputPaymentCredentials](/API_docs/types/InputPaymentCredentials.html), tip_amount: [long](/API_docs/types/long.html), \]) === [$payments.PaymentResult](/API_docs/types/payments.PaymentResult.html)<a name="payments.sendPaymentForm"></a>  
 
 ***

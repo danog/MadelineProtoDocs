@@ -61,6 +61,8 @@ Event handler.
 * `end(array $what): mixed`
 * `exportAuthorization(): \Amp\Promise`
 * `extractBotAPIFile(array $info): ?array`
+* `extractMessageUpdate()`
+* `extractUpdates()`
 * `fileGetContents(string $url): \Amp\Promise`
 * `first((\Promise|\Generator)[] $promises): \Amp\Promise`
 * `flock(string $file, int $operation, float $polling, ?\Promise $token, ?callable $failureCb)`
@@ -921,6 +923,36 @@ Extract file info from bot API message.
 Parameters:
 
 * `$info`: `array` Bot API message object  
+
+
+
+### `extractMessageUpdate()`
+
+Extract an update message constructor from an Updates constructor.
+
+
+Fully typed return value:
+```
+\Amp\Promise<array>
+```
+#### See also: 
+* `\Amp\Promise`
+
+
+
+
+### `extractUpdates()`
+
+Extract Update constructors from an Updates constructor.
+
+
+Fully typed return value:
+```
+\Amp\Promise<array<array>>
+```
+#### See also: 
+* `\Amp\Promise`
+
 
 
 
