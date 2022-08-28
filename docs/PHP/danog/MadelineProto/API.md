@@ -71,11 +71,11 @@ Main API wrapper for MadelineProto.
 * `declineTos(): \Amp\Promise`
 * `discardCall(array $call, array $reason, array $rating, bool $need_debug): \Amp\Promise`
 * `discardSecretChat(int $chat): \Amp\Promise`
-* `downloadToBrowser(array|string $messageMedia, ?callable $cb, ?int $size): \Amp\Promise`
+* `downloadToBrowser(array|string $messageMedia, ?callable $cb, ?int $size, ?string $mime, ?string $name): \Amp\Promise`
 * `downloadToCallable(mixed $messageMedia, callable|\danog\MadelineProto\FileCallbackInterface $callable, callable $cb, bool $seekable, int $offset, int $end, int $part_size): \Amp\Promise`
 * `downloadToDir(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $dir, callable $cb): \Amp\Promise`
 * `downloadToFile(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $file, callable $cb): \Amp\Promise Downloaded file path`
-* `downloadToResponse(array|string $messageMedia, \ServerRequest $request, callable $cb): \Amp\Promise Returned response`
+* `downloadToResponse(array|string $messageMedia, \ServerRequest $request, callable $cb, ?int $size, ?string $name, ?string $mime): \Amp\Promise Returned response`
 * `downloadToStream(mixed $messageMedia, mixed|\danog\MadelineProto\FileCallbackInterface $stream, callable $cb, int $offset, int $end): \Amp\Promise`
 * `echo(string $string): \Amp\Promise`
 * `end(array $what): mixed`
@@ -756,7 +756,7 @@ Parameters:
 
 
 
-### `downloadToBrowser(array|string $messageMedia, ?callable $cb, ?int $size): \Amp\Promise`
+### `downloadToBrowser(array|string $messageMedia, ?callable $cb, ?int $size, ?string $mime, ?string $name): \Amp\Promise`
 
 Download file to browser.
 Supports HEAD requests and content-ranges for parallel and resumed downloads.
@@ -766,6 +766,8 @@ Parameters:
 * `$messageMedia`: `array|string` File to download  
 * `$cb`: `?callable` Status callback (can also use FileCallback)  
 * `$size`: `?int` Size of file to download, required for bot API file IDs.  
+* `$mime`: `?string` MIME type of file to download, required for bot API file IDs.  
+* `$name`: `?string` Name of file to download, required for bot API file IDs.  
 
 
 #### See also: 
@@ -851,7 +853,7 @@ Fully typed return value:
 
 
 
-### `downloadToResponse(array|string $messageMedia, \ServerRequest $request, callable $cb): \Amp\Promise Returned response`
+### `downloadToResponse(array|string $messageMedia, \ServerRequest $request, callable $cb, ?int $size, ?string $name, ?string $mime): \Amp\Promise Returned response`
 
 Download file to amphp/http-server response.
 Supports HEAD requests and content-ranges for parallel and resumed downloads.
@@ -861,6 +863,9 @@ Parameters:
 * `$messageMedia`: `array|string` File to download  
 * `$request`: `\ServerRequest` Request  
 * `$cb`: `callable` Status callback (can also use FileCallback)  
+* `$size`: `?int` Size of file to download, required for bot API file IDs.  
+* `$name`: `?string` Name of file to download, required for bot API file IDs.  
+* `$mime`: `?string` MIME type of file to download, required for bot API file IDs.  
 
 
 Return value: Returned response
