@@ -18,6 +18,7 @@ Event handler.
 
 ## Method list:
 * `startAndLoop(string $session, \danog\MadelineProto\SettingsAbstract $settings): void`
+* `startAndLoopBot(string $session, string $token, \danog\MadelineProto\SettingsAbstract $settings): void`
 * `getReportPeers(): array|string|int`
 * `getAPI(): \danog\MadelineProto\MTProto`
 * `MTProtoToBotAPI(array $data): \Amp\Promise<array>`
@@ -212,6 +213,24 @@ Also initializes error reporting, catching and reporting all errors surfacing fr
 Parameters:
 
 * `$session`: `string` Session name  
+* `$settings`: `\danog\MadelineProto\SettingsAbstract` Settings  
+
+
+#### See also: 
+* `\danog\MadelineProto\SettingsAbstract`
+
+
+
+
+### `startAndLoopBot(string $session, string $token, \danog\MadelineProto\SettingsAbstract $settings): void`
+
+Start MadelineProto as a bot and the event handler (enables async).
+Also initializes error reporting, catching and reporting all errors surfacing from the event loop.
+
+Parameters:
+
+* `$session`: `string` Session name  
+* `$token`: `string` Bot token  
 * `$settings`: `\danog\MadelineProto\SettingsAbstract` Settings  
 
 

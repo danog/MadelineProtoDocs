@@ -158,7 +158,11 @@ class MyEventHandler extends EventHandler
 $settings = new Settings;
 $settings->getLogger()->setLevel(Logger::LEVEL_ULTRA_VERBOSE);
 
+// For users or bots
 MyEventHandler::startAndLoop('bot.madeline', $settings);
+
+// For bots only
+MyEventHandler::startAndLoopBot('bot.madeline', 'bot token', $settings);
 ```
 
 This will create an event handler class `MyEventHandler`, create a MadelineProto session, and set the event handler class to our newly created event handler.

@@ -17,17 +17,10 @@ Class that controls script shutdown.
 
 
 ## Method list:
-* `shutdown(): void`
 * `addCallback(callable $callback, null|string $id): int|\string The callback ID`
 * `removeCallback(null|string|int $id): \bool true if the callback was removed correctly, false otherwise`
 
 ## Methods:
-### `shutdown(): void`
-
-Function to be called on shutdown.
-
-
-
 ### `addCallback(callable $callback, null|string $id): int|\string The callback ID`
 
 Add a callback for script shutdown.
