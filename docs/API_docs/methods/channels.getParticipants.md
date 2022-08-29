@@ -21,7 +21,7 @@ Get the participants of a [supergroup/channel](https://core.telegram.org/api/cha
 |filter|[ChannelParticipantsFilter](/API_docs/types/ChannelParticipantsFilter.html) | Which participant types to fetch | Yes|
 |offset|[int](/API_docs/types/int.html) | [Offset](https://core.telegram.org/api/offsets) | Optional|
 |limit|[int](/API_docs/types/int.html) | [Limit](https://core.telegram.org/api/offsets) | Optional|
-|hash|[long](/API_docs/types/long.html) | [Hash](https://core.telegram.org/api/offsets) | Yes|
+|hash|Array of [long](/API_docs/types/long.html) | [Hash](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [channels.ChannelParticipants](/API_docs/types/channels.ChannelParticipants.html)
@@ -42,6 +42,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$channels_ChannelParticipants = $MadelineProto->channels->getParticipants(channel: InputChannel, filter: ChannelParticipantsFilter, offset: int, limit: int, hash: long, );
+$channels_ChannelParticipants = $MadelineProto->channels->getParticipants(channel: InputChannel, filter: ChannelParticipantsFilter, offset: int, limit: int, hash: [long, long], );
 ```
 

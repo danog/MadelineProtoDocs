@@ -18,7 +18,7 @@ Get info about a stickerset
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.html) | Stickerset | Optional|
-|hash|Array of [int](/API_docs/types/int.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [long](/API_docs/types/long.html) |  | Optional|
 
 
 ### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.html)
@@ -39,6 +39,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$messages_StickerSet = $MadelineProto->messages->getStickerSet(stickerset: InputStickerSet, hash: [int, int], );
+$messages_StickerSet = $MadelineProto->messages->getStickerSet(stickerset: InputStickerSet, hash: [long, long], );
 ```
 

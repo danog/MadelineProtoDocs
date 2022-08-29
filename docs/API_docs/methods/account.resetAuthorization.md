@@ -17,7 +17,7 @@ Log out an active [authorized session](https://core.telegram.org/api/auth) by it
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[long](/API_docs/types/long.html) | Session hash | Yes|
+|hash|Array of [long](/API_docs/types/long.html) | Session hash | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
@@ -38,6 +38,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Bool = $MadelineProto->account->resetAuthorization(hash: long, );
+$Bool = $MadelineProto->account->resetAuthorization(hash: [long, long], );
 ```
 

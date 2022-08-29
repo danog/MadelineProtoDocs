@@ -17,7 +17,7 @@ Get saved GIFs
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Yes|
+|hash|Array of [long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.SavedGifs](/API_docs/types/messages.SavedGifs.html)
@@ -38,6 +38,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$messages_SavedGifs = $MadelineProto->messages->getSavedGifs(hash: long, );
+$messages_SavedGifs = $MadelineProto->messages->getSavedGifs(hash: [long, long], );
 ```
 

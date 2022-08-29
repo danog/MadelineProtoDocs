@@ -17,7 +17,7 @@ Change authorization settings
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[long](/API_docs/types/long.html) | Session ID from the [authorization](../constructors/authorization.html) constructor, fetchable using [account.getAuthorizations](../methods/account.getAuthorizations.html) | Yes|
+|hash|Array of [long](/API_docs/types/long.html) | Session ID from the [authorization](../constructors/authorization.html) constructor, fetchable using [account.getAuthorizations](../methods/account.getAuthorizations.html) | Optional|
 |encrypted\_requests\_disabled|[Bool](/API_docs/types/Bool.html) | Whether to enable or disable receiving encrypted chats: if the flag is not set, the previous setting is not changed | Optional|
 |call\_requests\_disabled|[Bool](/API_docs/types/Bool.html) | Whether to enable or disable receiving calls: if the flag is not set, the previous setting is not changed | Optional|
 
@@ -40,6 +40,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Bool = $MadelineProto->account->changeAuthorizationSettings(hash: long, encrypted_requests_disabled: Bool, call_requests_disabled: Bool, );
+$Bool = $MadelineProto->account->changeAuthorizationSettings(hash: [long, long], encrypted_requests_disabled: Bool, call_requests_disabled: Bool, );
 ```
 

@@ -18,7 +18,7 @@ Get [instant view](https://instantview.telegram.org) page
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |url|[string](/API_docs/types/string.html) | URL of IV page to fetch | Yes|
-|hash|Array of [int](/API_docs/types/int.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [long](/API_docs/types/long.html) |  | Optional|
 
 
 ### Return type: [WebPage](/API_docs/types/WebPage.html)
@@ -39,6 +39,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$WebPage = $MadelineProto->messages->getWebPage(url: 'string', hash: [int, int], );
+$WebPage = $MadelineProto->messages->getWebPage(url: 'string', hash: [long, long], );
 ```
 

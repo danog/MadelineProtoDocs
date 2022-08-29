@@ -15,7 +15,7 @@ redirect_from: /API_docs/methods/account_getSavedRingtones.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|hash|[long](/API_docs/types/long.html) | Optional|
+|hash|Array of [long](/API_docs/types/long.html) | Optional|
 
 
 ### Return type: [account.SavedRingtones](/API_docs/types/account.SavedRingtones.html)
@@ -36,6 +36,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$account_SavedRingtones = $MadelineProto->account->getSavedRingtones(hash: long, );
+$account_SavedRingtones = $MadelineProto->account->getSavedRingtones(hash: [long, long], );
 ```
 

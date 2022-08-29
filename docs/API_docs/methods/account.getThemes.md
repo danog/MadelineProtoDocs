@@ -18,7 +18,7 @@ Get installed themes
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |format|[string](/API_docs/types/string.html) | Theme format, a string that identifies the theming engines supported by the client | Yes|
-|hash|[long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Yes|
+|hash|Array of [long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [account.Themes](/API_docs/types/account.Themes.html)
@@ -39,6 +39,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$account_Themes = $MadelineProto->account->getThemes(format: 'string', hash: long, );
+$account_Themes = $MadelineProto->account->getThemes(format: 'string', hash: [long, long], );
 ```
 

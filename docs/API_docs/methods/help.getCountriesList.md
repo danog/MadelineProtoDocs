@@ -18,7 +18,7 @@ Get name, ISO code, localized name and phone codes/patterns of all available cou
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |lang\_code|[string](/API_docs/types/string.html) | Language code of the current user | Yes|
-|hash|Array of [int](/API_docs/types/int.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [long](/API_docs/types/long.html) |  | Optional|
 
 
 ### Return type: [help.CountriesList](/API_docs/types/help.CountriesList.html)
@@ -39,6 +39,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$help_CountriesList = $MadelineProto->help->getCountriesList(lang_code: 'string', hash: [int, int], );
+$help_CountriesList = $MadelineProto->help->getCountriesList(lang_code: 'string', hash: [long, long], );
 ```
 

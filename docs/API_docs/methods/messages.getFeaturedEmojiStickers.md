@@ -15,7 +15,7 @@ redirect_from: /API_docs/methods/messages_getFeaturedEmojiStickers.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|hash|[long](/API_docs/types/long.html) | Optional|
+|hash|Array of [long](/API_docs/types/long.html) | Optional|
 
 
 ### Return type: [messages.FeaturedStickers](/API_docs/types/messages.FeaturedStickers.html)
@@ -36,6 +36,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$messages_FeaturedStickers = $MadelineProto->messages->getFeaturedEmojiStickers(hash: long, );
+$messages_FeaturedStickers = $MadelineProto->messages->getFeaturedEmojiStickers(hash: [long, long], );
 ```
 

@@ -27,7 +27,7 @@ Gets back the conversation history with one interlocutor / within a chat
 |limit|[int](/API_docs/types/int.html) | Number of results to return | Optional|
 |max\_id|[int](/API_docs/types/int.html) | If a positive value was transferred, the method will return only messages with IDs less than **max\_id** | Optional|
 |min\_id|[int](/API_docs/types/int.html) | If a positive value was transferred, the method will return only messages with IDs more than **min\_id** | Optional|
-|hash|[long](/API_docs/types/long.html) | [Result hash](https://core.telegram.org/api/offsets) | Yes|
+|hash|Array of [long](/API_docs/types/long.html) | [Result hash](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)
@@ -48,6 +48,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$messages_Messages = $MadelineProto->messages->getHistory(peer: InputPeer, offset_id: int, offset_date: int, add_offset: int, limit: int, max_id: int, min_id: int, hash: long, );
+$messages_Messages = $MadelineProto->messages->getHistory(peer: InputPeer, offset_id: int, offset_date: int, add_offset: int, limit: int, max_id: int, min_id: int, hash: [long, long], );
 ```
 

@@ -18,7 +18,7 @@ Get stickers by emoji
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |emoticon|[string](/API_docs/types/string.html) | The emoji | Yes|
-|hash|[long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Yes|
+|hash|Array of [long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.Stickers](/API_docs/types/messages.Stickers.html)
@@ -39,6 +39,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$messages_Stickers = $MadelineProto->messages->getStickers(emoticon: 'string', hash: long, );
+$messages_Stickers = $MadelineProto->messages->getStickers(emoticon: 'string', hash: [long, long], );
 ```
 

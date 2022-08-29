@@ -17,7 +17,7 @@ Get faved stickers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Yes|
+|hash|Array of [long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.FavedStickers](/API_docs/types/messages.FavedStickers.html)
@@ -38,6 +38,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$messages_FavedStickers = $MadelineProto->messages->getFavedStickers(hash: long, );
+$messages_FavedStickers = $MadelineProto->messages->getFavedStickers(hash: [long, long], );
 ```
 

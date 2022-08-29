@@ -15,7 +15,7 @@ redirect_from: /API_docs/methods/messages_getAttachMenuBots.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|hash|[long](/API_docs/types/long.html) | Optional|
+|hash|Array of [long](/API_docs/types/long.html) | Optional|
 
 
 ### Return type: [AttachMenuBots](/API_docs/types/AttachMenuBots.html)
@@ -36,6 +36,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$AttachMenuBots = $MadelineProto->messages->getAttachMenuBots(hash: long, );
+$AttachMenuBots = $MadelineProto->messages->getAttachMenuBots(hash: [long, long], );
 ```
 

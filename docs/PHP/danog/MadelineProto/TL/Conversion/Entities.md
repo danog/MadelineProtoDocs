@@ -9,6 +9,7 @@ parent: "MadelineProto API"
 [Back to index](../../../../index.md)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
+> Author: Mahdi <mahdi.talaee1379@gmail.com>  
   
 
 Entities module.  
@@ -25,8 +26,8 @@ If not, see <http://www.gnu.org/licenses/>.
 * `entitiesToHtml(string $text, array|object $entities, bool $specialchars): string`
 * `entitiesToMarkdownV1(string $text, object|array $entities, bool $slashmarkdown): string`
 * `entitiesToMarkdown(string $text, object|array $entities, bool $slashmarkdown): string`
-* `markdownV1ToHtml(string $str, bool $specialchars): string`
-* `markdownToHtml(string $str, bool $specialchars): string`
+* `markdownV1ToHtml()`
+* `markdownToHtml()`
 * `htmlToEntities()`
 * `markdownToEntities()`
 * `markdownV1ToEntities()`
@@ -79,29 +80,17 @@ Parameters:
 
 
 
-### `markdownV1ToHtml(string $str, bool $specialchars): string`
+### `markdownV1ToHtml()`
 
 markdownV1ToHtml
 convert markdownv1 to html.
 
 
-Parameters:
 
-* `$str`: `string`   
-* `$specialchars`: `bool`   
-
-
-
-### `markdownToHtml(string $str, bool $specialchars): string`
+### `markdownToHtml()`
 
 markdownToHtml
 convert html tags to markdown format.
-
-
-Parameters:
-
-* `$str`: `string`   
-* `$specialchars`: `bool`   
 
 
 

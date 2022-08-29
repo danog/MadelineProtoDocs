@@ -18,7 +18,7 @@ Get recent stickers
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |attached|[Bool](/API_docs/types/Bool.html) | Get stickers recently attached to photo or video files | Optional|
-|hash|[long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Yes|
+|hash|Array of [long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.RecentStickers](/API_docs/types/messages.RecentStickers.html)
@@ -39,6 +39,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$messages_RecentStickers = $MadelineProto->messages->getRecentStickers(attached: Bool, hash: long, );
+$messages_RecentStickers = $MadelineProto->messages->getRecentStickers(attached: Bool, hash: [long, long], );
 ```
 

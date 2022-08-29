@@ -27,7 +27,7 @@ Get most used peers
 |channels|[Bool](/API_docs/types/Bool.html) | Most frequently visited channels | Optional|
 |offset|[int](/API_docs/types/int.html) | Offset for [pagination](https://core.telegram.org/api/offsets) | Optional|
 |limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
-|hash|[long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Yes|
+|hash|Array of [long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [contacts.TopPeers](/API_docs/types/contacts.TopPeers.html)
@@ -48,6 +48,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$contacts_TopPeers = $MadelineProto->contacts->getTopPeers(correspondents: Bool, bots_pm: Bool, bots_inline: Bool, phone_calls: Bool, forward_users: Bool, forward_chats: Bool, groups: Bool, channels: Bool, offset: int, limit: int, hash: long, );
+$contacts_TopPeers = $MadelineProto->contacts->getTopPeers(correspondents: Bool, bots_pm: Bool, bots_inline: Bool, phone_calls: Bool, forward_users: Bool, forward_chats: Bool, groups: Bool, channels: Bool, offset: int, limit: int, hash: [long, long], );
 ```
 
