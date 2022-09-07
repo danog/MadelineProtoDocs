@@ -6,7 +6,7 @@ parent: "MadelineProto API"
 
 ---
 # `danog\MadelineProto\EventHandler`
-[Back to index](../../index.md)
+[Back to index](../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
@@ -791,7 +791,7 @@ Fully typed return value:
 \Amp\Promise<true>
 ```
 #### See also: 
-* [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.md)
+* [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
 * `\Amp\Promise`
 
 
@@ -814,7 +814,7 @@ Fully typed return value:
 \Amp\Promise<false|string>
 ```
 #### See also: 
-* [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.md)
+* [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
 * `\Amp\Promise`
 
 
@@ -839,7 +839,7 @@ Fully typed return value:
 \Amp\Promise<false|string>
 ```
 #### See also: 
-* [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.md)
+* [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
 * `\Amp\Promise`
 
 
@@ -893,7 +893,7 @@ Fully typed return value:
 \Amp\Promise<mixed>
 ```
 #### See also: 
-* [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.md)
+* [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
 * `\Amp\Promise`
 
 
@@ -1304,7 +1304,7 @@ Fully typed return value:
 \danog\MadelineProto\EventHandler|\Amp\Promise<\danog\MadelineProto\EventHandler>
 ```
 #### See also: 
-* [`\danog\MadelineProto\EventHandler`: Event handler.](../../danog/MadelineProto/EventHandler.md)
+* [`\danog\MadelineProto\EventHandler`: Event handler.](../../danog/MadelineProto/EventHandler.html)
 * `\Amp\Promise`
 
 
@@ -1631,7 +1631,7 @@ Fully typed return value:
 \danog\MadelineProto\Settings|\Amp\Promise<\danog\MadelineProto\Settings>
 ```
 #### See also: 
-* [`\danog\MadelineProto\Settings`: Settings class used for configuring MadelineProto.](../../danog/MadelineProto/Settings.md)
+* [`\danog\MadelineProto\Settings`: Settings class used for configuring MadelineProto.](../../danog/MadelineProto/Settings.html)
 * `\Amp\Promise`
 
 
@@ -2425,7 +2425,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\EventHandler`: Event handler.](../../danog/MadelineProto/EventHandler.md)
+* [`\danog\MadelineProto\EventHandler`: Event handler.](../../danog/MadelineProto/EventHandler.html)
 * `\Amp\Promise`
 
 
@@ -2861,7 +2861,7 @@ Fully typed return value:
 \Amp\Promise<mixed>
 ```
 #### See also: 
-* [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.md)
+* [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
 * `\Amp\Promise`
 
 
@@ -2884,7 +2884,7 @@ Fully typed return value:
 \Amp\Promise<mixed>
 ```
 #### See also: 
-* [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.md)
+* [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
 * `\Amp\Promise`
 
 
@@ -2983,7 +2983,7 @@ Fully typed return value:
 \Amp\Promise<mixed>
 ```
 #### See also: 
-* [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.md)
+* [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
 * `\Amp\Promise`
 
 

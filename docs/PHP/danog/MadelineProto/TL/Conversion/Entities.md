@@ -6,7 +6,7 @@ parent: "MadelineProto API"
 
 ---
 # `danog\MadelineProto\TL\Conversion\Entities`
-[Back to index](../../../../index.md)
+[Back to index](../../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
 > Author: Mahdi <mahdi.talaee1379@gmail.com>  

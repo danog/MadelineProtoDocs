@@ -6,7 +6,7 @@ parent: "MadelineProto API"
 
 ---
 # `danog\MadelineProto\Logger`
-[Back to index](../../index.md)
+[Back to index](../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
@@ -56,7 +56,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Logger`: Logger settings.](../../danog/MadelineProto/Settings/Logger.md)
+* [`\danog\MadelineProto\Settings\Logger`: Logger settings.](../../danog/MadelineProto/Settings/Logger.html)
 
 
 

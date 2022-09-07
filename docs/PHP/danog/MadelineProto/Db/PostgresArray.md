@@ -6,7 +6,7 @@ parent: "MadelineProto API"
 
 ---
 # `danog\MadelineProto\Db\PostgresArray`
-[Back to index](../../../index.md)
+[Back to index](../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
@@ -51,7 +51,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Database\Postgres`: Postgres backend settings.](../../../danog/MadelineProto/Settings/Database/Postgres.md)
+* [`\danog\MadelineProto\Settings\Database\Postgres`: Postgres backend settings.](../../../danog/MadelineProto/Settings/Database/Postgres.html)
 * `\Generator`
 
 
@@ -139,8 +139,8 @@ Fully typed return value:
 \Amp\Promise<static>
 ```
 #### See also: 
-* [`\danog\MadelineProto\Db\DbArray`: DB array interface.](../../../danog/MadelineProto/Db/DbArray.md)
-* [`\danog\MadelineProto\Settings\Database\DatabaseAbstract`: Base class for database backends.](../../../danog/MadelineProto/Settings/Database/DatabaseAbstract.md)
+* [`\danog\MadelineProto\Db\DbArray`: DB array interface.](../../../danog/MadelineProto/Db/DbArray.html)
+* [`\danog\MadelineProto\Settings\Database\DatabaseAbstract`: Base class for database backends.](../../../danog/MadelineProto/Settings/Database/DatabaseAbstract.html)
 * `\Amp\Promise`
 
 
