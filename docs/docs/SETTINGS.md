@@ -50,6 +50,8 @@ It's recommended you create a separate file that accesses the session just to mo
 
 You can also group settings in a single [\danog\MadelineProto\Settings](../PHP/danog/MadelineProto/Settings.html) object, to quickly modify multiple settings:
 
+**See [here &raquo;](../PHP/danog/MadelineProto/Settings.html) for more info on how to get and modify the instances of each subsetting class mentioned at the beginning of this page**.
+
 ```php
 $settings = new \danog\MadelineProto\Settings;
 $settings->setDb((new Database\Mysql)
