@@ -16,7 +16,7 @@ A list of peers that can be used to send messages in a specific group
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peers|Array of [Peer](/API_docs/types/Peer.html) | Yes|Peers that can be used to send messages to the group|
+|peers|Array of [SendAsPeer](/API_docs/types/SendAsPeer.html) | Yes|Peers that can be used to send messages to the group|
 |chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Mentioned chats|
 |users|Array of [User](/API_docs/types/User.html) | Yes|Mentioned users|
 
@@ -28,5 +28,5 @@ A list of peers that can be used to send messages in a specific group
 ### Example:
 
 ```
-$channels_sendAsPeers = ['_' => 'channels.sendAsPeers', 'peers' => [Peer, Peer], 'chats' => [Chat, Chat], 'users' => [User, User]];
+$channels_sendAsPeers = ['_' => 'channels.sendAsPeers', 'peers' => [SendAsPeer, SendAsPeer], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

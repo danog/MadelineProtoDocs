@@ -37,9 +37,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [decryptedMessageMediaDocument\_45](/API_docs/constructors/decryptedMessageMediaDocument_45.html)  
 
-[decryptedMessageMediaVenue\_46](/API_docs/constructors/decryptedMessageMediaVenue_46.html)  
+[decryptedMessageMediaVenue\_45](/API_docs/constructors/decryptedMessageMediaVenue_45.html)  
 
-[decryptedMessageMediaWebPage\_46](/API_docs/constructors/decryptedMessageMediaWebPage_46.html)  
+[decryptedMessageMediaWebPage\_45](/API_docs/constructors/decryptedMessageMediaWebPage_45.html)  
+
+[decryptedMessageMediaDocument\_143](/API_docs/constructors/decryptedMessageMediaDocument_143.html)  
 
 
 

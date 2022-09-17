@@ -11,6 +11,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 Installed stickersets have changed, the client should refetch them using [messages.getAllStickers](https://core.telegram.org/method/messages.getAllStickers)
 
+### Attributes:
+
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|masks|[Bool](/API_docs/types/Bool.html) | Optional|
+|emojis|[Bool](/API_docs/types/Bool.html) | Optional|
 
 
 
@@ -20,5 +26,5 @@ Installed stickersets have changed, the client should refetch them using [messag
 ### Example:
 
 ```
-$updateStickerSets = ['_' => 'updateStickerSets'];
+$updateStickerSets = ['_' => 'updateStickerSets', 'masks' => Bool, 'emojis' => Bool];
 ```  

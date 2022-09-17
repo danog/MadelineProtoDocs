@@ -21,6 +21,7 @@ Send an [album or grouped media](https://core.telegram.org/api/files#albums-grou
 |background|[Bool](/API_docs/types/Bool.html) | Send in background? | Optional|
 |clear\_draft|[Bool](/API_docs/types/Bool.html) | Whether to clear [drafts](https://core.telegram.org/api/drafts) | Optional|
 |noforwards|[Bool](/API_docs/types/Bool.html) | Only for bots, disallows forwarding and saving of the messages, even if the destination chat doesn't have [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) enabled | Optional|
+|update\_stickersets\_order|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The destination chat | Optional|
 |reply\_to\_msg\_id|[int](/API_docs/types/int.html) | The message to reply to | Optional|
 |multi\_media|Array of [InputSingleMedia](/API_docs/types/InputSingleMedia.html) | The medias to send | Yes|
@@ -46,6 +47,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Updates = $MadelineProto->messages->sendMultiMedia(silent: Bool, background: Bool, clear_draft: Bool, noforwards: Bool, peer: InputPeer, reply_to_msg_id: int, multi_media: [InputSingleMedia, InputSingleMedia], schedule_date: int, send_as: InputPeer, );
+$Updates = $MadelineProto->messages->sendMultiMedia(silent: Bool, background: Bool, clear_draft: Bool, noforwards: Bool, update_stickersets_order: Bool, peer: InputPeer, reply_to_msg_id: int, multi_media: [InputSingleMedia, InputSingleMedia], schedule_date: int, send_as: InputPeer, );
 ```
 

@@ -18,9 +18,10 @@ React to message
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |big|[Bool](/API_docs/types/Bool.html) | Whether a bigger and longer reaction should be shown | Optional|
+|add\_to\_recent|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
 |msg\_id|[int](/API_docs/types/int.html) | Message ID to react to | Optional|
-|reaction|[string](/API_docs/types/string.html) | Reaction (a UTF8 emoji) | Optional|
+|reaction|Array of [Reaction](/API_docs/types/Reaction.html) |  | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -41,6 +42,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Updates = $MadelineProto->messages->sendReaction(big: Bool, peer: InputPeer, msg_id: int, reaction: 'string', );
+$Updates = $MadelineProto->messages->sendReaction(big: Bool, add_to_recent: Bool, peer: InputPeer, msg_id: int, reaction: [Reaction, Reaction], );
 ```
 

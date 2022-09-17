@@ -32,7 +32,7 @@ Full info about a [basic group](https://core.telegram.org/api/channel#basic-grou
 |theme\_emoticon|[string](/API_docs/types/string.html) | Optional|Emoji representing a specific chat theme|
 |requests\_pending|[int](/API_docs/types/int.html) | Optional|Pending [join requests »](https://core.telegram.org/api/invites#join-requests)|
 |recent\_requesters|Array of [long](/API_docs/types/long.html) | Optional|IDs of users who requested to join recently|
-|available\_reactions|Array of [string](/API_docs/types/string.html) | Optional|Allowed [message reactions »](https://core.telegram.org/api/reactions)|
+|available\_reactions|[ChatReactions](/API_docs/types/ChatReactions.html) | Optional|
 
 
 
@@ -42,5 +42,5 @@ Full info about a [basic group](https://core.telegram.org/api/channel#basic-grou
 ### Example:
 
 ```
-$chatFull = ['_' => 'chatFull', 'can_set_username' => Bool, 'has_scheduled' => Bool, 'id' => long, 'about' => 'string', 'participants' => ChatParticipants, 'chat_photo' => Photo, 'notify_settings' => PeerNotifySettings, 'exported_invite' => ExportedChatInvite, 'bot_info' => [BotInfo, BotInfo], 'pinned_msg_id' => int, 'folder_id' => int, 'call' => InputGroupCall, 'ttl_period' => int, 'groupcall_default_join_as' => Peer, 'theme_emoticon' => 'string', 'requests_pending' => int, 'recent_requesters' => [long, long], 'available_reactions' => ['string', 'string']];
+$chatFull = ['_' => 'chatFull', 'can_set_username' => Bool, 'has_scheduled' => Bool, 'id' => long, 'about' => 'string', 'participants' => ChatParticipants, 'chat_photo' => Photo, 'notify_settings' => PeerNotifySettings, 'exported_invite' => ExportedChatInvite, 'bot_info' => [BotInfo, BotInfo], 'pinned_msg_id' => int, 'folder_id' => int, 'call' => InputGroupCall, 'ttl_period' => int, 'groupcall_default_join_as' => Peer, 'theme_emoticon' => 'string', 'requests_pending' => int, 'recent_requesters' => [long, long], 'available_reactions' => ChatReactions];
 ```  

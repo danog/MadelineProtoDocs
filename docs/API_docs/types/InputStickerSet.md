@@ -25,6 +25,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputStickerSetPremiumGifts](/API_docs/constructors/inputStickerSetPremiumGifts.html)  
 
+[inputStickerSetEmojiGenericAnimations](/API_docs/constructors/inputStickerSetEmojiGenericAnimations.html)  
+
+[inputStickerSetEmojiDefaultStatuses](/API_docs/constructors/inputStickerSetEmojiDefaultStatuses.html)  
+
 
 
 ### Methods that return an object of this type (methods):

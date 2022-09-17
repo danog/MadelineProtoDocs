@@ -15,6 +15,8 @@ Contents of an encrypted message.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|no\_webpage|[Bool](/API_docs/types/Bool.html) | Optional|Whether the webpage preview is disabled|
+|silent|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a silent message (no notification triggered)|
 |ttl|[int](/API_docs/types/int.html) | Yes|Message lifetime. Has higher priority than [decryptedMessageActionSetMessageTTL](../constructors/decryptedMessageActionSetMessageTTL.html).<br>Parameter added in [Layer 17](https://core.telegram.org/api/layers#layer-17).|
 |message|[string](/API_docs/types/string.html) | Yes|Message text|
 |media|[DecryptedMessageMedia](/API_docs/types/DecryptedMessageMedia.html) | Optional|Media content|
@@ -31,5 +33,5 @@ Contents of an encrypted message.
 ### Example:
 
 ```
-$decryptedMessage_73 = ['_' => 'decryptedMessage', 'ttl' => int, 'message' => 'string', 'media' => DecryptedMessageMedia, 'entities' => [MessageEntity, MessageEntity], 'via_bot_name' => 'string', 'reply_to_random_id' => long, 'grouped_id' => long];
+$decryptedMessage_73 = ['_' => 'decryptedMessage', 'no_webpage' => Bool, 'silent' => Bool, 'ttl' => int, 'message' => 'string', 'media' => DecryptedMessageMedia, 'entities' => [MessageEntity, MessageEntity], 'via_bot_name' => 'string', 'reply_to_random_id' => long, 'grouped_id' => long];
 ```  

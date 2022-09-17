@@ -19,7 +19,8 @@ You cannot use this method directly, use the completePhoneLogin method instead (
 |----------|---------------|-------------|----------|
 |phone\_number|[string](/API_docs/types/string.html) | Phone number in the international format | Yes|
 |phone\_code\_hash|[string](/API_docs/types/string.html) | SMS-message ID, obtained from [auth.sendCode](../methods/auth.sendCode.html) | Yes|
-|phone\_code|[string](/API_docs/types/string.html) | Valid numerical code from the SMS-message | Yes|
+|phone\_code|[string](/API_docs/types/string.html) | Valid numerical code from the SMS-message | Optional|
+|email\_verification|[EmailVerification](/API_docs/types/EmailVerification.html) |  | Optional|
 
 
 ### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.html)
@@ -40,6 +41,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$auth_Authorization = $MadelineProto->auth->signIn(phone_number: 'string', phone_code_hash: 'string', phone_code: 'string', );
+$auth_Authorization = $MadelineProto->auth->signIn(phone_number: 'string', phone_code_hash: 'string', phone_code: 'string', email_verification: EmailVerification, );
 ```
 

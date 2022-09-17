@@ -23,6 +23,7 @@ Generated invoice of a [bot payment](https://core.telegram.org/bots/payments)
 |provider|[string](/API_docs/types/string.html) | Yes|Payments provider token, obtained via [Botfather](https://t.me/botfather)|
 |provider\_data|[DataJSON](/API_docs/types/DataJSON.html) | Yes|JSON-encoded data about the invoice, which will be shared with the payment provider. A detailed description of required fields should be provided by the payment provider.|
 |start\_param|[string](/API_docs/types/string.html) | Optional|Start parameter|
+|extended\_media|[MessageMedia, Message, Update or InputMedia](/API_docs/types/InputMedia.html) | Optional|
 
 
 
@@ -32,5 +33,5 @@ Generated invoice of a [bot payment](https://core.telegram.org/bots/payments)
 ### Example:
 
 ```
-$inputMediaInvoice = ['_' => 'inputMediaInvoice', 'title' => 'string', 'description' => 'string', 'photo' => InputWebDocument, 'invoice' => Invoice, 'payload' => 'bytes', 'provider' => 'string', 'provider_data' => DataJSON, 'start_param' => 'string'];
+$inputMediaInvoice = ['_' => 'inputMediaInvoice', 'title' => 'string', 'description' => 'string', 'photo' => InputWebDocument, 'invoice' => Invoice, 'payload' => 'bytes', 'provider' => 'string', 'provider_data' => DataJSON, 'start_param' => 'string', 'extended_media' => InputMedia];
 ```  

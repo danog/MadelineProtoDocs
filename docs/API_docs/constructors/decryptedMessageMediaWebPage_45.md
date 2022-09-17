@@ -4,7 +4,7 @@ description: "Webpage preview"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Constructor: decryptedMessageMediaWebPage\_46  
+# Constructor: decryptedMessageMediaWebPage\_45  
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
@@ -25,5 +25,5 @@ Webpage preview
 ### Example:
 
 ```
-$decryptedMessageMediaWebPage_46 = ['_' => 'decryptedMessageMediaWebPage', 'url' => 'string'];
+$decryptedMessageMediaWebPage_45 = ['_' => 'decryptedMessageMediaWebPage', 'url' => 'string'];
 ```  

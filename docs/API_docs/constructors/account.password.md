@@ -28,6 +28,7 @@ Configuration for two-factor authorization
 |new\_secure\_algo|[SecurePasswordKdfAlgo](/API_docs/types/SecurePasswordKdfAlgo.html) | Yes|The KDF algorithm for telegram [passport](https://core.telegram.org/passport)|
 |secure\_random|[bytes](/API_docs/types/bytes.html) | Yes|Secure random string|
 |pending\_reset\_date|[int](/API_docs/types/int.html) | Optional|The 2FA password will be automatically removed at this date, unless the user cancels the operation|
+|login\_email\_pattern|[string](/API_docs/types/string.html) | Optional|
 
 
 
@@ -37,5 +38,5 @@ Configuration for two-factor authorization
 ### Example:
 
 ```
-$account_password = ['_' => 'account.password', 'has_recovery' => Bool, 'has_secure_values' => Bool, 'has_password' => Bool, 'current_algo' => PasswordKdfAlgo, 'srp_B' => 'bytes', 'srp_id' => long, 'hint' => 'string', 'email_unconfirmed_pattern' => 'string', 'new_algo' => PasswordKdfAlgo, 'new_secure_algo' => SecurePasswordKdfAlgo, 'secure_random' => 'bytes', 'pending_reset_date' => int];
+$account_password = ['_' => 'account.password', 'has_recovery' => Bool, 'has_secure_values' => Bool, 'has_password' => Bool, 'current_algo' => PasswordKdfAlgo, 'srp_B' => 'bytes', 'srp_id' => long, 'hint' => 'string', 'email_unconfirmed_pattern' => 'string', 'new_algo' => PasswordKdfAlgo, 'new_secure_algo' => SecurePasswordKdfAlgo, 'secure_random' => 'bytes', 'pending_reset_date' => int, 'login_email_pattern' => 'string'];
 ```  

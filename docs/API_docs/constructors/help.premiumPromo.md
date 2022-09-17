@@ -18,8 +18,7 @@ redirect_from: /API_docs/constructors/help_premiumPromo.html
 |status\_entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Yes|
 |video\_sections|Array of [string](/API_docs/types/string.html) | Yes|
 |videos|Array of [Document](/API_docs/types/Document.html) | Yes|
-|currency|[string](/API_docs/types/string.html) | Yes|
-|monthly\_amount|[long](/API_docs/types/long.html) | Yes|
+|period\_options|Array of [PremiumSubscriptionOption](/API_docs/types/PremiumSubscriptionOption.html) | Yes|
 |users|Array of [User](/API_docs/types/User.html) | Yes|
 
 
@@ -30,5 +29,5 @@ redirect_from: /API_docs/constructors/help_premiumPromo.html
 ### Example:
 
 ```
-$help_premiumPromo = ['_' => 'help.premiumPromo', 'status_text' => 'string', 'status_entities' => [MessageEntity, MessageEntity], 'video_sections' => ['string', 'string'], 'videos' => [Document, Document], 'currency' => 'string', 'monthly_amount' => long, 'users' => [User, User]];
+$help_premiumPromo = ['_' => 'help.premiumPromo', 'status_text' => 'string', 'status_entities' => [MessageEntity, MessageEntity], 'video_sections' => ['string', 'string'], 'videos' => [Document, Document], 'period_options' => [PremiumSubscriptionOption, PremiumSubscriptionOption], 'users' => [User, User]];
 ```  

@@ -17,6 +17,7 @@ Send the verification email code for telegram [passport](https://core.telegram.o
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|purpose|[EmailVerifyPurpose](/API_docs/types/EmailVerifyPurpose.html) |  | Yes|
 |email|[string](/API_docs/types/string.html) | The email where to send the code | Yes|
 
 
@@ -38,6 +39,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$account_SentEmailCode = $MadelineProto->account->sendVerifyEmailCode(email: 'string', );
+$account_SentEmailCode = $MadelineProto->account->sendVerifyEmailCode(purpose: EmailVerifyPurpose, email: 'string', );
 ```
 

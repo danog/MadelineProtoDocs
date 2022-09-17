@@ -15,8 +15,8 @@ The set of allowed [message reactions »](https://core.telegram.org/api/reaction
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|prev\_value|Array of [string](/API_docs/types/string.html) | Yes|Previously allowed reaction emojis|
-|new\_value|Array of [string](/API_docs/types/string.html) | Yes|New allowed reaction emojis|
+|prev\_value|[ChatReactions](/API_docs/types/ChatReactions.html) | Yes|
+|new\_value|[ChatReactions](/API_docs/types/ChatReactions.html) | Yes|
 
 
 
@@ -26,5 +26,5 @@ The set of allowed [message reactions »](https://core.telegram.org/api/reaction
 ### Example:
 
 ```
-$channelAdminLogEventActionChangeAvailableReactions = ['_' => 'channelAdminLogEventActionChangeAvailableReactions', 'prev_value' => ['string', 'string'], 'new_value' => ['string', 'string']];
+$channelAdminLogEventActionChangeAvailableReactions = ['_' => 'channelAdminLogEventActionChangeAvailableReactions', 'prev_value' => ChatReactions, 'new_value' => ChatReactions];
 ```  

@@ -55,6 +55,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [sendMessageUploadDocumentAction\_17](/API_docs/constructors/sendMessageUploadDocumentAction_17.html)  
 
+[sendMessageUploadRoundAction\_66](/API_docs/constructors/sendMessageUploadRoundAction_66.html)  
+
 
 
 ### Methods that return an object of this type (methods):

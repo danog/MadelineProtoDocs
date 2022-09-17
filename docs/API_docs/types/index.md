@@ -85,6 +85,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [ChatPhoto](/API_docs/types/ChatPhoto.html)<a name="ChatPhoto"></a>  
 
+[ChatReactions](/API_docs/types/ChatReactions.html)<a name="ChatReactions"></a>  
+
 [CodeSettings](/API_docs/types/CodeSettings.html)<a name="CodeSettings"></a>  
 
 [Config](/API_docs/types/Config.html)<a name="Config"></a>  
@@ -119,11 +121,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [DraftMessage](/API_docs/types/DraftMessage.html)<a name="DraftMessage"></a>  
 
+[EmailVerification](/API_docs/types/EmailVerification.html)<a name="EmailVerification"></a>  
+
+[EmailVerifyPurpose](/API_docs/types/EmailVerifyPurpose.html)<a name="EmailVerifyPurpose"></a>  
+
 [EmojiKeyword](/API_docs/types/EmojiKeyword.html)<a name="EmojiKeyword"></a>  
 
 [EmojiKeywordsDifference](/API_docs/types/EmojiKeywordsDifference.html)<a name="EmojiKeywordsDifference"></a>  
 
 [EmojiLanguage](/API_docs/types/EmojiLanguage.html)<a name="EmojiLanguage"></a>  
+
+[EmojiStatus](/API_docs/types/EmojiStatus.html)<a name="EmojiStatus"></a>  
 
 [EmojiURL](/API_docs/types/EmojiURL.html)<a name="EmojiURL"></a>  
 
@@ -283,6 +291,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [MessageEntity](/API_docs/types/MessageEntity.html)<a name="MessageEntity"></a>  
 
+[MessageExtendedMedia](/API_docs/types/MessageExtendedMedia.html)<a name="MessageExtendedMedia"></a>  
+
 [MessageFwdHeader](/API_docs/types/MessageFwdHeader.html)<a name="MessageFwdHeader"></a>  
 
 [MessageInteractionCounters](/API_docs/types/MessageInteractionCounters.html)<a name="MessageInteractionCounters"></a>  
@@ -375,9 +385,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [PremiumGiftOption](/API_docs/types/PremiumGiftOption.html)<a name="PremiumGiftOption"></a>  
 
+[PremiumSubscriptionOption](/API_docs/types/PremiumSubscriptionOption.html)<a name="PremiumSubscriptionOption"></a>  
+
 [PrivacyKey](/API_docs/types/PrivacyKey.html)<a name="PrivacyKey"></a>  
 
 [PrivacyRule](/API_docs/types/PrivacyRule.html)<a name="PrivacyRule"></a>  
+
+[Reaction](/API_docs/types/Reaction.html)<a name="Reaction"></a>  
 
 [ReactionCount](/API_docs/types/ReactionCount.html)<a name="ReactionCount"></a>  
 
@@ -420,6 +434,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [SecureValueHash](/API_docs/types/SecureValueHash.html)<a name="SecureValueHash"></a>  
 
 [SecureValueType](/API_docs/types/SecureValueType.html)<a name="SecureValueType"></a>  
+
+[SendAsPeer](/API_docs/types/SendAsPeer.html)<a name="SendAsPeer"></a>  
 
 [SendMessageAction](/API_docs/types/SendMessageAction.html)<a name="SendMessageAction"></a>  
 
@@ -504,6 +520,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [account.AutoDownloadSettings](/API_docs/types/account.AutoDownloadSettings.html)<a name="account.AutoDownloadSettings"></a>  
 
 [account.ContentSettings](/API_docs/types/account.ContentSettings.html)<a name="account.ContentSettings"></a>  
+
+[account.EmailVerified](/API_docs/types/account.EmailVerified.html)<a name="account.EmailVerified"></a>  
+
+[account.EmojiStatuses](/API_docs/types/account.EmojiStatuses.html)<a name="account.EmojiStatuses"></a>  
 
 [account.Password](/API_docs/types/account.Password.html)<a name="account.Password"></a>  
 
@@ -662,6 +682,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [messages.PeerDialogs](/API_docs/types/messages.PeerDialogs.html)<a name="messages.PeerDialogs"></a>  
 
 [messages.PeerSettings](/API_docs/types/messages.PeerSettings.html)<a name="messages.PeerSettings"></a>  
+
+[messages.Reactions](/API_docs/types/messages.Reactions.html)<a name="messages.Reactions"></a>  
 
 [messages.RecentStickers](/API_docs/types/messages.RecentStickers.html)<a name="messages.RecentStickers"></a>  
 

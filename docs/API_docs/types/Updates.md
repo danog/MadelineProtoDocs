@@ -105,6 +105,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->messages->sendWebViewData](/API_docs/methods/messages.sendWebViewData.html)  
 
+[$MadelineProto->messages->getExtendedMedia](/API_docs/methods/messages.getExtendedMedia.html)  
+
 [$MadelineProto->help->getAppChangelog](/API_docs/methods/help.getAppChangelog.html)  
 
 [$MadelineProto->channels->createChannel](/API_docs/methods/channels.createChannel.html)  

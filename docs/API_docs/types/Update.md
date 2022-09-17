@@ -215,6 +215,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateReadFeaturedEmojiStickers](/API_docs/constructors/updateReadFeaturedEmojiStickers.html)  
 
+[updateUserEmojiStatus](/API_docs/constructors/updateUserEmojiStatus.html)  
+
+[updateRecentEmojiStatuses](/API_docs/constructors/updateRecentEmojiStatuses.html)  
+
+[updateRecentReactions](/API_docs/constructors/updateRecentReactions.html)  
+
+[updateMoveStickerSetToTop](/API_docs/constructors/updateMoveStickerSetToTop.html)  
+
+[updateMessageExtendedMedia](/API_docs/constructors/updateMessageExtendedMedia.html)  
+
 
 
 ### Methods that return an object of this type (methods):

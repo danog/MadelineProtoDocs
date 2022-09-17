@@ -17,11 +17,11 @@ Verify an email address for telegram [passport](https://core.telegram.org/passpo
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|email|[string](/API_docs/types/string.html) | The email to verify | Yes|
-|code|[string](/API_docs/types/string.html) | The verification code that was received | Yes|
+|purpose|[EmailVerifyPurpose](/API_docs/types/EmailVerifyPurpose.html) |  | Yes|
+|verification|[EmailVerification](/API_docs/types/EmailVerification.html) |  | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.html)
+### Return type: [account.EmailVerified](/API_docs/types/account.EmailVerified.html)
 
 ### Can bots use this method: **NO**
 
@@ -39,6 +39,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Bool = $MadelineProto->account->verifyEmail(email: 'string', code: 'string', );
+$account_EmailVerified = $MadelineProto->account->verifyEmail(purpose: EmailVerifyPurpose, verification: EmailVerification, );
 ```
 

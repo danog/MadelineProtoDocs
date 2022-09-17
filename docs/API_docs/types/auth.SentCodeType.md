@@ -22,6 +22,10 @@ redirect_from: /API_docs/types/auth_SentCodeType.html
 
 [auth.sentCodeTypeMissedCall](/API_docs/constructors/auth.sentCodeTypeMissedCall.html)  
 
+[auth.sentCodeTypeEmailCode](/API_docs/constructors/auth.sentCodeTypeEmailCode.html)  
+
+[auth.sentCodeTypeSetUpEmailRequired](/API_docs/constructors/auth.sentCodeTypeSetUpEmailRequired.html)  
+
 
 
 ### Methods that return an object of this type (methods):

@@ -22,6 +22,7 @@ Sends a message to a chat
 |background|[Bool](/API_docs/types/Bool.html) | Send this message as background message | Optional|
 |clear\_draft|[Bool](/API_docs/types/Bool.html) | Clear the draft field | Optional|
 |noforwards|[Bool](/API_docs/types/Bool.html) | Only for bots, disallows forwarding and saving of the messages, even if the destination chat doesn't have [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) enabled | Optional|
+|update\_stickersets\_order|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The destination where the message will be sent | Optional|
 |reply\_to\_msg\_id|[int](/API_docs/types/int.html) | The message ID to which this message will reply to | Optional|
 |message|[string](/API_docs/types/string.html) | The message | Yes|
@@ -50,7 +51,7 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Updates = $MadelineProto->messages->sendMessage(no_webpage: Bool, silent: Bool, background: Bool, clear_draft: Bool, noforwards: Bool, peer: InputPeer, reply_to_msg_id: int, message: 'string', reply_markup: ReplyMarkup, entities: [MessageEntity, MessageEntity], parse_mode: 'string', schedule_date: int, send_as: InputPeer, );
+$Updates = $MadelineProto->messages->sendMessage(no_webpage: Bool, silent: Bool, background: Bool, clear_draft: Bool, noforwards: Bool, update_stickersets_order: Bool, peer: InputPeer, reply_to_msg_id: int, message: 'string', reply_markup: ReplyMarkup, entities: [MessageEntity, MessageEntity], parse_mode: 'string', schedule_date: int, send_as: InputPeer, );
 ```
 
 

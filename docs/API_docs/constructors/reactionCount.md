@@ -15,8 +15,8 @@ Reactions
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chosen|[Bool](/API_docs/types/Bool.html) | Optional|Whether the current user sent this reaction|
-|reaction|[string](/API_docs/types/string.html) | Yes|Reaction (a UTF8 emoji)|
+|chosen\_order|[int](/API_docs/types/int.html) | Optional|
+|reaction|[Reaction](/API_docs/types/Reaction.html) | Optional|
 |count|[int](/API_docs/types/int.html) | Yes|NUmber of users that reacted with this emoji|
 
 
@@ -27,5 +27,5 @@ Reactions
 ### Example:
 
 ```
-$reactionCount = ['_' => 'reactionCount', 'chosen' => Bool, 'reaction' => 'string', 'count' => int];
+$reactionCount = ['_' => 'reactionCount', 'chosen_order' => int, 'reaction' => Reaction, 'count' => int];
 ```  

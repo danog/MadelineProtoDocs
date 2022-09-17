@@ -57,6 +57,10 @@ $MadelineProto->[account->checkUsername](/API_docs/methods/account.checkUsername
 
 ***
 <br><br>
+$MadelineProto->[account->clearRecentEmojiStatuses](/API_docs/methods/account.clearRecentEmojiStatuses.html)(\[\]) === [$Bool](/API_docs/types/Bool.html)<a name="account.clearRecentEmojiStatuses"></a>  
+
+***
+<br><br>
 $MadelineProto->[account->confirmPasswordEmail](/API_docs/methods/account.confirmPasswordEmail.html)(\[code: [string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.confirmPasswordEmail"></a>  
 
 ***
@@ -117,6 +121,10 @@ $MadelineProto->[account->getContentSettings](/API_docs/methods/account.getConte
 
 ***
 <br><br>
+$MadelineProto->[account->getDefaultEmojiStatuses](/API_docs/methods/account.getDefaultEmojiStatuses.html)(\[hash: [long](/API_docs/types/long.html), \]) === [$account.EmojiStatuses](/API_docs/types/account.EmojiStatuses.html)<a name="account.getDefaultEmojiStatuses"></a>  
+
+***
+<br><br>
 $MadelineProto->[account->getGlobalPrivacySettings](/API_docs/methods/account.getGlobalPrivacySettings.html)(\[\]) === [$GlobalPrivacySettings](/API_docs/types/GlobalPrivacySettings.html)<a name="account.getGlobalPrivacySettings"></a>  
 
 ***
@@ -142,6 +150,10 @@ $MadelineProto->[account->getPasswordSettings](/API_docs/methods/account.getPass
 ***
 <br><br>
 $MadelineProto->[account->getPrivacy](/API_docs/methods/account.getPrivacy.html)(\[key: [InputPrivacyKey](/API_docs/types/InputPrivacyKey.html), \]) === [$account.PrivacyRules](/API_docs/types/account.PrivacyRules.html)<a name="account.getPrivacy"></a>  
+
+***
+<br><br>
+$MadelineProto->[account->getRecentEmojiStatuses](/API_docs/methods/account.getRecentEmojiStatuses.html)(\[hash: [long](/API_docs/types/long.html), \]) === [$account.EmojiStatuses](/API_docs/types/account.EmojiStatuses.html)<a name="account.getRecentEmojiStatuses"></a>  
 
 ***
 <br><br>
@@ -257,7 +269,7 @@ $MadelineProto->[account->sendConfirmPhoneCode](/API_docs/methods/account.sendCo
 
 ***
 <br><br>
-$MadelineProto->[account->sendVerifyEmailCode](/API_docs/methods/account.sendVerifyEmailCode.html)(\[email: [string](/API_docs/types/string.html), \]) === [$account.SentEmailCode](/API_docs/types/account.SentEmailCode.html)<a name="account.sendVerifyEmailCode"></a>  
+$MadelineProto->[account->sendVerifyEmailCode](/API_docs/methods/account.sendVerifyEmailCode.html)(\[purpose: [EmailVerifyPurpose](/API_docs/types/EmailVerifyPurpose.html), email: [string](/API_docs/types/string.html), \]) === [$account.SentEmailCode](/API_docs/types/account.SentEmailCode.html)<a name="account.sendVerifyEmailCode"></a>  
 
 ***
 <br><br>
@@ -297,6 +309,10 @@ $MadelineProto->[account->updateDeviceLocked](/API_docs/methods/account.updateDe
 
 ***
 <br><br>
+$MadelineProto->[account->updateEmojiStatus](/API_docs/methods/account.updateEmojiStatus.html)(\[emoji_status: [EmojiStatus](/API_docs/types/EmojiStatus.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.updateEmojiStatus"></a>  
+
+***
+<br><br>
 $MadelineProto->[account->updateNotifySettings](/API_docs/methods/account.updateNotifySettings.html)(\[peer: [InputNotifyPeer](/API_docs/types/InputNotifyPeer.html), settings: [InputPeerNotifySettings](/API_docs/types/InputPeerNotifySettings.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.updateNotifySettings"></a>  
 
 ***
@@ -333,7 +349,7 @@ $MadelineProto->[account->uploadWallPaper](/API_docs/methods/account.uploadWallP
 
 ***
 <br><br>
-$MadelineProto->[account->verifyEmail](/API_docs/methods/account.verifyEmail.html)(\[email: [string](/API_docs/types/string.html), code: [string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.verifyEmail"></a>  
+$MadelineProto->[account->verifyEmail](/API_docs/methods/account.verifyEmail.html)(\[purpose: [EmailVerifyPurpose](/API_docs/types/EmailVerifyPurpose.html), verification: [EmailVerification](/API_docs/types/EmailVerification.html), \]) === [$account.EmailVerified](/API_docs/types/account.EmailVerified.html)<a name="account.verifyEmail"></a>  
 
 ***
 <br><br>
@@ -409,7 +425,7 @@ $MadelineProto->[auth->sendCode](/API_docs/methods/auth.sendCode.html)(\[phone_n
 
 ***
 <br><br>
-$MadelineProto->[auth->signIn](/API_docs/methods/auth.signIn.html)(\[phone_number: [string](/API_docs/types/string.html), phone_code_hash: [string](/API_docs/types/string.html), phone_code: [string](/API_docs/types/string.html), \]) === [$auth.Authorization](/API_docs/types/auth.Authorization.html)<a name="auth.signIn"></a>  
+$MadelineProto->[auth->signIn](/API_docs/methods/auth.signIn.html)(\[phone_number: [string](/API_docs/types/string.html), phone_code_hash: [string](/API_docs/types/string.html), phone_code: [string](/API_docs/types/string.html), email_verification: [EmailVerification](/API_docs/types/EmailVerification.html), \]) === [$auth.Authorization](/API_docs/types/auth.Authorization.html)<a name="auth.signIn"></a>  
 
 ***
 <br><br>
@@ -877,6 +893,10 @@ $MadelineProto->[messages->clearAllDrafts](/API_docs/methods/messages.clearAllDr
 
 ***
 <br><br>
+$MadelineProto->[messages->clearRecentReactions](/API_docs/methods/messages.clearRecentReactions.html)(\[\]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.clearRecentReactions"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->clearRecentStickers](/API_docs/methods/messages.clearRecentStickers.html)(\[attached: [Bool](/API_docs/types/Bool.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.clearRecentStickers"></a>  
 
 ***
@@ -1073,6 +1093,10 @@ $MadelineProto->[messages->getExportedChatInvites](/API_docs/methods/messages.ge
 
 ***
 <br><br>
+$MadelineProto->[messages->getExtendedMedia](/API_docs/methods/messages.getExtendedMedia.html)(\[peer: [InputPeer](/API_docs/types/InputPeer.html), id: \[[int](/API_docs/types/int.html)\], \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.getExtendedMedia"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->getFavedStickers](/API_docs/methods/messages.getFavedStickers.html)(\[hash: [long](/API_docs/types/long.html), \]) === [$messages.FavedStickers](/API_docs/types/messages.FavedStickers.html)<a name="messages.getFavedStickers"></a>  
 
 ***
@@ -1113,7 +1137,7 @@ $MadelineProto->[messages->getMessageEditData](/API_docs/methods/messages.getMes
 
 ***
 <br><br>
-$MadelineProto->[messages->getMessageReactionsList](/API_docs/methods/messages.getMessageReactionsList.html)(\[peer: [InputPeer](/API_docs/types/InputPeer.html), id: [int](/API_docs/types/int.html), reaction: [string](/API_docs/types/string.html), offset: [string](/API_docs/types/string.html), limit: [int](/API_docs/types/int.html), \]) === [$messages.MessageReactionsList](/API_docs/types/messages.MessageReactionsList.html)<a name="messages.getMessageReactionsList"></a>  
+$MadelineProto->[messages->getMessageReactionsList](/API_docs/methods/messages.getMessageReactionsList.html)(\[peer: [InputPeer](/API_docs/types/InputPeer.html), id: [int](/API_docs/types/int.html), reaction: [Reaction](/API_docs/types/Reaction.html), offset: [string](/API_docs/types/string.html), limit: [int](/API_docs/types/int.html), \]) === [$messages.MessageReactionsList](/API_docs/types/messages.MessageReactionsList.html)<a name="messages.getMessageReactionsList"></a>  
 
 ***
 <br><br>
@@ -1165,6 +1189,10 @@ $MadelineProto->[messages->getRecentLocations](/API_docs/methods/messages.getRec
 
 ***
 <br><br>
+$MadelineProto->[messages->getRecentReactions](/API_docs/methods/messages.getRecentReactions.html)(\[limit: [int](/API_docs/types/int.html), hash: [long](/API_docs/types/long.html), \]) === [$messages.Reactions](/API_docs/types/messages.Reactions.html)<a name="messages.getRecentReactions"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->getRecentStickers](/API_docs/methods/messages.getRecentStickers.html)(\[attached: [Bool](/API_docs/types/Bool.html), hash: [long](/API_docs/types/long.html), \]) === [$messages.RecentStickers](/API_docs/types/messages.RecentStickers.html)<a name="messages.getRecentStickers"></a>  
 
 ***
@@ -1210,6 +1238,10 @@ $MadelineProto->[messages->getStickers](/API_docs/methods/messages.getStickers.h
 ***
 <br><br>
 $MadelineProto->[messages->getSuggestedDialogFilters](/API_docs/methods/messages.getSuggestedDialogFilters.html)(\[\]) === [$Vector\_of\_DialogFilterSuggested](/API_docs/types/DialogFilterSuggested.html)<a name="messages.getSuggestedDialogFilters"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->getTopReactions](/API_docs/methods/messages.getTopReactions.html)(\[limit: [int](/API_docs/types/int.html), hash: [long](/API_docs/types/long.html), \]) === [$messages.Reactions](/API_docs/types/messages.Reactions.html)<a name="messages.getTopReactions"></a>  
 
 ***
 <br><br>
@@ -1321,6 +1353,10 @@ $MadelineProto->[messages->reportEncryptedSpam](/API_docs/methods/messages.repor
 
 ***
 <br><br>
+$MadelineProto->[messages->reportReaction](/API_docs/methods/messages.reportReaction.html)(\[peer: [InputPeer](/API_docs/types/InputPeer.html), id: [int](/API_docs/types/int.html), reaction_peer: [InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.reportReaction"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->reportSpam](/API_docs/methods/messages.reportSpam.html)(\[peer: [InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.reportSpam"></a>  
 
 ***
@@ -1329,7 +1365,7 @@ $MadelineProto->[messages->requestEncryption](/API_docs/methods/messages.request
 
 ***
 <br><br>
-$MadelineProto->[messages->requestSimpleWebView](/API_docs/methods/messages.requestSimpleWebView.html)(\[bot: [InputUser](/API_docs/types/InputUser.html), url: [string](/API_docs/types/string.html), theme_params: [DataJSON](/API_docs/types/DataJSON.html), \]) === [$SimpleWebViewResult](/API_docs/types/SimpleWebViewResult.html)<a name="messages.requestSimpleWebView"></a>  
+$MadelineProto->[messages->requestSimpleWebView](/API_docs/methods/messages.requestSimpleWebView.html)(\[bot: [InputUser](/API_docs/types/InputUser.html), url: [string](/API_docs/types/string.html), theme_params: [DataJSON](/API_docs/types/DataJSON.html), platform: [string](/API_docs/types/string.html), \]) === [$SimpleWebViewResult](/API_docs/types/SimpleWebViewResult.html)<a name="messages.requestSimpleWebView"></a>  
 
 ***
 <br><br>
@@ -1337,7 +1373,7 @@ $MadelineProto->[messages->requestUrlAuth](/API_docs/methods/messages.requestUrl
 
 ***
 <br><br>
-$MadelineProto->[messages->requestWebView](/API_docs/methods/messages.requestWebView.html)(\[from_bot_menu: [Bool](/API_docs/types/Bool.html), silent: [Bool](/API_docs/types/Bool.html), peer: [InputPeer](/API_docs/types/InputPeer.html), bot: [InputUser](/API_docs/types/InputUser.html), url: [string](/API_docs/types/string.html), start_param: [string](/API_docs/types/string.html), theme_params: [DataJSON](/API_docs/types/DataJSON.html), reply_to_msg_id: [int](/API_docs/types/int.html), send_as: [InputPeer](/API_docs/types/InputPeer.html), \]) === [$WebViewResult](/API_docs/types/WebViewResult.html)<a name="messages.requestWebView"></a>  
+$MadelineProto->[messages->requestWebView](/API_docs/methods/messages.requestWebView.html)(\[from_bot_menu: [Bool](/API_docs/types/Bool.html), silent: [Bool](/API_docs/types/Bool.html), peer: [InputPeer](/API_docs/types/InputPeer.html), bot: [InputUser](/API_docs/types/InputUser.html), url: [string](/API_docs/types/string.html), start_param: [string](/API_docs/types/string.html), theme_params: [DataJSON](/API_docs/types/DataJSON.html), platform: [string](/API_docs/types/string.html), reply_to_msg_id: [int](/API_docs/types/int.html), send_as: [InputPeer](/API_docs/types/InputPeer.html), \]) === [$WebViewResult](/API_docs/types/WebViewResult.html)<a name="messages.requestWebView"></a>  
 
 ***
 <br><br>
@@ -1389,19 +1425,19 @@ $MadelineProto->[messages->sendInlineBotResult](/API_docs/methods/messages.sendI
 
 ***
 <br><br>
-$MadelineProto->[messages->sendMedia](/API_docs/methods/messages.sendMedia.html)(\[silent: [Bool](/API_docs/types/Bool.html), background: [Bool](/API_docs/types/Bool.html), clear_draft: [Bool](/API_docs/types/Bool.html), noforwards: [Bool](/API_docs/types/Bool.html), peer: [InputPeer](/API_docs/types/InputPeer.html), reply_to_msg_id: [int](/API_docs/types/int.html), media: [InputMedia](/API_docs/types/InputMedia.html), message: [string](/API_docs/types/string.html), reply_markup: [ReplyMarkup](/API_docs/types/ReplyMarkup.html), entities: \[[MessageEntity](/API_docs/types/MessageEntity.html)\], schedule_date: [int](/API_docs/types/int.html), send_as: [InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendMedia"></a>  
+$MadelineProto->[messages->sendMedia](/API_docs/methods/messages.sendMedia.html)(\[silent: [Bool](/API_docs/types/Bool.html), background: [Bool](/API_docs/types/Bool.html), clear_draft: [Bool](/API_docs/types/Bool.html), noforwards: [Bool](/API_docs/types/Bool.html), update_stickersets_order: [Bool](/API_docs/types/Bool.html), peer: [InputPeer](/API_docs/types/InputPeer.html), reply_to_msg_id: [int](/API_docs/types/int.html), media: [InputMedia](/API_docs/types/InputMedia.html), message: [string](/API_docs/types/string.html), reply_markup: [ReplyMarkup](/API_docs/types/ReplyMarkup.html), entities: \[[MessageEntity](/API_docs/types/MessageEntity.html)\], schedule_date: [int](/API_docs/types/int.html), send_as: [InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendMedia"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->sendMessage](/API_docs/methods/messages.sendMessage.html)(\[no_webpage: [Bool](/API_docs/types/Bool.html), silent: [Bool](/API_docs/types/Bool.html), background: [Bool](/API_docs/types/Bool.html), clear_draft: [Bool](/API_docs/types/Bool.html), noforwards: [Bool](/API_docs/types/Bool.html), peer: [InputPeer](/API_docs/types/InputPeer.html), reply_to_msg_id: [int](/API_docs/types/int.html), message: [string](/API_docs/types/string.html), reply_markup: [ReplyMarkup](/API_docs/types/ReplyMarkup.html), entities: \[[MessageEntity](/API_docs/types/MessageEntity.html)\], schedule_date: [int](/API_docs/types/int.html), send_as: [InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendMessage"></a>  
+$MadelineProto->[messages->sendMessage](/API_docs/methods/messages.sendMessage.html)(\[no_webpage: [Bool](/API_docs/types/Bool.html), silent: [Bool](/API_docs/types/Bool.html), background: [Bool](/API_docs/types/Bool.html), clear_draft: [Bool](/API_docs/types/Bool.html), noforwards: [Bool](/API_docs/types/Bool.html), update_stickersets_order: [Bool](/API_docs/types/Bool.html), peer: [InputPeer](/API_docs/types/InputPeer.html), reply_to_msg_id: [int](/API_docs/types/int.html), message: [string](/API_docs/types/string.html), reply_markup: [ReplyMarkup](/API_docs/types/ReplyMarkup.html), entities: \[[MessageEntity](/API_docs/types/MessageEntity.html)\], schedule_date: [int](/API_docs/types/int.html), send_as: [InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendMessage"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->sendMultiMedia](/API_docs/methods/messages.sendMultiMedia.html)(\[silent: [Bool](/API_docs/types/Bool.html), background: [Bool](/API_docs/types/Bool.html), clear_draft: [Bool](/API_docs/types/Bool.html), noforwards: [Bool](/API_docs/types/Bool.html), peer: [InputPeer](/API_docs/types/InputPeer.html), reply_to_msg_id: [int](/API_docs/types/int.html), multi_media: \[[InputSingleMedia](/API_docs/types/InputSingleMedia.html)\], schedule_date: [int](/API_docs/types/int.html), send_as: [InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendMultiMedia"></a>  
+$MadelineProto->[messages->sendMultiMedia](/API_docs/methods/messages.sendMultiMedia.html)(\[silent: [Bool](/API_docs/types/Bool.html), background: [Bool](/API_docs/types/Bool.html), clear_draft: [Bool](/API_docs/types/Bool.html), noforwards: [Bool](/API_docs/types/Bool.html), update_stickersets_order: [Bool](/API_docs/types/Bool.html), peer: [InputPeer](/API_docs/types/InputPeer.html), reply_to_msg_id: [int](/API_docs/types/int.html), multi_media: \[[InputSingleMedia](/API_docs/types/InputSingleMedia.html)\], schedule_date: [int](/API_docs/types/int.html), send_as: [InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendMultiMedia"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->sendReaction](/API_docs/methods/messages.sendReaction.html)(\[big: [Bool](/API_docs/types/Bool.html), peer: [InputPeer](/API_docs/types/InputPeer.html), msg_id: [int](/API_docs/types/int.html), reaction: [string](/API_docs/types/string.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendReaction"></a>  
+$MadelineProto->[messages->sendReaction](/API_docs/methods/messages.sendReaction.html)(\[big: [Bool](/API_docs/types/Bool.html), add_to_recent: [Bool](/API_docs/types/Bool.html), peer: [InputPeer](/API_docs/types/InputPeer.html), msg_id: [int](/API_docs/types/int.html), reaction: \[[Reaction](/API_docs/types/Reaction.html)\], \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendReaction"></a>  
 
 ***
 <br><br>
@@ -1437,7 +1473,7 @@ $MadelineProto->[messages->setBotShippingResults](/API_docs/methods/messages.set
 
 ***
 <br><br>
-$MadelineProto->[messages->setChatAvailableReactions](/API_docs/methods/messages.setChatAvailableReactions.html)(\[peer: [InputPeer](/API_docs/types/InputPeer.html), available_reactions: \[[string](/API_docs/types/string.html)\], \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.setChatAvailableReactions"></a>  
+$MadelineProto->[messages->setChatAvailableReactions](/API_docs/methods/messages.setChatAvailableReactions.html)(\[peer: [InputPeer](/API_docs/types/InputPeer.html), available_reactions: [ChatReactions](/API_docs/types/ChatReactions.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.setChatAvailableReactions"></a>  
 
 ***
 <br><br>
@@ -1445,7 +1481,7 @@ $MadelineProto->[messages->setChatTheme](/API_docs/methods/messages.setChatTheme
 
 ***
 <br><br>
-$MadelineProto->[messages->setDefaultReaction](/API_docs/methods/messages.setDefaultReaction.html)(\[reaction: [string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.setDefaultReaction"></a>  
+$MadelineProto->[messages->setDefaultReaction](/API_docs/methods/messages.setDefaultReaction.html)(\[reaction: [Reaction](/API_docs/types/Reaction.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.setDefaultReaction"></a>  
 
 ***
 <br><br>

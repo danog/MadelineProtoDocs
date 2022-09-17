@@ -33,9 +33,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [documentAttributeAudio\_23](/API_docs/constructors/documentAttributeAudio_23.html)  
 
-[documentAttributeAudio\_46](/API_docs/constructors/documentAttributeAudio_46.html)  
+[documentAttributeSticker\_45](/API_docs/constructors/documentAttributeSticker_45.html)  
 
-[documentAttributeSticker\_55](/API_docs/constructors/documentAttributeSticker_55.html)  
+[documentAttributeAudio\_45](/API_docs/constructors/documentAttributeAudio_45.html)  
 
 
 

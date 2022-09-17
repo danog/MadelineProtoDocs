@@ -17,7 +17,7 @@ Change default emoji reaction to use in the quick reaction menu: the value is sy
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|reaction|[string](/API_docs/types/string.html) | New emoji reaction | Yes|
+|reaction|[Reaction](/API_docs/types/Reaction.html) |  | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
@@ -38,6 +38,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Bool = $MadelineProto->messages->setDefaultReaction(reaction: 'string', );
+$Bool = $MadelineProto->messages->setDefaultReaction(reaction: Reaction, );
 ```
 

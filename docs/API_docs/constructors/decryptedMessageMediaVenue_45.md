@@ -4,7 +4,7 @@ description: "Venue"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Constructor: decryptedMessageMediaVenue\_46  
+# Constructor: decryptedMessageMediaVenue\_45  
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
@@ -30,5 +30,5 @@ Venue
 ### Example:
 
 ```
-$decryptedMessageMediaVenue_46 = ['_' => 'decryptedMessageMediaVenue', 'lat' => double, 'long' => double, 'title' => 'string', 'address' => 'string', 'provider' => 'string', 'venue_id' => 'string'];
+$decryptedMessageMediaVenue_45 = ['_' => 'decryptedMessageMediaVenue', 'lat' => double, 'long' => double, 'title' => 'string', 'address' => 'string', 'provider' => 'string', 'venue_id' => 'string'];
 ```  

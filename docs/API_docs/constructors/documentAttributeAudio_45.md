@@ -4,7 +4,7 @@ description: "Represents an audio file"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Constructor: documentAttributeAudio\_46  
+# Constructor: documentAttributeAudio\_45  
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
@@ -27,5 +27,5 @@ Represents an audio file
 ### Example:
 
 ```
-$documentAttributeAudio_46 = ['_' => 'documentAttributeAudio', 'duration' => int, 'title' => 'string', 'performer' => 'string'];
+$documentAttributeAudio_45 = ['_' => 'documentAttributeAudio', 'duration' => int, 'title' => 'string', 'performer' => 'string'];
 ```  

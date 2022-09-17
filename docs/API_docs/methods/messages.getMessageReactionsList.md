@@ -19,7 +19,7 @@ Get [message reaction](https://core.telegram.org/api/reactions) list, along with
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
 |id|[int](/API_docs/types/int.html) | Message ID | Optional|
-|reaction|[string](/API_docs/types/string.html) | Get only reactions of this type (UTF8 emoji) | Optional|
+|reaction|[Reaction](/API_docs/types/Reaction.html) |  | Optional|
 |offset|[string](/API_docs/types/string.html) | Offset (typically taken from the `next_offset` field of the returned [messages.MessageReactionsList](../types/messages.MessageReactionsList.html)) | Optional|
 |limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 
@@ -42,6 +42,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$messages_MessageReactionsList = $MadelineProto->messages->getMessageReactionsList(peer: InputPeer, id: int, reaction: 'string', offset: 'string', limit: int, );
+$messages_MessageReactionsList = $MadelineProto->messages->getMessageReactionsList(peer: InputPeer, id: int, reaction: Reaction, offset: 'string', limit: int, );
 ```
 

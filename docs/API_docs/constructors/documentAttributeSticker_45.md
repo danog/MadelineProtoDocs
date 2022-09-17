@@ -4,7 +4,7 @@ description: "Defines a sticker"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Constructor: documentAttributeSticker\_55  
+# Constructor: documentAttributeSticker\_45  
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
@@ -26,5 +26,5 @@ Defines a sticker
 ### Example:
 
 ```
-$documentAttributeSticker_55 = ['_' => 'documentAttributeSticker', 'alt' => 'string', 'stickerset' => InputStickerSet];
+$documentAttributeSticker_45 = ['_' => 'documentAttributeSticker', 'alt' => 'string', 'stickerset' => InputStickerSet];
 ```  
