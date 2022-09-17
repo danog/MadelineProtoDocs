@@ -8,43 +8,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 Update handling can be done in different ways: 
 
-* [Self-restart on webhosts](#self-restart-on-webhosts)
 * [Async Event driven](#async-event-driven)
   * [Built-in database driver](#built-in-database-driver)
+  * [Self-restart on webhosts](#self-restart-on-webhosts)
 * [Async Event driven multi-account](#async-event-driven-multiaccount)
 * [Noop (default)](#noop)
-
-
-## Self-restart on webhosts
-
-When running the event handler via web, MadelineProto will automatically enable a **magical self-restart hack** (callback ID `restarter`), to keep the bot running even on webhosts with limited execution time.  
-
-Locking will also be handled automatically (as well as disconnection from the user that opened the page), so even if you start the script via web several times, only one instance will be running at a time (no need to do flocking manually!).  
-
-It relies on the shutdown function, so you must not set a custom shutdown function in your code, and instead use the **MadelineProto shutdown static API**:  
-
-```php
-use danog\MadelineProto\Shutdown;
-
-$id = Shutdown::addCallback(static function () {
-    // This function will run on shutdown
-});
-
-$id = Shutdown::addCallback(static function () {
-    // This function will run on shutdown
-}, 'custom id');
-
-$id = Shutdown::addCallback(static function () {
-    // This function will overwrite the previously set function with custom id
-}, 'custom id');
-
-$ok = Shutdown::removeCallback($id);
-```
-
-You can of course pass non-static functions, any type of callable is accepted.  
-A second optional parameter can also be accepted, containing the ID of the callable: you can use this if you want to later overwrite the callable with another callback, or remove it altogether.  
-
-The `removeCallback` will return true if the callback exists and it was removed correctly, false otherwise (as with all new MadelineProto APIs, there are PHPDOCs for these methods so you'll see them in your IDE).
 
 
 ## Async Event driven
@@ -243,7 +211,39 @@ while (yield $iterator->advance()) {
 ```
 
 The returned iterator is an async [Amp iterator](https://amphp.org/amp/iterators/#iterator-consumption), that yields an array with the key, followed by the value.  
-[Psalm](https://psalm.dev) generics typing is supported.  
+[Psalm](https://psalm.dev) generic typing is supported.  
+
+### Self-restart on webhosts
+
+When running the event handler via web, MadelineProto will automatically enable a **magical self-restart hack** (callback ID `restarter`), to keep the bot running even on webhosts with limited execution time.  
+
+Locking will also be handled automatically (as well as disconnection from the user that opened the page), so even if you start the script via web several times, only one instance will be running at a time (no need to do flocking manually!).  
+
+It relies on the shutdown function, so you must not set a custom shutdown function in your code, and instead use the **MadelineProto shutdown static API**:  
+
+```php
+use danog\MadelineProto\Shutdown;
+
+$id = Shutdown::addCallback(static function () {
+    // This function will run on shutdown
+});
+
+$id = Shutdown::addCallback(static function () {
+    // This function will run on shutdown
+}, 'custom id');
+
+$id = Shutdown::addCallback(static function () {
+    // This function will overwrite the previously set function with custom id
+}, 'custom id');
+
+$ok = Shutdown::removeCallback($id);
+```
+
+You can of course pass non-static functions, any type of callable is accepted.  
+A second optional parameter can also be accepted, containing the ID of the callable: you can use this if you want to later overwrite the callable with another callback, or remove it altogether.  
+
+The `removeCallback` will return true if the callback exists and it was removed correctly, false otherwise (as with all new MadelineProto APIs, there are PHPDOCs for these methods so you'll see them in your IDE).
+
 
 ## Async event driven (multiaccount)
 
