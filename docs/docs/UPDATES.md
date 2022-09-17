@@ -60,8 +60,6 @@ class MyEventHandler extends EventHandler
     }
     /**
       * Called on startup, can contain async calls for initialization of the bot
-      *
-      * @return void
       */
     public function onStart()
     {
@@ -70,8 +68,6 @@ class MyEventHandler extends EventHandler
      * Handle updates from supergroups and channels
      *
      * @param array $update Update
-     * 
-     * @return void
      */
     public function onUpdateNewChannelMessage(array $update): \Generator
     {
