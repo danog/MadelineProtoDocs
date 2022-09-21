@@ -10,12 +10,12 @@ MadelineProto can throw lots of different exceptions.
 
 ```php
 try {
-    $MadelineProto->getDialogs();
+    $MadelineProto->someMethod();
 } catch (\danog\MadelineProto\RPCErrorException $e) {
     if ($e->rpc === 'BOT_METHOD_INVALID') {
         \danog\MadelineProto\Logger::log("Bots can't execute this method!");
     } else {
-        $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => 'An error occurred while calling getDialogs: '.$e]);
+        $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => 'An error occurred while calling someMethod: '.$e]);
     }
 }
 ```
