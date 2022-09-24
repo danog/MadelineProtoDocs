@@ -543,4 +543,4 @@ if (!isset($result['file_name'])) {
 * `$result['file_size']` - File size
 * `$result['file_name']` - File name
 
-<a href="https://docs.madelineproto.xyz/docs/CHAT_INFO.html">Next section</a>
+<a href="https://docs.madelineproto.xyz/docs/CHAT_INFO.html">Next section</a>Het 
