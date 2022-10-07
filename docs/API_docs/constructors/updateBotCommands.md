@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-The [command set](https://core.telegram.org/bots/api#june-25-2021) of a certain bot in a certain chat has changed.
+The [command set](https://core.telegram.org/api/bots/commands) of a certain bot in a certain chat has changed.
 
 ### Attributes:
 

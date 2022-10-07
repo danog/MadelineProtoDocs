@@ -22,7 +22,7 @@ Create a stickerset, bots only.
 |videos|[Bool](/API_docs/types/Bool.html) | Whether this is a video stickerset | Optional|
 |user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Stickerset owner | Optional|
 |title|[string](/API_docs/types/string.html) | Stickerset name, `1-64` chars | Yes|
-|short\_name|[string](/API_docs/types/string.html) | Sticker set name. Can contain only English letters, digits and underscores. Must end with *"*by*<bot username="">"</bot>* (*<bot_username></bot_username>* is case insensitive); 1-64 characters | Yes|
+|short\_name|[string](/API_docs/types/string.html) | Short name of sticker set, to be used in [sticker deep links »](https://core.telegram.org/api/links#stickerset-links). Can contain only english letters, digits and underscores. Must begin with a letter, can't contain consecutive underscores and, **if called by a bot**, must end in `"_by_<bot_username>"`. `<bot_username>` is case insensitive. 1-64 characters. | Yes|
 |thumb|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | Thumbnail | Optional|
 |stickers|Array of [InputStickerSetItem](/API_docs/types/InputStickerSetItem.html) | Stickers | Yes|
 |software|[string](/API_docs/types/string.html) | Used when [importing stickers using the sticker import SDKs](https://core.telegram.org/import-stickers), specifies the name of the software that created the stickers | Optional|

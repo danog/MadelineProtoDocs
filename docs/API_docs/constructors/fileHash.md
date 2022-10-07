@@ -15,7 +15,7 @@ SHA256 Hash of an uploaded file, to be checked for validity after download
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|offset|[long](/API_docs/types/long.html) | Yes|
+|offset|[long](/API_docs/types/long.html) | Yes|Offset from where to start computing SHA-256 hash|
 |limit|[int](/API_docs/types/int.html) | Yes|Length|
 |hash|[bytes](/API_docs/types/bytes.html) | Yes|SHA-256 Hash of file chunk, to be checked for validity after download|
 

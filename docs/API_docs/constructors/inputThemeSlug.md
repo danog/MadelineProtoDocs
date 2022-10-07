@@ -15,7 +15,7 @@ Theme by theme ID
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|slug|[string](/API_docs/types/string.html) | Yes|Unique theme ID|
+|slug|[string](/API_docs/types/string.html) | Yes|Unique theme ID obtained from a [theme deep link »](https://core.telegram.org/api/links#theme-links)|
 
 
 

@@ -18,7 +18,7 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |file\_token|[bytes](/API_docs/types/bytes.html) | File token | Yes|
-|offset|[long](/API_docs/types/long.html) |  | Yes|
+|offset|[long](/API_docs/types/long.html) | Offset of chunk to download | Yes|
 |limit|[int](/API_docs/types/int.html) | Length of chunk to download | Optional|
 
 

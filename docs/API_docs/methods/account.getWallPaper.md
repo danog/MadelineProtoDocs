@@ -1,6 +1,6 @@
 ---
 title: "account.getWallPaper"
-description: "Get info about a certain wallpaper"
+description: "Get info about a certain [wallpaper](https://core.telegram.org/api/wallpapers)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,13 @@ redirect_from: /API_docs/methods/account_getWallPaper.html
 
 
 
-Get info about a certain wallpaper
+Get info about a certain [wallpaper](https://core.telegram.org/api/wallpapers)
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|wallpaper|[InputWallPaper](/API_docs/types/InputWallPaper.html) | The wallpaper to get info about | Yes|
+|wallpaper|[InputWallPaper](/API_docs/types/InputWallPaper.html) | The [wallpaper](https://core.telegram.org/api/wallpapers) to get info about | Yes|
 
 
 ### Return type: [WallPaper](/API_docs/types/WallPaper.html)

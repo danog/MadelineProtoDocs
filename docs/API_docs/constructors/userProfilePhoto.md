@@ -16,7 +16,7 @@ User profile photo.
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |has\_video|[Bool](/API_docs/types/Bool.html) | Optional|Whether an [animated profile picture](https://core.telegram.org/api/files#animated-profile-pictures) is available for this user|
-|photo\_id|[long](/API_docs/types/long.html) | Yes|Identifier of the respective photo<br>Parameter added in [Layer 2](https://core.telegram.org/api/layers#layer-2)|
+|photo\_id|[long](/API_docs/types/long.html) | Yes|Identifier of the respective photo|
 |stripped\_thumb|[bytes](/API_docs/types/bytes.html) | Optional|[Stripped thumbnail](https://core.telegram.org/api/files#stripped-thumbnails)|
 |dc\_id|[int](/API_docs/types/int.html) | Yes|DC ID where the photo is stored|
 

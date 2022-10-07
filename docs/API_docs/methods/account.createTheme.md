@@ -17,10 +17,10 @@ Create a theme
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|slug|[string](/API_docs/types/string.html) | Unique theme ID | Yes|
+|slug|[string](/API_docs/types/string.html) | Unique theme ID used to generate [theme deep links](https://core.telegram.org/api/links#theme-links), can be empty to autogenerate a random ID. | Yes|
 |title|[string](/API_docs/types/string.html) | Theme name | Yes|
 |document|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | Theme file | Optional|
-|settings|Array of [InputThemeSettings](/API_docs/types/InputThemeSettings.html) | Theme settings | Optional|
+|settings|Array of [InputThemeSettings](/API_docs/types/InputThemeSettings.html) | Theme settings, multiple values can be provided for the different base themes (day/night mode, etc). | Optional|
 
 
 ### Return type: [Theme](/API_docs/types/Theme.html)

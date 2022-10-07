@@ -1,6 +1,6 @@
 ---
 title: "help.deepLinkInfo"
-description: "Deep linking info"
+description: "Deep link info, see the here for more details"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_deepLinkInfo.html
@@ -10,7 +10,7 @@ redirect_from: /API_docs/constructors/help_deepLinkInfo.html
 
 
 
-Deep linking info
+Deep link info, see [the here for more details](https://core.telegram.org/api/links#unsupported-links)
 
 ### Attributes:
 

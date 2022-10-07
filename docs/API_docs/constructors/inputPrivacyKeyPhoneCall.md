@@ -1,6 +1,6 @@
 ---
 title: "inputPrivacyKeyPhoneCall"
-description: "Whether the user will accept phone calls"
+description: "Whether you will accept phone calls"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Whether the user will accept phone calls
+Whether you will accept phone calls
 
 
 

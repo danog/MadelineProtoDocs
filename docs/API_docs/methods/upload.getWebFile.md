@@ -1,6 +1,6 @@
 ---
 title: "upload.getWebFile"
-description: "Returns content of an HTTP file or a part, by proxying the request through telegram."
+description: "Returns content of a web file, by proxying the request through telegram, see the [webfile docs for more info](https://core.telegram.org/api/files#downloading-webfiles)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,9 @@ redirect_from: /API_docs/methods/upload_getWebFile.html
 
 
 
-Returns content of an HTTP file or a part, by proxying the request through telegram.
+Returns content of a web file, by proxying the request through telegram, see the [webfile docs for more info](https://core.telegram.org/api/files#downloading-webfiles).
+
+**Note**: the query must be sent to the DC specified in the `webfile_dc_id` [MTProto configuration field](https://core.telegram.org/api/config#mtproto-configuration).
 
 ### Parameters:
 

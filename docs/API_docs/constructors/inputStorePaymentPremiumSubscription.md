@@ -1,6 +1,6 @@
 ---
 title: "inputStorePaymentPremiumSubscription"
-description: "inputStorePaymentPremiumSubscription attributes, type and example"
+description: "Info about a Telegram Premium purchase"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Info about a Telegram Premium purchase
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|restore|[Bool](/API_docs/types/Bool.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|restore|[Bool](/API_docs/types/Bool.html) | Optional|Pass true if this is a restore of a Telegram Premium purchase; only for the App Store|
 
 
 

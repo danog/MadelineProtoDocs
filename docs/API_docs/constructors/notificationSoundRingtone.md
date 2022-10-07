@@ -1,6 +1,6 @@
 ---
 title: "notificationSoundRingtone"
-description: "notificationSoundRingtone attributes, type and example"
+description: "A specific previously uploaded notification sound should be used"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A specific previously uploaded notification sound should be used
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[long](/API_docs/types/long.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[long](/API_docs/types/long.html) | Yes|Document ID of notification sound uploaded using [account.uploadRingtone](../methods/account.uploadRingtone.html)|
 
 
 

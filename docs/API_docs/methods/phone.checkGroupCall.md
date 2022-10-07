@@ -1,6 +1,6 @@
 ---
 title: "phone.checkGroupCall"
-description: "Check whether the group call Server Forwarding Unit is currently receiving the streams with the specified WebRTC source IDs"
+description: "Check whether the group call Server Forwarding Unit is currently receiving the streams with the specified WebRTC source IDs.  "
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,8 @@ redirect_from: /API_docs/methods/phone_checkGroupCall.html
 
 
 
-Check whether the group call Server Forwarding Unit is currently receiving the streams with the specified WebRTC source IDs
+Check whether the group call Server Forwarding Unit is currently receiving the streams with the specified WebRTC source IDs.  
+Returns an intersection of the source IDs specified in `sources`, and the source IDs currently being forwarded by the SFU.
 
 ### Parameters:
 

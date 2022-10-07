@@ -16,7 +16,7 @@ The user is preparing a message; typing, recording, uploading, etc. This update 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |user\_id|[long](/API_docs/types/long.html) | Yes|User id|
-|action|[SendMessageAction](/API_docs/types/SendMessageAction.html) | Yes|Action type<br>Param added in [Layer 17](https://core.telegram.org/api/layers#layer-17).|
+|action|[SendMessageAction](/API_docs/types/SendMessageAction.html) | Yes|Action type|
 
 
 

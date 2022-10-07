@@ -1,6 +1,6 @@
 ---
 title: "inputWallPaperSlug"
-description: "Wallpaper by slug (a unique ID)"
+description: "Wallpaper by slug (a unique ID, obtained from a wallpaper link »)"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Wallpaper by slug (a unique ID)
+[Wallpaper](https://core.telegram.org/api/wallpapers) by slug (a unique ID, obtained from a [wallpaper link »](https://core.telegram.org/api/links#wallpaper-links))
 
 ### Attributes:
 

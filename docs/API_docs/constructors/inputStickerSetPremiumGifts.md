@@ -1,6 +1,6 @@
 ---
 title: "inputStickerSetPremiumGifts"
-description: "inputStickerSetPremiumGifts attributes, type and example"
+description: "Stickers to show when receiving a gifted Telegram Premium subscription"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -8,6 +8,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+Stickers to show when receiving a gifted Telegram Premium subscription
 
 
 

@@ -18,7 +18,7 @@ Get a document by its SHA256 hash, mainly used for gifs
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |sha256|[bytes](/API_docs/types/bytes.html) | SHA256 of file | Yes|
-|size|[long](/API_docs/types/long.html) |  | Yes|
+|size|[long](/API_docs/types/long.html) | Size of the file in bytes | Yes|
 |mime\_type|[string](/API_docs/types/string.html) | Mime type | Yes|
 
 

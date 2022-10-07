@@ -17,7 +17,7 @@ Delete the history of a [supergroup](https://core.telegram.org/api/channel)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|for\_everyone|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|for\_everyone|[Bool](/API_docs/types/Bool.html) | Whether the history should be deleted for everyone | Optional|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | [Supergroup](https://core.telegram.org/api/channel) whose history must be deleted | Optional|
 |max\_id|[int](/API_docs/types/int.html) | ID of message **up to which** the history must be deleted | Optional|
 

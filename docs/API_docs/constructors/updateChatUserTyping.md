@@ -17,7 +17,7 @@ The user is preparing a message in a group; typing, recording, uploading, etc. T
 |----------|---------------|----------|-------------|
 |chat\_id|[long](/API_docs/types/long.html) | Yes|Group id|
 |from\_id|[Peer](/API_docs/types/Peer.html) | Yes|Peer that started typing (can be the chat itself, in case of anonymous admins).|
-|action|[SendMessageAction](/API_docs/types/SendMessageAction.html) | Yes|Type of action<br>Parameter added in [Layer 17](https://core.telegram.org/api/layers#layer-17).|
+|action|[SendMessageAction](/API_docs/types/SendMessageAction.html) | Yes|Type of action|
 
 
 

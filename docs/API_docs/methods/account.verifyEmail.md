@@ -1,6 +1,6 @@
 ---
 title: "account.verifyEmail"
-description: "Verify an email address for telegram [passport](https://core.telegram.org/passport)."
+description: "Verify an email address."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/account_verifyEmail.html
 
 
 
-Verify an email address for telegram [passport](https://core.telegram.org/passport).
+Verify an email address.
 
 ### Parameters:
 

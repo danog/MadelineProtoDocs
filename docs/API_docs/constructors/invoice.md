@@ -23,12 +23,12 @@ Invoice
 |flexible|[Bool](/API_docs/types/Bool.html) | Optional|Set this flag if the final price depends on the shipping method|
 |phone\_to\_provider|[Bool](/API_docs/types/Bool.html) | Optional|Set this flag if user's phone number should be sent to provider|
 |email\_to\_provider|[Bool](/API_docs/types/Bool.html) | Optional|Set this flag if user's email address should be sent to provider|
-|recurring|[Bool](/API_docs/types/Bool.html) | Optional|
+|recurring|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a recurring payment|
 |currency|[string](/API_docs/types/string.html) | Yes|Three-letter ISO 4217 [currency](https://core.telegram.org/bots/payments#supported-currencies) code|
 |prices|Array of [LabeledPrice](/API_docs/types/LabeledPrice.html) | Yes|Price breakdown, a list of components (e.g. product price, tax, discount, delivery cost, delivery tax, bonus, etc.)|
 |max\_tip\_amount|[long](/API_docs/types/long.html) | Optional|The maximum accepted amount for tips in the smallest units of the currency (integer, not float/double). For example, for a price of `US$ 1.45` pass `amount = 145`. See the exp parameter in [currencies.json](https://core.telegram.org/bots/payments/currencies.json), it shows the number of digits past the decimal point for each currency (2 for the majority of currencies).|
 |suggested\_tip\_amounts|Array of [long](/API_docs/types/long.html) | Optional|A vector of suggested amounts of tips in the *smallest units* of the currency (integer, not float/double). At most 4 suggested tip amounts can be specified. The suggested tip amounts must be positive, passed in a strictly increased order and must not exceed `max_tip_amount`.|
-|recurring\_terms\_url|[string](/API_docs/types/string.html) | Optional|
+|recurring\_terms\_url|[string](/API_docs/types/string.html) | Optional|Terms of service URL for the recurring payment|
 
 
 

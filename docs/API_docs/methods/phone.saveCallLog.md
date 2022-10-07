@@ -1,6 +1,6 @@
 ---
 title: "phone.saveCallLog"
-description: "phone.saveCallLog parameters, return type and example"
+description: "Save phone call debug information"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/phone_saveCallLog.html
 
 
 
+Save phone call debug information
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[InputPhoneCall](/API_docs/types/InputPhoneCall.html) | Yes|
-|file|[File path or InputFile](/API_docs/types/InputFile.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[InputPhoneCall](/API_docs/types/InputPhoneCall.html) | Phone call | Yes|
+|file|[File path or InputFile](/API_docs/types/InputFile.html) | Logs | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

@@ -20,7 +20,7 @@ Document
 |file\_reference|[bytes](/API_docs/types/bytes.html) | Yes|[File reference](https://core.telegram.org/api/file_reference)|
 |date|[int](/API_docs/types/int.html) | Yes|Creation date|
 |mime\_type|[string](/API_docs/types/string.html) | Yes|MIME type|
-|size|[long](/API_docs/types/long.html) | Yes|
+|size|[long](/API_docs/types/long.html) | Yes|Size|
 |thumbs|Array of [PhotoSize](/API_docs/types/PhotoSize.html) | Optional|Thumbnails|
 |video\_thumbs|Array of [VideoSize](/API_docs/types/VideoSize.html) | Optional|Video thumbnails|
 |dc\_id|[int](/API_docs/types/int.html) | Yes|DC ID|

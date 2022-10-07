@@ -1,6 +1,6 @@
 ---
 title: "inputPrivacyKeyStatusTimestamp"
-description: "Whether we can see the exact last online timestamp of the user"
+description: "Whether people will be able to see your exact last online timestamp"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Whether we can see the exact last online timestamp of the user
+Whether people will be able to see your exact last online timestamp
 
 
 

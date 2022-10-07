@@ -1,6 +1,6 @@
 ---
 title: "account.getMultiWallPapers"
-description: "Get info about multiple wallpapers"
+description: "Get info about multiple [wallpapers](https://core.telegram.org/api/wallpapers)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,13 @@ redirect_from: /API_docs/methods/account_getMultiWallPapers.html
 
 
 
-Get info about multiple wallpapers
+Get info about multiple [wallpapers](https://core.telegram.org/api/wallpapers)
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|wallpapers|Array of [InputWallPaper](/API_docs/types/InputWallPaper.html) | Wallpapers to fetch info about | Yes|
+|wallpapers|Array of [InputWallPaper](/API_docs/types/InputWallPaper.html) | [Wallpapers](https://core.telegram.org/api/wallpapers) to fetch info about | Yes|
 
 
 ### Return type: [Vector\_of\_WallPaper](/API_docs/types/WallPaper.html)

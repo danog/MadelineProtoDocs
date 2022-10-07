@@ -30,9 +30,9 @@ Indicates info about a certain user
 |scam|[Bool](/API_docs/types/Bool.html) | Optional|This may be a scam user|
 |apply\_min\_photo|[Bool](/API_docs/types/Bool.html) | Optional|If set, the profile picture for this user should be refetched|
 |fake|[Bool](/API_docs/types/Bool.html) | Optional|If set, this user was reported by many users as a fake or scam user: be careful when interacting with them.|
-|bot\_attach\_menu|[Bool](/API_docs/types/Bool.html) | Optional|
-|premium|[Bool](/API_docs/types/Bool.html) | Optional|
-|attach\_menu\_enabled|[Bool](/API_docs/types/Bool.html) | Optional|
+|bot\_attach\_menu|[Bool](/API_docs/types/Bool.html) | Optional|Whether this bot offers an [attachment menu web app](https://core.telegram.org/api/bots/attach)|
+|premium|[Bool](/API_docs/types/Bool.html) | Optional|Whether this user is a Telegram Premium user|
+|attach\_menu\_enabled|[Bool](/API_docs/types/Bool.html) | Optional|Whether we installed the [attachment menu web app](https://core.telegram.org/api/bots/attach) offered by this bot|
 |id|[long](/API_docs/types/long.html) | Yes|ID of the user|
 |access\_hash|[long](/API_docs/types/long.html) | Optional|Access hash of the user|
 |first\_name|[string](/API_docs/types/string.html) | Optional|First name|

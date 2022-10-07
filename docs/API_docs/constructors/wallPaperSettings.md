@@ -1,6 +1,6 @@
 ---
 title: "wallPaperSettings"
-description: "Wallpaper settings"
+description: "Wallpaper rendering information."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,20 +9,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Wallpaper settings
+[Wallpaper](https://core.telegram.org/api/wallpapers) rendering information.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|blur|[Bool](/API_docs/types/Bool.html) | Optional|If set, the wallpaper must be downscaled to fit in 450x450 square and then box-blurred with radius 12|
-|motion|[Bool](/API_docs/types/Bool.html) | Optional|If set, the background needs to be slightly moved when device is rotated|
-|background\_color|[int](/API_docs/types/int.html) | Optional|If set, a PNG pattern is to be combined with the `color` chosen by the user: the main color of the background in RGB24 format|
-|second\_background\_color|[int](/API_docs/types/int.html) | Optional|If set, a PNG pattern is to be combined with the first and second background colors (RGB24 format) in a top-bottom gradient|
-|third\_background\_color|[int](/API_docs/types/int.html) | Optional|If set, a PNG pattern is to be combined with the first, second and third background colors (RGB24 format) in a freeform gradient|
-|fourth\_background\_color|[int](/API_docs/types/int.html) | Optional|If set, a PNG pattern is to be combined with the first, second, third and fourth background colors (RGB24 format) in a freeform gradient|
-|intensity|[int](/API_docs/types/int.html) | Optional|Intensity of the pattern when it is shown above the main background color, 0-100|
-|rotation|[int](/API_docs/types/int.html) | Optional|Clockwise rotation angle of the gradient, in degrees; 0-359. Should be always divisible by 45|
+|blur|[Bool](/API_docs/types/Bool.html) | Optional|For [image wallpapers »](https://core.telegram.org/api/wallpapers#image-wallpapers): if set, the JPEG must be downscaled to fit in 450x450 square and then box-blurred with radius 12.|
+|motion|[Bool](/API_docs/types/Bool.html) | Optional|If set, the background needs to be slightly moved when the device is rotated.|
+|background\_color|[int](/API_docs/types/int.html) | Optional|Used for [solid »](https://core.telegram.org/api/wallpapers#solid-fill), [gradient »](https://core.telegram.org/api/wallpapers#gradient-fill) and [freeform gradient »](https://core.telegram.org/api/wallpapers#freeform-gradient-fill) fills.|
+|second\_background\_color|[int](/API_docs/types/int.html) | Optional|Used for [gradient »](https://core.telegram.org/api/wallpapers#gradient-fill) and [freeform gradient »](https://core.telegram.org/api/wallpapers#freeform-gradient-fill) fills.|
+|third\_background\_color|[int](/API_docs/types/int.html) | Optional|Used for [freeform gradient »](https://core.telegram.org/api/wallpapers#freeform-gradient-fill) fills.|
+|fourth\_background\_color|[int](/API_docs/types/int.html) | Optional|Used for [freeform gradient »](https://core.telegram.org/api/wallpapers#freeform-gradient-fill) fills.|
+|intensity|[int](/API_docs/types/int.html) | Optional|Used for [pattern wallpapers »](https://core.telegram.org/api/wallpapers#pattern-wallpapers).|
+|rotation|[int](/API_docs/types/int.html) | Optional|Clockwise rotation angle of the gradient, in degrees; 0-359. Should be always divisible by 45.|
 
 
 

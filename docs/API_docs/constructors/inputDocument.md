@@ -1,6 +1,6 @@
 ---
 title: "inputDocument"
-description: "Defines a video for subsequent interaction."
+description: "Defines a document for subsequent interaction."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Defines a video for subsequent interaction.
+Defines a document for subsequent interaction.
 
 ### Attributes:
 

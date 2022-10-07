@@ -1,6 +1,6 @@
 ---
 title: "account.uploadWallPaper"
-description: "Create and upload a new wallpaper"
+description: "Create and upload a new [wallpaper](https://core.telegram.org/api/wallpapers)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/account_uploadWallPaper.html
 
 
 
-Create and upload a new wallpaper
+Create and upload a new [wallpaper](https://core.telegram.org/api/wallpapers)
 
 ### Parameters:
 

@@ -20,7 +20,7 @@ Theme settings
 |accent\_color|[int](/API_docs/types/int.html) | Yes|Accent color, ARGB format|
 |outbox\_accent\_color|[int](/API_docs/types/int.html) | Optional|Accent color of outgoing messages in ARGB format|
 |message\_colors|Array of [int](/API_docs/types/int.html) | Optional|The fill to be used as a background for outgoing messages, in RGB24 format. <br>If just one or two equal colors are provided, describes a solid fill of a background. <br>If two different colors are provided, describes the top and bottom colors of a 0-degree gradient.<br>If three or four colors are provided, describes a freeform gradient fill of a background.|
-|wallpaper|[WallPaper](/API_docs/types/WallPaper.html) | Optional|Wallpaper|
+|wallpaper|[WallPaper](/API_docs/types/WallPaper.html) | Optional|[Wallpaper](https://core.telegram.org/api/wallpapers)|
 
 
 

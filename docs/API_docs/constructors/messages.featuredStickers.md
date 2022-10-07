@@ -16,7 +16,7 @@ Featured stickersets
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|premium|[Bool](/API_docs/types/Bool.html) | Optional|
+|premium|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a premium stickerset|
 |hash|[long](/API_docs/types/long.html) | Yes|[Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
 |count|[int](/API_docs/types/int.html) | Yes|Total number of featured stickers|
 |sets|Array of [StickerSetCovered](/API_docs/types/StickerSetCovered.html) | Yes|Featured stickersets|

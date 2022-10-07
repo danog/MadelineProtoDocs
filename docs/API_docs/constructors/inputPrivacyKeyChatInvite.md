@@ -1,6 +1,6 @@
 ---
 title: "inputPrivacyKeyChatInvite"
-description: "Whether the user can be invited to chats"
+description: "Whether people will be able to invite you to chats"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Whether the user can be invited to chats
+Whether people will be able to invite you to chats
 
 
 

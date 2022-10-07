@@ -1,6 +1,6 @@
 ---
 title: "notificationSoundLocal"
-description: "notificationSoundLocal attributes, type and example"
+description: "Indicates a specific local notification sound should be used"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Indicates a specific local notification sound should be used
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|title|[string](/API_docs/types/string.html) | Yes|
-|data|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|title|[string](/API_docs/types/string.html) | Yes|Notification sound title|
+|data|[string](/API_docs/types/string.html) | Yes|Notification sound identifier (arbitrary data used by the client to identify a specific local notification sound)|
 
 
 

@@ -20,8 +20,8 @@ Theme settings
 |accent\_color|[int](/API_docs/types/int.html) | Yes|Accent color, ARGB format|
 |outbox\_accent\_color|[int](/API_docs/types/int.html) | Optional|Accent color of outgoing messages in ARGB format|
 |message\_colors|Array of [int](/API_docs/types/int.html) | Optional|The fill to be used as a background for outgoing messages, in RGB24 format. <br>If just one or two equal colors are provided, describes a solid fill of a background. <br>If two different colors are provided, describes the top and bottom colors of a 0-degree gradient.<br>If three or four colors are provided, describes a freeform gradient fill of a background.|
-|wallpaper|[InputWallPaper](/API_docs/types/InputWallPaper.html) | Optional|Wallpaper|
-|wallpaper\_settings|[WallPaperSettings](/API_docs/types/WallPaperSettings.html) | Optional|Wallpaper settings|
+|wallpaper|[InputWallPaper](/API_docs/types/InputWallPaper.html) | Optional|[inputWallPaper](../constructors/inputWallPaper.html) or [inputWallPaperSlug](../constructors/inputWallPaper.html) when passing wallpaper files for [image](https://core.telegram.org/api/wallpapers#image-wallpapers) or [pattern](https://core.telegram.org/api/wallpapers#pattern-wallpapers) wallpapers, [inputWallPaperNoFile](../constructors/inputWallPaperNoFile.html) with `id=0` otherwise.|
+|wallpaper\_settings|[WallPaperSettings](/API_docs/types/WallPaperSettings.html) | Optional|[Wallpaper](https://core.telegram.org/api/wallpapers) settings.|
 
 
 

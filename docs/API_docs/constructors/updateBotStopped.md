@@ -15,7 +15,7 @@ A bot was stopped or re-started.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|The bot ID|
+|user\_id|[long](/API_docs/types/long.html) | Yes|The user ID|
 |date|[int](/API_docs/types/int.html) | Yes|When did this action occur|
 |stopped|[Bool](/API_docs/types/Bool.html) | Yes|Whether the bot was stopped or started|
 |qts|[int](/API_docs/types/int.html) | Yes|New **qts** value, see [updates »](https://core.telegram.org/api/updates) for more info.|

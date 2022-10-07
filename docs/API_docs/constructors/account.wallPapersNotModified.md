@@ -10,7 +10,7 @@ redirect_from: /API_docs/constructors/account_wallPapersNotModified.html
 
 
 
-No new wallpapers were found
+No new [wallpapers](https://core.telegram.org/api/wallpapers) were found
 
 
 

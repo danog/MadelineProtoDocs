@@ -15,7 +15,7 @@ A [sponsored message](https://core.telegram.org/api/sponsored-messages).
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|recommended|[Bool](/API_docs/types/Bool.html) | Optional|
+|recommended|[Bool](/API_docs/types/Bool.html) | Optional|Whether the message needs to be labeled as "recommended" instead of "sponsored"|
 |from\_id|[Peer](/API_docs/types/Peer.html) | Optional|ID of the sender of the message|
 |chat\_invite|[ChatInvite](/API_docs/types/ChatInvite.html) | Optional|Information about the chat invite hash specified in `chat_invite_hash`|
 |chat\_invite\_hash|[string](/API_docs/types/string.html) | Optional|Chat invite|

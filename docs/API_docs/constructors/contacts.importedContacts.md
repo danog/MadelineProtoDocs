@@ -18,7 +18,7 @@ Info on successfully imported contacts.
 |----------|---------------|----------|-------------|
 |imported|Array of [ImportedContact](/API_docs/types/ImportedContact.html) | Yes|List of successfully imported contacts|
 |popular\_invites|Array of [PopularContact](/API_docs/types/PopularContact.html) | Yes|Popular contacts|
-|retry\_contacts|Array of [long](/API_docs/types/long.html) | Yes|List of contact ids that could not be imported due to system limitation and will need to be imported at a later date.<br>Parameter added in [Layer 13](https://core.telegram.org/api/layers#layer-13)|
+|retry\_contacts|Array of [long](/API_docs/types/long.html) | Yes|List of contact ids that could not be imported due to system limitation and will need to be imported at a later date.|
 |users|Array of [User](/API_docs/types/User.html) | Yes|List of users|
 
 

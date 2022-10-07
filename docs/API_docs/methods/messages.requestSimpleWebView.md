@@ -1,6 +1,6 @@
 ---
 title: "messages.requestSimpleWebView"
-description: "messages.requestSimpleWebView parameters, return type and example"
+description: "Open a [bot web app](https://core.telegram.org/api/bots/webapps)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,16 @@ redirect_from: /API_docs/methods/messages_requestSimpleWebView.html
 
 
 
+Open a [bot web app](https://core.telegram.org/api/bots/webapps).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|url|[string](/API_docs/types/string.html) | Yes|
-|theme\_params|[DataJSON](/API_docs/types/DataJSON.html) | Optional|
-|platform|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Bot that owns the webapp | Optional|
+|url|[string](/API_docs/types/string.html) | Web app URL | Yes|
+|theme\_params|[DataJSON](/API_docs/types/DataJSON.html) | Theme parameters | Optional|
+|platform|[string](/API_docs/types/string.html) |  | Yes|
 
 
 ### Return type: [SimpleWebViewResult](/API_docs/types/SimpleWebViewResult.html)

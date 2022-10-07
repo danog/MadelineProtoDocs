@@ -1,6 +1,6 @@
 ---
 title: "messages.toggleBotInAttachMenu"
-description: "messages.toggleBotInAttachMenu parameters, return type and example"
+description: "Enable or disable [web bot attachment menu »](https://core.telegram.org/api/bots/attach)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/messages_toggleBotInAttachMenu.html
 
 
 
+Enable or disable [web bot attachment menu »](https://core.telegram.org/api/bots/attach)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|enabled|[Bool](/API_docs/types/Bool.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Bot ID | Optional|
+|enabled|[Bool](/API_docs/types/Bool.html) | Toggle | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

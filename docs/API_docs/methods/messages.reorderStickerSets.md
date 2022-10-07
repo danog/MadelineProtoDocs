@@ -18,7 +18,7 @@ Reorder installed stickersets
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |masks|[Bool](/API_docs/types/Bool.html) | Reorder mask stickersets | Optional|
-|emojis|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|emojis|[Bool](/API_docs/types/Bool.html) | Reorder [custom emoji stickersets](https://core.telegram.org/api/custom-emoji) | Optional|
 |order|Array of [long](/API_docs/types/long.html) | New stickerset order by stickerset IDs | Yes|
 
 

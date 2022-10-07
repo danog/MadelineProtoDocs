@@ -1,6 +1,6 @@
 ---
 title: "attachMenuBots"
-description: "attachMenuBots attributes, type and example"
+description: "Represents a list of bot web apps that can be launched from the attachment menu »"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents a list of [bot web apps that can be launched from the attachment menu »](https://core.telegram.org/api/bots/attach)
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|[long](/API_docs/types/long.html) | Yes|
-|bots|Array of [AttachMenuBot](/API_docs/types/AttachMenuBot.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|hash|[long](/API_docs/types/long.html) | Yes|[Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
+|bots|Array of [AttachMenuBot](/API_docs/types/AttachMenuBot.html) | Yes|List of [bot web apps that can be launched from the attachment menu »](https://core.telegram.org/api/bots/attach)|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Info about related users/bots|
 
 
 

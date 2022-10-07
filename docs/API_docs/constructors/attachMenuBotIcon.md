@@ -1,6 +1,6 @@
 ---
 title: "attachMenuBotIcon"
-description: "attachMenuBotIcon attributes, type and example"
+description: "Represents an attachment menu icon for bot web apps »"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents an attachment menu icon for [bot web apps »](https://core.telegram.org/api/bots/attach)
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|name|[string](/API_docs/types/string.html) | Yes|
-|icon|[Document](/API_docs/types/Document.html) | Optional|
-|colors|Array of [AttachMenuBotIconColor](/API_docs/types/AttachMenuBotIconColor.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|name|[string](/API_docs/types/string.html) | Yes|One of the following values: note that animated icons must be played when the user clicks on the button, activating the bot web app. <br><br>`default_static` \- Default attachment menu icon in SVG format <br>`placeholder_static` \- Default placeholder for opened Web Apps in SVG format <br>`ios_static` \- Attachment menu icon in SVG format for the official iOS app <br>`ios_animated` \- Animated attachment menu icon in TGS format for the official iOS app <br>`android_animated` \- Animated attachment menu icon in TGS format for the official Android app <br>`macos_animated` \- Animated attachment menu icon in TGS format for the official native Mac OS app|
+|icon|[Document](/API_docs/types/Document.html) | Optional|The actual icon file.|
+|colors|Array of [AttachMenuBotIconColor](/API_docs/types/AttachMenuBotIconColor.html) | Optional|Attachment menu icon colors.|
 
 
 

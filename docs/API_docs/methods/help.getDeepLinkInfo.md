@@ -1,6 +1,6 @@
 ---
 title: "help.getDeepLinkInfo"
-description: "Get info about a `t.me` link"
+description: "Get info about an unsupported deep link, see [here for more info »](https://core.telegram.org/api/links#unsupported-links)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,13 @@ redirect_from: /API_docs/methods/help_getDeepLinkInfo.html
 
 
 
-Get info about a `t.me` link
+Get info about an unsupported deep link, see [here for more info »](https://core.telegram.org/api/links#unsupported-links).
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|path|[string](/API_docs/types/string.html) | Path in `t.me/path` | Yes|
+|path|[string](/API_docs/types/string.html) | Path component of a `tg:` link | Yes|
 
 
 ### Return type: [help.DeepLinkInfo](/API_docs/types/help.DeepLinkInfo.html)

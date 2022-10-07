@@ -18,7 +18,7 @@ Submit requested order information for validation
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |save|[Bool](/API_docs/types/Bool.html) | Save order information to re-use it for future orders | Optional|
-|invoice|[InputInvoice](/API_docs/types/InputInvoice.html) |  | Yes|
+|invoice|[InputInvoice](/API_docs/types/InputInvoice.html) | Invoice | Yes|
 |info|[PaymentRequestedInfo](/API_docs/types/PaymentRequestedInfo.html) | Requested order information | Yes|
 
 

@@ -1,6 +1,6 @@
 ---
 title: "messages.setDefaultReaction"
-description: "Change default emoji reaction to use in the quick reaction menu: the value is synced across devices and can be fetched using [help.getAppConfig, `reactions_default` field](https://core.telegram.org/api/config#client-configuration)."
+description: "Change default emoji reaction to use in the quick reaction menu: the value is synced across devices and can be fetched using [help.getConfig, `reactions_default` field](../methods/help.getConfig.html)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/messages_setDefaultReaction.html
 
 
 
-Change default emoji reaction to use in the quick reaction menu: the value is synced across devices and can be fetched using [help.getAppConfig, `reactions_default` field](https://core.telegram.org/api/config#client-configuration).
+Change default emoji reaction to use in the quick reaction menu: the value is synced across devices and can be fetched using [help.getConfig, `reactions_default` field](../methods/help.getConfig.html).
 
 ### Parameters:
 

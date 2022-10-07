@@ -21,7 +21,7 @@ Extended user info
 |can\_pin\_message|[Bool](/API_docs/types/Bool.html) | Optional|Whether you can pin messages in the chat with this user, you can do this only for a chat with yourself|
 |has\_scheduled|[Bool](/API_docs/types/Bool.html) | Optional|Whether [scheduled messages](https://core.telegram.org/api/scheduled-messages) are available|
 |video\_calls\_available|[Bool](/API_docs/types/Bool.html) | Optional|Whether the user can receive video calls|
-|voice\_messages\_forbidden|[Bool](/API_docs/types/Bool.html) | Optional|
+|voice\_messages\_forbidden|[Bool](/API_docs/types/Bool.html) | Optional|Whether this user doesn't allow sending voice messages in a private chat with them|
 |id|[long](/API_docs/types/long.html) | Yes|User ID|
 |about|[string](/API_docs/types/string.html) | Optional|Bio of the user|
 |settings|[PeerSettings](/API_docs/types/PeerSettings.html) | Yes|Peer settings|
@@ -34,9 +34,9 @@ Extended user info
 |ttl\_period|[int](/API_docs/types/int.html) | Optional|Time To Live of all messages in this chat; once a message is this many seconds old, it must be deleted.|
 |theme\_emoticon|[string](/API_docs/types/string.html) | Optional|Emoji associated with chat theme|
 |private\_forward\_name|[string](/API_docs/types/string.html) | Optional|Anonymized text to be shown instead of the the user's name on forwarded messages|
-|bot\_group\_admin\_rights|[ChatAdminRights](/API_docs/types/ChatAdminRights.html) | Optional|
-|bot\_broadcast\_admin\_rights|[ChatAdminRights](/API_docs/types/ChatAdminRights.html) | Optional|
-|premium\_gifts|Array of [PremiumGiftOption](/API_docs/types/PremiumGiftOption.html) | Optional|
+|bot\_group\_admin\_rights|[ChatAdminRights](/API_docs/types/ChatAdminRights.html) | Optional|A [suggested set of administrator rights](https://core.telegram.org/api/rights#suggested-bot-rights) for the bot, to be shown when adding the bot as admin to a group, see [here for more info on how to handle them »](https://core.telegram.org/api/rights#suggested-bot-rights).|
+|bot\_broadcast\_admin\_rights|[ChatAdminRights](/API_docs/types/ChatAdminRights.html) | Optional|A [suggested set of administrator rights](https://core.telegram.org/api/rights#suggested-bot-rights) for the bot, to be shown when adding the bot as admin to a channel, see [here for more info on how to handle them »](https://core.telegram.org/api/rights#suggested-bot-rights).|
+|premium\_gifts|Array of [PremiumGiftOption](/API_docs/types/PremiumGiftOption.html) | Optional|Telegram Premium subscriptions gift options|
 
 
 

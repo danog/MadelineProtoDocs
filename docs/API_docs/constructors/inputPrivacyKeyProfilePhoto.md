@@ -1,6 +1,6 @@
 ---
 title: "inputPrivacyKeyProfilePhoto"
-description: "Whether people will be able to see the user's profile picture"
+description: "Whether people will be able to see your profile picture"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Whether people will be able to see the user's profile picture
+Whether people will be able to see your profile picture
 
 
 

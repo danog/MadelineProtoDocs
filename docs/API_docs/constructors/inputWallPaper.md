@@ -9,13 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Wallpaper
+[Wallpaper](https://core.telegram.org/api/wallpapers)
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](/API_docs/types/long.html) | Yes|Wallpaper ID|
+|id|[long](/API_docs/types/long.html) | Yes|[Wallpaper](https://core.telegram.org/api/wallpapers) ID|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash|
 
 

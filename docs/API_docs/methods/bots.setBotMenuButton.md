@@ -1,6 +1,6 @@
 ---
 title: "bots.setBotMenuButton"
-description: "bots.setBotMenuButton parameters, return type and example"
+description: "Sets the [menu button action »](https://core.telegram.org/api/bots/menu) for a given user or for all users"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/bots_setBotMenuButton.html
 
 
 
+Sets the [menu button action »](https://core.telegram.org/api/bots/menu) for a given user or for all users
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|button|[BotMenuButton](/API_docs/types/BotMenuButton.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | User ID | Optional|
+|button|[BotMenuButton](/API_docs/types/BotMenuButton.html) | Bot menu button action | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

@@ -15,7 +15,7 @@ Identifies an endpoint that can be used to connect to the other user in a phone 
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|tcp|[Bool](/API_docs/types/Bool.html) | Optional|
+|tcp|[Bool](/API_docs/types/Bool.html) | Optional|Whether TCP should be used|
 |id|[long](/API_docs/types/long.html) | Yes|Endpoint ID|
 |ip|[string](/API_docs/types/string.html) | Yes|IP address of endpoint|
 |ipv6|[string](/API_docs/types/string.html) | Yes|IPv6 address of endpoint|

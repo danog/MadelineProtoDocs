@@ -1,6 +1,6 @@
 ---
 title: "bots.setBotBroadcastDefaultAdminRights"
-description: "bots.setBotBroadcastDefaultAdminRights parameters, return type and example"
+description: "Set the default [suggested admin rights](https://core.telegram.org/api/rights#suggested-bot-rights) for bots being added as admins to channels, see [here for more info on how to handle them »](https://core.telegram.org/api/rights#suggested-bot-rights)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/bots_setBotBroadcastDefaultAdminRights.html
 
 
 
+Set the default [suggested admin rights](https://core.telegram.org/api/rights#suggested-bot-rights) for bots being added as admins to channels, see [here for more info on how to handle them »](https://core.telegram.org/api/rights#suggested-bot-rights).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|admin\_rights|[ChatAdminRights](/API_docs/types/ChatAdminRights.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|admin\_rights|[ChatAdminRights](/API_docs/types/ChatAdminRights.html) | Admin rights | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

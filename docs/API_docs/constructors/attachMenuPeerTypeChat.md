@@ -1,6 +1,6 @@
 ---
 title: "attachMenuPeerTypeChat"
-description: "attachMenuPeerTypeChat attributes, type and example"
+description: "The bot attachment menu entry is available in groups and supergroups"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -8,6 +8,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+The bot attachment menu entry is available in [groups and supergroups](https://core.telegram.org/api/channel)
 
 
 

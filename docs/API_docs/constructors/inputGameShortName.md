@@ -16,7 +16,7 @@ Game by short name
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |bot\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|The bot that provides the game|
-|short\_name|[string](/API_docs/types/string.html) | Yes|The game's short name|
+|short\_name|[string](/API_docs/types/string.html) | Yes|The game's short name, usually obtained from a [game link »](https://core.telegram.org/api/links#game-links)|
 
 
 

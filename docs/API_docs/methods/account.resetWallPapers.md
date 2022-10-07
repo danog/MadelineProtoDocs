@@ -1,6 +1,6 @@
 ---
 title: "account.resetWallPapers"
-description: "Delete installed wallpapers"
+description: "Delete all installed [wallpapers](https://core.telegram.org/api/wallpapers), reverting to the default wallpaper set."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/account_resetWallPapers.html
 
 
 
-Delete installed wallpapers
+Delete all installed [wallpapers](https://core.telegram.org/api/wallpapers), reverting to the default wallpaper set.
 
 
 

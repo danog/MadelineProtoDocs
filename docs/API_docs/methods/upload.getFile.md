@@ -20,7 +20,7 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 |precise|[Bool](/API_docs/types/Bool.html) | Disable some checks on limit and offset values, useful for example to stream videos by keyframes | Optional|
 |cdn\_supported|[Bool](/API_docs/types/Bool.html) | Whether the current client supports [CDN downloads](https://core.telegram.org/cdn) | Optional|
 |location|[InputFileLocation](/API_docs/types/InputFileLocation.html) | File location | Yes|
-|offset|[long](/API_docs/types/long.html) |  | Yes|
+|offset|[long](/API_docs/types/long.html) | Number of bytes to be skipped | Yes|
 |limit|[int](/API_docs/types/int.html) | Number of bytes to be returned | Optional|
 
 

@@ -22,7 +22,7 @@ Current configuration
 |revoke\_pm\_inbox|[Bool](/API_docs/types/Bool.html) | Optional|Whether incoming private messages can be deleted for both participants|
 |blocked\_mode|[Bool](/API_docs/types/Bool.html) | Optional|Indicates that telegram is *probably* censored by governments/ISPs in the current region|
 |pfs\_enabled|[Bool](/API_docs/types/Bool.html) | Optional|Whether [pfs](https://core.telegram.org/api/pfs) was used|
-|force\_try\_ipv6|[Bool](/API_docs/types/Bool.html) | Optional|
+|force\_try\_ipv6|[Bool](/API_docs/types/Bool.html) | Optional|Whether to forcefully connect using IPv6 [dcOptions](../types/DcOption.html), even if the client knows that IPv4 is available.|
 |date|[int](/API_docs/types/int.html) | Yes|Current date at the server|
 |expires|[int](/API_docs/types/int.html) | Yes|Expiration date of this config: when it expires it'll have to be refetched using [help.getConfig](../methods/help.getConfig.html)|
 |test\_mode|[Bool](/API_docs/types/Bool.html) | Yes|Whether we're connected to the test DCs|
@@ -55,7 +55,7 @@ Current configuration
 |call\_ring\_timeout\_ms|[int](/API_docs/types/int.html) | Yes|Maximum allowed incoming ring time in VoIP calls: if the current user doesn't reply within the specified time (in milliseconds), the call will be automatically refused|
 |call\_connect\_timeout\_ms|[int](/API_docs/types/int.html) | Yes|VoIP connection timeout: if the instance of libtgvoip on the other side of the call doesn't connect to our instance of libtgvoip within the specified time (in milliseconds), the call must be aborted|
 |call\_packet\_timeout\_ms|[int](/API_docs/types/int.html) | Yes|If during a VoIP call a packet isn't received for the specified period of time, the call must be aborted|
-|me\_url\_prefix|[string](/API_docs/types/string.html) | Yes|The domain to use to parse in-app links.<br>For example t.me indicates that t.me/username links should parsed to @username, t.me/addsticker/name should be parsed to the appropriate stickerset and so on...|
+|me\_url\_prefix|[string](/API_docs/types/string.html) | Yes|The domain to use to parse [deep links »](https://core.telegram.org/api/links).|
 |autoupdate\_url\_prefix|[string](/API_docs/types/string.html) | Optional|URL to use to auto-update the current app|
 |gif\_search\_username|[string](/API_docs/types/string.html) | Optional|Username of the bot to use to search for GIFs|
 |venue\_search\_username|[string](/API_docs/types/string.html) | Optional|Username of the bot to use to search for venues|
@@ -63,7 +63,7 @@ Current configuration
 |static\_maps\_provider|[string](/API_docs/types/string.html) | Optional|ID of the map provider to use for venues|
 |caption\_length\_max|[int](/API_docs/types/int.html) | Yes|Maximum length of caption (length in utf8 codepoints)|
 |message\_length\_max|[int](/API_docs/types/int.html) | Yes|Maximum length of messages (length in utf8 codepoints)|
-|webfile\_dc\_id|[int](/API_docs/types/int.html) | Yes|DC ID to use to download [webfiles](https://core.telegram.org/api/files)|
+|webfile\_dc\_id|[int](/API_docs/types/int.html) | Yes|DC ID to use to download [webfiles](https://core.telegram.org/api/files#downloading-webfiles)|
 |suggested\_lang\_code|[string](/API_docs/types/string.html) | Optional|Suggested language code|
 |lang\_pack\_version|[int](/API_docs/types/int.html) | Optional|Language pack version|
 |base\_lang\_pack\_version|[int](/API_docs/types/int.html) | Optional|Basic language pack version|

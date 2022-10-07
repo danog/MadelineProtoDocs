@@ -1,6 +1,6 @@
 ---
 title: "paymentFormMethod"
-description: "paymentFormMethod attributes, type and example"
+description: "Represents an additional payment method"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents an additional payment method
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|url|[string](/API_docs/types/string.html) | Yes|
-|title|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|url|[string](/API_docs/types/string.html) | Yes|URL to open in a webview to process the payment|
+|title|[string](/API_docs/types/string.html) | Yes|Payment method description|
 
 
 

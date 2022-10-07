@@ -1,6 +1,6 @@
 ---
 title: "messages.startBot"
-description: "Start a conversation with a bot using a [deep linking parameter](https://core.telegram.org/bots#deep-linking)"
+description: "Start a conversation with a bot using a [deep linking parameter](https://core.telegram.org/api/links#bot-links)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/messages_startBot.html
 
 
 
-Start a conversation with a bot using a [deep linking parameter](https://core.telegram.org/bots#deep-linking)
+Start a conversation with a bot using a [deep linking parameter](https://core.telegram.org/api/links#bot-links)
 
 ### Parameters:
 
@@ -19,7 +19,7 @@ Start a conversation with a bot using a [deep linking parameter](https://core.te
 |----------|---------------|-------------|----------|
 |bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The bot | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The chat where to start the bot, can be the bot's private chat or a group | Optional|
-|start\_param|[string](/API_docs/types/string.html) | [Deep linking parameter](https://core.telegram.org/bots#deep-linking) | Yes|
+|start\_param|[string](/API_docs/types/string.html) | [Deep linking parameter](https://core.telegram.org/api/links#bot-links) | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

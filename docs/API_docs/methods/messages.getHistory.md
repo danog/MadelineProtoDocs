@@ -1,6 +1,6 @@
 ---
 title: "messages.getHistory"
-description: "Gets back the conversation history with one interlocutor / within a chat"
+description: "Returns the conversation history with one interlocutor / within a chat"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -14,7 +14,7 @@ redirect_from: /API_docs/methods/messages_getHistory.html
 # Warning: flood wait
 **Warning: this method is prone to rate limiting with flood waits, please use the [event handler, instead &raquo;](/docs/UPDATES.html#async-event-driven)**
 
-Gets back the conversation history with one interlocutor / within a chat
+Returns the conversation history with one interlocutor / within a chat
 
 ### Parameters:
 

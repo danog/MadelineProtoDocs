@@ -1,6 +1,6 @@
 ---
 title: "webViewMessageSent"
-description: "webViewMessageSent attributes, type and example"
+description: "Info about a sent inline webview message"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Info about a sent inline webview message
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|msg\_id|[InputBotInlineMessageID](/API_docs/types/InputBotInlineMessageID.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|msg\_id|[InputBotInlineMessageID](/API_docs/types/InputBotInlineMessageID.html) | Optional|Message ID|
 
 
 

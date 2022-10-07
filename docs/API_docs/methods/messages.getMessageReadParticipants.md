@@ -1,6 +1,6 @@
 ---
 title: "messages.getMessageReadParticipants"
-description: "Get which users read a specific message: only available for groups and supergroups with less than `chat_read_mark_size_threshold` members, read receipts will be stored for `chat_read_mark_expire_period` seconds after the message was sent, see [client configuration for more info »](https://core.telegram.org/api/config#client-configuration)."
+description: "Get which users read a specific message: only available for groups and supergroups with less than [`chat_read_mark_size_threshold` members](https://core.telegram.org/api/config#chat-read-mark-size-threshold), read receipts will be stored for [`chat_read_mark_expire_period` seconds after the message was sent](https://core.telegram.org/api/config#chat-read-mark-expire-period), see [client configuration for more info »](https://core.telegram.org/api/config#client-configuration)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/messages_getMessageReadParticipants.html
 
 
 
-Get which users read a specific message: only available for groups and supergroups with less than `chat_read_mark_size_threshold` members, read receipts will be stored for `chat_read_mark_expire_period` seconds after the message was sent, see [client configuration for more info »](https://core.telegram.org/api/config#client-configuration).
+Get which users read a specific message: only available for groups and supergroups with less than [`chat_read_mark_size_threshold` members](https://core.telegram.org/api/config#chat-read-mark-size-threshold), read receipts will be stored for [`chat_read_mark_expire_period` seconds after the message was sent](https://core.telegram.org/api/config#chat-read-mark-expire-period), see [client configuration for more info »](https://core.telegram.org/api/config#client-configuration).
 
 ### Parameters:
 

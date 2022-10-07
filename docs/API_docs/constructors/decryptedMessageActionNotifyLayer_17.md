@@ -15,7 +15,7 @@ A notification stating the API layer that is used by the client. You should use 
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|layer|[int](/API_docs/types/int.html) | Yes|Layer number, must be **17** or higher (this constructor was introduced in [Layer 17](https://core.telegram.org/api/layers#layer-17)).|
+|layer|[int](/API_docs/types/int.html) | Yes|Layer number, must be **17** or higher (this constructor was introduced in Layer 17.|
 
 
 

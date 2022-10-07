@@ -1,6 +1,6 @@
 ---
 title: "privacyKeyVoiceMessages"
-description: "privacyKeyVoiceMessages attributes, type and example"
+description: "Whether the user accepts voice messages"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -8,6 +8,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+Whether the user accepts voice messages
 
 
 

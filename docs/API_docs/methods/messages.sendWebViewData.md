@@ -1,6 +1,6 @@
 ---
 title: "messages.sendWebViewData"
-description: "messages.sendWebViewData parameters, return type and example"
+description: "Used by the user to relay data from an opened [reply keyboard bot web app](https://core.telegram.org/api/bots/webapps) to the bot that owns it."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/messages_sendWebViewData.html
 
 
 
+Used by the user to relay data from an opened [reply keyboard bot web app](https://core.telegram.org/api/bots/webapps) to the bot that owns it.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|button\_text|[string](/API_docs/types/string.html) | Yes|
-|data|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Bot that owns the web app | Optional|
+|button\_text|[string](/API_docs/types/string.html) | Text of the [keyboardButtonSimpleWebView](../constructors/keyboardButtonSimpleWebView.html) that was pressed to open the web app. | Yes|
+|data|[string](/API_docs/types/string.html) | Data to relay to the bot, obtained from a [`web_app_data_send` JS event](https://core.telegram.org/api/web-events#web-app-data-send). | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

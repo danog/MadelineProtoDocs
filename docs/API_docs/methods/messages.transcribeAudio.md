@@ -1,6 +1,6 @@
 ---
 title: "messages.transcribeAudio"
-description: "messages.transcribeAudio parameters, return type and example"
+description: "[Transcribe voice message](https://core.telegram.org/api/transcribe)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/messages_transcribeAudio.html
 
 
 
+[Transcribe voice message](https://core.telegram.org/api/transcribe)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer ID where the voice message was sent | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | Voice message ID | Optional|
 
 
 ### Return type: [messages.TranscribedAudio](/API_docs/types/messages.TranscribedAudio.html)

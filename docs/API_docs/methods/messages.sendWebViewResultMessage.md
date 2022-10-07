@@ -1,6 +1,6 @@
 ---
 title: "messages.sendWebViewResultMessage"
-description: "messages.sendWebViewResultMessage parameters, return type and example"
+description: "Terminate webview interaction started with [messages.requestWebView](../methods/messages.requestWebView.html), sending the specified message to the chat on behalf of the user."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/messages_sendWebViewResultMessage.html
 
 
 
+Terminate webview interaction started with [messages.requestWebView](../methods/messages.requestWebView.html), sending the specified message to the chat on behalf of the user.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|bot\_query\_id|[string](/API_docs/types/string.html) | Yes|
-|result|[InputBotInlineResult](/API_docs/types/InputBotInlineResult.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot\_query\_id|[string](/API_docs/types/string.html) | Webview interaction ID obtained from [messages.requestWebView](../methods/messages.requestWebView.html) | Yes|
+|result|[InputBotInlineResult](/API_docs/types/InputBotInlineResult.html) | Message to send | Yes|
 
 
 ### Return type: [WebViewMessageSent](/API_docs/types/WebViewMessageSent.html)

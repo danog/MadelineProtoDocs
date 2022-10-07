@@ -1,6 +1,6 @@
 ---
 title: "inputPrivacyKeyPhoneP2P"
-description: "Whether the user allows P2P communication during VoIP calls"
+description: "Whether to allow P2P communication during VoIP calls"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Whether the user allows P2P communication during VoIP calls
+Whether to allow P2P communication during VoIP calls
 
 
 

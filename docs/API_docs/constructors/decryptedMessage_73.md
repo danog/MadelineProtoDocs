@@ -17,7 +17,7 @@ Contents of an encrypted message.
 |----------|---------------|----------|-------------|
 |no\_webpage|[Bool](/API_docs/types/Bool.html) | Optional|Whether the webpage preview is disabled|
 |silent|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a silent message (no notification triggered)|
-|ttl|[int](/API_docs/types/int.html) | Yes|Message lifetime. Has higher priority than [decryptedMessageActionSetMessageTTL](../constructors/decryptedMessageActionSetMessageTTL.html).<br>Parameter added in [Layer 17](https://core.telegram.org/api/layers#layer-17).|
+|ttl|[int](/API_docs/types/int.html) | Yes|Message lifetime. Has higher priority than [decryptedMessageActionSetMessageTTL](../constructors/decryptedMessageActionSetMessageTTL.html).<br>Parameter added in Layer 17.|
 |message|[string](/API_docs/types/string.html) | Yes|Message text|
 |media|[DecryptedMessageMedia](/API_docs/types/DecryptedMessageMedia.html) | Optional|Media content|
 |entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|Message [entities](https://core.telegram.org/api/entities) for styled text (parameter added in layer 45)|

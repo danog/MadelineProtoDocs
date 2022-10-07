@@ -21,7 +21,7 @@ redirect_from: /API_docs/methods/messages_getTopReactions.html
 
 ### Return type: [messages.Reactions](/API_docs/types/messages.Reactions.html)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

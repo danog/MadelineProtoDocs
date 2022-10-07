@@ -1,6 +1,6 @@
 ---
 title: "payments.assignPlayMarketTransaction"
-description: "payments.assignPlayMarketTransaction parameters, return type and example"
+description: "Informs server about a purchase made through the Play Store: for official applications only."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/payments_assignPlayMarketTransaction.html
 
 
 
+Informs server about a purchase made through the Play Store: for official applications only.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|receipt|[DataJSON](/API_docs/types/DataJSON.html) | Yes|
-|purpose|[InputStorePaymentPurpose](/API_docs/types/InputStorePaymentPurpose.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|receipt|[DataJSON](/API_docs/types/DataJSON.html) | Receipt | Yes|
+|purpose|[InputStorePaymentPurpose](/API_docs/types/InputStorePaymentPurpose.html) | Payment purpose | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

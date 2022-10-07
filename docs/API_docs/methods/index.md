@@ -70,7 +70,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.changeAuthorizationSettings.html" name="account.changeAuthorizationSettings">Change authorization settings: account.changeAuthorizationSettings</a>
 
-* <a href="messages.setDefaultReaction.html" name="messages.setDefaultReaction">Change default emoji reaction to use in the quick reaction menu: the value is synced across devices and can be fetched using help.getAppConfig, reactions_default field: messages.setDefaultReaction</a>
+* <a href="messages.setDefaultReaction.html" name="messages.setDefaultReaction">Change default emoji reaction to use in the quick reaction menu: the value is synced across devices and can be fetched using help.getConfig, reactions_default field: messages.setDefaultReaction</a>
 
 * <a href="phone.toggleGroupCallSettings.html" name="phone.toggleGroupCallSettings">Change group call settings: phone.toggleGroupCallSettings</a>
 
@@ -108,7 +108,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="stickers.checkShortName.html" name="stickers.checkShortName">Check whether the given short name is available: stickers.checkShortName</a>
 
-* <a href="phone.checkGroupCall.html" name="phone.checkGroupCall">Check whether the group call Server Forwarding Unit is currently receiving the streams with the specified WebRTC source IDs: phone.checkGroupCall</a>
+* <a href="phone.checkGroupCall.html" name="phone.checkGroupCall">Check whether the group call Server Forwarding Unit is currently receiving the streams with the specified WebRTC source IDs.  : phone.checkGroupCall</a>
+
+* <a href="payments.canPurchasePremium.html" name="payments.canPurchasePremium">Checks whether Telegram Premium purchase is possible. Must be called before in-store Premium purchase, official apps only: payments.canPurchasePremium</a>
 
 * <a href="messages.clearAllDrafts.html" name="messages.clearAllDrafts">Clear all drafts: messages.clearAllDrafts</a>
 
@@ -146,6 +148,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.deleteExportedChatInvite.html" name="messages.deleteExportedChatInvite">Delete a chat invite: messages.deleteExportedChatInvite</a>
 
+* <a href="account.resetWallPapers.html" name="account.resetWallPapers">Delete all installed wallpapers, reverting to the default wallpaper set: account.resetWallPapers</a>
+
 * <a href="channels.deleteParticipantHistory.html" name="channels.deleteParticipantHistory">Delete all messages sent by a specific participant of a given supergroup: channels.deleteParticipantHistory</a>
 
 * <a href="messages.deleteRevokedExportedChatInvites.html" name="messages.deleteRevokedExportedChatInvites">Delete all revoked chat invites: messages.deleteRevokedExportedChatInvites</a>
@@ -153,8 +157,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="auth.dropTempAuthKeys.html" name="auth.dropTempAuthKeys">Delete all temporary authorization keys except for the ones specified: auth.dropTempAuthKeys</a>
 
 * <a href="contacts.deleteByPhones.html" name="contacts.deleteByPhones">Delete contacts by phone number: contacts.deleteByPhones</a>
-
-* <a href="account.resetWallPapers.html" name="account.resetWallPapers">Delete installed wallpapers: account.resetWallPapers</a>
 
 * <a href="channels.deleteMessages.html" name="channels.deleteMessages">Delete messages in a channel/supergroup: channels.deleteMessages</a>
 
@@ -168,7 +170,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels.deleteHistory.html" name="channels.deleteHistory">Delete the history of a supergroup: channels.deleteHistory</a>
 
-* <a href="account.deleteAccount.html" name="account.deleteAccount">Delete the user's account from the telegram servers. Can be used, for example, to delete the account of a user that provided the login code, but forgot the 2FA password and no recovery method is configured: account.deleteAccount</a>
+* <a href="account.deleteAccount.html" name="account.deleteAccount">Delete the user's account from the telegram servers: account.deleteAccount</a>
 
 * <a href="account.unregisterDevice.html" name="account.unregisterDevice">Deletes a device by its token, stops sending PUSH-notifications to it: account.unregisterDevice</a>
 
@@ -178,7 +180,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.deleteMessages.html" name="messages.deleteMessages">Deletes messages by their identifiers: messages.deleteMessages</a>
 
-* <a href="photos.deletePhotos.html" name="photos.deletePhotos">Deletes profile photos: photos.deletePhotos</a>
+* <a href="photos.deletePhotos.html" name="photos.deletePhotos">Deletes profile photos. The method returns a list of successfully deleted photo IDs: photos.deletePhotos</a>
 
 * <a href="contacts.deleteContacts.html" name="contacts.deleteContacts">Deletes several contacts from the list: contacts.deleteContacts</a>
 
@@ -214,11 +216,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.toggleNoForwards.html" name="messages.toggleNoForwards">Enable or disable content protection on a channel or chat: messages.toggleNoForwards</a>
 
+* <a href="messages.toggleBotInAttachMenu.html" name="messages.toggleBotInAttachMenu">Enable or disable web bot attachment menu »: messages.toggleBotInAttachMenu</a>
+
 * <a href="contacts.toggleTopPeers.html" name="contacts.toggleTopPeers">Enable/disable top peers: contacts.toggleTopPeers</a>
 
 * <a href="channels.toggleSignatures.html" name="channels.toggleSignatures">Enable/disable message signatures in channels: channels.toggleSignatures</a>
 
 * <a href="messages.exportChatInvite.html" name="messages.exportChatInvite">Export an invite link for a chat: messages.exportChatInvite</a>
+
+* <a href="messages.getCustomEmojiDocuments.html" name="messages.getCustomEmojiDocuments">Fetch custom emoji stickers »: messages.getCustomEmojiDocuments</a>
+
+* <a href="account.getSavedRingtones.html" name="account.getSavedRingtones">Fetch saved notification sounds: account.getSavedRingtones</a>
 
 * <a href="messages.getMessageEditData.html" name="messages.getMessageEditData">Find out if a media message's caption can be edited: messages.getMessageEditData</a>
 
@@ -228,9 +236,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="auth.exportLoginToken.html" name="auth.exportLoginToken">Generate a login token, for login via QR code.  : auth.exportLoginToken</a>
 
+* <a href="payments.exportInvoice.html" name="payments.exportInvoice">Generate an invoice deep link: payments.exportInvoice</a>
+
 * <a href="help.getPromoData.html" name="help.getPromoData">Get MTProxy/Public Service Announcement information: help.getPromoData</a>
 
 * <a href="phone.getGroupCallStreamRtmpUrl.html" name="phone.getGroupCallStreamRtmpUrl">Get RTMP URL and stream key for RTMP livestreams. Can be used even before creating the actual RTMP livestream with phone.createGroupCall (the rtmp_stream flag must be set): phone.getGroupCallStreamRtmpUrl</a>
+
+* <a href="help.getPremiumPromo.html" name="help.getPremiumPromo">Get Telegram Premium promotion information: help.getPremiumPromo</a>
 
 * <a href="stats.getBroadcastStats.html" name="stats.getBroadcastStats">Get channel statistics: stats.getBroadcastStats</a>
 
@@ -326,8 +338,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels.getParticipant.html" name="channels.getParticipant">Get info about a channel/supergroup participant: channels.getParticipant</a>
 
-* <a href="help.getDeepLinkInfo.html" name="help.getDeepLinkInfo">Get info about a t.me link: help.getDeepLinkInfo</a>
-
 * <a href="account.getWallPaper.html" name="account.getWallPaper">Get info about a certain wallpaper: account.getWallPaper</a>
 
 * <a href="messages.getExportedChatInvite.html" name="messages.getExportedChatInvite">Get info about a chat invite: messages.getExportedChatInvite</a>
@@ -339,6 +349,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages.getStickerSet.html" name="messages.getStickerSet">Get info about a stickerset: messages.getStickerSet</a>
 
 * <a href="messages.getEmojiKeywordsLanguages.html" name="messages.getEmojiKeywordsLanguages">Get info about an emoji keyword localization: messages.getEmojiKeywordsLanguages</a>
+
+* <a href="help.getDeepLinkInfo.html" name="help.getDeepLinkInfo">Get info about an unsupported deep link, see here for more info »: help.getDeepLinkInfo</a>
 
 * <a href="messages.getAdminsWithInvites.html" name="messages.getAdminsWithInvites">Get info about chat invites generated by admins: messages.getAdminsWithInvites</a>
 
@@ -438,11 +450,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getMessageReadParticipants.html" name="messages.getMessageReadParticipants">Get which users read a specific message: only available for groups and supergroups with less than chat_read_mark_size_threshold members, read receipts will be stored for chat_read_mark_expire_period seconds after the message was sent, see client configuration for more info »: messages.getMessageReadParticipants</a>
 
-* <a href="messages.search.html" name="messages.search">Gets back found messages: messages.search</a>
-
-* <a href="messages.getHistory.html" name="messages.getHistory">Gets back the conversation history with one interlocutor / within a chat: messages.getHistory</a>
-
 * <a href="account.getNotifySettings.html" name="account.getNotifySettings">Gets current notification settings for a given user/group, from all users/all groups: account.getNotifySettings</a>
+
+* <a href="messages.getFeaturedEmojiStickers.html" name="messages.getFeaturedEmojiStickers">Gets featured custom emoji stickersets: messages.getFeaturedEmojiStickers</a>
+
+* <a href="messages.getEmojiStickers.html" name="messages.getEmojiStickers">Gets the list of currently installed custom emoji stickersets: messages.getEmojiStickers</a>
+
+* <a href="bots.getBotMenuButton.html" name="bots.getBotMenuButton">Gets the menu button action for a given user or for all users, previously set using bots.setBotMenuButton; users can see this information in the botInfo constructor: bots.getBotMenuButton</a>
 
 * <a href="help.hidePromoData.html" name="help.hidePromoData">Hide MTProxy/Public Service Announcement information: help.hidePromoData</a>
 
@@ -458,6 +472,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="contacts.importContacts.html" name="contacts.importContacts">Imports contacts: saves a full list on the server, adds already registered contacts to the contact list, returns added contacts and their info: contacts.importContacts</a>
 
+* <a href="messages.prolongWebView.html" name="messages.prolongWebView">Indicate to the server (from the user side) that the user is still using a web app: messages.prolongWebView</a>
+
+* <a href="payments.assignAppStoreTransaction.html" name="payments.assignAppStoreTransaction">Informs server about a purchase made through the App Store: for official applications only: payments.assignAppStoreTransaction</a>
+
+* <a href="payments.assignPlayMarketTransaction.html" name="payments.assignPlayMarketTransaction">Informs server about a purchase made through the Play Store: for official applications only: payments.assignPlayMarketTransaction</a>
+
 * <a href="help.setBotUpdatesStatus.html" name="help.setBotUpdatesStatus">Informs the server about the number of pending bot updates if they haven't been processed for a long time; for bots only: help.setBotUpdatesStatus</a>
 
 * <a href="account.initTakeoutSession.html" name="account.initTakeoutSession">Initialize account takeout session: account.initTakeoutSession</a>
@@ -466,11 +486,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.resetPassword.html" name="account.resetPassword">Initiate a 2FA password reset: can only be used if the user is already logged-in, see here for more info »: account.resetPassword</a>
 
+* <a href="account.installWallPaper.html" name="account.installWallPaper">Install wallpaper: account.installWallPaper</a>
+
 * <a href="messages.installStickerSet.html" name="messages.installStickerSet">Install a stickerset: messages.installStickerSet</a>
 
 * <a href="account.installTheme.html" name="account.installTheme">Install a theme: account.installTheme</a>
-
-* <a href="account.installWallPaper.html" name="account.installWallPaper">Install wallpaper: account.installWallPaper</a>
 
 * <a href="account.saveWallPaper.html" name="account.saveWallPaper">Install/uninstall wallpaper: account.saveWallPaper</a>
 
@@ -562,6 +582,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.setBotPrecheckoutResults.html" name="messages.setBotPrecheckoutResults">Once the user has confirmed their payment and shipping details, the bot receives an updateBotPrecheckoutQuery update.  : messages.setBotPrecheckoutResults</a>
 
+* <a href="messages.requestSimpleWebView.html" name="messages.requestSimpleWebView">Open a bot web app: messages.requestSimpleWebView</a>
+
+* <a href="messages.requestWebView.html" name="messages.requestWebView">Open a bot web app, sending over user information after user confirmation: messages.requestWebView</a>
+
 * <a href="phone.receivedCall.html" name="phone.receivedCall">Optional: notify the server that the user is currently busy in a call: this will automatically refuse all incoming phone calls until the current phone call is ended: phone.receivedCall</a>
 
 * <a href="messages.updatePinnedMessage.html" name="messages.updatePinnedMessage">Pin a message: messages.updatePinnedMessage</a>
@@ -572,7 +596,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getInlineBotResults.html" name="messages.getInlineBotResults">Query an inline bot: messages.getInlineBotResults</a>
 
-* <a href="phone.setCallRating.html" name="phone.setCallRating">Rate a call: phone.setCallRating</a>
+* <a href="messages.rateTranscribedAudio.html" name="messages.rateTranscribedAudio">Rate transcribed voice message: messages.rateTranscribedAudio</a>
+
+* <a href="phone.setCallRating.html" name="phone.setCallRating">Rate a call, returns info about the rating message sent to the official VoIP bot: phone.setCallRating</a>
 
 * <a href="messages.sendReaction.html" name="messages.sendReaction">React to message: messages.sendReaction</a>
 
@@ -614,19 +640,25 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="contacts.resolvePhone.html" name="contacts.resolvePhone">Resolve a phone number to get user info, if their privacy settings allow it: contacts.resolvePhone</a>
 
+* <a href="messages.getAllDrafts.html" name="messages.getAllDrafts">Return all message drafts.  : messages.getAllDrafts</a>
+
 * <a href="account.getAuthorizationForm.html" name="account.getAuthorizationForm">Returns a Telegram Passport authorization form for sharing data with a service: account.getAuthorizationForm</a>
 
 * <a href="account.getWallPapers.html" name="account.getWallPapers">Returns a list of available wallpapers: account.getWallPapers</a>
 
 * <a href="messages.getEmojiURL.html" name="messages.getEmojiURL">Returns an HTTP URL which can be used to automatically log in into translation platform and suggest new emoji replacements. The URL will be valid for 30 seconds after generation: messages.getEmojiURL</a>
 
+* <a href="messages.getAttachMenuBot.html" name="messages.getAttachMenuBot">Returns attachment menu entry for a bot web app that can be launched from the attachment menu »: messages.getAttachMenuBot</a>
+
 * <a href="users.getUsers.html" name="users.getUsers">Returns basic user info according to their identifiers: users.getUsers</a>
 
 * <a href="messages.getChats.html" name="messages.getChats">Returns chat basic info on their IDs: messages.getChats</a>
 
-* <a href="upload.getWebFile.html" name="upload.getWebFile">Returns content of an HTTP file or a part, by proxying the request through telegram: upload.getWebFile</a>
+* <a href="upload.getWebFile.html" name="upload.getWebFile">Returns content of a web file, by proxying the request through telegram, see the webfile docs for more info: upload.getWebFile</a>
 
 * <a href="help.getConfig.html" name="help.getConfig">Returns current configuration, including data center configuration: help.getConfig</a>
+
+* <a href="messages.search.html" name="messages.search">Returns found messages: messages.search</a>
 
 * <a href="help.getNearestDc.html" name="help.getNearestDc">Returns info on data center nearest to the user: help.getNearestDc</a>
 
@@ -634,11 +666,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="help.getAppUpdate.html" name="help.getAppUpdate">Returns information on update availability for the current application: help.getAppUpdate</a>
 
+* <a href="messages.getAttachMenuBots.html" name="messages.getAttachMenuBots">Returns installed attachment menu bot web apps »: messages.getAttachMenuBots</a>
+
 * <a href="account.getNotifyExceptions.html" name="account.getNotifyExceptions">Returns list of chats with non-default notification settings: account.getNotifyExceptions</a>
 
 * <a href="help.getInviteText.html" name="help.getInviteText">Returns localized text of a text message with an invitation: help.getInviteText</a>
 
 * <a href="messages.getSearchResultsPositions.html" name="messages.getSearchResultsPositions">Returns sparse positions of messages of the specified type in the chat to be used for shared media scroll implementation: messages.getSearchResultsPositions</a>
+
+* <a href="messages.getHistory.html" name="messages.getHistory">Returns the conversation history with one interlocutor / within a chat: messages.getHistory</a>
 
 * <a href="messages.getDialogs.html" name="messages.getDialogs">Returns the current user dialog list: messages.getDialogs</a>
 
@@ -660,7 +696,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.saveTheme.html" name="account.saveTheme">Save a theme: account.saveTheme</a>
 
-* <a href="messages.getAllDrafts.html" name="messages.getAllDrafts">Save get all message drafts: messages.getAllDrafts</a>
+* <a href="account.saveRingtone.html" name="account.saveRingtone">Save or remove saved notification sound: account.saveRingtone</a>
+
+* <a href="phone.saveCallLog.html" name="phone.saveCallLog">Save phone call debug information: phone.saveCallLog</a>
 
 * <a href="help.saveAppLog.html" name="help.saveAppLog">Saves logs of application on the server: help.saveAppLog</a>
 
@@ -678,6 +716,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.sendMultiMedia.html" name="messages.sendMultiMedia">Send an album or grouped media: messages.sendMultiMedia</a>
 
+* <a href="account.sendVerifyEmailCode.html" name="account.sendVerifyEmailCode">Send an email verification code: account.sendVerifyEmailCode</a>
+
 * <a href="payments.sendPaymentForm.html" name="payments.sendPaymentForm">Send compiled payment form: payments.sendPaymentForm</a>
 
 * <a href="account.sendConfirmPhoneCode.html" name="account.sendConfirmPhoneCode">Send confirmation code to cancel account deletion, for more info click here »: account.sendConfirmPhoneCode</a>
@@ -685,8 +725,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="phone.saveCallDebug.html" name="phone.saveCallDebug">Send phone call debug data to server: phone.saveCallDebug</a>
 
 * <a href="messages.sendScheduledMessages.html" name="messages.sendScheduledMessages">Send scheduled messages right away: messages.sendScheduledMessages</a>
-
-* <a href="account.sendVerifyEmailCode.html" name="account.sendVerifyEmailCode">Send the verification email code for telegram passport: account.sendVerifyEmailCode</a>
 
 * <a href="account.sendVerifyPhoneCode.html" name="account.sendVerifyPhoneCode">Send the verification phone code for telegram passport: account.sendVerifyPhoneCode</a>
 
@@ -720,9 +758,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.setBotCallbackAnswer.html" name="messages.setBotCallbackAnswer">Set the callback answer to a user button press (bots only): messages.setBotCallbackAnswer</a>
 
+* <a href="bots.setBotBroadcastDefaultAdminRights.html" name="bots.setBotBroadcastDefaultAdminRights">Set the default suggested admin rights for bots being added as admins to channels, see here for more info on how to handle them »: bots.setBotBroadcastDefaultAdminRights</a>
+
+* <a href="bots.setBotGroupDefaultAdminRights.html" name="bots.setBotGroupDefaultAdminRights">Set the default suggested admin rights for bots being added as admins to groups, see here for more info on how to handle them »: bots.setBotGroupDefaultAdminRights</a>
+
 * <a href="phone.saveDefaultGroupCallJoinAs.html" name="phone.saveDefaultGroupCallJoinAs">Set the default peer that will be used to join a group call in a specific dialog: phone.saveDefaultGroupCallJoinAs</a>
 
 * <a href="account.setAuthorizationTTL.html" name="account.setAuthorizationTTL">Set time-to-live of current session: account.setAuthorizationTTL</a>
+
+* <a href="channels.toggleJoinToSend.html" name="channels.toggleJoinToSend">Set whether all users should join a discussion group in order to comment on a post »: channels.toggleJoinToSend</a>
+
+* <a href="channels.toggleJoinRequest.html" name="channels.toggleJoinRequest">Set whether all users should request admin approval to join the group »: channels.toggleJoinRequest</a>
+
+* <a href="bots.setBotMenuButton.html" name="bots.setBotMenuButton">Sets the menu button action » for a given user or for all users: bots.setBotMenuButton</a>
 
 * <a href="messages.hidePeerSettingsBar.html" name="messages.hidePeerSettingsBar">Should be called after the user hides the report spam/add as contact bar of a new chat, effectively prevents the user from executing the actions specified in the peer's settings: messages.hidePeerSettingsBar</a>
 
@@ -745,6 +793,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="stickers.suggestShortName.html" name="stickers.suggestShortName">Suggests a short name for a given stickerpack name: stickers.suggestShortName</a>
 
 * <a href="phone.discardGroupCall.html" name="phone.discardGroupCall">Terminate a group call: phone.discardGroupCall</a>
+
+* <a href="messages.sendWebViewResultMessage.html" name="messages.sendWebViewResultMessage">Terminate webview interaction started with messages.requestWebView, sending the specified message to the chat on behalf of the user: messages.sendWebViewResultMessage</a>
 
 * <a href="auth.resetAuthorizations.html" name="auth.resetAuthorizations">Terminates all user's authorized sessions except for the current one: auth.resetAuthorizations</a>
 
@@ -776,6 +826,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.uploadEncryptedFile.html" name="messages.uploadEncryptedFile">Upload encrypted file and associate it to a secret chat: messages.uploadEncryptedFile</a>
 
+* <a href="account.uploadRingtone.html" name="account.uploadRingtone">Upload notification sound, use account.saveRingtone to convert it and add it to the list of saved notification sounds: account.uploadRingtone</a>
+
 * <a href="account.uploadTheme.html" name="account.uploadTheme">Upload theme: account.uploadTheme</a>
 
 * <a href="messages.setGameScore.html" name="messages.setGameScore">Use this method to set the score of the specified user in a game sent as a normal message (bots only): messages.setGameScore</a>
@@ -784,13 +836,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.acceptUrlAuth.html" name="messages.acceptUrlAuth">Use this to accept a Seamless Telegram Login authorization request, for more info click here »: messages.acceptUrlAuth</a>
 
+* <a href="messages.sendWebViewData.html" name="messages.sendWebViewData">Used by the user to relay data from an opened reply keyboard bot web app to the bot that owns it: messages.sendWebViewData</a>
+
 * <a href="account.checkUsername.html" name="account.checkUsername">Validates a username and checks availability: account.checkUsername</a>
 
 * <a href="account.sendChangePhoneCode.html" name="account.sendChangePhoneCode">Verify a new phone number to associate to the current account: account.sendChangePhoneCode</a>
 
 * <a href="account.verifyPhone.html" name="account.verifyPhone">Verify a phone number for telegram passport: account.verifyPhone</a>
 
-* <a href="account.verifyEmail.html" name="account.verifyEmail">Verify an email address for telegram passport: account.verifyEmail</a>
+* <a href="account.verifyEmail.html" name="account.verifyEmail">Verify an email address: account.verifyEmail</a>
 
 * <a href="account.confirmPasswordEmail.html" name="account.confirmPasswordEmail">Verify an email to use as 2FA recovery method: account.confirmPasswordEmail</a>
 
@@ -869,6 +923,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="account.getPasswordSettings.html" name="account.getPasswordSettings">You cannot use this method directly; use $MadelineProto->update2fa($params), instead (see https://docs.madelineproto.xyz for more info): account.getPasswordSettings</a>
 
 * <a href="account.updatePasswordSettings.html" name="account.updatePasswordSettings">You cannot use this method directly; use $MadelineProto->update2fa($params), instead (see https://docs.madelineproto.xyz for more info): account.updatePasswordSettings</a>
+
+* <a href="messages.transcribeAudio.html" name="messages.transcribeAudio">Transcribe voice message: messages.transcribeAudio</a>
 
 * <a href="messages.unpinAllMessages.html" name="messages.unpinAllMessages">Unpin all pinned messages: messages.unpinAllMessages</a>
 

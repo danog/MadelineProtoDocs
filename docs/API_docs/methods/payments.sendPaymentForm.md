@@ -18,7 +18,7 @@ Send compiled payment form
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |form\_id|[long](/API_docs/types/long.html) | Form ID | Yes|
-|invoice|[InputInvoice](/API_docs/types/InputInvoice.html) |  | Yes|
+|invoice|[InputInvoice](/API_docs/types/InputInvoice.html) | Invoice | Yes|
 |requested\_info\_id|[string](/API_docs/types/string.html) | ID of saved and validated [order info](../constructors/payments.validatedRequestedInfo.html) | Optional|
 |shipping\_option\_id|[string](/API_docs/types/string.html) | Chosen shipping option ID | Optional|
 |credentials|[InputPaymentCredentials](/API_docs/types/InputPaymentCredentials.html) | Payment credentials | Yes|

@@ -1,6 +1,6 @@
 ---
 title: "messages.getAttachMenuBot"
-description: "messages.getAttachMenuBot parameters, return type and example"
+description: "Returns attachment menu entry for a [bot web app that can be launched from the attachment menu »](https://core.telegram.org/api/bots/attach)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/messages_getAttachMenuBot.html
 
 
 
+Returns attachment menu entry for a [bot web app that can be launched from the attachment menu »](https://core.telegram.org/api/bots/attach)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Bot ID | Optional|
 
 
 ### Return type: [AttachMenuBotsBot](/API_docs/types/AttachMenuBotsBot.html)

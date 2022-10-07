@@ -1,6 +1,6 @@
 ---
 title: "privacyKeyPhoneP2P"
-description: "Whether P2P connections in phone calls are allowed"
+description: "Whether P2P connections in phone calls with this user are allowed"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Whether P2P connections in phone calls are allowed
+Whether P2P connections in phone calls with this user are allowed
 
 
 

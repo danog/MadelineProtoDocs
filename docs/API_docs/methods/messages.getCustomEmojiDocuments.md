@@ -1,6 +1,6 @@
 ---
 title: "messages.getCustomEmojiDocuments"
-description: "messages.getCustomEmojiDocuments parameters, return type and example"
+description: "Fetch [custom emoji stickers »](https://core.telegram.org/api/custom-emoji)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,15 @@ redirect_from: /API_docs/methods/messages_getCustomEmojiDocuments.html
 
 
 
+Fetch [custom emoji stickers »](https://core.telegram.org/api/custom-emoji).
+
+Returns a list of [documents](../constructors/document.html) with the animated custom emoji in TGS format, and a [documentAttributeCustomEmoji](../constructors/documentAttributeCustomEmoji.html) attribute with the original emoji and info about the emoji stickerset this custom emoji belongs to.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|document\_id|Array of [long](/API_docs/types/long.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|document\_id|Array of [long](/API_docs/types/long.html) | [Custom emoji](https://core.telegram.org/api/custom-emoji) IDs from a [messageEntityCustomEmoji](../constructors/messageEntityCustomEmoji.html). | Yes|
 
 
 ### Return type: [Vector\_of\_Document](/API_docs/types/Document.html)

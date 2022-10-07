@@ -1,6 +1,6 @@
 ---
 title: "account.deleteAccount"
-description: "Delete the user's account from the telegram servers. Can be used, for example, to delete the account of a user that provided the login code, but forgot the [2FA password and no recovery method is configured](https://core.telegram.org/api/srp)."
+description: "Delete the user's account from the telegram servers."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,16 @@ redirect_from: /API_docs/methods/account_deleteAccount.html
 
 
 
-Delete the user's account from the telegram servers. Can be used, for example, to delete the account of a user that provided the login code, but forgot the [2FA password and no recovery method is configured](https://core.telegram.org/api/srp).
+Delete the user's account from the telegram servers.
+
+Can also be used to delete the account of a user that provided the login code, but forgot the 2FA password and no recovery method is configured, see [here »](https://core.telegram.org/api/srp#password-recovery) for more info on password recovery, and [here »](https://core.telegram.org/api/account-deletion) for more info on account deletion.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |reason|[string](/API_docs/types/string.html) | Why is the account being deleted, can be empty | Yes|
-|password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html) |  | Optional|
+|password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html) | [2FA password](https://core.telegram.org/api/srp): this field can be omitted even for accounts with 2FA enabled: in this case account account deletion will be delayed by 7 days [as specified in the docs »](https://core.telegram.org/api/account-deletion) | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

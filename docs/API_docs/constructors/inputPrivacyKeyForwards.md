@@ -1,6 +1,6 @@
 ---
 title: "inputPrivacyKeyForwards"
-description: "Whether messages forwarded from this user will be anonymous"
+description: "Whether messages forwarded from you will be anonymous"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Whether messages forwarded from this user will be [anonymous](https://telegram.org/blog/unsend-privacy-emoji#anonymous-forwarding)
+Whether messages forwarded from you will be [anonymous](https://telegram.org/blog/unsend-privacy-emoji#anonymous-forwarding)
 
 
 

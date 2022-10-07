@@ -15,12 +15,12 @@ Notification settings.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|show\_previews|[Bool](/API_docs/types/Bool.html) | Optional|Display text in notifications|
-|silent|[Bool](/API_docs/types/Bool.html) | Optional|Mute peer?|
+|show\_previews|[Bool](/API_docs/types/Bool.html) | Optional|(Ternary value) If set, indicates whether or not to display previews of messages in notifications; otherwise the default behavior should be used.|
+|silent|[Bool](/API_docs/types/Bool.html) | Optional|(Ternary value) If set, indicates whether to mute or unmute the peer; otherwise the default behavior should be used.|
 |mute\_until|[int](/API_docs/types/int.html) | Optional|Mute all notifications until this date|
-|ios\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|
-|android\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|
-|other\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|
+|ios\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|Notification sound for the official iOS application|
+|android\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|Notification sound for the official android application|
+|other\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|Notification sound for other applications|
 
 
 

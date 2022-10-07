@@ -1,6 +1,6 @@
 ---
 title: "inputStickerSetShortName"
-description: "Stickerset by short name, from tg://addstickers?set=short_name"
+description: "Stickerset by short name, from a stickerset deep link »"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Stickerset by short name, from `tg://addstickers?set=short_name`
+Stickerset by short name, from a [stickerset deep link »](https://core.telegram.org/api/links#stickerset-links)
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|short\_name|[string](/API_docs/types/string.html) | Yes|From `tg://addstickers?set=short_name`|
+|short\_name|[string](/API_docs/types/string.html) | Yes|Short name from a [stickerset deep link »](https://core.telegram.org/api/links#stickerset-links)|
 
 
 

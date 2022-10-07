@@ -17,7 +17,7 @@ Get information about a language in a localization pack
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|lang\_pack|[string](/API_docs/types/string.html) | Language pack name | Yes|
+|lang\_pack|[string](/API_docs/types/string.html) | Language pack name, usually obtained from a [language pack link](https://core.telegram.org/api/links#language-pack-links) | Yes|
 |lang\_code|[string](/API_docs/types/string.html) | Language code | Yes|
 
 

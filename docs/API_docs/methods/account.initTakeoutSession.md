@@ -23,7 +23,7 @@ Initialize account takeout session
 |message\_megagroups|[Bool](/API_docs/types/Bool.html) | Whether to export messages in [supergroups](https://core.telegram.org/api/channel#supergroups) | Optional|
 |message\_channels|[Bool](/API_docs/types/Bool.html) | Whether to export messages in [channels](https://core.telegram.org/api/channel#channels) | Optional|
 |files|[Bool](/API_docs/types/Bool.html) | Whether to export files | Optional|
-|file\_max\_size|[long](/API_docs/types/long.html) |  | Optional|
+|file\_max\_size|[long](/API_docs/types/long.html) | Maximum size of files to export | Optional|
 
 
 ### Return type: [account.Takeout](/API_docs/types/account.Takeout.html)

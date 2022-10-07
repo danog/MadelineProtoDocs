@@ -1,6 +1,6 @@
 ---
 title: "privacyKeyAddedByPhone"
-description: "Whether people can add you to their contact list by your phone number"
+description: "Whether this user can be added to our contact list by their phone number"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Whether people can add you to their contact list by your phone number
+Whether this user can be added to our contact list by their phone number
 
 
 

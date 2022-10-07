@@ -10,14 +10,14 @@ redirect_from: /API_docs/constructors/account_wallPapers.html
 
 
 
-Installed wallpapers
+Installed [wallpapers](https://core.telegram.org/api/wallpapers)
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |hash|[long](/API_docs/types/long.html) | Yes|[Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
-|wallpapers|Array of [WallPaper](/API_docs/types/WallPaper.html) | Yes|Wallpapers|
+|wallpapers|Array of [WallPaper](/API_docs/types/WallPaper.html) | Yes|[Wallpapers](https://core.telegram.org/api/wallpapers)|
 
 
 

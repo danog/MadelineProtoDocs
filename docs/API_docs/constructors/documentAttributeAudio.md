@@ -19,7 +19,7 @@ Represents an audio file
 |duration|[int](/API_docs/types/int.html) | Optional|Duration in seconds|
 |title|[string](/API_docs/types/string.html) | Optional|Name of song|
 |performer|[string](/API_docs/types/string.html) | Optional|Performer|
-|waveform|[bytes](/API_docs/types/bytes.html) | Optional|Waveform|
+|waveform|[bytes](/API_docs/types/bytes.html) | Optional|Waveform: consists in a series of bitpacked 5-bit values. <br>Example implementation: [android](https://github.com/DrKLO/Telegram/blob/96dce2c9aabc33b87db61d830aa087b6b03fe397/TMessagesProj/jni/audio.c#L546).|
 
 
 

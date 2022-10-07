@@ -1,6 +1,6 @@
 ---
 title: "updateBotMenuButton"
-description: "updateBotMenuButton attributes, type and example"
+description: "The menu button behavior for the specified bot has changed"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+The menu button behavior for the specified bot has changed
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|bot\_id|[long](/API_docs/types/long.html) | Yes|
-|button|[BotMenuButton](/API_docs/types/BotMenuButton.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|bot\_id|[long](/API_docs/types/long.html) | Yes|Bot ID|
+|button|[BotMenuButton](/API_docs/types/BotMenuButton.html) | Yes|New menu button|
 
 
 

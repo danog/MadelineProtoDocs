@@ -19,7 +19,7 @@ Get theme information
 |----------|---------------|-------------|----------|
 |format|[string](/API_docs/types/string.html) | Theme format, a string that identifies the theming engines supported by the client | Yes|
 |theme|[InputTheme](/API_docs/types/InputTheme.html) | Theme | Yes|
-|document\_id|[long](/API_docs/types/long.html) | Document ID | Yes|
+|document\_id|[long](/API_docs/types/long.html) | Deprecated: should always be `0` | Yes|
 
 
 ### Return type: [Theme](/API_docs/types/Theme.html)

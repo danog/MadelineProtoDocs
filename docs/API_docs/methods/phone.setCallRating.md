@@ -1,6 +1,6 @@
 ---
 title: "phone.setCallRating"
-description: "Rate a call"
+description: "Rate a call, returns info about the rating message sent to the official VoIP bot."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/phone_setCallRating.html
 
 
 
-Rate a call
+Rate a call, returns info about the rating message sent to the official VoIP bot.
 
 ### Parameters:
 

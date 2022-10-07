@@ -1,6 +1,6 @@
 ---
 title: "channels.toggleJoinRequest"
-description: "channels.toggleJoinRequest parameters, return type and example"
+description: "Set whether all users should [request admin approval to join the group »](https://core.telegram.org/api/invites#join-requests)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/channels_toggleJoinRequest.html
 
 
 
+Set whether all users should [request admin approval to join the group »](https://core.telegram.org/api/invites#join-requests).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
-|enabled|[Bool](/API_docs/types/Bool.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Group | Optional|
+|enabled|[Bool](/API_docs/types/Bool.html) | Toggle | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

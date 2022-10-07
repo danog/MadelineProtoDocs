@@ -17,10 +17,10 @@ Info about bots (available bot commands, etc)
 |----------|---------------|----------|-------------|
 |user\_id|[long](/API_docs/types/long.html) | Optional|ID of the bot|
 |description|[string](/API_docs/types/string.html) | Optional|Description of the bot|
-|description\_photo|[Photo](/API_docs/types/Photo.html) | Optional|
-|description\_document|[Document](/API_docs/types/Document.html) | Optional|
+|description\_photo|[Photo](/API_docs/types/Photo.html) | Optional|Description photo|
+|description\_document|[Document](/API_docs/types/Document.html) | Optional|Description animation in MPEG4 format|
 |commands|Array of [BotCommand](/API_docs/types/BotCommand.html) | Optional|Bot commands that can be used in the chat|
-|menu\_button|[BotMenuButton](/API_docs/types/BotMenuButton.html) | Optional|
+|menu\_button|[BotMenuButton](/API_docs/types/BotMenuButton.html) | Optional|Indicates the action to execute when pressing the in-UI menu button for bots|
 
 
 

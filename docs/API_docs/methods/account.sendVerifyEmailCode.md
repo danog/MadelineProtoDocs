@@ -1,6 +1,6 @@
 ---
 title: "account.sendVerifyEmailCode"
-description: "Send the verification email code for telegram [passport](https://core.telegram.org/passport)."
+description: "Send an email verification code."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,14 @@ redirect_from: /API_docs/methods/account_sendVerifyEmailCode.html
 
 
 
-Send the verification email code for telegram [passport](https://core.telegram.org/passport).
+Send an email verification code.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |purpose|[EmailVerifyPurpose](/API_docs/types/EmailVerifyPurpose.html) |  | Yes|
-|email|[string](/API_docs/types/string.html) | The email where to send the code | Yes|
+|email|[string](/API_docs/types/string.html) | The email where to send the code. | Yes|
 
 
 ### Return type: [account.SentEmailCode](/API_docs/types/account.SentEmailCode.html)

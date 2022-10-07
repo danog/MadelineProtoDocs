@@ -19,7 +19,7 @@ Video attached to an encrypted message.
 |thumb\_w|[int](/API_docs/types/int.html) | Yes|Thumbnail width|
 |thumb\_h|[int](/API_docs/types/int.html) | Yes|Thumbnail height|
 |duration|[int](/API_docs/types/int.html) | Yes|Duration of video in seconds|
-|mime\_type|[string](/API_docs/types/string.html) | Yes|MIME-type of the video file<br>Parameter added in [Layer 17](https://core.telegram.org/api/layers#layer-17).|
+|mime\_type|[string](/API_docs/types/string.html) | Yes|MIME-type of the video file<br>Parameter added in Layer 17.|
 |w|[int](/API_docs/types/int.html) | Yes|Image width|
 |h|[int](/API_docs/types/int.html) | Yes|Image height|
 |size|[int](/API_docs/types/int.html) | Yes|File size|

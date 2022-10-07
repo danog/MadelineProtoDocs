@@ -1,6 +1,6 @@
 ---
 title: "inputInvoiceMessage"
-description: "inputInvoiceMessage attributes, type and example"
+description: "An invoice contained in a messageMediaInvoice message."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+An invoice contained in a [messageMediaInvoice](../constructors/messageMediaInvoice.html) message.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|Chat where the invoice was sent|
+|msg\_id|[int](/API_docs/types/int.html) | Yes|Message ID|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "help.getPremiumPromo"
-description: "help.getPremiumPromo parameters, return type and example"
+description: "Get Telegram Premium promotion information"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,6 +10,8 @@ redirect_from: /API_docs/methods/help_getPremiumPromo.html
 [Back to methods index](index.html)
 
 
+
+Get Telegram Premium promotion information
 
 
 

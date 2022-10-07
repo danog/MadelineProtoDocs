@@ -1,6 +1,6 @@
 ---
 title: "messages.rateTranscribedAudio"
-description: "messages.rateTranscribedAudio parameters, return type and example"
+description: "Rate [transcribed voice message](https://core.telegram.org/api/transcribe)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,16 @@ redirect_from: /API_docs/methods/messages_rateTranscribedAudio.html
 
 
 
+Rate [transcribed voice message](https://core.telegram.org/api/transcribe)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | Yes|
-|transcription\_id|[long](/API_docs/types/long.html) | Yes|
-|good|[Bool](/API_docs/types/Bool.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where the voice message was sent | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | Message ID | Optional|
+|transcription\_id|[long](/API_docs/types/long.html) | Transcription ID | Yes|
+|good|[Bool](/API_docs/types/Bool.html) | Whether the transcription was correct | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

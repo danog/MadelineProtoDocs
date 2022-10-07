@@ -18,7 +18,7 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |file\_token|[bytes](/API_docs/types/bytes.html) | File | Yes|
-|offset|[long](/API_docs/types/long.html) |  | Yes|
+|offset|[long](/API_docs/types/long.html) | Offset from which to start getting hashes | Yes|
 
 
 ### Return type: [Vector\_of\_FileHash](/API_docs/types/FileHash.html)

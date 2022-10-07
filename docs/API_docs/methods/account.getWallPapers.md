@@ -1,6 +1,6 @@
 ---
 title: "account.getWallPapers"
-description: "Returns a list of available wallpapers."
+description: "Returns a list of available [wallpapers](https://core.telegram.org/api/wallpapers)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/account_getWallPapers.html
 
 
 
-Returns a list of available wallpapers.
+Returns a list of available [wallpapers](https://core.telegram.org/api/wallpapers).
 
 ### Parameters:
 

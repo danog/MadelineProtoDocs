@@ -1,6 +1,6 @@
 ---
 title: "payments.exportedInvoice"
-description: "payments.exportedInvoice attributes, type and example"
+description: "Exported invoice deep link"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/payments_exportedInvoice.html
@@ -10,11 +10,13 @@ redirect_from: /API_docs/constructors/payments_exportedInvoice.html
 
 
 
+Exported [invoice deep link](https://core.telegram.org/api/links#invoice-links)
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|url|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|url|[string](/API_docs/types/string.html) | Yes|Exported [invoice deep link](https://core.telegram.org/api/links#invoice-links)|
 
 
 

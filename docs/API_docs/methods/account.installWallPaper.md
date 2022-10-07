@@ -1,6 +1,6 @@
 ---
 title: "account.installWallPaper"
-description: "Install wallpaper"
+description: "Install [wallpaper](https://core.telegram.org/api/wallpapers)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,14 @@ redirect_from: /API_docs/methods/account_installWallPaper.html
 
 
 
-Install wallpaper
+Install [wallpaper](https://core.telegram.org/api/wallpapers)
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|wallpaper|[InputWallPaper](/API_docs/types/InputWallPaper.html) | Wallpaper to install | Yes|
-|settings|[WallPaperSettings](/API_docs/types/WallPaperSettings.html) | Wallpaper settings | Yes|
+|wallpaper|[InputWallPaper](/API_docs/types/InputWallPaper.html) | [Wallpaper](https://core.telegram.org/api/wallpapers) to install | Yes|
+|settings|[WallPaperSettings](/API_docs/types/WallPaperSettings.html) | [Wallpaper](https://core.telegram.org/api/wallpapers) settings | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

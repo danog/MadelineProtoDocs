@@ -1,6 +1,6 @@
 ---
 title: "messages.getFeaturedEmojiStickers"
-description: "messages.getFeaturedEmojiStickers parameters, return type and example"
+description: "Gets featured custom emoji stickersets."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/messages_getFeaturedEmojiStickers.html
 
 
 
+Gets featured custom emoji stickersets.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|Array of [long](/API_docs/types/long.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|Array of [long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.FeaturedStickers](/API_docs/types/messages.FeaturedStickers.html)

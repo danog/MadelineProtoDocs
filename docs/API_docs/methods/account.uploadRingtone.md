@@ -1,6 +1,6 @@
 ---
 title: "account.uploadRingtone"
-description: "account.uploadRingtone parameters, return type and example"
+description: "Upload notification sound, use [account.saveRingtone](../methods/account.saveRingtone.html) to convert it and add it to the list of saved notification sounds."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/account_uploadRingtone.html
 
 
 
+Upload notification sound, use [account.saveRingtone](../methods/account.saveRingtone.html) to convert it and add it to the list of saved notification sounds.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|file|[File path or InputFile](/API_docs/types/InputFile.html) | Yes|
-|file\_name|[string](/API_docs/types/string.html) | Yes|
-|mime\_type|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|file|[File path or InputFile](/API_docs/types/InputFile.html) | Notification sound | Yes|
+|file\_name|[string](/API_docs/types/string.html) | File name | Yes|
+|mime\_type|[string](/API_docs/types/string.html) | MIME type of file | Yes|
 
 
 ### Return type: [Document](/API_docs/types/Document.html)

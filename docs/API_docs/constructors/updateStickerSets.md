@@ -1,6 +1,6 @@
 ---
 title: "updateStickerSets"
-description: "Installed stickersets have changed, the client should refetch them using messages.getAllStickers"
+description: "Installed stickersets have changed, the client should refetch them as described in the docs."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Installed stickersets have changed, the client should refetch them using [messages.getAllStickers](https://core.telegram.org/method/messages.getAllStickers)
+Installed stickersets have changed, the client should refetch them as [described in the docs](https://core.telegram.org/api/stickers#installing-stickersets).
 
 ### Attributes:
 

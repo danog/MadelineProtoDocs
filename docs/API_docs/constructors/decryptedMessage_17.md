@@ -15,7 +15,7 @@ Contents of an encrypted message.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|ttl|[int](/API_docs/types/int.html) | Yes|Message lifetime. Has higher priority than [decryptedMessageActionSetMessageTTL](../constructors/decryptedMessageActionSetMessageTTL.html).<br>Parameter added in [Layer 17](https://core.telegram.org/api/layers#layer-17).|
+|ttl|[int](/API_docs/types/int.html) | Yes|Message lifetime. Has higher priority than [decryptedMessageActionSetMessageTTL](../constructors/decryptedMessageActionSetMessageTTL.html).<br>Parameter added in Layer 17.|
 |message|[string](/API_docs/types/string.html) | Yes|Message text|
 |media|[DecryptedMessageMedia](/API_docs/types/DecryptedMessageMedia.html) | Yes|Media content|
 

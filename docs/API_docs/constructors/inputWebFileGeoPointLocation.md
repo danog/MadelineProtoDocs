@@ -1,6 +1,6 @@
 ---
 title: "inputWebFileGeoPointLocation"
-description: "Geolocation"
+description: "Used to download a server-generated image with the map preview from a geoPoint, see the webfile docs for more info »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,14 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Geolocation
+Used to download a server-generated image with the map preview from a [geoPoint](../constructors/geoPoint.html), see the [webfile docs for more info »](https://core.telegram.org/api/files#downloading-webfiles).
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|geo\_point|[InputGeoPoint](/API_docs/types/InputGeoPoint.html) | Optional|Geolocation|
-|access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash|
+|geo\_point|[InputGeoPoint](/API_docs/types/InputGeoPoint.html) | Optional|Generated from the `lat`, `long` and `accuracy_radius` parameters of the [geoPoint](../constructors/geoPoint.html)|
+|access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash of the [geoPoint](../constructors/geoPoint.html)|
 |w|[int](/API_docs/types/int.html) | Yes|Map width in pixels before applying scale; 16-1024|
 |h|[int](/API_docs/types/int.html) | Yes|Map height in pixels before applying scale; 16-1024|
 |zoom|[int](/API_docs/types/int.html) | Yes|Map zoom level; 13-20|

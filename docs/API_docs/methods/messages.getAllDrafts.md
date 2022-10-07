@@ -1,6 +1,6 @@
 ---
 title: "messages.getAllDrafts"
-description: "Save get all message [drafts](https://core.telegram.org/api/drafts)."
+description: "Return all message [drafts](https://core.telegram.org/api/drafts).  "
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,8 @@ redirect_from: /API_docs/methods/messages_getAllDrafts.html
 
 
 
-Save get all message [drafts](https://core.telegram.org/api/drafts).
+Return all message [drafts](https://core.telegram.org/api/drafts).  
+Returns all the latest [updateDraftMessage](../constructors/updateDraftMessage.html) updates related to all chats with drafts.
 
 
 

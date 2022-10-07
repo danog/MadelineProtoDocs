@@ -1,6 +1,6 @@
 ---
 title: "account.savedRingtoneConverted"
-description: "account.savedRingtoneConverted attributes, type and example"
+description: "The notification sound was not in MP3 format and was successfully converted and saved, use the returned Document to refer to the notification sound from now on"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_savedRingtoneConverted.html
@@ -10,11 +10,13 @@ redirect_from: /API_docs/constructors/account_savedRingtoneConverted.html
 
 
 
+The notification sound was not in MP3 format and was successfully converted and saved, use the returned [Document](../types/Document.html) to refer to the notification sound from now on
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|document|[Document](/API_docs/types/Document.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|document|[Document](/API_docs/types/Document.html) | Optional|The converted notification sound|
 
 
 

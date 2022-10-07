@@ -17,7 +17,7 @@ Secure [passport](https://core.telegram.org/passport) file, for more info [see t
 |----------|---------------|----------|-------------|
 |id|[long](/API_docs/types/long.html) | Yes|ID|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash|
-|size|[long](/API_docs/types/long.html) | Yes|
+|size|[long](/API_docs/types/long.html) | Yes|File size|
 |dc\_id|[int](/API_docs/types/int.html) | Yes|DC ID|
 |date|[int](/API_docs/types/int.html) | Yes|Date of upload|
 |file\_hash|[bytes](/API_docs/types/bytes.html) | Yes|File hash|

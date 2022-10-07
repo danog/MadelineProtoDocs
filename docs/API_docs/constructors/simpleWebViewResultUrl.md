@@ -1,6 +1,6 @@
 ---
 title: "simpleWebViewResultUrl"
-description: "simpleWebViewResultUrl attributes, type and example"
+description: "Contains the webview URL with appropriate theme parameters added"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Contains the webview URL with appropriate theme parameters added
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|url|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|url|[string](/API_docs/types/string.html) | Yes|URL|
 
 
 

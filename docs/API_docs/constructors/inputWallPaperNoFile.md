@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Wallpaper with no file access hash, used for example when deleting (`unsave=true`) wallpapers using [account.saveWallPaper](../methods/account.saveWallPaper.html), specifying just the wallpaper ID.
+[Wallpaper](https://core.telegram.org/api/wallpapers) with no file access hash, used for example when deleting (`unsave=true`) wallpapers using [account.saveWallPaper](../methods/account.saveWallPaper.html), specifying just the wallpaper ID.
 
 ### Attributes:
 

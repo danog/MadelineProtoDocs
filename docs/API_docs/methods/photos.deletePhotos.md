@@ -1,6 +1,6 @@
 ---
 title: "photos.deletePhotos"
-description: "Deletes profile photos."
+description: "Deletes profile photos. The method returns a list of successfully deleted photo IDs."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/photos_deletePhotos.html
 
 
 
-Deletes profile photos.
+Deletes profile photos. The method returns a list of successfully deleted photo IDs.
 
 ### Parameters:
 

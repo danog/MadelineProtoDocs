@@ -1,6 +1,6 @@
 ---
 title: "account.saveWallPaper"
-description: "Install/uninstall wallpaper"
+description: "Install/uninstall [wallpaper](https://core.telegram.org/api/wallpapers)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,13 @@ redirect_from: /API_docs/methods/account_saveWallPaper.html
 
 
 
-Install/uninstall wallpaper
+Install/uninstall [wallpaper](https://core.telegram.org/api/wallpapers)
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|wallpaper|[InputWallPaper](/API_docs/types/InputWallPaper.html) | Wallpaper to save | Yes|
+|wallpaper|[InputWallPaper](/API_docs/types/InputWallPaper.html) | [Wallpaper](https://core.telegram.org/api/wallpapers) to install or uninstall | Yes|
 |unsave|[Bool](/API_docs/types/Bool.html) | Uninstall wallpaper? | Yes|
 |settings|[WallPaperSettings](/API_docs/types/WallPaperSettings.html) | Wallpaper settings | Yes|
 

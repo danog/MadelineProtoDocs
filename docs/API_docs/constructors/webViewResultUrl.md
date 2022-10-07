@@ -1,6 +1,6 @@
 ---
 title: "webViewResultUrl"
-description: "webViewResultUrl attributes, type and example"
+description: "Contains the webview URL with appropriate theme and user info parameters added"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Contains the webview URL with appropriate theme and user info parameters added
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|query\_id|[long](/API_docs/types/long.html) | Yes|
-|url|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|query\_id|[long](/API_docs/types/long.html) | Yes|Webview session ID|
+|url|[string](/API_docs/types/string.html) | Yes|Webview URL to open|
 
 
 

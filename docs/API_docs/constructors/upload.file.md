@@ -17,7 +17,7 @@ File content.
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |type|[storage.FileType](/API_docs/constructors/storage.FileType.html) | Yes|File type|
-|mtime|[int](/API_docs/types/int.html) | Yes|Modification type|
+|mtime|[int](/API_docs/types/int.html) | Yes|Modification time|
 |bytes|[bytes](/API_docs/types/bytes.html) | Yes|Binary data, file content|
 
 

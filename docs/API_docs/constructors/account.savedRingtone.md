@@ -1,6 +1,6 @@
 ---
 title: "account.savedRingtone"
-description: "account.savedRingtone attributes, type and example"
+description: "The notification sound was already in MP3 format and was saved without any modification"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_savedRingtone.html
@@ -9,6 +9,8 @@ redirect_from: /API_docs/constructors/account_savedRingtone.html
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+The notification sound was already in MP3 format and was saved without any modification
 
 
 

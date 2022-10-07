@@ -17,7 +17,7 @@ Upload a file and associate it to a chat (without actually sending it to the cha
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The chat, can be an [inputPeerEmpty](../constructors/inputPeerEmpty.html) for bots | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The chat, can be [inputPeerEmpty](../constructors/inputPeerEmpty.html) for bots and [inputPeerSelf](../constructors/inputPeerSelf.html) for users. | Optional|
 |media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | File uploaded in chunks as described in [files »](https://core.telegram.org/api/files) | Optional|
 
 

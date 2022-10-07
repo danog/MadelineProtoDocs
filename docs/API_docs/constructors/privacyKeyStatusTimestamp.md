@@ -1,6 +1,6 @@
 ---
 title: "privacyKeyStatusTimestamp"
-description: "Whether we can see the last online timestamp"
+description: "Whether we can see the last online timestamp of this user"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Whether we can see the last online timestamp
+Whether we can see the last online timestamp of this user
 
 
 

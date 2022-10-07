@@ -20,16 +20,16 @@ Represents a stickerset (stickerpack)
 |masks|[Bool](/API_docs/types/Bool.html) | Optional|Is this a mask stickerset|
 |animated|[Bool](/API_docs/types/Bool.html) | Optional|Is this an animated stickerpack|
 |videos|[Bool](/API_docs/types/Bool.html) | Optional|Is this a video stickerpack|
-|emojis|[Bool](/API_docs/types/Bool.html) | Optional|
+|emojis|[Bool](/API_docs/types/Bool.html) | Optional|This is a custom emoji stickerset|
 |installed\_date|[int](/API_docs/types/int.html) | Optional|When was this stickerset installed|
 |id|[long](/API_docs/types/long.html) | Yes|ID of the stickerset|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash of stickerset|
 |title|[string](/API_docs/types/string.html) | Yes|Title of stickerset|
-|short\_name|[string](/API_docs/types/string.html) | Yes|Short name of stickerset to use in `tg://addstickers?set=short_name`|
+|short\_name|[string](/API_docs/types/string.html) | Yes|Short name of stickerset, used when sharing stickerset using [stickerset deep links](https://core.telegram.org/api/links#stickerset-links).|
 |thumbs|Array of [PhotoSize](/API_docs/types/PhotoSize.html) | Optional|Stickerset thumbnail|
 |thumb\_dc\_id|[int](/API_docs/types/int.html) | Optional|DC ID of thumbnail|
 |thumb\_version|[int](/API_docs/types/int.html) | Optional|Thumbnail version|
-|thumb\_document\_id|[long](/API_docs/types/long.html) | Optional|
+|thumb\_document\_id|[long](/API_docs/types/long.html) | Optional|Document ID of custom emoji thumbnail, fetch the document using [messages.getCustomEmojiDocuments](../methods/messages.getCustomEmojiDocuments.html)|
 |count|[int](/API_docs/types/int.html) | Yes|Number of stickers in pack|
 |hash|[int](/API_docs/types/int.html) | Yes|
 

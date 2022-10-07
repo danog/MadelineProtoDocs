@@ -1,6 +1,6 @@
 ---
 title: "attachMenuPeerTypeSameBotPM"
-description: "attachMenuPeerTypeSameBotPM attributes, type and example"
+description: "The bot attachment menu entry is available in the chat with the bot that offers it"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -8,6 +8,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+The bot attachment menu entry is available in the chat with the bot that offers it
 
 
 

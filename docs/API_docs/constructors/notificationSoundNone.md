@@ -1,6 +1,6 @@
 ---
 title: "notificationSoundNone"
-description: "notificationSoundNone attributes, type and example"
+description: "No notification sound should be used"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -8,6 +8,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+No notification sound should be used
 
 
 

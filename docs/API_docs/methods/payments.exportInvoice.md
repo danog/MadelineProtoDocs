@@ -1,6 +1,6 @@
 ---
 title: "payments.exportInvoice"
-description: "payments.exportInvoice parameters, return type and example"
+description: "Generate an [invoice deep link](https://core.telegram.org/api/links#invoice-links)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/payments_exportInvoice.html
 
 
 
+Generate an [invoice deep link](https://core.telegram.org/api/links#invoice-links)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|invoice\_media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|invoice\_media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | Invoice | Optional|
 
 
 ### Return type: [payments.ExportedInvoice](/API_docs/types/payments.ExportedInvoice.html)

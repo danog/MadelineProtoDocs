@@ -1,6 +1,6 @@
 ---
 title: "stickerSetMultiCovered"
-description: "Stickerset, with a specific stickers as preview"
+description: "Stickerset, with multiple stickers as preview"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Stickerset, with a specific stickers as preview
+Stickerset, with multiple stickers as preview
 
 ### Attributes:
 

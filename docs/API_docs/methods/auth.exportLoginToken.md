@@ -12,7 +12,7 @@ redirect_from: /API_docs/methods/auth_exportLoginToken.html
 
 
 Generate a login token, for [login via QR code](https://core.telegram.org/api/qr-login).  
-The generated login token should be encoded using base64url, then shown as a `tg://login?token=base64encodedtoken` URL in the QR code.
+The generated login token should be encoded using base64url, then shown as a `tg://login?token=base64encodedtoken` [deep link »](https://core.telegram.org/api/links#qr-code-login-links) in the QR code.
 
 For more info, see [login via QR code](https://core.telegram.org/api/qr-login).
 
