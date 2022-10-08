@@ -583,7 +583,7 @@ int|\Amp\Promise<int>
 ### `checkTos(): \Amp\Promise`
 
 Check for terms of service update.
-
+Will throw a \danog\MadelineProto\Exception if a new TOS is available.
 
 #### See also: 
 * `\Amp\Promise`
