@@ -10,6 +10,8 @@ MadelineProto requires the `mbstring`, `xml`, `json`, `fileinfo`, `gmp`, `ffi` e
 
 PHP 7.1+ is supported, PHP 8.1+ is recommended.
 
+**Please note that the next version of MadelineProto (December 2022) will only support PHP 8.1+**.
+
 MadelineProto explicitly supports Linux and UNIX systems (including Mac OS).  
 MadelineProto generally works on Windows, though there might be some random issues caused by AV engines, so I personally recommend using Linux.  
 
