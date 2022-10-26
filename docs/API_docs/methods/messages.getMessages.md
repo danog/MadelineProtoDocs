@@ -12,7 +12,13 @@ redirect_from: /API_docs/methods/messages_getMessages.html
 
 
 # Warning: flood wait
-**Warning: this method is prone to rate limiting with flood waits, please use the [event handler, instead &raquo;](/docs/UPDATES.html#async-event-driven)**
+**Warning: this method is prone to rate limiting with flood waits, please use the [updates event handler, instead &raquo;](/docs/UPDATES.html#async-event-driven)**
+
+# Warning: non-realtime results
+**Warning: this method is not suitable for receiving messages in real-time from chats and users, please use the [updates event handler, instead &raquo;](/docs/UPDATES.html#async-event-driven)**
+
+# Warning: this is probably NOT what you need
+You probably need to use the [updates event handler, instead &raquo;](/docs/UPDATES.html#async-event-driven) :)
 
 Returns the list of messages by their IDs.
 
