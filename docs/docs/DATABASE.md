@@ -11,7 +11,7 @@ This data can require up to 1Gb of ram and more on certain accounts.
 MadelineProto can keep part of this data in a database, such as mysql, mariadb, postgres or redis (you can also [add your own](https://github.com/danog/MadelineProto/tree/master/src/danog/MadelineProto/Db)!).   
 
 On first start after switching type all data will be migrated from the previous backend to the new one. 
-Database to memory migration/convertation is also supported.
+Database to memory migration is also supported.
 
 Databases and tables will be created automatically.  
 
