@@ -56,8 +56,6 @@ if (!$me['bot']) {
     } catch (\danog\MadelineProto\RPCErrorException $e) {
         $MadelineProto->logger($e);
     }
-
-    $MadelineProto->messages->sendMessage(peer: 'https://t.me/+Por5orOjwgccnt2w', message: 'Testing MadelineProto!');
 }
 $MadelineProto->echo('OK, done!');
 ```
