@@ -23,7 +23,7 @@ To install MadelineProto dependencies on `Ubuntu`, `Debian`, `Devuan`, or any ot
 sudo apt-get install python-software-properties software-properties-common
 sudo LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
 sudo apt-get update
-sudo apt-get install php8.1 php8.1-dev php8.1-xml php8.1-zip php8.1-gmp php8.1-cli php8.1-mbstring php8.1-ffi php8.0-ev git -y
+sudo apt-get install php8.1 php8.1-dev php8.1-xml php8.1-zip php8.1-gmp php8.1-cli php8.1-mbstring php8.1-ffi php8.1-ev git -y
 ```
 
 The `ev` and `event` extensions can be installed via PECL.
