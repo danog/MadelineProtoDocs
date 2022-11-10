@@ -9,7 +9,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 There are various ways to install MadelineProto:
 
 * [Simple](#simple)
-* [Simple (manual)](#simple-manual)
 * [Composer from scratch](#composer-from-scratch)
 * [Composer from existing project](#composer-from-existing-project)
 
@@ -26,16 +25,12 @@ require_once 'madeline.php';
 
 This code will automatically download, auto-update and include MadelineProto.
 
-`madeline.php` is not compatible with pre-existing composer installs, [please install MadelineProto using composer](#simple-manual) if you already have a composer project.  
-The composer check may be disabled for very special cases like joomla installs by defining `const MADELINE_ALLOW_COMPOSER = true;` before including `madeline.php`.  
+### **Warning**: NEVER use this install method in production.  
+### The `madeline.php` install script is as an alpha/beta-level distribution channel for MadelineProto with frequent breaking changes distributed with automatic updates.
 
-## Simple (manual)
+If you require a stable, semantically versioned install of MadelineProto with no automatic updates, please use [composer](#composer-from-scratch).
 
-Download [madeline.php](https://phar.madelineproto.xyz/madeline.php), put it in the same directory as your script, and then put the following code in your PHP file:
-```php
-<?php
-require_once 'madeline.php';
-```
+For this reason, `madeline.php` is not compatible with pre-existing composer installs, [please install MadelineProto using composer](#simple-manual) if you already have a composer project.  
 
 ## Composer from scratch
 
