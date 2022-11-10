@@ -9,8 +9,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 There are various ways to install MadelineProto:
 
 * [Simple](#simple)
-* [Composer from scratch](#composer-from-scratch)
 * [Composer from existing project](#composer-from-existing-project)
+* [Composer from scratch](#composer-from-scratch)
 
 
 ## Simple
@@ -25,14 +25,21 @@ require_once 'madeline.php';
 
 This code will automatically download, auto-update and include MadelineProto.
 
-### **Warning**: NEVER use this install method in production.  
-### The `madeline.php` install script is as an alpha/beta-level distribution channel for MadelineProto with frequent breaking changes distributed with automatic updates.
-
-If you require a stable, semantically versioned install of MadelineProto with no automatic updates, please use [composer](#composer-from-scratch).
+**Warning**: NEVER use this install method in production.  
+The `madeline.php` install script is as an alpha/beta-level distribution channel for MadelineProto with frequent breaking changes distributed with automatic updates.  
+If you require a stable, semantically versioned install of MadelineProto with no automatic updates, [please install MadelineProto using composer &raquo;](#composer-from-existing-project).
 
 For this reason, `madeline.php` is not compatible with pre-existing composer installs, [please install MadelineProto using composer](#simple-manual) if you already have a composer project.  
 
-## Composer from scratch
+## Composer from existing project
+
+Simply require the package (composer v2+ is required):  
+
+```bash
+composer require "danog/madelineproto:^7"
+```
+
+### Composer from scratch
 
 composer.json:
 ```json
@@ -69,12 +76,5 @@ Put the following code in your PHP file:
 require_once 'vendor/autoload.php';
 ```
 
-## Composer from existing project
-
-Simply require the package (composer v2+ is required):  
-
-```bash
-composer require "danog/madelineproto:^7"
-```
 
 <a href="https://docs.madelineproto.xyz/docs/UPDATES.html">Next section</a>
