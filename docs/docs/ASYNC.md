@@ -18,6 +18,7 @@ Powered by [amphp](https://amphp.org), MadelineProto wraps the AMPHP APIs to pro
     * [Multiple async](#multiple-async)
     * [ArrayAccess async](#arrayaccess-async)
     * [Ignored async](#ignored-async)
+    * [Combining async operations](#combining-async-operations)
     * [Blocking async](#blocking-async)
   * [MadelineProto and AMPHP async APIs](#madelineproto-and-amphp-async-apis)
     * [Helper methods](#helper-methods)
@@ -27,7 +28,6 @@ Powered by [amphp](https://amphp.org), MadelineProto wraps the AMPHP APIs to pro
       * [MadelineProto HTTP client](#madelineproto-http-client)
       * [Async forking](#async-forking-does-green-thread-forking)
       * [Async flock](#async-flock)
-      * [Combining async operations](#combining-async-operations)
     * [MadelineProto async loop APIs](#async-loop-apis)
       * [Loop](#loop)
       * [ResumableLoop](#resumableloop)
@@ -182,6 +182,52 @@ The result of this will be an array of results, whose type is determined by the 
 
 The order of method calls can be guaranteed (server-side, not by MadelineProto) by using [call queues](USING_METHODS.html#queues).
 
+### Combining async operations
+
+These methods can be used to execute multiple async operations simultaneously and wait for the result of all of them.  
+Each method has different error handling techniques, see the [amphp docs](https://amphp.org/amp/promises/combinators).  
+Note that if you just take the result of these methods without yielding it, you can use it as a normal promise/generator.  
+
+**Note**: this is not the recommended method to make multiple method calls on the same instance of MadelineProto; use this only for non-API methods like `start()`; for API methods, use [multiple async](#multiple-async).  
+
+```php
+$promise1 = $MadelineProto->messages->sendMessage(...);
+$promise2 = $MadelineProto->messages->sendMessage(...);
+// $promise3 = ...;
+
+// Equivalent to Amp\Promise\all(), but works with generators, too
+$results = yield $MadelineProto->all([$promise1, $promise2, $generator3]);
+
+// Equivalent to Amp\Promise\first(), but works with generators, too
+$results = yield $MadelineProto->first([$promise1, $promise2, $generator3]);
+
+// Equivalent to Amp\Promise\any(), but works with generators, too
+$results = yield $MadelineProto->any([$promise1, $promise2, $generator3]);
+
+// Equivalent to Amp\Promise\some(), but works with generators, too
+$results = yield $MadelineProto->some([$promise1, $promise2, $generator3]);
+```
+
+### Handling timeouts
+
+These methods can be used to wait for a certain amount of time for a result, and then throw an `Amp\TimeoutException` or simply continue execution if no result was obtained.  
+
+```php
+// Waits for the result for 2 seconds and then throws an \Amp\TimeoutException
+$result = yield $MadelineProto->timeout($promise, 2)
+
+// Waits for the result for 2 seconds, returns the result or null (which is the result of sleep())
+$result = yield $MadelineProto->first([$promise, $MadelineProto->sleep(2)]);
+```
+
+### Blocking async
+```php
+$result = blocking_function();
+```
+
+Sometimes, you have to call non-async functions in your code: that is allowed in async MadelineProto, you just have to call your functions normally without `yield`.  
+However, you shouldn't do (or need to do) this, because this renders async completely useless.  
+AMPHP and MadelineProto already provide async versions of curl, `file_get_contents`, MySQL, redis, postgres, and many more native PHP functions: 
 ### ArrayAccess async
 
 You can do async ArrayAccess on promises.  
@@ -238,16 +284,6 @@ public function pony()
 // Will work
 $set = yield $this->pony()['id'];
 ```
-
-
-### Blocking async
-```php
-$result = blocking_function();
-```
-
-Sometimes, you have to call non-async functions in your code: that is allowed in async MadelineProto, you just have to call your functions normally without `yield`.  
-However, you shouldn't do (or need to do) this, because this renders async completely useless.  
-AMPHP and MadelineProto already provide async versions of curl, `file_get_contents`, MySQL, redis, postgres, and many more native PHP functions: 
 
 ## MadelineProto and AMPHP async APIs
 
@@ -340,44 +376,6 @@ try {
 This will asynchronously wait for a lock on `$filePath` (creating it if it doesn't exist).  
 The locking mode can be `LOCK_SH` (shared locks), `LOCK_EX` (exclusive locks), as with the PHP `flock` function.  
 A third optional parameter can be set, to specify a polling interval in seconds (0.1 by default).  
-
-#### Combining async operations
-
-These methods can be used to execute multiple async operations simultaneously and wait for the result of all of them.  
-Each method has different error handling techniques, see the [amphp docs](https://amphp.org/amp/promises/combinators).  
-Note that if you just take the result of these methods without yielding it, you can use it as a normal promise/generator.  
-
-**Note**: this is not the recommended method to make multiple method calls on the same instance of MadelineProto; use this only for non-API methods like `start()`; for API methods, use [multiple async](#multiple-async).  
-
-```
-$promise1 = $MadelineProto->messages->sendMessage(...);
-$promise2 = $MadelineProto->messages->sendMessage(...);
-// $promise3 = ...;
-
-// Equivalent to Amp\Promise\all(), but works with generators, too
-$results = yield $MadelineProto->all([$promise1, $promise2, $generator3]);
-
-// Equivalent to Amp\Promise\first(), but works with generators, too
-$results = yield $MadelineProto->first([$promise1, $promise2, $generator3]);
-
-// Equivalent to Amp\Promise\any(), but works with generators, too
-$results = yield $MadelineProto->any([$promise1, $promise2, $generator3]);
-
-// Equivalent to Amp\Promise\some(), but works with generators, too
-$results = yield $MadelineProto->some([$promise1, $promise2, $generator3]);
-```
-
-#### Handling timeouts
-
-These methods can be used to wait for a certain amount of time for a result, and then throw an `Amp\TimeoutException` or simply continue execution if no result was obtained.  
-
-```
-// Waits for the result for 2 seconds and then throws an \Amp\TimeoutException
-$result = yield $MadelineProto->timeout($promise, 2)
-
-// Waits for the result for 2 seconds, returns the result or null (which is the result of sleep())
-$result = yield $MadelineProto->first([$promise, $MadelineProto->sleep(2)]);
-```
 
 ### Async loop APIs
 
