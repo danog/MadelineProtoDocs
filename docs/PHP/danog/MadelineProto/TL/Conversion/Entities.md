@@ -23,9 +23,9 @@ If not, see <http://www.gnu.org/licenses/>.
 
 
 ## Method list:
-* `entitiesToHtml(string $text, array|object $entities, bool $specialchars): string`
-* `entitiesToMarkdownV1(string $text, object|array $entities, bool $slashmarkdown): string`
-* `entitiesToMarkdown(string $text, object|array $entities, bool $slashmarkdown): string`
+* `entitiesToHtml()`
+* `entitiesToMarkdownV1()`
+* `entitiesToMarkdown()`
 * `markdownV1ToHtml()`
 * `markdownToHtml()`
 * `htmlToEntities()`
@@ -35,48 +35,27 @@ If not, see <http://www.gnu.org/licenses/>.
 * `markdownV1htmlToEntities()`
 * `htmlToMarkdown()`
 * `htmlToMarkdownv1()`
-* `parseText(\non-empty-string $text): \danog\MadelineProto\TL\Conversion\DOMEntities`
+* `parseText(\non-empty-string $text)`
 
 ## Methods:
-### `entitiesToHtml(string $text, array|object $entities, bool $specialchars): string`
+### `entitiesToHtml()`
 
 entitiesToHtml
 Covert entities to html tags.
 
 
-Parameters:
 
-* `$text`: `string`   
-* `$entities`: `array|object`   
-* `$specialchars`: `bool`   
-
-
-
-### `entitiesToMarkdownV1(string $text, object|array $entities, bool $slashmarkdown): string`
+### `entitiesToMarkdownV1()`
 
 entitiesToMarkdownV1
 Covert entities to html tags v1 (Telegram version).
 
 
-Parameters:
 
-* `$text`: `string`   
-* `$entities`: `object|array`   
-* `$slashmarkdown`: `bool`   
-
-
-
-### `entitiesToMarkdown(string $text, object|array $entities, bool $slashmarkdown): string`
+### `entitiesToMarkdown()`
 
 entitiesToMarkdown
 convert given entities to markdown.
-
-
-Parameters:
-
-* `$text`: `string`   
-* `$entities`: `object|array`   
-* `$slashmarkdown`: `bool`   
 
 
 
@@ -143,7 +122,7 @@ convert html tags to markdownv1 format.
 
 
 
-### `parseText(\non-empty-string $text): \danog\MadelineProto\TL\Conversion\DOMEntities`
+### `parseText(\non-empty-string $text)`
 
 parseText (main function)
 function return formated text with entities or tags or format it to markdown & markdownv1.
@@ -152,11 +131,6 @@ function return formated text with entities or tags or format it to markdown & m
 Parameters:
 
 * `$text`: `\non-empty-string`   
-
-
-#### See also: 
-* `\danog\MadelineProto\TL\Conversion\DOMEntities`
-
 
 
 

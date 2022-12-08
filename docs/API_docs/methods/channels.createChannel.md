@@ -24,6 +24,7 @@ Create a [supergroup/channel](https://core.telegram.org/api/channel).
 |about|[string](/API_docs/types/string.html) | Channel description | Yes|
 |geo\_point|[InputGeoPoint](/API_docs/types/InputGeoPoint.html) | Geogroup location | Optional|
 |address|[string](/API_docs/types/string.html) | Geogroup address | Optional|
+|ttl\_period|[int](/API_docs/types/int.html) |  | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -44,6 +45,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Updates = $MadelineProto->channels->createChannel(broadcast: Bool, megagroup: Bool, for_import: Bool, title: 'string', about: 'string', geo_point: InputGeoPoint, address: 'string', );
+$Updates = $MadelineProto->channels->createChannel(broadcast: Bool, megagroup: Bool, for_import: Bool, title: 'string', about: 'string', geo_point: InputGeoPoint, address: 'string', ttl_period: int, );
 ```
 

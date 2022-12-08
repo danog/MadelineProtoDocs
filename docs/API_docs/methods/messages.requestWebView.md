@@ -28,6 +28,7 @@ After calling this method, until the user closes the webview, [messages.prolongW
 |theme\_params|[DataJSON](/API_docs/types/DataJSON.html) | Theme parameters for the web app | Optional|
 |platform|[string](/API_docs/types/string.html) |  | Yes|
 |reply\_to\_msg\_id|[int](/API_docs/types/int.html) | Whether the inline message that will be sent by the bot on behalf of the user once the web app interaction is [terminated](../methods/messages.sendWebViewResultMessage.html) should be sent in reply to this message ID. | Optional|
+|top\_msg\_id|[int](/API_docs/types/int.html) |  | Optional|
 |send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Open the web app as the specified peer, sending the resulting the message as the specified peer. | Optional|
 
 
@@ -49,6 +50,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$WebViewResult = $MadelineProto->messages->requestWebView(from_bot_menu: Bool, silent: Bool, peer: InputPeer, bot: InputUser, url: 'string', start_param: 'string', theme_params: DataJSON, platform: 'string', reply_to_msg_id: int, send_as: InputPeer, );
+$WebViewResult = $MadelineProto->messages->requestWebView(from_bot_menu: Bool, silent: Bool, peer: InputPeer, bot: InputUser, url: 'string', start_param: 'string', theme_params: DataJSON, platform: 'string', reply_to_msg_id: int, top_msg_id: int, send_as: InputPeer, );
 ```
 

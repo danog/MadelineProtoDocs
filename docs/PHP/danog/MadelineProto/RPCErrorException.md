@@ -17,49 +17,39 @@ Indicates an error returned by Telegram's API.
 
 
 ## Method list:
-* `getLocalization(): string`
-* `setLocalization(string $localization): void`
-* `updateTLTrace(array $trace): void`
-* `getTLTrace(): string`
-* `setTLTrace(string $tlTrace): void`
+* `getLocalization()`
+* `setLocalization()`
+* `updateTLTrace(): void`
+* `getTLTrace()`
+* `setTLTrace(string $tlTrace)`
 * `prettifyTL(string $init, array $trace): void`
 
 ## Methods:
-### `getLocalization(): string`
+### `getLocalization()`
 
 Get localized error name.
 
 
 
-### `setLocalization(string $localization): void`
+### `setLocalization()`
 
 Set localized error name.
 
 
-Parameters:
 
-* `$localization`: `string`   
-
-
-
-### `updateTLTrace(array $trace): void`
+### `updateTLTrace(): void`
 
 Update TL trace.
 
 
-Parameters:
 
-* `$trace`: `array`   
-
-
-
-### `getTLTrace(): string`
+### `getTLTrace()`
 
 Get TL trace.
 
 
 
-### `setTLTrace(string $tlTrace): void`
+### `setTLTrace(string $tlTrace)`
 
 Set TL trace.
 

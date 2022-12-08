@@ -62,5 +62,7 @@ You can also provide one of the following objects, instead, MadelineProto will h
 
 [$MadelineProto->users->getUsers](/API_docs/methods/users.getUsers.html)  
 
+[$MadelineProto->contacts->importContactToken](/API_docs/methods/contacts.importContactToken.html)  
+
 
 

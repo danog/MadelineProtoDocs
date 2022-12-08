@@ -18,13 +18,13 @@ Logger settings.
 
 ## Method list:
 * `getType()`
-* `setType(): self`
+* `setType()`
 * `getExtra(): null|callable|string`
-* `setExtra(null|callable|string $extra): self`
+* `setExtra(null|callable|string $extra)`
 * `getLevel()`
-* `setLevel(): self`
-* `getMaxSize(): int`
-* `setMaxSize(int $maxSize): self`
+* `setLevel()`
+* `getMaxSize()`
+* `setMaxSize(int $maxSize)`
 
 ## Methods:
 ### `getType()`
@@ -33,7 +33,7 @@ Get $type Logger type.
 
 
 
-### `setType(): self`
+### `setType()`
 
 Set $type Logger type.
 
@@ -45,7 +45,7 @@ Get extra parameter for logger.
 
 
 
-### `setExtra(null|callable|string $extra): self`
+### `setExtra(null|callable|string $extra)`
 
 Set extra parameter for logger.
 
@@ -62,19 +62,19 @@ Get logging level.
 
 
 
-### `setLevel(): self`
+### `setLevel()`
 
 Set logging level.
 
 
 
-### `getMaxSize(): int`
+### `getMaxSize()`
 
 Get maximum filesize for logger, in case of file logging.
 
 
 
-### `setMaxSize(int $maxSize): self`
+### `setMaxSize(int $maxSize)`
 
 Set maximum filesize for logger, in case of file logging.
 

@@ -18,15 +18,15 @@ Generic SQL database backend.
 
 ## Method list:
 * `getIterator()`
-* `unset(string|int $index): \Amp\Promise<array>`
+* `unset(): \Amp\Promise<array>`
 * `count(): \Promise<int> The number of elements or public properties in the associated
 array or object, respectively.`
 * `clear(): \Amp\Promise<\Amp\Sql\CommandResult>`
 * `initConnection()`
-* `initStartup(): \Generator`
-* `getTable(): string`
+* `initStartup()`
+* `getTable()`
 * `isset(mixed $key): \Promise<bool> true if the offset exists, otherwise false`
-* `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
+* `getInstance(\danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings)`
 
 ## Methods:
 ### `getIterator()`
@@ -35,16 +35,9 @@ array or object, respectively.`
 
 
 
-### `unset(string|int $index): \Amp\Promise<array>`
+### `unset(): \Amp\Promise<array>`
 
 Unset value for an offset.
-
-
-Parameters:
-
-* `$index`: `string|int` <p>
-The offset to unset.
-</p>  
 
 
 #### See also: 
@@ -81,18 +74,13 @@ Initialize connection.
 
 
 
-### `initStartup(): \Generator`
+### `initStartup()`
 
 Initialize on startup.
 
 
-#### See also: 
-* `\Generator`
 
-
-
-
-### `getTable(): string`
+### `getTable()`
 
 Get the value of table.
 
@@ -111,14 +99,13 @@ Parameters:
 Return value: true if the offset exists, otherwise false
 
 
-### `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
+### `getInstance(\danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings)`
 
 
 
 
 Parameters:
 
-* `$table`: `string`   
 * `$previous`: `\danog\MadelineProto\Db\DbArray|array|null`   
 * `$settings`: `\danog\MadelineProto\Settings\Database\DatabaseAbstract`   
 

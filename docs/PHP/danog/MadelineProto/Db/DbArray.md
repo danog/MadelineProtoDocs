@@ -17,19 +17,19 @@ DB array interface.
 
 
 ## Method list:
-* `getArrayCopy(): \Amp\Promise`
-* `isset(string|int $key): \Amp\Promise`
-* `unset(string|int $key): \Amp\Promise`
-* `set(string|int $index, mixed $value): \Amp\Promise`
-* `offsetGet(string|int $index): \Amp\Promise`
-* `offsetSet(string|int $index, mixed $value): void`
+* `getArrayCopy()`
+* `isset()`
+* `unset()`
+* `set()`
+* `offsetGet(string|int $index)`
+* `offsetSet(string|int $index): void`
 * `count(): \Amp\Promise<int>`
-* `clear(): \Amp\Promise`
+* `clear()`
 * `getIterator()`
-* `getInstance(string $table, null|\danog\MadelineProto\Db\DbType|array $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise<self>`
+* `getInstance(null|\danog\MadelineProto\Db\DbType|array $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise<self>`
 
 ## Methods:
-### `getArrayCopy(): \Amp\Promise`
+### `getArrayCopy()`
 
 Get Array copy.
 
@@ -45,14 +45,9 @@ Fully typed return value:
 
 
 
-### `isset(string|int $key): \Amp\Promise`
+### `isset()`
 
 Check if element is set.
-
-
-Parameters:
-
-* `$key`: `string|int`   
 
 
 Fully typed return value:
@@ -65,14 +60,9 @@ Fully typed return value:
 
 
 
-### `unset(string|int $key): \Amp\Promise`
+### `unset()`
 
 Unset element.
-
-
-Parameters:
-
-* `$key`: `string|int`   
 
 
 Fully typed return value:
@@ -85,29 +75,22 @@ Fully typed return value:
 
 
 
-### `set(string|int $index, mixed $value): \Amp\Promise`
+### `set()`
 
 Set element.
 
 
 Parameters:
 
-* `$index`: `string|int`   
-* `$value`: `mixed`   
-  Full type:
-  ```
-  \T
-  ```
 
 
 #### See also: 
 * `\T`
-* `\Amp\Promise`
 
 
 
 
-### `offsetGet(string|int $index): \Amp\Promise`
+### `offsetGet(string|int $index)`
 
 Get element.
 
@@ -128,7 +111,7 @@ Fully typed return value:
 
 
 
-### `offsetSet(string|int $index, mixed $value): void`
+### `offsetSet(string|int $index): void`
 
 Set element.
 
@@ -136,11 +119,6 @@ Set element.
 Parameters:
 
 * `$index`: `string|int`   
-* `$value`: `mixed`   
-  Full type:
-  ```
-  \T
-  ```
 
 
 #### See also: 
@@ -160,14 +138,9 @@ Count number of elements.
 
 
 
-### `clear(): \Amp\Promise`
+### `clear()`
 
 Clear all elements.
-
-
-#### See also: 
-* `\Amp\Promise`
-
 
 
 
@@ -177,14 +150,13 @@ Get iterator.
 
 
 
-### `getInstance(string $table, null|\danog\MadelineProto\Db\DbType|array $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise<self>`
+### `getInstance(null|\danog\MadelineProto\Db\DbType|array $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise<self>`
 
 
 
 
 Parameters:
 
-* `$table`: `string`   
 * `$previous`: `null|\danog\MadelineProto\Db\DbType|array`   
 * `$settings`: `\danog\MadelineProto\Settings\Database\DatabaseAbstract`   
 

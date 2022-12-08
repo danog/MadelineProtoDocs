@@ -17,23 +17,23 @@ File management settings.
 
 
 ## Method list:
-* `getAllowAutomaticUpload(): bool`
-* `setAllowAutomaticUpload(bool $allowAutomaticUpload): self`
-* `getUploadParallelChunks(): int`
-* `setUploadParallelChunks(int $uploadParallelChunks): self`
-* `getDownloadParallelChunks(): int`
-* `setDownloadParallelChunks(int $downloadParallelChunks): self`
-* `getReportBrokenMedia(): bool`
-* `setReportBrokenMedia(bool $reportBrokenMedia): self`
+* `getAllowAutomaticUpload()`
+* `setAllowAutomaticUpload(bool $allowAutomaticUpload)`
+* `getUploadParallelChunks()`
+* `setUploadParallelChunks(int $uploadParallelChunks)`
+* `getDownloadParallelChunks()`
+* `setDownloadParallelChunks(int $downloadParallelChunks)`
+* `getReportBrokenMedia()`
+* `setReportBrokenMedia(bool $reportBrokenMedia)`
 
 ## Methods:
-### `getAllowAutomaticUpload(): bool`
+### `getAllowAutomaticUpload()`
 
 Get allow automatic upload of files from file paths present in constructors?
 
 
 
-### `setAllowAutomaticUpload(bool $allowAutomaticUpload): self`
+### `setAllowAutomaticUpload(bool $allowAutomaticUpload)`
 
 Set allow automatic upload of files from file paths present in constructors?
 
@@ -44,13 +44,13 @@ Parameters:
 
 
 
-### `getUploadParallelChunks(): int`
+### `getUploadParallelChunks()`
 
 Get upload parallel chunk count.
 
 
 
-### `setUploadParallelChunks(int $uploadParallelChunks): self`
+### `setUploadParallelChunks(int $uploadParallelChunks)`
 
 Set upload parallel chunk count.
 
@@ -61,13 +61,13 @@ Parameters:
 
 
 
-### `getDownloadParallelChunks(): int`
+### `getDownloadParallelChunks()`
 
 Get download parallel chunk count.
 
 
 
-### `setDownloadParallelChunks(int $downloadParallelChunks): self`
+### `setDownloadParallelChunks(int $downloadParallelChunks)`
 
 Set download parallel chunk count.
 
@@ -78,13 +78,13 @@ Parameters:
 
 
 
-### `getReportBrokenMedia(): bool`
+### `getReportBrokenMedia()`
 
 Get whether to report undownloadable media to TSF.
 
 
 
-### `setReportBrokenMedia(bool $reportBrokenMedia): self`
+### `setReportBrokenMedia(bool $reportBrokenMedia)`
 
 Set whether to report undownloadable media to TSF.
 

@@ -18,20 +18,20 @@ App information.
 
 ## Method list:
 * `hasApiInfo(): bool`
-* `getApiId(): int`
-* `setApiId(int $apiId): self`
-* `getApiHash(): string`
-* `setApiHash(string $apiHash): self`
-* `getDeviceModel(): string`
-* `setDeviceModel(string $deviceModel): self`
-* `getSystemVersion(): string`
-* `setSystemVersion(string $systemVersion): self`
-* `getAppVersion(): string`
-* `setAppVersion(string $appVersion): self`
-* `getLangCode(): string`
-* `setLangCode(string $langCode): self`
-* `getLangPack(): string`
-* `setLangPack(string $langPack): self`
+* `getApiId()`
+* `setApiId(int $apiId)`
+* `getApiHash()`
+* `setApiHash(string $apiHash)`
+* `getDeviceModel()`
+* `setDeviceModel(string $deviceModel)`
+* `getSystemVersion()`
+* `setSystemVersion(string $systemVersion)`
+* `getAppVersion()`
+* `setAppVersion(string $appVersion)`
+* `getLangCode()`
+* `setLangCode(string $langCode)`
+* `getLangPack()`
+* `setLangPack(string $langPack)`
 
 ## Methods:
 ### `hasApiInfo(): bool`
@@ -40,13 +40,13 @@ Check if the settings have API ID/hash information.
 
 
 
-### `getApiId(): int`
+### `getApiId()`
 
 Get API ID.
 
 
 
-### `setApiId(int $apiId): self`
+### `setApiId(int $apiId)`
 
 Set API ID.
 
@@ -57,13 +57,13 @@ Parameters:
 
 
 
-### `getApiHash(): string`
+### `getApiHash()`
 
 Get API hash.
 
 
 
-### `setApiHash(string $apiHash): self`
+### `setApiHash(string $apiHash)`
 
 Set API hash.
 
@@ -74,13 +74,13 @@ Parameters:
 
 
 
-### `getDeviceModel(): string`
+### `getDeviceModel()`
 
 Get device model.
 
 
 
-### `setDeviceModel(string $deviceModel): self`
+### `setDeviceModel(string $deviceModel)`
 
 Set device model.
 
@@ -91,13 +91,13 @@ Parameters:
 
 
 
-### `getSystemVersion(): string`
+### `getSystemVersion()`
 
 Get system version.
 
 
 
-### `setSystemVersion(string $systemVersion): self`
+### `setSystemVersion(string $systemVersion)`
 
 Set system version.
 
@@ -108,13 +108,13 @@ Parameters:
 
 
 
-### `getAppVersion(): string`
+### `getAppVersion()`
 
 Get app version.
 
 
 
-### `setAppVersion(string $appVersion): self`
+### `setAppVersion(string $appVersion)`
 
 Set app version.
 
@@ -125,13 +125,13 @@ Parameters:
 
 
 
-### `getLangCode(): string`
+### `getLangCode()`
 
 Get language code.
 
 
 
-### `setLangCode(string $langCode): self`
+### `setLangCode(string $langCode)`
 
 Set language code.
 
@@ -142,13 +142,13 @@ Parameters:
 
 
 
-### `getLangPack(): string`
+### `getLangPack()`
 
 Get language pack.
 
 
 
-### `setLangPack(string $langPack): self`
+### `setLangPack(string $langPack)`
 
 Set language pack.
 

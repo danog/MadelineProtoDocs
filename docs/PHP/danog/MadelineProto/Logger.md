@@ -39,13 +39,13 @@ Logger class.
 
 
 ## Method list:
-* `constructorFromSettings(\danog\MadelineProto\Settings\Logger $settings): self`
+* `constructorFromSettings(\danog\MadelineProto\Settings\Logger $settings)`
 * `log(mixed $param, int $level): void`
-* `logger(mixed $param, int $level, string $file): void`
-* `getPsrLogger(): \Psr\Log\LoggerInterface`
+* `logger(mixed $param, int $level, string $file)`
+* `getPsrLogger()`
 
 ## Methods:
-### `constructorFromSettings(\danog\MadelineProto\Settings\Logger $settings): self`
+### `constructorFromSettings(\danog\MadelineProto\Settings\Logger $settings)`
 
 Construct global static logger from MadelineProto settings.
 
@@ -73,7 +73,7 @@ Parameters:
 
 
 
-### `logger(mixed $param, int $level, string $file): void`
+### `logger(mixed $param, int $level, string $file)`
 
 Log a message.
 
@@ -86,14 +86,9 @@ Parameters:
 
 
 
-### `getPsrLogger(): \Psr\Log\LoggerInterface`
+### `getPsrLogger()`
 
 Get PSR logger.
-
-
-#### See also: 
-* `\Psr\Log\LoggerInterface`
-
 
 
 

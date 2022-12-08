@@ -26,6 +26,7 @@ Forwards messages by their IDs.
 |from\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Source of messages | Optional|
 |id|Array of [int](/API_docs/types/int.html) | IDs of messages | Yes|
 |to\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Destination peer | Optional|
+|top\_msg\_id|[int](/API_docs/types/int.html) |  | Optional|
 |schedule\_date|[int](/API_docs/types/int.html) | Scheduled message date for scheduled messages | Optional|
 |send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Forward the messages as the specified peer | Optional|
 
@@ -48,6 +49,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Updates = $MadelineProto->messages->forwardMessages(silent: Bool, background: Bool, with_my_score: Bool, drop_author: Bool, drop_media_captions: Bool, noforwards: Bool, from_peer: InputPeer, id: [int, int], to_peer: InputPeer, schedule_date: int, send_as: InputPeer, );
+$Updates = $MadelineProto->messages->forwardMessages(silent: Bool, background: Bool, with_my_score: Bool, drop_author: Bool, drop_media_captions: Bool, noforwards: Bool, from_peer: InputPeer, id: [int, int], to_peer: InputPeer, top_msg_id: int, schedule_date: int, send_as: InputPeer, );
 ```
 

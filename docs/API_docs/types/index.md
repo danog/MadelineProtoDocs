@@ -107,6 +107,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [DecryptedMessageMedia](/API_docs/types/DecryptedMessageMedia.html)<a name="DecryptedMessageMedia"></a>  
 
+[DefaultHistoryTTL](/API_docs/types/DefaultHistoryTTL.html)<a name="DefaultHistoryTTL"></a>  
+
 [Dialog](/API_docs/types/Dialog.html)<a name="Dialog"></a>  
 
 [DialogFilter](/API_docs/types/DialogFilter.html)<a name="DialogFilter"></a>  
@@ -145,6 +147,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [ExportedChatInvite](/API_docs/types/ExportedChatInvite.html)<a name="ExportedChatInvite"></a>  
 
+[ExportedContactToken](/API_docs/types/ExportedContactToken.html)<a name="ExportedContactToken"></a>  
+
 [ExportedMessageLink](/API_docs/types/ExportedMessageLink.html)<a name="ExportedMessageLink"></a>  
 
 [FileHash](/API_docs/types/FileHash.html)<a name="FileHash"></a>  
@@ -154,6 +158,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Folder](/API_docs/types/Folder.html)<a name="Folder"></a>  
 
 [FolderPeer](/API_docs/types/FolderPeer.html)<a name="FolderPeer"></a>  
+
+[ForumTopic](/API_docs/types/ForumTopic.html)<a name="ForumTopic"></a>  
 
 [Game](/API_docs/types/Game.html)<a name="Game"></a>  
 
@@ -461,6 +467,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [StatsURL](/API_docs/types/StatsURL.html)<a name="StatsURL"></a>  
 
+[StickerKeyword](/API_docs/types/StickerKeyword.html)<a name="StickerKeyword"></a>  
+
 [StickerPack](/API_docs/types/StickerPack.html)<a name="StickerPack"></a>  
 
 [StickerSet](/API_docs/types/StickerSet.html)<a name="StickerSet"></a>  
@@ -492,6 +500,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [UserProfilePhoto](/API_docs/types/UserProfilePhoto.html)<a name="UserProfilePhoto"></a>  
 
 [UserStatus](/API_docs/types/UserStatus.html)<a name="UserStatus"></a>  
+
+[Username](/API_docs/types/Username.html)<a name="Username"></a>  
 
 [VideoSize](/API_docs/types/VideoSize.html)<a name="VideoSize"></a>  
 
@@ -660,6 +670,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [messages.FavedStickers](/API_docs/types/messages.FavedStickers.html)<a name="messages.FavedStickers"></a>  
 
 [messages.FeaturedStickers](/API_docs/types/messages.FeaturedStickers.html)<a name="messages.FeaturedStickers"></a>  
+
+[messages.ForumTopics](/API_docs/types/messages.ForumTopics.html)<a name="messages.ForumTopics"></a>  
 
 [messages.FoundStickerSets](/API_docs/types/messages.FoundStickerSets.html)<a name="messages.FoundStickerSets"></a>  
 

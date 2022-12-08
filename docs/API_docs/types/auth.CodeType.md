@@ -20,6 +20,8 @@ redirect_from: /API_docs/types/auth_CodeType.html
 
 [auth.codeTypeMissedCall](/API_docs/constructors/auth.codeTypeMissedCall.html)  
 
+[auth.codeTypeFragmentSms](/API_docs/constructors/auth.codeTypeFragmentSms.html)  
+
 
 
 ### Methods that return an object of this type (methods):

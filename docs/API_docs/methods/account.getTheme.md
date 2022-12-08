@@ -19,7 +19,6 @@ Get theme information
 |----------|---------------|-------------|----------|
 |format|[string](/API_docs/types/string.html) | Theme format, a string that identifies the theming engines supported by the client | Yes|
 |theme|[InputTheme](/API_docs/types/InputTheme.html) | Theme | Yes|
-|document\_id|[long](/API_docs/types/long.html) | Deprecated: should always be `0` | Yes|
 
 
 ### Return type: [Theme](/API_docs/types/Theme.html)
@@ -40,6 +39,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Theme = $MadelineProto->account->getTheme(format: 'string', theme: InputTheme, document_id: long, );
+$Theme = $MadelineProto->account->getTheme(format: 'string', theme: InputTheme, );
 ```
 

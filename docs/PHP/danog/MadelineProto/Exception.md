@@ -17,16 +17,16 @@ Basic exception.
 
 
 ## Method list:
-* `extension(string $extensionName): self`
+* `extension(string $extensionName)`
 * `exceptionErrorHandler(): false`
-* `exceptionHandler(): void`
-* `updateTLTrace(array $trace): void`
-* `getTLTrace(): string`
-* `setTLTrace(string $tlTrace): void`
+* `exceptionHandler()`
+* `updateTLTrace(): void`
+* `getTLTrace()`
+* `setTLTrace(string $tlTrace)`
 * `prettifyTL(string $init, array $trace): void`
 
 ## Methods:
-### `extension(string $extensionName): self`
+### `extension(string $extensionName)`
 
 Complain about missing extensions.
 
@@ -43,30 +43,25 @@ ExceptionErrorHandler.
 Error handler
 
 
-### `exceptionHandler(): void`
+### `exceptionHandler()`
 
 ExceptionErrorHandler.
 Error handler
 
 
-### `updateTLTrace(array $trace): void`
+### `updateTLTrace(): void`
 
 Update TL trace.
 
 
-Parameters:
 
-* `$trace`: `array`   
-
-
-
-### `getTLTrace(): string`
+### `getTLTrace()`
 
 Get TL trace.
 
 
 
-### `setTLTrace(string $tlTrace): void`
+### `setTLTrace(string $tlTrace)`
 
 Set TL trace.
 

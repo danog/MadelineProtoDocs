@@ -23,6 +23,7 @@ Send a result obtained using [messages.getInlineBotResults](../methods/messages.
 |hide\_via|[Bool](/API_docs/types/Bool.html) | Whether to hide the `via @botname` in the resulting message (only for bot usernames encountered in the [config](../constructors/config.html)) | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Destination | Optional|
 |reply\_to\_msg\_id|[int](/API_docs/types/int.html) | ID of the message this message should reply to | Optional|
+|top\_msg\_id|[int](/API_docs/types/int.html) |  | Optional|
 |query\_id|[long](/API_docs/types/long.html) | Query ID from [messages.getInlineBotResults](../methods/messages.getInlineBotResults.html) | Yes|
 |id|[string](/API_docs/types/string.html) | Result ID from [messages.getInlineBotResults](../methods/messages.getInlineBotResults.html) | Yes|
 |schedule\_date|[int](/API_docs/types/int.html) | Scheduled message date for scheduled messages | Optional|
@@ -47,6 +48,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Updates = $MadelineProto->messages->sendInlineBotResult(silent: Bool, background: Bool, clear_draft: Bool, hide_via: Bool, peer: InputPeer, reply_to_msg_id: int, query_id: long, id: 'string', schedule_date: int, send_as: InputPeer, );
+$Updates = $MadelineProto->messages->sendInlineBotResult(silent: Bool, background: Bool, clear_draft: Bool, hide_via: Bool, peer: InputPeer, reply_to_msg_id: int, top_msg_id: int, query_id: long, id: 'string', schedule_date: int, send_as: InputPeer, );
 ```
 

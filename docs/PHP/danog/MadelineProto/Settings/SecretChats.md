@@ -18,7 +18,7 @@ Secret chat settings.
 
 ## Method list:
 * `getAccept(): bool|int[]`
-* `setAccept(bool|int[] $accept): self`
+* `setAccept(bool|int[] $accept)`
 
 ## Methods:
 ### `getAccept(): bool|int[]`
@@ -27,7 +27,7 @@ Get boolean or array of IDs.
 
 
 
-### `setAccept(bool|int[] $accept): self`
+### `setAccept(bool|int[] $accept)`
 
 Set boolean or array of IDs.
 

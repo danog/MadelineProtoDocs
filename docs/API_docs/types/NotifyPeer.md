@@ -54,6 +54,8 @@ You can also provide one of the following objects, instead, MadelineProto will h
 
 [notifyBroadcasts](/API_docs/constructors/notifyBroadcasts.html)  
 
+[notifyForumTopic](/API_docs/constructors/notifyForumTopic.html)  
+
 
 
 ### Methods that return an object of this type (methods):

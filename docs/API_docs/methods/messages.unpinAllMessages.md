@@ -18,6 +18,7 @@ redirect_from: /API_docs/methods/messages_unpinAllMessages.html
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Chat where to unpin | Optional|
+|top\_msg\_id|[int](/API_docs/types/int.html) |  | Optional|
 
 
 ### Return type: [messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.html)
@@ -38,6 +39,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$messages_AffectedHistory = $MadelineProto->messages->unpinAllMessages(peer: InputPeer, );
+$messages_AffectedHistory = $MadelineProto->messages->unpinAllMessages(peer: InputPeer, top_msg_id: int, );
 ```
 

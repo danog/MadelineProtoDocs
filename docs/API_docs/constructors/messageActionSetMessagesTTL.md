@@ -16,6 +16,7 @@ The Time-To-Live of messages in this chat was changed.
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |period|[int](/API_docs/types/int.html) | Yes|New Time-To-Live|
+|auto\_setting\_from|[long](/API_docs/types/long.html) | Optional|
 
 
 
@@ -25,5 +26,5 @@ The Time-To-Live of messages in this chat was changed.
 ### Example:
 
 ```
-$messageActionSetMessagesTTL = ['_' => 'messageActionSetMessagesTTL', 'period' => int];
+$messageActionSetMessagesTTL = ['_' => 'messageActionSetMessagesTTL', 'period' => int, 'auto_setting_from' => long];
 ```  

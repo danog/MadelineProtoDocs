@@ -22,18 +22,18 @@ Some tools.
 
 ## Method list:
 * `mbStrlen(string $text): float|int`
-* `mbSubstr(string $text, int $offset, ?int $length): string`
+* `mbSubstr(string $text, int $offset, ?int $length)`
 * `mbStrSplit(string $text, int $length): string[]`
-* `toCamelCase(string $input): string`
-* `toSnakeCase(string $input): string`
-* `markdownEscape(string $hwat): string`
-* `typeEscape(string $type): string`
-* `methodEscape(string $method): string`
-* `getMimeFromExtension(string $extension, string $default): string`
-* `getExtensionFromMime(string $mime): string`
-* `getExtensionFromLocation(mixed $location, string $default): string`
-* `getMimeFromFile(string $file): string`
-* `getMimeFromBuffer(string $buffer): string`
+* `toCamelCase(string $input)`
+* `toSnakeCase(string $input)`
+* `markdownEscape(string $hwat)`
+* `typeEscape(string $type)`
+* `methodEscape(string $method)`
+* `getMimeFromExtension(string $extension, string $default)`
+* `getExtensionFromMime(string $mime)`
+* `getExtensionFromLocation(mixed $location, string $default)`
+* `getMimeFromFile(string $file)`
+* `getMimeFromBuffer(string $buffer)`
 
 ## Methods:
 ### `mbStrlen(string $text): float|int`
@@ -47,7 +47,7 @@ Parameters:
 
 
 
-### `mbSubstr(string $text, int $offset, ?int $length): string`
+### `mbSubstr(string $text, int $offset, ?int $length)`
 
 Telegram UTF-8 multibyte substring.
 
@@ -72,7 +72,7 @@ Parameters:
 
 
 
-### `toCamelCase(string $input): string`
+### `toCamelCase(string $input)`
 
 Convert to camelCase.
 
@@ -83,7 +83,7 @@ Parameters:
 
 
 
-### `toSnakeCase(string $input): string`
+### `toSnakeCase(string $input)`
 
 Convert to snake_case.
 
@@ -94,7 +94,7 @@ Parameters:
 
 
 
-### `markdownEscape(string $hwat): string`
+### `markdownEscape(string $hwat)`
 
 Escape string for markdown.
 
@@ -105,7 +105,7 @@ Parameters:
 
 
 
-### `typeEscape(string $type): string`
+### `typeEscape(string $type)`
 
 Escape type name.
 
@@ -116,7 +116,7 @@ Parameters:
 
 
 
-### `methodEscape(string $method): string`
+### `methodEscape(string $method)`
 
 Escape method name.
 
@@ -127,7 +127,7 @@ Parameters:
 
 
 
-### `getMimeFromExtension(string $extension, string $default): string`
+### `getMimeFromExtension(string $extension, string $default)`
 
 Get mime type from file extension.
 
@@ -139,7 +139,7 @@ Parameters:
 
 
 
-### `getExtensionFromMime(string $mime): string`
+### `getExtensionFromMime(string $mime)`
 
 Get extension from mime type.
 
@@ -150,7 +150,7 @@ Parameters:
 
 
 
-### `getExtensionFromLocation(mixed $location, string $default): string`
+### `getExtensionFromLocation(mixed $location, string $default)`
 
 Get extension from file location.
 
@@ -162,7 +162,7 @@ Parameters:
 
 
 
-### `getMimeFromFile(string $file): string`
+### `getMimeFromFile(string $file)`
 
 Get mime type of file.
 
@@ -173,7 +173,7 @@ Parameters:
 
 
 
-### `getMimeFromBuffer(string $buffer): string`
+### `getMimeFromBuffer(string $buffer)`
 
 Get mime type from buffer.
 

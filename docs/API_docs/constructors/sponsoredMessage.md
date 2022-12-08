@@ -16,6 +16,7 @@ A [sponsored message](https://core.telegram.org/api/sponsored-messages).
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |recommended|[Bool](/API_docs/types/Bool.html) | Optional|Whether the message needs to be labeled as "recommended" instead of "sponsored"|
+|show\_peer\_photo|[Bool](/API_docs/types/Bool.html) | Optional|
 |from\_id|[Peer](/API_docs/types/Peer.html) | Optional|ID of the sender of the message|
 |chat\_invite|[ChatInvite](/API_docs/types/ChatInvite.html) | Optional|Information about the chat invite hash specified in `chat_invite_hash`|
 |chat\_invite\_hash|[string](/API_docs/types/string.html) | Optional|Chat invite|
@@ -32,5 +33,5 @@ A [sponsored message](https://core.telegram.org/api/sponsored-messages).
 ### Example:
 
 ```
-$sponsoredMessage = ['_' => 'sponsoredMessage', 'recommended' => Bool, 'from_id' => Peer, 'chat_invite' => ChatInvite, 'chat_invite_hash' => 'string', 'channel_post' => int, 'start_param' => 'string', 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]];
+$sponsoredMessage = ['_' => 'sponsoredMessage', 'recommended' => Bool, 'show_peer_photo' => Bool, 'from_id' => Peer, 'chat_invite' => ChatInvite, 'chat_invite_hash' => 'string', 'channel_post' => int, 'start_param' => 'string', 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]];
 ```  

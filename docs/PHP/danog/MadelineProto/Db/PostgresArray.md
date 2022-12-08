@@ -17,30 +17,25 @@ Postgres database backend.
 
 
 ## Method list:
-* `initStartup(): \Generator`
-* `initConnection(\danog\MadelineProto\Settings\Database\Postgres $settings): \Generator`
+* `initStartup()`
+* `initConnection(\danog\MadelineProto\Settings\Database\Postgres $settings)`
 * `getIterator()`
-* `unset(string|int $index): \Amp\Promise<array>`
+* `unset(): \Amp\Promise<array>`
 * `count(): \Promise<int> The number of elements or public properties in the associated
 array or object, respectively.`
 * `clear(): \Amp\Promise<\Amp\Sql\CommandResult>`
-* `getTable(): string`
+* `getTable()`
 * `isset(mixed $key): \Promise<bool> true if the offset exists, otherwise false`
-* `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
+* `getInstance(\danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings)`
 
 ## Methods:
-### `initStartup(): \Generator`
+### `initStartup()`
 
 Initialize on startup.
 
 
-#### See also: 
-* `\Generator`
 
-
-
-
-### `initConnection(\danog\MadelineProto\Settings\Database\Postgres $settings): \Generator`
+### `initConnection(\danog\MadelineProto\Settings\Database\Postgres $settings)`
 
 Initialize connection.
 
@@ -52,7 +47,6 @@ Parameters:
 
 #### See also: 
 * [`\danog\MadelineProto\Settings\Database\Postgres`: Postgres backend settings.](../../../danog/MadelineProto/Settings/Database/Postgres.html)
-* `\Generator`
 
 
 
@@ -63,16 +57,9 @@ Parameters:
 
 
 
-### `unset(string|int $index): \Amp\Promise<array>`
+### `unset(): \Amp\Promise<array>`
 
 Unset value for an offset.
-
-
-Parameters:
-
-* `$index`: `string|int` <p>
-The offset to unset.
-</p>  
 
 
 #### See also: 
@@ -103,7 +90,7 @@ Clear all elements.
 
 
 
-### `getTable(): string`
+### `getTable()`
 
 Get the value of table.
 
@@ -122,14 +109,13 @@ Parameters:
 Return value: true if the offset exists, otherwise false
 
 
-### `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
+### `getInstance(\danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings)`
 
 
 
 
 Parameters:
 
-* `$table`: `string`   
 * `$previous`: `\danog\MadelineProto\Db\DbArray|array|null`   
 * `$settings`: `\danog\MadelineProto\Settings\Database\DatabaseAbstract`   
 

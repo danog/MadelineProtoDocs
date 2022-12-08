@@ -17,20 +17,20 @@ Bytes wrapper.
 
 
 ## Method list:
-* `jsonSerialize(): array`
-* `offsetSet(int|null $offset, string $value): void`
+* `jsonSerialize()`
+* `offsetSet(int|null $offset, string $value)`
 * `offsetGet(int $offset): string`
-* `offsetUnset(int $offset): void`
+* `offsetUnset(int $offset)`
 * `offsetExists(int $offset): bool`
 
 ## Methods:
-### `jsonSerialize(): array`
+### `jsonSerialize()`
 
 Obtain values for JSON-encoding.
 
 
 
-### `offsetSet(int|null $offset, string $value): void`
+### `offsetSet(int|null $offset, string $value)`
 
 Set char at offset.
 
@@ -53,7 +53,7 @@ Parameters:
 
 
 
-### `offsetUnset(int $offset): void`
+### `offsetUnset(int $offset)`
 
 Unset char at offset.
 

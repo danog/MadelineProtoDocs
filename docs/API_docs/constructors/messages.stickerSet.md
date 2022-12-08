@@ -18,6 +18,7 @@ Stickerset and stickers inside it
 |----------|---------------|----------|-------------|
 |set|[StickerSet](/API_docs/types/StickerSet.html) | Yes|The stickerset|
 |packs|Array of [StickerPack](/API_docs/types/StickerPack.html) | Yes|Emoji info for stickers|
+|keywords|Array of [StickerKeyword](/API_docs/types/StickerKeyword.html) | Yes|
 |documents|Array of [Document](/API_docs/types/Document.html) | Yes|Stickers in stickerset|
 
 
@@ -28,5 +29,5 @@ Stickerset and stickers inside it
 ### Example:
 
 ```
-$messages_stickerSet = ['_' => 'messages.stickerSet', 'set' => StickerSet, 'packs' => [StickerPack, StickerPack], 'documents' => [Document, Document]];
+$messages_stickerSet = ['_' => 'messages.stickerSet', 'set' => StickerSet, 'packs' => [StickerPack, StickerPack], 'keywords' => [StickerKeyword, StickerKeyword], 'documents' => [Document, Document]];
 ```  

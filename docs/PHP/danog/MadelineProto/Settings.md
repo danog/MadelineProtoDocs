@@ -17,41 +17,41 @@ Settings class used for configuring MadelineProto.
 
 
 ## Method list:
-* `merge(\danog\MadelineProto\SettingsAbstract $settings): void`
+* `merge(\danog\MadelineProto\SettingsAbstract $settings)`
 * `getDefaultDc(): int`
-* `getDefaultDcParams(): array`
-* `setDefaultDc(int $dc): self`
-* `getAppInfo(): \danog\MadelineProto\Settings\AppInfo`
-* `setAppInfo(\danog\MadelineProto\Settings\AppInfo $appInfo): self`
-* `getAuth(): \danog\MadelineProto\Settings\Auth`
-* `setAuth(\danog\MadelineProto\Settings\Auth $auth): self`
-* `getConnection(): \danog\MadelineProto\Settings\Connection`
-* `setConnection(\danog\MadelineProto\Settings\Connection $connection): self`
-* `getFiles(): \danog\MadelineProto\Settings\Files`
-* `setFiles(\danog\MadelineProto\Settings\Files $files): self`
-* `getLogger(): \danog\MadelineProto\Settings\Logger`
-* `setLogger(\danog\MadelineProto\Settings\Logger $logger): self`
-* `getPeer(): \danog\MadelineProto\Settings\Peer`
-* `setPeer(\danog\MadelineProto\Settings\Peer $peer): self`
-* `getRpc(): \danog\MadelineProto\Settings\RPC`
-* `setRpc(\danog\MadelineProto\Settings\RPC $rpc): self`
-* `getSecretChats(): \danog\MadelineProto\Settings\SecretChats`
-* `setSecretChats(\danog\MadelineProto\Settings\SecretChats $secretChats): self`
-* `getSerialization(): \danog\MadelineProto\Settings\Serialization`
-* `setSerialization(\danog\MadelineProto\Settings\Serialization $serialization): self`
-* `getSchema(): \danog\MadelineProto\Settings\TLSchema`
-* `setSchema(\danog\MadelineProto\Settings\TLSchema $schema): self`
-* `getDb(): \danog\MadelineProto\Settings\DatabaseAbstract`
-* `setDb(\danog\MadelineProto\Settings\DatabaseAbstract $db): self`
-* `getIpc(): \danog\MadelineProto\Settings\Ipc`
-* `setIpc(\danog\MadelineProto\Settings\Ipc $ipc): self`
-* `getTemplates(): \danog\MadelineProto\Settings\Templates`
-* `setTemplates(\danog\MadelineProto\Settings\Templates $templates): self`
-* `getVoip(): \danog\MadelineProto\Settings\VoIP`
-* `setVoip(\danog\MadelineProto\Settings\VoIP $voip): self`
+* `getDefaultDcParams()`
+* `setDefaultDc(int $dc)`
+* `getAppInfo()`
+* `setAppInfo(\danog\MadelineProto\Settings\AppInfo $appInfo)`
+* `getAuth()`
+* `setAuth(\danog\MadelineProto\Settings\Auth $auth)`
+* `getConnection()`
+* `setConnection(\danog\MadelineProto\Settings\Connection $connection)`
+* `getFiles()`
+* `setFiles(\danog\MadelineProto\Settings\Files $files)`
+* `getLogger()`
+* `setLogger(\danog\MadelineProto\Settings\Logger $logger)`
+* `getPeer()`
+* `setPeer(\danog\MadelineProto\Settings\Peer $peer)`
+* `getRpc()`
+* `setRpc(\danog\MadelineProto\Settings\RPC $rpc)`
+* `getSecretChats()`
+* `setSecretChats(\danog\MadelineProto\Settings\SecretChats $secretChats)`
+* `getSerialization()`
+* `setSerialization(\danog\MadelineProto\Settings\Serialization $serialization)`
+* `getSchema()`
+* `setSchema(\danog\MadelineProto\Settings\TLSchema $schema)`
+* `getDb()`
+* `setDb(\danog\MadelineProto\Settings\DatabaseAbstract $db)`
+* `getIpc()`
+* `setIpc(\danog\MadelineProto\Settings\Ipc $ipc)`
+* `getTemplates()`
+* `setTemplates(\danog\MadelineProto\Settings\Templates $templates)`
+* `getVoip()`
+* `setVoip(\danog\MadelineProto\Settings\VoIP $voip)`
 
 ## Methods:
-### `merge(\danog\MadelineProto\SettingsAbstract $settings): void`
+### `merge(\danog\MadelineProto\SettingsAbstract $settings)`
 
 Merge another instance of settings.
 
@@ -73,13 +73,13 @@ Get default DC ID.
 
 
 
-### `getDefaultDcParams(): array`
+### `getDefaultDcParams()`
 
 Get default DC params.
 
 
 
-### `setDefaultDc(int $dc): self`
+### `setDefaultDc(int $dc)`
 
 Set default DC ID.
 
@@ -90,18 +90,13 @@ Parameters:
 
 
 
-### `getAppInfo(): \danog\MadelineProto\Settings\AppInfo`
+### `getAppInfo()`
 
 Get app information.
 
 
-#### See also: 
-* [`\danog\MadelineProto\Settings\AppInfo`: App information.](../../danog/MadelineProto/Settings/AppInfo.html)
 
-
-
-
-### `setAppInfo(\danog\MadelineProto\Settings\AppInfo $appInfo): self`
+### `setAppInfo(\danog\MadelineProto\Settings\AppInfo $appInfo)`
 
 Set app information.
 
@@ -117,18 +112,13 @@ Parameters:
 
 
 
-### `getAuth(): \danog\MadelineProto\Settings\Auth`
+### `getAuth()`
 
 Get cryptography settings.
 
 
-#### See also: 
-* [`\danog\MadelineProto\Settings\Auth`: Cryptography settings.](../../danog/MadelineProto/Settings/Auth.html)
 
-
-
-
-### `setAuth(\danog\MadelineProto\Settings\Auth $auth): self`
+### `setAuth(\danog\MadelineProto\Settings\Auth $auth)`
 
 Set cryptography settings.
 
@@ -144,18 +134,13 @@ Parameters:
 
 
 
-### `getConnection(): \danog\MadelineProto\Settings\Connection`
+### `getConnection()`
 
 Get connection settings.
 
 
-#### See also: 
-* [`\danog\MadelineProto\Settings\Connection`: Connection settings.](../../danog/MadelineProto/Settings/Connection.html)
 
-
-
-
-### `setConnection(\danog\MadelineProto\Settings\Connection $connection): self`
+### `setConnection(\danog\MadelineProto\Settings\Connection $connection)`
 
 Set connection settings.
 
@@ -171,18 +156,13 @@ Parameters:
 
 
 
-### `getFiles(): \danog\MadelineProto\Settings\Files`
+### `getFiles()`
 
 Get file management settings.
 
 
-#### See also: 
-* [`\danog\MadelineProto\Settings\Files`: File management settings.](../../danog/MadelineProto/Settings/Files.html)
 
-
-
-
-### `setFiles(\danog\MadelineProto\Settings\Files $files): self`
+### `setFiles(\danog\MadelineProto\Settings\Files $files)`
 
 Set file management settings.
 
@@ -198,18 +178,13 @@ Parameters:
 
 
 
-### `getLogger(): \danog\MadelineProto\Settings\Logger`
+### `getLogger()`
 
 Get logger settings.
 
 
-#### See also: 
-* [`\danog\MadelineProto\Settings\Logger`: Logger settings.](../../danog/MadelineProto/Settings/Logger.html)
 
-
-
-
-### `setLogger(\danog\MadelineProto\Settings\Logger $logger): self`
+### `setLogger(\danog\MadelineProto\Settings\Logger $logger)`
 
 Set logger settings.
 
@@ -225,18 +200,13 @@ Parameters:
 
 
 
-### `getPeer(): \danog\MadelineProto\Settings\Peer`
+### `getPeer()`
 
 Get peer database settings.
 
 
-#### See also: 
-* [`\danog\MadelineProto\Settings\Peer`: Peer database settings.](../../danog/MadelineProto/Settings/Peer.html)
 
-
-
-
-### `setPeer(\danog\MadelineProto\Settings\Peer $peer): self`
+### `setPeer(\danog\MadelineProto\Settings\Peer $peer)`
 
 Set peer database settings.
 
@@ -252,18 +222,13 @@ Parameters:
 
 
 
-### `getRpc(): \danog\MadelineProto\Settings\RPC`
+### `getRpc()`
 
 Get RPC settings.
 
 
-#### See also: 
-* [`\danog\MadelineProto\Settings\RPC`: RPC settings.](../../danog/MadelineProto/Settings/RPC.html)
 
-
-
-
-### `setRpc(\danog\MadelineProto\Settings\RPC $rpc): self`
+### `setRpc(\danog\MadelineProto\Settings\RPC $rpc)`
 
 Set RPC settings.
 
@@ -279,18 +244,13 @@ Parameters:
 
 
 
-### `getSecretChats(): \danog\MadelineProto\Settings\SecretChats`
+### `getSecretChats()`
 
 Get secret chat settings.
 
 
-#### See also: 
-* [`\danog\MadelineProto\Settings\SecretChats`: Secret chat settings.](../../danog/MadelineProto/Settings/SecretChats.html)
 
-
-
-
-### `setSecretChats(\danog\MadelineProto\Settings\SecretChats $secretChats): self`
+### `setSecretChats(\danog\MadelineProto\Settings\SecretChats $secretChats)`
 
 Set secret chat settings.
 
@@ -306,18 +266,13 @@ Parameters:
 
 
 
-### `getSerialization(): \danog\MadelineProto\Settings\Serialization`
+### `getSerialization()`
 
 Get serialization settings.
 
 
-#### See also: 
-* [`\danog\MadelineProto\Settings\Serialization`: Serialization settings.](../../danog/MadelineProto/Settings/Serialization.html)
 
-
-
-
-### `setSerialization(\danog\MadelineProto\Settings\Serialization $serialization): self`
+### `setSerialization(\danog\MadelineProto\Settings\Serialization $serialization)`
 
 Set serialization settings.
 
@@ -333,18 +288,13 @@ Parameters:
 
 
 
-### `getSchema(): \danog\MadelineProto\Settings\TLSchema`
+### `getSchema()`
 
 Get TL schema settings.
 
 
-#### See also: 
-* [`\danog\MadelineProto\Settings\TLSchema`: TL schema settings.](../../danog/MadelineProto/Settings/TLSchema.html)
 
-
-
-
-### `setSchema(\danog\MadelineProto\Settings\TLSchema $schema): self`
+### `setSchema(\danog\MadelineProto\Settings\TLSchema $schema)`
 
 Set TL schema settings.
 
@@ -360,18 +310,13 @@ Parameters:
 
 
 
-### `getDb(): \danog\MadelineProto\Settings\DatabaseAbstract`
+### `getDb()`
 
 Get database settings.
 
 
-#### See also: 
-* [`\danog\MadelineProto\Settings\DatabaseAbstract`: Base class for storage backends.](../../danog/MadelineProto/Settings/DatabaseAbstract.html)
 
-
-
-
-### `setDb(\danog\MadelineProto\Settings\DatabaseAbstract $db): self`
+### `setDb(\danog\MadelineProto\Settings\DatabaseAbstract $db)`
 
 Set database settings.
 
@@ -387,18 +332,13 @@ Parameters:
 
 
 
-### `getIpc(): \danog\MadelineProto\Settings\Ipc`
+### `getIpc()`
 
 Get IPC server settings.
 
 
-#### See also: 
-* [`\danog\MadelineProto\Settings\Ipc`: IPC server settings.](../../danog/MadelineProto/Settings/Ipc.html)
 
-
-
-
-### `setIpc(\danog\MadelineProto\Settings\Ipc $ipc): self`
+### `setIpc(\danog\MadelineProto\Settings\Ipc $ipc)`
 
 Set IPC server settings.
 
@@ -414,18 +354,13 @@ Parameters:
 
 
 
-### `getTemplates(): \danog\MadelineProto\Settings\Templates`
+### `getTemplates()`
 
 Get template settings.
 
 
-#### See also: 
-* [`\danog\MadelineProto\Settings\Templates`: Web and CLI template settings for login.](../../danog/MadelineProto/Settings/Templates.html)
 
-
-
-
-### `setTemplates(\danog\MadelineProto\Settings\Templates $templates): self`
+### `setTemplates(\danog\MadelineProto\Settings\Templates $templates)`
 
 Set template settings.
 
@@ -441,18 +376,13 @@ Parameters:
 
 
 
-### `getVoip(): \danog\MadelineProto\Settings\VoIP`
+### `getVoip()`
 
 Get voIP settings.
 
 
-#### See also: 
-* [`\danog\MadelineProto\Settings\VoIP`: VoIP settings.](../../danog/MadelineProto/Settings/VoIP.html)
 
-
-
-
-### `setVoip(\danog\MadelineProto\Settings\VoIP $voip): self`
+### `setVoip(\danog\MadelineProto\Settings\VoIP $voip)`
 
 Set voIP settings.
 

@@ -22,6 +22,7 @@ Indicate to the server (from the user side) that the user is still using a web a
 |bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Bot that owns the [web app](https://core.telegram.org/api/bots/webapps) | Optional|
 |query\_id|[long](/API_docs/types/long.html) | Web app interaction ID obtained from [messages.requestWebView](../methods/messages.requestWebView.html) | Yes|
 |reply\_to\_msg\_id|[int](/API_docs/types/int.html) | Whether the inline message that will be sent by the bot on behalf of the user once the web app interaction is [terminated](../methods/messages.sendWebViewResultMessage.html) should be sent in reply to this message ID. | Optional|
+|top\_msg\_id|[int](/API_docs/types/int.html) |  | Optional|
 |send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Open the web app as the specified peer | Optional|
 
 
@@ -43,6 +44,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Bool = $MadelineProto->messages->prolongWebView(silent: Bool, peer: InputPeer, bot: InputUser, query_id: long, reply_to_msg_id: int, send_as: InputPeer, );
+$Bool = $MadelineProto->messages->prolongWebView(silent: Bool, peer: InputPeer, bot: InputUser, query_id: long, reply_to_msg_id: int, top_msg_id: int, send_as: InputPeer, );
 ```
 

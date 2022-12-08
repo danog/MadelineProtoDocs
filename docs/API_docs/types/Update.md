@@ -225,6 +225,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateMessageExtendedMedia](/API_docs/constructors/updateMessageExtendedMedia.html)  
 
+[updateChannelPinnedTopic](/API_docs/constructors/updateChannelPinnedTopic.html)  
+
+[updateChannelPinnedTopics](/API_docs/constructors/updateChannelPinnedTopics.html)  
+
 
 
 ### Methods that return an object of this type (methods):

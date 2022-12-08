@@ -28,6 +28,7 @@ Chat
 |pts|[int](/API_docs/types/int.html) | Optional|[PTS](https://core.telegram.org/api/updates)|
 |draft|[DraftMessage](/API_docs/types/DraftMessage.html) | Optional|Message draft|
 |folder\_id|[int](/API_docs/types/int.html) | Optional|[Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders)|
+|ttl\_period|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -37,5 +38,5 @@ Chat
 ### Example:
 
 ```
-$dialog = ['_' => 'dialog', 'pinned' => Bool, 'unread_mark' => Bool, 'peer' => Peer, 'top_message' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'unread_count' => int, 'unread_mentions_count' => int, 'unread_reactions_count' => int, 'notify_settings' => PeerNotifySettings, 'pts' => int, 'draft' => DraftMessage, 'folder_id' => int];
+$dialog = ['_' => 'dialog', 'pinned' => Bool, 'unread_mark' => Bool, 'peer' => Peer, 'top_message' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'unread_count' => int, 'unread_mentions_count' => int, 'unread_reactions_count' => int, 'notify_settings' => PeerNotifySettings, 'pts' => int, 'draft' => DraftMessage, 'folder_id' => int, 'ttl_period' => int];
 ```  

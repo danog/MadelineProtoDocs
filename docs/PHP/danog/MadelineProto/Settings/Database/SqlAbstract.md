@@ -17,40 +17,40 @@ Generic db backend settings.
 
 
 ## Method list:
-* `getMaxConnections(): int`
-* `setMaxConnections(int $maxConnections): self`
-* `getIdleTimeout(): int`
-* `setIdleTimeout(int $idleTimeout): self`
-* `getDatabase(): string`
-* `setDatabase(string $database): self`
-* `getUsername(): string`
-* `setUsername(string $username): self`
-* `getUri(): string`
-* `setUri(string $uri): self`
-* `getKey(): string`
-* `getCacheTtl(): int`
-* `setCacheTtl(int|string $cacheTtl): self`
-* `getPassword(): string`
-* `setPassword(string $password): self`
-* `getEnableFileReferenceDb(): bool`
-* `setEnableFileReferenceDb(bool $enableFileReferenceDb): self`
-* `getEnableMinDb(): bool`
-* `setEnableMinDb(bool $enableMinDb): self`
-* `getEnableUsernameDb(): bool`
-* `setEnableUsernameDb(bool $enableUsernameDb): self`
-* `getEnableFullPeerDb(): bool`
-* `setEnableFullPeerDb(bool $enableFullPeerDb): self`
-* `getEnablePeerInfoDb(): bool`
-* `setEnablePeerInfoDb(bool $enablePeerInfoDb): self`
+* `getMaxConnections()`
+* `setMaxConnections(int $maxConnections)`
+* `getIdleTimeout()`
+* `setIdleTimeout(int $idleTimeout)`
+* `getDatabase()`
+* `setDatabase(string $database)`
+* `getUsername()`
+* `setUsername(string $username)`
+* `getUri()`
+* `setUri(string $uri)`
+* `getKey()`
+* `getCacheTtl()`
+* `setCacheTtl(int|string $cacheTtl)`
+* `getPassword()`
+* `setPassword(string $password)`
+* `getEnableFileReferenceDb()`
+* `setEnableFileReferenceDb(bool $enableFileReferenceDb)`
+* `getEnableMinDb()`
+* `setEnableMinDb(bool $enableMinDb)`
+* `getEnableUsernameDb()`
+* `setEnableUsernameDb(bool $enableUsernameDb)`
+* `getEnableFullPeerDb()`
+* `setEnableFullPeerDb(bool $enableFullPeerDb)`
+* `getEnablePeerInfoDb()`
+* `setEnablePeerInfoDb(bool $enablePeerInfoDb)`
 
 ## Methods:
-### `getMaxConnections(): int`
+### `getMaxConnections()`
 
 Get maximum connection limit.
 
 
 
-### `setMaxConnections(int $maxConnections): self`
+### `setMaxConnections(int $maxConnections)`
 
 Set maximum connection limit.
 
@@ -61,13 +61,13 @@ Parameters:
 
 
 
-### `getIdleTimeout(): int`
+### `getIdleTimeout()`
 
 Get idle timeout.
 
 
 
-### `setIdleTimeout(int $idleTimeout): self`
+### `setIdleTimeout(int $idleTimeout)`
 
 Set idle timeout.
 
@@ -78,13 +78,13 @@ Parameters:
 
 
 
-### `getDatabase(): string`
+### `getDatabase()`
 
 Get database name.
 
 
 
-### `setDatabase(string $database): self`
+### `setDatabase(string $database)`
 
 Set database name.
 
@@ -95,13 +95,13 @@ Parameters:
 
 
 
-### `getUsername(): string`
+### `getUsername()`
 
 Get username.
 
 
 
-### `setUsername(string $username): self`
+### `setUsername(string $username)`
 
 Set username.
 
@@ -112,13 +112,13 @@ Parameters:
 
 
 
-### `getUri(): string`
+### `getUri()`
 
 Get database URI.
 
 
 
-### `setUri(string $uri): self`
+### `setUri(string $uri)`
 
 Set database URI.
 
@@ -129,19 +129,19 @@ Parameters:
 
 
 
-### `getKey(): string`
+### `getKey()`
 
 Get DB key.
 
 
 
-### `getCacheTtl(): int`
+### `getCacheTtl()`
 
 Get for how long to keep records in memory after last read, for cached backends.
 
 
 
-### `setCacheTtl(int|string $cacheTtl): self`
+### `setCacheTtl(int|string $cacheTtl)`
 
 Set for how long to keep records in memory after last read, for cached backends.
 The cache TTL identifier can be a string like '+5 minutes'.
@@ -156,13 +156,13 @@ Parameters:
 
 
 
-### `getPassword(): string`
+### `getPassword()`
 
 Get password.
 
 
 
-### `setPassword(string $password): self`
+### `setPassword(string $password)`
 
 Set password.
 
@@ -173,13 +173,13 @@ Parameters:
 
 
 
-### `getEnableFileReferenceDb(): bool`
+### `getEnableFileReferenceDb()`
 
 Get whether to enable the file reference database. If disabled, will break file downloads.
 
 
 
-### `setEnableFileReferenceDb(bool $enableFileReferenceDb): self`
+### `setEnableFileReferenceDb(bool $enableFileReferenceDb)`
 
 Set whether to enable the file reference database. If disabled, will break file downloads.
 
@@ -190,13 +190,13 @@ Parameters:
 
 
 
-### `getEnableMinDb(): bool`
+### `getEnableMinDb()`
 
 Get whether to enable the min database. If disabled, will break sendMessage (and other methods) in certain conditions.
 
 
 
-### `setEnableMinDb(bool $enableMinDb): self`
+### `setEnableMinDb(bool $enableMinDb)`
 
 Set whether to enable the min database. If disabled, will break sendMessage (and other methods) in certain conditions.
 
@@ -207,13 +207,13 @@ Parameters:
 
 
 
-### `getEnableUsernameDb(): bool`
+### `getEnableUsernameDb()`
 
 Get whether to enable the username database. If disabled, will break sendMessage (and other methods) with usernames.
 
 
 
-### `setEnableUsernameDb(bool $enableUsernameDb): self`
+### `setEnableUsernameDb(bool $enableUsernameDb)`
 
 Set whether to enable the username database. If disabled, will break sendMessage (and other methods) with usernames.
 
@@ -224,13 +224,13 @@ Parameters:
 
 
 
-### `getEnableFullPeerDb(): bool`
+### `getEnableFullPeerDb()`
 
 Get whether to enable the full peer info database. If disabled, will break getFullInfo.
 
 
 
-### `setEnableFullPeerDb(bool $enableFullPeerDb): self`
+### `setEnableFullPeerDb(bool $enableFullPeerDb)`
 
 Set whether to enable the full peer info database. If disabled, will break getFullInfo.
 
@@ -241,13 +241,13 @@ Parameters:
 
 
 
-### `getEnablePeerInfoDb(): bool`
+### `getEnablePeerInfoDb()`
 
 Get whether to enable the peer info database. If disabled, will break getInfo.
 
 
 
-### `setEnablePeerInfoDb(bool $enablePeerInfoDb): self`
+### `setEnablePeerInfoDb(bool $enablePeerInfoDb)`
 
 Set whether to enable the peer info database. If disabled, will break getInfo.
 

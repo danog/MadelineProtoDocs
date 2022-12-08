@@ -17,23 +17,23 @@ RPC settings.
 
 
 ## Method list:
-* `getRpcTimeout(): int`
-* `setRpcTimeout(int $rpcTimeout): self`
-* `getFloodTimeout(): int`
-* `setFloodTimeout(int $floodTimeout): self`
-* `getLimitCallQueue(): int`
-* `setLimitCallQueue(int $limitCallQueue): self`
-* `getGzipEncodeIfGt(): int`
-* `setGzipEncodeIfGt(int $gzipEncodeIfGt): self`
+* `getRpcTimeout()`
+* `setRpcTimeout(int $rpcTimeout)`
+* `getFloodTimeout()`
+* `setFloodTimeout(int $floodTimeout)`
+* `getLimitCallQueue()`
+* `setLimitCallQueue(int $limitCallQueue)`
+* `getGzipEncodeIfGt()`
+* `setGzipEncodeIfGt(int $gzipEncodeIfGt)`
 
 ## Methods:
-### `getRpcTimeout(): int`
+### `getRpcTimeout()`
 
 Get RPC timeout.
 
 
 
-### `setRpcTimeout(int $rpcTimeout): self`
+### `setRpcTimeout(int $rpcTimeout)`
 
 Set RPC timeout.
 
@@ -44,13 +44,13 @@ Parameters:
 
 
 
-### `getFloodTimeout(): int`
+### `getFloodTimeout()`
 
 Get flood timeout: if FLOOD_WAIT_ time is bigger than this, throw exception instead of waiting asynchronously.
 
 
 
-### `setFloodTimeout(int $floodTimeout): self`
+### `setFloodTimeout(int $floodTimeout)`
 
 Set flood timeout: if FLOOD_WAIT_ time is bigger than this, throw exception instead of waiting asynchronously.
 
@@ -61,13 +61,13 @@ Parameters:
 
 
 
-### `getLimitCallQueue(): int`
+### `getLimitCallQueue()`
 
 Get maximum number of messages to consider when using call queues.
 
 
 
-### `setLimitCallQueue(int $limitCallQueue): self`
+### `setLimitCallQueue(int $limitCallQueue)`
 
 Set maximum number of messages to consider when using call queues.
 
@@ -78,13 +78,13 @@ Parameters:
 
 
 
-### `getGzipEncodeIfGt(): int`
+### `getGzipEncodeIfGt()`
 
 Get encode payload with GZIP if bigger than.
 
 
 
-### `setGzipEncodeIfGt(int $gzipEncodeIfGt): self`
+### `setGzipEncodeIfGt(int $gzipEncodeIfGt)`
 
 Set encode payload with GZIP if bigger than.
 

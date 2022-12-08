@@ -22,59 +22,59 @@ Some tools.
 
 ## Method list:
 * `genVectorHash(array $ints): \string Vector hash`
-* `randomInt(int $modulus): int`
+* `randomInt(int $modulus)`
 * `random(int $length): \string Random string`
 * `posmod(int $a, int $b): \int Modulo`
 * `unpackSignedInt(string $value): int`
 * `unpackSignedLong(string $value): int`
-* `unpackSignedLongString(string|int|array $value): string`
-* `packSignedInt(int $value): string`
-* `packSignedLong(int $value): string`
-* `packUnsignedInt(int $value): string`
-* `packDouble(float $value): string`
-* `unpackDouble(string $value): float`
-* `wait(\Generator|\Amp\Promise $promise, bool $ignoreSignal): mixed`
-* `all((\Generator|\Amp\Promise)[] $promises): \Amp\Promise`
-* `any((\Amp\Promise|\Generator)[] $promises): \Amp\Promise`
-* `some((\Amp\Promise|\Generator)[] $promises): \Amp\Promise`
-* `first((\Amp\Promise|\Generator)[] $promises): \Amp\Promise`
-* `timeout(\Generator|\Amp\Promise $promise, int $timeout): \Amp\Promise`
-* `timeoutWithDefault(\Amp\Promise|\Generator $promise, int $timeout, mixed $default): \Amp\Promise<\TReturn>|\Amp\Promise<\TReturnAlt>`
-* `call(\Generator|\Amp\Promise|mixed $promise): \Amp\Promise`
+* `unpackSignedLongString(string|int|array $value)`
+* `packSignedInt(int $value)`
+* `packSignedLong(int $value)`
+* `packUnsignedInt(int $value)`
+* `packDouble(float $value)`
+* `unpackDouble(string $value)`
+* `wait(\Generator|\Amp\Promise $promise, bool $ignoreSignal)`
+* `all((\Generator|\Amp\Promise)[] $promises)`
+* `any((\Amp\Promise|\Generator)[] $promises)`
+* `some((\Amp\Promise|\Generator)[] $promises)`
+* `first((\Amp\Promise|\Generator)[] $promises)`
+* `timeout(\Generator|\Amp\Promise $promise, int $timeout)`
+* `timeoutWithDefault(\Amp\Promise|\Generator $promise, int $timeout): \Amp\Promise<\TReturn>|\Amp\Promise<\TReturnAlt>`
+* `call(\Generator|\Amp\Promise|mixed $promise)`
 * `callFork(\Generator|\Amp\Promise $promise, ?\Generator|\Amp\Promise $actual, string $file): \Amp\Promise|mixed`
-* `callForkDefer(\Generator|\Amp\Promise $promise): void`
-* `rethrow(\Throwable $e, string $file): void`
-* `after(\Generator|\Amp\Promise $a, \Generator|\Amp\Promise $b): \Amp\Promise`
+* `callForkDefer(\Generator|\Amp\Promise $promise)`
+* `rethrow(\Throwable $e, string $file)`
+* `after(\Generator|\Amp\Promise $a, \Generator|\Amp\Promise $b)`
 * `flock(string $file, int $operation, float $polling, ?\Amp\Promise $token, ?callable $failureCb)`
-* `sleep(int|float $time): \Amp\Promise`
+* `sleep(int|float $time)`
 * `readLine(string $prompt): \Amp\Promise<string>`
-* `echo(string $string): \Amp\Promise`
+* `echo(string $string)`
 * `isArrayOrAlike(mixed $var): bool`
-* `arr(mixed $params): array`
-* `base64urlDecode(string $data): string`
-* `base64urlEncode(string $data): string`
-* `rleDecode(string $string): string`
-* `rleEncode(string $string): string`
+* `arr(mixed $params)`
+* `base64urlDecode(string $data)`
+* `base64urlEncode(string $data)`
+* `rleDecode(string $string)`
+* `rleEncode(string $string)`
 * `inflateStripped(string $stripped): \string JPG payload`
 * `closeConnection(string $message): void`
-* `end(array $what): mixed`
+* `end(array $what)`
 * `isAltervista(): bool`
-* `hasVar(object $obj, string $var): bool`
-* `getVar(object $obj, string $var): mixed`
-* `setVar(object $obj, string $var, mixed $val): void`
+* `hasVar(object $obj, string $var)`
+* `getVar(object $obj, string $var)`
+* `setVar(object $obj, string $var, mixed $val)`
 * `mbStrlen(string $text): float|int`
-* `mbSubstr(string $text, int $offset, ?int $length): string`
+* `mbSubstr(string $text, int $offset, ?int $length)`
 * `mbStrSplit(string $text, int $length): string[]`
-* `toCamelCase(string $input): string`
-* `toSnakeCase(string $input): string`
-* `markdownEscape(string $hwat): string`
-* `typeEscape(string $type): string`
-* `methodEscape(string $method): string`
-* `getMimeFromExtension(string $extension, string $default): string`
-* `getExtensionFromMime(string $mime): string`
-* `getExtensionFromLocation(mixed $location, string $default): string`
-* `getMimeFromFile(string $file): string`
-* `getMimeFromBuffer(string $buffer): string`
+* `toCamelCase(string $input)`
+* `toSnakeCase(string $input)`
+* `markdownEscape(string $hwat)`
+* `typeEscape(string $type)`
+* `methodEscape(string $method)`
+* `getMimeFromExtension(string $extension, string $default)`
+* `getExtensionFromMime(string $mime)`
+* `getExtensionFromLocation(mixed $location, string $default)`
+* `getMimeFromFile(string $file)`
+* `getMimeFromBuffer(string $buffer)`
 
 ## Methods:
 ### `genVectorHash(array $ints): \string Vector hash`
@@ -90,7 +90,7 @@ Parameters:
 Return value: Vector hash
 
 
-### `randomInt(int $modulus): int`
+### `randomInt(int $modulus)`
 
 Get random integer.
 
@@ -151,7 +151,7 @@ Parameters:
 
 
 
-### `unpackSignedLongString(string|int|array $value): string`
+### `unpackSignedLongString(string|int|array $value)`
 
 Unpack base256 signed long to string.
 
@@ -162,7 +162,7 @@ Parameters:
 
 
 
-### `packSignedInt(int $value): string`
+### `packSignedInt(int $value)`
 
 Convert integer to base256 signed int.
 
@@ -173,7 +173,7 @@ Parameters:
 
 
 
-### `packSignedLong(int $value): string`
+### `packSignedLong(int $value)`
 
 Convert integer to base256 long.
 
@@ -184,7 +184,7 @@ Parameters:
 
 
 
-### `packUnsignedInt(int $value): string`
+### `packUnsignedInt(int $value)`
 
 Convert value to unsigned base256 int.
 
@@ -195,7 +195,7 @@ Parameters:
 
 
 
-### `packDouble(float $value): string`
+### `packDouble(float $value)`
 
 Convert double to binary version.
 
@@ -206,7 +206,7 @@ Parameters:
 
 
 
-### `unpackDouble(string $value): float`
+### `unpackDouble(string $value)`
 
 Unpack binary double.
 
@@ -217,7 +217,7 @@ Parameters:
 
 
 
-### `wait(\Generator|\Amp\Promise $promise, bool $ignoreSignal): mixed`
+### `wait(\Generator|\Amp\Promise $promise, bool $ignoreSignal)`
 
 Synchronously wait for a promise|generator.
 
@@ -235,7 +235,7 @@ Parameters:
 
 
 
-### `all((\Generator|\Amp\Promise)[] $promises): \Amp\Promise`
+### `all((\Generator|\Amp\Promise)[] $promises)`
 
 Returns a promise that succeeds when all promises succeed, and fails if any promise fails.
 Returned promise succeeds with an array of values used to succeed each contained promise, with keys corresponding to the array of promises.
@@ -252,7 +252,7 @@ Parameters:
 
 
 
-### `any((\Amp\Promise|\Generator)[] $promises): \Amp\Promise`
+### `any((\Amp\Promise|\Generator)[] $promises)`
 
 Returns a promise that is resolved when all promises are resolved. The returned promise will not fail.
 
@@ -269,7 +269,7 @@ Parameters:
 
 
 
-### `some((\Amp\Promise|\Generator)[] $promises): \Amp\Promise`
+### `some((\Amp\Promise|\Generator)[] $promises)`
 
 Resolves with a two-item array delineating successful and failed Promise results.
 The returned promise will only fail if the given number of required promises fail.
@@ -286,7 +286,7 @@ Parameters:
 
 
 
-### `first((\Amp\Promise|\Generator)[] $promises): \Amp\Promise`
+### `first((\Amp\Promise|\Generator)[] $promises)`
 
 Returns a promise that succeeds when the first promise succeeds, and fails only if all promises fail.
 
@@ -303,7 +303,7 @@ Parameters:
 
 
 
-### `timeout(\Generator|\Amp\Promise $promise, int $timeout): \Amp\Promise`
+### `timeout(\Generator|\Amp\Promise $promise, int $timeout)`
 
 Create an artificial timeout for any \Generator or Promise.
 
@@ -321,7 +321,7 @@ Parameters:
 
 
 
-### `timeoutWithDefault(\Amp\Promise|\Generator $promise, int $timeout, mixed $default): \Amp\Promise<\TReturn>|\Amp\Promise<\TReturnAlt>`
+### `timeoutWithDefault(\Amp\Promise|\Generator $promise, int $timeout): \Amp\Promise<\TReturn>|\Amp\Promise<\TReturnAlt>`
 
 Creates an artificial timeout for any `Promise`.
 If the promise is resolved before the timeout expires, the result is returned
@@ -336,11 +336,6 @@ Parameters:
   \Amp\Promise<\TReturn>|\TGenerator
   ```
 * `$timeout`: `int` Timeout in milliseconds.  
-* `$default`: `mixed`   
-  Full type:
-  ```
-  \TReturnAlt
-  ```
 
 
 #### See also: 
@@ -353,7 +348,7 @@ Parameters:
 
 
 
-### `call(\Generator|\Amp\Promise|mixed $promise): \Amp\Promise`
+### `call(\Generator|\Amp\Promise|mixed $promise)`
 
 Convert generator, promise or any other value to a promise.
 
@@ -398,7 +393,7 @@ Parameters:
 
 
 
-### `callForkDefer(\Generator|\Amp\Promise $promise): void`
+### `callForkDefer(\Generator|\Amp\Promise $promise)`
 
 Call promise in background, deferring execution.
 
@@ -415,7 +410,7 @@ Parameters:
 
 
 
-### `rethrow(\Throwable $e, string $file): void`
+### `rethrow(\Throwable $e, string $file)`
 
 Rethrow error catched in strand.
 
@@ -432,7 +427,7 @@ Parameters:
 
 
 
-### `after(\Generator|\Amp\Promise $a, \Generator|\Amp\Promise $b): \Amp\Promise`
+### `after(\Generator|\Amp\Promise $a, \Generator|\Amp\Promise $b)`
 
 Call promise $b after promise $a.
 
@@ -471,7 +466,7 @@ Parameters:
 
 
 
-### `sleep(int|float $time): \Amp\Promise`
+### `sleep(int|float $time)`
 
 Asynchronously sleep.
 
@@ -479,11 +474,6 @@ Asynchronously sleep.
 Parameters:
 
 * `$time`: `int|float` Number of seconds to sleep for  
-
-
-#### See also: 
-* `\Amp\Promise`
-
 
 
 
@@ -503,7 +493,7 @@ Parameters:
 
 
 
-### `echo(string $string): \Amp\Promise`
+### `echo(string $string)`
 
 Asynchronously write to stdout/browser.
 
@@ -511,11 +501,6 @@ Asynchronously write to stdout/browser.
 Parameters:
 
 * `$string`: `string` Message to echo  
-
-
-#### See also: 
-* `\Amp\Promise`
-
 
 
 
@@ -530,7 +515,7 @@ Parameters:
 
 
 
-### `arr(mixed $params): array`
+### `arr(mixed $params)`
 
 Create array.
 
@@ -541,7 +526,7 @@ Parameters:
 
 
 
-### `base64urlDecode(string $data): string`
+### `base64urlDecode(string $data)`
 
 base64URL decode.
 
@@ -552,7 +537,7 @@ Parameters:
 
 
 
-### `base64urlEncode(string $data): string`
+### `base64urlEncode(string $data)`
 
 Base64URL encode.
 
@@ -563,7 +548,7 @@ Parameters:
 
 
 
-### `rleDecode(string $string): string`
+### `rleDecode(string $string)`
 
 null-byte RLE decode.
 
@@ -574,7 +559,7 @@ Parameters:
 
 
 
-### `rleEncode(string $string): string`
+### `rleEncode(string $string)`
 
 null-byte RLE encode.
 
@@ -609,7 +594,7 @@ Parameters:
 
 
 
-### `end(array $what): mixed`
+### `end(array $what)`
 
 Get final element of array.
 
@@ -626,7 +611,7 @@ Whether this is altervista.
 
 
 
-### `hasVar(object $obj, string $var): bool`
+### `hasVar(object $obj, string $var)`
 
 Checks private property exists in an object.
 
@@ -638,7 +623,7 @@ Parameters:
 
 
 
-### `getVar(object $obj, string $var): mixed`
+### `getVar(object $obj, string $var)`
 
 Accesses a private variable from an object.
 
@@ -650,7 +635,7 @@ Parameters:
 
 
 
-### `setVar(object $obj, string $var, mixed $val): void`
+### `setVar(object $obj, string $var, mixed $val)`
 
 Sets a private variable in an object.
 
@@ -674,7 +659,7 @@ Parameters:
 
 
 
-### `mbSubstr(string $text, int $offset, ?int $length): string`
+### `mbSubstr(string $text, int $offset, ?int $length)`
 
 Telegram UTF-8 multibyte substring.
 
@@ -699,7 +684,7 @@ Parameters:
 
 
 
-### `toCamelCase(string $input): string`
+### `toCamelCase(string $input)`
 
 Convert to camelCase.
 
@@ -710,7 +695,7 @@ Parameters:
 
 
 
-### `toSnakeCase(string $input): string`
+### `toSnakeCase(string $input)`
 
 Convert to snake_case.
 
@@ -721,7 +706,7 @@ Parameters:
 
 
 
-### `markdownEscape(string $hwat): string`
+### `markdownEscape(string $hwat)`
 
 Escape string for markdown.
 
@@ -732,7 +717,7 @@ Parameters:
 
 
 
-### `typeEscape(string $type): string`
+### `typeEscape(string $type)`
 
 Escape type name.
 
@@ -743,7 +728,7 @@ Parameters:
 
 
 
-### `methodEscape(string $method): string`
+### `methodEscape(string $method)`
 
 Escape method name.
 
@@ -754,7 +739,7 @@ Parameters:
 
 
 
-### `getMimeFromExtension(string $extension, string $default): string`
+### `getMimeFromExtension(string $extension, string $default)`
 
 Get mime type from file extension.
 
@@ -766,7 +751,7 @@ Parameters:
 
 
 
-### `getExtensionFromMime(string $mime): string`
+### `getExtensionFromMime(string $mime)`
 
 Get extension from mime type.
 
@@ -777,7 +762,7 @@ Parameters:
 
 
 
-### `getExtensionFromLocation(mixed $location, string $default): string`
+### `getExtensionFromLocation(mixed $location, string $default)`
 
 Get extension from file location.
 
@@ -789,7 +774,7 @@ Parameters:
 
 
 
-### `getMimeFromFile(string $file): string`
+### `getMimeFromFile(string $file)`
 
 Get mime type of file.
 
@@ -800,7 +785,7 @@ Parameters:
 
 
 
-### `getMimeFromBuffer(string $buffer): string`
+### `getMimeFromBuffer(string $buffer)`
 
 Get mime type from buffer.
 

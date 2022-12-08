@@ -24,6 +24,7 @@ Send an [album or grouped media](https://core.telegram.org/api/files#albums-grou
 |update\_stickersets\_order|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The destination chat | Optional|
 |reply\_to\_msg\_id|[int](/API_docs/types/int.html) | The message to reply to | Optional|
+|top\_msg\_id|[int](/API_docs/types/int.html) |  | Optional|
 |multi\_media|Array of [InputSingleMedia](/API_docs/types/InputSingleMedia.html) | The medias to send | Yes|
 |schedule\_date|[int](/API_docs/types/int.html) | Scheduled message date for scheduled messages | Optional|
 |send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Send this message as the specified peer | Optional|
@@ -47,6 +48,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Updates = $MadelineProto->messages->sendMultiMedia(silent: Bool, background: Bool, clear_draft: Bool, noforwards: Bool, update_stickersets_order: Bool, peer: InputPeer, reply_to_msg_id: int, multi_media: [InputSingleMedia, InputSingleMedia], schedule_date: int, send_as: InputPeer, );
+$Updates = $MadelineProto->messages->sendMultiMedia(silent: Bool, background: Bool, clear_draft: Bool, noforwards: Bool, update_stickersets_order: Bool, peer: InputPeer, reply_to_msg_id: int, top_msg_id: int, multi_media: [InputSingleMedia, InputSingleMedia], schedule_date: int, send_as: InputPeer, );
 ```
 

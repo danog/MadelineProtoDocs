@@ -17,15 +17,15 @@ Obtain response information for file to server.
 
 
 ## Method list:
-* `parseHeaders(string $method, array $headers, array $messageMedia): self`
-* `getCodeExplanation(): string`
+* `parseHeaders(string $method, array $headers, array $messageMedia)`
+* `getCodeExplanation()`
 * `shouldServe(): \bool Whether to serve file`
 * `getServeRange(): \array HTTP serving range`
 * `getCode(): \int HTTP response code`
 * `getHeaders(): \array Header array`
 
 ## Methods:
-### `parseHeaders(string $method, array $headers, array $messageMedia): self`
+### `parseHeaders(string $method, array $headers, array $messageMedia)`
 
 Parse headers.
 
@@ -38,7 +38,7 @@ Parameters:
 
 
 
-### `getCodeExplanation(): string`
+### `getCodeExplanation()`
 
 Get explanation for HTTP code.
 

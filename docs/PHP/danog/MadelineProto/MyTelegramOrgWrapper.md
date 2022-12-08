@@ -17,17 +17,17 @@ Wrapper for my.telegram.org.
 
 
 ## Method list:
-* `login(string $number): \Generator`
-* `completeLogin(string $password): \Generator`
+* `login(string $number)`
+* `completeLogin(string $password)`
 * `loggedIn(): bool`
-* `hasApp(): \Generator`
-* `getApp(): \Generator`
-* `createApp(array $settings): \Generator`
-* `async(bool $async): void`
-* `loop(callable $callable): mixed`
+* `hasApp()`
+* `getApp()`
+* `createApp(array $settings)`
+* `async(bool $async)`
+* `loop(callable $callable)`
 
 ## Methods:
-### `login(string $number): \Generator`
+### `login(string $number)`
 
 Login.
 
@@ -37,13 +37,8 @@ Parameters:
 * `$number`: `string` Phone number  
 
 
-#### See also: 
-* `\Generator`
 
-
-
-
-### `completeLogin(string $password): \Generator`
+### `completeLogin(string $password)`
 
 Complete login.
 
@@ -53,11 +48,6 @@ Parameters:
 * `$password`: `string` Password  
 
 
-#### See also: 
-* `\Generator`
-
-
-
 
 ### `loggedIn(): bool`
 
@@ -65,29 +55,19 @@ Whether we are logged in.
 
 
 
-### `hasApp(): \Generator`
+### `hasApp()`
 
 Check if an app was already created.
 
 
-#### See also: 
-* `\Generator`
 
-
-
-
-### `getApp(): \Generator`
+### `getApp()`
 
 Get the currently created app.
 
 
-#### See also: 
-* `\Generator`
 
-
-
-
-### `createApp(array $settings): \Generator`
+### `createApp(array $settings)`
 
 Create an app.
 
@@ -97,13 +77,8 @@ Parameters:
 * `$settings`: `array` App parameters  
 
 
-#### See also: 
-* `\Generator`
 
-
-
-
-### `async(bool $async): void`
+### `async(bool $async)`
 
 Enable or disable async.
 
@@ -114,7 +89,7 @@ Parameters:
 
 
 
-### `loop(callable $callable): mixed`
+### `loop(callable $callable)`
 
 Run specified callable synchronously.
 

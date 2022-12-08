@@ -18,6 +18,7 @@ Currently used only for [custom emoji stickersets](https://core.telegram.org/api
 |----------|---------------|----------|-------------|
 |set|[StickerSet](/API_docs/types/StickerSet.html) | Yes|Stickerset|
 |packs|Array of [StickerPack](/API_docs/types/StickerPack.html) | Yes|Emoji information about every sticker in the stickerset|
+|keywords|Array of [StickerKeyword](/API_docs/types/StickerKeyword.html) | Yes|
 |documents|Array of [Document](/API_docs/types/Document.html) | Yes|Stickers|
 
 
@@ -28,5 +29,5 @@ Currently used only for [custom emoji stickersets](https://core.telegram.org/api
 ### Example:
 
 ```
-$stickerSetFullCovered = ['_' => 'stickerSetFullCovered', 'set' => StickerSet, 'packs' => [StickerPack, StickerPack], 'documents' => [Document, Document]];
+$stickerSetFullCovered = ['_' => 'stickerSetFullCovered', 'set' => StickerSet, 'packs' => [StickerPack, StickerPack], 'keywords' => [StickerKeyword, StickerKeyword], 'documents' => [Document, Document]];
 ```  

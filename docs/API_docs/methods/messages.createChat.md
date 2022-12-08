@@ -19,6 +19,7 @@ Creates a new chat.
 |----------|---------------|-------------|----------|
 |users|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | List of user IDs to be invited | Yes|
 |title|[string](/API_docs/types/string.html) | Chat name | Yes|
+|ttl\_period|[int](/API_docs/types/int.html) |  | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -39,6 +40,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Updates = $MadelineProto->messages->createChat(users: [InputUser, InputUser], title: 'string', );
+$Updates = $MadelineProto->messages->createChat(users: [InputUser, InputUser], title: 'string', ttl_period: int, );
 ```
 

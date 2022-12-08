@@ -37,9 +37,9 @@ Main API wrapper for MadelineProto.
 
 
 ## Method list:
-* `startAndLoop(string $eventHandler): void`
-* `startAndLoopMulti(\danog\MadelineProto\API[] $instances, string[]|string $eventHandler): void`
-* `startAndLoopAsync(string $eventHandler): \Generator`
+* `startAndLoop(string $eventHandler)`
+* `startAndLoopMulti(\danog\MadelineProto\API[] $instances, string[]|string $eventHandler)`
+* `startAndLoopAsync(string $eventHandler)`
 * `MTProtoToBotAPI(array $data): \Amp\Promise<array>`
 * `MTProtoToTd(mixed $params): \Amp\Promise`
 * `MTProtoToTdcli(mixed $params): \Amp\Promise`
@@ -69,7 +69,7 @@ Main API wrapper for MadelineProto.
 * `confirmCall(array $params): \Amp\Promise`
 * `connectToAllDcs(bool $reconnectAll): \Amp\Promise`
 * `declineTos(): \Amp\Promise`
-* `discardCall(array $call, array $reason, array $rating, bool $need_debug): \Amp\Promise`
+* `discardCall(array $call, array $rating, bool $need_debug): \Amp\Promise`
 * `discardSecretChat(int $chat): \Amp\Promise`
 * `downloadToBrowser(array|string $messageMedia, ?callable $cb, ?int $size, ?string $mime, ?string $name): \Amp\Promise`
 * `downloadToCallable(mixed $messageMedia, callable|\danog\MadelineProto\FileCallbackInterface $callable, callable $cb, bool $seekable, int $offset, int $end, int $part_size): \Amp\Promise`
@@ -78,12 +78,12 @@ Main API wrapper for MadelineProto.
 * `downloadToResponse(array|string $messageMedia, \ServerRequest $request, callable $cb, ?int $size, ?string $name, ?string $mime): \Amp\Promise Returned response`
 * `downloadToStream(mixed $messageMedia, mixed|\danog\MadelineProto\FileCallbackInterface $stream, callable $cb, int $offset, int $end): \Amp\Promise`
 * `echo(string $string): \Amp\Promise`
-* `end(array $what): mixed`
+* `end(array $what)`
 * `exportAuthorization(): \Amp\Promise`
 * `extractBotAPIFile(array $info): ?array`
-* `extractMessage()`
-* `extractMessageUpdate()`
-* `extractUpdates()`
+* `extractMessage(): \Amp\Promise`
+* `extractMessageUpdate(): \Amp\Promise`
+* `extractUpdates(): \Amp\Promise`
 * `fileGetContents(string $url): \Amp\Promise`
 * `first((\Promise|\Generator)[] $promises): \Amp\Promise`
 * `flock(string $file, int $operation, float $polling, ?\Promise $token, ?callable $failureCb)`
@@ -114,22 +114,22 @@ Main API wrapper for MadelineProto.
 * `getHint(): mixed`
 * `getId(mixed $id): int`
 * `getInfo(mixed $id, bool $recursive): \Amp\Promise Info object`
-* `getLogger()`
+* `getLogger(): mixed`
 * `getMethodNamespaces(): mixed`
 * `getMethodsNamespaced(): mixed`
 * `getMimeFromBuffer(string $buffer): string`
 * `getMimeFromExtension(string $extension, string $default): string`
 * `getMimeFromFile(string $file): string`
-* `getPropicInfo(mixed $messageMedia): \Amp\Promise<array>`
-* `getPsrLogger()`
+* `getPropicInfo(): \Amp\Promise<array>`
+* `getPsrLogger(): mixed`
 * `getPwrChat(mixed $id): \Amp\Promise Chat object`
 * `getSecretChat(array|int $chat): mixed`
 * `getSelf(): mixed`
 * `getSettings(): mixed`
 * `getSponsoredMessages(int|array $peer): \Amp\Promise`
 * `getTL(): mixed`
-* `getVar(object $obj, string $var): mixed`
-* `getWebMessage(string $message)`
+* `getVar(object $obj, string $var)`
+* `getWebMessage(): mixed`
 * `getWebTemplate(): mixed`
 * `hasAllAuth(): mixed`
 * `hasEventHandler(): mixed`
@@ -143,7 +143,7 @@ Main API wrapper for MadelineProto.
 * `isArrayOrAlike(mixed $var): bool`
 * `isIpc(): mixed`
 * `isIpcWorker(): mixed`
-* `isPremium()`
+* `isPremium(): mixed`
 * `isSupergroup(int $id): bool`
 * `logger(string $param, int $level, string $file): mixed`
 * `logout(): \Amp\Promise`
@@ -193,10 +193,10 @@ Main API wrapper for MadelineProto.
 * `start(): \Amp\Promise`
 * `stop(): void`
 * `tdToMTProto(array $params): \Amp\Promise<array>`
-* `tdToTdcli(mixed $params): mixed`
+* `tdToTdcli(mixed $params)`
 * `tdcliToTd(array $params, array $key): mixed`
 * `timeout(\Generator|\Promise $promise, int $timeout): \Amp\Promise`
-* `timeoutWithDefault(\Promise|\Generator $promise, int $timeout, mixed $default): \Amp\Promise<\TReturn>|\Promise<\TReturnAlt>`
+* `timeoutWithDefault(\Promise|\Generator $promise, int $timeout): \Amp\Promise<\TReturn>|\Promise<\TReturnAlt>`
 * `toCamelCase(string $input): string`
 * `toSnakeCase(string $input): string`
 * `toSupergroup(int $id): int`
@@ -216,17 +216,17 @@ Main API wrapper for MadelineProto.
 * `uploadFromTgfile(mixed $media, callable $cb, bool $encrypted): \Amp\Promise`
 * `uploadFromUrl(string|\danog\MadelineProto\FileCallbackInterface $url, int $size, string $fileName, callable $cb, bool $encrypted): \Amp\Promise`
 * `viewSponsoredMessage(int|array $peer): \Amp\Promise Bool`
-* `wait(\Generator|\Promise $promise, bool $ignoreSignal): mixed`
-* `async(bool $async): void`
-* `init(): void`
-* `initAsynchronously(): \Generator`
+* `wait(\Generator|\Promise $promise, bool $ignoreSignal)`
+* `async(bool $async)`
+* `init()`
+* `initAsynchronously()`
 * `inited(): bool`
-* `forceInit(bool $inited): void`
-* `getWebAPITemplate(): string`
-* `setWebAPITemplate(): void`
+* `forceInit(bool $inited)`
+* `getWebAPITemplate()`
+* `setWebAPITemplate()`
 
 ## Methods:
-### `startAndLoop(string $eventHandler): void`
+### `startAndLoop(string $eventHandler)`
 
 Start MadelineProto and the event handler (enables async).
 Also initializes error reporting, catching and reporting all errors surfacing from the event loop.
@@ -237,7 +237,7 @@ Parameters:
 
 
 
-### `startAndLoopMulti(\danog\MadelineProto\API[] $instances, string[]|string $eventHandler): void`
+### `startAndLoopMulti(\danog\MadelineProto\API[] $instances, string[]|string $eventHandler)`
 
 Start multiple instances of MadelineProto and the event handlers (enables async).
 
@@ -249,7 +249,7 @@ Parameters:
 
 
 
-### `startAndLoopAsync(string $eventHandler): \Generator`
+### `startAndLoopAsync(string $eventHandler)`
 
 Start MadelineProto and the event handler (enables async).
 Also initializes error reporting, catching and reporting all errors surfacing from the event loop.
@@ -257,11 +257,6 @@ Also initializes error reporting, catching and reporting all errors surfacing fr
 Parameters:
 
 * `$eventHandler`: `string` Event handler class name  
-
-
-#### See also: 
-* `\Generator`
-
 
 
 
@@ -721,7 +716,7 @@ THIS WILL DELETE YOUR ACCOUNT!
 
 
 
-### `discardCall(array $call, array $reason, array $rating, bool $need_debug): \Amp\Promise`
+### `discardCall(array $call, array $rating, bool $need_debug): \Amp\Promise`
 
 Discard call.
 
@@ -729,7 +724,6 @@ Discard call.
 Parameters:
 
 * `$call`: `array` Call  
-* `$reason`: `array`   
 * `$rating`: `array` Rating  
 * `$need_debug`: `bool` Need debug?  
 
@@ -923,7 +917,7 @@ Parameters:
 
 
 
-### `end(array $what): mixed`
+### `end(array $what)`
 
 Get final element of array.
 
@@ -960,7 +954,7 @@ Parameters:
 
 
 
-### `extractMessage()`
+### `extractMessage(): \Amp\Promise`
 
 Extract a message constructor from an Updates constructor.
 
@@ -975,7 +969,7 @@ Fully typed return value:
 
 
 
-### `extractMessageUpdate()`
+### `extractMessageUpdate(): \Amp\Promise`
 
 Extract an update message constructor from an Updates constructor.
 
@@ -990,7 +984,7 @@ Fully typed return value:
 
 
 
-### `extractUpdates()`
+### `extractUpdates(): \Amp\Promise`
 
 Extract Update constructors from an Updates constructor.
 
@@ -1480,9 +1474,19 @@ Fully typed return value:
 
 
 
-### `getLogger()`
+### `getLogger(): mixed`
 
 Get logger.
+
+
+Fully typed return value:
+```
+\danog\MadelineProto\Logger|\Amp\Promise<\danog\MadelineProto\Logger>
+```
+#### See also: 
+* [`\danog\MadelineProto\Logger`: Logger class.](../../danog/MadelineProto/Logger.html)
+* `\Amp\Promise`
+
 
 
 
@@ -1550,7 +1554,7 @@ Parameters:
 
 
 
-### `getPropicInfo(mixed $messageMedia): \Amp\Promise<array>`
+### `getPropicInfo(): \Amp\Promise<array>`
 
 Get download info of the propic of a user
 Returns an array with the following structure:.
@@ -1559,20 +1563,25 @@ Returns an array with the following structure:.
 `$info['mime']` - The file mime type
 `$info['size']` - The file size
 
-Parameters:
-
-* `$messageMedia`: `mixed` File ID  
-
-
 #### See also: 
 * `\Amp\Promise`
 
 
 
 
-### `getPsrLogger()`
+### `getPsrLogger(): mixed`
 
 Get PSR logger.
+
+
+Fully typed return value:
+```
+\Psr\Log\LoggerInterface|\Amp\Promise<\Psr\Log\LoggerInterface>
+```
+#### See also: 
+* `\Psr\Log\LoggerInterface`
+* `\Amp\Promise`
+
 
 
 
@@ -1679,7 +1688,7 @@ Fully typed return value:
 
 
 
-### `getVar(object $obj, string $var): mixed`
+### `getVar(object $obj, string $var)`
 
 Accesses a private variable from an object.
 
@@ -1691,14 +1700,18 @@ Parameters:
 
 
 
-### `getWebMessage(string $message)`
+### `getWebMessage(): mixed`
 
 Get a message to show to the user when starting the bot.
 
 
-Parameters:
+Fully typed return value:
+```
+string|\Amp\Promise<string>
+```
+#### See also: 
+* `\Amp\Promise`
 
-* `$message`: `string`   
 
 
 
@@ -1886,9 +1899,18 @@ bool|\Amp\Promise<bool>
 
 
 
-### `isPremium()`
+### `isPremium(): mixed`
 
 Returns whether the current user is a premium user, cached.
+
+
+Fully typed return value:
+```
+bool|\Amp\Promise<bool>
+```
+#### See also: 
+* `\Amp\Promise`
+
 
 
 
@@ -2606,7 +2628,7 @@ Parameters:
 
 
 
-### `tdToTdcli(mixed $params): mixed`
+### `tdToTdcli(mixed $params)`
 
 Convert TD parameters to tdcli.
 
@@ -2657,7 +2679,7 @@ Parameters:
 
 
 
-### `timeoutWithDefault(\Promise|\Generator $promise, int $timeout, mixed $default): \Amp\Promise<\TReturn>|\Promise<\TReturnAlt>`
+### `timeoutWithDefault(\Promise|\Generator $promise, int $timeout): \Amp\Promise<\TReturn>|\Promise<\TReturnAlt>`
 
 Creates an artificial timeout for any `Promise`.
 If the promise is resolved before the timeout expires, the result is returned
@@ -2672,11 +2694,6 @@ Parameters:
   \Promise<\TReturn>|\TGenerator
   ```
 * `$timeout`: `int` Timeout in milliseconds.  
-* `$default`: `mixed`   
-  Full type:
-  ```
-  \TReturnAlt
-  ```
 
 
 #### See also: 
@@ -3010,7 +3027,7 @@ Parameters:
 Return value: Bool
 
 
-### `wait(\Generator|\Promise $promise, bool $ignoreSignal): mixed`
+### `wait(\Generator|\Promise $promise, bool $ignoreSignal)`
 
 Synchronously wait for a promise|generator.
 
@@ -3028,7 +3045,7 @@ Parameters:
 
 
 
-### `async(bool $async): void`
+### `async(bool $async)`
 
 Enable or disable async.
 
@@ -3039,20 +3056,15 @@ Parameters:
 
 
 
-### `init(): void`
+### `init()`
 
 Blockingly init.
 
 
 
-### `initAsynchronously(): \Generator`
+### `initAsynchronously()`
 
 Asynchronously init.
-
-
-#### See also: 
-* `\Generator`
-
 
 
 
@@ -3062,7 +3074,7 @@ Check if we've already inited.
 
 
 
-### `forceInit(bool $inited): void`
+### `forceInit(bool $inited)`
 
 Mark instance as (de)inited forcefully.
 
@@ -3073,13 +3085,13 @@ Parameters:
 
 
 
-### `getWebAPITemplate(): string`
+### `getWebAPITemplate()`
 
 Get web API login HTML template string.
 
 
 
-### `setWebAPITemplate(): void`
+### `setWebAPITemplate()`
 
 Set web API login HTML template string.
 

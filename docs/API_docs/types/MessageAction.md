@@ -77,6 +77,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionGiftPremium](/API_docs/constructors/messageActionGiftPremium.html)  
 
+[messageActionTopicCreate](/API_docs/constructors/messageActionTopicCreate.html)  
+
+[messageActionTopicEdit](/API_docs/constructors/messageActionTopicEdit.html)  
+
 
 
 ### Methods that return an object of this type (methods):

@@ -18,17 +18,17 @@ TL schema settings.
 
 ## Method list:
 * `needsUpgrade(): bool`
-* `upgrade(): void`
-* `getLayer(): int`
-* `setLayer(int $layer): self`
-* `getMTProtoSchema(): string`
-* `setMTProtoSchema(string $MTProtoSchema): self`
-* `getAPISchema(): string`
-* `setAPISchema(string $APISchema): self`
-* `getSecretSchema(): string`
-* `setSecretSchema(string $secretSchema): self`
-* `getOther(): array`
-* `setOther(array $other): self`
+* `upgrade()`
+* `getLayer()`
+* `setLayer(int $layer)`
+* `getMTProtoSchema()`
+* `setMTProtoSchema(string $MTProtoSchema)`
+* `getAPISchema()`
+* `setAPISchema(string $APISchema)`
+* `getSecretSchema()`
+* `setSecretSchema(string $secretSchema)`
+* `getOther()`
+* `setOther()`
 
 ## Methods:
 ### `needsUpgrade(): bool`
@@ -37,19 +37,19 @@ Returns whether the TL parser should re-parse the TL schemes.
 
 
 
-### `upgrade(): void`
+### `upgrade()`
 
 Signal that scheme was re-parsed.
 
 
 
-### `getLayer(): int`
+### `getLayer()`
 
 Get TL layer version.
 
 
 
-### `setLayer(int $layer): self`
+### `setLayer(int $layer)`
 
 Set TL layer version.
 
@@ -60,13 +60,13 @@ Parameters:
 
 
 
-### `getMTProtoSchema(): string`
+### `getMTProtoSchema()`
 
 Get MTProto schema path.
 
 
 
-### `setMTProtoSchema(string $MTProtoSchema): self`
+### `setMTProtoSchema(string $MTProtoSchema)`
 
 Set MTProto schema path.
 
@@ -77,13 +77,13 @@ Parameters:
 
 
 
-### `getAPISchema(): string`
+### `getAPISchema()`
 
 Get API schema path.
 
 
 
-### `setAPISchema(string $APISchema): self`
+### `setAPISchema(string $APISchema)`
 
 Set API schema path.
 
@@ -94,13 +94,13 @@ Parameters:
 
 
 
-### `getSecretSchema(): string`
+### `getSecretSchema()`
 
 Get secret schema path.
 
 
 
-### `setSecretSchema(string $secretSchema): self`
+### `setSecretSchema(string $secretSchema)`
 
 Set secret schema path.
 
@@ -111,20 +111,15 @@ Parameters:
 
 
 
-### `getOther(): array`
+### `getOther()`
 
 Get the value of other.
 
 
 
-### `setOther(array $other): self`
+### `setOther()`
 
 Set the value of other.
-
-
-Parameters:
-
-* `$other`: `array`   
 
 
 

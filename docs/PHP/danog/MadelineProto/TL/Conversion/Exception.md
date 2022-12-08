@@ -17,30 +17,25 @@ TL conversion exception.
 
 
 ## Method list:
-* `updateTLTrace(array $trace): void`
-* `getTLTrace(): string`
-* `setTLTrace(string $tlTrace): void`
+* `updateTLTrace(): void`
+* `getTLTrace()`
+* `setTLTrace(string $tlTrace)`
 * `prettifyTL(string $init, array $trace): void`
 
 ## Methods:
-### `updateTLTrace(array $trace): void`
+### `updateTLTrace(): void`
 
 Update TL trace.
 
 
-Parameters:
 
-* `$trace`: `array`   
-
-
-
-### `getTLTrace(): string`
+### `getTLTrace()`
 
 Get TL trace.
 
 
 
-### `setTLTrace(string $tlTrace): void`
+### `setTLTrace(string $tlTrace)`
 
 Set TL trace.
 

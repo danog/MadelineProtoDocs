@@ -34,6 +34,7 @@ Channel/supergroup info
 |noforwards|[Bool](/API_docs/types/Bool.html) | Optional|Whether this channel or group is [protected](https://telegram.org/blog/protected-content-delete-by-date-and-more), thus does not allow forwarding messages from it|
 |join\_to\_send|[Bool](/API_docs/types/Bool.html) | Optional|Whether a user needs to join the supergroup before they can send messages: can be false only for [discussion groups »](https://core.telegram.org/api/discussion), toggle using [channels.toggleJoinToSend](../methods/channels.toggleJoinToSend.html)|
 |join\_request|[Bool](/API_docs/types/Bool.html) | Optional|Whether a user's join request will have to be [approved by administrators](https://core.telegram.org/api/invites#join-requests), toggle using [channels.toggleJoinToSend](../methods/channels.toggleJoinRequest.html)|
+|forum|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[long](/API_docs/types/long.html) | Yes|ID of the channel|
 |access\_hash|[long](/API_docs/types/long.html) | Optional|Access hash|
 |title|[string](/API_docs/types/string.html) | Yes|Title|
@@ -45,6 +46,7 @@ Channel/supergroup info
 |banned\_rights|[ChatBannedRights](/API_docs/types/ChatBannedRights.html) | Optional|Banned rights of the user in this channel (see [rights](https://core.telegram.org/api/rights))|
 |default\_banned\_rights|[ChatBannedRights](/API_docs/types/ChatBannedRights.html) | Optional|Default chat rights (see [rights](https://core.telegram.org/api/rights))|
 |participants\_count|[int](/API_docs/types/int.html) | Optional|Participant count|
+|usernames|Array of [Username](/API_docs/types/Username.html) | Optional|
 
 
 
@@ -54,5 +56,5 @@ Channel/supergroup info
 ### Example:
 
 ```
-$channel = ['_' => 'channel', 'creator' => Bool, 'left' => Bool, 'broadcast' => Bool, 'verified' => Bool, 'megagroup' => Bool, 'restricted' => Bool, 'signatures' => Bool, 'min' => Bool, 'scam' => Bool, 'has_link' => Bool, 'has_geo' => Bool, 'slowmode_enabled' => Bool, 'call_active' => Bool, 'call_not_empty' => Bool, 'fake' => Bool, 'gigagroup' => Bool, 'noforwards' => Bool, 'join_to_send' => Bool, 'join_request' => Bool, 'id' => long, 'access_hash' => long, 'title' => 'string', 'username' => 'string', 'photo' => ChatPhoto, 'date' => int, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'admin_rights' => ChatAdminRights, 'banned_rights' => ChatBannedRights, 'default_banned_rights' => ChatBannedRights, 'participants_count' => int];
+$channel = ['_' => 'channel', 'creator' => Bool, 'left' => Bool, 'broadcast' => Bool, 'verified' => Bool, 'megagroup' => Bool, 'restricted' => Bool, 'signatures' => Bool, 'min' => Bool, 'scam' => Bool, 'has_link' => Bool, 'has_geo' => Bool, 'slowmode_enabled' => Bool, 'call_active' => Bool, 'call_not_empty' => Bool, 'fake' => Bool, 'gigagroup' => Bool, 'noforwards' => Bool, 'join_to_send' => Bool, 'join_request' => Bool, 'forum' => Bool, 'id' => long, 'access_hash' => long, 'title' => 'string', 'username' => 'string', 'photo' => ChatPhoto, 'date' => int, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'admin_rights' => ChatAdminRights, 'banned_rights' => ChatBannedRights, 'default_banned_rights' => ChatBannedRights, 'participants_count' => int, 'usernames' => [Username, Username]];
 ```  

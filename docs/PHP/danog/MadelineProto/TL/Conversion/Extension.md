@@ -21,14 +21,14 @@ Manages generation of extensions for files.
 
 
 ## Method list:
-* `getMimeFromExtension(string $extension, string $default): string`
-* `getExtensionFromMime(string $mime): string`
-* `getExtensionFromLocation(mixed $location, string $default): string`
-* `getMimeFromFile(string $file): string`
-* `getMimeFromBuffer(string $buffer): string`
+* `getMimeFromExtension(string $extension, string $default)`
+* `getExtensionFromMime(string $mime)`
+* `getExtensionFromLocation(mixed $location, string $default)`
+* `getMimeFromFile(string $file)`
+* `getMimeFromBuffer(string $buffer)`
 
 ## Methods:
-### `getMimeFromExtension(string $extension, string $default): string`
+### `getMimeFromExtension(string $extension, string $default)`
 
 Get mime type from file extension.
 
@@ -40,7 +40,7 @@ Parameters:
 
 
 
-### `getExtensionFromMime(string $mime): string`
+### `getExtensionFromMime(string $mime)`
 
 Get extension from mime type.
 
@@ -51,7 +51,7 @@ Parameters:
 
 
 
-### `getExtensionFromLocation(mixed $location, string $default): string`
+### `getExtensionFromLocation(mixed $location, string $default)`
 
 Get extension from file location.
 
@@ -63,7 +63,7 @@ Parameters:
 
 
 
-### `getMimeFromFile(string $file): string`
+### `getMimeFromFile(string $file)`
 
 Get mime type of file.
 
@@ -74,7 +74,7 @@ Parameters:
 
 
 
-### `getMimeFromBuffer(string $buffer): string`
+### `getMimeFromBuffer(string $buffer)`
 
 Get mime type from buffer.
 

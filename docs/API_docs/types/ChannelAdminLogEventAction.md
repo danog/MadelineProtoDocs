@@ -83,6 +83,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [channelAdminLogEventActionChangeAvailableReactions](/API_docs/constructors/channelAdminLogEventActionChangeAvailableReactions.html)  
 
+[channelAdminLogEventActionChangeUsernames](/API_docs/constructors/channelAdminLogEventActionChangeUsernames.html)  
+
+[channelAdminLogEventActionToggleForum](/API_docs/constructors/channelAdminLogEventActionToggleForum.html)  
+
+[channelAdminLogEventActionCreateTopic](/API_docs/constructors/channelAdminLogEventActionCreateTopic.html)  
+
+[channelAdminLogEventActionEditTopic](/API_docs/constructors/channelAdminLogEventActionEditTopic.html)  
+
+[channelAdminLogEventActionDeleteTopic](/API_docs/constructors/channelAdminLogEventActionDeleteTopic.html)  
+
+[channelAdminLogEventActionPinTopic](/API_docs/constructors/channelAdminLogEventActionPinTopic.html)  
+
+[channelAdminLogEventActionToggleAntiSpam](/API_docs/constructors/channelAdminLogEventActionToggleAntiSpam.html)  
+
 
 
 ### Methods that return an object of this type (methods):

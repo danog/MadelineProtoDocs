@@ -17,17 +17,17 @@ VoIP settings.
 
 
 ## Method list:
-* `getPreloadAudio(): bool`
-* `setPreloadAudio(bool $preloadAudio): self`
+* `getPreloadAudio()`
+* `setPreloadAudio(bool $preloadAudio)`
 
 ## Methods:
-### `getPreloadAudio(): bool`
+### `getPreloadAudio()`
 
 Get whether to preload all songs in memory.
 
 
 
-### `setPreloadAudio(bool $preloadAudio): self`
+### `setPreloadAudio(bool $preloadAudio)`
 
 Set whether to preload all songs in memory.
 

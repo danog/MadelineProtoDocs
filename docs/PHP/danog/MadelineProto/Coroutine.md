@@ -19,15 +19,15 @@ asynchronous code can be written without callbacks and be structured like synchr
 
 
 ## Method list:
-* `fail(\Throwable $reason): void`
-* `offsetGet(mixed $offset): \Amp\Promise`
-* `getTrace(): array`
-* `getFrame(): array`
-* `jsonSerialize(): string`
+* `fail(\Throwable $reason)`
+* `offsetGet(mixed $offset)`
+* `getTrace()`
+* `getFrame()`
+* `jsonSerialize()`
 * `onResolve()`
 
 ## Methods:
-### `fail(\Throwable $reason): void`
+### `fail(\Throwable $reason)`
 
 
 
@@ -43,7 +43,7 @@ Parameters:
 
 
 
-### `offsetGet(mixed $offset): \Amp\Promise`
+### `offsetGet(mixed $offset)`
 
 Get data at an array offset asynchronously.
 
@@ -53,25 +53,20 @@ Parameters:
 * `$offset`: `mixed` Offset  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `getTrace(): array`
+### `getTrace()`
 
 Get current stack trace for running coroutine.
 
 
 
-### `getFrame(): array`
+### `getFrame()`
 
 Get current execution frame.
 
 
 
-### `jsonSerialize(): string`
+### `jsonSerialize()`
 
 Obtain.
 

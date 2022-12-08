@@ -17,31 +17,26 @@ Redis database backend.
 
 
 ## Method list:
-* `initStartup(): \Generator`
-* `initConnection(\danog\MadelineProto\Settings\Database\Redis $settings): \Generator`
-* `set(string $index, mixed $value)`
+* `initStartup()`
+* `initConnection(\danog\MadelineProto\Settings\Database\Redis $settings)`
+* `set(string $index)`
 * `getArrayCopy(): \Amp\Promise<array>`
 * `count(): \Promise<int> The number of elements or public properties in the associated
 array or object, respectively.`
-* `clear(): \Amp\Promise`
-* `getTable(): string`
-* `setTable(string $table): self`
+* `clear()`
+* `getTable()`
+* `setTable()`
 * `isset(mixed $key): \Promise<bool> true if the offset exists, otherwise false`
-* `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
+* `getInstance(\danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings)`
 
 ## Methods:
-### `initStartup(): \Generator`
+### `initStartup()`
 
 Initialize on startup.
 
 
-#### See also: 
-* `\Generator`
 
-
-
-
-### `initConnection(\danog\MadelineProto\Settings\Database\Redis $settings): \Generator`
+### `initConnection(\danog\MadelineProto\Settings\Database\Redis $settings)`
 
 Initialize connection.
 
@@ -53,12 +48,11 @@ Parameters:
 
 #### See also: 
 * [`\danog\MadelineProto\Settings\Database\Redis`: Redis backend settings.](../../../danog/MadelineProto/Settings/Database/Redis.html)
-* `\Generator`
 
 
 
 
-### `set(string $index, mixed $value)`
+### `set(string $index)`
 
 Set value for an offset.
 
@@ -68,7 +62,6 @@ Parameters:
 * `$index`: `string` <p>
 The index to set for.
 </p>  
-* `$value`: `mixed`   
 
 
 
@@ -93,31 +86,21 @@ Return value: The number of elements or public properties in the associated
 array or object, respectively.
 
 
-### `clear(): \Amp\Promise`
+### `clear()`
 
 Clear all elements.
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `getTable(): string`
+### `getTable()`
 
 Get the value of table.
 
 
 
-### `setTable(string $table): self`
+### `setTable()`
 
 Set the value of table.
-
-
-Parameters:
-
-* `$table`: `string`   
 
 
 
@@ -134,14 +117,13 @@ Parameters:
 Return value: true if the offset exists, otherwise false
 
 
-### `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
+### `getInstance(\danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings)`
 
 
 
 
 Parameters:
 
-* `$table`: `string`   
 * `$previous`: `\danog\MadelineProto\Db\DbArray|array|null`   
 * `$settings`: `\danog\MadelineProto\Settings\Database\DatabaseAbstract`   
 

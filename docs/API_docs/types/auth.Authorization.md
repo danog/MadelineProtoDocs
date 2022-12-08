@@ -32,5 +32,7 @@ redirect_from: /API_docs/types/auth_Authorization.html
 
 [$MadelineProto->auth->recoverPassword](/API_docs/methods/auth.recoverPassword.html)  
 
+[$MadelineProto->auth->importWebTokenAuthorization](/API_docs/methods/auth.importWebTokenAuthorization.html)  
+
 
 

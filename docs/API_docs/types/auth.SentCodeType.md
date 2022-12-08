@@ -26,6 +26,8 @@ redirect_from: /API_docs/types/auth_SentCodeType.html
 
 [auth.sentCodeTypeSetUpEmailRequired](/API_docs/constructors/auth.sentCodeTypeSetUpEmailRequired.html)  
 
+[auth.sentCodeTypeFragmentSms](/API_docs/constructors/auth.sentCodeTypeFragmentSms.html)  
+
 
 
 ### Methods that return an object of this type (methods):

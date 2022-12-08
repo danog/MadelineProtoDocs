@@ -18,6 +18,7 @@ Get unread messages where we were mentioned
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where to look for mentions | Optional|
+|top\_msg\_id|[int](/API_docs/types/int.html) |  | Optional|
 |offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
 |add\_offset|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
 |limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
@@ -43,6 +44,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$messages_Messages = $MadelineProto->messages->getUnreadMentions(peer: InputPeer, offset_id: int, add_offset: int, limit: int, max_id: int, min_id: int, );
+$messages_Messages = $MadelineProto->messages->getUnreadMentions(peer: InputPeer, top_msg_id: int, offset_id: int, add_offset: int, limit: int, max_id: int, min_id: int, );
 ```
 

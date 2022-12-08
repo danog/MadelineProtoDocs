@@ -14,6 +14,8 @@ redirect_from: /API_docs/types/messages_SponsoredMessages.html
 
 [messages.sponsoredMessages](/API_docs/constructors/messages.sponsoredMessages.html)  
 
+[messages.sponsoredMessagesEmpty](/API_docs/constructors/messages.sponsoredMessagesEmpty.html)  
+
 
 
 ### Methods that return an object of this type (methods):

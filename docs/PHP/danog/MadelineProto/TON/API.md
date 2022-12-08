@@ -20,65 +20,65 @@ TON API.
 * `after(\Generator|\Promise $a, \Generator|\Promise $b): \Amp\Promise`
 * `all((\Generator|\Promise)[] $promises): \Amp\Promise`
 * `any((\Promise|\Generator)[] $promises): \Amp\Promise`
-* `arr(mixed $params): array`
-* `base64urlDecode(string $data): string`
-* `base64urlEncode(string $data): string`
+* `arr(mixed $params)`
+* `base64urlDecode(string $data)`
+* `base64urlEncode(string $data)`
 * `botAPItoMTProto(array $parameters): \Amp\Promise`
 * `call(\Generator|\Promise|mixed $promise): \Amp\Promise`
 * `callFork(\Generator|\Promise $promise, ?\Generator|\Promise $actual, string $file): \Amp\Promise|mixed`
-* `callForkDefer(\Generator|\Promise $promise): void`
+* `callForkDefer(\Generator|\Promise $promise)`
 * `closeConnection(string $message): void`
 * `connect(string $config): \Amp\Promise`
 * `echo(string $string): \Amp\Promise`
-* `end(array $what): mixed`
+* `end(array $what)`
 * `first((\Promise|\Generator)[] $promises): \Amp\Promise`
 * `flock(string $file, int $operation, float $polling, ?\Promise $token, ?callable $failureCb)`
 * `genVectorHash(array $ints): \string Vector hash`
-* `getExtensionFromLocation(mixed $location, string $default): string`
-* `getExtensionFromMime(string $mime): string`
-* `getMethodNamespaces(): mixed`
-* `getMimeFromBuffer(string $buffer): string`
-* `getMimeFromExtension(string $extension, string $default): string`
-* `getMimeFromFile(string $file): string`
-* `getVar(object $obj, string $var): mixed`
-* `hasVar(object $obj, string $var): bool`
+* `getExtensionFromLocation(mixed $location, string $default)`
+* `getExtensionFromMime(string $mime)`
+* `getMethodNamespaces()`
+* `getMimeFromBuffer(string $buffer)`
+* `getMimeFromExtension(string $extension, string $default)`
+* `getMimeFromFile(string $file)`
+* `getVar(object $obj, string $var)`
+* `hasVar(object $obj, string $var)`
 * `inflateStripped(string $stripped): \string JPG payload`
 * `isAltervista(): bool`
 * `isArrayOrAlike(mixed $var): bool`
-* `logger(string $param, int $level, string $file): mixed`
+* `logger(string $param, int $level, string $file)`
 * `loop(callable $func): \Amp\Promise`
-* `markdownEscape(string $hwat): string`
+* `markdownEscape(string $hwat)`
 * `methodCall(string $methodName, array $args): \Amp\Promise`
-* `methodEscape(string $method): string`
-* `packDouble(float $value): string`
-* `packSignedInt(int $value): string`
-* `packSignedLong(int $value): string`
-* `packUnsignedInt(int $value): string`
+* `methodEscape(string $method)`
+* `packDouble(float $value)`
+* `packSignedInt(int $value)`
+* `packSignedLong(int $value)`
+* `packUnsignedInt(int $value)`
 * `posmod(int $a, int $b): \int Modulo`
 * `random(int $length): \string Random string`
-* `randomInt(int $modulus): int`
+* `randomInt(int $modulus)`
 * `readLine(string $prompt): \Amp\Promise<string>`
-* `rethrow(\Throwable $e, string $file): void`
-* `rleDecode(string $string): string`
-* `rleEncode(string $string): string`
-* `setVar(object $obj, string $var, mixed $val): void`
+* `rethrow(\Throwable $e, string $file)`
+* `rleDecode(string $string)`
+* `rleEncode(string $string)`
+* `setVar(object $obj, string $var, mixed $val)`
 * `sleep(int|float $time): \Amp\Promise`
 * `some((\Promise|\Generator)[] $promises): \Amp\Promise`
 * `timeout(\Generator|\Promise $promise, int $timeout): \Amp\Promise`
-* `timeoutWithDefault(\Promise|\Generator $promise, int $timeout, mixed $default): \Amp\Promise<\TReturn>|\Promise<\TReturnAlt>`
-* `toCamelCase(string $input): string`
-* `toSnakeCase(string $input): string`
-* `typeEscape(string $type): string`
-* `unpackDouble(string $value): float`
+* `timeoutWithDefault(\Promise|\Generator $promise, int $timeout): \Amp\Promise<\TReturn>|\Promise<\TReturnAlt>`
+* `toCamelCase(string $input)`
+* `toSnakeCase(string $input)`
+* `typeEscape(string $type)`
+* `unpackDouble(string $value)`
 * `unpackSignedInt(string $value): int`
 * `unpackSignedLong(string $value): int`
-* `unpackSignedLongString(string|int|array $value): string`
-* `wait(\Generator|\Promise $promise, bool $ignoreSignal): mixed`
-* `async(bool $async): void`
-* `init(): void`
-* `initAsynchronously(): \Generator`
+* `unpackSignedLongString(string|int|array $value)`
+* `wait(\Generator|\Promise $promise, bool $ignoreSignal)`
+* `async(bool $async)`
+* `init()`
+* `initAsynchronously()`
 * `inited(): bool`
-* `forceInit(bool $inited): void`
+* `forceInit(bool $inited)`
 
 ## Methods:
 ### `after(\Generator|\Promise $a, \Generator|\Promise $b): \Amp\Promise`
@@ -136,7 +136,7 @@ Parameters:
 
 
 
-### `arr(mixed $params): array`
+### `arr(mixed $params)`
 
 Create array.
 
@@ -147,7 +147,7 @@ Parameters:
 
 
 
-### `base64urlDecode(string $data): string`
+### `base64urlDecode(string $data)`
 
 base64URL decode.
 
@@ -158,7 +158,7 @@ Parameters:
 
 
 
-### `base64urlEncode(string $data): string`
+### `base64urlEncode(string $data)`
 
 Base64URL encode.
 
@@ -232,7 +232,7 @@ Parameters:
 
 
 
-### `callForkDefer(\Generator|\Promise $promise): void`
+### `callForkDefer(\Generator|\Promise $promise)`
 
 Call promise in background, deferring execution.
 
@@ -292,7 +292,7 @@ Parameters:
 
 
 
-### `end(array $what): mixed`
+### `end(array $what)`
 
 Get final element of array.
 
@@ -355,7 +355,7 @@ Parameters:
 Return value: Vector hash
 
 
-### `getExtensionFromLocation(mixed $location, string $default): string`
+### `getExtensionFromLocation(mixed $location, string $default)`
 
 Get extension from file location.
 
@@ -367,7 +367,7 @@ Parameters:
 
 
 
-### `getExtensionFromMime(string $mime): string`
+### `getExtensionFromMime(string $mime)`
 
 Get extension from mime type.
 
@@ -378,7 +378,7 @@ Parameters:
 
 
 
-### `getMethodNamespaces(): mixed`
+### `getMethodNamespaces()`
 
 Get TL method namespaces.
 
@@ -393,7 +393,7 @@ array|\Amp\Promise<array>
 
 
 
-### `getMimeFromBuffer(string $buffer): string`
+### `getMimeFromBuffer(string $buffer)`
 
 Get mime type from buffer.
 
@@ -404,7 +404,7 @@ Parameters:
 
 
 
-### `getMimeFromExtension(string $extension, string $default): string`
+### `getMimeFromExtension(string $extension, string $default)`
 
 Get mime type from file extension.
 
@@ -416,7 +416,7 @@ Parameters:
 
 
 
-### `getMimeFromFile(string $file): string`
+### `getMimeFromFile(string $file)`
 
 Get mime type of file.
 
@@ -427,7 +427,7 @@ Parameters:
 
 
 
-### `getVar(object $obj, string $var): mixed`
+### `getVar(object $obj, string $var)`
 
 Accesses a private variable from an object.
 
@@ -439,7 +439,7 @@ Parameters:
 
 
 
-### `hasVar(object $obj, string $var): bool`
+### `hasVar(object $obj, string $var)`
 
 Checks private property exists in an object.
 
@@ -481,7 +481,7 @@ Parameters:
 
 
 
-### `logger(string $param, int $level, string $file): mixed`
+### `logger(string $param, int $level, string $file)`
 
 Logger.
 
@@ -519,7 +519,7 @@ Parameters:
 
 
 
-### `markdownEscape(string $hwat): string`
+### `markdownEscape(string $hwat)`
 
 Escape string for markdown.
 
@@ -547,7 +547,7 @@ Parameters:
 
 
 
-### `methodEscape(string $method): string`
+### `methodEscape(string $method)`
 
 Escape method name.
 
@@ -558,7 +558,7 @@ Parameters:
 
 
 
-### `packDouble(float $value): string`
+### `packDouble(float $value)`
 
 Convert double to binary version.
 
@@ -569,7 +569,7 @@ Parameters:
 
 
 
-### `packSignedInt(int $value): string`
+### `packSignedInt(int $value)`
 
 Convert integer to base256 signed int.
 
@@ -580,7 +580,7 @@ Parameters:
 
 
 
-### `packSignedLong(int $value): string`
+### `packSignedLong(int $value)`
 
 Convert integer to base256 long.
 
@@ -591,7 +591,7 @@ Parameters:
 
 
 
-### `packUnsignedInt(int $value): string`
+### `packUnsignedInt(int $value)`
 
 Convert value to unsigned base256 int.
 
@@ -630,7 +630,7 @@ Parameters:
 Return value: Random string
 
 
-### `randomInt(int $modulus): int`
+### `randomInt(int $modulus)`
 
 Get random integer.
 
@@ -657,7 +657,7 @@ Parameters:
 
 
 
-### `rethrow(\Throwable $e, string $file): void`
+### `rethrow(\Throwable $e, string $file)`
 
 Rethrow error catched in strand.
 
@@ -674,7 +674,7 @@ Parameters:
 
 
 
-### `rleDecode(string $string): string`
+### `rleDecode(string $string)`
 
 null-byte RLE decode.
 
@@ -685,7 +685,7 @@ Parameters:
 
 
 
-### `rleEncode(string $string): string`
+### `rleEncode(string $string)`
 
 null-byte RLE encode.
 
@@ -696,7 +696,7 @@ Parameters:
 
 
 
-### `setVar(object $obj, string $var, mixed $val): void`
+### `setVar(object $obj, string $var, mixed $val)`
 
 Sets a private variable in an object.
 
@@ -762,7 +762,7 @@ Parameters:
 
 
 
-### `timeoutWithDefault(\Promise|\Generator $promise, int $timeout, mixed $default): \Amp\Promise<\TReturn>|\Promise<\TReturnAlt>`
+### `timeoutWithDefault(\Promise|\Generator $promise, int $timeout): \Amp\Promise<\TReturn>|\Promise<\TReturnAlt>`
 
 Creates an artificial timeout for any `Promise`.
 If the promise is resolved before the timeout expires, the result is returned
@@ -777,11 +777,6 @@ Parameters:
   \Promise<\TReturn>|\TGenerator
   ```
 * `$timeout`: `int` Timeout in milliseconds.  
-* `$default`: `mixed`   
-  Full type:
-  ```
-  \TReturnAlt
-  ```
 
 
 #### See also: 
@@ -795,7 +790,7 @@ Parameters:
 
 
 
-### `toCamelCase(string $input): string`
+### `toCamelCase(string $input)`
 
 Convert to camelCase.
 
@@ -806,7 +801,7 @@ Parameters:
 
 
 
-### `toSnakeCase(string $input): string`
+### `toSnakeCase(string $input)`
 
 Convert to snake_case.
 
@@ -817,7 +812,7 @@ Parameters:
 
 
 
-### `typeEscape(string $type): string`
+### `typeEscape(string $type)`
 
 Escape type name.
 
@@ -828,7 +823,7 @@ Parameters:
 
 
 
-### `unpackDouble(string $value): float`
+### `unpackDouble(string $value)`
 
 Unpack binary double.
 
@@ -861,7 +856,7 @@ Parameters:
 
 
 
-### `unpackSignedLongString(string|int|array $value): string`
+### `unpackSignedLongString(string|int|array $value)`
 
 Unpack base256 signed long to string.
 
@@ -872,7 +867,7 @@ Parameters:
 
 
 
-### `wait(\Generator|\Promise $promise, bool $ignoreSignal): mixed`
+### `wait(\Generator|\Promise $promise, bool $ignoreSignal)`
 
 Synchronously wait for a promise|generator.
 
@@ -890,7 +885,7 @@ Parameters:
 
 
 
-### `async(bool $async): void`
+### `async(bool $async)`
 
 Enable or disable async.
 
@@ -901,20 +896,15 @@ Parameters:
 
 
 
-### `init(): void`
+### `init()`
 
 Blockingly init.
 
 
 
-### `initAsynchronously(): \Generator`
+### `initAsynchronously()`
 
 Asynchronously init.
-
-
-#### See also: 
-* `\Generator`
-
 
 
 
@@ -924,7 +914,7 @@ Check if we've already inited.
 
 
 
-### `forceInit(bool $inited): void`
+### `forceInit(bool $inited)`
 
 Mark instance as (de)inited forcefully.
 

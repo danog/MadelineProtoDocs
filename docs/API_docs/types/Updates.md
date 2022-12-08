@@ -143,6 +143,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->channels->toggleJoinRequest](/API_docs/methods/channels.toggleJoinRequest.html)  
 
+[$MadelineProto->channels->toggleForum](/API_docs/methods/channels.toggleForum.html)  
+
+[$MadelineProto->channels->createForumTopic](/API_docs/methods/channels.createForumTopic.html)  
+
+[$MadelineProto->channels->editForumTopic](/API_docs/methods/channels.editForumTopic.html)  
+
+[$MadelineProto->channels->updatePinnedForumTopic](/API_docs/methods/channels.updatePinnedForumTopic.html)  
+
+[$MadelineProto->channels->reorderPinnedForumTopics](/API_docs/methods/channels.reorderPinnedForumTopics.html)  
+
+[$MadelineProto->channels->toggleAntiSpam](/API_docs/methods/channels.toggleAntiSpam.html)  
+
 [$MadelineProto->payments->assignAppStoreTransaction](/API_docs/methods/payments.assignAppStoreTransaction.html)  
 
 [$MadelineProto->payments->assignPlayMarketTransaction](/API_docs/methods/payments.assignPlayMarketTransaction.html)  

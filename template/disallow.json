@@ -13,6 +13,8 @@
     "auth.checkPassword": "You cannot use this method directly, use the complete2falogin method instead (see https:\/\/docs.madelineproto.xyz for more info)",
     "auth.signUp": "You cannot use this method directly, use the completeSignup method instead (see https:\/\/docs.madelineproto.xyz for more info)",
     "users.getFullUser": "You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo methods instead (see https:\/\/docs.madelineproto.xyz for more info)",
+    "users.getUsers": "You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo methods instead (see https:\/\/docs.madelineproto.xyz for more info)",
+    "channels.getChannels": "You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo methods instead (see https:\/\/docs.madelineproto.xyz for more info)",
     "channels.getFullChannel": "You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo methods instead (see https:\/\/docs.madelineproto.xyz for more info)",
     "messages.getFullChat": "You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo methods instead (see https:\/\/docs.madelineproto.xyz for more info)",
     "contacts.resolveUsername": "You cannot use this method directly, use the resolveUsername, getPwrChat, getInfo, getFullInfo methods instead (see https:\/\/docs.madelineproto.xyz for more info)",

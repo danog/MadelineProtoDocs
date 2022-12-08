@@ -17,51 +17,51 @@ Connection settings.
 
 
 ## Method list:
-* `getProtocol(): string`
-* `setProtocol(class-string<\danog\MadelineProto\Stream\MTProtoBufferInterface> $protocol): self`
-* `getIpv6(): bool`
-* `setIpv6(bool $ipv6): self`
-* `getSslSubdomains(): array`
-* `setSslSubdomains(array $sslSubdomains): self`
-* `getMinMediaSocketCount(): int`
-* `setMinMediaSocketCount(int $minMediaSocketCount): self`
-* `getMaxMediaSocketCount(): int`
-* `setMaxMediaSocketCount(int $maxMediaSocketCount): self`
-* `getRobinPeriod(): int`
-* `setRobinPeriod(int $robinPeriod): self`
-* `getDefaultDc(): int`
-* `getDefaultDcParams(): array`
-* `setDefaultDc(int $defaultDc): self`
-* `getProxies(): array`
-* `addProxy(class-string<\danog\MadelineProto\Stream\StreamInterface> $proxy, array $extra): self`
-* `setProxy(array $proxies): self`
-* `clearProxies(): self`
-* `removeProxy(string $proxy, array $extra): self`
-* `getObfuscated(): bool`
-* `setObfuscated(bool $obfuscated): self`
-* `getTestMode(): bool`
-* `setTestMode(bool $testMode): self`
+* `getProtocol()`
+* `setProtocol(class-string<\danog\MadelineProto\Stream\MTProtoBufferInterface> $protocol)`
+* `getIpv6()`
+* `setIpv6(bool $ipv6)`
+* `getSslSubdomains()`
+* `setSslSubdomains(array $sslSubdomains)`
+* `getMinMediaSocketCount()`
+* `setMinMediaSocketCount(int $minMediaSocketCount)`
+* `getMaxMediaSocketCount()`
+* `setMaxMediaSocketCount(int $maxMediaSocketCount)`
+* `getRobinPeriod()`
+* `setRobinPeriod(int $robinPeriod)`
+* `getDefaultDc()`
+* `getDefaultDcParams()`
+* `setDefaultDc(int $defaultDc)`
+* `getProxies()`
+* `addProxy(class-string<\danog\MadelineProto\Stream\StreamInterface> $proxy, array $extra)`
+* `setProxy(array $proxies)`
+* `clearProxies()`
+* `removeProxy()`
+* `getObfuscated()`
+* `setObfuscated(bool $obfuscated)`
+* `getTestMode()`
+* `setTestMode(bool $testMode)`
 * `getTransport(): class-string<\danog\MadelineProto\Stream\RawStreamInterface>`
-* `setTransport(class-string<\danog\MadelineProto\Stream\RawStreamInterface> $transport): self`
-* `getRetry(): bool`
-* `setRetry(bool $retry): self`
-* `getTimeout(): int`
-* `setTimeout(int $timeout): self`
-* `getPingInterval(): int`
-* `setPingInterval(int $pingInterval): self`
-* `getUseDoH(): bool`
-* `setUseDoH(bool $useDoH): self`
+* `setTransport(class-string<\danog\MadelineProto\Stream\RawStreamInterface> $transport)`
+* `getRetry()`
+* `setRetry(bool $retry)`
+* `getTimeout()`
+* `setTimeout(int $timeout)`
+* `getPingInterval()`
+* `setPingInterval(int $pingInterval)`
+* `getUseDoH()`
+* `setUseDoH(bool $useDoH)`
 * `getBindTo(): ?string`
-* `setBindTo(?string $bindTo): self`
+* `setBindTo(?string $bindTo)`
 
 ## Methods:
-### `getProtocol(): string`
+### `getProtocol()`
 
 Get protocol identifier.
 
 
 
-### `setProtocol(class-string<\danog\MadelineProto\Stream\MTProtoBufferInterface> $protocol): self`
+### `setProtocol(class-string<\danog\MadelineProto\Stream\MTProtoBufferInterface> $protocol)`
 
 Set protocol identifier.
 Available MTProto transport protocols (smaller overhead is better):
@@ -122,13 +122,13 @@ Parameters:
 
 
 
-### `getIpv6(): bool`
+### `getIpv6()`
 
 Get whether to use ipv6.
 
 
 
-### `setIpv6(bool $ipv6): self`
+### `setIpv6(bool $ipv6)`
 
 Set whether to use ipv6.
 
@@ -139,13 +139,13 @@ Parameters:
 
 
 
-### `getSslSubdomains(): array`
+### `getSslSubdomains()`
 
 Get subdomains of web.telegram.org for https protocol.
 
 
 
-### `setSslSubdomains(array $sslSubdomains): self`
+### `setSslSubdomains(array $sslSubdomains)`
 
 Set subdomains of web.telegram.org for https protocol.
 
@@ -156,13 +156,13 @@ Parameters:
 
 
 
-### `getMinMediaSocketCount(): int`
+### `getMinMediaSocketCount()`
 
 Get minimum media socket count.
 
 
 
-### `setMinMediaSocketCount(int $minMediaSocketCount): self`
+### `setMinMediaSocketCount(int $minMediaSocketCount)`
 
 Set minimum media socket count.
 
@@ -173,13 +173,13 @@ Parameters:
 
 
 
-### `getMaxMediaSocketCount(): int`
+### `getMaxMediaSocketCount()`
 
 Get maximum media socket count.
 
 
 
-### `setMaxMediaSocketCount(int $maxMediaSocketCount): self`
+### `setMaxMediaSocketCount(int $maxMediaSocketCount)`
 
 Set maximum media socket count.
 
@@ -190,13 +190,13 @@ Parameters:
 
 
 
-### `getRobinPeriod(): int`
+### `getRobinPeriod()`
 
 Get robin period (seconds).
 
 
 
-### `setRobinPeriod(int $robinPeriod): self`
+### `setRobinPeriod(int $robinPeriod)`
 
 Set robin period (seconds).
 
@@ -207,19 +207,19 @@ Parameters:
 
 
 
-### `getDefaultDc(): int`
+### `getDefaultDc()`
 
 Get default DC ID.
 
 
 
-### `getDefaultDcParams(): array`
+### `getDefaultDcParams()`
 
 Get default DC params.
 
 
 
-### `setDefaultDc(int $defaultDc): self`
+### `setDefaultDc(int $defaultDc)`
 
 Set default DC ID.
 
@@ -230,7 +230,7 @@ Parameters:
 
 
 
-### `getProxies(): array`
+### `getProxies()`
 
 Get proxy identifiers.
 
@@ -245,7 +245,7 @@ array<class-string<\danog\MadelineProto\Stream\StreamInterface>, array>
 
 
 
-### `addProxy(class-string<\danog\MadelineProto\Stream\StreamInterface> $proxy, array $extra): self`
+### `addProxy(class-string<\danog\MadelineProto\Stream\StreamInterface> $proxy, array $extra)`
 
 Add proxy identifier to list, one of:.
 * `\danog\MadelineProto\Stream\MTProtoTransport\ObfuscatedStream::class`
@@ -264,7 +264,7 @@ Parameters:
 
 
 
-### `setProxy(array $proxies): self`
+### `setProxy(array $proxies)`
 
 Set proxies.
 
@@ -275,31 +275,25 @@ Parameters:
 
 
 
-### `clearProxies(): self`
+### `clearProxies()`
 
 Clear proxies.
 
 
 
-### `removeProxy(string $proxy, array $extra): self`
+### `removeProxy()`
 
 Remove specific proxy pair.
 
 
-Parameters:
 
-* `$proxy`: `string`   
-* `$extra`: `array`   
-
-
-
-### `getObfuscated(): bool`
+### `getObfuscated()`
 
 Get whether to use the obfuscated protocol: useful to bypass ISP blocks.
 
 
 
-### `setObfuscated(bool $obfuscated): self`
+### `setObfuscated(bool $obfuscated)`
 
 Set whether to use the obfuscated protocol: useful to bypass ISP blocks.
 
@@ -310,13 +304,13 @@ Parameters:
 
 
 
-### `getTestMode(): bool`
+### `getTestMode()`
 
 Get whether we're in test mode.
 
 
 
-### `setTestMode(bool $testMode): self`
+### `setTestMode(bool $testMode)`
 
 Set whether we're in test mode.
 
@@ -338,7 +332,7 @@ Get transport identifier.
 
 
 
-### `setTransport(class-string<\danog\MadelineProto\Stream\RawStreamInterface> $transport): self`
+### `setTransport(class-string<\danog\MadelineProto\Stream\RawStreamInterface> $transport)`
 
 Sets the transport protocol to use when connecting to telegram.
 Not supported by HTTP and HTTPS protocols, obfuscation must be enabled.
@@ -358,13 +352,13 @@ Parameters:
 
 
 
-### `getRetry(): bool`
+### `getRetry()`
 
 Get whether to retry connection.
 
 
 
-### `setRetry(bool $retry): self`
+### `setRetry(bool $retry)`
 
 Set whether to retry connection.
 
@@ -375,13 +369,13 @@ Parameters:
 
 
 
-### `getTimeout(): int`
+### `getTimeout()`
 
 Get connection timeout.
 
 
 
-### `setTimeout(int $timeout): self`
+### `setTimeout(int $timeout)`
 
 Set connection timeout.
 
@@ -392,13 +386,13 @@ Parameters:
 
 
 
-### `getPingInterval(): int`
+### `getPingInterval()`
 
 Get ping interval.
 
 
 
-### `setPingInterval(int $pingInterval): self`
+### `setPingInterval(int $pingInterval)`
 
 Set ping interval.
 
@@ -409,13 +403,13 @@ Parameters:
 
 
 
-### `getUseDoH(): bool`
+### `getUseDoH()`
 
 Get whether to use DNS over HTTPS.
 
 
 
-### `setUseDoH(bool $useDoH): self`
+### `setUseDoH(bool $useDoH)`
 
 Set whether to use DNS over HTTPS.
 
@@ -432,7 +426,7 @@ Get bind on specific address and port.
 
 
 
-### `setBindTo(?string $bindTo): self`
+### `setBindTo(?string $bindTo)`
 
 Set bind on specific address and port.
 

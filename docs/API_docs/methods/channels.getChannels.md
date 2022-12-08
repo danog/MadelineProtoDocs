@@ -1,6 +1,6 @@
 ---
 title: "channels.getChannels"
-description: "Get info about [channels/supergroups](https://core.telegram.org/api/channel)"
+description: "You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/channels_getChannels.html
 
 
 
-Get info about [channels/supergroups](https://core.telegram.org/api/channel)
+You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo methods instead (see https://docs.madelineproto.xyz for more info)
 
 ### Parameters:
 

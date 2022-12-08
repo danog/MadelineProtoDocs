@@ -18,17 +18,17 @@ Array caching trait.
 
 ## Method list:
 * `initConnection()`
-* `initStartup(): \Generator`
-* `getTable(): string`
-* `setTable(string $table): self`
+* `initStartup()`
+* `getTable()`
+* `setTable()`
 * `isset(mixed $key): \Promise<bool> true if the offset exists, otherwise false`
-* `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
-* `getArrayCopy(): \Amp\Promise`
-* `unset(string|int $key): \Amp\Promise`
-* `set(string|int $index, mixed $value): \Amp\Promise`
-* `offsetGet(string|int $index): \Amp\Promise`
+* `getInstance(\danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings)`
+* `getArrayCopy()`
+* `unset()`
+* `set()`
+* `offsetGet(string|int $index)`
 * `count(): \Amp\Promise<int>`
-* `clear(): \Amp\Promise`
+* `clear()`
 * `getIterator()`
 
 ## Methods:
@@ -38,31 +38,21 @@ Initialize connection.
 
 
 
-### `initStartup(): \Generator`
+### `initStartup()`
 
 Initialize on startup.
 
 
-#### See also: 
-* `\Generator`
 
-
-
-
-### `getTable(): string`
+### `getTable()`
 
 Get the value of table.
 
 
 
-### `setTable(string $table): self`
+### `setTable()`
 
 Set the value of table.
-
-
-Parameters:
-
-* `$table`: `string`   
 
 
 
@@ -79,14 +69,13 @@ Parameters:
 Return value: true if the offset exists, otherwise false
 
 
-### `getInstance(string $table, \danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise`
+### `getInstance(\danog\MadelineProto\Db\DbArray|array|null $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings)`
 
 
 
 
 Parameters:
 
-* `$table`: `string`   
 * `$previous`: `\danog\MadelineProto\Db\DbArray|array|null`   
 * `$settings`: `\danog\MadelineProto\Settings\Database\DatabaseAbstract`   
 
@@ -103,7 +92,7 @@ Fully typed return value:
 
 
 
-### `getArrayCopy(): \Amp\Promise`
+### `getArrayCopy()`
 
 Get Array copy.
 
@@ -119,14 +108,9 @@ Fully typed return value:
 
 
 
-### `unset(string|int $key): \Amp\Promise`
+### `unset()`
 
 Unset element.
-
-
-Parameters:
-
-* `$key`: `string|int`   
 
 
 Fully typed return value:
@@ -139,29 +123,22 @@ Fully typed return value:
 
 
 
-### `set(string|int $index, mixed $value): \Amp\Promise`
+### `set()`
 
 Set element.
 
 
 Parameters:
 
-* `$index`: `string|int`   
-* `$value`: `mixed`   
-  Full type:
-  ```
-  \T
-  ```
 
 
 #### See also: 
 * `\T`
-* `\Amp\Promise`
 
 
 
 
-### `offsetGet(string|int $index): \Amp\Promise`
+### `offsetGet(string|int $index)`
 
 Get element.
 
@@ -193,14 +170,9 @@ Count number of elements.
 
 
 
-### `clear(): \Amp\Promise`
+### `clear()`
 
 Clear all elements.
-
-
-#### See also: 
-* `\Amp\Promise`
-
 
 
 
