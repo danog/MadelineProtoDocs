@@ -17,22 +17,22 @@ Set sensitive content settings (for viewing or hiding NSFW content)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|sensitive\_enabled|[Bool](/API_docs/types/Bool.html) | Enable NSFW content | Optional|
+|чувствительный\_enabled| [Bool] (/API_docs/types/Bool.html) | Включить контент NSFW | Дополнительно|
 
 
-### Return type: [Bool](/API_docs/types/Bool.html)
+### Тип возвращаемого зlначения: [Bool] (/API_docs/types/Bool.html)
 
 ### Can bots use this method: **NO**
 
 
-### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+### Пример MadelineProto ( [теперь асинхронно для огромной скорости и параллелизма!] (https://docs.madelneproto.xyz/docs/ASYNC.html) ):
 
 
 ```php
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
-include 'madeline.php';
+овкючить 'madeline.php'
 
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
