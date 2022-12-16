@@ -1,6 +1,6 @@
 ---
 title: "messages.getMessages"
-description: "Returns the list of messages by their IDs."
+description: "Please use the [event handler](https://docs.madelineproto.xyz/docs/UPDATES.html)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -20,7 +20,7 @@ redirect_from: /API_docs/methods/messages_getMessages.html
 # Warning: this is probably NOT what you need
 You probably need to use the [updates event handler, instead &raquo;](/docs/UPDATES.html#async-event-driven) :)
 
-Returns the list of messages by their IDs.
+Please use the [event handler](https://docs.madelineproto.xyz/docs/UPDATES.html)
 
 ### Parameters:
 

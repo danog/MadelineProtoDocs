@@ -246,8 +246,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="stats.getBroadcastStats.html" name="stats.getBroadcastStats">Get channel statistics: stats.getBroadcastStats</a>
 
-* <a href="channels.getMessages.html" name="channels.getMessages">Get channel/supergroup messages: channels.getMessages</a>
-
 * <a href="channels.getAdminedPublicChannels.html" name="channels.getAdminedPublicChannels">Get channels/supergroups/geogroups we're admin in. Usually called when the user exceeds the limit for owned public channels/supergroups/geogroups, and the user is given the choice to remove one of his channels/supergroups/geogroups: channels.getAdminedPublicChannels</a>
 
 * <a href="messages.getDiscussionMessage.html" name="messages.getDiscussionMessage">Get discussion message from the associated discussion group of a channel to show it on top of the comment section, without actually joining the group: messages.getDiscussionMessage</a>
@@ -590,6 +588,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.toggleDialogPin.html" name="messages.toggleDialogPin">Pin/unpin a dialog: messages.toggleDialogPin</a>
 
+* <a href="channels.getMessages.html" name="channels.getMessages">Please use the event handler: channels.getMessages</a>
+
+* <a href="messages.getHistory.html" name="messages.getHistory">Please use the event handler: messages.getHistory</a>
+
+* <a href="messages.getMessages.html" name="messages.getMessages">Please use the event handler: messages.getMessages</a>
+
 * <a href="messages.getBotCallbackAnswer.html" name="messages.getBotCallbackAnswer">Press an inline callback button and get a callback answer from the bot: messages.getBotCallbackAnswer</a>
 
 * <a href="messages.getInlineBotResults.html" name="messages.getInlineBotResults">Query an inline bot: messages.getInlineBotResults</a>
@@ -670,8 +674,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getSearchResultsPositions.html" name="messages.getSearchResultsPositions">Returns sparse positions of messages of the specified type in the chat to be used for shared media scroll implementation: messages.getSearchResultsPositions</a>
 
-* <a href="messages.getHistory.html" name="messages.getHistory">Returns the conversation history with one interlocutor / within a chat: messages.getHistory</a>
-
 * <a href="messages.getDialogs.html" name="messages.getDialogs">Returns the current user dialog list: messages.getDialogs</a>
 
 * <a href="contacts.getContacts.html" name="contacts.getContacts">Returns the current user's contact list: contacts.getContacts</a>
@@ -679,8 +681,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="contacts.getBlocked.html" name="contacts.getBlocked">Returns the list of blocked users: contacts.getBlocked</a>
 
 * <a href="contacts.getStatuses.html" name="contacts.getStatuses">Returns the list of contact statuses: contacts.getStatuses</a>
-
-* <a href="messages.getMessages.html" name="messages.getMessages">Returns the list of messages by their IDs: messages.getMessages</a>
 
 * <a href="photos.getUserPhotos.html" name="photos.getUserPhotos">Returns the list of user photos: photos.getUserPhotos</a>
 

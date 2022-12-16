@@ -174,7 +174,7 @@ Main API wrapper for MadelineProto.
 * `requestSecretChat(mixed $user): \Amp\Promise`
 * `resetUpdateState(): mixed`
 * `resolveUsername(string $username): \Amp\Promise`
-* `restart(): void`
+* `restart(): mixed`
 * `rethrow(\Throwable $e, string $file): void`
 * `rleDecode(string $string): string`
 * `rleEncode(string $string): string`
@@ -191,7 +191,7 @@ Main API wrapper for MadelineProto.
 * `sleep(int|float $time): \Amp\Promise`
 * `some((\Promise|\Generator)[] $promises): \Amp\Promise`
 * `start(): \Amp\Promise`
-* `stop(): void`
+* `stop(): mixed`
 * `tdToMTProto(array $params): \Amp\Promise<array>`
 * `tdToTdcli(mixed $params)`
 * `tdcliToTd(array $params, array $key): mixed`
@@ -2353,9 +2353,18 @@ Parameters:
 
 
 
-### `restart(): void`
+### `restart(): mixed`
 
 Restart update loop.
+
+
+Fully typed return value:
+```
+void|\Amp\Promise<void>
+```
+#### See also: 
+* `\Amp\Promise`
+
 
 
 
@@ -2606,9 +2615,18 @@ Log in to telegram (via CLI or web).
 
 
 
-### `stop(): void`
+### `stop(): mixed`
 
 Stop update loop.
+
+
+Fully typed return value:
+```
+void|\Amp\Promise<void>
+```
+#### See also: 
+* `\Amp\Promise`
+
 
 
 
