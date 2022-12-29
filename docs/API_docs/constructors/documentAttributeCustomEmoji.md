@@ -16,6 +16,7 @@ Info about a custom emoji
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |free|[Bool](/API_docs/types/Bool.html) | Optional|Whether this custom emoji can be sent by non-Premium users|
+|text\_color|[Bool](/API_docs/types/Bool.html) | Optional|
 |alt|[string](/API_docs/types/string.html) | Yes|The actual emoji|
 |stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.html) | Optional|The emoji stickerset to which this emoji belongs.|
 
@@ -27,5 +28,5 @@ Info about a custom emoji
 ### Example:
 
 ```
-$documentAttributeCustomEmoji = ['_' => 'documentAttributeCustomEmoji', 'free' => Bool, 'alt' => 'string', 'stickerset' => InputStickerSet];
+$documentAttributeCustomEmoji = ['_' => 'documentAttributeCustomEmoji', 'free' => Bool, 'text_color' => Bool, 'alt' => 'string', 'stickerset' => InputStickerSet];
 ```  

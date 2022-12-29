@@ -20,10 +20,10 @@ Basic exception.
 * `extension(string $extensionName)`
 * `exceptionErrorHandler(): false`
 * `exceptionHandler()`
-* `updateTLTrace(): void`
+* `updateTLTrace()`
 * `getTLTrace()`
 * `setTLTrace(string $tlTrace)`
-* `prettifyTL(string $init, array $trace): void`
+* `prettifyTL(string $init, array $trace)`
 
 ## Methods:
 ### `extension(string $extensionName)`
@@ -49,7 +49,7 @@ ExceptionErrorHandler.
 Error handler
 
 
-### `updateTLTrace(): void`
+### `updateTLTrace()`
 
 Update TL trace.
 
@@ -72,7 +72,7 @@ Parameters:
 
 
 
-### `prettifyTL(string $init, array $trace): void`
+### `prettifyTL(string $init, array $trace)`
 
 Generate async trace.
 

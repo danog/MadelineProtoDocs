@@ -17,6 +17,7 @@ Represents a [bot web app that can be launched from the attachment menu »](http
 |----------|---------------|----------|-------------|
 |inactive|[Bool](/API_docs/types/Bool.html) | Optional|Whether this bot attachment menu entry should be shown in the attachment menu (toggle using [messages.toggleBotInAttachMenu](../methods/messages.toggleBotInAttachMenu.html))|
 |has\_settings|[Bool](/API_docs/types/Bool.html) | Optional|True, if the bot supports the ["settings\_button\_pressed" event »](https://core.telegram.org/api/bots/webapps#settings-button-pressed)|
+|request\_write\_access|[Bool](/API_docs/types/Bool.html) | Optional|
 |bot\_id|[long](/API_docs/types/long.html) | Yes|Bot ID|
 |short\_name|[string](/API_docs/types/string.html) | Yes|Attachment menu item name|
 |peer\_types|Array of [AttachMenuPeerType](/API_docs/types/AttachMenuPeerType.html) | Yes|List of peer types where this attachment should be shown|
@@ -30,5 +31,5 @@ Represents a [bot web app that can be launched from the attachment menu »](http
 ### Example:
 
 ```
-$attachMenuBot = ['_' => 'attachMenuBot', 'inactive' => Bool, 'has_settings' => Bool, 'bot_id' => long, 'short_name' => 'string', 'peer_types' => [AttachMenuPeerType, AttachMenuPeerType], 'icons' => [AttachMenuBotIcon, AttachMenuBotIcon]];
+$attachMenuBot = ['_' => 'attachMenuBot', 'inactive' => Bool, 'has_settings' => Bool, 'request_write_access' => Bool, 'bot_id' => long, 'short_name' => 'string', 'peer_types' => [AttachMenuPeerType, AttachMenuPeerType], 'icons' => [AttachMenuBotIcon, AttachMenuBotIcon]];
 ```  

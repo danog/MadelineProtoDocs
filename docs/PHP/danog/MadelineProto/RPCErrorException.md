@@ -19,10 +19,10 @@ Indicates an error returned by Telegram's API.
 ## Method list:
 * `getLocalization()`
 * `setLocalization()`
-* `updateTLTrace(): void`
+* `updateTLTrace()`
 * `getTLTrace()`
 * `setTLTrace(string $tlTrace)`
-* `prettifyTL(string $init, array $trace): void`
+* `prettifyTL(string $init, array $trace)`
 
 ## Methods:
 ### `getLocalization()`
@@ -37,7 +37,7 @@ Set localized error name.
 
 
 
-### `updateTLTrace(): void`
+### `updateTLTrace()`
 
 Update TL trace.
 
@@ -60,7 +60,7 @@ Parameters:
 
 
 
-### `prettifyTL(string $init, array $trace): void`
+### `prettifyTL(string $init, array $trace)`
 
 Generate async trace.
 

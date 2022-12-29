@@ -17,6 +17,7 @@ New document
 |----------|---------------|----------|-------------|
 |nosound\_video|[Bool](/API_docs/types/Bool.html) | Optional|Whether the specified document is a video file with no audio tracks (a GIF animation (even as MPEG4), for example)|
 |force\_file|[Bool](/API_docs/types/Bool.html) | Optional|Force the media file to be uploaded as document|
+|spoiler|[Bool](/API_docs/types/Bool.html) | Optional|
 |file|[File path or InputFile](/API_docs/types/InputFile.html) | Yes|The [uploaded file](https://core.telegram.org/api/files)|
 |thumb|[File path or InputFile](/API_docs/types/InputFile.html) | Optional|Thumbnail of the document, uploaded as for the file|
 |mime\_type|[string](/API_docs/types/string.html) | Optional|MIME type of document|
@@ -32,5 +33,5 @@ New document
 ### Example:
 
 ```
-$inputMediaUploadedDocument = ['_' => 'inputMediaUploadedDocument', 'nosound_video' => Bool, 'force_file' => Bool, 'file' => InputFile, 'thumb' => InputFile, 'mime_type' => 'string', 'attributes' => [DocumentAttribute, DocumentAttribute], 'stickers' => [InputDocument, InputDocument], 'ttl_seconds' => int];
+$inputMediaUploadedDocument = ['_' => 'inputMediaUploadedDocument', 'nosound_video' => Bool, 'force_file' => Bool, 'spoiler' => Bool, 'file' => InputFile, 'thumb' => InputFile, 'mime_type' => 'string', 'attributes' => [DocumentAttribute, DocumentAttribute], 'stickers' => [InputDocument, InputDocument], 'ttl_seconds' => int];
 ```  

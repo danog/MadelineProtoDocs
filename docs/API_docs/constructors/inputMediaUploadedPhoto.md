@@ -15,6 +15,7 @@ Photo
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|spoiler|[Bool](/API_docs/types/Bool.html) | Optional|
 |file|[File path or InputFile](/API_docs/types/InputFile.html) | Yes|The [uploaded file](https://core.telegram.org/api/files)|
 |stickers|Array of [MessageMedia, Message, Update or InputDocument](/API_docs/types/InputDocument.html) | Optional|Attached mask stickers|
 |ttl\_seconds|[int](/API_docs/types/int.html) | Optional|Time to live in seconds of self-destructing photo|
@@ -27,5 +28,5 @@ Photo
 ### Example:
 
 ```
-$inputMediaUploadedPhoto = ['_' => 'inputMediaUploadedPhoto', 'file' => InputFile, 'stickers' => [InputDocument, InputDocument], 'ttl_seconds' => int];
+$inputMediaUploadedPhoto = ['_' => 'inputMediaUploadedPhoto', 'spoiler' => Bool, 'file' => InputFile, 'stickers' => [InputDocument, InputDocument], 'ttl_seconds' => int];
 ```  

@@ -17,6 +17,7 @@ Installs a previously uploaded photo as a profile photo.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|fallback|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |id|[MessageMedia, Update, Message or InputPhoto](/API_docs/types/InputPhoto.html) | Input photo | Optional|
 
 
@@ -38,6 +39,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$photos_Photo = $MadelineProto->photos->updateProfilePhoto(id: InputPhoto, );
+$photos_Photo = $MadelineProto->photos->updateProfilePhoto(fallback: Bool, id: InputPhoto, );
 ```
 

@@ -112,7 +112,7 @@ Main API wrapper for MadelineProto.
 * `getFullInfo(mixed $id): \Amp\Promise FullInfo object`
 * `getHTTPClient(): mixed`
 * `getHint(): mixed`
-* `getId(mixed $id): int`
+* `getId(mixed $id): mixed`
 * `getInfo(mixed $id, bool $recursive): \Amp\Promise Info object`
 * `getLogger(): mixed`
 * `getMethodNamespaces(): mixed`
@@ -173,7 +173,6 @@ Main API wrapper for MadelineProto.
 * `requestCall(mixed $user): \Amp\Promise`
 * `requestSecretChat(mixed $user): \Amp\Promise`
 * `resetUpdateState(): mixed`
-* `resolveUsername(string $username): \Amp\Promise`
 * `restart(): mixed`
 * `rethrow(\Throwable $e, string $file): void`
 * `rleDecode(string $string): string`
@@ -1432,7 +1431,7 @@ string|\Amp\Promise<string>
 
 
 
-### `getId(mixed $id): int`
+### `getId(mixed $id): mixed`
 
 Get bot API ID from peer object.
 
@@ -1440,6 +1439,15 @@ Get bot API ID from peer object.
 Parameters:
 
 * `$id`: `mixed` Peer  
+
+
+Fully typed return value:
+```
+??int|\Amp\Promise<??int>
+```
+#### See also: 
+* `\Amp\Promise`
+
 
 
 
@@ -2331,22 +2339,6 @@ Fully typed return value:
 ```
 void|\Amp\Promise<void>
 ```
-#### See also: 
-* `\Amp\Promise`
-
-
-
-
-### `resolveUsername(string $username): \Amp\Promise`
-
-Resolve username (use getInfo instead).
-
-
-Parameters:
-
-* `$username`: `string` Username  
-
-
 #### See also: 
 * `\Amp\Promise`
 

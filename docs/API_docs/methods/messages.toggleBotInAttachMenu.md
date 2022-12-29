@@ -17,6 +17,7 @@ Enable or disable [web bot attachment menu »](https://core.telegram.org/api/bot
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|write\_allowed|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Bot ID | Optional|
 |enabled|[Bool](/API_docs/types/Bool.html) | Toggle | Yes|
 
@@ -39,6 +40,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Bool = $MadelineProto->messages->toggleBotInAttachMenu(bot: InputUser, enabled: Bool, );
+$Bool = $MadelineProto->messages->toggleBotInAttachMenu(write_allowed: Bool, bot: InputUser, enabled: Bool, );
 ```
 

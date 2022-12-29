@@ -155,6 +155,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->channels->toggleAntiSpam](/API_docs/methods/channels.toggleAntiSpam.html)  
 
+[$MadelineProto->channels->toggleParticipantsHidden](/API_docs/methods/channels.toggleParticipantsHidden.html)  
+
 [$MadelineProto->payments->assignAppStoreTransaction](/API_docs/methods/payments.assignAppStoreTransaction.html)  
 
 [$MadelineProto->payments->assignPlayMarketTransaction](/API_docs/methods/payments.assignPlayMarketTransaction.html)  

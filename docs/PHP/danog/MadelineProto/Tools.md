@@ -56,7 +56,7 @@ Some tools.
 * `rleDecode(string $string)`
 * `rleEncode(string $string)`
 * `inflateStripped(string $stripped): \string JPG payload`
-* `closeConnection(string $message): void`
+* `closeConnection(string $message)`
 * `end(array $what)`
 * `isAltervista(): bool`
 * `hasVar(object $obj, string $var)`
@@ -583,7 +583,7 @@ Parameters:
 Return value: JPG payload
 
 
-### `closeConnection(string $message): void`
+### `closeConnection(string $message)`
 
 Close connection with client, connected via web.
 

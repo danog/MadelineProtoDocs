@@ -15,6 +15,7 @@ Document that will be downloaded by the telegram servers
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|spoiler|[Bool](/API_docs/types/Bool.html) | Optional|
 |url|[string](/API_docs/types/string.html) | Yes|URL of the document|
 |ttl\_seconds|[int](/API_docs/types/int.html) | Optional|Self-destruct time to live of document|
 
@@ -26,5 +27,5 @@ Document that will be downloaded by the telegram servers
 ### Example:
 
 ```
-$inputMediaDocumentExternal = ['_' => 'inputMediaDocumentExternal', 'url' => 'string', 'ttl_seconds' => int];
+$inputMediaDocumentExternal = ['_' => 'inputMediaDocumentExternal', 'spoiler' => Bool, 'url' => 'string', 'ttl_seconds' => int];
 ```  

@@ -669,6 +669,10 @@ $MadelineProto->[channels->toggleJoinToSend](/API_docs/methods/channels.toggleJo
 
 ***
 <br><br>
+$MadelineProto->[channels->toggleParticipantsHidden](/API_docs/methods/channels.toggleParticipantsHidden.html)(\[channel: [InputChannel](/API_docs/types/InputChannel.html), enabled: [Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.toggleParticipantsHidden"></a>  
+
+***
+<br><br>
 $MadelineProto->[channels->togglePreHistoryHidden](/API_docs/methods/channels.togglePreHistoryHidden.html)(\[channel: [InputChannel](/API_docs/types/InputChannel.html), enabled: [Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.togglePreHistoryHidden"></a>  
 
 ***
@@ -1597,7 +1601,7 @@ $MadelineProto->[messages->startHistoryImport](/API_docs/methods/messages.startH
 
 ***
 <br><br>
-$MadelineProto->[messages->toggleBotInAttachMenu](/API_docs/methods/messages.toggleBotInAttachMenu.html)(\[bot: [InputUser](/API_docs/types/InputUser.html), enabled: [Bool](/API_docs/types/Bool.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.toggleBotInAttachMenu"></a>  
+$MadelineProto->[messages->toggleBotInAttachMenu](/API_docs/methods/messages.toggleBotInAttachMenu.html)(\[write_allowed: [Bool](/API_docs/types/Bool.html), bot: [InputUser](/API_docs/types/InputUser.html), enabled: [Bool](/API_docs/types/Bool.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.toggleBotInAttachMenu"></a>  
 
 ***
 <br><br>
@@ -1829,11 +1833,15 @@ $MadelineProto->[photos->getUserPhotos](/API_docs/methods/photos.getUserPhotos.h
 
 ***
 <br><br>
-$MadelineProto->[photos->updateProfilePhoto](/API_docs/methods/photos.updateProfilePhoto.html)(\[id: [InputPhoto](/API_docs/types/InputPhoto.html), \]) === [$photos.Photo](/API_docs/types/photos.Photo.html)<a name="photos.updateProfilePhoto"></a>  
+$MadelineProto->[photos->updateProfilePhoto](/API_docs/methods/photos.updateProfilePhoto.html)(\[fallback: [Bool](/API_docs/types/Bool.html), id: [InputPhoto](/API_docs/types/InputPhoto.html), \]) === [$photos.Photo](/API_docs/types/photos.Photo.html)<a name="photos.updateProfilePhoto"></a>  
 
 ***
 <br><br>
-$MadelineProto->[photos->uploadProfilePhoto](/API_docs/methods/photos.uploadProfilePhoto.html)(\[file: [InputFile](/API_docs/types/InputFile.html), video: [InputFile](/API_docs/types/InputFile.html), video_start_ts: [double](/API_docs/types/double.html), \]) === [$photos.Photo](/API_docs/types/photos.Photo.html)<a name="photos.uploadProfilePhoto"></a>  
+$MadelineProto->[photos->uploadContactProfilePhoto](/API_docs/methods/photos.uploadContactProfilePhoto.html)(\[suggest: [Bool](/API_docs/types/Bool.html), save: [Bool](/API_docs/types/Bool.html), user_id: [InputUser](/API_docs/types/InputUser.html), file: [InputFile](/API_docs/types/InputFile.html), video: [InputFile](/API_docs/types/InputFile.html), video_start_ts: [double](/API_docs/types/double.html), \]) === [$photos.Photo](/API_docs/types/photos.Photo.html)<a name="photos.uploadContactProfilePhoto"></a>  
+
+***
+<br><br>
+$MadelineProto->[photos->uploadProfilePhoto](/API_docs/methods/photos.uploadProfilePhoto.html)(\[fallback: [Bool](/API_docs/types/Bool.html), file: [InputFile](/API_docs/types/InputFile.html), video: [InputFile](/API_docs/types/InputFile.html), video_start_ts: [double](/API_docs/types/double.html), \]) === [$photos.Photo](/API_docs/types/photos.Photo.html)<a name="photos.uploadProfilePhoto"></a>  
 
 ***
 <br><br>

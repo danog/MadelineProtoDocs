@@ -22,5 +22,7 @@ redirect_from: /API_docs/types/photos_Photo.html
 
 [$MadelineProto->photos->uploadProfilePhoto](/API_docs/methods/photos.uploadProfilePhoto.html)  
 
+[$MadelineProto->photos->uploadContactProfilePhoto](/API_docs/methods/photos.uploadContactProfilePhoto.html)  
+
 
 

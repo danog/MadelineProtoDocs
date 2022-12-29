@@ -27,8 +27,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateUserName](/API_docs/constructors/updateUserName.html)  
 
-[updateUserPhoto](/API_docs/constructors/updateUserPhoto.html)  
-
 [updateNewEncryptedMessage](/API_docs/constructors/updateNewEncryptedMessage.html)  
 
 [updateEncryptedChatTyping](/API_docs/constructors/updateEncryptedChatTyping.html)  
@@ -228,6 +226,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [updateChannelPinnedTopic](/API_docs/constructors/updateChannelPinnedTopic.html)  
 
 [updateChannelPinnedTopics](/API_docs/constructors/updateChannelPinnedTopics.html)  
+
+[updateUser](/API_docs/constructors/updateUser.html)  
 
 
 

@@ -17,6 +17,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [stickerSetFullCovered](/API_docs/constructors/stickerSetFullCovered.html)  
 
+[stickerSetNoCovered](/API_docs/constructors/stickerSetNoCovered.html)  
+
 
 
 ### Methods that return an object of this type (methods):

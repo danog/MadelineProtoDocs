@@ -40,7 +40,7 @@ Logger class.
 
 ## Method list:
 * `constructorFromSettings(\danog\MadelineProto\Settings\Logger $settings)`
-* `log(mixed $param, int $level): void`
+* `log(mixed $param, int $level)`
 * `logger(mixed $param, int $level, string $file)`
 * `getPsrLogger()`
 
@@ -61,7 +61,7 @@ Parameters:
 
 
 
-### `log(mixed $param, int $level): void`
+### `log(mixed $param, int $level)`
 
 Log a message.
 

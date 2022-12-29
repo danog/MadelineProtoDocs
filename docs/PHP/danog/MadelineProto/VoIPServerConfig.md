@@ -17,14 +17,14 @@ Manages storage of VoIP server config.
 
 
 ## Method list:
-* `update(array $config): void`
+* `update(array $config)`
 * `get(): \array The settings`
-* `updateDefault(array $configDefault): void`
+* `updateDefault(array $configDefault)`
 * `getDefault(): \array The settings`
 * `getFinal()`
 
 ## Methods:
-### `update(array $config): void`
+### `update(array $config)`
 
 Update shared call settings.
 
@@ -43,7 +43,7 @@ Get shared call settings.
 Return value: The settings
 
 
-### `updateDefault(array $configDefault): void`
+### `updateDefault(array $configDefault)`
 
 Update default shared call settings.
 
