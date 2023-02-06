@@ -16,6 +16,7 @@ Info about a Telegram Premium purchase
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |restore|[Bool](/API_docs/types/Bool.html) | Optional|Pass true if this is a restore of a Telegram Premium purchase; only for the App Store|
+|upgrade|[Bool](/API_docs/types/Bool.html) | Optional|
 
 
 
@@ -25,5 +26,5 @@ Info about a Telegram Premium purchase
 ### Example:
 
 ```
-$inputStorePaymentPremiumSubscription = ['_' => 'inputStorePaymentPremiumSubscription', 'restore' => Bool];
+$inputStorePaymentPremiumSubscription = ['_' => 'inputStorePaymentPremiumSubscription', 'restore' => Bool, 'upgrade' => Bool];
 ```  

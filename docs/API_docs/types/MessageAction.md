@@ -85,6 +85,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionAttachMenuBotAllowed](/API_docs/constructors/messageActionAttachMenuBotAllowed.html)  
 
+[messageActionRequestedPeer](/API_docs/constructors/messageActionRequestedPeer.html)  
+
 
 
 ### Methods that return an object of this type (methods):

@@ -381,13 +381,13 @@ A third optional parameter can be set, to specify a polling interval in seconds 
 
 MadelineProto provides a very useful async loop APIs, for executing operations periodically or on demand.  
 It's a more flexible and powerful alternative to AMPHP's [repeat](https://amphp.org/amp/event-loop/api#repeat), allowing dynamically changeable repeat periods, resumes and signaling.  
-All loop APIs are defined by one or more [interfaces](https://github.com/danog/MadelineProto/tree/master/src/danog/MadelineProto/Loop): however, to use them, you would usually have to extend only one of the [abstract class implementations](https://github.com/danog/MadelineProto/tree/master/src/danog/MadelineProto/Loop/Impl).  
+All loop APIs are defined by one or more [interfaces](https://github.com/danog/MadelineProto/tree/master/src/Loop): however, to use them, you would usually have to extend only one of the [abstract class implementations](https://github.com/danog/MadelineProto/tree/master/src/Loop/Impl).  
 
 #### Loop
 
 A basic loop, capable of running in background (asynchronously) the code contained in the `loop` function.  
 
-[Interface](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/LoopInterface.php):  
+[Interface](https://github.com/danog/MadelineProto/blob/master/src/Loop/LoopInterface.php):  
 ```php
 namespace danog\Loop;
 
@@ -416,7 +416,7 @@ interface LoopInterface
 }
 ```
 
-Usually one would extend the [Loop implementation](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/Impl/Loop.php).  
+Usually one would extend the [Loop implementation](https://github.com/danog/MadelineProto/blob/master/src/Loop/Impl/Loop.php).  
 The loop function will be run only once, every time the `start` method (already implemented in the abstract Impl class we're extending) is called.  
 The `start` method returns a promise that resolves when the loop finishes running.  
 Multiple calls to `start` will be ignored, logging an error and returning `false` instead of `true`.  
@@ -465,7 +465,7 @@ $MadelineProto->loop($loop->start());
 
 A way more useful loop that exposes APIs to pause and resume the execution of the loop, both from outside of the loop, and in a cron-like manner from inside of the loop.  
 
-[Interface](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/ResumableLoopInterface.php):  
+[Interface](https://github.com/danog/MadelineProto/blob/master/src/Loop/ResumableLoopInterface.php):  
 ```php
 namespace danog\Loop;
 
@@ -489,14 +489,14 @@ interface ResumableLoopInterface extends LoopInterface
 }
 ```
 
-Usually one would extend the [ResumableSignalLoop implementation](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/Impl/ResumableSignalLoop.php).  
+Usually one would extend the [ResumableSignalLoop implementation](https://github.com/danog/MadelineProto/blob/master/src/Loop/Impl/ResumableSignalLoop.php).  
 An example implementation can be seen in the [ResumableSignalLoop section of this page](#resumablesignalloop).  
 
 #### SignalLoop
 
 Yet another loop interface that exposes APIs to send signals to the loop, useful to force the termination of a loop from the outside, or to send data into it.  
 
-[Interface](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/SignalLoopInterface.php):  
+[Interface](https://github.com/danog/MadelineProto/blob/master/src/Loop/SignalLoopInterface.php):  
 ```php
 namespace danog\Loop;
 
@@ -523,9 +523,9 @@ interface SignalLoopInterface extends LoopInterface
 
 ```
 
-Usually one would extend the [ResumableSignalLoop implementation](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/Impl/ResumableSignalLoop.php).  
+Usually one would extend the [ResumableSignalLoop implementation](https://github.com/danog/MadelineProto/blob/master/src/Loop/Impl/ResumableSignalLoop.php).  
 An example implementation can be seen in the [ResumableSignalLoop section of this page](#resumablesignalloop).  
-If you want, you can also extend only the [SignalLoop implementation](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/Impl/SignalLoop.php), but usually a combination of the SignalLoop and ResumableLoop implementations is used, so read on to find out how to do that.  
+If you want, you can also extend only the [SignalLoop implementation](https://github.com/danog/MadelineProto/blob/master/src/Loop/Impl/SignalLoop.php), but usually a combination of the SignalLoop and ResumableLoop implementations is used, so read on to find out how to do that.  
 
 #### ResumableSignalLoop
 
@@ -572,7 +572,7 @@ class MySuperLoop extends ResumableSignalLoop
 }
 ```
 
-[ResumableSignalLoop implementation](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/Impl/ResumableSignalLoop.php).  
+[ResumableSignalLoop implementation](https://github.com/danog/MadelineProto/blob/master/src/Loop/Impl/ResumableSignalLoop.php).  
 As with the [Loop](#loop).  
 
 The difference now is that you can use the `pause` method to pause execution of the loop for a certain period of time (in seconds, supports decimals).  
@@ -583,7 +583,7 @@ The passed signal will then be returned as result of the `waitSignal` method, an
 
 #### GenericLoop
 
-If you want a simpler way to use the `ResumableSignalLoop`, you can use the [GenericLoop](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/Generic/GenericLoop.php).  
+If you want a simpler way to use the `ResumableSignalLoop`, you can use the [GenericLoop](https://github.com/danog/MadelineProto/blob/master/src/Loop/Generic/GenericLoop.php).  
 The constructor accepts three parameters:
 ```php
     /**
@@ -622,7 +622,7 @@ If the callable does not return anything, the loop will behave is if `GenericLoo
 
 #### PeriodicLoop
 
-If you simply want to execute an action every N seconds, [PeriodicLoop](https://github.com/danog/MadelineProto/blob/master/src/danog/MadelineProto/Loop/Generic/PeriodicLoop.php) is the way to go.  
+If you simply want to execute an action every N seconds, [PeriodicLoop](https://github.com/danog/MadelineProto/blob/master/src/Loop/Generic/PeriodicLoop.php) is the way to go.  
 The constructor accepts four parameters:
 ```php
     /**

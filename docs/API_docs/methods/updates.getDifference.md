@@ -1,6 +1,6 @@
 ---
 title: "updates.getDifference"
-description: "You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates"
+description: "You cannot use this method directly, please use the [event handler](https://docs.madelineproto.xyz/docs/UPDATES.html), instead."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/updates_getDifference.html
 
 
 
-You cannot use this method directly, see https://docs.madelineproto.xyz for more info on handling updates
+You cannot use this method directly, please use the [event handler](https://docs.madelineproto.xyz/docs/UPDATES.html), instead.
 
 ### Parameters:
 

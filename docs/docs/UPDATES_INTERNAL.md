@@ -9,10 +9,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 Apart from the basic operations [required to work with MTProto update sequences](https://core.telegram.org/api/updates), implementations also have to take care to postpone updates received via the socket while filling gaps in the event and Update sequences, as well as avoid filling gaps in the same sequence.
 
-An interesting and easy way this can be implemented, instead of using various locks, is by running background loops, like in [MadelineProto](https://github.com/danog/MadelineProto/tree/master/src/danog/MadelineProto/Loop/Update).
+An interesting and easy way this can be implemented, instead of using various locks, is by running background loops, like in [MadelineProto](https://github.com/danog/MadelineProto/tree/master/src/Loop/Update).
 
-* A background _feeder_ loop for each [sequence](#event-sequences), associated to a FIFO queue is initialized and then paused ([event sequence FeedLoop](https://github.com/danog/MadelineProto/blob/2672728fe3b7ddbc03c59299e2483e6708919896/src/danog/MadelineProto/Loop/Update/FeedLoop.php), [common sequence SeqLoop](https://github.com/danog/MadelineProto/blob/2672728fe3b7ddbc03c59299e2483e6708919896/src/danog/MadelineProto/Loop/Update/SeqLoop.php)).
-* Another set of _updater_ loops is started: one for the common [sequence](#event-sequences), one for each channel [sequence](#event-sequences) ([UpdateLoop](https://github.com/danog/MadelineProto/blob/2672728fe3b7ddbc03c59299e2483e6708919896/src/danog/MadelineProto/Loop/Update/UpdateLoop.php)).
+* A background _feeder_ loop for each [sequence](#event-sequences), associated to a FIFO queue is initialized and then paused ([event sequence FeedLoop](https://github.com/danog/MadelineProto/blob/2672728fe3b7ddbc03c59299e2483e6708919896/src/Loop/Update/FeedLoop.php), [common sequence SeqLoop](https://github.com/danog/MadelineProto/blob/2672728fe3b7ddbc03c59299e2483e6708919896/src/Loop/Update/SeqLoop.php)).
+* Another set of _updater_ loops is started: one for the common [sequence](#event-sequences), one for each channel [sequence](#event-sequences) ([UpdateLoop](https://github.com/danog/MadelineProto/blob/2672728fe3b7ddbc03c59299e2483e6708919896/src/Loop/Update/UpdateLoop.php)).
 
 When a getDifference is requested, a signal resumes the _updater_ loop, which starts fetching difference until the gap is filled, then it pauses itself again.
 

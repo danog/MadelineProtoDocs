@@ -28,6 +28,8 @@ redirect_from: /API_docs/types/auth_SentCodeType.html
 
 [auth.sentCodeTypeFragmentSms](/API_docs/constructors/auth.sentCodeTypeFragmentSms.html)  
 
+[auth.sentCodeTypeFirebaseSms](/API_docs/constructors/auth.sentCodeTypeFirebaseSms.html)  
+
 
 
 ### Methods that return an object of this type (methods):

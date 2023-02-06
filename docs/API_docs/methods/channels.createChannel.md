@@ -20,6 +20,7 @@ Create a [supergroup/channel](https://core.telegram.org/api/channel).
 |broadcast|[Bool](/API_docs/types/Bool.html) | Whether to create a [channel](https://core.telegram.org/api/channel) | Optional|
 |megagroup|[Bool](/API_docs/types/Bool.html) | Whether to create a [supergroup](https://core.telegram.org/api/channel) | Optional|
 |for\_import|[Bool](/API_docs/types/Bool.html) | Whether the supergroup is being created to import messages from a foreign chat service using [messages.initHistoryImport](../methods/messages.initHistoryImport.html) | Optional|
+|forum|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |title|[string](/API_docs/types/string.html) | Channel title | Yes|
 |about|[string](/API_docs/types/string.html) | Channel description | Yes|
 |geo\_point|[InputGeoPoint](/API_docs/types/InputGeoPoint.html) | Geogroup location | Optional|
@@ -45,6 +46,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Updates = $MadelineProto->channels->createChannel(broadcast: Bool, megagroup: Bool, for_import: Bool, title: 'string', about: 'string', geo_point: InputGeoPoint, address: 'string', ttl_period: int, );
+$Updates = $MadelineProto->channels->createChannel(broadcast: Bool, megagroup: Bool, for_import: Bool, forum: Bool, title: 'string', about: 'string', geo_point: InputGeoPoint, address: 'string', ttl_period: int, );
 ```
 

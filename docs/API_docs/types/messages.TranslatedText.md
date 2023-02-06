@@ -12,9 +12,7 @@ redirect_from: /API_docs/types/messages_TranslatedText.html
 
 ### Possible values (constructors):
 
-[messages.translateNoResult](/API_docs/constructors/messages.translateNoResult.html)  
-
-[messages.translateResultText](/API_docs/constructors/messages.translateResultText.html)  
+[messages.translateResult](/API_docs/constructors/messages.translateResult.html)  
 
 
 

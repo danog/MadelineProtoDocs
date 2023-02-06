@@ -229,6 +229,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateUser](/API_docs/constructors/updateUser.html)  
 
+[updateAutoSaveSettings](/API_docs/constructors/updateAutoSaveSettings.html)  
+
 
 
 ### Methods that return an object of this type (methods):

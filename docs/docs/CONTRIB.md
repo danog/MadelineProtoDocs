@@ -35,7 +35,7 @@ You can use this scheme of the structure of this project to help yourself:
 
 ```
 build_docs.php - Builds API docs from TL scheme file
-src/danog/MadelineProto/
+src/
     MTProtoTools/
         AckHandler - Handles acknowledgement of incoming and outgoing mtproto messages
         AuthKeyHandler - Handles generation of the temporary and permanent authorization keys

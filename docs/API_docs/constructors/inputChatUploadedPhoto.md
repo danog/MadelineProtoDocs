@@ -18,6 +18,7 @@ New photo to be set as group profile photo.
 |file|[File path or InputFile](/API_docs/types/InputFile.html) | Optional|File saved in parts using the method [upload.saveFilePart](../methods/upload.saveFilePart.html)|
 |video|[File path or InputFile](/API_docs/types/InputFile.html) | Optional|Square video for animated profile picture|
 |video\_start\_ts|[double](/API_docs/types/double.html) | Optional|Timestamp that should be shown as static preview to the user (seconds)|
+|video\_emoji\_markup|[VideoSize](/API_docs/types/VideoSize.html) | Optional|
 
 
 
@@ -27,5 +28,5 @@ New photo to be set as group profile photo.
 ### Example:
 
 ```
-$inputChatUploadedPhoto = ['_' => 'inputChatUploadedPhoto', 'file' => InputFile, 'video' => InputFile, 'video_start_ts' => double];
+$inputChatUploadedPhoto = ['_' => 'inputChatUploadedPhoto', 'file' => InputFile, 'video' => InputFile, 'video_start_ts' => double, 'video_emoji_markup' => VideoSize];
 ```  

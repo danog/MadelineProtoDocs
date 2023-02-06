@@ -15,6 +15,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |----------|---------------|----------|
 |current|[Bool](/API_docs/types/Bool.html) | Optional|
 |can\_purchase\_upgrade|[Bool](/API_docs/types/Bool.html) | Optional|
+|transaction|[string](/API_docs/types/string.html) | Optional|
 |months|[int](/API_docs/types/int.html) | Yes|
 |currency|[string](/API_docs/types/string.html) | Yes|
 |amount|[long](/API_docs/types/long.html) | Yes|
@@ -29,5 +30,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$premiumSubscriptionOption = ['_' => 'premiumSubscriptionOption', 'current' => Bool, 'can_purchase_upgrade' => Bool, 'months' => int, 'currency' => 'string', 'amount' => long, 'bot_url' => 'string', 'store_product' => 'string'];
+$premiumSubscriptionOption = ['_' => 'premiumSubscriptionOption', 'current' => Bool, 'can_purchase_upgrade' => Bool, 'transaction' => 'string', 'months' => int, 'currency' => 'string', 'amount' => long, 'bot_url' => 'string', 'store_product' => 'string'];
 ```  

@@ -25,6 +25,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [AutoDownloadSettings](/API_docs/types/AutoDownloadSettings.html)<a name="AutoDownloadSettings"></a>  
 
+[AutoSaveException](/API_docs/types/AutoSaveException.html)<a name="AutoSaveException"></a>  
+
+[AutoSaveSettings](/API_docs/types/AutoSaveSettings.html)<a name="AutoSaveSettings"></a>  
+
 [AvailableReaction](/API_docs/types/AvailableReaction.html)<a name="AvailableReaction"></a>  
 
 [BankCardOpenUrl](/API_docs/types/BankCardOpenUrl.html)<a name="BankCardOpenUrl"></a>  
@@ -127,11 +131,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [EmailVerifyPurpose](/API_docs/types/EmailVerifyPurpose.html)<a name="EmailVerifyPurpose"></a>  
 
+[EmojiGroup](/API_docs/types/EmojiGroup.html)<a name="EmojiGroup"></a>  
+
 [EmojiKeyword](/API_docs/types/EmojiKeyword.html)<a name="EmojiKeyword"></a>  
 
 [EmojiKeywordsDifference](/API_docs/types/EmojiKeywordsDifference.html)<a name="EmojiKeywordsDifference"></a>  
 
 [EmojiLanguage](/API_docs/types/EmojiLanguage.html)<a name="EmojiLanguage"></a>  
+
+[EmojiList](/API_docs/types/EmojiList.html)<a name="EmojiList"></a>  
 
 [EmojiStatus](/API_docs/types/EmojiStatus.html)<a name="EmojiStatus"></a>  
 
@@ -409,6 +417,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [ReportReason](/API_docs/types/ReportReason.html)<a name="ReportReason"></a>  
 
+[RequestPeerType](/API_docs/types/RequestPeerType.html)<a name="RequestPeerType"></a>  
+
 [RestrictionReason](/API_docs/types/RestrictionReason.html)<a name="RestrictionReason"></a>  
 
 [RichText](/API_docs/types/RichText.html)<a name="RichText"></a>  
@@ -475,6 +485,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [StickerSetCovered](/API_docs/types/StickerSetCovered.html)<a name="StickerSetCovered"></a>  
 
+[TextWithEntities](/API_docs/types/TextWithEntities.html)<a name="TextWithEntities"></a>  
+
 [Theme](/API_docs/types/Theme.html)<a name="Theme"></a>  
 
 [ThemeSettings](/API_docs/types/ThemeSettings.html)<a name="ThemeSettings"></a>  
@@ -528,6 +540,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [account.Authorizations](/API_docs/types/account.Authorizations.html)<a name="account.Authorizations"></a>  
 
 [account.AutoDownloadSettings](/API_docs/types/account.AutoDownloadSettings.html)<a name="account.AutoDownloadSettings"></a>  
+
+[account.AutoSaveSettings](/API_docs/types/account.AutoSaveSettings.html)<a name="account.AutoSaveSettings"></a>  
 
 [account.ContentSettings](/API_docs/types/account.ContentSettings.html)<a name="account.ContentSettings"></a>  
 
@@ -662,6 +676,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [messages.Dialogs](/API_docs/types/messages.Dialogs.html)<a name="messages.Dialogs"></a>  
 
 [messages.DiscussionMessage](/API_docs/types/messages.DiscussionMessage.html)<a name="messages.DiscussionMessage"></a>  
+
+[messages.EmojiGroups](/API_docs/types/messages.EmojiGroups.html)<a name="messages.EmojiGroups"></a>  
 
 [messages.ExportedChatInvite](/API_docs/types/messages.ExportedChatInvite.html)<a name="messages.ExportedChatInvite"></a>  
 

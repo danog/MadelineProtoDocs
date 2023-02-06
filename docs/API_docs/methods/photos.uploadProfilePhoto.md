@@ -21,6 +21,7 @@ Updates current user profile photo.
 |file|[File path or InputFile](/API_docs/types/InputFile.html) | File saved in parts by means of [upload.saveFilePart](../methods/upload.saveFilePart.html) method | Optional|
 |video|[File path or InputFile](/API_docs/types/InputFile.html) | [Animated profile picture](https://core.telegram.org/api/files#animated-profile-pictures) video | Optional|
 |video\_start\_ts|[double](/API_docs/types/double.html) | Floating point UNIX timestamp in seconds, indicating the frame of the video that should be used as static preview. | Optional|
+|video\_emoji\_markup|[VideoSize](/API_docs/types/VideoSize.html) |  | Optional|
 
 
 ### Return type: [photos.Photo](/API_docs/types/photos.Photo.html)
@@ -41,6 +42,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$photos_Photo = $MadelineProto->photos->uploadProfilePhoto(fallback: Bool, file: InputFile, video: InputFile, video_start_ts: double, );
+$photos_Photo = $MadelineProto->photos->uploadProfilePhoto(fallback: Bool, file: InputFile, video: InputFile, video_start_ts: double, video_emoji_markup: VideoSize, );
 ```
 

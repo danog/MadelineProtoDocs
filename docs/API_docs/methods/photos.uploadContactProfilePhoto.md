@@ -21,6 +21,7 @@ redirect_from: /API_docs/methods/photos_uploadContactProfilePhoto.html
 |file|[File path or InputFile](/API_docs/types/InputFile.html) | Optional|
 |video|[File path or InputFile](/API_docs/types/InputFile.html) | Optional|
 |video\_start\_ts|[double](/API_docs/types/double.html) | Optional|
+|video\_emoji\_markup|[VideoSize](/API_docs/types/VideoSize.html) | Optional|
 
 
 ### Return type: [photos.Photo](/API_docs/types/photos.Photo.html)
@@ -41,6 +42,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$photos_Photo = $MadelineProto->photos->uploadContactProfilePhoto(suggest: Bool, save: Bool, user_id: InputUser, file: InputFile, video: InputFile, video_start_ts: double, );
+$photos_Photo = $MadelineProto->photos->uploadContactProfilePhoto(suggest: Bool, save: Bool, user_id: InputUser, file: InputFile, video: InputFile, video_start_ts: double, video_emoji_markup: VideoSize, );
 ```
 

@@ -81,6 +81,10 @@ $MadelineProto->[account->deleteAccount](/API_docs/methods/account.deleteAccount
 
 ***
 <br><br>
+$MadelineProto->[account->deleteAutoSaveExceptions](/API_docs/methods/account.deleteAutoSaveExceptions.html)(\[\]) === [$Bool](/API_docs/types/Bool.html)<a name="account.deleteAutoSaveExceptions"></a>  
+
+***
+<br><br>
 $MadelineProto->[account->deleteSecureValue](/API_docs/methods/account.deleteSecureValue.html)(\[types: \[[SecureValueType](/API_docs/types/SecureValueType.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.deleteSecureValue"></a>  
 
 ***
@@ -109,6 +113,10 @@ $MadelineProto->[account->getAutoDownloadSettings](/API_docs/methods/account.get
 
 ***
 <br><br>
+$MadelineProto->[account->getAutoSaveSettings](/API_docs/methods/account.getAutoSaveSettings.html)(\[\]) === [$account.AutoSaveSettings](/API_docs/types/account.AutoSaveSettings.html)<a name="account.getAutoSaveSettings"></a>  
+
+***
+<br><br>
 $MadelineProto->[account->getChatThemes](/API_docs/methods/account.getChatThemes.html)(\[hash: [long](/API_docs/types/long.html), \]) === [$account.Themes](/API_docs/types/account.Themes.html)<a name="account.getChatThemes"></a>  
 
 ***
@@ -122,6 +130,14 @@ $MadelineProto->[account->getContentSettings](/API_docs/methods/account.getConte
 ***
 <br><br>
 $MadelineProto->[account->getDefaultEmojiStatuses](/API_docs/methods/account.getDefaultEmojiStatuses.html)(\[hash: [long](/API_docs/types/long.html), \]) === [$account.EmojiStatuses](/API_docs/types/account.EmojiStatuses.html)<a name="account.getDefaultEmojiStatuses"></a>  
+
+***
+<br><br>
+$MadelineProto->[account->getDefaultGroupPhotoEmojis](/API_docs/methods/account.getDefaultGroupPhotoEmojis.html)(\[hash: [long](/API_docs/types/long.html), \]) === [$EmojiList](/API_docs/types/EmojiList.html)<a name="account.getDefaultGroupPhotoEmojis"></a>  
+
+***
+<br><br>
+$MadelineProto->[account->getDefaultProfilePhotoEmojis](/API_docs/methods/account.getDefaultProfilePhotoEmojis.html)(\[hash: [long](/API_docs/types/long.html), \]) === [$EmojiList](/API_docs/types/EmojiList.html)<a name="account.getDefaultProfilePhotoEmojis"></a>  
 
 ***
 <br><br>
@@ -246,6 +262,10 @@ $MadelineProto->[account->resetWebAuthorizations](/API_docs/methods/account.rese
 ***
 <br><br>
 $MadelineProto->[account->saveAutoDownloadSettings](/API_docs/methods/account.saveAutoDownloadSettings.html)(\[low: [Bool](/API_docs/types/Bool.html), high: [Bool](/API_docs/types/Bool.html), settings: [AutoDownloadSettings](/API_docs/types/AutoDownloadSettings.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.saveAutoDownloadSettings"></a>  
+
+***
+<br><br>
+$MadelineProto->[account->saveAutoSaveSettings](/API_docs/methods/account.saveAutoSaveSettings.html)(\[users: [Bool](/API_docs/types/Bool.html), chats: [Bool](/API_docs/types/Bool.html), broadcasts: [Bool](/API_docs/types/Bool.html), peer: [InputPeer](/API_docs/types/InputPeer.html), settings: [AutoSaveSettings](/API_docs/types/AutoSaveSettings.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.saveAutoSaveSettings"></a>  
 
 ***
 <br><br>
@@ -421,6 +441,10 @@ $MadelineProto->[auth->recoverPassword](/API_docs/methods/auth.recoverPassword.h
 
 ***
 <br><br>
+$MadelineProto->[auth->requestFirebaseSms](/API_docs/methods/auth.requestFirebaseSms.html)(\[phone_number: [string](/API_docs/types/string.html), phone_code_hash: [string](/API_docs/types/string.html), safety_net_token: [string](/API_docs/types/string.html), ios_push_secret: [string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="auth.requestFirebaseSms"></a>  
+
+***
+<br><br>
 $MadelineProto->[auth->requestPasswordRecovery](/API_docs/methods/auth.requestPasswordRecovery.html)(\[\]) === [$auth.PasswordRecovery](/API_docs/types/auth.PasswordRecovery.html)<a name="auth.requestPasswordRecovery"></a>  
 
 ***
@@ -489,7 +513,7 @@ $MadelineProto->[channels->convertToGigagroup](/API_docs/methods/channels.conver
 
 ***
 <br><br>
-$MadelineProto->[channels->createChannel](/API_docs/methods/channels.createChannel.html)(\[broadcast: [Bool](/API_docs/types/Bool.html), megagroup: [Bool](/API_docs/types/Bool.html), for_import: [Bool](/API_docs/types/Bool.html), title: [string](/API_docs/types/string.html), about: [string](/API_docs/types/string.html), geo_point: [InputGeoPoint](/API_docs/types/InputGeoPoint.html), address: [string](/API_docs/types/string.html), ttl_period: [int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.createChannel"></a>  
+$MadelineProto->[channels->createChannel](/API_docs/methods/channels.createChannel.html)(\[broadcast: [Bool](/API_docs/types/Bool.html), megagroup: [Bool](/API_docs/types/Bool.html), for_import: [Bool](/API_docs/types/Bool.html), forum: [Bool](/API_docs/types/Bool.html), title: [string](/API_docs/types/string.html), about: [string](/API_docs/types/string.html), geo_point: [InputGeoPoint](/API_docs/types/InputGeoPoint.html), address: [string](/API_docs/types/string.html), ttl_period: [int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.createChannel"></a>  
 
 ***
 <br><br>
@@ -1145,6 +1169,10 @@ $MadelineProto->[messages->getDocumentByHash](/API_docs/methods/messages.getDocu
 
 ***
 <br><br>
+$MadelineProto->[messages->getEmojiGroups](/API_docs/methods/messages.getEmojiGroups.html)(\[hash: [int](/API_docs/types/int.html), \]) === [$messages.EmojiGroups](/API_docs/types/messages.EmojiGroups.html)<a name="messages.getEmojiGroups"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->getEmojiKeywords](/API_docs/methods/messages.getEmojiKeywords.html)(\[lang_code: [string](/API_docs/types/string.html), \]) === [$EmojiKeywordsDifference](/API_docs/types/EmojiKeywordsDifference.html)<a name="messages.getEmojiKeywords"></a>  
 
 ***
@@ -1154,6 +1182,14 @@ $MadelineProto->[messages->getEmojiKeywordsDifference](/API_docs/methods/message
 ***
 <br><br>
 $MadelineProto->[messages->getEmojiKeywordsLanguages](/API_docs/methods/messages.getEmojiKeywordsLanguages.html)(\[lang_codes: \[[string](/API_docs/types/string.html)\], \]) === [$Vector\_of\_EmojiLanguage](/API_docs/types/EmojiLanguage.html)<a name="messages.getEmojiKeywordsLanguages"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->getEmojiProfilePhotoGroups](/API_docs/methods/messages.getEmojiProfilePhotoGroups.html)(\[hash: [int](/API_docs/types/int.html), \]) === [$messages.EmojiGroups](/API_docs/types/messages.EmojiGroups.html)<a name="messages.getEmojiProfilePhotoGroups"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->getEmojiStatusGroups](/API_docs/methods/messages.getEmojiStatusGroups.html)(\[hash: [int](/API_docs/types/int.html), \]) === [$messages.EmojiGroups](/API_docs/types/messages.EmojiGroups.html)<a name="messages.getEmojiStatusGroups"></a>  
 
 ***
 <br><br>
@@ -1477,6 +1513,10 @@ $MadelineProto->[messages->search](/API_docs/methods/messages.search.html)(\[pee
 
 ***
 <br><br>
+$MadelineProto->[messages->searchCustomEmoji](/API_docs/methods/messages.searchCustomEmoji.html)(\[emoticon: [string](/API_docs/types/string.html), hash: [long](/API_docs/types/long.html), \]) === [$EmojiList](/API_docs/types/EmojiList.html)<a name="messages.searchCustomEmoji"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->searchGlobal](/API_docs/methods/messages.searchGlobal.html)(\[folder_id: [int](/API_docs/types/int.html), q: [string](/API_docs/types/string.html), filter: [MessagesFilter](/API_docs/types/MessagesFilter.html), min_date: [int](/API_docs/types/int.html), max_date: [int](/API_docs/types/int.html), offset_rate: [int](/API_docs/types/int.html), offset_peer: [InputPeer](/API_docs/types/InputPeer.html), offset_id: [int](/API_docs/types/int.html), limit: [int](/API_docs/types/int.html), \]) === [$messages.Messages](/API_docs/types/messages.Messages.html)<a name="messages.searchGlobal"></a>  
 
 ***
@@ -1486,6 +1526,10 @@ $MadelineProto->[messages->searchSentMedia](/API_docs/methods/messages.searchSen
 ***
 <br><br>
 $MadelineProto->[messages->searchStickerSets](/API_docs/methods/messages.searchStickerSets.html)(\[exclude_featured: [Bool](/API_docs/types/Bool.html), q: [string](/API_docs/types/string.html), hash: [long](/API_docs/types/long.html), \]) === [$messages.FoundStickerSets](/API_docs/types/messages.FoundStickerSets.html)<a name="messages.searchStickerSets"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->sendBotRequestedPeer](/API_docs/methods/messages.sendBotRequestedPeer.html)(\[peer: [InputPeer](/API_docs/types/InputPeer.html), msg_id: [int](/API_docs/types/int.html), button_id: [int](/API_docs/types/int.html), requested_peer: [InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendBotRequestedPeer"></a>  
 
 ***
 <br><br>
@@ -1613,6 +1657,10 @@ $MadelineProto->[messages->toggleNoForwards](/API_docs/methods/messages.toggleNo
 
 ***
 <br><br>
+$MadelineProto->[messages->togglePeerTranslations](/API_docs/methods/messages.togglePeerTranslations.html)(\[disabled: [Bool](/API_docs/types/Bool.html), peer: [InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.togglePeerTranslations"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->toggleStickerSets](/API_docs/methods/messages.toggleStickerSets.html)(\[uninstall: [Bool](/API_docs/types/Bool.html), archive: [Bool](/API_docs/types/Bool.html), unarchive: [Bool](/API_docs/types/Bool.html), stickersets: \[[InputStickerSet](/API_docs/types/InputStickerSet.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.toggleStickerSets"></a>  
 
 ***
@@ -1621,7 +1669,7 @@ $MadelineProto->[messages->transcribeAudio](/API_docs/methods/messages.transcrib
 
 ***
 <br><br>
-$MadelineProto->[messages->translateText](/API_docs/methods/messages.translateText.html)(\[peer: [InputPeer](/API_docs/types/InputPeer.html), msg_id: [int](/API_docs/types/int.html), text: [string](/API_docs/types/string.html), from_lang: [string](/API_docs/types/string.html), to_lang: [string](/API_docs/types/string.html), \]) === [$messages.TranslatedText](/API_docs/types/messages.TranslatedText.html)<a name="messages.translateText"></a>  
+$MadelineProto->[messages->translateText](/API_docs/methods/messages.translateText.html)(\[peer: [InputPeer](/API_docs/types/InputPeer.html), id: \[[int](/API_docs/types/int.html)\], text: \[[TextWithEntities](/API_docs/types/TextWithEntities.html)\], to_lang: [string](/API_docs/types/string.html), \]) === [$messages.TranslatedText](/API_docs/types/messages.TranslatedText.html)<a name="messages.translateText"></a>  
 
 ***
 <br><br>
@@ -1837,11 +1885,11 @@ $MadelineProto->[photos->updateProfilePhoto](/API_docs/methods/photos.updateProf
 
 ***
 <br><br>
-$MadelineProto->[photos->uploadContactProfilePhoto](/API_docs/methods/photos.uploadContactProfilePhoto.html)(\[suggest: [Bool](/API_docs/types/Bool.html), save: [Bool](/API_docs/types/Bool.html), user_id: [InputUser](/API_docs/types/InputUser.html), file: [InputFile](/API_docs/types/InputFile.html), video: [InputFile](/API_docs/types/InputFile.html), video_start_ts: [double](/API_docs/types/double.html), \]) === [$photos.Photo](/API_docs/types/photos.Photo.html)<a name="photos.uploadContactProfilePhoto"></a>  
+$MadelineProto->[photos->uploadContactProfilePhoto](/API_docs/methods/photos.uploadContactProfilePhoto.html)(\[suggest: [Bool](/API_docs/types/Bool.html), save: [Bool](/API_docs/types/Bool.html), user_id: [InputUser](/API_docs/types/InputUser.html), file: [InputFile](/API_docs/types/InputFile.html), video: [InputFile](/API_docs/types/InputFile.html), video_start_ts: [double](/API_docs/types/double.html), video_emoji_markup: [VideoSize](/API_docs/types/VideoSize.html), \]) === [$photos.Photo](/API_docs/types/photos.Photo.html)<a name="photos.uploadContactProfilePhoto"></a>  
 
 ***
 <br><br>
-$MadelineProto->[photos->uploadProfilePhoto](/API_docs/methods/photos.uploadProfilePhoto.html)(\[fallback: [Bool](/API_docs/types/Bool.html), file: [InputFile](/API_docs/types/InputFile.html), video: [InputFile](/API_docs/types/InputFile.html), video_start_ts: [double](/API_docs/types/double.html), \]) === [$photos.Photo](/API_docs/types/photos.Photo.html)<a name="photos.uploadProfilePhoto"></a>  
+$MadelineProto->[photos->uploadProfilePhoto](/API_docs/methods/photos.uploadProfilePhoto.html)(\[fallback: [Bool](/API_docs/types/Bool.html), file: [InputFile](/API_docs/types/InputFile.html), video: [InputFile](/API_docs/types/InputFile.html), video_start_ts: [double](/API_docs/types/double.html), video_emoji_markup: [VideoSize](/API_docs/types/VideoSize.html), \]) === [$photos.Photo](/API_docs/types/photos.Photo.html)<a name="photos.uploadProfilePhoto"></a>  
 
 ***
 <br><br>

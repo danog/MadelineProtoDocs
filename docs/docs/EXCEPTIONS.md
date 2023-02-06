@@ -50,7 +50,7 @@ Every exception features a custom stack trace called `pretty TL trace`, that mak
 ```text
 php > $MadelineProto->messages->sendMessage(peer: '@dd', message: 'hi');
 
-Uncaught \danog\MadelineProto\Exception: This peer is not present in the internal peer database in /home/pwrtelegram/cleanMadeline/src/danog/MadelineProto/MTProtoTools/PeerHandler.php:330
+Uncaught \danog\MadelineProto\Exception: This peer is not present in the internal peer database in /home/pwrtelegram/cleanMadeline/src/MTProtoTools/PeerHandler.php:330
 Revision: 63823fc3cc5070bd8a1ebe91e60e1fd583a2f37f
 
 TL Trace (YOU ABSOLUTELY MUST READ THE TEXT BELOW):
@@ -61,7 +61,7 @@ While serializing:      messages.sendMessage
 CallHandler.php(79):    serializeMethod("messages.sendMessage",{"peer":"@dd","message":"hi"})
 APIFactory.php(142):    methodCall("messages.sendMessage",{"peer":"@dd","message":"hi"},{"datacenter":4})
 php shell code(1):      __call("sendMessage",[{"peer":"@dd","message":"hi"}])
-  thrown in /home/pwrtelegram/cleanMadeline/src/danog/MadelineProto/MTProtoTools/PeerHandler.php on line 330
+  thrown in /home/pwrtelegram/cleanMadeline/src/MTProtoTools/PeerHandler.php on line 330
 php >
 ```
 
@@ -71,7 +71,7 @@ Explanation:
 
 `This peer is not present in the internal peer database`: this error means you have tried sending a message to a peer that does not exist or is not present in MadelineProto's internal peer database: in fact, `@dd` is not a valid telegram username. 
 
-`in /home/pwrtelegram/cleanMadeline/src/danog/MadelineProto/MTProtoTools/PeerHandler.php:330`: this indicates the line where this error was thrown
+`in /home/pwrtelegram/cleanMadeline/src/MTProtoTools/PeerHandler.php:330`: this indicates the line where this error was thrown
 
 `Revision: 63823fc3cc5070bd8a1ebe91e60e1fd583a2f37f`: this indicates the MadelineProto version: **always** include this code when opening github issues or reporting errors in the group.
 

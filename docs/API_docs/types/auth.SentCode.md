@@ -14,6 +14,8 @@ redirect_from: /API_docs/types/auth_SentCode.html
 
 [auth.sentCode](/API_docs/constructors/auth.sentCode.html)  
 
+[auth.sentCodeSuccess](/API_docs/constructors/auth.sentCodeSuccess.html)  
+
 
 
 ### Methods that return an object of this type (methods):
