@@ -14,6 +14,7 @@ pipeline:
       - git config --global user.email "daniil@daniil.it"
       - git config --global user.name "Daniil Gentili"
       - git remote add o git@github.com:danog/MadelineProtoDocs.git 
+      - git fetch o gh-pages
       - cd docs
       - gojekyll clean
       - gojekyll build
