@@ -88,9 +88,6 @@ yield $MadelineProto->botLogin('34298141894:aflknsaflknLKNFS');
 
 Use `botLogin` to login as a bot, see [here for the parameters and the result](https://docs.madelineproto.xyz/botLogin.html).  
 
-Note that when you login as a bot, MadelineProto also logins using the [PWRTelegram](https://pwrtelegram.xyz) API, to allow persistant storage of peers, even after a logout and another login.  
-
-
 ## Changing 2FA password
 
 ```php
