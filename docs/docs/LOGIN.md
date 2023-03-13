@@ -50,44 +50,9 @@ You will get to choose if login as user, or as bot.
 ### API ID
 
 Before logging in, you must obtain an [API ID](https://docs.madelineproto.xyz/docs/SETTINGS.html) (if you're using the [automatic mode you don't have to do this](#automatic)).  
-You can do that either by logging in to [my.telegram.org](https://my.telegram.org) and getting your API ID/hash, or automatically, by using MadelineProto's `MyTelegramOrgWrapper` API:
+You can do that by logging in to [my.telegram.org](https://my.telegram.org) and getting your API ID/hash.
 
-```php
-use danog\MadelineProto\MyTelegramOrgWrapper;
-
-$wrapper = new MyTelegramOrgWrapper($settings);
-$wrapper->async(true);
-
-yield $wrapper->login(yield $wrapper->readline('Enter your phone number (this number must already be signed up to telegram)'));
-
-yield $wrapper->completeLogin(yield $wrapper->readline('Enter the code'));
-
-if (yield $wrapper->loggedIn()) {
-    if (yield $wrapper->hasApp()) {
-        $app = yield $wrapper->getApp();
-    } else {
-        $app_title = yield $wrapper->readLine('Enter the app\'s name, can be anything: ');
-        $short_name = yield $wrapper->readLine('Enter the app\'s short name, can be anything: ');
-        $url = yield $wrapper->readLine('Enter the app/website\'s URL, or t.me/yourusername: ');
-        $description = yield $wrapper->readLine('Describe your app: ');
-        
-        $app = yield $wrapper->createApp(['app_title' => $app_title, 'app_shortname' => $short_name, 'app_url' => $url, 'app_platform' => 'web', 'app_desc' => $description]);
-    }
-    
-    \danog\MadelineProto\Logger::log($app);
-
-}
-```
-
-This wrapper allows you to automatically login to [my.telegram.org](https://my.telegram.org) and create an app associated to the specified user (the specified phone number must be already signed up to telegram).  
-
-[Async](ASYNC.html) is handled exactly like in MadelineProto, with an `async` method that can be used to enable or disable async functionality.  
-The readline wrapper (see [Async](ASYNC.html)) can also be used with the the `MyTelegramOrgWrapper` API.  
-
-The constructor of the API is optional, and can be an array of [MadelineProto settings](https://docs.madelineproto.xyz/docs/SETTINGS.html): it can be used to set proxy info (only HTTP and SOCKS is supported for this).    
-
-
-After you provide an API ID, you can then login (if you're using the [automatic mode you don't have to do this](#automatic)).  
+After you provide an API ID [in the settings](https://docs.madelineproto.xyz/docs/SETTINGS.html), you can then login (if you're using the [automatic mode you don't have to do this](#automatic)).  
 
 ```php
 yield $MadelineProto->phoneLogin(yield $MadelineProto->readline('Enter your phone number: '));
@@ -118,14 +83,6 @@ Use `botLogin` to login as a bot, see [here for the parameters and the result](h
 
 Note that when you login as a bot, MadelineProto also logins using the [PWRTelegram](https://pwrtelegram.xyz) API, to allow persistant storage of peers, even after a logout and another login.  
 
-
-## Logout
-
-```php
-yield $MadelineProto->logout();
-```
-
-If you want to logout, you can use the logout function, see [here for the parameters and the result](https://docs.madelineproto.xyz/logout.html).  
 
 ## Changing 2FA password
 
