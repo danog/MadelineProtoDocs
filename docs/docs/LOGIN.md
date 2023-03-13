@@ -44,6 +44,13 @@ yield $MadelineProto->start();
 This will start an interactive login prompt via console (if running via CLI), or a login web UI (if running in the browser).  
 You will get to choose if login as user, or as bot.
 
+When using the [event handler](https://docs.madelineproto.xyz/docs/UPDATES.html), use the static `startAndLoop` method, instead:
+
+```php
+MyEventHandler::startAndLoop('session.madeline', $settings);
+```
+
+No explicit `$MadelineProto` instance is required or allowed when using the event handler.
 
 ## Manual (user)
 
