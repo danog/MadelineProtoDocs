@@ -477,6 +477,10 @@ $MadelineProto->[bots->getBotCommands](/API_docs/methods/bots.getBotCommands.htm
 
 ***
 <br><br>
+$MadelineProto->[bots->getBotInfo](/API_docs/methods/bots.getBotInfo.html)(\[lang_code: [string](/API_docs/types/string.html), \]) === [$Vector\_of\_string](/API_docs/types/string.html)<a name="bots.getBotInfo"></a>  
+
+***
+<br><br>
 $MadelineProto->[bots->getBotMenuButton](/API_docs/methods/bots.getBotMenuButton.html)(\[user_id: [InputUser](/API_docs/types/InputUser.html), \]) === [$BotMenuButton](/API_docs/types/BotMenuButton.html)<a name="bots.getBotMenuButton"></a>  
 
 ***
@@ -498,6 +502,10 @@ $MadelineProto->[bots->setBotCommands](/API_docs/methods/bots.setBotCommands.htm
 ***
 <br><br>
 $MadelineProto->[bots->setBotGroupDefaultAdminRights](/API_docs/methods/bots.setBotGroupDefaultAdminRights.html)(\[admin_rights: [ChatAdminRights](/API_docs/types/ChatAdminRights.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="bots.setBotGroupDefaultAdminRights"></a>  
+
+***
+<br><br>
+$MadelineProto->[bots->setBotInfo](/API_docs/methods/bots.setBotInfo.html)(\[lang_code: [string](/API_docs/types/string.html), about: [string](/API_docs/types/string.html), description: [string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="bots.setBotInfo"></a>  
 
 ***
 <br><br>
@@ -841,7 +849,7 @@ $MadelineProto->[help->getAppChangelog](/API_docs/methods/help.getAppChangelog.h
 
 ***
 <br><br>
-$MadelineProto->[help->getAppConfig](/API_docs/methods/help.getAppConfig.html)(\[\]) === [$JSONValue](/API_docs/types/JSONValue.html)<a name="help.getAppConfig"></a>  
+$MadelineProto->[help->getAppConfig](/API_docs/methods/help.getAppConfig.html)(\[hash: [int](/API_docs/types/int.html), \]) === [$help.AppConfig](/API_docs/types/help.AppConfig.html)<a name="help.getAppConfig"></a>  
 
 ***
 <br><br>
@@ -1121,6 +1129,10 @@ $MadelineProto->[messages->getAvailableReactions](/API_docs/methods/messages.get
 
 ***
 <br><br>
+$MadelineProto->[messages->getBotApp](/API_docs/methods/messages.getBotApp.html)(\[app: [InputBotApp](/API_docs/types/InputBotApp.html), hash: [long](/API_docs/types/long.html), \]) === [$messages.BotApp](/API_docs/types/messages.BotApp.html)<a name="messages.getBotApp"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->getBotCallbackAnswer](/API_docs/methods/messages.getBotCallbackAnswer.html)(\[game: [Bool](/API_docs/types/Bool.html), peer: [InputPeer](/API_docs/types/InputPeer.html), msg_id: [int](/API_docs/types/int.html), data: [bytes](/API_docs/types/bytes.html), password: [InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html), \]) === [$messages.BotCallbackAnswer](/API_docs/types/messages.BotCallbackAnswer.html)<a name="messages.getBotCallbackAnswer"></a>  
 
 ***
@@ -1257,7 +1269,7 @@ $MadelineProto->[messages->getMessageReactionsList](/API_docs/methods/messages.g
 
 ***
 <br><br>
-$MadelineProto->[messages->getMessageReadParticipants](/API_docs/methods/messages.getMessageReadParticipants.html)(\[peer: [InputPeer](/API_docs/types/InputPeer.html), msg_id: [int](/API_docs/types/int.html), \]) === [$Vector\_of\_long](/API_docs/types/long.html)<a name="messages.getMessageReadParticipants"></a>  
+$MadelineProto->[messages->getMessageReadParticipants](/API_docs/methods/messages.getMessageReadParticipants.html)(\[peer: [InputPeer](/API_docs/types/InputPeer.html), msg_id: [int](/API_docs/types/int.html), \]) === [$Vector\_of\_ReadParticipantDate](/API_docs/types/ReadParticipantDate.html)<a name="messages.getMessageReadParticipants"></a>  
 
 ***
 <br><br>
@@ -1477,11 +1489,15 @@ $MadelineProto->[messages->reportSpam](/API_docs/methods/messages.reportSpam.htm
 
 ***
 <br><br>
+$MadelineProto->[messages->requestAppWebView](/API_docs/methods/messages.requestAppWebView.html)(\[write_allowed: [Bool](/API_docs/types/Bool.html), peer: [InputPeer](/API_docs/types/InputPeer.html), app: [InputBotApp](/API_docs/types/InputBotApp.html), start_param: [string](/API_docs/types/string.html), theme_params: [DataJSON](/API_docs/types/DataJSON.html), platform: [string](/API_docs/types/string.html), \]) === [$AppWebViewResult](/API_docs/types/AppWebViewResult.html)<a name="messages.requestAppWebView"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->requestEncryption](/API_docs/methods/messages.requestEncryption.html)(\[user_id: [InputUser](/API_docs/types/InputUser.html), g_a: [bytes](/API_docs/types/bytes.html), \]) === [$EncryptedChat](/API_docs/types/EncryptedChat.html)<a name="messages.requestEncryption"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->requestSimpleWebView](/API_docs/methods/messages.requestSimpleWebView.html)(\[bot: [InputUser](/API_docs/types/InputUser.html), url: [string](/API_docs/types/string.html), theme_params: [DataJSON](/API_docs/types/DataJSON.html), platform: [string](/API_docs/types/string.html), \]) === [$SimpleWebViewResult](/API_docs/types/SimpleWebViewResult.html)<a name="messages.requestSimpleWebView"></a>  
+$MadelineProto->[messages->requestSimpleWebView](/API_docs/methods/messages.requestSimpleWebView.html)(\[from_switch_webview: [Bool](/API_docs/types/Bool.html), bot: [InputUser](/API_docs/types/InputUser.html), url: [string](/API_docs/types/string.html), theme_params: [DataJSON](/API_docs/types/DataJSON.html), platform: [string](/API_docs/types/string.html), \]) === [$SimpleWebViewResult](/API_docs/types/SimpleWebViewResult.html)<a name="messages.requestSimpleWebView"></a>  
 
 ***
 <br><br>
@@ -1625,7 +1641,7 @@ $MadelineProto->[messages->setHistoryTTL](/API_docs/methods/messages.setHistoryT
 
 ***
 <br><br>
-$MadelineProto->[messages->setInlineBotResults](/API_docs/methods/messages.setInlineBotResults.html)(\[gallery: [Bool](/API_docs/types/Bool.html), private: [Bool](/API_docs/types/Bool.html), query_id: [long](/API_docs/types/long.html), results: \[[InputBotInlineResult](/API_docs/types/InputBotInlineResult.html)\], cache_time: [int](/API_docs/types/int.html), next_offset: [string](/API_docs/types/string.html), switch_pm: [InlineBotSwitchPM](/API_docs/types/InlineBotSwitchPM.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.setInlineBotResults"></a>  
+$MadelineProto->[messages->setInlineBotResults](/API_docs/methods/messages.setInlineBotResults.html)(\[gallery: [Bool](/API_docs/types/Bool.html), private: [Bool](/API_docs/types/Bool.html), query_id: [long](/API_docs/types/long.html), results: \[[InputBotInlineResult](/API_docs/types/InputBotInlineResult.html)\], cache_time: [int](/API_docs/types/int.html), next_offset: [string](/API_docs/types/string.html), switch_pm: [InlineBotSwitchPM](/API_docs/types/InlineBotSwitchPM.html), switch_webview: [InlineBotWebView](/API_docs/types/InlineBotWebView.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.setInlineBotResults"></a>  
 
 ***
 <br><br>
@@ -1917,6 +1933,10 @@ $MadelineProto->[stickers->addStickerToSet](/API_docs/methods/stickers.addSticke
 
 ***
 <br><br>
+$MadelineProto->[stickers->changeSticker](/API_docs/methods/stickers.changeSticker.html)(\[sticker: [InputDocument](/API_docs/types/InputDocument.html), emoji: [string](/API_docs/types/string.html), mask_coords: [MaskCoords](/API_docs/types/MaskCoords.html), keywords: [string](/API_docs/types/string.html), \]) === [$messages.StickerSet](/API_docs/types/messages.StickerSet.html)<a name="stickers.changeSticker"></a>  
+
+***
+<br><br>
 $MadelineProto->[stickers->changeStickerPosition](/API_docs/methods/stickers.changeStickerPosition.html)(\[sticker: [InputDocument](/API_docs/types/InputDocument.html), position: [int](/API_docs/types/int.html), \]) === [$messages.StickerSet](/API_docs/types/messages.StickerSet.html)<a name="stickers.changeStickerPosition"></a>  
 
 ***
@@ -1925,7 +1945,11 @@ $MadelineProto->[stickers->checkShortName](/API_docs/methods/stickers.checkShort
 
 ***
 <br><br>
-$MadelineProto->[stickers->createStickerSet](/API_docs/methods/stickers.createStickerSet.html)(\[masks: [Bool](/API_docs/types/Bool.html), animated: [Bool](/API_docs/types/Bool.html), videos: [Bool](/API_docs/types/Bool.html), user_id: [InputUser](/API_docs/types/InputUser.html), title: [string](/API_docs/types/string.html), short_name: [string](/API_docs/types/string.html), thumb: [InputDocument](/API_docs/types/InputDocument.html), stickers: \[[InputStickerSetItem](/API_docs/types/InputStickerSetItem.html)\], software: [string](/API_docs/types/string.html), \]) === [$messages.StickerSet](/API_docs/types/messages.StickerSet.html)<a name="stickers.createStickerSet"></a>  
+$MadelineProto->[stickers->createStickerSet](/API_docs/methods/stickers.createStickerSet.html)(\[masks: [Bool](/API_docs/types/Bool.html), animated: [Bool](/API_docs/types/Bool.html), videos: [Bool](/API_docs/types/Bool.html), emojis: [Bool](/API_docs/types/Bool.html), text_color: [Bool](/API_docs/types/Bool.html), user_id: [InputUser](/API_docs/types/InputUser.html), title: [string](/API_docs/types/string.html), short_name: [string](/API_docs/types/string.html), thumb: [InputDocument](/API_docs/types/InputDocument.html), stickers: \[[InputStickerSetItem](/API_docs/types/InputStickerSetItem.html)\], software: [string](/API_docs/types/string.html), \]) === [$messages.StickerSet](/API_docs/types/messages.StickerSet.html)<a name="stickers.createStickerSet"></a>  
+
+***
+<br><br>
+$MadelineProto->[stickers->deleteStickerSet](/API_docs/methods/stickers.deleteStickerSet.html)(\[stickerset: [InputStickerSet](/API_docs/types/InputStickerSet.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="stickers.deleteStickerSet"></a>  
 
 ***
 <br><br>
@@ -1933,7 +1957,11 @@ $MadelineProto->[stickers->removeStickerFromSet](/API_docs/methods/stickers.remo
 
 ***
 <br><br>
-$MadelineProto->[stickers->setStickerSetThumb](/API_docs/methods/stickers.setStickerSetThumb.html)(\[stickerset: [InputStickerSet](/API_docs/types/InputStickerSet.html), thumb: [InputDocument](/API_docs/types/InputDocument.html), \]) === [$messages.StickerSet](/API_docs/types/messages.StickerSet.html)<a name="stickers.setStickerSetThumb"></a>  
+$MadelineProto->[stickers->renameStickerSet](/API_docs/methods/stickers.renameStickerSet.html)(\[stickerset: [InputStickerSet](/API_docs/types/InputStickerSet.html), title: [string](/API_docs/types/string.html), \]) === [$messages.StickerSet](/API_docs/types/messages.StickerSet.html)<a name="stickers.renameStickerSet"></a>  
+
+***
+<br><br>
+$MadelineProto->[stickers->setStickerSetThumb](/API_docs/methods/stickers.setStickerSetThumb.html)(\[stickerset: [InputStickerSet](/API_docs/types/InputStickerSet.html), thumb: [InputDocument](/API_docs/types/InputDocument.html), thumb_document_id: [long](/API_docs/types/long.html), \]) === [$messages.StickerSet](/API_docs/types/messages.StickerSet.html)<a name="stickers.setStickerSetThumb"></a>  
 
 ***
 <br><br>

@@ -18,6 +18,7 @@ Sticker in a stickerset
 |document|[MessageMedia, Message, Update or InputDocument](/API_docs/types/InputDocument.html) | Optional|The sticker|
 |emoji|[string](/API_docs/types/string.html) | Yes|Associated emoji|
 |mask\_coords|[MaskCoords](/API_docs/types/MaskCoords.html) | Optional|Coordinates for mask sticker|
+|keywords|[string](/API_docs/types/string.html) | Optional|
 
 
 
@@ -27,5 +28,5 @@ Sticker in a stickerset
 ### Example:
 
 ```
-$inputStickerSetItem = ['_' => 'inputStickerSetItem', 'document' => InputDocument, 'emoji' => 'string', 'mask_coords' => MaskCoords];
+$inputStickerSetItem = ['_' => 'inputStickerSetItem', 'document' => InputDocument, 'emoji' => 'string', 'mask_coords' => MaskCoords, 'keywords' => 'string'];
 ```  

@@ -20,6 +20,7 @@ Result of a query to an inline bot
 |query\_id|[long](/API_docs/types/long.html) | Yes|Query ID|
 |next\_offset|[string](/API_docs/types/string.html) | Optional|The next offset to use when navigating through results|
 |switch\_pm|[InlineBotSwitchPM](/API_docs/types/InlineBotSwitchPM.html) | Optional|Whether the bot requested the user to message them in private|
+|switch\_webview|[InlineBotWebView](/API_docs/types/InlineBotWebView.html) | Optional|
 |results|Array of [BotInlineResult](/API_docs/types/BotInlineResult.html) | Yes|The results|
 |cache\_time|[int](/API_docs/types/int.html) | Yes|Caching validity of the results|
 |users|Array of [User](/API_docs/types/User.html) | Yes|Users mentioned in the results|
@@ -32,5 +33,5 @@ Result of a query to an inline bot
 ### Example:
 
 ```
-$messages_botResults = ['_' => 'messages.botResults', 'gallery' => Bool, 'query_id' => long, 'next_offset' => 'string', 'switch_pm' => InlineBotSwitchPM, 'results' => [BotInlineResult, BotInlineResult], 'cache_time' => int, 'users' => [User, User]];
+$messages_botResults = ['_' => 'messages.botResults', 'gallery' => Bool, 'query_id' => long, 'next_offset' => 'string', 'switch_pm' => InlineBotSwitchPM, 'switch_webview' => InlineBotWebView, 'results' => [BotInlineResult, BotInlineResult], 'cache_time' => int, 'users' => [User, User]];
 ```  

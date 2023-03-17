@@ -21,7 +21,7 @@ Get which users read a specific message: only available for groups and supergrou
 |msg\_id|[int](/API_docs/types/int.html) | Message ID | Optional|
 
 
-### Return type: [Vector\_of\_long](/API_docs/types/long.html)
+### Return type: [Vector\_of\_ReadParticipantDate](/API_docs/types/ReadParticipantDate.html)
 
 ### Can bots use this method: **NO**
 
@@ -39,6 +39,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$Vector_of_long = $MadelineProto->messages->getMessageReadParticipants(peer: InputPeer, msg_id: int, );
+$Vector_of_ReadParticipantDate = $MadelineProto->messages->getMessageReadParticipants(peer: InputPeer, msg_id: int, );
 ```
 

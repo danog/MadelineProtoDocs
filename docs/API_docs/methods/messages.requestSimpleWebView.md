@@ -17,6 +17,7 @@ Open a [bot web app](https://core.telegram.org/api/bots/webapps).
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|from\_switch\_webview|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Bot that owns the webapp | Optional|
 |url|[string](/API_docs/types/string.html) | Web app URL | Yes|
 |theme\_params|[DataJSON](/API_docs/types/DataJSON.html) | Theme parameters | Optional|
@@ -41,6 +42,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$SimpleWebViewResult = $MadelineProto->messages->requestSimpleWebView(bot: InputUser, url: 'string', theme_params: DataJSON, platform: 'string', );
+$SimpleWebViewResult = $MadelineProto->messages->requestSimpleWebView(from_switch_webview: Bool, bot: InputUser, url: 'string', theme_params: DataJSON, platform: 'string', );
 ```
 

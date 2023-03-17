@@ -24,6 +24,8 @@ A [sponsored message](https://core.telegram.org/api/sponsored-messages).
 |start\_param|[string](/API_docs/types/string.html) | Optional|Parameter for the bot start message if the sponsored chat is a chat with a bot.|
 |message|[string](/API_docs/types/string.html) | Yes|Sponsored message|
 |entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|[Message entities for styled text](https://core.telegram.org/api/entities)|
+|sponsor\_info|[string](/API_docs/types/string.html) | Optional|
+|additional\_info|[string](/API_docs/types/string.html) | Optional|
 
 
 
@@ -33,5 +35,5 @@ A [sponsored message](https://core.telegram.org/api/sponsored-messages).
 ### Example:
 
 ```
-$sponsoredMessage = ['_' => 'sponsoredMessage', 'recommended' => Bool, 'show_peer_photo' => Bool, 'from_id' => Peer, 'chat_invite' => ChatInvite, 'chat_invite_hash' => 'string', 'channel_post' => int, 'start_param' => 'string', 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]];
+$sponsoredMessage = ['_' => 'sponsoredMessage', 'recommended' => Bool, 'show_peer_photo' => Bool, 'from_id' => Peer, 'chat_invite' => ChatInvite, 'chat_invite_hash' => 'string', 'channel_post' => int, 'start_param' => 'string', 'message' => 'string', 'entities' => [MessageEntity, MessageEntity], 'sponsor_info' => 'string', 'additional_info' => 'string'];
 ```  

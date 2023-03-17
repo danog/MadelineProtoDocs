@@ -32,5 +32,9 @@ redirect_from: /API_docs/types/messages_StickerSet.html
 
 [$MadelineProto->stickers->setStickerSetThumb](/API_docs/methods/stickers.setStickerSetThumb.html)  
 
+[$MadelineProto->stickers->changeSticker](/API_docs/methods/stickers.changeSticker.html)  
+
+[$MadelineProto->stickers->renameStickerSet](/API_docs/methods/stickers.renameStickerSet.html)  
+
 
 

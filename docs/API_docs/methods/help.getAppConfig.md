@@ -13,9 +13,14 @@ redirect_from: /API_docs/methods/help_getAppConfig.html
 
 Get app-specific configuration, see [client configuration](https://core.telegram.org/api/config#client-configuration) for more info on the result.
 
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|Array of [long](/API_docs/types/long.html) |  | Optional|
 
 
-### Return type: [JSONValue](/API_docs/types/JSONValue.html)
+### Return type: [help.AppConfig](/API_docs/types/help.AppConfig.html)
 
 ### Can bots use this method: **NO**
 
@@ -33,6 +38,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$JSONValue = $MadelineProto->help->getAppConfig();
+$help_AppConfig = $MadelineProto->help->getAppConfig(hash: [long, long], );
 ```
 

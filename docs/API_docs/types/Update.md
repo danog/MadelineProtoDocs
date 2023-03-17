@@ -231,6 +231,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateAutoSaveSettings](/API_docs/constructors/updateAutoSaveSettings.html)  
 
+[updateGroupInvitePrivacyForbidden](/API_docs/constructors/updateGroupInvitePrivacyForbidden.html)  
+
 
 
 ### Methods that return an object of this type (methods):

@@ -18,6 +18,7 @@ How a certain peer reacted to the message
 |big|[Bool](/API_docs/types/Bool.html) | Optional|Whether the specified [message reaction »](https://core.telegram.org/api/reactions) should elicit a bigger and longer reaction|
 |unread|[Bool](/API_docs/types/Bool.html) | Optional|Whether the reaction wasn't yet marked as read by the current user|
 |peer\_id|[Peer](/API_docs/types/Peer.html) | Yes|Peer that reacted to the message|
+|date|[int](/API_docs/types/int.html) | Yes|
 |reaction|[Reaction](/API_docs/types/Reaction.html) | Optional|
 
 
@@ -28,5 +29,5 @@ How a certain peer reacted to the message
 ### Example:
 
 ```
-$messagePeerReaction = ['_' => 'messagePeerReaction', 'big' => Bool, 'unread' => Bool, 'peer_id' => Peer, 'reaction' => Reaction];
+$messagePeerReaction = ['_' => 'messagePeerReaction', 'big' => Bool, 'unread' => Bool, 'peer_id' => Peer, 'date' => int, 'reaction' => Reaction];
 ```  

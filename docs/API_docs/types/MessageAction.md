@@ -83,8 +83,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionSuggestProfilePhoto](/API_docs/constructors/messageActionSuggestProfilePhoto.html)  
 
-[messageActionAttachMenuBotAllowed](/API_docs/constructors/messageActionAttachMenuBotAllowed.html)  
-
 [messageActionRequestedPeer](/API_docs/constructors/messageActionRequestedPeer.html)  
 
 

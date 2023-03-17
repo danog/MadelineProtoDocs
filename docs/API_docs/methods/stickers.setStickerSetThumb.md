@@ -19,6 +19,7 @@ Set stickerset thumbnail
 |----------|---------------|-------------|----------|
 |stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.html) | Stickerset | Optional|
 |thumb|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | Thumbnail | Optional|
+|thumb\_document\_id|[long](/API_docs/types/long.html) |  | Optional|
 
 
 ### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.html)
@@ -39,6 +40,6 @@ $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
 // PHP 8+ syntax, use an array on PHP 7.
-$messages_StickerSet = $MadelineProto->stickers->setStickerSetThumb(stickerset: InputStickerSet, thumb: InputDocument, );
+$messages_StickerSet = $MadelineProto->stickers->setStickerSetThumb(stickerset: InputStickerSet, thumb: InputDocument, thumb_document_id: long, );
 ```
 

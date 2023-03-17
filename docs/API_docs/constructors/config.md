@@ -15,13 +15,10 @@ Current configuration
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|phonecalls\_enabled|[Bool](/API_docs/types/Bool.html) | Optional|Whether phone calls can be used|
 |default\_p2p\_contacts|[Bool](/API_docs/types/Bool.html) | Optional|Whether the client should use P2P by default for phone calls with contacts|
 |preload\_featured\_stickers|[Bool](/API_docs/types/Bool.html) | Optional|Whether the client should preload featured stickers|
-|ignore\_phone\_entities|[Bool](/API_docs/types/Bool.html) | Optional|Whether the client should ignore phone [entities](https://core.telegram.org/api/entities)|
 |revoke\_pm\_inbox|[Bool](/API_docs/types/Bool.html) | Optional|Whether incoming private messages can be deleted for both participants|
 |blocked\_mode|[Bool](/API_docs/types/Bool.html) | Optional|Indicates that telegram is *probably* censored by governments/ISPs in the current region|
-|pfs\_enabled|[Bool](/API_docs/types/Bool.html) | Optional|Whether [pfs](https://core.telegram.org/api/pfs) was used|
 |force\_try\_ipv6|[Bool](/API_docs/types/Bool.html) | Optional|Whether to forcefully connect using IPv6 [dcOptions](../types/DcOption.html), even if the client knows that IPv4 is available.|
 |date|[int](/API_docs/types/int.html) | Yes|Current date at the server|
 |expires|[int](/API_docs/types/int.html) | Yes|Expiration date of this config: when it expires it'll have to be refetched using [help.getConfig](../methods/help.getConfig.html)|
@@ -40,17 +37,13 @@ Current configuration
 |notify\_default\_delay\_ms|[int](/API_docs/types/int.html) | Yes|If some other client is online, then delay notification for `notification_default_delay_ms` milliseconds|
 |push\_chat\_period\_ms|[int](/API_docs/types/int.html) | Yes|Not for client use|
 |push\_chat\_limit|[int](/API_docs/types/int.html) | Yes|Not for client use|
-|saved\_gifs\_limit|[int](/API_docs/types/int.html) | Yes|Maximum count of saved gifs|
 |edit\_time\_limit|[int](/API_docs/types/int.html) | Yes|Only messages with age smaller than the one specified can be edited|
 |revoke\_time\_limit|[int](/API_docs/types/int.html) | Yes|Only channel/supergroup messages with age smaller than the specified can be deleted|
 |revoke\_pm\_time\_limit|[int](/API_docs/types/int.html) | Yes|Only private messages with age smaller than the specified can be deleted|
 |rating\_e\_decay|[int](/API_docs/types/int.html) | Yes|Exponential decay rate for computing [top peer rating](https://core.telegram.org/api/top-rating)|
 |stickers\_recent\_limit|[int](/API_docs/types/int.html) | Yes|Maximum number of recent stickers|
-|stickers\_faved\_limit|[int](/API_docs/types/int.html) | Yes|Maximum number of faved stickers|
 |channels\_read\_media\_period|[int](/API_docs/types/int.html) | Yes|Indicates that round videos (video notes) and voice messages sent in channels and older than the specified period must be marked as read|
 |tmp\_sessions|[int](/API_docs/types/int.html) | Optional|Temporary [passport](https://core.telegram.org/passport) sessions|
-|pinned\_dialogs\_count\_max|[int](/API_docs/types/int.html) | Yes|Maximum count of pinned dialogs|
-|pinned\_infolder\_count\_max|[int](/API_docs/types/int.html) | Yes|Maximum count of dialogs per folder|
 |call\_receive\_timeout\_ms|[int](/API_docs/types/int.html) | Yes|Maximum allowed outgoing ring time in VoIP calls: if the user we're calling doesn't reply within the specified time (in milliseconds), we should hang up the call|
 |call\_ring\_timeout\_ms|[int](/API_docs/types/int.html) | Yes|Maximum allowed incoming ring time in VoIP calls: if the current user doesn't reply within the specified time (in milliseconds), the call will be automatically refused|
 |call\_connect\_timeout\_ms|[int](/API_docs/types/int.html) | Yes|VoIP connection timeout: if the instance of libtgvoip on the other side of the call doesn't connect to our instance of libtgvoip within the specified time (in milliseconds), the call must be aborted|
@@ -68,6 +61,7 @@ Current configuration
 |lang\_pack\_version|[int](/API_docs/types/int.html) | Optional|Language pack version|
 |base\_lang\_pack\_version|[int](/API_docs/types/int.html) | Optional|Basic language pack version|
 |reactions\_default|[Reaction](/API_docs/types/Reaction.html) | Optional|
+|autologin\_token|[string](/API_docs/types/string.html) | Optional|
 
 
 
@@ -77,5 +71,5 @@ Current configuration
 ### Example:
 
 ```
-$config = ['_' => 'config', 'phonecalls_enabled' => Bool, 'default_p2p_contacts' => Bool, 'preload_featured_stickers' => Bool, 'ignore_phone_entities' => Bool, 'revoke_pm_inbox' => Bool, 'blocked_mode' => Bool, 'pfs_enabled' => Bool, 'force_try_ipv6' => Bool, 'date' => int, 'expires' => int, 'test_mode' => Bool, 'this_dc' => int, 'dc_options' => [DcOption, DcOption], 'dc_txt_domain_name' => 'string', 'chat_size_max' => int, 'megagroup_size_max' => int, 'forwarded_count_max' => int, 'online_update_period_ms' => int, 'offline_blur_timeout_ms' => int, 'offline_idle_timeout_ms' => int, 'online_cloud_timeout_ms' => int, 'notify_cloud_delay_ms' => int, 'notify_default_delay_ms' => int, 'push_chat_period_ms' => int, 'push_chat_limit' => int, 'saved_gifs_limit' => int, 'edit_time_limit' => int, 'revoke_time_limit' => int, 'revoke_pm_time_limit' => int, 'rating_e_decay' => int, 'stickers_recent_limit' => int, 'stickers_faved_limit' => int, 'channels_read_media_period' => int, 'tmp_sessions' => int, 'pinned_dialogs_count_max' => int, 'pinned_infolder_count_max' => int, 'call_receive_timeout_ms' => int, 'call_ring_timeout_ms' => int, 'call_connect_timeout_ms' => int, 'call_packet_timeout_ms' => int, 'me_url_prefix' => 'string', 'autoupdate_url_prefix' => 'string', 'gif_search_username' => 'string', 'venue_search_username' => 'string', 'img_search_username' => 'string', 'static_maps_provider' => 'string', 'caption_length_max' => int, 'message_length_max' => int, 'webfile_dc_id' => int, 'suggested_lang_code' => 'string', 'lang_pack_version' => int, 'base_lang_pack_version' => int, 'reactions_default' => Reaction];
+$config = ['_' => 'config', 'default_p2p_contacts' => Bool, 'preload_featured_stickers' => Bool, 'revoke_pm_inbox' => Bool, 'blocked_mode' => Bool, 'force_try_ipv6' => Bool, 'date' => int, 'expires' => int, 'test_mode' => Bool, 'this_dc' => int, 'dc_options' => [DcOption, DcOption], 'dc_txt_domain_name' => 'string', 'chat_size_max' => int, 'megagroup_size_max' => int, 'forwarded_count_max' => int, 'online_update_period_ms' => int, 'offline_blur_timeout_ms' => int, 'offline_idle_timeout_ms' => int, 'online_cloud_timeout_ms' => int, 'notify_cloud_delay_ms' => int, 'notify_default_delay_ms' => int, 'push_chat_period_ms' => int, 'push_chat_limit' => int, 'edit_time_limit' => int, 'revoke_time_limit' => int, 'revoke_pm_time_limit' => int, 'rating_e_decay' => int, 'stickers_recent_limit' => int, 'channels_read_media_period' => int, 'tmp_sessions' => int, 'call_receive_timeout_ms' => int, 'call_ring_timeout_ms' => int, 'call_connect_timeout_ms' => int, 'call_packet_timeout_ms' => int, 'me_url_prefix' => 'string', 'autoupdate_url_prefix' => 'string', 'gif_search_username' => 'string', 'venue_search_username' => 'string', 'img_search_username' => 'string', 'static_maps_provider' => 'string', 'caption_length_max' => int, 'message_length_max' => int, 'webfile_dc_id' => int, 'suggested_lang_code' => 'string', 'lang_pack_version' => int, 'base_lang_pack_version' => int, 'reactions_default' => Reaction, 'autologin_token' => 'string'];
 ```  

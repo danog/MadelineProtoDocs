@@ -9,6 +9,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [AccountDaysTTL](/API_docs/types/AccountDaysTTL.html)<a name="AccountDaysTTL"></a>  
 
+[AppWebViewResult](/API_docs/types/AppWebViewResult.html)<a name="AppWebViewResult"></a>  
+
 [AttachMenuBot](/API_docs/types/AttachMenuBot.html)<a name="AttachMenuBot"></a>  
 
 [AttachMenuBotIcon](/API_docs/types/AttachMenuBotIcon.html)<a name="AttachMenuBotIcon"></a>  
@@ -36,6 +38,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [BaseTheme](/API_docs/types/BaseTheme.html)<a name="BaseTheme"></a>  
 
 [Bool](/API_docs/types/Bool.html)<a name="Bool"></a>  
+
+[BotApp](/API_docs/types/BotApp.html)<a name="BotApp"></a>  
 
 [BotCommand](/API_docs/types/BotCommand.html)<a name="BotCommand"></a>  
 
@@ -191,9 +195,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [InlineBotSwitchPM](/API_docs/types/InlineBotSwitchPM.html)<a name="InlineBotSwitchPM"></a>  
 
+[InlineBotWebView](/API_docs/types/InlineBotWebView.html)<a name="InlineBotWebView"></a>  
+
 [InlineQueryPeerType](/API_docs/types/InlineQueryPeerType.html)<a name="InlineQueryPeerType"></a>  
 
 [InputAppEvent](/API_docs/types/InputAppEvent.html)<a name="InputAppEvent"></a>  
+
+[InputBotApp](/API_docs/types/InputBotApp.html)<a name="InputBotApp"></a>  
 
 [InputBotInlineMessage](/API_docs/types/InputBotInlineMessage.html)<a name="InputBotInlineMessage"></a>  
 
@@ -409,6 +417,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [ReactionCount](/API_docs/types/ReactionCount.html)<a name="ReactionCount"></a>  
 
+[ReadParticipantDate](/API_docs/types/ReadParticipantDate.html)<a name="ReadParticipantDate"></a>  
+
 [ReceivedNotifyMessage](/API_docs/types/ReceivedNotifyMessage.html)<a name="ReceivedNotifyMessage"></a>  
 
 [RecentMeUrl](/API_docs/types/RecentMeUrl.html)<a name="RecentMeUrl"></a>  
@@ -611,6 +621,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [contacts.TopPeers](/API_docs/types/contacts.TopPeers.html)<a name="contacts.TopPeers"></a>  
 
+[help.AppConfig](/API_docs/types/help.AppConfig.html)<a name="help.AppConfig"></a>  
+
 [help.AppUpdate](/API_docs/types/help.AppUpdate.html)<a name="help.AppUpdate"></a>  
 
 [help.CountriesList](/API_docs/types/help.CountriesList.html)<a name="help.CountriesList"></a>  
@@ -656,6 +668,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [messages.ArchivedStickers](/API_docs/types/messages.ArchivedStickers.html)<a name="messages.ArchivedStickers"></a>  
 
 [messages.AvailableReactions](/API_docs/types/messages.AvailableReactions.html)<a name="messages.AvailableReactions"></a>  
+
+[messages.BotApp](/API_docs/types/messages.BotApp.html)<a name="messages.BotApp"></a>  
 
 [messages.BotCallbackAnswer](/API_docs/types/messages.BotCallbackAnswer.html)<a name="messages.BotCallbackAnswer"></a>  
 
@@ -780,6 +794,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [stickers.SuggestedShortName](/API_docs/types/stickers.SuggestedShortName.html)<a name="stickers.SuggestedShortName"></a>  
 
 [storage.FileType](/API_docs/types/storage.FileType.html)<a name="storage.FileType"></a>  
+
+[string](/API_docs/types/string.html)<a name="string"></a>  
 
 [updates.ChannelDifference](/API_docs/types/updates.ChannelDifference.html)<a name="updates.ChannelDifference"></a>  
 
