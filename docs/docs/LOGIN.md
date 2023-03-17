@@ -38,7 +38,7 @@ There were cases when several **normal user accounts that did nothing wrong** we
 ## Automatic
 
 ```php
-yield $MadelineProto->start();
+$MadelineProto->start();
 ```
 
 This will start an interactive login prompt via console (if running via CLI), or a login web UI (if running in the browser).  
@@ -62,13 +62,13 @@ You can do that by logging in to [my.telegram.org](https://my.telegram.org) and 
 After you provide an API ID [in the settings](https://docs.madelineproto.xyz/docs/SETTINGS.html), you can then login (if you're using the [automatic mode you don't have to do this](#automatic)).  
 
 ```php
-yield $MadelineProto->phoneLogin(yield $MadelineProto->readline('Enter your phone number: '));
-$authorization = yield $MadelineProto->completePhoneLogin(yield $MadelineProto->readline('Enter the phone code: '));
+$MadelineProto->phoneLogin($MadelineProto->readline('Enter your phone number: '));
+$authorization = $MadelineProto->completePhoneLogin($MadelineProto->readline('Enter the phone code: '));
 if ($authorization['_'] === 'account.password') {
-    $authorization = yield $MadelineProto->complete2falogin(yield $MadelineProto->readline('Please enter your password (hint '.$authorization['hint'].'): '));
+    $authorization = $MadelineProto->complete2falogin($MadelineProto->readline('Please enter your password (hint '.$authorization['hint'].'): '));
 }
 if ($authorization['_'] === 'account.needSignup') {
-    $authorization = yield $MadelineProto->completeSignup(yield $MadelineProto->readline('Please enter your first name: '), readline('Please enter your last name (can be empty): '));
+    $authorization = $MadelineProto->completeSignup($MadelineProto->readline('Please enter your first name: '), readline('Please enter your last name (can be empty): '));
 }
 ```
 
@@ -83,7 +83,7 @@ If the account does not have an account, use `completeSignup` to signup, see [he
 ## Manual (bot)
 
 ```php
-yield $MadelineProto->botLogin('34298141894:aflknsaflknLKNFS');
+$MadelineProto->botLogin('34298141894:aflknsaflknLKNFS');
 ```
 
 Use `botLogin` to login as a bot, see [here for the parameters and the result](https://docs.madelineproto.xyz/botLogin.html).  
@@ -91,7 +91,7 @@ Use `botLogin` to login as a bot, see [here for the parameters and the result](h
 ## Changing 2FA password
 
 ```php
-$result = yield $MadelineProto->update2fa(['password' => 'current password', 'new_password' => 'New password', 'email' => 'daniil@daniil.it', 'hint' => 'ponies']);
+$result = $MadelineProto->update2fa(['password' => 'current password', 'new_password' => 'New password', 'email' => 'daniil@daniil.it', 'hint' => 'ponies']);
 ```
 
 If you want to change the password, you can use the update2fa function, see [here for the parameters and the result](https://docs.madelineproto.xyz/update2fa.html).  

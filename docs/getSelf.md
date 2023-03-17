@@ -17,6 +17,6 @@ No parameters
 
 
 ```php
-$User = yield $MadelineProto->getSelf();
+$User = $MadelineProto->getSelf();
 ```
 

@@ -20,5 +20,5 @@ redirect_from: /bot_login.html
 
 
 ```php
-$authorization = yield $this->botLogin($token);
+$authorization = $this->botLogin($token);
 ```

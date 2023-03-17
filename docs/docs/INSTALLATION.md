@@ -36,7 +36,8 @@ For this reason, `madeline.php` is not compatible with pre-existing composer ins
 Simply require the package (composer v2+ is required):  
 
 ```bash
-composer require "danog/madelineproto:^7"
+composer config minimum-stability beta
+composer require "danog/madelineproto:^8"
 ```
 
 ### Composer from scratch
@@ -47,8 +48,9 @@ composer.json:
     "name": "yourname/yourproject",
     "description": "Project description",
     "type": "project",
+    "minimum-stability": "beta",
     "require": {
-        "danog/madelineproto": "^7"
+        "danog/madelineproto": "^8"
     },
     "license": "AGPL-3.0-only",
     "authors": [

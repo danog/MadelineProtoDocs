@@ -23,7 +23,7 @@ The wrapper consists in the `\danog\MadelineProto\VoIP` class, that can be insta
 
 ## Requesting a call
 ```php
-$call = yield $MadelineProto->requestCall('@danogentili');
+$call = $MadelineProto->requestCall('@danogentili');
 ```
 
 The [requestCall](https://docs.madelineproto.xyz/requestCall.html) function accepts one parameter with the ID/username/Peer/User/InputPeer of the person to call, and returns a VoIP object that can be used to play audio files, set the hold files, change the configuration and set the output file (see the [VoIP API documentation](https://docs.madelineproto.xyz/API_docs/types/PhoneCall.html) for more info).

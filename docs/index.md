@@ -10,7 +10,7 @@ Created by <a href="https://daniil.it" target="_blank" rel="noopener">Daniil Gen
 
 `#StandWithUkraine 🇺🇦`
 
-[![status-badge](https://ci.daniil.it/api/badges/danog/MadelineProto/status.svg?branch=stable)](https://ci.daniil.it/danog/MadelineProto/branches/stable)
+[![status-badge](https://ci.daniil.it/api/badges/danog/MadelineProto/status.svg?branch=v8)](https://ci.daniil.it/danog/MadelineProto/branches/v8)
 
 Do join the official channel, [@MadelineProto](https://t.me/MadelineProto) and the [support groups](https://t.me/pwrtelegramgroup)!
 
@@ -35,7 +35,6 @@ if (!file_exists('madeline.php')) {
 include 'madeline.php';
 
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
-$MadelineProto->async(false);
 $MadelineProto->start();
 
 $me = $MadelineProto->getSelf();

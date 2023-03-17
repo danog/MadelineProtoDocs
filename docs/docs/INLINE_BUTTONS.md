@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 You can easily click inline buttons using MadelineProto, just access the correct button:
 
 ```php
-class EventHandler extends \danog\MadelineProto\EventHandler
+class MyEventHandler extends \danog\MadelineProto\EventHandler
 {
     public function onUpdateNewChannelMessage($update)
     {
@@ -24,7 +24,7 @@ class EventHandler extends \danog\MadelineProto\EventHandler
         if (isset($update['message']['reply_markup']['rows'])) {
             foreach ($update['message']['reply_markup']['rows'] as $row) {
                 foreach ($row['buttons'] as $button) {
-                    yield $button->click();
+                    $button->click();
                 }
             }
         }
@@ -33,12 +33,8 @@ class EventHandler extends \danog\MadelineProto\EventHandler
 }
 
 
-$MadelineProto = new \danog\MadelineProto\API('session.madeline');
-
-$MadelineProto->start();
-$MadelineProto->setEventHandler('\EventHandler');
-$MadelineProto->async(true);
-$MadelineProto->loop();
+$settings = new \danog\MadelineProto\Settings;
+MyEventHandler::startAndLoop('session.madeline', $settings);
 ```
 
 This peice of code will automatically click all buttons in all keyboards sent in any chat.
@@ -52,7 +48,7 @@ $text = $button['text'];
 And click them:
 
 ```php
-yield $button->click();
+$button->click();
 ```
 
 <a href="https://docs.madelineproto.xyz/docs/SECRET_CHATS.html">Next section</a>

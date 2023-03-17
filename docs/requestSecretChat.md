@@ -22,6 +22,6 @@ Returns the secret chat ID
 
 
 ```php
-$secret_chat_id = yield $MadelineProto->requestSecretChat('@danogentili');
+$secret_chat_id = $MadelineProto->requestSecretChat('@danogentili');
 ```
 

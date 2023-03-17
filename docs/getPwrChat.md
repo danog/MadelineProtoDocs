@@ -21,6 +21,6 @@ parent: "Methods"
 
 
 ```php
-$Chat = yield $MadelineProto->getPwrChat($id);
+$Chat = $MadelineProto->getPwrChat($id);
 ```
 

@@ -15,6 +15,6 @@ Logs you out
 
 
 ```php
-yield $MadelineProto->logout();
+$MadelineProto->logout();
 ```
 

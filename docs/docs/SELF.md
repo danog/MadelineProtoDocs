@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 Here's how you can fetch info about the currently logged in user
 
 ```php
-$me = yield $MadelineProto->getSelf();
+$me = $MadelineProto->getSelf();
 
 \danog\MadelineProto\Logger::log("Hi ".$me['first_name']."!");
 ```
