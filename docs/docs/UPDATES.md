@@ -90,27 +90,26 @@ class MyEventHandler extends EventHandler
             $this->messages->sendMedia(['peer' => $update, 'message' => $update['message']['message'], 'media' => $update]);
         }
 
-        // You can also use the built-in MadelineProto MySQL async driver!
+        // Test MadelineProto's built-in database driver, which automatically maps to MySQL/PostgreSQL/Redis
+        // properties mentioned in the MyEventHandler::$dbProperties property!
 
-        // Can be anything serializable, an array, an int, an object
+        // Remove the following code when running your bot
+
+        // Can be anything serializable: an array, an int, an object, ...
         $myData = [];
 
-        // Use the isset method to check whether some data exists in the database
-        if ($this->dataStoredOnDb->isset('yourKey')) {
-            // Always when fetching data
-            $myData = $this->dataStoredOnDb['yourKey'];
+        if (isset($this->dataStoredOnDb['k1'])) {
+            $myData = $this->dataStoredOnDb['k1'];
         }
-        $this->dataStoredOnDb['yourKey'] = $myData + ['moreStuff' => 'yay'];
+        $this->dataStoredOnDb['k1'] = $myData + ['moreStuff' => 'yay'];
 
-        $this->dataStoredOnDb['otherKey'] = 0;
-        unset($this->dataStoredOnDb['otherKey']);
+        $this->dataStoredOnDb['k2'] = 0;
+        unset($this->dataStoredOnDb['k2']);
 
-        $this->logger("Count: ".($this->dataStoredOnDb->count()));
+        $this->logger("Count: ".count($this->dataStoredOnDb));
 
-        // You can even use an async iterator to iterate over the data
-        $iterator = $this->dataStoredOnDb->getIterator();
-        while ($iterator->advance()) {
-            [$key, $value] = $iterator->getCurrent();
+        // You can even iterate over the data
+        foreach ($this->dataStoredOnDb as $key => $value) {
             $this->logger($key);
             $this->logger($value);
         }
