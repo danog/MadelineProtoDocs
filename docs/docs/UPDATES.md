@@ -69,18 +69,16 @@ class MyEventHandler extends EventHandler
      *
      * @param array $update Update
      */
-    public function onUpdateNewChannelMessage(array $update): \Generator
+    public function onUpdateNewChannelMessage(array $update): void
     {
-        return $this->onUpdateNewMessage($update);
+        $this->onUpdateNewMessage($update);
     }
     /**
      * Handle updates from users.
      *
      * @param array $update Update
-     *
-     * @return \Generator
      */
-    public function onUpdateNewMessage(array $update): \Generator
+    public function onUpdateNewMessage(array $update): void
     {
         if ($update['message']['_'] === 'messageEmpty' || $update['message']['out'] ?? false) {
             return;
