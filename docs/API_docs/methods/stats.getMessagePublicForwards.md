@@ -43,7 +43,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-// PHP 8+ syntax, use an array on PHP 7.
 $messages_Messages = $MadelineProto->stats->getMessagePublicForwards(channel: InputChannel, msg_id: int, offset_rate: int, offset_peer: InputPeer, offset_id: int, limit: int, );
 ```
 

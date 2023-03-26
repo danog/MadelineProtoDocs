@@ -39,7 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-// PHP 8+ syntax, use an array on PHP 7.
 $Bool = $MadelineProto->messages->toggleBotInAttachMenu(write_allowed: Bool, bot: InputUser, enabled: Bool, );
 ```
 

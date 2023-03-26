@@ -40,7 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-// PHP 8+ syntax, use an array on PHP 7.
 $messages_ForumTopics = $MadelineProto->channels->getForumTopics(channel: InputChannel, q: 'string', offset_date: int, offset_id: int, offset_topic: int, limit: int, );
 ```
 

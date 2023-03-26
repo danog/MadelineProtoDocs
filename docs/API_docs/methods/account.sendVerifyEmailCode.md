@@ -38,7 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-// PHP 8+ syntax, use an array on PHP 7.
 $account_SentEmailCode = $MadelineProto->account->sendVerifyEmailCode(purpose: EmailVerifyPurpose, email: 'string', );
 ```
 

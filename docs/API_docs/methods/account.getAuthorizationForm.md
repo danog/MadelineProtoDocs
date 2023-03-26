@@ -39,7 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-// PHP 8+ syntax, use an array on PHP 7.
 $account_AuthorizationForm = $MadelineProto->account->getAuthorizationForm(bot_id: long, scope: 'string', public_key: 'string', );
 ```
 

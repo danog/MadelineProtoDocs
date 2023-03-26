@@ -43,7 +43,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-// PHP 8+ syntax, use an array on PHP 7.
 $messages_ExportedChatInvite = $MadelineProto->messages->editExportedChatInvite(revoked: Bool, peer: InputPeer, link: 'string', expire_date: int, usage_limit: int, request_needed: Bool, title: 'string', );
 ```
 

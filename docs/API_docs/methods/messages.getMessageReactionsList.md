@@ -41,7 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-// PHP 8+ syntax, use an array on PHP 7.
 $messages_MessageReactionsList = $MadelineProto->messages->getMessageReactionsList(peer: InputPeer, id: int, reaction: Reaction, offset: 'string', limit: int, );
 ```
 

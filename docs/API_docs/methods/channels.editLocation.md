@@ -39,7 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-// PHP 8+ syntax, use an array on PHP 7.
 $Bool = $MadelineProto->channels->editLocation(channel: InputChannel, geo_point: InputGeoPoint, address: 'string', );
 ```
 

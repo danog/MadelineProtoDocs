@@ -42,7 +42,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-// PHP 8+ syntax, use an array on PHP 7.
 $messages_AffectedHistory = $MadelineProto->messages->deleteHistory(just_clear: Bool, revoke: Bool, peer: InputPeer, max_id: int, min_date: int, max_date: int, );
 ```
 

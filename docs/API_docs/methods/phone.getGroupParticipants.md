@@ -41,7 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-// PHP 8+ syntax, use an array on PHP 7.
 $phone_GroupParticipants = $MadelineProto->phone->getGroupParticipants(call: InputGroupCall, ids: [InputPeer, InputPeer], sources: [int, int], offset: 'string', limit: int, );
 ```
 

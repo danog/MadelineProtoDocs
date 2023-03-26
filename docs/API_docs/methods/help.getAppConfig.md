@@ -37,7 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-// PHP 8+ syntax, use an array on PHP 7.
 $help_AppConfig = $MadelineProto->help->getAppConfig(hash: [long, long], );
 ```
 

@@ -38,7 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-// PHP 8+ syntax, use an array on PHP 7.
 $payments_PaymentForm = $MadelineProto->payments->getPaymentForm(invoice: InputInvoice, theme_params: DataJSON, );
 ```
 

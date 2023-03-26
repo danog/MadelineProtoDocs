@@ -42,7 +42,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-// PHP 8+ syntax, use an array on PHP 7.
 $payments_PaymentResult = $MadelineProto->payments->sendPaymentForm(form_id: long, invoice: InputInvoice, requested_info_id: 'string', shipping_option_id: 'string', credentials: InputPaymentCredentials, tip_amount: long, );
 ```
 

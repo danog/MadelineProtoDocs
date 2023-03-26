@@ -43,7 +43,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-// PHP 8+ syntax, use an array on PHP 7.
 $Bool = $MadelineProto->messages->saveDraft(no_webpage: Bool, reply_to_msg_id: int, top_msg_id: int, peer: InputPeer, message: 'string', entities: [MessageEntity, MessageEntity], parse_mode: 'string', );
 ```
 

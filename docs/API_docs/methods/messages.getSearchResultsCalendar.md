@@ -43,7 +43,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-// PHP 8+ syntax, use an array on PHP 7.
 $messages_SearchResultsCalendar = $MadelineProto->messages->getSearchResultsCalendar(peer: InputPeer, filter: MessagesFilter, offset_id: int, offset_date: int, );
 ```
 

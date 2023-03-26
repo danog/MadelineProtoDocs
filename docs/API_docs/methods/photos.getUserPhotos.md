@@ -40,7 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-// PHP 8+ syntax, use an array on PHP 7.
 $photos_Photos = $MadelineProto->photos->getUserPhotos(user_id: InputUser, offset: int, max_id: long, limit: int, );
 ```
 

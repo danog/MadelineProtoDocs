@@ -40,7 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-// PHP 8+ syntax, use an array on PHP 7.
 $auth_SentCode = $MadelineProto->auth->sendCode(phone_number: 'string', api_id: int, api_hash: 'string', settings: CodeSettings, );
 ```
 

@@ -42,7 +42,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-// PHP 8+ syntax, use an array on PHP 7.
 $auth_LoginToken = $MadelineProto->auth->exportLoginToken(api_id: int, api_hash: 'string', except_ids: [long, long], );
 ```
 

@@ -40,7 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-// PHP 8+ syntax, use an array on PHP 7.
 $Bool = $MadelineProto->auth->bindTempAuthKey(perm_auth_key_id: long, nonce: long, expires_at: int, encrypted_message: 'bytes', );
 ```
 

@@ -45,7 +45,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-// PHP 8+ syntax, use an array on PHP 7.
 $Updates = $MadelineProto->messages->editMessage(no_webpage: Bool, peer: InputPeer, id: int, message: 'string', media: InputMedia, reply_markup: ReplyMarkup, entities: [MessageEntity, MessageEntity], parse_mode: 'string', schedule_date: int, );
 ```
 
