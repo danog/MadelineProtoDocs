@@ -20,7 +20,7 @@ MadelineProto now features async, for **incredible speed improvements**, and par
       * [Async readline](#async-readline-does-not-block-the-main-thread)
       * [Async echo](#async-echo-does-not-block-the-main-thread)
       * [MadelineProto HTTP client](#madelineproto-http-client)
-      * [Async forking](#async-forking-does-green-thread-forking)
+      * [Async forking](#async-forking-does-async-green-thread-forking)
       * [Async flock](#async-flock)
     * [MadelineProto async loop APIs](#async-loop-apis)
 
