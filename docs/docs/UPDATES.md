@@ -114,6 +114,8 @@ class MyEventHandler extends EventHandler
             $this->logger($value);
         }
     }
+
+    // 100+ other types of updates are available, see https://docs.madelineproto.xyz/API_docs/types/Update.html for the full list.
 }
 
 $settings = new Settings;
@@ -130,7 +132,7 @@ This will create an event handler class `MyEventHandler`, create a MadelineProto
 
 The **new** `startAndLoop` method automatically initializes MadelineProto, **enables async**, logs in the user/bot, initializes error reporting, catches and reports all errors surfacing from the event loop to the peers returned by the `getReportPeers` method.
 
-All events are handled conrrently thanks to async, [here's a full explanation](ASYNC.html).  
+All events are handled concurrently thanks to async, [here's a full explanation](ASYNC.html).  
 
 When an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html) is received, the corresponding `onUpdateType` event handler method is called.  
 
@@ -138,16 +140,13 @@ To get a list of all possible update types, [click here](https://docs.madelinepr
 
 If such a method does not exist, the `onAny` event handler method is called.  
 If the `onAny` event handler method does not exist, the update is ignored.  
-The `onLoop` method is not recommended anymore, use AMPHP's [repeat](https://amphp.org/amp/event-loop/api#repeat) or MadelineProto's [async loop API](ASYNC.html#async-loop-apis) to schedule actions in a cron-like manner.  
 
 To access the `$MadelineProto` instance inside of the event handler, simply access `$this`:
 ```php
 $this->messages->sendMessage(['peer' => '@danogentili', 'message' => 'hi']);
 ```
 
-If you intend to use your own constructor in the event handler, make sure to call the parent construtor with the only parameter provided to your constructor.
-
-To forecfully restart and apply changes made to the event handler class, call `$MadelineProto->restart();`.  
+To forcefully restart and apply changes made to the event handler class, call `$this->restart();`.  
 
 ### Built-in database driver
 
