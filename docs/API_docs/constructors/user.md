@@ -33,6 +33,7 @@ Indicates info about a certain user
 |bot\_attach\_menu|[Bool](/API_docs/types/Bool.html) | Optional|Whether this bot offers an [attachment menu web app](https://core.telegram.org/api/bots/attach)|
 |premium|[Bool](/API_docs/types/Bool.html) | Optional|Whether this user is a Telegram Premium user|
 |attach\_menu\_enabled|[Bool](/API_docs/types/Bool.html) | Optional|Whether we installed the [attachment menu web app](https://core.telegram.org/api/bots/attach) offered by this bot|
+|bot\_can\_edit|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[long](/API_docs/types/long.html) | Yes|ID of the user|
 |access\_hash|[long](/API_docs/types/long.html) | Optional|Access hash of the user|
 |first\_name|[string](/API_docs/types/string.html) | Optional|First name|
@@ -56,5 +57,5 @@ Indicates info about a certain user
 ### Example:
 
 ```
-$user = ['_' => 'user', 'self' => Bool, 'contact' => Bool, 'mutual_contact' => Bool, 'deleted' => Bool, 'bot' => Bool, 'bot_chat_history' => Bool, 'bot_nochats' => Bool, 'verified' => Bool, 'restricted' => Bool, 'min' => Bool, 'bot_inline_geo' => Bool, 'support' => Bool, 'scam' => Bool, 'apply_min_photo' => Bool, 'fake' => Bool, 'bot_attach_menu' => Bool, 'premium' => Bool, 'attach_menu_enabled' => Bool, 'id' => long, 'access_hash' => long, 'first_name' => 'string', 'last_name' => 'string', 'username' => 'string', 'phone' => 'string', 'photo' => UserProfilePhoto, 'status' => UserStatus, 'bot_info_version' => int, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'bot_inline_placeholder' => 'string', 'lang_code' => 'string', 'emoji_status' => EmojiStatus, 'usernames' => [Username, Username]];
+$user = ['_' => 'user', 'self' => Bool, 'contact' => Bool, 'mutual_contact' => Bool, 'deleted' => Bool, 'bot' => Bool, 'bot_chat_history' => Bool, 'bot_nochats' => Bool, 'verified' => Bool, 'restricted' => Bool, 'min' => Bool, 'bot_inline_geo' => Bool, 'support' => Bool, 'scam' => Bool, 'apply_min_photo' => Bool, 'fake' => Bool, 'bot_attach_menu' => Bool, 'premium' => Bool, 'attach_menu_enabled' => Bool, 'bot_can_edit' => Bool, 'id' => long, 'access_hash' => long, 'first_name' => 'string', 'last_name' => 'string', 'username' => 'string', 'phone' => 'string', 'photo' => UserProfilePhoto, 'status' => UserStatus, 'bot_info_version' => int, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'bot_inline_placeholder' => 'string', 'lang_code' => 'string', 'emoji_status' => EmojiStatus, 'usernames' => [Username, Username]];
 ```  

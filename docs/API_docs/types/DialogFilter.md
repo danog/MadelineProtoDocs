@@ -15,6 +15,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [dialogFilterDefault](/API_docs/constructors/dialogFilterDefault.html)  
 
+[dialogFilterChatlist](/API_docs/constructors/dialogFilterChatlist.html)  
+
 
 
 ### Methods that return an object of this type (methods):

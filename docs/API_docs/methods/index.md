@@ -144,8 +144,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.deleteChat.html" name="messages.deleteChat">Delete a chat: messages.deleteChat</a>
 
-* <a href="folders.deleteFolder.html" name="folders.deleteFolder">Delete a peer folder: folders.deleteFolder</a>
-
 * <a href="messages.deleteExportedChatInvite.html" name="messages.deleteExportedChatInvite">Delete a chat invite: messages.deleteExportedChatInvite</a>
 
 * <a href="account.resetWallPapers.html" name="account.resetWallPapers">Delete all installed wallpapers, reverting to the default wallpaper set: account.resetWallPapers</a>

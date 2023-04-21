@@ -16,6 +16,7 @@ When and which user joined the chat using a chat invite
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |requested|[Bool](/API_docs/types/Bool.html) | Optional|Whether this user currently has a pending [join request »](https://core.telegram.org/api/invites#join-requests)|
+|via\_chatlist|[Bool](/API_docs/types/Bool.html) | Optional|
 |user\_id|[long](/API_docs/types/long.html) | Yes|The user|
 |date|[int](/API_docs/types/int.html) | Yes|When did the user join|
 |about|[string](/API_docs/types/string.html) | Optional|For users with pending requests, contains bio of the user that requested to join|
@@ -29,5 +30,5 @@ When and which user joined the chat using a chat invite
 ### Example:
 
 ```
-$chatInviteImporter = ['_' => 'chatInviteImporter', 'requested' => Bool, 'user_id' => long, 'date' => int, 'about' => 'string', 'approved_by' => long];
+$chatInviteImporter = ['_' => 'chatInviteImporter', 'requested' => Bool, 'via_chatlist' => Bool, 'user_id' => long, 'date' => int, 'about' => 'string', 'approved_by' => long];
 ```  

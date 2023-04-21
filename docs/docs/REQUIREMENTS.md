@@ -21,8 +21,8 @@ To install MadelineProto dependencies on Ubuntu, run the following command in yo
 
 ```bash
 sudo apt-get update
-sudo apt-get install software-properties-common
-sudo LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
+sudo apt-get install software-properties-common -y
+sudo LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
 sudo apt-get update
 sudo apt-get install php8.2 php8.2-dev php8.2-xml php8.2-zip php8.2-gmp php8.2-cli php8.2-mbstring php8.2-ffi php-pear libevent-dev -y
 sudo pecl install event ev

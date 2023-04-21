@@ -373,7 +373,7 @@ $MadelineProto->[account->uploadTheme](/API_docs/methods/account.uploadTheme.htm
 
 ***
 <br><br>
-$MadelineProto->[account->uploadWallPaper](/API_docs/methods/account.uploadWallPaper.html)(\[file: [InputFile](/API_docs/types/InputFile.html), mime_type: [string](/API_docs/types/string.html), settings: [WallPaperSettings](/API_docs/types/WallPaperSettings.html), \]) === [$WallPaper](/API_docs/types/WallPaper.html)<a name="account.uploadWallPaper"></a>  
+$MadelineProto->[account->uploadWallPaper](/API_docs/methods/account.uploadWallPaper.html)(\[for_chat: [Bool](/API_docs/types/Bool.html), file: [InputFile](/API_docs/types/InputFile.html), mime_type: [string](/API_docs/types/string.html), settings: [WallPaperSettings](/API_docs/types/WallPaperSettings.html), \]) === [$WallPaper](/API_docs/types/WallPaper.html)<a name="account.uploadWallPaper"></a>  
 
 ***
 <br><br>
@@ -457,6 +457,10 @@ $MadelineProto->[auth->resetAuthorizations](/API_docs/methods/auth.resetAuthoriz
 
 ***
 <br><br>
+$MadelineProto->[auth->resetLoginEmail](/API_docs/methods/auth.resetLoginEmail.html)(\[phone_number: [string](/API_docs/types/string.html), phone_code_hash: [string](/API_docs/types/string.html), \]) === [$auth.SentCode](/API_docs/types/auth.SentCode.html)<a name="auth.resetLoginEmail"></a>  
+
+***
+<br><br>
 $MadelineProto->[auth->sendCode](/API_docs/methods/auth.sendCode.html)(\[phone_number: [string](/API_docs/types/string.html), api_id: [int](/API_docs/types/int.html), api_hash: [string](/API_docs/types/string.html), settings: [CodeSettings](/API_docs/types/CodeSettings.html), \]) === [$auth.SentCode](/API_docs/types/auth.SentCode.html)<a name="auth.sendCode"></a>  
 
 ***
@@ -477,11 +481,15 @@ $MadelineProto->[bots->getBotCommands](/API_docs/methods/bots.getBotCommands.htm
 
 ***
 <br><br>
-$MadelineProto->[bots->getBotInfo](/API_docs/methods/bots.getBotInfo.html)(\[lang_code: [string](/API_docs/types/string.html), \]) === [$Vector\_of\_string](/API_docs/types/string.html)<a name="bots.getBotInfo"></a>  
+$MadelineProto->[bots->getBotInfo](/API_docs/methods/bots.getBotInfo.html)(\[bot: [InputUser](/API_docs/types/InputUser.html), lang_code: [string](/API_docs/types/string.html), \]) === [$bots.BotInfo](/API_docs/types/bots.BotInfo.html)<a name="bots.getBotInfo"></a>  
 
 ***
 <br><br>
 $MadelineProto->[bots->getBotMenuButton](/API_docs/methods/bots.getBotMenuButton.html)(\[user_id: [InputUser](/API_docs/types/InputUser.html), \]) === [$BotMenuButton](/API_docs/types/BotMenuButton.html)<a name="bots.getBotMenuButton"></a>  
+
+***
+<br><br>
+$MadelineProto->[bots->reorderUsernames](/API_docs/methods/bots.reorderUsernames.html)(\[bot: [InputUser](/API_docs/types/InputUser.html), order: \[[string](/API_docs/types/string.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="bots.reorderUsernames"></a>  
 
 ***
 <br><br>
@@ -505,11 +513,15 @@ $MadelineProto->[bots->setBotGroupDefaultAdminRights](/API_docs/methods/bots.set
 
 ***
 <br><br>
-$MadelineProto->[bots->setBotInfo](/API_docs/methods/bots.setBotInfo.html)(\[lang_code: [string](/API_docs/types/string.html), about: [string](/API_docs/types/string.html), description: [string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="bots.setBotInfo"></a>  
+$MadelineProto->[bots->setBotInfo](/API_docs/methods/bots.setBotInfo.html)(\[bot: [InputUser](/API_docs/types/InputUser.html), lang_code: [string](/API_docs/types/string.html), name: [string](/API_docs/types/string.html), about: [string](/API_docs/types/string.html), description: [string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="bots.setBotInfo"></a>  
 
 ***
 <br><br>
 $MadelineProto->[bots->setBotMenuButton](/API_docs/methods/bots.setBotMenuButton.html)(\[user_id: [InputUser](/API_docs/types/InputUser.html), button: [BotMenuButton](/API_docs/types/BotMenuButton.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="bots.setBotMenuButton"></a>  
+
+***
+<br><br>
+$MadelineProto->[bots->toggleUsername](/API_docs/methods/bots.toggleUsername.html)(\[bot: [InputUser](/API_docs/types/InputUser.html), username: [string](/API_docs/types/string.html), active: [Bool](/API_docs/types/Bool.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="bots.toggleUsername"></a>  
 
 ***
 <br><br>
@@ -733,6 +745,50 @@ $MadelineProto->[channels->viewSponsoredMessage](/API_docs/methods/channels.view
 
 ***
 <br><br>
+$MadelineProto->[chatlists->checkChatlistInvite](/API_docs/methods/chatlists.checkChatlistInvite.html)(\[slug: [string](/API_docs/types/string.html), \]) === [$chatlists.ChatlistInvite](/API_docs/types/chatlists.ChatlistInvite.html)<a name="chatlists.checkChatlistInvite"></a>  
+
+***
+<br><br>
+$MadelineProto->[chatlists->deleteExportedInvite](/API_docs/methods/chatlists.deleteExportedInvite.html)(\[chatlist: [InputChatlist](/API_docs/types/InputChatlist.html), slug: [string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="chatlists.deleteExportedInvite"></a>  
+
+***
+<br><br>
+$MadelineProto->[chatlists->editExportedInvite](/API_docs/methods/chatlists.editExportedInvite.html)(\[chatlist: [InputChatlist](/API_docs/types/InputChatlist.html), slug: [string](/API_docs/types/string.html), title: [string](/API_docs/types/string.html), peers: \[[InputPeer](/API_docs/types/InputPeer.html)\], \]) === [$ExportedChatlistInvite](/API_docs/types/ExportedChatlistInvite.html)<a name="chatlists.editExportedInvite"></a>  
+
+***
+<br><br>
+$MadelineProto->[chatlists->exportChatlistInvite](/API_docs/methods/chatlists.exportChatlistInvite.html)(\[chatlist: [InputChatlist](/API_docs/types/InputChatlist.html), title: [string](/API_docs/types/string.html), peers: \[[InputPeer](/API_docs/types/InputPeer.html)\], \]) === [$chatlists.ExportedChatlistInvite](/API_docs/types/chatlists.ExportedChatlistInvite.html)<a name="chatlists.exportChatlistInvite"></a>  
+
+***
+<br><br>
+$MadelineProto->[chatlists->getChatlistUpdates](/API_docs/methods/chatlists.getChatlistUpdates.html)(\[chatlist: [InputChatlist](/API_docs/types/InputChatlist.html), \]) === [$chatlists.ChatlistUpdates](/API_docs/types/chatlists.ChatlistUpdates.html)<a name="chatlists.getChatlistUpdates"></a>  
+
+***
+<br><br>
+$MadelineProto->[chatlists->getExportedInvites](/API_docs/methods/chatlists.getExportedInvites.html)(\[chatlist: [InputChatlist](/API_docs/types/InputChatlist.html), \]) === [$chatlists.ExportedInvites](/API_docs/types/chatlists.ExportedInvites.html)<a name="chatlists.getExportedInvites"></a>  
+
+***
+<br><br>
+$MadelineProto->[chatlists->getLeaveChatlistSuggestions](/API_docs/methods/chatlists.getLeaveChatlistSuggestions.html)(\[chatlist: [InputChatlist](/API_docs/types/InputChatlist.html), \]) === [$Vector\_of\_Peer](/API_docs/types/Peer.html)<a name="chatlists.getLeaveChatlistSuggestions"></a>  
+
+***
+<br><br>
+$MadelineProto->[chatlists->hideChatlistUpdates](/API_docs/methods/chatlists.hideChatlistUpdates.html)(\[chatlist: [InputChatlist](/API_docs/types/InputChatlist.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="chatlists.hideChatlistUpdates"></a>  
+
+***
+<br><br>
+$MadelineProto->[chatlists->joinChatlistInvite](/API_docs/methods/chatlists.joinChatlistInvite.html)(\[slug: [string](/API_docs/types/string.html), peers: \[[InputPeer](/API_docs/types/InputPeer.html)\], \]) === [$Updates](/API_docs/types/Updates.html)<a name="chatlists.joinChatlistInvite"></a>  
+
+***
+<br><br>
+$MadelineProto->[chatlists->joinChatlistUpdates](/API_docs/methods/chatlists.joinChatlistUpdates.html)(\[chatlist: [InputChatlist](/API_docs/types/InputChatlist.html), peers: \[[InputPeer](/API_docs/types/InputPeer.html)\], \]) === [$Updates](/API_docs/types/Updates.html)<a name="chatlists.joinChatlistUpdates"></a>  
+
+***
+<br><br>
+$MadelineProto->[chatlists->leaveChatlist](/API_docs/methods/chatlists.leaveChatlist.html)(\[chatlist: [InputChatlist](/API_docs/types/InputChatlist.html), peers: \[[InputPeer](/API_docs/types/InputPeer.html)\], \]) === [$Updates](/API_docs/types/Updates.html)<a name="chatlists.leaveChatlist"></a>  
+
+***
+<br><br>
 $MadelineProto->[contacts->acceptContact](/API_docs/methods/contacts.acceptContact.html)(\[id: [InputUser](/API_docs/types/InputUser.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="contacts.acceptContact"></a>  
 
 ***
@@ -822,10 +878,6 @@ $MadelineProto->[contacts->toggleTopPeers](/API_docs/methods/contacts.toggleTopP
 ***
 <br><br>
 $MadelineProto->[contacts->unblock](/API_docs/methods/contacts.unblock.html)(\[id: [InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="contacts.unblock"></a>  
-
-***
-<br><br>
-$MadelineProto->[folders->deleteFolder](/API_docs/methods/folders.deleteFolder.html)(\[folder_id: [int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="folders.deleteFolder"></a>  
 
 ***
 <br><br>
@@ -1621,6 +1673,10 @@ $MadelineProto->[messages->setChatTheme](/API_docs/methods/messages.setChatTheme
 
 ***
 <br><br>
+$MadelineProto->[messages->setChatWallPaper](/API_docs/methods/messages.setChatWallPaper.html)(\[peer: [InputPeer](/API_docs/types/InputPeer.html), wallpaper: [InputWallPaper](/API_docs/types/InputWallPaper.html), settings: [WallPaperSettings](/API_docs/types/WallPaperSettings.html), id: [int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.setChatWallPaper"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->setDefaultHistoryTTL](/API_docs/methods/messages.setDefaultHistoryTTL.html)(\[period: [int](/API_docs/types/int.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.setDefaultHistoryTTL"></a>  
 
 ***
@@ -1897,7 +1953,7 @@ $MadelineProto->[photos->getUserPhotos](/API_docs/methods/photos.getUserPhotos.h
 
 ***
 <br><br>
-$MadelineProto->[photos->updateProfilePhoto](/API_docs/methods/photos.updateProfilePhoto.html)(\[fallback: [Bool](/API_docs/types/Bool.html), id: [InputPhoto](/API_docs/types/InputPhoto.html), \]) === [$photos.Photo](/API_docs/types/photos.Photo.html)<a name="photos.updateProfilePhoto"></a>  
+$MadelineProto->[photos->updateProfilePhoto](/API_docs/methods/photos.updateProfilePhoto.html)(\[fallback: [Bool](/API_docs/types/Bool.html), bot: [InputUser](/API_docs/types/InputUser.html), id: [InputPhoto](/API_docs/types/InputPhoto.html), \]) === [$photos.Photo](/API_docs/types/photos.Photo.html)<a name="photos.updateProfilePhoto"></a>  
 
 ***
 <br><br>
@@ -1905,7 +1961,7 @@ $MadelineProto->[photos->uploadContactProfilePhoto](/API_docs/methods/photos.upl
 
 ***
 <br><br>
-$MadelineProto->[photos->uploadProfilePhoto](/API_docs/methods/photos.uploadProfilePhoto.html)(\[fallback: [Bool](/API_docs/types/Bool.html), file: [InputFile](/API_docs/types/InputFile.html), video: [InputFile](/API_docs/types/InputFile.html), video_start_ts: [double](/API_docs/types/double.html), video_emoji_markup: [VideoSize](/API_docs/types/VideoSize.html), \]) === [$photos.Photo](/API_docs/types/photos.Photo.html)<a name="photos.uploadProfilePhoto"></a>  
+$MadelineProto->[photos->uploadProfilePhoto](/API_docs/methods/photos.uploadProfilePhoto.html)(\[fallback: [Bool](/API_docs/types/Bool.html), bot: [InputUser](/API_docs/types/InputUser.html), file: [InputFile](/API_docs/types/InputFile.html), video: [InputFile](/API_docs/types/InputFile.html), video_start_ts: [double](/API_docs/types/double.html), video_emoji_markup: [VideoSize](/API_docs/types/VideoSize.html), \]) === [$photos.Photo](/API_docs/types/photos.Photo.html)<a name="photos.uploadProfilePhoto"></a>  
 
 ***
 <br><br>

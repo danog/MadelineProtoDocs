@@ -56,5 +56,7 @@ You can also provide one of the following objects, instead, MadelineProto will h
 
 ### Methods that return an object of this type (methods):
 
+[$MadelineProto->chatlists->getLeaveChatlistSuggestions](/API_docs/methods/chatlists.getLeaveChatlistSuggestions.html)  
+
 
 

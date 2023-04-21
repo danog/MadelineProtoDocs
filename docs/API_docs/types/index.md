@@ -159,6 +159,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [ExportedChatInvite](/API_docs/types/ExportedChatInvite.html)<a name="ExportedChatInvite"></a>  
 
+[ExportedChatlistInvite](/API_docs/types/ExportedChatlistInvite.html)<a name="ExportedChatlistInvite"></a>  
+
 [ExportedContactToken](/API_docs/types/ExportedContactToken.html)<a name="ExportedContactToken"></a>  
 
 [ExportedMessageLink](/API_docs/types/ExportedMessageLink.html)<a name="ExportedMessageLink"></a>  
@@ -212,6 +214,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [InputChannel](/API_docs/types/InputChannel.html)<a name="InputChannel"></a>  
 
 [InputChatPhoto](/API_docs/types/InputChatPhoto.html)<a name="InputChatPhoto"></a>  
+
+[InputChatlist](/API_docs/types/InputChatlist.html)<a name="InputChatlist"></a>  
 
 [InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html)<a name="InputCheckPasswordSRP"></a>  
 
@@ -601,6 +605,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [auth.SentCodeType](/API_docs/types/auth.SentCodeType.html)<a name="auth.SentCodeType"></a>  
 
+[bots.BotInfo](/API_docs/types/bots.BotInfo.html)<a name="bots.BotInfo"></a>  
+
 [channels.AdminLogResults](/API_docs/types/channels.AdminLogResults.html)<a name="channels.AdminLogResults"></a>  
 
 [channels.ChannelParticipant](/API_docs/types/channels.ChannelParticipant.html)<a name="channels.ChannelParticipant"></a>  
@@ -608,6 +614,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [channels.ChannelParticipants](/API_docs/types/channels.ChannelParticipants.html)<a name="channels.ChannelParticipants"></a>  
 
 [channels.SendAsPeers](/API_docs/types/channels.SendAsPeers.html)<a name="channels.SendAsPeers"></a>  
+
+[chatlists.ChatlistInvite](/API_docs/types/chatlists.ChatlistInvite.html)<a name="chatlists.ChatlistInvite"></a>  
+
+[chatlists.ChatlistUpdates](/API_docs/types/chatlists.ChatlistUpdates.html)<a name="chatlists.ChatlistUpdates"></a>  
+
+[chatlists.ExportedChatlistInvite](/API_docs/types/chatlists.ExportedChatlistInvite.html)<a name="chatlists.ExportedChatlistInvite"></a>  
+
+[chatlists.ExportedInvites](/API_docs/types/chatlists.ExportedInvites.html)<a name="chatlists.ExportedInvites"></a>  
 
 [contacts.Blocked](/API_docs/types/contacts.Blocked.html)<a name="contacts.Blocked"></a>  
 
@@ -794,8 +808,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [stickers.SuggestedShortName](/API_docs/types/stickers.SuggestedShortName.html)<a name="stickers.SuggestedShortName"></a>  
 
 [storage.FileType](/API_docs/types/storage.FileType.html)<a name="storage.FileType"></a>  
-
-[string](/API_docs/types/string.html)<a name="string"></a>  
 
 [updates.ChannelDifference](/API_docs/types/updates.ChannelDifference.html)<a name="updates.ChannelDifference"></a>  
 

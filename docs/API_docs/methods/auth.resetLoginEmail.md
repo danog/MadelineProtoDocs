@@ -1,12 +1,12 @@
 ---
-title: "bots.getBotInfo"
-description: "bots.getBotInfo parameters, return type and example"
+title: "auth.resetLoginEmail"
+description: "auth.resetLoginEmail parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/bots_getBotInfo.html
+redirect_from: /API_docs/methods/auth_resetLoginEmail.html
 ---
-# Method: bots.getBotInfo
+# Method: auth.resetLoginEmail
 [Back to methods index](index.html)
 
 
@@ -15,11 +15,11 @@ redirect_from: /API_docs/methods/bots_getBotInfo.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|lang\_code|[string](/API_docs/types/string.html) | Yes|
+|phone\_number|[string](/API_docs/types/string.html) | Yes|
+|phone\_code\_hash|[string](/API_docs/types/string.html) | Yes|
 
 
-### Return type: [bots.BotInfo](/API_docs/types/bots.BotInfo.html)
+### Return type: [auth.SentCode](/API_docs/types/auth.SentCode.html)
 
 ### Can bots use this method: **YES**
 
@@ -36,6 +36,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$bots_BotInfo = $MadelineProto->bots->getBotInfo(bot: InputUser, lang_code: 'string', );
+$auth_SentCode = $MadelineProto->auth->resetLoginEmail(phone_number: 'string', phone_code_hash: 'string', );
 ```
 

@@ -1,12 +1,12 @@
 ---
-title: "bots.getBotInfo"
-description: "bots.getBotInfo parameters, return type and example"
+title: "chatlists.checkChatlistInvite"
+description: "chatlists.checkChatlistInvite parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/bots_getBotInfo.html
+redirect_from: /API_docs/methods/chatlists_checkChatlistInvite.html
 ---
-# Method: bots.getBotInfo
+# Method: chatlists.checkChatlistInvite
 [Back to methods index](index.html)
 
 
@@ -15,11 +15,10 @@ redirect_from: /API_docs/methods/bots_getBotInfo.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|lang\_code|[string](/API_docs/types/string.html) | Yes|
+|slug|[string](/API_docs/types/string.html) | Yes|
 
 
-### Return type: [bots.BotInfo](/API_docs/types/bots.BotInfo.html)
+### Return type: [chatlists.ChatlistInvite](/API_docs/types/chatlists.ChatlistInvite.html)
 
 ### Can bots use this method: **YES**
 
@@ -36,6 +35,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$bots_BotInfo = $MadelineProto->bots->getBotInfo(bot: InputUser, lang_code: 'string', );
+$chatlists_ChatlistInvite = $MadelineProto->chatlists->checkChatlistInvite(slug: 'string', );
 ```
 

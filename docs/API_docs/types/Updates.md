@@ -109,6 +109,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->messages->sendBotRequestedPeer](/API_docs/methods/messages.sendBotRequestedPeer.html)  
 
+[$MadelineProto->messages->setChatWallPaper](/API_docs/methods/messages.setChatWallPaper.html)  
+
 [$MadelineProto->help->getAppChangelog](/API_docs/methods/help.getAppChangelog.html)  
 
 [$MadelineProto->channels->createChannel](/API_docs/methods/channels.createChannel.html)  
@@ -195,7 +197,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->folders->editPeerFolders](/API_docs/methods/folders.editPeerFolders.html)  
 
-[$MadelineProto->folders->deleteFolder](/API_docs/methods/folders.deleteFolder.html)  
+[$MadelineProto->chatlists->joinChatlistInvite](/API_docs/methods/chatlists.joinChatlistInvite.html)  
+
+[$MadelineProto->chatlists->joinChatlistUpdates](/API_docs/methods/chatlists.joinChatlistUpdates.html)  
+
+[$MadelineProto->chatlists->leaveChatlist](/API_docs/methods/chatlists.leaveChatlist.html)  
 
 
 

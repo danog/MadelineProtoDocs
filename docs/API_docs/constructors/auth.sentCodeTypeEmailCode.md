@@ -18,7 +18,8 @@ redirect_from: /API_docs/constructors/auth_sentCodeTypeEmailCode.html
 |google\_signin\_allowed|[Bool](/API_docs/types/Bool.html) | Optional|
 |email\_pattern|[string](/API_docs/types/string.html) | Yes|
 |length|[int](/API_docs/types/int.html) | Yes|
-|next\_phone\_login\_date|[int](/API_docs/types/int.html) | Optional|
+|reset\_available\_period|[int](/API_docs/types/int.html) | Optional|
+|reset\_pending\_date|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -28,5 +29,5 @@ redirect_from: /API_docs/constructors/auth_sentCodeTypeEmailCode.html
 ### Example:
 
 ```
-$auth_sentCodeTypeEmailCode = ['_' => 'auth.sentCodeTypeEmailCode', 'apple_signin_allowed' => Bool, 'google_signin_allowed' => Bool, 'email_pattern' => 'string', 'length' => int, 'next_phone_login_date' => int];
+$auth_sentCodeTypeEmailCode = ['_' => 'auth.sentCodeTypeEmailCode', 'apple_signin_allowed' => Bool, 'google_signin_allowed' => Bool, 'email_pattern' => 'string', 'length' => int, 'reset_available_period' => int, 'reset_pending_date' => int];
 ```  

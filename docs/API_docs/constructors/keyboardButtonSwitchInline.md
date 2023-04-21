@@ -18,6 +18,7 @@ Button to force a user to switch to inline mode Pressing the button will prompt 
 |same\_peer|[Bool](/API_docs/types/Bool.html) | Optional|If set, pressing the button will insert the bot's username and the specified inline `query` in the current chat's input field.|
 |text|[string](/API_docs/types/string.html) | Yes|Button label|
 |query|[string](/API_docs/types/string.html) | Yes|The inline query to use|
+|peer\_types|Array of [InlineQueryPeerType](/API_docs/types/InlineQueryPeerType.html) | Optional|
 
 
 
@@ -27,5 +28,5 @@ Button to force a user to switch to inline mode Pressing the button will prompt 
 ### Example:
 
 ```
-$keyboardButtonSwitchInline = ['_' => 'keyboardButtonSwitchInline', 'same_peer' => Bool, 'text' => 'string', 'query' => 'string'];
+$keyboardButtonSwitchInline = ['_' => 'keyboardButtonSwitchInline', 'same_peer' => Bool, 'text' => 'string', 'query' => 'string', 'peer_types' => [InlineQueryPeerType, InlineQueryPeerType]];
 ```  

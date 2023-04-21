@@ -17,6 +17,7 @@ Create and upload a new [wallpaper](https://core.telegram.org/api/wallpapers)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|for\_chat|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |file|[File path or InputFile](/API_docs/types/InputFile.html) | The JPG/PNG wallpaper | Yes|
 |mime\_type|[string](/API_docs/types/string.html) | MIME type of uploaded wallpaper | Yes|
 |settings|[WallPaperSettings](/API_docs/types/WallPaperSettings.html) | Wallpaper settings | Yes|
@@ -39,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$WallPaper = $MadelineProto->account->uploadWallPaper(file: InputFile, mime_type: 'string', settings: WallPaperSettings, );
+$WallPaper = $MadelineProto->account->uploadWallPaper(for_chat: Bool, file: InputFile, mime_type: 'string', settings: WallPaperSettings, );
 ```
 

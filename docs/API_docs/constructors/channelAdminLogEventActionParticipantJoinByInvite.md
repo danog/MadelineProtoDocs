@@ -15,6 +15,7 @@ A user joined the [supergroup/channel](https://core.telegram.org/api/channel) us
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|via\_chatlist|[Bool](/API_docs/types/Bool.html) | Optional|
 |invite|[ExportedChatInvite](/API_docs/types/ExportedChatInvite.html) | Yes|The invite link used to join the [supergroup/channel](https://core.telegram.org/api/channel)|
 
 
@@ -25,5 +26,5 @@ A user joined the [supergroup/channel](https://core.telegram.org/api/channel) us
 ### Example:
 
 ```
-$channelAdminLogEventActionParticipantJoinByInvite = ['_' => 'channelAdminLogEventActionParticipantJoinByInvite', 'invite' => ExportedChatInvite];
+$channelAdminLogEventActionParticipantJoinByInvite = ['_' => 'channelAdminLogEventActionParticipantJoinByInvite', 'via_chatlist' => Bool, 'invite' => ExportedChatInvite];
 ```  

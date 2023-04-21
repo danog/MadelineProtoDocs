@@ -24,6 +24,8 @@ redirect_from: /API_docs/types/auth_SentCode.html
 
 [$MadelineProto->auth->resendCode](/API_docs/methods/auth.resendCode.html)  
 
+[$MadelineProto->auth->resetLoginEmail](/API_docs/methods/auth.resetLoginEmail.html)  
+
 [$MadelineProto->account->sendChangePhoneCode](/API_docs/methods/account.sendChangePhoneCode.html)  
 
 [$MadelineProto->account->sendConfirmPhoneCode](/API_docs/methods/account.sendConfirmPhoneCode.html)  

@@ -15,6 +15,7 @@ A participant has left, joined, was banned or admined in a [channel or supergrou
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|via\_chatlist|[Bool](/API_docs/types/Bool.html) | Optional|
 |channel\_id|[long](/API_docs/types/long.html) | Yes|Channel ID|
 |date|[int](/API_docs/types/int.html) | Yes|Date of the event|
 |actor\_id|[long](/API_docs/types/long.html) | Yes|User that triggered the change (inviter, admin that kicked the user, or the even the **user\_id** itself)|
@@ -32,5 +33,5 @@ A participant has left, joined, was banned or admined in a [channel or supergrou
 ### Example:
 
 ```
-$updateChannelParticipant = ['_' => 'updateChannelParticipant', 'channel_id' => long, 'date' => int, 'actor_id' => long, 'user_id' => long, 'prev_participant' => ChannelParticipant, 'new_participant' => ChannelParticipant, 'invite' => ExportedChatInvite, 'qts' => int];
+$updateChannelParticipant = ['_' => 'updateChannelParticipant', 'via_chatlist' => Bool, 'channel_id' => long, 'date' => int, 'actor_id' => long, 'user_id' => long, 'prev_participant' => ChannelParticipant, 'new_participant' => ChannelParticipant, 'invite' => ExportedChatInvite, 'qts' => int];
 ```  
