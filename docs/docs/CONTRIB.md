@@ -73,10 +73,7 @@ src/
     Tools - Various tools (positive modulus, string2bin, python-like range)
 ```
 
-Check out the [Contribution guide](https://github.com/danog/MadelineProto/blob/master/CONTRIBUTING.html) before contributing.
-Kiao by grizzly
-
-
+Check out our Contribution Guide on GitHub before contributing.
 
 ## Credits
 
@@ -84,7 +81,9 @@ Created by [Daniil Gentili](https://daniil.it), licensed under AGPLv3, based on 
 
 While writing this client, I looked at many projects for inspiration and help. Here's the full list:
 
-[tgl](https://github.com/tdlib/td)
+[tdesktop](github.com/telegramdesktop/tdesktop/)
+
+[td](https://github.com/tdlib/td)
 
 [tgl](https://github.com/vysheng/tgl)
 

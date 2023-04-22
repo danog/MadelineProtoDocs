@@ -38,7 +38,7 @@ $status is `\danog\MadelineProto\MTProto::SECRET_EMPTY` if the chat cannot be fo
 
 ## Sending secret messages
 
-[Full example](https://github.com/danog/MadelineProto/blob/master/secret_bot.php)
+[Full example](https://github.com/danog/MadelineProto/blob/v8/secret_bot.php)
 
 To send messages/files/service messages, simply use the sendEncrypted methods with objects that use the same layer used by the other client (specified by the number after the underscore in decryptedMessage object names, to obtain the layer that must be used for a secret chat use the following wrapper method).  
 

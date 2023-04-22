@@ -42,7 +42,7 @@ $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => 'T
 
 
 ## Peers
-[Full example](https://github.com/danog/MadelineProto/blob/master/bot.php)
+[Full example](https://github.com/danog/MadelineProto/blob/v8/bot.php)
 
 If an object of type User, InputUser, Chat, InputChannel, Peer or InputPeer must be provided as a parameter to a method, you can substitute it with the user/group/channel's username (`@username`), bot API id (`-1029449`, `1249421`, `-100412412901`), or update.  
 
@@ -67,7 +67,7 @@ Uses logarithmic conversion to avoid problems on 32 bit systems.
 
 
 ## Secret chats
-[Full example](https://github.com/danog/MadelineProto/blob/master/secret_bot.php)
+[Full example](https://github.com/danog/MadelineProto/blob/v8/examples/secret_bot.php)
 If an object of type InputSecretChat must be provided as a parameter to a method, you can substitute it with the secret chat's id, the updateNewEncrypted message or the decryptedMessage:
 
 ```php
@@ -76,7 +76,7 @@ $MadelineProto->messages->sendEncrypted(['peer' => $update, 'message' => ['_' =>
 
 
 ## Entities
-[Full example](https://github.com/danog/MadelineProto/blob/master/tests/testing.php)
+[Full example](https://github.com/danog/MadelineProto/blob/v8/tests/testing.php)
 Methods that allow sending message entities ([messages.sendMessage](http://docs.madelineproto.xyz/API_docs/methods/messages_sendMessage.html) for example) also have an additional `parse_mode` parameter that enables or disables html/markdown parsing of the message to be sent.
 
 ```php

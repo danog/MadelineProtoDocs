@@ -1,10 +1,10 @@
 ---
-title: "Handling updates (new messages)"
+title: "Handling updates (new messages & other events)"
 description: "Update handling can be done in different ways: "
 nav_order: 9
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Handling updates (new messages)
+# Handling updates (new messages & other events)
 
 Update handling can be done in different ways: 
 
@@ -17,6 +17,7 @@ Update handling can be done in different ways:
 
 ## Async Event driven
 
+<!-- cut_here -->
 ```php
 <?php declare(strict_types=1);
 /**
@@ -45,20 +46,25 @@ use danog\MadelineProto\Settings\Database\Mysql;
 use danog\MadelineProto\Settings\Database\Postgres;
 use danog\MadelineProto\Settings\Database\Redis;
 
-if (!file_exists('madeline.php')) {
-    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+// If a stable version of MadelineProto was installed via composer, load composer autoloader
+if (file_exists('vendor/autoload.php')) {
+    require_once 'vendor/autoload.php';
+} else {
+    // Otherwise download an alpha version of MadelineProto via madeline.php
+    if (!file_exists('madeline.php')) {
+        copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+    }
+    require_once 'madeline.php';
 }
-include 'madeline.php';
-
 /**
  * Event handler class.
  */
-class MyEventHandler extends EventHandler
+class SecretHandler extends EventHandler
 {
     /**
      * @var int|string Username or ID of bot admin
      */
-    const ADMIN = ""; // !!! Change this to your username !!!
+    const ADMIN = "danogentili"; // !!! Change this to your username !!!
 
     /**
      * List of properties automatically stored in database (MySQL, Postgres, redis or memory).
@@ -85,6 +91,8 @@ class MyEventHandler extends EventHandler
      */
     protected array $notifiedChats = [];
 
+    private int $adminId;
+
     /**
      * Get peer(s) where to report errors.
      *
@@ -101,6 +109,7 @@ class MyEventHandler extends EventHandler
     {
         $this->logger("The bot was started!");
         $this->logger($this->getFullInfo('MadelineProto'));
+        $this->adminId = $this->getId(self::ADMIN);
     }
     /**
      * Handle updates from supergroups and channels.
@@ -125,8 +134,13 @@ class MyEventHandler extends EventHandler
 
         $this->logger($update);
 
-        // Chat id
+        // Chat ID
         $id = $this->getId($update);
+
+        // Sender ID, not always present
+        $from_id = isset($update['message']['from_id'])
+            ? $this->getId($update['message']['from_id'])
+            : null;
 
         // In this example code, send the "This userbot is powered by MadelineProto!" message only once per chat.
         // Ignore all further messages coming from this chat.
@@ -139,6 +153,14 @@ class MyEventHandler extends EventHandler
                 reply_to_msg_id: $update['message']['id'] ?? null,
                 parse_mode: 'Markdown'
             );
+        }
+
+        // If the message is a /restart command from an admin, restart to reload changes to the event handler code.
+        if (($update['message']['message'] ?? '') === '/restart'
+            && $from_id === $this->adminId
+        ) {
+            // Make sure to run in a bash while loop when running via CLI to allow self-restarts.
+            $this->restart();
         }
 
         // Remove the following example code when running your bot
@@ -173,6 +195,8 @@ class MyEventHandler extends EventHandler
     }
 
     // 100+ other types of onUpdate... method types are available, see https://docs.madelineproto.xyz/API_docs/types/Update.html for the full list.
+
+    // You can also use onAny to catch all update types (only for debugging)
 }
 
 $settings = new Settings;
@@ -184,10 +208,10 @@ $settings->getLogger()->setLevel(Logger::LEVEL_ULTRA_VERBOSE);
 // $settings->setDb((new Mysql)->setDatabase('MadelineProto')->setUsername('daniil')->setPassword('pony'));
 
 // For users or bots
-MyEventHandler::startAndLoop('bot.madeline', $settings);
+SecretHandler::startAndLoop('bot.madeline', $settings);
 
 // For bots only
-MyEventHandler::startAndLoopBot('bot.madeline', 'bot token', $settings);
+SecretHandler::startAndLoopBot('bot.madeline', 'bot token', $settings);
 
 ```
 <!-- cut_here_end -->
