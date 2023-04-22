@@ -110,6 +110,11 @@ class SecretHandler extends EventHandler
         $this->logger("The bot was started!");
         $this->logger($this->getFullInfo('MadelineProto'));
         $this->adminId = $this->getId(self::ADMIN);
+
+        $this->messages->sendMessage(
+            peer: self::ADMIN,
+            message: "The bot was started!"
+        );
     }
     /**
      * Handle updates from supergroups and channels.
@@ -211,7 +216,7 @@ $settings->getLogger()->setLevel(Logger::LEVEL_ULTRA_VERBOSE);
 SecretHandler::startAndLoop('bot.madeline', $settings);
 
 // For bots only
-SecretHandler::startAndLoopBot('bot.madeline', 'bot token', $settings);
+// SecretHandler::startAndLoopBot('bot.madeline', 'bot token', $settings);
 
 ```
 <!-- cut_here_end -->
