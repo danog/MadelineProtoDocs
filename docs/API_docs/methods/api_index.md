@@ -1149,10 +1149,6 @@ $MadelineProto->[messages->getAdminsWithInvites](/API_docs/methods/messages.getA
 
 ***
 <br><br>
-$MadelineProto->[messages->getAllChats](/API_docs/methods/messages.getAllChats.html)(\[except_ids: \[[long](/API_docs/types/long.html)\], \]) === [$messages.Chats](/API_docs/types/messages.Chats.html)<a name="messages.getAllChats"></a>  
-
-***
-<br><br>
 $MadelineProto->[messages->getAllDrafts](/API_docs/methods/messages.getAllDrafts.html)(\[\]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.getAllDrafts"></a>  
 
 ***

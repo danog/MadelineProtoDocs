@@ -278,8 +278,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.getChatThemes.html" name="account.getChatThemes">Get all available chat themes: account.getChatThemes</a>
 
-* <a href="messages.getAllChats.html" name="messages.getAllChats">Get all chats, channels and supergroups: messages.getAllChats</a>
-
 * <a href="contacts.getSaved.html" name="contacts.getSaved">Get all contacts: contacts.getSaved</a>
 
 * <a href="channels.getGroupsForDiscussion.html" name="channels.getGroupsForDiscussion">Get all groups that can be used as discussion groups: channels.getGroupsForDiscussion</a>

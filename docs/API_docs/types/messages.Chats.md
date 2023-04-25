@@ -24,8 +24,6 @@ redirect_from: /API_docs/types/messages_Chats.html
 
 [$MadelineProto->messages->getCommonChats](/API_docs/methods/messages.getCommonChats.html)  
 
-[$MadelineProto->messages->getAllChats](/API_docs/methods/messages.getAllChats.html)  
-
 [$MadelineProto->channels->getChannels](/API_docs/methods/channels.getChannels.html)  
 
 [$MadelineProto->channels->getAdminedPublicChannels](/API_docs/methods/channels.getAdminedPublicChannels.html)  
