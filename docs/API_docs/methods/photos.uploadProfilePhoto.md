@@ -27,7 +27,7 @@ Updates current user profile photo.
 
 ### Return type: [photos.Photo](/API_docs/types/photos.Photo.html)
 
-### Can bots use this method: **NO**
+### Can bots use this method: **YES**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

@@ -22,7 +22,7 @@ redirect_from: /API_docs/methods/chatlists_exportChatlistInvite.html
 
 ### Return type: [chatlists.ExportedChatlistInvite](/API_docs/types/chatlists.ExportedChatlistInvite.html)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

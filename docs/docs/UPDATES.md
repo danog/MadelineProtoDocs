@@ -168,6 +168,10 @@ class MyEventHandler extends EventHandler
             $this->restart();
         }
 
+        if (($update['message']['message'] ?? '') === 'ping') {
+            $this->messages->sendMessage(['message' => 'pong', 'peer' => $update]);
+        }
+
         // Remove the following example code when running your bot
 
         // Test MadelineProto's built-in database driver, which automatically maps to MySQL/PostgreSQL/Redis
@@ -200,8 +204,8 @@ class MyEventHandler extends EventHandler
     }
 
     // 100+ other types of onUpdate... method types are available, see https://docs.madelineproto.xyz/API_docs/types/Update.html for the full list.
-
     // You can also use onAny to catch all update types (only for debugging)
+    // A special onUpdateCustomEvent method can also be defined, to send messages to the event handler from an API instance, using the sendCustomEvent method.
 }
 
 $settings = new Settings;
@@ -230,6 +234,8 @@ All events are handled concurrently thanks to async, [here's a full explanation]
 When an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html) is received, the corresponding `onUpdateType` event handler method is called.  
 
 To get a list of all possible update types, [click here](https://docs.madelineproto.xyz/API_docs/types/Update.html). 
+
+A special `onUpdateCustomEvent` method can also be defined, to send messages to the event handler from an API instance, using the `sendCustomEvent` method.
 
 If such a method does not exist, the `onAny` event handler method is called.  
 If the `onAny` event handler method does not exist, the update is ignored.  
