@@ -13,7 +13,7 @@ The `ev` and `event` extensions are highly recommended to improve performance.
 **PHP 8.1+ is required**.
 
 MadelineProto explicitly supports Linux and UNIX systems (including Mac OS).  
-MadelineProto generally works on Windows, though there might be some random issues caused by AV engines, so I personally recommend using Linux.  
+I **don't recommend using Windows**: MadelineProto generally works on Windows, though there might be some random issues caused by AV engines, so I personally recommend using Linux.  
 
 Running on webservers and webhosts is fully supported, but I highly recommend running long-running applications like [event handler bots](https://docs.madelineproto.xyz/docs/UPDATES.html) via CLI (in a `screen` session, for example).  
 
