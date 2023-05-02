@@ -12,23 +12,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [Go to the old code-version method index](api_%s)  
 
-* [Logout](https://docs.madelineproto.xyz/logout.html)
-
 * [Login](https://docs.madelineproto.xyz/docs/LOGIN.html)
 
-* [Change 2FA password](https://docs.madelineproto.xyz/update2fa.html)
+* [Change 2FA password: update2FA](https://docs.madelineproto.xyz/update2fa.html)
 
-* [Get all chats, broadcast a message to all chats](https://docs.madelineproto.xyz/docs/DIALOGS.html)
+* [Get all chats, broadcast a message to all chats: getDialogIds, getDialogs, getFullDialogs](https://docs.madelineproto.xyz/docs/DIALOGS.html)
 
-* [Get the full participant list of a channel/group/supergroup](https://docs.madelineproto.xyz/getPwrChat.html)
+* [Get the full participant list of a channel/group/supergroup: getPwrChat](https://docs.madelineproto.xyz/getPwrChat.html)
 
-* [Get full info about a user/chat/supergroup/channel](https://docs.madelineproto.xyz/getFullInfo.html)
+* [Get full info about a user/chat/supergroup/channel: getFullInfo](https://docs.madelineproto.xyz/getFullInfo.html)
 
-* [Get info about a user/chat/supergroup/channel](https://docs.madelineproto.xyz/getInfo.html)
+* [Get info about a user/chat/supergroup/channel: getInfo](https://docs.madelineproto.xyz/getInfo.html)
 
-* [Get info about the currently logged-in user](https://docs.madelineproto.xyz/getSelf.html)
+* [Get the ID of a user/chat/supergroup/channel/update: getID](https://docs.madelineproto.xyz/getId.html)
 
-* [Upload or download files up to 2 GB](https://docs.madelineproto.xyz/docs/FILES.html)
+* [Get info about the currently logged-in user: getSelf](https://docs.madelineproto.xyz/getSelf.html)
+
+* [Upload or download files up to 2 GB: uploadFrom*, downloadTo*](https://docs.madelineproto.xyz/docs/FILES.html)
 
 * [Make a phone call and play a song](https://docs.madelineproto.xyz/docs/CALLS.html)
 
