@@ -45,6 +45,7 @@ use danog\MadelineProto\Settings;
 use danog\MadelineProto\Settings\Database\Mysql;
 use danog\MadelineProto\Settings\Database\Postgres;
 use danog\MadelineProto\Settings\Database\Redis;
+use danog\MadelineProto\Settings\Database\SerializerType;
 
 // If a stable version of MadelineProto was installed via composer, load composer autoloader
 if (file_exists('vendor/autoload.php')) {
@@ -64,7 +65,7 @@ class MyEventHandler extends EventHandler
     /**
      * @var int|string Username or ID of bot admin
      */
-    const ADMIN = "danogentili"; // !!! Change this to your username !!!
+    const ADMIN = "@me"; // !!! Change this to your username !!!
 
     /**
      * List of properties automatically stored in database (MySQL, Postgres, redis or memory).
@@ -78,7 +79,7 @@ class MyEventHandler extends EventHandler
      * @see https://docs.madelineproto.xyz/docs/DATABASE.html
      */
     protected static array $dbProperties = [
-        'dataStoredOnDb' => [],
+        'dataStoredOnDb' => ['serializer' => SerializerType::SERIALIZE],
     ];
 
     /**
