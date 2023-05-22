@@ -6,6 +6,7 @@ parent: "Methods"
 ---
 ## Method: getId
 
+Gets a bot API ID from a username, update, message, or other related constructors.
 
 ### Parameters:
 
