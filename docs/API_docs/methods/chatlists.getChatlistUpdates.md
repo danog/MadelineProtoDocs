@@ -1,6 +1,6 @@
 ---
 title: "chatlists.getChatlistUpdates"
-description: "chatlists.getChatlistUpdates parameters, return type and example"
+description: "Fetch new chats associated with an imported [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links). Must be invoked at most every `chatlist_update_period` seconds (as per the related [client configuration parameter »](https://core.telegram.org/api/config#chatlist-update-period))."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/chatlists_getChatlistUpdates.html
 
 
 
+Fetch new chats associated with an imported [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links). Must be invoked at most every `chatlist_update_period` seconds (as per the related [client configuration parameter »](https://core.telegram.org/api/config#chatlist-update-period)).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chatlist|[InputChatlist](/API_docs/types/InputChatlist.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chatlist|[InputChatlist](/API_docs/types/InputChatlist.html) | The folder | Yes|
 
 
 ### Return type: [chatlists.ChatlistUpdates](/API_docs/types/chatlists.ChatlistUpdates.html)

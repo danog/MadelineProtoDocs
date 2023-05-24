@@ -1,6 +1,6 @@
 ---
 title: "updateUser"
-description: "updateUser attributes, type and example"
+description: "User information was updated, it must be refetched using users.getFullUser."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+User information was updated, it must be refetched using [users.getFullUser](../methods/users.getFullUser.html).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User ID|
 
 
 

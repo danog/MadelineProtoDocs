@@ -1,6 +1,6 @@
 ---
 title: "chatlists.hideChatlistUpdates"
-description: "chatlists.hideChatlistUpdates parameters, return type and example"
+description: "Dismiss new pending peers recently added to a [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/chatlists_hideChatlistUpdates.html
 
 
 
+Dismiss new pending peers recently added to a [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chatlist|[InputChatlist](/API_docs/types/InputChatlist.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chatlist|[InputChatlist](/API_docs/types/InputChatlist.html) | The folder | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

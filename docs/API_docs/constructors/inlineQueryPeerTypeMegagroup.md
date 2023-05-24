@@ -1,6 +1,6 @@
 ---
 title: "inlineQueryPeerTypeMegagroup"
-description: "The inline query was sent in a supergroup"
+description: "Peer type: supergroup"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-The inline query was sent in a [supergroup](https://core.telegram.org/api/channel)
+Peer type: [supergroup](https://core.telegram.org/api/channel)
 
 
 

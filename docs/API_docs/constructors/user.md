@@ -46,7 +46,7 @@ Indicates info about a certain user
 |restriction\_reason|Array of [RestrictionReason](/API_docs/types/RestrictionReason.html) | Optional|Contains the reason why access to this user must be restricted.|
 |bot\_inline\_placeholder|[string](/API_docs/types/string.html) | Optional|Inline placeholder for this inline bot|
 |lang\_code|[string](/API_docs/types/string.html) | Optional|Language code of the user|
-|emoji\_status|[EmojiStatus](/API_docs/types/EmojiStatus.html) | Optional|
+|emoji\_status|[EmojiStatus](/API_docs/types/EmojiStatus.html) | Optional|[Emoji status](https://core.telegram.org/api/emoji-status)|
 |usernames|Array of [Username](/API_docs/types/Username.html) | Optional|
 
 

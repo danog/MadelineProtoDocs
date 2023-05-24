@@ -1,6 +1,6 @@
 ---
 title: "channelAdminLogEventActionCreateTopic"
-description: "channelAdminLogEventActionCreateTopic attributes, type and example"
+description: "A forum topic was created"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A [forum topic](https://core.telegram.org/api/forum#forum-topics) was created
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|topic|[ForumTopic](/API_docs/types/ForumTopic.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|topic|[ForumTopic](/API_docs/types/ForumTopic.html) | Yes|The [forum topic](https://core.telegram.org/api/forum#forum-topics) that was created|
 
 
 

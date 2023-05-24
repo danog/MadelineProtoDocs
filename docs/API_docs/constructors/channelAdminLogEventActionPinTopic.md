@@ -1,6 +1,6 @@
 ---
 title: "channelAdminLogEventActionPinTopic"
-description: "channelAdminLogEventActionPinTopic attributes, type and example"
+description: "A forum topic was pinned or unpinned"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A [forum topic](https://core.telegram.org/api/forum#forum-topics) was pinned or unpinned
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|prev\_topic|[ForumTopic](/API_docs/types/ForumTopic.html) | Optional|
-|new\_topic|[ForumTopic](/API_docs/types/ForumTopic.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|prev\_topic|[ForumTopic](/API_docs/types/ForumTopic.html) | Optional|Previous topic information|
+|new\_topic|[ForumTopic](/API_docs/types/ForumTopic.html) | Optional|New topic information|
 
 
 

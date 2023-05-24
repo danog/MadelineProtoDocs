@@ -1,6 +1,6 @@
 ---
 title: "messages.getEmojiKeywordsLanguages"
-description: "Get info about an emoji keyword localization"
+description: "Obtain a list of related languages that must be used when fetching [emoji keyword lists »](https://core.telegram.org/api/custom-emoji#emoji-keywords)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/messages_getEmojiKeywordsLanguages.html
 
 
 
-Get info about an emoji keyword localization
+Obtain a list of related languages that must be used when fetching [emoji keyword lists »](https://core.telegram.org/api/custom-emoji#emoji-keywords).
+
+Usually the method will return the passed language codes (if localized) + `en` + some language codes for similar languages (if applicable).
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|lang\_codes|Array of [string](/API_docs/types/string.html) | Language codes | Yes|
+|lang\_codes|Array of [string](/API_docs/types/string.html) | The user's language codes | Yes|
 
 
 ### Return type: [Vector\_of\_EmojiLanguage](/API_docs/types/EmojiLanguage.html)

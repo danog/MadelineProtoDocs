@@ -20,7 +20,7 @@ You cannot use this method directly, use the completePhoneLogin method instead (
 |phone\_number|[string](/API_docs/types/string.html) | Phone number in the international format | Yes|
 |phone\_code\_hash|[string](/API_docs/types/string.html) | SMS-message ID, obtained from [auth.sendCode](../methods/auth.sendCode.html) | Yes|
 |phone\_code|[string](/API_docs/types/string.html) | Valid numerical code from the SMS-message | Optional|
-|email\_verification|[EmailVerification](/API_docs/types/EmailVerification.html) |  | Optional|
+|email\_verification|[EmailVerification](/API_docs/types/EmailVerification.html) | Email verification code or token | Optional|
 
 
 ### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.html)

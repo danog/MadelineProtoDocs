@@ -1,6 +1,6 @@
 ---
 title: "forumTopicDeleted"
-description: "forumTopicDeleted attributes, type and example"
+description: "Represents a deleted forum topic."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents a deleted forum topic.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](/API_docs/types/int.html) | Yes|The ID of the deleted forum topic.|
 
 
 

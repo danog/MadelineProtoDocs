@@ -1,6 +1,6 @@
 ---
 title: "contacts.importContactToken"
-description: "contacts.importContactToken parameters, return type and example"
+description: "Obtain user info from a [temporary profile link](https://core.telegram.org/api/links#temporary-profile-links)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/contacts_importContactToken.html
 
 
 
+Obtain user info from a [temporary profile link](https://core.telegram.org/api/links#temporary-profile-links).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|token|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|token|[string](/API_docs/types/string.html) | The token extracted from the [temporary profile link](https://core.telegram.org/api/links#temporary-profile-links). | Yes|
 
 
 ### Return type: [User](/API_docs/types/User.html)

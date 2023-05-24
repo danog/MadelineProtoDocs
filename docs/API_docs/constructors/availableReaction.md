@@ -21,7 +21,7 @@ Animations associated with a message reaction
 |title|[string](/API_docs/types/string.html) | Yes|Reaction description|
 |static\_icon|[Document](/API_docs/types/Document.html) | Optional|Static icon for the reaction|
 |appear\_animation|[Document](/API_docs/types/Document.html) | Optional|The animated sticker to show when the user opens the reaction dropdown|
-|select\_animation|[Document](/API_docs/types/Document.html) | Optional|The animated sticker to show when the user selects this reaction|
+|select\_animation|[Document](/API_docs/types/Document.html) | Optional|The animated sticker to show when the user hovers over the reaction|
 |activate\_animation|[Document](/API_docs/types/Document.html) | Optional|The animated sticker to show when the reaction is chosen and activated|
 |effect\_animation|[Document](/API_docs/types/Document.html) | Optional|The background effect (still an animated sticker) to play under the `activate_animation`, when the reaction is chosen and activated|
 |around\_animation|[Document](/API_docs/types/Document.html) | Optional|The animation that plays around the button when you press an existing reaction (played together with `center_icon`).|

@@ -1,6 +1,6 @@
 ---
 title: "channels.getForumTopicsByID"
-description: "channels.getForumTopicsByID parameters, return type and example"
+description: "Get forum topics by their ID"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/channels_getForumTopicsByID.html
 
 
 
+Get forum topics by their ID
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
-|topics|Array of [int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Forum | Optional|
+|topics|Array of [int](/API_docs/types/int.html) | Topic IDs | Yes|
 
 
 ### Return type: [messages.ForumTopics](/API_docs/types/messages.ForumTopics.html)

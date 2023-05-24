@@ -17,8 +17,8 @@ Installs a previously uploaded photo as a profile photo.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|fallback|[Bool](/API_docs/types/Bool.html) |  | Optional|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) |  | Optional|
+|fallback|[Bool](/API_docs/types/Bool.html) | If set, the chosen profile photo will be shown to users that can't display your main profile photo due to your privacy settings. | Optional|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Can contain info of a bot we own, to change the profile photo of that bot, instead of the current user. | Optional|
 |id|[MessageMedia, Update, Message or InputPhoto](/API_docs/types/InputPhoto.html) | Input photo | Optional|
 
 

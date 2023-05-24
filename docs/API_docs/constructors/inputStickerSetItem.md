@@ -18,7 +18,7 @@ Sticker in a stickerset
 |document|[MessageMedia, Message, Update or InputDocument](/API_docs/types/InputDocument.html) | Optional|The sticker|
 |emoji|[string](/API_docs/types/string.html) | Yes|Associated emoji|
 |mask\_coords|[MaskCoords](/API_docs/types/MaskCoords.html) | Optional|Coordinates for mask sticker|
-|keywords|[string](/API_docs/types/string.html) | Optional|
+|keywords|[string](/API_docs/types/string.html) | Optional|Set of keywords, separated by commas (can't be provided for mask stickers)|
 
 
 

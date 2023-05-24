@@ -1,6 +1,6 @@
 ---
 title: "messageExtendedMedia"
-description: "messageExtendedMedia attributes, type and example"
+description: "Extended media"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Extended media
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|media|[MessageMedia](/API_docs/types/MessageMedia.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|media|[MessageMedia](/API_docs/types/MessageMedia.html) | Optional|Media|
 
 
 

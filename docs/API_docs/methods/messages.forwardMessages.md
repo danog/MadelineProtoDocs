@@ -26,7 +26,7 @@ Forwards messages by their IDs.
 |from\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Source of messages | Optional|
 |id|Array of [int](/API_docs/types/int.html) | IDs of messages | Yes|
 |to\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Destination peer | Optional|
-|top\_msg\_id|[int](/API_docs/types/int.html) |  | Optional|
+|top\_msg\_id|[int](/API_docs/types/int.html) | Destination [forum topic](https://core.telegram.org/api/forum#forum-topics) | Optional|
 |schedule\_date|[int](/API_docs/types/int.html) | Scheduled message date for scheduled messages | Optional|
 |send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Forward the messages as the specified peer | Optional|
 

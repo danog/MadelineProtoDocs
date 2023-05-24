@@ -17,8 +17,8 @@ Verify an email address.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|purpose|[EmailVerifyPurpose](/API_docs/types/EmailVerifyPurpose.html) |  | Yes|
-|verification|[EmailVerification](/API_docs/types/EmailVerification.html) |  | Yes|
+|purpose|[EmailVerifyPurpose](/API_docs/types/EmailVerifyPurpose.html) | Verification purpose | Yes|
+|verification|[EmailVerification](/API_docs/types/EmailVerification.html) | Email verification code or token | Yes|
 
 
 ### Return type: [account.EmailVerified](/API_docs/types/account.EmailVerified.html)

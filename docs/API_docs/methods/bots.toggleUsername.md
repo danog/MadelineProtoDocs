@@ -1,6 +1,6 @@
 ---
 title: "bots.toggleUsername"
-description: "bots.toggleUsername parameters, return type and example"
+description: "Activate or deactivate a purchased [fragment.com](https://fragment.com) username associated to a bot we own."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/bots_toggleUsername.html
 
 
 
+Activate or deactivate a purchased [fragment.com](https://fragment.com) username associated to a bot we own.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|username|[string](/API_docs/types/string.html) | Yes|
-|active|[Bool](/API_docs/types/Bool.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The bot | Optional|
+|username|[string](/API_docs/types/string.html) | Username | Yes|
+|active|[Bool](/API_docs/types/Bool.html) | Whether to activate or deactivate it | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

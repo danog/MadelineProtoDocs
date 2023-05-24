@@ -1,6 +1,6 @@
 ---
 title: "emailVerificationCode"
-description: "emailVerificationCode attributes, type and example"
+description: "Email verification code"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Email verification code
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|code|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|code|[string](/API_docs/types/string.html) | Yes|Received verification code|
 
 
 

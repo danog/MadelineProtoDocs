@@ -1,6 +1,6 @@
 ---
 title: "channels.reorderPinnedForumTopics"
-description: "channels.reorderPinnedForumTopics parameters, return type and example"
+description: "Reorder pinned forum topics"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/channels_reorderPinnedForumTopics.html
 
 
 
+Reorder pinned forum topics
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|force|[Bool](/API_docs/types/Bool.html) | Optional|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
-|order|Array of [int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|force|[Bool](/API_docs/types/Bool.html) | If set, topics pinned server-side but not present in the order field will be unpinned. | Optional|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Supergroup ID | Optional|
+|order|Array of [int](/API_docs/types/int.html) | [Topic IDs »](https://core.telegram.org/api/forum) | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

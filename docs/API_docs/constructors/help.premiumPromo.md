@@ -24,7 +24,7 @@ The keys in `video_sections` correspond to a specific feature identifier, and th
 |status\_entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Yes|[Message entities for styled text](https://core.telegram.org/api/entities)|
 |video\_sections|Array of [string](/API_docs/types/string.html) | Yes|A list of [premium feature identifiers »](https://core.telegram.org/api/premium), associated to each video|
 |videos|Array of [Document](/API_docs/types/Document.html) | Yes|A list of videos|
-|period\_options|Array of [PremiumSubscriptionOption](/API_docs/types/PremiumSubscriptionOption.html) | Yes|
+|period\_options|Array of [PremiumSubscriptionOption](/API_docs/types/PremiumSubscriptionOption.html) | Yes|Telegram Premium subscription options|
 |users|Array of [User](/API_docs/types/User.html) | Yes|Related user information|
 
 

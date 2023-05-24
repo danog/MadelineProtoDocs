@@ -1,6 +1,6 @@
 ---
 title: "stickers.renameStickerSet"
-description: "stickers.renameStickerSet parameters, return type and example"
+description: "Renames a stickerset, bots only."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/stickers_renameStickerSet.html
 
 
 
+Renames a stickerset, bots only.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.html) | Optional|
-|title|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.html) | Stickerset to rename | Optional|
+|title|[string](/API_docs/types/string.html) | New stickerset title | Yes|
 
 
 ### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.html)

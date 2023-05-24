@@ -1,6 +1,6 @@
 ---
 title: "account.getDefaultEmojiStatuses"
-description: "account.getDefaultEmojiStatuses parameters, return type and example"
+description: "Get a list of default suggested [emoji statuses](https://core.telegram.org/api/emoji-status)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/account_getDefaultEmojiStatuses.html
 
 
 
+Get a list of default suggested [emoji statuses](https://core.telegram.org/api/emoji-status)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|Array of [long](/API_docs/types/long.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|Array of [long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [account.EmojiStatuses](/API_docs/types/account.EmojiStatuses.html)

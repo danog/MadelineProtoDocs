@@ -20,12 +20,12 @@ Create a [supergroup/channel](https://core.telegram.org/api/channel).
 |broadcast|[Bool](/API_docs/types/Bool.html) | Whether to create a [channel](https://core.telegram.org/api/channel) | Optional|
 |megagroup|[Bool](/API_docs/types/Bool.html) | Whether to create a [supergroup](https://core.telegram.org/api/channel) | Optional|
 |for\_import|[Bool](/API_docs/types/Bool.html) | Whether the supergroup is being created to import messages from a foreign chat service using [messages.initHistoryImport](../methods/messages.initHistoryImport.html) | Optional|
-|forum|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|forum|[Bool](/API_docs/types/Bool.html) | Whether to create a [forum](https://core.telegram.org/api/forum) | Optional|
 |title|[string](/API_docs/types/string.html) | Channel title | Yes|
 |about|[string](/API_docs/types/string.html) | Channel description | Yes|
 |geo\_point|[InputGeoPoint](/API_docs/types/InputGeoPoint.html) | Geogroup location | Optional|
 |address|[string](/API_docs/types/string.html) | Geogroup address | Optional|
-|ttl\_period|[int](/API_docs/types/int.html) |  | Optional|
+|ttl\_period|[int](/API_docs/types/int.html) | Time-to-live of all messages that will be sent in the supergroup: once message.date+message.ttl\_period === time(), the message will be deleted on the server, and must be deleted locally as well. You can use [messages.setDefaultHistoryTTL](../methods/messages.setDefaultHistoryTTL.html) to edit this value later. | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

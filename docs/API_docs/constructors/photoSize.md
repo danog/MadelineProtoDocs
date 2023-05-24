@@ -15,7 +15,7 @@ Image description.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|type|[string](/API_docs/types/string.html) | Yes|Thumbnail type|
+|type|[string](/API_docs/types/string.html) | Yes|[Thumbnail type »](https://core.telegram.org/api/files#image-thumbnail-types)|
 |w|[int](/API_docs/types/int.html) | Yes|Image width|
 |h|[int](/API_docs/types/int.html) | Yes|Image height|
 |size|[int](/API_docs/types/int.html) | Yes|File size|

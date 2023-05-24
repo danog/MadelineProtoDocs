@@ -18,7 +18,7 @@ Currently used only for [custom emoji stickersets](https://core.telegram.org/api
 |----------|---------------|----------|-------------|
 |set|[StickerSet](/API_docs/types/StickerSet.html) | Yes|Stickerset|
 |packs|Array of [StickerPack](/API_docs/types/StickerPack.html) | Yes|Emoji information about every sticker in the stickerset|
-|keywords|Array of [StickerKeyword](/API_docs/types/StickerKeyword.html) | Yes|
+|keywords|Array of [StickerKeyword](/API_docs/types/StickerKeyword.html) | Yes|Keywords for some or every sticker in the stickerset.|
 |documents|Array of [Document](/API_docs/types/Document.html) | Yes|Stickers|
 
 

@@ -1,6 +1,6 @@
 ---
 title: "messages.emojiGroupsNotModified"
-description: "messages.emojiGroupsNotModified attributes, type and example"
+description: "The list of emoji categories hasn't changed."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_emojiGroupsNotModified.html
@@ -9,6 +9,8 @@ redirect_from: /API_docs/constructors/messages_emojiGroupsNotModified.html
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+The list of [emoji categories](https://core.telegram.org/api/custom-emoji#emoji-categories) hasn't changed.
 
 
 

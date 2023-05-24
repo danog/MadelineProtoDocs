@@ -1,6 +1,6 @@
 ---
 title: "channels.updatePinnedForumTopic"
-description: "channels.updatePinnedForumTopic parameters, return type and example"
+description: "Pin or unpin [forum topics](https://core.telegram.org/api/forum)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/channels_updatePinnedForumTopic.html
 
 
 
+Pin or unpin [forum topics](https://core.telegram.org/api/forum)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
-|topic\_id|[int](/API_docs/types/int.html) | Yes|
-|pinned|[Bool](/API_docs/types/Bool.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Supergroup ID | Optional|
+|topic\_id|[int](/API_docs/types/int.html) | [Forum topic ID](https://core.telegram.org/api/forum) | Optional|
+|pinned|[Bool](/API_docs/types/Bool.html) | Whether to pin or unpin the topic | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

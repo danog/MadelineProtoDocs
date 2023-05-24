@@ -1,6 +1,6 @@
 ---
 title: "appWebViewResultUrl"
-description: "appWebViewResultUrl attributes, type and example"
+description: "Contains the link that must be used to open a named bot web app."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Contains the link that must be used to open a [named bot web app](https://core.telegram.org/api/bots/webapps#named-bot-web-apps).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|url|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|url|[string](/API_docs/types/string.html) | Yes|The URL to open|
 
 
 

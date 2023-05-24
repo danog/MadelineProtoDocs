@@ -1,6 +1,6 @@
 ---
 title: "chatlists.editExportedInvite"
-description: "chatlists.editExportedInvite parameters, return type and example"
+description: "Edit a [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,16 @@ redirect_from: /API_docs/methods/chatlists_editExportedInvite.html
 
 
 
+Edit a [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chatlist|[InputChatlist](/API_docs/types/InputChatlist.html) | Yes|
-|slug|[string](/API_docs/types/string.html) | Yes|
-|title|[string](/API_docs/types/string.html) | Optional|
-|peers|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chatlist|[InputChatlist](/API_docs/types/InputChatlist.html) | Folder ID | Yes|
+|slug|[string](/API_docs/types/string.html) | `slug` obtained from the [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links). | Yes|
+|title|[string](/API_docs/types/string.html) | If set, sets a new name for the link | Optional|
+|peers|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | If set, changes the list of peers shared with the link | Optional|
 
 
 ### Return type: [ExportedChatlistInvite](/API_docs/types/ExportedChatlistInvite.html)

@@ -25,7 +25,7 @@ Dialog filter AKA [folder](https://core.telegram.org/api/folders)
 |exclude\_archived|[Bool](/API_docs/types/Bool.html) | Optional|Whether to exclude archived chats from this [folder](https://core.telegram.org/api/folders)|
 |id|[int](/API_docs/types/int.html) | Yes|[Folder](https://core.telegram.org/api/folders) ID|
 |title|[string](/API_docs/types/string.html) | Yes|[Folder](https://core.telegram.org/api/folders) name|
-|emoticon|[string](/API_docs/types/string.html) | Optional|[Folder](https://core.telegram.org/api/folders) emoticon|
+|emoticon|[string](/API_docs/types/string.html) | Optional|Emoji to use as icon for the folder.|
 |pinned\_peers|Array of [InputPeer](/API_docs/types/InputPeer.html) | Yes|Pinned chats, [folders](https://core.telegram.org/api/folders) can have unlimited pinned chats|
 |include\_peers|Array of [InputPeer](/API_docs/types/InputPeer.html) | Yes|Include the following chats in this [folder](https://core.telegram.org/api/folders)|
 |exclude\_peers|Array of [InputPeer](/API_docs/types/InputPeer.html) | Yes|Exclude the following chats from this [folder](https://core.telegram.org/api/folders)|

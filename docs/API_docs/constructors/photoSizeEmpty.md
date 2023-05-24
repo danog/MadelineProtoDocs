@@ -15,7 +15,7 @@ Empty constructor. Image with this thumbnail is unavailable.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|type|[string](/API_docs/types/string.html) | Yes|Thumbnail type (see. [photoSize](../constructors/photoSize.html))|
+|type|[string](/API_docs/types/string.html) | Yes|[Thumbnail type »](https://core.telegram.org/api/files#image-thumbnail-types)|
 
 
 

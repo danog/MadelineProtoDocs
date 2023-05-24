@@ -17,7 +17,7 @@ New [message reactions »](https://core.telegram.org/api/reactions) are availabl
 |----------|---------------|----------|-------------|
 |peer|[Peer](/API_docs/types/Peer.html) | Yes|Peer|
 |msg\_id|[int](/API_docs/types/int.html) | Yes|Message ID|
-|top\_msg\_id|[int](/API_docs/types/int.html) | Optional|
+|top\_msg\_id|[int](/API_docs/types/int.html) | Optional|[Forum topic ID](https://core.telegram.org/api/forum#forum-topics)|
 |reactions|[MessageReactions](/API_docs/types/MessageReactions.html) | Yes|Reactions|
 
 

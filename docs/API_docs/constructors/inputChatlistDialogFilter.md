@@ -1,6 +1,6 @@
 ---
 title: "inputChatlistDialogFilter"
-description: "inputChatlistDialogFilter attributes, type and example"
+description: "Folder ID"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Folder ID
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|filter\_id|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|filter\_id|[int](/API_docs/types/int.html) | Yes|[Folder](https://core.telegram.org/api/folders) ID|
 
 
 

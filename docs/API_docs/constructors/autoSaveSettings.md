@@ -1,6 +1,6 @@
 ---
 title: "autoSaveSettings"
-description: "autoSaveSettings attributes, type and example"
+description: "Media autosave settings"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Media autosave settings
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|photos|[Bool](/API_docs/types/Bool.html) | Optional|
-|videos|[Bool](/API_docs/types/Bool.html) | Optional|
-|video\_max\_size|[long](/API_docs/types/long.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|photos|[Bool](/API_docs/types/Bool.html) | Optional|Whether photos should be autosaved to the gallery.|
+|videos|[Bool](/API_docs/types/Bool.html) | Optional|Whether videos should be autosaved to the gallery.|
+|video\_max\_size|[long](/API_docs/types/long.html) | Optional|If set, specifies a size limit for autosavable videos|
 
 
 

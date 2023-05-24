@@ -1,6 +1,6 @@
 ---
 title: "chatlists.chatlistUpdates"
-description: "chatlists.chatlistUpdates attributes, type and example"
+description: "Updated information about a chat folder deep link »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/chatlists_chatlistUpdates.html
@@ -10,13 +10,15 @@ redirect_from: /API_docs/constructors/chatlists_chatlistUpdates.html
 
 
 
+Updated information about a [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|missing\_peers|Array of [Peer](/API_docs/types/Peer.html) | Yes|
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|missing\_peers|Array of [Peer](/API_docs/types/Peer.html) | Yes|New peers to join|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Related chat information|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Related user information|
 
 
 

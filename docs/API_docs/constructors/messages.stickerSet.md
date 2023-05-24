@@ -18,7 +18,7 @@ Stickerset and stickers inside it
 |----------|---------------|----------|-------------|
 |set|[StickerSet](/API_docs/types/StickerSet.html) | Yes|The stickerset|
 |packs|Array of [StickerPack](/API_docs/types/StickerPack.html) | Yes|Emoji info for stickers|
-|keywords|Array of [StickerKeyword](/API_docs/types/StickerKeyword.html) | Yes|
+|keywords|Array of [StickerKeyword](/API_docs/types/StickerKeyword.html) | Yes|Keywords for some or every sticker in the stickerset.|
 |documents|Array of [Document](/API_docs/types/Document.html) | Yes|Stickers in stickerset|
 
 

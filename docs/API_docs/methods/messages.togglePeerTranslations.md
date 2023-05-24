@@ -1,6 +1,6 @@
 ---
 title: "messages.togglePeerTranslations"
-description: "messages.togglePeerTranslations parameters, return type and example"
+description: "Show or hide the [real-time chat translation popup](https://core.telegram.org/api/translation) for a certain chat"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/messages_togglePeerTranslations.html
 
 
 
+Show or hide the [real-time chat translation popup](https://core.telegram.org/api/translation) for a certain chat
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|disabled|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|disabled|[Bool](/API_docs/types/Bool.html) | Whether to disable or enable the real-time chat translation popup | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

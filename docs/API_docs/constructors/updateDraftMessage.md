@@ -16,7 +16,7 @@ Notifies a change of a message [draft](https://core.telegram.org/api/drafts).
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |peer|[Peer](/API_docs/types/Peer.html) | Yes|The peer to which the draft is associated|
-|top\_msg\_id|[int](/API_docs/types/int.html) | Optional|
+|top\_msg\_id|[int](/API_docs/types/int.html) | Optional|ID of the [forum topic](https://core.telegram.org/api/forum#forum-topics) to which the draft is associated|
 |draft|[DraftMessage](/API_docs/types/DraftMessage.html) | Optional|The draft|
 
 

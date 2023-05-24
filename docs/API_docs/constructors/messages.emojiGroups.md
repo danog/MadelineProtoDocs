@@ -1,6 +1,6 @@
 ---
 title: "messages.emojiGroups"
-description: "messages.emojiGroups attributes, type and example"
+description: "Represents a list of emoji categories."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_emojiGroups.html
@@ -10,12 +10,14 @@ redirect_from: /API_docs/constructors/messages_emojiGroups.html
 
 
 
+Represents a list of [emoji categories](https://core.telegram.org/api/custom-emoji#emoji-categories).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
 |hash|[int](/API_docs/types/int.html) | Yes|
-|groups|Array of [EmojiGroup](/API_docs/types/EmojiGroup.html) | Yes|
+|groups|Array of [EmojiGroup](/API_docs/types/EmojiGroup.html) | Yes|A list of [emoji categories](https://core.telegram.org/api/custom-emoji#emoji-categories).|
 
 
 

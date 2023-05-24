@@ -16,7 +16,7 @@ Document (video, audio, voice, sticker, any media type except photo)
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |nopremium|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a normal sticker, if not set this is a premium sticker and a premium sticker animation must be played.|
-|spoiler|[Bool](/API_docs/types/Bool.html) | Optional|
+|spoiler|[Bool](/API_docs/types/Bool.html) | Optional|Whether this media should be hidden behind a spoiler warning|
 |document|[Document](/API_docs/types/Document.html) | Optional|Attached document|
 |ttl\_seconds|[int](/API_docs/types/int.html) | Optional|Time to live of self-destructing document|
 

@@ -15,8 +15,8 @@ The set of allowed [message reactions »](https://core.telegram.org/api/reaction
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|prev\_value|[ChatReactions](/API_docs/types/ChatReactions.html) | Yes|
-|new\_value|[ChatReactions](/API_docs/types/ChatReactions.html) | Yes|
+|prev\_value|[ChatReactions](/API_docs/types/ChatReactions.html) | Yes|Previously allowed reaction emojis|
+|new\_value|[ChatReactions](/API_docs/types/ChatReactions.html) | Yes|New allowed reaction emojis|
 
 
 

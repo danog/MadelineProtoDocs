@@ -1,6 +1,6 @@
 ---
 title: "chatlists.getLeaveChatlistSuggestions"
-description: "chatlists.getLeaveChatlistSuggestions parameters, return type and example"
+description: "Returns identifiers of pinned or always included chats from a chat folder imported using a [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links), which are suggested to be left when the chat folder is deleted."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/chatlists_getLeaveChatlistSuggestions.html
 
 
 
+Returns identifiers of pinned or always included chats from a chat folder imported using a [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links), which are suggested to be left when the chat folder is deleted.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chatlist|[InputChatlist](/API_docs/types/InputChatlist.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chatlist|[InputChatlist](/API_docs/types/InputChatlist.html) | Folder ID | Yes|
 
 
 ### Return type: [Vector\_of\_Peer](/API_docs/types/Peer.html)

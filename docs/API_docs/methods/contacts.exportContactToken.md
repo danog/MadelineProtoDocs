@@ -1,6 +1,6 @@
 ---
 title: "contacts.exportContactToken"
-description: "contacts.exportContactToken parameters, return type and example"
+description: "Generates a [temporary profile link](https://core.telegram.org/api/links#temporary-profile-links) for the currently logged-in user."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,6 +10,8 @@ redirect_from: /API_docs/methods/contacts_exportContactToken.html
 [Back to methods index](index.html)
 
 
+
+Generates a [temporary profile link](https://core.telegram.org/api/links#temporary-profile-links) for the currently logged-in user.
 
 
 

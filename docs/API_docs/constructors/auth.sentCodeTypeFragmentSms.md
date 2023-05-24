@@ -1,6 +1,6 @@
 ---
 title: "auth.sentCodeTypeFragmentSms"
-description: "auth.sentCodeTypeFragmentSms attributes, type and example"
+description: "The code was delivered via fragment.com."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/auth_sentCodeTypeFragmentSms.html
@@ -10,12 +10,14 @@ redirect_from: /API_docs/constructors/auth_sentCodeTypeFragmentSms.html
 
 
 
+The code was delivered via [fragment.com](https://fragment.com).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|url|[string](/API_docs/types/string.html) | Yes|
-|length|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|url|[string](/API_docs/types/string.html) | Yes|Open the specified URL to log into [fragment.com](https://fragment.com) with the wallet that owns the specified phone number and view the code.|
+|length|[int](/API_docs/types/int.html) | Yes|Length of the delivered code.|
 
 
 

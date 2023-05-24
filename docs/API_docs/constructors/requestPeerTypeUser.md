@@ -1,6 +1,6 @@
 ---
 title: "requestPeerTypeUser"
-description: "requestPeerTypeUser attributes, type and example"
+description: "Choose a user."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Choose a user.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|bot|[Bool](/API_docs/types/Bool.html) | Optional|
-|premium|[Bool](/API_docs/types/Bool.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|bot|[Bool](/API_docs/types/Bool.html) | Optional|Whether to allow choosing only bots.|
+|premium|[Bool](/API_docs/types/Bool.html) | Optional|Whether to allow choosing only [Premium](https://core.telegram.org/api/premium) users.|
 
 
 

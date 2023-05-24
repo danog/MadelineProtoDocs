@@ -1,6 +1,6 @@
 ---
 title: "auth.requestFirebaseSms"
-description: "auth.requestFirebaseSms parameters, return type and example"
+description: "Request an SMS code via Firebase."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,16 @@ redirect_from: /API_docs/methods/auth_requestFirebaseSms.html
 
 
 
+Request an SMS code via Firebase.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|phone\_number|[string](/API_docs/types/string.html) | Yes|
-|phone\_code\_hash|[string](/API_docs/types/string.html) | Yes|
-|safety\_net\_token|[string](/API_docs/types/string.html) | Optional|
-|ios\_push\_secret|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|phone\_number|[string](/API_docs/types/string.html) | Phone number | Yes|
+|phone\_code\_hash|[string](/API_docs/types/string.html) | Phone code hash returned by [auth.sendCode](../methods/auth.sendCode.html) | Yes|
+|safety\_net\_token|[string](/API_docs/types/string.html) | On Android, a JWS object obtained as described in the [auth documentation »](https://core.telegram.org/api/auth) | Optional|
+|ios\_push\_secret|[string](/API_docs/types/string.html) | Secret token received via an apple push notification | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

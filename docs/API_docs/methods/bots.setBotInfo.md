@@ -1,6 +1,6 @@
 ---
 title: "bots.setBotInfo"
-description: "bots.setBotInfo parameters, return type and example"
+description: "Set localized name, about text and description of a bot (or of the current account, if called by a bot)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,15 +11,17 @@ redirect_from: /API_docs/methods/bots_setBotInfo.html
 
 
 
+Set localized name, about text and description of a bot (or of the current account, if called by a bot).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|lang\_code|[string](/API_docs/types/string.html) | Yes|
-|name|[string](/API_docs/types/string.html) | Optional|
-|about|[string](/API_docs/types/string.html) | Optional|
-|description|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | If called by a user, **must** contain the peer of a bot we own. | Optional|
+|lang\_code|[string](/API_docs/types/string.html) | Language code, if left empty update the fallback about text and description | Yes|
+|name|[string](/API_docs/types/string.html) | New bot name | Optional|
+|about|[string](/API_docs/types/string.html) | New about text | Optional|
+|description|[string](/API_docs/types/string.html) | New description | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

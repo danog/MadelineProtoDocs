@@ -1,6 +1,6 @@
 ---
 title: "chatReactionsSome"
-description: "chatReactionsSome attributes, type and example"
+description: "Some reactions are allowed"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Some reactions are allowed
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|reactions|Array of [Reaction](/API_docs/types/Reaction.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|reactions|Array of [Reaction](/API_docs/types/Reaction.html) | Yes|Allowed set of reactions: the [reactions\_in\_chat\_max](https://core.telegram.org/api/config#reactions-in-chat-max) configuration field indicates the maximum number of reactions that can be specified in this field.|
 
 
 

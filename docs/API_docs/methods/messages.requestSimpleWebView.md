@@ -17,11 +17,11 @@ Open a [bot web app](https://core.telegram.org/api/bots/webapps).
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|from\_switch\_webview|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|from\_switch\_webview|[Bool](/API_docs/types/Bool.html) | Whether the webapp was opened by clicking on the `switch_webview` button shown on top of the inline results list returned by [messages.getInlineBotResults](../methods/messages.getInlineBotResults.html). | Optional|
 |bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Bot that owns the webapp | Optional|
 |url|[string](/API_docs/types/string.html) | Web app URL | Yes|
-|theme\_params|[DataJSON](/API_docs/types/DataJSON.html) | Theme parameters | Optional|
-|platform|[string](/API_docs/types/string.html) |  | Yes|
+|theme\_params|[DataJSON](/API_docs/types/DataJSON.html) | [Theme parameters »](https://core.telegram.org/api/bots/webapps#theme-parameters) | Optional|
+|platform|[string](/API_docs/types/string.html) | Short name of the application; 0-64 English letters, digits, and underscores | Yes|
 
 
 ### Return type: [SimpleWebViewResult](/API_docs/types/SimpleWebViewResult.html)

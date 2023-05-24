@@ -1,6 +1,6 @@
 ---
 title: "inlineQueryPeerTypePM"
-description: "The inline query was sent in a private chat"
+description: "Peer type: private chat"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-The inline query was sent in a private chat
+Peer type: private chat
 
 
 

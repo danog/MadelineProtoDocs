@@ -60,8 +60,8 @@ Current configuration
 |suggested\_lang\_code|[string](/API_docs/types/string.html) | Optional|Suggested language code|
 |lang\_pack\_version|[int](/API_docs/types/int.html) | Optional|Language pack version|
 |base\_lang\_pack\_version|[int](/API_docs/types/int.html) | Optional|Basic language pack version|
-|reactions\_default|[Reaction](/API_docs/types/Reaction.html) | Optional|
-|autologin\_token|[string](/API_docs/types/string.html) | Optional|
+|reactions\_default|[Reaction](/API_docs/types/Reaction.html) | Optional|Default [message reaction](https://core.telegram.org/api/reactions)|
+|autologin\_token|[string](/API_docs/types/string.html) | Optional|Autologin token, [click here for more info on URL authorization »](https://core.telegram.org/api/url-authorization#link-url-authorization).|
 
 
 

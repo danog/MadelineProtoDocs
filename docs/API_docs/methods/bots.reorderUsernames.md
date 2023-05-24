@@ -1,6 +1,6 @@
 ---
 title: "bots.reorderUsernames"
-description: "bots.reorderUsernames parameters, return type and example"
+description: "Reorder usernames associated to a bot we own."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/bots_reorderUsernames.html
 
 
 
+Reorder usernames associated to a bot we own.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|order|Array of [string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The bot | Optional|
+|order|Array of [string](/API_docs/types/string.html) | The new order for active usernames. All active usernames must be specified. | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

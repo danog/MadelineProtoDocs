@@ -1,6 +1,6 @@
 ---
 title: "updateChannelPinnedTopics"
-description: "updateChannelPinnedTopics attributes, type and example"
+description: "The pinned topics of a forum have changed."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+The [pinned topics](https://core.telegram.org/api/forum#forum-topics) of a forum have changed.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel\_id|[long](/API_docs/types/long.html) | Yes|
-|order|Array of [int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|channel\_id|[long](/API_docs/types/long.html) | Yes|Forum ID.|
+|order|Array of [int](/API_docs/types/int.html) | Optional|Ordered list containing the IDs of all pinned topics.|
 
 
 

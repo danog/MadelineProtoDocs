@@ -1,6 +1,6 @@
 ---
 title: "messageEntityCustomEmoji"
-description: "Represents a custom emoji"
+description: "Represents a custom emoji.  "
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Represents a custom emoji
+Represents a custom emoji.  
+Note that this entity must wrap exactly one regular emoji (the one contained in [documentAttributeCustomEmoji](../constructors/documentAttributeCustomEmoji.html).`alt`) in the related text, otherwise the server will ignore it.
 
 ### Attributes:
 

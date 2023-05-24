@@ -1,6 +1,6 @@
 ---
 title: "defaultHistoryTTL"
-description: "defaultHistoryTTL attributes, type and example"
+description: "Contains info about the default value of the Time-To-Live setting, applied to all new chats."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Contains info about the default value of the Time-To-Live setting, applied to all new chats.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|period|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|period|[int](/API_docs/types/int.html) | Yes|Time-To-Live setting applied to all new chats.|
 
 
 

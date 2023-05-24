@@ -20,8 +20,8 @@ Create a stickerset, bots only.
 |masks|[Bool](/API_docs/types/Bool.html) | Whether this is a mask stickerset | Optional|
 |animated|[Bool](/API_docs/types/Bool.html) | Whether this is an animated stickerset | Optional|
 |videos|[Bool](/API_docs/types/Bool.html) | Whether this is a video stickerset | Optional|
-|emojis|[Bool](/API_docs/types/Bool.html) |  | Optional|
-|text\_color|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|emojis|[Bool](/API_docs/types/Bool.html) | Whether this is a [custom emoji](https://core.telegram.org/api/custom-emoji) stickerset. | Optional|
+|text\_color|[Bool](/API_docs/types/Bool.html) | Whether the color of TGS custom emojis contained in this set should be changed to the text color when used in messages, the accent color if used as emoji status, white on chat photos, or another appropriate color based on context. For custom emoji stickersets only. | Optional|
 |user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Stickerset owner | Optional|
 |title|[string](/API_docs/types/string.html) | Stickerset name, `1-64` chars | Yes|
 |short\_name|[string](/API_docs/types/string.html) | Short name of sticker set, to be used in [sticker deep links »](https://core.telegram.org/api/links#stickerset-links). Can contain only english letters, digits and underscores. Must begin with a letter, can't contain consecutive underscores and, **if called by a bot**, must end in `"_by_<bot_username>"`. `<bot_username>` is case insensitive. 1-64 characters. | Yes|

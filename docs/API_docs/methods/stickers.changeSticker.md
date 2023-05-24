@@ -1,6 +1,6 @@
 ---
 title: "stickers.changeSticker"
-description: "stickers.changeSticker parameters, return type and example"
+description: "Update the keywords, emojis or [mask coordinates](https://core.telegram.org/api/stickers#mask-stickers) of a sticker, bots only."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,16 @@ redirect_from: /API_docs/methods/stickers_changeSticker.html
 
 
 
+Update the keywords, emojis or [mask coordinates](https://core.telegram.org/api/stickers#mask-stickers) of a sticker, bots only.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|sticker|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | Optional|
-|emoji|[string](/API_docs/types/string.html) | Optional|
-|mask\_coords|[MaskCoords](/API_docs/types/MaskCoords.html) | Optional|
-|keywords|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|sticker|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | The sticker | Optional|
+|emoji|[string](/API_docs/types/string.html) | If set, updates the emoji list associated to the sticker | Optional|
+|mask\_coords|[MaskCoords](/API_docs/types/MaskCoords.html) | If set, updates the [mask coordinates](https://core.telegram.org/api/stickers#mask-stickers) | Optional|
+|keywords|[string](/API_docs/types/string.html) | If set, updates the sticker keywords (separated by commas). Can't be provided for mask stickers. | Optional|
 
 
 ### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.html)

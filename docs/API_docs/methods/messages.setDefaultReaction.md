@@ -17,7 +17,7 @@ Change default emoji reaction to use in the quick reaction menu: the value is sy
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|reaction|[Reaction](/API_docs/types/Reaction.html) |  | Optional|
+|reaction|[Reaction](/API_docs/types/Reaction.html) | New emoji reaction | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

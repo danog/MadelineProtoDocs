@@ -15,7 +15,7 @@ Forwarded photo
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|spoiler|[Bool](/API_docs/types/Bool.html) | Optional|
+|spoiler|[Bool](/API_docs/types/Bool.html) | Optional|Whether this media should be hidden behind a spoiler warning|
 |id|[MessageMedia, Message, Update or InputPhoto](/API_docs/types/InputPhoto.html) | Optional|Photo to be forwarded|
 |ttl\_seconds|[int](/API_docs/types/int.html) | Optional|Time to live in seconds of self-destructing photo|
 

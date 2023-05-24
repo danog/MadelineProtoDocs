@@ -1,6 +1,6 @@
 ---
 title: "messages.clearRecentReactions"
-description: "messages.clearRecentReactions parameters, return type and example"
+description: "Clear recently used [message reactions](https://core.telegram.org/api/reactions)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,6 +10,8 @@ redirect_from: /API_docs/methods/messages_clearRecentReactions.html
 [Back to methods index](index.html)
 
 
+
+Clear recently used [message reactions](https://core.telegram.org/api/reactions)
 
 
 

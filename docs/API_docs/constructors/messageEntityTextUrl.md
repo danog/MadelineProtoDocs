@@ -11,6 +11,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 Message entity representing a [text url](https://google.com): for in-text urls like <https://google.com> use [messageEntityUrl](../constructors/messageEntityUrl.html).
 
+Note that an additional confirmation popup with the full URL must be displayed to the user before opening this link, unless the domain satisfies the conditions specified in the [domain whitelist documentation »](https://core.telegram.org/api/config#whitelisted-domains).
+
 ### Attributes:
 
 | Name     |    Type       | Required | Description |

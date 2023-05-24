@@ -15,7 +15,7 @@ New photo that will be uploaded by the server using the specified URL
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|spoiler|[Bool](/API_docs/types/Bool.html) | Optional|
+|spoiler|[Bool](/API_docs/types/Bool.html) | Optional|Whether this media should be hidden behind a spoiler warning|
 |url|[string](/API_docs/types/string.html) | Yes|URL of the photo|
 |ttl\_seconds|[int](/API_docs/types/int.html) | Optional|Self-destruct time to live of photo|
 

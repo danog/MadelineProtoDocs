@@ -1,6 +1,6 @@
 ---
 title: "attachMenuPeerTypePM"
-description: "The bot attachment menu entry is available in private chats with other users"
+description: "The bot attachment menu entry is available in private chats with other users (not bots)"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-The bot attachment menu entry is available in private chats with other users
+The bot attachment menu entry is available in private chats with other users (not bots)
 
 
 

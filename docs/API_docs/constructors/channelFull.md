@@ -61,7 +61,7 @@ Full info about a [channel](https://core.telegram.org/api/channel#channels), [su
 |requests\_pending|[int](/API_docs/types/int.html) | Optional|Pending [join requests »](https://core.telegram.org/api/invites#join-requests)|
 |recent\_requesters|Array of [long](/API_docs/types/long.html) | Optional|IDs of users who requested to join recently|
 |default\_send\_as|[Peer](/API_docs/types/Peer.html) | Optional|Default peer used for sending messages to this channel|
-|available\_reactions|[ChatReactions](/API_docs/types/ChatReactions.html) | Optional|
+|available\_reactions|[ChatReactions](/API_docs/types/ChatReactions.html) | Optional|Allowed [message reactions »](https://core.telegram.org/api/reactions)|
 
 
 

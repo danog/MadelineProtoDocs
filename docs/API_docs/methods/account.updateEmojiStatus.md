@@ -1,6 +1,6 @@
 ---
 title: "account.updateEmojiStatus"
-description: "account.updateEmojiStatus parameters, return type and example"
+description: "Set an [emoji status](https://core.telegram.org/api/emoji-status)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/account_updateEmojiStatus.html
 
 
 
+Set an [emoji status](https://core.telegram.org/api/emoji-status)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|emoji\_status|[EmojiStatus](/API_docs/types/EmojiStatus.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|emoji\_status|[EmojiStatus](/API_docs/types/EmojiStatus.html) | [Emoji status](https://core.telegram.org/api/emoji-status) to set | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

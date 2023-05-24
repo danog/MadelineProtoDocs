@@ -1,6 +1,6 @@
 ---
 title: "emojiList"
-description: "emojiList attributes, type and example"
+description: "Represents a list of custom emojis."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents a list of [custom emojis](https://core.telegram.org/api/custom-emoji).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|[long](/API_docs/types/long.html) | Yes|
-|document\_id|Array of [long](/API_docs/types/long.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|hash|[long](/API_docs/types/long.html) | Yes|[Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
+|document\_id|Array of [long](/API_docs/types/long.html) | Yes|Custom emoji IDs|
 
 
 

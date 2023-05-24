@@ -1,6 +1,6 @@
 ---
 title: "channels.reportAntiSpamFalsePositive"
-description: "channels.reportAntiSpamFalsePositive parameters, return type and example"
+description: "Report a [native antispam](https://core.telegram.org/api/antispam) false positive"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/channels_reportAntiSpamFalsePositive.html
 
 
 
+Report a [native antispam](https://core.telegram.org/api/antispam) false positive
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Supergroup ID | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | Message ID that was mistakenly deleted by the [native antispam](https://core.telegram.org/api/antispam) system, taken from the [admin log](https://core.telegram.org/api/recent-actions) | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

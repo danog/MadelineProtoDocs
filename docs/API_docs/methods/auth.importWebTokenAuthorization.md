@@ -1,6 +1,6 @@
 ---
 title: "auth.importWebTokenAuthorization"
-description: "auth.importWebTokenAuthorization parameters, return type and example"
+description: "Login by importing an authorization token"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/auth_importWebTokenAuthorization.html
 
 
 
+Login by importing an authorization token
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|api\_id|[int](/API_docs/types/int.html) | Yes|
-|api\_hash|[string](/API_docs/types/string.html) | Yes|
-|web\_auth\_token|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|api\_id|[int](/API_docs/types/int.html) | [API ID](https://core.telegram.org/api/obtaining_api_id) | Optional|
+|api\_hash|[string](/API_docs/types/string.html) | [API hash](https://core.telegram.org/api/obtaining_api_id) | Yes|
+|web\_auth\_token|[string](/API_docs/types/string.html) | The authorization token | Yes|
 
 
 ### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.html)

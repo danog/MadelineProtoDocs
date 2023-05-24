@@ -1,6 +1,6 @@
 ---
 title: "channels.deleteTopicHistory"
-description: "channels.deleteTopicHistory parameters, return type and example"
+description: "Delete message history of a [forum topic](https://core.telegram.org/api/forum)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/channels_deleteTopicHistory.html
 
 
 
+Delete message history of a [forum topic](https://core.telegram.org/api/forum)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
-|top\_msg\_id|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Forum | Optional|
+|top\_msg\_id|[int](/API_docs/types/int.html) | Topic ID | Optional|
 
 
 ### Return type: [messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.html)

@@ -1,6 +1,6 @@
 ---
 title: "bots.botInfo"
-description: "bots.botInfo attributes, type and example"
+description: "Localized information about a bot."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/bots_botInfo.html
@@ -10,13 +10,15 @@ redirect_from: /API_docs/constructors/bots_botInfo.html
 
 
 
+Localized information about a bot.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|name|[string](/API_docs/types/string.html) | Yes|
-|about|[string](/API_docs/types/string.html) | Yes|
-|description|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|name|[string](/API_docs/types/string.html) | Yes|Bot name|
+|about|[string](/API_docs/types/string.html) | Yes|Bot about text|
+|description|[string](/API_docs/types/string.html) | Yes|Bot description|
 
 
 

@@ -11,14 +11,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 New photo to be set as group profile photo.
 
+The `file`, `video` and `video_emoji_markup` flags are mutually exclusive.
+
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |file|[File path or InputFile](/API_docs/types/InputFile.html) | Optional|File saved in parts using the method [upload.saveFilePart](../methods/upload.saveFilePart.html)|
 |video|[File path or InputFile](/API_docs/types/InputFile.html) | Optional|Square video for animated profile picture|
-|video\_start\_ts|[double](/API_docs/types/double.html) | Optional|Timestamp that should be shown as static preview to the user (seconds)|
-|video\_emoji\_markup|[VideoSize](/API_docs/types/VideoSize.html) | Optional|
+|video\_start\_ts|[double](/API_docs/types/double.html) | Optional|Floating point UNIX timestamp in seconds, indicating the frame of the video/sticker that should be used as static preview; can only be used if `video` or `video_emoji_markup` is set.|
+|video\_emoji\_markup|[VideoSize](/API_docs/types/VideoSize.html) | Optional|Animated sticker profile picture, must contain either a [videoSizeEmojiMarkup](../constructors/videoSizeEmojiMarkup.html) or a [videoSizeStickerMarkup](../constructors/videoSizeStickerMarkup.html) constructor.|
 
 
 

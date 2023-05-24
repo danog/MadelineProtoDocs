@@ -1,6 +1,6 @@
 ---
 title: "emojiStatusUntil"
-description: "emojiStatusUntil attributes, type and example"
+description: "An emoji status valid until the specified date"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+An [emoji status](https://core.telegram.org/api/emoji-status) valid until the specified date
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|document\_id|[long](/API_docs/types/long.html) | Yes|
-|until|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|document\_id|[long](/API_docs/types/long.html) | Yes|[Custom emoji document ID](https://core.telegram.org/api/custom-emoji)|
+|until|[int](/API_docs/types/int.html) | Yes|This status is valid until this date|
 
 
 

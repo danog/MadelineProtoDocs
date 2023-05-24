@@ -1,6 +1,6 @@
 ---
 title: "channels.toggleParticipantsHidden"
-description: "channels.toggleParticipantsHidden parameters, return type and example"
+description: "Hide or display the participants list in a [supergroup](https://core.telegram.org/api/channel)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,16 @@ redirect_from: /API_docs/methods/channels_toggleParticipantsHidden.html
 
 
 
+Hide or display the participants list in a [supergroup](https://core.telegram.org/api/channel).
+
+The supergroup must have at least `hidden_members_group_size_min` participants in order to use this method, as specified by the [client configuration parameters »](https://core.telegram.org/api/config#client-configuration).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
-|enabled|[Bool](/API_docs/types/Bool.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Supergroup ID | Optional|
+|enabled|[Bool](/API_docs/types/Bool.html) | If true, will hide the participants list; otherwise will unhide it. | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

@@ -16,7 +16,7 @@ Info about a Telegram Premium purchase
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |restore|[Bool](/API_docs/types/Bool.html) | Optional|Pass true if this is a restore of a Telegram Premium purchase; only for the App Store|
-|upgrade|[Bool](/API_docs/types/Bool.html) | Optional|
+|upgrade|[Bool](/API_docs/types/Bool.html) | Optional|Pass true if this is an upgrade from a monthly subscription to a yearly subscription; only for App Store|
 
 
 

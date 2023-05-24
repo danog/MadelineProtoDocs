@@ -1,6 +1,6 @@
 ---
 title: "exportedContactToken"
-description: "exportedContactToken attributes, type and example"
+description: "Describes a temporary profile link."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Describes a [temporary profile link](https://core.telegram.org/api/links#temporary-profile-links).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|url|[string](/API_docs/types/string.html) | Yes|
-|expires|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|url|[string](/API_docs/types/string.html) | Yes|The [temporary profile link](https://core.telegram.org/api/links#temporary-profile-links).|
+|expires|[int](/API_docs/types/int.html) | Yes|Its expiry date|
 
 
 

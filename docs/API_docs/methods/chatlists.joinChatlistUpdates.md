@@ -1,6 +1,6 @@
 ---
 title: "chatlists.joinChatlistUpdates"
-description: "chatlists.joinChatlistUpdates parameters, return type and example"
+description: "Join channels and supergroups recently added to a [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/chatlists_joinChatlistUpdates.html
 
 
 
+Join channels and supergroups recently added to a [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chatlist|[InputChatlist](/API_docs/types/InputChatlist.html) | Yes|
-|peers|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chatlist|[InputChatlist](/API_docs/types/InputChatlist.html) | The folder | Yes|
+|peers|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | List of new chats to join, fetched using [chatlists.getChatlistUpdates](../methods/chatlists.getChatlistUpdates.html) and filtered as specified in the [documentation »](https://core.telegram.org/api/folders#shared-folders). | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

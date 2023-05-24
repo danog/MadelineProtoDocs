@@ -1,6 +1,6 @@
 ---
 title: "account.emojiStatuses"
-description: "account.emojiStatuses attributes, type and example"
+description: "A list of emoji statuses"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_emojiStatuses.html
@@ -10,12 +10,14 @@ redirect_from: /API_docs/constructors/account_emojiStatuses.html
 
 
 
+A list of [emoji statuses](https://core.telegram.org/api/emoji-status)
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|[long](/API_docs/types/long.html) | Yes|
-|statuses|Array of [EmojiStatus](/API_docs/types/EmojiStatus.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|hash|[long](/API_docs/types/long.html) | Yes|[Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
+|statuses|Array of [EmojiStatus](/API_docs/types/EmojiStatus.html) | Yes|[Emoji statuses](https://core.telegram.org/api/emoji-status)|
 
 
 

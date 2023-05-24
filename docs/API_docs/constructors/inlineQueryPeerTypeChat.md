@@ -1,6 +1,6 @@
 ---
 title: "inlineQueryPeerTypeChat"
-description: "The inline query was sent in a chat"
+description: "Peer type: chat"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-The inline query was sent in a [chat](https://core.telegram.org/api/channel)
+Peer type: [chat](https://core.telegram.org/api/channel)
 
 
 

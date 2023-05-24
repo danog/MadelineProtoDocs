@@ -1,6 +1,6 @@
 ---
 title: "channels.getForumTopics"
-description: "channels.getForumTopics parameters, return type and example"
+description: "Get [topics of a forum](https://core.telegram.org/api/forum)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,16 +11,18 @@ redirect_from: /API_docs/methods/channels_getForumTopics.html
 
 
 
+Get [topics of a forum](https://core.telegram.org/api/forum)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
-|q|[string](/API_docs/types/string.html) | Optional|
-|offset\_date|[int](/API_docs/types/int.html) | Yes|
-|offset\_id|[int](/API_docs/types/int.html) | Yes|
-|offset\_topic|[int](/API_docs/types/int.html) | Yes|
-|limit|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Supergroup | Optional|
+|q|[string](/API_docs/types/string.html) | Search query | Optional|
+|offset\_date|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
+|offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
+|offset\_topic|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [messages.ForumTopics](/API_docs/types/messages.ForumTopics.html)

@@ -1,6 +1,6 @@
 ---
 title: "messages.getDefaultHistoryTTL"
-description: "messages.getDefaultHistoryTTL parameters, return type and example"
+description: "Gets the default value of the Time-To-Live setting, applied to all new chats."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,6 +10,8 @@ redirect_from: /API_docs/methods/messages_getDefaultHistoryTTL.html
 [Back to methods index](index.html)
 
 
+
+Gets the default value of the Time-To-Live setting, applied to all new chats.
 
 
 

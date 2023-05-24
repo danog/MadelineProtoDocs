@@ -1,6 +1,6 @@
 ---
 title: "messages.translateText"
-description: "Translate a given text"
+description: "Translate a given text."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,15 +11,17 @@ redirect_from: /API_docs/methods/messages_translateText.html
 
 
 
-Translate a given text
+Translate a given text.
+
+[Styled text entities](https://core.telegram.org/api/entities) will only be preserved for [Telegram Premium](https://core.telegram.org/api/premium) users.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | If the text is a chat message, the peer ID | Optional|
-|id|Array of [int](/API_docs/types/int.html) |  | Optional|
-|text|Array of [TextWithEntities](/API_docs/types/TextWithEntities.html) |  | Optional|
+|id|Array of [int](/API_docs/types/int.html) | A list of message IDs to translate | Optional|
+|text|Array of [TextWithEntities](/API_docs/types/TextWithEntities.html) | A list of styled messages to translate | Optional|
 |to\_lang|[string](/API_docs/types/string.html) | Two-letter ISO 639-1 language code of the language to which the message is translated | Yes|
 
 

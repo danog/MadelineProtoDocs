@@ -16,7 +16,7 @@ A set of sponsored messages associated to a channel
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|posts\_between|[int](/API_docs/types/int.html) | Optional|
+|posts\_between|[int](/API_docs/types/int.html) | Optional|If set, specifies the minimum number of messages between shown sponsored messages; otherwise, only one sponsored message must be shown after all ordinary messages.|
 |messages|Array of [SponsoredMessage](/API_docs/types/SponsoredMessage.html) | Yes|Sponsored messages|
 |chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Chats mentioned in the sponsored messages|
 |users|Array of [User](/API_docs/types/User.html) | Yes|Users mentioned in the sponsored messages|

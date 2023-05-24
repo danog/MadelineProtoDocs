@@ -21,10 +21,10 @@ Send a media
 |background|[Bool](/API_docs/types/Bool.html) | Send message in background | Optional|
 |clear\_draft|[Bool](/API_docs/types/Bool.html) | Clear the draft | Optional|
 |noforwards|[Bool](/API_docs/types/Bool.html) | Only for bots, disallows forwarding and saving of the messages, even if the destination chat doesn't have [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) enabled | Optional|
-|update\_stickersets\_order|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|update\_stickersets\_order|[Bool](/API_docs/types/Bool.html) | Whether to move used stickersets to top, [see here for more info on this flag »](https://core.telegram.org/api/stickers#recent-stickersets) | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Destination | Optional|
 |reply\_to\_msg\_id|[int](/API_docs/types/int.html) | Message ID to which this message should reply to | Optional|
-|top\_msg\_id|[int](/API_docs/types/int.html) |  | Optional|
+|top\_msg\_id|[int](/API_docs/types/int.html) | This field must contain the topic ID **only** when replying to messages in [forum topics](https://core.telegram.org/api/forum#forum-topics) different from the "General" topic (i.e. `reply_to_msg_id` is set and `reply_to_msg_id != topicID` and `topicID != 1`). <br>If the replied-to message is deleted before the method finishes execution, the value in this field will be used to send the message to the correct topic, instead of the "General" topic. | Optional|
 |media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | Attached media | Optional|
 |message|[string](/API_docs/types/string.html) | Caption | Yes|
 |reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.html) | Reply markup for bot keyboards | Optional|

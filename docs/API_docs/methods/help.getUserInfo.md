@@ -1,6 +1,6 @@
 ---
 title: "help.getUserInfo"
-description: "Internal use"
+description: "Can only be used by TSF members to obtain internal information."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/help_getUserInfo.html
 
 
 
-Internal use
+Can only be used by TSF members to obtain internal information.
 
 ### Parameters:
 

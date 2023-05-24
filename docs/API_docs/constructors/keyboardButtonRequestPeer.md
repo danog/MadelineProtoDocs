@@ -1,6 +1,6 @@
 ---
 title: "keyboardButtonRequestPeer"
-description: "keyboardButtonRequestPeer attributes, type and example"
+description: "Prompts the user to select and share a peer with the bot using messages.sendBotRequestedPeer"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Prompts the user to select and share a peer with the bot using [messages.sendBotRequestedPeer](../methods/messages.sendBotRequestedPeer.html)
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|text|[string](/API_docs/types/string.html) | Yes|
-|button\_id|[int](/API_docs/types/int.html) | Yes|
-|peer\_type|[RequestPeerType](/API_docs/types/RequestPeerType.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|text|[string](/API_docs/types/string.html) | Yes|Button text|
+|button\_id|[int](/API_docs/types/int.html) | Yes|Button ID, to be passed to [messages.sendBotRequestedPeer](../methods/messages.sendBotRequestedPeer.html).|
+|peer\_type|[RequestPeerType](/API_docs/types/RequestPeerType.html) | Yes|Filtering criteria to use for the peer selection list shown to the user. <br>The list should display all existing peers of the specified type, and should also offer an option for the user to create and immediately use a peer of the specified type, if needed.|
 
 
 

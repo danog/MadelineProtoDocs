@@ -16,7 +16,7 @@ A [sponsored message](https://core.telegram.org/api/sponsored-messages).
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |recommended|[Bool](/API_docs/types/Bool.html) | Optional|Whether the message needs to be labeled as "recommended" instead of "sponsored"|
-|show\_peer\_photo|[Bool](/API_docs/types/Bool.html) | Optional|
+|show\_peer\_photo|[Bool](/API_docs/types/Bool.html) | Optional|Whether a profile photo bubble should be displayed for this message, like for messages sent in groups. The photo shown in the bubble is obtained either from the peer contained in `from_id`, or from `chat_invite`.|
 |from\_id|[Peer](/API_docs/types/Peer.html) | Optional|ID of the sender of the message|
 |chat\_invite|[ChatInvite](/API_docs/types/ChatInvite.html) | Optional|Information about the chat invite hash specified in `chat_invite_hash`|
 |chat\_invite\_hash|[string](/API_docs/types/string.html) | Optional|Chat invite|
@@ -24,8 +24,8 @@ A [sponsored message](https://core.telegram.org/api/sponsored-messages).
 |start\_param|[string](/API_docs/types/string.html) | Optional|Parameter for the bot start message if the sponsored chat is a chat with a bot.|
 |message|[string](/API_docs/types/string.html) | Yes|Sponsored message|
 |entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|[Message entities for styled text](https://core.telegram.org/api/entities)|
-|sponsor\_info|[string](/API_docs/types/string.html) | Optional|
-|additional\_info|[string](/API_docs/types/string.html) | Optional|
+|sponsor\_info|[string](/API_docs/types/string.html) | Optional|If set, contains additional information about the sponsor to be shown along with the message.|
+|additional\_info|[string](/API_docs/types/string.html) | Optional|If set, contains additional information about the sponsored message to be shown along with the message.|
 
 
 

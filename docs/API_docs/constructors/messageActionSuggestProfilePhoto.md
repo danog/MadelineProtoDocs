@@ -1,6 +1,6 @@
 ---
 title: "messageActionSuggestProfilePhoto"
-description: "messageActionSuggestProfilePhoto attributes, type and example"
+description: "A new profile picture was suggested using photos.uploadContactProfilePhoto."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A new profile picture was suggested using [photos.uploadContactProfilePhoto](../methods/photos.uploadContactProfilePhoto.html).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|photo|[Photo](/API_docs/types/Photo.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|photo|[Photo](/API_docs/types/Photo.html) | Optional|The photo that the user suggested we set as profile picture.|
 
 
 

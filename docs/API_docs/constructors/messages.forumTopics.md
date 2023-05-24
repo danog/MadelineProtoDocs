@@ -1,6 +1,6 @@
 ---
 title: "messages.forumTopics"
-description: "messages.forumTopics attributes, type and example"
+description: "Contains information about multiple forum topics"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_forumTopics.html
@@ -10,17 +10,19 @@ redirect_from: /API_docs/constructors/messages_forumTopics.html
 
 
 
+Contains information about multiple [forum topics](https://core.telegram.org/api/forum#forum-topics)
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|order\_by\_create\_date|[Bool](/API_docs/types/Bool.html) | Optional|
-|count|[int](/API_docs/types/int.html) | Yes|
-|topics|Array of [ForumTopic](/API_docs/types/ForumTopic.html) | Yes|
-|messages|Array of [Message](/API_docs/types/Message.html) | Yes|
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
-|pts|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|order\_by\_create\_date|[Bool](/API_docs/types/Bool.html) | Optional|Whether the returned topics are ordered by creation date; if set, pagination by `next_offset` should use [forumTopic](../constructors/forumTopic.html).`date`; otherwise topics are ordered by the last message date, so paginate by the `date` of the [message](../types/Message.html) referenced by [forumTopic](../constructors/forumTopic.html).`top_message`.|
+|count|[int](/API_docs/types/int.html) | Yes|Total number of topics matching query; may be less than the topics contained in `topics`, in which case [pagination](https://core.telegram.org/api/offsets) is required.|
+|topics|Array of [ForumTopic](/API_docs/types/ForumTopic.html) | Yes|Forum topics|
+|messages|Array of [Message](/API_docs/types/Message.html) | Yes|Related messages (contains the messages mentioned by [forumTopic](../constructors/forumTopic.html).`top_message`).|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Related chats|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Related users|
+|pts|[int](/API_docs/types/int.html) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|
 
 
 

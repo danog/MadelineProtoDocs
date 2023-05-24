@@ -23,7 +23,7 @@ Send a result obtained using [messages.getInlineBotResults](../methods/messages.
 |hide\_via|[Bool](/API_docs/types/Bool.html) | Whether to hide the `via @botname` in the resulting message (only for bot usernames encountered in the [config](../constructors/config.html)) | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Destination | Optional|
 |reply\_to\_msg\_id|[int](/API_docs/types/int.html) | ID of the message this message should reply to | Optional|
-|top\_msg\_id|[int](/API_docs/types/int.html) |  | Optional|
+|top\_msg\_id|[int](/API_docs/types/int.html) | This field must contain the topic ID **only** when replying to messages in [forum topics](https://core.telegram.org/api/forum#forum-topics) different from the "General" topic (i.e. `reply_to_msg_id` is set and `reply_to_msg_id != topicID` and `topicID != 1`). <br>If the replied-to message is deleted before the method finishes execution, the value in this field will be used to send the message to the correct topic, instead of the "General" topic. | Optional|
 |query\_id|[long](/API_docs/types/long.html) | Query ID from [messages.getInlineBotResults](../methods/messages.getInlineBotResults.html) | Yes|
 |id|[string](/API_docs/types/string.html) | Result ID from [messages.getInlineBotResults](../methods/messages.getInlineBotResults.html) | Yes|
 |schedule\_date|[int](/API_docs/types/int.html) | Scheduled message date for scheduled messages | Optional|

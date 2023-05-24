@@ -1,6 +1,6 @@
 ---
 title: "reactionEmoji"
-description: "reactionEmoji attributes, type and example"
+description: "Normal emoji message reaction"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Normal emoji message reaction
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|emoticon|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|emoticon|[string](/API_docs/types/string.html) | Yes|Emoji|
 
 
 

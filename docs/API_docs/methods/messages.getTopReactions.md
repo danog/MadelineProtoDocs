@@ -1,6 +1,6 @@
 ---
 title: "messages.getTopReactions"
-description: "messages.getTopReactions parameters, return type and example"
+description: "Got popular [message reactions](https://core.telegram.org/api/reactions)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/messages_getTopReactions.html
 
 
 
+Got popular [message reactions](https://core.telegram.org/api/reactions)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|limit|[int](/API_docs/types/int.html) | Yes|
-|hash|Array of [long](/API_docs/types/long.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
+|hash|Array of [long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.Reactions](/API_docs/types/messages.Reactions.html)

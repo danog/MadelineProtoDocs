@@ -18,7 +18,7 @@ Get the number of results that would be found by a [messages.search](../methods/
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where to search | Optional|
-|top\_msg\_id|[int](/API_docs/types/int.html) |  | Optional|
+|top\_msg\_id|[int](/API_docs/types/int.html) | If set, consider only messages within the specified [forum topic](https://core.telegram.org/api/forum#forum-topics) | Optional|
 |filters|Array of [MessagesFilter](/API_docs/types/MessagesFilter.html) | Search filters | Yes|
 
 

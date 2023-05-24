@@ -1,6 +1,6 @@
 ---
 title: "emailVerifyPurposeLoginSetup"
-description: "emailVerifyPurposeLoginSetup attributes, type and example"
+description: "Email verification purpose: setup login email"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Email verification purpose: setup login email
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|phone\_number|[string](/API_docs/types/string.html) | Yes|
-|phone\_code\_hash|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|phone\_number|[string](/API_docs/types/string.html) | Yes|Phone number|
+|phone\_code\_hash|[string](/API_docs/types/string.html) | Yes|Phone code hash as specified by the [documentation](https://core.telegram.org/api/auth#email-verification)|
 
 
 

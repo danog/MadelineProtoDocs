@@ -21,7 +21,7 @@ Join a group call
 |video\_stopped|[Bool](/API_docs/types/Bool.html) | If set, the user's video will be disabled by default upon joining. | Optional|
 |call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | The group call | Yes|
 |join\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Join the group call, presenting yourself as the specified user/channel | Optional|
-|invite\_hash|[string](/API_docs/types/string.html) | The invitation hash from the [invite link »](https://core.telegram.org/api/links#voice-chatvideo-chatlivestream-links), if provided allows speaking in a livestream or muted group chat. | Optional|
+|invite\_hash|[string](/API_docs/types/string.html) | The invitation hash from the [invite link »](https://core.telegram.org/api/links#video-chatlivestream-links), if provided allows speaking in a livestream or muted group chat. | Optional|
 |params|[DataJSON](/API_docs/types/DataJSON.html) | WebRTC parameters | Yes|
 
 

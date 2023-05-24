@@ -1,6 +1,6 @@
 ---
 title: "account.emailVerifiedLogin"
-description: "account.emailVerifiedLogin attributes, type and example"
+description: "The email was verified correctly, and a login code was just sent to it."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_emailVerifiedLogin.html
@@ -10,12 +10,14 @@ redirect_from: /API_docs/constructors/account_emailVerifiedLogin.html
 
 
 
+The email was verified correctly, and a login code was just sent to it.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|email|[string](/API_docs/types/string.html) | Yes|
-|sent\_code|[auth.SentCode](/API_docs/constructors/auth.SentCode.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|email|[string](/API_docs/types/string.html) | Yes|The verified email address.|
+|sent\_code|[auth.SentCode](/API_docs/constructors/auth.SentCode.html) | Yes|Info about the sent [login code](https://core.telegram.org/api/auth)|
 
 
 

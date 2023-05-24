@@ -15,8 +15,8 @@ Installed stickersets have changed, the client should refetch them as [described
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|masks|[Bool](/API_docs/types/Bool.html) | Optional|
-|emojis|[Bool](/API_docs/types/Bool.html) | Optional|
+|masks|[Bool](/API_docs/types/Bool.html) | Optional|Whether mask stickersets have changed|
+|emojis|[Bool](/API_docs/types/Bool.html) | Optional|Whether the list of installed [custom emoji stickersets](https://core.telegram.org/api/custom-emoji) has changed|
 
 
 

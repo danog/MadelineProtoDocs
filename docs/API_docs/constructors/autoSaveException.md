@@ -1,6 +1,6 @@
 ---
 title: "autoSaveException"
-description: "autoSaveException attributes, type and example"
+description: "Peer-specific media autosave settings"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Peer-specific media autosave settings
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|
-|settings|[AutoSaveSettings](/API_docs/types/AutoSaveSettings.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[Peer](/API_docs/types/Peer.html) | Yes|The peer|
+|settings|[AutoSaveSettings](/API_docs/types/AutoSaveSettings.html) | Yes|Media autosave settings|
 
 
 

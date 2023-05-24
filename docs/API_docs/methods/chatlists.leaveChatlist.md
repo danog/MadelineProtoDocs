@@ -1,6 +1,6 @@
 ---
 title: "chatlists.leaveChatlist"
-description: "chatlists.leaveChatlist parameters, return type and example"
+description: "Delete a folder imported using a [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/chatlists_leaveChatlist.html
 
 
 
+Delete a folder imported using a [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chatlist|[InputChatlist](/API_docs/types/InputChatlist.html) | Yes|
-|peers|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chatlist|[InputChatlist](/API_docs/types/InputChatlist.html) | Folder ID | Yes|
+|peers|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Also leave the specified channels and groups | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

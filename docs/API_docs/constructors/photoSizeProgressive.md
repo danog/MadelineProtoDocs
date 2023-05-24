@@ -15,7 +15,7 @@ Progressively encoded photosize
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|type|[string](/API_docs/types/string.html) | Yes|Photosize type|
+|type|[string](/API_docs/types/string.html) | Yes|[Photosize type »](https://core.telegram.org/api/files#image-thumbnail-types)|
 |w|[int](/API_docs/types/int.html) | Yes|Photo width|
 |h|[int](/API_docs/types/int.html) | Yes|Photo height|
 |sizes|Array of [int](/API_docs/types/int.html) | Yes|Sizes of progressive JPEG file prefixes, which can be used to preliminarily show the image.|

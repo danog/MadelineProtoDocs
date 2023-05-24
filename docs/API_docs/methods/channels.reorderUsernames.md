@@ -1,6 +1,6 @@
 ---
 title: "channels.reorderUsernames"
-description: "channels.reorderUsernames parameters, return type and example"
+description: "Reorder active usernames"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/channels_reorderUsernames.html
 
 
 
+Reorder active usernames
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
-|order|Array of [string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The supergroup or channel | Optional|
+|order|Array of [string](/API_docs/types/string.html) | The new order for active usernames. All active usernames must be specified. | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

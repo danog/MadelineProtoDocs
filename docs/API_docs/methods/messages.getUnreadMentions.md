@@ -18,7 +18,7 @@ Get unread messages where we were mentioned
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where to look for mentions | Optional|
-|top\_msg\_id|[int](/API_docs/types/int.html) |  | Optional|
+|top\_msg\_id|[int](/API_docs/types/int.html) | If set, considers only messages within the specified [forum topic](https://core.telegram.org/api/forum#forum-topics) | Optional|
 |offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
 |add\_offset|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
 |limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|

@@ -1,6 +1,6 @@
 ---
 title: "messageExtendedMediaPreview"
-description: "messageExtendedMediaPreview attributes, type and example"
+description: "Extended media preview"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,14 +9,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Extended media preview
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|w|[int](/API_docs/types/int.html) | Optional|
-|h|[int](/API_docs/types/int.html) | Optional|
-|thumb|[PhotoSize](/API_docs/types/PhotoSize.html) | Optional|
-|video\_duration|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|w|[int](/API_docs/types/int.html) | Optional|Width|
+|h|[int](/API_docs/types/int.html) | Optional|Height|
+|thumb|[PhotoSize](/API_docs/types/PhotoSize.html) | Optional|Thumbnail|
+|video\_duration|[int](/API_docs/types/int.html) | Optional|Video duration|
 
 
 

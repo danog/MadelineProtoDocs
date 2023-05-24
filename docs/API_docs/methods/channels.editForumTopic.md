@@ -1,6 +1,6 @@
 ---
 title: "channels.editForumTopic"
-description: "channels.editForumTopic parameters, return type and example"
+description: "Edit [forum topic](https://core.telegram.org/api/forum); requires [`manage_topics` rights](https://core.telegram.org/api/rights)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,16 +11,18 @@ redirect_from: /API_docs/methods/channels_editForumTopic.html
 
 
 
+Edit [forum topic](https://core.telegram.org/api/forum); requires [`manage_topics` rights](https://core.telegram.org/api/rights).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
-|topic\_id|[int](/API_docs/types/int.html) | Yes|
-|title|[string](/API_docs/types/string.html) | Optional|
-|icon\_emoji\_id|[long](/API_docs/types/long.html) | Optional|
-|closed|[Bool](/API_docs/types/Bool.html) | Optional|
-|hidden|[Bool](/API_docs/types/Bool.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Supergroup | Optional|
+|topic\_id|[int](/API_docs/types/int.html) | Topic ID | Optional|
+|title|[string](/API_docs/types/string.html) | If present, will update the topic title (maximum UTF-8 length: 128). | Optional|
+|icon\_emoji\_id|[long](/API_docs/types/long.html) | If present, updates the [custom emoji](https://core.telegram.org/api/custom-emoji) used as topic icon. [Telegram Premium](https://core.telegram.org/api/premium) users can use any custom emoji, other users can only use the custom emojis contained in the [inputStickerSetEmojiDefaultTopicIcons](../constructors/inputStickerSetEmojiDefaultTopicIcons.html) emoji pack. Pass 0 to switch to the fallback topic icon. | Optional|
+|closed|[Bool](/API_docs/types/Bool.html) | If present, will update the open/closed status of the topic. | Optional|
+|hidden|[Bool](/API_docs/types/Bool.html) | If present, will hide/unhide the topic (only valid for the "General" topic, `id=1`). | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

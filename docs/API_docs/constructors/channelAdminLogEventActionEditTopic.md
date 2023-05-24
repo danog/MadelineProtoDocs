@@ -1,6 +1,6 @@
 ---
 title: "channelAdminLogEventActionEditTopic"
-description: "channelAdminLogEventActionEditTopic attributes, type and example"
+description: "A forum topic was edited"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A [forum topic](https://core.telegram.org/api/forum#forum-topics) was edited
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|prev\_topic|[ForumTopic](/API_docs/types/ForumTopic.html) | Yes|
-|new\_topic|[ForumTopic](/API_docs/types/ForumTopic.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|prev\_topic|[ForumTopic](/API_docs/types/ForumTopic.html) | Yes|Previous topic information|
+|new\_topic|[ForumTopic](/API_docs/types/ForumTopic.html) | Yes|New topic information|
 
 
 

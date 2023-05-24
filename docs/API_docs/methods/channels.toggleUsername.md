@@ -1,6 +1,6 @@
 ---
 title: "channels.toggleUsername"
-description: "channels.toggleUsername parameters, return type and example"
+description: "Activate or deactivate a purchased [fragment.com](https://fragment.com) username associated to a [supergroup or channel](https://core.telegram.org/api/channel) we own."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/channels_toggleUsername.html
 
 
 
+Activate or deactivate a purchased [fragment.com](https://fragment.com) username associated to a [supergroup or channel](https://core.telegram.org/api/channel) we own.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
-|username|[string](/API_docs/types/string.html) | Yes|
-|active|[Bool](/API_docs/types/Bool.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | [Supergroup or channel](https://core.telegram.org/api/channel) | Optional|
+|username|[string](/API_docs/types/string.html) | Username | Yes|
+|active|[Bool](/API_docs/types/Bool.html) | Whether to activate or deactivate the username | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

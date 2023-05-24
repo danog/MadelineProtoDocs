@@ -1,6 +1,6 @@
 ---
 title: "messages.reactions"
-description: "messages.reactions attributes, type and example"
+description: "List of message reactions"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_reactions.html
@@ -10,12 +10,14 @@ redirect_from: /API_docs/constructors/messages_reactions.html
 
 
 
+List of [message reactions](https://core.telegram.org/api/reactions)
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|[long](/API_docs/types/long.html) | Yes|
-|reactions|Array of [Reaction](/API_docs/types/Reaction.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|hash|[long](/API_docs/types/long.html) | Yes|[Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
+|reactions|Array of [Reaction](/API_docs/types/Reaction.html) | Yes|Reactions|
 
 
 

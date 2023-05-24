@@ -15,7 +15,7 @@ Attached photo.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|spoiler|[Bool](/API_docs/types/Bool.html) | Optional|
+|spoiler|[Bool](/API_docs/types/Bool.html) | Optional|Whether this media should be hidden behind a spoiler warning|
 |photo|[Photo](/API_docs/types/Photo.html) | Optional|Photo|
 |ttl\_seconds|[int](/API_docs/types/int.html) | Optional|Time to live in seconds of self-destructing photo|
 

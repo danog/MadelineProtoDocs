@@ -18,7 +18,7 @@ Sends a current user typing event (see [SendMessageAction](../types/SendMessageA
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Target user or group | Optional|
-|top\_msg\_id|[int](/API_docs/types/int.html) | [Thread ID](https://core.telegram.org/api/threads) | Optional|
+|top\_msg\_id|[int](/API_docs/types/int.html) | [Topic ID](https://core.telegram.org/api/threads) | Optional|
 |action|[SendMessageAction](/API_docs/types/SendMessageAction.html) | Type of action | Yes|
 
 

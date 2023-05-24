@@ -1,6 +1,6 @@
 ---
 title: "exportedChatlistInvite"
-description: "exportedChatlistInvite attributes, type and example"
+description: "Exported chat folder deep link »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Exported [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|title|[string](/API_docs/types/string.html) | Yes|
-|url|[string](/API_docs/types/string.html) | Yes|
-|peers|Array of [Peer](/API_docs/types/Peer.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|title|[string](/API_docs/types/string.html) | Yes|Name of the link|
+|url|[string](/API_docs/types/string.html) | Yes|The [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links).|
+|peers|Array of [Peer](/API_docs/types/Peer.html) | Yes|Peers to import|
 
 
 

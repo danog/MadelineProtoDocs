@@ -1,6 +1,6 @@
 ---
 title: "messages.getBotApp"
-description: "messages.getBotApp parameters, return type and example"
+description: "Obtain information about a [named bot web app](https://core.telegram.org/api/bots/webapps#named-bot-web-apps)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/messages_getBotApp.html
 
 
 
+Obtain information about a [named bot web app](https://core.telegram.org/api/bots/webapps#named-bot-web-apps)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|app|[InputBotApp](/API_docs/types/InputBotApp.html) | Yes|
-|hash|Array of [long](/API_docs/types/long.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|app|[InputBotApp](/API_docs/types/InputBotApp.html) | Bot app information obtained from a [named bot web app deep link »](https://core.telegram.org/api/links#named-bot-web-app-links). | Yes|
+|hash|Array of [long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.BotApp](/API_docs/types/messages.BotApp.html)

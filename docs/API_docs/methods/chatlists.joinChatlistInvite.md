@@ -1,6 +1,6 @@
 ---
 title: "chatlists.joinChatlistInvite"
-description: "chatlists.joinChatlistInvite parameters, return type and example"
+description: "Import a [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links), joining some or all the chats in the folder."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/chatlists_joinChatlistInvite.html
 
 
 
+Import a [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links), joining some or all the chats in the folder.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|slug|[string](/API_docs/types/string.html) | Yes|
-|peers|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|slug|[string](/API_docs/types/string.html) | `slug` obtained from a [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links). | Yes|
+|peers|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | List of new chats to join, fetched using [chatlists.checkChatlistInvite](../methods/chatlists.checkChatlistInvite.html) and filtered as specified in the [documentation »](https://core.telegram.org/api/folders#shared-folders). | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

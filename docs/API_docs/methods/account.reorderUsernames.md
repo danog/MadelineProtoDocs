@@ -1,6 +1,6 @@
 ---
 title: "account.reorderUsernames"
-description: "account.reorderUsernames parameters, return type and example"
+description: "Reorder usernames associated with the currently logged-in user."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/account_reorderUsernames.html
 
 
 
+Reorder usernames associated with the currently logged-in user.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|order|Array of [string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|order|Array of [string](/API_docs/types/string.html) | The new order for active usernames. All active usernames must be specified. | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

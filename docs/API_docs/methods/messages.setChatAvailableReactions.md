@@ -18,7 +18,7 @@ Change the set of [message reactions »](https://core.telegram.org/api/reactions
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Group where to apply changes | Optional|
-|available\_reactions|[ChatReactions](/API_docs/types/ChatReactions.html) |  | Yes|
+|available\_reactions|[ChatReactions](/API_docs/types/ChatReactions.html) | Allowed reaction emojis | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

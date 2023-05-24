@@ -1,6 +1,6 @@
 ---
 title: "bots.getBotInfo"
-description: "bots.getBotInfo parameters, return type and example"
+description: "Get localized name, about text and description of a bot (or of the current account, if called by a bot)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/bots_getBotInfo.html
 
 
 
+Get localized name, about text and description of a bot (or of the current account, if called by a bot).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|lang\_code|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | If called by a user, **must** contain the peer of a bot we own. | Optional|
+|lang\_code|[string](/API_docs/types/string.html) | Language code, if left empty this method will return the fallback about text and description. | Yes|
 
 
 ### Return type: [bots.BotInfo](/API_docs/types/bots.BotInfo.html)

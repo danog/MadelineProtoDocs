@@ -21,10 +21,10 @@ Example implementations: [telegram for android](https://github.com/DrKLO/Telegra
 |current\_number|[Bool](/API_docs/types/Bool.html) | Optional|Pass true if the phone number is used on the current device. Ignored if allow\_flashcall is not set.|
 |allow\_app\_hash|[Bool](/API_docs/types/Bool.html) | Optional|If a token that will be included in eventually sent SMSs is required: required in newer versions of android, to use the [android SMS receiver APIs](https://developers.google.com/identity/sms-retriever/overview)|
 |allow\_missed\_call|[Bool](/API_docs/types/Bool.html) | Optional|Whether this device supports receiving the code using the [auth.codeTypeMissedCall](../constructors/auth.codeTypeMissedCall.html) method|
-|allow\_firebase|[Bool](/API_docs/types/Bool.html) | Optional|
-|logout\_tokens|Array of [bytes](/API_docs/types/bytes.html) | Optional|Previously stored logout tokens, see [the documentation for more info »](https://core.telegram.org/api/auth#logout-tokens)|
-|token|[string](/API_docs/types/string.html) | Optional|
-|app\_sandbox|[Bool](/API_docs/types/Bool.html) | Optional|
+|allow\_firebase|[Bool](/API_docs/types/Bool.html) | Optional|Whether Firebase auth is supported|
+|logout\_tokens|Array of [bytes](/API_docs/types/bytes.html) | Optional|Previously stored future auth tokens, see [the documentation for more info »](https://core.telegram.org/api/auth#future-auth-tokens)|
+|token|[string](/API_docs/types/string.html) | Optional|Used only by official iOS apps for Firebase auth: device token for apple push.|
+|app\_sandbox|[Bool](/API_docs/types/Bool.html) | Optional|Used only by official iOS apps for firebase auth: whether a sandbox-certificate will be used during transmission of the push notification.|
 
 
 

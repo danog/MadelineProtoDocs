@@ -1,6 +1,6 @@
 ---
 title: "chatlists.deleteExportedInvite"
-description: "chatlists.deleteExportedInvite parameters, return type and example"
+description: "Delete a previously created [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/chatlists_deleteExportedInvite.html
 
 
 
+Delete a previously created [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chatlist|[InputChatlist](/API_docs/types/InputChatlist.html) | Yes|
-|slug|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chatlist|[InputChatlist](/API_docs/types/InputChatlist.html) | The related folder | Yes|
+|slug|[string](/API_docs/types/string.html) | `slug` obtained from the [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links). | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

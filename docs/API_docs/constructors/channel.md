@@ -34,7 +34,7 @@ Channel/supergroup info
 |noforwards|[Bool](/API_docs/types/Bool.html) | Optional|Whether this channel or group is [protected](https://telegram.org/blog/protected-content-delete-by-date-and-more), thus does not allow forwarding messages from it|
 |join\_to\_send|[Bool](/API_docs/types/Bool.html) | Optional|Whether a user needs to join the supergroup before they can send messages: can be false only for [discussion groups »](https://core.telegram.org/api/discussion), toggle using [channels.toggleJoinToSend](../methods/channels.toggleJoinToSend.html)|
 |join\_request|[Bool](/API_docs/types/Bool.html) | Optional|Whether a user's join request will have to be [approved by administrators](https://core.telegram.org/api/invites#join-requests), toggle using [channels.toggleJoinToSend](../methods/channels.toggleJoinRequest.html)|
-|forum|[Bool](/API_docs/types/Bool.html) | Optional|
+|forum|[Bool](/API_docs/types/Bool.html) | Optional|Whether this supergroup is a [forum](https://core.telegram.org/api/forum)|
 |id|[long](/API_docs/types/long.html) | Yes|ID of the channel|
 |access\_hash|[long](/API_docs/types/long.html) | Optional|Access hash|
 |title|[string](/API_docs/types/string.html) | Yes|Title|

@@ -17,7 +17,7 @@ Enable or disable [web bot attachment menu »](https://core.telegram.org/api/bot
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|write\_allowed|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|write\_allowed|[Bool](/API_docs/types/Bool.html) | Whether the user authorizes the bot to write messages to them, if requested by [attachMenuBot](../constructors/attachMenuBot.html).`request_write_access` | Optional|
 |bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Bot ID | Optional|
 |enabled|[Bool](/API_docs/types/Bool.html) | Toggle | Yes|
 

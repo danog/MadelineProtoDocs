@@ -1,6 +1,6 @@
 ---
 title: "updateChannelPinnedTopic"
-description: "updateChannelPinnedTopic attributes, type and example"
+description: "A forum topic » was pinned or unpinned."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A [forum topic »](https://core.telegram.org/api/forum#forum-topics) was pinned or unpinned.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|pinned|[Bool](/API_docs/types/Bool.html) | Optional|
-|channel\_id|[long](/API_docs/types/long.html) | Yes|
-|topic\_id|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|pinned|[Bool](/API_docs/types/Bool.html) | Optional|Whether the topic was pinned or unpinned|
+|channel\_id|[long](/API_docs/types/long.html) | Yes|The forum ID|
+|topic\_id|[int](/API_docs/types/int.html) | Yes|The topic ID|
 
 
 

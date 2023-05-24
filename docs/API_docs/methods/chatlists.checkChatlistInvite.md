@@ -1,6 +1,6 @@
 ---
 title: "chatlists.checkChatlistInvite"
-description: "chatlists.checkChatlistInvite parameters, return type and example"
+description: "Obtain information about a [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/chatlists_checkChatlistInvite.html
 
 
 
+Obtain information about a [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|slug|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|slug|[string](/API_docs/types/string.html) | `slug` obtained from the [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links) | Yes|
 
 
 ### Return type: [chatlists.ChatlistInvite](/API_docs/types/chatlists.ChatlistInvite.html)

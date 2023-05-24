@@ -19,7 +19,7 @@ Save a message [draft](https://core.telegram.org/api/drafts) associated to a cha
 |----------|---------------|-------------|----------|
 |no\_webpage|[Bool](/API_docs/types/Bool.html) | Disable generation of the webpage preview | Optional|
 |reply\_to\_msg\_id|[int](/API_docs/types/int.html) | Message ID the message should reply to | Optional|
-|top\_msg\_id|[int](/API_docs/types/int.html) |  | Optional|
+|top\_msg\_id|[int](/API_docs/types/int.html) | [Forum topic](https://core.telegram.org/api/forum#forum-topics) where the message will be sent | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Destination of the message that should be sent | Optional|
 |message|[string](/API_docs/types/string.html) | The draft | Yes|
 |entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Message [entities](https://core.telegram.org/api/entities) for styled text | Optional|

@@ -1,6 +1,6 @@
 ---
 title: "emailVerificationApple"
-description: "emailVerificationApple attributes, type and example"
+description: "Apple ID email verification token"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Apple ID email verification token
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|token|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|token|[string](/API_docs/types/string.html) | Yes|Token|
 
 
 

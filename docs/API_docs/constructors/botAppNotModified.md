@@ -1,6 +1,6 @@
 ---
 title: "botAppNotModified"
-description: "botAppNotModified attributes, type and example"
+description: "Bot app info hasn't changed."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -8,6 +8,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+Bot app info hasn't changed.
 
 
 

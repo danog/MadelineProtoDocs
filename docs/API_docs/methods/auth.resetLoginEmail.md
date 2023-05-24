@@ -1,6 +1,6 @@
 ---
 title: "auth.resetLoginEmail"
-description: "auth.resetLoginEmail parameters, return type and example"
+description: "Reset the [login email »](https://core.telegram.org/api/auth#email-verification)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/auth_resetLoginEmail.html
 
 
 
+Reset the [login email »](https://core.telegram.org/api/auth#email-verification).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|phone\_number|[string](/API_docs/types/string.html) | Yes|
-|phone\_code\_hash|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|phone\_number|[string](/API_docs/types/string.html) | Phone number of the account | Yes|
+|phone\_code\_hash|[string](/API_docs/types/string.html) | Phone code hash, obtained as described in the [documentation »](https://core.telegram.org/api/auth) | Yes|
 
 
 ### Return type: [auth.SentCode](/API_docs/types/auth.SentCode.html)

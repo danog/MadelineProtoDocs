@@ -1,6 +1,6 @@
 ---
 title: "account.saveAutoSaveSettings"
-description: "account.saveAutoSaveSettings parameters, return type and example"
+description: "Modify autosave settings"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,15 +11,17 @@ redirect_from: /API_docs/methods/account_saveAutoSaveSettings.html
 
 
 
+Modify autosave settings
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|users|[Bool](/API_docs/types/Bool.html) | Optional|
-|chats|[Bool](/API_docs/types/Bool.html) | Optional|
-|broadcasts|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|settings|[AutoSaveSettings](/API_docs/types/AutoSaveSettings.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|users|[Bool](/API_docs/types/Bool.html) | Whether the new settings should affect all private chats | Optional|
+|chats|[Bool](/API_docs/types/Bool.html) | Whether the new settings should affect all groups | Optional|
+|broadcasts|[Bool](/API_docs/types/Bool.html) | Whether the new settings should affect all [channels](https://core.telegram.org/api/channel) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Whether the new settings should affect a specific peer | Optional|
+|settings|[AutoSaveSettings](/API_docs/types/AutoSaveSettings.html) | The new autosave settings | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

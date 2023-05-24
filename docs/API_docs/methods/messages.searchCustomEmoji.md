@@ -1,6 +1,6 @@
 ---
 title: "messages.searchCustomEmoji"
-description: "messages.searchCustomEmoji parameters, return type and example"
+description: "Look for [custom emojis](https://core.telegram.org/api/custom-emoji) associated to a UTF8 emoji"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/messages_searchCustomEmoji.html
 
 
 
+Look for [custom emojis](https://core.telegram.org/api/custom-emoji) associated to a UTF8 emoji
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|emoticon|[string](/API_docs/types/string.html) | Yes|
-|hash|Array of [long](/API_docs/types/long.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|emoticon|[string](/API_docs/types/string.html) | The emoji | Yes|
+|hash|Array of [long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [EmojiList](/API_docs/types/EmojiList.html)

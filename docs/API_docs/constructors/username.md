@@ -1,6 +1,6 @@
 ---
 title: "username"
-description: "username attributes, type and example"
+description: "Contains information about a username."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Contains information about a username.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|editable|[Bool](/API_docs/types/Bool.html) | Optional|
-|active|[Bool](/API_docs/types/Bool.html) | Optional|
-|username|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|editable|[Bool](/API_docs/types/Bool.html) | Optional|Whether the username is editable, meaning it wasn't bought on [fragment](https://fragment.com).|
+|active|[Bool](/API_docs/types/Bool.html) | Optional|Whether the username is active.|
+|username|[string](/API_docs/types/string.html) | Yes|The username.|
 
 
 

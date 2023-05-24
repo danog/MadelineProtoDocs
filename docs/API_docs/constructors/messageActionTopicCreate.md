@@ -1,6 +1,6 @@
 ---
 title: "messageActionTopicCreate"
-description: "messageActionTopicCreate attributes, type and example"
+description: "A forum topic was created."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A [forum topic](https://core.telegram.org/api/forum#forum-topics) was created.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|title|[string](/API_docs/types/string.html) | Yes|
-|icon\_color|[int](/API_docs/types/int.html) | Yes|
-|icon\_emoji\_id|[long](/API_docs/types/long.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|title|[string](/API_docs/types/string.html) | Yes|Topic name.|
+|icon\_color|[int](/API_docs/types/int.html) | Yes|If no custom emoji icon is specified, specifies the color of the fallback topic icon (RGB), one of `0x6FB9F0`, `0xFFD67E`, `0xCB86DB`, `0x8EEE98`, `0xFF93B2`, or `0xFB6F5F`.|
+|icon\_emoji\_id|[long](/API_docs/types/long.html) | Optional|ID of the [custom emoji](https://core.telegram.org/api/custom-emoji) used as topic icon.|
 
 
 

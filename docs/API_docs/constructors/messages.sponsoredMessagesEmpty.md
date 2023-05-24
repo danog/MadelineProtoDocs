@@ -1,6 +1,6 @@
 ---
 title: "messages.sponsoredMessagesEmpty"
-description: "messages.sponsoredMessagesEmpty attributes, type and example"
+description: "No sponsored messages are available."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_sponsoredMessagesEmpty.html
@@ -9,6 +9,8 @@ redirect_from: /API_docs/constructors/messages_sponsoredMessagesEmpty.html
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+No sponsored messages are available.
 
 
 

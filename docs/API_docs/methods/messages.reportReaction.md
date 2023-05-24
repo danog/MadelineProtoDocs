@@ -1,6 +1,6 @@
 ---
 title: "messages.reportReaction"
-description: "messages.reportReaction parameters, return type and example"
+description: "Report a [message reaction](https://core.telegram.org/api/reactions)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/messages_reportReaction.html
 
 
 
+Report a [message reaction](https://core.telegram.org/api/reactions)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|id|[int](/API_docs/types/int.html) | Yes|
-|reaction\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where the message was sent | Optional|
+|id|[int](/API_docs/types/int.html) | Message ID | Optional|
+|reaction\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer that sent the reaction | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

@@ -1,6 +1,6 @@
 ---
 title: "help.appConfig"
-description: "help.appConfig attributes, type and example"
+description: "Contains various client configuration parameters"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_appConfig.html
@@ -10,12 +10,14 @@ redirect_from: /API_docs/constructors/help_appConfig.html
 
 
 
+Contains various [client configuration parameters](https://core.telegram.org/api/config#client-configuration)
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
 |hash|[int](/API_docs/types/int.html) | Yes|
-|config|[JSONValue](/API_docs/types/JSONValue.html) | Yes|
+|config|[JSONValue](/API_docs/types/JSONValue.html) | Yes|[Client configuration parameters](https://core.telegram.org/api/config#client-configuration)|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "messages.getExtendedMedia"
-description: "messages.getExtendedMedia parameters, return type and example"
+description: "Get information about extended media"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/messages_getExtendedMedia.html
 
 
 
+Get information about extended media
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|id|Array of [int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
+|id|Array of [int](/API_docs/types/int.html) | Message IDs | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

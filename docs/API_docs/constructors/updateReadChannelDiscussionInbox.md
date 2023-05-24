@@ -19,7 +19,7 @@ Incoming comments in a [discussion thread](https://core.telegram.org/api/threads
 |top\_msg\_id|[int](/API_docs/types/int.html) | Yes|ID of the group message that started the [thread](https://core.telegram.org/api/threads) (message in linked discussion group)|
 |read\_max\_id|[int](/API_docs/types/int.html) | Yes|Message ID of latest read incoming message for this [thread](https://core.telegram.org/api/threads)|
 |broadcast\_id|[long](/API_docs/types/long.html) | Optional|If set, contains the ID of the [channel](https://core.telegram.org/api/channel) that contains the post that started the [comment thread](https://core.telegram.org/api/threads) in the discussion group (`channel_id`)|
-|broadcast\_post|[int](/API_docs/types/int.html) | Optional|If set, contains the ID of the channel post that started the the [comment thread](https://core.telegram.org/api/threads)|
+|broadcast\_post|[int](/API_docs/types/int.html) | Optional|If set, contains the ID of the channel post that started the [comment thread](https://core.telegram.org/api/threads)|
 
 
 

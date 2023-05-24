@@ -1,6 +1,6 @@
 ---
 title: "messages.getEmojiKeywordsDifference"
-description: "Get changed emoji keywords"
+description: "Get changed [emoji keywords »](https://core.telegram.org/api/custom-emoji#emoji-keywords)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,14 @@ redirect_from: /API_docs/methods/messages_getEmojiKeywordsDifference.html
 
 
 
-Get changed emoji keywords
+Get changed [emoji keywords »](https://core.telegram.org/api/custom-emoji#emoji-keywords).
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |lang\_code|[string](/API_docs/types/string.html) | Language code | Yes|
-|from\_version|[int](/API_docs/types/int.html) | Previous emoji keyword localization version | Optional|
+|from\_version|[int](/API_docs/types/int.html) | Previous stored emoji keyword list `version` | Optional|
 
 
 ### Return type: [EmojiKeywordsDifference](/API_docs/types/EmojiKeywordsDifference.html)

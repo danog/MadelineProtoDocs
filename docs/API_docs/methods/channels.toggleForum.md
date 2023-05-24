@@ -1,6 +1,6 @@
 ---
 title: "channels.toggleForum"
-description: "channels.toggleForum parameters, return type and example"
+description: "Enable or disable [forum functionality](https://core.telegram.org/api/forum) in a supergroup."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/channels_toggleForum.html
 
 
 
+Enable or disable [forum functionality](https://core.telegram.org/api/forum) in a supergroup.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
-|enabled|[Bool](/API_docs/types/Bool.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Supergroup ID | Optional|
+|enabled|[Bool](/API_docs/types/Bool.html) | Enable or disable forum functionality | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

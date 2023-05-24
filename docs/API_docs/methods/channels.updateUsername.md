@@ -1,6 +1,6 @@
 ---
 title: "channels.updateUsername"
-description: "Change the username of a supergroup/channel"
+description: "Change or remove the username of a supergroup/channel"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,14 @@ redirect_from: /API_docs/methods/channels_updateUsername.html
 
 
 
-Change the username of a supergroup/channel
+Change or remove the username of a supergroup/channel
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Channel | Optional|
-|username|[string](/API_docs/types/string.html) | New username | Yes|
+|username|[string](/API_docs/types/string.html) | New username, pass an empty string to remove the username | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

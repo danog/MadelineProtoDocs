@@ -28,7 +28,7 @@ Configuration for two-factor authorization
 |new\_secure\_algo|[SecurePasswordKdfAlgo](/API_docs/types/SecurePasswordKdfAlgo.html) | Yes|The KDF algorithm for telegram [passport](https://core.telegram.org/passport)|
 |secure\_random|[bytes](/API_docs/types/bytes.html) | Yes|Secure random string|
 |pending\_reset\_date|[int](/API_docs/types/int.html) | Optional|The 2FA password will be automatically removed at this date, unless the user cancels the operation|
-|login\_email\_pattern|[string](/API_docs/types/string.html) | Optional|
+|login\_email\_pattern|[string](/API_docs/types/string.html) | Optional|A verified login email with the specified [pattern](https://core.telegram.org/api/pattern) is configured|
 
 
 

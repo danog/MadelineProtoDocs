@@ -26,9 +26,9 @@ Chat
 |unread\_reactions\_count|[int](/API_docs/types/int.html) | Yes|Number of unread reactions to messages you sent|
 |notify\_settings|[PeerNotifySettings](/API_docs/types/PeerNotifySettings.html) | Yes|Notification settings|
 |pts|[int](/API_docs/types/int.html) | Optional|[PTS](https://core.telegram.org/api/updates)|
-|draft|[DraftMessage](/API_docs/types/DraftMessage.html) | Optional|Message draft|
+|draft|[DraftMessage](/API_docs/types/DraftMessage.html) | Optional|Message [draft](https://core.telegram.org/api/drafts)|
 |folder\_id|[int](/API_docs/types/int.html) | Optional|[Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders)|
-|ttl\_period|[int](/API_docs/types/int.html) | Optional|
+|ttl\_period|[int](/API_docs/types/int.html) | Optional|Time-to-live of all messages sent in this dialog|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "chatReactionsAll"
-description: "chatReactionsAll attributes, type and example"
+description: "All reactions or all non-custom reactions are allowed"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+All reactions or all non-custom reactions are allowed
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|allow\_custom|[Bool](/API_docs/types/Bool.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|allow\_custom|[Bool](/API_docs/types/Bool.html) | Optional|Whether to allow custom reactions|
 
 
 

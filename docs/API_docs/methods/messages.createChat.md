@@ -13,13 +13,15 @@ redirect_from: /API_docs/methods/messages_createChat.html
 
 Creates a new chat.
 
+May also return 0-N updates of type [updateGroupInvitePrivacyForbidden](../constructors/updateGroupInvitePrivacyForbidden.html): it indicates we couldn't add a user to a chat because of their privacy settings; if required, an [invite link](https://core.telegram.org/api/invites) can be shared with the user, instead.
+
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |users|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | List of user IDs to be invited | Yes|
 |title|[string](/API_docs/types/string.html) | Chat name | Yes|
-|ttl\_period|[int](/API_docs/types/int.html) |  | Optional|
+|ttl\_period|[int](/API_docs/types/int.html) | Time-to-live of all messages that will be sent in the chat: once message.date+message.ttl\_period === time(), the message will be deleted on the server, and must be deleted locally as well. You can use [messages.setDefaultHistoryTTL](../methods/messages.setDefaultHistoryTTL.html) to edit this value later. | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

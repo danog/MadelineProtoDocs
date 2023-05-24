@@ -1,6 +1,6 @@
 ---
 title: "updateMessageExtendedMedia"
-description: "updateMessageExtendedMedia attributes, type and example"
+description: "Extended media update"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Extended media update
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|
-|msg\_id|[int](/API_docs/types/int.html) | Yes|
-|extended\_media|[MessageExtendedMedia](/API_docs/types/MessageExtendedMedia.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[Peer](/API_docs/types/Peer.html) | Yes|Peer|
+|msg\_id|[int](/API_docs/types/int.html) | Yes|Message ID|
+|extended\_media|[MessageExtendedMedia](/API_docs/types/MessageExtendedMedia.html) | Yes|Extended media|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "inlineQueryPeerTypeSameBotPM"
-description: "The inline query was sent in a private chat with the bot itself"
+description: "Peer type: private chat with the bot itself"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-The inline query was sent in a private chat with the bot itself
+Peer type: private chat with the bot itself
 
 
 

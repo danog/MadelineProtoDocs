@@ -26,7 +26,7 @@ Represents the rights of an admin in a [channel/supergroup](https://core.telegra
 |anonymous|[Bool](/API_docs/types/Bool.html) | Optional|Whether this admin is anonymous|
 |manage\_call|[Bool](/API_docs/types/Bool.html) | Optional|If set, allows the admin to change group call/livestream settings|
 |other|[Bool](/API_docs/types/Bool.html) | Optional|Set this flag if none of the other flags are set, but you still want the user to be an admin: if this or any of the other flags are set, the admin can get the chat [admin log](https://core.telegram.org/api/recent-actions), get [chat statistics](https://core.telegram.org/api/stats), get [message statistics in channels](https://core.telegram.org/api/stats), get channel members, see anonymous administrators in supergroups and ignore slow mode.|
-|manage\_topics|[Bool](/API_docs/types/Bool.html) | Optional|
+|manage\_topics|[Bool](/API_docs/types/Bool.html) | Optional|If set, allows the admin to create, delete or modify [forum topics »](https://core.telegram.org/api/forum#forum-topics).|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "stickerKeyword"
-description: "stickerKeyword attributes, type and example"
+description: "Keywords for a certain sticker"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Keywords for a certain sticker
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|document\_id|[long](/API_docs/types/long.html) | Yes|
-|keyword|Array of [string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|document\_id|[long](/API_docs/types/long.html) | Yes|Sticker ID|
+|keyword|Array of [string](/API_docs/types/string.html) | Yes|Keywords|
 
 
 

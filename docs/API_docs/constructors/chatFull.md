@@ -17,7 +17,7 @@ Full info about a [basic group](https://core.telegram.org/api/channel#basic-grou
 |----------|---------------|----------|-------------|
 |can\_set\_username|[Bool](/API_docs/types/Bool.html) | Optional|Can we change the username of this chat|
 |has\_scheduled|[Bool](/API_docs/types/Bool.html) | Optional|Whether [scheduled messages](https://core.telegram.org/api/scheduled-messages) are available|
-|translations\_disabled|[Bool](/API_docs/types/Bool.html) | Optional|
+|translations\_disabled|[Bool](/API_docs/types/Bool.html) | Optional|Whether the [real-time chat translation popup](https://core.telegram.org/api/translation) should be hidden.|
 |id|[long](/API_docs/types/long.html) | Yes|ID of the chat|
 |about|[string](/API_docs/types/string.html) | Yes|About string for this chat|
 |participants|[ChatParticipants](/API_docs/types/ChatParticipants.html) | Yes|Participant list|
@@ -33,7 +33,7 @@ Full info about a [basic group](https://core.telegram.org/api/channel#basic-grou
 |theme\_emoticon|[string](/API_docs/types/string.html) | Optional|Emoji representing a specific chat theme|
 |requests\_pending|[int](/API_docs/types/int.html) | Optional|Pending [join requests »](https://core.telegram.org/api/invites#join-requests)|
 |recent\_requesters|Array of [long](/API_docs/types/long.html) | Optional|IDs of users who requested to join recently|
-|available\_reactions|[ChatReactions](/API_docs/types/ChatReactions.html) | Optional|
+|available\_reactions|[ChatReactions](/API_docs/types/ChatReactions.html) | Optional|Allowed [message reactions »](https://core.telegram.org/api/reactions)|
 
 
 

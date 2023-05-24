@@ -1,6 +1,6 @@
 ---
 title: "account.emojiStatusesNotModified"
-description: "account.emojiStatusesNotModified attributes, type and example"
+description: "The server-side list of emoji statuses hasn't changed"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_emojiStatusesNotModified.html
@@ -9,6 +9,8 @@ redirect_from: /API_docs/constructors/account_emojiStatusesNotModified.html
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+The server-side list of [emoji statuses](https://core.telegram.org/api/emoji-status) hasn't changed
 
 
 

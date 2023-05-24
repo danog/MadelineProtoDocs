@@ -1,6 +1,6 @@
 ---
 title: "messages.sendReaction"
-description: "React to message"
+description: "React to message."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,17 +11,19 @@ redirect_from: /API_docs/methods/messages_sendReaction.html
 
 
 
-React to message
+React to message.
+
+Starting from layer 159, the reaction will be sent from the peer specified using [messages.saveDefaultSendAs](../methods/messages.saveDefaultSendAs.html).
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |big|[Bool](/API_docs/types/Bool.html) | Whether a bigger and longer reaction should be shown | Optional|
-|add\_to\_recent|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|add\_to\_recent|[Bool](/API_docs/types/Bool.html) | Add this reaction to the [recent reactions list »](https://core.telegram.org/api/reactions#recent-reactions). | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
 |msg\_id|[int](/API_docs/types/int.html) | Message ID to react to | Optional|
-|reaction|Array of [Reaction](/API_docs/types/Reaction.html) |  | Optional|
+|reaction|Array of [Reaction](/API_docs/types/Reaction.html) | A list of reactions | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

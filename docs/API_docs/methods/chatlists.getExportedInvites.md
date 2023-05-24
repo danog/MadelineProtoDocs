@@ -1,6 +1,6 @@
 ---
 title: "chatlists.getExportedInvites"
-description: "chatlists.getExportedInvites parameters, return type and example"
+description: "List all [chat folder deep links »](https://core.telegram.org/api/links#chat-folder-links) associated to a folder"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/chatlists_getExportedInvites.html
 
 
 
+List all [chat folder deep links »](https://core.telegram.org/api/links#chat-folder-links) associated to a folder
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|chatlist|[InputChatlist](/API_docs/types/InputChatlist.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|chatlist|[InputChatlist](/API_docs/types/InputChatlist.html) | The folder | Yes|
 
 
 ### Return type: [chatlists.ExportedInvites](/API_docs/types/chatlists.ExportedInvites.html)

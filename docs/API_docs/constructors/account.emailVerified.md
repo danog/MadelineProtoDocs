@@ -1,6 +1,6 @@
 ---
 title: "account.emailVerified"
-description: "account.emailVerified attributes, type and example"
+description: "The email was verified correctly."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_emailVerified.html
@@ -10,11 +10,13 @@ redirect_from: /API_docs/constructors/account_emailVerified.html
 
 
 
+The email was verified correctly.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|email|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|email|[string](/API_docs/types/string.html) | Yes|The verified email address.|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "inputStickerSetEmojiDefaultTopicIcons"
-description: "inputStickerSetEmojiDefaultTopicIcons attributes, type and example"
+description: "Default custom emoji stickerset for forum topic icons"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -8,6 +8,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+Default [custom emoji](https://core.telegram.org/api/custom-emoji) stickerset for [forum topic icons](https://core.telegram.org/api/forum#forum-topics)
 
 
 

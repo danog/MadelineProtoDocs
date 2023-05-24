@@ -15,7 +15,7 @@ A participant has left, joined, was banned or admined in a [channel or supergrou
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|via\_chatlist|[Bool](/API_docs/types/Bool.html) | Optional|
+|via\_chatlist|[Bool](/API_docs/types/Bool.html) | Optional|Whether the participant joined using a [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links).|
 |channel\_id|[long](/API_docs/types/long.html) | Yes|Channel ID|
 |date|[int](/API_docs/types/int.html) | Yes|Date of the event|
 |actor\_id|[long](/API_docs/types/long.html) | Yes|User that triggered the change (inviter, admin that kicked the user, or the even the **user\_id** itself)|

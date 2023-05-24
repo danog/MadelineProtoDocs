@@ -1,6 +1,6 @@
 ---
 title: "messages.reactionsNotModified"
-description: "messages.reactionsNotModified attributes, type and example"
+description: "The server-side list of message reactions hasn't changed"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_reactionsNotModified.html
@@ -9,6 +9,8 @@ redirect_from: /API_docs/constructors/messages_reactionsNotModified.html
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+The server-side list of [message reactions](https://core.telegram.org/api/reactions) hasn't changed
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "account.toggleUsername"
-description: "account.toggleUsername parameters, return type and example"
+description: "Activate or deactivate a purchased [fragment.com](https://fragment.com) username associated to the currently logged-in user."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/account_toggleUsername.html
 
 
 
+Activate or deactivate a purchased [fragment.com](https://fragment.com) username associated to the currently logged-in user.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|username|[string](/API_docs/types/string.html) | Yes|
-|active|[Bool](/API_docs/types/Bool.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|username|[string](/API_docs/types/string.html) | Username | Yes|
+|active|[Bool](/API_docs/types/Bool.html) | Whether to activate or deactivate it | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

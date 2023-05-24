@@ -1,6 +1,6 @@
 ---
 title: "account.clearRecentEmojiStatuses"
-description: "account.clearRecentEmojiStatuses parameters, return type and example"
+description: "Clears list of recently used [emoji statuses](https://core.telegram.org/api/emoji-status)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,6 +10,8 @@ redirect_from: /API_docs/methods/account_clearRecentEmojiStatuses.html
 [Back to methods index](index.html)
 
 
+
+Clears list of recently used [emoji statuses](https://core.telegram.org/api/emoji-status)
 
 
 

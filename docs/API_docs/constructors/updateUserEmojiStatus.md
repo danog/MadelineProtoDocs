@@ -1,6 +1,6 @@
 ---
 title: "updateUserEmojiStatus"
-description: "updateUserEmojiStatus attributes, type and example"
+description: "The emoji status of a certain user has changed"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+The [emoji status](https://core.telegram.org/api/emoji-status) of a certain user has changed
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
-|emoji\_status|[EmojiStatus](/API_docs/types/EmojiStatus.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User ID|
+|emoji\_status|[EmojiStatus](/API_docs/types/EmojiStatus.html) | Optional|New [emoji status](https://core.telegram.org/api/emoji-status)|
 
 
 

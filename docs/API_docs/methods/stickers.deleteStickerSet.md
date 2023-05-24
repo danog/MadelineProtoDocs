@@ -1,6 +1,6 @@
 ---
 title: "stickers.deleteStickerSet"
-description: "stickers.deleteStickerSet parameters, return type and example"
+description: "Deletes a stickerset we created, bots only."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/stickers_deleteStickerSet.html
 
 
 
+Deletes a stickerset we created, bots only.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.html) | Stickerset to delete | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

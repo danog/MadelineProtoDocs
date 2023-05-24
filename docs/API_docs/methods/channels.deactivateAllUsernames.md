@@ -1,6 +1,6 @@
 ---
 title: "channels.deactivateAllUsernames"
-description: "channels.deactivateAllUsernames parameters, return type and example"
+description: "Disable all purchased usernames of a supergroup or channel"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/channels_deactivateAllUsernames.html
 
 
 
+Disable all purchased usernames of a supergroup or channel
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Supergroup or channel | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

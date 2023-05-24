@@ -1,6 +1,6 @@
 ---
 title: "readParticipantDate"
-description: "readParticipantDate attributes, type and example"
+description: "Contains info about when a certain participant has read a message"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Contains info about when a certain participant has read a message
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
-|date|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User ID|
+|date|[int](/API_docs/types/int.html) | Yes|When the user read the message|
 
 
 

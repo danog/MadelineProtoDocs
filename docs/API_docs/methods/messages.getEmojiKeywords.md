@@ -1,6 +1,6 @@
 ---
 title: "messages.getEmojiKeywords"
-description: "Get localized emoji keywords"
+description: "Get localized [emoji keywords »](https://core.telegram.org/api/custom-emoji#emoji-keywords)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/messages_getEmojiKeywords.html
 
 
 
-Get localized emoji keywords
+Get localized [emoji keywords »](https://core.telegram.org/api/custom-emoji#emoji-keywords).
 
 ### Parameters:
 

@@ -1,6 +1,6 @@
 ---
 title: "channelAdminLogEventActionChangeUsernames"
-description: "channelAdminLogEventActionChangeUsernames attributes, type and example"
+description: "The list of usernames associated with the channel was changed"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+The list of usernames associated with the channel was changed
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|prev\_value|Array of [string](/API_docs/types/string.html) | Yes|
-|new\_value|Array of [string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|prev\_value|Array of [string](/API_docs/types/string.html) | Yes|Previous set of usernames|
+|new\_value|Array of [string](/API_docs/types/string.html) | Yes|New set of usernames|
 
 
 

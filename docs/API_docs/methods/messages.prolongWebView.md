@@ -13,6 +13,8 @@ redirect_from: /API_docs/methods/messages_prolongWebView.html
 
 Indicate to the server (from the user side) that the user is still using a web app.
 
+If the method returns a `QUERY_ID_INVALID` error, the webview must be closed.
+
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
@@ -22,7 +24,7 @@ Indicate to the server (from the user side) that the user is still using a web a
 |bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Bot that owns the [web app](https://core.telegram.org/api/bots/webapps) | Optional|
 |query\_id|[long](/API_docs/types/long.html) | Web app interaction ID obtained from [messages.requestWebView](../methods/messages.requestWebView.html) | Yes|
 |reply\_to\_msg\_id|[int](/API_docs/types/int.html) | Whether the inline message that will be sent by the bot on behalf of the user once the web app interaction is [terminated](../methods/messages.sendWebViewResultMessage.html) should be sent in reply to this message ID. | Optional|
-|top\_msg\_id|[int](/API_docs/types/int.html) |  | Optional|
+|top\_msg\_id|[int](/API_docs/types/int.html) | This field must contain the topic ID **only** when replying to messages in [forum topics](https://core.telegram.org/api/forum#forum-topics) different from the "General" topic (i.e. `reply_to_msg_id` is set and `reply_to_msg_id != topicID` and `topicID != 1`). <br>If the replied-to message is deleted before the method finishes execution, the value in this field will be used to send the message to the correct topic, instead of the "General" topic. | Optional|
 |send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Open the web app as the specified peer | Optional|
 
 

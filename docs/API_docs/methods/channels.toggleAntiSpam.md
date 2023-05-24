@@ -1,6 +1,6 @@
 ---
 title: "channels.toggleAntiSpam"
-description: "channels.toggleAntiSpam parameters, return type and example"
+description: "Enable or disable the [native antispam system](https://core.telegram.org/api/antispam)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/channels_toggleAntiSpam.html
 
 
 
+Enable or disable the [native antispam system](https://core.telegram.org/api/antispam).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
-|enabled|[Bool](/API_docs/types/Bool.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Supergroup ID. The specified supergroup must have at least `telegram_antispam_group_size_min` members to enable antispam functionality, as specified by the [client configuration parameters](https://core.telegram.org/api/config#client-configuration). | Optional|
+|enabled|[Bool](/API_docs/types/Bool.html) | Enable or disable the native antispam system. | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

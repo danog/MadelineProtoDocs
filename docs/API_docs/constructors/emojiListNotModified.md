@@ -1,6 +1,6 @@
 ---
 title: "emojiListNotModified"
-description: "emojiListNotModified attributes, type and example"
+description: "The list of custom emojis hasn't changed."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -8,6 +8,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+The list of [custom emojis](https://core.telegram.org/api/custom-emoji) hasn't changed.
 
 
 

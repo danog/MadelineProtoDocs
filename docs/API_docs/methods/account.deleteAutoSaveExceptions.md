@@ -1,6 +1,6 @@
 ---
 title: "account.deleteAutoSaveExceptions"
-description: "account.deleteAutoSaveExceptions parameters, return type and example"
+description: "Clear all peer-specific autosave settings."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,6 +10,8 @@ redirect_from: /API_docs/methods/account_deleteAutoSaveExceptions.html
 [Back to methods index](index.html)
 
 
+
+Clear all peer-specific autosave settings.
 
 
 
