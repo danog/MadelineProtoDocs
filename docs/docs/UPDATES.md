@@ -383,6 +383,8 @@ This will create an event handler class `EventHandler`, create a **combined** Ma
 
 Usage is the same as for [the normal event handler](#async-event-driven), with the difference is that multiple accounts can receive and handle updates in parallel, each with its own event handler instance.
 
+To dynamically start a new event handler, use `\Revolt\EventLoop::queue(MyEventHandler::startAndLoop(...), 'session.madeline', $settings))`.  
+
 ## Noop
 
 ```php
@@ -393,5 +395,32 @@ $MadelineProto->setNoop();
 ```
 When an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html) is received, nothing is done. This is useful if you need to populate the internal peer database with peers to avoid `This peer is not present in the internal peer database errors`, but don't need to handle updates.  
 This is the default.  
+
+## Webhook
+
+Useful when consuming MadelineProto updates through an API, **not recommended when directly writing MadelineProto bots**.  
+
+```php
+
+$MadelineProto = new \danog\MadelineProto\API('bot.madeline');
+
+$MadelineProto->setWebhook('https://example.com');
+```
+
+## (Not recommended) getUpdates
+
+Useful when consuming MadelineProto updates through an API, **absolutely not recommended when directly writing MadelineProto bots**.  
+
+`getUpdates` will **greatly slow down your bot** if used directly inside of PHP code.  
+
+**Only use the [event handler](#async-event-driven) when writing a MadelineProto bot**, because the event handler is completely parallelized and non-blocking, while `getUpdates` **will block the entire bot every time an update is received, which will cause crashes due to suspension of the event loop**.  
+
+```php
+
+$MadelineProto = new \danog\MadelineProto\API('bot.madeline');
+
+// Same parameters as for bot API getUpdates
+echo json_encode($MadelineProto->getUpdates($_GET));
+```
 
 <a href="https://docs.madelineproto.xyz/docs/DATABASE.html">Next section</a>

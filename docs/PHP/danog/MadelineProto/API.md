@@ -1148,12 +1148,12 @@ Get TL serializer.
 
 ### `getType(mixed $id): \"user"|\"bot"|\"chat"|\"supergroup"|\"channel"`
 
-Get type of peer
+Get type of peer.
 
 
 Parameters:
 
-* `$id`: `mixed`   
+* `$id`: `mixed` Peer  
 
 
 
