@@ -17,8 +17,10 @@ RPC settings.
 
 
 ## Method list:
-* `getRpcTimeout()`
-* `setRpcTimeout(int $rpcTimeout)`
+* `getRpcDropTimeout()`
+* `setRpcDropTimeout(int $rpcDropTimeout)`
+* `getRpcResendTimeout()`
+* `setRpcResendTimeout(int $rpcResendTimeout)`
 * `getFloodTimeout()`
 * `setFloodTimeout(int $floodTimeout)`
 * `getLimitCallQueue()`
@@ -27,20 +29,37 @@ RPC settings.
 * `setGzipEncodeIfGt(int $gzipEncodeIfGt)`
 
 ## Methods:
-### `getRpcTimeout()`
+### `getRpcDropTimeout()`
 
-Get RPC timeout.
+Get RPC drop timeout.
 
 
 
-### `setRpcTimeout(int $rpcTimeout)`
+### `setRpcDropTimeout(int $rpcDropTimeout)`
 
-Set RPC timeout.
+Set RPC drop timeout.
 
 
 Parameters:
 
-* `$rpcTimeout`: `int` RPC timeout.  
+* `$rpcDropTimeout`: `int` RPC timeout.  
+
+
+
+### `getRpcResendTimeout()`
+
+Get RPC resend timeout.
+
+
+
+### `setRpcResendTimeout(int $rpcResendTimeout)`
+
+Set RPC resend timeout.
+
+
+Parameters:
+
+* `$rpcResendTimeout`: `int` RPC timeout.  
 
 
 

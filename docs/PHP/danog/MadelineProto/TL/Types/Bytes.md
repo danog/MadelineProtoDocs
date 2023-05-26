@@ -21,7 +21,7 @@ Bytes wrapper.
 * `offsetSet(int|null $offset, string $value)`
 * `offsetGet(int $offset): string`
 * `offsetUnset(int $offset)`
-* `offsetExists(int $offset): bool`
+* `offsetExists(int $offset)`
 
 ## Methods:
 ### `jsonSerialize()`
@@ -64,7 +64,7 @@ Parameters:
 
 
 
-### `offsetExists(int $offset): bool`
+### `offsetExists(int $offset)`
 
 Check if char at offset exists.
 

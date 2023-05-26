@@ -21,35 +21,22 @@ Some tools.
 
 
 ## Method list:
+* `testFibers(): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`
+* `getMaps()`
+* `getMaxMaps()`
 * `genVectorHash(array $ints): \string Vector hash`
 * `randomInt(int $modulus)`
 * `random(int $length): \string Random string`
 * `posmod(int $a, int $b): \int Modulo`
-* `unpackSignedInt(string $value): int`
-* `unpackSignedLong(string $value): int`
+* `unpackSignedInt(string $value)`
+* `unpackSignedLong(string $value)`
 * `unpackSignedLongString(string|int|array $value)`
 * `packSignedInt(int $value)`
 * `packSignedLong(int $value)`
 * `packUnsignedInt(int $value)`
 * `packDouble(float $value)`
 * `unpackDouble(string $value)`
-* `wait(\Generator|\Amp\Promise $promise, bool $ignoreSignal)`
-* `all((\Generator|\Amp\Promise)[] $promises)`
-* `any((\Amp\Promise|\Generator)[] $promises)`
-* `some((\Amp\Promise|\Generator)[] $promises)`
-* `first((\Amp\Promise|\Generator)[] $promises)`
-* `timeout(\Generator|\Amp\Promise $promise, int $timeout)`
-* `timeoutWithDefault(\Amp\Promise|\Generator $promise, int $timeout): \Amp\Promise<\TReturn>|\Amp\Promise<\TReturnAlt>`
-* `call(\Generator|\Amp\Promise|mixed $promise)`
-* `callFork(\Generator|\Amp\Promise $promise, ?\Generator|\Amp\Promise $actual, string $file): \Amp\Promise|mixed`
-* `callForkDefer(\Generator|\Amp\Promise $promise)`
-* `rethrow(\Throwable $e, string $file)`
-* `after(\Generator|\Amp\Promise $a, \Generator|\Amp\Promise $b)`
-* `flock(string $file, int $operation, float $polling, ?\Amp\Promise $token, ?callable $failureCb)`
-* `sleep(int|float $time)`
-* `readLine(string $prompt): \Amp\Promise<string>`
-* `echo(string $string)`
-* `isArrayOrAlike(mixed $var): bool`
+* `isArrayOrAlike(mixed $var)`
 * `arr(mixed $params)`
 * `base64urlDecode(string $data)`
 * `base64urlEncode(string $data)`
@@ -58,12 +45,17 @@ Some tools.
 * `inflateStripped(string $stripped): \string JPG payload`
 * `closeConnection(string $message)`
 * `end(array $what)`
-* `isAltervista(): bool`
+* `isAltervista()`
 * `hasVar(object $obj, string $var)`
 * `getVar(object $obj, string $var)`
 * `setVar(object $obj, string $var, mixed $val)`
-* `mbStrlen(string $text): float|int`
-* `mbSubstr(string $text, int $offset, ?int $length)`
+* `rethrow()`
+* `flock(string $file, int $operation, float $polling, ?\Amp\Cancellation $token, ?\Closure $failureCb): mixed`
+* `sleep(float $time)`
+* `readLine(string $prompt)`
+* `echo(string $string)`
+* `mbStrlen(string $text)`
+* `mbSubstr(string $text, int $offset, null|int $length)`
 * `mbStrSplit(string $text, int $length): string[]`
 * `toCamelCase(string $input)`
 * `toSnakeCase(string $input)`
@@ -77,6 +69,24 @@ Some tools.
 * `getMimeFromBuffer(string $buffer)`
 
 ## Methods:
+### `testFibers(): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`
+
+Test fibers.
+
+
+
+### `getMaps()`
+
+Get current number of memory-mapped regions, UNIX only.
+
+
+
+### `getMaxMaps()`
+
+Get maximum number of memory-mapped regions, UNIX only.
+Use testFibers to get the maximum number of fibers on any platform.
+
+
 ### `genVectorHash(array $ints): \string Vector hash`
 
 Generate MTProto vector hash.
@@ -129,7 +139,7 @@ Parameters:
 Return value: Modulo
 
 
-### `unpackSignedInt(string $value): int`
+### `unpackSignedInt(string $value)`
 
 Unpack base256 signed int.
 
@@ -140,7 +150,7 @@ Parameters:
 
 
 
-### `unpackSignedLong(string $value): int`
+### `unpackSignedLong(string $value)`
 
 Unpack base256 signed long.
 
@@ -217,294 +227,7 @@ Parameters:
 
 
 
-### `wait(\Generator|\Amp\Promise $promise, bool $ignoreSignal)`
-
-Synchronously wait for a promise|generator.
-
-
-Parameters:
-
-* `$promise`: `\Generator|\Amp\Promise` The promise to wait for  
-* `$ignoreSignal`: `bool` Whether to ignore shutdown signals  
-
-
-#### See also: 
-* `\Generator`
-* `\Amp\Promise`
-
-
-
-
-### `all((\Generator|\Amp\Promise)[] $promises)`
-
-Returns a promise that succeeds when all promises succeed, and fails if any promise fails.
-Returned promise succeeds with an array of values used to succeed each contained promise, with keys corresponding to the array of promises.
-
-Parameters:
-
-* `$promises`: `(\Generator|\Amp\Promise)[]` Promises  
-
-
-#### See also: 
-* `\Generator`
-* `\Amp\Promise`
-
-
-
-
-### `any((\Amp\Promise|\Generator)[] $promises)`
-
-Returns a promise that is resolved when all promises are resolved. The returned promise will not fail.
-
-
-Parameters:
-
-* `$promises`: `(\Amp\Promise|\Generator)[]` Promises  
-
-
-#### See also: 
-* `\Amp\Promise`
-* `\Generator`
-
-
-
-
-### `some((\Amp\Promise|\Generator)[] $promises)`
-
-Resolves with a two-item array delineating successful and failed Promise results.
-The returned promise will only fail if the given number of required promises fail.
-
-Parameters:
-
-* `$promises`: `(\Amp\Promise|\Generator)[]` Promises  
-
-
-#### See also: 
-* `\Amp\Promise`
-* `\Generator`
-
-
-
-
-### `first((\Amp\Promise|\Generator)[] $promises)`
-
-Returns a promise that succeeds when the first promise succeeds, and fails only if all promises fail.
-
-
-Parameters:
-
-* `$promises`: `(\Amp\Promise|\Generator)[]` Promises  
-
-
-#### See also: 
-* `\Amp\Promise`
-* `\Generator`
-
-
-
-
-### `timeout(\Generator|\Amp\Promise $promise, int $timeout)`
-
-Create an artificial timeout for any \Generator or Promise.
-
-
-Parameters:
-
-* `$promise`: `\Generator|\Amp\Promise`   
-* `$timeout`: `int`   
-
-
-#### See also: 
-* `\Generator`
-* `\Amp\Promise`
-
-
-
-
-### `timeoutWithDefault(\Amp\Promise|\Generator $promise, int $timeout): \Amp\Promise<\TReturn>|\Amp\Promise<\TReturnAlt>`
-
-Creates an artificial timeout for any `Promise`.
-If the promise is resolved before the timeout expires, the result is returned
-
-If the timeout expires before the promise is resolved, a default value is returned
-
-Parameters:
-
-* `$promise`: `\Amp\Promise|\Generator` Promise to which the timeout is applied.  
-  Full type:
-  ```
-  \Amp\Promise<\TReturn>|\TGenerator
-  ```
-* `$timeout`: `int` Timeout in milliseconds.  
-
-
-#### See also: 
-* `\Amp\Promise`
-* `\Generator`
-* `\TReturn`
-* `\TGenerator`
-* `\TReturnAlt`
-
-
-
-
-### `call(\Generator|\Amp\Promise|mixed $promise)`
-
-Convert generator, promise or any other value to a promise.
-
-
-Parameters:
-
-* `$promise`: `\Generator|\Amp\Promise|mixed`   
-  Full type:
-  ```
-  \Generator<mixed, mixed, mixed, \TReturn>|\Amp\Promise<\TReturn>|\TReturn
-  ```
-
-
-Fully typed return value:
-```
-\Amp\Promise<\TReturn>
-```
-#### See also: 
-* `\Generator`
-* `\Amp\Promise`
-* `\TReturn`
-
-
-
-
-### `callFork(\Generator|\Amp\Promise $promise, ?\Generator|\Amp\Promise $actual, string $file): \Amp\Promise|mixed`
-
-Call promise in background.
-
-
-Parameters:
-
-* `$promise`: `\Generator|\Amp\Promise` Promise to resolve  
-* `$actual`: `?\Generator|\Amp\Promise` Promise to resolve instead of $promise  
-* `$file`: `string` File  
-
-
-#### See also: 
-* `\Generator`
-* `\Amp\Promise`
-
-
-
-
-### `callForkDefer(\Generator|\Amp\Promise $promise)`
-
-Call promise in background, deferring execution.
-
-
-Parameters:
-
-* `$promise`: `\Generator|\Amp\Promise` Promise to resolve  
-
-
-#### See also: 
-* `\Generator`
-* `\Amp\Promise`
-
-
-
-
-### `rethrow(\Throwable $e, string $file)`
-
-Rethrow error catched in strand.
-
-
-Parameters:
-
-* `$e`: `\Throwable` Exception  
-* `$file`: `string` File where the strand started  
-
-
-#### See also: 
-* `\Throwable`
-
-
-
-
-### `after(\Generator|\Amp\Promise $a, \Generator|\Amp\Promise $b)`
-
-Call promise $b after promise $a.
-
-
-Parameters:
-
-* `$a`: `\Generator|\Amp\Promise` Promise A  
-* `$b`: `\Generator|\Amp\Promise` Promise B  
-
-
-#### See also: 
-* `\Generator`
-* `\Amp\Promise`
-
-
-
-
-### `flock(string $file, int $operation, float $polling, ?\Amp\Promise $token, ?callable $failureCb)`
-
-Asynchronously lock a file
-Resolves with a callbable that MUST eventually be called in order to release the lock.
-
-
-Parameters:
-
-* `$file`: `string` File to lock  
-* `$operation`: `int` Locking mode  
-* `$polling`: `float` Polling interval  
-* `$token`: `?\Amp\Promise` Cancellation token  
-* `$failureCb`: `?callable` Failure callback, called only once if the first locking attempt fails.  
-
-
-#### See also: 
-* `\Amp\Promise`
-
-
-
-
-### `sleep(int|float $time)`
-
-Asynchronously sleep.
-
-
-Parameters:
-
-* `$time`: `int|float` Number of seconds to sleep for  
-
-
-
-### `readLine(string $prompt): \Amp\Promise<string>`
-
-Asynchronously read line.
-
-
-Parameters:
-
-* `$prompt`: `string` Prompt  
-
-
-#### See also: 
-* `\Amp\Promise`
-
-
-
-
-### `echo(string $string)`
-
-Asynchronously write to stdout/browser.
-
-
-Parameters:
-
-* `$string`: `string` Message to echo  
-
-
-
-### `isArrayOrAlike(mixed $var): bool`
+### `isArrayOrAlike(mixed $var)`
 
 Check if is array or similar (traversable && countable && arrayAccess).
 
@@ -605,7 +328,7 @@ Parameters:
 
 
 
-### `isAltervista(): bool`
+### `isAltervista()`
 
 Whether this is altervista.
 
@@ -648,7 +371,68 @@ Parameters:
 
 
 
-### `mbStrlen(string $text): float|int`
+### `rethrow()`
+
+Rethrow exception into event loop.
+
+
+
+### `flock(string $file, int $operation, float $polling, ?\Amp\Cancellation $token, ?\Closure $failureCb): mixed`
+
+Asynchronously lock a file
+Resolves with a callbable that MUST eventually be called in order to release the lock.
+
+
+Parameters:
+
+* `$file`: `string` File to lock  
+* `$operation`: `int` Locking mode  
+* `$polling`: `float` Polling interval  
+* `$token`: `?\Amp\Cancellation` Cancellation token  
+* `$failureCb`: `?\Closure` Failure callback, called only once if the first locking attempt fails.  
+
+
+#### See also: 
+* `\Amp\Cancellation`
+* `\Closure`
+
+
+
+
+### `sleep(float $time)`
+
+Asynchronously sleep.
+
+
+Parameters:
+
+* `$time`: `float` Number of seconds to sleep for  
+
+
+
+### `readLine(string $prompt)`
+
+Asynchronously read line.
+
+
+Parameters:
+
+* `$prompt`: `string` Prompt  
+
+
+
+### `echo(string $string)`
+
+Asynchronously write to stdout/browser.
+
+
+Parameters:
+
+* `$string`: `string` Message to echo  
+
+
+
+### `mbStrlen(string $text)`
 
 Get Telegram UTF-8 length of string.
 
@@ -659,7 +443,7 @@ Parameters:
 
 
 
-### `mbSubstr(string $text, int $offset, ?int $length)`
+### `mbSubstr(string $text, int $offset, null|int $length)`
 
 Telegram UTF-8 multibyte substring.
 
@@ -668,7 +452,7 @@ Parameters:
 
 * `$text`: `string` Text to substring  
 * `$offset`: `int` Offset  
-* `$length`: `?int` Length  
+* `$length`: `null|int` Length  
 
 
 

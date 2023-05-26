@@ -1,37 +1,53 @@
 ---
-title: "danog\\MadelineProto\\Exception: Basic exception."
+title: "danog\\MadelineProto\\RPCError\\FloodWaitError: Represents a FLOOD_WAIT_ RPC error returned by telegram."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
 ---
-# `danog\MadelineProto\Exception`
-[Back to index](../../index.html)
+# `danog\MadelineProto\RPCError\FloodWaitError`
+[Back to index](../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Basic exception.  
+Represents a FLOOD_WAIT_ RPC error returned by telegram.  
 
 
 
 
 ## Method list:
-* `extension(string $extensionName)`
+* `getWaitTime()`
+* `wait()`
+* `getLocalization()`
+* `setLocalization()`
 * `updateTLTrace()`
 * `getTLTrace()`
 * `setTLTrace(string $tlTrace)`
 * `prettifyTL(string $init, array $trace)`
 
 ## Methods:
-### `extension(string $extensionName)`
+### `getWaitTime()`
 
-Complain about missing extensions.
+Returns the required waiting period in seconds before repeating the RPC call.
 
 
-Parameters:
 
-* `$extensionName`: `string` Extension name  
+### `wait()`
+
+Waits for the required waiting period.
+
+
+
+### `getLocalization()`
+
+Get localized error name.
+
+
+
+### `setLocalization()`
+
+Set localized error name.
 
 
 

@@ -17,7 +17,7 @@ PSR-3 wrapper for MadelineProto's Logger.
 
 
 ## Method list:
-* `log(string $message, array $context)`
+* `log(array $context)`
 * `emergency(string|\Stringable $message, array $context): void`
 * `alert(string|\Stringable $message, array $context): void`
 * `critical(string|\Stringable $message, array $context): void`
@@ -28,14 +28,13 @@ PSR-3 wrapper for MadelineProto's Logger.
 * `debug(string|\Stringable $message, array $context): void`
 
 ## Methods:
-### `log(string $message, array $context)`
+### `log(array $context)`
 
 Logs with an arbitrary level.
 
 
 Parameters:
 
-* `$message`: `string`   
 * `$context`: `array`   
 
 

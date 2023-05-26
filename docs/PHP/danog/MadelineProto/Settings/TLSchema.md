@@ -17,7 +17,7 @@ TL schema settings.
 
 
 ## Method list:
-* `needsUpgrade(): bool`
+* `needsUpgrade()`
 * `upgrade()`
 * `getLayer()`
 * `setLayer(int $layer)`
@@ -31,7 +31,7 @@ TL schema settings.
 * `setOther()`
 
 ## Methods:
-### `needsUpgrade(): bool`
+### `needsUpgrade()`
 
 Returns whether the TL parser should re-parse the TL schemes.
 

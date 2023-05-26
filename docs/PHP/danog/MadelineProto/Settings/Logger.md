@@ -17,29 +17,34 @@ Logger settings.
 
 
 ## Method list:
-* `getType()`
-* `setType()`
-* `getExtra(): null|callable|string`
+* `getType(): \MadelineProtoLogger::LOGGER_*`
+* `setType(\MadelineProtoLogger::LOGGER_* $type)`
+* `getExtra()`
 * `setExtra(null|callable|string $extra)`
-* `getLevel()`
-* `setLevel()`
+* `getLevel(): \MadelineProtoLogger::LEVEL_*`
+* `setLevel(\MadelineProtoLogger::LEVEL_* $level)`
 * `getMaxSize()`
 * `setMaxSize(int $maxSize)`
 
 ## Methods:
-### `getType()`
+### `getType(): \MadelineProtoLogger::LOGGER_*`
 
 Get $type Logger type.
 
 
 
-### `setType()`
+### `setType(\MadelineProtoLogger::LOGGER_* $type)`
 
 Set $type Logger type.
 
 
+Parameters:
 
-### `getExtra(): null|callable|string`
+* `$type`: `\MadelineProtoLogger::LOGGER_*` $type Logger type.  
+
+
+
+### `getExtra()`
 
 Get extra parameter for logger.
 
@@ -56,15 +61,20 @@ Parameters:
 
 
 
-### `getLevel()`
+### `getLevel(): \MadelineProtoLogger::LEVEL_*`
 
 Get logging level.
 
 
 
-### `setLevel()`
+### `setLevel(\MadelineProtoLogger::LEVEL_* $level)`
 
 Set logging level.
+
+
+Parameters:
+
+* `$level`: `\MadelineProtoLogger::LEVEL_*` Logging level.  
 
 
 

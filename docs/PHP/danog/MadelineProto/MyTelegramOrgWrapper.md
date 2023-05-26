@@ -19,11 +19,10 @@ Wrapper for my.telegram.org.
 ## Method list:
 * `login(string $number)`
 * `completeLogin(string $password)`
-* `loggedIn(): bool`
+* `loggedIn()`
 * `hasApp()`
 * `getApp()`
 * `createApp(array $settings)`
-* `async(bool $async)`
 * `loop(callable $callable)`
 
 ## Methods:
@@ -49,7 +48,7 @@ Parameters:
 
 
 
-### `loggedIn(): bool`
+### `loggedIn()`
 
 Whether we are logged in.
 
@@ -75,17 +74,6 @@ Create an app.
 Parameters:
 
 * `$settings`: `array` App parameters  
-
-
-
-### `async(bool $async)`
-
-Enable or disable async.
-
-
-Parameters:
-
-* `$async`: `bool` Async  
 
 
 

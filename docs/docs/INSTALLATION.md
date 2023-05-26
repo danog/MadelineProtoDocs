@@ -78,4 +78,4 @@ Put the following code in your PHP file:
 require_once 'vendor/autoload.php';
 ```
 
-<a href="https://docs.madelineproto.xyz/docs/UPDATES.html">Next section</a>
+<a href="https://docs.madelineproto.xyz/docs/BROADCAST.html">Next section</a>

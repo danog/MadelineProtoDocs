@@ -21,6 +21,7 @@ Async tools.
 
 
 ## Method list:
+* `rethrow()`
 * `flock(string $file, int $operation, float $polling, ?\Amp\Cancellation $token, ?\Closure $failureCb): mixed`
 * `sleep(float $time)`
 * `readLine(string $prompt)`
@@ -40,6 +41,12 @@ Async tools.
 * `getMimeFromBuffer(string $buffer)`
 
 ## Methods:
+### `rethrow()`
+
+Rethrow exception into event loop.
+
+
+
 ### `flock(string $file, int $operation, float $polling, ?\Amp\Cancellation $token, ?\Closure $failureCb): mixed`
 
 Asynchronously lock a file

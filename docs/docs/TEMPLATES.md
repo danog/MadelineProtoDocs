@@ -1,7 +1,7 @@
 ---
 title: "Web templates for `$MadelineProto->start()`"
 description: "The web template used for the $MadelineProto->start() and API ID web UIs can be changed."
-nav_order: 26
+nav_order: 27
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Web templates for `$MadelineProto->start()`

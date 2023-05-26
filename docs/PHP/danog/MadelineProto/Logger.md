@@ -40,6 +40,7 @@ Logger class.
 
 ## Method list:
 * `constructorFromSettings(\danog\MadelineProto\Settings\Logger $settings)`
+* `truncate()`
 * `log(mixed $param, int $level)`
 * `logger(mixed $param, int $level, string $file)`
 * `getPsrLogger()`
@@ -58,6 +59,12 @@ Parameters:
 #### See also: 
 * [`\danog\MadelineProto\Settings\Logger`: Logger settings.](../../danog/MadelineProto/Settings/Logger.html)
 
+
+
+
+### `truncate()`
+
+Truncate logfile.
 
 
 

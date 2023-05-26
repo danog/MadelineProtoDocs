@@ -18,15 +18,15 @@ DB array interface.
 
 ## Method list:
 * `getArrayCopy()`
-* `isset()`
-* `unset()`
-* `set()`
-* `offsetGet(string|int $index)`
-* `offsetSet(string|int $index): void`
-* `count(): \Amp\Promise<int>`
+* `isset(\TKey $key)`
+* `unset(\TKey $key)`
+* `set(\TKey $key, \TValue $value)`
+* `offsetGet(\TKey $index)`
+* `offsetSet(\TKey $index, \TValue $value)`
+* `offsetUnset(\TKey $index)`
+* `offsetExists(\TKey $index)`
 * `clear()`
-* `getIterator()`
-* `getInstance(null|\danog\MadelineProto\Db\DbType|array $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise<self>`
+* `getIterator(): \Traversable<\TKey, \TValue>`
 
 ## Methods:
 ### `getArrayCopy()`
@@ -36,104 +36,127 @@ Get Array copy.
 
 Fully typed return value:
 ```
-\Amp\Promise<array<string|int, \T>>
+array<\TKey, \TValue>
 ```
 #### See also: 
-* `\T`
-* `\Amp\Promise`
+* `\TKey`
+* `\TValue`
 
 
 
 
-### `isset()`
+### `isset(\TKey $key)`
 
 Check if element is set.
 
 
-Fully typed return value:
-```
-\Amp\Promise<bool>
-```
+Parameters:
+
+* `$key`: `\TKey`   
+
+
 #### See also: 
-* `\Amp\Promise`
+* `\TKey`
 
 
 
 
-### `unset()`
+### `unset(\TKey $key)`
 
 Unset element.
 
 
-Fully typed return value:
-```
-\Amp\Promise<mixed>
-```
+Parameters:
+
+* `$key`: `\TKey`   
+
+
 #### See also: 
-* `\Amp\Promise`
+* `\TKey`
 
 
 
 
-### `set()`
+### `set(\TKey $key, \TValue $value)`
 
 Set element.
 
 
 Parameters:
 
+* `$key`: `\TKey`   
+* `$value`: `\TValue`   
 
 
 #### See also: 
-* `\T`
+* `\TKey`
+* `\TValue`
 
 
 
 
-### `offsetGet(string|int $index)`
+### `offsetGet(\TKey $index)`
 
 Get element.
 
 
 Parameters:
 
-* `$index`: `string|int`   
+* `$index`: `\TKey`   
 
 
-Fully typed return value:
-```
-\Amp\Promise<\T>
-```
 #### See also: 
-* `\T`
-* `\Amp\Promise`
+* `\TKey`
 
 
 
 
-### `offsetSet(string|int $index): void`
+### `offsetSet(\TKey $index, \TValue $value)`
 
 Set element.
 
 
 Parameters:
 
-* `$index`: `string|int`   
+* `$index`: `\TKey`   
+* `$value`: `\TValue`   
 
 
 #### See also: 
-* `\T`
+* `\TKey`
+* `\TValue`
 
 
 
 
-### `count(): \Amp\Promise<int>`
+### `offsetUnset(\TKey $index)`
 
-Count number of elements.
+Unset element.
+
+
+Parameters:
+
+* `$index`: `\TKey` Offset  
 
 
 #### See also: 
-* `\Amp\Promise`
+* `\TKey`
+
+
+
+
+### `offsetExists(\TKey $index)`
+
+
+
+
+Parameters:
+
+* `$index`: `\TKey` Offset  
+
+
+#### See also: 
+* `\TKey`
 
 
 
@@ -144,26 +167,15 @@ Clear all elements.
 
 
 
-### `getIterator()`
+### `getIterator(): \Traversable<\TKey, \TValue>`
 
 Get iterator.
 
 
-
-### `getInstance(null|\danog\MadelineProto\Db\DbType|array $previous, \danog\MadelineProto\Settings\Database\DatabaseAbstract $settings): \Amp\Promise<self>`
-
-
-
-
-Parameters:
-
-* `$previous`: `null|\danog\MadelineProto\Db\DbType|array`   
-* `$settings`: `\danog\MadelineProto\Settings\Database\DatabaseAbstract`   
-
-
 #### See also: 
-* [`\danog\MadelineProto\Settings\Database\DatabaseAbstract`: Base class for database backends.](../../../danog/MadelineProto/Settings/Database/DatabaseAbstract.html)
-* `\Amp\Promise`
+* `\TKey`
+* `\TValue`
+* `\Traversable`
 
 
 

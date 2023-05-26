@@ -19,194 +19,177 @@ Event handler.
 ## Method list:
 * `startAndLoop(string $session, \danog\MadelineProto\SettingsAbstract $settings)`
 * `startAndLoopBot(string $session, string $token, \danog\MadelineProto\SettingsAbstract $settings)`
-* `getReportPeers(): array|string|int`
-* `getAPI()`
-* `MTProtoToBotAPI(array $data): \Amp\Promise<array>`
-* `MTProtoToTd(mixed $params): \Amp\Promise`
-* `MTProtoToTdcli(mixed $params): \Amp\Promise`
-* `acceptCall(array $call): \Amp\Promise`
-* `acceptSecretChat(array $params): \Amp\Promise`
-* `acceptTos(): \Amp\Promise`
-* `addUser(array $user): \Amp\Promise`
-* `after(\Generator|\Promise $a, \Generator|\Promise $b): \Amp\Promise`
-* `all((\Generator|\Promise)[] $promises): \Amp\Promise`
-* `any((\Promise|\Generator)[] $promises): \Amp\Promise`
-* `arr(mixed $params): array`
-* `base64urlDecode(string $data): string`
-* `base64urlEncode(string $data): string`
-* `botAPIToMTProto(array $arguments): mixed`
-* `botLogin(string $token): \Amp\Promise`
-* `call(\Generator|\Promise|mixed $promise): \Amp\Promise`
-* `callFork(\Generator|\Promise $promise, ?\Generator|\Promise $actual, string $file): \Amp\Promise|mixed`
-* `callForkDefer(\Generator|\Promise $promise): void`
-* `callStatus(int $id): mixed`
-* `checkTos(): \Amp\Promise`
-* `cleanup(): \Amp\Promise`
-* `closeConnection(string $message): void`
-* `complete2faLogin(string $password): \Amp\Promise`
-* `completeCall(array $params): \Amp\Promise`
-* `completePhoneLogin(string $code): \Amp\Promise`
-* `completeSignup(string $first_name, string $last_name): \Amp\Promise`
-* `confirmCall(array $params): \Amp\Promise`
-* `connectToAllDcs(bool $reconnectAll): \Amp\Promise`
-* `declineTos(): \Amp\Promise`
-* `discardCall(array $call, array $rating, bool $need_debug): \Amp\Promise`
-* `discardSecretChat(int $chat): \Amp\Promise`
-* `downloadToBrowser(array|string $messageMedia, ?callable $cb, ?int $size, ?string $mime, ?string $name): \Amp\Promise`
-* `downloadToCallable(mixed $messageMedia, callable|\danog\MadelineProto\FileCallbackInterface $callable, callable $cb, bool $seekable, int $offset, int $end, int $part_size): \Amp\Promise`
-* `downloadToDir(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $dir, callable $cb): \Amp\Promise`
-* `downloadToFile(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $file, callable $cb): \Amp\Promise Downloaded file path`
-* `downloadToResponse(array|string $messageMedia, \ServerRequest $request, callable $cb, ?int $size, ?string $name, ?string $mime): \Amp\Promise Returned response`
-* `downloadToStream(mixed $messageMedia, mixed|\danog\MadelineProto\FileCallbackInterface $stream, callable $cb, int $offset, int $end): \Amp\Promise`
-* `echo(string $string): \Amp\Promise`
+* `getReportPeers(): string|int|(string|int)[]`
+* `MTProtoToBotAPI(array $data)`
+* `MTProtoToTd(mixed $params)`
+* `MTProtoToTdcli(mixed $params)`
+* `acceptCall(array $call)`
+* `acceptSecretChat(array $params)`
+* `addUser(array $user)`
+* `arr(mixed $params)`
+* `base64urlDecode(string $data)`
+* `base64urlEncode(string $data)`
+* `botAPIToMTProto(array $arguments)`
+* `botLogin(string $token)`
+* `broadcastCustom(\Action $action)`
+* `broadcastForwardMessages(mixed $from_peer, list<int> $ids, bool $drop_author)`
+* `broadcastMessages(array $messages)`
+* `callStatus(int $id)`
+* `cancelBroadcast(int $id)`
+* `closeConnection(string $message)`
+* `complete2faLogin(string $password)`
+* `completeCall(array $params)`
+* `completePhoneLogin(string $code)`
+* `completeSignup(string $first_name, string $last_name)`
+* `confirmCall(array $params)`
+* `connectToAllDcs(bool $reconnectAll)`
+* `discardCall(array $call, array $rating, bool $need_debug)`
+* `discardSecretChat(int $chat)`
+* `downloadToBrowser(array|string|\danog\MadelineProto\FileCallbackInterface $messageMedia, null|callable $cb, null|int $size, null|string $mime, null|string $name)`
+* `downloadToCallable(mixed $messageMedia, callable|\danog\MadelineProto\FileCallbackInterface $callable, callable $cb, bool $seekable, int $offset, int $end, int $part_size)`
+* `downloadToDir(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $dir, callable $cb)`
+* `downloadToFile(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $file, callable $cb)`
+* `downloadToResponse(array|string|\danog\MadelineProto\FileCallbackInterface $messageMedia, \Amp\Http\Server\Request $request, callable $cb, null|int $size, null|string $name, null|string $mime)`
+* `downloadToStream(mixed $messageMedia, mixed|\danog\MadelineProto\FileCallbackInterface|\resource|\Amp\ByteStream\WritableStream $stream, callable $cb, int $offset, int $end)`
+* `echo(string $string)`
 * `end(array $what)`
-* `exportAuthorization(): \Amp\Promise`
-* `extractBotAPIFile(array $info): ?array`
-* `extractMessage(): \Amp\Promise`
-* `extractMessageUpdate(): \Amp\Promise`
-* `extractUpdates(): \Amp\Promise`
-* `fileGetContents(string $url): \Amp\Promise`
-* `first((\Promise|\Generator)[] $promises): \Amp\Promise`
-* `flock(string $file, int $operation, float $polling, ?\Promise $token, ?callable $failureCb)`
-* `fromSupergroup(int $id): int`
-* `fullChatLastUpdated(mixed $id): \Amp\Promise<int>`
-* `fullGetSelf(): \Amp\Promise<array|bool>`
+* `exportAuthorization(): array{0: int|string, 1: string}`
+* `extractBotAPIFile(array $info)`
+* `extractMessage()`
+* `extractMessageId()`
+* `extractMessageUpdate()`
+* `extractUpdates(): array[]`
+* `fileGetContents(string $url)`
+* `flock(string $file, int $operation, float $polling, ?\Amp\Cancellation $token, ?\Closure $failureCb): mixed`
+* `fromSupergroup(int $id)`
+* `fullChatLastUpdated(mixed $id)`
+* `fullGetSelf()`
 * `genVectorHash(array $ints): \string Vector hash`
-* `getAllMethods(): mixed`
-* `getAuthorization(): mixed`
-* `getCachedConfig(): mixed`
-* `getCall(int $call): mixed`
-* `getCdnConfig(string $datacenter): \Amp\Promise`
-* `getConfig(array $config, array $options): \Amp\Promise`
-* `getDNSClient(): mixed`
-* `getDataCenterConnections(): mixed`
-* `getDataCenterId(): int|string`
-* `getDhConfig(): \Amp\Promise<array>`
-* `getDialogs(bool $force): \Amp\Promise`
-* `getDownloadInfo(mixed $messageMedia): \Amp\Promise<array>`
-* `getEventHandler(): mixed`
-* `getExtensionFromLocation(mixed $location, string $default): string`
-* `getExtensionFromMime(string $mime): string`
-* `getFileInfo(mixed $constructor): \Amp\Promise<array>`
-* `getFolderId(mixed $id): ?int`
-* `getFullDialogs(bool $force): \Amp\Promise`
-* `getFullInfo(mixed $id): \Amp\Promise FullInfo object`
-* `getHTTPClient(): mixed`
-* `getHint(): mixed`
-* `getId(mixed $id): mixed`
-* `getInfo(mixed $id, bool $recursive): \Amp\Promise Info object`
-* `getLogger(): mixed`
-* `getMethodNamespaces(): mixed`
-* `getMethodsNamespaced(): mixed`
-* `getMimeFromBuffer(string $buffer): string`
-* `getMimeFromExtension(string $extension, string $default): string`
-* `getMimeFromFile(string $file): string`
-* `getPropicInfo(): \Amp\Promise<array>`
-* `getPsrLogger(): mixed`
-* `getPwrChat(mixed $id): \Amp\Promise Chat object`
-* `getSecretChat(array|int $chat): mixed`
-* `getSelf(): mixed`
-* `getSettings(): mixed`
-* `getSponsoredMessages(int|array $peer): \Amp\Promise`
-* `getTL(): mixed`
+* `getAllMethods()`
+* `getAuthorization()`
+* `getBroadcastProgress(int $id)`
+* `getCachedConfig()`
+* `getCall(int $call)`
+* `getCdnConfig()`
+* `getConfig(array $config)`
+* `getDNSClient()`
+* `getDhConfig()`
+* `getDialogIds(): list<int>`
+* `getDialogs(): list<array>`
+* `getDownloadInfo(mixed $messageMedia)`
+* `getEventHandler()`
+* `getExtensionFromLocation(mixed $location, string $default)`
+* `getExtensionFromMime(string $mime)`
+* `getFileInfo(mixed $constructor)`
+* `getFolderId(mixed $id)`
+* `getFullDialogs(): array<int, array>`
+* `getFullInfo(mixed $id)`
+* `getHTTPClient()`
+* `getHint()`
+* `getId(mixed $id)`
+* `getInfo(mixed $id, \MTProto::INFO_TYPE_* $type): mixed`
+* `getLogger()`
+* `getMaps()`
+* `getMaxMaps()`
+* `getMethodNamespaces()`
+* `getMethodsNamespaced()`
+* `getMimeFromBuffer(string $buffer)`
+* `getMimeFromExtension(string $extension, string $default)`
+* `getMimeFromFile(string $file)`
+* `getPropicInfo()`
+* `getPsrLogger()`
+* `getPwrChat(mixed $id)`
+* `getSecretChat(array|int $chat)`
+* `getSelf()`
+* `getSessionName()`
+* `getSettings()`
+* `getSponsoredMessages(int|string|array $peer)`
+* `getTL()`
+* `getUpdates(array{offset?: int, limit?: int, timeout?: float} $params): list<array{update_id: mixed, update: mixed}>`
 * `getVar(object $obj, string $var)`
-* `getWebMessage(): mixed`
-* `getWebTemplate(): mixed`
-* `hasAllAuth(): mixed`
-* `hasEventHandler(): mixed`
-* `hasReportPeers(): mixed`
-* `hasSecretChat(array|int $chat): mixed`
-* `hasVar(object $obj, string $var): bool`
-* `importAuthorization(array<int, string> $authorization, int $mainDcID): \Amp\Promise`
+* `getWebMessage()`
+* `getWebTemplate()`
+* `hasAllAuth()`
+* `hasEventHandler()`
+* `hasReportPeers()`
+* `hasSecretChat(array|int $chat)`
+* `hasVar(object $obj, string $var)`
+* `importAuthorization(array<int, string> $authorization, int $mainDcID)`
 * `inflateStripped(string $stripped): \string JPG payload`
-* `initSelfRestart(): mixed`
-* `isAltervista(): bool`
-* `isArrayOrAlike(mixed $var): bool`
-* `isIpc(): mixed`
-* `isIpcWorker(): mixed`
-* `isPremium(): mixed`
-* `isSupergroup(int $id): bool`
-* `logger(string $param, int $level, string $file): mixed`
-* `logout(): \Amp\Promise`
-* `loop(callable|null $callback): \Amp\Promise`
-* `loopFork(): \Amp\Promise`
-* `markdownEscape(string $hwat): string`
+* `initSelfRestart()`
+* `isAltervista()`
+* `isArrayOrAlike(mixed $var)`
+* `isIpc()`
+* `isIpcWorker()`
+* `isPremium()`
+* `isSupergroup(int $id)`
+* `logger(mixed $param, int $level, string $file)`
+* `markdownEscape(string $hwat)`
 * `mbStrSplit(string $text, int $length): string[]`
-* `mbStrlen(string $text): float|int`
-* `mbSubstr(string $text, int $offset, ?int $length): string`
-* `methodCall(string $method, array|\Generator $args, array $aargs): \Amp\Promise`
-* `methodCallWrite(string $method, array|\Generator $args, array $aargs): \Amp\Promise`
-* `methodEscape(string $method): string`
-* `packDouble(float $value): string`
-* `packSignedInt(int $value): string`
-* `packSignedLong(int $value): string`
-* `packUnsignedInt(int $value): string`
-* `peerIsset(mixed $id): \Amp\Promise`
-* `phoneLogin(string $number, int $sms_type): \Amp\Promise`
+* `mbStrlen(string $text)`
+* `mbSubstr(string $text, int $offset, null|int $length)`
+* `methodEscape(string $method)`
+* `packDouble(float $value)`
+* `packSignedInt(int $value)`
+* `packSignedLong(int $value)`
+* `packUnsignedInt(int $value)`
+* `peerIsset(mixed $id)`
+* `phoneLogin(string $number, int $sms_type)`
 * `posmod(int $a, int $b): \int Modulo`
 * `random(int $length): \string Random string`
-* `randomInt(int $modulus): int`
-* `readLine(string $prompt): \Amp\Promise<string>`
-* `refreshFullPeerCache(mixed $id): \Amp\Promise`
-* `refreshPeerCache(mixed $id): \Amp\Promise`
-* `rekey(int $chat): \Amp\Promise`
-* `report(string $message, string $parseMode): \Amp\Promise`
-* `requestCall(mixed $user): \Amp\Promise`
-* `requestSecretChat(mixed $user): \Amp\Promise`
-* `resetUpdateState(): mixed`
-* `restart(): mixed`
-* `rethrow(\Throwable $e, string $file): void`
-* `rleDecode(string $string): string`
-* `rleEncode(string $string): string`
-* `secretChatStatus(int $chat): mixed`
-* `serializeAll(): void`
-* `setCallback(callable $callback): mixed`
-* `setEventHandler(class-string<\danog\MadelineProto\EventHandler> $eventHandler): \Amp\Promise`
-* `setNoop(): mixed`
-* `setReportPeers(int|string $userOrId): \Amp\Promise`
-* `setVar(object $obj, string $var, mixed $val): void`
-* `setWebTemplate(string $template): mixed`
-* `setWebhook(string $hook_url, string $pem_path): mixed`
-* `setupLogger(): mixed`
-* `sleep(int|float $time): \Amp\Promise`
-* `some((\Promise|\Generator)[] $promises): \Amp\Promise`
-* `start(): \Amp\Promise`
-* `stop(): mixed`
-* `tdToMTProto(array $params): \Amp\Promise<array>`
+* `randomInt(int $modulus)`
+* `readLine(string $prompt)`
+* `refreshFullPeerCache(mixed $id)`
+* `refreshPeerCache()`
+* `rekey(int $chat)`
+* `report(string $message, string $parseMode)`
+* `requestCall(mixed $user)`
+* `requestSecretChat(mixed $user)`
+* `resetUpdateState()`
+* `restart()`
+* `rethrow()`
+* `rleDecode(string $string)`
+* `rleEncode(string $string)`
+* `secretChatStatus(int $chat): \int One of MTProto::SECRET_EMPTY, MTProto::SECRET_REQUESTED, MTProto::SECRET_READY`
+* `sendCustomEvent()`
+* `setNoop()`
+* `setReportPeers(int|string|(int|string)[] $userOrId)`
+* `setVar(object $obj, string $var, mixed $val)`
+* `setWebTemplate(string $template)`
+* `setWebhook(string $webhookUrl)`
+* `setupLogger()`
+* `sleep(float $time)`
+* `start()`
+* `stop()`
+* `subscribeToUpdates(): \bool False if we were already subscribed`
+* `tdToMTProto(array $params)`
 * `tdToTdcli(mixed $params)`
-* `tdcliToTd(array $params, array $key): mixed`
-* `timeout(\Generator|\Promise $promise, int $timeout): \Amp\Promise`
-* `timeoutWithDefault(\Promise|\Generator $promise, int $timeout): \Amp\Promise<\TReturn>|\Promise<\TReturnAlt>`
-* `toCamelCase(string $input): string`
-* `toSnakeCase(string $input): string`
-* `toSupergroup(int $id): int`
-* `typeEscape(string $type): string`
-* `unpackDouble(string $value): float`
-* `unpackFileId(string $fileId): mixed`
-* `unpackSignedInt(string $value): int`
-* `unpackSignedLong(string $value): int`
-* `unpackSignedLongString(string|int|array $value): string`
-* `unsetEventHandler(bool $disableUpdateHandling): mixed`
-* `update2fa(array $params): \Amp\Promise`
-* `updateSettings(\danog\MadelineProto\SettingsAbstract $settings): \Amp\Promise`
-* `upload(\danog\MadelineProto\FileCallbackInterface|string|array $file, string $fileName, callable $cb, bool $encrypted): \Amp\Promise`
-* `uploadEncrypted(\danog\MadelineProto\FileCallbackInterface|string|array $file, string $fileName, callable $cb): \Amp\Promise`
-* `uploadFromCallable(mixed $callable, int $size, string $mime, string $fileName, callable $cb, bool $seekable, bool $encrypted): \Amp\Promise`
-* `uploadFromStream(mixed $stream, int $size, string $mime, string $fileName, callable $cb, bool $encrypted): \Amp\Promise`
-* `uploadFromTgfile(mixed $media, callable $cb, bool $encrypted): \Amp\Promise`
-* `uploadFromUrl(string|\danog\MadelineProto\FileCallbackInterface $url, int $size, string $fileName, callable $cb, bool $encrypted): \Amp\Promise`
-* `viewSponsoredMessage(int|array $peer): \Amp\Promise Bool`
-* `wait(\Generator|\Promise $promise, bool $ignoreSignal)`
-* `async(bool $async)`
-* `init()`
-* `initAsynchronously()`
-* `inited(): bool`
-* `forceInit(bool $inited)`
+* `tdcliToTd(mixed $params, array $key)`
+* `testFibers(): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`
+* `toCamelCase(string $input)`
+* `toSnakeCase(string $input)`
+* `toSupergroup(int $id)`
+* `typeEscape(string $type)`
+* `unpackDouble(string $value)`
+* `unpackFileId(string $fileId): \array Unpacked file ID`
+* `unpackSignedInt(string $value)`
+* `unpackSignedLong(string $value)`
+* `unpackSignedLongString(string|int|array $value)`
+* `unsetEventHandler()`
+* `update2fa(array{password?: string, new_password?: string, email?: string, hint?: string} $params)`
+* `updateSettings(\danog\MadelineProto\SettingsAbstract $settings)`
+* `upload(\danog\MadelineProto\FileCallbackInterface|string|array $file, string $fileName, callable $cb, bool $encrypted)`
+* `uploadEncrypted(\danog\MadelineProto\FileCallbackInterface|string|array $file, string $fileName, callable $cb)`
+* `uploadFromCallable(mixed $callable, int $size, string $mime, string $fileName, callable $cb, bool $seekable, bool $encrypted)`
+* `uploadFromStream(mixed $stream, int $size, string $mime, string $fileName, callable $cb, bool $encrypted)`
+* `uploadFromTgfile(mixed $media, callable $cb, bool $encrypted)`
+* `uploadFromUrl(string|\danog\MadelineProto\FileCallbackInterface $url, int $size, string $fileName, callable $cb, bool $encrypted)`
+* `viewSponsoredMessage(int|array $peer, string|array{random_id: string} $message)`
 
 ## Methods:
 ### `startAndLoop(string $session, \danog\MadelineProto\SettingsAbstract $settings)`
 
-Start MadelineProto and the event handler (enables async).
+Start MadelineProto and the event handler.
 Also initializes error reporting, catching and reporting all errors surfacing from the event loop.
 
 Parameters:
@@ -223,7 +206,7 @@ Parameters:
 
 ### `startAndLoopBot(string $session, string $token, \danog\MadelineProto\SettingsAbstract $settings)`
 
-Start MadelineProto as a bot and the event handler (enables async).
+Start MadelineProto as a bot and the event handler.
 Also initializes error reporting, catching and reporting all errors surfacing from the event loop.
 
 Parameters:
@@ -239,19 +222,13 @@ Parameters:
 
 
 
-### `getReportPeers(): array|string|int`
+### `getReportPeers(): string|int|(string|int)[]`
 
 Get peers where to send error reports.
 
 
 
-### `getAPI()`
-
-Get API instance.
-
-
-
-### `MTProtoToBotAPI(array $data): \Amp\Promise<array>`
+### `MTProtoToBotAPI(array $data)`
 
 Convert MTProto parameters to bot API parameters.
 
@@ -261,13 +238,8 @@ Parameters:
 * `$data`: `array` Data  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `MTProtoToTd(mixed $params): \Amp\Promise`
+### `MTProtoToTd(mixed $params)`
 
 MTProto to TD params.
 
@@ -277,13 +249,8 @@ Parameters:
 * `$params`: `mixed` Params  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `MTProtoToTdcli(mixed $params): \Amp\Promise`
+### `MTProtoToTdcli(mixed $params)`
 
 MTProto to TDCLI params.
 
@@ -293,13 +260,8 @@ Parameters:
 * `$params`: `mixed` Params  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `acceptCall(array $call): \Amp\Promise`
+### `acceptCall(array $call)`
 
 Accept call.
 
@@ -309,13 +271,8 @@ Parameters:
 * `$call`: `array` Call  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `acceptSecretChat(array $params): \Amp\Promise`
+### `acceptSecretChat(array $params)`
 
 Accept secret chat.
 
@@ -325,24 +282,8 @@ Parameters:
 * `$params`: `array` Secret chat ID  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `acceptTos(): \Amp\Promise`
-
-Accept terms of service update.
-
-
-#### See also: 
-* `\Amp\Promise`
-
-
-
-
-### `addUser(array $user): \Amp\Promise`
+### `addUser(array $user)`
 
 Add user info.
 
@@ -352,68 +293,8 @@ Parameters:
 * `$user`: `array` User info  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `after(\Generator|\Promise $a, \Generator|\Promise $b): \Amp\Promise`
-
-Call promise $b after promise $a.
-
-
-Parameters:
-
-* `$a`: `\Generator|\Promise` Promise A  
-* `$b`: `\Generator|\Promise` Promise B  
-
-
-#### See also: 
-* `\Generator`
-* `\Promise`
-* `\Amp\Promise`
-
-
-
-
-### `all((\Generator|\Promise)[] $promises): \Amp\Promise`
-
-Returns a promise that succeeds when all promises succeed, and fails if any promise fails.
-Returned promise succeeds with an array of values used to succeed each contained promise, with keys corresponding to the array of promises.
-
-Parameters:
-
-* `$promises`: `(\Generator|\Promise)[]` Promises  
-
-
-#### See also: 
-* `\Generator`
-* `\Promise`
-* `\Amp\Promise`
-
-
-
-
-### `any((\Promise|\Generator)[] $promises): \Amp\Promise`
-
-Returns a promise that is resolved when all promises are resolved. The returned promise will not fail.
-
-
-Parameters:
-
-* `$promises`: `(\Promise|\Generator)[]` Promises  
-
-
-#### See also: 
-* `\Promise`
-* `\Generator`
-* `\Amp\Promise`
-
-
-
-
-### `arr(mixed $params): array`
+### `arr(mixed $params)`
 
 Create array.
 
@@ -424,7 +305,7 @@ Parameters:
 
 
 
-### `base64urlDecode(string $data): string`
+### `base64urlDecode(string $data)`
 
 base64URL decode.
 
@@ -435,7 +316,7 @@ Parameters:
 
 
 
-### `base64urlEncode(string $data): string`
+### `base64urlEncode(string $data)`
 
 Base64URL encode.
 
@@ -446,7 +327,7 @@ Parameters:
 
 
 
-### `botAPIToMTProto(array $arguments): mixed`
+### `botAPIToMTProto(array $arguments)`
 
 Convert bot API parameters to MTProto parameters.
 
@@ -456,17 +337,8 @@ Parameters:
 * `$arguments`: `array` Arguments  
 
 
-Fully typed return value:
-```
-array|\Amp\Promise<array>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `botLogin(string $token): \Amp\Promise`
+### `botLogin(string $token)`
 
 Login as bot.
 
@@ -476,77 +348,71 @@ Parameters:
 * `$token`: `string` Bot token  
 
 
-#### See also: 
-* `\Amp\Promise`
 
+### `broadcastCustom(\Action $action)`
 
+Executes a custom broadcast action with all peers (users, chats, channels) of the bot.
+Will return an integer ID that can be used to:
 
+- Get the current broadcast progress with getBroadcastProgress
+- Cancel the broadcast using cancelBroadcast
 
-### `call(\Generator|\Promise|mixed $promise): \Amp\Promise`
-
-Convert generator, promise or any other value to a promise.
-
-
-Parameters:
-
-* `$promise`: `\Generator|\Promise|mixed`   
-  Full type:
-  ```
-  \Generator<mixed, mixed, mixed, \TReturn>|\Promise<\TReturn>|\TReturn
-  ```
-
-
-Fully typed return value:
-```
-\Promise<\TReturn>
-```
-#### See also: 
-* `\Generator`
-* `\Promise`
-* `\TReturn`
-* `\Amp\Promise`
-
-
-
-
-### `callFork(\Generator|\Promise $promise, ?\Generator|\Promise $actual, string $file): \Amp\Promise|mixed`
-
-Call promise in background.
-
+Note that to avoid manually polling the progress,
+MadelineProto will also periodically emit updateBroadcastProgress updates,
+containing a Progress object for all broadcasts currently in-progress.
 
 Parameters:
 
-* `$promise`: `\Generator|\Promise` Promise to resolve  
-* `$actual`: `?\Generator|\Promise` Promise to resolve instead of $promise  
-* `$file`: `string` File  
+* `$action`: `\Action` A custom, serializable Action class that will be called once for every peer.  
 
 
 #### See also: 
-* `\Generator`
-* `\Promise`
-* `\Amp\Promise`
+* `\Action`
 
 
 
 
-### `callForkDefer(\Generator|\Promise $promise): void`
+### `broadcastForwardMessages(mixed $from_peer, list<int> $ids, bool $drop_author)`
 
-Call promise in background, deferring execution.
+Forwards a list of messages to all peers (users, chats, channels) of the bot.
+Will return an integer ID that can be used to:
 
+- Get the current broadcast progress with getBroadcastProgress
+- Cancel the broadcast using cancelBroadcast
+
+Note that to avoid manually polling the progress,
+MadelineProto will also periodically emit updateBroadcastProgress updates,
+containing a Progress object for all broadcasts currently in-progress.
 
 Parameters:
 
-* `$promise`: `\Generator|\Promise` Promise to resolve  
-
-
-#### See also: 
-* `\Generator`
-* `\Promise`
+* `$from_peer`: `mixed` Bot API ID or Update, from where to forward the messages.  
+* `$ids`: `list<int>` IDs of the messages to forward.  
+* `$drop_author`: `bool` If true, will forward messages without quoting the original author.  
 
 
 
+### `broadcastMessages(array $messages)`
 
-### `callStatus(int $id): mixed`
+Sends a list of messages to all peers (users, chats, channels) of the bot.
+A simplified version of this method is also available: broadcastForwardMessages can work with pre-prepared messages.
+
+Will return an integer ID that can be used to:
+
+- Get the current broadcast progress with getBroadcastProgress
+- Cancel the broadcast using cancelBroadcast
+
+Note that to avoid manually polling the progress,
+MadelineProto will also periodically emit updateBroadcastProgress updates,
+containing a Progress object for all broadcasts currently in-progress.
+
+Parameters:
+
+* `$messages`: `array` The messages to send: an array of arrays, containing parameters to pass to messages.sendMessage.  
+
+
+
+### `callStatus(int $id)`
 
 Get call status.
 
@@ -556,39 +422,19 @@ Parameters:
 * `$id`: `int` Call ID  
 
 
-Fully typed return value:
-```
-int|\Amp\Promise<int>
-```
-#### See also: 
-* `\Amp\Promise`
+
+### `cancelBroadcast(int $id)`
+
+Cancel a running broadcast.
+
+
+Parameters:
+
+* `$id`: `int` Broadcast ID  
 
 
 
-
-### `checkTos(): \Amp\Promise`
-
-Check for terms of service update.
-Will throw a \danog\MadelineProto\Exception if a new TOS is available.
-
-#### See also: 
-* `\Amp\Promise`
-
-
-
-
-### `cleanup(): \Amp\Promise`
-
-Cleanup memory and session file.
-
-
-#### See also: 
-* `\Amp\Promise`
-
-
-
-
-### `closeConnection(string $message): void`
+### `closeConnection(string $message)`
 
 Close connection with client, connected via web.
 
@@ -599,7 +445,7 @@ Parameters:
 
 
 
-### `complete2faLogin(string $password): \Amp\Promise`
+### `complete2faLogin(string $password)`
 
 Complete 2FA login.
 
@@ -609,13 +455,8 @@ Parameters:
 * `$password`: `string` Password  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `completeCall(array $params): \Amp\Promise`
+### `completeCall(array $params)`
 
 Complete call handshake.
 
@@ -625,13 +466,8 @@ Parameters:
 * `$params`: `array` Params  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `completePhoneLogin(string $code): \Amp\Promise`
+### `completePhoneLogin(string $code)`
 
 Complet user login using login code.
 
@@ -641,13 +477,8 @@ Parameters:
 * `$code`: `string` Login code  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `completeSignup(string $first_name, string $last_name): \Amp\Promise`
+### `completeSignup(string $first_name, string $last_name)`
 
 Complete signup to Telegram.
 
@@ -658,13 +489,8 @@ Parameters:
 * `$last_name`: `string` Last name  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `confirmCall(array $params): \Amp\Promise`
+### `confirmCall(array $params)`
 
 Confirm call.
 
@@ -674,13 +500,8 @@ Parameters:
 * `$params`: `array` Params  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `connectToAllDcs(bool $reconnectAll): \Amp\Promise`
+### `connectToAllDcs(bool $reconnectAll)`
 
 Connects to all datacenters and if necessary creates authorization keys, binds them and writes client info.
 
@@ -690,24 +511,8 @@ Parameters:
 * `$reconnectAll`: `bool` Whether to reconnect to all DCs  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `declineTos(): \Amp\Promise`
-
-Decline terms of service update.
-THIS WILL DELETE YOUR ACCOUNT!
-
-#### See also: 
-* `\Amp\Promise`
-
-
-
-
-### `discardCall(array $call, array $rating, bool $need_debug): \Amp\Promise`
+### `discardCall(array $call, array $rating, bool $need_debug)`
 
 Discard call.
 
@@ -719,13 +524,8 @@ Parameters:
 * `$need_debug`: `bool` Need debug?  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `discardSecretChat(int $chat): \Amp\Promise`
+### `discardSecretChat(int $chat)`
 
 Discard secret chat.
 
@@ -735,38 +535,32 @@ Parameters:
 * `$chat`: `int` Secret chat ID  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `downloadToBrowser(array|string $messageMedia, ?callable $cb, ?int $size, ?string $mime, ?string $name): \Amp\Promise`
+### `downloadToBrowser(array|string|\danog\MadelineProto\FileCallbackInterface $messageMedia, null|callable $cb, null|int $size, null|string $mime, null|string $name)`
 
 Download file to browser.
 Supports HEAD requests and content-ranges for parallel and resumed downloads.
 
 Parameters:
 
-* `$messageMedia`: `array|string` File to download  
-* `$cb`: `?callable` Status callback (can also use FileCallback)  
-* `$size`: `?int` Size of file to download, required for bot API file IDs.  
-* `$mime`: `?string` MIME type of file to download, required for bot API file IDs.  
-* `$name`: `?string` Name of file to download, required for bot API file IDs.  
+* `$messageMedia`: `array|string|\danog\MadelineProto\FileCallbackInterface` File to download  
+* `$cb`: `null|callable` Status callback (can also use FileCallback)  
+* `$size`: `null|int` Size of file to download, required for bot API file IDs.  
+* `$mime`: `null|string` MIME type of file to download, required for bot API file IDs.  
+* `$name`: `null|string` Name of file to download, required for bot API file IDs.  
 
 
 #### See also: 
-* `\Amp\Promise`
+* [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
 
 
 
 
-### `downloadToCallable(mixed $messageMedia, callable|\danog\MadelineProto\FileCallbackInterface $callable, callable $cb, bool $seekable, int $offset, int $end, int $part_size): \Amp\Promise`
+### `downloadToCallable(mixed $messageMedia, callable|\danog\MadelineProto\FileCallbackInterface $callable, callable $cb, bool $seekable, int $offset, int $end, int $part_size)`
 
 Download file to callable.
 The callable must accept two parameters: string $payload, int $offset
 The callable will be called (possibly out of order, depending on the value of $seekable).
-The callable should return the number of written bytes.
 
 Parameters:
 
@@ -779,18 +573,13 @@ Parameters:
 * `$part_size`: `int` Size of each chunk  
 
 
-Fully typed return value:
-```
-\Amp\Promise<true>
-```
 #### See also: 
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
-* `\Amp\Promise`
 
 
 
 
-### `downloadToDir(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $dir, callable $cb): \Amp\Promise`
+### `downloadToDir(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $dir, callable $cb)`
 
 Download file to directory.
 
@@ -802,18 +591,13 @@ Parameters:
 * `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
 
 
-Fully typed return value:
-```
-\Amp\Promise<false|string>
-```
 #### See also: 
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
-* `\Amp\Promise`
 
 
 
 
-### `downloadToFile(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $file, callable $cb): \Amp\Promise Downloaded file path`
+### `downloadToFile(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $file, callable $cb)`
 
 Download file.
 
@@ -825,49 +609,35 @@ Parameters:
 * `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
 
 
-Return value: Downloaded file path
-
-Fully typed return value:
-```
-\Amp\Promise<false|string>
-```
 #### See also: 
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
-* `\Amp\Promise`
 
 
 
 
-### `downloadToResponse(array|string $messageMedia, \ServerRequest $request, callable $cb, ?int $size, ?string $name, ?string $mime): \Amp\Promise Returned response`
+### `downloadToResponse(array|string|\danog\MadelineProto\FileCallbackInterface $messageMedia, \Amp\Http\Server\Request $request, callable $cb, null|int $size, null|string $name, null|string $mime)`
 
 Download file to amphp/http-server response.
 Supports HEAD requests and content-ranges for parallel and resumed downloads.
 
 Parameters:
 
-* `$messageMedia`: `array|string` File to download  
-* `$request`: `\ServerRequest` Request  
+* `$messageMedia`: `array|string|\danog\MadelineProto\FileCallbackInterface` File to download  
+* `$request`: `\Amp\Http\Server\Request` Request  
 * `$cb`: `callable` Status callback (can also use FileCallback)  
-* `$size`: `?int` Size of file to download, required for bot API file IDs.  
-* `$name`: `?string` Name of file to download, required for bot API file IDs.  
-* `$mime`: `?string` MIME type of file to download, required for bot API file IDs.  
+* `$size`: `null|int` Size of file to download, required for bot API file IDs.  
+* `$name`: `null|string` Name of file to download, required for bot API file IDs.  
+* `$mime`: `null|string` MIME type of file to download, required for bot API file IDs.  
 
 
-Return value: Returned response
-
-Fully typed return value:
-```
-\Amp\Promise<\Amp\Http\Server\Response>
-```
 #### See also: 
-* `\ServerRequest`
-* `\Amp\Http\Server\Response`
-* `\Amp\Promise`
+* [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
+* `\Amp\Http\Server\Request`
 
 
 
 
-### `downloadToStream(mixed $messageMedia, mixed|\danog\MadelineProto\FileCallbackInterface $stream, callable $cb, int $offset, int $end): \Amp\Promise`
+### `downloadToStream(mixed $messageMedia, mixed|\danog\MadelineProto\FileCallbackInterface|\resource|\Amp\ByteStream\WritableStream $stream, callable $cb, int $offset, int $end)`
 
 Download file to stream.
 
@@ -875,24 +645,21 @@ Download file to stream.
 Parameters:
 
 * `$messageMedia`: `mixed` File to download  
-* `$stream`: `mixed|\danog\MadelineProto\FileCallbackInterface` Stream where to download file  
+* `$stream`: `mixed|\danog\MadelineProto\FileCallbackInterface|\resource|\Amp\ByteStream\WritableStream` Stream where to download file  
 * `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
 * `$offset`: `int` Offset where to start downloading  
 * `$end`: `int` Offset where to end download  
 
 
-Fully typed return value:
-```
-\Amp\Promise<mixed>
-```
 #### See also: 
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
-* `\Amp\Promise`
+* `\resource`
+* `\Amp\ByteStream\WritableStream`
 
 
 
 
-### `echo(string $string): \Amp\Promise`
+### `echo(string $string)`
 
 Asynchronously write to stdout/browser.
 
@@ -900,11 +667,6 @@ Asynchronously write to stdout/browser.
 Parameters:
 
 * `$string`: `string` Message to echo  
-
-
-#### See also: 
-* `\Amp\Promise`
-
 
 
 
@@ -919,22 +681,13 @@ Parameters:
 
 
 
-### `exportAuthorization(): \Amp\Promise`
+### `exportAuthorization(): array{0: int|string, 1: string}`
 
 Export authorization.
 
 
-Fully typed return value:
-```
-\Amp\Promise<array{0: int|string, 1: string}>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `extractBotAPIFile(array $info): ?array`
+### `extractBotAPIFile(array $info)`
 
 Extract file info from bot API message.
 
@@ -945,52 +698,31 @@ Parameters:
 
 
 
-### `extractMessage(): \Amp\Promise`
+### `extractMessage()`
 
 Extract a message constructor from an Updates constructor.
 
 
-Fully typed return value:
-```
-\Amp\Promise<array>
-```
-#### See also: 
-* `\Amp\Promise`
+
+### `extractMessageId()`
+
+Extract a message ID from an Updates constructor.
 
 
 
-
-### `extractMessageUpdate(): \Amp\Promise`
+### `extractMessageUpdate()`
 
 Extract an update message constructor from an Updates constructor.
 
 
-Fully typed return value:
-```
-\Amp\Promise<array>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `extractUpdates(): \Amp\Promise`
+### `extractUpdates(): array[]`
 
 Extract Update constructors from an Updates constructor.
 
 
-Fully typed return value:
-```
-\Amp\Promise<array<array>>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `fileGetContents(string $url): \Amp\Promise`
+### `fileGetContents(string $url)`
 
 Get contents of remote file asynchronously.
 
@@ -1000,35 +732,8 @@ Parameters:
 * `$url`: `string` URL  
 
 
-Fully typed return value:
-```
-\Amp\Promise<string>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `first((\Promise|\Generator)[] $promises): \Amp\Promise`
-
-Returns a promise that succeeds when the first promise succeeds, and fails only if all promises fail.
-
-
-Parameters:
-
-* `$promises`: `(\Promise|\Generator)[]` Promises  
-
-
-#### See also: 
-* `\Promise`
-* `\Generator`
-* `\Amp\Promise`
-
-
-
-
-### `flock(string $file, int $operation, float $polling, ?\Promise $token, ?callable $failureCb)`
+### `flock(string $file, int $operation, float $polling, ?\Amp\Cancellation $token, ?\Closure $failureCb): mixed`
 
 Asynchronously lock a file
 Resolves with a callbable that MUST eventually be called in order to release the lock.
@@ -1039,17 +744,18 @@ Parameters:
 * `$file`: `string` File to lock  
 * `$operation`: `int` Locking mode  
 * `$polling`: `float` Polling interval  
-* `$token`: `?\Promise` Cancellation token  
-* `$failureCb`: `?callable` Failure callback, called only once if the first locking attempt fails.  
+* `$token`: `?\Amp\Cancellation` Cancellation token  
+* `$failureCb`: `?\Closure` Failure callback, called only once if the first locking attempt fails.  
 
 
 #### See also: 
-* `\Promise`
+* `\Amp\Cancellation`
+* `\Closure`
 
 
 
 
-### `fromSupergroup(int $id): int`
+### `fromSupergroup(int $id)`
 
 Convert bot API channel ID to MTProto channel ID.
 
@@ -1060,7 +766,7 @@ Parameters:
 
 
 
-### `fullChatLastUpdated(mixed $id): \Amp\Promise<int>`
+### `fullChatLastUpdated(mixed $id)`
 
 When were full info for this chat last cached.
 
@@ -1070,20 +776,10 @@ Parameters:
 * `$id`: `mixed` Chat ID  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `fullGetSelf(): \Amp\Promise<array|bool>`
+### `fullGetSelf()`
 
 Get info about the logged-in user, not cached.
-
-
-#### See also: 
-* `\Amp\Promise`
-
 
 
 
@@ -1100,52 +796,38 @@ Parameters:
 Return value: Vector hash
 
 
-### `getAllMethods(): mixed`
+### `getAllMethods()`
 
 Get full list of MTProto and API methods.
 
 
-Fully typed return value:
-```
-array|\Amp\Promise<array>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `getAuthorization(): mixed`
+### `getAuthorization()`
 
 Get authorization info.
 
 
-Fully typed return value:
-```
-int|\Amp\Promise<int>
-```
-#### See also: 
-* `\Amp\Promise`
+
+### `getBroadcastProgress(int $id)`
+
+Get the progress of a currently running broadcast.
+Will return null if the broadcast doesn't exist, has already completed or was cancelled.
+
+Use updateBroadcastProgress updates to get real-time progress status without polling.
+
+Parameters:
+
+* `$id`: `int` Broadcast ID  
 
 
 
-
-### `getCachedConfig(): mixed`
+### `getCachedConfig()`
 
 Get cached server-side config.
 
 
-Fully typed return value:
-```
-array|\Amp\Promise<array>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `getCall(int $call): mixed`
+### `getCall(int $call)`
 
 Get call info.
 
@@ -1155,33 +837,14 @@ Parameters:
 * `$call`: `int` Call ID  
 
 
-Fully typed return value:
-```
-array|\Amp\Promise<array>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `getCdnConfig(string $datacenter): \Amp\Promise`
+### `getCdnConfig()`
 
 Store RSA keys for CDN datacenters.
 
 
-Parameters:
 
-* `$datacenter`: `string` DC ID  
-
-
-#### See also: 
-* `\Amp\Promise`
-
-
-
-
-### `getConfig(array $config, array $options): \Amp\Promise`
+### `getConfig(array $config)`
 
 Get cached (or eventually re-fetch) server-side config.
 
@@ -1189,85 +852,34 @@ Get cached (or eventually re-fetch) server-side config.
 Parameters:
 
 * `$config`: `array` Current config  
-* `$options`: `array` Options for method call  
-
-
-#### See also: 
-* `\Amp\Promise`
 
 
 
-
-### `getDNSClient(): mixed`
+### `getDNSClient()`
 
 Get async DNS client.
 
 
-Fully typed return value:
-```
-\Amp\Dns\Resolver|\Amp\Promise<\Amp\Dns\Resolver>
-```
-#### See also: 
-* `\Amp\Dns\Resolver`
-* `\Amp\Promise`
 
-
-
-
-### `getDataCenterConnections(): mixed`
-
-Get all datacenter connections.
-
-
-Fully typed return value:
-```
-array<\danog\MadelineProto\DataCenterConnection>|\Amp\Promise<array<\danog\MadelineProto\DataCenterConnection>>
-```
-#### See also: 
-* `\danog\MadelineProto\DataCenterConnection`
-* `\Amp\Promise`
-
-
-
-
-### `getDataCenterId(): int|string`
-
-Get main DC ID.
-
-
-
-### `getDhConfig(): \Amp\Promise<array>`
+### `getDhConfig()`
 
 Get diffie-hellman configuration.
 
 
-#### See also: 
-* `\Amp\Promise`
+
+### `getDialogIds(): list<int>`
+
+Get dialog IDs.
 
 
 
-
-### `getDialogs(bool $force): \Amp\Promise`
+### `getDialogs(): list<array>`
 
 Get dialog peers.
 
 
-Parameters:
 
-* `$force`: `bool` Whether to refetch all dialogs ignoring cache  
-
-
-Fully typed return value:
-```
-\Amp\Promise<list<mixed>>
-```
-#### See also: 
-* `\Amp\Promise`
-
-
-
-
-### `getDownloadInfo(mixed $messageMedia): \Amp\Promise<array>`
+### `getDownloadInfo(mixed $messageMedia)`
 
 Get download info of file
 Returns an array with the following structure:.
@@ -1281,29 +893,14 @@ Parameters:
 * `$messageMedia`: `mixed` File ID  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `getEventHandler(): mixed`
+### `getEventHandler()`
 
 Get event handler.
 
 
-Fully typed return value:
-```
-\danog\MadelineProto\EventHandler|\Amp\Promise<\danog\MadelineProto\EventHandler>
-```
-#### See also: 
-* [`\danog\MadelineProto\EventHandler`: Event handler.](../../danog/MadelineProto/EventHandler.html)
-* `\Amp\Promise`
 
-
-
-
-### `getExtensionFromLocation(mixed $location, string $default): string`
+### `getExtensionFromLocation(mixed $location, string $default)`
 
 Get extension from file location.
 
@@ -1315,7 +912,7 @@ Parameters:
 
 
 
-### `getExtensionFromMime(string $mime): string`
+### `getExtensionFromMime(string $mime)`
 
 Get extension from mime type.
 
@@ -1326,7 +923,7 @@ Parameters:
 
 
 
-### `getFileInfo(mixed $constructor): \Amp\Promise<array>`
+### `getFileInfo(mixed $constructor)`
 
 Get info about file.
 
@@ -1336,13 +933,8 @@ Parameters:
 * `$constructor`: `mixed` File ID  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `getFolderId(mixed $id): ?int`
+### `getFolderId(mixed $id)`
 
 Get folder ID from object.
 
@@ -1353,23 +945,13 @@ Parameters:
 
 
 
-### `getFullDialogs(bool $force): \Amp\Promise`
+### `getFullDialogs(): array<int, array>`
 
 Get full info of all dialogs.
+Bots should use getDialogs or getDialogIds, instead.
 
 
-Parameters:
-
-* `$force`: `bool` Whether to refetch all dialogs ignoring cache  
-
-
-#### See also: 
-* `\Amp\Promise`
-
-
-
-
-### `getFullInfo(mixed $id): \Amp\Promise FullInfo object`
+### `getFullInfo(mixed $id)`
 
 Get full info about peer, returns an FullInfo object.
 
@@ -1379,53 +961,27 @@ Parameters:
 * `$id`: `mixed` Peer  
 
 
-Return value: FullInfo object
-
-Fully typed return value:
-```
-\Amp\Promise<array>
-```
 #### See also: 
 * [https://docs.madelineproto.xyz/FullInfo.html](https://docs.madelineproto.xyz/FullInfo.html)
-* `\Amp\Promise`
 
 
 
 
-### `getHTTPClient(): mixed`
+### `getHTTPClient()`
 
 Get async HTTP client.
 
 
-Fully typed return value:
-```
-\Amp\Http\Client\HttpClient|\Amp\Promise<\Amp\Http\Client\HttpClient>
-```
-#### See also: 
-* `\Amp\Http\Client\HttpClient`
-* `\Amp\Promise`
 
-
-
-
-### `getHint(): mixed`
+### `getHint()`
 
 Get current password hint.
 
 
-Fully typed return value:
-```
-string|\Amp\Promise<string>
-```
-#### See also: 
-* `\Amp\Promise`
 
+### `getId(mixed $id)`
 
-
-
-### `getId(mixed $id): mixed`
-
-Get bot API ID from peer object.
+Get the bot API ID of a peer.
 
 
 Parameters:
@@ -1433,17 +989,8 @@ Parameters:
 * `$id`: `mixed` Peer  
 
 
-Fully typed return value:
-```
-??int|\Amp\Promise<??int>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `getInfo(mixed $id, bool $recursive): \Amp\Promise Info object`
+### `getInfo(mixed $id, \MTProto::INFO_TYPE_* $type): mixed`
 
 Get info about peer, returns an Info object.
 
@@ -1451,76 +998,46 @@ Get info about peer, returns an Info object.
 Parameters:
 
 * `$id`: `mixed` Peer  
-  Full type:
-  ```
-  array{_: \TConstructor}|mixed
-  ```
-* `$recursive`: `bool` Internal  
+* `$type`: `\MTProto::INFO_TYPE_*` Whether to generate an Input*, an InputPeer or the full set of constructors  
 
 
-Return value: Info object
-
-Fully typed return value:
-```
-\Generator<int|mixed, \Amp\Promise|\Amp\Promise<string>|array, mixed, array{TConstructor: \array
-     InputPeer: array{_: string, user_id?: mixed, access_hash?: mixed, min?: mixed, chat_id?: mixed, channel_id?: mixed}, Peer: array{_: string, user_id?: mixed, chat_id?: mixed, channel_id?: mixed}, DialogPeer: array{_: string, peer: array{_: string, user_id?: mixed, chat_id?: mixed, channel_id?: mixed}}, NotifyPeer: array{_: string, peer: array{_: string, user_id?: mixed, chat_id?: mixed, channel_id?: mixed}}, InputDialogPeer: array{_: string, peer: array{_: string, user_id?: mixed, access_hash?: mixed, min?: mixed, chat_id?: mixed, channel_id?: mixed}}, InputNotifyPeer: array{_: string, peer: array{_: string, user_id?: mixed, access_hash?: mixed, min?: mixed, chat_id?: mixed, channel_id?: mixed}}, bot_api_id: int|string, user_id?: int, chat_id?: int, channel_id?: int, InputUser?: array{_: string, user_id?: int, access_hash?: mixed, min?: bool}, InputChannel?: array{_: string, channel_id: int, access_hash: mixed, min: bool}, type: string}>|int|array{_: string, user_id?: mixed, access_hash?: mixed, min?: mixed, chat_id?: mixed, channel_id?: mixed}|array{_: string, user_id?: int, access_hash?: mixed, min?: bool}|array{_: string, channel_id: int, access_hash: mixed, min: bool}
-```
 #### See also: 
 * [https://docs.madelineproto.xyz/Info.html](https://docs.madelineproto.xyz/Info.html)
-* `\TConstructor`
-* `\Amp\Promise`
-* `\Generator`
 
 
 
 
-### `getLogger(): mixed`
+### `getLogger()`
 
 Get logger.
 
 
-Fully typed return value:
-```
-\danog\MadelineProto\Logger|\Amp\Promise<\danog\MadelineProto\Logger>
-```
-#### See also: 
-* [`\danog\MadelineProto\Logger`: Logger class.](../../danog/MadelineProto/Logger.html)
-* `\Amp\Promise`
+
+### `getMaps()`
+
+Get current number of memory-mapped regions, UNIX only.
 
 
 
+### `getMaxMaps()`
 
-### `getMethodNamespaces(): mixed`
+Get maximum number of memory-mapped regions, UNIX only.
+Use testFibers to get the maximum number of fibers on any platform.
+
+
+### `getMethodNamespaces()`
 
 Get TL namespaces.
 
 
-Fully typed return value:
-```
-array|\Amp\Promise<array>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `getMethodsNamespaced(): mixed`
+### `getMethodsNamespaced()`
 
 Get namespaced methods (method => namespace).
 
 
-Fully typed return value:
-```
-array|\Amp\Promise<array>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `getMimeFromBuffer(string $buffer): string`
+### `getMimeFromBuffer(string $buffer)`
 
 Get mime type from buffer.
 
@@ -1531,7 +1048,7 @@ Parameters:
 
 
 
-### `getMimeFromExtension(string $extension, string $default): string`
+### `getMimeFromExtension(string $extension, string $default)`
 
 Get mime type from file extension.
 
@@ -1543,7 +1060,7 @@ Parameters:
 
 
 
-### `getMimeFromFile(string $file): string`
+### `getMimeFromFile(string $file)`
 
 Get mime type of file.
 
@@ -1554,7 +1071,7 @@ Parameters:
 
 
 
-### `getPropicInfo(): \Amp\Promise<array>`
+### `getPropicInfo()`
 
 Get download info of the propic of a user
 Returns an array with the following structure:.
@@ -1563,29 +1080,14 @@ Returns an array with the following structure:.
 `$info['mime']` - The file mime type
 `$info['size']` - The file size
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `getPsrLogger(): mixed`
+### `getPsrLogger()`
 
 Get PSR logger.
 
 
-Fully typed return value:
-```
-\Psr\Log\LoggerInterface|\Amp\Promise<\Psr\Log\LoggerInterface>
-```
-#### See also: 
-* `\Psr\Log\LoggerInterface`
-* `\Amp\Promise`
 
-
-
-
-### `getPwrChat(mixed $id): \Amp\Promise Chat object`
+### `getPwrChat(mixed $id)`
 
 Get full info about peer (including full list of channel members), returns a Chat object.
 
@@ -1595,15 +1097,13 @@ Parameters:
 * `$id`: `mixed` Peer  
 
 
-Return value: Chat object
-
 #### See also: 
 * [https://docs.madelineproto.xyz/Chat.html](https://docs.madelineproto.xyz/Chat.html)
 
 
 
 
-### `getSecretChat(array|int $chat): mixed`
+### `getSecretChat(array|int $chat)`
 
 Get secret chat.
 
@@ -1613,48 +1113,26 @@ Parameters:
 * `$chat`: `array|int` Secret chat ID  
 
 
-Fully typed return value:
-```
-array|\Amp\Promise<array>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `getSelf(): mixed`
+### `getSelf()`
 
 Get info about the logged-in user, cached.
 Use fullGetSelf to bypass the cache.
 
-Fully typed return value:
-```
-array|false|\Amp\Promise<array|false>
-```
-#### See also: 
-* `\Amp\Promise`
+
+### `getSessionName()`
+
+Returns the session name.
 
 
 
-
-### `getSettings(): mixed`
+### `getSettings()`
 
 Return current settings.
 
 
-Fully typed return value:
-```
-\danog\MadelineProto\Settings|\Amp\Promise<\danog\MadelineProto\Settings>
-```
-#### See also: 
-* [`\danog\MadelineProto\Settings`: Settings class used for configuring MadelineProto.](../../danog/MadelineProto/Settings.html)
-* `\Amp\Promise`
 
-
-
-
-### `getSponsoredMessages(int|array $peer): \Amp\Promise`
+### `getSponsoredMessages(int|string|array $peer)`
 
 Get sponsored messages for channel.
 This method will return an array of [sponsored message objects](https://docs.madelineproto.xyz/API_docs/constructors/sponsoredMessage.html).
@@ -1663,28 +1141,24 @@ See [the API documentation](https://core.telegram.org/api/sponsored-messages) fo
 
 Parameters:
 
-* `$peer`: `int|array` Channel ID, or Update, or Message, or Peer.  
-
-
-#### See also: 
-* `\Amp\Promise`
+* `$peer`: `int|string|array` Channel ID, or Update, or Message, or Peer.  
 
 
 
-
-### `getTL(): mixed`
+### `getTL()`
 
 Get TL serializer.
 
 
-Fully typed return value:
-```
-\danog\MadelineProto\TL\TL|\Amp\Promise<\danog\MadelineProto\TL\TL>
-```
-#### See also: 
-* `\danog\MadelineProto\TL\TL`
-* `\Amp\Promise`
 
+### `getUpdates(array{offset?: int, limit?: int, timeout?: float} $params): list<array{update_id: mixed, update: mixed}>`
+
+Get updates.
+
+
+Parameters:
+
+* `$params`: `array{offset?: int, limit?: int, timeout?: float}` Params  
 
 
 
@@ -1700,82 +1174,37 @@ Parameters:
 
 
 
-### `getWebMessage(): mixed`
+### `getWebMessage()`
 
 Get a message to show to the user when starting the bot.
 
 
-Fully typed return value:
-```
-string|\Amp\Promise<string>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `getWebTemplate(): mixed`
+### `getWebTemplate()`
 
 Get web template.
 
 
-Fully typed return value:
-```
-string|\Amp\Promise<string>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `hasAllAuth(): mixed`
+### `hasAllAuth()`
 
 Checks whether all datacenters are authorized.
 
 
-Fully typed return value:
-```
-bool|\Amp\Promise<bool>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `hasEventHandler(): mixed`
+### `hasEventHandler()`
 
 Check if an event handler instance is present.
 
 
-Fully typed return value:
-```
-bool|\Amp\Promise<bool>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `hasReportPeers(): mixed`
+### `hasReportPeers()`
 
 Check if has report peers.
 
 
-Fully typed return value:
-```
-bool|\Amp\Promise<bool>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `hasSecretChat(array|int $chat): mixed`
+### `hasSecretChat(array|int $chat)`
 
 Check whether secret chat exists.
 
@@ -1785,17 +1214,8 @@ Parameters:
 * `$chat`: `array|int` Secret chat ID  
 
 
-Fully typed return value:
-```
-bool|\Amp\Promise<bool>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `hasVar(object $obj, string $var): bool`
+### `hasVar(object $obj, string $var)`
 
 Checks private property exists in an object.
 
@@ -1807,7 +1227,7 @@ Parameters:
 
 
 
-### `importAuthorization(array<int, string> $authorization, int $mainDcID): \Amp\Promise`
+### `importAuthorization(array<int, string> $authorization, int $mainDcID)`
 
 Import authorization.
 
@@ -1816,11 +1236,6 @@ Parameters:
 
 * `$authorization`: `array<int, string>` Authorization info  
 * `$mainDcID`: `int` Main DC ID  
-
-
-#### See also: 
-* `\Amp\Promise`
-
 
 
 
@@ -1837,28 +1252,19 @@ Parameters:
 Return value: JPG payload
 
 
-### `initSelfRestart(): mixed`
+### `initSelfRestart()`
 
 Initialize self-restart hack.
 
 
-Fully typed return value:
-```
-void|\Amp\Promise<void>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `isAltervista(): bool`
+### `isAltervista()`
 
 Whether this is altervista.
 
 
 
-### `isArrayOrAlike(mixed $var): bool`
+### `isArrayOrAlike(mixed $var)`
 
 Check if is array or similar (traversable && countable && arrayAccess).
 
@@ -1869,52 +1275,25 @@ Parameters:
 
 
 
-### `isIpc(): mixed`
+### `isIpc()`
 
 Whether we're an IPC client instance.
 
 
-Fully typed return value:
-```
-bool|\Amp\Promise<bool>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `isIpcWorker(): mixed`
+### `isIpcWorker()`
 
 Whether we're an IPC server process (as opposed to an event handler).
 
 
-Fully typed return value:
-```
-bool|\Amp\Promise<bool>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `isPremium(): mixed`
+### `isPremium()`
 
 Returns whether the current user is a premium user, cached.
 
 
-Fully typed return value:
-```
-bool|\Amp\Promise<bool>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `isSupergroup(int $id): bool`
+### `isSupergroup(int $id)`
 
 Check whether provided bot API ID is a channel.
 
@@ -1925,67 +1304,20 @@ Parameters:
 
 
 
-### `logger(string $param, int $level, string $file): mixed`
+### `logger(mixed $param, int $level, string $file)`
 
 Logger.
 
 
 Parameters:
 
-* `$param`: `string` Parameter  
+* `$param`: `mixed` Parameter  
 * `$level`: `int` Logging level  
 * `$file`: `string` File where the message originated  
 
 
-Fully typed return value:
-```
-void|\Amp\Promise<void>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `logout(): \Amp\Promise`
-
-Log out currently logged in user.
-
-
-#### See also: 
-* `\Amp\Promise`
-
-
-
-
-### `loop(callable|null $callback): \Amp\Promise`
-
-Start MadelineProto's update handling loop, or run the provided async callable.
-
-
-Parameters:
-
-* `$callback`: `callable|null` Async callable to run  
-
-
-#### See also: 
-* `\Amp\Promise`
-
-
-
-
-### `loopFork(): \Amp\Promise`
-
-Start MadelineProto's update handling loop in background.
-
-
-#### See also: 
-* `\Amp\Promise`
-
-
-
-
-### `markdownEscape(string $hwat): string`
+### `markdownEscape(string $hwat)`
 
 Escape string for markdown.
 
@@ -2008,7 +1340,7 @@ Parameters:
 
 
 
-### `mbStrlen(string $text): float|int`
+### `mbStrlen(string $text)`
 
 Get Telegram UTF-8 length of string.
 
@@ -2019,7 +1351,7 @@ Parameters:
 
 
 
-### `mbSubstr(string $text, int $offset, ?int $length): string`
+### `mbSubstr(string $text, int $offset, null|int $length)`
 
 Telegram UTF-8 multibyte substring.
 
@@ -2028,57 +1360,11 @@ Parameters:
 
 * `$text`: `string` Text to substring  
 * `$offset`: `int` Offset  
-* `$length`: `?int` Length  
+* `$length`: `null|int` Length  
 
 
 
-### `methodCall(string $method, array|\Generator $args, array $aargs): \Amp\Promise`
-
-Call method and wait asynchronously for response.
-If the $aargs['noResponse'] is true, will not wait for a response.
-
-Parameters:
-
-* `$method`: `string` Method name  
-* `$args`: `array|\Generator` Arguments  
-  Full type:
-  ```
-  array|\Generator<mixed, mixed, mixed, array>
-  ```
-* `$aargs`: `array` Additional arguments  
-
-
-#### See also: 
-* `\Generator`
-* `\Amp\Promise`
-
-
-
-
-### `methodCallWrite(string $method, array|\Generator $args, array $aargs): \Amp\Promise`
-
-Call method and make sure it is asynchronously sent.
-
-
-Parameters:
-
-* `$method`: `string` Method name  
-* `$args`: `array|\Generator` Arguments  
-  Full type:
-  ```
-  array|\Generator<mixed, mixed, mixed, array>
-  ```
-* `$aargs`: `array` Additional arguments  
-
-
-#### See also: 
-* `\Generator`
-* `\Amp\Promise`
-
-
-
-
-### `methodEscape(string $method): string`
+### `methodEscape(string $method)`
 
 Escape method name.
 
@@ -2089,7 +1375,7 @@ Parameters:
 
 
 
-### `packDouble(float $value): string`
+### `packDouble(float $value)`
 
 Convert double to binary version.
 
@@ -2100,7 +1386,7 @@ Parameters:
 
 
 
-### `packSignedInt(int $value): string`
+### `packSignedInt(int $value)`
 
 Convert integer to base256 signed int.
 
@@ -2111,7 +1397,7 @@ Parameters:
 
 
 
-### `packSignedLong(int $value): string`
+### `packSignedLong(int $value)`
 
 Convert integer to base256 long.
 
@@ -2122,7 +1408,7 @@ Parameters:
 
 
 
-### `packUnsignedInt(int $value): string`
+### `packUnsignedInt(int $value)`
 
 Convert value to unsigned base256 int.
 
@@ -2133,7 +1419,7 @@ Parameters:
 
 
 
-### `peerIsset(mixed $id): \Amp\Promise`
+### `peerIsset(mixed $id)`
 
 Check if peer is present in internal peer database.
 
@@ -2143,17 +1429,8 @@ Parameters:
 * `$id`: `mixed` Peer  
 
 
-Fully typed return value:
-```
-\Amp\Promise<bool>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `phoneLogin(string $number, int $sms_type): \Amp\Promise`
+### `phoneLogin(string $number, int $sms_type)`
 
 Login as user.
 
@@ -2162,11 +1439,6 @@ Parameters:
 
 * `$number`: `string` Phone number  
 * `$sms_type`: `int` SMS type  
-
-
-#### See also: 
-* `\Amp\Promise`
-
 
 
 
@@ -2198,7 +1470,7 @@ Parameters:
 Return value: Random string
 
 
-### `randomInt(int $modulus): int`
+### `randomInt(int $modulus)`
 
 Get random integer.
 
@@ -2209,7 +1481,7 @@ Parameters:
 
 
 
-### `readLine(string $prompt): \Amp\Promise<string>`
+### `readLine(string $prompt)`
 
 Asynchronously read line.
 
@@ -2219,13 +1491,8 @@ Parameters:
 * `$prompt`: `string` Prompt  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `refreshFullPeerCache(mixed $id): \Amp\Promise`
+### `refreshFullPeerCache(mixed $id)`
 
 Refresh full peer cache for a certain peer.
 
@@ -2235,29 +1502,14 @@ Parameters:
 * `$id`: `mixed` The peer to refresh  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `refreshPeerCache(mixed $id): \Amp\Promise`
+### `refreshPeerCache()`
 
 Refresh peer cache for a certain peer.
 
 
-Parameters:
 
-* `$id`: `mixed` The peer to refresh  
-
-
-#### See also: 
-* `\Amp\Promise`
-
-
-
-
-### `rekey(int $chat): \Amp\Promise`
+### `rekey(int $chat)`
 
 Rekey secret chat.
 
@@ -2267,13 +1519,8 @@ Parameters:
 * `$chat`: `int` Secret chat to rekey  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `report(string $message, string $parseMode): \Amp\Promise`
+### `report(string $message, string $parseMode)`
 
 Report an error to the previously set peer.
 
@@ -2284,13 +1531,8 @@ Parameters:
 * `$parseMode`: `string` Parse mode  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `requestCall(mixed $user): \Amp\Promise`
+### `requestCall(mixed $user)`
 
 Request VoIP call.
 
@@ -2300,13 +1542,8 @@ Parameters:
 * `$user`: `mixed` User  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `requestSecretChat(mixed $user): \Amp\Promise`
+### `requestSecretChat(mixed $user)`
 
 Request secret chat.
 
@@ -2316,60 +1553,26 @@ Parameters:
 * `$user`: `mixed` User to start secret chat with  
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `resetUpdateState(): mixed`
+### `resetUpdateState()`
 
 Reset the update state and fetch all updates from the beginning.
 
 
-Fully typed return value:
-```
-void|\Amp\Promise<void>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `restart(): mixed`
+### `restart()`
 
 Restart update loop.
 
 
-Fully typed return value:
-```
-void|\Amp\Promise<void>
-```
-#### See also: 
-* `\Amp\Promise`
+
+### `rethrow()`
+
+Rethrow exception into event loop.
 
 
 
-
-### `rethrow(\Throwable $e, string $file): void`
-
-Rethrow error catched in strand.
-
-
-Parameters:
-
-* `$e`: `\Throwable` Exception  
-* `$file`: `string` File where the strand started  
-
-
-#### See also: 
-* `\Throwable`
-
-
-
-
-### `rleDecode(string $string): string`
+### `rleDecode(string $string)`
 
 null-byte RLE decode.
 
@@ -2380,7 +1583,7 @@ Parameters:
 
 
 
-### `rleEncode(string $string): string`
+### `rleEncode(string $string)`
 
 null-byte RLE encode.
 
@@ -2391,7 +1594,7 @@ Parameters:
 
 
 
-### `secretChatStatus(int $chat): mixed`
+### `secretChatStatus(int $chat): \int One of MTProto::SECRET_EMPTY, MTProto::SECRET_REQUESTED, MTProto::SECRET_READY`
 
 Get secret chat status.
 
@@ -2401,91 +1604,33 @@ Parameters:
 * `$chat`: `int` Chat ID  
 
 
-Fully typed return value:
-```
-int|\Amp\Promise<int>
-```
-#### See also: 
-* `\Amp\Promise`
+Return value: One of MTProto::SECRET_EMPTY, MTProto::SECRET_REQUESTED, MTProto::SECRET_READY
+
+
+### `sendCustomEvent()`
+
+Sends an updateCustomEvent update to the event handler.
 
 
 
-
-### `serializeAll(): void`
-
-Serialize all instances.
-CALLED ONLY ON SHUTDOWN.
-
-
-### `setCallback(callable $callback): mixed`
-
-Set update handling callback.
-
-
-Parameters:
-
-* `$callback`: `callable` Callback  
-
-
-Fully typed return value:
-```
-void|\Amp\Promise<void>
-```
-#### See also: 
-* `\Amp\Promise`
-
-
-
-
-### `setEventHandler(class-string<\danog\MadelineProto\EventHandler> $eventHandler): \Amp\Promise`
-
-Set event handler.
-
-
-Parameters:
-
-* `$eventHandler`: `class-string<\danog\MadelineProto\EventHandler>` Event handler  
-
-
-#### See also: 
-* [`\danog\MadelineProto\EventHandler`: Event handler.](../../danog/MadelineProto/EventHandler.html)
-* `\Amp\Promise`
-
-
-
-
-### `setNoop(): mixed`
+### `setNoop()`
 
 Set NOOP update handler, ignoring all updates.
 
 
-Fully typed return value:
-```
-void|\Amp\Promise<void>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `setReportPeers(int|string $userOrId): \Amp\Promise`
+### `setReportPeers(int|string|(int|string)[] $userOrId)`
 
 Set peer(s) where to send errors occurred in the event loop.
 
 
 Parameters:
 
-* `$userOrId`: `int|string` Username(s) or peer ID(s)  
-
-
-#### See also: 
-* `\Amp\Promise`
+* `$userOrId`: `int|string|(int|string)[]` Username(s) or peer ID(s)  
 
 
 
-
-### `setVar(object $obj, string $var, mixed $val): void`
+### `setVar(object $obj, string $var, mixed $val)`
 
 Sets a private variable in an object.
 
@@ -2498,7 +1643,7 @@ Parameters:
 
 
 
-### `setWebTemplate(string $template): mixed`
+### `setWebTemplate(string $template)`
 
 Set web template.
 
@@ -2508,113 +1653,56 @@ Parameters:
 * `$template`: `string` Template  
 
 
-Fully typed return value:
-```
-void|\Amp\Promise<void>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `setWebhook(string $hook_url, string $pem_path): mixed`
+### `setWebhook(string $webhookUrl)`
 
 Set webhook update handler.
 
 
 Parameters:
 
-* `$hook_url`: `string` Webhook URL  
-* `$pem_path`: `string` PEM path for self-signed certificate  
-
-
-Fully typed return value:
-```
-void|\Amp\Promise<void>
-```
-#### See also: 
-* `\Amp\Promise`
+* `$webhookUrl`: `string` Webhook URL  
 
 
 
-
-### `setupLogger(): mixed`
+### `setupLogger()`
 
 Setup logger.
 
 
-Fully typed return value:
-```
-void|\Amp\Promise<void>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `sleep(int|float $time): \Amp\Promise`
+### `sleep(float $time)`
 
 Asynchronously sleep.
 
 
 Parameters:
 
-* `$time`: `int|float` Number of seconds to sleep for  
-
-
-#### See also: 
-* `\Amp\Promise`
+* `$time`: `float` Number of seconds to sleep for  
 
 
 
-
-### `some((\Promise|\Generator)[] $promises): \Amp\Promise`
-
-Resolves with a two-item array delineating successful and failed Promise results.
-The returned promise will only fail if the given number of required promises fail.
-
-Parameters:
-
-* `$promises`: `(\Promise|\Generator)[]` Promises  
-
-
-#### See also: 
-* `\Promise`
-* `\Generator`
-* `\Amp\Promise`
-
-
-
-
-### `start(): \Amp\Promise`
+### `start()`
 
 Log in to telegram (via CLI or web).
 
 
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `stop(): mixed`
+### `stop()`
 
 Stop update loop.
 
 
-Fully typed return value:
-```
-void|\Amp\Promise<void>
-```
-#### See also: 
-* `\Amp\Promise`
+
+### `subscribeToUpdates(): \bool False if we were already subscribed`
+
+Subscribe to event handler updates for a channel/supergroup we're not a member of.
 
 
+Return value: False if we were already subscribed
 
 
-### `tdToMTProto(array $params): \Amp\Promise<array>`
+### `tdToMTProto(array $params)`
 
 Convert TD to MTProto parameters.
 
@@ -2622,11 +1710,6 @@ Convert TD to MTProto parameters.
 Parameters:
 
 * `$params`: `array` Parameters  
-
-
-#### See also: 
-* `\Amp\Promise`
-
 
 
 
@@ -2641,75 +1724,25 @@ Parameters:
 
 
 
-### `tdcliToTd(array $params, array $key): mixed`
+### `tdcliToTd(mixed $params, array $key)`
 
 Convert tdcli parameters to tdcli.
 
 
 Parameters:
 
-* `$params`: `array` Params  
+* `$params`: `mixed` Params  
 * `$key`: `array` Key  
 
 
-Fully typed return value:
-```
-array|\Amp\Promise<array>
-```
-#### See also: 
-* `\Amp\Promise`
+
+### `testFibers(): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`
+
+Test fibers.
 
 
 
-
-### `timeout(\Generator|\Promise $promise, int $timeout): \Amp\Promise`
-
-Create an artificial timeout for any \Generator or Promise.
-
-
-Parameters:
-
-* `$promise`: `\Generator|\Promise`   
-* `$timeout`: `int`   
-
-
-#### See also: 
-* `\Generator`
-* `\Promise`
-* `\Amp\Promise`
-
-
-
-
-### `timeoutWithDefault(\Promise|\Generator $promise, int $timeout): \Amp\Promise<\TReturn>|\Promise<\TReturnAlt>`
-
-Creates an artificial timeout for any `Promise`.
-If the promise is resolved before the timeout expires, the result is returned
-
-If the timeout expires before the promise is resolved, a default value is returned
-
-Parameters:
-
-* `$promise`: `\Promise|\Generator` Promise to which the timeout is applied.  
-  Full type:
-  ```
-  \Promise<\TReturn>|\TGenerator
-  ```
-* `$timeout`: `int` Timeout in milliseconds.  
-
-
-#### See also: 
-* `\Promise`
-* `\Generator`
-* `\TReturn`
-* `\TGenerator`
-* `\TReturnAlt`
-* `\Amp\Promise`
-
-
-
-
-### `toCamelCase(string $input): string`
+### `toCamelCase(string $input)`
 
 Convert to camelCase.
 
@@ -2720,7 +1753,7 @@ Parameters:
 
 
 
-### `toSnakeCase(string $input): string`
+### `toSnakeCase(string $input)`
 
 Convert to snake_case.
 
@@ -2731,7 +1764,7 @@ Parameters:
 
 
 
-### `toSupergroup(int $id): int`
+### `toSupergroup(int $id)`
 
 Convert MTProto channel ID to bot API channel ID.
 
@@ -2742,7 +1775,7 @@ Parameters:
 
 
 
-### `typeEscape(string $type): string`
+### `typeEscape(string $type)`
 
 Escape type name.
 
@@ -2753,7 +1786,7 @@ Parameters:
 
 
 
-### `unpackDouble(string $value): float`
+### `unpackDouble(string $value)`
 
 Unpack binary double.
 
@@ -2764,7 +1797,7 @@ Parameters:
 
 
 
-### `unpackFileId(string $fileId): mixed`
+### `unpackFileId(string $fileId): \array Unpacked file ID`
 
 Unpack bot API file ID.
 
@@ -2774,17 +1807,10 @@ Parameters:
 * `$fileId`: `string` Bot API file ID  
 
 
-Fully typed return value:
-```
-array|\Amp\Promise<array>
-```
-#### See also: 
-* `\Amp\Promise`
+Return value: Unpacked file ID
 
 
-
-
-### `unpackSignedInt(string $value): int`
+### `unpackSignedInt(string $value)`
 
 Unpack base256 signed int.
 
@@ -2795,7 +1821,7 @@ Parameters:
 
 
 
-### `unpackSignedLong(string $value): int`
+### `unpackSignedLong(string $value)`
 
 Unpack base256 signed long.
 
@@ -2806,7 +1832,7 @@ Parameters:
 
 
 
-### `unpackSignedLongString(string|int|array $value): string`
+### `unpackSignedLongString(string|int|array $value)`
 
 Unpack base256 signed long to string.
 
@@ -2817,43 +1843,24 @@ Parameters:
 
 
 
-### `unsetEventHandler(bool $disableUpdateHandling): mixed`
+### `unsetEventHandler()`
 
 Unset event handler.
 
 
-Parameters:
 
-* `$disableUpdateHandling`: `bool` Whether to also disable internal update handling (will cause errors, otherwise will simply use the NOOP handler)  
-
-
-Fully typed return value:
-```
-void|\Amp\Promise<void>
-```
-#### See also: 
-* `\Amp\Promise`
-
-
-
-
-### `update2fa(array $params): \Amp\Promise`
+### `update2fa(array{password?: string, new_password?: string, email?: string, hint?: string} $params)`
 
 Update the 2FA password.
 The params array can contain password, new_password, email and hint params.
 
 Parameters:
 
-* `$params`: `array` The params  
-
-
-#### See also: 
-* `\Amp\Promise`
+* `$params`: `array{password?: string, new_password?: string, email?: string, hint?: string}` The params  
 
 
 
-
-### `updateSettings(\danog\MadelineProto\SettingsAbstract $settings): \Amp\Promise`
+### `updateSettings(\danog\MadelineProto\SettingsAbstract $settings)`
 
 Parse, update and store settings.
 
@@ -2865,12 +1872,11 @@ Parameters:
 
 #### See also: 
 * `\danog\MadelineProto\SettingsAbstract`
-* `\Amp\Promise`
 
 
 
 
-### `upload(\danog\MadelineProto\FileCallbackInterface|string|array $file, string $fileName, callable $cb, bool $encrypted): \Amp\Promise`
+### `upload(\danog\MadelineProto\FileCallbackInterface|string|array $file, string $fileName, callable $cb, bool $encrypted)`
 
 Upload file.
 
@@ -2883,18 +1889,13 @@ Parameters:
 * `$encrypted`: `bool` Whether to encrypt file for secret chats  
 
 
-Fully typed return value:
-```
-\Amp\Promise<mixed>
-```
 #### See also: 
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
-* `\Amp\Promise`
 
 
 
 
-### `uploadEncrypted(\danog\MadelineProto\FileCallbackInterface|string|array $file, string $fileName, callable $cb): \Amp\Promise`
+### `uploadEncrypted(\danog\MadelineProto\FileCallbackInterface|string|array $file, string $fileName, callable $cb)`
 
 Upload file to secret chat.
 
@@ -2906,18 +1907,13 @@ Parameters:
 * `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
 
 
-Fully typed return value:
-```
-\Amp\Promise<mixed>
-```
 #### See also: 
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
-* `\Amp\Promise`
 
 
 
 
-### `uploadFromCallable(mixed $callable, int $size, string $mime, string $fileName, callable $cb, bool $seekable, bool $encrypted): \Amp\Promise`
+### `uploadFromCallable(mixed $callable, int $size, string $mime, string $fileName, callable $cb, bool $seekable, bool $encrypted)`
 
 Upload file from callable.
 The callable must accept two parameters: int $offset, int $size
@@ -2934,17 +1930,8 @@ Parameters:
 * `$encrypted`: `bool` Whether to encrypt file for secret chats  
 
 
-Fully typed return value:
-```
-\Amp\Promise<array{_: string, id: string, parts: int, name: string, mime_type: string, key_fingerprint?: mixed, key?: mixed, iv?: mixed, md5_checksum: string}>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `uploadFromStream(mixed $stream, int $size, string $mime, string $fileName, callable $cb, bool $encrypted): \Amp\Promise`
+### `uploadFromStream(mixed $stream, int $size, string $mime, string $fileName, callable $cb, bool $encrypted)`
 
 Upload file from stream.
 
@@ -2959,17 +1946,8 @@ Parameters:
 * `$encrypted`: `bool` Whether to encrypt file for secret chats  
 
 
-Fully typed return value:
-```
-\Amp\Promise<mixed>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `uploadFromTgfile(mixed $media, callable $cb, bool $encrypted): \Amp\Promise`
+### `uploadFromTgfile(mixed $media, callable $cb, bool $encrypted)`
 
 Reupload telegram file.
 
@@ -2981,17 +1959,8 @@ Parameters:
 * `$encrypted`: `bool` Whether to encrypt file for secret chats  
 
 
-Fully typed return value:
-```
-\Amp\Promise<mixed>
-```
-#### See also: 
-* `\Amp\Promise`
 
-
-
-
-### `uploadFromUrl(string|\danog\MadelineProto\FileCallbackInterface $url, int $size, string $fileName, callable $cb, bool $encrypted): \Amp\Promise`
+### `uploadFromUrl(string|\danog\MadelineProto\FileCallbackInterface $url, int $size, string $fileName, callable $cb, bool $encrypted)`
 
 Upload file from URL.
 
@@ -3005,18 +1974,13 @@ Parameters:
 * `$encrypted`: `bool` Whether to encrypt file for secret chats  
 
 
-Fully typed return value:
-```
-\Amp\Promise<mixed>
-```
 #### See also: 
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
-* `\Amp\Promise`
 
 
 
 
-### `viewSponsoredMessage(int|array $peer): \Amp\Promise Bool`
+### `viewSponsoredMessage(int|array $peer, string|array{random_id: string} $message)`
 
 Mark sponsored message as read.
 
@@ -3024,66 +1988,7 @@ Mark sponsored message as read.
 Parameters:
 
 * `$peer`: `int|array` Channel ID, or Update, or Message, or Peer.  
-
-
-Return value: Bool
-
-
-### `wait(\Generator|\Promise $promise, bool $ignoreSignal)`
-
-Synchronously wait for a promise|generator.
-
-
-Parameters:
-
-* `$promise`: `\Generator|\Promise` The promise to wait for  
-* `$ignoreSignal`: `bool` Whether to ignore shutdown signals  
-
-
-#### See also: 
-* `\Generator`
-* `\Promise`
-
-
-
-
-### `async(bool $async)`
-
-Enable or disable async.
-
-
-Parameters:
-
-* `$async`: `bool` Whether to enable or disable async  
-
-
-
-### `init()`
-
-Blockingly init.
-
-
-
-### `initAsynchronously()`
-
-Asynchronously init.
-
-
-
-### `inited(): bool`
-
-Check if we've already inited.
-
-
-
-### `forceInit(bool $inited)`
-
-Mark instance as (de)inited forcefully.
-
-
-Parameters:
-
-* `$inited`: `bool` Whether to mark the instance as inited or deinited  
+* `$message`: `string|array{random_id: string}` Random ID or sponsored message to mark as read.  
 
 
 

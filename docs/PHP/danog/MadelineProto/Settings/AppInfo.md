@@ -17,7 +17,7 @@ App information.
 
 
 ## Method list:
-* `hasApiInfo(): bool`
+* `hasApiInfo()`
 * `getApiId()`
 * `setApiId(int $apiId)`
 * `getApiHash()`
@@ -34,7 +34,7 @@ App information.
 * `setLangPack(string $langPack)`
 
 ## Methods:
-### `hasApiInfo(): bool`
+### `hasApiInfo()`
 
 Check if the settings have API ID/hash information.
 

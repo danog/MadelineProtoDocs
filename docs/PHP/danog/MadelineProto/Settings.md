@@ -18,9 +18,6 @@ Settings class used for configuring MadelineProto.
 
 ## Method list:
 * `merge(\danog\MadelineProto\SettingsAbstract $settings)`
-* `getDefaultDc(): int`
-* `getDefaultDcParams()`
-* `setDefaultDc(int $dc)`
 * `getAppInfo()`
 * `setAppInfo(\danog\MadelineProto\Settings\AppInfo $appInfo)`
 * `getAuth()`
@@ -64,29 +61,6 @@ Parameters:
 #### See also: 
 * `\danog\MadelineProto\SettingsAbstract`
 
-
-
-
-### `getDefaultDc(): int`
-
-Get default DC ID.
-
-
-
-### `getDefaultDcParams()`
-
-Get default DC params.
-
-
-
-### `setDefaultDc(int $dc)`
-
-Set default DC ID.
-
-
-Parameters:
-
-* `$dc`: `int` DC ID  
 
 
 

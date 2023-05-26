@@ -1,37 +1,30 @@
 ---
-title: "danog\\MadelineProto\\Settings\\Database\\SqlAbstract: Generic db backend settings."
+title: "danog\\MadelineProto\\Settings\\Database\\DriverDatabaseAbstract: Base class for database backends."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
 ---
-# `danog\MadelineProto\Settings\Database\SqlAbstract`
+# `danog\MadelineProto\Settings\Database\DriverDatabaseAbstract`
 [Back to index](../../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Generic db backend settings.  
+Base class for database backends.  
 
 
 
 
 ## Method list:
-* `getMaxConnections()`
-* `setMaxConnections(int $maxConnections)`
-* `getIdleTimeout()`
-* `setIdleTimeout(int $idleTimeout)`
-* `getDatabase()`
-* `setDatabase(string $database)`
-* `getUsername()`
-* `setUsername(string $username)`
-* `getUri()`
-* `setUri(string $uri)`
 * `getKey()`
 * `getCacheTtl()`
 * `setCacheTtl(int|string $cacheTtl)`
 * `getPassword()`
 * `setPassword(string $password)`
+* `getDatabase()`
+* `getUri()`
+* `setUri()`
 * `setSerializer()`
 * `getEnableFileReferenceDb()`
 * `setEnableFileReferenceDb(bool $enableFileReferenceDb)`
@@ -45,91 +38,6 @@ Generic db backend settings.
 * `setEnablePeerInfoDb(bool $enablePeerInfoDb)`
 
 ## Methods:
-### `getMaxConnections()`
-
-Get maximum connection limit.
-
-
-
-### `setMaxConnections(int $maxConnections)`
-
-Set maximum connection limit.
-
-
-Parameters:
-
-* `$maxConnections`: `int` Maximum connection limit.  
-
-
-
-### `getIdleTimeout()`
-
-Get idle timeout.
-
-
-
-### `setIdleTimeout(int $idleTimeout)`
-
-Set idle timeout.
-
-
-Parameters:
-
-* `$idleTimeout`: `int` Idle timeout.  
-
-
-
-### `getDatabase()`
-
-Get database name.
-
-
-
-### `setDatabase(string $database)`
-
-Set database name.
-
-
-Parameters:
-
-* `$database`: `string` Database name.  
-
-
-
-### `getUsername()`
-
-Get username.
-
-
-
-### `setUsername(string $username)`
-
-Set username.
-
-
-Parameters:
-
-* `$username`: `string` Username.  
-
-
-
-### `getUri()`
-
-Get database URI.
-
-
-
-### `setUri(string $uri)`
-
-Set database URI.
-
-
-Parameters:
-
-* `$uri`: `string` Database URI.  
-
-
-
 ### `getKey()`
 
 Get DB key.
@@ -171,6 +79,24 @@ Set password.
 Parameters:
 
 * `$password`: `string` Password.  
+
+
+
+### `getDatabase()`
+
+Get database name/ID.
+
+
+
+### `getUri()`
+
+Get database URI.
+
+
+
+### `setUri()`
+
+Set database URI.
 
 
 

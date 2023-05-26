@@ -17,8 +17,6 @@ Memory backend settings.
 
 
 ## Method list:
-* `getCleanup()`
-* `setCleanup(bool $cleanup)`
 * `getEnableFileReferenceDb()`
 * `setEnableFileReferenceDb(bool $enableFileReferenceDb)`
 * `getEnableMinDb()`
@@ -31,23 +29,6 @@ Memory backend settings.
 * `setEnablePeerInfoDb(bool $enablePeerInfoDb)`
 
 ## Methods:
-### `getCleanup()`
-
-Get whether to cleanup the memory before serializing.
-
-
-
-### `setCleanup(bool $cleanup)`
-
-Set whether to cleanup the memory before serializing.
-
-
-Parameters:
-
-* `$cleanup`: `bool` Whether to cleanup the memory before serializing.  
-
-
-
 ### `getEnableFileReferenceDb()`
 
 Get whether to enable the file reference database. If disabled, will break file downloads.

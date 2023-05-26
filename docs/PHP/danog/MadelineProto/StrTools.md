@@ -21,8 +21,8 @@ Some tools.
 
 
 ## Method list:
-* `mbStrlen(string $text): float|int`
-* `mbSubstr(string $text, int $offset, ?int $length)`
+* `mbStrlen(string $text)`
+* `mbSubstr(string $text, int $offset, null|int $length)`
 * `mbStrSplit(string $text, int $length): string[]`
 * `toCamelCase(string $input)`
 * `toSnakeCase(string $input)`
@@ -36,7 +36,7 @@ Some tools.
 * `getMimeFromBuffer(string $buffer)`
 
 ## Methods:
-### `mbStrlen(string $text): float|int`
+### `mbStrlen(string $text)`
 
 Get Telegram UTF-8 length of string.
 
@@ -47,7 +47,7 @@ Parameters:
 
 
 
-### `mbSubstr(string $text, int $offset, ?int $length)`
+### `mbSubstr(string $text, int $offset, null|int $length)`
 
 Telegram UTF-8 multibyte substring.
 
@@ -56,7 +56,7 @@ Parameters:
 
 * `$text`: `string` Text to substring  
 * `$offset`: `int` Offset  
-* `$length`: `?int` Length  
+* `$length`: `null|int` Length  
 
 
 

@@ -23,16 +23,11 @@ Connection settings.
 * `setIpv6(bool $ipv6)`
 * `getSslSubdomains()`
 * `setSslSubdomains(array $sslSubdomains)`
-* `getMinMediaSocketCount()`
-* `setMinMediaSocketCount(int $minMediaSocketCount)`
 * `getMaxMediaSocketCount()`
 * `setMaxMediaSocketCount(int $maxMediaSocketCount)`
 * `getRobinPeriod()`
 * `setRobinPeriod(int $robinPeriod)`
-* `getDefaultDc()`
-* `getDefaultDcParams()`
-* `setDefaultDc(int $defaultDc)`
-* `getProxies()`
+* `getProxies(): array<class-string<\danog\MadelineProto\Stream\StreamInterface>, array>`
 * `addProxy(class-string<\danog\MadelineProto\Stream\StreamInterface> $proxy, array $extra)`
 * `setProxy(array $proxies)`
 * `clearProxies()`
@@ -46,13 +41,13 @@ Connection settings.
 * `getRetry()`
 * `setRetry(bool $retry)`
 * `getTimeout()`
-* `setTimeout(int $timeout)`
+* `setTimeout(float $timeout)`
 * `getPingInterval()`
 * `setPingInterval(int $pingInterval)`
 * `getUseDoH()`
 * `setUseDoH(bool $useDoH)`
-* `getBindTo(): ?string`
-* `setBindTo(?string $bindTo)`
+* `getBindTo()`
+* `setBindTo(null|string $bindTo)`
 
 ## Methods:
 ### `getProtocol()`
@@ -156,23 +151,6 @@ Parameters:
 
 
 
-### `getMinMediaSocketCount()`
-
-Get minimum media socket count.
-
-
-
-### `setMinMediaSocketCount(int $minMediaSocketCount)`
-
-Set minimum media socket count.
-
-
-Parameters:
-
-* `$minMediaSocketCount`: `int` Minimum media socket count.  
-
-
-
 ### `getMaxMediaSocketCount()`
 
 Get maximum media socket count.
@@ -207,38 +185,11 @@ Parameters:
 
 
 
-### `getDefaultDc()`
-
-Get default DC ID.
-
-
-
-### `getDefaultDcParams()`
-
-Get default DC params.
-
-
-
-### `setDefaultDc(int $defaultDc)`
-
-Set default DC ID.
-
-
-Parameters:
-
-* `$defaultDc`: `int` Default DC ID.  
-
-
-
-### `getProxies()`
+### `getProxies(): array<class-string<\danog\MadelineProto\Stream\StreamInterface>, array>`
 
 Get proxy identifiers.
 
 
-Fully typed return value:
-```
-array<class-string<\danog\MadelineProto\Stream\StreamInterface>, array>
-```
 #### See also: 
 * `\danog\MadelineProto\Stream\StreamInterface`
 
@@ -375,14 +326,14 @@ Get connection timeout.
 
 
 
-### `setTimeout(int $timeout)`
+### `setTimeout(float $timeout)`
 
 Set connection timeout.
 
 
 Parameters:
 
-* `$timeout`: `int` Connection timeout.  
+* `$timeout`: `float` Connection timeout.  
 
 
 
@@ -420,20 +371,20 @@ Parameters:
 
 
 
-### `getBindTo(): ?string`
+### `getBindTo()`
 
 Get bind on specific address and port.
 
 
 
-### `setBindTo(?string $bindTo)`
+### `setBindTo(null|string $bindTo)`
 
 Set bind on specific address and port.
 
 
 Parameters:
 
-* `$bindTo`: `?string` Bind on specific address and port.  
+* `$bindTo`: `null|string` Bind on specific address and port.  
 
 
 

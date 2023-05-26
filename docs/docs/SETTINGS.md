@@ -1,7 +1,7 @@
 ---
 title: "Settings"
 description: "MadelineProto has lots of settings that can be used to modify the behaviour of the library.  "
-nav_order: 11
+nav_order: 12
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Settings

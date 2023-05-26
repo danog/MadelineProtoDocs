@@ -22,7 +22,7 @@ Clickable button.
 * `offsetSet(mixed $name, mixed $value)`
 * `offsetGet(mixed $name)`
 * `offsetUnset(mixed $name)`
-* `offsetExists(mixed $name): bool`
+* `offsetExists(mixed $name)`
 
 ## Methods:
 ### `click(bool $donotwait)`
@@ -76,7 +76,7 @@ Parameters:
 
 
 
-### `offsetExists(mixed $name): bool`
+### `offsetExists(mixed $name)`
 
 Check if button field exists.
 

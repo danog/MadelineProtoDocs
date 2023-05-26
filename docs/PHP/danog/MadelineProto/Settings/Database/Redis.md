@@ -26,6 +26,7 @@ Redis backend settings.
 * `setCacheTtl(int|string $cacheTtl)`
 * `getPassword()`
 * `setPassword(string $password)`
+* `setSerializer()`
 * `getEnableFileReferenceDb()`
 * `setEnableFileReferenceDb(bool $enableFileReferenceDb)`
 * `getEnableMinDb()`
@@ -114,6 +115,12 @@ Parameters:
 
 * `$password`: `string` Password.  
 
+
+
+### `setSerializer()`
+
+Which serializer to use by default.
+If null, the best serializer is chosen.
 
 
 ### `getEnableFileReferenceDb()`
