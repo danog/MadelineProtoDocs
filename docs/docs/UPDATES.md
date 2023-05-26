@@ -409,7 +409,7 @@ $MadelineProto->setWebhook('https://example.com');
 
 ## (Not recommended) getUpdates
 
-Useful when consuming MadelineProto updates through an API, **absolutely not recommended when directly writing MadelineProto bots**.  
+Only useful when consuming MadelineProto updates through an API, **absolutely not recommended when directly writing MadelineProto bots**.  
 
 `getUpdates` will **greatly slow down your bot** if used directly inside of PHP code.  
 
