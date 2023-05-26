@@ -114,19 +114,8 @@ An optional `filter` parameter can also be used, specifying a [peer filter](#fil
 
 ```php
 <?php
-if (!file_exists('madeline.php')) {
-    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
-}
-include 'madeline.php';
 
-use danog\MadelineProto\API;
-use danog\MadelineProto\Broadcast\Action;
-
-$MadelineProto = new API('bot.madeline');
-
-// Works OK with both bots and userbots
-$MadelineProto->start();
-
+// This class MUST be autoloadable via composer
 final class CustomBroadcastAction implements Action {
     public function __construct(private API $API, private string $message) {}
     public function act(int $broadcastId, int $peer, Cancellation $cancellation): void
@@ -160,6 +149,7 @@ final class CustomBroadcastAction implements Action {
     }
 }
 
+// In some other file...
 $id = $MadelineProto->broadcastCustom(new CustomBroadcastAction($MadelineProto, 'This broadcast is powered by @MadelineProto!'));
 ```
 
