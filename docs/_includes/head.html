@@ -7,18 +7,6 @@
   <link rel="preload" href="{{ '/assets/css/just-the-docs-dark.css' | relative_url }}?v=2" as="style">
   <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-light.css' | relative_url }}?v=2">
 
-  {% if site.ga_tracking != nil %}
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_tracking }}"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', '{{ site.ga_tracking }}'{% unless site.ga_tracking_anonymize_ip == nil %}, { 'anonymize_ip': true }{% endunless %});
-    </script>
-
-  {% endif %}
-
   {% if site.search_enabled != false %}
   <script src="https://unpkg.com/lunr/lunr.js"></script>
   {% endif %}

@@ -182,7 +182,8 @@ $id = $MadelineProto->broadcastForwardMessages(
         allowBots: false,
         allowGroups: true,
         allowChannels: false,
-        blacklist: [] // Optional
+        blacklist: [], // Optional
+        whitelist: null // Optional array, if null all IDs are allowed (equivalent to *)
     )
 );
 ```
