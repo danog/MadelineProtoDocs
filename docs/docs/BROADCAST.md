@@ -208,7 +208,7 @@ if ($progress !== null) {
     assert($progress instanceof Progress);
 
     $progressStr = (string) $progress;
-    echo "Human-readable progress: $progressStr";
+    echo "Human-readable progress: $progressStr".PHP_EOL;
 
     // 123
     $broadcastId = $progress->broadcastId;
