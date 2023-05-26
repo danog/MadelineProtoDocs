@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 MadelineProto can be used to broadcast messages to all users, chats and channels of a bot or userbot.  
 
-Note that **unlike the bot API**, MadelineProto **can** be used to fetch the full list of users, chats and channels of a normal bot, simply using its bot token.  
+Note that unlike the bot API, MadelineProto can be used to fetch the full list of users, chats and channels of a **normal bot, simply using its bot token**.  
 
 ## Broadcast API
 
