@@ -401,23 +401,26 @@ This is the default.
 Useful when consuming MadelineProto updates through an API, **not recommended when directly writing MadelineProto bots**.  
 
 ```php
-
 $MadelineProto = new \danog\MadelineProto\API('bot.madeline');
 
 $MadelineProto->setWebhook('https://example.com');
 ```
 
-## (Not recommended) getUpdates
+## getUpdates
 
-Only useful when consuming MadelineProto updates through an API, **absolutely not recommended when directly writing MadelineProto bots**.  
+Only useful when consuming MadelineProto updates through an API in another language (like Javascript), **absolutely not recommended when directly writing MadelineProto bots**.  
 
 `getUpdates` will **greatly slow down your bot** if used directly inside of PHP code.  
 
-**Only use the [event handler](#async-event-driven) when writing a MadelineProto bot**, because the event handler is completely parallelized and non-blocking, while `getUpdates` **will block the entire bot every time an update is received, which will cause crashes due to suspension of the event loop**.  
+**Only use the [event handler](#async-event-driven) when writing a MadelineProto bot**, because update handling in the **event handler** is completely parallelized and non-blocking.
 
 ```php
-
 $MadelineProto = new \danog\MadelineProto\API('bot.madeline');
+
+// NOT recommended when directly writing MadelineProto bots.
+// ONLY use when exposing updates via an HTTP API to another language (like Javascript).
+
+// DO NOT use this to handle updates in PHP code, it will cause crashes.
 
 // Same parameters as for bot API getUpdates
 echo json_encode($MadelineProto->getUpdates($_GET));
