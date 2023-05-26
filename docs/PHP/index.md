@@ -41,6 +41,7 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\Settings: Settings class used for configuring MadelineProto.](/PHP/danog/MadelineProto/Settings.html)
 * [\danog\MadelineProto\Shutdown: Class that controls script shutdown.](/PHP/danog/MadelineProto/Shutdown.html)
 * [\danog\MadelineProto\VoIPServerConfig: Manages storage of VoIP server config.](/PHP/danog/MadelineProto/VoIPServerConfig.html)
+* [\danog\MadelineProto\Broadcast\Filter: Broadcast filter.](/PHP/danog/MadelineProto/Broadcast/Filter.html)
 * [\danog\MadelineProto\Broadcast\Progress: Broadcast progress.](/PHP/danog/MadelineProto/Broadcast/Progress.html)
 * [\danog\MadelineProto\Broadcast\Status: Broadcast status.](/PHP/danog/MadelineProto/Broadcast/Status.html)
 * [\danog\MadelineProto\RPCError\FloodWaitError: Represents a FLOOD_WAIT_ RPC error returned by telegram.](/PHP/danog/MadelineProto/RPCError/FloodWaitError.html)

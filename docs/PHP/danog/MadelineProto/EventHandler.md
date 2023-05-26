@@ -105,6 +105,7 @@ Event handler.
 * `getSettings()`
 * `getSponsoredMessages(int|string|array $peer)`
 * `getTL()`
+* `getType(mixed $id): \"user"|\"bot"|\"chat"|\"supergroup"|\"channel"`
 * `getUpdates(array{offset?: int, limit?: int, timeout?: float} $params): list<array{update_id: mixed, update: mixed}>`
 * `getVar(object $obj, string $var)`
 * `getWebMessage()`
@@ -1148,6 +1149,17 @@ Parameters:
 ### `getTL()`
 
 Get TL serializer.
+
+
+
+### `getType(mixed $id): \"user"|\"bot"|\"chat"|\"supergroup"|\"channel"`
+
+Get type of peer
+
+
+Parameters:
+
+* `$id`: `mixed`   
 
 
 
