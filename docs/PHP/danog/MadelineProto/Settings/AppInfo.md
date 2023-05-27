@@ -32,6 +32,8 @@ App information.
 * `setLangCode(string $langCode)`
 * `getLangPack()`
 * `setLangPack(string $langPack)`
+* `getShowPrompt(): bool`
+* `setShowPrompt(bool $showPrompt): self`
 
 ## Methods:
 ### `hasApiInfo()`
@@ -156,6 +158,23 @@ Set language pack.
 Parameters:
 
 * `$langPack`: `string` Language pack.  
+
+
+
+### `getShowPrompt(): bool`
+
+Get whether to show a prompt, asking to enter an API ID/API hash if none is provided.
+
+
+
+### `setShowPrompt(bool $showPrompt): self`
+
+Set whether to show a prompt, asking to enter an API ID/API hash if none is provided.
+
+
+Parameters:
+
+* `$showPrompt`: `bool` Whether to show a prompt, asking to enter an API ID/API hash if none is provided.  
 
 
 

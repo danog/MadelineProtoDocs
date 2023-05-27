@@ -252,6 +252,13 @@ The callable must return a string with the contest of the file at the specified 
 
 More optional parameters are available, check the PHPDOC of the method in your IDE.  
 
+You can also re-use a media received in a message or update, for example in the [event handler](https://docs.madelineproto.xyz/docs/UPDATES.html):  
+
+```php
+$inputFile = $update;
+$inputFile = $message;
+```
+
 ---
 
 The generated `$inputFile` can later be reused thusly:
@@ -306,6 +313,27 @@ $sentMessage = $MadelineProto->messages->sendMedia([
 ]);
 ```
 
+## Forwarding protected content
+
+Protected content can be forwarded by simply providing the `$Update` with the file to the sendMedia method thusly:  
+
+```php
+$sentMessage = $MadelineProto->messages->sendMedia([
+    'peer' => '@danogentili',
+    'media' => [
+        '_' => 'inputMediaUploadedDocument',
+        'file' => $Update,
+        'attributes' => [
+            ['_' => 'documentAttributeFilename', 'file_name' => $newName]
+        ]
+    ],
+    'message' => '[This is the caption](https://t.me/MadelineProto)',
+    'parse_mode' => 'Markdown'
+]);
+```
+
+You can also download protected content as described [here &raquo;](#downloading-files).  
+
 ## Downloading files
 
 There are multiple download methods that allow you to download a file to a directory, to a file or to a stream.  
@@ -340,7 +368,9 @@ The result (which is in the same format as `getDownloadInfo`) should the be pass
 $output_file_name = $MadelineProto->downloadToDir($MessageMedia, '/tmp/');
 ```
 
-This downloads the given file to `/tmp`, and returns the full generated file path.
+This downloads the given file to `/tmp`, and returns the full generated file path.  
+
+**Note**: if downloading files that will be re-downloaded by the user, use [downloadToBrowser](#download-to-browser), instead: [downloadToBrowser](#download-to-browser) will avoid the creation of temporary files, streaming the file directly to the user.  
 
 `$MessageMedia` can be either a [Message](https://docs.madelineproto.xyz/API_docs/types/Message.html), an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html), a [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object, or a bot API file ID.
 
@@ -348,6 +378,8 @@ This downloads the given file to `/tmp`, and returns the full generated file pat
 ```php
 $output_file_name = $MadelineProto->downloadToFile($MessageMedia, '/tmp/myname.mp4');
 ```
+
+**Note**: if downloading files that will be re-downloaded by the user, use [downloadToBrowser](#download-to-browser), instead: [downloadToBrowser](#download-to-browser) will avoid the creation of temporary files, streaming the file directly to the user.  
 
 This downloads the given file to `/tmp/myname.mp4`, and returns the full file path.
 
