@@ -73,7 +73,11 @@ The following tags are currently supported:
 <a href="https://github.com">URL</a>
 <a href="mention:@danogentili">Mention by username</a>
 <a href="mention:186785362">Mention by user id</a>
+Custom emoji: <emoji id="5368324170671202286">👍</emoji>
+Custom emoji: <tg-emoji emoji-id="5368324170671202286">👍</tg-emoji>
 <pre language="json">Pre tags can have a language attribute</pre>
+<spoiler>Spoiler</spoiler>
+<tg-spoiler>Spoiler</tg-spoiler>
 ```
 
 You can also use normal markdown, note that to create mentions you must use the `mention:` syntax like in html:  
@@ -81,6 +85,8 @@ You can also use normal markdown, note that to create mentions you must use the 
 ```markdown
 [Mention by username](mention:@danogentili)
 [Mention by user id](mention:186785362)
+[👍](emoji:5368324170671202286)
+[👍](tg://emoji?id=5368324170671202286)
 ```
 
 MadelineProto supports all html entities supported by [html_entity_decode](http://php.net/manual/en/function.html-entity-decode.php).
