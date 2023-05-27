@@ -32,7 +32,7 @@ App information.
 * `setLangCode(string $langCode)`
 * `getLangPack()`
 * `setLangPack(string $langPack)`
-* `getShowPrompt(): bool`
+* `getShowPrompt()`
 * `setShowPrompt(bool $showPrompt): self`
 
 ## Methods:
@@ -161,7 +161,7 @@ Parameters:
 
 
 
-### `getShowPrompt(): bool`
+### `getShowPrompt()`
 
 Get whether to show a prompt, asking to enter an API ID/API hash if none is provided.
 

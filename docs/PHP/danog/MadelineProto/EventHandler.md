@@ -32,7 +32,7 @@ Event handler.
 * `botAPIToMTProto(array $arguments)`
 * `botLogin(string $token)`
 * `broadcastCustom(\Action $action)`
-* `broadcastForwardMessages(mixed $from_peer, list<int> $ids, bool $drop_author)`
+* `broadcastForwardMessages(mixed $from_peer, list<int> $message_ids, bool $drop_author)`
 * `broadcastMessages(array $messages)`
 * `callStatus(int $id)`
 * `cancelBroadcast(int $id)`
@@ -373,7 +373,7 @@ Parameters:
 
 
 
-### `broadcastForwardMessages(mixed $from_peer, list<int> $ids, bool $drop_author)`
+### `broadcastForwardMessages(mixed $from_peer, list<int> $message_ids, bool $drop_author)`
 
 Forwards a list of messages to all peers (users, chats, channels) of the bot.
 Will return an integer ID that can be used to:
@@ -388,7 +388,7 @@ containing a Progress object for all broadcasts currently in-progress.
 Parameters:
 
 * `$from_peer`: `mixed` Bot API ID or Update, from where to forward the messages.  
-* `$ids`: `list<int>` IDs of the messages to forward.  
+* `$message_ids`: `list<int>` IDs of the messages to forward.  
 * `$drop_author`: `bool` If true, will forward messages without quoting the original author.  
 
 

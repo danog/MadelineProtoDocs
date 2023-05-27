@@ -41,17 +41,27 @@ $MadelineProto = new \danog\MadelineProto\API('bot.madeline');
 // Works OK with both bots and userbots
 $MadelineProto->start();
 
+// Let's forward two messages from the @MadelineProto channel!
+// Channel ID: @MadelineProto
+// Message ID 1: 614
+// Message ID 2: 613
+// Link 1: https://t.me/MadelineProto/613
+// Link 2: https://t.me/MadelineProto/614
+
+$from_peer = '@MadelineProto'; // Can also be a numeric bot API ID
+$message_ids = [613, 614];
+
 // Send messages, showing the "Forwarded from" header
 $id = $MadelineProto->broadcastForwardMessages(
-    from_peer: 101374607,
-    ids: [1, 2, 3, 4],
+    from_peer: $from_peer,
+    message_ids: $message_ids,
     drop_author: false,
 );
 
 // Send messages WITHOUT showing the "Forwarded from" header
 $id = $MadelineProto->broadcastForwardMessages(
-    from_peer: 101374607,
-    ids: [1, 2, 3, 4],
+    from_peer: $from_peer,
+    message_ids: $message_ids,
     drop_author: true,
 );
 ```
