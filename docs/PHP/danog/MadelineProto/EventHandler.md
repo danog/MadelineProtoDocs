@@ -162,7 +162,7 @@ Event handler.
 * `sleep(float $time)`
 * `start()`
 * `stop()`
-* `subscribeToUpdates(): \bool False if we were already subscribed`
+* `subscribeToUpdates(mixed $channel): \bool False if we were already subscribed`
 * `tdToMTProto(array $params)`
 * `tdToTdcli(mixed $params)`
 * `tdcliToTd(mixed $params, array $key)`
@@ -1706,9 +1706,14 @@ Stop update loop.
 
 
 
-### `subscribeToUpdates(): \bool False if we were already subscribed`
+### `subscribeToUpdates(mixed $channel): \bool False if we were already subscribed`
 
 Subscribe to event handler updates for a channel/supergroup we're not a member of.
+
+
+Parameters:
+
+* `$channel`: `mixed` Channel/supergroup to subscribe to  
 
 
 Return value: False if we were already subscribed
