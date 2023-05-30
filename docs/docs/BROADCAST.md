@@ -127,6 +127,10 @@ An optional `filter` parameter can also be used, specifying a [peer filter](#fil
 ```php
 <?php
 
+use danog\MadelineProto\API;
+use danog\MadelineProto\Broadcast\Action;
+use Amp\Cancellation;
+
 // This class MUST be autoloadable via composer
 final class CustomBroadcastAction implements Action {
     public function __construct(private API $API, private string $message) {}
