@@ -43,8 +43,10 @@ services:
   bot:
     image: hub.madelineproto.xyz/danog/madelineproto
     restart: unless-stopped
+    tty: true
     volumes:
       - .:/app
+    command: php /app/bot.php
 ```
 
 Then, create a `bot.php` file with your code, and run this command to log into the bot:
@@ -53,7 +55,7 @@ Then, create a `bot.php` file with your code, and run this command to log into t
 docker run --rm -it --init -v $PWD:/app hub.madelineproto.xyz/danog/madelineproto php /app/bot.php
 ```
 
-After logging in, press ctrl-C to close the temporary container.
+After logging in, press ctrl-c to close the temporary container.
 
 Then, simply run this command to start the bot in the background.
 
@@ -61,7 +63,7 @@ Then, simply run this command to start the bot in the background.
 docker-compose up --pull always -d
 ```
 
-Use `docker-compose ps` to view the status of your bot.  
+Use `docker-compose logs` to view MadelineProto logs and `docker-compose ps` to view the status of your bot.  
 
 ## Ubuntu
 
