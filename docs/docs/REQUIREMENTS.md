@@ -21,7 +21,7 @@ Running via docker is highly recommended, see [here &raquo;] for more info on ho
 
 Otherwise, see [here &raquo;]() for more info on how to install MadelineProto dependencies on Ubuntu.  
 
-## Docker
+## Docker (recommended)
 
 MadelineProto offers an official MadelineProto docker image for the `linux/amd64`, `linux/arm64` and `linux/riscv64` platforms.  
 
@@ -34,7 +34,14 @@ sudo apt-get update
 sudo apt-get install docker.io docker-compose -y
 ```
 
-Then create the following `docker-compose.yml` file:
+Then increase the `max_map_count` sysctl configuration to avoid "Fiber stack allocate failed" and "Fiber stack protect failed" errors, since the PHP engine mmaps two memory regions per fiber.  
+
+```bash
+echo 262144 | sudo tee /proc/sys/vm/max_map_count
+echo vm.max_map_count=262144 | sudo tee /etc/sysctl.d/40-madelineproto.conf
+```
+
+Then, create the following `docker-compose.yml` file:
 
 ```yml
 version: "3.7"
@@ -57,7 +64,7 @@ docker run --rm -it --init -v $PWD:/app hub.madelineproto.xyz/danog/madelineprot
 
 After logging in, press ctrl-c to close the temporary container.
 
-Then, simply run this command to start the bot in the background.
+Finally, simply run this command to start the bot in the background.
 
 ```bash
 docker-compose up --pull always -d
