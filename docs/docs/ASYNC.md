@@ -92,8 +92,8 @@ class EventHandler extends \danog\MadelineProto\EventHandler
 ### Ignored async
 
 ```php
-\Revolt\EventLoop::queue($MadelineProto->messages->sendMessage(...), peer: '@danogentili', message: 'a');
-\Revolt\EventLoop::queue($MadelineProto->messages->sendMessage(...), peer: '@danogentili', message: 'b');
+\Revolt\EventLoop::queue($MadelineProto->messages->sendMessage(...), ['peer' => '@danogentili', 'message' => 'a']);
+\Revolt\EventLoop::queue($MadelineProto->messages->sendMessage(...), ['peer' => '@danogentili', 'message' => 'b']);
 ```
 
 You can use the above syntax if don't want the request to block, and you don't need the result of the function.  
@@ -195,14 +195,14 @@ $result = $MadelineProto->fileGetContents('https://myurl');
 Useful if you need to start a process in the background.  
 
 ```php
-\Revolt\EventLoop::queue($MadelineProto->messages->sendMessage(...), peer: 'danogentili', message: 'test');
+\Revolt\EventLoop::queue($MadelineProto->messages->sendMessage(...), ['peer' => 'danogentili', 'message' => 'test']);
 ```
 
 If the method throws an exception, it will surface out of the event loop, unless it's intercepted by the configured Revolt exception handler ([startAndLoop](https://docs.madelineproto.xyz/docs/UPDATES.html) automatically sets up an exception handler that reports exception to the userbot's admin).  
 This is usually not good practice, so it's best to use `\Amp\async` instead, which returns a future that will resolve or fail according to the result of the function.  
 
 ```php
-$future = \Amp\async($MadelineProto->messages->sendMessage(...), peer: 'danogentili', message: 'test');
+$future = \Amp\async($MadelineProto->messages->sendMessage(...), ['peer' => 'danogentili', 'message' => 'test']);
 // Use $future to register a callback with catch, use it with combinator functions, and much more...
 ```
 
