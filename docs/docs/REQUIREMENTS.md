@@ -17,13 +17,15 @@ I **don't recommend using Windows**: MadelineProto generally works on Windows, t
 
 Running on webservers and webhosts is fully supported, but I highly recommend running long-running applications like [event handler bots](https://docs.madelineproto.xyz/docs/UPDATES.html) via CLI.  
 
-Running via docker is highly recommended, see [here &raquo;] for more info on how to run MadelineProto in docker, on any Linux distro.  
+Running via docker is highly recommended, see [here &raquo;](#docker-recommended) for more info on how to run MadelineProto in docker, on any Linux distro.  
 
-Otherwise, see [here &raquo;]() for more info on how to install MadelineProto dependencies on Ubuntu.  
+Otherwise, see [here &raquo;](#ubuntu) for more info on how to install MadelineProto dependencies manually on Ubuntu.  
 
 ## Docker (recommended)
 
 MadelineProto offers an official MadelineProto docker image for the `linux/amd64`, `linux/arm64` and `linux/riscv64` platforms.  
+
+The image comes with all dependencies pre-configured.  
 
 To get started, install `docker` and `docker-compose`:
 
@@ -71,6 +73,10 @@ docker-compose up --pull always -d
 ```
 
 Use `docker-compose logs` to view MadelineProto logs and `docker-compose ps` to view the status of your bot.  
+
+### Web docker
+
+Running in CLI mode (`command: php /app/bot.php`) is heavily recommended, but if web access is required, the official MadelineProto image can also function as a `php-fpm` server if no `command` is passed, exposing a fastcgi socket on port 9000.
 
 ## Ubuntu
 
