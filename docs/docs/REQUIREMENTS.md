@@ -41,21 +41,27 @@ version: "3.7"
 
 services:
   bot:
-    image: hub.madelineproto.xyz/danog/madelineproto:latest
+    image: hub.madelineproto.xyz/danog/madelineproto
     restart: unless-stopped
-    stdin_open: true
-    tty: true 
     volumes:
       - .:/app
 ```
 
-Finally, create a `bot.php` file with your code, and run the following command:
+Then, create a `bot.php` file with your code, and run this command to log into the bot:
 
 ```bash
-docker-compose up
+docker run --rm -it --init -v $PWD:/app hub.madelineproto.xyz/danog/madelineproto php /app/bot.php
 ```
 
-Use `docker-compose logs` to view MadelineProto logs, and `docker-compose ps` to view the status of your bot.  
+After logging in, press ctrl-C to close the temporary container.
+
+Then, simply run this command to start the bot in the background.
+
+```bash
+docker-compose up --pull always -d
+```
+
+Use `docker-compose ps` to view the status of your bot.  
 
 ## Ubuntu
 
