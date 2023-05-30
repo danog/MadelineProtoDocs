@@ -15,7 +15,49 @@ The `ev` and `event` extensions are highly recommended to improve performance.
 MadelineProto explicitly supports Linux and UNIX systems (including Mac OS).  
 I **don't recommend using Windows**: MadelineProto generally works on Windows, though there might be some random issues caused by AV engines, so I personally recommend using Linux.  
 
-Running on webservers and webhosts is fully supported, but I highly recommend running long-running applications like [event handler bots](https://docs.madelineproto.xyz/docs/UPDATES.html) via CLI (in a `screen` session, for example).  
+Running on webservers and webhosts is fully supported, but I highly recommend running long-running applications like [event handler bots](https://docs.madelineproto.xyz/docs/UPDATES.html) via CLI.  
+
+Running via docker is highly recommended, see [here &raquo;] for more info on how to run MadelineProto in docker, on any Linux distro.  
+
+Otherwise, see [here &raquo;]() for more info on how to install MadelineProto dependencies on Ubuntu.  
+
+## Docker
+
+MadelineProto offers an official MadelineProto docker image for the `linux/amd64`, `linux/arm64` and `linux/riscv64` platforms.  
+
+To get started, install `docker` and `docker-compose`:
+
+Ubuntu:
+
+```bash
+sudo apt-get update
+sudo apt-get install docker.io docker-compose -y
+```
+
+Then create the following `docker-compose.yml` file:
+
+```yml
+version: "3.7"
+
+services:
+  bot:
+    image: hub.madelineproto.xyz/danog/madelineproto:latest
+    restart: unless-stopped
+    stdin_open: true
+    tty: true 
+    volumes:
+      - .:/app
+```
+
+Finally, create a `bot.php` file with your code, and run the following command:
+
+```bash
+docker-compose up
+```
+
+Use `docker-compose logs` to view MadelineProto logs, and `docker-compose ps` to view the status of your bot.  
+
+## Ubuntu
 
 To install MadelineProto dependencies on Ubuntu, run the following command in your command line:
 
@@ -26,10 +68,16 @@ sudo LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
 sudo apt-get update
 sudo apt-get install php8.2 php8.2-dev php8.2-xml php8.2-zip php8.2-gmp php8.2-cli php8.2-mbstring php8.2-ffi php-pear libevent-dev -y
 sudo pecl install event ev
+
+echo 262144 | sudo tee /proc/sys/vm/max_map_count
+echo vm.max_map_count=262144 | sudo tee /etc/sysctl.d/40-madelineproto.conf
+
 ```
 
 Next, add `extension=event.so` and `extension=ev.so` to php.ini.  
 
 Finally, follow the instructions on [prime.madelineproto.xyz](https://prime.madelineproto.xyz) to install PrimeModule.
+
+The `max_map_count` sysctl configuration is required to avoid "Fiber stack allocate failed" and "Fiber stack protect failed" errors, since the PHP engine mmaps two memory regions per fiber.  
 
 <a href="https://docs.madelineproto.xyz/docs/INSTALLATION.html">Next section</a>
