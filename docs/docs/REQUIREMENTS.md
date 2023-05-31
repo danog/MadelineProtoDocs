@@ -21,9 +21,13 @@ Running on webservers and webhosts is fully supported, but I highly recommend ru
 
 Otherwise, see [here &raquo;](#ubuntu) for more info on how to install MadelineProto dependencies manually on Ubuntu.  
 
+## Docker (recommended)
+
+Follow [these instructions &raquo;](https://docs.madelineproto.xyz/docs/DOCKER.html) to install MadelineProto dependencies on *any linux distro*, using the official docker image.  
+
 ## Ubuntu
 
-To install MadelineProto dependencies on Ubuntu, run the following command in your command line:
+To install MadelineProto dependencies manually on Ubuntu, run the following command in your command line:
 
 ```bash
 sudo apt-get update
