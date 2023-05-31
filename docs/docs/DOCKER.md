@@ -54,6 +54,6 @@ Use `docker compose logs` to view MadelineProto logs and `docker compose ps` to 
 
 ### Web docker
 
-Running in CLI mode (`command: php /app/bot.php`) is heavily recommended, but if web access is required, the official MadelineProto image can also function as a `php-fpm` server if no `command` is passed, exposing a fastcgi socket on port 9000.
+Running in CLI mode (`command: php /app/bot.php`) is heavily recommended, but if web access is required, the official MadelineProto image can also function as a `php-fpm` server if `command: /usr/local/sbin/php-fpm` is passed, exposing a fastcgi socket on port 9000.
 
 <a href="https://docs.madelineproto.xyz/docs/INSTALLATION.html">Next section</a>
