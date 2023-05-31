@@ -10,7 +10,11 @@ MadelineProto offers an official MadelineProto docker image for the `linux/amd64
 
 The image comes with all dependencies pre-configured.  
 
-To get started, install `docker` following the [official instructions &raquo;](https://docs.docker.com/engine/install/#server).  
+To get started, install `docker`:
+
+```bash
+curl -fsSL https://get.docker.com | sudo sh
+```
 
 Then increase the `max_map_count` sysctl configuration to avoid "Fiber stack allocate failed" and "Fiber stack protect failed" errors, since the PHP engine mmaps two memory regions per fiber.  
 
