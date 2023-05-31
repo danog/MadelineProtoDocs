@@ -1,3 +1,5 @@
+platform: linux/arm64
+
 pipeline:
   build:
     image: 192.168.69.1:5000/gojekyll
