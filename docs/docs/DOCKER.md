@@ -9,6 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 MadelineProto offers an official MadelineProto docker image for the `linux/amd64`, `linux/arm64` and `linux/riscv64` platforms @ `hub.madelineproto.xyz/danog/madelineproto`.  
 
 The image comes with all dependencies pre-configured.  
+Both opcache and JIT are enabled by default, for maximum performance.  
 
 To get started, install `docker`:
 
@@ -54,6 +55,7 @@ Use `docker compose logs` to view MadelineProto logs and `docker compose ps` to 
 
 ### Web docker
 
-Running in CLI mode (`command: php /app/bot.php`) is heavily recommended, but if web access is required, the official MadelineProto image can also function as a `php-fpm` server if `command: /usr/local/sbin/php-fpm` is passed, exposing a fastcgi socket on port 9000.
+Running in CLI mode (`command: php /app/bot.php`) is heavily recommended, but if web access is required, the official MadelineProto image can also function as a `php-fpm` server if `command: /usr/local/sbin/php-fpm` is passed, exposing a fastcgi socket on port 9000.  
+Note that the image has opcache and JIT enabled by default, so you should restart your container with `docker compose restart` to apply changes to your code.
 
 <a href="https://docs.madelineproto.xyz/docs/INSTALLATION.html">Next section</a>
