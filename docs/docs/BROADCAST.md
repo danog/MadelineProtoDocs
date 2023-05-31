@@ -129,6 +129,7 @@ An optional `filter` parameter can also be used, specifying a [peer filter](#fil
 
 use danog\MadelineProto\API;
 use danog\MadelineProto\Broadcast\Action;
+use danog\MadelineProto\RPCErrorException;
 use Amp\Cancellation;
 
 // This class MUST be autoloadable via composer
