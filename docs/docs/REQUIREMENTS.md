@@ -17,66 +17,9 @@ I **don't recommend using Windows**: MadelineProto generally works on Windows, t
 
 Running on webservers and webhosts is fully supported, but I highly recommend running long-running applications like [event handler bots](https://docs.madelineproto.xyz/docs/UPDATES.html) via CLI.  
 
-Running via docker is highly recommended, see [here &raquo;](#docker-recommended) for more info on how to run MadelineProto in docker, on any Linux distro.  
+**Running via docker is highly recommended**, see [here &raquo;](https://docs.madelineproto.xyz/docs/DOCKER.html) for more info on how to run MadelineProto in docker, on any Linux distro.  
 
 Otherwise, see [here &raquo;](#ubuntu) for more info on how to install MadelineProto dependencies manually on Ubuntu.  
-
-## Docker (recommended)
-
-MadelineProto offers an official MadelineProto docker image for the `linux/amd64`, `linux/arm64` and `linux/riscv64` platforms.  
-
-The image comes with all dependencies pre-configured.  
-
-To get started, install `docker` and `docker-compose`:
-
-Ubuntu:
-
-```bash
-sudo apt-get update
-sudo apt-get install docker.io docker-compose -y
-```
-
-Then increase the `max_map_count` sysctl configuration to avoid "Fiber stack allocate failed" and "Fiber stack protect failed" errors, since the PHP engine mmaps two memory regions per fiber.  
-
-```bash
-echo 262144 | sudo tee /proc/sys/vm/max_map_count
-echo vm.max_map_count=262144 | sudo tee /etc/sysctl.d/40-madelineproto.conf
-```
-
-Then, create the following `docker-compose.yml` file:
-
-```yml
-version: "3.7"
-
-services:
-  bot:
-    image: hub.madelineproto.xyz/danog/madelineproto
-    restart: unless-stopped
-    tty: true
-    volumes:
-      - .:/app
-    command: php /app/bot.php
-```
-
-Then, create a `bot.php` file with your code, and run this command to log into the bot:
-
-```bash
-docker run --rm -it --init -v $PWD:/app hub.madelineproto.xyz/danog/madelineproto php /app/bot.php
-```
-
-After logging in, press ctrl-c to close the temporary container.
-
-Finally, simply run this command to start the bot in the background.
-
-```bash
-docker-compose up --pull always -d
-```
-
-Use `docker-compose logs` to view MadelineProto logs and `docker-compose ps` to view the status of your bot.  
-
-### Web docker
-
-Running in CLI mode (`command: php /app/bot.php`) is heavily recommended, but if web access is required, the official MadelineProto image can also function as a `php-fpm` server if no `command` is passed, exposing a fastcgi socket on port 9000.
 
 ## Ubuntu
 
@@ -101,4 +44,4 @@ Finally, follow the instructions on [prime.madelineproto.xyz](https://prime.made
 
 The `max_map_count` sysctl configuration is required to avoid "Fiber stack allocate failed" and "Fiber stack protect failed" errors, since the PHP engine mmaps two memory regions per fiber.  
 
-<a href="https://docs.madelineproto.xyz/docs/INSTALLATION.html">Next section</a>
+<a href="https://docs.madelineproto.xyz/docs/DOCKER.html">Next section</a>

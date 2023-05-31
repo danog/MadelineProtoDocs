@@ -1,7 +1,7 @@
 ---
 title: "Avoiding FLOOD_WAITs"
 description: "If you make too many requests to telegram, you might get FLOOD_WAITed for a while. To avoid these flood waits, you must calculate the flood wait rate.  "
-nav_order: 15
+nav_order: 16
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Avoiding FLOOD_WAITs

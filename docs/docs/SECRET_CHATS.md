@@ -1,7 +1,7 @@
 ---
 title: "Secret chats"
 description: "MadelineProto provides wrappers to work with secret chats."
-nav_order: 22
+nav_order: 23
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Secret chats
