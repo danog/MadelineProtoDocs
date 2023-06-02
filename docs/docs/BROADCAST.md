@@ -43,6 +43,9 @@ $MadelineProto = new \danog\MadelineProto\API('bot.madeline');
 // Works OK with both bots and userbots
 $MadelineProto->start();
 
+// Or, instead of start() you can use botLogin (bots only)
+//$MadelineProto->botLogin('1234:token');
+
 // Let's forward two messages from the @MadelineProto channel!
 // Channel ID: @MadelineProto
 // Message ID 1: 614
@@ -96,6 +99,9 @@ $MadelineProto = new \danog\MadelineProto\API('bot.madeline');
 
 // Works OK with both bots and userbots
 $MadelineProto->start();
+
+// Or, instead of start() you can use botLogin (bots only)
+//$MadelineProto->botLogin('1234:token');
 
 $id = $MadelineProto->broadcastMessages([
     ['message' => 'This broadcast is powered by @MadelineProto!'],
@@ -188,6 +194,9 @@ $MadelineProto = new API('bot.madeline');
 
 // Works OK with both bots and userbots
 $MadelineProto->start();
+
+// Or, instead of start() you can use botLogin (bots only)
+//$MadelineProto->botLogin('1234:token');
 
 // Send messages, showing the "Forwarded from" header
 $id = $MadelineProto->broadcastForwardMessages(
