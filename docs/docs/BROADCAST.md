@@ -29,7 +29,8 @@ It will return an integer ID that can be used to:
 - Get the current broadcast progress with [getBroadcastProgress](#get-progress)
 - Cancel the broadcast using [cancelBroadcast](#cancel-a-broadcast)
 
-Note that to avoid manually polling the progress, MadelineProto will also periodically emit [updateBroadcastProgress updates](#get-progress), containing a Progress object for all broadcasts currently in-progress.
+Note that to avoid manually polling the progress, MadelineProto will also periodically emit [updateBroadcastProgress updates](#get-progress), containing a Progress object for all broadcasts currently in-progress.  
+Note that the process may take even hours to start, so be patient.  
 
 ```php
 <?php
@@ -86,7 +87,8 @@ It will return an integer ID that can be used to:
 - Get the current broadcast progress with [getBroadcastProgress](#get-progress)
 - Cancel the broadcast using [cancelBroadcast](#cancel-a-broadcast)
 
-Note that to avoid manually polling the progress, MadelineProto will also periodically emit [updateBroadcastProgress updates](#get-progress), containing a Progress object for all broadcasts currently in-progress.
+Note that to avoid manually polling the progress, MadelineProto will also periodically emit [updateBroadcastProgress updates](#get-progress), containing a Progress object for all broadcasts currently in-progress.  
+Note that the process may take even hours to start, so be patient.  
 
 ```php
 <?php
@@ -129,6 +131,7 @@ It will return an integer ID that can be used to:
 Note that to avoid manually polling the progress, MadelineProto will also periodically emit [updateBroadcastProgress updates](#get-progress), containing a Progress object for all broadcasts currently in-progress.
 
 An optional `filter` parameter can also be used, specifying a [peer filter](#filtering).  
+Note that the process may take even hours to start, so be patient.  
 
 ```php
 <?php
