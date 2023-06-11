@@ -17,16 +17,16 @@ Wrapper for my.telegram.org.
 
 
 ## Method list:
-* `login(string $number)`
-* `completeLogin(string $password)`
-* `loggedIn()`
-* `hasApp()`
-* `getApp()`
-* `createApp(array $settings)`
-* `loop(callable $callable)`
+* [`login(string $number): void`](#loginstring-number-void)
+* [`completeLogin(string $password): mixed`](#completeloginstring-password-mixed)
+* [`loggedIn(): bool`](#loggedin-bool)
+* [`hasApp(): mixed`](#hasapp-mixed)
+* [`getApp(): mixed`](#getapp-mixed)
+* [`createApp(array $settings): mixed`](#createapparray-settings-mixed)
+* [`loop(callable $callable): mixed`](#loopcallable-callable-mixed)
 
 ## Methods:
-### `login(string $number)`
+### `login(string $number): void`
 
 Login.
 
@@ -37,7 +37,7 @@ Parameters:
 
 
 
-### `completeLogin(string $password)`
+### `completeLogin(string $password): mixed`
 
 Complete login.
 
@@ -48,25 +48,25 @@ Parameters:
 
 
 
-### `loggedIn()`
+### `loggedIn(): bool`
 
 Whether we are logged in.
 
 
 
-### `hasApp()`
+### `hasApp(): mixed`
 
 Check if an app was already created.
 
 
 
-### `getApp()`
+### `getApp(): mixed`
 
 Get the currently created app.
 
 
 
-### `createApp(array $settings)`
+### `createApp(array $settings): mixed`
 
 Create an app.
 
@@ -77,7 +77,7 @@ Parameters:
 
 
 
-### `loop(callable $callable)`
+### `loop(callable $callable): mixed`
 
 Run specified callable synchronously.
 

@@ -17,25 +17,30 @@ Internal error indicating a problem with Telegram's servers.
 
 
 ## Method list:
-* `updateTLTrace()`
-* `getTLTrace()`
-* `setTLTrace(string $tlTrace)`
-* `prettifyTL(string $init, array $trace)`
+* [`updateTLTrace(array $trace): void`](#updatetltracearray-trace-void)
+* [`getTLTrace(): string`](#gettltrace-string)
+* [`setTLTrace(string $tlTrace): void`](#settltracestring-tltrace-void)
+* [`prettifyTL(string $init, array $trace): void`](#prettifytlstring-init-array-trace-void)
 
 ## Methods:
-### `updateTLTrace()`
+### `updateTLTrace(array $trace): void`
 
 Update TL trace.
 
 
+Parameters:
 
-### `getTLTrace()`
+* `$trace`: `array`   
+
+
+
+### `getTLTrace(): string`
 
 Get TL trace.
 
 
 
-### `setTLTrace(string $tlTrace)`
+### `setTLTrace(string $tlTrace): void`
 
 Set TL trace.
 
@@ -46,7 +51,7 @@ Parameters:
 
 
 
-### `prettifyTL(string $init, array $trace)`
+### `prettifyTL(string $init, array $trace): void`
 
 Generate async trace.
 

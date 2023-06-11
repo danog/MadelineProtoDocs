@@ -17,19 +17,19 @@ DB array interface.
 
 
 ## Method list:
-* `getArrayCopy()`
-* `isset(\TKey $key)`
-* `unset(\TKey $key)`
-* `set(\TKey $key, \TValue $value)`
-* `offsetGet(\TKey $index)`
-* `offsetSet(\TKey $index, \TValue $value)`
-* `offsetUnset(\TKey $index)`
-* `offsetExists(\TKey $index)`
-* `clear()`
-* `getIterator(): \Traversable<\TKey, \TValue>`
+* [`getArrayCopy(): array`](#getarraycopy-array)
+* [`isset(\TKey $key): bool`](#issettkey-key-bool)
+* [`unset(\TKey $key): void`](#unsettkey-key-void)
+* [`set(\TKey $key, \TValue $value): void`](#settkey-key-tvalue-value-void)
+* [`offsetGet(\TKey $index): mixed`](#offsetgettkey-index-mixed)
+* [`offsetSet(\TKey $index, \TValue $value): void`](#offsetsettkey-index-tvalue-value-void)
+* [`offsetUnset(\TKey $index): void`](#offsetunsettkey-index-void)
+* [`offsetExists(\TKey $index): bool`](#offsetexiststkey-index-bool)
+* [`clear(): void`](#clear-void)
+* [`getIterator(): \Traversable<\TKey, \TValue>`](#getiterator-traversabletkey-tvalue)
 
 ## Methods:
-### `getArrayCopy()`
+### `getArrayCopy(): array`
 
 Get Array copy.
 
@@ -45,7 +45,7 @@ array<\TKey, \TValue>
 
 
 
-### `isset(\TKey $key)`
+### `isset(\TKey $key): bool`
 
 Check if element is set.
 
@@ -61,7 +61,7 @@ Parameters:
 
 
 
-### `unset(\TKey $key)`
+### `unset(\TKey $key): void`
 
 Unset element.
 
@@ -77,7 +77,7 @@ Parameters:
 
 
 
-### `set(\TKey $key, \TValue $value)`
+### `set(\TKey $key, \TValue $value): void`
 
 Set element.
 
@@ -95,7 +95,7 @@ Parameters:
 
 
 
-### `offsetGet(\TKey $index)`
+### `offsetGet(\TKey $index): mixed`
 
 Get element.
 
@@ -111,7 +111,7 @@ Parameters:
 
 
 
-### `offsetSet(\TKey $index, \TValue $value)`
+### `offsetSet(\TKey $index, \TValue $value): void`
 
 Set element.
 
@@ -129,7 +129,7 @@ Parameters:
 
 
 
-### `offsetUnset(\TKey $index)`
+### `offsetUnset(\TKey $index): void`
 
 Unset element.
 
@@ -145,7 +145,7 @@ Parameters:
 
 
 
-### `offsetExists(\TKey $index)`
+### `offsetExists(\TKey $index): bool`
 
 
 
@@ -161,7 +161,7 @@ Parameters:
 
 
 
-### `clear()`
+### `clear(): void`
 
 Clear all elements.
 

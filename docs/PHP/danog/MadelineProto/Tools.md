@@ -21,67 +21,72 @@ Some tools.
 
 
 ## Method list:
-* `testFibers(): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`
-* `getMaps()`
-* `getMaxMaps()`
-* `genVectorHash(array $ints): \string Vector hash`
-* `randomInt(int $modulus)`
-* `random(int $length): \string Random string`
-* `posmod(int $a, int $b): \int Modulo`
-* `unpackSignedInt(string $value)`
-* `unpackSignedLong(string $value)`
-* `unpackSignedLongString(string|int|array $value)`
-* `packSignedInt(int $value)`
-* `packSignedLong(int $value)`
-* `packUnsignedInt(int $value)`
-* `packDouble(float $value)`
-* `unpackDouble(string $value)`
-* `isArrayOrAlike(mixed $var)`
-* `arr(mixed $params)`
-* `base64urlDecode(string $data)`
-* `base64urlEncode(string $data)`
-* `rleDecode(string $string)`
-* `rleEncode(string $string)`
-* `inflateStripped(string $stripped): \string JPG payload`
-* `closeConnection(string $message)`
-* `end(array $what)`
-* `isAltervista()`
-* `hasVar(object $obj, string $var)`
-* `getVar(object $obj, string $var)`
-* `setVar(object $obj, string $var, mixed $val)`
-* `rethrow()`
-* `flock(string $file, int $operation, float $polling, ?\Amp\Cancellation $token, ?\Closure $failureCb): mixed`
-* `sleep(float $time)`
-* `readLine(string $prompt)`
-* `echo(string $string)`
-* `mbStrlen(string $text)`
-* `mbSubstr(string $text, int $offset, null|int $length)`
-* `mbStrSplit(string $text, int $length): string[]`
-* `toCamelCase(string $input)`
-* `toSnakeCase(string $input)`
-* `markdownEscape(string $hwat)`
-* `typeEscape(string $type)`
-* `methodEscape(string $method)`
-* `getMimeFromExtension(string $extension, string $default)`
-* `getExtensionFromMime(string $mime)`
-* `getExtensionFromLocation(mixed $location, string $default)`
-* `getMimeFromFile(string $file)`
-* `getMimeFromBuffer(string $buffer)`
+* [`testFibers(int $fiberCount): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`](#testfibersint-fibercount-arraymaxfibers-int-realmemorymb-int-maps-int-maxmaps-int)
+* [`getMaps(): ?int`](#getmaps-int)
+* [`getMaxMaps(): ?int`](#getmaxmaps-int)
+* [`genVectorHash(array $ints): \string Vector hash`](#genvectorhasharray-ints-string-vector-hash)
+* [`randomInt(int $modulus): int`](#randomintint-modulus-int)
+* [`random(int $length): \string Random string`](#randomint-length-string-random-string)
+* [`posmod(int $a, int $b): \int Modulo`](#posmodint-a-int-b-int-modulo)
+* [`unpackSignedInt(string $value): int`](#unpacksignedintstring-value-int)
+* [`unpackSignedLong(string $value): int`](#unpacksignedlongstring-value-int)
+* [`unpackSignedLongString(string|int|array $value): string`](#unpacksignedlongstringstringintarray-value-string)
+* [`packSignedInt(int $value): string`](#packsignedintint-value-string)
+* [`packSignedLong(int $value): string`](#packsignedlongint-value-string)
+* [`packUnsignedInt(int $value): string`](#packunsignedintint-value-string)
+* [`packDouble(float $value): string`](#packdoublefloat-value-string)
+* [`unpackDouble(string $value): float`](#unpackdoublestring-value-float)
+* [`isArrayOrAlike(mixed $var): bool`](#isarrayoralikemixed-var-bool)
+* [`arr(mixed $params): array`](#arrmixed-params-array)
+* [`base64urlDecode(string $data): string`](#base64urldecodestring-data-string)
+* [`base64urlEncode(string $data): string`](#base64urlencodestring-data-string)
+* [`rleDecode(string $string): string`](#rledecodestring-string-string)
+* [`rleEncode(string $string): string`](#rleencodestring-string-string)
+* [`inflateStripped(string $stripped): \string JPG payload`](#inflatestrippedstring-stripped-string-jpg-payload)
+* [`closeConnection(string $message): void`](#closeconnectionstring-message-void)
+* [`end(array $what): mixed`](#endarray-what-mixed)
+* [`isAltervista(): bool`](#isaltervista-bool)
+* [`hasVar(object $obj, string $var): bool`](#hasvarobject-obj-string-var-bool)
+* [`getVar(object $obj, string $var): mixed`](#getvarobject-obj-string-var-mixed)
+* [`setVar(object $obj, string $var, mixed $val): void`](#setvarobject-obj-string-var-mixed-val-void)
+* [`rethrow(\Throwable $e): void`](#rethrowthrowable-e-void)
+* [`flock(string $file, int $operation, float $polling, ?\Amp\Cancellation $token, ?\Closure $failureCb): mixed`](#flockstring-file-int-operation-float-polling-ampcancellation-token-closure-failurecb-mixed)
+* [`sleep(float $time): void`](#sleepfloat-time-void)
+* [`readLine(string $prompt): string`](#readlinestring-prompt-string)
+* [`echo(string $string): void`](#echostring-string-void)
+* [`mbStrlen(string $text): int`](#mbstrlenstring-text-int)
+* [`mbSubstr(string $text, int $offset, null|int $length): string`](#mbsubstrstring-text-int-offset-nullint-length-string)
+* [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplitstring-text-int-length-string)
+* [`toCamelCase(string $input): string`](#tocamelcasestring-input-string)
+* [`toSnakeCase(string $input): string`](#tosnakecasestring-input-string)
+* [`markdownEscape(string $hwat): string`](#markdownescapestring-hwat-string)
+* [`typeEscape(string $type): string`](#typeescapestring-type-string)
+* [`methodEscape(string $method): string`](#methodescapestring-method-string)
+* [`getMimeFromExtension(string $extension, string $default): string`](#getmimefromextensionstring-extension-string-default-string)
+* [`getExtensionFromMime(string $mime): string`](#getextensionfrommimestring-mime-string)
+* [`getExtensionFromLocation(mixed $location, string $default): string`](#getextensionfromlocationmixed-location-string-default-string)
+* [`getMimeFromFile(string $file): string`](#getmimefromfilestring-file-string)
+* [`getMimeFromBuffer(string $buffer): string`](#getmimefrombufferstring-buffer-string)
 
 ## Methods:
-### `testFibers(): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`
+### `testFibers(int $fiberCount): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`
 
 Test fibers.
 
 
+Parameters:
 
-### `getMaps()`
+* `$fiberCount`: `int`   
+
+
+
+### `getMaps(): ?int`
 
 Get current number of memory-mapped regions, UNIX only.
 
 
 
-### `getMaxMaps()`
+### `getMaxMaps(): ?int`
 
 Get maximum number of memory-mapped regions, UNIX only.
 Use testFibers to get the maximum number of fibers on any platform.
@@ -100,7 +105,7 @@ Parameters:
 Return value: Vector hash
 
 
-### `randomInt(int $modulus)`
+### `randomInt(int $modulus): int`
 
 Get random integer.
 
@@ -139,7 +144,7 @@ Parameters:
 Return value: Modulo
 
 
-### `unpackSignedInt(string $value)`
+### `unpackSignedInt(string $value): int`
 
 Unpack base256 signed int.
 
@@ -150,7 +155,7 @@ Parameters:
 
 
 
-### `unpackSignedLong(string $value)`
+### `unpackSignedLong(string $value): int`
 
 Unpack base256 signed long.
 
@@ -161,7 +166,7 @@ Parameters:
 
 
 
-### `unpackSignedLongString(string|int|array $value)`
+### `unpackSignedLongString(string|int|array $value): string`
 
 Unpack base256 signed long to string.
 
@@ -172,7 +177,7 @@ Parameters:
 
 
 
-### `packSignedInt(int $value)`
+### `packSignedInt(int $value): string`
 
 Convert integer to base256 signed int.
 
@@ -183,7 +188,7 @@ Parameters:
 
 
 
-### `packSignedLong(int $value)`
+### `packSignedLong(int $value): string`
 
 Convert integer to base256 long.
 
@@ -194,7 +199,7 @@ Parameters:
 
 
 
-### `packUnsignedInt(int $value)`
+### `packUnsignedInt(int $value): string`
 
 Convert value to unsigned base256 int.
 
@@ -205,7 +210,7 @@ Parameters:
 
 
 
-### `packDouble(float $value)`
+### `packDouble(float $value): string`
 
 Convert double to binary version.
 
@@ -216,7 +221,7 @@ Parameters:
 
 
 
-### `unpackDouble(string $value)`
+### `unpackDouble(string $value): float`
 
 Unpack binary double.
 
@@ -227,7 +232,7 @@ Parameters:
 
 
 
-### `isArrayOrAlike(mixed $var)`
+### `isArrayOrAlike(mixed $var): bool`
 
 Check if is array or similar (traversable && countable && arrayAccess).
 
@@ -238,7 +243,7 @@ Parameters:
 
 
 
-### `arr(mixed $params)`
+### `arr(mixed $params): array`
 
 Create array.
 
@@ -249,7 +254,7 @@ Parameters:
 
 
 
-### `base64urlDecode(string $data)`
+### `base64urlDecode(string $data): string`
 
 base64URL decode.
 
@@ -260,7 +265,7 @@ Parameters:
 
 
 
-### `base64urlEncode(string $data)`
+### `base64urlEncode(string $data): string`
 
 Base64URL encode.
 
@@ -271,7 +276,7 @@ Parameters:
 
 
 
-### `rleDecode(string $string)`
+### `rleDecode(string $string): string`
 
 null-byte RLE decode.
 
@@ -282,7 +287,7 @@ Parameters:
 
 
 
-### `rleEncode(string $string)`
+### `rleEncode(string $string): string`
 
 null-byte RLE encode.
 
@@ -306,7 +311,7 @@ Parameters:
 Return value: JPG payload
 
 
-### `closeConnection(string $message)`
+### `closeConnection(string $message): void`
 
 Close connection with client, connected via web.
 
@@ -317,7 +322,7 @@ Parameters:
 
 
 
-### `end(array $what)`
+### `end(array $what): mixed`
 
 Get final element of array.
 
@@ -328,13 +333,13 @@ Parameters:
 
 
 
-### `isAltervista()`
+### `isAltervista(): bool`
 
 Whether this is altervista.
 
 
 
-### `hasVar(object $obj, string $var)`
+### `hasVar(object $obj, string $var): bool`
 
 Checks private property exists in an object.
 
@@ -346,7 +351,7 @@ Parameters:
 
 
 
-### `getVar(object $obj, string $var)`
+### `getVar(object $obj, string $var): mixed`
 
 Accesses a private variable from an object.
 
@@ -358,7 +363,7 @@ Parameters:
 
 
 
-### `setVar(object $obj, string $var, mixed $val)`
+### `setVar(object $obj, string $var, mixed $val): void`
 
 Sets a private variable in an object.
 
@@ -371,9 +376,19 @@ Parameters:
 
 
 
-### `rethrow()`
+### `rethrow(\Throwable $e): void`
 
 Rethrow exception into event loop.
+
+
+Parameters:
+
+* `$e`: `\Throwable`   
+
+
+#### See also: 
+* `\Throwable`
+
 
 
 
@@ -399,7 +414,7 @@ Parameters:
 
 
 
-### `sleep(float $time)`
+### `sleep(float $time): void`
 
 Asynchronously sleep.
 
@@ -410,7 +425,7 @@ Parameters:
 
 
 
-### `readLine(string $prompt)`
+### `readLine(string $prompt): string`
 
 Asynchronously read line.
 
@@ -421,7 +436,7 @@ Parameters:
 
 
 
-### `echo(string $string)`
+### `echo(string $string): void`
 
 Asynchronously write to stdout/browser.
 
@@ -432,7 +447,7 @@ Parameters:
 
 
 
-### `mbStrlen(string $text)`
+### `mbStrlen(string $text): int`
 
 Get Telegram UTF-8 length of string.
 
@@ -443,7 +458,7 @@ Parameters:
 
 
 
-### `mbSubstr(string $text, int $offset, null|int $length)`
+### `mbSubstr(string $text, int $offset, null|int $length): string`
 
 Telegram UTF-8 multibyte substring.
 
@@ -468,7 +483,7 @@ Parameters:
 
 
 
-### `toCamelCase(string $input)`
+### `toCamelCase(string $input): string`
 
 Convert to camelCase.
 
@@ -479,7 +494,7 @@ Parameters:
 
 
 
-### `toSnakeCase(string $input)`
+### `toSnakeCase(string $input): string`
 
 Convert to snake_case.
 
@@ -490,7 +505,7 @@ Parameters:
 
 
 
-### `markdownEscape(string $hwat)`
+### `markdownEscape(string $hwat): string`
 
 Escape string for markdown.
 
@@ -501,7 +516,7 @@ Parameters:
 
 
 
-### `typeEscape(string $type)`
+### `typeEscape(string $type): string`
 
 Escape type name.
 
@@ -512,7 +527,7 @@ Parameters:
 
 
 
-### `methodEscape(string $method)`
+### `methodEscape(string $method): string`
 
 Escape method name.
 
@@ -523,7 +538,7 @@ Parameters:
 
 
 
-### `getMimeFromExtension(string $extension, string $default)`
+### `getMimeFromExtension(string $extension, string $default): string`
 
 Get mime type from file extension.
 
@@ -535,7 +550,7 @@ Parameters:
 
 
 
-### `getExtensionFromMime(string $mime)`
+### `getExtensionFromMime(string $mime): string`
 
 Get extension from mime type.
 
@@ -546,7 +561,7 @@ Parameters:
 
 
 
-### `getExtensionFromLocation(mixed $location, string $default)`
+### `getExtensionFromLocation(mixed $location, string $default): string`
 
 Get extension from file location.
 
@@ -558,7 +573,7 @@ Parameters:
 
 
 
-### `getMimeFromFile(string $file)`
+### `getMimeFromFile(string $file): string`
 
 Get mime type of file.
 
@@ -569,7 +584,7 @@ Parameters:
 
 
 
-### `getMimeFromBuffer(string $buffer)`
+### `getMimeFromBuffer(string $buffer): string`
 
 Get mime type from buffer.
 

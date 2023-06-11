@@ -17,53 +17,63 @@ Represents a FLOOD_WAIT_ RPC error returned by telegram.
 
 
 ## Method list:
-* `getWaitTime()`
-* `wait()`
-* `getLocalization()`
-* `setLocalization()`
-* `updateTLTrace()`
-* `getTLTrace()`
-* `setTLTrace(string $tlTrace)`
-* `prettifyTL(string $init, array $trace)`
+* [`getWaitTime(): int`](#getwaittime-int)
+* [`wait(): void`](#wait-void)
+* [`getLocalization(): string`](#getlocalization-string)
+* [`setLocalization(string $localization): void`](#setlocalizationstring-localization-void)
+* [`updateTLTrace(array $trace): void`](#updatetltracearray-trace-void)
+* [`getTLTrace(): string`](#gettltrace-string)
+* [`setTLTrace(string $tlTrace): void`](#settltracestring-tltrace-void)
+* [`prettifyTL(string $init, array $trace): void`](#prettifytlstring-init-array-trace-void)
 
 ## Methods:
-### `getWaitTime()`
+### `getWaitTime(): int`
 
 Returns the required waiting period in seconds before repeating the RPC call.
 
 
 
-### `wait()`
+### `wait(): void`
 
 Waits for the required waiting period.
 
 
 
-### `getLocalization()`
+### `getLocalization(): string`
 
 Get localized error name.
 
 
 
-### `setLocalization()`
+### `setLocalization(string $localization): void`
 
 Set localized error name.
 
 
+Parameters:
 
-### `updateTLTrace()`
+* `$localization`: `string`   
+
+
+
+### `updateTLTrace(array $trace): void`
 
 Update TL trace.
 
 
+Parameters:
 
-### `getTLTrace()`
+* `$trace`: `array`   
+
+
+
+### `getTLTrace(): string`
 
 Get TL trace.
 
 
 
-### `setTLTrace(string $tlTrace)`
+### `setTLTrace(string $tlTrace): void`
 
 Set TL trace.
 
@@ -74,7 +84,7 @@ Parameters:
 
 
 
-### `prettifyTL(string $init, array $trace)`
+### `prettifyTL(string $init, array $trace): void`
 
 Generate async trace.
 

@@ -21,22 +21,22 @@ Some tools.
 
 
 ## Method list:
-* `mbStrlen(string $text)`
-* `mbSubstr(string $text, int $offset, null|int $length)`
-* `mbStrSplit(string $text, int $length): string[]`
-* `toCamelCase(string $input)`
-* `toSnakeCase(string $input)`
-* `markdownEscape(string $hwat)`
-* `typeEscape(string $type)`
-* `methodEscape(string $method)`
-* `getMimeFromExtension(string $extension, string $default)`
-* `getExtensionFromMime(string $mime)`
-* `getExtensionFromLocation(mixed $location, string $default)`
-* `getMimeFromFile(string $file)`
-* `getMimeFromBuffer(string $buffer)`
+* [`mbStrlen(string $text): int`](#mbstrlenstring-text-int)
+* [`mbSubstr(string $text, int $offset, null|int $length): string`](#mbsubstrstring-text-int-offset-nullint-length-string)
+* [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplitstring-text-int-length-string)
+* [`toCamelCase(string $input): string`](#tocamelcasestring-input-string)
+* [`toSnakeCase(string $input): string`](#tosnakecasestring-input-string)
+* [`markdownEscape(string $hwat): string`](#markdownescapestring-hwat-string)
+* [`typeEscape(string $type): string`](#typeescapestring-type-string)
+* [`methodEscape(string $method): string`](#methodescapestring-method-string)
+* [`getMimeFromExtension(string $extension, string $default): string`](#getmimefromextensionstring-extension-string-default-string)
+* [`getExtensionFromMime(string $mime): string`](#getextensionfrommimestring-mime-string)
+* [`getExtensionFromLocation(mixed $location, string $default): string`](#getextensionfromlocationmixed-location-string-default-string)
+* [`getMimeFromFile(string $file): string`](#getmimefromfilestring-file-string)
+* [`getMimeFromBuffer(string $buffer): string`](#getmimefrombufferstring-buffer-string)
 
 ## Methods:
-### `mbStrlen(string $text)`
+### `mbStrlen(string $text): int`
 
 Get Telegram UTF-8 length of string.
 
@@ -47,7 +47,7 @@ Parameters:
 
 
 
-### `mbSubstr(string $text, int $offset, null|int $length)`
+### `mbSubstr(string $text, int $offset, null|int $length): string`
 
 Telegram UTF-8 multibyte substring.
 
@@ -72,7 +72,7 @@ Parameters:
 
 
 
-### `toCamelCase(string $input)`
+### `toCamelCase(string $input): string`
 
 Convert to camelCase.
 
@@ -83,7 +83,7 @@ Parameters:
 
 
 
-### `toSnakeCase(string $input)`
+### `toSnakeCase(string $input): string`
 
 Convert to snake_case.
 
@@ -94,7 +94,7 @@ Parameters:
 
 
 
-### `markdownEscape(string $hwat)`
+### `markdownEscape(string $hwat): string`
 
 Escape string for markdown.
 
@@ -105,7 +105,7 @@ Parameters:
 
 
 
-### `typeEscape(string $type)`
+### `typeEscape(string $type): string`
 
 Escape type name.
 
@@ -116,7 +116,7 @@ Parameters:
 
 
 
-### `methodEscape(string $method)`
+### `methodEscape(string $method): string`
 
 Escape method name.
 
@@ -127,7 +127,7 @@ Parameters:
 
 
 
-### `getMimeFromExtension(string $extension, string $default)`
+### `getMimeFromExtension(string $extension, string $default): string`
 
 Get mime type from file extension.
 
@@ -139,7 +139,7 @@ Parameters:
 
 
 
-### `getExtensionFromMime(string $mime)`
+### `getExtensionFromMime(string $mime): string`
 
 Get extension from mime type.
 
@@ -150,7 +150,7 @@ Parameters:
 
 
 
-### `getExtensionFromLocation(mixed $location, string $default)`
+### `getExtensionFromLocation(mixed $location, string $default): string`
 
 Get extension from file location.
 
@@ -162,7 +162,7 @@ Parameters:
 
 
 
-### `getMimeFromFile(string $file)`
+### `getMimeFromFile(string $file): string`
 
 Get mime type of file.
 
@@ -173,7 +173,7 @@ Parameters:
 
 
 
-### `getMimeFromBuffer(string $buffer)`
+### `getMimeFromBuffer(string $buffer): string`
 
 Get mime type from buffer.
 

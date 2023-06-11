@@ -17,15 +17,15 @@ Clickable button.
 
 
 ## Method list:
-* `click(bool $donotwait)`
-* `jsonSerialize()`
-* `offsetSet(mixed $name, mixed $value)`
-* `offsetGet(mixed $name)`
-* `offsetUnset(mixed $name)`
-* `offsetExists(mixed $name)`
+* [`click(bool $donotwait): mixed`](#clickbool-donotwait-mixed)
+* [`jsonSerialize(): array`](#jsonserialize-array)
+* [`offsetSet(mixed $name, mixed $value): void`](#offsetsetmixed-name-mixed-value-void)
+* [`offsetGet(mixed $name): mixed`](#offsetgetmixed-name-mixed)
+* [`offsetUnset(mixed $name): void`](#offsetunsetmixed-name-void)
+* [`offsetExists(mixed $name): bool`](#offsetexistsmixed-name-bool)
 
 ## Methods:
-### `click(bool $donotwait)`
+### `click(bool $donotwait): mixed`
 
 Click on button.
 
@@ -36,13 +36,13 @@ Parameters:
 
 
 
-### `jsonSerialize()`
+### `jsonSerialize(): array`
 
 Serialize button.
 
 
 
-### `offsetSet(mixed $name, mixed $value)`
+### `offsetSet(mixed $name, mixed $value): void`
 
 Set button info.
 
@@ -54,7 +54,7 @@ Parameters:
 
 
 
-### `offsetGet(mixed $name)`
+### `offsetGet(mixed $name): mixed`
 
 Get button info.
 
@@ -65,7 +65,7 @@ Parameters:
 
 
 
-### `offsetUnset(mixed $name)`
+### `offsetUnset(mixed $name): void`
 
 Unset button info.
 
@@ -76,7 +76,7 @@ Parameters:
 
 
 
-### `offsetExists(mixed $name)`
+### `offsetExists(mixed $name): bool`
 
 Check if button field exists.
 

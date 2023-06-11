@@ -17,23 +17,23 @@ File management settings.
 
 
 ## Method list:
-* `getAllowAutomaticUpload()`
-* `setAllowAutomaticUpload(bool $allowAutomaticUpload)`
-* `getUploadParallelChunks()`
-* `setUploadParallelChunks(int $uploadParallelChunks)`
-* `getDownloadParallelChunks()`
-* `setDownloadParallelChunks(int $downloadParallelChunks)`
-* `getReportBrokenMedia()`
-* `setReportBrokenMedia(bool $reportBrokenMedia)`
+* [`getAllowAutomaticUpload(): bool`](#getallowautomaticupload-bool)
+* [`setAllowAutomaticUpload(bool $allowAutomaticUpload): self`](#setallowautomaticuploadbool-allowautomaticupload-self)
+* [`getUploadParallelChunks(): int`](#getuploadparallelchunks-int)
+* [`setUploadParallelChunks(int $uploadParallelChunks): self`](#setuploadparallelchunksint-uploadparallelchunks-self)
+* [`getDownloadParallelChunks(): int`](#getdownloadparallelchunks-int)
+* [`setDownloadParallelChunks(int $downloadParallelChunks): self`](#setdownloadparallelchunksint-downloadparallelchunks-self)
+* [`getReportBrokenMedia(): bool`](#getreportbrokenmedia-bool)
+* [`setReportBrokenMedia(bool $reportBrokenMedia): self`](#setreportbrokenmediabool-reportbrokenmedia-self)
 
 ## Methods:
-### `getAllowAutomaticUpload()`
+### `getAllowAutomaticUpload(): bool`
 
 Get allow automatic upload of files from file paths present in constructors?
 
 
 
-### `setAllowAutomaticUpload(bool $allowAutomaticUpload)`
+### `setAllowAutomaticUpload(bool $allowAutomaticUpload): self`
 
 Set allow automatic upload of files from file paths present in constructors?
 
@@ -44,13 +44,13 @@ Parameters:
 
 
 
-### `getUploadParallelChunks()`
+### `getUploadParallelChunks(): int`
 
 Get upload parallel chunk count.
 
 
 
-### `setUploadParallelChunks(int $uploadParallelChunks)`
+### `setUploadParallelChunks(int $uploadParallelChunks): self`
 
 Set upload parallel chunk count.
 
@@ -61,13 +61,13 @@ Parameters:
 
 
 
-### `getDownloadParallelChunks()`
+### `getDownloadParallelChunks(): int`
 
 Get download parallel chunk count.
 
 
 
-### `setDownloadParallelChunks(int $downloadParallelChunks)`
+### `setDownloadParallelChunks(int $downloadParallelChunks): self`
 
 Set download parallel chunk count.
 
@@ -78,13 +78,13 @@ Parameters:
 
 
 
-### `getReportBrokenMedia()`
+### `getReportBrokenMedia(): bool`
 
 Get whether to report undownloadable media to TSF.
 
 
 
-### `setReportBrokenMedia(bool $reportBrokenMedia)`
+### `setReportBrokenMedia(bool $reportBrokenMedia): self`
 
 Set whether to report undownloadable media to TSF.
 

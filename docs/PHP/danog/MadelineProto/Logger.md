@@ -39,14 +39,14 @@ Logger class.
 
 
 ## Method list:
-* `constructorFromSettings(\danog\MadelineProto\Settings\Logger $settings)`
-* `truncate()`
-* `log(mixed $param, int $level)`
-* `logger(mixed $param, int $level, string $file)`
-* `getPsrLogger()`
+* [`constructorFromSettings(\danog\MadelineProto\Settings\Logger $settings): self`](#constructorfromsettingsdanogmadelineprotosettingslogger-settings-self)
+* [`truncate(): void`](#truncate-void)
+* [`log(mixed $param, int $level): void`](#logmixed-param-int-level-void)
+* [`logger(mixed $param, int $level, string $file): void`](#loggermixed-param-int-level-string-file-void)
+* [`getPsrLogger(): \Psr\Log\LoggerInterface`](#getpsrlogger-psrlogloggerinterface)
 
 ## Methods:
-### `constructorFromSettings(\danog\MadelineProto\Settings\Logger $settings)`
+### `constructorFromSettings(\danog\MadelineProto\Settings\Logger $settings): self`
 
 Construct global static logger from MadelineProto settings.
 
@@ -62,13 +62,13 @@ Parameters:
 
 
 
-### `truncate()`
+### `truncate(): void`
 
 Truncate logfile.
 
 
 
-### `log(mixed $param, int $level)`
+### `log(mixed $param, int $level): void`
 
 Log a message.
 
@@ -80,7 +80,7 @@ Parameters:
 
 
 
-### `logger(mixed $param, int $level, string $file)`
+### `logger(mixed $param, int $level, string $file): void`
 
 Log a message.
 
@@ -93,9 +93,14 @@ Parameters:
 
 
 
-### `getPsrLogger()`
+### `getPsrLogger(): \Psr\Log\LoggerInterface`
 
 Get PSR logger.
+
+
+#### See also: 
+* `\Psr\Log\LoggerInterface`
+
 
 
 

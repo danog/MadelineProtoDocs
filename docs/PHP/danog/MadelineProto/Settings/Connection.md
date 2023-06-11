@@ -17,46 +17,46 @@ Connection settings.
 
 
 ## Method list:
-* `getProtocol()`
-* `setProtocol(class-string<\danog\MadelineProto\Stream\MTProtoBufferInterface> $protocol)`
-* `getIpv6()`
-* `setIpv6(bool $ipv6)`
-* `getSslSubdomains()`
-* `setSslSubdomains(array $sslSubdomains)`
-* `getMaxMediaSocketCount()`
-* `setMaxMediaSocketCount(int $maxMediaSocketCount)`
-* `getRobinPeriod()`
-* `setRobinPeriod(int $robinPeriod)`
-* `getProxies(): array<class-string<\danog\MadelineProto\Stream\StreamInterface>, array>`
-* `addProxy(class-string<\danog\MadelineProto\Stream\StreamInterface> $proxy, array $extra)`
-* `setProxy(array $proxies)`
-* `clearProxies()`
-* `removeProxy()`
-* `getObfuscated()`
-* `setObfuscated(bool $obfuscated)`
-* `getTestMode()`
-* `setTestMode(bool $testMode)`
-* `getTransport(): class-string<\danog\MadelineProto\Stream\RawStreamInterface>`
-* `setTransport(class-string<\danog\MadelineProto\Stream\RawStreamInterface> $transport)`
-* `getRetry()`
-* `setRetry(bool $retry)`
-* `getTimeout()`
-* `setTimeout(float $timeout)`
-* `getPingInterval()`
-* `setPingInterval(int $pingInterval)`
-* `getUseDoH()`
-* `setUseDoH(bool $useDoH)`
-* `getBindTo()`
-* `setBindTo(null|string $bindTo)`
+* [`getProtocol(): string`](#getprotocol-string)
+* [`setProtocol(class-string<\danog\MadelineProto\Stream\MTProtoBufferInterface> $protocol): self`](#setprotocolclassstringdanogmadelineprotostreammtprotobufferinterface-protocol-self)
+* [`getIpv6(): bool`](#getipv6-bool)
+* [`setIpv6(bool $ipv6): self`](#setipv6bool-ipv6-self)
+* [`getSslSubdomains(): array`](#getsslsubdomains-array)
+* [`setSslSubdomains(array $sslSubdomains): self`](#setsslsubdomainsarray-sslsubdomains-self)
+* [`getMaxMediaSocketCount(): int`](#getmaxmediasocketcount-int)
+* [`setMaxMediaSocketCount(int $maxMediaSocketCount): self`](#setmaxmediasocketcountint-maxmediasocketcount-self)
+* [`getRobinPeriod(): int`](#getrobinperiod-int)
+* [`setRobinPeriod(int $robinPeriod): self`](#setrobinperiodint-robinperiod-self)
+* [`getProxies(): array<class-string<\danog\MadelineProto\Stream\StreamInterface>, array>`](#getproxies-arrayclassstringdanogmadelineprotostreamstreaminterface-array)
+* [`addProxy(class-string<\danog\MadelineProto\Stream\StreamInterface> $proxy, array $extra): self`](#addproxyclassstringdanogmadelineprotostreamstreaminterface-proxy-array-extra-self)
+* [`setProxy(array $proxies): self`](#setproxyarray-proxies-self)
+* [`clearProxies(): self`](#clearproxies-self)
+* [`removeProxy(string $proxy, array $extra): self`](#removeproxystring-proxy-array-extra-self)
+* [`getObfuscated(): bool`](#getobfuscated-bool)
+* [`setObfuscated(bool $obfuscated): self`](#setobfuscatedbool-obfuscated-self)
+* [`getTestMode(): bool`](#gettestmode-bool)
+* [`setTestMode(bool $testMode): self`](#settestmodebool-testmode-self)
+* [`getTransport(): class-string<\danog\MadelineProto\Stream\RawStreamInterface>`](#gettransport-classstringdanogmadelineprotostreamrawstreaminterface)
+* [`setTransport(class-string<\danog\MadelineProto\Stream\RawStreamInterface> $transport): self`](#settransportclassstringdanogmadelineprotostreamrawstreaminterface-transport-self)
+* [`getRetry(): bool`](#getretry-bool)
+* [`setRetry(bool $retry): self`](#setretrybool-retry-self)
+* [`getTimeout(): float`](#gettimeout-float)
+* [`setTimeout(float $timeout): self`](#settimeoutfloat-timeout-self)
+* [`getPingInterval(): int`](#getpinginterval-int)
+* [`setPingInterval(int $pingInterval): self`](#setpingintervalint-pinginterval-self)
+* [`getUseDoH(): bool`](#getusedoh-bool)
+* [`setUseDoH(bool $useDoH): self`](#setusedohbool-usedoh-self)
+* [`getBindTo(): ?string`](#getbindto-string)
+* [`setBindTo(null|string $bindTo): self`](#setbindtonullstring-bindto-self)
 
 ## Methods:
-### `getProtocol()`
+### `getProtocol(): string`
 
 Get protocol identifier.
 
 
 
-### `setProtocol(class-string<\danog\MadelineProto\Stream\MTProtoBufferInterface> $protocol)`
+### `setProtocol(class-string<\danog\MadelineProto\Stream\MTProtoBufferInterface> $protocol): self`
 
 Set protocol identifier.
 Available MTProto transport protocols (smaller overhead is better):
@@ -117,13 +117,13 @@ Parameters:
 
 
 
-### `getIpv6()`
+### `getIpv6(): bool`
 
 Get whether to use ipv6.
 
 
 
-### `setIpv6(bool $ipv6)`
+### `setIpv6(bool $ipv6): self`
 
 Set whether to use ipv6.
 
@@ -134,13 +134,13 @@ Parameters:
 
 
 
-### `getSslSubdomains()`
+### `getSslSubdomains(): array`
 
 Get subdomains of web.telegram.org for https protocol.
 
 
 
-### `setSslSubdomains(array $sslSubdomains)`
+### `setSslSubdomains(array $sslSubdomains): self`
 
 Set subdomains of web.telegram.org for https protocol.
 
@@ -151,13 +151,13 @@ Parameters:
 
 
 
-### `getMaxMediaSocketCount()`
+### `getMaxMediaSocketCount(): int`
 
 Get maximum media socket count.
 
 
 
-### `setMaxMediaSocketCount(int $maxMediaSocketCount)`
+### `setMaxMediaSocketCount(int $maxMediaSocketCount): self`
 
 Set maximum media socket count.
 
@@ -168,13 +168,13 @@ Parameters:
 
 
 
-### `getRobinPeriod()`
+### `getRobinPeriod(): int`
 
 Get robin period (seconds).
 
 
 
-### `setRobinPeriod(int $robinPeriod)`
+### `setRobinPeriod(int $robinPeriod): self`
 
 Set robin period (seconds).
 
@@ -196,7 +196,7 @@ Get proxy identifiers.
 
 
 
-### `addProxy(class-string<\danog\MadelineProto\Stream\StreamInterface> $proxy, array $extra)`
+### `addProxy(class-string<\danog\MadelineProto\Stream\StreamInterface> $proxy, array $extra): self`
 
 Add proxy identifier to list, one of:.
 * `\danog\MadelineProto\Stream\MTProtoTransport\ObfuscatedStream::class`
@@ -215,7 +215,7 @@ Parameters:
 
 
 
-### `setProxy(array $proxies)`
+### `setProxy(array $proxies): self`
 
 Set proxies.
 
@@ -226,25 +226,31 @@ Parameters:
 
 
 
-### `clearProxies()`
+### `clearProxies(): self`
 
 Clear proxies.
 
 
 
-### `removeProxy()`
+### `removeProxy(string $proxy, array $extra): self`
 
 Remove specific proxy pair.
 
 
+Parameters:
 
-### `getObfuscated()`
+* `$proxy`: `string`   
+* `$extra`: `array`   
+
+
+
+### `getObfuscated(): bool`
 
 Get whether to use the obfuscated protocol: useful to bypass ISP blocks.
 
 
 
-### `setObfuscated(bool $obfuscated)`
+### `setObfuscated(bool $obfuscated): self`
 
 Set whether to use the obfuscated protocol: useful to bypass ISP blocks.
 
@@ -255,13 +261,13 @@ Parameters:
 
 
 
-### `getTestMode()`
+### `getTestMode(): bool`
 
 Get whether we're in test mode.
 
 
 
-### `setTestMode(bool $testMode)`
+### `setTestMode(bool $testMode): self`
 
 Set whether we're in test mode.
 
@@ -283,7 +289,7 @@ Get transport identifier.
 
 
 
-### `setTransport(class-string<\danog\MadelineProto\Stream\RawStreamInterface> $transport)`
+### `setTransport(class-string<\danog\MadelineProto\Stream\RawStreamInterface> $transport): self`
 
 Sets the transport protocol to use when connecting to telegram.
 Not supported by HTTP and HTTPS protocols, obfuscation must be enabled.
@@ -303,13 +309,13 @@ Parameters:
 
 
 
-### `getRetry()`
+### `getRetry(): bool`
 
 Get whether to retry connection.
 
 
 
-### `setRetry(bool $retry)`
+### `setRetry(bool $retry): self`
 
 Set whether to retry connection.
 
@@ -320,13 +326,13 @@ Parameters:
 
 
 
-### `getTimeout()`
+### `getTimeout(): float`
 
 Get connection timeout.
 
 
 
-### `setTimeout(float $timeout)`
+### `setTimeout(float $timeout): self`
 
 Set connection timeout.
 
@@ -337,13 +343,13 @@ Parameters:
 
 
 
-### `getPingInterval()`
+### `getPingInterval(): int`
 
 Get ping interval.
 
 
 
-### `setPingInterval(int $pingInterval)`
+### `setPingInterval(int $pingInterval): self`
 
 Set ping interval.
 
@@ -354,13 +360,13 @@ Parameters:
 
 
 
-### `getUseDoH()`
+### `getUseDoH(): bool`
 
 Get whether to use DNS over HTTPS.
 
 
 
-### `setUseDoH(bool $useDoH)`
+### `setUseDoH(bool $useDoH): self`
 
 Set whether to use DNS over HTTPS.
 
@@ -371,13 +377,13 @@ Parameters:
 
 
 
-### `getBindTo()`
+### `getBindTo(): ?string`
 
 Get bind on specific address and port.
 
 
 
-### `setBindTo(null|string $bindTo)`
+### `setBindTo(null|string $bindTo): self`
 
 Set bind on specific address and port.
 

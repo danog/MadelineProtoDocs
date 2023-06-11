@@ -17,21 +17,21 @@ Cryptography settings.
 
 
 ## Method list:
-* `getDefaultTempAuthKeyExpiresIn()`
-* `setDefaultTempAuthKeyExpiresIn(int $defaultTempAuthKeyExpiresIn)`
-* `getPfs()`
-* `setPfs(bool $pfs)`
-* `getMaxAuthTries()`
-* `setMaxAuthTries(int $maxAuthTries)`
+* [`getDefaultTempAuthKeyExpiresIn(): int`](#getdefaulttempauthkeyexpiresin-int)
+* [`setDefaultTempAuthKeyExpiresIn(int $defaultTempAuthKeyExpiresIn): self`](#setdefaulttempauthkeyexpiresinint-defaulttempauthkeyexpiresin-self)
+* [`getPfs(): bool`](#getpfs-bool)
+* [`setPfs(bool $pfs): self`](#setpfsbool-pfs-self)
+* [`getMaxAuthTries(): int`](#getmaxauthtries-int)
+* [`setMaxAuthTries(int $maxAuthTries): self`](#setmaxauthtriesint-maxauthtries-self)
 
 ## Methods:
-### `getDefaultTempAuthKeyExpiresIn()`
+### `getDefaultTempAuthKeyExpiresIn(): int`
 
 Get validity period of the binding of temporary and permanent keys.
 
 
 
-### `setDefaultTempAuthKeyExpiresIn(int $defaultTempAuthKeyExpiresIn)`
+### `setDefaultTempAuthKeyExpiresIn(int $defaultTempAuthKeyExpiresIn): self`
 
 Set validity period of the binding of temporary and permanent keys.
 
@@ -42,13 +42,13 @@ Parameters:
 
 
 
-### `getPfs()`
+### `getPfs(): bool`
 
 Get whether to use PFS.
 
 
 
-### `setPfs(bool $pfs)`
+### `setPfs(bool $pfs): self`
 
 Set whether to use PFS.
 
@@ -59,13 +59,13 @@ Parameters:
 
 
 
-### `getMaxAuthTries()`
+### `getMaxAuthTries(): int`
 
 Get max tries for generating auth key.
 
 
 
-### `setMaxAuthTries(int $maxAuthTries)`
+### `setMaxAuthTries(int $maxAuthTries): self`
 
 Set max tries for generating auth key.
 

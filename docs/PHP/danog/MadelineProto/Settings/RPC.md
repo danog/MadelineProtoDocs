@@ -17,25 +17,25 @@ RPC settings.
 
 
 ## Method list:
-* `getRpcDropTimeout()`
-* `setRpcDropTimeout(int $rpcDropTimeout)`
-* `getRpcResendTimeout()`
-* `setRpcResendTimeout(int $rpcResendTimeout)`
-* `getFloodTimeout()`
-* `setFloodTimeout(int $floodTimeout)`
-* `getLimitCallQueue()`
-* `setLimitCallQueue(int $limitCallQueue)`
-* `getGzipEncodeIfGt()`
-* `setGzipEncodeIfGt(int $gzipEncodeIfGt)`
+* [`getRpcDropTimeout(): int`](#getrpcdroptimeout-int)
+* [`setRpcDropTimeout(int $rpcDropTimeout): self`](#setrpcdroptimeoutint-rpcdroptimeout-self)
+* [`getRpcResendTimeout(): int`](#getrpcresendtimeout-int)
+* [`setRpcResendTimeout(int $rpcResendTimeout): self`](#setrpcresendtimeoutint-rpcresendtimeout-self)
+* [`getFloodTimeout(): int`](#getfloodtimeout-int)
+* [`setFloodTimeout(int $floodTimeout): self`](#setfloodtimeoutint-floodtimeout-self)
+* [`getLimitCallQueue(): int`](#getlimitcallqueue-int)
+* [`setLimitCallQueue(int $limitCallQueue): self`](#setlimitcallqueueint-limitcallqueue-self)
+* [`getGzipEncodeIfGt(): int`](#getgzipencodeifgt-int)
+* [`setGzipEncodeIfGt(int $gzipEncodeIfGt): self`](#setgzipencodeifgtint-gzipencodeifgt-self)
 
 ## Methods:
-### `getRpcDropTimeout()`
+### `getRpcDropTimeout(): int`
 
 Get RPC drop timeout.
 
 
 
-### `setRpcDropTimeout(int $rpcDropTimeout)`
+### `setRpcDropTimeout(int $rpcDropTimeout): self`
 
 Set RPC drop timeout.
 
@@ -46,13 +46,13 @@ Parameters:
 
 
 
-### `getRpcResendTimeout()`
+### `getRpcResendTimeout(): int`
 
 Get RPC resend timeout.
 
 
 
-### `setRpcResendTimeout(int $rpcResendTimeout)`
+### `setRpcResendTimeout(int $rpcResendTimeout): self`
 
 Set RPC resend timeout.
 
@@ -63,13 +63,13 @@ Parameters:
 
 
 
-### `getFloodTimeout()`
+### `getFloodTimeout(): int`
 
 Get flood timeout: if FLOOD_WAIT_ time is bigger than this, throw exception instead of waiting asynchronously.
 
 
 
-### `setFloodTimeout(int $floodTimeout)`
+### `setFloodTimeout(int $floodTimeout): self`
 
 Set flood timeout: if FLOOD_WAIT_ time is bigger than this, throw exception instead of waiting asynchronously.
 
@@ -80,13 +80,13 @@ Parameters:
 
 
 
-### `getLimitCallQueue()`
+### `getLimitCallQueue(): int`
 
 Get maximum number of messages to consider when using call queues.
 
 
 
-### `setLimitCallQueue(int $limitCallQueue)`
+### `setLimitCallQueue(int $limitCallQueue): self`
 
 Set maximum number of messages to consider when using call queues.
 
@@ -97,13 +97,13 @@ Parameters:
 
 
 
-### `getGzipEncodeIfGt()`
+### `getGzipEncodeIfGt(): int`
 
 Get encode payload with GZIP if bigger than.
 
 
 
-### `setGzipEncodeIfGt(int $gzipEncodeIfGt)`
+### `setGzipEncodeIfGt(int $gzipEncodeIfGt): self`
 
 Set encode payload with GZIP if bigger than.
 

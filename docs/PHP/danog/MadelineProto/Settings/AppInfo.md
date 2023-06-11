@@ -17,38 +17,38 @@ App information.
 
 
 ## Method list:
-* `hasApiInfo()`
-* `getApiId()`
-* `setApiId(int $apiId)`
-* `getApiHash()`
-* `setApiHash(string $apiHash)`
-* `getDeviceModel()`
-* `setDeviceModel(string $deviceModel)`
-* `getSystemVersion()`
-* `setSystemVersion(string $systemVersion)`
-* `getAppVersion()`
-* `setAppVersion(string $appVersion)`
-* `getLangCode()`
-* `setLangCode(string $langCode)`
-* `getLangPack()`
-* `setLangPack(string $langPack)`
-* `getShowPrompt()`
-* `setShowPrompt(bool $showPrompt): self`
+* [`hasApiInfo(): bool`](#hasapiinfo-bool)
+* [`getApiId(): int`](#getapiid-int)
+* [`setApiId(int $apiId): self`](#setapiidint-apiid-self)
+* [`getApiHash(): string`](#getapihash-string)
+* [`setApiHash(string $apiHash): self`](#setapihashstring-apihash-self)
+* [`getDeviceModel(): string`](#getdevicemodel-string)
+* [`setDeviceModel(string $deviceModel): self`](#setdevicemodelstring-devicemodel-self)
+* [`getSystemVersion(): string`](#getsystemversion-string)
+* [`setSystemVersion(string $systemVersion): self`](#setsystemversionstring-systemversion-self)
+* [`getAppVersion(): string`](#getappversion-string)
+* [`setAppVersion(string $appVersion): self`](#setappversionstring-appversion-self)
+* [`getLangCode(): string`](#getlangcode-string)
+* [`setLangCode(string $langCode): self`](#setlangcodestring-langcode-self)
+* [`getLangPack(): string`](#getlangpack-string)
+* [`setLangPack(string $langPack): self`](#setlangpackstring-langpack-self)
+* [`getShowPrompt(): bool`](#getshowprompt-bool)
+* [`setShowPrompt(bool $showPrompt): self`](#setshowpromptbool-showprompt-self)
 
 ## Methods:
-### `hasApiInfo()`
+### `hasApiInfo(): bool`
 
 Check if the settings have API ID/hash information.
 
 
 
-### `getApiId()`
+### `getApiId(): int`
 
 Get API ID.
 
 
 
-### `setApiId(int $apiId)`
+### `setApiId(int $apiId): self`
 
 Set API ID.
 
@@ -59,13 +59,13 @@ Parameters:
 
 
 
-### `getApiHash()`
+### `getApiHash(): string`
 
 Get API hash.
 
 
 
-### `setApiHash(string $apiHash)`
+### `setApiHash(string $apiHash): self`
 
 Set API hash.
 
@@ -76,13 +76,13 @@ Parameters:
 
 
 
-### `getDeviceModel()`
+### `getDeviceModel(): string`
 
 Get device model.
 
 
 
-### `setDeviceModel(string $deviceModel)`
+### `setDeviceModel(string $deviceModel): self`
 
 Set device model.
 
@@ -93,13 +93,13 @@ Parameters:
 
 
 
-### `getSystemVersion()`
+### `getSystemVersion(): string`
 
 Get system version.
 
 
 
-### `setSystemVersion(string $systemVersion)`
+### `setSystemVersion(string $systemVersion): self`
 
 Set system version.
 
@@ -110,13 +110,13 @@ Parameters:
 
 
 
-### `getAppVersion()`
+### `getAppVersion(): string`
 
 Get app version.
 
 
 
-### `setAppVersion(string $appVersion)`
+### `setAppVersion(string $appVersion): self`
 
 Set app version.
 
@@ -127,13 +127,13 @@ Parameters:
 
 
 
-### `getLangCode()`
+### `getLangCode(): string`
 
 Get language code.
 
 
 
-### `setLangCode(string $langCode)`
+### `setLangCode(string $langCode): self`
 
 Set language code.
 
@@ -144,13 +144,13 @@ Parameters:
 
 
 
-### `getLangPack()`
+### `getLangPack(): string`
 
 Get language pack.
 
 
 
-### `setLangPack(string $langPack)`
+### `setLangPack(string $langPack): self`
 
 Set language pack.
 
@@ -161,7 +161,7 @@ Parameters:
 
 
 
-### `getShowPrompt()`
+### `getShowPrompt(): bool`
 
 Get whether to show a prompt, asking to enter an API ID/API hash if none is provided.
 

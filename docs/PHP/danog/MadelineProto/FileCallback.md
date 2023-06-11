@@ -17,10 +17,10 @@ File callback interface.
 
 
 ## Method list:
-* `getFile()`
+* [`getFile(): mixed`](#getfile-mixed)
 
 ## Methods:
-### `getFile()`
+### `getFile(): mixed`
 
 Get file.
 

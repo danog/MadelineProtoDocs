@@ -17,10 +17,10 @@ Interface that represents a broadcast action.
 
 
 ## Method list:
-* `act(int $broadcastId, int $peer, \Amp\Cancellation $cancellation)`
+* [`act(int $broadcastId, int $peer, \Amp\Cancellation $cancellation): void`](#actint-broadcastid-int-peer-ampcancellation-cancellation-void)
 
 ## Methods:
-### `act(int $broadcastId, int $peer, \Amp\Cancellation $cancellation)`
+### `act(int $broadcastId, int $peer, \Amp\Cancellation $cancellation): void`
 
 Do something with a single peer.
 

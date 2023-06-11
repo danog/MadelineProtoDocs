@@ -17,21 +17,21 @@ Peer database settings.
 
 
 ## Method list:
-* `getFullInfoCacheTime()`
-* `setFullInfoCacheTime(int $fullInfoCacheTime)`
-* `getFullFetch()`
-* `setFullFetch(bool $fullFetch)`
-* `getCacheAllPeersOnStartup()`
-* `setCacheAllPeersOnStartup(bool $cacheAllPeersOnStartup)`
+* [`getFullInfoCacheTime(): int`](#getfullinfocachetime-int)
+* [`setFullInfoCacheTime(int $fullInfoCacheTime): self`](#setfullinfocachetimeint-fullinfocachetime-self)
+* [`getFullFetch(): bool`](#getfullfetch-bool)
+* [`setFullFetch(bool $fullFetch): self`](#setfullfetchbool-fullfetch-self)
+* [`getCacheAllPeersOnStartup(): bool`](#getcacheallpeersonstartup-bool)
+* [`setCacheAllPeersOnStartup(bool $cacheAllPeersOnStartup): self`](#setcacheallpeersonstartupbool-cacheallpeersonstartup-self)
 
 ## Methods:
-### `getFullInfoCacheTime()`
+### `getFullInfoCacheTime(): int`
 
 Get cache time for full peer information (seconds).
 
 
 
-### `setFullInfoCacheTime(int $fullInfoCacheTime)`
+### `setFullInfoCacheTime(int $fullInfoCacheTime): self`
 
 Set cache time for full peer information (seconds).
 
@@ -42,13 +42,13 @@ Parameters:
 
 
 
-### `getFullFetch()`
+### `getFullFetch(): bool`
 
 Get should madeline fetch the full member list of every group it meets?
 
 
 
-### `setFullFetch(bool $fullFetch)`
+### `setFullFetch(bool $fullFetch): self`
 
 Set should madeline fetch the full member list of every group it meets?
 
@@ -59,13 +59,13 @@ Parameters:
 
 
 
-### `getCacheAllPeersOnStartup()`
+### `getCacheAllPeersOnStartup(): bool`
 
 Get whether to cache all peers on startup for userbots.
 
 
 
-### `setCacheAllPeersOnStartup(bool $cacheAllPeersOnStartup)`
+### `setCacheAllPeersOnStartup(bool $cacheAllPeersOnStartup): self`
 
 Set whether to cache all peers on startup for userbots.
 

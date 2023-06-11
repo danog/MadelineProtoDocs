@@ -17,14 +17,14 @@ Manages storage of VoIP server config.
 
 
 ## Method list:
-* `update(array $config)`
-* `get(): \array The settings`
-* `updateDefault(array $configDefault)`
-* `getDefault(): \array The settings`
-* `getFinal()`
+* [`update(array $config): void`](#updatearray-config-void)
+* [`get(): \array The settings`](#get-array-the-settings)
+* [`updateDefault(array $configDefault): void`](#updatedefaultarray-configdefault-void)
+* [`getDefault(): \array The settings`](#getdefault-array-the-settings)
+* [`getFinal(): array`](#getfinal-array)
 
 ## Methods:
-### `update(array $config)`
+### `update(array $config): void`
 
 Update shared call settings.
 
@@ -43,7 +43,7 @@ Get shared call settings.
 Return value: The settings
 
 
-### `updateDefault(array $configDefault)`
+### `updateDefault(array $configDefault): void`
 
 Update default shared call settings.
 
@@ -62,7 +62,7 @@ Get default shared call settings.
 Return value: The settings
 
 
-### `getFinal()`
+### `getFinal(): array`
 
 Get final settings.
 

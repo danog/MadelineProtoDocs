@@ -17,14 +17,14 @@ Logger settings.
 
 
 ## Method list:
-* `getType(): \MadelineProtoLogger::LOGGER_*`
-* `setType(\MadelineProtoLogger::LOGGER_* $type)`
-* `getExtra()`
-* `setExtra(null|callable|string $extra)`
-* `getLevel(): \MadelineProtoLogger::LEVEL_*`
-* `setLevel(\MadelineProtoLogger::LEVEL_* $level)`
-* `getMaxSize()`
-* `setMaxSize(int $maxSize)`
+* [`getType(): \MadelineProtoLogger::LOGGER_*`](#gettype-madelineprotologgerlogger_)
+* [`setType(\MadelineProtoLogger::LOGGER_* $type): self`](#settypemadelineprotologgerlogger_-type-self)
+* [`getExtra(): callable|string|null`](#getextra-callablestringnull)
+* [`setExtra(null|callable|string $extra): self`](#setextranullcallablestring-extra-self)
+* [`getLevel(): \MadelineProtoLogger::LEVEL_*`](#getlevel-madelineprotologgerlevel_)
+* [`setLevel(\MadelineProtoLogger::LEVEL_* $level): self`](#setlevelmadelineprotologgerlevel_-level-self)
+* [`getMaxSize(): int`](#getmaxsize-int)
+* [`setMaxSize(int $maxSize): self`](#setmaxsizeint-maxsize-self)
 
 ## Methods:
 ### `getType(): \MadelineProtoLogger::LOGGER_*`
@@ -33,7 +33,7 @@ Get $type Logger type.
 
 
 
-### `setType(\MadelineProtoLogger::LOGGER_* $type)`
+### `setType(\MadelineProtoLogger::LOGGER_* $type): self`
 
 Set $type Logger type.
 
@@ -44,13 +44,13 @@ Parameters:
 
 
 
-### `getExtra()`
+### `getExtra(): callable|string|null`
 
 Get extra parameter for logger.
 
 
 
-### `setExtra(null|callable|string $extra)`
+### `setExtra(null|callable|string $extra): self`
 
 Set extra parameter for logger.
 
@@ -67,7 +67,7 @@ Get logging level.
 
 
 
-### `setLevel(\MadelineProtoLogger::LEVEL_* $level)`
+### `setLevel(\MadelineProtoLogger::LEVEL_* $level): self`
 
 Set logging level.
 
@@ -78,13 +78,13 @@ Parameters:
 
 
 
-### `getMaxSize()`
+### `getMaxSize(): int`
 
 Get maximum filesize for logger, in case of file logging.
 
 
 
-### `setMaxSize(int $maxSize)`
+### `setMaxSize(int $maxSize): self`
 
 Set maximum filesize for logger, in case of file logging.
 

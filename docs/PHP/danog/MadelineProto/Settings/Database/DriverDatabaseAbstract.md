@@ -17,40 +17,40 @@ Base class for database backends.
 
 
 ## Method list:
-* `getKey()`
-* `getCacheTtl()`
-* `setCacheTtl(int|string $cacheTtl)`
-* `getPassword()`
-* `setPassword(string $password)`
-* `getDatabase()`
-* `getUri()`
-* `setUri()`
-* `setSerializer()`
-* `getEnableFileReferenceDb()`
-* `setEnableFileReferenceDb(bool $enableFileReferenceDb)`
-* `getEnableMinDb()`
-* `setEnableMinDb(bool $enableMinDb)`
-* `getEnableUsernameDb()`
-* `setEnableUsernameDb(bool $enableUsernameDb)`
-* `getEnableFullPeerDb()`
-* `setEnableFullPeerDb(bool $enableFullPeerDb)`
-* `getEnablePeerInfoDb()`
-* `setEnablePeerInfoDb(bool $enablePeerInfoDb)`
+* [`getKey(): string`](#getkey-string)
+* [`getCacheTtl(): int`](#getcachettl-int)
+* [`setCacheTtl(int|string $cacheTtl): static`](#setcachettlintstring-cachettl-static)
+* [`getPassword(): string`](#getpassword-string)
+* [`setPassword(string $password): static`](#setpasswordstring-password-static)
+* [`getDatabase(): string|int`](#getdatabase-stringint)
+* [`getUri(): string`](#geturi-string)
+* [`setUri(string $uri): static`](#seturistring-uri-static)
+* [`setSerializer(?\danog\MadelineProto\Settings\Database\SerializerType $serializer): static`](#setserializerdanogmadelineprotosettingsdatabaseserializertype-serializer-static)
+* [`getEnableFileReferenceDb(): bool`](#getenablefilereferencedb-bool)
+* [`setEnableFileReferenceDb(bool $enableFileReferenceDb): self`](#setenablefilereferencedbbool-enablefilereferencedb-self)
+* [`getEnableMinDb(): bool`](#getenablemindb-bool)
+* [`setEnableMinDb(bool $enableMinDb): self`](#setenablemindbbool-enablemindb-self)
+* [`getEnableUsernameDb(): bool`](#getenableusernamedb-bool)
+* [`setEnableUsernameDb(bool $enableUsernameDb): self`](#setenableusernamedbbool-enableusernamedb-self)
+* [`getEnableFullPeerDb(): bool`](#getenablefullpeerdb-bool)
+* [`setEnableFullPeerDb(bool $enableFullPeerDb): self`](#setenablefullpeerdbbool-enablefullpeerdb-self)
+* [`getEnablePeerInfoDb(): bool`](#getenablepeerinfodb-bool)
+* [`setEnablePeerInfoDb(bool $enablePeerInfoDb): self`](#setenablepeerinfodbbool-enablepeerinfodb-self)
 
 ## Methods:
-### `getKey()`
+### `getKey(): string`
 
 Get DB key.
 
 
 
-### `getCacheTtl()`
+### `getCacheTtl(): int`
 
 Get for how long to keep records in memory after last read, for cached backends.
 
 
 
-### `setCacheTtl(int|string $cacheTtl)`
+### `setCacheTtl(int|string $cacheTtl): static`
 
 Set for how long to keep records in memory after last read, for cached backends.
 The cache TTL identifier can be a string like '+5 minutes'.
@@ -65,13 +65,13 @@ Parameters:
 
 
 
-### `getPassword()`
+### `getPassword(): string`
 
 Get password.
 
 
 
-### `setPassword(string $password)`
+### `setPassword(string $password): static`
 
 Set password.
 
@@ -82,37 +82,52 @@ Parameters:
 
 
 
-### `getDatabase()`
+### `getDatabase(): string|int`
 
 Get database name/ID.
 
 
 
-### `getUri()`
+### `getUri(): string`
 
 Get database URI.
 
 
 
-### `setUri()`
+### `setUri(string $uri): static`
 
 Set database URI.
 
 
+Parameters:
 
-### `setSerializer()`
+* `$uri`: `string`   
+
+
+
+### `setSerializer(?\danog\MadelineProto\Settings\Database\SerializerType $serializer): static`
 
 Which serializer to use by default.
 If null, the best serializer is chosen.
 
+Parameters:
 
-### `getEnableFileReferenceDb()`
+* `$serializer`: `?\danog\MadelineProto\Settings\Database\SerializerType`   
+
+
+#### See also: 
+* `\danog\MadelineProto\Settings\Database\SerializerType`
+
+
+
+
+### `getEnableFileReferenceDb(): bool`
 
 Get whether to enable the file reference database. If disabled, will break file downloads.
 
 
 
-### `setEnableFileReferenceDb(bool $enableFileReferenceDb)`
+### `setEnableFileReferenceDb(bool $enableFileReferenceDb): self`
 
 Set whether to enable the file reference database. If disabled, will break file downloads.
 
@@ -123,13 +138,13 @@ Parameters:
 
 
 
-### `getEnableMinDb()`
+### `getEnableMinDb(): bool`
 
 Get whether to enable the min database. If disabled, will break sendMessage (and other methods) in certain conditions.
 
 
 
-### `setEnableMinDb(bool $enableMinDb)`
+### `setEnableMinDb(bool $enableMinDb): self`
 
 Set whether to enable the min database. If disabled, will break sendMessage (and other methods) in certain conditions.
 
@@ -140,13 +155,13 @@ Parameters:
 
 
 
-### `getEnableUsernameDb()`
+### `getEnableUsernameDb(): bool`
 
 Get whether to enable the username database. If disabled, will break sendMessage (and other methods) with usernames.
 
 
 
-### `setEnableUsernameDb(bool $enableUsernameDb)`
+### `setEnableUsernameDb(bool $enableUsernameDb): self`
 
 Set whether to enable the username database. If disabled, will break sendMessage (and other methods) with usernames.
 
@@ -157,13 +172,13 @@ Parameters:
 
 
 
-### `getEnableFullPeerDb()`
+### `getEnableFullPeerDb(): bool`
 
 Get whether to enable the full peer info database. If disabled, will break getFullInfo.
 
 
 
-### `setEnableFullPeerDb(bool $enableFullPeerDb)`
+### `setEnableFullPeerDb(bool $enableFullPeerDb): self`
 
 Set whether to enable the full peer info database. If disabled, will break getFullInfo.
 
@@ -174,13 +189,13 @@ Parameters:
 
 
 
-### `getEnablePeerInfoDb()`
+### `getEnablePeerInfoDb(): bool`
 
 Get whether to enable the peer info database. If disabled, will break getInfo.
 
 
 
-### `setEnablePeerInfoDb(bool $enablePeerInfoDb)`
+### `setEnablePeerInfoDb(bool $enablePeerInfoDb): self`
 
 Set whether to enable the peer info database. If disabled, will break getInfo.
 

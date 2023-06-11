@@ -35,15 +35,23 @@ services:
     volumes:
       - .:/app
     command: php /app/bot.php
+
+  #mariadb:
+  #  image: mariadb:latest
+  #  restart: unless-stopped
+  #  volumes:
+  #    - ./mysql:/var/lib/mysql
 ```
 
-Then, create a `bot.php` file with your code, and run this command to log into the bot:
+Then, create a `bot.php` file with your code.  
+
+Then, run this command to log into the bot:
 
 ```bash
 docker run --rm -it --init -v $PWD:/app hub.madelineproto.xyz/danog/madelineproto php /app/bot.php
 ```
 
-After logging in, press ctrl-c to close the temporary container.
+**After logging in, press ctrl-c to close the temporary container.**
 
 Finally, simply run this command to start the bot in the background.
 

@@ -17,20 +17,20 @@ Bytes wrapper.
 
 
 ## Method list:
-* `jsonSerialize()`
-* `offsetSet(int|null $offset, string $value)`
-* `offsetGet(int $offset): string`
-* `offsetUnset(int $offset)`
-* `offsetExists(int $offset)`
+* [`jsonSerialize(): array`](#jsonserialize-array)
+* [`offsetSet(int|null $offset, string $value): void`](#offsetsetintnull-offset-string-value-void)
+* [`offsetGet(int $offset): string`](#offsetgetint-offset-string)
+* [`offsetUnset(int $offset): void`](#offsetunsetint-offset-void)
+* [`offsetExists(int $offset): bool`](#offsetexistsint-offset-bool)
 
 ## Methods:
-### `jsonSerialize()`
+### `jsonSerialize(): array`
 
 Obtain values for JSON-encoding.
 
 
 
-### `offsetSet(int|null $offset, string $value)`
+### `offsetSet(int|null $offset, string $value): void`
 
 Set char at offset.
 
@@ -53,7 +53,7 @@ Parameters:
 
 
 
-### `offsetUnset(int $offset)`
+### `offsetUnset(int $offset): void`
 
 Unset char at offset.
 
@@ -64,7 +64,7 @@ Parameters:
 
 
 
-### `offsetExists(int $offset)`
+### `offsetExists(int $offset): bool`
 
 Check if char at offset exists.
 

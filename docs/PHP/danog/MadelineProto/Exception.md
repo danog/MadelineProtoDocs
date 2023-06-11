@@ -17,14 +17,14 @@ Basic exception.
 
 
 ## Method list:
-* `extension(string $extensionName)`
-* `updateTLTrace()`
-* `getTLTrace()`
-* `setTLTrace(string $tlTrace)`
-* `prettifyTL(string $init, array $trace)`
+* [`extension(string $extensionName): self`](#extensionstring-extensionname-self)
+* [`updateTLTrace(array $trace): void`](#updatetltracearray-trace-void)
+* [`getTLTrace(): string`](#gettltrace-string)
+* [`setTLTrace(string $tlTrace): void`](#settltracestring-tltrace-void)
+* [`prettifyTL(string $init, array $trace): void`](#prettifytlstring-init-array-trace-void)
 
 ## Methods:
-### `extension(string $extensionName)`
+### `extension(string $extensionName): self`
 
 Complain about missing extensions.
 
@@ -35,19 +35,24 @@ Parameters:
 
 
 
-### `updateTLTrace()`
+### `updateTLTrace(array $trace): void`
 
 Update TL trace.
 
 
+Parameters:
 
-### `getTLTrace()`
+* `$trace`: `array`   
+
+
+
+### `getTLTrace(): string`
 
 Get TL trace.
 
 
 
-### `setTLTrace(string $tlTrace)`
+### `setTLTrace(string $tlTrace): void`
 
 Set TL trace.
 
@@ -58,7 +63,7 @@ Parameters:
 
 
 
-### `prettifyTL(string $init, array $trace)`
+### `prettifyTL(string $init, array $trace): void`
 
 Generate async trace.
 

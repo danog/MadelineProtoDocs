@@ -17,39 +17,39 @@ TL schema settings.
 
 
 ## Method list:
-* `needsUpgrade()`
-* `upgrade()`
-* `getLayer()`
-* `setLayer(int $layer)`
-* `getMTProtoSchema()`
-* `setMTProtoSchema(string $MTProtoSchema)`
-* `getAPISchema()`
-* `setAPISchema(string $APISchema)`
-* `getSecretSchema()`
-* `setSecretSchema(string $secretSchema)`
-* `getOther()`
-* `setOther()`
+* [`needsUpgrade(): bool`](#needsupgrade-bool)
+* [`upgrade(): void`](#upgrade-void)
+* [`getLayer(): int`](#getlayer-int)
+* [`setLayer(int $layer): self`](#setlayerint-layer-self)
+* [`getMTProtoSchema(): string`](#getmtprotoschema-string)
+* [`setMTProtoSchema(string $MTProtoSchema): self`](#setmtprotoschemastring-mtprotoschema-self)
+* [`getAPISchema(): string`](#getapischema-string)
+* [`setAPISchema(string $APISchema): self`](#setapischemastring-apischema-self)
+* [`getSecretSchema(): string`](#getsecretschema-string)
+* [`setSecretSchema(string $secretSchema): self`](#setsecretschemastring-secretschema-self)
+* [`getOther(): array`](#getother-array)
+* [`setOther(array $other): self`](#setotherarray-other-self)
 
 ## Methods:
-### `needsUpgrade()`
+### `needsUpgrade(): bool`
 
 Returns whether the TL parser should re-parse the TL schemes.
 
 
 
-### `upgrade()`
+### `upgrade(): void`
 
 Signal that scheme was re-parsed.
 
 
 
-### `getLayer()`
+### `getLayer(): int`
 
 Get TL layer version.
 
 
 
-### `setLayer(int $layer)`
+### `setLayer(int $layer): self`
 
 Set TL layer version.
 
@@ -60,13 +60,13 @@ Parameters:
 
 
 
-### `getMTProtoSchema()`
+### `getMTProtoSchema(): string`
 
 Get MTProto schema path.
 
 
 
-### `setMTProtoSchema(string $MTProtoSchema)`
+### `setMTProtoSchema(string $MTProtoSchema): self`
 
 Set MTProto schema path.
 
@@ -77,13 +77,13 @@ Parameters:
 
 
 
-### `getAPISchema()`
+### `getAPISchema(): string`
 
 Get API schema path.
 
 
 
-### `setAPISchema(string $APISchema)`
+### `setAPISchema(string $APISchema): self`
 
 Set API schema path.
 
@@ -94,13 +94,13 @@ Parameters:
 
 
 
-### `getSecretSchema()`
+### `getSecretSchema(): string`
 
 Get secret schema path.
 
 
 
-### `setSecretSchema(string $secretSchema)`
+### `setSecretSchema(string $secretSchema): self`
 
 Set secret schema path.
 
@@ -111,15 +111,20 @@ Parameters:
 
 
 
-### `getOther()`
+### `getOther(): array`
 
 Get the value of other.
 
 
 
-### `setOther()`
+### `setOther(array $other): self`
 
 Set the value of other.
+
+
+Parameters:
+
+* `$other`: `array`   
 
 
 

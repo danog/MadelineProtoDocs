@@ -17,10 +17,10 @@ IPC server settings.
 
 
 ## Method list:
-* `getSlow()`
+* [`getSlow(): bool`](#getslow-bool)
 
 ## Methods:
-### `getSlow()`
+### `getSlow(): bool`
 
 Get WARNING: this will cause slow startup if enabled.
 
