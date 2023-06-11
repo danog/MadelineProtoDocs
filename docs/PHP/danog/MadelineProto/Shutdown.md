@@ -18,8 +18,8 @@ Class that controls script shutdown.
 
 ## Method list:
 * [`init(): void`](#init-void)
-* [`addCallback(callable $callback, null|string $id): int|\string The callback ID`](#addcallbackcallable-callback-nullstring-id-intstring-the-callback-id)
-* [`removeCallback(null|string|int $id): \bool true if the callback was removed correctly, false otherwise`](#removecallbacknullstringint-id-bool-true-if-the-callback-was-removed-correctly-false-otherwise)
+* [`addCallback(callable $callback, null|string $id): int|\string The callback ID`](#addcallback-callable-callback-null-string-id-int-string-the-callback-id)
+* [`removeCallback(null|string|int $id): \bool true if the callback was removed correctly, false otherwise`](#removecallback-null-string-int-id-bool-true-if-the-callback-was-removed-correctly-false-otherwise)
 
 ## Methods:
 ### `init(): void`

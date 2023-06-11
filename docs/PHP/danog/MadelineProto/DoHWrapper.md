@@ -17,7 +17,7 @@ parent: "MadelineProto API"
 
 
 ## Method list:
-* [`generateContexts(string $uri, ?\Amp\Socket\ConnectContext $context): \danog\MadelineProto\Stream\ConnectionContext[]`](#generatecontextsstring-uri-ampsocketconnectcontext-context-danogmadelineprotostreamconnectioncontext)
+* [`generateContexts(string $uri, ?\Amp\Socket\ConnectContext $context): \danog\MadelineProto\Stream\ConnectionContext[]`](#generatecontexts-string-uri-amp-socket-connectcontext-context-danog-madelineproto-stream-connectioncontext-)
 
 ## Methods:
 ### `generateContexts(string $uri, ?\Amp\Socket\ConnectContext $context): \danog\MadelineProto\Stream\ConnectionContext[]`

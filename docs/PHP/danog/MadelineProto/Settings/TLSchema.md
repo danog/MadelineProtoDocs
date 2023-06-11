@@ -20,15 +20,15 @@ TL schema settings.
 * [`needsUpgrade(): bool`](#needsupgrade-bool)
 * [`upgrade(): void`](#upgrade-void)
 * [`getLayer(): int`](#getlayer-int)
-* [`setLayer(int $layer): self`](#setlayerint-layer-self)
+* [`setLayer(int $layer): self`](#setlayer-int-layer-self)
 * [`getMTProtoSchema(): string`](#getmtprotoschema-string)
-* [`setMTProtoSchema(string $MTProtoSchema): self`](#setmtprotoschemastring-mtprotoschema-self)
+* [`setMTProtoSchema(string $MTProtoSchema): self`](#setmtprotoschema-string-mtprotoschema-self)
 * [`getAPISchema(): string`](#getapischema-string)
-* [`setAPISchema(string $APISchema): self`](#setapischemastring-apischema-self)
+* [`setAPISchema(string $APISchema): self`](#setapischema-string-apischema-self)
 * [`getSecretSchema(): string`](#getsecretschema-string)
-* [`setSecretSchema(string $secretSchema): self`](#setsecretschemastring-secretschema-self)
+* [`setSecretSchema(string $secretSchema): self`](#setsecretschema-string-secretschema-self)
 * [`getOther(): array`](#getother-array)
-* [`setOther(array $other): self`](#setotherarray-other-self)
+* [`setOther(array $other): self`](#setother-array-other-self)
 
 ## Methods:
 ### `needsUpgrade(): bool`

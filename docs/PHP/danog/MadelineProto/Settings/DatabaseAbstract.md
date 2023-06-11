@@ -18,15 +18,15 @@ Base class for storage backends.
 
 ## Method list:
 * [`getEnableFileReferenceDb(): bool`](#getenablefilereferencedb-bool)
-* [`setEnableFileReferenceDb(bool $enableFileReferenceDb): self`](#setenablefilereferencedbbool-enablefilereferencedb-self)
+* [`setEnableFileReferenceDb(bool $enableFileReferenceDb): self`](#setenablefilereferencedb-bool-enablefilereferencedb-self)
 * [`getEnableMinDb(): bool`](#getenablemindb-bool)
-* [`setEnableMinDb(bool $enableMinDb): self`](#setenablemindbbool-enablemindb-self)
+* [`setEnableMinDb(bool $enableMinDb): self`](#setenablemindb-bool-enablemindb-self)
 * [`getEnableUsernameDb(): bool`](#getenableusernamedb-bool)
-* [`setEnableUsernameDb(bool $enableUsernameDb): self`](#setenableusernamedbbool-enableusernamedb-self)
+* [`setEnableUsernameDb(bool $enableUsernameDb): self`](#setenableusernamedb-bool-enableusernamedb-self)
 * [`getEnableFullPeerDb(): bool`](#getenablefullpeerdb-bool)
-* [`setEnableFullPeerDb(bool $enableFullPeerDb): self`](#setenablefullpeerdbbool-enablefullpeerdb-self)
+* [`setEnableFullPeerDb(bool $enableFullPeerDb): self`](#setenablefullpeerdb-bool-enablefullpeerdb-self)
 * [`getEnablePeerInfoDb(): bool`](#getenablepeerinfodb-bool)
-* [`setEnablePeerInfoDb(bool $enablePeerInfoDb): self`](#setenablepeerinfodbbool-enablepeerinfodb-self)
+* [`setEnablePeerInfoDb(bool $enablePeerInfoDb): self`](#setenablepeerinfodb-bool-enablepeerinfodb-self)
 
 ## Methods:
 ### `getEnableFileReferenceDb(): bool`

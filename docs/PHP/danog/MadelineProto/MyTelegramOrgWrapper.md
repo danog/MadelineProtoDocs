@@ -17,13 +17,13 @@ Wrapper for my.telegram.org.
 
 
 ## Method list:
-* [`login(string $number): void`](#loginstring-number-void)
-* [`completeLogin(string $password): mixed`](#completeloginstring-password-mixed)
+* [`login(string $number): void`](#login-string-number-void)
+* [`completeLogin(string $password): mixed`](#completelogin-string-password-mixed)
 * [`loggedIn(): bool`](#loggedin-bool)
 * [`hasApp(): mixed`](#hasapp-mixed)
 * [`getApp(): mixed`](#getapp-mixed)
-* [`createApp(array $settings): mixed`](#createapparray-settings-mixed)
-* [`loop(callable $callable): mixed`](#loopcallable-callable-mixed)
+* [`createApp(array $settings): mixed`](#createapp-array-settings-mixed)
+* [`loop(callable $callable): mixed`](#loop-callable-callable-mixed)
 
 ## Methods:
 ### `login(string $number): void`

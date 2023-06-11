@@ -18,15 +18,15 @@ RPC settings.
 
 ## Method list:
 * [`getRpcDropTimeout(): int`](#getrpcdroptimeout-int)
-* [`setRpcDropTimeout(int $rpcDropTimeout): self`](#setrpcdroptimeoutint-rpcdroptimeout-self)
+* [`setRpcDropTimeout(int $rpcDropTimeout): self`](#setrpcdroptimeout-int-rpcdroptimeout-self)
 * [`getRpcResendTimeout(): int`](#getrpcresendtimeout-int)
-* [`setRpcResendTimeout(int $rpcResendTimeout): self`](#setrpcresendtimeoutint-rpcresendtimeout-self)
+* [`setRpcResendTimeout(int $rpcResendTimeout): self`](#setrpcresendtimeout-int-rpcresendtimeout-self)
 * [`getFloodTimeout(): int`](#getfloodtimeout-int)
-* [`setFloodTimeout(int $floodTimeout): self`](#setfloodtimeoutint-floodtimeout-self)
+* [`setFloodTimeout(int $floodTimeout): self`](#setfloodtimeout-int-floodtimeout-self)
 * [`getLimitCallQueue(): int`](#getlimitcallqueue-int)
-* [`setLimitCallQueue(int $limitCallQueue): self`](#setlimitcallqueueint-limitcallqueue-self)
+* [`setLimitCallQueue(int $limitCallQueue): self`](#setlimitcallqueue-int-limitcallqueue-self)
 * [`getGzipEncodeIfGt(): int`](#getgzipencodeifgt-int)
-* [`setGzipEncodeIfGt(int $gzipEncodeIfGt): self`](#setgzipencodeifgtint-gzipencodeifgt-self)
+* [`setGzipEncodeIfGt(int $gzipEncodeIfGt): self`](#setgzipencodeifgt-int-gzipencodeifgt-self)
 
 ## Methods:
 ### `getRpcDropTimeout(): int`

@@ -17,15 +17,15 @@ PSR-3 wrapper for MadelineProto's Logger.
 
 
 ## Method list:
-* [`log(array $context, mixed $level, mixed $message): void`](#logarray-context-mixed-level-mixed-message-void)
-* [`emergency(string|\Stringable $message, array $context): void`](#emergencystringstringable-message-array-context-void)
-* [`alert(string|\Stringable $message, array $context): void`](#alertstringstringable-message-array-context-void)
-* [`critical(string|\Stringable $message, array $context): void`](#criticalstringstringable-message-array-context-void)
-* [`error(string|\Stringable $message, array $context): void`](#errorstringstringable-message-array-context-void)
-* [`warning(string|\Stringable $message, array $context): void`](#warningstringstringable-message-array-context-void)
-* [`notice(string|\Stringable $message, array $context): void`](#noticestringstringable-message-array-context-void)
-* [`info(string|\Stringable $message, array $context): void`](#infostringstringable-message-array-context-void)
-* [`debug(string|\Stringable $message, array $context): void`](#debugstringstringable-message-array-context-void)
+* [`log(array $context, mixed $level, mixed $message): void`](#log-array-context-mixed-level-mixed-message-void)
+* [`emergency(string|\Stringable $message, array $context): void`](#emergency-string-stringable-message-array-context-void)
+* [`alert(string|\Stringable $message, array $context): void`](#alert-string-stringable-message-array-context-void)
+* [`critical(string|\Stringable $message, array $context): void`](#critical-string-stringable-message-array-context-void)
+* [`error(string|\Stringable $message, array $context): void`](#error-string-stringable-message-array-context-void)
+* [`warning(string|\Stringable $message, array $context): void`](#warning-string-stringable-message-array-context-void)
+* [`notice(string|\Stringable $message, array $context): void`](#notice-string-stringable-message-array-context-void)
+* [`info(string|\Stringable $message, array $context): void`](#info-string-stringable-message-array-context-void)
+* [`debug(string|\Stringable $message, array $context): void`](#debug-string-stringable-message-array-context-void)
 
 ## Methods:
 ### `log(array $context, mixed $level, mixed $message): void`

@@ -18,13 +18,13 @@ File management settings.
 
 ## Method list:
 * [`getAllowAutomaticUpload(): bool`](#getallowautomaticupload-bool)
-* [`setAllowAutomaticUpload(bool $allowAutomaticUpload): self`](#setallowautomaticuploadbool-allowautomaticupload-self)
+* [`setAllowAutomaticUpload(bool $allowAutomaticUpload): self`](#setallowautomaticupload-bool-allowautomaticupload-self)
 * [`getUploadParallelChunks(): int`](#getuploadparallelchunks-int)
-* [`setUploadParallelChunks(int $uploadParallelChunks): self`](#setuploadparallelchunksint-uploadparallelchunks-self)
+* [`setUploadParallelChunks(int $uploadParallelChunks): self`](#setuploadparallelchunks-int-uploadparallelchunks-self)
 * [`getDownloadParallelChunks(): int`](#getdownloadparallelchunks-int)
-* [`setDownloadParallelChunks(int $downloadParallelChunks): self`](#setdownloadparallelchunksint-downloadparallelchunks-self)
+* [`setDownloadParallelChunks(int $downloadParallelChunks): self`](#setdownloadparallelchunks-int-downloadparallelchunks-self)
 * [`getReportBrokenMedia(): bool`](#getreportbrokenmedia-bool)
-* [`setReportBrokenMedia(bool $reportBrokenMedia): self`](#setreportbrokenmediabool-reportbrokenmedia-self)
+* [`setReportBrokenMedia(bool $reportBrokenMedia): self`](#setreportbrokenmedia-bool-reportbrokenmedia-self)
 
 ## Methods:
 ### `getAllowAutomaticUpload(): bool`

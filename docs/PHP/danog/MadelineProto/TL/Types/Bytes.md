@@ -18,10 +18,10 @@ Bytes wrapper.
 
 ## Method list:
 * [`jsonSerialize(): array`](#jsonserialize-array)
-* [`offsetSet(int|null $offset, string $value): void`](#offsetsetintnull-offset-string-value-void)
-* [`offsetGet(int $offset): string`](#offsetgetint-offset-string)
-* [`offsetUnset(int $offset): void`](#offsetunsetint-offset-void)
-* [`offsetExists(int $offset): bool`](#offsetexistsint-offset-bool)
+* [`offsetSet(int|null $offset, string $value): void`](#offsetset-int-null-offset-string-value-void)
+* [`offsetGet(int $offset): string`](#offsetget-int-offset-string)
+* [`offsetUnset(int $offset): void`](#offsetunset-int-offset-void)
+* [`offsetExists(int $offset): bool`](#offsetexists-int-offset-bool)
 
 ## Methods:
 ### `jsonSerialize(): array`

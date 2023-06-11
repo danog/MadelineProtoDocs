@@ -17,10 +17,10 @@ TL deserialization exception.
 
 
 ## Method list:
-* [`updateTLTrace(array $trace): void`](#updatetltracearray-trace-void)
+* [`updateTLTrace(array $trace): void`](#updatetltrace-array-trace-void)
 * [`getTLTrace(): string`](#gettltrace-string)
-* [`setTLTrace(string $tlTrace): void`](#settltracestring-tltrace-void)
-* [`prettifyTL(string $init, array $trace): void`](#prettifytlstring-init-array-trace-void)
+* [`setTLTrace(string $tlTrace): void`](#settltrace-string-tltrace-void)
+* [`prettifyTL(string $init, array $trace): void`](#prettifytl-string-init-array-trace-void)
 
 ## Methods:
 ### `updateTLTrace(array $trace): void`

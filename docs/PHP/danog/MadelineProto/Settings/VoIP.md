@@ -18,7 +18,7 @@ VoIP settings.
 
 ## Method list:
 * [`getPreloadAudio(): bool`](#getpreloadaudio-bool)
-* [`setPreloadAudio(bool $preloadAudio): self`](#setpreloadaudiobool-preloadaudio-self)
+* [`setPreloadAudio(bool $preloadAudio): self`](#setpreloadaudio-bool-preloadaudio-self)
 
 ## Methods:
 ### `getPreloadAudio(): bool`

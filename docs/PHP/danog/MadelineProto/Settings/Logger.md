@@ -17,14 +17,14 @@ Logger settings.
 
 
 ## Method list:
-* [`getType(): \MadelineProtoLogger::LOGGER_*`](#gettype-madelineprotologgerlogger_)
-* [`setType(\MadelineProtoLogger::LOGGER_* $type): self`](#settypemadelineprotologgerlogger_-type-self)
-* [`getExtra(): callable|string|null`](#getextra-callablestringnull)
-* [`setExtra(null|callable|string $extra): self`](#setextranullcallablestring-extra-self)
-* [`getLevel(): \MadelineProtoLogger::LEVEL_*`](#getlevel-madelineprotologgerlevel_)
-* [`setLevel(\MadelineProtoLogger::LEVEL_* $level): self`](#setlevelmadelineprotologgerlevel_-level-self)
+* [`getType(): \MadelineProtoLogger::LOGGER_*`](#gettype-madelineprotologger-logger_-)
+* [`setType(\MadelineProtoLogger::LOGGER_* $type): self`](#settype-madelineprotologger-logger_-type-self)
+* [`getExtra(): callable|string|null`](#getextra-callable-string-null)
+* [`setExtra(null|callable|string $extra): self`](#setextra-null-callable-string-extra-self)
+* [`getLevel(): \MadelineProtoLogger::LEVEL_*`](#getlevel-madelineprotologger-level_-)
+* [`setLevel(\MadelineProtoLogger::LEVEL_* $level): self`](#setlevel-madelineprotologger-level_-level-self)
 * [`getMaxSize(): int`](#getmaxsize-int)
-* [`setMaxSize(int $maxSize): self`](#setmaxsizeint-maxsize-self)
+* [`setMaxSize(int $maxSize): self`](#setmaxsize-int-maxsize-self)
 
 ## Methods:
 ### `getType(): \MadelineProtoLogger::LOGGER_*`

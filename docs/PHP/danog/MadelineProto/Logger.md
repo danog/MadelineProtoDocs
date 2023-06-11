@@ -39,11 +39,11 @@ Logger class.
 
 
 ## Method list:
-* [`constructorFromSettings(\danog\MadelineProto\Settings\Logger $settings): self`](#constructorfromsettingsdanogmadelineprotosettingslogger-settings-self)
+* [`constructorFromSettings(\danog\MadelineProto\Settings\Logger $settings): self`](#constructorfromsettings-danog-madelineproto-settings-logger-settings-self)
 * [`truncate(): void`](#truncate-void)
-* [`log(mixed $param, int $level): void`](#logmixed-param-int-level-void)
-* [`logger(mixed $param, int $level, string $file): void`](#loggermixed-param-int-level-string-file-void)
-* [`getPsrLogger(): \Psr\Log\LoggerInterface`](#getpsrlogger-psrlogloggerinterface)
+* [`log(mixed $param, int $level): void`](#log-mixed-param-int-level-void)
+* [`logger(mixed $param, int $level, string $file): void`](#logger-mixed-param-int-level-string-file-void)
+* [`getPsrLogger(): \Psr\Log\LoggerInterface`](#getpsrlogger-psr-log-loggerinterface)
 
 ## Methods:
 ### `constructorFromSettings(\danog\MadelineProto\Settings\Logger $settings): self`

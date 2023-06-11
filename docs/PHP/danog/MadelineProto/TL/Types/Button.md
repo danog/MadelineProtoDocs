@@ -17,12 +17,12 @@ Clickable button.
 
 
 ## Method list:
-* [`click(bool $donotwait): mixed`](#clickbool-donotwait-mixed)
+* [`click(bool $donotwait): mixed`](#click-bool-donotwait-mixed)
 * [`jsonSerialize(): array`](#jsonserialize-array)
-* [`offsetSet(mixed $name, mixed $value): void`](#offsetsetmixed-name-mixed-value-void)
-* [`offsetGet(mixed $name): mixed`](#offsetgetmixed-name-mixed)
-* [`offsetUnset(mixed $name): void`](#offsetunsetmixed-name-void)
-* [`offsetExists(mixed $name): bool`](#offsetexistsmixed-name-bool)
+* [`offsetSet(mixed $name, mixed $value): void`](#offsetset-mixed-name-mixed-value-void)
+* [`offsetGet(mixed $name): mixed`](#offsetget-mixed-name-mixed)
+* [`offsetUnset(mixed $name): void`](#offsetunset-mixed-name-void)
+* [`offsetExists(mixed $name): bool`](#offsetexists-mixed-name-bool)
 
 ## Methods:
 ### `click(bool $donotwait): mixed`

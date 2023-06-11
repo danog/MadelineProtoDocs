@@ -18,15 +18,15 @@ DB array interface.
 
 ## Method list:
 * [`getArrayCopy(): array`](#getarraycopy-array)
-* [`isset(\TKey $key): bool`](#issettkey-key-bool)
-* [`unset(\TKey $key): void`](#unsettkey-key-void)
-* [`set(\TKey $key, \TValue $value): void`](#settkey-key-tvalue-value-void)
-* [`offsetGet(\TKey $index): mixed`](#offsetgettkey-index-mixed)
-* [`offsetSet(\TKey $index, \TValue $value): void`](#offsetsettkey-index-tvalue-value-void)
-* [`offsetUnset(\TKey $index): void`](#offsetunsettkey-index-void)
-* [`offsetExists(\TKey $index): bool`](#offsetexiststkey-index-bool)
+* [`isset(\TKey $key): bool`](#isset-tkey-key-bool)
+* [`unset(\TKey $key): void`](#unset-tkey-key-void)
+* [`set(\TKey $key, \TValue $value): void`](#set-tkey-key-tvalue-value-void)
+* [`offsetGet(\TKey $index): mixed`](#offsetget-tkey-index-mixed)
+* [`offsetSet(\TKey $index, \TValue $value): void`](#offsetset-tkey-index-tvalue-value-void)
+* [`offsetUnset(\TKey $index): void`](#offsetunset-tkey-index-void)
+* [`offsetExists(\TKey $index): bool`](#offsetexists-tkey-index-bool)
 * [`clear(): void`](#clear-void)
-* [`getIterator(): \Traversable<\TKey, \TValue>`](#getiterator-traversabletkey-tvalue)
+* [`getIterator(): \Traversable<\TKey, \TValue>`](#getiterator-traversable-tkey-tvalue-)
 
 ## Methods:
 ### `getArrayCopy(): array`

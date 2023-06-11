@@ -21,19 +21,19 @@ Some tools.
 
 
 ## Method list:
-* [`mbStrlen(string $text): int`](#mbstrlenstring-text-int)
-* [`mbSubstr(string $text, int $offset, null|int $length): string`](#mbsubstrstring-text-int-offset-nullint-length-string)
-* [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplitstring-text-int-length-string)
-* [`toCamelCase(string $input): string`](#tocamelcasestring-input-string)
-* [`toSnakeCase(string $input): string`](#tosnakecasestring-input-string)
-* [`markdownEscape(string $hwat): string`](#markdownescapestring-hwat-string)
-* [`typeEscape(string $type): string`](#typeescapestring-type-string)
-* [`methodEscape(string $method): string`](#methodescapestring-method-string)
-* [`getMimeFromExtension(string $extension, string $default): string`](#getmimefromextensionstring-extension-string-default-string)
-* [`getExtensionFromMime(string $mime): string`](#getextensionfrommimestring-mime-string)
-* [`getExtensionFromLocation(mixed $location, string $default): string`](#getextensionfromlocationmixed-location-string-default-string)
-* [`getMimeFromFile(string $file): string`](#getmimefromfilestring-file-string)
-* [`getMimeFromBuffer(string $buffer): string`](#getmimefrombufferstring-buffer-string)
+* [`mbStrlen(string $text): int`](#mbstrlen-string-text-int)
+* [`mbSubstr(string $text, int $offset, null|int $length): string`](#mbsubstr-string-text-int-offset-null-int-length-string)
+* [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplit-string-text-int-length-string-)
+* [`toCamelCase(string $input): string`](#tocamelcase-string-input-string)
+* [`toSnakeCase(string $input): string`](#tosnakecase-string-input-string)
+* [`markdownEscape(string $hwat): string`](#markdownescape-string-hwat-string)
+* [`typeEscape(string $type): string`](#typeescape-string-type-string)
+* [`methodEscape(string $method): string`](#methodescape-string-method-string)
+* [`getMimeFromExtension(string $extension, string $default): string`](#getmimefromextension-string-extension-string-default-string)
+* [`getExtensionFromMime(string $mime): string`](#getextensionfrommime-string-mime-string)
+* [`getExtensionFromLocation(mixed $location, string $default): string`](#getextensionfromlocation-mixed-location-string-default-string)
+* [`getMimeFromFile(string $file): string`](#getmimefromfile-string-file-string)
+* [`getMimeFromBuffer(string $buffer): string`](#getmimefrombuffer-string-buffer-string)
 
 ## Methods:
 ### `mbStrlen(string $text): int`

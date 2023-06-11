@@ -17,11 +17,11 @@ Basic exception.
 
 
 ## Method list:
-* [`extension(string $extensionName): self`](#extensionstring-extensionname-self)
-* [`updateTLTrace(array $trace): void`](#updatetltracearray-trace-void)
+* [`extension(string $extensionName): self`](#extension-string-extensionname-self)
+* [`updateTLTrace(array $trace): void`](#updatetltrace-array-trace-void)
 * [`getTLTrace(): string`](#gettltrace-string)
-* [`setTLTrace(string $tlTrace): void`](#settltracestring-tltrace-void)
-* [`prettifyTL(string $init, array $trace): void`](#prettifytlstring-init-array-trace-void)
+* [`setTLTrace(string $tlTrace): void`](#settltrace-string-tltrace-void)
+* [`prettifyTL(string $init, array $trace): void`](#prettifytl-string-init-array-trace-void)
 
 ## Methods:
 ### `extension(string $extensionName): self`

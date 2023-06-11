@@ -18,11 +18,11 @@ Peer database settings.
 
 ## Method list:
 * [`getFullInfoCacheTime(): int`](#getfullinfocachetime-int)
-* [`setFullInfoCacheTime(int $fullInfoCacheTime): self`](#setfullinfocachetimeint-fullinfocachetime-self)
+* [`setFullInfoCacheTime(int $fullInfoCacheTime): self`](#setfullinfocachetime-int-fullinfocachetime-self)
 * [`getFullFetch(): bool`](#getfullfetch-bool)
-* [`setFullFetch(bool $fullFetch): self`](#setfullfetchbool-fullfetch-self)
+* [`setFullFetch(bool $fullFetch): self`](#setfullfetch-bool-fullfetch-self)
 * [`getCacheAllPeersOnStartup(): bool`](#getcacheallpeersonstartup-bool)
-* [`setCacheAllPeersOnStartup(bool $cacheAllPeersOnStartup): self`](#setcacheallpeersonstartupbool-cacheallpeersonstartup-self)
+* [`setCacheAllPeersOnStartup(bool $cacheAllPeersOnStartup): self`](#setcacheallpeersonstartup-bool-cacheallpeersonstartup-self)
 
 ## Methods:
 ### `getFullInfoCacheTime(): int`

@@ -17,9 +17,9 @@ Manages storage of VoIP server config.
 
 
 ## Method list:
-* [`update(array $config): void`](#updatearray-config-void)
+* [`update(array $config): void`](#update-array-config-void)
 * [`get(): \array The settings`](#get-array-the-settings)
-* [`updateDefault(array $configDefault): void`](#updatedefaultarray-configdefault-void)
+* [`updateDefault(array $configDefault): void`](#updatedefault-array-configdefault-void)
 * [`getDefault(): \array The settings`](#getdefault-array-the-settings)
 * [`getFinal(): array`](#getfinal-array)
 
