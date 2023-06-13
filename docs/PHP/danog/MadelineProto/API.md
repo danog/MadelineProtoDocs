@@ -37,13 +37,14 @@ Main API wrapper for MadelineProto.
 
 
 ## Method list:
+* [`getWebAPITemplate(): string`](#getwebapitemplate-string)
+* [`setWebApiTemplate(string $template): void`](#setwebapitemplate-string-template-void)
 * [`startAndLoopMulti(\danog\MadelineProto\API[] $instances, class-string<\danog\MadelineProto\EventHandler>[]|class-string<\danog\MadelineProto\EventHandler> $eventHandler): void`](#startandloopmulti-danog-madelineproto-api-instances-class-string-danog-madelineproto-eventhandler-class-string-danog-madelineproto-eventhandler-eventhandler-void)
 * [`MTProtoToBotAPI(array $data): array`](#mtprototobotapi-array-data-array)
 * [`MTProtoToTd(mixed $params): mixed`](#mtprotototd-mixed-params-mixed)
 * [`MTProtoToTdcli(mixed $params): mixed`](#mtprotototdcli-mixed-params-mixed)
 * [`acceptCall(array $call): bool`](#acceptcall-array-call-bool)
 * [`acceptSecretChat(array $params): void`](#acceptsecretchat-array-params-void)
-* [`addUser(array $user): void`](#adduser-array-user-void)
 * [`arr(mixed $params): array`](#arr-mixed-params-array)
 * [`base64urlDecode(string $data): string`](#base64urldecode-string-data-string)
 * [`base64urlEncode(string $data): string`](#base64urlencode-string-data-string)
@@ -60,7 +61,6 @@ Main API wrapper for MadelineProto.
 * [`completePhoneLogin(string $code): mixed`](#completephonelogin-string-code-mixed)
 * [`completeSignup(string $first_name, string $last_name): array`](#completesignup-string-first_name-string-last_name-array)
 * [`confirmCall(array $params): mixed`](#confirmcall-array-params-mixed)
-* [`connectToAllDcs(bool $reconnectAll): void`](#connecttoalldcs-bool-reconnectall-void)
 * [`discardCall(array $call, array $rating, bool $need_debug, array $reason): ?\danog\MadelineProto\VoIP`](#discardcall-array-call-array-rating-bool-need_debug-array-reason-danog-madelineproto-voip)
 * [`discardSecretChat(int $chat): void`](#discardsecretchat-int-chat-void)
 * [`downloadToBrowser(array|string|\danog\MadelineProto\FileCallbackInterface $messageMedia, null|callable $cb, null|int $size, null|string $mime, null|string $name): void`](#downloadtobrowser-array-string-danog-madelineproto-filecallbackinterface-messagemedia-null-callable-cb-null-int-size-null-string-mime-null-string-name-void)
@@ -125,14 +125,11 @@ Main API wrapper for MadelineProto.
 * [`getTL(): \danog\MadelineProto\TL\TL`](#gettl-danog-madelineproto-tl-tl)
 * [`getType(mixed $id): \"user"|\"bot"|\"chat"|\"supergroup"|\"channel"`](#gettype-mixed-id-user-bot-chat-supergroup-channel-)
 * [`getUpdates(array{offset?: int, limit?: int, timeout?: float} $params): list<array{update_id: mixed, update: mixed}>`](#getupdates-array-offset-int-limit-int-timeout-float-params-list-array-update_id-mixed-update-mixed-)
-* [`getVar(object $obj, string $var): mixed`](#getvar-object-obj-string-var-mixed)
 * [`getWebMessage(string $message): string`](#getwebmessage-string-message-string)
 * [`getWebTemplate(): string`](#getwebtemplate-string)
-* [`hasAllAuth(): bool`](#hasallauth-bool)
 * [`hasEventHandler(): bool`](#haseventhandler-bool)
 * [`hasReportPeers(): bool`](#hasreportpeers-bool)
 * [`hasSecretChat(array|int $chat): bool`](#hassecretchat-array-int-chat-bool)
-* [`hasVar(object $obj, string $var): bool`](#hasvar-object-obj-string-var-bool)
 * [`importAuthorization(array<int, string> $authorization, int $mainDcID): array`](#importauthorization-array-int-string-authorization-int-maindcid-array)
 * [`inflateStripped(string $stripped): \string JPG payload`](#inflatestripped-string-stripped-string-jpg-payload)
 * [`initSelfRestart(): void`](#initselfrestart-void)
@@ -173,7 +170,6 @@ Main API wrapper for MadelineProto.
 * [`sendCustomEvent(mixed $payload): void`](#sendcustomevent-mixed-payload-void)
 * [`setNoop(): void`](#setnoop-void)
 * [`setReportPeers(int|string|(int|string)[] $userOrId): void`](#setreportpeers-int-string-int-string-userorid-void)
-* [`setVar(object $obj, string $var, mixed $val): void`](#setvar-object-obj-string-var-mixed-val-void)
 * [`setWebTemplate(string $template): void`](#setwebtemplate-string-template-void)
 * [`setWebhook(string $webhookUrl): void`](#setwebhook-string-webhookurl-void)
 * [`setupLogger(): void`](#setuplogger-void)
@@ -206,6 +202,23 @@ Main API wrapper for MadelineProto.
 * [`viewSponsoredMessage(int|array $peer, string|array{random_id: string} $message): bool`](#viewsponsoredmessage-int-array-peer-string-array-random_id-string-message-bool)
 
 ## Methods:
+### `getWebAPITemplate(): string`
+
+Obtain the API ID UI template.
+
+
+
+### `setWebApiTemplate(string $template): void`
+
+Set the API ID UI template.
+
+
+Parameters:
+
+* `$template`: `string`   
+
+
+
 ### `startAndLoopMulti(\danog\MadelineProto\API[] $instances, class-string<\danog\MadelineProto\EventHandler>[]|class-string<\danog\MadelineProto\EventHandler> $eventHandler): void`
 
 Start multiple instances of MadelineProto and the event handlers (enables async).
@@ -275,17 +288,6 @@ Accept secret chat.
 Parameters:
 
 * `$params`: `array` Secret chat ID  
-
-
-
-### `addUser(array $user): void`
-
-Add user info.
-
-
-Parameters:
-
-* `$user`: `array` User info  
 
 
 
@@ -507,17 +509,6 @@ Confirm call.
 Parameters:
 
 * `$params`: `array` Params  
-
-
-
-### `connectToAllDcs(bool $reconnectAll): void`
-
-Connects to all datacenters and if necessary creates authorization keys, binds them and writes client info.
-
-
-Parameters:
-
-* `$reconnectAll`: `bool` Whether to reconnect to all DCs  
 
 
 
@@ -1256,18 +1247,6 @@ Parameters:
 
 
 
-### `getVar(object $obj, string $var): mixed`
-
-Accesses a private variable from an object.
-
-
-Parameters:
-
-* `$obj`: `object` Object  
-* `$var`: `string` Attribute name  
-
-
-
 ### `getWebMessage(string $message): string`
 
 Get a message to show to the user when starting the bot.
@@ -1282,12 +1261,6 @@ Parameters:
 ### `getWebTemplate(): string`
 
 Get web template.
-
-
-
-### `hasAllAuth(): bool`
-
-Checks whether all datacenters are authorized.
 
 
 
@@ -1311,18 +1284,6 @@ Check whether secret chat exists.
 Parameters:
 
 * `$chat`: `array|int` Secret chat ID  
-
-
-
-### `hasVar(object $obj, string $var): bool`
-
-Checks private property exists in an object.
-
-
-Parameters:
-
-* `$obj`: `object` Object  
-* `$var`: `string` Attribute name  
 
 
 
@@ -1746,19 +1707,6 @@ Set peer(s) where to send errors occurred in the event loop.
 Parameters:
 
 * `$userOrId`: `int|string|(int|string)[]` Username(s) or peer ID(s)  
-
-
-
-### `setVar(object $obj, string $var, mixed $val): void`
-
-Sets a private variable in an object.
-
-
-Parameters:
-
-* `$obj`: `object` Object  
-* `$var`: `string` Attribute name  
-* `$val`: `mixed` Attribute value  
 
 
 

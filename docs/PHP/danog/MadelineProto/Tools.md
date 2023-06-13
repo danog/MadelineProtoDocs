@@ -46,9 +46,6 @@ Some tools.
 * [`closeConnection(string $message): void`](#closeconnection-string-message-void)
 * [`end(array $what): mixed`](#end-array-what-mixed)
 * [`isAltervista(): bool`](#isaltervista-bool)
-* [`hasVar(object $obj, string $var): bool`](#hasvar-object-obj-string-var-bool)
-* [`getVar(object $obj, string $var): mixed`](#getvar-object-obj-string-var-mixed)
-* [`setVar(object $obj, string $var, mixed $val): void`](#setvar-object-obj-string-var-mixed-val-void)
 * [`rethrow(\Throwable $e): void`](#rethrow-throwable-e-void)
 * [`flock(string $file, int $operation, float $polling, ?\Amp\Cancellation $token, ?\Closure $failureCb): mixed`](#flock-string-file-int-operation-float-polling-amp-cancellation-token-closure-failurecb-mixed)
 * [`sleep(float $time): void`](#sleep-float-time-void)
@@ -336,43 +333,6 @@ Parameters:
 ### `isAltervista(): bool`
 
 Whether this is altervista.
-
-
-
-### `hasVar(object $obj, string $var): bool`
-
-Checks private property exists in an object.
-
-
-Parameters:
-
-* `$obj`: `object` Object  
-* `$var`: `string` Attribute name  
-
-
-
-### `getVar(object $obj, string $var): mixed`
-
-Accesses a private variable from an object.
-
-
-Parameters:
-
-* `$obj`: `object` Object  
-* `$var`: `string` Attribute name  
-
-
-
-### `setVar(object $obj, string $var, mixed $val): void`
-
-Sets a private variable in an object.
-
-
-Parameters:
-
-* `$obj`: `object` Object  
-* `$var`: `string` Attribute name  
-* `$val`: `mixed` Attribute value  
 
 
 

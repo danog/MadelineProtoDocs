@@ -38,6 +38,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="auth.acceptLoginToken.html" name="auth.acceptLoginToken">Accept QR code login token, logging in the app that generated it: auth.acceptLoginToken</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#acceptcall-array-call-bool" name="acceptCall">Accept call: acceptCall</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#acceptsecretchat-array-params-void" name="acceptSecretChat">Accept secret chat: acceptSecretChat</a>
+
 * <a href="help.acceptTermsOfService.html" name="help.acceptTermsOfService">Accept the new terms of service: help.acceptTermsOfService</a>
 
 * <a href="channels.toggleUsername.html" name="channels.toggleUsername">Activate or deactivate a purchased fragment.com username associated to a supergroup or channel we own: channels.toggleUsername</a>
@@ -68,9 +72,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels.setStickers.html" name="channels.setStickers">Associate a stickerset to the supergroup: channels.setStickers</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#flock-string-file-int-operation-float-polling-amp-cancellation-token-closure-failurecb-mixed" name="flock">Asynchronously lock a file: flock</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#readline-string-prompt-string" name="readLine">Asynchronously read line: readLine</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#sleep-float-time-void" name="sleep">Asynchronously sleep: sleep</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#echo-string-string-void" name="echo">Asynchronously write to stdout/browser: echo</a>
+
 * <a href="channels.editBanned.html" name="channels.editBanned">Ban/unban/kick a user in a supergroup/channel: channels.editBanned</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#base64urlencode-string-data-string" name="base64urlEncode">Base64URL encode: base64urlEncode</a>
+
 * <a href="help.getUserInfo.html" name="help.getUserInfo">Can only be used by TSF members to obtain internal information: help.getUserInfo</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#cancelbroadcast-int-id-void" name="cancelBroadcast">Cancel a running broadcast: cancelBroadcast</a>
 
 * <a href="account.cancelPasswordEmail.html" name="account.cancelPasswordEmail">Cancel the code that was sent to verify an email to use as 2FA recovery method: account.cancelPasswordEmail</a>
 
@@ -110,11 +126,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels.checkUsername.html" name="channels.checkUsername">Check if a username is free and can be assigned to a channel/supergroup: channels.checkUsername</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#haseventhandler-bool" name="hasEventHandler">Check if an event handler instance is present: hasEventHandler</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#hasreportpeers-bool" name="hasReportPeers">Check if has report peers: hasReportPeers</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#isarrayoralike-mixed-var-bool" name="isArrayOrAlike">Check if is array or similar (traversable && countable && arrayAccess): isArrayOrAlike</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#peerisset-mixed-id-bool" name="peerIsset">Check if peer is present in internal peer database: peerIsset</a>
+
 * <a href="auth.checkRecoveryPassword.html" name="auth.checkRecoveryPassword">Check if the 2FA recovery code sent using auth.requestPasswordRecovery is valid, before passing it to auth.recoverPassword: auth.checkRecoveryPassword</a>
 
 * <a href="messages.checkChatInvite.html" name="messages.checkChatInvite">Check the validity of a chat invite link and get basic info about it: messages.checkChatInvite</a>
 
 * <a href="messages.checkHistoryImportPeer.html" name="messages.checkHistoryImportPeer">Check whether chat history exported from another chat app can be imported into a specific Telegram chat, click here for more info »: messages.checkHistoryImportPeer</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#issupergroup-int-id-bool" name="isSupergroup">Check whether provided bot API ID is a channel: isSupergroup</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#hassecretchat-array-int-chat-bool" name="hasSecretChat">Check whether secret chat exists: hasSecretChat</a>
 
 * <a href="stickers.checkShortName.html" name="stickers.checkShortName">Check whether the given short name is available: stickers.checkShortName</a>
 
@@ -136,13 +164,51 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.clearRecentEmojiStatuses.html" name="account.clearRecentEmojiStatuses">Clears list of recently used emoji statuses: account.clearRecentEmojiStatuses</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#closeconnection-string-message-void" name="closeConnection">Close connection with client, connected via web: closeConnection</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#completephonelogin-string-code-mixed" name="completePhoneLogin">Complet user login using login code: completePhoneLogin</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#complete2falogin-string-password-array" name="complete2faLogin">Complete 2FA login: complete2faLogin</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#completecall-array-params-mixed" name="completeCall">Complete call handshake: completeCall</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#completesignup-string-first_name-string-last_name-array" name="completeSignup">Complete signup to Telegram: completeSignup</a>
+
 * <a href="messages.startHistoryImport.html" name="messages.startHistoryImport">Complete the history import process, importing all messages into the chat.  : messages.startHistoryImport</a>
 
 * <a href="account.confirmPhone.html" name="account.confirmPhone">Confirm a phone number to cancel account deletion, for more info click here »: account.confirmPhone</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#confirmcall-array-params-mixed" name="confirmCall">Confirm call: confirmCall</a>
+
 * <a href="messages.receivedMessages.html" name="messages.receivedMessages">Confirms receipt of messages by a client, cancels PUSH-notification sending: messages.receivedMessages</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#tosupergroup-int-id-int" name="toSupergroup">Convert MTProto channel ID to bot API channel ID: toSupergroup</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#mtprototobotapi-array-data-array" name="MTProtoToBotAPI">Convert MTProto parameters to bot API parameters: MTProtoToBotAPI</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#tdtotdcli-mixed-params-mixed" name="tdToTdcli">Convert TD parameters to tdcli: tdToTdcli</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#tdtomtproto-array-params-array" name="tdToMTProto">Convert TD to MTProto parameters: tdToMTProto</a>
+
 * <a href="channels.convertToGigagroup.html" name="channels.convertToGigagroup">Convert a supergroup to a gigagroup, when requested by channel suggestions: channels.convertToGigagroup</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#fromsupergroup-int-id-int" name="fromSupergroup">Convert bot API channel ID to MTProto channel ID: fromSupergroup</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#botapitomtproto-array-arguments-array" name="botAPIToMTProto">Convert bot API parameters to MTProto parameters: botAPIToMTProto</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#packdouble-float-value-string" name="packDouble">Convert double to binary version: packDouble</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#packsignedlong-int-value-string" name="packSignedLong">Convert integer to base256 long: packSignedLong</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#packsignedint-int-value-string" name="packSignedInt">Convert integer to base256 signed int: packSignedInt</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#tdclitotd-mixed-params-array-key-array" name="tdcliToTd">Convert tdcli parameters to tdcli: tdcliToTd</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#tocamelcase-string-input-string" name="toCamelCase">Convert to camelCase: toCamelCase</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#tosnakecase-string-input-string" name="toSnakeCase">Convert to snake_case: toSnakeCase</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#packunsignedint-int-value-string" name="packUnsignedInt">Convert value to unsigned base256 int: packUnsignedInt</a>
 
 * <a href="channels.createForumTopic.html" name="channels.createForumTopic">Create a forum topic; requires manage_topics rights: channels.createForumTopic</a>
 
@@ -155,6 +221,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="account.createTheme.html" name="account.createTheme">Create a theme: account.createTheme</a>
 
 * <a href="account.uploadWallPaper.html" name="account.uploadWallPaper">Create and upload a new wallpaper: account.uploadWallPaper</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#arr-mixed-params-array" name="arr">Create array: arr</a>
 
 * <a href="messages.createChat.html" name="messages.createChat">Creates a new chat: messages.createChat</a>
 
@@ -212,6 +280,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels.deactivateAllUsernames.html" name="channels.deactivateAllUsernames">Disable all purchased usernames of a supergroup or channel: channels.deactivateAllUsernames</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#discardcall-array-call-array-rating-bool-need_debug-array-reason-danog-madelineproto-voip" name="discardCall">Discard call: discardCall</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#discardsecretchat-int-chat-void" name="discardSecretChat">Discard secret chat: discardSecretChat</a>
+
 * <a href="help.dismissSuggestion.html" name="help.dismissSuggestion">Dismiss a suggestion, see here for more info »: help.dismissSuggestion</a>
 
 * <a href="chatlists.hideChatlistUpdates.html" name="chatlists.hideChatlistUpdates">Dismiss new pending peers recently added to a chat folder deep link »: chatlists.hideChatlistUpdates</a>
@@ -219,6 +291,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages.hideChatJoinRequest.html" name="messages.hideChatJoinRequest">Dismiss or approve a chat join request related to a specific chat or channel: messages.hideChatJoinRequest</a>
 
 * <a href="messages.hideAllChatJoinRequests.html" name="messages.hideAllChatJoinRequests">Dismiss or approve all join requests related to a specific chat or channel: messages.hideAllChatJoinRequests</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtoresponse-array-string-filecallbackinterface-messagemedia-amp-http-server-request-request-callable-cb-null-int-size-null-string-name-null-string-mime-amp-http-server-response" name="downloadToResponse">Download file to amphp/http-server response: downloadToResponse</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtobrowser-array-string-filecallbackinterface-messagemedia-null-callable-cb-null-int-size-null-string-mime-null-string-name-void" name="downloadToBrowser">Download file to browser: downloadToBrowser</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtocallable-mixed-messagemedia-callable-filecallbackinterface-callable-callable-cb-bool-seekable-int-offset-int-end-int-part_size-mixed" name="downloadToCallable">Download file to callable: downloadToCallable</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtodir-mixed-messagemedia-string-filecallbackinterface-dir-callable-cb-mixed" name="downloadToDir">Download file to directory: downloadToDir</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtostream-mixed-messagemedia-mixed-filecallbackinterface-resource-amp-bytestream-writablestream-stream-callable-cb-int-offset-int-end-mixed" name="downloadToStream">Download file to stream: downloadToStream</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtofile-mixed-messagemedia-string-filecallbackinterface-file-callable-cb-string-false" name="downloadToFile">Download file: downloadToFile</a>
 
 * <a href="channels.editForumTopic.html" name="channels.editForumTopic">Edit forum topic; requires manage_topics rights: channels.editForumTopic</a>
 
@@ -258,9 +342,29 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels.toggleSignatures.html" name="channels.toggleSignatures">Enable/disable message signatures in channels: channels.toggleSignatures</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#methodescape-string-method-string" name="methodEscape">Escape method name: methodEscape</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#markdownescape-string-hwat-string" name="markdownEscape">Escape string for markdown: markdownEscape</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#typeescape-string-type-string" name="typeEscape">Escape type name: typeEscape</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#broadcastcustom-action-action-danog-madelineproto-broadcast-filter-filter-int" name="broadcastCustom">Executes a custom broadcast action with all peers (users, chats, channels) of the bot: broadcastCustom</a>
+
 * <a href="chatlists.exportChatlistInvite.html" name="chatlists.exportChatlistInvite">Export a folder », creating a chat folder deep link »: chatlists.exportChatlistInvite</a>
 
 * <a href="messages.exportChatInvite.html" name="messages.exportChatInvite">Export an invite link for a chat: messages.exportChatInvite</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#exportauthorization-array-0-int-string-1-string-" name="exportAuthorization">Export authorization: exportAuthorization</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#extractupdates-array-updates-array-" name="extractUpdates">Extract Update constructors from an Updates constructor: extractUpdates</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#extractmessageid-array-updates-int" name="extractMessageId">Extract a message ID from an Updates constructor: extractMessageId</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#extractmessage-array-updates-array" name="extractMessage">Extract a message constructor from an Updates constructor: extractMessage</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#extractmessageupdate-array-updates-array" name="extractMessageUpdate">Extract an update message constructor from an Updates constructor: extractMessageUpdate</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#extractbotapifile-array-info-array" name="extractBotAPIFile">Extract file info from bot API message: extractBotAPIFile</a>
 
 * <a href="messages.getCustomEmojiDocuments.html" name="messages.getCustomEmojiDocuments">Fetch custom emoji stickers »: messages.getCustomEmojiDocuments</a>
 
@@ -272,7 +376,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.finishTakeoutSession.html" name="account.finishTakeoutSession">Finish account takeout session: account.finishTakeoutSession</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#broadcastforwardmessages-mixed-from_peer-list-int-message_ids-bool-drop_author-danog-madelineproto-broadcast-filter-filter-int" name="broadcastForwardMessages">Forwards a list of messages to all peers (users, chats, channels) of the bot: broadcastForwardMessages</a>
+
 * <a href="messages.forwardMessages.html" name="messages.forwardMessages">Forwards messages by their IDs: messages.forwardMessages</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#genvectorhash-array-ints-string-vector-hash" name="genVectorHash">Generate MTProto vector hash: genVectorHash</a>
 
 * <a href="auth.exportLoginToken.html" name="auth.exportLoginToken">Generate a login token, for login via QR code.  : auth.exportLoginToken</a>
 
@@ -282,9 +390,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="help.getPromoData.html" name="help.getPromoData">Get MTProxy/Public Service Announcement information: help.getPromoData</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getpsrlogger-psr-log-loggerinterface" name="getPsrLogger">Get PSR logger: getPsrLogger</a>
+
 * <a href="phone.getGroupCallStreamRtmpUrl.html" name="phone.getGroupCallStreamRtmpUrl">Get RTMP URL and stream key for RTMP livestreams. Can be used even before creating the actual RTMP livestream with phone.createGroupCall (the rtmp_stream flag must be set): phone.getGroupCallStreamRtmpUrl</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getmethodnamespaces-array" name="getMethodNamespaces">Get TL namespaces: getMethodNamespaces</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#gettl-danog-madelineproto-tl-tl" name="getTL">Get TL serializer: getTL</a>
+
 * <a href="help.getPremiumPromo.html" name="help.getPremiumPromo">Get Telegram Premium promotion information: help.getPremiumPromo</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#mbstrlen-string-text-int" name="mbStrlen">Get Telegram UTF-8 length of string: mbStrlen</a>
 
 * <a href="stats.getBroadcastStats.html" name="stats.getBroadcastStats">Get channel statistics: stats.getBroadcastStats</a>
 
@@ -320,6 +436,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels.getSponsoredMessages.html" name="channels.getSponsoredMessages">Get a list of sponsored messages: channels.getSponsoredMessages</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getwebmessage-string-message-string" name="getWebMessage">Get a message to show to the user when starting the bot: getWebMessage</a>
+
 * <a href="payments.getPaymentForm.html" name="payments.getPaymentForm">Get a payment form: payments.getPaymentForm</a>
 
 * <a href="account.getDefaultGroupPhotoEmojis.html" name="account.getDefaultGroupPhotoEmojis">Get a set of suggested custom emoji stickers that can be used as group picture: account.getDefaultGroupPhotoEmojis</a>
@@ -344,7 +462,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="help.getAppConfig.html" name="help.getAppConfig">Get app-specific configuration, see client configuration for more info on the result: help.getAppConfig</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getdnsclient-amp-dns-dnsresolver" name="getDNSClient">Get async DNS client: getDNSClient</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#gethttpclient-amp-http-client-httpclient" name="getHTTPClient">Get async HTTP client: getHTTPClient</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getauthorization-int" name="getAuthorization">Get authorization info: getAuthorization</a>
+
 * <a href="account.getAutoSaveSettings.html" name="account.getAutoSaveSettings">Get autosave settings: account.getAutoSaveSettings</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getconfig-array-config-array" name="getConfig">Get cached (or eventually re-fetch) server-side config: getConfig</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getcachedconfig-array" name="getCachedConfig">Get cached server-side config: getCachedConfig</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getcall-int-call-array" name="getCall">Get call info: getCall</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#callstatus-int-id-int" name="callStatus">Get call status: callStatus</a>
 
 * <a href="messages.getEmojiKeywordsDifference.html" name="messages.getEmojiKeywordsDifference">Get changed emoji keywords »: messages.getEmojiKeywordsDifference</a>
 
@@ -358,7 +490,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="contacts.getLocated.html" name="contacts.getLocated">Get contacts near you: contacts.getLocated</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#filegetcontents-string-url-string" name="fileGetContents">Get contents of remote file asynchronously: fileGetContents</a>
+
 * <a href="messages.getOnlines.html" name="messages.getOnlines">Get count of online users in a chat: messages.getOnlines</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getmaps-int" name="getMaps">Get current number of memory-mapped regions, UNIX only: getMaps</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#gethint-string" name="getHint">Get current password hint: getHint</a>
 
 * <a href="account.getAccountTTL.html" name="account.getAccountTTL">Get days to live of account: account.getAccountTTL</a>
 
@@ -366,11 +504,29 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getDialogUnreadMarks.html" name="messages.getDialogUnreadMarks">Get dialogs manually marked as unread: messages.getDialogUnreadMarks</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getdhconfig-array" name="getDhConfig">Get diffie-hellman configuration: getDhConfig</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getdownloadinfo-mixed-messagemedia-array" name="getDownloadInfo">Get download info of file: getDownloadInfo</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getpropicinfo-mixed-data-array" name="getPropicInfo">Get download info of the propic of a user: getPropicInfo</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#geteventhandler-danog-madelineproto-eventhandler-__php_incomplete_class-null" name="getEventHandler">Get event handler: getEventHandler</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getextensionfromlocation-mixed-location-string-default-string" name="getExtensionFromLocation">Get extension from file location: getExtensionFromLocation</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getextensionfrommime-string-mime-string" name="getExtensionFromMime">Get extension from mime type: getExtensionFromMime</a>
+
 * <a href="messages.getFavedStickers.html" name="messages.getFavedStickers">Get faved stickers: messages.getFavedStickers</a>
 
 * <a href="messages.getFeaturedStickers.html" name="messages.getFeaturedStickers">Get featured stickers: messages.getFeaturedStickers</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#end-array-what-mixed" name="end">Get final element of array: end</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getfolderid-mixed-id-int" name="getFolderId">Get folder ID from object: getFolderId</a>
+
 * <a href="channels.getForumTopicsByID.html" name="channels.getForumTopicsByID">Get forum topics by their ID: channels.getForumTopicsByID</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getallmethods-array" name="getAllMethods">Get full list of MTProto and API methods: getAllMethods</a>
 
 * <a href="account.getGlobalPrivacySettings.html" name="account.getGlobalPrivacySettings">Get global privacy settings: account.getGlobalPrivacySettings</a>
 
@@ -400,9 +556,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getAdminsWithInvites.html" name="messages.getAdminsWithInvites">Get info about chat invites generated by admins: messages.getAdminsWithInvites</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getfileinfo-mixed-constructor-array" name="getFileInfo">Get info about file: getFileInfo</a>
+
 * <a href="account.getMultiWallPapers.html" name="account.getMultiWallPapers">Get info about multiple wallpapers: account.getMultiWallPapers</a>
 
 * <a href="messages.getExportedChatInvites.html" name="messages.getExportedChatInvites">Get info about the chat invites of a specific chat: messages.getExportedChatInvites</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#fullgetself-array-false" name="fullGetSelf">Get info about the logged-in user, not cached: fullGetSelf</a>
 
 * <a href="messages.getChatInviteImporters.html" name="messages.getChatInviteImporters">Get info about the users that joined the chat using a specific chat invite: messages.getChatInviteImporters</a>
 
@@ -430,17 +590,29 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.getAuthorizations.html" name="account.getAuthorizations">Get logged-in sessions: account.getAuthorizations</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getlogger-danog-madelineproto-logger" name="getLogger">Get logger: getLogger</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getmaxmaps-int" name="getMaxMaps">Get maximum number of memory-mapped regions, UNIX only: getMaxMaps</a>
+
 * <a href="account.getAutoDownloadSettings.html" name="account.getAutoDownloadSettings">Get media autodownload settings: account.getAutoDownloadSettings</a>
 
 * <a href="messages.getSplitRanges.html" name="messages.getSplitRanges">Get message ranges for saving the user's chat history: messages.getSplitRanges</a>
 
 * <a href="messages.getReplies.html" name="messages.getReplies">Get messages in a reply thread: messages.getReplies</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getmimefrombuffer-string-buffer-string" name="getMimeFromBuffer">Get mime type from buffer: getMimeFromBuffer</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getmimefromextension-string-extension-string-default-string" name="getMimeFromExtension">Get mime type from file extension: getMimeFromExtension</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getmimefromfile-string-file-string" name="getMimeFromFile">Get mime type of file: getMimeFromFile</a>
+
 * <a href="messages.requestUrlAuth.html" name="messages.requestUrlAuth">Get more info about a Seamless Telegram Login authorization request, for more info click here »: messages.requestUrlAuth</a>
 
 * <a href="contacts.getTopPeers.html" name="contacts.getTopPeers">Get most used peers: contacts.getTopPeers</a>
 
 * <a href="help.getCountriesList.html" name="help.getCountriesList">Get name, ISO code, localized name and phone codes/patterns of all available countries: help.getCountriesList</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getmethodsnamespaced-array" name="getMethodsNamespaced">Get namespaced methods (method => namespace): getMethodsNamespaced</a>
 
 * <a href="langpack.getDifference.html" name="langpack.getDifference">Get new strings in language pack: langpack.getDifference</a>
 
@@ -460,6 +632,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.getPrivacy.html" name="account.getPrivacy">Get privacy settings of current account: account.getPrivacy</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#randomint-int-modulus-int" name="randomInt">Get random integer: randomInt</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#random-int-length-string-random-string" name="random">Get random string of specified length: random</a>
+
 * <a href="messages.getRecentStickers.html" name="messages.getRecentStickers">Get recent stickers: messages.getRecentStickers</a>
 
 * <a href="account.getRecentEmojiStatuses.html" name="account.getRecentEmojiStatuses">Get recently used emoji statuses: account.getRecentEmojiStatuses</a>
@@ -478,7 +654,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getScheduledMessages.html" name="messages.getScheduledMessages">Get scheduled messages: messages.getScheduledMessages</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#secretchatstatus-int-chat-int-one-of-mtproto-secret_empty-mtproto-secret_requested-mtproto-secret_ready" name="secretChatStatus">Get secret chat status: secretChatStatus</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getsecretchat-array-int-chat-array" name="getSecretChat">Get secret chat: getSecretChat</a>
+
 * <a href="account.getContentSettings.html" name="account.getContentSettings">Get sensitive content settings: account.getContentSettings</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getsponsoredmessages-int-string-array-peer-array" name="getSponsoredMessages">Get sponsored messages for channel: getSponsoredMessages</a>
 
 * <a href="messages.getAttachedStickers.html" name="messages.getAttachedStickers">Get stickers attached to a photo or video: messages.getAttachedStickers</a>
 
@@ -494,13 +676,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels.getParticipants.html" name="channels.getParticipants">Get the participants of a supergroup/channel: channels.getParticipants</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getbroadcastprogress-int-id-danog-madelineproto-broadcast-progress" name="getBroadcastProgress">Get the progress of a currently running broadcast: getBroadcastProgress</a>
+
 * <a href="account.getTheme.html" name="account.getTheme">Get theme information: account.getTheme</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#gettype-mixed-id-user-bot-chat-supergroup-channel-" name="getType">Get type of peer: getType</a>
 
 * <a href="messages.getUnreadMentions.html" name="messages.getUnreadMentions">Get unread messages where we were mentioned: messages.getUnreadMentions</a>
 
 * <a href="messages.getUnreadReactions.html" name="messages.getUnreadReactions">Get unread reactions to messages you sent: messages.getUnreadReactions</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getupdates-array-offset-int-limit-int-timeout-float-params-list-array-update_id-mixed-update-mixed-" name="getUpdates">Get updates: getUpdates</a>
+
 * <a href="account.getWebAuthorizations.html" name="account.getWebAuthorizations">Get web login widget authorizations: account.getWebAuthorizations</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getwebtemplate-string" name="getWebTemplate">Get web template: getWebTemplate</a>
 
 * <a href="messages.getMessageReadParticipants.html" name="messages.getMessageReadParticipants">Get which users read a specific message: only available for groups and supergroups with less than chat_read_mark_size_threshold members, read receipts will be stored for chat_read_mark_expire_period seconds after the message was sent, see client configuration for more info »: messages.getMessageReadParticipants</a>
 
@@ -530,11 +720,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.importChatInvite.html" name="messages.importChatInvite">Import a chat invite and join a private chat/supergroup/channel: messages.importChatInvite</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#importauthorization-array-int-string-authorization-int-maindcid-array" name="importAuthorization">Import authorization: importAuthorization</a>
+
 * <a href="messages.initHistoryImport.html" name="messages.initHistoryImport">Import chat history from a foreign chat app into a specific Telegram chat, click here for more info about imported chats »: messages.initHistoryImport</a>
 
 * <a href="contacts.importContacts.html" name="contacts.importContacts">Imports contacts: saves a full list on the server, adds already registered contacts to the contact list, returns added contacts and their info: contacts.importContacts</a>
 
 * <a href="messages.prolongWebView.html" name="messages.prolongWebView">Indicate to the server (from the user side) that the user is still using a web app: messages.prolongWebView</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#inflatestripped-string-stripped-string-jpg-payload" name="inflateStripped">Inflate stripped photosize to full JPG payload: inflateStripped</a>
 
 * <a href="payments.assignAppStoreTransaction.html" name="payments.assignAppStoreTransaction">Informs server about a purchase made through the App Store: for official applications only: payments.assignAppStoreTransaction</a>
 
@@ -545,6 +739,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="account.initTakeoutSession.html" name="account.initTakeoutSession">Initialize account takeout session: account.initTakeoutSession</a>
 
 * <a href="initConnection.html" name="initConnection">Initialize connection: initConnection</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#initselfrestart-void" name="initSelfRestart">Initialize self-restart hack: initSelfRestart</a>
 
 * <a href="account.resetPassword.html" name="account.resetPassword">Initiate a 2FA password reset: can only be used if the user is already logged-in, see here for more info »: account.resetPassword</a>
 
@@ -590,9 +786,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="stats.loadAsyncGraph.html" name="stats.loadAsyncGraph">Load channel statistics graph asynchronously: stats.loadAsyncGraph</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#start-mixed" name="start">Log in to telegram (via CLI or web): start</a>
+
 * <a href="account.resetAuthorization.html" name="account.resetAuthorization">Log out an active authorized session by its hash: account.resetAuthorization</a>
 
 * <a href="account.resetWebAuthorization.html" name="account.resetWebAuthorization">Log out an active web telegram login session: account.resetWebAuthorization</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#logger-mixed-param-int-level-string-file-void" name="logger">Logger: logger</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#botlogin-string-token-array" name="botLogin">Login as bot: botLogin</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#phonelogin-string-number-int-sms_type-mixed" name="phoneLogin">Login as user: phoneLogin</a>
 
 * <a href="auth.importWebTokenAuthorization.html" name="auth.importWebTokenAuthorization">Login by importing an authorization token: auth.importWebTokenAuthorization</a>
 
@@ -601,6 +805,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages.searchCustomEmoji.html" name="messages.searchCustomEmoji">Look for custom emojis associated to a UTF8 emoji: messages.searchCustomEmoji</a>
 
 * <a href="help.getTermsOfServiceUpdate.html" name="help.getTermsOfServiceUpdate">Look for updates of telegram's terms of service: help.getTermsOfServiceUpdate</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#mtprotototd-mixed-params-mixed" name="MTProtoToTd">MTProto to TD params: MTProtoToTd</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#mtprotototdcli-mixed-params-mixed" name="MTProtoToTdcli">MTProto to TDCLI params: MTProtoToTdcli</a>
 
 * <a href="messages.editChatAdmin.html" name="messages.editChatAdmin">Make a user admin in a basic group: messages.editChatAdmin</a>
 
@@ -621,6 +829,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages.readFeaturedStickers.html" name="messages.readFeaturedStickers">Mark new featured stickers as read: messages.readFeaturedStickers</a>
 
 * <a href="messages.faveSticker.html" name="messages.faveSticker">Mark or unmark a sticker as favorite: messages.faveSticker</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#viewsponsoredmessage-int-array-peer-string-array-random_id-string-message-bool" name="viewSponsoredMessage">Mark sponsored message as read: viewSponsoredMessage</a>
 
 * <a href="messages.readHistory.html" name="messages.readHistory">Marks message history as read: messages.readHistory</a>
 
@@ -650,6 +860,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getBotApp.html" name="messages.getBotApp">Obtain information about a named bot web app: messages.getBotApp</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getwebapitemplate-string" name="getWebAPITemplate">Obtain the API ID UI template: getWebAPITemplate</a>
+
 * <a href="contacts.importContactToken.html" name="contacts.importContactToken">Obtain user info from a temporary profile link: contacts.importContactToken</a>
 
 * <a href="stats.getMessagePublicForwards.html" name="stats.getMessagePublicForwards">Obtains a list of messages, indicating to which other public channels was a channel message forwarded.  : stats.getMessagePublicForwards</a>
@@ -668,6 +880,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="phone.receivedCall.html" name="phone.receivedCall">Optional: notify the server that the user is currently busy in a call: this will automatically refuse all incoming phone calls until the current phone call is ended: phone.receivedCall</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#updatesettings-settingsabstract-settings-void" name="updateSettings">Parse, update and store settings: updateSettings</a>
+
 * <a href="messages.updatePinnedMessage.html" name="messages.updatePinnedMessage">Pin a message: messages.updatePinnedMessage</a>
 
 * <a href="channels.updatePinnedForumTopic.html" name="channels.updatePinnedForumTopic">Pin or unpin forum topics: channels.updatePinnedForumTopic</a>
@@ -680,6 +894,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getMessages.html" name="messages.getMessages">Please use the event handler: messages.getMessages</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#posmod-int-a-int-b-int-modulo" name="posmod">Positive modulo: posmod</a>
+
 * <a href="messages.getBotCallbackAnswer.html" name="messages.getBotCallbackAnswer">Press an inline callback button and get a callback answer from the bot: messages.getBotCallbackAnswer</a>
 
 * <a href="messages.getInlineBotResults.html" name="messages.getInlineBotResults">Query an inline bot: messages.getInlineBotResults</a>
@@ -690,7 +906,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.sendReaction.html" name="messages.sendReaction">React to message: messages.sendReaction</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#refreshfullpeercache-mixed-id-void" name="refreshFullPeerCache">Refresh full peer cache for a certain peer: refreshFullPeerCache</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#refreshpeercache-mixed-ids-void" name="refreshPeerCache">Refresh peer cache for a certain peer: refreshPeerCache</a>
+
 * <a href="account.registerDevice.html" name="account.registerDevice">Register device to receive PUSH notifications: account.registerDevice</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rekey-int-chat-string" name="rekey">Rekey secret chat: rekey</a>
 
 * <a href="stickers.removeStickerFromSet.html" name="stickers.removeStickerFromSet">Remove a sticker from the set where it belongs, bots only. The sticker set must have been created by the bot: stickers.removeStickerFromSet</a>
 
@@ -724,6 +946,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.reportEncryptedSpam.html" name="messages.reportEncryptedSpam">Report a secret chat for spam: messages.reportEncryptedSpam</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#report-string-message-string-parsemode-void" name="report">Report an error to the previously set peer: report</a>
+
 * <a href="channels.reportSpam.html" name="channels.reportSpam">Reports some messages from a user in a supergroup as spam; requires administrator rights in the supergroup: channels.reportSpam</a>
 
 * <a href="messages.getEmojiGroups.html" name="messages.getEmojiGroups">Represents a list of emoji categories, to be used when selecting custom emojis: messages.getEmojiGroups</a>
@@ -732,9 +956,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getEmojiProfilePhotoGroups.html" name="messages.getEmojiProfilePhotoGroups">Represents a list of emoji categories, to be used when selecting custom emojis to set as profile picture: messages.getEmojiProfilePhotoGroups</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#requestcall-mixed-user-mixed" name="requestCall">Request VoIP call: requestCall</a>
+
 * <a href="auth.requestFirebaseSms.html" name="auth.requestFirebaseSms">Request an SMS code via Firebase: auth.requestFirebaseSms</a>
 
 * <a href="auth.requestPasswordRecovery.html" name="auth.requestPasswordRecovery">Request recovery code of a 2FA password, only for accounts with a recovery email configured: auth.requestPasswordRecovery</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#requestsecretchat-mixed-user-mixed" name="requestSecretChat">Request secret chat: requestSecretChat</a>
 
 * <a href="account.resendPasswordEmail.html" name="account.resendPasswordEmail">Resend the code to verify an email to use as 2FA recovery method: account.resendPasswordEmail</a>
 
@@ -748,11 +976,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="auth.resetLoginEmail.html" name="auth.resetLoginEmail">Reset the login email »: auth.resetLoginEmail</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#resetupdatestate-void" name="resetUpdateState">Reset the update state and fetch all updates from the beginning: resetUpdateState</a>
+
 * <a href="account.resetNotifySettings.html" name="account.resetNotifySettings">Resets all notification settings from users and groups: account.resetNotifySettings</a>
 
 * <a href="contacts.resolvePhone.html" name="contacts.resolvePhone">Resolve a phone number to get user info, if their privacy settings allow it: contacts.resolvePhone</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#restart-void" name="restart">Restart update loop: restart</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rethrow-throwable-e-void" name="rethrow">Rethrow exception into event loop: rethrow</a>
+
 * <a href="messages.getAllDrafts.html" name="messages.getAllDrafts">Return all message drafts.  : messages.getAllDrafts</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getsettings-danog-madelineproto-settings" name="getSettings">Return current settings: getSettings</a>
 
 * <a href="account.getAuthorizationForm.html" name="account.getAuthorizationForm">Returns a Telegram Passport authorization form for sharing data with a service: account.getAuthorizationForm</a>
 
@@ -796,9 +1032,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="photos.getUserPhotos.html" name="photos.getUserPhotos">Returns the list of user photos: photos.getUserPhotos</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getsessionname-string" name="getSessionName">Returns the session name: getSessionName</a>
+
 * <a href="help.getSupport.html" name="help.getSupport">Returns the support user for the "ask a question" feature: help.getSupport</a>
 
 * <a href="contacts.search.html" name="contacts.search">Returns users found by username substring: contacts.search</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#ispremium-bool" name="isPremium">Returns whether the current user is a premium user, cached: isPremium</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadfromtgfile-mixed-media-callable-cb-bool-encrypted-mixed" name="uploadFromTgfile">Reupload telegram file: uploadFromTgfile</a>
 
 * <a href="messages.saveDraft.html" name="messages.saveDraft">Save a message draft associated to a chat: messages.saveDraft</a>
 
@@ -846,6 +1088,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="bots.sendCustomRequest.html" name="bots.sendCustomRequest">Sends a custom request; for bots only: bots.sendCustomRequest</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#broadcastmessages-array-messages-danog-madelineproto-broadcast-filter-filter-int" name="broadcastMessages">Sends a list of messages to all peers (users, chats, channels) of the bot: broadcastMessages</a>
+
 * <a href="messages.sendMessage.html" name="messages.sendMessage">Sends a message to a chat: messages.sendMessage</a>
 
 * <a href="messages.sendEncryptedFile.html" name="messages.sendEncryptedFile">Sends a message with a file attachment to a secret chat: messages.sendEncryptedFile</a>
@@ -853,6 +1097,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages.sendEncryptedService.html" name="messages.sendEncryptedService">Sends a service message to a secret chat: messages.sendEncryptedService</a>
 
 * <a href="messages.sendEncrypted.html" name="messages.sendEncrypted">Sends a text message to a secret chat: messages.sendEncrypted</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#sendcustomevent-mixed-payload-void" name="sendCustomEvent">Sends an updateCustomEvent update to the event handler: sendCustomEvent</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#setnoop-void" name="setNoop">Set NOOP update handler, ignoring all updates: setNoop</a>
 
 * <a href="messages.setChatWallPaper.html" name="messages.setChatWallPaper">Set a custom wallpaper » in a specific private chat with another user: messages.setChatWallPaper</a>
 
@@ -868,9 +1116,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.setHistoryTTL.html" name="messages.setHistoryTTL">Set maximum Time-To-Live of all messages in the specified chat: messages.setHistoryTTL</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#setreportpeers-int-string-int-string-userorid-void" name="setReportPeers">Set peer(s) where to send errors occurred in the event loop: setReportPeers</a>
+
 * <a href="account.setContentSettings.html" name="account.setContentSettings">Set sensitive content settings (for viewing or hiding NSFW content): account.setContentSettings</a>
 
 * <a href="stickers.setStickerSetThumb.html" name="stickers.setStickerSetThumb">Set stickerset thumbnail: stickers.setStickerSetThumb</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#setwebapitemplate-string-template-void" name="setWebApiTemplate">Set the API ID UI template: setWebApiTemplate</a>
 
 * <a href="messages.setBotCallbackAnswer.html" name="messages.setBotCallbackAnswer">Set the callback answer to a user button press (bots only): messages.setBotCallbackAnswer</a>
 
@@ -882,11 +1134,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.setAuthorizationTTL.html" name="account.setAuthorizationTTL">Set time-to-live of current session: account.setAuthorizationTTL</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#setwebtemplate-string-template-void" name="setWebTemplate">Set web template: setWebTemplate</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#setwebhook-string-webhookurl-void" name="setWebhook">Set webhook update handler: setWebhook</a>
+
 * <a href="channels.toggleJoinToSend.html" name="channels.toggleJoinToSend">Set whether all users should join a discussion group in order to comment on a post »: channels.toggleJoinToSend</a>
 
 * <a href="channels.toggleJoinRequest.html" name="channels.toggleJoinRequest">Set whether all users should request admin approval to join the group »: channels.toggleJoinRequest</a>
 
 * <a href="bots.setBotMenuButton.html" name="bots.setBotMenuButton">Sets the menu button action » for a given user or for all users: bots.setBotMenuButton</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#setuplogger-void" name="setupLogger">Setup logger: setupLogger</a>
 
 * <a href="messages.hidePeerSettingsBar.html" name="messages.hidePeerSettingsBar">Should be called after the user hides the report spam/add as contact bar of a new chat, effectively prevents the user from executing the actions specified in the peer's settings: messages.hidePeerSettingsBar</a>
 
@@ -896,6 +1154,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="phone.startScheduledGroupCall.html" name="phone.startScheduledGroupCall">Start a scheduled group call: phone.startScheduledGroupCall</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#startandloopmulti-api-instances-class-string-eventhandler-class-string-eventhandler-eventhandler-void" name="startAndLoopMulti">Start multiple instances of MadelineProto and the event handlers (enables async): startAndLoopMulti</a>
+
 * <a href="phone.toggleGroupCallRecord.html" name="phone.toggleGroupCallRecord">Start or stop recording a group call: the recorded audio and video streams will be automatically sent to Saved messages (the chat with ourselves): phone.toggleGroupCallRecord</a>
 
 * <a href="phone.joinGroupCallPresentation.html" name="phone.joinGroupCallPresentation">Start screen sharing in a call: phone.joinGroupCallPresentation</a>
@@ -904,17 +1164,29 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="phone.leaveGroupCallPresentation.html" name="phone.leaveGroupCallPresentation">Stop screen sharing in a group call: phone.leaveGroupCallPresentation</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#stop-void" name="stop">Stop update loop: stop</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getcdnconfig-void" name="getCdnConfig">Store RSA keys for CDN datacenters: getCdnConfig</a>
+
 * <a href="payments.validateRequestedInfo.html" name="payments.validateRequestedInfo">Submit requested order information for validation: payments.validateRequestedInfo</a>
 
 * <a href="phone.toggleGroupCallStartSubscription.html" name="phone.toggleGroupCallStartSubscription">Subscribe or unsubscribe to a scheduled group call: phone.toggleGroupCallStartSubscription</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#subscribetoupdates-mixed-channel-bool-false-if-we-were-already-subscribed" name="subscribeToUpdates">Subscribe to event handler updates for a channel/supergroup we're not a member of: subscribeToUpdates</a>
+
 * <a href="stickers.suggestShortName.html" name="stickers.suggestShortName">Suggests a short name for a given stickerpack name: stickers.suggestShortName</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#mbstrsplit-string-text-int-length-string-" name="mbStrSplit">Telegram UTF-8 multibyte split: mbStrSplit</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#mbsubstr-string-text-int-offset-null-int-length-string" name="mbSubstr">Telegram UTF-8 multibyte substring: mbSubstr</a>
 
 * <a href="phone.discardGroupCall.html" name="phone.discardGroupCall">Terminate a group call: phone.discardGroupCall</a>
 
 * <a href="messages.sendWebViewResultMessage.html" name="messages.sendWebViewResultMessage">Terminate webview interaction started with messages.requestWebView, sending the specified message to the chat on behalf of the user: messages.sendWebViewResultMessage</a>
 
 * <a href="auth.resetAuthorizations.html" name="auth.resetAuthorizations">Terminates all user's authorized sessions except for the current one: auth.resetAuthorizations</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#testfibers-int-fibercount-array-maxfibers-int-realmemorymb-int-maps-int-maxmaps-int-" name="testFibers">Test fibers: testFibers</a>
 
 * <a href="account.setContactSignUpNotification.html" name="account.setContactSignUpNotification">Toggle contact sign up notifications: account.setContactSignUpNotification</a>
 
@@ -927,6 +1199,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages.migrateChat.html" name="messages.migrateChat">Turn a basic group into a supergroup: messages.migrateChat</a>
 
 * <a href="messages.uninstallStickerSet.html" name="messages.uninstallStickerSet">Uninstall a stickerset: messages.uninstallStickerSet</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#unpacksignedint-string-value-int" name="unpackSignedInt">Unpack base256 signed int: unpackSignedInt</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#unpacksignedlongstring-string-int-array-value-string" name="unpackSignedLongString">Unpack base256 signed long to string: unpackSignedLongString</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#unpacksignedlong-string-value-int" name="unpackSignedLong">Unpack base256 signed long: unpackSignedLong</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#unpackdouble-string-value-float" name="unpackDouble">Unpack binary double: unpackDouble</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#unpackfileid-string-fileid-array-unpacked-file-id" name="unpackFileId">Unpack bot API file ID: unpackFileId</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#unseteventhandler-void" name="unsetEventHandler">Unset event handler: unsetEventHandler</a>
 
 * <a href="messages.updateDialogFilter.html" name="messages.updateDialogFilter">Update folder: messages.updateDialogFilter</a>
 
@@ -947,6 +1231,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages.uploadImportedMedia.html" name="messages.uploadImportedMedia">Upload a media file associated with an imported chat, click here for more info »: messages.uploadImportedMedia</a>
 
 * <a href="messages.uploadEncryptedFile.html" name="messages.uploadEncryptedFile">Upload encrypted file and associate it to a secret chat: messages.uploadEncryptedFile</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadfromurl-string-filecallbackinterface-url-int-size-string-filename-callable-cb-bool-encrypted-mixed" name="uploadFromUrl">Upload file from URL: uploadFromUrl</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadfromcallable-mixed-callable-int-size-string-mime-string-filename-callable-cb-bool-seekable-bool-encrypted-mixed" name="uploadFromCallable">Upload file from callable: uploadFromCallable</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadfromstream-mixed-stream-int-size-string-mime-string-filename-callable-cb-bool-encrypted-mixed" name="uploadFromStream">Upload file from stream: uploadFromStream</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadencrypted-filecallbackinterface-string-array-file-string-filename-callable-cb-mixed" name="uploadEncrypted">Upload file to secret chat: uploadEncrypted</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#upload-filecallbackinterface-string-array-file-string-filename-callable-cb-bool-encrypted-mixed" name="upload">Upload file: upload</a>
 
 * <a href="account.uploadRingtone.html" name="account.uploadRingtone">Upload notification sound, use account.saveRingtone to convert it and add it to the list of saved notification sounds: account.uploadRingtone</a>
 
@@ -976,7 +1270,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.updateDeviceLocked.html" name="account.updateDeviceLocked">When client-side passcode lock feature is enabled, will not show message texts in incoming PUSH notifications: account.updateDeviceLocked</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#fullchatlastupdated-mixed-id-int" name="fullChatLastUpdated">When were full info for this chat last cached: fullChatLastUpdated</a>
+
 * <a href="account.getContactSignUpNotification.html" name="account.getContactSignUpNotification">Whether the user will receive notifications when contacts sign up: account.getContactSignUpNotification</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#isaltervista-bool" name="isAltervista">Whether this is altervista: isAltervista</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#isipc-bool" name="isIpc">Whether we're an IPC client instance: isIpc</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#isipcworker-bool" name="isIpcWorker">Whether we're an IPC server process (as opposed to an event handler): isIpcWorker</a>
 
 * <a href="auth.bindTempAuthKey.html" name="auth.bindTempAuthKey">You cannot use this method directly, instead modify the PFS and default_temp_auth_key_expires_in settings, see https://docs.madelineproto.xyz/docs/SETTINGS.html for more info: auth.bindTempAuthKey</a>
 
@@ -1053,5 +1355,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages.transcribeAudio.html" name="messages.transcribeAudio">Transcribe voice message: messages.transcribeAudio</a>
 
 * <a href="messages.unpinAllMessages.html" name="messages.unpinAllMessages">Unpin all pinned messages: messages.unpinAllMessages</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#base64urldecode-string-data-string" name="base64urlDecode">base64URL decode: base64urlDecode</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rledecode-string-string-string" name="rleDecode">null-byte RLE decode: rleDecode</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleencode-string-string-string" name="rleEncode">null-byte RLE encode: rleEncode</a>
 
 
