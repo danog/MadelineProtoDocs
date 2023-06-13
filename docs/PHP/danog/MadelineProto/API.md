@@ -82,7 +82,7 @@ Main API wrapper for MadelineProto.
 * [`fromSupergroup(int $id): int`](#fromsupergroup-int-id-int)
 * [`fullChatLastUpdated(mixed $id): int`](#fullchatlastupdated-mixed-id-int)
 * [`fullGetSelf(): array|false`](#fullgetself-array-false)
-* [`genVectorHash(array $ints): \string Vector hash`](#genvectorhash-array-ints-string-vector-hash)
+* [`genVectorHash(array $ints): string`](#genvectorhash-array-ints-string)
 * [`getAllMethods(): array`](#getallmethods-array)
 * [`getAuthorization(): int`](#getauthorization-int)
 * [`getBroadcastProgress(int $id): ?\danog\MadelineProto\Broadcast\Progress`](#getbroadcastprogress-int-id-danog-madelineproto-broadcast-progress)
@@ -131,7 +131,7 @@ Main API wrapper for MadelineProto.
 * [`hasReportPeers(): bool`](#hasreportpeers-bool)
 * [`hasSecretChat(array|int $chat): bool`](#hassecretchat-array-int-chat-bool)
 * [`importAuthorization(array<int, string> $authorization, int $mainDcID): array`](#importauthorization-array-int-string-authorization-int-maindcid-array)
-* [`inflateStripped(string $stripped): \string JPG payload`](#inflatestripped-string-stripped-string-jpg-payload)
+* [`inflateStripped(string $stripped): string`](#inflatestripped-string-stripped-string)
 * [`initSelfRestart(): void`](#initselfrestart-void)
 * [`isAltervista(): bool`](#isaltervista-bool)
 * [`isArrayOrAlike(mixed $var): bool`](#isarrayoralike-mixed-var-bool)
@@ -151,8 +151,8 @@ Main API wrapper for MadelineProto.
 * [`packUnsignedInt(int $value): string`](#packunsignedint-int-value-string)
 * [`peerIsset(mixed $id): bool`](#peerisset-mixed-id-bool)
 * [`phoneLogin(string $number, int $sms_type): mixed`](#phonelogin-string-number-int-sms_type-mixed)
-* [`posmod(int $a, int $b): \int Modulo`](#posmod-int-a-int-b-int-modulo)
-* [`random(int $length): \string Random string`](#random-int-length-string-random-string)
+* [`posmod(int $a, int $b): int`](#posmod-int-a-int-b-int)
+* [`random(int $length): string`](#random-int-length-string)
 * [`randomInt(int $modulus): int`](#randomint-int-modulus-int)
 * [`readLine(string $prompt): string`](#readline-string-prompt-string)
 * [`refreshFullPeerCache(mixed $id): void`](#refreshfullpeercache-mixed-id-void)
@@ -349,13 +349,13 @@ Parameters:
 ### `broadcastCustom(\Action $action, ?\danog\MadelineProto\Broadcast\Filter $filter): int`
 
 Executes a custom broadcast action with all peers (users, chats, channels) of the bot.
-Will return an integer ID that can be used to:
-
-- Get the current broadcast progress with getBroadcastProgress
-- Cancel the broadcast using cancelBroadcast
-
-Note that to avoid manually polling the progress,
-MadelineProto will also periodically emit updateBroadcastProgress updates,
+Will return an integer ID that can be used to:  
+  
+- Get the current broadcast progress with getBroadcastProgress  
+- Cancel the broadcast using cancelBroadcast  
+  
+Note that to avoid manually polling the progress,  
+MadelineProto will also periodically emit updateBroadcastProgress updates,  
 containing a Progress object for all broadcasts currently in-progress.
 
 Parameters:
@@ -374,13 +374,13 @@ Parameters:
 ### `broadcastForwardMessages(mixed $from_peer, list<int> $message_ids, bool $drop_author, ?\danog\MadelineProto\Broadcast\Filter $filter): int`
 
 Forwards a list of messages to all peers (users, chats, channels) of the bot.
-Will return an integer ID that can be used to:
-
-- Get the current broadcast progress with getBroadcastProgress
-- Cancel the broadcast using cancelBroadcast
-
-Note that to avoid manually polling the progress,
-MadelineProto will also periodically emit updateBroadcastProgress updates,
+Will return an integer ID that can be used to:  
+  
+- Get the current broadcast progress with getBroadcastProgress  
+- Cancel the broadcast using cancelBroadcast  
+  
+Note that to avoid manually polling the progress,  
+MadelineProto will also periodically emit updateBroadcastProgress updates,  
 containing a Progress object for all broadcasts currently in-progress.
 
 Parameters:
@@ -400,15 +400,15 @@ Parameters:
 ### `broadcastMessages(array $messages, ?\danog\MadelineProto\Broadcast\Filter $filter): int`
 
 Sends a list of messages to all peers (users, chats, channels) of the bot.
-A simplified version of this method is also available: broadcastForwardMessages can work with pre-prepared messages.
-
-Will return an integer ID that can be used to:
-
-- Get the current broadcast progress with getBroadcastProgress
-- Cancel the broadcast using cancelBroadcast
-
-Note that to avoid manually polling the progress,
-MadelineProto will also periodically emit updateBroadcastProgress updates,
+A simplified version of this method is also available: broadcastForwardMessages can work with pre-prepared messages.  
+  
+Will return an integer ID that can be used to:  
+  
+- Get the current broadcast progress with getBroadcastProgress  
+- Cancel the broadcast using cancelBroadcast  
+  
+Note that to avoid manually polling the progress,  
+MadelineProto will also periodically emit updateBroadcastProgress updates,  
 containing a Progress object for all broadcasts currently in-progress.
 
 Parameters:
@@ -565,7 +565,7 @@ Parameters:
 ### `downloadToCallable(mixed $messageMedia, callable|\danog\MadelineProto\FileCallbackInterface $callable, callable $cb, bool $seekable, int $offset, int $end, int $part_size): mixed`
 
 Download file to callable.
-The callable must accept two parameters: string $payload, int $offset
+The callable must accept two parameters: string $payload, int $offset  
 The callable will be called (possibly out of order, depending on the value of $seekable).
 
 Parameters:
@@ -810,17 +810,15 @@ Get info about the logged-in user, not cached.
 
 
 
-### `genVectorHash(array $ints): \string Vector hash`
+### `genVectorHash(array $ints): string`
 
 Generate MTProto vector hash.
-
+Returns a vector hash.
 
 Parameters:
 
 * `$ints`: `array` IDs  
 
-
-Return value: Vector hash
 
 
 ### `getAllMethods(): array`
@@ -838,8 +836,8 @@ Get authorization info.
 ### `getBroadcastProgress(int $id): ?\danog\MadelineProto\Broadcast\Progress`
 
 Get the progress of a currently running broadcast.
-Will return null if the broadcast doesn't exist, has already completed or was cancelled.
-
+Will return null if the broadcast doesn't exist, has already completed or was cancelled.  
+  
 Use updateBroadcastProgress updates to get real-time progress status without polling.
 
 Parameters:
@@ -920,9 +918,9 @@ Get dialog peers.
 
 Get download info of file
 Returns an array with the following structure:.
-`$info['ext']` - The file extension
-`$info['name']` - The file name, without the extension
-`$info['mime']` - The file mime type
+`$info['ext']` - The file extension  
+`$info['name']` - The file name, without the extension  
+`$info['mime']` - The file mime type  
 `$info['size']` - The file size
 
 Parameters:
@@ -1128,9 +1126,9 @@ Parameters:
 
 Get download info of the propic of a user
 Returns an array with the following structure:.
-`$info['ext']` - The file extension
-`$info['name']` - The file name, without the extension
-`$info['mime']` - The file mime type
+`$info['ext']` - The file extension  
+`$info['name']` - The file name, without the extension  
+`$info['mime']` - The file mime type  
 `$info['size']` - The file size
 
 Parameters:
@@ -1204,8 +1202,8 @@ Return current settings.
 ### `getSponsoredMessages(int|string|array $peer): ?array`
 
 Get sponsored messages for channel.
-This method will return an array of [sponsored message objects](https://docs.madelineproto.xyz/API_docs/constructors/sponsoredMessage.html).
-
+This method will return an array of [sponsored message objects](https://docs.madelineproto.xyz/API_docs/constructors/sponsoredMessage.html).  
+  
 See [the API documentation](https://core.telegram.org/api/sponsored-messages) for more info on how to handle sponsored messages.
 
 Parameters:
@@ -1299,7 +1297,7 @@ Parameters:
 
 
 
-### `inflateStripped(string $stripped): \string JPG payload`
+### `inflateStripped(string $stripped): string`
 
 Inflate stripped photosize to full JPG payload.
 
@@ -1308,8 +1306,6 @@ Parameters:
 
 * `$stripped`: `string` Stripped photosize  
 
-
-Return value: JPG payload
 
 
 ### `initSelfRestart(): void`
@@ -1502,7 +1498,7 @@ Parameters:
 
 
 
-### `posmod(int $a, int $b): \int Modulo`
+### `posmod(int $a, int $b): int`
 
 Positive modulo
 Works just like the % (modulus) operator, only returns always a postive number.
@@ -1514,20 +1510,16 @@ Parameters:
 * `$b`: `int` B  
 
 
-Return value: Modulo
 
+### `random(int $length): string`
 
-### `random(int $length): \string Random string`
-
-Get random string of specified length.
+Get secure random string of specified length.
 
 
 Parameters:
 
 * `$length`: `int` Length  
 
-
-Return value: Random string
 
 
 ### `randomInt(int $modulus): int`
@@ -1993,7 +1985,7 @@ Parameters:
 ### `uploadFromCallable(mixed $callable, int $size, string $mime, string $fileName, callable $cb, bool $seekable, bool $encrypted): mixed`
 
 Upload file from callable.
-The callable must accept two parameters: int $offset, int $size
+The callable must accept two parameters: int $offset, int $size  
 The callable must return a string with the contest of the file at the specified offset and size.
 
 Parameters:

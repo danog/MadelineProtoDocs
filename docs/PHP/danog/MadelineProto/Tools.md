@@ -24,10 +24,10 @@ Some tools.
 * [`testFibers(int $fiberCount): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`](#testfibers-int-fibercount-array-maxfibers-int-realmemorymb-int-maps-int-maxmaps-int-)
 * [`getMaps(): ?int`](#getmaps-int)
 * [`getMaxMaps(): ?int`](#getmaxmaps-int)
-* [`genVectorHash(array $ints): \string Vector hash`](#genvectorhash-array-ints-string-vector-hash)
+* [`genVectorHash(array $ints): string`](#genvectorhash-array-ints-string)
 * [`randomInt(int $modulus): int`](#randomint-int-modulus-int)
-* [`random(int $length): \string Random string`](#random-int-length-string-random-string)
-* [`posmod(int $a, int $b): \int Modulo`](#posmod-int-a-int-b-int-modulo)
+* [`random(int $length): string`](#random-int-length-string)
+* [`posmod(int $a, int $b): int`](#posmod-int-a-int-b-int)
 * [`unpackSignedInt(string $value): int`](#unpacksignedint-string-value-int)
 * [`unpackSignedLong(string $value): int`](#unpacksignedlong-string-value-int)
 * [`unpackSignedLongString(string|int|array $value): string`](#unpacksignedlongstring-string-int-array-value-string)
@@ -42,7 +42,7 @@ Some tools.
 * [`base64urlEncode(string $data): string`](#base64urlencode-string-data-string)
 * [`rleDecode(string $string): string`](#rledecode-string-string-string)
 * [`rleEncode(string $string): string`](#rleencode-string-string-string)
-* [`inflateStripped(string $stripped): \string JPG payload`](#inflatestripped-string-stripped-string-jpg-payload)
+* [`inflateStripped(string $stripped): string`](#inflatestripped-string-stripped-string)
 * [`closeConnection(string $message): void`](#closeconnection-string-message-void)
 * [`end(array $what): mixed`](#end-array-what-mixed)
 * [`isAltervista(): bool`](#isaltervista-bool)
@@ -89,17 +89,15 @@ Get maximum number of memory-mapped regions, UNIX only.
 Use testFibers to get the maximum number of fibers on any platform.
 
 
-### `genVectorHash(array $ints): \string Vector hash`
+### `genVectorHash(array $ints): string`
 
 Generate MTProto vector hash.
-
+Returns a vector hash.
 
 Parameters:
 
 * `$ints`: `array` IDs  
 
-
-Return value: Vector hash
 
 
 ### `randomInt(int $modulus): int`
@@ -113,9 +111,9 @@ Parameters:
 
 
 
-### `random(int $length): \string Random string`
+### `random(int $length): string`
 
-Get random string of specified length.
+Get secure random string of specified length.
 
 
 Parameters:
@@ -123,10 +121,8 @@ Parameters:
 * `$length`: `int` Length  
 
 
-Return value: Random string
 
-
-### `posmod(int $a, int $b): \int Modulo`
+### `posmod(int $a, int $b): int`
 
 Positive modulo
 Works just like the % (modulus) operator, only returns always a postive number.
@@ -137,8 +133,6 @@ Parameters:
 * `$a`: `int` A  
 * `$b`: `int` B  
 
-
-Return value: Modulo
 
 
 ### `unpackSignedInt(string $value): int`
@@ -295,7 +289,7 @@ Parameters:
 
 
 
-### `inflateStripped(string $stripped): \string JPG payload`
+### `inflateStripped(string $stripped): string`
 
 Inflate stripped photosize to full JPG payload.
 
@@ -304,8 +298,6 @@ Parameters:
 
 * `$stripped`: `string` Stripped photosize  
 
-
-Return value: JPG payload
 
 
 ### `closeConnection(string $message): void`

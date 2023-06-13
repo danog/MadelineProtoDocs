@@ -61,7 +61,7 @@ Parameters:
 ### `alert(string|\Stringable $message, array $context): void`
 
 Action must be taken immediately.
-Example: Entire website down, database unavailable, etc. This should
+Example: Entire website down, database unavailable, etc. This should  
 trigger the SMS alerts and wake you up.
 
 Parameters:
@@ -114,7 +114,7 @@ Parameters:
 ### `warning(string|\Stringable $message, array $context): void`
 
 Exceptional occurrences that are not errors.
-Example: Use of deprecated APIs, poor use of an API, undesirable things
+Example: Use of deprecated APIs, poor use of an API, undesirable things  
 that are not necessarily wrong.
 
 Parameters:
