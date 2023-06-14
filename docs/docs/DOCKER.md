@@ -52,11 +52,11 @@ services:
       #- redis
     tty: true
     volumes:
-      - .:/app
+      - ./app:/app
     command: php /app/bot.php
 ```
 
-Then, create a `bot.php` file with your code.  
+Then, create an `app` folder, and an `app/bot.php` file with your code.  
 
 Then, run this command to log into the bot:
 
@@ -91,6 +91,8 @@ services:
   #  restart: unless-stopped
   #  environment:
   #    - MARIADB_ROOT_PASSWORD=replace_me_with_a_secure_password
+  #  volumes:
+  #    - ./mysql:/var/lib/mysql
 
   #postgres:
   #  image: postgres:latest
@@ -100,10 +102,16 @@ services:
   #    POSTGRES_PASSWORD: replace_me_with_a_secure_password
   #  healthcheck:
   #    test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+  #  volumes:
+  #    - ./postgres:/var/lib/postgresql/data
   
   #redis:
   #  image: redis:latest
   #  restart: unless-stopped
+  #  volumes:
+  #    - ./redis:/data
+  #  command: redis-server --save 60 1 --loglevel warning
+
 ```
 
 If you want to use the mysql backend for lower memory usage, uncomment all `mariadb` sections and use the following MadelineProto settings to connect:
@@ -148,7 +156,7 @@ services:
       #- postgres
       #- redis
     volumes:
-      - .:/app
+      - ./app:/app
     command: php-fpm
   
   caddy:
@@ -161,7 +169,7 @@ services:
       - 443:443/tcp
       - 443:443/udp
     volumes:
-      - .:/app
+      - ./app:/app
       - ./Caddyfile:/etc/caddy/Caddyfile
 ```
 
@@ -183,6 +191,8 @@ example.com {
 ```
 
 Caddy will automatically configure a TLS certificate for `example.com`.  
+
+Create an `app` folder, and put your code in that folder.  
 
 Finally, simply run this command to start the webserver in the background.
 
