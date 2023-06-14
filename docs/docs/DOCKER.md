@@ -35,12 +35,6 @@ services:
     volumes:
       - .:/app
     command: php /app/bot.php
-
-  #mariadb:
-  #  image: mariadb:latest
-  #  restart: unless-stopped
-  #  volumes:
-  #    - ./mysql:/var/lib/mysql
 ```
 
 Then, create a `bot.php` file with your code.  
@@ -63,7 +57,64 @@ Use `docker compose logs` to view MadelineProto logs and `docker compose ps` to 
 
 ### Web docker
 
-Running in CLI mode (`command: php /app/bot.php`) is heavily recommended, but if web access is required, the official MadelineProto image can also function as a `php-fpm` server if `command: /usr/local/sbin/php-fpm` is passed, exposing a fastcgi socket on port 9000.  
+Running in CLI mode (`command: php /app/bot.php`) is heavily recommended, but if web access is required, the official MadelineProto image can also function as a `php-fpm` server.  
 Note that the image has opcache and JIT enabled by default, so you should restart your container with `docker compose restart` to apply changes to your code.
+
+Here's an example `docker-compose.yml` file for a caddy+php-fpm combo:
+
+```yml
+services:
+  php-fpm:
+    image: hub.madelineproto.xyz/danog/madelineproto
+    restart: unless-stopped
+    tty: true
+    volumes:
+      - .:/app
+    command: php-fpm
+  
+  caddy:
+    image: caddy:alpine
+    restart: unless-stopped
+    ports:
+      - 80:80/tcp
+      - 443:443/tcp
+      - 443:443/udp
+    volumes:
+      - .:/app
+      - ./Caddyfile:/etc/caddy/Caddyfile
+```
+
+Create the following `Caddyfile` in the same folder:
+
+```
+{
+  email daniil@daniil.it
+}
+
+example.com {
+  root * /app
+  php_fastcgi php-fpm:9000
+  file_server
+  log {
+    format console
+  }
+}
+```
+
+Caddy will automatically configure a TLS certificate for `example.com`.  
+
+Finally, simply run this command to start the webserver in the background.
+
+```bash
+docker compose up --pull always -d
+```
+
+You can now access your PHP code @ `https://example.com`
+
+Use `docker compose logs` to view webserver logs and `docker compose ps` to view the status of your webserver.  
+
+Run `docker compose restart` every time you change your code to reload changes.
+
+If you want to test locally without obtaining a certificate for a domain, replace `example.com` with `http://localhost:80` in the Caddyfile.  
 
 <a href="https://docs.madelineproto.xyz/docs/INSTALLATION.html">Next section</a>

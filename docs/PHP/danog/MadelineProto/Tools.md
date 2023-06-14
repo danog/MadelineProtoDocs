@@ -56,9 +56,6 @@ Some tools.
 * [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplit-string-text-int-length-string-)
 * [`toCamelCase(string $input): string`](#tocamelcase-string-input-string)
 * [`toSnakeCase(string $input): string`](#tosnakecase-string-input-string)
-* [`markdownEscape(string $hwat): string`](#markdownescape-string-hwat-string)
-* [`typeEscape(string $type): string`](#typeescape-string-type-string)
-* [`methodEscape(string $method): string`](#methodescape-string-method-string)
 * [`getMimeFromExtension(string $extension, string $default): string`](#getmimefromextension-string-extension-string-default-string)
 * [`getExtensionFromMime(string $mime): string`](#getextensionfrommime-string-mime-string)
 * [`getExtensionFromLocation(mixed $location, string $default): string`](#getextensionfromlocation-mixed-location-string-default-string)
@@ -454,39 +451,6 @@ Convert to snake_case.
 Parameters:
 
 * `$input`: `string` String  
-
-
-
-### `markdownEscape(string $hwat): string`
-
-Escape string for markdown.
-
-
-Parameters:
-
-* `$hwat`: `string` String to escape  
-
-
-
-### `typeEscape(string $type): string`
-
-Escape type name.
-
-
-Parameters:
-
-* `$type`: `string` String to escape  
-
-
-
-### `methodEscape(string $method): string`
-
-Escape method name.
-
-
-Parameters:
-
-* `$method`: `string` Method name  
 
 
 

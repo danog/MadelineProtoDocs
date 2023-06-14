@@ -140,11 +140,9 @@ Main API wrapper for MadelineProto.
 * [`isPremium(): bool`](#ispremium-bool)
 * [`isSupergroup(int $id): bool`](#issupergroup-int-id-bool)
 * [`logger(mixed $param, int $level, string $file): void`](#logger-mixed-param-int-level-string-file-void)
-* [`markdownEscape(string $hwat): string`](#markdownescape-string-hwat-string)
 * [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplit-string-text-int-length-string-)
 * [`mbStrlen(string $text): int`](#mbstrlen-string-text-int)
 * [`mbSubstr(string $text, int $offset, null|int $length): string`](#mbsubstr-string-text-int-offset-null-int-length-string)
-* [`methodEscape(string $method): string`](#methodescape-string-method-string)
 * [`packDouble(float $value): string`](#packdouble-float-value-string)
 * [`packSignedInt(int $value): string`](#packsignedint-int-value-string)
 * [`packSignedLong(int $value): string`](#packsignedlong-int-value-string)
@@ -184,7 +182,6 @@ Main API wrapper for MadelineProto.
 * [`toCamelCase(string $input): string`](#tocamelcase-string-input-string)
 * [`toSnakeCase(string $input): string`](#tosnakecase-string-input-string)
 * [`toSupergroup(int $id): int`](#tosupergroup-int-id-int)
-* [`typeEscape(string $type): string`](#typeescape-string-type-string)
 * [`unpackDouble(string $value): float`](#unpackdouble-string-value-float)
 * [`unpackFileId(string $fileId): \array Unpacked file ID`](#unpackfileid-string-fileid-array-unpacked-file-id)
 * [`unpackSignedInt(string $value): int`](#unpacksignedint-string-value-int)
@@ -1373,17 +1370,6 @@ Parameters:
 
 
 
-### `markdownEscape(string $hwat): string`
-
-Escape string for markdown.
-
-
-Parameters:
-
-* `$hwat`: `string` String to escape  
-
-
-
 ### `mbStrSplit(string $text, int $length): string[]`
 
 Telegram UTF-8 multibyte split.
@@ -1417,17 +1403,6 @@ Parameters:
 * `$text`: `string` Text to substring  
 * `$offset`: `int` Offset  
 * `$length`: `null|int` Length  
-
-
-
-### `methodEscape(string $method): string`
-
-Escape method name.
-
-
-Parameters:
-
-* `$method`: `string` Method name  
 
 
 
@@ -1841,17 +1816,6 @@ Convert MTProto channel ID to bot API channel ID.
 Parameters:
 
 * `$id`: `int` MTProto channel ID  
-
-
-
-### `typeEscape(string $type): string`
-
-Escape type name.
-
-
-Parameters:
-
-* `$type`: `string` String to escape  
 
 
 

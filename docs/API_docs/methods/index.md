@@ -342,12 +342,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels.toggleSignatures.html" name="channels.toggleSignatures">Enable/disable message signatures in channels: channels.toggleSignatures</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#methodescape-string-method-string" name="methodEscape">Escape method name: methodEscape</a>
-
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#markdownescape-string-hwat-string" name="markdownEscape">Escape string for markdown: markdownEscape</a>
-
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#typeescape-string-type-string" name="typeEscape">Escape type name: typeEscape</a>
-
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#broadcastcustom-action-action-danog-madelineproto-broadcast-filter-filter-int" name="broadcastCustom">Executes a custom broadcast action with all peers (users, chats, channels) of the bot: broadcastCustom</a>
 
 * <a href="chatlists.exportChatlistInvite.html" name="chatlists.exportChatlistInvite">Export a folder », creating a chat folder deep link »: chatlists.exportChatlistInvite</a>
