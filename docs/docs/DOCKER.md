@@ -11,6 +11,13 @@ MadelineProto offers an official MadelineProto docker image for the `linux/amd64
 The image comes with all dependencies pre-configured.  
 Both opcache and JIT are enabled by default, for maximum performance.  
 
+* [Getting started](#getting-started)
+  * [CLI bot (recommended)](#cli-bot-recommended)
+  * [Databases on docker](#databases-on-docker)
+  * [Web docker](#web-docker)
+
+## Getting started
+
 To get started, install `docker`:
 
 ```bash
@@ -24,13 +31,25 @@ echo 262144 | sudo tee /proc/sys/vm/max_map_count
 echo vm.max_map_count=262144 | sudo tee /etc/sysctl.d/40-madelineproto.conf
 ```
 
-Then, create the following `docker-compose.yml` file:
+Finally, follow one or more of the following guides, according to your needs:
+
+* [CLI bot (recommended)](#cli-bot-recommended)
+* [Databases on docker](#databases-on-docker)
+* [Web docker](#web-docker)
+
+### CLI bot (recommended)
+
+Create the following `docker-compose.yml` file:
 
 ```yml
 services:
   bot:
     image: hub.madelineproto.xyz/danog/madelineproto
     restart: unless-stopped
+    #depends_on:
+      #- mariadb
+      #- postgres
+      #- redis
     tty: true
     volumes:
       - .:/app
@@ -47,6 +66,8 @@ docker run --rm -it --init -v $PWD:/app hub.madelineproto.xyz/danog/madelineprot
 
 **After logging in, press ctrl-c to close the temporary container.**
 
+**After logging in for the first time**, you can specify some custom settings to connect to a database, as described [here &raquo;](#databases-on-docker).  
+
 Finally, simply run this command to start the bot in the background.
 
 ```bash
@@ -55,10 +76,65 @@ docker compose up --pull always -d
 
 Use `docker compose logs` to view MadelineProto logs and `docker compose ps` to view the status of your bot.  
 
+Run `docker compose restart bot` to restart the bot.  
+
+### Databases on docker
+
+Specifying additional containers with mariadb, postgres or redis is really easy, just add the following sections to the `docker-compose.yml` file you created in the [previous step](#cli-bot-recommended):
+
+```yml
+services:
+  # Your bot or php-fpm services created in previous steps
+
+  #mariadb:
+  #  image: mariadb:latest
+  #  restart: unless-stopped
+  #  environment:
+  #    - MARIADB_ROOT_PASSWORD=replace_me_with_a_secure_password
+
+  #postgres:
+  #  image: postgres:latest
+  #  restart: unless-stopped
+  #  environment:
+  #    POSTGRES_USER: admin
+  #    POSTGRES_PASSWORD: replace_me_with_a_secure_password
+  #  healthcheck:
+  #    test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+  
+  #redis:
+  #  image: redis:latest
+  #  restart: unless-stopped
+```
+
+If you want to use the mysql backend for lower memory usage, uncomment all `mariadb` sections and use the following MadelineProto settings to connect:
+
+```php
+$settings = (new \danog\MadelineProto\Settings\Database\Mysql)
+    ->setUri('tcp://mariadb')
+    ->setPassword('replace_me_with_a_secure_password');
+```
+
+If you want to use the postgres backend for lower memory usage, uncomment all `postgres` sections and use the following MadelineProto settings to connect:
+
+```php
+$settings = (new \danog\MadelineProto\Settings\Database\Postgres)
+    ->setUri('tcp://postgres')
+    ->setDatabase('madeline')
+    ->setUsername('admin')
+    ->setPassword('replace_me_with_a_secure_password');
+```
+
+If you want to use the redis backend, uncomment all `redis` sections and use the following MadelineProto settings to connect:
+
+```php
+$settings = (new \danog\MadelineProto\Settings\Database\Redis)
+    ->setUri('tcp://redis');
+```
+
 ### Web docker
 
-Running in CLI mode (`command: php /app/bot.php`) is heavily recommended, but if web access is required, the official MadelineProto image can also function as a `php-fpm` server.  
-Note that the image has opcache and JIT enabled by default, so you should restart your container with `docker compose restart` to apply changes to your code.
+Running in [CLI mode](#cli-bot-recommended) is heavily recommended, but if web access is required, the official MadelineProto image can also function as a `php-fpm` server.  
+Note that the image has opcache and JIT enabled by default, so you should restart your container with `docker compose restart php-fpm` to apply changes to your code.
 
 Here's an example `docker-compose.yml` file for a caddy+php-fpm combo:
 
@@ -67,7 +143,10 @@ services:
   php-fpm:
     image: hub.madelineproto.xyz/danog/madelineproto
     restart: unless-stopped
-    tty: true
+    #depends_on:
+      #- mariadb
+      #- postgres
+      #- redis
     volumes:
       - .:/app
     command: php-fpm
@@ -75,6 +154,8 @@ services:
   caddy:
     image: caddy:alpine
     restart: unless-stopped
+    depends_on:
+      - php-fpm
     ports:
       - 80:80/tcp
       - 443:443/tcp
@@ -109,11 +190,13 @@ Finally, simply run this command to start the webserver in the background.
 docker compose up --pull always -d
 ```
 
-You can now access your PHP code @ `https://example.com`
+You can now access your PHP code @ `https://example.com`.  
+
+You can also add containers for mariadb, postgres or redis as [described here &raquo;](#databases-on-docker).  
 
 Use `docker compose logs` to view webserver logs and `docker compose ps` to view the status of your webserver.  
 
-Run `docker compose restart` every time you change your code to reload changes.
+Run `docker compose restart php-fpm` every time you change your code to reload changes.
 
 If you want to test locally without obtaining a certificate for a domain, replace `example.com` with `http://localhost:80` in the Caddyfile.  
 
