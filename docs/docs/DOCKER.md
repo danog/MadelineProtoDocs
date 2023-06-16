@@ -15,6 +15,7 @@ Both opcache and JIT are enabled by default, for maximum performance.
   * [CLI bot (recommended)](#cli-bot-recommended)
   * [Databases on docker](#databases-on-docker)
   * [Web docker](#web-docker)
+  * [Custom extensions](#custom-extensions)
 
 ## Getting started
 
@@ -32,10 +33,6 @@ echo vm.max_map_count=262144 | sudo tee /etc/sysctl.d/40-madelineproto.conf
 ```
 
 Finally, follow one or more of the following guides, according to your needs:
-
-* [CLI bot (recommended)](#cli-bot-recommended)
-* [Databases on docker](#databases-on-docker)
-* [Web docker](#web-docker)
 
 ### CLI bot (recommended)
 
@@ -209,5 +206,38 @@ Use `docker compose logs` to view webserver logs and `docker compose ps` to view
 Run `docker compose restart php-fpm` every time you change your code to reload changes.
 
 If you want to test locally without obtaining a certificate for a domain, replace `example.com` with `http://localhost:80` in the Caddyfile.  
+
+### Custom extensions
+
+Optionally, you may also add custom extensions by creating a custom docker image with the following `Dockerfile`, for example to install the `gd` and `bcmath` extensions:
+
+```
+FROM hub.madelineproto.xyz/danog/madelineproto:latest
+
+ADD https://github.com/mlocati/docker-php-extension-installer/releases/latest/download/install-php-extensions /usr/local/bin/
+
+RUN chmod +x /usr/local/bin/install-php-extensions && \
+    install-php-extensions gd bcmath && \
+    rm /usr/local/bin/install-php-extensions
+```
+
+And use the following `docker-compose.yml` file:
+
+```yml
+services:
+  bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    #depends_on:
+      #- mariadb
+      #- postgres
+      #- redis
+    tty: true
+    volumes:
+      - .:/app
+    command: php /app/bot.php
+```
 
 <a href="https://docs.madelineproto.xyz/docs/INSTALLATION.html">Next section</a>

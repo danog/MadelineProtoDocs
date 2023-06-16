@@ -1,14 +1,12 @@
 ---
 title: "Database"
-description: "By default madelineProto keeps all data and caches in memory: chats, file references, username cache, etc.  "
+description: "MadelineProto optionally can keep some of its internal data in a database, such as mysql, mariadb, postgres or redis (you can also add your own!), reducing RAM usage.   "
 nav_order: 12
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Database
 
-By default MadelineProto keeps all data and caches in memory: chats, file references, username cache, etc.  
-This data can require up to 1Gb of ram and more on certain accounts.  
-MadelineProto can keep part of this data in a database, such as mysql, mariadb, postgres or redis (you can also [add your own](https://github.com/danog/MadelineProto/tree/v8/src/Db)!).   
+MadelineProto *optionally* can keep some of its internal data in a database, such as mysql, mariadb, postgres or redis (you can also [add your own](https://github.com/danog/MadelineProto/tree/v8/src/Db)!), reducing RAM usage.   
 
 On first start after switching type all data will be migrated from the previous backend to the new one. 
 Database to memory migration is also supported.
