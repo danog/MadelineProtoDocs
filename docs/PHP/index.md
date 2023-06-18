@@ -57,6 +57,7 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\Settings\SecretChats: Secret chat settings.](/PHP/danog/MadelineProto/Settings/SecretChats.html)
 * [\danog\MadelineProto\Settings\Serialization: Serialization settings.](/PHP/danog/MadelineProto/Settings/Serialization.html)
 * [\danog\MadelineProto\Settings\TLSchema: TL schema settings.](/PHP/danog/MadelineProto/Settings/TLSchema.html)
+* [\danog\MadelineProto\Settings\Templates: Web and CLI template settings for login.](/PHP/danog/MadelineProto/Settings/Templates.html)
 * [\danog\MadelineProto\Settings\VoIP: VoIP settings.](/PHP/danog/MadelineProto/Settings/VoIP.html)
 * [\danog\MadelineProto\Settings\Database\Memory: Memory backend settings.](/PHP/danog/MadelineProto/Settings/Database/Memory.html)
 * [\danog\MadelineProto\Settings\Database\Mysql: MySQL backend settings.](/PHP/danog/MadelineProto/Settings/Database/Mysql.html)
