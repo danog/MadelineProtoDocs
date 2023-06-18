@@ -31,6 +31,16 @@ If you require a stable, semantically versioned install of MadelineProto with no
 
 For this reason, `madeline.php` is not compatible with pre-existing composer installs, [please install MadelineProto using composer](#simple-manual) if you already have a composer project.  
 
+## Phar file
+
+Head over to the [GitHub releases section](https://github.com/danog/MadelineProto/releases) and download the `madeline81.phar` from the latest release, and include it in your project:
+
+```php
+require_once 'madeline81.phar';
+```
+
+**Warning:** `madeline81.phar` is not compatible with pre-existing composer installs, [please install MadelineProto using composer](#simple-manual) if you already have a composer project.  
+
 ## Composer from existing project
 
 Simply require the package (composer v2+ is required):  
