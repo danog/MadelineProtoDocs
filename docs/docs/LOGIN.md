@@ -92,7 +92,7 @@ Use `botLogin` to login as a bot, see [here for the parameters and the result](h
 
 The new QR code login API can be used to render a QR code that can be scanned using the Telegram mobile apps in order to login.  
 
-The API is designed to be easily used in parallel with another login mode (i.e. together with the manual modes described below), but it can also be used standalone.  
+The API is designed to be easily used in parallel with another login mode (i.e. together with the manual modes described above), but it can also be used standalone.  
 
 [See here for the full documentation of the QR code API &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/TL/Types/LoginQrCode.html).  
 
