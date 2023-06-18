@@ -157,7 +157,7 @@ In this example, two endpoints are offered:
 
 * `?waitQrCodeOrLogin` long-polls the QR login API, waiting for the QR code to expire or for the user to scan the code.
   * If the QR code expires, a new SVG with the QR code is returned in a JSON payload.
-  * If the user scans the code and approves login through a Telegram app, the `logged_in` field in the returned JSON payload is set to true. If the user has also set a 2FA password, the `needs_2fa` field will set and the web UI will have to ask for a password and invoke `complete2falogin`.
+  * If the user scans the code and approves login through a Telegram app, the `logged_in` field in the returned JSON payload is set to true. If the user has also set a 2FA password, the `needs_2fa` field will `true` and the web UI will have to ask for a password and invoke `complete2falogin`.
 * `?getQrCode` does the same as `?waitQrCodeOrLogin`, except that it doesn't wait the additional 5 seconds (useful to fetch an initial QR code upon first page load).  
 
 ```php
