@@ -110,6 +110,9 @@ function login(\danog\MadelineProto\API $MadelineProto): void {
     do {
         $qr = $MadelineProto->qrLogin();
         if (!$qr) {
+            if ($MadelineProto->getAuthorization() === API::WAITING_PASSWORD) {
+                $MadelineProto->complete2faLogin(Tools::readLine('Please enter your password (hint '.$MadelineProto->getHint().'): '));
+            }
             // If null, we're already logged in
             return;
         }
@@ -127,7 +130,7 @@ function login(\danog\MadelineProto\API $MadelineProto): void {
             break;
         } catch (CancelledException) {
             if ($login->isRequested()) {
-                $stdout->write(PHP_EOL.PHP_EOL."QR code login successful!".PHP_EOL);
+                echo(PHP_EOL.PHP_EOL."QR code login successful!".PHP_EOL);
                 if ($MadelineProto->getAuthorization() === API::WAITING_PASSWORD) {
                     $MadelineProto->complete2faLogin(Tools::readLine('Please enter your password (hint '.$MadelineProto->getHint().'): '));
                 }
