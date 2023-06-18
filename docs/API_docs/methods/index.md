@@ -74,7 +74,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#flock-string-file-int-operation-float-polling-amp-cancellation-token-closure-failurecb-mixed" name="flock">Asynchronously lock a file: flock</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#readline-string-prompt-string" name="readLine">Asynchronously read line: readLine</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#readline-string-prompt-amp-cancellation-cancel-string" name="readLine">Asynchronously read line: readLine</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#sleep-float-time-void" name="sleep">Asynchronously sleep: sleep</a>
 
@@ -460,7 +460,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#gethttpclient-amp-http-client-httpclient" name="getHTTPClient">Get async HTTP client: getHTTPClient</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getauthorization-int" name="getAuthorization">Get authorization info: getAuthorization</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getauthorization-danog-madelineproto-api-not_logged_in-danog-madelineproto-api-waiting_code-danog-madelineproto-api-waiting_signup-danog-madelineproto-api-waiting_password-danog-madelineproto-api-logged_in" name="getAuthorization">Get authorization info: getAuthorization</a>
 
 * <a href="account.getAutoSaveSettings.html" name="account.getAutoSaveSettings">Get autosave settings: account.getAutoSaveSettings</a>
 
@@ -684,8 +684,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.getWebAuthorizations.html" name="account.getWebAuthorizations">Get web login widget authorizations: account.getWebAuthorizations</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getwebtemplate-string" name="getWebTemplate">Get web template: getWebTemplate</a>
-
 * <a href="messages.getMessageReadParticipants.html" name="messages.getMessageReadParticipants">Get which users read a specific message: only available for groups and supergroups with less than chat_read_mark_size_threshold members, read receipts will be stored for chat_read_mark_expire_period seconds after the message was sent, see client configuration for more info »: messages.getMessageReadParticipants</a>
 
 * <a href="account.getNotifySettings.html" name="account.getNotifySettings">Gets current notification settings for a given user/group, from all users/all groups: account.getNotifySettings</a>
@@ -737,6 +735,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#initselfrestart-void" name="initSelfRestart">Initialize self-restart hack: initSelfRestart</a>
 
 * <a href="account.resetPassword.html" name="account.resetPassword">Initiate a 2FA password reset: can only be used if the user is already logged-in, see here for more info »: account.resetPassword</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#qrlogin-danog-madelineproto-tl-types-loginqrcode" name="qrLogin">Initiates QR code login: qrLogin</a>
 
 * <a href="account.installWallPaper.html" name="account.installWallPaper">Install wallpaper: account.installWallPaper</a>
 
@@ -1127,8 +1127,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="phone.saveDefaultGroupCallJoinAs.html" name="phone.saveDefaultGroupCallJoinAs">Set the default peer that will be used to join a group call in a specific dialog: phone.saveDefaultGroupCallJoinAs</a>
 
 * <a href="account.setAuthorizationTTL.html" name="account.setAuthorizationTTL">Set time-to-live of current session: account.setAuthorizationTTL</a>
-
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#setwebtemplate-string-template-void" name="setWebTemplate">Set web template: setWebTemplate</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#setwebhook-string-webhookurl-void" name="setWebhook">Set webhook update handler: setWebhook</a>
 

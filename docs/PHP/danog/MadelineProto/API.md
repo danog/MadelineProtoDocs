@@ -84,7 +84,7 @@ Main API wrapper for MadelineProto.
 * [`fullGetSelf(): array|false`](#fullgetself-array-false)
 * [`genVectorHash(array $ints): string`](#genvectorhash-array-ints-string)
 * [`getAllMethods(): array`](#getallmethods-array)
-* [`getAuthorization(): int`](#getauthorization-int)
+* [`getAuthorization(): \danog\MadelineProto\API::NOT_LOGGED_IN|\danog\MadelineProto\API::WAITING_CODE|\danog\MadelineProto\API::WAITING_SIGNUP|\danog\MadelineProto\API::WAITING_PASSWORD|\danog\MadelineProto\API::LOGGED_IN`](#getauthorization-danog-madelineproto-api-not_logged_in-danog-madelineproto-api-waiting_code-danog-madelineproto-api-waiting_signup-danog-madelineproto-api-waiting_password-danog-madelineproto-api-logged_in)
 * [`getBroadcastProgress(int $id): ?\danog\MadelineProto\Broadcast\Progress`](#getbroadcastprogress-int-id-danog-madelineproto-broadcast-progress)
 * [`getCachedConfig(): array`](#getcachedconfig-array)
 * [`getCall(int $call): array`](#getcall-int-call-array)
@@ -126,7 +126,6 @@ Main API wrapper for MadelineProto.
 * [`getType(mixed $id): \"user"|\"bot"|\"chat"|\"supergroup"|\"channel"`](#gettype-mixed-id-user-bot-chat-supergroup-channel-)
 * [`getUpdates(array{offset?: int, limit?: int, timeout?: float} $params): list<array{update_id: mixed, update: mixed}>`](#getupdates-array-offset-int-limit-int-timeout-float-params-list-array-update_id-mixed-update-mixed-)
 * [`getWebMessage(string $message): string`](#getwebmessage-string-message-string)
-* [`getWebTemplate(): string`](#getwebtemplate-string)
 * [`hasEventHandler(): bool`](#haseventhandler-bool)
 * [`hasReportPeers(): bool`](#hasreportpeers-bool)
 * [`hasSecretChat(array|int $chat): bool`](#hassecretchat-array-int-chat-bool)
@@ -150,9 +149,10 @@ Main API wrapper for MadelineProto.
 * [`peerIsset(mixed $id): bool`](#peerisset-mixed-id-bool)
 * [`phoneLogin(string $number, int $sms_type): mixed`](#phonelogin-string-number-int-sms_type-mixed)
 * [`posmod(int $a, int $b): int`](#posmod-int-a-int-b-int)
+* [`qrLogin(): ?\danog\MadelineProto\TL\Types\LoginQrCode`](#qrlogin-danog-madelineproto-tl-types-loginqrcode)
 * [`random(int $length): string`](#random-int-length-string)
 * [`randomInt(int $modulus): int`](#randomint-int-modulus-int)
-* [`readLine(string $prompt): string`](#readline-string-prompt-string)
+* [`readLine(string $prompt, ?\Amp\Cancellation $cancel): string`](#readline-string-prompt-amp-cancellation-cancel-string)
 * [`refreshFullPeerCache(mixed $id): void`](#refreshfullpeercache-mixed-id-void)
 * [`refreshPeerCache(mixed $ids): void`](#refreshpeercache-mixed-ids-void)
 * [`rekey(int $chat): ?string`](#rekey-int-chat-string)
@@ -168,7 +168,6 @@ Main API wrapper for MadelineProto.
 * [`sendCustomEvent(mixed $payload): void`](#sendcustomevent-mixed-payload-void)
 * [`setNoop(): void`](#setnoop-void)
 * [`setReportPeers(int|string|(int|string)[] $userOrId): void`](#setreportpeers-int-string-int-string-userorid-void)
-* [`setWebTemplate(string $template): void`](#setwebtemplate-string-template-void)
 * [`setWebhook(string $webhookUrl): void`](#setwebhook-string-webhookurl-void)
 * [`setupLogger(): void`](#setuplogger-void)
 * [`sleep(float $time): void`](#sleep-float-time-void)
@@ -824,9 +823,18 @@ Get full list of MTProto and API methods.
 
 
 
-### `getAuthorization(): int`
+### `getAuthorization(): \danog\MadelineProto\API::NOT_LOGGED_IN|\danog\MadelineProto\API::WAITING_CODE|\danog\MadelineProto\API::WAITING_SIGNUP|\danog\MadelineProto\API::WAITING_PASSWORD|\danog\MadelineProto\API::LOGGED_IN`
 
 Get authorization info.
+
+
+#### See also: 
+* `\danog\MadelineProto\API::NOT_LOGGED_IN`
+* `\danog\MadelineProto\API::WAITING_CODE`
+* `\danog\MadelineProto\API::WAITING_SIGNUP`
+* `\danog\MadelineProto\API::WAITING_PASSWORD`
+* `\danog\MadelineProto\API::LOGGED_IN`
+
 
 
 
@@ -1253,12 +1261,6 @@ Parameters:
 
 
 
-### `getWebTemplate(): string`
-
-Get web template.
-
-
-
 ### `hasEventHandler(): bool`
 
 Check if an event handler instance is present.
@@ -1486,6 +1488,19 @@ Parameters:
 
 
 
+### `qrLogin(): ?\danog\MadelineProto\TL\Types\LoginQrCode`
+
+Initiates QR code login.
+Returns a QR code login helper object, that can be used to render the QR code, display the link directly, wait for login, QR code expiration and much more.  
+  
+Returns null if we're already logged in, or if we're waiting for a password (use getAuthorization to distinguish between the two cases).
+
+#### See also: 
+* [`\danog\MadelineProto\TL\Types\LoginQrCode`: Represents a login QR code.](../../danog/MadelineProto/TL/Types/LoginQrCode.html)
+
+
+
+
 ### `random(int $length): string`
 
 Get secure random string of specified length.
@@ -1508,7 +1523,7 @@ Parameters:
 
 
 
-### `readLine(string $prompt): string`
+### `readLine(string $prompt, ?\Amp\Cancellation $cancel): string`
 
 Asynchronously read line.
 
@@ -1516,6 +1531,12 @@ Asynchronously read line.
 Parameters:
 
 * `$prompt`: `string` Prompt  
+* `$cancel`: `?\Amp\Cancellation`   
+
+
+#### See also: 
+* `\Amp\Cancellation`
+
 
 
 
@@ -1674,17 +1695,6 @@ Set peer(s) where to send errors occurred in the event loop.
 Parameters:
 
 * `$userOrId`: `int|string|(int|string)[]` Username(s) or peer ID(s)  
-
-
-
-### `setWebTemplate(string $template): void`
-
-Set web template.
-
-
-Parameters:
-
-* `$template`: `string` Template  
 
 
 

@@ -42,8 +42,6 @@ Settings class used for configuring MadelineProto.
 * [`setDb(\danog\MadelineProto\Settings\DatabaseAbstract $db): self`](#setdb-danog-madelineproto-settings-databaseabstract-db-self)
 * [`getIpc(): \danog\MadelineProto\Settings\Ipc`](#getipc-danog-madelineproto-settings-ipc)
 * [`setIpc(\danog\MadelineProto\Settings\Ipc $ipc): self`](#setipc-danog-madelineproto-settings-ipc-ipc-self)
-* [`getTemplates(): \danog\MadelineProto\Settings\Templates`](#gettemplates-danog-madelineproto-settings-templates)
-* [`setTemplates(\danog\MadelineProto\Settings\Templates $templates): self`](#settemplates-danog-madelineproto-settings-templates-templates-self)
 * [`getVoip(): \danog\MadelineProto\Settings\VoIP`](#getvoip-danog-madelineproto-settings-voip)
 * [`setVoip(\danog\MadelineProto\Settings\VoIP $voip): self`](#setvoip-danog-madelineproto-settings-voip-voip-self)
 
@@ -384,33 +382,6 @@ Parameters:
 
 #### See also: 
 * [`\danog\MadelineProto\Settings\Ipc`: IPC server settings.](../../danog/MadelineProto/Settings/Ipc.html)
-
-
-
-
-### `getTemplates(): \danog\MadelineProto\Settings\Templates`
-
-Get template settings.
-
-
-#### See also: 
-* [`\danog\MadelineProto\Settings\Templates`: Web and CLI template settings for login.](../../danog/MadelineProto/Settings/Templates.html)
-
-
-
-
-### `setTemplates(\danog\MadelineProto\Settings\Templates $templates): self`
-
-Set template settings.
-
-
-Parameters:
-
-* `$templates`: `\danog\MadelineProto\Settings\Templates` Template settings  
-
-
-#### See also: 
-* [`\danog\MadelineProto\Settings\Templates`: Web and CLI template settings for login.](../../danog/MadelineProto/Settings/Templates.html)
 
 
 

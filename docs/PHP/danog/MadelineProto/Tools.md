@@ -49,7 +49,7 @@ Some tools.
 * [`rethrow(\Throwable $e): void`](#rethrow-throwable-e-void)
 * [`flock(string $file, int $operation, float $polling, ?\Amp\Cancellation $token, ?\Closure $failureCb): mixed`](#flock-string-file-int-operation-float-polling-amp-cancellation-token-closure-failurecb-mixed)
 * [`sleep(float $time): void`](#sleep-float-time-void)
-* [`readLine(string $prompt): string`](#readline-string-prompt-string)
+* [`readLine(string $prompt, ?\Amp\Cancellation $cancel): string`](#readline-string-prompt-amp-cancellation-cancel-string)
 * [`echo(string $string): void`](#echo-string-string-void)
 * [`mbStrlen(string $text): int`](#mbstrlen-string-text-int)
 * [`mbSubstr(string $text, int $offset, null|int $length): string`](#mbsubstr-string-text-int-offset-null-int-length-string)
@@ -374,7 +374,7 @@ Parameters:
 
 
 
-### `readLine(string $prompt): string`
+### `readLine(string $prompt, ?\Amp\Cancellation $cancel): string`
 
 Asynchronously read line.
 
@@ -382,6 +382,12 @@ Asynchronously read line.
 Parameters:
 
 * `$prompt`: `string` Prompt  
+* `$cancel`: `?\Amp\Cancellation`   
+
+
+#### See also: 
+* `\Amp\Cancellation`
+
 
 
 
