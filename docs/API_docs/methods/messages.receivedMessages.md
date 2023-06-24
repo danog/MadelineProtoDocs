@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_ReceivedNotifyMessage = $MadelineProto->messages->receivedMessages(max_id: int, );
+$Vector_of_ReceivedNotifyMessage = $MadelineProto->messages->receivedMessages(max_id: $int, );
 ```
 

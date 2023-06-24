@@ -45,7 +45,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->editMessage(no_webpage: Bool, peer: InputPeer, id: int, message: 'string', media: InputMedia, reply_markup: ReplyMarkup, entities: [MessageEntity, MessageEntity], parse_mode: 'string', schedule_date: int, );
+$Updates = $MadelineProto->messages->editMessage(no_webpage: $Bool, peer: $InputPeer, id: $int, message: 'string', media: $InputMedia, reply_markup: $ReplyMarkup, entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', schedule_date: $int, );
 ```
 
 

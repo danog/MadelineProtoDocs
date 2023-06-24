@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$EmojiKeywordsDifference = $MadelineProto->messages->getEmojiKeywordsDifference(lang_code: 'string', from_version: int, );
+$EmojiKeywordsDifference = $MadelineProto->messages->getEmojiKeywordsDifference(lang_code: 'string', from_version: $int, );
 ```
 

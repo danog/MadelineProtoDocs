@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$chatlists_ChatlistUpdates = $MadelineProto->chatlists->getChatlistUpdates(chatlist: InputChatlist, );
+$chatlists_ChatlistUpdates = $MadelineProto->chatlists->getChatlistUpdates(chatlist: $InputChatlist, );
 ```
 

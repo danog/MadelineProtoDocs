@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_SecureValue = $MadelineProto->account->getSecureValue(types: [SecureValueType, SecureValueType], );
+$Vector_of_SecureValue = $MadelineProto->account->getSecureValue(types: [$SecureValueType, $SecureValueType], );
 ```
 

@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_Authorization = $MadelineProto->auth->checkPassword(password: InputCheckPasswordSRP, );
+$auth_Authorization = $MadelineProto->auth->checkPassword(password: $InputCheckPasswordSRP, );
 ```
 

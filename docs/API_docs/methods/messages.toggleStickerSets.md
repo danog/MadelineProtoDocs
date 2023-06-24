@@ -40,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->toggleStickerSets(uninstall: Bool, archive: Bool, unarchive: Bool, stickersets: [InputStickerSet, InputStickerSet], );
+$Bool = $MadelineProto->messages->toggleStickerSets(uninstall: $Bool, archive: $Bool, unarchive: $Bool, stickersets: [$InputStickerSet, $InputStickerSet], );
 ```
 

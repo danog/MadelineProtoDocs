@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->channels->editCreator(channel: InputChannel, user_id: InputUser, password: InputCheckPasswordSRP, );
+$Updates = $MadelineProto->channels->editCreator(channel: $InputChannel, user_id: $InputUser, password: $InputCheckPasswordSRP, );
 ```
 

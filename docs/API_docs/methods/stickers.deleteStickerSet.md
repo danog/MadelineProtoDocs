@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->stickers->deleteStickerSet(stickerset: InputStickerSet, );
+$Bool = $MadelineProto->stickers->deleteStickerSet(stickerset: $InputStickerSet, );
 ```
 

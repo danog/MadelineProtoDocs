@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->markDialogUnread(unread: Bool, peer: InputDialogPeer, );
+$Bool = $MadelineProto->messages->markDialogUnread(unread: $Bool, peer: $InputDialogPeer, );
 ```
 

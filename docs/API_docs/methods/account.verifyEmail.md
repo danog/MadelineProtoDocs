@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_EmailVerified = $MadelineProto->account->verifyEmail(purpose: EmailVerifyPurpose, verification: EmailVerification, );
+$account_EmailVerified = $MadelineProto->account->verifyEmail(purpose: $EmailVerifyPurpose, verification: $EmailVerification, );
 ```
 

@@ -42,6 +42,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_ExportedChatInvites = $MadelineProto->messages->getExportedChatInvites(revoked: Bool, peer: InputPeer, admin_id: InputUser, offset_date: int, offset_link: 'string', limit: int, );
+$messages_ExportedChatInvites = $MadelineProto->messages->getExportedChatInvites(revoked: $Bool, peer: $InputPeer, admin_id: $InputUser, offset_date: $int, offset_link: 'string', limit: $int, );
 ```
 

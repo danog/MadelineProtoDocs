@@ -40,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->phone->createGroupCall(rtmp_stream: Bool, peer: InputPeer, title: 'string', schedule_date: int, );
+$Updates = $MadelineProto->phone->createGroupCall(rtmp_stream: $Bool, peer: $InputPeer, title: 'string', schedule_date: $int, );
 ```
 

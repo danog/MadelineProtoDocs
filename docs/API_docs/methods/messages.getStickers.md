@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Stickers = $MadelineProto->messages->getStickers(emoticon: 'string', hash: [long, long], );
+$messages_Stickers = $MadelineProto->messages->getStickers(emoticon: 'string', hash: [$long, $long], );
 ```
 

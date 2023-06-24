@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->channels->editBanned(channel: InputChannel, participant: InputPeer, banned_rights: ChatBannedRights, );
+$Updates = $MadelineProto->channels->editBanned(channel: $InputChannel, participant: $InputPeer, banned_rights: $ChatBannedRights, );
 ```
 

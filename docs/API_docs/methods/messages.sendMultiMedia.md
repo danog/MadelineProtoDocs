@@ -47,6 +47,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendMultiMedia(silent: Bool, background: Bool, clear_draft: Bool, noforwards: Bool, update_stickersets_order: Bool, peer: InputPeer, reply_to_msg_id: int, top_msg_id: int, multi_media: [InputSingleMedia, InputSingleMedia], schedule_date: int, send_as: InputPeer, );
+$Updates = $MadelineProto->messages->sendMultiMedia(silent: $Bool, background: $Bool, clear_draft: $Bool, noforwards: $Bool, update_stickersets_order: $Bool, peer: $InputPeer, reply_to_msg_id: $int, top_msg_id: $int, multi_media: [$InputSingleMedia, $InputSingleMedia], schedule_date: $int, send_as: $InputPeer, );
 ```
 

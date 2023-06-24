@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->setBotShippingResults(query_id: long, error: 'string', shipping_options: [ShippingOption, ShippingOption], );
+$Bool = $MadelineProto->messages->setBotShippingResults(query_id: $long, error: 'string', shipping_options: [$ShippingOption, $ShippingOption], );
 ```
 

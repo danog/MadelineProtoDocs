@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->messages->getRecentLocations(peer: InputPeer, limit: int, hash: [long, long], );
+$messages_Messages = $MadelineProto->messages->getRecentLocations(peer: $InputPeer, limit: $int, hash: [$long, $long], );
 ```
 

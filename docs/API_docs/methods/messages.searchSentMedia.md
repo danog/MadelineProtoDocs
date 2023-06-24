@@ -40,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->messages->searchSentMedia(q: 'string', filter: MessagesFilter, limit: int, );
+$messages_Messages = $MadelineProto->messages->searchSentMedia(q: 'string', filter: $MessagesFilter, limit: $int, );
 ```
 

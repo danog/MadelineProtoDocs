@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_PrivacyRules = $MadelineProto->account->getPrivacy(key: InputPrivacyKey, );
+$account_PrivacyRules = $MadelineProto->account->getPrivacy(key: $InputPrivacyKey, );
 ```
 

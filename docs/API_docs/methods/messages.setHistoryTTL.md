@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->setHistoryTTL(peer: InputPeer, period: int, );
+$Updates = $MadelineProto->messages->setHistoryTTL(peer: $InputPeer, period: $int, );
 ```
 

@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_Themes = $MadelineProto->account->getThemes(format: 'string', hash: [long, long], );
+$account_Themes = $MadelineProto->account->getThemes(format: 'string', hash: [$long, $long], );
 ```
 

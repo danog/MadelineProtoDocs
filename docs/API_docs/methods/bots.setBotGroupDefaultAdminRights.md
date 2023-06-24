@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->bots->setBotGroupDefaultAdminRights(admin_rights: ChatAdminRights, );
+$Bool = $MadelineProto->bots->setBotGroupDefaultAdminRights(admin_rights: $ChatAdminRights, );
 ```
 

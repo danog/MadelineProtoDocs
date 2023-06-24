@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$chatlists_ExportedChatlistInvite = $MadelineProto->chatlists->exportChatlistInvite(chatlist: InputChatlist, title: 'string', peers: [InputPeer, InputPeer], );
+$chatlists_ExportedChatlistInvite = $MadelineProto->chatlists->exportChatlistInvite(chatlist: $InputChatlist, title: 'string', peers: [$InputPeer, $InputPeer], );
 ```
 

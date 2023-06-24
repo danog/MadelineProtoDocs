@@ -47,6 +47,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->channels->getMessages(channel: InputChannel, id: [InputMessage, InputMessage], );
+$messages_Messages = $MadelineProto->channels->getMessages(channel: $InputChannel, id: [$InputMessage, $InputMessage], );
 ```
 

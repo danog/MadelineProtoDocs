@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->phone->saveCallLog(peer: InputPhoneCall, file: InputFile, );
+$Bool = $MadelineProto->phone->saveCallLog(peer: $InputPhoneCall, file: $InputFile, );
 ```
 

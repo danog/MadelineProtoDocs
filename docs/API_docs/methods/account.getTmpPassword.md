@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_TmpPassword = $MadelineProto->account->getTmpPassword(password: InputCheckPasswordSRP, period: int, );
+$account_TmpPassword = $MadelineProto->account->getTmpPassword(password: $InputCheckPasswordSRP, period: $int, );
 ```
 

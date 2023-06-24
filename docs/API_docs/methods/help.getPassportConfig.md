@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_PassportConfig = $MadelineProto->help->getPassportConfig(hash: [long, long], );
+$help_PassportConfig = $MadelineProto->help->getPassportConfig(hash: [$long, $long], );
 ```
 

@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->contacts->acceptContact(id: InputUser, );
+$Updates = $MadelineProto->contacts->acceptContact(id: $InputUser, );
 ```
 

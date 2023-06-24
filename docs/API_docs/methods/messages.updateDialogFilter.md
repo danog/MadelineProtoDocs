@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->updateDialogFilter(id: int, filter: DialogFilter, );
+$Bool = $MadelineProto->messages->updateDialogFilter(id: $int, filter: $DialogFilter, );
 ```
 

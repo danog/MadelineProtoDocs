@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->readEncryptedHistory(peer: InputEncryptedChat, max_date: int, );
+$Bool = $MadelineProto->messages->readEncryptedHistory(peer: $InputEncryptedChat, max_date: $int, );
 ```
 

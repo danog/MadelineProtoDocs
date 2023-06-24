@@ -36,6 +36,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$X = $MadelineProto->invokeWithoutUpdates(query: !X, );
+$X = $MadelineProto->invokeWithoutUpdates(query: $!X, );
 ```
 

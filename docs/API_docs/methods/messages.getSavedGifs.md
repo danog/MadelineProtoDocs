@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_SavedGifs = $MadelineProto->messages->getSavedGifs(hash: [long, long], );
+$messages_SavedGifs = $MadelineProto->messages->getSavedGifs(hash: [$long, $long], );
 ```
 

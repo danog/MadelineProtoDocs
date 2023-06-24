@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->toggleBotInAttachMenu(write_allowed: Bool, bot: InputUser, enabled: Bool, );
+$Bool = $MadelineProto->messages->toggleBotInAttachMenu(write_allowed: $Bool, bot: $InputUser, enabled: $Bool, );
 ```
 

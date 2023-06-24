@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_SavedRingtones = $MadelineProto->account->getSavedRingtones(hash: [long, long], );
+$account_SavedRingtones = $MadelineProto->account->getSavedRingtones(hash: [$long, $long], );
 ```
 

@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$upload_CdnFile = $MadelineProto->upload->getCdnFile(file_token: 'bytes', offset: long, limit: int, );
+$upload_CdnFile = $MadelineProto->upload->getCdnFile(file_token: 'bytes', offset: $long, limit: $int, );
 ```
 

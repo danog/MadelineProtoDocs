@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts_Blocked = $MadelineProto->contacts->getBlocked(offset: int, limit: int, );
+$contacts_Blocked = $MadelineProto->contacts->getBlocked(offset: $int, limit: $int, );
 ```
 

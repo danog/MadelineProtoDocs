@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$X = $MadelineProto->invokeAfterMsgs(msg_ids: [long, long], query: !X, );
+$X = $MadelineProto->invokeAfterMsgs(msg_ids: [$long, $long], query: $!X, );
 ```
 

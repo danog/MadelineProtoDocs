@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$payments_PaymentForm = $MadelineProto->payments->getPaymentForm(invoice: InputInvoice, theme_params: DataJSON, );
+$payments_PaymentForm = $MadelineProto->payments->getPaymentForm(invoice: $InputInvoice, theme_params: $DataJSON, );
 ```
 

@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->channels->deleteHistory(for_everyone: Bool, channel: InputChannel, max_id: int, );
+$Updates = $MadelineProto->channels->deleteHistory(for_everyone: $Bool, channel: $InputChannel, max_id: $int, );
 ```
 

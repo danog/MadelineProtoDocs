@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$payments_PaymentReceipt = $MadelineProto->payments->getPaymentReceipt(peer: InputPeer, msg_id: int, );
+$payments_PaymentReceipt = $MadelineProto->payments->getPaymentReceipt(peer: $InputPeer, msg_id: $int, );
 ```
 

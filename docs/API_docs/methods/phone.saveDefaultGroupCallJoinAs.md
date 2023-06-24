@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->phone->saveDefaultGroupCallJoinAs(peer: InputPeer, join_as: InputPeer, );
+$Bool = $MadelineProto->phone->saveDefaultGroupCallJoinAs(peer: $InputPeer, join_as: $InputPeer, );
 ```
 

@@ -40,7 +40,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_UserInfo = $MadelineProto->help->editUserInfo(user_id: InputUser, message: 'string', entities: [MessageEntity, MessageEntity], parse_mode: 'string', );
+$help_UserInfo = $MadelineProto->help->editUserInfo(user_id: $InputUser, message: 'string', entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', );
 ```
 
 

@@ -42,6 +42,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->setGameScore(edit_message: Bool, force: Bool, peer: InputPeer, id: int, user_id: InputUser, score: int, );
+$Updates = $MadelineProto->messages->setGameScore(edit_message: $Bool, force: $Bool, peer: $InputPeer, id: $int, user_id: $InputUser, score: $int, );
 ```
 

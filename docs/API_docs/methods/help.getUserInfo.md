@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_UserInfo = $MadelineProto->help->getUserInfo(user_id: InputUser, );
+$help_UserInfo = $MadelineProto->help->getUserInfo(user_id: $InputUser, );
 ```
 

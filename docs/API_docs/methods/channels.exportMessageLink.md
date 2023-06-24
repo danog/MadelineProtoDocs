@@ -40,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$ExportedMessageLink = $MadelineProto->channels->exportMessageLink(grouped: Bool, thread: Bool, channel: InputChannel, id: int, );
+$ExportedMessageLink = $MadelineProto->channels->exportMessageLink(grouped: $Bool, thread: $Bool, channel: $InputChannel, id: $int, );
 ```
 

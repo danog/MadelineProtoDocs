@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_ChatFull = $MadelineProto->channels->getFullChannel(channel: InputChannel, );
+$messages_ChatFull = $MadelineProto->channels->getFullChannel(channel: $InputChannel, );
 ```
 

@@ -40,7 +40,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->account->reportProfilePhoto(peer: InputPeer, photo_id: InputPhoto, reason: ReportReason, message: 'string', );
+$Bool = $MadelineProto->account->reportProfilePhoto(peer: $InputPeer, photo_id: $InputPhoto, reason: $ReportReason, message: 'string', );
 ```
 
 

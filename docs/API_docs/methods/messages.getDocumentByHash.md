@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Document = $MadelineProto->messages->getDocumentByHash(sha256: 'bytes', size: long, mime_type: 'string', );
+$Document = $MadelineProto->messages->getDocumentByHash(sha256: 'bytes', size: $long, mime_type: 'string', );
 ```
 

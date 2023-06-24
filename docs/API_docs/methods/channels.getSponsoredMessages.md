@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_SponsoredMessages = $MadelineProto->channels->getSponsoredMessages(channel: InputChannel, );
+$messages_SponsoredMessages = $MadelineProto->channels->getSponsoredMessages(channel: $InputChannel, );
 ```
 

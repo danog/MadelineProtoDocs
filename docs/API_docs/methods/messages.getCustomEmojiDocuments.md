@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_Document = $MadelineProto->messages->getCustomEmojiDocuments(document_id: [long, long], );
+$Vector_of_Document = $MadelineProto->messages->getCustomEmojiDocuments(document_id: [$long, $long], );
 ```
 

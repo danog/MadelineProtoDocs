@@ -42,6 +42,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->phone->joinGroupCall(muted: Bool, video_stopped: Bool, call: InputGroupCall, join_as: InputPeer, invite_hash: 'string', params: DataJSON, );
+$Updates = $MadelineProto->phone->joinGroupCall(muted: $Bool, video_stopped: $Bool, call: $InputGroupCall, join_as: $InputPeer, invite_hash: 'string', params: $DataJSON, );
 ```
 

@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->reorderPinnedDialogs(force: Bool, folder_id: int, order: [InputDialogPeer, InputDialogPeer], );
+$Bool = $MadelineProto->messages->reorderPinnedDialogs(force: $Bool, folder_id: $int, order: [$InputDialogPeer, $InputDialogPeer], );
 ```
 

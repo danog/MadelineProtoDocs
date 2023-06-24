@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_Authorization = $MadelineProto->auth->recoverPassword(code: 'string', new_settings: account.PasswordInputSettings, );
+$auth_Authorization = $MadelineProto->auth->recoverPassword(code: 'string', new_settings: $account.PasswordInputSettings, );
 ```
 

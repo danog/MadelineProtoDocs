@@ -39,7 +39,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$MessageMedia = $MadelineProto->messages->getWebPagePreview(message: 'string', entities: [MessageEntity, MessageEntity], parse_mode: 'string', );
+$MessageMedia = $MadelineProto->messages->getWebPagePreview(message: 'string', entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', );
 ```
 
 

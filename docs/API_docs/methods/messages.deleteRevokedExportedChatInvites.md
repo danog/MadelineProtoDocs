@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->deleteRevokedExportedChatInvites(peer: InputPeer, admin_id: InputUser, );
+$Bool = $MadelineProto->messages->deleteRevokedExportedChatInvites(peer: $InputPeer, admin_id: $InputUser, );
 ```
 

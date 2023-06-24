@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->payments->clearSavedInfo(credentials: Bool, info: Bool, );
+$Bool = $MadelineProto->payments->clearSavedInfo(credentials: $Bool, info: $Bool, );
 ```
 

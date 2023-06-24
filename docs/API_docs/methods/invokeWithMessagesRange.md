@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$X = $MadelineProto->invokeWithMessagesRange(range: MessageRange, query: !X, );
+$X = $MadelineProto->invokeWithMessagesRange(range: $MessageRange, query: $!X, );
 ```
 

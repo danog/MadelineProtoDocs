@@ -40,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendBotRequestedPeer(peer: InputPeer, msg_id: int, button_id: int, requested_peer: InputPeer, );
+$Updates = $MadelineProto->messages->sendBotRequestedPeer(peer: $InputPeer, msg_id: $int, button_id: $int, requested_peer: $InputPeer, );
 ```
 

@@ -38,7 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->help->setBotUpdatesStatus(pending_updates_count: int, message: 'string', );
+$Bool = $MadelineProto->help->setBotUpdatesStatus(pending_updates_count: $int, message: 'string', );
 ```
 
 

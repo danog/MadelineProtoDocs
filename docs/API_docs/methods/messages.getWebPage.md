@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$WebPage = $MadelineProto->messages->getWebPage(url: 'string', hash: [long, long], );
+$WebPage = $MadelineProto->messages->getWebPage(url: 'string', hash: [$long, $long], );
 ```
 

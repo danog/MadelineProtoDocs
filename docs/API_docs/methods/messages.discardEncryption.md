@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->discardEncryption(delete_history: Bool, chat_id: int, );
+$Bool = $MadelineProto->messages->discardEncryption(delete_history: $Bool, chat_id: $int, );
 ```
 

@@ -40,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Document = $MadelineProto->account->uploadTheme(file: InputFile, thumb: InputFile, file_name: 'string', mime_type: 'string', );
+$Document = $MadelineProto->account->uploadTheme(file: $InputFile, thumb: $InputFile, file_name: 'string', mime_type: 'string', );
 ```
 

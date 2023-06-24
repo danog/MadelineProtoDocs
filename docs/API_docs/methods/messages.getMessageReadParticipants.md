@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_ReadParticipantDate = $MadelineProto->messages->getMessageReadParticipants(peer: InputPeer, msg_id: int, );
+$Vector_of_ReadParticipantDate = $MadelineProto->messages->getMessageReadParticipants(peer: $InputPeer, msg_id: $int, );
 ```
 

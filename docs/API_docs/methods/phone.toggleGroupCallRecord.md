@@ -41,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->phone->toggleGroupCallRecord(start: Bool, video: Bool, call: InputGroupCall, title: 'string', video_portrait: Bool, );
+$Updates = $MadelineProto->phone->toggleGroupCallRecord(start: $Bool, video: $Bool, call: $InputGroupCall, title: 'string', video_portrait: $Bool, );
 ```
 

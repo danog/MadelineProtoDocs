@@ -41,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->addChatUser(chat_id: InputPeer, user_id: InputUser, fwd_limit: int, );
+$Updates = $MadelineProto->messages->addChatUser(chat_id: $InputPeer, user_id: $InputUser, fwd_limit: $int, );
 ```
 

@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_StickerSet = $MadelineProto->stickers->setStickerSetThumb(stickerset: InputStickerSet, thumb: InputDocument, thumb_document_id: long, );
+$messages_StickerSet = $MadelineProto->stickers->setStickerSetThumb(stickerset: $InputStickerSet, thumb: $InputDocument, thumb_document_id: $long, );
 ```
 

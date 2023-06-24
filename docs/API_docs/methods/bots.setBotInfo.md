@@ -41,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->bots->setBotInfo(bot: InputUser, lang_code: 'string', name: 'string', about: 'string', description: 'string', );
+$Bool = $MadelineProto->bots->setBotInfo(bot: $InputUser, lang_code: 'string', name: 'string', about: 'string', description: 'string', );
 ```
 

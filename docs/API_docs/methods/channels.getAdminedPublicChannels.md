@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Chats = $MadelineProto->channels->getAdminedPublicChannels(by_location: Bool, check_limit: Bool, );
+$messages_Chats = $MadelineProto->channels->getAdminedPublicChannels(by_location: $Bool, check_limit: $Bool, );
 ```
 

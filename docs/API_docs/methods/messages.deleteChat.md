@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->deleteChat(chat_id: InputPeer, );
+$Bool = $MadelineProto->messages->deleteChat(chat_id: $InputPeer, );
 ```
 

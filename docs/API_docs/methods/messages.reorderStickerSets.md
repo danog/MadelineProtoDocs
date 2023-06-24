@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->reorderStickerSets(masks: Bool, emojis: Bool, order: [long, long], );
+$Bool = $MadelineProto->messages->reorderStickerSets(masks: $Bool, emojis: $Bool, order: [$long, $long], );
 ```
 

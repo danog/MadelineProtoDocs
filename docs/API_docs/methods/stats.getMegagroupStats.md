@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$stats_MegagroupStats = $MadelineProto->stats->getMegagroupStats(dark: Bool, channel: InputChannel, );
+$stats_MegagroupStats = $MadelineProto->stats->getMegagroupStats(dark: $Bool, channel: $InputChannel, );
 ```
 

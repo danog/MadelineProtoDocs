@@ -40,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->account->installTheme(dark: Bool, theme: InputTheme, format: 'string', base_theme: BaseTheme, );
+$Bool = $MadelineProto->account->installTheme(dark: $Bool, theme: $InputTheme, format: 'string', base_theme: $BaseTheme, );
 ```
 

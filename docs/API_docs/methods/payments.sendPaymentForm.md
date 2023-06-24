@@ -42,6 +42,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$payments_PaymentResult = $MadelineProto->payments->sendPaymentForm(form_id: long, invoice: InputInvoice, requested_info_id: 'string', shipping_option_id: 'string', credentials: InputPaymentCredentials, tip_amount: long, );
+$payments_PaymentResult = $MadelineProto->payments->sendPaymentForm(form_id: $long, invoice: $InputInvoice, requested_info_id: 'string', shipping_option_id: 'string', credentials: $InputPaymentCredentials, tip_amount: $long, );
 ```
 

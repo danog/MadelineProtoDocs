@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_PeerDialogs = $MadelineProto->messages->getPinnedDialogs(folder_id: int, );
+$messages_PeerDialogs = $MadelineProto->messages->getPinnedDialogs(folder_id: $int, );
 ```
 

@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->channels->setStickers(channel: InputChannel, stickerset: InputStickerSet, );
+$Bool = $MadelineProto->channels->setStickers(channel: $InputChannel, stickerset: $InputStickerSet, );
 ```
 

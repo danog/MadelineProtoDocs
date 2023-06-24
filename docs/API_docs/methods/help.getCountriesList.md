@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_CountriesList = $MadelineProto->help->getCountriesList(lang_code: 'string', hash: [long, long], );
+$help_CountriesList = $MadelineProto->help->getCountriesList(lang_code: 'string', hash: [$long, $long], );
 ```
 

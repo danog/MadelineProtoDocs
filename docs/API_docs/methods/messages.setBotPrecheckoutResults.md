@@ -41,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->setBotPrecheckoutResults(success: Bool, query_id: long, error: 'string', );
+$Bool = $MadelineProto->messages->setBotPrecheckoutResults(success: $Bool, query_id: $long, error: 'string', );
 ```
 

@@ -42,6 +42,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Theme = $MadelineProto->account->updateTheme(format: 'string', theme: InputTheme, slug: 'string', title: 'string', document: InputDocument, settings: [InputThemeSettings, InputThemeSettings], );
+$Theme = $MadelineProto->account->updateTheme(format: 'string', theme: $InputTheme, slug: 'string', title: 'string', document: $InputDocument, settings: [$InputThemeSettings, $InputThemeSettings], );
 ```
 

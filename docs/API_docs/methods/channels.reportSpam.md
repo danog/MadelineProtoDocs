@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->channels->reportSpam(channel: InputChannel, participant: InputPeer, id: [int, int], );
+$Bool = $MadelineProto->channels->reportSpam(channel: $InputChannel, participant: $InputPeer, id: [$int, $int], );
 ```
 

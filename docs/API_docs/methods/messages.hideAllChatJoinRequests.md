@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->hideAllChatJoinRequests(approved: Bool, peer: InputPeer, link: 'string', );
+$Updates = $MadelineProto->messages->hideAllChatJoinRequests(approved: $Bool, peer: $InputPeer, link: 'string', );
 ```
 

@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->channels->editLocation(channel: InputChannel, geo_point: InputGeoPoint, address: 'string', );
+$Bool = $MadelineProto->channels->editLocation(channel: $InputChannel, geo_point: $InputGeoPoint, address: 'string', );
 ```
 

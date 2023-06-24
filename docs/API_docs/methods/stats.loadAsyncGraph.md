@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$StatsGraph = $MadelineProto->stats->loadAsyncGraph(token: 'string', x: long, );
+$StatsGraph = $MadelineProto->stats->loadAsyncGraph(token: 'string', x: $long, );
 ```
 

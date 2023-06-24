@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_MessageViews = $MadelineProto->messages->getMessagesViews(peer: InputPeer, id: [int, int], increment: Bool, );
+$messages_MessageViews = $MadelineProto->messages->getMessagesViews(peer: $InputPeer, id: [$int, $int], increment: $Bool, );
 ```
 

@@ -40,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->upload->saveBigFilePart(file_id: long, file_part: int, file_total_parts: int, bytes: 'bytes', );
+$Bool = $MadelineProto->upload->saveBigFilePart(file_id: $long, file_part: $int, file_total_parts: $int, bytes: 'bytes', );
 ```
 

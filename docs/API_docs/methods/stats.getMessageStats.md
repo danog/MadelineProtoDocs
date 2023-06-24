@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$stats_MessageStats = $MadelineProto->stats->getMessageStats(dark: Bool, channel: InputChannel, msg_id: int, );
+$stats_MessageStats = $MadelineProto->stats->getMessageStats(dark: $Bool, channel: $InputChannel, msg_id: $int, );
 ```
 

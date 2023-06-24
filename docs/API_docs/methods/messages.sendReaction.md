@@ -43,6 +43,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendReaction(big: Bool, add_to_recent: Bool, peer: InputPeer, msg_id: int, reaction: [Reaction, Reaction], );
+$Updates = $MadelineProto->messages->sendReaction(big: $Bool, add_to_recent: $Bool, peer: $InputPeer, msg_id: $int, reaction: [$Reaction, $Reaction], );
 ```
 

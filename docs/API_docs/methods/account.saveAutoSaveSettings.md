@@ -41,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->account->saveAutoSaveSettings(users: Bool, chats: Bool, broadcasts: Bool, peer: InputPeer, settings: AutoSaveSettings, );
+$Bool = $MadelineProto->account->saveAutoSaveSettings(users: $Bool, chats: $Bool, broadcasts: $Bool, peer: $InputPeer, settings: $AutoSaveSettings, );
 ```
 

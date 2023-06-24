@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$users_UserFull = $MadelineProto->users->getFullUser(id: InputUser, );
+$users_UserFull = $MadelineProto->users->getFullUser(id: $InputUser, );
 ```
 

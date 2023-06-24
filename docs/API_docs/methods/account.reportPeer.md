@@ -39,7 +39,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->account->reportPeer(peer: InputPeer, reason: ReportReason, message: 'string', );
+$Bool = $MadelineProto->account->reportPeer(peer: $InputPeer, reason: $ReportReason, message: 'string', );
 ```
 
 

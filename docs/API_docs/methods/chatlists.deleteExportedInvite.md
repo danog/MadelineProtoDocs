@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->chatlists->deleteExportedInvite(chatlist: InputChatlist, slug: 'string', );
+$Bool = $MadelineProto->chatlists->deleteExportedInvite(chatlist: $InputChatlist, slug: 'string', );
 ```
 

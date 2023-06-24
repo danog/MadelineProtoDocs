@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$phone_ExportedGroupCallInvite = $MadelineProto->phone->exportGroupCallInvite(can_self_unmute: Bool, call: InputGroupCall, );
+$phone_ExportedGroupCallInvite = $MadelineProto->phone->exportGroupCallInvite(can_self_unmute: $Bool, call: $InputGroupCall, );
 ```
 

@@ -41,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->phone->discardCall(video: Bool, peer: InputPhoneCall, duration: int, reason: PhoneCallDiscardReason, connection_id: long, );
+$Updates = $MadelineProto->phone->discardCall(video: $Bool, peer: $InputPhoneCall, duration: $int, reason: $PhoneCallDiscardReason, connection_id: $long, );
 ```
 

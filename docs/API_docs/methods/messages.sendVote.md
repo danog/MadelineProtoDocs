@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendVote(peer: InputPeer, msg_id: int, options: ['bytes', 'bytes'], );
+$Updates = $MadelineProto->messages->sendVote(peer: $InputPeer, msg_id: $int, options: ['bytes', 'bytes'], );
 ```
 

@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_AffectedHistory = $MadelineProto->channels->deleteParticipantHistory(channel: InputChannel, participant: InputPeer, );
+$messages_AffectedHistory = $MadelineProto->channels->deleteParticipantHistory(channel: $InputChannel, participant: $InputPeer, );
 ```
 

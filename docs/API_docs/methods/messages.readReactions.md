@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_AffectedHistory = $MadelineProto->messages->readReactions(peer: InputPeer, top_msg_id: int, );
+$messages_AffectedHistory = $MadelineProto->messages->readReactions(peer: $InputPeer, top_msg_id: $int, );
 ```
 

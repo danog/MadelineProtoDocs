@@ -41,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->channels->createForumTopic(channel: InputChannel, title: 'string', icon_color: int, icon_emoji_id: long, send_as: InputPeer, );
+$Updates = $MadelineProto->channels->createForumTopic(channel: $InputChannel, title: 'string', icon_color: $int, icon_emoji_id: $long, send_as: $InputPeer, );
 ```
 

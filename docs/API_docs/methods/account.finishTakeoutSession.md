@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->account->finishTakeoutSession(success: Bool, );
+$Bool = $MadelineProto->account->finishTakeoutSession(success: $Bool, );
 ```
 

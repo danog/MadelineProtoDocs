@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->upload->saveFilePart(file_id: long, file_part: int, bytes: 'bytes', );
+$Bool = $MadelineProto->upload->saveFilePart(file_id: $long, file_part: $int, bytes: 'bytes', );
 ```
 

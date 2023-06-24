@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_User = $MadelineProto->users->getUsers(id: [InputUser, InputUser], );
+$Vector_of_User = $MadelineProto->users->getUsers(id: [$InputUser, $InputUser], );
 ```
 

@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_PeerSettings = $MadelineProto->messages->getPeerSettings(peer: InputPeer, );
+$messages_PeerSettings = $MadelineProto->messages->getPeerSettings(peer: $InputPeer, );
 ```
 

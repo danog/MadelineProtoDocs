@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->channels->readHistory(channel: InputChannel, max_id: int, );
+$Bool = $MadelineProto->channels->readHistory(channel: $InputChannel, max_id: $int, );
 ```
 

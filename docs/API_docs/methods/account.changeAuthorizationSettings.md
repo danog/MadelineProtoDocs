@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->account->changeAuthorizationSettings(hash: [long, long], encrypted_requests_disabled: Bool, call_requests_disabled: Bool, );
+$Bool = $MadelineProto->account->changeAuthorizationSettings(hash: [$long, $long], encrypted_requests_disabled: $Bool, call_requests_disabled: $Bool, );
 ```
 

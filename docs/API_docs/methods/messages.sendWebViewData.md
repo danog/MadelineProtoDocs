@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendWebViewData(bot: InputUser, button_text: 'string', data: 'string', );
+$Updates = $MadelineProto->messages->sendWebViewData(bot: $InputUser, button_text: 'string', data: 'string', );
 ```
 

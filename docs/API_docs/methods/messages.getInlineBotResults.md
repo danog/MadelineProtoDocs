@@ -41,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_BotResults = $MadelineProto->messages->getInlineBotResults(bot: InputUser, peer: InputPeer, geo_point: InputGeoPoint, query: 'string', offset: 'string', );
+$messages_BotResults = $MadelineProto->messages->getInlineBotResults(bot: $InputUser, peer: $InputPeer, geo_point: $InputGeoPoint, query: 'string', offset: 'string', );
 ```
 

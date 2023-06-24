@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->getPollResults(peer: InputPeer, msg_id: int, );
+$Updates = $MadelineProto->messages->getPollResults(peer: $InputPeer, msg_id: $int, );
 ```
 

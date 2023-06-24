@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_HistoryImport = $MadelineProto->messages->initHistoryImport(peer: InputPeer, file: InputFile, media_count: int, );
+$messages_HistoryImport = $MadelineProto->messages->initHistoryImport(peer: $InputPeer, file: $InputFile, media_count: $int, );
 ```
 

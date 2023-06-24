@@ -41,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_SavedRingtone = $MadelineProto->account->saveRingtone(id: InputDocument, unsave: Bool, );
+$account_SavedRingtone = $MadelineProto->account->saveRingtone(id: $InputDocument, unsave: $Bool, );
 ```
 

@@ -42,6 +42,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_ForumTopics = $MadelineProto->channels->getForumTopics(channel: InputChannel, q: 'string', offset_date: int, offset_id: int, offset_topic: int, limit: int, );
+$messages_ForumTopics = $MadelineProto->channels->getForumTopics(channel: $InputChannel, q: 'string', offset_date: $int, offset_id: $int, offset_topic: $int, limit: $int, );
 ```
 

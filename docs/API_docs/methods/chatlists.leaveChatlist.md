@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->chatlists->leaveChatlist(chatlist: InputChatlist, peers: [InputPeer, InputPeer], );
+$Updates = $MadelineProto->chatlists->leaveChatlist(chatlist: $InputChatlist, peers: [$InputPeer, $InputPeer], );
 ```
 

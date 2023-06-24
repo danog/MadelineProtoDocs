@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_SentCode = $MadelineProto->account->sendChangePhoneCode(phone_number: 'string', settings: CodeSettings, );
+$auth_SentCode = $MadelineProto->account->sendChangePhoneCode(phone_number: 'string', settings: $CodeSettings, );
 ```
 

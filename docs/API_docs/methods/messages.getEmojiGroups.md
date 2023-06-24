@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_EmojiGroups = $MadelineProto->messages->getEmojiGroups(hash: [long, long], );
+$messages_EmojiGroups = $MadelineProto->messages->getEmojiGroups(hash: [$long, $long], );
 ```
 

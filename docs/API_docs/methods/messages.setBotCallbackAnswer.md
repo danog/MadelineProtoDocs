@@ -41,7 +41,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->setBotCallbackAnswer(alert: Bool, query_id: long, message: 'string', url: 'string', cache_time: int, );
+$Bool = $MadelineProto->messages->setBotCallbackAnswer(alert: $Bool, query_id: $long, message: 'string', url: 'string', cache_time: $int, );
 ```
 
 

@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->account->updatePasswordSettings(password: InputCheckPasswordSRP, new_settings: account.PasswordInputSettings, );
+$Bool = $MadelineProto->account->updatePasswordSettings(password: $InputCheckPasswordSRP, new_settings: $account.PasswordInputSettings, );
 ```
 

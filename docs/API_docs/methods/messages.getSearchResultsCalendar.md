@@ -43,6 +43,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_SearchResultsCalendar = $MadelineProto->messages->getSearchResultsCalendar(peer: InputPeer, filter: MessagesFilter, offset_id: int, offset_date: int, );
+$messages_SearchResultsCalendar = $MadelineProto->messages->getSearchResultsCalendar(peer: $InputPeer, filter: $MessagesFilter, offset_id: $int, offset_date: $int, );
 ```
 

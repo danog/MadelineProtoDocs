@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->faveSticker(id: InputDocument, unfave: Bool, );
+$Bool = $MadelineProto->messages->faveSticker(id: $InputDocument, unfave: $Bool, );
 ```
 

@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_AffectedFoundMessages = $MadelineProto->messages->deletePhoneCallHistory(revoke: Bool, );
+$messages_AffectedFoundMessages = $MadelineProto->messages->deletePhoneCallHistory(revoke: $Bool, );
 ```
 

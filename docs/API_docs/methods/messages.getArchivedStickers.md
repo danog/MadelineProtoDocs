@@ -40,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_ArchivedStickers = $MadelineProto->messages->getArchivedStickers(masks: Bool, emojis: Bool, offset_id: long, limit: int, );
+$messages_ArchivedStickers = $MadelineProto->messages->getArchivedStickers(masks: $Bool, emojis: $Bool, offset_id: $long, limit: $int, );
 ```
 

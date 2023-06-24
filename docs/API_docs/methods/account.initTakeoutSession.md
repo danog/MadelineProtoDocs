@@ -43,6 +43,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_Takeout = $MadelineProto->account->initTakeoutSession(contacts: Bool, message_users: Bool, message_chats: Bool, message_megagroups: Bool, message_channels: Bool, files: Bool, file_max_size: long, );
+$account_Takeout = $MadelineProto->account->initTakeoutSession(contacts: $Bool, message_users: $Bool, message_chats: $Bool, message_megagroups: $Bool, message_channels: $Bool, files: $Bool, file_max_size: $long, );
 ```
 

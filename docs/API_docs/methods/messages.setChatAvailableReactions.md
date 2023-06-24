@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->setChatAvailableReactions(peer: InputPeer, available_reactions: ChatReactions, );
+$Updates = $MadelineProto->messages->setChatAvailableReactions(peer: $InputPeer, available_reactions: $ChatReactions, );
 ```
 

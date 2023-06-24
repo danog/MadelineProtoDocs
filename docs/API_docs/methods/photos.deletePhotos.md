@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_long = $MadelineProto->photos->deletePhotos(id: [InputPhoto, InputPhoto], );
+$Vector_of_long = $MadelineProto->photos->deletePhotos(id: [$InputPhoto, $InputPhoto], );
 ```
 

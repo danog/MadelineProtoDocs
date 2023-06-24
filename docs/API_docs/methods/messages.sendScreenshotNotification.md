@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendScreenshotNotification(peer: InputPeer, reply_to_msg_id: int, );
+$Updates = $MadelineProto->messages->sendScreenshotNotification(peer: $InputPeer, reply_to_msg_id: $int, );
 ```
 

@@ -40,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->phone->setCallRating(user_initiative: Bool, peer: InputPhoneCall, rating: int, comment: 'string', );
+$Updates = $MadelineProto->phone->setCallRating(user_initiative: $Bool, peer: $InputPhoneCall, rating: $int, comment: 'string', );
 ```
 

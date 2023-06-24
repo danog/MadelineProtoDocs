@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_Peer = $MadelineProto->chatlists->getLeaveChatlistSuggestions(chatlist: InputChatlist, );
+$Vector_of_Peer = $MadelineProto->chatlists->getLeaveChatlistSuggestions(chatlist: $InputChatlist, );
 ```
 

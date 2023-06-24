@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->toggleNoForwards(peer: InputPeer, enabled: Bool, );
+$Updates = $MadelineProto->messages->toggleNoForwards(peer: $InputPeer, enabled: $Bool, );
 ```
 

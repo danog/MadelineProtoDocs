@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$payments_ExportedInvoice = $MadelineProto->payments->exportInvoice(invoice_media: InputMedia, );
+$payments_ExportedInvoice = $MadelineProto->payments->exportInvoice(invoice_media: $InputMedia, );
 ```
 

@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts_ImportedContacts = $MadelineProto->contacts->importContacts(contacts: [InputContact, InputContact], );
+$contacts_ImportedContacts = $MadelineProto->contacts->importContacts(contacts: [$InputContact, $InputContact], );
 ```
 

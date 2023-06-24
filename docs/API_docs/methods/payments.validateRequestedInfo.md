@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$payments_ValidatedRequestedInfo = $MadelineProto->payments->validateRequestedInfo(save: Bool, invoice: InputInvoice, info: PaymentRequestedInfo, );
+$payments_ValidatedRequestedInfo = $MadelineProto->payments->validateRequestedInfo(save: $Bool, invoice: $InputInvoice, info: $PaymentRequestedInfo, );
 ```
 

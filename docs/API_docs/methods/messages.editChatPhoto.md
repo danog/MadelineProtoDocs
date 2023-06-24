@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->editChatPhoto(chat_id: InputPeer, photo: InputChatPhoto, );
+$Updates = $MadelineProto->messages->editChatPhoto(chat_id: $InputPeer, photo: $InputChatPhoto, );
 ```
 

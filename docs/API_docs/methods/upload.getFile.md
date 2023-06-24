@@ -41,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$upload_File = $MadelineProto->upload->getFile(precise: Bool, cdn_supported: Bool, location: InputFileLocation, offset: long, limit: int, );
+$upload_File = $MadelineProto->upload->getFile(precise: $Bool, cdn_supported: $Bool, location: $InputFileLocation, offset: $long, limit: $int, );
 ```
 

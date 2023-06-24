@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->setDefaultHistoryTTL(period: int, );
+$Bool = $MadelineProto->messages->setDefaultHistoryTTL(period: $int, );
 ```
 

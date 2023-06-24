@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_FeaturedStickers = $MadelineProto->messages->getFeaturedStickers(hash: [long, long], );
+$messages_FeaturedStickers = $MadelineProto->messages->getFeaturedStickers(hash: [$long, $long], );
 ```
 

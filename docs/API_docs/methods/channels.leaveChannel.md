@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->channels->leaveChannel(channel: InputChannel, );
+$Updates = $MadelineProto->channels->leaveChannel(channel: $InputChannel, );
 ```
 

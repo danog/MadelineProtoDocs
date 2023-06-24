@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->chatlists->joinChatlistInvite(slug: 'string', peers: [InputPeer, InputPeer], );
+$Updates = $MadelineProto->chatlists->joinChatlistInvite(slug: 'string', peers: [$InputPeer, $InputPeer], );
 ```
 

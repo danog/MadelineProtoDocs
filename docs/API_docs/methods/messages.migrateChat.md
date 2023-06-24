@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->migrateChat(chat_id: InputPeer, );
+$Updates = $MadelineProto->messages->migrateChat(chat_id: $InputPeer, );
 ```
 

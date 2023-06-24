@@ -41,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$updates_ChannelDifference = $MadelineProto->updates->getChannelDifference(force: Bool, channel: InputChannel, filter: ChannelMessagesFilter, pts: int, limit: int, );
+$updates_ChannelDifference = $MadelineProto->updates->getChannelDifference(force: $Bool, channel: $InputChannel, filter: $ChannelMessagesFilter, pts: $int, limit: $int, );
 ```
 

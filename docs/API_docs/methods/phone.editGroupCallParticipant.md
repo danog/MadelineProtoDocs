@@ -50,6 +50,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->phone->editGroupCallParticipant(call: InputGroupCall, participant: InputPeer, muted: Bool, volume: int, raise_hand: Bool, video_stopped: Bool, video_paused: Bool, presentation_paused: Bool, );
+$Updates = $MadelineProto->phone->editGroupCallParticipant(call: $InputGroupCall, participant: $InputPeer, muted: $Bool, volume: $int, raise_hand: $Bool, video_stopped: $Bool, video_paused: $Bool, presentation_paused: $Bool, );
 ```
 

@@ -40,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$phone_PhoneCall = $MadelineProto->phone->requestCall(video: Bool, user_id: InputUser, g_a_hash: 'bytes', protocol: PhoneCallProtocol, );
+$phone_PhoneCall = $MadelineProto->phone->requestCall(video: $Bool, user_id: $InputUser, g_a_hash: 'bytes', protocol: $PhoneCallProtocol, );
 ```
 

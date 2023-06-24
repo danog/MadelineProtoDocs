@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$ChatOnlines = $MadelineProto->messages->getOnlines(peer: InputPeer, );
+$ChatOnlines = $MadelineProto->messages->getOnlines(peer: $InputPeer, );
 ```
 

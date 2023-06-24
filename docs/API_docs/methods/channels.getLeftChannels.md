@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Chats = $MadelineProto->channels->getLeftChannels(offset: int, );
+$messages_Chats = $MadelineProto->channels->getLeftChannels(offset: $int, );
 ```
 

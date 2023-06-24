@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$photos_Photo = $MadelineProto->photos->updateProfilePhoto(fallback: Bool, bot: InputUser, id: InputPhoto, );
+$photos_Photo = $MadelineProto->photos->updateProfilePhoto(fallback: $Bool, bot: $InputUser, id: $InputPhoto, );
 ```
 

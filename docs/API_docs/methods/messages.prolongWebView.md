@@ -45,6 +45,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->prolongWebView(silent: Bool, peer: InputPeer, bot: InputUser, query_id: long, reply_to_msg_id: int, top_msg_id: int, send_as: InputPeer, );
+$Bool = $MadelineProto->messages->prolongWebView(silent: $Bool, peer: $InputPeer, bot: $InputUser, query_id: $long, reply_to_msg_id: $int, top_msg_id: $int, send_as: $InputPeer, );
 ```
 

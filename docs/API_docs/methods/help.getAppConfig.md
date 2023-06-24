@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_AppConfig = $MadelineProto->help->getAppConfig(hash: [long, long], );
+$help_AppConfig = $MadelineProto->help->getAppConfig(hash: [$long, $long], );
 ```
 

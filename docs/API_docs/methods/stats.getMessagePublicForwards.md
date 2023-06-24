@@ -43,6 +43,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->stats->getMessagePublicForwards(channel: InputChannel, msg_id: int, offset_rate: int, offset_peer: InputPeer, offset_id: int, limit: int, );
+$messages_Messages = $MadelineProto->stats->getMessagePublicForwards(channel: $InputChannel, msg_id: $int, offset_rate: $int, offset_peer: $InputPeer, offset_id: $int, limit: $int, );
 ```
 

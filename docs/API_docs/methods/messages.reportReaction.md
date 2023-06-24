@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->reportReaction(peer: InputPeer, id: int, reaction_peer: InputPeer, );
+$Bool = $MadelineProto->messages->reportReaction(peer: $InputPeer, id: $int, reaction_peer: $InputPeer, );
 ```
 

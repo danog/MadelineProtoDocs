@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->account->getNotifyExceptions(compare_sound: Bool, peer: InputNotifyPeer, );
+$Updates = $MadelineProto->account->getNotifyExceptions(compare_sound: $Bool, peer: $InputNotifyPeer, );
 ```
 

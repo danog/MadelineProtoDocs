@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->clearRecentStickers(attached: Bool, );
+$Bool = $MadelineProto->messages->clearRecentStickers(attached: $Bool, );
 ```
 

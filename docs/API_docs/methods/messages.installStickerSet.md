@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_StickerSetInstallResult = $MadelineProto->messages->installStickerSet(stickerset: InputStickerSet, archived: Bool, );
+$messages_StickerSetInstallResult = $MadelineProto->messages->installStickerSet(stickerset: $InputStickerSet, archived: $Bool, );
 ```
 

@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->deleteChatUser(revoke_history: Bool, chat_id: InputPeer, user_id: InputUser, );
+$Updates = $MadelineProto->messages->deleteChatUser(revoke_history: $Bool, chat_id: $InputPeer, user_id: $InputUser, );
 ```
 

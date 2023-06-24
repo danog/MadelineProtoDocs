@@ -41,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->updatePinnedMessage(silent: Bool, unpin: Bool, pm_oneside: Bool, peer: InputPeer, id: int, );
+$Updates = $MadelineProto->messages->updatePinnedMessage(silent: $Bool, unpin: $Bool, pm_oneside: $Bool, peer: $InputPeer, id: $int, );
 ```
 

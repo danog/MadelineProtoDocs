@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_TranscribedAudio = $MadelineProto->messages->transcribeAudio(peer: InputPeer, msg_id: int, );
+$messages_TranscribedAudio = $MadelineProto->messages->transcribeAudio(peer: $InputPeer, msg_id: $int, );
 ```
 

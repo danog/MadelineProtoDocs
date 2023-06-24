@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->editChatDefaultBannedRights(peer: InputPeer, banned_rights: ChatBannedRights, );
+$Updates = $MadelineProto->messages->editChatDefaultBannedRights(peer: $InputPeer, banned_rights: $ChatBannedRights, );
 ```
 

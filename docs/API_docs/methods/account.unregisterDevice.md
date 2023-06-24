@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->account->unregisterDevice(token_type: int, token: 'string', other_uids: [long, long], );
+$Bool = $MadelineProto->account->unregisterDevice(token_type: $int, token: 'string', other_uids: [$long, $long], );
 ```
 

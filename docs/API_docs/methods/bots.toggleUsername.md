@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->bots->toggleUsername(bot: InputUser, username: 'string', active: Bool, );
+$Bool = $MadelineProto->bots->toggleUsername(bot: $InputUser, username: 'string', active: $Bool, );
 ```
 

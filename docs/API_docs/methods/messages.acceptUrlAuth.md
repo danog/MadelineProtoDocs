@@ -41,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$UrlAuthResult = $MadelineProto->messages->acceptUrlAuth(write_allowed: Bool, peer: InputPeer, msg_id: int, button_id: int, url: 'string', );
+$UrlAuthResult = $MadelineProto->messages->acceptUrlAuth(write_allowed: $Bool, peer: $InputPeer, msg_id: $int, button_id: $int, url: 'string', );
 ```
 

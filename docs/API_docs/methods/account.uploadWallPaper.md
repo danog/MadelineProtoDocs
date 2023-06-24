@@ -40,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$WallPaper = $MadelineProto->account->uploadWallPaper(for_chat: Bool, file: InputFile, mime_type: 'string', settings: WallPaperSettings, );
+$WallPaper = $MadelineProto->account->uploadWallPaper(for_chat: $Bool, file: $InputFile, mime_type: 'string', settings: $WallPaperSettings, );
 ```
 

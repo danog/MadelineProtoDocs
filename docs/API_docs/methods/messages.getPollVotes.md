@@ -41,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_VotesList = $MadelineProto->messages->getPollVotes(peer: InputPeer, id: int, option: 'bytes', offset: 'string', limit: int, );
+$messages_VotesList = $MadelineProto->messages->getPollVotes(peer: $InputPeer, id: $int, option: 'bytes', offset: 'string', limit: $int, );
 ```
 

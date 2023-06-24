@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$phone_GroupCall = $MadelineProto->phone->getGroupCall(call: InputGroupCall, limit: int, );
+$phone_GroupCall = $MadelineProto->phone->getGroupCall(call: $InputGroupCall, limit: $int, );
 ```
 

@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Reactions = $MadelineProto->messages->getTopReactions(limit: int, hash: [long, long], );
+$messages_Reactions = $MadelineProto->messages->getTopReactions(limit: $int, hash: [$long, $long], );
 ```
 

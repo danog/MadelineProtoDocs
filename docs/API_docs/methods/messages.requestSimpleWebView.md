@@ -41,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$SimpleWebViewResult = $MadelineProto->messages->requestSimpleWebView(from_switch_webview: Bool, bot: InputUser, url: 'string', theme_params: DataJSON, platform: 'string', );
+$SimpleWebViewResult = $MadelineProto->messages->requestSimpleWebView(from_switch_webview: $Bool, bot: $InputUser, url: 'string', theme_params: $DataJSON, platform: 'string', );
 ```
 

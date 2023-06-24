@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$phone_GroupCallStreamRtmpUrl = $MadelineProto->phone->getGroupCallStreamRtmpUrl(peer: InputPeer, revoke: Bool, );
+$phone_GroupCallStreamRtmpUrl = $MadelineProto->phone->getGroupCallStreamRtmpUrl(peer: $InputPeer, revoke: $Bool, );
 ```
 

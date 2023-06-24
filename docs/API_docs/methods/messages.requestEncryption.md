@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$EncryptedChat = $MadelineProto->messages->requestEncryption(user_id: InputUser, g_a: 'bytes', );
+$EncryptedChat = $MadelineProto->messages->requestEncryption(user_id: $InputUser, g_a: 'bytes', );
 ```
 

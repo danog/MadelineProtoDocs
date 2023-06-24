@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->channels->setDiscussionGroup(broadcast: InputChannel, group: InputChannel, );
+$Bool = $MadelineProto->channels->setDiscussionGroup(broadcast: $InputChannel, group: $InputChannel, );
 ```
 

@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_DhConfig = $MadelineProto->messages->getDhConfig(version: int, random_length: int, );
+$messages_DhConfig = $MadelineProto->messages->getDhConfig(version: $int, random_length: $int, );
 ```
 

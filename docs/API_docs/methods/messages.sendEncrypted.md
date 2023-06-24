@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_SentEncryptedMessage = $MadelineProto->messages->sendEncrypted(silent: Bool, peer: InputEncryptedChat, data: 'bytes', );
+$messages_SentEncryptedMessage = $MadelineProto->messages->sendEncrypted(silent: $Bool, peer: $InputEncryptedChat, data: 'bytes', );
 ```
 

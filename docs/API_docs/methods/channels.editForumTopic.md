@@ -42,6 +42,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->channels->editForumTopic(channel: InputChannel, topic_id: int, title: 'string', icon_emoji_id: long, closed: Bool, hidden: Bool, );
+$Updates = $MadelineProto->channels->editForumTopic(channel: $InputChannel, topic_id: $int, title: 'string', icon_emoji_id: $long, closed: $Bool, hidden: $Bool, );
 ```
 

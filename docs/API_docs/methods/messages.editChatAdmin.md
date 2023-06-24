@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->editChatAdmin(chat_id: InputPeer, user_id: InputUser, is_admin: Bool, );
+$Bool = $MadelineProto->messages->editChatAdmin(chat_id: $InputPeer, user_id: $InputUser, is_admin: $Bool, );
 ```
 

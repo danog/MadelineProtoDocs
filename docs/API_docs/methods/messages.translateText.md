@@ -42,6 +42,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_TranslatedText = $MadelineProto->messages->translateText(peer: InputPeer, id: [int, int], text: [TextWithEntities, TextWithEntities], to_lang: 'string', );
+$messages_TranslatedText = $MadelineProto->messages->translateText(peer: $InputPeer, id: [$int, $int], text: [$TextWithEntities, $TextWithEntities], to_lang: 'string', );
 ```
 

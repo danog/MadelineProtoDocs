@@ -41,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_BotCallbackAnswer = $MadelineProto->messages->getBotCallbackAnswer(game: Bool, peer: InputPeer, msg_id: int, data: 'bytes', password: InputCheckPasswordSRP, );
+$messages_BotCallbackAnswer = $MadelineProto->messages->getBotCallbackAnswer(game: $Bool, peer: $InputPeer, msg_id: $int, data: 'bytes', password: $InputCheckPasswordSRP, );
 ```
 

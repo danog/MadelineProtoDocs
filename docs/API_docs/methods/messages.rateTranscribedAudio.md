@@ -40,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->rateTranscribedAudio(peer: InputPeer, msg_id: int, transcription_id: long, good: Bool, );
+$Bool = $MadelineProto->messages->rateTranscribedAudio(peer: $InputPeer, msg_id: $int, transcription_id: $long, good: $Bool, );
 ```
 

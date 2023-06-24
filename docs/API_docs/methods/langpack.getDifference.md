@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$LangPackDifference = $MadelineProto->langpack->getDifference(lang_pack: 'string', lang_code: 'string', from_version: int, );
+$LangPackDifference = $MadelineProto->langpack->getDifference(lang_pack: 'string', lang_code: 'string', from_version: $int, );
 ```
 

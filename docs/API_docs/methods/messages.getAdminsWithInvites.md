@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_ChatAdminsWithInvites = $MadelineProto->messages->getAdminsWithInvites(peer: InputPeer, );
+$messages_ChatAdminsWithInvites = $MadelineProto->messages->getAdminsWithInvites(peer: $InputPeer, );
 ```
 

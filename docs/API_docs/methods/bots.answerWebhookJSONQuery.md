@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->bots->answerWebhookJSONQuery(query_id: long, data: DataJSON, );
+$Bool = $MadelineProto->bots->answerWebhookJSONQuery(query_id: $long, data: $DataJSON, );
 ```
 

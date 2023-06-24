@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_AuthorizationForm = $MadelineProto->account->getAuthorizationForm(bot_id: long, scope: 'string', public_key: 'string', );
+$account_AuthorizationForm = $MadelineProto->account->getAuthorizationForm(bot_id: $long, scope: 'string', public_key: 'string', );
 ```
 

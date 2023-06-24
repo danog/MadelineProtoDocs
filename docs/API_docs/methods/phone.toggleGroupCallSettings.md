@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->phone->toggleGroupCallSettings(reset_invite_hash: Bool, call: InputGroupCall, join_muted: Bool, );
+$Updates = $MadelineProto->phone->toggleGroupCallSettings(reset_invite_hash: $Bool, call: $InputGroupCall, join_muted: $Bool, );
 ```
 

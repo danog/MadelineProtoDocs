@@ -40,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_StickerSet = $MadelineProto->stickers->changeSticker(sticker: InputDocument, emoji: 'string', mask_coords: MaskCoords, keywords: 'string', );
+$messages_StickerSet = $MadelineProto->stickers->changeSticker(sticker: $InputDocument, emoji: 'string', mask_coords: $MaskCoords, keywords: 'string', );
 ```
 

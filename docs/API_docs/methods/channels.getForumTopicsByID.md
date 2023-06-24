@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_ForumTopics = $MadelineProto->channels->getForumTopicsByID(channel: InputChannel, topics: [int, int], );
+$messages_ForumTopics = $MadelineProto->channels->getForumTopicsByID(channel: $InputChannel, topics: [$int, $int], );
 ```
 

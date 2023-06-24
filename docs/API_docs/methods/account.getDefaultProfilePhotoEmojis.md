@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$EmojiList = $MadelineProto->account->getDefaultProfilePhotoEmojis(hash: [long, long], );
+$EmojiList = $MadelineProto->account->getDefaultProfilePhotoEmojis(hash: [$long, $long], );
 ```
 

@@ -40,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$ExportedChatlistInvite = $MadelineProto->chatlists->editExportedInvite(chatlist: InputChatlist, slug: 'string', title: 'string', peers: [InputPeer, InputPeer], );
+$ExportedChatlistInvite = $MadelineProto->chatlists->editExportedInvite(chatlist: $InputChatlist, slug: 'string', title: 'string', peers: [$InputPeer, $InputPeer], );
 ```
 

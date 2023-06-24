@@ -40,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$updates_Difference = $MadelineProto->updates->getDifference(pts: int, pts_total_limit: int, date: int, qts: int, );
+$updates_Difference = $MadelineProto->updates->getDifference(pts: $int, pts_total_limit: $int, date: $int, qts: $int, );
 ```
 

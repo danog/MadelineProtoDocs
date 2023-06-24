@@ -45,6 +45,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$photos_Photo = $MadelineProto->photos->uploadContactProfilePhoto(suggest: Bool, save: Bool, user_id: InputUser, file: InputFile, video: InputFile, video_start_ts: double, video_emoji_markup: VideoSize, );
+$photos_Photo = $MadelineProto->photos->uploadContactProfilePhoto(suggest: $Bool, save: $Bool, user_id: $InputUser, file: $InputFile, video: $InputFile, video_start_ts: $double, video_emoji_markup: $VideoSize, );
 ```
 

@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->phone->discardGroupCall(call: InputGroupCall, );
+$Updates = $MadelineProto->phone->discardGroupCall(call: $InputGroupCall, );
 ```
 

@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->channels->reorderPinnedForumTopics(force: Bool, channel: InputChannel, order: [int, int], );
+$Updates = $MadelineProto->channels->reorderPinnedForumTopics(force: $Bool, channel: $InputChannel, order: [$int, $int], );
 ```
 

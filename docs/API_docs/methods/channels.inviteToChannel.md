@@ -40,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->channels->inviteToChannel(channel: InputChannel, users: [InputUser, InputUser], );
+$Updates = $MadelineProto->channels->inviteToChannel(channel: $InputChannel, users: [$InputUser, $InputUser], );
 ```
 

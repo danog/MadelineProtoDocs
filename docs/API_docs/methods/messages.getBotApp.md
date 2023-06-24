@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_BotApp = $MadelineProto->messages->getBotApp(app: InputBotApp, hash: [long, long], );
+$messages_BotApp = $MadelineProto->messages->getBotApp(app: $InputBotApp, hash: [$long, $long], );
 ```
 

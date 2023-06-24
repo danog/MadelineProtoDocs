@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->getExtendedMedia(peer: InputPeer, id: [int, int], );
+$Updates = $MadelineProto->messages->getExtendedMedia(peer: $InputPeer, id: [$int, $int], );
 ```
 

@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$WallPaper = $MadelineProto->account->getWallPaper(wallpaper: InputWallPaper, );
+$WallPaper = $MadelineProto->account->getWallPaper(wallpaper: $InputWallPaper, );
 ```
 

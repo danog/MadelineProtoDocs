@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->startBot(bot: InputUser, peer: InputPeer, start_param: 'string', );
+$Updates = $MadelineProto->messages->startBot(bot: $InputUser, peer: $InputPeer, start_param: 'string', );
 ```
 

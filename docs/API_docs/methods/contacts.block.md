@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->contacts->block(id: InputPeer, );
+$Bool = $MadelineProto->contacts->block(id: $InputPeer, );
 ```
 

@@ -40,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->account->deleteAccount(reason: 'string', password: InputCheckPasswordSRP, );
+$Bool = $MadelineProto->account->deleteAccount(reason: 'string', password: $InputCheckPasswordSRP, );
 ```
 

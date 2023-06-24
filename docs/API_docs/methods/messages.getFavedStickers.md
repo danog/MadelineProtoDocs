@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_FavedStickers = $MadelineProto->messages->getFavedStickers(hash: [long, long], );
+$messages_FavedStickers = $MadelineProto->messages->getFavedStickers(hash: [$long, $long], );
 ```
 

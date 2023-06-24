@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->channels->toggleSignatures(channel: InputChannel, enabled: Bool, );
+$Updates = $MadelineProto->channels->toggleSignatures(channel: $InputChannel, enabled: $Bool, );
 ```
 

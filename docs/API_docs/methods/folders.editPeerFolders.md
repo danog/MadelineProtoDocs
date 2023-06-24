@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->folders->editPeerFolders(folder_peers: [InputFolderPeer, InputFolderPeer], );
+$Updates = $MadelineProto->folders->editPeerFolders(folder_peers: [$InputFolderPeer, $InputFolderPeer], );
 ```
 

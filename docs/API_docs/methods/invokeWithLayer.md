@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$X = $MadelineProto->invokeWithLayer(layer: int, query: !X, );
+$X = $MadelineProto->invokeWithLayer(layer: $int, query: $!X, );
 ```
 

@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$EncryptedFile = $MadelineProto->messages->uploadEncryptedFile(peer: InputEncryptedChat, file: InputEncryptedFile, );
+$EncryptedFile = $MadelineProto->messages->uploadEncryptedFile(peer: $InputEncryptedChat, file: $InputEncryptedFile, );
 ```
 

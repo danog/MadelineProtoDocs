@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->saveRecentSticker(attached: Bool, id: InputDocument, unsave: Bool, );
+$Bool = $MadelineProto->messages->saveRecentSticker(attached: $Bool, id: $InputDocument, unsave: $Bool, );
 ```
 

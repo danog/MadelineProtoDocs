@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_messages_SearchCounter = $MadelineProto->messages->getSearchCounters(peer: InputPeer, top_msg_id: int, filters: [MessagesFilter, MessagesFilter], );
+$Vector_of_messages_SearchCounter = $MadelineProto->messages->getSearchCounters(peer: $InputPeer, top_msg_id: $int, filters: [$MessagesFilter, $MessagesFilter], );
 ```
 

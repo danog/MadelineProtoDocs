@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_int = $MadelineProto->contacts->getContactIDs(hash: [long, long], );
+$Vector_of_int = $MadelineProto->contacts->getContactIDs(hash: [$long, $long], );
 ```
 

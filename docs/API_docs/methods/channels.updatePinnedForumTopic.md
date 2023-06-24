@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->channels->updatePinnedForumTopic(channel: InputChannel, topic_id: int, pinned: Bool, );
+$Updates = $MadelineProto->channels->updatePinnedForumTopic(channel: $InputChannel, topic_id: $int, pinned: $Bool, );
 ```
 

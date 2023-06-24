@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_Authorization = $MadelineProto->auth->importWebTokenAuthorization(api_id: int, api_hash: 'string', web_auth_token: 'string', );
+$auth_Authorization = $MadelineProto->auth->importWebTokenAuthorization(api_id: $int, api_hash: 'string', web_auth_token: 'string', );
 ```
 

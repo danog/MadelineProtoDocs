@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_ExportedAuthorization = $MadelineProto->auth->exportAuthorization(dc_id: int, );
+$auth_ExportedAuthorization = $MadelineProto->auth->exportAuthorization(dc_id: $int, );
 ```
 
