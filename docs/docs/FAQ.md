@@ -74,6 +74,15 @@ MyEventHandler::startAndLoop('bot.madeline', $settings);
 
 See the [danog/loop](https://daniil.it/loop) documentation for more info.
 
+## Do I need cron to run MadelineProto?
+
+No, you don't.  
+
+To keep your MadelineProto bot online forever:
+
+- If running via web, do nothing: MadelineProto will self-restart automatically.  
+- If running via CLI, use [docker &raquo;](https://docs.madelineproto.xyz/docs/DOCKER.html).  
+
 ## How do I use a database in MadelineProto?
 
 First of all, **never use PDO**.  
@@ -138,6 +147,18 @@ You can fork a new green thread using this code:
 Make sure to never use blocking functions in the forked thread (NO `file_get_contents`, `PDO`), only use [async amphp libraries](https://amphp.org) (i.e. [amphp/file](https://amphp.org/file), [amphp/mysql](https://amphp.org/mysql), and [so on...](https://amphp.org/installation)).  
 
 See the [async docs &raquo;](https://docs.madelineproto.xyz/docs/ASYNC.html) for more info.  
+
+## What is the "MadelineProto worker" process, can I kill it?
+
+No, you must never kill it.  
+
+The MadelineProto worker process is like apache2: it keeps running in the background, waiting for incoming requests from MadelineProto.  
+
+Don't kill it, or else MadelineProto will take 30+ seconds to start, every time you make a request.  
+
+You don't kill your apache2/nginx webserver just because there are no incoming requests, and the same goes for the MadelineProto worker process.  
+
+When there are no incoming requests, CPU usage is extremely low (`~0%`), and RAM usage can be reduced by using the [database](#how-do-i-use-a-database-in-madelineproto) (don't forget to use `updateSettings` to update the settings).  
 
 ## What is the "This peer is not present in the internal peer database" error (also known as PeerNotInDbException)?
 

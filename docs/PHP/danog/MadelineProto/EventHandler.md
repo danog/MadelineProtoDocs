@@ -20,6 +20,7 @@ Event handler.
 * [`startAndLoop(string $session, \danog\MadelineProto\SettingsAbstract $settings): void`](#startandloop-string-session-danog-madelineproto-settingsabstract-settings-void)
 * [`startAndLoopBot(string $session, string $token, \danog\MadelineProto\SettingsAbstract $settings): void`](#startandloopbot-string-session-string-token-danog-madelineproto-settingsabstract-settings-void)
 * [`getReportPeers(): string|int|(string|int)[]`](#getreportpeers-string-int-string-int-)
+* [`getPlugins(): class-string<\danog\MadelineProto\EventHandler>[]`](#getplugins-class-string-danog-madelineproto-eventhandler-)
 * [`MTProtoToBotAPI(array $data): array`](#mtprototobotapi-array-data-array)
 * [`MTProtoToTd(mixed $params): mixed`](#mtprotototd-mixed-params-mixed)
 * [`MTProtoToTdcli(mixed $params): mixed`](#mtprotototdcli-mixed-params-mixed)
@@ -95,6 +96,7 @@ Event handler.
 * [`getMimeFromBuffer(string $buffer): string`](#getmimefrombuffer-string-buffer-string)
 * [`getMimeFromExtension(string $extension, string $default): string`](#getmimefromextension-string-extension-string-default-string)
 * [`getMimeFromFile(string $file): string`](#getmimefromfile-string-file-string)
+* [`getPluginInstance(class-string<\T> $class): \danog\MadelineProto\EventHandler`](#getplugininstance-class-string-t-class-danog-madelineproto-eventhandler)
 * [`getPropicInfo(mixed $data): array`](#getpropicinfo-mixed-data-array)
 * [`getPsrLogger(): \Psr\Log\LoggerInterface`](#getpsrlogger-psr-log-loggerinterface)
 * [`getPwrChat(mixed $id, bool $fullfetch): array`](#getpwrchat-mixed-id-bool-fullfetch-array)
@@ -108,6 +110,7 @@ Event handler.
 * [`getUpdates(array{offset?: int, limit?: int, timeout?: float} $params): list<array{update_id: mixed, update: mixed}>`](#getupdates-array-offset-int-limit-int-timeout-float-params-list-array-update_id-mixed-update-mixed-)
 * [`getWebMessage(string $message): string`](#getwebmessage-string-message-string)
 * [`hasEventHandler(): bool`](#haseventhandler-bool)
+* [`hasPluginInstance(class-string<\danog\MadelineProto\EventHandler> $class): bool`](#hasplugininstance-class-string-danog-madelineproto-eventhandler-class-bool)
 * [`hasReportPeers(): bool`](#hasreportpeers-bool)
 * [`hasSecretChat(array|int $chat): bool`](#hassecretchat-array-int-chat-bool)
 * [`importAuthorization(array<int, string> $authorization, int $mainDcID): array`](#importauthorization-array-int-string-authorization-int-maindcid-array)
@@ -217,6 +220,12 @@ Parameters:
 ### `getReportPeers(): string|int|(string|int)[]`
 
 Get peers where to send error reports.
+
+
+
+### `getPlugins(): class-string<\danog\MadelineProto\EventHandler>[]`
+
+Obtain a list of plugin event handlers.
 
 
 
@@ -1134,6 +1143,23 @@ Parameters:
 
 
 
+### `getPluginInstance(class-string<\T> $class): \danog\MadelineProto\EventHandler`
+
+Obtain a certain event handler plugin instance.
+
+
+Parameters:
+
+* `$class`: `class-string<\T>`   
+
+
+#### See also: 
+* `\T`
+* [`\danog\MadelineProto\EventHandler`: Event handler.](../../danog/MadelineProto/EventHandler.html)
+
+
+
+
 ### `getPropicInfo(mixed $data): array`
 
 Get download info of the propic of a user
@@ -1271,6 +1297,22 @@ Parameters:
 ### `hasEventHandler(): bool`
 
 Check if an event handler instance is present.
+
+
+
+### `hasPluginInstance(class-string<\danog\MadelineProto\EventHandler> $class): bool`
+
+Check if a certain event handler plugin is installed.
+
+
+Parameters:
+
+* `$class`: `class-string<\danog\MadelineProto\EventHandler>`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler`: Event handler.](../../danog/MadelineProto/EventHandler.html)
+
 
 
 
