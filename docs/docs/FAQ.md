@@ -100,6 +100,12 @@ class MyEventHandler extends EventHandler
 {
     private int $messageCounter = 0;
 
+    /** Which properties to save in the database */
+    public function __sleep(): array
+    {
+        return ['messageCounter'];
+    }
+
     public function onUpdateNewMessage(array $update) {
         $this->messageCounter++;
     }

@@ -75,6 +75,12 @@ class MyEventHandler extends EventHandler
 
     private int $adminId;
 
+    /** Which properties to save in the database */
+    public function __sleep(): array
+    {
+        return ['notifiedChats'];
+    }
+
     /**
      * Get peer(s) where to report errors.
      *
