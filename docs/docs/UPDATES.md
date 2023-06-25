@@ -9,7 +9,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 Update handling can be done in different ways: 
 
 * [Async Event driven](#async-event-driven)
-  * [Built-in database driver](#built-in-database-driver)
   * [Self-restart on webhosts](#self-restart-on-webhosts)
 * [Async Event driven multi-account](#async-event-driven-multiaccount)
 * [Noop (default)](#noop)
@@ -238,70 +237,6 @@ $this->messages->sendMessage(['peer' => '@danogentili', 'message' => 'hi']);
 ```
 
 To forcefully restart and apply changes made to the event handler class, call `$this->restart();`.  
-
-### Built-in database driver
-
-You can also directly connect to any database using the same [async MySQL/Postgres/Redis ORM](DATABASE.html) used by MadelineProto internally.  
-
-To do so, simply [specify the database settings](DATABASE.html), and declare a static `$dbProperties` property to initialize the async database mapper:  
-```php
-class MyEventHandler extends EventHandler
-{
-    /**
-     * List of properties automatically stored in database (MySQL, Postgres, redis or memory).
-     *
-     * Note that **all** class properties will be stored in the database, regardless of whether they're specified here.
-     * The only difference is that properties *not* specified in this array will also always have a full copy in RAM.
-     *
-     * Also, properties specified in this array are NOT thread-safe, meaning you should also use a synchronization primitive
-     * from https://github.com/amphp/sync/ to use them in a thread-safe manner (i.e. when checking-and-setting with isset=>set, et cetera).
-     *
-     * Remember: **ALL** onUpdate... handler methods are called in separate green threads, so at the end of the day,
-     * unless your property is too large to be comfortably stored in memory (say >100MB), you should use normal properties to avoid race conditions.
-     *
-     * @see https://docs.madelineproto.xyz/docs/DATABASE.html
-     */
-    protected static array $dbProperties = [
-        'dataStoredOnDb' => ['serializer' => SerializerType::SERIALIZE],
-    ];
-
-    /**
-     * Use this *only* if the data you will store here is huge (>100MB).
-     * @var DbArray<array-key, array>
-     */
-    protected DbArray $dataStoredOnDb;
-
-    /**
-     * Otherwise use this.
-     * This property is also saved in the db, but it's also always kept in memory, unlike $dataStoredInDb which is exclusively stored in the db.
-     */
-    protected array $dataAlsoStoredOnDbAndInRam = [];
-```
-
-And use the newly created `$dataStoredOnDb` property to access the database:  
-```php
-// Can be anything serializable, an array, an int, an object
-$myData = [];
-
-// Use the isset method to check whether some data exists in the database
-if (isset($this->dataStoredOnDb['yourKey'])) {
-    // Always when fetching data
-    $myData = $this->dataStoredOnDb['yourKey'];
-}
-$this->dataStoredOnDb['yourKey'] = $myData + ['moreStuff' => 'yay'];
-
-$this->dataStoredOnDb['otherKey'] = 0;
-unset($this->dataStoredOnDb['otherKey']);
-
-$this->logger("Count: ".count($this->dataStoredOnDb));
-
-foreach ($this->dataStoredOnDb as $key => $value) {
-    $this->logger($key);
-    $this->logger($value);
-}
-```
-
-[Psalm](https://psalm.dev) generic typing is supported.  
 
 ### Self-restart on webhosts
 

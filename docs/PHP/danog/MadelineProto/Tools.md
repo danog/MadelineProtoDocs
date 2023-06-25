@@ -37,7 +37,7 @@ Some tools.
 * [`packDouble(float $value): string`](#packdouble-float-value-string)
 * [`unpackDouble(string $value): float`](#unpackdouble-string-value-float)
 * [`isArrayOrAlike(mixed $var): bool`](#isarrayoralike-mixed-var-bool)
-* [`arr(mixed $params): array`](#arr-mixed-params-array)
+* [`arr(mixed ...$params): array`](#arr-mixed-params-array)
 * [`base64urlDecode(string $data): string`](#base64urldecode-string-data-string)
 * [`base64urlEncode(string $data): string`](#base64urlencode-string-data-string)
 * [`rleDecode(string $string): string`](#rledecode-string-string-string)
@@ -47,6 +47,7 @@ Some tools.
 * [`end(array $what): mixed`](#end-array-what-mixed)
 * [`isAltervista(): bool`](#isaltervista-bool)
 * [`rethrow(\Throwable $e): void`](#rethrow-throwable-e-void)
+* [`callFork(\Generator|\Amp\Future|callable $promise, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-promise-mixed-args-amp-future-t-)
 * [`flock(string $file, int $operation, float $polling, ?\Amp\Cancellation $token, ?\Closure $failureCb): mixed`](#flock-string-file-int-operation-float-polling-amp-cancellation-token-closure-failurecb-mixed)
 * [`sleep(float $time): void`](#sleep-float-time-void)
 * [`readLine(string $prompt, ?\Amp\Cancellation $cancel): string`](#readline-string-prompt-amp-cancellation-cancel-string)
@@ -231,14 +232,14 @@ Parameters:
 
 
 
-### `arr(mixed $params): array`
+### `arr(mixed ...$params): array`
 
 Create array.
 
 
 Parameters:
 
-* `$params`: `mixed` Params  
+* `...$params`: `mixed` Params  
 
 
 
@@ -337,6 +338,25 @@ Parameters:
 
 #### See also: 
 * `\Throwable`
+
+
+
+
+### `callFork(\Generator|\Amp\Future|callable $promise, mixed ...$args): \Amp\Future<\T>`
+
+Fork a new green thread and execute the passed function in the background.
+
+
+Parameters:
+
+* `$promise`: `\Generator|\Amp\Future|callable`   
+* `...$args`: `mixed` Arguments forwarded to the function when forking the thread.  
+
+
+#### See also: 
+* `\Generator`
+* `\Amp\Future`
+* `\T`
 
 
 

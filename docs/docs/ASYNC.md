@@ -228,4 +228,4 @@ It's a more flexible and powerful alternative to AMPHP's [repeat](https://amphp.
 
 See [the documentation](https://daniil.it/loop) for more info!
 
-<a href="https://docs.madelineproto.xyz/docs/USING_METHODS.html">Next section</a>
+<a href="https://docs.madelineproto.xyz/docs/FAQ.html">Next section</a>

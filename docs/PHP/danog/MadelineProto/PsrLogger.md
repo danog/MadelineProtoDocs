@@ -17,7 +17,7 @@ PSR-3 wrapper for MadelineProto's Logger.
 
 
 ## Method list:
-* [`log(array $context, mixed $level, mixed $message): void`](#log-array-context-mixed-level-mixed-message-void)
+* [`log(mixed $level, mixed $message, array $context): void`](#log-mixed-level-mixed-message-array-context-void)
 * [`emergency(string|\Stringable $message, array $context): void`](#emergency-string-stringable-message-array-context-void)
 * [`alert(string|\Stringable $message, array $context): void`](#alert-string-stringable-message-array-context-void)
 * [`critical(string|\Stringable $message, array $context): void`](#critical-string-stringable-message-array-context-void)
@@ -28,16 +28,16 @@ PSR-3 wrapper for MadelineProto's Logger.
 * [`debug(string|\Stringable $message, array $context): void`](#debug-string-stringable-message-array-context-void)
 
 ## Methods:
-### `log(array $context, mixed $level, mixed $message): void`
+### `log(mixed $level, mixed $message, array $context): void`
 
 Logs with an arbitrary level.
 
 
 Parameters:
 
-* `$context`: `array`   
 * `$level`: `mixed`   
 * `$message`: `mixed`   
+* `$context`: `array`   
 
 
 

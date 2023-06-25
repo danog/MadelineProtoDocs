@@ -25,7 +25,7 @@ Event handler.
 * [`MTProtoToTdcli(mixed $params): mixed`](#mtprotototdcli-mixed-params-mixed)
 * [`acceptCall(array $call): bool`](#acceptcall-array-call-bool)
 * [`acceptSecretChat(array $params): void`](#acceptsecretchat-array-params-void)
-* [`arr(mixed $params): array`](#arr-mixed-params-array)
+* [`arr(mixed ...$params): array`](#arr-mixed-params-array)
 * [`base64urlDecode(string $data): string`](#base64urldecode-string-data-string)
 * [`base64urlEncode(string $data): string`](#base64urlencode-string-data-string)
 * [`botAPIToMTProto(array $arguments): array`](#botapitomtproto-array-arguments-array)
@@ -33,6 +33,7 @@ Event handler.
 * [`broadcastCustom(\Action $action, ?\danog\MadelineProto\Broadcast\Filter $filter): int`](#broadcastcustom-action-action-danog-madelineproto-broadcast-filter-filter-int)
 * [`broadcastForwardMessages(mixed $from_peer, list<int> $message_ids, bool $drop_author, ?\danog\MadelineProto\Broadcast\Filter $filter): int`](#broadcastforwardmessages-mixed-from_peer-list-int-message_ids-bool-drop_author-danog-madelineproto-broadcast-filter-filter-int)
 * [`broadcastMessages(array $messages, ?\danog\MadelineProto\Broadcast\Filter $filter): int`](#broadcastmessages-array-messages-danog-madelineproto-broadcast-filter-filter-int)
+* [`callFork(\Generator|\Amp\Future|callable $promise, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-promise-mixed-args-amp-future-t-)
 * [`callStatus(int $id): int`](#callstatus-int-id-int)
 * [`cancelBroadcast(int $id): void`](#cancelbroadcast-int-id-void)
 * [`closeConnection(string $message): void`](#closeconnection-string-message-void)
@@ -41,13 +42,13 @@ Event handler.
 * [`completePhoneLogin(string $code): mixed`](#completephonelogin-string-code-mixed)
 * [`completeSignup(string $first_name, string $last_name): array`](#completesignup-string-first_name-string-last_name-array)
 * [`confirmCall(array $params): mixed`](#confirmcall-array-params-mixed)
-* [`discardCall(array $call, array $rating, bool $need_debug, array $reason): ?\danog\MadelineProto\VoIP`](#discardcall-array-call-array-rating-bool-need_debug-array-reason-danog-madelineproto-voip)
+* [`discardCall(array $call, array $reason, array $rating, bool $need_debug): ?\danog\MadelineProto\VoIP`](#discardcall-array-call-array-reason-array-rating-bool-need_debug-danog-madelineproto-voip)
 * [`discardSecretChat(int $chat): void`](#discardsecretchat-int-chat-void)
-* [`downloadToBrowser(array|string|\danog\MadelineProto\FileCallbackInterface $messageMedia, null|callable $cb, null|int $size, null|string $mime, null|string $name): void`](#downloadtobrowser-array-string-danog-madelineproto-filecallbackinterface-messagemedia-null-callable-cb-null-int-size-null-string-mime-null-string-name-void)
+* [`downloadToBrowser(array|string|\danog\MadelineProto\FileCallbackInterface $messageMedia, null|callable $cb, null|int $size, null|string $name, null|string $mime): void`](#downloadtobrowser-array-string-danog-madelineproto-filecallbackinterface-messagemedia-null-callable-cb-null-int-size-null-string-name-null-string-mime-void)
 * [`downloadToCallable(mixed $messageMedia, callable|\danog\MadelineProto\FileCallbackInterface $callable, callable $cb, bool $seekable, int $offset, int $end, int $part_size): mixed`](#downloadtocallable-mixed-messagemedia-callable-danog-madelineproto-filecallbackinterface-callable-callable-cb-bool-seekable-int-offset-int-end-int-part_size-mixed)
 * [`downloadToDir(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $dir, callable $cb): mixed`](#downloadtodir-mixed-messagemedia-string-danog-madelineproto-filecallbackinterface-dir-callable-cb-mixed)
 * [`downloadToFile(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $file, callable $cb): string|false`](#downloadtofile-mixed-messagemedia-string-danog-madelineproto-filecallbackinterface-file-callable-cb-string-false)
-* [`downloadToResponse(array|string|\danog\MadelineProto\FileCallbackInterface $messageMedia, \Amp\Http\Server\Request $request, callable $cb, null|int $size, null|string $name, null|string $mime): \Amp\Http\Server\Response`](#downloadtoresponse-array-string-danog-madelineproto-filecallbackinterface-messagemedia-amp-http-server-request-request-callable-cb-null-int-size-null-string-name-null-string-mime-amp-http-server-response)
+* [`downloadToResponse(array|string|\danog\MadelineProto\FileCallbackInterface $messageMedia, \Amp\Http\Server\Request $request, callable $cb, null|int $size, null|string $mime, null|string $name): \Amp\Http\Server\Response`](#downloadtoresponse-array-string-danog-madelineproto-filecallbackinterface-messagemedia-amp-http-server-request-request-callable-cb-null-int-size-null-string-mime-null-string-name-amp-http-server-response)
 * [`downloadToStream(mixed $messageMedia, mixed|\danog\MadelineProto\FileCallbackInterface|\resource|\Amp\ByteStream\WritableStream $stream, callable $cb, int $offset, int $end): mixed`](#downloadtostream-mixed-messagemedia-mixed-danog-madelineproto-filecallbackinterface-resource-amp-bytestream-writablestream-stream-callable-cb-int-offset-int-end-mixed)
 * [`echo(string $string): void`](#echo-string-string-void)
 * [`end(array $what): mixed`](#end-array-what-mixed)
@@ -134,7 +135,7 @@ Event handler.
 * [`randomInt(int $modulus): int`](#randomint-int-modulus-int)
 * [`readLine(string $prompt, ?\Amp\Cancellation $cancel): string`](#readline-string-prompt-amp-cancellation-cancel-string)
 * [`refreshFullPeerCache(mixed $id): void`](#refreshfullpeercache-mixed-id-void)
-* [`refreshPeerCache(mixed $ids): void`](#refreshpeercache-mixed-ids-void)
+* [`refreshPeerCache(mixed ...$ids): void`](#refreshpeercache-mixed-ids-void)
 * [`rekey(int $chat): ?string`](#rekey-int-chat-string)
 * [`report(string $message, string $parseMode): void`](#report-string-message-string-parsemode-void)
 * [`requestCall(mixed $user): mixed`](#requestcall-mixed-user-mixed)
@@ -274,14 +275,14 @@ Parameters:
 
 
 
-### `arr(mixed $params): array`
+### `arr(mixed ...$params): array`
 
 Create array.
 
 
 Parameters:
 
-* `$params`: `mixed` Params  
+* `...$params`: `mixed` Params  
 
 
 
@@ -406,6 +407,25 @@ Parameters:
 
 
 
+### `callFork(\Generator|\Amp\Future|callable $promise, mixed ...$args): \Amp\Future<\T>`
+
+Fork a new green thread and execute the passed function in the background.
+
+
+Parameters:
+
+* `$promise`: `\Generator|\Amp\Future|callable`   
+* `...$args`: `mixed` Arguments forwarded to the function when forking the thread.  
+
+
+#### See also: 
+* `\Generator`
+* `\Amp\Future`
+* `\T`
+
+
+
+
 ### `callStatus(int $id): int`
 
 Get call status.
@@ -495,7 +515,7 @@ Parameters:
 
 
 
-### `discardCall(array $call, array $rating, bool $need_debug, array $reason): ?\danog\MadelineProto\VoIP`
+### `discardCall(array $call, array $reason, array $rating, bool $need_debug): ?\danog\MadelineProto\VoIP`
 
 Discard call.
 
@@ -503,9 +523,9 @@ Discard call.
 Parameters:
 
 * `$call`: `array` Call  
+* `$reason`: `array`   
 * `$rating`: `array` Rating  
 * `$need_debug`: `bool` Need debug?  
-* `$reason`: `array`   
 
 
 #### See also: 
@@ -525,7 +545,7 @@ Parameters:
 
 
 
-### `downloadToBrowser(array|string|\danog\MadelineProto\FileCallbackInterface $messageMedia, null|callable $cb, null|int $size, null|string $mime, null|string $name): void`
+### `downloadToBrowser(array|string|\danog\MadelineProto\FileCallbackInterface $messageMedia, null|callable $cb, null|int $size, null|string $name, null|string $mime): void`
 
 Download file to browser.
 Supports HEAD requests and content-ranges for parallel and resumed downloads.
@@ -535,8 +555,8 @@ Parameters:
 * `$messageMedia`: `array|string|\danog\MadelineProto\FileCallbackInterface` File to download  
 * `$cb`: `null|callable` Status callback (can also use FileCallback)  
 * `$size`: `null|int` Size of file to download, required for bot API file IDs.  
-* `$mime`: `null|string` MIME type of file to download, required for bot API file IDs.  
 * `$name`: `null|string` Name of file to download, required for bot API file IDs.  
+* `$mime`: `null|string` MIME type of file to download, required for bot API file IDs.  
 
 
 #### See also: 
@@ -604,7 +624,7 @@ Parameters:
 
 
 
-### `downloadToResponse(array|string|\danog\MadelineProto\FileCallbackInterface $messageMedia, \Amp\Http\Server\Request $request, callable $cb, null|int $size, null|string $name, null|string $mime): \Amp\Http\Server\Response`
+### `downloadToResponse(array|string|\danog\MadelineProto\FileCallbackInterface $messageMedia, \Amp\Http\Server\Request $request, callable $cb, null|int $size, null|string $mime, null|string $name): \Amp\Http\Server\Response`
 
 Download file to amphp/http-server response.
 Supports HEAD requests and content-ranges for parallel and resumed downloads.
@@ -615,8 +635,8 @@ Parameters:
 * `$request`: `\Amp\Http\Server\Request` Request  
 * `$cb`: `callable` Status callback (can also use FileCallback)  
 * `$size`: `null|int` Size of file to download, required for bot API file IDs.  
-* `$name`: `null|string` Name of file to download, required for bot API file IDs.  
 * `$mime`: `null|string` MIME type of file to download, required for bot API file IDs.  
+* `$name`: `null|string` Name of file to download, required for bot API file IDs.  
 
 
 #### See also: 
@@ -1538,14 +1558,14 @@ Parameters:
 
 
 
-### `refreshPeerCache(mixed $ids): void`
+### `refreshPeerCache(mixed ...$ids): void`
 
 Refresh peer cache for a certain peer.
 
 
 Parameters:
 
-* `$ids`: `mixed`   
+* `...$ids`: `mixed`   
 
 
 
