@@ -22,7 +22,7 @@ Async tools.
 
 ## Method list:
 * [`rethrow(\Throwable $e): void`](#rethrow-throwable-e-void)
-* [`callFork(\Generator|\Amp\Future|callable $promise, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-promise-mixed-args-amp-future-t-)
+* [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-callable-mixed-args-amp-future-t-)
 * [`flock(string $file, int $operation, float $polling, ?\Amp\Cancellation $token, ?\Closure $failureCb): mixed`](#flock-string-file-int-operation-float-polling-amp-cancellation-token-closure-failurecb-mixed)
 * [`sleep(float $time): void`](#sleep-float-time-void)
 * [`readLine(string $prompt, ?\Amp\Cancellation $cancel): string`](#readline-string-prompt-amp-cancellation-cancel-string)
@@ -55,14 +55,14 @@ Parameters:
 
 
 
-### `callFork(\Generator|\Amp\Future|callable $promise, mixed ...$args): \Amp\Future<\T>`
+### `callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`
 
 Fork a new green thread and execute the passed function in the background.
 
 
 Parameters:
 
-* `$promise`: `\Generator|\Amp\Future|callable`   
+* `$callable`: `\Generator|\Amp\Future|callable`   
 * `...$args`: `mixed` Arguments forwarded to the function when forking the thread.  
 
 

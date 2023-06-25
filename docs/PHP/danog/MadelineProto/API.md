@@ -53,7 +53,7 @@ Main API wrapper for MadelineProto.
 * [`broadcastCustom(\Action $action, ?\danog\MadelineProto\Broadcast\Filter $filter): int`](#broadcastcustom-action-action-danog-madelineproto-broadcast-filter-filter-int)
 * [`broadcastForwardMessages(mixed $from_peer, list<int> $message_ids, bool $drop_author, ?\danog\MadelineProto\Broadcast\Filter $filter): int`](#broadcastforwardmessages-mixed-from_peer-list-int-message_ids-bool-drop_author-danog-madelineproto-broadcast-filter-filter-int)
 * [`broadcastMessages(array $messages, ?\danog\MadelineProto\Broadcast\Filter $filter): int`](#broadcastmessages-array-messages-danog-madelineproto-broadcast-filter-filter-int)
-* [`callFork(\Generator|\Amp\Future|callable $promise, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-promise-mixed-args-amp-future-t-)
+* [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-callable-mixed-args-amp-future-t-)
 * [`callStatus(int $id): int`](#callstatus-int-id-int)
 * [`cancelBroadcast(int $id): void`](#cancelbroadcast-int-id-void)
 * [`closeConnection(string $message): void`](#closeconnection-string-message-void)
@@ -420,14 +420,14 @@ Parameters:
 
 
 
-### `callFork(\Generator|\Amp\Future|callable $promise, mixed ...$args): \Amp\Future<\T>`
+### `callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`
 
 Fork a new green thread and execute the passed function in the background.
 
 
 Parameters:
 
-* `$promise`: `\Generator|\Amp\Future|callable`   
+* `$callable`: `\Generator|\Amp\Future|callable`   
 * `...$args`: `mixed` Arguments forwarded to the function when forking the thread.  
 
 
