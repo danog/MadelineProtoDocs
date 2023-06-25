@@ -59,7 +59,7 @@ if (file_exists('vendor/autoload.php')) {
 /**
  * Event handler class.
  *
- * All properties are automatically stored in the database.
+ * All properties mentioned in __sleep are automatically persisted in the database.
  */
 class MyEventHandler extends EventHandler
 {
@@ -241,6 +241,8 @@ To access the `$MadelineProto` instance inside of the event handler, simply acce
 ```php
 $this->messages->sendMessage(['peer' => '@danogentili', 'message' => 'hi']);
 ```
+
+All property names returned by the `__sleep` method will be persisted in the database/session file.  
 
 To forcefully restart and apply changes made to the event handler class, call `$this->restart();`.  
 

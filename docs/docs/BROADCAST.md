@@ -12,6 +12,8 @@ Note that unlike the bot API, MadelineProto can be used to fetch the full list o
 
 **All** users, chats and channels of the bot will be fetched, **regardless** of their last activity date: for example, if you just logged in with a bot token in MadelineProto 5 minutes ago, MadelineProto will fetch **all** users, chats and channels, even if their last activity is 5+ years ago!  
 
+>Note: if you just want to fetch the member list, you can use [getDialogIds](https://docs.madelineproto.xyz/docs/DIALOGS.html#getdialogids).  
+
 ## Broadcast API
 
 MadelineProto offers a simple broadcast API, that can be used to asynchronously broadcast messages to all users of a bot or userbot in the background, without incurring in timeouts or other issues.  
