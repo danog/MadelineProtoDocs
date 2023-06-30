@@ -15,6 +15,8 @@ TL conversion exception.
 
 
 
+## Properties
+* `$tlTrace`: `string` TL trace.
 
 ## Method list:
 * [`updateTLTrace(array $trace): void`](#updatetltrace-array-trace-void)

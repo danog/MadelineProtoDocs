@@ -15,6 +15,8 @@ Internal error indicating a problem with Telegram's servers.
 
 
 
+## Properties
+* `$tlTrace`: `string` TL trace.
 
 ## Method list:
 * [`updateTLTrace(array $trace): void`](#updatetltrace-array-trace-void)

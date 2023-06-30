@@ -17,6 +17,7 @@ Settings class used for configuring MadelineProto.
 
 
 ## Method list:
+* [`__construct()`](#__construct)
 * [`merge(\danog\MadelineProto\SettingsAbstract $settings): void`](#merge-danog-madelineproto-settingsabstract-settings-void)
 * [`getAppInfo(): \danog\MadelineProto\Settings\AppInfo`](#getappinfo-danog-madelineproto-settings-appinfo)
 * [`setAppInfo(\danog\MadelineProto\Settings\AppInfo $appInfo): self`](#setappinfo-danog-madelineproto-settings-appinfo-appinfo-self)
@@ -48,6 +49,12 @@ Settings class used for configuring MadelineProto.
 * [`setVoip(\danog\MadelineProto\Settings\VoIP $voip): self`](#setvoip-danog-madelineproto-settings-voip-voip-self)
 
 ## Methods:
+### `__construct()`
+
+Constructor.
+
+
+
 ### `merge(\danog\MadelineProto\SettingsAbstract $settings): void`
 
 Merge another instance of settings.

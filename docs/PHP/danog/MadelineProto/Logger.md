@@ -37,9 +37,12 @@ Logger class.
 
 * `danog\MadelineProto\Logger::LOGGER_CALLABLE`: Callable logger.
 
+## Properties
+* `$default`: `self` Default logger instance.
 
 ## Method list:
 * [`constructorFromSettings(\danog\MadelineProto\Settings\Logger $settings): self`](#constructorfromsettings-danog-madelineproto-settings-logger-settings-self)
+* [`__construct(\danog\MadelineProto\Settings\Logger $settings, string $prefix)`](#__construct-danog-madelineproto-settings-logger-settings-string-prefix)
 * [`truncate(): void`](#truncate-void)
 * [`log(mixed $param, int $level): void`](#log-mixed-param-int-level-void)
 * [`logger(mixed $param, int $level, string $file): void`](#logger-mixed-param-int-level-string-file-void)
@@ -54,6 +57,23 @@ Construct global static logger from MadelineProto settings.
 Parameters:
 
 * `$settings`: `\danog\MadelineProto\Settings\Logger` Settings instance  
+
+
+#### See also: 
+* [`\danog\MadelineProto\Settings\Logger`: Logger settings.](../../danog/MadelineProto/Settings/Logger.html)
+
+
+
+
+### `__construct(\danog\MadelineProto\Settings\Logger $settings, string $prefix)`
+
+Construct logger.
+
+
+Parameters:
+
+* `$settings`: `\danog\MadelineProto\Settings\Logger`   
+* `$prefix`: `string`   
 
 
 #### See also: 

@@ -17,6 +17,7 @@ Bytes wrapper.
 
 
 ## Method list:
+* [`__construct(string $bytes)`](#__construct-string-bytes)
 * [`jsonSerialize(): array`](#jsonserialize-array)
 * [`offsetSet(int|null $offset, string $value): void`](#offsetset-int-null-offset-string-value-void)
 * [`offsetGet(int $offset): string`](#offsetget-int-offset-string)
@@ -24,6 +25,17 @@ Bytes wrapper.
 * [`offsetExists(int $offset): bool`](#offsetexists-int-offset-bool)
 
 ## Methods:
+### `__construct(string $bytes)`
+
+Constructor function.
+
+
+Parameters:
+
+* `$bytes`: `string` Contents  
+
+
+
 ### `jsonSerialize(): array`
 
 Obtain values for JSON-encoding.

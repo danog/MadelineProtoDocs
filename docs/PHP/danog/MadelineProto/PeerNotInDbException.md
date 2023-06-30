@@ -15,6 +15,8 @@ Indicates that a specified peer (user, chat, channel) was not found in the inter
 
 This can usually be fixed by enabling `setFullFetch(true)` in the [peer database settings](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/Settings/Peer.html#setfullfetch-bool-fullfetch-self).
 
+## Properties
+* `$tlTrace`: `string` TL trace.
 
 ## Method list:
 * [`extension(string $extensionName): self`](#extension-string-extensionname-self)

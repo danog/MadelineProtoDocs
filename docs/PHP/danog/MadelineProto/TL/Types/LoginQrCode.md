@@ -1,6 +1,6 @@
 ---
 title: "danog\\MadelineProto\\TL\\Types\\LoginQrCode: Represents a login QR code."
-description: "The `link` public readonly property contains the [QR code login link](https://core.telegram.org/api/links#qr-code-login-links).\nThe `expiry` public readonly property contains the expiry date of the link."
+description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
@@ -13,9 +13,11 @@ parent: "MadelineProto API"
 
 Represents a login QR code.  
 
-The `link` public readonly property contains the [QR code login link](https://core.telegram.org/api/links#qr-code-login-links).
-The `expiry` public readonly property contains the expiry date of the link.
 
+
+## Properties
+* `$link`: `non-empty-string` The [QR code login link](https://core.telegram.org/api/links#qr-code-login-links)
+* `$expiry`: `positive-int` The expiry date of the link
 
 ## Method list:
 * [`isExpired(): bool`](#isexpired-bool)

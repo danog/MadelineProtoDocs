@@ -27,7 +27,7 @@ Connection settings.
 * [`setMaxMediaSocketCount(int $maxMediaSocketCount): self`](#setmaxmediasocketcount-int-maxmediasocketcount-self)
 * [`getRobinPeriod(): int`](#getrobinperiod-int)
 * [`setRobinPeriod(int $robinPeriod): self`](#setrobinperiod-int-robinperiod-self)
-* [`getProxies(): array<class-string<\danog\MadelineProto\Stream\StreamInterface>, array>`](#getproxies-array-class-string-danog-madelineproto-stream-streaminterface-array-)
+* [`getProxies(): array<class-string<\danog\MadelineProto\Stream\StreamInterface>, array>`](#getproxies-array-class-string-danog-madelineproto-stream-streaminterface-array)
 * [`addProxy(class-string<\danog\MadelineProto\Stream\StreamInterface> $proxy, array $extra): self`](#addproxy-class-string-danog-madelineproto-stream-streaminterface-proxy-array-extra-self)
 * [`setProxy(array $proxies): self`](#setproxy-array-proxies-self)
 * [`clearProxies(): self`](#clearproxies-self)
@@ -36,7 +36,7 @@ Connection settings.
 * [`setObfuscated(bool $obfuscated): self`](#setobfuscated-bool-obfuscated-self)
 * [`getTestMode(): bool`](#gettestmode-bool)
 * [`setTestMode(bool $testMode): self`](#settestmode-bool-testmode-self)
-* [`getTransport(): class-string<\danog\MadelineProto\Stream\RawStreamInterface>`](#gettransport-class-string-danog-madelineproto-stream-rawstreaminterface-)
+* [`getTransport(): class-string<\danog\MadelineProto\Stream\RawStreamInterface>`](#gettransport-class-string-danog-madelineproto-stream-rawstreaminterface)
 * [`setTransport(class-string<\danog\MadelineProto\Stream\RawStreamInterface> $transport): self`](#settransport-class-string-danog-madelineproto-stream-rawstreaminterface-transport-self)
 * [`getRetry(): bool`](#getretry-bool)
 * [`setRetry(bool $retry): self`](#setretry-bool-retry-self)
@@ -48,6 +48,10 @@ Connection settings.
 * [`setUseDoH(bool $useDoH): self`](#setusedoh-bool-usedoh-self)
 * [`getBindTo(): ?string`](#getbindto-string)
 * [`setBindTo(null|string $bindTo): self`](#setbindto-null-string-bindto-self)
+* [`getRsaKeys(): array`](#getrsakeys-array)
+* [`setRsaKeys(array $rsaKeys): self`](#setrsakeys-array-rsakeys-self)
+* [`getTestRsaKeys(): array`](#gettestrsakeys-array)
+* [`setTestRsaKeys(array $testRsaKeys): self`](#settestrsakeys-array-testrsakeys-self)
 
 ## Methods:
 ### `getProtocol(): string`
@@ -391,6 +395,40 @@ Set bind on specific address and port.
 Parameters:
 
 * `$bindTo`: `null|string` Bind on specific address and port.  
+
+
+
+### `getRsaKeys(): array`
+
+Get RSA keys
+
+
+
+### `setRsaKeys(array $rsaKeys): self`
+
+Set RSA keys
+
+
+Parameters:
+
+* `$rsaKeys`: `array` RSA keys  
+
+
+
+### `getTestRsaKeys(): array`
+
+Get test RSA keys
+
+
+
+### `setTestRsaKeys(array $testRsaKeys): self`
+
+Set test RSA keys
+
+
+Parameters:
+
+* `$testRsaKeys`: `array` Test RSA keys  
 
 
 

@@ -22,14 +22,14 @@ Async tools.
 
 ## Method list:
 * [`rethrow(\Throwable $e): void`](#rethrow-throwable-e-void)
-* [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-callable-mixed-args-amp-future-t-)
+* [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-callable-mixed-args-amp-future-t)
 * [`flock(string $file, int $operation, float $polling, ?\Amp\Cancellation $token, ?\Closure $failureCb): mixed`](#flock-string-file-int-operation-float-polling-amp-cancellation-token-closure-failurecb-mixed)
 * [`sleep(float $time): void`](#sleep-float-time-void)
 * [`readLine(string $prompt, ?\Amp\Cancellation $cancel): string`](#readline-string-prompt-amp-cancellation-cancel-string)
 * [`echo(string $string): void`](#echo-string-string-void)
 * [`mbStrlen(string $text): int`](#mbstrlen-string-text-int)
 * [`mbSubstr(string $text, int $offset, null|int $length): string`](#mbsubstr-string-text-int-offset-null-int-length-string)
-* [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplit-string-text-int-length-string-)
+* [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplit-string-text-int-length-string)
 * [`toCamelCase(string $input): string`](#tocamelcase-string-input-string)
 * [`toSnakeCase(string $input): string`](#tosnakecase-string-input-string)
 * [`getMimeFromExtension(string $extension, string $default): string`](#getmimefromextension-string-extension-string-default-string)

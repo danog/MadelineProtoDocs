@@ -15,6 +15,9 @@ Represents a FLOOD_WAIT_ RPC error returned by telegram.
 
 
 
+## Properties
+* `$rpc`: `string` RPC error
+* `$tlTrace`: `string` TL trace.
 
 ## Method list:
 * [`getWaitTime(): int`](#getwaittime-int)

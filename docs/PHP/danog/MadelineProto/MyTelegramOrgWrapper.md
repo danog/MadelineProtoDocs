@@ -17,6 +17,7 @@ Wrapper for my.telegram.org.
 
 
 ## Method list:
+* [`__construct(\danog\MadelineProto\SettingsAbstract|array $settings)`](#__construct-danog-madelineproto-settingsabstract-array-settings)
 * [`login(string $number): void`](#login-string-number-void)
 * [`completeLogin(string $password): mixed`](#completelogin-string-password-mixed)
 * [`loggedIn(): bool`](#loggedin-bool)
@@ -26,6 +27,22 @@ Wrapper for my.telegram.org.
 * [`loop(callable $callable): mixed`](#loop-callable-callable-mixed)
 
 ## Methods:
+### `__construct(\danog\MadelineProto\SettingsAbstract|array $settings)`
+
+Constructor.
+
+
+Parameters:
+
+* `$settings`: `\danog\MadelineProto\SettingsAbstract|array`   
+
+
+#### See also: 
+* `\danog\MadelineProto\SettingsAbstract`
+
+
+
+
 ### `login(string $number): void`
 
 Login.

@@ -17,11 +17,11 @@ Logger settings.
 
 
 ## Method list:
-* [`getType(): \MadelineProtoLogger::LOGGER_*`](#gettype-madelineprotologger-logger_-)
+* [`getType(): \MadelineProtoLogger::LOGGER_*`](#gettype-madelineprotologger-logger_)
 * [`setType(\MadelineProtoLogger::LOGGER_* $type): self`](#settype-madelineprotologger-logger_-type-self)
 * [`getExtra(): callable|string|null`](#getextra-callable-string-null)
 * [`setExtra(null|callable|string $extra): self`](#setextra-null-callable-string-extra-self)
-* [`getLevel(): \MadelineProtoLogger::LEVEL_*`](#getlevel-madelineprotologger-level_-)
+* [`getLevel(): \MadelineProtoLogger::LEVEL_*`](#getlevel-madelineprotologger-level_)
 * [`setLevel(\MadelineProtoLogger::LEVEL_* $level): self`](#setlevel-madelineprotologger-level_-level-self)
 * [`getMaxSize(): int`](#getmaxsize-int)
 * [`setMaxSize(int $maxSize): self`](#setmaxsize-int-maxsize-self)

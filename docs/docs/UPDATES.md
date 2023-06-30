@@ -22,6 +22,8 @@ Update handling can be done in different ways:
 /**
  * Example bot.
  *
+ * PHP 8.1.15+ or 8.2.4+ is required.
+ *
  * Copyright 2016-2020 Daniil Gentili
  * (https://daniil.it)
  * This file is part of MadelineProto.
@@ -59,7 +61,7 @@ if (file_exists('vendor/autoload.php')) {
 /**
  * Event handler class.
  *
- * All properties mentioned in __sleep are automatically persisted in the database.
+ * All properties returned by __sleep are automatically stored in the database.
  */
 class MyEventHandler extends EventHandler
 {

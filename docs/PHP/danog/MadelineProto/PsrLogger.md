@@ -17,6 +17,7 @@ PSR-3 wrapper for MadelineProto's Logger.
 
 
 ## Method list:
+* [`__construct(\danog\MadelineProto\Logger $logger)`](#__construct-danog-madelineproto-logger-logger)
 * [`log(mixed $level, mixed $message, array $context): void`](#log-mixed-level-mixed-message-array-context-void)
 * [`emergency(string|\Stringable $message, array $context): void`](#emergency-string-stringable-message-array-context-void)
 * [`alert(string|\Stringable $message, array $context): void`](#alert-string-stringable-message-array-context-void)
@@ -28,6 +29,22 @@ PSR-3 wrapper for MadelineProto's Logger.
 * [`debug(string|\Stringable $message, array $context): void`](#debug-string-stringable-message-array-context-void)
 
 ## Methods:
+### `__construct(\danog\MadelineProto\Logger $logger)`
+
+Constructor.
+
+
+Parameters:
+
+* `$logger`: `\danog\MadelineProto\Logger`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\Logger`: Logger class.](../../danog/MadelineProto/Logger.html)
+
+
+
+
 ### `log(mixed $level, mixed $message, array $context): void`
 
 Logs with an arbitrary level.

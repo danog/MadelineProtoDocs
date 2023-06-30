@@ -15,6 +15,8 @@ Basic exception.
 
 
 
+## Properties
+* `$tlTrace`: `string` TL trace.
 
 ## Method list:
 * [`extension(string $extensionName): self`](#extension-string-extensionname-self)

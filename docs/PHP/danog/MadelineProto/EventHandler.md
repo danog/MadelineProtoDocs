@@ -15,12 +15,32 @@ Event handler.
 
 
 
+## Properties
+* `$auth`: `\danog\MadelineProto\Namespace\Auth` 
+* `$account`: `\danog\MadelineProto\Namespace\Account` 
+* `$users`: `\danog\MadelineProto\Namespace\Users` 
+* `$contacts`: `\danog\MadelineProto\Namespace\Contacts` 
+* `$messages`: `\danog\MadelineProto\Namespace\Messages` 
+* `$updates`: `\danog\MadelineProto\Namespace\Updates` 
+* `$photos`: `\danog\MadelineProto\Namespace\Photos` 
+* `$upload`: `\danog\MadelineProto\Namespace\Upload` 
+* `$help`: `\danog\MadelineProto\Namespace\Help` 
+* `$channels`: `\danog\MadelineProto\Namespace\Channels` 
+* `$bots`: `\danog\MadelineProto\Namespace\Bots` 
+* `$payments`: `\danog\MadelineProto\Namespace\Payments` 
+* `$stickers`: `\danog\MadelineProto\Namespace\Stickers` 
+* `$phone`: `\danog\MadelineProto\Namespace\Phone` 
+* `$langpack`: `\danog\MadelineProto\Namespace\Langpack` 
+* `$folders`: `\danog\MadelineProto\Namespace\Folders` 
+* `$stats`: `\danog\MadelineProto\Namespace\Stats` 
+* `$chatlists`: `\danog\MadelineProto\Namespace\Chatlists` 
+* `$tmpDbPrefix`: `string` 
 
 ## Method list:
 * [`startAndLoop(string $session, \danog\MadelineProto\SettingsAbstract $settings): void`](#startandloop-string-session-danog-madelineproto-settingsabstract-settings-void)
 * [`startAndLoopBot(string $session, string $token, \danog\MadelineProto\SettingsAbstract $settings): void`](#startandloopbot-string-session-string-token-danog-madelineproto-settingsabstract-settings-void)
-* [`getReportPeers(): string|int|(string|int)[]`](#getreportpeers-string-int-string-int-)
-* [`getPlugins(): class-string<\danog\MadelineProto\EventHandler>[]`](#getplugins-class-string-danog-madelineproto-eventhandler-)
+* [`getReportPeers(): string|int|(string|int)[]`](#getreportpeers-string-int-string-int)
+* [`getPlugins(): class-string<\danog\MadelineProto\EventHandler>[]`](#getplugins-class-string-danog-madelineproto-eventhandler)
 * [`MTProtoToBotAPI(array $data): array`](#mtprototobotapi-array-data-array)
 * [`MTProtoToTd(mixed $params): mixed`](#mtprotototd-mixed-params-mixed)
 * [`MTProtoToTdcli(mixed $params): mixed`](#mtprotototdcli-mixed-params-mixed)
@@ -34,7 +54,7 @@ Event handler.
 * [`broadcastCustom(\Action $action, ?\danog\MadelineProto\Broadcast\Filter $filter): int`](#broadcastcustom-action-action-danog-madelineproto-broadcast-filter-filter-int)
 * [`broadcastForwardMessages(mixed $from_peer, list<int> $message_ids, bool $drop_author, ?\danog\MadelineProto\Broadcast\Filter $filter): int`](#broadcastforwardmessages-mixed-from_peer-list-int-message_ids-bool-drop_author-danog-madelineproto-broadcast-filter-filter-int)
 * [`broadcastMessages(array $messages, ?\danog\MadelineProto\Broadcast\Filter $filter): int`](#broadcastmessages-array-messages-danog-madelineproto-broadcast-filter-filter-int)
-* [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-callable-mixed-args-amp-future-t-)
+* [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-callable-mixed-args-amp-future-t)
 * [`callStatus(int $id): int`](#callstatus-int-id-int)
 * [`cancelBroadcast(int $id): void`](#cancelbroadcast-int-id-void)
 * [`closeConnection(string $message): void`](#closeconnection-string-message-void)
@@ -53,12 +73,12 @@ Event handler.
 * [`downloadToStream(mixed $messageMedia, mixed|\danog\MadelineProto\FileCallbackInterface|\resource|\Amp\ByteStream\WritableStream $stream, callable $cb, int $offset, int $end): mixed`](#downloadtostream-mixed-messagemedia-mixed-danog-madelineproto-filecallbackinterface-resource-amp-bytestream-writablestream-stream-callable-cb-int-offset-int-end-mixed)
 * [`echo(string $string): void`](#echo-string-string-void)
 * [`end(array $what): mixed`](#end-array-what-mixed)
-* [`exportAuthorization(): array{0: int|string, 1: string}`](#exportauthorization-array-0-int-string-1-string-)
+* [`exportAuthorization(): array{0: int|string, 1: string}`](#exportauthorization-array-0-int-string-1-string)
 * [`extractBotAPIFile(array $info): ?array`](#extractbotapifile-array-info-array)
 * [`extractMessage(array $updates): array`](#extractmessage-array-updates-array)
 * [`extractMessageId(array $updates): int`](#extractmessageid-array-updates-int)
 * [`extractMessageUpdate(array $updates): array`](#extractmessageupdate-array-updates-array)
-* [`extractUpdates(array $updates): array[]`](#extractupdates-array-updates-array-)
+* [`extractUpdates(array $updates): array[]`](#extractupdates-array-updates-array)
 * [`fileGetContents(string $url): string`](#filegetcontents-string-url-string)
 * [`flock(string $file, int $operation, float $polling, ?\Amp\Cancellation $token, ?\Closure $failureCb): mixed`](#flock-string-file-int-operation-float-polling-amp-cancellation-token-closure-failurecb-mixed)
 * [`fromSupergroup(int $id): int`](#fromsupergroup-int-id-int)
@@ -74,15 +94,15 @@ Event handler.
 * [`getConfig(array $config): array`](#getconfig-array-config-array)
 * [`getDNSClient(): \Amp\Dns\DnsResolver`](#getdnsclient-amp-dns-dnsresolver)
 * [`getDhConfig(): array`](#getdhconfig-array)
-* [`getDialogIds(): list<int>`](#getdialogids-list-int-)
-* [`getDialogs(): list<array>`](#getdialogs-list-array-)
+* [`getDialogIds(): list<int>`](#getdialogids-list-int)
+* [`getDialogs(): list<array>`](#getdialogs-list-array)
 * [`getDownloadInfo(mixed $messageMedia): array`](#getdownloadinfo-mixed-messagemedia-array)
 * [`getEventHandler(): \danog\MadelineProto\EventHandler|\__PHP_Incomplete_Class|null`](#geteventhandler-danog-madelineproto-eventhandler-__php_incomplete_class-null)
 * [`getExtensionFromLocation(mixed $location, string $default): string`](#getextensionfromlocation-mixed-location-string-default-string)
 * [`getExtensionFromMime(string $mime): string`](#getextensionfrommime-string-mime-string)
 * [`getFileInfo(mixed $constructor): array`](#getfileinfo-mixed-constructor-array)
 * [`getFolderId(mixed $id): ?int`](#getfolderid-mixed-id-int)
-* [`getFullDialogs(): array<int, array>`](#getfulldialogs-array-int-array-)
+* [`getFullDialogs(): array<int, array>`](#getfulldialogs-array-int-array)
 * [`getFullInfo(mixed $id): array`](#getfullinfo-mixed-id-array)
 * [`getHTTPClient(): \Amp\Http\Client\HttpClient`](#gethttpclient-amp-http-client-httpclient)
 * [`getHint(): string`](#gethint-string)
@@ -105,9 +125,9 @@ Event handler.
 * [`getSessionName(): string`](#getsessionname-string)
 * [`getSettings(): \danog\MadelineProto\Settings`](#getsettings-danog-madelineproto-settings)
 * [`getSponsoredMessages(int|string|array $peer): ?array`](#getsponsoredmessages-int-string-array-peer-array)
-* [`getTL(): \danog\MadelineProto\TL\TL`](#gettl-danog-madelineproto-tl-tl)
-* [`getType(mixed $id): \"user"|\"bot"|\"chat"|\"supergroup"|\"channel"`](#gettype-mixed-id-user-bot-chat-supergroup-channel-)
-* [`getUpdates(array{offset?: int, limit?: int, timeout?: float} $params): list<array{update_id: mixed, update: mixed}>`](#getupdates-array-offset-int-limit-int-timeout-float-params-list-array-update_id-mixed-update-mixed-)
+* [`getTL(): \danog\MadelineProto\TL\TLInterface`](#gettl-danog-madelineproto-tl-tlinterface)
+* [`getType(mixed $id): \danog\MadelineProto\API::PEER_TYPE_*`](#gettype-mixed-id-danog-madelineproto-api-peer_type_)
+* [`getUpdates(array{offset?: int, limit?: int, timeout?: float} $params): list<array{update_id: mixed, update: mixed}>`](#getupdates-array-offset-int-limit-int-timeout-float-params-list-array-update_id-mixed-update-mixed)
 * [`getWebMessage(string $message): string`](#getwebmessage-string-message-string)
 * [`hasEventHandler(): bool`](#haseventhandler-bool)
 * [`hasPluginInstance(class-string<\danog\MadelineProto\EventHandler> $class): bool`](#hasplugininstance-class-string-danog-madelineproto-eventhandler-class-bool)
@@ -123,7 +143,7 @@ Event handler.
 * [`isPremium(): bool`](#ispremium-bool)
 * [`isSupergroup(int $id): bool`](#issupergroup-int-id-bool)
 * [`logger(mixed $param, int $level, string $file): void`](#logger-mixed-param-int-level-string-file-void)
-* [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplit-string-text-int-length-string-)
+* [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplit-string-text-int-length-string)
 * [`mbStrlen(string $text): int`](#mbstrlen-string-text-int)
 * [`mbSubstr(string $text, int $offset, null|int $length): string`](#mbsubstr-string-text-int-offset-null-int-length-string)
 * [`packDouble(float $value): string`](#packdouble-float-value-string)
@@ -161,7 +181,7 @@ Event handler.
 * [`tdToMTProto(array $params): array`](#tdtomtproto-array-params-array)
 * [`tdToTdcli(mixed $params): mixed`](#tdtotdcli-mixed-params-mixed)
 * [`tdcliToTd(mixed $params, array $key): array`](#tdclitotd-mixed-params-array-key-array)
-* [`testFibers(int $fiberCount): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`](#testfibers-int-fibercount-array-maxfibers-int-realmemorymb-int-maps-int-maxmaps-int-)
+* [`testFibers(int $fiberCount): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`](#testfibers-int-fibercount-array-maxfibers-int-realmemorymb-int-maps-int-maxmaps-int)
 * [`toCamelCase(string $input): string`](#tocamelcase-string-input-string)
 * [`toSnakeCase(string $input): string`](#tosnakecase-string-input-string)
 * [`toSupergroup(int $id): int`](#tosupergroup-int-id-int)
@@ -1250,18 +1270,18 @@ Parameters:
 
 
 
-### `getTL(): \danog\MadelineProto\TL\TL`
+### `getTL(): \danog\MadelineProto\TL\TLInterface`
 
 Get TL serializer.
 
 
 #### See also: 
-* `\danog\MadelineProto\TL\TL`
+* `\danog\MadelineProto\TL\TLInterface`
 
 
 
 
-### `getType(mixed $id): \"user"|\"bot"|\"chat"|\"supergroup"|\"channel"`
+### `getType(mixed $id): \danog\MadelineProto\API::PEER_TYPE_*`
 
 Get type of peer.
 
@@ -1399,7 +1419,7 @@ Returns whether the current user is a premium user, cached.
 
 ### `isSupergroup(int $id): bool`
 
-Check whether provided bot API ID is a channel.
+Check whether provided bot API ID is a channel or supergroup.
 
 
 Parameters:

@@ -15,9 +15,16 @@ parent: "MadelineProto API"
 
 
 
+## Properties
+* `$HTTPClient`: `\Amp\Http\Client\HttpClient` HTTP client.
+* `$DoHClient`: `\Amp\Dns\DnsResolver` DNS over HTTPS client.
+* `$nonProxiedDoHClient`: `\Amp\Dns\DnsResolver` Non-proxied DNS over HTTPS client.
+* `$CookieJar`: `\Amp\Http\Client\Cookie\CookieJar` Cookie jar.
+* `$dnsConnector`: `\Amp\Socket\DnsSocketConnector` DNS connector.
+* `$webSocketConnector`: `\Amp\Websocket\Client\Rfc6455Connector` DoH connector.
 
 ## Method list:
-* [`generateContexts(string $uri, ?\Amp\Socket\ConnectContext $context): \danog\MadelineProto\Stream\ConnectionContext[]`](#generatecontexts-string-uri-amp-socket-connectcontext-context-danog-madelineproto-stream-connectioncontext-)
+* [`generateContexts(string $uri, ?\Amp\Socket\ConnectContext $context): \danog\MadelineProto\Stream\ConnectionContext[]`](#generatecontexts-string-uri-amp-socket-connectcontext-context-danog-madelineproto-stream-connectioncontext)
 
 ## Methods:
 ### `generateContexts(string $uri, ?\Amp\Socket\ConnectContext $context): \danog\MadelineProto\Stream\ConnectionContext[]`

@@ -26,7 +26,7 @@ DB array interface.
 * [`offsetUnset(\TKey $index): void`](#offsetunset-tkey-index-void)
 * [`offsetExists(\TKey $index): bool`](#offsetexists-tkey-index-bool)
 * [`clear(): void`](#clear-void)
-* [`getIterator(): \Traversable<\TKey, \TValue>`](#getiterator-traversable-tkey-tvalue-)
+* [`getIterator(): \Traversable<\TKey, \TValue>`](#getiterator-traversable-tkey-tvalue)
 
 ## Methods:
 ### `getArrayCopy(): array`

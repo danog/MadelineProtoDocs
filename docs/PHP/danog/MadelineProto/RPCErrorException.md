@@ -15,6 +15,9 @@ Indicates an error returned by Telegram's API.
 
 
 
+## Properties
+* `$rpc`: `string` RPC error
+* `$tlTrace`: `string` TL trace.
 
 ## Method list:
 * [`getLocalization(): string`](#getlocalization-string)
