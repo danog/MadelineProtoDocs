@@ -1025,7 +1025,7 @@ $MadelineProto->[langpack->getStrings](/API_docs/methods/langpack.getStrings.htm
 
 ***
 <br><br>
-$MadelineProto->[messages->acceptEncryption](/API_docs/methods/messages.acceptEncryption.html)(\[peer: $[InputEncryptedChat](/API_docs/types/InputEncryptedChat.html), g_b: $[bytes](/API_docs/types/bytes.html), key_fingerprint: $[long](/API_docs/types/long.html), \]) === [$EncryptedChat](/API_docs/types/EncryptedChat.html)<a name="messages.acceptEncryption"></a>  
+$MadelineProto->[messages->acceptEncryption](/API_docs/methods/messages.acceptEncryption.html)(\[peer: $[InputEncryptedChat](/API_docs/types/InputEncryptedChat.html), g_b: $[bytes](/API_docs/types/bytes.html), key_fingerprint: $[strlong](/API_docs/constructors/strlong.html), \]) === [$EncryptedChat](/API_docs/types/EncryptedChat.html)<a name="messages.acceptEncryption"></a>  
 
 ***
 <br><br>
@@ -1825,7 +1825,7 @@ $MadelineProto->[phone->checkGroupCall](/API_docs/methods/phone.checkGroupCall.h
 
 ***
 <br><br>
-$MadelineProto->[phone->confirmCall](/API_docs/methods/phone.confirmCall.html)(\[peer: $[InputPhoneCall](/API_docs/types/InputPhoneCall.html), g_a: $[bytes](/API_docs/types/bytes.html), key_fingerprint: $[long](/API_docs/types/long.html), protocol: $[PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html), \]) === [$phone.PhoneCall](/API_docs/types/phone.PhoneCall.html)<a name="phone.confirmCall"></a>  
+$MadelineProto->[phone->confirmCall](/API_docs/methods/phone.confirmCall.html)(\[peer: $[InputPhoneCall](/API_docs/types/InputPhoneCall.html), g_a: $[bytes](/API_docs/types/bytes.html), key_fingerprint: $[strlong](/API_docs/constructors/strlong.html), protocol: $[PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html), \]) === [$phone.PhoneCall](/API_docs/types/phone.PhoneCall.html)<a name="phone.confirmCall"></a>  
 
 ***
 <br><br>
@@ -2033,11 +2033,11 @@ $MadelineProto->[updates->getState](/API_docs/methods/updates.getState.html)(\[\
 
 ***
 <br><br>
-$MadelineProto->[upload->getCdnFile](/API_docs/methods/upload.getCdnFile.html)(\[file_token: $[bytes](/API_docs/types/bytes.html), offset: $[long](/API_docs/types/long.html), limit: $[int](/API_docs/types/int.html), \]) === [$upload.CdnFile](/API_docs/types/upload.CdnFile.html)<a name="upload.getCdnFile"></a>  
+$MadelineProto->[upload->getCdnFile](/API_docs/methods/upload.getCdnFile.html)(\[file_token: $[string](/API_docs/types/string.html), offset: $[long](/API_docs/types/long.html), limit: $[int](/API_docs/types/int.html), \]) === [$upload.CdnFile](/API_docs/types/upload.CdnFile.html)<a name="upload.getCdnFile"></a>  
 
 ***
 <br><br>
-$MadelineProto->[upload->getCdnFileHashes](/API_docs/methods/upload.getCdnFileHashes.html)(\[file_token: $[bytes](/API_docs/types/bytes.html), offset: $[long](/API_docs/types/long.html), \]) === [$Vector\_of\_FileHash](/API_docs/types/FileHash.html)<a name="upload.getCdnFileHashes"></a>  
+$MadelineProto->[upload->getCdnFileHashes](/API_docs/methods/upload.getCdnFileHashes.html)(\[file_token: $[string](/API_docs/types/string.html), offset: $[long](/API_docs/types/long.html), \]) === [$Vector\_of\_FileHash](/API_docs/types/FileHash.html)<a name="upload.getCdnFileHashes"></a>  
 
 ***
 <br><br>
@@ -2053,7 +2053,7 @@ $MadelineProto->[upload->getWebFile](/API_docs/methods/upload.getWebFile.html)(\
 
 ***
 <br><br>
-$MadelineProto->[upload->reuploadCdnFile](/API_docs/methods/upload.reuploadCdnFile.html)(\[file_token: $[bytes](/API_docs/types/bytes.html), request_token: $[bytes](/API_docs/types/bytes.html), \]) === [$Vector\_of\_FileHash](/API_docs/types/FileHash.html)<a name="upload.reuploadCdnFile"></a>  
+$MadelineProto->[upload->reuploadCdnFile](/API_docs/methods/upload.reuploadCdnFile.html)(\[file_token: $[string](/API_docs/types/string.html), request_token: $[bytes](/API_docs/types/bytes.html), \]) === [$Vector\_of\_FileHash](/API_docs/types/FileHash.html)<a name="upload.reuploadCdnFile"></a>  
 
 ***
 <br><br>

@@ -2405,7 +2405,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$phoneCallWaiting](/API_docs/constructors/phoneCallWaiting.html) = \['video' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'access_hash' => [long](/API_docs/types/long.html), 'date' => [int](/API_docs/types/int.html), 'admin_id' => [long](/API_docs/types/long.html), 'participant_id' => [long](/API_docs/types/long.html), 'protocol' => [PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html), 'receive_date' => [int](/API_docs/types/int.html), \];<a name="phoneCallWaiting"></a>  
 
 ***
-<br><br>[$phoneConnection](/API_docs/constructors/phoneConnection.html) = \['tcp' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'ip' => [string](/API_docs/types/string.html), 'ipv6' => [string](/API_docs/types/string.html), 'port' => [int](/API_docs/types/int.html), 'peer_tag' => [bytes](/API_docs/types/bytes.html), \];<a name="phoneConnection"></a>  
+<br><br>[$phoneConnection](/API_docs/constructors/phoneConnection.html) = \['tcp' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'ip' => [string](/API_docs/types/string.html), 'ipv6' => [string](/API_docs/types/string.html), 'port' => [int](/API_docs/types/int.html), 'peer_tag' => [string](/API_docs/types/string.html), \];<a name="phoneConnection"></a>  
 
 ***
 <br><br>[$phoneConnectionWebrtc](/API_docs/constructors/phoneConnectionWebrtc.html) = \['turn' => [Bool](/API_docs/types/Bool.html), 'stun' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'ip' => [string](/API_docs/types/string.html), 'ipv6' => [string](/API_docs/types/string.html), 'port' => [int](/API_docs/types/int.html), 'username' => [string](/API_docs/types/string.html), 'password' => [string](/API_docs/types/string.html), \];<a name="phoneConnectionWebrtc"></a>  
@@ -3329,7 +3329,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$upload.file](/API_docs/constructors/upload.file.html) = \['type' => [storage.FileType](/API_docs/types/storage.FileType.html), 'mtime' => [int](/API_docs/types/int.html), 'bytes' => [bytes](/API_docs/types/bytes.html), \];<a name="upload.file"></a>  
 
 ***
-<br><br>[$upload.fileCdnRedirect](/API_docs/constructors/upload.fileCdnRedirect.html) = \['dc_id' => [int](/API_docs/types/int.html), 'file_token' => [bytes](/API_docs/types/bytes.html), 'encryption_key' => [bytes](/API_docs/types/bytes.html), 'encryption_iv' => [bytes](/API_docs/types/bytes.html), 'file_hashes' => \[[FileHash](/API_docs/types/FileHash.html)\], \];<a name="upload.fileCdnRedirect"></a>  
+<br><br>[$upload.fileCdnRedirect](/API_docs/constructors/upload.fileCdnRedirect.html) = \['dc_id' => [int](/API_docs/types/int.html), 'file_token' => [string](/API_docs/types/string.html), 'encryption_key' => [bytes](/API_docs/types/bytes.html), 'encryption_iv' => [bytes](/API_docs/types/bytes.html), 'file_hashes' => \[[FileHash](/API_docs/types/FileHash.html)\], \];<a name="upload.fileCdnRedirect"></a>  
 
 ***
 <br><br>[$upload.webFile](/API_docs/constructors/upload.webFile.html) = \['size' => [int](/API_docs/types/int.html), 'mime_type' => [string](/API_docs/types/string.html), 'file_type' => [storage.FileType](/API_docs/types/storage.FileType.html), 'mtime' => [int](/API_docs/types/int.html), 'bytes' => [bytes](/API_docs/types/bytes.html), \];<a name="upload.webFile"></a>  

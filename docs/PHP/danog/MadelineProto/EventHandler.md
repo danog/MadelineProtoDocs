@@ -133,6 +133,7 @@ Event handler.
 * [`hasPluginInstance(class-string<\danog\MadelineProto\EventHandler> $class): bool`](#hasplugininstance-class-string-danog-madelineproto-eventhandler-class-bool)
 * [`hasReportPeers(): bool`](#hasreportpeers-bool)
 * [`hasSecretChat(array|int $chat): bool`](#hassecretchat-array-int-chat-bool)
+* [`htmlToMessageEntities(string $html): \DOMEntities Object containing message and entities`](#htmltomessageentities-string-html-domentities-object-containing-message-and-entities)
 * [`importAuthorization(array<int, string> $authorization, int $mainDcID): array`](#importauthorization-array-int-string-authorization-int-maindcid-array)
 * [`inflateStripped(string $stripped): string`](#inflatestripped-string-stripped-string)
 * [`initSelfRestart(): void`](#initselfrestart-void)
@@ -143,9 +144,11 @@ Event handler.
 * [`isPremium(): bool`](#ispremium-bool)
 * [`isSupergroup(int $id): bool`](#issupergroup-int-id-bool)
 * [`logger(mixed $param, int $level, string $file): void`](#logger-mixed-param-int-level-string-file-void)
+* [`markdownToMessageEntities(string $markdown): \DOMEntities Object containing message and entities`](#markdowntomessageentities-string-markdown-domentities-object-containing-message-and-entities)
 * [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplit-string-text-int-length-string)
 * [`mbStrlen(string $text): int`](#mbstrlen-string-text-int)
 * [`mbSubstr(string $text, int $offset, null|int $length): string`](#mbsubstr-string-text-int-offset-null-int-length-string)
+* [`messageEntitiesToHtml(string $message, array $entities, bool $allowTelegramTags): string`](#messageentitiestohtml-string-message-array-entities-bool-allowtelegramtags-string)
 * [`packDouble(float $value): string`](#packdouble-float-value-string)
 * [`packSignedInt(int $value): string`](#packsignedint-int-value-string)
 * [`packSignedLong(int $value): string`](#packsignedlong-int-value-string)
@@ -200,6 +203,8 @@ Event handler.
 * [`uploadFromTgfile(mixed $media, callable $cb, bool $encrypted): mixed`](#uploadfromtgfile-mixed-media-callable-cb-bool-encrypted-mixed)
 * [`uploadFromUrl(string|\danog\MadelineProto\FileCallbackInterface $url, int $size, string $fileName, callable $cb, bool $encrypted): mixed`](#uploadfromurl-string-danog-madelineproto-filecallbackinterface-url-int-size-string-filename-callable-cb-bool-encrypted-mixed)
 * [`viewSponsoredMessage(int|array $peer, string|array{random_id: string} $message): bool`](#viewsponsoredmessage-int-array-peer-string-array-random_id-string-message-bool)
+* [`wrapMessage(array $message): ?\danog\MadelineProto\EventHandler\Message`](#wrapmessage-array-message-danog-madelineproto-eventhandler-message)
+* [`wrapUpdate(array $update): ?\danog\MadelineProto\EventHandler\Update`](#wrapupdate-array-update-danog-madelineproto-eventhandler-update)
 
 ## Methods:
 ### `startAndLoop(string $session, \danog\MadelineProto\SettingsAbstract $settings): void`
@@ -1353,6 +1358,25 @@ Parameters:
 
 
 
+### `htmlToMessageEntities(string $html): \DOMEntities Object containing message and entities`
+
+Manually convert HTML to a message and a set of entities.
+NOTE: You don't have to use this method to send HTML messages.  
+This method is already called automatically by using parse_mode: "HTML" in messages.sendMessage, messages.sendMedia, et cetera...
+
+Parameters:
+
+* `$html`: `string`   
+
+
+Return value: Object containing message and entities
+
+#### See also: 
+* [https://docs.madelineproto.xyz/API_docs/methods/messages.sendMessage.html#usage-of-parse_mode](https://docs.madelineproto.xyz/API_docs/methods/messages.sendMessage.html#usage-of-parse_mode)
+
+
+
+
 ### `importAuthorization(array<int, string> $authorization, int $mainDcID): array`
 
 Import authorization.
@@ -1441,6 +1465,25 @@ Parameters:
 
 
 
+### `markdownToMessageEntities(string $markdown): \DOMEntities Object containing message and entities`
+
+Manually convert markdown to a message and a set of entities.
+NOTE: You don't have to use this method to send Markdown messages.  
+This method is already called automatically by using parse_mode: "Markdown" in messages.sendMessage, messages.sendMedia, et cetera...
+
+Parameters:
+
+* `$markdown`: `string`   
+
+
+Return value: Object containing message and entities
+
+#### See also: 
+* [https://docs.madelineproto.xyz/API_docs/methods/messages.sendMessage.html#usage-of-parse_mode](https://docs.madelineproto.xyz/API_docs/methods/messages.sendMessage.html#usage-of-parse_mode)
+
+
+
+
 ### `mbStrSplit(string $text, int $length): string[]`
 
 Telegram UTF-8 multibyte split.
@@ -1474,6 +1517,19 @@ Parameters:
 * `$text`: `string` Text to substring  
 * `$offset`: `int` Offset  
 * `$length`: `null|int` Length  
+
+
+
+### `messageEntitiesToHtml(string $message, array $entities, bool $allowTelegramTags): string`
+
+Convert a message and a set of entities to HTML.
+
+
+Parameters:
+
+* `$message`: `string`   
+* `$entities`: `array`   
+* `$allowTelegramTags`: `bool` Whether to allow telegram-specific tags like tg-spoiler, tg-emoji, mention links and so on...  
 
 
 
@@ -2101,6 +2157,38 @@ Parameters:
 
 * `$peer`: `int|array` Channel ID, or Update, or Message, or Peer.  
 * `$message`: `string|array{random_id: string}` Random ID or sponsored message to mark as read.  
+
+
+
+### `wrapMessage(array $message): ?\danog\MadelineProto\EventHandler\Message`
+
+Wrap a Message constructor into an abstract Message object.
+
+
+Parameters:
+
+* `$message`: `array`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../danog/MadelineProto/EventHandler/Message.html)
+
+
+
+
+### `wrapUpdate(array $update): ?\danog\MadelineProto\EventHandler\Update`
+
+Wrap an Update constructor into an abstract Update object.
+
+
+Parameters:
+
+* `$update`: `array`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Update`: Represents a generic update.](../../danog/MadelineProto/EventHandler/Update.html)
+
 
 
 

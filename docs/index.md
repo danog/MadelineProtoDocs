@@ -304,6 +304,7 @@ Want to add your own open-source project to this list? [Click here!](https://doc
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#tdtotdcli-mixed-params-mixed" name="tdToTdcli">Convert TD parameters to tdcli: tdToTdcli</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#tdtomtproto-array-params-array" name="tdToMTProto">Convert TD to MTProto parameters: tdToMTProto</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.convertToGigagroup.html" name="channels.convertToGigagroup">Convert a supergroup to a gigagroup, when requested by channel suggestions: channels.convertToGigagroup</a>
+    * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#messageentitiestohtml-string-message-array-entities-bool-allowtelegramtags-string" name="messageEntitiesToHtml">Convert a message and a set of entities to HTML: messageEntitiesToHtml</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#fromsupergroup-int-id-int" name="fromSupergroup">Convert bot API channel ID to MTProto channel ID: fromSupergroup</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#botapitomtproto-array-arguments-array" name="botAPIToMTProto">Convert bot API parameters to MTProto parameters: botAPIToMTProto</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#packdouble-float-value-string" name="packDouble">Convert double to binary version: packDouble</a>
@@ -612,6 +613,8 @@ Want to add your own open-source project to this list? [Click here!](https://doc
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#mtprotototd-mixed-params-mixed" name="MTProtoToTd">MTProto to TD params: MTProtoToTd</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#mtprotototdcli-mixed-params-mixed" name="MTProtoToTdcli">MTProto to TDCLI params: MTProtoToTdcli</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.editChatAdmin.html" name="messages.editChatAdmin">Make a user admin in a basic group: messages.editChatAdmin</a>
+    * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#htmltomessageentities-string-html-domentities-object-containing-message-and-entities" name="htmlToMessageEntities">Manually convert HTML to a message and a set of entities: htmlToMessageEntities</a>
+    * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#markdowntomessageentities-string-markdown-domentities-object-containing-message-and-entities" name="markdownToMessageEntities">Manually convert markdown to a message and a set of entities: markdownToMessageEntities</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.markDialogUnread.html" name="messages.markDialogUnread">Manually mark dialog as unread: messages.markDialogUnread</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.readHistory.html" name="channels.readHistory">Mark channel/supergroup history as read: channels.readHistory</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.readMessageContents.html" name="channels.readMessageContents">Mark channel/supergroup message contents as read: channels.readMessageContents</a>
@@ -846,6 +849,8 @@ Want to add your own open-source project to this list? [Click here!](https://doc
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#isaltervista-bool" name="isAltervista">Whether this is altervista: isAltervista</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#isipc-bool" name="isIpc">Whether we're an IPC client instance: isIpc</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#isipcworker-bool" name="isIpcWorker">Whether we're an IPC server process (as opposed to an event handler): isIpcWorker</a>
+    * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#wrapmessage-array-message-danog-madelineproto-eventhandler-message" name="wrapMessage">Wrap a Message constructor into an abstract Message object: wrapMessage</a>
+    * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#wrapupdate-array-update-danog-madelineproto-eventhandler-update" name="wrapUpdate">Wrap an Update constructor into an abstract Update object: wrapUpdate</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.transcribeAudio.html" name="messages.transcribeAudio">Transcribe voice message: messages.transcribeAudio</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.unpinAllMessages.html" name="messages.unpinAllMessages">Unpin all pinned messages: messages.unpinAllMessages</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#base64urldecode-string-data-string" name="base64urlDecode">base64URL decode: base64urlDecode</a>

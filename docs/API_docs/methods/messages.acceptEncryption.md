@@ -19,7 +19,7 @@ You cannot use this method directly, see https://docs.madelineproto.xyz for more
 |----------|---------------|-------------|----------|
 |peer|[Secret chat ID, Update, EncryptedMessage or InputEncryptedChat](/API_docs/types/InputEncryptedChat.html) | Secret chat ID | Yes|
 |g\_b|[bytes](/API_docs/types/bytes.html) | `B = g ^ b mod p`, see [Wikipedia](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange) | Yes|
-|key\_fingerprint|[long](/API_docs/types/long.html) | 64-bit fingerprint of the received key | Yes|
+|key\_fingerprint|[strlong](/API_docs/constructors/strlong.html) |  | Yes|
 
 
 ### Return type: [EncryptedChat](/API_docs/types/EncryptedChat.html)
@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$EncryptedChat = $MadelineProto->messages->acceptEncryption(peer: $InputEncryptedChat, g_b: 'bytes', key_fingerprint: $long, );
+$EncryptedChat = $MadelineProto->messages->acceptEncryption(peer: $InputEncryptedChat, g_b: 'bytes', key_fingerprint: $strlong, );
 ```
 

@@ -17,7 +17,7 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|file\_token|[bytes](/API_docs/types/bytes.html) | File | Yes|
+|file\_token|[string](/API_docs/types/string.html) |  | Yes|
 |offset|[long](/API_docs/types/long.html) | Offset from which to start getting hashes | Yes|
 
 
@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_FileHash = $MadelineProto->upload->getCdnFileHashes(file_token: 'bytes', offset: $long, );
+$Vector_of_FileHash = $MadelineProto->upload->getCdnFileHashes(file_token: 'string', offset: $long, );
 ```
 

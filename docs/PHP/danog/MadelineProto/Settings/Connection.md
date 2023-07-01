@@ -400,13 +400,13 @@ Parameters:
 
 ### `getRsaKeys(): array`
 
-Get RSA keys
+Get RSA keys.
 
 
 
 ### `setRsaKeys(array $rsaKeys): self`
 
-Set RSA keys
+Set RSA keys.
 
 
 Parameters:
@@ -417,13 +417,13 @@ Parameters:
 
 ### `getTestRsaKeys(): array`
 
-Get test RSA keys
+Get test RSA keys.
 
 
 
 ### `setTestRsaKeys(array $testRsaKeys): self`
 
-Set test RSA keys
+Set test RSA keys.
 
 
 Parameters:

@@ -24,6 +24,9 @@ Some tools.
 * [`mbStrlen(string $text): int`](#mbstrlen-string-text-int)
 * [`mbSubstr(string $text, int $offset, null|int $length): string`](#mbsubstr-string-text-int-offset-null-int-length-string)
 * [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplit-string-text-int-length-string)
+* [`htmlToMessageEntities(string $html): \DOMEntities Object containing message and entities`](#htmltomessageentities-string-html-domentities-object-containing-message-and-entities)
+* [`markdownToMessageEntities(string $markdown): \DOMEntities Object containing message and entities`](#markdowntomessageentities-string-markdown-domentities-object-containing-message-and-entities)
+* [`messageEntitiesToHtml(string $message, array $entities, bool $allowTelegramTags): string`](#messageentitiestohtml-string-message-array-entities-bool-allowtelegramtags-string)
 * [`toCamelCase(string $input): string`](#tocamelcase-string-input-string)
 * [`toSnakeCase(string $input): string`](#tosnakecase-string-input-string)
 * [`getMimeFromExtension(string $extension, string $default): string`](#getmimefromextension-string-extension-string-default-string)
@@ -66,6 +69,57 @@ Parameters:
 
 * `$text`: `string` Text  
 * `$length`: `int` Length  
+
+
+
+### `htmlToMessageEntities(string $html): \DOMEntities Object containing message and entities`
+
+Manually convert HTML to a message and a set of entities.
+NOTE: You don't have to use this method to send HTML messages.  
+This method is already called automatically by using parse_mode: "HTML" in messages.sendMessage, messages.sendMedia, et cetera...
+
+Parameters:
+
+* `$html`: `string`   
+
+
+Return value: Object containing message and entities
+
+#### See also: 
+* [https://docs.madelineproto.xyz/API_docs/methods/messages.sendMessage.html#usage-of-parse_mode](https://docs.madelineproto.xyz/API_docs/methods/messages.sendMessage.html#usage-of-parse_mode)
+
+
+
+
+### `markdownToMessageEntities(string $markdown): \DOMEntities Object containing message and entities`
+
+Manually convert markdown to a message and a set of entities.
+NOTE: You don't have to use this method to send Markdown messages.  
+This method is already called automatically by using parse_mode: "Markdown" in messages.sendMessage, messages.sendMedia, et cetera...
+
+Parameters:
+
+* `$markdown`: `string`   
+
+
+Return value: Object containing message and entities
+
+#### See also: 
+* [https://docs.madelineproto.xyz/API_docs/methods/messages.sendMessage.html#usage-of-parse_mode](https://docs.madelineproto.xyz/API_docs/methods/messages.sendMessage.html#usage-of-parse_mode)
+
+
+
+
+### `messageEntitiesToHtml(string $message, array $entities, bool $allowTelegramTags): string`
+
+Convert a message and a set of entities to HTML.
+
+
+Parameters:
+
+* `$message`: `string`   
+* `$entities`: `array`   
+* `$allowTelegramTags`: `bool` Whether to allow telegram-specific tags like tg-spoiler, tg-emoji, mention links and so on...  
 
 
 

@@ -29,11 +29,11 @@ Info about the latest telegram Terms Of Service
 
 
 
-## Usage of parseMode:
+## Usage of parse_mode:
 
-Set parseMode to html to enable HTML parsing of the message.  
+Set parse_mode to html to enable HTML parsing of the message.  
 
-Set parseMode to Markdown to enable markown AND html parsing of the message.  
+Set parse_mode to Markdown to enable markown AND html parsing of the message.  
 
 The following tags are currently supported:
 

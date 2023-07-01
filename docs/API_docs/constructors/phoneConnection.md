@@ -20,7 +20,7 @@ Identifies an endpoint that can be used to connect to the other user in a phone 
 |ip|[string](/API_docs/types/string.html) | Yes|IP address of endpoint|
 |ipv6|[string](/API_docs/types/string.html) | Yes|IPv6 address of endpoint|
 |port|[int](/API_docs/types/int.html) | Yes|Port ID|
-|peer\_tag|[bytes](/API_docs/types/bytes.html) | Yes|Our peer tag|
+|peer\_tag|[string](/API_docs/types/string.html) | Yes|
 
 
 
@@ -30,5 +30,5 @@ Identifies an endpoint that can be used to connect to the other user in a phone 
 ### Example:
 
 ```
-$phoneConnection = ['_' => 'phoneConnection', 'tcp' => Bool, 'id' => long, 'ip' => 'string', 'ipv6' => 'string', 'port' => int, 'peer_tag' => 'bytes'];
+$phoneConnection = ['_' => 'phoneConnection', 'tcp' => Bool, 'id' => long, 'ip' => 'string', 'ipv6' => 'string', 'port' => int, 'peer_tag' => 'string'];
 ```  

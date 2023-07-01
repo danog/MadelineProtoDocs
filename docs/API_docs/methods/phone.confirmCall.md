@@ -19,7 +19,7 @@ You cannot use this method directly, see https://docs.madelineproto.xyz#calls fo
 |----------|---------------|-------------|----------|
 |peer|[InputPhoneCall](/API_docs/types/InputPhoneCall.html) | The phone call | Yes|
 |g\_a|[bytes](/API_docs/types/bytes.html) | [Parameter for E2E encryption key exchange »](https://core.telegram.org/api/end-to-end/voice-calls) | Yes|
-|key\_fingerprint|[long](/API_docs/types/long.html) | Key fingerprint | Yes|
+|key\_fingerprint|[strlong](/API_docs/constructors/strlong.html) |  | Yes|
 |protocol|[PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html) | Phone call settings | Yes|
 
 
@@ -40,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$phone_PhoneCall = $MadelineProto->phone->confirmCall(peer: $InputPhoneCall, g_a: 'bytes', key_fingerprint: $long, protocol: $PhoneCallProtocol, );
+$phone_PhoneCall = $MadelineProto->phone->confirmCall(peer: $InputPhoneCall, g_a: 'bytes', key_fingerprint: $strlong, protocol: $PhoneCallProtocol, );
 ```
 
