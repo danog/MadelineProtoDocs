@@ -15,6 +15,8 @@ Clickable button.
 
 
 
+## Properties
+* `$label`: `string` Button label
 
 ## Method list:
 * [`click(bool $donotwait): mixed`](#click-bool-donotwait-mixed)

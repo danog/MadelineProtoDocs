@@ -1,6 +1,6 @@
 ---
 title: "danog\\MadelineProto\\TL\\Types\\Bytes: Bytes wrapper."
-description: ""
+description: "Cast this object to a string ((string) $bytes) to obtain the inner bytes."
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
@@ -13,7 +13,7 @@ parent: "MadelineProto API"
 
 Bytes wrapper.  
 
-
+Cast this object to a string ((string) $bytes) to obtain the inner bytes.
 
 
 ## Method list:

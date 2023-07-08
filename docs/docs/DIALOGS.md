@@ -22,7 +22,8 @@ foreach ($dialogs as $peer) {
 
 `getDialogIds` will return a full list of the bot API IDs of all users/chats/channels known by the bot, see [here for the parameters and the result](https://docs.madelineproto.xyz/getDialogIds.html).  
 
-**Note**: this method will take a **very long time** to return the first time when used with bots: to avoid incurring in timeouts, run the method via CLI or use the [broadcast API](https://docs.madelineproto.xyz/docs/BROADCAST.html), instead.
+**Note**: this method will take a **very long time** to return the first time when used with bots: to avoid incurring in timeouts, run the method via CLI (**not web**) OR use the [async background broadcast API](https://docs.madelineproto.xyz/docs/BROADCAST.html), instead.  
+After the first broadcast with the broadcast API (i.e. `$id = $MadelineProto->broadcastMessages(...)`) is completed in the background (i.e. `$MadelineProto->getBroadcastProgress($id) === null`), the result of `getDialogIds` will be cached and will be returned immediately.  
 
 ## getDialogs
 ```php
@@ -34,7 +35,8 @@ foreach ($dialogs as $peer) {
 
 `getDialogs` will return a full list of all chats you're member of, see [here for the parameters and the result](https://docs.madelineproto.xyz/getDialogs.html)
 
-**Note**: this method will take a **very long time** to return the first time when used with bots: to avoid incurring in timeouts, run the method via CLI or use the [broadcast API](https://docs.madelineproto.xyz/docs/BROADCAST.html), instead.
+**Note**: this method will take a **very long time** to return the first time when used with bots: to avoid incurring in timeouts, run the method via CLI (**not web**) OR use the [async background broadcast API](https://docs.madelineproto.xyz/docs/BROADCAST.html), instead.  
+After the first broadcast with the broadcast API (i.e. `$id = $MadelineProto->broadcastMessages(...)`) is completed in the background (i.e. `$MadelineProto->getBroadcastProgress($id) === null`), the result of `getDialogs` will be cached and will be returned immediately.  
 
 ## getFullDialogs
 ```php

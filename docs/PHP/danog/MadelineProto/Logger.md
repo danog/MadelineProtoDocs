@@ -38,7 +38,7 @@ Logger class.
 * `danog\MadelineProto\Logger::LOGGER_CALLABLE`: Callable logger.
 
 ## Properties
-* `$default`: `self` Default logger instance.
+* `$default`: `?self` Default logger instance.
 
 ## Method list:
 * [`constructorFromSettings(\danog\MadelineProto\Settings\Logger $settings): self`](#constructorfromsettings-danog-madelineproto-settings-logger-settings-self)

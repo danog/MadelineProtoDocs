@@ -13,6 +13,8 @@ Note that unlike the bot API, MadelineProto can be used to fetch the full list o
 **All** users, chats and channels of the bot will be fetched, **regardless** of their last activity date: for example, if you just logged in with a bot token in MadelineProto 5 minutes ago, MadelineProto will fetch **all** users, chats and channels, even if their last activity is 5+ years ago!  
 
 >Note: if you just want to fetch the member list, you can use [getDialogIds](https://docs.madelineproto.xyz/docs/DIALOGS.html#getdialogids).  
+>Be aware that getDialogIds **can't be used when running via web**, due to timeouts. 
+>Instead, use the [broadcast API &raquo;](#broadcast-api) to run via web.  
 
 ## Broadcast API
 
@@ -26,7 +28,8 @@ Use `broadcastForwardMessages` to forward a list of messages to all peers (users
 
 This method will automatically handle rate limits, waiting to ensure all messages are sent correctly.  
 
-It will return an integer ID that can be used to:
+This method starts the broadcast process **in the background**.  
+It immediately returns an integer ID that can be used to:
 
 - Get the current broadcast progress with [getBroadcastProgress](#get-progress)
 - Cancel the broadcast using [cancelBroadcast](#cancel-a-broadcast)
@@ -84,7 +87,8 @@ This method will automatically handle rate limits, waiting to ensure all message
 
 A simplified version of this method is also available: [broadcastForwardMessages](#forward-messages) can work with pre-prepared messages.  
 
-It will return an integer ID that can be used to:
+This method starts the broadcast process **in the background**.  
+It immediately returns an integer ID that can be used to:
 
 - Get the current broadcast progress with [getBroadcastProgress](#get-progress)
 - Cancel the broadcast using [cancelBroadcast](#cancel-a-broadcast)
@@ -125,7 +129,8 @@ Use `broadcastCustom` to execute a custom broadcast action with all peers (users
 This method will **NOT** automatically handle rate limits.  
 To handle rate limits and errors automatically, a simplified version of this method is available, [broadcastForwardMessages &raquo;](#forward-messages) and [broadcastMessages &raquo;](#send-messages).  
 
-It will return an integer ID that can be used to:
+This method starts the broadcast process **in the background**.  
+It immediately returns an integer ID that can be used to:
 
 - Get the current broadcast progress with [getBroadcastProgress](#get-progress)
 - Cancel the broadcast using [cancelBroadcast](#cancel-a-broadcast)
@@ -143,7 +148,8 @@ use danog\MadelineProto\Broadcast\Action;
 use danog\MadelineProto\RPCErrorException;
 use Amp\Cancellation;
 
-// This class MUST be autoloadable via composer
+// This class MUST be autoloadable via composer.
+// Also, the IPC server (if present) must be restarted with restart() in order for MadelineProto to pick up the class.
 final class CustomBroadcastAction implements Action {
     public function __construct(private API $API, private string $message) {}
     public function act(int $broadcastId, int $peer, Cancellation $cancellation): void
@@ -254,7 +260,7 @@ if ($progress !== null) {
 ```
 
 You can use `getBroadcastProgress` to get the progress of a currently running broadcast.
-The method return null if the broadcast doesn't exist, has already completed or was cancelled.  
+The method returns null if the broadcast doesn't exist, has already completed or was cancelled.  
 
 Use updateBroadcastProgress updates to get real-time progress status without polling, [here's a full example &raquo;](https://github.com/danog/MadelineProto/blob/v8/examples/bot.php).  
 

@@ -19,6 +19,12 @@ Main API wrapper for MadelineProto.
 ## Constants
 * `danog\MadelineProto\API::RELEASE`: Release version.
 
+* `danog\MadelineProto\API::SECRET_EMPTY`: Secret chat was not found.
+
+* `danog\MadelineProto\API::SECRET_REQUESTED`: Secret chat was requested.
+
+* `danog\MadelineProto\API::SECRET_READY`: Secret chat was found.
+
 * `danog\MadelineProto\API::NOT_LOGGED_IN`: We're not logged in.
 
 * `danog\MadelineProto\API::WAITING_CODE`: We're waiting for the login code.
@@ -29,12 +35,6 @@ Main API wrapper for MadelineProto.
 
 * `danog\MadelineProto\API::LOGGED_IN`: We're logged in.
 
-* `danog\MadelineProto\API::SECRET_EMPTY`: Secret chat was not found.
-
-* `danog\MadelineProto\API::SECRET_REQUESTED`: Secret chat was requested.
-
-* `danog\MadelineProto\API::SECRET_READY`: Secret chat was found.
-
 * `danog\MadelineProto\API::PEER_TYPE_USER`: This peer is a user.
 
 * `danog\MadelineProto\API::PEER_TYPE_BOT`: This peer is a bot.
@@ -44,6 +44,18 @@ Main API wrapper for MadelineProto.
 * `danog\MadelineProto\API::PEER_TYPE_SUPERGROUP`: This peer is a supergroup.
 
 * `danog\MadelineProto\API::PEER_TYPE_CHANNEL`: This peer is a channel.
+
+* `danog\MadelineProto\API::INFO_TYPE_PEER`: Whether to generate only peer information.
+
+* `danog\MadelineProto\API::INFO_TYPE_CONSTRUCTOR`: Whether to generate only constructor information.
+
+* `danog\MadelineProto\API::INFO_TYPE_ID`: Whether to generate only ID information.
+
+* `danog\MadelineProto\API::INFO_TYPE_ALL`: Whether to generate all information.
+
+* `danog\MadelineProto\API::INFO_TYPE_USERNAMES`: Whether to generate all usernames.
+
+* `danog\MadelineProto\API::INFO_TYPE_TYPE`: Whether to generate just type info.
 
 ## Properties
 * `$auth`: `\danog\MadelineProto\Namespace\Auth` 
@@ -102,6 +114,7 @@ Main API wrapper for MadelineProto.
 * [`downloadToStream(mixed $messageMedia, mixed|\danog\MadelineProto\FileCallbackInterface|\resource|\Amp\ByteStream\WritableStream $stream, callable $cb, int $offset, int $end): mixed`](#downloadtostream-mixed-messagemedia-mixed-danog-madelineproto-filecallbackinterface-resource-amp-bytestream-writablestream-stream-callable-cb-int-offset-int-end-mixed)
 * [`echo(string $string): void`](#echo-string-string-void)
 * [`end(array $what): mixed`](#end-array-what-mixed)
+* [`entitiesToHtml(string $message, array $entities, bool $allowTelegramTags): string`](#entitiestohtml-string-message-array-entities-bool-allowtelegramtags-string)
 * [`exportAuthorization(): array{0: int|string, 1: string}`](#exportauthorization-array-0-int-string-1-string)
 * [`extractBotAPIFile(array $info): ?array`](#extractbotapifile-array-info-array)
 * [`extractMessage(array $updates): array`](#extractmessage-array-updates-array)
@@ -125,7 +138,7 @@ Main API wrapper for MadelineProto.
 * [`getDhConfig(): array`](#getdhconfig-array)
 * [`getDialogIds(): list<int>`](#getdialogids-list-int)
 * [`getDialogs(): list<array>`](#getdialogs-list-array)
-* [`getDownloadInfo(mixed $messageMedia): array`](#getdownloadinfo-mixed-messagemedia-array)
+* [`getDownloadInfo(mixed $messageMedia): array{ext: string, name: string, mime: string, size: int, InputFileLocation: array}`](#getdownloadinfo-mixed-messagemedia-array-ext-string-name-string-mime-string-size-int-inputfilelocation-array)
 * [`getEventHandler(): \danog\MadelineProto\EventHandler|\__PHP_Incomplete_Class|null`](#geteventhandler-danog-madelineproto-eventhandler-__php_incomplete_class-null)
 * [`getExtensionFromLocation(mixed $location, string $default): string`](#getextensionfromlocation-mixed-location-string-default-string)
 * [`getExtensionFromMime(string $mime): string`](#getextensionfrommime-string-mime-string)
@@ -136,7 +149,7 @@ Main API wrapper for MadelineProto.
 * [`getHTTPClient(): \Amp\Http\Client\HttpClient`](#gethttpclient-amp-http-client-httpclient)
 * [`getHint(): string`](#gethint-string)
 * [`getId(mixed $id): int`](#getid-mixed-id-int)
-* [`getInfo(mixed $id, \MTProto::INFO_TYPE_* $type): mixed`](#getinfo-mixed-id-mtproto-info_type_-type-mixed)
+* [`getInfo(mixed $id, \danog\MadelineProto\API::INFO_TYPE_* $type): mixed`](#getinfo-mixed-id-danog-madelineproto-api-info_type_-type-mixed)
 * [`getLogger(): \danog\MadelineProto\Logger`](#getlogger-danog-madelineproto-logger)
 * [`getMaps(): ?int`](#getmaps-int)
 * [`getMaxMaps(): ?int`](#getmaxmaps-int)
@@ -162,22 +175,22 @@ Main API wrapper for MadelineProto.
 * [`hasPluginInstance(class-string<\danog\MadelineProto\EventHandler> $class): bool`](#hasplugininstance-class-string-danog-madelineproto-eventhandler-class-bool)
 * [`hasReportPeers(): bool`](#hasreportpeers-bool)
 * [`hasSecretChat(array|int $chat): bool`](#hassecretchat-array-int-chat-bool)
-* [`htmlToMessageEntities(string $html): \DOMEntities Object containing message and entities`](#htmltomessageentities-string-html-domentities-object-containing-message-and-entities)
+* [`htmlToMessageEntities(string $html): \danog\MadelineProto\TL\Conversion\DOMEntities Object containing message and entities`](#htmltomessageentities-string-html-danog-madelineproto-tl-conversion-domentities-object-containing-message-and-entities)
 * [`importAuthorization(array<int, string> $authorization, int $mainDcID): array`](#importauthorization-array-int-string-authorization-int-maindcid-array)
 * [`inflateStripped(string $stripped): string`](#inflatestripped-string-stripped-string)
 * [`initSelfRestart(): void`](#initselfrestart-void)
 * [`isAltervista(): bool`](#isaltervista-bool)
 * [`isArrayOrAlike(mixed $var): bool`](#isarrayoralike-mixed-var-bool)
+* [`isForum(mixed $peer): bool`](#isforum-mixed-peer-bool)
 * [`isIpc(): bool`](#isipc-bool)
 * [`isIpcWorker(): bool`](#isipcworker-bool)
 * [`isPremium(): bool`](#ispremium-bool)
 * [`isSupergroup(int $id): bool`](#issupergroup-int-id-bool)
 * [`logger(mixed $param, int $level, string $file): void`](#logger-mixed-param-int-level-string-file-void)
-* [`markdownToMessageEntities(string $markdown): \DOMEntities Object containing message and entities`](#markdowntomessageentities-string-markdown-domentities-object-containing-message-and-entities)
+* [`markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\DOMEntities Object containing message and entities`](#markdowntomessageentities-string-markdown-danog-madelineproto-tl-conversion-domentities-object-containing-message-and-entities)
 * [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplit-string-text-int-length-string)
 * [`mbStrlen(string $text): int`](#mbstrlen-string-text-int)
 * [`mbSubstr(string $text, int $offset, null|int $length): string`](#mbsubstr-string-text-int-offset-null-int-length-string)
-* [`messageEntitiesToHtml(string $message, array $entities, bool $allowTelegramTags): string`](#messageentitiestohtml-string-message-array-entities-bool-allowtelegramtags-string)
 * [`packDouble(float $value): string`](#packdouble-float-value-string)
 * [`packSignedInt(int $value): string`](#packsignedint-int-value-string)
 * [`packSignedLong(int $value): string`](#packsignedlong-int-value-string)
@@ -200,7 +213,7 @@ Main API wrapper for MadelineProto.
 * [`rethrow(\Throwable $e): void`](#rethrow-throwable-e-void)
 * [`rleDecode(string $string): string`](#rledecode-string-string-string)
 * [`rleEncode(string $string): string`](#rleencode-string-string-string)
-* [`secretChatStatus(int $chat): \int One of MTProto::SECRET_EMPTY, MTProto::SECRET_REQUESTED, MTProto::SECRET_READY`](#secretchatstatus-int-chat-int-one-of-mtproto-secret_empty-mtproto-secret_requested-mtproto-secret_ready)
+* [`secretChatStatus(int $chat): \int One of \danog\MadelineProto\API::SECRET_EMPTY, \danog\MadelineProto\API::SECRET_REQUESTED, \danog\MadelineProto\API::SECRET_READY`](#secretchatstatus-int-chat-int-one-of-danog-madelineproto-api-secret_empty-danog-madelineproto-api-secret_requested-danog-madelineproto-api-secret_ready)
 * [`sendCustomEvent(mixed $payload): void`](#sendcustomevent-mixed-payload-void)
 * [`setNoop(): void`](#setnoop-void)
 * [`setReportPeers(int|string|(int|string)[] $userOrId): void`](#setreportpeers-int-string-int-string-userorid-void)
@@ -232,6 +245,7 @@ Main API wrapper for MadelineProto.
 * [`uploadFromTgfile(mixed $media, callable $cb, bool $encrypted): mixed`](#uploadfromtgfile-mixed-media-callable-cb-bool-encrypted-mixed)
 * [`uploadFromUrl(string|\danog\MadelineProto\FileCallbackInterface $url, int $size, string $fileName, callable $cb, bool $encrypted): mixed`](#uploadfromurl-string-danog-madelineproto-filecallbackinterface-url-int-size-string-filename-callable-cb-bool-encrypted-mixed)
 * [`viewSponsoredMessage(int|array $peer, string|array{random_id: string} $message): bool`](#viewsponsoredmessage-int-array-peer-string-array-random_id-string-message-bool)
+* [`wrapMedia(array $media): ?\danog\MadelineProto\EventHandler\Media`](#wrapmedia-array-media-danog-madelineproto-eventhandler-media)
 * [`wrapMessage(array $message): ?\danog\MadelineProto\EventHandler\Message`](#wrapmessage-array-message-danog-madelineproto-eventhandler-message)
 * [`wrapUpdate(array $update): ?\danog\MadelineProto\EventHandler\Update`](#wrapupdate-array-update-danog-madelineproto-eventhandler-update)
 
@@ -758,6 +772,19 @@ Parameters:
 
 
 
+### `entitiesToHtml(string $message, array $entities, bool $allowTelegramTags): string`
+
+Convert a message and a set of entities to HTML.
+
+
+Parameters:
+
+* `$message`: `string`   
+* `$entities`: `array`   
+* `$allowTelegramTags`: `bool` Whether to allow telegram-specific tags like tg-spoiler, tg-emoji, mention links and so on...  
+
+
+
 ### `exportAuthorization(): array{0: int|string, 1: string}`
 
 Export authorization.
@@ -993,7 +1020,7 @@ Get dialog peers.
 
 
 
-### `getDownloadInfo(mixed $messageMedia): array`
+### `getDownloadInfo(mixed $messageMedia): array{ext: string, name: string, mime: string, size: int, InputFileLocation: array}`
 
 Get download info of file
 Returns an array with the following structure:.
@@ -1115,7 +1142,7 @@ Parameters:
 
 
 
-### `getInfo(mixed $id, \MTProto::INFO_TYPE_* $type): mixed`
+### `getInfo(mixed $id, \danog\MadelineProto\API::INFO_TYPE_* $type): mixed`
 
 Get info about peer, returns an Info object.
 
@@ -1123,7 +1150,7 @@ Get info about peer, returns an Info object.
 Parameters:
 
 * `$id`: `mixed` Peer  
-* `$type`: `\MTProto::INFO_TYPE_*` Whether to generate an Input*, an InputPeer or the full set of constructors  
+* `$type`: `\danog\MadelineProto\API::INFO_TYPE_*` Whether to generate an Input*, an InputPeer or the full set of constructors  
 
 
 #### See also: 
@@ -1332,8 +1359,10 @@ Parameters:
 
 ### `getUpdates(array{offset?: int, limit?: int, timeout?: float} $params): list<array{update_id: mixed, update: mixed}>`
 
-Get updates.
-
+Only useful when consuming MadelineProto updates through an API in another language (like Javascript), **absolutely not recommended when directly writing MadelineProto bots**.
+`getUpdates` will **greatly slow down your bot** if used directly inside of PHP code.  
+  
+**Only use the [event handler](#async-event-driven) when writing a MadelineProto bot**, because update handling in the **event handler** is completely parallelized and non-blocking.
 
 Parameters:
 
@@ -1391,10 +1420,11 @@ Parameters:
 
 
 
-### `htmlToMessageEntities(string $html): \DOMEntities Object containing message and entities`
+### `htmlToMessageEntities(string $html): \danog\MadelineProto\TL\Conversion\DOMEntities Object containing message and entities`
 
 Manually convert HTML to a message and a set of entities.
 NOTE: You don't have to use this method to send HTML messages.  
+  
 This method is already called automatically by using parse_mode: "HTML" in messages.sendMessage, messages.sendMedia, et cetera...
 
 Parameters:
@@ -1456,6 +1486,17 @@ Parameters:
 
 
 
+### `isForum(mixed $peer): bool`
+
+Check if the specified peer is a forum.
+
+
+Parameters:
+
+* `$peer`: `mixed`   
+
+
+
 ### `isIpc(): bool`
 
 Whether we're an IPC client instance.
@@ -1498,10 +1539,11 @@ Parameters:
 
 
 
-### `markdownToMessageEntities(string $markdown): \DOMEntities Object containing message and entities`
+### `markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\DOMEntities Object containing message and entities`
 
 Manually convert markdown to a message and a set of entities.
 NOTE: You don't have to use this method to send Markdown messages.  
+  
 This method is already called automatically by using parse_mode: "Markdown" in messages.sendMessage, messages.sendMedia, et cetera...
 
 Parameters:
@@ -1550,19 +1592,6 @@ Parameters:
 * `$text`: `string` Text to substring  
 * `$offset`: `int` Offset  
 * `$length`: `null|int` Length  
-
-
-
-### `messageEntitiesToHtml(string $message, array $entities, bool $allowTelegramTags): string`
-
-Convert a message and a set of entities to HTML.
-
-
-Parameters:
-
-* `$message`: `string`   
-* `$entities`: `array`   
-* `$allowTelegramTags`: `bool` Whether to allow telegram-specific tags like tg-spoiler, tg-emoji, mention links and so on...  
 
 
 
@@ -1815,7 +1844,7 @@ Parameters:
 
 
 
-### `secretChatStatus(int $chat): \int One of MTProto::SECRET_EMPTY, MTProto::SECRET_REQUESTED, MTProto::SECRET_READY`
+### `secretChatStatus(int $chat): \int One of \danog\MadelineProto\API::SECRET_EMPTY, \danog\MadelineProto\API::SECRET_REQUESTED, \danog\MadelineProto\API::SECRET_READY`
 
 Get secret chat status.
 
@@ -1825,7 +1854,7 @@ Parameters:
 * `$chat`: `int` Chat ID  
 
 
-Return value: One of MTProto::SECRET_EMPTY, MTProto::SECRET_REQUESTED, MTProto::SECRET_READY
+Return value: One of \danog\MadelineProto\API::SECRET_EMPTY, \danog\MadelineProto\API::SECRET_REQUESTED, \danog\MadelineProto\API::SECRET_READY
 
 
 ### `sendCustomEvent(mixed $payload): void`
@@ -2190,6 +2219,22 @@ Parameters:
 
 * `$peer`: `int|array` Channel ID, or Update, or Message, or Peer.  
 * `$message`: `string|array{random_id: string}` Random ID or sponsored message to mark as read.  
+
+
+
+### `wrapMedia(array $media): ?\danog\MadelineProto\EventHandler\Media`
+
+Wrap a media constructor into an abstract Media object.
+
+
+Parameters:
+
+* `$media`: `array`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../danog/MadelineProto/EventHandler/Media.html)
+
 
 
 
