@@ -8,6 +8,26 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 Here's a list of common MadelineProto questions and answers.
 
+## How do I solve "Fiber stack allocate failed" and "Fiber stack protect failed" errors?
+
+The PHP engine mmap's two memory regions for each forked green thread: one for the stack, and one for the final guard page.  
+
+This error is emitted when the maximum number of configured mmap'ed regions is reached: you must increase the vm.max_map_count kernel config to 262144 to fix.  
+
+To fix, run the following command as root:
+
+```bash
+echo 262144 | sudo tee /proc/sys/vm/max_map_count
+```
+
+To persist the change across reboots:
+
+```bash
+echo vm.max_map_count=262144 | sudo tee /etc/sysctl.d/40-madelineproto.conf
+```
+
+On Windows and WSL, increasing the size of the pagefile might help; please switch to native Linux if the issue persists.
+
 ## How do I get the chat ID and/or sender ID of a message in the event handler?
 
 Use this code:
