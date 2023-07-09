@@ -27,7 +27,7 @@ Represents an incoming or outgoing private message.
 * `$editDate`: `?int` Last edit date of the message
 * `$keyboard`: `\danog\MadelineProto\EventHandler\Keyboard\InlineKeyboard|\danog\MadelineProto\EventHandler\Keyboard\ReplyKeyboard|null` Inline or reply keyboard.
 * `$imported`: `bool` Whether this message was [imported from a foreign chat service](https://core.telegram.org/api/import)
-* `$psaType`: `string` For Public Service Announcement messages, the PSA type
+* `$psaType`: `?string` For Public Service Announcement messages, the PSA type
 * `$id`: `int` Message ID
 * `$out`: `bool` Whether the message is outgoing
 * `$chatId`: `int` ID of the chat where the message was sent

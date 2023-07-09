@@ -37,9 +37,10 @@ Event handler.
 * `$tmpDbPrefix`: `?string` 
 
 ## Method list:
-* [`startAndLoop(string $session, \danog\MadelineProto\SettingsAbstract $settings): void`](#startandloop-string-session-danog-madelineproto-settingsabstract-settings-void)
-* [`startAndLoopBot(string $session, string $token, \danog\MadelineProto\SettingsAbstract $settings): void`](#startandloopbot-string-session-string-token-danog-madelineproto-settingsabstract-settings-void)
+* [`startAndLoop(string $session, ?\danog\MadelineProto\SettingsAbstract $settings): void`](#startandloop-string-session-danog-madelineproto-settingsabstract-settings-void)
+* [`startAndLoopBot(string $session, string $token, ?\danog\MadelineProto\SettingsAbstract $settings): void`](#startandloopbot-string-session-string-token-danog-madelineproto-settingsabstract-settings-void)
 * [`getReportPeers(): string|int|(string|int)[]`](#getreportpeers-string-int-string-int)
+* [`getPluginPaths(): \non-empty-string|\non-empty-list<\non-empty-string>|null`](#getpluginpaths-non-empty-string-non-empty-list-non-empty-string-null)
 * [`getPlugins(): class-string<\danog\MadelineProto\EventHandler>[]`](#getplugins-class-string-danog-madelineproto-eventhandler)
 * [`MTProtoToBotAPI(array $data): array`](#mtprototobotapi-array-data-array)
 * [`MTProtoToTd(mixed $params): mixed`](#mtprotototd-mixed-params-mixed)
@@ -52,8 +53,8 @@ Event handler.
 * [`botAPIToMTProto(array $arguments): array`](#botapitomtproto-array-arguments-array)
 * [`botLogin(string $token): ?array`](#botlogin-string-token-array)
 * [`broadcastCustom(\Action $action, ?\danog\MadelineProto\Broadcast\Filter $filter): int`](#broadcastcustom-action-action-danog-madelineproto-broadcast-filter-filter-int)
-* [`broadcastForwardMessages(mixed $from_peer, list<int> $message_ids, bool $drop_author, ?\danog\MadelineProto\Broadcast\Filter $filter): int`](#broadcastforwardmessages-mixed-from_peer-list-int-message_ids-bool-drop_author-danog-madelineproto-broadcast-filter-filter-int)
-* [`broadcastMessages(array $messages, ?\danog\MadelineProto\Broadcast\Filter $filter): int`](#broadcastmessages-array-messages-danog-madelineproto-broadcast-filter-filter-int)
+* [`broadcastForwardMessages(mixed $from_peer, list<int> $message_ids, bool $drop_author, ?\danog\MadelineProto\Broadcast\Filter $filter, bool $pin): int`](#broadcastforwardmessages-mixed-from_peer-list-int-message_ids-bool-drop_author-danog-madelineproto-broadcast-filter-filter-bool-pin-int)
+* [`broadcastMessages(array $messages, ?\danog\MadelineProto\Broadcast\Filter $filter, bool $pin): int`](#broadcastmessages-array-messages-danog-madelineproto-broadcast-filter-filter-bool-pin-int)
 * [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-callable-mixed-args-amp-future-t)
 * [`callStatus(int $id): int`](#callstatus-int-id-int)
 * [`cancelBroadcast(int $id): void`](#cancelbroadcast-int-id-void)
@@ -165,6 +166,7 @@ Event handler.
 * [`refreshPeerCache(mixed ...$ids): void`](#refreshpeercache-mixed-ids-void)
 * [`rekey(int $chat): ?string`](#rekey-int-chat-string)
 * [`report(string $message, string $parseMode): void`](#report-string-message-string-parsemode-void)
+* [`reportMemoryProfile(): void`](#reportmemoryprofile-void)
 * [`requestCall(mixed $user): mixed`](#requestcall-mixed-user-mixed)
 * [`requestSecretChat(mixed $user): mixed`](#requestsecretchat-mixed-user-mixed)
 * [`resetUpdateState(): void`](#resetupdatestate-void)
@@ -197,7 +199,7 @@ Event handler.
 * [`unsetEventHandler(): void`](#unseteventhandler-void)
 * [`update2fa(array{password?: string, new_password?: string, email?: string, hint?: string} $params): void`](#update2fa-array-password-string-new_password-string-email-string-hint-string-params-void)
 * [`updateSettings(\danog\MadelineProto\SettingsAbstract $settings): void`](#updatesettings-danog-madelineproto-settingsabstract-settings-void)
-* [`upload(\danog\MadelineProto\FileCallbackInterface|string|array $file, string $fileName, callable $cb, bool $encrypted): mixed`](#upload-danog-madelineproto-filecallbackinterface-string-array-file-string-filename-callable-cb-bool-encrypted-mixed)
+* [`upload(\danog\MadelineProto\FileCallbackInterface|string|array|\resource $file, string $fileName, callable $cb, bool $encrypted): mixed`](#upload-danog-madelineproto-filecallbackinterface-string-array-resource-file-string-filename-callable-cb-bool-encrypted-mixed)
 * [`uploadEncrypted(\danog\MadelineProto\FileCallbackInterface|string|array $file, string $fileName, callable $cb): mixed`](#uploadencrypted-danog-madelineproto-filecallbackinterface-string-array-file-string-filename-callable-cb-mixed)
 * [`uploadFromCallable(mixed $callable, int $size, string $mime, string $fileName, callable $cb, bool $seekable, bool $encrypted): mixed`](#uploadfromcallable-mixed-callable-int-size-string-mime-string-filename-callable-cb-bool-seekable-bool-encrypted-mixed)
 * [`uploadFromStream(mixed $stream, int $size, string $mime, string $fileName, callable $cb, bool $encrypted): mixed`](#uploadfromstream-mixed-stream-int-size-string-mime-string-filename-callable-cb-bool-encrypted-mixed)
@@ -209,7 +211,7 @@ Event handler.
 * [`wrapUpdate(array $update): ?\danog\MadelineProto\EventHandler\Update`](#wrapupdate-array-update-danog-madelineproto-eventhandler-update)
 
 ## Methods:
-### `startAndLoop(string $session, \danog\MadelineProto\SettingsAbstract $settings): void`
+### `startAndLoop(string $session, ?\danog\MadelineProto\SettingsAbstract $settings): void`
 
 Start MadelineProto and the event handler.
 Also initializes error reporting, catching and reporting all errors surfacing from the event loop.
@@ -217,7 +219,7 @@ Also initializes error reporting, catching and reporting all errors surfacing fr
 Parameters:
 
 * `$session`: `string` Session name  
-* `$settings`: `\danog\MadelineProto\SettingsAbstract` Settings  
+* `$settings`: `?\danog\MadelineProto\SettingsAbstract` Settings  
 
 
 #### See also: 
@@ -226,7 +228,7 @@ Parameters:
 
 
 
-### `startAndLoopBot(string $session, string $token, \danog\MadelineProto\SettingsAbstract $settings): void`
+### `startAndLoopBot(string $session, string $token, ?\danog\MadelineProto\SettingsAbstract $settings): void`
 
 Start MadelineProto as a bot and the event handler.
 Also initializes error reporting, catching and reporting all errors surfacing from the event loop.
@@ -235,7 +237,7 @@ Parameters:
 
 * `$session`: `string` Session name  
 * `$token`: `string` Bot token  
-* `$settings`: `\danog\MadelineProto\SettingsAbstract` Settings  
+* `$settings`: `?\danog\MadelineProto\SettingsAbstract` Settings  
 
 
 #### See also: 
@@ -250,9 +252,15 @@ Get peers where to send error reports.
 
 
 
+### `getPluginPaths(): \non-empty-string|\non-empty-list<\non-empty-string>|null`
+
+Obtain a path or a list of paths that will be recursively searched for plugins.
+Plugin filenames end with .plugin.php, and will be included automatically.
+
+
 ### `getPlugins(): class-string<\danog\MadelineProto\EventHandler>[]`
 
-Obtain a list of plugin event handlers.
+Obtain a list of plugin event handlers to use, in addition with those found by getPluginPath.
 
 
 
@@ -391,7 +399,7 @@ Parameters:
 
 
 
-### `broadcastForwardMessages(mixed $from_peer, list<int> $message_ids, bool $drop_author, ?\danog\MadelineProto\Broadcast\Filter $filter): int`
+### `broadcastForwardMessages(mixed $from_peer, list<int> $message_ids, bool $drop_author, ?\danog\MadelineProto\Broadcast\Filter $filter, bool $pin): int`
 
 Forwards a list of messages to all peers (users, chats, channels) of the bot.
 Will return an integer ID that can be used to:  
@@ -409,6 +417,7 @@ Parameters:
 * `$message_ids`: `list<int>` IDs of the messages to forward.  
 * `$drop_author`: `bool` If true, will forward messages without quoting the original author.  
 * `$filter`: `?\danog\MadelineProto\Broadcast\Filter`   
+* `$pin`: `bool` Whether to also pin the message.  
 
 
 #### See also: 
@@ -417,7 +426,7 @@ Parameters:
 
 
 
-### `broadcastMessages(array $messages, ?\danog\MadelineProto\Broadcast\Filter $filter): int`
+### `broadcastMessages(array $messages, ?\danog\MadelineProto\Broadcast\Filter $filter, bool $pin): int`
 
 Sends a list of messages to all peers (users, chats, channels) of the bot.
 A simplified version of this method is also available: broadcastForwardMessages can work with pre-prepared messages.  
@@ -435,6 +444,7 @@ Parameters:
 
 * `$messages`: `array` The messages to send: an array of arrays, containing parameters to pass to messages.sendMessage.  
 * `$filter`: `?\danog\MadelineProto\Broadcast\Filter`   
+* `$pin`: `bool` Whether to also pin the last sent message.  
 
 
 #### See also: 
@@ -1727,6 +1737,12 @@ Parameters:
 
 
 
+### `reportMemoryProfile(): void`
+
+Report memory profile with memprof.
+
+
+
 ### `requestCall(mixed $user): mixed`
 
 Request VoIP call.
@@ -2061,14 +2077,14 @@ Parameters:
 
 
 
-### `upload(\danog\MadelineProto\FileCallbackInterface|string|array $file, string $fileName, callable $cb, bool $encrypted): mixed`
+### `upload(\danog\MadelineProto\FileCallbackInterface|string|array|\resource $file, string $fileName, callable $cb, bool $encrypted): mixed`
 
 Upload file.
 
 
 Parameters:
 
-* `$file`: `\danog\MadelineProto\FileCallbackInterface|string|array` File, URL or Telegram file to upload  
+* `$file`: `\danog\MadelineProto\FileCallbackInterface|string|array|\resource` File, URL or Telegram file to upload  
 * `$fileName`: `string` File name  
 * `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
 * `$encrypted`: `bool` Whether to encrypt file for secret chats  
@@ -2076,6 +2092,7 @@ Parameters:
 
 #### See also: 
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
+* `\resource`
 
 
 

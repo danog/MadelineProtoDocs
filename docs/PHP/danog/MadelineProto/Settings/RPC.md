@@ -42,7 +42,7 @@ Set RPC drop timeout.
 
 Parameters:
 
-* `$rpcDropTimeout`: `int` RPC timeout.  
+* `$rpcDropTimeout`: `int` RPC timeout  
 
 
 
@@ -72,7 +72,7 @@ Get flood timeout: if FLOOD_WAIT_ time is bigger than this, throw exception inst
 ### `setFloodTimeout(int $floodTimeout): self`
 
 Set flood timeout: if FLOOD_WAIT_ time is bigger than this, throw exception instead of waiting asynchronously.
-
+Must be bigger than 5.
 
 Parameters:
 

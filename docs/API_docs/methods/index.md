@@ -378,7 +378,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#callfork-generator-amp-future-callable-callable-mixed-args-amp-future-t" name="callFork">Fork a new green thread and execute the passed function in the background: callFork</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#broadcastforwardmessages-mixed-from_peer-list-int-message_ids-bool-drop_author-danog-madelineproto-broadcast-filter-filter-int" name="broadcastForwardMessages">Forwards a list of messages to all peers (users, chats, channels) of the bot: broadcastForwardMessages</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#broadcastforwardmessages-mixed-from_peer-list-int-message_ids-bool-drop_author-danog-madelineproto-broadcast-filter-filter-bool-pin-int" name="broadcastForwardMessages">Forwards a list of messages to all peers (users, chats, channels) of the bot: broadcastForwardMessages</a>
 
 * <a href="messages.forwardMessages.html" name="messages.forwardMessages">Forwards messages by their IDs: messages.forwardMessages</a>
 
@@ -956,6 +956,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#report-string-message-string-parsemode-void" name="report">Report an error to the previously set peer: report</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#reportmemoryprofile-void" name="reportMemoryProfile">Report memory profile with memprof: reportMemoryProfile</a>
+
 * <a href="channels.reportSpam.html" name="channels.reportSpam">Reports some messages from a user in a supergroup as spam; requires administrator rights in the supergroup: channels.reportSpam</a>
 
 * <a href="messages.getEmojiGroups.html" name="messages.getEmojiGroups">Represents a list of emoji categories, to be used when selecting custom emojis: messages.getEmojiGroups</a>
@@ -1096,7 +1098,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="bots.sendCustomRequest.html" name="bots.sendCustomRequest">Sends a custom request; for bots only: bots.sendCustomRequest</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#broadcastmessages-array-messages-danog-madelineproto-broadcast-filter-filter-int" name="broadcastMessages">Sends a list of messages to all peers (users, chats, channels) of the bot: broadcastMessages</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#broadcastmessages-array-messages-danog-madelineproto-broadcast-filter-filter-bool-pin-int" name="broadcastMessages">Sends a list of messages to all peers (users, chats, channels) of the bot: broadcastMessages</a>
 
 * <a href="messages.sendMessage.html" name="messages.sendMessage">Sends a message to a chat: messages.sendMessage</a>
 
@@ -1246,7 +1248,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadencrypted-filecallbackinterface-string-array-file-string-filename-callable-cb-mixed" name="uploadEncrypted">Upload file to secret chat: uploadEncrypted</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#upload-filecallbackinterface-string-array-file-string-filename-callable-cb-bool-encrypted-mixed" name="upload">Upload file: upload</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#upload-filecallbackinterface-string-array-resource-file-string-filename-callable-cb-bool-encrypted-mixed" name="upload">Upload file: upload</a>
 
 * <a href="account.uploadRingtone.html" name="account.uploadRingtone">Upload notification sound, use account.saveRingtone to convert it and add it to the list of saved notification sounds: account.uploadRingtone</a>
 

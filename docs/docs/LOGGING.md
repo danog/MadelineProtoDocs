@@ -76,4 +76,6 @@ $MadelineProto->setReportPeers(['danogentili']);
 
 If you use the [`startAndLoop`](https://docs.madelineproto.xyz/docs/UPDATES.html#async-event-driven) method to start update handling, all errors surfacing from the loop will be reported automatically.  
 
+If memory profiling with [memprof](https://github.com/arnaud-lb/php-memory-profiler) is enabled, you can also use `reportMemoryProfile()` to send a pprof memory profile to all report peers.  
+
 <a href="https://docs.madelineproto.xyz/docs/CALLS.html">Next section</a>

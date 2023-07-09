@@ -20,6 +20,7 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\AsyncTools: Async tools.](/PHP/danog/MadelineProto/AsyncTools.html)
 * [\danog\MadelineProto\EventHandler: Event handler.](/PHP/danog/MadelineProto/EventHandler.html)
 * [\danog\MadelineProto\FileCallbackInterface: File callback interface.](/PHP/danog/MadelineProto/FileCallbackInterface.html)
+* [\danog\MadelineProto\PluginEventHandler: Plugin event handler class.](/PHP/danog/MadelineProto/PluginEventHandler.html)
 * [\danog\MadelineProto\StrTools: Some tools.](/PHP/danog/MadelineProto/StrTools.html)
 * [\danog\MadelineProto\Tools: Some tools.](/PHP/danog/MadelineProto/Tools.html)
 * [\danog\MadelineProto\Broadcast\Action: Interface that represents a broadcast action.](/PHP/danog/MadelineProto/Broadcast/Action.html)

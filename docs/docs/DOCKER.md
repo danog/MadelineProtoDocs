@@ -36,7 +36,7 @@ Finally, follow one or more of the following guides, according to your needs:
 
 ### CLI bot (recommended)
 
-Create the following `docker-compose.yml` file:
+Create the following `docker-compose.yml` file, with the following contents:
 
 ```yml
 services:

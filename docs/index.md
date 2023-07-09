@@ -98,6 +98,8 @@ Want to add your own open-source project to this list? [Click here!](https://doc
   * [Async Event driven](https://docs.madelineproto.xyz/docs/UPDATES.html#async-event-driven)
     * [Self-restart on webhosts](https://docs.madelineproto.xyz/docs/UPDATES.html#self-restart-on-webhosts)
   * [Async Event driven multi-account](https://docs.madelineproto.xyz/docs/UPDATES.html#async-event-driven-multiaccount)
+  * [Webhook (for HTTP APIs)](https://docs.madelineproto.xyz/docs/UPDATES.html#webhook)
+  * [getUpdates (only for Javascript APIs)](https://docs.madelineproto.xyz/docs/UPDATES.html#getUpdates)
   * [Noop (default)](https://docs.madelineproto.xyz/docs/UPDATES.html#noop)
 * [Database](https://docs.madelineproto.xyz/docs/DATABASE.html)
   * [\danog\MadelineProto\Settings\Database\Memory: Memory backend settings.](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/Settings/Database/Memory.html)
@@ -394,7 +396,7 @@ Want to add your own open-source project to this list? [Click here!](https://doc
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getMessageEditData.html" name="messages.getMessageEditData">Find out if a media message's caption can be edited: messages.getMessageEditData</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.finishTakeoutSession.html" name="account.finishTakeoutSession">Finish account takeout session: account.finishTakeoutSession</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#callfork-generator-amp-future-callable-callable-mixed-args-amp-future-t" name="callFork">Fork a new green thread and execute the passed function in the background: callFork</a>
-    * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#broadcastforwardmessages-mixed-from_peer-list-int-message_ids-bool-drop_author-danog-madelineproto-broadcast-filter-filter-int" name="broadcastForwardMessages">Forwards a list of messages to all peers (users, chats, channels) of the bot: broadcastForwardMessages</a>
+    * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#broadcastforwardmessages-mixed-from_peer-list-int-message_ids-bool-drop_author-danog-madelineproto-broadcast-filter-filter-bool-pin-int" name="broadcastForwardMessages">Forwards a list of messages to all peers (users, chats, channels) of the bot: broadcastForwardMessages</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.forwardMessages.html" name="messages.forwardMessages">Forwards messages by their IDs: messages.forwardMessages</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#genvectorhash-array-ints-string" name="genVectorHash">Generate MTProto vector hash: genVectorHash</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/auth.exportLoginToken.html" name="auth.exportLoginToken">Generate a login token, for login via QR code.  : auth.exportLoginToken</a>
@@ -683,6 +685,7 @@ Want to add your own open-source project to this list? [Click here!](https://doc
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.reportProfilePhoto.html" name="account.reportProfilePhoto">Report a profile photo of a dialog: account.reportProfilePhoto</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.reportEncryptedSpam.html" name="messages.reportEncryptedSpam">Report a secret chat for spam: messages.reportEncryptedSpam</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#report-string-message-string-parsemode-void" name="report">Report an error to the previously set peer: report</a>
+    * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#reportmemoryprofile-void" name="reportMemoryProfile">Report memory profile with memprof: reportMemoryProfile</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.reportSpam.html" name="channels.reportSpam">Reports some messages from a user in a supergroup as spam; requires administrator rights in the supergroup: channels.reportSpam</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getEmojiGroups.html" name="messages.getEmojiGroups">Represents a list of emoji categories, to be used when selecting custom emojis: messages.getEmojiGroups</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getEmojiStatusGroups.html" name="messages.getEmojiStatusGroups">Represents a list of emoji categories, to be used when selecting custom emojis to set as custom emoji status: messages.getEmojiStatusGroups</a>
@@ -753,7 +756,7 @@ Want to add your own open-source project to this list? [Click here!](https://doc
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.acceptAuthorization.html" name="account.acceptAuthorization">Sends a Telegram Passport authorization form, effectively sharing data with the service: account.acceptAuthorization</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.setTyping.html" name="messages.setTyping">Sends a current user typing event (see SendMessageAction for all event types) to a conversation partner or group: messages.setTyping</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.sendCustomRequest.html" name="bots.sendCustomRequest">Sends a custom request; for bots only: bots.sendCustomRequest</a>
-    * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#broadcastmessages-array-messages-danog-madelineproto-broadcast-filter-filter-int" name="broadcastMessages">Sends a list of messages to all peers (users, chats, channels) of the bot: broadcastMessages</a>
+    * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#broadcastmessages-array-messages-danog-madelineproto-broadcast-filter-filter-bool-pin-int" name="broadcastMessages">Sends a list of messages to all peers (users, chats, channels) of the bot: broadcastMessages</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.sendMessage.html" name="messages.sendMessage">Sends a message to a chat: messages.sendMessage</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.sendEncryptedFile.html" name="messages.sendEncryptedFile">Sends a message with a file attachment to a secret chat: messages.sendEncryptedFile</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.sendEncryptedService.html" name="messages.sendEncryptedService">Sends a service message to a secret chat: messages.sendEncryptedService</a>
@@ -828,7 +831,7 @@ Want to add your own open-source project to this list? [Click here!](https://doc
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadfromcallable-mixed-callable-int-size-string-mime-string-filename-callable-cb-bool-seekable-bool-encrypted-mixed" name="uploadFromCallable">Upload file from callable: uploadFromCallable</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadfromstream-mixed-stream-int-size-string-mime-string-filename-callable-cb-bool-encrypted-mixed" name="uploadFromStream">Upload file from stream: uploadFromStream</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadencrypted-filecallbackinterface-string-array-file-string-filename-callable-cb-mixed" name="uploadEncrypted">Upload file to secret chat: uploadEncrypted</a>
-    * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#upload-filecallbackinterface-string-array-file-string-filename-callable-cb-bool-encrypted-mixed" name="upload">Upload file: upload</a>
+    * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#upload-filecallbackinterface-string-array-resource-file-string-filename-callable-cb-bool-encrypted-mixed" name="upload">Upload file: upload</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.uploadRingtone.html" name="account.uploadRingtone">Upload notification sound, use account.saveRingtone to convert it and add it to the list of saved notification sounds: account.uploadRingtone</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.uploadTheme.html" name="account.uploadTheme">Upload theme: account.uploadTheme</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.setGameScore.html" name="messages.setGameScore">Use this method to set the score of the specified user in a game sent as a normal message (bots only): messages.setGameScore</a>

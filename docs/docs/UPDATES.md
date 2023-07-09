@@ -11,6 +11,8 @@ Update handling can be done in different ways:
 * [Async Event driven](#async-event-driven)
   * [Self-restart on webhosts](#self-restart-on-webhosts)
 * [Async Event driven multi-account](#async-event-driven-multiaccount)
+* [Webhook (for HTTP APIs)](#webhook)
+* [getUpdates (only for Javascript APIs)](#getUpdates)
 * [Noop (default)](#noop)
 
 
@@ -68,16 +70,18 @@ class MyEventHandler extends EventHandler
     /**
      * @var int|string Username or ID of bot admin
      */
-    const ADMIN = "@me"; // !!! Change this to your username !!!
+    const ADMIN = "@danogentili"; // !!! Change this to your username !!!
+
+    private int $adminId;
 
     /**
      * @var array<int, bool>
      */
-    protected array $notifiedChats = [];
+    private array $notifiedChats = [];
 
-    private int $adminId;
-
-    /** Which properties to save in the database */
+    /**
+     * Returns a list of names for properties that will be automatically saved to the session database (MySQL/postgres/redis if configured, the session file otherwise).
+     */
     public function __sleep(): array
     {
         return ['notifiedChats'];
@@ -197,6 +201,7 @@ class MyEventHandler extends EventHandler
                 from_peer: $update,
                 message_ids: [$update['message']['reply_to']['reply_to_msg_id']],
                 drop_author: true,
+                pin: true,
             );
             return;
         }

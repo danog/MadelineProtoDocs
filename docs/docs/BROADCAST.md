@@ -67,6 +67,7 @@ $id = $MadelineProto->broadcastForwardMessages(
     from_peer: $from_peer,
     message_ids: $message_ids,
     drop_author: false,
+    pin: false,
 );
 
 // Send messages WITHOUT showing the "Forwarded from" header
@@ -74,8 +75,11 @@ $id = $MadelineProto->broadcastForwardMessages(
     from_peer: $from_peer,
     message_ids: $message_ids,
     drop_author: true,
+    pin: false,
 );
 ```
+
+You can specify `pin: true` to automatically pin the last sent message.  
 
 An optional `filter` parameter can also be used, specifying a [peer filter](#filtering).  
 
@@ -111,14 +115,19 @@ $MadelineProto->start();
 // Or, instead of start() you can use botLogin (bots only)
 //$MadelineProto->botLogin('1234:token');
 
-$id = $MadelineProto->broadcastMessages([
-    ['message' => 'This broadcast is powered by @MadelineProto!'],
-    ['message' => 'This media broadcast is powered by @MadelineProto!', 'media' => [
-        '_' => 'inputMediaUploadedPhoto',
-        'file' => 'https://docs.madelineproto.xyz/logo-hover.png'
-    ]],
-]);
+$id = $MadelineProto->broadcastMessages(
+    messages: [
+        ['message' => 'This broadcast is powered by @MadelineProto!'],
+        ['message' => 'This media broadcast is powered by @MadelineProto!', 'media' => [
+            '_' => 'inputMediaUploadedPhoto',
+            'file' => 'https://docs.madelineproto.xyz/logo-hover.png'
+        ]],
+    ],
+    pin: false,
+);
 ```
+
+You can specify `pin: true` to automatically pin the last sent message.  
 
 An optional `filter` parameter can also be used, specifying a [peer filter](#filtering).  
 
