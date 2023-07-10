@@ -223,6 +223,7 @@ Main API wrapper for MadelineProto.
 * [`sleep(float $time): void`](#sleep-float-time-void)
 * [`start(): mixed`](#start-mixed)
 * [`stop(): void`](#stop-void)
+* [`stringToStream(string $str): \Amp\ByteStream\ReadableBuffer`](#stringtostream-string-str-amp-bytestream-readablebuffer)
 * [`subscribeToUpdates(mixed $channel): \bool False if we were already subscribed`](#subscribetoupdates-mixed-channel-bool-false-if-we-were-already-subscribed)
 * [`tdToMTProto(array $params): array`](#tdtomtproto-array-params-array)
 * [`tdToTdcli(mixed $params): mixed`](#tdtotdcli-mixed-params-mixed)
@@ -455,7 +456,7 @@ Parameters:
 * `$message_ids`: `list<int>` IDs of the messages to forward.  
 * `$drop_author`: `bool` If true, will forward messages without quoting the original author.  
 * `$filter`: `?\danog\MadelineProto\Broadcast\Filter`   
-* `$pin`: `bool` Whether to also pin the message.  
+* `$pin`: `bool` Whether to also pin the last sent message.  
 
 
 #### See also: 
@@ -1931,6 +1932,22 @@ Log in to telegram (via CLI or web).
 ### `stop(): void`
 
 Stop update loop.
+
+
+
+### `stringToStream(string $str): \Amp\ByteStream\ReadableBuffer`
+
+Converts a string into an async amphp stream.
+
+
+Parameters:
+
+* `$str`: `string`   
+
+
+#### See also: 
+* `\Amp\ByteStream\ReadableBuffer`
+
 
 
 

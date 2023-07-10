@@ -24,7 +24,7 @@ Represents a GIF (or an MPEG4 file without sound).
 * `$size`: `int` Media filesize
 * `$fileName`: `string` Media file name
 * `$fileExt`: `string` Media file extension
-* `$creationDate`: `bool` Media creation date
+* `$creationDate`: `int` Media creation date
 * `$mimeType`: `string` Media MIME type
 * `$ttl`: `?int` Time-to-live of media
 * `$thumbs`: `list<array>` Thumbnails

@@ -18,6 +18,8 @@ $Peer = $update; // Update objects received in the event handler
 
 $Peer = 'me'; // The currently logged-in user
 
+$Peer = 'admin'; // The admin of the bot (the first peer returned by getReportPeers in an event handler)
+
 $Peer = 44700; // bot API id (users)
 $Peer = -492772765; // bot API id (chats)
 $Peer = -10038575794; // bot API id (channels)

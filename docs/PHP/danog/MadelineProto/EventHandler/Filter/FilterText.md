@@ -1,5 +1,5 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\Filter\\FilterText: Allow text-only messages."
+title: "danog\\MadelineProto\\EventHandler\\Filter\\FilterText: Allow only messages with a specific content."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
@@ -11,7 +11,7 @@ parent: "MadelineProto API"
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Allow text-only messages.  
+Allow only messages with a specific content.  
 
 
 

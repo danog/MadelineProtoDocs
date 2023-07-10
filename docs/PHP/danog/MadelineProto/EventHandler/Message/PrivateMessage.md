@@ -19,6 +19,7 @@ Represents an incoming or outgoing private message.
 * `$message`: `string` Content of the message
 * `$fwdInfo`: `?\danog\MadelineProto\EventHandler\ForwardedInfo` Info about a forwarded message
 * `$command`: `?string` Bot command (if present)
+* `$commandType`: `?\danog\MadelineProto\EventHandler\CommandType` Bot command type (if present)
 * `$commandArgs`: `list<string>` Bot command arguments (if present)
 * `$matches`: `list<string>` Regex matches, if a filter regex is present
 * `$media`: `\Audio|\Document|\DocumentPhoto|\Gif|\MaskSticker|\Photo|\RoundVideo|\Sticker|\Video|\Voice|null` 

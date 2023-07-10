@@ -18,6 +18,8 @@ $InputUser = $update; // Update objects received in the event handler
 
 $InputUser = 'me'; // The currently logged-in user
 
+$InputUser = 'admin'; // The admin of the bot (the first peer returned by getReportPeers in an event handler)
+
 $InputUser = 44700; // bot API id (users)
 $InputUser = -492772765; // bot API id (chats)
 $InputUser = -10038575794; // bot API id (channels)

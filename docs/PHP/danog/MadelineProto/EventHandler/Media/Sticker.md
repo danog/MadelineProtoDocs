@@ -22,7 +22,7 @@ Represents a sticker.
 * `$size`: `int` Media filesize
 * `$fileName`: `string` Media file name
 * `$fileExt`: `string` Media file extension
-* `$creationDate`: `bool` Media creation date
+* `$creationDate`: `int` Media creation date
 * `$mimeType`: `string` Media MIME type
 * `$ttl`: `?int` Time-to-live of media
 * `$thumbs`: `list<array>` Thumbnails

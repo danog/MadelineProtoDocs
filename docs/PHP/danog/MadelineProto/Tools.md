@@ -24,6 +24,7 @@ Some tools.
 * [`testFibers(int $fiberCount): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`](#testfibers-int-fibercount-array-maxfibers-int-realmemorymb-int-maps-int-maxmaps-int)
 * [`getMaps(): ?int`](#getmaps-int)
 * [`getMaxMaps(): ?int`](#getmaxmaps-int)
+* [`stringToStream(string $str): \Amp\ByteStream\ReadableBuffer`](#stringtostream-string-str-amp-bytestream-readablebuffer)
 * [`genVectorHash(array $ints): string`](#genvectorhash-array-ints-string)
 * [`randomInt(int $modulus): int`](#randomint-int-modulus-int)
 * [`random(int $length): string`](#random-int-length-string)
@@ -88,6 +89,22 @@ Get current number of memory-mapped regions, UNIX only.
 
 Get maximum number of memory-mapped regions, UNIX only.
 Use testFibers to get the maximum number of fibers on any platform.
+
+
+### `stringToStream(string $str): \Amp\ByteStream\ReadableBuffer`
+
+Converts a string into an async amphp stream.
+
+
+Parameters:
+
+* `$str`: `string`   
+
+
+#### See also: 
+* `\Amp\ByteStream\ReadableBuffer`
+
+
 
 
 ### `genVectorHash(array $ints): string`

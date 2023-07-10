@@ -39,6 +39,7 @@ Event handler.
 ## Method list:
 * [`startAndLoop(string $session, ?\danog\MadelineProto\SettingsAbstract $settings): void`](#startandloop-string-session-danog-madelineproto-settingsabstract-settings-void)
 * [`startAndLoopBot(string $session, string $token, ?\danog\MadelineProto\SettingsAbstract $settings): void`](#startandloopbot-string-session-string-token-danog-madelineproto-settingsabstract-settings-void)
+* [`getPeriodicLoop(string $name): \danog\Loop\PeriodicLoop`](#getperiodicloop-string-name-danog-loop-periodicloop)
 * [`getReportPeers(): string|int|(string|int)[]`](#getreportpeers-string-int-string-int)
 * [`getPluginPaths(): \non-empty-string|\non-empty-list<\non-empty-string>|null`](#getpluginpaths-non-empty-string-non-empty-list-non-empty-string-null)
 * [`getPlugins(): class-string<\danog\MadelineProto\EventHandler>[]`](#getplugins-class-string-danog-madelineproto-eventhandler)
@@ -183,6 +184,7 @@ Event handler.
 * [`sleep(float $time): void`](#sleep-float-time-void)
 * [`start(): mixed`](#start-mixed)
 * [`stop(): void`](#stop-void)
+* [`stringToStream(string $str): \Amp\ByteStream\ReadableBuffer`](#stringtostream-string-str-amp-bytestream-readablebuffer)
 * [`subscribeToUpdates(mixed $channel): \bool False if we were already subscribed`](#subscribetoupdates-mixed-channel-bool-false-if-we-were-already-subscribed)
 * [`tdToMTProto(array $params): array`](#tdtomtproto-array-params-array)
 * [`tdToTdcli(mixed $params): mixed`](#tdtotdcli-mixed-params-mixed)
@@ -246,6 +248,22 @@ Parameters:
 
 
 
+### `getPeriodicLoop(string $name): \danog\Loop\PeriodicLoop`
+
+Obtain a PeriodicLoop instance created by the Periodic attribute.
+
+
+Parameters:
+
+* `$name`: `string` Method name  
+
+
+#### See also: 
+* `\danog\Loop\PeriodicLoop`
+
+
+
+
 ### `getReportPeers(): string|int|(string|int)[]`
 
 Get peers where to send error reports.
@@ -255,7 +273,7 @@ Get peers where to send error reports.
 ### `getPluginPaths(): \non-empty-string|\non-empty-list<\non-empty-string>|null`
 
 Obtain a path or a list of paths that will be recursively searched for plugins.
-Plugin filenames end with .plugin.php, and will be included automatically.
+Plugin filenames end with Plugin.php, and will be included automatically.
 
 
 ### `getPlugins(): class-string<\danog\MadelineProto\EventHandler>[]`
@@ -417,7 +435,7 @@ Parameters:
 * `$message_ids`: `list<int>` IDs of the messages to forward.  
 * `$drop_author`: `bool` If true, will forward messages without quoting the original author.  
 * `$filter`: `?\danog\MadelineProto\Broadcast\Filter`   
-* `$pin`: `bool` Whether to also pin the message.  
+* `$pin`: `bool` Whether to also pin the last sent message.  
 
 
 #### See also: 
@@ -1893,6 +1911,22 @@ Log in to telegram (via CLI or web).
 ### `stop(): void`
 
 Stop update loop.
+
+
+
+### `stringToStream(string $str): \Amp\ByteStream\ReadableBuffer`
+
+Converts a string into an async amphp stream.
+
+
+Parameters:
+
+* `$str`: `string`   
+
+
+#### See also: 
+* `\Amp\ByteStream\ReadableBuffer`
+
 
 
 
