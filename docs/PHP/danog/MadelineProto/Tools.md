@@ -47,6 +47,8 @@ Some tools.
 * [`closeConnection(string $message): void`](#closeconnection-string-message-void)
 * [`end(array $what): mixed`](#end-array-what-mixed)
 * [`isAltervista(): bool`](#isaltervista-bool)
+* [`validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): void`](#validateeventhandlerclass-class-string-danog-madelineproto-eventhandler-class-void)
+* [`validateEventHandlerCode(string $code): void`](#validateeventhandlercode-string-code-void)
 * [`rethrow(\Throwable $e): void`](#rethrow-throwable-e-void)
 * [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-callable-mixed-args-amp-future-t)
 * [`flock(string $file, int $operation, float $polling, ?\Amp\Cancellation $token, ?\Closure $failureCb): mixed`](#flock-string-file-int-operation-float-polling-amp-cancellation-token-closure-failurecb-mixed)
@@ -343,6 +345,33 @@ Parameters:
 ### `isAltervista(): bool`
 
 Whether this is altervista.
+
+
+
+### `validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): void`
+
+Perform static analysis on a certain event handler class, to make sure it satisfies some performance requirements.
+
+
+Parameters:
+
+* `$class`: `class-string<\danog\MadelineProto\EventHandler>` Class name  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler`: Event handler.](../../danog/MadelineProto/EventHandler.html)
+
+
+
+
+### `validateEventHandlerCode(string $code): void`
+
+Perform static analysis on a certain event handler class, to make sure it satisfies some performance requirements.
+
+
+Parameters:
+
+* `$code`: `string` Code of the class.  
 
 
 

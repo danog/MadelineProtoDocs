@@ -127,6 +127,7 @@ Main API wrapper for MadelineProto.
 * [`fullChatLastUpdated(mixed $id): int`](#fullchatlastupdated-mixed-id-int)
 * [`fullGetSelf(): array|false`](#fullgetself-array-false)
 * [`genVectorHash(array $ints): string`](#genvectorhash-array-ints-string)
+* [`getAdmin(): int`](#getadmin-int)
 * [`getAllMethods(): array`](#getallmethods-array)
 * [`getAuthorization(): \danog\MadelineProto\API::NOT_LOGGED_IN|\danog\MadelineProto\API::WAITING_CODE|\danog\MadelineProto\API::WAITING_SIGNUP|\danog\MadelineProto\API::WAITING_PASSWORD|\danog\MadelineProto\API::LOGGED_IN`](#getauthorization-danog-madelineproto-api-not_logged_in-danog-madelineproto-api-waiting_code-danog-madelineproto-api-waiting_signup-danog-madelineproto-api-waiting_password-danog-madelineproto-api-logged_in)
 * [`getBroadcastProgress(int $id): ?\danog\MadelineProto\Broadcast\Progress`](#getbroadcastprogress-int-id-danog-madelineproto-broadcast-progress)
@@ -139,7 +140,7 @@ Main API wrapper for MadelineProto.
 * [`getDialogIds(): list<int>`](#getdialogids-list-int)
 * [`getDialogs(): list<array>`](#getdialogs-list-array)
 * [`getDownloadInfo(mixed $messageMedia): array{ext: string, name: string, mime: string, size: int, InputFileLocation: array}`](#getdownloadinfo-mixed-messagemedia-array-ext-string-name-string-mime-string-size-int-inputfilelocation-array)
-* [`getEventHandler(): \danog\MadelineProto\EventHandler|\__PHP_Incomplete_Class|null`](#geteventhandler-danog-madelineproto-eventhandler-__php_incomplete_class-null)
+* [`getEventHandler(): \danog\MadelineProto\EventHandler|\danog\MadelineProto\Ipc\EventHandlerProxy|\__PHP_Incomplete_Class|null`](#geteventhandler-danog-madelineproto-eventhandler-danog-madelineproto-ipc-eventhandlerproxy-__php_incomplete_class-null)
 * [`getExtensionFromLocation(mixed $location, string $default): string`](#getextensionfromlocation-mixed-location-string-default-string)
 * [`getExtensionFromMime(string $mime): string`](#getextensionfrommime-string-mime-string)
 * [`getFileInfo(mixed $constructor): array`](#getfileinfo-mixed-constructor-array)
@@ -158,7 +159,7 @@ Main API wrapper for MadelineProto.
 * [`getMimeFromBuffer(string $buffer): string`](#getmimefrombuffer-string-buffer-string)
 * [`getMimeFromExtension(string $extension, string $default): string`](#getmimefromextension-string-extension-string-default-string)
 * [`getMimeFromFile(string $file): string`](#getmimefromfile-string-file-string)
-* [`getPluginInstance(class-string<\T> $class): \danog\MadelineProto\EventHandler`](#getplugininstance-class-string-t-class-danog-madelineproto-eventhandler)
+* [`getPlugin(class-string<\T> $class): \danog\MadelineProto\PluginEventHandler|\danog\MadelineProto\Ipc\EventHandlerProxy|null`](#getplugin-class-string-t-class-danog-madelineproto-plugineventhandler-danog-madelineproto-ipc-eventhandlerproxy-null)
 * [`getPropicInfo(mixed $data): array`](#getpropicinfo-mixed-data-array)
 * [`getPsrLogger(): \Psr\Log\LoggerInterface`](#getpsrlogger-psr-log-loggerinterface)
 * [`getPwrChat(mixed $id, bool $fullfetch): array`](#getpwrchat-mixed-id-bool-fullfetch-array)
@@ -172,7 +173,7 @@ Main API wrapper for MadelineProto.
 * [`getUpdates(array{offset?: int, limit?: int, timeout?: float} $params): list<array{update_id: mixed, update: mixed}>`](#getupdates-array-offset-int-limit-int-timeout-float-params-list-array-update_id-mixed-update-mixed)
 * [`getWebMessage(string $message): string`](#getwebmessage-string-message-string)
 * [`hasEventHandler(): bool`](#haseventhandler-bool)
-* [`hasPluginInstance(class-string<\danog\MadelineProto\EventHandler> $class): bool`](#hasplugininstance-class-string-danog-madelineproto-eventhandler-class-bool)
+* [`hasPlugin(class-string<\danog\MadelineProto\EventHandler> $class): bool`](#hasplugin-class-string-danog-madelineproto-eventhandler-class-bool)
 * [`hasReportPeers(): bool`](#hasreportpeers-bool)
 * [`hasSecretChat(array|int $chat): bool`](#hassecretchat-array-int-chat-bool)
 * [`htmlToMessageEntities(string $html): \danog\MadelineProto\TL\Conversion\DOMEntities Object containing message and entities`](#htmltomessageentities-string-html-danog-madelineproto-tl-conversion-domentities-object-containing-message-and-entities)
@@ -205,7 +206,7 @@ Main API wrapper for MadelineProto.
 * [`refreshFullPeerCache(mixed $id): void`](#refreshfullpeercache-mixed-id-void)
 * [`refreshPeerCache(mixed ...$ids): void`](#refreshpeercache-mixed-ids-void)
 * [`rekey(int $chat): ?string`](#rekey-int-chat-string)
-* [`report(string $message, string $parseMode): void`](#report-string-message-string-parsemode-void)
+* [`report(string $message, string $parseMode, bool $sendLogs): void`](#report-string-message-string-parsemode-bool-sendlogs-void)
 * [`reportMemoryProfile(): void`](#reportmemoryprofile-void)
 * [`requestCall(mixed $user): mixed`](#requestcall-mixed-user-mixed)
 * [`requestSecretChat(mixed $user): mixed`](#requestsecretchat-mixed-user-mixed)
@@ -216,6 +217,10 @@ Main API wrapper for MadelineProto.
 * [`rleEncode(string $string): string`](#rleencode-string-string-string)
 * [`secretChatStatus(int $chat): \int One of \danog\MadelineProto\API::SECRET_EMPTY, \danog\MadelineProto\API::SECRET_REQUESTED, \danog\MadelineProto\API::SECRET_READY`](#secretchatstatus-int-chat-int-one-of-danog-madelineproto-api-secret_empty-danog-madelineproto-api-secret_requested-danog-madelineproto-api-secret_ready)
 * [`sendCustomEvent(mixed $payload): void`](#sendcustomevent-mixed-payload-void)
+* [`sendDocument(int|string $peer, \Message|\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\ReadableStream $file, \Message|\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\ReadableStream|null $thumb, string $caption, \"html"|\"markdown"|null $parseMode, ?callable $callback, ?string $fileName, ?string $mimeType, ?int $ttl, bool $spoiler, int|null $replyToMsgId, int|null $topMsgId, array|null $replyMarkup, int|null $sendAs, int|null $scheduleDate, bool $silent, bool $noForwards, bool $background, bool $clearDraft, bool $updateStickersetsOrder): \danog\MadelineProto\EventHandler\Message`](#senddocument-int-string-peer-message-media-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-readablestream-file-message-media-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-readablestream-null-thumb-string-caption-html-markdown-null-parsemode-callable-callback-string-filename-string-mimetype-int-ttl-bool-spoiler-int-null-replytomsgid-int-null-topmsgid-array-null-replymarkup-int-null-sendas-int-null-scheduledate-bool-silent-bool-noforwards-bool-background-bool-cleardraft-bool-updatestickersetsorder-danog-madelineproto-eventhandler-message)
+* [`sendMessage(int|string $peer, string $message, \"html"|\"markdown"|null $parseMode, int|null $replyToMsgId, int|null $topMsgId, array|null $replyMarkup, int|null $sendAs, int|null $scheduleDate, bool $silent, bool $noForwards, bool $background, bool $clearDraft, bool $noWebpage, bool $updateStickersetsOrder): \danog\MadelineProto\EventHandler\Message`](#sendmessage-int-string-peer-string-message-html-markdown-null-parsemode-int-null-replytomsgid-int-null-topmsgid-array-null-replymarkup-int-null-sendas-int-null-scheduledate-bool-silent-bool-noforwards-bool-background-bool-cleardraft-bool-nowebpage-bool-updatestickersetsorder-danog-madelineproto-eventhandler-message)
+* [`sendMessageToAdmins(string $message, \"html"|\"markdown"|null $parseMode, array|null $replyMarkup, int|null $scheduleDate, bool $silent, bool $noForwards, bool $background, bool $clearDraft, bool $noWebpage): list<\Message>`](#sendmessagetoadmins-string-message-html-markdown-null-parsemode-array-null-replymarkup-int-null-scheduledate-bool-silent-bool-noforwards-bool-background-bool-cleardraft-bool-nowebpage-list-message)
+* [`sendPhoto(int|string $peer, \Message|\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\ReadableStream $file, string $caption, \"html"|\"markdown"|null $parseMode, ?callable $callback, ?string $fileName, ?int $ttl, bool $spoiler, int|null $replyToMsgId, int|null $topMsgId, array|null $replyMarkup, int|null $sendAs, int|null $scheduleDate, bool $silent, bool $noForwards, bool $background, bool $clearDraft, bool $updateStickersetsOrder): \danog\MadelineProto\EventHandler\Message`](#sendphoto-int-string-peer-message-media-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-readablestream-file-string-caption-html-markdown-null-parsemode-callable-callback-string-filename-int-ttl-bool-spoiler-int-null-replytomsgid-int-null-topmsgid-array-null-replymarkup-int-null-sendas-int-null-scheduledate-bool-silent-bool-noforwards-bool-background-bool-cleardraft-bool-updatestickersetsorder-danog-madelineproto-eventhandler-message)
 * [`setNoop(): void`](#setnoop-void)
 * [`setReportPeers(int|string|(int|string)[] $userOrId): void`](#setreportpeers-int-string-int-string-userorid-void)
 * [`setWebhook(string $webhookUrl): void`](#setwebhook-string-webhookurl-void)
@@ -240,14 +245,16 @@ Main API wrapper for MadelineProto.
 * [`unsetEventHandler(): void`](#unseteventhandler-void)
 * [`update2fa(array{password?: string, new_password?: string, email?: string, hint?: string} $params): void`](#update2fa-array-password-string-new_password-string-email-string-hint-string-params-void)
 * [`updateSettings(\danog\MadelineProto\SettingsAbstract $settings): void`](#updatesettings-danog-madelineproto-settingsabstract-settings-void)
-* [`upload(\danog\MadelineProto\FileCallbackInterface|string|array|\resource $file, string $fileName, callable $cb, bool $encrypted): mixed`](#upload-danog-madelineproto-filecallbackinterface-string-array-resource-file-string-filename-callable-cb-bool-encrypted-mixed)
+* [`upload(\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array $file, string $fileName, callable $cb, bool $encrypted): mixed`](#upload-danog-madelineproto-filecallbackinterface-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-string-array-file-string-filename-callable-cb-bool-encrypted-mixed)
 * [`uploadEncrypted(\danog\MadelineProto\FileCallbackInterface|string|array $file, string $fileName, callable $cb): mixed`](#uploadencrypted-danog-madelineproto-filecallbackinterface-string-array-file-string-filename-callable-cb-mixed)
 * [`uploadFromCallable(mixed $callable, int $size, string $mime, string $fileName, callable $cb, bool $seekable, bool $encrypted): mixed`](#uploadfromcallable-mixed-callable-int-size-string-mime-string-filename-callable-cb-bool-seekable-bool-encrypted-mixed)
 * [`uploadFromStream(mixed $stream, int $size, string $mime, string $fileName, callable $cb, bool $encrypted): mixed`](#uploadfromstream-mixed-stream-int-size-string-mime-string-filename-callable-cb-bool-encrypted-mixed)
 * [`uploadFromTgfile(mixed $media, callable $cb, bool $encrypted): mixed`](#uploadfromtgfile-mixed-media-callable-cb-bool-encrypted-mixed)
 * [`uploadFromUrl(string|\danog\MadelineProto\FileCallbackInterface $url, int $size, string $fileName, callable $cb, bool $encrypted): mixed`](#uploadfromurl-string-danog-madelineproto-filecallbackinterface-url-int-size-string-filename-callable-cb-bool-encrypted-mixed)
+* [`validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): void`](#validateeventhandlerclass-class-string-danog-madelineproto-eventhandler-class-void)
+* [`validateEventHandlerCode(string $code): void`](#validateeventhandlercode-string-code-void)
 * [`viewSponsoredMessage(int|array $peer, string|array{random_id: string} $message): bool`](#viewsponsoredmessage-int-array-peer-string-array-random_id-string-message-bool)
-* [`wrapMedia(array $media): ?\danog\MadelineProto\EventHandler\Media`](#wrapmedia-array-media-danog-madelineproto-eventhandler-media)
+* [`wrapMedia(array $media, bool $protected): ?\danog\MadelineProto\EventHandler\Media`](#wrapmedia-array-media-bool-protected-danog-madelineproto-eventhandler-media)
 * [`wrapMessage(array $message): ?\danog\MadelineProto\EventHandler\Message`](#wrapmessage-array-message-danog-madelineproto-eventhandler-message)
 * [`wrapUpdate(array $update): ?\danog\MadelineProto\EventHandler\Update`](#wrapupdate-array-update-danog-madelineproto-eventhandler-update)
 
@@ -660,7 +667,7 @@ Parameters:
 
 * `$messageMedia`: `mixed` File to download  
 * `$callable`: `callable|\danog\MadelineProto\FileCallbackInterface` Chunk callback  
-* `$cb`: `callable` Status callback (DEPRECATED, use FileCallbackInterface)  
+* `$cb`: `callable` Status callback  
 * `$seekable`: `bool` Whether the callable can be called out of order  
 * `$offset`: `int` Offset where to start downloading  
 * `$end`: `int` Offset where to stop downloading (inclusive)  
@@ -682,7 +689,7 @@ Parameters:
 
 * `$messageMedia`: `mixed` File to download  
 * `$dir`: `string|\danog\MadelineProto\FileCallbackInterface` Directory where to download the file  
-* `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
+* `$cb`: `callable` Callback  
 
 
 #### See also: 
@@ -700,7 +707,7 @@ Parameters:
 
 * `$messageMedia`: `mixed` File to download  
 * `$file`: `string|\danog\MadelineProto\FileCallbackInterface` Downloaded file path  
-* `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
+* `$cb`: `callable` Callback  
 
 
 #### See also: 
@@ -922,6 +929,12 @@ Parameters:
 
 
 
+### `getAdmin(): int`
+
+Obtain the ID of the admin of the bot (equal to the first user ID returned by getReportPeers).
+
+
+
 ### `getAllMethods(): array`
 
 Get full list of MTProto and API methods.
@@ -1039,13 +1052,14 @@ Parameters:
 
 
 
-### `getEventHandler(): \danog\MadelineProto\EventHandler|\__PHP_Incomplete_Class|null`
+### `getEventHandler(): \danog\MadelineProto\EventHandler|\danog\MadelineProto\Ipc\EventHandlerProxy|\__PHP_Incomplete_Class|null`
 
 Get event handler.
 
 
 #### See also: 
 * [`\danog\MadelineProto\EventHandler`: Event handler.](../../danog/MadelineProto/EventHandler.html)
+* `\danog\MadelineProto\Ipc\EventHandlerProxy`
 * `\__PHP_Incomplete_Class`
 
 
@@ -1232,7 +1246,7 @@ Parameters:
 
 
 
-### `getPluginInstance(class-string<\T> $class): \danog\MadelineProto\EventHandler`
+### `getPlugin(class-string<\T> $class): \danog\MadelineProto\PluginEventHandler|\danog\MadelineProto\Ipc\EventHandlerProxy|null`
 
 Obtain a certain event handler plugin instance.
 
@@ -1244,7 +1258,8 @@ Parameters:
 
 #### See also: 
 * `\T`
-* [`\danog\MadelineProto\EventHandler`: Event handler.](../../danog/MadelineProto/EventHandler.html)
+* [`\danog\MadelineProto\PluginEventHandler`: Plugin event handler class.](../../danog/MadelineProto/PluginEventHandler.html)
+* `\danog\MadelineProto\Ipc\EventHandlerProxy`
 
 
 
@@ -1391,7 +1406,7 @@ Check if an event handler instance is present.
 
 
 
-### `hasPluginInstance(class-string<\danog\MadelineProto\EventHandler> $class): bool`
+### `hasPlugin(class-string<\danog\MadelineProto\EventHandler> $class): bool`
 
 Check if a certain event handler plugin is installed.
 
@@ -1764,7 +1779,7 @@ Parameters:
 
 
 
-### `report(string $message, string $parseMode): void`
+### `report(string $message, string $parseMode, bool $sendLogs): void`
 
 Report an error to the previously set peer.
 
@@ -1773,6 +1788,7 @@ Parameters:
 
 * `$message`: `string` Error to report  
 * `$parseMode`: `string` Parse mode  
+* `$sendLogs`: `bool` Whether to also send logs  
 
 
 
@@ -1875,6 +1891,139 @@ Sends an updateCustomEvent update to the event handler.
 Parameters:
 
 * `$payload`: `mixed`   
+
+
+
+### `sendDocument(int|string $peer, \Message|\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\ReadableStream $file, \Message|\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\ReadableStream|null $thumb, string $caption, \"html"|\"markdown"|null $parseMode, ?callable $callback, ?string $fileName, ?string $mimeType, ?int $ttl, bool $spoiler, int|null $replyToMsgId, int|null $topMsgId, array|null $replyMarkup, int|null $sendAs, int|null $scheduleDate, bool $silent, bool $noForwards, bool $background, bool $clearDraft, bool $updateStickersetsOrder): \danog\MadelineProto\EventHandler\Message`
+
+Sends a document.
+Please use named arguments to call this method.
+
+Parameters:
+
+* `$peer`: `int|string` Destination peer or username.  
+* `$file`: `\Message|\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\ReadableStream` File to upload: can be a message to reuse media present in a message.  
+* `$thumb`: `\Message|\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\ReadableStream|null` Optional: Thumbnail to upload  
+* `$caption`: `string` Caption of document  
+* `$parseMode`: `\"html"|\"markdown"|null` Parse mode  
+* `$callback`: `?callable`   
+* `$fileName`: `?string` Optional file name, if absent will be extracted from the passed $file.  
+* `$mimeType`: `?string`   
+* `$ttl`: `?int`   
+* `$spoiler`: `bool`   
+* `$replyToMsgId`: `int|null` ID of message to reply to.  
+* `$topMsgId`: `int|null` ID of thread where to send the message.  
+* `$replyMarkup`: `array|null` Keyboard information.  
+* `$sendAs`: `int|null` Peer to send the message as.  
+* `$scheduleDate`: `int|null` Schedule date.  
+* `$silent`: `bool` Whether to send the message silently, without triggering notifications.  
+* `$noForwards`: `bool`   
+* `$background`: `bool` Send this message as background message  
+* `$clearDraft`: `bool` Clears the draft field  
+* `$updateStickersetsOrder`: `bool` Whether to move used stickersets to top  
+
+
+#### See also: 
+* `\Message`
+* `\Media`
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload.](../../danog/MadelineProto/BotApiFileId.html)
+* `\ReadableStream`
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../danog/MadelineProto/EventHandler/Message.html)
+
+
+
+
+### `sendMessage(int|string $peer, string $message, \"html"|\"markdown"|null $parseMode, int|null $replyToMsgId, int|null $topMsgId, array|null $replyMarkup, int|null $sendAs, int|null $scheduleDate, bool $silent, bool $noForwards, bool $background, bool $clearDraft, bool $noWebpage, bool $updateStickersetsOrder): \danog\MadelineProto\EventHandler\Message`
+
+Sends a message.
+
+
+Parameters:
+
+* `$peer`: `int|string` Destination peer or username.  
+* `$message`: `string` Message to send  
+* `$parseMode`: `\"html"|\"markdown"|null` Parse mode  
+* `$replyToMsgId`: `int|null` ID of message to reply to.  
+* `$topMsgId`: `int|null` ID of thread where to send the message.  
+* `$replyMarkup`: `array|null` Keyboard information.  
+* `$sendAs`: `int|null` Peer to send the message as.  
+* `$scheduleDate`: `int|null` Schedule date.  
+* `$silent`: `bool` Whether to send the message silently, without triggering notifications.  
+* `$noForwards`: `bool`   
+* `$background`: `bool` Send this message as background message  
+* `$clearDraft`: `bool` Clears the draft field  
+* `$noWebpage`: `bool` Set this flag to disable generation of the webpage preview  
+* `$updateStickersetsOrder`: `bool` Whether to move used stickersets to top  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../danog/MadelineProto/EventHandler/Message.html)
+
+
+
+
+### `sendMessageToAdmins(string $message, \"html"|\"markdown"|null $parseMode, array|null $replyMarkup, int|null $scheduleDate, bool $silent, bool $noForwards, bool $background, bool $clearDraft, bool $noWebpage): list<\Message>`
+
+Sends a message.
+
+
+Parameters:
+
+* `$message`: `string` Message to send  
+* `$parseMode`: `\"html"|\"markdown"|null` Parse mode  
+* `$replyMarkup`: `array|null` Keyboard information.  
+* `$scheduleDate`: `int|null` Schedule date.  
+* `$silent`: `bool` Whether to send the message silently, without triggering notifications.  
+* `$noForwards`: `bool`   
+* `$background`: `bool` Send this message as background message  
+* `$clearDraft`: `bool` Clears the draft field  
+* `$noWebpage`: `bool` Set this flag to disable generation of the webpage preview  
+
+
+#### See also: 
+* `\Message`
+
+
+
+
+### `sendPhoto(int|string $peer, \Message|\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\ReadableStream $file, string $caption, \"html"|\"markdown"|null $parseMode, ?callable $callback, ?string $fileName, ?int $ttl, bool $spoiler, int|null $replyToMsgId, int|null $topMsgId, array|null $replyMarkup, int|null $sendAs, int|null $scheduleDate, bool $silent, bool $noForwards, bool $background, bool $clearDraft, bool $updateStickersetsOrder): \danog\MadelineProto\EventHandler\Message`
+
+Sends a photo.
+Please use named arguments to call this method.
+
+Parameters:
+
+* `$peer`: `int|string` Destination peer or username.  
+* `$file`: `\Message|\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\ReadableStream` File to upload: can be a message to reuse media present in a message.  
+* `$caption`: `string` Caption of document  
+* `$parseMode`: `\"html"|\"markdown"|null` Parse mode  
+* `$callback`: `?callable`   
+* `$fileName`: `?string` Optional file name, if absent will be extracted from the passed $file.  
+* `$ttl`: `?int`   
+* `$spoiler`: `bool`   
+* `$replyToMsgId`: `int|null` ID of message to reply to.  
+* `$topMsgId`: `int|null` ID of thread where to send the message.  
+* `$replyMarkup`: `array|null` Keyboard information.  
+* `$sendAs`: `int|null` Peer to send the message as.  
+* `$scheduleDate`: `int|null` Schedule date.  
+* `$silent`: `bool` Whether to send the message silently, without triggering notifications.  
+* `$noForwards`: `bool`   
+* `$background`: `bool` Send this message as background message  
+* `$clearDraft`: `bool` Clears the draft field  
+* `$updateStickersetsOrder`: `bool` Whether to move used stickersets to top  
+
+
+#### See also: 
+* `\Message`
+* `\Media`
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload.](../../danog/MadelineProto/BotApiFileId.html)
+* `\ReadableStream`
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../danog/MadelineProto/EventHandler/Message.html)
+
 
 
 
@@ -2132,14 +2281,14 @@ Parameters:
 
 
 
-### `upload(\danog\MadelineProto\FileCallbackInterface|string|array|\resource $file, string $fileName, callable $cb, bool $encrypted): mixed`
+### `upload(\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array $file, string $fileName, callable $cb, bool $encrypted): mixed`
 
 Upload file.
 
 
 Parameters:
 
-* `$file`: `\danog\MadelineProto\FileCallbackInterface|string|array|\resource` File, URL or Telegram file to upload  
+* `$file`: `\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array` File, URL or Telegram file to upload  
 * `$fileName`: `string` File name  
 * `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
 * `$encrypted`: `bool` Whether to encrypt file for secret chats  
@@ -2147,7 +2296,9 @@ Parameters:
 
 #### See also: 
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
-* `\resource`
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload.](../../danog/MadelineProto/BotApiFileId.html)
 
 
 
@@ -2182,7 +2333,7 @@ Parameters:
 * `$size`: `int` File size  
 * `$mime`: `string` Mime type  
 * `$fileName`: `string` File name  
-* `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
+* `$cb`: `callable` Callback  
 * `$seekable`: `bool` Whether chunks can be fetched out of order  
 * `$encrypted`: `bool` Whether to encrypt file for secret chats  
 
@@ -2212,7 +2363,7 @@ Reupload telegram file.
 Parameters:
 
 * `$media`: `mixed` Telegram file  
-* `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
+* `$cb`: `callable` Callback  
 * `$encrypted`: `bool` Whether to encrypt file for secret chats  
 
 
@@ -2227,13 +2378,40 @@ Parameters:
 * `$url`: `string|\danog\MadelineProto\FileCallbackInterface` URL of file  
 * `$size`: `int` Size of file  
 * `$fileName`: `string` File name  
-* `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
+* `$cb`: `callable` Callback  
 * `$encrypted`: `bool` Whether to encrypt file for secret chats  
 
 
 #### See also: 
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
 
+
+
+
+### `validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): void`
+
+Perform static analysis on a certain event handler class, to make sure it satisfies some performance requirements.
+
+
+Parameters:
+
+* `$class`: `class-string<\danog\MadelineProto\EventHandler>` Class name  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler`: Event handler.](../../danog/MadelineProto/EventHandler.html)
+
+
+
+
+### `validateEventHandlerCode(string $code): void`
+
+Perform static analysis on a certain event handler class, to make sure it satisfies some performance requirements.
+
+
+Parameters:
+
+* `$code`: `string` Code of the class.  
 
 
 
@@ -2249,7 +2427,7 @@ Parameters:
 
 
 
-### `wrapMedia(array $media): ?\danog\MadelineProto\EventHandler\Media`
+### `wrapMedia(array $media, bool $protected): ?\danog\MadelineProto\EventHandler\Media`
 
 Wrap a media constructor into an abstract Media object.
 
@@ -2257,6 +2435,7 @@ Wrap a media constructor into an abstract Media object.
 Parameters:
 
 * `$media`: `array`   
+* `$protected`: `bool`   
 
 
 #### See also: 

@@ -15,6 +15,9 @@ File callback interface.
 
 
 
+## Properties
+* `$callback`: `callable` (float, float, float)
+* `$file`: `mixed` 
 
 ## Method list:
 * [`__construct(mixed $file, callable $callback)`](#__construct-mixed-file-callable-callback)
@@ -29,7 +32,7 @@ Construct file callback.
 Parameters:
 
 * `$file`: `mixed` File to download/upload  
-* `$callback`: `callable` Callback  
+* `$callback`: `callable`   
 
 
 

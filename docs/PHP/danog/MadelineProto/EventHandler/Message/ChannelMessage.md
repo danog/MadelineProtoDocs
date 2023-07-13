@@ -23,6 +23,7 @@ Represents an incoming or outgoing channel message.
 * `$command`: `?string` Bot command (if present)
 * `$commandType`: `?\danog\MadelineProto\EventHandler\CommandType` Bot command type (if present)
 * `$commandArgs`: `list<string>` Bot command arguments (if present)
+* `$protected`: `bool` Whether this message is protected
 * `$matches`: `list<string>` Regex matches, if a filter regex is present
 * `$media`: `\Audio|\Document|\DocumentPhoto|\Gif|\MaskSticker|\Photo|\RoundVideo|\Sticker|\Video|\Voice|null` 
 * `$fromScheduled`: `bool` Whether this message is a sent scheduled message
@@ -46,6 +47,9 @@ Represents an incoming or outgoing channel message.
 
 ## Method list:
 * [`getHTML(bool $allowTelegramTags): string`](#gethtml-bool-allowtelegramtags-string)
+* [`getReply(): ?self`](#getreply-self)
+* [`delete(bool $revoke): void`](#delete-bool-revoke-void)
+* [`reply(string $message, \"html"|\"markdown"|null $parseMode, array|null $replyMarkup, int|null $sendAs, int|null $scheduleDate, bool $silent, bool $noForwards, bool $background, bool $clearDraft, bool $noWebpage, bool $updateStickersetsOrder): \danog\MadelineProto\EventHandler\Message`](#reply-string-message-html-markdown-null-parsemode-array-null-replymarkup-int-null-sendas-int-null-scheduledate-bool-silent-bool-noforwards-bool-background-bool-cleardraft-bool-nowebpage-bool-updatestickersetsorder-danog-madelineproto-eventhandler-message)
 
 ## Methods:
 ### `getHTML(bool $allowTelegramTags): string`
@@ -56,6 +60,49 @@ Get an HTML version of the message.
 Parameters:
 
 * `$allowTelegramTags`: `bool` Whether to allow telegram-specific tags like tg-spoiler, tg-emoji, mention links and so on...  
+
+
+
+### `getReply(): ?self`
+
+Get replied-to message.
+May return null if the replied-to message was deleted.
+
+
+### `delete(bool $revoke): void`
+
+Delete the message.
+
+
+Parameters:
+
+* `$revoke`: `bool` Whether to delete the message for all participants of the chat.  
+
+
+
+### `reply(string $message, \"html"|\"markdown"|null $parseMode, array|null $replyMarkup, int|null $sendAs, int|null $scheduleDate, bool $silent, bool $noForwards, bool $background, bool $clearDraft, bool $noWebpage, bool $updateStickersetsOrder): \danog\MadelineProto\EventHandler\Message`
+
+Reply to the message.
+
+
+Parameters:
+
+* `$message`: `string` Message to send  
+* `$parseMode`: `\"html"|\"markdown"|null` Parse mode  
+* `$replyMarkup`: `array|null` Keyboard information.  
+* `$sendAs`: `int|null` Peer to send the message as.  
+* `$scheduleDate`: `int|null` Schedule date.  
+* `$silent`: `bool` Whether to send the message silently, without triggering notifications.  
+* `$noForwards`: `bool`   
+* `$background`: `bool` Send this message as background message  
+* `$clearDraft`: `bool` Clears the draft field  
+* `$noWebpage`: `bool` Set this flag to disable generation of the webpage preview  
+* `$updateStickersetsOrder`: `bool` Whether to move used stickersets to top  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
+
 
 
 

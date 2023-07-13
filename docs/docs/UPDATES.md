@@ -44,7 +44,6 @@ Update handling can be done in different ways:
 use danog\MadelineProto\API;
 use danog\MadelineProto\Broadcast\Progress;
 use danog\MadelineProto\Broadcast\Status;
-use danog\MadelineProto\EventHandler;
 use danog\MadelineProto\EventHandler\Attributes\Cron;
 use danog\MadelineProto\EventHandler\Attributes\Handler;
 use danog\MadelineProto\EventHandler\Filter\FilterCommand;
@@ -56,6 +55,7 @@ use danog\MadelineProto\Settings;
 use danog\MadelineProto\Settings\Database\Mysql;
 use danog\MadelineProto\Settings\Database\Postgres;
 use danog\MadelineProto\Settings\Database\Redis;
+use danog\MadelineProto\SimpleEventHandler;
 
 // MadelineProto is already loaded
 if (class_exists(API::class)) {
@@ -74,12 +74,12 @@ if (class_exists(API::class)) {
  *
  * All properties returned by __sleep are automatically stored in the database.
  */
-class MyEventHandler extends EventHandler
+class MyEventHandler extends SimpleEventHandler
 {
     /**
      * @var int|string Username or ID of bot admin
      */
-    const ADMIN = "@danogentili"; // !!! Change this to your username !!!
+    const ADMIN = "@me"; // !!! Change this to your username !!!
 
     private int $adminId;
 
@@ -114,13 +114,7 @@ class MyEventHandler extends EventHandler
         $this->logger($this->getFullInfo('MadelineProto'));
         $this->adminId = $this->getId(self::ADMIN);
 
-        if ($this->getSelf()['bot'] && $this->getSelf()['id'] === $this->adminId) {
-            return;
-        }
-        $this->messages->sendMessage(
-            peer: '@admin', // You can also use self::ADMIN, which does the same thing
-            message: "The bot was started!"
-        );
+        $this->sendMessageToAdmins("The bot was started!");
     }
 
     /**
@@ -129,10 +123,7 @@ class MyEventHandler extends EventHandler
     #[Cron(period: 60.0)]
     public function cron1(): void
     {
-        $this->messages->sendMessage(
-            peer: '@admin',
-            message: "The bot is online, current time ".date(DATE_RFC850)."!"
-        );
+        $this->sendMessageToAdmins("The bot is online, current time ".date(DATE_RFC850)."!");
     }
 
     private int $lastLog = 0;
@@ -143,10 +134,7 @@ class MyEventHandler extends EventHandler
     {
         if (time() - $this->lastLog > 5 || $progress->status === Status::FINISHED) {
             $this->lastLog = time();
-            $this->messages->sendMessage(
-                peer: 'admin',
-                message: (string) $progress
-            );
+            $this->sendMessageToAdmins((string) $progress);
         }
     }
 
@@ -160,18 +148,14 @@ class MyEventHandler extends EventHandler
     #[Handler]
     public function handleMessage(Incoming&Message $message): void
     {
-        $this->logger($message);
-
         // In this example code, send the "This userbot is powered by MadelineProto!" message only once per chat.
         // Ignore all further messages coming from this chat.
         if (!isset($this->notifiedChats[$message->chatId])) {
             $this->notifiedChats[$message->chatId] = true;
 
-            $this->messages->sendMessage(
-                peer: $message->chatId,
+            $message->reply(
                 message: "This userbot is powered by [MadelineProto](https://t.me/MadelineProto)!",
-                reply_to_msg_id: $message->id,
-                parse_mode: 'Markdown'
+                parseMode: 'Markdown'
             );
         }
     }
@@ -192,11 +176,7 @@ class MyEventHandler extends EventHandler
         // We can broadcast messages to all users.
         if ($message->senderId === $this->adminId) {
             if (!$message->replyToMsgId) {
-                $this->messages->sendMessage(
-                    peer: $message->senderId,
-                    message: "You should reply to the message you want to broadcast.",
-                    reply_to_msg_id: $message->id,
-                );
+                $message->reply("You should reply to the message you want to broadcast.");
                 return;
             }
             $this->broadcastForwardMessages(
@@ -209,10 +189,15 @@ class MyEventHandler extends EventHandler
         }
     }
 
-    #[FilterText('ping')]
+    #[FilterText('hi')]
     public function pingCommand(Incoming&Message $message): void
     {
-        $this->messages->sendMessage(['message' => 'pong', 'peer' => $message->chatId]);
+        $message->reply('hello');
+    }
+
+    public static function getPluginPaths(): string|array|null
+    {
+        return 'plugins/';
     }
 }
 
