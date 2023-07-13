@@ -252,7 +252,7 @@ Main API wrapper for MadelineProto.
 * [`uploadFromTgfile(mixed $media, callable $cb, bool $encrypted): mixed`](#uploadfromtgfile-mixed-media-callable-cb-bool-encrypted-mixed)
 * [`uploadFromUrl(string|\danog\MadelineProto\FileCallbackInterface $url, int $size, string $fileName, callable $cb, bool $encrypted): mixed`](#uploadfromurl-string-danog-madelineproto-filecallbackinterface-url-int-size-string-filename-callable-cb-bool-encrypted-mixed)
 * [`validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): void`](#validateeventhandlerclass-class-string-danog-madelineproto-eventhandler-class-void)
-* [`validateEventHandlerCode(string $code): void`](#validateeventhandlercode-string-code-void)
+* [`validateEventHandlerCode(string $code, bool $plugin): void`](#validateeventhandlercode-string-code-bool-plugin-void)
 * [`viewSponsoredMessage(int|array $peer, string|array{random_id: string} $message): bool`](#viewsponsoredmessage-int-array-peer-string-array-random_id-string-message-bool)
 * [`wrapMedia(array $media, bool $protected): ?\danog\MadelineProto\EventHandler\Media`](#wrapmedia-array-media-bool-protected-danog-madelineproto-eventhandler-media)
 * [`wrapMessage(array $message): ?\danog\MadelineProto\EventHandler\Message`](#wrapmessage-array-message-danog-madelineproto-eventhandler-message)
@@ -1966,7 +1966,7 @@ Parameters:
 
 ### `sendMessageToAdmins(string $message, \"html"|\"markdown"|null $parseMode, array|null $replyMarkup, int|null $scheduleDate, bool $silent, bool $noForwards, bool $background, bool $clearDraft, bool $noWebpage): list<\Message>`
 
-Sends a message.
+Sends a message to all report peers (admins of the bot).
 
 
 Parameters:
@@ -2404,7 +2404,7 @@ Parameters:
 
 
 
-### `validateEventHandlerCode(string $code): void`
+### `validateEventHandlerCode(string $code, bool $plugin): void`
 
 Perform static analysis on a certain event handler class, to make sure it satisfies some performance requirements.
 
@@ -2412,6 +2412,7 @@ Perform static analysis on a certain event handler class, to make sure it satisf
 Parameters:
 
 * `$code`: `string` Code of the class.  
+* `$plugin`: `bool` Whether the class is a plugin or normal event handler class.  
 
 
 

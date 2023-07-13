@@ -896,7 +896,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#validateeventhandlerclass-class-string-eventhandler-class-void" name="validateEventHandlerClass">Perform static analysis on a certain event handler class, to make sure it satisfies some performance requirements: validateEventHandlerClass</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#validateeventhandlercode-string-code-void" name="validateEventHandlerCode">Perform static analysis on a certain event handler class, to make sure it satisfies some performance requirements: validateEventHandlerCode</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#validateeventhandlercode-string-code-bool-plugin-void" name="validateEventHandlerCode">Perform static analysis on a certain event handler class, to make sure it satisfies some performance requirements: validateEventHandlerCode</a>
 
 * <a href="messages.updatePinnedMessage.html" name="messages.updatePinnedMessage">Pin a message: messages.updatePinnedMessage</a>
 
@@ -1112,11 +1112,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.sendMessage.html" name="messages.sendMessage">Sends a message to a chat: messages.sendMessage</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#sendmessagetoadmins-string-message-html-markdown-null-parsemode-array-null-replymarkup-int-null-scheduledate-bool-silent-bool-noforwards-bool-background-bool-cleardraft-bool-nowebpage-list-message" name="sendMessageToAdmins">Sends a message to all report peers (admins of the bot): sendMessageToAdmins</a>
+
 * <a href="messages.sendEncryptedFile.html" name="messages.sendEncryptedFile">Sends a message with a file attachment to a secret chat: messages.sendEncryptedFile</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#sendmessage-int-string-peer-string-message-html-markdown-null-parsemode-int-null-replytomsgid-int-null-topmsgid-array-null-replymarkup-int-null-sendas-int-null-scheduledate-bool-silent-bool-noforwards-bool-background-bool-cleardraft-bool-nowebpage-bool-updatestickersetsorder-danog-madelineproto-eventhandler-message" name="sendMessage">Sends a message: sendMessage</a>
-
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#sendmessagetoadmins-string-message-html-markdown-null-parsemode-array-null-replymarkup-int-null-scheduledate-bool-silent-bool-noforwards-bool-background-bool-cleardraft-bool-nowebpage-list-message" name="sendMessageToAdmins">Sends a message: sendMessageToAdmins</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#sendphoto-int-string-peer-message-media-localfile-remoteurl-botapifileid-readablestream-file-string-caption-html-markdown-null-parsemode-callable-callback-string-filename-int-ttl-bool-spoiler-int-null-replytomsgid-int-null-topmsgid-array-null-replymarkup-int-null-sendas-int-null-scheduledate-bool-silent-bool-noforwards-bool-background-bool-cleardraft-bool-updatestickersetsorder-danog-madelineproto-eventhandler-message" name="sendPhoto">Sends a photo: sendPhoto</a>
 

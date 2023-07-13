@@ -48,7 +48,7 @@ Some tools.
 * [`end(array $what): mixed`](#end-array-what-mixed)
 * [`isAltervista(): bool`](#isaltervista-bool)
 * [`validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): void`](#validateeventhandlerclass-class-string-danog-madelineproto-eventhandler-class-void)
-* [`validateEventHandlerCode(string $code): void`](#validateeventhandlercode-string-code-void)
+* [`validateEventHandlerCode(string $code, bool $plugin): void`](#validateeventhandlercode-string-code-bool-plugin-void)
 * [`rethrow(\Throwable $e): void`](#rethrow-throwable-e-void)
 * [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-callable-mixed-args-amp-future-t)
 * [`flock(string $file, int $operation, float $polling, ?\Amp\Cancellation $token, ?\Closure $failureCb): mixed`](#flock-string-file-int-operation-float-polling-amp-cancellation-token-closure-failurecb-mixed)
@@ -364,7 +364,7 @@ Parameters:
 
 
 
-### `validateEventHandlerCode(string $code): void`
+### `validateEventHandlerCode(string $code, bool $plugin): void`
 
 Perform static analysis on a certain event handler class, to make sure it satisfies some performance requirements.
 
@@ -372,6 +372,7 @@ Perform static analysis on a certain event handler class, to make sure it satisf
 Parameters:
 
 * `$code`: `string` Code of the class.  
+* `$plugin`: `bool` Whether the class is a plugin or normal event handler class.  
 
 
 
