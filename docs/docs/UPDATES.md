@@ -18,6 +18,8 @@ Update handling can be done in different ways:
 
 ## Async Event driven
 
+[Plugins &raquo; are also supported!](https://docs.madelineproto.xyz/docs/PLUGINS.html)
+
 <!-- cut_here examples/bot.php -->
 
 ```php
@@ -219,6 +221,8 @@ MyEventHandler::startAndLoop('bot.madeline', $settings);
 ```
 
 <!-- cut_here_end examples/bot.php -->
+
+[Plugins &raquo; are also supported!](https://docs.madelineproto.xyz/docs/PLUGINS.html)
 
 This will create an event handler class `MyEventHandler`, create a MadelineProto session, and set the event handler class to our newly created event handler.
 
