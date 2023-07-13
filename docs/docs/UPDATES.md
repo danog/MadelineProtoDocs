@@ -18,7 +18,8 @@ Update handling can be done in different ways:
 
 ## Async Event driven
 
-<!-- cut_here -->
+<!-- cut_here examples/bot.php -->
+
 ```php
 <?php declare(strict_types=1);
 /**
@@ -216,7 +217,8 @@ MyEventHandler::startAndLoop('bot.madeline', $settings);
 // MyEventHandler::startAndLoopBot('bot.madeline', 'bot token', $settings);
 
 ```
-<!-- cut_here_end -->
+
+<!-- cut_here_end examples/bot.php -->
 
 This will create an event handler class `MyEventHandler`, create a MadelineProto session, and set the event handler class to our newly created event handler.
 
@@ -345,4 +347,4 @@ $MadelineProto = new \danog\MadelineProto\API('bot.madeline');
 echo json_encode($MadelineProto->getUpdates($_GET));
 ```
 
-<a href="https://docs.madelineproto.xyz/docs/DATABASE.html">Next section</a>
+<a href="https://docs.madelineproto.xyz/#very-complex-and-complete-examples">Next section</a>

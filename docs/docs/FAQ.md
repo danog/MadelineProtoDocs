@@ -1,7 +1,7 @@
 ---
 title: "FAQ"
 description: "Here's a list of common MadelineProto questions and answers."
-nav_order: 26
+nav_order: 28
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # FAQ

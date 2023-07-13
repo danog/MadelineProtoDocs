@@ -1,7 +1,7 @@
 ---
 title: "Getting all chats (dialogs)"
 description: "There are two ways to get a list of all chats, depending if you logged in as a user, or as a bot."
-nav_order: 21
+nav_order: 23
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Getting all chats (dialogs)

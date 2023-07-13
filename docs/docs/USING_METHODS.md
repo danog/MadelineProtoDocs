@@ -1,7 +1,7 @@
 ---
 title: "Using methods"
 description: "There are simplifications for many, if not all of, these methods."
-nav_order: 27
+nav_order: 29
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Using methods

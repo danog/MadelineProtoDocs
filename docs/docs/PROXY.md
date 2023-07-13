@@ -1,7 +1,7 @@
 ---
 title: "Using a proxy"
 description: "You can use a proxy with MadelineProto."
-nav_order: 24
+nav_order: 26
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Using a proxy
