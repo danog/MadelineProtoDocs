@@ -9,8 +9,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 Update handling can be done in different ways: 
 
 * [Async Event driven](#async-event-driven)
+  * [Full example](#async-event-driven)
+  * [Bound methods](#bound-methods)
+  * [Filters](https://docs.madelineproto.xyz/docs/FILTERS.html)
+    * [Simple filters](https://docs.madelineproto.xyz/docs/FILTERS.html#simple-filters)
+    * [Attribute filters](https://docs.madelineproto.xyz/docs/FILTERS.html#attribute-filters)
+    * [MTProto filters](https://docs.madelineproto.xyz/docs/FILTERS.html#mtproto-filters)
+  * [Plugins](https://docs.madelineproto.xyz/docs/PLUGINS.html)
+  * [Cron](#cron)
+  * [Persisting data and IPC](#persisting-data-and-ipc)
+  * [Restarting](#restarting)
   * [Self-restart on webhosts](#self-restart-on-webhosts)
-* [Async Event driven multi-account](#async-event-driven-multiaccount)
+  * [Multi-account](#multiaccount)
 * [Webhook (for HTTP APIs)](#webhook)
 * [getUpdates (only for Javascript APIs)](#getUpdates)
 * [Noop (default)](#noop)
@@ -50,8 +60,10 @@ use danog\MadelineProto\Broadcast\Status;
 use danog\MadelineProto\EventHandler\Attributes\Cron;
 use danog\MadelineProto\EventHandler\Attributes\Handler;
 use danog\MadelineProto\EventHandler\Filter\FilterCommand;
+use danog\MadelineProto\EventHandler\Filter\FilterRegex;
 use danog\MadelineProto\EventHandler\Filter\FilterText;
 use danog\MadelineProto\EventHandler\Message;
+use danog\MadelineProto\EventHandler\SimpleFilter\FromAdmin;
 use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
 use danog\MadelineProto\Logger;
 use danog\MadelineProto\Settings;
@@ -82,9 +94,7 @@ class MyEventHandler extends SimpleEventHandler
     /**
      * @var int|string Username or ID of bot admin
      */
-    const ADMIN = "@me"; // !!! Change this to your username !!!
-
-    private int $adminId;
+    const ADMIN = "@danogentili"; // !!! Change this to your username !!!
 
     /**
      * @var array<int, bool>
@@ -115,7 +125,6 @@ class MyEventHandler extends SimpleEventHandler
     {
         $this->logger("The bot was started!");
         $this->logger($this->getFullInfo('MadelineProto'));
-        $this->adminId = $this->getId(self::ADMIN);
 
         $this->sendMessageToAdmins("The bot was started!");
     }
@@ -164,32 +173,43 @@ class MyEventHandler extends SimpleEventHandler
     }
 
     #[FilterCommand('restart')]
-    public function restartCommand(Incoming&Message $message): void
+    public function restartCommand(Incoming & Message & FromAdmin $message): void
     {
         // If the message is a /restart command from an admin, restart to reload changes to the event handler code.
-        if ($message->senderId === $this->adminId) {
-            // Make sure to run in a bash while loop when running via CLI to allow self-restarts.
-            $this->restart();
-        }
+
+        // Make sure to run in a bash while loop when running via CLI to allow self-restarts.
+        $this->restart();
     }
 
     #[FilterCommand('broadcast')]
-    public function broadcastCommand(Incoming&Message $message): void
+    public function broadcastCommand(Incoming & Message & FromAdmin $message): void
     {
         // We can broadcast messages to all users.
-        if ($message->senderId === $this->adminId) {
-            if (!$message->replyToMsgId) {
-                $message->reply("You should reply to the message you want to broadcast.");
-                return;
-            }
-            $this->broadcastForwardMessages(
-                from_peer: $message->senderId,
-                message_ids: [$message->replyToMsgId],
-                drop_author: true,
-                pin: true,
-            );
+        if (!$message->replyToMsgId) {
+            $message->reply("You should reply to the message you want to broadcast.");
             return;
         }
+        $this->broadcastForwardMessages(
+            from_peer: $message->senderId,
+            message_ids: [$message->replyToMsgId],
+            drop_author: true,
+            pin: true,
+        );
+    }
+
+    #[FilterCommand('echo')]
+    public function echoCmd(Incoming & Message $message): void
+    {
+        // Contains the arguments of the command
+        $args = $message->commandArgs;
+
+        $message->reply($args[0] ?? '');
+    }
+
+    #[FilterRegex('/.*(mproto).*/i')]
+    public function testRegex(Incoming & Message $message): void
+    {
+        $message->reply("Did you mean to write MadelineProto instead of ".$message->matches[1].'?');
     }
 
     #[FilterText('hi')]
@@ -222,31 +242,211 @@ MyEventHandler::startAndLoop('bot.madeline', $settings);
 
 <!-- cut_here_end examples/bot.php -->
 
-[Plugins &raquo; are also supported!](https://docs.madelineproto.xyz/docs/PLUGINS.html)
-
-This will create an event handler class `MyEventHandler`, create a MadelineProto session, and set the event handler class to our newly created event handler.
+The example code above defines an event handler class `MyEventHandler`, creates a MadelineProto session, and sets the event handler class to our newly created event handler.
 
 The **new** `startAndLoop` method automatically initializes MadelineProto, **enables async**, logs in the user/bot, initializes error reporting, catches and reports all errors surfacing from the event loop to the peers returned by the `getReportPeers` method.
 
 All events are handled concurrently thanks to async, [here's a full explanation](ASYNC.html).  
-
-When an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html) is received, the corresponding `onUpdateType` event handler method is called.  
-
-To get a list of all possible update types, [click here](https://docs.madelineproto.xyz/API_docs/types/Update.html). 
-
-A special `onUpdateCustomEvent` method can also be defined, to send messages to the event handler from an API instance, using the `sendCustomEvent` method.
-
-If such a method does not exist, the `onAny` event handler method is called.  
-If the `onAny` event handler method does not exist, the update is ignored.  
 
 To access the `$MadelineProto` instance inside of the event handler, simply access `$this`:
 ```php
 $this->messages->sendMessage(['peer' => '@danogentili', 'message' => 'hi']);
 ```
 
-All property names returned by the `__sleep` method will be persisted in the database/session file.  
+### Bound methods
+
+MadelineProto offers a large number of helper bound methods and properties, depending on the filter type you specify in the typehint of `#[Handler]` methods.  
+
+See [here &raquo;](https://docs.madelineproto.xyz/docs/FILTERS.html#simple-filters) for more info on how to use bound methods, properties and filters.  
+
+Here's a full list of the concrete object types on which bound methods and properties are defined:
+
+<!-- cut_here concretefilters -->
+
+* [danog\MadelineProto\EventHandler\AbstractMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/AbstractMessage.html) - Represents an incoming or outgoing message.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/AbstractMessage.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/AbstractMessage.html#method-list)
+* [danog\MadelineProto\EventHandler\Message &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message.html) - Represents an incoming or outgoing message.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\ServiceMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/ServiceMessage.html) - Represents info about a service message.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/ServiceMessage.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/ServiceMessage.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\ChannelMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/ChannelMessage.html) - Represents an incoming or outgoing channel message.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/ChannelMessage.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/ChannelMessage.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\GroupMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/GroupMessage.html) - Represents an incoming or outgoing group message.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/GroupMessage.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/GroupMessage.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\PrivateMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/PrivateMessage.html) - Represents an incoming or outgoing private message.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/PrivateMessage.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/PrivateMessage.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\ServiceMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/ServiceMessage.html) - Represents info about a service message.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/ServiceMessage.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/ServiceMessage.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogCreated &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogCreated.html) - A chat or channel was created.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogCreated.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogCreated.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogMemberLeft &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogMemberLeft.html) - A member left the chat or channel.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogMemberLeft.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogMemberLeft.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogMembersJoined &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogMembersJoined.html) - Some members joined the chat or channel.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogMembersJoined.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogMembersJoined.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogPhotoChanged &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogPhotoChanged.html) - The photo of the dialog was changed or deleted.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogPhotoChanged.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogPhotoChanged.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogTitleChanged &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogTitleChanged.html) - The title of a channel or group has changed.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogTitleChanged.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogTitleChanged.html#method-list)
+
+
+<!-- cut_here_end concretefilters -->
+
+
+### Filters
+
+MadelineProto offers three different filter types, used to filter updates by type or other attributes, click on the following links for more info:
+
+* [Simple filters &raquo;](https://docs.madelineproto.xyz/docs/FILTERS.html#simple-filters)
+* [Attribute filters &raquo;](https://docs.madelineproto.xyz/docs/FILTERS.html#attribute-filters)
+* [MTProto filters &raquo;](https://docs.madelineproto.xyz/docs/FILTERS.html#mtproto-filters)
+
+### Plugins
+
+Plugins are also supported, check out the [plugin docs &raquo;](https://docs.madelineproto.xyz/docs/PLUGINS.html) for more info!
+
+### Cron
+
+All event handler methods marked by the `danog\MadelineProto\EventHandler\Attributes\Cron` attribute are periodically invoked by MadelineProto every `period` seconds:
+
+```php
+use danog\MadelineProto\EventHandler\Attributes\Cron;
+
+class MyEventHandler extends SimpleEventHandler
+{
+    /**
+     * This cron function will be executed forever, every 60 seconds.
+     */
+    #[Cron(period: 60.0)]
+    public function cron1(): void
+    {
+        $this->sendMessageToAdmins("The bot is online, current time ".date(DATE_RFC850)."!");
+    }
+}
+```
+
+You can also specify millisecond intervals like `0.5` (500 milliseconds).
+
+### Persisting data and IPC
+
+All property names returned by the `__sleep` method will be saved in the database/session file, and then automatically loaded when the bot is restarted.  
+
+<!-- cut_here examples/plugins/Danogentili/PingPlugin.php -->
+
+```php
+<?php declare(strict_types=1);
+
+namespace MadelinePlugin\Danogentili;
+
+use danog\MadelineProto\EventHandler\Attributes\Cron;
+use danog\MadelineProto\EventHandler\Filter\FilterText;
+use danog\MadelineProto\EventHandler\Message;
+use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
+use danog\MadelineProto\PluginEventHandler;
+
+/**
+ * Plugin event handler class.
+ *
+ * All properties returned by __sleep are automatically stored in the database.
+ */
+class PingPlugin extends PluginEventHandler
+{
+    private int $pingCount = 0;
+
+    private string $pongText = 'pong';
+
+    /**
+     * You can set a custom pong text from the outside of the plugin:.
+     *
+     * ```
+     * if (!file_exists('madeline.php')) {
+     *     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+     * }
+     * include 'madeline.php';
+     *
+     * $a = new API('bot.madeline');
+     * $plugin = $a->getPlugin(PingPlugin::class);
+     *
+     * $plugin->setPongText('UwU');
+     * ```
+     *
+     * This will automatically connect to the running instance of the plugin and call the specified method.
+     */
+    public function setPongText(string $pong): void
+    {
+        $this->pongText = $pong;
+    }
+
+    /**
+     * Returns a list of names for properties that will be automatically saved to the session database (MySQL/postgres/redis if configured, the session file otherwise).
+     */
+    public function __sleep(): array
+    {
+        return ['pingCount', 'pongText'];
+    }
+    /**
+     * Initialization logic.
+     */
+    public function onStart(): void
+    {
+        $this->logger("The bot was started!");
+        $this->logger($this->getFullInfo('MadelineProto'));
+
+        $this->sendMessageToAdmins("The bot was started!");
+    }
+
+    /**
+     * This cron function will be executed forever, every 60 seconds.
+     */
+    #[Cron(period: 60.0)]
+    public function cron1(): void
+    {
+        $this->sendMessageToAdmins("The ping plugin is online, total pings so far: ".$this->pingCount);
+    }
+
+    #[FilterText('ping')]
+    public function pingCommand(Incoming&Message $message): void
+    {
+        $message->reply($this->pongText);
+        $this->pingCount++;
+    }
+}
+
+```
+
+<!-- cut_here_end examples/plugins/Danogentili/PingPlugin.php -->
+
+You can read and write to those properties from the outside using setter methods, for example:
+
+```
+if (!file_exists('madeline.php')) {
+     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$a = new API('bot.madeline');
+
+$plugin = $a->getPlugin(PingPlugin::class);
+
+$plugin->setPongText('UwU');
+```
+
+### Restarting
 
 To forcefully restart and apply changes made to the event handler class, call `$this->restart();`.  
+
+When running via cli, the bot must run in the official [docker image](https://docs.madelineproto.xyz/docs/DOCKER.html) with `restart: always` or inside of a bash while true loop in order for `restart()` to work.  
 
 ### Self-restart on webhosts
 
@@ -280,7 +480,7 @@ A second optional parameter can also be accepted, containing the ID of the calla
 The `removeCallback` will return true if the callback exists and it was removed correctly, false otherwise.
 
 
-## Async event driven (multiaccount)
+### Multiaccount
 
 ```php
 use danog\MadelineProto\EventHandler;

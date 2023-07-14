@@ -42,7 +42,7 @@ Create the following `docker-compose.yml` file, with the following contents:
 services:
   bot:
     image: hub.madelineproto.xyz/danog/madelineproto
-    restart: unless-stopped
+    restart: always
     #depends_on:
       #- mariadb
       #- postgres
@@ -85,7 +85,7 @@ services:
 
   #mariadb:
   #  image: mariadb:latest
-  #  restart: unless-stopped
+  #  restart: always
   #  environment:
   #    - MARIADB_ROOT_PASSWORD=replace_me_with_a_secure_password
   #  volumes:
@@ -93,7 +93,7 @@ services:
 
   #postgres:
   #  image: postgres:latest
-  #  restart: unless-stopped
+  #  restart: always
   #  environment:
   #    POSTGRES_USER: admin
   #    POSTGRES_PASSWORD: replace_me_with_a_secure_password
@@ -104,7 +104,7 @@ services:
   
   #redis:
   #  image: redis:latest
-  #  restart: unless-stopped
+  #  restart: always
   #  volumes:
   #    - ./redis:/data
   #  command: redis-server --save 60 1 --loglevel warning
@@ -147,7 +147,7 @@ Here's an example `docker-compose.yml` file for a caddy+php-fpm combo:
 services:
   php-fpm:
     image: hub.madelineproto.xyz/danog/madelineproto
-    restart: unless-stopped
+    restart: always
     #depends_on:
       #- mariadb
       #- postgres
@@ -158,7 +158,7 @@ services:
   
   caddy:
     image: caddy:alpine
-    restart: unless-stopped
+    restart: always
     depends_on:
       - php-fpm
     ports:
@@ -229,7 +229,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    restart: unless-stopped
+    restart: always
     #depends_on:
       #- mariadb
       #- postgres

@@ -163,6 +163,8 @@ Do this, instead:
 ```php
 <?php declare(strict_types=1);
 
+namespace MadelinePlugin\Danogentili;
+
 use danog\MadelineProto\EventHandler\Attributes\Cron;
 use danog\MadelineProto\EventHandler\Filter\FilterCommand;
 use danog\MadelineProto\EventHandler\Message;
@@ -170,7 +172,7 @@ use danog\MadelineProto\EventHandler\SimpleFilter\FromAdmin;
 use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
 use danog\MadelineProto\PluginEventHandler;
 
-class OnlinePlugin extends PluginEventHandler
+final class OnlinePlugin extends PluginEventHandler
 {
     private bool $isOnline = true;
 
@@ -288,7 +290,7 @@ class PingPlugin extends PluginEventHandler
      * if (!file_exists('madeline.php')) {
      *     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
      * }
-     * include 'vendor/autoload.php';
+     * include 'madeline.php';
      *
      * $a = new API('bot.madeline');
      * $plugin = $a->getPlugin(PingPlugin::class);
