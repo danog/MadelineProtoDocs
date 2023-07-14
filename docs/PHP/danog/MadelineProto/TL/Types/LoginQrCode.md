@@ -22,9 +22,11 @@ Represents a login QR code.
 ## Method list:
 * [`isExpired(): bool`](#isexpired-bool)
 * [`expiresIn(): int`](#expiresin-int)
-* [`waitForLoginOrQrCodeExpiration(\Amp\Cancellation|null $customCancellation): ?self`](#waitforloginorqrcodeexpiration-amp-cancellation-null-customcancellation-self)
-* [`getQRSvg(int $size, int $margin): string`](#getqrsvg-int-size-int-margin-string)
-* [`getQRText(int $margin): string`](#getqrtext-int-margin-string)
+* [`getExpirationCancellation(): \Amp\Cancellation`](#getexpirationcancellation-amp-cancellation)
+* [`getLoginCancellation(): \Amp\Cancellation`](#getlogincancellation-amp-cancellation)
+* [`waitForLoginOrQrCodeExpiration(\Amp\Cancellation|null $customCancellation = NULL): ?self`](#waitforloginorqrcodeexpiration-amp-cancellation-null-customcancellation-null-self)
+* [`getQRSvg(int $size = 400, int $margin = 4): string`](#getqrsvg-int-size-400-int-margin-4-string)
+* [`getQRText(int $margin = 2): string`](#getqrtext-int-margin-2-string)
 
 ## Methods:
 ### `isExpired(): bool`
@@ -39,7 +41,29 @@ Returns the number of seconds until the QR code expires.
 
 
 
-### `waitForLoginOrQrCodeExpiration(\Amp\Cancellation|null $customCancellation): ?self`
+### `getExpirationCancellation(): \Amp\Cancellation`
+
+
+
+
+#### See also: 
+* `\Amp\Cancellation`
+
+
+
+
+### `getLoginCancellation(): \Amp\Cancellation`
+
+
+
+
+#### See also: 
+* `\Amp\Cancellation`
+
+
+
+
+### `waitForLoginOrQrCodeExpiration(\Amp\Cancellation|null $customCancellation = NULL): ?self`
 
 Waits for the user to login or for the QR code to expire.
 If the user logins, null is returned.  
@@ -59,7 +83,7 @@ Parameters:
 
 
 
-### `getQRSvg(int $size, int $margin): string`
+### `getQRSvg(int $size = 400, int $margin = 4): string`
 
 Render and return SVG version of QR code.
 
@@ -71,7 +95,7 @@ Parameters:
 
 
 
-### `getQRText(int $margin): string`
+### `getQRText(int $margin = 2): string`
 
 Render and return plain text version of QR code.
 

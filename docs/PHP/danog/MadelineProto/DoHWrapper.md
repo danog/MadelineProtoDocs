@@ -24,10 +24,31 @@ parent: "MadelineProto API"
 * `$webSocketConnector`: `\Amp\Websocket\Client\Rfc6455Connector` DoH connector.
 
 ## Method list:
-* [`generateContexts(string $uri, ?\Amp\Socket\ConnectContext $context): \danog\MadelineProto\Stream\ConnectionContext[]`](#generatecontexts-string-uri-amp-socket-connectcontext-context-danog-madelineproto-stream-connectioncontext)
+* [`__construct(\danog\MadelineProto\Settings\Connection $settings, \danog\MadelineProto\LoggerGetter $loggerGetter, ?\Amp\Http\Client\Cookie\CookieJar $jar = NULL)`](#__construct-danog-madelineproto-settings-connection-settings-danog-madelineproto-loggergetter-loggergetter-amp-http-client-cookie-cookiejar-jar-null)
+* [`generateContexts(string $uri, ?\Amp\Socket\ConnectContext $context = NULL): \danog\MadelineProto\Stream\ConnectionContext[]`](#generatecontexts-string-uri-amp-socket-connectcontext-context-null-danog-madelineproto-stream-connectioncontext)
 
 ## Methods:
-### `generateContexts(string $uri, ?\Amp\Socket\ConnectContext $context): \danog\MadelineProto\Stream\ConnectionContext[]`
+### `__construct(\danog\MadelineProto\Settings\Connection $settings, \danog\MadelineProto\LoggerGetter $loggerGetter, ?\Amp\Http\Client\Cookie\CookieJar $jar = NULL)`
+
+
+
+
+Parameters:
+
+* `$settings`: `\danog\MadelineProto\Settings\Connection`   
+* `$loggerGetter`: `\danog\MadelineProto\LoggerGetter`   
+* `$jar`: `?\Amp\Http\Client\Cookie\CookieJar`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\Settings\Connection`: Connection settings.](../../danog/MadelineProto/Settings/Connection.html)
+* [\danog\MadelineProto\LoggerGetter](../../danog/MadelineProto/LoggerGetter.html)
+* `\Amp\Http\Client\Cookie\CookieJar`
+
+
+
+
+### `generateContexts(string $uri, ?\Amp\Socket\ConnectContext $context = NULL): \danog\MadelineProto\Stream\ConnectionContext[]`
 
 Generate contexts.
 

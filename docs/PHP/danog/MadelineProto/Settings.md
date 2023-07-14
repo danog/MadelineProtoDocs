@@ -43,6 +43,7 @@ Settings class used for configuring MadelineProto.
 * [`setDb(\danog\MadelineProto\Settings\DatabaseAbstract $db): self`](#setdb-danog-madelineproto-settings-databaseabstract-db-self)
 * [`getIpc(): \danog\MadelineProto\Settings\Ipc`](#getipc-danog-madelineproto-settings-ipc)
 * [`setIpc(\danog\MadelineProto\Settings\Ipc $ipc): self`](#setipc-danog-madelineproto-settings-ipc-ipc-self)
+* [`applyChanges(): \danog\MadelineProto\SettingsAbstract`](#applychanges-danog-madelineproto-settingsabstract)
 * [`getTemplates(): \danog\MadelineProto\Settings\Templates`](#gettemplates-danog-madelineproto-settings-templates)
 * [`setTemplates(\danog\MadelineProto\Settings\Templates $templates): self`](#settemplates-danog-madelineproto-settings-templates-templates-self)
 * [`getVoip(): \danog\MadelineProto\Settings\VoIP`](#getvoip-danog-madelineproto-settings-voip)
@@ -391,6 +392,17 @@ Parameters:
 
 #### See also: 
 * [`\danog\MadelineProto\Settings\Ipc`: IPC server settings.](../../danog/MadelineProto/Settings/Ipc.html)
+
+
+
+
+### `applyChanges(): \danog\MadelineProto\SettingsAbstract`
+
+
+
+
+#### See also: 
+* `\danog\MadelineProto\SettingsAbstract`
 
 
 

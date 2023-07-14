@@ -19,10 +19,22 @@ Represents an inline keyboard.
 * `$buttons`: `non-empty-list<non-empty-list<\Button>>` 
 
 ## Method list:
+* [`fromRawReplyMarkup(array $rawReplyMarkup): ?self`](#fromrawreplymarkup-array-rawreplymarkup-self)
 * [`pressByCoordinates(int $row, int $column, bool $waitForResult): mixed`](#pressbycoordinates-int-row-int-column-bool-waitforresult-mixed)
 * [`press(string $label, bool $waitForResult): mixed`](#press-string-label-bool-waitforresult-mixed)
 
 ## Methods:
+### `fromRawReplyMarkup(array $rawReplyMarkup): ?self`
+
+
+
+
+Parameters:
+
+* `$rawReplyMarkup`: `array`   
+
+
+
 ### `pressByCoordinates(int $row, int $column, bool $waitForResult): mixed`
 
 Press button at the specified keyboard coordinates.

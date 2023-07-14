@@ -17,6 +17,7 @@ RPC settings.
 
 
 ## Method list:
+* [`mergeArray(array $settings): void`](#mergearray-array-settings-void)
 * [`getRpcDropTimeout(): int`](#getrpcdroptimeout-int)
 * [`setRpcDropTimeout(int $rpcDropTimeout): self`](#setrpcdroptimeout-int-rpcdroptimeout-self)
 * [`getRpcResendTimeout(): int`](#getrpcresendtimeout-int)
@@ -29,6 +30,17 @@ RPC settings.
 * [`setGzipEncodeIfGt(int $gzipEncodeIfGt): self`](#setgzipencodeifgt-int-gzipencodeifgt-self)
 
 ## Methods:
+### `mergeArray(array $settings): void`
+
+
+
+
+Parameters:
+
+* `$settings`: `array`   
+
+
+
 ### `getRpcDropTimeout(): int`
 
 Get RPC drop timeout.

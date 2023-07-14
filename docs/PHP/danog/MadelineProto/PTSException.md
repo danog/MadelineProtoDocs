@@ -19,12 +19,79 @@ Internal error indicating a problem with Telegram's servers.
 * `$tlTrace`: `string` TL trace.
 
 ## Method list:
+* [`__construct(mixed $message, mixed $file = '')`](#__construct-mixed-message-mixed-file)
+* [`getMessage(): string`](#getmessage-string)
+* [`getCode(): mixed`](#getcode-mixed)
+* [`getFile(): string`](#getfile-string)
+* [`getLine(): int`](#getline-int)
+* [`getTrace(): array`](#gettrace-array)
+* [`getPrevious(): ?\Throwable`](#getprevious-throwable)
+* [`getTraceAsString(): string`](#gettraceasstring-string)
 * [`updateTLTrace(array $trace): void`](#updatetltrace-array-trace-void)
 * [`getTLTrace(): string`](#gettltrace-string)
 * [`setTLTrace(string $tlTrace): void`](#settltrace-string-tltrace-void)
-* [`prettifyTL(string $init, array $trace): void`](#prettifytl-string-init-array-trace-void)
+* [`prettifyTL(string $init = '', array $trace = NULL): void`](#prettifytl-string-init-array-trace-null-void)
 
 ## Methods:
+### `__construct(mixed $message, mixed $file = '')`
+
+
+
+
+Parameters:
+
+* `$message`: `mixed`   
+* `$file`: `mixed`   
+
+
+
+### `getMessage(): string`
+
+
+
+
+
+### `getCode(): mixed`
+
+
+
+
+
+### `getFile(): string`
+
+
+
+
+
+### `getLine(): int`
+
+
+
+
+
+### `getTrace(): array`
+
+
+
+
+
+### `getPrevious(): ?\Throwable`
+
+
+
+
+#### See also: 
+* `\Throwable`
+
+
+
+
+### `getTraceAsString(): string`
+
+
+
+
+
 ### `updateTLTrace(array $trace): void`
 
 Update TL trace.
@@ -53,7 +120,7 @@ Parameters:
 
 
 
-### `prettifyTL(string $init, array $trace): void`
+### `prettifyTL(string $init = '', array $trace = NULL): void`
 
 Generate async trace.
 

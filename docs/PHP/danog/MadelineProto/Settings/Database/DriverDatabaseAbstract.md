@@ -17,6 +17,7 @@ Base class for database backends.
 
 
 ## Method list:
+* [`mergeArray(array $settings): void`](#mergearray-array-settings-void)
 * [`getKey(): string`](#getkey-string)
 * [`getCacheTtl(): int`](#getcachettl-int)
 * [`setCacheTtl(int|string $cacheTtl): static`](#setcachettl-int-string-cachettl-static)
@@ -25,6 +26,7 @@ Base class for database backends.
 * [`getDatabase(): string|int`](#getdatabase-string-int)
 * [`getUri(): string`](#geturi-string)
 * [`setUri(string $uri): static`](#seturi-string-uri-static)
+* [`getSerializer(): ?\danog\MadelineProto\Settings\Database\SerializerType`](#getserializer-danog-madelineproto-settings-database-serializertype)
 * [`setSerializer(?\danog\MadelineProto\Settings\Database\SerializerType $serializer): static`](#setserializer-danog-madelineproto-settings-database-serializertype-serializer-static)
 * [`getEnableFileReferenceDb(): bool`](#getenablefilereferencedb-bool)
 * [`setEnableFileReferenceDb(bool $enableFileReferenceDb): self`](#setenablefilereferencedb-bool-enablefilereferencedb-self)
@@ -38,6 +40,17 @@ Base class for database backends.
 * [`setEnablePeerInfoDb(bool $enablePeerInfoDb): self`](#setenablepeerinfodb-bool-enablepeerinfodb-self)
 
 ## Methods:
+### `mergeArray(array $settings): void`
+
+
+
+
+Parameters:
+
+* `$settings`: `array`   
+
+
+
 ### `getKey(): string`
 
 Get DB key.
@@ -105,6 +118,17 @@ Parameters:
 
 
 
+### `getSerializer(): ?\danog\MadelineProto\Settings\Database\SerializerType`
+
+
+
+
+#### See also: 
+* [\danog\MadelineProto\Settings\Database\SerializerType](../../../../danog/MadelineProto/Settings/Database/SerializerType.html)
+
+
+
+
 ### `setSerializer(?\danog\MadelineProto\Settings\Database\SerializerType $serializer): static`
 
 Which serializer to use by default.
@@ -116,7 +140,7 @@ Parameters:
 
 
 #### See also: 
-* `\danog\MadelineProto\Settings\Database\SerializerType`
+* [\danog\MadelineProto\Settings\Database\SerializerType](../../../../danog/MadelineProto/Settings/Database/SerializerType.html)
 
 
 

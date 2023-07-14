@@ -17,6 +17,7 @@ Cryptography settings.
 
 
 ## Method list:
+* [`mergeArray(array $settings): void`](#mergearray-array-settings-void)
 * [`getDefaultTempAuthKeyExpiresIn(): int`](#getdefaulttempauthkeyexpiresin-int)
 * [`setDefaultTempAuthKeyExpiresIn(int $defaultTempAuthKeyExpiresIn): self`](#setdefaulttempauthkeyexpiresin-int-defaulttempauthkeyexpiresin-self)
 * [`getPfs(): bool`](#getpfs-bool)
@@ -25,6 +26,17 @@ Cryptography settings.
 * [`setMaxAuthTries(int $maxAuthTries): self`](#setmaxauthtries-int-maxauthtries-self)
 
 ## Methods:
+### `mergeArray(array $settings): void`
+
+
+
+
+Parameters:
+
+* `$settings`: `array`   
+
+
+
 ### `getDefaultTempAuthKeyExpiresIn(): int`
 
 Get validity period of the binding of temporary and permanent keys.

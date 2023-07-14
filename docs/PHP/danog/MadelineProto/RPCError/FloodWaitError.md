@@ -20,16 +20,44 @@ Represents a FLOOD_WAIT_ RPC error returned by telegram.
 * `$tlTrace`: `string` TL trace.
 
 ## Method list:
+* [`__construct(mixed $message = NULL, mixed $code = 0, mixed $caller = '', ?\Exception $previous = NULL)`](#__construct-mixed-message-null-mixed-code-0-mixed-caller-exception-previous-null)
 * [`getWaitTime(): int`](#getwaittime-int)
 * [`wait(): void`](#wait-void)
+* [`localizeMessage(mixed $method, int $code, string $error): string`](#localizemessage-mixed-method-int-code-string-error-string)
 * [`getLocalization(): string`](#getlocalization-string)
 * [`setLocalization(string $localization): void`](#setlocalization-string-localization-void)
+* [`getMessage(): string`](#getmessage-string)
+* [`getCode(): mixed`](#getcode-mixed)
+* [`getFile(): string`](#getfile-string)
+* [`getLine(): int`](#getline-int)
+* [`getTrace(): array`](#gettrace-array)
+* [`getPrevious(): ?\Throwable`](#getprevious-throwable)
+* [`getTraceAsString(): string`](#gettraceasstring-string)
 * [`updateTLTrace(array $trace): void`](#updatetltrace-array-trace-void)
 * [`getTLTrace(): string`](#gettltrace-string)
 * [`setTLTrace(string $tlTrace): void`](#settltrace-string-tltrace-void)
-* [`prettifyTL(string $init, array $trace): void`](#prettifytl-string-init-array-trace-void)
+* [`prettifyTL(string $init = '', array $trace = NULL): void`](#prettifytl-string-init-array-trace-null-void)
 
 ## Methods:
+### `__construct(mixed $message = NULL, mixed $code = 0, mixed $caller = '', ?\Exception $previous = NULL)`
+
+
+
+
+Parameters:
+
+* `$message`: `mixed`   
+* `$code`: `mixed`   
+* `$caller`: `mixed`   
+* `$previous`: `?\Exception`   
+
+
+#### See also: 
+* `\Exception`
+
+
+
+
 ### `getWaitTime(): int`
 
 Returns the required waiting period in seconds before repeating the RPC call.
@@ -39,6 +67,19 @@ Returns the required waiting period in seconds before repeating the RPC call.
 ### `wait(): void`
 
 Waits for the required waiting period.
+
+
+
+### `localizeMessage(mixed $method, int $code, string $error): string`
+
+
+
+
+Parameters:
+
+* `$method`: `mixed`   
+* `$code`: `int`   
+* `$error`: `string`   
 
 
 
@@ -56,6 +97,53 @@ Set localized error name.
 Parameters:
 
 * `$localization`: `string`   
+
+
+
+### `getMessage(): string`
+
+
+
+
+
+### `getCode(): mixed`
+
+
+
+
+
+### `getFile(): string`
+
+
+
+
+
+### `getLine(): int`
+
+
+
+
+
+### `getTrace(): array`
+
+
+
+
+
+### `getPrevious(): ?\Throwable`
+
+
+
+
+#### See also: 
+* `\Throwable`
+
+
+
+
+### `getTraceAsString(): string`
+
+
 
 
 
@@ -87,7 +175,7 @@ Parameters:
 
 
 
-### `prettifyTL(string $init, array $trace): void`
+### `prettifyTL(string $init = '', array $trace = NULL): void`
 
 Generate async trace.
 

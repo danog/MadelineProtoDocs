@@ -20,14 +20,36 @@ Indicates an error returned by Telegram's API.
 * `$tlTrace`: `string` TL trace.
 
 ## Method list:
+* [`localizeMessage(mixed $method, int $code, string $error): string`](#localizemessage-mixed-method-int-code-string-error-string)
 * [`getLocalization(): string`](#getlocalization-string)
 * [`setLocalization(string $localization): void`](#setlocalization-string-localization-void)
+* [`__construct(string $rpc, int $code = 0, mixed $caller = '', ?\danog\MadelineProto\Exception $previous = NULL)`](#__construct-string-rpc-int-code-0-mixed-caller-danog-madelineproto-exception-previous-null)
+* [`getMessage(): string`](#getmessage-string)
+* [`getCode(): mixed`](#getcode-mixed)
+* [`getFile(): string`](#getfile-string)
+* [`getLine(): int`](#getline-int)
+* [`getTrace(): array`](#gettrace-array)
+* [`getPrevious(): ?\Throwable`](#getprevious-throwable)
+* [`getTraceAsString(): string`](#gettraceasstring-string)
 * [`updateTLTrace(array $trace): void`](#updatetltrace-array-trace-void)
 * [`getTLTrace(): string`](#gettltrace-string)
 * [`setTLTrace(string $tlTrace): void`](#settltrace-string-tltrace-void)
-* [`prettifyTL(string $init, array $trace): void`](#prettifytl-string-init-array-trace-void)
+* [`prettifyTL(string $init = '', array $trace = NULL): void`](#prettifytl-string-init-array-trace-null-void)
 
 ## Methods:
+### `localizeMessage(mixed $method, int $code, string $error): string`
+
+
+
+
+Parameters:
+
+* `$method`: `mixed`   
+* `$code`: `int`   
+* `$error`: `string`   
+
+
+
 ### `getLocalization(): string`
 
 Get localized error name.
@@ -42,6 +64,72 @@ Set localized error name.
 Parameters:
 
 * `$localization`: `string`   
+
+
+
+### `__construct(string $rpc, int $code = 0, mixed $caller = '', ?\danog\MadelineProto\Exception $previous = NULL)`
+
+
+
+
+Parameters:
+
+* `$rpc`: `string`   
+* `$code`: `int`   
+* `$caller`: `mixed`   
+* `$previous`: `?\danog\MadelineProto\Exception`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\Exception`: Basic exception.](../../danog/MadelineProto/Exception.html)
+
+
+
+
+### `getMessage(): string`
+
+
+
+
+
+### `getCode(): mixed`
+
+
+
+
+
+### `getFile(): string`
+
+
+
+
+
+### `getLine(): int`
+
+
+
+
+
+### `getTrace(): array`
+
+
+
+
+
+### `getPrevious(): ?\Throwable`
+
+
+
+
+#### See also: 
+* `\Throwable`
+
+
+
+
+### `getTraceAsString(): string`
+
+
 
 
 
@@ -73,7 +161,7 @@ Parameters:
 
 
 
-### `prettifyTL(string $init, array $trace): void`
+### `prettifyTL(string $init = '', array $trace = NULL): void`
 
 Generate async trace.
 

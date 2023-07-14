@@ -277,7 +277,7 @@ $ok = Shutdown::removeCallback($id);
 You can of course pass non-static functions, any type of callable is accepted.  
 A second optional parameter can also be accepted, containing the ID of the callable: you can use this if you want to later overwrite the callable with another callback, or remove it altogether.  
 
-The `removeCallback` will return true if the callback exists and it was removed correctly, false otherwise (as with all new MadelineProto APIs, there are PHPDOCs for these methods so you'll see them in your IDE).
+The `removeCallback` will return true if the callback exists and it was removed correctly, false otherwise.
 
 
 ## Async event driven (multiaccount)
@@ -287,7 +287,6 @@ use danog\MadelineProto\EventHandler;
 use danog\MadelineProto\Tools;
 use danog\MadelineProto\API;
 use danog\MadelineProto\Logger;
-use danog\MadelineProto\RPCErrorException;
 
 // Normal event handler definition as above
 
@@ -308,7 +307,24 @@ This will create an event handler class `EventHandler`, create a **combined** Ma
 
 Usage is the same as for [the normal event handler](#async-event-driven), with the difference is that multiple accounts can receive and handle updates in parallel, each with its own event handler instance.
 
-To dynamically start a new event handler, use `\Revolt\EventLoop::queue(MyEventHandler::startAndLoop(...), 'session.madeline', $settings))`.  
+To dynamically start a new event handler in the background, use `Tools::callFork(MyEventHandler::startAndLoop(...), 'session.madeline', $settings))`.  
+
+**Warning**: this can only be done with already logged-in sessions, if your sessions aren't logged in yet use `startAndLoopMulti`.  
+
+```php
+use danog\MadelineProto\EventHandler;
+use danog\MadelineProto\Tools;
+
+// Normal event handler definition as above
+
+foreach ([
+    'bot.madeline' => 'Bot Login',
+    'user.madeline' => 'Userbot login',
+    'user2.madeline' => 'Userbot login (2)'
+] as $session => $message) {
+    Tools::callFork(MyEventHandler::startAndLoop(...), $session);
+}
+```
 
 ## Noop
 
@@ -351,4 +367,4 @@ $MadelineProto = new \danog\MadelineProto\API('bot.madeline');
 echo json_encode($MadelineProto->getUpdates($_GET));
 ```
 
-<a href="https://docs.madelineproto.xyz/#very-complex-and-complete-examples">Next section</a>
+<a href="https://docs.madelineproto.xyz/docs/FILTERS.html">Next section</a>

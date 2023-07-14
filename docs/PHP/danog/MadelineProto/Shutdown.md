@@ -18,7 +18,7 @@ Class that controls script shutdown.
 
 ## Method list:
 * [`init(): void`](#init-void)
-* [`addCallback(callable $callback, null|string $id): int|\string The callback ID`](#addcallback-callable-callback-null-string-id-int-string-the-callback-id)
+* [`addCallback(callable $callback, null|string $id = NULL): int|\string The callback ID`](#addcallback-callable-callback-null-string-id-null-int-string-the-callback-id)
 * [`removeCallback(null|string|int $id): \bool true if the callback was removed correctly, false otherwise`](#removecallback-null-string-int-id-bool-true-if-the-callback-was-removed-correctly-false-otherwise)
 
 ## Methods:
@@ -28,7 +28,7 @@ Register shutdown function.
 
 
 
-### `addCallback(callable $callback, null|string $id): int|\string The callback ID`
+### `addCallback(callable $callback, null|string $id = NULL): int|\string The callback ID`
 
 Add a callback for script shutdown.
 

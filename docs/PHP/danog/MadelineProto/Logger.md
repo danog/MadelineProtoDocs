@@ -42,10 +42,10 @@ Logger class.
 
 ## Method list:
 * [`constructorFromSettings(\danog\MadelineProto\Settings\Logger $settings): self`](#constructorfromsettings-danog-madelineproto-settings-logger-settings-self)
-* [`__construct(\danog\MadelineProto\Settings\Logger $settings, string $prefix)`](#__construct-danog-madelineproto-settings-logger-settings-string-prefix)
+* [`__construct(\danog\MadelineProto\Settings\Logger $settings, string $prefix = '')`](#__construct-danog-madelineproto-settings-logger-settings-string-prefix)
 * [`truncate(): void`](#truncate-void)
-* [`log(mixed $param, int $level): void`](#log-mixed-param-int-level-void)
-* [`logger(mixed $param, int $level, string $file): void`](#logger-mixed-param-int-level-string-file-void)
+* [`log(mixed $param, int $level = \self::NOTICE): void`](#log-mixed-param-int-level-self-notice-void)
+* [`logger(mixed $param, int $level = \self::NOTICE, string $file = ''): void`](#logger-mixed-param-int-level-self-notice-string-file-void)
 * [`getPsrLogger(): \Psr\Log\LoggerInterface`](#getpsrlogger-psr-log-loggerinterface)
 
 ## Methods:
@@ -65,7 +65,7 @@ Parameters:
 
 
 
-### `__construct(\danog\MadelineProto\Settings\Logger $settings, string $prefix)`
+### `__construct(\danog\MadelineProto\Settings\Logger $settings, string $prefix = '')`
 
 Construct logger.
 
@@ -88,7 +88,7 @@ Truncate logfile.
 
 
 
-### `log(mixed $param, int $level): void`
+### `log(mixed $param, int $level = \self::NOTICE): void`
 
 Log a message.
 
@@ -100,7 +100,7 @@ Parameters:
 
 
 
-### `logger(mixed $param, int $level, string $file): void`
+### `logger(mixed $param, int $level = \self::NOTICE, string $file = ''): void`
 
 Log a message.
 

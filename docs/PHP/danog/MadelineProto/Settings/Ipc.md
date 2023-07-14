@@ -17,9 +17,28 @@ IPC server settings.
 
 
 ## Method list:
+* [`__construct()`](#__construct)
+* [`mergeArray(array $settings): void`](#mergearray-array-settings-void)
 * [`getSlow(): bool`](#getslow-bool)
 
 ## Methods:
+### `__construct()`
+
+
+
+
+
+### `mergeArray(array $settings): void`
+
+
+
+
+Parameters:
+
+* `$settings`: `array`   
+
+
+
 ### `getSlow(): bool`
 
 Get WARNING: this will cause slow startup if enabled.

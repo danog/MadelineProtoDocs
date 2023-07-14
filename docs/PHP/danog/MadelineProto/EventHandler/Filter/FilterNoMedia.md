@@ -17,9 +17,27 @@ Allow any messages except media messages.
 
 
 ## Method list:
+* [`apply(\danog\MadelineProto\EventHandler\Update $update): bool`](#apply-danog-madelineproto-eventhandler-update-update-bool)
 * [`initialize(\danog\MadelineProto\EventHandler $API): ?\danog\MadelineProto\EventHandler\Filter\Filter`](#initialize-danog-madelineproto-eventhandler-api-danog-madelineproto-eventhandler-filter-filter)
+* [`fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`](#fromreflectiontype-reflectiontype-type-danog-madelineproto-eventhandler-filter-filter)
 
 ## Methods:
+### `apply(\danog\MadelineProto\EventHandler\Update $update): bool`
+
+
+
+
+Parameters:
+
+* `$update`: `\danog\MadelineProto\EventHandler\Update`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Update`: Represents a generic update.](../../../../danog/MadelineProto/EventHandler/Update.html)
+
+
+
+
 ### `initialize(\danog\MadelineProto\EventHandler $API): ?\danog\MadelineProto\EventHandler\Filter\Filter`
 
 Run some initialization logic, optionally returning a new filter to replace the current one.
@@ -32,6 +50,22 @@ Parameters:
 
 #### See also: 
 * [`\danog\MadelineProto\EventHandler`: Event handler.](../../../../danog/MadelineProto/EventHandler.html)
+
+
+
+
+### `fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`
+
+
+
+
+Parameters:
+
+* `$type`: `\ReflectionType`   
+
+
+#### See also: 
+* `\ReflectionType`
 
 
 

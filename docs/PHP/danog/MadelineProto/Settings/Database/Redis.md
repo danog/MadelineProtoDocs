@@ -17,6 +17,7 @@ Redis backend settings.
 
 
 ## Method list:
+* [`mergeArray(array $settings): void`](#mergearray-array-settings-void)
 * [`getDatabase(): int`](#getdatabase-int)
 * [`setDatabase(int $database): self`](#setdatabase-int-database-self)
 * [`getUri(): string`](#geturi-string)
@@ -26,6 +27,7 @@ Redis backend settings.
 * [`setCacheTtl(int|string $cacheTtl): static`](#setcachettl-int-string-cachettl-static)
 * [`getPassword(): string`](#getpassword-string)
 * [`setPassword(string $password): static`](#setpassword-string-password-static)
+* [`getSerializer(): ?\danog\MadelineProto\Settings\Database\SerializerType`](#getserializer-danog-madelineproto-settings-database-serializertype)
 * [`setSerializer(?\danog\MadelineProto\Settings\Database\SerializerType $serializer): static`](#setserializer-danog-madelineproto-settings-database-serializertype-serializer-static)
 * [`getEnableFileReferenceDb(): bool`](#getenablefilereferencedb-bool)
 * [`setEnableFileReferenceDb(bool $enableFileReferenceDb): self`](#setenablefilereferencedb-bool-enablefilereferencedb-self)
@@ -39,6 +41,17 @@ Redis backend settings.
 * [`setEnablePeerInfoDb(bool $enablePeerInfoDb): self`](#setenablepeerinfodb-bool-enablepeerinfodb-self)
 
 ## Methods:
+### `mergeArray(array $settings): void`
+
+
+
+
+Parameters:
+
+* `$settings`: `array`   
+
+
+
 ### `getDatabase(): int`
 
 Get database number.
@@ -117,6 +130,17 @@ Parameters:
 
 
 
+### `getSerializer(): ?\danog\MadelineProto\Settings\Database\SerializerType`
+
+
+
+
+#### See also: 
+* [\danog\MadelineProto\Settings\Database\SerializerType](../../../../danog/MadelineProto/Settings/Database/SerializerType.html)
+
+
+
+
 ### `setSerializer(?\danog\MadelineProto\Settings\Database\SerializerType $serializer): static`
 
 Which serializer to use by default.
@@ -128,7 +152,7 @@ Parameters:
 
 
 #### See also: 
-* `\danog\MadelineProto\Settings\Database\SerializerType`
+* [\danog\MadelineProto\Settings\Database\SerializerType](../../../../danog/MadelineProto/Settings/Database/SerializerType.html)
 
 
 

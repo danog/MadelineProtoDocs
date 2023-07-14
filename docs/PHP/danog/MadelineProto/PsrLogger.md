@@ -18,15 +18,15 @@ PSR-3 wrapper for MadelineProto's Logger.
 
 ## Method list:
 * [`__construct(\danog\MadelineProto\Logger $logger)`](#__construct-danog-madelineproto-logger-logger)
-* [`log(mixed $level, mixed $message, array $context): void`](#log-mixed-level-mixed-message-array-context-void)
-* [`emergency(string|\Stringable $message, array $context): void`](#emergency-string-stringable-message-array-context-void)
-* [`alert(string|\Stringable $message, array $context): void`](#alert-string-stringable-message-array-context-void)
-* [`critical(string|\Stringable $message, array $context): void`](#critical-string-stringable-message-array-context-void)
-* [`error(string|\Stringable $message, array $context): void`](#error-string-stringable-message-array-context-void)
-* [`warning(string|\Stringable $message, array $context): void`](#warning-string-stringable-message-array-context-void)
-* [`notice(string|\Stringable $message, array $context): void`](#notice-string-stringable-message-array-context-void)
-* [`info(string|\Stringable $message, array $context): void`](#info-string-stringable-message-array-context-void)
-* [`debug(string|\Stringable $message, array $context): void`](#debug-string-stringable-message-array-context-void)
+* [`log(mixed $level, mixed $message, array $context = []): void`](#log-mixed-level-mixed-message-array-context-void)
+* [`emergency(string|\Stringable $message, array $context = []): void`](#emergency-string-stringable-message-array-context-void)
+* [`alert(string|\Stringable $message, array $context = []): void`](#alert-string-stringable-message-array-context-void)
+* [`critical(string|\Stringable $message, array $context = []): void`](#critical-string-stringable-message-array-context-void)
+* [`error(string|\Stringable $message, array $context = []): void`](#error-string-stringable-message-array-context-void)
+* [`warning(string|\Stringable $message, array $context = []): void`](#warning-string-stringable-message-array-context-void)
+* [`notice(string|\Stringable $message, array $context = []): void`](#notice-string-stringable-message-array-context-void)
+* [`info(string|\Stringable $message, array $context = []): void`](#info-string-stringable-message-array-context-void)
+* [`debug(string|\Stringable $message, array $context = []): void`](#debug-string-stringable-message-array-context-void)
 
 ## Methods:
 ### `__construct(\danog\MadelineProto\Logger $logger)`
@@ -45,7 +45,7 @@ Parameters:
 
 
 
-### `log(mixed $level, mixed $message, array $context): void`
+### `log(mixed $level, mixed $message, array $context = []): void`
 
 Logs with an arbitrary level.
 
@@ -58,7 +58,7 @@ Parameters:
 
 
 
-### `emergency(string|\Stringable $message, array $context): void`
+### `emergency(string|\Stringable $message, array $context = []): void`
 
 System is unusable.
 
@@ -75,7 +75,7 @@ Parameters:
 
 
 
-### `alert(string|\Stringable $message, array $context): void`
+### `alert(string|\Stringable $message, array $context = []): void`
 
 Action must be taken immediately.
 Example: Entire website down, database unavailable, etc. This should  
@@ -93,7 +93,7 @@ Parameters:
 
 
 
-### `critical(string|\Stringable $message, array $context): void`
+### `critical(string|\Stringable $message, array $context = []): void`
 
 Critical conditions.
 Example: Application component unavailable, unexpected exception.
@@ -110,7 +110,7 @@ Parameters:
 
 
 
-### `error(string|\Stringable $message, array $context): void`
+### `error(string|\Stringable $message, array $context = []): void`
 
 Runtime errors that do not require immediate action but should typically
 be logged and monitored.
@@ -128,7 +128,7 @@ Parameters:
 
 
 
-### `warning(string|\Stringable $message, array $context): void`
+### `warning(string|\Stringable $message, array $context = []): void`
 
 Exceptional occurrences that are not errors.
 Example: Use of deprecated APIs, poor use of an API, undesirable things  
@@ -146,7 +146,7 @@ Parameters:
 
 
 
-### `notice(string|\Stringable $message, array $context): void`
+### `notice(string|\Stringable $message, array $context = []): void`
 
 Normal but significant events.
 
@@ -163,7 +163,7 @@ Parameters:
 
 
 
-### `info(string|\Stringable $message, array $context): void`
+### `info(string|\Stringable $message, array $context = []): void`
 
 Interesting events.
 Example: User logs in, SQL logs.
@@ -180,7 +180,7 @@ Parameters:
 
 
 
-### `debug(string|\Stringable $message, array $context): void`
+### `debug(string|\Stringable $message, array $context = []): void`
 
 Detailed debug information.
 

@@ -17,6 +17,9 @@ Connection settings.
 
 
 ## Method list:
+* [`mergeArray(array $settings): void`](#mergearray-array-settings-void)
+* [`__construct()`](#__construct)
+* [`init(): void`](#init-void)
 * [`getProtocol(): string`](#getprotocol-string)
 * [`setProtocol(class-string<\danog\MadelineProto\Stream\MTProtoBufferInterface> $protocol): self`](#setprotocol-class-string-danog-madelineproto-stream-mtprotobufferinterface-protocol-self)
 * [`getIpv6(): bool`](#getipv6-bool)
@@ -28,7 +31,7 @@ Connection settings.
 * [`getRobinPeriod(): int`](#getrobinperiod-int)
 * [`setRobinPeriod(int $robinPeriod): self`](#setrobinperiod-int-robinperiod-self)
 * [`getProxies(): array<class-string<\danog\MadelineProto\Stream\StreamInterface>, array>`](#getproxies-array-class-string-danog-madelineproto-stream-streaminterface-array)
-* [`addProxy(class-string<\danog\MadelineProto\Stream\StreamInterface> $proxy, array $extra): self`](#addproxy-class-string-danog-madelineproto-stream-streaminterface-proxy-array-extra-self)
+* [`addProxy(class-string<\danog\MadelineProto\Stream\StreamInterface> $proxy, array $extra = []): self`](#addproxy-class-string-danog-madelineproto-stream-streaminterface-proxy-array-extra-self)
 * [`setProxy(array $proxies): self`](#setproxy-array-proxies-self)
 * [`clearProxies(): self`](#clearproxies-self)
 * [`removeProxy(string $proxy, array $extra): self`](#removeproxy-string-proxy-array-extra-self)
@@ -54,6 +57,29 @@ Connection settings.
 * [`setTestRsaKeys(array $testRsaKeys): self`](#settestrsakeys-array-testrsakeys-self)
 
 ## Methods:
+### `mergeArray(array $settings): void`
+
+
+
+
+Parameters:
+
+* `$settings`: `array`   
+
+
+
+### `__construct()`
+
+
+
+
+
+### `init(): void`
+
+
+
+
+
 ### `getProtocol(): string`
 
 Get protocol identifier.
@@ -200,7 +226,7 @@ Get proxy identifiers.
 
 
 
-### `addProxy(class-string<\danog\MadelineProto\Stream\StreamInterface> $proxy, array $extra): self`
+### `addProxy(class-string<\danog\MadelineProto\Stream\StreamInterface> $proxy, array $extra = []): self`
 
 Add proxy identifier to list, one of:.
 * `\danog\MadelineProto\Stream\MTProtoTransport\ObfuscatedStream::class`  

@@ -21,11 +21,16 @@ MadelineProto offers a native plugin system, based on [event handlers](https://d
 
 Plugins can be installed by simply placing their files in the plugin path, or by installing them through composer.  
 
+Plugins may be run either using a [plugin base &raquo;](https://github.com/danog/MadelineProto/raw/v8/examples/PluginBase.php), or directly (in which case they behave as normal bots).  
+
 ### Simple installation
 
-To install a plugin, copy the plugin's files into a `plugins/` folder, and use the following base code:
+To install a plugin, copy the plugin's files into a `plugins/` folder, and use the following base code ([download &raquo;](https://github.com/danog/MadelineProto/raw/v8/examples/PluginBase.php)):
+
+<!-- cut_here examples/PluginBase.php -->
 
 ```php
+
 <?php declare(strict_types=1);
 
 use danog\MadelineProto\Logger;
@@ -38,7 +43,7 @@ use danog\MadelineProto\SimpleEventHandler;
 /** Base event handler class that only includes plugins */
 class BaseHandler extends SimpleEventHandler
 {
-    public function getPluginPaths(): array|string|null
+    public static function getPluginPaths(): array|string|null
     {
         return 'plugins/';
     }
@@ -57,7 +62,10 @@ BaseHandler::startAndLoop('bot.madeline', $settings);
 
 // For bots only
 // BaseHandler::startAndLoopBot('bot.madeline', 'bot token', $settings);
+
 ```
+
+<!-- cut_here_end examples/PluginBase.php -->
 
 Any other folder name may be used as well, and you can also return an array of folder names from `getPluginPaths()`.  
 
@@ -88,7 +96,7 @@ use MadelinePlugin\YourNick\PluginName;
 /** Base event handler class that includes plugins via Composer */
 class BaseHandler extends SimpleEventHandler
 {
-    public function getPlugins(): array
+    public static function getPlugins(): array
     {
         return [PluginName::class]
     }
@@ -153,7 +161,7 @@ Do this, instead:
 <!-- cut_here examples/plugins/Danogentili/OnlinePlugin.php -->
 
 ```php
-<?php
+<?php declare(strict_types=1);
 
 use danog\MadelineProto\EventHandler\Attributes\Cron;
 use danog\MadelineProto\EventHandler\Filter\FilterCommand;
@@ -195,6 +203,7 @@ class OnlinePlugin extends PluginEventHandler
         $this->isOnline = false;
     }
 }
+
 ```
 
 <!-- cut_here_end examples/plugins/Danogentili/OnlinePlugin.php -->

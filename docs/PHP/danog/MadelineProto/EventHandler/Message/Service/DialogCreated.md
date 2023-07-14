@@ -32,18 +32,39 @@ A chat or channel was created.
 * `$ttlPeriod`: `?int` Time-to-live of the message
 
 ## Method list:
+* [`__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, string $title, array $users)`](#__construct-danog-madelineproto-mtproto-api-array-rawmessage-string-title-array-users)
 * [`getReply(): ?self`](#getreply-self)
-* [`delete(bool $revoke): void`](#delete-bool-revoke-void)
-* [`reply(string $message, \"html"|\"markdown"|null $parseMode, array|null $replyMarkup, int|null $sendAs, int|null $scheduleDate, bool $silent, bool $noForwards, bool $background, bool $clearDraft, bool $noWebpage, bool $updateStickersetsOrder): \danog\MadelineProto\EventHandler\Message`](#reply-string-message-html-markdown-null-parsemode-array-null-replymarkup-int-null-sendas-int-null-scheduledate-bool-silent-bool-noforwards-bool-background-bool-cleardraft-bool-nowebpage-bool-updatestickersetsorder-danog-madelineproto-eventhandler-message)
+* [`delete(bool $revoke = true): void`](#delete-bool-revoke-true-void)
+* [`reply(string $message, \"html"|\"markdown"|null $parseMode = NULL, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#reply-string-message-html-markdown-null-parsemode-null-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-nowebpage-false-bool-updatestickersetsorder-false-danog-madelineproto-eventhandler-message)
+* [`jsonSerialize(): mixed`](#jsonserialize-mixed)
 
 ## Methods:
+### `__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, string $title, array $users)`
+
+
+
+
+Parameters:
+
+* `$API`: `\danog\MadelineProto\MTProto`   
+* `$rawMessage`: `array`   
+* `$title`: `string`   
+* `$users`: `array`   
+
+
+#### See also: 
+* `\danog\MadelineProto\MTProto`
+
+
+
+
 ### `getReply(): ?self`
 
 Get replied-to message.
 May return null if the replied-to message was deleted.
 
 
-### `delete(bool $revoke): void`
+### `delete(bool $revoke = true): void`
 
 Delete the message.
 
@@ -54,7 +75,7 @@ Parameters:
 
 
 
-### `reply(string $message, \"html"|\"markdown"|null $parseMode, array|null $replyMarkup, int|null $sendAs, int|null $scheduleDate, bool $silent, bool $noForwards, bool $background, bool $clearDraft, bool $noWebpage, bool $updateStickersetsOrder): \danog\MadelineProto\EventHandler\Message`
+### `reply(string $message, \"html"|\"markdown"|null $parseMode = NULL, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`
 
 Reply to the message.
 
@@ -76,6 +97,12 @@ Parameters:
 
 #### See also: 
 * [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../../danog/MadelineProto/EventHandler/Message.html)
+
+
+
+
+### `jsonSerialize(): mixed`
+
 
 
 

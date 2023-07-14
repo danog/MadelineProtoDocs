@@ -17,6 +17,7 @@ File management settings.
 
 
 ## Method list:
+* [`mergeArray(array $settings): void`](#mergearray-array-settings-void)
 * [`getAllowAutomaticUpload(): bool`](#getallowautomaticupload-bool)
 * [`setAllowAutomaticUpload(bool $allowAutomaticUpload): self`](#setallowautomaticupload-bool-allowautomaticupload-self)
 * [`getUploadParallelChunks(): int`](#getuploadparallelchunks-int)
@@ -27,6 +28,17 @@ File management settings.
 * [`setReportBrokenMedia(bool $reportBrokenMedia): self`](#setreportbrokenmedia-bool-reportbrokenmedia-self)
 
 ## Methods:
+### `mergeArray(array $settings): void`
+
+
+
+
+Parameters:
+
+* `$settings`: `array`   
+
+
+
 ### `getAllowAutomaticUpload(): bool`
 
 Get allow automatic upload of files from file paths present in constructors?

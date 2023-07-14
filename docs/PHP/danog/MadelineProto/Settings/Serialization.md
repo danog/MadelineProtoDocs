@@ -17,10 +17,22 @@ Serialization settings.
 
 
 ## Method list:
+* [`mergeArray(array $settings): void`](#mergearray-array-settings-void)
 * [`getInterval(): int`](#getinterval-int)
 * [`setInterval(int $interval): self`](#setinterval-int-interval-self)
 
 ## Methods:
+### `mergeArray(array $settings): void`
+
+
+
+
+Parameters:
+
+* `$settings`: `array`   
+
+
+
 ### `getInterval(): int`
 
 Get serialization interval, in seconds.

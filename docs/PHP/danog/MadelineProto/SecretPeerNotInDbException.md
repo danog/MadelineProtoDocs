@@ -19,13 +19,27 @@ Indicates that the specified secret chat wasn't found.
 * `$tlTrace`: `string` TL trace.
 
 ## Method list:
+* [`__construct()`](#__construct)
 * [`extension(string $extensionName): self`](#extension-string-extensionname-self)
+* [`getMessage(): string`](#getmessage-string)
+* [`getCode(): mixed`](#getcode-mixed)
+* [`getFile(): string`](#getfile-string)
+* [`getLine(): int`](#getline-int)
+* [`getTrace(): array`](#gettrace-array)
+* [`getPrevious(): ?\Throwable`](#getprevious-throwable)
+* [`getTraceAsString(): string`](#gettraceasstring-string)
 * [`updateTLTrace(array $trace): void`](#updatetltrace-array-trace-void)
 * [`getTLTrace(): string`](#gettltrace-string)
 * [`setTLTrace(string $tlTrace): void`](#settltrace-string-tltrace-void)
-* [`prettifyTL(string $init, array $trace): void`](#prettifytl-string-init-array-trace-void)
+* [`prettifyTL(string $init = '', array $trace = NULL): void`](#prettifytl-string-init-array-trace-null-void)
 
 ## Methods:
+### `__construct()`
+
+
+
+
+
 ### `extension(string $extensionName): self`
 
 Complain about missing extensions.
@@ -34,6 +48,53 @@ Complain about missing extensions.
 Parameters:
 
 * `$extensionName`: `string` Extension name  
+
+
+
+### `getMessage(): string`
+
+
+
+
+
+### `getCode(): mixed`
+
+
+
+
+
+### `getFile(): string`
+
+
+
+
+
+### `getLine(): int`
+
+
+
+
+
+### `getTrace(): array`
+
+
+
+
+
+### `getPrevious(): ?\Throwable`
+
+
+
+
+#### See also: 
+* `\Throwable`
+
+
+
+
+### `getTraceAsString(): string`
+
+
 
 
 
@@ -65,7 +126,7 @@ Parameters:
 
 
 
-### `prettifyTL(string $init, array $trace): void`
+### `prettifyTL(string $init = '', array $trace = NULL): void`
 
 Generate async trace.
 

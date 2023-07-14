@@ -21,12 +21,12 @@ Some tools.
 
 
 ## Method list:
-* [`testFibers(int $fiberCount): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`](#testfibers-int-fibercount-array-maxfibers-int-realmemorymb-int-maps-int-maxmaps-int)
+* [`testFibers(int $fiberCount = 100000): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`](#testfibers-int-fibercount-100000-array-maxfibers-int-realmemorymb-int-maps-int-maxmaps-int)
 * [`getMaps(): ?int`](#getmaps-int)
 * [`getMaxMaps(): ?int`](#getmaxmaps-int)
 * [`stringToStream(string $str): \Amp\ByteStream\ReadableBuffer`](#stringtostream-string-str-amp-bytestream-readablebuffer)
 * [`genVectorHash(array $ints): string`](#genvectorhash-array-ints-string)
-* [`randomInt(int $modulus): int`](#randomint-int-modulus-int)
+* [`randomInt(int $modulus = 0): int`](#randomint-int-modulus-0-int)
 * [`random(int $length): string`](#random-int-length-string)
 * [`posmod(int $a, int $b): int`](#posmod-int-a-int-b-int)
 * [`unpackSignedInt(string $value): int`](#unpacksignedint-string-value-int)
@@ -48,19 +48,19 @@ Some tools.
 * [`end(array $what): mixed`](#end-array-what-mixed)
 * [`isAltervista(): bool`](#isaltervista-bool)
 * [`validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): void`](#validateeventhandlerclass-class-string-danog-madelineproto-eventhandler-class-void)
-* [`validateEventHandlerCode(string $code, bool $plugin): void`](#validateeventhandlercode-string-code-bool-plugin-void)
+* [`validateEventHandlerCode(string $code, bool $plugin = true): void`](#validateeventhandlercode-string-code-bool-plugin-true-void)
 * [`rethrow(\Throwable $e): void`](#rethrow-throwable-e-void)
 * [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-callable-mixed-args-amp-future-t)
-* [`flock(string $file, int $operation, float $polling, ?\Amp\Cancellation $token, ?\Closure $failureCb): mixed`](#flock-string-file-int-operation-float-polling-amp-cancellation-token-closure-failurecb-mixed)
+* [`flock(string $file, int $operation, float $polling = 0.1, ?\Amp\Cancellation $token = NULL, ?\Closure $failureCb = NULL): mixed`](#flock-string-file-int-operation-float-polling-0-1-amp-cancellation-token-null-closure-failurecb-null-mixed)
 * [`sleep(float $time): void`](#sleep-float-time-void)
-* [`readLine(string $prompt, ?\Amp\Cancellation $cancel): string`](#readline-string-prompt-amp-cancellation-cancel-string)
+* [`readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`](#readline-string-prompt-amp-cancellation-cancel-null-string)
 * [`echo(string $string): void`](#echo-string-string-void)
 * [`mbStrlen(string $text): int`](#mbstrlen-string-text-int)
-* [`mbSubstr(string $text, int $offset, null|int $length): string`](#mbsubstr-string-text-int-offset-null-int-length-string)
+* [`mbSubstr(string $text, int $offset, null|int $length = NULL): string`](#mbsubstr-string-text-int-offset-null-int-length-null-string)
 * [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplit-string-text-int-length-string)
 * [`htmlToMessageEntities(string $html): \danog\MadelineProto\TL\Conversion\DOMEntities Object containing message and entities`](#htmltomessageentities-string-html-danog-madelineproto-tl-conversion-domentities-object-containing-message-and-entities)
 * [`markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\DOMEntities Object containing message and entities`](#markdowntomessageentities-string-markdown-danog-madelineproto-tl-conversion-domentities-object-containing-message-and-entities)
-* [`entitiesToHtml(string $message, array $entities, bool $allowTelegramTags): string`](#entitiestohtml-string-message-array-entities-bool-allowtelegramtags-string)
+* [`entitiesToHtml(string $message, array $entities, bool $allowTelegramTags = false): string`](#entitiestohtml-string-message-array-entities-bool-allowtelegramtags-false-string)
 * [`toCamelCase(string $input): string`](#tocamelcase-string-input-string)
 * [`toSnakeCase(string $input): string`](#tosnakecase-string-input-string)
 * [`getMimeFromExtension(string $extension, string $default): string`](#getmimefromextension-string-extension-string-default-string)
@@ -70,7 +70,7 @@ Some tools.
 * [`getMimeFromBuffer(string $buffer): string`](#getmimefrombuffer-string-buffer-string)
 
 ## Methods:
-### `testFibers(int $fiberCount): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`
+### `testFibers(int $fiberCount = 100000): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`
 
 Test fibers.
 
@@ -120,7 +120,7 @@ Parameters:
 
 
 
-### `randomInt(int $modulus): int`
+### `randomInt(int $modulus = 0): int`
 
 Get random integer.
 
@@ -364,7 +364,7 @@ Parameters:
 
 
 
-### `validateEventHandlerCode(string $code, bool $plugin): void`
+### `validateEventHandlerCode(string $code, bool $plugin = true): void`
 
 Perform static analysis on a certain event handler class, to make sure it satisfies some performance requirements.
 
@@ -411,7 +411,7 @@ Parameters:
 
 
 
-### `flock(string $file, int $operation, float $polling, ?\Amp\Cancellation $token, ?\Closure $failureCb): mixed`
+### `flock(string $file, int $operation, float $polling = 0.1, ?\Amp\Cancellation $token = NULL, ?\Closure $failureCb = NULL): mixed`
 
 Asynchronously lock a file
 Resolves with a callbable that MUST eventually be called in order to release the lock.
@@ -444,7 +444,7 @@ Parameters:
 
 
 
-### `readLine(string $prompt, ?\Amp\Cancellation $cancel): string`
+### `readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`
 
 Asynchronously read line.
 
@@ -483,7 +483,7 @@ Parameters:
 
 
 
-### `mbSubstr(string $text, int $offset, null|int $length): string`
+### `mbSubstr(string $text, int $offset, null|int $length = NULL): string`
 
 Telegram UTF-8 multibyte substring.
 
@@ -548,7 +548,7 @@ Return value: Object containing message and entities
 
 
 
-### `entitiesToHtml(string $message, array $entities, bool $allowTelegramTags): string`
+### `entitiesToHtml(string $message, array $entities, bool $allowTelegramTags = false): string`
 
 Convert a message and a set of entities to HTML.
 

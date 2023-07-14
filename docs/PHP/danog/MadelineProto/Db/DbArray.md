@@ -27,6 +27,8 @@ DB array interface.
 * [`offsetExists(\TKey $index): bool`](#offsetexists-tkey-index-bool)
 * [`clear(): void`](#clear-void)
 * [`getIterator(): \Traversable<\TKey, \TValue>`](#getiterator-traversable-tkey-tvalue)
+* [`getInstance(string $table, \danog\MadelineProto\Db\DbType|array|null $previous, \danog\MadelineProto\Settings\DatabaseAbstract $settings): static`](#getinstance-string-table-danog-madelineproto-db-dbtype-array-null-previous-danog-madelineproto-settings-databaseabstract-settings-static)
+* [`count(): mixed`](#count-mixed)
 
 ## Methods:
 ### `getArrayCopy(): array`
@@ -176,6 +178,30 @@ Get iterator.
 * `\TKey`
 * `\TValue`
 * `\Traversable`
+
+
+
+
+### `getInstance(string $table, \danog\MadelineProto\Db\DbType|array|null $previous, \danog\MadelineProto\Settings\DatabaseAbstract $settings): static`
+
+
+
+
+Parameters:
+
+* `$table`: `string`   
+* `$previous`: `\danog\MadelineProto\Db\DbType|array|null`   
+* `$settings`: `\danog\MadelineProto\Settings\DatabaseAbstract`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\Settings\DatabaseAbstract`: Base class for storage backends.](../../../danog/MadelineProto/Settings/DatabaseAbstract.html)
+
+
+
+
+### `count(): mixed`
+
 
 
 
