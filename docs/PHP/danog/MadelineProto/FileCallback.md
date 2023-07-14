@@ -16,7 +16,7 @@ File callback interface.
 
 
 ## Properties
-* `$callback`: `callable` (float, float, float)
+* `$callback`: `callable` (float, float, int)
 * `$file`: `mixed` 
 
 ## Method list:
