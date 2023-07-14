@@ -34,7 +34,7 @@ Some members joined the chat or channel.
 * [`__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $joined)`](#__construct-danog-madelineproto-mtproto-api-array-rawmessage-array-joined)
 * [`getReply(): ?self`](#getreply-self)
 * [`delete(bool $revoke = true): void`](#delete-bool-revoke-true-void)
-* [`reply(string $message, \"html"|\"markdown"|null $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#reply-string-message-html-markdown-null-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-nowebpage-false-bool-updatestickersetsorder-false-danog-madelineproto-eventhandler-message)
+* [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#reply-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-nowebpage-false-bool-updatestickersetsorder-false-danog-madelineproto-eventhandler-message)
 
 ## Methods:
 ### `__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $joined)`
@@ -72,7 +72,7 @@ Parameters:
 
 
 
-### `reply(string $message, \"html"|\"markdown"|null $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`
+### `reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`
 
 Reply to the message.
 
@@ -80,7 +80,7 @@ Reply to the message.
 Parameters:
 
 * `$message`: `string` Message to send  
-* `$parseMode`: `\"html"|\"markdown"|null` Parse mode  
+* `$parseMode`: `\danog\MadelineProto\ParseMode` Parse mode  
 * `$replyMarkup`: `array|null` Keyboard information.  
 * `$sendAs`: `int|null` Peer to send the message as.  
 * `$scheduleDate`: `int|null` Schedule date.  
@@ -93,6 +93,7 @@ Parameters:
 
 
 #### See also: 
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../../danog/MadelineProto/ParseMode.html)
 * [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../../danog/MadelineProto/EventHandler/Message.html)
 
 
