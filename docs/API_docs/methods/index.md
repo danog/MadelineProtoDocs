@@ -516,7 +516,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getpropicinfo-mixed-data-array" name="getPropicInfo">Get download info of the propic of a user: getPropicInfo</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#geteventhandler-string-class-null-danog-madelineproto-eventhandler-danog-madelineproto-ipc-eventhandlerproxy-__php_incomplete_class-null" name="getEventHandler">Get event handler (or plugin instance): getEventHandler</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#geteventhandler-class-string-plugineventhandler-class-null-danog-madelineproto-eventhandler-danog-madelineproto-ipc-eventhandlerproxy-__php_incomplete_class-null" name="getEventHandler">Get event handler (or plugin instance): getEventHandler</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getextensionfromlocation-mixed-location-string-default-string" name="getExtensionFromLocation">Get extension from file location: getExtensionFromLocation</a>
 
@@ -962,7 +962,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.reportEncryptedSpam.html" name="messages.reportEncryptedSpam">Report a secret chat for spam: messages.reportEncryptedSpam</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#report-string-message-string-parsemode-bool-sendlogs-true-void" name="report">Report an error to the previously set peer: report</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#report-string-message-string-parsemode-void" name="report">Report an error to the previously set peer: report</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#reportmemoryprofile-void" name="reportMemoryProfile">Report memory profile with memprof: reportMemoryProfile</a>
 
@@ -1106,19 +1106,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="bots.sendCustomRequest.html" name="bots.sendCustomRequest">Sends a custom request; for bots only: bots.sendCustomRequest</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#senddocument-int-string-peer-message-media-localfile-remoteurl-botapifileid-readablestream-file-message-media-localfile-remoteurl-botapifileid-readablestream-null-thumb-null-string-caption-html-markdown-null-parsemode-null-callable-callback-null-string-filename-null-string-mimetype-null-int-ttl-null-bool-spoiler-false-int-null-replytomsgid-null-int-null-topmsgid-null-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-updatestickersetsorder-false-danog-madelineproto-eventhandler-message" name="sendDocument">Sends a document: sendDocument</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#senddocument-int-string-peer-message-media-localfile-remoteurl-botapifileid-readablestream-file-message-media-localfile-remoteurl-botapifileid-readablestream-null-thumb-null-string-caption-html-markdown-null-parsemode-danog-madelineproto-parsemode-text-callable-callback-null-string-filename-null-string-mimetype-null-int-ttl-null-bool-spoiler-false-int-null-replytomsgid-null-int-null-topmsgid-null-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-updatestickersetsorder-false-danog-madelineproto-eventhandler-message" name="sendDocument">Sends a document: sendDocument</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#broadcastmessages-array-messages-danog-madelineproto-broadcast-filter-filter-null-bool-pin-false-int" name="broadcastMessages">Sends a list of messages to all peers (users, chats, channels) of the bot: broadcastMessages</a>
 
 * <a href="messages.sendMessage.html" name="messages.sendMessage">Sends a message to a chat: messages.sendMessage</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#sendmessagetoadmins-string-message-html-markdown-null-parsemode-null-array-null-replymarkup-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-nowebpage-false-list-message" name="sendMessageToAdmins">Sends a message to all report peers (admins of the bot): sendMessageToAdmins</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#sendmessagetoadmins-string-message-html-markdown-null-parsemode-null-array-null-replymarkup-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-nowebpage-false-list-danog-madelineproto-eventhandler-message" name="sendMessageToAdmins">Sends a message to all report peers (admins of the bot): sendMessageToAdmins</a>
 
 * <a href="messages.sendEncryptedFile.html" name="messages.sendEncryptedFile">Sends a message with a file attachment to a secret chat: messages.sendEncryptedFile</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#sendmessage-int-string-peer-string-message-html-markdown-null-parsemode-null-int-null-replytomsgid-null-int-null-topmsgid-null-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-nowebpage-false-bool-updatestickersetsorder-false-danog-madelineproto-eventhandler-message" name="sendMessage">Sends a message: sendMessage</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#sendmessage-int-string-peer-string-message-html-markdown-null-parsemode-danog-madelineproto-parsemode-text-int-null-replytomsgid-null-int-null-topmsgid-null-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-nowebpage-false-bool-updatestickersetsorder-false-danog-madelineproto-eventhandler-message" name="sendMessage">Sends a message: sendMessage</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#sendphoto-int-string-peer-message-media-localfile-remoteurl-botapifileid-readablestream-file-string-caption-html-markdown-null-parsemode-null-callable-callback-null-string-filename-null-int-ttl-null-bool-spoiler-false-int-null-replytomsgid-null-int-null-topmsgid-null-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-updatestickersetsorder-false-danog-madelineproto-eventhandler-message" name="sendPhoto">Sends a photo: sendPhoto</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#sendphoto-int-string-peer-message-media-localfile-remoteurl-botapifileid-readablestream-file-string-caption-html-markdown-null-parsemode-danog-madelineproto-parsemode-text-callable-callback-null-string-filename-null-int-ttl-null-bool-spoiler-false-int-null-replytomsgid-null-int-null-topmsgid-null-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-updatestickersetsorder-false-danog-madelineproto-eventhandler-message" name="sendPhoto">Sends a photo: sendPhoto</a>
 
 * <a href="messages.sendEncryptedService.html" name="messages.sendEncryptedService">Sends a service message to a secret chat: messages.sendEncryptedService</a>
 
@@ -1306,7 +1306,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#wrapmessage-array-message-danog-madelineproto-eventhandler-message" name="wrapMessage">Wrap a Message constructor into an abstract Message object: wrapMessage</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#wrapmedia-array-media-bool-protected-danog-madelineproto-eventhandler-media" name="wrapMedia">Wrap a media constructor into an abstract Media object: wrapMedia</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#wrapmedia-array-media-bool-protected-false-danog-madelineproto-eventhandler-media" name="wrapMedia">Wrap a media constructor into an abstract Media object: wrapMedia</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#wrapupdate-array-update-danog-madelineproto-eventhandler-update" name="wrapUpdate">Wrap an Update constructor into an abstract Update object: wrapUpdate</a>
 

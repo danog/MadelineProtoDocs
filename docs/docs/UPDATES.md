@@ -66,11 +66,14 @@ use danog\MadelineProto\EventHandler\Message;
 use danog\MadelineProto\EventHandler\SimpleFilter\FromAdmin;
 use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
 use danog\MadelineProto\Logger;
+use danog\MadelineProto\ParseMode;
 use danog\MadelineProto\Settings;
 use danog\MadelineProto\Settings\Database\Mysql;
 use danog\MadelineProto\Settings\Database\Postgres;
 use danog\MadelineProto\Settings\Database\Redis;
 use danog\MadelineProto\SimpleEventHandler;
+
+use function Amp\File\read;
 
 // MadelineProto is already loaded
 if (class_exists(API::class)) {
@@ -94,7 +97,7 @@ class MyEventHandler extends SimpleEventHandler
     /**
      * @var int|string Username or ID of bot admin
      */
-    const ADMIN = "@danogentili"; // !!! Change this to your username !!!
+    const ADMIN = "@me"; // !!! Change this to your username !!!
 
     /**
      * @var array<int, bool>
@@ -127,6 +130,11 @@ class MyEventHandler extends SimpleEventHandler
         $this->logger($this->getFullInfo('MadelineProto'));
 
         $this->sendMessageToAdmins("The bot was started!");
+        $this->sendMessage(
+            peer: 'danogentili',
+            message: read(__DIR__.'/../CHANGELOG.html'),
+            parseMode: ParseMode::MARKDOWN
+        );
     }
 
     /**
