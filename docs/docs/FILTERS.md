@@ -12,6 +12,7 @@ There are two filter types:
 
 * [Simple filters](#simple-filters)
 * [Attribute filters](#attribute-filters)
+  * [Creating custom attribute filters](#creating-custom-attribute-filters)
 * [MTProto filters](#mtproto-filters)
 
 ## Simple filters
@@ -257,6 +258,159 @@ Here's the full list of filter attributes (see the [MTProto filters &raquo;](#mt
 
 
 <!-- cut_here_end attributefilters -->
+
+### Creating custom attribute filters
+
+To create a custom attribute filter, simply create a method attribute that extends the Filter class.  
+
+You must implement an `apply(Update $update): bool` method, that returns true or false according to the filter's logic.  
+
+```php
+<?php declare(strict_types=1);
+
+use Attribute;
+use danog\MadelineProto\EventHandler\Update;
+
+/**
+ * Use with #[FilterBoolean(true/false)]
+ */
+#[Attribute(Attribute::TARGET_METHOD)]
+final class FilterBoolean extends Filter
+{
+    public function __construct(private readonly bool $applyIf) {}
+    public function apply(Update $update): bool
+    {
+        return $this->applyIf;
+    }
+}
+```
+
+You can also optionally implement the `public function initialize(EventHandler $API): ?Filter` function.  
+
+This function is useful to perform expensive one-time initialization tasks, to avoid performing them during filtering, for example:
+
+<!-- cut_here src/EventHandler/Filter/FilterFromSenders.php -->
+
+```php
+<?php declare(strict_types=1);
+
+namespace danog\MadelineProto\EventHandler\Filter;
+
+use Attribute;
+use danog\MadelineProto\EventHandler;
+use danog\MadelineProto\EventHandler\Message\GroupMessage;
+use danog\MadelineProto\EventHandler\Update;
+
+/**
+ * Allow incoming or outgoing group messages made by a certain list of senders.
+ */
+#[Attribute(Attribute::TARGET_METHOD)]
+final class FilterFromSenders extends Filter
+{
+    /** @var array<string|int> */
+    private readonly array $peers;
+    /** @var list<string|int> */
+    private readonly array $peersResolved;
+    public function __construct(string|int ...$idOrUsername)
+    {
+        $this->peers = \array_unique($idOrUsername);
+    }
+    public function initialize(EventHandler $API): ?Filter
+    {
+        $res = [];
+        foreach ($this->peers as $peer) {
+            $res []= $API->getId($peer);
+        }
+        $this->peersResolved = $res;
+        return null;
+    }
+    public function apply(Update $update): bool
+    {
+        return $update instanceof GroupMessage && \in_array($update->senderId, $this->peersResolved, true);
+    }
+}
+
+```
+
+<!-- cut_here_end src/EventHandler/Filter/FilterFromSenders.php -->
+
+Usually you should return `null` from `initialize()`, but if you want to replace the current filter with another filter, you can return the new filter, instead:
+
+```php
+<?php declare(strict_types=1);
+
+use Attribute;
+use danog\MadelineProto\EventHandler;
+use danog\MadelineProto\EventHandler\Filter\Filter;
+use danog\MadelineProto\EventHandler\Filter\FilterPrivate;
+use danog\MadelineProto\EventHandler\Filter\FilterFromAdmin;
+use danog\MadelineProto\EventHandler\Update;
+
+/**
+ * A shorthand filter for FilterPrivate && FilterFromAdmin
+ */
+#[Attribute(Attribute::TARGET_METHOD)]
+final class FilterPrivateAdmin extends Filter
+{
+    public function initialize(EventHandler $API): ?Filter
+    {
+        return new FiltersAnd(new FilterPrivate, new FilterFromAdmin);
+    }
+
+    public function apply(Update $update): bool
+    {
+        throw new AssertionError("Unreachable!");
+    }
+}
+```
+
+Another example:
+
+<!-- cut_here src/EventHandler/Filter/Combinator/FilterNot.php -->
+
+```php
+<?php declare(strict_types=1);
+
+namespace danog\MadelineProto\EventHandler\Filter\Combinator;
+
+use Attribute;
+use danog\MadelineProto\EventHandler;
+use danog\MadelineProto\EventHandler\Filter\Filter;
+use danog\MadelineProto\EventHandler\Update;
+
+/**
+ * NOTs a filter.
+ */
+#[Attribute(Attribute::TARGET_METHOD)]
+final class FilterNot extends Filter
+{
+    public function __construct(private readonly Filter $filter)
+    {
+    }
+    public function initialize(EventHandler $API): ?Filter
+    {
+        $filter = $this->filter->initialize($API);
+        if ($filter === null) {
+            // The nested filter didn't replace itself
+            return $this;
+        }
+        if ($filter instanceof self) {
+            // The nested filter is a FilterNot, optimize !!A => A
+            return $filter->filter;
+        }
+        // The nested filter replaced itself, re-wrap it
+        return new self($filter);
+    }
+
+    public function apply(Update $update): bool
+    {
+        return !$this->apply($update);
+    }
+}
+
+```
+
+<!-- cut_here_end src/EventHandler/Filter/Combinator/FilterNot.php -->
 
 ## MTProto filters
 
