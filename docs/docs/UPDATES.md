@@ -427,7 +427,7 @@ class PingPlugin extends PluginEventHandler
 
 <!-- cut_here_end examples/plugins/Danogentili/PingPlugin.php -->
 
-You can read and write to those properties from the outside using setter methods, for example:
+You can read and write to those properties from the outside using getter and setter methods, for example:
 
 ```
 if (!file_exists('madeline.php')) {
