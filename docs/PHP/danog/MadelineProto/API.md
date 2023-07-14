@@ -127,7 +127,6 @@ Main API wrapper for MadelineProto.
 * [`fullChatLastUpdated(mixed $id): int`](#fullchatlastupdated-mixed-id-int)
 * [`fullGetSelf(): array|false`](#fullgetself-array-false)
 * [`genVectorHash(array $ints): string`](#genvectorhash-array-ints-string)
-* [`getAdmin(): int`](#getadmin-int)
 * [`getAdminIds(): array`](#getadminids-array)
 * [`getAllMethods(): array`](#getallmethods-array)
 * [`getAuthorization(): \danog\MadelineProto\API::NOT_LOGGED_IN|\danog\MadelineProto\API::WAITING_CODE|\danog\MadelineProto\API::WAITING_SIGNUP|\danog\MadelineProto\API::WAITING_PASSWORD|\danog\MadelineProto\API::LOGGED_IN`](#getauthorization-danog-madelineproto-api-not_logged_in-danog-madelineproto-api-waiting_code-danog-madelineproto-api-waiting_signup-danog-madelineproto-api-waiting_password-danog-madelineproto-api-logged_in)
@@ -927,12 +926,6 @@ Returns a vector hash.
 Parameters:
 
 * `$ints`: `array` IDs  
-
-
-
-### `getAdmin(): int`
-
-Obtain the ID of the admin of the bot (equal to the first user ID returned by getReportPeers).
 
 
 

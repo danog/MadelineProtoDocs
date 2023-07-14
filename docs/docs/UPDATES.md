@@ -152,10 +152,6 @@ class MyEventHandler extends SimpleEventHandler
 
     /**
      * Handle incoming updates from users, chats and channels.
-     *
-     * 100+ other types of onUpdate... method types are available, see https://docs.madelineproto.xyz/API_docs/types/Update.html for the full list.
-     * You can also use onAny to catch all update types (only for debugging)
-     * A special onUpdateCustomEvent method can also be defined, to send messages to the event handler from an API instance, using the sendCustomEvent method.
      */
     #[Handler]
     public function handleMessage(Incoming&Message $message): void
@@ -206,7 +202,7 @@ class MyEventHandler extends SimpleEventHandler
         $message->reply($args[0] ?? '');
     }
 
-    #[FilterRegex('/.*(mproto).*/i')]
+    #[FilterRegex('/.*(mt?proto).*/i')]
     public function testRegex(Incoming & Message $message): void
     {
         $message->reply("Did you mean to write MadelineProto instead of ".$message->matches[1].'?');
@@ -336,7 +332,9 @@ class MyEventHandler extends SimpleEventHandler
 }
 ```
 
-You can also specify millisecond intervals like `0.5` (500 milliseconds).
+You can also specify millisecond intervals like `0.5` (500 milliseconds).  
+
+MadelineProto's crons are based on the [danog/loop](https://daniil.it/loop) library: the associated PeriodicLoop instance that can be used to stop or restart the loop is passed as first parameter to the cron, and can also be fetched using `$this->getPeriodicLoop('methodName')`, in this case `$this->getPeriodicLoop('cron1')`.  
 
 ### Persisting data and IPC
 
@@ -429,7 +427,7 @@ class PingPlugin extends PluginEventHandler
 
 You can read and write to those properties from the outside using getter and setter methods, for example:
 
-```
+```php
 use danog\MadelineProto\API;
 use MadelinePlugin\Danogentili\PingPlugin;
 

@@ -18,8 +18,6 @@ $InputNotifyPeer = $update; // Update objects received in the event handler
 
 $InputNotifyPeer = 'me'; // The currently logged-in user
 
-$InputNotifyPeer = 'admin'; // The admin of the bot (the first peer returned by getReportPeers in an event handler)
-
 $InputNotifyPeer = 44700; // bot API id (users)
 $InputNotifyPeer = -492772765; // bot API id (chats)
 $InputNotifyPeer = -10038575794; // bot API id (channels)

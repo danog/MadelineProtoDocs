@@ -123,10 +123,10 @@ Want to add your own open-source project to this list? [Click here!](https://doc
     * [Simple installation](https://docs.madelineproto.xyz/docs/PLUGINS.html#simple-installation)
     * [Composer installation](https://docs.madelineproto.xyz/docs/PLUGINS.html#composer-installation)
   * [Creating plugins](https://docs.madelineproto.xyz/docs/PLUGINS.html#creating-plugins)
+    * [Full plugin example](https://docs.madelineproto.xyz/docs/PLUGINS.html#full-plugin-example)
     * [Limitations](https://docs.madelineproto.xyz/docs/PLUGINS.html#limitations)
     * [Namespace requirements](https://docs.madelineproto.xyz/docs/PLUGINS.html#namespace-requirements)
     * [Distribution](https://docs.madelineproto.xyz/docs/PLUGINS.html#distribution)
-    * [Full plugin example](https://docs.madelineproto.xyz/docs/PLUGINS.html#full-plugin-example)
 * [Database](https://docs.madelineproto.xyz/docs/DATABASE.html)
   * [\danog\MadelineProto\Settings\Database\Memory: Memory backend settings.](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/Settings/Database/Memory.html)
   * [\danog\MadelineProto\Settings\Database\Mysql: MySQL backend settings.](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/Settings/Database/Mysql.html)
@@ -669,7 +669,6 @@ Want to add your own open-source project to this list? [Click here!](https://doc
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/chatlists.checkChatlistInvite.html" name="chatlists.checkChatlistInvite">Obtain information about a chat folder deep link »: chatlists.checkChatlistInvite</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getBotApp.html" name="messages.getBotApp">Obtain information about a named bot web app: messages.getBotApp</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getwebapitemplate-string" name="getWebAPITemplate">Obtain the API ID UI template: getWebAPITemplate</a>
-    * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getadmin-int" name="getAdmin">Obtain the ID of the admin of the bot (equal to the first user ID returned by getReportPeers): getAdmin</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/contacts.importContactToken.html" name="contacts.importContactToken">Obtain user info from a temporary profile link: contacts.importContactToken</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/stats.getMessagePublicForwards.html" name="stats.getMessagePublicForwards">Obtains a list of messages, indicating to which other public channels was a channel message forwarded.  : stats.getMessagePublicForwards</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.getSendAs.html" name="channels.getSendAs">Obtains a list of peers that can be used to send messages in a specific group: channels.getSendAs</a>

@@ -318,7 +318,7 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 
  * onUpdateCustomEvent: Receives messages sent to the event handler from an API instance using the [`sendCustomEvent` &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#sendcustomevent-mixed-payload-void) method.
  * onAny: Catch-all filter, if defined catches all updates that aren't catched by any other filter.
-* [onUpdateNewMessage &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateNewMessage.html) - New message in a private chat or in a [basic group](https://core.telegram.org/api/channel#basic-groups).
+ * [onUpdateBroadcastProgress &raquo;](https://docs.madelineproto.xyz/docs/BROADCAST.html#get-progress): Used to receive updates to an in-progress [message broadcast &raquo;](https://docs.madelineproto.xyz/docs/BROADCAST.html)* [onUpdateNewMessage &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateNewMessage.html) - New message in a private chat or in a [basic group](https://core.telegram.org/api/channel#basic-groups).
 * [onUpdateMessageID &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateMessageID.html) - Sent message with **random\_id** client identifier was assigned an identifier.
 * [onUpdateDeleteMessages &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateDeleteMessages.html) - Messages were deleted.
 * [onUpdateUserTyping &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateUserTyping.html) - The user is preparing a message; typing, recording, uploading, etc. This update is valid for 6 seconds. If no further updates of this kind are received after 6 seconds, it should be considered that the user stopped doing whatever they were doing

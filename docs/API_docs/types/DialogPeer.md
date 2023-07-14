@@ -18,8 +18,6 @@ $DialogPeer = $update; // Update objects received in the event handler
 
 $DialogPeer = 'me'; // The currently logged-in user
 
-$DialogPeer = 'admin'; // The admin of the bot (the first peer returned by getReportPeers in an event handler)
-
 $DialogPeer = 44700; // bot API id (users)
 $DialogPeer = -492772765; // bot API id (chats)
 $DialogPeer = -10038575794; // bot API id (channels)

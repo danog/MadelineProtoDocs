@@ -12,10 +12,10 @@ MadelineProto offers a native plugin system, based on [event handlers](https://d
   * [Simple installation](#simple-installation)
   * [Composer installation](#composer-installation)
 * [Creating plugins](#creating-plugins)
+  * [Full plugin example](#full-plugin-example)
   * [Limitations](#limitations)
   * [Namespace requirements](#namespace-requirements)
   * [Distribution](#distribution)
-  * [Full plugin example](#full-plugin-example)
 
 ## Installing plugins
 
@@ -123,6 +123,95 @@ You can combine plugins installed with this mode with plugins installed using a 
 
 To create a plugin, simply create an [event handler](https://docs.madelineproto.xyz/docs/UPDATES.html) that extends the `PluginEventHandler` class.
 
+### Full plugin example
+
+Full example (file name `plugins/Danogentili/PingPlugin.php`):
+
+<!-- cut_here examples/plugins/Danogentili/PingPlugin.php -->
+
+```php
+<?php declare(strict_types=1);
+
+namespace MadelinePlugin\Danogentili;
+
+use danog\MadelineProto\EventHandler\Attributes\Cron;
+use danog\MadelineProto\EventHandler\Filter\FilterText;
+use danog\MadelineProto\EventHandler\Message;
+use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
+use danog\MadelineProto\PluginEventHandler;
+
+/**
+ * Plugin event handler class.
+ *
+ * All properties returned by __sleep are automatically stored in the database.
+ */
+class PingPlugin extends PluginEventHandler
+{
+    private int $pingCount = 0;
+
+    private string $pongText = 'pong';
+
+    /**
+     * You can set a custom pong text from the outside of the plugin:.
+     *
+     * ```
+     * if (!file_exists('madeline.php')) {
+     *     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+     * }
+     * include 'madeline.php';
+     *
+     * $a = new API('bot.madeline');
+     * $plugin = $a->getPlugin(PingPlugin::class);
+     *
+     * $plugin->setPongText('UwU');
+     * ```
+     *
+     * This will automatically connect to the running instance of the plugin and call the specified method.
+     */
+    public function setPongText(string $pong): void
+    {
+        $this->pongText = $pong;
+    }
+
+    /**
+     * Returns a list of names for properties that will be automatically saved to the session database (MySQL/postgres/redis if configured, the session file otherwise).
+     */
+    public function __sleep(): array
+    {
+        return ['pingCount', 'pongText'];
+    }
+    /**
+     * Initialization logic.
+     */
+    public function onStart(): void
+    {
+        $this->logger("The bot was started!");
+        $this->logger($this->getFullInfo('MadelineProto'));
+
+        $this->sendMessageToAdmins("The bot was started!");
+    }
+
+    /**
+     * This cron function will be executed forever, every 60 seconds.
+     */
+    #[Cron(period: 60.0)]
+    public function cron1(): void
+    {
+        $this->sendMessageToAdmins("The ping plugin is online, total pings so far: ".$this->pingCount);
+    }
+
+    #[FilterText('ping')]
+    public function pingCommand(Incoming&Message $message): void
+    {
+        $message->reply($this->pongText);
+        $this->pingCount++;
+    }
+}
+
+```
+
+<!-- cut_here_end examples/plugins/Danogentili/PingPlugin.php -->
+
 ### Limitations
 
 Plugins can handle updates, include other plugins using `getPlugins()` and store persistent data to the session using `__sleep`, [just like any non-plugin event handler](https://docs.madelineproto.xyz/docs/UPDATES.html).  
@@ -212,7 +301,7 @@ final class OnlinePlugin extends PluginEventHandler
 
 And, to toggle the settings from the outside of the bot (for example using a helper bot, or another program):
 
-```
+```php
 <?php
 
 $online = true;
@@ -254,94 +343,5 @@ If you want to define some functions, put them in `plugins/Danog/functions.php` 
 Plugins can be distributed in a simple zip file, or using composer.  
 
 You can also distribute plugins as standalone files in the `MadelinePlugin` namespace (make sure to choose a really unique name!), for example `plugins/Danogentili.php`.  
-
-### Full plugin example
-
-Full example (file name `plugins/Danogentili/PingPlugin.php`):
-
-<!-- cut_here examples/plugins/Danogentili/PingPlugin.php -->
-
-```php
-<?php declare(strict_types=1);
-
-namespace MadelinePlugin\Danogentili;
-
-use danog\MadelineProto\EventHandler\Attributes\Cron;
-use danog\MadelineProto\EventHandler\Filter\FilterText;
-use danog\MadelineProto\EventHandler\Message;
-use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
-use danog\MadelineProto\PluginEventHandler;
-
-/**
- * Plugin event handler class.
- *
- * All properties returned by __sleep are automatically stored in the database.
- */
-class PingPlugin extends PluginEventHandler
-{
-    private int $pingCount = 0;
-
-    private string $pongText = 'pong';
-
-    /**
-     * You can set a custom pong text from the outside of the plugin:.
-     *
-     * ```
-     * if (!file_exists('madeline.php')) {
-     *     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
-     * }
-     * include 'madeline.php';
-     *
-     * $a = new API('bot.madeline');
-     * $plugin = $a->getPlugin(PingPlugin::class);
-     *
-     * $plugin->setPongText('UwU');
-     * ```
-     *
-     * This will automatically connect to the running instance of the plugin and call the specified method.
-     */
-    public function setPongText(string $pong): void
-    {
-        $this->pongText = $pong;
-    }
-
-    /**
-     * Returns a list of names for properties that will be automatically saved to the session database (MySQL/postgres/redis if configured, the session file otherwise).
-     */
-    public function __sleep(): array
-    {
-        return ['pingCount', 'pongText'];
-    }
-    /**
-     * Initialization logic.
-     */
-    public function onStart(): void
-    {
-        $this->logger("The bot was started!");
-        $this->logger($this->getFullInfo('MadelineProto'));
-
-        $this->sendMessageToAdmins("The bot was started!");
-    }
-
-    /**
-     * This cron function will be executed forever, every 60 seconds.
-     */
-    #[Cron(period: 60.0)]
-    public function cron1(): void
-    {
-        $this->sendMessageToAdmins("The ping plugin is online, total pings so far: ".$this->pingCount);
-    }
-
-    #[FilterText('ping')]
-    public function pingCommand(Incoming&Message $message): void
-    {
-        $message->reply($this->pongText);
-        $this->pingCount++;
-    }
-}
-
-```
-
-<!-- cut_here_end examples/plugins/Danogentili/PingPlugin.php -->
 
 <a href="https://docs.madelineproto.xyz/docs/DATABASE.html">Next section</a>

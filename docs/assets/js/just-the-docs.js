@@ -486,7 +486,7 @@ jtd.onReady(function(){
   if (window.location.hash) {
     setTimeout(function () {
       document.getElementById(window.location.hash.slice(1)).scrollIntoView();
-    }, 200);
+    }, 50);
   }
 });
 

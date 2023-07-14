@@ -872,8 +872,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getwebapitemplate-string" name="getWebAPITemplate">Obtain the API ID UI template: getWebAPITemplate</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getadmin-int" name="getAdmin">Obtain the ID of the admin of the bot (equal to the first user ID returned by getReportPeers): getAdmin</a>
-
 * <a href="contacts.importContactToken.html" name="contacts.importContactToken">Obtain user info from a temporary profile link: contacts.importContactToken</a>
 
 * <a href="stats.getMessagePublicForwards.html" name="stats.getMessagePublicForwards">Obtains a list of messages, indicating to which other public channels was a channel message forwarded.  : stats.getMessagePublicForwards</a>
