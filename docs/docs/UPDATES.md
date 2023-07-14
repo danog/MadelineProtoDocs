@@ -430,6 +430,9 @@ class PingPlugin extends PluginEventHandler
 You can read and write to those properties from the outside using getter and setter methods, for example:
 
 ```
+use danog\MadelineProto\API;
+use MadelinePlugin\Danogentili\PingPlugin;
+
 if (!file_exists('madeline.php')) {
      copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
