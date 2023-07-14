@@ -158,7 +158,7 @@ Here's the full list of simple filter interfaces (see [attribute filters](#attri
 
 Attribute filters are implemented using PHP attributes, for example:
 
-```
+```php
 use danog\MadelineProto\SimpleEventHandler;
 use danog\MadelineProto\EventHandler\Attributes\Handler;
 use danog\MadelineProto\EventHandler\Message;
@@ -265,7 +265,7 @@ Unlike [simple updates](#simple-filters), raw MTProto updates do not have bound 
 
 MTProto filters are defined by creating a function with the appropriate name, for example to handle [updateNewMessage](https://docs.madelineproto.xyz/API_docs/constructors/updateNewMessage.html) updates:
 
-```
+```php
 use danog\MadelineProto\SimpleEventHandler;
 
 class MyEventHandler extends SimpleEventHandler
