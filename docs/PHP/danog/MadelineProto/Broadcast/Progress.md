@@ -25,7 +25,6 @@ Broadcast progress.
 
 ## Method list:
 * [`__construct(int $broadcastId, \danog\MadelineProto\Broadcast\Status $status, int $pendingCount, int $successCount, int $failCount)`](#__construct-int-broadcastid-danog-madelineproto-broadcast-status-status-int-pendingcount-int-successcount-int-failcount)
-* [`jsonSerialize(): mixed`](#jsonserialize-mixed)
 
 ## Methods:
 ### `__construct(int $broadcastId, \danog\MadelineProto\Broadcast\Status $status, int $pendingCount, int $successCount, int $failCount)`
@@ -44,12 +43,6 @@ Parameters:
 
 #### See also: 
 * [`\danog\MadelineProto\Broadcast\Status`: Broadcast status.](../../../danog/MadelineProto/Broadcast/Status.html)
-
-
-
-
-### `jsonSerialize(): mixed`
-
 
 
 

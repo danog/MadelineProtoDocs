@@ -35,7 +35,6 @@ Some members joined the chat or channel.
 * [`getReply(): ?self`](#getreply-self)
 * [`delete(bool $revoke = true): void`](#delete-bool-revoke-true-void)
 * [`reply(string $message, \"html"|\"markdown"|null $parseMode = NULL, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#reply-string-message-html-markdown-null-parsemode-null-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-nowebpage-false-bool-updatestickersetsorder-false-danog-madelineproto-eventhandler-message)
-* [`jsonSerialize(): mixed`](#jsonserialize-mixed)
 
 ## Methods:
 ### `__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $joined)`
@@ -95,12 +94,6 @@ Parameters:
 
 #### See also: 
 * [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../../danog/MadelineProto/EventHandler/Message.html)
-
-
-
-
-### `jsonSerialize(): mixed`
-
 
 
 
