@@ -85,9 +85,26 @@ Custom emoji: <tg-emoji emoji-id="5368324170671202286">👍</tg-emoji>
 <tg-spoiler>Spoiler</tg-spoiler>
 ```
 
-You can also use normal markdown, note that to create mentions you must use the `mention:` syntax like in html:  
+You can also use normal markdown ([bot API MarkdownV2 syntax](https://core.telegram.org/bots/api#markdownv2-style)), note that to create mentions you can also use the `mention:` syntax like in html:  
 
 ```markdown
+*bold \*text*
+_italic \*text_
+__underline__
+~strikethrough~
+||spoiler||
+*bold _italic bold ~italic bold strikethrough ||italic bold strikethrough spoiler||~ __underline italic bold___ bold*
+[inline URL](http://www.example.com/)
+[inline mention of a user](tg://user?id=123456789)
+![👍](tg://emoji?id=5368324170671202286)
+\`inline fixed-width code\`
+\`\`\`
+pre-formatted fixed-width code block
+\`\`\`
+\`\`\`php
+pre-formatted fixed-width code block written in the PHP programming language
+\`\`\`
+
 [Mention by username](mention:@danogentili)
 [Mention by user id](mention:186785362)
 [Mention by user id](tg://user?id=186785362)
@@ -95,4 +112,3 @@ You can also use normal markdown, note that to create mentions you must use the 
 [👍](tg://emoji?id=5368324170671202286)
 ```
 
-MadelineProto supports all html entities supported by [html_entity_decode](http://php.net/manual/en/function.html-entity-decode.php).

@@ -165,6 +165,7 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\TL\Exception: TL deserialization exception.](/PHP/danog/MadelineProto/TL/Exception.html)
 * [\danog\MadelineProto\TL\Conversion\DOMEntities: Class that converts HTML to a message + set of entities.](/PHP/danog/MadelineProto/TL/Conversion/DOMEntities.html)
 * [\danog\MadelineProto\TL\Conversion\Exception: TL conversion exception.](/PHP/danog/MadelineProto/TL/Conversion/Exception.html)
+* [\danog\MadelineProto\TL\Conversion\MarkdownEntities: Class that converts Markdown to a message + set of entities.](/PHP/danog/MadelineProto/TL/Conversion/MarkdownEntities.html)
 * [\danog\MadelineProto\TL\Types\Button: Clickable button.](/PHP/danog/MadelineProto/TL/Types/Button.html)
 * [\danog\MadelineProto\TL\Types\Bytes: Bytes wrapper.](/PHP/danog/MadelineProto/TL/Types/Bytes.html)
 * [\danog\MadelineProto\TL\Types\LoginQrCode: Represents a login QR code.](/PHP/danog/MadelineProto/TL/Types/LoginQrCode.html)

@@ -21,6 +21,7 @@ Update handling can be done in different ways:
   * [Restarting](#restarting)
   * [Self-restart on webhosts](#self-restart-on-webhosts)
   * [Multi-account](#multiaccount)
+  * [Automatic static analysis](#automatic-static-analysis)
 * [Webhook (for HTTP APIs)](#webhook)
 * [getUpdates (only for Javascript APIs)](#getUpdates)
 * [Noop (default)](#noop)
@@ -66,14 +67,11 @@ use danog\MadelineProto\EventHandler\Message;
 use danog\MadelineProto\EventHandler\SimpleFilter\FromAdmin;
 use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
 use danog\MadelineProto\Logger;
-use danog\MadelineProto\ParseMode;
 use danog\MadelineProto\Settings;
 use danog\MadelineProto\Settings\Database\Mysql;
 use danog\MadelineProto\Settings\Database\Postgres;
 use danog\MadelineProto\Settings\Database\Redis;
 use danog\MadelineProto\SimpleEventHandler;
-
-use function Amp\File\read;
 
 // MadelineProto is already loaded
 if (class_exists(API::class)) {
@@ -130,11 +128,6 @@ class MyEventHandler extends SimpleEventHandler
         $this->logger($this->getFullInfo('MadelineProto'));
 
         $this->sendMessageToAdmins("The bot was started!");
-        $this->sendMessage(
-            peer: 'danogentili',
-            message: read(__DIR__.'/../CHANGELOG.html'),
-            parseMode: ParseMode::MARKDOWN
-        );
     }
 
     /**
@@ -533,6 +526,111 @@ foreach ([
 ] as $session => $message) {
     Tools::callFork(MyEventHandler::startAndLoop(...), $session);
 }
+```
+
+### Automatic static analysis
+
+MadelineProto will automatically analyze the event handler code, blocking execution if performance or security issues are detected!
+
+For example, the following functions and classes are **banned**, and the specified async counterparts must be used, instead:
+
+* `file_get_contents`, `file_put_contents`, `fopen` - Please use https://github.com/amphp/file or https://github.com/amphp/http-client, instead
+* `curl_exec` - Please use https://github.com/amphp/http-client, instead
+* `mysqli_query`, `mysqli_connect`, `mysql_connect`, `PDO`, `mysqli` - Please use https://github.com/amphp/mysql or https://github.com/amphp/postgres, instead
+* `fsockopen` - Please use https://github.com/amphp/socket, instead
+
+For performance reasons, it is heavily *recommended* you **do not** read files from the filesystem at all: configuration can be done entirely using in-memory persistent properties, for example:
+
+```php
+<?php
+
+use Amp\File\read;
+use Amp\File\write;
+
+// WRONG!
+if (!read('online.txt')) {
+    write('online.txt', 'on');
+}
+
+class OnlinePlugin extends PluginEventHandler
+{
+    #[Cron(period: 60.0)]
+    public function cron(): void
+    {
+        // WRONG!
+        if (read('online.txt') === 'on') {
+            $this->account->updateStatus(offline: false);
+        } else {
+            $this->account->updateStatus(offline: true);
+        }
+    }
+}
+```
+
+Do this, instead:
+
+<!-- cut_here examples/plugins/Danogentili/OnlinePlugin.php -->
+
+```php
+<?php declare(strict_types=1);
+
+namespace MadelinePlugin\Danogentili;
+
+use danog\MadelineProto\EventHandler\Attributes\Cron;
+use danog\MadelineProto\EventHandler\Filter\FilterCommand;
+use danog\MadelineProto\EventHandler\Message;
+use danog\MadelineProto\EventHandler\SimpleFilter\FromAdmin;
+use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
+use danog\MadelineProto\PluginEventHandler;
+
+final class OnlinePlugin extends PluginEventHandler
+{
+    private bool $isOnline = true;
+
+    public function setOnline(bool $online): void
+    {
+        $this->isOnline = $online;
+    }
+
+    public function isPluginEnabled(): bool
+    {
+        // Only users can be online/offline
+        return $this->getSelf()['bot'] === false;
+    }
+
+    #[Cron(period: 60.0)]
+    public function cron(): void
+    {
+        $this->account->updateStatus(offline: !$this->isOnline);
+    }
+
+    #[FilterCommand('online')]
+    public function toggleOnline(Incoming&Message&FromAdmin $message): void
+    {
+        $this->isOnline = true;
+    }
+
+    #[FilterCommand('offline')]
+    public function toggleOffline(Incoming&Message&FromAdmin $message): void
+    {
+        $this->isOnline = false;
+    }
+}
+
+```
+
+<!-- cut_here_end examples/plugins/Danogentili/OnlinePlugin.php -->
+
+And, to toggle the settings from the outside of the bot (for example using a helper bot, or another program):
+
+```php
+<?php
+
+$online = true;
+//$online = false;
+
+$API = new \danog\MadelineProto\API('session.madeline');
+$API->getEventHandler(\MadelinePlugin\Danogentili\OnlinePlugin::class)->setOnline($online);
 ```
 
 ## Noop
