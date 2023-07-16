@@ -373,7 +373,9 @@ $link = $MadelineProto->getDownloadLink($MessageMedia);
 
 `$MessageMedia` can be a [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object or a **bot API file ID** (files up to 4GB are supported!).
 
-This method will work automatically only when running via web (apache/php-fpm).
+This method will work automatically only when running via web (apache/php-fpm).  
+
+The generated download `$link` will point to your own server, and the link will stream files directly to the browser (**no temporary files will be created**, **0** disk space will be used).  
 
 #### Getting a download link (CLI bots)
 
@@ -407,6 +409,8 @@ include 'madeline.php';
 ```
 
 Note that `session.madeline` must point to exactly the same session path used by the CLI bot.  
+
+The generated download `$link` will point to your own server, and the link will stream files directly to the browser (**no temporary files will be created**, **0** disk space will be used).  
 
 ### Downloading profile pictures
 ```php
