@@ -192,6 +192,14 @@ class PingPlugin extends PluginEventHandler
     }
 
     /**
+     * Plugins may be enabled or disabled at startup by returning true or false from this function.
+     */
+    public function isPluginEnabled(): bool
+    {
+        return true;
+    }
+
+    /**
      * This cron function will be executed forever, every 60 seconds.
      */
     #[Cron(period: 60.0)]
@@ -211,6 +219,8 @@ class PingPlugin extends PluginEventHandler
 ```
 
 <!-- cut_here_end examples/plugins/Danogentili/PingPlugin.php -->
+
+Plugins may be enabled or disabled at startup by returning `true` or `false` from `isPluginEnabled()`.
 
 ### Limitations
 

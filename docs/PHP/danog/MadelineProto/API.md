@@ -254,8 +254,7 @@ Main API wrapper for MadelineProto.
 * [`uploadFromStream(mixed $stream, int $size, string $mime, string $fileName = '', callable $cb = NULL, bool $encrypted = false): mixed`](#uploadfromstream-mixed-stream-int-size-string-mime-string-filename-callable-cb-null-bool-encrypted-false-mixed)
 * [`uploadFromTgfile(mixed $media, callable $cb = NULL, bool $encrypted = false): mixed`](#uploadfromtgfile-mixed-media-callable-cb-null-bool-encrypted-false-mixed)
 * [`uploadFromUrl(string|\danog\MadelineProto\FileCallbackInterface $url, int $size = 0, string $fileName = '', callable $cb = NULL, bool $encrypted = false): mixed`](#uploadfromurl-string-danog-madelineproto-filecallbackinterface-url-int-size-0-string-filename-callable-cb-null-bool-encrypted-false-mixed)
-* [`validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): void`](#validateeventhandlerclass-class-string-danog-madelineproto-eventhandler-class-void)
-* [`validateEventHandlerCode(string $code, bool $plugin): void`](#validateeventhandlercode-string-code-bool-plugin-void)
+* [`validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): list<\danog\MadelineProto\EventHandlerIssue>`](#validateeventhandlerclass-class-string-danog-madelineproto-eventhandler-class-list-danog-madelineproto-eventhandlerissue)
 * [`viewSponsoredMessage(int|array $peer, string|array{random_id: string} $message): bool`](#viewsponsoredmessage-int-array-peer-string-array-random_id-string-message-bool)
 * [`wrapMedia(array $media, bool $protected = false): ?\danog\MadelineProto\EventHandler\Media`](#wrapmedia-array-media-bool-protected-false-danog-madelineproto-eventhandler-media)
 * [`wrapMessage(array $message): ?\danog\MadelineProto\EventHandler\Message`](#wrapmessage-array-message-danog-madelineproto-eventhandler-message)
@@ -2446,7 +2445,7 @@ Parameters:
 
 
 
-### `validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): void`
+### `validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): list<\danog\MadelineProto\EventHandlerIssue>`
 
 Perform static analysis on a certain event handler class, to make sure it satisfies some performance requirements.
 
@@ -2458,19 +2457,8 @@ Parameters:
 
 #### See also: 
 * [`\danog\MadelineProto\EventHandler`: Event handler.](../../danog/MadelineProto/EventHandler.html)
+* [`\danog\MadelineProto\EventHandlerIssue`: Represents an event handler issue.](../../danog/MadelineProto/EventHandlerIssue.html)
 
-
-
-
-### `validateEventHandlerCode(string $code, bool $plugin): void`
-
-Perform static analysis on a certain event handler class, to make sure it satisfies some performance requirements.
-
-
-Parameters:
-
-* `$code`: `string` Code of the class.  
-* `$plugin`: `bool` Whether the class is a plugin or normal event handler class.  
 
 
 

@@ -407,6 +407,14 @@ class PingPlugin extends PluginEventHandler
     }
 
     /**
+     * Plugins may be enabled or disabled at startup by returning true or false from this function.
+     */
+    public function isPluginEnabled(): bool
+    {
+        return true;
+    }
+
+    /**
      * This cron function will be executed forever, every 60 seconds.
      */
     #[Cron(period: 60.0)]
@@ -555,7 +563,7 @@ Here's a list of common uses for files, and what they can be replaced with:
 
 #### Configuration
 
-Configuration can be done entirely using in-memory persistent properties, for example:
+Configuration can be done entirely using persistent properties, for example:
 
 ```php
 <?php

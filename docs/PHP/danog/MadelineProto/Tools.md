@@ -47,9 +47,8 @@ Some tools.
 * [`closeConnection(string $message): void`](#closeconnection-string-message-void)
 * [`end(array $what): mixed`](#end-array-what-mixed)
 * [`isAltervista(): bool`](#isaltervista-bool)
-* [`validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): void`](#validateeventhandlerclass-class-string-danog-madelineproto-eventhandler-class-void)
 * [`openFileAppendOnly(string $path): \Amp\File\File`](#openfileappendonly-string-path-amp-file-file)
-* [`validateEventHandlerCode(string $code, bool $plugin): void`](#validateeventhandlercode-string-code-bool-plugin-void)
+* [`validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): list<\danog\MadelineProto\EventHandlerIssue>`](#validateeventhandlerclass-class-string-danog-madelineproto-eventhandler-class-list-danog-madelineproto-eventhandlerissue)
 * [`rethrow(\Throwable $e): void`](#rethrow-throwable-e-void)
 * [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-callable-mixed-args-amp-future-t)
 * [`flock(string $file, int $operation, float $polling = 0.1, ?\Amp\Cancellation $token = NULL, ?\Closure $failureCb = NULL): mixed`](#flock-string-file-int-operation-float-polling-0-1-amp-cancellation-token-null-closure-failurecb-null-mixed)
@@ -349,22 +348,6 @@ Whether this is altervista.
 
 
 
-### `validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): void`
-
-Perform static analysis on a certain event handler class, to make sure it satisfies some performance requirements.
-
-
-Parameters:
-
-* `$class`: `class-string<\danog\MadelineProto\EventHandler>` Class name  
-
-
-#### See also: 
-* [`\danog\MadelineProto\EventHandler`: Event handler.](../../danog/MadelineProto/EventHandler.html)
-
-
-
-
 ### `openFileAppendOnly(string $path): \Amp\File\File`
 
 Opens a file in append-only mode.
@@ -381,15 +364,20 @@ Parameters:
 
 
 
-### `validateEventHandlerCode(string $code, bool $plugin): void`
+### `validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): list<\danog\MadelineProto\EventHandlerIssue>`
 
 Perform static analysis on a certain event handler class, to make sure it satisfies some performance requirements.
 
 
 Parameters:
 
-* `$code`: `string` Code of the class.  
-* `$plugin`: `bool` Whether the class is a plugin or normal event handler class.  
+* `$class`: `class-string<\danog\MadelineProto\EventHandler>` Class name  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler`: Event handler.](../../danog/MadelineProto/EventHandler.html)
+* [`\danog\MadelineProto\EventHandlerIssue`: Represents an event handler issue.](../../danog/MadelineProto/EventHandlerIssue.html)
+
 
 
 
