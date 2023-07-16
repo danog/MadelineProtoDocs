@@ -356,10 +356,20 @@ You can also use [getDownloadLink](#getting-a-download-link) to obtain a direct 
 ### Getting a download link
 
 ```php
+<?php
+
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
 $link = $MadelineProto->getDownloadLink($MessageMedia);
 ```
 
-`$MessageMedia` can be a [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object or a bot API file ID.
+`$MessageMedia` can be a [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object or a bot API file ID (files up to 4GB are supported!).
 
 This method will work automatically only when running via web (apache/php-fpm).
 
@@ -368,6 +378,16 @@ This method will work automatically only when running via web (apache/php-fpm).
 **Only if running via CLI** (or if URL rewriting is enabled on web), a second parameter must be provided with a URL to a download script hosted on a php-fpm/apache instance on the same machine:
 
 ```php
+<?php
+
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
 $link = $MadelineProto->getDownloadLink($MessageMedia, 'https://yourhost.com/dl.php');
 ```
 
@@ -376,13 +396,15 @@ The dl.php script must have the following content:
 ```php
 <?php
 
-require 'vendor/autoload.php';
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
 
 \danog\MadelineProto\API::downloadServer('session.madeline');
 ```
 
 Note that `session.madeline` must point to exactly the same session path used by the CLI bot.  
-`vendor/autoload.php` must also point to the exact same autoloader used by the CLI bot (or `madeline.php`/`madeline.phar`).
 
 ### Downloading profile pictures
 ```php
