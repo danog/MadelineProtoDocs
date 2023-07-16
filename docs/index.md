@@ -189,6 +189,7 @@ Want to add your own open-source project to this list? [Click here!](https://doc
   * [Renaming files](https://docs.madelineproto.xyz/docs/FILES.html#renaming-files)
   * [Downloading files](https://docs.madelineproto.xyz/docs/FILES.html#downloading-files)
     * [Extracting download info](https://docs.madelineproto.xyz/docs/FILES.html#extracting-download-info)
+    * [Getting a download link](https://docs.madelineproto.xyz/docs/FILES.html#getting-a-download-link)
     * [Downloading profile pictures](https://docs.madelineproto.xyz/docs/FILES.html#downloading-profile-pictures)
     * [Download to directory](https://docs.madelineproto.xyz/docs/FILES.html#download-to-directory)
     * [Download to file](https://docs.madelineproto.xyz/docs/FILES.html#download-to-file)
@@ -501,7 +502,7 @@ Want to add your own open-source project to this list? [Click here!](https://doc
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getdhconfig-array" name="getDhConfig">Get diffie-hellman configuration: getDhConfig</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getdownloadinfo-mixed-messagemedia-array-ext-string-name-string-mime-string-size-int-inputfilelocation-array" name="getDownloadInfo">Get download info of file: getDownloadInfo</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getpropicinfo-mixed-data-array" name="getPropicInfo">Get download info of the propic of a user: getPropicInfo</a>
-    * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getdownloadlink-danog-madelineproto-eventhandler-message-array-string-media-string-scripturl-null-string" name="getDownloadLink">Get download link of media file: getDownloadLink</a>
+    * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getdownloadlink-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-array-string-media-string-scripturl-null-string" name="getDownloadLink">Get download link of media file: getDownloadLink</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#geteventhandler-class-string-plugineventhandler-class-null-danog-madelineproto-eventhandler-danog-madelineproto-ipc-eventhandlerproxy-__php_incomplete_class-null" name="getEventHandler">Get event handler (or plugin instance): getEventHandler</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getextensionfromlocation-mixed-location-string-default-string" name="getExtensionFromLocation">Get extension from file location: getExtensionFromLocation</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getextensionfrommime-string-mime-string" name="getExtensionFromMime">Get extension from mime type: getExtensionFromMime</a>
@@ -623,6 +624,7 @@ Want to add your own open-source project to this list? [Click here!](https://doc
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.installTheme.html" name="account.installTheme">Install a theme: account.installTheme</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.saveWallPaper.html" name="account.saveWallPaper">Install/uninstall wallpaper: account.saveWallPaper</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/photos.updateProfilePhoto.html" name="photos.updateProfilePhoto">Installs a previously uploaded photo as a profile photo: photos.updateProfilePhoto</a>
+    * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#processdownloadserverping-string-path-string-payload-void" name="processDownloadServerPing">Internal endpoint used by the download server: processDownloadServerPing</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/help.editUserInfo.html" name="help.editUserInfo">Internal use: help.editUserInfo</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/phone.inviteToGroupCall.html" name="phone.inviteToGroupCall">Invite a set of users to a group call: phone.inviteToGroupCall</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.inviteToChannel.html" name="channels.inviteToChannel">Invite users to a channel/supergroup: channels.inviteToChannel</a>

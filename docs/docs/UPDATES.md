@@ -216,6 +216,24 @@ class MyEventHandler extends SimpleEventHandler
         $message->reply('hello');
     }
 
+    /**
+     * Gets a download link for any file up to 4GB!
+     */
+    #[FilterCommand('dl')]
+    public function downloadLink(Incoming&Message $message): void
+    {
+        if (!$message->replyToMsgId) {
+            $message->reply("This command must reply to a media message!");
+            return;
+        }
+        $message = $message->getReply();
+        if (!$message instanceof Message || !$message->media) {
+            $message->reply("This command must reply to a media message!");
+            return;
+        }
+        $message->reply("Download link: ".$message->media->getDownloadLink());
+    }
+
     public static function getPluginPaths(): string|array|null
     {
         return 'plugins/';

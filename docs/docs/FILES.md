@@ -28,6 +28,7 @@ Example bot: [`downloadRenameBot.php`](https://github.com/danog/MadelineProto/bl
 * [Renaming files](#renaming-files)
 * [Downloading files](#downloading-files)
   * [Extracting download info](#extracting-download-info)
+  * [Getting a download link](#getting-a-download-link)
   * [Downloading profile pictures](#downloading-profile-pictures)
   * [Download to directory](#download-to-directory)
   * [Download to file](#download-to-file)
@@ -345,10 +346,43 @@ $info = $MadelineProto->getDownloadInfo($MessageMedia);
 
 `$MessageMedia` can be a [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object or a bot API file ID.
 
+You can also use [getDownloadLink](#getting-a-download-link) to obtain a direct download link for any file up to 4GB.
+
 * `$info['ext']` - The file extension
 * `$info['name']` - The file name, without the extension
 * `$info['mime']` - The file mime type
 * `$info['size']` - The file size
+
+### Getting a download link
+
+```php
+$link = $MadelineProto->getDownloadLink($MessageMedia);
+```
+
+`$MessageMedia` can be a [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object or a bot API file ID.
+
+This method will work automatically only when running via web (apache/php-fpm).
+
+#### Getting a download link (CLI bots)
+
+**Only if running via CLI** (or if URL rewriting is enabled on web), a second parameter must be provided with a URL to a download script hosted on a php-fpm/apache instance on the same machine:
+
+```php
+$link = $MadelineProto->getDownloadLink($MessageMedia, 'https://yourhost.com/dl.php');
+```
+
+The dl.php script must have the following content:
+
+```php
+<?php
+
+require 'vendor/autoload.php';
+
+\danog\MadelineProto\API::downloadServer('session.madeline');
+```
+
+Note that `session.madeline` must point to exactly the same session path used by the CLI bot.  
+`vendor/autoload.php` must also point to the exact same autoloader used by the CLI bot (or `madeline.php`/`madeline.phar`).
 
 ### Downloading profile pictures
 ```php
@@ -372,6 +406,8 @@ This downloads the given file to `/tmp`, and returns the full generated file pat
 
 **Note**: if downloading files that will be re-downloaded by the user, use [downloadToBrowser](#download-to-browser), instead: [downloadToBrowser](#download-to-browser) will avoid the creation of temporary files, streaming the file directly to the user.  
 
+You can also use [getDownloadLink](#getting-a-download-link) to obtain a direct download link for any file up to 4GB.  
+
 `$MessageMedia` can be either a [Message](https://docs.madelineproto.xyz/API_docs/types/Message.html), an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html), a [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object, or a bot API file ID.
 
 ### Download to file
@@ -380,6 +416,8 @@ $output_file_name = $MadelineProto->downloadToFile($MessageMedia, '/tmp/myname.m
 ```
 
 **Note**: if downloading files that will be re-downloaded by the user, use [downloadToBrowser](#download-to-browser), instead: [downloadToBrowser](#download-to-browser) will avoid the creation of temporary files, streaming the file directly to the user.  
+
+You can also use [getDownloadLink](#getting-a-download-link) to obtain a direct download link for any file up to 4GB.  
 
 This downloads the given file to `/tmp/myname.mp4`, and returns the full file path.
 
@@ -427,6 +465,8 @@ Automatically supports HEAD requests and content-ranges for parallel and resumed
 ```php
 $MadelineProto->downloadToBrowser($MessageMedia, $cb);
 ```
+
+You can also use [getDownloadLink](#getting-a-download-link) to obtain a direct download link for any file up to 4GB.  
 
 This downloads the given file to the browser, sending also information about the file's type and size.
 Automatically supports HEAD requests and content-ranges for parallel and resumed downloads.  

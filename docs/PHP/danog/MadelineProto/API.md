@@ -141,7 +141,7 @@ Main API wrapper for MadelineProto.
 * [`getDialogIds(): list<int>`](#getdialogids-list-int)
 * [`getDialogs(): list<array>`](#getdialogs-list-array)
 * [`getDownloadInfo(mixed $messageMedia): array{ext: string, name: string, mime: string, size: int, InputFileLocation: array}`](#getdownloadinfo-mixed-messagemedia-array-ext-string-name-string-mime-string-size-int-inputfilelocation-array)
-* [`getDownloadLink(\danog\MadelineProto\EventHandler\Message|array|string $media, ?string $scriptUrl = NULL): string`](#getdownloadlink-danog-madelineproto-eventhandler-message-array-string-media-string-scripturl-null-string)
+* [`getDownloadLink(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|array|string $media, ?string $scriptUrl = NULL): string`](#getdownloadlink-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-array-string-media-string-scripturl-null-string)
 * [`getEventHandler(?class-string<\danog\MadelineProto\PluginEventHandler> $class = NULL): \danog\MadelineProto\EventHandler|\danog\MadelineProto\Ipc\EventHandlerProxy|\__PHP_Incomplete_Class|null`](#geteventhandler-class-string-danog-madelineproto-plugineventhandler-class-null-danog-madelineproto-eventhandler-danog-madelineproto-ipc-eventhandlerproxy-__php_incomplete_class-null)
 * [`getExtensionFromLocation(mixed $location, string $default): string`](#getextensionfromlocation-mixed-location-string-default-string)
 * [`getExtensionFromMime(string $mime): string`](#getextensionfrommime-string-mime-string)
@@ -202,6 +202,7 @@ Main API wrapper for MadelineProto.
 * [`peerIsset(mixed $id): bool`](#peerisset-mixed-id-bool)
 * [`phoneLogin(string $number, int $sms_type = 5): mixed`](#phonelogin-string-number-int-sms_type-5-mixed)
 * [`posmod(int $a, int $b): int`](#posmod-int-a-int-b-int)
+* [`processDownloadServerPing(string $path, string $payload): void`](#processdownloadserverping-string-path-string-payload-void)
 * [`qrLogin(): ?\danog\MadelineProto\TL\Types\LoginQrCode`](#qrlogin-danog-madelineproto-tl-types-loginqrcode)
 * [`random(int $length): string`](#random-int-length-string)
 * [`randomInt(int $modulus = 0): int`](#randomint-int-modulus-0-int)
@@ -1067,19 +1068,20 @@ Parameters:
 
 
 
-### `getDownloadLink(\danog\MadelineProto\EventHandler\Message|array|string $media, ?string $scriptUrl = NULL): string`
+### `getDownloadLink(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|array|string $media, ?string $scriptUrl = NULL): string`
 
 Get download link of media file.
 
 
 Parameters:
 
-* `$media`: `\danog\MadelineProto\EventHandler\Message|array|string`   
+* `$media`: `\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|array|string`   
 * `$scriptUrl`: `?string`   
 
 
 #### See also: 
 * [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../danog/MadelineProto/EventHandler/Message.html)
+* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../danog/MadelineProto/EventHandler/Media.html)
 
 
 
@@ -1745,6 +1747,18 @@ Parameters:
 
 * `$a`: `int` A  
 * `$b`: `int` B  
+
+
+
+### `processDownloadServerPing(string $path, string $payload): void`
+
+Internal endpoint used by the download server.
+
+
+Parameters:
+
+* `$path`: `string`   
+* `$payload`: `string`   
 
 
 
