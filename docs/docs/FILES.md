@@ -355,6 +355,8 @@ You can also use [getDownloadLink](#getting-a-download-link) to obtain a direct 
 
 ### Getting a download link
 
+To obtain a direct download link for any Telegram file up to 4GB, simply use `getDownloadLink`, for example:
+
 ```php
 <?php
 
@@ -369,7 +371,7 @@ $MadelineProto->start();
 $link = $MadelineProto->getDownloadLink($MessageMedia);
 ```
 
-`$MessageMedia` can be a [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object or a bot API file ID (files up to 4GB are supported!).
+`$MessageMedia` can be a [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object or a **bot API file ID** (files up to 4GB are supported!).
 
 This method will work automatically only when running via web (apache/php-fpm).
 
