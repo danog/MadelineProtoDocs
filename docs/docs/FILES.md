@@ -368,7 +368,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 
 // For bots
-$MadelineProto->botLogin('...');
+$MadelineProto->botLogin('token');
 
 // For users
 //$MadelineProto->start();
@@ -403,7 +403,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 
 // For bots
-$MadelineProto->botLogin('...');
+$MadelineProto->botLogin('token');
 
 // For users
 //$MadelineProto->start();
