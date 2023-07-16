@@ -366,12 +366,23 @@ if (!file_exists('madeline.php')) {
 include 'madeline.php';
 
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
-$MadelineProto->start();
 
-$link = $MadelineProto->getDownloadLink($MessageMedia);
+// For bots
+$MadelineProto->botLogin('...');
+
+// For users
+//$MadelineProto->start();
+
+$botApiFileId = '...';
+$fileName = '...';
+$fileSize = 123..;
+$mimeType = '...';
+
+
+$link = $MadelineProto->getDownloadLink($botApiFileId, size: $fileSize, name: $fileName, mime: $mimeType);
 ```
 
-`$MessageMedia` can be a [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object or a **bot API file ID** (files up to 4GB are supported!).
+`$botApiFileId` can be a [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object or a **bot API file ID** (files up to 4GB are supported!).
 
 This method will work automatically only when running via web (apache/php-fpm).  
 
@@ -390,9 +401,20 @@ if (!file_exists('madeline.php')) {
 include 'madeline.php';
 
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
-$MadelineProto->start();
 
-$link = $MadelineProto->getDownloadLink($MessageMedia, 'https://yourhost.com/dl.php');
+// For bots
+$MadelineProto->botLogin('...');
+
+// For users
+//$MadelineProto->start();
+
+$botApiFileId = '...';
+$fileName = '...';
+$fileSize = 123..;
+$mimeType = '...';
+
+
+$link = $MadelineProto->getDownloadLink($botApiFileId, 'https://yourhost.com/dl.php', size: $fileSize, name: $fileName, mime: $mimeType);
 ```
 
 The dl.php script must have the following content:
