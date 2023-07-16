@@ -68,6 +68,7 @@ use danog\MadelineProto\EventHandler\Message;
 use danog\MadelineProto\EventHandler\SimpleFilter\FromAdmin;
 use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
 use danog\MadelineProto\Logger;
+use danog\MadelineProto\ParseMode;
 use danog\MadelineProto\Settings;
 use danog\MadelineProto\Settings\Database\Mysql;
 use danog\MadelineProto\Settings\Database\Postgres;
@@ -165,7 +166,7 @@ class MyEventHandler extends SimpleEventHandler
 
             $message->reply(
                 message: "This userbot is powered by [MadelineProto](https://t.me/MadelineProto)!",
-                parseMode: 'Markdown'
+                parseMode: ParseMode::MARKDOWN
             );
         }
     }
