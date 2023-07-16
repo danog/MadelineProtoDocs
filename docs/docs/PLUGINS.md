@@ -220,97 +220,13 @@ However, unlike normal event handlers, plugins can require other plugins using *
 
 Also, plugins can only interact with the filesystem using MadelineProto's download and upload functions.  
 
-For performance reasons, your plugin **must not** read files from the filesystem: configuration can be done entirely using in-memory persistent properties, for example:
+For performance reasons, your plugin **should not** read files from the filesystem.  
 
-```php
-<?php
+Here's a list of common uses for files, and what they can be replaced with:
 
-// WRONG!
-if (!file_exists('online.txt')) {
-    file_put_contents('online.txt', 'on');
-}
-
-class OnlinePlugin extends PluginEventHandler
-{
-    #[Cron(period: 60.0)]
-    public function cron(): void
-    {
-        // WRONG!
-        if (file_get_contents('online.txt') === 'on') {
-            $this->account->updateStatus(offline: false);
-        } else {
-            $this->account->updateStatus(offline: true);
-        }
-    }
-}
-```
-
-Do this, instead:
-
-<!-- cut_here examples/plugins/Danogentili/OnlinePlugin.php -->
-
-```php
-<?php declare(strict_types=1);
-
-namespace MadelinePlugin\Danogentili;
-
-use danog\MadelineProto\EventHandler\Attributes\Cron;
-use danog\MadelineProto\EventHandler\Filter\FilterCommand;
-use danog\MadelineProto\EventHandler\Message;
-use danog\MadelineProto\EventHandler\SimpleFilter\FromAdmin;
-use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
-use danog\MadelineProto\PluginEventHandler;
-
-final class OnlinePlugin extends PluginEventHandler
-{
-    private bool $isOnline = true;
-
-    public function setOnline(bool $online): void
-    {
-        $this->isOnline = $online;
-    }
-
-    public function isPluginEnabled(): bool
-    {
-        // Only users can be online/offline
-        return $this->getSelf()['bot'] === false;
-    }
-
-    #[Cron(period: 60.0)]
-    public function cron(): void
-    {
-        $this->account->updateStatus(offline: !$this->isOnline);
-    }
-
-    #[FilterCommand('online')]
-    public function toggleOnline(Incoming&Message&FromAdmin $message): void
-    {
-        $this->isOnline = true;
-    }
-
-    #[FilterCommand('offline')]
-    public function toggleOffline(Incoming&Message&FromAdmin $message): void
-    {
-        $this->isOnline = false;
-    }
-}
-
-```
-
-<!-- cut_here_end examples/plugins/Danogentili/OnlinePlugin.php -->
-
-And, to toggle the settings from the outside of the bot (for example using a helper bot, or another program):
-
-```php
-<?php
-
-$online = true;
-//$online = false;
-
-$API = new \danog\MadelineProto\API('session.madeline');
-$API->getEventHandler(\MadelinePlugin\Danogentili\OnlinePlugin::class)->setOnline($online);
-```
-
+* [Configuration](https://docs.madelineproto.xyz/docs/UPDATES.html#configuration)
+* [Creating and uploading text files](https://docs.madelineproto.xyz/docs/UPDATES.html#creating-and-uploading-text-files)
+* [Logging](https://docs.madelineproto.xyz/docs/UPDATES.html#logging)
 
 ### Namespace requirements
 

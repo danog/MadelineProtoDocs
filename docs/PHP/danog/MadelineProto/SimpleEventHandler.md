@@ -67,11 +67,12 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`confirmCall(array $params): mixed`](#confirmcall-array-params-mixed)
 * [`discardCall(array $call, array $reason, array $rating = [], bool $need_debug = true): ?\danog\MadelineProto\VoIP`](#discardcall-array-call-array-reason-array-rating-bool-need_debug-true-danog-madelineproto-voip)
 * [`discardSecretChat(int $chat): void`](#discardsecretchat-int-chat-void)
-* [`downloadToBrowser(array|string|\danog\MadelineProto\FileCallbackInterface $messageMedia, null|callable $cb = NULL, null|int $size = NULL, null|string $name = NULL, null|string $mime = NULL): void`](#downloadtobrowser-array-string-danog-madelineproto-filecallbackinterface-messagemedia-null-callable-cb-null-null-int-size-null-null-string-name-null-null-string-mime-null-void)
+* [`downloadServer(string $session): void`](#downloadserver-string-session-void)
+* [`downloadToBrowser(array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message $messageMedia, null|callable $cb = NULL, null|int $size = NULL, null|string $name = NULL, null|string $mime = NULL): void`](#downloadtobrowser-array-string-danog-madelineproto-filecallbackinterface-danog-madelineproto-eventhandler-message-messagemedia-null-callable-cb-null-null-int-size-null-null-string-name-null-null-string-mime-null-void)
 * [`downloadToCallable(mixed $messageMedia, callable|\danog\MadelineProto\FileCallbackInterface $callable, callable $cb = NULL, bool $seekable = true, int $offset = 0, int $end = -1, int $part_size = NULL): mixed`](#downloadtocallable-mixed-messagemedia-callable-danog-madelineproto-filecallbackinterface-callable-callable-cb-null-bool-seekable-true-int-offset-0-int-end-1-int-part_size-null-mixed)
 * [`downloadToDir(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $dir, callable $cb = NULL): mixed`](#downloadtodir-mixed-messagemedia-string-danog-madelineproto-filecallbackinterface-dir-callable-cb-null-mixed)
 * [`downloadToFile(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $file, callable $cb = NULL): string|false`](#downloadtofile-mixed-messagemedia-string-danog-madelineproto-filecallbackinterface-file-callable-cb-null-string-false)
-* [`downloadToResponse(array|string|\danog\MadelineProto\FileCallbackInterface $messageMedia, \Amp\Http\Server\Request $request, callable $cb = NULL, null|int $size = NULL, null|string $mime = NULL, null|string $name = NULL): \Amp\Http\Server\Response`](#downloadtoresponse-array-string-danog-madelineproto-filecallbackinterface-messagemedia-amp-http-server-request-request-callable-cb-null-null-int-size-null-null-string-mime-null-null-string-name-null-amp-http-server-response)
+* [`downloadToResponse(array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message $messageMedia, \Amp\Http\Server\Request $request, callable $cb = NULL, null|int $size = NULL, null|string $mime = NULL, null|string $name = NULL): \Amp\Http\Server\Response`](#downloadtoresponse-array-string-danog-madelineproto-filecallbackinterface-danog-madelineproto-eventhandler-message-messagemedia-amp-http-server-request-request-callable-cb-null-null-int-size-null-null-string-mime-null-null-string-name-null-amp-http-server-response)
 * [`downloadToStream(mixed $messageMedia, mixed|\danog\MadelineProto\FileCallbackInterface|\resource|\Amp\ByteStream\WritableStream $stream, callable $cb = NULL, int $offset = 0, int $end = -1): mixed`](#downloadtostream-mixed-messagemedia-mixed-danog-madelineproto-filecallbackinterface-resource-amp-bytestream-writablestream-stream-callable-cb-null-int-offset-0-int-end-1-mixed)
 * [`echo(string $string): void`](#echo-string-string-void)
 * [`end(array $what): mixed`](#end-array-what-mixed)
@@ -101,6 +102,7 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`getDialogIds(): list<int>`](#getdialogids-list-int)
 * [`getDialogs(): list<array>`](#getdialogs-list-array)
 * [`getDownloadInfo(mixed $messageMedia): array{ext: string, name: string, mime: string, size: int, InputFileLocation: array}`](#getdownloadinfo-mixed-messagemedia-array-ext-string-name-string-mime-string-size-int-inputfilelocation-array)
+* [`getDownloadLink(\danog\MadelineProto\EventHandler\Message|array|string $media, ?string $scriptUrl = NULL): string`](#getdownloadlink-danog-madelineproto-eventhandler-message-array-string-media-string-scripturl-null-string)
 * [`getEventHandler(?class-string<\danog\MadelineProto\PluginEventHandler> $class = NULL): \danog\MadelineProto\EventHandler|\danog\MadelineProto\Ipc\EventHandlerProxy|\__PHP_Incomplete_Class|null`](#geteventhandler-class-string-danog-madelineproto-plugineventhandler-class-null-danog-madelineproto-eventhandler-danog-madelineproto-ipc-eventhandlerproxy-__php_incomplete_class-null)
 * [`getExtensionFromLocation(mixed $location, string $default): string`](#getextensionfromlocation-mixed-location-string-default-string)
 * [`getExtensionFromMime(string $mime): string`](#getextensionfrommime-string-mime-string)
@@ -153,6 +155,7 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplit-string-text-int-length-string)
 * [`mbStrlen(string $text): int`](#mbstrlen-string-text-int)
 * [`mbSubstr(string $text, int $offset, null|int $length = NULL): string`](#mbsubstr-string-text-int-offset-null-int-length-null-string)
+* [`openFileAppendOnly(string $path): \Amp\File\File`](#openfileappendonly-string-path-amp-file-file)
 * [`packDouble(float $value): string`](#packdouble-float-value-string)
 * [`packSignedInt(int $value): string`](#packsignedint-int-value-string)
 * [`packSignedLong(int $value): string`](#packsignedlong-int-value-string)
@@ -213,7 +216,7 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`uploadFromTgfile(mixed $media, callable $cb = NULL, bool $encrypted = false): mixed`](#uploadfromtgfile-mixed-media-callable-cb-null-bool-encrypted-false-mixed)
 * [`uploadFromUrl(string|\danog\MadelineProto\FileCallbackInterface $url, int $size = 0, string $fileName = '', callable $cb = NULL, bool $encrypted = false): mixed`](#uploadfromurl-string-danog-madelineproto-filecallbackinterface-url-int-size-0-string-filename-callable-cb-null-bool-encrypted-false-mixed)
 * [`validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): void`](#validateeventhandlerclass-class-string-danog-madelineproto-eventhandler-class-void)
-* [`validateEventHandlerCode(string $code, bool $plugin = true): void`](#validateeventhandlercode-string-code-bool-plugin-true-void)
+* [`validateEventHandlerCode(string $code, bool $plugin): void`](#validateeventhandlercode-string-code-bool-plugin-void)
 * [`viewSponsoredMessage(int|array $peer, string|array{random_id: string} $message): bool`](#viewsponsoredmessage-int-array-peer-string-array-random_id-string-message-bool)
 * [`wrapMedia(array $media, bool $protected = false): ?\danog\MadelineProto\EventHandler\Media`](#wrapmedia-array-media-bool-protected-false-danog-madelineproto-eventhandler-media)
 * [`wrapMessage(array $message): ?\danog\MadelineProto\EventHandler\Message`](#wrapmessage-array-message-danog-madelineproto-eventhandler-message)
@@ -616,14 +619,25 @@ Parameters:
 
 
 
-### `downloadToBrowser(array|string|\danog\MadelineProto\FileCallbackInterface $messageMedia, null|callable $cb = NULL, null|int $size = NULL, null|string $name = NULL, null|string $mime = NULL): void`
+### `downloadServer(string $session): void`
+
+Downloads a file to the browser using the specified session file.
+
+
+Parameters:
+
+* `$session`: `string`   
+
+
+
+### `downloadToBrowser(array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message $messageMedia, null|callable $cb = NULL, null|int $size = NULL, null|string $name = NULL, null|string $mime = NULL): void`
 
 Download file to browser.
 Supports HEAD requests and content-ranges for parallel and resumed downloads.
 
 Parameters:
 
-* `$messageMedia`: `array|string|\danog\MadelineProto\FileCallbackInterface` File to download  
+* `$messageMedia`: `array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message` File to download  
 * `$cb`: `null|callable` Status callback (can also use FileCallback)  
 * `$size`: `null|int` Size of file to download, required for bot API file IDs.  
 * `$name`: `null|string` Name of file to download, required for bot API file IDs.  
@@ -632,6 +646,7 @@ Parameters:
 
 #### See also: 
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../danog/MadelineProto/EventHandler/Message.html)
 
 
 
@@ -695,14 +710,14 @@ Parameters:
 
 
 
-### `downloadToResponse(array|string|\danog\MadelineProto\FileCallbackInterface $messageMedia, \Amp\Http\Server\Request $request, callable $cb = NULL, null|int $size = NULL, null|string $mime = NULL, null|string $name = NULL): \Amp\Http\Server\Response`
+### `downloadToResponse(array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message $messageMedia, \Amp\Http\Server\Request $request, callable $cb = NULL, null|int $size = NULL, null|string $mime = NULL, null|string $name = NULL): \Amp\Http\Server\Response`
 
 Download file to amphp/http-server response.
 Supports HEAD requests and content-ranges for parallel and resumed downloads.
 
 Parameters:
 
-* `$messageMedia`: `array|string|\danog\MadelineProto\FileCallbackInterface` File to download  
+* `$messageMedia`: `array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message` File to download  
 * `$request`: `\Amp\Http\Server\Request` Request  
 * `$cb`: `callable` Status callback (can also use FileCallback)  
 * `$size`: `null|int` Size of file to download, required for bot API file IDs.  
@@ -712,6 +727,7 @@ Parameters:
 
 #### See also: 
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../danog/MadelineProto/EventHandler/Message.html)
 * `\Amp\Http\Server\Request`
 * `\Amp\Http\Server\Response`
 
@@ -1028,6 +1044,23 @@ Returns an array with the following structure:.
 Parameters:
 
 * `$messageMedia`: `mixed` File ID  
+
+
+
+### `getDownloadLink(\danog\MadelineProto\EventHandler\Message|array|string $media, ?string $scriptUrl = NULL): string`
+
+Get download link of media file.
+
+
+Parameters:
+
+* `$media`: `\danog\MadelineProto\EventHandler\Message|array|string`   
+* `$scriptUrl`: `?string`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../danog/MadelineProto/EventHandler/Message.html)
+
 
 
 
@@ -1596,6 +1629,22 @@ Parameters:
 * `$text`: `string` Text to substring  
 * `$offset`: `int` Offset  
 * `$length`: `null|int` Length  
+
+
+
+### `openFileAppendOnly(string $path): \Amp\File\File`
+
+Opens a file in append-only mode.
+
+
+Parameters:
+
+* `$path`: `string` File path.  
+
+
+#### See also: 
+* `\Amp\File\File`
+
 
 
 
@@ -2392,7 +2441,7 @@ Parameters:
 
 
 
-### `validateEventHandlerCode(string $code, bool $plugin = true): void`
+### `validateEventHandlerCode(string $code, bool $plugin): void`
 
 Perform static analysis on a certain event handler class, to make sure it satisfies some performance requirements.
 

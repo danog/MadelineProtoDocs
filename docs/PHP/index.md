@@ -64,6 +64,7 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\BotApiFileId: Indicates a bot API file ID to upload.](/PHP/danog/MadelineProto/BotApiFileId.html)
 * [\danog\MadelineProto\Conversion](/PHP/danog/MadelineProto/Conversion.html)
 * [\danog\MadelineProto\DoHWrapper](/PHP/danog/MadelineProto/DoHWrapper.html)
+* [\danog\MadelineProto\EventHandlerIssue: Represents an event handler issue.](/PHP/danog/MadelineProto/EventHandlerIssue.html)
 * [\danog\MadelineProto\Exception: Basic exception.](/PHP/danog/MadelineProto/Exception.html)
 * [\danog\MadelineProto\FileCallback: File callback interface.](/PHP/danog/MadelineProto/FileCallback.html)
 * [\danog\MadelineProto\LocalFile: Indicates a local file to upload.](/PHP/danog/MadelineProto/LocalFile.html)

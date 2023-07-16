@@ -48,7 +48,8 @@ Some tools.
 * [`end(array $what): mixed`](#end-array-what-mixed)
 * [`isAltervista(): bool`](#isaltervista-bool)
 * [`validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): void`](#validateeventhandlerclass-class-string-danog-madelineproto-eventhandler-class-void)
-* [`validateEventHandlerCode(string $code, bool $plugin = true): void`](#validateeventhandlercode-string-code-bool-plugin-true-void)
+* [`openFileAppendOnly(string $path): \Amp\File\File`](#openfileappendonly-string-path-amp-file-file)
+* [`validateEventHandlerCode(string $code, bool $plugin): void`](#validateeventhandlercode-string-code-bool-plugin-void)
 * [`rethrow(\Throwable $e): void`](#rethrow-throwable-e-void)
 * [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-callable-mixed-args-amp-future-t)
 * [`flock(string $file, int $operation, float $polling = 0.1, ?\Amp\Cancellation $token = NULL, ?\Closure $failureCb = NULL): mixed`](#flock-string-file-int-operation-float-polling-0-1-amp-cancellation-token-null-closure-failurecb-null-mixed)
@@ -364,7 +365,23 @@ Parameters:
 
 
 
-### `validateEventHandlerCode(string $code, bool $plugin = true): void`
+### `openFileAppendOnly(string $path): \Amp\File\File`
+
+Opens a file in append-only mode.
+
+
+Parameters:
+
+* `$path`: `string` File path.  
+
+
+#### See also: 
+* `\Amp\File\File`
+
+
+
+
+### `validateEventHandlerCode(string $code, bool $plugin): void`
 
 Perform static analysis on a certain event handler class, to make sure it satisfies some performance requirements.
 

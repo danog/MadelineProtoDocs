@@ -28,7 +28,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * [Get info about the currently logged-in user: getSelf](https://docs.madelineproto.xyz/getSelf.html)
 
-* [Upload or download files up to 2 GB: uploadFrom*, downloadTo*](https://docs.madelineproto.xyz/docs/FILES.html)
+* [Upload or download files up to 4 GB: uploadFrom*, downloadTo*](https://docs.madelineproto.xyz/docs/FILES.html)
 
 * [Make a phone call and play a song](https://docs.madelineproto.xyz/docs/CALLS.html)
 
@@ -300,9 +300,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.hideAllChatJoinRequests.html" name="messages.hideAllChatJoinRequests">Dismiss or approve all join requests related to a specific chat or channel: messages.hideAllChatJoinRequests</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtoresponse-array-string-filecallbackinterface-messagemedia-amp-http-server-request-request-callable-cb-null-null-int-size-null-null-string-mime-null-null-string-name-null-amp-http-server-response" name="downloadToResponse">Download file to amphp/http-server response: downloadToResponse</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtoresponse-array-string-filecallbackinterface-danog-madelineproto-eventhandler-message-messagemedia-amp-http-server-request-request-callable-cb-null-null-int-size-null-null-string-mime-null-null-string-name-null-amp-http-server-response" name="downloadToResponse">Download file to amphp/http-server response: downloadToResponse</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtobrowser-array-string-filecallbackinterface-messagemedia-null-callable-cb-null-null-int-size-null-null-string-name-null-null-string-mime-null-void" name="downloadToBrowser">Download file to browser: downloadToBrowser</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtobrowser-array-string-filecallbackinterface-danog-madelineproto-eventhandler-message-messagemedia-null-callable-cb-null-null-int-size-null-null-string-name-null-null-string-mime-null-void" name="downloadToBrowser">Download file to browser: downloadToBrowser</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtocallable-mixed-messagemedia-callable-filecallbackinterface-callable-callable-cb-null-bool-seekable-true-int-offset-0-int-end-1-int-part_size-null-mixed" name="downloadToCallable">Download file to callable: downloadToCallable</a>
 
@@ -311,6 +311,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtostream-mixed-messagemedia-mixed-filecallbackinterface-resource-amp-bytestream-writablestream-stream-callable-cb-null-int-offset-0-int-end-1-mixed" name="downloadToStream">Download file to stream: downloadToStream</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtofile-mixed-messagemedia-string-filecallbackinterface-file-callable-cb-null-string-false" name="downloadToFile">Download file: downloadToFile</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadserver-string-session-void" name="downloadServer">Downloads a file to the browser using the specified session file: downloadServer</a>
 
 * <a href="channels.editForumTopic.html" name="channels.editForumTopic">Edit forum topic; requires manage_topics rights: channels.editForumTopic</a>
 
@@ -515,6 +517,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getdownloadinfo-mixed-messagemedia-array-ext-string-name-string-mime-string-size-int-inputfilelocation-array" name="getDownloadInfo">Get download info of file: getDownloadInfo</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getpropicinfo-mixed-data-array" name="getPropicInfo">Get download info of the propic of a user: getPropicInfo</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getdownloadlink-danog-madelineproto-eventhandler-message-array-string-media-string-scripturl-null-string" name="getDownloadLink">Get download link of media file: getDownloadLink</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#geteventhandler-class-string-plugineventhandler-class-null-danog-madelineproto-eventhandler-danog-madelineproto-ipc-eventhandlerproxy-__php_incomplete_class-null" name="getEventHandler">Get event handler (or plugin instance): getEventHandler</a>
 
@@ -890,13 +894,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.requestWebView.html" name="messages.requestWebView">Open a bot web app, sending over user information after user confirmation: messages.requestWebView</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#openfileappendonly-string-path-amp-file-file" name="openFileAppendOnly">Opens a file in append-only mode: openFileAppendOnly</a>
+
 * <a href="phone.receivedCall.html" name="phone.receivedCall">Optional: notify the server that the user is currently busy in a call: this will automatically refuse all incoming phone calls until the current phone call is ended: phone.receivedCall</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#updatesettings-settingsabstract-settings-void" name="updateSettings">Parse, update and store settings: updateSettings</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#validateeventhandlerclass-class-string-eventhandler-class-void" name="validateEventHandlerClass">Perform static analysis on a certain event handler class, to make sure it satisfies some performance requirements: validateEventHandlerClass</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#validateeventhandlercode-string-code-bool-plugin-true-void" name="validateEventHandlerCode">Perform static analysis on a certain event handler class, to make sure it satisfies some performance requirements: validateEventHandlerCode</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#validateeventhandlercode-string-code-bool-plugin-void" name="validateEventHandlerCode">Perform static analysis on a certain event handler class, to make sure it satisfies some performance requirements: validateEventHandlerCode</a>
 
 * <a href="messages.updatePinnedMessage.html" name="messages.updatePinnedMessage">Pin a message: messages.updatePinnedMessage</a>
 

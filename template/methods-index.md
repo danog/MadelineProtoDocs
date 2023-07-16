@@ -28,7 +28,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * [Get info about the currently logged-in user: getSelf](https://docs.madelineproto.xyz/getSelf.html)
 
-* [Upload or download files up to 2 GB: uploadFrom*, downloadTo*](https://docs.madelineproto.xyz/docs/FILES.html)
+* [Upload or download files up to 4 GB: uploadFrom*, downloadTo*](https://docs.madelineproto.xyz/docs/FILES.html)
 
 * [Make a phone call and play a song](https://docs.madelineproto.xyz/docs/CALLS.html)
 

@@ -22,6 +22,7 @@ Update handling can be done in different ways:
   * [Self-restart on webhosts](#self-restart-on-webhosts)
   * [Multi-account](#multiaccount)
   * [Automatic static analysis](#automatic-static-analysis)
+  * [Avoiding the use of filesystem functions](#avoiding-the-use-of-filesystem-functions)
 * [Webhook (for HTTP APIs)](#webhook)
 * [getUpdates (only for Javascript APIs)](#getUpdates)
 * [Noop (default)](#noop)
@@ -539,7 +540,22 @@ For example, the following functions and classes are **banned**, and the specifi
 * `mysqli_query`, `mysqli_connect`, `mysql_connect`, `PDO`, `mysqli` - Please use https://github.com/amphp/mysql or https://github.com/amphp/postgres, instead
 * `fsockopen` - Please use https://github.com/amphp/socket, instead
 
-For performance reasons, it is heavily *recommended* you **do not** read files from the filesystem at all: configuration can be done entirely using in-memory persistent properties, for example:
+
+### Avoiding the use of filesystem functions
+
+For performance reasons, it is heavily *recommended* you **do not** read files from the filesystem at all, even using filesystem functions.  
+
+MadelineProto does not block the usage of async file functions, but 99% of the time they can be replaced with a much faster alternative.
+
+Here's a list of common uses for files, and what they can be replaced with:
+
+* [Configuration](#configuration)
+* [Creating and uploading text files](#creating-and-uploading-text-files)
+* [Logging](#logging)
+
+#### Configuration
+
+Configuration can be done entirely using in-memory persistent properties, for example:
 
 ```php
 <?php
@@ -631,6 +647,59 @@ $online = true;
 
 $API = new \danog\MadelineProto\API('session.madeline');
 $API->getEventHandler(\MadelinePlugin\Danogentili\OnlinePlugin::class)->setOnline($online);
+```
+
+#### Creating and uploading text files
+
+Instead of writing to a file and then uploading it, you can use a `ReadableBuffer` to upload a file from a string, instead:
+
+```php
+use Amp\ReadableBuffer;
+
+$contents = "Something";
+
+$this->sendDocument(
+    peer: 'danogentili',
+    file: new ReadableBuffer($contents)
+);
+```
+
+#### Logging
+
+Instead of logging to separate files, you can use MadelineProto's built-in logger, which will write everything to `MadelineProto.log`:
+
+```php
+$this->logger("Some text");
+```
+
+You can also use the new `openFileAppendOnly` function, to open a file in write-only append-only mode in onStart and use it in your bot.  
+You may also wrap the `File` resource returned by openFileAppendOnly in a proper PSR logger using [amphp/log](https://github.com/amphp/log).
+
+```php
+use danog\MadelineProto\SimpleEventHandler;
+use danog\MadelineProto\Tools;
+use Amp\Log\ConsoleFormatter;
+use Amp\Log\StreamHandler;
+use Monolog\Logger;
+
+class MyEventHandler extends SimpleEventHandler {
+    private Logger $customLogger;
+    public function onStart()
+    {
+        $handler = new StreamHandler(Tools::openFileAppendOnly('file.log'));
+
+        $this->customLogger = new Logger('main');
+        $this->customLogger->pushHandler($handler);
+    }
+
+    public function someOtherMethod(): void {
+        $this->customLogger->debug("Hello, world!");
+        $this->customLogger->info("Hello, world!");
+        $this->customLogger->notice("Hello, world!");
+        $this->customLogger->error("Hello, world!");
+        $this->customLogger->alert("Hello, world!");
+    }
+}
 ```
 
 ## Noop
