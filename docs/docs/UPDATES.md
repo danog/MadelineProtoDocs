@@ -570,7 +570,7 @@ For example, the following functions and classes are **banned**, and the specifi
 
 ### Avoiding the use of filesystem functions
 
-For performance reasons, it is heavily *recommended* you **do not** read files from the filesystem at all, even using filesystem functions.  
+For performance reasons, it is heavily *recommended* you **do not** read files from the filesystem at all, even using async functions.  
 
 MadelineProto does not block the usage of async file functions, but 99% of the time they can be replaced with a much faster alternative.
 
