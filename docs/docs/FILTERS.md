@@ -182,13 +182,13 @@ class MyEventHandler extends SimpleEventHandler
         // Handle all outgoing messages (private).
     }
 
-    #[new FilterAnd(new FilterIncoming, new FilterOr(new FilterGroup, new FilterChannel), new FilterMedia)]
+    #[FilterAnd(new FilterIncoming, new FilterOr(new FilterGroup, new FilterChannel), new FilterMedia)]
     public function h3(Message $message): void
     {
         // Handle all incoming messages with media attached (groups+channels).
     }
     
-    #[new FilterOr(new FilterGroup, new FilterChannel)]
+    #[FilterOr(new FilterGroup, new FilterChannel)]
     public function h4(Incoming&Message&HasMedia $message): void
     {
         // Same as h3, but combining simple filters with attribute filters.
@@ -200,14 +200,14 @@ Attribute filters are usual combined with [simple filters](#simple-filters).
 Attribute filters are ANDed with simple filters defined on the same method, for example this:
 
 ```php
-#[new FilterOr(new FilterGroup, new FilterChannel)]
+#[FilterOr(new FilterGroup, new FilterChannel)]
 public function h4(Incoming&Message&HasMedia $message)
 ```
 
 Is exactly the same as this:
 
 ```php
-#[new FilterAnd(new FilterIncoming, new FilterMessage, new FilterMedia, new FilterOr(new FilterGroup, new FilterChannel))]
+#[FilterAnd(new FilterIncoming, new FilterMessage, new FilterMedia, new FilterOr(new FilterGroup, new FilterChannel))]
 public function h3($message): void
 ```
 
