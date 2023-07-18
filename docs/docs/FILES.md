@@ -430,7 +430,9 @@ include 'madeline.php';
 \danog\MadelineProto\API::downloadServer('session.madeline');
 ```
 
-Note that `session.madeline` must point to exactly the same session path used by the CLI bot.  
+Note that `session.madeline` must be logged into exactly the same user/bot used by the CLI userbot/bot.  
+
+To login the first time, simple open `dl.php?login=1` in your browser: if the session is not logged in, a login prompt will be shown, otherwise the user/bot ID will be displayed.  
 
 The generated download `$link` will point to your own server, and the link will stream files directly to the browser (**no temporary files will be created**, **0** disk space will be used).  
 
