@@ -285,7 +285,7 @@ final class FilterBoolean extends Filter
 }
 ```
 
-You can also optionally implement the `public function initialize(EventHandler $API): ?Filter` function.  
+You can also optionally implement the `public function initialize(EventHandler $API): Filter` function.  
 
 This function is useful to perform expensive one-time initialization tasks, to avoid performing them during filtering, for example:
 
@@ -315,14 +315,14 @@ final class FilterFromSenders extends Filter
     {
         $this->peers = \array_unique($idOrUsername);
     }
-    public function initialize(EventHandler $API): ?Filter
+    public function initialize(EventHandler $API): Filter
     {
         $res = [];
         foreach ($this->peers as $peer) {
             $res []= $API->getId($peer);
         }
         $this->peersResolved = $res;
-        return null;
+        return $this;
     }
     public function apply(Update $update): bool
     {
@@ -334,7 +334,7 @@ final class FilterFromSenders extends Filter
 
 <!-- cut_here_end src/EventHandler/Filter/FilterFromSenders.php -->
 
-Usually you should return `null` from `initialize()`, but if you want to replace the current filter with another filter, you can return the new filter, instead:
+Usually you should return `$this` from `initialize()`, but if you want to replace the current filter with another filter, you can return the new filter, instead:
 
 ```php
 <?php declare(strict_types=1);
@@ -352,7 +352,7 @@ use danog\MadelineProto\EventHandler\Update;
 #[Attribute(Attribute::TARGET_METHOD)]
 final class FilterPrivateAdmin extends Filter
 {
-    public function initialize(EventHandler $API): ?Filter
+    public function initialize(EventHandler $API): Filter
     {
         return new FiltersAnd(new FilterPrivate, new FilterFromAdmin);
     }
@@ -387,9 +387,9 @@ final class FilterNot extends Filter
     public function __construct(private readonly Filter $filter)
     {
     }
-    public function initialize(EventHandler $API): ?Filter
+    public function initialize(EventHandler $API): Filter
     {
-        $filter = $this->filter->initialize($API) ?? $this->filter;
+        $filter = $this->filter->initialize($API);
         if ($filter instanceof self) {
             // The nested filter is a FilterNot, optimize !!A => A
             return $filter->filter;

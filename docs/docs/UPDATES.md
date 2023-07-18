@@ -744,8 +744,19 @@ This is the default.
 
 Useful when consuming MadelineProto updates through an API, **not recommended when directly writing MadelineProto bots**.  
 
+Webhooks will **greatly slow down your bot** if used directly inside of PHP code.  
+
+**Only use the [event handler](#async-event-driven) when writing a MadelineProto bot**, because update handling in the **event handler** is completely parallelized and non-blocking.
+
+Webhooks must **only** be used when consuming MadelineProto updates from another programming language, like for example **Javascript**.  
+
+If your bot is written in PHP, [use the event handler, instead](https://docs.madelineproto.xyz/docs/UPDATES.html).  
+
 ```php
 $MadelineProto = new \danog\MadelineProto\API('bot.madeline');
+
+// NOT recommended when directly writing MadelineProto bots.
+// ONLY use when exposing updates via an HTTP API to another language (like Javascript).
 
 $MadelineProto->setWebhook('https://example.com');
 ```
@@ -757,6 +768,10 @@ Only useful when consuming MadelineProto updates through an API in another langu
 `getUpdates` will **greatly slow down your bot** if used directly inside of PHP code.  
 
 **Only use the [event handler](#async-event-driven) when writing a MadelineProto bot**, because update handling in the **event handler** is completely parallelized and non-blocking.
+
+`getUpdates` must **only** be used when consuming MadelineProto updates from another programming language, like for example **Javascript**.  
+
+If your bot is written in PHP, [use the event handler, instead](https://docs.madelineproto.xyz/docs/UPDATES.html).  
 
 ```php
 $MadelineProto = new \danog\MadelineProto\API('bot.madeline');

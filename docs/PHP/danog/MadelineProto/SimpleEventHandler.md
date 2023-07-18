@@ -40,6 +40,7 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`startAndLoop(string $session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): void`](#startandloop-string-session-danog-madelineproto-settingsabstract-settings-null-void)
 * [`startAndLoopBot(string $session, string $token, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): void`](#startandloopbot-string-session-string-token-danog-madelineproto-settingsabstract-settings-null-void)
 * [`getPeriodicLoop(string $name): \danog\Loop\PeriodicLoop`](#getperiodicloop-string-name-danog-loop-periodicloop)
+* [`getPeriodicLoops(): array<string, \danog\Loop\PeriodicLoop>`](#getperiodicloops-array-string-danog-loop-periodicloop)
 * [`getReportPeers(): string|int|(string|int)[]`](#getreportpeers-string-int-string-int)
 * [`getPluginPaths(): \non-empty-string|\non-empty-list<\non-empty-string>|null`](#getpluginpaths-non-empty-string-non-empty-list-non-empty-string-null)
 * [`getPlugins(): class-string<\danog\MadelineProto\EventHandler>[]`](#getplugins-class-string-danog-madelineproto-eventhandler)
@@ -102,7 +103,7 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`getDialogIds(): list<int>`](#getdialogids-list-int)
 * [`getDialogs(): list<array>`](#getdialogs-list-array)
 * [`getDownloadInfo(mixed $messageMedia): array{ext: string, name: string, mime: string, size: int, InputFileLocation: array}`](#getdownloadinfo-mixed-messagemedia-array-ext-string-name-string-mime-string-size-int-inputfilelocation-array)
-* [`getDownloadLink(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|array|string $media, ?string $scriptUrl = NULL): string`](#getdownloadlink-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-array-string-media-string-scripturl-null-string)
+* [`getDownloadLink(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|array|string $media, ?string $scriptUrl = NULL, ?int $size = NULL, ?string $name = NULL, ?string $mime = NULL): string`](#getdownloadlink-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-array-string-media-string-scripturl-null-int-size-null-string-name-null-string-mime-null-string)
 * [`getEventHandler(?class-string<\danog\MadelineProto\PluginEventHandler> $class = NULL): \danog\MadelineProto\EventHandler|\danog\MadelineProto\Ipc\EventHandlerProxy|\__PHP_Incomplete_Class|null`](#geteventhandler-class-string-danog-madelineproto-plugineventhandler-class-null-danog-madelineproto-eventhandler-danog-madelineproto-ipc-eventhandlerproxy-__php_incomplete_class-null)
 * [`getExtensionFromLocation(mixed $location, string $default): string`](#getextensionfromlocation-mixed-location-string-default-string)
 * [`getExtensionFromMime(string $mime): string`](#getextensionfrommime-string-mime-string)
@@ -266,6 +267,17 @@ Obtain a PeriodicLoop instance created by the Cron attribute.
 Parameters:
 
 * `$name`: `string` Method name  
+
+
+#### See also: 
+* `\danog\Loop\PeriodicLoop`
+
+
+
+
+### `getPeriodicLoops(): array<string, \danog\Loop\PeriodicLoop>`
+
+Obtain all PeriodicLoop instances created by the Cron attribute.
 
 
 #### See also: 
@@ -1047,7 +1059,7 @@ Parameters:
 
 
 
-### `getDownloadLink(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|array|string $media, ?string $scriptUrl = NULL): string`
+### `getDownloadLink(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|array|string $media, ?string $scriptUrl = NULL, ?int $size = NULL, ?string $name = NULL, ?string $mime = NULL): string`
 
 Get download link of media file.
 
@@ -1056,6 +1068,9 @@ Parameters:
 
 * `$media`: `\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|array|string`   
 * `$scriptUrl`: `?string`   
+* `$size`: `?int`   
+* `$name`: `?string`   
+* `$mime`: `?string`   
 
 
 #### See also: 

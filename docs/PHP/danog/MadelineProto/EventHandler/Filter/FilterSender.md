@@ -18,7 +18,7 @@ Allow incoming or outgoing group messages made by a certain sender.
 
 ## Method list:
 * [`__construct(string|int $peer)`](#__construct-string-int-peer)
-* [`initialize(\danog\MadelineProto\EventHandler $API): ?\danog\MadelineProto\EventHandler\Filter\Filter`](#initialize-danog-madelineproto-eventhandler-api-danog-madelineproto-eventhandler-filter-filter)
+* [`initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`](#initialize-danog-madelineproto-eventhandler-api-danog-madelineproto-eventhandler-filter-filter)
 * [`apply(\danog\MadelineProto\EventHandler\Update $update): bool`](#apply-danog-madelineproto-eventhandler-update-update-bool)
 * [`fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`](#fromreflectiontype-reflectiontype-type-danog-madelineproto-eventhandler-filter-filter)
 
@@ -34,7 +34,7 @@ Parameters:
 
 
 
-### `initialize(\danog\MadelineProto\EventHandler $API): ?\danog\MadelineProto\EventHandler\Filter\Filter`
+### `initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`
 
 
 
