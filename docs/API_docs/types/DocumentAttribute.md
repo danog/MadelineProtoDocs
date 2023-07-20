@@ -37,6 +37,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [documentAttributeAudio\_45](/API_docs/constructors/documentAttributeAudio_45.html)  
 
+[documentAttributeVideo\_66](/API_docs/constructors/documentAttributeVideo_66.html)  
+
 
 
 ### Methods that return an object of this type (methods):

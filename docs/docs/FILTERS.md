@@ -225,7 +225,7 @@ Here's the full list of filter attributes (see the [MTProto filters &raquo;](#mt
 
 * [danog\MadelineProto\EventHandler\Filter\FilterAllowAll &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterAllowAll.html) - Allow all updates.
 * [danog\MadelineProto\EventHandler\Filter\FilterChannel &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterChannel.html) - Allow only updates coming from channels.
-* [danog\MadelineProto\EventHandler\Filter\FilterCommand(string $command) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterCommand.html) - Allow only messages containing the specified command.
+* [danog\MadelineProto\EventHandler\Filter\FilterCommand(string $command, list<\CommandType> $types = [  0 =>   \danog\MadelineProto\EventHandler\CommandType::BANG,  1 =>   \danog\MadelineProto\EventHandler\CommandType::DOT,  2 =>   \danog\MadelineProto\EventHandler\CommandType::SLASH,]) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterCommand.html) - Allow only messages containing the specified command.
 * [danog\MadelineProto\EventHandler\Filter\FilterForwarded &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterForwarded.html) - Allow only forwarded messages.
 * [danog\MadelineProto\EventHandler\Filter\FilterFromAdmin &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterFromAdmin.html) - Allow only messages coming from the admin (defined as the first peer returned by getReportPeers).
 * [danog\MadelineProto\EventHandler\Filter\FilterFromSenders(string|int ...$idOrUsername) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterFromSenders.html) - Allow incoming or outgoing group messages made by a certain list of senders.
@@ -583,6 +583,9 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdateUser &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateUser.html) - User information was updated, it must be refetched using [users.getFullUser](https://docs.madelineproto.xyz/API_docs/methods/users.getFullUser.html).
 * [onUpdateAutoSaveSettings &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateAutoSaveSettings.html) - Media autosave settings have changed and must be refetched using [account.getAutoSaveSettings](https://docs.madelineproto.xyz/API_docs/methods/account.getAutoSaveSettings.html).
 * [onUpdateGroupInvitePrivacyForbidden &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateGroupInvitePrivacyForbidden.html) - 0-N updates of this type may be returned only when invoking [messages.addChatUser](https://docs.madelineproto.xyz/API_docs/methods/messages.addChatUser.html), [channels.inviteToChannel](https://docs.madelineproto.xyz/API_docs/methods/channels.inviteToChannel.html) or [messages.createChat](https://docs.madelineproto.xyz/API_docs/methods/messages.createChat.html): it indicates we couldn't add a user to a chat because of their privacy settings; if required, an [invite link](https://core.telegram.org/api/invites) can be shared with the user, instead.
+* [onUpdateStory &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateStory.html) - 
+* [onUpdateReadStories &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateReadStories.html) - 
+* [onUpdateStoryID &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateStoryID.html) - 
 
 
 <!-- cut_here_end mtprotofilters -->

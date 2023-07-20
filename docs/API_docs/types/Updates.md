@@ -218,5 +218,11 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->chatlists->leaveChatlist](/API_docs/methods/chatlists.leaveChatlist.html)  
 
+[$MadelineProto->stories->sendStory](/API_docs/methods/stories.sendStory.html)  
+
+[$MadelineProto->stories->editStory](/API_docs/methods/stories.editStory.html)  
+
+[$MadelineProto->stories->getAllReadUserStories](/API_docs/methods/stories.getAllReadUserStories.html)  
+
 
 

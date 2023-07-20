@@ -21,6 +21,11 @@ Notification settings.
 |ios\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|Notification sound for the official iOS application|
 |android\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|Notification sound for the official android application|
 |other\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|Notification sound for other applications|
+|stories\_muted|[Bool](/API_docs/types/Bool.html) | Optional|
+|stories\_hide\_sender|[Bool](/API_docs/types/Bool.html) | Optional|
+|stories\_ios\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|
+|stories\_android\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|
+|stories\_other\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|
 
 
 
@@ -30,5 +35,5 @@ Notification settings.
 ### Example:
 
 ```
-$peerNotifySettings = ['_' => 'peerNotifySettings', 'show_previews' => Bool, 'silent' => Bool, 'mute_until' => int, 'ios_sound' => NotificationSound, 'android_sound' => NotificationSound, 'other_sound' => NotificationSound];
+$peerNotifySettings = ['_' => 'peerNotifySettings', 'show_previews' => Bool, 'silent' => Bool, 'mute_until' => int, 'ios_sound' => NotificationSound, 'android_sound' => NotificationSound, 'other_sound' => NotificationSound, 'stories_muted' => Bool, 'stories_hide_sender' => Bool, 'stories_ios_sound' => NotificationSound, 'stories_android_sound' => NotificationSound, 'stories_other_sound' => NotificationSound];
 ```  

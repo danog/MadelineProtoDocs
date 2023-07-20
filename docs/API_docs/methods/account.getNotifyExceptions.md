@@ -18,6 +18,7 @@ Returns list of chats with non-default notification settings
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |compare\_sound|[Bool](/API_docs/types/Bool.html) | If true, chats with non-default sound will also be returned | Optional|
+|compare\_stories|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |peer|[Username, chat ID, Update, Message or InputNotifyPeer](/API_docs/types/InputNotifyPeer.html) | If specified, only chats of the specified category will be returned | Optional|
 
 
@@ -38,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->account->getNotifyExceptions(compare_sound: $Bool, peer: $InputNotifyPeer, );
+$Updates = $MadelineProto->account->getNotifyExceptions(compare_sound: $Bool, compare_stories: $Bool, peer: $InputNotifyPeer, );
 ```
 

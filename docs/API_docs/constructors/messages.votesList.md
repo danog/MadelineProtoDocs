@@ -17,7 +17,8 @@ How users voted in a poll
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |count|[int](/API_docs/types/int.html) | Yes|Total number of votes for all options (or only for the chosen `option`, if provided to [messages.getPollVotes](../methods/messages.getPollVotes.html))|
-|votes|Array of [MessageUserVote](/API_docs/types/MessageUserVote.html) | Yes|Vote info for each user|
+|votes|Array of [MessagePeerVote](/API_docs/types/MessagePeerVote.html) | Yes|Vote info for each user|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
 |users|Array of [User](/API_docs/types/User.html) | Yes|Info about users that voted in the poll|
 |next\_offset|[string](/API_docs/types/string.html) | Optional|Offset to use with the next [messages.getPollVotes](../methods/messages.getPollVotes.html) request, empty string if no more results are available.|
 
@@ -29,5 +30,5 @@ How users voted in a poll
 ### Example:
 
 ```
-$messages_votesList = ['_' => 'messages.votesList', 'count' => int, 'votes' => [MessageUserVote, MessageUserVote], 'users' => [User, User], 'next_offset' => 'string'];
+$messages_votesList = ['_' => 'messages.votesList', 'count' => int, 'votes' => [MessagePeerVote, MessagePeerVote], 'chats' => [Chat, Chat], 'users' => [User, User], 'next_offset' => 'string'];
 ```  

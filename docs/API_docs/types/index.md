@@ -165,6 +165,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [ExportedMessageLink](/API_docs/types/ExportedMessageLink.html)<a name="ExportedMessageLink"></a>  
 
+[ExportedStoryLink](/API_docs/types/ExportedStoryLink.html)<a name="ExportedStoryLink"></a>  
+
 [FileHash](/API_docs/types/FileHash.html)<a name="FileHash"></a>  
 
 [FileLocation](/API_docs/types/FileLocation.html)<a name="FileLocation"></a>  
@@ -265,6 +267,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [InputPrivacyRule](/API_docs/types/InputPrivacyRule.html)<a name="InputPrivacyRule"></a>  
 
+[InputReplyTo](/API_docs/types/InputReplyTo.html)<a name="InputReplyTo"></a>  
+
 [InputSecureFile](/API_docs/types/InputSecureFile.html)<a name="InputSecureFile"></a>  
 
 [InputSecureValue](/API_docs/types/InputSecureValue.html)<a name="InputSecureValue"></a>  
@@ -327,6 +331,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [MessagePeerReaction](/API_docs/types/MessagePeerReaction.html)<a name="MessagePeerReaction"></a>  
 
+[MessagePeerVote](/API_docs/types/MessagePeerVote.html)<a name="MessagePeerVote"></a>  
+
 [MessageRange](/API_docs/types/MessageRange.html)<a name="MessageRange"></a>  
 
 [MessageReactions](/API_docs/types/MessageReactions.html)<a name="MessageReactions"></a>  
@@ -334,8 +340,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [MessageReplies](/API_docs/types/MessageReplies.html)<a name="MessageReplies"></a>  
 
 [MessageReplyHeader](/API_docs/types/MessageReplyHeader.html)<a name="MessageReplyHeader"></a>  
-
-[MessageUserVote](/API_docs/types/MessageUserVote.html)<a name="MessageUserVote"></a>  
 
 [MessageViews](/API_docs/types/MessageViews.html)<a name="MessageViews"></a>  
 
@@ -475,6 +479,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [SponsoredMessage](/API_docs/types/SponsoredMessage.html)<a name="SponsoredMessage"></a>  
 
+[SponsoredWebPage](/API_docs/types/SponsoredWebPage.html)<a name="SponsoredWebPage"></a>  
+
 [StatsAbsValueAndPrev](/API_docs/types/StatsAbsValueAndPrev.html)<a name="StatsAbsValueAndPrev"></a>  
 
 [StatsDateRangeDays](/API_docs/types/StatsDateRangeDays.html)<a name="StatsDateRangeDays"></a>  
@@ -498,6 +504,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [StickerSet](/API_docs/types/StickerSet.html)<a name="StickerSet"></a>  
 
 [StickerSetCovered](/API_docs/types/StickerSetCovered.html)<a name="StickerSetCovered"></a>  
+
+[StoryItem](/API_docs/types/StoryItem.html)<a name="StoryItem"></a>  
+
+[StoryView](/API_docs/types/StoryView.html)<a name="StoryView"></a>  
+
+[StoryViews](/API_docs/types/StoryViews.html)<a name="StoryViews"></a>  
 
 [TextWithEntities](/API_docs/types/TextWithEntities.html)<a name="TextWithEntities"></a>  
 
@@ -526,6 +538,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [UserProfilePhoto](/API_docs/types/UserProfilePhoto.html)<a name="UserProfilePhoto"></a>  
 
 [UserStatus](/API_docs/types/UserStatus.html)<a name="UserStatus"></a>  
+
+[UserStories](/API_docs/types/UserStories.html)<a name="UserStories"></a>  
 
 [Username](/API_docs/types/Username.html)<a name="Username"></a>  
 
@@ -808,6 +822,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [stickers.SuggestedShortName](/API_docs/types/stickers.SuggestedShortName.html)<a name="stickers.SuggestedShortName"></a>  
 
 [storage.FileType](/API_docs/types/storage.FileType.html)<a name="storage.FileType"></a>  
+
+[stories.AllStories](/API_docs/types/stories.AllStories.html)<a name="stories.AllStories"></a>  
+
+[stories.Stories](/API_docs/types/stories.Stories.html)<a name="stories.Stories"></a>  
+
+[stories.StoryViews](/API_docs/types/stories.StoryViews.html)<a name="stories.StoryViews"></a>  
+
+[stories.StoryViewsList](/API_docs/types/stories.StoryViewsList.html)<a name="stories.StoryViewsList"></a>  
+
+[stories.UserStories](/API_docs/types/stories.UserStories.html)<a name="stories.UserStories"></a>  
 
 [updates.ChannelDifference](/API_docs/types/updates.ChannelDifference.html)<a name="updates.ChannelDifference"></a>  
 

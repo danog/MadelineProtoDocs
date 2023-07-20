@@ -17,9 +17,11 @@ Defines a video
 |----------|---------------|----------|-------------|
 |round\_message|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a round video|
 |supports\_streaming|[Bool](/API_docs/types/Bool.html) | Optional|Whether the video supports streaming|
-|duration|[int](/API_docs/types/int.html) | Optional|Duration in seconds|
+|nosound|[Bool](/API_docs/types/Bool.html) | Optional|
+|duration|[double](/API_docs/types/double.html) | Optional|
 |w|[int](/API_docs/types/int.html) | Optional|Video width|
 |h|[int](/API_docs/types/int.html) | Optional|Video height|
+|preload\_prefix\_size|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -29,5 +31,5 @@ Defines a video
 ### Example:
 
 ```
-$documentAttributeVideo = ['_' => 'documentAttributeVideo', 'round_message' => Bool, 'supports_streaming' => Bool, 'duration' => int, 'w' => int, 'h' => int];
+$documentAttributeVideo = ['_' => 'documentAttributeVideo', 'round_message' => Bool, 'supports_streaming' => Bool, 'nosound' => Bool, 'duration' => double, 'w' => int, 'h' => int, 'preload_prefix_size' => int];
 ```  

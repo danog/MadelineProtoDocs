@@ -16,7 +16,7 @@ A specific user has voted in a poll
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |poll\_id|[long](/API_docs/types/long.html) | Yes|Poll ID|
-|user\_id|[long](/API_docs/types/long.html) | Yes|User ID|
+|peer|[Peer](/API_docs/types/Peer.html) | Yes|
 |options|Array of [bytes](/API_docs/types/bytes.html) | Yes|Chosen option(s)|
 |qts|[int](/API_docs/types/int.html) | Yes|New **qts** value, see [updates »](https://core.telegram.org/api/updates) for more info.|
 
@@ -28,5 +28,5 @@ A specific user has voted in a poll
 ### Example:
 
 ```
-$updateMessagePollVote = ['_' => 'updateMessagePollVote', 'poll_id' => long, 'user_id' => long, 'options' => ['bytes', 'bytes'], 'qts' => int];
+$updateMessagePollVote = ['_' => 'updateMessagePollVote', 'poll_id' => long, 'peer' => Peer, 'options' => ['bytes', 'bytes'], 'qts' => int];
 ```  

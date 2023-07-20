@@ -15,7 +15,9 @@ Global privacy settings
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|archive\_and\_mute\_new\_noncontact\_peers|[Bool](/API_docs/types/Bool.html) | Optional|Whether to archive and mute new chats from non-contacts|
+|archive\_and\_mute\_new\_noncontact\_peers|[Bool](/API_docs/types/Bool.html) | Optional|
+|keep\_archived\_unmuted|[Bool](/API_docs/types/Bool.html) | Optional|
+|keep\_archived\_folders|[Bool](/API_docs/types/Bool.html) | Optional|
 
 
 
@@ -25,5 +27,5 @@ Global privacy settings
 ### Example:
 
 ```
-$globalPrivacySettings = ['_' => 'globalPrivacySettings', 'archive_and_mute_new_noncontact_peers' => Bool];
+$globalPrivacySettings = ['_' => 'globalPrivacySettings', 'archive_and_mute_new_noncontact_peers' => Bool, 'keep_archived_unmuted' => Bool, 'keep_archived_folders' => Bool];
 ```  

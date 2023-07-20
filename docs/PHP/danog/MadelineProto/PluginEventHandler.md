@@ -34,6 +34,7 @@ Plugin event handler class.
 * `$folders`: `\danog\MadelineProto\Namespace\Folders` 
 * `$stats`: `\danog\MadelineProto\Namespace\Stats` 
 * `$chatlists`: `\danog\MadelineProto\Namespace\Chatlists` 
+* `$stories`: `\danog\MadelineProto\Namespace\Stories` 
 * `$tmpDbPrefix`: `?string` 
 
 ## Method list:
@@ -212,7 +213,7 @@ Plugin event handler class.
 * [`unsetEventHandler(): void`](#unseteventhandler-void)
 * [`update2fa(array{password?: string, new_password?: string, email?: string, hint?: string} $params): void`](#update2fa-array-password-string-new_password-string-email-string-hint-string-params-void)
 * [`updateSettings(\danog\MadelineProto\SettingsAbstract $settings): void`](#updatesettings-danog-madelineproto-settingsabstract-settings-void)
-* [`upload(\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array $file, string $fileName = '', callable $cb = NULL, bool $encrypted = false): mixed`](#upload-danog-madelineproto-filecallbackinterface-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-string-array-file-string-filename-callable-cb-null-bool-encrypted-false-mixed)
+* [`upload(\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|\resource $file, string $fileName = '', callable $cb = NULL, bool $encrypted = false): mixed`](#upload-danog-madelineproto-filecallbackinterface-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-string-array-resource-file-string-filename-callable-cb-null-bool-encrypted-false-mixed)
 * [`uploadEncrypted(\danog\MadelineProto\FileCallbackInterface|string|array $file, string $fileName = '', callable $cb = NULL): mixed`](#uploadencrypted-danog-madelineproto-filecallbackinterface-string-array-file-string-filename-callable-cb-null-mixed)
 * [`uploadFromCallable(mixed $callable, int $size, string $mime, string $fileName = '', callable $cb = NULL, bool $seekable = true, bool $encrypted = false): mixed`](#uploadfromcallable-mixed-callable-int-size-string-mime-string-filename-callable-cb-null-bool-seekable-true-bool-encrypted-false-mixed)
 * [`uploadFromStream(mixed $stream, int $size, string $mime, string $fileName = '', callable $cb = NULL, bool $encrypted = false): mixed`](#uploadfromstream-mixed-stream-int-size-string-mime-string-filename-callable-cb-null-bool-encrypted-false-mixed)
@@ -2353,14 +2354,14 @@ Parameters:
 
 
 
-### `upload(\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array $file, string $fileName = '', callable $cb = NULL, bool $encrypted = false): mixed`
+### `upload(\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|\resource $file, string $fileName = '', callable $cb = NULL, bool $encrypted = false): mixed`
 
 Upload file.
 
 
 Parameters:
 
-* `$file`: `\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array` File, URL or Telegram file to upload  
+* `$file`: `\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|\resource` File, URL or Telegram file to upload  
 * `$fileName`: `string` File name  
 * `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
 * `$encrypted`: `bool` Whether to encrypt file for secret chats  
@@ -2371,6 +2372,7 @@ Parameters:
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 * [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
 * [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload.](../../danog/MadelineProto/BotApiFileId.html)
+* `\resource`
 
 
 

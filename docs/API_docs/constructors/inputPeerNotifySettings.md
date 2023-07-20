@@ -19,6 +19,9 @@ Notification settings.
 |silent|[Bool](/API_docs/types/Bool.html) | Optional|Peer was muted?|
 |mute\_until|[int](/API_docs/types/int.html) | Optional|Date until which all notifications shall be switched off|
 |sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|Name of an audio file for notification|
+|stories\_muted|[Bool](/API_docs/types/Bool.html) | Optional|
+|stories\_hide\_sender|[Bool](/API_docs/types/Bool.html) | Optional|
+|stories\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|
 
 
 
@@ -28,5 +31,5 @@ Notification settings.
 ### Example:
 
 ```
-$inputPeerNotifySettings = ['_' => 'inputPeerNotifySettings', 'show_previews' => Bool, 'silent' => Bool, 'mute_until' => int, 'sound' => NotificationSound];
+$inputPeerNotifySettings = ['_' => 'inputPeerNotifySettings', 'show_previews' => Bool, 'silent' => Bool, 'mute_until' => int, 'sound' => NotificationSound, 'stories_muted' => Bool, 'stories_hide_sender' => Bool, 'stories_sound' => NotificationSound];
 ```  

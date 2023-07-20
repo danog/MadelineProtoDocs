@@ -18,7 +18,7 @@ Notify the other user in a private chat that a screenshot of the chat was taken
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Other user | Optional|
-|reply\_to\_msg\_id|[int](/API_docs/types/int.html) | ID of message that was screenshotted, can be 0 | Optional|
+|reply\_to|[InputReplyTo](/API_docs/types/InputReplyTo.html) |  | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendScreenshotNotification(peer: $InputPeer, reply_to_msg_id: $int, );
+$Updates = $MadelineProto->messages->sendScreenshotNotification(peer: $InputPeer, reply_to: $InputReplyTo, );
 ```
 

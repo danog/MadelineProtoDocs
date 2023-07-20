@@ -13,6 +13,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [webPageAttributeTheme](/API_docs/constructors/webPageAttributeTheme.html)  
 
+[webPageAttributeStory](/API_docs/constructors/webPageAttributeStory.html)  
+
 
 
 ### Methods that return an object of this type (methods):

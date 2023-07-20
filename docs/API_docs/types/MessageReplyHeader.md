@@ -13,6 +13,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageReplyHeader](/API_docs/constructors/messageReplyHeader.html)  
 
+[messageReplyStoryHeader](/API_docs/constructors/messageReplyStoryHeader.html)  
+
 
 
 ### Methods that return an object of this type (methods):

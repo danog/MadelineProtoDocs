@@ -15,22 +15,30 @@ Allow only messages containing the specified command.
 
 
 
+## Properties
+* `$commandTypes`: `\CommandType[]` 
 
 ## Method list:
-* [`__construct(string $command)`](#__construct-string-command)
+* [`__construct(string $command, list<\danog\MadelineProto\EventHandler\CommandType> $types = [  0 =>   \danog\MadelineProto\EventHandler\CommandType::BANG,  1 =>   \danog\MadelineProto\EventHandler\CommandType::DOT,  2 =>   \danog\MadelineProto\EventHandler\CommandType::SLASH,])`](#__construct-string-command-list-danog-madelineproto-eventhandler-commandtype-types-0-danog-madelineproto-eventhandler-commandtype-bang-1-danog-madelineproto-eventhandler-commandtype-dot-2-danog-madelineproto-eventhandler-commandtype-slash)
 * [`apply(\danog\MadelineProto\EventHandler\Update $update): bool`](#apply-danog-madelineproto-eventhandler-update-update-bool)
 * [`initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`](#initialize-danog-madelineproto-eventhandler-api-danog-madelineproto-eventhandler-filter-filter)
 * [`fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`](#fromreflectiontype-reflectiontype-type-danog-madelineproto-eventhandler-filter-filter)
 
 ## Methods:
-### `__construct(string $command)`
+### `__construct(string $command, list<\danog\MadelineProto\EventHandler\CommandType> $types = [  0 =>   \danog\MadelineProto\EventHandler\CommandType::BANG,  1 =>   \danog\MadelineProto\EventHandler\CommandType::DOT,  2 =>   \danog\MadelineProto\EventHandler\CommandType::SLASH,])`
 
 
 
 
 Parameters:
 
-* `$command`: `string`   
+* `$command`: `string` Command  
+* `$types`: `list<\danog\MadelineProto\EventHandler\CommandType>` Command types, if empty all command types are allowed.  
+
+
+#### See also: 
+* [\danog\MadelineProto\EventHandler\CommandType](../../../../danog/MadelineProto/EventHandler/CommandType.html)
+
 
 
 

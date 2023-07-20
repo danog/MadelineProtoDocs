@@ -31,14 +31,14 @@ A member left the chat or channel.
 * `$ttlPeriod`: `?int` Time-to-live of the message
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, int $left)`](#__construct-danog-madelineproto-mtproto-api-array-rawmessage-int-left)
+* [`__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, int $left)`](#__construct-danog-madelineproto-mtproto-api-array-rawmessage-array-info-int-left)
 * [`isReply(): bool`](#isreply-bool)
 * [`getReply(): ?self`](#getreply-self)
 * [`delete(bool $revoke = true): void`](#delete-bool-revoke-true-void)
 * [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#reply-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-nowebpage-false-bool-updatestickersetsorder-false-danog-madelineproto-eventhandler-message)
 
 ## Methods:
-### `__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, int $left)`
+### `__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, int $left)`
 
 
 
@@ -47,6 +47,7 @@ Parameters:
 
 * `$API`: `\danog\MadelineProto\MTProto`   
 * `$rawMessage`: `array`   
+* `$info`: `array`   
 * `$left`: `int`   
 
 

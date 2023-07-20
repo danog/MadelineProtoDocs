@@ -27,6 +27,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputPrivacyValueDisallowChatParticipants](/API_docs/constructors/inputPrivacyValueDisallowChatParticipants.html)  
 
+[inputPrivacyValueAllowCloseFriends](/API_docs/constructors/inputPrivacyValueAllowCloseFriends.html)  
+
 
 
 ### Methods that return an object of this type (methods):

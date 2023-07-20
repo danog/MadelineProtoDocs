@@ -29,6 +29,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [privacyKeyVoiceMessages](/API_docs/constructors/privacyKeyVoiceMessages.html)  
 
+[privacyKeyAbout](/API_docs/constructors/privacyKeyAbout.html)  
+
 
 
 ### Methods that return an object of this type (methods):

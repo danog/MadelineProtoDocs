@@ -149,7 +149,7 @@ $MadelineProto->[account->getMultiWallPapers](/API_docs/methods/account.getMulti
 
 ***
 <br><br>
-$MadelineProto->[account->getNotifyExceptions](/API_docs/methods/account.getNotifyExceptions.html)(\[compare_sound: $[Bool](/API_docs/types/Bool.html), peer: $[InputNotifyPeer](/API_docs/types/InputNotifyPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="account.getNotifyExceptions"></a>  
+$MadelineProto->[account->getNotifyExceptions](/API_docs/methods/account.getNotifyExceptions.html)(\[compare_sound: $[Bool](/API_docs/types/Bool.html), compare_stories: $[Bool](/API_docs/types/Bool.html), peer: $[InputNotifyPeer](/API_docs/types/InputNotifyPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="account.getNotifyExceptions"></a>  
 
 ***
 <br><br>
@@ -214,6 +214,10 @@ $MadelineProto->[account->installTheme](/API_docs/methods/account.installTheme.h
 ***
 <br><br>
 $MadelineProto->[account->installWallPaper](/API_docs/methods/account.installWallPaper.html)(\[wallpaper: $[InputWallPaper](/API_docs/types/InputWallPaper.html), settings: $[WallPaperSettings](/API_docs/types/WallPaperSettings.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.installWallPaper"></a>  
+
+***
+<br><br>
+$MadelineProto->[account->invalidateSignInCodes](/API_docs/methods/account.invalidateSignInCodes.html)(\[codes: \[$[string](/API_docs/types/string.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.invalidateSignInCodes"></a>  
 
 ***
 <br><br>
@@ -529,6 +533,10 @@ $MadelineProto->[channels->checkUsername](/API_docs/methods/channels.checkUserna
 
 ***
 <br><br>
+$MadelineProto->[channels->clickSponsoredMessage](/API_docs/methods/channels.clickSponsoredMessage.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="channels.clickSponsoredMessage"></a>  
+
+***
+<br><br>
 $MadelineProto->[channels->convertToGigagroup](/API_docs/methods/channels.convertToGigagroup.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.convertToGigagroup"></a>  
 
 ***
@@ -813,6 +821,10 @@ $MadelineProto->[contacts->deleteContacts](/API_docs/methods/contacts.deleteCont
 
 ***
 <br><br>
+$MadelineProto->[contacts->editCloseFriends](/API_docs/methods/contacts.editCloseFriends.html)(\[id: \[$[long](/API_docs/types/long.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="contacts.editCloseFriends"></a>  
+
+***
+<br><br>
 $MadelineProto->[contacts->exportContactToken](/API_docs/methods/contacts.exportContactToken.html)(\[\]) === [$ExportedContactToken](/API_docs/types/ExportedContactToken.html)<a name="contacts.exportContactToken"></a>  
 
 ***
@@ -870,6 +882,10 @@ $MadelineProto->[contacts->resolveUsername](/API_docs/methods/contacts.resolveUs
 ***
 <br><br>
 $MadelineProto->[contacts->search](/API_docs/methods/contacts.search.html)(\[q: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$contacts.Found](/API_docs/types/contacts.Found.html)<a name="contacts.search"></a>  
+
+***
+<br><br>
+$MadelineProto->[contacts->toggleStoriesHidden](/API_docs/methods/contacts.toggleStoriesHidden.html)(\[id: $[InputUser](/API_docs/types/InputUser.html), hidden: $[Bool](/API_docs/types/Bool.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="contacts.toggleStoriesHidden"></a>  
 
 ***
 <br><br>
@@ -1469,7 +1485,7 @@ $MadelineProto->[messages->migrateChat](/API_docs/methods/messages.migrateChat.h
 
 ***
 <br><br>
-$MadelineProto->[messages->prolongWebView](/API_docs/methods/messages.prolongWebView.html)(\[silent: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), bot: $[InputUser](/API_docs/types/InputUser.html), query_id: $[long](/API_docs/types/long.html), reply_to_msg_id: $[int](/API_docs/types/int.html), top_msg_id: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.prolongWebView"></a>  
+$MadelineProto->[messages->prolongWebView](/API_docs/methods/messages.prolongWebView.html)(\[silent: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), bot: $[InputUser](/API_docs/types/InputUser.html), query_id: $[long](/API_docs/types/long.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.prolongWebView"></a>  
 
 ***
 <br><br>
@@ -1553,7 +1569,7 @@ $MadelineProto->[messages->requestUrlAuth](/API_docs/methods/messages.requestUrl
 
 ***
 <br><br>
-$MadelineProto->[messages->requestWebView](/API_docs/methods/messages.requestWebView.html)(\[from_bot_menu: $[Bool](/API_docs/types/Bool.html), silent: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), bot: $[InputUser](/API_docs/types/InputUser.html), url: $[string](/API_docs/types/string.html), start_param: $[string](/API_docs/types/string.html), theme_params: $[DataJSON](/API_docs/types/DataJSON.html), platform: $[string](/API_docs/types/string.html), reply_to_msg_id: $[int](/API_docs/types/int.html), top_msg_id: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$WebViewResult](/API_docs/types/WebViewResult.html)<a name="messages.requestWebView"></a>  
+$MadelineProto->[messages->requestWebView](/API_docs/methods/messages.requestWebView.html)(\[from_bot_menu: $[Bool](/API_docs/types/Bool.html), silent: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), bot: $[InputUser](/API_docs/types/InputUser.html), url: $[string](/API_docs/types/string.html), start_param: $[string](/API_docs/types/string.html), theme_params: $[DataJSON](/API_docs/types/DataJSON.html), platform: $[string](/API_docs/types/string.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$WebViewResult](/API_docs/types/WebViewResult.html)<a name="messages.requestWebView"></a>  
 
 ***
 <br><br>
@@ -1609,19 +1625,19 @@ $MadelineProto->[messages->sendEncryptedService](/API_docs/methods/messages.send
 
 ***
 <br><br>
-$MadelineProto->[messages->sendInlineBotResult](/API_docs/methods/messages.sendInlineBotResult.html)(\[silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), clear_draft: $[Bool](/API_docs/types/Bool.html), hide_via: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), reply_to_msg_id: $[int](/API_docs/types/int.html), top_msg_id: $[int](/API_docs/types/int.html), query_id: $[long](/API_docs/types/long.html), id: $[string](/API_docs/types/string.html), schedule_date: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendInlineBotResult"></a>  
+$MadelineProto->[messages->sendInlineBotResult](/API_docs/methods/messages.sendInlineBotResult.html)(\[silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), clear_draft: $[Bool](/API_docs/types/Bool.html), hide_via: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), query_id: $[long](/API_docs/types/long.html), id: $[string](/API_docs/types/string.html), schedule_date: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendInlineBotResult"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->sendMedia](/API_docs/methods/messages.sendMedia.html)(\[silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), clear_draft: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), update_stickersets_order: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), reply_to_msg_id: $[int](/API_docs/types/int.html), top_msg_id: $[int](/API_docs/types/int.html), media: $[InputMedia](/API_docs/types/InputMedia.html), message: $[string](/API_docs/types/string.html), reply_markup: $[ReplyMarkup](/API_docs/types/ReplyMarkup.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], schedule_date: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendMedia"></a>  
+$MadelineProto->[messages->sendMedia](/API_docs/methods/messages.sendMedia.html)(\[silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), clear_draft: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), update_stickersets_order: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), media: $[InputMedia](/API_docs/types/InputMedia.html), message: $[string](/API_docs/types/string.html), reply_markup: $[ReplyMarkup](/API_docs/types/ReplyMarkup.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], schedule_date: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendMedia"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->sendMessage](/API_docs/methods/messages.sendMessage.html)(\[no_webpage: $[Bool](/API_docs/types/Bool.html), silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), clear_draft: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), update_stickersets_order: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), reply_to_msg_id: $[int](/API_docs/types/int.html), top_msg_id: $[int](/API_docs/types/int.html), message: $[string](/API_docs/types/string.html), reply_markup: $[ReplyMarkup](/API_docs/types/ReplyMarkup.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], schedule_date: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendMessage"></a>  
+$MadelineProto->[messages->sendMessage](/API_docs/methods/messages.sendMessage.html)(\[no_webpage: $[Bool](/API_docs/types/Bool.html), silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), clear_draft: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), update_stickersets_order: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), message: $[string](/API_docs/types/string.html), reply_markup: $[ReplyMarkup](/API_docs/types/ReplyMarkup.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], schedule_date: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendMessage"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->sendMultiMedia](/API_docs/methods/messages.sendMultiMedia.html)(\[silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), clear_draft: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), update_stickersets_order: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), reply_to_msg_id: $[int](/API_docs/types/int.html), top_msg_id: $[int](/API_docs/types/int.html), multi_media: \[$[InputSingleMedia](/API_docs/types/InputSingleMedia.html)\], schedule_date: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendMultiMedia"></a>  
+$MadelineProto->[messages->sendMultiMedia](/API_docs/methods/messages.sendMultiMedia.html)(\[silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), clear_draft: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), update_stickersets_order: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), multi_media: \[$[InputSingleMedia](/API_docs/types/InputSingleMedia.html)\], schedule_date: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendMultiMedia"></a>  
 
 ***
 <br><br>
@@ -1633,7 +1649,7 @@ $MadelineProto->[messages->sendScheduledMessages](/API_docs/methods/messages.sen
 
 ***
 <br><br>
-$MadelineProto->[messages->sendScreenshotNotification](/API_docs/methods/messages.sendScreenshotNotification.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), reply_to_msg_id: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendScreenshotNotification"></a>  
+$MadelineProto->[messages->sendScreenshotNotification](/API_docs/methods/messages.sendScreenshotNotification.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendScreenshotNotification"></a>  
 
 ***
 <br><br>
@@ -2021,11 +2037,79 @@ $MadelineProto->[stickers->suggestShortName](/API_docs/methods/stickers.suggestS
 
 ***
 <br><br>
+$MadelineProto->[stories->deleteStories](/API_docs/methods/stories.deleteStories.html)(\[id: \[$[int](/API_docs/types/int.html)\], \]) === [$Vector\_of\_int](/API_docs/types/int.html)<a name="stories.deleteStories"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->editStory](/API_docs/methods/stories.editStory.html)(\[id: $[int](/API_docs/types/int.html), media: $[InputMedia](/API_docs/types/InputMedia.html), caption: $[string](/API_docs/types/string.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], privacy_rules: \[$[InputPrivacyRule](/API_docs/types/InputPrivacyRule.html)\], \]) === [$Updates](/API_docs/types/Updates.html)<a name="stories.editStory"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->exportStoryLink](/API_docs/methods/stories.exportStoryLink.html)(\[user_id: $[InputUser](/API_docs/types/InputUser.html), id: $[int](/API_docs/types/int.html), \]) === [$ExportedStoryLink](/API_docs/types/ExportedStoryLink.html)<a name="stories.exportStoryLink"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->getAllReadUserStories](/API_docs/methods/stories.getAllReadUserStories.html)(\[\]) === [$Updates](/API_docs/types/Updates.html)<a name="stories.getAllReadUserStories"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->getAllStories](/API_docs/methods/stories.getAllStories.html)(\[next: $[Bool](/API_docs/types/Bool.html), hidden: $[Bool](/API_docs/types/Bool.html), state: $[string](/API_docs/types/string.html), \]) === [$stories.AllStories](/API_docs/types/stories.AllStories.html)<a name="stories.getAllStories"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->getPinnedStories](/API_docs/methods/stories.getPinnedStories.html)(\[user_id: $[InputUser](/API_docs/types/InputUser.html), offset_id: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), \]) === [$stories.Stories](/API_docs/types/stories.Stories.html)<a name="stories.getPinnedStories"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->getStoriesArchive](/API_docs/methods/stories.getStoriesArchive.html)(\[offset_id: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), \]) === [$stories.Stories](/API_docs/types/stories.Stories.html)<a name="stories.getStoriesArchive"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->getStoriesByID](/API_docs/methods/stories.getStoriesByID.html)(\[user_id: $[InputUser](/API_docs/types/InputUser.html), id: \[$[int](/API_docs/types/int.html)\], \]) === [$stories.Stories](/API_docs/types/stories.Stories.html)<a name="stories.getStoriesByID"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->getStoriesViews](/API_docs/methods/stories.getStoriesViews.html)(\[id: \[$[int](/API_docs/types/int.html)\], \]) === [$stories.StoryViews](/API_docs/types/stories.StoryViews.html)<a name="stories.getStoriesViews"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->getStoryViewsList](/API_docs/methods/stories.getStoryViewsList.html)(\[id: $[int](/API_docs/types/int.html), offset_date: $[int](/API_docs/types/int.html), offset_id: $[long](/API_docs/types/long.html), limit: $[int](/API_docs/types/int.html), \]) === [$stories.StoryViewsList](/API_docs/types/stories.StoryViewsList.html)<a name="stories.getStoryViewsList"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->getUserStories](/API_docs/methods/stories.getUserStories.html)(\[user_id: $[InputUser](/API_docs/types/InputUser.html), \]) === [$stories.UserStories](/API_docs/types/stories.UserStories.html)<a name="stories.getUserStories"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->incrementStoryViews](/API_docs/methods/stories.incrementStoryViews.html)(\[user_id: $[InputUser](/API_docs/types/InputUser.html), id: \[$[int](/API_docs/types/int.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="stories.incrementStoryViews"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->readStories](/API_docs/methods/stories.readStories.html)(\[user_id: $[InputUser](/API_docs/types/InputUser.html), max_id: $[int](/API_docs/types/int.html), \]) === [$Vector\_of\_int](/API_docs/types/int.html)<a name="stories.readStories"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->report](/API_docs/methods/stories.report.html)(\[user_id: $[InputUser](/API_docs/types/InputUser.html), id: \[$[int](/API_docs/types/int.html)\], reason: $[ReportReason](/API_docs/types/ReportReason.html), message: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="stories.report"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->sendStory](/API_docs/methods/stories.sendStory.html)(\[pinned: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), media: $[InputMedia](/API_docs/types/InputMedia.html), caption: $[string](/API_docs/types/string.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], privacy_rules: \[$[InputPrivacyRule](/API_docs/types/InputPrivacyRule.html)\], period: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="stories.sendStory"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->toggleAllStoriesHidden](/API_docs/methods/stories.toggleAllStoriesHidden.html)(\[hidden: $[Bool](/API_docs/types/Bool.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="stories.toggleAllStoriesHidden"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->togglePinned](/API_docs/methods/stories.togglePinned.html)(\[id: \[$[int](/API_docs/types/int.html)\], pinned: $[Bool](/API_docs/types/Bool.html), \]) === [$Vector\_of\_int](/API_docs/types/int.html)<a name="stories.togglePinned"></a>  
+
+***
+<br><br>
 $MadelineProto->[updates->getChannelDifference](/API_docs/methods/updates.getChannelDifference.html)(\[force: $[Bool](/API_docs/types/Bool.html), channel: $[InputChannel](/API_docs/types/InputChannel.html), filter: $[ChannelMessagesFilter](/API_docs/types/ChannelMessagesFilter.html), pts: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), \]) === [$updates.ChannelDifference](/API_docs/types/updates.ChannelDifference.html)<a name="updates.getChannelDifference"></a>  
 
 ***
 <br><br>
-$MadelineProto->[updates->getDifference](/API_docs/methods/updates.getDifference.html)(\[pts: $[int](/API_docs/types/int.html), pts_total_limit: $[int](/API_docs/types/int.html), date: $[int](/API_docs/types/int.html), qts: $[int](/API_docs/types/int.html), \]) === [$updates.Difference](/API_docs/types/updates.Difference.html)<a name="updates.getDifference"></a>  
+$MadelineProto->[updates->getDifference](/API_docs/methods/updates.getDifference.html)(\[pts: $[int](/API_docs/types/int.html), pts_limit: $[int](/API_docs/types/int.html), pts_total_limit: $[int](/API_docs/types/int.html), date: $[int](/API_docs/types/int.html), qts: $[int](/API_docs/types/int.html), qts_limit: $[int](/API_docs/types/int.html), \]) === [$updates.Difference](/API_docs/types/updates.Difference.html)<a name="updates.getDifference"></a>  
 
 ***
 <br><br>
@@ -2066,6 +2150,10 @@ $MadelineProto->[upload->saveFilePart](/API_docs/methods/upload.saveFilePart.htm
 ***
 <br><br>
 $MadelineProto->[users->getFullUser](/API_docs/methods/users.getFullUser.html)(\[id: $[InputUser](/API_docs/types/InputUser.html), \]) === [$users.UserFull](/API_docs/types/users.UserFull.html)<a name="users.getFullUser"></a>  
+
+***
+<br><br>
+$MadelineProto->[users->getStoriesMaxIDs](/API_docs/methods/users.getStoriesMaxIDs.html)(\[id: \[$[InputUser](/API_docs/types/InputUser.html)\], \]) === [$Vector\_of\_int](/API_docs/types/int.html)<a name="users.getStoriesMaxIDs"></a>  
 
 ***
 <br><br>

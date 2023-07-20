@@ -18,6 +18,7 @@ Document (video, audio, voice, sticker, any media type except photo)
 |nopremium|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a normal sticker, if not set this is a premium sticker and a premium sticker animation must be played.|
 |spoiler|[Bool](/API_docs/types/Bool.html) | Optional|Whether this media should be hidden behind a spoiler warning|
 |document|[Document](/API_docs/types/Document.html) | Optional|Attached document|
+|alt\_document|[Document](/API_docs/types/Document.html) | Optional|
 |ttl\_seconds|[int](/API_docs/types/int.html) | Optional|Time to live of self-destructing document|
 
 
@@ -28,5 +29,5 @@ Document (video, audio, voice, sticker, any media type except photo)
 ### Example:
 
 ```
-$messageMediaDocument = ['_' => 'messageMediaDocument', 'nopremium' => Bool, 'spoiler' => Bool, 'document' => Document, 'ttl_seconds' => int];
+$messageMediaDocument = ['_' => 'messageMediaDocument', 'nopremium' => Bool, 'spoiler' => Bool, 'document' => Document, 'alt_document' => Document, 'ttl_seconds' => int];
 ```  
