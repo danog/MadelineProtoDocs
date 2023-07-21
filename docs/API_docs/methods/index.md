@@ -1066,11 +1066,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="contacts.search.html" name="contacts.search">Returns users found by username substring: contacts.search</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#isbot-bool" name="isBot">Returns whether the current user is a bot: isBot</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#isselfbot-bool" name="isSelfBot">Returns whether the current user is a bot: isSelfBot</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#ispremium-bool" name="isPremium">Returns whether the current user is a premium user, cached: isPremium</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#isuser-bool" name="isUser">Returns whether the current user is a user: isUser</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#isselfuser-bool" name="isSelfUser">Returns whether the current user is a user: isSelfUser</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadfromtgfile-mixed-media-callable-cb-null-bool-encrypted-false-mixed" name="uploadFromTgfile">Reupload telegram file: uploadFromTgfile</a>
 

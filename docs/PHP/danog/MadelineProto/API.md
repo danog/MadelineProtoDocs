@@ -186,13 +186,13 @@ Main API wrapper for MadelineProto.
 * [`initSelfRestart(): void`](#initselfrestart-void)
 * [`isAltervista(): bool`](#isaltervista-bool)
 * [`isArrayOrAlike(mixed $var): bool`](#isarrayoralike-mixed-var-bool)
-* [`isBot(): bool`](#isbot-bool)
+* [`isSelfBot(): bool`](#isselfbot-bool)
 * [`isForum(mixed $peer): bool`](#isforum-mixed-peer-bool)
 * [`isIpc(): bool`](#isipc-bool)
 * [`isIpcWorker(): bool`](#isipcworker-bool)
 * [`isPremium(): bool`](#ispremium-bool)
 * [`isSupergroup(int $id): bool`](#issupergroup-int-id-bool)
-* [`isUser(): bool`](#isuser-bool)
+* [`isSelfUser(): bool`](#isselfuser-bool)
 * [`logger(mixed $param, int $level = \danog\MadelineProto\Logger::NOTICE, string $file = ''): void`](#logger-mixed-param-int-level-danog-madelineproto-logger-notice-string-file-void)
 * [`markdownEscape(string $what): string`](#markdownescape-string-what-string)
 * [`markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\MarkdownEntities Object containing message and entities`](#markdowntomessageentities-string-markdown-danog-madelineproto-tl-conversion-markdownentities-object-containing-message-and-entities)
@@ -1558,7 +1558,7 @@ Parameters:
 
 
 
-### `isBot(): bool`
+### `isSelfBot(): bool`
 
 Returns whether the current user is a bot.
 
@@ -1604,7 +1604,7 @@ Parameters:
 
 
 
-### `isUser(): bool`
+### `isSelfUser(): bool`
 
 Returns whether the current user is a user.
 
